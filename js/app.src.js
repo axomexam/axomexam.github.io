@@ -2066,7 +2066,6 @@
       return renderDedicatedArticlePage(main, rec);
     }
 
-    state.page = 0;
     const qs = rec.topic.questions || [];
 
     main.innerHTML = `
@@ -2092,7 +2091,6 @@
             </div>
           </div>
           <div id="qa-list" class="qa-list" style="width:100%; box-sizing:border-box;"></div>
-          <div id="pager" style="margin-top:24px;"></div>
         </div>
       </div>
     `;
@@ -2106,7 +2104,6 @@
         document.body.setAttribute("data-lang", state.lang);
         $$(".lang-btn").forEach((x) => x.classList.toggle("active", x.dataset.lang === state.lang));
         /* Both languages already live in the DOM; just swap the visible one. */
-        syncQAPager();
         refreshReadingModal();
       });
     });
@@ -2225,16 +2222,6 @@
     });
   }
 
-  /* End-of-page marker placed under the pager so readers can see that the
-     current question set ends here and the next page continues after it. */
-  function pagerEndMarkHTML() {
-    return `<div class="pager-end-mark" style="display:flex; align-items:center; justify-content:center; gap:10px; max-width:340px; margin:14px auto 0; color:var(--ink-muted,#94a3b8); font-weight:700; font-size:0.9rem; user-select:none;" aria-hidden="true">
-      <span style="flex:1; border-top:2px dotted currentColor; opacity:.7;"></span>
-      <span style="letter-spacing:1px;">x</span>
-      <span style="flex:1; border-top:2px dotted currentColor; opacity:.7;"></span>
-    </div>`;
-  }
-
   /* ================= Smart Hybrid Q&A Renderer ================= */
   function renderQAPage() {
     const rec = currentTopicRec();
@@ -2269,8 +2256,6 @@
 
       renderMathJax(list);
     }
-    const pager = $("#pager");
-    if (pager) pager.innerHTML = "";
   }
 
   /* Render one topic question card for a given language. Extracted so the
@@ -2344,21 +2329,6 @@
     }
   }
 
-  /* Refresh the topic reading-modal pager label and disabled state without
-     re-rendering the question list (which always holds every question). */
-  function syncQAPager(perPage) {
-    const rec = currentTopicRec();
-    const total = rec && rec.topic.questions ? rec.topic.questions.length : 0;
-    const pp = perPage || (typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10);
-    const totalPages = Math.max(1, Math.ceil(total / pp));
-    const info = $("#pager .pager-info");
-    if (info) info.textContent = `${state.page + 1} / ${totalPages}`;
-    const prev = $("#pg-prev");
-    const next = $("#pg-next");
-    if (prev) prev.disabled = state.page === 0;
-    if (next) next.disabled = state.page >= totalPages - 1;
-  }
-
   /* ================= Reading-mode popup ================= */
   function ensureReadingModal() {
     let modal = $("#read-modal");
@@ -2380,43 +2350,11 @@
           </button>
         </div>
         <div class="read-modal-body" id="read-modal-body" style="padding:20px; max-height:70vh; overflow-y:auto; text-align:left; box-sizing:border-box;"></div>
-        <div class="read-modal-foot" style="display:flex; justify-content:space-between; align-items:center; padding:14px 20px; border-top:1px solid var(--border,#e2e8f0);">
-          <button id="read-prev" type="button" class="btn btn-sm btn-outline" style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-          <span class="read-pageinfo" id="read-pageinfo" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);"></span>
-          <button id="read-next" type="button" class="btn btn-sm btn-outline" style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
-        </div>
-        <div style="padding:0 20px 16px;">${pagerEndMarkHTML()}</div>
       </div>`;
     document.body.appendChild(modal);
 
     $("#read-modal-close", modal).addEventListener("click", closeReadingModal);
     $("#read-modal-backdrop", modal).addEventListener("click", closeReadingModal);
-
-    $("#read-prev", modal).addEventListener("click", () => {
-      if (state.page > 0) {
-        state.page--;
-        syncQAPager();
-        renderReadingModalPage();
-        const b = $("#read-modal-body");
-        if (b) b.scrollTop = 0;
-      }
-    });
-
-    $("#read-next", modal).addEventListener("click", () => {
-      const rec = currentTopicRec();
-      if (!rec) return;
-      const qs = rec.topic.questions || [];
-      const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
-      const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
-
-      if (state.page < totalPages - 1) {
-        state.page++;
-        syncQAPager();
-        renderReadingModalPage();
-        const b = $("#read-modal-body");
-        if (b) b.scrollTop = 0;
-      }
-    });
 
     return modal;
   }
@@ -2442,16 +2380,12 @@
     const modal = $("#read-modal");
     if (!rec || !modal || modal.hidden) return;
     const qs = rec.topic.questions || [];
-    const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
-    const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
-    const start = state.page * perPage;
-    const slice = qs.slice(start, start + perPage);
 
     $(".read-modal-sub", modal).textContent = `${qs.length} ${t("topic.questions")} • ${state.lang === "as" ? t("topic.lang.as") : t("topic.lang.en")}`;
 
     const body = $("#read-modal-body", modal);
-    body.innerHTML = slice.map((item, i) => {
-      const n = start + i + 1;
+    body.innerHTML = qs.map((item, i) => {
+      const n = i + 1;
       const qtext = extractField(item, "question");
       const atext = extractField(item, "answer");
       const options = getOptionsList(item);
@@ -2508,9 +2442,6 @@
     }).join("");
 
     renderMathJax(body);
-    $("#read-pageinfo", modal).textContent = `${state.page + 1} / ${totalPages}`;
-    $("#read-prev", modal).disabled = state.page === 0;
-    $("#read-next", modal).disabled = state.page >= totalPages - 1;
   }
 
   function refreshReadingModal() {
@@ -4473,10 +4404,6 @@
         </div>
       </div>`;
 
-    const CA_PER_PAGE = 40;
-    let caPage = 0;
-    const caTotalPages = Math.max(1, Math.ceil(count / CA_PER_PAGE));
-
     const body = $("#ca-body");
     const updated = meta.updated || "";
     const uploadedBy = meta.uploadedBy || "axomexam team";
@@ -4494,42 +4421,11 @@
           <span><b>${lang === "as" ? "আপলোড কৰিছে" : "Uploaded by"}:</b> ${escapeHtml(uploadedBy)}</span>
         </div></div>`).join("");
       /* All current-affairs questions are rendered in both languages so
-         JS-executing crawlers see the full set; the pager only scrolls. */
+         JS-executing crawlers see the full set. */
       const qHTML = count
         ? bilingualQAList(questions, 0, true)
         : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
-      const pagerHTML = caTotalPages > 1
-        ? `<div class="ca-pager" style="margin-top:24px;">
-            <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
-              <button id="ca-prev" class="btn btn-sm btn-outline" ${caPage === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-              <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${caPage + 1} / ${caTotalPages}</span>
-              <button id="ca-next" class="btn btn-sm btn-outline" ${caPage >= caTotalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
-            </div>
-            ${pagerEndMarkHTML()}
-          </div>`
-        : "";
-      body.innerHTML = introHTML + metaHTML + qHTML + pagerHTML;
-      if (caTotalPages > 1) {
-        const prevBtn = $("#ca-prev");
-        const nextBtn = $("#ca-next");
-        if (prevBtn) prevBtn.addEventListener("click", () => { if (caPage > 0) { caPage--; caScrollToPage(); scheduleEbkProgress(); } });
-        if (nextBtn) nextBtn.addEventListener("click", () => { if (caPage < caTotalPages - 1) { caPage++; caScrollToPage(); scheduleEbkProgress(); } });
-      }
-    };
-    /* Scroll the already-rendered current-affairs list to the requested page
-       and refresh the pager label/disabled state. */
-    const caScrollToPage = () => {
-      const list = $("#ca-body");
-      if (!list) return;
-      const lang = state.lang === "as" ? "as" : "en";
-      const first = list.querySelectorAll(`[data-axo-lang="${lang}"] [data-n]`)[caPage * CA_PER_PAGE];
-      if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
-      const info = list.querySelector(".pager-info");
-      if (info) info.textContent = `${caPage + 1} / ${caTotalPages}`;
-      const p = $("#ca-prev");
-      const n = $("#ca-next");
-      if (p) p.disabled = caPage === 0;
-      if (n) n.disabled = caPage >= caTotalPages - 1;
+      body.innerHTML = introHTML + metaHTML + qHTML;
     };
     paint();
     showEbookProgress(color);
@@ -5021,48 +4917,18 @@
     ).join("")}</div>`;
   }
 
-  function makePaginatedQA(body, questions, perPage, emptyHTML) {
+  /* Render the whole question set on one page. Kept as a factory so callers
+     keep using `const paint = makePaginatedQA(...); paint();`. */
+  function makePaginatedQA(body, questions, emptyHTML) {
     const items = Array.isArray(questions) ? questions : [];
-    const total = items.length;
-    const totalPages = Math.max(1, Math.ceil(total / perPage));
-    let page = 0;
-    const paint = () => {
+    return () => {
       if (!body) return;
-      if (!total) {
+      if (!items.length) {
         body.innerHTML = emptyHTML || `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
         return;
       }
-      const qHTML = bilingualQAList(items, 0, false);
-      const pagerHTML = totalPages > 1
-        ? `<div class="qa-pager" style="margin-top:24px;">
-            <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
-              <button type="button" id="qa-prev" class="btn btn-sm btn-outline" ${page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-              <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${page + 1} / ${totalPages}</span>
-              <button type="button" id="qa-next" class="btn btn-sm btn-outline" ${page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
-            </div>
-            ${pagerEndMarkHTML()}
-          </div>`
-        : "";
-      body.innerHTML = qHTML + pagerHTML;
-      if (totalPages > 1) {
-        const scrollToPage = () => {
-          const lang = state.lang === "as" ? "as" : "en";
-          const first = body.querySelectorAll(`[data-axo-lang="${lang}"] [data-n]`)[page * perPage];
-          if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
-          const info = body.querySelector(".pager-info");
-          if (info) info.textContent = `${page + 1} / ${totalPages}`;
-          const p = body.querySelector("#qa-prev");
-          const n = body.querySelector("#qa-next");
-          if (p) p.disabled = page === 0;
-          if (n) n.disabled = page >= totalPages - 1;
-        };
-        const prevBtn = body.querySelector("#qa-prev");
-        const nextBtn = body.querySelector("#qa-next");
-        if (prevBtn) prevBtn.addEventListener("click", () => { if (page > 0) { page--; scrollToPage(); scheduleEbkProgress(); } });
-        if (nextBtn) nextBtn.addEventListener("click", () => { if (page < totalPages - 1) { page++; scrollToPage(); scheduleEbkProgress(); } });
-      }
+      body.innerHTML = bilingualQAList(items, 0, false);
     };
-    return paint;
   }
 
   function examBodyHTML(data, sec, lang, idPrefix) {
@@ -5218,7 +5084,7 @@
     const isChapterData = secType === "syllabus" || (data.chapters && data.chapters.length);
     const paint = isChapterData
       ? () => { if (body) body.innerHTML = bilingualExamBody(data, sec); }
-      : makePaginatedQA(body, Array.isArray(data.questions) ? data.questions : [], 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
+      : makePaginatedQA(body, Array.isArray(data.questions) ? data.questions : [], `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint();
     showEbookProgress(color);
 
@@ -5343,7 +5209,7 @@
       </div>`;
 
     const body = $("#exam-body");
-    const paint = makePaginatedQA(body, questions, 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
+    const paint = makePaginatedQA(body, questions, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint();
     showEbookProgress(color);
 
@@ -5438,7 +5304,7 @@
       </div>`;
 
     const body = $("#exam-body");
-    const paint = makePaginatedQA(body, questions, 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
+    const paint = makePaginatedQA(body, questions, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint();
     showEbookProgress(color);
 
