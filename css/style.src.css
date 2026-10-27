@@ -713,6 +713,10 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
    Topic page — Q&A
    ============================================================ */
 .topic-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 26px; padding: 26px 0 40px; align-items: start; }
+/* Grid items default to min-width:auto, so an intrinsically wide Q&A card
+   (content-visibility sizing) would push the single column past the viewport
+   on phones. Let the column collapse to the available width. */
+.topic-layout > * { min-width: 0; }
 
 .qa-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
 .qa-toolbar .qt-info { font-size: .88rem; color: var(--ink-faint); }
@@ -2700,4 +2704,17 @@ a.axo-editorial-link:hover,
 }
 .qa-list {
   contain: layout style;
+}
+
+/* Long option/answer strings (URLs, formulas, Assamese compounds) must wrap
+   inside the card rather than widen the page on narrow screens. */
+.qa-card,
+.qa-card .qtext,
+.qa-card .a-body,
+.qa-card .qa-exp,
+.qa-card .qa-options-inline,
+.qa-card .qa-options {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
