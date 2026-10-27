@@ -48,6 +48,13 @@ All three are idempotent; run with `--check` first.
   page is genuinely indexable (canonical points at itself).
 - `tools/add-lang-attributes.js` - adds `lang="as"`/`lang="en"` to elements
   that already carry `data-axo-lang`. `data-axo-lang` is preserved.
+- `tools/inject-ebook-bilingual.js` - rebuilds `<div id="ebk-body">` on
+  `/ebooks/<id>/` reader pages so both the English and the Assamese chapters
+  are in the served HTML, each in its own `lang="en"`/`lang="as"` wrapper
+  (never `data-axo-lang`, which `css/style.css` hides until
+  `body[data-lang=as]`). Everything outside `#ebk-body` is untouched. Mirrors
+  `ebkBilingualBodyHTML` in `tools/prerender.js`, which now emits the same
+  markup.
 - `tools/apply-real-dates.js` - derives `datePublished`/`dateModified`, the
   visible `Published:`/`Last updated:` labels and `sitemap.xml` `<lastmod>`
   from git history. `git log` is newest-first, so the *last* entry for a path

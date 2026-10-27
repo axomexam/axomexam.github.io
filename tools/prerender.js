@@ -363,21 +363,39 @@ function ebkContentHTML(text) {
   return html;
 }
 
-function ebkReaderBodyHTML(book, lang) {
+/* Localised "Contents" heading, matching js/i18n.js ebooks.toc. */
+const EBK_TOC_LABEL = { en: "Contents", as: "বিষয়-সূচী" };
+
+function ebkReaderBodyHTML(book, lang, idPrefix) {
   const chapters = book.chapters || [];
+  const prefix = String(idPrefix || "ebk-ch").replace(/[^A-Za-z0-9_-]/g, "");
+  const tocLabel = EBK_TOC_LABEL[lang] || EBK_TOC_LABEL.en;
   const toc = chapters.map((c, i) => `
-      <a class="ebk-toc-item" href="#ebk-ch-${i}">
+      <a class="ebk-toc-item" href="#${prefix}-${i}">
         <span class="ebk-toc-no">${i + 1}</span>
         <span>${escapeHtml(ebkLang(c.title, lang))}</span>
       </a>`).join("");
   const list = chapters.map((c, i) => `
-      <section class="ebk-chapter" id="ebk-ch-${i}">
+      <section class="ebk-chapter" id="${prefix}-${i}">
         <h3 class="ebk-ch-title"><span class="ebk-ch-no">${i + 1}</span>${escapeHtml(ebkLang(c.title, lang))}</h3>
         <div class="ebk-ch-body">${ebkContentHTML(ebkLang(c.content, lang))}</div>
       </section>`).join("");
   return `
-      ${chapters.length > 1 ? `<nav class="ebk-toc" aria-label="Contents"><h4>Contents</h4>${toc}</nav>` : ""}
+      ${chapters.length > 1 ? `<nav class="ebk-toc" aria-label="${tocLabel}"><h4>${tocLabel}</h4>${toc}</nav>` : ""}
       <div class="ebk-chapters">${list}</div>`;
+}
+
+/* Both languages. This block lives INSIDE <main id="app">, which the runtime
+   replaces on load, so it is the crawler / no-JS copy — the same convention
+   topic, exam and current-affairs pages use: each language sits in its own
+   lang="…" wrapper and BOTH are rendered, so Googlebot indexes the full
+   bilingual book. No data-axo-lang here: css/style.css hides
+   [data-axo-lang=as] until body[data-lang=as], which would make the Assamese
+   text invisible to crawlers. */
+function ebkBilingualBodyHTML(book) {
+  return ["en", "as"].map((lang) =>
+    `<div lang="${lang}">${ebkReaderBodyHTML(book, lang, lang === "en" ? "ebk-ch" : "ebk-ch-as")}</div>`
+  ).join("");
 }
 
 const EBOOKS = [];
@@ -1863,7 +1881,7 @@ function buildEbookReader(book) {
           </div>
         </div>
 
-        <div id="ebk-body">${ebkReaderBodyHTML(book, "en")}</div>
+        <div id="ebk-body">${ebkBilingualBodyHTML(book)}</div>
 
         <div class="ebk-reader-foot">
           <a class="btn btn-outline btn-sm" href="/ebooks">
