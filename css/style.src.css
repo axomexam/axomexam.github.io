@@ -2025,7 +2025,9 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 [data-theme="dark"] .ebook-card .ebook-meta { background: var(--bg-soft); }
 [data-theme="dark"] .ebk-head-title { color: var(--ink, #e5e7eb); }
 
-/* E-book reading progress bar (native scrollbar is hidden on mobile) */
+/* Reading progress bar (native scrollbar is hidden on mobile) — shown on long
+   reading pages: e-books, free-practice Q&A, articles, exam chapters and
+   current affairs. */
 .ebk-progress {
   position: fixed; top: 0; left: 0; right: 0; height: 6px;
   z-index: 400; pointer-events: none;
