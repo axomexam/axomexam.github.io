@@ -352,35 +352,12 @@
       if (tmp.firstElementChild) main.appendChild(tmp.firstElementChild);
       return;
     }
-    const name = o.name || "";
-    const info = o.info || subjectInfo(o.id) || "";
-    const faqs = (o.faqs || []).slice();
-    const count = o.count || 0;
-    const total = o.total || 0;
-    if (!o.noDefaults) {
-      faqs.push({
-        q: "Is " + name + " available for free on axomexam?",
-        a: "Yes. Every mock test, question bank, explanation and PDF note on axomexam.in is completely free. There is no login, subscription or hidden charge."
-      });
-      faqs.push({
-        q: "Can I study " + name + " in Assamese as well as English?",
-        a: "Yes. Questions and explanations are bilingual. You can switch between Assamese and English while reading so the same concept is reinforced in both languages."
-      });
-      if (count > 0) {
-        faqs.push({
-          q: "How much material is available for " + name + "?",
-          a: "This section currently offers " + count + " topics" + (total > 0 ? " with around " + total + " questions" : "") + " and is updated regularly as new questions are added."
-        });
-      }
-    }
-    appendSeoFaq(main, {
-      h2: o.h2 || (name + " - Overview"),
-      name: name,
-      info: info,
-      items: o.items || [],
-      tips: o.tips || subjectTips(o.id),
-      faqs: faqs
-    });
+    /* The rest of the panel is not built here on purpose. Every route that
+       used to reach this point ships a pre-rendered panel in its own
+       index.html, and syncSeoStaticBlock() restores that exact node after
+       renderRoute() has rewritten #app. Generating a second copy here meant
+       inventing answers from a shared template, which put text in the DOM
+       that the static page did not contain. */
   }
 
   /* ================= Math & Formula Formatter ================= */
@@ -1375,6 +1352,129 @@
      new page's block never appears and a manual reload is required.
      Fetch the target page, pull its block and swap it in so the extra
      content shows immediately. */
+  /* One fetch per route, shared by the static-block syncs below: they both
+     need the same page HTML and would otherwise request it twice. */
+  const pageHtmlCache = Object.create(null);
+  function fetchPageHtml(path) {
+    if (!pageHtmlCache[path]) {
+      pageHtmlCache[path] = fetch(path, { cache: "no-store" })
+        .then((res) => (res.ok ? res.text() : ""))
+        .catch(() => "");
+    }
+    return pageHtmlCache[path];
+  }
+
+  /* ============ SEO panel static sync ============
+     Every category / section / previous-year / mock-test page ships a
+     pre-rendered <section class="section seo-deep" data-axo-seo="1"> inside
+     #app, holding its own overview, preparation tips and FAQ.
+
+     autoSeo() used to rebuild that panel in the browser from a handful of
+     shared sentence templates, so the DOM a visitor (and Google's renderer)
+     saw carried boilerplate the static file no longer had - the visible text
+     and the indexed text disagreed. Topic pages were worse: they have no
+     autoSeo() call at all, so renderTopicPage() wiped the panel with
+     innerHTML and the page lost its overview and FAQ entirely after boot.
+
+     Fetch the page's own panel and put it back, so the rendered DOM matches
+     the HTML a crawler reads. */
+  /* ============ Whole-body static sync for article pages ============
+     A few routes (exam syllabi, the static legal/team pages) ship their
+     entire #app body as one pre-rendered <section>, but their renderers are
+     thin fallbacks that paint something much smaller - renderExamSectionPage()
+     emits a chapter-card grid where the file has a full article, so a visitor
+     after boot sees a fraction of the page and the FAQ is gone entirely.
+
+     Those pages are recognisable by the pre-rendered <article class="info-panel">
+     that the renderer never produces: only the two exam-syllabus pages have one
+     inside #app, and their renderer emits a chapter-card grid instead. The
+     test keeps this off every other route, where the renderer genuinely builds
+     a richer body than the file contains. */
+  async function syncStaticMainBlock(targetPath) {
+    const main = document.getElementById("app");
+    if (!main || !targetPath) return;
+    /* A seo-deep panel means the renderer produced real content of its own, so
+       the file is not more authoritative than the DOM. The reverse test cannot
+       run on the DOM: the renderer for these routes paints a different body, so
+       the article marker only exists on the file's side. */
+    if (main.querySelector("section.seo-deep")) return;
+
+    const want = normalizeExtraPath(targetPath);
+    const html = await fetchPageHtml(want);
+    if (!html) return;
+    if (normalizeExtraPath(window.location.pathname) !== want) return;
+
+    let doc;
+    try { doc = new DOMParser().parseFromString(html, "text/html"); } catch (e) { return; }
+    const src = doc.getElementById("app");
+    if (!src || src.querySelector("section.seo-deep")) return;
+    if (!src.querySelector("article.info-panel")) return;
+
+    const frag = document.createDocumentFragment();
+    Array.from(src.childNodes).forEach((n) => frag.appendChild(document.importNode(n, true)));
+    main.innerHTML = "";
+    main.appendChild(frag);
+  }
+
+  /* ============ Authored hub content ============
+     The exam hub pages (exams/, exams/<exam>/, exams/<exam>/<section>/ and the
+     nested sub-category level) carry an "About this ..." block written into the
+     file by tools/enrich-thin-pages.js, marked section.axo-main-content. It is
+     the only prose those pages have - the renderer paints link cards and nothing
+     else - so without it the hub reads as thin content to AdSense and to a
+     visitor alike.
+
+     Append it after the renderer has run. This adds to the DOM rather than
+     replacing it, so the card grid the renderer builds stays where it is. */
+  async function syncMainContentBlock(targetPath) {
+    const main = document.getElementById("app");
+    if (!main || !targetPath) return;
+
+    const want = normalizeExtraPath(targetPath);
+    const html = await fetchPageHtml(want);
+    if (!html) return;
+    if (normalizeExtraPath(window.location.pathname) !== want) return;
+
+    let doc;
+    try { doc = new DOMParser().parseFromString(html, "text/html"); } catch (e) { return; }
+    const section = doc.querySelector("section.axo-main-content[data-axo-main-content]");
+    if (!section) return;
+    if (normalizeExtraPath(window.location.pathname) !== want) return;
+
+    const node = document.importNode(section, true);
+    const existing = main.querySelector("section.axo-main-content[data-axo-main-content]");
+    if (existing) existing.replaceWith(node);
+    else main.appendChild(node);
+  }
+
+  const seoStaticCache = Object.create(null);
+  let seoStaticRequest = null;
+
+  async function syncSeoStaticBlock(targetPath) {
+    const main = document.getElementById("app");
+    if (!main || !targetPath) return;
+    const token = (seoStaticRequest = {});
+    const want = normalizeExtraPath(targetPath);
+
+    let html = seoStaticCache[want];
+    if (html === undefined) html = seoStaticCache[want] = await fetchPageHtml(want);
+    if (seoStaticRequest !== token || !html) return;
+
+    let doc;
+    try { doc = new DOMParser().parseFromString(html, "text/html"); } catch (e) { return; }
+    const section = doc.querySelector("section.seo-deep[data-axo-seo]");
+    if (!section) return;
+
+    /* A newer navigation may have started while this fetch was in flight. */
+    if (seoStaticRequest !== token) return;
+    if (normalizeExtraPath(window.location.pathname) !== want) return;
+
+    const node = document.importNode(section, true);
+    const existing = main.querySelector("section.seo-deep");
+    if (existing) existing.replaceWith(node);
+    else main.appendChild(node);
+  }
+
   const extraStaticCache = Object.create(null);
   let extraStaticRequest = null;
 
@@ -1410,14 +1510,7 @@
     if (currentPath === want) return;
 
     let html = extraStaticCache[want];
-    if (html === undefined) {
-      try {
-        const res = await fetch(want, { cache: "no-store" });
-        html = extraStaticCache[want] = res.ok ? await res.text() : "";
-      } catch (e) {
-        return;
-      }
-    }
+    if (html === undefined) html = extraStaticCache[want] = await fetchPageHtml(want);
     if (extraStaticRequest !== token) return;
 
     if (!html) {
@@ -1506,6 +1599,19 @@
     state.lang = isEnglishContent(segs) ? "en" : "as";
     document.body.setAttribute("data-lang", state.lang);
 
+    const rendered = await dispatchRoute(main, segs);
+
+    /* Every route renderer replaces #app wholesale, and several of them await
+       data before doing so. The SEO panel is restored only once the renderer
+       has settled, otherwise the panel inserted earlier would be wiped by the
+       innerHTML assignment that follows the await. */
+    await syncSeoStaticBlock(window.location.pathname);
+    await syncStaticMainBlock(window.location.pathname);
+    await syncMainContentBlock(window.location.pathname);
+    return rendered;
+  }
+
+  async function dispatchRoute(main, segs) {
     if (segs.length === 0) return renderHome(main);
     if (segs[0] === "category") {
       const cat = state.categories.find((c) => c.id === segs[1]);

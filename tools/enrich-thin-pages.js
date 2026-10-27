@@ -35,8 +35,16 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const CHECK = process.argv.includes("--check");
+const MIN_WORDS = 300;
 const EXAMS_INDEX = path.join(ROOT, "data", "exams", "index.json");
 const EXAM_DATA = path.join(ROOT, "data", "exams");
+const {
+  SECTION_NOTES,
+  SUB_NOTES,
+  EXAM_NOTES,
+  EXAMS_ROOT,
+} = require("./enrich-content.data.js");
+
 const MARK_OPEN = '<section class="section axo-main-content" data-axo-main-content="1"';
 const MARK_RE = /<section class="section axo-main-content"[^>]*data-axo-main-content="1"[\s\S]*?<\/section>/;
 
@@ -125,6 +133,41 @@ function panel(inner) {
 
 /* ---------- block builders ---------- */
 
+/* ---------- shared markup helpers ---------- */
+
+const H3 = 'color:var(--ink,#0f172a); margin-top:22px;';
+const UL = 'margin:8px 0 0 20px; line-height:1.9;';
+
+function h2(text) {
+  return `        <h2 style="margin-top:0; color:var(--ink,#0f172a);">${esc(text)}</h2>\n`;
+}
+function h3(text) {
+  return `        <h3 style="${H3}">${esc(text)}</h3>\n`;
+}
+function paras(list) {
+  return (list || []).map((p) => `        <p>${esc(p)}</p>\n`).join("");
+}
+function ul(items) {
+  if (!items || !items.length) return "";
+  return (
+    `        <ul style="${UL}">\n` +
+    items.map((t) => `          <li>${t}</li>`).join("\n") +
+    `\n        </ul>\n`
+  );
+}
+/* Note bullets come from the data module, so they are escaped; the row lists
+   below are assembled from already-escaped titles and are passed through. */
+function ulRaw(items) {
+  if (!items || !items.length) return "";
+  return (
+    `        <ul style="${UL}">\n` +
+    items.map((t) => `          <li>${t}</li>`).join("\n") +
+    `\n        </ul>\n`
+  );
+}
+
+/* ---------- block builders ---------- */
+
 function examsRootBlock(data) {
   const exams = data.exams || [];
   const rows = exams
@@ -132,20 +175,18 @@ function examsRootBlock(data) {
       const secs = e.sections || [];
       const total = secs.reduce((a, s) => a + sectionQuestionCount(e.id, s.id), 0);
       const as = lang(e.title, "as");
-      return `<li><strong>${esc(lang(e.title, "en"))}</strong>${as && as !== lang(e.title, "en") ? ` <span lang="as">${esc(as)}</span>` : ""} — ${secs.length} sections, ${total.toLocaleString("en-IN")} practice questions.</li>`;
-    })
-    .join("\n          ");
+      return `<strong>${esc(lang(e.title, "en"))}</strong>${as && as !== lang(e.title, "en") ? ` <span lang="as">${esc(as)}</span>` : ""} — ${secs.length} sections, ${total.toLocaleString("en-IN")} practice questions.`;
+    });
   return panel(
-    `        <h2 style="margin-top:0; color:var(--ink,#0f172a);">Exam-wise practice on axomexam</h2>\n` +
-      `        <p>axomexam organises its bilingual (Assamese &amp; English) practice material by recruitment exam, then by subject and sub-category. Each exam below opens into its own set of sections, and every section holds question-wise MCQs with answers and worked explanations.</p>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Exams covered</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n          ${rows}\n        </ul>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">How to use this section</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n` +
-      `          <li>Pick your exam, then the subject you want to revise.</li>\n` +
-      `          <li>Work through the sub-categories in order and read the explanation after each answer.</li>\n` +
-      `          <li>Switch between Assamese and English to reinforce the same concept in both languages.</li>\n` +
-      `        </ul>`
+    h2("Exam-wise practice on axomexam") +
+      paras(EXAMS_ROOT.about) +
+      h3("Exams covered") +
+      ulRaw(rows) +
+      h3("How the material is organised") +
+      `        <p>Each exam is a self-contained book. Its sections follow the subjects the paper actually tests, and every section breaks down into sub-categories, which are the individual practice sets. Nothing is shared between exams: the Assam Police and ADRE books cover overlapping subjects, but each is laid out against its own syllabus.</p>\n` +
+      `        <p>Inside a set, a question carries four options, one correct answer and a short explanation. The explanation is the part worth reading even when you answer correctly, because it states the rule or fact the question was testing, and that is what transfers to a question you have not seen before.</p>\n` +
+      h3("How to use this section") +
+      ul(EXAMS_ROOT.usage)
   );
 }
 
@@ -155,24 +196,26 @@ function examPageBlock(data, exam) {
   const total = qaSecs.reduce((a, s) => a + sectionQuestionCount(exam.id, s.id), 0);
   const examEn = lang(exam.title, "en");
   const sub = lang(exam.subtitle, "en");
-  const rows = qaSecs
-    .map((s) => {
-      const n = sectionQuestionCount(exam.id, s.id);
-      const leaves = sectionLeafCount(exam.id, s.id);
-      return `<li><strong>${esc(lang(s.title, "en"))}</strong> — ${leaves} sub-categor${leaves === 1 ? "y" : "ies"}, ${n.toLocaleString("en-IN")} questions.</li>`;
-    })
-    .join("\n          ");
+  const notes = EXAM_NOTES[exam.id] || {};
+
+  const rows = qaSecs.map((s) => {
+    const n = sectionQuestionCount(exam.id, s.id);
+    const leaves = sectionLeafCount(exam.id, s.id);
+    const as = lang(s.title, "as");
+    const asShort = as.length > 60 ? as.slice(0, 57).trim() + "..." : as;
+    return `<strong>${esc(lang(s.title, "en"))}</strong>${asShort && asShort !== lang(s.title, "en") ? ` <span lang="as">${esc(asShort)}</span>` : ""} — ${leaves} sub-categor${leaves === 1 ? "y" : "ies"}, ${n.toLocaleString("en-IN")} questions.`;
+  });
+
   return panel(
-    `        <h2 style="margin-top:0; color:var(--ink,#0f172a);">About the ${esc(examEn)} question bank</h2>\n` +
+    h2(`About the ${examEn} question bank`) +
+      paras(notes.about) +
       `        <p>${esc(examEn)}${sub ? ` (${esc(sub)})` : ""} is covered on axomexam through ${qaSecs.length} subject sections and ${total.toLocaleString("en-IN")} bilingual practice questions. Every question is written in Assamese and English with four options, a marked answer and a short explanation.</p>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Subjects in this exam</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n          ${rows}\n        </ul>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">How to prepare</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n` +
-      `          <li>Start with the subject that carries the most questions, then move to the shorter ones.</li>\n` +
-      `          <li>Attempt each sub-category fully before checking the explanations.</li>\n` +
-      `          <li>Revise the questions you get wrong in a second pass a few days later.</li>\n` +
-      `        </ul>`
+      h3("Subjects in this exam") +
+      ulRaw(rows) +
+      h3(`How the ${examEn} paper is built`) +
+      ul(notes.pattern) +
+      h3("How to prepare") +
+      ul(notes.strategy)
   );
 }
 
@@ -182,27 +225,29 @@ function examSectionBlock(exam, sec) {
   const secEn = lang(sec.title, "en");
   const secAs = lang(sec.title, "as");
   const total = sectionQuestionCount(exam.id, sec.id);
+  const notes = SECTION_NOTES[sec.id] || {};
 
-  const rows = subs
-    .map((s) => {
-      const n = sectionQuestionCount(exam.id, sec.id + "/" + s.id) || countQuestions(path.join(EXAM_DATA, exam.id, sec.id, s.id));
-      const as = lang(s.title, "as");
-      const asShort = as.length > 60 ? as.slice(0, 57).trim() + "..." : as;
-      return `<li><strong>${esc(lang(s.title, "en"))}</strong>${asShort && asShort !== lang(s.title, "en") ? ` <span lang="as">${esc(asShort)}</span>` : ""} — ${n.toLocaleString("en-IN")} question${n === 1 ? "" : "s"}.</li>`;
-    })
-    .join("\n          ");
+  const rows = subs.map((s) => {
+    const n =
+      sectionQuestionCount(exam.id, sec.id + "/" + s.id) ||
+      countQuestions(path.join(EXAM_DATA, exam.id, sec.id, s.id));
+    const as = lang(s.title, "as");
+    const asShort = as.length > 60 ? as.slice(0, 57).trim() + "..." : as;
+    return `<strong>${esc(lang(s.title, "en"))}</strong>${asShort && asShort !== lang(s.title, "en") ? ` <span lang="as">${esc(asShort)}</span>` : ""} — ${n.toLocaleString("en-IN")} question${n === 1 ? "" : "s"}.`;
+  });
 
   return panel(
-    `        <h2 style="margin-top:0; color:var(--ink,#0f172a);">${esc(secEn)} for ${esc(examEn)} — what this section covers</h2>\n` +
+    h2(`${secEn} for ${examEn} — what this section covers`) +
       `        <p>${esc(secEn)}${secAs && secAs !== secEn ? ` (${esc(secAs)})` : ""} is one of the subjects in the ${esc(examEn)} syllabus on axomexam. It currently holds ${total.toLocaleString("en-IN")} bilingual (Assamese &amp; English) practice questions across ${subs.length} sub-categor${subs.length === 1 ? "y" : "ies"}, each question carrying four options, the correct answer and a worked explanation.</p>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Sub-categories in ${esc(secEn)}</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n          ${rows}\n        </ul>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">How to prepare ${esc(secEn)}</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n` +
-      `          <li>Read the sub-category list above and decide the order you want to attempt them in.</li>\n` +
-      `          <li>Finish one sub-category at a time and read the explanation for every wrong answer.</li>\n` +
-      `          <li>Re-attempt the same sub-category after a few days to confirm the facts have stuck.</li>\n` +
-      `        </ul>`
+      paras(notes.covers) +
+      h3(`Sub-categories in ${secEn}`) +
+      ulRaw(rows) +
+      h3(`What the ${secEn} questions test`) +
+      ul(notes.skills) +
+      h3(`Where candidates lose marks in ${secEn}`) +
+      ul(notes.mistakes) +
+      h3(`How to prepare ${secEn}`) +
+      ul(notes.method)
   );
 }
 
@@ -215,41 +260,61 @@ function examSubcategoryBlock(exam, sec, sub) {
   const subEn = lang(sub.title, "en");
   const subAs = lang(sub.title, "as");
   const total = sectionQuestionCount(exam.id, sec.id + "/" + sub.id);
+  const notes = SUB_NOTES[sec.id + "/" + sub.id] || {};
 
-  const rows = leaves
-    .map((l) => {
-      const n = sectionQuestionCount(exam.id, sec.id + "/" + sub.id + "/" + l.id);
-      const as = lang(l.title, "as");
-      const asShort = as.length > 60 ? as.slice(0, 57).trim() + "..." : as;
-      return `<li><strong>${esc(lang(l.title, "en"))}</strong>${asShort && asShort !== lang(l.title, "en") ? ` <span lang="as">${esc(asShort)}</span>` : ""} — ${n.toLocaleString("en-IN")} question${n === 1 ? "" : "s"}.</li>`;
-    })
-    .join("\n          ");
+  const rows = leaves.map((l) => {
+    const n = sectionQuestionCount(exam.id, sec.id + "/" + sub.id + "/" + l.id);
+    const as = lang(l.title, "as");
+    const asShort = as.length > 60 ? as.slice(0, 57).trim() + "..." : as;
+    return `<strong>${esc(lang(l.title, "en"))}</strong>${asShort && asShort !== lang(l.title, "en") ? ` <span lang="as">${esc(asShort)}</span>` : ""} — ${n.toLocaleString("en-IN")} question${n === 1 ? "" : "s"}.`;
+  });
+
+  /* The topic names are already on the page as cards, but a crawler reading
+     only the text needs them as prose too, and naming them here is what makes
+     this paragraph specific to the page rather than to the section. */
+  const names = leaves.map((l) => lang(l.title, "en"));
+  const nameList =
+    names.length === 0
+      ? ""
+      : names.length === 1
+        ? names[0]
+        : names.slice(0, -1).join(", ") + " and " + names[names.length - 1];
 
   return panel(
-    `        <h2 style="margin-top:0; color:var(--ink,#0f172a);">${esc(subEn)} — ${esc(secEn)}, ${esc(examEn)}</h2>\n` +
+    h2(`${subEn} — ${secEn}, ${examEn}`) +
       `        <p>${esc(subEn)}${subAs && subAs !== subEn ? ` (${esc(subAs)})` : ""} is a topic group inside ${esc(secEn)} for the ${esc(examEn)} syllabus on axomexam. It contains ${leaves.length} practice sub-categor${leaves.length === 1 ? "y" : "ies"} and ${total.toLocaleString("en-IN")} bilingual (Assamese &amp; English) questions in total, each with four options, the correct answer and an explanation.</p>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Topics in ${esc(subEn)}</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n          ${rows}\n        </ul>\n` +
-      `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">How to prepare</h3>\n` +
-      `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n` +
-      `          <li>Work through the topics above one at a time rather than skipping around.</li>\n` +
-      `          <li>Read the explanation for every question you miss and note the underlying rule.</li>\n` +
-      `          <li>Return to the same topic after a few days to confirm it has stuck.</li>\n` +
-      `        </ul>`
+      (nameList
+        ? `        <p>The sub-categories in this group are ${esc(nameList)}. Each one is a separate practice set, so you can revise a single topic without working through the rest of ${esc(secEn)} first.</p>\n`
+        : "") +
+      (notes.focus ? `        <p>${esc(notes.focus)}</p>\n` : "") +
+      h3(`Topics in ${subEn}`) +
+      ulRaw(rows) +
+      (notes.method ? h3(`How to work through ${subEn}`) + `        <p>${esc(notes.method)}</p>\n` : "") +
+      (notes.trap ? h3(`The usual mistake in ${subEn}`) + `        <p>${esc(notes.trap)}</p>\n` : "") +
+      h3(`How these ${esc(subEn)} questions are set`) +
+      `        <p>Every question in this group is a single-answer multiple choice question with four options. The questions are written for the ${esc(examEn)} paper specifically, so the level of detail and the phrasing follow what that paper asks rather than a general textbook. The answer and its explanation sit with the question, so a set can be attempted and reviewed in one sitting.</p>\n` +
+      `        <p>Question sets are added to over time, and the count above is the number published at present. Because the same fact is often asked in more than one form, working through a full set once and then revisiting it a few days later is more effective here than reading the set twice in a row.</p>\n`
   );
 }
 
 /* ---------- page classification ---------- */
 
+/* Word count of the visible <main> text. Length in characters flatters pages
+   built from short card labels, so the floor is set in words. */
 function mainTextLength(html) {
   const m = /<main[^>]*>([\s\S]*?)<\/main>/.exec(html);
   if (!m) return null;
-  return m[1]
-    .replace(/<script[\s\S]*?<\/script>/g, "")
-    .replace(/<style[\s\S]*?<\/style>/g, "")
+  const text = m[1]
+    .replace(/<script[\s\S]*?<\/script>/g, " ")
+    .replace(/<style[\s\S]*?<\/style>/g, " ")
     .replace(/<[^>]+>/g, " ")
+    .replace(/&[a-z]+;/gi, " ")
+    .replace(/&#\d+;/g, " ")
     .replace(/\s+/g, " ")
-    .trim().length;
+    .trim();
+  const ascii = (text.match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g) || []).length;
+  const other = (text.match(/[\u0980-\u09FF]+/g) || []).length;
+  return ascii + other;
 }
 
 function main() {
@@ -298,7 +363,7 @@ function main() {
         if (!block) continue;
 
         const before = mainTextLength(html);
-        if (before === null || before >= 800) continue;
+        if (before === null || before >= MIN_WORDS) continue;
 
         if (MARK_RE.test(html)) html = html.replace(MARK_RE, block);
         else {
@@ -309,7 +374,7 @@ function main() {
 
         const after = mainTextLength(html);
         written++;
-        report.push(`  ${String(before).padStart(4)} -> ${String(after).padStart(5)}  ${rel}`);
+        report.push(`  ${String(before).padStart(4)} -> ${String(after).padStart(5)} words  ${rel}`);
         if (!CHECK) fs.writeFileSync(full, html, "utf8");
       }
     }
@@ -318,6 +383,7 @@ function main() {
 
   console.log(`${CHECK ? "[check] " : ""}enrich-thin-pages`);
   console.log(`  exam HTML scanned:   ${scanned}`);
+  console.log(`  word floor:          ${MIN_WORDS}`);
   console.log(`  pages enriched:      ${written}`);
   for (const r of report) console.log(r);
 }
