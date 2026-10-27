@@ -2183,24 +2183,27 @@
       const artBox = $("#article-body-content");
       if (!artBox) return;
 
-      artBox.innerHTML = rawItems.map((item, idx) => {
-        const headline = extractField(item, "question");
-        const bodyText = extractField(item, "answer");
-        const explanation = extractField(item, "explanation");
+      artBox.innerHTML = ["en", "as"].map((lang) => {
+        const keyLabel = lang === "as" ? "গুৰুত্বপূৰ্ণ বিষয় (Key Takeaway)" : "Key Highlights";
+        return `<div data-axo-lang="${lang}">${rawItems.map((item) => {
+          const headline = extractField(item, "question", lang);
+          const bodyText = extractField(item, "answer", lang);
+          const explanation = extractField(item, "explanation", lang);
 
-        return `
-          <div class="article-part-block">
-            <h2 class="art-headline">
-              <span>${formatMath(headline)}</span>
-            </h2>
-            <div class="art-paragraph">${formatMath(bodyText)}</div>
-            ${explanation ? `
-              <div class="art-keynote">
-                <b style="color:var(--primary,#2563eb);">${state.lang === "as" ? "গুৰুত্বপূৰ্ণ বিষয় (Key Takeaway)" : "Key Highlights"}:</b> ${formatMath(explanation)}
-              </div>` : ""
-            }
-          </div>
-        `;
+          return `
+            <div class="article-part-block">
+              <h2 class="art-headline">
+                <span>${formatMath(headline)}</span>
+              </h2>
+              <div class="art-paragraph">${formatMath(bodyText)}</div>
+              ${explanation ? `
+                <div class="art-keynote">
+                  <b style="color:var(--primary,#2563eb);">${keyLabel}:</b> ${formatMath(explanation)}
+                </div>` : ""
+              }
+            </div>
+          `;
+        }).join("")}</div>`;
       }).join("");
 
       renderMathJax(artBox);
@@ -2218,8 +2221,6 @@
         $$(".art-glang-btn").forEach((x) => {
           x.classList.toggle("active", x.dataset.lang === state.lang);
         });
-
-        renderArticleText();
       });
     });
   }
@@ -4087,15 +4088,16 @@
   }
 
   /* ================= E-Book Reader (reading mode only) ================= */
-  function ebkReaderBodyHTML(book, lang) {
+  function ebkReaderBodyHTML(book, lang, idPrefix) {
     const chapters = book.chapters || [];
+    const prefix = String(idPrefix || "ebk-ch").replace(/[^A-Za-z0-9_-]/g, "");
     const toc = chapters.map((c, i) => `
-      <a class="ebk-toc-item" href="#ebk-ch-${i}">
+      <a class="ebk-toc-item" href="#${prefix}-${i}">
         <span class="ebk-toc-no">${i + 1}</span>
         <span>${escapeHtml(ebkLang(c.title, lang))}</span>
       </a>`).join("");
     const list = chapters.map((c, i) => `
-      <section class="ebk-chapter" id="ebk-ch-${i}">
+      <section class="ebk-chapter" id="${prefix}-${i}">
         <h3 class="ebk-ch-title"><span class="ebk-ch-no">${i + 1}</span>${escapeHtml(ebkLang(c.title, lang))}</h3>
         <div class="ebk-ch-body">${ebkContentHTML(ebkLang(c.content, lang))}</div>
       </section>`).join("");
@@ -4217,7 +4219,11 @@
       </div>`;
 
     const body = $("#ebk-body");
-    if (body) body.innerHTML = ebkReaderBodyHTML(book, readLang);
+    if (body) {
+      body.innerHTML = ["en", "as"].map((lang) =>
+        `<div data-axo-lang="${lang}">${ebkReaderBodyHTML(book, lang, lang === "en" ? "ebk-ch" : "ebk-ch-as")}</div>`
+      ).join("");
+    }
     showEbookProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
@@ -4225,11 +4231,10 @@
         const target = btn.dataset.ebklang;
         if (readLang === target) return;
         readLang = target;
+        state.lang = readLang;
+        document.body.setAttribute("data-lang", readLang);
         $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.ebklang === readLang));
-        if (body) {
-          body.innerHTML = ebkReaderBodyHTML(book, readLang);
-          scheduleEbkProgress();
-        }
+        scheduleEbkProgress();
       });
     });
   }
@@ -4475,23 +4480,23 @@
     const body = $("#ca-body");
     const updated = meta.updated || "";
     const uploadedBy = meta.uploadedBy || "axomexam team";
-    const paint = (lang) => {
+    const paint = () => {
       if (!body) return;
-      const intro = ebkLang(meta.intro, lang);
-      const introHTML = intro
-        ? `<div class="ca-intro" style="margin:0 0 14px; padding:14px 16px; border-radius:14px; border:1px solid var(--border,#e2e8f0); background:linear-gradient(180deg, color-mix(in srgb, ${color} 9%, transparent), transparent); font-size:.92rem; line-height:1.65; color:var(--ink-soft,#334155); text-align:left;">${escapeHtml(intro)}</div>`
-        : "";
-      const metaHTML = `
-        <div class="ca-meta" style="display:flex; flex-wrap:wrap; gap:6px 18px; margin:0 0 18px; font-size:.78rem; color:var(--ink-muted,#64748b);">
+      const introHTML = ["en", "as"].map((lang) => {
+        const intro = ebkLang(meta.intro, lang);
+        return intro
+          ? `<div data-axo-lang="${lang}"><div class="ca-intro" style="margin:0 0 14px; padding:14px 16px; border-radius:14px; border:1px solid var(--border,#e2e8f0); background:linear-gradient(180deg, color-mix(in srgb, ${color} 9%, transparent), transparent); font-size:.92rem; line-height:1.65; color:var(--ink-soft,#334155); text-align:left;">${escapeHtml(intro)}</div></div>`
+          : "";
+      }).join("");
+      const metaHTML = ["en", "as"].map((lang) => `
+        <div data-axo-lang="${lang}"><div class="ca-meta" style="display:flex; flex-wrap:wrap; gap:6px 18px; margin:0 0 18px; font-size:.78rem; color:var(--ink-muted,#64748b);">
           ${updated ? `<span><b>${lang === "as" ? "আপডেট" : "Updated"}:</b> ${escapeHtml(updated)}</span>` : ""}
           <span><b>${lang === "as" ? "আপলোড কৰিছে" : "Uploaded by"}:</b> ${escapeHtml(uploadedBy)}</span>
-        </div>`;
-      /* All current-affairs questions are rendered so JS-executing crawlers
-         see the full set; the pager below only scrolls between pages. */
-      const start = 0;
-      const pageQuestions = questions;
+        </div></div>`).join("");
+      /* All current-affairs questions are rendered in both languages so
+         JS-executing crawlers see the full set; the pager only scrolls. */
       const qHTML = count
-        ? `<div class="qa-list">${pageQuestions.map((q, i) => examQACardHTML(q, start + i + 1, lang, true)).join("")}</div>`
+        ? bilingualQAList(questions, 0, true)
         : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
       const pagerHTML = caTotalPages > 1
         ? `<div class="ca-pager" style="margin-top:24px;">
@@ -4507,16 +4512,17 @@
       if (caTotalPages > 1) {
         const prevBtn = $("#ca-prev");
         const nextBtn = $("#ca-next");
-        if (prevBtn) prevBtn.addEventListener("click", () => { if (caPage > 0) { caPage--; caScrollToPage(lang); scheduleEbkProgress(); } });
-        if (nextBtn) nextBtn.addEventListener("click", () => { if (caPage < caTotalPages - 1) { caPage++; caScrollToPage(lang); scheduleEbkProgress(); } });
+        if (prevBtn) prevBtn.addEventListener("click", () => { if (caPage > 0) { caPage--; caScrollToPage(); scheduleEbkProgress(); } });
+        if (nextBtn) nextBtn.addEventListener("click", () => { if (caPage < caTotalPages - 1) { caPage++; caScrollToPage(); scheduleEbkProgress(); } });
       }
     };
     /* Scroll the already-rendered current-affairs list to the requested page
        and refresh the pager label/disabled state. */
-    const caScrollToPage = (lang) => {
+    const caScrollToPage = () => {
       const list = $("#ca-body");
       if (!list) return;
-      const first = list.querySelectorAll("[data-n]")[caPage * CA_PER_PAGE];
+      const lang = state.lang === "as" ? "as" : "en";
+      const first = list.querySelectorAll(`[data-axo-lang="${lang}"] [data-n]`)[caPage * CA_PER_PAGE];
       if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
       const info = list.querySelector(".pager-info");
       if (info) info.textContent = `${caPage + 1} / ${caTotalPages}`;
@@ -4525,14 +4531,15 @@
       if (p) p.disabled = caPage === 0;
       if (n) n.disabled = caPage >= caTotalPages - 1;
     };
-    paint(readLang);
+    paint();
     showEbookProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
         const target = btn.dataset.calang;
-        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.calang === target));
-        paint(target);
+        state.lang = target === "en" ? "en" : "as";
+        document.body.setAttribute("data-lang", state.lang);
+        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.calang === state.lang));
         scheduleEbkProgress();
       });
     });
@@ -5001,20 +5008,31 @@
       </article>`;
   }
 
+  /* Emit every question twice, once per language, so JS-executing crawlers
+     receive both the English and Assamese sets. The existing data-axo-lang
+     CSS rules keep only the active language visible to readers. */
+  function bilingualQAList(questions, start, hideCat) {
+    const items = Array.isArray(questions) ? questions : [];
+    const firstNo = Number.isInteger(start) ? start : 0;
+    return `<div class="qa-list">${items.map((q, i) =>
+      ["en", "as"].map((lang) =>
+        `<div data-axo-lang="${lang}">${examQACardHTML(q, firstNo + i + 1, lang, !!hideCat)}</div>`
+      ).join("")
+    ).join("")}</div>`;
+  }
+
   function makePaginatedQA(body, questions, perPage, emptyHTML) {
     const items = Array.isArray(questions) ? questions : [];
     const total = items.length;
     const totalPages = Math.max(1, Math.ceil(total / perPage));
     let page = 0;
-    const paint = (lang) => {
+    const paint = () => {
       if (!body) return;
       if (!total) {
         body.innerHTML = emptyHTML || `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
         return;
       }
-      const start = 0;
-      const slice = items;
-      const qHTML = `<div class="qa-list">${slice.map((q, i) => examQACardHTML(q, start + i + 1, lang)).join("")}</div>`;
+      const qHTML = bilingualQAList(items, 0, false);
       const pagerHTML = totalPages > 1
         ? `<div class="qa-pager" style="margin-top:24px;">
             <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
@@ -5028,7 +5046,8 @@
       body.innerHTML = qHTML + pagerHTML;
       if (totalPages > 1) {
         const scrollToPage = () => {
-          const first = body.querySelectorAll("[data-n]")[page * perPage];
+          const lang = state.lang === "as" ? "as" : "en";
+          const first = body.querySelectorAll(`[data-axo-lang="${lang}"] [data-n]`)[page * perPage];
           if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
           const info = body.querySelector(".pager-info");
           if (info) info.textContent = `${page + 1} / ${totalPages}`;
@@ -5046,14 +5065,15 @@
     return paint;
   }
 
-  function examBodyHTML(data, sec, lang) {
+  function examBodyHTML(data, sec, lang, idPrefix) {
     const type = data.type || (sec && sec.type) || "qa";
+    const prefix = String(idPrefix || "exam-ch").replace(/[^A-Za-z0-9_-]/g, "");
 
     if (type === "syllabus" || (data.chapters && data.chapters.length)) {
       const chapters = data.chapters || [];
       if (!chapters.length) return `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
       return `<div class="ebk-chapters">${chapters.map((c, i) => `
-        <section class="ebk-chapter" id="exam-ch-${i}">
+        <section class="ebk-chapter" id="${prefix}-${i}">
           <h3 class="ebk-ch-title"><span class="ebk-ch-no">${i + 1}</span>${escapeHtml(ebkLang(c.title, lang))}</h3>
           <div class="ebk-ch-body">${ebkContentHTML(ebkLang(c.content, lang))}</div>
         </section>`).join("")}</div>`;
@@ -5063,6 +5083,13 @@
     if (!qs.length) return `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
 
     return `<div class="qa-list">${qs.map((q, i) => examQACardHTML(q, i + 1, lang)).join("")}</div>`;
+  }
+
+  /* Render syllabus/chapter-style exam content in both languages. */
+  function bilingualExamBody(data, sec) {
+    return ["en", "as"].map((lang) =>
+      `<div data-axo-lang="${lang}">${examBodyHTML(data, sec, lang, lang === "en" ? "exam-ch" : "exam-ch-as")}</div>`
+    ).join("");
   }
 
   async function renderExamSectionPage(main, examId, sectionId) {
@@ -5190,9 +5217,9 @@
     const secType = data.type || (sec && sec.type);
     const isChapterData = secType === "syllabus" || (data.chapters && data.chapters.length);
     const paint = isChapterData
-      ? (lang) => { if (body) body.innerHTML = examBodyHTML(data, sec, lang); }
+      ? () => { if (body) body.innerHTML = bilingualExamBody(data, sec); }
       : makePaginatedQA(body, Array.isArray(data.questions) ? data.questions : [], 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
-    paint(readLang);
+    paint();
     showEbookProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
@@ -5201,7 +5228,6 @@
         state.lang = target;
         document.body.setAttribute("data-lang", target);
         Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
-        paint(target);
         scheduleEbkProgress();
       });
     });
@@ -5318,7 +5344,7 @@
 
     const body = $("#exam-body");
     const paint = makePaginatedQA(body, questions, 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
-    paint(readLang);
+    paint();
     showEbookProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
@@ -5327,7 +5353,6 @@
         state.lang = target;
         document.body.setAttribute("data-lang", target);
         Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
-        paint(target);
         scheduleEbkProgress();
       });
     });
@@ -5414,7 +5439,7 @@
 
     const body = $("#exam-body");
     const paint = makePaginatedQA(body, questions, 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
-    paint(readLang);
+    paint();
     showEbookProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
@@ -5423,7 +5448,6 @@
         state.lang = target;
         document.body.setAttribute("data-lang", target);
         Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
-        paint(target);
         scheduleEbkProgress();
       });
     });
