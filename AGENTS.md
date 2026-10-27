@@ -69,6 +69,16 @@ All three are idempotent; run with `--check` first.
 - `tools/scan-404.js` - read-only. Checks every sitemap URL and every internal
   `href`/`src` against committed files; exits non-zero on a broken target.
 
+## Reading progress bar
+
+`js/app.src.js` keeps one shared scroll-progress strip (`#ebk-progress`, styled
+by `.ebk-progress` in `css/style.src.css`) for every long reading page. Call
+`showReadProgress(color)` after the page content is painted; `renderRoute()`
+calls `clearReadProgress()` so the bar never leaks across navigations. It is
+wired on the e-book reader, free-practice topic pages, article/study-guide
+pages, current-affairs category pages and exam chapter pages. Short picker
+pages intentionally have no bar.
+
 ## Answering "why is my content invisible to AdSense"
 
 The site ships a static block outside `<main id="app">` on most pages. That is

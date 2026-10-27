@@ -1495,7 +1495,7 @@
     updateSEO();
     syncCurrentAffairsStaticBlock(segs[0] === "current-affairs" ? (segs[1] || "index") : null);
     syncExtraStaticBlock(segs.length ? window.location.pathname : null);
-    clearEbookProgress();
+    clearReadProgress();
 
     if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
       stopMockTimer();
@@ -2096,6 +2096,7 @@
     `;
 
     renderQAPage();
+    showReadProgress(catColor(rec.cat.id));
 
     $("#qa-reading").addEventListener("click", openReadingModal);
     $$(".lang-btn").forEach((btn) => {
@@ -2207,6 +2208,7 @@
     };
 
     renderArticleText();
+    showReadProgress(catColor(rec.cat && rec.cat.id));
 
     $$(".art-glang-btn").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -4038,14 +4040,16 @@
   }
 
   /* Reading progress bar — mobile browsers hide the native scrollbar while
-     reading, so the reader shows a slim fixed progress strip at the top. */
-  let ebkRaf = null;
-  function scheduleEbkProgress() {
-    if (ebkRaf) return;
-    ebkRaf = requestAnimationFrame(drawEbkProgress);
+     reading, so long pages (e-books, free-practice Q&A, articles, exam
+     chapters, current affairs) show a slim fixed strip at the top that
+     tracks how far down the page the reader has scrolled. */
+  let readProgressRaf = null;
+  function scheduleReadProgress() {
+    if (readProgressRaf) return;
+    readProgressRaf = requestAnimationFrame(drawReadProgress);
   }
-  function drawEbkProgress() {
-    ebkRaf = null;
+  function drawReadProgress() {
+    readProgressRaf = null;
     const fill = document.getElementById("ebk-progress-fill");
     if (!fill) return;
     const doc = document.documentElement;
@@ -4053,27 +4057,33 @@
     const top = window.pageYOffset || doc.scrollTop || 0;
     const pct = max > 0 ? Math.min(100, Math.max(0, (top / max) * 100)) : 0;
     fill.style.width = pct.toFixed(2) + "%";
+    fill.parentElement.setAttribute("aria-valuenow", String(Math.round(pct)));
   }
-  function clearEbookProgress() {
+  function clearReadProgress() {
     const bar = document.getElementById("ebk-progress");
     if (bar) bar.remove();
-    window.removeEventListener("scroll", scheduleEbkProgress);
-    window.removeEventListener("resize", scheduleEbkProgress);
-    if (ebkRaf) { cancelAnimationFrame(ebkRaf); ebkRaf = null; }
+    window.removeEventListener("scroll", scheduleReadProgress);
+    window.removeEventListener("resize", scheduleReadProgress);
+    if (readProgressRaf) { cancelAnimationFrame(readProgressRaf); readProgressRaf = null; }
   }
-  function showEbookProgress(color) {
-    clearEbookProgress();
+  function showReadProgress(color) {
+    clearReadProgress();
     const bar = document.createElement("div");
     bar.id = "ebk-progress";
     bar.className = "ebk-progress";
-    bar.style.setProperty("--ebk", color);
+    bar.setAttribute("role", "progressbar");
+    bar.setAttribute("aria-label", t("readProgress.label") || "Reading progress");
+    bar.setAttribute("aria-valuemin", "0");
+    bar.setAttribute("aria-valuemax", "100");
+    bar.setAttribute("aria-valuenow", "0");
+    if (color) bar.style.setProperty("--ebk", color);
     const fill = document.createElement("span");
     fill.id = "ebk-progress-fill";
     bar.appendChild(fill);
     document.body.appendChild(bar);
-    window.addEventListener("scroll", scheduleEbkProgress, { passive: true });
-    window.addEventListener("resize", scheduleEbkProgress);
-    scheduleEbkProgress();
+    window.addEventListener("scroll", scheduleReadProgress, { passive: true });
+    window.addEventListener("resize", scheduleReadProgress);
+    scheduleReadProgress();
   }
 
   async function renderEbookReaderPage(main, bookId) {
@@ -4155,7 +4165,7 @@
         `<div data-axo-lang="${lang}">${ebkReaderBodyHTML(book, lang, lang === "en" ? "ebk-ch" : "ebk-ch-as")}</div>`
       ).join("");
     }
-    showEbookProgress(color);
+    showReadProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -4165,7 +4175,7 @@
         state.lang = readLang;
         document.body.setAttribute("data-lang", readLang);
         $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.ebklang === readLang));
-        scheduleEbkProgress();
+        scheduleReadProgress();
       });
     });
   }
@@ -4428,7 +4438,7 @@
       body.innerHTML = introHTML + metaHTML + qHTML;
     };
     paint();
-    showEbookProgress(color);
+    showReadProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -4436,7 +4446,7 @@
         state.lang = target === "en" ? "en" : "as";
         document.body.setAttribute("data-lang", state.lang);
         $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.calang === state.lang));
-        scheduleEbkProgress();
+        scheduleReadProgress();
       });
     });
   }
@@ -5086,7 +5096,7 @@
       ? () => { if (body) body.innerHTML = bilingualExamBody(data, sec); }
       : makePaginatedQA(body, Array.isArray(data.questions) ? data.questions : [], `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint();
-    showEbookProgress(color);
+    showReadProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -5094,7 +5104,7 @@
         state.lang = target;
         document.body.setAttribute("data-lang", target);
         Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
-        scheduleEbkProgress();
+        scheduleReadProgress();
       });
     });
   }
@@ -5211,7 +5221,7 @@
     const body = $("#exam-body");
     const paint = makePaginatedQA(body, questions, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint();
-    showEbookProgress(color);
+    showReadProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -5219,7 +5229,7 @@
         state.lang = target;
         document.body.setAttribute("data-lang", target);
         Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
-        scheduleEbkProgress();
+        scheduleReadProgress();
       });
     });
   }
@@ -5306,7 +5316,7 @@
     const body = $("#exam-body");
     const paint = makePaginatedQA(body, questions, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint();
-    showEbookProgress(color);
+    showReadProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -5314,7 +5324,7 @@
         state.lang = target;
         document.body.setAttribute("data-lang", target);
         Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
-        scheduleEbkProgress();
+        scheduleReadProgress();
       });
     });
   }
