@@ -32,6 +32,10 @@
 
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
+/* In-page anchors (#subjects and friends) must not hide behind the sticky
+   header when the browser jumps to the fragment. */
+[id] { scroll-margin-top: calc(var(--header-h) + 16px); }
+
 body {
   font-family: var(--font-en);
   color: var(--ink);

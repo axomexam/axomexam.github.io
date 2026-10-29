@@ -1189,6 +1189,36 @@
     html.style.scrollBehavior = prev;
   }
 
+  /* Deep links such as /mock-test#subjects must land on the target section,
+     not at the top of the page. renderRoute() scrolls to top first, so the
+     fragment has to be applied once the new content is in the DOM. The
+     header is sticky, hence the offset. */
+  function applyHashScroll() {
+    const raw = window.location.hash;
+    if (!raw || raw === "#") return;
+    let id = raw.slice(1);
+    try { id = decodeURIComponent(id); } catch (e) { /* keep raw */ }
+    if (!id) return;
+
+    let target = null;
+    try {
+      target = document.getElementById(id) || document.querySelector(`[name="${CSS.escape(id)}"]`);
+    } catch (e) {
+      target = document.getElementById(id);
+    }
+    if (!target) return;
+
+    const headerH = parseFloat(
+      getComputedStyle(document.documentElement).getPropertyValue("--header-h")
+    ) || 0;
+    const top = target.getBoundingClientRect().top + window.pageYOffset - headerH - 16;
+    const html = document.documentElement;
+    const prev = html.style.scrollBehavior;
+    html.style.scrollBehavior = "auto";
+    window.scrollTo(0, Math.max(0, top));
+    html.style.scrollBehavior = prev;
+  }
+
   /* Keep <title>, meta description and canonical unique per route for SEO */
   function updateSEO() {
     try {
@@ -1485,6 +1515,12 @@
   }
 
   async function renderRoute() {
+    const done = await renderRouteInner();
+    applyHashScroll();
+    return done;
+  }
+
+  async function renderRouteInner() {
     if (!state.ready) return;
     const segs = parsePath();
     const main = $("#app");
