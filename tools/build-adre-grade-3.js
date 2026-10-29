@@ -279,7 +279,6 @@ function pageShell(opts) {
   return `<!DOCTYPE html>
 <html lang="en">
 ${opts.head}
-<body>
 ${CHROME.bodyOpenToMain}<main id="app" class="container main">
 ${opts.mainHTML}
   </main>
