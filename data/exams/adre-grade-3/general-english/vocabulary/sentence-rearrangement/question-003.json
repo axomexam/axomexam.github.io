@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sentence-rearrangement-003",
+    "q": {
+      "en": "Arrange: (P) because it was raining (Q) we stayed at home (R) all day",
+      "as": "সজাওক: (P) because it was raining (Q) we stayed at home (R) all day"
+    },
+    "options": [
+      {
+        "en": "PQR",
+        "as": "PQR"
+      },
+      {
+        "en": "QRP",
+        "as": "QRP"
+      },
+      {
+        "en": "RQP",
+        "as": "RQP"
+      },
+      {
+        "en": "QPR",
+        "as": "QPR"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The main clause comes first and the reason follows.",
+      "as": "মূল খণ্ডবাক্য প্ৰথমে আহে আৰু কাৰণ পিছত আহে।"
+    }
+  }
+]

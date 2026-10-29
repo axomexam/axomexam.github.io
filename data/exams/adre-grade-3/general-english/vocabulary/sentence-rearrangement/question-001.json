@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sentence-rearrangement-001",
+    "q": {
+      "en": "Arrange: (P) is reading (Q) the boy (R) a book",
+      "as": "সজাওক: (P) is reading (Q) the boy (R) a book"
+    },
+    "options": [
+      {
+        "en": "QPR",
+        "as": "QPR"
+      },
+      {
+        "en": "PQR",
+        "as": "PQR"
+      },
+      {
+        "en": "RPQ",
+        "as": "RPQ"
+      },
+      {
+        "en": "QRP",
+        "as": "QRP"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The subject comes first, so the order is the boy, is reading, a book.",
+      "as": "কৰ্তা প্ৰথমে আহে, গতিকে ক্ৰম the boy, is reading, a book।"
+    }
+  }
+]

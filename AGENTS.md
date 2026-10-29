@@ -103,6 +103,48 @@ deliberate: `renderRoute()` replaces `#app` on load and navigation, so content
 placed *inside* `<main>` is destroyed for real visitors and never seen. The
 static block is the crawler/no-JS copy. Do not move it inside `<main>`.
 
+## Exam books
+
+The `/exams/<id>/` books are generated, not hand-edited. Each one has a
+`tools/build-<exam>.js` that reads a matching structure/notes/questions trio
+and writes the JSON plus every HTML page. `tools/build-adre-grade-3.js` is the
+reference for a book that is not a copy of an existing one:
+
+- Content lives in `tools/adre-grade-3.structure.js` (sections, sub-category
+  tree, syllabus, notes) and `tools/adre-grade-3.questions.js` (question bank
+  keyed by leaf id). The builder derives everything else.
+- The page chrome (head, fonts, footer, guard script) is copied from a Grade IV
+  leaf page, so keep that file's structure intact if you touch either book.
+- `data/exams/index.json` is hand-formatted with compact one-line sub-category
+  objects. The builder splices its entry into the raw text instead of
+  re-serialising, so running it never reformats the other exams. Preserve that
+  when editing the registration block.
+- `tools/build-adre-grade-3-cover.js` renders the book cover to
+  `images/exams/adre-grade-3-cover.webp` with headless Chromium + Pillow. It is
+  not part of the normal build because it needs network access for the webfonts.
+
+After a content change, run the pipeline in this order and commit the result:
+
+```
+node tools/build-adre-grade-3.js
+node tools/build-question-counts.js
+node tools/inject-static-questions.js
+node tools/enrich-thin-pages.js
+node tools/extract-deep-articles.js
+```
+
+`enrich-thin-pages.js` rewrites the 8 hub pages the builder emits, so the
+committed state is post-enrichment. A build on top of it reports those 8 pages
+as changed again; that is expected, and the tree is stable after the enrich
+step. Finish with `node tools/scan-404.js` (expect `broken targets: 0`) and
+confirm the page count on disk equals the `exams/<id>` count in `sitemap.xml`.
+
+Grade III and Grade IV share topic ids, so a question id such as
+`number-system-001` exists in both books. That is fine — ids are scoped per
+book. Question *text*, however, must not repeat across books: check the other
+book's question text before adding entries, or the two books will look like
+one padded bank.
+
 ## Verifying a change
 
 There is no test suite. Verify with scripts that diff the working tree against

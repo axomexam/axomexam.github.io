@@ -1,0 +1,32 @@
+[
+  {
+    "id": "error-detection-001",
+    "q": {
+      "en": "Find the error: He is senior than me.",
+      "as": "ভুল বিচাৰক: He is senior than me."
+    },
+    "options": [
+      {
+        "en": "He is",
+        "as": "He is"
+      },
+      {
+        "en": "senior",
+        "as": "senior"
+      },
+      {
+        "en": "than",
+        "as": "than"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Senior takes the preposition to, so it should be senior to me.",
+      "as": "Senior এ to পূৰ্বসৰ্গ লয়, গতিকে senior to me হোৱা উচিত।"
+    }
+  }
+]

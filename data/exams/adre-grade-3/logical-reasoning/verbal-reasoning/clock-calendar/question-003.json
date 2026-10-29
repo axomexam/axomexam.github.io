@@ -1,0 +1,32 @@
+[
+  {
+    "id": "clock-calendar-003",
+    "q": {
+      "en": "If today is Wednesday, the day after 60 days will be —",
+      "as": "আজি বুধবাৰ হ'লে ৬০ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "60 divided by 7 leaves a remainder of 4; Wednesday plus 4 days is Sunday.",
+      "as": "৬০ ক ৭ ৰে হৰণ কৰিলে ভাগশেষ ৪ হয়; বুধবাৰৰ পৰা ৪ দিন আগবাঢ়িলে দেওবাৰ হয়।"
+    }
+  }
+]
