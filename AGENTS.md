@@ -145,6 +145,30 @@ book. Question *text*, however, must not repeat across books: check the other
 book's question text before adding entries, or the two books will look like
 one padded bank.
 
+### Grade III "work in progress" notice
+
+The Grade III book ships with its syllabus and topic tree but a partly filled
+question bank. Opening that book shows a bilingual notice two seconds after
+the page settles. It is implemented in `js/app.src.js`:
+
+- `EXAM_WIP_NOTICE_IDS` lists the exam ids that get the notice; today only
+  `adre-grade-3`. `scheduleExamWipNotice(examId)` is called at the end of
+  `renderExamPage`, so any other book is unaffected.
+- The timer is module-scoped (`examWipTimer`) and cancelled by
+  `closeExamWipModal()`, which `renderRouteInner` calls on every navigation —
+  so navigating away within the two seconds prevents it from firing.
+- Copy lives under `exams.wipTitle` / `exams.wipMsg` / `exams.wipClose` in
+  `js/i18n.src.js`. Both languages are printed at once via `dictStr()` rather
+  than following the UI toggle.
+- The modal reuses the `.read-modal` shell, so it inherits the dark-theme and
+  mobile styles.
+
+To retire it once the questions are complete, delete the
+`scheduleExamWipNotice(examId)` call in `renderExamPage` (and the now-unused
+`EXAM_WIP_NOTICE_IDS` entry). `node scripts/minify-assets.js` then
+`node scripts/stamp-assets.js` must be re-run after editing the `.src` files,
+because the deployed `js/*.js` are minified copies.
+
 ## Verifying a change
 
 There is no test suite. Verify with scripts that diff the working tree against
