@@ -1189,34 +1189,48 @@
     html.style.scrollBehavior = prev;
   }
 
-  /* Deep links such as /mock-test#subjects must land on the target section,
-     not at the top of the page. renderRoute() scrolls to top first, so the
-     fragment has to be applied once the new content is in the DOM. The
-     header is sticky, hence the offset. */
-  function applyHashScroll() {
-    const raw = window.location.hash;
-    if (!raw || raw === "#") return;
-    let id = raw.slice(1);
-    try { id = decodeURIComponent(id); } catch (e) { /* keep raw */ }
-    if (!id) return;
-
+  /* Scroll to an element by id without touching the URL. The sticky header
+     is accounted for so the target is not hidden underneath it. */
+  function scrollToId(id, smooth) {
+    if (!id) return false;
     let target = null;
     try {
       target = document.getElementById(id) || document.querySelector(`[name="${CSS.escape(id)}"]`);
     } catch (e) {
       target = document.getElementById(id);
     }
-    if (!target) return;
+    if (!target) return false;
 
     const headerH = parseFloat(
       getComputedStyle(document.documentElement).getPropertyValue("--header-h")
     ) || 0;
     const top = target.getBoundingClientRect().top + window.pageYOffset - headerH - 16;
+
     const html = document.documentElement;
     const prev = html.style.scrollBehavior;
-    html.style.scrollBehavior = "auto";
+    html.style.scrollBehavior = smooth ? "smooth" : "auto";
     window.scrollTo(0, Math.max(0, top));
-    html.style.scrollBehavior = prev;
+    if (smooth) {
+      /* Restore the default once the animation would have finished, so
+         later in-page jumps keep working normally. */
+      setTimeout(() => { html.style.scrollBehavior = prev; }, 600);
+    } else {
+      html.style.scrollBehavior = prev;
+    }
+    return true;
+  }
+
+  function applyHashScroll() {
+    const raw = window.location.hash;
+    if (!raw || raw === "#") return;
+    let id = raw.slice(1);
+    try { id = decodeURIComponent(id); } catch (e) { /* keep raw */ }
+    if (!scrollToId(id, false)) return;
+    /* Drop the fragment from the visible URL now that the jump is done, so
+       shared links and the address bar stay clean. */
+    try {
+      history.replaceState(history.state, "", window.location.pathname + window.location.search);
+    } catch (e) { /* ignore */ }
   }
 
   /* Keep <title>, meta description and canonical unique per route for SEO */
@@ -7648,8 +7662,31 @@
       const href = a.getAttribute("href");
       if (!href) return;
       if (href.startsWith("/topic/")) return;
+      if (href.startsWith("#")) {
+        /* In-page anchor: scroll without writing the fragment into the URL,
+           so visitors (and shared links) never see /mock-test#subjects. */
+        const id = href.slice(1);
+        if (id) {
+          e.preventDefault();
+          scrollToId(id, true);
+        }
+        return;
+      }
       if (href.startsWith("/") && !href.startsWith("//") && !a.hasAttribute("download") && a.target !== "_blank") {
         e.preventDefault();
+        const hashAt = href.indexOf("#");
+        if (hashAt > -1) {
+          const path = href.slice(0, hashAt);
+          const id = href.slice(hashAt + 1);
+          const current = window.location.pathname.replace(/\/index\.html$/, "");
+          if (path === current || path === current + "/" || path.replace(/\/$/, "") === current.replace(/\/$/, "")) {
+            scrollToId(id, true);
+            return;
+          }
+          navigateTo(path);
+          setTimeout(() => scrollToId(id, true), 0);
+          return;
+        }
         navigateTo(href);
       }
     });
