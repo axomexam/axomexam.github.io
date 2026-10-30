@@ -152,6 +152,19 @@ book. Question *text*, however, must not repeat across books: check the other
 book's question text before adding entries, or the two books will look like
 one padded bank.
 
+### Grade III study-notes articles
+
+`tools/adre-grade-3.notes.js` holds the crawler-facing study article for every
+topic, keyed by leaf sub-category id. Each block is
+`{ h2: {en,as}, p: {en:[],as:[]}, list: {en:[],as:[]}, faqs: [{q:{en,as},a:{en,as}}] }`
+and `noteArticle(topicId)` in `tools/build-adre-grade-3.js` renders it below the
+Q&A. The 12 elementary-mathematics topics each carry 1000+ words in **both**
+English and Assamese (measured as the words in `p` + `list` + `faqs`, and again
+on the rendered page). Keep the two languages parallel paragraph-for-paragraph
+so the EN/AS toggle stays aligned. Source blocks for those 12 live in
+`/workspace/gen/nb_*.py`; `python3 /workspace/gen/patch_notes.py` splices them
+into the notes file, replacing only the keys it defines and preserving key order.
+
 ### Grade III question conventions
 
 - Numeral style: `q` and `explanation` keep Western digits in both languages
