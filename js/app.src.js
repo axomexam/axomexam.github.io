@@ -703,6 +703,9 @@
             <p style="font-size:0.86rem; color:#f8fafc; line-height:1.55; margin:0; max-width:320px; font-weight:400;">
               ${isAs ? "অসমৰ সৰ্ববৃহৎ দ্বিভাষিক প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি মঞ্চ। ADRE, অসম আৰক্ষী, APSC আদি পৰীক্ষাৰ বিনামূলীয়া সমল।" : "Assam's premier bilingual competitive exam preparation portal. Free study notes, mock tests and previous papers."}
             </p>
+            <p class="footer-contact">
+              ${isAs ? "যোগাযোগ:" : "Contact:"} <a href="mailto:contact@axomexam.in">contact@axomexam.in</a>
+            </p>
           </div>
           
           <div style="display:flex; gap:40px; flex-wrap:wrap;">
@@ -733,10 +736,10 @@
           </div>
         </div>
 
-        <div style="padding-top:16px; font-size:0.82rem; color:#f8fafc; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; align-items:center;">
-          <span>© ${new Date().getFullYear()} <strong style="color:#ffffff;">axomexam.in</strong>. All Rights Reserved.</span>
-          <span style="color:#f8fafc;">${isAs ? "যোগাযোগ:" : "Contact:"} <a href="mailto:contact@axomexam.in" style="color:#ffffff; text-decoration:none; font-weight:600;">contact@axomexam.in</a></span>
-          <span style="color:#f8fafc;">Made for Assam Competitive Aspirants</span>
+        <div class="footer-bottom-bar">
+          <span class="fbb-made">Made for Assam Competitive Aspirants</span>
+          <span class="fbb-contact">${isAs ? "যোগাযোগ কৰক :" : "Contact us :"} <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></span>
+          <span class="fbb-copy">© ${new Date().getFullYear()} <strong>axomexam.in</strong>. All Rights Reserved.</span>
         </div>
       </div>
     `;

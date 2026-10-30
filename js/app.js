@@ -67,6 +67,9 @@
             <p style="font-size:0.86rem; color:#f8fafc; line-height:1.55; margin:0; max-width:320px; font-weight:400;">
               ${t?"অসমৰ সৰ্ববৃহৎ দ্বিভাষিক প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি মঞ্চ। ADRE, অসম আৰক্ষী, APSC আদি পৰীক্ষাৰ বিনামূলীয়া সমল।":"Assam's premier bilingual competitive exam preparation portal. Free study notes, mock tests and previous papers."}
             </p>
+            <p class="footer-contact">
+              ${t?"যোগাযোগ:":"Contact:"} <a href="mailto:contact@axomexam.in">contact@axomexam.in</a>
+            </p>
           </div>
           
           <div style="display:flex; gap:40px; flex-wrap:wrap;">
@@ -97,10 +100,10 @@
           </div>
         </div>
 
-        <div style="padding-top:16px; font-size:0.82rem; color:#f8fafc; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; align-items:center;">
-          <span>© ${new Date().getFullYear()} <strong style="color:#ffffff;">axomexam.in</strong>. All Rights Reserved.</span>
-          <span style="color:#f8fafc;">${t?"যোগাযোগ:":"Contact:"} <a href="mailto:contact@axomexam.in" style="color:#ffffff; text-decoration:none; font-weight:600;">contact@axomexam.in</a></span>
-          <span style="color:#f8fafc;">Made for Assam Competitive Aspirants</span>
+        <div class="footer-bottom-bar">
+          <span class="fbb-made">Made for Assam Competitive Aspirants</span>
+          <span class="fbb-contact">${t?"যোগাযোগ কৰক :":"Contact us :"} <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></span>
+          <span class="fbb-copy">© ${new Date().getFullYear()} <strong>axomexam.in</strong>. All Rights Reserved.</span>
         </div>
       </div>
     `}function qe(){const e=g("#master-search");e&&(e.placeholder=r("search.placeholder")),E("[aria-label]").forEach(t=>{const a=t.getAttribute("data-aria-i18n");a&&t.setAttribute("aria-label",r(a))}),za()}function Ha(){const e=document.querySelector(".header-center .theme-toggle")||document.querySelector(".site-header .theme-toggle");if(e&&!document.querySelector(".desktop-lang-toggle")){const t=document.createElement("div");t.className="desktop-lang-toggle",t.style.cssText="display:inline-flex;align-items:center;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border,#e2e8f0);border-radius:20px;padding:2px;margin-right:8px;",t.innerHTML=`

@@ -712,6 +712,7 @@ ${body}
         <span class="brand-mark">A</span>
         <span class="brand-text">axomexam</span>
         <p id="footer-tagline" class="footer-tagline">Comprehensive Preparation Portal for Assam Competitive Exams</p>
+        <p class="footer-contact">Contact: <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></p>
       </div>
       <div class="footer-links">
         <div>
@@ -751,7 +752,11 @@ ${body}
       </div>
     </div>
     <div class="footer-bottom container">
-      <p id="footer-copy">&copy; 2026 axomexam.in. All rights reserved. &middot; Contact: <a href="mailto:contact@axomexam.in" style="color:#38bdf8; font-weight:600;">contact@axomexam.in</a></p>
+      <div class="footer-bottom-bar">
+        <span class="fbb-made">Made for Assam Competitive Aspirants</span>
+        <span class="fbb-contact">Contact us : <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></span>
+        <span class="fbb-copy">&copy; 2026 <strong>axomexam.in</strong>. All Rights Reserved.</span>
+      </div>
     </div>
   </footer>
 
