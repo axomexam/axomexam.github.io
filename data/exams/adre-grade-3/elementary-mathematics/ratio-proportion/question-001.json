@@ -2,121 +2,361 @@
   {
     "id": "ratio-proportion-001",
     "q": {
-      "en": "If two numbers are in the ratio 3 : 5 and their sum is 64, the smaller number is —",
-      "as": "দুটা সংখ্যা 3 : 5 অনুপাতত আৰু যোগফল 64 হ'লে সৰু সংখ্যাটো —"
+      "en": "If a : b = 3 : 4 and b : c = 2 : 5, then a : c is —",
+      "as": "a : b = 3 : 4 আৰু b : c = 2 : 5 হ'লে a : c —"
     },
     "options": [
       {
-        "en": "24",
-        "as": "২৪"
+        "en": "6 : 5",
+        "as": "৬ : ৫"
+      },
+      {
+        "en": "2 : 5",
+        "as": "২ : ৫"
+      },
+      {
+        "en": "3 : 10",
+        "as": "৩ : ১০"
+      },
+      {
+        "en": "3 : 5",
+        "as": "৩ : ৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Make b common: a : b = 3 : 4 and b : c = 4 : 10, so a : c = 3 : 10.",
+      "as": "b সাধাৰণ কৰক: a : b = 3 : 4 আৰু b : c = 4 : 10, গতিকে a : c = 3 : 10।"
+    }
+  },
+  {
+    "id": "ratio-proportion-002",
+    "q": {
+      "en": "If 5 : 8 = 20 : x, then x is —",
+      "as": "5 : 8 = 20 : x হ'লে x —"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
       },
       {
         "en": "32",
         "as": "৩২"
       },
       {
-        "en": "40",
-        "as": "৪০"
-      },
-      {
-        "en": "16",
-        "as": "১৬"
+        "en": "24",
+        "as": "২৪"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
-      "en": "The parts are 3x and 5x; 8x = 64 gives x = 8, so the smaller number is 24.",
-      "as": "অংশবোৰ 3x আৰু 5x; 8x = 64 ৰ পৰা x = 8, গতিকে সৰু সংখ্যা 24।"
-    }
-  },
-  {
-    "id": "ratio-proportion-002",
-    "q": {
-      "en": "The ratio 15 : 25 in its lowest terms is —",
-      "as": "15 : 25 অনুপাতৰ লঘিষ্ঠ ৰূপ —"
-    },
-    "options": [
-      {
-        "en": "5 : 3",
-        "as": "৫ : ৩"
-      },
-      {
-        "en": "3 : 5",
-        "as": "৩ : ৫"
-      },
-      {
-        "en": "15 : 25",
-        "as": "১৫ : ২৫"
-      },
-      {
-        "en": "1 : 5",
-        "as": "১ : ৫"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "Dividing both terms by their HCF 5 gives 3 : 5.",
-      "as": "দুয়োটা পদক গ.সা.উ. 5 ৰে ভাগ কৰিলে 3 : 5 পোৱা যায়।"
+      "en": "5x = 160, so x = 32.",
+      "as": "5x = 160, গতিকে x = 32।"
     }
   },
   {
     "id": "ratio-proportion-003",
     "q": {
-      "en": "If 5 pens cost ₹40, the cost of 8 pens is —",
-      "as": "5 টা কলমৰ দাম ₹40 হ'লে 8 টা কলমৰ দাম —"
+      "en": "₹1,200 is divided between A and B in the ratio 2 : 3. B's share is —",
+      "as": "₹1,200 A আৰু B ৰ মাজত 2 : 3 অনুপাতত ভাগ কৰা হ'ল। B ৰ অংশ —"
     },
     "options": [
       {
-        "en": "₹56",
-        "as": "₹৫৬"
+        "en": "₹600",
+        "as": "₹৬০০"
       },
       {
-        "en": "₹60",
-        "as": "₹৬০"
+        "en": "₹480",
+        "as": "₹৪৮০"
       },
       {
-        "en": "₹64",
-        "as": "₹৬৪"
+        "en": "₹800",
+        "as": "₹৮০০"
       },
       {
-        "en": "₹72",
-        "as": "₹৭২"
+        "en": "₹720",
+        "as": "₹৭২০"
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
-      "en": "One pen costs ₹8, so 8 pens cost ₹64.",
-      "as": "এটা কলমৰ দাম ₹8, গতিকে 8 টা কলমৰ দাম ₹64।"
+      "en": "B's share = 3/5 x 1200 = 720.",
+      "as": "B ৰ অংশ = 3/5 x 1200 = 720।"
     }
   },
   {
     "id": "ratio-proportion-004",
     "q": {
-      "en": "If a : b = 2 : 3 and b : c = 3 : 4, then a : c is —",
-      "as": "a : b = 2 : 3 আৰু b : c = 3 : 4 হ'লে a : c —"
+      "en": "If 12 pencils cost ₹96, the cost of 20 such pencils is —",
+      "as": "12 টা পেঞ্চিলৰ মূল্য ₹96 হ'লে 20 টা পেঞ্চিলৰ মূল্য —"
     },
     "options": [
+      {
+        "en": "₹180",
+        "as": "₹১৮০"
+      },
+      {
+        "en": "₹150",
+        "as": "₹১৫০"
+      },
+      {
+        "en": "₹160",
+        "as": "₹১৬০"
+      },
+      {
+        "en": "₹200",
+        "as": "₹২০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cost of one pencil = 8, so 20 x 8 = 160.",
+      "as": "এটা পেঞ্চিলৰ মূল্য = 8, গতিকে 20 x 8 = 160।"
+    }
+  },
+  {
+    "id": "ratio-proportion-005",
+    "q": {
+      "en": "The ratio 45 minutes to 1.5 hours is —",
+      "as": "45 মিনিট আৰু 1.5 ঘণ্টাৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "1 : 3",
+        "as": "১ : ৩"
+      },
       {
         "en": "1 : 2",
         "as": "১ : ২"
       },
       {
-        "en": "2 : 4",
-        "as": "২ : ৪"
+        "en": "3 : 4",
+        "as": "৩ : ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1.5 hours = 90 minutes, so 45 : 90 = 1 : 2.",
+      "as": "1.5 ঘণ্টা = 90 মিনিট, গতিকে 45 : 90 = 1 : 2।"
+    }
+  },
+  {
+    "id": "ratio-proportion-006",
+    "q": {
+      "en": "The mean proportional between 4 and 25 is —",
+      "as": "4 আৰু 25 ৰ মধ্যসমানুপাত —"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
       },
       {
-        "en": "1 : 1",
-        "as": "১ : ১"
+        "en": "20",
+        "as": "২০"
       },
       {
-        "en": "2 : 3",
-        "as": "২ : ৩"
+        "en": "14.5",
+        "as": "১৪.৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "The b terms match, so a : c = 2 : 4 = 1 : 2.",
-      "as": "b ৰ পদ মিলে, গতিকে a : c = 2 : 4 = 1 : 2।"
+      "en": "Mean proportional = sqrt(4 x 25) = 10.",
+      "as": "মধ্যসমানুপাত = sqrt(4 x 25) = 10।"
+    }
+  },
+  {
+    "id": "ratio-proportion-007",
+    "q": {
+      "en": "If a : b = 2 : 3, then (3a + 2b) : (5a - b) is —",
+      "as": "a : b = 2 : 3 হ'লে (3a + 2b) : (5a - b) —"
+    },
+    "options": [
+      {
+        "en": "7 : 12",
+        "as": "৭ : ১২"
+      },
+      {
+        "en": "5 : 7",
+        "as": "৫ : ৭"
+      },
+      {
+        "en": "2 : 1",
+        "as": "২ : ১"
+      },
+      {
+        "en": "12 : 7",
+        "as": "১২ : ৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Let a = 2k, b = 3k: (6k + 6k) : (10k - 3k) = 12k : 7k = 12 : 7.",
+      "as": "a = 2k, b = 3k ধৰিলে: (6k + 6k) : (10k - 3k) = 12k : 7k = 12 : 7।"
+    }
+  },
+  {
+    "id": "ratio-proportion-008",
+    "q": {
+      "en": "A sum of ₹3,600 is divided among A, B and C in the ratio 3 : 4 : 5. C's share is —",
+      "as": "₹3,600 A, B আৰু C ৰ মাজত 3 : 4 : 5 অনুপাতত ভাগ কৰা হ'ল। C ৰ অংশ —"
+    },
+    "options": [
+      {
+        "en": "₹1,500",
+        "as": "₹১,৫০০"
+      },
+      {
+        "en": "₹900",
+        "as": "₹৯০০"
+      },
+      {
+        "en": "₹1,800",
+        "as": "₹১,৮০০"
+      },
+      {
+        "en": "₹1,200",
+        "as": "₹১,২০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C's share = 5/12 x 3600 = 1500.",
+      "as": "C ৰ অংশ = 5/12 x 3600 = 1500।"
+    }
+  },
+  {
+    "id": "ratio-proportion-009",
+    "q": {
+      "en": "The ratio of 0.6 to 0.24 is —",
+      "as": "0.6 আৰু 0.24 ৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "4 : 3",
+        "as": "৪ : ৩"
+      },
+      {
+        "en": "5 : 2",
+        "as": "৫ : ২"
+      },
+      {
+        "en": "2 : 5",
+        "as": "২ : ৫"
+      },
+      {
+        "en": "3 : 4",
+        "as": "৩ : ৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "0.6 / 0.24 = 60 / 24 = 5 / 2.",
+      "as": "0.6 / 0.24 = 60 / 24 = 5 / 2।"
+    }
+  },
+  {
+    "id": "ratio-proportion-010",
+    "q": {
+      "en": "In a class the ratio of boys to girls is 5 : 4. If there are 45 boys, the number of girls is —",
+      "as": "এখন শ্ৰেণীত ল'ৰা আৰু ছোৱালীৰ অনুপাত 5 : 4। ল'ৰা 45 জন হ'লে ছোৱালীৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "45 / 5 = 9, so girls = 4 x 9 = 36.",
+      "as": "45 / 5 = 9, গতিকে ছোৱালী = 4 x 9 = 36।"
+    }
+  },
+  {
+    "id": "ratio-proportion-011",
+    "q": {
+      "en": "If 8 workers earn ₹9,600 in a week, 12 workers will earn in a week —",
+      "as": "8 জন শ্ৰমিকে এটা সপ্তাহত ₹9,600 উপাৰ্জন কৰিলে, 12 জনে এটা সপ্তাহত উপাৰ্জন কৰিব —"
+    },
+    "options": [
+      {
+        "en": "₹12,800",
+        "as": "₹১২,৮০০"
+      },
+      {
+        "en": "₹14,400",
+        "as": "₹১৪,৪০০"
+      },
+      {
+        "en": "₹16,200",
+        "as": "₹১৬,২০০"
+      },
+      {
+        "en": "₹14,000",
+        "as": "₹১৪,০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One worker earns 1,200; 12 x 1,200 = 14,400.",
+      "as": "এজন শ্ৰমিকে 1,200 উপাৰ্জন কৰে; 12 x 1,200 = 14,400।"
+    }
+  },
+  {
+    "id": "ratio-proportion-012",
+    "q": {
+      "en": "The compound ratio of 3 : 4 and 5 : 6 is —",
+      "as": "3 : 4 আৰু 5 : 6 ৰ যৌগিক অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "5 : 8",
+        "as": "৫ : ৮"
+      },
+      {
+        "en": "6 : 20",
+        "as": "৬ : ২০"
+      },
+      {
+        "en": "5 : 6",
+        "as": "৫ : ৬"
+      },
+      {
+        "en": "15 : 8",
+        "as": "১৫ : ৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Compound ratio = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8.",
+      "as": "যৌগিক অনুপাত = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8।"
     }
   }
 ]

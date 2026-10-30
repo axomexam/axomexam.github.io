@@ -1239,121 +1239,361 @@ module.exports = {
   {
    "id": "average-001",
    "q": {
-    "en": "The average of 5, 10, 15 and 20 is —",
-    "as": "5, 10, 15 আৰু 20 ৰ গড় —"
+    "en": "The average of 12, 18, 24, 30 and 36 is —",
+    "as": "12, 18, 24, 30 আৰু 36 ৰ গড় —"
    },
    "options": [
     {
-     "en": "10",
-     "as": "১০"
+     "en": "28",
+     "as": "২৮"
     },
     {
-     "en": "12.5",
-     "as": "১২.৫"
+     "en": "22",
+     "as": "২২"
     },
     {
-     "en": "15",
-     "as": "১৫"
+     "en": "24",
+     "as": "২৪"
     },
     {
-     "en": "17.5",
-     "as": "১৭.৫"
+     "en": "26",
+     "as": "২৬"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "The sum is 50 and the number of values is 4, so the average is 12.5.",
-    "as": "সমষ্টি 50 আৰু মানৰ সংখ্যা 4, গতিকে গড় 12.5।"
+    "en": "Sum = 120 and there are 5 values, so 120 / 5 = 24.",
+    "as": "সমষ্টি = 120 আৰু 5 টা মান, গতিকে 120 / 5 = 24।"
    }
   },
   {
    "id": "average-002",
    "q": {
-    "en": "The average of the first 10 natural numbers is —",
-    "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ গড় —"
+    "en": "The average of the first 15 natural numbers is —",
+    "as": "প্ৰথম 15 টা স্বাভাৱিক সংখ্যাৰ গড় —"
    },
    "options": [
     {
-     "en": "5",
-     "as": "৫"
+     "en": "7.5",
+     "as": "৭.৫"
     },
     {
-     "en": "5.5",
-     "as": "৫.৫"
+     "en": "8",
+     "as": "৮"
     },
     {
-     "en": "6",
-     "as": "৬"
+     "en": "8.5",
+     "as": "৮.৫"
     },
     {
-     "en": "10",
-     "as": "১০"
+     "en": "7",
+     "as": "৭"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The average of the first n natural numbers is (n + 1)/2 = 5.5.",
-    "as": "প্ৰথম n টা স্বাভাৱিক সংখ্যাৰ গড় (n + 1)/2 = 5.5।"
+    "en": "Average = (15 + 1) / 2 = 8.",
+    "as": "গড় = (15 + 1) / 2 = 8।"
    }
   },
   {
    "id": "average-003",
    "q": {
-    "en": "The average of 4 numbers is 15. If one number is 12, the average of the other three is —",
-    "as": "4 টা সংখ্যাৰ গড় 15। এটা 12 হ'লে বাকী তিনিটাৰ গড় —"
+    "en": "The average age of 10 students is 15 years. If the teacher's age is included the average becomes 16 years. The teacher's age is —",
+    "as": "10 জন ছাত্ৰৰ গড় বয়স 15 বছৰ। শিক্ষকৰ বয়স ধৰিলে গড় 16 বছৰ হয়। শিক্ষকৰ বয়স —"
    },
    "options": [
     {
-     "en": "15",
-     "as": "১৫"
+     "en": "24 years",
+     "as": "২৪ বছৰ"
     },
     {
-     "en": "16",
-     "as": "১৬"
+     "en": "27 years",
+     "as": "২৭ বছৰ"
     },
     {
-     "en": "17",
-     "as": "১৭"
+     "en": "26 years",
+     "as": "২৬ বছৰ"
     },
     {
-     "en": "18",
-     "as": "১৮"
+     "en": "25 years",
+     "as": "২৫ বছৰ"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "The total is 60; removing 12 leaves 48, and 48 ÷ 3 = 16.",
-    "as": "মুঠ 60; 12 বাদ দিলে 48, আৰু 48 ÷ 3 = 16।"
+    "en": "Total of 11 = 11 x 16 = 176 and of 10 = 150, so the teacher is 26 years old.",
+    "as": "11 জনৰ মুঠ = 11 x 16 = 176 আৰু 10 জনৰ = 150, গতিকে শিক্ষকৰ বয়স 26 বছৰ।"
    }
   },
   {
    "id": "average-004",
    "q": {
-    "en": "If every value in a set is increased by 5, the average —",
-    "as": "এটা গোটৰ প্ৰতিটো মান 5 ৰে বঢ়ালে গড় —"
+    "en": "The average of 5 numbers is 27. If one number is excluded, the average becomes 25. The excluded number is —",
+    "as": "5 টা সংখ্যাৰ গড় 27। এটা সংখ্যা বাদ দিলে গড় 25 হয়। বাদ দিয়া সংখ্যাটো —"
    },
    "options": [
     {
-     "en": "increases by 5",
-     "as": "5 ৰে বাঢ়ে"
+     "en": "30",
+     "as": "৩০"
     },
     {
-     "en": "decreases by 5",
-     "as": "5 ৰে কমে"
+     "en": "35",
+     "as": "৩৫"
     },
     {
-     "en": "stays the same",
-     "as": "একে থাকে"
+     "en": "37",
+     "as": "৩৭"
     },
     {
-     "en": "doubles",
-     "as": "দুগুণ হয়"
+     "en": "33",
+     "as": "৩৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total = 135; total of remaining 4 = 100, so the excluded number is 35.",
+    "as": "মুঠ = 135; বাকী 4 ৰ মুঠ = 100, গতিকে বাদ দিয়া সংখ্যা 35।"
+   }
+  },
+  {
+   "id": "average-005",
+   "q": {
+    "en": "The average of 8 numbers is 20. If each number is multiplied by 3, the new average is —",
+    "as": "8 টা সংখ্যাৰ গড় 20। প্ৰতিটো সংখ্যা 3 ৰে পূৰণ কৰিলে নতুন গড় —"
+   },
+   "options": [
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "23",
+     "as": "২৩"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Adding a constant to every value increases the average by the same constant.",
-    "as": "প্ৰতিটো মানত এটা স্থিৰ ৰাশি যোগ কৰিলে গড়ো সেই ৰাশিৰে বাঢ়ে।"
+    "en": "Multiplying every value by 3 multiplies the average by 3, giving 60.",
+    "as": "প্ৰতিটো মান 3 ৰে পূৰণ কৰিলে গড়ো 3 ৰে পূৰণ হয়, গতিকে 60।"
+   }
+  },
+  {
+   "id": "average-006",
+   "q": {
+    "en": "A batsman scored 85, 92, 45 and 78 runs in four innings. His average is —",
+    "as": "এজন বেটছমেনে চাৰিখন ইনিংছত 85, 92, 45 আৰু 78 ৰান কৰিলে। তেওঁৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "75",
+     "as": "৭৫"
+    },
+    {
+     "en": "76",
+     "as": "৭৬"
+    },
+    {
+     "en": "72",
+     "as": "৭২"
+    },
+    {
+     "en": "74",
+     "as": "৭৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sum = 300 and 300 / 4 = 75.",
+    "as": "সমষ্টি = 300 আৰু 300 / 4 = 75।"
+   }
+  },
+  {
+   "id": "average-007",
+   "q": {
+    "en": "The average of 3 numbers is 40. If two of them are 30 and 50, the third is —",
+    "as": "3 টা সংখ্যাৰ গড় 40। দুটা 30 আৰু 50 হ'লে তৃতীয়টো —"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 120; 120 - 80 = 40.",
+    "as": "মুঠ = 120; 120 - 80 = 40।"
+   }
+  },
+  {
+   "id": "average-008",
+   "q": {
+    "en": "The average of 10, 20, 30, 40 and 50 is —",
+    "as": "10, 20, 30, 40 আৰু 50 ৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sum = 150 and 150 / 5 = 30.",
+    "as": "সমষ্টি = 150 আৰু 150 / 5 = 30।"
+   }
+  },
+  {
+   "id": "average-009",
+   "q": {
+    "en": "The average of 7 consecutive even numbers is 20. The largest of them is —",
+    "as": "7 টা ক্ৰমিক যুগ্ম সংখ্যাৰ গড় 20। আটাইতকৈ ডাঙৰটো —"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "26",
+     "as": "২৬"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "With 20 in the middle the numbers run 14 to 26, so the largest is 26.",
+    "as": "মাজত 20 থাকিলে সংখ্যাবোৰ 14 ৰ পৰা 26 লৈকে, গতিকে আটাইতকৈ ডাঙৰ 26।"
+   }
+  },
+  {
+   "id": "average-010",
+   "q": {
+    "en": "A train covered 120 km at 60 km/h and 180 km at 90 km/h. Its average speed for the whole journey is —",
+    "as": "এখন ৰে'লগাড়ীয়ে 60 কিমি/ঘণ্টা বেগত 120 কিমি আৰু 90 কিমি/ঘণ্টা বেগত 180 কিমি গ'ল। সমগ্ৰ যাত্ৰাৰ গড় বেগ —"
+   },
+   "options": [
+    {
+     "en": "80 km/h",
+     "as": "৮০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "75 km/h",
+     "as": "৭৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "72 km/h",
+     "as": "৭২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "70 km/h",
+     "as": "৭০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total distance 300 km in 2 + 2 = 4 hours, so 300 / 4 = 75 km/h.",
+    "as": "মুঠ দূৰত্ব 300 কিমি, সময় 2 + 2 = 4 ঘণ্টা, গতিকে 300 / 4 = 75 কিমি/ঘণ্টা।"
+   }
+  },
+  {
+   "id": "average-011",
+   "q": {
+    "en": "If the average of 6 numbers is 25 and the average of 4 of them is 20, the average of the remaining two is —",
+    "as": "6 টা সংখ্যাৰ গড় 25 আৰু তাৰ 4 টাৰ গড় 20 হ'লে বাকী দুটাৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "32.5",
+     "as": "৩২.৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 150 and 4 numbers total 80, so the remaining two total 70 and average 35.",
+    "as": "মুঠ = 150 আৰু 4 টাৰ মুঠ 80, গতিকে বাকী দুটাৰ মুঠ 70 আৰু গড় 35।"
+   }
+  },
+  {
+   "id": "average-012",
+   "q": {
+    "en": "The average weight of 5 boys is 40 kg. A new boy of 55 kg replaces a boy of 35 kg. The new average is —",
+    "as": "5 জন ল'ৰাৰ গড় ওজন 40 কেজি। 35 কেজিৰ এজন ল'ৰাৰ সলনি 55 কেজিৰ এজন নতুন ল'ৰা আহিল। নতুন গড় —"
+   },
+   "options": [
+    {
+     "en": "42 kg",
+     "as": "৪২ কেজি"
+    },
+    {
+     "en": "43 kg",
+     "as": "৪৩ কেজি"
+    },
+    {
+     "en": "45 kg",
+     "as": "৪৫ কেজি"
+    },
+    {
+     "en": "44 kg",
+     "as": "৪৪ কেজি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total becomes 200 - 35 + 55 = 220, and 220 / 5 = 44 kg.",
+    "as": "মুঠ হয় 200 - 35 + 55 = 220, আৰু 220 / 5 = 44 কেজি।"
    }
   }
  ],
@@ -1483,121 +1723,361 @@ module.exports = {
   {
    "id": "basic-mensuration-001",
    "q": {
-    "en": "The area of a rectangle 12 m long and 5 m broad is —",
-    "as": "12 মিটাৰ দীঘ আৰু 5 মিটাৰ প্ৰস্থৰ আয়তক্ষেত্ৰৰ কালি —"
+    "en": "The area of a rectangle 15 m long and 8 m broad is —",
+    "as": "15 মিটাৰ দীঘ আৰু 8 মিটাৰ প্ৰস্থৰ আয়তক্ষেত্ৰৰ কালি —"
    },
    "options": [
     {
-     "en": "17 sq m",
-     "as": "১৭ বৰ্গ মিটাৰ"
-    },
-    {
-     "en": "34 sq m",
-     "as": "৩৪ বৰ্গ মিটাৰ"
-    },
-    {
-     "en": "60 sq m",
-     "as": "৬০ বৰ্গ মিটাৰ"
-    },
-    {
      "en": "120 sq m",
-     "as": "১২০ বৰ্গ মিটাৰ"
+     "as": "১২০ sq m"
+    },
+    {
+     "en": "140 sq m",
+     "as": "১৪০ sq m"
+    },
+    {
+     "en": "100 sq m",
+     "as": "১০০ sq m"
+    },
+    {
+     "en": "130 sq m",
+     "as": "১৩০ sq m"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "Area = length × breadth = 12 × 5 = 60 square metres.",
-    "as": "কালি = দীঘ × প্ৰস্থ = 12 × 5 = 60 বৰ্গ মিটাৰ।"
+    "en": "Area = 15 x 8 = 120 sq m.",
+    "as": "কালি = 15 x 8 = 120 বৰ্গ মিটাৰ।"
    }
   },
   {
    "id": "basic-mensuration-002",
    "q": {
-    "en": "The area of a triangle with base 10 cm and height 6 cm is —",
-    "as": "ভূমি 10 ছে.মি. আৰু উচ্চতা 6 ছে.মি.ৰ ত্ৰিভুজৰ কালি —"
+    "en": "The area of a circle of radius 7 cm is (take pi = 22/7) —",
+    "as": "7 ছে.মি. ব্যাসাৰ্ধৰ বৃত্তৰ কালি (pi = 22/7 ধৰি) —"
    },
    "options": [
     {
-     "en": "30 sq cm",
-     "as": "৩০ বৰ্গ ছে.মি."
+     "en": "176 sq cm",
+     "as": "১৭৬ sq cm"
     },
     {
-     "en": "60 sq cm",
-     "as": "৬০ বৰ্গ ছে.মি."
+     "en": "154 sq cm",
+     "as": "১৫৪ sq cm"
     },
     {
-     "en": "16 sq cm",
-     "as": "১৬ বৰ্গ ছে.মি."
+     "en": "198 sq cm",
+     "as": "১৯৮ sq cm"
     },
     {
-     "en": "20 sq cm",
-     "as": "২০ বৰ্গ ছে.মি."
+     "en": "144 sq cm",
+     "as": "১৪৪ sq cm"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "Area = 1/2 × base × height = 30 square cm.",
-    "as": "কালি = 1/2 × ভূমি × উচ্চতা = 30 বৰ্গ ছে.মি.।"
+    "en": "Area = pi r^2 = 22/7 x 49 = 154 sq cm.",
+    "as": "কালি = pi r^2 = 22/7 x 49 = 154 বৰ্গ ছে.মি.।"
    }
   },
   {
    "id": "basic-mensuration-003",
    "q": {
-    "en": "The perimeter of a square of side 7 cm is —",
-    "as": "7 ছে.মি. বাহুৰ বৰ্গক্ষেত্ৰৰ পৰিসীমা —"
+    "en": "The perimeter of a rectangle 12 m by 9 m is —",
+    "as": "12 মিটাৰ x 9 মিটাৰ আয়তক্ষেত্ৰৰ পৰিসীমা —"
    },
    "options": [
     {
-     "en": "14 cm",
-     "as": "১৪ ছে.মি."
+     "en": "108 m",
+     "as": "১০৮ মিটাৰ"
     },
     {
-     "en": "21 cm",
-     "as": "২১ ছে.মি."
+     "en": "54 m",
+     "as": "৫৪ মিটাৰ"
     },
     {
-     "en": "28 cm",
-     "as": "২৮ ছে.মি."
+     "en": "42 m",
+     "as": "৪২ মিটাৰ"
     },
     {
-     "en": "49 cm",
-     "as": "৪৯ ছে.মি."
+     "en": "21 m",
+     "as": "২১ মিটাৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "Perimeter of a square = 4 × side = 28 cm.",
-    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 × বাহু = 28 ছে.মি.।"
+    "en": "Perimeter = 2(12 + 9) = 42 m.",
+    "as": "পৰিসীমা = 2(12 + 9) = 42 মিটাৰ।"
    }
   },
   {
    "id": "basic-mensuration-004",
    "q": {
-    "en": "In a right-angled triangle, the square of the hypotenuse equals —",
-    "as": "সমকোণী ত্ৰিভুজত কৰ্ণৰ বৰ্গ সমান —"
+    "en": "The area of a triangle with base 12 cm and height 9 cm is —",
+    "as": "ভূমি 12 ছে.মি. আৰু উচ্চতা 9 ছে.মি.ৰ ত্ৰিভুজৰ কালি —"
    },
    "options": [
     {
-     "en": "the sum of the other two sides",
-     "as": "আন দুটা বাহুৰ সমষ্টি"
+     "en": "108 sq cm",
+     "as": "১০৮ sq cm"
     },
     {
-     "en": "the sum of the squares of the other two sides",
-     "as": "আন দুটা বাহুৰ বৰ্গৰ সমষ্টি"
+     "en": "63 sq cm",
+     "as": "৬৩ sq cm"
     },
     {
-     "en": "the product of the other two sides",
-     "as": "আন দুটা বাহুৰ গুণফল"
+     "en": "72 sq cm",
+     "as": "৭২ sq cm"
     },
     {
-     "en": "the difference of the other two sides",
-     "as": "আন দুটা বাহুৰ পাৰ্থক্য"
+     "en": "54 sq cm",
+     "as": "৫৪ sq cm"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = 1/2 x 12 x 9 = 54 sq cm.",
+    "as": "কালি = 1/2 x 12 x 9 = 54 বৰ্গ ছে.মি.।"
+   }
+  },
+  {
+   "id": "basic-mensuration-005",
+   "q": {
+    "en": "The sum of the angles of a triangle is —",
+    "as": "এটা ত্ৰিভুজৰ কোণবোৰৰ যোগফল —"
+   },
+   "options": [
+    {
+     "en": "360 degrees",
+     "as": "৩৬০ ডিগ্ৰী"
+    },
+    {
+     "en": "180 degrees",
+     "as": "১৮০ ডিগ্ৰী"
+    },
+    {
+     "en": "270 degrees",
+     "as": "২৭০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "By the Pythagoras theorem, the square of the hypotenuse equals the sum of the squares of the other two sides.",
-    "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণৰ বৰ্গ আন দুটা বাহুৰ বৰ্গৰ সমষ্টিৰ সমান।"
+    "en": "The interior angles of any triangle add up to 180 degrees.",
+    "as": "যিকোনো ত্ৰিভুজৰ অন্তঃকোণবোৰৰ যোগফল 180 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "basic-mensuration-006",
+   "q": {
+    "en": "The circumference of a circle of radius 14 cm is (take pi = 22/7) —",
+    "as": "14 ছে.মি. ব্যাসাৰ্ধৰ বৃত্তৰ পৰিধি (pi = 22/7 ধৰি) —"
+   },
+   "options": [
+    {
+     "en": "616 cm",
+     "as": "৬১৬ ছে.মি."
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছে.মি."
+    },
+    {
+     "en": "66 cm",
+     "as": "৬৬ ছে.মি."
+    },
+    {
+     "en": "88 cm",
+     "as": "৮৮ ছে.মি."
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x 22/7 x 14 = 88 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x 22/7 x 14 = 88 ছে.মি.।"
+   }
+  },
+  {
+   "id": "basic-mensuration-007",
+   "q": {
+    "en": "The volume of a cube of edge 5 cm is —",
+    "as": "5 ছে.মি. বাহুৰ ঘনকৰ আয়তন —"
+   },
+   "options": [
+    {
+     "en": "125 cubic cm",
+     "as": "১২৫ ঘন ছে.মি."
+    },
+    {
+     "en": "150 cubic cm",
+     "as": "১৫০ ঘন ছে.মি."
+    },
+    {
+     "en": "25 cubic cm",
+     "as": "২৫ ঘন ছে.মি."
+    },
+    {
+     "en": "75 cubic cm",
+     "as": "৭৫ ঘন ছে.মি."
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume = a^3 = 125 cubic cm.",
+    "as": "আয়তন = a^3 = 125 ঘন ছে.মি.।"
+   }
+  },
+  {
+   "id": "basic-mensuration-008",
+   "q": {
+    "en": "The volume of a cuboid 10 cm x 6 cm x 4 cm is —",
+    "as": "10 ছে.মি. x 6 ছে.মি. x 4 ছে.মি. ঘনকৰ আয়তন —"
+   },
+   "options": [
+    {
+     "en": "200 cubic cm",
+     "as": "২০০ ঘন ছে.মি."
+    },
+    {
+     "en": "240 cubic cm",
+     "as": "২৪০ ঘন ছে.মি."
+    },
+    {
+     "en": "160 cubic cm",
+     "as": "১৬০ ঘন ছে.মি."
+    },
+    {
+     "en": "120 cubic cm",
+     "as": "১২০ ঘন ছে.মি."
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Volume = 10 x 6 x 4 = 240 cubic cm.",
+    "as": "আয়তন = 10 x 6 x 4 = 240 ঘন ছে.মি.।"
+   }
+  },
+  {
+   "id": "basic-mensuration-009",
+   "q": {
+    "en": "The area of a square of perimeter 36 cm is —",
+    "as": "পৰিসীমা 36 ছে.মি.ৰ বৰ্গক্ষেত্ৰৰ কালি —"
+   },
+   "options": [
+    {
+     "en": "49 sq cm",
+     "as": "৪৯ sq cm"
+    },
+    {
+     "en": "81 sq cm",
+     "as": "৮১ sq cm"
+    },
+    {
+     "en": "64 sq cm",
+     "as": "৬৪ sq cm"
+    },
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ sq cm"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Side = 9 cm, so the area is 81 sq cm.",
+    "as": "বাহু = 9 ছে.মি., গতিকে কালি 81 বৰ্গ ছে.মি.।"
+   }
+  },
+  {
+   "id": "basic-mensuration-010",
+   "q": {
+    "en": "The diagonal of a square of side 6 cm is —",
+    "as": "6 ছে.মি. বাহুৰ বৰ্গক্ষেত্ৰৰ কৰ্ণ —"
+   },
+   "options": [
+    {
+     "en": "12 cm",
+     "as": "১২ ছে.মি."
+    },
+    {
+     "en": "6 sqrt(2) cm",
+     "as": "৬ sqrt(২) ছে.মি."
+    },
+    {
+     "en": "3 sqrt(2) cm",
+     "as": "৩ sqrt(২) ছে.মি."
+    },
+    {
+     "en": "sqrt(6) cm",
+     "as": "sqrt(৬) ছে.মি."
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Diagonal = side x sqrt(2) = 6 sqrt(2) cm.",
+    "as": "কৰ্ণ = বাহু x sqrt(2) = 6 sqrt(2) ছে.মি.।"
+   }
+  },
+  {
+   "id": "basic-mensuration-011",
+   "q": {
+    "en": "The area of a right-angled triangle with legs 6 cm and 8 cm is —",
+    "as": "6 ছে.মি. আৰু 8 ছে.মি. ভূমিৰ সমকোণী ত্ৰিভুজৰ কালি —"
+   },
+   "options": [
+    {
+     "en": "24 sq cm",
+     "as": "২৪ sq cm"
+    },
+    {
+     "en": "20 sq cm",
+     "as": "২০ sq cm"
+    },
+    {
+     "en": "28 sq cm",
+     "as": "২৮ sq cm"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ sq cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = 1/2 x 6 x 8 = 24 sq cm.",
+    "as": "কালি = 1/2 x 6 x 8 = 24 বৰ্গ ছে.মি.।"
+   }
+  },
+  {
+   "id": "basic-mensuration-012",
+   "q": {
+    "en": "The total surface area of a cube of edge 4 cm is —",
+    "as": "4 ছে.মি. বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "64 sq cm",
+     "as": "৬৪ sq cm"
+    },
+    {
+     "en": "80 sq cm",
+     "as": "৮০ sq cm"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ sq cm"
+    },
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ sq cm"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "TSA = 6a^2 = 6 x 16 = 96 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 6a^2 = 6 x 16 = 96 বৰ্গ ছে.মি.।"
    }
   }
  ],
@@ -4167,43 +4647,17 @@ module.exports = {
   {
    "id": "lcm-hcf-001",
    "q": {
-    "en": "The HCF of 12 and 18 is —",
-    "as": "12 আৰু 18 ৰ গ.সা.উ. —"
-   },
-   "options": [
-    {
-     "en": "2",
-     "as": "২"
-    },
-    {
-     "en": "3",
-     "as": "৩"
-    },
-    {
-     "en": "6",
-     "as": "৬"
-    },
-    {
-     "en": "36",
-     "as": "৩৬"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "The common factors of 12 and 18 are 1, 2, 3 and 6, so the HCF is 6.",
-    "as": "12 আৰু 18 ৰ সাধাৰণ উৎপাদক 1, 2, 3 আৰু 6, গতিকে গ.সা.উ. 6।"
-   }
-  },
-  {
-   "id": "lcm-hcf-002",
-   "q": {
-    "en": "The LCM of 4 and 6 is —",
-    "as": "4 আৰু 6 ৰ ল.সা.গু. —"
+    "en": "The HCF of 36 and 48 is —",
+    "as": "36 আৰু 48 ৰ গ.সা.উ. —"
    },
    "options": [
     {
      "en": "12",
      "as": "১২"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
     },
     {
      "en": "24",
@@ -4212,76 +4666,342 @@ module.exports = {
     {
      "en": "6",
      "as": "৬"
-    },
-    {
-     "en": "2",
-     "as": "২"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The smallest common multiple of 4 and 6 is 12.",
-    "as": "4 আৰু 6 ৰ আটাইতকৈ সৰু সাধাৰণ গুণিতক 12।"
+    "en": "36 = 2^2 x 3^2 and 48 = 2^4 x 3, so HCF = 2^2 x 3 = 12.",
+    "as": "36 = 2^2 x 3^2 আৰু 48 = 2^4 x 3, গতিকে গ.সা.উ. = 2^2 x 3 = 12।"
+   }
+  },
+  {
+   "id": "lcm-hcf-002",
+   "q": {
+    "en": "The LCM of 15, 20 and 30 is —",
+    "as": "15, 20 আৰু 30 ৰ ল.সা.গু. —"
+   },
+   "options": [
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "90",
+     "as": "৯০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "15 = 3x5, 20 = 2^2x5, 30 = 2x3x5, so LCM = 2^2 x 3 x 5 = 60.",
+    "as": "15 = 3x5, 20 = 2^2x5, 30 = 2x3x5, গতিকে ল.সা.গু. = 2^2 x 3 x 5 = 60।"
    }
   },
   {
    "id": "lcm-hcf-003",
    "q": {
-    "en": "If the HCF of two numbers is 4 and their LCM is 24, the product of the numbers is —",
-    "as": "দুটা সংখ্যাৰ গ.সা.উ. 4 আৰু ল.সা.গু. 24 হ'লে গুণফল —"
+    "en": "The product of the HCF and the LCM of two numbers is always equal to —",
+    "as": "দুটা সংখ্যাৰ গ.সা.উ. আৰু ল.সা.গু.ৰ গুণফল সদায় সমান —"
    },
    "options": [
     {
-     "en": "28",
-     "as": "২৮"
+     "en": "the product of the numbers",
+     "as": "সংখ্যা দুটাৰ গুণফল"
     },
     {
-     "en": "96",
-     "as": "৯৬"
+     "en": "their average",
+     "as": "সিহঁতৰ গড়"
     },
     {
-     "en": "48",
-     "as": "৪৮"
+     "en": "the sum of the numbers",
+     "as": "সংখ্যা দুটাৰ যোগফল"
     },
     {
-     "en": "120",
-     "as": "১২০"
+     "en": "the difference of the numbers",
+     "as": "সংখ্যা দুটাৰ পাৰ্থক্য"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "HCF × LCM = 4 × 24 = 96.",
-    "as": "গ.সা.উ. × ল.সা.গু. = 4 × 24 = 96।"
+    "en": "For any two numbers, HCF x LCM = product of the numbers.",
+    "as": "যিকোনো দুটা সংখ্যাৰ বাবে, গ.সা.উ. x ল.সা.গু. = সংখ্যা দুটাৰ গুণফল।"
    }
   },
   {
    "id": "lcm-hcf-004",
    "q": {
-    "en": "The LCM of two co-prime numbers is —",
-    "as": "দুটা সহ-মৌলিক সংখ্যাৰ ল.সা.গু. —"
+    "en": "The greatest number that divides 43, 91 and 183 leaving the same remainder 3 in each case is —",
+    "as": "43, 91 আৰু 183 ক হৰণ কৰিলে প্ৰতিটোতে একে ভাগশেষ 3 এৰি যোৱা আটাইতকৈ ডাঙৰ সংখ্যা —"
    },
    "options": [
     {
-     "en": "their sum",
-     "as": "তেওঁলোকৰ যোগফল"
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Subtracting 3 gives 40, 88 and 180; their HCF is 4.",
+    "as": "3 বিয়োগ কৰিলে 40, 88 আৰু 180 পোৱা যায়; সিহঁতৰ গ.সা.উ. 4।"
+   }
+  },
+  {
+   "id": "lcm-hcf-005",
+   "q": {
+    "en": "The least number which when divided by 12, 15 and 18 leaves a remainder 5 in each case is —",
+    "as": "12, 15 আৰু 18 ৰে হৰণ কৰিলে প্ৰতিটোতে ভাগশেষ 5 এৰি যোৱা আটাইতকৈ সৰু সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "185",
+     "as": "১৮৫"
+    },
+    {
+     "en": "175",
+     "as": "১৭৫"
+    },
+    {
+     "en": "195",
+     "as": "১৯৫"
+    },
+    {
+     "en": "180",
+     "as": "১৮০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "LCM of 12, 15, 18 = 180; add 5 to get 185.",
+    "as": "12, 15, 18 ৰ ল.সা.গু. = 180; 5 যোগ কৰিলে 185।"
+   }
+  },
+  {
+   "id": "lcm-hcf-006",
+   "q": {
+    "en": "The HCF of two co-prime numbers is —",
+    "as": "দুটা সহ-মৌলিক সংখ্যাৰ গ.সা.উ. —"
+   },
+   "options": [
+    {
+     "en": "the smaller number",
+     "as": "সৰু সংখ্যাটো"
+    },
+    {
+     "en": "1",
+     "as": "১"
     },
     {
      "en": "their product",
-     "as": "তেওঁলোকৰ গুণফল"
+     "as": "সিহঁতৰ গুণফল"
     },
     {
-     "en": "one",
-     "as": "এক"
-    },
-    {
-     "en": "their difference",
-     "as": "তেওঁলোকৰ পাৰ্থক্য"
+     "en": "0",
+     "as": "০"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "Two co-prime numbers have no common factor, so their LCM is their product.",
-    "as": "দুটা সহ-মৌলিক সংখ্যাৰ সাধাৰণ উৎপাদক নাই, গতিকে ল.সা.গু. গুণফল।"
+    "en": "Co-prime numbers share no common factor other than 1.",
+    "as": "সহ-মৌলিক সংখ্যাবোৰত 1 ৰ বাহিৰে কোনো সাধাৰণ উৎপাদক নাথাকে।"
+   }
+  },
+  {
+   "id": "lcm-hcf-007",
+   "q": {
+    "en": "The LCM of 7 and 11 is —",
+    "as": "7 আৰু 11 ৰ ল.সা.গু. —"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "154",
+     "as": "১৫৪"
+    },
+    {
+     "en": "77",
+     "as": "৭৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Both are prime, so LCM = 7 x 11 = 77.",
+    "as": "দুয়োটা মৌলিক, গতিকে ল.সা.গু. = 7 x 11 = 77।"
+   }
+  },
+  {
+   "id": "lcm-hcf-008",
+   "q": {
+    "en": "The largest number that divides 62, 132 and 237 leaving the same remainder in each case is —",
+    "as": "62, 132 আৰু 237 ক হৰণ কৰিলে প্ৰতিটোতে একে ভাগশেষ এৰি যোৱা আটাইতকৈ ডাঙৰ সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Differences 70, 175 and 105 have HCF 35.",
+    "as": "পাৰ্থক্য 70, 175 আৰু 105 ৰ গ.সা.উ. 35।"
+   }
+  },
+  {
+   "id": "lcm-hcf-009",
+   "q": {
+    "en": "Three bells toll at intervals of 6, 8 and 12 minutes. If they toll together at 8:00 a.m., they next toll together at —",
+    "as": "তিনিটা ঘণ্টা 6, 8 আৰু 12 মিনিটৰ বিৰতিত বাজে। 8:00 বজাত একেলগে বাজিলে পুনৰ একেলগে বাজিব —"
+   },
+   "options": [
+    {
+     "en": "8:48 a.m.",
+     "as": "৮:৪৮ a.m."
+    },
+    {
+     "en": "8:36 a.m.",
+     "as": "৮:৩৬ a.m."
+    },
+    {
+     "en": "8:24 a.m.",
+     "as": "৮:২৪ a.m."
+    },
+    {
+     "en": "9:00 a.m.",
+     "as": "৯:০০ a.m."
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "LCM of 6, 8 and 12 is 24 minutes, so they toll together at 8:24 a.m.",
+    "as": "6, 8 আৰু 12 ৰ ল.সা.গু. 24 মিনিট, গতিকে 8:24 বজাত একেলগে বাজিব।"
+   }
+  },
+  {
+   "id": "lcm-hcf-010",
+   "q": {
+    "en": "The HCF of 0.6 and 0.9 is —",
+    "as": "0.6 আৰু 0.9 ৰ গ.সা.উ. —"
+   },
+   "options": [
+    {
+     "en": "0.03",
+     "as": "০.০৩"
+    },
+    {
+     "en": "0.3",
+     "as": "০.৩"
+    },
+    {
+     "en": "0.1",
+     "as": "০.১"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Write as 6/10 and 9/10; the HCF is 3/10 = 0.3.",
+    "as": "6/10 আৰু 9/10 হিচাপে লিখিলে গ.সা.উ. 3/10 = 0.3।"
+   }
+  },
+  {
+   "id": "lcm-hcf-011",
+   "q": {
+    "en": "If the LCM of two numbers is 180 and their HCF is 6, then their product is —",
+    "as": "দুটা সংখ্যাৰ ল.সা.গু. 180 আৰু গ.সা.উ. 6 হ'লে সিহঁতৰ গুণফল —"
+   },
+   "options": [
+    {
+     "en": "1080",
+     "as": "১০৮০"
+    },
+    {
+     "en": "900",
+     "as": "৯০০"
+    },
+    {
+     "en": "186",
+     "as": "১৮৬"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Product = HCF x LCM = 6 x 180 = 1080.",
+    "as": "গুণফল = গ.সা.উ. x ল.সা.গু. = 6 x 180 = 1080।"
+   }
+  },
+  {
+   "id": "lcm-hcf-012",
+   "q": {
+    "en": "The smallest square number that is divisible by 4, 6 and 10 is —",
+    "as": "4, 6 আৰু 10 ৰে বিভাজ্য আটাইতকৈ সৰু বৰ্গ সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "900",
+     "as": "৯০০"
+    },
+    {
+     "en": "3600",
+     "as": "৩৬০০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "LCM of 4, 6, 10 = 60 = 2^2 x 3 x 5; to make a square multiply by 3 x 5 = 15, giving 900.",
+    "as": "4, 6, 10 ৰ ল.সা.গু. = 60 = 2^2 x 3 x 5; বৰ্গ কৰিবলৈ 3 x 5 = 15 ৰে পূৰণ কৰিলে 900।"
    }
   }
  ],
@@ -4777,121 +5497,361 @@ module.exports = {
   {
    "id": "number-system-001",
    "q": {
-    "en": "The place value of the digit 0 in the number 5072 is —",
-    "as": "5072 সংখ্যাটোত 0 অংকটোৰ স্থানীয় মান —"
+    "en": "The place value of the digit 7 in 3,74,251 is —",
+    "as": "3,74,251 সংখ্যাটোত 7 অংকটোৰ স্থানীয় মান —"
    },
    "options": [
     {
-     "en": "0",
-     "as": "০"
-    },
-    {
-     "en": "Hundreds",
-     "as": "শতক"
-    },
-    {
-     "en": "Tens",
-     "as": "দহক"
-    },
-    {
-     "en": "Thousands",
-     "as": "হাজাৰ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "The digit 0 contributes no value, so its place value is 0 in any position.",
-    "as": "0 অংকটোৱে কোনো মান যোগ নকৰে, গতিকে যিকোনো স্থানত ইয়াৰ স্থানীয় মান 0।"
-   }
-  },
-  {
-   "id": "number-system-002",
-   "q": {
-    "en": "The number of prime numbers between 1 and 20 is —",
-    "as": "1 ৰ পৰা 20 লৈকে মূৰব সংখ্যাৰ সংখ্যা —"
-   },
-   "options": [
-    {
-     "en": "6",
-     "as": "৬"
+     "en": "70000",
+     "as": "৭০০০০"
     },
     {
      "en": "7",
      "as": "৭"
     },
     {
-     "en": "8",
-     "as": "৮"
+     "en": "7000",
+     "as": "৭০০০"
     },
     {
-     "en": "9",
-     "as": "৯"
+     "en": "700",
+     "as": "৭০০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The digit 7 stands in the ten-thousands place, so its place value is 70,000.",
+    "as": "7 অংকটো হাজাৰ-দহৰ ঘৰত আছে, গতিকে স্থানীয় মান 70,000।"
+   }
+  },
+  {
+   "id": "number-system-002",
+   "q": {
+    "en": "The smallest odd prime number is —",
+    "as": "আটাইতকৈ সৰু অযুগ্ম মৌলিক সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "They are 2, 3, 5, 7, 11, 13, 17 and 19, so there are eight primes.",
-    "as": "সেইবোৰ 2, 3, 5, 7, 11, 13, 17 আৰু 19, গতিকে মুঠ আঠটা মূৰব সংখ্যা।"
+    "en": "2 is prime but even; the smallest odd prime is 3.",
+    "as": "2 মৌলিক কিন্তু যুগ্ম; আটাইতকৈ সৰু অযুগ্ম মৌলিক 3।"
    }
   },
   {
    "id": "number-system-003",
    "q": {
-    "en": "In the number 5060, the place value of the digit 5 is —",
-    "as": "5060 সংখ্যাটোত 5 অংকটোৰ স্থানীয় মান —"
+    "en": "The sum of the first 20 natural numbers is —",
+    "as": "প্ৰথম 20 টা স্বাভাৱিক সংখ্যাৰ যোগফল —"
    },
    "options": [
     {
-     "en": "5",
-     "as": "৫"
+     "en": "220",
+     "as": "২২০"
     },
     {
-     "en": "50",
-     "as": "৫০"
+     "en": "210",
+     "as": "২১০"
     },
     {
-     "en": "500",
-     "as": "৫০০"
+     "en": "190",
+     "as": "১৯০"
     },
     {
-     "en": "5000",
-     "as": "৫০০০"
+     "en": "200",
+     "as": "২০০"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
-    "en": "The digit 5 stands in the thousands place, so its place value is 5000.",
-    "as": "5 অংকটো হাজাৰৰ স্থানত আছে, গতিকে ইয়াৰ স্থানীয় মান 5000।"
+    "en": "Sum = n(n+1)/2 = 20 x 21 / 2 = 210.",
+    "as": "যোগফল = n(n+1)/2 = 20 x 21 / 2 = 210।"
    }
   },
   {
    "id": "number-system-004",
    "q": {
-    "en": "The number of factors of 36 is —",
-    "as": "36 ৰ উৎপাদকৰ সংখ্যা —"
+    "en": "The greatest 4-digit number formed by the digits 3, 0, 7 and 5 (each used once) is —",
+    "as": "3, 0, 7 আৰু 5 অংকৰে (প্ৰতিটো এবাৰ) গঠন কৰা আটাইতকৈ ডাঙৰ 4-অংকৰ সংখ্যা —"
    },
    "options": [
     {
+     "en": "7503",
+     "as": "৭৫০৩"
+    },
+    {
+     "en": "7350",
+     "as": "৭৩৫০"
+    },
+    {
+     "en": "7530",
+     "as": "৭৫৩০"
+    },
+    {
+     "en": "3057",
+     "as": "৩০৫৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Arranging the digits in descending order 7, 5, 3, 0 gives 7530.",
+    "as": "অংকবোৰ অৱৰোহী ক্ৰমত 7, 5, 3, 0 সজালে 7530 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "number-system-005",
+   "q": {
+    "en": "A number is divisible by 9 if —",
+    "as": "এটা সংখ্যা 9 ৰে বিভাজ্য হ'ব যদিহে —"
+   },
+   "options": [
+    {
+     "en": "it is even",
+     "as": "সেয়া যুগ্ম হয়"
+    },
+    {
+     "en": "the sum of its digits is divisible by 9",
+     "as": "তাৰ অংকবোৰৰ যোগফল ৯ ৰে বিভাজ্য হয়"
+    },
+    {
+     "en": "its last digit is 9",
+     "as": "তাৰ শেষ অংকটো ৯ হয়"
+    },
+    {
+     "en": "its last two digits form a multiple of 9",
+     "as": "তাৰ শেষৰ দুটা অংক ৯ ৰ গুণিতক হয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The divisibility rule for 9 checks the sum of the digits.",
+    "as": "9 ৰ বিভাজ্যতাৰ নিয়মত অংকবোৰৰ যোগফল পৰীক্ষা কৰা হয়।"
+   }
+  },
+  {
+   "id": "number-system-006",
+   "q": {
+    "en": "The LCM of 12 and 18 is —",
+    "as": "12 আৰু 18 ৰ ল.সা.গু. —"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "72",
+     "as": "৭২"
+    },
+    {
      "en": "6",
      "as": "৬"
+    },
+    {
+     "en": "216",
+     "as": "২১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "12 = 2^2 x 3 and 18 = 2 x 3^2, so LCM = 2^2 x 3^2 = 36.",
+    "as": "12 = 2^2 x 3 আৰু 18 = 2 x 3^2, গতিকে ল.সা.গু. = 2^2 x 3^2 = 36।"
+   }
+  },
+  {
+   "id": "number-system-007",
+   "q": {
+    "en": "The decimal 0.625 expressed as a fraction in lowest terms is —",
+    "as": "0.625 দশমিকক আটাইতকৈ সৰল ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "7/8",
+     "as": "৭/৮"
+    },
+    {
+     "en": "5/16",
+     "as": "৫/১৬"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "5/8",
+     "as": "৫/৮"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "0.625 = 625/1000 = 5/8.",
+    "as": "0.625 = 625/1000 = 5/8।"
+   }
+  },
+  {
+   "id": "number-system-008",
+   "q": {
+    "en": "The number of factors of 48 is —",
+    "as": "48 ৰ উৎপাদকৰ সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
     },
     {
      "en": "8",
      "as": "৮"
     },
     {
-     "en": "9",
-     "as": "৯"
-    },
-    {
      "en": "12",
      "as": "১২"
+    },
+    {
+     "en": "10",
+     "as": "১০"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
-    "en": "36 = 2 squared x 3 squared, so the number of factors is (2+1)(2+1) = 9.",
-    "as": "36 = 2 ৰ বৰ্গ x 3 ৰ বৰ্গ, গতিকে উৎপাদকৰ সংখ্যা (2+1)(2+1) = 9।"
+    "en": "48 = 2^4 x 3, so the number of factors is (4+1)(1+1) = 10.",
+    "as": "48 = 2^4 x 3, গতিকে উৎপাদকৰ সংখ্যা (4+1)(1+1) = 10।"
+   }
+  },
+  {
+   "id": "number-system-009",
+   "q": {
+    "en": "Which of the following numbers is irrational?",
+    "as": "তলৰ কোনটো সংখ্যা অপৰিমেয়?"
+   },
+   "options": [
+    {
+     "en": "sqrt(3)",
+     "as": "sqrt(৩)"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "0.125",
+     "as": "০.১২৫"
+    },
+    {
+     "en": "sqrt(25)",
+     "as": "sqrt(২৫)"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sqrt(3) has a non-terminating, non-repeating decimal expansion, so it is irrational.",
+    "as": "sqrt(3) ৰ দশমিক বিস্তৃতি অসসীম আৰু অপুনৰাবৃত্তি, গতিকে ই অপৰিমেয়।"
+   }
+  },
+  {
+   "id": "number-system-010",
+   "q": {
+    "en": "The smallest number that must be added to 1234 to make it divisible by 9 is —",
+    "as": "1234 ক 9 ৰে বিভাজ্য কৰিবলৈ যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "1+2+3+4 = 10; the next multiple of 9 is 18, so add 5.",
+    "as": "1+2+3+4 = 10; 9 ৰ পৰৱৰ্তী গুণিতক 18, গতিকে 5 যোগ কৰিব লাগে।"
+   }
+  },
+  {
+   "id": "number-system-011",
+   "q": {
+    "en": "The value of 1/2 + 1/3 + 1/6 is —",
+    "as": "1/2 + 1/3 + 1/6 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2/3",
+     "as": "২/৩"
+    },
+    {
+     "en": "5/6",
+     "as": "৫/৬"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "LCM of 2, 3 and 6 is 6, so 3/6 + 2/6 + 1/6 = 6/6 = 1.",
+    "as": "2, 3 আৰু 6 ৰ ল.সা.গু. 6, গতিকে 3/6 + 2/6 + 1/6 = 6/6 = 1।"
+   }
+  },
+  {
+   "id": "number-system-012",
+   "q": {
+    "en": "The largest 3-digit number divisible by 11 is —",
+    "as": "11 ৰে বিভাজ্য আটাইতকৈ ডাঙৰ 3-অংকৰ সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "989",
+     "as": "৯৮৯"
+    },
+    {
+     "en": "979",
+     "as": "৯৭৯"
+    },
+    {
+     "en": "999",
+     "as": "৯৯৯"
+    },
+    {
+     "en": "990",
+     "as": "৯৯০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "990 = 11 x 90 and is the greatest 3-digit multiple of 11.",
+    "as": "990 = 11 x 90 আৰু 11 ৰ আটাইতকৈ ডাঙৰ 3-অংকৰ গুণিতক।"
    }
   }
  ],
@@ -5631,121 +6591,361 @@ module.exports = {
   {
    "id": "percentage-001",
    "q": {
-    "en": "25% of 400 is —",
-    "as": "400 ৰ 25% —"
+    "en": "What is 15% of 240?",
+    "as": "240 ৰ 15% কিমান?"
    },
    "options": [
     {
-     "en": "50",
-     "as": "৫০"
+     "en": "32",
+     "as": "৩২"
     },
     {
-     "en": "75",
-     "as": "৭৫"
+     "en": "36",
+     "as": "৩৬"
     },
     {
-     "en": "100",
-     "as": "১০০"
+     "en": "48",
+     "as": "৪৮"
     },
     {
-     "en": "125",
-     "as": "১২৫"
+     "en": "24",
+     "as": "২৪"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "25% of 400 = 400 × 25/100 = 100.",
-    "as": "400 ৰ 25% = 400 × 25/100 = 100।"
+    "en": "240 x 15 / 100 = 36.",
+    "as": "240 x 15 / 100 = 36।"
    }
   },
   {
    "id": "percentage-002",
    "q": {
-    "en": "If a number is increased by 10% and then decreased by 10%, the final value is —",
-    "as": "এটা সংখ্যা 10% বৃদ্ধি কৰি তাৰ পিছত 10% হ্ৰাস কৰিলে চূড়ান্ত মান —"
+    "en": "A student scored 450 marks out of 600. His percentage is —",
+    "as": "এজন ছাত্ৰই 600 ৰ ভিতৰত 450 নম্বৰ পালে। তেওঁৰ শতাংশ —"
    },
    "options": [
     {
-     "en": "the same as the original",
-     "as": "মূলৰ সমান"
+     "en": "75%",
+     "as": "৭৫%"
     },
     {
-     "en": "1% less than the original",
-     "as": "মূলতকৈ 1% কম"
+     "en": "65%",
+     "as": "৬৫%"
     },
     {
-     "en": "1% more than the original",
-     "as": "মূলতকৈ 1% বেছি"
+     "en": "70%",
+     "as": "৭০%"
     },
     {
-     "en": "10% less",
-     "as": "মূলতকৈ 10% কম"
+     "en": "80%",
+     "as": "৮০%"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "The value becomes 1.1 × 0.9 = 0.99 of the original, that is 1% less.",
-    "as": "মানটো মূলৰ 1.1 × 0.9 = 0.99 হয়, অৰ্থাৎ 1% কম।"
+    "en": "450 / 600 x 100 = 75%.",
+    "as": "450 / 600 x 100 = 75%।"
    }
   },
   {
    "id": "percentage-003",
    "q": {
-    "en": "The fraction 3/5 as a percentage is —",
-    "as": "3/5 ভগ্নাংশক শতাংশত প্ৰকাশ কৰিলে —"
+    "en": "If 35% of a number is 105, the number is —",
+    "as": "এটা সংখ্যাৰ 35% 105 হ'লে সংখ্যাটো —"
    },
    "options": [
     {
-     "en": "30%",
-     "as": "৩০%"
+     "en": "400",
+     "as": "৪০০"
     },
     {
-     "en": "50%",
-     "as": "৫০%"
+     "en": "350",
+     "as": "৩৫০"
     },
     {
-     "en": "60%",
-     "as": "৬০%"
+     "en": "250",
+     "as": "২৫০"
+    },
+    {
+     "en": "300",
+     "as": "৩০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "105 x 100 / 35 = 300.",
+    "as": "105 x 100 / 35 = 300।"
+   }
+  },
+  {
+   "id": "percentage-004",
+   "q": {
+    "en": "The price of an article is increased from ₹80 to ₹92. The percentage increase is —",
+    "as": "এটা বস্তুৰ মূল্য ₹80 ৰ পৰা ₹92 লৈ বাঢ়িল। শতাংশ বৃদ্ধি —"
+   },
+   "options": [
+    {
+     "en": "18%",
+     "as": "১৮%"
+    },
+    {
+     "en": "15%",
+     "as": "১৫%"
+    },
+    {
+     "en": "20%",
+     "as": "২০%"
+    },
+    {
+     "en": "12%",
+     "as": "১২%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Increase = 12; 12 / 80 x 100 = 15%.",
+    "as": "বৃদ্ধি = 12; 12 / 80 x 100 = 15%।"
+   }
+  },
+  {
+   "id": "percentage-005",
+   "q": {
+    "en": "If the price of rice is reduced by 20%, the new price is what per cent of the original?",
+    "as": "চাউলৰ মূল্য 20% হ্ৰাস হ'লে নতুন মূল্য মূল্যৰ শতকৰা কিমান?"
+   },
+   "options": [
+    {
+     "en": "80%",
+     "as": "৮০%"
+    },
+    {
+     "en": "70%",
+     "as": "৭০%"
+    },
+    {
+     "en": "120%",
+     "as": "১২০%"
     },
     {
      "en": "75%",
      "as": "৭৫%"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "3/5 = 0.6 and 0.6 × 100 = 60%.",
-    "as": "3/5 = 0.6 আৰু 0.6 × 100 = 60%।"
+    "en": "A 20% reduction leaves 80% of the original price.",
+    "as": "20% হ্ৰাস হ'লে মূলৰ 80% বাকী থাকে।"
    }
   },
   {
-   "id": "percentage-004",
+   "id": "percentage-006",
    "q": {
-    "en": "If 40% of a number is 80, the number is —",
-    "as": "এটা সংখ্যাৰ 40% 80 হ'লে সংখ্যাটো —"
+    "en": "45% of 60 + 60% of 45 is —",
+    "as": "60 ৰ 45% + 45 ৰ 60% —"
    },
    "options": [
     {
-     "en": "160",
-     "as": "১৬০"
+     "en": "108",
+     "as": "১০৮"
     },
     {
-     "en": "200",
-     "as": "২০০"
+     "en": "54",
+     "as": "৫৪"
     },
     {
-     "en": "240",
-     "as": "২৪০"
+     "en": "45",
+     "as": "৪৫"
     },
     {
-     "en": "320",
-     "as": "৩২০"
+     "en": "99",
+     "as": "৯৯"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The number is 80 × 100/40 = 200.",
-    "as": "সংখ্যাটো 80 × 100/40 = 200।"
+    "en": "Both terms equal 27, so 27 + 27 = 54.",
+    "as": "দুয়োটা ৰাশি 27 ৰ সমান, গতিকে 27 + 27 = 54।"
+   }
+  },
+  {
+   "id": "percentage-007",
+   "q": {
+    "en": "A number is first increased by 20% and then decreased by 20%. The net change is —",
+    "as": "এটা সংখ্যা প্ৰথমে 20% বৃদ্ধি কৰি তাৰপিছত 20% হ্ৰাস কৰা হ'ল। মুঠ পৰিৱৰ্তন —"
+   },
+   "options": [
+    {
+     "en": "2% decrease",
+     "as": "২% হ্ৰাস"
+    },
+    {
+     "en": "4% increase",
+     "as": "৪% বৃদ্ধি"
+    },
+    {
+     "en": "no change",
+     "as": "কোনো পৰিৱৰ্তন নাই"
+    },
+    {
+     "en": "4% decrease",
+     "as": "৪% হ্ৰাস"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "1.2 x 0.8 = 0.96, a net decrease of 4%.",
+    "as": "1.2 x 0.8 = 0.96, মুঠ 4% হ্ৰাস।"
+   }
+  },
+  {
+   "id": "percentage-008",
+   "q": {
+    "en": "The fraction 7/8 expressed as a percentage is —",
+    "as": "7/8 ভগ্নাংশক শতাংশত প্ৰকাশ কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "85%",
+     "as": "৮৫%"
+    },
+    {
+     "en": "80%",
+     "as": "৮০%"
+    },
+    {
+     "en": "78%",
+     "as": "৭৮%"
+    },
+    {
+     "en": "87.5%",
+     "as": "৮৭.৫%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "7/8 x 100 = 87.5%.",
+    "as": "7/8 x 100 = 87.5%।"
+   }
+  },
+  {
+   "id": "percentage-009",
+   "q": {
+    "en": "In an examination 60% of the students passed and 240 failed. The total number of students was —",
+    "as": "এখন পৰীক্ষাত 60% ছাত্ৰ উত্তীৰ্ণ আৰু 240 অনুত্তীৰ্ণ। মুঠ ছাত্ৰৰ সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "640",
+     "as": "৬৪০"
+    },
+    {
+     "en": "600",
+     "as": "৬০০"
+    },
+    {
+     "en": "400",
+     "as": "৪০০"
+    },
+    {
+     "en": "500",
+     "as": "৫০০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "40% failed = 240, so the total = 240 x 100 / 40 = 600.",
+    "as": "40% অনুত্তীৰ্ণ = 240, গতিকে মুঠ = 240 x 100 / 40 = 600।"
+   }
+  },
+  {
+   "id": "percentage-010",
+   "q": {
+    "en": "The population of a town increases by 5% every year. If the present population is 40,000, the population after one year will be —",
+    "as": "এখন নগৰৰ জনসংখ্যা প্ৰতি বছৰে 5% বাঢ়ে। বৰ্তমান জনসংখ্যা 40,000 হ'লে এবছৰৰ পিছত জনসংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "42,000",
+     "as": "৪২,০০০"
+    },
+    {
+     "en": "45,000",
+     "as": "৪৫,০০০"
+    },
+    {
+     "en": "41,000",
+     "as": "৪১,০০০"
+    },
+    {
+     "en": "44,000",
+     "as": "৪৪,০০০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "40,000 + 5% of 40,000 = 42,000.",
+    "as": "40,000 + 40,000 ৰ 5% = 42,000।"
+   }
+  },
+  {
+   "id": "percentage-011",
+   "q": {
+    "en": "If A's income is 25% more than B's, then B's income is less than A's by —",
+    "as": "A ৰ আয় B ৰ আয়তকৈ 25% বেছি হ'লে, B ৰ আয় A ৰ আয়তকৈ কম —"
+   },
+   "options": [
+    {
+     "en": "15%",
+     "as": "১৫%"
+    },
+    {
+     "en": "25%",
+     "as": "২৫%"
+    },
+    {
+     "en": "20%",
+     "as": "২০%"
+    },
+    {
+     "en": "30%",
+     "as": "৩০%"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "If B = 100, A = 125; then 25/125 x 100 = 20%.",
+    "as": "B = 100 হ'লে A = 125; গতিকে 25/125 x 100 = 20%।"
+   }
+  },
+  {
+   "id": "percentage-012",
+   "q": {
+    "en": "What is 12.5% of 800?",
+    "as": "800 ৰ 12.5% কিমান?"
+   },
+   "options": [
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "90",
+     "as": "৯০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "12.5% = 1/8, and 800 / 8 = 100.",
+    "as": "12.5% = 1/8, আৰু 800 / 8 = 100।"
    }
   }
  ],
@@ -5997,121 +7197,361 @@ module.exports = {
   {
    "id": "problems-on-ages-001",
    "q": {
-    "en": "A father is 30 years older than his son. If the son is 10, the father is —",
-    "as": "এজন দেউতাক পুত্ৰতকৈ 30 বছৰ ডাঙৰ। পুত্ৰ 10 হ'লে দেউতাক —"
+    "en": "The present age of A is 24 years and B is 16 years. The ratio of their ages after 4 years will be —",
+    "as": "A ৰ বৰ্তমান বয়স 24 বছৰ আৰু B ৰ 16 বছৰ। 4 বছৰৰ পিছত সিহঁতৰ বয়সৰ অনুপাত —"
    },
    "options": [
     {
-     "en": "30",
-     "as": "৩০"
+     "en": "5 : 4",
+     "as": "৫ : ৪"
     },
     {
-     "en": "35",
-     "as": "৩৫"
+     "en": "3 : 2",
+     "as": "৩ : ২"
     },
     {
-     "en": "40",
-     "as": "৪০"
+     "en": "7 : 5",
+     "as": "৭ : ৫"
     },
     {
-     "en": "45",
-     "as": "৪৫"
+     "en": "4 : 3",
+     "as": "৪ : ৩"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The father's age is 10 + 30 = 40 years.",
-    "as": "দেউতাকৰ বয়স 10 + 30 = 40 বছৰ।"
+    "en": "After 4 years the ages are 28 and 20, so 28 : 20 = 7 : 5.",
+    "as": "4 বছৰৰ পিছত বয়স 28 আৰু 20, গতিকে 28 : 20 = 7 : 5।"
    }
   },
   {
    "id": "problems-on-ages-002",
    "q": {
-    "en": "The sum of the ages of a mother and daughter is 50. If the mother is 30, the daughter is —",
-    "as": "মাক আৰু জীয়েকৰ বয়সৰ যোগফল 50। মাক 30 হ'লে জীয়েক —"
+    "en": "The sum of the ages of a father and his son is 60 years. If the father is four times as old as the son, the son's age is —",
+    "as": "পিতৃ আৰু পুত্ৰৰ বয়সৰ যোগফল 60 বছৰ। পিতৃ পুত্ৰতকৈ চাৰিগুণ ডাঙৰ হ'লে পুত্ৰৰ বয়স —"
    },
    "options": [
     {
-     "en": "15",
-     "as": "১৫"
+     "en": "20 years",
+     "as": "২০ বছৰ"
     },
     {
-     "en": "20",
-     "as": "২০"
+     "en": "15 years",
+     "as": "১৫ বছৰ"
     },
     {
-     "en": "25",
-     "as": "২৫"
+     "en": "12 years",
+     "as": "১২ বছৰ"
     },
     {
-     "en": "30",
-     "as": "৩০"
+     "en": "10 years",
+     "as": "১০ বছৰ"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "The daughter's age is 50 − 30 = 20 years.",
-    "as": "জীয়েকৰ বয়স 50 − 30 = 20 বছৰ।"
+    "en": "5x = 60, so x = 12 years.",
+    "as": "5x = 60, গতিকে x = 12 বছৰ।"
    }
   },
   {
    "id": "problems-on-ages-003",
    "q": {
-    "en": "Five years ago a man was 25. His present age is —",
-    "as": "পাঁচ বছৰ আগতে এজন মানুহ 25 বছৰৰ আছিল। বৰ্তমান বয়স —"
+    "en": "A is 5 years older than B. Five years ago A was twice as old as B. The present age of A is —",
+    "as": "A, B তকৈ 5 বছৰ ডাঙৰ। পাঁচ বছৰ আগতে A ৰ বয়স B ৰ দুগুণ আছিল। A ৰ বৰ্তমান বয়স —"
    },
    "options": [
     {
-     "en": "20",
-     "as": "২০"
+     "en": "10 years",
+     "as": "১০ বছৰ"
     },
     {
-     "en": "25",
-     "as": "২৫"
+     "en": "15 years",
+     "as": "১৫ বছৰ"
     },
     {
-     "en": "30",
-     "as": "৩০"
+     "en": "12 years",
+     "as": "১২ বছৰ"
     },
     {
-     "en": "35",
-     "as": "৩৫"
+     "en": "18 years",
+     "as": "১৮ বছৰ"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "Adding five years gives the present age, 25 + 5 = 30 years.",
-    "as": "পাঁচ বছৰ যোগ কৰিলে বৰ্তমান বয়স, 25 + 5 = 30 বছৰ।"
+    "en": "Let B = x; x + 5 - 5 = 2(x - 5), so x = 10 and A is 15 years old.",
+    "as": "B = x ধৰিলে; x + 5 - 5 = 2(x - 5), গতিকে x = 10 আৰু A ৰ বয়স 15 বছৰ।"
    }
   },
   {
    "id": "problems-on-ages-004",
    "q": {
-    "en": "In an age problem, what stays constant over time?",
-    "as": "বয়সৰ প্ৰশ্নত সময়ৰ লগে লগে কি স্থিৰ থাকে?"
+    "en": "The present ages of A and B are in the ratio 4 : 5. After 6 years the ratio becomes 6 : 7. The present age of B is —",
+    "as": "A আৰু B ৰ বৰ্তমান বয়সৰ অনুপাত 4 : 5। 6 বছৰৰ পিছত অনুপাত 6 : 7 হয়। B ৰ বৰ্তমান বয়স —"
    },
    "options": [
     {
-     "en": "The ratio of the ages",
-     "as": "বয়সৰ অনুপাত"
+     "en": "15 years",
+     "as": "১৫ বছৰ"
     },
     {
-     "en": "The difference between the ages",
-     "as": "বয়সৰ পাৰ্থক্য"
+     "en": "18 years",
+     "as": "১৮ বছৰ"
     },
     {
-     "en": "The sum of the ages",
-     "as": "বয়সৰ যোগফল"
+     "en": "20 years",
+     "as": "২০ বছৰ"
     },
     {
-     "en": "The product of the ages",
-     "as": "বয়সৰ গুণফল"
+     "en": "12 years",
+     "as": "১২ বছৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(4x + 6) / (5x + 6) = 6/7 gives x = 3, so B is 15 years old.",
+    "as": "(4x + 6) / (5x + 6) = 6/7 ৰ পৰা x = 3, গতিকে B ৰ বয়স 15 বছৰ।"
+   }
+  },
+  {
+   "id": "problems-on-ages-005",
+   "q": {
+    "en": "A mother is 24 years older than her daughter. After 6 years she will be three times as old as her daughter. The daughter's present age is —",
+    "as": "এগৰাকী মাক তেওঁৰ জীয়েকতকৈ 24 বছৰ ডাঙৰ। 6 বছৰৰ পিছত তেওঁ জীয়েকতকৈ তিনিগুণ ডাঙৰ হ'ব। জীয়েকৰ বৰ্তমান বয়স —"
+   },
+   "options": [
+    {
+     "en": "8 years",
+     "as": "৮ বছৰ"
+    },
+    {
+     "en": "4 years",
+     "as": "৪ বছৰ"
+    },
+    {
+     "en": "6 years",
+     "as": "৬ বছৰ"
+    },
+    {
+     "en": "10 years",
+     "as": "১০ বছৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "x + 24 + 6 = 3(x + 6), so x = 6 years.",
+    "as": "x + 24 + 6 = 3(x + 6), গতিকে x = 6 বছৰ।"
+   }
+  },
+  {
+   "id": "problems-on-ages-006",
+   "q": {
+    "en": "The average age of a family of 4 members is 25 years. A baby is then born into the family. The average age of the family of 5 members is now —",
+    "as": "4 জনীয়া এটা পৰিয়ালৰ গড় বয়স 25 বছৰ। তাৰ পিছত পৰিয়ালটোত এটা শিশু জন্মিল। এতিয়া 5 জনীয়া পৰিয়ালৰ গড় বয়স —"
+   },
+   "options": [
+    {
+     "en": "22 years",
+     "as": "২২ বছৰ"
+    },
+    {
+     "en": "25 years",
+     "as": "২৫ বছৰ"
+    },
+    {
+     "en": "20 years",
+     "as": "২০ বছৰ"
+    },
+    {
+     "en": "30 years",
+     "as": "৩০ বছৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The four members total 100 years; the baby adds 0, so 100 / 5 = 20 years.",
+    "as": "চাৰিজনৰ মুঠ 100 বছৰ; শিশুৱে 0 যোগ কৰে, গতিকে 100 / 5 = 20 বছৰ।"
+   }
+  },
+  {
+   "id": "problems-on-ages-007",
+   "q": {
+    "en": "Ten years ago the age of A was 25 years. The present age of A is —",
+    "as": "দহ বছৰ আগতে A ৰ বয়স 25 বছৰ আছিল। A ৰ বৰ্তমান বয়স —"
+   },
+   "options": [
+    {
+     "en": "40 years",
+     "as": "৪০ বছৰ"
+    },
+    {
+     "en": "25 years",
+     "as": "২৫ বছৰ"
+    },
+    {
+     "en": "15 years",
+     "as": "১৫ বছৰ"
+    },
+    {
+     "en": "35 years",
+     "as": "৩৫ বছৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Present age = 25 + 10 = 35 years.",
+    "as": "বৰ্তমান বয়স = 25 + 10 = 35 বছৰ।"
+   }
+  },
+  {
+   "id": "problems-on-ages-008",
+   "q": {
+    "en": "The sum of the ages of A and B is 45 years. Five years ago the sum was —",
+    "as": "A আৰু B ৰ বয়সৰ যোগফল 45 বছৰ। পাঁচ বছৰ আগতে যোগফল আছিল —"
+   },
+   "options": [
+    {
+     "en": "30 years",
+     "as": "৩০ বছৰ"
+    },
+    {
+     "en": "45 years",
+     "as": "৪৫ বছৰ"
+    },
+    {
+     "en": "35 years",
+     "as": "৩৫ বছৰ"
+    },
+    {
+     "en": "40 years",
+     "as": "৪০ বছৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Each is 5 years younger, so the sum was 45 - 10 = 35 years.",
+    "as": "প্ৰত্যেক 5 বছৰ সৰু, গতিকে যোগফল 45 - 10 = 35 বছৰ আছিল।"
+   }
+  },
+  {
+   "id": "problems-on-ages-009",
+   "q": {
+    "en": "A father is 3 times as old as his son. After 12 years he will be twice as old as his son. The son's present age is —",
+    "as": "এজন পিতৃ পুত্ৰতকৈ 3 গুণ ডাঙৰ। 12 বছৰৰ পিছত তেওঁ পুত্ৰতকৈ দুগুণ ডাঙৰ হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+   },
+   "options": [
+    {
+     "en": "10 years",
+     "as": "১০ বছৰ"
+    },
+    {
+     "en": "12 years",
+     "as": "১২ বছৰ"
+    },
+    {
+     "en": "14 years",
+     "as": "১৪ বছৰ"
+    },
+    {
+     "en": "8 years",
+     "as": "৮ বছৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The difference between the ages of two persons stays constant.",
-    "as": "দুজন ব্যক্তিৰ বয়সৰ পাৰ্থক্য স্থিৰ থাকে।"
+    "en": "3x + 12 = 2(x + 12), so x = 12 years.",
+    "as": "3x + 12 = 2(x + 12), গতিকে x = 12 বছৰ।"
+   }
+  },
+  {
+   "id": "problems-on-ages-010",
+   "q": {
+    "en": "Five years ago the ratio of the ages of A and B was 3 : 4. Five years hence the ratio will be 4 : 5. The present age of A is —",
+    "as": "পাঁচ বছৰ আগতে A আৰু B ৰ বয়সৰ অনুপাত 3 : 4 আছিল। পাঁচ বছৰৰ পিছত অনুপাত 4 : 5 হ'ব। A ৰ বৰ্তমান বয়স —"
+   },
+   "options": [
+    {
+     "en": "20 years",
+     "as": "২০ বছৰ"
+    },
+    {
+     "en": "35 years",
+     "as": "৩৫ বছৰ"
+    },
+    {
+     "en": "30 years",
+     "as": "৩০ বছৰ"
+    },
+    {
+     "en": "25 years",
+     "as": "২৫ বছৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Take the present ages as 3x+5 and 4x+5; (3x+10)/(4x+10) = 4/5 gives x = 10, so A is 35 years old.",
+    "as": "বৰ্তমান বয়স 3x+5 আৰু 4x+5 ধৰিলে; (3x+10)/(4x+10) = 4/5 ৰ পৰা x = 10, গতিকে A ৰ বয়স 35 বছৰ।"
+   }
+  },
+  {
+   "id": "problems-on-ages-011",
+   "q": {
+    "en": "The average age of 8 members of a group is 40 years. If two members of ages 50 and 60 years leave, the average age of the remaining members is —",
+    "as": "8 জনীয়া এটা গোটৰ গড় বয়স 40 বছৰ। 50 আৰু 60 বছৰ বয়সৰ দুজন আঁতৰি গ'লে বাকী সদস্যসকলৰ গড় বয়স —"
+   },
+   "options": [
+    {
+     "en": "37.5 years",
+     "as": "৩৭.৫ বছৰ"
+    },
+    {
+     "en": "35 years",
+     "as": "৩৫ বছৰ"
+    },
+    {
+     "en": "32.5 years",
+     "as": "৩২.৫ বছৰ"
+    },
+    {
+     "en": "30 years",
+     "as": "৩০ বছৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total 320; remaining total 320 - 110 = 210 over 6 members, giving 35 years.",
+    "as": "মুঠ 320; বাকী মুঠ 320 - 110 = 210, 6 জনত, গতিকে 35 বছৰ।"
+   }
+  },
+  {
+   "id": "problems-on-ages-012",
+   "q": {
+    "en": "The present age of a man is 3 times the age of his son. The product of their ages is 108. The son's age is —",
+    "as": "এজন মানুহৰ বৰ্তমান বয়স পুত্ৰৰ বয়সৰ 3 গুণ। সিহঁতৰ বয়সৰ গুণফল 108। পুত্ৰৰ বয়স —"
+   },
+   "options": [
+    {
+     "en": "6 years",
+     "as": "৬ বছৰ"
+    },
+    {
+     "en": "12 years",
+     "as": "১২ বছৰ"
+    },
+    {
+     "en": "9 years",
+     "as": "৯ বছৰ"
+    },
+    {
+     "en": "8 years",
+     "as": "৮ বছৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "3x^2 = 108, so x^2 = 36 and x = 6 years.",
+    "as": "3x^2 = 108, গতিকে x^2 = 36 আৰু x = 6 বছৰ।"
    }
   }
  ],
@@ -6119,38 +7559,68 @@ module.exports = {
   {
    "id": "profit-loss-001",
    "q": {
-    "en": "An article bought for ₹200 is sold for ₹250. The profit per cent is —",
-    "as": "₹200 ত কিনা এটা বস্তু ₹250 ত বিক্ৰী কৰিলে লাভ শতাংশ —"
+    "en": "An article bought for ₹400 is sold for ₹460. The profit per cent is —",
+    "as": "₹400 ত কিনা এটা বস্তু ₹460 ত বিক্ৰী কৰিলে লাভ শতাংশ —"
    },
    "options": [
     {
-     "en": "20%",
-     "as": "২০%"
-    },
-    {
-     "en": "25%",
-     "as": "২৫%"
-    },
-    {
-     "en": "50%",
-     "as": "৫০%"
-    },
-    {
      "en": "10%",
      "as": "১০%"
+    },
+    {
+     "en": "18%",
+     "as": "১৮%"
+    },
+    {
+     "en": "15%",
+     "as": "১৫%"
+    },
+    {
+     "en": "12%",
+     "as": "১২%"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "Profit is ₹50 on a cost of ₹200, so the profit per cent is 25%.",
-    "as": "₹200 ক্ৰয়মূল্যত লাভ ₹50, গতিকে লাভ শতাংশ 25%।"
+    "en": "Profit = 60 and 60 / 400 x 100 = 15%.",
+    "as": "লাভ = 60 আৰু 60 / 400 x 100 = 15%।"
    }
   },
   {
    "id": "profit-loss-002",
    "q": {
-    "en": "If the cost price is ₹500 and the loss is 10%, the selling price is —",
-    "as": "ক্ৰয়মূল্য ₹500 আৰু ক্ষতি 10% হ'লে বিক্ৰয়মূল্য —"
+    "en": "A man buys an article for ₹750 and sells it at a loss of 20%. The selling price is —",
+    "as": "এজন মানুহে ₹750 ত এটা বস্তু কিনি 20% লোকচানত বিক্ৰী কৰিলে। বিক্ৰয়মূল্য —"
+   },
+   "options": [
+    {
+     "en": "₹600",
+     "as": "₹৬০০"
+    },
+    {
+     "en": "₹650",
+     "as": "₹৬৫০"
+    },
+    {
+     "en": "₹700",
+     "as": "₹৭০০"
+    },
+    {
+     "en": "₹625",
+     "as": "₹৬২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "750 - 20% of 750 = 600.",
+    "as": "750 - 750 ৰ 20% = 600।"
+   }
+  },
+  {
+   "id": "profit-loss-003",
+   "q": {
+    "en": "By selling an article for ₹540 a shopkeeper gains 20%. The cost price is —",
+    "as": "এটা বস্তু ₹540 ত বিক্ৰী কৰি এজন দোকানীয়ে 20% লাভ কৰিলে। ক্ৰয়মূল্য —"
    },
    "options": [
     {
@@ -6158,82 +7628,292 @@ module.exports = {
      "as": "₹৪৫০"
     },
     {
-     "en": "₹490",
-     "as": "₹৪৯০"
+     "en": "₹480",
+     "as": "₹৪৮০"
     },
     {
-     "en": "₹510",
-     "as": "₹৫১০"
+     "en": "₹420",
+     "as": "₹৪২০"
     },
     {
-     "en": "₹550",
-     "as": "₹৫৫০"
+     "en": "₹432",
+     "as": "₹৪৩২"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "A loss of 10% means the selling price is 90% of ₹500, that is ₹450.",
-    "as": "10% ক্ষতি মানে বিক্ৰয়মূল্য ₹500 ৰ 90%, অৰ্থাৎ ₹450।"
-   }
-  },
-  {
-   "id": "profit-loss-003",
-   "q": {
-    "en": "Discount is always calculated on the —",
-    "as": "ৰেহাই সদায় হিচাপ কৰা হয় —"
-   },
-   "options": [
-    {
-     "en": "cost price",
-     "as": "ক্ৰয়মূল্যত"
-    },
-    {
-     "en": "marked price",
-     "as": "চিহ্নিত মূল্যত"
-    },
-    {
-     "en": "selling price",
-     "as": "বিক্ৰয়মূল্যত"
-    },
-    {
-     "en": "profit",
-     "as": "লাভত"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Discount is a reduction allowed on the marked price.",
-    "as": "ৰেহাই হৈছে চিহ্নিত মূল্যৰ ওপৰত দিয়া হ্ৰাস।"
+    "en": "CP = 540 x 100 / 120 = 450.",
+    "as": "ক্ৰয়মূল্য = 540 x 100 / 120 = 450।"
    }
   },
   {
    "id": "profit-loss-004",
    "q": {
-    "en": "If the selling price is less than the cost price, the result is a —",
-    "as": "বিক্ৰয়মূল্য ক্ৰয়মূল্যতকৈ কম হ'লে ফলাফল —"
+    "en": "If the cost price of 12 articles equals the selling price of 10 articles, the profit per cent is —",
+    "as": "12 টা বস্তুৰ ক্ৰয়মূল্য 10 টা বস্তুৰ বিক্ৰয়মূল্যৰ সমান হ'লে লাভ শতাংশ —"
    },
    "options": [
     {
-     "en": "profit",
-     "as": "লাভ"
+     "en": "16 2/3%",
+     "as": "১৬ ২/৩%"
     },
     {
-     "en": "loss",
-     "as": "ক্ষতি"
+     "en": "30%",
+     "as": "৩০%"
     },
     {
-     "en": "discount",
-     "as": "ৰেহাই"
+     "en": "25%",
+     "as": "২৫%"
     },
     {
-     "en": "commission",
-     "as": "কমিচন"
+     "en": "20%",
+     "as": "২০%"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "When the selling price is less than the cost price there is a loss.",
-    "as": "বিক্ৰয়মূল্য ক্ৰয়মূল্যতকৈ কম হ'লে ক্ষতি হয়।"
+    "en": "Let CP of one = 10 and SP of one = 12; profit = 20%.",
+    "as": "এটাৰ ক্ৰয়মূল্য = 10 আৰু এটাৰ বিক্ৰয়মূল্য = 12 ধৰিলে; লাভ = 20%।"
+   }
+  },
+  {
+   "id": "profit-loss-005",
+   "q": {
+    "en": "A shopkeeper marks his goods 40% above cost and allows a discount of 10%. His profit per cent is —",
+    "as": "এজন দোকানীয়ে ক্ৰয়মূল্যৰ ওপৰত 40% বেছি দাম লিখি 10% ৰেহাই দিয়ে। তেওঁৰ লাভ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "26%",
+     "as": "২৬%"
+    },
+    {
+     "en": "24%",
+     "as": "২৪%"
+    },
+    {
+     "en": "28%",
+     "as": "২৮%"
+    },
+    {
+     "en": "30%",
+     "as": "৩০%"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Take CP = 100; MP = 140 and SP = 126, so profit = 26%.",
+    "as": "ক্ৰয়মূল্য = 100 ধৰিলে; অংকিত মূল্য = 140 আৰু বিক্ৰয়মূল্য = 126, গতিকে লাভ = 26%।"
+   }
+  },
+  {
+   "id": "profit-loss-006",
+   "q": {
+    "en": "The selling price of an article is ₹1,140 after a discount of 5%. Its marked price is —",
+    "as": "5% ৰেহাইৰ পিছত এটা বস্তুৰ বিক্ৰয়মূল্য ₹1,140। তাৰ অংকিত মূল্য —"
+   },
+   "options": [
+    {
+     "en": "₹1,190",
+     "as": "₹১,১৯০"
+    },
+    {
+     "en": "₹1,220",
+     "as": "₹১,২২০"
+    },
+    {
+     "en": "₹1,180",
+     "as": "₹১,১৮০"
+    },
+    {
+     "en": "₹1,200",
+     "as": "₹১,২০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "MP = 1140 x 100 / 95 = 1200.",
+    "as": "অংকিত মূল্য = 1140 x 100 / 95 = 1200।"
+   }
+  },
+  {
+   "id": "profit-loss-007",
+   "q": {
+    "en": "If the selling price is ₹990 and the loss is 10%, the cost price is —",
+    "as": "বিক্ৰয়মূল্য ₹990 আৰু ক্ষতি 10% হ'লে ক্ৰয়মূল্য —"
+   },
+   "options": [
+    {
+     "en": "₹1,120",
+     "as": "₹১,১২০"
+    },
+    {
+     "en": "₹1,090",
+     "as": "₹১,০৯০"
+    },
+    {
+     "en": "₹1,080",
+     "as": "₹১,০৮০"
+    },
+    {
+     "en": "₹1,100",
+     "as": "₹১,১০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "CP = 990 x 100 / 90 = 1100.",
+    "as": "ক্ৰয়মূল্য = 990 x 100 / 90 = 1100।"
+   }
+  },
+  {
+   "id": "profit-loss-008",
+   "q": {
+    "en": "The profit earned by selling an article for ₹1,150 is the same as the loss when it is sold for ₹850. The cost price is —",
+    "as": "এটা বস্তু ₹1,150 ত বিক্ৰী কৰিলে যিমান লাভ হয়, ₹850 ত বিক্ৰী কৰিলে সিমান লোকচান হয়। ক্ৰয়মূল্য —"
+   },
+   "options": [
+    {
+     "en": "₹950",
+     "as": "₹৯৫০"
+    },
+    {
+     "en": "₹1,050",
+     "as": "₹১,০৫০"
+    },
+    {
+     "en": "₹1,100",
+     "as": "₹১,১০০"
+    },
+    {
+     "en": "₹1,000",
+     "as": "₹১,০০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "CP = (1150 + 850) / 2 = 1000.",
+    "as": "ক্ৰয়মূল্য = (1150 + 850) / 2 = 1000।"
+   }
+  },
+  {
+   "id": "profit-loss-009",
+   "q": {
+    "en": "Two successive discounts of 10% and 20% are equivalent to a single discount of —",
+    "as": "10% আৰু 20% ৰ দুটা ক্ৰমিক ৰেহাই এটা ৰেহাইৰ সমান —"
+   },
+   "options": [
+    {
+     "en": "28%",
+     "as": "২৮%"
+    },
+    {
+     "en": "30%",
+     "as": "৩০%"
+    },
+    {
+     "en": "25%",
+     "as": "২৫%"
+    },
+    {
+     "en": "32%",
+     "as": "৩২%"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "0.9 x 0.8 = 0.72, so the single discount is 28%.",
+    "as": "0.9 x 0.8 = 0.72, গতিকে এটা ৰেহাই 28%।"
+   }
+  },
+  {
+   "id": "profit-loss-010",
+   "q": {
+    "en": "If an article is sold at ₹320 at a profit of 60%, the cost price is —",
+    "as": "60% লাভত এটা বস্তু ₹320 ত বিক্ৰী কৰিলে ক্ৰয়মূল্য —"
+   },
+   "options": [
+    {
+     "en": "₹240",
+     "as": "₹২৪০"
+    },
+    {
+     "en": "₹192",
+     "as": "₹১৯২"
+    },
+    {
+     "en": "₹200",
+     "as": "₹২০০"
+    },
+    {
+     "en": "₹180",
+     "as": "₹১৮০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "CP = 320 x 100 / 160 = 200.",
+    "as": "ক্ৰয়মূল্য = 320 x 100 / 160 = 200।"
+   }
+  },
+  {
+   "id": "profit-loss-011",
+   "q": {
+    "en": "By selling 20 articles a man gains the cost price of 4 articles. His gain per cent is —",
+    "as": "20 টা বস্তু বিক্ৰী কৰি এজনে 4 টা বস্তুৰ ক্ৰয়মূল্যৰ সমান লাভ কৰে। তেওঁৰ লাভ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "30%",
+     "as": "৩০%"
+    },
+    {
+     "en": "25%",
+     "as": "২৫%"
+    },
+    {
+     "en": "16%",
+     "as": "১৬%"
+    },
+    {
+     "en": "20%",
+     "as": "২০%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gain / CP x 100 = 4 / 20 x 100 = 20%.",
+    "as": "লাভ / ক্ৰয়মূল্য x 100 = 4 / 20 x 100 = 20%।"
+   }
+  },
+  {
+   "id": "profit-loss-012",
+   "q": {
+    "en": "A dishonest dealer sells goods at cost price but uses a weight of 900 g for 1 kg. His gain per cent is —",
+    "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যতে সামগ্ৰী বিক্ৰী কৰে কিন্তু 1 কেজিৰ সলনি 900 গ্ৰাম ব্যৱহাৰ কৰে। তেওঁৰ লাভ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "9%",
+     "as": "৯%"
+    },
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "10%",
+     "as": "১০%"
+    },
+    {
+     "en": "11 1/9%",
+     "as": "১১ ১/৯%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gain = 100 / 900 x 100 = 11 1/9%.",
+    "as": "লাভ = 100 / 900 x 100 = 11 1/9%।"
    }
   }
  ],
@@ -6363,121 +8043,361 @@ module.exports = {
   {
    "id": "ratio-proportion-001",
    "q": {
-    "en": "If two numbers are in the ratio 3 : 5 and their sum is 64, the smaller number is —",
-    "as": "দুটা সংখ্যা 3 : 5 অনুপাতত আৰু যোগফল 64 হ'লে সৰু সংখ্যাটো —"
+    "en": "If a : b = 3 : 4 and b : c = 2 : 5, then a : c is —",
+    "as": "a : b = 3 : 4 আৰু b : c = 2 : 5 হ'লে a : c —"
    },
    "options": [
     {
-     "en": "24",
-     "as": "২৪"
+     "en": "6 : 5",
+     "as": "৬ : ৫"
+    },
+    {
+     "en": "2 : 5",
+     "as": "২ : ৫"
+    },
+    {
+     "en": "3 : 10",
+     "as": "৩ : ১০"
+    },
+    {
+     "en": "3 : 5",
+     "as": "৩ : ৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Make b common: a : b = 3 : 4 and b : c = 4 : 10, so a : c = 3 : 10.",
+    "as": "b সাধাৰণ কৰক: a : b = 3 : 4 আৰু b : c = 4 : 10, গতিকে a : c = 3 : 10।"
+   }
+  },
+  {
+   "id": "ratio-proportion-002",
+   "q": {
+    "en": "If 5 : 8 = 20 : x, then x is —",
+    "as": "5 : 8 = 20 : x হ'লে x —"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
     },
     {
      "en": "32",
      "as": "৩২"
     },
     {
-     "en": "40",
-     "as": "৪০"
-    },
-    {
-     "en": "16",
-     "as": "১৬"
+     "en": "24",
+     "as": "২৪"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "The parts are 3x and 5x; 8x = 64 gives x = 8, so the smaller number is 24.",
-    "as": "অংশবোৰ 3x আৰু 5x; 8x = 64 ৰ পৰা x = 8, গতিকে সৰু সংখ্যা 24।"
-   }
-  },
-  {
-   "id": "ratio-proportion-002",
-   "q": {
-    "en": "The ratio 15 : 25 in its lowest terms is —",
-    "as": "15 : 25 অনুপাতৰ লঘিষ্ঠ ৰূপ —"
-   },
-   "options": [
-    {
-     "en": "5 : 3",
-     "as": "৫ : ৩"
-    },
-    {
-     "en": "3 : 5",
-     "as": "৩ : ৫"
-    },
-    {
-     "en": "15 : 25",
-     "as": "১৫ : ২৫"
-    },
-    {
-     "en": "1 : 5",
-     "as": "১ : ৫"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Dividing both terms by their HCF 5 gives 3 : 5.",
-    "as": "দুয়োটা পদক গ.সা.উ. 5 ৰে ভাগ কৰিলে 3 : 5 পোৱা যায়।"
+    "en": "5x = 160, so x = 32.",
+    "as": "5x = 160, গতিকে x = 32।"
    }
   },
   {
    "id": "ratio-proportion-003",
    "q": {
-    "en": "If 5 pens cost ₹40, the cost of 8 pens is —",
-    "as": "5 টা কলমৰ দাম ₹40 হ'লে 8 টা কলমৰ দাম —"
+    "en": "₹1,200 is divided between A and B in the ratio 2 : 3. B's share is —",
+    "as": "₹1,200 A আৰু B ৰ মাজত 2 : 3 অনুপাতত ভাগ কৰা হ'ল। B ৰ অংশ —"
    },
    "options": [
     {
-     "en": "₹56",
-     "as": "₹৫৬"
+     "en": "₹600",
+     "as": "₹৬০০"
     },
     {
-     "en": "₹60",
-     "as": "₹৬০"
+     "en": "₹480",
+     "as": "₹৪৮০"
     },
     {
-     "en": "₹64",
-     "as": "₹৬৪"
+     "en": "₹800",
+     "as": "₹৮০০"
     },
     {
-     "en": "₹72",
-     "as": "₹৭২"
+     "en": "₹720",
+     "as": "₹৭২০"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
-    "en": "One pen costs ₹8, so 8 pens cost ₹64.",
-    "as": "এটা কলমৰ দাম ₹8, গতিকে 8 টা কলমৰ দাম ₹64।"
+    "en": "B's share = 3/5 x 1200 = 720.",
+    "as": "B ৰ অংশ = 3/5 x 1200 = 720।"
    }
   },
   {
    "id": "ratio-proportion-004",
    "q": {
-    "en": "If a : b = 2 : 3 and b : c = 3 : 4, then a : c is —",
-    "as": "a : b = 2 : 3 আৰু b : c = 3 : 4 হ'লে a : c —"
+    "en": "If 12 pencils cost ₹96, the cost of 20 such pencils is —",
+    "as": "12 টা পেঞ্চিলৰ মূল্য ₹96 হ'লে 20 টা পেঞ্চিলৰ মূল্য —"
    },
    "options": [
+    {
+     "en": "₹180",
+     "as": "₹১৮০"
+    },
+    {
+     "en": "₹150",
+     "as": "₹১৫০"
+    },
+    {
+     "en": "₹160",
+     "as": "₹১৬০"
+    },
+    {
+     "en": "₹200",
+     "as": "₹২০০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Cost of one pencil = 8, so 20 x 8 = 160.",
+    "as": "এটা পেঞ্চিলৰ মূল্য = 8, গতিকে 20 x 8 = 160।"
+   }
+  },
+  {
+   "id": "ratio-proportion-005",
+   "q": {
+    "en": "The ratio 45 minutes to 1.5 hours is —",
+    "as": "45 মিনিট আৰু 1.5 ঘণ্টাৰ অনুপাত —"
+   },
+   "options": [
+    {
+     "en": "2 : 3",
+     "as": "২ : ৩"
+    },
+    {
+     "en": "1 : 3",
+     "as": "১ : ৩"
+    },
     {
      "en": "1 : 2",
      "as": "১ : ২"
     },
     {
-     "en": "2 : 4",
-     "as": "২ : ৪"
+     "en": "3 : 4",
+     "as": "৩ : ৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "1.5 hours = 90 minutes, so 45 : 90 = 1 : 2.",
+    "as": "1.5 ঘণ্টা = 90 মিনিট, গতিকে 45 : 90 = 1 : 2।"
+   }
+  },
+  {
+   "id": "ratio-proportion-006",
+   "q": {
+    "en": "The mean proportional between 4 and 25 is —",
+    "as": "4 আৰু 25 ৰ মধ্যসমানুপাত —"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
     },
     {
-     "en": "1 : 1",
-     "as": "১ : ১"
+     "en": "20",
+     "as": "২০"
     },
     {
-     "en": "2 : 3",
-     "as": "২ : ৩"
+     "en": "14.5",
+     "as": "১৪.৫"
+    },
+    {
+     "en": "12",
+     "as": "১২"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The b terms match, so a : c = 2 : 4 = 1 : 2.",
-    "as": "b ৰ পদ মিলে, গতিকে a : c = 2 : 4 = 1 : 2।"
+    "en": "Mean proportional = sqrt(4 x 25) = 10.",
+    "as": "মধ্যসমানুপাত = sqrt(4 x 25) = 10।"
+   }
+  },
+  {
+   "id": "ratio-proportion-007",
+   "q": {
+    "en": "If a : b = 2 : 3, then (3a + 2b) : (5a - b) is —",
+    "as": "a : b = 2 : 3 হ'লে (3a + 2b) : (5a - b) —"
+   },
+   "options": [
+    {
+     "en": "7 : 12",
+     "as": "৭ : ১২"
+    },
+    {
+     "en": "5 : 7",
+     "as": "৫ : ৭"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "12 : 7",
+     "as": "১২ : ৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Let a = 2k, b = 3k: (6k + 6k) : (10k - 3k) = 12k : 7k = 12 : 7.",
+    "as": "a = 2k, b = 3k ধৰিলে: (6k + 6k) : (10k - 3k) = 12k : 7k = 12 : 7।"
+   }
+  },
+  {
+   "id": "ratio-proportion-008",
+   "q": {
+    "en": "A sum of ₹3,600 is divided among A, B and C in the ratio 3 : 4 : 5. C's share is —",
+    "as": "₹3,600 A, B আৰু C ৰ মাজত 3 : 4 : 5 অনুপাতত ভাগ কৰা হ'ল। C ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "₹1,500",
+     "as": "₹১,৫০০"
+    },
+    {
+     "en": "₹900",
+     "as": "₹৯০০"
+    },
+    {
+     "en": "₹1,800",
+     "as": "₹১,৮০০"
+    },
+    {
+     "en": "₹1,200",
+     "as": "₹১,২০০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "C's share = 5/12 x 3600 = 1500.",
+    "as": "C ৰ অংশ = 5/12 x 3600 = 1500।"
+   }
+  },
+  {
+   "id": "ratio-proportion-009",
+   "q": {
+    "en": "The ratio of 0.6 to 0.24 is —",
+    "as": "0.6 আৰু 0.24 ৰ অনুপাত —"
+   },
+   "options": [
+    {
+     "en": "4 : 3",
+     "as": "৪ : ৩"
+    },
+    {
+     "en": "5 : 2",
+     "as": "৫ : ২"
+    },
+    {
+     "en": "2 : 5",
+     "as": "২ : ৫"
+    },
+    {
+     "en": "3 : 4",
+     "as": "৩ : ৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "0.6 / 0.24 = 60 / 24 = 5 / 2.",
+    "as": "0.6 / 0.24 = 60 / 24 = 5 / 2।"
+   }
+  },
+  {
+   "id": "ratio-proportion-010",
+   "q": {
+    "en": "In a class the ratio of boys to girls is 5 : 4. If there are 45 boys, the number of girls is —",
+    "as": "এখন শ্ৰেণীত ল'ৰা আৰু ছোৱালীৰ অনুপাত 5 : 4। ল'ৰা 45 জন হ'লে ছোৱালীৰ সংখ্যা —"
+   },
+   "options": [
+    {
+     "en": "42",
+     "as": "৪২"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "45 / 5 = 9, so girls = 4 x 9 = 36.",
+    "as": "45 / 5 = 9, গতিকে ছোৱালী = 4 x 9 = 36।"
+   }
+  },
+  {
+   "id": "ratio-proportion-011",
+   "q": {
+    "en": "If 8 workers earn ₹9,600 in a week, 12 workers will earn in a week —",
+    "as": "8 জন শ্ৰমিকে এটা সপ্তাহত ₹9,600 উপাৰ্জন কৰিলে, 12 জনে এটা সপ্তাহত উপাৰ্জন কৰিব —"
+   },
+   "options": [
+    {
+     "en": "₹12,800",
+     "as": "₹১২,৮০০"
+    },
+    {
+     "en": "₹14,400",
+     "as": "₹১৪,৪০০"
+    },
+    {
+     "en": "₹16,200",
+     "as": "₹১৬,২০০"
+    },
+    {
+     "en": "₹14,000",
+     "as": "₹১৪,০০০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One worker earns 1,200; 12 x 1,200 = 14,400.",
+    "as": "এজন শ্ৰমিকে 1,200 উপাৰ্জন কৰে; 12 x 1,200 = 14,400।"
+   }
+  },
+  {
+   "id": "ratio-proportion-012",
+   "q": {
+    "en": "The compound ratio of 3 : 4 and 5 : 6 is —",
+    "as": "3 : 4 আৰু 5 : 6 ৰ যৌগিক অনুপাত —"
+   },
+   "options": [
+    {
+     "en": "5 : 8",
+     "as": "৫ : ৮"
+    },
+    {
+     "en": "6 : 20",
+     "as": "৬ : ২০"
+    },
+    {
+     "en": "5 : 6",
+     "as": "৫ : ৬"
+    },
+    {
+     "en": "15 : 8",
+     "as": "১৫ : ৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Compound ratio = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8.",
+    "as": "যৌগিক অনুপাত = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8।"
    }
   }
  ],
@@ -6607,121 +8527,361 @@ module.exports = {
   {
    "id": "simple-compound-interest-001",
    "q": {
-    "en": "The simple interest on ₹1000 at 10% per annum for 2 years is —",
-    "as": "₹1000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ সৰল সুত —"
+    "en": "The simple interest on ₹5,000 at 8% per annum for 3 years is —",
+    "as": "₹5,000 ৰ ওপৰত বছৰি 8% হাৰত 3 বছৰৰ সৰল সুত —"
    },
    "options": [
     {
-     "en": "₹100",
-     "as": "₹১০০"
+     "en": "₹1,000",
+     "as": "₹১,০০০"
     },
     {
-     "en": "₹200",
-     "as": "₹২০০"
+     "en": "₹1,800",
+     "as": "₹১,৮০০"
     },
     {
-     "en": "₹210",
-     "as": "₹২১০"
+     "en": "₹1,500",
+     "as": "₹১,৫০০"
     },
     {
-     "en": "₹1200",
-     "as": "₹১২০০"
+     "en": "₹1,200",
+     "as": "₹১,২০০"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "SI = (1000 × 10 × 2)/100 = ₹200.",
-    "as": "সৰল সুত = (1000 × 10 × 2)/100 = ₹200।"
+    "en": "SI = P x R x T / 100 = 5000 x 8 x 3 / 100 = 1200.",
+    "as": "সৰল সুত = P x R x T / 100 = 5000 x 8 x 3 / 100 = 1200।"
    }
   },
   {
    "id": "simple-compound-interest-002",
    "q": {
-    "en": "For which period are simple interest and compound interest equal?",
-    "as": "কিমান সময়ছোৱাৰ বাবে সৰল সুত আৰু চক্ৰবৃদ্ধি সুত সমান?"
+    "en": "The compound interest on ₹10,000 at 10% per annum for 2 years is —",
+    "as": "₹10,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
    },
    "options": [
     {
-     "en": "First year only",
-     "as": "কেৱল প্ৰথম বছৰ"
+     "en": "₹2,100",
+     "as": "₹২,১০০"
     },
     {
-     "en": "Two years",
-     "as": "দুই বছৰ"
+     "en": "₹2,310",
+     "as": "₹২,৩১০"
     },
     {
-     "en": "Three years",
-     "as": "তিনি বছৰ"
+     "en": "₹2,200",
+     "as": "₹২,২০০"
     },
     {
-     "en": "Never",
-     "as": "কেতিয়াও নহয়"
+     "en": "₹2,000",
+     "as": "₹২,০০০"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "In the first year there is no interest on interest, so the two are equal.",
-    "as": "প্ৰথম বছৰত সুতৰ ওপৰত সুত নাথাকে, গতিকে দুয়োটা সমান।"
+    "en": "Amount = 10000 x 1.1^2 = 12100, so CI = 2100.",
+    "as": "মুঠ = 10000 x 1.1^2 = 12100, গতিকে চক্ৰবৃদ্ধি সুত = 2100।"
    }
   },
   {
    "id": "simple-compound-interest-003",
    "q": {
-    "en": "The amount on ₹500 at 5% simple interest for 4 years is —",
-    "as": "₹500 ৰ ওপৰত 5% সৰল সুতত 4 বছৰৰ ৰাশি —"
+    "en": "At what rate per cent per annum will ₹4,000 yield a simple interest of ₹800 in 2 years?",
+    "as": "বছৰি কিমান শতাংশ হাৰত ₹4,000 ৰ ওপৰত 2 বছৰত ₹800 সৰল সুত হ'ব?"
    },
    "options": [
     {
-     "en": "₹525",
-     "as": "₹৫২৫"
+     "en": "15%",
+     "as": "১৫%"
+    },
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "10%",
+     "as": "১০%"
+    },
+    {
+     "en": "8%",
+     "as": "৮%"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "R = 800 x 100 / (4000 x 2) = 10%.",
+    "as": "হাৰ = 800 x 100 / (4000 x 2) = 10%।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-004",
+   "q": {
+    "en": "In how many years will ₹2,500 amount to ₹3,000 at 5% per annum simple interest?",
+    "as": "বছৰি 5% সৰল সুতত কিমান বছৰত ₹2,500 ৰাশি ₹3,000 হ'ব?"
+   },
+   "options": [
+    {
+     "en": "3 years",
+     "as": "৩ বছৰ"
+    },
+    {
+     "en": "4 years",
+     "as": "৪ বছৰ"
+    },
+    {
+     "en": "6 years",
+     "as": "৬ বছৰ"
+    },
+    {
+     "en": "5 years",
+     "as": "৫ বছৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "SI = 500; T = 500 x 100 / (2500 x 5) = 4 years.",
+    "as": "সৰল সুত = 500; সময় = 500 x 100 / (2500 x 5) = 4 বছৰ।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-005",
+   "q": {
+    "en": "The difference between the compound interest and the simple interest on ₹1,000 at 10% per annum for 2 years is —",
+    "as": "₹1,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "₹10",
+     "as": "₹১০"
+    },
+    {
+     "en": "₹20",
+     "as": "₹২০"
+    },
+    {
+     "en": "₹15",
+     "as": "₹১৫"
+    },
+    {
+     "en": "₹5",
+     "as": "₹৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Difference = P (R/100)^2 = 1000 x 0.01 = 10.",
+    "as": "পাৰ্থক্য = P (R/100)^2 = 1000 x 0.01 = 10।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-006",
+   "q": {
+    "en": "A sum of money doubles itself in 8 years at simple interest. The rate of interest per annum is —",
+    "as": "সৰল সুতত এটা ৰাশি 8 বছৰত দুগুণ হয়। বছৰি সুতৰ হাৰ —"
+   },
+   "options": [
+    {
+     "en": "10%",
+     "as": "১০%"
+    },
+    {
+     "en": "12.5%",
+     "as": "১২.৫%"
+    },
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "15%",
+     "as": "১৫%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "SI equals P in 8 years, so R = 100 / 8 = 12.5%.",
+    "as": "8 বছৰত সৰল সুত P ৰ সমান হয়, গতিকে হাৰ = 100 / 8 = 12.5%।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-007",
+   "q": {
+    "en": "The compound interest on ₹8,000 at 5% per annum for 2 years is —",
+    "as": "₹8,000 ৰ ওপৰত বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+   },
+   "options": [
+    {
+     "en": "₹820",
+     "as": "₹৮২০"
+    },
+    {
+     "en": "₹810",
+     "as": "₹৮১০"
+    },
+    {
+     "en": "₹800",
+     "as": "₹৮০০"
+    },
+    {
+     "en": "₹840",
+     "as": "₹৮৪০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amount = 8000 x 1.05^2 = 8820, so CI = 820.",
+    "as": "মুঠ = 8000 x 1.05^2 = 8820, গতিকে চক্ৰবৃদ্ধি সুত = 820।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-008",
+   "q": {
+    "en": "The simple interest on a sum for 5 years at 6% per annum is ₹900. The sum is —",
+    "as": "বছৰি 6% হাৰত 5 বছৰৰ সৰল সুত ₹900 হ'লে ৰাশিটো —"
+   },
+   "options": [
+    {
+     "en": "₹2,400",
+     "as": "₹২,৪০০"
+    },
+    {
+     "en": "₹3,600",
+     "as": "₹৩,৬০০"
+    },
+    {
+     "en": "₹3,000",
+     "as": "₹৩,০০০"
+    },
+    {
+     "en": "₹2,700",
+     "as": "₹২,৭০০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "P = 900 x 100 / (6 x 5) = 3000.",
+    "as": "ৰাশি = 900 x 100 / (6 x 5) = 3000।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-009",
+   "q": {
+    "en": "If ₹6,000 is invested at 10% per annum compounded annually, the amount after 2 years is —",
+    "as": "বছৰি 10% চক্ৰবৃদ্ধি হাৰত ₹6,000 বিনিয়োগ কৰিলে 2 বছৰৰ পিছত মুঠ —"
+   },
+   "options": [
+    {
+     "en": "₹7,200",
+     "as": "₹৭,২০০"
+    },
+    {
+     "en": "₹7,260",
+     "as": "₹৭,২৬০"
+    },
+    {
+     "en": "₹7,400",
+     "as": "₹৭,৪০০"
+    },
+    {
+     "en": "₹7,300",
+     "as": "₹৭,৩০০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Amount = 6000 x 1.1^2 = 7260.",
+    "as": "মুঠ = 6000 x 1.1^2 = 7260।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-010",
+   "q": {
+    "en": "The rate per cent per annum at which a sum triples itself in 20 years at simple interest is —",
+    "as": "সৰল সুতত এটা ৰাশি 20 বছৰত তিনিগুণ হ'বলৈ বছৰি হাৰ —"
+   },
+   "options": [
+    {
+     "en": "10%",
+     "as": "১০%"
+    },
+    {
+     "en": "8%",
+     "as": "৮%"
+    },
+    {
+     "en": "5%",
+     "as": "৫%"
+    },
+    {
+     "en": "12%",
+     "as": "১২%"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "SI = 2P in 20 years, so R = 200 / 20 = 10%.",
+    "as": "20 বছৰত সৰল সুত = 2P, গতিকে হাৰ = 200 / 20 = 10%।"
+   }
+  },
+  {
+   "id": "simple-compound-interest-011",
+   "q": {
+    "en": "The simple interest on ₹12,000 at 7.5% per annum for 8 months is —",
+    "as": "₹12,000 ৰ ওপৰত বছৰি 7.5% হাৰত 8 মাহৰ সৰল সুত —"
+   },
+   "options": [
+    {
+     "en": "₹750",
+     "as": "₹৭৫০"
+    },
+    {
+     "en": "₹500",
+     "as": "₹৫০০"
     },
     {
      "en": "₹600",
      "as": "₹৬০০"
     },
     {
-     "en": "₹550",
-     "as": "₹৫৫০"
-    },
-    {
-     "en": "₹625",
-     "as": "₹৬২৫"
+     "en": "₹900",
+     "as": "₹৯০০"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "SI = (500 × 5 × 4)/100 = ₹100, so the amount is ₹600.",
-    "as": "সৰল সুত = (500 × 5 × 4)/100 = ₹100, গতিকে ৰাশি ₹600।"
+    "en": "T = 8/12 = 2/3 year; SI = 12000 x 7.5 x 2 / (100 x 3) = 600.",
+    "as": "সময় = 8/12 = 2/3 বছৰ; সৰল সুত = 12000 x 7.5 x 2 / (100 x 3) = 600।"
    }
   },
   {
-   "id": "simple-compound-interest-004",
+   "id": "simple-compound-interest-012",
    "q": {
-    "en": "Compound interest is calculated on —",
-    "as": "চক্ৰবৃদ্ধি সুত হিচাপ কৰা হয় —"
+    "en": "The difference between the compound interest and the simple interest on a sum at 5% per annum for 2 years is ₹25. The sum is —",
+    "as": "বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য ₹25 হ'লে ৰাশিটো —"
    },
    "options": [
     {
-     "en": "the principal only",
-     "as": "কেৱল মূলধনৰ ওপৰত"
+     "en": "₹8,000",
+     "as": "₹৮,০০০"
     },
     {
-     "en": "the principal plus the interest already added",
-     "as": "মূলধন আৰু যোগ হোৱা সুতৰ ওপৰত"
+     "en": "₹15,000",
+     "as": "₹১৫,০০০"
     },
     {
-     "en": "the interest only",
-     "as": "কেৱল সুতৰ ওপৰত"
+     "en": "₹12,000",
+     "as": "₹১২,০০০"
     },
     {
-     "en": "the time only",
-     "as": "কেৱল সময়ৰ ওপৰত"
+     "en": "₹10,000",
+     "as": "₹১০,০০০"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "Compound interest is calculated on the principal plus the interest already added.",
-    "as": "চক্ৰবৃদ্ধি সুত মূলধন আৰু যোগ হোৱা সুতৰ ওপৰত হিচাপ কৰা হয়।"
+    "en": "P x (5/100)^2 = 25, so P = 10,000.",
+    "as": "P x (5/100)^2 = 25, গতিকে P = 10,000।"
    }
   }
  ],
@@ -6729,98 +8889,218 @@ module.exports = {
   {
    "id": "simplification-fractions-001",
    "q": {
-    "en": "Simplify: 12 + 8 ÷ 4 × 2 − 6",
-    "as": "সৰল কৰক: 12 + 8 ÷ 4 × 2 − 6"
+    "en": "Simplify: 12 + 3 x 4 - 6 ÷ 2",
+    "as": "সৰল কৰক: 12 + 3 x 4 - 6 ÷ 2"
    },
    "options": [
     {
-     "en": "10",
-     "as": "১০"
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "By BODMAS: 6/2 = 3, then 3 x 4 = 12, so 12 + 12 - 3 = 21.",
+    "as": "BODMAS অনুসৰি: 6/2 = 3, তাৰপিছত 3 x 4 = 12, গতিকে 12 + 12 - 3 = 21।"
+   }
+  },
+  {
+   "id": "simplification-fractions-002",
+   "q": {
+    "en": "Simplify: (18 + 6) ÷ (7 - 4)",
+    "as": "সৰল কৰক: (18 + 6) ÷ (7 - 4)"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
     },
     {
      "en": "12",
      "as": "১২"
     },
     {
-     "en": "16",
-     "as": "১৬"
+     "en": "4",
+     "as": "৪"
     },
     {
-     "en": "20",
-     "as": "২০"
+     "en": "6",
+     "as": "৬"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "By BODMAS, 8 ÷ 4 = 2, then 2 × 2 = 4, so 12 + 4 − 6 = 10.",
-    "as": "BODMAS অনুসৰি 8 ÷ 4 = 2, তাৰ পিছত 2 × 2 = 4, গতিকে 12 + 4 − 6 = 10।"
-   }
-  },
-  {
-   "id": "simplification-fractions-002",
-   "q": {
-    "en": "Simplify: 5/6 + 1/3",
-    "as": "সৰল কৰক: 5/6 + 1/3"
-   },
-   "options": [
-    {
-     "en": "1/2",
-     "as": "১/২"
-    },
-    {
-     "en": "7/6",
-     "as": "৭/৬"
-    },
-    {
-     "en": "6/9",
-     "as": "৬/৯"
-    },
-    {
-     "en": "2/3",
-     "as": "২/৩"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "LCM of 6 and 3 is 6, so 5/6 + 2/6 = 7/6.",
-    "as": "6 আৰু 3 ৰ ল.সা.গু. 6, গতিকে 5/6 + 2/6 = 7/6।"
+    "en": "24 / 3 = 8.",
+    "as": "24 / 3 = 8।"
    }
   },
   {
    "id": "simplification-fractions-003",
    "q": {
-    "en": "Simplify: (15 − 5) × 3 + 10 ÷ 5",
-    "as": "সৰল কৰক: (15 − 5) × 3 + 10 ÷ 5"
+    "en": "Simplify: 2/3 + 3/4 - 1/6",
+    "as": "সৰল কৰক: 2/3 + 3/4 - 1/6"
    },
    "options": [
     {
-     "en": "32",
-     "as": "৩২"
+     "en": "5/12",
+     "as": "৫/১২"
     },
     {
-     "en": "34",
-     "as": "৩৪"
+     "en": "5/4",
+     "as": "৫/৪"
     },
     {
-     "en": "30",
-     "as": "৩০"
+     "en": "1",
+     "as": "১"
     },
     {
-     "en": "40",
-     "as": "৪০"
+     "en": "3/4",
+     "as": "৩/৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "The bracket gives 10, then 10 × 3 = 30 and 10 ÷ 5 = 2, so 30 + 2 = 32.",
-    "as": "বন্ধনীয়ে 10 দিয়ে, তাৰ পিছত 10 × 3 = 30 আৰু 10 ÷ 5 = 2, গতিকে 30 + 2 = 32।"
+    "en": "LCM of 3, 4 and 6 is 12: 8/12 + 9/12 - 2/12 = 15/12 = 5/4.",
+    "as": "3, 4 আৰু 6 ৰ ল.সা.গু. 12: 8/12 + 9/12 - 2/12 = 15/12 = 5/4।"
    }
   },
   {
    "id": "simplification-fractions-004",
    "q": {
-    "en": "Simplify: 20 ÷ 4 + 3 × 2",
-    "as": "সৰল কৰক: 20 ÷ 4 + 3 × 2"
+    "en": "Simplify: 5/6 ÷ 10/9",
+    "as": "সৰল কৰক: 5/6 ÷ 10/9"
+   },
+   "options": [
+    {
+     "en": "4/3",
+     "as": "৪/৩"
+    },
+    {
+     "en": "2/3",
+     "as": "২/৩"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "25/27",
+     "as": "২৫/২৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "5/6 x 9/10 = 45/60 = 3/4.",
+    "as": "5/6 x 9/10 = 45/60 = 3/4।"
+   }
+  },
+  {
+   "id": "simplification-fractions-005",
+   "q": {
+    "en": "The value of 0.4 x 0.02 is —",
+    "as": "0.4 x 0.02 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0.008",
+     "as": "০.০০৮"
+    },
+    {
+     "en": "0.8",
+     "as": "০.৮"
+    },
+    {
+     "en": "0.08",
+     "as": "০.০৮"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "4 x 2 = 8 with three decimal places, giving 0.008.",
+    "as": "4 x 2 = 8, তিনি দশমিক স্থান, গতিকে 0.008।"
+   }
+  },
+  {
+   "id": "simplification-fractions-006",
+   "q": {
+    "en": "Simplify: sqrt(144) + sqrt(81)",
+    "as": "সৰল কৰক: sqrt(144) + sqrt(81)"
+   },
+   "options": [
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sqrt(144) = 12 and sqrt(81) = 9, so 12 + 9 = 21.",
+    "as": "sqrt(144) = 12 আৰু sqrt(81) = 9, গতিকে 12 + 9 = 21।"
+   }
+  },
+  {
+   "id": "simplification-fractions-007",
+   "q": {
+    "en": "Simplify: (3/5) of 45",
+    "as": "সৰল কৰক: 45 ৰ (3/5)"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "45 / 5 = 9 and 9 x 3 = 27.",
+    "as": "45 / 5 = 9 আৰু 9 x 3 = 27।"
+   }
+  },
+  {
+   "id": "simplification-fractions-008",
+   "q": {
+    "en": "If x = 3 and y = 2, the value of x^2 + y^2 is —",
+    "as": "x = 3 আৰু y = 2 হ'লে x^2 + y^2 ৰ মান —"
    },
    "options": [
     {
@@ -6828,22 +9108,142 @@ module.exports = {
      "as": "১১"
     },
     {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
      "en": "13",
      "as": "১৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "9 + 4 = 13.",
+    "as": "9 + 4 = 13।"
+   }
+  },
+  {
+   "id": "simplification-fractions-009",
+   "q": {
+    "en": "Simplify: 0.75 + 0.5 - 0.25",
+    "as": "সৰল কৰক: 0.75 + 0.5 - 0.25"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0.75",
+     "as": "০.৭৫"
+    },
+    {
+     "en": "0.5",
+     "as": "০.৫"
+    },
+    {
+     "en": "1.5",
+     "as": "১.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "0.75 + 0.50 = 1.25, and 1.25 - 0.25 = 1.",
+    "as": "0.75 + 0.50 = 1.25, আৰু 1.25 - 0.25 = 1।"
+   }
+  },
+  {
+   "id": "simplification-fractions-010",
+   "q": {
+    "en": "Simplify: 8 ÷ 2 x 3 + 4",
+    "as": "সৰল কৰক: 8 ÷ 2 x 3 + 4"
+   },
+   "options": [
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
     },
     {
      "en": "16",
      "as": "১৬"
     },
     {
-     "en": "10",
-     "as": "১০"
+     "en": "12",
+     "as": "১২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "20 ÷ 4 = 5 and 3 × 2 = 6, so the value is 11.",
-    "as": "20 ÷ 4 = 5 আৰু 3 × 2 = 6, গতিকে মান 11।"
+    "en": "Left to right for division and multiplication: 4 x 3 = 12, then 12 + 4 = 16.",
+    "as": "হৰণ আৰু পূৰণ বাওঁৰপৰা সোঁলৈ: 4 x 3 = 12, তাৰপিছত 12 + 4 = 16।"
+   }
+  },
+  {
+   "id": "simplification-fractions-011",
+   "q": {
+    "en": "Simplify: 2 1/2 + 1 3/4",
+    "as": "সৰল কৰক: 2 1/2 + 1 3/4"
+   },
+   "options": [
+    {
+     "en": "3 3/4",
+     "as": "৩ ৩/৪"
+    },
+    {
+     "en": "4 1/2",
+     "as": "৪ ১/২"
+    },
+    {
+     "en": "4 1/4",
+     "as": "৪ ১/৪"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "5/2 + 7/4 = 10/4 + 7/4 = 17/4 = 4 1/4.",
+    "as": "5/2 + 7/4 = 10/4 + 7/4 = 17/4 = 4 1/4।"
+   }
+  },
+  {
+   "id": "simplification-fractions-012",
+   "q": {
+    "en": "The value of (0.5)^3 is —",
+    "as": "(0.5)^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0.25",
+     "as": "০.২৫"
+    },
+    {
+     "en": "0.125",
+     "as": "০.১২৫"
+    },
+    {
+     "en": "1.5",
+     "as": "১.৫"
+    },
+    {
+     "en": "0.015",
+     "as": "০.০১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "0.5 x 0.5 x 0.5 = 0.125.",
+    "as": "0.5 x 0.5 x 0.5 = 0.125।"
    }
   }
  ],
@@ -7461,121 +9861,361 @@ module.exports = {
   {
    "id": "time-speed-distance-001",
    "q": {
-    "en": "A speed of 72 km/h in metres per second is —",
-    "as": "72 কি.মি./ঘণ্টা গতিবেগ মিটাৰ/ছেকেণ্ডত —"
+    "en": "A car travels 240 km in 4 hours. Its speed is —",
+    "as": "এখন গাড়ীয়ে 4 ঘণ্টাত 240 কিমি যায়। তাৰ বেগ —"
    },
    "options": [
     {
-     "en": "18",
-     "as": "১৮"
+     "en": "65 km/h",
+     "as": "৬৫ কিমি/ঘণ্টা"
     },
     {
-     "en": "20",
-     "as": "২০"
+     "en": "55 km/h",
+     "as": "৫৫ কিমি/ঘণ্টা"
     },
     {
-     "en": "24",
-     "as": "২৪"
+     "en": "60 km/h",
+     "as": "৬০ কিমি/ঘণ্টা"
     },
     {
-     "en": "30",
-     "as": "৩০"
+     "en": "50 km/h",
+     "as": "৫০ কিমি/ঘণ্টা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "72 × 5/18 = 20 metres per second.",
-    "as": "72 × 5/18 = 20 মিটাৰ প্ৰতি ছেকেণ্ড।"
+    "en": "Speed = distance / time = 240 / 4 = 60 km/h.",
+    "as": "বেগ = দূৰত্ব / সময় = 240 / 4 = 60 কিমি/ঘণ্টা।"
    }
   },
   {
    "id": "time-speed-distance-002",
    "q": {
-    "en": "A train travels 180 km in 3 hours. Its speed is —",
-    "as": "এখন ৰে'লে 3 ঘণ্টাত 180 কি.মি. যায়। গতিবেগ —"
+    "en": "A speed of 72 km/h expressed in metres per second is —",
+    "as": "72 কিমি/ঘণ্টা বেগক মিটাৰ/ছেকেণ্ডত প্ৰকাশ কৰিলে —"
    },
    "options": [
     {
-     "en": "50 km/h",
-     "as": "৫০ কি.মি./ঘণ্টা"
+     "en": "20 m/s",
+     "as": "২০ m/s"
     },
     {
-     "en": "60 km/h",
-     "as": "৬০ কি.মি./ঘণ্টা"
+     "en": "22 m/s",
+     "as": "২২ m/s"
     },
     {
-     "en": "70 km/h",
-     "as": "৭০ কি.মি./ঘণ্টা"
+     "en": "25 m/s",
+     "as": "২৫ m/s"
     },
     {
-     "en": "90 km/h",
-     "as": "৯০ কি.মি./ঘণ্টা"
+     "en": "18 m/s",
+     "as": "১৮ m/s"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "Speed = distance ÷ time = 180 ÷ 3 = 60 km/h.",
-    "as": "গতিবেগ = দূৰত্ব ÷ সময় = 180 ÷ 3 = 60 কি.মি./ঘণ্টা।"
+    "en": "Multiply by 5/18: 72 x 5 / 18 = 20 m/s.",
+    "as": "5/18 ৰে পূৰণ কৰক: 72 x 5 / 18 = 20 m/s।"
    }
   },
   {
    "id": "time-speed-distance-003",
    "q": {
-    "en": "A car covers 150 km at 50 km/h. The time taken is —",
-    "as": "এখন গাড়ীয়ে 50 কি.মি./ঘণ্টা গতিবেগে 150 কি.মি. যায়। সময় —"
+    "en": "A train 150 m long crosses a pole in 15 seconds. Its speed is —",
+    "as": "150 মিটাৰ দীঘল এখন ৰে'লগাড়ীয়ে এটা খুঁটা 15 ছেকেণ্ডত পাৰ হয়। তাৰ বেগ —"
    },
    "options": [
     {
-     "en": "2 hours",
-     "as": "2 ঘণ্টা"
+     "en": "15 m/s",
+     "as": "১৫ m/s"
     },
     {
-     "en": "3 hours",
-     "as": "3 ঘণ্টা"
+     "en": "10 m/s",
+     "as": "১০ m/s"
     },
     {
-     "en": "4 hours",
-     "as": "4 ঘণ্টা"
+     "en": "12 m/s",
+     "as": "১২ m/s"
     },
     {
-     "en": "5 hours",
-     "as": "5 ঘণ্টা"
+     "en": "20 m/s",
+     "as": "২০ m/s"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "Time = distance ÷ speed = 150 ÷ 50 = 3 hours.",
-    "as": "সময় = দূৰত্ব ÷ গতিবেগ = 150 ÷ 50 = 3 ঘণ্টা।"
+    "en": "Speed = 150 / 15 = 10 m/s.",
+    "as": "বেগ = 150 / 15 = 10 m/s।"
    }
   },
   {
    "id": "time-speed-distance-004",
    "q": {
-    "en": "To convert kilometres per hour into metres per second, multiply by —",
-    "as": "কিলোমিটাৰ প্ৰতি ঘণ্টাক মিটাৰ প্ৰতি ছেকেণ্ডলৈ সলাবলৈ পূৰণ কৰক —"
+    "en": "A train 200 m long running at 20 m/s crosses a platform 300 m long in —",
+    "as": "20 m/s বেগত চলি থকা 200 মিটাৰ দীঘল এখন ৰে'লগাড়ীয়ে 300 মিটাৰ দীঘল প্লেটফৰ্ম পাৰ কৰিব —"
    },
    "options": [
     {
-     "en": "5/18",
-     "as": "5/18"
+     "en": "35 seconds",
+     "as": "৩৫ ছেকেণ্ড"
     },
     {
-     "en": "18/5",
-     "as": "18/5"
+     "en": "25 seconds",
+     "as": "২৫ ছেকেন্ড"
     },
     {
-     "en": "1000",
-     "as": "1000"
+     "en": "20 seconds",
+     "as": "২০ ছেকেণ্ড"
     },
     {
-     "en": "3600",
-     "as": "3600"
+     "en": "30 seconds",
+     "as": "৩০ ছেকেণ্ড"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total distance = 500 m; time = 500 / 20 = 25 s.",
+    "as": "মুঠ দূৰত্ব = 500 মিটাৰ; সময় = 500 / 20 = 25 ছেকেণ্ড।"
+   }
+  },
+  {
+   "id": "time-speed-distance-005",
+   "q": {
+    "en": "A man covers a distance of 15 km in 2 hours 30 minutes. His speed is —",
+    "as": "এজনে 2 ঘণ্টা 30 মিনিটত 15 কিমি দূৰত্ব অতিক্ৰম কৰে। তেওঁৰ বেগ —"
+   },
+   "options": [
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "7.5 km/h",
+     "as": "৭.৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Time = 2.5 hours; speed = 15 / 2.5 = 6 km/h.",
+    "as": "সময় = 2.5 ঘণ্টা; বেগ = 15 / 2.5 = 6 কিমি/ঘণ্টা।"
+   }
+  },
+  {
+   "id": "time-speed-distance-006",
+   "q": {
+    "en": "Two trains 100 m and 150 m long run in the same direction at 40 km/h and 30 km/h. The time taken by the faster train to cross the slower one is —",
+    "as": "100 মিটাৰ আৰু 150 মিটাৰ দীঘল দুখন ৰে'লগাড়ী একে দিশত 40 কিমি/ঘণ্টা আৰু 30 কিমি/ঘণ্টা বেগত যায়। দ্ৰুতগামী ৰে'লগাড়ীয়ে লাহীখনক পাৰ হ'বলৈ লগা সময় —"
+   },
+   "options": [
+    {
+     "en": "150 seconds",
+     "as": "১৫০ ছেকেণ্ড"
+    },
+    {
+     "en": "120 seconds",
+     "as": "১২০ ছেকেণ্ড"
+    },
+    {
+     "en": "60 seconds",
+     "as": "৬০ ছেকেণ্ড"
+    },
+    {
+     "en": "90 seconds",
+     "as": "৯০ ছেকেণ্ড"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Relative speed = 10 km/h = 25/9 m/s; distance 250 m; time = 90 s.",
+    "as": "আপেক্ষিক বেগ = 10 কিমি/ঘণ্টা = 25/9 m/s; দূৰত্ব 250 মিটাৰ; সময় = 90 ছেকেণ্ড।"
+   }
+  },
+  {
+   "id": "time-speed-distance-007",
+   "q": {
+    "en": "A boat covers 24 km downstream in 3 hours and the speed of the stream is 2 km/h. The speed of the boat in still water is —",
+    "as": "এখন নাওৱে 3 ঘণ্টাত সোঁতৰ অনুকূলে 24 কিমি যায় আৰু সোঁতৰ বেগ 2 কিমি/ঘণ্টা। স্থিৰ পানীত নাওখনৰ বেগ —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Downstream speed = 8 km/h, so still-water speed = 8 - 2 = 6 km/h.",
+    "as": "অনুকূল বেগ = 8 কিমি/ঘণ্টা, গতিকে স্থিৰ পানীৰ বেগ = 8 - 2 = 6 কিমি/ঘণ্টা।"
+   }
+  },
+  {
+   "id": "time-speed-distance-008",
+   "q": {
+    "en": "The speed of a boat in still water is 10 km/h and the speed of the stream is 2 km/h. The time taken to go 24 km downstream and return is —",
+    "as": "স্থিৰ পানীত নাওৰ বেগ 10 কিমি/ঘণ্টা আৰু সোঁতৰ বেগ 2 কিমি/ঘণ্টা। 24 কিমি অনুকূলে গৈ ঘূৰি অহাৰ সময় —"
+   },
+   "options": [
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Downstream 24/12 = 2 h, upstream 24/8 = 3 h; total 5 h.",
+    "as": "অনুকূল 24/12 = 2 ঘণ্টা, প্ৰতিকূল 24/8 = 3 ঘণ্টা; মুঠ 5 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "time-speed-distance-009",
+   "q": {
+    "en": "Two trains start from stations 300 km apart towards each other at 40 km/h and 60 km/h. They meet after —",
+    "as": "300 কিমি আঁতৰত থকা দুটা ষ্টেচনৰ পৰা দুখন ৰে'লগাড়ী 40 কিমি/ঘণ্টা আৰু 60 কিমি/ঘণ্টা বেগত ইখন-সিখনলৈ যায়। সিহঁত লগ হ'ব —"
+   },
+   "options": [
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "2.5 hours",
+     "as": "২.৫ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Multiplying by 5/18 converts kilometres per hour into metres per second.",
-    "as": "5/18 ৰে পূৰণ কৰিলে কিলোমিটাৰ প্ৰতি ঘণ্টা মিটাৰ প্ৰতি ছেকেণ্ডলৈ ৰূপান্তৰ হয়।"
+    "en": "Relative speed = 100 km/h; time = 300 / 100 = 3 hours.",
+    "as": "আপেক্ষিক বেগ = 100 কিমি/ঘণ্টা; সময় = 300 / 100 = 3 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "time-speed-distance-010",
+   "q": {
+    "en": "A man walking at 5 km/h covers a certain distance in 48 minutes. The distance is —",
+    "as": "5 কিমি/ঘণ্টা বেগে খোজ কাঢ়ি এজনে 48 মিনিটত এটা দূৰত্ব অতিক্ৰম কৰে। দূৰত্ব —"
+   },
+   "options": [
+    {
+     "en": "6 km",
+     "as": "৬ কিমি"
+    },
+    {
+     "en": "5 km",
+     "as": "৫ কিমি"
+    },
+    {
+     "en": "3 km",
+     "as": "৩ কিমি"
+    },
+    {
+     "en": "4 km",
+     "as": "৪ কিমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "48 minutes = 0.8 hour; 5 x 0.8 = 4 km.",
+    "as": "48 মিনিট = 0.8 ঘণ্টা; 5 x 0.8 = 4 কিমি।"
+   }
+  },
+  {
+   "id": "time-speed-distance-011",
+   "q": {
+    "en": "A train running at 54 km/h crosses a 200 m long bridge in 20 seconds. The length of the train is —",
+    "as": "54 কিমি/ঘণ্টা বেগত চলি থকা এখন ৰে'লগাড়ীয়ে 200 মিটাৰ দীঘল দলং 20 ছেকেণ্ডত পাৰ হয়। ৰে'লগাড়ীখনৰ দীঘ —"
+   },
+   "options": [
+    {
+     "en": "140 m",
+     "as": "১৪০ মিটাৰ"
+    },
+    {
+     "en": "80 m",
+     "as": "৮০ মিটাৰ"
+    },
+    {
+     "en": "100 m",
+     "as": "১০০ মিটাৰ"
+    },
+    {
+     "en": "120 m",
+     "as": "১২০ মিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Speed = 15 m/s; distance = 300 m; train = 300 - 200 = 100 m.",
+    "as": "বেগ = 15 m/s; দূৰত্ব = 300 মিটাৰ; ৰে'লগাড়ী = 300 - 200 = 100 মিটাৰ।"
+   }
+  },
+  {
+   "id": "time-speed-distance-012",
+   "q": {
+    "en": "A person covers the first half of a journey at 30 km/h and the second half at 60 km/h. His average speed is —",
+    "as": "এজনে যাত্ৰাৰ প্ৰথম আধা 30 কিমি/ঘণ্টা আৰু দ্বিতীয় আধা 60 কিমি/ঘণ্টা বেগত অতিক্ৰম কৰে। তেওঁৰ গড় বেগ —"
+   },
+   "options": [
+    {
+     "en": "55 km/h",
+     "as": "৫৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "45 km/h",
+     "as": "৪৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "40 km/h",
+     "as": "৪০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "50 km/h",
+     "as": "৫০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Average speed = 2 x 30 x 60 / 90 = 40 km/h.",
+    "as": "গড় বেগ = 2 x 30 x 60 / 90 = 40 কিমি/ঘণ্টা।"
    }
   }
  ],
@@ -7583,121 +10223,361 @@ module.exports = {
   {
    "id": "time-work-001",
    "q": {
-    "en": "A can finish a work in 10 days. The part of the work he does in one day is —",
-    "as": "A এ 10 দিনত এটা কাম শেষ কৰে। এদিনত কৰা কামৰ অংশ —"
+    "en": "A can finish a work in 12 days and B in 18 days. Working together they finish it in —",
+    "as": "A এ কাম এটা 12 দিনত আৰু B এ 18 দিনত শেষ কৰে। একেলগে কাম কৰিলে শেষ কৰিব —"
    },
    "options": [
     {
-     "en": "1/5",
-     "as": "১/৫"
+     "en": "9 days",
+     "as": "৯ দিন"
     },
     {
-     "en": "1/10",
-     "as": "১/১০"
+     "en": "8 days",
+     "as": "৮ দিন"
     },
     {
-     "en": "1/20",
-     "as": "১/২০"
+     "en": "7.2 days",
+     "as": "৭.২ দিন"
     },
     {
-     "en": "10",
-     "as": "১০"
+     "en": "6 days",
+     "as": "৬ দিন"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "Taking the whole work as one, one day's work is 1/10.",
-    "as": "গোটেই কাম এক ধৰিলে এদিনৰ কাম 1/10।"
+    "en": "1/12 + 1/18 = 5/36, so together they take 36/5 = 7.2 days.",
+    "as": "1/12 + 1/18 = 5/36, গতিকে একেলগে 36/5 = 7.2 দিন লাগে।"
    }
   },
   {
    "id": "time-work-002",
    "q": {
-    "en": "A does a work in 12 days and B in 6 days. Working together they finish it in —",
-    "as": "A এ 12 দিনত আৰু B এ 6 দিনত কাম কৰে। একেলগে শেষ কৰে —"
+    "en": "A can do a piece of work in 10 days and B in 15 days. They work together for 4 days and then A leaves. The remaining work is finished by B in —",
+    "as": "A এ এটা কাম 10 দিনত আৰু B এ 15 দিনত কৰে। দুয়ো 4 দিন একেলগে কাম কৰি A গুচি গ'ল। বাকী কাম B এ কৰিব —"
    },
    "options": [
     {
-     "en": "3 days",
-     "as": "3 দিন"
+     "en": "6 days",
+     "as": "৬ দিন"
     },
     {
      "en": "4 days",
-     "as": "4 দিন"
+     "as": "৪ দিন"
     },
     {
-     "en": "6 days",
-     "as": "6 দিন"
+     "en": "8 days",
+     "as": "৮ দিন"
     },
     {
-     "en": "9 days",
-     "as": "9 দিন"
+     "en": "5 days",
+     "as": "৫ দিন"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "One day's work is 1/12 + 1/6 = 1/4, so together they need 4 days.",
-    "as": "এদিনৰ কাম 1/12 + 1/6 = 1/4, গতিকে একেলগে 4 দিন লাগে।"
+    "en": "In 4 days they finish 4 x 1/6 = 2/3; B does 1/3 in 5 days.",
+    "as": "4 দিনত দুয়ো 4 x 1/6 = 2/3 কৰে; B এ 1/3 কাম 5 দিনত কৰে।"
    }
   },
   {
    "id": "time-work-003",
    "q": {
-    "en": "If 6 men can do a work in 8 days, 12 men can do it in —",
-    "as": "6 জনে 8 দিনত কাম কৰিলে 12 জনে কৰিব —"
+    "en": "If 12 men can complete a work in 15 days, 18 men can complete the same work in —",
+    "as": "12 জন মানুহে এটা কাম 15 দিনত কৰিলে 18 জনে সেই কাম কৰিব —"
    },
    "options": [
     {
-     "en": "2 days",
-     "as": "2 দিন"
+     "en": "8 days",
+     "as": "৮ দিন"
     },
     {
-     "en": "4 days",
-     "as": "4 দিন"
+     "en": "12 days",
+     "as": "১২ দিন"
     },
     {
-     "en": "6 days",
-     "as": "6 দিন"
+     "en": "14 days",
+     "as": "১৪ দিন"
     },
     {
-     "en": "16 days",
-     "as": "16 দিন"
+     "en": "10 days",
+     "as": "১০ দিন"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "Men and days are in inverse proportion, so 6 × 8 = 12 × 4, that is 4 days.",
-    "as": "মানুহ আৰু দিন ব্যস্ত সমানুপাতত, গতিকে 6 × 8 = 12 × 4, অৰ্থাৎ 4 দিন।"
+    "en": "12 x 15 = 18 x d, so d = 10 days.",
+    "as": "12 x 15 = 18 x d, গতিকে d = 10 দিন।"
    }
   },
   {
    "id": "time-work-004",
    "q": {
-    "en": "When two persons work together, their one-day rates are —",
-    "as": "দুজন লোকে একেলগে কাম কৰিলে তেওঁলোকৰ এদিনৰ হাৰ —"
+    "en": "A and B together can do a work in 6 days and A alone in 10 days. B alone can do it in —",
+    "as": "A আৰু B একেলগে এটা কাম 6 দিনত আৰু A অকলে 10 দিনত কৰে। B অকলে কৰিব —"
    },
    "options": [
     {
-     "en": "subtracted",
-     "as": "বিয়োগ কৰা হয়"
+     "en": "12 days",
+     "as": "১২ দিন"
     },
     {
-     "en": "added",
-     "as": "যোগ কৰা হয়"
+     "en": "18 days",
+     "as": "১৮ দিন"
     },
     {
-     "en": "multiplied",
-     "as": "পূৰণ কৰা হয়"
+     "en": "20 days",
+     "as": "২০ দিন"
     },
     {
-     "en": "ignored",
-     "as": "আওকাণ কৰা হয়"
+     "en": "15 days",
+     "as": "১৫ দিন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "1/6 - 1/10 = 1/15, so B takes 15 days.",
+    "as": "1/6 - 1/10 = 1/15, গতিকে B এ 15 দিন লয়।"
+   }
+  },
+  {
+   "id": "time-work-005",
+   "q": {
+    "en": "A is twice as efficient as B. If together they finish a work in 8 days, B alone will take —",
+    "as": "A ৰ দক্ষতা B ৰ দুগুণ। একেলগে 8 দিনত কাম শেষ কৰিলে B অকলে ল'ব —"
+   },
+   "options": [
+    {
+     "en": "16 days",
+     "as": "১৬ দিন"
+    },
+    {
+     "en": "20 days",
+     "as": "২০ দিন"
+    },
+    {
+     "en": "24 days",
+     "as": "২৪ দিন"
+    },
+    {
+     "en": "28 days",
+     "as": "২৮ দিন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Let B take x days and A take x/2; 1/x + 2/x = 1/8, so x = 24 days.",
+    "as": "B এ x দিন আৰু A এ x/2 দিন লয়; 1/x + 2/x = 1/8, গতিকে x = 24 দিন।"
+   }
+  },
+  {
+   "id": "time-work-006",
+   "q": {
+    "en": "A, B and C can do a work in 6, 12 and 18 days respectively. Working together they finish it in —",
+    "as": "A, B আৰু C এ এটা কাম ক্ৰমে 6, 12 আৰু 18 দিনত কৰে। একেলগে কাম কৰিলে শেষ কৰিব —"
+   },
+   "options": [
+    {
+     "en": "4 1/2 days",
+     "as": "৪ ১/২ দিন"
+    },
+    {
+     "en": "3 days",
+     "as": "৩ দিন"
+    },
+    {
+     "en": "4 days",
+     "as": "৪ দিন"
+    },
+    {
+     "en": "3 3/11 days",
+     "as": "৩ ৩/১১ দিন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sum = 6/18 + 3/18 + 2/18 = 11/18, so the time is 18/11 = 3 3/11 days.",
+    "as": "যোগফল = 6/18 + 3/18 + 2/18 = 11/18, গতিকে সময় 18/11 = 3 3/11 দিন।"
+   }
+  },
+  {
+   "id": "time-work-007",
+   "q": {
+    "en": "A can do a work in 20 days. He works for 5 days and leaves. The fraction of the work left is —",
+    "as": "A এ এটা কাম 20 দিনত কৰে। তেওঁ 5 দিন কাম কৰি গুচি গ'ল। বাকী থকা কামৰ ভগ্নাংশ —"
+   },
+   "options": [
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    },
+    {
+     "en": "2/3",
+     "as": "২/৩"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The combined rate is the sum of the individual one-day rates.",
-    "as": "সংযুক্ত হাৰ হৈছে ব্যক্তিগত এদিনৰ হাৰবোৰৰ সমষ্টি।"
+    "en": "Work done = 5/20 = 1/4, so 3/4 is left.",
+    "as": "কৰা কাম = 5/20 = 1/4, গতিকে 3/4 বাকী থাকে।"
+   }
+  },
+  {
+   "id": "time-work-008",
+   "q": {
+    "en": "10 men can build a wall in 8 days. How many men are needed to build it in 5 days?",
+    "as": "10 জন মানুহে এটা দেৱাল 8 দিনত সাজে। 5 দিনত সাজিবলৈ কিমান মানুহ লাগিব?"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "10 x 8 = n x 5, so n = 16 men.",
+    "as": "10 x 8 = n x 5, গতিকে n = 16 জন।"
+   }
+  },
+  {
+   "id": "time-work-009",
+   "q": {
+    "en": "A and B can do a work in 12 days, B and C in 15 days, and A and C in 20 days. A alone can do it in —",
+    "as": "A আৰু B এ 12 দিনত, B আৰু C এ 15 দিনত, আৰু A আৰু C এ 20 দিনত এটা কাম কৰে। A অকলে কৰিব —"
+   },
+   "options": [
+    {
+     "en": "40 days",
+     "as": "৪০ দিন"
+    },
+    {
+     "en": "36 days",
+     "as": "৩৬ দিন"
+    },
+    {
+     "en": "24 days",
+     "as": "২৪ দিন"
+    },
+    {
+     "en": "30 days",
+     "as": "৩০ দিন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "2(A+B+C) = 1/12 + 1/15 + 1/20 = 1/5, so A alone takes 30 days.",
+    "as": "2(A+B+C) = 1/12 + 1/15 + 1/20 = 1/5, গতিকে A অকলে 30 দিন লয়।"
+   }
+  },
+  {
+   "id": "time-work-010",
+   "q": {
+    "en": "A can complete a work in 15 days. B is 50% more efficient than A. B alone can complete it in —",
+    "as": "A এ এটা কাম 15 দিনত শেষ কৰে। B ৰ দক্ষতা A তকৈ 50% বেছি। B অকলে শেষ কৰিব —"
+   },
+   "options": [
+    {
+     "en": "9 days",
+     "as": "৯ দিন"
+    },
+    {
+     "en": "10 days",
+     "as": "১০ দিন"
+    },
+    {
+     "en": "8 days",
+     "as": "৮ দিন"
+    },
+    {
+     "en": "12 days",
+     "as": "১২ দিন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "B's rate is 1.5 times A's, so B takes 15 / 1.5 = 10 days.",
+    "as": "B ৰ হাৰ A ৰ 1.5 গুণ, গতিকে B এ 15 / 1.5 = 10 দিন লয়।"
+   }
+  },
+  {
+   "id": "time-work-011",
+   "q": {
+    "en": "Two pipes A and B can fill a tank in 12 and 18 hours respectively. Together they fill it in —",
+    "as": "দুটা নল A আৰু B এ এটা টেংকী ক্ৰমে 12 আৰু 18 ঘণ্টাত ভৰে। একেলগে ভৰিব —"
+   },
+   "options": [
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "7.2 hours",
+     "as": "৭.২ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "1/12 + 1/18 = 5/36, so 36/5 = 7.2 hours.",
+    "as": "1/12 + 1/18 = 5/36, গতিকে 36/5 = 7.2 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "time-work-012",
+   "q": {
+    "en": "A cistern is filled by a pipe in 6 hours and emptied by a leak in 9 hours. If both work together the cistern is filled in —",
+    "as": "এটা হাউজ এটা নলে 6 ঘণ্টাত ভৰে আৰু এটা চিদ্ৰই 9 ঘণ্টাত ৰিক্ত কৰে। দুয়ো একেলগে কাম কৰিলে হাউজটো ভৰিব —"
+   },
+   "options": [
+    {
+     "en": "18 hours",
+     "as": "১৮ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "15 hours",
+     "as": "১৫ ঘণ্টা"
+    },
+    {
+     "en": "4.5 hours",
+     "as": "৪.৫ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "1/6 - 1/9 = 1/18, so 18 hours.",
+    "as": "1/6 - 1/9 = 1/18, গতিকে 18 ঘণ্টা।"
    }
   }
  ],

@@ -152,6 +152,19 @@ book. Question *text*, however, must not repeat across books: check the other
 book's question text before adding entries, or the two books will look like
 one padded bank.
 
+### Grade III question conventions
+
+- Numeral style: `q` and `explanation` keep Western digits in both languages
+  (`20`, `12.5`); only `options[].as` uses Assamese digits (`২০`, `১২.৫`).
+  The option `en` always keeps Western digits.
+- The topic bank is read at runtime from the GitHub Contents API on `main`,
+  not from the committed `question-001.json`. Local edits therefore only
+  appear in the browser after the branch is merged to `main`; the committed
+  JSON and the crawler-facing `index.html` show them immediately.
+- Answer-key balance: the right option should be spread over A/B/C/D rather
+  than clustered on one letter. General Mathematics now sits at 36 each across
+  its 144 questions.
+
 ### Grade III "work in progress" notice
 
 The Grade III book ships with its syllabus and topic tree but a partly filled

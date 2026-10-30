@@ -2,121 +2,361 @@
   {
     "id": "basic-mensuration-001",
     "q": {
-      "en": "The area of a rectangle 12 m long and 5 m broad is —",
-      "as": "12 মিটাৰ দীঘ আৰু 5 মিটাৰ প্ৰস্থৰ আয়তক্ষেত্ৰৰ কালি —"
+      "en": "The area of a rectangle 15 m long and 8 m broad is —",
+      "as": "15 মিটাৰ দীঘ আৰু 8 মিটাৰ প্ৰস্থৰ আয়তক্ষেত্ৰৰ কালি —"
     },
     "options": [
       {
-        "en": "17 sq m",
-        "as": "১৭ বৰ্গ মিটাৰ"
-      },
-      {
-        "en": "34 sq m",
-        "as": "৩৪ বৰ্গ মিটাৰ"
-      },
-      {
-        "en": "60 sq m",
-        "as": "৬০ বৰ্গ মিটাৰ"
-      },
-      {
         "en": "120 sq m",
-        "as": "১২০ বৰ্গ মিটাৰ"
+        "as": "১২০ sq m"
+      },
+      {
+        "en": "140 sq m",
+        "as": "১৪০ sq m"
+      },
+      {
+        "en": "100 sq m",
+        "as": "১০০ sq m"
+      },
+      {
+        "en": "130 sq m",
+        "as": "১৩০ sq m"
       }
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": {
-      "en": "Area = length × breadth = 12 × 5 = 60 square metres.",
-      "as": "কালি = দীঘ × প্ৰস্থ = 12 × 5 = 60 বৰ্গ মিটাৰ।"
+      "en": "Area = 15 x 8 = 120 sq m.",
+      "as": "কালি = 15 x 8 = 120 বৰ্গ মিটাৰ।"
     }
   },
   {
     "id": "basic-mensuration-002",
     "q": {
-      "en": "The area of a triangle with base 10 cm and height 6 cm is —",
-      "as": "ভূমি 10 ছে.মি. আৰু উচ্চতা 6 ছে.মি.ৰ ত্ৰিভুজৰ কালি —"
+      "en": "The area of a circle of radius 7 cm is (take pi = 22/7) —",
+      "as": "7 ছে.মি. ব্যাসাৰ্ধৰ বৃত্তৰ কালি (pi = 22/7 ধৰি) —"
     },
     "options": [
       {
-        "en": "30 sq cm",
-        "as": "৩০ বৰ্গ ছে.মি."
+        "en": "176 sq cm",
+        "as": "১৭৬ sq cm"
       },
       {
-        "en": "60 sq cm",
-        "as": "৬০ বৰ্গ ছে.মি."
+        "en": "154 sq cm",
+        "as": "১৫৪ sq cm"
       },
       {
-        "en": "16 sq cm",
-        "as": "১৬ বৰ্গ ছে.মি."
+        "en": "198 sq cm",
+        "as": "১৯৮ sq cm"
       },
       {
-        "en": "20 sq cm",
-        "as": "২০ বৰ্গ ছে.মি."
+        "en": "144 sq cm",
+        "as": "১৪৪ sq cm"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
-      "en": "Area = 1/2 × base × height = 30 square cm.",
-      "as": "কালি = 1/2 × ভূমি × উচ্চতা = 30 বৰ্গ ছে.মি.।"
+      "en": "Area = pi r^2 = 22/7 x 49 = 154 sq cm.",
+      "as": "কালি = pi r^2 = 22/7 x 49 = 154 বৰ্গ ছে.মি.।"
     }
   },
   {
     "id": "basic-mensuration-003",
     "q": {
-      "en": "The perimeter of a square of side 7 cm is —",
-      "as": "7 ছে.মি. বাহুৰ বৰ্গক্ষেত্ৰৰ পৰিসীমা —"
+      "en": "The perimeter of a rectangle 12 m by 9 m is —",
+      "as": "12 মিটাৰ x 9 মিটাৰ আয়তক্ষেত্ৰৰ পৰিসীমা —"
     },
     "options": [
       {
-        "en": "14 cm",
-        "as": "১৪ ছে.মি."
+        "en": "108 m",
+        "as": "১০৮ মিটাৰ"
       },
       {
-        "en": "21 cm",
-        "as": "২১ ছে.মি."
+        "en": "54 m",
+        "as": "৫৪ মিটাৰ"
       },
       {
-        "en": "28 cm",
-        "as": "২৮ ছে.মি."
+        "en": "42 m",
+        "as": "৪২ মিটাৰ"
       },
       {
-        "en": "49 cm",
-        "as": "৪৯ ছে.মি."
+        "en": "21 m",
+        "as": "২১ মিটাৰ"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "Perimeter of a square = 4 × side = 28 cm.",
-      "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 × বাহু = 28 ছে.মি.।"
+      "en": "Perimeter = 2(12 + 9) = 42 m.",
+      "as": "পৰিসীমা = 2(12 + 9) = 42 মিটাৰ।"
     }
   },
   {
     "id": "basic-mensuration-004",
     "q": {
-      "en": "In a right-angled triangle, the square of the hypotenuse equals —",
-      "as": "সমকোণী ত্ৰিভুজত কৰ্ণৰ বৰ্গ সমান —"
+      "en": "The area of a triangle with base 12 cm and height 9 cm is —",
+      "as": "ভূমি 12 ছে.মি. আৰু উচ্চতা 9 ছে.মি.ৰ ত্ৰিভুজৰ কালি —"
     },
     "options": [
       {
-        "en": "the sum of the other two sides",
-        "as": "আন দুটা বাহুৰ সমষ্টি"
+        "en": "108 sq cm",
+        "as": "১০৮ sq cm"
       },
       {
-        "en": "the sum of the squares of the other two sides",
-        "as": "আন দুটা বাহুৰ বৰ্গৰ সমষ্টি"
+        "en": "63 sq cm",
+        "as": "৬৩ sq cm"
       },
       {
-        "en": "the product of the other two sides",
-        "as": "আন দুটা বাহুৰ গুণফল"
+        "en": "72 sq cm",
+        "as": "৭২ sq cm"
       },
       {
-        "en": "the difference of the other two sides",
-        "as": "আন দুটা বাহুৰ পাৰ্থক্য"
+        "en": "54 sq cm",
+        "as": "৫৪ sq cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = 1/2 x 12 x 9 = 54 sq cm.",
+      "as": "কালি = 1/2 x 12 x 9 = 54 বৰ্গ ছে.মি.।"
+    }
+  },
+  {
+    "id": "basic-mensuration-005",
+    "q": {
+      "en": "The sum of the angles of a triangle is —",
+      "as": "এটা ত্ৰিভুজৰ কোণবোৰৰ যোগফল —"
+    },
+    "options": [
+      {
+        "en": "360 degrees",
+        "as": "৩৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      },
+      {
+        "en": "270 degrees",
+        "as": "২৭০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "By the Pythagoras theorem, the square of the hypotenuse equals the sum of the squares of the other two sides.",
-      "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণৰ বৰ্গ আন দুটা বাহুৰ বৰ্গৰ সমষ্টিৰ সমান।"
+      "en": "The interior angles of any triangle add up to 180 degrees.",
+      "as": "যিকোনো ত্ৰিভুজৰ অন্তঃকোণবোৰৰ যোগফল 180 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "basic-mensuration-006",
+    "q": {
+      "en": "The circumference of a circle of radius 14 cm is (take pi = 22/7) —",
+      "as": "14 ছে.মি. ব্যাসাৰ্ধৰ বৃত্তৰ পৰিধি (pi = 22/7 ধৰি) —"
+    },
+    "options": [
+      {
+        "en": "616 cm",
+        "as": "৬১৬ ছে.মি."
+      },
+      {
+        "en": "44 cm",
+        "as": "৪৪ ছে.মি."
+      },
+      {
+        "en": "66 cm",
+        "as": "৬৬ ছে.মি."
+      },
+      {
+        "en": "88 cm",
+        "as": "৮৮ ছে.মি."
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Circumference = 2 pi r = 2 x 22/7 x 14 = 88 cm.",
+      "as": "পৰিধি = 2 pi r = 2 x 22/7 x 14 = 88 ছে.মি.।"
+    }
+  },
+  {
+    "id": "basic-mensuration-007",
+    "q": {
+      "en": "The volume of a cube of edge 5 cm is —",
+      "as": "5 ছে.মি. বাহুৰ ঘনকৰ আয়তন —"
+    },
+    "options": [
+      {
+        "en": "125 cubic cm",
+        "as": "১২৫ ঘন ছে.মি."
+      },
+      {
+        "en": "150 cubic cm",
+        "as": "১৫০ ঘন ছে.মি."
+      },
+      {
+        "en": "25 cubic cm",
+        "as": "২৫ ঘন ছে.মি."
+      },
+      {
+        "en": "75 cubic cm",
+        "as": "৭৫ ঘন ছে.মি."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume = a^3 = 125 cubic cm.",
+      "as": "আয়তন = a^3 = 125 ঘন ছে.মি.।"
+    }
+  },
+  {
+    "id": "basic-mensuration-008",
+    "q": {
+      "en": "The volume of a cuboid 10 cm x 6 cm x 4 cm is —",
+      "as": "10 ছে.মি. x 6 ছে.মি. x 4 ছে.মি. ঘনকৰ আয়তন —"
+    },
+    "options": [
+      {
+        "en": "200 cubic cm",
+        "as": "২০০ ঘন ছে.মি."
+      },
+      {
+        "en": "240 cubic cm",
+        "as": "২৪০ ঘন ছে.মি."
+      },
+      {
+        "en": "160 cubic cm",
+        "as": "১৬০ ঘন ছে.মি."
+      },
+      {
+        "en": "120 cubic cm",
+        "as": "১২০ ঘন ছে.মি."
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume = 10 x 6 x 4 = 240 cubic cm.",
+      "as": "আয়তন = 10 x 6 x 4 = 240 ঘন ছে.মি.।"
+    }
+  },
+  {
+    "id": "basic-mensuration-009",
+    "q": {
+      "en": "The area of a square of perimeter 36 cm is —",
+      "as": "পৰিসীমা 36 ছে.মি.ৰ বৰ্গক্ষেত্ৰৰ কালি —"
+    },
+    "options": [
+      {
+        "en": "49 sq cm",
+        "as": "৪৯ sq cm"
+      },
+      {
+        "en": "81 sq cm",
+        "as": "৮১ sq cm"
+      },
+      {
+        "en": "64 sq cm",
+        "as": "৬৪ sq cm"
+      },
+      {
+        "en": "36 sq cm",
+        "as": "৩৬ sq cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Side = 9 cm, so the area is 81 sq cm.",
+      "as": "বাহু = 9 ছে.মি., গতিকে কালি 81 বৰ্গ ছে.মি.।"
+    }
+  },
+  {
+    "id": "basic-mensuration-010",
+    "q": {
+      "en": "The diagonal of a square of side 6 cm is —",
+      "as": "6 ছে.মি. বাহুৰ বৰ্গক্ষেত্ৰৰ কৰ্ণ —"
+    },
+    "options": [
+      {
+        "en": "12 cm",
+        "as": "১২ ছে.মি."
+      },
+      {
+        "en": "6 sqrt(2) cm",
+        "as": "৬ sqrt(২) ছে.মি."
+      },
+      {
+        "en": "3 sqrt(2) cm",
+        "as": "৩ sqrt(২) ছে.মি."
+      },
+      {
+        "en": "sqrt(6) cm",
+        "as": "sqrt(৬) ছে.মি."
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Diagonal = side x sqrt(2) = 6 sqrt(2) cm.",
+      "as": "কৰ্ণ = বাহু x sqrt(2) = 6 sqrt(2) ছে.মি.।"
+    }
+  },
+  {
+    "id": "basic-mensuration-011",
+    "q": {
+      "en": "The area of a right-angled triangle with legs 6 cm and 8 cm is —",
+      "as": "6 ছে.মি. আৰু 8 ছে.মি. ভূমিৰ সমকোণী ত্ৰিভুজৰ কালি —"
+    },
+    "options": [
+      {
+        "en": "24 sq cm",
+        "as": "২৪ sq cm"
+      },
+      {
+        "en": "20 sq cm",
+        "as": "২০ sq cm"
+      },
+      {
+        "en": "28 sq cm",
+        "as": "২৮ sq cm"
+      },
+      {
+        "en": "48 sq cm",
+        "as": "৪৮ sq cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = 1/2 x 6 x 8 = 24 sq cm.",
+      "as": "কালি = 1/2 x 6 x 8 = 24 বৰ্গ ছে.মি.।"
+    }
+  },
+  {
+    "id": "basic-mensuration-012",
+    "q": {
+      "en": "The total surface area of a cube of edge 4 cm is —",
+      "as": "4 ছে.মি. বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি —"
+    },
+    "options": [
+      {
+        "en": "64 sq cm",
+        "as": "৬৪ sq cm"
+      },
+      {
+        "en": "80 sq cm",
+        "as": "৮০ sq cm"
+      },
+      {
+        "en": "48 sq cm",
+        "as": "৪৮ sq cm"
+      },
+      {
+        "en": "96 sq cm",
+        "as": "৯৬ sq cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "TSA = 6a^2 = 6 x 16 = 96 sq cm.",
+      "as": "মুঠ পৃষ্ঠকালি = 6a^2 = 6 x 16 = 96 বৰ্গ ছে.মি.।"
     }
   }
 ]

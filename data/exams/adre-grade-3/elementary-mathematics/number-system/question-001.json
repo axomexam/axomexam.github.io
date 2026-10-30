@@ -2,121 +2,361 @@
   {
     "id": "number-system-001",
     "q": {
-      "en": "The place value of the digit 0 in the number 5072 is —",
-      "as": "5072 সংখ্যাটোত 0 অংকটোৰ স্থানীয় মান —"
+      "en": "The place value of the digit 7 in 3,74,251 is —",
+      "as": "3,74,251 সংখ্যাটোত 7 অংকটোৰ স্থানীয় মান —"
     },
     "options": [
       {
-        "en": "0",
-        "as": "০"
-      },
-      {
-        "en": "Hundreds",
-        "as": "শতক"
-      },
-      {
-        "en": "Tens",
-        "as": "দহক"
-      },
-      {
-        "en": "Thousands",
-        "as": "হাজাৰ"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "The digit 0 contributes no value, so its place value is 0 in any position.",
-      "as": "0 অংকটোৱে কোনো মান যোগ নকৰে, গতিকে যিকোনো স্থানত ইয়াৰ স্থানীয় মান 0।"
-    }
-  },
-  {
-    "id": "number-system-002",
-    "q": {
-      "en": "The number of prime numbers between 1 and 20 is —",
-      "as": "1 ৰ পৰা 20 লৈকে মূৰব সংখ্যাৰ সংখ্যা —"
-    },
-    "options": [
-      {
-        "en": "6",
-        "as": "৬"
+        "en": "70000",
+        "as": "৭০০০০"
       },
       {
         "en": "7",
         "as": "৭"
       },
       {
-        "en": "8",
-        "as": "৮"
+        "en": "7000",
+        "as": "৭০০০"
       },
       {
-        "en": "9",
-        "as": "৯"
+        "en": "700",
+        "as": "৭০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The digit 7 stands in the ten-thousands place, so its place value is 70,000.",
+      "as": "7 অংকটো হাজাৰ-দহৰ ঘৰত আছে, গতিকে স্থানীয় মান 70,000।"
+    }
+  },
+  {
+    "id": "number-system-002",
+    "q": {
+      "en": "The smallest odd prime number is —",
+      "as": "আটাইতকৈ সৰু অযুগ্ম মৌলিক সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "They are 2, 3, 5, 7, 11, 13, 17 and 19, so there are eight primes.",
-      "as": "সেইবোৰ 2, 3, 5, 7, 11, 13, 17 আৰু 19, গতিকে মুঠ আঠটা মূৰব সংখ্যা।"
+      "en": "2 is prime but even; the smallest odd prime is 3.",
+      "as": "2 মৌলিক কিন্তু যুগ্ম; আটাইতকৈ সৰু অযুগ্ম মৌলিক 3।"
     }
   },
   {
     "id": "number-system-003",
     "q": {
-      "en": "In the number 5060, the place value of the digit 5 is —",
-      "as": "5060 সংখ্যাটোত 5 অংকটোৰ স্থানীয় মান —"
+      "en": "The sum of the first 20 natural numbers is —",
+      "as": "প্ৰথম 20 টা স্বাভাৱিক সংখ্যাৰ যোগফল —"
     },
     "options": [
       {
-        "en": "5",
-        "as": "৫"
+        "en": "220",
+        "as": "২২০"
       },
       {
-        "en": "50",
-        "as": "৫০"
+        "en": "210",
+        "as": "২১০"
       },
       {
-        "en": "500",
-        "as": "৫০০"
+        "en": "190",
+        "as": "১৯০"
       },
       {
-        "en": "5000",
-        "as": "৫০০০"
+        "en": "200",
+        "as": "২০০"
       }
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": {
-      "en": "The digit 5 stands in the thousands place, so its place value is 5000.",
-      "as": "5 অংকটো হাজাৰৰ স্থানত আছে, গতিকে ইয়াৰ স্থানীয় মান 5000।"
+      "en": "Sum = n(n+1)/2 = 20 x 21 / 2 = 210.",
+      "as": "যোগফল = n(n+1)/2 = 20 x 21 / 2 = 210।"
     }
   },
   {
     "id": "number-system-004",
     "q": {
-      "en": "The number of factors of 36 is —",
-      "as": "36 ৰ উৎপাদকৰ সংখ্যা —"
+      "en": "The greatest 4-digit number formed by the digits 3, 0, 7 and 5 (each used once) is —",
+      "as": "3, 0, 7 আৰু 5 অংকৰে (প্ৰতিটো এবাৰ) গঠন কৰা আটাইতকৈ ডাঙৰ 4-অংকৰ সংখ্যা —"
     },
     "options": [
       {
+        "en": "7503",
+        "as": "৭৫০৩"
+      },
+      {
+        "en": "7350",
+        "as": "৭৩৫০"
+      },
+      {
+        "en": "7530",
+        "as": "৭৫৩০"
+      },
+      {
+        "en": "3057",
+        "as": "৩০৫৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arranging the digits in descending order 7, 5, 3, 0 gives 7530.",
+      "as": "অংকবোৰ অৱৰোহী ক্ৰমত 7, 5, 3, 0 সজালে 7530 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "number-system-005",
+    "q": {
+      "en": "A number is divisible by 9 if —",
+      "as": "এটা সংখ্যা 9 ৰে বিভাজ্য হ'ব যদিহে —"
+    },
+    "options": [
+      {
+        "en": "it is even",
+        "as": "সেয়া যুগ্ম হয়"
+      },
+      {
+        "en": "the sum of its digits is divisible by 9",
+        "as": "তাৰ অংকবোৰৰ যোগফল ৯ ৰে বিভাজ্য হয়"
+      },
+      {
+        "en": "its last digit is 9",
+        "as": "তাৰ শেষ অংকটো ৯ হয়"
+      },
+      {
+        "en": "its last two digits form a multiple of 9",
+        "as": "তাৰ শেষৰ দুটা অংক ৯ ৰ গুণিতক হয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The divisibility rule for 9 checks the sum of the digits.",
+      "as": "9 ৰ বিভাজ্যতাৰ নিয়মত অংকবোৰৰ যোগফল পৰীক্ষা কৰা হয়।"
+    }
+  },
+  {
+    "id": "number-system-006",
+    "q": {
+      "en": "The LCM of 12 and 18 is —",
+      "as": "12 আৰু 18 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
         "en": "6",
         "as": "৬"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "12 = 2^2 x 3 and 18 = 2 x 3^2, so LCM = 2^2 x 3^2 = 36.",
+      "as": "12 = 2^2 x 3 আৰু 18 = 2 x 3^2, গতিকে ল.সা.গু. = 2^2 x 3^2 = 36।"
+    }
+  },
+  {
+    "id": "number-system-007",
+    "q": {
+      "en": "The decimal 0.625 expressed as a fraction in lowest terms is —",
+      "as": "0.625 দশমিকক আটাইতকৈ সৰল ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰিলে —"
+    },
+    "options": [
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      },
+      {
+        "en": "5/16",
+        "as": "৫/১৬"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "0.625 = 625/1000 = 5/8.",
+      "as": "0.625 = 625/1000 = 5/8।"
+    }
+  },
+  {
+    "id": "number-system-008",
+    "q": {
+      "en": "The number of factors of 48 is —",
+      "as": "48 ৰ উৎপাদকৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
       },
       {
         "en": "8",
         "as": "৮"
       },
       {
-        "en": "9",
-        "as": "৯"
-      },
-      {
         "en": "12",
         "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
-      "en": "36 = 2 squared x 3 squared, so the number of factors is (2+1)(2+1) = 9.",
-      "as": "36 = 2 ৰ বৰ্গ x 3 ৰ বৰ্গ, গতিকে উৎপাদকৰ সংখ্যা (2+1)(2+1) = 9।"
+      "en": "48 = 2^4 x 3, so the number of factors is (4+1)(1+1) = 10.",
+      "as": "48 = 2^4 x 3, গতিকে উৎপাদকৰ সংখ্যা (4+1)(1+1) = 10।"
+    }
+  },
+  {
+    "id": "number-system-009",
+    "q": {
+      "en": "Which of the following numbers is irrational?",
+      "as": "তলৰ কোনটো সংখ্যা অপৰিমেয়?"
+    },
+    "options": [
+      {
+        "en": "sqrt(3)",
+        "as": "sqrt(৩)"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "0.125",
+        "as": "০.১২৫"
+      },
+      {
+        "en": "sqrt(25)",
+        "as": "sqrt(২৫)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "sqrt(3) has a non-terminating, non-repeating decimal expansion, so it is irrational.",
+      "as": "sqrt(3) ৰ দশমিক বিস্তৃতি অসসীম আৰু অপুনৰাবৃত্তি, গতিকে ই অপৰিমেয়।"
+    }
+  },
+  {
+    "id": "number-system-010",
+    "q": {
+      "en": "The smallest number that must be added to 1234 to make it divisible by 9 is —",
+      "as": "1234 ক 9 ৰে বিভাজ্য কৰিবলৈ যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1+2+3+4 = 10; the next multiple of 9 is 18, so add 5.",
+      "as": "1+2+3+4 = 10; 9 ৰ পৰৱৰ্তী গুণিতক 18, গতিকে 5 যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "number-system-011",
+    "q": {
+      "en": "The value of 1/2 + 1/3 + 1/6 is —",
+      "as": "1/2 + 1/3 + 1/6 ৰ মান —"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM of 2, 3 and 6 is 6, so 3/6 + 2/6 + 1/6 = 6/6 = 1.",
+      "as": "2, 3 আৰু 6 ৰ ল.সা.গু. 6, গতিকে 3/6 + 2/6 + 1/6 = 6/6 = 1।"
+    }
+  },
+  {
+    "id": "number-system-012",
+    "q": {
+      "en": "The largest 3-digit number divisible by 11 is —",
+      "as": "11 ৰে বিভাজ্য আটাইতকৈ ডাঙৰ 3-অংকৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "989",
+        "as": "৯৮৯"
+      },
+      {
+        "en": "979",
+        "as": "৯৭৯"
+      },
+      {
+        "en": "999",
+        "as": "৯৯৯"
+      },
+      {
+        "en": "990",
+        "as": "৯৯০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "990 = 11 x 90 and is the greatest 3-digit multiple of 11.",
+      "as": "990 = 11 x 90 আৰু 11 ৰ আটাইতকৈ ডাঙৰ 3-অংকৰ গুণিতক।"
     }
   }
 ]

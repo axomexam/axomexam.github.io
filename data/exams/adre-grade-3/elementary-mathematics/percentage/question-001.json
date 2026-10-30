@@ -2,121 +2,361 @@
   {
     "id": "percentage-001",
     "q": {
-      "en": "25% of 400 is —",
-      "as": "400 ৰ 25% —"
+      "en": "What is 15% of 240?",
+      "as": "240 ৰ 15% কিমান?"
     },
     "options": [
       {
-        "en": "50",
-        "as": "৫০"
+        "en": "32",
+        "as": "৩২"
       },
       {
-        "en": "75",
-        "as": "৭৫"
+        "en": "36",
+        "as": "৩৬"
       },
       {
-        "en": "100",
-        "as": "১০০"
+        "en": "48",
+        "as": "৪৮"
       },
       {
-        "en": "125",
-        "as": "১২৫"
+        "en": "24",
+        "as": "২৪"
       }
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "en": "25% of 400 = 400 × 25/100 = 100.",
-      "as": "400 ৰ 25% = 400 × 25/100 = 100।"
+      "en": "240 x 15 / 100 = 36.",
+      "as": "240 x 15 / 100 = 36।"
     }
   },
   {
     "id": "percentage-002",
     "q": {
-      "en": "If a number is increased by 10% and then decreased by 10%, the final value is —",
-      "as": "এটা সংখ্যা 10% বৃদ্ধি কৰি তাৰ পিছত 10% হ্ৰাস কৰিলে চূড়ান্ত মান —"
+      "en": "A student scored 450 marks out of 600. His percentage is —",
+      "as": "এজন ছাত্ৰই 600 ৰ ভিতৰত 450 নম্বৰ পালে। তেওঁৰ শতাংশ —"
     },
     "options": [
       {
-        "en": "the same as the original",
-        "as": "মূলৰ সমান"
+        "en": "75%",
+        "as": "৭৫%"
       },
       {
-        "en": "1% less than the original",
-        "as": "মূলতকৈ 1% কম"
+        "en": "65%",
+        "as": "৬৫%"
       },
       {
-        "en": "1% more than the original",
-        "as": "মূলতকৈ 1% বেছি"
+        "en": "70%",
+        "as": "৭০%"
       },
       {
-        "en": "10% less",
-        "as": "মূলতকৈ 10% কম"
+        "en": "80%",
+        "as": "৮০%"
       }
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
-      "en": "The value becomes 1.1 × 0.9 = 0.99 of the original, that is 1% less.",
-      "as": "মানটো মূলৰ 1.1 × 0.9 = 0.99 হয়, অৰ্থাৎ 1% কম।"
+      "en": "450 / 600 x 100 = 75%.",
+      "as": "450 / 600 x 100 = 75%।"
     }
   },
   {
     "id": "percentage-003",
     "q": {
-      "en": "The fraction 3/5 as a percentage is —",
-      "as": "3/5 ভগ্নাংশক শতাংশত প্ৰকাশ কৰিলে —"
+      "en": "If 35% of a number is 105, the number is —",
+      "as": "এটা সংখ্যাৰ 35% 105 হ'লে সংখ্যাটো —"
     },
     "options": [
       {
-        "en": "30%",
-        "as": "৩০%"
+        "en": "400",
+        "as": "৪০০"
       },
       {
-        "en": "50%",
-        "as": "৫০%"
+        "en": "350",
+        "as": "৩৫০"
       },
       {
-        "en": "60%",
-        "as": "৬০%"
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "105 x 100 / 35 = 300.",
+      "as": "105 x 100 / 35 = 300।"
+    }
+  },
+  {
+    "id": "percentage-004",
+    "q": {
+      "en": "The price of an article is increased from ₹80 to ₹92. The percentage increase is —",
+      "as": "এটা বস্তুৰ মূল্য ₹80 ৰ পৰা ₹92 লৈ বাঢ়িল। শতাংশ বৃদ্ধি —"
+    },
+    "options": [
+      {
+        "en": "18%",
+        "as": "১৮%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "12%",
+        "as": "১২%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Increase = 12; 12 / 80 x 100 = 15%.",
+      "as": "বৃদ্ধি = 12; 12 / 80 x 100 = 15%।"
+    }
+  },
+  {
+    "id": "percentage-005",
+    "q": {
+      "en": "If the price of rice is reduced by 20%, the new price is what per cent of the original?",
+      "as": "চাউলৰ মূল্য 20% হ্ৰাস হ'লে নতুন মূল্য মূল্যৰ শতকৰা কিমান?"
+    },
+    "options": [
+      {
+        "en": "80%",
+        "as": "৮০%"
+      },
+      {
+        "en": "70%",
+        "as": "৭০%"
+      },
+      {
+        "en": "120%",
+        "as": "১২০%"
       },
       {
         "en": "75%",
         "as": "৭৫%"
       }
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": {
-      "en": "3/5 = 0.6 and 0.6 × 100 = 60%.",
-      "as": "3/5 = 0.6 আৰু 0.6 × 100 = 60%।"
+      "en": "A 20% reduction leaves 80% of the original price.",
+      "as": "20% হ্ৰাস হ'লে মূলৰ 80% বাকী থাকে।"
     }
   },
   {
-    "id": "percentage-004",
+    "id": "percentage-006",
     "q": {
-      "en": "If 40% of a number is 80, the number is —",
-      "as": "এটা সংখ্যাৰ 40% 80 হ'লে সংখ্যাটো —"
+      "en": "45% of 60 + 60% of 45 is —",
+      "as": "60 ৰ 45% + 45 ৰ 60% —"
     },
     "options": [
       {
-        "en": "160",
-        "as": "১৬০"
+        "en": "108",
+        "as": "১০৮"
       },
       {
-        "en": "200",
-        "as": "২০০"
+        "en": "54",
+        "as": "৫৪"
       },
       {
-        "en": "240",
-        "as": "২৪০"
+        "en": "45",
+        "as": "৪৫"
       },
       {
-        "en": "320",
-        "as": "৩২০"
+        "en": "99",
+        "as": "৯৯"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "The number is 80 × 100/40 = 200.",
-      "as": "সংখ্যাটো 80 × 100/40 = 200।"
+      "en": "Both terms equal 27, so 27 + 27 = 54.",
+      "as": "দুয়োটা ৰাশি 27 ৰ সমান, গতিকে 27 + 27 = 54।"
+    }
+  },
+  {
+    "id": "percentage-007",
+    "q": {
+      "en": "A number is first increased by 20% and then decreased by 20%. The net change is —",
+      "as": "এটা সংখ্যা প্ৰথমে 20% বৃদ্ধি কৰি তাৰপিছত 20% হ্ৰাস কৰা হ'ল। মুঠ পৰিৱৰ্তন —"
+    },
+    "options": [
+      {
+        "en": "2% decrease",
+        "as": "২% হ্ৰাস"
+      },
+      {
+        "en": "4% increase",
+        "as": "৪% বৃদ্ধি"
+      },
+      {
+        "en": "no change",
+        "as": "কোনো পৰিৱৰ্তন নাই"
+      },
+      {
+        "en": "4% decrease",
+        "as": "৪% হ্ৰাস"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1.2 x 0.8 = 0.96, a net decrease of 4%.",
+      "as": "1.2 x 0.8 = 0.96, মুঠ 4% হ্ৰাস।"
+    }
+  },
+  {
+    "id": "percentage-008",
+    "q": {
+      "en": "The fraction 7/8 expressed as a percentage is —",
+      "as": "7/8 ভগ্নাংশক শতাংশত প্ৰকাশ কৰিলে —"
+    },
+    "options": [
+      {
+        "en": "85%",
+        "as": "৮৫%"
+      },
+      {
+        "en": "80%",
+        "as": "৮০%"
+      },
+      {
+        "en": "78%",
+        "as": "৭৮%"
+      },
+      {
+        "en": "87.5%",
+        "as": "৮৭.৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "7/8 x 100 = 87.5%.",
+      "as": "7/8 x 100 = 87.5%।"
+    }
+  },
+  {
+    "id": "percentage-009",
+    "q": {
+      "en": "In an examination 60% of the students passed and 240 failed. The total number of students was —",
+      "as": "এখন পৰীক্ষাত 60% ছাত্ৰ উত্তীৰ্ণ আৰু 240 অনুত্তীৰ্ণ। মুঠ ছাত্ৰৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "640",
+        "as": "৬৪০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "40% failed = 240, so the total = 240 x 100 / 40 = 600.",
+      "as": "40% অনুত্তীৰ্ণ = 240, গতিকে মুঠ = 240 x 100 / 40 = 600।"
+    }
+  },
+  {
+    "id": "percentage-010",
+    "q": {
+      "en": "The population of a town increases by 5% every year. If the present population is 40,000, the population after one year will be —",
+      "as": "এখন নগৰৰ জনসংখ্যা প্ৰতি বছৰে 5% বাঢ়ে। বৰ্তমান জনসংখ্যা 40,000 হ'লে এবছৰৰ পিছত জনসংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "42,000",
+        "as": "৪২,০০০"
+      },
+      {
+        "en": "45,000",
+        "as": "৪৫,০০০"
+      },
+      {
+        "en": "41,000",
+        "as": "৪১,০০০"
+      },
+      {
+        "en": "44,000",
+        "as": "৪৪,০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "40,000 + 5% of 40,000 = 42,000.",
+      "as": "40,000 + 40,000 ৰ 5% = 42,000।"
+    }
+  },
+  {
+    "id": "percentage-011",
+    "q": {
+      "en": "If A's income is 25% more than B's, then B's income is less than A's by —",
+      "as": "A ৰ আয় B ৰ আয়তকৈ 25% বেছি হ'লে, B ৰ আয় A ৰ আয়তকৈ কম —"
+    },
+    "options": [
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "If B = 100, A = 125; then 25/125 x 100 = 20%.",
+      "as": "B = 100 হ'লে A = 125; গতিকে 25/125 x 100 = 20%।"
+    }
+  },
+  {
+    "id": "percentage-012",
+    "q": {
+      "en": "What is 12.5% of 800?",
+      "as": "800 ৰ 12.5% কিমান?"
+    },
+    "options": [
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "12.5% = 1/8, and 800 / 8 = 100.",
+      "as": "12.5% = 1/8, আৰু 800 / 8 = 100।"
     }
   }
 ]
