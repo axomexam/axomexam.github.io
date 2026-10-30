@@ -932,7 +932,7 @@ function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, 
       </div>
     </div>
     <div class="footer-bottom container">
-      <p id="footer-copy">&copy; 2026 axomexam.in. All rights reserved.</p>
+      <p id="footer-copy">&copy; 2026 axomexam.in. All rights reserved. &middot; Contact: <a href="mailto:contact@axomexam.in" style="color:#38bdf8; font-weight:600;">contact@axomexam.in</a></p>
     </div>
   </footer>
 

@@ -527,7 +527,7 @@ function shellPage({ cat, catHref, cardsHtml }) {
         </div>
       </div>
     </div>
-    <div class="footer-bottom container"><p id="footer-copy">&copy; 2026 axomexam.in. All rights reserved.</p></div>
+    <div class="footer-bottom container"><p id="footer-copy">&copy; 2026 axomexam.in. All rights reserved. &middot; Contact: <a href="mailto:contact@axomexam.in" style="color:#38bdf8; font-weight:600;">contact@axomexam.in</a></p></div>
   </footer>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>

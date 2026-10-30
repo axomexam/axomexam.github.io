@@ -735,6 +735,7 @@
 
         <div style="padding-top:16px; font-size:0.82rem; color:#f8fafc; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; align-items:center;">
           <span>© ${new Date().getFullYear()} <strong style="color:#ffffff;">axomexam.in</strong>. All Rights Reserved.</span>
+          <span style="color:#f8fafc;">${isAs ? "যোগাযোগ:" : "Contact:"} <a href="mailto:contact@axomexam.in" style="color:#ffffff; text-decoration:none; font-weight:600;">contact@axomexam.in</a></span>
           <span style="color:#f8fafc;">Made for Assam Competitive Aspirants</span>
         </div>
       </div>
@@ -2572,7 +2573,7 @@
         <p>এই সামগ্ৰী ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণী, অসম আৰক্ষী উপ-পৰিদৰ্শক আৰু কনিষ্টবল, APSC, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, বন বিভাগ, DHS আৰু DME, লগতে SSC CGL, CHSL আৰু GD, আৰু RRB NTPC আৰু Group D ৰ দৰে কেন্দ্ৰীয় পৰীক্ষাৰ প্ৰাৰ্থীসকলৰ বাবে ডিজাইন কৰা হৈছে। আপুনি আৰম্ভণিৰ পৰা শিকিছে নে চূড়ান্ত পুনৰাবৃত্তি কৰিছে, বিষয়ভিত্তিক গাঁথনিয়ে আপোনাক নিজৰ গতিত অধ্যয়ন কৰিবলৈ দিয়ে।</p>
 
         <h2>যোগাযোগ কৰক</h2>
-        <p>প্ৰশ্ন, সংশোধন আৰু পৰামৰ্শ সদায় স্বাগতম। <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ ইমেইল কৰক বা আমাৰ <a href="/contact/">যোগাযোগ পৃষ্ঠা</a> ব্যৱহাৰ কৰক। আমি সাধাৰণতে দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিওঁ।</p>
+        <p>প্ৰশ্ন, সংশোধন আৰু পৰামৰ্শ সদায় স্বাগতম। <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> লৈ ইমেইল কৰক বা আমাৰ <a href="/contact/">যোগাযোগ পৃষ্ঠা</a> ব্যৱহাৰ কৰক। আমি সাধাৰণতে দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিওঁ।</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
@@ -2603,7 +2604,7 @@
         <p>The material is designed for aspirants of ADRE Grade III and IV, Assam Police Sub-Inspector and Constable, APSC, Panchayat and Rural Development, Forest Department, DHS and DME, and for central exams such as SSC CGL, CHSL and GD, and RRB NTPC and Group D. Whether you are starting from the basics or doing a final revision, the topic-wise structure lets you study at your own pace.</p>
 
         <h2>Contact Us</h2>
-        <p>Questions, corrections and suggestions are always welcome. Email <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> or use our <a href="/contact/">contact page</a>. We usually reply within two to three working days.</p>
+        <p>Questions, corrections and suggestions are always welcome. Email <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> or use our <a href="/contact/">contact page</a>. We usually reply within two to three working days.</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
       `;
@@ -2690,7 +2691,7 @@
         <p>অন্যান্য আধুনিক প্ৰকাশকৰ দৰেই আমি পাঠ খচৰা, সজ্জিত কৰা আৰু অনুবাদ কৰাত সহায় কৰিবলৈ ছফ্টৱেৰ, যাৰ ভিতৰত AI ভাষা সঁজুলিও আছে, ব্যৱহাৰ কৰোঁ। এই সঁজুলিবোৰ কেৱল খচৰা সহায়ক হিচাপেহে ব্যৱহাৰ কৰা হয়। প্ৰতিটো প্ৰকাশিত পৃষ্ঠা লাইভ হোৱাৰ আগতে এজন ব্যক্তিয়ে পৰ্যালোচনা কৰে, তথ্য ওপৰত বৰ্ণনা কৰা উৎসৰ সৈতে যাচাই কৰা হয়, আৰু প্ৰকাশিত সমলৰ দায়িত্ব সম্পাদকীয় দলৰ। আমি পৰ্যালোচনা নকৰা যন্ত্ৰ-আউটপুট স্বয়ংক্ৰিয়ভাৱে প্ৰকাশ নকৰোঁ, আৰু পৰীক্ষাৰ জাননী, তাৰিখ বা ফলাফল সৃষ্টি কৰিবলৈ AI সঁজুলি ব্যৱহাৰ নকৰোঁ।</p>
 
         <h2>শুদ্ধতা, সংশোধন আৰু হালনাগাদ</h2>
-        <p>পৰীক্ষাৰ বিৱৰণ সঘনাই সলনি হয়। যদি আপুনি ভুল উত্তৰ, পুৰণি তথ্য, ভাঙা লিংক বা অনুবাদৰ ভুল পায়, তেন্তে পৃষ্ঠাৰ ঠিকনা আৰু শুদ্ধ তথ্যসহ <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ লিখক। আমি প্ৰতিটো অভিযোগ উৎসৰ সৈতে যাচাই কৰি পৃষ্ঠা সলনি কৰোঁ, আৰু দুই-তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিবলৈ চেষ্টা কৰোঁ। সংশোধন লাইভ পৃষ্ঠাত কৰা হয় আৰু শেষ হালনাগাদৰ তাৰিখ সলনি কৰা হয়। প্ৰধান পৰিৱৰ্তনৰ ৰেকৰ্ড <a href="/updates/">সমল হালনাগাদ পৃষ্ঠা</a>ত ৰখা হয়।</p>
+        <p>পৰীক্ষাৰ বিৱৰণ সঘনাই সলনি হয়। যদি আপুনি ভুল উত্তৰ, পুৰণি তথ্য, ভাঙা লিংক বা অনুবাদৰ ভুল পায়, তেন্তে পৃষ্ঠাৰ ঠিকনা আৰু শুদ্ধ তথ্যসহ <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> লৈ লিখক। আমি প্ৰতিটো অভিযোগ উৎসৰ সৈতে যাচাই কৰি পৃষ্ঠা সলনি কৰোঁ, আৰু দুই-তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিবলৈ চেষ্টা কৰোঁ। সংশোধন লাইভ পৃষ্ঠাত কৰা হয় আৰু শেষ হালনাগাদৰ তাৰিখ সলনি কৰা হয়। প্ৰধান পৰিৱৰ্তনৰ ৰেকৰ্ড <a href="/updates/">সমল হালনাগাদ পৃষ্ঠা</a>ত ৰখা হয়।</p>
         <p>axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা। ই চৰকাৰী প'ৰ্টেল নহয় আৰু কোনো নিযুক্তি ব'ৰ্ডক প্ৰতিনিধিত্ব নকৰে। আবেদন কৰাৰ আগতে যোগ্যতা, তাৰিখ আৰু পৰীক্ষাৰ আৰ্হি চৰকাৰী জাননীৰ পৰা সদায় নিশ্চিত কৰক।</p>
 
         <h2>বিজ্ঞাপন আৰু সম্পাদকীয় স্বাধীনতা</h2>
@@ -2698,7 +2699,7 @@
         <p>আমি ভুল পৃষ্ঠা, ৰিডাইৰেক্ট পৃষ্ঠা, সন্ধান ফলাফল বা অধ্যয়ন সামগ্ৰী নথকা অন্য স্ক্ৰীনত বিজ্ঞাপন নৰখোঁ। বিজ্ঞাপন থকা পৃষ্ঠাত ওপৰত বৰ্ণনা কৰা সম্পূৰ্ণ বিষয়বস্তু থাকে, কেৱল বিজ্ঞাপন দেখুওৱাৰ বাবে লিখা সাৰাংশ নহয়।</p>
 
         <h2>যোগাযোগ</h2>
-        <p>এই নীতিৰ বিষয়ে প্ৰশ্ন, সংশোধনৰ অনুৰোধ আৰু অৱদান <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ বা <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ৰ জৰিয়তে পঠিয়াব পাৰে।</p>
+        <p>এই নীতিৰ বিষয়ে প্ৰশ্ন, সংশোধনৰ অনুৰোধ আৰু অৱদান <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> লৈ বা <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ৰ জৰিয়তে পঠিয়াব পাৰে।</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
@@ -2724,7 +2725,7 @@
         <p>Like many modern publishers, we use software, including AI language tools, to help draft, format and translate text. These tools are used as drafting aids only. Every published page is reviewed by a person before it goes live, facts are checked against the sources described above, and the editorial team is responsible for what is published. We do not auto-publish unreviewed machine output, and we do not use AI tools to invent exam notifications, dates or results.</p>
 
         <h2>Accuracy, corrections and updates</h2>
-        <p>Examination details change often. If you find a wrong answer, an outdated fact, a broken link or a translation error, write to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> with the page address and the correct information. We verify every report against a source before changing a page, and we aim to reply within two to three working days. Corrections are made on the live page and the last-updated date is changed. A record of major changes is kept on the <a href="/updates/">content updates page</a>.</p>
+        <p>Examination details change often. If you find a wrong answer, an outdated fact, a broken link or a translation error, write to <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> with the page address and the correct information. We verify every report against a source before changing a page, and we aim to reply within two to three working days. Corrections are made on the live page and the last-updated date is changed. A record of major changes is kept on the <a href="/updates/">content updates page</a>.</p>
         <p>axomexam.in is an independent study aid. It is not a government portal and does not represent any recruitment board. Always confirm eligibility, dates and the exam pattern from the official notification before applying.</p>
 
         <h2>Advertising and editorial independence</h2>
@@ -2732,7 +2733,7 @@
         <p>We do not place advertising on error pages, redirect pages, search results or other screens that contain no study content. Pages that carry advertising contain the full topic material described above, not a summary written only to host ads.</p>
 
         <h2>Contact</h2>
-        <p>Questions about this policy, correction requests and contributions can be sent to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> or through the <a href="/contact/">contact page</a>.</p>
+        <p>Questions about this policy, correction requests and contributions can be sent to <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> or through the <a href="/contact/">contact page</a>.</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
       `;
@@ -2775,7 +2776,7 @@
         <p>axomexam.in স্বাধীনভাৱে পৰিচালিত আৰু ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া। ই বিজ্ঞাপনৰ দ্বাৰা পুঁজিৰ যোগান ধৰে আৰু নিজৰ অধ্যয়ন সামগ্ৰীত কোনো পৰীক্ষা, কোচিং প্ৰতিষ্ঠান, পুথি বা সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বাবে ধন লোৱা নাই। দলৰ সদস্যসকলে পৃষ্ঠপোষকতা কৰা সামগ্ৰী সম্পাদকীয় সমল হিচাপে প্ৰকাশ নকৰে।</p>
 
         <h2>অৱদান আৰু সংশোধন</h2>
-        <p>শিক্ষক, বিষয় বিশেষজ্ঞ আৰু ভুল ধৰা পেলোৱা পৰীক্ষাৰ্থীসকলক <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ লিখিবলৈ আমন্ত্ৰণ জনাইছোঁ। সোনকালে যাচাই কৰিব পৰাকৈ পৃষ্ঠাৰ ঠিকনা আৰু সংশোধনৰ উৎস অন্তৰ্ভুক্ত কৰিব। আপুনি <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ও ব্যৱহাৰ কৰিব পাৰে।</p>
+        <p>শিক্ষক, বিষয় বিশেষজ্ঞ আৰু ভুল ধৰা পেলোৱা পৰীক্ষাৰ্থীসকলক <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> লৈ লিখিবলৈ আমন্ত্ৰণ জনাইছোঁ। সোনকালে যাচাই কৰিব পৰাকৈ পৃষ্ঠাৰ ঠিকনা আৰু সংশোধনৰ উৎস অন্তৰ্ভুক্ত কৰিব। আপুনি <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ও ব্যৱহাৰ কৰিব পাৰে।</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
@@ -2814,7 +2815,7 @@
         <p>axomexam.in is independently run and free to use. It is funded by advertising and does not accept payment for including any exam, coaching institute, book or product in its study material. Team members do not publish sponsored material as editorial content.</p>
 
         <h2>Contributions and corrections</h2>
-        <p>Teachers, subject experts and candidates who spot an error are welcome to write to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a>. Please include the page address and the source for the correction so that it can be verified quickly. You can also use the <a href="/contact/">contact page</a>.</p>
+        <p>Teachers, subject experts and candidates who spot an error are welcome to write to <a href="mailto:contact@axomexam.in">contact@axomexam.in</a>. Please include the page address and the source for the correction so that it can be verified quickly. You can also use the <a href="/contact/">contact page</a>.</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
       `;
@@ -2882,7 +2883,7 @@
         <p>চৰকাৰী জাননীৰ উপৰিও আমাৰ ব্যাখ্যা মানক বিদ্যালয়-স্তৰৰ পাঠ্যপুথি, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত আৰু বহুলভাৱে স্বীকৃত বিষয়-প্ৰসংগৰ সৈতে যাচাই কৰা হয়। প্ৰশ্ন আৰু ব্যাখ্যা আমাৰ নিজৰ শব্দত লিখা হয়। আমি বাণিজ্যিক পুথিৰ অধ্যায় পুনৰুত্পাদন নকৰোঁ, আৰু ছাইটৰ অন্য ঠাইত কোনো পুথিৰ উল্লেখ কৰাৰ অৰ্থ ইয়াৰ পাঠ কপি কৰা বুলি দাবী নহয়।</p>
 
         <h2>উৎসৰ সমস্যা জনোৱা</h2>
-        <p>যদি কোনো লিংক ভাঙি গৈছে, জাননী সলনি হৈছে বা কোনো পৃষ্ঠাই উৎস ভুলকৈ উল্লেখ কৰিছে, তেন্তে পৃষ্ঠাৰ ঠিকনাসহ <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ লিখক। সংশোধন কেনেদৰে কৰা হয়, সেই বিষয়ে <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>ত চাওক।</p>
+        <p>যদি কোনো লিংক ভাঙি গৈছে, জাননী সলনি হৈছে বা কোনো পৃষ্ঠাই উৎস ভুলকৈ উল্লেখ কৰিছে, তেন্তে পৃষ্ঠাৰ ঠিকনাসহ <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> লৈ লিখক। সংশোধন কেনেদৰে কৰা হয়, সেই বিষয়ে <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>ত চাওক।</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
@@ -2946,7 +2947,7 @@
         <p>Besides official notifications, our explanations are checked against standard school-level textbooks, public previous year question papers and widely accepted subject references. Questions and explanations are written in our own words. We do not reproduce chapters from commercial books, and the mention of any book elsewhere on the site is not a claim that its text has been copied.</p>
 
         <h2>Reporting a source problem</h2>
-        <p>If a link is broken, a notification has changed or a page cites a source incorrectly, write to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> with the page address. See the <a href="/editorial-policy/">editorial policy</a> for how corrections are handled.</p>
+        <p>If a link is broken, a notification has changed or a page cites a source incorrectly, write to <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> with the page address. See the <a href="/editorial-policy/">editorial policy</a> for how corrections are handled.</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
       `;
@@ -3068,9 +3069,9 @@
           <p>${isAs ? "আমি লাভ কৰা প্ৰতিটো বাৰ্তা পঢ়োঁ আৰু সেই প্ৰতিক্ৰিয়া axomexam.in ৰ প্ৰশ্ন-সংগ্ৰহ, নোট আৰু মক টেষ্ট উন্নত কৰিবলৈ ব্যৱহাৰ কৰোঁ। আপুনি এটা ভুল উত্তৰ জনাব, নতুন এটা বিষয়ৰ পৰামৰ্শ দিব, প্ৰশ্ন আগবঢ়াব বা অধ্যয়ন সামগ্ৰীৰ বিষয়ে সোধা-পোছা কৰিব বিচাৰে নে নাই — এই পৃষ্ঠাই আমাৰ সৈতে যোগাযোগ কৰাৰ আটাইতকৈ ভাল উপায় ব্যাখ্যা কৰে।" : "We read every message we receive and use the feedback to improve the question banks, notes and mock tests on axomexam.in. Whether you want to report a wrong answer, suggest a new topic, contribute questions or ask about study material, this page explains the best way to reach us."}</p>
 
           <h2>${isAs ? "ইমেইল সহায়" : "Email Support"}</h2>
-          <p>${isAs ? "যোগাযোগৰ আটাইতকৈ দ্ৰুত উপায় হ'ল" : "The fastest way to contact us is by email at"} <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a>${isAs ? " লৈ ইমেইল। আমাক উত্তৰ দিবলৈ অনুগ্ৰহ কৰি এটা বৈধ ইমেইল ঠিকনাৰ পৰা লিখক। আমি সাধাৰণতে" : ". Please write from a valid email address so that we can reply. We usually respond within"} <strong>${isAs ? "দুৰৰ পৰা তিনি কৰ্মদিৱসৰ" : "two to three working days"}</strong>${isAs ? " ভিতৰত উত্তৰ দিওঁ।" : "."}</p>
+          <p>${isAs ? "যোগাযোগৰ আটাইতকৈ দ্ৰুত উপায় হ'ল" : "The fastest way to contact us is by email at"} <a href="mailto:support@axomexam.in">support@axomexam.in</a>${isAs ? " লৈ ইমেইল। আমাক উত্তৰ দিবলৈ অনুগ্ৰহ কৰি এটা বৈধ ইমেইল ঠিকনাৰ পৰা লিখক। আমি সাধাৰণতে" : ". Please write from a valid email address so that we can reply. We usually respond within"} <strong>${isAs ? "দুৰৰ পৰা তিনি কৰ্মদিৱসৰ" : "two to three working days"}</strong>${isAs ? " ভিতৰত উত্তৰ দিওঁ।" : "."}</p>
 
-          <form id="contact-form" action="mailto:axomexam@outlook.com" method="post" enctype="text/plain" style="margin:22px 0 10px; padding:22px; border:1px solid var(--border,#e2e8f0); border-radius:16px; background:var(--card-bg,#fff);">
+          <form id="contact-form" action="mailto:support@axomexam.in" method="post" enctype="text/plain" style="margin:22px 0 10px; padding:22px; border:1px solid var(--border,#e2e8f0); border-radius:16px; background:var(--card-bg,#fff);">
             <h3 style="margin-top:0; color:var(--ink,#0f172a);">${isAs ? "আমাক এটা বাৰ্তা পঠিয়াওক" : "Send us a message"}</h3>
             <div style="margin-bottom:12px;">
               <label for="c-name" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${isAs ? "আপোনাৰ নাম" : "Your name"}</label>
@@ -3091,7 +3092,7 @@
               <textarea id="c-message" name="message" rows="5" required style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">${isAs ? "বাৰ্তা পঠিয়াওক" : "Send message"}</button>
-            <p style="font-size:0.82rem; color:#64748b; margin:10px 0 0;">${isAs ? "ই আপোনাৰ ইমেইল এপটো তথ্য ভৰাই খুলিব। যদি নুখুলে, তেন্তে পোনপটীয়াকৈ" : "This opens your email app with the details filled in. If it does not open, simply email us directly at"} <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a>${isAs ? " লৈ ইমেইল কৰক।" : "."}</p>
+            <p style="font-size:0.82rem; color:#64748b; margin:10px 0 0;">${isAs ? "ই আপোনাৰ ইমেইল এপটো তথ্য ভৰাই খুলিব। যদি নুখুলে, তেন্তে পোনপটীয়াকৈ" : "This opens your email app with the details filled in. If it does not open, simply email us directly at"} <a href="mailto:support@axomexam.in">support@axomexam.in</a>${isAs ? " লৈ ইমেইল কৰক।" : "."}</p>
           </form>
 
           <h2>${isAs ? "আপোনাৰ বাৰ্তাত কি অন্তৰ্ভুক্ত কৰিব" : "What to Include in Your Message"}</h2>
@@ -3128,7 +3129,7 @@
         const subject = (document.getElementById("c-subject") || {}).value || "Website enquiry";
         const message = (document.getElementById("c-message") || {}).value || "";
         const body = "Name: " + name + "\nEmail: " + email + "\n\n" + message;
-        window.location.href = "mailto:axomexam@outlook.com?subject=" + encodeURIComponent("[axomexam] " + subject) + "&body=" + encodeURIComponent(body);
+        window.location.href = "mailto:support@axomexam.in?subject=" + encodeURIComponent("[axomexam] " + subject) + "&body=" + encodeURIComponent(body);
       });
     }
 
@@ -5770,7 +5771,7 @@
 
         <form id="qaForm" class="form-body" style="display:flex;flex-direction:column;gap:14px;">
           <input type="hidden" name="apiKey" value="sf_304846a9720d7354070bd57c">
-          <input type="hidden" name="replyTo" value="axomexam@outlook.com">
+          <input type="hidden" name="replyTo" value="support@axomexam.in">
           <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
 
           <div class="field">
@@ -5903,11 +5904,11 @@
 
       const payload = {
         apiKey: "sf_304846a9720d7354070bd57c",
-        replyTo: "axomexam@outlook.com",
+        replyTo: "support@axomexam.in",
         name: $("#name").value.trim(),
         email: $("#email").value.trim(),
         subject: `[axomexam Submission] ${topicVal}`,
-        message: `Topic: ${topicVal}\n\nQuestion:\n${questionVal}\n\nAnswer/Message:\n${answerVal}\n\nSent to: axomexam@outlook.com`
+        message: `Topic: ${topicVal}\n\nQuestion:\n${questionVal}\n\nAnswer/Message:\n${answerVal}\n\nSent to: support@axomexam.in`
       };
 
       try {

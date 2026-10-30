@@ -751,7 +751,7 @@ ${body}
       </div>
     </div>
     <div class="footer-bottom container">
-      <p id="footer-copy">&copy; 2026 axomexam.in. All rights reserved.</p>
+      <p id="footer-copy">&copy; 2026 axomexam.in. All rights reserved. &middot; Contact: <a href="mailto:contact@axomexam.in" style="color:#38bdf8; font-weight:600;">contact@axomexam.in</a></p>
     </div>
   </footer>
 
@@ -1677,7 +1677,7 @@ const STATIC_PAGES = {
       "<h2>What We Provide</h2>" +
       "<ul><li>Complete bilingual Q&amp;A, chapter-wise notes and explanations in Assamese and English.</li><li>Interactive timed mock tests that simulate real exam environments.</li><li>Print-ready PDF notes for offline revision.</li><li>Previous year papers with verified solutions.</li></ul>" +
       "<h2>Contact &amp; Support</h2>" +
-      "<p>Reach out at <a href=\"mailto:axomexam@outlook.com\">axomexam@outlook.com</a>.</p>",
+      "<p>Reach out at <a href=\"mailto:contact@axomexam.in\">contact@axomexam.in</a>.</p>",
   },
   privacy: {
     title: "Privacy Policy",
@@ -1716,7 +1716,7 @@ const STATIC_PAGES = {
     title: "Contact Us",
     content:
       "<p>Have a question, suggestion, or correction? We would love to hear from you.</p>" +
-      "<p>Email us at <a href=\"mailto:axomexam@outlook.com\">axomexam@outlook.com</a> and our team will get back to you as soon as possible.</p>",
+      "<p>Email us at <a href=\"mailto:support@axomexam.in\">support@axomexam.in</a> and our team will get back to you as soon as possible.</p>",
   },
   submit: {
     title: "Submit Q&A",
