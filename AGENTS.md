@@ -168,12 +168,21 @@ one padded bank.
 topic, keyed by leaf sub-category id. Each block is
 `{ h2: {en,as}, p: {en:[],as:[]}, list: {en:[],as:[]}, faqs: [{q:{en,as},a:{en,as}}] }`
 and `noteArticle(topicId)` in `tools/build-adre-grade-3.js` renders it below the
-Q&A. The 12 elementary-mathematics topics each carry 1000+ words in **both**
+Q&A. The 24 elementary-mathematics topics each carry 1000+ words in **both**
 English and Assamese (measured as the words in `p` + `list` + `faqs`, and again
 on the rendered page). Keep the two languages parallel paragraph-for-paragraph
 so the EN/AS toggle stays aligned. Source blocks for those 12 live in
 `/workspace/gen/nb_*.py`; `python3 /workspace/gen/patch_notes.py` splices them
 into the notes file, replacing only the keys it defines and preserving key order.
+
+The mathematics topic tree mirrors the 23-topic practice section under
+`data/content/math/`. `basic-mensuration` is the Class 8/10 mensuration topic
+and is kept alongside the deeper `mensuration-2d` and `mensuration-3d`. The
+extra twelve topics (partnership through data-interpretation) were appended to
+the hand-formatted notes file by `/workspace/gen/splice_notes.py`, which writes
+the new keys as text blocks in the file's own style and leaves the existing keys
+byte-for-byte untouched — never re-serialise the whole file through JSON, that
+produces a multi-thousand-line diff.
 
 ### Grade III question conventions
 
@@ -187,6 +196,10 @@ into the notes file, replacing only the keys it defines and preserving key order
 - Answer-key balance: the right option should be spread over A/B/C/D rather
   than clustered on one letter. General Mathematics now sits at 36 each across
   its 144 questions.
+- The twelve added mathematics topics hold 64-164 questions each, so every topic
+  in the book carries at least 60. Numeric options (bare numbers, ratios,
+  fractions, powers) get Assamese digits in `options[].as`; options that carry
+  words or symbols such as `sqrt` and `pi` keep the same text in both languages.
 
 ### Grade III "work in progress" notice
 
