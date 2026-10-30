@@ -135,10 +135,20 @@ After a content change, run the pipeline in this order and commit the result:
 ```
 node tools/build-adre-grade-3.js
 node tools/build-question-counts.js
+node tools/sync-home-hero-count.js
 node tools/inject-static-questions.js
 node tools/enrich-thin-pages.js
 node tools/extract-deep-articles.js
 ```
+
+`tools/sync-home-hero-count.js` rewrites the homepage hero block in the
+committed root `index.html` so its question count matches the runtime
+(`topicCounts` + `examsTotal` from `data/counts.json`, plus current-affairs
+and trending questions). The root `index.html` is served as-is (prerender
+writes to the gitignored `dist/`, it does not own the homepage), so the hero
+number used to be hand-edited and drifted stale every time questions were
+added. Run it after `build-question-counts.js`; `--check` reports drift
+without writing.
 
 `enrich-thin-pages.js` rewrites the 8 hub pages the builder emits, so the
 committed state is post-enrichment. A build on top of it reports those 8 pages
