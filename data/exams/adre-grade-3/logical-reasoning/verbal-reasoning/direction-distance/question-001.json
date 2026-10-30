@@ -28,5 +28,95 @@
       "en": "Moving north and then east places him in the north-east direction.",
       "as": "উত্তৰলৈ তাৰ পিছত পূবলৈ গ'লে তেওঁ উত্তৰ-পূব দিশত থাকে।"
     }
+  },
+  {
+    "id": "direction-distance-002",
+    "q": {
+      "en": "Facing north, a person turns right. He now faces —",
+      "as": "উত্তৰলৈ মুখ কৰি থকা এজন লোকে সোঁফালে ঘূৰে। তেওঁ এতিয়া কোনফালে মুখ কৰি আছে —"
+    },
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A right turn from north leads to east.",
+      "as": "উত্তৰৰ পৰা সোঁফালে ঘূৰিলে পূব হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-003",
+    "q": {
+      "en": "A man walks 3 km south, then 4 km east. The straight-line distance from the start is —",
+      "as": "এজন মানুহে 3 কি.মি. দক্ষিণলৈ, তাৰ পিছত 4 কি.মি. পূবলৈ খোজ কাঢ়ে। আৰম্ভণিৰ পৰা চৰলৰেখাৰ দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "5 km",
+        "as": "৫ কি.মি."
+      },
+      {
+        "en": "6 km",
+        "as": "৬ কি.মি."
+      },
+      {
+        "en": "7 km",
+        "as": "৭ কি.মি."
+      },
+      {
+        "en": "12 km",
+        "as": "১২ কি.মি."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The two sides form a right angle, so the distance is the square root of 9 + 16 = 5 km.",
+      "as": "দুটা বাহুৱে সমকোণ কৰে, গতিকে দূৰত্ব 9 + 16 ৰ বৰ্গমূল = 5 কি.মি.।"
+    }
+  },
+  {
+    "id": "direction-distance-004",
+    "q": {
+      "en": "If a person faces west and turns 180 degrees, he faces —",
+      "as": "এজন লোকে পশ্চিমলৈ মুখ কৰি 180 ডিগ্ৰী ঘূৰিলে তেওঁ মুখ কৰে —"
+    },
+    "options": [
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A turn of 180 degrees reverses the direction, so west becomes east.",
+      "as": "180 ডিগ্ৰী ঘূৰিলে দিশ ওলোটা হয়, গতিকে পশ্চিম পূব হয়।"
+    }
   }
 ]

@@ -28,5 +28,95 @@
       "en": "The brother of her mother is her uncle.",
       "as": "তাইৰ মাকৰ ভাই হৈছে তাইৰ খুড়া/মামা।"
     }
+  },
+  {
+    "id": "blood-relations-002",
+    "q": {
+      "en": "A is the father of B and C is the daughter of B. How is A related to C?",
+      "as": "A হৈছে B ৰ দেউতাক আৰু C হৈছে B ৰ জীয়েক। A, C ৰ কিদৰে সম্পৰ্কীয়?"
+    },
+    "options": [
+      {
+        "en": "Father",
+        "as": "দেউতাক"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুড়া"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is the father of B, so A is the grandfather of C.",
+      "as": "A হৈছে B ৰ দেউতাক, গতিকে A হৈছে C ৰ ককাক।"
+    }
+  },
+  {
+    "id": "blood-relations-003",
+    "q": {
+      "en": "My mother's only son is —",
+      "as": "মোৰ মাকৰ একমাত্ৰ পুত্ৰ হৈছে —"
+    },
+    "options": [
+      {
+        "en": "my cousin",
+        "as": "মোৰ সম্বন্ধীয় ভাই"
+      },
+      {
+        "en": "my brother",
+        "as": "মোৰ ভাই"
+      },
+      {
+        "en": "myself",
+        "as": "মই নিজে"
+      },
+      {
+        "en": "my uncle",
+        "as": "মোৰ খুড়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "My mother's only son is myself, if I am the only son.",
+      "as": "মই যদি একমাত্ৰ পুত্ৰ হওঁ, তেন্তে মোৰ মাকৰ একমাত্ৰ পুত্ৰ হৈছে মই নিজে।"
+    }
+  },
+  {
+    "id": "blood-relations-004",
+    "q": {
+      "en": "The daughter of my uncle is my —",
+      "as": "মোৰ খুড়াৰ জীয়েক হৈছে মোৰ —"
+    },
+    "options": [
+      {
+        "en": "sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "cousin",
+        "as": "সম্বন্ধীয় ভনী"
+      },
+      {
+        "en": "niece",
+        "as": "ভাগিনী"
+      },
+      {
+        "en": "aunt",
+        "as": "পেহী/মাহী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The daughter of an uncle is a cousin.",
+      "as": "খুড়াৰ জীয়েক হৈছে সম্বন্ধীয় ভনী।"
+    }
   }
 ]

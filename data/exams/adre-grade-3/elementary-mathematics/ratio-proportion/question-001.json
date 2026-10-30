@@ -28,5 +28,95 @@
       "en": "The parts are 3x and 5x; 8x = 64 gives x = 8, so the smaller number is 24.",
       "as": "অংশবোৰ 3x আৰু 5x; 8x = 64 ৰ পৰা x = 8, গতিকে সৰু সংখ্যা 24।"
     }
+  },
+  {
+    "id": "ratio-proportion-002",
+    "q": {
+      "en": "The ratio 15 : 25 in its lowest terms is —",
+      "as": "15 : 25 অনুপাতৰ লঘিষ্ঠ ৰূপ —"
+    },
+    "options": [
+      {
+        "en": "5 : 3",
+        "as": "৫ : ৩"
+      },
+      {
+        "en": "3 : 5",
+        "as": "৩ : ৫"
+      },
+      {
+        "en": "15 : 25",
+        "as": "১৫ : ২৫"
+      },
+      {
+        "en": "1 : 5",
+        "as": "১ : ৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dividing both terms by their HCF 5 gives 3 : 5.",
+      "as": "দুয়োটা পদক গ.সা.উ. 5 ৰে ভাগ কৰিলে 3 : 5 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "ratio-proportion-003",
+    "q": {
+      "en": "If 5 pens cost ₹40, the cost of 8 pens is —",
+      "as": "5 টা কলমৰ দাম ₹40 হ'লে 8 টা কলমৰ দাম —"
+    },
+    "options": [
+      {
+        "en": "₹56",
+        "as": "₹৫৬"
+      },
+      {
+        "en": "₹60",
+        "as": "₹৬০"
+      },
+      {
+        "en": "₹64",
+        "as": "₹৬৪"
+      },
+      {
+        "en": "₹72",
+        "as": "₹৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One pen costs ₹8, so 8 pens cost ₹64.",
+      "as": "এটা কলমৰ দাম ₹8, গতিকে 8 টা কলমৰ দাম ₹64।"
+    }
+  },
+  {
+    "id": "ratio-proportion-004",
+    "q": {
+      "en": "If a : b = 2 : 3 and b : c = 3 : 4, then a : c is —",
+      "as": "a : b = 2 : 3 আৰু b : c = 3 : 4 হ'লে a : c —"
+    },
+    "options": [
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "2 : 4",
+        "as": "২ : ৪"
+      },
+      {
+        "en": "1 : 1",
+        "as": "১ : ১"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The b terms match, so a : c = 2 : 4 = 1 : 2.",
+      "as": "b ৰ পদ মিলে, গতিকে a : c = 2 : 4 = 1 : 2।"
+    }
   }
 ]

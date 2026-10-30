@@ -28,5 +28,95 @@
       "en": "Extending the lines that meet the missing part shows what the piece must look like.",
       "as": "নোহোৱা অংশৰ লগত লগা ৰেখাবোৰ আগবঢ়ালে টুকুৰাটো কেনেকুৱা হ'ব লাগে দেখা যায়।"
     }
+  },
+  {
+    "id": "pattern-completion-002",
+    "q": {
+      "en": "In pattern completion, the correct option must match the —",
+      "as": "আৰ্হি পূৰণত শুদ্ধ বিকল্পই মিলিব লাগে —"
+    },
+    "options": [
+      {
+        "en": "colour only",
+        "as": "কেৱল ৰঙৰ লগত"
+      },
+      {
+        "en": "lines, curves and shading of the surroundings",
+        "as": "চাৰিওফালৰ ৰেখা, বক্ৰৰেখা আৰু ৰঙৰ লগত"
+      },
+      {
+        "en": "size of the page",
+        "as": "পৃষ্ঠাৰ আকাৰৰ লগত"
+      },
+      {
+        "en": "number of options",
+        "as": "বিকল্পৰ সংখ্যাৰ লগত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The piece must match the lines, curves and shading of the surrounding figure.",
+      "as": "টুকুৰাটোৱে চাৰিওফালৰ চিত্ৰৰ ৰেখা, বক্ৰৰেখা আৰু ৰঙৰ লগত মিলিব লাগে।"
+    }
+  },
+  {
+    "id": "pattern-completion-003",
+    "q": {
+      "en": "Checking which part of a missing piece helps to eliminate wrong options?",
+      "as": "নোহোৱা টুকুৰাৰ কোন অংশ পৰীক্ষা কৰিলে ভুল বিকল্প আঁতৰাব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "The middle",
+        "as": "মাজ"
+      },
+      {
+        "en": "The corners",
+        "as": "চুক"
+      },
+      {
+        "en": "The colour name",
+        "as": "ৰঙৰ নাম"
+      },
+      {
+        "en": "The label",
+        "as": "লেবেল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Checking the corners of the empty space eliminates most wrong options quickly.",
+      "as": "ৰিক্ত ঠাইৰ চুকবোৰ পৰীক্ষা কৰিলে বেছিভাগ ভুল বিকল্প দ্ৰুতভাৱে আঁতৰি যায়।"
+    }
+  },
+  {
+    "id": "pattern-completion-004",
+    "q": {
+      "en": "A pattern completion option that breaks the flow of lines is —",
+      "as": "ৰেখাৰ প্ৰবাহ ভঙা এটা আৰ্হি পূৰণৰ বিকল্প —"
+    },
+    "options": [
+      {
+        "en": "correct",
+        "as": "শুদ্ধ"
+      },
+      {
+        "en": "incorrect",
+        "as": "অশুদ্ধ"
+      },
+      {
+        "en": "always correct",
+        "as": "সদায় শুদ্ধ"
+      },
+      {
+        "en": "cannot be judged",
+        "as": "বিচাৰ কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An option that breaks the flow of lines cannot be the correct one.",
+      "as": "ৰেখাৰ প্ৰবাহ ভঙা বিকল্প শুদ্ধ হ'ব নোৱাৰে।"
+    }
   }
 ]

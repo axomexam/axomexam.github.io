@@ -3,9 +3,9 @@
 /* ============================================================
    axomexam — tools/adre-grade-3.questions.js
    Question banks for the ADRE 3.0 Grade III book, keyed by leaf
-   sub-category id. Every topic carries one question file per
-   question; tools/build-adre-grade-3.js writes each entry as
-   data/exams/adre-grade-3/<section>/<topic>/question-NNN.json.
+   sub-category id. Each topic's whole bank is written as a single
+   array by tools/build-adre-grade-3.js to
+   data/exams/adre-grade-3/<section>/<topic>/question-001.json.
    Shape of one question:
      {
        id, q: {en, as},

@@ -13,10 +13,13 @@
      data/exams/adre-grade-3/syllabus.json
      data/exams/adre-grade-3/<section>.json
      data/exams/adre-grade-3/<sec>/<sub>/index.json
-     data/exams/adre-grade-3/<sec>/<sub>/question-NNN.json
+     data/exams/adre-grade-3/<sec>/<sub>/question-001.json
      exams/adre-grade-3/index.html
      exams/adre-grade-3/<section>/index.html
      exams/adre-grade-3/<sec>/<sub>/index.html
+
+   Like data/exams/adre-grade-4, each topic keeps its whole bank in a
+   single question-001.json; index.json is only the manifest.
 
    Usage:
      node tools/build-adre-grade-3.js
@@ -65,6 +68,32 @@ function write(rel, content) {
 
 function writeJSON(rel, obj) {
   write(rel, JSON.stringify(obj, null, 2));
+}
+
+function removeFile(rel) {
+  const abs = path.join(ROOT, rel);
+  try { fs.rmSync(abs); } catch (e) {}
+}
+
+/* Names of the question-*.json files already on disk for a topic, sorted so
+   question-010.json follows question-009.json rather than question-002.json. */
+function listQuestionFiles(rel) {
+  try {
+    return fs.readdirSync(path.join(ROOT, rel))
+      .filter((n) => /^question-.*\.json$/i.test(n))
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
+  } catch (e) {
+    return [];
+  }
+}
+
+function readQuestions(rel) {
+  try {
+    const d = JSON.parse(fs.readFileSync(path.join(ROOT, rel), "utf8"));
+    if (Array.isArray(d)) return d.filter((q) => q && typeof q === "object");
+    if (d && typeof d === "object") return [d];
+  } catch (e) {}
+  return [];
 }
 
 /* JSON in the style of data/exams/index.json: objects whose values are all
@@ -355,15 +384,33 @@ for (const sec of EXAM.sections) {
   }
 }
 
+/* One question file per topic, holding the whole bank as an array — the same
+   layout data/exams/adre-grade-4 uses. Anything a previous build left behind
+   as a per-question split (question-002.json, question-003.json, ...) is
+   removed, but a file that carries a question id not present in the bank is
+   treated as a hand-added extra and kept. */
 for (const item of leaves) {
   const parts = [item.sec.id, ...(item.group ? [item.group.id] : []), item.leaf.id];
   const rel = ["data", "exams", EXAM.id, ...parts].join("/");
   const bank = QUESTIONS[item.leaf.id] || [];
-  const files = bank.map((q, i) => {
-    const name = `question-${String(i + 1).padStart(3, "0")}.json`;
-    writeJSON(`${rel}/${name}`, [q]);
-    return name;
-  });
+  const primary = "question-001.json";
+  writeJSON(`${rel}/${primary}`, bank);
+
+  const ids = new Set(bank.map((q) => q && q.id).filter(Boolean));
+  const files = [primary];
+  for (const name of listQuestionFiles(rel)) {
+    if (name === primary) continue;
+    const extra = readQuestions(`${rel}/${name}`);
+    const isLeftoverSplit =
+      extra.length > 0 && extra.every((q) => q && q.id && ids.has(q.id));
+    if (isLeftoverSplit) {
+      if (!DRY) removeFile(`${rel}/${name}`);
+      written++;
+    } else {
+      files.push(name);
+    }
+  }
+  files.sort();
   writeJSON(`${rel}/index.json`, { subcategory: item.leaf.id, files });
 }
 
@@ -773,9 +820,8 @@ data/exams/adre-grade-3/
   syllabus.json                       <- syllabus notes (section type: syllabus)
   <section>.json                      <- section landing data (e.g. elementary-mathematics.json)
   <section>/<topic>/
-    index.json                        <- manifest listing the question files (fallback copy)
-    question-001.json                 <- question bank file 1
-    question-002.json                 <- add more files as question-002, question-003 ...
+    index.json                        <- manifest listing the question files
+    question-001.json                 <- the whole question bank for the topic
   <section>/<group>/<topic>/          <- for topics that sit inside a group
     index.json
     question-001.json
@@ -784,26 +830,28 @@ data/exams/adre-grade-3/
 ## Rules
 
 1. Upload questions **only** inside the exact topic folder shown in the table below.
-2. Every new file must be named \`question-002.json\`, \`question-003.json\`, ... (keep the number rising).
-3. Do not put questions in \`index.json\`. That file is only a manifest; update its \`"files"\` array when you add a new file.
-4. A question file may contain one question object, or an array \`[ ... ]\` of question objects.
+2. Keep the whole bank for a topic in its single \`question-001.json\`. One topic, one file — exactly like \`data/exams/adre-grade-4\`. Add \`question-002.json\` and upward only if a topic genuinely needs a second file, and then list it in \`index.json\`'s \`"files"\` array.
+3. Do not put questions in \`index.json\`. That file is only a manifest.
+4. A question file holds an array \`[ ... ]\` of question objects.
 5. Every question needs bilingual \`en\` and \`as\` text for \`q\`, each option and the \`explanation\`. \`correct\` is the 0-based index of the right option.
 
 ### Sample question file
 
 \`\`\`json
-{
-  "id": "synonyms-antonyms-002",
-  "q": { "en": "...", "as": "..." },
-  "options": [
-    { "en": "...", "as": "..." },
-    { "en": "...", "as": "..." },
-    { "en": "...", "as": "..." },
-    { "en": "...", "as": "..." }
-  ],
-  "correct": 0,
-  "explanation": { "en": "...", "as": "..." }
-}
+[
+  {
+    "id": "synonyms-antonyms-002",
+    "q": { "en": "...", "as": "..." },
+    "options": [
+      { "en": "...", "as": "..." },
+      { "en": "...", "as": "..." },
+      { "en": "...", "as": "..." },
+      { "en": "...", "as": "..." }
+    ],
+    "correct": 0,
+    "explanation": { "en": "...", "as": "..." }
+  }
+]
 \`\`\`
 
 ## Where to upload — section & topic wise

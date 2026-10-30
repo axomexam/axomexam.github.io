@@ -28,5 +28,95 @@
       "en": "The conclusion follows directly from the two statements.",
       "as": "সিদ্ধান্ত দুটা বিবৃতিৰ পৰা পোনপটীয়াকৈ ওলায়।"
     }
+  },
+  {
+    "id": "syllogism-002",
+    "q": {
+      "en": "Statements: All roses are flowers. Some flowers fade quickly. Conclusion: Some roses fade quickly.",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান ফুল সোনকালে শুকাই যায়। সিদ্ধান্ত: কিছুমান গোলাপ সোনকালে শুকাই যায়।"
+    },
+    "options": [
+      {
+        "en": "Follows",
+        "as": "ওলায়"
+      },
+      {
+        "en": "Does not follow",
+        "as": "ওলাই নাযায়"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "None of these",
+        "as": "এটাও নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The fading flowers need not be roses, so the conclusion does not follow.",
+      "as": "শুকাই যোৱা ফুলবোৰ গোলাপ নহ'বও পাৰে, গতিকে সিদ্ধান্ত ওলাই নাযায়।"
+    }
+  },
+  {
+    "id": "syllogism-003",
+    "q": {
+      "en": "Statements: No cat is a dog. All dogs are animals. Conclusion: No cat is an animal.",
+      "as": "বিবৃতি: কোনো মেকুৰী কুকুৰ নহয়। সকলো কুকুৰ প্ৰাণী। সিদ্ধান্ত: কোনো মেকুৰী প্ৰাণী নহয়।"
+    },
+    "options": [
+      {
+        "en": "Follows",
+        "as": "ওলায়"
+      },
+      {
+        "en": "Does not follow",
+        "as": "ওলাই নাযায়"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "None of these",
+        "as": "এটাও নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cats may still be animals other than dogs, so the conclusion does not follow.",
+      "as": "মেকুৰী কুকুৰৰ বাহিৰে আন প্ৰাণীও হ'ব পাৰে, গতিকে সিদ্ধান্ত ওলাই নাযায়।"
+    }
+  },
+  {
+    "id": "syllogism-004",
+    "q": {
+      "en": "Statements: All students are hardworking. Rina is a student. Conclusion: Rina is hardworking.",
+      "as": "বিবৃতি: সকলো ছাত্ৰ পৰিশ্ৰমী। ৰীনা এগৰাকী ছাত্ৰী। সিদ্ধান্ত: ৰীনা পৰিশ্ৰমী।"
+    },
+    "options": [
+      {
+        "en": "Follows",
+        "as": "ওলায়"
+      },
+      {
+        "en": "Does not follow",
+        "as": "ওলাই নাযায়"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "None of these",
+        "as": "এটাও নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The conclusion follows directly from the two statements.",
+      "as": "সিদ্ধান্ত দুটা বিবৃতিৰ পৰা পোনপটীয়াকৈ ওলায়।"
+    }
   }
 ]

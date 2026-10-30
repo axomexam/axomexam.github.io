@@ -28,5 +28,95 @@
       "en": "The terms increase by 2 each time, so the next term is 10.",
       "as": "পদবোৰ প্ৰতিবাৰ 2 ৰে বাঢ়ে, গতিকে পিছৰ পদ 10।"
     }
+  },
+  {
+    "id": "number-alphabet-series-002",
+    "q": {
+      "en": "Find the next term: 3, 9, 27, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 3, 9, 27, ?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term is multiplied by 3, so the next term is 81.",
+      "as": "প্ৰতিটো পদ 3 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 81।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-003",
+    "q": {
+      "en": "Find the next letter: A, C, E, G, ?",
+      "as": "পিছৰ আখৰটো বিচাৰক: A, C, E, G, ?"
+    },
+    "options": [
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Every alternate letter is taken, so after G comes I.",
+      "as": "প্ৰতি দ্বিতীয় আখৰ লোৱা হয়, গতিকে G ৰ পিছত I আহে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-004",
+    "q": {
+      "en": "Find the missing term: 1, 4, 9, 16, ?",
+      "as": "নোহোৱা পদটো বিচাৰক: 1, 4, 9, 16, ?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "These are the squares of 1, 2, 3, 4, so the next is 5 squared = 25.",
+      "as": "এইবোৰ 1, 2, 3, 4 ৰ বৰ্গ, গতিকে পিছৰটো 5 ৰ বৰ্গ = 25।"
+    }
   }
 ]

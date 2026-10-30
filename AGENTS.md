@@ -113,6 +113,13 @@ reference for a book that is not a copy of an existing one:
 - Content lives in `tools/adre-grade-3.structure.js` (sections, sub-category
   tree, syllabus, notes) and `tools/adre-grade-3.questions.js` (question bank
   keyed by leaf id). The builder derives everything else.
+- One topic, one question file. Every topic keeps its whole bank in a single
+  `question-001.json` as an array, exactly like `data/exams/adre-grade-4` and
+  `data/exams/assam-police`; `index.json` is only the manifest. Do not split a
+  topic into `question-002.json`, `question-003.json`, ... — the builder writes
+  the whole bank to `question-001.json` and prunes any per-question leftovers
+  from an older build (it keeps a numbered file only if it holds a question id
+  the bank does not have, so hand-added extras survive).
 - The page chrome (head, fonts, footer, guard script) is copied from a Grade IV
   leaf page, so keep that file's structure intact if you touch either book.
 - `data/exams/index.json` is hand-formatted with compact one-line sub-category

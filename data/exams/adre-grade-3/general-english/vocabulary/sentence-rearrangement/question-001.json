@@ -28,5 +28,95 @@
       "en": "The subject comes first, so the order is the boy, is reading, a book.",
       "as": "কৰ্তা প্ৰথমে আহে, গতিকে ক্ৰম the boy, is reading, a book।"
     }
+  },
+  {
+    "id": "sentence-rearrangement-002",
+    "q": {
+      "en": "Arrange: (P) in the garden (Q) the children (R) are playing",
+      "as": "সজাওক: (P) in the garden (Q) the children (R) are playing"
+    },
+    "options": [
+      {
+        "en": "PRQ",
+        "as": "PRQ"
+      },
+      {
+        "en": "QPR",
+        "as": "QPR"
+      },
+      {
+        "en": "QRP",
+        "as": "QRP"
+      },
+      {
+        "en": "RQP",
+        "as": "RQP"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The subject and verb come first, then the place phrase.",
+      "as": "কৰ্তা আৰু ক্ৰিয়া প্ৰথমে আহে, তাৰ পিছত স্থানৰ বাক্যাংশ।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-003",
+    "q": {
+      "en": "Arrange: (P) because it was raining (Q) we stayed at home (R) all day",
+      "as": "সজাওক: (P) because it was raining (Q) we stayed at home (R) all day"
+    },
+    "options": [
+      {
+        "en": "PQR",
+        "as": "PQR"
+      },
+      {
+        "en": "QRP",
+        "as": "QRP"
+      },
+      {
+        "en": "RQP",
+        "as": "RQP"
+      },
+      {
+        "en": "QPR",
+        "as": "QPR"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The main clause comes first and the reason follows.",
+      "as": "মূল খণ্ডবাক্য প্ৰথমে আহে আৰু কাৰণ পিছত আহে।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-004",
+    "q": {
+      "en": "Arrange: (P) is the capital (Q) Dispur (R) of Assam",
+      "as": "সজাওক: (P) is the capital (Q) Dispur (R) of Assam"
+    },
+    "options": [
+      {
+        "en": "PQR",
+        "as": "PQR"
+      },
+      {
+        "en": "QPR",
+        "as": "QPR"
+      },
+      {
+        "en": "QRP",
+        "as": "QRP"
+      },
+      {
+        "en": "RPQ",
+        "as": "RPQ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The subject Dispur comes first, then the verb phrase.",
+      "as": "কৰ্তা Dispur প্ৰথমে আহে, তাৰ পিছত ক্ৰিয়া বাক্যাংশ।"
+    }
   }
 ]

@@ -10,9 +10,8 @@ data/exams/adre-grade-3/
   syllabus.json                       <- syllabus notes (section type: syllabus)
   <section>.json                      <- section landing data (e.g. elementary-mathematics.json)
   <section>/<topic>/
-    index.json                        <- manifest listing the question files (fallback copy)
-    question-001.json                 <- question bank file 1
-    question-002.json                 <- add more files as question-002, question-003 ...
+    index.json                        <- manifest listing the question files
+    question-001.json                 <- the whole question bank for the topic
   <section>/<group>/<topic>/          <- for topics that sit inside a group
     index.json
     question-001.json
@@ -21,26 +20,28 @@ data/exams/adre-grade-3/
 ## Rules
 
 1. Upload questions **only** inside the exact topic folder shown in the table below.
-2. Every new file must be named `question-002.json`, `question-003.json`, ... (keep the number rising).
-3. Do not put questions in `index.json`. That file is only a manifest; update its `"files"` array when you add a new file.
-4. A question file may contain one question object, or an array `[ ... ]` of question objects.
+2. Keep the whole bank for a topic in its single `question-001.json`. One topic, one file — exactly like `data/exams/adre-grade-4`. Add `question-002.json` and upward only if a topic genuinely needs a second file, and then list it in `index.json`'s `"files"` array.
+3. Do not put questions in `index.json`. That file is only a manifest.
+4. A question file holds an array `[ ... ]` of question objects.
 5. Every question needs bilingual `en` and `as` text for `q`, each option and the `explanation`. `correct` is the 0-based index of the right option.
 
 ### Sample question file
 
 ```json
-{
-  "id": "synonyms-antonyms-002",
-  "q": { "en": "...", "as": "..." },
-  "options": [
-    { "en": "...", "as": "..." },
-    { "en": "...", "as": "..." },
-    { "en": "...", "as": "..." },
-    { "en": "...", "as": "..." }
-  ],
-  "correct": 0,
-  "explanation": { "en": "...", "as": "..." }
-}
+[
+  {
+    "id": "synonyms-antonyms-002",
+    "q": { "en": "...", "as": "..." },
+    "options": [
+      { "en": "...", "as": "..." },
+      { "en": "...", "as": "..." },
+      { "en": "...", "as": "..." },
+      { "en": "...", "as": "..." }
+    ],
+    "correct": 0,
+    "explanation": { "en": "...", "as": "..." }
+  }
+]
 ```
 
 ## Where to upload — section & topic wise

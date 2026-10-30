@@ -28,5 +28,95 @@
       "en": "Taking the whole work as one, one day's work is 1/10.",
       "as": "গোটেই কাম এক ধৰিলে এদিনৰ কাম 1/10।"
     }
+  },
+  {
+    "id": "time-work-002",
+    "q": {
+      "en": "A does a work in 12 days and B in 6 days. Working together they finish it in —",
+      "as": "A এ 12 দিনত আৰু B এ 6 দিনত কাম কৰে। একেলগে শেষ কৰে —"
+    },
+    "options": [
+      {
+        "en": "3 days",
+        "as": "3 দিন"
+      },
+      {
+        "en": "4 days",
+        "as": "4 দিন"
+      },
+      {
+        "en": "6 days",
+        "as": "6 দিন"
+      },
+      {
+        "en": "9 days",
+        "as": "9 দিন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One day's work is 1/12 + 1/6 = 1/4, so together they need 4 days.",
+      "as": "এদিনৰ কাম 1/12 + 1/6 = 1/4, গতিকে একেলগে 4 দিন লাগে।"
+    }
+  },
+  {
+    "id": "time-work-003",
+    "q": {
+      "en": "If 6 men can do a work in 8 days, 12 men can do it in —",
+      "as": "6 জনে 8 দিনত কাম কৰিলে 12 জনে কৰিব —"
+    },
+    "options": [
+      {
+        "en": "2 days",
+        "as": "2 দিন"
+      },
+      {
+        "en": "4 days",
+        "as": "4 দিন"
+      },
+      {
+        "en": "6 days",
+        "as": "6 দিন"
+      },
+      {
+        "en": "16 days",
+        "as": "16 দিন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Men and days are in inverse proportion, so 6 × 8 = 12 × 4, that is 4 days.",
+      "as": "মানুহ আৰু দিন ব্যস্ত সমানুপাতত, গতিকে 6 × 8 = 12 × 4, অৰ্থাৎ 4 দিন।"
+    }
+  },
+  {
+    "id": "time-work-004",
+    "q": {
+      "en": "When two persons work together, their one-day rates are —",
+      "as": "দুজন লোকে একেলগে কাম কৰিলে তেওঁলোকৰ এদিনৰ হাৰ —"
+    },
+    "options": [
+      {
+        "en": "subtracted",
+        "as": "বিয়োগ কৰা হয়"
+      },
+      {
+        "en": "added",
+        "as": "যোগ কৰা হয়"
+      },
+      {
+        "en": "multiplied",
+        "as": "পূৰণ কৰা হয়"
+      },
+      {
+        "en": "ignored",
+        "as": "আওকাণ কৰা হয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The combined rate is the sum of the individual one-day rates.",
+      "as": "সংযুক্ত হাৰ হৈছে ব্যক্তিগত এদিনৰ হাৰবোৰৰ সমষ্টি।"
+    }
   }
 ]

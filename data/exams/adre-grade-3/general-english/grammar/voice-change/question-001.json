@@ -28,5 +28,95 @@
       "en": "The object becomes the subject and the verb becomes is plus the past participle written.",
       "as": "কৰ্ম কৰ্তা হয় আৰু ক্ৰিয়া is আৰু অতীত কৃদন্ত written হয়।"
     }
+  },
+  {
+    "id": "voice-change-002",
+    "q": {
+      "en": "Change to passive: She sang a song.",
+      "as": "কৰ্মবাচ্যলৈ সলাওক: She sang a song."
+    },
+    "options": [
+      {
+        "en": "A song is sung by her.",
+        "as": "A song is sung by her."
+      },
+      {
+        "en": "A song was sung by her.",
+        "as": "A song was sung by her."
+      },
+      {
+        "en": "A song was sang by her.",
+        "as": "A song was sang by her."
+      },
+      {
+        "en": "A song sung by her.",
+        "as": "A song sung by her."
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The past tense becomes was with the past participle sung.",
+      "as": "অতীত কাল was আৰু অতীত কৃদন্ত sung হয়।"
+    }
+  },
+  {
+    "id": "voice-change-003",
+    "q": {
+      "en": "Change to passive: They will finish the work.",
+      "as": "কৰ্মবাচ্যলৈ সলাওক: They will finish the work."
+    },
+    "options": [
+      {
+        "en": "The work will be finished by them.",
+        "as": "The work will be finished by them."
+      },
+      {
+        "en": "The work will finished by them.",
+        "as": "The work will finished by them."
+      },
+      {
+        "en": "The work is finished by them.",
+        "as": "The work is finished by them."
+      },
+      {
+        "en": "The work was finished by them.",
+        "as": "The work was finished by them."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With will the passive is will be plus the past participle.",
+      "as": "Will ৰ সৈতে কৰ্মবাচ্য will be আৰু অতীত কৃদন্তৰে হয়।"
+    }
+  },
+  {
+    "id": "voice-change-004",
+    "q": {
+      "en": "Which sentence is in the passive voice?",
+      "as": "কোনটো বাক্য কৰ্মবাচ্যত আছে?"
+    },
+    "options": [
+      {
+        "en": "Rama killed Ravana.",
+        "as": "Rama killed Ravana."
+      },
+      {
+        "en": "Ravana was killed by Rama.",
+        "as": "Ravana was killed by Rama."
+      },
+      {
+        "en": "Rama is killing Ravana.",
+        "as": "Rama is killing Ravana."
+      },
+      {
+        "en": "Rama will kill Ravana.",
+        "as": "Rama will kill Ravana."
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a passive sentence the subject receives the action.",
+      "as": "কৰ্মবাচ্যৰ বাক্যত কৰ্তাই ক্ৰিয়া গ্ৰহণ কৰে।"
+    }
   }
 ]

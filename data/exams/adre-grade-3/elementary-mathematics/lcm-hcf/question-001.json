@@ -28,5 +28,95 @@
       "en": "The common factors of 12 and 18 are 1, 2, 3 and 6, so the HCF is 6.",
       "as": "12 আৰু 18 ৰ সাধাৰণ উৎপাদক 1, 2, 3 আৰু 6, গতিকে গ.সা.উ. 6।"
     }
+  },
+  {
+    "id": "lcm-hcf-002",
+    "q": {
+      "en": "The LCM of 4 and 6 is —",
+      "as": "4 আৰু 6 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest common multiple of 4 and 6 is 12.",
+      "as": "4 আৰু 6 ৰ আটাইতকৈ সৰু সাধাৰণ গুণিতক 12।"
+    }
+  },
+  {
+    "id": "lcm-hcf-003",
+    "q": {
+      "en": "If the HCF of two numbers is 4 and their LCM is 24, the product of the numbers is —",
+      "as": "দুটা সংখ্যাৰ গ.সা.উ. 4 আৰু ল.সা.গু. 24 হ'লে গুণফল —"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "HCF × LCM = 4 × 24 = 96.",
+      "as": "গ.সা.উ. × ল.সা.গু. = 4 × 24 = 96।"
+    }
+  },
+  {
+    "id": "lcm-hcf-004",
+    "q": {
+      "en": "The LCM of two co-prime numbers is —",
+      "as": "দুটা সহ-মৌলিক সংখ্যাৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "their sum",
+        "as": "তেওঁলোকৰ যোগফল"
+      },
+      {
+        "en": "their product",
+        "as": "তেওঁলোকৰ গুণফল"
+      },
+      {
+        "en": "one",
+        "as": "এক"
+      },
+      {
+        "en": "their difference",
+        "as": "তেওঁলোকৰ পাৰ্থক্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two co-prime numbers have no common factor, so their LCM is their product.",
+      "as": "দুটা সহ-মৌলিক সংখ্যাৰ সাধাৰণ উৎপাদক নাই, গতিকে ল.সা.গু. গুণফল।"
+    }
   }
 ]

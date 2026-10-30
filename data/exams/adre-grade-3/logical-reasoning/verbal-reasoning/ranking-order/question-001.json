@@ -28,5 +28,95 @@
       "en": "Total = 7 + 5 − 1 = 11.",
       "as": "মুঠ = 7 + 5 − 1 = 11।"
     }
+  },
+  {
+    "id": "ranking-order-002",
+    "q": {
+      "en": "In a class, Sita is 10th from the top and 20th from the bottom. How many students are there?",
+      "as": "এখন শ্ৰেণীত সীতা ওপৰৰ পৰা ১০ম আৰু তলৰ পৰা ২০তম। মুঠ কিমানজন ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 10 + 20 − 1 = 29.",
+      "as": "মুঠ = 10 + 20 − 1 = 29।"
+    }
+  },
+  {
+    "id": "ranking-order-003",
+    "q": {
+      "en": "If Anil is 5th from the left in a row of 12, his position from the right is —",
+      "as": "12 জনৰ এটা শাৰীত অনিল বাওঁৰ পৰা ৫ম হ'লে সোঁৰ পৰা তেওঁৰ স্থান —"
+    },
+    "options": [
+      {
+        "en": "6th",
+        "as": "৬ষ্ঠ"
+      },
+      {
+        "en": "7th",
+        "as": "৭ম"
+      },
+      {
+        "en": "8th",
+        "as": "৮ম"
+      },
+      {
+        "en": "9th",
+        "as": "৯ম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Position from the right = 12 − 5 + 1 = 8th.",
+      "as": "সোঁৰ পৰা স্থান = 12 − 5 + 1 = ৮ম।"
+    }
+  },
+  {
+    "id": "ranking-order-004",
+    "q": {
+      "en": "In a row of 20, Mohan is 12th from the left. His position from the right is —",
+      "as": "20 জনৰ এটা শাৰীত মোহন বাওঁৰ পৰা ১২তম। সোঁৰ পৰা তেওঁৰ স্থান —"
+    },
+    "options": [
+      {
+        "en": "8th",
+        "as": "৮ম"
+      },
+      {
+        "en": "9th",
+        "as": "৯ম"
+      },
+      {
+        "en": "10th",
+        "as": "১০ম"
+      },
+      {
+        "en": "11th",
+        "as": "১১তম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Position from the right = 20 − 12 + 1 = 9th.",
+      "as": "সোঁৰ পৰা স্থান = 20 − 12 + 1 = ৯ম।"
+    }
   }
 ]

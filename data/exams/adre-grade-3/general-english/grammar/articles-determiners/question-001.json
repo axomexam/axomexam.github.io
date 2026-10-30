@@ -28,5 +28,95 @@
       "en": "Hour begins with a vowel sound, so an is used.",
       "as": "Hour স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে an ব্যৱহাৰ হয়।"
     }
+  },
+  {
+    "id": "articles-determiners-002",
+    "q": {
+      "en": "He is — honest man.",
+      "as": "তেওঁ — সৎ মানুহ।"
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো আৰ্টিকল নাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The h in honest is silent, so the word begins with a vowel sound.",
+      "as": "Honest ৰ h নীৰৱ, গতিকে শব্দটো স্বৰধ্বনিৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-003",
+    "q": {
+      "en": "— Ganga is a holy river.",
+      "as": "— গংগা এটা পবিত্ৰ নদী।"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      },
+      {
+        "en": "No article",
+        "as": "কোনো আৰ্টিকল নাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The definite article the is used before the names of rivers.",
+      "as": "নদীৰ নামৰ আগত নিৰ্দিষ্ট আৰ্টিকল the ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-004",
+    "q": {
+      "en": "Choose the correct sentence.",
+      "as": "শুদ্ধ বাক্যটো বাছনি কৰক।"
+    },
+    "options": [
+      {
+        "en": "He is a university student.",
+        "as": "He is a university student."
+      },
+      {
+        "en": "He is an university student.",
+        "as": "He is an university student."
+      },
+      {
+        "en": "He is the university student.",
+        "as": "He is the university student."
+      },
+      {
+        "en": "He is university student.",
+        "as": "He is university student."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "University begins with the consonant sound y, so a is correct.",
+      "as": "University ব্যঞ্জনধ্বনি y ৰে আৰম্ভ হয়, গতিকে a শুদ্ধ।"
+    }
   }
 ]
