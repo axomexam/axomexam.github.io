@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "data-interpretation-001",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "750",
+        "as": "৭৫০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "760",
+        "as": "৭৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 120 + 150 + 180 + 90 + 210 = 750.",
+      "as": "মুঠ = 120 + 150 + 180 + 90 + 210 = 750।"
+    }
+  },
+  {
+    "id": "data-interpretation-002",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "750",
+        "as": "৭৫০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 750 / 5 = 150.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 750 / 5 = 150।"
+    }
+  },
+  {
+    "id": "data-interpretation-003",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 210 - 90 = 120.",
+      "as": "পাৰ্থক্য = 210 - 90 = 120।"
+    }
+  },
+  {
+    "id": "data-interpretation-004",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "33%",
+        "as": "৩৩%"
+      },
+      {
+        "en": "28%",
+        "as": "২৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 210, total = 750, so the share = (210/750) x 100 = 28%.",
+      "as": "সৰ্বাধিক = 210, মুঠ = 750, গতিকে ভাগ = (210/750) x 100 = 28%।"
+    }
+  },
+  {
+    "id": "data-interpretation-005",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "1250",
+        "as": "১২৫০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "1260",
+        "as": "১২৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 200 + 250 + 300 + 150 + 350 = 1250.",
+      "as": "মুঠ = 200 + 250 + 300 + 150 + 350 = 1250।"
+    }
+  },
+  {
+    "id": "data-interpretation-006",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "1250",
+        "as": "১২৫০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "260",
+        "as": "২৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 1250 / 5 = 250.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 1250 / 5 = 250।"
+    }
+  },
+  {
+    "id": "data-interpretation-007",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 350 - 150 = 200.",
+      "as": "পাৰ্থক্য = 350 - 150 = 200।"
+    }
+  },
+  {
+    "id": "data-interpretation-008",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "33%",
+        "as": "৩৩%"
+      },
+      {
+        "en": "28%",
+        "as": "২৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 350, total = 1250, so the share = (350/1250) x 100 = 28%.",
+      "as": "সৰ্বাধিক = 350, মুঠ = 1250, গতিকে ভাগ = (350/1250) x 100 = 28%।"
+    }
+  },
+  {
+    "id": "data-interpretation-009",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "510",
+        "as": "৫১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 80 + 100 + 120 + 60 + 140 = 500.",
+      "as": "মুঠ = 80 + 100 + 120 + 60 + 140 = 500।"
+    }
+  },
+  {
+    "id": "data-interpretation-010",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 500 / 5 = 100.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 500 / 5 = 100।"
+    }
+  },
+  {
+    "id": "data-interpretation-011",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 140 - 60 = 80.",
+      "as": "পাৰ্থক্য = 140 - 60 = 80।"
+    }
+  },
+  {
+    "id": "data-interpretation-012",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "33%",
+        "as": "৩৩%"
+      },
+      {
+        "en": "28%",
+        "as": "২৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 140, total = 500, so the share = (140/500) x 100 = 28%.",
+      "as": "সৰ্বাধিক = 140, মুঠ = 500, গতিকে ভাগ = (140/500) x 100 = 28%।"
+    }
+  },
+  {
+    "id": "data-interpretation-013",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "1700",
+        "as": "১৭০০"
+      },
+      {
+        "en": "340",
+        "as": "৩৪০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "1710",
+        "as": "১৭১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 300 + 350 + 400 + 200 + 450 = 1700.",
+      "as": "মুঠ = 300 + 350 + 400 + 200 + 450 = 1700।"
+    }
+  },
+  {
+    "id": "data-interpretation-014",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "1700",
+        "as": "১৭০০"
+      },
+      {
+        "en": "340",
+        "as": "৩৪০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 1700 / 5 = 340.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 1700 / 5 = 340।"
+    }
+  },
+  {
+    "id": "data-interpretation-015",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "650",
+        "as": "৬৫০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 450 - 200 = 250.",
+      "as": "পাৰ্থক্য = 450 - 200 = 250।"
+    }
+  },
+  {
+    "id": "data-interpretation-016",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "11.8%",
+        "as": "১১.৮%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "31.5%",
+        "as": "৩১.৫%"
+      },
+      {
+        "en": "26.5%",
+        "as": "২৬.৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 450, total = 1700, so the share = (450/1700) x 100 = 26.5%.",
+      "as": "সৰ্বাধিক = 450, মুঠ = 1700, গতিকে ভাগ = (450/1700) x 100 = 26.5%।"
+    }
+  },
+  {
+    "id": "data-interpretation-017",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "375",
+        "as": "৩৭৫"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "385",
+        "as": "৩৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 50 + 75 + 100 + 25 + 125 = 375.",
+      "as": "মুঠ = 50 + 75 + 100 + 25 + 125 = 375।"
+    }
+  },
+  {
+    "id": "data-interpretation-018",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "375",
+        "as": "৩৭৫"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 375 / 5 = 75.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 375 / 5 = 75।"
+    }
+  },
+  {
+    "id": "data-interpretation-019",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 125 - 25 = 100.",
+      "as": "পাৰ্থক্য = 125 - 25 = 100।"
+    }
+  },
+  {
+    "id": "data-interpretation-020",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "6.7%",
+        "as": "৬.৭%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "38.3%",
+        "as": "৩৮.৩%"
+      },
+      {
+        "en": "33.3%",
+        "as": "৩৩.৩%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 125, total = 375, so the share = (125/375) x 100 = 33.3%.",
+      "as": "সৰ্বাধিক = 125, মুঠ = 375, গতিকে ভাগ = (125/375) x 100 = 33.3%।"
+    }
+  },
+  {
+    "id": "data-interpretation-021",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "860",
+        "as": "৮৬০"
+      },
+      {
+        "en": "172",
+        "as": "১৭২"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "870",
+        "as": "৮৭০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 160 + 180 + 200 + 100 + 220 = 860.",
+      "as": "মুঠ = 160 + 180 + 200 + 100 + 220 = 860।"
+    }
+  },
+  {
+    "id": "data-interpretation-022",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "860",
+        "as": "৮৬০"
+      },
+      {
+        "en": "172",
+        "as": "১৭২"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "182",
+        "as": "১৮২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 860 / 5 = 172.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 860 / 5 = 172।"
+    }
+  },
+  {
+    "id": "data-interpretation-023",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "320",
+        "as": "৩২০"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 220 - 100 = 120.",
+      "as": "পাৰ্থক্য = 220 - 100 = 120।"
+    }
+  },
+  {
+    "id": "data-interpretation-024",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "11.6%",
+        "as": "১১.৬%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "30.6%",
+        "as": "৩০.৬%"
+      },
+      {
+        "en": "25.6%",
+        "as": "২৫.৬%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 220, total = 860, so the share = (220/860) x 100 = 25.6%.",
+      "as": "সৰ্বাধিক = 220, মুঠ = 860, গতিকে ভাগ = (220/860) x 100 = 25.6%।"
+    }
+  },
+  {
+    "id": "data-interpretation-025",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "610",
+        "as": "৬১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 90 + 120 + 150 + 60 + 180 = 600.",
+      "as": "মুঠ = 90 + 120 + 150 + 60 + 180 = 600।"
+    }
+  },
+  {
+    "id": "data-interpretation-026",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "130",
+        "as": "১৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 600 / 5 = 120.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 600 / 5 = 120।"
+    }
+  },
+  {
+    "id": "data-interpretation-027",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 180 - 60 = 120.",
+      "as": "পাৰ্থক্য = 180 - 60 = 120।"
+    }
+  },
+  {
+    "id": "data-interpretation-028",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "35%",
+        "as": "৩৫%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 180, total = 600, so the share = (180/600) x 100 = 30%.",
+      "as": "সৰ্বাধিক = 180, মুঠ = 600, গতিকে ভাগ = (180/600) x 100 = 30%।"
+    }
+  },
+  {
+    "id": "data-interpretation-029",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "2500",
+        "as": "২৫০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "2510",
+        "as": "২৫১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 400 + 500 + 600 + 300 + 700 = 2500.",
+      "as": "মুঠ = 400 + 500 + 600 + 300 + 700 = 2500।"
+    }
+  },
+  {
+    "id": "data-interpretation-030",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "2500",
+        "as": "২৫০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "510",
+        "as": "৫১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 2500 / 5 = 500.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 2500 / 5 = 500।"
+    }
+  },
+  {
+    "id": "data-interpretation-031",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 700 - 300 = 400.",
+      "as": "পাৰ্থক্য = 700 - 300 = 400।"
+    }
+  },
+  {
+    "id": "data-interpretation-032",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "33%",
+        "as": "৩৩%"
+      },
+      {
+        "en": "28%",
+        "as": "২৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 700, total = 2500, so the share = (700/2500) x 100 = 28%.",
+      "as": "সৰ্বাধিক = 700, মুঠ = 2500, গতিকে ভাগ = (700/2500) x 100 = 28%।"
+    }
+  },
+  {
+    "id": "data-interpretation-033",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "1500",
+        "as": "১৫০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "1510",
+        "as": "১৫১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 240 + 300 + 360 + 180 + 420 = 1500.",
+      "as": "মুঠ = 240 + 300 + 360 + 180 + 420 = 1500।"
+    }
+  },
+  {
+    "id": "data-interpretation-034",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "1500",
+        "as": "১৫০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "310",
+        "as": "৩১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 1500 / 5 = 300.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 1500 / 5 = 300।"
+    }
+  },
+  {
+    "id": "data-interpretation-035",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 420 - 180 = 240.",
+      "as": "পাৰ্থক্য = 420 - 180 = 240।"
+    }
+  },
+  {
+    "id": "data-interpretation-036",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "33%",
+        "as": "৩৩%"
+      },
+      {
+        "en": "28%",
+        "as": "২৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 420, total = 1500, so the share = (420/1500) x 100 = 28%.",
+      "as": "সৰ্বাধিক = 420, মুঠ = 1500, গতিকে ভাগ = (420/1500) x 100 = 28%।"
+    }
+  },
+  {
+    "id": "data-interpretation-037",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The total units sold is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। মুঠ বিক্ৰী হোৱা একক —"
+    },
+    "options": [
+      {
+        "en": "630",
+        "as": "৬৩০"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "640",
+        "as": "৬৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 110 + 130 + 150 + 70 + 170 = 630.",
+      "as": "মুঠ = 110 + 130 + 150 + 70 + 170 = 630।"
+    }
+  },
+  {
+    "id": "data-interpretation-038",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The average units sold per day is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+    },
+    "options": [
+      {
+        "en": "630",
+        "as": "৬৩০"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "136",
+        "as": "১৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = total / number of days = 630 / 5 = 126.",
+      "as": "গড় = মুঠ / দিনৰ সংখ্যা = 630 / 5 = 126।"
+    }
+  },
+  {
+    "id": "data-interpretation-039",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The difference between the highest and the lowest day's sales is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 170 - 70 = 100.",
+      "as": "পাৰ্থক্য = 170 - 70 = 100।"
+    }
+  },
+  {
+    "id": "data-interpretation-040",
+    "q": {
+      "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The highest day's sales as a percentage of the weekly total is —",
+      "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+    },
+    "options": [
+      {
+        "en": "11.1%",
+        "as": "১১.১%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "32%",
+        "as": "৩২%"
+      },
+      {
+        "en": "27%",
+        "as": "২৭%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest = 170, total = 630, so the share = (170/630) x 100 = 27%.",
+      "as": "সৰ্বাধিক = 170, মুঠ = 630, গতিকে ভাগ = (170/630) x 100 = 27%।"
+    }
+  },
+  {
+    "id": "data-interpretation-041",
+    "q": {
+      "en": "A student scored 80, 70, 90, 60, 75 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 80, 70, 90, 60, 75 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "375",
+        "as": "৩৭৫"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = total / 5 = 375 / 5 = 75.",
+      "as": "গড় = মুঠ / 5 = 375 / 5 = 75।"
+    }
+  },
+  {
+    "id": "data-interpretation-042",
+    "q": {
+      "en": "A student scored 80, 70, 90, 60, 75 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 80, 70, 90, 60, 75 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "375%",
+        "as": "৩৭৫%"
+      },
+      {
+        "en": "75%",
+        "as": "৭৫%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "80%",
+        "as": "৮০%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Percentage = (375 / 500) x 100 = 75%.",
+      "as": "শতাংশ = (375 / 500) x 100 = 75%।"
+    }
+  },
+  {
+    "id": "data-interpretation-043",
+    "q": {
+      "en": "A student scored 65, 75, 85, 55, 70 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 65, 75, 85, 55, 70 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = total / 5 = 350 / 5 = 70.",
+      "as": "গড় = মুঠ / 5 = 350 / 5 = 70।"
+    }
+  },
+  {
+    "id": "data-interpretation-044",
+    "q": {
+      "en": "A student scored 65, 75, 85, 55, 70 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 65, 75, 85, 55, 70 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "350%",
+        "as": "৩৫০%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "75%",
+        "as": "৭৫%"
+      },
+      {
+        "en": "70%",
+        "as": "৭০%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Percentage = (350 / 500) x 100 = 70%.",
+      "as": "শতাংশ = (350 / 500) x 100 = 70%।"
+    }
+  },
+  {
+    "id": "data-interpretation-045",
+    "q": {
+      "en": "A student scored 90, 85, 95, 80, 88 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 90, 85, 95, 80, 88 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "87",
+        "as": "৮৭"
+      },
+      {
+        "en": "438",
+        "as": "৪৩৮"
+      },
+      {
+        "en": "95",
+        "as": "৯৫"
+      },
+      {
+        "en": "92",
+        "as": "৯২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = total / 5 = 438 / 5 = 87.",
+      "as": "গড় = মুঠ / 5 = 438 / 5 = 87।"
+    }
+  },
+  {
+    "id": "data-interpretation-046",
+    "q": {
+      "en": "A student scored 90, 85, 95, 80, 88 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 90, 85, 95, 80, 88 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "438%",
+        "as": "৪৩৮%"
+      },
+      {
+        "en": "87.6%",
+        "as": "৮৭.৬%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "92.6%",
+        "as": "৯২.৬%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Percentage = (438 / 500) x 100 = 87.6%.",
+      "as": "শতাংশ = (438 / 500) x 100 = 87.6%।"
+    }
+  },
+  {
+    "id": "data-interpretation-047",
+    "q": {
+      "en": "A student scored 40, 55, 60, 35, 50 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 40, 55, 60, 35, 50 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = total / 5 = 240 / 5 = 48.",
+      "as": "গড় = মুঠ / 5 = 240 / 5 = 48।"
+    }
+  },
+  {
+    "id": "data-interpretation-048",
+    "q": {
+      "en": "A student scored 40, 55, 60, 35, 50 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 40, 55, 60, 35, 50 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "240%",
+        "as": "২৪০%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "53%",
+        "as": "৫৩%"
+      },
+      {
+        "en": "48%",
+        "as": "৪৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Percentage = (240 / 500) x 100 = 48%.",
+      "as": "শতাংশ = (240 / 500) x 100 = 48%।"
+    }
+  },
+  {
+    "id": "data-interpretation-049",
+    "q": {
+      "en": "A student scored 72, 68, 78, 64, 70 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 72, 68, 78, 64, 70 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "352",
+        "as": "৩৫২"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = total / 5 = 352 / 5 = 70.",
+      "as": "গড় = মুঠ / 5 = 352 / 5 = 70।"
+    }
+  },
+  {
+    "id": "data-interpretation-050",
+    "q": {
+      "en": "A student scored 72, 68, 78, 64, 70 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 72, 68, 78, 64, 70 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "352%",
+        "as": "৩৫২%"
+      },
+      {
+        "en": "70.4%",
+        "as": "৭০.৪%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "75.4%",
+        "as": "৭৫.৪%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Percentage = (352 / 500) x 100 = 70.4%.",
+      "as": "শতাংশ = (352 / 500) x 100 = 70.4%।"
+    }
+  },
+  {
+    "id": "data-interpretation-051",
+    "q": {
+      "en": "A student scored 100, 90, 95, 85, 92 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 100, 90, 95, 85, 92 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "462",
+        "as": "৪৬২"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "92",
+        "as": "৯২"
+      },
+      {
+        "en": "97",
+        "as": "৯৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = total / 5 = 462 / 5 = 92.",
+      "as": "গড় = মুঠ / 5 = 462 / 5 = 92।"
+    }
+  },
+  {
+    "id": "data-interpretation-052",
+    "q": {
+      "en": "A student scored 100, 90, 95, 85, 92 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 100, 90, 95, 85, 92 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "462%",
+        "as": "৪৬২%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "97.4%",
+        "as": "৯৭.৪%"
+      },
+      {
+        "en": "92.4%",
+        "as": "৯২.৪%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Percentage = (462 / 500) x 100 = 92.4%.",
+      "as": "শতাংশ = (462 / 500) x 100 = 92.4%।"
+    }
+  },
+  {
+    "id": "data-interpretation-053",
+    "q": {
+      "en": "A student scored 55, 60, 65, 50, 58 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 55, 60, 65, 50, 58 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "57",
+        "as": "৫৭"
+      },
+      {
+        "en": "288",
+        "as": "২৮৮"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = total / 5 = 288 / 5 = 57.",
+      "as": "গড় = মুঠ / 5 = 288 / 5 = 57।"
+    }
+  },
+  {
+    "id": "data-interpretation-054",
+    "q": {
+      "en": "A student scored 55, 60, 65, 50, 58 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 55, 60, 65, 50, 58 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "288%",
+        "as": "২৮৮%"
+      },
+      {
+        "en": "57.6%",
+        "as": "৫৭.৬%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "62.6%",
+        "as": "৬২.৬%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Percentage = (288 / 500) x 100 = 57.6%.",
+      "as": "শতাংশ = (288 / 500) x 100 = 57.6%।"
+    }
+  },
+  {
+    "id": "data-interpretation-055",
+    "q": {
+      "en": "A student scored 82, 76, 88, 70, 80 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 82, 76, 88, 70, 80 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "396",
+        "as": "৩৯৬"
+      },
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = total / 5 = 396 / 5 = 79.",
+      "as": "গড় = মুঠ / 5 = 396 / 5 = 79।"
+    }
+  },
+  {
+    "id": "data-interpretation-056",
+    "q": {
+      "en": "A student scored 82, 76, 88, 70, 80 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 82, 76, 88, 70, 80 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "396%",
+        "as": "৩৯৬%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "84.2%",
+        "as": "৮৪.২%"
+      },
+      {
+        "en": "79.2%",
+        "as": "৭৯.২%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Percentage = (396 / 500) x 100 = 79.2%.",
+      "as": "শতাংশ = (396 / 500) x 100 = 79.2%।"
+    }
+  },
+  {
+    "id": "data-interpretation-057",
+    "q": {
+      "en": "A student scored 68, 72, 74, 66, 70 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 68, 72, 74, 66, 70 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "74",
+        "as": "৭৪"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = total / 5 = 350 / 5 = 70.",
+      "as": "গড় = মুঠ / 5 = 350 / 5 = 70।"
+    }
+  },
+  {
+    "id": "data-interpretation-058",
+    "q": {
+      "en": "A student scored 68, 72, 74, 66, 70 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 68, 72, 74, 66, 70 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "350%",
+        "as": "৩৫০%"
+      },
+      {
+        "en": "70%",
+        "as": "৭০%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "75%",
+        "as": "৭৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Percentage = (350 / 500) x 100 = 70%.",
+      "as": "শতাংশ = (350 / 500) x 100 = 70%।"
+    }
+  },
+  {
+    "id": "data-interpretation-059",
+    "q": {
+      "en": "A student scored 95, 88, 92, 84, 90 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 95, 88, 92, 84, 90 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+    },
+    "options": [
+      {
+        "en": "449",
+        "as": "৪৪৯"
+      },
+      {
+        "en": "95",
+        "as": "৯৫"
+      },
+      {
+        "en": "89",
+        "as": "৮৯"
+      },
+      {
+        "en": "94",
+        "as": "৯৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = total / 5 = 449 / 5 = 89.",
+      "as": "গড় = মুঠ / 5 = 449 / 5 = 89।"
+    }
+  },
+  {
+    "id": "data-interpretation-060",
+    "q": {
+      "en": "A student scored 95, 88, 92, 84, 90 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+      "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 95, 88, 92, 84, 90 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+    },
+    "options": [
+      {
+        "en": "449%",
+        "as": "৪৪৯%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "94.8%",
+        "as": "৯৪.৮%"
+      },
+      {
+        "en": "89.8%",
+        "as": "৮৯.৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Percentage = (449 / 500) x 100 = 89.8%.",
+      "as": "শতাংশ = (449 / 500) x 100 = 89.8%।"
+    }
+  },
+  {
+    "id": "data-interpretation-061",
+    "q": {
+      "en": "In a bar graph, the height of a bar represents ?",
+      "as": "দণ্ডচিত্ৰত দণ্ড এটাৰ উচ্চতাই প্ৰতিনিধিত্ব কৰে ?"
+    },
+    "options": [
+      {
+        "en": "the value of the item",
+        "as": "the value of the item"
+      },
+      {
+        "en": "the name of the item",
+        "as": "the name of the item"
+      },
+      {
+        "en": "the total of all items",
+        "as": "the total of all items"
+      },
+      {
+        "en": "the average of the items",
+        "as": "the average of the items"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In a bar graph the height (or length) of each bar shows the value it stands for.",
+      "as": "দণ্ডচিত্ৰত প্ৰতিটো দণ্ডৰ উচ্চতাই (বা দীঘই) ইয়াৰ মান দেখুৱায়।"
+    }
+  },
+  {
+    "id": "data-interpretation-062",
+    "q": {
+      "en": "In a pie chart, the angle of a sector is proportional to ?",
+      "as": "পাই চিত্ৰত খণ্ড এটাৰ কোণ সমানুপাতিক ?"
+    },
+    "options": [
+      {
+        "en": "the number of items",
+        "as": "the number of items"
+      },
+      {
+        "en": "the share of that item in the total",
+        "as": "the share of that item in the total"
+      },
+      {
+        "en": "the largest item",
+        "as": "the largest item"
+      },
+      {
+        "en": "the average value",
+        "as": "the average value"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each sector's angle is the item's share of the total multiplied by 360 degrees.",
+      "as": "প্ৰতিটো খণ্ডৰ কোণ হৈছে মুঠত সেই বস্তুৰ ভাগক 360 ডিগ্ৰীৰে পূৰণ কৰা ফল।"
+    }
+  },
+  {
+    "id": "data-interpretation-063",
+    "q": {
+      "en": "A pie chart of a whole set of data has a total angle of ?",
+      "as": "এটা সম্পূৰ্ণ তথ্য সমষ্টিৰ পাই চিত্ৰৰ মুঠ কোণ ?"
+    },
+    "options": [
+      {
+        "en": "180 degrees",
+        "as": "180 degrees"
+      },
+      {
+        "en": "90 degrees",
+        "as": "90 degrees"
+      },
+      {
+        "en": "360 degrees",
+        "as": "360 degrees"
+      },
+      {
+        "en": "100 degrees",
+        "as": "100 degrees"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A complete circle is 360 degrees, which stands for the whole data set.",
+      "as": "এটা সম্পূৰ্ণ বৃত্ত 360 ডিগ্ৰী, যি গোটেই তথ্য সমষ্টিক সূচায়।"
+    }
+  },
+  {
+    "id": "data-interpretation-064",
+    "q": {
+      "en": "The average of a data set is also called its ?",
+      "as": "তথ্য এটা সমষ্টিৰ গড়ক আৰু বোলা হয় ?"
+    },
+    "options": [
+      {
+        "en": "median",
+        "as": "median"
+      },
+      {
+        "en": "mode",
+        "as": "mode"
+      },
+      {
+        "en": "range",
+        "as": "range"
+      },
+      {
+        "en": "arithmetic mean",
+        "as": "arithmetic mean"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The average is the arithmetic mean of the observations.",
+      "as": "গড় হৈছে পৰ্যবেক্ষণবোৰৰ সমান্তৰ মাধ্য।"
+    }
+  }
+]

@@ -61,6 +61,18 @@ const EXAM = {
         { id: "time-work", title: { en: "Time & Work", as: "সময় আৰু কাৰ্য (Time & Work) — মানুহ আৰু কামৰ হিচাপ।" } },
         { id: "problems-on-ages", title: { en: "Problems on Ages", as: "বয়স সম্বন্ধীয় সমস্যা (Problems on Ages)।" } },
         { id: "basic-mensuration", title: { en: "Basic Mensuration & Geometry", as: "সাধাৰণ পৰিমিতি আৰু জ্যামিতি (Basic Mensuration) — ত্ৰিভুজ, চতুৰ্ভুজ, বৃত্ত, আয়তক্ষেত্ৰ আৰু বৰ্গক্ষেত্ৰৰ পৰিসীমা আৰু কালি (Class 8 & 10 level)।" } },
+        { id: "partnership", title: { en: "Partnership", as: "অংশীদাৰিত্ব (Partnership) — মূলধন, সময় আৰু লাভ-ক্ষতিৰ ভাগ।" } },
+        { id: "pipes-and-cisterns", title: { en: "Pipes & Cisterns", as: "নল আৰু চৌবাচ্চা (Pipes & Cisterns) — অন্তৰ্গামী আৰু বহিৰ্গামী নল।" } },
+        { id: "boats-and-streams", title: { en: "Boats & Streams", as: "নাও আৰু সোঁত (Boats & Streams) — সোঁতৰ দিশ আৰু বিপৰীত দিশৰ গতি।" } },
+        { id: "mixture-and-alligation", title: { en: "Mixture & Alligation", as: "মিশ্ৰণ আৰু সংযোগ (Mixture & Alligation) — গড় দাম আৰু ঘনত্ব।" } },
+        { id: "algebra", title: { en: "Algebra", as: "বীজগণিত (Algebra) — সমীকৰণ, অভেদ আৰু ৰাশি।" } },
+        { id: "surds-and-indices", title: { en: "Surds & Indices", as: "কৰণী আৰু সূচক (Surds & Indices) — ঘাতৰ নিয়ম আৰু মূল।" } },
+        { id: "geometry", title: { en: "Geometry", as: "জ্যামিতি (Geometry) — কোণ, ত্ৰিভুজ, বহুভুজ আৰু বৃত্ত।" } },
+        { id: "mensuration-2d", title: { en: "Mensuration (2D)", as: "পৰিমিতি — ২-মাত্ৰিক (Mensuration 2D) — সমতল আকৃতিৰ কালি আৰু পৰিসীমা।" } },
+        { id: "mensuration-3d", title: { en: "Mensuration (3D)", as: "পৰিমিতি — ৩-মাত্ৰিক (Mensuration 3D) — ঘনক, চুঙা আৰু গোলকৰ আয়তন আৰু পৃষ্ঠকালি।" } },
+        { id: "trigonometry", title: { en: "Trigonometry", as: "ত্ৰিকোণমিতি (Trigonometry) — অনুপাত, প্ৰামাণ্য কোণ আৰু অভেদ।" } },
+        { id: "statistics", title: { en: "Statistics", as: "পৰিসংখ্যা বিজ্ঞান (Statistics) — মাধ্য, মধ্যক, বহুলক আৰু পৰিসৰ।" } },
+        { id: "data-interpretation", title: { en: "Data Interpretation", as: "তথ্য বিশ্লেষণ (Data Interpretation) — তালিকা আৰু লেখচিত্ৰ।" } },
       ],
     },
     {
@@ -233,8 +245,8 @@ const SYLLABUS = {
     {
       title: { en: "General Mathematics", as: "সাধাৰণ গণিত" },
       content: {
-        en: "Category-wise syllabus for the ADRE 3.0 Grade III examination — General Mathematics (সাধাৰণ গণিত).\n\n- Number System: real numbers, fractions, decimals and divisibility rules\n- Simplification: BODMAS rule\n- LCM & HCF\n- Percentage\n- Ratio & Proportion\n- Average\n- Profit & Loss\n- Simple & Compound Interest\n- Time, Speed & Distance: problems on trains and speed\n- Time & Work: work and men problems\n- Problems on Ages\n- Basic Mensuration & Geometry: perimeter and area of triangle, quadrilateral, circle, rectangle and square (Class 8 & 10 level)",
-        as: "ADRE 3.0 গ্ৰেড III পৰীক্ষাৰ সাধাৰণ গণিতৰ শ্ৰেণী-ভিত্তিক পাঠ্যক্ৰম।\n\n- সংখ্যা পদ্ধতি: বাস্তৱ সংখ্যা, ভগ্নাংশ, দশমিক সংখ্যা আৰু বিভাজ্যতাৰ নিয়ম\n- সৰলীকৰণ: BODMAS নিয়ম\n- ল.সা.গু. আৰু গ.সা.উ.\n- শতাংশ\n- অনুপাত আৰু সমানুপাত\n- গড়\n- লাভ আৰু ক্ষতি\n- সৰল সুত আৰু চক্ৰবৃদ্ধি সুত\n- সময়, দূৰত্ব আৰু গতিবেগ: ৰে'লগাড়ী আৰু গতিবেগৰ অংক\n- সময় আৰু কাৰ্য: মানুহ আৰু কামৰ হিচাপ\n- বয়স সম্বন্ধীয় সমস্যা\n- সাধাৰণ পৰিমিতি আৰু জ্যামিতি: ত্ৰিভুজ, চতুৰ্ভুজ, বৃত্ত, আয়তক্ষেত্ৰ আৰু বৰ্গক্ষেত্ৰৰ পৰিসীমা আৰু কালি (Class 8 & 10 level)",
+        en: "Category-wise syllabus for the ADRE 3.0 Grade III examination — General Mathematics (সাধাৰণ গণিত).\n\n- Number System: real numbers, fractions, decimals and divisibility rules\n- Simplification: BODMAS rule\n- LCM & HCF\n- Percentage\n- Ratio & Proportion\n- Average\n- Profit & Loss\n- Simple & Compound Interest\n- Time, Speed & Distance: problems on trains and speed\n- Time & Work: work and men problems\n- Problems on Ages\n- Basic Mensuration & Geometry: perimeter and area of triangle, quadrilateral, circle, rectangle and square (Class 8 & 10 level)\n- Partnership, Pipes & Cisterns, Boats & Streams and Mixture & Alligation\n- Algebra, Surds & Indices, Geometry, Mensuration (2D and 3D) and Trigonometry\n- Statistics and Data Interpretation",
+        as: "ADRE 3.0 গ্ৰেড III পৰীক্ষাৰ সাধাৰণ গণিতৰ শ্ৰেণী-ভিত্তিক পাঠ্যক্ৰম।\n\n- সংখ্যা পদ্ধতি: বাস্তৱ সংখ্যা, ভগ্নাংশ, দশমিক সংখ্যা আৰু বিভাজ্যতাৰ নিয়ম\n- সৰলীকৰণ: BODMAS নিয়ম\n- ল.সা.গু. আৰু গ.সা.উ.\n- শতাংশ\n- অনুপাত আৰু সমানুপাত\n- গড়\n- লাভ আৰু ক্ষতি\n- সৰল সুত আৰু চক্ৰবৃদ্ধি সুত\n- সময়, দূৰত্ব আৰু গতিবেগ: ৰে'লগাড়ী আৰু গতিবেগৰ অংক\n- সময় আৰু কাৰ্য: মানুহ আৰু কামৰ হিচাপ\n- বয়স সম্বন্ধীয় সমস্যা\n- সাধাৰণ পৰিমিতি আৰু জ্যামিতি: ত্ৰিভুজ, চতুৰ্ভুজ, বৃত্ত, আয়তক্ষেত্ৰ আৰু বৰ্গক্ষেত্ৰৰ পৰিসীমা আৰু কালি (Class 8 & 10 level)\n- অংশীদাৰিত্ব, নল আৰু চৌবাচ্চা, নাও আৰু সোঁত, আৰু মিশ্ৰণ আৰু সংযোগ\n- বীজগণিত, কৰণী আৰু সূচক, জ্যামিতি, পৰিমিতি (২-মাত্ৰিক আৰু ৩-মাত্ৰিক) আৰু ত্ৰিকোণমিতি\n- পৰিসংখ্যা বিজ্ঞান আৰু তথ্য বিশ্লেষণ",
       },
     },
     {

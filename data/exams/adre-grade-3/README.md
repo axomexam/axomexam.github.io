@@ -61,6 +61,18 @@ data/exams/adre-grade-3/
 | General Mathematics | Time & Work | `elementary-mathematics/time-work` |
 | General Mathematics | Problems on Ages | `elementary-mathematics/problems-on-ages` |
 | General Mathematics | Basic Mensuration & Geometry | `elementary-mathematics/basic-mensuration` |
+| General Mathematics | Partnership | `elementary-mathematics/partnership` |
+| General Mathematics | Pipes & Cisterns | `elementary-mathematics/pipes-and-cisterns` |
+| General Mathematics | Boats & Streams | `elementary-mathematics/boats-and-streams` |
+| General Mathematics | Mixture & Alligation | `elementary-mathematics/mixture-and-alligation` |
+| General Mathematics | Algebra | `elementary-mathematics/algebra` |
+| General Mathematics | Surds & Indices | `elementary-mathematics/surds-and-indices` |
+| General Mathematics | Geometry | `elementary-mathematics/geometry` |
+| General Mathematics | Mensuration (2D) | `elementary-mathematics/mensuration-2d` |
+| General Mathematics | Mensuration (3D) | `elementary-mathematics/mensuration-3d` |
+| General Mathematics | Trigonometry | `elementary-mathematics/trigonometry` |
+| General Mathematics | Statistics | `elementary-mathematics/statistics` |
+| General Mathematics | Data Interpretation | `elementary-mathematics/data-interpretation` |
 | General English | Grammar → Parts of Speech | `general-english/grammar/parts-of-speech` |
 | General English | Grammar → Articles | `general-english/grammar/articles-determiners` |
 | General English | Grammar → Prepositions | `general-english/grammar/prepositions` |
