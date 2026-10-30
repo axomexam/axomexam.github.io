@@ -2,43 +2,1993 @@
   {
     "id": "ratio-proportion-001",
     "q": {
-      "en": "If a : b = 3 : 4 and b : c = 2 : 5, then a : c is —",
-      "as": "a : b = 3 : 4 আৰু b : c = 2 : 5 হ'লে a : c —"
+      "en": "The ratio 24 : 36 in its simplest form is —",
+      "as": "24 : 36 অনুপাত আটাইতকৈ সৰল ৰূপত —"
     },
     "options": [
       {
-        "en": "6 : 5",
-        "as": "৬ : ৫"
+        "en": "3 : 2",
+        "as": "৩ : ২"
       },
       {
-        "en": "2 : 5",
-        "as": "২ : ৫"
+        "en": "2 : 3",
+        "as": "২ : ৩"
       },
       {
-        "en": "3 : 10",
-        "as": "৩ : ১০"
+        "en": "4 : 6",
+        "as": "৪ : ৬"
       },
       {
-        "en": "3 : 5",
-        "as": "৩ : ৫"
+        "en": "6 : 9",
+        "as": "৬ : ৯"
       }
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "en": "Make b common: a : b = 3 : 4 and b : c = 4 : 10, so a : c = 3 : 10.",
-      "as": "b সাধাৰণ কৰক: a : b = 3 : 4 আৰু b : c = 4 : 10, গতিকে a : c = 3 : 10।"
+      "en": "Dividing both terms by 12 gives 2 : 3.",
+      "as": "দুয়োটা পদ 12 ৰে ভাগ কৰিলে 2 : 3 পোৱা যায়।"
     }
   },
   {
     "id": "ratio-proportion-002",
     "q": {
-      "en": "If 5 : 8 = 20 : x, then x is —",
-      "as": "5 : 8 = 20 : x হ'লে x —"
+      "en": "If a : b = 3 : 4 and b : c = 6 : 7, then a : c is —",
+      "as": "a : b = 3 : 4 আৰু b : c = 6 : 7 হ'লে a : c —"
     },
     "options": [
       {
+        "en": "3 : 7",
+        "as": "৩ : ৭"
+      },
+      {
+        "en": "9 : 14",
+        "as": "৯ : ১৪"
+      },
+      {
+        "en": "18 : 28",
+        "as": "১৮ : ২৮"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "a : c = (3 x 6) : (4 x 7) = 18 : 28 = 9 : 14.",
+      "as": "a : c = (3 x 6) : (4 x 7) = 18 : 28 = 9 : 14।"
+    }
+  },
+  {
+    "id": "ratio-proportion-003",
+    "q": {
+      "en": "If 4 : 5 = 12 : x, then x is —",
+      "as": "4 : 5 = 12 : x হ'লে x —"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x = 5 x 12 / 4 = 15.",
+      "as": "x = 5 x 12 / 4 = 15।"
+    }
+  },
+  {
+    "id": "ratio-proportion-004",
+    "q": {
+      "en": "If 7 : x = 21 : 27, then x is —",
+      "as": "7 : x = 21 : 27 হ'লে x —"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x = 7 x 27 / 21 = 9.",
+      "as": "x = 7 x 27 / 21 = 9।"
+    }
+  },
+  {
+    "id": "ratio-proportion-005",
+    "q": {
+      "en": "1,200 is divided between A and B in the ratio 2 : 3. A's share is —",
+      "as": "1,200 টকা A আৰু B ৰ মাজত 2 : 3 অনুপাতত ভাগ কৰিলে A ৰ অংশ —"
+    },
+    "options": [
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A = 2/5 x 1200 = 480.",
+      "as": "A = 2/5 x 1200 = 480।"
+    }
+  },
+  {
+    "id": "ratio-proportion-006",
+    "q": {
+      "en": "900 is divided between P and Q in the ratio 4 : 5. Q's share is —",
+      "as": "900 টকা P আৰু Q ৰ মাজত 4 : 5 অনুপাতত ভাগ কৰিলে Q ৰ অংশ —"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Q = 5/9 x 900 = 500.",
+      "as": "Q = 5/9 x 900 = 500।"
+    }
+  },
+  {
+    "id": "ratio-proportion-007",
+    "q": {
+      "en": "Two numbers are in the ratio 3 : 5 and their sum is 64. The larger number is —",
+      "as": "দুটা সংখ্যা 3 : 5 অনুপাতত আৰু সিহঁতৰ যোগফল 64। ডাঙৰ সংখ্যাটো —"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "5/8 x 64 = 40.",
+      "as": "5/8 x 64 = 40।"
+    }
+  },
+  {
+    "id": "ratio-proportion-008",
+    "q": {
+      "en": "Two numbers are in the ratio 5 : 7 and their difference is 12. The smaller number is —",
+      "as": "দুটা সংখ্যা 5 : 7 অনুপাতত আৰু সিহঁতৰ পাৰ্থক্য 12। সৰু সংখ্যাটো —"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each part = 12/2 = 6, so the smaller is 5 x 6 = 30.",
+      "as": "প্ৰতিটো অংশ = 12/2 = 6, গতিকে সৰুটো 5 x 6 = 30।"
+    }
+  },
+  {
+    "id": "ratio-proportion-009",
+    "q": {
+      "en": "If a : b = 2 : 3 and b : c = 4 : 5, then a : b : c is —",
+      "as": "a : b = 2 : 3 আৰু b : c = 4 : 5 হ'লে a : b : c —"
+    },
+    "options": [
+      {
+        "en": "2 : 3 : 5",
+        "as": "২ : ৩ : ৫"
+      },
+      {
+        "en": "2 : 4 : 5",
+        "as": "২ : ৪ : ৫"
+      },
+      {
+        "en": "8 : 12 : 15",
+        "as": "৮ : ১২ : ১৫"
+      },
+      {
+        "en": "6 : 9 : 10",
+        "as": "৬ : ৯ : ১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Make b common: a : b = 8 : 12 and b : c = 12 : 15, so a : b : c = 8 : 12 : 15.",
+      "as": "b সাধাৰণ কৰিলে: a : b = 8 : 12 আৰু b : c = 12 : 15, গতিকে 8 : 12 : 15।"
+    }
+  },
+  {
+    "id": "ratio-proportion-010",
+    "q": {
+      "en": "If x : y = 5 : 8, the value of (x + y) : y is —",
+      "as": "x : y = 5 : 8 হ'লে (x + y) : y ৰ মান —"
+    },
+    "options": [
+      {
+        "en": "5 : 8",
+        "as": "৫ : ৮"
+      },
+      {
+        "en": "8 : 13",
+        "as": "৮ : ১৩"
+      },
+      {
+        "en": "13 : 5",
+        "as": "১৩ : ৫"
+      },
+      {
+        "en": "13 : 8",
+        "as": "১৩ : ৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(5 + 8) : 8 = 13 : 8.",
+      "as": "(5 + 8) : 8 = 13 : 8।"
+    }
+  },
+  {
+    "id": "ratio-proportion-011",
+    "q": {
+      "en": "The ratio of 45 minutes to 2 hours is —",
+      "as": "45 মিনিটৰ 2 ঘণ্টাৰ সৈতে অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "3 : 4",
+        "as": "৩ : ৪"
+      },
+      {
+        "en": "3 : 8",
+        "as": "৩ : ৮"
+      },
+      {
+        "en": "9 : 16",
+        "as": "৯ : ১৬"
+      },
+      {
+        "en": "45 : 2",
+        "as": "৪৫ : ২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2 hours = 120 minutes, so 45 : 120 = 3 : 8.",
+      "as": "2 ঘণ্টা = 120 মিনিট, গতিকে 45 : 120 = 3 : 8।"
+    }
+  },
+  {
+    "id": "ratio-proportion-012",
+    "q": {
+      "en": "The ratio of 50 paise to 2 rupees is —",
+      "as": "50 পইচাৰ 2 টকাৰ সৈতে অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "1 : 4",
+        "as": "১ : ৪"
+      },
+      {
+        "en": "25 : 1",
+        "as": "২৫ : ১"
+      },
+      {
+        "en": "50 : 2",
+        "as": "৫০ : ২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2 rupees = 200 paise, so 50 : 200 = 1 : 4.",
+      "as": "2 টকা = 200 পইচা, গতিকে 50 : 200 = 1 : 4।"
+    }
+  },
+  {
+    "id": "ratio-proportion-013",
+    "q": {
+      "en": "The fourth proportional to 3, 8 and 15 is —",
+      "as": "3, 8 আৰু 15 ৰ চতুৰ্থ সমানুপাতী —"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3 : 8 = 15 : x, so x = 8 x 15 / 3 = 40.",
+      "as": "3 : 8 = 15 : x, গতিকে x = 8 x 15 / 3 = 40।"
+    }
+  },
+  {
+    "id": "ratio-proportion-014",
+    "q": {
+      "en": "The mean proportional between 4 and 25 is —",
+      "as": "4 আৰু 25 ৰ মধ্যসমানুপাতী —"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "14.5",
+        "as": "১৪.৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean proportional = sqrt(4 x 25) = 10.",
+      "as": "মধ্যসমানুপাতী = sqrt(4 x 25) = 10।"
+    }
+  },
+  {
+    "id": "ratio-proportion-015",
+    "q": {
+      "en": "The third proportional to 9 and 12 is —",
+      "as": "9 আৰু 12 ৰ তৃতীয় সমানুপাতী —"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "9 : 12 = 12 : x, so x = 12 x 12 / 9 = 16.",
+      "as": "9 : 12 = 12 : x, গতিকে x = 12 x 12 / 9 = 16।"
+    }
+  },
+  {
+    "id": "ratio-proportion-016",
+    "q": {
+      "en": "If 15 workers earn 9,000 in a day, 25 workers will earn —",
+      "as": "15 জন শ্ৰমিকে এদিনত 9,000 উপাৰ্জন কৰিলে 25 জনে উপাৰ্জন কৰিব —"
+    },
+    "options": [
+      {
+        "en": "15,000",
+        "as": "১৫,০০০"
+      },
+      {
+        "en": "14,000",
+        "as": "১৪,০০০"
+      },
+      {
+        "en": "12,000",
+        "as": "১২,০০০"
+      },
+      {
+        "en": "18,000",
+        "as": "১৮,০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One worker earns 9,000/15 = 600, so 25 x 600 = 15,000.",
+      "as": "এজন শ্ৰমিকে 9,000/15 = 600 উপাৰ্জন কৰে, গতিকে 25 x 600 = 15,000।"
+    }
+  },
+  {
+    "id": "ratio-proportion-017",
+    "q": {
+      "en": "If 8 pens cost 96, the cost of 15 such pens is —",
+      "as": "8 টা কলমৰ দাম 96 হ'লে 15 টা কলমৰ দাম —"
+    },
+    "options": [
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "190",
+        "as": "১৯০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One pen = 12, so 15 x 12 = 180.",
+      "as": "এটা কলম = 12, গতিকে 15 x 12 = 180।"
+    }
+  },
+  {
+    "id": "ratio-proportion-018",
+    "q": {
+      "en": "If 6 men can do a work in 12 days, 9 men can do the same work in —",
+      "as": "6 জন মানুহে এটা কাম 12 দিনত কৰিব পাৰিলে 9 জনে একেই কাম কৰিব —"
+    },
+    "options": [
+      {
+        "en": "6 days",
+        "as": "৬ দিন"
+      },
+      {
+        "en": "10 days",
+        "as": "১০ দিন"
+      },
+      {
+        "en": "9 days",
+        "as": "৯ দিন"
+      },
+      {
+        "en": "8 days",
+        "as": "৮ দিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Inverse proportion: 6 x 12 = 9 x d, so d = 8.",
+      "as": "প্ৰতিক্ৰম অনুপাত: 6 x 12 = 9 x d, গতিকে d = 8।"
+    }
+  },
+  {
+    "id": "ratio-proportion-019",
+    "q": {
+      "en": "If 10 machines produce 500 items in 5 hours, 1 machine produces 500 items in —",
+      "as": "10 টা যন্ত্ৰে 5 ঘণ্টাত 500 টা সামগ্ৰী উৎপাদন কৰিলে 1 টা যন্ত্ৰই 500 টা সামগ্ৰী উৎপাদন কৰিব —"
+    },
+    "options": [
+      {
+        "en": "25 hours",
+        "as": "২৫ ঘণ্টা"
+      },
+      {
+        "en": "50 hours",
+        "as": "৫০ ঘণ্টা"
+      },
+      {
+        "en": "40 hours",
+        "as": "৪০ ঘণ্টা"
+      },
+      {
+        "en": "60 hours",
+        "as": "৬০ ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Inverse proportion: 10 x 5 = 1 x t, so t = 50 hours.",
+      "as": "প্ৰতিক্ৰম অনুপাত: 10 x 5 = 1 x t, গতিকে t = 50 ঘণ্টা।"
+    }
+  },
+  {
+    "id": "ratio-proportion-020",
+    "q": {
+      "en": "If a car covers 240 km in 4 hours, it covers 360 km in —",
+      "as": "এখন গাড়ীয়ে 4 ঘণ্টাত 240 কিমি অতিক্ৰম কৰিলে 360 কিমি অতিক্ৰম কৰিব —"
+    },
+    "options": [
+      {
+        "en": "5 hours",
+        "as": "৫ ঘণ্টা"
+      },
+      {
+        "en": "7 hours",
+        "as": "৭ ঘণ্টা"
+      },
+      {
+        "en": "6 hours",
+        "as": "৬ ঘণ্টা"
+      },
+      {
+        "en": "8 hours",
+        "as": "৮ ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 60 km/h, so 360 / 60 = 6 hours.",
+      "as": "গতি = 60 কিমি/ঘণ্টা, গতিকে 360 / 60 = 6 ঘণ্টা।"
+    }
+  },
+  {
+    "id": "ratio-proportion-021",
+    "q": {
+      "en": "A sum of 1,800 is divided among A, B and C in the ratio 2 : 3 : 4. B's share is —",
+      "as": "1,800 টকা A, B আৰু C ৰ মাজত 2 : 3 : 4 অনুপাতত ভাগ কৰিলে B ৰ অংশ —"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B = 3/9 x 1800 = 600.",
+      "as": "B = 3/9 x 1800 = 600।"
+    }
+  },
+  {
+    "id": "ratio-proportion-022",
+    "q": {
+      "en": "A sum of 4,400 is divided among A, B and C in the ratio 2 : 3 : 6. C's share is —",
+      "as": "4,400 টকা A, B আৰু C ৰ মাজত 2 : 3 : 6 অনুপাতত ভাগ কৰিলে C ৰ অংশ —"
+    },
+    "options": [
+      {
+        "en": "2,400",
+        "as": "২,৪০০"
+      },
+      {
+        "en": "1,800",
+        "as": "১,৮০০"
+      },
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      },
+      {
+        "en": "2,600",
+        "as": "২,৬০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C = 6/11 x 4400 = 2400.",
+      "as": "C = 6/11 x 4400 = 2400।"
+    }
+  },
+  {
+    "id": "ratio-proportion-023",
+    "q": {
+      "en": "The compound ratio of 3 : 4 and 5 : 6 is —",
+      "as": "3 : 4 আৰু 5 : 6 ৰ যৌগিক অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "5 : 6",
+        "as": "৫ : ৬"
+      },
+      {
+        "en": "15 : 8",
+        "as": "১৫ : ৮"
+      },
+      {
+        "en": "6 : 20",
+        "as": "৬ : ২০"
+      },
+      {
+        "en": "5 : 8",
+        "as": "৫ : ৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Compound ratio = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8.",
+      "as": "যৌগিক অনুপাত = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8।"
+    }
+  },
+  {
+    "id": "ratio-proportion-024",
+    "q": {
+      "en": "The duplicate ratio of 2 : 7 is —",
+      "as": "2 : 7 ৰ বৰ্গ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "4 : 14",
+        "as": "৪ : ১৪"
+      },
+      {
+        "en": "2 : 7",
+        "as": "২ : ৭"
+      },
+      {
+        "en": "8 : 343",
+        "as": "৮ : ৩৪৩"
+      },
+      {
+        "en": "4 : 49",
+        "as": "৪ : ৪৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The duplicate ratio squares both terms: 4 : 49.",
+      "as": "বৰ্গ অনুপাতে দুয়োটা পদৰ বৰ্গ কৰে: 4 : 49।"
+    }
+  },
+  {
+    "id": "ratio-proportion-025",
+    "q": {
+      "en": "The sub-duplicate ratio of 36 : 49 is —",
+      "as": "36 : 49 ৰ বৰ্গমূল অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "3 : 7",
+        "as": "৩ : ৭"
+      },
+      {
+        "en": "1296 : 2401",
+        "as": "১২৯৬ : ২৪০১"
+      },
+      {
+        "en": "18 : 24.5",
+        "as": "১৮ : ২৪.৫"
+      },
+      {
+        "en": "6 : 7",
+        "as": "৬ : ৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The sub-duplicate ratio takes square roots: 6 : 7.",
+      "as": "বৰ্গমূল অনুপাতে বৰ্গমূল লয়: 6 : 7।"
+    }
+  },
+  {
+    "id": "ratio-proportion-026",
+    "q": {
+      "en": "If a : b = 4 : 5, the value of (a + b) / (a - b) is —",
+      "as": "a : b = 4 : 5 হ'লে (a + b) / (a - b) ৰ মান —"
+    },
+    "options": [
+      {
+        "en": "-1/9",
+        "as": "-১/৯"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "-9",
+        "as": "-৯"
+      },
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Let a = 4k and b = 5k; then (9k)/(-k) = -9.",
+      "as": "a = 4k আৰু b = 5k ধৰিলে (9k)/(-k) = -9।"
+    }
+  },
+  {
+    "id": "ratio-proportion-027",
+    "q": {
+      "en": "If a : b = 7 : 9, the value of (2a + 3b) : (4a - b) is —",
+      "as": "a : b = 7 : 9 হ'লে (2a + 3b) : (4a - b) ৰ মান —"
+    },
+    "options": [
+      {
+        "en": "41 : 19",
+        "as": "৪১ : ১৯"
+      },
+      {
+        "en": "19 : 41",
+        "as": "১৯ : ৪১"
+      },
+      {
+        "en": "41 : 37",
+        "as": "৪১ : ৩৭"
+      },
+      {
+        "en": "37 : 41",
+        "as": "৩৭ : ৪১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With a = 7k, b = 9k: (14 + 27) : (28 - 9) = 41 : 19.",
+      "as": "a = 7k, b = 9k ধৰিলে: (14 + 27) : (28 - 9) = 41 : 19।"
+    }
+  },
+  {
+    "id": "ratio-proportion-028",
+    "q": {
+      "en": "If 3 : 5 :: 9 : x, the value of x is —",
+      "as": "3 : 5 :: 9 : x হ'লে x ৰ মান —"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x = 5 x 9 / 3 = 15.",
+      "as": "x = 5 x 9 / 3 = 15।"
+    }
+  },
+  {
+    "id": "ratio-proportion-029",
+    "q": {
+      "en": "The ratio of two numbers is 7 : 11. If their sum is 108, the numbers are —",
+      "as": "দুটা সংখ্যাৰ অনুপাত 7 : 11। যোগফল 108 হ'লে সংখ্যা দুটা —"
+    },
+    "options": [
+      {
+        "en": "28 and 80",
+        "as": "২৮ আৰু ৮০"
+      },
+      {
+        "en": "35 and 73",
+        "as": "৩৫ আৰু ৭৩"
+      },
+      {
+        "en": "42 and 66",
+        "as": "৪২ আৰু ৬৬"
+      },
+      {
+        "en": "49 and 59",
+        "as": "৪৯ আৰু ৫৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each part = 108/18 = 6, giving 42 and 66.",
+      "as": "প্ৰতিটো অংশ = 108/18 = 6, গতিকে 42 আৰু 66।"
+    }
+  },
+  {
+    "id": "ratio-proportion-030",
+    "q": {
+      "en": "If the ratio of two numbers is 4 : 7 and their difference is 33, the numbers are —",
+      "as": "দুটা সংখ্যাৰ অনুপাত 4 : 7 আৰু পাৰ্থক্য 33 হ'লে সংখ্যা দুটা —"
+    },
+    "options": [
+      {
+        "en": "44 and 77",
+        "as": "৪৪ আৰু ৭৭"
+      },
+      {
+        "en": "40 and 73",
+        "as": "৪০ আৰু ৭৩"
+      },
+      {
+        "en": "48 and 81",
+        "as": "৪৮ আৰু ৮১"
+      },
+      {
+        "en": "52 and 85",
+        "as": "৫২ আৰু ৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each part = 33/3 = 11, giving 44 and 77.",
+      "as": "প্ৰতিটো অংশ = 33/3 = 11, গতিকে 44 আৰু 77।"
+    }
+  },
+  {
+    "id": "ratio-proportion-031",
+    "q": {
+      "en": "If the ratio of ages of A and B is 3 : 4 and the sum of their ages is 42, the age of A is —",
+      "as": "A আৰু B ৰ বয়সৰ অনুপাত 3 : 4 আৰু বয়সৰ যোগফল 42 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A = 3/7 x 42 = 18 years.",
+      "as": "A = 3/7 x 42 = 18 বছৰ।"
+    }
+  },
+  {
+    "id": "ratio-proportion-032",
+    "q": {
+      "en": "In a mixture of 60 litres, milk and water are in the ratio 7 : 5. The quantity of milk is —",
+      "as": "60 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 7 : 5 অনুপাতত। গাখীৰৰ পৰিমাণ —"
+    },
+    "options": [
+      {
+        "en": "25 litres",
+        "as": "২৫ লিটাৰ"
+      },
+      {
+        "en": "35 litres",
+        "as": "৩৫ লিটাৰ"
+      },
+      {
+        "en": "30 litres",
+        "as": "৩০ লিটাৰ"
+      },
+      {
+        "en": "40 litres",
+        "as": "৪০ লিটাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk = 7/12 x 60 = 35 litres.",
+      "as": "গাখীৰ = 7/12 x 60 = 35 লিটাৰ।"
+    }
+  },
+  {
+    "id": "ratio-proportion-033",
+    "q": {
+      "en": "In a bag the ratio of 1 rupee, 50 paise and 25 paise coins is 3 : 4 : 5. If the number of 50 paise coins is 80, the total value of 1 rupee coins is —",
+      "as": "এটা মোনত 1 টকা, 50 পইচা আৰু 25 পইচাৰ মুদ্ৰাৰ অনুপাত 3 : 4 : 5। 50 পইচাৰ মুদ্ৰা 80 টা হ'লে 1 টকাৰ মুদ্ৰাৰ মুঠ মূল্য —"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each part = 20, so 1-rupee coins number 60, worth 60.",
+      "as": "প্ৰতিটো অংশ = 20, গতিকে 1 টকাৰ মুদ্ৰা 60 টা, মূল্য 60।"
+    }
+  },
+  {
+    "id": "ratio-proportion-034",
+    "q": {
+      "en": "If 5 kg of rice costs 250, the cost of 8 kg is —",
+      "as": "5 কেজি চাউলৰ দাম 250 হ'লে 8 কেজিৰ দাম —"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "380",
+        "as": "৩৮০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1 kg = 50, so 8 x 50 = 400.",
+      "as": "1 কেজি = 50, গতিকে 8 x 50 = 400।"
+    }
+  },
+  {
+    "id": "ratio-proportion-035",
+    "q": {
+      "en": "If 12 men can build a wall in 10 days, 15 men can build it in —",
+      "as": "12 জন মানুহে এটা দেৱাল 10 দিনত সাজিব পাৰিলে 15 জনে সাজিব —"
+    },
+    "options": [
+      {
+        "en": "8 days",
+        "as": "৮ দিন"
+      },
+      {
+        "en": "6 days",
+        "as": "৬ দিন"
+      },
+      {
+        "en": "9 days",
+        "as": "৯ দিন"
+      },
+      {
+        "en": "12 days",
+        "as": "১২ দিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inverse proportion: 12 x 10 = 15 x d, so d = 8.",
+      "as": "প্ৰতিক্ৰম অনুপাত: 12 x 10 = 15 x d, গতিকে d = 8।"
+    }
+  },
+  {
+    "id": "ratio-proportion-036",
+    "q": {
+      "en": "If 4 taps fill a tank in 30 minutes, 6 taps of the same type fill it in —",
+      "as": "4 টা কলৰ পৰা এটা টেংকি 30 মিনিটত ভৰ্তি হ'লে একে ধৰণৰ 6 টা কলৰ পৰা ভৰ্তি হ'ব —"
+    },
+    "options": [
+      {
+        "en": "15 minutes",
+        "as": "১৫ মিনিট"
+      },
+      {
+        "en": "20 minutes",
+        "as": "২০ মিনিট"
+      },
+      {
+        "en": "24 minutes",
+        "as": "২৪ মিনিট"
+      },
+      {
+        "en": "45 minutes",
+        "as": "৪৫ মিনিট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Inverse proportion: 4 x 30 = 6 x t, so t = 20.",
+      "as": "প্ৰতিক্ৰম অনুপাত: 4 x 30 = 6 x t, গতিকে t = 20।"
+    }
+  },
+  {
+    "id": "ratio-proportion-037",
+    "q": {
+      "en": "The ratio of the incomes of A and B is 5 : 4 and the ratio of their expenditures is 3 : 2. If each saves 1,000, the income of A is —",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত 5 : 4 আৰু খৰচৰ অনুপাত 3 : 2। প্ৰত্যেকে 1,000 সাঁচিলে A ৰ আয় —"
+    },
+    "options": [
+      {
+        "en": "3,000",
+        "as": "৩,০০০"
+      },
+      {
+        "en": "5,000",
+        "as": "৫,০০০"
+      },
+      {
+        "en": "4,000",
+        "as": "৪,০০০"
+      },
+      {
+        "en": "6,000",
+        "as": "৬,০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Solving 5x - 3y = 1000 and 4x - 2y = 1000 gives x = 1000, so A's income = 5,000.",
+      "as": "5x - 3y = 1000 আৰু 4x - 2y = 1000 সমাধান কৰিলে x = 1000, গতিকে A ৰ আয় = 5,000।"
+    }
+  },
+  {
+    "id": "ratio-proportion-038",
+    "q": {
+      "en": "The ratio of two numbers is 3 : 4. If each is increased by 6, the ratio becomes 4 : 5. The smaller number is —",
+      "as": "দুটা সংখ্যাৰ অনুপাত 3 : 4। প্ৰতিটোত 6 যোগ কৰিলে অনুপাত 4 : 5 হয়। সৰু সংখ্যাটো —"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3x + 6 = 4k and 4x + 6 = 5k, giving x = 6 and the smaller number 18.",
+      "as": "3x + 6 = 4k আৰু 4x + 6 = 5k, x = 6 পোৱা যায় আৰু সৰু সংখ্যা 18।"
+    }
+  },
+  {
+    "id": "ratio-proportion-039",
+    "q": {
+      "en": "If a : b = 2 : 3 and b : c = 6 : 7, then a : c is —",
+      "as": "a : b = 2 : 3 আৰু b : c = 6 : 7 হ'লে a : c —"
+    },
+    "options": [
+      {
+        "en": "3 : 7",
+        "as": "৩ : ৭"
+      },
+      {
+        "en": "2 : 7",
+        "as": "২ : ৭"
+      },
+      {
+        "en": "12 : 21",
+        "as": "১২ : ২১"
+      },
+      {
+        "en": "4 : 7",
+        "as": "৪ : ৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a : c = (2 x 6) : (3 x 7) = 12 : 21 = 4 : 7.",
+      "as": "a : c = (2 x 6) : (3 x 7) = 12 : 21 = 4 : 7।"
+    }
+  },
+  {
+    "id": "ratio-proportion-040",
+    "q": {
+      "en": "The ratio 0.5 : 0.05 in simplest form is —",
+      "as": "0.5 : 0.05 অনুপাত আটাইতকৈ সৰল ৰূপত —"
+    },
+    "options": [
+      {
+        "en": "1 : 10",
+        "as": "১ : ১০"
+      },
+      {
+        "en": "5 : 1",
+        "as": "৫ : ১"
+      },
+      {
+        "en": "10 : 1",
+        "as": "১০ : ১"
+      },
+      {
+        "en": "1 : 5",
+        "as": "১ : ৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "0.5 / 0.05 = 10, so the ratio is 10 : 1.",
+      "as": "0.5 / 0.05 = 10, গতিকে অনুপাত 10 : 1।"
+    }
+  },
+  {
+    "id": "ratio-proportion-041",
+    "q": {
+      "en": "If x is directly proportional to y and x = 12 when y = 4, then x when y = 7 is —",
+      "as": "x, y ৰ সৈতে সোজা সমানুপাতত আৰু y = 4 হ'লে x = 12, তেন্তে y = 7 হ'লে x —"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "k = 3, so x = 3 x 7 = 21.",
+      "as": "k = 3, গতিকে x = 3 x 7 = 21।"
+    }
+  },
+  {
+    "id": "ratio-proportion-042",
+    "q": {
+      "en": "If x is inversely proportional to y and x = 6 when y = 8, then x when y = 12 is —",
+      "as": "x, y ৰ সৈতে প্ৰতিক্ৰম সমানুপাতত আৰু y = 8 হ'লে x = 6, তেন্তে y = 12 হ'লে x —"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "xy = 48, so x = 48 / 12 = 4.",
+      "as": "xy = 48, গতিকে x = 48 / 12 = 4।"
+    }
+  },
+  {
+    "id": "ratio-proportion-043",
+    "q": {
+      "en": "If 18 men can complete a work in 20 days, the number of men needed to finish it in 12 days is —",
+      "as": "18 জন মানুহে এটা কাম 20 দিনত শেষ কৰিব পাৰিলে 12 দিনত শেষ কৰিবলৈ প্ৰয়োজনীয় মানুহ —"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
         "en": "36",
         "as": "৩৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inverse proportion: 18 x 20 = m x 12, so m = 30.",
+      "as": "প্ৰতিক্ৰম অনুপাত: 18 x 20 = m x 12, গতিকে m = 30।"
+    }
+  },
+  {
+    "id": "ratio-proportion-044",
+    "q": {
+      "en": "If 3 kg of a commodity costs 120, the quantity bought for 200 is —",
+      "as": "3 কেজি সামগ্ৰীৰ দাম 120 হ'লে 200 টকাত কিনিব পৰা পৰিমাণ —"
+    },
+    "options": [
+      {
+        "en": "4 kg",
+        "as": "৪ কেজি"
+      },
+      {
+        "en": "5 kg",
+        "as": "৫ কেজি"
+      },
+      {
+        "en": "6 kg",
+        "as": "৬ কেজি"
+      },
+      {
+        "en": "7 kg",
+        "as": "৭ কেজি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1 kg = 40, so 200 / 40 = 5 kg.",
+      "as": "1 কেজি = 40, গতিকে 200 / 40 = 5 কেজি।"
+    }
+  },
+  {
+    "id": "ratio-proportion-045",
+    "q": {
+      "en": "If a train covers 180 km in 3 hours, the distance covered in 5 hours is —",
+      "as": "এখন ৰে'লে 3 ঘণ্টাত 180 কিমি অতিক্ৰম কৰিলে 5 ঘণ্টাত অতিক্ৰম কৰা দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "240 km",
+        "as": "২৪০ কিমি"
+      },
+      {
+        "en": "280 km",
+        "as": "২৮০ কিমি"
+      },
+      {
+        "en": "300 km",
+        "as": "৩০০ কিমি"
+      },
+      {
+        "en": "320 km",
+        "as": "৩২০ কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 60 km/h, so 5 x 60 = 300 km.",
+      "as": "গতি = 60 কিমি/ঘণ্টা, গতিকে 5 x 60 = 300 কিমি।"
+    }
+  },
+  {
+    "id": "ratio-proportion-046",
+    "q": {
+      "en": "If 5 labourers earn 3,000 in 6 days, 1 labourer earns 3,000 in —",
+      "as": "5 জন শ্ৰমিকে 6 দিনত 3,000 উপাৰ্জন কৰিলে 1 জনে 3,000 উপাৰ্জন কৰিব —"
+    },
+    "options": [
+      {
+        "en": "30 days",
+        "as": "৩০ দিন"
+      },
+      {
+        "en": "24 days",
+        "as": "২৪ দিন"
+      },
+      {
+        "en": "15 days",
+        "as": "১৫ দিন"
+      },
+      {
+        "en": "36 days",
+        "as": "৩৬ দিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inverse proportion: 5 x 6 = 1 x d, so d = 30 days.",
+      "as": "প্ৰতিক্ৰম অনুপাত: 5 x 6 = 1 x d, গতিকে d = 30 দিন।"
+    }
+  },
+  {
+    "id": "ratio-proportion-047",
+    "q": {
+      "en": "A sum is divided between A and B in the ratio 5 : 7. If B gets 84 more than A, the total sum is —",
+      "as": "এটা ৰাশি A আৰু B ৰ মাজত 5 : 7 অনুপাতত ভাগ কৰা হ'ল। B এ A তকৈ 84 বেছি পালে মুঠ ৰাশি —"
+    },
+    "options": [
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "504",
+        "as": "৫০৪"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2 parts = 84, so 1 part = 42 and 12 parts = 504.",
+      "as": "2 অংশ = 84, গতিকে 1 অংশ = 42 আৰু 12 অংশ = 504।"
+    }
+  },
+  {
+    "id": "ratio-proportion-048",
+    "q": {
+      "en": "The ratio of boys to girls in a class is 5 : 4. If there are 36 students, the number of boys is —",
+      "as": "এটা শ্ৰেণীত ল'ৰা আৰু ছোৱালীৰ অনুপাত 5 : 4। 36 জন ছাত্ৰ থাকিলে ল'ৰাৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Boys = 5/9 x 36 = 20.",
+      "as": "ল'ৰা = 5/9 x 36 = 20।"
+    }
+  },
+  {
+    "id": "ratio-proportion-049",
+    "q": {
+      "en": "The ratio of two numbers is 8 : 5 and their sum is 143. The smaller number is —",
+      "as": "দুটা সংখ্যাৰ অনুপাত 8 : 5 আৰু যোগফল 143। সৰু সংখ্যাটো —"
+    },
+    "options": [
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each part = 11, so the smaller is 5 x 11 = 55.",
+      "as": "প্ৰতিটো অংশ = 11, গতিকে সৰুটো 5 x 11 = 55।"
+    }
+  },
+  {
+    "id": "ratio-proportion-050",
+    "q": {
+      "en": "If 1/2 : x = 3 : 12, the value of x is —",
+      "as": "1/2 : x = 3 : 12 হ'লে x ৰ মান —"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3x = 6, so x = 2.",
+      "as": "3x = 6, গতিকে x = 2।"
+    }
+  },
+  {
+    "id": "ratio-proportion-051",
+    "q": {
+      "en": "The ratio of the present ages of A and B is 4 : 5. After 10 years the ratio becomes 5 : 6. The present age of A is —",
+      "as": "A আৰু B ৰ বৰ্তমান বয়সৰ অনুপাত 4 : 5। 10 বছৰৰ পিছত অনুপাত 5 : 6 হয়। A ৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "35 years",
+        "as": "৩৫ বছৰ"
+      },
+      {
+        "en": "45 years",
+        "as": "৪৫ বছৰ"
+      },
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solving gives x = 10, so A = 40 years.",
+      "as": "সমাধান কৰিলে x = 10, গতিকে A = 40 বছৰ।"
+    }
+  },
+  {
+    "id": "ratio-proportion-052",
+    "q": {
+      "en": "If 2A = 3B = 4C, then A : B : C is —",
+      "as": "2A = 3B = 4C হ'লে A : B : C —"
+    },
+    "options": [
+      {
+        "en": "2 : 3 : 4",
+        "as": "২ : ৩ : ৪"
+      },
+      {
+        "en": "3 : 4 : 6",
+        "as": "৩ : ৪ : ৬"
+      },
+      {
+        "en": "6 : 4 : 3",
+        "as": "৬ : ৪ : ৩"
+      },
+      {
+        "en": "4 : 3 : 2",
+        "as": "৪ : ৩ : ২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Taking the LCM 12: A = 6, B = 4, C = 3, so 6 : 4 : 3.",
+      "as": "ল.সা.গু. 12 ধৰিলে: A = 6, B = 4, C = 3, গতিকে 6 : 4 : 3।"
+    }
+  },
+  {
+    "id": "ratio-proportion-053",
+    "q": {
+      "en": "If a : b = 5 : 6 and b : c = 3 : 4, then a : c is —",
+      "as": "a : b = 5 : 6 আৰু b : c = 3 : 4 হ'লে a : c —"
+    },
+    "options": [
+      {
+        "en": "8 : 5",
+        "as": "৮ : ৫"
+      },
+      {
+        "en": "5 : 4",
+        "as": "৫ : ৪"
+      },
+      {
+        "en": "15 : 24",
+        "as": "১৫ : ২৪"
+      },
+      {
+        "en": "5 : 8",
+        "as": "৫ : ৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a : c = (5 x 3) : (6 x 4) = 15 : 24 = 5 : 8.",
+      "as": "a : c = (5 x 3) : (6 x 4) = 15 : 24 = 5 : 8।"
+    }
+  },
+  {
+    "id": "ratio-proportion-054",
+    "q": {
+      "en": "A recipe needs flour and sugar in the ratio 5 : 2. If 350 g of flour is used, the sugar needed is —",
+      "as": "এটা ৰেচিপিত ময়দা আৰু চেনিৰ অনুপাত 5 : 2। 350 গ্ৰাম ময়দা ব্যৱহাৰ কৰিলে প্ৰয়োজনীয় চেনি —"
+    },
+    "options": [
+      {
+        "en": "100 g",
+        "as": "১০০ গ্ৰাম"
+      },
+      {
+        "en": "175 g",
+        "as": "১৭৫ গ্ৰাম"
+      },
+      {
+        "en": "140 g",
+        "as": "১৪০ গ্ৰাম"
+      },
+      {
+        "en": "200 g",
+        "as": "২০০ গ্ৰাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sugar = 2/5 x 350 = 140 g.",
+      "as": "চেনি = 2/5 x 350 = 140 গ্ৰাম।"
+    }
+  },
+  {
+    "id": "ratio-proportion-055",
+    "q": {
+      "en": "The ratio of the speeds of two cars is 3 : 4. If the slower car covers 180 km, the faster covers —",
+      "as": "দুখন গাড়ীৰ গতিৰ অনুপাত 3 : 4। লেহেমীয়া গাড়ীয়ে 180 কিমি অতিক্ৰম কৰিলে দ্ৰুত গাড়ীয়ে অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "200 km",
+        "as": "২০০ কিমি"
+      },
+      {
+        "en": "220 km",
+        "as": "২২০ কিমি"
+      },
+      {
+        "en": "240 km",
+        "as": "২৪০ কিমি"
+      },
+      {
+        "en": "270 km",
+        "as": "২৭০ কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4/3 x 180 = 240 km.",
+      "as": "4/3 x 180 = 240 কিমি।"
+    }
+  },
+  {
+    "id": "ratio-proportion-056",
+    "q": {
+      "en": "If 15 kg of a mixture contains two ingredients in the ratio 2 : 3, the larger quantity is —",
+      "as": "15 কেজি মিশ্ৰণত দুটা উপাদান 2 : 3 অনুপাতত থাকিলে ডাঙৰ পৰিমাণ —"
+    },
+    "options": [
+      {
+        "en": "6 kg",
+        "as": "৬ কেজি"
+      },
+      {
+        "en": "7.5 kg",
+        "as": "৭.৫ কেজি"
+      },
+      {
+        "en": "9 kg",
+        "as": "৯ কেজি"
+      },
+      {
+        "en": "10 kg",
+        "as": "১০ কেজি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Larger = 3/5 x 15 = 9 kg.",
+      "as": "ডাঙৰ = 3/5 x 15 = 9 কেজি।"
+    }
+  },
+  {
+    "id": "ratio-proportion-057",
+    "q": {
+      "en": "If a sum of 770 is divided in the ratio 5 : 6, the larger share is —",
+      "as": "770 টকা 5 : 6 অনুপাতত ভাগ কৰিলে ডাঙৰ অংশ —"
+    },
+    "options": [
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "440",
+        "as": "৪৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Larger = 6/11 x 770 = 420.",
+      "as": "ডাঙৰ = 6/11 x 770 = 420।"
+    }
+  },
+  {
+    "id": "ratio-proportion-058",
+    "q": {
+      "en": "The ratio of the number of 5-rupee coins to 2-rupee coins is 4 : 7. If there are 44 five-rupee coins, the number of 2-rupee coins is —",
+      "as": "5 টকীয়া মুদ্ৰা আৰু 2 টকীয়া মুদ্ৰাৰ অনুপাত 4 : 7। 44 টা 5 টকীয়া মুদ্ৰা থাকিলে 2 টকীয়া মুদ্ৰাৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "77",
+        "as": "৭৭"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each part = 11, so 2-rupee coins = 7 x 11 = 77.",
+      "as": "প্ৰতিটো অংশ = 11, গতিকে 2 টকীয়া মুদ্ৰা = 7 x 11 = 77।"
+    }
+  },
+  {
+    "id": "ratio-proportion-059",
+    "q": {
+      "en": "If 3/4 of a number is equal to 5/6 of another number, the ratio of the numbers is —",
+      "as": "এটা সংখ্যাৰ 3/4 আন এটা সংখ্যাৰ 5/6 ৰ সমান হ'লে সংখ্যা দুটাৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "9 : 10",
+        "as": "৯ : ১০"
+      },
+      {
+        "en": "10 : 9",
+        "as": "১০ : ৯"
+      },
+      {
+        "en": "5 : 6",
+        "as": "৫ : ৬"
+      },
+      {
+        "en": "6 : 5",
+        "as": "৬ : ৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(3/4)x = (5/6)y gives x : y = 10 : 9.",
+      "as": "(3/4)x = (5/6)y ৰ পৰা x : y = 10 : 9 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "ratio-proportion-060",
+    "q": {
+      "en": "The ratio of the angles of a triangle is 1 : 2 : 3. The largest angle is —",
+      "as": "এটা ত্ৰিভুজৰ কোণবোৰৰ অনুপাত 1 : 2 : 3। আটাইতকৈ ডাঙৰ কোণ —"
+    },
+    "options": [
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "100 degrees",
+        "as": "১০০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Largest = 3/6 x 180 = 90 degrees.",
+      "as": "ডাঙৰ = 3/6 x 180 = 90 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "ratio-proportion-061",
+    "q": {
+      "en": "The ratio of the angles of a quadrilateral is 2 : 3 : 4 : 6. The largest angle is —",
+      "as": "এটা চতুৰ্ভুজৰ কোণবোৰৰ অনুপাত 2 : 3 : 4 : 6। আটাইতকৈ ডাঙৰ কোণ —"
+    },
+    "options": [
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "144 degrees",
+        "as": "১৪৪ ডিগ্ৰী"
+      },
+      {
+        "en": "160 degrees",
+        "as": "১৬০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Largest = 6/15 x 360 = 144 degrees.",
+      "as": "ডাঙৰ = 6/15 x 360 = 144 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "ratio-proportion-062",
+    "q": {
+      "en": "If A : B = 3 : 4 and B : C = 8 : 9, then A : C is —",
+      "as": "A : B = 3 : 4 আৰু B : C = 8 : 9 হ'লে A : C —"
+    },
+    "options": [
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "2 : 1",
+        "as": "২ : ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A : C = (3 x 8) : (4 x 9) = 24 : 36 = 2 : 3.",
+      "as": "A : C = (3 x 8) : (4 x 9) = 24 : 36 = 2 : 3।"
+    }
+  },
+  {
+    "id": "ratio-proportion-063",
+    "q": {
+      "en": "If 20% of A = 30% of B, then A : B is —",
+      "as": "A ৰ 20% = B ৰ 30% হ'লে A : B —"
+    },
+    "options": [
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "2 : 1",
+        "as": "২ : ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A / B = 30 / 20 = 3 : 2.",
+      "as": "A / B = 30 / 20 = 3 : 2।"
+    }
+  },
+  {
+    "id": "ratio-proportion-064",
+    "q": {
+      "en": "If the ratio of the sides of two squares is 2 : 3, the ratio of their areas is —",
+      "as": "দুটা বৰ্গৰ বাহুৰ অনুপাত 2 : 3 হ'লে সিহঁতৰ কালিৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "4 : 9",
+        "as": "৪ : ৯"
+      },
+      {
+        "en": "8 : 27",
+        "as": "৮ : ২৭"
+      },
+      {
+        "en": "16 : 81",
+        "as": "১৬ : ৮১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The ratio of areas is the square of the ratio of sides: 4 : 9.",
+      "as": "কালিৰ অনুপাত বাহুৰ অনুপাতৰ বৰ্গ: 4 : 9।"
+    }
+  },
+  {
+    "id": "ratio-proportion-065",
+    "q": {
+      "en": "If the ratio of the radii of two circles is 3 : 5, the ratio of their circumferences is —",
+      "as": "দুটা বৃত্তৰ ব্যাসাৰ্ধৰ অনুপাত 3 : 5 হ'লে পৰিধিৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "6 : 10",
+        "as": "৬ : ১০"
+      },
+      {
+        "en": "9 : 25",
+        "as": "৯ : ২৫"
+      },
+      {
+        "en": "3 : 5",
+        "as": "৩ : ৫"
+      },
+      {
+        "en": "5 : 3",
+        "as": "৫ : ৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Circumference is proportional to radius, so the ratio stays 3 : 5.",
+      "as": "পৰিধি ব্যাসাৰ্ধৰ সমানুপাতী, গতিকে অনুপাত 3 : 5 থাকে।"
+    }
+  },
+  {
+    "id": "ratio-proportion-066",
+    "q": {
+      "en": "A sum of 9,000 is divided among A, B and C in the ratio 1 : 2 : 3. The difference between C's and A's share is —",
+      "as": "9,000 টকা A, B আৰু C ৰ মাজত 1 : 2 : 3 অনুপাতত ভাগ কৰিলে C আৰু A ৰ অংশৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "1,500",
+        "as": "১,৫০০"
+      },
+      {
+        "en": "2,000",
+        "as": "২,০০০"
+      },
+      {
+        "en": "4,500",
+        "as": "৪,৫০০"
+      },
+      {
+        "en": "3,000",
+        "as": "৩,০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A = 1,500 and C = 4,500, so the difference is 3,000.",
+      "as": "A = 1,500 আৰু C = 4,500, গতিকে পাৰ্থক্য 3,000।"
+    }
+  },
+  {
+    "id": "ratio-proportion-067",
+    "q": {
+      "en": "If 5 : 8 :: 20 : x, the value of x is —",
+      "as": "5 : 8 :: 20 : x হ'লে x ৰ মান —"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
       },
       {
         "en": "28",
@@ -49,314 +1999,14 @@
         "as": "৩২"
       },
       {
-        "en": "24",
-        "as": "২৪"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "5x = 160, so x = 32.",
-      "as": "5x = 160, গতিকে x = 32।"
-    }
-  },
-  {
-    "id": "ratio-proportion-003",
-    "q": {
-      "en": "₹1,200 is divided between A and B in the ratio 2 : 3. B's share is —",
-      "as": "₹1,200 A আৰু B ৰ মাজত 2 : 3 অনুপাতত ভাগ কৰা হ'ল। B ৰ অংশ —"
-    },
-    "options": [
-      {
-        "en": "₹600",
-        "as": "₹৬০০"
-      },
-      {
-        "en": "₹480",
-        "as": "₹৪৮০"
-      },
-      {
-        "en": "₹800",
-        "as": "₹৮০০"
-      },
-      {
-        "en": "₹720",
-        "as": "₹৭২০"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "B's share = 3/5 x 1200 = 720.",
-      "as": "B ৰ অংশ = 3/5 x 1200 = 720।"
-    }
-  },
-  {
-    "id": "ratio-proportion-004",
-    "q": {
-      "en": "If 12 pencils cost ₹96, the cost of 20 such pencils is —",
-      "as": "12 টা পেঞ্চিলৰ মূল্য ₹96 হ'লে 20 টা পেঞ্চিলৰ মূল্য —"
-    },
-    "options": [
-      {
-        "en": "₹180",
-        "as": "₹১৮০"
-      },
-      {
-        "en": "₹150",
-        "as": "₹১৫০"
-      },
-      {
-        "en": "₹160",
-        "as": "₹১৬০"
-      },
-      {
-        "en": "₹200",
-        "as": "₹২০০"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "Cost of one pencil = 8, so 20 x 8 = 160.",
-      "as": "এটা পেঞ্চিলৰ মূল্য = 8, গতিকে 20 x 8 = 160।"
-    }
-  },
-  {
-    "id": "ratio-proportion-005",
-    "q": {
-      "en": "The ratio 45 minutes to 1.5 hours is —",
-      "as": "45 মিনিট আৰু 1.5 ঘণ্টাৰ অনুপাত —"
-    },
-    "options": [
-      {
-        "en": "2 : 3",
-        "as": "২ : ৩"
-      },
-      {
-        "en": "1 : 3",
-        "as": "১ : ৩"
-      },
-      {
-        "en": "1 : 2",
-        "as": "১ : ২"
-      },
-      {
-        "en": "3 : 4",
-        "as": "৩ : ৪"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "1.5 hours = 90 minutes, so 45 : 90 = 1 : 2.",
-      "as": "1.5 ঘণ্টা = 90 মিনিট, গতিকে 45 : 90 = 1 : 2।"
-    }
-  },
-  {
-    "id": "ratio-proportion-006",
-    "q": {
-      "en": "The mean proportional between 4 and 25 is —",
-      "as": "4 আৰু 25 ৰ মধ্যসমানুপাত —"
-    },
-    "options": [
-      {
-        "en": "10",
-        "as": "১০"
-      },
-      {
-        "en": "20",
-        "as": "২০"
-      },
-      {
-        "en": "14.5",
-        "as": "১৪.৫"
-      },
-      {
-        "en": "12",
-        "as": "১২"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "Mean proportional = sqrt(4 x 25) = 10.",
-      "as": "মধ্যসমানুপাত = sqrt(4 x 25) = 10।"
-    }
-  },
-  {
-    "id": "ratio-proportion-007",
-    "q": {
-      "en": "If a : b = 2 : 3, then (3a + 2b) : (5a - b) is —",
-      "as": "a : b = 2 : 3 হ'লে (3a + 2b) : (5a - b) —"
-    },
-    "options": [
-      {
-        "en": "7 : 12",
-        "as": "৭ : ১২"
-      },
-      {
-        "en": "5 : 7",
-        "as": "৫ : ৭"
-      },
-      {
-        "en": "2 : 1",
-        "as": "২ : ১"
-      },
-      {
-        "en": "12 : 7",
-        "as": "১২ : ৭"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "Let a = 2k, b = 3k: (6k + 6k) : (10k - 3k) = 12k : 7k = 12 : 7.",
-      "as": "a = 2k, b = 3k ধৰিলে: (6k + 6k) : (10k - 3k) = 12k : 7k = 12 : 7।"
-    }
-  },
-  {
-    "id": "ratio-proportion-008",
-    "q": {
-      "en": "A sum of ₹3,600 is divided among A, B and C in the ratio 3 : 4 : 5. C's share is —",
-      "as": "₹3,600 A, B আৰু C ৰ মাজত 3 : 4 : 5 অনুপাতত ভাগ কৰা হ'ল। C ৰ অংশ —"
-    },
-    "options": [
-      {
-        "en": "₹1,500",
-        "as": "₹১,৫০০"
-      },
-      {
-        "en": "₹900",
-        "as": "₹৯০০"
-      },
-      {
-        "en": "₹1,800",
-        "as": "₹১,৮০০"
-      },
-      {
-        "en": "₹1,200",
-        "as": "₹১,২০০"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "C's share = 5/12 x 3600 = 1500.",
-      "as": "C ৰ অংশ = 5/12 x 3600 = 1500।"
-    }
-  },
-  {
-    "id": "ratio-proportion-009",
-    "q": {
-      "en": "The ratio of 0.6 to 0.24 is —",
-      "as": "0.6 আৰু 0.24 ৰ অনুপাত —"
-    },
-    "options": [
-      {
-        "en": "4 : 3",
-        "as": "৪ : ৩"
-      },
-      {
-        "en": "5 : 2",
-        "as": "৫ : ২"
-      },
-      {
-        "en": "2 : 5",
-        "as": "২ : ৫"
-      },
-      {
-        "en": "3 : 4",
-        "as": "৩ : ৪"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "0.6 / 0.24 = 60 / 24 = 5 / 2.",
-      "as": "0.6 / 0.24 = 60 / 24 = 5 / 2।"
-    }
-  },
-  {
-    "id": "ratio-proportion-010",
-    "q": {
-      "en": "In a class the ratio of boys to girls is 5 : 4. If there are 45 boys, the number of girls is —",
-      "as": "এখন শ্ৰেণীত ল'ৰা আৰু ছোৱালীৰ অনুপাত 5 : 4। ল'ৰা 45 জন হ'লে ছোৱালীৰ সংখ্যা —"
-    },
-    "options": [
-      {
-        "en": "42",
-        "as": "৪২"
-      },
-      {
-        "en": "40",
-        "as": "৪০"
-      },
-      {
         "en": "36",
         "as": "৩৬"
-      },
-      {
-        "en": "32",
-        "as": "৩২"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "45 / 5 = 9, so girls = 4 x 9 = 36.",
-      "as": "45 / 5 = 9, গতিকে ছোৱালী = 4 x 9 = 36।"
-    }
-  },
-  {
-    "id": "ratio-proportion-011",
-    "q": {
-      "en": "If 8 workers earn ₹9,600 in a week, 12 workers will earn in a week —",
-      "as": "8 জন শ্ৰমিকে এটা সপ্তাহত ₹9,600 উপাৰ্জন কৰিলে, 12 জনে এটা সপ্তাহত উপাৰ্জন কৰিব —"
-    },
-    "options": [
-      {
-        "en": "₹12,800",
-        "as": "₹১২,৮০০"
-      },
-      {
-        "en": "₹14,400",
-        "as": "₹১৪,৪০০"
-      },
-      {
-        "en": "₹16,200",
-        "as": "₹১৬,২০০"
-      },
-      {
-        "en": "₹14,000",
-        "as": "₹১৪,০০০"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "One worker earns 1,200; 12 x 1,200 = 14,400.",
-      "as": "এজন শ্ৰমিকে 1,200 উপাৰ্জন কৰে; 12 x 1,200 = 14,400।"
-    }
-  },
-  {
-    "id": "ratio-proportion-012",
-    "q": {
-      "en": "The compound ratio of 3 : 4 and 5 : 6 is —",
-      "as": "3 : 4 আৰু 5 : 6 ৰ যৌগিক অনুপাত —"
-    },
-    "options": [
-      {
-        "en": "5 : 8",
-        "as": "৫ : ৮"
-      },
-      {
-        "en": "6 : 20",
-        "as": "৬ : ২০"
-      },
-      {
-        "en": "5 : 6",
-        "as": "৫ : ৬"
-      },
-      {
-        "en": "15 : 8",
-        "as": "১৫ : ৮"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "Compound ratio = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8.",
-      "as": "যৌগিক অনুপাত = (3 x 5) : (4 x 6) = 15 : 24 = 5 : 8।"
+      "en": "x = 8 x 20 / 5 = 32.",
+      "as": "x = 8 x 20 / 5 = 32।"
     }
   }
 ]

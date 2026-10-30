@@ -7,26 +7,26 @@
     },
     "options": [
       {
-        "en": "12",
-        "as": "১২"
+        "en": "6",
+        "as": "৬"
       },
       {
         "en": "18",
         "as": "১৮"
       },
       {
-        "en": "24",
-        "as": "২৪"
+        "en": "12",
+        "as": "১২"
       },
       {
-        "en": "6",
-        "as": "৬"
+        "en": "24",
+        "as": "২৪"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
-      "en": "36 = 2^2 x 3^2 and 48 = 2^4 x 3, so HCF = 2^2 x 3 = 12.",
-      "as": "36 = 2^2 x 3^2 আৰু 48 = 2^4 x 3, গতিকে গ.সা.উ. = 2^2 x 3 = 12।"
+      "en": "36 = 2^2 x 3^2 and 48 = 2^4 x 3, so HCF = 12.",
+      "as": "36 = 2^2 x 3^2 আৰু 48 = 2^4 x 3, গতিকে গ.সা.উ. = 12।"
     }
   },
   {
@@ -37,72 +37,102 @@
     },
     "options": [
       {
-        "en": "120",
-        "as": "১২০"
-      },
-      {
-        "en": "90",
-        "as": "৯০"
+        "en": "30",
+        "as": "৩০"
       },
       {
         "en": "60",
         "as": "৬০"
       },
       {
-        "en": "30",
-        "as": "৩০"
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
       }
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "en": "15 = 3x5, 20 = 2^2x5, 30 = 2x3x5, so LCM = 2^2 x 3 x 5 = 60.",
-      "as": "15 = 3x5, 20 = 2^2x5, 30 = 2x3x5, গতিকে ল.সা.গু. = 2^2 x 3 x 5 = 60।"
+      "en": "15 = 3x5, 20 = 2^2x5, 30 = 2x3x5, so LCM = 60.",
+      "as": "15 = 3x5, 20 = 2^2x5, 30 = 2x3x5, গতিকে ল.সা.গু. = 60।"
     }
   },
   {
     "id": "lcm-hcf-003",
     "q": {
-      "en": "The product of the HCF and the LCM of two numbers is always equal to —",
-      "as": "দুটা সংখ্যাৰ গ.সা.উ. আৰু ল.সা.গু.ৰ গুণফল সদায় সমান —"
+      "en": "The HCF of 24 and 36 is —",
+      "as": "24 আৰু 36 ৰ গ.সা.উ. —"
     },
     "options": [
       {
-        "en": "the product of the numbers",
-        "as": "সংখ্যা দুটাৰ গুণফল"
+        "en": "12",
+        "as": "১২"
       },
-      {
-        "en": "their average",
-        "as": "সিহঁতৰ গড়"
-      },
-      {
-        "en": "the sum of the numbers",
-        "as": "সংখ্যা দুটাৰ যোগফল"
-      },
-      {
-        "en": "the difference of the numbers",
-        "as": "সংখ্যা দুটাৰ পাৰ্থক্য"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "For any two numbers, HCF x LCM = product of the numbers.",
-      "as": "যিকোনো দুটা সংখ্যাৰ বাবে, গ.সা.উ. x ল.সা.গু. = সংখ্যা দুটাৰ গুণফল।"
-    }
-  },
-  {
-    "id": "lcm-hcf-004",
-    "q": {
-      "en": "The greatest number that divides 43, 91 and 183 leaving the same remainder 3 in each case is —",
-      "as": "43, 91 আৰু 183 ক হৰণ কৰিলে প্ৰতিটোতে একে ভাগশেষ 3 এৰি যোৱা আটাইতকৈ ডাঙৰ সংখ্যা —"
-    },
-    "options": [
       {
         "en": "8",
         "as": "৮"
       },
       {
-        "en": "3",
-        "as": "৩"
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "24 = 2^3 x 3 and 36 = 2^2 x 3^2, so HCF = 12.",
+      "as": "24 = 2^3 x 3 আৰু 36 = 2^2 x 3^2, গতিকে গ.সা.উ. = 12।"
+    }
+  },
+  {
+    "id": "lcm-hcf-004",
+    "q": {
+      "en": "The LCM of 12 and 18 is —",
+      "as": "12 আৰু 18 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "12 = 2^2 x 3 and 18 = 2 x 3^2, so LCM = 2^2 x 3^2 = 36.",
+      "as": "12 = 2^2 x 3 আৰু 18 = 2 x 3^2, গতিকে ল.সা.গু. = 36।"
+    }
+  },
+  {
+    "id": "lcm-hcf-005",
+    "q": {
+      "en": "The HCF of 16, 24 and 40 is —",
+      "as": "16, 24 আৰু 40 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
       },
       {
         "en": "4",
@@ -113,52 +143,142 @@
         "as": "১২"
       }
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "en": "Subtracting 3 gives 40, 88 and 180; their HCF is 4.",
-      "as": "3 বিয়োগ কৰিলে 40, 88 আৰু 180 পোৱা যায়; সিহঁতৰ গ.সা.উ. 4।"
-    }
-  },
-  {
-    "id": "lcm-hcf-005",
-    "q": {
-      "en": "The least number which when divided by 12, 15 and 18 leaves a remainder 5 in each case is —",
-      "as": "12, 15 আৰু 18 ৰে হৰণ কৰিলে প্ৰতিটোতে ভাগশেষ 5 এৰি যোৱা আটাইতকৈ সৰু সংখ্যা —"
-    },
-    "options": [
-      {
-        "en": "185",
-        "as": "১৮৫"
-      },
-      {
-        "en": "175",
-        "as": "১৭৫"
-      },
-      {
-        "en": "195",
-        "as": "১৯৫"
-      },
-      {
-        "en": "180",
-        "as": "১৮০"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "LCM of 12, 15, 18 = 180; add 5 to get 185.",
-      "as": "12, 15, 18 ৰ ল.সা.গু. = 180; 5 যোগ কৰিলে 185।"
+      "en": "16 = 2^4, 24 = 2^3 x 3, 40 = 2^3 x 5, so HCF = 2^3 = 8.",
+      "as": "16 = 2^4, 24 = 2^3 x 3, 40 = 2^3 x 5, গতিকে গ.সা.উ. = 8।"
     }
   },
   {
     "id": "lcm-hcf-006",
+    "q": {
+      "en": "The LCM of 4, 6 and 8 is —",
+      "as": "4, 6 আৰু 8 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "4 = 2^2, 6 = 2x3, 8 = 2^3, so LCM = 2^3 x 3 = 24.",
+      "as": "4 = 2^2, 6 = 2x3, 8 = 2^3, গতিকে ল.সা.গু. = 24।"
+    }
+  },
+  {
+    "id": "lcm-hcf-007",
+    "q": {
+      "en": "The HCF of 45 and 75 is —",
+      "as": "45 আৰু 75 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "45 = 3^2 x 5 and 75 = 3 x 5^2, so HCF = 15.",
+      "as": "45 = 3^2 x 5 আৰু 75 = 3 x 5^2, গতিকে গ.সা.উ. = 15।"
+    }
+  },
+  {
+    "id": "lcm-hcf-008",
+    "q": {
+      "en": "The LCM of 9 and 12 is —",
+      "as": "9 আৰু 12 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "9 = 3^2 and 12 = 2^2 x 3, so LCM = 36.",
+      "as": "9 = 3^2 আৰু 12 = 2^2 x 3, গতিকে ল.সা.গু. = 36।"
+    }
+  },
+  {
+    "id": "lcm-hcf-009",
+    "q": {
+      "en": "The product of the HCF and the LCM of two numbers is always equal to —",
+      "as": "দুটা সংখ্যাৰ গ.সা.উ. আৰু ল.সা.গু.ৰ গুণফল সদায় সমান —"
+    },
+    "options": [
+      {
+        "en": "the sum of the numbers",
+        "as": "সংখ্যা দুটাৰ যোগফল"
+      },
+      {
+        "en": "the difference of the numbers",
+        "as": "সংখ্যা দুটাৰ পাৰ্থক্য"
+      },
+      {
+        "en": "their average",
+        "as": "সিহঁতৰ গড়"
+      },
+      {
+        "en": "the product of the numbers",
+        "as": "সংখ্যা দুটাৰ গুণফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For any two numbers, HCF x LCM = product of the numbers.",
+      "as": "যিকোনো দুটা সংখ্যাৰ বাবে, গ.সা.উ. x ল.সা.গু. = সংখ্যা দুটাৰ গুণফল।"
+    }
+  },
+  {
+    "id": "lcm-hcf-010",
     "q": {
       "en": "The HCF of two co-prime numbers is —",
       "as": "দুটা সহ-মৌলিক সংখ্যাৰ গ.সা.উ. —"
     },
     "options": [
       {
-        "en": "the smaller number",
-        "as": "সৰু সংখ্যাটো"
+        "en": "0",
+        "as": "০"
       },
       {
         "en": "1",
@@ -169,8 +289,8 @@
         "as": "সিহঁতৰ গুণফল"
       },
       {
-        "en": "0",
-        "as": "০"
+        "en": "the smaller number",
+        "as": "সৰু সংখ্যাটো"
       }
     ],
     "correct": 1,
@@ -180,49 +300,109 @@
     }
   },
   {
-    "id": "lcm-hcf-007",
+    "id": "lcm-hcf-011",
     "q": {
       "en": "The LCM of 7 and 11 is —",
       "as": "7 আৰু 11 ৰ ল.সা.গু. —"
     },
     "options": [
       {
-        "en": "1",
-        "as": "১"
+        "en": "77",
+        "as": "৭৭"
       },
       {
         "en": "18",
         "as": "১৮"
       },
       {
-        "en": "154",
-        "as": "১৫৪"
+        "en": "1",
+        "as": "১"
       },
       {
-        "en": "77",
-        "as": "৭৭"
+        "en": "154",
+        "as": "১৫৪"
       }
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": {
       "en": "Both are prime, so LCM = 7 x 11 = 77.",
-      "as": "দুয়োটা মৌলিক, গতিকে ল.সা.গু. = 7 x 11 = 77।"
+      "as": "দুয়োটা মৌলিক, গতিকে ল.সা.গু. = 77।"
     }
   },
   {
-    "id": "lcm-hcf-008",
+    "id": "lcm-hcf-012",
+    "q": {
+      "en": "The LCM of two co-prime numbers is —",
+      "as": "দুটা সহ-মৌলিক সংখ্যাৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "their product",
+        "as": "সিহঁতৰ গুণফল"
+      },
+      {
+        "en": "their sum",
+        "as": "সিহঁতৰ যোগফল"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "their difference",
+        "as": "সিহঁতৰ পাৰ্থক্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Co-prime numbers have no common factor, so the LCM is their product.",
+      "as": "সহ-মৌলিক সংখ্যাৰ সাধাৰণ উৎপাদক নাই, গতিকে ল.সা.গু. সিহঁতৰ গুণফল।"
+    }
+  },
+  {
+    "id": "lcm-hcf-013",
+    "q": {
+      "en": "The greatest number that divides 43, 91 and 183 leaving the same remainder 3 in each case is —",
+      "as": "43, 91 আৰু 183 ক হৰণ কৰিলে প্ৰতিটোতে একে ভাগশেষ 3 এৰি যোৱা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Subtracting 3 gives 40, 88 and 180; their HCF is 4.",
+      "as": "3 বিয়োগ কৰিলে 40, 88 আৰু 180 পোৱা যায়; সিহঁতৰ গ.সা.উ. 4।"
+    }
+  },
+  {
+    "id": "lcm-hcf-014",
     "q": {
       "en": "The largest number that divides 62, 132 and 237 leaving the same remainder in each case is —",
       "as": "62, 132 আৰু 237 ক হৰণ কৰিলে প্ৰতিটোতে একে ভাগশেষ এৰি যোৱা আটাইতকৈ ডাঙৰ সংখ্যা —"
     },
     "options": [
       {
-        "en": "7",
-        "as": "৭"
-      },
-      {
         "en": "5",
         "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
       },
       {
         "en": "70",
@@ -240,16 +420,72 @@
     }
   },
   {
-    "id": "lcm-hcf-009",
+    "id": "lcm-hcf-015",
+    "q": {
+      "en": "The least number which when divided by 12, 15 and 18 leaves a remainder 5 in each case is —",
+      "as": "12, 15 আৰু 18 ৰে হৰণ কৰিলে প্ৰতিটোতে ভাগশেষ 5 এৰি যোৱা আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "175",
+        "as": "১৭৫"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "195",
+        "as": "১৯৫"
+      },
+      {
+        "en": "185",
+        "as": "১৮৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM of 12, 15, 18 = 180; add 5 to get 185.",
+      "as": "12, 15, 18 ৰ ল.সা.গু. = 180; 5 যোগ কৰিলে 185।"
+    }
+  },
+  {
+    "id": "lcm-hcf-016",
+    "q": {
+      "en": "The least number which when divided by 6, 8 and 12 leaves a remainder 1 in each case is —",
+      "as": "6, 8 আৰু 12 ৰে হৰণ কৰিলে প্ৰতিটোতে ভাগশেষ 1 এৰি যোৱা আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM of 6, 8, 12 = 24; add 1 to get 25.",
+      "as": "6, 8, 12 ৰ ল.সা.গু. = 24; 1 যোগ কৰিলে 25।"
+    }
+  },
+  {
+    "id": "lcm-hcf-017",
     "q": {
       "en": "Three bells toll at intervals of 6, 8 and 12 minutes. If they toll together at 8:00 a.m., they next toll together at —",
       "as": "তিনিটা ঘণ্টা 6, 8 আৰু 12 মিনিটৰ বিৰতিত বাজে। 8:00 বজাত একেলগে বাজিলে পুনৰ একেলগে বাজিব —"
     },
     "options": [
-      {
-        "en": "8:48 a.m.",
-        "as": "৮:৪৮ a.m."
-      },
       {
         "en": "8:36 a.m.",
         "as": "৮:৩৬ a.m."
@@ -259,18 +495,52 @@
         "as": "৮:২৪ a.m."
       },
       {
+        "en": "8:48 a.m.",
+        "as": "৮:৪৮ a.m."
+      },
+      {
         "en": "9:00 a.m.",
         "as": "৯:০০ a.m."
       }
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "en": "LCM of 6, 8 and 12 is 24 minutes, so they toll together at 8:24 a.m.",
-      "as": "6, 8 আৰু 12 ৰ ল.সা.গু. 24 মিনিট, গতিকে 8:24 বজাত একেলগে বাজিব।"
+      "en": "LCM of 6, 8 and 12 is 24 minutes.",
+      "as": "6, 8 আৰু 12 ৰ ল.সা.গু. 24 মিনিট।"
     }
   },
   {
-    "id": "lcm-hcf-010",
+    "id": "lcm-hcf-018",
+    "q": {
+      "en": "Two bells toll at intervals of 9 and 12 minutes. If they toll together now, they will toll together again after —",
+      "as": "দুটা ঘণ্টা 9 আৰু 12 মিনিটৰ বিৰতিত বাজে। এতিয়া একেলগে বাজিলে পুনৰ একেলগে বাজিব —"
+    },
+    "options": [
+      {
+        "en": "18 minutes",
+        "as": "১৮ মিনিট"
+      },
+      {
+        "en": "24 minutes",
+        "as": "২৪ মিনিট"
+      },
+      {
+        "en": "36 minutes",
+        "as": "৩৬ মিনিট"
+      },
+      {
+        "en": "72 minutes",
+        "as": "৭২ মিনিট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM of 9 and 12 is 36 minutes.",
+      "as": "9 আৰু 12 ৰ ল.সা.গু. 36 মিনিট।"
+    }
+  },
+  {
+    "id": "lcm-hcf-019",
     "q": {
       "en": "The HCF of 0.6 and 0.9 is —",
       "as": "0.6 আৰু 0.9 ৰ গ.সা.উ. —"
@@ -300,12 +570,16 @@
     }
   },
   {
-    "id": "lcm-hcf-011",
+    "id": "lcm-hcf-020",
     "q": {
       "en": "If the LCM of two numbers is 180 and their HCF is 6, then their product is —",
       "as": "দুটা সংখ্যাৰ ল.সা.গু. 180 আৰু গ.সা.উ. 6 হ'লে সিহঁতৰ গুণফল —"
     },
     "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
       {
         "en": "1080",
         "as": "১০৮০"
@@ -317,46 +591,1242 @@
       {
         "en": "186",
         "as": "১৮৬"
-      },
-      {
-        "en": "30",
-        "as": "৩০"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Product = HCF x LCM = 6 x 180 = 1080.",
       "as": "গুণফল = গ.সা.উ. x ল.সা.গু. = 6 x 180 = 1080।"
     }
   },
   {
-    "id": "lcm-hcf-012",
+    "id": "lcm-hcf-021",
+    "q": {
+      "en": "If the product of two numbers is 216 and their HCF is 6, their LCM is —",
+      "as": "দুটা সংখ্যাৰ গুণফল 216 আৰু গ.সা.উ. 6 হ'লে ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM = product / HCF = 216 / 6 = 36.",
+      "as": "ল.সা.গু. = গুণফল / গ.সা.উ. = 216 / 6 = 36।"
+    }
+  },
+  {
+    "id": "lcm-hcf-022",
     "q": {
       "en": "The smallest square number that is divisible by 4, 6 and 10 is —",
       "as": "4, 6 আৰু 10 ৰে বিভাজ্য আটাইতকৈ সৰু বৰ্গ সংখ্যা —"
     },
     "options": [
       {
-        "en": "120",
-        "as": "১২০"
+        "en": "60",
+        "as": "৬০"
       },
       {
-        "en": "900",
-        "as": "৯০০"
+        "en": "120",
+        "as": "১২০"
       },
       {
         "en": "3600",
         "as": "৩৬০০"
       },
       {
+        "en": "900",
+        "as": "৯০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM = 60 = 2^2 x 3 x 5; multiply by 15 to make a square, giving 900.",
+      "as": "ল.সা.গু. = 60 = 2^2 x 3 x 5; 15 ৰে পূৰণ কৰিলে 900।"
+    }
+  },
+  {
+    "id": "lcm-hcf-023",
+    "q": {
+      "en": "The smallest square number divisible by 6, 9 and 15 is —",
+      "as": "6, 9 আৰু 15 ৰে বিভাজ্য আটাইতকৈ সৰু বৰ্গ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      },
+      {
+        "en": "900",
+        "as": "৯০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM = 90 = 2 x 3^2 x 5; multiply by 2 x 5 = 10, giving 900.",
+      "as": "ল.সা.গু. = 90 = 2 x 3^2 x 5; 2 x 5 = 10 ৰে পূৰণ কৰিলে 900।"
+    }
+  },
+  {
+    "id": "lcm-hcf-024",
+    "q": {
+      "en": "The greatest 4-digit number exactly divisible by 15 is —",
+      "as": "15 ৰে নিখুঁতভাৱে বিভাজ্য আটাইতকৈ ডাঙৰ 4-অংকৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "9985",
+        "as": "৯৯৮৫"
+      },
+      {
+        "en": "9999",
+        "as": "৯৯৯৯"
+      },
+      {
+        "en": "9995",
+        "as": "৯৯৯৫"
+      },
+      {
+        "en": "9990",
+        "as": "৯৯৯০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "9999 ÷ 15 leaves remainder 9, so 9999 - 9 = 9990.",
+      "as": "9999 ÷ 15 ৰ ভাগশেষ 9, গতিকে 9999 - 9 = 9990।"
+    }
+  },
+  {
+    "id": "lcm-hcf-025",
+    "q": {
+      "en": "The greatest number of 5 digits exactly divisible by 12 is —",
+      "as": "12 ৰে নিখুঁতভাৱে বিভাজ্য আটাইতকৈ ডাঙৰ 5-অংকৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "99988",
+        "as": "৯৯৯৮৮"
+      },
+      {
+        "en": "99984",
+        "as": "৯৯৯৮৪"
+      },
+      {
+        "en": "99996",
+        "as": "৯৯৯৯৬"
+      },
+      {
+        "en": "99990",
+        "as": "৯৯৯৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "99999 ÷ 12 leaves remainder 3, so 99999 - 3 = 99996.",
+      "as": "99999 ÷ 12 ৰ ভাগশেষ 3, গতিকে 99999 - 3 = 99996।"
+    }
+  },
+  {
+    "id": "lcm-hcf-026",
+    "q": {
+      "en": "The least number of 4 digits exactly divisible by 18 is —",
+      "as": "18 ৰে নিখুঁতভাৱে বিভাজ্য আটাইতকৈ সৰু 4-অংকৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "1008",
+        "as": "১০০৮"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "1010",
+        "as": "১০১০"
+      },
+      {
+        "en": "1080",
+        "as": "১০৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1000 ÷ 18 leaves remainder 10, so 1000 + 8 = 1008.",
+      "as": "1000 ÷ 18 ৰ ভাগশেষ 10, গতিকে 1000 + 8 = 1008।"
+    }
+  },
+  {
+    "id": "lcm-hcf-027",
+    "q": {
+      "en": "If two numbers are 24 and 36, the ratio of their HCF to their LCM is —",
+      "as": "দুটা সংখ্যা 24 আৰু 36 হ'লে সিহঁতৰ গ.সা.উ. আৰু ল.সা.গু.ৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "1 : 12",
+        "as": "১ : ১২"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "1 : 6",
+        "as": "১ : ৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "HCF = 12 and LCM = 72, so 12 : 72 = 1 : 6.",
+      "as": "গ.সা.উ. = 12 আৰু ল.সা.গু. = 72, গতিকে 12 : 72 = 1 : 6।"
+    }
+  },
+  {
+    "id": "lcm-hcf-028",
+    "q": {
+      "en": "The HCF of 12, 18 and 24 is —",
+      "as": "12, 18 আৰু 24 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "12 = 2^2x3, 18 = 2x3^2, 24 = 2^3x3, so HCF = 2x3 = 6.",
+      "as": "12 = 2^2x3, 18 = 2x3^2, 24 = 2^3x3, গতিকে গ.সা.উ. = 6।"
+    }
+  },
+  {
+    "id": "lcm-hcf-029",
+    "q": {
+      "en": "The LCM of 5, 10 and 15 is —",
+      "as": "5, 10 আৰু 15 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
         "en": "60",
         "as": "৬০"
       }
     ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM = 2 x 3 x 5 = 30.",
+      "as": "ল.সা.গু. = 2 x 3 x 5 = 30।"
+    }
+  },
+  {
+    "id": "lcm-hcf-030",
+    "q": {
+      "en": "The HCF of two numbers is 8 and their LCM is 96. If one number is 24, the other is —",
+      "as": "দুটা সংখ্যাৰ গ.সা.উ. 8 আৰু ল.সা.গু. 96। এটা 24 হ'লে আনটো —"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Other = 8 x 96 / 24 = 32.",
+      "as": "আনটো = 8 x 96 / 24 = 32।"
+    }
+  },
+  {
+    "id": "lcm-hcf-031",
+    "q": {
+      "en": "The largest number which divides 245 and 1029 leaving remainder 5 in each case is —",
+      "as": "245 আৰু 1029 ক হৰণ কৰিলে প্ৰতিটোতে ভাগশেষ 5 এৰি যোৱা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "240 and 1024 have HCF 16.",
+      "as": "240 আৰু 1024 ৰ গ.সা.উ. 16।"
+    }
+  },
+  {
+    "id": "lcm-hcf-032",
+    "q": {
+      "en": "The least number which is exactly divisible by 12, 15 and 20 is —",
+      "as": "12, 15 আৰু 20 ৰে নিখুঁতভাৱে বিভাজ্য আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM of 12, 15 and 20 is 60.",
+      "as": "12, 15 আৰু 20 ৰ ল.সা.গু. 60।"
+    }
+  },
+  {
+    "id": "lcm-hcf-033",
+    "q": {
+      "en": "The greatest common divisor of 84 and 126 is —",
+      "as": "84 আৰু 126 ৰ আটাইতকৈ ডাঙৰ সাধাৰণ উৎপাদক —"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "84 = 2^2x3x7 and 126 = 2x3^2x7, so the HCF is 2x3x7 = 42.",
+      "as": "84 = 2^2x3x7 আৰু 126 = 2x3^2x7, গতিকে গ.সা.উ. = 42।"
+    }
+  },
+  {
+    "id": "lcm-hcf-034",
+    "q": {
+      "en": "The LCM of 16 and 20 is —",
+      "as": "16 আৰু 20 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "320",
+        "as": "৩২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "16 = 2^4 and 20 = 2^2 x 5, so LCM = 2^4 x 5 = 80.",
+      "as": "16 = 2^4 আৰু 20 = 2^2 x 5, গতিকে ল.সা.গু. = 80।"
+    }
+  },
+  {
+    "id": "lcm-hcf-035",
+    "q": {
+      "en": "The HCF of 96 and 144 is —",
+      "as": "96 আৰু 144 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "96 = 2^5 x 3 and 144 = 2^4 x 3^2, so HCF = 2^4 x 3 = 48.",
+      "as": "96 = 2^5 x 3 আৰু 144 = 2^4 x 3^2, গতিকে গ.সা.উ. = 48।"
+    }
+  },
+  {
+    "id": "lcm-hcf-036",
+    "q": {
+      "en": "The LCM of 3, 5 and 7 is —",
+      "as": "3, 5 আৰু 7 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All three are prime, so LCM = 105.",
+      "as": "তিনিওটা মৌলিক, গতিকে ল.সা.গু. = 105।"
+    }
+  },
+  {
+    "id": "lcm-hcf-037",
+    "q": {
+      "en": "If the HCF of two numbers is 1, the numbers are called —",
+      "as": "দুটা সংখ্যাৰ গ.সা.উ. 1 হ'লে সংখ্যা দুটাক কোৱা হয় —"
+    },
+    "options": [
+      {
+        "en": "prime numbers",
+        "as": "মৌলিক সংখ্যা"
+      },
+      {
+        "en": "composite numbers",
+        "as": "যৌগিক সংখ্যা"
+      },
+      {
+        "en": "twin primes",
+        "as": "যমজ মৌলিক"
+      },
+      {
+        "en": "co-prime numbers",
+        "as": "সহ-মৌলিক সংখ্যা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Numbers whose only common factor is 1 are co-prime.",
+      "as": "যিবোৰ সংখ্যাৰ একমাত্ৰ সাধাৰণ উৎপাদক 1, সেইবোৰ সহ-মৌলিক।"
+    }
+  },
+  {
+    "id": "lcm-hcf-038",
+    "q": {
+      "en": "The smallest number that must be added to 1000 to make it divisible by 11 is —",
+      "as": "1000 ক 11 ৰে বিভাজ্য কৰিবলৈ যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1001 = 11 x 91, so add 1.",
+      "as": "1001 = 11 x 91, গতিকে 1 যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "lcm-hcf-039",
+    "q": {
+      "en": "The number of common factors of 18 and 24 is —",
+      "as": "18 আৰু 24 ৰ সাধাৰণ উৎপাদকৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The common factors are 1, 2, 3 and 6, so there are 4.",
+      "as": "সাধাৰণ উৎপাদকবোৰ 1, 2, 3 আৰু 6, গতিকে মুঠ 4।"
+    }
+  },
+  {
+    "id": "lcm-hcf-040",
+    "q": {
+      "en": "The HCF of 7, 14 and 21 is —",
+      "as": "7, 14 আৰু 21 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All are multiples of 7 and 7 is prime.",
+      "as": "সকলো 7 ৰ গুণিতক আৰু 7 মৌলিক।"
+    }
+  },
+  {
+    "id": "lcm-hcf-041",
+    "q": {
+      "en": "The LCM of 2, 4, 6 and 8 is —",
+      "as": "2, 4, 6 আৰু 8 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      }
+    ],
     "correct": 1,
     "explanation": {
-      "en": "LCM of 4, 6, 10 = 60 = 2^2 x 3 x 5; to make a square multiply by 3 x 5 = 15, giving 900.",
-      "as": "4, 6, 10 ৰ ল.সা.গু. = 60 = 2^2 x 3 x 5; বৰ্গ কৰিবলৈ 3 x 5 = 15 ৰে পূৰণ কৰিলে 900।"
+      "en": "LCM = 2^3 x 3 = 24.",
+      "as": "ল.সা.গু. = 2^3 x 3 = 24।"
+    }
+  },
+  {
+    "id": "lcm-hcf-042",
+    "q": {
+      "en": "The HCF of 121 and 33 is —",
+      "as": "121 আৰু 33 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "121 = 11^2 and 33 = 3 x 11, so HCF = 11.",
+      "as": "121 = 11^2 আৰু 33 = 3 x 11, গতিকে গ.সা.উ. = 11।"
+    }
+  },
+  {
+    "id": "lcm-hcf-043",
+    "q": {
+      "en": "The smallest number divisible by both 8 and 12 is —",
+      "as": "8 আৰু 12 দুয়োটাৰে বিভাজ্য আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of 8 and 12 is 24.",
+      "as": "8 আৰু 12 ৰ ল.সা.গু. 24।"
+    }
+  },
+  {
+    "id": "lcm-hcf-044",
+    "q": {
+      "en": "The HCF of 0.12 and 0.18 is —",
+      "as": "0.12 আৰু 0.18 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "0.6",
+        "as": "০.৬"
+      },
+      {
+        "en": "0.006",
+        "as": "০.০০৬"
+      },
+      {
+        "en": "0.06",
+        "as": "০.০৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write as 12/100 and 18/100; HCF is 6/100 = 0.06.",
+      "as": "12/100 আৰু 18/100 হিচাপে লিখিলে গ.সা.উ. 6/100 = 0.06।"
+    }
+  },
+  {
+    "id": "lcm-hcf-045",
+    "q": {
+      "en": "If a number is a multiple of 12, it is also a multiple of —",
+      "as": "এটা সংখ্যা 12 ৰ গুণিতক হ'লে সেয়া অৱশ্যে গুণিতক —"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "4 is a factor of 12, so every multiple of 12 is a multiple of 4.",
+      "as": "4 হৈছে 12 ৰ উৎপাদক, গতিকে 12 ৰ প্ৰতিটো গুণিতক 4 ৰ গুণিতক।"
+    }
+  },
+  {
+    "id": "lcm-hcf-046",
+    "q": {
+      "en": "The LCM of 25 and 40 is —",
+      "as": "25 আৰু 40 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "25 = 5^2 and 40 = 2^3 x 5, so LCM = 2^3 x 5^2 = 200.",
+      "as": "25 = 5^2 আৰু 40 = 2^3 x 5, গতিকে ল.সা.গু. = 200।"
+    }
+  },
+  {
+    "id": "lcm-hcf-047",
+    "q": {
+      "en": "The HCF of 18, 27 and 36 is —",
+      "as": "18, 27 আৰু 36 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "18 = 2x3^2, 27 = 3^3, 36 = 2^2x3^2, so HCF = 3^2 = 9.",
+      "as": "18 = 2x3^2, 27 = 3^3, 36 = 2^2x3^2, গতিকে গ.সা.উ. = 9।"
+    }
+  },
+  {
+    "id": "lcm-hcf-048",
+    "q": {
+      "en": "The least common multiple of 6 and 15 is —",
+      "as": "6 আৰু 15 ৰ লঘিষ্ঠ সাধাৰণ গুণিতক —"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6 = 2x3 and 15 = 3x5, so LCM = 2x3x5 = 30.",
+      "as": "6 = 2x3 আৰু 15 = 3x5, গতিকে ল.সা.গু. = 30।"
+    }
+  },
+  {
+    "id": "lcm-hcf-049",
+    "q": {
+      "en": "The number of times the HCF of 8 and 12 is contained in their LCM is —",
+      "as": "8 আৰু 12 ৰ গ.সা.উ. সিহঁতৰ ল.সা.গু.ত যিমানবাৰ থাকে —"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "HCF = 4 and LCM = 24, and 24 / 4 = 6.",
+      "as": "গ.সা.উ. = 4 আৰু ল.সা.গু. = 24, আৰু 24 / 4 = 6।"
+    }
+  },
+  {
+    "id": "lcm-hcf-050",
+    "q": {
+      "en": "The greatest number that divides 25 and 45 exactly is —",
+      "as": "25 আৰু 45 ক নিখুঁতভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "25 = 5^2 and 45 = 3^2 x 5, so the HCF is 5.",
+      "as": "25 = 5^2 আৰু 45 = 3^2 x 5, গতিকে গ.সা.উ. = 5।"
+    }
+  },
+  {
+    "id": "lcm-hcf-051",
+    "q": {
+      "en": "The LCM of 11 and 22 is —",
+      "as": "11 আৰু 22 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "242",
+        "as": "২৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "22 is a multiple of 11, so the LCM is 22.",
+      "as": "22 হৈছে 11 ৰ গুণিতক, গতিকে ল.সা.গু. 22।"
+    }
+  },
+  {
+    "id": "lcm-hcf-052",
+    "q": {
+      "en": "The HCF of two numbers is 6 and their LCM is 60. If one number is 12, the other is —",
+      "as": "দুটা সংখ্যাৰ গ.সা.উ. 6 আৰু ল.সা.গু. 60। এটা 12 হ'লে আনটো —"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Other = 6 x 60 / 12 = 30.",
+      "as": "আনটো = 6 x 60 / 12 = 30।"
+    }
+  },
+  {
+    "id": "lcm-hcf-053",
+    "q": {
+      "en": "The smallest number that is divisible by 5, 10 and 15 is —",
+      "as": "5, 10 আৰু 15 ৰে বিভাজ্য আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM of 5, 10 and 15 is 30.",
+      "as": "5, 10 আৰু 15 ৰ ল.সা.গু. 30।"
+    }
+  },
+  {
+    "id": "lcm-hcf-054",
+    "q": {
+      "en": "The HCF of 64 and 80 is —",
+      "as": "64 আৰু 80 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "64 = 2^6 and 80 = 2^4 x 5, so HCF = 2^4 = 16.",
+      "as": "64 = 2^6 আৰু 80 = 2^4 x 5, গতিকে গ.সা.উ. = 16।"
+    }
+  },
+  {
+    "id": "lcm-hcf-055",
+    "q": {
+      "en": "The LCM of 14 and 21 is —",
+      "as": "14 আৰু 21 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "294",
+        "as": "২৯৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "14 = 2x7 and 21 = 3x7, so LCM = 2x3x7 = 42.",
+      "as": "14 = 2x7 আৰু 21 = 3x7, গতিকে ল.সা.গু. = 42।"
+    }
+  },
+  {
+    "id": "lcm-hcf-056",
+    "q": {
+      "en": "The smallest number which when divided by 8, 12 and 16 leaves no remainder is —",
+      "as": "8, 12 আৰু 16 ৰে হৰণ কৰিলে কোনো ভাগশেষ নথকা আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM of 8, 12 and 16 is 48.",
+      "as": "8, 12 আৰু 16 ৰ ল.সা.গু. 48।"
+    }
+  },
+  {
+    "id": "lcm-hcf-057",
+    "q": {
+      "en": "The HCF of 105 and 154 is —",
+      "as": "105 আৰু 154 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "105 = 3x5x7 and 154 = 2x7x11, so HCF = 7.",
+      "as": "105 = 3x5x7 আৰু 154 = 2x7x11, গতিকে গ.সা.উ. = 7।"
+    }
+  },
+  {
+    "id": "lcm-hcf-058",
+    "q": {
+      "en": "The LCM of 1/2 and 1/3 is —",
+      "as": "1/2 আৰু 1/3 ৰ ল.সা.গু. —"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM of fractions = LCM of numerators / HCF of denominators = 1/1 = 1.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = লৱৰ ল.সা.গু. / হৰৰ গ.সা.উ. = 1/1 = 1।"
+    }
+  },
+  {
+    "id": "lcm-hcf-059",
+    "q": {
+      "en": "The HCF of 1/2 and 1/3 is —",
+      "as": "1/2 আৰু 1/3 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "HCF of fractions = HCF of numerators / LCM of denominators = 1/6.",
+      "as": "ভগ্নাংশৰ গ.সা.উ. = লৱৰ গ.সা.উ. / হৰৰ ল.সা.গু. = 1/6।"
+    }
+  },
+  {
+    "id": "lcm-hcf-060",
+    "q": {
+      "en": "The greatest number that divides 250 and 175 exactly is —",
+      "as": "250 আৰু 175 ক নিখুঁতভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "250 = 2 x 5^3 and 175 = 5^2 x 7, so the HCF is 25.",
+      "as": "250 = 2 x 5^3 আৰু 175 = 5^2 x 7, গতিকে গ.সা.উ. 25।"
+    }
+  },
+  {
+    "id": "lcm-hcf-061",
+    "q": {
+      "en": "The HCF of 39 and 65 is —",
+      "as": "39 আৰু 65 ৰ গ.সা.উ. —"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "39 = 3 x 13 and 65 = 5 x 13, so the HCF is 13.",
+      "as": "39 = 3 x 13 আৰু 65 = 5 x 13, গতিকে গ.সা.উ. 13।"
     }
   }
 ]

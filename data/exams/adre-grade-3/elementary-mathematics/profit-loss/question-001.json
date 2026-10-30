@@ -2,17 +2,103 @@
   {
     "id": "profit-loss-001",
     "q": {
-      "en": "An article bought for ₹400 is sold for ₹460. The profit per cent is —",
-      "as": "₹400 ত কিনা এটা বস্তু ₹460 ত বিক্ৰী কৰিলে লাভ শতাংশ —"
+      "en": "An article bought for 400 is sold for 460. The profit is —",
+      "as": "400 টকাত কিনা সামগ্ৰী 460 টকাত বিক্ৰী হ'লে লাভ —"
     },
     "options": [
       {
-        "en": "10%",
-        "as": "১০%"
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit = 460 - 400 = 60.",
+      "as": "লাভ = 460 - 400 = 60।"
+    }
+  },
+  {
+    "id": "profit-loss-002",
+    "q": {
+      "en": "An article bought for 500 is sold for 450. The loss is —",
+      "as": "500 টকাত কিনা সামগ্ৰী 450 টকাত বিক্ৰী হ'লে লোকচান —"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Loss = 500 - 450 = 50.",
+      "as": "লোকচান = 500 - 450 = 50।"
+    }
+  },
+  {
+    "id": "profit-loss-003",
+    "q": {
+      "en": "The profit per cent when an article bought for 250 is sold for 300 is —",
+      "as": "250 টকাত কিনা সামগ্ৰী 300 টকাত বিক্ৰী হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "16%",
+        "as": "১৬%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
       },
       {
         "en": "18%",
         "as": "১৮%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit = 50; 50 / 250 x 100 = 20%.",
+      "as": "লাভ = 50; 50 / 250 x 100 = 20%।"
+    }
+  },
+  {
+    "id": "profit-loss-004",
+    "q": {
+      "en": "The loss per cent when an article bought for 400 is sold for 360 is —",
+      "as": "400 টকাত কিনা সামগ্ৰী 360 টকাত বিক্ৰী হ'লে শতকৰা লোকচান —"
+    },
+    "options": [
+      {
+        "en": "8%",
+        "as": "৮%"
       },
       {
         "en": "15%",
@@ -21,84 +107,628 @@
       {
         "en": "12%",
         "as": "১২%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Loss = 40; 40 / 400 x 100 = 10%.",
+      "as": "লোকচান = 40; 40 / 400 x 100 = 10%।"
+    }
+  },
+  {
+    "id": "profit-loss-005",
+    "q": {
+      "en": "If the cost price is 200 and the profit is 15%, the selling price is —",
+      "as": "ক্ৰয় মূল্য 200 আৰু লাভ 15% হ'লে বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "215",
+        "as": "২১৫"
+      },
+      {
+        "en": "230",
+        "as": "২৩০"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "235",
+        "as": "২৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = 200 x 1.15 = 230.",
+      "as": "বিক্ৰয় মূল্য = 200 x 1.15 = 230।"
+    }
+  },
+  {
+    "id": "profit-loss-006",
+    "q": {
+      "en": "If the selling price is 240 and the profit is 20%, the cost price is —",
+      "as": "বিক্ৰয় মূল্য 240 আৰু লাভ 20% হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "190",
+        "as": "১৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 240 / 1.2 = 200.",
+      "as": "ক্ৰয় মূল্য = 240 / 1.2 = 200।"
+    }
+  },
+  {
+    "id": "profit-loss-007",
+    "q": {
+      "en": "If the selling price is 342 and the loss is 5%, the cost price is —",
+      "as": "বিক্ৰয় মূল্য 342 আৰু লোকচান 5% হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "365",
+        "as": "৩৬৫"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "370",
+        "as": "৩৭০"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "Profit = 60 and 60 / 400 x 100 = 15%.",
-      "as": "লাভ = 60 আৰু 60 / 400 x 100 = 15%।"
+      "en": "CP = 342 / 0.95 = 360.",
+      "as": "ক্ৰয় মূল্য = 342 / 0.95 = 360।"
     }
   },
   {
-    "id": "profit-loss-002",
+    "id": "profit-loss-008",
     "q": {
-      "en": "A man buys an article for ₹750 and sells it at a loss of 20%. The selling price is —",
-      "as": "এজন মানুহে ₹750 ত এটা বস্তু কিনি 20% লোকচানত বিক্ৰী কৰিলে। বিক্ৰয়মূল্য —"
+      "en": "An article sold for 720 gives a profit of 20%. The cost price is —",
+      "as": "720 টকাত বিক্ৰী কৰা সামগ্ৰীয়ে 20% লাভ দিয়ে। ক্ৰয় মূল্য —"
     },
     "options": [
       {
-        "en": "₹600",
-        "as": "₹৬০০"
+        "en": "600",
+        "as": "৬০০"
       },
       {
-        "en": "₹650",
-        "as": "₹৬৫০"
+        "en": "580",
+        "as": "৫৮০"
       },
       {
-        "en": "₹700",
-        "as": "₹৭০০"
+        "en": "560",
+        "as": "৫৬০"
       },
       {
-        "en": "₹625",
-        "as": "₹৬২৫"
+        "en": "620",
+        "as": "৬২০"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "750 - 20% of 750 = 600.",
-      "as": "750 - 750 ৰ 20% = 600।"
+      "en": "CP = 720 / 1.2 = 600.",
+      "as": "ক্ৰয় মূল্য = 720 / 1.2 = 600।"
     }
   },
   {
-    "id": "profit-loss-003",
+    "id": "profit-loss-009",
     "q": {
-      "en": "By selling an article for ₹540 a shopkeeper gains 20%. The cost price is —",
-      "as": "এটা বস্তু ₹540 ত বিক্ৰী কৰি এজন দোকানীয়ে 20% লাভ কৰিলে। ক্ৰয়মূল্য —"
+      "en": "An article sold for 460 incurs a loss of 8%. The cost price is —",
+      "as": "460 টকাত বিক্ৰী কৰা সামগ্ৰীয়ে 8% লোকচান দিয়ে। ক্ৰয় মূল্য —"
     },
     "options": [
       {
-        "en": "₹450",
-        "as": "₹৪৫০"
+        "en": "480",
+        "as": "৪৮০"
       },
       {
-        "en": "₹480",
-        "as": "₹৪৮০"
+        "en": "490",
+        "as": "৪৯০"
       },
       {
-        "en": "₹420",
-        "as": "₹৪২০"
+        "en": "520",
+        "as": "৫২০"
       },
       {
-        "en": "₹432",
-        "as": "₹৪৩২"
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CP = 460 / 0.92 = 500.",
+      "as": "ক্ৰয় মূল্য = 460 / 0.92 = 500।"
+    }
+  },
+  {
+    "id": "profit-loss-010",
+    "q": {
+      "en": "By selling an article for 540 a man gains 12.5%. The cost price is —",
+      "as": "এটা সামগ্ৰী 540 টকাত বিক্ৰী কৰি এজনে 12.5% লাভ কৰে। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "460",
+        "as": "৪৬০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "470",
+        "as": "৪৭০"
+      },
+      {
+        "en": "490",
+        "as": "৪৯০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP = 540 / 1.125 = 480.",
+      "as": "ক্ৰয় মূল্য = 540 / 1.125 = 480।"
+    }
+  },
+  {
+    "id": "profit-loss-011",
+    "q": {
+      "en": "The marked price of an article is 800 and a discount of 15% is given. The selling price is —",
+      "as": "এটা সামগ্ৰীৰ চিহ্নিত মূল্য 800 আৰু 15% ৰেহাই দিয়া হয়। বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "660",
+        "as": "৬৬০"
+      },
+      {
+        "en": "670",
+        "as": "৬৭০"
+      },
+      {
+        "en": "680",
+        "as": "৬৮০"
+      },
+      {
+        "en": "690",
+        "as": "৬৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = 800 x 0.85 = 680.",
+      "as": "বিক্ৰয় মূল্য = 800 x 0.85 = 680।"
+    }
+  },
+  {
+    "id": "profit-loss-012",
+    "q": {
+      "en": "The marked price is 500 and the discount is 20%. The discount amount is —",
+      "as": "চিহ্নিত মূল্য 500 আৰু ৰেহাই 20%। ৰেহাইৰ পৰিমাণ —"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Discount = 500 x 20 / 100 = 100.",
+      "as": "ৰেহাই = 500 x 20 / 100 = 100।"
+    }
+  },
+  {
+    "id": "profit-loss-013",
+    "q": {
+      "en": "A shopkeeper marks an article 25% above cost and gives a discount of 10%. His profit per cent is —",
+      "as": "এজন দোকানীয়ে ক্ৰয় মূল্যতকৈ 25% বেছি চিহ্নিত কৰি 10% ৰেহাই দিয়ে। তেওঁৰ শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 1.25 x 0.9 = 1.125, a profit of 12.5%.",
+      "as": "বিক্ৰয় মূল্য = 1.25 x 0.9 = 1.125, লাভ 12.5%।"
+    }
+  },
+  {
+    "id": "profit-loss-014",
+    "q": {
+      "en": "A man buys an article for 600 and sells it at a loss of 10%. He sells it for —",
+      "as": "এজনে 600 টকাত সামগ্ৰী কিনি 10% লোকচানত বিক্ৰী কৰে। বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "530",
+        "as": "৫৩০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      },
+      {
+        "en": "550",
+        "as": "৫৫০"
+      },
+      {
+        "en": "560",
+        "as": "৫৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = 600 x 0.9 = 540.",
+      "as": "বিক্ৰয় মূল্য = 600 x 0.9 = 540।"
+    }
+  },
+  {
+    "id": "profit-loss-015",
+    "q": {
+      "en": "If the cost price of 10 articles equals the selling price of 8 articles, the profit per cent is —",
+      "as": "10 টা সামগ্ৰীৰ ক্ৰয় মূল্য 8 টা সামগ্ৰীৰ বিক্ৰয় মূল্যৰ সমান হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "40%",
+        "as": "৪০%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit% = (10 - 8)/8 x 100 = 25%.",
+      "as": "লাভ% = (10 - 8)/8 x 100 = 25%।"
+    }
+  },
+  {
+    "id": "profit-loss-016",
+    "q": {
+      "en": "If the cost price of 12 pens equals the selling price of 15 pens, the loss per cent is —",
+      "as": "12 টা কলমৰ ক্ৰয় মূল্য 15 টা কলমৰ বিক্ৰয় মূল্যৰ সমান হ'লে শতকৰা লোকচান —"
+    },
+    "options": [
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Loss% = (15 - 12)/15 x 100 = 20%.",
+      "as": "লোকচান% = (15 - 12)/15 x 100 = 20%।"
+    }
+  },
+  {
+    "id": "profit-loss-017",
+    "q": {
+      "en": "A trader sells two articles at 1,000 each, one at 20% profit and the other at 20% loss. His overall result is —",
+      "as": "এজন ব্যৱসায়ীয়ে 1,000 টকাকৈ দুটা সামগ্ৰী বিক্ৰী কৰে, এটাত 20% লাভ আৰু আনটোত 20% লোকচান। তেওঁৰ মুঠ ফলাফল —"
+    },
+    "options": [
+      {
+        "en": "4% loss",
+        "as": "৪% লোকচান"
+      },
+      {
+        "en": "no profit no loss",
+        "as": "লাভ-লোকচান নাই"
+      },
+      {
+        "en": "4% profit",
+        "as": "৪% লাভ"
+      },
+      {
+        "en": "2% loss",
+        "as": "২% লোকচান"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "CP = 540 x 100 / 120 = 450.",
-      "as": "ক্ৰয়মূল্য = 540 x 100 / 120 = 450।"
+      "en": "For equal SP with equal gain and loss per cent, there is always a loss of (20^2)/100 = 4%.",
+      "as": "সমান বিক্ৰয় মূল্য আৰু সমান লাভ-লোকচান শতাংশত সদায় (20^2)/100 = 4% লোকচান হয়।"
     }
   },
   {
-    "id": "profit-loss-004",
+    "id": "profit-loss-018",
     "q": {
-      "en": "If the cost price of 12 articles equals the selling price of 10 articles, the profit per cent is —",
-      "as": "12 টা বস্তুৰ ক্ৰয়মূল্য 10 টা বস্তুৰ বিক্ৰয়মূল্যৰ সমান হ'লে লাভ শতাংশ —"
+      "en": "A shopkeeper sells an article at a profit of 25%. If the cost price is 320, the selling price is —",
+      "as": "এজন দোকানীয়ে এটা সামগ্ৰী 25% লাভত বিক্ৰী কৰে। ক্ৰয় মূল্য 320 হ'লে বিক্ৰয় মূল্য —"
     },
     "options": [
       {
-        "en": "16 2/3%",
-        "as": "১৬ ২/৩%"
+        "en": "380",
+        "as": "৩৮০"
+      },
+      {
+        "en": "390",
+        "as": "৩৯০"
+      },
+      {
+        "en": "410",
+        "as": "৪১০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 320 x 1.25 = 400.",
+      "as": "বিক্ৰয় মূল্য = 320 x 1.25 = 400।"
+    }
+  },
+  {
+    "id": "profit-loss-019",
+    "q": {
+      "en": "If an article is sold for 450 at a loss of 10%, the cost price is —",
+      "as": "এটা সামগ্ৰী 450 টকাত 10% লোকচানত বিক্ৰী হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "490",
+        "as": "৪৯০"
+      },
+      {
+        "en": "495",
+        "as": "৪৯৫"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "510",
+        "as": "৫১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CP = 450 / 0.9 = 500.",
+      "as": "ক্ৰয় মূল্য = 450 / 0.9 = 500।"
+    }
+  },
+  {
+    "id": "profit-loss-020",
+    "q": {
+      "en": "A man sells a watch for 1,140 and gains 14%. The cost price is —",
+      "as": "এজনে এটা ঘড়ী 1,140 টকাত বিক্ৰী কৰি 14% লাভ কৰে। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "980",
+        "as": "৯৮০"
+      },
+      {
+        "en": "990",
+        "as": "৯৯০"
+      },
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "1,020",
+        "as": "১,০২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CP = 1140 / 1.14 = 1,000.",
+      "as": "ক্ৰয় মূল্য = 1140 / 1.14 = 1,000।"
+    }
+  },
+  {
+    "id": "profit-loss-021",
+    "q": {
+      "en": "The profit made by selling an article for 625 which cost 500 is —",
+      "as": "500 টকাৰ সামগ্ৰী 625 টকাত বিক্ৰী কৰি পোৱা লাভ —"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "115",
+        "as": "১১৫"
+      },
+      {
+        "en": "135",
+        "as": "১৩৫"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit = 125.",
+      "as": "লাভ = 125।"
+    }
+  },
+  {
+    "id": "profit-loss-022",
+    "q": {
+      "en": "The profit per cent when an article bought for 80 is sold for 100 is —",
+      "as": "80 টকাত কিনা সামগ্ৰী 100 টকাত বিক্ৰী হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "22%",
+        "as": "২২%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit = 20; 20 / 80 x 100 = 25%.",
+      "as": "লাভ = 20; 20 / 80 x 100 = 25%।"
+    }
+  },
+  {
+    "id": "profit-loss-023",
+    "q": {
+      "en": "If a man sells an article at 5% loss and the cost price is 800, the selling price is —",
+      "as": "এজনে 5% লোকচানত সামগ্ৰী বিক্ৰী কৰে আৰু ক্ৰয় মূল্য 800 হ'লে বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "740",
+        "as": "৭৪০"
+      },
+      {
+        "en": "750",
+        "as": "৭৫০"
+      },
+      {
+        "en": "770",
+        "as": "৭৭০"
+      },
+      {
+        "en": "760",
+        "as": "৭৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 800 x 0.95 = 760.",
+      "as": "বিক্ৰয় মূল্য = 800 x 0.95 = 760।"
+    }
+  },
+  {
+    "id": "profit-loss-024",
+    "q": {
+      "en": "A dealer buys an article for 1,200 and sells it for 1,500. His profit per cent is —",
+      "as": "এজন ব্যৱসায়ীয়ে 1,200 টকাত সামগ্ৰী কিনি 1,500 টকাত বিক্ৰী কৰে। তেওঁৰ শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "22%",
+        "as": "২২%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit = 300; 300 / 1200 x 100 = 25%.",
+      "as": "লাভ = 300; 300 / 1200 x 100 = 25%।"
+    }
+  },
+  {
+    "id": "profit-loss-025",
+    "q": {
+      "en": "If the selling price of 15 articles equals the cost price of 12 articles, the loss per cent is —",
+      "as": "15 টা সামগ্ৰীৰ বিক্ৰয় মূল্য 12 টা সামগ্ৰীৰ ক্ৰয় মূল্যৰ সমান হ'লে শতকৰা লোকচান —"
+    },
+    "options": [
+      {
+        "en": "15%",
+        "as": "১৫%"
       },
       {
         "en": "30%",
@@ -115,248 +745,1298 @@
     ],
     "correct": 3,
     "explanation": {
-      "en": "Let CP of one = 10 and SP of one = 12; profit = 20%.",
-      "as": "এটাৰ ক্ৰয়মূল্য = 10 আৰু এটাৰ বিক্ৰয়মূল্য = 12 ধৰিলে; লাভ = 20%।"
+      "en": "Loss% = (15 - 12)/15 x 100 = 20%.",
+      "as": "লোকচান% = (15 - 12)/15 x 100 = 20%।"
     }
   },
   {
-    "id": "profit-loss-005",
+    "id": "profit-loss-026",
     "q": {
-      "en": "A shopkeeper marks his goods 40% above cost and allows a discount of 10%. His profit per cent is —",
-      "as": "এজন দোকানীয়ে ক্ৰয়মূল্যৰ ওপৰত 40% বেছি দাম লিখি 10% ৰেহাই দিয়ে। তেওঁৰ লাভ শতাংশ —"
+      "en": "A man bought an article for 350 and sold it at a gain of 20%. The selling price is —",
+      "as": "এজনে 350 টকাত সামগ্ৰী কিনি 20% লাভত বিক্ৰী কৰে। বিক্ৰয় মূল্য —"
     },
     "options": [
       {
-        "en": "26%",
-        "as": "২৬%"
+        "en": "410",
+        "as": "৪১০"
       },
       {
-        "en": "24%",
-        "as": "২৪%"
+        "en": "430",
+        "as": "৪৩০"
       },
       {
-        "en": "28%",
-        "as": "২৮%"
+        "en": "420",
+        "as": "৪২০"
       },
       {
-        "en": "30%",
-        "as": "৩০%"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "Take CP = 100; MP = 140 and SP = 126, so profit = 26%.",
-      "as": "ক্ৰয়মূল্য = 100 ধৰিলে; অংকিত মূল্য = 140 আৰু বিক্ৰয়মূল্য = 126, গতিকে লাভ = 26%।"
-    }
-  },
-  {
-    "id": "profit-loss-006",
-    "q": {
-      "en": "The selling price of an article is ₹1,140 after a discount of 5%. Its marked price is —",
-      "as": "5% ৰেহাইৰ পিছত এটা বস্তুৰ বিক্ৰয়মূল্য ₹1,140। তাৰ অংকিত মূল্য —"
-    },
-    "options": [
-      {
-        "en": "₹1,190",
-        "as": "₹১,১৯০"
-      },
-      {
-        "en": "₹1,220",
-        "as": "₹১,২২০"
-      },
-      {
-        "en": "₹1,180",
-        "as": "₹১,১৮০"
-      },
-      {
-        "en": "₹1,200",
-        "as": "₹১,২০০"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "MP = 1140 x 100 / 95 = 1200.",
-      "as": "অংকিত মূল্য = 1140 x 100 / 95 = 1200।"
-    }
-  },
-  {
-    "id": "profit-loss-007",
-    "q": {
-      "en": "If the selling price is ₹990 and the loss is 10%, the cost price is —",
-      "as": "বিক্ৰয়মূল্য ₹990 আৰু ক্ষতি 10% হ'লে ক্ৰয়মূল্য —"
-    },
-    "options": [
-      {
-        "en": "₹1,120",
-        "as": "₹১,১২০"
-      },
-      {
-        "en": "₹1,090",
-        "as": "₹১,০৯০"
-      },
-      {
-        "en": "₹1,080",
-        "as": "₹১,০৮০"
-      },
-      {
-        "en": "₹1,100",
-        "as": "₹১,১০০"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "CP = 990 x 100 / 90 = 1100.",
-      "as": "ক্ৰয়মূল্য = 990 x 100 / 90 = 1100।"
-    }
-  },
-  {
-    "id": "profit-loss-008",
-    "q": {
-      "en": "The profit earned by selling an article for ₹1,150 is the same as the loss when it is sold for ₹850. The cost price is —",
-      "as": "এটা বস্তু ₹1,150 ত বিক্ৰী কৰিলে যিমান লাভ হয়, ₹850 ত বিক্ৰী কৰিলে সিমান লোকচান হয়। ক্ৰয়মূল্য —"
-    },
-    "options": [
-      {
-        "en": "₹950",
-        "as": "₹৯৫০"
-      },
-      {
-        "en": "₹1,050",
-        "as": "₹১,০৫০"
-      },
-      {
-        "en": "₹1,100",
-        "as": "₹১,১০০"
-      },
-      {
-        "en": "₹1,000",
-        "as": "₹১,০০০"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "CP = (1150 + 850) / 2 = 1000.",
-      "as": "ক্ৰয়মূল্য = (1150 + 850) / 2 = 1000।"
-    }
-  },
-  {
-    "id": "profit-loss-009",
-    "q": {
-      "en": "Two successive discounts of 10% and 20% are equivalent to a single discount of —",
-      "as": "10% আৰু 20% ৰ দুটা ক্ৰমিক ৰেহাই এটা ৰেহাইৰ সমান —"
-    },
-    "options": [
-      {
-        "en": "28%",
-        "as": "২৮%"
-      },
-      {
-        "en": "30%",
-        "as": "৩০%"
-      },
-      {
-        "en": "25%",
-        "as": "২৫%"
-      },
-      {
-        "en": "32%",
-        "as": "৩২%"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "0.9 x 0.8 = 0.72, so the single discount is 28%.",
-      "as": "0.9 x 0.8 = 0.72, গতিকে এটা ৰেহাই 28%।"
-    }
-  },
-  {
-    "id": "profit-loss-010",
-    "q": {
-      "en": "If an article is sold at ₹320 at a profit of 60%, the cost price is —",
-      "as": "60% লাভত এটা বস্তু ₹320 ত বিক্ৰী কৰিলে ক্ৰয়মূল্য —"
-    },
-    "options": [
-      {
-        "en": "₹240",
-        "as": "₹২৪০"
-      },
-      {
-        "en": "₹192",
-        "as": "₹১৯২"
-      },
-      {
-        "en": "₹200",
-        "as": "₹২০০"
-      },
-      {
-        "en": "₹180",
-        "as": "₹১৮০"
+        "en": "440",
+        "as": "৪৪০"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "CP = 320 x 100 / 160 = 200.",
-      "as": "ক্ৰয়মূল্য = 320 x 100 / 160 = 200।"
+      "en": "SP = 350 x 1.2 = 420.",
+      "as": "বিক্ৰয় মূল্য = 350 x 1.2 = 420।"
     }
   },
   {
-    "id": "profit-loss-011",
+    "id": "profit-loss-027",
     "q": {
-      "en": "By selling 20 articles a man gains the cost price of 4 articles. His gain per cent is —",
-      "as": "20 টা বস্তু বিক্ৰী কৰি এজনে 4 টা বস্তুৰ ক্ৰয়মূল্যৰ সমান লাভ কৰে। তেওঁৰ লাভ শতাংশ —"
+      "en": "The cost price of an article sold for 966 at a loss of 8% is —",
+      "as": "8% লোকচানত 966 টকাত বিক্ৰী হোৱা সামগ্ৰীৰ ক্ৰয় মূল্য —"
     },
     "options": [
       {
-        "en": "30%",
-        "as": "৩০%"
+        "en": "1,040",
+        "as": "১,০৪০"
       },
       {
-        "en": "25%",
-        "as": "২৫%"
+        "en": "1,050",
+        "as": "১,০৫০"
+      },
+      {
+        "en": "1,060",
+        "as": "১,০৬০"
+      },
+      {
+        "en": "1,080",
+        "as": "১,০৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP = 966 / 0.92 = 1,050.",
+      "as": "ক্ৰয় মূল্য = 966 / 0.92 = 1,050।"
+    }
+  },
+  {
+    "id": "profit-loss-028",
+    "q": {
+      "en": "If an article is sold for 1,320 at a profit of 10%, the cost price is —",
+      "as": "এটা সামগ্ৰী 1,320 টকাত 10% লাভত বিক্ৰী হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      },
+      {
+        "en": "1,180",
+        "as": "১,১৮০"
+      },
+      {
+        "en": "1,220",
+        "as": "১,২২০"
+      },
+      {
+        "en": "1,250",
+        "as": "১,২৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 1320 / 1.1 = 1,200.",
+      "as": "ক্ৰয় মূল্য = 1320 / 1.1 = 1,200।"
+    }
+  },
+  {
+    "id": "profit-loss-029",
+    "q": {
+      "en": "A shopkeeper allows a discount of 10% on a marked price of 1,200. The selling price is —",
+      "as": "এজন দোকানীয়ে 1,200 চিহ্নিত মূল্যৰ ওপৰত 10% ৰেহাই দিয়ে। বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "1,060",
+        "as": "১,০৬০"
+      },
+      {
+        "en": "1,070",
+        "as": "১,০৭০"
+      },
+      {
+        "en": "1,100",
+        "as": "১,১০০"
+      },
+      {
+        "en": "1,080",
+        "as": "১,০৮০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 1,200 x 0.9 = 1,080.",
+      "as": "বিক্ৰয় মূল্য = 1,200 x 0.9 = 1,080।"
+    }
+  },
+  {
+    "id": "profit-loss-030",
+    "q": {
+      "en": "The profit per cent when the cost price is 640 and the selling price is 736 is —",
+      "as": "ক্ৰয় মূল্য 640 আৰু বিক্ৰয় মূল্য 736 হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "14%",
+        "as": "১৪%"
       },
       {
         "en": "16%",
         "as": "১৬%"
       },
       {
-        "en": "20%",
-        "as": "২০%"
+        "en": "15%",
+        "as": "১৫%"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "Gain / CP x 100 = 4 / 20 x 100 = 20%.",
-      "as": "লাভ / ক্ৰয়মূল্য x 100 = 4 / 20 x 100 = 20%।"
+      "en": "Profit = 96; 96 / 640 x 100 = 15%.",
+      "as": "লাভ = 96; 96 / 640 x 100 = 15%।"
     }
   },
   {
-    "id": "profit-loss-012",
+    "id": "profit-loss-031",
     "q": {
-      "en": "A dishonest dealer sells goods at cost price but uses a weight of 900 g for 1 kg. His gain per cent is —",
-      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যতে সামগ্ৰী বিক্ৰী কৰে কিন্তু 1 কেজিৰ সলনি 900 গ্ৰাম ব্যৱহাৰ কৰে। তেওঁৰ লাভ শতাংশ —"
+      "en": "A man buys 20 kg of rice at 30 per kg and sells it at 36 per kg. His total profit is —",
+      "as": "এজনে 20 কেজি চাউল প্ৰতি কেজি 30 টকাত কিনি প্ৰতি কেজি 36 টকাত বিক্ৰী কৰে। তেওঁৰ মুঠ লাভ —"
     },
     "options": [
       {
-        "en": "9%",
-        "as": "৯%"
+        "en": "120",
+        "as": "১২০"
       },
       {
-        "en": "12%",
-        "as": "১২%"
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "130",
+        "as": "১৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit per kg = 6, so total = 20 x 6 = 120.",
+      "as": "প্ৰতি কেজি লাভ = 6, গতিকে মুঠ = 20 x 6 = 120।"
+    }
+  },
+  {
+    "id": "profit-loss-032",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 900 g instead of 1 kg. His gain per cent is —",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয় মূল্যত সামগ্ৰী বিক্ৰী কৰে কিন্তু 1 কেজিৰ সলনি 900 গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "11.11%",
+        "as": "১১.১১%"
       },
       {
         "en": "10%",
         "as": "১০%"
       },
       {
-        "en": "11 1/9%",
-        "as": "১১ ১/৯%"
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gain% = 100/900 x 100 = 11.11%.",
+      "as": "লাভ% = 100/900 x 100 = 11.11%।"
+    }
+  },
+  {
+    "id": "profit-loss-033",
+    "q": {
+      "en": "A shopkeeper sells an article at a loss of 20%. If the cost price is 750, the selling price is —",
+      "as": "এজন দোকানীয়ে এটা সামগ্ৰী 20% লোকচানত বিক্ৰী কৰে। ক্ৰয় মূল্য 750 হ'লে বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "580",
+        "as": "৫৮০"
+      },
+      {
+        "en": "590",
+        "as": "৫৯০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "610",
+        "as": "৬১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = 750 x 0.8 = 600.",
+      "as": "বিক্ৰয় মূল্য = 750 x 0.8 = 600।"
+    }
+  },
+  {
+    "id": "profit-loss-034",
+    "q": {
+      "en": "The selling price of an article costing 1,600 sold at a profit of 12.5% is —",
+      "as": "1,600 টকাৰ সামগ্ৰী 12.5% লাভত বিক্ৰী কৰিলে বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "1,750",
+        "as": "১,৭৫০"
+      },
+      {
+        "en": "1,800",
+        "as": "১,৮০০"
+      },
+      {
+        "en": "1,780",
+        "as": "১,৭৮০"
+      },
+      {
+        "en": "1,850",
+        "as": "১,৮৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = 1600 x 1.125 = 1,800.",
+      "as": "বিক্ৰয় মূল্য = 1600 x 1.125 = 1,800।"
+    }
+  },
+  {
+    "id": "profit-loss-035",
+    "q": {
+      "en": "If an article sold for 240 gives a profit of 20%, then the cost price is —",
+      "as": "এটা সামগ্ৰী 240 টকাত বিক্ৰী কৰি 20% লাভ হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "190",
+        "as": "১৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 240 / 1.2 = 200.",
+      "as": "ক্ৰয় মূল্য = 240 / 1.2 = 200।"
+    }
+  },
+  {
+    "id": "profit-loss-036",
+    "q": {
+      "en": "A man sells an article at a gain of 10%. Had he sold it for 30 less, he would have gained 5%. The cost price is —",
+      "as": "এজনে এটা সামগ্ৰী 10% লাভত বিক্ৰী কৰে। 30 টকা কমত বিক্ৰী কৰিলে 5% লাভ হ'লহেঁতেন। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "Gain = 100 / 900 x 100 = 11 1/9%.",
-      "as": "লাভ = 100 / 900 x 100 = 11 1/9%।"
+      "en": "5% of CP = 30, so CP = 600.",
+      "as": "ক্ৰয় মূল্যৰ 5% = 30, গতিকে ক্ৰয় মূল্য = 600।"
+    }
+  },
+  {
+    "id": "profit-loss-037",
+    "q": {
+      "en": "A man sells an article at a loss of 5%. Had he sold it for 40 more, he would have gained 5%. The cost price is —",
+      "as": "এজনে এটা সামগ্ৰী 5% লোকচানত বিক্ৰী কৰে। 40 টকা বেছিত বিক্ৰী কৰিলে 5% লাভ হ'লহেঁতেন। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "10% of CP = 40, so CP = 400.",
+      "as": "ক্ৰয় মূল্যৰ 10% = 40, গতিকে ক্ৰয় মূল্য = 400।"
+    }
+  },
+  {
+    "id": "profit-loss-038",
+    "q": {
+      "en": "The marked price of an article is 25% above the cost price. If the selling price is equal to the marked price, the profit per cent is —",
+      "as": "এটা সামগ্ৰীৰ চিহ্নিত মূল্য ক্ৰয় মূল্যতকৈ 25% বেছি। বিক্ৰয় মূল্য চিহ্নিত মূল্যৰ সমান হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "35%",
+        "as": "৩৫%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 1.25 CP, so the profit is 25%.",
+      "as": "বিক্ৰয় মূল্য = 1.25 ক্ৰয় মূল্য, গতিকে লাভ 25%।"
+    }
+  },
+  {
+    "id": "profit-loss-039",
+    "q": {
+      "en": "A trader marks his goods at 40% above cost and allows a discount of 25%. His profit per cent is —",
+      "as": "এজন ব্যৱসায়ীয়ে ক্ৰয় মূল্যতকৈ 40% বেছি চিহ্নিত কৰি 25% ৰেহাই দিয়ে। তেওঁৰ শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      },
+      {
+        "en": "7.5%",
+        "as": "৭.৫%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "5%",
+        "as": "৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 1.4 x 0.75 = 1.05, a profit of 5%.",
+      "as": "বিক্ৰয় মূল্য = 1.4 x 0.75 = 1.05, লাভ 5%।"
+    }
+  },
+  {
+    "id": "profit-loss-040",
+    "q": {
+      "en": "If the cost price of 25 articles is equal to the selling price of 20 articles, the profit per cent is —",
+      "as": "25 টা সামগ্ৰীৰ ক্ৰয় মূল্য 20 টা সামগ্ৰীৰ বিক্ৰয় মূল্যৰ সমান হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "33.33%",
+        "as": "৩৩.৩৩%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit% = (25 - 20)/20 x 100 = 25%.",
+      "as": "লাভ% = (25 - 20)/20 x 100 = 25%।"
+    }
+  },
+  {
+    "id": "profit-loss-041",
+    "q": {
+      "en": "A man purchases 12 articles for 60 and sells them at 6 each. His gain per cent is —",
+      "as": "এজনে 12 টা সামগ্ৰী 60 টকাত কিনি প্ৰতিটো 6 টকাত বিক্ৰী কৰে। তেওঁৰ শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP each = 5 and SP each = 6, so gain = 1/5 x 100 = 20%.",
+      "as": "প্ৰতিটোৰ ক্ৰয় মূল্য = 5 আৰু বিক্ৰয় মূল্য = 6, লাভ = 1/5 x 100 = 20%।"
+    }
+  },
+  {
+    "id": "profit-loss-042",
+    "q": {
+      "en": "If the selling price of an article is 80% of its cost price, the loss per cent is —",
+      "as": "এটা সামগ্ৰীৰ বিক্ৰয় মূল্য ক্ৰয় মূল্যৰ 80% হ'লে শতকৰা লোকচান —"
+    },
+    "options": [
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "18%",
+        "as": "১৮%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Loss = 20% of CP.",
+      "as": "লোকচান = ক্ৰয় মূল্যৰ 20%।"
+    }
+  },
+  {
+    "id": "profit-loss-043",
+    "q": {
+      "en": "An article is sold at 20% profit. If the cost price is 1,500, the profit amount is —",
+      "as": "এটা সামগ্ৰী 20% লাভত বিক্ৰী হয়। ক্ৰয় মূল্য 1,500 হ'লে লাভৰ পৰিমাণ —"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit = 1,500 x 20 / 100 = 300.",
+      "as": "লাভ = 1,500 x 20 / 100 = 300।"
+    }
+  },
+  {
+    "id": "profit-loss-044",
+    "q": {
+      "en": "A shopkeeper sells a fan for 1,150 and earns a profit of 15%. The cost price is —",
+      "as": "এজন দোকানীয়ে এটা ফেন 1,150 টকাত বিক্ৰী কৰি 15% লাভ কৰে। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "950",
+        "as": "৯৫০"
+      },
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "980",
+        "as": "৯৮০"
+      },
+      {
+        "en": "1,020",
+        "as": "১,০২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP = 1150 / 1.15 = 1,000.",
+      "as": "ক্ৰয় মূল্য = 1150 / 1.15 = 1,000।"
+    }
+  },
+  {
+    "id": "profit-loss-045",
+    "q": {
+      "en": "A man bought a bicycle for 2,400 and sold it for 2,100. His loss per cent is —",
+      "as": "এজনে 2,400 টকাত চাইকেল কিনি 2,100 টকাত বিক্ৰী কৰে। তেওঁৰ শতকৰা লোকচান —"
+    },
+    "options": [
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      },
+      {
+        "en": "11.5%",
+        "as": "১১.৫%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Loss = 300; 300 / 2400 x 100 = 12.5%.",
+      "as": "লোকচান = 300; 300 / 2400 x 100 = 12.5%।"
+    }
+  },
+  {
+    "id": "profit-loss-046",
+    "q": {
+      "en": "If a man gains 25% by selling an article for 1,250, the cost price is —",
+      "as": "এজনে 1,250 টকাত সামগ্ৰী বিক্ৰী কৰি 25% লাভ কৰিলে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "950",
+        "as": "৯৫০"
+      },
+      {
+        "en": "1,050",
+        "as": "১,০৫০"
+      },
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "1,100",
+        "as": "১,১০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CP = 1250 / 1.25 = 1,000.",
+      "as": "ক্ৰয় মূল্য = 1250 / 1.25 = 1,000।"
+    }
+  },
+  {
+    "id": "profit-loss-047",
+    "q": {
+      "en": "A shopkeeper bought 50 kg of sugar at 32 per kg and sold all at 28 per kg. His loss is —",
+      "as": "এজন দোকানীয়ে 50 কেজি চেনি প্ৰতি কেজি 32 টকাত কিনি প্ৰতি কেজি 28 টকাত বিক্ৰী কৰে। তেওঁৰ লোকচান —"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Loss per kg = 4, so total = 200.",
+      "as": "প্ৰতি কেজি লোকচান = 4, গতিকে মুঠ = 200।"
+    }
+  },
+  {
+    "id": "profit-loss-048",
+    "q": {
+      "en": "If the cost price of an article is 40% of its selling price, the profit per cent is —",
+      "as": "এটা সামগ্ৰীৰ ক্ৰয় মূল্য বিক্ৰয় মূল্যৰ 40% হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "150%",
+        "as": "১৫০%"
+      },
+      {
+        "en": "100%",
+        "as": "১০০%"
+      },
+      {
+        "en": "60%",
+        "as": "৬০%"
+      },
+      {
+        "en": "200%",
+        "as": "২০০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 0.4 SP, so profit = 0.6 SP; profit% = 0.6/0.4 x 100 = 150%.",
+      "as": "ক্ৰয় মূল্য = 0.4 বিক্ৰয় মূল্য, লাভ = 0.6 বিক্ৰয় মূল্য; লাভ% = 0.6/0.4 x 100 = 150%।"
+    }
+  },
+  {
+    "id": "profit-loss-049",
+    "q": {
+      "en": "An article marked at 2,000 is sold after two successive discounts of 10% and 5%. The selling price is —",
+      "as": "2,000 চিহ্নিত মূল্যৰ সামগ্ৰী 10% আৰু 5% ৰ দুটা ক্ৰমিক ৰেহাইৰ পিছত বিক্ৰী হ'লে বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "1,690",
+        "as": "১,৬৯০"
+      },
+      {
+        "en": "1,700",
+        "as": "১,৭০০"
+      },
+      {
+        "en": "1,710",
+        "as": "১,৭১০"
+      },
+      {
+        "en": "1,720",
+        "as": "১,৭২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = 2000 x 0.9 x 0.95 = 1,710.",
+      "as": "বিক্ৰয় মূল্য = 2000 x 0.9 x 0.95 = 1,710।"
+    }
+  },
+  {
+    "id": "profit-loss-050",
+    "q": {
+      "en": "A man sells an article at a profit of 20%. If he had bought it at 20% less and sold it for 20 less, he would have gained 25%. The cost price is —",
+      "as": "এজনে এটা সামগ্ৰী 20% লাভত বিক্ৰী কৰে। 20% কমত কিনি 20 কমত বিক্ৰী কৰিলে 25% লাভ হ'লহেঁতেন। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solving gives the cost price 100.",
+      "as": "সমাধান কৰিলে ক্ৰয় মূল্য 100 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "profit-loss-051",
+    "q": {
+      "en": "The gain per cent when an article bought for 1,200 is sold for 1,500 is —",
+      "as": "1,200 টকাত কিনা সামগ্ৰী 1,500 টকাত বিক্ৰী হ'লে শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "22%",
+        "as": "২২%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gain = 300; 300 / 1200 x 100 = 25%.",
+      "as": "লাভ = 300; 300 / 1200 x 100 = 25%।"
+    }
+  },
+  {
+    "id": "profit-loss-052",
+    "q": {
+      "en": "A man buys a table for 1,800 and spends 200 on repairs. If he sells it for 2,400, his gain per cent is —",
+      "as": "এজনে 1,800 টকাত টেবুল কিনি 200 টকা মেৰামতত খৰচ কৰে। 2,400 টকাত বিক্ৰী কৰিলে তেওঁৰ শতকৰা লাভ —"
+    },
+    "options": [
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "18%",
+        "as": "১৮%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total CP = 2,000 and gain = 400, so 400 / 2000 x 100 = 20%.",
+      "as": "মুঠ ক্ৰয় মূল্য = 2,000 আৰু লাভ = 400, গতিকে 400 / 2000 x 100 = 20%।"
+    }
+  },
+  {
+    "id": "profit-loss-053",
+    "q": {
+      "en": "A dealer sells an article at 25% profit. If the selling price is 875, the cost price is —",
+      "as": "এজন ব্যৱসায়ীয়ে এটা সামগ্ৰী 25% লাভত বিক্ৰী কৰে। বিক্ৰয় মূল্য 875 হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "650",
+        "as": "৬৫০"
+      },
+      {
+        "en": "675",
+        "as": "৬৭৫"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "725",
+        "as": "৭২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CP = 875 / 1.25 = 700.",
+      "as": "ক্ৰয় মূল্য = 875 / 1.25 = 700।"
+    }
+  },
+  {
+    "id": "profit-loss-054",
+    "q": {
+      "en": "A man sells an article at a loss of 12%. If the cost price is 900, the selling price is —",
+      "as": "এজনে এটা সামগ্ৰী 12% লোকচানত বিক্ৰী কৰে। ক্ৰয় মূল্য 900 হ'লে বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "780",
+        "as": "৭৮০"
+      },
+      {
+        "en": "792",
+        "as": "৭৯২"
+      },
+      {
+        "en": "790",
+        "as": "৭৯০"
+      },
+      {
+        "en": "800",
+        "as": "৮০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = 900 x 0.88 = 792.",
+      "as": "বিক্ৰয় মূল্য = 900 x 0.88 = 792।"
+    }
+  },
+  {
+    "id": "profit-loss-055",
+    "q": {
+      "en": "A man sells a pen for 45 and gains 12.5%. The cost price is —",
+      "as": "এজনে এটা কলম 45 টকাত বিক্ৰী কৰি 12.5% লাভ কৰে। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 45 / 1.125 = 40.",
+      "as": "ক্ৰয় মূল্য = 45 / 1.125 = 40।"
+    }
+  },
+  {
+    "id": "profit-loss-056",
+    "q": {
+      "en": "The difference between the cost price and the selling price is 120 and the profit per cent is 20%. The cost price is —",
+      "as": "ক্ৰয় মূল্য আৰু বিক্ৰয় মূল্যৰ পাৰ্থক্য 120 আৰু শতকৰা লাভ 20%। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "550",
+        "as": "৫৫০"
+      },
+      {
+        "en": "650",
+        "as": "৬৫০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "20% of CP = 120, so CP = 600.",
+      "as": "ক্ৰয় মূল্যৰ 20% = 120, গতিকে ক্ৰয় মূল্য = 600।"
+    }
+  },
+  {
+    "id": "profit-loss-057",
+    "q": {
+      "en": "A shopkeeper earns a profit of 15% by selling an article for 690. The cost price is —",
+      "as": "এজন দোকানীয়ে 690 টকাত সামগ্ৰী বিক্ৰী কৰি 15% লাভ কৰে। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "580",
+        "as": "৫৮০"
+      },
+      {
+        "en": "590",
+        "as": "৫৯০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "620",
+        "as": "৬২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CP = 690 / 1.15 = 600.",
+      "as": "ক্ৰয় মূল্য = 690 / 1.15 = 600।"
+    }
+  },
+  {
+    "id": "profit-loss-058",
+    "q": {
+      "en": "If an article is sold at 1,050 at a gain of 5%, the cost price is —",
+      "as": "এটা সামগ্ৰী 1,050 টকাত 5% লাভত বিক্ৰী হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "980",
+        "as": "৯৮০"
+      },
+      {
+        "en": "990",
+        "as": "৯৯০"
+      },
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "1,010",
+        "as": "১,০১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CP = 1050 / 1.05 = 1,000.",
+      "as": "ক্ৰয় মূল্য = 1050 / 1.05 = 1,000।"
+    }
+  },
+  {
+    "id": "profit-loss-059",
+    "q": {
+      "en": "The profit per cent when the cost price of 8 articles equals the selling price of 10 articles is —",
+      "as": "8 টা সামগ্ৰীৰ ক্ৰয় মূল্য 10 টা সামগ্ৰীৰ বিক্ৰয় মূল্যৰ সমান হ'লে শতকৰা —"
+    },
+    "options": [
+      {
+        "en": "20% profit",
+        "as": "২০% লাভ"
+      },
+      {
+        "en": "25% profit",
+        "as": "২৫% লাভ"
+      },
+      {
+        "en": "25% loss",
+        "as": "২৫% লোকচান"
+      },
+      {
+        "en": "20% loss",
+        "as": "২০% লোকচান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP < CP, so there is a loss of (10 - 8)/10 x 100 = 20%.",
+      "as": "বিক্ৰয় মূল্য < ক্ৰয় মূল্য, গতিকে (10 - 8)/10 x 100 = 20% লোকচান।"
+    }
+  },
+  {
+    "id": "profit-loss-060",
+    "q": {
+      "en": "A man bought 3 dozen eggs at 5 each and sold them at 6 each. His total profit is —",
+      "as": "এজনে প্ৰতিটো 5 টকাত 3 ডজন কণী কিনি প্ৰতিটো 6 টকাত বিক্ৰী কৰে। তেওঁৰ মুঠ লাভ —"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3 dozen = 36 eggs and profit = 36 x 1 = 36.",
+      "as": "3 ডজন = 36 টা কণী আৰু লাভ = 36 x 1 = 36।"
+    }
+  },
+  {
+    "id": "profit-loss-061",
+    "q": {
+      "en": "If a man sells an article for 1,380 at a profit of 15%, the cost price is —",
+      "as": "এজনে 1,380 টকাত সামগ্ৰী 15% লাভত বিক্ৰী কৰিলে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "1,180",
+        "as": "১,১৮০"
+      },
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      },
+      {
+        "en": "1,190",
+        "as": "১,১৯০"
+      },
+      {
+        "en": "1,220",
+        "as": "১,২২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP = 1380 / 1.15 = 1,200.",
+      "as": "ক্ৰয় মূল্য = 1380 / 1.15 = 1,200।"
+    }
+  },
+  {
+    "id": "profit-loss-062",
+    "q": {
+      "en": "A trader sells an article at a loss of 15%. If the selling price is 1,020, the cost price is —",
+      "as": "এজন ব্যৱসায়ীয়ে এটা সামগ্ৰী 15% লোকচানত বিক্ৰী কৰে। বিক্ৰয় মূল্য 1,020 হ'লে ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "1,100",
+        "as": "১,১০০"
+      },
+      {
+        "en": "1,150",
+        "as": "১,১৫০"
+      },
+      {
+        "en": "1,250",
+        "as": "১,২৫০"
+      },
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CP = 1020 / 0.85 = 1,200.",
+      "as": "ক্ৰয় মূল্য = 1020 / 0.85 = 1,200।"
+    }
+  },
+  {
+    "id": "profit-loss-063",
+    "q": {
+      "en": "A man sells two articles for 990 each, gaining 10% on one and losing 10% on the other. His overall loss per cent is —",
+      "as": "এজনে 990 টকাকৈ দুটা সামগ্ৰী বিক্ৰী কৰে, এটাত 10% লাভ আৰু আনটোত 10% লোকচান। তেওঁৰ মুঠ শতকৰা লোকচান —"
+    },
+    "options": [
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "2%",
+        "as": "২%"
+      },
+      {
+        "en": "1%",
+        "as": "১%"
+      },
+      {
+        "en": "5%",
+        "as": "৫%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Overall loss% = (10^2)/100 = 1%.",
+      "as": "মুঠ লোকচান% = (10^2)/100 = 1%।"
+    }
+  },
+  {
+    "id": "profit-loss-064",
+    "q": {
+      "en": "A dealer sells an article for 575 and gains 15%. The cost price is —",
+      "as": "এজন ব্যৱসায়ীয়ে এটা সামগ্ৰী 575 টকাত বিক্ৰী কৰি 15% লাভ কৰে। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "490",
+        "as": "৪৯০"
+      },
+      {
+        "en": "510",
+        "as": "৫১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP = 575 / 1.15 = 500.",
+      "as": "ক্ৰয় মূল্য = 575 / 1.15 = 500।"
+    }
+  },
+  {
+    "id": "profit-loss-065",
+    "q": {
+      "en": "A man sells an article for 1,368 and gains 14%. The cost price is —",
+      "as": "এজনে এটা সামগ্ৰী 1,368 টকাত বিক্ৰী কৰি 14% লাভ কৰে। ক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      },
+      {
+        "en": "1,190",
+        "as": "১,১৯০"
+      },
+      {
+        "en": "1,180",
+        "as": "১,১৮০"
+      },
+      {
+        "en": "1,220",
+        "as": "১,২২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 1368 / 1.14 = 1,200.",
+      "as": "ক্ৰয় মূল্য = 1368 / 1.14 = 1,200।"
+    }
+  },
+  {
+    "id": "profit-loss-066",
+    "q": {
+      "en": "A man buys an article for 960 and sells it at a loss of 12.5%. The selling price is —",
+      "as": "এজনে 960 টকাত সামগ্ৰী কিনি 12.5% লোকচানত বিক্ৰী কৰে। বিক্ৰয় মূল্য —"
+    },
+    "options": [
+      {
+        "en": "820",
+        "as": "৮২০"
+      },
+      {
+        "en": "830",
+        "as": "৮৩০"
+      },
+      {
+        "en": "850",
+        "as": "৮৫০"
+      },
+      {
+        "en": "840",
+        "as": "৮৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 960 x 0.875 = 840.",
+      "as": "বিক্ৰয় মূল্য = 960 x 0.875 = 840।"
+    }
+  },
+  {
+    "id": "profit-loss-067",
+    "q": {
+      "en": "A shopkeeper marks an article at 500 and sells it at 460. The discount per cent is —",
+      "as": "এজন দোকানীয়ে এটা সামগ্ৰী 500 টকাত চিহ্নিত কৰি 460 টকাত বিক্ৰী কৰে। শতকৰা ৰেহাই —"
+    },
+    "options": [
+      {
+        "en": "8%",
+        "as": "৮%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "12%",
+        "as": "১২%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Discount = 40; 40 / 500 x 100 = 8%.",
+      "as": "ৰেহাই = 40; 40 / 500 x 100 = 8%।"
+    }
+  },
+  {
+    "id": "profit-loss-068",
+    "q": {
+      "en": "A man sells an article at 20% profit. If the cost price had been 10% less, the profit would have been —",
+      "as": "এজনে এটা সামগ্ৰী 20% লাভত বিক্ৰী কৰে। ক্ৰয় মূল্য 10% কম হ'লে লাভ হ'লহেঁতেন —"
+    },
+    "options": [
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "33.33%",
+        "as": "৩৩.৩৩%"
+      },
+      {
+        "en": "32%",
+        "as": "৩২%"
+      },
+      {
+        "en": "35%",
+        "as": "৩৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New CP = 0.9 CP, SP = 1.2 CP, so profit% = 0.3/0.9 x 100 = 33.33%.",
+      "as": "নতুন ক্ৰয় মূল্য = 0.9 ক্ৰয় মূল্য, বিক্ৰয় মূল্য = 1.2 ক্ৰয় মূল্য, লাভ% = 0.3/0.9 x 100 = 33.33%।"
     }
   }
 ]

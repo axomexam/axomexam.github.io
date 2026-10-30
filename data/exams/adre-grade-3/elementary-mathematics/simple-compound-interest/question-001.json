@@ -2,77 +2,253 @@
   {
     "id": "simple-compound-interest-001",
     "q": {
-      "en": "The simple interest on ₹5,000 at 8% per annum for 3 years is —",
-      "as": "₹5,000 ৰ ওপৰত বছৰি 8% হাৰত 3 বছৰৰ সৰল সুত —"
+      "en": "The simple interest on 5,000 at 8% per annum for 2 years is —",
+      "as": "5,000 ৰ ওপৰত বছৰি 8% হাৰত 2 বছৰৰ সৰল সুত —"
     },
     "options": [
       {
-        "en": "₹1,000",
-        "as": "₹১,০০০"
+        "en": "600",
+        "as": "৬০০"
       },
       {
-        "en": "₹1,800",
-        "as": "₹১,৮০০"
+        "en": "700",
+        "as": "৭০০"
       },
       {
-        "en": "₹1,500",
-        "as": "₹১,৫০০"
+        "en": "900",
+        "as": "৯০০"
       },
       {
-        "en": "₹1,200",
-        "as": "₹১,২০০"
+        "en": "800",
+        "as": "৮০০"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "SI = P x R x T / 100 = 5000 x 8 x 3 / 100 = 1200.",
-      "as": "সৰল সুত = P x R x T / 100 = 5000 x 8 x 3 / 100 = 1200।"
+      "en": "SI = 5000 x 8 x 2 / 100 = 800.",
+      "as": "সৰল সুত = 5000 x 8 x 2 / 100 = 800।"
     }
   },
   {
     "id": "simple-compound-interest-002",
     "q": {
-      "en": "The compound interest on ₹10,000 at 10% per annum for 2 years is —",
-      "as": "₹10,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+      "en": "The simple interest on 2,000 at 5% per annum for 3 years is —",
+      "as": "2,000 ৰ ওপৰত বছৰি 5% হাৰত 3 বছৰৰ সৰল সুত —"
     },
     "options": [
       {
-        "en": "₹2,100",
-        "as": "₹২,১০০"
+        "en": "200",
+        "as": "২০০"
       },
       {
-        "en": "₹2,310",
-        "as": "₹২,৩১০"
+        "en": "300",
+        "as": "৩০০"
       },
       {
-        "en": "₹2,200",
-        "as": "₹২,২০০"
+        "en": "250",
+        "as": "২৫০"
       },
       {
-        "en": "₹2,000",
-        "as": "₹২,০০০"
+        "en": "350",
+        "as": "৩৫০"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
-      "en": "Amount = 10000 x 1.1^2 = 12100, so CI = 2100.",
-      "as": "মুঠ = 10000 x 1.1^2 = 12100, গতিকে চক্ৰবৃদ্ধি সুত = 2100।"
+      "en": "SI = 2000 x 5 x 3 / 100 = 300.",
+      "as": "সৰল সুত = 2000 x 5 x 3 / 100 = 300।"
     }
   },
   {
     "id": "simple-compound-interest-003",
     "q": {
-      "en": "At what rate per cent per annum will ₹4,000 yield a simple interest of ₹800 in 2 years?",
-      "as": "বছৰি কিমান শতাংশ হাৰত ₹4,000 ৰ ওপৰত 2 বছৰত ₹800 সৰল সুত হ'ব?"
+      "en": "The simple interest on 1,500 at 4% per annum for 2 years is —",
+      "as": "1,500 ৰ ওপৰত বছৰি 4% হাৰত 2 বছৰৰ সৰল সুত —"
     },
     "options": [
       {
-        "en": "15%",
-        "as": "১৫%"
+        "en": "120",
+        "as": "১২০"
       },
       {
-        "en": "12%",
-        "as": "১২%"
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "130",
+        "as": "১৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 1500 x 4 x 2 / 100 = 120.",
+      "as": "সৰল সুত = 1500 x 4 x 2 / 100 = 120।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-004",
+    "q": {
+      "en": "The simple interest on 800 at 10% per annum for 6 months is —",
+      "as": "800 ৰ ওপৰত বছৰি 10% হাৰত 6 মাহৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 800 x 10 x 0.5 / 100 = 40.",
+      "as": "সৰল সুত = 800 x 10 x 0.5 / 100 = 40।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-005",
+    "q": {
+      "en": "The simple interest on 12,000 at 6% per annum for 9 months is —",
+      "as": "12,000 ৰ ওপৰত বছৰি 6% হাৰত 9 মাহৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      },
+      {
+        "en": "520",
+        "as": "৫২০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SI = 12000 x 6 x 9 / (100 x 12) = 540.",
+      "as": "সৰল সুত = 12000 x 6 x 9 / (100 x 12) = 540।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-006",
+    "q": {
+      "en": "The simple interest on 4,500 at 8% per annum for 3 years is —",
+      "as": "4,500 ৰ ওপৰত বছৰি 8% হাৰত 3 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "1,080",
+        "as": "১,০৮০"
+      },
+      {
+        "en": "1,050",
+        "as": "১,০৫০"
+      },
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "1,100",
+        "as": "১,১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 4500 x 8 x 3 / 100 = 1,080.",
+      "as": "সৰল সুত = 4500 x 8 x 3 / 100 = 1,080।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-007",
+    "q": {
+      "en": "The amount on 2,000 at 5% per annum for 2 years under simple interest is —",
+      "as": "বছৰি 5% হাৰত 2,000 ৰ 2 বছৰৰ সৰল সুতৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "2,100",
+        "as": "২,১০০"
+      },
+      {
+        "en": "2,150",
+        "as": "২,১৫০"
+      },
+      {
+        "en": "2,200",
+        "as": "২,২০০"
+      },
+      {
+        "en": "2,250",
+        "as": "২,২৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = 200, so amount = 2,200.",
+      "as": "সৰল সুত = 200, গতিকে মুঠ ধন = 2,200।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-008",
+    "q": {
+      "en": "The amount on 5,000 at 10% per annum for 3 years under simple interest is —",
+      "as": "বছৰি 10% হাৰত 5,000 ৰ 3 বছৰৰ সৰল সুতৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "6,000",
+        "as": "৬,০০০"
+      },
+      {
+        "en": "6,200",
+        "as": "৬,২০০"
+      },
+      {
+        "en": "6,800",
+        "as": "৬,৮০০"
+      },
+      {
+        "en": "6,500",
+        "as": "৬,৫০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 1,500, so amount = 6,500.",
+      "as": "সৰল সুত = 1,500, গতিকে মুঠ ধন = 6,500।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-009",
+    "q": {
+      "en": "The rate per cent per annum at which 1,000 gives 200 simple interest in 2 years is —",
+      "as": "1,000 এ 2 বছৰত 200 সৰল সুত দিয়া বছৰি সুতৰ হাৰ —"
+    },
+    "options": [
+      {
+        "en": "5%",
+        "as": "৫%"
       },
       {
         "en": "10%",
@@ -81,199 +257,593 @@
       {
         "en": "8%",
         "as": "৮%"
+      },
+      {
+        "en": "12%",
+        "as": "১২%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R = 200 x 100 / (1000 x 2) = 10%.",
+      "as": "হাৰ = 200 x 100 / (1000 x 2) = 10%।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-010",
+    "q": {
+      "en": "The rate per cent per annum at which 2,500 gives 375 simple interest in 3 years is —",
+      "as": "2,500 এ 3 বছৰত 375 সৰল সুত দিয়া বছৰি সুতৰ হাৰ —"
+    },
+    "options": [
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "7%",
+        "as": "৭%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R = 375 x 100 / (2500 x 3) = 5%.",
+      "as": "হাৰ = 375 x 100 / (2500 x 3) = 5%।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-011",
+    "q": {
+      "en": "The time in which 4,000 gives 800 simple interest at 10% per annum is —",
+      "as": "বছৰি 10% হাৰত 4,000 এ 800 সৰল সুত দিয়া সময় —"
+    },
+    "options": [
+      {
+        "en": "1 year",
+        "as": "১ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "R = 800 x 100 / (4000 x 2) = 10%.",
-      "as": "হাৰ = 800 x 100 / (4000 x 2) = 10%।"
+      "en": "T = 800 x 100 / (4000 x 10) = 2 years.",
+      "as": "সময় = 800 x 100 / (4000 x 10) = 2 বছৰ।"
     }
   },
   {
-    "id": "simple-compound-interest-004",
+    "id": "simple-compound-interest-012",
     "q": {
-      "en": "In how many years will ₹2,500 amount to ₹3,000 at 5% per annum simple interest?",
-      "as": "বছৰি 5% সৰল সুতত কিমান বছৰত ₹2,500 ৰাশি ₹3,000 হ'ব?"
+      "en": "The time in which 1,200 gives 216 simple interest at 6% per annum is —",
+      "as": "বছৰি 6% হাৰত 1,200 এ 216 সৰল সুত দিয়া সময় —"
     },
     "options": [
       {
-        "en": "3 years",
-        "as": "৩ বছৰ"
+        "en": "2 years",
+        "as": "২ বছৰ"
       },
       {
         "en": "4 years",
         "as": "৪ বছৰ"
       },
       {
-        "en": "6 years",
-        "as": "৬ বছৰ"
+        "en": "3 years",
+        "as": "৩ বছৰ"
       },
       {
         "en": "5 years",
         "as": "৫ বছৰ"
       }
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
-      "en": "SI = 500; T = 500 x 100 / (2500 x 5) = 4 years.",
-      "as": "সৰল সুত = 500; সময় = 500 x 100 / (2500 x 5) = 4 বছৰ।"
+      "en": "T = 216 x 100 / (1200 x 6) = 3 years.",
+      "as": "সময় = 216 x 100 / (1200 x 6) = 3 বছৰ।"
     }
   },
   {
-    "id": "simple-compound-interest-005",
+    "id": "simple-compound-interest-013",
     "q": {
-      "en": "The difference between the compound interest and the simple interest on ₹1,000 at 10% per annum for 2 years is —",
-      "as": "₹1,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য —"
+      "en": "The principal that gives 900 simple interest at 5% per annum in 3 years is —",
+      "as": "বছৰি 5% হাৰত 3 বছৰত 900 সৰল সুত দিয়া মূলধন —"
     },
     "options": [
       {
-        "en": "₹10",
-        "as": "₹১০"
+        "en": "5,000",
+        "as": "৫,০০০"
       },
       {
-        "en": "₹20",
-        "as": "₹২০"
+        "en": "5,500",
+        "as": "৫,৫০০"
       },
       {
-        "en": "₹15",
-        "as": "₹১৫"
+        "en": "6,000",
+        "as": "৬,০০০"
       },
       {
-        "en": "₹5",
-        "as": "₹৫"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "Difference = P (R/100)^2 = 1000 x 0.01 = 10.",
-      "as": "পাৰ্থক্য = P (R/100)^2 = 1000 x 0.01 = 10।"
-    }
-  },
-  {
-    "id": "simple-compound-interest-006",
-    "q": {
-      "en": "A sum of money doubles itself in 8 years at simple interest. The rate of interest per annum is —",
-      "as": "সৰল সুতত এটা ৰাশি 8 বছৰত দুগুণ হয়। বছৰি সুতৰ হাৰ —"
-    },
-    "options": [
-      {
-        "en": "10%",
-        "as": "১০%"
-      },
-      {
-        "en": "12.5%",
-        "as": "১২.৫%"
-      },
-      {
-        "en": "12%",
-        "as": "১২%"
-      },
-      {
-        "en": "15%",
-        "as": "১৫%"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "SI equals P in 8 years, so R = 100 / 8 = 12.5%.",
-      "as": "8 বছৰত সৰল সুত P ৰ সমান হয়, গতিকে হাৰ = 100 / 8 = 12.5%।"
-    }
-  },
-  {
-    "id": "simple-compound-interest-007",
-    "q": {
-      "en": "The compound interest on ₹8,000 at 5% per annum for 2 years is —",
-      "as": "₹8,000 ৰ ওপৰত বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
-    },
-    "options": [
-      {
-        "en": "₹820",
-        "as": "₹৮২০"
-      },
-      {
-        "en": "₹810",
-        "as": "₹৮১০"
-      },
-      {
-        "en": "₹800",
-        "as": "₹৮০০"
-      },
-      {
-        "en": "₹840",
-        "as": "₹৮৪০"
-      }
-    ],
-    "correct": 0,
-    "explanation": {
-      "en": "Amount = 8000 x 1.05^2 = 8820, so CI = 820.",
-      "as": "মুঠ = 8000 x 1.05^2 = 8820, গতিকে চক্ৰবৃদ্ধি সুত = 820।"
-    }
-  },
-  {
-    "id": "simple-compound-interest-008",
-    "q": {
-      "en": "The simple interest on a sum for 5 years at 6% per annum is ₹900. The sum is —",
-      "as": "বছৰি 6% হাৰত 5 বছৰৰ সৰল সুত ₹900 হ'লে ৰাশিটো —"
-    },
-    "options": [
-      {
-        "en": "₹2,400",
-        "as": "₹২,৪০০"
-      },
-      {
-        "en": "₹3,600",
-        "as": "₹৩,৬০০"
-      },
-      {
-        "en": "₹3,000",
-        "as": "₹৩,০০০"
-      },
-      {
-        "en": "₹2,700",
-        "as": "₹২,৭০০"
+        "en": "6,500",
+        "as": "৬,৫০০"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "P = 900 x 100 / (6 x 5) = 3000.",
-      "as": "ৰাশি = 900 x 100 / (6 x 5) = 3000।"
+      "en": "P = 900 x 100 / (5 x 3) = 6,000.",
+      "as": "মূলধন = 900 x 100 / (5 x 3) = 6,000।"
     }
   },
   {
-    "id": "simple-compound-interest-009",
+    "id": "simple-compound-interest-014",
     "q": {
-      "en": "If ₹6,000 is invested at 10% per annum compounded annually, the amount after 2 years is —",
-      "as": "বছৰি 10% চক্ৰবৃদ্ধি হাৰত ₹6,000 বিনিয়োগ কৰিলে 2 বছৰৰ পিছত মুঠ —"
+      "en": "The compound interest on 1,000 at 10% per annum for 2 years is —",
+      "as": "1,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
     },
     "options": [
       {
-        "en": "₹7,200",
-        "as": "₹৭,২০০"
+        "en": "200",
+        "as": "২০০"
       },
       {
-        "en": "₹7,260",
-        "as": "₹৭,২৬০"
+        "en": "210",
+        "as": "২১০"
       },
       {
-        "en": "₹7,400",
-        "as": "₹৭,৪০০"
+        "en": "220",
+        "as": "২২০"
       },
       {
-        "en": "₹7,300",
-        "as": "₹৭,৩০০"
+        "en": "230",
+        "as": "২৩০"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "Amount = 6000 x 1.1^2 = 7260.",
-      "as": "মুঠ = 6000 x 1.1^2 = 7260।"
+      "en": "Amount = 1000 x 1.1^2 = 1,210, so CI = 210.",
+      "as": "মুঠ ধন = 1000 x 1.1^2 = 1,210, গতিকে চক্ৰবৃদ্ধি সুত = 210।"
     }
   },
   {
-    "id": "simple-compound-interest-010",
+    "id": "simple-compound-interest-015",
     "q": {
-      "en": "The rate per cent per annum at which a sum triples itself in 20 years at simple interest is —",
-      "as": "সৰল সুতত এটা ৰাশি 20 বছৰত তিনিগুণ হ'বলৈ বছৰি হাৰ —"
+      "en": "The compound interest on 2,000 at 5% per annum for 2 years is —",
+      "as": "2,000 ৰ ওপৰত বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "205",
+        "as": "২০৫"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = 2000 x 1.05^2 = 2,205, so CI = 205.",
+      "as": "মুঠ ধন = 2000 x 1.05^2 = 2,205, গতিকে চক্ৰবৃদ্ধি সুত = 205।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-016",
+    "q": {
+      "en": "The compound interest on 5,000 at 10% per annum for 2 years is —",
+      "as": "5,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "1,050",
+        "as": "১,০৫০"
+      },
+      {
+        "en": "1,025",
+        "as": "১,০২৫"
+      },
+      {
+        "en": "1,100",
+        "as": "১,১০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = 5000 x 1.21 = 6,050, so CI = 1,050.",
+      "as": "মুঠ ধন = 5000 x 1.21 = 6,050, গতিকে চক্ৰবৃদ্ধি সুত = 1,050।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-017",
+    "q": {
+      "en": "The compound interest on 8,000 at 5% per annum for 2 years is —",
+      "as": "8,000 ৰ ওপৰত বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "800",
+        "as": "৮০০"
+      },
+      {
+        "en": "810",
+        "as": "৮১০"
+      },
+      {
+        "en": "840",
+        "as": "৮৪০"
+      },
+      {
+        "en": "820",
+        "as": "৮২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Amount = 8000 x 1.1025 = 8,820, so CI = 820.",
+      "as": "মুঠ ধন = 8000 x 1.1025 = 8,820, গতিকে চক্ৰবৃদ্ধি সুত = 820।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-018",
+    "q": {
+      "en": "The difference between the compound interest and the simple interest on 1,000 at 10% per annum for 2 years is —",
+      "as": "1,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Difference = P(R/100)^2 = 1000 x 0.01 = 10.",
+      "as": "পাৰ্থক্য = P(R/100)^2 = 1000 x 0.01 = 10।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-019",
+    "q": {
+      "en": "The difference between the compound interest and the simple interest on 5,000 at 4% per annum for 2 years is —",
+      "as": "5,000 ৰ ওপৰত বছৰি 4% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difference = 5000 x (0.04)^2 = 8.",
+      "as": "পাৰ্থক্য = 5000 x (0.04)^2 = 8।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-020",
+    "q": {
+      "en": "The compound interest on 1,000 at 20% per annum for 2 years is —",
+      "as": "1,000 ৰ ওপৰত বছৰি 20% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "440",
+        "as": "৪৪০"
+      },
+      {
+        "en": "460",
+        "as": "৪৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = 1000 x 1.44 = 1,440, so CI = 440.",
+      "as": "মুঠ ধন = 1000 x 1.44 = 1,440, গতিকে চক্ৰবৃদ্ধি সুত = 440।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-021",
+    "q": {
+      "en": "The compound interest on 4,000 at 10% per annum for 2 years is —",
+      "as": "4,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "800",
+        "as": "৮০০"
+      },
+      {
+        "en": "840",
+        "as": "৮৪০"
+      },
+      {
+        "en": "820",
+        "as": "৮২০"
+      },
+      {
+        "en": "860",
+        "as": "৮৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = 4000 x 1.21 = 4,840, so CI = 840.",
+      "as": "মুঠ ধন = 4000 x 1.21 = 4,840, গতিকে চক্ৰবৃদ্ধি সুত = 840।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-022",
+    "q": {
+      "en": "The amount on 2,000 at 10% per annum for 2 years compounded annually is —",
+      "as": "বছৰি 10% হাৰত 2,000 ৰ 2 বছৰৰ বছৰি চক্ৰবৃদ্ধিৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "2,200",
+        "as": "২,২০০"
+      },
+      {
+        "en": "2,400",
+        "as": "২,৪০০"
+      },
+      {
+        "en": "2,420",
+        "as": "২,৪২০"
+      },
+      {
+        "en": "2,440",
+        "as": "২,৪৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = 2000 x 1.21 = 2,420.",
+      "as": "মুঠ ধন = 2000 x 1.21 = 2,420।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-023",
+    "q": {
+      "en": "The compound interest on 10,000 at 8% per annum for 2 years is —",
+      "as": "10,000 ৰ ওপৰত বছৰি 8% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "1,600",
+        "as": "১,৬০০"
+      },
+      {
+        "en": "1,640",
+        "as": "১,৬৪০"
+      },
+      {
+        "en": "1,664",
+        "as": "১,৬৬৪"
+      },
+      {
+        "en": "1,680",
+        "as": "১,৬৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = 10000 x 1.1664 = 11,664, so CI = 1,664.",
+      "as": "মুঠ ধন = 10000 x 1.1664 = 11,664, গতিকে চক্ৰবৃদ্ধি সুত = 1,664।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-024",
+    "q": {
+      "en": "The compound interest on 1,600 at 5% per annum for 2 years is —",
+      "as": "1,600 ৰ ওপৰত বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "164",
+        "as": "১৬৪"
+      },
+      {
+        "en": "162",
+        "as": "১৬২"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "166",
+        "as": "১৬৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = 1600 x 1.1025 = 1,764, so CI = 164.",
+      "as": "মুঠ ধন = 1600 x 1.1025 = 1,764, গতিকে চক্ৰবৃদ্ধি সুত = 164।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-025",
+    "q": {
+      "en": "The simple interest on a sum for 2 years at 10% per annum is 400. The sum is —",
+      "as": "এটা ৰাশিৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ সৰল সুত 400। ৰাশিটো —"
+    },
+    "options": [
+      {
+        "en": "1,500",
+        "as": "১,৫০০"
+      },
+      {
+        "en": "1,800",
+        "as": "১,৮০০"
+      },
+      {
+        "en": "2,000",
+        "as": "২,০০০"
+      },
+      {
+        "en": "2,200",
+        "as": "২,২০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P = 400 x 100 / (10 x 2) = 2,000.",
+      "as": "মূলধন = 400 x 100 / (10 x 2) = 2,000।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-026",
+    "q": {
+      "en": "The simple interest on 6,000 at 7% per annum for 2 years is —",
+      "as": "6,000 ৰ ওপৰত বছৰি 7% হাৰত 2 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "780",
+        "as": "৭৮০"
+      },
+      {
+        "en": "800",
+        "as": "৮০০"
+      },
+      {
+        "en": "880",
+        "as": "৮৮০"
+      },
+      {
+        "en": "840",
+        "as": "৮৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 6000 x 7 x 2 / 100 = 840.",
+      "as": "সৰল সুত = 6000 x 7 x 2 / 100 = 840।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-027",
+    "q": {
+      "en": "The amount on 3,000 at 6% per annum for 2 years under simple interest is —",
+      "as": "বছৰি 6% হাৰত 3,000 ৰ 2 বছৰৰ সৰল সুতৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "3,320",
+        "as": "৩,৩২০"
+      },
+      {
+        "en": "3,340",
+        "as": "৩,৩৪০"
+      },
+      {
+        "en": "3,360",
+        "as": "৩,৩৬০"
+      },
+      {
+        "en": "3,380",
+        "as": "৩,৩৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = 360, so amount = 3,360.",
+      "as": "সৰল সুত = 360, গতিকে মুঠ ধন = 3,360।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-028",
+    "q": {
+      "en": "The simple interest on 2,400 at 12% per annum for 6 months is —",
+      "as": "2,400 ৰ ওপৰত বছৰি 12% হাৰত 6 মাহৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "156",
+        "as": "১৫৬"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 2400 x 12 x 0.5 / 100 = 144.",
+      "as": "সৰল সুত = 2400 x 12 x 0.5 / 100 = 144।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-029",
+    "q": {
+      "en": "The rate of simple interest at which a sum doubles itself in 10 years is —",
+      "as": "এটা ৰাশি 10 বছৰত দুগুণ হোৱা সৰল সুতৰ হাৰ —"
     },
     "options": [
       {
@@ -295,68 +865,998 @@
     ],
     "correct": 0,
     "explanation": {
-      "en": "SI = 2P in 20 years, so R = 200 / 20 = 10%.",
-      "as": "20 বছৰত সৰল সুত = 2P, গতিকে হাৰ = 200 / 20 = 10%।"
+      "en": "To double, SI = P, so R = 100/10 = 10%.",
+      "as": "দুগুণ হ'বলৈ সৰল সুত = মূলধন, গতিকে হাৰ = 100/10 = 10%।"
     }
   },
   {
-    "id": "simple-compound-interest-011",
+    "id": "simple-compound-interest-030",
     "q": {
-      "en": "The simple interest on ₹12,000 at 7.5% per annum for 8 months is —",
-      "as": "₹12,000 ৰ ওপৰত বছৰি 7.5% হাৰত 8 মাহৰ সৰল সুত —"
+      "en": "The rate of simple interest at which a sum doubles itself in 20 years is —",
+      "as": "এটা ৰাশি 20 বছৰত দুগুণ হোৱা সৰল সুতৰ হাৰ —"
     },
     "options": [
       {
-        "en": "₹750",
-        "as": "₹৭৫০"
+        "en": "4%",
+        "as": "৪%"
       },
       {
-        "en": "₹500",
-        "as": "₹৫০০"
+        "en": "6%",
+        "as": "৬%"
       },
       {
-        "en": "₹600",
-        "as": "₹৬০০"
+        "en": "5%",
+        "as": "৫%"
       },
       {
-        "en": "₹900",
-        "as": "₹৯০০"
+        "en": "10%",
+        "as": "১০%"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "T = 8/12 = 2/3 year; SI = 12000 x 7.5 x 2 / (100 x 3) = 600.",
-      "as": "সময় = 8/12 = 2/3 বছৰ; সৰল সুত = 12000 x 7.5 x 2 / (100 x 3) = 600।"
+      "en": "R = 100/20 = 5%.",
+      "as": "হাৰ = 100/20 = 5%।"
     }
   },
   {
-    "id": "simple-compound-interest-012",
+    "id": "simple-compound-interest-031",
     "q": {
-      "en": "The difference between the compound interest and the simple interest on a sum at 5% per annum for 2 years is ₹25. The sum is —",
-      "as": "বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য ₹25 হ'লে ৰাশিটো —"
+      "en": "The rate of simple interest at which a sum triples itself in 20 years is —",
+      "as": "এটা ৰাশি 20 বছৰত তিনিগুণ হোৱা সৰল সুতৰ হাৰ —"
     },
     "options": [
       {
-        "en": "₹8,000",
-        "as": "₹৮,০০০"
+        "en": "10%",
+        "as": "১০%"
       },
       {
-        "en": "₹15,000",
-        "as": "₹১৫,০০০"
+        "en": "8%",
+        "as": "৮%"
       },
       {
-        "en": "₹12,000",
-        "as": "₹১২,০০০"
+        "en": "5%",
+        "as": "৫%"
       },
       {
-        "en": "₹10,000",
-        "as": "₹১০,০০০"
+        "en": "12%",
+        "as": "১২%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "To triple, SI = 2P, so R = 200/20 = 10%.",
+      "as": "তিনিগুণ হ'বলৈ সৰল সুত = 2 মূলধন, গতিকে হাৰ = 200/20 = 10%।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-032",
+    "q": {
+      "en": "If the simple interest on a sum for 5 years is 1/4 of the principal, the rate per annum is —",
+      "as": "এটা ৰাশিৰ 5 বছৰৰ সৰল সুত মূলধনৰ 1/4 হ'লে বছৰি হাৰ —"
+    },
+    "options": [
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "8%",
+        "as": "৮%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R = 100 / (4 x 5) = 5%.",
+      "as": "হাৰ = 100 / (4 x 5) = 5%।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-033",
+    "q": {
+      "en": "The compound interest on 1,000 at 10% per annum for 3 years is —",
+      "as": "1,000 ৰ ওপৰত বছৰি 10% হাৰত 3 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "331",
+        "as": "৩৩১"
+      },
+      {
+        "en": "310",
+        "as": "৩১০"
+      },
+      {
+        "en": "340",
+        "as": "৩৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = 1000 x 1.331 = 1,331, so CI = 331.",
+      "as": "মুঠ ধন = 1000 x 1.331 = 1,331, গতিকে চক্ৰবৃদ্ধি সুত = 331।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-034",
+    "q": {
+      "en": "The amount on 2,000 at 10% per annum for 3 years compounded annually is —",
+      "as": "বছৰি 10% হাৰত 2,000 ৰ 3 বছৰৰ বছৰি চক্ৰবৃদ্ধিৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "2,600",
+        "as": "২,৬০০"
+      },
+      {
+        "en": "2,620",
+        "as": "২,৬২০"
+      },
+      {
+        "en": "2,662",
+        "as": "২,৬৬২"
+      },
+      {
+        "en": "2,700",
+        "as": "২,৭০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = 2000 x 1.331 = 2,662.",
+      "as": "মুঠ ধন = 2000 x 1.331 = 2,662।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-035",
+    "q": {
+      "en": "The compound interest on 5,000 at 4% per annum for 2 years is —",
+      "as": "5,000 ৰ ওপৰত বছৰি 4% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "408",
+        "as": "৪০৮"
+      },
+      {
+        "en": "416",
+        "as": "৪১৬"
+      },
+      {
+        "en": "424",
+        "as": "৪২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = 5000 x 1.0816 = 5,408, so CI = 408.",
+      "as": "মুঠ ধন = 5000 x 1.0816 = 5,408, গতিকে চক্ৰবৃদ্ধি সুত = 408।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-036",
+    "q": {
+      "en": "The simple interest on 9,000 at 5% per annum for 4 years is —",
+      "as": "9,000 ৰ ওপৰত বছৰি 5% হাৰত 4 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "1,600",
+        "as": "১,৬০০"
+      },
+      {
+        "en": "1,700",
+        "as": "১,৭০০"
+      },
+      {
+        "en": "1,800",
+        "as": "১,৮০০"
+      },
+      {
+        "en": "1,900",
+        "as": "১,৯০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = 9000 x 5 x 4 / 100 = 1,800.",
+      "as": "সৰল সুত = 9000 x 5 x 4 / 100 = 1,800।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-037",
+    "q": {
+      "en": "The principal that amounts to 2,400 in 2 years at 10% per annum simple interest is —",
+      "as": "বছৰি 10% সৰল সুতত 2 বছৰত 2,400 হোৱা মূলধন —"
+    },
+    "options": [
+      {
+        "en": "1,800",
+        "as": "১,৮০০"
+      },
+      {
+        "en": "1,900",
+        "as": "১,৯০০"
+      },
+      {
+        "en": "2,000",
+        "as": "২,০০০"
+      },
+      {
+        "en": "2,100",
+        "as": "২,১০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P x 1.2 = 2400, so P = 2,000.",
+      "as": "মূলধন x 1.2 = 2400, গতিকে মূলধন = 2,000।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-038",
+    "q": {
+      "en": "The difference between the compound interest and the simple interest on 10,000 at 10% per annum for 2 years is —",
+      "as": "10,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Difference = 10000 x 0.01 = 100.",
+      "as": "পাৰ্থক্য = 10000 x 0.01 = 100।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-039",
+    "q": {
+      "en": "The compound interest on 500 at 10% per annum for 2 years is —",
+      "as": "500 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "115",
+        "as": "১১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = 500 x 1.21 = 605, so CI = 105.",
+      "as": "মুঠ ধন = 500 x 1.21 = 605, গতিকে চক্ৰবৃদ্ধি সুত = 105।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-040",
+    "q": {
+      "en": "The simple interest on 7,500 at 8% per annum for 2 years is —",
+      "as": "7,500 ৰ ওপৰত বছৰি 8% হাৰত 2 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      },
+      {
+        "en": "1,150",
+        "as": "১,১৫০"
+      },
+      {
+        "en": "1,100",
+        "as": "১,১০০"
+      },
+      {
+        "en": "1,250",
+        "as": "১,২৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 7500 x 8 x 2 / 100 = 1,200.",
+      "as": "সৰল সুত = 7500 x 8 x 2 / 100 = 1,200।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-041",
+    "q": {
+      "en": "The rate of simple interest at which 800 gives 96 in 2 years is —",
+      "as": "800 এ 2 বছৰত 96 দিয়া সৰল সুতৰ হাৰ —"
+    },
+    "options": [
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "8%",
+        "as": "৮%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R = 96 x 100 / (800 x 2) = 6%.",
+      "as": "হাৰ = 96 x 100 / (800 x 2) = 6%।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-042",
+    "q": {
+      "en": "The time in which 5,000 gives 750 simple interest at 5% per annum is —",
+      "as": "বছৰি 5% হাৰত 5,000 এ 750 সৰল সুত দিয়া সময় —"
+    },
+    "options": [
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "T = 750 x 100 / (5000 x 5) = 3 years.",
+      "as": "সময় = 750 x 100 / (5000 x 5) = 3 বছৰ।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-043",
+    "q": {
+      "en": "The simple interest on 1,000 at 5% per annum for 4 years is —",
+      "as": "1,000 ৰ ওপৰত বছৰি 5% হাৰত 4 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 1000 x 5 x 4 / 100 = 200.",
+      "as": "সৰল সুত = 1000 x 5 x 4 / 100 = 200।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-044",
+    "q": {
+      "en": "The compound interest on 2,500 at 4% per annum for 2 years is —",
+      "as": "2,500 ৰ ওপৰত বছৰি 4% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "204",
+        "as": "২০৪"
+      },
+      {
+        "en": "202",
+        "as": "২০২"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "206",
+        "as": "২০৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = 2500 x 1.0816 = 2,704, so CI = 204.",
+      "as": "মুঠ ধন = 2500 x 1.0816 = 2,704, গতিকে চক্ৰবৃদ্ধি সুত = 204।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-045",
+    "q": {
+      "en": "The amount on 1,500 at 8% per annum for 2 years compounded annually is —",
+      "as": "বছৰি 8% হাৰত 1,500 ৰ 2 বছৰৰ বছৰি চক্ৰবৃদ্ধিৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "1,700",
+        "as": "১,৭০০"
+      },
+      {
+        "en": "1,720",
+        "as": "১,৭২০"
+      },
+      {
+        "en": "1,740",
+        "as": "১,৭৪০"
+      },
+      {
+        "en": "1,749.60",
+        "as": "১,৭৪৯.৬০"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "P x (5/100)^2 = 25, so P = 10,000.",
-      "as": "P x (5/100)^2 = 25, গতিকে P = 10,000।"
+      "en": "Amount = 1500 x 1.1664 = 1,749.60.",
+      "as": "মুঠ ধন = 1500 x 1.1664 = 1,749.60।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-046",
+    "q": {
+      "en": "The simple interest on 3,600 at 6% per annum for 5 years is —",
+      "as": "3,600 ৰ ওপৰত বছৰি 6% হাৰত 5 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "1,080",
+        "as": "১,০৮০"
+      },
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "1,100",
+        "as": "১,১০০"
+      },
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 3600 x 6 x 5 / 100 = 1,080.",
+      "as": "সৰল সুত = 3600 x 6 x 5 / 100 = 1,080।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-047",
+    "q": {
+      "en": "If the compound interest on a sum for 2 years at 10% per annum is 420, the sum is —",
+      "as": "বছৰি 10% হাৰত এটা ৰাশিৰ 2 বছৰৰ চক্ৰবৃদ্ধি সুত 420 হ'লে ৰাশিটো —"
+    },
+    "options": [
+      {
+        "en": "2,000",
+        "as": "২,০০০"
+      },
+      {
+        "en": "1,900",
+        "as": "১,৯০০"
+      },
+      {
+        "en": "1,800",
+        "as": "১,৮০০"
+      },
+      {
+        "en": "2,100",
+        "as": "২,১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P x 0.21 = 420, so P = 2,000.",
+      "as": "মূলধন x 0.21 = 420, গতিকে মূলধন = 2,000।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-048",
+    "q": {
+      "en": "The compound interest on 6,000 at 10% per annum for 2 years is —",
+      "as": "6,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "1,200",
+        "as": "১,২০০"
+      },
+      {
+        "en": "1,240",
+        "as": "১,২৪০"
+      },
+      {
+        "en": "1,260",
+        "as": "১,২৬০"
+      },
+      {
+        "en": "1,280",
+        "as": "১,২৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = 6000 x 1.21 = 7,260, so CI = 1,260.",
+      "as": "মুঠ ধন = 6000 x 1.21 = 7,260, গতিকে চক্ৰবৃদ্ধি সুত = 1,260।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-049",
+    "q": {
+      "en": "The simple interest on 2,500 at 8% per annum for 3 years is —",
+      "as": "2,500 ৰ ওপৰত বছৰি 8% হাৰত 3 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "550",
+        "as": "৫৫০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "650",
+        "as": "৬৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 2500 x 8 x 3 / 100 = 600.",
+      "as": "সৰল সুত = 2500 x 8 x 3 / 100 = 600।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-050",
+    "q": {
+      "en": "The difference between the compound interest and the simple interest on 2,000 at 5% per annum for 2 years is —",
+      "as": "2,000 ৰ ওপৰত বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 2000 x (0.05)^2 = 5.",
+      "as": "পাৰ্থক্য = 2000 x (0.05)^2 = 5।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-051",
+    "q": {
+      "en": "The amount on 4,000 at 5% per annum for 2 years under compound interest is —",
+      "as": "বছৰি 5% হাৰত 4,000 ৰ 2 বছৰৰ চক্ৰবৃদ্ধি সুতৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "4,410",
+        "as": "৪,৪১০"
+      },
+      {
+        "en": "4,400",
+        "as": "৪,৪০০"
+      },
+      {
+        "en": "4,420",
+        "as": "৪,৪২০"
+      },
+      {
+        "en": "4,450",
+        "as": "৪,৪৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = 4000 x 1.1025 = 4,410.",
+      "as": "মুঠ ধন = 4000 x 1.1025 = 4,410।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-052",
+    "q": {
+      "en": "The compound interest on 12,000 at 10% per annum for 2 years is —",
+      "as": "12,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "2,400",
+        "as": "২,৪০০"
+      },
+      {
+        "en": "2,520",
+        "as": "২,৫২০"
+      },
+      {
+        "en": "2,480",
+        "as": "২,৪৮০"
+      },
+      {
+        "en": "2,600",
+        "as": "২,৬০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = 12000 x 1.21 = 14,520, so CI = 2,520.",
+      "as": "মুঠ ধন = 12000 x 1.21 = 14,520, গতিকে চক্ৰবৃদ্ধি সুত = 2,520।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-053",
+    "q": {
+      "en": "The simple interest on 640 at 12.5% per annum for 2 years is —",
+      "as": "640 ৰ ওপৰত বছৰি 12.5% হাৰত 2 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 640 x 12.5 x 2 / 100 = 160.",
+      "as": "সৰল সুত = 640 x 12.5 x 2 / 100 = 160।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-054",
+    "q": {
+      "en": "If a sum of money doubles itself at simple interest in 8 years, the rate per annum is —",
+      "as": "এটা ৰাশি সৰল সুতত 8 বছৰত দুগুণ হ'লে বছৰি হাৰ —"
+    },
+    "options": [
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R = 100/8 = 12.5%.",
+      "as": "হাৰ = 100/8 = 12.5%।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-055",
+    "q": {
+      "en": "The compound interest on 3,000 at 10% per annum for 2 years is —",
+      "as": "3,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "610",
+        "as": "৬১০"
+      },
+      {
+        "en": "650",
+        "as": "৬৫০"
+      },
+      {
+        "en": "630",
+        "as": "৬৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Amount = 3000 x 1.21 = 3,630, so CI = 630.",
+      "as": "মুঠ ধন = 3000 x 1.21 = 3,630, গতিকে চক্ৰবৃদ্ধি সুত = 630।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-056",
+    "q": {
+      "en": "The simple interest on 1,250 at 4% per annum for 2 years is —",
+      "as": "1,250 ৰ ওপৰত বছৰি 4% হাৰত 2 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 1250 x 4 x 2 / 100 = 100.",
+      "as": "সৰল সুত = 1250 x 4 x 2 / 100 = 100।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-057",
+    "q": {
+      "en": "The amount on 800 at 5% per annum for 3 years under simple interest is —",
+      "as": "বছৰি 5% হাৰত 800 ৰ 3 বছৰৰ সৰল সুতৰ মুঠ ধন —"
+    },
+    "options": [
+      {
+        "en": "900",
+        "as": "৯০০"
+      },
+      {
+        "en": "910",
+        "as": "৯১০"
+      },
+      {
+        "en": "920",
+        "as": "৯২০"
+      },
+      {
+        "en": "930",
+        "as": "৯৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = 120, so amount = 920.",
+      "as": "সৰল সুত = 120, গতিকে মুঠ ধন = 920।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-058",
+    "q": {
+      "en": "The compound interest on 10,000 at 5% per annum for 2 years is —",
+      "as": "10,000 ৰ ওপৰত বছৰি 5% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "1,025",
+        "as": "১,০২৫"
+      },
+      {
+        "en": "1,020",
+        "as": "১,০২০"
+      },
+      {
+        "en": "1,000",
+        "as": "১,০০০"
+      },
+      {
+        "en": "1,050",
+        "as": "১,০৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = 10000 x 1.1025 = 11,025, so CI = 1,025.",
+      "as": "মুঠ ধন = 10000 x 1.1025 = 11,025, গতিকে চক্ৰবৃদ্ধি সুত = 1,025।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-059",
+    "q": {
+      "en": "The time in which a sum doubles itself at 10% per annum simple interest is —",
+      "as": "বছৰি 10% সৰল সুতত এটা ৰাশি দুগুণ হোৱা সময় —"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "T = 100/10 = 10 years.",
+      "as": "সময় = 100/10 = 10 বছৰ।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-060",
+    "q": {
+      "en": "The simple interest on 4,800 at 7.5% per annum for 2 years is —",
+      "as": "4,800 ৰ ওপৰত বছৰি 7.5% হাৰত 2 বছৰৰ সৰল সুত —"
+    },
+    "options": [
+      {
+        "en": "660",
+        "as": "৬৬০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "750",
+        "as": "৭৫০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 4800 x 7.5 x 2 / 100 = 720.",
+      "as": "সৰল সুত = 4800 x 7.5 x 2 / 100 = 720।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-061",
+    "q": {
+      "en": "The compound interest on 2,000 at 20% per annum for 2 years is —",
+      "as": "2,000 ৰ ওপৰত বছৰি 20% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি সুত —"
+    },
+    "options": [
+      {
+        "en": "800",
+        "as": "৮০০"
+      },
+      {
+        "en": "860",
+        "as": "৮৬০"
+      },
+      {
+        "en": "880",
+        "as": "৮৮০"
+      },
+      {
+        "en": "900",
+        "as": "৯০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = 2000 x 1.44 = 2,880, so CI = 880.",
+      "as": "মুঠ ধন = 2000 x 1.44 = 2,880, গতিকে চক্ৰবৃদ্ধি সুত = 880।"
+    }
+  },
+  {
+    "id": "simple-compound-interest-062",
+    "q": {
+      "en": "The difference between the compound interest and the simple interest on 20,000 at 10% per annum for 2 years is —",
+      "as": "20,000 ৰ ওপৰত বছৰি 10% হাৰত 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য —"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Difference = 20000 x 0.01 = 200.",
+      "as": "পাৰ্থক্য = 20000 x 0.01 = 200।"
     }
   }
 ]

@@ -2,43 +2,223 @@
   {
     "id": "problems-on-ages-001",
     "q": {
-      "en": "The present age of A is 24 years and B is 16 years. The ratio of their ages after 4 years will be —",
-      "as": "A ৰ বৰ্তমান বয়স 24 বছৰ আৰু B ৰ 16 বছৰ। 4 বছৰৰ পিছত সিহঁতৰ বয়সৰ অনুপাত —"
+      "en": "The present age of A is 25 years. His age after 5 years will be —",
+      "as": "A ৰ বৰ্তমান বয়স 25 বছৰ। 5 বছৰৰ পিছত তেওঁৰ বয়স —"
     },
     "options": [
       {
-        "en": "5 : 4",
-        "as": "৫ : ৪"
+        "en": "28 years",
+        "as": "২৮ বছৰ"
       },
       {
-        "en": "3 : 2",
-        "as": "৩ : ২"
+        "en": "29 years",
+        "as": "২৯ বছৰ"
       },
       {
-        "en": "7 : 5",
-        "as": "৭ : ৫"
+        "en": "32 years",
+        "as": "৩২ বছৰ"
       },
       {
-        "en": "4 : 3",
-        "as": "৪ : ৩"
+        "en": "30 years",
+        "as": "৩০ বছৰ"
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
-      "en": "After 4 years the ages are 28 and 20, so 28 : 20 = 7 : 5.",
-      "as": "4 বছৰৰ পিছত বয়স 28 আৰু 20, গতিকে 28 : 20 = 7 : 5।"
+      "en": "25 + 5 = 30 years.",
+      "as": "25 + 5 = 30 বছৰ।"
     }
   },
   {
     "id": "problems-on-ages-002",
     "q": {
-      "en": "The sum of the ages of a father and his son is 60 years. If the father is four times as old as the son, the son's age is —",
-      "as": "পিতৃ আৰু পুত্ৰৰ বয়সৰ যোগফল 60 বছৰ। পিতৃ পুত্ৰতকৈ চাৰিগুণ ডাঙৰ হ'লে পুত্ৰৰ বয়স —"
+      "en": "The present age of B is 40 years. His age 10 years ago was —",
+      "as": "B ৰ বৰ্তমান বয়স 40 বছৰ। 10 বছৰ আগতে তেওঁৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "32 years",
+        "as": "৩২ বছৰ"
+      },
+      {
+        "en": "35 years",
+        "as": "৩৫ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "40 - 10 = 30 years.",
+      "as": "40 - 10 = 30 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-003",
+    "q": {
+      "en": "The sum of the ages of A and B is 50 years. If A is 26 years old, B is —",
+      "as": "A আৰু B ৰ বয়সৰ যোগফল 50 বছৰ। A ৰ বয়স 26 হ'লে B —"
+    },
+    "options": [
+      {
+        "en": "22 years",
+        "as": "২২ বছৰ"
+      },
+      {
+        "en": "26 years",
+        "as": "২৬ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B = 50 - 26 = 24 years.",
+      "as": "B = 50 - 26 = 24 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-004",
+    "q": {
+      "en": "The difference between the ages of A and B is 8 years. If A is 30 years old, B could be —",
+      "as": "A আৰু B ৰ বয়সৰ পাৰ্থক্য 8 বছৰ। A ৰ বয়স 30 হ'লে B হ'ব পাৰে —"
     },
     "options": [
       {
         "en": "20 years",
         "as": "২০ বছৰ"
+      },
+      {
+        "en": "26 years",
+        "as": "২৬ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "22 years",
+        "as": "২২ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B = 30 - 8 = 22 years.",
+      "as": "B = 30 - 8 = 22 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-005",
+    "q": {
+      "en": "A father is 30 years older than his son. If the son is 10 years old, the father is —",
+      "as": "এজন পিতৃ তেওঁৰ পুত্ৰতকৈ 30 বছৰ ডাঙৰ। পুত্ৰৰ বয়স 10 হ'লে পিতৃৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "35 years",
+        "as": "৩৫ বছৰ"
+      },
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      },
+      {
+        "en": "38 years",
+        "as": "৩৮ বছৰ"
+      },
+      {
+        "en": "45 years",
+        "as": "৪৫ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Father = 10 + 30 = 40 years.",
+      "as": "পিতৃ = 10 + 30 = 40 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-006",
+    "q": {
+      "en": "A father is 4 times as old as his son. If the son is 12 years old, the father is —",
+      "as": "এজন পিতৃ তেওঁৰ পুত্ৰতকৈ 4 গুণ ডাঙৰ। পুত্ৰৰ বয়স 12 হ'লে পিতৃৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "48 years",
+        "as": "৪৮ বছৰ"
+      },
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      },
+      {
+        "en": "44 years",
+        "as": "৪৪ বছৰ"
+      },
+      {
+        "en": "36 years",
+        "as": "৩৬ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Father = 4 x 12 = 48 years.",
+      "as": "পিতৃ = 4 x 12 = 48 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-007",
+    "q": {
+      "en": "A is twice as old as B. If B is 15 years old, A is —",
+      "as": "A B তকৈ দুগুণ ডাঙৰ। B ৰ বয়স 15 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      },
+      {
+        "en": "32 years",
+        "as": "৩২ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A = 2 x 15 = 30 years.",
+      "as": "A = 2 x 15 = 30 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-008",
+    "q": {
+      "en": "The sum of the ages of a father and his son is 60 years. If the father is 4 times as old as the son, the son's age is —",
+      "as": "এজন পিতৃ আৰু পুত্ৰৰ বয়সৰ যোগফল 60 বছৰ। পিতৃ পুত্ৰতকৈ 4 গুণ ডাঙৰ হ'লে পুত্ৰৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
       },
       {
         "en": "15 years",
@@ -49,8 +229,8 @@
         "as": "১২ বছৰ"
       },
       {
-        "en": "10 years",
-        "as": "১০ বছৰ"
+        "en": "20 years",
+        "as": "২০ বছৰ"
       }
     ],
     "correct": 2,
@@ -60,70 +240,220 @@
     }
   },
   {
-    "id": "problems-on-ages-003",
+    "id": "problems-on-ages-009",
     "q": {
-      "en": "A is 5 years older than B. Five years ago A was twice as old as B. The present age of A is —",
-      "as": "A, B তকৈ 5 বছৰ ডাঙৰ। পাঁচ বছৰ আগতে A ৰ বয়স B ৰ দুগুণ আছিল। A ৰ বৰ্তমান বয়স —"
+      "en": "The sum of the ages of a mother and her daughter is 55 years. If the mother is 4 times as old as the daughter, the mother's age is —",
+      "as": "এজনী মাক আৰু জীয়েকৰ বয়সৰ যোগফল 55 বছৰ। মাক জীয়েকতকৈ 4 গুণ ডাঙৰ হ'লে মাকৰ বয়স —"
     },
     "options": [
       {
-        "en": "10 years",
-        "as": "১০ বছৰ"
+        "en": "44 years",
+        "as": "৪৪ বছৰ"
       },
       {
-        "en": "15 years",
-        "as": "১৫ বছৰ"
+        "en": "42 years",
+        "as": "৪২ বছৰ"
       },
       {
-        "en": "12 years",
-        "as": "১২ বছৰ"
+        "en": "40 years",
+        "as": "৪০ বছৰ"
       },
       {
-        "en": "18 years",
-        "as": "১৮ বছৰ"
+        "en": "45 years",
+        "as": "৪৫ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "5x = 55, so the daughter is 11 and the mother is 44.",
+      "as": "5x = 55, গতিকে জীয়েক 11 আৰু মাক 44।"
+    }
+  },
+  {
+    "id": "problems-on-ages-010",
+    "q": {
+      "en": "The present age of A is 20 years and that of B is 30 years. The ratio of their ages is —",
+      "as": "A ৰ বৰ্তমান বয়স 20 বছৰ আৰু B ৰ 30 বছৰ। সিহঁতৰ বয়সৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "2 : 5",
+        "as": "২ : ৫"
+      },
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "20 : 30 = 2 : 3.",
+      "as": "20 : 30 = 2 : 3।"
+    }
+  },
+  {
+    "id": "problems-on-ages-011",
+    "q": {
+      "en": "The ages of A and B are in the ratio 3 : 5. If A is 18 years old, B is —",
+      "as": "A আৰু B ৰ বয়সৰ অনুপাত 3 : 5। A ৰ বয়স 18 হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "27 years",
+        "as": "২৭ বছৰ"
+      },
+      {
+        "en": "33 years",
+        "as": "৩৩ বছৰ"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "Let B = x; x + 5 - 5 = 2(x - 5), so x = 10 and A is 15 years old.",
-      "as": "B = x ধৰিলে; x + 5 - 5 = 2(x - 5), গতিকে x = 10 আৰু A ৰ বয়স 15 বছৰ।"
+      "en": "B = 5/3 x 18 = 30 years.",
+      "as": "B = 5/3 x 18 = 30 বছৰ।"
     }
   },
   {
-    "id": "problems-on-ages-004",
+    "id": "problems-on-ages-012",
     "q": {
-      "en": "The present ages of A and B are in the ratio 4 : 5. After 6 years the ratio becomes 6 : 7. The present age of B is —",
-      "as": "A আৰু B ৰ বৰ্তমান বয়সৰ অনুপাত 4 : 5। 6 বছৰৰ পিছত অনুপাত 6 : 7 হয়। B ৰ বৰ্তমান বয়স —"
+      "en": "The ages of A and B are in the ratio 4 : 5 and their sum is 45. A's age is —",
+      "as": "A আৰু B ৰ বয়সৰ অনুপাত 4 : 5 আৰু যোগফল 45। A ৰ বয়স —"
     },
     "options": [
       {
-        "en": "15 years",
-        "as": "১৫ বছৰ"
+        "en": "16 years",
+        "as": "১৬ বছৰ"
       },
       {
         "en": "18 years",
         "as": "১৮ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A = 4/9 x 45 = 20 years.",
+      "as": "A = 4/9 x 45 = 20 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-013",
+    "q": {
+      "en": "The ages of A and B are in the ratio 5 : 7 and their difference is 8 years. B's age is —",
+      "as": "A আৰু B ৰ বয়সৰ অনুপাত 5 : 7 আৰু পাৰ্থক্য 8 বছৰ। B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "32 years",
+        "as": "৩২ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each part = 4, so B = 7 x 4 = 28 years.",
+      "as": "প্ৰতিটো অংশ = 4, গতিকে B = 7 x 4 = 28 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-014",
+    "q": {
+      "en": "A's age is 5 years more than B's age. If the sum of their ages is 45, A's age is —",
+      "as": "A ৰ বয়স B ৰ বয়সতকৈ 5 বছৰ বেছি। সিহঁতৰ বয়সৰ যোগফল 45 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "22 years",
+        "as": "২২ বছৰ"
+      },
+      {
+        "en": "27 years",
+        "as": "২৭ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B + (B + 5) = 45 gives B = 20 and A = 25.",
+      "as": "B + (B + 5) = 45 ৰ পৰা B = 20 আৰু A = 25 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-015",
+    "q": {
+      "en": "The age of A is 3 times the age of B. If the sum of their ages is 64, B's age is —",
+      "as": "A ৰ বয়স B ৰ বয়সৰ 3 গুণ। সিহঁতৰ বয়সৰ যোগফল 64 হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
       },
       {
         "en": "20 years",
         "as": "২০ বছৰ"
       },
       {
-        "en": "12 years",
-        "as": "১২ বছৰ"
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
-      "en": "(4x + 6) / (5x + 6) = 6/7 gives x = 3, so B is 15 years old.",
-      "as": "(4x + 6) / (5x + 6) = 6/7 ৰ পৰা x = 3, গতিকে B ৰ বয়স 15 বছৰ।"
+      "en": "4x = 64, so x = 16 years.",
+      "as": "4x = 64, গতিকে x = 16 বছৰ।"
     }
   },
   {
-    "id": "problems-on-ages-005",
+    "id": "problems-on-ages-016",
     "q": {
-      "en": "A mother is 24 years older than her daughter. After 6 years she will be three times as old as her daughter. The daughter's present age is —",
-      "as": "এগৰাকী মাক তেওঁৰ জীয়েকতকৈ 24 বছৰ ডাঙৰ। 6 বছৰৰ পিছত তেওঁ জীয়েকতকৈ তিনিগুণ ডাঙৰ হ'ব। জীয়েকৰ বৰ্তমান বয়স —"
+      "en": "The present age of a man is 3 times his son's age. After 4 years, the man will be 2.5 times his son's age. The son's present age is —",
+      "as": "এজন মানুহৰ বৰ্তমান বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 3 গুণ। 4 বছৰৰ পিছত তেওঁ পুত্ৰৰ বয়সৰ 2.5 গুণ হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
     },
     "options": [
       {
@@ -131,31 +461,35 @@
         "as": "৮ বছৰ"
       },
       {
-        "en": "4 years",
-        "as": "৪ বছৰ"
-      },
-      {
-        "en": "6 years",
-        "as": "৬ বছৰ"
+        "en": "12 years",
+        "as": "১২ বছৰ"
       },
       {
         "en": "10 years",
         "as": "১০ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
       }
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "en": "x + 24 + 6 = 3(x + 6), so x = 6 years.",
-      "as": "x + 24 + 6 = 3(x + 6), গতিকে x = 6 বছৰ।"
+      "en": "3x + 4 = 2.5(x + 4) gives 0.5x = 6, so x = 12.",
+      "as": "3x + 4 = 2.5(x + 4) ৰ পৰা 0.5x = 6, গতিকে x = 12।"
     }
   },
   {
-    "id": "problems-on-ages-006",
+    "id": "problems-on-ages-017",
     "q": {
-      "en": "The average age of a family of 4 members is 25 years. A baby is then born into the family. The average age of the family of 5 members is now —",
-      "as": "4 জনীয়া এটা পৰিয়ালৰ গড় বয়স 25 বছৰ। তাৰ পিছত পৰিয়ালটোত এটা শিশু জন্মিল। এতিয়া 5 জনীয়া পৰিয়ালৰ গড় বয়স —"
+      "en": "A is 5 years older than B. After 10 years the sum of their ages will be 65. The present age of A is —",
+      "as": "A B তকৈ 5 বছৰ ডাঙৰ। 10 বছৰৰ পিছত সিহঁতৰ বয়সৰ যোগফল 65 হ'ব। A ৰ বৰ্তমান বয়স —"
     },
     "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
       {
         "en": "22 years",
         "as": "২২ বছৰ"
@@ -165,85 +499,21 @@
         "as": "২৫ বছৰ"
       },
       {
-        "en": "20 years",
-        "as": "২০ বছৰ"
-      },
-      {
-        "en": "30 years",
-        "as": "৩০ বছৰ"
+        "en": "28 years",
+        "as": "২৮ বছৰ"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "The four members total 100 years; the baby adds 0, so 100 / 5 = 20 years.",
-      "as": "চাৰিজনৰ মুঠ 100 বছৰ; শিশুৱে 0 যোগ কৰে, গতিকে 100 / 5 = 20 বছৰ।"
+      "en": "Present sum = 45, so B = 20 and A = 25.",
+      "as": "বৰ্তমান যোগফল = 45, গতিকে B = 20 আৰু A = 25।"
     }
   },
   {
-    "id": "problems-on-ages-007",
+    "id": "problems-on-ages-018",
     "q": {
-      "en": "Ten years ago the age of A was 25 years. The present age of A is —",
-      "as": "দহ বছৰ আগতে A ৰ বয়স 25 বছৰ আছিল। A ৰ বৰ্তমান বয়স —"
-    },
-    "options": [
-      {
-        "en": "40 years",
-        "as": "৪০ বছৰ"
-      },
-      {
-        "en": "25 years",
-        "as": "২৫ বছৰ"
-      },
-      {
-        "en": "15 years",
-        "as": "১৫ বছৰ"
-      },
-      {
-        "en": "35 years",
-        "as": "৩৫ বছৰ"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "Present age = 25 + 10 = 35 years.",
-      "as": "বৰ্তমান বয়স = 25 + 10 = 35 বছৰ।"
-    }
-  },
-  {
-    "id": "problems-on-ages-008",
-    "q": {
-      "en": "The sum of the ages of A and B is 45 years. Five years ago the sum was —",
-      "as": "A আৰু B ৰ বয়সৰ যোগফল 45 বছৰ। পাঁচ বছৰ আগতে যোগফল আছিল —"
-    },
-    "options": [
-      {
-        "en": "30 years",
-        "as": "৩০ বছৰ"
-      },
-      {
-        "en": "45 years",
-        "as": "৪৫ বছৰ"
-      },
-      {
-        "en": "35 years",
-        "as": "৩৫ বছৰ"
-      },
-      {
-        "en": "40 years",
-        "as": "৪০ বছৰ"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "Each is 5 years younger, so the sum was 45 - 10 = 35 years.",
-      "as": "প্ৰত্যেক 5 বছৰ সৰু, গতিকে যোগফল 45 - 10 = 35 বছৰ আছিল।"
-    }
-  },
-  {
-    "id": "problems-on-ages-009",
-    "q": {
-      "en": "A father is 3 times as old as his son. After 12 years he will be twice as old as his son. The son's present age is —",
-      "as": "এজন পিতৃ পুত্ৰতকৈ 3 গুণ ডাঙৰ। 12 বছৰৰ পিছত তেওঁ পুত্ৰতকৈ দুগুণ ডাঙৰ হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+      "en": "The ratio of the present ages of A and B is 2 : 3. After 6 years the ratio becomes 3 : 4. The present age of A is —",
+      "as": "A আৰু B ৰ বৰ্তমান বয়সৰ অনুপাত 2 : 3। 6 বছৰৰ পিছত অনুপাত 3 : 4 হয়। A ৰ বৰ্তমান বয়স —"
     },
     "options": [
       {
@@ -251,89 +521,239 @@
         "as": "১০ বছৰ"
       },
       {
-        "en": "12 years",
-        "as": "১২ বছৰ"
-      },
-      {
         "en": "14 years",
         "as": "১৪ বছৰ"
       },
       {
-        "en": "8 years",
-        "as": "৮ বছৰ"
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
       }
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
-      "en": "3x + 12 = 2(x + 12), so x = 12 years.",
-      "as": "3x + 12 = 2(x + 12), গতিকে x = 12 বছৰ।"
+      "en": "Solving (2x + 6)/(3x + 6) = 3/4 gives x = 6, so A = 12.",
+      "as": "(2x + 6)/(3x + 6) = 3/4 সমাধান কৰিলে x = 6, গতিকে A = 12।"
     }
   },
   {
-    "id": "problems-on-ages-010",
+    "id": "problems-on-ages-019",
     "q": {
-      "en": "Five years ago the ratio of the ages of A and B was 3 : 4. Five years hence the ratio will be 4 : 5. The present age of A is —",
-      "as": "পাঁচ বছৰ আগতে A আৰু B ৰ বয়সৰ অনুপাত 3 : 4 আছিল। পাঁচ বছৰৰ পিছত অনুপাত 4 : 5 হ'ব। A ৰ বৰ্তমান বয়স —"
+      "en": "The present ages of A and B are in the ratio 5 : 4. After 5 years the ratio becomes 6 : 5. The present age of B is —",
+      "as": "A আৰু B ৰ বৰ্তমান বয়সৰ অনুপাত 5 : 4। 5 বছৰৰ পিছত অনুপাত 6 : 5 হয়। B ৰ বৰ্তমান বয়স —"
     },
     "options": [
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
       {
         "en": "20 years",
         "as": "২০ বছৰ"
-      },
-      {
-        "en": "35 years",
-        "as": "৩৫ বছৰ"
-      },
-      {
-        "en": "30 years",
-        "as": "৩০ বছৰ"
-      },
-      {
-        "en": "25 years",
-        "as": "২৫ বছৰ"
       }
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
-      "en": "Take the present ages as 3x+5 and 4x+5; (3x+10)/(4x+10) = 4/5 gives x = 10, so A is 35 years old.",
-      "as": "বৰ্তমান বয়স 3x+5 আৰু 4x+5 ধৰিলে; (3x+10)/(4x+10) = 4/5 ৰ পৰা x = 10, গতিকে A ৰ বয়স 35 বছৰ।"
+      "en": "Solving gives x = 5, so B = 20 years.",
+      "as": "সমাধান কৰিলে x = 5, গতিকে B = 20 বছৰ।"
     }
   },
   {
-    "id": "problems-on-ages-011",
+    "id": "problems-on-ages-020",
     "q": {
-      "en": "The average age of 8 members of a group is 40 years. If two members of ages 50 and 60 years leave, the average age of the remaining members is —",
-      "as": "8 জনীয়া এটা গোটৰ গড় বয়স 40 বছৰ। 50 আৰু 60 বছৰ বয়সৰ দুজন আঁতৰি গ'লে বাকী সদস্যসকলৰ গড় বয়স —"
+      "en": "A mother is 24 years older than her daughter. In 4 years the mother will be 3 times as old as her daughter. The daughter's present age is —",
+      "as": "এজনী মাক তেওঁৰ জীয়েকতকৈ 24 বছৰ ডাঙৰ। 4 বছৰৰ পিছত মাক জীয়েকতকৈ 3 গুণ ডাঙৰ হ'ব। জীয়েকৰ বৰ্তমান বয়স —"
     },
     "options": [
       {
-        "en": "37.5 years",
-        "as": "৩৭.৫ বছৰ"
+        "en": "6 years",
+        "as": "৬ বছৰ"
       },
       {
-        "en": "35 years",
-        "as": "৩৫ বছৰ"
+        "en": "10 years",
+        "as": "১০ বছৰ"
       },
       {
-        "en": "32.5 years",
-        "as": "৩২.৫ বছৰ"
+        "en": "8 years",
+        "as": "৮ বছৰ"
       },
       {
-        "en": "30 years",
-        "as": "৩০ বছৰ"
+        "en": "12 years",
+        "as": "১২ বছৰ"
       }
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
-      "en": "Total 320; remaining total 320 - 110 = 210 over 6 members, giving 35 years.",
-      "as": "মুঠ 320; বাকী মুঠ 320 - 110 = 210, 6 জনত, গতিকে 35 বছৰ।"
+      "en": "x + 28 = 3(x + 4) gives x = 8.",
+      "as": "x + 28 = 3(x + 4) ৰ পৰা x = 8 পোৱা যায়।"
     }
   },
   {
-    "id": "problems-on-ages-012",
+    "id": "problems-on-ages-021",
     "q": {
-      "en": "The present age of a man is 3 times the age of his son. The product of their ages is 108. The son's age is —",
-      "as": "এজন মানুহৰ বৰ্তমান বয়স পুত্ৰৰ বয়সৰ 3 গুণ। সিহঁতৰ বয়সৰ গুণফল 108। পুত্ৰৰ বয়স —"
+      "en": "A father's age is 3 times his son's age. Five years ago the father was 4 times his son. The son's present age is —",
+      "as": "এজন পিতৃৰ বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 3 গুণ। পাঁচ বছৰ আগতে পিতৃ পুত্ৰতকৈ 4 গুণ আছিল। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3x - 5 = 4(x - 5) gives x = 15.",
+      "as": "3x - 5 = 4(x - 5) ৰ পৰা x = 15 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-022",
+    "q": {
+      "en": "The sum of the ages of a father and his son is 64 years. Six years ago the father was 3 times as old as the son. The son's present age is —",
+      "as": "এজন পিতৃ আৰু পুত্ৰৰ বয়সৰ যোগফল 64 বছৰ। ছয় বছৰ আগতে পিতৃ পুত্ৰতকৈ 3 গুণ আছিল। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "17 years",
+        "as": "১৭ বছৰ"
+      },
+      {
+        "en": "19 years",
+        "as": "১৯ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Six years ago the sum was 52; with father = 3 x son, the son was 13, so he is now 19.",
+      "as": "ছয় বছৰ আগতে যোগফল 52 আছিল; পিতৃ = 3 x পুত্ৰ হ'লে পুত্ৰ 13 আছিল, গতিকে এতিয়া 19।"
+    }
+  },
+  {
+    "id": "problems-on-ages-023",
+    "q": {
+      "en": "The average age of a family of 5 members is 30 years. The total age is —",
+      "as": "5 জনীয়া এটা পৰিয়ালৰ গড় বয়স 30 বছৰ। মুঠ বয়স —"
+    },
+    "options": [
+      {
+        "en": "120 years",
+        "as": "১২০ বছৰ"
+      },
+      {
+        "en": "140 years",
+        "as": "১৪০ বছৰ"
+      },
+      {
+        "en": "150 years",
+        "as": "১৫০ বছৰ"
+      },
+      {
+        "en": "160 years",
+        "as": "১৬০ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 30 x 5 = 150 years.",
+      "as": "মুঠ = 30 x 5 = 150 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-024",
+    "q": {
+      "en": "The average age of 4 brothers is 15 years. If the youngest is 9 years old, the average age of the other three is —",
+      "as": "4 জন ভাইৰ গড় বয়স 15 বছৰ। সৰুজনৰ বয়স 9 হ'লে বাকী তিনিজনৰ গড় বয়স —"
+    },
+    "options": [
+      {
+        "en": "17 years",
+        "as": "১৭ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "19 years",
+        "as": "১৯ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 60; removing 9 leaves 51 and 51 / 3 = 17.",
+      "as": "মুঠ = 60; 9 বাদ দিলে 51 আৰু 51 / 3 = 17।"
+    }
+  },
+  {
+    "id": "problems-on-ages-025",
+    "q": {
+      "en": "A man's age is 4 times his son's age. The sum of their ages is 50. The son's age is —",
+      "as": "এজন মানুহৰ বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 4 গুণ। সিহঁতৰ বয়সৰ যোগফল 50। পুত্ৰৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5x = 50, so x = 10.",
+      "as": "5x = 50, গতিকে x = 10।"
+    }
+  },
+  {
+    "id": "problems-on-ages-026",
+    "q": {
+      "en": "The present age of A is 12 years and that of B is 18 years. After how many years will the ratio of their ages be 4 : 5?",
+      "as": "A ৰ বৰ্তমান বয়স 12 বছৰ আৰু B ৰ 18 বছৰ। কিমান বছৰৰ পিছত সিহঁতৰ বয়সৰ অনুপাত 4 : 5 হ'ব?"
     },
     "options": [
       {
@@ -345,18 +765,1188 @@
         "as": "১২ বছৰ"
       },
       {
-        "en": "9 years",
-        "as": "৯ বছৰ"
+        "en": "10 years",
+        "as": "১০ বছৰ"
       },
       {
         "en": "8 years",
         "as": "৮ বছৰ"
       }
     ],
+    "correct": 1,
+    "explanation": {
+      "en": "(12 + x)/(18 + x) = 4/5 gives x = 12.",
+      "as": "(12 + x)/(18 + x) = 4/5 ৰ পৰা x = 12 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-027",
+    "q": {
+      "en": "Ten years ago the age of a father was 3 times the age of his son. Ten years hence the father will be twice the age of his son. The present age of the son is —",
+      "as": "দহ বছৰ আগতে এজন পিতৃৰ বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 3 গুণ আছিল। দহ বছৰৰ পিছত পিতৃ পুত্ৰতকৈ দুগুণ হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "35 years",
+        "as": "৩৫ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Solving the two equations gives the son's present age 30.",
+      "as": "দুটা সমীকৰণ সমাধান কৰিলে পুত্ৰৰ বৰ্তমান বয়স 30 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-028",
+    "q": {
+      "en": "A is 4 years older than B and B is 6 years older than C. If the sum of their ages is 61, the age of A is —",
+      "as": "A B তকৈ 4 বছৰ ডাঙৰ আৰু B C তকৈ 6 বছৰ ডাঙৰ। সিহঁতৰ বয়সৰ যোগফল 61 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "19 years",
+        "as": "১৯ বছৰ"
+      },
+      {
+        "en": "21 years",
+        "as": "২১ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "23 years",
+        "as": "২৩ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Let C = x; then x + (x + 6) + (x + 10) = 61 gives 3x = 45, so C = 15 and A = 25.",
+      "as": "C = x ধৰিলে x + (x + 6) + (x + 10) = 61, 3x = 45, গতিকে C = 15 আৰু A = 25।"
+    }
+  },
+  {
+    "id": "problems-on-ages-029",
+    "q": {
+      "en": "The sum of the ages of A and B is 60. If A is twice as old as B, A's age is —",
+      "as": "A আৰু B ৰ বয়সৰ যোগফল 60। A B তকৈ দুগুণ ডাঙৰ হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "45 years",
+        "as": "৪৫ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3x = 60, so B = 20 and A = 40.",
+      "as": "3x = 60, গতিকে B = 20 আৰু A = 40।"
+    }
+  },
+  {
+    "id": "problems-on-ages-030",
+    "q": {
+      "en": "The sum of the ages of A and B is 60. If A is twice as old as B, B's age is —",
+      "as": "A আৰু B ৰ বয়সৰ যোগফল 60। A B তকৈ দুগুণ ডাঙৰ হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      }
+    ],
     "correct": 0,
     "explanation": {
-      "en": "3x^2 = 108, so x^2 = 36 and x = 6 years.",
-      "as": "3x^2 = 108, গতিকে x^2 = 36 আৰু x = 6 বছৰ।"
+      "en": "3x = 60, so x = 20 years.",
+      "as": "3x = 60, গতিকে x = 20 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-031",
+    "q": {
+      "en": "A man is 3 times as old as his son. The difference of their ages is 30 years. The son's age is —",
+      "as": "এজন মানুহ তেওঁৰ পুত্ৰতকৈ 3 গুণ ডাঙৰ। সিহঁতৰ বয়সৰ পাৰ্থক্য 30 বছৰ। পুত্ৰৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2x = 30, so x = 15 years.",
+      "as": "2x = 30, গতিকে x = 15 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-032",
+    "q": {
+      "en": "A man is 4 times as old as his son. The difference of their ages is 27 years. The son's age is —",
+      "as": "এজন মানুহ তেওঁৰ পুত্ৰতকৈ 4 গুণ ডাঙৰ। সিহঁতৰ বয়সৰ পাৰ্থক্য 27 বছৰ। পুত্ৰৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "7 years",
+        "as": "৭ বছৰ"
+      },
+      {
+        "en": "13 years",
+        "as": "১৩ বছৰ"
+      },
+      {
+        "en": "11 years",
+        "as": "১১ বছৰ"
+      },
+      {
+        "en": "9 years",
+        "as": "৯ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3x = 27, so x = 9 years.",
+      "as": "3x = 27, গতিকে x = 9 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-033",
+    "q": {
+      "en": "The present age of A is 24 years. In how many years will he be 36 years old?",
+      "as": "A ৰ বৰ্তমান বয়স 24 বছৰ। কিমান বছৰৰ পিছত তেওঁ 36 বছৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "11 years",
+        "as": "১১ বছৰ"
+      },
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "36 - 24 = 12 years.",
+      "as": "36 - 24 = 12 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-034",
+    "q": {
+      "en": "A is 6 years older than B. In 4 years A will be twice as old as B. B's present age is —",
+      "as": "A B তকৈ 6 বছৰ ডাঙৰ। 4 বছৰৰ পিছত A B তকৈ দুগুণ হ'ব। B ৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x + 10 = 2(x + 4) gives x = 2.",
+      "as": "x + 10 = 2(x + 4) ৰ পৰা x = 2 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-035",
+    "q": {
+      "en": "The ratio of the ages of a father and his son is 7 : 2. If the son is 12 years old, the father is —",
+      "as": "এজন পিতৃ আৰু পুত্ৰৰ বয়সৰ অনুপাত 7 : 2। পুত্ৰৰ বয়স 12 হ'লে পিতৃৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "36 years",
+        "as": "৩৬ বছৰ"
+      },
+      {
+        "en": "38 years",
+        "as": "৩৮ বছৰ"
+      },
+      {
+        "en": "42 years",
+        "as": "৪২ বছৰ"
+      },
+      {
+        "en": "49 years",
+        "as": "৪৯ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Father = 7/2 x 12 = 42 years.",
+      "as": "পিতৃ = 7/2 x 12 = 42 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-036",
+    "q": {
+      "en": "The ages of A and B are in the ratio 2 : 3. If the sum of their ages is 40, the age of B is —",
+      "as": "A আৰু B ৰ বয়সৰ অনুপাত 2 : 3। যোগফল 40 হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B = 3/5 x 40 = 24 years.",
+      "as": "B = 3/5 x 40 = 24 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-037",
+    "q": {
+      "en": "A person's age is 32 years and his son's age is 8 years. The ratio of their ages is —",
+      "as": "এজন ব্যক্তিৰ বয়স 32 বছৰ আৰু তেওঁৰ পুত্ৰৰ বয়স 8 বছৰ। সিহঁতৰ বয়সৰ অনুপাত —"
+    },
+    "options": [
+      {
+        "en": "1 : 3",
+        "as": "১ : ৩"
+      },
+      {
+        "en": "1 : 4",
+        "as": "১ : ৪"
+      },
+      {
+        "en": "3 : 1",
+        "as": "৩ : ১"
+      },
+      {
+        "en": "4 : 1",
+        "as": "৪ : ১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "32 : 8 = 4 : 1.",
+      "as": "32 : 8 = 4 : 1।"
+    }
+  },
+  {
+    "id": "problems-on-ages-038",
+    "q": {
+      "en": "The sum of the ages of a father and his son is 56 years. If the father is 3 times as old as the son, the father's age is —",
+      "as": "এজন পিতৃ আৰু পুত্ৰৰ বয়সৰ যোগফল 56 বছৰ। পিতৃ পুত্ৰতকৈ 3 গুণ ডাঙৰ হ'লে পিতৃৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "36 years",
+        "as": "৩৬ বছৰ"
+      },
+      {
+        "en": "42 years",
+        "as": "৪২ বছৰ"
+      },
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      },
+      {
+        "en": "38 years",
+        "as": "৩৮ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "4x = 56, so the son is 14 and the father is 42.",
+      "as": "4x = 56, গতিকে পুত্ৰ 14 আৰু পিতৃ 42।"
+    }
+  },
+  {
+    "id": "problems-on-ages-039",
+    "q": {
+      "en": "A man is 5 times as old as his son. The sum of their ages is 72. The son's age is —",
+      "as": "এজন মানুহ তেওঁৰ পুত্ৰতকৈ 5 গুণ ডাঙৰ। সিহঁতৰ বয়সৰ যোগফল 72। পুত্ৰৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6x = 72, so x = 12 years.",
+      "as": "6x = 72, গতিকে x = 12 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-040",
+    "q": {
+      "en": "The age of A is twice the age of B and B is twice the age of C. If C is 8 years old, A is —",
+      "as": "A ৰ বয়স B ৰ দুগুণ আৰু B ৰ বয়স C ৰ দুগুণ। C ৰ বয়স 8 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      },
+      {
+        "en": "32 years",
+        "as": "৩২ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B = 16 and A = 32 years.",
+      "as": "B = 16 আৰু A = 32 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-041",
+    "q": {
+      "en": "The present age of a father is 3 times his son's age. In 5 years the father will be 2.5 times his son. The son's present age is —",
+      "as": "এজন পিতৃৰ বৰ্তমান বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 3 গুণ। 5 বছৰৰ পিছত পিতৃ পুত্ৰতকৈ 2.5 গুণ হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3x + 5 = 2.5(x + 5) gives x = 10.",
+      "as": "3x + 5 = 2.5(x + 5) ৰ পৰা x = 10 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-042",
+    "q": {
+      "en": "A is 10 years older than B. If the sum of their ages is 50, B's age is —",
+      "as": "A B তকৈ 10 বছৰ ডাঙৰ। যোগফল 50 হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "22 years",
+        "as": "২২ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2B + 10 = 50 gives B = 20.",
+      "as": "2B + 10 = 50 ৰ পৰা B = 20 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-043",
+    "q": {
+      "en": "A is 8 years older than B. After 2 years the sum of their ages will be 48. B's present age is —",
+      "as": "A B তকৈ 8 বছৰ ডাঙৰ। 2 বছৰৰ পিছত সিহঁতৰ বয়সৰ যোগফল 48 হ'ব। B ৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Present sum = 44, so 2B + 8 = 44 and B = 18.",
+      "as": "বৰ্তমান যোগফল = 44, গতিকে 2B + 8 = 44 আৰু B = 18।"
+    }
+  },
+  {
+    "id": "problems-on-ages-044",
+    "q": {
+      "en": "The age of a man is 40 years and his son is 10 years. After how many years will the man be twice as old as his son?",
+      "as": "এজন মানুহৰ বয়স 40 বছৰ আৰু পুত্ৰৰ 10 বছৰ। কিমান বছৰৰ পিছত মানুহজন পুত্ৰতকৈ দুগুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "40 + x = 2(10 + x) gives x = 20.",
+      "as": "40 + x = 2(10 + x) ৰ পৰা x = 20 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-045",
+    "q": {
+      "en": "The ratio of the ages of A and B is 3 : 4. After 4 years the ratio becomes 4 : 5. The present age of B is —",
+      "as": "A আৰু B ৰ বয়সৰ অনুপাত 3 : 4। 4 বছৰৰ পিছত অনুপাত 4 : 5 হয়। B ৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Solving (3x + 4)/(4x + 4) = 4/5 gives x = 4, so B = 16.",
+      "as": "(3x + 4)/(4x + 4) = 4/5 সমাধান কৰিলে x = 4, গতিকে B = 16।"
+    }
+  },
+  {
+    "id": "problems-on-ages-046",
+    "q": {
+      "en": "A man is 30 years old and his son is 6 years old. In how many years will the man be 3 times as old as his son?",
+      "as": "এজন মানুহৰ বয়স 30 বছৰ আৰু পুত্ৰৰ 6 বছৰ। কিমান বছৰৰ পিছত মানুহজন পুত্ৰতকৈ 3 গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      },
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "30 + x = 3(6 + x) gives x = 6.",
+      "as": "30 + x = 3(6 + x) ৰ পৰা x = 6 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-047",
+    "q": {
+      "en": "The sum of the ages of A, B and C is 90 years. If B is twice A and C is three times A, the age of A is —",
+      "as": "A, B আৰু C ৰ বয়সৰ যোগফল 90 বছৰ। B, A ৰ দুগুণ আৰু C, A ৰ তিনিগুণ হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6x = 90, so A = 15.",
+      "as": "6x = 90, গতিকে A = 15।"
+    }
+  },
+  {
+    "id": "problems-on-ages-048",
+    "q": {
+      "en": "The present age of A is 18 years and that of B is 24 years. Four years ago the ratio of their ages was —",
+      "as": "A ৰ বৰ্তমান বয়স 18 বছৰ আৰু B ৰ 24 বছৰ। চাৰি বছৰ আগতে সিহঁতৰ বয়সৰ অনুপাত আছিল —"
+    },
+    "options": [
+      {
+        "en": "7 : 12",
+        "as": "৭ : ১২"
+      },
+      {
+        "en": "7 : 10",
+        "as": "৭ : ১০"
+      },
+      {
+        "en": "14 : 20",
+        "as": "১৪ : ২০"
+      },
+      {
+        "en": "6 : 10",
+        "as": "৬ : ১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Four years ago the ages were 14 and 20, so the ratio is 7 : 10.",
+      "as": "চাৰি বছৰ আগতে বয়স 14 আৰু 20 আছিল, গতিকে অনুপাত 7 : 10।"
+    }
+  },
+  {
+    "id": "problems-on-ages-049",
+    "q": {
+      "en": "The age of A is 1/3 of the age of B. If A is 12 years old, B is —",
+      "as": "A ৰ বয়স B ৰ 1/3। A ৰ বয়স 12 হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      },
+      {
+        "en": "36 years",
+        "as": "৩৬ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B = 3 x 12 = 36 years.",
+      "as": "B = 3 x 12 = 36 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-050",
+    "q": {
+      "en": "A's age is 20% more than B's age. If B is 25 years old, A is —",
+      "as": "A ৰ বয়স B ৰ বয়সতকৈ 20% বেছি। B ৰ বয়স 25 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      },
+      {
+        "en": "35 years",
+        "as": "৩৫ বছৰ"
+      },
+      {
+        "en": "32 years",
+        "as": "৩২ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A = 25 x 1.2 = 30 years.",
+      "as": "A = 25 x 1.2 = 30 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-051",
+    "q": {
+      "en": "The sum of the ages of a father and his two sons is 80 years. If the father is 40 years old and the elder son is 24, the younger son's age is —",
+      "as": "এজন পিতৃ আৰু তেওঁৰ দুজন পুত্ৰৰ বয়সৰ যোগফল 80 বছৰ। পিতৃৰ বয়স 40 আৰু ডাঙৰ পুত্ৰৰ 24 হ'লে সৰু পুত্ৰৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Younger = 80 - 40 - 24 = 16 years.",
+      "as": "সৰু = 80 - 40 - 24 = 16 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-052",
+    "q": {
+      "en": "A man was 24 years old when his son was born. Now the man is 3 times as old as his son. The son's present age is —",
+      "as": "পুত্ৰ জন্ম হোৱাৰ সময়ত এজন মানুহৰ বয়স 24 আছিল। এতিয়া মানুহজন পুত্ৰতকৈ 3 গুণ ডাঙৰ। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3x = x + 24 gives x = 12.",
+      "as": "3x = x + 24 ৰ পৰা x = 12 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-053",
+    "q": {
+      "en": "The age of A is 3 years more than twice the age of B. If B is 9 years old, A is —",
+      "as": "A ৰ বয়স B ৰ বয়সৰ দুগুণতকৈ 3 বছৰ বেছি। B ৰ বয়স 9 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "21 years",
+        "as": "২১ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A = 2 x 9 + 3 = 21 years.",
+      "as": "A = 2 x 9 + 3 = 21 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-054",
+    "q": {
+      "en": "The ratio of the ages of A and B is 6 : 5. If A is 30 years old, B is —",
+      "as": "A আৰু B ৰ বয়সৰ অনুপাত 6 : 5। A ৰ বয়স 30 হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B = 5/6 x 30 = 25 years.",
+      "as": "B = 5/6 x 30 = 25 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-055",
+    "q": {
+      "en": "The present age of A is 15 years and that of B is 45 years. In how many years will B be twice as old as A?",
+      "as": "A ৰ বৰ্তমান বয়স 15 বছৰ আৰু B ৰ 45 বছৰ। কিমান বছৰৰ পিছত B, A তকৈ দুগুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "45 + x = 2(15 + x) gives x = 15.",
+      "as": "45 + x = 2(15 + x) ৰ পৰা x = 15 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-056",
+    "q": {
+      "en": "The average age of a group of 10 persons is 25 years. If a person of 35 years joins, the new average is —",
+      "as": "10 জনীয়া এটা গোটৰ গড় বয়স 25 বছৰ। 35 বছৰীয়া এজন যোগ দিলে নতুন গড় —"
+    },
+    "options": [
+      {
+        "en": "25.5 years",
+        "as": "২৫.৫ বছৰ"
+      },
+      {
+        "en": "25.9 years",
+        "as": "২৫.৯ বছৰ"
+      },
+      {
+        "en": "26.4 years",
+        "as": "২৬.৪ বছৰ"
+      },
+      {
+        "en": "27 years",
+        "as": "২৭ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 250 + 35 = 285 and 285 / 11 = 25.91 years.",
+      "as": "মুঠ = 250 + 35 = 285 আৰু 285 / 11 = 25.91 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-057",
+    "q": {
+      "en": "A man's present age is 45 years. His age 15 years ago was —",
+      "as": "এজন মানুহৰ বৰ্তমান বয়স 45 বছৰ। 15 বছৰ আগতে তেওঁৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      },
+      {
+        "en": "32 years",
+        "as": "৩২ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "45 - 15 = 30 years.",
+      "as": "45 - 15 = 30 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-058",
+    "q": {
+      "en": "The ages of A, B and C are in the ratio 2 : 3 : 4. If the sum of their ages is 45, the age of C is —",
+      "as": "A, B আৰু C ৰ বয়সৰ অনুপাত 2 : 3 : 4। যোগফল 45 হ'লে C ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C = 4/9 x 45 = 20 years.",
+      "as": "C = 4/9 x 45 = 20 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-059",
+    "q": {
+      "en": "A is twice as old as B. If the difference of their ages is 18 years, B's age is —",
+      "as": "A B তকৈ দুগুণ ডাঙৰ। সিহঁতৰ বয়সৰ পাৰ্থক্য 18 বছৰ হ'লে B ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2x - x = 18, so x = 18 years.",
+      "as": "2x - x = 18, গতিকে x = 18 বছৰ।"
+    }
+  },
+  {
+    "id": "problems-on-ages-060",
+    "q": {
+      "en": "The present age of a man is 4 times his son's age. After 10 years the sum of their ages will be 80. The son's present age is —",
+      "as": "এজন মানুহৰ বৰ্তমান বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 4 গুণ। 10 বছৰৰ পিছত সিহঁতৰ বয়সৰ যোগফল 80 হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present sum = 60, so 5x = 60 and x = 12.",
+      "as": "বৰ্তমান যোগফল = 60, গতিকে 5x = 60 আৰু x = 12।"
+    }
+  },
+  {
+    "id": "problems-on-ages-061",
+    "q": {
+      "en": "A's age is 2 years less than B's age. If the sum of their ages is 30, A's age is —",
+      "as": "A ৰ বয়স B ৰ বয়সতকৈ 2 বছৰ কম। যোগফল 30 হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      },
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2B - 2 = 30 gives B = 16 and A = 14.",
+      "as": "2B - 2 = 30 ৰ পৰা B = 16 আৰু A = 14 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-062",
+    "q": {
+      "en": "The sum of the ages of A and B is 40 years. If A is 3 times as old as B, the age of A is —",
+      "as": "A আৰু B ৰ বয়সৰ যোগফল 40 বছৰ। A B তকৈ 3 গুণ ডাঙৰ হ'লে A ৰ বয়স —"
+    },
+    "options": [
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "32 years",
+        "as": "৩২ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "4x = 40, so B = 10 and A = 30.",
+      "as": "4x = 40, গতিকে B = 10 আৰু A = 30।"
+    }
+  },
+  {
+    "id": "problems-on-ages-063",
+    "q": {
+      "en": "The present age of a father is 5 times his son's age. In 6 years the father will be 3 times his son. The son's present age is —",
+      "as": "এজন পিতৃৰ বৰ্তমান বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 5 গুণ। 6 বছৰৰ পিছত পিতৃ পুত্ৰতকৈ 3 গুণ হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      },
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "5x + 6 = 3(x + 6) gives x = 6.",
+      "as": "5x + 6 = 3(x + 6) ৰ পৰা x = 6 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "problems-on-ages-064",
+    "q": {
+      "en": "The ages of two persons are in the ratio 4 : 3. Four years hence their ages will be in the ratio 6 : 5. The present age of the younger person is —",
+      "as": "দুজন ব্যক্তিৰ বয়সৰ অনুপাত 4 : 3। চাৰি বছৰৰ পিছত সিহঁতৰ বয়সৰ অনুপাত 6 : 5 হ'ব। সৰুজনৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      },
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(4x + 4)/(3x + 4) = 6/5 gives 20x + 20 = 18x + 24, so x = 2 and the younger is 8.",
+      "as": "(4x + 4)/(3x + 4) = 6/5 ৰ পৰা 20x + 20 = 18x + 24, গতিকে x = 2 আৰু সৰুজন 8।"
+    }
+  },
+  {
+    "id": "problems-on-ages-065",
+    "q": {
+      "en": "A man is 8 times as old as his son. In 3 years he will be 5 times as old. The son's present age is —",
+      "as": "এজন মানুহ তেওঁৰ পুত্ৰতকৈ 8 গুণ ডাঙৰ। 3 বছৰৰ পিছত তেওঁ 5 গুণ হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+    },
+    "options": [
+      {
+        "en": "8 years",
+        "as": "৮ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "8x + 3 = 5(x + 3) gives 3x = 12, so x = 4.",
+      "as": "8x + 3 = 5(x + 3) ৰ পৰা 3x = 12, গতিকে x = 4।"
     }
   }
 ]

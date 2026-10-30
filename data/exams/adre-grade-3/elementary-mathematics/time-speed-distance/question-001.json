@@ -2,73 +2,373 @@
   {
     "id": "time-speed-distance-001",
     "q": {
-      "en": "A car travels 240 km in 4 hours. Its speed is —",
-      "as": "এখন গাড়ীয়ে 4 ঘণ্টাত 240 কিমি যায়। তাৰ বেগ —"
+      "en": "A car covers 240 km in 4 hours. Its speed is —",
+      "as": "এখন গাড়ীয়ে 4 ঘণ্টাত 240 কিমি অতিক্ৰম কৰে। ইয়াৰ গতি —"
     },
     "options": [
       {
-        "en": "65 km/h",
-        "as": "৬৫ কিমি/ঘণ্টা"
+        "en": "50 km/h",
+        "as": "৫০ কিমি/ঘণ্টা"
       },
       {
         "en": "55 km/h",
         "as": "৫৫ কিমি/ঘণ্টা"
       },
       {
-        "en": "60 km/h",
-        "as": "৬০ কিমি/ঘণ্টা"
+        "en": "65 km/h",
+        "as": "৬৫ কিমি/ঘণ্টা"
       },
       {
-        "en": "50 km/h",
-        "as": "৫০ কিমি/ঘণ্টা"
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
-      "en": "Speed = distance / time = 240 / 4 = 60 km/h.",
-      "as": "বেগ = দূৰত্ব / সময় = 240 / 4 = 60 কিমি/ঘণ্টা।"
+      "en": "Speed = 240 / 4 = 60 km/h.",
+      "as": "গতি = 240 / 4 = 60 কিমি/ঘণ্টা।"
     }
   },
   {
     "id": "time-speed-distance-002",
     "q": {
-      "en": "A speed of 72 km/h expressed in metres per second is —",
-      "as": "72 কিমি/ঘণ্টা বেগক মিটাৰ/ছেকেণ্ডত প্ৰকাশ কৰিলে —"
+      "en": "A train covers 300 km in 5 hours. Its speed is —",
+      "as": "এখন ৰে'লে 5 ঘণ্টাত 300 কিমি অতিক্ৰম কৰে। ইয়াৰ গতি —"
     },
     "options": [
       {
-        "en": "20 m/s",
-        "as": "২০ m/s"
+        "en": "50 km/h",
+        "as": "৫০ কিমি/ঘণ্টা"
       },
       {
-        "en": "22 m/s",
-        "as": "২২ m/s"
+        "en": "55 km/h",
+        "as": "৫৫ কিমি/ঘণ্টা"
       },
       {
-        "en": "25 m/s",
-        "as": "২৫ m/s"
+        "en": "65 km/h",
+        "as": "৬৫ কিমি/ঘণ্টা"
       },
       {
-        "en": "18 m/s",
-        "as": "১৮ m/s"
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
-      "en": "Multiply by 5/18: 72 x 5 / 18 = 20 m/s.",
-      "as": "5/18 ৰে পূৰণ কৰক: 72 x 5 / 18 = 20 m/s।"
+      "en": "Speed = 300 / 5 = 60 km/h.",
+      "as": "গতি = 300 / 5 = 60 কিমি/ঘণ্টা।"
     }
   },
   {
     "id": "time-speed-distance-003",
     "q": {
-      "en": "A train 150 m long crosses a pole in 15 seconds. Its speed is —",
-      "as": "150 মিটাৰ দীঘল এখন ৰে'লগাড়ীয়ে এটা খুঁটা 15 ছেকেণ্ডত পাৰ হয়। তাৰ বেগ —"
+      "en": "A man walks 12 km in 3 hours. His speed is —",
+      "as": "এজন মানুহে 3 ঘণ্টাত 12 কিমি খোজ কাঢ়ে। তেওঁৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "3 km/h",
+        "as": "৩ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "6 km/h",
+        "as": "৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "5 km/h",
+        "as": "৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "4 km/h",
+        "as": "৪ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Speed = 12 / 3 = 4 km/h.",
+      "as": "গতি = 12 / 3 = 4 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-004",
+    "q": {
+      "en": "A car travels at 60 km/h for 3 hours. The distance covered is —",
+      "as": "এখন গাড়ী 60 কিমি/ঘণ্টা বেগত 3 ঘণ্টা চলে। অতিক্ৰম কৰা দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "180 km",
+        "as": "১৮০ কিমি"
+      },
+      {
+        "en": "160 km",
+        "as": "১৬০ কিমি"
+      },
+      {
+        "en": "150 km",
+        "as": "১৫০ কিমি"
+      },
+      {
+        "en": "200 km",
+        "as": "২০০ কিমি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 60 x 3 = 180 km.",
+      "as": "দূৰত্ব = 60 x 3 = 180 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-005",
+    "q": {
+      "en": "A train travels at 80 km/h for 2.5 hours. The distance covered is —",
+      "as": "এখন ৰে'ল 80 কিমি/ঘণ্টা বেগত 2.5 ঘণ্টা চলে। অতিক্ৰম কৰা দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "180 km",
+        "as": "১৮০ কিমি"
+      },
+      {
+        "en": "190 km",
+        "as": "১৯০ কিমি"
+      },
+      {
+        "en": "210 km",
+        "as": "২১০ কিমি"
+      },
+      {
+        "en": "200 km",
+        "as": "২০০ কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = 80 x 2.5 = 200 km.",
+      "as": "দূৰত্ব = 80 x 2.5 = 200 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-006",
+    "q": {
+      "en": "A man covers 150 km at 50 km/h. The time taken is —",
+      "as": "এজন মানুহে 50 কিমি/ঘণ্টা বেগত 150 কিমি অতিক্ৰম কৰে। লগা সময় —"
+    },
+    "options": [
+      {
+        "en": "2 hours",
+        "as": "২ ঘণ্টা"
+      },
+      {
+        "en": "2.5 hours",
+        "as": "২.৫ ঘণ্টা"
+      },
+      {
+        "en": "3.5 hours",
+        "as": "৩.৫ ঘণ্টা"
+      },
+      {
+        "en": "3 hours",
+        "as": "৩ ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = 150 / 50 = 3 hours.",
+      "as": "সময় = 150 / 50 = 3 ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-007",
+    "q": {
+      "en": "A speed of 36 km/h expressed in m/s is —",
+      "as": "36 কিমি/ঘণ্টা বেগক m/s ত প্ৰকাশ কৰিলে —"
+    },
+    "options": [
+      {
+        "en": "8 m/s",
+        "as": "৮ m/s"
+      },
+      {
+        "en": "12 m/s",
+        "as": "১২ m/s"
+      },
+      {
+        "en": "10 m/s",
+        "as": "১০ m/s"
+      },
+      {
+        "en": "15 m/s",
+        "as": "১৫ m/s"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "36 x 5/18 = 10 m/s.",
+      "as": "36 x 5/18 = 10 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-008",
+    "q": {
+      "en": "A speed of 72 km/h expressed in m/s is —",
+      "as": "72 কিমি/ঘণ্টা বেগক m/s ত প্ৰকাশ কৰিলে —"
     },
     "options": [
       {
         "en": "15 m/s",
         "as": "১৫ m/s"
+      },
+      {
+        "en": "20 m/s",
+        "as": "২০ m/s"
+      },
+      {
+        "en": "18 m/s",
+        "as": "১৮ m/s"
+      },
+      {
+        "en": "25 m/s",
+        "as": "২৫ m/s"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "72 x 5/18 = 20 m/s.",
+      "as": "72 x 5/18 = 20 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-009",
+    "q": {
+      "en": "A speed of 54 km/h expressed in m/s is —",
+      "as": "54 কিমি/ঘণ্টা বেগক m/s ত প্ৰকাশ কৰিলে —"
+    },
+    "options": [
+      {
+        "en": "15 m/s",
+        "as": "১৫ m/s"
+      },
+      {
+        "en": "12 m/s",
+        "as": "১২ m/s"
+      },
+      {
+        "en": "18 m/s",
+        "as": "১৮ m/s"
+      },
+      {
+        "en": "20 m/s",
+        "as": "২০ m/s"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "54 x 5/18 = 15 m/s.",
+      "as": "54 x 5/18 = 15 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-010",
+    "q": {
+      "en": "A speed of 20 m/s expressed in km/h is —",
+      "as": "20 m/s বেগক কিমি/ঘণ্টাত প্ৰকাশ কৰিলে —"
+    },
+    "options": [
+      {
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "66 km/h",
+        "as": "৬৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "80 km/h",
+        "as": "৮০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "72 km/h",
+        "as": "৭২ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "20 x 18/5 = 72 km/h.",
+      "as": "20 x 18/5 = 72 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-011",
+    "q": {
+      "en": "A speed of 15 m/s expressed in km/h is —",
+      "as": "15 m/s বেগক কিমি/ঘণ্টাত প্ৰকাশ কৰিলে —"
+    },
+    "options": [
+      {
+        "en": "54 km/h",
+        "as": "৫৪ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "52 km/h",
+        "as": "৫২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "50 km/h",
+        "as": "৫০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "56 km/h",
+        "as": "৫৬ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "15 x 18/5 = 54 km/h.",
+      "as": "15 x 18/5 = 54 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-012",
+    "q": {
+      "en": "A man covers 600 m in 2 minutes. His speed in km/h is —",
+      "as": "এজন মানুহে 2 মিনিটত 600 মিটাৰ অতিক্ৰম কৰে। তেওঁৰ কিমি/ঘণ্টাত গতি —"
+    },
+    "options": [
+      {
+        "en": "18 km/h",
+        "as": "১৮ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "16 km/h",
+        "as": "১৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "15 km/h",
+        "as": "১৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "20 km/h",
+        "as": "২০ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "600/120 = 5 m/s = 18 km/h.",
+      "as": "600/120 = 5 m/s = 18 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-013",
+    "q": {
+      "en": "A train 120 m long crosses a pole in 12 seconds. Its speed is —",
+      "as": "120 মিটাৰ দীঘল ৰে'লে এটা খুঁটা 12 ছেকেণ্ডত অতিক্ৰম কৰে। ইয়াৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "8 m/s",
+        "as": "৮ m/s"
       },
       {
         "en": "10 m/s",
@@ -79,171 +379,501 @@
         "as": "১২ m/s"
       },
       {
-        "en": "20 m/s",
-        "as": "২০ m/s"
+        "en": "15 m/s",
+        "as": "১৫ m/s"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "Speed = 150 / 15 = 10 m/s.",
-      "as": "বেগ = 150 / 15 = 10 m/s।"
+      "en": "Speed = 120 / 12 = 10 m/s.",
+      "as": "গতি = 120 / 12 = 10 m/s।"
     }
   },
   {
-    "id": "time-speed-distance-004",
+    "id": "time-speed-distance-014",
     "q": {
-      "en": "A train 200 m long running at 20 m/s crosses a platform 300 m long in —",
-      "as": "20 m/s বেগত চলি থকা 200 মিটাৰ দীঘল এখন ৰে'লগাড়ীয়ে 300 মিটাৰ দীঘল প্লেটফৰ্ম পাৰ কৰিব —"
+      "en": "A train 150 m long crosses a pole in 15 seconds. Its speed is —",
+      "as": "150 মিটাৰ দীঘল ৰে'লে এটা খুঁটা 15 ছেকেণ্ডত অতিক্ৰম কৰে। ইয়াৰ গতি —"
     },
     "options": [
       {
-        "en": "35 seconds",
-        "as": "৩৫ ছেকেণ্ড"
+        "en": "8 m/s",
+        "as": "৮ m/s"
       },
       {
-        "en": "25 seconds",
-        "as": "২৫ ছেকেন্ড"
+        "en": "15 m/s",
+        "as": "১৫ m/s"
       },
+      {
+        "en": "12 m/s",
+        "as": "১২ m/s"
+      },
+      {
+        "en": "10 m/s",
+        "as": "১০ m/s"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Speed = 150 / 15 = 10 m/s.",
+      "as": "গতি = 150 / 15 = 10 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-015",
+    "q": {
+      "en": "A train 200 m long crosses a pole in 20 seconds. Its speed is —",
+      "as": "200 মিটাৰ দীঘল ৰে'লে এটা খুঁটা 20 ছেকেণ্ডত অতিক্ৰম কৰে। ইয়াৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "9 m/s",
+        "as": "৯ m/s"
+      },
+      {
+        "en": "10 m/s",
+        "as": "১০ m/s"
+      },
+      {
+        "en": "11 m/s",
+        "as": "১১ m/s"
+      },
+      {
+        "en": "12 m/s",
+        "as": "১২ m/s"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 200 / 20 = 10 m/s.",
+      "as": "গতি = 200 / 20 = 10 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-016",
+    "q": {
+      "en": "A train 300 m long crosses a platform 200 m long in 25 seconds. Its speed is —",
+      "as": "300 মিটাৰ দীঘল ৰে'লে 200 মিটাৰ দীঘল প্লেটফৰ্ম 25 ছেকেণ্ডত অতিক্ৰম কৰে। ইয়াৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "15 m/s",
+        "as": "১৫ m/s"
+      },
+      {
+        "en": "20 m/s",
+        "as": "২০ m/s"
+      },
+      {
+        "en": "18 m/s",
+        "as": "১৮ m/s"
+      },
+      {
+        "en": "25 m/s",
+        "as": "২৫ m/s"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = 300 + 200 = 500 m, so speed = 500 / 25 = 20 m/s.",
+      "as": "দূৰত্ব = 300 + 200 = 500 মিটাৰ, গতিকে গতি = 500 / 25 = 20 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-017",
+    "q": {
+      "en": "A train 250 m long crosses a bridge 150 m long in 20 seconds. Its speed is —",
+      "as": "250 মিটাৰ দীঘল ৰে'লে 150 মিটাৰ দীঘল দলং 20 ছেকেণ্ডত অতিক্ৰম কৰে। ইয়াৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "15 m/s",
+        "as": "১৫ m/s"
+      },
+      {
+        "en": "18 m/s",
+        "as": "১৮ m/s"
+      },
+      {
+        "en": "20 m/s",
+        "as": "২০ m/s"
+      },
+      {
+        "en": "22 m/s",
+        "as": "২২ m/s"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = 400 m, so speed = 400 / 20 = 20 m/s.",
+      "as": "দূৰত্ব = 400 মিটাৰ, গতিকে গতি = 400 / 20 = 20 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-018",
+    "q": {
+      "en": "A train 180 m long running at 54 km/h crosses a pole in —",
+      "as": "180 মিটাৰ দীঘল ৰে'ল 54 কিমি/ঘণ্টা বেগত চলি এটা খুঁটা অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "10 seconds",
+        "as": "১০ ছেকেণ্ড"
+      },
+      {
+        "en": "15 seconds",
+        "as": "১৫ ছেকেণ্ড"
+      },
+      {
+        "en": "12 seconds",
+        "as": "১২ ছেকেণ্ড"
+      },
+      {
+        "en": "18 seconds",
+        "as": "১৮ ছেকেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 15 m/s, so time = 180 / 15 = 12 seconds.",
+      "as": "গতি = 15 m/s, গতিকে সময় = 180 / 15 = 12 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-019",
+    "q": {
+      "en": "A train 240 m long running at 72 km/h crosses a platform 160 m long in —",
+      "as": "240 মিটাৰ দীঘল ৰে'ল 72 কিমি/ঘণ্টা বেগত চলি 160 মিটাৰ দীঘল প্লেটফৰ্ম অতিক্ৰম কৰে —"
+    },
+    "options": [
       {
         "en": "20 seconds",
         "as": "২০ ছেকেণ্ড"
       },
       {
-        "en": "30 seconds",
-        "as": "৩০ ছেকেণ্ড"
+        "en": "18 seconds",
+        "as": "১৮ ছেকেণ্ড"
+      },
+      {
+        "en": "15 seconds",
+        "as": "১৫ ছেকেণ্ড"
+      },
+      {
+        "en": "22 seconds",
+        "as": "২২ ছেকেণ্ড"
       }
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
-      "en": "Total distance = 500 m; time = 500 / 20 = 25 s.",
-      "as": "মুঠ দূৰত্ব = 500 মিটাৰ; সময় = 500 / 20 = 25 ছেকেণ্ড।"
+      "en": "Speed = 20 m/s and distance = 400 m, so time = 20 seconds.",
+      "as": "গতি = 20 m/s আৰু দূৰত্ব = 400 মিটাৰ, গতিকে সময় = 20 ছেকেণ্ড।"
     }
   },
   {
-    "id": "time-speed-distance-005",
+    "id": "time-speed-distance-020",
     "q": {
-      "en": "A man covers a distance of 15 km in 2 hours 30 minutes. His speed is —",
-      "as": "এজনে 2 ঘণ্টা 30 মিনিটত 15 কিমি দূৰত্ব অতিক্ৰম কৰে। তেওঁৰ বেগ —"
+      "en": "Two trains move towards each other at 40 km/h and 50 km/h. Their relative speed is —",
+      "as": "দুখন ৰে'ল পৰস্পৰৰ ফালে 40 কিমি/ঘণ্টা আৰু 50 কিমি/ঘণ্টা বেগত গৈ আছে। সিহঁতৰ আপেক্ষিক গতি —"
     },
     "options": [
       {
-        "en": "5 km/h",
-        "as": "৫ কিমি/ঘণ্টা"
+        "en": "10 km/h",
+        "as": "১০ কিমি/ঘণ্টা"
       },
+      {
+        "en": "45 km/h",
+        "as": "৪৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "90 km/h",
+        "as": "৯০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "200 km/h",
+        "as": "২০০ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For opposite directions, relative speed is the sum: 90 km/h.",
+      "as": "বিপৰীত দিশত আপেক্ষিক গতি যোগফল: 90 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-021",
+    "q": {
+      "en": "Two trains move in the same direction at 60 km/h and 45 km/h. Their relative speed is —",
+      "as": "দুখন ৰে'ল একে দিশত 60 কিমি/ঘণ্টা আৰু 45 কিমি/ঘণ্টা বেগত গৈ আছে। সিহঁতৰ আপেক্ষিক গতি —"
+    },
+    "options": [
+      {
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "45 km/h",
+        "as": "৪৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "105 km/h",
+        "as": "১০৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "15 km/h",
+        "as": "১৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For the same direction, relative speed is the difference: 15 km/h.",
+      "as": "একে দিশত আপেক্ষিক গতি পাৰ্থক্য: 15 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-022",
+    "q": {
+      "en": "Two trains 100 m and 150 m long run towards each other at 20 m/s and 30 m/s. They cross each other in —",
+      "as": "100 মিটাৰ আৰু 150 মিটাৰ দীঘল দুখন ৰে'ল পৰস্পৰৰ ফালে 20 m/s আৰু 30 m/s বেগত চলি পৰস্পৰক অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "5 seconds",
+        "as": "৫ ছেকেণ্ড"
+      },
+      {
+        "en": "4 seconds",
+        "as": "৪ ছেকেণ্ড"
+      },
+      {
+        "en": "6 seconds",
+        "as": "৬ ছেকেণ্ড"
+      },
+      {
+        "en": "10 seconds",
+        "as": "১০ ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 50 m/s and distance = 250 m, so time = 5 seconds.",
+      "as": "আপেক্ষিক গতি = 50 m/s আৰু দূৰত্ব = 250 মিটাৰ, গতিকে সময় = 5 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-023",
+    "q": {
+      "en": "A boat travels 24 km downstream in 3 hours and the same distance upstream in 4 hours. The speed of the stream is —",
+      "as": "এখন নাওৱে 3 ঘণ্টাত 24 কিমি সোঁতেৰে আৰু 4 ঘণ্টাত একেই দূৰত্ব বিৰুদ্ধে যায়। সোঁতৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "3 km/h",
+        "as": "৩ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "1.5 km/h",
+        "as": "১.৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "2 km/h",
+        "as": "২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "1 km/h",
+        "as": "১ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream 8 and upstream 6, so stream = (8 - 6)/2 = 1 km/h.",
+      "as": "সোঁতেৰে 8 আৰু বিৰুদ্ধে 6, গতিকে সোঁত = (8 - 6)/2 = 1 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-024",
+    "q": {
+      "en": "A boat travels 30 km downstream in 2 hours and 30 km upstream in 3 hours. The speed of the boat in still water is —",
+      "as": "এখন নাওৱে 2 ঘণ্টাত 30 কিমি সোঁতেৰে আৰু 3 ঘণ্টাত 30 কিমি বিৰুদ্ধে যায়। স্থিৰ পানীত নাওৱৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "10 km/h",
+        "as": "১০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "15 km/h",
+        "as": "১৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "12.5 km/h",
+        "as": "১২.৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream 15 and upstream 10, so boat speed = (15 + 10)/2 = 12.5 km/h.",
+      "as": "সোঁতেৰে 15 আৰু বিৰুদ্ধে 10, গতিকে নাওৱৰ গতি = (15 + 10)/2 = 12.5 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-025",
+    "q": {
+      "en": "The speed of a boat in still water is 10 km/h and the speed of the stream is 2 km/h. The downstream speed is —",
+      "as": "স্থিৰ পানীত নাওৱৰ গতি 10 কিমি/ঘণ্টা আৰু সোঁতৰ গতি 2 কিমি/ঘণ্টা। সোঁতেৰে গতি —"
+    },
+    "options": [
       {
         "en": "8 km/h",
         "as": "৮ কিমি/ঘণ্টা"
       },
       {
-        "en": "7.5 km/h",
-        "as": "৭.৫ কিমি/ঘণ্টা"
-      },
-      {
-        "en": "6 km/h",
-        "as": "৬ কিমি/ঘণ্টা"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "Time = 2.5 hours; speed = 15 / 2.5 = 6 km/h.",
-      "as": "সময় = 2.5 ঘণ্টা; বেগ = 15 / 2.5 = 6 কিমি/ঘণ্টা।"
-    }
-  },
-  {
-    "id": "time-speed-distance-006",
-    "q": {
-      "en": "Two trains 100 m and 150 m long run in the same direction at 40 km/h and 30 km/h. The time taken by the faster train to cross the slower one is —",
-      "as": "100 মিটাৰ আৰু 150 মিটাৰ দীঘল দুখন ৰে'লগাড়ী একে দিশত 40 কিমি/ঘণ্টা আৰু 30 কিমি/ঘণ্টা বেগত যায়। দ্ৰুতগামী ৰে'লগাড়ীয়ে লাহীখনক পাৰ হ'বলৈ লগা সময় —"
-    },
-    "options": [
-      {
-        "en": "150 seconds",
-        "as": "১৫০ ছেকেণ্ড"
-      },
-      {
-        "en": "120 seconds",
-        "as": "১২০ ছেকেণ্ড"
-      },
-      {
-        "en": "60 seconds",
-        "as": "৬০ ছেকেণ্ড"
-      },
-      {
-        "en": "90 seconds",
-        "as": "৯০ ছেকেণ্ড"
-      }
-    ],
-    "correct": 3,
-    "explanation": {
-      "en": "Relative speed = 10 km/h = 25/9 m/s; distance 250 m; time = 90 s.",
-      "as": "আপেক্ষিক বেগ = 10 কিমি/ঘণ্টা = 25/9 m/s; দূৰত্ব 250 মিটাৰ; সময় = 90 ছেকেণ্ড।"
-    }
-  },
-  {
-    "id": "time-speed-distance-007",
-    "q": {
-      "en": "A boat covers 24 km downstream in 3 hours and the speed of the stream is 2 km/h. The speed of the boat in still water is —",
-      "as": "এখন নাওৱে 3 ঘণ্টাত সোঁতৰ অনুকূলে 24 কিমি যায় আৰু সোঁতৰ বেগ 2 কিমি/ঘণ্টা। স্থিৰ পানীত নাওখনৰ বেগ —"
-    },
-    "options": [
-      {
-        "en": "4 km/h",
-        "as": "৪ কিমি/ঘণ্টা"
-      },
-      {
-        "en": "6 km/h",
-        "as": "৬ কিমি/ঘণ্টা"
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
       },
       {
         "en": "10 km/h",
         "as": "১০ কিমি/ঘণ্টা"
       },
       {
-        "en": "8 km/h",
-        "as": "৮ কিমি/ঘণ্টা"
+        "en": "20 km/h",
+        "as": "২০ কিমি/ঘণ্টা"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "Downstream speed = 8 km/h, so still-water speed = 8 - 2 = 6 km/h.",
-      "as": "অনুকূল বেগ = 8 কিমি/ঘণ্টা, গতিকে স্থিৰ পানীৰ বেগ = 8 - 2 = 6 কিমি/ঘণ্টা।"
+      "en": "Downstream = 10 + 2 = 12 km/h.",
+      "as": "সোঁতেৰে = 10 + 2 = 12 কিমি/ঘণ্টা।"
     }
   },
   {
-    "id": "time-speed-distance-008",
+    "id": "time-speed-distance-026",
     "q": {
-      "en": "The speed of a boat in still water is 10 km/h and the speed of the stream is 2 km/h. The time taken to go 24 km downstream and return is —",
-      "as": "স্থিৰ পানীত নাওৰ বেগ 10 কিমি/ঘণ্টা আৰু সোঁতৰ বেগ 2 কিমি/ঘণ্টা। 24 কিমি অনুকূলে গৈ ঘূৰি অহাৰ সময় —"
+      "en": "The speed of a boat in still water is 12 km/h and the speed of the stream is 3 km/h. The upstream speed is —",
+      "as": "স্থিৰ পানীত নাওৱৰ গতি 12 কিমি/ঘণ্টা আৰু সোঁতৰ গতি 3 কিমি/ঘণ্টা। বিৰুদ্ধে গতি —"
     },
     "options": [
       {
-        "en": "4 hours",
-        "as": "৪ ঘণ্টা"
+        "en": "8 km/h",
+        "as": "৮ কিমি/ঘণ্টা"
       },
       {
-        "en": "7 hours",
-        "as": "৭ ঘণ্টা"
+        "en": "9 km/h",
+        "as": "৯ কিমি/ঘণ্টা"
       },
       {
-        "en": "6 hours",
-        "as": "৬ ঘণ্টা"
+        "en": "15 km/h",
+        "as": "১৫ কিমি/ঘণ্টা"
       },
       {
-        "en": "5 hours",
-        "as": "৫ ঘণ্টা"
+        "en": "36 km/h",
+        "as": "৩৬ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Upstream = 12 - 3 = 9 km/h.",
+      "as": "বিৰুদ্ধে = 12 - 3 = 9 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-027",
+    "q": {
+      "en": "A man covers 60 km at 30 km/h and returns at 20 km/h. His average speed for the whole journey is —",
+      "as": "এজন মানুহে 30 কিমি/ঘণ্টাত 60 কিমি গৈ 20 কিমি/ঘণ্টাত ঘূৰি আহে। গোটেই যাত্ৰাৰ গড় গতি —"
+    },
+    "options": [
+      {
+        "en": "22 km/h",
+        "as": "২২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "24 km/h",
+        "as": "২৪ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "25 km/h",
+        "as": "২৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "26 km/h",
+        "as": "২৬ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average speed = 2 x 30 x 20 / 50 = 24 km/h.",
+      "as": "গড় গতি = 2 x 30 x 20 / 50 = 24 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-028",
+    "q": {
+      "en": "A man covers the first half of a journey at 40 km/h and the second half at 60 km/h. His average speed is —",
+      "as": "এজন মানুহে যাত্ৰাৰ প্ৰথম আধা 40 কিমি/ঘণ্টাত আৰু দ্বিতীয় আধা 60 কিমি/ঘণ্টাত যায়। তেওঁৰ গড় গতি —"
+    },
+    "options": [
+      {
+        "en": "45 km/h",
+        "as": "৪৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "52 km/h",
+        "as": "৫২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "50 km/h",
+        "as": "৫০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "48 km/h",
+        "as": "৪৮ কিমি/ঘণ্টা"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "Downstream 24/12 = 2 h, upstream 24/8 = 3 h; total 5 h.",
-      "as": "অনুকূল 24/12 = 2 ঘণ্টা, প্ৰতিকূল 24/8 = 3 ঘণ্টা; মুঠ 5 ঘণ্টা।"
+      "en": "Average speed = 2 x 40 x 60 / 100 = 48 km/h.",
+      "as": "গড় গতি = 2 x 40 x 60 / 100 = 48 কিমি/ঘণ্টা।"
     }
   },
   {
-    "id": "time-speed-distance-009",
+    "id": "time-speed-distance-029",
     "q": {
-      "en": "Two trains start from stations 300 km apart towards each other at 40 km/h and 60 km/h. They meet after —",
-      "as": "300 কিমি আঁতৰত থকা দুটা ষ্টেচনৰ পৰা দুখন ৰে'লগাড়ী 40 কিমি/ঘণ্টা আৰু 60 কিমি/ঘণ্টা বেগত ইখন-সিখনলৈ যায়। সিহঁত লগ হ'ব —"
+      "en": "A car travels 100 km in 2 hours and the next 150 km in 3 hours. Its average speed is —",
+      "as": "এখন গাড়ী 2 ঘণ্টাত 100 কিমি আৰু পৰৱৰ্তী 3 ঘণ্টাত 150 কিমি যায়। ইয়াৰ গড় গতি —"
+    },
+    "options": [
+      {
+        "en": "45 km/h",
+        "as": "৪৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "55 km/h",
+        "as": "৫৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "50 km/h",
+        "as": "৫০ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average speed = 250 / 5 = 50 km/h.",
+      "as": "গড় গতি = 250 / 5 = 50 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-030",
+    "q": {
+      "en": "A man walks at 5 km/h and covers 15 km. The time taken is —",
+      "as": "এজন মানুহে 5 কিমি/ঘণ্টা বেগত খোজ কাঢ়ি 15 কিমি অতিক্ৰম কৰে। লগা সময় —"
     },
     "options": [
       {
@@ -251,112 +881,982 @@
         "as": "৩ ঘণ্টা"
       },
       {
-        "en": "2 hours",
-        "as": "২ ঘণ্টা"
-      },
-      {
         "en": "2.5 hours",
         "as": "২.৫ ঘণ্টা"
       },
       {
-        "en": "4 hours",
-        "as": "৪ ঘণ্টা"
+        "en": "2 hours",
+        "as": "২ ঘণ্টা"
+      },
+      {
+        "en": "3.5 hours",
+        "as": "৩.৫ ঘণ্টা"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "Relative speed = 100 km/h; time = 300 / 100 = 3 hours.",
-      "as": "আপেক্ষিক বেগ = 100 কিমি/ঘণ্টা; সময় = 300 / 100 = 3 ঘণ্টা।"
+      "en": "Time = 15 / 5 = 3 hours.",
+      "as": "সময় = 15 / 5 = 3 ঘণ্টা।"
     }
   },
   {
-    "id": "time-speed-distance-010",
+    "id": "time-speed-distance-031",
     "q": {
-      "en": "A man walking at 5 km/h covers a certain distance in 48 minutes. The distance is —",
-      "as": "5 কিমি/ঘণ্টা বেগে খোজ কাঢ়ি এজনে 48 মিনিটত এটা দূৰত্ব অতিক্ৰম কৰে। দূৰত্ব —"
+      "en": "A train running at 90 km/h covers a distance in 4 hours. The distance is —",
+      "as": "90 কিমি/ঘণ্টা বেগত চলা ৰে'লে 4 ঘণ্টাত অতিক্ৰম কৰা দূৰত্ব —"
     },
     "options": [
       {
-        "en": "6 km",
-        "as": "৬ কিমি"
+        "en": "360 km",
+        "as": "৩৬০ কিমি"
       },
       {
-        "en": "5 km",
-        "as": "৫ কিমি"
+        "en": "320 km",
+        "as": "৩২০ কিমি"
       },
       {
-        "en": "3 km",
-        "as": "৩ কিমি"
+        "en": "300 km",
+        "as": "৩০০ কিমি"
       },
       {
-        "en": "4 km",
-        "as": "৪ কিমি"
+        "en": "400 km",
+        "as": "৪০০ কিমি"
       }
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": {
-      "en": "48 minutes = 0.8 hour; 5 x 0.8 = 4 km.",
-      "as": "48 মিনিট = 0.8 ঘণ্টা; 5 x 0.8 = 4 কিমি।"
+      "en": "Distance = 90 x 4 = 360 km.",
+      "as": "দূৰত্ব = 90 x 4 = 360 কিমি।"
     }
   },
   {
-    "id": "time-speed-distance-011",
+    "id": "time-speed-distance-032",
     "q": {
-      "en": "A train running at 54 km/h crosses a 200 m long bridge in 20 seconds. The length of the train is —",
-      "as": "54 কিমি/ঘণ্টা বেগত চলি থকা এখন ৰে'লগাড়ীয়ে 200 মিটাৰ দীঘল দলং 20 ছেকেণ্ডত পাৰ হয়। ৰে'লগাড়ীখনৰ দীঘ —"
+      "en": "A cyclist covers 45 km in 3 hours. His speed is —",
+      "as": "এজন চাইকেল চলোৱাই 3 ঘণ্টাত 45 কিমি অতিক্ৰম কৰে। তেওঁৰ গতি —"
     },
     "options": [
       {
-        "en": "140 m",
-        "as": "১৪০ মিটাৰ"
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
       },
       {
-        "en": "80 m",
-        "as": "৮০ মিটাৰ"
+        "en": "18 km/h",
+        "as": "১৮ কিমি/ঘণ্টা"
       },
       {
-        "en": "100 m",
-        "as": "১০০ মিটাৰ"
+        "en": "15 km/h",
+        "as": "১৫ কিমি/ঘণ্টা"
       },
       {
-        "en": "120 m",
-        "as": "১২০ মিটাৰ"
+        "en": "20 km/h",
+        "as": "২০ কিমি/ঘণ্টা"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "Speed = 15 m/s; distance = 300 m; train = 300 - 200 = 100 m.",
-      "as": "বেগ = 15 m/s; দূৰত্ব = 300 মিটাৰ; ৰে'লগাড়ী = 300 - 200 = 100 মিটাৰ।"
+      "en": "Speed = 45 / 3 = 15 km/h.",
+      "as": "গতি = 45 / 3 = 15 কিমি/ঘণ্টা।"
     }
   },
   {
-    "id": "time-speed-distance-012",
+    "id": "time-speed-distance-033",
     "q": {
-      "en": "A person covers the first half of a journey at 30 km/h and the second half at 60 km/h. His average speed is —",
-      "as": "এজনে যাত্ৰাৰ প্ৰথম আধা 30 কিমি/ঘণ্টা আৰু দ্বিতীয় আধা 60 কিমি/ঘণ্টা বেগত অতিক্ৰম কৰে। তেওঁৰ গড় বেগ —"
+      "en": "A man running at 8 m/s covers 400 m in —",
+      "as": "8 m/s বেগত দৌৰা এজনে 400 মিটাৰ অতিক্ৰম কৰে —"
     },
     "options": [
+      {
+        "en": "40 seconds",
+        "as": "৪০ ছেকেণ্ড"
+      },
+      {
+        "en": "45 seconds",
+        "as": "৪৫ ছেকেণ্ড"
+      },
+      {
+        "en": "50 seconds",
+        "as": "৫০ ছেকেণ্ড"
+      },
+      {
+        "en": "55 seconds",
+        "as": "৫৫ ছেকেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = 400 / 8 = 50 seconds.",
+      "as": "সময় = 400 / 8 = 50 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-034",
+    "q": {
+      "en": "A train 150 m long running at 90 km/h crosses a platform 300 m long in —",
+      "as": "150 মিটাৰ দীঘল ৰে'ল 90 কিমি/ঘণ্টা বেগত চলি 300 মিটাৰ দীঘল প্লেটফৰ্ম অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "15 seconds",
+        "as": "১৫ ছেকেণ্ড"
+      },
+      {
+        "en": "20 seconds",
+        "as": "২০ ছেকেণ্ড"
+      },
+      {
+        "en": "18 seconds",
+        "as": "১৮ ছেকেণ্ড"
+      },
+      {
+        "en": "22 seconds",
+        "as": "২২ ছেকেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 25 m/s and distance = 450 m, so time = 18 seconds.",
+      "as": "গতি = 25 m/s আৰু দূৰত্ব = 450 মিটাৰ, গতিকে সময় = 18 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-035",
+    "q": {
+      "en": "Two cars start from the same point in opposite directions at 50 km/h and 60 km/h. After 2 hours the distance between them is —",
+      "as": "দুখন গাড়ী একে বিন্দুৰ পৰা বিপৰীত দিশত 50 কিমি/ঘণ্টা আৰু 60 কিমি/ঘণ্টা বেগত আৰম্ভ কৰে। 2 ঘণ্টাৰ পিছত সিহঁতৰ মাজৰ দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "200 km",
+        "as": "২০০ কিমি"
+      },
+      {
+        "en": "220 km",
+        "as": "২২০ কিমি"
+      },
+      {
+        "en": "210 km",
+        "as": "২১০ কিমি"
+      },
+      {
+        "en": "240 km",
+        "as": "২৪০ কিমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 110 km/h, so 2 x 110 = 220 km.",
+      "as": "আপেক্ষিক গতি = 110 কিমি/ঘণ্টা, গতিকে 2 x 110 = 220 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-036",
+    "q": {
+      "en": "A train 200 m long crosses a man walking at 4 km/h in the same direction at 40 km/h in —",
+      "as": "200 মিটাৰ দীঘল ৰে'ল একে দিশত 4 কিমি/ঘণ্টা বেগত খোজ কাঢ়ি যোৱা এজনক 40 কিমি/ঘণ্টা বেগত অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "15 seconds",
+        "as": "১৫ ছেকেণ্ড"
+      },
+      {
+        "en": "18 seconds",
+        "as": "১৮ ছেকেণ্ড"
+      },
+      {
+        "en": "25 seconds",
+        "as": "২৫ ছেকেণ্ড"
+      },
+      {
+        "en": "20 seconds",
+        "as": "২০ ছেকেণ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Relative speed = 36 km/h = 10 m/s, so time = 200 / 10 = 20 seconds.",
+      "as": "আপেক্ষিক গতি = 36 কিমি/ঘণ্টা = 10 m/s, গতিকে সময় = 200 / 10 = 20 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-037",
+    "q": {
+      "en": "A man covers a certain distance at 20 km/h and returns at 30 km/h. If the total time is 5 hours, the distance one way is —",
+      "as": "এজন মানুহে এটা দূৰত্ব 20 কিমি/ঘণ্টাত গৈ 30 কিমি/ঘণ্টাত ঘূৰি আহে। মুঠ সময় 5 ঘণ্টা হ'লে একমুখী দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "50 km",
+        "as": "৫০ কিমি"
+      },
+      {
+        "en": "55 km",
+        "as": "৫৫ কিমি"
+      },
+      {
+        "en": "65 km",
+        "as": "৬৫ কিমি"
+      },
+      {
+        "en": "60 km",
+        "as": "৬০ কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "d/20 + d/30 = 5, so d = 60 km.",
+      "as": "d/20 + d/30 = 5, গতিকে d = 60 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-038",
+    "q": {
+      "en": "A car covers 180 km in 2.5 hours. Its speed is —",
+      "as": "এখন গাড়ীয়ে 2.5 ঘণ্টাত 180 কিমি অতিক্ৰম কৰে। ইয়াৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "66 km/h",
+        "as": "৬৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "70 km/h",
+        "as": "৭০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "72 km/h",
+        "as": "৭২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "75 km/h",
+        "as": "৭৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 180 / 2.5 = 72 km/h.",
+      "as": "গতি = 180 / 2.5 = 72 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-039",
+    "q": {
+      "en": "A train travels at 60 km/h and covers 15 km in —",
+      "as": "এখন ৰে'ল 60 কিমি/ঘণ্টা বেগত চলি 15 কিমি অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "10 minutes",
+        "as": "১০ মিনিট"
+      },
+      {
+        "en": "15 minutes",
+        "as": "১৫ মিনিট"
+      },
+      {
+        "en": "12 minutes",
+        "as": "১২ মিনিট"
+      },
+      {
+        "en": "20 minutes",
+        "as": "২০ মিনিট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = 15 / 60 = 0.25 hours = 15 minutes.",
+      "as": "সময় = 15 / 60 = 0.25 ঘণ্টা = 15 মিনিট।"
+    }
+  },
+  {
+    "id": "time-speed-distance-040",
+    "q": {
+      "en": "A man covers 1 km in 5 minutes. His speed in km/h is —",
+      "as": "এজন মানুহে 5 মিনিটত 1 কিমি অতিক্ৰম কৰে। তেওঁৰ কিমি/ঘণ্টাত গতি —"
+    },
+    "options": [
+      {
+        "en": "10 km/h",
+        "as": "১০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "11 km/h",
+        "as": "১১ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "15 km/h",
+        "as": "১৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "5 minutes for 1 km means 12 km in 60 minutes.",
+      "as": "1 কিমিৰ বাবে 5 মিনিট মানে 60 মিনিটত 12 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-041",
+    "q": {
+      "en": "A bus covers 90 km in 1 hour 30 minutes. Its speed is —",
+      "as": "এখন বাছে 1 ঘণ্টা 30 মিনিটত 90 কিমি অতিক্ৰম কৰে। ইয়াৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "50 km/h",
+        "as": "৫০ কিমি/ঘণ্টা"
+      },
       {
         "en": "55 km/h",
         "as": "৫৫ কিমি/ঘণ্টা"
       },
       {
+        "en": "65 km/h",
+        "as": "৬৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1.5 hours for 90 km gives 60 km/h.",
+      "as": "90 কিমিৰ বাবে 1.5 ঘণ্টা মানে 60 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-042",
+    "q": {
+      "en": "A train 100 m long crosses a bridge 400 m long at 25 m/s in —",
+      "as": "100 মিটাৰ দীঘল ৰে'ল 25 m/s বেগত 400 মিটাৰ দীঘল দলং অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "15 seconds",
+        "as": "১৫ ছেকেণ্ড"
+      },
+      {
+        "en": "20 seconds",
+        "as": "২০ ছেকেণ্ড"
+      },
+      {
+        "en": "18 seconds",
+        "as": "১৮ ছেকেণ্ড"
+      },
+      {
+        "en": "25 seconds",
+        "as": "২৫ ছেকেণ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = 500 m, so time = 500 / 25 = 20 seconds.",
+      "as": "দূৰত্ব = 500 মিটাৰ, গতিকে সময় = 500 / 25 = 20 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-043",
+    "q": {
+      "en": "A boat covers 18 km downstream in 3 hours. If the stream flows at 1 km/h, the boat speed in still water is —",
+      "as": "এখন নাওৱে 3 ঘণ্টাত 18 কিমি সোঁতেৰে যায়। সোঁতৰ গতি 1 কিমি/ঘণ্টা হ'লে স্থিৰ পানীত নাওৱৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "4 km/h",
+        "as": "৪ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "7 km/h",
+        "as": "৭ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "6 km/h",
+        "as": "৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "5 km/h",
+        "as": "৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream = 6, so boat speed = 6 - 1 = 5 km/h.",
+      "as": "সোঁতেৰে = 6, গতিকে নাওৱৰ গতি = 6 - 1 = 5 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-044",
+    "q": {
+      "en": "A man covers 3 km in 30 minutes. His speed in m/s is —",
+      "as": "এজন মানুহে 30 মিনিটত 3 কিমি অতিক্ৰম কৰে। তেওঁৰ m/s ত গতি —"
+    },
+    "options": [
+      {
+        "en": "1.5 m/s",
+        "as": "১.৫ m/s"
+      },
+      {
+        "en": "3 m/s",
+        "as": "৩ m/s"
+      },
+      {
+        "en": "2 m/s",
+        "as": "২ m/s"
+      },
+      {
+        "en": "1.67 m/s",
+        "as": "১.৬৭ m/s"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3000 / 1800 = 1.67 m/s.",
+      "as": "3000 / 1800 = 1.67 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-045",
+    "q": {
+      "en": "Two trains of equal length 120 m each run towards each other at 15 m/s and 25 m/s. They cross each other in —",
+      "as": "120 মিটাৰ দীঘল দুখন ৰে'ল পৰস্পৰৰ ফালে 15 m/s আৰু 25 m/s বেগত চলি পৰস্পৰক অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "6 seconds",
+        "as": "৬ ছেকেণ্ড"
+      },
+      {
+        "en": "5 seconds",
+        "as": "৫ ছেকেণ্ড"
+      },
+      {
+        "en": "4 seconds",
+        "as": "৪ ছেকেণ্ড"
+      },
+      {
+        "en": "8 seconds",
+        "as": "৮ ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 40 m/s and distance = 240 m, so time = 6 seconds.",
+      "as": "আপেক্ষিক গতি = 40 m/s আৰু দূৰত্ব = 240 মিটাৰ, গতিকে সময় = 6 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-046",
+    "q": {
+      "en": "A car covers 45 km in 45 minutes. Its speed is —",
+      "as": "এখন গাড়ীয়ে 45 মিনিটত 45 কিমি অতিক্ৰম কৰে। ইয়াৰ গতি —"
+    },
+    "options": [
+      {
         "en": "45 km/h",
         "as": "৪৫ কিমি/ঘণ্টা"
       },
       {
-        "en": "40 km/h",
-        "as": "৪০ কিমি/ঘণ্টা"
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "55 km/h",
+        "as": "৫৫ কিমি/ঘণ্টা"
       },
       {
         "en": "50 km/h",
         "as": "৫০ কিমি/ঘণ্টা"
       }
     ],
+    "correct": 1,
+    "explanation": {
+      "en": "45 km in 45 minutes means 60 km in 60 minutes.",
+      "as": "45 মিনিটত 45 কিমি মানে 60 মিনিটত 60 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-047",
+    "q": {
+      "en": "A train 400 m long crosses a pole in 20 seconds. Its speed in km/h is —",
+      "as": "400 মিটাৰ দীঘল ৰে'লে এটা খুঁটা 20 ছেকেণ্ডত অতিক্ৰম কৰে। ইয়াৰ কিমি/ঘণ্টাত গতি —"
+    },
+    "options": [
+      {
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "72 km/h",
+        "as": "৭২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "66 km/h",
+        "as": "৬৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "80 km/h",
+        "as": "৮০ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 20 m/s = 72 km/h.",
+      "as": "গতি = 20 m/s = 72 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-048",
+    "q": {
+      "en": "A man travels 600 km partly by train at 80 km/h and partly by car at 40 km/h. If the total time is 10 hours, the distance by train is —",
+      "as": "এজন মানুহে 600 কিমিৰ অংশ 80 কিমি/ঘণ্টা বেগত ৰে'লেৰে আৰু অংশ 40 কিমি/ঘণ্টা বেগত গাড়ীৰে যায়। মুঠ সময় 10 ঘণ্টা হ'লে ৰে'লেৰে যোৱা দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "300 km",
+        "as": "৩০০ কিমি"
+      },
+      {
+        "en": "320 km",
+        "as": "৩২০ কিমি"
+      },
+      {
+        "en": "480 km",
+        "as": "৪৮০ কিমি"
+      },
+      {
+        "en": "400 km",
+        "as": "৪০০ কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solving t/80 + (600-t)/40 = 10 gives t = 400 km.",
+      "as": "t/80 + (600-t)/40 = 10 সমাধান কৰিলে t = 400 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-049",
+    "q": {
+      "en": "A man covers 24 km in 3 hours and the next 36 km in 3 hours. His average speed is —",
+      "as": "এজন মানুহে 3 ঘণ্টাত 24 কিমি আৰু পৰৱৰ্তী 3 ঘণ্টাত 36 কিমি অতিক্ৰম কৰে। তেওঁৰ গড় গতি —"
+    },
+    "options": [
+      {
+        "en": "9 km/h",
+        "as": "৯ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "10 km/h",
+        "as": "১০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "11 km/h",
+        "as": "১১ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average speed = 60 / 6 = 10 km/h.",
+      "as": "গড় গতি = 60 / 6 = 10 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-050",
+    "q": {
+      "en": "A train running at 36 km/h crosses a pole in 25 seconds. The length of the train is —",
+      "as": "36 কিমি/ঘণ্টা বেগত চলা ৰে'লে এটা খুঁটা 25 ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লৰ দীঘ —"
+    },
+    "options": [
+      {
+        "en": "200 m",
+        "as": "২০০ মিটাৰ"
+      },
+      {
+        "en": "225 m",
+        "as": "২২৫ মিটাৰ"
+      },
+      {
+        "en": "275 m",
+        "as": "২৭৫ মিটাৰ"
+      },
+      {
+        "en": "250 m",
+        "as": "২৫০ মিটাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Speed = 10 m/s, so length = 10 x 25 = 250 m.",
+      "as": "গতি = 10 m/s, গতিকে দীঘ = 10 x 25 = 250 মিটাৰ।"
+    }
+  },
+  {
+    "id": "time-speed-distance-051",
+    "q": {
+      "en": "A man walks at 6 km/h for 2 hours and then at 4 km/h for 3 hours. The total distance covered is —",
+      "as": "এজন মানুহে 6 কিমি/ঘণ্টা বেগত 2 ঘণ্টা আৰু তাৰপিছত 4 কিমি/ঘণ্টা বেগত 3 ঘণ্টা খোজ কাঢ়ে। মুঠ অতিক্ৰম কৰা দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "20 km",
+        "as": "২০ কিমি"
+      },
+      {
+        "en": "22 km",
+        "as": "২২ কিমি"
+      },
+      {
+        "en": "24 km",
+        "as": "২৪ কিমি"
+      },
+      {
+        "en": "26 km",
+        "as": "২৬ কিমি"
+      }
+    ],
     "correct": 2,
     "explanation": {
-      "en": "Average speed = 2 x 30 x 60 / 90 = 40 km/h.",
-      "as": "গড় বেগ = 2 x 30 x 60 / 90 = 40 কিমি/ঘণ্টা।"
+      "en": "12 + 12 = 24 km.",
+      "as": "12 + 12 = 24 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-052",
+    "q": {
+      "en": "A train 180 m long crosses another train 120 m long running in the opposite direction at 54 km/h and 36 km/h. They cross each other in —",
+      "as": "180 মিটাৰ দীঘল ৰে'ল 120 মিটাৰ দীঘল আন এখন ৰে'ল বিপৰীত দিশত 54 কিমি/ঘণ্টা আৰু 36 কিমি/ঘণ্টা বেগত চলি অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "12 seconds",
+        "as": "১২ ছেকেণ্ড"
+      },
+      {
+        "en": "10 seconds",
+        "as": "১০ ছেকেণ্ড"
+      },
+      {
+        "en": "15 seconds",
+        "as": "১৫ ছেকেণ্ড"
+      },
+      {
+        "en": "18 seconds",
+        "as": "১৮ ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 90 km/h = 25 m/s and distance = 300 m, so time = 12 seconds.",
+      "as": "আপেক্ষিক গতি = 90 কিমি/ঘণ্টা = 25 m/s আৰু দূৰত্ব = 300 মিটাৰ, গতিকে সময় = 12 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-053",
+    "q": {
+      "en": "A man covers a distance of 120 km at 40 km/h. If he increases his speed by 20 km/h, the time saved is —",
+      "as": "এজন মানুহে 120 কিমি 40 কিমি/ঘণ্টা বেগত অতিক্ৰম কৰে। গতি 20 কিমি/ঘণ্টা বঢ়ালে ৰাহি হোৱা সময় —"
+    },
+    "options": [
+      {
+        "en": "1 hour",
+        "as": "১ ঘণ্টা"
+      },
+      {
+        "en": "45 minutes",
+        "as": "৪৫ মিনিট"
+      },
+      {
+        "en": "30 minutes",
+        "as": "৩০ মিনিট"
+      },
+      {
+        "en": "1.5 hours",
+        "as": "১.৫ ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Old time 3 hours and new time 2 hours, so 1 hour is saved.",
+      "as": "পুৰণি সময় 3 ঘণ্টা আৰু নতুন সময় 2 ঘণ্টা, গতিকে 1 ঘণ্টা ৰাহি হয়।"
+    }
+  },
+  {
+    "id": "time-speed-distance-054",
+    "q": {
+      "en": "A speed of 45 km/h expressed in m/s is —",
+      "as": "45 কিমি/ঘণ্টা বেগক m/s ত প্ৰকাশ কৰিলে —"
+    },
+    "options": [
+      {
+        "en": "12.5 m/s",
+        "as": "১২.৫ m/s"
+      },
+      {
+        "en": "11 m/s",
+        "as": "১১ m/s"
+      },
+      {
+        "en": "10 m/s",
+        "as": "১০ m/s"
+      },
+      {
+        "en": "13.5 m/s",
+        "as": "১৩.৫ m/s"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "45 x 5/18 = 12.5 m/s.",
+      "as": "45 x 5/18 = 12.5 m/s।"
+    }
+  },
+  {
+    "id": "time-speed-distance-055",
+    "q": {
+      "en": "A man covers 2 km in 10 minutes. His speed in km/h is —",
+      "as": "এজন মানুহে 10 মিনিটত 2 কিমি অতিক্ৰম কৰে। তেওঁৰ কিমি/ঘণ্টাত গতি —"
+    },
+    "options": [
+      {
+        "en": "10 km/h",
+        "as": "১০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "11 km/h",
+        "as": "১১ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "15 km/h",
+        "as": "১৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2 km in 10 minutes means 12 km in 60 minutes.",
+      "as": "10 মিনিটত 2 কিমি মানে 60 মিনিটত 12 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-056",
+    "q": {
+      "en": "A train travels the first 100 km at 50 km/h and the next 100 km at 25 km/h. Its average speed is —",
+      "as": "এখন ৰে'ল প্ৰথম 100 কিমি 50 কিমি/ঘণ্টা বেগত আৰু পৰৱৰ্তী 100 কিমি 25 কিমি/ঘণ্টা বেগত যায়। ইয়াৰ গড় গতি —"
+    },
+    "options": [
+      {
+        "en": "30 km/h",
+        "as": "৩০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "35 km/h",
+        "as": "৩৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "33.33 km/h",
+        "as": "৩৩.৩৩ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "37.5 km/h",
+        "as": "৩৭.৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average speed = 2 x 50 x 25 / 75 = 33.33 km/h.",
+      "as": "গড় গতি = 2 x 50 x 25 / 75 = 33.33 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-057",
+    "q": {
+      "en": "A car covers 210 km in 3 hours. The distance it covers in 5 hours at the same speed is —",
+      "as": "এখন গাড়ীয়ে 3 ঘণ্টাত 210 কিমি অতিক্ৰম কৰে। একেই গতিত 5 ঘণ্টাত অতিক্ৰম কৰা দূৰত্ব —"
+    },
+    "options": [
+      {
+        "en": "300 km",
+        "as": "৩০০ কিমি"
+      },
+      {
+        "en": "350 km",
+        "as": "৩৫০ কিমি"
+      },
+      {
+        "en": "320 km",
+        "as": "৩২০ কিমি"
+      },
+      {
+        "en": "400 km",
+        "as": "৪০০ কিমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 70 km/h, so 5 x 70 = 350 km.",
+      "as": "গতি = 70 কিমি/ঘণ্টা, গতিকে 5 x 70 = 350 কিমি।"
+    }
+  },
+  {
+    "id": "time-speed-distance-058",
+    "q": {
+      "en": "A man travels 90 km in 2 hours 15 minutes. His speed is —",
+      "as": "এজন মানুহে 2 ঘণ্টা 15 মিনিটত 90 কিমি অতিক্ৰম কৰে। তেওঁৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "36 km/h",
+        "as": "৩৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "38 km/h",
+        "as": "৩৮ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "40 km/h",
+        "as": "৪০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "45 km/h",
+        "as": "৪৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2.25 hours for 90 km gives 40 km/h.",
+      "as": "90 কিমিৰ বাবে 2.25 ঘণ্টা মানে 40 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-059",
+    "q": {
+      "en": "A train 200 m long running at 72 km/h crosses a man standing on a platform in —",
+      "as": "200 মিটাৰ দীঘল ৰে'ল 72 কিমি/ঘণ্টা বেগত চলি প্লেটফৰ্মত থিয় হৈ থকা এজনক অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "8 seconds",
+        "as": "৮ ছেকেণ্ড"
+      },
+      {
+        "en": "12 seconds",
+        "as": "১২ ছেকেণ্ড"
+      },
+      {
+        "en": "10 seconds",
+        "as": "১০ ছেকেণ্ড"
+      },
+      {
+        "en": "15 seconds",
+        "as": "১৫ ছেকেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 20 m/s, so time = 200 / 20 = 10 seconds.",
+      "as": "গতি = 20 m/s, গতিকে সময় = 200 / 20 = 10 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-060",
+    "q": {
+      "en": "A man covers 150 km in 2 hours 30 minutes. His speed is —",
+      "as": "এজন মানুহে 2 ঘণ্টা 30 মিনিটত 150 কিমি অতিক্ৰম কৰে। তেওঁৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "50 km/h",
+        "as": "৫০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "60 km/h",
+        "as": "৬০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "55 km/h",
+        "as": "৫৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "65 km/h",
+        "as": "৬৫ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2.5 hours for 150 km gives 60 km/h.",
+      "as": "150 কিমিৰ বাবে 2.5 ঘণ্টা মানে 60 কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "time-speed-distance-061",
+    "q": {
+      "en": "A train 120 m long running at 36 km/h crosses a bridge 180 m long in —",
+      "as": "120 মিটাৰ দীঘল ৰে'ল 36 কিমি/ঘণ্টা বেগত চলি 180 মিটাৰ দীঘল দলং অতিক্ৰম কৰে —"
+    },
+    "options": [
+      {
+        "en": "20 seconds",
+        "as": "২০ ছেকেণ্ড"
+      },
+      {
+        "en": "30 seconds",
+        "as": "৩০ ছেকেণ্ড"
+      },
+      {
+        "en": "25 seconds",
+        "as": "২৫ ছেকেণ্ড"
+      },
+      {
+        "en": "36 seconds",
+        "as": "৩৬ ছেকেণ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 10 m/s and distance = 300 m, so time = 30 seconds.",
+      "as": "গতি = 10 m/s আৰু দূৰত্ব = 300 মিটাৰ, গতিকে সময় = 30 ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "time-speed-distance-062",
+    "q": {
+      "en": "A boat travels 36 km downstream in 4 hours. If the boat speed in still water is 7 km/h, the stream speed is —",
+      "as": "এখন নাওৱে 4 ঘণ্টাত 36 কিমি সোঁতেৰে যায়। স্থিৰ পানীত নাওৱৰ গতি 7 কিমি/ঘণ্টা হ'লে সোঁতৰ গতি —"
+    },
+    "options": [
+      {
+        "en": "2 km/h",
+        "as": "২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "1 km/h",
+        "as": "১ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "3 km/h",
+        "as": "৩ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "4 km/h",
+        "as": "৪ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Downstream = 9, so stream = 9 - 7 = 2 km/h.",
+      "as": "সোঁতেৰে = 9, গতিকে সোঁত = 9 - 7 = 2 কিমি/ঘণ্টা।"
     }
   }
 ]
