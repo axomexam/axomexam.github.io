@@ -1293,7 +1293,7 @@
         } else {
           title = "Your Exams | axomexam";
         }
-        if (!subName) desc = "Choose your exam and prepare subject-wise — syllabus, Elementary Mathematics, General English, Logical Reasoning & Mental Ability, Assam's History, Geography & Culture and General Knowledge & Current Affairs. Read online in English and Assamese, no download.";
+        if (!subName) desc = "Choose your exam and prepare subject-wise — syllabus, Elementary Mathematics, General English, Logical Reasoning & Mental Ability, Assam's History, Geography & Culture and General Knowledge & Current Affairs. Read online in English and Assamese.";
       } else if (segs[0] === "current-affairs") {
         const slug = (segs[1] || "").replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
         if (slug) {
@@ -4213,7 +4213,6 @@
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
             ${t("ebooks.backToLib")}
           </a>
-          <p class="ebk-no-pdf">${t("ebooks.noPdf")}</p>
         </div>
       </div>`;
 
@@ -4548,10 +4547,6 @@
       <section class="section" style="padding-bottom:46px;">
         <div class="ebooks-grid" id="exams-grid">${sorted.map((e, i) => examBookCardHTML(e, i)).join("")}</div>
         <div id="exams-no-match" class="qa-empty" style="display:none; padding:30px 10px;"><p>${escapeHtml(t("exams.noMatch"))}</p></div>
-        <p class="ebooks-note">
-          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-          ${escapeHtml(t("exams.readOnly"))}
-        </p>
       </section>`;
 
     const input = $("#exam-search");
@@ -4921,7 +4916,6 @@
             <h1>${titleHTML}</h1>
             <p class="page-desc">${descHTML}</p>
             <p class="exams-choose">${t("exams.subjects")}</p>
-            <p class="exam-cover-hero-note">${escapeHtml(t("exams.readOnly"))}</p>
           </div>
         </section>`
       : `<div class="page-head">
@@ -4936,10 +4930,6 @@
         <div class="sub-grid exam-sec-grid" style="--cat:${color}">
           ${sections.map((sec, i) => examSectionCardHTML(exam, sec, i)).join("")}
         </div>
-        <p class="ebooks-note">
-          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-          ${escapeHtml(t("exams.readOnly"))}
-        </p>
       </section>`;
     observeReveals();
     hydrateExamCardCounts(main, exam);
@@ -5135,10 +5125,6 @@
           <div class="sub-grid exam-sec-grid" style="--cat:${color}">
             ${subs.map((sub, i) => examSubcategoryCardHTML(exam, sec, sub, i)).join("")}
           </div>
-          <p class="ebooks-note">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-            ${escapeHtml(t("exams.readOnly"))}
-          </p>
         </section>`;
       observeReveals();
       hydrateExamCardCounts(main, exam);
@@ -5198,10 +5184,6 @@
         </header>
 
         <div class="ebk-read-toolbar">
-          <div class="ebk-instruct">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-            ${escapeHtml(t("exams.readOnly"))}
-          </div>
           <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
             <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-exlang="as">${t("topic.lang.as")}</button>
             <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-exlang="en">${t("topic.lang.en")}</button>
@@ -5215,7 +5197,6 @@
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
             ${t("exams.backToExams")}
           </a>
-          <p class="ebk-no-pdf">${escapeHtml(t("exams.readOnly"))}</p>
         </div>
       </div>`;
 
@@ -5280,10 +5261,6 @@
           <div class="sub-grid exam-sec-grid" style="--cat:${color}">
             ${childSubs.map((child, i) => examSubcategoryCardHTML(exam, sec, child, i, sub.id)).join("")}
           </div>
-          <p class="ebooks-note">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-            ${escapeHtml(t("exams.readOnly"))}
-          </p>
         </section>`;
       observeReveals();
       hydrateExamCardCounts(main, exam);
@@ -5327,10 +5304,6 @@
         </header>
 
         <div class="ebk-read-toolbar">
-          <div class="ebk-instruct">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-            ${escapeHtml(t("exams.readOnly"))}
-          </div>
           <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
             <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-exlang="as">${t("topic.lang.as")}</button>
             <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-exlang="en">${t("topic.lang.en")}</button>
@@ -5344,7 +5317,6 @@
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
             ${t("exams.backToSection")}
           </a>
-          <p class="ebk-no-pdf">${escapeHtml(t("exams.readOnly"))}</p>
         </div>
       </div>`;
 
@@ -5422,10 +5394,6 @@
         </header>
 
         <div class="ebk-read-toolbar">
-          <div class="ebk-instruct">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-            ${escapeHtml(t("exams.readOnly"))}
-          </div>
           <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
             <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-exlang="as">${t("topic.lang.as")}</button>
             <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-exlang="en">${t("topic.lang.en")}</button>
@@ -5439,7 +5407,6 @@
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
             ${escapeHtml(t("exams.backToSection"))}
           </a>
-          <p class="ebk-no-pdf">${escapeHtml(t("exams.readOnly"))}</p>
         </div>
       </div>`;
 

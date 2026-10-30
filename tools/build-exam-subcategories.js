@@ -874,15 +874,10 @@ function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, 
       <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><a href="/exams">Your Exams</a><span class="bc-sep">/</span><a href="/exams/${esc("assam-police")}">${esc(examEn)}</a><span class="bc-sep">/</span><a href="${secHref}">${esc(secEn)}</a><span class="bc-sep">/</span>${parentCrumb}<span>${esc(subEn)}</span></nav>
       <h1>${esc(subEn)}</h1>
       <p class="page-desc">${esc(subAs)} &bull; ${esc(secEn)} &bull; ${esc(examEn)}</p>
-      <p class="exams-choose">Online reading only</p>
     </div>
     <section class="section" style="padding-bottom:46px;">
-      <p class="ebooks-note">This exam book section is read online only and cannot be downloaded as a PDF.</p>
       <div style="margin-top:18px;"><a class="btn btn-outline btn-sm" href="${secHref}">Back to ${esc(secEn)}</a></div>
     </section>
-    <noscript>
-      <p>Read ${esc(subEn)} online (no download): <a href="${subHref}">${subHref}</a></p>
-    </noscript>
   </main>
 
   <!-- ===== Footer ===== -->

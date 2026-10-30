@@ -1833,7 +1833,7 @@ function buildEbookLibrary() {
     html: shellHTML({
       route: "/ebooks",
       title: "E-Book Library | axomexam",
-      description: "100% free bilingual (English & Assamese) topic-wise e-books for ADRE 2.0, Assam Police, APSC, SSC & Railway — Assam History, Indian History, Art & Culture, Polity, Economy and Geography reading guides. Read online anytime; no download needed.",
+      description: "100% free bilingual (English & Assamese) topic-wise e-books for ADRE 2.0, Assam Police, APSC, SSC & Railway — Assam History, Indian History, Art & Culture, Polity, Economy and Geography reading guides. Read online, free, in your browser.",
       canonical: `${BASE}/ebooks`,
       keywords: "axomexam ebooks, assam exam e-book, assam gk book online, apssc notes",
       ogImageAlt: "axomexam - Free bilingual E-Book Library for Assam Exams",
@@ -1893,7 +1893,6 @@ function buildEbookReader(book) {
             <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
             All E-Books
           </a>
-          <p class="ebk-no-pdf">Online reading only — this e-book cannot be downloaded as a PDF.</p>
         </div>
       </div>`;
 

@@ -228,7 +228,7 @@ const API = (() => {
     return files.map((name) => ({ name, url: `${F.PYEAR_BASE}${relPath}/${name}` }));
   }
 
-  /* ---- E-Books (read-only library, online reading only) ----
+  /* ---- E-Books (read-only library) ----
      Each e-book is a single JSON file at data/books/<id>.json in the
      deployed site repo. The library page lists every *.json inside that
      folder through the public GitHub Contents API, so newly uploaded
@@ -264,7 +264,7 @@ const API = (() => {
     return records.filter(Boolean);
   }
 
-  /* ---- Your Exams (read-only exam library, online reading only) ----
+  /* ---- Your Exams (read-only exam library) ----
      data/exams/index.json lists every exam and its subjects. Each subject
      is a single JSON file at data/exams/<exam-id>/<section-id>.json, so a
      new exam can be added by editing index.json and uploading files. */

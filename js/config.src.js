@@ -121,7 +121,7 @@ const CONFIG = {
     EXAM_DATE: "2026-12-31T10:00:00",
   },
 
-  /* E-Books library (online reading only).
+  /* E-Books library.
      Each e-book is one JSON file in DIR inside this same GitHub repo.
      The library lists every *.json file in that folder through the public
      GitHub Contents API, so newly uploaded books appear automatically. */
@@ -132,7 +132,7 @@ const CONFIG = {
     DIR: "data/books",
   },
 
-  /* Your Exams library (online reading only, like e-books).
+  /* Your Exams library (like e-books).
      index.json lists every exam, its subjects and optional sub-categories.
      Subjects without sub-categories keep one JSON file per subject:
        data/exams/<exam-id>/<section-id>.json

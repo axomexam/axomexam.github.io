@@ -430,21 +430,14 @@ for (const item of leaves) {
       ${breadcrumbHTML(crumbs)}
       <h1>${esc(lang(EXAM.title, "en"))}</h1>
       <p class="page-desc">${esc(lang(EXAM.subtitle, "as"))} &bull; ${esc(lang(EXAM.title, "as"))}</p>
-      <p class="exams-choose">Online reading only</p>
     </div>
 
-    <section class="section" style="padding-bottom:46px;">
-      <p class="ebooks-note">This exam book is read online only and cannot be downloaded as a PDF.</p>
-    </section>
     <section class="section" data-exam-subcats style="padding-bottom:40px;">
       <h2 style="margin:0 0 6px;">Subjects</h2>
       <div class="sub-grid">
 ${cards}
       </div>
-    </section>
-    <noscript>
-      <p>Read the ${esc(lang(EXAM.title, "en"))} book online (no download): <a href="${examPath}/">${examPath}/</a></p>
-    </noscript>`;
+    </section>`;
   write(`exams/${EXAM.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(EXAM.title) + "\n" }));
 }
 
@@ -473,11 +466,9 @@ for (const sec of EXAM.sections) {
       ${breadcrumbHTML(crumbs)}
       <h1>${esc(lang(sec.title, "en"))}</h1>
       <p class="page-desc">${esc(lang(sec.title, "as"))} &bull; ${esc(lang(EXAM.title, "as"))}</p>
-      <p class="exams-choose">Online reading only</p>
     </div>
 
     <section class="section" style="padding-bottom:46px;">
-      <p class="ebooks-note">This exam book section is read online only and cannot be downloaded as a PDF.</p>
       <div style="margin-top:18px;"><a class="btn btn-outline btn-sm" href="${examPath}/">Back to ${esc(lang(EXAM.title, "en"))}</a></div>
     </section>
     <section class="section" data-exam-subcats style="padding-bottom:40px;">
@@ -485,10 +476,7 @@ for (const sec of EXAM.sections) {
       <div class="sub-grid">
 ${cards}
       </div>
-    </section>
-    <noscript>
-      <p>Read ${esc(lang(sec.title, "en"))} online (no download): <a href="${examPath}/${sec.id}/">${examPath}/${sec.id}/</a></p>
-    </noscript>`;
+    </section>`;
   write(`exams/${EXAM.id}/${sec.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(sec.title) + "\n" }));
 }
 
@@ -521,11 +509,9 @@ for (const sec of EXAM.sections) {
       ${breadcrumbHTML(crumbs)}
       <h1>${esc(lang(sub.title, "en"))}</h1>
       <p class="page-desc">${esc(lang(sub.title, "as"))} &bull; ${esc(lang(sec.title, "en"))} &bull; ${esc(lang(EXAM.title, "en"))}</p>
-      <p class="exams-choose">Online reading only</p>
     </div>
 
     <section class="section" style="padding-bottom:46px;">
-      <p class="ebooks-note">This exam book section is read online only and cannot be downloaded as a PDF.</p>
       <div style="margin-top:18px;"><a class="btn btn-outline btn-sm" href="${examPath}/${sec.id}/">Back to ${esc(lang(sec.title, "en"))}</a></div>
     </section>
     <section class="section" data-exam-subcats style="padding-bottom:40px;">
@@ -533,10 +519,7 @@ for (const sec of EXAM.sections) {
       <div class="sub-grid">
 ${cards}
       </div>
-    </section>
-    <noscript>
-      <p>Read ${esc(lang(sub.title, "en"))} online (no download): <a href="${route}/">${route}/</a></p>
-    </noscript>`;
+    </section>`;
     write(`exams/${EXAM.id}/${sec.id}/${sub.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(sec.title) + "\n" }));
   }
 }
@@ -566,16 +549,11 @@ for (const item of leaves) {
       ${breadcrumbHTML(crumbs)}
       <h1>${esc(lang(item.leaf.title, "en"))}</h1>
       <p class="page-desc">${esc(lang(item.leaf.title, "as"))} &bull; ${esc(lang(item.sec.title, "en"))} &bull; ${esc(lang(EXAM.title, "en"))}</p>
-      <p class="exams-choose">Online reading only</p>
     </div>
 
     <section class="section" style="padding-bottom:46px;">
-      <p class="ebooks-note">This exam book section is read online only and cannot be downloaded as a PDF.</p>
       <div style="margin-top:18px;"><a class="btn btn-outline btn-sm" href="${examPath}/${item.sec.id}/">Back to ${esc(lang(item.sec.title, "en"))}</a></div>
     </section>
-    <noscript>
-      <p>Read ${esc(lang(item.leaf.title, "en"))} online (no download): <a href="${route}/">${route}/</a></p>
-    </noscript>
     <section class="section" style="padding-bottom:40px;"><!-- axo-static-qa --><div class="qa-list" style="max-width:860px; margin:0 auto;"><h2 style="font-size:1.15rem; margin-bottom:18px;">${bank.length} Questions with Answers</h2>${bank.map((q, i) => qaItemHTML(q, i + 1)).join("")}</div></section>`;
   const extra = article
     ? `  <section class="section axo-extra-content" data-axo-extra="1" data-axo-path="${route}/" style="padding-bottom:48px;">
@@ -703,11 +681,9 @@ ${article.as}
       ${breadcrumbHTML(crumbs)}
       <h1>${esc(lang(sec.title, "en"))}</h1>
       <p class="page-desc">${esc(lang(sec.title, "as"))} &bull; ${esc(lang(EXAM.title, "en"))}</p>
-      <p class="exams-choose">Online reading only</p>
     </div>
 
     <section class="section" style="padding-bottom:46px;">
-      <p class="ebooks-note">This syllabus section is read online only and cannot be downloaded as a PDF.</p>
       <article class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.85; color:var(--ink-soft,#475569); max-width:900px; margin:18px auto 0; text-align:left;">
         <h2>${esc(lang(SYLLABUS.title, "en"))} and Exam Pattern (SLRC Assam)</h2>
         <p>${esc(lang(SYLLABUS.description, "en"))}</p>
@@ -717,10 +693,7 @@ ${articleFor("as")}
         <p style="margin-top:22px; padding-top:14px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Note:</strong> axomexam.in is an independent study platform and is not affiliated with SLRC or the Government of Assam. Verify all details from the official notification.</p>
       </article>
       <div style="margin-top:18px; text-align:center;"><a class="btn btn-outline btn-sm" href="${examPath}/">Back to ${esc(lang(EXAM.title, "en"))}</a></div>
-    </section>
-    <noscript>
-      <p>Read Syllabus online (no download): <a href="${route}/">${route}/</a></p>
-    </noscript>`;
+    </section>`;
   write(`exams/${EXAM.id}/${sec.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(SYLLABUS.title) + "\n" }));
 }
 
