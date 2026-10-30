@@ -29998,5 +29998,34109 @@ module.exports = {
     "as": "ব্ৰিটিছে অসমত ডাঙৰ পৰিসৰত চাহ বাগিচা আৰম্ভ কৰিছিল।"
    }
   }
+ ],
+ "partnership": [
+  {
+   "id": "partnership-001",
+   "q": {
+    "en": "A invests Rs 2000 and B invests Rs 3000 in a business. The annual profit is Rs 6000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 2000 টকা আৰু B-য়ে 3000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 6000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 2400",
+     "as": "২৪০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 3600",
+     "as": "৩৬০০ টকা"
+    },
+    {
+     "en": "Rs 1200",
+     "as": "১২০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Capital ratio = 2000 : 3000 = 2 : 3. Total parts = 5, so A's share = (2/5) x 6000 = Rs 2400.",
+    "as": "মূলধনৰ অনুপাত = 2000 : 3000 = 2 : 3। মুঠ অংশ = 5, গতিকে A-ৰ অংশ = (2/5) x 6000 = 2400 টকা।"
+   }
+  },
+  {
+   "id": "partnership-002",
+   "q": {
+    "en": "A invests Rs 5000 and B invests Rs 7000 in a business. The annual profit is Rs 6000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 5000 টকা আৰু B-য়ে 7000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 6000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 3500",
+     "as": "৩৫০০ টকা"
+    },
+    {
+     "en": "Rs 2500",
+     "as": "২৫০০ টকা"
+    },
+    {
+     "en": "Rs 1750",
+     "as": "১৭৫০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Capital ratio = 5000 : 7000 = 5 : 7. Total parts = 12, so B's share = (7/12) x 6000 = Rs 3500.",
+    "as": "মূলধনৰ অনুপাত = 5000 : 7000 = 5 : 7। মুঠ অংশ = 12, গতিকে B-ৰ অংশ = (7/12) x 6000 = 3500 টকা।"
+   }
+  },
+  {
+   "id": "partnership-003",
+   "q": {
+    "en": "A invests Rs 4000 and B invests Rs 6000 in a business. The annual profit is Rs 5000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 4000 টকা আৰু B-য়ে 6000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 5000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Capital ratio = 4000 : 6000 = 2 : 3. Total parts = 5, so A's share = (2/5) x 5000 = Rs 2000.",
+    "as": "মূলধনৰ অনুপাত = 4000 : 6000 = 2 : 3। মুঠ অংশ = 5, গতিকে A-ৰ অংশ = (2/5) x 5000 = 2000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-004",
+   "q": {
+    "en": "A invests Rs 9000 and B invests Rs 6000 in a business. The annual profit is Rs 7500. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 9000 টকা আৰু B-য়ে 6000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 7500 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 7500",
+     "as": "৭৫০০ টকা"
+    },
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    },
+    {
+     "en": "Rs 1500",
+     "as": "১৫০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Capital ratio = 9000 : 6000 = 3 : 2. Total parts = 5, so B's share = (2/5) x 7500 = Rs 3000.",
+    "as": "মূলধনৰ অনুপাত = 9000 : 6000 = 3 : 2। মুঠ অংশ = 5, গতিকে B-ৰ অংশ = (2/5) x 7500 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-005",
+   "q": {
+    "en": "A invests Rs 3000 and B invests Rs 5000 in a business. The annual profit is Rs 8000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 3000 টকা আৰু B-য়ে 5000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 8000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 8000",
+     "as": "৮০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 1500",
+     "as": "১৫০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Capital ratio = 3000 : 5000 = 3 : 5. Total parts = 8, so A's share = (3/8) x 8000 = Rs 3000.",
+    "as": "মূলধনৰ অনুপাত = 3000 : 5000 = 3 : 5। মুঠ অংশ = 8, গতিকে A-ৰ অংশ = (3/8) x 8000 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-006",
+   "q": {
+    "en": "A invests Rs 8000 and B invests Rs 12000 in a business. The annual profit is Rs 10000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 8000 টকা আৰু B-য়ে 12000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 10000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 10000",
+     "as": "১০০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Capital ratio = 8000 : 12000 = 2 : 3. Total parts = 5, so B's share = (3/5) x 10000 = Rs 6000.",
+    "as": "মূলধনৰ অনুপাত = 8000 : 12000 = 2 : 3। মুঠ অংশ = 5, গতিকে B-ৰ অংশ = (3/5) x 10000 = 6000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-007",
+   "q": {
+    "en": "A invests Rs 15000 and B invests Rs 25000 in a business. The annual profit is Rs 8000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 15000 টকা আৰু B-য়ে 25000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 8000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 8000",
+     "as": "৮০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 1500",
+     "as": "১৫০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Capital ratio = 15000 : 25000 = 3 : 5. Total parts = 8, so A's share = (3/8) x 8000 = Rs 3000.",
+    "as": "মূলধনৰ অনুপাত = 15000 : 25000 = 3 : 5। মুঠ অংশ = 8, গতিকে A-ৰ অংশ = (3/8) x 8000 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-008",
+   "q": {
+    "en": "A invests Rs 6000 and B invests Rs 4000 in a business. The annual profit is Rs 5000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 6000 টকা আৰু B-য়ে 4000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 5000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Capital ratio = 6000 : 4000 = 3 : 2. Total parts = 5, so B's share = (2/5) x 5000 = Rs 2000.",
+    "as": "মূলধনৰ অনুপাত = 6000 : 4000 = 3 : 2। মুঠ অংশ = 5, গতিকে B-ৰ অংশ = (2/5) x 5000 = 2000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-009",
+   "q": {
+    "en": "A invests Rs 10000 and B invests Rs 15000 in a business. The annual profit is Rs 7500. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 10000 টকা আৰু B-য়ে 15000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 7500 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 7500",
+     "as": "৭৫০০ টকা"
+    },
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    },
+    {
+     "en": "Rs 1500",
+     "as": "১৫০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Capital ratio = 10000 : 15000 = 2 : 3. Total parts = 5, so A's share = (2/5) x 7500 = Rs 3000.",
+    "as": "মূলধনৰ অনুপাত = 10000 : 15000 = 2 : 3। মুঠ অংশ = 5, গতিকে A-ৰ অংশ = (2/5) x 7500 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-010",
+   "q": {
+    "en": "A invests Rs 7000 and B invests Rs 5000 in a business. The annual profit is Rs 6000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 7000 টকা আৰু B-য়ে 5000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 6000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 2500",
+     "as": "২৫০০ টকা"
+    },
+    {
+     "en": "Rs 3500",
+     "as": "৩৫০০ টকা"
+    },
+    {
+     "en": "Rs 1250",
+     "as": "১২৫০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Capital ratio = 7000 : 5000 = 7 : 5. Total parts = 12, so B's share = (5/12) x 6000 = Rs 2500.",
+    "as": "মূলধনৰ অনুপাত = 7000 : 5000 = 7 : 5। মুঠ অংশ = 12, গতিকে B-ৰ অংশ = (5/12) x 6000 = 2500 টকা।"
+   }
+  },
+  {
+   "id": "partnership-011",
+   "q": {
+    "en": "A invests Rs 12000 and B invests Rs 8000 in a business. The annual profit is Rs 10000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 12000 টকা আৰু B-য়ে 8000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 10000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 10000",
+     "as": "১০০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Capital ratio = 12000 : 8000 = 3 : 2. Total parts = 5, so A's share = (3/5) x 10000 = Rs 6000.",
+    "as": "মূলধনৰ অনুপাত = 12000 : 8000 = 3 : 2। মুঠ অংশ = 5, গতিকে A-ৰ অংশ = (3/5) x 10000 = 6000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-012",
+   "q": {
+    "en": "A invests Rs 4500 and B invests Rs 3000 in a business. The annual profit is Rs 5000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 4500 টকা আৰু B-য়ে 3000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 5000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Capital ratio = 4500 : 3000 = 3 : 2. Total parts = 5, so B's share = (2/5) x 5000 = Rs 2000.",
+    "as": "মূলধনৰ অনুপাত = 4500 : 3000 = 3 : 2। মুঠ অংশ = 5, গতিকে B-ৰ অংশ = (2/5) x 5000 = 2000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-013",
+   "q": {
+    "en": "A invests Rs 24000 and B invests Rs 16000 in a business. The annual profit is Rs 12000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 24000 টকা আৰু B-য়ে 16000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 12000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 7200",
+     "as": "৭২০০ টকা"
+    },
+    {
+     "en": "Rs 12000",
+     "as": "১২০০০ টকা"
+    },
+    {
+     "en": "Rs 4800",
+     "as": "৪৮০০ টকা"
+    },
+    {
+     "en": "Rs 3600",
+     "as": "৩৬০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Capital ratio = 24000 : 16000 = 3 : 2. Total parts = 5, so A's share = (3/5) x 12000 = Rs 7200.",
+    "as": "মূলধনৰ অনুপাত = 24000 : 16000 = 3 : 2। মুঠ অংশ = 5, গতিকে A-ৰ অংশ = (3/5) x 12000 = 7200 টকা।"
+   }
+  },
+  {
+   "id": "partnership-014",
+   "q": {
+    "en": "A invests Rs 5500 and B invests Rs 4400 in a business. The annual profit is Rs 9000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 5500 টকা আৰু B-য়ে 4400 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 9000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 9000",
+     "as": "৯০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Capital ratio = 5500 : 4400 = 5 : 4. Total parts = 9, so B's share = (4/9) x 9000 = Rs 4000.",
+    "as": "মূলধনৰ অনুপাত = 5500 : 4400 = 5 : 4। মুঠ অংশ = 9, গতিকে B-ৰ অংশ = (4/9) x 9000 = 4000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-015",
+   "q": {
+    "en": "A invests Rs 3600 and B invests Rs 5400 in a business. The annual profit is Rs 9000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 3600 টকা আৰু B-য়ে 5400 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 9000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 9000",
+     "as": "৯০০০ টকা"
+    },
+    {
+     "en": "Rs 5400",
+     "as": "৫৪০০ টকা"
+    },
+    {
+     "en": "Rs 3600",
+     "as": "৩৬০০ টকা"
+    },
+    {
+     "en": "Rs 1800",
+     "as": "১৮০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Capital ratio = 3600 : 5400 = 2 : 3. Total parts = 5, so A's share = (2/5) x 9000 = Rs 3600.",
+    "as": "মূলধনৰ অনুপাত = 3600 : 5400 = 2 : 3। মুঠ অংশ = 5, গতিকে A-ৰ অংশ = (2/5) x 9000 = 3600 টকা।"
+   }
+  },
+  {
+   "id": "partnership-016",
+   "q": {
+    "en": "A invests Rs 9000 and B invests Rs 15000 in a business. The annual profit is Rs 12000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 9000 টকা আৰু B-য়ে 15000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 12000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 12000",
+     "as": "১২০০০ টকা"
+    },
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    },
+    {
+     "en": "Rs 3750",
+     "as": "৩৭৫০ টকা"
+    },
+    {
+     "en": "Rs 7500",
+     "as": "৭৫০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Capital ratio = 9000 : 15000 = 3 : 5. Total parts = 8, so B's share = (5/8) x 12000 = Rs 7500.",
+    "as": "মূলধনৰ অনুপাত = 9000 : 15000 = 3 : 5। মুঠ অংশ = 8, গতিকে B-ৰ অংশ = (5/8) x 12000 = 7500 টকা।"
+   }
+  },
+  {
+   "id": "partnership-017",
+   "q": {
+    "en": "A invests Rs 21000 and B invests Rs 14000 in a business. The annual profit is Rs 7000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 21000 টকা আৰু B-য়ে 14000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 7000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 4200",
+     "as": "৪২০০ টকা"
+    },
+    {
+     "en": "Rs 7000",
+     "as": "৭০০০ টকা"
+    },
+    {
+     "en": "Rs 2800",
+     "as": "২৮০০ টকা"
+    },
+    {
+     "en": "Rs 2100",
+     "as": "২১০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Capital ratio = 21000 : 14000 = 3 : 2. Total parts = 5, so A's share = (3/5) x 7000 = Rs 4200.",
+    "as": "মূলধনৰ অনুপাত = 21000 : 14000 = 3 : 2। মুঠ অংশ = 5, গতিকে A-ৰ অংশ = (3/5) x 7000 = 4200 টকা।"
+   }
+  },
+  {
+   "id": "partnership-018",
+   "q": {
+    "en": "A invests Rs 800 and B invests Rs 1200 in a business. The annual profit is Rs 5000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 800 টকা আৰু B-য়ে 1200 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 5000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 1500",
+     "as": "১৫০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Capital ratio = 800 : 1200 = 2 : 3. Total parts = 5, so B's share = (3/5) x 5000 = Rs 3000.",
+    "as": "মূলধনৰ অনুপাত = 800 : 1200 = 2 : 3। মুঠ অংশ = 5, গতিকে B-ৰ অংশ = (3/5) x 5000 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-019",
+   "q": {
+    "en": "A invests Rs 25000 and B invests Rs 20000 in a business. The annual profit is Rs 9000. Find A's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 25000 টকা আৰু B-য়ে 20000 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 9000 টকা। A-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 9000",
+     "as": "৯০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 2500",
+     "as": "২৫০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Capital ratio = 25000 : 20000 = 5 : 4. Total parts = 9, so A's share = (5/9) x 9000 = Rs 5000.",
+    "as": "মূলধনৰ অনুপাত = 25000 : 20000 = 5 : 4। মুঠ অংশ = 9, গতিকে A-ৰ অংশ = (5/9) x 9000 = 5000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-020",
+   "q": {
+    "en": "A invests Rs 6300 and B invests Rs 4200 in a business. The annual profit is Rs 7000. Find B's share of the profit.",
+    "as": "A-য়ে এটা ব্যৱসায়ত 6300 টকা আৰু B-য়ে 4200 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 7000 টকা। B-ৰ লাভৰ অংশ নিৰ্ণয় কৰা।"
+   },
+   "options": [
+    {
+     "en": "Rs 7000",
+     "as": "৭০০০ টকা"
+    },
+    {
+     "en": "Rs 4200",
+     "as": "৪২০০ টকা"
+    },
+    {
+     "en": "Rs 1400",
+     "as": "১৪০০ টকা"
+    },
+    {
+     "en": "Rs 2800",
+     "as": "২৮০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Capital ratio = 6300 : 4200 = 3 : 2. Total parts = 5, so B's share = (2/5) x 7000 = Rs 2800.",
+    "as": "মূলধনৰ অনুপাত = 6300 : 4200 = 3 : 2। মুঠ অংশ = 5, গতিকে B-ৰ অংশ = (2/5) x 7000 = 2800 টকা।"
+   }
+  },
+  {
+   "id": "partnership-021",
+   "q": {
+    "en": "Two partners share profit in the ratio 2 : 3. If the total profit is Rs 5000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 2 : 3 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 5000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 2100",
+     "as": "২১০০ টকা"
+    },
+    {
+     "en": "Rs 1900",
+     "as": "১৯০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total parts = 2 + 3 = 5, so the first share = (2/5) x 5000 = Rs 2000.",
+    "as": "মুঠ অংশ = 2 + 3 = 5, গতিকে প্ৰথম অংশ = (2/5) x 5000 = 2000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-022",
+   "q": {
+    "en": "Two partners share profit in the ratio 3 : 4. If the total profit is Rs 7000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 3 : 4 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 7000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 3100",
+     "as": "৩১০০ টকা"
+    },
+    {
+     "en": "Rs 2900",
+     "as": "২৯০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total parts = 3 + 4 = 7, so the first share = (3/7) x 7000 = Rs 3000.",
+    "as": "মুঠ অংশ = 3 + 4 = 7, গতিকে প্ৰথম অংশ = (3/7) x 7000 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-023",
+   "q": {
+    "en": "Two partners share profit in the ratio 5 : 7. If the total profit is Rs 6000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 5 : 7 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 6000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 3500",
+     "as": "৩৫০০ টকা"
+    },
+    {
+     "en": "Rs 2600",
+     "as": "২৬০০ টকা"
+    },
+    {
+     "en": "Rs 2500",
+     "as": "২৫০০ টকা"
+    },
+    {
+     "en": "Rs 2400",
+     "as": "২৪০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total parts = 5 + 7 = 12, so the first share = (5/12) x 6000 = Rs 2500.",
+    "as": "মুঠ অংশ = 5 + 7 = 12, গতিকে প্ৰথম অংশ = (5/12) x 6000 = 2500 টকা।"
+   }
+  },
+  {
+   "id": "partnership-024",
+   "q": {
+    "en": "Two partners share profit in the ratio 1 : 2. If the total profit is Rs 9000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 1 : 2 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 9000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 3100",
+     "as": "৩১০০ টকা"
+    },
+    {
+     "en": "Rs 2900",
+     "as": "২৯০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total parts = 1 + 2 = 3, so the first share = (1/3) x 9000 = Rs 3000.",
+    "as": "মুঠ অংশ = 1 + 2 = 3, গতিকে প্ৰথম অংশ = (1/3) x 9000 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-025",
+   "q": {
+    "en": "Two partners share profit in the ratio 4 : 5. If the total profit is Rs 9000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 4 : 5 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 9000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 4100",
+     "as": "৪১০০ টকা"
+    },
+    {
+     "en": "Rs 3900",
+     "as": "৩৯০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total parts = 4 + 5 = 9, so the first share = (4/9) x 9000 = Rs 4000.",
+    "as": "মুঠ অংশ = 4 + 5 = 9, গতিকে প্ৰথম অংশ = (4/9) x 9000 = 4000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-026",
+   "q": {
+    "en": "Two partners share profit in the ratio 2 : 5. If the total profit is Rs 7000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 2 : 5 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 7000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 2100",
+     "as": "২১০০ টকা"
+    },
+    {
+     "en": "Rs 1900",
+     "as": "১৯০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total parts = 2 + 5 = 7, so the first share = (2/7) x 7000 = Rs 2000.",
+    "as": "মুঠ অংশ = 2 + 5 = 7, গতিকে প্ৰথম অংশ = (2/7) x 7000 = 2000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-027",
+   "q": {
+    "en": "Two partners share profit in the ratio 3 : 5. If the total profit is Rs 8000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 3 : 5 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 8000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3100",
+     "as": "৩১০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 2900",
+     "as": "২৯০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total parts = 3 + 5 = 8, so the first share = (3/8) x 8000 = Rs 3000.",
+    "as": "মুঠ অংশ = 3 + 5 = 8, গতিকে প্ৰথম অংশ = (3/8) x 8000 = 3000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-028",
+   "q": {
+    "en": "Two partners share profit in the ratio 7 : 3. If the total profit is Rs 10000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 7 : 3 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 10000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 7100",
+     "as": "৭১০০ টকা"
+    },
+    {
+     "en": "Rs 6900",
+     "as": "৬৯০০ টকা"
+    },
+    {
+     "en": "Rs 7000",
+     "as": "৭০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total parts = 7 + 3 = 10, so the first share = (7/10) x 10000 = Rs 7000.",
+    "as": "মুঠ অংশ = 7 + 3 = 10, গতিকে প্ৰথম অংশ = (7/10) x 10000 = 7000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-029",
+   "q": {
+    "en": "Two partners share profit in the ratio 5 : 3. If the total profit is Rs 8000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 5 : 3 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 8000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 5100",
+     "as": "৫১০০ টকা"
+    },
+    {
+     "en": "Rs 4900",
+     "as": "৪৯০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total parts = 5 + 3 = 8, so the first share = (5/8) x 8000 = Rs 5000.",
+    "as": "মুঠ অংশ = 5 + 3 = 8, গতিকে প্ৰথম অংশ = (5/8) x 8000 = 5000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-030",
+   "q": {
+    "en": "Two partners share profit in the ratio 1 : 3. If the total profit is Rs 8000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 1 : 3 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 8000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 2100",
+     "as": "২১০০ টকা"
+    },
+    {
+     "en": "Rs 1900",
+     "as": "১৯০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total parts = 1 + 3 = 4, so the first share = (1/4) x 8000 = Rs 2000.",
+    "as": "মুঠ অংশ = 1 + 3 = 4, গতিকে প্ৰথম অংশ = (1/4) x 8000 = 2000 টকা।"
+   }
+  },
+  {
+   "id": "partnership-031",
+   "q": {
+    "en": "Two partners share profit in the ratio 5 : 9. If the total profit is Rs 7000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 5 : 9 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 7000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    },
+    {
+     "en": "Rs 2600",
+     "as": "২৬০০ টকা"
+    },
+    {
+     "en": "Rs 2500",
+     "as": "২৫০০ টকা"
+    },
+    {
+     "en": "Rs 2400",
+     "as": "২৪০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total parts = 5 + 9 = 14, so the first share = (5/14) x 7000 = Rs 2500.",
+    "as": "মুঠ অংশ = 5 + 9 = 14, গতিকে প্ৰথম অংশ = (5/14) x 7000 = 2500 টকা।"
+   }
+  },
+  {
+   "id": "partnership-032",
+   "q": {
+    "en": "Two partners share profit in the ratio 11 : 9. If the total profit is Rs 10000, the first partner's share is —",
+    "as": "দুজন অংশীদাৰে 11 : 9 অনুপাতত লাভ ভাগ কৰে। মুঠ লাভ 10000 টকা হ'লে প্ৰথম অংশীদাৰৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    },
+    {
+     "en": "Rs 5600",
+     "as": "৫৬০০ টকা"
+    },
+    {
+     "en": "Rs 5400",
+     "as": "৫৪০০ টকা"
+    },
+    {
+     "en": "Rs 5500",
+     "as": "৫৫০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total parts = 11 + 9 = 20, so the first share = (11/20) x 10000 = Rs 5500.",
+    "as": "মুঠ অংশ = 11 + 9 = 20, গতিকে প্ৰথম অংশ = (11/20) x 10000 = 5500 টকা।"
+   }
+  },
+  {
+   "id": "partnership-033",
+   "q": {
+    "en": "A invests Rs 5000 for 12 months and B invests Rs 6000 for 12 months. The yearly profit is Rs 11000. A's share is —",
+    "as": "A-য়ে 5000 মাহৰ বাবে 12 টকা আৰু B-য়ে 6000 মাহৰ বাবে 12 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 11000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 11000",
+     "as": "১১০০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Profit follows capital x time: 5000 x 12 : 6000 x 12 = 5 : 6, so A gets Rs 5000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 5000 x 12 : 6000 x 12 = 5 : 6, গতিকে A-য়ে 5000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-034",
+   "q": {
+    "en": "A invests Rs 4000 for 6 months and B invests Rs 6000 for 12 months. The yearly profit is Rs 4000. A's share is —",
+    "as": "A-য়ে 4000 মাহৰ বাবে 6 টকা আৰু B-য়ে 6000 মাহৰ বাবে 12 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 4000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Profit follows capital x time: 4000 x 6 : 6000 x 12 = 1 : 3, so A gets Rs 1000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 4000 x 6 : 6000 x 12 = 1 : 3, গতিকে A-য়ে 1000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-035",
+   "q": {
+    "en": "A invests Rs 8000 for 12 months and B invests Rs 6000 for 8 months. The yearly profit is Rs 3000. A's share is —",
+    "as": "A-য়ে 8000 মাহৰ বাবে 12 টকা আৰু B-য়ে 6000 মাহৰ বাবে 8 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 3000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Profit follows capital x time: 8000 x 12 : 6000 x 8 = 2 : 1, so A gets Rs 2000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 8000 x 12 : 6000 x 8 = 2 : 1, গতিকে A-য়ে 2000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-036",
+   "q": {
+    "en": "A invests Rs 9000 for 4 months and B invests Rs 6000 for 6 months. The yearly profit is Rs 2000. A's share is —",
+    "as": "A-য়ে 9000 মাহৰ বাবে 4 টকা আৰু B-য়ে 6000 মাহৰ বাবে 6 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 2000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Profit follows capital x time: 9000 x 4 : 6000 x 6 = 1 : 1, so A gets Rs 1000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 9000 x 4 : 6000 x 6 = 1 : 1, গতিকে A-য়ে 1000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-037",
+   "q": {
+    "en": "A invests Rs 12000 for 3 months and B invests Rs 8000 for 6 months. The yearly profit is Rs 7000. A's share is —",
+    "as": "A-য়ে 12000 মাহৰ বাবে 3 টকা আৰু B-য়ে 8000 মাহৰ বাবে 6 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 7000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 7000",
+     "as": "৭০০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Profit follows capital x time: 12000 x 3 : 8000 x 6 = 3 : 4, so A gets Rs 3000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 12000 x 3 : 8000 x 6 = 3 : 4, গতিকে A-য়ে 3000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-038",
+   "q": {
+    "en": "A invests Rs 7000 for 12 months and B invests Rs 7000 for 6 months. The yearly profit is Rs 3000. A's share is —",
+    "as": "A-য়ে 7000 মাহৰ বাবে 12 টকা আৰু B-য়ে 7000 মাহৰ বাবে 6 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 3000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Profit follows capital x time: 7000 x 12 : 7000 x 6 = 2 : 1, so A gets Rs 2000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 7000 x 12 : 7000 x 6 = 2 : 1, গতিকে A-য়ে 2000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-039",
+   "q": {
+    "en": "A invests Rs 10000 for 6 months and B invests Rs 5000 for 12 months. The yearly profit is Rs 2000. A's share is —",
+    "as": "A-য়ে 10000 মাহৰ বাবে 6 টকা আৰু B-য়ে 5000 মাহৰ বাবে 12 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 2000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Profit follows capital x time: 10000 x 6 : 5000 x 12 = 1 : 1, so A gets Rs 1000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 10000 x 6 : 5000 x 12 = 1 : 1, গতিকে A-য়ে 1000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-040",
+   "q": {
+    "en": "A invests Rs 9000 for 8 months and B invests Rs 6000 for 12 months. The yearly profit is Rs 2000. A's share is —",
+    "as": "A-য়ে 9000 মাহৰ বাবে 8 টকা আৰু B-য়ে 6000 মাহৰ বাবে 12 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 2000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Profit follows capital x time: 9000 x 8 : 6000 x 12 = 1 : 1, so A gets Rs 1000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 9000 x 8 : 6000 x 12 = 1 : 1, গতিকে A-য়ে 1000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-041",
+   "q": {
+    "en": "A invests Rs 6000 for 5 months and B invests Rs 5000 for 6 months. The yearly profit is Rs 2000. A's share is —",
+    "as": "A-য়ে 6000 মাহৰ বাবে 5 টকা আৰু B-য়ে 5000 মাহৰ বাবে 6 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 2000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Profit follows capital x time: 6000 x 5 : 5000 x 6 = 1 : 1, so A gets Rs 1000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 6000 x 5 : 5000 x 6 = 1 : 1, গতিকে A-য়ে 1000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-042",
+   "q": {
+    "en": "A invests Rs 15000 for 4 months and B invests Rs 10000 for 6 months. The yearly profit is Rs 2000. A's share is —",
+    "as": "A-য়ে 15000 মাহৰ বাবে 4 টকা আৰু B-য়ে 10000 মাহৰ বাবে 6 টকা বিনিয়োগ কৰে। বছৰৰ লাভ 2000 টকা। A-ৰ অংশ —"
+   },
+   "options": [
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 1000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Profit follows capital x time: 15000 x 4 : 10000 x 6 = 1 : 1, so A gets Rs 1000.",
+    "as": "লাভ মূলধন x সময় অনুসৰি: 15000 x 4 : 10000 x 6 = 1 : 1, গতিকে A-য়ে 1000 টকা পায়।"
+   }
+  },
+  {
+   "id": "partnership-043",
+   "q": {
+    "en": "In a partnership, profit is divided in the ratio of ?",
+    "as": "অংশীদাৰিত্বত লাভ কাৰ অনুপাতত ভাগ কৰা হয় ?"
+   },
+   "options": [
+    {
+     "en": "capital only",
+     "as": "capital only"
+    },
+    {
+     "en": "time only",
+     "as": "time only"
+    },
+    {
+     "en": "capital x time",
+     "as": "capital x time"
+    },
+    {
+     "en": "the number of partners",
+     "as": "the number of partners"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Profit is shared in the ratio of each partner's capital multiplied by the time it was invested.",
+    "as": "প্ৰতিজন অংশীদাৰৰ মূলধনক বিনিয়োগৰ সময়েৰে পূৰণ কৰি পোৱা অনুপাতত লাভ ভাগ কৰা হয়।"
+   }
+  },
+  {
+   "id": "partnership-044",
+   "q": {
+    "en": "A sleeping partner is one who ?",
+    "as": "নিষ্ক্ৰিয় (sleeping) অংশীদাৰ হ'ল তেওঁ ?"
+   },
+   "options": [
+    {
+     "en": "manages the business daily",
+     "as": "manages the business daily"
+    },
+    {
+     "en": "does not invest any capital",
+     "as": "does not invest any capital"
+    },
+    {
+     "en": "takes no share of the profit",
+     "as": "takes no share of the profit"
+    },
+    {
+     "en": "invests capital but does not take part in management",
+     "as": "invests capital but does not take part in management"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A sleeping partner supplies capital and shares profit but stays out of daily management.",
+    "as": "নিষ্ক্ৰিয় অংশীদাৰে মূলধন যোগায় আৰু লাভ ভাগ লয়, কিন্তু দৈনন্দিন পৰিচালনাত অংশ নলয়।"
+   }
+  },
+  {
+   "id": "partnership-045",
+   "q": {
+    "en": "If two partners invest equal capital for equal time, the profit is shared in the ratio ?",
+    "as": "দুজন অংশীদাৰে সমান মূলধন সমান সময়ৰ বাবে দিলে লাভ ভাগ হয় অনুপাতত ?"
+   },
+   "options": [
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "cannot be decided",
+     "as": "cannot be decided"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Equal capital for equal time gives equal shares, so the ratio is 1 : 1.",
+    "as": "সমান মূলধন সমান সময়ৰ বাবে দিলে অংশ সমান হয়, গতিকে অনুপাত 1 : 1।"
+   }
+  },
+  {
+   "id": "partnership-046",
+   "q": {
+    "en": "The share of profit of a partner is directly proportional to ?",
+    "as": "অংশীদাৰ এজনৰ লাভৰ অংশ সমানুপাতিক ?"
+   },
+   "options": [
+    {
+     "en": "only the time",
+     "as": "only the time"
+    },
+    {
+     "en": "the capital and the time",
+     "as": "the capital and the time"
+    },
+    {
+     "en": "only the age of the firm",
+     "as": "only the age of the firm"
+    },
+    {
+     "en": "only the number of partners",
+     "as": "only the number of partners"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The share rises with both the capital invested and the time for which it stays invested.",
+    "as": "বিনিয়োগ কৰা মূলধন আৰু ই বিনিয়োগ হৈ থকা সময় দুয়োটাৰ সৈতে অংশ বাঢ়ে।"
+   }
+  },
+  {
+   "id": "partnership-047",
+   "q": {
+    "en": "A invests Rs 12000 and B invests Rs 18000 in a business. The annual profit is Rs 10000. Find the share of A.",
+    "as": "A এ Rs 12000 আৰু B এ Rs 18000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 10000। A ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 6005",
+     "as": "৬০০৫ টকা"
+    },
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ratio of capitals = 12000 : 18000 = 2 : 3, total parts = 5. A gets 10000 x 2/5 = Rs 4000.",
+    "as": "মূলধনৰ অনুপাত = 12000 : 18000 = 2 : 3, মুঠ অংশ = 5। A ৰ ভাগ = 10000 x 2/5 = Rs 4000।"
+   }
+  },
+  {
+   "id": "partnership-048",
+   "q": {
+    "en": "A invests Rs 20000 and B invests Rs 30000 in a business. The annual profit is Rs 15000. Find the share of B.",
+    "as": "A এ Rs 20000 আৰু B এ Rs 30000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 15000। B ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 9000",
+     "as": "৯০০০ টকা"
+    },
+    {
+     "en": "Rs 6005",
+     "as": "৬০০৫ টকা"
+    },
+    {
+     "en": "Rs 9500",
+     "as": "৯৫০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ratio of capitals = 20000 : 30000 = 2 : 3, total parts = 5. B gets 15000 x 3/5 = Rs 9000.",
+    "as": "মূলধনৰ অনুপাত = 20000 : 30000 = 2 : 3, মুঠ অংশ = 5। B ৰ ভাগ = 15000 x 3/5 = Rs 9000।"
+   }
+  },
+  {
+   "id": "partnership-049",
+   "q": {
+    "en": "A invests Rs 9000 and B invests Rs 6000 in a business. The annual profit is Rs 8000. Find the share of B.",
+    "as": "A এ Rs 9000 আৰু B এ Rs 6000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 8000। B ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 4800",
+     "as": "৪৮০০ টকা"
+    },
+    {
+     "en": "Rs 4805",
+     "as": "৪৮০৫ টকা"
+    },
+    {
+     "en": "Rs 3200",
+     "as": "৩২০০ টকা"
+    },
+    {
+     "en": "Rs 3700",
+     "as": "৩৭০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ratio of capitals = 9000 : 6000 = 3 : 2, total parts = 5. B gets 8000 x 2/5 = Rs 3200.",
+    "as": "মূলধনৰ অনুপাত = 9000 : 6000 = 3 : 2, মুঠ অংশ = 5। B ৰ ভাগ = 8000 x 2/5 = Rs 3200।"
+   }
+  },
+  {
+   "id": "partnership-050",
+   "q": {
+    "en": "A invests Rs 7000 and B invests Rs 11000 in a business. The annual profit is Rs 9000. Find the share of A.",
+    "as": "A এ Rs 7000 আৰু B এ Rs 11000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 9000। A ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 5500",
+     "as": "৫৫০০ টকা"
+    },
+    {
+     "en": "Rs 5505",
+     "as": "৫৫০৫ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 3500",
+     "as": "৩৫০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ratio of capitals = 7000 : 11000 = 7 : 11, total parts = 18. A gets 9000 x 7/18 = Rs 3500.",
+    "as": "মূলধনৰ অনুপাত = 7000 : 11000 = 7 : 11, মুঠ অংশ = 18। A ৰ ভাগ = 9000 x 7/18 = Rs 3500।"
+   }
+  },
+  {
+   "id": "partnership-051",
+   "q": {
+    "en": "A invests Rs 14000 and B invests Rs 21000 in a business. The annual profit is Rs 12000. Find the share of B.",
+    "as": "A এ Rs 14000 আৰু B এ Rs 21000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 12000। B ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 7200",
+     "as": "৭২০০ টকা"
+    },
+    {
+     "en": "Rs 4800",
+     "as": "৪৮০০ টকা"
+    },
+    {
+     "en": "Rs 4805",
+     "as": "৪৮০৫ টকা"
+    },
+    {
+     "en": "Rs 7700",
+     "as": "৭৭০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ratio of capitals = 14000 : 21000 = 2 : 3, total parts = 5. B gets 12000 x 3/5 = Rs 7200.",
+    "as": "মূলধনৰ অনুপাত = 14000 : 21000 = 2 : 3, মুঠ অংশ = 5। B ৰ ভাগ = 12000 x 3/5 = Rs 7200।"
+   }
+  },
+  {
+   "id": "partnership-052",
+   "q": {
+    "en": "A invests Rs 50000 and B invests Rs 30000 in a business. The annual profit is Rs 8000. Find the share of A.",
+    "as": "A এ Rs 50000 আৰু B এ Rs 30000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 8000। A ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 3005",
+     "as": "৩০০৫ টকা"
+    },
+    {
+     "en": "Rs 5500",
+     "as": "৫৫০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ratio of capitals = 50000 : 30000 = 5 : 3, total parts = 8. A gets 8000 x 5/8 = Rs 5000.",
+    "as": "মূলধনৰ অনুপাত = 50000 : 30000 = 5 : 3, মুঠ অংশ = 8। A ৰ ভাগ = 8000 x 5/8 = Rs 5000।"
+   }
+  },
+  {
+   "id": "partnership-053",
+   "q": {
+    "en": "A invests Rs 6000 and B invests Rs 9000 in a business. The annual profit is Rs 7500. Find the share of B.",
+    "as": "A এ Rs 6000 আৰু B এ Rs 9000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 7500। B ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 3005",
+     "as": "৩০০৫ টকা"
+    },
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ratio of capitals = 6000 : 9000 = 2 : 3, total parts = 5. B gets 7500 x 3/5 = Rs 4500.",
+    "as": "মূলধনৰ অনুপাত = 6000 : 9000 = 2 : 3, মুঠ অংশ = 5। B ৰ ভাগ = 7500 x 3/5 = Rs 4500।"
+   }
+  },
+  {
+   "id": "partnership-054",
+   "q": {
+    "en": "A invests Rs 16000 and B invests Rs 24000 in a business. The annual profit is Rs 5000. Find the share of A.",
+    "as": "A এ Rs 16000 আৰু B এ Rs 24000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 5000। A ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 3005",
+     "as": "৩০০৫ টকা"
+    },
+    {
+     "en": "Rs 2500",
+     "as": "২৫০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ratio of capitals = 16000 : 24000 = 2 : 3, total parts = 5. A gets 5000 x 2/5 = Rs 2000.",
+    "as": "মূলধনৰ অনুপাত = 16000 : 24000 = 2 : 3, মুঠ অংশ = 5। A ৰ ভাগ = 5000 x 2/5 = Rs 2000।"
+   }
+  },
+  {
+   "id": "partnership-055",
+   "q": {
+    "en": "A invests Rs 18000 and B invests Rs 12000 in a business. The annual profit is Rs 9000. Find the share of B.",
+    "as": "A এ Rs 18000 আৰু B এ Rs 12000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 9000। B ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 3600",
+     "as": "৩৬০০ টকা"
+    },
+    {
+     "en": "Rs 5400",
+     "as": "৫৪০০ টকা"
+    },
+    {
+     "en": "Rs 5405",
+     "as": "৫৪০৫ টকা"
+    },
+    {
+     "en": "Rs 4100",
+     "as": "৪১০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ratio of capitals = 18000 : 12000 = 3 : 2, total parts = 5. B gets 9000 x 2/5 = Rs 3600.",
+    "as": "মূলধনৰ অনুপাত = 18000 : 12000 = 3 : 2, মুঠ অংশ = 5। B ৰ ভাগ = 9000 x 2/5 = Rs 3600।"
+   }
+  },
+  {
+   "id": "partnership-056",
+   "q": {
+    "en": "A invests Rs 45000 and B invests Rs 60000 in a business. The annual profit is Rs 7000. Find the share of A.",
+    "as": "A এ Rs 45000 আৰু B এ Rs 60000 লগাই এটা ব্যৱসায় কৰে। বছৰৰ লাভ Rs 7000। A ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 4005",
+     "as": "৪০০৫ টকা"
+    },
+    {
+     "en": "Rs 3500",
+     "as": "৩৫০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ratio of capitals = 45000 : 60000 = 3 : 4, total parts = 7. A gets 7000 x 3/7 = Rs 3000.",
+    "as": "মূলধনৰ অনুপাত = 45000 : 60000 = 3 : 4, মুঠ অংশ = 7। A ৰ ভাগ = 7000 x 3/7 = Rs 3000।"
+   }
+  },
+  {
+   "id": "partnership-057",
+   "q": {
+    "en": "A, B and C invest Rs 4000, Rs 6000 and Rs 8000 for the same period. The profit is Rs 9000. Find the share of B.",
+    "as": "A, B আৰু C এ একেই সময়ৰ বাবে Rs 4000, Rs 6000 আৰু Rs 8000 বিনিয়োগ কৰে। লাভ Rs 9000। B ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 1500",
+     "as": "১৫০০ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ratio 4 : 6 : 8 = 2 : 3 : 4, total 9 parts. B gets 9000 x 3/9 = Rs 3000.",
+    "as": "অনুপাত 4 : 6 : 8 = 2 : 3 : 4, মুঠ 9 অংশ। B ৰ ভাগ = 9000 x 3/9 = Rs 3000।"
+   }
+  },
+  {
+   "id": "partnership-058",
+   "q": {
+    "en": "A invests Rs 5000 for the whole year and B joins after 6 months with Rs 10000. The yearly profit is Rs 8000. Find the share of B.",
+    "as": "A এ গোটেই বছৰ Rs 5000 বিনিয়োগ কৰে আৰু B এ ৬ মাহৰ পিছত Rs 10000 লগাই। বছৰৰ লাভ Rs 8000। B ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A : B = 5000 x 12 : 10000 x 6 = 1 : 1, so B gets 8000 x 1/2 = Rs 4000.",
+    "as": "A : B = 5000 x 12 : 10000 x 6 = 1 : 1, গতিকে B ৰ ভাগ = 8000 x 1/2 = Rs 4000।"
+   }
+  },
+  {
+   "id": "partnership-059",
+   "q": {
+    "en": "A and B invest in the ratio 3 : 2 and the total profit is Rs 25000. Find the share of A.",
+    "as": "A আৰু B এ 3 : 2 অনুপাতত বিনিয়োগ কৰে আৰু মুঠ লাভ Rs 25000। A ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 15000",
+     "as": "১৫০০০ টকা"
+    },
+    {
+     "en": "Rs 10000",
+     "as": "১০০০০ টকা"
+    },
+    {
+     "en": "Rs 12500",
+     "as": "১২৫০০ টকা"
+    },
+    {
+     "en": "Rs 18000",
+     "as": "১৮০০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total parts = 5, A gets 25000 x 3/5 = Rs 15000.",
+    "as": "মুঠ অংশ = 5, A ৰ ভাগ = 25000 x 3/5 = Rs 15000।"
+   }
+  },
+  {
+   "id": "partnership-060",
+   "q": {
+    "en": "A working partner receives a salary of Rs 2000 from a profit of Rs 12000, and the balance is shared equally. Find the share of each partner.",
+    "as": "এজন সক্ৰিয় অংশীদাৰে Rs 12000 লাভৰ পৰা Rs 2000 দৰমহা পায়, আৰু বাকীখিনি সমানে ভগা হয়। প্ৰতিজনৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 2000",
+     "as": "২০০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Balance = 12000 - 2000 = 10000, shared equally gives Rs 5000 each.",
+    "as": "বাকী = 12000 - 2000 = 10000, সমানে ভাগ কৰিলে প্ৰতিজনে Rs 5000।"
+   }
+  },
+  {
+   "id": "partnership-061",
+   "q": {
+    "en": "In a business the capitals of A and B are in the ratio 5 : 4 and the periods in the ratio 2 : 3. Find the ratio in which the profit is shared.",
+    "as": "এটা ব্যৱসায়ত A আৰু B ৰ মূলধনৰ অনুপাত 5 : 4 আৰু সময়ৰ অনুপাত 2 : 3। লাভ কোন অনুপাতত ভগা হয় উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "5 : 6",
+     "as": "৫ : ৬"
+    },
+    {
+     "en": "8 : 15",
+     "as": "৮ : ১৫"
+    },
+    {
+     "en": "10 : 12",
+     "as": "১০ : ১২"
+    },
+    {
+     "en": "15 : 8",
+     "as": "১৫ : ৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Profit ratio = 5 x 2 : 4 x 3 = 10 : 12.",
+    "as": "লাভৰ অনুপাত = 5 x 2 : 4 x 3 = 10 : 12।"
+   }
+  },
+  {
+   "id": "partnership-062",
+   "q": {
+    "en": "Three partners share a profit of Rs 18000 in the ratio 2 : 3 : 4. Find the largest share.",
+    "as": "তিনিজন অংশীদাৰে Rs 18000 লাভ 2 : 3 : 4 অনুপাতত ভাগ লয়। আটাইতকৈ ডাঙৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 9000",
+     "as": "৯০০০ টকা"
+    },
+    {
+     "en": "Rs 8000",
+     "as": "৮০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total parts = 9, largest share = 18000 x 4/9 = Rs 8000.",
+    "as": "মুঠ অংশ = 9, আটাইতকৈ ডাঙৰ ভাগ = 18000 x 4/9 = Rs 8000।"
+   }
+  },
+  {
+   "id": "partnership-063",
+   "q": {
+    "en": "A and B are partners sharing profit equally. If the profit is Rs 9000, find the share of each.",
+    "as": "A আৰু B সমান অনুপাতত লাভ ভাগ লোৱা অংশীদাৰ। লাভ Rs 9000 হ'লে প্ৰতিজনৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 4500",
+     "as": "৪৫০০ টকা"
+    },
+    {
+     "en": "Rs 3000",
+     "as": "৩০০০ টকা"
+    },
+    {
+     "en": "Rs 5000",
+     "as": "৫০০০ টকা"
+    },
+    {
+     "en": "Rs 6000",
+     "as": "৬০০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "An equal partnership divides the profit into two equal shares of Rs 4500.",
+    "as": "সমান অংশীদাৰিত্বত লাভ দুটা সমান ভাগত Rs 4500 কৰি ভগা হয়।"
+   }
+  },
+  {
+   "id": "partnership-064",
+   "q": {
+    "en": "A invests Rs 10000 and B invests Rs 15000. If B's share of the profit is Rs 9000, find the total profit.",
+    "as": "A এ Rs 10000 আৰু B এ Rs 15000 বিনিয়োগ কৰে। B ৰ ভাগ Rs 9000 হ'লে মুঠ লাভ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 12000",
+     "as": "১২০০০ টকা"
+    },
+    {
+     "en": "Rs 15000",
+     "as": "১৫০০০ টকা"
+    },
+    {
+     "en": "Rs 18000",
+     "as": "১৮০০০ টকা"
+    },
+    {
+     "en": "Rs 20000",
+     "as": "২০০০০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ratio 2 : 3, so B's 3 parts = 9000, one part = 3000, total 5 parts = Rs 15000.",
+    "as": "অনুপাত 2 : 3, গতিকে B ৰ 3 অংশ = 9000, এটা অংশ = 3000, মুঠ 5 অংশ = Rs 15000।"
+   }
+  },
+  {
+   "id": "partnership-065",
+   "q": {
+    "en": "If the capitals of two partners are equal and the periods are in the ratio 2 : 5, the profit is shared in the ratio —",
+    "as": "দুজন অংশীদাৰৰ মূলধন সমান আৰু সময়ৰ অনুপাত 2 : 5 হ'লে লাভ কোন অনুপাতত ভগা হয় —"
+   },
+   "options": [
+    {
+     "en": "5 : 2",
+     "as": "৫ : ২"
+    },
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "2 : 5",
+     "as": "২ : ৫"
+    },
+    {
+     "en": "4 : 25",
+     "as": "৪ : ২৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "With equal capitals the profit ratio is the ratio of the periods, 2 : 5.",
+    "as": "মূলধন সমান হ'লে লাভৰ অনুপাত সময়ৰ অনুপাত, 2 : 5।"
+   }
+  },
+  {
+   "id": "partnership-066",
+   "q": {
+    "en": "A, B and C start a business with capitals in the ratio 1 : 2 : 3 and share a profit of Rs 24000. Find the share of C.",
+    "as": "A, B আৰু C এ 1 : 2 : 3 অনুপাতত মূলধনেৰে ব্যৱসায় আৰম্ভ কৰি Rs 24000 লাভ ভাগ লয়। C ৰ ভাগ উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 4000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 8000",
+     "as": "৮০০০ টকা"
+    },
+    {
+     "en": "Rs 16000",
+     "as": "১৬০০০ টকা"
+    },
+    {
+     "en": "Rs 12000",
+     "as": "১২০০০ টকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total parts = 6, C gets 24000 x 3/6 = Rs 12000.",
+    "as": "মুঠ অংশ = 6, C ৰ ভাগ = 24000 x 3/6 = Rs 12000।"
+   }
+  },
+  {
+   "id": "partnership-067",
+   "q": {
+    "en": "If a partner joins with capital equal to the total capital already invested, the profit is shared in the ratio —",
+    "as": "এজন অংশীদাৰে ইতিমধ্যে বিনিয়োগ কৰা মুঠ মূলধনৰ সমান ধনেৰে যোগ দিলে লাভ কোন অনুপাতত ভগা হয় —"
+   },
+   "options": [
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "1 : 3",
+     "as": "১ : ৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "His capital equals the existing capital, so the two shares are equal, that is 1 : 1.",
+    "as": "তেওঁৰ মূলধন বৰ্তমানৰ মূলধনৰ সমান, গতিকে দুয়োটা ভাগ সমান, অৰ্থাৎ 1 : 1।"
+   }
+  }
+ ],
+ "pipes-and-cisterns": [
+  {
+   "id": "pipes-and-cisterns-001",
+   "q": {
+    "en": "Pipe A can fill a tank in 12 hours and pipe B in 6 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 12 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 6 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "18 hours",
+     "as": "১৮ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/12 + 1/6 = 3/12, so the tank fills in 4 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/12 + 1/6 = 3/12, গতিকে চৌবাচ্চা 4 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-002",
+   "q": {
+    "en": "Pipe A can fill a tank in 10 hours and pipe B in 15 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 10 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 15 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "25 hours",
+     "as": "২৫ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/10 + 1/15 = 5/30, so the tank fills in 6 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/10 + 1/15 = 5/30, গতিকে চৌবাচ্চা 6 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-003",
+   "q": {
+    "en": "Pipe A can fill a tank in 20 hours and pipe B in 30 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 20 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 30 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "50 hours",
+     "as": "৫০ ঘণ্টা"
+    },
+    {
+     "en": "25 hours",
+     "as": "২৫ ঘণ্টা"
+    },
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "14 hours",
+     "as": "১৪ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/20 + 1/30 = 5/60, so the tank fills in 12 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/20 + 1/30 = 5/60, গতিকে চৌবাচ্চা 12 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-004",
+   "q": {
+    "en": "Pipe A can fill a tank in 8 hours and pipe B in 24 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 8 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 24 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "32 hours",
+     "as": "৩২ ঘণ্টা"
+    },
+    {
+     "en": "16 hours",
+     "as": "১৬ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One hour's work = 1/8 + 1/24 = 4/24, so the tank fills in 6 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/8 + 1/24 = 4/24, গতিকে চৌবাচ্চা 6 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-005",
+   "q": {
+    "en": "Pipe A can fill a tank in 6 hours and pipe B in 12 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 6 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 12 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "18 hours",
+     "as": "১৮ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/6 + 1/12 = 3/12, so the tank fills in 4 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/6 + 1/12 = 3/12, গতিকে চৌবাচ্চা 4 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-006",
+   "q": {
+    "en": "Pipe A can fill a tank in 9 hours and pipe B in 18 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 9 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 18 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "27 hours",
+     "as": "২৭ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "13 hours",
+     "as": "১৩ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/9 + 1/18 = 3/18, so the tank fills in 6 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/9 + 1/18 = 3/18, গতিকে চৌবাচ্চা 6 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-007",
+   "q": {
+    "en": "Pipe A can fill a tank in 15 hours and pipe B in 30 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 15 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 30 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "45 hours",
+     "as": "৪৫ ঘণ্টা"
+    },
+    {
+     "en": "22 hours",
+     "as": "২২ ঘণ্টা"
+    },
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    },
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/15 + 1/30 = 3/30, so the tank fills in 10 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/15 + 1/30 = 3/30, গতিকে চৌবাচ্চা 10 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-008",
+   "q": {
+    "en": "Pipe A can fill a tank in 4 hours and pipe B in 12 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 4 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 12 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "16 hours",
+     "as": "১৬ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One hour's work = 1/4 + 1/12 = 4/12, so the tank fills in 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/4 + 1/12 = 4/12, গতিকে চৌবাচ্চা 3 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-009",
+   "q": {
+    "en": "Pipe A can fill a tank in 10 hours and pipe B in 10 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 10 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 10 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "20 hours",
+     "as": "২০ ঘণ্টা"
+    },
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/10 + 1/10 = 2/10, so the tank fills in 5 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/10 + 1/10 = 2/10, গতিকে চৌবাচ্চা 5 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-010",
+   "q": {
+    "en": "Pipe A can fill a tank in 20 hours and pipe B in 20 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 20 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 20 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "40 hours",
+     "as": "৪০ ঘণ্টা"
+    },
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    },
+    {
+     "en": "20 hours",
+     "as": "২০ ঘণ্টা"
+    },
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/20 + 1/20 = 2/20, so the tank fills in 10 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/20 + 1/20 = 2/20, গতিকে চৌবাচ্চা 10 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-011",
+   "q": {
+    "en": "Pipe A can fill a tank in 5 hours and pipe B in 20 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 5 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 20 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "25 hours",
+     "as": "২৫ ঘণ্টা"
+    },
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/5 + 1/20 = 5/20, so the tank fills in 4 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/5 + 1/20 = 5/20, গতিকে চৌবাচ্চা 4 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-012",
+   "q": {
+    "en": "Pipe A can fill a tank in 24 hours and pipe B in 8 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 24 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 8 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "32 hours",
+     "as": "৩২ ঘণ্টা"
+    },
+    {
+     "en": "16 hours",
+     "as": "১৬ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One hour's work = 1/24 + 1/8 = 4/24, so the tank fills in 6 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/24 + 1/8 = 4/24, গতিকে চৌবাচ্চা 6 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-013",
+   "q": {
+    "en": "Pipe A can fill a tank in 30 hours and pipe B in 20 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 30 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 20 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "50 hours",
+     "as": "৫০ ঘণ্টা"
+    },
+    {
+     "en": "25 hours",
+     "as": "২৫ ঘণ্টা"
+    },
+    {
+     "en": "14 hours",
+     "as": "১৪ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/30 + 1/20 = 5/60, so the tank fills in 12 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/30 + 1/20 = 5/60, গতিকে চৌবাচ্চা 12 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-014",
+   "q": {
+    "en": "Pipe A can fill a tank in 12 hours and pipe B in 4 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 12 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 4 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "16 hours",
+     "as": "১৬ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/12 + 1/4 = 4/12, so the tank fills in 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/12 + 1/4 = 4/12, গতিকে চৌবাচ্চা 3 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-015",
+   "q": {
+    "en": "Pipe A can fill a tank in 16 hours and pipe B in 48 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 16 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 48 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "64 hours",
+     "as": "৬৪ ঘণ্টা"
+    },
+    {
+     "en": "32 hours",
+     "as": "৩২ ঘণ্টা"
+    },
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "14 hours",
+     "as": "১৪ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/16 + 1/48 = 4/48, so the tank fills in 12 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/16 + 1/48 = 4/48, গতিকে চৌবাচ্চা 12 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-016",
+   "q": {
+    "en": "Pipe A can fill a tank in 18 hours and pipe B in 9 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 18 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 9 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "27 hours",
+     "as": "২৭ ঘণ্টা"
+    },
+    {
+     "en": "13 hours",
+     "as": "১৩ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One hour's work = 1/18 + 1/9 = 3/18, so the tank fills in 6 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/18 + 1/9 = 3/18, গতিকে চৌবাচ্চা 6 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-017",
+   "q": {
+    "en": "Pipe A can fill a tank in 36 hours and pipe B in 12 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 36 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 12 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    },
+    {
+     "en": "48 hours",
+     "as": "৪৮ ঘণ্টা"
+    },
+    {
+     "en": "24 hours",
+     "as": "২৪ ঘণ্টা"
+    },
+    {
+     "en": "11 hours",
+     "as": "১১ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/36 + 1/12 = 4/36, so the tank fills in 9 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/36 + 1/12 = 4/36, গতিকে চৌবাচ্চা 9 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-018",
+   "q": {
+    "en": "Pipe A can fill a tank in 40 hours and pipe B in 60 hours. Working together they fill it in —",
+    "as": "নল A এটা চৌবাচ্চা 40 ঘণ্টাত ভৰ্তি কৰে আৰু নল B-য়ে 60 ঘণ্টাত। একেলগে চলালে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "100 hours",
+     "as": "১০০ ঘণ্টা"
+    },
+    {
+     "en": "24 hours",
+     "as": "২৪ ঘণ্টা"
+    },
+    {
+     "en": "50 hours",
+     "as": "৫০ ঘণ্টা"
+    },
+    {
+     "en": "26 hours",
+     "as": "২৬ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/40 + 1/60 = 5/120, so the tank fills in 24 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/40 + 1/60 = 5/120, গতিকে চৌবাচ্চা 24 ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-019",
+   "q": {
+    "en": "Pipe A fills a tank in 20 hours while pipe B empties it in 30 hours. With both open, the tank fills in —",
+    "as": "নল A-য়ে চৌবাচ্চা 20 ঘণ্টাত ভৰ্তি কৰে আনহাতে নল B-য়ে 30 ঘণ্টাত ৰিক্ত কৰে। দুয়োটা খুলি দিলে চৌবাচ্চা ভৰ্তি হ'ব —"
+   },
+   "options": [
+    {
+     "en": "50 hours",
+     "as": "৫০ ঘণ্টা"
+    },
+    {
+     "en": "63 hours",
+     "as": "৬৩ ঘণ্টা"
+    },
+    {
+     "en": "60 hours",
+     "as": "৬০ ঘণ্টা"
+    },
+    {
+     "en": "57 hours",
+     "as": "৫৭ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Net one hour's work = 1/20 - 1/30 = 1/60, so the tank fills in 60 hours.",
+    "as": "নিকা এঘণ্টাৰ কাম = 1/20 - 1/30 = 1/60, গতিকে 60 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-020",
+   "q": {
+    "en": "Pipe A fills a tank in 10 hours while pipe B empties it in 15 hours. With both open, the tank fills in —",
+    "as": "নল A-য়ে চৌবাচ্চা 10 ঘণ্টাত ভৰ্তি কৰে আনহাতে নল B-য়ে 15 ঘণ্টাত ৰিক্ত কৰে। দুয়োটা খুলি দিলে চৌবাচ্চা ভৰ্তি হ'ব —"
+   },
+   "options": [
+    {
+     "en": "25 hours",
+     "as": "২৫ ঘণ্টা"
+    },
+    {
+     "en": "33 hours",
+     "as": "৩৩ ঘণ্টা"
+    },
+    {
+     "en": "27 hours",
+     "as": "২৭ ঘণ্টা"
+    },
+    {
+     "en": "30 hours",
+     "as": "৩০ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Net one hour's work = 1/10 - 1/15 = 1/30, so the tank fills in 30 hours.",
+    "as": "নিকা এঘণ্টাৰ কাম = 1/10 - 1/15 = 1/30, গতিকে 30 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-021",
+   "q": {
+    "en": "Pipe A fills a tank in 8 hours while pipe B empties it in 24 hours. With both open, the tank fills in —",
+    "as": "নল A-য়ে চৌবাচ্চা 8 ঘণ্টাত ভৰ্তি কৰে আনহাতে নল B-য়ে 24 ঘণ্টাত ৰিক্ত কৰে। দুয়োটা খুলি দিলে চৌবাচ্চা ভৰ্তি হ'ব —"
+   },
+   "options": [
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "32 hours",
+     "as": "৩২ ঘণ্টা"
+    },
+    {
+     "en": "15 hours",
+     "as": "১৫ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Net one hour's work = 1/8 - 1/24 = 2/24, so the tank fills in 12 hours.",
+    "as": "নিকা এঘণ্টাৰ কাম = 1/8 - 1/24 = 2/24, গতিকে 12 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-022",
+   "q": {
+    "en": "Pipe A fills a tank in 9 hours while pipe B empties it in 18 hours. With both open, the tank fills in —",
+    "as": "নল A-য়ে চৌবাচ্চা 9 ঘণ্টাত ভৰ্তি কৰে আনহাতে নল B-য়ে 18 ঘণ্টাত ৰিক্ত কৰে। দুয়োটা খুলি দিলে চৌবাচ্চা ভৰ্তি হ'ব —"
+   },
+   "options": [
+    {
+     "en": "27 hours",
+     "as": "২৭ ঘণ্টা"
+    },
+    {
+     "en": "18 hours",
+     "as": "১৮ ঘণ্টা"
+    },
+    {
+     "en": "21 hours",
+     "as": "২১ ঘণ্টা"
+    },
+    {
+     "en": "15 hours",
+     "as": "১৫ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Net one hour's work = 1/9 - 1/18 = 1/18, so the tank fills in 18 hours.",
+    "as": "নিকা এঘণ্টাৰ কাম = 1/9 - 1/18 = 1/18, গতিকে 18 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-023",
+   "q": {
+    "en": "Pipe A fills a tank in 16 hours while pipe B empties it in 48 hours. With both open, the tank fills in —",
+    "as": "নল A-য়ে চৌবাচ্চা 16 ঘণ্টাত ভৰ্তি কৰে আনহাতে নল B-য়ে 48 ঘণ্টাত ৰিক্ত কৰে। দুয়োটা খুলি দিলে চৌবাচ্চা ভৰ্তি হ'ব —"
+   },
+   "options": [
+    {
+     "en": "64 hours",
+     "as": "৬৪ ঘণ্টা"
+    },
+    {
+     "en": "27 hours",
+     "as": "২৭ ঘণ্টা"
+    },
+    {
+     "en": "24 hours",
+     "as": "২৪ ঘণ্টা"
+    },
+    {
+     "en": "21 hours",
+     "as": "২১ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Net one hour's work = 1/16 - 1/48 = 2/48, so the tank fills in 24 hours.",
+    "as": "নিকা এঘণ্টাৰ কাম = 1/16 - 1/48 = 2/48, গতিকে 24 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-024",
+   "q": {
+    "en": "Pipe A fills a tank in 5 hours while pipe B empties it in 20 hours. With both open, the tank fills in —",
+    "as": "নল A-য়ে চৌবাচ্চা 5 ঘণ্টাত ভৰ্তি কৰে আনহাতে নল B-য়ে 20 ঘণ্টাত ৰিক্ত কৰে। দুয়োটা খুলি দিলে চৌবাচ্চা ভৰ্তি হ'ব —"
+   },
+   "options": [
+    {
+     "en": "25 hours",
+     "as": "২৫ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Net one hour's work = 1/5 - 1/20 = 3/20, so the tank fills in 6 hours.",
+    "as": "নিকা এঘণ্টাৰ কাম = 1/5 - 1/20 = 3/20, গতিকে 6 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-025",
+   "q": {
+    "en": "Three pipes fill a tank in 6, 12 and 4 hours. Together they fill it in —",
+    "as": "তিনিটা নলে এটা চৌবাচ্চা ক্ৰমে 6, 12 আৰু 4 ঘণ্টাত ভৰ্তি কৰে। একেলগে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/6 + 1/12 + 1/4 = 6/12, so the tank fills in 2 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/6 + 1/12 + 1/4 = 6/12, গতিকে 2 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-026",
+   "q": {
+    "en": "Three pipes fill a tank in 10, 15 and 6 hours. Together they fill it in —",
+    "as": "তিনিটা নলে এটা চৌবাচ্চা ক্ৰমে 10, 15 আৰু 6 ঘণ্টাত ভৰ্তি কৰে। একেলগে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "1 hours",
+     "as": "১ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/10 + 1/15 + 1/6 = 10/30, so the tank fills in 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/10 + 1/15 + 1/6 = 10/30, গতিকে 3 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-027",
+   "q": {
+    "en": "Three pipes fill a tank in 12, 6 and 4 hours. Together they fill it in —",
+    "as": "তিনিটা নলে এটা চৌবাচ্চা ক্ৰমে 12, 6 আৰু 4 ঘণ্টাত ভৰ্তি কৰে। একেলগে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/12 + 1/6 + 1/4 = 6/12, so the tank fills in 2 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/12 + 1/6 + 1/4 = 6/12, গতিকে 2 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-028",
+   "q": {
+    "en": "Three pipes fill a tank in 8, 24 and 6 hours. Together they fill it in —",
+    "as": "তিনিটা নলে এটা চৌবাচ্চা ক্ৰমে 8, 24 আৰু 6 ঘণ্টাত ভৰ্তি কৰে। একেলগে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "1 hours",
+     "as": "১ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One hour's work = 1/8 + 1/24 + 1/6 = 8/24, so the tank fills in 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/8 + 1/24 + 1/6 = 8/24, গতিকে 3 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-029",
+   "q": {
+    "en": "Three pipes fill a tank in 15, 10 and 6 hours. Together they fill it in —",
+    "as": "তিনিটা নলে এটা চৌবাচ্চা ক্ৰমে 15, 10 আৰু 6 ঘণ্টাত ভৰ্তি কৰে। একেলগে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "1 hours",
+     "as": "১ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/15 + 1/10 + 1/6 = 10/30, so the tank fills in 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/15 + 1/10 + 1/6 = 10/30, গতিকে 3 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-030",
+   "q": {
+    "en": "Three pipes fill a tank in 30, 20 and 12 hours. Together they fill it in —",
+    "as": "তিনিটা নলে এটা চৌবাচ্চা ক্ৰমে 30, 20 আৰু 12 ঘণ্টাত ভৰ্তি কৰে। একেলগে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/30 + 1/20 + 1/12 = 10/60, so the tank fills in 6 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/30 + 1/20 + 1/12 = 10/60, গতিকে 6 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-031",
+   "q": {
+    "en": "Three pipes fill a tank in 9, 18 and 6 hours. Together they fill it in —",
+    "as": "তিনিটা নলে এটা চৌবাচ্চা ক্ৰমে 9, 18 আৰু 6 ঘণ্টাত ভৰ্তি কৰে। একেলগে ভৰ্তি কৰিব —"
+   },
+   "options": [
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "1 hours",
+     "as": "১ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/9 + 1/18 + 1/6 = 6/18, so the tank fills in 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/9 + 1/18 + 1/6 = 6/18, গতিকে 3 ঘণ্টাত ভৰ্তি হ'ব।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-032",
+   "q": {
+    "en": "A pipe fills a tank in 10 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 10 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "1/11",
+     "as": "১/১১"
+    },
+    {
+     "en": "1/9",
+     "as": "১/৯"
+    },
+    {
+     "en": "1/10",
+     "as": "১/১০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/10.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/10।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-033",
+   "q": {
+    "en": "A pipe fills a tank in 12 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 12 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "1/12",
+     "as": "১/১২"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "1/13",
+     "as": "১/১৩"
+    },
+    {
+     "en": "1/11",
+     "as": "১/১১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/12.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/12।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-034",
+   "q": {
+    "en": "A pipe fills a tank in 15 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 15 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "1/15",
+     "as": "১/১৫"
+    },
+    {
+     "en": "1/16",
+     "as": "১/১৬"
+    },
+    {
+     "en": "1/14",
+     "as": "১/১৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/15.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/15।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-035",
+   "q": {
+    "en": "A pipe fills a tank in 20 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 20 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "1/21",
+     "as": "১/২১"
+    },
+    {
+     "en": "1/20",
+     "as": "১/২০"
+    },
+    {
+     "en": "1/19",
+     "as": "১/১৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/20.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/20।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-036",
+   "q": {
+    "en": "A pipe fills a tank in 6 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 6 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "1/7",
+     "as": "১/৭"
+    },
+    {
+     "en": "1/5",
+     "as": "১/৫"
+    },
+    {
+     "en": "1/6",
+     "as": "১/৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/6.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/6।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-037",
+   "q": {
+    "en": "A pipe fills a tank in 8 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 8 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "1/8",
+     "as": "১/৮"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "1/9",
+     "as": "১/৯"
+    },
+    {
+     "en": "1/7",
+     "as": "১/৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/8.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/8।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-038",
+   "q": {
+    "en": "A pipe fills a tank in 24 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 24 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "1/24",
+     "as": "১/২৪"
+    },
+    {
+     "en": "1/25",
+     "as": "১/২৫"
+    },
+    {
+     "en": "1/23",
+     "as": "১/২৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/24.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/24।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-039",
+   "q": {
+    "en": "A pipe fills a tank in 30 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 30 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "1/31",
+     "as": "১/৩১"
+    },
+    {
+     "en": "1/30",
+     "as": "১/৩০"
+    },
+    {
+     "en": "1/29",
+     "as": "১/২৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/30.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/30।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-040",
+   "q": {
+    "en": "A pipe fills a tank in 5 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 5 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "1/6",
+     "as": "১/৬"
+    },
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    },
+    {
+     "en": "1/5",
+     "as": "১/৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/5.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/5।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-041",
+   "q": {
+    "en": "A pipe fills a tank in 4 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 4 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "1/5",
+     "as": "১/৫"
+    },
+    {
+     "en": "1/3",
+     "as": "১/৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/4.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/4।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-042",
+   "q": {
+    "en": "A pipe fills a tank in 16 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 16 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "1/16",
+     "as": "১/১৬"
+    },
+    {
+     "en": "1/17",
+     "as": "১/১৭"
+    },
+    {
+     "en": "1/15",
+     "as": "১/১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/16.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/16।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-043",
+   "q": {
+    "en": "A pipe fills a tank in 18 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 18 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "1/19",
+     "as": "১/১৯"
+    },
+    {
+     "en": "1/18",
+     "as": "১/১৮"
+    },
+    {
+     "en": "1/17",
+     "as": "১/১৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/18.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/18।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-044",
+   "q": {
+    "en": "A pipe fills a tank in 25 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 25 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "1/26",
+     "as": "১/২৬"
+    },
+    {
+     "en": "1/24",
+     "as": "১/২৪"
+    },
+    {
+     "en": "1/25",
+     "as": "১/২৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/25.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/25।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-045",
+   "q": {
+    "en": "A pipe fills a tank in 40 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 40 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "1/40",
+     "as": "১/৪০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "1/41",
+     "as": "১/৪১"
+    },
+    {
+     "en": "1/39",
+     "as": "১/৩৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/40.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/40।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-046",
+   "q": {
+    "en": "A pipe fills a tank in 36 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 36 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "1/36",
+     "as": "১/৩৬"
+    },
+    {
+     "en": "1/37",
+     "as": "১/৩৭"
+    },
+    {
+     "en": "1/35",
+     "as": "১/৩৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/36.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/36।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-047",
+   "q": {
+    "en": "A pipe fills a tank in 45 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 45 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "1/46",
+     "as": "১/৪৬"
+    },
+    {
+     "en": "1/45",
+     "as": "১/৪৫"
+    },
+    {
+     "en": "1/44",
+     "as": "১/৪৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/45.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/45।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-048",
+   "q": {
+    "en": "A pipe fills a tank in 9 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 9 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "1/10",
+     "as": "১/১০"
+    },
+    {
+     "en": "1/8",
+     "as": "১/৮"
+    },
+    {
+     "en": "1/9",
+     "as": "১/৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/9.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/9।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-049",
+   "q": {
+    "en": "A pipe fills a tank in 3 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 3 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "1/3",
+     "as": "১/৩"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/3.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/3।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-050",
+   "q": {
+    "en": "A pipe fills a tank in 48 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 48 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "48",
+     "as": "৪৮"
+    },
+    {
+     "en": "1/48",
+     "as": "১/৪৮"
+    },
+    {
+     "en": "1/49",
+     "as": "১/৪৯"
+    },
+    {
+     "en": "1/47",
+     "as": "১/৪৭"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/48.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/48।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-051",
+   "q": {
+    "en": "A pipe fills a tank in 60 hours. The part of the tank filled by it in one hour is —",
+    "as": "এটা নলে চৌবাচ্চা 60 ঘণ্টাত ভৰ্তি কৰে। ই এঘণ্টাত ভৰ্তি কৰা অংশ —"
+   },
+   "options": [
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "1/61",
+     "as": "১/৬১"
+    },
+    {
+     "en": "1/60",
+     "as": "১/৬০"
+    },
+    {
+     "en": "1/59",
+     "as": "১/৫৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the number of hours: 1/60.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ঘণ্টাৰ সংখ্যাৰ প্ৰতিক্ৰম: 1/60।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-052",
+   "q": {
+    "en": "If a pipe fills a tank in x hours, the work done by it in one hour is ?",
+    "as": "এটা নলে চৌবাচ্চা x ঘণ্টাত ভৰ্তি কৰিলে ই এঘণ্টাত কৰা কাম ?"
+   },
+   "options": [
+    {
+     "en": "x",
+     "as": "x"
+    },
+    {
+     "en": "x + 1",
+     "as": "x + 1"
+    },
+    {
+     "en": "1 - x",
+     "as": "1 - x"
+    },
+    {
+     "en": "1/x",
+     "as": "1/x"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The part filled in one hour is the reciprocal of the filling time.",
+    "as": "এঘণ্টাত ভৰ্তি হোৱা অংশ ভৰ্তিৰ সময়ৰ প্ৰতিক্ৰম।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-053",
+   "q": {
+    "en": "An inlet pipe is one that ?",
+    "as": "অন্তৰ্গামী (inlet) নল হ'ল সেইটো যিয়ে ?"
+   },
+   "options": [
+    {
+     "en": "fills the tank",
+     "as": "fills the tank"
+    },
+    {
+     "en": "empties the tank",
+     "as": "empties the tank"
+    },
+    {
+     "en": "only measures the water",
+     "as": "only measures the water"
+    },
+    {
+     "en": "heats the water",
+     "as": "heats the water"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "An inlet pipe adds water to the tank, while an outlet pipe removes it.",
+    "as": "অন্তৰ্গামী নলে চৌবাচ্চাত পানী যোগায়, আনহাতে বহিৰ্গামী নলে পানী উলিয়াই নিয়ে।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-054",
+   "q": {
+    "en": "When one pipe fills and another empties a tank together, the net rate is found by ?",
+    "as": "এটা নলে ভৰ্তি আৰু আনটোৱে ৰিক্ত কৰিলে নিকা হাৰ পোৱা যায় ?"
+   },
+   "options": [
+    {
+     "en": "adding the two rates",
+     "as": "adding the two rates"
+    },
+    {
+     "en": "subtracting the emptying rate from the filling rate",
+     "as": "subtracting the emptying rate from the filling rate"
+    },
+    {
+     "en": "multiplying the two rates",
+     "as": "multiplying the two rates"
+    },
+    {
+     "en": "dividing the filling rate by the emptying rate",
+     "as": "dividing the filling rate by the emptying rate"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The emptying pipe works against the filling pipe, so its rate is subtracted.",
+    "as": "ৰিক্ত কৰা নলে ভৰ্তি কৰা নলৰ বিৰুদ্ধে কাম কৰে, গতিকে তাৰ হাৰ বিয়োগ কৰা হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-055",
+   "q": {
+    "en": "Pipe A can fill a tank in 6 hours and pipe B in 3 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 6 ঘণ্টাত আৰু B নলে 3 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/6 + 1/3 = 3/6, so the time = 6/3 = 2 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/6 + 1/3 = 3/6, গতিকে সময় = 6/3 = 2 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-056",
+   "q": {
+    "en": "Pipe A can fill a tank in 8 hours and pipe B in 8 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 8 ঘণ্টাত আৰু B নলে 8 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "16 hours",
+     "as": "১৬ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/8 + 1/8 = 2/8, so the time = 8/2 = 4 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/8 + 1/8 = 2/8, গতিকে সময় = 8/2 = 4 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-057",
+   "q": {
+    "en": "Pipe A can fill a tank in 5 hours and pipe B in 5 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 5 ঘণ্টাত আৰু B নলে 5 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/5 + 1/5 = 2/5, so the time = 5/2 = 2 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/5 + 1/5 = 2/5, গতিকে সময় = 5/2 = 2 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-058",
+   "q": {
+    "en": "Pipe A can fill a tank in 12 hours and pipe B in 8 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 12 ঘণ্টাত আৰু B নলে 8 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "20 hours",
+     "as": "২০ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One hour's work = 1/12 + 1/8 = 5/24, so the time = 24/5 = 4 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/12 + 1/8 = 5/24, গতিকে সময় = 24/5 = 4 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-059",
+   "q": {
+    "en": "Pipe A can fill a tank in 10 hours and pipe B in 5 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 10 ঘণ্টাত আৰু B নলে 5 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "15 hours",
+     "as": "১৫ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "One hour's work = 1/10 + 1/5 = 3/10, so the time = 10/3 = 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/10 + 1/5 = 3/10, গতিকে সময় = 10/3 = 3 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-060",
+   "q": {
+    "en": "Pipe A can fill a tank in 9 hours and pipe B in 9 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 9 ঘণ্টাত আৰু B নলে 9 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "18 hours",
+     "as": "১৮ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "One hour's work = 1/9 + 1/9 = 2/9, so the time = 9/2 = 4 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/9 + 1/9 = 2/9, গতিকে সময় = 9/2 = 4 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-061",
+   "q": {
+    "en": "Pipe A can fill a tank in 6 hours and pipe B in 4 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 6 ঘণ্টাত আৰু B নলে 4 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "One hour's work = 1/6 + 1/4 = 5/12, so the time = 12/5 = 2 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/6 + 1/4 = 5/12, গতিকে সময় = 12/5 = 2 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-062",
+   "q": {
+    "en": "Pipe A can fill a tank in 7 hours and pipe B in 7 hours. Working together they fill it in —",
+    "as": "A নলে চৌবাচ্চা 7 ঘণ্টাত আৰু B নলে 7 ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "14 hours",
+     "as": "১৪ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One hour's work = 1/7 + 1/7 = 2/7, so the time = 7/2 = 3 hours.",
+    "as": "এঘণ্টাৰ কাম = 1/7 + 1/7 = 2/7, গতিকে সময় = 7/2 = 3 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-063",
+   "q": {
+    "en": "Pipe A fills a tank in 6 hours and pipe B fills it in 3 hours. If both are opened together, what part of the tank is filled in one hour?",
+    "as": "A নলে চৌবাচ্চা ৬ ঘণ্টাত আৰু B নলে ৩ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে এঘণ্টাত চৌবাচ্চাৰ কিমান অংশ ভৰ্তি হয়?"
+   },
+   "options": [
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/3",
+     "as": "১/৩"
+    },
+    {
+     "en": "1/6",
+     "as": "১/৬"
+    },
+    {
+     "en": "2/3",
+     "as": "২/৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "1/6 + 1/3 = 3/6 = 1/2 of the tank in one hour.",
+    "as": "1/6 + 1/3 = 3/6 = এঘণ্টাত চৌবাচ্চাৰ 1/2 অংশ।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-064",
+   "q": {
+    "en": "A pipe can fill a tank in 12 hours. Another pipe can empty the full tank in 36 hours. If both are opened, in how many hours will the tank be full?",
+    "as": "এটা নলে চৌবাচ্চা ১২ ঘণ্টাত ভৰ্তি কৰে। আন এটা নলে পূৰ্ণ চৌবাচ্চা ৩৬ ঘণ্টাত ৰিক্ত কৰে। দুয়োটা খুলিলে চৌবাচ্চা কিমান ঘণ্টাত পূৰ্ণ হ'ব?"
+   },
+   "options": [
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "18 hours",
+     "as": "১৮ ঘণ্টা"
+    },
+    {
+     "en": "24 hours",
+     "as": "২৪ ঘণ্টা"
+    },
+    {
+     "en": "36 hours",
+     "as": "৩৬ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Net rate = 1/12 - 1/36 = 2/36 = 1/18, so 18 hours.",
+    "as": "নিকা হাৰ = 1/12 - 1/36 = 2/36 = 1/18, গতিকে ১৮ ঘণ্টা।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-065",
+   "q": {
+    "en": "A pipe fills 1/4 of a tank in one hour. How long does it take to fill the whole tank?",
+    "as": "এটা নলে এঘণ্টাত চৌবাচ্চাৰ 1/4 অংশ ভৰ্তি কৰে। গোটেই চৌবাচ্চা ভৰ্তি কৰিবলৈ কিমান সময় লাগে?"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "If 1/4 is filled in one hour, the whole tank needs 4 hours.",
+    "as": "এঘণ্টাত 1/4 ভৰ্তি হ'লে গোটেই চৌবাচ্চাৰ বাবে ৪ ঘণ্টা লাগে।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-066",
+   "q": {
+    "en": "A leak empties a full tank in 20 hours. With the inlet pipe filling the tank in 10 hours and the leak open, the tank fills in —",
+    "as": "এটা চুৰিয়ে পূৰ্ণ চৌবাচ্চা ২০ ঘণ্টাত ৰিক্ত কৰে। অন্তৰ্গামী নলে ১০ ঘণ্টাত ভৰ্তি কৰে; চুৰি খোলা থাকিলে চৌবাচ্চা —"
+   },
+   "options": [
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    },
+    {
+     "en": "15 hours",
+     "as": "১৫ ঘণ্টা"
+    },
+    {
+     "en": "30 hours",
+     "as": "৩০ ঘণ্টা"
+    },
+    {
+     "en": "20 hours",
+     "as": "২০ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Net rate = 1/10 - 1/20 = 1/20, so the tank fills in 20 hours.",
+    "as": "নিকা হাৰ = 1/10 - 1/20 = 1/20, গতিকে চৌবাচ্চা ২০ ঘণ্টাত ভৰ্তি হয়।"
+   }
+  },
+  {
+   "id": "pipes-and-cisterns-067",
+   "q": {
+    "en": "Three pipes can fill a tank in 6, 12 and 4 hours. Working together they fill it in —",
+    "as": "তিনিটা নলে চৌবাচ্চা ৬, ১২ আৰু ৪ ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "1/6 + 1/12 + 1/4 = 2/12 + 1/12 + 3/12 = 6/12 = 1/2, so 2 hours.",
+    "as": "1/6 + 1/12 + 1/4 = 2/12 + 1/12 + 3/12 = 6/12 = 1/2, গতিকে ২ ঘণ্টা।"
+   }
+  }
+ ],
+ "boats-and-streams": [
+  {
+   "id": "boats-and-streams-001",
+   "q": {
+    "en": "The speed of a boat in still water is 12 km/h and the speed of the stream is 4 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 12 km/h আৰু সোঁতৰ গতি 4 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 12 + 4 = 16 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 12 + 4 = 16 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-002",
+   "q": {
+    "en": "The speed of a boat in still water is 12 km/h and the speed of the stream is 4 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 12 km/h আৰু সোঁতৰ গতি 4 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 12 - 4 = 8 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 12 - 4 = 8 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-003",
+   "q": {
+    "en": "The speed of a boat in still water is 15 km/h and the speed of the stream is 5 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 15 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "15 km/h",
+     "as": "১৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 15 + 5 = 20 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 15 + 5 = 20 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-004",
+   "q": {
+    "en": "The speed of a boat in still water is 15 km/h and the speed of the stream is 5 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 15 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "15 km/h",
+     "as": "১৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 15 - 5 = 10 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 15 - 5 = 10 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-005",
+   "q": {
+    "en": "The speed of a boat in still water is 10 km/h and the speed of the stream is 2 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 10 km/h আৰু সোঁতৰ গতি 2 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "2 km/h",
+     "as": "২ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 10 + 2 = 12 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 10 + 2 = 12 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-006",
+   "q": {
+    "en": "The speed of a boat in still water is 10 km/h and the speed of the stream is 2 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 10 km/h আৰু সোঁতৰ গতি 2 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "2 km/h",
+     "as": "২ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 10 - 2 = 8 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 10 - 2 = 8 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-007",
+   "q": {
+    "en": "The speed of a boat in still water is 8 km/h and the speed of the stream is 3 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 8 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "11 km/h",
+     "as": "১১ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 8 + 3 = 11 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 8 + 3 = 11 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-008",
+   "q": {
+    "en": "The speed of a boat in still water is 8 km/h and the speed of the stream is 3 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 8 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "11 km/h",
+     "as": "১১ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 8 - 3 = 5 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 8 - 3 = 5 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-009",
+   "q": {
+    "en": "The speed of a boat in still water is 14 km/h and the speed of the stream is 6 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 14 km/h আৰু সোঁতৰ গতি 6 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 14 + 6 = 20 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 14 + 6 = 20 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-010",
+   "q": {
+    "en": "The speed of a boat in still water is 14 km/h and the speed of the stream is 6 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 14 km/h আৰু সোঁতৰ গতি 6 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 14 - 6 = 8 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 14 - 6 = 8 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-011",
+   "q": {
+    "en": "The speed of a boat in still water is 20 km/h and the speed of the stream is 5 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 20 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "15 km/h",
+     "as": "১৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "25 km/h",
+     "as": "২৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 20 + 5 = 25 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 20 + 5 = 25 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-012",
+   "q": {
+    "en": "The speed of a boat in still water is 20 km/h and the speed of the stream is 5 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 20 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "25 km/h",
+     "as": "২৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "15 km/h",
+     "as": "১৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 20 - 5 = 15 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 20 - 5 = 15 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-013",
+   "q": {
+    "en": "The speed of a boat in still water is 18 km/h and the speed of the stream is 6 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 18 km/h আৰু সোঁতৰ গতি 6 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 18 + 6 = 24 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 18 + 6 = 24 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-014",
+   "q": {
+    "en": "The speed of a boat in still water is 18 km/h and the speed of the stream is 6 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 18 km/h আৰু সোঁতৰ গতি 6 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 18 - 6 = 12 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 18 - 6 = 12 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-015",
+   "q": {
+    "en": "The speed of a boat in still water is 9 km/h and the speed of the stream is 3 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 9 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "9 km/h",
+     "as": "৯ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 9 + 3 = 12 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 9 + 3 = 12 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-016",
+   "q": {
+    "en": "The speed of a boat in still water is 9 km/h and the speed of the stream is 3 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 9 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "9 km/h",
+     "as": "৯ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 9 - 3 = 6 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 9 - 3 = 6 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-017",
+   "q": {
+    "en": "The speed of a boat in still water is 16 km/h and the speed of the stream is 4 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 16 km/h আৰু সোঁতৰ গতি 4 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 16 + 4 = 20 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 16 + 4 = 20 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-018",
+   "q": {
+    "en": "The speed of a boat in still water is 16 km/h and the speed of the stream is 4 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 16 km/h আৰু সোঁতৰ গতি 4 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 16 - 4 = 12 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 16 - 4 = 12 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-019",
+   "q": {
+    "en": "The speed of a boat in still water is 24 km/h and the speed of the stream is 6 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 24 km/h আৰু সোঁতৰ গতি 6 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 24 + 6 = 30 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 24 + 6 = 30 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-020",
+   "q": {
+    "en": "The speed of a boat in still water is 24 km/h and the speed of the stream is 6 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 24 km/h আৰু সোঁতৰ গতি 6 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 24 - 6 = 18 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 24 - 6 = 18 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-021",
+   "q": {
+    "en": "The speed of a boat in still water is 25 km/h and the speed of the stream is 5 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 25 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "25 km/h",
+     "as": "২৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 25 + 5 = 30 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 25 + 5 = 30 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-022",
+   "q": {
+    "en": "The speed of a boat in still water is 25 km/h and the speed of the stream is 5 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 25 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "25 km/h",
+     "as": "২৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 25 - 5 = 20 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 25 - 5 = 20 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-023",
+   "q": {
+    "en": "The speed of a boat in still water is 30 km/h and the speed of the stream is 10 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 30 km/h আৰু সোঁতৰ গতি 10 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "40 km/h",
+     "as": "৪০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 30 + 10 = 40 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 30 + 10 = 40 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-024",
+   "q": {
+    "en": "The speed of a boat in still water is 30 km/h and the speed of the stream is 10 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 30 km/h আৰু সোঁতৰ গতি 10 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "40 km/h",
+     "as": "৪০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 30 - 10 = 20 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 30 - 10 = 20 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-025",
+   "q": {
+    "en": "The speed of a boat in still water is 7 km/h and the speed of the stream is 3 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 7 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "7 km/h",
+     "as": "৭ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 7 + 3 = 10 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 7 + 3 = 10 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-026",
+   "q": {
+    "en": "The speed of a boat in still water is 7 km/h and the speed of the stream is 3 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 7 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "7 km/h",
+     "as": "৭ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 7 - 3 = 4 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 7 - 3 = 4 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-027",
+   "q": {
+    "en": "The speed of a boat in still water is 21 km/h and the speed of the stream is 7 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 21 km/h আৰু সোঁতৰ গতি 7 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "21 km/h",
+     "as": "২১ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "28 km/h",
+     "as": "২৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "7 km/h",
+     "as": "৭ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 21 + 7 = 28 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 21 + 7 = 28 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-028",
+   "q": {
+    "en": "The speed of a boat in still water is 21 km/h and the speed of the stream is 7 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 21 km/h আৰু সোঁতৰ গতি 7 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "28 km/h",
+     "as": "২৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "21 km/h",
+     "as": "২১ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "7 km/h",
+     "as": "৭ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 21 - 7 = 14 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 21 - 7 = 14 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-029",
+   "q": {
+    "en": "The speed of a boat in still water is 36 km/h and the speed of the stream is 12 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 36 km/h আৰু সোঁতৰ গতি 12 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "48 km/h",
+     "as": "৪৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "36 km/h",
+     "as": "৩৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 36 + 12 = 48 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 36 + 12 = 48 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-030",
+   "q": {
+    "en": "The speed of a boat in still water is 36 km/h and the speed of the stream is 12 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 36 km/h আৰু সোঁতৰ গতি 12 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "48 km/h",
+     "as": "৪৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "36 km/h",
+     "as": "৩৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 36 - 12 = 24 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 36 - 12 = 24 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-031",
+   "q": {
+    "en": "The speed of a boat in still water is 11 km/h and the speed of the stream is 5 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 11 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "11 km/h",
+     "as": "১১ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 11 + 5 = 16 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 11 + 5 = 16 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-032",
+   "q": {
+    "en": "The speed of a boat in still water is 11 km/h and the speed of the stream is 5 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 11 km/h আৰু সোঁতৰ গতি 5 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "11 km/h",
+     "as": "১১ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 11 - 5 = 6 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 11 - 5 = 6 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-033",
+   "q": {
+    "en": "The speed of a boat in still water is 13 km/h and the speed of the stream is 3 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 13 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "13 km/h",
+     "as": "১৩ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 13 + 3 = 16 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 13 + 3 = 16 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-034",
+   "q": {
+    "en": "The speed of a boat in still water is 13 km/h and the speed of the stream is 3 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 13 km/h আৰু সোঁতৰ গতি 3 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "13 km/h",
+     "as": "১৩ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 13 - 3 = 10 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 13 - 3 = 10 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-035",
+   "q": {
+    "en": "The speed of a boat in still water is 22 km/h and the speed of the stream is 8 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 22 km/h আৰু সোঁতৰ গতি 8 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "22 km/h",
+     "as": "২২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 22 + 8 = 30 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 22 + 8 = 30 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-036",
+   "q": {
+    "en": "The speed of a boat in still water is 22 km/h and the speed of the stream is 8 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 22 km/h আৰু সোঁতৰ গতি 8 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "22 km/h",
+     "as": "২২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 22 - 8 = 14 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 22 - 8 = 14 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-037",
+   "q": {
+    "en": "The speed of a boat in still water is 40 km/h and the speed of the stream is 10 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 40 km/h আৰু সোঁতৰ গতি 10 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "50 km/h",
+     "as": "৫০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "40 km/h",
+     "as": "৪০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 40 + 10 = 50 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 40 + 10 = 50 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-038",
+   "q": {
+    "en": "The speed of a boat in still water is 40 km/h and the speed of the stream is 10 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 40 km/h আৰু সোঁতৰ গতি 10 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "50 km/h",
+     "as": "৫০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "40 km/h",
+     "as": "৪০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 40 - 10 = 30 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 40 - 10 = 30 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-039",
+   "q": {
+    "en": "The speed of a boat in still water is 28 km/h and the speed of the stream is 4 km/h. The downstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 28 km/h আৰু সোঁতৰ গতি 4 km/h। সোঁতৰ দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "28 km/h",
+     "as": "২৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "32 km/h",
+     "as": "৩২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream speed = boat speed + stream speed = 28 + 4 = 32 km/h.",
+    "as": "সোঁতৰ দিশত গতি = নাৱৰ গতি + সোঁতৰ গতি = 28 + 4 = 32 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-040",
+   "q": {
+    "en": "The speed of a boat in still water is 28 km/h and the speed of the stream is 4 km/h. The upstream speed is —",
+    "as": "স্থিৰ পানীত নাৱৰ গতি 28 km/h আৰু সোঁতৰ গতি 4 km/h। সোঁতৰ বিপৰীত দিশত গতি —"
+   },
+   "options": [
+    {
+     "en": "32 km/h",
+     "as": "৩২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "28 km/h",
+     "as": "২৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upstream speed = boat speed - stream speed = 28 - 4 = 24 km/h.",
+    "as": "সোঁতৰ বিপৰীত গতি = নাৱৰ গতি - সোঁতৰ গতি = 28 - 4 = 24 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-041",
+   "q": {
+    "en": "A boat goes 16 km/h downstream and 8 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 16 km/h আৰু বিপৰীত দিশত 8 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (16 - 8) / 2 = 4 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (16 - 8) / 2 = 4 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-042",
+   "q": {
+    "en": "A boat goes 16 km/h downstream and 8 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 16 km/h আৰু বিপৰীত দিশত 8 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (16 + 8) / 2 = 12 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (16 + 8) / 2 = 12 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-043",
+   "q": {
+    "en": "A boat goes 20 km/h downstream and 12 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 20 km/h আৰু বিপৰীত দিশত 12 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (20 - 12) / 2 = 4 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (20 - 12) / 2 = 4 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-044",
+   "q": {
+    "en": "A boat goes 20 km/h downstream and 12 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 20 km/h আৰু বিপৰীত দিশত 12 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (20 + 12) / 2 = 16 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (20 + 12) / 2 = 16 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-045",
+   "q": {
+    "en": "A boat goes 18 km/h downstream and 10 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 18 km/h আৰু বিপৰীত দিশত 10 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (18 - 10) / 2 = 4 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (18 - 10) / 2 = 4 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-046",
+   "q": {
+    "en": "A boat goes 18 km/h downstream and 10 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 18 km/h আৰু বিপৰীত দিশত 10 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "10 km/h",
+     "as": "১০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (18 + 10) / 2 = 14 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (18 + 10) / 2 = 14 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-047",
+   "q": {
+    "en": "A boat goes 24 km/h downstream and 16 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 24 km/h আৰু বিপৰীত দিশত 16 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (24 - 16) / 2 = 4 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (24 - 16) / 2 = 4 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-048",
+   "q": {
+    "en": "A boat goes 24 km/h downstream and 16 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 24 km/h আৰু বিপৰীত দিশত 16 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (24 + 16) / 2 = 20 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (24 + 16) / 2 = 20 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-049",
+   "q": {
+    "en": "A boat goes 15 km/h downstream and 9 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 15 km/h আৰু বিপৰীত দিশত 9 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "15 km/h",
+     "as": "১৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "9 km/h",
+     "as": "৯ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (15 - 9) / 2 = 3 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (15 - 9) / 2 = 3 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-050",
+   "q": {
+    "en": "A boat goes 15 km/h downstream and 9 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 15 km/h আৰু বিপৰীত দিশত 9 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "3 km/h",
+     "as": "৩ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "15 km/h",
+     "as": "১৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "9 km/h",
+     "as": "৯ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (15 + 9) / 2 = 12 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (15 + 9) / 2 = 12 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-051",
+   "q": {
+    "en": "A boat goes 30 km/h downstream and 20 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 30 km/h আৰু বিপৰীত দিশত 20 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "25 km/h",
+     "as": "২৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (30 - 20) / 2 = 5 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (30 - 20) / 2 = 5 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-052",
+   "q": {
+    "en": "A boat goes 30 km/h downstream and 20 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 30 km/h আৰু বিপৰীত দিশত 20 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "25 km/h",
+     "as": "২৫ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (30 + 20) / 2 = 25 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (30 + 20) / 2 = 25 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-053",
+   "q": {
+    "en": "A boat goes 28 km/h downstream and 12 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 28 km/h আৰু বিপৰীত দিশত 12 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "28 km/h",
+     "as": "২৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (28 - 12) / 2 = 8 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (28 - 12) / 2 = 8 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-054",
+   "q": {
+    "en": "A boat goes 28 km/h downstream and 12 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 28 km/h আৰু বিপৰীত দিশত 12 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "8 km/h",
+     "as": "৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "28 km/h",
+     "as": "২৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "12 km/h",
+     "as": "১২ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (28 + 12) / 2 = 20 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (28 + 12) / 2 = 20 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-055",
+   "q": {
+    "en": "A boat goes 22 km/h downstream and 14 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 22 km/h আৰু বিপৰীত দিশত 14 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "22 km/h",
+     "as": "২২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (22 - 14) / 2 = 4 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (22 - 14) / 2 = 4 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-056",
+   "q": {
+    "en": "A boat goes 22 km/h downstream and 14 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 22 km/h আৰু বিপৰীত দিশত 14 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "4 km/h",
+     "as": "৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "22 km/h",
+     "as": "২২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "14 km/h",
+     "as": "১৪ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "18 km/h",
+     "as": "১৮ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (22 + 14) / 2 = 18 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (22 + 14) / 2 = 18 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-057",
+   "q": {
+    "en": "A boat goes 36 km/h downstream and 24 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 36 km/h আৰু বিপৰীত দিশত 24 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "36 km/h",
+     "as": "৩৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (36 - 24) / 2 = 6 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (36 - 24) / 2 = 6 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-058",
+   "q": {
+    "en": "A boat goes 36 km/h downstream and 24 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 36 km/h আৰু বিপৰীত দিশত 24 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "36 km/h",
+     "as": "৩৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "24 km/h",
+     "as": "২৪ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (36 + 24) / 2 = 30 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (36 + 24) / 2 = 30 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-059",
+   "q": {
+    "en": "A boat goes 26 km/h downstream and 16 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 26 km/h আৰু বিপৰীত দিশত 16 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "21 km/h",
+     "as": "২১ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "26 km/h",
+     "as": "২৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (26 - 16) / 2 = 5 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (26 - 16) / 2 = 5 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-060",
+   "q": {
+    "en": "A boat goes 26 km/h downstream and 16 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 26 km/h আৰু বিপৰীত দিশত 16 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "26 km/h",
+     "as": "২৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "16 km/h",
+     "as": "১৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "21 km/h",
+     "as": "২১ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (26 + 16) / 2 = 21 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (26 + 16) / 2 = 21 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-061",
+   "q": {
+    "en": "A boat goes 40 km/h downstream and 30 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 40 km/h আৰু বিপৰীত দিশত 30 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "35 km/h",
+     "as": "৩৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "40 km/h",
+     "as": "৪০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (40 - 30) / 2 = 5 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (40 - 30) / 2 = 5 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-062",
+   "q": {
+    "en": "A boat goes 40 km/h downstream and 30 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 40 km/h আৰু বিপৰীত দিশত 30 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "5 km/h",
+     "as": "৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "35 km/h",
+     "as": "৩৫ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "40 km/h",
+     "as": "৪০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "30 km/h",
+     "as": "৩০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (40 + 30) / 2 = 35 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (40 + 30) / 2 = 35 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-063",
+   "q": {
+    "en": "A boat goes 32 km/h downstream and 20 km/h upstream. The speed of the stream is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 32 km/h আৰু বিপৰীত দিশত 20 km/h যায়। সোঁতৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "26 km/h",
+     "as": "২৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "32 km/h",
+     "as": "৩২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Stream speed = (downstream - upstream) / 2 = (32 - 20) / 2 = 6 km/h.",
+    "as": "সোঁতৰ গতি = (সোঁতৰ দিশ - বিপৰীত) / 2 = (32 - 20) / 2 = 6 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-064",
+   "q": {
+    "en": "A boat goes 32 km/h downstream and 20 km/h upstream. The speed of the boat in still water is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 32 km/h আৰু বিপৰীত দিশত 20 km/h যায়। স্থিৰ পানীত নাৱৰ গতি —"
+   },
+   "options": [
+    {
+     "en": "6 km/h",
+     "as": "৬ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "32 km/h",
+     "as": "৩২ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "20 km/h",
+     "as": "২০ কিমি/ঘণ্টা"
+    },
+    {
+     "en": "26 km/h",
+     "as": "২৬ কিমি/ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Boat speed = (downstream + upstream) / 2 = (32 + 20) / 2 = 26 km/h.",
+    "as": "নাৱৰ গতি = (সোঁতৰ দিশ + বিপৰীত) / 2 = (32 + 20) / 2 = 26 km/h।"
+   }
+  },
+  {
+   "id": "boats-and-streams-065",
+   "q": {
+    "en": "A boat covers 24 km downstream and 24 km upstream. Its downstream speed is 12 km/h and upstream speed is 4 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 24 km আৰু বিপৰীত দিশত 24 km যায়। সোঁতৰ দিশত গতি 12 km/h আৰু বিপৰীত গতি 4 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Time downstream = 24 / 12 = 2 h and upstream = 24 / 4 = 6 h, so the total is 8 hours.",
+    "as": "সোঁতৰ দিশত সময় = 24 / 12 = 2 ঘণ্টা আৰু বিপৰীত = 24 / 4 = 6 ঘণ্টা, মুঠ 8 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-066",
+   "q": {
+    "en": "A boat covers 30 km downstream and 30 km upstream. Its downstream speed is 15 km/h and upstream speed is 5 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 30 km আৰু বিপৰীত দিশত 30 km যায়। সোঁতৰ দিশত গতি 15 km/h আৰু বিপৰীত গতি 5 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Time downstream = 30 / 15 = 2 h and upstream = 30 / 5 = 6 h, so the total is 8 hours.",
+    "as": "সোঁতৰ দিশত সময় = 30 / 15 = 2 ঘণ্টা আৰু বিপৰীত = 30 / 5 = 6 ঘণ্টা, মুঠ 8 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-067",
+   "q": {
+    "en": "A boat covers 36 km downstream and 36 km upstream. Its downstream speed is 18 km/h and upstream speed is 6 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 36 km আৰু বিপৰীত দিশত 36 km যায়। সোঁতৰ দিশত গতি 18 km/h আৰু বিপৰীত গতি 6 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Time downstream = 36 / 18 = 2 h and upstream = 36 / 6 = 6 h, so the total is 8 hours.",
+    "as": "সোঁতৰ দিশত সময় = 36 / 18 = 2 ঘণ্টা আৰু বিপৰীত = 36 / 6 = 6 ঘণ্টা, মুঠ 8 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-068",
+   "q": {
+    "en": "A boat covers 48 km downstream and 48 km upstream. Its downstream speed is 24 km/h and upstream speed is 8 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 48 km আৰু বিপৰীত দিশত 48 km যায়। সোঁতৰ দিশত গতি 24 km/h আৰু বিপৰীত গতি 8 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Time downstream = 48 / 24 = 2 h and upstream = 48 / 8 = 6 h, so the total is 8 hours.",
+    "as": "সোঁতৰ দিশত সময় = 48 / 24 = 2 ঘণ্টা আৰু বিপৰীত = 48 / 8 = 6 ঘণ্টা, মুঠ 8 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-069",
+   "q": {
+    "en": "A boat covers 40 km downstream and 40 km upstream. Its downstream speed is 20 km/h and upstream speed is 4 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 40 km আৰু বিপৰীত দিশত 40 km যায়। সোঁতৰ দিশত গতি 20 km/h আৰু বিপৰীত গতি 4 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "12 hours",
+     "as": "১২ ঘণ্টা"
+    },
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    },
+    {
+     "en": "13 hours",
+     "as": "১৩ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Time downstream = 40 / 20 = 2 h and upstream = 40 / 4 = 10 h, so the total is 12 hours.",
+    "as": "সোঁতৰ দিশত সময় = 40 / 20 = 2 ঘণ্টা আৰু বিপৰীত = 40 / 4 = 10 ঘণ্টা, মুঠ 12 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-070",
+   "q": {
+    "en": "A boat covers 60 km downstream and 60 km upstream. Its downstream speed is 30 km/h and upstream speed is 10 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 60 km আৰু বিপৰীত দিশত 60 km যায়। সোঁতৰ দিশত গতি 30 km/h আৰু বিপৰীত গতি 10 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Time downstream = 60 / 30 = 2 h and upstream = 60 / 10 = 6 h, so the total is 8 hours.",
+    "as": "সোঁতৰ দিশত সময় = 60 / 30 = 2 ঘণ্টা আৰু বিপৰীত = 60 / 10 = 6 ঘণ্টা, মুঠ 8 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-071",
+   "q": {
+    "en": "A boat covers 24 km downstream and 24 km upstream. Its downstream speed is 12 km/h and upstream speed is 8 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 24 km আৰু বিপৰীত দিশত 24 km যায়। সোঁতৰ দিশত গতি 12 km/h আৰু বিপৰীত গতি 8 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "3 hours",
+     "as": "৩ ঘণ্টা"
+    },
+    {
+     "en": "5 hours",
+     "as": "৫ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Time downstream = 24 / 12 = 2 h and upstream = 24 / 8 = 3 h, so the total is 5 hours.",
+    "as": "সোঁতৰ দিশত সময় = 24 / 12 = 2 ঘণ্টা আৰু বিপৰীত = 24 / 8 = 3 ঘণ্টা, মুঠ 5 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-072",
+   "q": {
+    "en": "A boat covers 45 km downstream and 45 km upstream. Its downstream speed is 20 km/h and upstream speed is 10 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 45 km আৰু বিপৰীত দিশত 45 km যায়। সোঁতৰ দিশত গতি 20 km/h আৰু বিপৰীত গতি 10 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "4 hours",
+     "as": "৪ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Time downstream = 45 / 20 = 2 h and upstream = 45 / 10 = 4 h, so the total is 6 hours.",
+    "as": "সোঁতৰ দিশত সময় = 45 / 20 = 2 ঘণ্টা আৰু বিপৰীত = 45 / 10 = 4 ঘণ্টা, মুঠ 6 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-073",
+   "q": {
+    "en": "A boat covers 56 km downstream and 56 km upstream. Its downstream speed is 24 km/h and upstream speed is 8 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 56 km আৰু বিপৰীত দিশত 56 km যায়। সোঁতৰ দিশত গতি 24 km/h আৰু বিপৰীত গতি 8 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    },
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "7 hours",
+     "as": "৭ ঘণ্টা"
+    },
+    {
+     "en": "10 hours",
+     "as": "১০ ঘণ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Time downstream = 56 / 24 = 2 h and upstream = 56 / 8 = 7 h, so the total is 9 hours.",
+    "as": "সোঁতৰ দিশত সময় = 56 / 24 = 2 ঘণ্টা আৰু বিপৰীত = 56 / 8 = 7 ঘণ্টা, মুঠ 9 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-074",
+   "q": {
+    "en": "A boat covers 72 km downstream and 72 km upstream. Its downstream speed is 36 km/h and upstream speed is 12 km/h. The total time taken is —",
+    "as": "এখন নাৱে সোঁতৰ দিশত 72 km আৰু বিপৰীত দিশত 72 km যায়। সোঁতৰ দিশত গতি 36 km/h আৰু বিপৰীত গতি 12 km/h। মুঠ সময় —"
+   },
+   "options": [
+    {
+     "en": "2 hours",
+     "as": "২ ঘণ্টা"
+    },
+    {
+     "en": "8 hours",
+     "as": "৮ ঘণ্টা"
+    },
+    {
+     "en": "6 hours",
+     "as": "৬ ঘণ্টা"
+    },
+    {
+     "en": "9 hours",
+     "as": "৯ ঘণ্টা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Time downstream = 72 / 36 = 2 h and upstream = 72 / 12 = 6 h, so the total is 8 hours.",
+    "as": "সোঁতৰ দিশত সময় = 72 / 36 = 2 ঘণ্টা আৰু বিপৰীত = 72 / 12 = 6 ঘণ্টা, মুঠ 8 ঘণ্টা।"
+   }
+  },
+  {
+   "id": "boats-and-streams-075",
+   "q": {
+    "en": "The ratio of the downstream speed to the upstream speed of a boat is — (boat 10 km/h, stream 2 km/h)",
+    "as": "নাৱৰ সোঁতৰ দিশৰ গতিৰ সৈতে বিপৰীত দিশৰ গতিৰ অনুপাত — (নাৱ 10 km/h, সোঁত 2 km/h)"
+   },
+   "options": [
+    {
+     "en": "8 : 12",
+     "as": "৮ : ১২"
+    },
+    {
+     "en": "10 : 2",
+     "as": "১০ : ২"
+    },
+    {
+     "en": "3 : 2",
+     "as": "৩ : ২"
+    },
+    {
+     "en": "2 : 10",
+     "as": "২ : ১০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream : upstream = (boat + stream) : (boat - stream) = 12 : 8, which reduces to 3 : 2.",
+    "as": "সোঁতৰ দিশ : বিপৰীত = (নাৱ + সোঁত) : (নাৱ - সোঁত) = 12 : 8, যি 3 : 2 লৈ হ্ৰাস পায়।"
+   }
+  },
+  {
+   "id": "boats-and-streams-076",
+   "q": {
+    "en": "The ratio of the downstream speed to the upstream speed of a boat is — (boat 12 km/h, stream 4 km/h)",
+    "as": "নাৱৰ সোঁতৰ দিশৰ গতিৰ সৈতে বিপৰীত দিশৰ গতিৰ অনুপাত — (নাৱ 12 km/h, সোঁত 4 km/h)"
+   },
+   "options": [
+    {
+     "en": "8 : 16",
+     "as": "৮ : ১৬"
+    },
+    {
+     "en": "12 : 4",
+     "as": "১২ : ৪"
+    },
+    {
+     "en": "4 : 12",
+     "as": "৪ : ১২"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Downstream : upstream = (boat + stream) : (boat - stream) = 16 : 8, which reduces to 2 : 1.",
+    "as": "সোঁতৰ দিশ : বিপৰীত = (নাৱ + সোঁত) : (নাৱ - সোঁত) = 16 : 8, যি 2 : 1 লৈ হ্ৰাস পায়।"
+   }
+  },
+  {
+   "id": "boats-and-streams-077",
+   "q": {
+    "en": "The ratio of the downstream speed to the upstream speed of a boat is — (boat 15 km/h, stream 5 km/h)",
+    "as": "নাৱৰ সোঁতৰ দিশৰ গতিৰ সৈতে বিপৰীত দিশৰ গতিৰ অনুপাত — (নাৱ 15 km/h, সোঁত 5 km/h)"
+   },
+   "options": [
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "10 : 20",
+     "as": "১০ : ২০"
+    },
+    {
+     "en": "15 : 5",
+     "as": "১৫ : ৫"
+    },
+    {
+     "en": "5 : 15",
+     "as": "৫ : ১৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Downstream : upstream = (boat + stream) : (boat - stream) = 20 : 10, which reduces to 2 : 1.",
+    "as": "সোঁতৰ দিশ : বিপৰীত = (নাৱ + সোঁত) : (নাৱ - সোঁত) = 20 : 10, যি 2 : 1 লৈ হ্ৰাস পায়।"
+   }
+  },
+  {
+   "id": "boats-and-streams-078",
+   "q": {
+    "en": "The ratio of the downstream speed to the upstream speed of a boat is — (boat 8 km/h, stream 2 km/h)",
+    "as": "নাৱৰ সোঁতৰ দিশৰ গতিৰ সৈতে বিপৰীত দিশৰ গতিৰ অনুপাত — (নাৱ 8 km/h, সোঁত 2 km/h)"
+   },
+   "options": [
+    {
+     "en": "6 : 10",
+     "as": "৬ : ১০"
+    },
+    {
+     "en": "5 : 3",
+     "as": "৫ : ৩"
+    },
+    {
+     "en": "8 : 2",
+     "as": "৮ : ২"
+    },
+    {
+     "en": "2 : 8",
+     "as": "২ : ৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Downstream : upstream = (boat + stream) : (boat - stream) = 10 : 6, which reduces to 5 : 3.",
+    "as": "সোঁতৰ দিশ : বিপৰীত = (নাৱ + সোঁত) : (নাৱ - সোঁত) = 10 : 6, যি 5 : 3 লৈ হ্ৰাস পায়।"
+   }
+  },
+  {
+   "id": "boats-and-streams-079",
+   "q": {
+    "en": "The ratio of the downstream speed to the upstream speed of a boat is — (boat 14 km/h, stream 4 km/h)",
+    "as": "নাৱৰ সোঁতৰ দিশৰ গতিৰ সৈতে বিপৰীত দিশৰ গতিৰ অনুপাত — (নাৱ 14 km/h, সোঁত 4 km/h)"
+   },
+   "options": [
+    {
+     "en": "10 : 18",
+     "as": "১০ : ১৮"
+    },
+    {
+     "en": "14 : 4",
+     "as": "১৪ : ৪"
+    },
+    {
+     "en": "9 : 5",
+     "as": "৯ : ৫"
+    },
+    {
+     "en": "4 : 14",
+     "as": "৪ : ১৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Downstream : upstream = (boat + stream) : (boat - stream) = 18 : 10, which reduces to 9 : 5.",
+    "as": "সোঁতৰ দিশ : বিপৰীত = (নাৱ + সোঁত) : (নাৱ - সোঁত) = 18 : 10, যি 9 : 5 লৈ হ্ৰাস পায়।"
+   }
+  },
+  {
+   "id": "boats-and-streams-080",
+   "q": {
+    "en": "The ratio of the downstream speed to the upstream speed of a boat is — (boat 20 km/h, stream 4 km/h)",
+    "as": "নাৱৰ সোঁতৰ দিশৰ গতিৰ সৈতে বিপৰীত দিশৰ গতিৰ অনুপাত — (নাৱ 20 km/h, সোঁত 4 km/h)"
+   },
+   "options": [
+    {
+     "en": "16 : 24",
+     "as": "১৬ : ২৪"
+    },
+    {
+     "en": "20 : 4",
+     "as": "২০ : ৪"
+    },
+    {
+     "en": "4 : 20",
+     "as": "৪ : ২০"
+    },
+    {
+     "en": "3 : 2",
+     "as": "৩ : ২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Downstream : upstream = (boat + stream) : (boat - stream) = 24 : 16, which reduces to 3 : 2.",
+    "as": "সোঁতৰ দিশ : বিপৰীত = (নাৱ + সোঁত) : (নাৱ - সোঁত) = 24 : 16, যি 3 : 2 লৈ হ্ৰাস পায়।"
+   }
+  },
+  {
+   "id": "boats-and-streams-081",
+   "q": {
+    "en": "The speed of a boat in still water is ?",
+    "as": "স্থিৰ পানীত নাৱৰ গতি হ'ল ?"
+   },
+   "options": [
+    {
+     "en": "(downstream speed + upstream speed) / 2",
+     "as": "(downstream speed + upstream speed) / 2"
+    },
+    {
+     "en": "(downstream - upstream) / 2",
+     "as": "(downstream - upstream) / 2"
+    },
+    {
+     "en": "downstream + upstream",
+     "as": "downstream + upstream"
+    },
+    {
+     "en": "downstream x upstream",
+     "as": "downstream x upstream"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Adding the two speeds cancels the stream, so half the sum is the boat's own speed.",
+    "as": "দুয়োটা গতি যোগ কৰিলে সোঁত বাতিল হয়, গতিকে যোগফলৰ আধা নাৱৰ নিজৰ গতি।"
+   }
+  },
+  {
+   "id": "boats-and-streams-082",
+   "q": {
+    "en": "The speed of the stream is ?",
+    "as": "সোঁতৰ গতি হ'ল ?"
+   },
+   "options": [
+    {
+     "en": "(downstream + upstream) / 2",
+     "as": "(downstream + upstream) / 2"
+    },
+    {
+     "en": "(downstream speed - upstream speed) / 2",
+     "as": "(downstream speed - upstream speed) / 2"
+    },
+    {
+     "en": "downstream - upstream",
+     "as": "downstream - upstream"
+    },
+    {
+     "en": "downstream x upstream",
+     "as": "downstream x upstream"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The stream helps downstream and opposes upstream, so half the difference is the stream speed.",
+    "as": "সোঁতে সোঁতৰ দিশত সহায় আৰু বিপৰীতত বাধা দিয়ে, গতিকে পাৰ্থক্যৰ আধা সোঁতৰ গতি।"
+   }
+  },
+  {
+   "id": "boats-and-streams-083",
+   "q": {
+    "en": "If the speed of the boat equals the speed of the stream, then ?",
+    "as": "নাৱৰ গতি সোঁতৰ গতিৰ সমান হ'লে ?"
+   },
+   "options": [
+    {
+     "en": "the boat cannot go downstream",
+     "as": "the boat cannot go downstream"
+    },
+    {
+     "en": "the two speeds add up",
+     "as": "the two speeds add up"
+    },
+    {
+     "en": "the boat cannot go upstream",
+     "as": "the boat cannot go upstream"
+    },
+    {
+     "en": "the boat stands still in still water",
+     "as": "the boat stands still in still water"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Upstream speed becomes zero, so the boat cannot move against the stream.",
+    "as": "বিপৰীত গতি শূন্য হয়, গতিকে নাওৱে সোঁতৰ বিৰুদ্ধে যাব নোৱাৰে।"
+   }
+  }
+ ],
+ "mixture-and-alligation": [
+  {
+   "id": "mixture-and-alligation-001",
+   "q": {
+    "en": "Two varieties of rice at Rs 20/kg and Rs 50/kg are mixed in the ratio 1 : 1. The average price of the mixture is —",
+    "as": "20 টকা/kg আৰু 50 টকা/kg দামৰ দুবিধ চাউল 1 : 1 অনুপাতত মিহলোৱা হয়। মিশ্ৰণৰ গড় দাম —"
+   },
+   "options": [
+    {
+     "en": "Rs 35/kg",
+     "as": "৩৫ টকা/কেজি"
+    },
+    {
+     "en": "Rs 20/kg",
+     "as": "২০ টকা/কেজি"
+    },
+    {
+     "en": "Rs 50/kg",
+     "as": "৫০ টকা/কেজি"
+    },
+    {
+     "en": "Rs 37/kg",
+     "as": "৩৭ টকা/কেজি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean price = (20 x 1 + 50 x 1) / (1 + 1) = 70 / 2 = Rs 35/kg.",
+    "as": "গড় দাম = (20 x 1 + 50 x 1) / (1 + 1) = 70 / 2 = 35 টকা/kg।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-002",
+   "q": {
+    "en": "Two varieties of rice at Rs 60/kg and Rs 80/kg are mixed in the ratio 1 : 3. The average price of the mixture is —",
+    "as": "60 টকা/kg আৰু 80 টকা/kg দামৰ দুবিধ চাউল 1 : 3 অনুপাতত মিহলোৱা হয়। মিশ্ৰণৰ গড় দাম —"
+   },
+   "options": [
+    {
+     "en": "Rs 60/kg",
+     "as": "৬০ টকা/কেজি"
+    },
+    {
+     "en": "Rs 75/kg",
+     "as": "৭৫ টকা/কেজি"
+    },
+    {
+     "en": "Rs 80/kg",
+     "as": "৮০ টকা/কেজি"
+    },
+    {
+     "en": "Rs 70/kg",
+     "as": "৭০ টকা/কেজি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean price = (60 x 1 + 80 x 3) / (1 + 3) = 300 / 4 = Rs 75/kg.",
+    "as": "গড় দাম = (60 x 1 + 80 x 3) / (1 + 3) = 300 / 4 = 75 টকা/kg।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-003",
+   "q": {
+    "en": "Two varieties of rice at Rs 25/kg and Rs 45/kg are mixed in the ratio 2 : 3. The average price of the mixture is —",
+    "as": "25 টকা/kg আৰু 45 টকা/kg দামৰ দুবিধ চাউল 2 : 3 অনুপাতত মিহলোৱা হয়। মিশ্ৰণৰ গড় দাম —"
+   },
+   "options": [
+    {
+     "en": "Rs 25/kg",
+     "as": "২৫ টকা/কেজি"
+    },
+    {
+     "en": "Rs 45/kg",
+     "as": "৪৫ টকা/কেজি"
+    },
+    {
+     "en": "Rs 37/kg",
+     "as": "৩৭ টকা/কেজি"
+    },
+    {
+     "en": "Rs 35/kg",
+     "as": "৩৫ টকা/কেজি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean price = (25 x 2 + 45 x 3) / (2 + 3) = 185 / 5 = Rs 37/kg.",
+    "as": "গড় দাম = (25 x 2 + 45 x 3) / (2 + 3) = 185 / 5 = 37 টকা/kg।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-004",
+   "q": {
+    "en": "Two varieties of rice at Rs 15/kg and Rs 35/kg are mixed in the ratio 3 : 2. The average price of the mixture is —",
+    "as": "15 টকা/kg আৰু 35 টকা/kg দামৰ দুবিধ চাউল 3 : 2 অনুপাতত মিহলোৱা হয়। মিশ্ৰণৰ গড় দাম —"
+   },
+   "options": [
+    {
+     "en": "Rs 15/kg",
+     "as": "১৫ টকা/কেজি"
+    },
+    {
+     "en": "Rs 35/kg",
+     "as": "৩৫ টকা/কেজি"
+    },
+    {
+     "en": "Rs 25/kg",
+     "as": "২৫ টকা/কেজি"
+    },
+    {
+     "en": "Rs 23/kg",
+     "as": "২৩ টকা/কেজি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean price = (15 x 3 + 35 x 2) / (3 + 2) = 115 / 5 = Rs 23/kg.",
+    "as": "গড় দাম = (15 x 3 + 35 x 2) / (3 + 2) = 115 / 5 = 23 টকা/kg।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-005",
+   "q": {
+    "en": "Two varieties of rice at Rs 36/kg and Rs 48/kg are mixed in the ratio 1 : 2. The average price of the mixture is —",
+    "as": "36 টকা/kg আৰু 48 টকা/kg দামৰ দুবিধ চাউল 1 : 2 অনুপাতত মিহলোৱা হয়। মিশ্ৰণৰ গড় দাম —"
+   },
+   "options": [
+    {
+     "en": "Rs 44/kg",
+     "as": "৪৪ টকা/কেজি"
+    },
+    {
+     "en": "Rs 36/kg",
+     "as": "৩৬ টকা/কেজি"
+    },
+    {
+     "en": "Rs 48/kg",
+     "as": "৪৮ টকা/কেজি"
+    },
+    {
+     "en": "Rs 42/kg",
+     "as": "৪২ টকা/কেজি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean price = (36 x 1 + 48 x 2) / (1 + 2) = 132 / 3 = Rs 44/kg.",
+    "as": "গড় দাম = (36 x 1 + 48 x 2) / (1 + 2) = 132 / 3 = 44 টকা/kg।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-006",
+   "q": {
+    "en": "In what ratio must rice at Rs 30/kg be mixed with rice at Rs 45/kg to get a mixture worth Rs 40/kg?",
+    "as": "30 টকা/kg দামৰ চাউল 45 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 40 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "30 : 45",
+     "as": "৩০ : ৪৫"
+    },
+    {
+     "en": "5 : 10",
+     "as": "৫ : ১০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (45 - 40) : (40 - 30) = 1 : 2.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (45 - 40) : (40 - 30) = 1 : 2।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-007",
+   "q": {
+    "en": "In what ratio must rice at Rs 20/kg be mixed with rice at Rs 35/kg to get a mixture worth Rs 25/kg?",
+    "as": "20 টকা/kg দামৰ চাউল 35 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 25 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "20 : 35",
+     "as": "২০ : ৩৫"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "10 : 5",
+     "as": "১০ : ৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (35 - 25) : (25 - 20) = 2 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (35 - 25) : (25 - 20) = 2 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-008",
+   "q": {
+    "en": "In what ratio must rice at Rs 40/kg be mixed with rice at Rs 60/kg to get a mixture worth Rs 45/kg?",
+    "as": "40 টকা/kg দামৰ চাউল 60 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 45 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "1 : 3",
+     "as": "১ : ৩"
+    },
+    {
+     "en": "40 : 60",
+     "as": "৪০ : ৬০"
+    },
+    {
+     "en": "15 : 5",
+     "as": "১৫ : ৫"
+    },
+    {
+     "en": "3 : 1",
+     "as": "৩ : ১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (60 - 45) : (45 - 40) = 3 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (60 - 45) : (45 - 40) = 3 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-009",
+   "q": {
+    "en": "In what ratio must rice at Rs 10/kg be mixed with rice at Rs 20/kg to get a mixture worth Rs 12/kg?",
+    "as": "10 টকা/kg দামৰ চাউল 20 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 12 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "4 : 1",
+     "as": "৪ : ১"
+    },
+    {
+     "en": "1 : 4",
+     "as": "১ : ৪"
+    },
+    {
+     "en": "10 : 20",
+     "as": "১০ : ২০"
+    },
+    {
+     "en": "8 : 2",
+     "as": "৮ : ২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (20 - 12) : (12 - 10) = 4 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (20 - 12) : (12 - 10) = 4 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-010",
+   "q": {
+    "en": "In what ratio must rice at Rs 50/kg be mixed with rice at Rs 75/kg to get a mixture worth Rs 55/kg?",
+    "as": "50 টকা/kg দামৰ চাউল 75 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 55 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "1 : 4",
+     "as": "১ : ৪"
+    },
+    {
+     "en": "4 : 1",
+     "as": "৪ : ১"
+    },
+    {
+     "en": "50 : 75",
+     "as": "৫০ : ৭৫"
+    },
+    {
+     "en": "20 : 5",
+     "as": "২০ : ৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (75 - 55) : (55 - 50) = 4 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (75 - 55) : (55 - 50) = 4 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-011",
+   "q": {
+    "en": "In what ratio must rice at Rs 24/kg be mixed with rice at Rs 40/kg to get a mixture worth Rs 30/kg?",
+    "as": "24 টকা/kg দামৰ চাউল 40 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 30 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "3 : 5",
+     "as": "৩ : ৫"
+    },
+    {
+     "en": "24 : 40",
+     "as": "২৪ : ৪০"
+    },
+    {
+     "en": "5 : 3",
+     "as": "৫ : ৩"
+    },
+    {
+     "en": "10 : 6",
+     "as": "১০ : ৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (40 - 30) : (30 - 24) = 5 : 3.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (40 - 30) : (30 - 24) = 5 : 3।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-012",
+   "q": {
+    "en": "In what ratio must rice at Rs 15/kg be mixed with rice at Rs 30/kg to get a mixture worth Rs 20/kg?",
+    "as": "15 টকা/kg দামৰ চাউল 30 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 20 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "15 : 30",
+     "as": "১৫ : ৩০"
+    },
+    {
+     "en": "10 : 5",
+     "as": "১০ : ৫"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (30 - 20) : (20 - 15) = 2 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (30 - 20) : (20 - 15) = 2 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-013",
+   "q": {
+    "en": "In what ratio must rice at Rs 60/kg be mixed with rice at Rs 90/kg to get a mixture worth Rs 70/kg?",
+    "as": "60 টকা/kg দামৰ চাউল 90 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 70 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "60 : 90",
+     "as": "৬০ : ৯০"
+    },
+    {
+     "en": "20 : 10",
+     "as": "২০ : ১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (90 - 70) : (70 - 60) = 2 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (90 - 70) : (70 - 60) = 2 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-014",
+   "q": {
+    "en": "In what ratio must rice at Rs 25/kg be mixed with rice at Rs 45/kg to get a mixture worth Rs 35/kg?",
+    "as": "25 টকা/kg দামৰ চাউল 45 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 35 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "25 : 45",
+     "as": "২৫ : ৪৫"
+    },
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "10 : 10",
+     "as": "১০ : ১০"
+    },
+    {
+     "en": "35 : 45",
+     "as": "৩৫ : ৪৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (45 - 35) : (35 - 25) = 1 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (45 - 35) : (35 - 25) = 1 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-015",
+   "q": {
+    "en": "In what ratio must rice at Rs 36/kg be mixed with rice at Rs 60/kg to get a mixture worth Rs 40/kg?",
+    "as": "36 টকা/kg দামৰ চাউল 60 টকা/kg দামৰ চাউলৰ সৈতে কিমান অনুপাতত মিহলালে 40 টকা/kg দামৰ মিশ্ৰণ পোৱা যাব?"
+   },
+   "options": [
+    {
+     "en": "1 : 5",
+     "as": "১ : ৫"
+    },
+    {
+     "en": "36 : 60",
+     "as": "৩৬ : ৬০"
+    },
+    {
+     "en": "5 : 1",
+     "as": "৫ : ১"
+    },
+    {
+     "en": "20 : 4",
+     "as": "২০ : ৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "By alligation, the ratio of the cheaper to the dearer = (dear - mean) : (mean - cheap) = (60 - 40) : (40 - 36) = 5 : 1.",
+    "as": "সংযোগ নিয়মেৰে, সস্তাৰ সৈতে দামীৰ অনুপাত = (দামী - গড়) : (গড় - সস্তা) = (60 - 40) : (40 - 36) = 5 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-016",
+   "q": {
+    "en": "40 litres of a mixture contains 25% water. The quantity of water in it is —",
+    "as": "40 লিটাৰ মিশ্ৰণত 25% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    },
+    {
+     "en": "10 litres",
+     "as": "১০ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Water = 25% of 40 litres = (25/100) x 40 = 10 litres.",
+    "as": "পানী = 40 লিটাৰৰ 25% = (25/100) x 40 = 10 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-017",
+   "q": {
+    "en": "60 litres of a mixture contains 50% water. The quantity of water in it is —",
+    "as": "60 লিটাৰ মিশ্ৰণত 50% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "50 litres",
+     "as": "৫০ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    },
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Water = 50% of 60 litres = (50/100) x 60 = 30 litres.",
+    "as": "পানী = 60 লিটাৰৰ 50% = (50/100) x 60 = 30 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-018",
+   "q": {
+    "en": "80 litres of a mixture contains 75% water. The quantity of water in it is —",
+    "as": "80 লিটাৰ মিশ্ৰণত 75% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    },
+    {
+     "en": "75 litres",
+     "as": "৭৫ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Water = 75% of 80 litres = (75/100) x 80 = 60 litres.",
+    "as": "পানী = 80 লিটাৰৰ 75% = (75/100) x 80 = 60 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-019",
+   "q": {
+    "en": "100 litres of a mixture contains 20% water. The quantity of water in it is —",
+    "as": "100 লিটাৰ মিশ্ৰণত 20% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "80 litres",
+     "as": "৮০ লিটাৰ"
+    },
+    {
+     "en": "50 litres",
+     "as": "৫০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Water = 20% of 100 litres = (20/100) x 100 = 20 litres.",
+    "as": "পানী = 100 লিটাৰৰ 20% = (20/100) x 100 = 20 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-020",
+   "q": {
+    "en": "50 litres of a mixture contains 40% water. The quantity of water in it is —",
+    "as": "50 লিটাৰ মিশ্ৰণত 40% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    },
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Water = 40% of 50 litres = (40/100) x 50 = 20 litres.",
+    "as": "পানী = 50 লিটাৰৰ 40% = (40/100) x 50 = 20 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-021",
+   "q": {
+    "en": "120 litres of a mixture contains 25% water. The quantity of water in it is —",
+    "as": "120 লিটাৰ মিশ্ৰণত 25% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "90 litres",
+     "as": "৯০ লিটাৰ"
+    },
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Water = 25% of 120 litres = (25/100) x 120 = 30 litres.",
+    "as": "পানী = 120 লিটাৰৰ 25% = (25/100) x 120 = 30 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-022",
+   "q": {
+    "en": "200 litres of a mixture contains 10% water. The quantity of water in it is —",
+    "as": "200 লিটাৰ মিশ্ৰণত 10% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "180 litres",
+     "as": "১৮০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "100 litres",
+     "as": "১০০ লিটাৰ"
+    },
+    {
+     "en": "10 litres",
+     "as": "১০ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Water = 10% of 200 litres = (10/100) x 200 = 20 litres.",
+    "as": "পানী = 200 লিটাৰৰ 10% = (10/100) x 200 = 20 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-023",
+   "q": {
+    "en": "90 litres of a mixture contains 33% water. The quantity of water in it is —",
+    "as": "90 লিটাৰ মিশ্ৰণত 33% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "61 litres",
+     "as": "৬১ লিটাৰ"
+    },
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "29 litres",
+     "as": "২৯ লিটাৰ"
+    },
+    {
+     "en": "33 litres",
+     "as": "৩৩ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Water = 33% of 90 litres = (33/100) x 90 = 29 litres.",
+    "as": "পানী = 90 লিটাৰৰ 33% = (33/100) x 90 = 29 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-024",
+   "q": {
+    "en": "160 litres of a mixture contains 50% water. The quantity of water in it is —",
+    "as": "160 লিটাৰ মিশ্ৰণত 50% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "50 litres",
+     "as": "৫০ লিটাৰ"
+    },
+    {
+     "en": "85 litres",
+     "as": "৮৫ লিটাৰ"
+    },
+    {
+     "en": "90 litres",
+     "as": "৯০ লিটাৰ"
+    },
+    {
+     "en": "80 litres",
+     "as": "৮০ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Water = 50% of 160 litres = (50/100) x 160 = 80 litres.",
+    "as": "পানী = 160 লিটাৰৰ 50% = (50/100) x 160 = 80 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-025",
+   "q": {
+    "en": "75 litres of a mixture contains 20% water. The quantity of water in it is —",
+    "as": "75 লিটাৰ মিশ্ৰণত 20% পানী আছে। তাত থকা পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "15 litres",
+     "as": "১৫ লিটাৰ"
+    },
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "37 litres",
+     "as": "৩৭ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Water = 20% of 75 litres = (20/100) x 75 = 15 litres.",
+    "as": "পানী = 75 লিটাৰৰ 20% = (20/100) x 75 = 15 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-026",
+   "q": {
+    "en": "60 litres of a mixture contain milk and water in the ratio 2 : 1. The quantity of milk is —",
+    "as": "60 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 2 : 1 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    },
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Milk = 60 x 2/(2 + 1) = 40 litres.",
+    "as": "গাখীৰ = 60 x 2/(2 + 1) = 40 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-027",
+   "q": {
+    "en": "90 litres of a mixture contain milk and water in the ratio 1 : 2. The quantity of milk is —",
+    "as": "90 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 1 : 2 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Milk = 90 x 1/(1 + 2) = 30 litres.",
+    "as": "গাখীৰ = 90 x 1/(1 + 2) = 30 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-028",
+   "q": {
+    "en": "40 litres of a mixture contain milk and water in the ratio 3 : 1. The quantity of milk is —",
+    "as": "40 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 3 : 1 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "10 litres",
+     "as": "১০ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Milk = 40 x 3/(3 + 1) = 30 litres.",
+    "as": "গাখীৰ = 40 x 3/(3 + 1) = 30 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-029",
+   "q": {
+    "en": "100 litres of a mixture contain milk and water in the ratio 1 : 1. The quantity of milk is —",
+    "as": "100 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 1 : 1 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "50 litres",
+     "as": "৫০ লিটাৰ"
+    },
+    {
+     "en": "55 litres",
+     "as": "৫৫ লিটাৰ"
+    },
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "49 litres",
+     "as": "৪৯ লিটাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Milk = 100 x 1/(1 + 1) = 50 litres.",
+    "as": "গাখীৰ = 100 x 1/(1 + 1) = 50 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-030",
+   "q": {
+    "en": "75 litres of a mixture contain milk and water in the ratio 2 : 3. The quantity of milk is —",
+    "as": "75 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 2 : 3 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Milk = 75 x 2/(2 + 3) = 30 litres.",
+    "as": "গাখীৰ = 75 x 2/(2 + 3) = 30 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-031",
+   "q": {
+    "en": "120 litres of a mixture contain milk and water in the ratio 1 : 3. The quantity of milk is —",
+    "as": "120 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 1 : 3 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "90 litres",
+     "as": "৯০ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Milk = 120 x 1/(1 + 3) = 30 litres.",
+    "as": "গাখীৰ = 120 x 1/(1 + 3) = 30 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-032",
+   "q": {
+    "en": "50 litres of a mixture contain milk and water in the ratio 4 : 1. The quantity of milk is —",
+    "as": "50 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 4 : 1 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "10 litres",
+     "as": "১০ লিটাৰ"
+    },
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    },
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Milk = 50 x 4/(4 + 1) = 40 litres.",
+    "as": "গাখীৰ = 50 x 4/(4 + 1) = 40 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-033",
+   "q": {
+    "en": "84 litres of a mixture contain milk and water in the ratio 5 : 2. The quantity of milk is —",
+    "as": "84 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 5 : 2 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "24 litres",
+     "as": "২৪ লিটাৰ"
+    },
+    {
+     "en": "65 litres",
+     "as": "৬৫ লিটাৰ"
+    },
+    {
+     "en": "55 litres",
+     "as": "৫৫ লিটাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Milk = 84 x 5/(5 + 2) = 60 litres.",
+    "as": "গাখীৰ = 84 x 5/(5 + 2) = 60 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-034",
+   "q": {
+    "en": "63 litres of a mixture contain milk and water in the ratio 2 : 5. The quantity of milk is —",
+    "as": "63 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 2 : 5 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "18 litres",
+     "as": "১৮ লিটাৰ"
+    },
+    {
+     "en": "23 litres",
+     "as": "২৩ লিটাৰ"
+    },
+    {
+     "en": "13 litres",
+     "as": "১৩ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Milk = 63 x 2/(2 + 5) = 18 litres.",
+    "as": "গাখীৰ = 63 x 2/(2 + 5) = 18 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-035",
+   "q": {
+    "en": "96 litres of a mixture contain milk and water in the ratio 3 : 5. The quantity of milk is —",
+    "as": "96 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 3 : 5 অনুপাতত আছে। গাখীৰৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "41 litres",
+     "as": "৪১ লিটাৰ"
+    },
+    {
+     "en": "36 litres",
+     "as": "৩৬ লিটাৰ"
+    },
+    {
+     "en": "31 litres",
+     "as": "৩১ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Milk = 96 x 3/(3 + 5) = 36 litres.",
+    "as": "গাখীৰ = 96 x 3/(3 + 5) = 36 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-036",
+   "q": {
+    "en": "The rule of alligation is used to find ?",
+    "as": "সংযোগ (alligation) নিয়ম ব্যৱহাৰ কৰা হয় বিচাৰিবলৈ ?"
+   },
+   "options": [
+    {
+     "en": "the cost of one ingredient",
+     "as": "the cost of one ingredient"
+    },
+    {
+     "en": "the profit of the seller",
+     "as": "the profit of the seller"
+    },
+    {
+     "en": "the weight of the mixture",
+     "as": "the weight of the mixture"
+    },
+    {
+     "en": "the ratio in which two ingredients are mixed",
+     "as": "the ratio in which two ingredients are mixed"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Alligation gives the ratio in which two ingredients of known prices must be mixed for a given mean price.",
+    "as": "সংযোগ নিয়মে জনা দামৰ দুটা উপাদান কেন অনুপাতত মিহলাব লাগে তাক দিয়া গড় দামৰ বাবে কয়।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-037",
+   "q": {
+    "en": "If two mixtures have the same price, the mean price is ?",
+    "as": "দুটা মিশ্ৰণৰ দাম একে হ'লে গড় দাম ?"
+   },
+   "options": [
+    {
+     "en": "equal to that price",
+     "as": "equal to that price"
+    },
+    {
+     "en": "half the price",
+     "as": "half the price"
+    },
+    {
+     "en": "double the price",
+     "as": "double the price"
+    },
+    {
+     "en": "zero",
+     "as": "zero"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "When the two prices are equal the mixture's price is the same as either of them.",
+    "as": "দুটা দাম সমান হ'লে মিশ্ৰণৰ দাম দুয়োটাৰে সমানেই থাকে।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-038",
+   "q": {
+    "en": "A mixture contains milk and water in the ratio 3 : 1. The fraction of milk in it is ?",
+    "as": "এটা মিশ্ৰণত গাখীৰ আৰু পানী 3 : 1 অনুপাতত আছে। তাত গাখীৰৰ ভগ্নাংশ ?"
+   },
+   "options": [
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "1/3",
+     "as": "১/৩"
+    },
+    {
+     "en": "3/1",
+     "as": "৩/১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total parts = 3 + 1 = 4, so the milk fraction is 3/4.",
+    "as": "মুঠ অংশ = 3 + 1 = 4, গতিকে গাখীৰৰ ভগ্নাংশ 3/4।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-039",
+   "q": {
+    "en": "Three varieties at Rs 10, Rs 20 and Rs 30 per kg are mixed in the ratio 1 : 1 : 1. Find the mean price per kg.",
+    "as": "Rs 10, Rs 20 আৰু Rs 30 প্ৰতি কেজিৰ তিনিবিধ 1 : 1 : 1 অনুপাতত মিহলালে প্ৰতি কেজিৰ গড় দাম উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 20",
+     "as": "২০ টকা"
+    },
+    {
+     "en": "Rs 22",
+     "as": "২২ টকা"
+    },
+    {
+     "en": "Rs 18",
+     "as": "১৮ টকা"
+    },
+    {
+     "en": "Rs 24",
+     "as": "২৪ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean = (10 x 1 + 20 x 1 + 30 x 1)/3 = Rs 20.",
+    "as": "গড় = (10 x 1 + 20 x 1 + 30 x 1)/3 = Rs 20।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-040",
+   "q": {
+    "en": "Three varieties at Rs 15, Rs 25 and Rs 35 per kg are mixed in the ratio 2 : 3 : 5. Find the mean price per kg.",
+    "as": "Rs 15, Rs 25 আৰু Rs 35 প্ৰতি কেজিৰ তিনিবিধ 2 : 3 : 5 অনুপাতত মিহলালে প্ৰতি কেজিৰ গড় দাম উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 30",
+     "as": "৩০ টকা"
+    },
+    {
+     "en": "Rs 28",
+     "as": "২৮ টকা"
+    },
+    {
+     "en": "Rs 26",
+     "as": "২৬ টকা"
+    },
+    {
+     "en": "Rs 32",
+     "as": "৩২ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean = (15 x 2 + 25 x 3 + 35 x 5)/10 = Rs 28.",
+    "as": "গড় = (15 x 2 + 25 x 3 + 35 x 5)/10 = Rs 28।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-041",
+   "q": {
+    "en": "Three varieties at Rs 12, Rs 18 and Rs 24 per kg are mixed in the ratio 1 : 2 : 3. Find the mean price per kg.",
+    "as": "Rs 12, Rs 18 আৰু Rs 24 প্ৰতি কেজিৰ তিনিবিধ 1 : 2 : 3 অনুপাতত মিহলালে প্ৰতি কেজিৰ গড় দাম উলিয়াওক।"
+   },
+   "options": [
+    {
+     "en": "Rs 22",
+     "as": "২২ টকা"
+    },
+    {
+     "en": "Rs 18",
+     "as": "১৮ টকা"
+    },
+    {
+     "en": "Rs 20",
+     "as": "২০ টকা"
+    },
+    {
+     "en": "Rs 24",
+     "as": "২৪ টকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean = (12 x 1 + 18 x 2 + 24 x 3)/6 = Rs 20.",
+    "as": "গড় = (12 x 1 + 18 x 2 + 24 x 3)/6 = Rs 20।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-042",
+   "q": {
+    "en": "In what ratio must a commodity at Rs 18/kg be mixed with one at Rs 30/kg so that the mixture is worth Rs 24/kg?",
+    "as": "Rs 18/কেজি সামগ্ৰী Rs 30/কেজিৰ সৈতে কিমান অনুপাতত মিহলালে মিশ্ৰণৰ দাম Rs 24/কেজি হ'ব?"
+   },
+   "options": [
+    {
+     "en": "2 : 2",
+     "as": "২ : ২"
+    },
+    {
+     "en": "6 : 6",
+     "as": "৬ : ৬"
+    },
+    {
+     "en": "3 : 1",
+     "as": "৩ : ১"
+    },
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Alligation: (dear - mean) : (mean - cheap) = 6 : 6 = 1 : 1.",
+    "as": "সংযোগ: (দামী - গড়) : (গড় - সস্তা) = 6 : 6 = 1 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-043",
+   "q": {
+    "en": "In what ratio must a commodity at Rs 24/kg be mixed with one at Rs 36/kg so that the mixture is worth Rs 30/kg?",
+    "as": "Rs 24/কেজি সামগ্ৰী Rs 36/কেজিৰ সৈতে কিমান অনুপাতত মিহলালে মিশ্ৰণৰ দাম Rs 30/কেজি হ'ব?"
+   },
+   "options": [
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "2 : 2",
+     "as": "২ : ২"
+    },
+    {
+     "en": "6 : 6",
+     "as": "৬ : ৬"
+    },
+    {
+     "en": "3 : 1",
+     "as": "৩ : ১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alligation: (dear - mean) : (mean - cheap) = 6 : 6 = 1 : 1.",
+    "as": "সংযোগ: (দামী - গড়) : (গড় - সস্তা) = 6 : 6 = 1 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-044",
+   "q": {
+    "en": "In what ratio must a commodity at Rs 32/kg be mixed with one at Rs 48/kg so that the mixture is worth Rs 40/kg?",
+    "as": "Rs 32/কেজি সামগ্ৰী Rs 48/কেজিৰ সৈতে কিমান অনুপাতত মিহলালে মিশ্ৰণৰ দাম Rs 40/কেজি হ'ব?"
+   },
+   "options": [
+    {
+     "en": "2 : 2",
+     "as": "২ : ২"
+    },
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "8 : 8",
+     "as": "৮ : ৮"
+    },
+    {
+     "en": "3 : 1",
+     "as": "৩ : ১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Alligation: (dear - mean) : (mean - cheap) = 8 : 8 = 1 : 1.",
+    "as": "সংযোগ: (দামী - গড়) : (গড় - সস্তা) = 8 : 8 = 1 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-045",
+   "q": {
+    "en": "In what ratio must a commodity at Rs 45/kg be mixed with one at Rs 60/kg so that the mixture is worth Rs 50/kg?",
+    "as": "Rs 45/কেজি সামগ্ৰী Rs 60/কেজিৰ সৈতে কিমান অনুপাতত মিহলালে মিশ্ৰণৰ দাম Rs 50/কেজি হ'ব?"
+   },
+   "options": [
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    },
+    {
+     "en": "3 : 2",
+     "as": "৩ : ২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Alligation: (dear - mean) : (mean - cheap) = 10 : 5 = 2 : 1.",
+    "as": "সংযোগ: (দামী - গড়) : (গড় - সস্তা) = 10 : 5 = 2 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-046",
+   "q": {
+    "en": "In what ratio must a commodity at Rs 12/kg be mixed with one at Rs 18/kg so that the mixture is worth Rs 14/kg?",
+    "as": "Rs 12/কেজি সামগ্ৰী Rs 18/কেজিৰ সৈতে কিমান অনুপাতত মিহলালে মিশ্ৰণৰ দাম Rs 14/কেজি হ'ব?"
+   },
+   "options": [
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "3 : 2",
+     "as": "৩ : ২"
+    },
+    {
+     "en": "2 : 1",
+     "as": "২ : ১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Alligation: (dear - mean) : (mean - cheap) = 4 : 2 = 2 : 1.",
+    "as": "সংযোগ: (দামী - গড়) : (গড় - সস্তা) = 4 : 2 = 2 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-047",
+   "q": {
+    "en": "In what ratio must a commodity at Rs 28/kg be mixed with one at Rs 42/kg so that the mixture is worth Rs 35/kg?",
+    "as": "Rs 28/কেজি সামগ্ৰী Rs 42/কেজিৰ সৈতে কিমান অনুপাতত মিহলালে মিশ্ৰণৰ দাম Rs 35/কেজি হ'ব?"
+   },
+   "options": [
+    {
+     "en": "1 : 1",
+     "as": "১ : ১"
+    },
+    {
+     "en": "2 : 2",
+     "as": "২ : ২"
+    },
+    {
+     "en": "7 : 7",
+     "as": "৭ : ৭"
+    },
+    {
+     "en": "3 : 1",
+     "as": "৩ : ১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alligation: (dear - mean) : (mean - cheap) = 7 : 7 = 1 : 1.",
+    "as": "সংযোগ: (দামী - গড়) : (গড় - সস্তা) = 7 : 7 = 1 : 1।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-048",
+   "q": {
+    "en": "50 litres of a solution contains 20% acid. How many litres of acid are there?",
+    "as": "50 লিটাৰ দ্ৰৱত 20% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    },
+    {
+     "en": "10 litres",
+     "as": "১০ লিটাৰ"
+    },
+    {
+     "en": "15 litres",
+     "as": "১৫ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Acid = 50 x 20/100 = 10 litres.",
+    "as": "অম্ল = 50 x 20/100 = 10 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-049",
+   "q": {
+    "en": "80 litres of a solution contains 25% acid. How many litres of acid are there?",
+    "as": "80 লিটাৰ দ্ৰৱত 25% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Acid = 80 x 25/100 = 20 litres.",
+    "as": "অম্ল = 80 x 25/100 = 20 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-050",
+   "q": {
+    "en": "120 litres of a solution contains 10% acid. How many litres of acid are there?",
+    "as": "120 লিটাৰ দ্ৰৱত 10% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "108 litres",
+     "as": "১০৮ লিটাৰ"
+    },
+    {
+     "en": "17 litres",
+     "as": "১৭ লিটাৰ"
+    },
+    {
+     "en": "22 litres",
+     "as": "২২ লিটাৰ"
+    },
+    {
+     "en": "12 litres",
+     "as": "১২ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Acid = 120 x 10/100 = 12 litres.",
+    "as": "অম্ল = 120 x 10/100 = 12 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-051",
+   "q": {
+    "en": "150 litres of a solution contains 40% acid. How many litres of acid are there?",
+    "as": "150 লিটাৰ দ্ৰৱত 40% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "90 litres",
+     "as": "৯০ লিটাৰ"
+    },
+    {
+     "en": "65 litres",
+     "as": "৬৫ লিটাৰ"
+    },
+    {
+     "en": "70 litres",
+     "as": "৭০ লিটাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Acid = 150 x 40/100 = 60 litres.",
+    "as": "অম্ল = 150 x 40/100 = 60 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-052",
+   "q": {
+    "en": "200 litres of a solution contains 15% acid. How many litres of acid are there?",
+    "as": "200 লিটাৰ দ্ৰৱত 15% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "170 litres",
+     "as": "১৭০ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "35 litres",
+     "as": "৩৫ লিটাৰ"
+    },
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Acid = 200 x 15/100 = 30 litres.",
+    "as": "অম্ল = 200 x 15/100 = 30 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-053",
+   "q": {
+    "en": "90 litres of a solution contains 60% acid. How many litres of acid are there?",
+    "as": "90 লিটাৰ দ্ৰৱত 60% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "36 litres",
+     "as": "৩৬ লিটাৰ"
+    },
+    {
+     "en": "59 litres",
+     "as": "৫৯ লিটাৰ"
+    },
+    {
+     "en": "54 litres",
+     "as": "৫৪ লিটাৰ"
+    },
+    {
+     "en": "64 litres",
+     "as": "৬৪ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Acid = 90 x 60/100 = 54 litres.",
+    "as": "অম্ল = 90 x 60/100 = 54 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-054",
+   "q": {
+    "en": "250 litres of a solution contains 8% acid. How many litres of acid are there?",
+    "as": "250 লিটাৰ দ্ৰৱত 8% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "230 litres",
+     "as": "২৩০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Acid = 250 x 8/100 = 20 litres.",
+    "as": "অম্ল = 250 x 8/100 = 20 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-055",
+   "q": {
+    "en": "60 litres of a solution contains 75% acid. How many litres of acid are there?",
+    "as": "60 লিটাৰ দ্ৰৱত 75% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "15 litres",
+     "as": "১৫ লিটাৰ"
+    },
+    {
+     "en": "50 litres",
+     "as": "৫০ লিটাৰ"
+    },
+    {
+     "en": "55 litres",
+     "as": "৫৫ লিটাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Acid = 60 x 75/100 = 45 litres.",
+    "as": "অম্ল = 60 x 75/100 = 45 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-056",
+   "q": {
+    "en": "400 litres of a solution contains 5% acid. How many litres of acid are there?",
+    "as": "400 লিটাৰ দ্ৰৱত 5% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "380 litres",
+     "as": "৩৮০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Acid = 400 x 5/100 = 20 litres.",
+    "as": "অম্ল = 400 x 5/100 = 20 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-057",
+   "q": {
+    "en": "320 litres of a solution contains 50% acid. How many litres of acid are there?",
+    "as": "320 লিটাৰ দ্ৰৱত 50% অম্ল আছে। কিমান লিটাৰ অম্ল আছে?"
+   },
+   "options": [
+    {
+     "en": "165 litres",
+     "as": "১৬৫ লিটাৰ"
+    },
+    {
+     "en": "170 litres",
+     "as": "১৭০ লিটাৰ"
+    },
+    {
+     "en": "160 litres",
+     "as": "১৬০ লিটাৰ"
+    },
+    {
+     "en": "155 litres",
+     "as": "১৫৫ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Acid = 320 x 50/100 = 160 litres.",
+    "as": "অম্ল = 320 x 50/100 = 160 লিটাৰ।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-058",
+   "q": {
+    "en": "A mixture of 40 litres has milk and water in the ratio 3 : 1. How much water must be added to make the ratio 1 : 1?",
+    "as": "৪০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 3 : 1 অনুপাতত আছে। অনুপাত 1 : 1 কৰিবলৈ কিমান পানী যোগ কৰিব লাগে?"
+   },
+   "options": [
+    {
+     "en": "10 litres",
+     "as": "১০ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "40 litres",
+     "as": "৪০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Milk = 30, water = 10. For 1 : 1 the water must equal 30, so 20 litres must be added.",
+    "as": "গাখীৰ = 30, পানী = 10। 1 : 1 ৰ বাবে পানী 30 হ'ব লাগে, গতিকে 20 লিটাৰ যোগ কৰিব লাগে।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-059",
+   "q": {
+    "en": "The mean price of a mixture of two items is always —",
+    "as": "দুটা বস্তুৰ মিশ্ৰণৰ গড় দাম সদায় —"
+   },
+   "options": [
+    {
+     "en": "between the two prices",
+     "as": "between the two prices"
+    },
+    {
+     "en": "less than both prices",
+     "as": "less than both prices"
+    },
+    {
+     "en": "greater than both prices",
+     "as": "greater than both prices"
+    },
+    {
+     "en": "equal to the cheaper price",
+     "as": "equal to the cheaper price"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The weighted average always lies between the two ingredient prices.",
+    "as": "ভাৰিত গড় সদায় দুয়োটা উপাদানৰ দামৰ মাজত থাকে।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-060",
+   "q": {
+    "en": "In the alligation rule the two differences are written —",
+    "as": "সংযোগ নিয়মত দুটা পাৰ্থক্য লিখা হয় —"
+   },
+   "options": [
+    {
+     "en": "in the same order",
+     "as": "in the same order"
+    },
+    {
+     "en": "in the reverse order",
+     "as": "in the reverse order"
+    },
+    {
+     "en": "as a sum",
+     "as": "as a sum"
+    },
+    {
+     "en": "as a product",
+     "as": "as a product"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each difference is placed opposite the ingredient it did not come from, which is the reverse order.",
+    "as": "প্ৰতিটো পাৰ্থক্য যি উপাদানৰ পৰা অহা নাই তাৰ বিপৰীত ফালে লিখা হয়, অৰ্থাৎ ওলোটা ক্ৰমত।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-061",
+   "q": {
+    "en": "20 litres of milk is mixed with 30 litres of water. The ratio of milk to water is —",
+    "as": "২০ লিটাৰ গাখীৰ ৩০ লিটাৰ পানীৰ সৈতে মিহলালে গাখীৰ আৰু পানীৰ অনুপাত —"
+   },
+   "options": [
+    {
+     "en": "3 : 2",
+     "as": "৩ : ২"
+    },
+    {
+     "en": "1 : 2",
+     "as": "১ : ২"
+    },
+    {
+     "en": "2 : 3",
+     "as": "২ : ৩"
+    },
+    {
+     "en": "2 : 5",
+     "as": "২ : ৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Milk : water = 20 : 30 = 2 : 3.",
+    "as": "গাখীৰ : পানী = 20 : 30 = 2 : 3।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-062",
+   "q": {
+    "en": "If a mixture has 30% milk, the fraction of water in it is —",
+    "as": "এটা মিশ্ৰণত 30% গাখীৰ থাকিলে তাত পানীৰ ভগ্নাংশ —"
+   },
+   "options": [
+    {
+     "en": "3/10",
+     "as": "৩/১০"
+    },
+    {
+     "en": "1/3",
+     "as": "১/৩"
+    },
+    {
+     "en": "3/7",
+     "as": "৩/৭"
+    },
+    {
+     "en": "7/10",
+     "as": "৭/১০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Water = 100 - 30 = 70%, which is 70/100 = 7/10.",
+    "as": "পানী = 100 - 30 = 70%, যি 70/100 = 7/10।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-063",
+   "q": {
+    "en": "Two ingredients at Rs 30/kg and Rs 40/kg are mixed in the ratio 2 : 3. The mean price per kg is —",
+    "as": "Rs 30/কেজি আৰু Rs 40/কেজিৰ দুটা উপাদান 2 : 3 অনুপাতত মিহলালে প্ৰতি কেজিৰ গড় দাম —"
+   },
+   "options": [
+    {
+     "en": "Rs 36",
+     "as": "৩৬ টকা"
+    },
+    {
+     "en": "Rs 34",
+     "as": "৩৪ টকা"
+    },
+    {
+     "en": "Rs 35",
+     "as": "৩৫ টকা"
+    },
+    {
+     "en": "Rs 38",
+     "as": "৩৮ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean = (30 x 2 + 40 x 3)/5 = 180/5 = Rs 36.",
+    "as": "গড় = (30 x 2 + 40 x 3)/5 = 180/5 = Rs 36।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-064",
+   "q": {
+    "en": "How many litres of water must be added to 60 litres of milk to make a mixture that is 25% water?",
+    "as": "৬০ লিটাৰ গাখীৰত কিমান লিটাৰ পানী যোগ কৰিলে মিশ্ৰণত 25% পানী হ'ব?"
+   },
+   "options": [
+    {
+     "en": "15 litres",
+     "as": "১৫ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    },
+    {
+     "en": "25 litres",
+     "as": "২৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Let x litres be added; x/(60 + x) = 1/4, so 4x = 60 + x and x = 20.",
+    "as": "x লিটাৰ যোগ কৰা হ'লে x/(60 + x) = 1/4, গতিকে 4x = 60 + x আৰু x = 20।"
+   }
+  },
+  {
+   "id": "mixture-and-alligation-065",
+   "q": {
+    "en": "A 90-litre mixture has milk and water in the ratio 2 : 1. The quantity of water is —",
+    "as": "৯০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 2 : 1 অনুপাতত আছে। পানীৰ পৰিমাণ —"
+   },
+   "options": [
+    {
+     "en": "60 litres",
+     "as": "৬০ লিটাৰ"
+    },
+    {
+     "en": "45 litres",
+     "as": "৪৫ লিটাৰ"
+    },
+    {
+     "en": "30 litres",
+     "as": "৩০ লিটাৰ"
+    },
+    {
+     "en": "20 litres",
+     "as": "২০ লিটাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total parts = 3, water = 90 x 1/3 = 30 litres.",
+    "as": "মুঠ অংশ = 3, পানী = 90 x 1/3 = 30 লিটাৰ।"
+   }
+  }
+ ],
+ "algebra": [
+  {
+   "id": "algebra-001",
+   "q": {
+    "en": "If 3x + 7 = 22, then x = ?",
+    "as": "যদি 3x + 7 = 22 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "3x = 22 - 7 = 15, so x = 15 / 3 = 5.",
+    "as": "3x = 22 - 7 = 15, গতিকে x = 15 / 3 = 5।"
+   }
+  },
+  {
+   "id": "algebra-002",
+   "q": {
+    "en": "If 4x + 8 = 32, then x = ?",
+    "as": "যদি 4x + 8 = 32 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "4x = 32 - 8 = 24, so x = 24 / 4 = 6.",
+    "as": "4x = 32 - 8 = 24, গতিকে x = 24 / 4 = 6।"
+   }
+  },
+  {
+   "id": "algebra-003",
+   "q": {
+    "en": "If 5x + 3 = 38, then x = ?",
+    "as": "যদি 5x + 3 = 38 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "38",
+     "as": "৩৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "5x = 38 - 3 = 35, so x = 35 / 5 = 7.",
+    "as": "5x = 38 - 3 = 35, গতিকে x = 35 / 5 = 7।"
+   }
+  },
+  {
+   "id": "algebra-004",
+   "q": {
+    "en": "If 2x + 4 = 22, then x = ?",
+    "as": "যদি 2x + 4 = 22 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "2x = 22 - 4 = 18, so x = 18 / 2 = 9.",
+    "as": "2x = 22 - 4 = 18, গতিকে x = 18 / 2 = 9।"
+   }
+  },
+  {
+   "id": "algebra-005",
+   "q": {
+    "en": "If 6x + 5 = 29, then x = ?",
+    "as": "যদি 6x + 5 = 29 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "29",
+     "as": "২৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "6x = 29 - 5 = 24, so x = 24 / 6 = 4.",
+    "as": "6x = 29 - 5 = 24, গতিকে x = 24 / 6 = 4।"
+   }
+  },
+  {
+   "id": "algebra-006",
+   "q": {
+    "en": "If 7x + 2 = 23, then x = ?",
+    "as": "যদি 7x + 2 = 23 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "23",
+     "as": "২৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "7x = 23 - 2 = 21, so x = 21 / 7 = 3.",
+    "as": "7x = 23 - 2 = 21, গতিকে x = 21 / 7 = 3।"
+   }
+  },
+  {
+   "id": "algebra-007",
+   "q": {
+    "en": "If 8x + 6 = 46, then x = ?",
+    "as": "যদি 8x + 6 = 46 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "46",
+     "as": "৪৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "8x = 46 - 6 = 40, so x = 40 / 8 = 5.",
+    "as": "8x = 46 - 6 = 40, গতিকে x = 40 / 8 = 5।"
+   }
+  },
+  {
+   "id": "algebra-008",
+   "q": {
+    "en": "If 9x + 3 = 21, then x = ?",
+    "as": "যদি 9x + 3 = 21 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "9x = 21 - 3 = 18, so x = 18 / 9 = 2.",
+    "as": "9x = 21 - 3 = 18, গতিকে x = 18 / 9 = 2।"
+   }
+  },
+  {
+   "id": "algebra-009",
+   "q": {
+    "en": "If 3x + 9 = 45, then x = ?",
+    "as": "যদি 3x + 9 = 45 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "3x = 45 - 9 = 36, so x = 36 / 3 = 12.",
+    "as": "3x = 45 - 9 = 36, গতিকে x = 36 / 3 = 12।"
+   }
+  },
+  {
+   "id": "algebra-010",
+   "q": {
+    "en": "If 11x + 7 = 51, then x = ?",
+    "as": "যদি 11x + 7 = 51 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "51",
+     "as": "৫১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "11x = 51 - 7 = 44, so x = 44 / 11 = 4.",
+    "as": "11x = 51 - 7 = 44, গতিকে x = 44 / 11 = 4।"
+   }
+  },
+  {
+   "id": "algebra-011",
+   "q": {
+    "en": "If 12x + 6 = 42, then x = ?",
+    "as": "যদি 12x + 6 = 42 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "42",
+     "as": "৪২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "12x = 42 - 6 = 36, so x = 36 / 12 = 3.",
+    "as": "12x = 42 - 6 = 36, গতিকে x = 36 / 12 = 3।"
+   }
+  },
+  {
+   "id": "algebra-012",
+   "q": {
+    "en": "If 5x + 2 = 57, then x = ?",
+    "as": "যদি 5x + 2 = 57 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "57",
+     "as": "৫৭"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "5x = 57 - 2 = 55, so x = 55 / 5 = 11.",
+    "as": "5x = 57 - 2 = 55, গতিকে x = 55 / 5 = 11।"
+   }
+  },
+  {
+   "id": "algebra-013",
+   "q": {
+    "en": "If 10x + 5 = 65, then x = ?",
+    "as": "যদি 10x + 5 = 65 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "65",
+     "as": "৬৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "10x = 65 - 5 = 60, so x = 60 / 10 = 6.",
+    "as": "10x = 65 - 5 = 60, গতিকে x = 60 / 10 = 6।"
+   }
+  },
+  {
+   "id": "algebra-014",
+   "q": {
+    "en": "If 4x + 3 = 63, then x = ?",
+    "as": "যদি 4x + 3 = 63 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "63",
+     "as": "৬৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "4x = 63 - 3 = 60, so x = 60 / 4 = 15.",
+    "as": "4x = 63 - 3 = 60, গতিকে x = 60 / 4 = 15।"
+   }
+  },
+  {
+   "id": "algebra-015",
+   "q": {
+    "en": "If 13x + 8 = 34, then x = ?",
+    "as": "যদি 13x + 8 = 34 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "34",
+     "as": "৩৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "13x = 34 - 8 = 26, so x = 26 / 13 = 2.",
+    "as": "13x = 34 - 8 = 26, গতিকে x = 26 / 13 = 2।"
+   }
+  },
+  {
+   "id": "algebra-016",
+   "q": {
+    "en": "If 2x - 5 = 9, then x = ?",
+    "as": "যদি 2x - 5 = 9 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "2x = 9 + 5 = 14, so x = 14 / 2 = 7.",
+    "as": "2x = 9 + 5 = 14, গতিকে x = 14 / 2 = 7।"
+   }
+  },
+  {
+   "id": "algebra-017",
+   "q": {
+    "en": "If 3x - 8 = 4, then x = ?",
+    "as": "যদি 3x - 8 = 4 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "3x = 4 + 8 = 12, so x = 12 / 3 = 4.",
+    "as": "3x = 4 + 8 = 12, গতিকে x = 12 / 3 = 4।"
+   }
+  },
+  {
+   "id": "algebra-018",
+   "q": {
+    "en": "If 5x - 3 = 27, then x = ?",
+    "as": "যদি 5x - 3 = 27 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "5x = 27 + 3 = 30, so x = 30 / 5 = 6.",
+    "as": "5x = 27 + 3 = 30, গতিকে x = 30 / 5 = 6।"
+   }
+  },
+  {
+   "id": "algebra-019",
+   "q": {
+    "en": "If 4x - 2 = 34, then x = ?",
+    "as": "যদি 4x - 2 = 34 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "34",
+     "as": "৩৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "4x = 34 + 2 = 36, so x = 36 / 4 = 9.",
+    "as": "4x = 34 + 2 = 36, গতিকে x = 36 / 4 = 9।"
+   }
+  },
+  {
+   "id": "algebra-020",
+   "q": {
+    "en": "If 6x - 4 = 26, then x = ?",
+    "as": "যদি 6x - 4 = 26 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "26",
+     "as": "২৬"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "6x = 26 + 4 = 30, so x = 30 / 6 = 5.",
+    "as": "6x = 26 + 4 = 30, গতিকে x = 30 / 6 = 5।"
+   }
+  },
+  {
+   "id": "algebra-021",
+   "q": {
+    "en": "If 7x - 9 = 5, then x = ?",
+    "as": "যদি 7x - 9 = 5 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "7x = 5 + 9 = 14, so x = 14 / 7 = 2.",
+    "as": "7x = 5 + 9 = 14, গতিকে x = 14 / 7 = 2।"
+   }
+  },
+  {
+   "id": "algebra-022",
+   "q": {
+    "en": "If 8x - 5 = 19, then x = ?",
+    "as": "যদি 8x - 5 = 19 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "19",
+     "as": "১৯"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "8x = 19 + 5 = 24, so x = 24 / 8 = 3.",
+    "as": "8x = 19 + 5 = 24, গতিকে x = 24 / 8 = 3।"
+   }
+  },
+  {
+   "id": "algebra-023",
+   "q": {
+    "en": "If 9x - 2 = 52, then x = ?",
+    "as": "যদি 9x - 2 = 52 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "52",
+     "as": "৫২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "9x = 52 + 2 = 54, so x = 54 / 9 = 6.",
+    "as": "9x = 52 + 2 = 54, গতিকে x = 54 / 9 = 6।"
+   }
+  },
+  {
+   "id": "algebra-024",
+   "q": {
+    "en": "If 10x - 7 = 33, then x = ?",
+    "as": "যদি 10x - 7 = 33 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "10x = 33 + 7 = 40, so x = 40 / 10 = 4.",
+    "as": "10x = 33 + 7 = 40, গতিকে x = 40 / 10 = 4।"
+   }
+  },
+  {
+   "id": "algebra-025",
+   "q": {
+    "en": "If 11x - 3 = 52, then x = ?",
+    "as": "যদি 11x - 3 = 52 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "52",
+     "as": "৫২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "11x = 52 + 3 = 55, so x = 55 / 11 = 5.",
+    "as": "11x = 52 + 3 = 55, গতিকে x = 55 / 11 = 5।"
+   }
+  },
+  {
+   "id": "algebra-026",
+   "q": {
+    "en": "If x = 5, the value of (x + 1)^2 is —",
+    "as": "যদি x = 5 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "26",
+     "as": "২৬"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 25 + 10 + 1 = 36.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 25 + 10 + 1 = 36।"
+   }
+  },
+  {
+   "id": "algebra-027",
+   "q": {
+    "en": "If x = 7, the value of (x + 1)^2 is —",
+    "as": "যদি x = 7 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "49",
+     "as": "৪৯"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "63",
+     "as": "৬৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 49 + 14 + 1 = 64.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 49 + 14 + 1 = 64।"
+   }
+  },
+  {
+   "id": "algebra-028",
+   "q": {
+    "en": "If x = 9, the value of (x + 1)^2 is —",
+    "as": "যদি x = 9 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "81",
+     "as": "৮১"
+    },
+    {
+     "en": "82",
+     "as": "৮২"
+    },
+    {
+     "en": "99",
+     "as": "৯৯"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 81 + 18 + 1 = 100.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 81 + 18 + 1 = 100।"
+   }
+  },
+  {
+   "id": "algebra-029",
+   "q": {
+    "en": "If x = 11, the value of (x + 1)^2 is —",
+    "as": "যদি x = 11 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "144",
+     "as": "১৪৪"
+    },
+    {
+     "en": "121",
+     "as": "১২১"
+    },
+    {
+     "en": "122",
+     "as": "১২২"
+    },
+    {
+     "en": "143",
+     "as": "১৪৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 121 + 22 + 1 = 144.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 121 + 22 + 1 = 144।"
+   }
+  },
+  {
+   "id": "algebra-030",
+   "q": {
+    "en": "If x = 12, the value of (x + 1)^2 is —",
+    "as": "যদি x = 12 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "144",
+     "as": "১৪৪"
+    },
+    {
+     "en": "169",
+     "as": "১৬৯"
+    },
+    {
+     "en": "145",
+     "as": "১৪৫"
+    },
+    {
+     "en": "168",
+     "as": "১৬৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 144 + 24 + 1 = 169.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 144 + 24 + 1 = 169।"
+   }
+  },
+  {
+   "id": "algebra-031",
+   "q": {
+    "en": "If x = 15, the value of (x + 1)^2 is —",
+    "as": "যদি x = 15 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "225",
+     "as": "২২৫"
+    },
+    {
+     "en": "226",
+     "as": "২২৬"
+    },
+    {
+     "en": "256",
+     "as": "২৫৬"
+    },
+    {
+     "en": "255",
+     "as": "২৫৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 225 + 30 + 1 = 256.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 225 + 30 + 1 = 256।"
+   }
+  },
+  {
+   "id": "algebra-032",
+   "q": {
+    "en": "If x = 20, the value of (x + 1)^2 is —",
+    "as": "যদি x = 20 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "400",
+     "as": "৪০০"
+    },
+    {
+     "en": "401",
+     "as": "৪০১"
+    },
+    {
+     "en": "440",
+     "as": "৪৪০"
+    },
+    {
+     "en": "441",
+     "as": "৪৪১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 400 + 40 + 1 = 441.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 400 + 40 + 1 = 441।"
+   }
+  },
+  {
+   "id": "algebra-033",
+   "q": {
+    "en": "If x = 25, the value of (x + 1)^2 is —",
+    "as": "যদি x = 25 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "676",
+     "as": "৬৭৬"
+    },
+    {
+     "en": "625",
+     "as": "৬২৫"
+    },
+    {
+     "en": "626",
+     "as": "৬২৬"
+    },
+    {
+     "en": "675",
+     "as": "৬৭৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 625 + 50 + 1 = 676.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 625 + 50 + 1 = 676।"
+   }
+  },
+  {
+   "id": "algebra-034",
+   "q": {
+    "en": "If x = 30, the value of (x + 1)^2 is —",
+    "as": "যদি x = 30 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "900",
+     "as": "৯০০"
+    },
+    {
+     "en": "961",
+     "as": "৯৬১"
+    },
+    {
+     "en": "901",
+     "as": "৯০১"
+    },
+    {
+     "en": "960",
+     "as": "৯৬০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 900 + 60 + 1 = 961.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 900 + 60 + 1 = 961।"
+   }
+  },
+  {
+   "id": "algebra-035",
+   "q": {
+    "en": "If x = 13, the value of (x + 1)^2 is —",
+    "as": "যদি x = 13 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "169",
+     "as": "১৬৯"
+    },
+    {
+     "en": "170",
+     "as": "১৭০"
+    },
+    {
+     "en": "196",
+     "as": "১৯৬"
+    },
+    {
+     "en": "195",
+     "as": "১৯৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 169 + 26 + 1 = 196.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 169 + 26 + 1 = 196।"
+   }
+  },
+  {
+   "id": "algebra-036",
+   "q": {
+    "en": "If x = 8, the value of (x + 1)^2 is —",
+    "as": "যদি x = 8 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "65",
+     "as": "৬৫"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "81",
+     "as": "৮১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 64 + 16 + 1 = 81.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 64 + 16 + 1 = 81।"
+   }
+  },
+  {
+   "id": "algebra-037",
+   "q": {
+    "en": "If x = 6, the value of (x + 1)^2 is —",
+    "as": "যদি x = 6 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "49",
+     "as": "৪৯"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "37",
+     "as": "৩৭"
+    },
+    {
+     "en": "48",
+     "as": "৪৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 36 + 12 + 1 = 49.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 36 + 12 + 1 = 49।"
+   }
+  },
+  {
+   "id": "algebra-038",
+   "q": {
+    "en": "If x = 14, the value of (x + 1)^2 is —",
+    "as": "যদি x = 14 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "196",
+     "as": "১৯৬"
+    },
+    {
+     "en": "225",
+     "as": "২২৫"
+    },
+    {
+     "en": "197",
+     "as": "১৯৭"
+    },
+    {
+     "en": "224",
+     "as": "২২৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 196 + 28 + 1 = 225.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 196 + 28 + 1 = 225।"
+   }
+  },
+  {
+   "id": "algebra-039",
+   "q": {
+    "en": "If x = 16, the value of (x + 1)^2 is —",
+    "as": "যদি x = 16 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "256",
+     "as": "২৫৬"
+    },
+    {
+     "en": "257",
+     "as": "২৫৭"
+    },
+    {
+     "en": "289",
+     "as": "২৮৯"
+    },
+    {
+     "en": "288",
+     "as": "২৮৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 256 + 32 + 1 = 289.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 256 + 32 + 1 = 289।"
+   }
+  },
+  {
+   "id": "algebra-040",
+   "q": {
+    "en": "If x = 18, the value of (x + 1)^2 is —",
+    "as": "যদি x = 18 হয়, (x + 1)^2 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "324",
+     "as": "৩২৪"
+    },
+    {
+     "en": "325",
+     "as": "৩২৫"
+    },
+    {
+     "en": "360",
+     "as": "৩৬০"
+    },
+    {
+     "en": "361",
+     "as": "৩৬১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(x + 1)^2 = x^2 + 2x + 1 = 324 + 36 + 1 = 361.",
+    "as": "(x + 1)^2 = x^2 + 2x + 1 = 324 + 36 + 1 = 361।"
+   }
+  },
+  {
+   "id": "algebra-041",
+   "q": {
+    "en": "If a = 4 and b = 3, then a^2 - b^2 = ?",
+    "as": "যদি a = 4 আৰু b = 3 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 7 x 1 = 7.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 7 x 1 = 7।"
+   }
+  },
+  {
+   "id": "algebra-042",
+   "q": {
+    "en": "If a = 6 and b = 5, then a^2 - b^2 = ?",
+    "as": "যদি a = 6 আৰু b = 5 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "61",
+     "as": "৬১"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 11 x 1 = 11.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 11 x 1 = 11।"
+   }
+  },
+  {
+   "id": "algebra-043",
+   "q": {
+    "en": "If a = 7 and b = 2, then a^2 - b^2 = ?",
+    "as": "যদি a = 7 আৰু b = 2 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "53",
+     "as": "৫৩"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "49",
+     "as": "৪৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 9 x 5 = 45.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 9 x 5 = 45।"
+   }
+  },
+  {
+   "id": "algebra-044",
+   "q": {
+    "en": "If a = 8 and b = 3, then a^2 - b^2 = ?",
+    "as": "যদি a = 8 আৰু b = 3 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "73",
+     "as": "৭৩"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "55",
+     "as": "৫৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 11 x 5 = 55.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 11 x 5 = 55।"
+   }
+  },
+  {
+   "id": "algebra-045",
+   "q": {
+    "en": "If a = 9 and b = 4, then a^2 - b^2 = ?",
+    "as": "যদি a = 9 আৰু b = 4 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "65",
+     "as": "৬৫"
+    },
+    {
+     "en": "97",
+     "as": "৯৭"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "81",
+     "as": "৮১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 13 x 5 = 65.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 13 x 5 = 65।"
+   }
+  },
+  {
+   "id": "algebra-046",
+   "q": {
+    "en": "If a = 10 and b = 6, then a^2 - b^2 = ?",
+    "as": "যদি a = 10 আৰু b = 6 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "136",
+     "as": "১৩৬"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 16 x 4 = 64.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 16 x 4 = 64।"
+   }
+  },
+  {
+   "id": "algebra-047",
+   "q": {
+    "en": "If a = 12 and b = 5, then a^2 - b^2 = ?",
+    "as": "যদি a = 12 আৰু b = 5 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "169",
+     "as": "১৬৯"
+    },
+    {
+     "en": "49",
+     "as": "৪৯"
+    },
+    {
+     "en": "119",
+     "as": "১১৯"
+    },
+    {
+     "en": "144",
+     "as": "১৪৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 17 x 7 = 119.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 17 x 7 = 119।"
+   }
+  },
+  {
+   "id": "algebra-048",
+   "q": {
+    "en": "If a = 5 and b = 4, then a^2 - b^2 = ?",
+    "as": "যদি a = 5 আৰু b = 4 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "41",
+     "as": "৪১"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 9 x 1 = 9.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 9 x 1 = 9।"
+   }
+  },
+  {
+   "id": "algebra-049",
+   "q": {
+    "en": "If a = 11 and b = 3, then a^2 - b^2 = ?",
+    "as": "যদি a = 11 আৰু b = 3 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "112",
+     "as": "১১২"
+    },
+    {
+     "en": "130",
+     "as": "১৩০"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "121",
+     "as": "১২১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 14 x 8 = 112.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 14 x 8 = 112।"
+   }
+  },
+  {
+   "id": "algebra-050",
+   "q": {
+    "en": "If a = 13 and b = 7, then a^2 - b^2 = ?",
+    "as": "যদি a = 13 আৰু b = 7 হয়, তেন্তে a^2 - b^2 = ?"
+   },
+   "options": [
+    {
+     "en": "218",
+     "as": "২১৮"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "169",
+     "as": "১৬৯"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^2 - b^2 = (a + b)(a - b) = 20 x 6 = 120.",
+    "as": "a^2 - b^2 = (a + b)(a - b) = 20 x 6 = 120।"
+   }
+  },
+  {
+   "id": "algebra-051",
+   "q": {
+    "en": "The value of 2^3 is —",
+    "as": "2^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "2^3 = 2 x 2 x 2 = 8.",
+    "as": "2^3 = 2 x 2 x 2 = 8।"
+   }
+  },
+  {
+   "id": "algebra-052",
+   "q": {
+    "en": "The value of 3^3 is —",
+    "as": "3^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "3^3 = 3 x 3 x 3 = 27.",
+    "as": "3^3 = 3 x 3 x 3 = 27।"
+   }
+  },
+  {
+   "id": "algebra-053",
+   "q": {
+    "en": "The value of 4^3 is —",
+    "as": "4^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "68",
+     "as": "৬৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "4^3 = 4 x 4 x 4 = 64.",
+    "as": "4^3 = 4 x 4 x 4 = 64।"
+   }
+  },
+  {
+   "id": "algebra-054",
+   "q": {
+    "en": "The value of 5^3 is —",
+    "as": "5^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "130",
+     "as": "১৩০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "5^3 = 5 x 5 x 5 = 125.",
+    "as": "5^3 = 5 x 5 x 5 = 125।"
+   }
+  },
+  {
+   "id": "algebra-055",
+   "q": {
+    "en": "The value of 6^3 is —",
+    "as": "6^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "216",
+     "as": "২১৬"
+    },
+    {
+     "en": "222",
+     "as": "২২২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "6^3 = 6 x 6 x 6 = 216.",
+    "as": "6^3 = 6 x 6 x 6 = 216।"
+   }
+  },
+  {
+   "id": "algebra-056",
+   "q": {
+    "en": "The value of 7^3 is —",
+    "as": "7^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "49",
+     "as": "৪৯"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "350",
+     "as": "৩৫০"
+    },
+    {
+     "en": "343",
+     "as": "৩৪৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "7^3 = 7 x 7 x 7 = 343.",
+    "as": "7^3 = 7 x 7 x 7 = 343।"
+   }
+  },
+  {
+   "id": "algebra-057",
+   "q": {
+    "en": "The value of 8^3 is —",
+    "as": "8^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "512",
+     "as": "৫১২"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "520",
+     "as": "৫২০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "8^3 = 8 x 8 x 8 = 512.",
+    "as": "8^3 = 8 x 8 x 8 = 512।"
+   }
+  },
+  {
+   "id": "algebra-058",
+   "q": {
+    "en": "The value of 9^3 is —",
+    "as": "9^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "81",
+     "as": "৮১"
+    },
+    {
+     "en": "729",
+     "as": "৭২৯"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "738",
+     "as": "৭৩৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "9^3 = 9 x 9 x 9 = 729.",
+    "as": "9^3 = 9 x 9 x 9 = 729।"
+   }
+  },
+  {
+   "id": "algebra-059",
+   "q": {
+    "en": "The value of 10^3 is —",
+    "as": "10^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "1000",
+     "as": "১০০০"
+    },
+    {
+     "en": "1010",
+     "as": "১০১০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "10^3 = 10 x 10 x 10 = 1000.",
+    "as": "10^3 = 10 x 10 x 10 = 1000।"
+   }
+  },
+  {
+   "id": "algebra-060",
+   "q": {
+    "en": "The value of 11^3 is —",
+    "as": "11^3 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "121",
+     "as": "১২১"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "1342",
+     "as": "১৩৪২"
+    },
+    {
+     "en": "1331",
+     "as": "১৩৩১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "11^3 = 11 x 11 x 11 = 1331.",
+    "as": "11^3 = 11 x 11 x 11 = 1331।"
+   }
+  },
+  {
+   "id": "algebra-061",
+   "q": {
+    "en": "If 1x + 1y = 5 and 5x + 3y = 21, then x = ?",
+    "as": "যদি 1x + 1y = 5 আৰু 5x + 3y = 21 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Solving the two equations together gives x = 3 and y = 2.",
+    "as": "দুয়োটা সমীকৰণ একেলগে সমাধান কৰিলে x = 3 আৰু y = 2 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "algebra-062",
+   "q": {
+    "en": "If 2x + 1y = 9 and 3x + 1y = 13, then x = ?",
+    "as": "যদি 2x + 1y = 9 আৰু 3x + 1y = 13 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Solving the two equations together gives x = 4 and y = 1.",
+    "as": "দুয়োটা সমীকৰণ একেলগে সমাধান কৰিলে x = 4 আৰু y = 1 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "algebra-063",
+   "q": {
+    "en": "If 1x + 2y = 9 and 3x + 1y = 17, then x = ?",
+    "as": "যদি 1x + 2y = 9 আৰু 3x + 1y = 17 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Solving the two equations together gives x = 5 and y = 2.",
+    "as": "দুয়োটা সমীকৰণ একেলগে সমাধান কৰিলে x = 5 আৰু y = 2 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "algebra-064",
+   "q": {
+    "en": "If 3x + 1y = 9 and 2x + 1y = 7, then x = ?",
+    "as": "যদি 3x + 1y = 9 আৰু 2x + 1y = 7 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Solving the two equations together gives x = 2 and y = 3.",
+    "as": "দুয়োটা সমীকৰণ একেলগে সমাধান কৰিলে x = 2 আৰু y = 3 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "algebra-065",
+   "q": {
+    "en": "If 1x + 1y = 7 and 4x + 2y = 26, then x = ?",
+    "as": "যদি 1x + 1y = 7 আৰু 4x + 2y = 26 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Solving the two equations together gives x = 6 and y = 1.",
+    "as": "দুয়োটা সমীকৰণ একেলগে সমাধান কৰিলে x = 6 আৰু y = 1 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "algebra-066",
+   "q": {
+    "en": "If 2x + 1y = 17 and 5x + 2y = 41, then x = ?",
+    "as": "যদি 2x + 1y = 17 আৰু 5x + 2y = 41 হয়, তেন্তে x = ?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Solving the two equations together gives x = 7 and y = 3.",
+    "as": "দুয়োটা সমীকৰণ একেলগে সমাধান কৰিলে x = 7 আৰু y = 3 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "algebra-067",
+   "q": {
+    "en": "The ratio 2 : 3 as a percentage is —",
+    "as": "2 : 3 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "150%",
+     "as": "১৫০%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "66.67%",
+     "as": "৬৬.৬৭%"
+    },
+    {
+     "en": "71.67%",
+     "as": "৭১.৬৭%"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(2/3) x 100 = 66.67%.",
+    "as": "(2/3) x 100 = 66.67%।"
+   }
+  },
+  {
+   "id": "algebra-068",
+   "q": {
+    "en": "The ratio 3 : 4 as a percentage is —",
+    "as": "3 : 4 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "133.333%",
+     "as": "১৩৩.৩৩৩%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "80%",
+     "as": "৮০%"
+    },
+    {
+     "en": "75%",
+     "as": "৭৫%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(3/4) x 100 = 75%.",
+    "as": "(3/4) x 100 = 75%।"
+   }
+  },
+  {
+   "id": "algebra-069",
+   "q": {
+    "en": "The ratio 4 : 5 as a percentage is —",
+    "as": "4 : 5 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "80%",
+     "as": "৮০%"
+    },
+    {
+     "en": "125%",
+     "as": "১২৫%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "85%",
+     "as": "৮৫%"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(4/5) x 100 = 80%.",
+    "as": "(4/5) x 100 = 80%।"
+   }
+  },
+  {
+   "id": "algebra-070",
+   "q": {
+    "en": "The ratio 5 : 6 as a percentage is —",
+    "as": "5 : 6 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "120%",
+     "as": "১২০%"
+    },
+    {
+     "en": "83.33%",
+     "as": "৮৩.৩৩%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "88.33%",
+     "as": "৮৮.৩৩%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(5/6) x 100 = 83.33%.",
+    "as": "(5/6) x 100 = 83.33%।"
+   }
+  },
+  {
+   "id": "algebra-071",
+   "q": {
+    "en": "The ratio 1 : 2 as a percentage is —",
+    "as": "1 : 2 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "200%",
+     "as": "২০০%"
+    },
+    {
+     "en": "55%",
+     "as": "৫৫%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "45%",
+     "as": "৪৫%"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(1/2) x 100 = 50%.",
+    "as": "(1/2) x 100 = 50%।"
+   }
+  },
+  {
+   "id": "algebra-072",
+   "q": {
+    "en": "The ratio 3 : 5 as a percentage is —",
+    "as": "3 : 5 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "166.667%",
+     "as": "১৬৬.৬৬৭%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "65%",
+     "as": "৬৫%"
+    },
+    {
+     "en": "60%",
+     "as": "৬০%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(3/5) x 100 = 60%.",
+    "as": "(3/5) x 100 = 60%।"
+   }
+  },
+  {
+   "id": "algebra-073",
+   "q": {
+    "en": "The ratio 2 : 5 as a percentage is —",
+    "as": "2 : 5 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "40%",
+     "as": "৪০%"
+    },
+    {
+     "en": "250%",
+     "as": "২৫০%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "45%",
+     "as": "৪৫%"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(2/5) x 100 = 40%.",
+    "as": "(2/5) x 100 = 40%।"
+   }
+  },
+  {
+   "id": "algebra-074",
+   "q": {
+    "en": "The ratio 4 : 7 as a percentage is —",
+    "as": "4 : 7 অনুপাত শতাংশত —"
+   },
+   "options": [
+    {
+     "en": "175%",
+     "as": "১৭৫%"
+    },
+    {
+     "en": "57.14%",
+     "as": "৫৭.১৪%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "62.14%",
+     "as": "৬২.১৪%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(4/7) x 100 = 57.14%.",
+    "as": "(4/7) x 100 = 57.14%।"
+   }
+  },
+  {
+   "id": "algebra-075",
+   "q": {
+    "en": "(a + b)^2 equals ?",
+    "as": "(a + b)^2 সমান ?"
+   },
+   "options": [
+    {
+     "en": "a^2 + b^2",
+     "as": "a^2 + b^2"
+    },
+    {
+     "en": "a^2 - 2ab + b^2",
+     "as": "a^2 - 2ab + b^2"
+    },
+    {
+     "en": "a^2 + 2ab + b^2",
+     "as": "a^2 + 2ab + b^2"
+    },
+    {
+     "en": "a^2 + ab + b^2",
+     "as": "a^2 + ab + b^2"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The square of a binomial expands to a^2 + 2ab + b^2.",
+    "as": "দুপদ ৰাশিৰ বৰ্গ a^2 + 2ab + b^2 লৈ বিস্তাৰ হয়।"
+   }
+  },
+  {
+   "id": "algebra-076",
+   "q": {
+    "en": "(a - b)(a + b) equals ?",
+    "as": "(a - b)(a + b) সমান ?"
+   },
+   "options": [
+    {
+     "en": "a^2 + b^2",
+     "as": "a^2 + b^2"
+    },
+    {
+     "en": "a^2 - 2ab + b^2",
+     "as": "a^2 - 2ab + b^2"
+    },
+    {
+     "en": "(a - b)^2",
+     "as": "(a - b)^2"
+    },
+    {
+     "en": "a^2 - b^2",
+     "as": "a^2 - b^2"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The product of the sum and the difference is the difference of squares.",
+    "as": "যোগফল আৰু পাৰ্থক্যৰ গুণফল বৰ্গৰ পাৰ্থক্য।"
+   }
+  },
+  {
+   "id": "algebra-077",
+   "q": {
+    "en": "If a + b = 10 and a - b = 4, then ab equals ?",
+    "as": "যদি a + b = 10 আৰু a - b = 4, তেন্তে ab সমান ?"
+   },
+   "options": [
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a = 7 and b = 3, so ab = 21.",
+    "as": "a = 7 আৰু b = 3, গতিকে ab = 21।"
+   }
+  },
+  {
+   "id": "algebra-078",
+   "q": {
+    "en": "The degree of the polynomial 3x^3 + 2x^2 - 5 is ?",
+    "as": "3x^3 + 2x^2 - 5 বহুপদ ৰাশিৰ ঘাত ?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The degree is the highest power of the variable, which is 3.",
+    "as": "ঘাত হৈছে চলকৰ আটাইতকৈ উচ্চ ঘাত, যি 3।"
+   }
+  }
+ ],
+ "surds-and-indices": [
+  {
+   "id": "surds-and-indices-001",
+   "q": {
+    "en": "2^3 x 2^4 = ?",
+    "as": "2^3 x 2^4 = ?"
+   },
+   "options": [
+    {
+     "en": "128",
+     "as": "১২৮"
+    },
+    {
+     "en": "4096",
+     "as": "৪০৯৬"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "48",
+     "as": "৪৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 2^(3+4) = 2^7 = 128.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 2^(3+4) = 2^7 = 128।"
+   }
+  },
+  {
+   "id": "surds-and-indices-002",
+   "q": {
+    "en": "3^2 x 3^3 = ?",
+    "as": "3^2 x 3^3 = ?"
+   },
+   "options": [
+    {
+     "en": "729",
+     "as": "৭২৯"
+    },
+    {
+     "en": "243",
+     "as": "২৪৩"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "54",
+     "as": "৫৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 3^(2+3) = 3^5 = 243.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 3^(2+3) = 3^5 = 243।"
+   }
+  },
+  {
+   "id": "surds-and-indices-003",
+   "q": {
+    "en": "5^2 x 5^3 = ?",
+    "as": "5^2 x 5^3 = ?"
+   },
+   "options": [
+    {
+     "en": "15625",
+     "as": "১৫৬২৫"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    },
+    {
+     "en": "3125",
+     "as": "৩১২৫"
+    },
+    {
+     "en": "250",
+     "as": "২৫০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 5^(2+3) = 5^5 = 3125.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 5^(2+3) = 5^5 = 3125।"
+   }
+  },
+  {
+   "id": "surds-and-indices-004",
+   "q": {
+    "en": "2^5 x 2^3 = ?",
+    "as": "2^5 x 2^3 = ?"
+   },
+   "options": [
+    {
+     "en": "32768",
+     "as": "৩২৭৬৮"
+    },
+    {
+     "en": "96",
+     "as": "৯৬"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "256",
+     "as": "২৫৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 2^(5+3) = 2^8 = 256.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 2^(5+3) = 2^8 = 256।"
+   }
+  },
+  {
+   "id": "surds-and-indices-005",
+   "q": {
+    "en": "7^2 x 7^2 = ?",
+    "as": "7^2 x 7^2 = ?"
+   },
+   "options": [
+    {
+     "en": "2401",
+     "as": "২৪০১"
+    },
+    {
+     "en": "98",
+     "as": "৯৮"
+    },
+    {
+     "en": "16807",
+     "as": "১৬৮০৭"
+    },
+    {
+     "en": "2400",
+     "as": "২৪০০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 7^(2+2) = 7^4 = 2401.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 7^(2+2) = 7^4 = 2401।"
+   }
+  },
+  {
+   "id": "surds-and-indices-006",
+   "q": {
+    "en": "2^3 x 2^3 = ?",
+    "as": "2^3 x 2^3 = ?"
+   },
+   "options": [
+    {
+     "en": "512",
+     "as": "৫১২"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "128",
+     "as": "১২৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 2^(3+3) = 2^6 = 64.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 2^(3+3) = 2^6 = 64।"
+   }
+  },
+  {
+   "id": "surds-and-indices-007",
+   "q": {
+    "en": "3^3 x 3^2 = ?",
+    "as": "3^3 x 3^2 = ?"
+   },
+   "options": [
+    {
+     "en": "729",
+     "as": "৭২৯"
+    },
+    {
+     "en": "54",
+     "as": "৫৪"
+    },
+    {
+     "en": "243",
+     "as": "২৪৩"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 3^(3+2) = 3^5 = 243.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 3^(3+2) = 3^5 = 243।"
+   }
+  },
+  {
+   "id": "surds-and-indices-008",
+   "q": {
+    "en": "10^2 x 10^3 = ?",
+    "as": "10^2 x 10^3 = ?"
+   },
+   "options": [
+    {
+     "en": "1000000",
+     "as": "১০০০০০০"
+    },
+    {
+     "en": "300",
+     "as": "৩০০"
+    },
+    {
+     "en": "2000",
+     "as": "২০০০"
+    },
+    {
+     "en": "100000",
+     "as": "১০০০০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 10^(2+3) = 10^5 = 100000.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 10^(2+3) = 10^5 = 100000।"
+   }
+  },
+  {
+   "id": "surds-and-indices-009",
+   "q": {
+    "en": "4^2 x 4^3 = ?",
+    "as": "4^2 x 4^3 = ?"
+   },
+   "options": [
+    {
+     "en": "1024",
+     "as": "১০২৪"
+    },
+    {
+     "en": "4096",
+     "as": "৪০৯৬"
+    },
+    {
+     "en": "48",
+     "as": "৪৮"
+    },
+    {
+     "en": "128",
+     "as": "১২৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 4^(2+3) = 4^5 = 1024.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 4^(2+3) = 4^5 = 1024।"
+   }
+  },
+  {
+   "id": "surds-and-indices-010",
+   "q": {
+    "en": "5^3 x 5^2 = ?",
+    "as": "5^3 x 5^2 = ?"
+   },
+   "options": [
+    {
+     "en": "15625",
+     "as": "১৫৬২৫"
+    },
+    {
+     "en": "3125",
+     "as": "৩১২৫"
+    },
+    {
+     "en": "250",
+     "as": "২৫০"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 5^(3+2) = 5^5 = 3125.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 5^(3+2) = 5^5 = 3125।"
+   }
+  },
+  {
+   "id": "surds-and-indices-011",
+   "q": {
+    "en": "6^2 x 6^2 = ?",
+    "as": "6^2 x 6^2 = ?"
+   },
+   "options": [
+    {
+     "en": "72",
+     "as": "৭২"
+    },
+    {
+     "en": "7776",
+     "as": "৭৭৭৬"
+    },
+    {
+     "en": "1296",
+     "as": "১২৯৬"
+    },
+    {
+     "en": "1295",
+     "as": "১২৯৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 6^(2+2) = 6^4 = 1296.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 6^(2+2) = 6^4 = 1296।"
+   }
+  },
+  {
+   "id": "surds-and-indices-012",
+   "q": {
+    "en": "2^6 x 2^2 = ?",
+    "as": "2^6 x 2^2 = ?"
+   },
+   "options": [
+    {
+     "en": "4096",
+     "as": "৪০৯৬"
+    },
+    {
+     "en": "128",
+     "as": "১২৮"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "256",
+     "as": "২৫৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 2^(6+2) = 2^8 = 256.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 2^(6+2) = 2^8 = 256।"
+   }
+  },
+  {
+   "id": "surds-and-indices-013",
+   "q": {
+    "en": "11^2 x 11^2 = ?",
+    "as": "11^2 x 11^2 = ?"
+   },
+   "options": [
+    {
+     "en": "14641",
+     "as": "১৪৬৪১"
+    },
+    {
+     "en": "242",
+     "as": "২৪২"
+    },
+    {
+     "en": "161051",
+     "as": "১৬১০৫১"
+    },
+    {
+     "en": "14640",
+     "as": "১৪৬৪০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 11^(2+2) = 11^4 = 14641.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 11^(2+2) = 11^4 = 14641।"
+   }
+  },
+  {
+   "id": "surds-and-indices-014",
+   "q": {
+    "en": "2^2 x 2^5 = ?",
+    "as": "2^2 x 2^5 = ?"
+   },
+   "options": [
+    {
+     "en": "1024",
+     "as": "১০২৪"
+    },
+    {
+     "en": "128",
+     "as": "১২৮"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 2^(2+5) = 2^7 = 128.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 2^(2+5) = 2^7 = 128।"
+   }
+  },
+  {
+   "id": "surds-and-indices-015",
+   "q": {
+    "en": "3^4 x 3^2 = ?",
+    "as": "3^4 x 3^2 = ?"
+   },
+   "options": [
+    {
+     "en": "6561",
+     "as": "৬৫৬১"
+    },
+    {
+     "en": "162",
+     "as": "১৬২"
+    },
+    {
+     "en": "729",
+     "as": "৭২৯"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^m x a^n = a^(m+n), so 3^(4+2) = 3^6 = 729.",
+    "as": "a^m x a^n = a^(m+n), গতিকে 3^(4+2) = 3^6 = 729।"
+   }
+  },
+  {
+   "id": "surds-and-indices-016",
+   "q": {
+    "en": "2^7 / 2^3 = ?",
+    "as": "2^7 / 2^3 = ?"
+   },
+   "options": [
+    {
+     "en": "1024",
+     "as": "১০২৪"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 2^(7-3) = 2^4 = 16.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 2^(7-3) = 2^4 = 16।"
+   }
+  },
+  {
+   "id": "surds-and-indices-017",
+   "q": {
+    "en": "3^5 / 3^2 = ?",
+    "as": "3^5 / 3^2 = ?"
+   },
+   "options": [
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "2187",
+     "as": "২১৮৭"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "81",
+     "as": "৮১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 3^(5-2) = 3^3 = 27.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 3^(5-2) = 3^3 = 27।"
+   }
+  },
+  {
+   "id": "surds-and-indices-018",
+   "q": {
+    "en": "5^4 / 5^2 = ?",
+    "as": "5^4 / 5^2 = ?"
+   },
+   "options": [
+    {
+     "en": "15625",
+     "as": "১৫৬২৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 5^(4-2) = 5^2 = 25.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 5^(4-2) = 5^2 = 25।"
+   }
+  },
+  {
+   "id": "surds-and-indices-019",
+   "q": {
+    "en": "2^8 / 2^2 = ?",
+    "as": "2^8 / 2^2 = ?"
+   },
+   "options": [
+    {
+     "en": "1024",
+     "as": "১০২৪"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 2^(8-2) = 2^6 = 64.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 2^(8-2) = 2^6 = 64।"
+   }
+  },
+  {
+   "id": "surds-and-indices-020",
+   "q": {
+    "en": "10^5 / 10^3 = ?",
+    "as": "10^5 / 10^3 = ?"
+   },
+   "options": [
+    {
+     "en": "100000000",
+     "as": "১০০০০০০০০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "1000",
+     "as": "১০০০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 10^(5-3) = 10^2 = 100.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 10^(5-3) = 10^2 = 100।"
+   }
+  },
+  {
+   "id": "surds-and-indices-021",
+   "q": {
+    "en": "7^3 / 7^1 = ?",
+    "as": "7^3 / 7^1 = ?"
+   },
+   "options": [
+    {
+     "en": "49",
+     "as": "৪৯"
+    },
+    {
+     "en": "2401",
+     "as": "২৪০১"
+    },
+    {
+     "en": "343",
+     "as": "৩৪৩"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 7^(3-1) = 7^2 = 49.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 7^(3-1) = 7^2 = 49।"
+   }
+  },
+  {
+   "id": "surds-and-indices-022",
+   "q": {
+    "en": "2^9 / 2^4 = ?",
+    "as": "2^9 / 2^4 = ?"
+   },
+   "options": [
+    {
+     "en": "8192",
+     "as": "৮১৯২"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 2^(9-4) = 2^5 = 32.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 2^(9-4) = 2^5 = 32।"
+   }
+  },
+  {
+   "id": "surds-and-indices-023",
+   "q": {
+    "en": "3^6 / 3^4 = ?",
+    "as": "3^6 / 3^4 = ?"
+   },
+   "options": [
+    {
+     "en": "59049",
+     "as": "৫৯০৪৯"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "81",
+     "as": "৮১"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 3^(6-4) = 3^2 = 9.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 3^(6-4) = 3^2 = 9।"
+   }
+  },
+  {
+   "id": "surds-and-indices-024",
+   "q": {
+    "en": "4^5 / 4^2 = ?",
+    "as": "4^5 / 4^2 = ?"
+   },
+   "options": [
+    {
+     "en": "16384",
+     "as": "১৬৩৮৪"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "256",
+     "as": "২৫৬"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 4^(5-2) = 4^3 = 64.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 4^(5-2) = 4^3 = 64।"
+   }
+  },
+  {
+   "id": "surds-and-indices-025",
+   "q": {
+    "en": "5^5 / 5^3 = ?",
+    "as": "5^5 / 5^3 = ?"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "390625",
+     "as": "৩৯০৬২৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^m / a^n = a^(m-n), so 5^(5-3) = 5^2 = 25.",
+    "as": "a^m / a^n = a^(m-n), গতিকে 5^(5-3) = 5^2 = 25।"
+   }
+  },
+  {
+   "id": "surds-and-indices-026",
+   "q": {
+    "en": "(2^2)^3 = ?",
+    "as": "(2^2)^3 = ?"
+   },
+   "options": [
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 2^(2 x 3) = 2^6 = 64.",
+    "as": "(a^m)^n = a^(mn), গতিকে 2^(2 x 3) = 2^6 = 64।"
+   }
+  },
+  {
+   "id": "surds-and-indices-027",
+   "q": {
+    "en": "(3^2)^2 = ?",
+    "as": "(3^2)^2 = ?"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "81",
+     "as": "৮১"
+    },
+    {
+     "en": "243",
+     "as": "২৪৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 3^(2 x 2) = 3^4 = 81.",
+    "as": "(a^m)^n = a^(mn), গতিকে 3^(2 x 2) = 3^4 = 81।"
+   }
+  },
+  {
+   "id": "surds-and-indices-028",
+   "q": {
+    "en": "(5^2)^2 = ?",
+    "as": "(5^2)^2 = ?"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "3125",
+     "as": "৩১২৫"
+    },
+    {
+     "en": "625",
+     "as": "৬২৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 5^(2 x 2) = 5^4 = 625.",
+    "as": "(a^m)^n = a^(mn), গতিকে 5^(2 x 2) = 5^4 = 625।"
+   }
+  },
+  {
+   "id": "surds-and-indices-029",
+   "q": {
+    "en": "(2^3)^2 = ?",
+    "as": "(2^3)^2 = ?"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 2^(3 x 2) = 2^6 = 64.",
+    "as": "(a^m)^n = a^(mn), গতিকে 2^(3 x 2) = 2^6 = 64।"
+   }
+  },
+  {
+   "id": "surds-and-indices-030",
+   "q": {
+    "en": "(10^2)^2 = ?",
+    "as": "(10^2)^2 = ?"
+   },
+   "options": [
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "10000",
+     "as": "১০০০০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "100000",
+     "as": "১০০০০০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 10^(2 x 2) = 10^4 = 10000.",
+    "as": "(a^m)^n = a^(mn), গতিকে 10^(2 x 2) = 10^4 = 10000।"
+   }
+  },
+  {
+   "id": "surds-and-indices-031",
+   "q": {
+    "en": "(7^2)^2 = ?",
+    "as": "(7^2)^2 = ?"
+   },
+   "options": [
+    {
+     "en": "49",
+     "as": "৪৯"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
+    },
+    {
+     "en": "2401",
+     "as": "২৪০১"
+    },
+    {
+     "en": "16807",
+     "as": "১৬৮০৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 7^(2 x 2) = 7^4 = 2401.",
+    "as": "(a^m)^n = a^(mn), গতিকে 7^(2 x 2) = 7^4 = 2401।"
+   }
+  },
+  {
+   "id": "surds-and-indices-032",
+   "q": {
+    "en": "(2^4)^2 = ?",
+    "as": "(2^4)^2 = ?"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "256",
+     "as": "২৫৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 2^(4 x 2) = 2^8 = 256.",
+    "as": "(a^m)^n = a^(mn), গতিকে 2^(4 x 2) = 2^8 = 256।"
+   }
+  },
+  {
+   "id": "surds-and-indices-033",
+   "q": {
+    "en": "(3^2)^3 = ?",
+    "as": "(3^2)^3 = ?"
+   },
+   "options": [
+    {
+     "en": "729",
+     "as": "৭২৯"
+    },
+    {
+     "en": "243",
+     "as": "২৪৩"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 3^(2 x 3) = 3^6 = 729.",
+    "as": "(a^m)^n = a^(mn), গতিকে 3^(2 x 3) = 3^6 = 729।"
+   }
+  },
+  {
+   "id": "surds-and-indices-034",
+   "q": {
+    "en": "(4^2)^2 = ?",
+    "as": "(4^2)^2 = ?"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "256",
+     "as": "২৫৬"
+    },
+    {
+     "en": "1024",
+     "as": "১০২৪"
+    },
+    {
+     "en": "255",
+     "as": "২৫৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 4^(2 x 2) = 4^4 = 256.",
+    "as": "(a^m)^n = a^(mn), গতিকে 4^(2 x 2) = 4^4 = 256।"
+   }
+  },
+  {
+   "id": "surds-and-indices-035",
+   "q": {
+    "en": "(5^2)^3 = ?",
+    "as": "(5^2)^3 = ?"
+   },
+   "options": [
+    {
+     "en": "3125",
+     "as": "৩১২৫"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "15625",
+     "as": "১৫৬২৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "(a^m)^n = a^(mn), so 5^(2 x 3) = 5^6 = 15625.",
+    "as": "(a^m)^n = a^(mn), গতিকে 5^(2 x 3) = 5^6 = 15625।"
+   }
+  },
+  {
+   "id": "surds-and-indices-036",
+   "q": {
+    "en": "2^0 = ?",
+    "as": "2^0 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-037",
+   "q": {
+    "en": "3^0 = ?",
+    "as": "3^0 = ?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1/3",
+     "as": "১/৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-038",
+   "q": {
+    "en": "5^0 = ?",
+    "as": "5^0 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "1/5",
+     "as": "১/৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-039",
+   "q": {
+    "en": "7^0 = ?",
+    "as": "7^0 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "1/7",
+     "as": "১/৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-040",
+   "q": {
+    "en": "10^0 = ?",
+    "as": "10^0 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "1/10",
+     "as": "১/১০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-041",
+   "q": {
+    "en": "4^0 = ?",
+    "as": "4^0 = ?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-042",
+   "q": {
+    "en": "6^0 = ?",
+    "as": "6^0 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "1/6",
+     "as": "১/৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-043",
+   "q": {
+    "en": "8^0 = ?",
+    "as": "8^0 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "1/8",
+     "as": "১/৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-044",
+   "q": {
+    "en": "9^0 = ?",
+    "as": "9^0 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "1/9",
+     "as": "১/৯"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-045",
+   "q": {
+    "en": "11^0 = ?",
+    "as": "11^0 = ?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "1/11",
+     "as": "১/১১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Any non-zero number raised to the power zero equals 1.",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত 1 ৰ সমান।"
+   }
+  },
+  {
+   "id": "surds-and-indices-046",
+   "q": {
+    "en": "2^(-1) = ?",
+    "as": "2^(-1) = ?"
+   },
+   "options": [
+    {
+     "en": "-2",
+     "as": "-২"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 2^(-1) = 1/2^1 = 1/2.",
+    "as": "a^(-n) = 1/a^n, গতিকে 2^(-1) = 1/2^1 = 1/2।"
+   }
+  },
+  {
+   "id": "surds-and-indices-047",
+   "q": {
+    "en": "2^(-2) = ?",
+    "as": "2^(-2) = ?"
+   },
+   "options": [
+    {
+     "en": "-4",
+     "as": "-৪"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "1/4",
+     "as": "১/৪"
+    },
+    {
+     "en": "1/6",
+     "as": "১/৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 2^(-2) = 1/2^2 = 1/4.",
+    "as": "a^(-n) = 1/a^n, গতিকে 2^(-2) = 1/2^2 = 1/4।"
+   }
+  },
+  {
+   "id": "surds-and-indices-048",
+   "q": {
+    "en": "3^(-1) = ?",
+    "as": "3^(-1) = ?"
+   },
+   "options": [
+    {
+     "en": "-3",
+     "as": "-৩"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1/6",
+     "as": "১/৬"
+    },
+    {
+     "en": "1/3",
+     "as": "১/৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 3^(-1) = 1/3^1 = 1/3.",
+    "as": "a^(-n) = 1/a^n, গতিকে 3^(-1) = 1/3^1 = 1/3।"
+   }
+  },
+  {
+   "id": "surds-and-indices-049",
+   "q": {
+    "en": "3^(-2) = ?",
+    "as": "3^(-2) = ?"
+   },
+   "options": [
+    {
+     "en": "1/9",
+     "as": "১/৯"
+    },
+    {
+     "en": "-9",
+     "as": "-৯"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "1/12",
+     "as": "১/১২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 3^(-2) = 1/3^2 = 1/9.",
+    "as": "a^(-n) = 1/a^n, গতিকে 3^(-2) = 1/3^2 = 1/9।"
+   }
+  },
+  {
+   "id": "surds-and-indices-050",
+   "q": {
+    "en": "5^(-1) = ?",
+    "as": "5^(-1) = ?"
+   },
+   "options": [
+    {
+     "en": "-5",
+     "as": "-৫"
+    },
+    {
+     "en": "1/5",
+     "as": "১/৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "1/10",
+     "as": "১/১০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 5^(-1) = 1/5^1 = 1/5.",
+    "as": "a^(-n) = 1/a^n, গতিকে 5^(-1) = 1/5^1 = 1/5।"
+   }
+  },
+  {
+   "id": "surds-and-indices-051",
+   "q": {
+    "en": "5^(-2) = ?",
+    "as": "5^(-2) = ?"
+   },
+   "options": [
+    {
+     "en": "-25",
+     "as": "-২৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "1/25",
+     "as": "১/২৫"
+    },
+    {
+     "en": "1/30",
+     "as": "১/৩০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 5^(-2) = 1/5^2 = 1/25.",
+    "as": "a^(-n) = 1/a^n, গতিকে 5^(-2) = 1/5^2 = 1/25।"
+   }
+  },
+  {
+   "id": "surds-and-indices-052",
+   "q": {
+    "en": "2^(-3) = ?",
+    "as": "2^(-3) = ?"
+   },
+   "options": [
+    {
+     "en": "-8",
+     "as": "-৮"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "1/10",
+     "as": "১/১০"
+    },
+    {
+     "en": "1/8",
+     "as": "১/৮"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 2^(-3) = 1/2^3 = 1/8.",
+    "as": "a^(-n) = 1/a^n, গতিকে 2^(-3) = 1/2^3 = 1/8।"
+   }
+  },
+  {
+   "id": "surds-and-indices-053",
+   "q": {
+    "en": "10^(-1) = ?",
+    "as": "10^(-1) = ?"
+   },
+   "options": [
+    {
+     "en": "1/10",
+     "as": "১/১০"
+    },
+    {
+     "en": "-10",
+     "as": "-১০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "1/20",
+     "as": "১/২০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 10^(-1) = 1/10^1 = 1/10.",
+    "as": "a^(-n) = 1/a^n, গতিকে 10^(-1) = 1/10^1 = 1/10।"
+   }
+  },
+  {
+   "id": "surds-and-indices-054",
+   "q": {
+    "en": "10^(-2) = ?",
+    "as": "10^(-2) = ?"
+   },
+   "options": [
+    {
+     "en": "-100",
+     "as": "-১০০"
+    },
+    {
+     "en": "1/100",
+     "as": "১/১০০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "1/110",
+     "as": "১/১১০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 10^(-2) = 1/10^2 = 1/100.",
+    "as": "a^(-n) = 1/a^n, গতিকে 10^(-2) = 1/10^2 = 1/100।"
+   }
+  },
+  {
+   "id": "surds-and-indices-055",
+   "q": {
+    "en": "4^(-2) = ?",
+    "as": "4^(-2) = ?"
+   },
+   "options": [
+    {
+     "en": "-16",
+     "as": "-১৬"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "1/16",
+     "as": "১/১৬"
+    },
+    {
+     "en": "1/20",
+     "as": "১/২০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "a^(-n) = 1/a^n, so 4^(-2) = 1/4^2 = 1/16.",
+    "as": "a^(-n) = 1/a^n, গতিকে 4^(-2) = 1/4^2 = 1/16।"
+   }
+  },
+  {
+   "id": "surds-and-indices-056",
+   "q": {
+    "en": "4^(1/2) = ?",
+    "as": "4^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 4 is 2.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 4 ৰ 2-তম মূল 2।"
+   }
+  },
+  {
+   "id": "surds-and-indices-057",
+   "q": {
+    "en": "9^(1/2) = ?",
+    "as": "9^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 9 is 3.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 9 ৰ 2-তম মূল 3।"
+   }
+  },
+  {
+   "id": "surds-and-indices-058",
+   "q": {
+    "en": "16^(1/2) = ?",
+    "as": "16^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 16 is 4.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 16 ৰ 2-তম মূল 4।"
+   }
+  },
+  {
+   "id": "surds-and-indices-059",
+   "q": {
+    "en": "8^(1/3) = ?",
+    "as": "8^(1/3) = ?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The (1/3) power is the 3-th root, and the 3-th root of 8 is 2.",
+    "as": "(1/3) ঘাত হৈছে 3-তম মূল, আৰু 8 ৰ 3-তম মূল 2।"
+   }
+  },
+  {
+   "id": "surds-and-indices-060",
+   "q": {
+    "en": "27^(1/3) = ?",
+    "as": "27^(1/3) = ?"
+   },
+   "options": [
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The (1/3) power is the 3-th root, and the 3-th root of 27 is 3.",
+    "as": "(1/3) ঘাত হৈছে 3-তম মূল, আৰু 27 ৰ 3-তম মূল 3।"
+   }
+  },
+  {
+   "id": "surds-and-indices-061",
+   "q": {
+    "en": "25^(1/2) = ?",
+    "as": "25^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 25 is 5.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 25 ৰ 2-তম মূল 5।"
+   }
+  },
+  {
+   "id": "surds-and-indices-062",
+   "q": {
+    "en": "36^(1/2) = ?",
+    "as": "36^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 36 is 6.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 36 ৰ 2-তম মূল 6।"
+   }
+  },
+  {
+   "id": "surds-and-indices-063",
+   "q": {
+    "en": "64^(1/2) = ?",
+    "as": "64^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 64 is 8.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 64 ৰ 2-তম মূল 8।"
+   }
+  },
+  {
+   "id": "surds-and-indices-064",
+   "q": {
+    "en": "81^(1/2) = ?",
+    "as": "81^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "81",
+     "as": "৮১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 81 is 9.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 81 ৰ 2-তম মূল 9।"
+   }
+  },
+  {
+   "id": "surds-and-indices-065",
+   "q": {
+    "en": "100^(1/2) = ?",
+    "as": "100^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 100 is 10.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 100 ৰ 2-তম মূল 10।"
+   }
+  },
+  {
+   "id": "surds-and-indices-066",
+   "q": {
+    "en": "125^(1/3) = ?",
+    "as": "125^(1/3) = ?"
+   },
+   "options": [
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The (1/3) power is the 3-th root, and the 3-th root of 125 is 4.",
+    "as": "(1/3) ঘাত হৈছে 3-তম মূল, আৰু 125 ৰ 3-তম মূল 4।"
+   }
+  },
+  {
+   "id": "surds-and-indices-067",
+   "q": {
+    "en": "32^(1/2) = ?",
+    "as": "32^(1/2) = ?"
+   },
+   "options": [
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The (1/2) power is the 2-th root, and the 2-th root of 32 is 5.",
+    "as": "(1/2) ঘাত হৈছে 2-তম মূল, আৰু 32 ৰ 2-তম মূল 5।"
+   }
+  },
+  {
+   "id": "surds-and-indices-068",
+   "q": {
+    "en": "sqrt(2) x sqrt(8) = ?",
+    "as": "sqrt(2) x sqrt(8) = ?"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(2 x 8) = sqrt(16) = 4.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(2 x 8) = sqrt(16) = 4।"
+   }
+  },
+  {
+   "id": "surds-and-indices-069",
+   "q": {
+    "en": "sqrt(3) x sqrt(12) = ?",
+    "as": "sqrt(3) x sqrt(12) = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(3 x 12) = sqrt(36) = 6.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(3 x 12) = sqrt(36) = 6।"
+   }
+  },
+  {
+   "id": "surds-and-indices-070",
+   "q": {
+    "en": "sqrt(5) x sqrt(20) = ?",
+    "as": "sqrt(5) x sqrt(20) = ?"
+   },
+   "options": [
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(5 x 20) = sqrt(100) = 10.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(5 x 20) = sqrt(100) = 10।"
+   }
+  },
+  {
+   "id": "surds-and-indices-071",
+   "q": {
+    "en": "sqrt(2) x sqrt(18) = ?",
+    "as": "sqrt(2) x sqrt(18) = ?"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(2 x 18) = sqrt(36) = 6.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(2 x 18) = sqrt(36) = 6।"
+   }
+  },
+  {
+   "id": "surds-and-indices-072",
+   "q": {
+    "en": "sqrt(3) x sqrt(27) = ?",
+    "as": "sqrt(3) x sqrt(27) = ?"
+   },
+   "options": [
+    {
+     "en": "81",
+     "as": "৮১"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(3 x 27) = sqrt(81) = 9.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(3 x 27) = sqrt(81) = 9।"
+   }
+  },
+  {
+   "id": "surds-and-indices-073",
+   "q": {
+    "en": "sqrt(5) x sqrt(45) = ?",
+    "as": "sqrt(5) x sqrt(45) = ?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "225",
+     "as": "২২৫"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(5 x 45) = sqrt(225) = 15.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(5 x 45) = sqrt(225) = 15।"
+   }
+  },
+  {
+   "id": "surds-and-indices-074",
+   "q": {
+    "en": "sqrt(2) x sqrt(32) = ?",
+    "as": "sqrt(2) x sqrt(32) = ?"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "34",
+     "as": "৩৪"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(2 x 32) = sqrt(64) = 8.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(2 x 32) = sqrt(64) = 8।"
+   }
+  },
+  {
+   "id": "surds-and-indices-075",
+   "q": {
+    "en": "sqrt(7) x sqrt(28) = ?",
+    "as": "sqrt(7) x sqrt(28) = ?"
+   },
+   "options": [
+    {
+     "en": "196",
+     "as": "১৯৬"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(7 x 28) = sqrt(196) = 14.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(7 x 28) = sqrt(196) = 14।"
+   }
+  },
+  {
+   "id": "surds-and-indices-076",
+   "q": {
+    "en": "sqrt(3) x sqrt(48) = ?",
+    "as": "sqrt(3) x sqrt(48) = ?"
+   },
+   "options": [
+    {
+     "en": "144",
+     "as": "১৪৪"
+    },
+    {
+     "en": "51",
+     "as": "৫১"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(3 x 48) = sqrt(144) = 12.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(3 x 48) = sqrt(144) = 12।"
+   }
+  },
+  {
+   "id": "surds-and-indices-077",
+   "q": {
+    "en": "sqrt(2) x sqrt(50) = ?",
+    "as": "sqrt(2) x sqrt(50) = ?"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "52",
+     "as": "৫২"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(2 x 50) = sqrt(100) = 10.",
+    "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(2 x 50) = sqrt(100) = 10।"
+   }
+  },
+  {
+   "id": "surds-and-indices-078",
+   "q": {
+    "en": "a^m x a^n equals ?",
+    "as": "a^m x a^n সমান ?"
+   },
+   "options": [
+    {
+     "en": "a^(mn)",
+     "as": "a^(mn)"
+    },
+    {
+     "en": "a^(m+n)",
+     "as": "a^(m+n)"
+    },
+    {
+     "en": "a^(m-n)",
+     "as": "a^(m-n)"
+    },
+    {
+     "en": "a^(n-m)",
+     "as": "a^(n-m)"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "When the bases are the same the exponents are added.",
+    "as": "ভিত্তি একে হ'লে ঘাতবোৰ যোগ কৰা হয়।"
+   }
+  },
+  {
+   "id": "surds-and-indices-079",
+   "q": {
+    "en": "a^m / a^n equals ?",
+    "as": "a^m / a^n সমান ?"
+   },
+   "options": [
+    {
+     "en": "a^(m+n)",
+     "as": "a^(m+n)"
+    },
+    {
+     "en": "a^(mn)",
+     "as": "a^(mn)"
+    },
+    {
+     "en": "a^(m-n)",
+     "as": "a^(m-n)"
+    },
+    {
+     "en": "a^(n/m)",
+     "as": "a^(n/m)"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "When the bases are the same the exponents are subtracted.",
+    "as": "ভিত্তি একে হ'লে ঘাতবোৰ বিয়োগ কৰা হয়।"
+   }
+  },
+  {
+   "id": "surds-and-indices-080",
+   "q": {
+    "en": "Any non-zero number raised to the power zero equals ?",
+    "as": "শূন্য নহোৱা যিকোনো সংখ্যাৰ শূন্য ঘাত সমান ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "the number itself",
+     "as": "the number itself"
+    },
+    {
+     "en": "infinity",
+     "as": "infinity"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "By definition a^0 = 1 for every non-zero a.",
+    "as": "সংজ্ঞা অনুসৰি শূন্য নহোৱা প্ৰতিটো a ৰ বাবে a^0 = 1।"
+   }
+  },
+  {
+   "id": "surds-and-indices-081",
+   "q": {
+    "en": "The square root of a negative number is ?",
+    "as": "ঋণাত্মক সংখ্যাৰ বৰ্গমূল ?"
+   },
+   "options": [
+    {
+     "en": "not a real number",
+     "as": "not a real number"
+    },
+    {
+     "en": "a negative real number",
+     "as": "a negative real number"
+    },
+    {
+     "en": "zero",
+     "as": "zero"
+    },
+    {
+     "en": "always one",
+     "as": "always one"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "No real number squared gives a negative result, so the square root is not real.",
+    "as": "কোনো বাস্তৱ সংখ্যাৰ বৰ্গ ঋণাত্মক নহয়, গতিকে বৰ্গমূল বাস্তৱ নহয়।"
+   }
+  }
+ ],
+ "geometry": [
+  {
+   "id": "geometry-001",
+   "q": {
+    "en": "Two angles of a triangle are 60 and 70. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 60 আৰু 70। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "50 degrees",
+     "as": "৫০ degrees"
+    },
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 60 - 70 = 50 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 60 - 70 = 50 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-002",
+   "q": {
+    "en": "Two angles of a triangle are 50 and 60. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 50 আৰু 60। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 50 - 60 = 70 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 50 - 60 = 70 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-003",
+   "q": {
+    "en": "Two angles of a triangle are 45 and 55. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 45 আৰু 55। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    },
+    {
+     "en": "125 degrees",
+     "as": "১২৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 45 - 55 = 80 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 45 - 55 = 80 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-004",
+   "q": {
+    "en": "Two angles of a triangle are 30 and 40. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 30 আৰু 40। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 30 - 40 = 110 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 30 - 40 = 110 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-005",
+   "q": {
+    "en": "Two angles of a triangle are 70 and 80. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 70 আৰু 80। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    },
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 70 - 80 = 30 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 70 - 80 = 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-006",
+   "q": {
+    "en": "Two angles of a triangle are 65 and 45. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 65 আৰু 45। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "115 degrees",
+     "as": "১১৫ degrees"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 65 - 45 = 70 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 65 - 45 = 70 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-007",
+   "q": {
+    "en": "Two angles of a triangle are 90 and 45. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 90 আৰু 45। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ degrees"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ degrees"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ degrees"
+    },
+    {
+     "en": "55 degrees",
+     "as": "৫৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 90 - 45 = 45 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 90 - 45 = 45 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-008",
+   "q": {
+    "en": "Two angles of a triangle are 35 and 55. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 35 আৰু 55। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "145 degrees",
+     "as": "১৪৫ degrees"
+    },
+    {
+     "en": "125 degrees",
+     "as": "১২৫ degrees"
+    },
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 35 - 55 = 90 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 35 - 55 = 90 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-009",
+   "q": {
+    "en": "Two angles of a triangle are 25 and 85. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 25 আৰু 85। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    },
+    {
+     "en": "155 degrees",
+     "as": "১৫৫ degrees"
+    },
+    {
+     "en": "95 degrees",
+     "as": "৯৫ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 25 - 85 = 70 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 25 - 85 = 70 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-010",
+   "q": {
+    "en": "Two angles of a triangle are 100 and 40. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 100 আৰু 40। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    },
+    {
+     "en": "50 degrees",
+     "as": "৫০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 100 - 40 = 40 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 100 - 40 = 40 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-011",
+   "q": {
+    "en": "Two angles of a triangle are 110 and 30. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 110 আৰু 30। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 110 - 30 = 40 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 110 - 30 = 40 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-012",
+   "q": {
+    "en": "Two angles of a triangle are 75 and 65. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 75 আৰু 65। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "105 degrees",
+     "as": "১০৫ degrees"
+    },
+    {
+     "en": "115 degrees",
+     "as": "১১৫ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 75 - 65 = 40 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 75 - 65 = 40 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-013",
+   "q": {
+    "en": "Two angles of a triangle are 20 and 130. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 20 আৰু 130। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "160 degrees",
+     "as": "১৬০ degrees"
+    },
+    {
+     "en": "50 degrees",
+     "as": "৫০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 20 - 130 = 30 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 20 - 130 = 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-014",
+   "q": {
+    "en": "Two angles of a triangle are 15 and 140. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 15 আৰু 140। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "155 degrees",
+     "as": "১৫৫ degrees"
+    },
+    {
+     "en": "25 degrees",
+     "as": "২৫ degrees"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 15 - 140 = 25 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 15 - 140 = 25 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-015",
+   "q": {
+    "en": "Two angles of a triangle are 95 and 55. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 95 আৰু 55। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "85 degrees",
+     "as": "৮৫ degrees"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "125 degrees",
+     "as": "১২৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 95 - 55 = 30 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 95 - 55 = 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-016",
+   "q": {
+    "en": "Two angles of a triangle are 80 and 60. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 80 আৰু 60। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 80 - 60 = 40 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 80 - 60 = 40 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-017",
+   "q": {
+    "en": "Two angles of a triangle are 100 and 50. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 100 আৰু 50। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    },
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 100 - 50 = 30 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 100 - 50 = 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-018",
+   "q": {
+    "en": "Two angles of a triangle are 120 and 40. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 120 আৰু 40। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "160 degrees",
+     "as": "১৬০ degrees"
+    },
+    {
+     "en": "20 degrees",
+     "as": "২০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 120 - 40 = 20 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 120 - 40 = 20 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-019",
+   "q": {
+    "en": "Two angles of a triangle are 30 and 90. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 30 আৰু 90। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 30 - 90 = 60 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 30 - 90 = 60 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-020",
+   "q": {
+    "en": "Two angles of a triangle are 50 and 100. The third angle is —",
+    "as": "এটা ত্ৰিভুজৰ দুটা কোণ 50 আৰু 100। তৃতীয় কোণটো —"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The angles of a triangle add to 180 degrees, so the third angle = 180 - 50 - 100 = 30 degrees.",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল 180 ডিগ্ৰী, গতিকে তৃতীয় কোণ = 180 - 50 - 100 = 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-021",
+   "q": {
+    "en": "The supplement of 30 degrees is —",
+    "as": "30 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "210 degrees",
+     "as": "২১০ degrees"
+    },
+    {
+     "en": "160 degrees",
+     "as": "১৬০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 30 = 150 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 30 = 150 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-022",
+   "q": {
+    "en": "The supplement of 45 degrees is —",
+    "as": "45 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "45 degrees",
+     "as": "৪৫ degrees"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ degrees"
+    },
+    {
+     "en": "225 degrees",
+     "as": "২২৫ degrees"
+    },
+    {
+     "en": "145 degrees",
+     "as": "১৪৫ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 45 = 135 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 45 = 135 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-023",
+   "q": {
+    "en": "The supplement of 60 degrees is —",
+    "as": "60 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "240 degrees",
+     "as": "২৪০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 60 = 120 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 60 = 120 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-024",
+   "q": {
+    "en": "The supplement of 75 degrees is —",
+    "as": "75 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "15 degrees",
+     "as": "১৫ degrees"
+    },
+    {
+     "en": "255 degrees",
+     "as": "২৫৫ degrees"
+    },
+    {
+     "en": "115 degrees",
+     "as": "১১৫ degrees"
+    },
+    {
+     "en": "105 degrees",
+     "as": "১০৫ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 75 = 105 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 75 = 105 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-025",
+   "q": {
+    "en": "The supplement of 90 degrees is —",
+    "as": "90 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "90 degrees",
+     "as": "৯০ degrees"
+    },
+    {
+     "en": "270 degrees",
+     "as": "২৭০ degrees"
+    },
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 90 = 90 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 90 = 90 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-026",
+   "q": {
+    "en": "The supplement of 110 degrees is —",
+    "as": "110 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "20 degrees",
+     "as": "২০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "290 degrees",
+     "as": "২৯০ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 110 = 70 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 110 = 70 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-027",
+   "q": {
+    "en": "The supplement of 120 degrees is —",
+    "as": "120 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "300 degrees",
+     "as": "৩০০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 120 = 60 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 120 = 60 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-028",
+   "q": {
+    "en": "The supplement of 135 degrees is —",
+    "as": "135 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "315 degrees",
+     "as": "৩১৫ degrees"
+    },
+    {
+     "en": "55 degrees",
+     "as": "৫৫ degrees"
+    },
+    {
+     "en": "35 degrees",
+     "as": "৩৫ degrees"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 135 = 45 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 135 = 45 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-029",
+   "q": {
+    "en": "The supplement of 150 degrees is —",
+    "as": "150 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "330 degrees",
+     "as": "৩৩০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 150 = 30 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 150 = 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-030",
+   "q": {
+    "en": "The supplement of 25 degrees is —",
+    "as": "25 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "65 degrees",
+     "as": "৬৫ degrees"
+    },
+    {
+     "en": "155 degrees",
+     "as": "১৫৫ degrees"
+    },
+    {
+     "en": "205 degrees",
+     "as": "২০৫ degrees"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 25 = 155 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 25 = 155 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-031",
+   "q": {
+    "en": "The supplement of 65 degrees is —",
+    "as": "65 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "25 degrees",
+     "as": "২৫ degrees"
+    },
+    {
+     "en": "245 degrees",
+     "as": "২৪৫ degrees"
+    },
+    {
+     "en": "115 degrees",
+     "as": "১১৫ degrees"
+    },
+    {
+     "en": "125 degrees",
+     "as": "১২৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 65 = 115 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 65 = 115 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-032",
+   "q": {
+    "en": "The supplement of 85 degrees is —",
+    "as": "85 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "5 degrees",
+     "as": "৫ degrees"
+    },
+    {
+     "en": "265 degrees",
+     "as": "২৬৫ degrees"
+    },
+    {
+     "en": "105 degrees",
+     "as": "১০৫ degrees"
+    },
+    {
+     "en": "95 degrees",
+     "as": "৯৫ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 85 = 95 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 85 = 95 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-033",
+   "q": {
+    "en": "The supplement of 100 degrees is —",
+    "as": "100 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    },
+    {
+     "en": "10 degrees",
+     "as": "১০ degrees"
+    },
+    {
+     "en": "280 degrees",
+     "as": "২৮০ degrees"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 100 = 80 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 100 = 80 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-034",
+   "q": {
+    "en": "The supplement of 140 degrees is —",
+    "as": "140 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "50 degrees",
+     "as": "৫০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    },
+    {
+     "en": "320 degrees",
+     "as": "৩২০ degrees"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 140 = 40 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 140 = 40 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-035",
+   "q": {
+    "en": "The supplement of 15 degrees is —",
+    "as": "15 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "75 degrees",
+     "as": "৭৫ degrees"
+    },
+    {
+     "en": "195 degrees",
+     "as": "১৯৫ degrees"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ degrees"
+    },
+    {
+     "en": "175 degrees",
+     "as": "১৭৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 15 = 165 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 15 = 165 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-036",
+   "q": {
+    "en": "The supplement of 55 degrees is —",
+    "as": "55 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "35 degrees",
+     "as": "৩৫ degrees"
+    },
+    {
+     "en": "235 degrees",
+     "as": "২৩৫ degrees"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ degrees"
+    },
+    {
+     "en": "125 degrees",
+     "as": "১২৫ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 55 = 125 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 55 = 125 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-037",
+   "q": {
+    "en": "The supplement of 70 degrees is —",
+    "as": "70 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    },
+    {
+     "en": "20 degrees",
+     "as": "২০ degrees"
+    },
+    {
+     "en": "250 degrees",
+     "as": "২৫০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 70 = 110 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 70 = 110 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-038",
+   "q": {
+    "en": "The supplement of 125 degrees is —",
+    "as": "125 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "35 degrees",
+     "as": "৩৫ degrees"
+    },
+    {
+     "en": "55 degrees",
+     "as": "৫৫ degrees"
+    },
+    {
+     "en": "305 degrees",
+     "as": "৩০৫ degrees"
+    },
+    {
+     "en": "65 degrees",
+     "as": "৬৫ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 125 = 55 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 125 = 55 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-039",
+   "q": {
+    "en": "The supplement of 145 degrees is —",
+    "as": "145 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "55 degrees",
+     "as": "৫৫ degrees"
+    },
+    {
+     "en": "325 degrees",
+     "as": "৩২৫ degrees"
+    },
+    {
+     "en": "35 degrees",
+     "as": "৩৫ degrees"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 145 = 35 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 145 = 35 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-040",
+   "q": {
+    "en": "The supplement of 160 degrees is —",
+    "as": "160 ডিগ্ৰীৰ সম্পূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "340 degrees",
+     "as": "৩৪০ degrees"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "20 degrees",
+     "as": "২০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The supplement of an angle = 180 - angle = 180 - 160 = 20 degrees.",
+    "as": "কোণ এটাৰ সম্পূৰক = 180 - কোণ = 180 - 160 = 20 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-041",
+   "q": {
+    "en": "The complement of 10 degrees is —",
+    "as": "10 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    },
+    {
+     "en": "170 degrees",
+     "as": "১৭০ degrees"
+    },
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 10 = 80 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 10 = 80 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-042",
+   "q": {
+    "en": "The complement of 20 degrees is —",
+    "as": "20 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "160 degrees",
+     "as": "১৬০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 20 = 70 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 20 = 70 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-043",
+   "q": {
+    "en": "The complement of 30 degrees is —",
+    "as": "30 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 30 = 60 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 30 = 60 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-044",
+   "q": {
+    "en": "The complement of 40 degrees is —",
+    "as": "40 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "50 degrees",
+     "as": "৫০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 40 = 50 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 40 = 50 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-045",
+   "q": {
+    "en": "The complement of 45 degrees is —",
+    "as": "45 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "45 degrees",
+     "as": "৪৫ degrees"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ degrees"
+    },
+    {
+     "en": "55 degrees",
+     "as": "৫৫ degrees"
+    },
+    {
+     "en": "35 degrees",
+     "as": "৩৫ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 45 = 45 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 45 = 45 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-046",
+   "q": {
+    "en": "The complement of 50 degrees is —",
+    "as": "50 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    },
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "50 degrees",
+     "as": "৫০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 50 = 40 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 50 = 40 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-047",
+   "q": {
+    "en": "The complement of 55 degrees is —",
+    "as": "55 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "125 degrees",
+     "as": "১২৫ degrees"
+    },
+    {
+     "en": "145 degrees",
+     "as": "১৪৫ degrees"
+    },
+    {
+     "en": "35 degrees",
+     "as": "৩৫ degrees"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 55 = 35 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 55 = 35 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-048",
+   "q": {
+    "en": "The complement of 60 degrees is —",
+    "as": "60 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 60 = 30 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 60 = 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-049",
+   "q": {
+    "en": "The complement of 65 degrees is —",
+    "as": "65 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "25 degrees",
+     "as": "২৫ degrees"
+    },
+    {
+     "en": "115 degrees",
+     "as": "১১৫ degrees"
+    },
+    {
+     "en": "155 degrees",
+     "as": "১৫৫ degrees"
+    },
+    {
+     "en": "35 degrees",
+     "as": "৩৫ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 65 = 25 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 65 = 25 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-050",
+   "q": {
+    "en": "The complement of 70 degrees is —",
+    "as": "70 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "110 degrees",
+     "as": "১১০ degrees"
+    },
+    {
+     "en": "20 degrees",
+     "as": "২০ degrees"
+    },
+    {
+     "en": "160 degrees",
+     "as": "১৬০ degrees"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 70 = 20 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 70 = 20 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-051",
+   "q": {
+    "en": "The complement of 75 degrees is —",
+    "as": "75 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "105 degrees",
+     "as": "১০৫ degrees"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ degrees"
+    },
+    {
+     "en": "15 degrees",
+     "as": "১৫ degrees"
+    },
+    {
+     "en": "25 degrees",
+     "as": "২৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 75 = 15 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 75 = 15 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-052",
+   "q": {
+    "en": "The complement of 80 degrees is —",
+    "as": "80 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    },
+    {
+     "en": "170 degrees",
+     "as": "১৭০ degrees"
+    },
+    {
+     "en": "20 degrees",
+     "as": "২০ degrees"
+    },
+    {
+     "en": "10 degrees",
+     "as": "১০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 80 = 10 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 80 = 10 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-053",
+   "q": {
+    "en": "The complement of 15 degrees is —",
+    "as": "15 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "75 degrees",
+     "as": "৭৫ degrees"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ degrees"
+    },
+    {
+     "en": "105 degrees",
+     "as": "১০৫ degrees"
+    },
+    {
+     "en": "85 degrees",
+     "as": "৮৫ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 15 = 75 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 15 = 75 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-054",
+   "q": {
+    "en": "The complement of 25 degrees is —",
+    "as": "25 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "155 degrees",
+     "as": "১৫৫ degrees"
+    },
+    {
+     "en": "65 degrees",
+     "as": "৬৫ degrees"
+    },
+    {
+     "en": "115 degrees",
+     "as": "১১৫ degrees"
+    },
+    {
+     "en": "75 degrees",
+     "as": "৭৫ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 25 = 65 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 25 = 65 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-055",
+   "q": {
+    "en": "The complement of 35 degrees is —",
+    "as": "35 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "145 degrees",
+     "as": "১৪৫ degrees"
+    },
+    {
+     "en": "125 degrees",
+     "as": "১২৫ degrees"
+    },
+    {
+     "en": "55 degrees",
+     "as": "৫৫ degrees"
+    },
+    {
+     "en": "65 degrees",
+     "as": "৬৫ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 35 = 55 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 35 = 55 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-056",
+   "q": {
+    "en": "The complement of 5 degrees is —",
+    "as": "5 ডিগ্ৰীৰ পৰিপূৰক কোণ —"
+   },
+   "options": [
+    {
+     "en": "175 degrees",
+     "as": "১৭৫ degrees"
+    },
+    {
+     "en": "95 degrees",
+     "as": "৯৫ degrees"
+    },
+    {
+     "en": "75 degrees",
+     "as": "৭৫ degrees"
+    },
+    {
+     "en": "85 degrees",
+     "as": "৮৫ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The complement of an angle = 90 - angle = 90 - 5 = 85 degrees.",
+    "as": "কোণ এটাৰ পৰিপূৰক = 90 - কোণ = 90 - 5 = 85 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-057",
+   "q": {
+    "en": "In a right triangle the two legs are 3 cm and 4 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 3 ছেমি আৰু 4 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "5 cm",
+     "as": "৫ ছেমি"
+    },
+    {
+     "en": "7 cm",
+     "as": "৭ ছেমি"
+    },
+    {
+     "en": "6 cm",
+     "as": "৬ ছেমি"
+    },
+    {
+     "en": "4 cm",
+     "as": "৪ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(3^2 + 4^2) = sqrt(25) = 5 cm.",
+    "as": "অতিভুজ = sqrt(3^2 + 4^2) = sqrt(25) = 5 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-058",
+   "q": {
+    "en": "In a right triangle the two legs are 6 cm and 8 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 6 ছেমি আৰু 8 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "14 cm",
+     "as": "১৪ ছেমি"
+    },
+    {
+     "en": "10 cm",
+     "as": "১০ ছেমি"
+    },
+    {
+     "en": "11 cm",
+     "as": "১১ ছেমি"
+    },
+    {
+     "en": "9 cm",
+     "as": "৯ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(6^2 + 8^2) = sqrt(100) = 10 cm.",
+    "as": "অতিভুজ = sqrt(6^2 + 8^2) = sqrt(100) = 10 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-059",
+   "q": {
+    "en": "In a right triangle the two legs are 5 cm and 12 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 5 ছেমি আৰু 12 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "17 cm",
+     "as": "১৭ ছেমি"
+    },
+    {
+     "en": "14 cm",
+     "as": "১৪ ছেমি"
+    },
+    {
+     "en": "13 cm",
+     "as": "১৩ ছেমি"
+    },
+    {
+     "en": "12 cm",
+     "as": "১২ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(5^2 + 12^2) = sqrt(169) = 13 cm.",
+    "as": "অতিভুজ = sqrt(5^2 + 12^2) = sqrt(169) = 13 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-060",
+   "q": {
+    "en": "In a right triangle the two legs are 8 cm and 15 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 8 ছেমি আৰু 15 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "23 cm",
+     "as": "২৩ ছেমি"
+    },
+    {
+     "en": "18 cm",
+     "as": "১৮ ছেমি"
+    },
+    {
+     "en": "16 cm",
+     "as": "১৬ ছেমি"
+    },
+    {
+     "en": "17 cm",
+     "as": "১৭ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(8^2 + 15^2) = sqrt(289) = 17 cm.",
+    "as": "অতিভুজ = sqrt(8^2 + 15^2) = sqrt(289) = 17 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-061",
+   "q": {
+    "en": "In a right triangle the two legs are 7 cm and 24 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 7 ছেমি আৰু 24 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "25 cm",
+     "as": "২৫ ছেমি"
+    },
+    {
+     "en": "31 cm",
+     "as": "৩১ ছেমি"
+    },
+    {
+     "en": "26 cm",
+     "as": "২৬ ছেমি"
+    },
+    {
+     "en": "24 cm",
+     "as": "২৪ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(7^2 + 24^2) = sqrt(625) = 25 cm.",
+    "as": "অতিভুজ = sqrt(7^2 + 24^2) = sqrt(625) = 25 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-062",
+   "q": {
+    "en": "In a right triangle the two legs are 9 cm and 12 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 9 ছেমি আৰু 12 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "21 cm",
+     "as": "২১ ছেমি"
+    },
+    {
+     "en": "15 cm",
+     "as": "১৫ ছেমি"
+    },
+    {
+     "en": "16 cm",
+     "as": "১৬ ছেমি"
+    },
+    {
+     "en": "14 cm",
+     "as": "১৪ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(9^2 + 12^2) = sqrt(225) = 15 cm.",
+    "as": "অতিভুজ = sqrt(9^2 + 12^2) = sqrt(225) = 15 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-063",
+   "q": {
+    "en": "In a right triangle the two legs are 20 cm and 21 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 20 ছেমি আৰু 21 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "41 cm",
+     "as": "৪১ ছেমি"
+    },
+    {
+     "en": "30 cm",
+     "as": "৩০ ছেমি"
+    },
+    {
+     "en": "29 cm",
+     "as": "২৯ ছেমি"
+    },
+    {
+     "en": "28 cm",
+     "as": "২৮ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(20^2 + 21^2) = sqrt(841) = 29 cm.",
+    "as": "অতিভুজ = sqrt(20^2 + 21^2) = sqrt(841) = 29 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-064",
+   "q": {
+    "en": "In a right triangle the two legs are 12 cm and 16 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 12 ছেমি আৰু 16 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "28 cm",
+     "as": "২৮ ছেমি"
+    },
+    {
+     "en": "21 cm",
+     "as": "২১ ছেমি"
+    },
+    {
+     "en": "19 cm",
+     "as": "১৯ ছেমি"
+    },
+    {
+     "en": "20 cm",
+     "as": "২০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(12^2 + 16^2) = sqrt(400) = 20 cm.",
+    "as": "অতিভুজ = sqrt(12^2 + 16^2) = sqrt(400) = 20 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-065",
+   "q": {
+    "en": "In a right triangle the two legs are 10 cm and 24 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 10 ছেমি আৰু 24 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "26 cm",
+     "as": "২৬ ছেমি"
+    },
+    {
+     "en": "34 cm",
+     "as": "৩৪ ছেমি"
+    },
+    {
+     "en": "27 cm",
+     "as": "২৭ ছেমি"
+    },
+    {
+     "en": "25 cm",
+     "as": "২৫ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(10^2 + 24^2) = sqrt(676) = 26 cm.",
+    "as": "অতিভুজ = sqrt(10^2 + 24^2) = sqrt(676) = 26 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-066",
+   "q": {
+    "en": "In a right triangle the two legs are 15 cm and 20 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 15 ছেমি আৰু 20 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "35 cm",
+     "as": "৩৫ ছেমি"
+    },
+    {
+     "en": "25 cm",
+     "as": "২৫ ছেমি"
+    },
+    {
+     "en": "26 cm",
+     "as": "২৬ ছেমি"
+    },
+    {
+     "en": "24 cm",
+     "as": "২৪ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(15^2 + 20^2) = sqrt(625) = 25 cm.",
+    "as": "অতিভুজ = sqrt(15^2 + 20^2) = sqrt(625) = 25 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-067",
+   "q": {
+    "en": "In a right triangle the two legs are 9 cm and 40 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 9 ছেমি আৰু 40 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "49 cm",
+     "as": "৪৯ ছেমি"
+    },
+    {
+     "en": "42 cm",
+     "as": "৪২ ছেমি"
+    },
+    {
+     "en": "41 cm",
+     "as": "৪১ ছেমি"
+    },
+    {
+     "en": "40 cm",
+     "as": "৪০ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(9^2 + 40^2) = sqrt(1681) = 41 cm.",
+    "as": "অতিভুজ = sqrt(9^2 + 40^2) = sqrt(1681) = 41 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-068",
+   "q": {
+    "en": "In a right triangle the two legs are 16 cm and 30 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 16 ছেমি আৰু 30 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "46 cm",
+     "as": "৪৬ ছেমি"
+    },
+    {
+     "en": "35 cm",
+     "as": "৩৫ ছেমি"
+    },
+    {
+     "en": "33 cm",
+     "as": "৩৩ ছেমি"
+    },
+    {
+     "en": "34 cm",
+     "as": "৩৪ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(16^2 + 30^2) = sqrt(1156) = 34 cm.",
+    "as": "অতিভুজ = sqrt(16^2 + 30^2) = sqrt(1156) = 34 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-069",
+   "q": {
+    "en": "In a right triangle the two legs are 18 cm and 24 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 18 ছেমি আৰু 24 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "30 cm",
+     "as": "৩০ ছেমি"
+    },
+    {
+     "en": "42 cm",
+     "as": "৪২ ছেমি"
+    },
+    {
+     "en": "31 cm",
+     "as": "৩১ ছেমি"
+    },
+    {
+     "en": "29 cm",
+     "as": "২৯ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(18^2 + 24^2) = sqrt(900) = 30 cm.",
+    "as": "অতিভুজ = sqrt(18^2 + 24^2) = sqrt(900) = 30 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-070",
+   "q": {
+    "en": "In a right triangle the two legs are 24 cm and 32 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 24 ছেমি আৰু 32 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "56 cm",
+     "as": "৫৬ ছেমি"
+    },
+    {
+     "en": "40 cm",
+     "as": "৪০ ছেমি"
+    },
+    {
+     "en": "41 cm",
+     "as": "৪১ ছেমি"
+    },
+    {
+     "en": "39 cm",
+     "as": "৩৯ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(24^2 + 32^2) = sqrt(1600) = 40 cm.",
+    "as": "অতিভুজ = sqrt(24^2 + 32^2) = sqrt(1600) = 40 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-071",
+   "q": {
+    "en": "In a right triangle the two legs are 14 cm and 48 cm. The hypotenuse is —",
+    "as": "এটা সমকোণী ত্ৰিভুজৰ দুটা বাহু 14 ছেমি আৰু 48 ছেমি। অতিভুজ —"
+   },
+   "options": [
+    {
+     "en": "62 cm",
+     "as": "৬২ ছেমি"
+    },
+    {
+     "en": "51 cm",
+     "as": "৫১ ছেমি"
+    },
+    {
+     "en": "50 cm",
+     "as": "৫০ ছেমি"
+    },
+    {
+     "en": "49 cm",
+     "as": "৪৯ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Hypotenuse = sqrt(14^2 + 48^2) = sqrt(2500) = 50 cm.",
+    "as": "অতিভুজ = sqrt(14^2 + 48^2) = sqrt(2500) = 50 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-072",
+   "q": {
+    "en": "The base of a triangle is 10 cm and its height is 6 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 10 ছেমি আৰু উচ্চতা 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "35 sq cm",
+     "as": "৩৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "25 sq cm",
+     "as": "২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 10 x 6 = 30 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 10 x 6 = 30 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-073",
+   "q": {
+    "en": "The base of a triangle is 12 cm and its height is 8 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 12 ছেমি আৰু উচ্চতা 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "53 sq cm",
+     "as": "৫৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "43 sq cm",
+     "as": "৪৩ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 12 x 8 = 48 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 12 x 8 = 48 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-074",
+   "q": {
+    "en": "The base of a triangle is 15 cm and its height is 10 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 15 ছেমি আৰু উচ্চতা 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "150 sq cm",
+     "as": "১৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "75 sq cm",
+     "as": "৭৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "80 sq cm",
+     "as": "৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "70 sq cm",
+     "as": "৭০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 15 x 10 = 75 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 15 x 10 = 75 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-075",
+   "q": {
+    "en": "The base of a triangle is 20 cm and its height is 5 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 20 ছেমি আৰু উচ্চতা 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "55 sq cm",
+     "as": "৫৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "50 sq cm",
+     "as": "৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "45 sq cm",
+     "as": "৪৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 20 x 5 = 50 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 20 x 5 = 50 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-076",
+   "q": {
+    "en": "The base of a triangle is 8 cm and its height is 7 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 8 ছেমি আৰু উচ্চতা 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "33 sq cm",
+     "as": "৩৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "23 sq cm",
+     "as": "২৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "28 sq cm",
+     "as": "২৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 8 x 7 = 28 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 8 x 7 = 28 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-077",
+   "q": {
+    "en": "The base of a triangle is 14 cm and its height is 9 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 14 ছেমি আৰু উচ্চতা 9 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "63 sq cm",
+     "as": "৬৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "126 sq cm",
+     "as": "১২৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "68 sq cm",
+     "as": "৬৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "58 sq cm",
+     "as": "৫৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 14 x 9 = 63 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 14 x 9 = 63 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-078",
+   "q": {
+    "en": "The base of a triangle is 16 cm and its height is 11 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 16 ছেমি আৰু উচ্চতা 11 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "93 sq cm",
+     "as": "৯৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "83 sq cm",
+     "as": "৮৩ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 16 x 11 = 88 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 16 x 11 = 88 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-079",
+   "q": {
+    "en": "The base of a triangle is 18 cm and its height is 6 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 18 ছেমি আৰু উচ্চতা 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "108 sq cm",
+     "as": "১০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "59 sq cm",
+     "as": "৫৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "54 sq cm",
+     "as": "৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "49 sq cm",
+     "as": "৪৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 18 x 6 = 54 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 18 x 6 = 54 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-080",
+   "q": {
+    "en": "The base of a triangle is 24 cm and its height is 10 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 24 ছেমি আৰু উচ্চতা 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "240 sq cm",
+     "as": "২৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "125 sq cm",
+     "as": "১২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "115 sq cm",
+     "as": "১১৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "120 sq cm",
+     "as": "১২০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 24 x 10 = 120 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 24 x 10 = 120 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-081",
+   "q": {
+    "en": "The base of a triangle is 30 cm and its height is 12 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 30 ছেমি আৰু উচ্চতা 12 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "180 sq cm",
+     "as": "১৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "360 sq cm",
+     "as": "৩৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "185 sq cm",
+     "as": "১৮৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "175 sq cm",
+     "as": "১৭৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 30 x 12 = 180 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 30 x 12 = 180 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-082",
+   "q": {
+    "en": "The base of a triangle is 25 cm and its height is 8 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 25 ছেমি আৰু উচ্চতা 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "200 sq cm",
+     "as": "২০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "105 sq cm",
+     "as": "১০৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "95 sq cm",
+     "as": "৯৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 25 x 8 = 100 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 25 x 8 = 100 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-083",
+   "q": {
+    "en": "The base of a triangle is 36 cm and its height is 5 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 36 ছেমি আৰু উচ্চতা 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "180 sq cm",
+     "as": "১৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "95 sq cm",
+     "as": "৯৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "90 sq cm",
+     "as": "৯০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "85 sq cm",
+     "as": "৮৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 36 x 5 = 90 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 36 x 5 = 90 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-084",
+   "q": {
+    "en": "The base of a triangle is 9 cm and its height is 4 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 9 ছেমি আৰু উচ্চতা 4 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "23 sq cm",
+     "as": "২৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "13 sq cm",
+     "as": "১৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "18 sq cm",
+     "as": "১৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 9 x 4 = 18 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 9 x 4 = 18 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-085",
+   "q": {
+    "en": "The base of a triangle is 22 cm and its height is 7 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 22 ছেমি আৰু উচ্চতা 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "77 sq cm",
+     "as": "৭৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "154 sq cm",
+     "as": "১৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "82 sq cm",
+     "as": "৮২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "72 sq cm",
+     "as": "৭২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a triangle = (1/2) x base x height = (1/2) x 22 x 7 = 77 sq cm.",
+    "as": "ত্ৰিভুজৰ কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 22 x 7 = 77 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-086",
+   "q": {
+    "en": "The radius of a circle is 7 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 7 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "44 sq cm",
+     "as": "৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "154 sq cm",
+     "as": "১৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "308 sq cm",
+     "as": "৩০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "165 sq cm",
+     "as": "১৬৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 7 x 7 = 154 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 7 x 7 = 154 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-087",
+   "q": {
+    "en": "The radius of a circle is 7 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 7 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "154 cm",
+     "as": "১৫৪ ছেমি"
+    },
+    {
+     "en": "88 cm",
+     "as": "৮৮ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    },
+    {
+     "en": "55 cm",
+     "as": "৫৫ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 7 = 44 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 7 = 44 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-088",
+   "q": {
+    "en": "The radius of a circle is 14 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 14 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1232 sq cm",
+     "as": "১২৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "627 sq cm",
+     "as": "৬২৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "616 sq cm",
+     "as": "৬১৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 14 x 14 = 616 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 14 x 14 = 616 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-089",
+   "q": {
+    "en": "The radius of a circle is 14 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 14 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "88 cm",
+     "as": "৮৮ ছেমি"
+    },
+    {
+     "en": "616 cm",
+     "as": "৬১৬ ছেমি"
+    },
+    {
+     "en": "176 cm",
+     "as": "১৭৬ ছেমি"
+    },
+    {
+     "en": "99 cm",
+     "as": "৯৯ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 14 = 88 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 14 = 88 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-090",
+   "q": {
+    "en": "The radius of a circle is 21 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 21 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "132 sq cm",
+     "as": "১৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1386 sq cm",
+     "as": "১৩৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2772 sq cm",
+     "as": "২৭৭২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1397 sq cm",
+     "as": "১৩৯৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 21 x 21 = 1386 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 21 x 21 = 1386 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-091",
+   "q": {
+    "en": "The radius of a circle is 21 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 21 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1386 cm",
+     "as": "১৩৮৬ ছেমি"
+    },
+    {
+     "en": "264 cm",
+     "as": "২৬৪ ছেমি"
+    },
+    {
+     "en": "132 cm",
+     "as": "১৩২ ছেমি"
+    },
+    {
+     "en": "143 cm",
+     "as": "১৪৩ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 21 = 132 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 21 = 132 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-092",
+   "q": {
+    "en": "The radius of a circle is 3.5 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 3.5 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "22 sq cm",
+     "as": "২২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "77 sq cm",
+     "as": "৭৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "49.5 sq cm",
+     "as": "৪৯.৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "38.5 sq cm",
+     "as": "৩৮.৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 3.5 x 3.5 = 38.5 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 3.5 x 3.5 = 38.5 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-093",
+   "q": {
+    "en": "The radius of a circle is 3.5 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 3.5 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "22 cm",
+     "as": "২২ ছেমি"
+    },
+    {
+     "en": "38.5 cm",
+     "as": "৩৮.৫ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    },
+    {
+     "en": "33 cm",
+     "as": "৩৩ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 3.5 = 22 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 3.5 = 22 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-094",
+   "q": {
+    "en": "The radius of a circle is 10 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 10 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "62.86 sq cm",
+     "as": "৬২.৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "314.29 sq cm",
+     "as": "৩১৪.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "628.58 sq cm",
+     "as": "৬২৮.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "325.29 sq cm",
+     "as": "৩২৫.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 10 x 10 = 314.29 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 10 x 10 = 314.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-095",
+   "q": {
+    "en": "The radius of a circle is 10 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 10 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "314.29 cm",
+     "as": "৩১৪.২৯ ছেমি"
+    },
+    {
+     "en": "125.72 cm",
+     "as": "১২৫.৭২ ছেমি"
+    },
+    {
+     "en": "62.86 cm",
+     "as": "৬২.৮৬ ছেমি"
+    },
+    {
+     "en": "73.86 cm",
+     "as": "৭৩.৮৬ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 10 = 62.86 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 10 = 62.86 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-096",
+   "q": {
+    "en": "The radius of a circle is 5 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 5 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "31.43 sq cm",
+     "as": "৩১.৪৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "157.14 sq cm",
+     "as": "১৫৭.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "89.57 sq cm",
+     "as": "৮৯.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "78.57 sq cm",
+     "as": "৭৮.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 5 x 5 = 78.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 5 x 5 = 78.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-097",
+   "q": {
+    "en": "The radius of a circle is 5 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 5 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "31.43 cm",
+     "as": "৩১.৪৩ ছেমি"
+    },
+    {
+     "en": "78.57 cm",
+     "as": "৭৮.৫৭ ছেমি"
+    },
+    {
+     "en": "62.86 cm",
+     "as": "৬২.৮৬ ছেমি"
+    },
+    {
+     "en": "42.43 cm",
+     "as": "৪২.৪৩ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 5 = 31.43 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 5 = 31.43 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-098",
+   "q": {
+    "en": "The radius of a circle is 28 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 28 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2464 sq cm",
+     "as": "২৪৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "4928 sq cm",
+     "as": "৪৯২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2475 sq cm",
+     "as": "২৪৭৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 28 x 28 = 2464 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 28 x 28 = 2464 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-099",
+   "q": {
+    "en": "The radius of a circle is 28 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 28 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "2464 cm",
+     "as": "২৪৬৪ ছেমি"
+    },
+    {
+     "en": "352 cm",
+     "as": "৩৫২ ছেমি"
+    },
+    {
+     "en": "176 cm",
+     "as": "১৭৬ ছেমি"
+    },
+    {
+     "en": "187 cm",
+     "as": "১৮৭ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 28 = 176 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 28 = 176 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-100",
+   "q": {
+    "en": "The radius of a circle is 1 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 1 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "6.29 sq cm",
+     "as": "৬.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "6.28 sq cm",
+     "as": "৬.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "14.14 sq cm",
+     "as": "১৪.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3.14 sq cm",
+     "as": "৩.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 1 x 1 = 3.14 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 1 x 1 = 3.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-101",
+   "q": {
+    "en": "The radius of a circle is 1 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 1 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "6.29 cm",
+     "as": "৬.২৯ ছেমি"
+    },
+    {
+     "en": "3.14 cm",
+     "as": "৩.১৪ ছেমি"
+    },
+    {
+     "en": "12.58 cm",
+     "as": "১২.৫৮ ছেমি"
+    },
+    {
+     "en": "17.29 cm",
+     "as": "১৭.২৯ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 1 = 6.29 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 1 = 6.29 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-102",
+   "q": {
+    "en": "The radius of a circle is 2 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 2 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "25.14 sq cm",
+     "as": "২৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "12.57 sq cm",
+     "as": "১২.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "23.57 sq cm",
+     "as": "২৩.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1.57 sq cm",
+     "as": "১.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 2 x 2 = 12.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 2 x 2 = 12.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-103",
+   "q": {
+    "en": "The radius of a circle is 2 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 2 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "25.14 cm",
+     "as": "২৫.১৪ ছেমি"
+    },
+    {
+     "en": "23.57 cm",
+     "as": "২৩.৫৭ ছেমি"
+    },
+    {
+     "en": "12.57 cm",
+     "as": "১২.৫৭ ছেমি"
+    },
+    {
+     "en": "1.57 cm",
+     "as": "১.৫৭ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 2 = 12.57 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 2 = 12.57 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-104",
+   "q": {
+    "en": "The radius of a circle is 4 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 4 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "25.14 sq cm",
+     "as": "২৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "100.58 sq cm",
+     "as": "১০০.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "61.29 sq cm",
+     "as": "৬১.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "50.29 sq cm",
+     "as": "৫০.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 4 x 4 = 50.29 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 4 x 4 = 50.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-105",
+   "q": {
+    "en": "The radius of a circle is 4 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 4 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "25.14 cm",
+     "as": "২৫.১৪ ছেমি"
+    },
+    {
+     "en": "50.29 cm",
+     "as": "৫০.২৯ ছেমি"
+    },
+    {
+     "en": "50.28 cm",
+     "as": "৫০.২৮ ছেমি"
+    },
+    {
+     "en": "36.14 cm",
+     "as": "৩৬.১৪ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 4 = 25.14 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 4 = 25.14 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-106",
+   "q": {
+    "en": "The radius of a circle is 6 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 6 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "37.71 sq cm",
+     "as": "৩৭.৭১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "113.14 sq cm",
+     "as": "১১৩.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "226.28 sq cm",
+     "as": "২২৬.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "124.14 sq cm",
+     "as": "১২৪.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 6 x 6 = 113.14 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 6 x 6 = 113.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-107",
+   "q": {
+    "en": "The radius of a circle is 6 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 6 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "113.14 cm",
+     "as": "১১৩.১৪ ছেমি"
+    },
+    {
+     "en": "75.42 cm",
+     "as": "৭৫.৪২ ছেমি"
+    },
+    {
+     "en": "37.71 cm",
+     "as": "৩৭.৭১ ছেমি"
+    },
+    {
+     "en": "48.71 cm",
+     "as": "৪৮.৭১ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 6 = 37.71 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 6 = 37.71 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-108",
+   "q": {
+    "en": "The radius of a circle is 8 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 8 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "50.29 sq cm",
+     "as": "৫০.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "402.28 sq cm",
+     "as": "৪০২.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "212.14 sq cm",
+     "as": "২১২.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "201.14 sq cm",
+     "as": "২০১.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 8 x 8 = 201.14 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 8 x 8 = 201.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-109",
+   "q": {
+    "en": "The radius of a circle is 8 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 8 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "50.29 cm",
+     "as": "৫০.২৯ ছেমি"
+    },
+    {
+     "en": "201.14 cm",
+     "as": "২০১.১৪ ছেমি"
+    },
+    {
+     "en": "100.58 cm",
+     "as": "১০০.৫৮ ছেমি"
+    },
+    {
+     "en": "61.29 cm",
+     "as": "৬১.২৯ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 8 = 50.29 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 8 = 50.29 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-110",
+   "q": {
+    "en": "The radius of a circle is 9 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 9 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "56.57 sq cm",
+     "as": "৫৬.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "254.57 sq cm",
+     "as": "২৫৪.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "509.14 sq cm",
+     "as": "৫০৯.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "265.57 sq cm",
+     "as": "২৬৫.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 9 x 9 = 254.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 9 x 9 = 254.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-111",
+   "q": {
+    "en": "The radius of a circle is 9 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 9 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "254.57 cm",
+     "as": "২৫৪.৫৭ ছেমি"
+    },
+    {
+     "en": "113.14 cm",
+     "as": "১১৩.১৪ ছেমি"
+    },
+    {
+     "en": "56.57 cm",
+     "as": "৫৬.৫৭ ছেমি"
+    },
+    {
+     "en": "67.57 cm",
+     "as": "৬৭.৫৭ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 9 = 56.57 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 9 = 56.57 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-112",
+   "q": {
+    "en": "The radius of a circle is 11 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 11 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "69.14 sq cm",
+     "as": "৬৯.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "760.58 sq cm",
+     "as": "৭৬০.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "391.29 sq cm",
+     "as": "৩৯১.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "380.29 sq cm",
+     "as": "৩৮০.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 11 x 11 = 380.29 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 11 x 11 = 380.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-113",
+   "q": {
+    "en": "The radius of a circle is 11 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 11 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "69.14 cm",
+     "as": "৬৯.১৪ ছেমি"
+    },
+    {
+     "en": "380.29 cm",
+     "as": "৩৮০.২৯ ছেমি"
+    },
+    {
+     "en": "138.28 cm",
+     "as": "১৩৮.২৮ ছেমি"
+    },
+    {
+     "en": "80.14 cm",
+     "as": "৮০.১৪ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 11 = 69.14 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 11 = 69.14 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-114",
+   "q": {
+    "en": "The radius of a circle is 12 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 12 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "75.43 sq cm",
+     "as": "৭৫.৪৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "452.57 sq cm",
+     "as": "৪৫২.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "905.14 sq cm",
+     "as": "৯০৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "463.57 sq cm",
+     "as": "৪৬৩.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 12 x 12 = 452.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 12 x 12 = 452.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-115",
+   "q": {
+    "en": "The radius of a circle is 12 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 12 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "452.57 cm",
+     "as": "৪৫২.৫৭ ছেমি"
+    },
+    {
+     "en": "150.86 cm",
+     "as": "১৫০.৮৬ ছেমি"
+    },
+    {
+     "en": "75.43 cm",
+     "as": "৭৫.৪৩ ছেমি"
+    },
+    {
+     "en": "86.43 cm",
+     "as": "৮৬.৪৩ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 12 = 75.43 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 12 = 75.43 ছেমি।"
+   }
+  },
+  {
+   "id": "geometry-116",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 3 sides is —",
+    "as": "3 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "180 degrees",
+     "as": "১৮০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "70 degrees",
+     "as": "৭০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sum of interior angles = (3 - 2) x 180 = 180, so each angle = 180 / 3 = 60 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (3 - 2) x 180 = 180, গতিকে প্ৰতিটো কোণ = 180 / 3 = 60 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-117",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 4 sides is —",
+    "as": "4 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "90 degrees",
+     "as": "৯০ degrees"
+    },
+    {
+     "en": "360 degrees",
+     "as": "৩৬০ degrees"
+    },
+    {
+     "en": "100 degrees",
+     "as": "১০০ degrees"
+    },
+    {
+     "en": "80 degrees",
+     "as": "৮০ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sum of interior angles = (4 - 2) x 180 = 360, so each angle = 360 / 4 = 90 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (4 - 2) x 180 = 360, গতিকে প্ৰতিটো কোণ = 360 / 4 = 90 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-118",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 5 sides is —",
+    "as": "5 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "540 degrees",
+     "as": "৫৪০ degrees"
+    },
+    {
+     "en": "108 degrees",
+     "as": "১০৮ degrees"
+    },
+    {
+     "en": "72 degrees",
+     "as": "৭২ degrees"
+    },
+    {
+     "en": "118 degrees",
+     "as": "১১৮ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sum of interior angles = (5 - 2) x 180 = 540, so each angle = 540 / 5 = 108 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (5 - 2) x 180 = 540, গতিকে প্ৰতিটো কোণ = 540 / 5 = 108 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-119",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 6 sides is —",
+    "as": "6 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "720 degrees",
+     "as": "৭২০ degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ degrees"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ degrees"
+    },
+    {
+     "en": "130 degrees",
+     "as": "১৩০ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sum of interior angles = (6 - 2) x 180 = 720, so each angle = 720 / 6 = 120 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (6 - 2) x 180 = 720, গতিকে প্ৰতিটো কোণ = 720 / 6 = 120 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-120",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 8 sides is —",
+    "as": "8 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "1080 degrees",
+     "as": "১০৮০ degrees"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ degrees"
+    },
+    {
+     "en": "145 degrees",
+     "as": "১৪৫ degrees"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sum of interior angles = (8 - 2) x 180 = 1080, so each angle = 1080 / 8 = 135 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (8 - 2) x 180 = 1080, গতিকে প্ৰতিটো কোণ = 1080 / 8 = 135 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-121",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 10 sides is —",
+    "as": "10 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "144 degrees",
+     "as": "১৪৪ degrees"
+    },
+    {
+     "en": "1440 degrees",
+     "as": "১৪৪০ degrees"
+    },
+    {
+     "en": "36 degrees",
+     "as": "৩৬ degrees"
+    },
+    {
+     "en": "154 degrees",
+     "as": "১৫৪ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sum of interior angles = (10 - 2) x 180 = 1440, so each angle = 1440 / 10 = 144 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (10 - 2) x 180 = 1440, গতিকে প্ৰতিটো কোণ = 1440 / 10 = 144 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-122",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 12 sides is —",
+    "as": "12 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "1800 degrees",
+     "as": "১৮০০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ degrees"
+    },
+    {
+     "en": "160 degrees",
+     "as": "১৬০ degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sum of interior angles = (12 - 2) x 180 = 1800, so each angle = 1800 / 12 = 150 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (12 - 2) x 180 = 1800, গতিকে প্ৰতিটো কোণ = 1800 / 12 = 150 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-123",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 9 sides is —",
+    "as": "9 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "1260 degrees",
+     "as": "১২৬০ degrees"
+    },
+    {
+     "en": "40 degrees",
+     "as": "৪০ degrees"
+    },
+    {
+     "en": "140 degrees",
+     "as": "১৪০ degrees"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sum of interior angles = (9 - 2) x 180 = 1260, so each angle = 1260 / 9 = 140 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (9 - 2) x 180 = 1260, গতিকে প্ৰতিটো কোণ = 1260 / 9 = 140 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-124",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 7 sides is —",
+    "as": "7 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "900 degrees",
+     "as": "৯০০ degrees"
+    },
+    {
+     "en": "52 degrees",
+     "as": "৫২ degrees"
+    },
+    {
+     "en": "138 degrees",
+     "as": "১৩৮ degrees"
+    },
+    {
+     "en": "128 degrees",
+     "as": "১২৮ degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sum of interior angles = (7 - 2) x 180 = 900, so each angle = 900 / 7 = 128 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (7 - 2) x 180 = 900, গতিকে প্ৰতিটো কোণ = 900 / 7 = 128 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-125",
+   "q": {
+    "en": "Each interior angle of a regular polygon of 15 sides is —",
+    "as": "15 বাহুৰ সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ —"
+   },
+   "options": [
+    {
+     "en": "156 degrees",
+     "as": "১৫৬ degrees"
+    },
+    {
+     "en": "2340 degrees",
+     "as": "২৩৪০ degrees"
+    },
+    {
+     "en": "24 degrees",
+     "as": "২৪ degrees"
+    },
+    {
+     "en": "166 degrees",
+     "as": "১৬৬ degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sum of interior angles = (15 - 2) x 180 = 2340, so each angle = 2340 / 15 = 156 degrees.",
+    "as": "অন্তঃকোণবোৰৰ যোগফল = (15 - 2) x 180 = 2340, গতিকে প্ৰতিটো কোণ = 2340 / 15 = 156 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-126",
+   "q": {
+    "en": "The sum of the angles of a triangle is ?",
+    "as": "ত্ৰিভুজৰ কোণবোৰৰ যোগফল ?"
+   },
+   "options": [
+    {
+     "en": "90 degrees",
+     "as": "90 degrees"
+    },
+    {
+     "en": "180 degrees",
+     "as": "180 degrees"
+    },
+    {
+     "en": "360 degrees",
+     "as": "360 degrees"
+    },
+    {
+     "en": "270 degrees",
+     "as": "270 degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The three interior angles of any triangle always add to 180 degrees.",
+    "as": "যিকোনো ত্ৰিভুজৰ তিনিটা অন্তঃকোণৰ যোগফল সদায় 180 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-127",
+   "q": {
+    "en": "In a right triangle, the square of the hypotenuse equals ?",
+    "as": "সমকোণী ত্ৰিভুজত অতিভুজৰ বৰ্গ সমান ?"
+   },
+   "options": [
+    {
+     "en": "the product of the other two sides",
+     "as": "the product of the other two sides"
+    },
+    {
+     "en": "the difference of the other two sides",
+     "as": "the difference of the other two sides"
+    },
+    {
+     "en": "the sum of the squares of the other two sides",
+     "as": "the sum of the squares of the other two sides"
+    },
+    {
+     "en": "twice the base",
+     "as": "twice the base"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "This is the Pythagoras theorem.",
+    "as": "এইটোৱেই পাইথাগোৰাছৰ উপপাদ্য।"
+   }
+  },
+  {
+   "id": "geometry-128",
+   "q": {
+    "en": "The sum of the exterior angles of any polygon is ?",
+    "as": "যিকোনো বহুভুজৰ বাহ্যিক কোণবোৰৰ যোগফল ?"
+   },
+   "options": [
+    {
+     "en": "180 degrees",
+     "as": "180 degrees"
+    },
+    {
+     "en": "540 degrees",
+     "as": "540 degrees"
+    },
+    {
+     "en": "depends on the number of sides",
+     "as": "depends on the number of sides"
+    },
+    {
+     "en": "360 degrees",
+     "as": "360 degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The exterior angles of a convex polygon always add to 360 degrees.",
+    "as": "উত্তল বহুভুজৰ বাহ্যিক কোণবোৰৰ যোগফল সদায় 360 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "geometry-129",
+   "q": {
+    "en": "A quadrilateral whose opposite sides are parallel and equal is a ?",
+    "as": "যি চতুৰ্ভুজৰ বিপৰীত বাহু সমান্তৰাল আৰু সমান সেয়া ?"
+   },
+   "options": [
+    {
+     "en": "parallelogram",
+     "as": "parallelogram"
+    },
+    {
+     "en": "trapezium",
+     "as": "trapezium"
+    },
+    {
+     "en": "rhombus",
+     "as": "rhombus"
+    },
+    {
+     "en": "kite",
+     "as": "kite"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A parallelogram has both pairs of opposite sides parallel and equal.",
+    "as": "সমান্তৰালকৰ্ণৰ দুয়োযোৰ বিপৰীত বাহু সমান্তৰাল আৰু সমান।"
+   }
+  }
+ ],
+ "mensuration-2d": [
+  {
+   "id": "mensuration-2d-001",
+   "q": {
+    "en": "The length of a rectangle is 10 cm and its breadth is 6 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 10 ছেমি আৰু প্ৰস্থ 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "32 sq cm",
+     "as": "৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "70 sq cm",
+     "as": "৭০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "54 sq cm",
+     "as": "৫৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 10 x 6 = 60 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 10 x 6 = 60 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-002",
+   "q": {
+    "en": "The length of a rectangle is 10 cm and its breadth is 6 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 10 ছেমি আৰু প্ৰস্থ 6 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "60 cm",
+     "as": "৬০ ছেমি"
+    },
+    {
+     "en": "32 cm",
+     "as": "৩২ ছেমি"
+    },
+    {
+     "en": "34 cm",
+     "as": "৩৪ ছেমি"
+    },
+    {
+     "en": "30 cm",
+     "as": "৩০ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (10 + 6) = 32 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (10 + 6) = 32 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-003",
+   "q": {
+    "en": "The length of a rectangle is 12 cm and its breadth is 8 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 12 ছেমি আৰু প্ৰস্থ 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "40 sq cm",
+     "as": "৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "108 sq cm",
+     "as": "১০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 12 x 8 = 96 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 12 x 8 = 96 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-004",
+   "q": {
+    "en": "The length of a rectangle is 12 cm and its breadth is 8 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 12 ছেমি আৰু প্ৰস্থ 8 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "96 cm",
+     "as": "৯৬ ছেমি"
+    },
+    {
+     "en": "42 cm",
+     "as": "৪২ ছেমি"
+    },
+    {
+     "en": "38 cm",
+     "as": "৩৮ ছেমি"
+    },
+    {
+     "en": "40 cm",
+     "as": "৪০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (12 + 8) = 40 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (12 + 8) = 40 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-005",
+   "q": {
+    "en": "The length of a rectangle is 15 cm and its breadth is 10 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 15 ছেমি আৰু প্ৰস্থ 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "150 sq cm",
+     "as": "১৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "50 sq cm",
+     "as": "৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "165 sq cm",
+     "as": "১৬৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "140 sq cm",
+     "as": "১৪০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 15 x 10 = 150 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 15 x 10 = 150 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-006",
+   "q": {
+    "en": "The length of a rectangle is 15 cm and its breadth is 10 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 15 ছেমি আৰু প্ৰস্থ 10 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "150 cm",
+     "as": "১৫০ ছেমি"
+    },
+    {
+     "en": "50 cm",
+     "as": "৫০ ছেমি"
+    },
+    {
+     "en": "52 cm",
+     "as": "৫২ ছেমি"
+    },
+    {
+     "en": "48 cm",
+     "as": "৪৮ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (15 + 10) = 50 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (15 + 10) = 50 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-007",
+   "q": {
+    "en": "The length of a rectangle is 20 cm and its breadth is 5 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 20 ছেমি আৰু প্ৰস্থ 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "50 sq cm",
+     "as": "৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "120 sq cm",
+     "as": "১২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "95 sq cm",
+     "as": "৯৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 20 x 5 = 100 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 20 x 5 = 100 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-008",
+   "q": {
+    "en": "The length of a rectangle is 20 cm and its breadth is 5 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 20 ছেমি আৰু প্ৰস্থ 5 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "100 cm",
+     "as": "১০০ ছেমি"
+    },
+    {
+     "en": "52 cm",
+     "as": "৫২ ছেমি"
+    },
+    {
+     "en": "48 cm",
+     "as": "৪৮ ছেমি"
+    },
+    {
+     "en": "50 cm",
+     "as": "৫০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (20 + 5) = 50 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (20 + 5) = 50 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-009",
+   "q": {
+    "en": "The length of a rectangle is 14 cm and its breadth is 9 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 14 ছেমি আৰু প্ৰস্থ 9 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "126 sq cm",
+     "as": "১২৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "46 sq cm",
+     "as": "৪৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "140 sq cm",
+     "as": "১৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "117 sq cm",
+     "as": "১১৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 14 x 9 = 126 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 14 x 9 = 126 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-010",
+   "q": {
+    "en": "The length of a rectangle is 14 cm and its breadth is 9 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 14 ছেমি আৰু প্ৰস্থ 9 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "126 cm",
+     "as": "১২৬ ছেমি"
+    },
+    {
+     "en": "46 cm",
+     "as": "৪৬ ছেমি"
+    },
+    {
+     "en": "48 cm",
+     "as": "৪৮ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (14 + 9) = 46 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (14 + 9) = 46 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-011",
+   "q": {
+    "en": "The length of a rectangle is 18 cm and its breadth is 7 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 18 ছেমি আৰু প্ৰস্থ 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "50 sq cm",
+     "as": "৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "144 sq cm",
+     "as": "১৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "126 sq cm",
+     "as": "১২৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "119 sq cm",
+     "as": "১১৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 18 x 7 = 126 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 18 x 7 = 126 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-012",
+   "q": {
+    "en": "The length of a rectangle is 18 cm and its breadth is 7 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 18 ছেমি আৰু প্ৰস্থ 7 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "126 cm",
+     "as": "১২৬ ছেমি"
+    },
+    {
+     "en": "52 cm",
+     "as": "৫২ ছেমি"
+    },
+    {
+     "en": "48 cm",
+     "as": "৪৮ ছেমি"
+    },
+    {
+     "en": "50 cm",
+     "as": "৫০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (18 + 7) = 50 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (18 + 7) = 50 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-013",
+   "q": {
+    "en": "The length of a rectangle is 25 cm and its breadth is 4 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 25 ছেমি আৰু প্ৰস্থ 4 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "58 sq cm",
+     "as": "৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "125 sq cm",
+     "as": "১২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 25 x 4 = 100 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 25 x 4 = 100 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-014",
+   "q": {
+    "en": "The length of a rectangle is 25 cm and its breadth is 4 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 25 ছেমি আৰু প্ৰস্থ 4 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "100 cm",
+     "as": "১০০ ছেমি"
+    },
+    {
+     "en": "58 cm",
+     "as": "৫৮ ছেমি"
+    },
+    {
+     "en": "60 cm",
+     "as": "৬০ ছেমি"
+    },
+    {
+     "en": "56 cm",
+     "as": "৫৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (25 + 4) = 58 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (25 + 4) = 58 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-015",
+   "q": {
+    "en": "The length of a rectangle is 16 cm and its breadth is 12 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 16 ছেমি আৰু প্ৰস্থ 12 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "208 sq cm",
+     "as": "২০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "192 sq cm",
+     "as": "১৯২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "180 sq cm",
+     "as": "১৮০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 16 x 12 = 192 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 16 x 12 = 192 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-016",
+   "q": {
+    "en": "The length of a rectangle is 16 cm and its breadth is 12 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 16 ছেমি আৰু প্ৰস্থ 12 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "192 cm",
+     "as": "১৯২ ছেমি"
+    },
+    {
+     "en": "58 cm",
+     "as": "৫৮ ছেমি"
+    },
+    {
+     "en": "54 cm",
+     "as": "৫৪ ছেমি"
+    },
+    {
+     "en": "56 cm",
+     "as": "৫৬ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (16 + 12) = 56 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (16 + 12) = 56 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-017",
+   "q": {
+    "en": "The length of a rectangle is 24 cm and its breadth is 10 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 24 ছেমি আৰু প্ৰস্থ 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "240 sq cm",
+     "as": "২৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "68 sq cm",
+     "as": "৬৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "264 sq cm",
+     "as": "২৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "230 sq cm",
+     "as": "২৩০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 24 x 10 = 240 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 24 x 10 = 240 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-018",
+   "q": {
+    "en": "The length of a rectangle is 24 cm and its breadth is 10 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 24 ছেমি আৰু প্ৰস্থ 10 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "240 cm",
+     "as": "২৪০ ছেমি"
+    },
+    {
+     "en": "68 cm",
+     "as": "৬৮ ছেমি"
+    },
+    {
+     "en": "70 cm",
+     "as": "৭০ ছেমি"
+    },
+    {
+     "en": "66 cm",
+     "as": "৬৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (24 + 10) = 68 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (24 + 10) = 68 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-019",
+   "q": {
+    "en": "The length of a rectangle is 30 cm and its breadth is 15 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 30 ছেমি আৰু প্ৰস্থ 15 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "90 sq cm",
+     "as": "৯০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "480 sq cm",
+     "as": "৪৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "450 sq cm",
+     "as": "৪৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "435 sq cm",
+     "as": "৪৩৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 30 x 15 = 450 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 30 x 15 = 450 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-020",
+   "q": {
+    "en": "The length of a rectangle is 30 cm and its breadth is 15 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 30 ছেমি আৰু প্ৰস্থ 15 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "450 cm",
+     "as": "৪৫০ ছেমি"
+    },
+    {
+     "en": "92 cm",
+     "as": "৯২ ছেমি"
+    },
+    {
+     "en": "88 cm",
+     "as": "৮৮ ছেমি"
+    },
+    {
+     "en": "90 cm",
+     "as": "৯০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (30 + 15) = 90 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (30 + 15) = 90 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-021",
+   "q": {
+    "en": "The length of a rectangle is 22 cm and its breadth is 8 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 22 ছেমি আৰু প্ৰস্থ 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "198 sq cm",
+     "as": "১৯৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "168 sq cm",
+     "as": "১৬৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 22 x 8 = 176 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 22 x 8 = 176 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-022",
+   "q": {
+    "en": "The length of a rectangle is 22 cm and its breadth is 8 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 22 ছেমি আৰু প্ৰস্থ 8 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "176 cm",
+     "as": "১৭৬ ছেমি"
+    },
+    {
+     "en": "60 cm",
+     "as": "৬০ ছেমি"
+    },
+    {
+     "en": "62 cm",
+     "as": "৬২ ছেমি"
+    },
+    {
+     "en": "58 cm",
+     "as": "৫৮ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (22 + 8) = 60 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (22 + 8) = 60 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-023",
+   "q": {
+    "en": "The length of a rectangle is 35 cm and its breadth is 5 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 35 ছেমি আৰু প্ৰস্থ 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "80 sq cm",
+     "as": "৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "210 sq cm",
+     "as": "২১০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "175 sq cm",
+     "as": "১৭৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "170 sq cm",
+     "as": "১৭০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 35 x 5 = 175 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 35 x 5 = 175 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-024",
+   "q": {
+    "en": "The length of a rectangle is 35 cm and its breadth is 5 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 35 ছেমি আৰু প্ৰস্থ 5 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "175 cm",
+     "as": "১৭৫ ছেমি"
+    },
+    {
+     "en": "82 cm",
+     "as": "৮২ ছেমি"
+    },
+    {
+     "en": "78 cm",
+     "as": "৭৮ ছেমি"
+    },
+    {
+     "en": "80 cm",
+     "as": "৮০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (35 + 5) = 80 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (35 + 5) = 80 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-025",
+   "q": {
+    "en": "The length of a rectangle is 9 cm and its breadth is 6 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 9 ছেমি আৰু প্ৰস্থ 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "54 sq cm",
+     "as": "৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "63 sq cm",
+     "as": "৬৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 9 x 6 = 54 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 9 x 6 = 54 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-026",
+   "q": {
+    "en": "The length of a rectangle is 9 cm and its breadth is 6 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 9 ছেমি আৰু প্ৰস্থ 6 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "54 cm",
+     "as": "৫৪ ছেমি"
+    },
+    {
+     "en": "30 cm",
+     "as": "৩০ ছেমি"
+    },
+    {
+     "en": "32 cm",
+     "as": "৩২ ছেমি"
+    },
+    {
+     "en": "28 cm",
+     "as": "২৮ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (9 + 6) = 30 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (9 + 6) = 30 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-027",
+   "q": {
+    "en": "The length of a rectangle is 11 cm and its breadth is 7 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 11 ছেমি আৰু প্ৰস্থ 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "77 sq cm",
+     "as": "৭৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "70 sq cm",
+     "as": "৭০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 11 x 7 = 77 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 11 x 7 = 77 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-028",
+   "q": {
+    "en": "The length of a rectangle is 11 cm and its breadth is 7 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 11 ছেমি আৰু প্ৰস্থ 7 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "77 cm",
+     "as": "৭৭ ছেমি"
+    },
+    {
+     "en": "38 cm",
+     "as": "৩৮ ছেমি"
+    },
+    {
+     "en": "34 cm",
+     "as": "৩৪ ছেমি"
+    },
+    {
+     "en": "36 cm",
+     "as": "৩৬ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (11 + 7) = 36 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (11 + 7) = 36 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-029",
+   "q": {
+    "en": "The length of a rectangle is 13 cm and its breadth is 9 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 13 ছেমি আৰু প্ৰস্থ 9 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "117 sq cm",
+     "as": "১১৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "44 sq cm",
+     "as": "৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "130 sq cm",
+     "as": "১৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "108 sq cm",
+     "as": "১০৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 13 x 9 = 117 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 13 x 9 = 117 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-030",
+   "q": {
+    "en": "The length of a rectangle is 13 cm and its breadth is 9 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 13 ছেমি আৰু প্ৰস্থ 9 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "117 cm",
+     "as": "১১৭ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    },
+    {
+     "en": "46 cm",
+     "as": "৪৬ ছেমি"
+    },
+    {
+     "en": "42 cm",
+     "as": "৪২ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (13 + 9) = 44 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (13 + 9) = 44 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-031",
+   "q": {
+    "en": "The length of a rectangle is 40 cm and its breadth is 10 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 40 ছেমি আৰু প্ৰস্থ 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "440 sq cm",
+     "as": "৪৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "400 sq cm",
+     "as": "৪০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "390 sq cm",
+     "as": "৩৯০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 40 x 10 = 400 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 40 x 10 = 400 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-032",
+   "q": {
+    "en": "The length of a rectangle is 40 cm and its breadth is 10 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 40 ছেমি আৰু প্ৰস্থ 10 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "400 cm",
+     "as": "৪০০ ছেমি"
+    },
+    {
+     "en": "102 cm",
+     "as": "১০২ ছেমি"
+    },
+    {
+     "en": "98 cm",
+     "as": "৯৮ ছেমি"
+    },
+    {
+     "en": "100 cm",
+     "as": "১০০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (40 + 10) = 100 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (40 + 10) = 100 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-033",
+   "q": {
+    "en": "The length of a rectangle is 28 cm and its breadth is 6 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 28 ছেমি আৰু প্ৰস্থ 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "168 sq cm",
+     "as": "১৬৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "68 sq cm",
+     "as": "৬৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "196 sq cm",
+     "as": "১৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "162 sq cm",
+     "as": "১৬২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 28 x 6 = 168 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 28 x 6 = 168 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-034",
+   "q": {
+    "en": "The length of a rectangle is 28 cm and its breadth is 6 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 28 ছেমি আৰু প্ৰস্থ 6 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "168 cm",
+     "as": "১৬৮ ছেমি"
+    },
+    {
+     "en": "68 cm",
+     "as": "৬৮ ছেমি"
+    },
+    {
+     "en": "70 cm",
+     "as": "৭০ ছেমি"
+    },
+    {
+     "en": "66 cm",
+     "as": "৬৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (28 + 6) = 68 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (28 + 6) = 68 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-035",
+   "q": {
+    "en": "The length of a rectangle is 45 cm and its breadth is 5 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 45 ছেমি আৰু প্ৰস্থ 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "270 sq cm",
+     "as": "২৭০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "225 sq cm",
+     "as": "২২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "220 sq cm",
+     "as": "২২০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 45 x 5 = 225 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 45 x 5 = 225 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-036",
+   "q": {
+    "en": "The length of a rectangle is 45 cm and its breadth is 5 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 45 ছেমি আৰু প্ৰস্থ 5 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "225 cm",
+     "as": "২২৫ ছেমি"
+    },
+    {
+     "en": "102 cm",
+     "as": "১০২ ছেমি"
+    },
+    {
+     "en": "98 cm",
+     "as": "৯৮ ছেমি"
+    },
+    {
+     "en": "100 cm",
+     "as": "১০০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (45 + 5) = 100 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (45 + 5) = 100 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-037",
+   "q": {
+    "en": "The length of a rectangle is 36 cm and its breadth is 4 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 36 ছেমি আৰু প্ৰস্থ 4 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "144 sq cm",
+     "as": "১৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "80 sq cm",
+     "as": "৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "180 sq cm",
+     "as": "১৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "140 sq cm",
+     "as": "১৪০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 36 x 4 = 144 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 36 x 4 = 144 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-038",
+   "q": {
+    "en": "The length of a rectangle is 36 cm and its breadth is 4 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 36 ছেমি আৰু প্ৰস্থ 4 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "144 cm",
+     "as": "১৪৪ ছেমি"
+    },
+    {
+     "en": "80 cm",
+     "as": "৮০ ছেমি"
+    },
+    {
+     "en": "82 cm",
+     "as": "৮২ ছেমি"
+    },
+    {
+     "en": "78 cm",
+     "as": "৭৮ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (36 + 4) = 80 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (36 + 4) = 80 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-039",
+   "q": {
+    "en": "The length of a rectangle is 50 cm and its breadth is 8 cm. Its area is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 50 ছেমি আৰু প্ৰস্থ 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "116 sq cm",
+     "as": "১১৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "450 sq cm",
+     "as": "৪৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "400 sq cm",
+     "as": "৪০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "392 sq cm",
+     "as": "৩৯২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a rectangle = length x breadth = 50 x 8 = 400 sq cm.",
+    "as": "আয়তক্ষেত্ৰৰ কালি = দীঘ x প্ৰস্থ = 50 x 8 = 400 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-040",
+   "q": {
+    "en": "The length of a rectangle is 50 cm and its breadth is 8 cm. Its perimeter is —",
+    "as": "এটা আয়তক্ষেত্ৰৰ দীঘ 50 ছেমি আৰু প্ৰস্থ 8 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "400 cm",
+     "as": "৪০০ ছেমি"
+    },
+    {
+     "en": "118 cm",
+     "as": "১১৮ ছেমি"
+    },
+    {
+     "en": "114 cm",
+     "as": "১১৪ ছেমি"
+    },
+    {
+     "en": "116 cm",
+     "as": "১১৬ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter = 2 (length + breadth) = 2 x (50 + 8) = 116 cm.",
+    "as": "পৰিসীমা = 2 (দীঘ + প্ৰস্থ) = 2 x (50 + 8) = 116 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-041",
+   "q": {
+    "en": "The side of a square is 4 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 4 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "16 sq cm",
+     "as": "১৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "20 sq cm",
+     "as": "২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "12 sq cm",
+     "as": "১২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "8 sq cm",
+     "as": "৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 4 x 4 = 16 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 4 x 4 = 16 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-042",
+   "q": {
+    "en": "The side of a square is 4 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 4 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "20 cm",
+     "as": "২০ ছেমি"
+    },
+    {
+     "en": "16 cm",
+     "as": "১৬ ছেমি"
+    },
+    {
+     "en": "12 cm",
+     "as": "১২ ছেমি"
+    },
+    {
+     "en": "4 cm",
+     "as": "৪ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 4 = 16 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 4 = 16 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-043",
+   "q": {
+    "en": "The side of a square is 5 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "20 sq cm",
+     "as": "২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "25 sq cm",
+     "as": "২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "10 sq cm",
+     "as": "১০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 5 x 5 = 25 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 5 x 5 = 25 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-044",
+   "q": {
+    "en": "The side of a square is 5 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 5 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "25 cm",
+     "as": "২৫ ছেমি"
+    },
+    {
+     "en": "24 cm",
+     "as": "২৪ ছেমি"
+    },
+    {
+     "en": "16 cm",
+     "as": "১৬ ছেমি"
+    },
+    {
+     "en": "20 cm",
+     "as": "২০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 5 = 20 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 5 = 20 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-045",
+   "q": {
+    "en": "The side of a square is 6 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "24 sq cm",
+     "as": "২৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "42 sq cm",
+     "as": "৪২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 6 x 6 = 36 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 6 x 6 = 36 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-046",
+   "q": {
+    "en": "The side of a square is 6 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 6 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "36 cm",
+     "as": "৩৬ ছেমি"
+    },
+    {
+     "en": "24 cm",
+     "as": "২৪ ছেমি"
+    },
+    {
+     "en": "28 cm",
+     "as": "২৮ ছেমি"
+    },
+    {
+     "en": "20 cm",
+     "as": "২০ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 6 = 24 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 6 = 24 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-047",
+   "q": {
+    "en": "The side of a square is 7 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "28 sq cm",
+     "as": "২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "49 sq cm",
+     "as": "৪৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "42 sq cm",
+     "as": "৪২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 7 x 7 = 49 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 7 x 7 = 49 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-048",
+   "q": {
+    "en": "The side of a square is 7 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 7 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "49 cm",
+     "as": "৪৯ ছেমি"
+    },
+    {
+     "en": "32 cm",
+     "as": "৩২ ছেমি"
+    },
+    {
+     "en": "24 cm",
+     "as": "২৪ ছেমি"
+    },
+    {
+     "en": "28 cm",
+     "as": "২৮ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 7 = 28 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 7 = 28 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-049",
+   "q": {
+    "en": "The side of a square is 8 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "64 sq cm",
+     "as": "৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "32 sq cm",
+     "as": "৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "72 sq cm",
+     "as": "৭২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 8 x 8 = 64 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 8 x 8 = 64 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-050",
+   "q": {
+    "en": "The side of a square is 8 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 8 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "64 cm",
+     "as": "৬৪ ছেমি"
+    },
+    {
+     "en": "32 cm",
+     "as": "৩২ ছেমি"
+    },
+    {
+     "en": "36 cm",
+     "as": "৩৬ ছেমি"
+    },
+    {
+     "en": "28 cm",
+     "as": "২৮ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 8 = 32 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 8 = 32 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-051",
+   "q": {
+    "en": "The side of a square is 9 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 9 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "90 sq cm",
+     "as": "৯০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "81 sq cm",
+     "as": "৮১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "72 sq cm",
+     "as": "৭২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 9 x 9 = 81 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 9 x 9 = 81 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-052",
+   "q": {
+    "en": "The side of a square is 9 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 9 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "81 cm",
+     "as": "৮১ ছেমি"
+    },
+    {
+     "en": "40 cm",
+     "as": "৪০ ছেমি"
+    },
+    {
+     "en": "32 cm",
+     "as": "৩২ ছেমি"
+    },
+    {
+     "en": "36 cm",
+     "as": "৩৬ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 9 = 36 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 9 = 36 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-053",
+   "q": {
+    "en": "The side of a square is 10 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "40 sq cm",
+     "as": "৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "110 sq cm",
+     "as": "১১০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "90 sq cm",
+     "as": "৯০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 10 x 10 = 100 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 10 x 10 = 100 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-054",
+   "q": {
+    "en": "The side of a square is 10 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 10 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "100 cm",
+     "as": "১০০ ছেমি"
+    },
+    {
+     "en": "40 cm",
+     "as": "৪০ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    },
+    {
+     "en": "36 cm",
+     "as": "৩৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 10 = 40 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 10 = 40 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-055",
+   "q": {
+    "en": "The side of a square is 11 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 11 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "44 sq cm",
+     "as": "৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "132 sq cm",
+     "as": "১৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "121 sq cm",
+     "as": "১২১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "110 sq cm",
+     "as": "১১০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 11 x 11 = 121 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 11 x 11 = 121 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-056",
+   "q": {
+    "en": "The side of a square is 11 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 11 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "121 cm",
+     "as": "১২১ ছেমি"
+    },
+    {
+     "en": "48 cm",
+     "as": "৪৮ ছেমি"
+    },
+    {
+     "en": "40 cm",
+     "as": "৪০ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 11 = 44 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 11 = 44 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-057",
+   "q": {
+    "en": "The side of a square is 12 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 12 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "144 sq cm",
+     "as": "১৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "156 sq cm",
+     "as": "১৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "132 sq cm",
+     "as": "১৩২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 12 x 12 = 144 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 12 x 12 = 144 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-058",
+   "q": {
+    "en": "The side of a square is 12 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 12 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "144 cm",
+     "as": "১৪৪ ছেমি"
+    },
+    {
+     "en": "48 cm",
+     "as": "৪৮ ছেমি"
+    },
+    {
+     "en": "52 cm",
+     "as": "৫২ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 12 = 48 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 12 = 48 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-059",
+   "q": {
+    "en": "The side of a square is 13 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 13 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "52 sq cm",
+     "as": "৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "182 sq cm",
+     "as": "১৮২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "169 sq cm",
+     "as": "১৬৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "156 sq cm",
+     "as": "১৫৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 13 x 13 = 169 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 13 x 13 = 169 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-060",
+   "q": {
+    "en": "The side of a square is 13 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 13 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "169 cm",
+     "as": "১৬৯ ছেমি"
+    },
+    {
+     "en": "56 cm",
+     "as": "৫৬ ছেমি"
+    },
+    {
+     "en": "48 cm",
+     "as": "৪৮ ছেমি"
+    },
+    {
+     "en": "52 cm",
+     "as": "৫২ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 13 = 52 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 13 = 52 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-061",
+   "q": {
+    "en": "The side of a square is 14 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 14 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "196 sq cm",
+     "as": "১৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "210 sq cm",
+     "as": "২১০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "182 sq cm",
+     "as": "১৮২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 14 x 14 = 196 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 14 x 14 = 196 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-062",
+   "q": {
+    "en": "The side of a square is 14 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 14 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "196 cm",
+     "as": "১৯৬ ছেমি"
+    },
+    {
+     "en": "56 cm",
+     "as": "৫৬ ছেমি"
+    },
+    {
+     "en": "60 cm",
+     "as": "৬০ ছেমি"
+    },
+    {
+     "en": "52 cm",
+     "as": "৫২ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 14 = 56 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 14 = 56 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-063",
+   "q": {
+    "en": "The side of a square is 15 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 15 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "240 sq cm",
+     "as": "২৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "225 sq cm",
+     "as": "২২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "210 sq cm",
+     "as": "২১০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 15 x 15 = 225 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 15 x 15 = 225 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-064",
+   "q": {
+    "en": "The side of a square is 15 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 15 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "225 cm",
+     "as": "২২৫ ছেমি"
+    },
+    {
+     "en": "64 cm",
+     "as": "৬৪ ছেমি"
+    },
+    {
+     "en": "56 cm",
+     "as": "৫৬ ছেমি"
+    },
+    {
+     "en": "60 cm",
+     "as": "৬০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 15 = 60 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 15 = 60 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-065",
+   "q": {
+    "en": "The side of a square is 16 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 16 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "256 sq cm",
+     "as": "২৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "64 sq cm",
+     "as": "৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "272 sq cm",
+     "as": "২৭২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "240 sq cm",
+     "as": "২৪০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 16 x 16 = 256 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 16 x 16 = 256 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-066",
+   "q": {
+    "en": "The side of a square is 16 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 16 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "256 cm",
+     "as": "২৫৬ ছেমি"
+    },
+    {
+     "en": "64 cm",
+     "as": "৬৪ ছেমি"
+    },
+    {
+     "en": "68 cm",
+     "as": "৬৮ ছেমি"
+    },
+    {
+     "en": "60 cm",
+     "as": "৬০ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 16 = 64 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 16 = 64 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-067",
+   "q": {
+    "en": "The side of a square is 18 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 18 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "72 sq cm",
+     "as": "৭২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "342 sq cm",
+     "as": "৩৪২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "324 sq cm",
+     "as": "৩২৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "306 sq cm",
+     "as": "৩০৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 18 x 18 = 324 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 18 x 18 = 324 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-068",
+   "q": {
+    "en": "The side of a square is 18 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 18 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "324 cm",
+     "as": "৩২৪ ছেমি"
+    },
+    {
+     "en": "76 cm",
+     "as": "৭৬ ছেমি"
+    },
+    {
+     "en": "68 cm",
+     "as": "৬৮ ছেমি"
+    },
+    {
+     "en": "72 cm",
+     "as": "৭২ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 18 = 72 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 18 = 72 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-069",
+   "q": {
+    "en": "The side of a square is 20 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 20 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "400 sq cm",
+     "as": "৪০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "80 sq cm",
+     "as": "৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "420 sq cm",
+     "as": "৪২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "380 sq cm",
+     "as": "৩৮০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 20 x 20 = 400 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 20 x 20 = 400 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-070",
+   "q": {
+    "en": "The side of a square is 20 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 20 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "400 cm",
+     "as": "৪০০ ছেমি"
+    },
+    {
+     "en": "80 cm",
+     "as": "৮০ ছেমি"
+    },
+    {
+     "en": "84 cm",
+     "as": "৮৪ ছেমি"
+    },
+    {
+     "en": "76 cm",
+     "as": "৭৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 20 = 80 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 20 = 80 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-071",
+   "q": {
+    "en": "The side of a square is 25 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 25 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "650 sq cm",
+     "as": "৬৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "625 sq cm",
+     "as": "৬২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "600 sq cm",
+     "as": "৬০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 25 x 25 = 625 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 25 x 25 = 625 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-072",
+   "q": {
+    "en": "The side of a square is 25 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 25 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "625 cm",
+     "as": "৬২৫ ছেমি"
+    },
+    {
+     "en": "104 cm",
+     "as": "১০৪ ছেমি"
+    },
+    {
+     "en": "96 cm",
+     "as": "৯৬ ছেমি"
+    },
+    {
+     "en": "100 cm",
+     "as": "১০০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 25 = 100 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 25 = 100 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-073",
+   "q": {
+    "en": "The side of a square is 30 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 30 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "900 sq cm",
+     "as": "৯০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "120 sq cm",
+     "as": "১২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "930 sq cm",
+     "as": "৯৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "870 sq cm",
+     "as": "৮৭০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 30 x 30 = 900 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 30 x 30 = 900 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-074",
+   "q": {
+    "en": "The side of a square is 30 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 30 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "900 cm",
+     "as": "৯০০ ছেমি"
+    },
+    {
+     "en": "120 cm",
+     "as": "১২০ ছেমি"
+    },
+    {
+     "en": "124 cm",
+     "as": "১২৪ ছেমি"
+    },
+    {
+     "en": "116 cm",
+     "as": "১১৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 30 = 120 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 30 = 120 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-075",
+   "q": {
+    "en": "The side of a square is 35 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 35 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "140 sq cm",
+     "as": "১৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1260 sq cm",
+     "as": "১২৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1225 sq cm",
+     "as": "১২২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1190 sq cm",
+     "as": "১১৯০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 35 x 35 = 1225 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 35 x 35 = 1225 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-076",
+   "q": {
+    "en": "The side of a square is 35 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 35 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "1225 cm",
+     "as": "১২২৫ ছেমি"
+    },
+    {
+     "en": "144 cm",
+     "as": "১৪৪ ছেমি"
+    },
+    {
+     "en": "136 cm",
+     "as": "১৩৬ ছেমি"
+    },
+    {
+     "en": "140 cm",
+     "as": "১৪০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 35 = 140 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 35 = 140 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-077",
+   "q": {
+    "en": "The side of a square is 40 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 40 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "1600 sq cm",
+     "as": "১৬০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "160 sq cm",
+     "as": "১৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1640 sq cm",
+     "as": "১৬৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1560 sq cm",
+     "as": "১৫৬০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area of a square = side x side = 40 x 40 = 1600 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 40 x 40 = 1600 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-078",
+   "q": {
+    "en": "The side of a square is 40 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 40 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "1600 cm",
+     "as": "১৬০০ ছেমি"
+    },
+    {
+     "en": "160 cm",
+     "as": "১৬০ ছেমি"
+    },
+    {
+     "en": "164 cm",
+     "as": "১৬৪ ছেমি"
+    },
+    {
+     "en": "156 cm",
+     "as": "১৫৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 40 = 160 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 40 = 160 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-079",
+   "q": {
+    "en": "The side of a square is 45 cm. Its area is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 45 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "180 sq cm",
+     "as": "১৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2070 sq cm",
+     "as": "২০৭০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2025 sq cm",
+     "as": "২০২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1980 sq cm",
+     "as": "১৯৮০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area of a square = side x side = 45 x 45 = 2025 sq cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ কালি = বাহু x বাহু = 45 x 45 = 2025 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-080",
+   "q": {
+    "en": "The side of a square is 45 cm. Its perimeter is —",
+    "as": "এটা বৰ্গক্ষেত্ৰৰ বাহু 45 ছেমি। পৰিসীমা —"
+   },
+   "options": [
+    {
+     "en": "2025 cm",
+     "as": "২০২৫ ছেমি"
+    },
+    {
+     "en": "184 cm",
+     "as": "১৮৪ ছেমি"
+    },
+    {
+     "en": "176 cm",
+     "as": "১৭৬ ছেমি"
+    },
+    {
+     "en": "180 cm",
+     "as": "১৮০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Perimeter of a square = 4 x side = 4 x 45 = 180 cm.",
+    "as": "বৰ্গক্ষেত্ৰৰ পৰিসীমা = 4 x বাহু = 4 x 45 = 180 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-081",
+   "q": {
+    "en": "A triangle has base 10 cm and height 6 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 10 ছেমি আৰু উচ্চতা 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "24 sq cm",
+     "as": "২৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 10 x 6 = 30 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 10 x 6 = 30 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-082",
+   "q": {
+    "en": "A triangle has base 12 cm and height 8 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 12 ছেমি আৰু উচ্চতা 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "54 sq cm",
+     "as": "৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "42 sq cm",
+     "as": "৪২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 12 x 8 = 48 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 12 x 8 = 48 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-083",
+   "q": {
+    "en": "A triangle has base 15 cm and height 10 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 15 ছেমি আৰু উচ্চতা 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "150 sq cm",
+     "as": "১৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "81 sq cm",
+     "as": "৮১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "75 sq cm",
+     "as": "৭৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "69 sq cm",
+     "as": "৬৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 15 x 10 = 75 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 15 x 10 = 75 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-084",
+   "q": {
+    "en": "A triangle has base 20 cm and height 5 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 20 ছেমি আৰু উচ্চতা 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "44 sq cm",
+     "as": "৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "50 sq cm",
+     "as": "৫০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 20 x 5 = 50 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 20 x 5 = 50 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-085",
+   "q": {
+    "en": "A triangle has base 8 cm and height 7 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 8 ছেমি আৰু উচ্চতা 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "28 sq cm",
+     "as": "২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "34 sq cm",
+     "as": "৩৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "22 sq cm",
+     "as": "২২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 8 x 7 = 28 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 8 x 7 = 28 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-086",
+   "q": {
+    "en": "A triangle has base 14 cm and height 9 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 14 ছেমি আৰু উচ্চতা 9 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "126 sq cm",
+     "as": "১২৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "63 sq cm",
+     "as": "৬৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "69 sq cm",
+     "as": "৬৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "57 sq cm",
+     "as": "৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 14 x 9 = 63 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 14 x 9 = 63 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-087",
+   "q": {
+    "en": "A triangle has base 16 cm and height 11 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 16 ছেমি আৰু উচ্চতা 11 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "94 sq cm",
+     "as": "৯৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "82 sq cm",
+     "as": "৮২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 16 x 11 = 88 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 16 x 11 = 88 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-088",
+   "q": {
+    "en": "A triangle has base 18 cm and height 6 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 18 ছেমি আৰু উচ্চতা 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "108 sq cm",
+     "as": "১০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "54 sq cm",
+     "as": "৫৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 18 x 6 = 54 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 18 x 6 = 54 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-089",
+   "q": {
+    "en": "A triangle has base 24 cm and height 10 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 24 ছেমি আৰু উচ্চতা 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "120 sq cm",
+     "as": "১২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "240 sq cm",
+     "as": "২৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "126 sq cm",
+     "as": "১২৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "114 sq cm",
+     "as": "১১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 24 x 10 = 120 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 24 x 10 = 120 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-090",
+   "q": {
+    "en": "A triangle has base 30 cm and height 12 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 30 ছেমি আৰু উচ্চতা 12 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "360 sq cm",
+     "as": "৩৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "180 sq cm",
+     "as": "১৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "186 sq cm",
+     "as": "১৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "174 sq cm",
+     "as": "১৭৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 30 x 12 = 180 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 30 x 12 = 180 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-091",
+   "q": {
+    "en": "A triangle has base 25 cm and height 8 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 25 ছেমি আৰু উচ্চতা 8 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "200 sq cm",
+     "as": "২০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "106 sq cm",
+     "as": "১০৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "94 sq cm",
+     "as": "৯৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 25 x 8 = 100 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 25 x 8 = 100 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-092",
+   "q": {
+    "en": "A triangle has base 36 cm and height 5 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 36 ছেমি আৰু উচ্চতা 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "180 sq cm",
+     "as": "১৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "84 sq cm",
+     "as": "৮৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "90 sq cm",
+     "as": "৯০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 36 x 5 = 90 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 36 x 5 = 90 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-093",
+   "q": {
+    "en": "A triangle has base 9 cm and height 4 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 9 ছেমি আৰু উচ্চতা 4 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "18 sq cm",
+     "as": "১৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "24 sq cm",
+     "as": "২৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "12 sq cm",
+     "as": "১২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 9 x 4 = 18 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 9 x 4 = 18 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-094",
+   "q": {
+    "en": "A triangle has base 22 cm and height 7 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 22 ছেমি আৰু উচ্চতা 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "154 sq cm",
+     "as": "১৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "77 sq cm",
+     "as": "৭৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "83 sq cm",
+     "as": "৮৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "71 sq cm",
+     "as": "৭১ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 22 x 7 = 77 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 22 x 7 = 77 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-095",
+   "q": {
+    "en": "A triangle has base 28 cm and height 9 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 28 ছেমি আৰু উচ্চতা 9 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "252 sq cm",
+     "as": "২৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "132 sq cm",
+     "as": "১৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "126 sq cm",
+     "as": "১২৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "120 sq cm",
+     "as": "১২০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 28 x 9 = 126 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 28 x 9 = 126 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-096",
+   "q": {
+    "en": "A triangle has base 32 cm and height 6 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 32 ছেমি আৰু উচ্চতা 6 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "192 sq cm",
+     "as": "১৯২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "102 sq cm",
+     "as": "১০২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "90 sq cm",
+     "as": "৯০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 32 x 6 = 96 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 32 x 6 = 96 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-097",
+   "q": {
+    "en": "A triangle has base 40 cm and height 12 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 40 ছেমি আৰু উচ্চতা 12 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "240 sq cm",
+     "as": "২৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "480 sq cm",
+     "as": "৪৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "246 sq cm",
+     "as": "২৪৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "234 sq cm",
+     "as": "২৩৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 40 x 12 = 240 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 40 x 12 = 240 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-098",
+   "q": {
+    "en": "A triangle has base 44 cm and height 5 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 44 ছেমি আৰু উচ্চতা 5 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "220 sq cm",
+     "as": "২২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "110 sq cm",
+     "as": "১১০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "116 sq cm",
+     "as": "১১৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "104 sq cm",
+     "as": "১০৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 44 x 5 = 110 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 44 x 5 = 110 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-099",
+   "q": {
+    "en": "A triangle has base 48 cm and height 7 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 48 ছেমি আৰু উচ্চতা 7 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "336 sq cm",
+     "as": "৩৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "174 sq cm",
+     "as": "১৭৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "168 sq cm",
+     "as": "১৬৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "162 sq cm",
+     "as": "১৬২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 48 x 7 = 168 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 48 x 7 = 168 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-100",
+   "q": {
+    "en": "A triangle has base 50 cm and height 10 cm. Its area is —",
+    "as": "এটা ত্ৰিভুজৰ ভূমি 50 ছেমি আৰু উচ্চতা 10 ছেমি। কালি —"
+   },
+   "options": [
+    {
+     "en": "500 sq cm",
+     "as": "৫০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "256 sq cm",
+     "as": "২৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "244 sq cm",
+     "as": "২৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "250 sq cm",
+     "as": "২৫০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Area = (1/2) x base x height = (1/2) x 50 x 10 = 250 sq cm.",
+    "as": "কালি = (1/2) x ভূমি x উচ্চতা = (1/2) x 50 x 10 = 250 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-101",
+   "q": {
+    "en": "The radius of a circle is 7 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 7 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "154 sq cm",
+     "as": "১৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "44 sq cm",
+     "as": "৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "308 sq cm",
+     "as": "৩০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "165 sq cm",
+     "as": "১৬৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 7 x 7 = 154 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 7 x 7 = 154 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-102",
+   "q": {
+    "en": "The radius of a circle is 7 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 7 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "154 cm",
+     "as": "১৫৪ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    },
+    {
+     "en": "88 cm",
+     "as": "৮৮ ছেমি"
+    },
+    {
+     "en": "55 cm",
+     "as": "৫৫ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 7 = 44 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 7 = 44 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-103",
+   "q": {
+    "en": "The radius of a circle is 14 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 14 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1232 sq cm",
+     "as": "১২৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "616 sq cm",
+     "as": "৬১৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "627 sq cm",
+     "as": "৬২৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 14 x 14 = 616 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 14 x 14 = 616 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-104",
+   "q": {
+    "en": "The radius of a circle is 14 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 14 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "616 cm",
+     "as": "৬১৬ ছেমি"
+    },
+    {
+     "en": "176 cm",
+     "as": "১৭৬ ছেমি"
+    },
+    {
+     "en": "99 cm",
+     "as": "৯৯ ছেমি"
+    },
+    {
+     "en": "88 cm",
+     "as": "৮৮ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 14 = 88 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 14 = 88 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-105",
+   "q": {
+    "en": "The radius of a circle is 21 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 21 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1386 sq cm",
+     "as": "১৩৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "132 sq cm",
+     "as": "১৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2772 sq cm",
+     "as": "২৭৭২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1397 sq cm",
+     "as": "১৩৯৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 21 x 21 = 1386 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 21 x 21 = 1386 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-106",
+   "q": {
+    "en": "The radius of a circle is 21 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 21 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1386 cm",
+     "as": "১৩৮৬ ছেমি"
+    },
+    {
+     "en": "132 cm",
+     "as": "১৩২ ছেমি"
+    },
+    {
+     "en": "264 cm",
+     "as": "২৬৪ ছেমি"
+    },
+    {
+     "en": "143 cm",
+     "as": "১৪৩ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 21 = 132 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 21 = 132 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-107",
+   "q": {
+    "en": "The radius of a circle is 3.5 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 3.5 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "22 sq cm",
+     "as": "২২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "77 sq cm",
+     "as": "৭৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "38.5 sq cm",
+     "as": "৩৮.৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "49.5 sq cm",
+     "as": "৪৯.৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 3.5 x 3.5 = 38.5 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 3.5 x 3.5 = 38.5 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-108",
+   "q": {
+    "en": "The radius of a circle is 3.5 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 3.5 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "38.5 cm",
+     "as": "৩৮.৫ ছেমি"
+    },
+    {
+     "en": "44 cm",
+     "as": "৪৪ ছেমি"
+    },
+    {
+     "en": "33 cm",
+     "as": "৩৩ ছেমি"
+    },
+    {
+     "en": "22 cm",
+     "as": "২২ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 3.5 = 22 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 3.5 = 22 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-109",
+   "q": {
+    "en": "The radius of a circle is 10 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 10 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "314.29 sq cm",
+     "as": "৩১৪.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "62.86 sq cm",
+     "as": "৬২.৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "628.58 sq cm",
+     "as": "৬২৮.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "325.29 sq cm",
+     "as": "৩২৫.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 10 x 10 = 314.29 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 10 x 10 = 314.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-110",
+   "q": {
+    "en": "The radius of a circle is 10 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 10 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "314.29 cm",
+     "as": "৩১৪.২৯ ছেমি"
+    },
+    {
+     "en": "62.86 cm",
+     "as": "৬২.৮৬ ছেমি"
+    },
+    {
+     "en": "125.72 cm",
+     "as": "১২৫.৭২ ছেমি"
+    },
+    {
+     "en": "73.86 cm",
+     "as": "৭৩.৮৬ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 10 = 62.86 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 10 = 62.86 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-111",
+   "q": {
+    "en": "The radius of a circle is 5 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 5 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "31.43 sq cm",
+     "as": "৩১.৪৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "157.14 sq cm",
+     "as": "১৫৭.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "78.57 sq cm",
+     "as": "৭৮.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "89.57 sq cm",
+     "as": "৮৯.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 5 x 5 = 78.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 5 x 5 = 78.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-112",
+   "q": {
+    "en": "The radius of a circle is 5 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 5 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "78.57 cm",
+     "as": "৭৮.৫৭ ছেমি"
+    },
+    {
+     "en": "62.86 cm",
+     "as": "৬২.৮৬ ছেমি"
+    },
+    {
+     "en": "42.43 cm",
+     "as": "৪২.৪৩ ছেমি"
+    },
+    {
+     "en": "31.43 cm",
+     "as": "৩১.৪৩ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 5 = 31.43 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 5 = 31.43 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-113",
+   "q": {
+    "en": "The radius of a circle is 28 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 28 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "2464 sq cm",
+     "as": "২৪৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "4928 sq cm",
+     "as": "৪৯২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2475 sq cm",
+     "as": "২৪৭৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 28 x 28 = 2464 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 28 x 28 = 2464 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-114",
+   "q": {
+    "en": "The radius of a circle is 28 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 28 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "2464 cm",
+     "as": "২৪৬৪ ছেমি"
+    },
+    {
+     "en": "176 cm",
+     "as": "১৭৬ ছেমি"
+    },
+    {
+     "en": "352 cm",
+     "as": "৩৫২ ছেমি"
+    },
+    {
+     "en": "187 cm",
+     "as": "১৮৭ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 28 = 176 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 28 = 176 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-115",
+   "q": {
+    "en": "The radius of a circle is 1 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 1 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "6.29 sq cm",
+     "as": "৬.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "6.28 sq cm",
+     "as": "৬.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3.14 sq cm",
+     "as": "৩.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "14.14 sq cm",
+     "as": "১৪.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 1 x 1 = 3.14 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 1 x 1 = 3.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-116",
+   "q": {
+    "en": "The radius of a circle is 1 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 1 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "3.14 cm",
+     "as": "৩.১৪ ছেমি"
+    },
+    {
+     "en": "12.58 cm",
+     "as": "১২.৫৮ ছেমি"
+    },
+    {
+     "en": "17.29 cm",
+     "as": "১৭.২৯ ছেমি"
+    },
+    {
+     "en": "6.29 cm",
+     "as": "৬.২৯ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 1 = 6.29 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 1 = 6.29 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-117",
+   "q": {
+    "en": "The radius of a circle is 2 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 2 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "12.57 sq cm",
+     "as": "১২.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "25.14 sq cm",
+     "as": "২৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "23.57 sq cm",
+     "as": "২৩.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1.57 sq cm",
+     "as": "১.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 2 x 2 = 12.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 2 x 2 = 12.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-118",
+   "q": {
+    "en": "The radius of a circle is 2 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 2 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "25.14 cm",
+     "as": "২৫.১৪ ছেমি"
+    },
+    {
+     "en": "12.57 cm",
+     "as": "১২.৫৭ ছেমি"
+    },
+    {
+     "en": "23.57 cm",
+     "as": "২৩.৫৭ ছেমি"
+    },
+    {
+     "en": "1.57 cm",
+     "as": "১.৫৭ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 2 = 12.57 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 2 = 12.57 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-119",
+   "q": {
+    "en": "The radius of a circle is 4 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 4 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "25.14 sq cm",
+     "as": "২৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "100.58 sq cm",
+     "as": "১০০.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "50.29 sq cm",
+     "as": "৫০.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "61.29 sq cm",
+     "as": "৬১.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 4 x 4 = 50.29 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 4 x 4 = 50.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-120",
+   "q": {
+    "en": "The radius of a circle is 4 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 4 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "50.29 cm",
+     "as": "৫০.২৯ ছেমি"
+    },
+    {
+     "en": "50.28 cm",
+     "as": "৫০.২৮ ছেমি"
+    },
+    {
+     "en": "36.14 cm",
+     "as": "৩৬.১৪ ছেমি"
+    },
+    {
+     "en": "25.14 cm",
+     "as": "২৫.১৪ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 4 = 25.14 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 4 = 25.14 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-121",
+   "q": {
+    "en": "The radius of a circle is 6 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 6 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "113.14 sq cm",
+     "as": "১১৩.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "37.71 sq cm",
+     "as": "৩৭.৭১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "226.28 sq cm",
+     "as": "২২৬.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "124.14 sq cm",
+     "as": "১২৪.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 6 x 6 = 113.14 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 6 x 6 = 113.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-122",
+   "q": {
+    "en": "The radius of a circle is 6 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 6 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "113.14 cm",
+     "as": "১১৩.১৪ ছেমি"
+    },
+    {
+     "en": "37.71 cm",
+     "as": "৩৭.৭১ ছেমি"
+    },
+    {
+     "en": "75.42 cm",
+     "as": "৭৫.৪২ ছেমি"
+    },
+    {
+     "en": "48.71 cm",
+     "as": "৪৮.৭১ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 6 = 37.71 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 6 = 37.71 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-123",
+   "q": {
+    "en": "The radius of a circle is 8 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 8 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "50.29 sq cm",
+     "as": "৫০.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "402.28 sq cm",
+     "as": "৪০২.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "201.14 sq cm",
+     "as": "২০১.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "212.14 sq cm",
+     "as": "২১২.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 8 x 8 = 201.14 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 8 x 8 = 201.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-124",
+   "q": {
+    "en": "The radius of a circle is 8 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 8 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "201.14 cm",
+     "as": "২০১.১৪ ছেমি"
+    },
+    {
+     "en": "100.58 cm",
+     "as": "১০০.৫৮ ছেমি"
+    },
+    {
+     "en": "61.29 cm",
+     "as": "৬১.২৯ ছেমি"
+    },
+    {
+     "en": "50.29 cm",
+     "as": "৫০.২৯ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 8 = 50.29 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 8 = 50.29 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-125",
+   "q": {
+    "en": "The radius of a circle is 9 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 9 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "254.57 sq cm",
+     "as": "২৫৪.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56.57 sq cm",
+     "as": "৫৬.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "509.14 sq cm",
+     "as": "৫০৯.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "265.57 sq cm",
+     "as": "২৬৫.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 9 x 9 = 254.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 9 x 9 = 254.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-126",
+   "q": {
+    "en": "The radius of a circle is 9 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 9 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "254.57 cm",
+     "as": "২৫৪.৫৭ ছেমি"
+    },
+    {
+     "en": "56.57 cm",
+     "as": "৫৬.৫৭ ছেমি"
+    },
+    {
+     "en": "113.14 cm",
+     "as": "১১৩.১৪ ছেমি"
+    },
+    {
+     "en": "67.57 cm",
+     "as": "৬৭.৫৭ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 9 = 56.57 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 9 = 56.57 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-127",
+   "q": {
+    "en": "The radius of a circle is 11 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 11 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "69.14 sq cm",
+     "as": "৬৯.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "760.58 sq cm",
+     "as": "৭৬০.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "380.29 sq cm",
+     "as": "৩৮০.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "391.29 sq cm",
+     "as": "৩৯১.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 11 x 11 = 380.29 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 11 x 11 = 380.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-128",
+   "q": {
+    "en": "The radius of a circle is 11 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 11 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "380.29 cm",
+     "as": "৩৮০.২৯ ছেমি"
+    },
+    {
+     "en": "138.28 cm",
+     "as": "১৩৮.২৮ ছেমি"
+    },
+    {
+     "en": "80.14 cm",
+     "as": "৮০.১৪ ছেমি"
+    },
+    {
+     "en": "69.14 cm",
+     "as": "৬৯.১৪ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 11 = 69.14 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 11 = 69.14 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-129",
+   "q": {
+    "en": "The radius of a circle is 12 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 12 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "452.57 sq cm",
+     "as": "৪৫২.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "75.43 sq cm",
+     "as": "৭৫.৪৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "905.14 sq cm",
+     "as": "৯০৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "463.57 sq cm",
+     "as": "৪৬৩.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 12 x 12 = 452.57 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 12 x 12 = 452.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-130",
+   "q": {
+    "en": "The radius of a circle is 12 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 12 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "452.57 cm",
+     "as": "৪৫২.৫৭ ছেমি"
+    },
+    {
+     "en": "75.43 cm",
+     "as": "৭৫.৪৩ ছেমি"
+    },
+    {
+     "en": "150.86 cm",
+     "as": "১৫০.৮৬ ছেমি"
+    },
+    {
+     "en": "86.43 cm",
+     "as": "৮৬.৪৩ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 12 = 75.43 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 12 = 75.43 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-131",
+   "q": {
+    "en": "The radius of a circle is 35 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 35 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "220 sq cm",
+     "as": "২২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "7700 sq cm",
+     "as": "৭৭০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3850 sq cm",
+     "as": "৩৮৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3861 sq cm",
+     "as": "৩৮৬১ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 35 x 35 = 3850 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 35 x 35 = 3850 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-132",
+   "q": {
+    "en": "The radius of a circle is 35 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 35 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "3850 cm",
+     "as": "৩৮৫০ ছেমি"
+    },
+    {
+     "en": "440 cm",
+     "as": "৪৪০ ছেমি"
+    },
+    {
+     "en": "231 cm",
+     "as": "২৩১ ছেমি"
+    },
+    {
+     "en": "220 cm",
+     "as": "২২০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 35 = 220 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 35 = 220 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-133",
+   "q": {
+    "en": "The radius of a circle is 42 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 42 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "5544 sq cm",
+     "as": "৫৫৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "264 sq cm",
+     "as": "২৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "11088 sq cm",
+     "as": "১১০৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "5555 sq cm",
+     "as": "৫৫৫৫ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 42 x 42 = 5544 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 42 x 42 = 5544 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-134",
+   "q": {
+    "en": "The radius of a circle is 42 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 42 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "5544 cm",
+     "as": "৫৫৪৪ ছেমি"
+    },
+    {
+     "en": "264 cm",
+     "as": "২৬৪ ছেমি"
+    },
+    {
+     "en": "528 cm",
+     "as": "৫২৮ ছেমি"
+    },
+    {
+     "en": "275 cm",
+     "as": "২৭৫ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 42 = 264 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 42 = 264 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-135",
+   "q": {
+    "en": "The radius of a circle is 49 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 49 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "308 sq cm",
+     "as": "৩০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "15092 sq cm",
+     "as": "১৫০৯২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "7546 sq cm",
+     "as": "৭৫৪৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "7557 sq cm",
+     "as": "৭৫৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 49 x 49 = 7546 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 49 x 49 = 7546 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-136",
+   "q": {
+    "en": "The radius of a circle is 49 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 49 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "7546 cm",
+     "as": "৭৫৪৬ ছেমি"
+    },
+    {
+     "en": "616 cm",
+     "as": "৬১৬ ছেমি"
+    },
+    {
+     "en": "319 cm",
+     "as": "৩১৯ ছেমি"
+    },
+    {
+     "en": "308 cm",
+     "as": "৩০৮ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 49 = 308 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 49 = 308 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-137",
+   "q": {
+    "en": "The radius of a circle is 56 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 56 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "9856 sq cm",
+     "as": "৯৮৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "352 sq cm",
+     "as": "৩৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "19712 sq cm",
+     "as": "১৯৭১২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "9867 sq cm",
+     "as": "৯৮৬৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 56 x 56 = 9856 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 56 x 56 = 9856 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-138",
+   "q": {
+    "en": "The radius of a circle is 56 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 56 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "9856 cm",
+     "as": "৯৮৫৬ ছেমি"
+    },
+    {
+     "en": "352 cm",
+     "as": "৩৫২ ছেমি"
+    },
+    {
+     "en": "704 cm",
+     "as": "৭০৪ ছেমি"
+    },
+    {
+     "en": "363 cm",
+     "as": "৩৬৩ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 56 = 352 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 56 = 352 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-139",
+   "q": {
+    "en": "The radius of a circle is 70 cm. Its area (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 70 ছেমি। কালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "440 sq cm",
+     "as": "৪৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30800 sq cm",
+     "as": "৩০৮০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "15400 sq cm",
+     "as": "১৫৪০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "15411 sq cm",
+     "as": "১৫৪১১ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Area = pi r^2 = (22/7) x 70 x 70 = 15400 sq cm.",
+    "as": "কালি = pi r^2 = (22/7) x 70 x 70 = 15400 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-140",
+   "q": {
+    "en": "The radius of a circle is 70 cm. Its circumference (pi = 22/7) is —",
+    "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 70 ছেমি। পৰিধি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "15400 cm",
+     "as": "১৫৪০০ ছেমি"
+    },
+    {
+     "en": "880 cm",
+     "as": "৮৮০ ছেমি"
+    },
+    {
+     "en": "451 cm",
+     "as": "৪৫১ ছেমি"
+    },
+    {
+     "en": "440 cm",
+     "as": "৪৪০ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Circumference = 2 pi r = 2 x (22/7) x 70 = 440 cm.",
+    "as": "পৰিধি = 2 pi r = 2 x (22/7) x 70 = 440 ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-2d-141",
+   "q": {
+    "en": "The area of a rectangle is ?",
+    "as": "আয়তক্ষেত্ৰৰ কালি ?"
+   },
+   "options": [
+    {
+     "en": "length x breadth",
+     "as": "length x breadth"
+    },
+    {
+     "en": "length + breadth",
+     "as": "length + breadth"
+    },
+    {
+     "en": "2 (length + breadth)",
+     "as": "2 (length + breadth)"
+    },
+    {
+     "en": "length^2",
+     "as": "length^2"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The area of a rectangle is its length multiplied by its breadth.",
+    "as": "আয়তক্ষেত্ৰৰ কালি হৈছে দীঘ আৰু প্ৰস্থৰ গুণফল।"
+   }
+  },
+  {
+   "id": "mensuration-2d-142",
+   "q": {
+    "en": "The perimeter of a square of side s is ?",
+    "as": "বাহু s ৰ বৰ্গক্ষেত্ৰৰ পৰিসীমা ?"
+   },
+   "options": [
+    {
+     "en": "s^2",
+     "as": "s^2"
+    },
+    {
+     "en": "4s",
+     "as": "4s"
+    },
+    {
+     "en": "2s",
+     "as": "2s"
+    },
+    {
+     "en": "s/4",
+     "as": "s/4"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A square has four equal sides, so the perimeter is four times the side.",
+    "as": "বৰ্গক্ষেত্ৰৰ চাৰিটা বাহু সমান, গতিকে পৰিসীমা বাহুৰ চাৰিগুণ।"
+   }
+  },
+  {
+   "id": "mensuration-2d-143",
+   "q": {
+    "en": "The area of a triangle is ?",
+    "as": "ত্ৰিভুজৰ কালি ?"
+   },
+   "options": [
+    {
+     "en": "base x height",
+     "as": "base x height"
+    },
+    {
+     "en": "base + height",
+     "as": "base + height"
+    },
+    {
+     "en": "(1/2) x base x height",
+     "as": "(1/2) x base x height"
+    },
+    {
+     "en": "2 x base x height",
+     "as": "2 x base x height"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The area of a triangle is half the product of its base and height.",
+    "as": "ত্ৰিভুজৰ কালি ভূমি আৰু উচ্চতাৰ গুণফলৰ আধা।"
+   }
+  },
+  {
+   "id": "mensuration-2d-144",
+   "q": {
+    "en": "The circumference of a circle is ?",
+    "as": "বৃত্তৰ পৰিধি ?"
+   },
+   "options": [
+    {
+     "en": "pi r^2",
+     "as": "pi r^2"
+    },
+    {
+     "en": "pi r",
+     "as": "pi r"
+    },
+    {
+     "en": "4 pi r",
+     "as": "4 pi r"
+    },
+    {
+     "en": "2 pi r",
+     "as": "2 pi r"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The circumference of a circle of radius r is 2 pi r.",
+    "as": "ব্যাসাৰ্ধ r ৰ বৃত্তৰ পৰিধি 2 pi r।"
+   }
+  }
+ ],
+ "mensuration-3d": [
+  {
+   "id": "mensuration-3d-001",
+   "q": {
+    "en": "The side of a cube is 3 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 3 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "27 cubic cm",
+     "as": "২৭ cubic cm"
+    },
+    {
+     "en": "54 cubic cm",
+     "as": "৫৪ cubic cm"
+    },
+    {
+     "en": "9 cubic cm",
+     "as": "৯ cubic cm"
+    },
+    {
+     "en": "30 cubic cm",
+     "as": "৩০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 3 x 3 x 3 = 27 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 3 x 3 x 3 = 27 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-002",
+   "q": {
+    "en": "The side of a cube is 3 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 3 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "27 sq cm",
+     "as": "২৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "54 sq cm",
+     "as": "৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "9 sq cm",
+     "as": "৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 3 x 3 = 54 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 3 x 3 = 54 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-003",
+   "q": {
+    "en": "The side of a cube is 4 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 4 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "96 cubic cm",
+     "as": "৯৬ cubic cm"
+    },
+    {
+     "en": "16 cubic cm",
+     "as": "১৬ cubic cm"
+    },
+    {
+     "en": "64 cubic cm",
+     "as": "৬৪ cubic cm"
+    },
+    {
+     "en": "68 cubic cm",
+     "as": "৬৮ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 4 x 4 x 4 = 64 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 4 x 4 x 4 = 64 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-004",
+   "q": {
+    "en": "The side of a cube is 4 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 4 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "64 sq cm",
+     "as": "৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "16 sq cm",
+     "as": "১৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "102 sq cm",
+     "as": "১০২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "96 sq cm",
+     "as": "৯৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 4 x 4 = 96 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 4 x 4 = 96 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-005",
+   "q": {
+    "en": "The side of a cube is 5 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 5 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "125 cubic cm",
+     "as": "১২৫ cubic cm"
+    },
+    {
+     "en": "150 cubic cm",
+     "as": "১৫০ cubic cm"
+    },
+    {
+     "en": "25 cubic cm",
+     "as": "২৫ cubic cm"
+    },
+    {
+     "en": "130 cubic cm",
+     "as": "১৩০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 5 x 5 x 5 = 125 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 5 x 5 x 5 = 125 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-006",
+   "q": {
+    "en": "The side of a cube is 5 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 5 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "125 sq cm",
+     "as": "১২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "150 sq cm",
+     "as": "১৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "25 sq cm",
+     "as": "২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "156 sq cm",
+     "as": "১৫৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 5 x 5 = 150 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 5 x 5 = 150 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-007",
+   "q": {
+    "en": "The side of a cube is 6 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 6 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "36 cubic cm",
+     "as": "৩৬ cubic cm"
+    },
+    {
+     "en": "222 cubic cm",
+     "as": "২২২ cubic cm"
+    },
+    {
+     "en": "216 cubic cm",
+     "as": "২১৬ cubic cm"
+    },
+    {
+     "en": "210 cubic cm",
+     "as": "২১০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 6 x 6 x 6 = 216 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 6 x 6 x 6 = 216 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-008",
+   "q": {
+    "en": "The side of a cube is 6 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 6 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "36 sq cm",
+     "as": "৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "222 sq cm",
+     "as": "২২২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "210 sq cm",
+     "as": "২১০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "216 sq cm",
+     "as": "২১৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 6 x 6 = 216 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 6 x 6 = 216 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-009",
+   "q": {
+    "en": "The side of a cube is 7 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 7 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "343 cubic cm",
+     "as": "৩৪৩ cubic cm"
+    },
+    {
+     "en": "294 cubic cm",
+     "as": "২৯৪ cubic cm"
+    },
+    {
+     "en": "49 cubic cm",
+     "as": "৪৯ cubic cm"
+    },
+    {
+     "en": "350 cubic cm",
+     "as": "৩৫০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 7 x 7 x 7 = 343 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 7 x 7 x 7 = 343 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-010",
+   "q": {
+    "en": "The side of a cube is 7 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 7 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "343 sq cm",
+     "as": "৩৪৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "294 sq cm",
+     "as": "২৯৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "49 sq cm",
+     "as": "৪৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "300 sq cm",
+     "as": "৩০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 7 x 7 = 294 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 7 x 7 = 294 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-011",
+   "q": {
+    "en": "The side of a cube is 8 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 8 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "384 cubic cm",
+     "as": "৩৮৪ cubic cm"
+    },
+    {
+     "en": "64 cubic cm",
+     "as": "৬৪ cubic cm"
+    },
+    {
+     "en": "512 cubic cm",
+     "as": "৫১২ cubic cm"
+    },
+    {
+     "en": "520 cubic cm",
+     "as": "৫২০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 8 x 8 x 8 = 512 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 8 x 8 x 8 = 512 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-012",
+   "q": {
+    "en": "The side of a cube is 8 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 8 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "512 sq cm",
+     "as": "৫১২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "64 sq cm",
+     "as": "৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "390 sq cm",
+     "as": "৩৯০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "384 sq cm",
+     "as": "৩৮৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 8 x 8 = 384 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 8 x 8 = 384 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-013",
+   "q": {
+    "en": "The side of a cube is 9 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 9 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "729 cubic cm",
+     "as": "৭২৯ cubic cm"
+    },
+    {
+     "en": "486 cubic cm",
+     "as": "৪৮৬ cubic cm"
+    },
+    {
+     "en": "81 cubic cm",
+     "as": "৮১ cubic cm"
+    },
+    {
+     "en": "738 cubic cm",
+     "as": "৭৩৮ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 9 x 9 x 9 = 729 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 9 x 9 x 9 = 729 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-014",
+   "q": {
+    "en": "The side of a cube is 9 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 9 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "729 sq cm",
+     "as": "৭২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "486 sq cm",
+     "as": "৪৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "81 sq cm",
+     "as": "৮১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "492 sq cm",
+     "as": "৪৯২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 9 x 9 = 486 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 9 x 9 = 486 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-015",
+   "q": {
+    "en": "The side of a cube is 10 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 10 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "600 cubic cm",
+     "as": "৬০০ cubic cm"
+    },
+    {
+     "en": "100 cubic cm",
+     "as": "১০০ cubic cm"
+    },
+    {
+     "en": "1000 cubic cm",
+     "as": "১০০০ cubic cm"
+    },
+    {
+     "en": "1010 cubic cm",
+     "as": "১০১০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 10 x 10 x 10 = 1000 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 10 x 10 x 10 = 1000 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-016",
+   "q": {
+    "en": "The side of a cube is 10 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 10 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "1000 sq cm",
+     "as": "১০০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "100 sq cm",
+     "as": "১০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "606 sq cm",
+     "as": "৬০৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "600 sq cm",
+     "as": "৬০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 10 x 10 = 600 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 10 x 10 = 600 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-017",
+   "q": {
+    "en": "The side of a cube is 11 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 11 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "1331 cubic cm",
+     "as": "১৩৩১ cubic cm"
+    },
+    {
+     "en": "726 cubic cm",
+     "as": "৭২৬ cubic cm"
+    },
+    {
+     "en": "121 cubic cm",
+     "as": "১২১ cubic cm"
+    },
+    {
+     "en": "1342 cubic cm",
+     "as": "১৩৪২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 11 x 11 x 11 = 1331 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 11 x 11 x 11 = 1331 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-018",
+   "q": {
+    "en": "The side of a cube is 11 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 11 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "1331 sq cm",
+     "as": "১৩৩১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "726 sq cm",
+     "as": "৭২৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "121 sq cm",
+     "as": "১২১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "732 sq cm",
+     "as": "৭৩২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 11 x 11 = 726 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 11 x 11 = 726 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-019",
+   "q": {
+    "en": "The side of a cube is 12 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 12 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "864 cubic cm",
+     "as": "৮৬৪ cubic cm"
+    },
+    {
+     "en": "144 cubic cm",
+     "as": "১৪৪ cubic cm"
+    },
+    {
+     "en": "1728 cubic cm",
+     "as": "১৭২৮ cubic cm"
+    },
+    {
+     "en": "1740 cubic cm",
+     "as": "১৭৪০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 12 x 12 x 12 = 1728 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 12 x 12 x 12 = 1728 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-020",
+   "q": {
+    "en": "The side of a cube is 12 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 12 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "1728 sq cm",
+     "as": "১৭২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "144 sq cm",
+     "as": "১৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "870 sq cm",
+     "as": "৮৭০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "864 sq cm",
+     "as": "৮৬৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 12 x 12 = 864 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 12 x 12 = 864 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-021",
+   "q": {
+    "en": "The side of a cube is 2 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 2 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "8 cubic cm",
+     "as": "৮ cubic cm"
+    },
+    {
+     "en": "24 cubic cm",
+     "as": "২৪ cubic cm"
+    },
+    {
+     "en": "4 cubic cm",
+     "as": "৪ cubic cm"
+    },
+    {
+     "en": "10 cubic cm",
+     "as": "১০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 2 x 2 x 2 = 8 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 2 x 2 x 2 = 8 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-022",
+   "q": {
+    "en": "The side of a cube is 2 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 2 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "8 sq cm",
+     "as": "৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "24 sq cm",
+     "as": "২৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "4 sq cm",
+     "as": "৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 2 x 2 = 24 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 2 x 2 = 24 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-023",
+   "q": {
+    "en": "The side of a cube is 13 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 13 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "1014 cubic cm",
+     "as": "১০১৪ cubic cm"
+    },
+    {
+     "en": "169 cubic cm",
+     "as": "১৬৯ cubic cm"
+    },
+    {
+     "en": "2197 cubic cm",
+     "as": "২১৯৭ cubic cm"
+    },
+    {
+     "en": "2210 cubic cm",
+     "as": "২২১০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 13 x 13 x 13 = 2197 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 13 x 13 x 13 = 2197 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-024",
+   "q": {
+    "en": "The side of a cube is 13 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 13 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "2197 sq cm",
+     "as": "২১৯৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "169 sq cm",
+     "as": "১৬৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1020 sq cm",
+     "as": "১০২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1014 sq cm",
+     "as": "১০১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 13 x 13 = 1014 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 13 x 13 = 1014 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-025",
+   "q": {
+    "en": "The side of a cube is 14 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 14 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "2744 cubic cm",
+     "as": "২৭৪৪ cubic cm"
+    },
+    {
+     "en": "1176 cubic cm",
+     "as": "১১৭৬ cubic cm"
+    },
+    {
+     "en": "196 cubic cm",
+     "as": "১৯৬ cubic cm"
+    },
+    {
+     "en": "2758 cubic cm",
+     "as": "২৭৫৮ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 14 x 14 x 14 = 2744 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 14 x 14 x 14 = 2744 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-026",
+   "q": {
+    "en": "The side of a cube is 14 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 14 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "2744 sq cm",
+     "as": "২৭৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1176 sq cm",
+     "as": "১১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "196 sq cm",
+     "as": "১৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1182 sq cm",
+     "as": "১১৮২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 14 x 14 = 1176 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 14 x 14 = 1176 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-027",
+   "q": {
+    "en": "The side of a cube is 15 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 15 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "1350 cubic cm",
+     "as": "১৩৫০ cubic cm"
+    },
+    {
+     "en": "225 cubic cm",
+     "as": "২২৫ cubic cm"
+    },
+    {
+     "en": "3375 cubic cm",
+     "as": "৩৩৭৫ cubic cm"
+    },
+    {
+     "en": "3390 cubic cm",
+     "as": "৩৩৯০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 15 x 15 x 15 = 3375 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 15 x 15 x 15 = 3375 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-028",
+   "q": {
+    "en": "The side of a cube is 15 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 15 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "3375 sq cm",
+     "as": "৩৩৭৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "225 sq cm",
+     "as": "২২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1356 sq cm",
+     "as": "১৩৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1350 sq cm",
+     "as": "১৩৫০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 15 x 15 = 1350 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 15 x 15 = 1350 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-029",
+   "q": {
+    "en": "The side of a cube is 16 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 16 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "4096 cubic cm",
+     "as": "৪০৯৬ cubic cm"
+    },
+    {
+     "en": "1536 cubic cm",
+     "as": "১৫৩৬ cubic cm"
+    },
+    {
+     "en": "256 cubic cm",
+     "as": "২৫৬ cubic cm"
+    },
+    {
+     "en": "4112 cubic cm",
+     "as": "৪১১২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 16 x 16 x 16 = 4096 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 16 x 16 x 16 = 4096 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-030",
+   "q": {
+    "en": "The side of a cube is 16 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 16 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "4096 sq cm",
+     "as": "৪০৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1536 sq cm",
+     "as": "১৫৩৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "256 sq cm",
+     "as": "২৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1542 sq cm",
+     "as": "১৫৪২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 16 x 16 = 1536 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 16 x 16 = 1536 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-031",
+   "q": {
+    "en": "The side of a cube is 20 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 20 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "2400 cubic cm",
+     "as": "২৪০০ cubic cm"
+    },
+    {
+     "en": "400 cubic cm",
+     "as": "৪০০ cubic cm"
+    },
+    {
+     "en": "8000 cubic cm",
+     "as": "৮০০০ cubic cm"
+    },
+    {
+     "en": "8020 cubic cm",
+     "as": "৮০২০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 20 x 20 x 20 = 8000 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 20 x 20 x 20 = 8000 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-032",
+   "q": {
+    "en": "The side of a cube is 20 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 20 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "8000 sq cm",
+     "as": "৮০০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "400 sq cm",
+     "as": "৪০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2406 sq cm",
+     "as": "২৪০৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2400 sq cm",
+     "as": "২৪০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 20 x 20 = 2400 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 20 x 20 = 2400 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-033",
+   "q": {
+    "en": "The side of a cube is 25 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 25 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "15625 cubic cm",
+     "as": "১৫৬২৫ cubic cm"
+    },
+    {
+     "en": "3750 cubic cm",
+     "as": "৩৭৫০ cubic cm"
+    },
+    {
+     "en": "625 cubic cm",
+     "as": "৬২৫ cubic cm"
+    },
+    {
+     "en": "15650 cubic cm",
+     "as": "১৫৬৫০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 25 x 25 x 25 = 15625 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 25 x 25 x 25 = 15625 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-034",
+   "q": {
+    "en": "The side of a cube is 25 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 25 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "15625 sq cm",
+     "as": "১৫৬২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3750 sq cm",
+     "as": "৩৭৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "625 sq cm",
+     "as": "৬২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3756 sq cm",
+     "as": "৩৭৫৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 25 x 25 = 3750 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 25 x 25 = 3750 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-035",
+   "q": {
+    "en": "The side of a cube is 30 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 30 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "5400 cubic cm",
+     "as": "৫৪০০ cubic cm"
+    },
+    {
+     "en": "900 cubic cm",
+     "as": "৯০০ cubic cm"
+    },
+    {
+     "en": "27000 cubic cm",
+     "as": "২৭০০০ cubic cm"
+    },
+    {
+     "en": "27030 cubic cm",
+     "as": "২৭০৩০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 30 x 30 x 30 = 27000 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 30 x 30 x 30 = 27000 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-036",
+   "q": {
+    "en": "The side of a cube is 30 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 30 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "27000 sq cm",
+     "as": "২৭০০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "900 sq cm",
+     "as": "৯০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "5406 sq cm",
+     "as": "৫৪০৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "5400 sq cm",
+     "as": "৫৪০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 30 x 30 = 5400 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 30 x 30 = 5400 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-037",
+   "q": {
+    "en": "The side of a cube is 35 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 35 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "42875 cubic cm",
+     "as": "৪২৮৭৫ cubic cm"
+    },
+    {
+     "en": "7350 cubic cm",
+     "as": "৭৩৫০ cubic cm"
+    },
+    {
+     "en": "1225 cubic cm",
+     "as": "১২২৫ cubic cm"
+    },
+    {
+     "en": "42910 cubic cm",
+     "as": "৪২৯১০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 35 x 35 x 35 = 42875 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 35 x 35 x 35 = 42875 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-038",
+   "q": {
+    "en": "The side of a cube is 35 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 35 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "42875 sq cm",
+     "as": "৪২৮৭৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "7350 sq cm",
+     "as": "৭৩৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1225 sq cm",
+     "as": "১২২৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "7356 sq cm",
+     "as": "৭৩৫৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 35 x 35 = 7350 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 35 x 35 = 7350 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-039",
+   "q": {
+    "en": "The side of a cube is 40 cm. Its volume is —",
+    "as": "এটা ঘনকৰ বাহু 40 ছেমি। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "9600 cubic cm",
+     "as": "৯৬০০ cubic cm"
+    },
+    {
+     "en": "1600 cubic cm",
+     "as": "১৬০০ cubic cm"
+    },
+    {
+     "en": "64000 cubic cm",
+     "as": "৬৪০০০ cubic cm"
+    },
+    {
+     "en": "64040 cubic cm",
+     "as": "৬৪০৪০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cube = side^3 = 40 x 40 x 40 = 64000 cubic cm.",
+    "as": "ঘনকৰ আয়তন = বাহু^3 = 40 x 40 x 40 = 64000 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-040",
+   "q": {
+    "en": "The side of a cube is 40 cm. Its total surface area is —",
+    "as": "এটা ঘনকৰ বাহু 40 ছেমি। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "64000 sq cm",
+     "as": "৬৪০০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1600 sq cm",
+     "as": "১৬০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "9606 sq cm",
+     "as": "৯৬০৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "9600 sq cm",
+     "as": "৯৬০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area of a cube = 6 x side^2 = 6 x 40 x 40 = 9600 sq cm.",
+    "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6 x বাহু^2 = 6 x 40 x 40 = 9600 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-041",
+   "q": {
+    "en": "A cuboid is 10 cm long, 6 cm broad and 4 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 10 ছেমি দীঘ, 6 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "240 cubic cm",
+     "as": "২৪০ cubic cm"
+    },
+    {
+     "en": "248 cubic cm",
+     "as": "২৪৮ cubic cm"
+    },
+    {
+     "en": "20 cubic cm",
+     "as": "২০ cubic cm"
+    },
+    {
+     "en": "250 cubic cm",
+     "as": "২৫০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 10 x 6 x 4 = 240 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 10 x 6 x 4 = 240 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-042",
+   "q": {
+    "en": "A cuboid is 10 cm long, 6 cm broad and 4 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 10 ছেমি দীঘ, 6 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "240 sq cm",
+     "as": "২৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "248 sq cm",
+     "as": "২৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "40 sq cm",
+     "as": "৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "258 sq cm",
+     "as": "২৫৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(60 + 24 + 40) = 248 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(60 + 24 + 40) = 248 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-043",
+   "q": {
+    "en": "A cuboid is 12 cm long, 8 cm broad and 5 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 12 ছেমি দীঘ, 8 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "392 cubic cm",
+     "as": "৩৯২ cubic cm"
+    },
+    {
+     "en": "25 cubic cm",
+     "as": "২৫ cubic cm"
+    },
+    {
+     "en": "480 cubic cm",
+     "as": "৪৮০ cubic cm"
+    },
+    {
+     "en": "492 cubic cm",
+     "as": "৪৯২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 12 x 8 x 5 = 480 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 12 x 8 x 5 = 480 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-044",
+   "q": {
+    "en": "A cuboid is 12 cm long, 8 cm broad and 5 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 12 ছেমি দীঘ, 8 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "480 sq cm",
+     "as": "৪৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "50 sq cm",
+     "as": "৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "402 sq cm",
+     "as": "৪০২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "392 sq cm",
+     "as": "৩৯২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(96 + 40 + 60) = 392 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(96 + 40 + 60) = 392 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-045",
+   "q": {
+    "en": "A cuboid is 15 cm long, 10 cm broad and 6 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 15 ছেমি দীঘ, 10 ছেমি প্ৰস্থ আৰু 6 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "900 cubic cm",
+     "as": "৯০০ cubic cm"
+    },
+    {
+     "en": "600 cubic cm",
+     "as": "৬০০ cubic cm"
+    },
+    {
+     "en": "31 cubic cm",
+     "as": "৩১ cubic cm"
+    },
+    {
+     "en": "915 cubic cm",
+     "as": "৯১৫ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 15 x 10 x 6 = 900 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 15 x 10 x 6 = 900 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-046",
+   "q": {
+    "en": "A cuboid is 15 cm long, 10 cm broad and 6 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 15 ছেমি দীঘ, 10 ছেমি প্ৰস্থ আৰু 6 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "900 sq cm",
+     "as": "৯০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "600 sq cm",
+     "as": "৬০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "62 sq cm",
+     "as": "৬২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "610 sq cm",
+     "as": "৬১০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(150 + 60 + 90) = 600 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(150 + 60 + 90) = 600 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-047",
+   "q": {
+    "en": "A cuboid is 20 cm long, 5 cm broad and 3 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 20 ছেমি দীঘ, 5 ছেমি প্ৰস্থ আৰু 3 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "350 cubic cm",
+     "as": "৩৫০ cubic cm"
+    },
+    {
+     "en": "28 cubic cm",
+     "as": "২৮ cubic cm"
+    },
+    {
+     "en": "300 cubic cm",
+     "as": "৩০০ cubic cm"
+    },
+    {
+     "en": "320 cubic cm",
+     "as": "৩২০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 20 x 5 x 3 = 300 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 20 x 5 x 3 = 300 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-048",
+   "q": {
+    "en": "A cuboid is 20 cm long, 5 cm broad and 3 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 20 ছেমি দীঘ, 5 ছেমি প্ৰস্থ আৰু 3 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "300 sq cm",
+     "as": "৩০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "360 sq cm",
+     "as": "৩৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "350 sq cm",
+     "as": "৩৫০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(100 + 15 + 60) = 350 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(100 + 15 + 60) = 350 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-049",
+   "q": {
+    "en": "A cuboid is 8 cm long, 7 cm broad and 4 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 8 ছেমি দীঘ, 7 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "224 cubic cm",
+     "as": "২২৪ cubic cm"
+    },
+    {
+     "en": "232 cubic cm",
+     "as": "২৩২ cubic cm"
+    },
+    {
+     "en": "19 cubic cm",
+     "as": "১৯ cubic cm"
+    },
+    {
+     "en": "217 cubic cm",
+     "as": "২১৭ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 8 x 7 x 4 = 224 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 8 x 7 x 4 = 224 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-050",
+   "q": {
+    "en": "A cuboid is 8 cm long, 7 cm broad and 4 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 8 ছেমি দীঘ, 7 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "224 sq cm",
+     "as": "২২৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "232 sq cm",
+     "as": "২৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "38 sq cm",
+     "as": "৩৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "242 sq cm",
+     "as": "২৪২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(56 + 28 + 32) = 232 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(56 + 28 + 32) = 232 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-051",
+   "q": {
+    "en": "A cuboid is 14 cm long, 9 cm broad and 5 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 14 ছেমি দীঘ, 9 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "482 cubic cm",
+     "as": "৪৮২ cubic cm"
+    },
+    {
+     "en": "28 cubic cm",
+     "as": "২৮ cubic cm"
+    },
+    {
+     "en": "630 cubic cm",
+     "as": "৬৩০ cubic cm"
+    },
+    {
+     "en": "644 cubic cm",
+     "as": "৬৪৪ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 14 x 9 x 5 = 630 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 14 x 9 x 5 = 630 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-052",
+   "q": {
+    "en": "A cuboid is 14 cm long, 9 cm broad and 5 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 14 ছেমি দীঘ, 9 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "630 sq cm",
+     "as": "৬৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "56 sq cm",
+     "as": "৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "492 sq cm",
+     "as": "৪৯২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "482 sq cm",
+     "as": "৪৮২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(126 + 45 + 70) = 482 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(126 + 45 + 70) = 482 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-053",
+   "q": {
+    "en": "A cuboid is 6 cm long, 5 cm broad and 4 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 6 ছেমি দীঘ, 5 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "120 cubic cm",
+     "as": "১২০ cubic cm"
+    },
+    {
+     "en": "148 cubic cm",
+     "as": "১৪৮ cubic cm"
+    },
+    {
+     "en": "15 cubic cm",
+     "as": "১৫ cubic cm"
+    },
+    {
+     "en": "126 cubic cm",
+     "as": "১২৬ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 6 x 5 x 4 = 120 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 6 x 5 x 4 = 120 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-054",
+   "q": {
+    "en": "A cuboid is 6 cm long, 5 cm broad and 4 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 6 ছেমি দীঘ, 5 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "120 sq cm",
+     "as": "১২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "148 sq cm",
+     "as": "১৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "158 sq cm",
+     "as": "১৫৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(30 + 20 + 24) = 148 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(30 + 20 + 24) = 148 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-055",
+   "q": {
+    "en": "A cuboid is 9 cm long, 8 cm broad and 7 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 9 ছেমি দীঘ, 8 ছেমি প্ৰস্থ আৰু 7 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "382 cubic cm",
+     "as": "৩৮২ cubic cm"
+    },
+    {
+     "en": "24 cubic cm",
+     "as": "২৪ cubic cm"
+    },
+    {
+     "en": "504 cubic cm",
+     "as": "৫০৪ cubic cm"
+    },
+    {
+     "en": "513 cubic cm",
+     "as": "৫১৩ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 9 x 8 x 7 = 504 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 9 x 8 x 7 = 504 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-056",
+   "q": {
+    "en": "A cuboid is 9 cm long, 8 cm broad and 7 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 9 ছেমি দীঘ, 8 ছেমি প্ৰস্থ আৰু 7 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "504 sq cm",
+     "as": "৫০৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "392 sq cm",
+     "as": "৩৯২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "382 sq cm",
+     "as": "৩৮২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(72 + 56 + 63) = 382 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(72 + 56 + 63) = 382 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-057",
+   "q": {
+    "en": "A cuboid is 12 cm long, 10 cm broad and 8 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 12 ছেমি দীঘ, 10 ছেমি প্ৰস্থ আৰু 8 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "960 cubic cm",
+     "as": "৯৬০ cubic cm"
+    },
+    {
+     "en": "592 cubic cm",
+     "as": "৫৯২ cubic cm"
+    },
+    {
+     "en": "30 cubic cm",
+     "as": "৩০ cubic cm"
+    },
+    {
+     "en": "972 cubic cm",
+     "as": "৯৭২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 12 x 10 x 8 = 960 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 12 x 10 x 8 = 960 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-058",
+   "q": {
+    "en": "A cuboid is 12 cm long, 10 cm broad and 8 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 12 ছেমি দীঘ, 10 ছেমি প্ৰস্থ আৰু 8 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "960 sq cm",
+     "as": "৯৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "592 sq cm",
+     "as": "৫৯২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "60 sq cm",
+     "as": "৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "602 sq cm",
+     "as": "৬০২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(120 + 80 + 96) = 592 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(120 + 80 + 96) = 592 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-059",
+   "q": {
+    "en": "A cuboid is 18 cm long, 6 cm broad and 5 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 18 ছেমি দীঘ, 6 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "456 cubic cm",
+     "as": "৪৫৬ cubic cm"
+    },
+    {
+     "en": "29 cubic cm",
+     "as": "২৯ cubic cm"
+    },
+    {
+     "en": "540 cubic cm",
+     "as": "৫৪০ cubic cm"
+    },
+    {
+     "en": "558 cubic cm",
+     "as": "৫৫৮ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 18 x 6 x 5 = 540 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 18 x 6 x 5 = 540 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-060",
+   "q": {
+    "en": "A cuboid is 18 cm long, 6 cm broad and 5 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 18 ছেমি দীঘ, 6 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "540 sq cm",
+     "as": "৫৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "58 sq cm",
+     "as": "৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "466 sq cm",
+     "as": "৪৬৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "456 sq cm",
+     "as": "৪৫৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(108 + 30 + 90) = 456 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(108 + 30 + 90) = 456 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-061",
+   "q": {
+    "en": "A cuboid is 16 cm long, 12 cm broad and 10 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 16 ছেমি দীঘ, 12 ছেমি প্ৰস্থ আৰু 10 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "1920 cubic cm",
+     "as": "১৯২০ cubic cm"
+    },
+    {
+     "en": "944 cubic cm",
+     "as": "৯৪৪ cubic cm"
+    },
+    {
+     "en": "38 cubic cm",
+     "as": "৩৮ cubic cm"
+    },
+    {
+     "en": "1936 cubic cm",
+     "as": "১৯৩৬ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 16 x 12 x 10 = 1920 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 16 x 12 x 10 = 1920 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-062",
+   "q": {
+    "en": "A cuboid is 16 cm long, 12 cm broad and 10 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 16 ছেমি দীঘ, 12 ছেমি প্ৰস্থ আৰু 10 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "1920 sq cm",
+     "as": "১৯২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "944 sq cm",
+     "as": "৯৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "76 sq cm",
+     "as": "৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "954 sq cm",
+     "as": "৯৫৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(192 + 120 + 160) = 944 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(192 + 120 + 160) = 944 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-063",
+   "q": {
+    "en": "A cuboid is 24 cm long, 10 cm broad and 6 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 24 ছেমি দীঘ, 10 ছেমি প্ৰস্থ আৰু 6 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "888 cubic cm",
+     "as": "৮৮৮ cubic cm"
+    },
+    {
+     "en": "40 cubic cm",
+     "as": "৪০ cubic cm"
+    },
+    {
+     "en": "1440 cubic cm",
+     "as": "১৪৪০ cubic cm"
+    },
+    {
+     "en": "1464 cubic cm",
+     "as": "১৪৬৪ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 24 x 10 x 6 = 1440 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 24 x 10 x 6 = 1440 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-064",
+   "q": {
+    "en": "A cuboid is 24 cm long, 10 cm broad and 6 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 24 ছেমি দীঘ, 10 ছেমি প্ৰস্থ আৰু 6 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "1440 sq cm",
+     "as": "১৪৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "80 sq cm",
+     "as": "৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "898 sq cm",
+     "as": "৮৯৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "888 sq cm",
+     "as": "৮৮৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(240 + 60 + 144) = 888 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(240 + 60 + 144) = 888 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-065",
+   "q": {
+    "en": "A cuboid is 30 cm long, 15 cm broad and 10 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 30 ছেমি দীঘ, 15 ছেমি প্ৰস্থ আৰু 10 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "4500 cubic cm",
+     "as": "৪৫০০ cubic cm"
+    },
+    {
+     "en": "1800 cubic cm",
+     "as": "১৮০০ cubic cm"
+    },
+    {
+     "en": "55 cubic cm",
+     "as": "৫৫ cubic cm"
+    },
+    {
+     "en": "4530 cubic cm",
+     "as": "৪৫৩০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 30 x 15 x 10 = 4500 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 30 x 15 x 10 = 4500 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-066",
+   "q": {
+    "en": "A cuboid is 30 cm long, 15 cm broad and 10 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 30 ছেমি দীঘ, 15 ছেমি প্ৰস্থ আৰু 10 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "4500 sq cm",
+     "as": "৪৫০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1800 sq cm",
+     "as": "১৮০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "110 sq cm",
+     "as": "১১০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1810 sq cm",
+     "as": "১৮১০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(450 + 150 + 300) = 1800 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(450 + 150 + 300) = 1800 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-067",
+   "q": {
+    "en": "A cuboid is 22 cm long, 8 cm broad and 5 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 22 ছেমি দীঘ, 8 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "652 cubic cm",
+     "as": "৬৫২ cubic cm"
+    },
+    {
+     "en": "35 cubic cm",
+     "as": "৩৫ cubic cm"
+    },
+    {
+     "en": "880 cubic cm",
+     "as": "৮৮০ cubic cm"
+    },
+    {
+     "en": "902 cubic cm",
+     "as": "৯০২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 22 x 8 x 5 = 880 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 22 x 8 x 5 = 880 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-068",
+   "q": {
+    "en": "A cuboid is 22 cm long, 8 cm broad and 5 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 22 ছেমি দীঘ, 8 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "880 sq cm",
+     "as": "৮৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "70 sq cm",
+     "as": "৭০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "662 sq cm",
+     "as": "৬৬২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "652 sq cm",
+     "as": "৬৫২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(176 + 40 + 110) = 652 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(176 + 40 + 110) = 652 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-069",
+   "q": {
+    "en": "A cuboid is 25 cm long, 4 cm broad and 3 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 25 ছেমি দীঘ, 4 ছেমি প্ৰস্থ আৰু 3 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "300 cubic cm",
+     "as": "৩০০ cubic cm"
+    },
+    {
+     "en": "374 cubic cm",
+     "as": "৩৭৪ cubic cm"
+    },
+    {
+     "en": "32 cubic cm",
+     "as": "৩২ cubic cm"
+    },
+    {
+     "en": "325 cubic cm",
+     "as": "৩২৫ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 25 x 4 x 3 = 300 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 25 x 4 x 3 = 300 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-070",
+   "q": {
+    "en": "A cuboid is 25 cm long, 4 cm broad and 3 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 25 ছেমি দীঘ, 4 ছেমি প্ৰস্থ আৰু 3 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "300 sq cm",
+     "as": "৩০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "374 sq cm",
+     "as": "৩৭৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "64 sq cm",
+     "as": "৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "384 sq cm",
+     "as": "৩৮৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(100 + 12 + 75) = 374 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(100 + 12 + 75) = 374 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-071",
+   "q": {
+    "en": "A cuboid is 7 cm long, 5 cm broad and 3 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 7 ছেমি দীঘ, 5 ছেমি প্ৰস্থ আৰু 3 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "142 cubic cm",
+     "as": "১৪২ cubic cm"
+    },
+    {
+     "en": "15 cubic cm",
+     "as": "১৫ cubic cm"
+    },
+    {
+     "en": "105 cubic cm",
+     "as": "১০৫ cubic cm"
+    },
+    {
+     "en": "112 cubic cm",
+     "as": "১১২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 7 x 5 x 3 = 105 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 7 x 5 x 3 = 105 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-072",
+   "q": {
+    "en": "A cuboid is 7 cm long, 5 cm broad and 3 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 7 ছেমি দীঘ, 5 ছেমি প্ৰস্থ আৰু 3 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "105 sq cm",
+     "as": "১০৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30 sq cm",
+     "as": "৩০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "152 sq cm",
+     "as": "১৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "142 sq cm",
+     "as": "১৪২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(35 + 15 + 21) = 142 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(35 + 15 + 21) = 142 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-073",
+   "q": {
+    "en": "A cuboid is 11 cm long, 9 cm broad and 4 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 11 ছেমি দীঘ, 9 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "396 cubic cm",
+     "as": "৩৯৬ cubic cm"
+    },
+    {
+     "en": "358 cubic cm",
+     "as": "৩৫৮ cubic cm"
+    },
+    {
+     "en": "24 cubic cm",
+     "as": "২৪ cubic cm"
+    },
+    {
+     "en": "407 cubic cm",
+     "as": "৪০৭ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 11 x 9 x 4 = 396 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 11 x 9 x 4 = 396 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-074",
+   "q": {
+    "en": "A cuboid is 11 cm long, 9 cm broad and 4 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 11 ছেমি দীঘ, 9 ছেমি প্ৰস্থ আৰু 4 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "396 sq cm",
+     "as": "৩৯৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "358 sq cm",
+     "as": "৩৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "48 sq cm",
+     "as": "৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "368 sq cm",
+     "as": "৩৬৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(99 + 36 + 44) = 358 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(99 + 36 + 44) = 358 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-075",
+   "q": {
+    "en": "A cuboid is 13 cm long, 7 cm broad and 6 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 13 ছেমি দীঘ, 7 ছেমি প্ৰস্থ আৰু 6 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "422 cubic cm",
+     "as": "৪২২ cubic cm"
+    },
+    {
+     "en": "26 cubic cm",
+     "as": "২৬ cubic cm"
+    },
+    {
+     "en": "546 cubic cm",
+     "as": "৫৪৬ cubic cm"
+    },
+    {
+     "en": "559 cubic cm",
+     "as": "৫৫৯ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 13 x 7 x 6 = 546 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 13 x 7 x 6 = 546 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-076",
+   "q": {
+    "en": "A cuboid is 13 cm long, 7 cm broad and 6 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 13 ছেমি দীঘ, 7 ছেমি প্ৰস্থ আৰু 6 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "546 sq cm",
+     "as": "৫৪৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "52 sq cm",
+     "as": "৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "432 sq cm",
+     "as": "৪৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "422 sq cm",
+     "as": "৪২২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(91 + 42 + 78) = 422 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(91 + 42 + 78) = 422 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-077",
+   "q": {
+    "en": "A cuboid is 17 cm long, 11 cm broad and 5 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 17 ছেমি দীঘ, 11 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "935 cubic cm",
+     "as": "৯৩৫ cubic cm"
+    },
+    {
+     "en": "654 cubic cm",
+     "as": "৬৫৪ cubic cm"
+    },
+    {
+     "en": "33 cubic cm",
+     "as": "৩৩ cubic cm"
+    },
+    {
+     "en": "952 cubic cm",
+     "as": "৯৫২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 17 x 11 x 5 = 935 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 17 x 11 x 5 = 935 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-078",
+   "q": {
+    "en": "A cuboid is 17 cm long, 11 cm broad and 5 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 17 ছেমি দীঘ, 11 ছেমি প্ৰস্থ আৰু 5 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "935 sq cm",
+     "as": "৯৩৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "654 sq cm",
+     "as": "৬৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "66 sq cm",
+     "as": "৬৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "664 sq cm",
+     "as": "৬৬৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(187 + 55 + 85) = 654 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(187 + 55 + 85) = 654 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-079",
+   "q": {
+    "en": "A cuboid is 21 cm long, 13 cm broad and 7 cm high. Its volume is —",
+    "as": "এটা ঘনবস্তু 21 ছেমি দীঘ, 13 ছেমি প্ৰস্থ আৰু 7 ছেমি উচ্চ। আয়তন —"
+   },
+   "options": [
+    {
+     "en": "1022 cubic cm",
+     "as": "১০২২ cubic cm"
+    },
+    {
+     "en": "41 cubic cm",
+     "as": "৪১ cubic cm"
+    },
+    {
+     "en": "1911 cubic cm",
+     "as": "১৯১১ cubic cm"
+    },
+    {
+     "en": "1932 cubic cm",
+     "as": "১৯৩২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cuboid = length x breadth x height = 21 x 13 x 7 = 1911 cubic cm.",
+    "as": "ঘনবস্তুৰ আয়তন = দীঘ x প্ৰস্থ x উচ্চতা = 21 x 13 x 7 = 1911 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-080",
+   "q": {
+    "en": "A cuboid is 21 cm long, 13 cm broad and 7 cm high. Its total surface area is —",
+    "as": "এটা ঘনবস্তু 21 ছেমি দীঘ, 13 ছেমি প্ৰস্থ আৰু 7 ছেমি উচ্চ। মুঠ পৃষ্ঠকালি —"
+   },
+   "options": [
+    {
+     "en": "1911 sq cm",
+     "as": "১৯১১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "82 sq cm",
+     "as": "৮২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1032 sq cm",
+     "as": "১০৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1022 sq cm",
+     "as": "১০২২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total surface area = 2(lb + bh + hl) = 2(273 + 91 + 147) = 1022 sq cm.",
+    "as": "মুঠ পৃষ্ঠকালি = 2(lb + bh + hl) = 2(273 + 91 + 147) = 1022 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-081",
+   "q": {
+    "en": "A cylinder has radius 7 cm and height 10 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 7 ছেমি আৰু উচ্চতা 10 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1540 cubic cm",
+     "as": "১৫৪০ cubic cm"
+    },
+    {
+     "en": "440 cubic cm",
+     "as": "৪৪০ cubic cm"
+    },
+    {
+     "en": "3080 cubic cm",
+     "as": "৩০৮০ cubic cm"
+    },
+    {
+     "en": "1562 cubic cm",
+     "as": "১৫৬২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 7 x 7 x 10 = 1540 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 7 x 7 x 10 = 1540 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-082",
+   "q": {
+    "en": "A cylinder has radius 7 cm and height 10 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 7 ছেমি আৰু উচ্চতা 10 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1540 sq cm",
+     "as": "১৫৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "440 sq cm",
+     "as": "৪৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "880 sq cm",
+     "as": "৮৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "462 sq cm",
+     "as": "৪৬২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 7 x 10 = 440 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 7 x 10 = 440 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-083",
+   "q": {
+    "en": "A cylinder has radius 14 cm and height 20 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 14 ছেমি আৰু উচ্চতা 20 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1760 cubic cm",
+     "as": "১৭৬০ cubic cm"
+    },
+    {
+     "en": "24640 cubic cm",
+     "as": "২৪৬৪০ cubic cm"
+    },
+    {
+     "en": "12320 cubic cm",
+     "as": "১২৩২০ cubic cm"
+    },
+    {
+     "en": "12342 cubic cm",
+     "as": "১২৩৪২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 14 x 14 x 20 = 12320 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 14 x 14 x 20 = 12320 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-084",
+   "q": {
+    "en": "A cylinder has radius 14 cm and height 20 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 14 ছেমি আৰু উচ্চতা 20 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "12320 sq cm",
+     "as": "১২৩২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3520 sq cm",
+     "as": "৩৫২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1782 sq cm",
+     "as": "১৭৮২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1760 sq cm",
+     "as": "১৭৬০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 14 x 20 = 1760 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 14 x 20 = 1760 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-085",
+   "q": {
+    "en": "A cylinder has radius 21 cm and height 30 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 21 ছেমি আৰু উচ্চতা 30 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "41580 cubic cm",
+     "as": "৪১৫৮০ cubic cm"
+    },
+    {
+     "en": "3960 cubic cm",
+     "as": "৩৯৬০ cubic cm"
+    },
+    {
+     "en": "83160 cubic cm",
+     "as": "৮৩১৬০ cubic cm"
+    },
+    {
+     "en": "41602 cubic cm",
+     "as": "৪১৬০২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 21 x 21 x 30 = 41580 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 21 x 21 x 30 = 41580 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-086",
+   "q": {
+    "en": "A cylinder has radius 21 cm and height 30 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 21 ছেমি আৰু উচ্চতা 30 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "41580 sq cm",
+     "as": "৪১৫৮০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3960 sq cm",
+     "as": "৩৯৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "7920 sq cm",
+     "as": "৭৯২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3982 sq cm",
+     "as": "৩৯৮২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 21 x 30 = 3960 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 21 x 30 = 3960 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-087",
+   "q": {
+    "en": "A cylinder has radius 3.5 cm and height 4 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 3.5 ছেমি আৰু উচ্চতা 4 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "88 cubic cm",
+     "as": "৮৮ cubic cm"
+    },
+    {
+     "en": "308 cubic cm",
+     "as": "৩০৮ cubic cm"
+    },
+    {
+     "en": "154 cubic cm",
+     "as": "১৫৪ cubic cm"
+    },
+    {
+     "en": "176 cubic cm",
+     "as": "১৭৬ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 3.5 x 3.5 x 4 = 154 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 3.5 x 3.5 x 4 = 154 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-088",
+   "q": {
+    "en": "A cylinder has radius 3.5 cm and height 4 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 3.5 ছেমি আৰু উচ্চতা 4 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "154 sq cm",
+     "as": "১৫৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "110 sq cm",
+     "as": "১১০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 3.5 x 4 = 88 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 3.5 x 4 = 88 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-089",
+   "q": {
+    "en": "A cylinder has radius 10 cm and height 15 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 10 ছেমি আৰু উচ্চতা 15 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "4714.29 cubic cm",
+     "as": "৪৭১৪.২৯ cubic cm"
+    },
+    {
+     "en": "942.86 cubic cm",
+     "as": "৯৪২.৮৬ cubic cm"
+    },
+    {
+     "en": "9428.58 cubic cm",
+     "as": "৯৪২৮.৫৮ cubic cm"
+    },
+    {
+     "en": "4736.29 cubic cm",
+     "as": "৪৭৩৬.২৯ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 10 x 10 x 15 = 4714.29 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 10 x 10 x 15 = 4714.29 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-090",
+   "q": {
+    "en": "A cylinder has radius 10 cm and height 15 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 10 ছেমি আৰু উচ্চতা 15 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "4714.29 sq cm",
+     "as": "৪৭১৪.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "942.86 sq cm",
+     "as": "৯৪২.৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1885.72 sq cm",
+     "as": "১৮৮৫.৭২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "964.86 sq cm",
+     "as": "৯৬৪.৮৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 10 x 15 = 942.86 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 10 x 15 = 942.86 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-091",
+   "q": {
+    "en": "A cylinder has radius 5 cm and height 12 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 5 ছেমি আৰু উচ্চতা 12 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "377.14 cubic cm",
+     "as": "৩৭৭.১৪ cubic cm"
+    },
+    {
+     "en": "1885.72 cubic cm",
+     "as": "১৮৮৫.৭২ cubic cm"
+    },
+    {
+     "en": "942.86 cubic cm",
+     "as": "৯৪২.৮৬ cubic cm"
+    },
+    {
+     "en": "964.86 cubic cm",
+     "as": "৯৬৪.৮৬ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 5 x 5 x 12 = 942.86 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 5 x 5 x 12 = 942.86 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-092",
+   "q": {
+    "en": "A cylinder has radius 5 cm and height 12 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 5 ছেমি আৰু উচ্চতা 12 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "942.86 sq cm",
+     "as": "৯৪২.৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "754.28 sq cm",
+     "as": "৭৫৪.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "399.14 sq cm",
+     "as": "৩৯৯.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "377.14 sq cm",
+     "as": "৩৭৭.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 5 x 12 = 377.14 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 5 x 12 = 377.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-093",
+   "q": {
+    "en": "A cylinder has radius 28 cm and height 10 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 28 ছেমি আৰু উচ্চতা 10 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "24640 cubic cm",
+     "as": "২৪৬৪০ cubic cm"
+    },
+    {
+     "en": "1760 cubic cm",
+     "as": "১৭৬০ cubic cm"
+    },
+    {
+     "en": "49280 cubic cm",
+     "as": "৪৯২৮০ cubic cm"
+    },
+    {
+     "en": "24662 cubic cm",
+     "as": "২৪৬৬২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 28 x 28 x 10 = 24640 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 28 x 28 x 10 = 24640 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-094",
+   "q": {
+    "en": "A cylinder has radius 28 cm and height 10 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 28 ছেমি আৰু উচ্চতা 10 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "24640 sq cm",
+     "as": "২৪৬৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1760 sq cm",
+     "as": "১৭৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3520 sq cm",
+     "as": "৩৫২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1782 sq cm",
+     "as": "১৭৮২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 28 x 10 = 1760 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 28 x 10 = 1760 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-095",
+   "q": {
+    "en": "A cylinder has radius 1 cm and height 7 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 1 ছেমি আৰু উচ্চতা 7 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "44 cubic cm",
+     "as": "৪৪ cubic cm"
+    },
+    {
+     "en": "21 cubic cm",
+     "as": "২১ cubic cm"
+    },
+    {
+     "en": "22 cubic cm",
+     "as": "২২ cubic cm"
+    },
+    {
+     "en": "23 cubic cm",
+     "as": "২৩ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 1 x 1 x 7 = 22 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 1 x 1 x 7 = 22 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-096",
+   "q": {
+    "en": "A cylinder has radius 1 cm and height 7 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 1 ছেমি আৰু উচ্চতা 7 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "22 sq cm",
+     "as": "২২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "88 sq cm",
+     "as": "৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "66 sq cm",
+     "as": "৬৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "44 sq cm",
+     "as": "৪৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 1 x 7 = 44 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 1 x 7 = 44 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-097",
+   "q": {
+    "en": "A cylinder has radius 2 cm and height 14 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 2 ছেমি আৰু উচ্চতা 14 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "176 cubic cm",
+     "as": "১৭৬ cubic cm"
+    },
+    {
+     "en": "352 cubic cm",
+     "as": "৩৫২ cubic cm"
+    },
+    {
+     "en": "198 cubic cm",
+     "as": "১৯৮ cubic cm"
+    },
+    {
+     "en": "154 cubic cm",
+     "as": "১৫৪ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 2 x 2 x 14 = 176 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 2 x 2 x 14 = 176 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-098",
+   "q": {
+    "en": "A cylinder has radius 2 cm and height 14 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 2 ছেমি আৰু উচ্চতা 14 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "352 sq cm",
+     "as": "৩৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "198 sq cm",
+     "as": "১৯৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "154 sq cm",
+     "as": "১৫৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 2 x 14 = 176 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 2 x 14 = 176 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-099",
+   "q": {
+    "en": "A cylinder has radius 4 cm and height 21 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 4 ছেমি আৰু উচ্চতা 21 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "528 cubic cm",
+     "as": "৫২৮ cubic cm"
+    },
+    {
+     "en": "2112 cubic cm",
+     "as": "২১১২ cubic cm"
+    },
+    {
+     "en": "1056 cubic cm",
+     "as": "১০৫৬ cubic cm"
+    },
+    {
+     "en": "1078 cubic cm",
+     "as": "১০৭৮ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 4 x 4 x 21 = 1056 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 4 x 4 x 21 = 1056 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-100",
+   "q": {
+    "en": "A cylinder has radius 4 cm and height 21 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 4 ছেমি আৰু উচ্চতা 21 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1056 sq cm",
+     "as": "১০৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "550 sq cm",
+     "as": "৫৫০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "506 sq cm",
+     "as": "৫০৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "528 sq cm",
+     "as": "৫২৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 4 x 21 = 528 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 4 x 21 = 528 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-101",
+   "q": {
+    "en": "A cylinder has radius 6 cm and height 35 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 6 ছেমি আৰু উচ্চতা 35 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "3960 cubic cm",
+     "as": "৩৯৬০ cubic cm"
+    },
+    {
+     "en": "1320 cubic cm",
+     "as": "১৩২০ cubic cm"
+    },
+    {
+     "en": "7920 cubic cm",
+     "as": "৭৯২০ cubic cm"
+    },
+    {
+     "en": "3982 cubic cm",
+     "as": "৩৯৮২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 6 x 6 x 35 = 3960 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 6 x 6 x 35 = 3960 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-102",
+   "q": {
+    "en": "A cylinder has radius 6 cm and height 35 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 6 ছেমি আৰু উচ্চতা 35 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "3960 sq cm",
+     "as": "৩৯৬০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1320 sq cm",
+     "as": "১৩২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2640 sq cm",
+     "as": "২৬৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1342 sq cm",
+     "as": "১৩৪২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 6 x 35 = 1320 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 6 x 35 = 1320 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-103",
+   "q": {
+    "en": "A cylinder has radius 8 cm and height 7 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 8 ছেমি আৰু উচ্চতা 7 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "352 cubic cm",
+     "as": "৩৫২ cubic cm"
+    },
+    {
+     "en": "2816 cubic cm",
+     "as": "২৮১৬ cubic cm"
+    },
+    {
+     "en": "1408 cubic cm",
+     "as": "১৪০৮ cubic cm"
+    },
+    {
+     "en": "1430 cubic cm",
+     "as": "১৪৩০ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 8 x 8 x 7 = 1408 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 8 x 8 x 7 = 1408 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-104",
+   "q": {
+    "en": "A cylinder has radius 8 cm and height 7 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 8 ছেমি আৰু উচ্চতা 7 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1408 sq cm",
+     "as": "১৪০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "704 sq cm",
+     "as": "৭০৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "374 sq cm",
+     "as": "৩৭৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "352 sq cm",
+     "as": "৩৫২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 8 x 7 = 352 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 8 x 7 = 352 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-105",
+   "q": {
+    "en": "A cylinder has radius 9 cm and height 11 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 9 ছেমি আৰু উচ্চতা 11 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "2800.29 cubic cm",
+     "as": "২৮০০.২৯ cubic cm"
+    },
+    {
+     "en": "622.29 cubic cm",
+     "as": "৬২২.২৯ cubic cm"
+    },
+    {
+     "en": "5600.58 cubic cm",
+     "as": "৫৬০০.৫৮ cubic cm"
+    },
+    {
+     "en": "2822.29 cubic cm",
+     "as": "২৮২২.২৯ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 9 x 9 x 11 = 2800.29 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 9 x 9 x 11 = 2800.29 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-106",
+   "q": {
+    "en": "A cylinder has radius 9 cm and height 11 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 9 ছেমি আৰু উচ্চতা 11 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "2800.29 sq cm",
+     "as": "২৮০০.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "622.29 sq cm",
+     "as": "৬২২.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1244.58 sq cm",
+     "as": "১২৪৪.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "644.29 sq cm",
+     "as": "৬৪৪.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 9 x 11 = 622.29 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 9 x 11 = 622.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-107",
+   "q": {
+    "en": "A cylinder has radius 11 cm and height 13 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 11 ছেমি আৰু উচ্চতা 13 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "898.86 cubic cm",
+     "as": "৮৯৮.৮৬ cubic cm"
+    },
+    {
+     "en": "9887.42 cubic cm",
+     "as": "৯৮৮৭.৪২ cubic cm"
+    },
+    {
+     "en": "4943.71 cubic cm",
+     "as": "৪৯৪৩.৭১ cubic cm"
+    },
+    {
+     "en": "4965.71 cubic cm",
+     "as": "৪৯৬৫.৭১ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 11 x 11 x 13 = 4943.71 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 11 x 11 x 13 = 4943.71 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-108",
+   "q": {
+    "en": "A cylinder has radius 11 cm and height 13 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 11 ছেমি আৰু উচ্চতা 13 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "4943.71 sq cm",
+     "as": "৪৯৪৩.৭১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1797.72 sq cm",
+     "as": "১৭৯৭.৭২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "920.86 sq cm",
+     "as": "৯২০.৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "898.86 sq cm",
+     "as": "৮৯৮.৮৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 11 x 13 = 898.86 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 11 x 13 = 898.86 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-109",
+   "q": {
+    "en": "A cylinder has radius 12 cm and height 25 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 12 ছেমি আৰু উচ্চতা 25 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "11314.3 cubic cm",
+     "as": "১১৩১৪.৩ cubic cm"
+    },
+    {
+     "en": "1885.71 cubic cm",
+     "as": "১৮৮৫.৭১ cubic cm"
+    },
+    {
+     "en": "22628.6 cubic cm",
+     "as": "২২৬২৮.৬ cubic cm"
+    },
+    {
+     "en": "11336.3 cubic cm",
+     "as": "১১৩৩৬.৩ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 12 x 12 x 25 = 11314.3 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 12 x 12 x 25 = 11314.3 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-110",
+   "q": {
+    "en": "A cylinder has radius 12 cm and height 25 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 12 ছেমি আৰু উচ্চতা 25 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "11314.3 sq cm",
+     "as": "১১৩১৪.৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1885.71 sq cm",
+     "as": "১৮৮৫.৭১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3771.42 sq cm",
+     "as": "৩৭৭১.৪২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1907.71 sq cm",
+     "as": "১৯০৭.৭১ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 12 x 25 = 1885.71 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 12 x 25 = 1885.71 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-111",
+   "q": {
+    "en": "A cylinder has radius 35 cm and height 8 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 35 ছেমি আৰু উচ্চতা 8 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1760 cubic cm",
+     "as": "১৭৬০ cubic cm"
+    },
+    {
+     "en": "61600 cubic cm",
+     "as": "৬১৬০০ cubic cm"
+    },
+    {
+     "en": "30800 cubic cm",
+     "as": "৩০৮০০ cubic cm"
+    },
+    {
+     "en": "30822 cubic cm",
+     "as": "৩০৮২২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 35 x 35 x 8 = 30800 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 35 x 35 x 8 = 30800 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-112",
+   "q": {
+    "en": "A cylinder has radius 35 cm and height 8 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 35 ছেমি আৰু উচ্চতা 8 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "30800 sq cm",
+     "as": "৩০৮০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3520 sq cm",
+     "as": "৩৫২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1782 sq cm",
+     "as": "১৭৮২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1760 sq cm",
+     "as": "১৭৬০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 35 x 8 = 1760 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 35 x 8 = 1760 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-113",
+   "q": {
+    "en": "A cylinder has radius 42 cm and height 5 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 42 ছেমি আৰু উচ্চতা 5 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "27720 cubic cm",
+     "as": "২৭৭২০ cubic cm"
+    },
+    {
+     "en": "1320 cubic cm",
+     "as": "১৩২০ cubic cm"
+    },
+    {
+     "en": "55440 cubic cm",
+     "as": "৫৫৪৪০ cubic cm"
+    },
+    {
+     "en": "27742 cubic cm",
+     "as": "২৭৭৪২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 42 x 42 x 5 = 27720 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 42 x 42 x 5 = 27720 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-114",
+   "q": {
+    "en": "A cylinder has radius 42 cm and height 5 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 42 ছেমি আৰু উচ্চতা 5 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "27720 sq cm",
+     "as": "২৭৭২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1320 sq cm",
+     "as": "১৩২০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2640 sq cm",
+     "as": "২৬৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1342 sq cm",
+     "as": "১৩৪২ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 42 x 5 = 1320 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 42 x 5 = 1320 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-115",
+   "q": {
+    "en": "A cylinder has radius 49 cm and height 2 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 49 ছেমি আৰু উচ্চতা 2 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "616 cubic cm",
+     "as": "৬১৬ cubic cm"
+    },
+    {
+     "en": "30184 cubic cm",
+     "as": "৩০১৮৪ cubic cm"
+    },
+    {
+     "en": "15092 cubic cm",
+     "as": "১৫০৯২ cubic cm"
+    },
+    {
+     "en": "15114 cubic cm",
+     "as": "১৫১১৪ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 49 x 49 x 2 = 15092 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 49 x 49 x 2 = 15092 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-116",
+   "q": {
+    "en": "A cylinder has radius 49 cm and height 2 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 49 ছেমি আৰু উচ্চতা 2 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "15092 sq cm",
+     "as": "১৫০৯২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1232 sq cm",
+     "as": "১২৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "638 sq cm",
+     "as": "৬৩৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "616 sq cm",
+     "as": "৬১৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 49 x 2 = 616 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 49 x 2 = 616 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-117",
+   "q": {
+    "en": "A cylinder has radius 56 cm and height 1 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 56 ছেমি আৰু উচ্চতা 1 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "9856 cubic cm",
+     "as": "৯৮৫৬ cubic cm"
+    },
+    {
+     "en": "352 cubic cm",
+     "as": "৩৫২ cubic cm"
+    },
+    {
+     "en": "19712 cubic cm",
+     "as": "১৯৭১২ cubic cm"
+    },
+    {
+     "en": "9878 cubic cm",
+     "as": "৯৮৭৮ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 56 x 56 x 1 = 9856 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 56 x 56 x 1 = 9856 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-118",
+   "q": {
+    "en": "A cylinder has radius 56 cm and height 1 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 56 ছেমি আৰু উচ্চতা 1 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "9856 sq cm",
+     "as": "৯৮৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "352 sq cm",
+     "as": "৩৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "704 sq cm",
+     "as": "৭০৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "374 sq cm",
+     "as": "৩৭৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 56 x 1 = 352 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 56 x 1 = 352 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-119",
+   "q": {
+    "en": "A cylinder has radius 70 cm and height 3 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 70 ছেমি আৰু উচ্চতা 3 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1320 cubic cm",
+     "as": "১৩২০ cubic cm"
+    },
+    {
+     "en": "92400 cubic cm",
+     "as": "৯২৪০০ cubic cm"
+    },
+    {
+     "en": "46200 cubic cm",
+     "as": "৪৬২০০ cubic cm"
+    },
+    {
+     "en": "46222 cubic cm",
+     "as": "৪৬২২২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a cylinder = pi r^2 h = (22/7) x 70 x 70 x 3 = 46200 cubic cm.",
+    "as": "চুঙাৰ আয়তন = pi r^2 h = (22/7) x 70 x 70 x 3 = 46200 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-120",
+   "q": {
+    "en": "A cylinder has radius 70 cm and height 3 cm. Its curved surface area (pi = 22/7) is —",
+    "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 70 ছেমি আৰু উচ্চতা 3 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "46200 sq cm",
+     "as": "৪৬২০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2640 sq cm",
+     "as": "২৬৪০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1342 sq cm",
+     "as": "১৩৪২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1320 sq cm",
+     "as": "১৩২০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 70 x 3 = 1320 sq cm.",
+    "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 70 x 3 = 1320 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-121",
+   "q": {
+    "en": "The radius of a sphere is 7 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 7 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1437.33 cubic cm",
+     "as": "১৪৩৭.৩৩ cubic cm"
+    },
+    {
+     "en": "616 cubic cm",
+     "as": "৬১৬ cubic cm"
+    },
+    {
+     "en": "2874.66 cubic cm",
+     "as": "২৮৭৪.৬৬ cubic cm"
+    },
+    {
+     "en": "1459.33 cubic cm",
+     "as": "১৪৫৯.৩৩ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 7^3 = 1437.33 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 7^3 = 1437.33 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-122",
+   "q": {
+    "en": "The radius of a sphere is 7 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 7 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1437.33 sq cm",
+     "as": "১৪৩৭.৩৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "616 sq cm",
+     "as": "৬১৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1232 sq cm",
+     "as": "১২৩২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "638 sq cm",
+     "as": "৬৩৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 7 x 7 = 616 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 7 x 7 = 616 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-123",
+   "q": {
+    "en": "The radius of a sphere is 14 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 14 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "2464 cubic cm",
+     "as": "২৪৬৪ cubic cm"
+    },
+    {
+     "en": "22997.3 cubic cm",
+     "as": "২২৯৯৭.৩ cubic cm"
+    },
+    {
+     "en": "11498.7 cubic cm",
+     "as": "১১৪৯৮.৭ cubic cm"
+    },
+    {
+     "en": "11520.7 cubic cm",
+     "as": "১১৫২০.৭ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 14^3 = 11498.7 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 14^3 = 11498.7 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-124",
+   "q": {
+    "en": "The radius of a sphere is 14 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 14 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "11498.7 sq cm",
+     "as": "১১৪৯৮.৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "4928 sq cm",
+     "as": "৪৯২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2486 sq cm",
+     "as": "২৪৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2464 sq cm",
+     "as": "২৪৬৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 14 x 14 = 2464 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 14 x 14 = 2464 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-125",
+   "q": {
+    "en": "The radius of a sphere is 21 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 21 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "38808 cubic cm",
+     "as": "৩৮৮০৮ cubic cm"
+    },
+    {
+     "en": "5544 cubic cm",
+     "as": "৫৫৪৪ cubic cm"
+    },
+    {
+     "en": "77616 cubic cm",
+     "as": "৭৭৬১৬ cubic cm"
+    },
+    {
+     "en": "38830 cubic cm",
+     "as": "৩৮৮৩০ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 21^3 = 38808 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 21^3 = 38808 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-126",
+   "q": {
+    "en": "The radius of a sphere is 21 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 21 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "38808 sq cm",
+     "as": "৩৮৮০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "5544 sq cm",
+     "as": "৫৫৪৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "11088 sq cm",
+     "as": "১১০৮৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "5566 sq cm",
+     "as": "৫৫৬৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 21 x 21 = 5544 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 21 x 21 = 5544 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-127",
+   "q": {
+    "en": "The radius of a sphere is 3.5 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 3.5 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "154 cubic cm",
+     "as": "১৫৪ cubic cm"
+    },
+    {
+     "en": "359.34 cubic cm",
+     "as": "৩৫৯.৩৪ cubic cm"
+    },
+    {
+     "en": "179.67 cubic cm",
+     "as": "১৭৯.৬৭ cubic cm"
+    },
+    {
+     "en": "201.67 cubic cm",
+     "as": "২০১.৬৭ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 3.5^3 = 179.67 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 3.5^3 = 179.67 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-128",
+   "q": {
+    "en": "The radius of a sphere is 3.5 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 3.5 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "179.67 sq cm",
+     "as": "১৭৯.৬৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "308 sq cm",
+     "as": "৩০৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "176 sq cm",
+     "as": "১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "154 sq cm",
+     "as": "১৫৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 3.5 x 3.5 = 154 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 3.5 x 3.5 = 154 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-129",
+   "q": {
+    "en": "The radius of a sphere is 10 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 10 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "4190.48 cubic cm",
+     "as": "৪১৯০.৪৮ cubic cm"
+    },
+    {
+     "en": "1257.14 cubic cm",
+     "as": "১২৫৭.১৪ cubic cm"
+    },
+    {
+     "en": "8380.96 cubic cm",
+     "as": "৮৩৮০.৯৬ cubic cm"
+    },
+    {
+     "en": "4212.48 cubic cm",
+     "as": "৪২১২.৪৮ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 10^3 = 4190.48 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 10^3 = 4190.48 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-130",
+   "q": {
+    "en": "The radius of a sphere is 10 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 10 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "4190.48 sq cm",
+     "as": "৪১৯০.৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1257.14 sq cm",
+     "as": "১২৫৭.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2514.28 sq cm",
+     "as": "২৫১৪.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1279.14 sq cm",
+     "as": "১২৭৯.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 10 x 10 = 1257.14 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 10 x 10 = 1257.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-131",
+   "q": {
+    "en": "The radius of a sphere is 5 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 5 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "314.29 cubic cm",
+     "as": "৩১৪.২৯ cubic cm"
+    },
+    {
+     "en": "1047.62 cubic cm",
+     "as": "১০৪৭.৬২ cubic cm"
+    },
+    {
+     "en": "523.81 cubic cm",
+     "as": "৫২৩.৮১ cubic cm"
+    },
+    {
+     "en": "545.81 cubic cm",
+     "as": "৫৪৫.৮১ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 5^3 = 523.81 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 5^3 = 523.81 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-132",
+   "q": {
+    "en": "The radius of a sphere is 5 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 5 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "523.81 sq cm",
+     "as": "৫২৩.৮১ বৰ্গ ছেমি"
+    },
+    {
+     "en": "628.58 sq cm",
+     "as": "৬২৮.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "336.29 sq cm",
+     "as": "৩৩৬.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "314.29 sq cm",
+     "as": "৩১৪.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 5 x 5 = 314.29 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 5 x 5 = 314.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-133",
+   "q": {
+    "en": "The radius of a sphere is 28 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 28 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "91989.3 cubic cm",
+     "as": "৯১৯৮৯.৩ cubic cm"
+    },
+    {
+     "en": "9856 cubic cm",
+     "as": "৯৮৫৬ cubic cm"
+    },
+    {
+     "en": "183979 cubic cm",
+     "as": "১৮৩৯৭৯ cubic cm"
+    },
+    {
+     "en": "92011.3 cubic cm",
+     "as": "৯২০১১.৩ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 28^3 = 91989.3 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 28^3 = 91989.3 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-134",
+   "q": {
+    "en": "The radius of a sphere is 28 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 28 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "91989.3 sq cm",
+     "as": "৯১৯৮৯.৩ বৰ্গ ছেমি"
+    },
+    {
+     "en": "9856 sq cm",
+     "as": "৯৮৫৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "19712 sq cm",
+     "as": "১৯৭১২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "9878 sq cm",
+     "as": "৯৮৭৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 28 x 28 = 9856 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 28 x 28 = 9856 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-135",
+   "q": {
+    "en": "The radius of a sphere is 1 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 1 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "12.57 cubic cm",
+     "as": "১২.৫৭ cubic cm"
+    },
+    {
+     "en": "8.38 cubic cm",
+     "as": "৮.৩৮ cubic cm"
+    },
+    {
+     "en": "4.19 cubic cm",
+     "as": "৪.১৯ cubic cm"
+    },
+    {
+     "en": "26.19 cubic cm",
+     "as": "২৬.১৯ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 1^3 = 4.19 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 1^3 = 4.19 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-136",
+   "q": {
+    "en": "The radius of a sphere is 1 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 1 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "4.19 sq cm",
+     "as": "৪.১৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "25.14 sq cm",
+     "as": "২৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "34.57 sq cm",
+     "as": "৩৪.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "12.57 sq cm",
+     "as": "১২.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 1 x 1 = 12.57 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 1 x 1 = 12.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-137",
+   "q": {
+    "en": "The radius of a sphere is 2 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 2 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "33.52 cubic cm",
+     "as": "৩৩.৫২ cubic cm"
+    },
+    {
+     "en": "50.29 cubic cm",
+     "as": "৫০.২৯ cubic cm"
+    },
+    {
+     "en": "67.04 cubic cm",
+     "as": "৬৭.০৪ cubic cm"
+    },
+    {
+     "en": "55.52 cubic cm",
+     "as": "৫৫.৫২ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 2^3 = 33.52 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 2^3 = 33.52 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-138",
+   "q": {
+    "en": "The radius of a sphere is 2 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 2 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "33.52 sq cm",
+     "as": "৩৩.৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "50.29 sq cm",
+     "as": "৫০.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "100.58 sq cm",
+     "as": "১০০.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "72.29 sq cm",
+     "as": "৭২.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 2 x 2 = 50.29 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 2 x 2 = 50.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-139",
+   "q": {
+    "en": "The radius of a sphere is 4 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 4 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "201.14 cubic cm",
+     "as": "২০১.১৪ cubic cm"
+    },
+    {
+     "en": "536.38 cubic cm",
+     "as": "৫৩৬.৩৮ cubic cm"
+    },
+    {
+     "en": "268.19 cubic cm",
+     "as": "২৬৮.১৯ cubic cm"
+    },
+    {
+     "en": "290.19 cubic cm",
+     "as": "২৯০.১৯ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 4^3 = 268.19 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 4^3 = 268.19 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-140",
+   "q": {
+    "en": "The radius of a sphere is 4 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 4 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "268.19 sq cm",
+     "as": "২৬৮.১৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "402.28 sq cm",
+     "as": "৪০২.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "223.14 sq cm",
+     "as": "২২৩.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "201.14 sq cm",
+     "as": "২০১.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 4 x 4 = 201.14 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 4 x 4 = 201.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-141",
+   "q": {
+    "en": "The radius of a sphere is 6 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 6 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "905.14 cubic cm",
+     "as": "৯০৫.১৪ cubic cm"
+    },
+    {
+     "en": "452.57 cubic cm",
+     "as": "৪৫২.৫৭ cubic cm"
+    },
+    {
+     "en": "1810.28 cubic cm",
+     "as": "১৮১০.২৮ cubic cm"
+    },
+    {
+     "en": "927.14 cubic cm",
+     "as": "৯২৭.১৪ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 6^3 = 905.14 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 6^3 = 905.14 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-142",
+   "q": {
+    "en": "The radius of a sphere is 6 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 6 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "905.14 sq cm",
+     "as": "৯০৫.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "452.57 sq cm",
+     "as": "৪৫২.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "474.57 sq cm",
+     "as": "৪৭৪.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "430.57 sq cm",
+     "as": "৪৩০.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 6 x 6 = 452.57 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 6 x 6 = 452.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-143",
+   "q": {
+    "en": "The radius of a sphere is 8 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 8 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "804.57 cubic cm",
+     "as": "৮০৪.৫৭ cubic cm"
+    },
+    {
+     "en": "4291.04 cubic cm",
+     "as": "৪২৯১.০৪ cubic cm"
+    },
+    {
+     "en": "2145.52 cubic cm",
+     "as": "২১৪৫.৫২ cubic cm"
+    },
+    {
+     "en": "2167.52 cubic cm",
+     "as": "২১৬৭.৫২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 8^3 = 2145.52 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 8^3 = 2145.52 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-144",
+   "q": {
+    "en": "The radius of a sphere is 8 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 8 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "2145.52 sq cm",
+     "as": "২১৪৫.৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1609.14 sq cm",
+     "as": "১৬০৯.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "826.57 sq cm",
+     "as": "৮২৬.৫৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "804.57 sq cm",
+     "as": "৮০৪.৫৭ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 8 x 8 = 804.57 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 8 x 8 = 804.57 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-145",
+   "q": {
+    "en": "The radius of a sphere is 9 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 9 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "3054.86 cubic cm",
+     "as": "৩০৫৪.৮৬ cubic cm"
+    },
+    {
+     "en": "1018.29 cubic cm",
+     "as": "১০১৮.২৯ cubic cm"
+    },
+    {
+     "en": "6109.72 cubic cm",
+     "as": "৬১০৯.৭২ cubic cm"
+    },
+    {
+     "en": "3076.86 cubic cm",
+     "as": "৩০৭৬.৮৬ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 9^3 = 3054.86 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 9^3 = 3054.86 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-146",
+   "q": {
+    "en": "The radius of a sphere is 9 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 9 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "3054.86 sq cm",
+     "as": "৩০৫৪.৮৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1018.29 sq cm",
+     "as": "১০১৮.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "2036.58 sq cm",
+     "as": "২০৩৬.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1040.29 sq cm",
+     "as": "১০৪০.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 9 x 9 = 1018.29 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 9 x 9 = 1018.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-147",
+   "q": {
+    "en": "The radius of a sphere is 11 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 11 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1521.14 cubic cm",
+     "as": "১৫২১.১৪ cubic cm"
+    },
+    {
+     "en": "11155 cubic cm",
+     "as": "১১১৫৫ cubic cm"
+    },
+    {
+     "en": "5577.52 cubic cm",
+     "as": "৫৫৭৭.৫২ cubic cm"
+    },
+    {
+     "en": "5599.52 cubic cm",
+     "as": "৫৫৯৯.৫২ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 11^3 = 5577.52 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 11^3 = 5577.52 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-148",
+   "q": {
+    "en": "The radius of a sphere is 11 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 11 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "5577.52 sq cm",
+     "as": "৫৫৭৭.৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3042.28 sq cm",
+     "as": "৩০৪২.২৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1543.14 sq cm",
+     "as": "১৫৪৩.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1521.14 sq cm",
+     "as": "১৫২১.১৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 11 x 11 = 1521.14 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 11 x 11 = 1521.14 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-149",
+   "q": {
+    "en": "The radius of a sphere is 12 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 12 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "7241.14 cubic cm",
+     "as": "৭২৪১.১৪ cubic cm"
+    },
+    {
+     "en": "1810.29 cubic cm",
+     "as": "১৮১০.২৯ cubic cm"
+    },
+    {
+     "en": "14482.3 cubic cm",
+     "as": "১৪৪৮২.৩ cubic cm"
+    },
+    {
+     "en": "7263.14 cubic cm",
+     "as": "৭২৬৩.১৪ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 12^3 = 7241.14 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 12^3 = 7241.14 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-150",
+   "q": {
+    "en": "The radius of a sphere is 12 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 12 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "7241.14 sq cm",
+     "as": "৭২৪১.১৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1810.29 sq cm",
+     "as": "১৮১০.২৯ বৰ্গ ছেমি"
+    },
+    {
+     "en": "3620.58 sq cm",
+     "as": "৩৬২০.৫৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "1832.29 sq cm",
+     "as": "১৮৩২.২৯ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 12 x 12 = 1810.29 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 12 x 12 = 1810.29 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-151",
+   "q": {
+    "en": "The radius of a sphere is 35 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 35 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "15400 cubic cm",
+     "as": "১৫৪০০ cubic cm"
+    },
+    {
+     "en": "359333 cubic cm",
+     "as": "৩৫৯৩৩৩ cubic cm"
+    },
+    {
+     "en": "179667 cubic cm",
+     "as": "১৭৯৬৬৭ cubic cm"
+    },
+    {
+     "en": "179689 cubic cm",
+     "as": "১৭৯৬৮৯ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 35^3 = 179667 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 35^3 = 179667 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-152",
+   "q": {
+    "en": "The radius of a sphere is 35 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 35 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "179667 sq cm",
+     "as": "১৭৯৬৬৭ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30800 sq cm",
+     "as": "৩০৮০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "15422 sq cm",
+     "as": "১৫৪২২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "15400 sq cm",
+     "as": "১৫৪০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 35 x 35 = 15400 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 35 x 35 = 15400 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-153",
+   "q": {
+    "en": "The radius of a sphere is 42 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 42 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "310464 cubic cm",
+     "as": "৩১০৪৬৪ cubic cm"
+    },
+    {
+     "en": "22176 cubic cm",
+     "as": "২২১৭৬ cubic cm"
+    },
+    {
+     "en": "620928 cubic cm",
+     "as": "৬২০৯২৮ cubic cm"
+    },
+    {
+     "en": "310486 cubic cm",
+     "as": "৩১০৪৮৬ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 42^3 = 310464 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 42^3 = 310464 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-154",
+   "q": {
+    "en": "The radius of a sphere is 42 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 42 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "310464 sq cm",
+     "as": "৩১০৪৬৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "22176 sq cm",
+     "as": "২২১৭৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "44352 sq cm",
+     "as": "৪৪৩৫২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "22198 sq cm",
+     "as": "২২১৯৮ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 42 x 42 = 22176 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 42 x 42 = 22176 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-155",
+   "q": {
+    "en": "The radius of a sphere is 49 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 49 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "30184 cubic cm",
+     "as": "৩০১৮৪ cubic cm"
+    },
+    {
+     "en": "986011 cubic cm",
+     "as": "৯৮৬০১১ cubic cm"
+    },
+    {
+     "en": "493005 cubic cm",
+     "as": "৪৯৩০০৫ cubic cm"
+    },
+    {
+     "en": "493027 cubic cm",
+     "as": "৪৯৩০২৭ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 49^3 = 493005 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 49^3 = 493005 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-156",
+   "q": {
+    "en": "The radius of a sphere is 49 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 49 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "493005 sq cm",
+     "as": "৪৯৩০০৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "60368 sq cm",
+     "as": "৬০৩৬৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30206 sq cm",
+     "as": "৩০২০৬ বৰ্গ ছেমি"
+    },
+    {
+     "en": "30184 sq cm",
+     "as": "৩০১৮৪ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 49 x 49 = 30184 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 49 x 49 = 30184 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-157",
+   "q": {
+    "en": "The radius of a sphere is 56 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 56 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "735915 cubic cm",
+     "as": "৭৩৫৯১৫ cubic cm"
+    },
+    {
+     "en": "39424 cubic cm",
+     "as": "৩৯৪২৪ cubic cm"
+    },
+    {
+     "en": "1.47183e+06 cubic cm",
+     "as": "১.৪৭১৮৩e+০৬ cubic cm"
+    },
+    {
+     "en": "735937 cubic cm",
+     "as": "৭৩৫৯৩৭ cubic cm"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 56^3 = 735915 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 56^3 = 735915 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-158",
+   "q": {
+    "en": "The radius of a sphere is 56 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 56 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "735915 sq cm",
+     "as": "৭৩৫৯১৫ বৰ্গ ছেমি"
+    },
+    {
+     "en": "39424 sq cm",
+     "as": "৩৯৪২৪ বৰ্গ ছেমি"
+    },
+    {
+     "en": "78848 sq cm",
+     "as": "৭৮৮৪৮ বৰ্গ ছেমি"
+    },
+    {
+     "en": "39446 sq cm",
+     "as": "৩৯৪৪৬ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 56 x 56 = 39424 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 56 x 56 = 39424 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-159",
+   "q": {
+    "en": "The radius of a sphere is 70 cm. Its volume (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 70 ছেমি। আয়তন (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "61600 cubic cm",
+     "as": "৬১৬০০ cubic cm"
+    },
+    {
+     "en": "2.87467e+06 cubic cm",
+     "as": "২.৮৭৪৬৭e+০৬ cubic cm"
+    },
+    {
+     "en": "1.43733e+06 cubic cm",
+     "as": "১.৪৩৭৩৩e+০৬ cubic cm"
+    },
+    {
+     "en": "1.43736e+06 cubic cm",
+     "as": "১.৪৩৭৩৬e+০৬ cubic cm"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Volume of a sphere = (4/3) pi r^3 = (4/3) x (22/7) x 70^3 = 1.43733e+06 cubic cm.",
+    "as": "গোলকৰ আয়তন = (4/3) pi r^3 = (4/3) x (22/7) x 70^3 = 1.43733e+06 ঘন ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-160",
+   "q": {
+    "en": "The radius of a sphere is 70 cm. Its surface area (pi = 22/7) is —",
+    "as": "এটা গোলকৰ ব্যাসাৰ্ধ 70 ছেমি। পৃষ্ঠকালি (pi = 22/7) —"
+   },
+   "options": [
+    {
+     "en": "1.43733e+06 sq cm",
+     "as": "১.৪৩৭৩৩e+০৬ sq cm"
+    },
+    {
+     "en": "123200 sq cm",
+     "as": "১২৩২০০ বৰ্গ ছেমি"
+    },
+    {
+     "en": "61622 sq cm",
+     "as": "৬১৬২২ বৰ্গ ছেমি"
+    },
+    {
+     "en": "61600 sq cm",
+     "as": "৬১৬০০ বৰ্গ ছেমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Surface area of a sphere = 4 pi r^2 = 4 x (22/7) x 70 x 70 = 61600 sq cm.",
+    "as": "গোলকৰ পৃষ্ঠকালি = 4 pi r^2 = 4 x (22/7) x 70 x 70 = 61600 বৰ্গ ছেমি।"
+   }
+  },
+  {
+   "id": "mensuration-3d-161",
+   "q": {
+    "en": "The volume of a cube of side s is ?",
+    "as": "বাহু s ৰ ঘনকৰ আয়তন ?"
+   },
+   "options": [
+    {
+     "en": "s^3",
+     "as": "s^3"
+    },
+    {
+     "en": "6s^2",
+     "as": "6s^2"
+    },
+    {
+     "en": "3s",
+     "as": "3s"
+    },
+    {
+     "en": "s^2",
+     "as": "s^2"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Volume of a cube is the cube of its side.",
+    "as": "ঘনকৰ আয়তন তাৰ বাহুৰ ঘন।"
+   }
+  },
+  {
+   "id": "mensuration-3d-162",
+   "q": {
+    "en": "The volume of a cuboid is ?",
+    "as": "ঘনবস্তুৰ আয়তন ?"
+   },
+   "options": [
+    {
+     "en": "length + breadth + height",
+     "as": "length + breadth + height"
+    },
+    {
+     "en": "length x breadth x height",
+     "as": "length x breadth x height"
+    },
+    {
+     "en": "2(lb + bh + hl)",
+     "as": "2(lb + bh + hl)"
+    },
+    {
+     "en": "l^3",
+     "as": "l^3"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Volume of a cuboid is the product of its three dimensions.",
+    "as": "ঘনবস্তুৰ আয়তন তাৰ তিনিটা মাত্ৰাৰ গুণফল।"
+   }
+  },
+  {
+   "id": "mensuration-3d-163",
+   "q": {
+    "en": "The curved surface area of a cylinder is ?",
+    "as": "চুঙাৰ বক্ৰ পৃষ্ঠকালি ?"
+   },
+   "options": [
+    {
+     "en": "pi r^2 h",
+     "as": "pi r^2 h"
+    },
+    {
+     "en": "2 pi r^2",
+     "as": "2 pi r^2"
+    },
+    {
+     "en": "2 pi r h",
+     "as": "2 pi r h"
+    },
+    {
+     "en": "pi r h",
+     "as": "pi r h"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The curved surface of a cylinder unrolls into a rectangle of length 2 pi r and height h.",
+    "as": "চুঙাৰ বক্ৰ পৃষ্ঠ মেলিলে 2 pi r দীঘ আৰু h উচ্চতাৰ আয়তক্ষেত্ৰ হয়।"
+   }
+  },
+  {
+   "id": "mensuration-3d-164",
+   "q": {
+    "en": "1 cubic metre equals ?",
+    "as": "1 ঘন মিটাৰ সমান ?"
+   },
+   "options": [
+    {
+     "en": "100 litres",
+     "as": "100 litres"
+    },
+    {
+     "en": "10 litres",
+     "as": "10 litres"
+    },
+    {
+     "en": "10000 litres",
+     "as": "10000 litres"
+    },
+    {
+     "en": "1000 litres",
+     "as": "1000 litres"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "One cubic metre holds one thousand litres.",
+    "as": "এক ঘন মিটাৰত এক হাজাৰ লিটাৰ ধৰে।"
+   }
+  }
+ ],
+ "trigonometry": [
+  {
+   "id": "trigonometry-001",
+   "q": {
+    "en": "The value of sin 0 is —",
+    "as": "sin 0 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The value of sin 0 is 0, one of the standard angles.",
+    "as": "sin 0 ৰ মান 0, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-002",
+   "q": {
+    "en": "The value of sin 30 is —",
+    "as": "sin 30 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The value of sin 30 is 1/2, one of the standard angles.",
+    "as": "sin 30 ৰ মান 1/2, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-003",
+   "q": {
+    "en": "The value of sin 45 is —",
+    "as": "sin 45 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The value of sin 45 is 1/sqrt(2), one of the standard angles.",
+    "as": "sin 45 ৰ মান 1/sqrt(2), যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-004",
+   "q": {
+    "en": "The value of sin 60 is —",
+    "as": "sin 60 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The value of sin 60 is sqrt(3)/2, one of the standard angles.",
+    "as": "sin 60 ৰ মান sqrt(3)/2, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-005",
+   "q": {
+    "en": "The value of sin 90 is —",
+    "as": "sin 90 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The value of sin 90 is 1, one of the standard angles.",
+    "as": "sin 90 ৰ মান 1, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-006",
+   "q": {
+    "en": "The value of cos 0 is —",
+    "as": "cos 0 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The value of cos 0 is 1, one of the standard angles.",
+    "as": "cos 0 ৰ মান 1, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-007",
+   "q": {
+    "en": "The value of cos 30 is —",
+    "as": "cos 30 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The value of cos 30 is sqrt(3)/2, one of the standard angles.",
+    "as": "cos 30 ৰ মান sqrt(3)/2, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-008",
+   "q": {
+    "en": "The value of cos 45 is —",
+    "as": "cos 45 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The value of cos 45 is 1/sqrt(2), one of the standard angles.",
+    "as": "cos 45 ৰ মান 1/sqrt(2), যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-009",
+   "q": {
+    "en": "The value of cos 60 is —",
+    "as": "cos 60 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The value of cos 60 is 1/2, one of the standard angles.",
+    "as": "cos 60 ৰ মান 1/2, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-010",
+   "q": {
+    "en": "The value of cos 90 is —",
+    "as": "cos 90 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The value of cos 90 is 0, one of the standard angles.",
+    "as": "cos 90 ৰ মান 0, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-011",
+   "q": {
+    "en": "The value of tan 0 is —",
+    "as": "tan 0 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "sqrt(3)/2",
+     "as": "sqrt(3)/2"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The value of tan 0 is 0, one of the standard angles.",
+    "as": "tan 0 ৰ মান 0, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-012",
+   "q": {
+    "en": "The value of tan 30 is —",
+    "as": "tan 30 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    },
+    {
+     "en": "1/sqrt(3)",
+     "as": "1/sqrt(3)"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The value of tan 30 is 1/sqrt(3), one of the standard angles.",
+    "as": "tan 30 ৰ মান 1/sqrt(3), যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-013",
+   "q": {
+    "en": "The value of tan 45 is —",
+    "as": "tan 45 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The value of tan 45 is 1, one of the standard angles.",
+    "as": "tan 45 ৰ মান 1, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-014",
+   "q": {
+    "en": "The value of tan 60 is —",
+    "as": "tan 60 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "sqrt(3)",
+     "as": "sqrt(3)"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The value of tan 60 is sqrt(3), one of the standard angles.",
+    "as": "tan 60 ৰ মান sqrt(3), যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-015",
+   "q": {
+    "en": "The value of tan 90 is —",
+    "as": "tan 90 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "not defined",
+     "as": "not defined"
+    },
+    {
+     "en": "1/sqrt(2)",
+     "as": "1/sqrt(2)"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The value of tan 90 is not defined, one of the standard angles.",
+    "as": "tan 90 ৰ মান not defined, যি এটা প্ৰামাণ্য কোণ।"
+   }
+  },
+  {
+   "id": "trigonometry-016",
+   "q": {
+    "en": "The value of sin^2 30 + cos^2 30 is —",
+    "as": "sin^2 30 + cos^2 30 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin^2 A + cos^2 A = 1 for every angle A.",
+    "as": "প্ৰতিটো কোণ A ৰ বাবে sin^2 A + cos^2 A = 1।"
+   }
+  },
+  {
+   "id": "trigonometry-017",
+   "q": {
+    "en": "The value of sin^2 45 + cos^2 45 is —",
+    "as": "sin^2 45 + cos^2 45 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sin^2 A + cos^2 A = 1 for every angle A.",
+    "as": "প্ৰতিটো কোণ A ৰ বাবে sin^2 A + cos^2 A = 1।"
+   }
+  },
+  {
+   "id": "trigonometry-018",
+   "q": {
+    "en": "The value of sin^2 60 + cos^2 60 is —",
+    "as": "sin^2 60 + cos^2 60 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin^2 A + cos^2 A = 1 for every angle A.",
+    "as": "প্ৰতিটো কোণ A ৰ বাবে sin^2 A + cos^2 A = 1।"
+   }
+  },
+  {
+   "id": "trigonometry-019",
+   "q": {
+    "en": "The value of sin^2 0 + cos^2 0 is —",
+    "as": "sin^2 0 + cos^2 0 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "sin^2 A + cos^2 A = 1 for every angle A.",
+    "as": "প্ৰতিটো কোণ A ৰ বাবে sin^2 A + cos^2 A = 1।"
+   }
+  },
+  {
+   "id": "trigonometry-020",
+   "q": {
+    "en": "The value of sin^2 90 + cos^2 90 is —",
+    "as": "sin^2 90 + cos^2 90 ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1/2",
+     "as": "১/২"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin^2 A + cos^2 A = 1 for every angle A.",
+    "as": "প্ৰতিটো কোণ A ৰ বাবে sin^2 A + cos^2 A = 1।"
+   }
+  },
+  {
+   "id": "trigonometry-021",
+   "q": {
+    "en": "The value of 1 + tan^2 A is —",
+    "as": "1 + tan^2 A ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "sec^2 A",
+     "as": "sec^2 A"
+    },
+    {
+     "en": "cosec^2 A",
+     "as": "cosec^2 A"
+    },
+    {
+     "en": "cot^2 A",
+     "as": "cot^2 A"
+    },
+    {
+     "en": "sin^2 A",
+     "as": "sin^2 A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The identity 1 + tan^2 A = sec^2 A follows from dividing sin^2 A + cos^2 A = 1 by cos^2 A.",
+    "as": "sin^2 A + cos^2 A = 1 ক cos^2 A ৰে হৰণ কৰি 1 + tan^2 A = sec^2 A পোৱা যায়।"
+   }
+  },
+  {
+   "id": "trigonometry-022",
+   "q": {
+    "en": "The value of 1 + cot^2 A is —",
+    "as": "1 + cot^2 A ৰ মান —"
+   },
+   "options": [
+    {
+     "en": "sec^2 A",
+     "as": "sec^2 A"
+    },
+    {
+     "en": "cosec^2 A",
+     "as": "cosec^2 A"
+    },
+    {
+     "en": "tan^2 A",
+     "as": "tan^2 A"
+    },
+    {
+     "en": "cos^2 A",
+     "as": "cos^2 A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The identity 1 + cot^2 A = cosec^2 A follows from dividing sin^2 A + cos^2 A = 1 by sin^2 A.",
+    "as": "sin^2 A + cos^2 A = 1 ক sin^2 A ৰে হৰণ কৰি 1 + cot^2 A = cosec^2 A পোৱা যায়।"
+   }
+  },
+  {
+   "id": "trigonometry-023",
+   "q": {
+    "en": "sin 30 degrees equals —",
+    "as": "sin 30 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 30 degrees",
+     "as": "cos 30 degrees"
+    },
+    {
+     "en": "sin 60 degrees",
+     "as": "sin 60 degrees"
+    },
+    {
+     "en": "cos 60 degrees",
+     "as": "cos 60 degrees"
+    },
+    {
+     "en": "tan 60 degrees",
+     "as": "tan 60 degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 30 = cos 60.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 30 = cos 60।"
+   }
+  },
+  {
+   "id": "trigonometry-024",
+   "q": {
+    "en": "sin 45 degrees equals —",
+    "as": "sin 45 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "sin 45 degrees",
+     "as": "sin 45 degrees"
+    },
+    {
+     "en": "tan 45 degrees",
+     "as": "tan 45 degrees"
+    },
+    {
+     "en": "sec 45 degrees",
+     "as": "sec 45 degrees"
+    },
+    {
+     "en": "cos 45 degrees",
+     "as": "cos 45 degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 45 = cos 45.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 45 = cos 45।"
+   }
+  },
+  {
+   "id": "trigonometry-025",
+   "q": {
+    "en": "sin 60 degrees equals —",
+    "as": "sin 60 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 30 degrees",
+     "as": "cos 30 degrees"
+    },
+    {
+     "en": "cos 60 degrees",
+     "as": "cos 60 degrees"
+    },
+    {
+     "en": "sin 30 degrees",
+     "as": "sin 30 degrees"
+    },
+    {
+     "en": "tan 30 degrees",
+     "as": "tan 30 degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 60 = cos 30.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 60 = cos 30।"
+   }
+  },
+  {
+   "id": "trigonometry-026",
+   "q": {
+    "en": "sin 20 degrees equals —",
+    "as": "sin 20 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 20 degrees",
+     "as": "cos 20 degrees"
+    },
+    {
+     "en": "cos 70 degrees",
+     "as": "cos 70 degrees"
+    },
+    {
+     "en": "sin 70 degrees",
+     "as": "sin 70 degrees"
+    },
+    {
+     "en": "tan 70 degrees",
+     "as": "tan 70 degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 20 = cos 70.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 20 = cos 70।"
+   }
+  },
+  {
+   "id": "trigonometry-027",
+   "q": {
+    "en": "sin 70 degrees equals —",
+    "as": "sin 70 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 70 degrees",
+     "as": "cos 70 degrees"
+    },
+    {
+     "en": "sin 20 degrees",
+     "as": "sin 20 degrees"
+    },
+    {
+     "en": "cos 20 degrees",
+     "as": "cos 20 degrees"
+    },
+    {
+     "en": "tan 20 degrees",
+     "as": "tan 20 degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 70 = cos 20.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 70 = cos 20।"
+   }
+  },
+  {
+   "id": "trigonometry-028",
+   "q": {
+    "en": "sin 15 degrees equals —",
+    "as": "sin 15 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 15 degrees",
+     "as": "cos 15 degrees"
+    },
+    {
+     "en": "sin 75 degrees",
+     "as": "sin 75 degrees"
+    },
+    {
+     "en": "tan 75 degrees",
+     "as": "tan 75 degrees"
+    },
+    {
+     "en": "cos 75 degrees",
+     "as": "cos 75 degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 15 = cos 75.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 15 = cos 75।"
+   }
+  },
+  {
+   "id": "trigonometry-029",
+   "q": {
+    "en": "sin 75 degrees equals —",
+    "as": "sin 75 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 15 degrees",
+     "as": "cos 15 degrees"
+    },
+    {
+     "en": "cos 75 degrees",
+     "as": "cos 75 degrees"
+    },
+    {
+     "en": "sin 15 degrees",
+     "as": "sin 15 degrees"
+    },
+    {
+     "en": "tan 15 degrees",
+     "as": "tan 15 degrees"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 75 = cos 15.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 75 = cos 15।"
+   }
+  },
+  {
+   "id": "trigonometry-030",
+   "q": {
+    "en": "sin 10 degrees equals —",
+    "as": "sin 10 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 10 degrees",
+     "as": "cos 10 degrees"
+    },
+    {
+     "en": "cos 80 degrees",
+     "as": "cos 80 degrees"
+    },
+    {
+     "en": "sin 80 degrees",
+     "as": "sin 80 degrees"
+    },
+    {
+     "en": "tan 80 degrees",
+     "as": "tan 80 degrees"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 10 = cos 80.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 10 = cos 80।"
+   }
+  },
+  {
+   "id": "trigonometry-031",
+   "q": {
+    "en": "sin 80 degrees equals —",
+    "as": "sin 80 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 80 degrees",
+     "as": "cos 80 degrees"
+    },
+    {
+     "en": "sin 10 degrees",
+     "as": "sin 10 degrees"
+    },
+    {
+     "en": "cos 10 degrees",
+     "as": "cos 10 degrees"
+    },
+    {
+     "en": "tan 10 degrees",
+     "as": "tan 10 degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 80 = cos 10.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 80 = cos 10।"
+   }
+  },
+  {
+   "id": "trigonometry-032",
+   "q": {
+    "en": "sin 25 degrees equals —",
+    "as": "sin 25 ডিগ্ৰী সমান —"
+   },
+   "options": [
+    {
+     "en": "cos 25 degrees",
+     "as": "cos 25 degrees"
+    },
+    {
+     "en": "sin 65 degrees",
+     "as": "sin 65 degrees"
+    },
+    {
+     "en": "tan 65 degrees",
+     "as": "tan 65 degrees"
+    },
+    {
+     "en": "cos 65 degrees",
+     "as": "cos 65 degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin(90 - A) = cos A, so sin 25 = cos 65.",
+    "as": "sin(90 - A) = cos A, গতিকে sin 25 = cos 65।"
+   }
+  },
+  {
+   "id": "trigonometry-033",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 3 and the side adjacent to A is 4. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 3 আৰু লগৰ বাহু 4। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/3",
+     "as": "৪/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 3 / 4 = 3/4.",
+    "as": "tan A = বিপৰীত / লগৰ = 3 / 4 = 3/4।"
+   }
+  },
+  {
+   "id": "trigonometry-034",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 3 and the hypotenuse is 5. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 3 আৰু অতিভুজ 5। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "5/3",
+     "as": "৫/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 3 / 5 = 3/5.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 3 / 5 = 3/5।"
+   }
+  },
+  {
+   "id": "trigonometry-035",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 6 and the side adjacent to A is 8. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 6 আৰু লগৰ বাহু 8। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "4/3",
+     "as": "৪/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 6 / 8 = 3/4.",
+    "as": "tan A = বিপৰীত / লগৰ = 6 / 8 = 3/4।"
+   }
+  },
+  {
+   "id": "trigonometry-036",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 6 and the hypotenuse is 10. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 6 আৰু অতিভুজ 10। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "5/3",
+     "as": "৫/৩"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 6 / 10 = 3/5.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 6 / 10 = 3/5।"
+   }
+  },
+  {
+   "id": "trigonometry-037",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 5 and the side adjacent to A is 12. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 5 আৰু লগৰ বাহু 12। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "5/12",
+     "as": "৫/১২"
+    },
+    {
+     "en": "12/5",
+     "as": "১২/৫"
+    },
+    {
+     "en": "5/13",
+     "as": "৫/১৩"
+    },
+    {
+     "en": "12/13",
+     "as": "১২/১৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 5 / 12 = 5/12.",
+    "as": "tan A = বিপৰীত / লগৰ = 5 / 12 = 5/12।"
+   }
+  },
+  {
+   "id": "trigonometry-038",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 5 and the hypotenuse is 13. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 5 আৰু অতিভুজ 13। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "13/5",
+     "as": "১৩/৫"
+    },
+    {
+     "en": "5/13",
+     "as": "৫/১৩"
+    },
+    {
+     "en": "5/12",
+     "as": "৫/১২"
+    },
+    {
+     "en": "12/13",
+     "as": "১২/১৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 5 / 13 = 5/13.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 5 / 13 = 5/13।"
+   }
+  },
+  {
+   "id": "trigonometry-039",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 8 and the side adjacent to A is 15. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 8 আৰু লগৰ বাহু 15। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "15/8",
+     "as": "১৫/৮"
+    },
+    {
+     "en": "8/17",
+     "as": "৮/১৭"
+    },
+    {
+     "en": "8/15",
+     "as": "৮/১৫"
+    },
+    {
+     "en": "15/17",
+     "as": "১৫/১৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 8 / 15 = 8/15.",
+    "as": "tan A = বিপৰীত / লগৰ = 8 / 15 = 8/15।"
+   }
+  },
+  {
+   "id": "trigonometry-040",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 8 and the hypotenuse is 17. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 8 আৰু অতিভুজ 17। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "17/8",
+     "as": "১৭/৮"
+    },
+    {
+     "en": "8/15",
+     "as": "৮/১৫"
+    },
+    {
+     "en": "15/17",
+     "as": "১৫/১৭"
+    },
+    {
+     "en": "8/17",
+     "as": "৮/১৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 8 / 17 = 8/17.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 8 / 17 = 8/17।"
+   }
+  },
+  {
+   "id": "trigonometry-041",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 7 and the side adjacent to A is 24. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 7 আৰু লগৰ বাহু 24। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "7/24",
+     "as": "৭/২৪"
+    },
+    {
+     "en": "24/7",
+     "as": "২৪/৭"
+    },
+    {
+     "en": "7/25",
+     "as": "৭/২৫"
+    },
+    {
+     "en": "24/25",
+     "as": "২৪/২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 7 / 24 = 7/24.",
+    "as": "tan A = বিপৰীত / লগৰ = 7 / 24 = 7/24।"
+   }
+  },
+  {
+   "id": "trigonometry-042",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 7 and the hypotenuse is 25. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 7 আৰু অতিভুজ 25। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "25/7",
+     "as": "২৫/৭"
+    },
+    {
+     "en": "7/25",
+     "as": "৭/২৫"
+    },
+    {
+     "en": "7/24",
+     "as": "৭/২৪"
+    },
+    {
+     "en": "24/25",
+     "as": "২৪/২৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 7 / 25 = 7/25.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 7 / 25 = 7/25।"
+   }
+  },
+  {
+   "id": "trigonometry-043",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 9 and the side adjacent to A is 12. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 9 আৰু লগৰ বাহু 12। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "4/3",
+     "as": "৪/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 9 / 12 = 3/4.",
+    "as": "tan A = বিপৰীত / লগৰ = 9 / 12 = 3/4।"
+   }
+  },
+  {
+   "id": "trigonometry-044",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 9 and the hypotenuse is 15. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 9 আৰু অতিভুজ 15। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "5/3",
+     "as": "৫/৩"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 9 / 15 = 3/5.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 9 / 15 = 3/5।"
+   }
+  },
+  {
+   "id": "trigonometry-045",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 12 and the side adjacent to A is 16. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 12 আৰু লগৰ বাহু 16। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/3",
+     "as": "৪/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 12 / 16 = 3/4.",
+    "as": "tan A = বিপৰীত / লগৰ = 12 / 16 = 3/4।"
+   }
+  },
+  {
+   "id": "trigonometry-046",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 12 and the hypotenuse is 20. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 12 আৰু অতিভুজ 20। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "5/3",
+     "as": "৫/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 12 / 20 = 3/5.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 12 / 20 = 3/5।"
+   }
+  },
+  {
+   "id": "trigonometry-047",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 20 and the side adjacent to A is 21. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 20 আৰু লগৰ বাহু 21। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "21/20",
+     "as": "২১/২০"
+    },
+    {
+     "en": "20/29",
+     "as": "২০/২৯"
+    },
+    {
+     "en": "20/21",
+     "as": "২০/২১"
+    },
+    {
+     "en": "21/29",
+     "as": "২১/২৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 20 / 21 = 20/21.",
+    "as": "tan A = বিপৰীত / লগৰ = 20 / 21 = 20/21।"
+   }
+  },
+  {
+   "id": "trigonometry-048",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 20 and the hypotenuse is 29. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 20 আৰু অতিভুজ 29। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "29/20",
+     "as": "২৯/২০"
+    },
+    {
+     "en": "20/21",
+     "as": "২০/২১"
+    },
+    {
+     "en": "21/29",
+     "as": "২১/২৯"
+    },
+    {
+     "en": "20/29",
+     "as": "২০/২৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 20 / 29 = 20/29.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 20 / 29 = 20/29।"
+   }
+  },
+  {
+   "id": "trigonometry-049",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 10 and the side adjacent to A is 24. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 10 আৰু লগৰ বাহু 24। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "5/12",
+     "as": "৫/১২"
+    },
+    {
+     "en": "12/5",
+     "as": "১২/৫"
+    },
+    {
+     "en": "5/13",
+     "as": "৫/১৩"
+    },
+    {
+     "en": "12/13",
+     "as": "১২/১৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 10 / 24 = 5/12.",
+    "as": "tan A = বিপৰীত / লগৰ = 10 / 24 = 5/12।"
+   }
+  },
+  {
+   "id": "trigonometry-050",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 10 and the hypotenuse is 26. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 10 আৰু অতিভুজ 26। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "13/5",
+     "as": "১৩/৫"
+    },
+    {
+     "en": "5/13",
+     "as": "৫/১৩"
+    },
+    {
+     "en": "5/12",
+     "as": "৫/১২"
+    },
+    {
+     "en": "12/13",
+     "as": "১২/১৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 10 / 26 = 5/13.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 10 / 26 = 5/13।"
+   }
+  },
+  {
+   "id": "trigonometry-051",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 15 and the side adjacent to A is 20. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 15 আৰু লগৰ বাহু 20। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "4/3",
+     "as": "৪/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 15 / 20 = 3/4.",
+    "as": "tan A = বিপৰীত / লগৰ = 15 / 20 = 3/4।"
+   }
+  },
+  {
+   "id": "trigonometry-052",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 15 and the hypotenuse is 25. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 15 আৰু অতিভুজ 25। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "5/3",
+     "as": "৫/৩"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 15 / 25 = 3/5.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 15 / 25 = 3/5।"
+   }
+  },
+  {
+   "id": "trigonometry-053",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 16 and the side adjacent to A is 30. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 16 আৰু লগৰ বাহু 30। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "8/15",
+     "as": "৮/১৫"
+    },
+    {
+     "en": "15/8",
+     "as": "১৫/৮"
+    },
+    {
+     "en": "8/17",
+     "as": "৮/১৭"
+    },
+    {
+     "en": "15/17",
+     "as": "১৫/১৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 16 / 30 = 8/15.",
+    "as": "tan A = বিপৰীত / লগৰ = 16 / 30 = 8/15।"
+   }
+  },
+  {
+   "id": "trigonometry-054",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 16 and the hypotenuse is 34. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 16 আৰু অতিভুজ 34। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "17/8",
+     "as": "১৭/৮"
+    },
+    {
+     "en": "8/17",
+     "as": "৮/১৭"
+    },
+    {
+     "en": "8/15",
+     "as": "৮/১৫"
+    },
+    {
+     "en": "15/17",
+     "as": "১৫/১৭"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 16 / 34 = 8/17.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 16 / 34 = 8/17।"
+   }
+  },
+  {
+   "id": "trigonometry-055",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 18 and the side adjacent to A is 24. Then tan A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 18 আৰু লগৰ বাহু 24। তেন্তে tan A = ?"
+   },
+   "options": [
+    {
+     "en": "4/3",
+     "as": "৪/৩"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "tan A = opposite / adjacent = 18 / 24 = 3/4.",
+    "as": "tan A = বিপৰীত / লগৰ = 18 / 24 = 3/4।"
+   }
+  },
+  {
+   "id": "trigonometry-056",
+   "q": {
+    "en": "In a right triangle the side opposite angle A is 18 and the hypotenuse is 30. Then sin A = ?",
+    "as": "এটা সমকোণী ত্ৰিভুজত A কোণৰ বিপৰীত বাহু 18 আৰু অতিভুজ 30। তেন্তে sin A = ?"
+   },
+   "options": [
+    {
+     "en": "5/3",
+     "as": "৫/৩"
+    },
+    {
+     "en": "3/4",
+     "as": "৩/৪"
+    },
+    {
+     "en": "4/5",
+     "as": "৪/৫"
+    },
+    {
+     "en": "3/5",
+     "as": "৩/৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "sin A = opposite / hypotenuse = 18 / 30 = 3/5.",
+    "as": "sin A = বিপৰীত / অতিভুজ = 18 / 30 = 3/5।"
+   }
+  },
+  {
+   "id": "trigonometry-057",
+   "q": {
+    "en": "cosec A is the reciprocal of",
+    "as": "cosec A কাৰ প্ৰতিক্ৰম"
+   },
+   "options": [
+    {
+     "en": "sin A",
+     "as": "sin A"
+    },
+    {
+     "en": "cos A",
+     "as": "cos A"
+    },
+    {
+     "en": "tan A",
+     "as": "tan A"
+    },
+    {
+     "en": "sec A",
+     "as": "sec A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "cosec A = 1 / sin A.",
+    "as": "cosec A = 1 / sin A।"
+   }
+  },
+  {
+   "id": "trigonometry-058",
+   "q": {
+    "en": "sec A is the reciprocal of",
+    "as": "sec A কাৰ প্ৰতিক্ৰম"
+   },
+   "options": [
+    {
+     "en": "sin A",
+     "as": "sin A"
+    },
+    {
+     "en": "cos A",
+     "as": "cos A"
+    },
+    {
+     "en": "cot A",
+     "as": "cot A"
+    },
+    {
+     "en": "cosec A",
+     "as": "cosec A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "sec A = 1 / cos A.",
+    "as": "sec A = 1 / cos A।"
+   }
+  },
+  {
+   "id": "trigonometry-059",
+   "q": {
+    "en": "cot A is the reciprocal of",
+    "as": "cot A কাৰ প্ৰতিক্ৰম"
+   },
+   "options": [
+    {
+     "en": "sin A",
+     "as": "sin A"
+    },
+    {
+     "en": "cos A",
+     "as": "cos A"
+    },
+    {
+     "en": "tan A",
+     "as": "tan A"
+    },
+    {
+     "en": "sec A",
+     "as": "sec A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "cot A = 1 / tan A = cos A / sin A.",
+    "as": "cot A = 1 / tan A = cos A / sin A।"
+   }
+  },
+  {
+   "id": "trigonometry-060",
+   "q": {
+    "en": "A tower casts a shadow equal to its height. The angle of elevation of the sun is —",
+    "as": "এটা টাৱাৰে তাৰ উচ্চতাৰ সমান ছাঁ পেলায়। সূৰ্যৰ উন্নতি কোণ —"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "30 degrees"
+    },
+    {
+     "en": "60 degrees",
+     "as": "60 degrees"
+    },
+    {
+     "en": "90 degrees",
+     "as": "90 degrees"
+    },
+    {
+     "en": "45 degrees",
+     "as": "45 degrees"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "When the shadow equals the height, tan of the angle is 1, so the angle is 45 degrees.",
+    "as": "ছাঁ উচ্চতাৰ সমান হ'লে কোণৰ tan 1 হয়, গতিকে কোণ 45 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "trigonometry-061",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 10 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 10 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "10 m",
+     "as": "10 m"
+    },
+    {
+     "en": "20 m",
+     "as": "20 m"
+    },
+    {
+     "en": "5 m",
+     "as": "5 m"
+    },
+    {
+     "en": "15 m",
+     "as": "15 m"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 10 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 10 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-062",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 20 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 20 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "40 m",
+     "as": "40 m"
+    },
+    {
+     "en": "20 m",
+     "as": "20 m"
+    },
+    {
+     "en": "10 m",
+     "as": "10 m"
+    },
+    {
+     "en": "25 m",
+     "as": "25 m"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 20 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 20 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-063",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 30 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 30 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "60 m",
+     "as": "60 m"
+    },
+    {
+     "en": "15 m",
+     "as": "15 m"
+    },
+    {
+     "en": "30 m",
+     "as": "30 m"
+    },
+    {
+     "en": "35 m",
+     "as": "35 m"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 30 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 30 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-064",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 15 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 15 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "30 m",
+     "as": "30 m"
+    },
+    {
+     "en": "7 m",
+     "as": "7 m"
+    },
+    {
+     "en": "20 m",
+     "as": "20 m"
+    },
+    {
+     "en": "15 m",
+     "as": "15 m"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 15 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 15 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-065",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 25 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 25 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "25 m",
+     "as": "25 m"
+    },
+    {
+     "en": "50 m",
+     "as": "50 m"
+    },
+    {
+     "en": "12 m",
+     "as": "12 m"
+    },
+    {
+     "en": "30 m",
+     "as": "30 m"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 25 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 25 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-066",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 40 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 40 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "80 m",
+     "as": "80 m"
+    },
+    {
+     "en": "40 m",
+     "as": "40 m"
+    },
+    {
+     "en": "20 m",
+     "as": "20 m"
+    },
+    {
+     "en": "45 m",
+     "as": "45 m"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 40 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 40 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-067",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 50 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 50 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "100 m",
+     "as": "100 m"
+    },
+    {
+     "en": "25 m",
+     "as": "25 m"
+    },
+    {
+     "en": "50 m",
+     "as": "50 m"
+    },
+    {
+     "en": "55 m",
+     "as": "55 m"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 50 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 50 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-068",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 12 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 12 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "24 m",
+     "as": "24 m"
+    },
+    {
+     "en": "6 m",
+     "as": "6 m"
+    },
+    {
+     "en": "17 m",
+     "as": "17 m"
+    },
+    {
+     "en": "12 m",
+     "as": "12 m"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 12 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 12 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-069",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 18 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 18 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "18 m",
+     "as": "18 m"
+    },
+    {
+     "en": "36 m",
+     "as": "36 m"
+    },
+    {
+     "en": "9 m",
+     "as": "9 m"
+    },
+    {
+     "en": "23 m",
+     "as": "23 m"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 18 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 18 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-070",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 24 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 24 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "48 m",
+     "as": "48 m"
+    },
+    {
+     "en": "24 m",
+     "as": "24 m"
+    },
+    {
+     "en": "12 m",
+     "as": "12 m"
+    },
+    {
+     "en": "29 m",
+     "as": "29 m"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 24 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 24 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-071",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 36 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 36 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "72 m",
+     "as": "72 m"
+    },
+    {
+     "en": "18 m",
+     "as": "18 m"
+    },
+    {
+     "en": "36 m",
+     "as": "36 m"
+    },
+    {
+     "en": "41 m",
+     "as": "41 m"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 36 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 36 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-072",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 8 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 8 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "16 m",
+     "as": "16 m"
+    },
+    {
+     "en": "4 m",
+     "as": "4 m"
+    },
+    {
+     "en": "13 m",
+     "as": "13 m"
+    },
+    {
+     "en": "8 m",
+     "as": "8 m"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 8 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 8 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-073",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 45 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 45 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "45 m",
+     "as": "45 m"
+    },
+    {
+     "en": "90 m",
+     "as": "90 m"
+    },
+    {
+     "en": "22 m",
+     "as": "22 m"
+    },
+    {
+     "en": "50 m",
+     "as": "50 m"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 45 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 45 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-074",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 60 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 60 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "120 m",
+     "as": "120 m"
+    },
+    {
+     "en": "60 m",
+     "as": "60 m"
+    },
+    {
+     "en": "30 m",
+     "as": "30 m"
+    },
+    {
+     "en": "65 m",
+     "as": "65 m"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 60 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 60 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-075",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 5 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 5 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "10 m",
+     "as": "10 m"
+    },
+    {
+     "en": "2 m",
+     "as": "2 m"
+    },
+    {
+     "en": "5 m",
+     "as": "5 m"
+    },
+    {
+     "en": "4 m",
+     "as": "4 m"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 5 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 5 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-076",
+   "q": {
+    "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 100 m. The height of the pole is —",
+    "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 100 মিটাৰ। খুটিৰ উচ্চতা —"
+   },
+   "options": [
+    {
+     "en": "200 m",
+     "as": "200 m"
+    },
+    {
+     "en": "50 m",
+     "as": "50 m"
+    },
+    {
+     "en": "105 m",
+     "as": "105 m"
+    },
+    {
+     "en": "100 m",
+     "as": "100 m"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "At 45 degrees the height equals the horizontal distance, so the pole is 100 m high.",
+    "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 100 মিটাৰ ওখ।"
+   }
+  },
+  {
+   "id": "trigonometry-077",
+   "q": {
+    "en": "sin A / cos A equals ?",
+    "as": "sin A / cos A সমান ?"
+   },
+   "options": [
+    {
+     "en": "tan A",
+     "as": "tan A"
+    },
+    {
+     "en": "cot A",
+     "as": "cot A"
+    },
+    {
+     "en": "sec A",
+     "as": "sec A"
+    },
+    {
+     "en": "cosec A",
+     "as": "cosec A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "tan A is defined as sin A divided by cos A.",
+    "as": "tan A ক sin A ক cos A ৰে হৰণ কৰি পোৱা যায়।"
+   }
+  },
+  {
+   "id": "trigonometry-078",
+   "q": {
+    "en": "The value of sin^2 A + cos^2 A is ?",
+    "as": "sin^2 A + cos^2 A ৰ মান ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "sin 2A",
+     "as": "sin 2A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "This is the fundamental Pythagorean identity.",
+    "as": "এইটোৱেই প্ৰধান পাইথাগোৰীয় অভেদ।"
+   }
+  },
+  {
+   "id": "trigonometry-079",
+   "q": {
+    "en": "The maximum value of sin A is ?",
+    "as": "sin A ৰ সৰ্বোচ্চ মান ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "infinity",
+     "as": "infinity"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The sine of an angle never exceeds 1.",
+    "as": "কোণ এটাৰ sin কেতিয়াও 1 অতিক্ৰম নকৰে।"
+   }
+  },
+  {
+   "id": "trigonometry-080",
+   "q": {
+    "en": "The minimum value of cos A is ?",
+    "as": "cos A ৰ সৰ্বনিম্ন মান ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "-2",
+     "as": "-২"
+    },
+    {
+     "en": "-1",
+     "as": "-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The cosine of an angle lies between -1 and 1.",
+    "as": "কোণ এটাৰ cos -1 আৰু 1 ৰ মাজত থাকে।"
+   }
+  }
+ ],
+ "statistics": [
+  {
+   "id": "statistics-001",
+   "q": {
+    "en": "The mean of the numbers 4, 8, 6, 10, 12 is —",
+    "as": "4, 8, 6, 10, 12 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean = sum / count = 40 / 5 = 8.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 40 / 5 = 8।"
+   }
+  },
+  {
+   "id": "statistics-002",
+   "q": {
+    "en": "The mean of the numbers 5, 10, 15, 20, 25 is —",
+    "as": "5, 10, 15, 20, 25 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "75",
+     "as": "৭৫"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean = sum / count = 75 / 5 = 15.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 75 / 5 = 15।"
+   }
+  },
+  {
+   "id": "statistics-003",
+   "q": {
+    "en": "The mean of the numbers 2, 4, 6, 8, 10, 12 is —",
+    "as": "2, 4, 6, 8, 10, 12 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "42",
+     "as": "৪২"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean = sum / count = 42 / 6 = 7.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 42 / 6 = 7।"
+   }
+  },
+  {
+   "id": "statistics-004",
+   "q": {
+    "en": "The mean of the numbers 3, 6, 9, 12, 15 is —",
+    "as": "3, 6, 9, 12, 15 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean = sum / count = 45 / 5 = 9.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 45 / 5 = 9।"
+   }
+  },
+  {
+   "id": "statistics-005",
+   "q": {
+    "en": "The mean of the numbers 7, 14, 21, 28 is —",
+    "as": "7, 14, 21, 28 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "17.5",
+     "as": "১৭.৫"
+    },
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean = sum / count = 70 / 4 = 17.5.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 70 / 4 = 17.5।"
+   }
+  },
+  {
+   "id": "statistics-006",
+   "q": {
+    "en": "The mean of the numbers 1, 2, 3, 4, 5, 6, 7 is —",
+    "as": "1, 2, 3, 4, 5, 6, 7 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "28",
+     "as": "২৮"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean = sum / count = 28 / 7 = 4.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 28 / 7 = 4।"
+   }
+  },
+  {
+   "id": "statistics-007",
+   "q": {
+    "en": "The mean of the numbers 10, 20, 30, 40, 50, 60 is —",
+    "as": "10, 20, 30, 40, 50, 60 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "210",
+     "as": "২১০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean = sum / count = 210 / 6 = 35.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 210 / 6 = 35।"
+   }
+  },
+  {
+   "id": "statistics-008",
+   "q": {
+    "en": "The mean of the numbers 8, 16, 24, 32 is —",
+    "as": "8, 16, 24, 32 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean = sum / count = 80 / 4 = 20.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 80 / 4 = 20।"
+   }
+  },
+  {
+   "id": "statistics-009",
+   "q": {
+    "en": "The mean of the numbers 11, 22, 33, 44, 55 is —",
+    "as": "11, 22, 33, 44, 55 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "165",
+     "as": "১৬৫"
+    },
+    {
+     "en": "55",
+     "as": "৫৫"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean = sum / count = 165 / 5 = 33.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 165 / 5 = 33।"
+   }
+  },
+  {
+   "id": "statistics-010",
+   "q": {
+    "en": "The mean of the numbers 6, 12, 18, 24, 30 is —",
+    "as": "6, 12, 18, 24, 30 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "90",
+     "as": "৯০"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean = sum / count = 90 / 5 = 18.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 90 / 5 = 18।"
+   }
+  },
+  {
+   "id": "statistics-011",
+   "q": {
+    "en": "The mean of the numbers 9, 18, 27, 36, 45, 54 is —",
+    "as": "9, 18, 27, 36, 45, 54 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "189",
+     "as": "১৮৯"
+    },
+    {
+     "en": "54",
+     "as": "৫৪"
+    },
+    {
+     "en": "31.5",
+     "as": "৩১.৫"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean = sum / count = 189 / 6 = 31.5.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 189 / 6 = 31.5।"
+   }
+  },
+  {
+   "id": "statistics-012",
+   "q": {
+    "en": "The mean of the numbers 2, 3, 5, 7, 11, 13 is —",
+    "as": "2, 3, 5, 7, 11, 13 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "41",
+     "as": "৪১"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "6.83",
+     "as": "৬.৮৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean = sum / count = 41 / 6 = 6.83.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 41 / 6 = 6.83।"
+   }
+  },
+  {
+   "id": "statistics-013",
+   "q": {
+    "en": "The mean of the numbers 4, 4, 6, 6, 8, 8 is —",
+    "as": "4, 4, 6, 6, 8, 8 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean = sum / count = 36 / 6 = 6.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 36 / 6 = 6।"
+   }
+  },
+  {
+   "id": "statistics-014",
+   "q": {
+    "en": "The mean of the numbers 15, 25, 35, 45 is —",
+    "as": "15, 25, 35, 45 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean = sum / count = 120 / 4 = 30.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 120 / 4 = 30।"
+   }
+  },
+  {
+   "id": "statistics-015",
+   "q": {
+    "en": "The mean of the numbers 12, 24, 36, 48, 60 is —",
+    "as": "12, 24, 36, 48, 60 সংখ্যাবোৰৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "180",
+     "as": "১৮০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean = sum / count = 180 / 5 = 36.",
+    "as": "মাধ্য = যোগফল / সংখ্যা = 180 / 5 = 36।"
+   }
+  },
+  {
+   "id": "statistics-016",
+   "q": {
+    "en": "The median of the numbers 3, 5, 7, 9, 11 is —",
+    "as": "3, 5, 7, 9, 11 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 7.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 7 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-017",
+   "q": {
+    "en": "The median of the numbers 10, 20, 30, 40, 50 is —",
+    "as": "10, 20, 30, 40, 50 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "31",
+     "as": "৩১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 30.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 30 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-018",
+   "q": {
+    "en": "The median of the numbers 2, 4, 6, 8, 10 is —",
+    "as": "2, 4, 6, 8, 10 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 6.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 6 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-019",
+   "q": {
+    "en": "The median of the numbers 1, 3, 5, 7, 9, 11, 13 is —",
+    "as": "1, 3, 5, 7, 9, 11, 13 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 7.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 7 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-020",
+   "q": {
+    "en": "The median of the numbers 12, 15, 18, 21, 24 is —",
+    "as": "12, 15, 18, 21, 24 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "19",
+     "as": "১৯"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 18.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 18 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-021",
+   "q": {
+    "en": "The median of the numbers 5, 10, 15, 20, 25 is —",
+    "as": "5, 10, 15, 20, 25 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 15.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 15 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-022",
+   "q": {
+    "en": "The median of the numbers 4, 8, 12, 16, 20, 24 is —",
+    "as": "4, 8, 12, 16, 20, 24 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 14.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 14 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-023",
+   "q": {
+    "en": "The median of the numbers 6, 12, 18, 24, 30, 36 is —",
+    "as": "6, 12, 18, 24, 30, 36 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 21.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 21 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-024",
+   "q": {
+    "en": "The median of the numbers 7, 14, 21, 28, 35 is —",
+    "as": "7, 14, 21, 28, 35 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 21.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 21 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-025",
+   "q": {
+    "en": "The median of the numbers 11, 13, 15, 17, 19, 21 is —",
+    "as": "11, 13, 15, 17, 19, 21 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 16.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 16 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-026",
+   "q": {
+    "en": "The median of the numbers 9, 18, 27, 36, 45 is —",
+    "as": "9, 18, 27, 36, 45 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 27.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 27 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-027",
+   "q": {
+    "en": "The median of the numbers 3, 6, 9, 12, 15, 18 is —",
+    "as": "3, 6, 9, 12, 15, 18 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "10.5",
+     "as": "১০.৫"
+    },
+    {
+     "en": "11.5",
+     "as": "১১.৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 10.5.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 10.5 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-028",
+   "q": {
+    "en": "The median of the numbers 8, 16, 24, 32, 40 is —",
+    "as": "8, 16, 24, 32, 40 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 24.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 24 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-029",
+   "q": {
+    "en": "The median of the numbers 2, 5, 8, 11, 14, 17 is —",
+    "as": "2, 5, 8, 11, 14, 17 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "9.5",
+     "as": "৯.৫"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "10.5",
+     "as": "১০.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 9.5.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 9.5 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-030",
+   "q": {
+    "en": "The median of the numbers 25, 30, 35, 40, 45 is —",
+    "as": "25, 30, 35, 40, 45 সংখ্যাবোৰৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Arranging in order and taking the middle value gives the median 35.",
+    "as": "ক্ৰমত সজাই মাজৰ মান ল'লে মধ্যক 35 পোৱা যায়।"
+   }
+  },
+  {
+   "id": "statistics-031",
+   "q": {
+    "en": "The mode of the numbers 2, 3, 3, 4, 5 is —",
+    "as": "2, 3, 3, 4, 5 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 3.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 3।"
+   }
+  },
+  {
+   "id": "statistics-032",
+   "q": {
+    "en": "The mode of the numbers 7, 7, 8, 9, 10 is —",
+    "as": "7, 7, 8, 9, 10 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 7.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 7।"
+   }
+  },
+  {
+   "id": "statistics-033",
+   "q": {
+    "en": "The mode of the numbers 1, 2, 2, 3, 4 is —",
+    "as": "1, 2, 2, 3, 4 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 2.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 2।"
+   }
+  },
+  {
+   "id": "statistics-034",
+   "q": {
+    "en": "The mode of the numbers 5, 5, 5, 6, 7 is —",
+    "as": "5, 5, 5, 6, 7 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 5.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 5।"
+   }
+  },
+  {
+   "id": "statistics-035",
+   "q": {
+    "en": "The mode of the numbers 9, 8, 8, 7, 6 is —",
+    "as": "9, 8, 8, 7, 6 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 8.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 8।"
+   }
+  },
+  {
+   "id": "statistics-036",
+   "q": {
+    "en": "The mode of the numbers 4, 6, 6, 6, 8 is —",
+    "as": "4, 6, 6, 6, 8 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 6.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 6।"
+   }
+  },
+  {
+   "id": "statistics-037",
+   "q": {
+    "en": "The mode of the numbers 10, 11, 11, 12, 13 is —",
+    "as": "10, 11, 11, 12, 13 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 11.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 11।"
+   }
+  },
+  {
+   "id": "statistics-038",
+   "q": {
+    "en": "The mode of the numbers 3, 4, 4, 5, 5, 5 is —",
+    "as": "3, 4, 4, 5, 5, 5 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 5.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 5।"
+   }
+  },
+  {
+   "id": "statistics-039",
+   "q": {
+    "en": "The mode of the numbers 2, 2, 3, 3, 3, 4 is —",
+    "as": "2, 2, 3, 3, 3, 4 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 3.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 3।"
+   }
+  },
+  {
+   "id": "statistics-040",
+   "q": {
+    "en": "The mode of the numbers 6, 7, 7, 8, 9 is —",
+    "as": "6, 7, 7, 8, 9 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 7.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 7।"
+   }
+  },
+  {
+   "id": "statistics-041",
+   "q": {
+    "en": "The mode of the numbers 15, 15, 20, 25 is —",
+    "as": "15, 15, 20, 25 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 15.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 15।"
+   }
+  },
+  {
+   "id": "statistics-042",
+   "q": {
+    "en": "The mode of the numbers 1, 1, 1, 2, 3 is —",
+    "as": "1, 1, 1, 2, 3 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 1.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 1।"
+   }
+  },
+  {
+   "id": "statistics-043",
+   "q": {
+    "en": "The mode of the numbers 8, 9, 9, 10, 11 is —",
+    "as": "8, 9, 9, 10, 11 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 9.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 9।"
+   }
+  },
+  {
+   "id": "statistics-044",
+   "q": {
+    "en": "The mode of the numbers 12, 13, 13, 13, 14 is —",
+    "as": "12, 13, 13, 13, 14 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 13.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 13।"
+   }
+  },
+  {
+   "id": "statistics-045",
+   "q": {
+    "en": "The mode of the numbers 20, 21, 21, 22, 23 is —",
+    "as": "20, 21, 21, 22, 23 সংখ্যাবোৰৰ বহুলক —"
+   },
+   "options": [
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "23",
+     "as": "২৩"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The mode is the value that occurs most often, which is 21.",
+    "as": "বহুলক হৈছে সৰ্বাধিকবাৰ অহা মান, যি 21।"
+   }
+  },
+  {
+   "id": "statistics-046",
+   "q": {
+    "en": "The range of the numbers 4, 9, 15, 22, 30 is —",
+    "as": "4, 9, 15, 22, 30 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "26",
+     "as": "২৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Range = maximum - minimum = 30 - 4 = 26.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 30 - 4 = 26।"
+   }
+  },
+  {
+   "id": "statistics-047",
+   "q": {
+    "en": "The range of the numbers 12, 18, 25, 31, 40 is —",
+    "as": "12, 18, 25, 31, 40 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
+    },
+    {
+     "en": "126",
+     "as": "১২৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Range = maximum - minimum = 40 - 12 = 28.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 40 - 12 = 28।"
+   }
+  },
+  {
+   "id": "statistics-048",
+   "q": {
+    "en": "The range of the numbers 5, 10, 20, 35, 50 is —",
+    "as": "5, 10, 20, 35, 50 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Range = maximum - minimum = 50 - 5 = 45.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 50 - 5 = 45।"
+   }
+  },
+  {
+   "id": "statistics-049",
+   "q": {
+    "en": "The range of the numbers 3, 7, 11, 19, 27 is —",
+    "as": "3, 7, 11, 19, 27 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "67",
+     "as": "৬৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Range = maximum - minimum = 27 - 3 = 24.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 27 - 3 = 24।"
+   }
+  },
+  {
+   "id": "statistics-050",
+   "q": {
+    "en": "The range of the numbers 8, 14, 21, 29, 36 is —",
+    "as": "8, 14, 21, 29, 36 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "108",
+     "as": "১০৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Range = maximum - minimum = 36 - 8 = 28.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 36 - 8 = 28।"
+   }
+  },
+  {
+   "id": "statistics-051",
+   "q": {
+    "en": "The range of the numbers 2, 6, 13, 24, 33 is —",
+    "as": "2, 6, 13, 24, 33 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "31",
+     "as": "৩১"
+    },
+    {
+     "en": "78",
+     "as": "৭৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Range = maximum - minimum = 33 - 2 = 31.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 33 - 2 = 31।"
+   }
+  },
+  {
+   "id": "statistics-052",
+   "q": {
+    "en": "The range of the numbers 10, 25, 40, 55, 70 is —",
+    "as": "10, 25, 40, 55, 70 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "200",
+     "as": "২০০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Range = maximum - minimum = 70 - 10 = 60.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 70 - 10 = 60।"
+   }
+  },
+  {
+   "id": "statistics-053",
+   "q": {
+    "en": "The range of the numbers 6, 9, 17, 26, 38 is —",
+    "as": "6, 9, 17, 26, 38 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "96",
+     "as": "৯৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Range = maximum - minimum = 38 - 6 = 32.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 38 - 6 = 32।"
+   }
+  },
+  {
+   "id": "statistics-054",
+   "q": {
+    "en": "The range of the numbers 4, 16, 28, 44, 60 is —",
+    "as": "4, 16, 28, 44, 60 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "56",
+     "as": "৫৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "152",
+     "as": "১৫২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Range = maximum - minimum = 60 - 4 = 56.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 60 - 4 = 56।"
+   }
+  },
+  {
+   "id": "statistics-055",
+   "q": {
+    "en": "The range of the numbers 7, 12, 23, 31, 45 is —",
+    "as": "7, 12, 23, 31, 45 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "118",
+     "as": "১১৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Range = maximum - minimum = 45 - 7 = 38.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 45 - 7 = 38।"
+   }
+  },
+  {
+   "id": "statistics-056",
+   "q": {
+    "en": "The range of the numbers 1, 9, 18, 27, 36 is —",
+    "as": "1, 9, 18, 27, 36 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "91",
+     "as": "৯১"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Range = maximum - minimum = 36 - 1 = 35.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 36 - 1 = 35।"
+   }
+  },
+  {
+   "id": "statistics-057",
+   "q": {
+    "en": "The range of the numbers 5, 15, 25, 35, 45 is —",
+    "as": "5, 15, 25, 35, 45 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Range = maximum - minimum = 45 - 5 = 40.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 45 - 5 = 40।"
+   }
+  },
+  {
+   "id": "statistics-058",
+   "q": {
+    "en": "The range of the numbers 11, 22, 33, 44, 55 is —",
+    "as": "11, 22, 33, 44, 55 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "55",
+     "as": "৫৫"
+    },
+    {
+     "en": "44",
+     "as": "৪৪"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "165",
+     "as": "১৬৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Range = maximum - minimum = 55 - 11 = 44.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 55 - 11 = 44।"
+   }
+  },
+  {
+   "id": "statistics-059",
+   "q": {
+    "en": "The range of the numbers 13, 26, 39, 52, 65 is —",
+    "as": "13, 26, 39, 52, 65 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "65",
+     "as": "৬৫"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "52",
+     "as": "৫২"
+    },
+    {
+     "en": "195",
+     "as": "১৯৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Range = maximum - minimum = 65 - 13 = 52.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 65 - 13 = 52।"
+   }
+  },
+  {
+   "id": "statistics-060",
+   "q": {
+    "en": "The range of the numbers 3, 18, 29, 41, 57 is —",
+    "as": "3, 18, 29, 41, 57 সংখ্যাবোৰৰ পৰিসৰ —"
+   },
+   "options": [
+    {
+     "en": "57",
+     "as": "৫৭"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "148",
+     "as": "১৪৮"
+    },
+    {
+     "en": "54",
+     "as": "৫৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Range = maximum - minimum = 57 - 3 = 54.",
+    "as": "পৰিসৰ = সৰ্বোচ্চ - সৰ্বনিম্ন = 57 - 3 = 54।"
+   }
+  },
+  {
+   "id": "statistics-061",
+   "q": {
+    "en": "The mean of the first 5 natural numbers is —",
+    "as": "প্ৰথম 5 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "2.5",
+     "as": "২.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (5 + 1) / 2 = 3.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (5 + 1) / 2 = 3।"
+   }
+  },
+  {
+   "id": "statistics-062",
+   "q": {
+    "en": "The mean of the first 10 natural numbers is —",
+    "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "5.5",
+     "as": "৫.৫"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (10 + 1) / 2 = 5.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (10 + 1) / 2 = 5.5।"
+   }
+  },
+  {
+   "id": "statistics-063",
+   "q": {
+    "en": "The mean of the first 15 natural numbers is —",
+    "as": "প্ৰথম 15 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "7.5",
+     "as": "৭.৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (15 + 1) / 2 = 8.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (15 + 1) / 2 = 8।"
+   }
+  },
+  {
+   "id": "statistics-064",
+   "q": {
+    "en": "The mean of the first 20 natural numbers is —",
+    "as": "প্ৰথম 20 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "10.5",
+     "as": "১০.৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (20 + 1) / 2 = 10.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (20 + 1) / 2 = 10.5।"
+   }
+  },
+  {
+   "id": "statistics-065",
+   "q": {
+    "en": "The mean of the first 25 natural numbers is —",
+    "as": "প্ৰথম 25 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "26",
+     "as": "২৬"
+    },
+    {
+     "en": "12.5",
+     "as": "১২.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (25 + 1) / 2 = 13.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (25 + 1) / 2 = 13।"
+   }
+  },
+  {
+   "id": "statistics-066",
+   "q": {
+    "en": "The mean of the first 30 natural numbers is —",
+    "as": "প্ৰথম 30 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "15.5",
+     "as": "১৫.৫"
+    },
+    {
+     "en": "31",
+     "as": "৩১"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (30 + 1) / 2 = 15.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (30 + 1) / 2 = 15.5।"
+   }
+  },
+  {
+   "id": "statistics-067",
+   "q": {
+    "en": "The mean of the first 40 natural numbers is —",
+    "as": "প্ৰথম 40 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "41",
+     "as": "৪১"
+    },
+    {
+     "en": "20.5",
+     "as": "২০.৫"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (40 + 1) / 2 = 20.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (40 + 1) / 2 = 20.5।"
+   }
+  },
+  {
+   "id": "statistics-068",
+   "q": {
+    "en": "The mean of the first 50 natural numbers is —",
+    "as": "প্ৰথম 50 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "51",
+     "as": "৫১"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "25.5",
+     "as": "২৫.৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (50 + 1) / 2 = 25.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (50 + 1) / 2 = 25.5।"
+   }
+  },
+  {
+   "id": "statistics-069",
+   "q": {
+    "en": "The mean of the first 100 natural numbers is —",
+    "as": "প্ৰথম 100 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "50.5",
+     "as": "৫০.৫"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "101",
+     "as": "১০১"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (100 + 1) / 2 = 50.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (100 + 1) / 2 = 50.5।"
+   }
+  },
+  {
+   "id": "statistics-070",
+   "q": {
+    "en": "The mean of the first 6 natural numbers is —",
+    "as": "প্ৰথম 6 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "3.5",
+     "as": "৩.৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (6 + 1) / 2 = 3.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (6 + 1) / 2 = 3.5।"
+   }
+  },
+  {
+   "id": "statistics-071",
+   "q": {
+    "en": "The mean of the first 8 natural numbers is —",
+    "as": "প্ৰথম 8 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "4.5",
+     "as": "৪.৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (8 + 1) / 2 = 4.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (8 + 1) / 2 = 4.5।"
+   }
+  },
+  {
+   "id": "statistics-072",
+   "q": {
+    "en": "The mean of the first 12 natural numbers is —",
+    "as": "প্ৰথম 12 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "6.5",
+     "as": "৬.৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (12 + 1) / 2 = 6.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (12 + 1) / 2 = 6.5।"
+   }
+  },
+  {
+   "id": "statistics-073",
+   "q": {
+    "en": "The mean of the first 16 natural numbers is —",
+    "as": "প্ৰথম 16 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "8.5",
+     "as": "৮.৫"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (16 + 1) / 2 = 8.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (16 + 1) / 2 = 8.5।"
+   }
+  },
+  {
+   "id": "statistics-074",
+   "q": {
+    "en": "The mean of the first 24 natural numbers is —",
+    "as": "প্ৰথম 24 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "12.5",
+     "as": "১২.৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (24 + 1) / 2 = 12.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (24 + 1) / 2 = 12.5।"
+   }
+  },
+  {
+   "id": "statistics-075",
+   "q": {
+    "en": "The mean of the first 60 natural numbers is —",
+    "as": "প্ৰথম 60 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "61",
+     "as": "৬১"
+    },
+    {
+     "en": "30.5",
+     "as": "৩০.৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (60 + 1) / 2 = 30.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (60 + 1) / 2 = 30.5।"
+   }
+  },
+  {
+   "id": "statistics-076",
+   "q": {
+    "en": "The mean of the first 9 natural numbers is —",
+    "as": "প্ৰথম 9 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "4.5",
+     "as": "৪.৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (9 + 1) / 2 = 5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (9 + 1) / 2 = 5।"
+   }
+  },
+  {
+   "id": "statistics-077",
+   "q": {
+    "en": "The mean of the first 11 natural numbers is —",
+    "as": "প্ৰথম 11 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "5.5",
+     "as": "৫.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (11 + 1) / 2 = 6.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (11 + 1) / 2 = 6।"
+   }
+  },
+  {
+   "id": "statistics-078",
+   "q": {
+    "en": "The mean of the first 13 natural numbers is —",
+    "as": "প্ৰথম 13 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "6.5",
+     "as": "৬.৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (13 + 1) / 2 = 7.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (13 + 1) / 2 = 7।"
+   }
+  },
+  {
+   "id": "statistics-079",
+   "q": {
+    "en": "The mean of the first 14 natural numbers is —",
+    "as": "প্ৰথম 14 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "7.5",
+     "as": "৭.৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (14 + 1) / 2 = 7.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (14 + 1) / 2 = 7.5।"
+   }
+  },
+  {
+   "id": "statistics-080",
+   "q": {
+    "en": "The mean of the first 18 natural numbers is —",
+    "as": "প্ৰথম 18 টা স্বাভাৱিক সংখ্যাৰ মাধ্য —"
+   },
+   "options": [
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "19",
+     "as": "১৯"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "9.5",
+     "as": "৯.৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mean of the first n natural numbers = (n + 1) / 2 = (18 + 1) / 2 = 9.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ মাধ্য = (n + 1) / 2 = (18 + 1) / 2 = 9.5।"
+   }
+  },
+  {
+   "id": "statistics-081",
+   "q": {
+    "en": "The median of the first 5 natural numbers is —",
+    "as": "প্ৰথম 5 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "2.5",
+     "as": "২.৫"
+    },
+    {
+     "en": "3.5",
+     "as": "৩.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 3.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 3।"
+   }
+  },
+  {
+   "id": "statistics-082",
+   "q": {
+    "en": "The median of the first 7 natural numbers is —",
+    "as": "প্ৰথম 7 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3.5",
+     "as": "৩.৫"
+    },
+    {
+     "en": "4.5",
+     "as": "৪.৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 4.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 4।"
+   }
+  },
+  {
+   "id": "statistics-083",
+   "q": {
+    "en": "The median of the first 9 natural numbers is —",
+    "as": "প্ৰথম 9 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "4.5",
+     "as": "৪.৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "5.5",
+     "as": "৫.৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 5।"
+   }
+  },
+  {
+   "id": "statistics-084",
+   "q": {
+    "en": "The median of the first 11 natural numbers is —",
+    "as": "প্ৰথম 11 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "5.5",
+     "as": "৫.৫"
+    },
+    {
+     "en": "6.5",
+     "as": "৬.৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 6.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 6।"
+   }
+  },
+  {
+   "id": "statistics-085",
+   "q": {
+    "en": "The median of the first 13 natural numbers is —",
+    "as": "প্ৰথম 13 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "6.5",
+     "as": "৬.৫"
+    },
+    {
+     "en": "7.5",
+     "as": "৭.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 7.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 7।"
+   }
+  },
+  {
+   "id": "statistics-086",
+   "q": {
+    "en": "The median of the first 15 natural numbers is —",
+    "as": "প্ৰথম 15 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "7.5",
+     "as": "৭.৫"
+    },
+    {
+     "en": "8.5",
+     "as": "৮.৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 8.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 8।"
+   }
+  },
+  {
+   "id": "statistics-087",
+   "q": {
+    "en": "The median of the first 17 natural numbers is —",
+    "as": "প্ৰথম 17 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "8.5",
+     "as": "৮.৫"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "9.5",
+     "as": "৯.৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 9.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 9।"
+   }
+  },
+  {
+   "id": "statistics-088",
+   "q": {
+    "en": "The median of the first 19 natural numbers is —",
+    "as": "প্ৰথম 19 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "19",
+     "as": "১৯"
+    },
+    {
+     "en": "9.5",
+     "as": "৯.৫"
+    },
+    {
+     "en": "10.5",
+     "as": "১০.৫"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 10.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 10।"
+   }
+  },
+  {
+   "id": "statistics-089",
+   "q": {
+    "en": "The median of the first 21 natural numbers is —",
+    "as": "প্ৰথম 21 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "10.5",
+     "as": "১০.৫"
+    },
+    {
+     "en": "11.5",
+     "as": "১১.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 11.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 11।"
+   }
+  },
+  {
+   "id": "statistics-090",
+   "q": {
+    "en": "The median of the first 23 natural numbers is —",
+    "as": "প্ৰথম 23 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "23",
+     "as": "২৩"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "11.5",
+     "as": "১১.৫"
+    },
+    {
+     "en": "12.5",
+     "as": "১২.৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 12.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 12।"
+   }
+  },
+  {
+   "id": "statistics-091",
+   "q": {
+    "en": "The median of the first 25 natural numbers is —",
+    "as": "প্ৰথম 25 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "12.5",
+     "as": "১২.৫"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "13.5",
+     "as": "১৩.৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 13.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 13।"
+   }
+  },
+  {
+   "id": "statistics-092",
+   "q": {
+    "en": "The median of the first 27 natural numbers is —",
+    "as": "প্ৰথম 27 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "13.5",
+     "as": "১৩.৫"
+    },
+    {
+     "en": "14.5",
+     "as": "১৪.৫"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 14.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 14।"
+   }
+  },
+  {
+   "id": "statistics-093",
+   "q": {
+    "en": "The median of the first 29 natural numbers is —",
+    "as": "প্ৰথম 29 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "29",
+     "as": "২৯"
+    },
+    {
+     "en": "14.5",
+     "as": "১৪.৫"
+    },
+    {
+     "en": "15.5",
+     "as": "১৫.৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 15.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 15।"
+   }
+  },
+  {
+   "id": "statistics-094",
+   "q": {
+    "en": "The median of the first 31 natural numbers is —",
+    "as": "প্ৰথম 31 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "31",
+     "as": "৩১"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "15.5",
+     "as": "১৫.৫"
+    },
+    {
+     "en": "16.5",
+     "as": "১৬.৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 16.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 16।"
+   }
+  },
+  {
+   "id": "statistics-095",
+   "q": {
+    "en": "The median of the first 33 natural numbers is —",
+    "as": "প্ৰথম 33 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "16.5",
+     "as": "১৬.৫"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "17.5",
+     "as": "১৭.৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 17.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 17।"
+   }
+  },
+  {
+   "id": "statistics-096",
+   "q": {
+    "en": "The median of the first 6 natural numbers is —",
+    "as": "প্ৰথম 6 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3.5",
+     "as": "৩.৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 3.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 3.5।"
+   }
+  },
+  {
+   "id": "statistics-097",
+   "q": {
+    "en": "The median of the first 8 natural numbers is —",
+    "as": "প্ৰথম 8 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "4.5",
+     "as": "৪.৫"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 4.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 4.5।"
+   }
+  },
+  {
+   "id": "statistics-098",
+   "q": {
+    "en": "The median of the first 10 natural numbers is —",
+    "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "5.5",
+     "as": "৫.৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 5.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 5.5।"
+   }
+  },
+  {
+   "id": "statistics-099",
+   "q": {
+    "en": "The median of the first 12 natural numbers is —",
+    "as": "প্ৰথম 12 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "6.5",
+     "as": "৬.৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 6.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 6.5।"
+   }
+  },
+  {
+   "id": "statistics-100",
+   "q": {
+    "en": "The median of the first 14 natural numbers is —",
+    "as": "প্ৰথম 14 টা স্বাভাৱিক সংখ্যাৰ মধ্যক —"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "7.5",
+     "as": "৭.৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "For the first n natural numbers the median is (n + 1) / 2 = 7.5.",
+    "as": "প্ৰথম n স্বাভাৱিক সংখ্যাৰ বাবে মধ্যক (n + 1) / 2 = 7.5।"
+   }
+  },
+  {
+   "id": "statistics-101",
+   "q": {
+    "en": "The average of 2 items each worth 60 and 3 items each worth 70 is —",
+    "as": "2 টা 60 মূল্যৰ আৰু 3 টা 70 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "66",
+     "as": "৬৬"
+    },
+    {
+     "en": "65",
+     "as": "৬৫"
+    },
+    {
+     "en": "130",
+     "as": "১৩০"
+    },
+    {
+     "en": "70",
+     "as": "৭০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Weighted average = (2 x 60 + 3 x 70) / (2 + 3) = 66.",
+    "as": "ভাৰিত গড় = (2 x 60 + 3 x 70) / (2 + 3) = 66।"
+   }
+  },
+  {
+   "id": "statistics-102",
+   "q": {
+    "en": "The average of 1 items each worth 50 and 4 items each worth 80 is —",
+    "as": "1 টা 50 মূল্যৰ আৰু 4 টা 80 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "65",
+     "as": "৬৫"
+    },
+    {
+     "en": "74",
+     "as": "৭৪"
+    },
+    {
+     "en": "130",
+     "as": "১৩০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Weighted average = (1 x 50 + 4 x 80) / (1 + 4) = 74.",
+    "as": "ভাৰিত গড় = (1 x 50 + 4 x 80) / (1 + 4) = 74।"
+   }
+  },
+  {
+   "id": "statistics-103",
+   "q": {
+    "en": "The average of 3 items each worth 40 and 2 items each worth 60 is —",
+    "as": "3 টা 40 মূল্যৰ আৰু 2 টা 60 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "48",
+     "as": "৪৮"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Weighted average = (3 x 40 + 2 x 60) / (3 + 2) = 48.",
+    "as": "ভাৰিত গড় = (3 x 40 + 2 x 60) / (3 + 2) = 48।"
+   }
+  },
+  {
+   "id": "statistics-104",
+   "q": {
+    "en": "The average of 2 items each worth 30 and 3 items each worth 50 is —",
+    "as": "2 টা 30 মূল্যৰ আৰু 3 টা 50 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "42",
+     "as": "৪২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Weighted average = (2 x 30 + 3 x 50) / (2 + 3) = 42.",
+    "as": "ভাৰিত গড় = (2 x 30 + 3 x 50) / (2 + 3) = 42।"
+   }
+  },
+  {
+   "id": "statistics-105",
+   "q": {
+    "en": "The average of 1 items each worth 20 and 3 items each worth 60 is —",
+    "as": "1 টা 20 মূল্যৰ আৰু 3 টা 60 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Weighted average = (1 x 20 + 3 x 60) / (1 + 3) = 50.",
+    "as": "ভাৰিত গড় = (1 x 20 + 3 x 60) / (1 + 3) = 50।"
+   }
+  },
+  {
+   "id": "statistics-106",
+   "q": {
+    "en": "The average of 2 items each worth 70 and 2 items each worth 90 is —",
+    "as": "2 টা 70 মূল্যৰ আৰু 2 টা 90 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "160",
+     "as": "১৬০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "90",
+     "as": "৯০"
+    },
+    {
+     "en": "70",
+     "as": "৭০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Weighted average = (2 x 70 + 2 x 90) / (2 + 2) = 80.",
+    "as": "ভাৰিত গড় = (2 x 70 + 2 x 90) / (2 + 2) = 80।"
+   }
+  },
+  {
+   "id": "statistics-107",
+   "q": {
+    "en": "The average of 3 items each worth 10 and 2 items each worth 20 is —",
+    "as": "3 টা 10 মূল্যৰ আৰু 2 টা 20 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Weighted average = (3 x 10 + 2 x 20) / (3 + 2) = 14.",
+    "as": "ভাৰিত গড় = (3 x 10 + 2 x 20) / (3 + 2) = 14।"
+   }
+  },
+  {
+   "id": "statistics-108",
+   "q": {
+    "en": "The average of 1 items each worth 80 and 4 items each worth 60 is —",
+    "as": "1 টা 80 মূল্যৰ আৰু 4 টা 60 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "140",
+     "as": "১৪০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Weighted average = (1 x 80 + 4 x 60) / (1 + 4) = 64.",
+    "as": "ভাৰিত গড় = (1 x 80 + 4 x 60) / (1 + 4) = 64।"
+   }
+  },
+  {
+   "id": "statistics-109",
+   "q": {
+    "en": "The average of 2 items each worth 55 and 3 items each worth 65 is —",
+    "as": "2 টা 55 মূল্যৰ আৰু 3 টা 65 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "61",
+     "as": "৬১"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "65",
+     "as": "৬৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Weighted average = (2 x 55 + 3 x 65) / (2 + 3) = 61.",
+    "as": "ভাৰিত গড় = (2 x 55 + 3 x 65) / (2 + 3) = 61।"
+   }
+  },
+  {
+   "id": "statistics-110",
+   "q": {
+    "en": "The average of 1 items each worth 45 and 2 items each worth 75 is —",
+    "as": "1 টা 45 মূল্যৰ আৰু 2 টা 75 মূল্যৰ বস্তুৰ গড় —"
+   },
+   "options": [
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "65",
+     "as": "৬৫"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Weighted average = (1 x 45 + 2 x 75) / (1 + 2) = 65.",
+    "as": "ভাৰিত গড় = (1 x 45 + 2 x 75) / (1 + 2) = 65।"
+   }
+  },
+  {
+   "id": "statistics-111",
+   "q": {
+    "en": "The mean of a set of numbers is ?",
+    "as": "সংখ্যা এটা সমষ্টিৰ মাধ্য ?"
+   },
+   "options": [
+    {
+     "en": "the middle value",
+     "as": "the middle value"
+    },
+    {
+     "en": "the most frequent value",
+     "as": "the most frequent value"
+    },
+    {
+     "en": "the sum divided by the number of items",
+     "as": "the sum divided by the number of items"
+    },
+    {
+     "en": "the largest value",
+     "as": "the largest value"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The arithmetic mean is the total of the values divided by how many there are.",
+    "as": "সমান্তৰ মাধ্য হৈছে মানবোৰৰ যোগফলক সংখ্যাৰে হৰণ কৰা ফল।"
+   }
+  },
+  {
+   "id": "statistics-112",
+   "q": {
+    "en": "The median of a set of numbers is ?",
+    "as": "সংখ্যা এটা সমষ্টিৰ মধ্যক ?"
+   },
+   "options": [
+    {
+     "en": "the most frequent value",
+     "as": "the most frequent value"
+    },
+    {
+     "en": "the sum of the values",
+     "as": "the sum of the values"
+    },
+    {
+     "en": "the difference of the extremes",
+     "as": "the difference of the extremes"
+    },
+    {
+     "en": "the middle value when the numbers are arranged in order",
+     "as": "the middle value when the numbers are arranged in order"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The median is the middle value once the data are placed in ascending or descending order.",
+    "as": "তথ্যবোৰ ঊৰ্ধ্বক্ৰম বা অধঃক্ৰমত সজাই ল'লে মধ্যক মাজৰ মান।"
+   }
+  },
+  {
+   "id": "statistics-113",
+   "q": {
+    "en": "The mode of a set of numbers is ?",
+    "as": "সংখ্যা এটা সমষ্টিৰ বহুলক ?"
+   },
+   "options": [
+    {
+     "en": "the value that occurs most often",
+     "as": "the value that occurs most often"
+    },
+    {
+     "en": "the middle value",
+     "as": "the middle value"
+    },
+    {
+     "en": "the average value",
+     "as": "the average value"
+    },
+    {
+     "en": "the range of the values",
+     "as": "the range of the values"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The mode is the observation with the highest frequency.",
+    "as": "বহুলক হৈছে সৰ্বাধিক বাৰ ঘটা পৰ্যবেক্ষণ।"
+   }
+  },
+  {
+   "id": "statistics-114",
+   "q": {
+    "en": "The range of a set of numbers is ?",
+    "as": "সংখ্যা এটা সমষ্টিৰ পৰিসৰ ?"
+   },
+   "options": [
+    {
+     "en": "maximum + minimum",
+     "as": "maximum + minimum"
+    },
+    {
+     "en": "maximum - minimum",
+     "as": "maximum - minimum"
+    },
+    {
+     "en": "maximum / minimum",
+     "as": "maximum / minimum"
+    },
+    {
+     "en": "mean - median",
+     "as": "mean - median"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The range measures the spread and equals the largest value minus the smallest.",
+    "as": "পৰিসৰে বিস্তাৰ জোখে আৰু ই সৰ্বোচ্চ মানৰ পৰা সৰ্বনিম্ন মান বিয়োগ কৰি পোৱা যায়।"
+   }
+  }
+ ],
+ "data-interpretation": [
+  {
+   "id": "data-interpretation-001",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "750",
+     "as": "৭৫০"
+    },
+    {
+     "en": "150",
+     "as": "১৫০"
+    },
+    {
+     "en": "210",
+     "as": "২১০"
+    },
+    {
+     "en": "760",
+     "as": "৭৬০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 120 + 150 + 180 + 90 + 210 = 750.",
+    "as": "মুঠ = 120 + 150 + 180 + 90 + 210 = 750।"
+   }
+  },
+  {
+   "id": "data-interpretation-002",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "750",
+     "as": "৭৫০"
+    },
+    {
+     "en": "150",
+     "as": "১৫০"
+    },
+    {
+     "en": "210",
+     "as": "২১০"
+    },
+    {
+     "en": "160",
+     "as": "১৬০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 750 / 5 = 150.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 750 / 5 = 150।"
+   }
+  },
+  {
+   "id": "data-interpretation-003",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "300",
+     "as": "৩০০"
+    },
+    {
+     "en": "210",
+     "as": "২১০"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "90",
+     "as": "৯০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 210 - 90 = 120.",
+    "as": "পাৰ্থক্য = 210 - 90 = 120।"
+   }
+  },
+  {
+   "id": "data-interpretation-004",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "33%",
+     "as": "৩৩%"
+    },
+    {
+     "en": "28%",
+     "as": "২৮%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 210, total = 750, so the share = (210/750) x 100 = 28%.",
+    "as": "সৰ্বাধিক = 210, মুঠ = 750, গতিকে ভাগ = (210/750) x 100 = 28%।"
+   }
+  },
+  {
+   "id": "data-interpretation-005",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "1250",
+     "as": "১২৫০"
+    },
+    {
+     "en": "250",
+     "as": "২৫০"
+    },
+    {
+     "en": "350",
+     "as": "৩৫০"
+    },
+    {
+     "en": "1260",
+     "as": "১২৬০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 200 + 250 + 300 + 150 + 350 = 1250.",
+    "as": "মুঠ = 200 + 250 + 300 + 150 + 350 = 1250।"
+   }
+  },
+  {
+   "id": "data-interpretation-006",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "1250",
+     "as": "১২৫০"
+    },
+    {
+     "en": "250",
+     "as": "২৫০"
+    },
+    {
+     "en": "350",
+     "as": "৩৫০"
+    },
+    {
+     "en": "260",
+     "as": "২৬০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 1250 / 5 = 250.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 1250 / 5 = 250।"
+   }
+  },
+  {
+   "id": "data-interpretation-007",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "500",
+     "as": "৫০০"
+    },
+    {
+     "en": "350",
+     "as": "৩৫০"
+    },
+    {
+     "en": "200",
+     "as": "২০০"
+    },
+    {
+     "en": "150",
+     "as": "১৫০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 350 - 150 = 200.",
+    "as": "পাৰ্থক্য = 350 - 150 = 200।"
+   }
+  },
+  {
+   "id": "data-interpretation-008",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 200, Tue = 250, Wed = 300, Thu = 150, Fri = 350। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "33%",
+     "as": "৩৩%"
+    },
+    {
+     "en": "28%",
+     "as": "২৮%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 350, total = 1250, so the share = (350/1250) x 100 = 28%.",
+    "as": "সৰ্বাধিক = 350, মুঠ = 1250, গতিকে ভাগ = (350/1250) x 100 = 28%।"
+   }
+  },
+  {
+   "id": "data-interpretation-009",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "500",
+     "as": "৫০০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "140",
+     "as": "১৪০"
+    },
+    {
+     "en": "510",
+     "as": "৫১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 80 + 100 + 120 + 60 + 140 = 500.",
+    "as": "মুঠ = 80 + 100 + 120 + 60 + 140 = 500।"
+   }
+  },
+  {
+   "id": "data-interpretation-010",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "500",
+     "as": "৫০০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "140",
+     "as": "১৪০"
+    },
+    {
+     "en": "110",
+     "as": "১১০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 500 / 5 = 100.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 500 / 5 = 100।"
+   }
+  },
+  {
+   "id": "data-interpretation-011",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "200",
+     "as": "২০০"
+    },
+    {
+     "en": "140",
+     "as": "১৪০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 140 - 60 = 80.",
+    "as": "পাৰ্থক্য = 140 - 60 = 80।"
+   }
+  },
+  {
+   "id": "data-interpretation-012",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 80, Tue = 100, Wed = 120, Thu = 60, Fri = 140। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "33%",
+     "as": "৩৩%"
+    },
+    {
+     "en": "28%",
+     "as": "২৮%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 140, total = 500, so the share = (140/500) x 100 = 28%.",
+    "as": "সৰ্বাধিক = 140, মুঠ = 500, গতিকে ভাগ = (140/500) x 100 = 28%।"
+   }
+  },
+  {
+   "id": "data-interpretation-013",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "1700",
+     "as": "১৭০০"
+    },
+    {
+     "en": "340",
+     "as": "৩৪০"
+    },
+    {
+     "en": "450",
+     "as": "৪৫০"
+    },
+    {
+     "en": "1710",
+     "as": "১৭১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 300 + 350 + 400 + 200 + 450 = 1700.",
+    "as": "মুঠ = 300 + 350 + 400 + 200 + 450 = 1700।"
+   }
+  },
+  {
+   "id": "data-interpretation-014",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "1700",
+     "as": "১৭০০"
+    },
+    {
+     "en": "340",
+     "as": "৩৪০"
+    },
+    {
+     "en": "450",
+     "as": "৪৫০"
+    },
+    {
+     "en": "350",
+     "as": "৩৫০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 1700 / 5 = 340.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 1700 / 5 = 340।"
+   }
+  },
+  {
+   "id": "data-interpretation-015",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "650",
+     "as": "৬৫০"
+    },
+    {
+     "en": "450",
+     "as": "৪৫০"
+    },
+    {
+     "en": "250",
+     "as": "২৫০"
+    },
+    {
+     "en": "200",
+     "as": "২০০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 450 - 200 = 250.",
+    "as": "পাৰ্থক্য = 450 - 200 = 250।"
+   }
+  },
+  {
+   "id": "data-interpretation-016",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 300, Tue = 350, Wed = 400, Thu = 200, Fri = 450। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "11.8%",
+     "as": "১১.৮%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "31.5%",
+     "as": "৩১.৫%"
+    },
+    {
+     "en": "26.5%",
+     "as": "২৬.৫%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 450, total = 1700, so the share = (450/1700) x 100 = 26.5%.",
+    "as": "সৰ্বাধিক = 450, মুঠ = 1700, গতিকে ভাগ = (450/1700) x 100 = 26.5%।"
+   }
+  },
+  {
+   "id": "data-interpretation-017",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "375",
+     "as": "৩৭৫"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "385",
+     "as": "৩৮৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 50 + 75 + 100 + 25 + 125 = 375.",
+    "as": "মুঠ = 50 + 75 + 100 + 25 + 125 = 375।"
+   }
+  },
+  {
+   "id": "data-interpretation-018",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "375",
+     "as": "৩৭৫"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "85",
+     "as": "৮৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 375 / 5 = 75.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 375 / 5 = 75।"
+   }
+  },
+  {
+   "id": "data-interpretation-019",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "150",
+     "as": "১৫০"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 125 - 25 = 100.",
+    "as": "পাৰ্থক্য = 125 - 25 = 100।"
+   }
+  },
+  {
+   "id": "data-interpretation-020",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 50, Tue = 75, Wed = 100, Thu = 25, Fri = 125। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "6.7%",
+     "as": "৬.৭%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "38.3%",
+     "as": "৩৮.৩%"
+    },
+    {
+     "en": "33.3%",
+     "as": "৩৩.৩%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 125, total = 375, so the share = (125/375) x 100 = 33.3%.",
+    "as": "সৰ্বাধিক = 125, মুঠ = 375, গতিকে ভাগ = (125/375) x 100 = 33.3%।"
+   }
+  },
+  {
+   "id": "data-interpretation-021",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "860",
+     "as": "৮৬০"
+    },
+    {
+     "en": "172",
+     "as": "১৭২"
+    },
+    {
+     "en": "220",
+     "as": "২২০"
+    },
+    {
+     "en": "870",
+     "as": "৮৭০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 160 + 180 + 200 + 100 + 220 = 860.",
+    "as": "মুঠ = 160 + 180 + 200 + 100 + 220 = 860।"
+   }
+  },
+  {
+   "id": "data-interpretation-022",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "860",
+     "as": "৮৬০"
+    },
+    {
+     "en": "172",
+     "as": "১৭২"
+    },
+    {
+     "en": "220",
+     "as": "২২০"
+    },
+    {
+     "en": "182",
+     "as": "১৮২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 860 / 5 = 172.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 860 / 5 = 172।"
+   }
+  },
+  {
+   "id": "data-interpretation-023",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "320",
+     "as": "৩২০"
+    },
+    {
+     "en": "220",
+     "as": "২২০"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 220 - 100 = 120.",
+    "as": "পাৰ্থক্য = 220 - 100 = 120।"
+   }
+  },
+  {
+   "id": "data-interpretation-024",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 160, Tue = 180, Wed = 200, Thu = 100, Fri = 220। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "11.6%",
+     "as": "১১.৬%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "30.6%",
+     "as": "৩০.৬%"
+    },
+    {
+     "en": "25.6%",
+     "as": "২৫.৬%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 220, total = 860, so the share = (220/860) x 100 = 25.6%.",
+    "as": "সৰ্বাধিক = 220, মুঠ = 860, গতিকে ভাগ = (220/860) x 100 = 25.6%।"
+   }
+  },
+  {
+   "id": "data-interpretation-025",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "600",
+     "as": "৬০০"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "180",
+     "as": "১৮০"
+    },
+    {
+     "en": "610",
+     "as": "৬১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 90 + 120 + 150 + 60 + 180 = 600.",
+    "as": "মুঠ = 90 + 120 + 150 + 60 + 180 = 600।"
+   }
+  },
+  {
+   "id": "data-interpretation-026",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "600",
+     "as": "৬০০"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "180",
+     "as": "১৮০"
+    },
+    {
+     "en": "130",
+     "as": "১৩০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 600 / 5 = 120.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 600 / 5 = 120।"
+   }
+  },
+  {
+   "id": "data-interpretation-027",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "240",
+     "as": "২৪০"
+    },
+    {
+     "en": "180",
+     "as": "১৮০"
+    },
+    {
+     "en": "120",
+     "as": "১২০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 180 - 60 = 120.",
+    "as": "পাৰ্থক্য = 180 - 60 = 120।"
+   }
+  },
+  {
+   "id": "data-interpretation-028",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 90, Tue = 120, Wed = 150, Thu = 60, Fri = 180। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "10%",
+     "as": "১০%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "35%",
+     "as": "৩৫%"
+    },
+    {
+     "en": "30%",
+     "as": "৩০%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 180, total = 600, so the share = (180/600) x 100 = 30%.",
+    "as": "সৰ্বাধিক = 180, মুঠ = 600, গতিকে ভাগ = (180/600) x 100 = 30%।"
+   }
+  },
+  {
+   "id": "data-interpretation-029",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "2500",
+     "as": "২৫০০"
+    },
+    {
+     "en": "500",
+     "as": "৫০০"
+    },
+    {
+     "en": "700",
+     "as": "৭০০"
+    },
+    {
+     "en": "2510",
+     "as": "২৫১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 400 + 500 + 600 + 300 + 700 = 2500.",
+    "as": "মুঠ = 400 + 500 + 600 + 300 + 700 = 2500।"
+   }
+  },
+  {
+   "id": "data-interpretation-030",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "2500",
+     "as": "২৫০০"
+    },
+    {
+     "en": "500",
+     "as": "৫০০"
+    },
+    {
+     "en": "700",
+     "as": "৭০০"
+    },
+    {
+     "en": "510",
+     "as": "৫১০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 2500 / 5 = 500.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 2500 / 5 = 500।"
+   }
+  },
+  {
+   "id": "data-interpretation-031",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "1000",
+     "as": "১০০০"
+    },
+    {
+     "en": "700",
+     "as": "৭০০"
+    },
+    {
+     "en": "400",
+     "as": "৪০০"
+    },
+    {
+     "en": "300",
+     "as": "৩০০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 700 - 300 = 400.",
+    "as": "পাৰ্থক্য = 700 - 300 = 400।"
+   }
+  },
+  {
+   "id": "data-interpretation-032",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 400, Tue = 500, Wed = 600, Thu = 300, Fri = 700। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "33%",
+     "as": "৩৩%"
+    },
+    {
+     "en": "28%",
+     "as": "২৮%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 700, total = 2500, so the share = (700/2500) x 100 = 28%.",
+    "as": "সৰ্বাধিক = 700, মুঠ = 2500, গতিকে ভাগ = (700/2500) x 100 = 28%।"
+   }
+  },
+  {
+   "id": "data-interpretation-033",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "1500",
+     "as": "১৫০০"
+    },
+    {
+     "en": "300",
+     "as": "৩০০"
+    },
+    {
+     "en": "420",
+     "as": "৪২০"
+    },
+    {
+     "en": "1510",
+     "as": "১৫১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 240 + 300 + 360 + 180 + 420 = 1500.",
+    "as": "মুঠ = 240 + 300 + 360 + 180 + 420 = 1500।"
+   }
+  },
+  {
+   "id": "data-interpretation-034",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "1500",
+     "as": "১৫০০"
+    },
+    {
+     "en": "300",
+     "as": "৩০০"
+    },
+    {
+     "en": "420",
+     "as": "৪২০"
+    },
+    {
+     "en": "310",
+     "as": "৩১০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 1500 / 5 = 300.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 1500 / 5 = 300।"
+   }
+  },
+  {
+   "id": "data-interpretation-035",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "600",
+     "as": "৬০০"
+    },
+    {
+     "en": "420",
+     "as": "৪২০"
+    },
+    {
+     "en": "240",
+     "as": "২৪০"
+    },
+    {
+     "en": "180",
+     "as": "১৮০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 420 - 180 = 240.",
+    "as": "পাৰ্থক্য = 420 - 180 = 240।"
+   }
+  },
+  {
+   "id": "data-interpretation-036",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 240, Tue = 300, Wed = 360, Thu = 180, Fri = 420। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "12%",
+     "as": "১২%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "33%",
+     "as": "৩৩%"
+    },
+    {
+     "en": "28%",
+     "as": "২৮%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 420, total = 1500, so the share = (420/1500) x 100 = 28%.",
+    "as": "সৰ্বাধিক = 420, মুঠ = 1500, গতিকে ভাগ = (420/1500) x 100 = 28%।"
+   }
+  },
+  {
+   "id": "data-interpretation-037",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The total units sold is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। মুঠ বিক্ৰী হোৱা একক —"
+   },
+   "options": [
+    {
+     "en": "630",
+     "as": "৬৩০"
+    },
+    {
+     "en": "126",
+     "as": "১২৬"
+    },
+    {
+     "en": "170",
+     "as": "১৭০"
+    },
+    {
+     "en": "640",
+     "as": "৬৪০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 110 + 130 + 150 + 70 + 170 = 630.",
+    "as": "মুঠ = 110 + 130 + 150 + 70 + 170 = 630।"
+   }
+  },
+  {
+   "id": "data-interpretation-038",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The average units sold per day is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক —"
+   },
+   "options": [
+    {
+     "en": "630",
+     "as": "৬৩০"
+    },
+    {
+     "en": "126",
+     "as": "১২৬"
+    },
+    {
+     "en": "170",
+     "as": "১৭০"
+    },
+    {
+     "en": "136",
+     "as": "১৩৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Average = total / number of days = 630 / 5 = 126.",
+    "as": "গড় = মুঠ / দিনৰ সংখ্যা = 630 / 5 = 126।"
+   }
+  },
+  {
+   "id": "data-interpretation-039",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The difference between the highest and the lowest day's sales is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। সৰ্বাধিক আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য —"
+   },
+   "options": [
+    {
+     "en": "240",
+     "as": "২৪০"
+    },
+    {
+     "en": "170",
+     "as": "১৭০"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "70",
+     "as": "৭০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Difference = 170 - 70 = 100.",
+    "as": "পাৰ্থক্য = 170 - 70 = 100।"
+   }
+  },
+  {
+   "id": "data-interpretation-040",
+   "q": {
+    "en": "A shop sold the following units of a product: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170. The highest day's sales as a percentage of the weekly total is —",
+    "as": "এখন দোকানে এটা সামগ্ৰীৰ তলত দিয়া একক বিক্ৰী কৰিলে: Mon = 110, Tue = 130, Wed = 150, Thu = 70, Fri = 170। সৰ্বাধিক দিনৰ বিক্ৰী সাপ্তাহিক মুঠৰ শতাংশ হিচাপে —"
+   },
+   "options": [
+    {
+     "en": "11.1%",
+     "as": "১১.১%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "32%",
+     "as": "৩২%"
+    },
+    {
+     "en": "27%",
+     "as": "২৭%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Highest = 170, total = 630, so the share = (170/630) x 100 = 27%.",
+    "as": "সৰ্বাধিক = 170, মুঠ = 630, গতিকে ভাগ = (170/630) x 100 = 27%।"
+   }
+  },
+  {
+   "id": "data-interpretation-041",
+   "q": {
+    "en": "A student scored 80, 70, 90, 60, 75 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 80, 70, 90, 60, 75 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "75",
+     "as": "৭৫"
+    },
+    {
+     "en": "375",
+     "as": "৩৭৫"
+    },
+    {
+     "en": "90",
+     "as": "৯০"
+    },
+    {
+     "en": "80",
+     "as": "৮০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Average = total / 5 = 375 / 5 = 75.",
+    "as": "গড় = মুঠ / 5 = 375 / 5 = 75।"
+   }
+  },
+  {
+   "id": "data-interpretation-042",
+   "q": {
+    "en": "A student scored 80, 70, 90, 60, 75 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 80, 70, 90, 60, 75 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "375%",
+     "as": "৩৭৫%"
+    },
+    {
+     "en": "75%",
+     "as": "৭৫%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "80%",
+     "as": "৮০%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Percentage = (375 / 500) x 100 = 75%.",
+    "as": "শতাংশ = (375 / 500) x 100 = 75%।"
+   }
+  },
+  {
+   "id": "data-interpretation-043",
+   "q": {
+    "en": "A student scored 65, 75, 85, 55, 70 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 65, 75, 85, 55, 70 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "350",
+     "as": "৩৫০"
+    },
+    {
+     "en": "85",
+     "as": "৮৫"
+    },
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Average = total / 5 = 350 / 5 = 70.",
+    "as": "গড় = মুঠ / 5 = 350 / 5 = 70।"
+   }
+  },
+  {
+   "id": "data-interpretation-044",
+   "q": {
+    "en": "A student scored 65, 75, 85, 55, 70 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 65, 75, 85, 55, 70 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "350%",
+     "as": "৩৫০%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "75%",
+     "as": "৭৫%"
+    },
+    {
+     "en": "70%",
+     "as": "৭০%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Percentage = (350 / 500) x 100 = 70%.",
+    "as": "শতাংশ = (350 / 500) x 100 = 70%।"
+   }
+  },
+  {
+   "id": "data-interpretation-045",
+   "q": {
+    "en": "A student scored 90, 85, 95, 80, 88 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 90, 85, 95, 80, 88 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "87",
+     "as": "৮৭"
+    },
+    {
+     "en": "438",
+     "as": "৪৩৮"
+    },
+    {
+     "en": "95",
+     "as": "৯৫"
+    },
+    {
+     "en": "92",
+     "as": "৯২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Average = total / 5 = 438 / 5 = 87.",
+    "as": "গড় = মুঠ / 5 = 438 / 5 = 87।"
+   }
+  },
+  {
+   "id": "data-interpretation-046",
+   "q": {
+    "en": "A student scored 90, 85, 95, 80, 88 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 90, 85, 95, 80, 88 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "438%",
+     "as": "৪৩৮%"
+    },
+    {
+     "en": "87.6%",
+     "as": "৮৭.৬%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "92.6%",
+     "as": "৯২.৬%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Percentage = (438 / 500) x 100 = 87.6%.",
+    "as": "শতাংশ = (438 / 500) x 100 = 87.6%।"
+   }
+  },
+  {
+   "id": "data-interpretation-047",
+   "q": {
+    "en": "A student scored 40, 55, 60, 35, 50 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 40, 55, 60, 35, 50 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "240",
+     "as": "২৪০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "48",
+     "as": "৪৮"
+    },
+    {
+     "en": "53",
+     "as": "৫৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Average = total / 5 = 240 / 5 = 48.",
+    "as": "গড় = মুঠ / 5 = 240 / 5 = 48।"
+   }
+  },
+  {
+   "id": "data-interpretation-048",
+   "q": {
+    "en": "A student scored 40, 55, 60, 35, 50 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 40, 55, 60, 35, 50 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "240%",
+     "as": "২৪০%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "53%",
+     "as": "৫৩%"
+    },
+    {
+     "en": "48%",
+     "as": "৪৮%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Percentage = (240 / 500) x 100 = 48%.",
+    "as": "শতাংশ = (240 / 500) x 100 = 48%।"
+   }
+  },
+  {
+   "id": "data-interpretation-049",
+   "q": {
+    "en": "A student scored 72, 68, 78, 64, 70 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 72, 68, 78, 64, 70 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "352",
+     "as": "৩৫২"
+    },
+    {
+     "en": "78",
+     "as": "৭৮"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Average = total / 5 = 352 / 5 = 70.",
+    "as": "গড় = মুঠ / 5 = 352 / 5 = 70।"
+   }
+  },
+  {
+   "id": "data-interpretation-050",
+   "q": {
+    "en": "A student scored 72, 68, 78, 64, 70 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 72, 68, 78, 64, 70 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "352%",
+     "as": "৩৫২%"
+    },
+    {
+     "en": "70.4%",
+     "as": "৭০.৪%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "75.4%",
+     "as": "৭৫.৪%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Percentage = (352 / 500) x 100 = 70.4%.",
+    "as": "শতাংশ = (352 / 500) x 100 = 70.4%।"
+   }
+  },
+  {
+   "id": "data-interpretation-051",
+   "q": {
+    "en": "A student scored 100, 90, 95, 85, 92 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 100, 90, 95, 85, 92 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "462",
+     "as": "৪৬২"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "92",
+     "as": "৯২"
+    },
+    {
+     "en": "97",
+     "as": "৯৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Average = total / 5 = 462 / 5 = 92.",
+    "as": "গড় = মুঠ / 5 = 462 / 5 = 92।"
+   }
+  },
+  {
+   "id": "data-interpretation-052",
+   "q": {
+    "en": "A student scored 100, 90, 95, 85, 92 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 100, 90, 95, 85, 92 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "462%",
+     "as": "৪৬২%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "97.4%",
+     "as": "৯৭.৪%"
+    },
+    {
+     "en": "92.4%",
+     "as": "৯২.৪%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Percentage = (462 / 500) x 100 = 92.4%.",
+    "as": "শতাংশ = (462 / 500) x 100 = 92.4%।"
+   }
+  },
+  {
+   "id": "data-interpretation-053",
+   "q": {
+    "en": "A student scored 55, 60, 65, 50, 58 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 55, 60, 65, 50, 58 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "57",
+     "as": "৫৭"
+    },
+    {
+     "en": "288",
+     "as": "২৮৮"
+    },
+    {
+     "en": "65",
+     "as": "৬৫"
+    },
+    {
+     "en": "62",
+     "as": "৬২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Average = total / 5 = 288 / 5 = 57.",
+    "as": "গড় = মুঠ / 5 = 288 / 5 = 57।"
+   }
+  },
+  {
+   "id": "data-interpretation-054",
+   "q": {
+    "en": "A student scored 55, 60, 65, 50, 58 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 55, 60, 65, 50, 58 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "288%",
+     "as": "২৮৮%"
+    },
+    {
+     "en": "57.6%",
+     "as": "৫৭.৬%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "62.6%",
+     "as": "৬২.৬%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Percentage = (288 / 500) x 100 = 57.6%.",
+    "as": "শতাংশ = (288 / 500) x 100 = 57.6%।"
+   }
+  },
+  {
+   "id": "data-interpretation-055",
+   "q": {
+    "en": "A student scored 82, 76, 88, 70, 80 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 82, 76, 88, 70, 80 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "396",
+     "as": "৩৯৬"
+    },
+    {
+     "en": "88",
+     "as": "৮৮"
+    },
+    {
+     "en": "79",
+     "as": "৭৯"
+    },
+    {
+     "en": "84",
+     "as": "৮৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Average = total / 5 = 396 / 5 = 79.",
+    "as": "গড় = মুঠ / 5 = 396 / 5 = 79।"
+   }
+  },
+  {
+   "id": "data-interpretation-056",
+   "q": {
+    "en": "A student scored 82, 76, 88, 70, 80 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 82, 76, 88, 70, 80 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "396%",
+     "as": "৩৯৬%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "84.2%",
+     "as": "৮৪.২%"
+    },
+    {
+     "en": "79.2%",
+     "as": "৭৯.২%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Percentage = (396 / 500) x 100 = 79.2%.",
+    "as": "শতাংশ = (396 / 500) x 100 = 79.2%।"
+   }
+  },
+  {
+   "id": "data-interpretation-057",
+   "q": {
+    "en": "A student scored 68, 72, 74, 66, 70 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 68, 72, 74, 66, 70 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "350",
+     "as": "৩৫০"
+    },
+    {
+     "en": "74",
+     "as": "৭৪"
+    },
+    {
+     "en": "75",
+     "as": "৭৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Average = total / 5 = 350 / 5 = 70.",
+    "as": "গড় = মুঠ / 5 = 350 / 5 = 70।"
+   }
+  },
+  {
+   "id": "data-interpretation-058",
+   "q": {
+    "en": "A student scored 68, 72, 74, 66, 70 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 68, 72, 74, 66, 70 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "350%",
+     "as": "৩৫০%"
+    },
+    {
+     "en": "70%",
+     "as": "৭০%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "75%",
+     "as": "৭৫%"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Percentage = (350 / 500) x 100 = 70%.",
+    "as": "শতাংশ = (350 / 500) x 100 = 70%।"
+   }
+  },
+  {
+   "id": "data-interpretation-059",
+   "q": {
+    "en": "A student scored 95, 88, 92, 84, 90 in Maths, English, Science, Social Science, Assamese. His average mark is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 95, 88, 92, 84, 90 নম্বৰ পাইছিল। তেওঁৰ গড় নম্বৰ —"
+   },
+   "options": [
+    {
+     "en": "449",
+     "as": "৪৪৯"
+    },
+    {
+     "en": "95",
+     "as": "৯৫"
+    },
+    {
+     "en": "89",
+     "as": "৮৯"
+    },
+    {
+     "en": "94",
+     "as": "৯৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Average = total / 5 = 449 / 5 = 89.",
+    "as": "গড় = মুঠ / 5 = 449 / 5 = 89।"
+   }
+  },
+  {
+   "id": "data-interpretation-060",
+   "q": {
+    "en": "A student scored 95, 88, 92, 84, 90 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+    "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 95, 88, 92, 84, 90 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+   },
+   "options": [
+    {
+     "en": "449%",
+     "as": "৪৪৯%"
+    },
+    {
+     "en": "50%",
+     "as": "৫০%"
+    },
+    {
+     "en": "94.8%",
+     "as": "৯৪.৮%"
+    },
+    {
+     "en": "89.8%",
+     "as": "৮৯.৮%"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Percentage = (449 / 500) x 100 = 89.8%.",
+    "as": "শতাংশ = (449 / 500) x 100 = 89.8%।"
+   }
+  },
+  {
+   "id": "data-interpretation-061",
+   "q": {
+    "en": "In a bar graph, the height of a bar represents ?",
+    "as": "দণ্ডচিত্ৰত দণ্ড এটাৰ উচ্চতাই প্ৰতিনিধিত্ব কৰে ?"
+   },
+   "options": [
+    {
+     "en": "the value of the item",
+     "as": "the value of the item"
+    },
+    {
+     "en": "the name of the item",
+     "as": "the name of the item"
+    },
+    {
+     "en": "the total of all items",
+     "as": "the total of all items"
+    },
+    {
+     "en": "the average of the items",
+     "as": "the average of the items"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In a bar graph the height (or length) of each bar shows the value it stands for.",
+    "as": "দণ্ডচিত্ৰত প্ৰতিটো দণ্ডৰ উচ্চতাই (বা দীঘই) ইয়াৰ মান দেখুৱায়।"
+   }
+  },
+  {
+   "id": "data-interpretation-062",
+   "q": {
+    "en": "In a pie chart, the angle of a sector is proportional to ?",
+    "as": "পাই চিত্ৰত খণ্ড এটাৰ কোণ সমানুপাতিক ?"
+   },
+   "options": [
+    {
+     "en": "the number of items",
+     "as": "the number of items"
+    },
+    {
+     "en": "the share of that item in the total",
+     "as": "the share of that item in the total"
+    },
+    {
+     "en": "the largest item",
+     "as": "the largest item"
+    },
+    {
+     "en": "the average value",
+     "as": "the average value"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each sector's angle is the item's share of the total multiplied by 360 degrees.",
+    "as": "প্ৰতিটো খণ্ডৰ কোণ হৈছে মুঠত সেই বস্তুৰ ভাগক 360 ডিগ্ৰীৰে পূৰণ কৰা ফল।"
+   }
+  },
+  {
+   "id": "data-interpretation-063",
+   "q": {
+    "en": "A pie chart of a whole set of data has a total angle of ?",
+    "as": "এটা সম্পূৰ্ণ তথ্য সমষ্টিৰ পাই চিত্ৰৰ মুঠ কোণ ?"
+   },
+   "options": [
+    {
+     "en": "180 degrees",
+     "as": "180 degrees"
+    },
+    {
+     "en": "90 degrees",
+     "as": "90 degrees"
+    },
+    {
+     "en": "360 degrees",
+     "as": "360 degrees"
+    },
+    {
+     "en": "100 degrees",
+     "as": "100 degrees"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A complete circle is 360 degrees, which stands for the whole data set.",
+    "as": "এটা সম্পূৰ্ণ বৃত্ত 360 ডিগ্ৰী, যি গোটেই তথ্য সমষ্টিক সূচায়।"
+   }
+  },
+  {
+   "id": "data-interpretation-064",
+   "q": {
+    "en": "The average of a data set is also called its ?",
+    "as": "তথ্য এটা সমষ্টিৰ গড়ক আৰু বোলা হয় ?"
+   },
+   "options": [
+    {
+     "en": "median",
+     "as": "median"
+    },
+    {
+     "en": "mode",
+     "as": "mode"
+    },
+    {
+     "en": "range",
+     "as": "range"
+    },
+    {
+     "en": "arithmetic mean",
+     "as": "arithmetic mean"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The average is the arithmetic mean of the observations.",
+    "as": "গড় হৈছে পৰ্যবেক্ষণবোৰৰ সমান্তৰ মাধ্য।"
+   }
+  }
  ]
 };
