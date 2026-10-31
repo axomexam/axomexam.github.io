@@ -134799,3 +134799,6 @@ module.exports = {
 
 /* Generated history banks (see tools/build-history-questions.js). */
 Object.assign(module.exports, require("./adre-grade-3.questions.history.js"));
+
+/* Generated English banks (see tools/build-english-questions.js). */
+Object.assign(module.exports, require("./adre-grade-3.questions.english.js"));
