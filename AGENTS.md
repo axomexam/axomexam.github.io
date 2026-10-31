@@ -175,6 +175,27 @@ history topics were removed from the other sections: the GK section's
 Social Studies no longer carries `indian-history`. Do not re-add a history
 topic to another section or the book will show two copies of it.
 
+### Grade III history question banks
+
+The history topics of the Grade III book are too large to keep inline in
+`tools/adre-grade-3.questions.js`. Their banks live in `tools/history-src/`,
+one file per topic (or `…​.part2.js`, `…​.part3.js` … when a topic is
+bigger), as compact rows:
+
+```js
+["question en", "question as",
+ ["o1 en","o1 as","o2 en","o2 as","o3 en","o3 as","o4 en","o4 as"],
+ correctIndex, "explanation en", "explanation as"]
+```
+
+Run `node tools/build-history-questions.js` to expand them into
+`tools/adre-grade-3.questions.history.js`; `tools/adre-grade-3.questions.js`
+merges that file over its inline banks at the end, so the generated banks win
+for those topic ids. The generator rejects a row with a missing bilingual
+field, a wrong option count, an out-of-range answer or a duplicate question
+text. Always regenerate after editing `tools/history-src/` — never edit the
+generated file by hand.
+
 ### Grade III study-notes articles
 
 `tools/adre-grade-3.notes.js` holds the crawler-facing study article for every
