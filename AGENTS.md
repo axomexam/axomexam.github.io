@@ -381,29 +381,18 @@ produces a multi-thousand-line diff.
   fractions, powers) get Assamese digits in `options[].as`; options that carry
   words or symbols such as `sqrt` and `pi` keep the same text in both languages.
 
-### Grade III "work in progress" notice
+### Grade III "work in progress" notice (removed)
 
-The Grade III book ships with its syllabus and topic tree but a partly filled
-question bank. Opening that book shows a bilingual notice two seconds after
-the page settles. It is implemented in `js/app.src.js`:
-
-- `EXAM_WIP_NOTICE_IDS` lists the exam ids that get the notice; today only
-  `adre-grade-3`. `scheduleExamWipNotice(examId)` is called at the end of
-  `renderExamPage`, so any other book is unaffected.
-- The timer is module-scoped (`examWipTimer`) and cancelled by
-  `closeExamWipModal()`, which `renderRouteInner` calls on every navigation —
-  so navigating away within the two seconds prevents it from firing.
-- Copy lives under `exams.wipTitle` / `exams.wipMsg` / `exams.wipClose` in
-  `js/i18n.src.js`. Both languages are printed at once via `dictStr()` rather
-  than following the UI toggle.
-- The modal reuses the `.read-modal` shell, so it inherits the dark-theme and
-  mobile styles.
-
-To retire it once the questions are complete, delete the
-`scheduleExamWipNotice(examId)` call in `renderExamPage` (and the now-unused
-`EXAM_WIP_NOTICE_IDS` entry). `node scripts/minify-assets.js` then
-`node scripts/stamp-assets.js` must be re-run after editing the `.src` files,
-because the deployed `js/*.js` are minified copies.
+The Grade III book used to show a bilingual "content is still being prepared"
+notice two seconds after the book opened. The question bank is complete now,
+so the notice and all its wiring were deleted: `EXAM_WIP_NOTICE_IDS`,
+`scheduleExamWipNotice()`, `ensureExamWipModal()`, `closeExamWipModal()`,
+`examWipNoticeHTML()`, `dictStr()` and the `examWipTimer` in `js/app.src.js`,
+the `exams.wipTitle` / `exams.wipMsg` / `exams.wipClose` copy in
+`js/i18n.src.js`, and the `.exam-wip-*` rules in `css/style.src.css`. Run
+`node scripts/minify-assets.js` then `node scripts/stamp-assets.js` after
+editing the `.src` files, because the deployed `js/*.js` and `css/*.css` are
+minified copies.
 
 ## Verifying a change
 

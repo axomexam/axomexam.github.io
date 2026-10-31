@@ -1552,7 +1552,6 @@
     const main = $("#app");
     closeMobileMenu();
     closeReadingModal();
-    closeExamWipModal();
     updateTabbar(segs);
     resetScroll();
     updateSEO();
@@ -3393,9 +3392,6 @@
 
   /* ================= Reveal on scroll ================= */
   let revealObserver;
-  /* Timer for the ADRE Grade III "work in progress" notice. Kept at module
-     scope so a navigation can cancel it before it fires on the next page. */
-  let examWipTimer = 0;
   function observeReveals() {
     if (revealObserver) revealObserver.disconnect();
     const els = $$(".reveal");
@@ -4799,77 +4795,6 @@
     return state.caTotalPromise;
   }
 
-  /* ================= ADRE Grade III work-in-progress notice =================
-     The Grade III book is published with its full syllabus and topic tree but
-     the question bank is still being filled in. Visitors who open that book get
-     a one-off bilingual notice after a short delay. It is deliberately scoped
-     to this one exam id: no other exam book is affected. Delete the call to
-     scheduleExamWipNotice() once the questions are complete. */
-  const EXAM_WIP_NOTICE_IDS = ["adre-grade-3"];
-
-  /* Reads a key straight out of the dictionary for an explicit language, so the
-     notice can print both languages at once instead of following the toggle. */
-  function dictStr(lang, key) {
-    if (typeof I18N === "undefined") return "";
-    const bag = I18N[lang] || {};
-    return bag[key] || (I18N.en && I18N.en[key]) || "";
-  }
-
-  function examWipNoticeHTML() {
-    return `
-      <div class="read-modal-backdrop" id="exam-wip-backdrop"></div>
-      <div class="read-modal-box confirm-modal-box" role="dialog" aria-modal="true" aria-labelledby="exam-wip-title">
-        <div class="read-modal-head">
-          <div class="read-modal-titles">
-            <span class="read-modal-title" id="exam-wip-title" lang="en">${escapeHtml(dictStr("en", "exams.wipTitle"))}</span>
-            <span class="read-modal-sub exam-wip-title-as" lang="as">${escapeHtml(dictStr("as", "exams.wipTitle"))}</span>
-          </div>
-          <button id="exam-wip-close" class="read-close" type="button" aria-label="${escapeHtml(t("exams.wipClose"))}">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-          </button>
-        </div>
-        <div class="read-modal-body">
-          <p class="exam-wip-msg" lang="en">${escapeHtml(dictStr("en", "exams.wipMsg"))}</p>
-          <p class="exam-wip-msg exam-wip-msg-as" lang="as">${escapeHtml(dictStr("as", "exams.wipMsg"))}</p>
-          <button id="exam-wip-ok" class="btn btn-accent" type="button">${escapeHtml(t("exams.wipClose"))}</button>
-        </div>
-      </div>`;
-  }
-
-  function ensureExamWipModal() {
-    let modal = $("#exam-wip-modal");
-    if (modal) return modal;
-    modal = document.createElement("div");
-    modal.id = "exam-wip-modal";
-    modal.className = "read-modal exam-wip-modal";
-    modal.hidden = true;
-    modal.innerHTML = examWipNoticeHTML();
-    document.body.appendChild(modal);
-
-    const close = () => closeExamWipModal();
-    $("#exam-wip-close", modal).addEventListener("click", close);
-    $("#exam-wip-ok", modal).addEventListener("click", close);
-    $("#exam-wip-backdrop", modal).addEventListener("click", close);
-    return modal;
-  }
-
-  function closeExamWipModal() {
-    const modal = $("#exam-wip-modal");
-    if (modal) modal.hidden = true;
-    if (examWipTimer) { clearTimeout(examWipTimer); examWipTimer = 0; }
-  }
-
-  function scheduleExamWipNotice(examId) {
-    if (examWipTimer) { clearTimeout(examWipTimer); examWipTimer = 0; }
-    if (!EXAM_WIP_NOTICE_IDS.includes(examId)) return;
-    examWipTimer = setTimeout(() => {
-      examWipTimer = 0;
-      // Only show if the visitor is still on that exam book.
-      if (parsePath()[1] !== examId) return;
-      ensureExamWipModal().hidden = false;
-    }, 2000);
-  }
-
   async function renderExamPage(main, examId) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     await getExamsList();
@@ -4949,7 +4874,6 @@
       </section>`;
     observeReveals();
     hydrateExamCardCounts(main, exam);
-    scheduleExamWipNotice(examId);
   }
 
   /* Options list for an exam question — same 4-option view as the practice section. */

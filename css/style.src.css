@@ -793,14 +793,6 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .read-close:hover { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
 .read-modal-body { flex: 1; overflow-y: auto; padding: 18px; display: flex; flex-direction: column; gap: 14px; }
 
-/* ADRE Grade III work-in-progress notice. Shares the .read-modal shell; the
-   body is centred and the two language lines stack so both are readable. */
-.exam-wip-modal .read-modal-box.confirm-modal-box { max-width: 440px; padding: 0; text-align: left; }
-.exam-wip-modal .read-modal-body { text-align: center; align-items: center; gap: 12px; }
-.exam-wip-msg { margin: 0; font-size: .92rem; line-height: 1.65; color: var(--ink-soft); }
-.exam-wip-msg-as { color: var(--ink-faint); font-size: .88rem; }
-.exam-wip-title-as { white-space: normal; }
-.exam-wip-modal .btn { min-width: 120px; }
 .read-item { overflow: visible; }
 
 /* ============================================================
