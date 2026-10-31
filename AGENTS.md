@@ -271,6 +271,24 @@ Run `node tools/build-polity-questions.js` to expand them into
 merges over its inline banks at the end. Regenerate after editing
 `tools/polity-src/` — never edit the generated file by hand.
 
+### Grade III Economy & Environment question banks
+
+The two "Economy & Environment" topics (`indian-assam-economy`,
+`environment-pollution`) keep their large banks in `tools/economy-src/`, one
+file per topic (split into `*.part2.js`, `*.part3.js` when long), in the same
+compact row shape as `tools/gk-src/`:
+
+```js
+["question en", "question as",
+ ["o1 en","o1 as","o2 en","o2 as","o3 en","o3 as","o4 en","o4 as"],
+ correctIndex, "explanation en", "explanation as"]
+```
+
+Run `node tools/build-economy-questions.js` to expand them into
+`tools/adre-grade-3.questions.economy.js`, which `tools/adre-grade-3.questions.js`
+merges over its inline banks at the end. Regenerate after editing
+`tools/economy-src/` — never edit the generated file by hand.
+
 ### Grade III study-notes articles
 
 `tools/adre-grade-3.notes.js` holds the crawler-facing study article for every
