@@ -21006,5 +21006,10507 @@ module.exports = {
     "as": "আহোম-কোচ সম্পৰ্কত সংঘাত আৰু বিবাহ মিত্ৰতা দুয়োটা আছিল।"
    }
   }
+ ],
+ "assam-history-modern": [
+  {
+   "id": "assam-history-modern-001",
+   "q": {
+    "en": "In which year did the British formally annex Assam after the Treaty of Yandabo?",
+    "as": "য়াণ্ডাবুৰ সন্ধিৰ পিছত ব্ৰিটিছে কিমান চনত অসম আনুষ্ঠানিকভাৱে অধিকৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1826 CE",
+     "as": "১৮২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1828 CE",
+     "as": "১৮২৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1833 CE",
+     "as": "১৮৩৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1838 CE",
+     "as": "১৮৩৮ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British formally took control of Assam in 1826 after the Treaty of Yandabo.",
+    "as": "য়াণ্ডাবুৰ সন্ধিৰ পিছত ব্ৰিটিছে ১৮২৬ চনত অসমৰ আনুষ্ঠানিক নিয়ন্ত্ৰণ লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-002",
+   "q": {
+    "en": "Which British officer was the first to administer Assam after the Treaty of Yandabo?",
+    "as": "য়াণ্ডাবুৰ সন্ধিৰ পিছত অসম প্ৰথমে শাসন কৰা ব্ৰিটিছ বিষয়া কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "David Scott",
+     "as": "ডেভিড স্কট"
+    },
+    {
+     "en": "Francis Jenkins",
+     "as": "ফ্ৰান্সিছ জেনকিন্স"
+    },
+    {
+     "en": "Adam White",
+     "as": "এডাম হোৱাইট"
+    },
+    {
+     "en": "Charles Bruce",
+     "as": "চাৰ্লছ ব্ৰুছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "David Scott was the first British administrator of Assam after the Treaty of Yandabo.",
+    "as": "য়াণ্ডাবুৰ সন্ধিৰ পিছত ডেভিড স্কট অসমৰ প্ৰথম ব্ৰিটিছ প্ৰশাসক আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-003",
+   "q": {
+    "en": "Assam was initially attached to which British presidency or province?",
+    "as": "অসম প্ৰথমে কোন ব্ৰিটিছ প্ৰেচিডেন্সী বা প্ৰদেশৰ লগত সংযুক্ত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Madras",
+     "as": "মাদ্ৰাজ"
+    },
+    {
+     "en": "Bombay",
+     "as": "বম্বে"
+    },
+    {
+     "en": "Punjab",
+     "as": "পঞ্জাব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam was initially attached to the Bengal Presidency of British India.",
+    "as": "অসম প্ৰথমে ব্ৰিটিছ ভাৰতৰ বংগ প্ৰেচিডেন্সীৰ লগত সংযুক্ত আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-004",
+   "q": {
+    "en": "In which year was Assam separated from Bengal and made a Chief Commissioner's province?",
+    "as": "কিমান চনত অসমক বংগৰ পৰা পৃথক কৰি এটা মুখ্য কমিশ্যাৰৰ প্ৰদেশ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1874 CE",
+     "as": "১৮৭৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1854 CE",
+     "as": "১৮৫৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1894 CE",
+     "as": "১৮৯৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam was separated from Bengal and made a Chief Commissioner's province in 1874.",
+    "as": "১৮৭৪ চনত অসমক বংগৰ পৰা পৃথক কৰি এটা মুখ্য কমিশ্যাৰৰ প্ৰদেশ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-005",
+   "q": {
+    "en": "In which year was Assam first made a separate province under a Chief Commissioner?",
+    "as": "কিমান চনত অসম প্ৰথমে এজন মুখ্য কমিশ্যাৰৰ অধীনত এটা পৃথক প্ৰদেশ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1874 CE",
+     "as": "১৮৭৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1873 CE",
+     "as": "১৮৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1884 CE",
+     "as": "১৮৮৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1894 CE",
+     "as": "১৮৯৪ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam became a separate Chief Commissioner's province in 1874.",
+    "as": "১৮৭৪ চনত অসম এটা পৃথক মুখ্য কমিশ্যাৰৰ প্ৰদেশ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-006",
+   "q": {
+    "en": "Which British officer is credited with the survey and settlement of Assam in the 19th century?",
+    "as": "ঊনবিংশ শতিকাত অসমৰ জৰীপ আৰু বন্দোৱস্তৰ কৃতিত্ব কোন ব্ৰিটিছ বিষয়াৰ?"
+   },
+   "options": [
+    {
+     "en": "The Chief Commissioner and settlement officers",
+     "as": "মুখ্য কমিশ্যাৰ আৰু বন্দোৱস্ত বিষয়াসকল"
+    },
+    {
+     "en": "David Scott alone",
+     "as": "কেৱল ডেভিড স্কট"
+    },
+    {
+     "en": "Francis Jenkins alone",
+     "as": "কেৱল ফ্ৰান্সিছ জেনকিন্স"
+    },
+    {
+     "en": "Adam White alone",
+     "as": "কেৱল এডাম হোৱাইট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "British Chief Commissioners and settlement officers carried out the survey and settlement of Assam.",
+    "as": "ব্ৰিটিছ মুখ্য কমিশ্যাৰ আৰু বন্দোৱস্ত বিষয়াসকলে অসমৰ জৰীপ আৰু বন্দোৱস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-007",
+   "q": {
+    "en": "Which system of land revenue did the British introduce in Assam?",
+    "as": "ব্ৰিটিছে অসমত কোন ভূমি ৰাজহ ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The ryotwari and later the zamindari system",
+     "as": "ৰৈয়তৱাৰী আৰু পিছত জমিদাৰী ব্যৱস্থা"
+    },
+    {
+     "en": "The Paik system",
+     "as": "পাইক ব্যৱস্থা"
+    },
+    {
+     "en": "The khel system",
+     "as": "খেল ব্যৱস্থা"
+    },
+    {
+     "en": "The got system",
+     "as": "গোট ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British introduced the ryotwari system in Assam and later the zamindari system in some areas.",
+    "as": "ব্ৰিটিছে অসমত ৰৈয়তৱাৰী ব্যৱস্থা আৰু পিছত কিছু অঞ্চলত জমিদাৰী ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-008",
+   "q": {
+    "en": "Which was the first tea garden established in Assam?",
+    "as": "অসমত প্ৰতিষ্ঠিত প্ৰথম চাহ বাগিচা কোনখন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Chabua",
+     "as": "চাবুৱা"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Sonari",
+     "as": "সোণাৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first commercial tea garden in Assam was established at Chabua, followed by others in upper Assam.",
+    "as": "অসমৰ প্ৰথম বাণিজ্যিক চাহ বাগিচা চাবুৱাত প্ৰতিষ্ঠা হৈছিল, তাৰ পিছত উজনি অসমত আনবোৰ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-009",
+   "q": {
+    "en": "Who is credited with the discovery of tea plants in Assam for the British?",
+    "as": "ব্ৰিটিছৰ বাবে অসমত চাহ গছ আৱিষ্কাৰৰ কৃতিত্ব কোনক দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "Robert Bruce",
+     "as": "ৰবাৰ্ট ব্ৰুছ"
+    },
+    {
+     "en": "David Scott",
+     "as": "ডেভিড স্কট"
+    },
+    {
+     "en": "Francis Jenkins",
+     "as": "ফ্ৰান্সিছ জেনকিন্স"
+    },
+    {
+     "en": "Charles Bruce",
+     "as": "চাৰ্লছ ব্ৰুছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Robert Bruce is credited with the discovery of tea plants in Assam for the British.",
+    "as": "ব্ৰিটিছৰ বাবে অসমত চাহ গছ আৱিষ্কাৰৰ কৃতিত্ব ৰবাৰ্ট ব্ৰুছক দিয়া হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-010",
+   "q": {
+    "en": "In which year was the first tea company, the Assam Tea Company, formed?",
+    "as": "প্ৰথম চাহ কোম্পানী, অসম চাহ কোম্পানী, কিমান চনত গঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1839 CE",
+     "as": "১৮৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1826 CE",
+     "as": "১৮২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1874 CE",
+     "as": "১৮৭৪ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Tea Company was formed in 1839, beginning large-scale tea cultivation.",
+    "as": "অসম চাহ কোম্পানী ১৮৩৯ চনত গঠিত হৈছিল, বৃহৎ পৰিমাণে চাহ খেতি আৰম্ভ কৰি।"
+   }
+  },
+  {
+   "id": "assam-history-modern-011",
+   "q": {
+    "en": "Which region of Assam became the centre of the tea industry?",
+    "as": "অসমৰ কোন অঞ্চল চাহ শিল্পৰ কেন্দ্ৰ হৈ পৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Upper Assam (Dibrugarh, Jorhat, Sivasagar)",
+     "as": "উজনি অসম (ডিব্ৰুগড়, যোৰহাট, শিৱসাগৰ)"
+    },
+    {
+     "en": "Lower Assam",
+     "as": "নিম্ন অসম"
+    },
+    {
+     "en": "Barak valley",
+     "as": "বৰাক উপত্যকা"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Upper Assam, especially around Dibrugarh, Jorhat and Sivasagar, became the centre of the tea industry.",
+    "as": "উজনি অসম, বিশেষকৈ ডিব্ৰুগড়, যোৰহাট আৰু শিৱসাগৰৰ আশে-পাশে, চাহ শিল্পৰ কেন্দ্ৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-012",
+   "q": {
+    "en": "The discovery of oil in Assam is associated with which place?",
+    "as": "অসমত তেলৰ আৱিষ্কাৰ কোন ঠাইৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Digboi",
+     "as": "ডিগবৈ"
+    },
+    {
+     "en": "Naharkatia",
+     "as": "নাহৰকটীয়া"
+    },
+    {
+     "en": "Moran",
+     "as": "মৰাণ"
+    },
+    {
+     "en": "Duliajan",
+     "as": "ডুলিয়াজান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Oil was discovered at Digboi in Assam, leading to the establishment of India's first oil refinery.",
+    "as": "অসমৰ ডিগবৈত তেল আৱিষ্কাৰ হৈছিল, ভাৰতৰ প্ৰথম তেল শোধনাগাৰ স্থাপনলৈ লৈ গৈ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-013",
+   "q": {
+    "en": "Which was the first oil refinery in India, established in Assam?",
+    "as": "ভাৰতৰ প্ৰথম তেল শোধনাগাৰ, অসমত প্ৰতিষ্ঠিত, কোনখন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Digboi Refinery",
+     "as": "ডিগবৈ শোধনাগাৰ"
+    },
+    {
+     "en": "Numaligarh Refinery",
+     "as": "নুমলীগড় শোধনাগাৰ"
+    },
+    {
+     "en": "Bongaigaon Refinery",
+     "as": "বঙাইগাঁও শোধনাগাৰ"
+    },
+    {
+     "en": "Guwahati Refinery",
+     "as": "গুৱাহাটী শোধনাগাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Digboi Refinery in Assam was the first oil refinery in India.",
+    "as": "অসমৰ ডিগবৈ শোধনাগাৰ ভাৰতৰ প্ৰথম তেল শোধনাগাৰ আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-014",
+   "q": {
+    "en": "In which year was the Digboi oil refinery established?",
+    "as": "ডিগবৈ তেল শোধনাগাৰ কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1901 CE",
+     "as": "১৯০১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1889 CE",
+     "as": "১৮৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1911 CE",
+     "as": "১৯১১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1921 CE",
+     "as": "১৯২১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Digboi refinery was established in 1901, the first in India.",
+    "as": "ডিগবৈ শোধনাগাৰ ১৯০১ চনত প্ৰতিষ্ঠা হৈছিল, ভাৰতত প্ৰথম।"
+   }
+  },
+  {
+   "id": "assam-history-modern-015",
+   "q": {
+    "en": "Which British-era industry transformed the economy of Assam in the 19th century?",
+    "as": "ঊনবিংশ শতিকাত অসমৰ অৰ্থনীতি ৰূপান্তৰ কৰা ব্ৰিটিছ কালৰ শিল্প কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The tea industry",
+     "as": "চাহ শিল্প"
+    },
+    {
+     "en": "The jute industry",
+     "as": "পাট শিল্প"
+    },
+    {
+     "en": "The cotton industry",
+     "as": "কপাহ শিল্প"
+    },
+    {
+     "en": "The steel industry",
+     "as": "ইস্পাত শিল্প"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The tea industry transformed the economy of Assam in the 19th century.",
+    "as": "চাহ শিল্পে ঊনবিংশ শতিকাত অসমৰ অৰ্থনীতি ৰূপান্তৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-016",
+   "q": {
+    "en": "The British brought labourers to Assam's tea gardens mainly from which regions?",
+    "as": "ব্ৰিটিছে অসমৰ চাহ বাগিচালৈ মূলত কোন অঞ্চলৰ পৰা শ্ৰমিক আনিছিল?"
+   },
+   "options": [
+    {
+     "en": "Central India and Chotanagpur",
+     "as": "মধ্য ভাৰত আৰু ছোটনাগপুৰ"
+    },
+    {
+     "en": "Bengal and Odisha",
+     "as": "বংগ আৰু ওড়িশা"
+    },
+    {
+     "en": "Punjab and Sindh",
+     "as": "পঞ্জাব আৰু সিন্ধ"
+    },
+    {
+     "en": "Madras and Mysore",
+     "as": "মাদ্ৰাজ আৰু মহীশূৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British brought tea garden labourers to Assam mainly from central India and Chotanagpur.",
+    "as": "ব্ৰিটিছে অসমৰ চাহ বাগিচালৈ মূলত মধ্য ভাৰত আৰু ছোটনাগপুৰৰ পৰা শ্ৰমিক আনিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-017",
+   "q": {
+    "en": "The tea garden labourers who settled in Assam came to be known as which community?",
+    "as": "অসমত বসতি স্থাপন কৰা চাহ বাগিচাৰ শ্ৰমিকসকল কোন সমাজ হিচাপে জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Tea Tribes (Adivasi)",
+     "as": "চাহ জনজাতি (আদিবাসী)"
+    },
+    {
+     "en": "The Ahoms",
+     "as": "আহোমসকল"
+    },
+    {
+     "en": "The Bodos",
+     "as": "বড়োসকল"
+    },
+    {
+     "en": "The Mishings",
+     "as": "মিচিংসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The tea garden labourers who settled in Assam are known as the Tea Tribes or Adivasi community.",
+    "as": "অসমত বসতি স্থাপন কৰা চাহ বাগিচাৰ শ্ৰমিকসকল চাহ জনজাতি বা আদিবাসী সমাজ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-018",
+   "q": {
+    "en": "Which railway line was laid in Assam during the British period to connect the tea regions?",
+    "as": "চাহ অঞ্চল সংযোগ কৰিবলৈ ব্ৰিটিছ কালত অসমত কোন ৰে'লপথ স্থাপন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Dibru-Sadiya Railway",
+     "as": "ডিব্ৰু-শদিয়া ৰে'লপথ"
+    },
+    {
+     "en": "The Grand Trunk Railway",
+     "as": "গ্ৰেণ্ড ট্ৰাঙ্ক ৰে'লপথ"
+    },
+    {
+     "en": "The East Coast Railway",
+     "as": "পূব উপকূল ৰে'লপথ"
+    },
+    {
+     "en": "The Konkan Railway",
+     "as": "কোংকণ ৰে'লপথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dibru-Sadiya Railway was laid in Assam to connect the tea and oil regions.",
+    "as": "চাহ আৰু তেল অঞ্চল সংযোগ কৰিবলৈ অসমত ডিব্ৰু-শদিয়া ৰে'লপথ স্থাপন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-019",
+   "q": {
+    "en": "In which year was the Assam Railway and Trading Company formed?",
+    "as": "অসম ৰে'লৱে এণ্ড ট্ৰেডিং কোম্পানী কিমান চনত গঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1881 CE",
+     "as": "১৮৮১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1874 CE",
+     "as": "১৮৭৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1891 CE",
+     "as": "১৮৯১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1901 CE",
+     "as": "১৯০১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Railway and Trading Company was formed in 1881, laying the Dibru-Sadiya Railway.",
+    "as": "অসম ৰে'লৱে এণ্ড ট্ৰেডিং কোম্পানী ১৮৮১ চনত গঠিত হৈছিল, ডিব্ৰু-শদিয়া ৰে'লপথ স্থাপন কৰি।"
+   }
+  },
+  {
+   "id": "assam-history-modern-020",
+   "q": {
+    "en": "Which British-era college was established in Assam in 1901?",
+    "as": "১৯০১ চনত অসমত প্ৰতিষ্ঠিত ব্ৰিটিছ কালৰ মহাবিদ্যালয় কোনখন?"
+   },
+   "options": [
+    {
+     "en": "Cotton College",
+     "as": "কটন কলেজ"
+    },
+    {
+     "en": "Murari Chand College",
+     "as": "মুৰাৰীচাঁদ কলেজ"
+    },
+    {
+     "en": "Handique College",
+     "as": "হাণ্ডিক কলেজ"
+    },
+    {
+     "en": "B. Borooah College",
+     "as": "বি. বৰুৱা কলেজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cotton College, established in 1901 at Guwahati, was the first college in Assam.",
+    "as": "কটন কলেজ, ১৯০১ চনত গুৱাহাটীত প্ৰতিষ্ঠিত, অসমৰ প্ৰথম মহাবিদ্যালয় আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-021",
+   "q": {
+    "en": "In which year was Cotton College established in Assam?",
+    "as": "অসমত কটন কলেজ কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1901 CE",
+     "as": "১৯০১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1891 CE",
+     "as": "১৮৯১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1911 CE",
+     "as": "১৯১১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1921 CE",
+     "as": "১৯২১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cotton College was established in 1901 at Guwahati, the first college in Assam.",
+    "as": "কটন কলেজ ১৯০১ চনত গুৱাহাটীত প্ৰতিষ্ঠা হৈছিল, অসমৰ প্ৰথম মহাবিদ্যালয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-022",
+   "q": {
+    "en": "Which British-era school was established in Assam in 1835?",
+    "as": "১৮৩৫ চনত অসমত প্ৰতিষ্ঠিত ব্ৰিটিছ কালৰ বিদ্যালয় কোনখন?"
+   },
+   "options": [
+    {
+     "en": "The Gauhati Government High School",
+     "as": "গুৱাহাটী চৰকাৰী উচ্চ বিদ্যালয়"
+    },
+    {
+     "en": "Cotton College",
+     "as": "কটন কলেজ"
+    },
+    {
+     "en": "Murari Chand College",
+     "as": "মুৰাৰীচাঁদ কলেজ"
+    },
+    {
+     "en": "Handique College",
+     "as": "হাণ্ডিক কলেজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gauhati Government High School, established in 1835, was among the first modern schools in Assam.",
+    "as": "গুৱাহাটী চৰকাৰী উচ্চ বিদ্যালয়, ১৮৩৫ চনত প্ৰতিষ্ঠিত, অসমৰ প্ৰথম আধুনিক বিদ্যালয়সমূহৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-023",
+   "q": {
+    "en": "Which missionary is credited with the growth of modern education and Assamese literature in the 19th century?",
+    "as": "ঊনবিংশ শতিকাত আধুনিক শিক্ষা আৰু অসমীয়া সাহিত্যৰ বিকাশৰ কৃতিত্ব কোন মিছনেৰীক দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "The American Baptist missionaries",
+     "as": "আমেৰিকান বেপ্টিষ্ট মিছনেৰীসকল"
+    },
+    {
+     "en": "The British East India Company",
+     "as": "ব্ৰিটিছ ইষ্ট ইণ্ডিয়া কোম্পানী"
+    },
+    {
+     "en": "The Mughals",
+     "as": "মোগল"
+    },
+    {
+     "en": "The French missionaries",
+     "as": "ফৰাচী মিছনেৰীসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "American Baptist missionaries contributed greatly to modern education and Assamese literature in the 19th century.",
+    "as": "আমেৰিকান বেপ্টিষ্ট মিছনেৰীসকলে ঊনবিংশ শতিকাত আধুনিক শিক্ষা আৰু অসমীয়া সাহিত্যলৈ বহুত অৱদান আগবঢ়াইছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-024",
+   "q": {
+    "en": "Who published the first Assamese newspaper 'Orunodoi'?",
+    "as": "প্ৰথম অসমীয়া বাতৰি কাকত 'অৰুণোদয়' কোনে প্ৰকাশ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The American Baptist missionaries",
+     "as": "আমেৰিকান বেপ্টিষ্ট মিছনেৰীসকলে"
+    },
+    {
+     "en": "The British government",
+     "as": "ব্ৰিটিছ চৰকাৰে"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকনে"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orunodoi, the first Assamese newspaper, was published by the American Baptist missionaries in 1846.",
+    "as": "অৰুণোদয়, প্ৰথম অসমীয়া বাতৰি কাকত, আমেৰিকান বেপ্টিষ্ট মিছনেৰীসকলে ১৮৪৬ চনত প্ৰকাশ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-025",
+   "q": {
+    "en": "In which year was 'Orunodoi', the first Assamese newspaper, published?",
+    "as": "প্ৰথম অসমীয়া বাতৰি কাকত 'অৰুণোদয়' কিমান চনত প্ৰকাশ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1846 CE",
+     "as": "১৮৪৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1836 CE",
+     "as": "১৮৩৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1856 CE",
+     "as": "১৮৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1866 CE",
+     "as": "১৮৬৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orunodoi was first published in 1846 by the American Baptist missionaries.",
+    "as": "অৰুণোদয় প্ৰথমে ১৮৪৬ চনত আমেৰিকান বেপ্টিষ্ট মিছনেৰীসকলে প্ৰকাশ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-026",
+   "q": {
+    "en": "Who is regarded as the first Assamese-language novelist?",
+    "as": "প্ৰথম অসমীয়া ভাষাৰ ঔপন্যাসিক কোন বুলি গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah is regarded as the first Assamese novelist for 'Bhanumati'.",
+    "as": "পদ্মনাথ গোহাঞিবৰুৱাক 'ভানুমতী'ৰ বাবে প্ৰথম অসমীয়া ঔপন্যাসিক বুলি গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-027",
+   "q": {
+    "en": "Who is regarded as the 'Father of Assamese literature'?",
+    "as": "'অসমীয়া সাহিত্যৰ পিতৃ' কোন বুলি গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa is often regarded as the father of modern Assamese literature.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাক প্ৰায়ে আধুনিক অসমীয়া সাহিত্যৰ পিতৃ বুলি গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-028",
+   "q": {
+    "en": "Who wrote the first Assamese dictionary 'Hemkosh'?",
+    "as": "প্ৰথম অসমীয়া অভিধান 'হেমকোষ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hemchandra Barua compiled Hemkosh, the first standard Assamese dictionary.",
+    "as": "হেমচন্দ্ৰ বৰুৱাই হেমকোষ সংকলন কৰিছিল, প্ৰথম মানক অসমীয়া অভিধান।"
+   }
+  },
+  {
+   "id": "assam-history-modern-029",
+   "q": {
+    "en": "Who is regarded as the 'Father of Assamese prose'?",
+    "as": "'অসমীয়া গদ্যৰ পিতৃ' কোন বুলি গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Anandaram Dhekial Phukan is regarded as the father of Assamese prose.",
+    "as": "আনন্দৰাম ঢেকিয়াল ফুকনক অসমীয়া গদ্যৰ পিতৃ বুলি গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-030",
+   "q": {
+    "en": "Which British-era act is associated with the introduction of modern administration in Assam?",
+    "as": "অসমত আধুনিক প্ৰশাসন প্ৰৱৰ্তনৰ লগত কোন ব্ৰিটিছ কালৰ আইন জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Assam Land and Revenue Regulation",
+     "as": "অসম ভূমি আৰু ৰাজহ নিয়মাৱলী"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Pitt's India Act",
+     "as": "পিটছ ইণ্ডিয়া আইন"
+    },
+    {
+     "en": "The Regulating Act",
+     "as": "ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Land and Revenue Regulation introduced a modern land revenue system in Assam.",
+    "as": "অসম ভূমি আৰু ৰাজহ নিয়মাৱলীয়ে অসমত এটা আধুনিক ভূমি ৰাজহ ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-031",
+   "q": {
+    "en": "Which British-era regulation governed land and revenue in Assam?",
+    "as": "অসমত ভূমি আৰু ৰাজহ নিয়ন্ত্ৰণ কৰা ব্ৰিটিছ কালৰ নিয়মাৱলী কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Assam Land and Revenue Regulation, 1886",
+     "as": "অসম ভূমি আৰু ৰাজহ নিয়মাৱলী, ১৮৮৬"
+    },
+    {
+     "en": "Assam Land and Revenue Regulation, 1876",
+     "as": "অসম ভূমি আৰু ৰাজহ নিয়মাৱলী, ১৮৭৬"
+    },
+    {
+     "en": "Assam Land and Revenue Regulation, 1896",
+     "as": "অসম ভূমি আৰু ৰাজহ নিয়মাৱলী, ১৮৯৬"
+    },
+    {
+     "en": "Assam Land and Revenue Regulation, 1906",
+     "as": "অসম ভূমি আৰু ৰাজহ নিয়মাৱলী, ১৯০৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Land and Revenue Regulation of 1886 governed land and revenue in Assam.",
+    "as": "১৮৮৬ চনৰ অসম ভূমি আৰু ৰাজহ নিয়মাৱলীয়ে অসমত ভূমি আৰু ৰাজহ নিয়ন্ত্ৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-032",
+   "q": {
+    "en": "Which British-era administrative body governed municipalities in Assam?",
+    "as": "অসমত পৌৰসভাসমূহ পৰিচালনা কৰা ব্ৰিটিছ কালৰ প্ৰশাসনিক সংস্থা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The municipal committees",
+     "as": "পৌৰ কমিটি"
+    },
+    {
+     "en": "The village panchayats",
+     "as": "গাঁও পঞ্চায়ত"
+    },
+    {
+     "en": "The Sattra councils",
+     "as": "সত্ৰ পৰিষদ"
+    },
+    {
+     "en": "The khel councils",
+     "as": "খেল পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British established municipal committees to govern towns in Assam.",
+    "as": "ব্ৰিটিছে অসমৰ চহৰসমূহ পৰিচালনা কৰিবলৈ পৌৰ কমিটি স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-033",
+   "q": {
+    "en": "Which British-era administrative body governed villages in Assam?",
+    "as": "অসমত গাঁওসমূহ পৰিচালনা কৰা ব্ৰিটিছ কালৰ প্ৰশাসনিক সংস্থা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The village panchayats and mauzadars",
+     "as": "গাঁও পঞ্চায়ত আৰু মৌজাদাৰ"
+    },
+    {
+     "en": "The municipal committees",
+     "as": "পৌৰ কমিটি"
+    },
+    {
+     "en": "The Sattra councils",
+     "as": "সত্ৰ পৰিষদ"
+    },
+    {
+     "en": "The khel councils",
+     "as": "খেল পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British governed villages through panchayats and mauzadars.",
+    "as": "ব্ৰিটিছে পঞ্চায়ত আৰু মৌজাদাৰৰ জৰিয়তে গাঁওসমূহ পৰিচালনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-034",
+   "q": {
+    "en": "Which British-era official was in charge of a mauza in Assam?",
+    "as": "অসমত এটা মৌজাৰ দায়িত্বত কোন ব্ৰিটিছ কালৰ বিষয়া আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Mauzadar",
+     "as": "মৌজাদাৰ"
+    },
+    {
+     "en": "The Borphukan",
+     "as": "বৰফুকন"
+    },
+    {
+     "en": "The Borbarua",
+     "as": "বৰবৰুৱা"
+    },
+    {
+     "en": "The Sattradhikar",
+     "as": "সত্ৰাধিকাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mauzadar was the British-era revenue official in charge of a mauza.",
+    "as": "মৌজাদাৰ এটা মৌজাৰ দায়িত্বত থকা ব্ৰিটিছ কালৰ ৰাজহ বিষয়া আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-035",
+   "q": {
+    "en": "Which British-era system of governance was introduced in Assam's hills?",
+    "as": "অসমৰ পাহাৰীয়া অঞ্চলত কোন ব্ৰিটিছ কালৰ শাসন ব্যৱস্থা প্ৰৱৰ্তন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The excluded and partially excluded areas system",
+     "as": "বহিৰ্ভূত আৰু আংশিক বহিৰ্ভূত অঞ্চল ব্যৱস্থা"
+    },
+    {
+     "en": "The Paik system",
+     "as": "পাইক ব্যৱস্থা"
+    },
+    {
+     "en": "The khel system",
+     "as": "খেল ব্যৱস্থা"
+    },
+    {
+     "en": "The Sattra system",
+     "as": "সত্ৰ ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British governed the hills of Assam through the excluded and partially excluded areas system.",
+    "as": "ব্ৰিটিছে অসমৰ পাহাৰীয়া অঞ্চল বহিৰ্ভূত আৰু আংশিক বহিৰ্ভূত অঞ্চল ব্যৱস্থাৰ জৰিয়তে শাসন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-036",
+   "q": {
+    "en": "Which British-era act separated the hills of Assam from the plains for administration?",
+    "as": "প্ৰশাসনৰ বাবে অসমৰ পাহাৰক সমভূমিৰ পৰা পৃথক কৰা ব্ৰিটিছ কালৰ আইন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Scheduled Districts Act",
+     "as": "অনুসূচিত জিলা আইন"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Government of India Act",
+     "as": "ভাৰত চৰকাৰ আইন"
+    },
+    {
+     "en": "The Regulating Act",
+     "as": "ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Scheduled Districts Act separated the hills from the plains for administrative purposes.",
+    "as": "অনুসূচিত জিলা আইনে প্ৰশাসনিক উদ্দেশ্যে পাহাৰক সমভূমিৰ পৰা পৃথক কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-037",
+   "q": {
+    "en": "Which British-era body was responsible for the inner line regulation in Assam's hills?",
+    "as": "অসমৰ পাহাৰত ইনাৰ লাইন নিয়মাৱলীৰ বাবে দায়বদ্ধ ব্ৰিটিছ কালৰ সংস্থা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Chief Commissioner's administration",
+     "as": "মুখ্য কমিশ্যাৰৰ প্ৰশাসন"
+    },
+    {
+     "en": "The municipal committee",
+     "as": "পৌৰ কমিটি"
+    },
+    {
+     "en": "The village panchayat",
+     "as": "গাঁও পঞ্চায়ত"
+    },
+    {
+     "en": "The Sattra council",
+     "as": "সত্ৰ পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chief Commissioner's administration enforced the inner line regulation in the hills.",
+    "as": "মুখ্য কমিশ্যাৰৰ প্ৰশাসনে পাহাৰত ইনাৰ লাইন নিয়মাৱলী বলৱৎ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-038",
+   "q": {
+    "en": "The Inner Line Permit system in Assam was introduced during which period?",
+    "as": "অসমত ইনাৰ লাইন পাৰ্মিট ব্যৱস্থা কোন কালত প্ৰৱৰ্তন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The British period",
+     "as": "ব্ৰিটিছ কালত"
+    },
+    {
+     "en": "The Ahom period",
+     "as": "আহোম কালত"
+    },
+    {
+     "en": "The Mughal period",
+     "as": "মোগল কালত"
+    },
+    {
+     "en": "The Koch period",
+     "as": "কোচ কালত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Inner Line Permit system was introduced during the British period to regulate entry into the hills.",
+    "as": "ইনাৰ লাইন পাৰ্মিট ব্যৱস্থা ব্ৰিটিছ কালত পাহাৰলৈ প্ৰৱেশ নিয়ন্ত্ৰণ কৰিবলৈ প্ৰৱৰ্তন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-039",
+   "q": {
+    "en": "Which British-era town became the capital of Assam?",
+    "as": "অসমৰ ৰাজধানী হোৱা ব্ৰিটিছ কালৰ চহৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Shillong",
+     "as": "শ্বিলং"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shillong became the capital of Assam during the British period.",
+    "as": "ব্ৰিটিছ কালত শ্বিলং অসমৰ ৰাজধানী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-040",
+   "q": {
+    "en": "In which year did Shillong become the capital of Assam?",
+    "as": "শ্বিলং কিমান চনত অসমৰ ৰাজধানী হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1874 CE",
+     "as": "১৮৭৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1826 CE",
+     "as": "১৮২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1894 CE",
+     "as": "১৮৯৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shillong became the capital of Assam in 1874 when Assam was made a separate province.",
+    "as": "১৮৭৪ চনত অসম পৃথক প্ৰদেশ হোৱাৰ সময়ত শ্বিলং অসমৰ ৰাজধানী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-041",
+   "q": {
+    "en": "Which British-era partition separated Assam from Bengal in 1905?",
+    "as": "১৯০৫ চনত অসমক বংগৰ পৰা পৃথক কৰা ব্ৰিটিছ কালৰ বিভাজন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Partition of Bengal",
+     "as": "বংগ বিভাজন"
+    },
+    {
+     "en": "The Partition of Punjab",
+     "as": "পঞ্জাব বিভাজন"
+    },
+    {
+     "en": "The Partition of India",
+     "as": "ভাৰত বিভাজন"
+    },
+    {
+     "en": "The Partition of Assam",
+     "as": "অসম বিভাজন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Partition of Bengal in 1905 created a new province of Eastern Bengal and Assam.",
+    "as": "১৯০৫ চনৰ বংগ বিভাজনে পূব বংগ আৰু অসম নামেৰে এটা নতুন প্ৰদেশ সৃষ্টি কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-042",
+   "q": {
+    "en": "The Partition of Bengal in 1905 led to which major movement?",
+    "as": "১৯০৫ চনৰ বংগ বিভাজনে কোন প্ৰধান আন্দোলনলৈ লৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Swadeshi movement",
+     "as": "স্বদেশী আন্দোলন"
+    },
+    {
+     "en": "The Quit India movement",
+     "as": "ভাৰত ছাড়ো আন্দোলন"
+    },
+    {
+     "en": "The Non-Cooperation movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Civil Disobedience movement",
+     "as": "আইন অমান্য আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Partition of Bengal in 1905 sparked the Swadeshi movement across India, including Assam.",
+    "as": "১৯০৫ চনৰ বংগ বিভাজনে ভাৰতজুৰি, অসমকে ধৰি, স্বদেশী আন্দোলনৰ সূচনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-043",
+   "q": {
+    "en": "In which year was the Partition of Bengal annulled?",
+    "as": "বংগ বিভাজন কিমান চনত বাতিল কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1911 CE",
+     "as": "১৯১১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1912 CE",
+     "as": "১৯১২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Partition of Bengal was annulled in 1911, and Assam was reunited as a province.",
+    "as": "বংগ বিভাজন ১৯১১ চনত বাতিল কৰা হৈছিল, আৰু অসম এটা প্ৰদেশ হিচাপে পুনৰ একত্ৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-044",
+   "q": {
+    "en": "In which year was Assam made a Governor's province?",
+    "as": "অসম কিমান চনত এটা গভৰ্ণৰৰ প্ৰদেশ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1921 CE",
+     "as": "১৯২১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1911 CE",
+     "as": "১৯১১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam was made a Governor's province in 1921 under the Montagu-Chelmsford reforms.",
+    "as": "মন্টেগু-চেমছফৰ্ড সংস্কাৰৰ অধীনত ১৯২১ চনত অসম এটা গভৰ্ণৰৰ প্ৰদেশ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-045",
+   "q": {
+    "en": "In which year did Assam get a legislative council and assembly?",
+    "as": "অসমে কিমান চনত এটা বিধান পৰিষদ আৰু বিধানসভা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1921 CE",
+     "as": "১৯২১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1911 CE",
+     "as": "১৯১১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam got a legislative council and assembly in 1921 under the Montagu-Chelmsford reforms.",
+    "as": "মন্টেগু-চেমছফৰ্ড সংস্কাৰৰ অধীনত ১৯২১ চনত অসমে এটা বিধান পৰিষদ আৰু বিধানসভা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-046",
+   "q": {
+    "en": "Which British-era reform introduced dyarchy in Assam?",
+    "as": "অসমত দ্বৈতশাসন প্ৰৱৰ্তন কৰা ব্ৰিটিছ কালৰ সংস্কাৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Montagu-Chelmsford Reforms",
+     "as": "মন্টেগু-চেমছফৰ্ড সংস্কাৰ"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Simon Commission",
+     "as": "চাইমন কমিশন"
+    },
+    {
+     "en": "The Cripps Mission",
+     "as": "ক্ৰিপছ মিছন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Montagu-Chelmsford Reforms of 1919 introduced dyarchy in Assam and other provinces.",
+    "as": "১৯১৯ চনৰ মন্টেগু-চেমছফৰ্ড সংস্কাৰে অসম আৰু আন প্ৰদেশত দ্বৈতশাসন প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-047",
+   "q": {
+    "en": "Which British-era act introduced provincial autonomy in Assam?",
+    "as": "অসমত প্ৰাদেশিক স্বায়ত্তশাসন প্ৰৱৰ্তন কৰা ব্ৰিটিছ কালৰ আইন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act, 1935",
+     "as": "ভাৰত চৰকাৰ আইন, ১৯৩৫"
+    },
+    {
+     "en": "The Government of India Act, 1919",
+     "as": "ভাৰত চৰকাৰ আইন, ১৯১৯"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Regulating Act",
+     "as": "ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act of 1935 introduced provincial autonomy in Assam.",
+    "as": "১৯৩৫ চনৰ ভাৰত চৰকাৰ আইনে অসমত প্ৰাদেশিক স্বায়ত্তশাসন প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-048",
+   "q": {
+    "en": "Who was the first Chief Minister of Assam under the 1935 Act?",
+    "as": "১৯৩৫ চনৰ আইনৰ অধীনত অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was the first Chief Minister of Assam under the 1935 Act.",
+    "as": "১৯৩৫ চনৰ আইনৰ অধীনত গোপীনাথ বৰদলৈ অসমৰ প্ৰথম মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-049",
+   "q": {
+    "en": "Which British-era education policy affected Assamese language in schools?",
+    "as": "অসমীয়া ভাষাক বিদ্যালয়ত প্ৰভাৱিত কৰা ব্ৰিটিছ কালৰ শিক্ষা নীতি কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Wood's Despatch and later language policies",
+     "as": "উডছ ডেছপেচ আৰু পিছৰ ভাষা নীতিসমূহ"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Pitt's India Act",
+     "as": "পিটছ ইণ্ডিয়া আইন"
+    },
+    {
+     "en": "The Regulating Act",
+     "as": "ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "British education policies such as Wood's Despatch affected the use of Assamese in schools.",
+    "as": "উডছ ডেছপেচৰ দৰে ব্ৰিটিছ শিক্ষা নীতিয়ে বিদ্যালয়ত অসমীয়া ভাষাৰ ব্যৱহাৰ প্ৰভাৱিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-050",
+   "q": {
+    "en": "The Bengali language was imposed as the official language in Assam in which year?",
+    "as": "অসমত বঙালী ভাষা কিমান চনত চৰকাৰী ভাষা হিচাপে জাপি দিয়া হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1836 CE",
+     "as": "১৮৩৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1826 CE",
+     "as": "১৮২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1856 CE",
+     "as": "১৮৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1874 CE",
+     "as": "১৮৭৪ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British replaced Assamese with Bengali as the official language of Assam in 1836.",
+    "as": "ব্ৰিটিছে ১৮৩৬ চনত অসমৰ চৰকাৰী ভাষা হিচাপে অসমীয়াৰ ঠাইত বঙালী লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-051",
+   "q": {
+    "en": "In which year was Assamese restored as the official language of Assam?",
+    "as": "অসমত অসমীয়া কিমান চনত চৰকাৰী ভাষা হিচাপে পুনঃস্থাপিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1873 CE",
+     "as": "১৮৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1836 CE",
+     "as": "১৮৩৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1863 CE",
+     "as": "১৮৬৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1883 CE",
+     "as": "১৮৮৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assamese was restored as the official language of Assam in 1873 after a long movement.",
+    "as": "দীঘলীয়া আন্দোলনৰ পিছত ১৮৭৩ চনত অসমীয়া অসমৰ চৰকাৰী ভাষা হিচাপে পুনঃস্থাপিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-052",
+   "q": {
+    "en": "Which figure led the movement for the restoration of the Assamese language?",
+    "as": "অসমীয়া ভাষা পুনঃস্থাপন আন্দোলনৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Anandaram Dhekial Phukan led the movement for the restoration of the Assamese language.",
+    "as": "আনন্দৰাম ঢেকিয়াল ফুকনে অসমীয়া ভাষা পুনঃস্থাপন আন্দোলনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-053",
+   "q": {
+    "en": "Who is regarded as the 'Father of the Assamese language movement'?",
+    "as": "'অসমীয়া ভাষা আন্দোলনৰ পিতৃ' কোন বুলি গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Anandaram Dhekial Phukan is regarded as the father of the Assamese language movement.",
+    "as": "আনন্দৰাম ঢেকিয়াল ফুকনক অসমীয়া ভাষা আন্দোলনৰ পিতৃ বুলি গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-054",
+   "q": {
+    "en": "Which missionary contributed to the standardisation of the Assamese script and grammar?",
+    "as": "অসমীয়া লিপি আৰু ব্যাকৰণৰ মানকীকৰণলৈ কোন মিছনেৰীয়ে অৱদান আগবঢ়াইছিল?"
+   },
+   "options": [
+    {
+     "en": "Nathan Brown",
+     "as": "নাথান ব্ৰাউন"
+    },
+    {
+     "en": "Miles Bronson",
+     "as": "মাইলছ ব্ৰনচন"
+    },
+    {
+     "en": "Oliver Cutter",
+     "as": "অলিভাৰ কাটাৰ"
+    },
+    {
+     "en": "David Scott",
+     "as": "ডেভিড স্কট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nathan Brown, an American Baptist missionary, contributed to standardising Assamese grammar and script.",
+    "as": "নাথান ব্ৰাউন, এজন আমেৰিকান বেপ্টিষ্ট মিছনেৰী, অসমীয়া ব্যাকৰণ আৰু লিপি মানকীকৰণলৈ অৱদান আগবঢ়াইছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-055",
+   "q": {
+    "en": "Which American Baptist missionary is associated with the growth of Assamese literature in the 19th century?",
+    "as": "ঊনবিংশ শতিকাত অসমীয়া সাহিত্যৰ বিকাশৰ লগত কোন আমেৰিকান বেপ্টিষ্ট মিছনেৰী জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nathan Brown and Miles Bronson",
+     "as": "নাথান ব্ৰাউন আৰু মাইলছ ব্ৰনচন"
+    },
+    {
+     "en": "David Scott",
+     "as": "ডেভিড স্কট"
+    },
+    {
+     "en": "Francis Jenkins",
+     "as": "ফ্ৰান্সিছ জেনকিন্স"
+    },
+    {
+     "en": "Charles Bruce",
+     "as": "চাৰ্লছ ব্ৰুছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nathan Brown and Miles Bronson contributed to the growth of Assamese literature and education.",
+    "as": "নাথান ব্ৰাউন আৰু মাইলছ ব্ৰনচনে অসমীয়া সাহিত্য আৰু শিক্ষাৰ বিকাশলৈ অৱদান আগবঢ়াইছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-056",
+   "q": {
+    "en": "Which British-era institution was established at Guwahati in 1901 and became a centre of learning?",
+    "as": "১৯০১ চনত গুৱাহাটীত প্ৰতিষ্ঠিত আৰু শিক্ষাৰ কেন্দ্ৰ হোৱা ব্ৰিটিছ কালৰ প্ৰতিষ্ঠান কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Cotton College",
+     "as": "কটন কলেজ"
+    },
+    {
+     "en": "Gauhati University",
+     "as": "গুৱাহাটী বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Dibrugarh University",
+     "as": "ডিব্ৰুগড় বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Tezpur University",
+     "as": "তেজপুৰ বিশ্ববিদ্যালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cotton College, established in 1901, became a major centre of learning in Assam.",
+    "as": "কটন কলেজ, ১৯০১ চনত প্ৰতিষ্ঠিত, অসমত শিক্ষাৰ এটা প্ৰধান কেন্দ্ৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-057",
+   "q": {
+    "en": "In which year was Gauhati University established?",
+    "as": "গুৱাহাটী বিশ্ববিদ্যালয় কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1948 CE",
+     "as": "১৯৪৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1958 CE",
+     "as": "১৯৫৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1968 CE",
+     "as": "১৯৬৮ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gauhati University was established in 1948, the first university in Assam.",
+    "as": "গুৱাহাটী বিশ্ববিদ্যালয় ১৯৪৮ চনত প্ৰতিষ্ঠা হৈছিল, অসমৰ প্ৰথম বিশ্ববিদ্যালয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-058",
+   "q": {
+    "en": "Which British-era body was responsible for local self-government in Assam's towns?",
+    "as": "অসমৰ চহৰসমূহত স্থানীয় স্ব-শাসনৰ বাবে দায়বদ্ধ ব্ৰিটিছ কালৰ সংস্থা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The municipal boards",
+     "as": "পৌৰ ব'ৰ্ড"
+    },
+    {
+     "en": "The village panchayats",
+     "as": "গাঁও পঞ্চায়ত"
+    },
+    {
+     "en": "The Sattra councils",
+     "as": "সত্ৰ পৰিষদ"
+    },
+    {
+     "en": "The khel councils",
+     "as": "খেল পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The municipal boards were responsible for local self-government in Assam's towns.",
+    "as": "পৌৰ ব'ৰ্ডসমূহ অসমৰ চহৰসমূহত স্থানীয় স্ব-শাসনৰ বাবে দায়বদ্ধ আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-059",
+   "q": {
+    "en": "Which British-era policy affected the tribal areas of Assam?",
+    "as": "অসমৰ জনজাতীয় অঞ্চলত প্ৰভাৱ পেলোৱা ব্ৰিটিছ কালৰ নীতি কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The policy of isolation and non-interference",
+     "as": "বিচ্ছিন্নতা আৰু অ-হস্তক্ষেপৰ নীতি"
+    },
+    {
+     "en": "The policy of assimilation",
+     "as": "আত্মস্থকৰণৰ নীতি"
+    },
+    {
+     "en": "The policy of conversion",
+     "as": "ধৰ্মান্তৰৰ নীতি"
+    },
+    {
+     "en": "The policy of urbanisation",
+     "as": "নগৰীকৰণৰ নীতি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British followed a policy of isolation and non-interference in the tribal areas of Assam.",
+    "as": "ব্ৰিটিছে অসমৰ জনজাতীয় অঞ্চলত বিচ্ছিন্নতা আৰু অ-হস্তক্ষেপৰ নীতি অনুসৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-060",
+   "q": {
+    "en": "Which British-era official conducted the first census in Assam?",
+    "as": "অসমত প্ৰথম জনগণনা কৰা ব্ৰিটিছ কালৰ বিষয়া কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Chief Commissioner's administration",
+     "as": "মুখ্য কমিশ্যাৰৰ প্ৰশাসন"
+    },
+    {
+     "en": "David Scott alone",
+     "as": "কেৱল ডেভিড স্কট"
+    },
+    {
+     "en": "Francis Jenkins alone",
+     "as": "কেৱল ফ্ৰান্সিছ জেনকিন্স"
+    },
+    {
+     "en": "Adam White alone",
+     "as": "কেৱল এডাম হোৱাইট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first census in Assam was conducted by the Chief Commissioner's administration in the 19th century.",
+    "as": "অসমত প্ৰথম জনগণনা ঊনবিংশ শতিকাত মুখ্য কমিশ্যাৰৰ প্ৰশাসনে কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-061",
+   "q": {
+    "en": "Which British-era survey mapped the tea and oil regions of Assam?",
+    "as": "চাহ আৰু তেল অঞ্চল মানচিত্ৰিত কৰা ব্ৰিটিছ কালৰ জৰীপ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The revenue and geological surveys",
+     "as": "ৰাজহ আৰু ভূতাত্ত্বিক জৰীপ"
+    },
+    {
+     "en": "The archaeological survey",
+     "as": "পুৰাতাত্ত্বিক জৰীপ"
+    },
+    {
+     "en": "The forest survey",
+     "as": "বন জৰীপ"
+    },
+    {
+     "en": "The railway survey",
+     "as": "ৰে'ল জৰীপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British revenue and geological surveys mapped the tea and oil regions of Assam.",
+    "as": "ব্ৰিটিছ ৰাজহ আৰু ভূতাত্ত্বিক জৰীপে অসমৰ চাহ আৰু তেল অঞ্চল মানচিত্ৰিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-062",
+   "q": {
+    "en": "Which British-era forest policy affected Assam?",
+    "as": "অসমক প্ৰভাৱিত কৰা ব্ৰিটিছ কালৰ বন নীতি কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Indian Forest Act",
+     "as": "ভাৰতীয় বন আইন"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Pitt's India Act",
+     "as": "পিটছ ইণ্ডিয়া আইন"
+    },
+    {
+     "en": "The Regulating Act",
+     "as": "ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Forest Act brought Assam's forests under government control.",
+    "as": "ভাৰতীয় বন আইনে অসমৰ বনাঞ্চল চৰকাৰৰ নিয়ন্ত্ৰণলৈ আনিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-063",
+   "q": {
+    "en": "Which British-era act regulated the tea gardens' labour in Assam?",
+    "as": "অসমত চাহ বাগিচাৰ শ্ৰমিক নিয়ন্ত্ৰণ কৰা ব্ৰিটিছ কালৰ আইন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Inland Emigration Act",
+     "as": "অন্তৰ্দেশীয় প্ৰব্ৰজন আইন"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Pitt's India Act",
+     "as": "পিটছ ইণ্ডিয়া আইন"
+    },
+    {
+     "en": "The Regulating Act",
+     "as": "ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Inland Emigration Act regulated the recruitment and movement of tea garden labour in Assam.",
+    "as": "অন্তৰ্দেশীয় প্ৰব্ৰজন আইনে অসমত চাহ বাগিচাৰ শ্ৰমিক নিয়োগ আৰু চলাচল নিয়ন্ত্ৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-064",
+   "q": {
+    "en": "Which British-era railway connected Assam with the rest of India?",
+    "as": "অসমক ভাৰতৰ বাকী অংশৰ সৈতে সংযোগ কৰা ব্ৰিটিছ কালৰ ৰে'লপথ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Assam-Bengal Railway",
+     "as": "অসম-বংগ ৰে'লপথ"
+    },
+    {
+     "en": "The Grand Trunk Railway",
+     "as": "গ্ৰেণ্ড ট্ৰাঙ্ক ৰে'লপথ"
+    },
+    {
+     "en": "The East Coast Railway",
+     "as": "পূব উপকূল ৰে'লপথ"
+    },
+    {
+     "en": "The Konkan Railway",
+     "as": "কোংকণ ৰে'লপথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam-Bengal Railway connected Assam with Bengal and the rest of India.",
+    "as": "অসম-বংগ ৰে'লপথে অসমক বংগ আৰু ভাৰতৰ বাকী অংশৰ সৈতে সংযোগ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-065",
+   "q": {
+    "en": "Which British-era steamer service was important for Assam's trade?",
+    "as": "অসমৰ বাণিজ্যৰ বাবে গুৰুত্বপূৰ্ণ ব্ৰিটিছ কালৰ ষ্টীমাৰ সেৱা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Brahmaputra steamer service",
+     "as": "ব্ৰহ্মপুত্ৰ ষ্টীমাৰ সেৱা"
+    },
+    {
+     "en": "The Ganga steamer service",
+     "as": "গঙ্গা ষ্টীমাৰ সেৱা"
+    },
+    {
+     "en": "The Godavari steamer service",
+     "as": "গোদাৱৰী ষ্টীমাৰ সেৱা"
+    },
+    {
+     "en": "The Narmada steamer service",
+     "as": "নৰ্মদা ষ্টীমাৰ সেৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Brahmaputra steamer service was important for Assam's trade and transport during the British period.",
+    "as": "ব্ৰিটিছ কালত ব্ৰহ্মপুত্ৰ ষ্টীমাৰ সেৱা অসমৰ বাণিজ্য আৰু পৰিবহনৰ বাবে গুৰুত্বপূৰ্ণ আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-066",
+   "q": {
+    "en": "Which British-era company ran the steamer service on the Brahmaputra?",
+    "as": "ব্ৰহ্মপুত্ৰত ষ্টীমাৰ সেৱা চলোৱা ব্ৰিটিছ কালৰ কোম্পানী কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The India General Navigation Company",
+     "as": "ইণ্ডিয়া জেনেৰেল নেভিগেচন কোম্পানী"
+    },
+    {
+     "en": "The Assam Tea Company",
+     "as": "অসম চাহ কোম্পানী"
+    },
+    {
+     "en": "The Assam Railway Company",
+     "as": "অসম ৰে'লৱে কোম্পানী"
+    },
+    {
+     "en": "The Bengal Coal Company",
+     "as": "বংগ কয়লা কোম্পানী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The India General Navigation Company ran the steamer service on the Brahmaputra.",
+    "as": "ইণ্ডিয়া জেনেৰেল নেভিগেচন কোম্পানীয়ে ব্ৰহ্মপুত্ৰত ষ্টীমাৰ সেৱা চলাইছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-067",
+   "q": {
+    "en": "Which British-era town of Assam became a major river port?",
+    "as": "অসমৰ কোন ব্ৰিটিছ কালৰ চহৰ এটা প্ৰধান নদী বন্দৰ হৈ পৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Shillong",
+     "as": "শ্বিলং"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati became a major river port on the Brahmaputra during the British period.",
+    "as": "ব্ৰিটিছ কালত গুৱাহাটী ব্ৰহ্মপুত্ৰৰ এটা প্ৰধান নদী বন্দৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-068",
+   "q": {
+    "en": "Which British-era town of Assam became a major commercial centre in the Barak valley?",
+    "as": "বৰাক উপত্যকাত প্ৰধান বাণিজ্যিক কেন্দ্ৰ হোৱা অসমৰ ব্ৰিটিছ কালৰ চহৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Silchar became a major commercial centre in the Barak valley during the British period.",
+    "as": "ব্ৰিটিছ কালত শিলচৰ বৰাক উপত্যকাত এটা প্ৰধান বাণিজ্যিক কেন্দ্ৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-069",
+   "q": {
+    "en": "Which British-era town of Assam became a major commercial centre in upper Assam?",
+    "as": "উজনি অসমত প্ৰধান বাণিজ্যিক কেন্দ্ৰ হোৱা অসমৰ ব্ৰিটিছ কালৰ চহৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Shillong",
+     "as": "শ্বিলং"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh became a major commercial centre in upper Assam during the British period.",
+    "as": "ব্ৰিটিছ কালত ডিব্ৰুগড় উজনি অসমত এটা প্ৰধান বাণিজ্যিক কেন্দ্ৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-070",
+   "q": {
+    "en": "Which British-era town of Assam became a major commercial centre in central Assam?",
+    "as": "মধ্য অসমত প্ৰধান বাণিজ্যিক কেন্দ্ৰ হোৱা অসমৰ ব্ৰিটিছ কালৰ চহৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    },
+    {
+     "en": "Shillong",
+     "as": "শ্বিলং"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tezpur became a major commercial centre in central Assam during the British period.",
+    "as": "ব্ৰিটিছ কালত তেজপুৰ মধ্য অসমত এটা প্ৰধান বাণিজ্যিক কেন্দ্ৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-071",
+   "q": {
+    "en": "Which British-era town of Assam became a major administrative centre in upper Assam?",
+    "as": "উজনি অসমত প্ৰধান প্ৰশাসনিক কেন্দ্ৰ হোৱা অসমৰ ব্ৰিটিছ কালৰ চহৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Shillong",
+     "as": "শ্বিলং"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jorhat became a major administrative centre in upper Assam during the British period.",
+    "as": "ব্ৰিটিছ কালত যোৰহাট উজনি অসমত এটা প্ৰধান প্ৰশাসনিক কেন্দ্ৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-072",
+   "q": {
+    "en": "Which British-era town of Assam became a major administrative centre in the Barak valley?",
+    "as": "বৰাক উপত্যকাত প্ৰধান প্ৰশাসনিক কেন্দ্ৰ হোৱা অসমৰ ব্ৰিটিছ কালৰ চহৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Silchar became a major administrative centre in the Barak valley during the British period.",
+    "as": "ব্ৰিটিছ কালত শিলচৰ বৰাক উপত্যকাত এটা প্ৰধান প্ৰশাসনিক কেন্দ্ৰ হৈ পৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-073",
+   "q": {
+    "en": "Which British-era town of Assam became the summer capital of Assam?",
+    "as": "অসমৰ গ্ৰীষ্মকালীন ৰাজধানী হোৱা অসমৰ ব্ৰিটিছ কালৰ চহৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Shillong",
+     "as": "শ্বিলং"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shillong served as the summer capital of Assam during the British period.",
+    "as": "ব্ৰিটিছ কালত শ্বিলং অসমৰ গ্ৰীষ্মকালীন ৰাজধানী হিচাপে কাম কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-074",
+   "q": {
+    "en": "Which British-era act created the province of Assam as a separate administrative unit in 1912?",
+    "as": "১৯১২ চনত অসমক এটা পৃথক প্ৰশাসনিক একক হিচাপে সৃষ্টি কৰা ব্ৰিটিছ কালৰ আইন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act and the creation of Assam province",
+     "as": "ভাৰত চৰকাৰ আইন আৰু অসম প্ৰদেশ সৃষ্টি"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰাওলাট আইন"
+    },
+    {
+     "en": "The Pitt's India Act",
+     "as": "পিটছ ইণ্ডিয়া আইন"
+    },
+    {
+     "en": "The Regulating Act",
+     "as": "ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam was reconstituted as a separate province in 1912 after the annulment of the Partition of Bengal.",
+    "as": "বংগ বিভাজন বাতিলৰ পিছত ১৯১২ চনত অসম এটা পৃথক প্ৰদেশ হিচাপে পুনৰ্গঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-075",
+   "q": {
+    "en": "Which British-era movement in Assam protested against the colonial administration in the early 20th century?",
+    "as": "বিংশ শতিকাৰ আৰম্ভণিতে ঔপনিৱেশিক প্ৰশাসনৰ বিৰুদ্ধে অসমত প্ৰতিবাদ কৰা ব্ৰিটিছ কালৰ আন্দোলন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Swadeshi movement",
+     "as": "স্বদেশী আন্দোলন"
+    },
+    {
+     "en": "The Quit India movement",
+     "as": "ভাৰত ছাড়ো আন্দোলন"
+    },
+    {
+     "en": "The Non-Cooperation movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Civil Disobedience movement",
+     "as": "আইন অমান্য আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Swadeshi movement in the early 20th century saw protests against the colonial administration in Assam.",
+    "as": "বিংশ শতিকাৰ আৰম্ভণিতে স্বদেশী আন্দোলনে অসমত ঔপনিৱেশিক প্ৰশাসনৰ বিৰুদ্ধে প্ৰতিবাদ দেখিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-076",
+   "q": {
+    "en": "Which British-era peasant movement took place in Assam?",
+    "as": "অসমত সংঘটিত ব্ৰিটিছ কালৰ কৃষক আন্দোলন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Phulaguri uprising",
+     "as": "ফুলগুৰি বিদ্ৰোহ"
+    },
+    {
+     "en": "The Champaran movement",
+     "as": "চম্পাৰণ আন্দোলন"
+    },
+    {
+     "en": "The Bardoli movement",
+     "as": "বাৰদোলি আন্দোলন"
+    },
+    {
+     "en": "The Moplah rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Phulaguri uprising of 1861 was an early peasant revolt against British taxation in Assam.",
+    "as": "১৮৬১ চনৰ ফুলগুৰি বিদ্ৰোহ ব্ৰিটিছ কৰৰ বিৰুদ্ধে অসমত এটা প্ৰাৰম্ভিক কৃষক বিদ্ৰোহ আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-077",
+   "q": {
+    "en": "In which year did the Phulaguri uprising take place?",
+    "as": "ফুলগুৰি বিদ্ৰোহ কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1861 CE",
+     "as": "১৮৬১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1871 CE",
+     "as": "১৮৭১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1881 CE",
+     "as": "১৮৮১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Phulaguri uprising took place in 1861 against British taxation.",
+    "as": "ফুলগুৰি বিদ্ৰোহ ১৮৬১ চনত ব্ৰিটিছ কৰৰ বিৰুদ্ধে সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-078",
+   "q": {
+    "en": "Which peasant uprising in Assam was against the British tax on 'pikan' (opium) and other levies?",
+    "as": "কোন অসমৰ কৃষক বিদ্ৰোহ ব্ৰিটিছৰ 'পিকন' (আফিং) কৰ আৰু আন কৰৰ বিৰুদ্ধে আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Phulaguri uprising",
+     "as": "ফুলগুৰি বিদ্ৰোহ"
+    },
+    {
+     "en": "The Champaran movement",
+     "as": "চম্পাৰণ আন্দোলন"
+    },
+    {
+     "en": "The Bardoli movement",
+     "as": "বাৰদোলি আন্দোলন"
+    },
+    {
+     "en": "The Moplah rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Phulaguri uprising was directed against British taxes including the pikan (opium) levy.",
+    "as": "ফুলগুৰি বিদ্ৰোহ পিকন (আফিং) কৰকে ধৰি ব্ৰিটিছ কৰৰ বিৰুদ্ধে আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-079",
+   "q": {
+    "en": "Which British-era rebellion in Assam was led by a religious leader?",
+    "as": "অসমত এজন ধৰ্মীয় নেতাৰ নেতৃত্বত হোৱা ব্ৰিটিছ কালৰ বিদ্ৰোহ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Phulaguri uprising",
+     "as": "ফুলগুৰি বিদ্ৰোহ"
+    },
+    {
+     "en": "The Sepoy Mutiny",
+     "as": "চিপাহী বিদ্ৰোহ"
+    },
+    {
+     "en": "The Santhal rebellion",
+     "as": "চাঁওতাল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Munda rebellion",
+     "as": "মুণ্ডা বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Phulaguri uprising was led by local leaders and had religious overtones against British rule.",
+    "as": "ফুলগুৰি বিদ্ৰোহ স্থানীয় নেতাসকলৰ নেতৃত্বত আছিল আৰু ব্ৰিটিছ শাসনৰ বিৰুদ্ধে ধৰ্মীয় আভাস আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-080",
+   "q": {
+    "en": "Which British-era uprising in Assam was against the exploitation of peasants by moneylenders?",
+    "as": "অসমত মহাজনে কৃষকসকলৰ শোষণৰ বিৰুদ্ধে হোৱা ব্ৰিটিছ কালৰ বিদ্ৰোহ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Phulaguri uprising",
+     "as": "ফুলগুৰি বিদ্ৰোহ"
+    },
+    {
+     "en": "The Champaran movement",
+     "as": "চম্পাৰণ আন্দোলন"
+    },
+    {
+     "en": "The Bardoli movement",
+     "as": "বাৰদোলি আন্দোলন"
+    },
+    {
+     "en": "The Moplah rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Phulaguri uprising reflected peasant anger against exploitation and heavy taxation.",
+    "as": "ফুলগুৰি বিদ্ৰোহ শোষণ আৰু গধুৰ কৰৰ বিৰুদ্ধে কৃষকৰ খঙৰ প্ৰতিফলন আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-081",
+   "q": {
+    "en": "Which session of the Indian National Congress was held in Assam in 1926?",
+    "as": "অসমত কিমান চনত ভাৰতীয় জাতীয় কংগ্ৰেছৰ অধিৱেশন অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1926 (Pandu, Guwahati)",
+     "as": "১৯২৬ (পাণ্ডু, গুৱাহাটী)"
+    },
+    {
+     "en": "1916",
+     "as": "১৯১৬"
+    },
+    {
+     "en": "1936",
+     "as": "১৯৩৬"
+    },
+    {
+     "en": "1946",
+     "as": "১৯৪৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 1926 session of the Indian National Congress was held at Pandu, Guwahati, in Assam.",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ ১৯২৬ চনৰ অধিৱেশন অসমৰ গুৱাহাটীৰ পাণ্ডুত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-082",
+   "q": {
+    "en": "Which session of the Indian National Congress was held at Pandu in Assam?",
+    "as": "অসমৰ পাণ্ডুত ভাৰতীয় জাতীয় কংগ্ৰেছৰ কোন অধিৱেশন অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The 1926 session",
+     "as": "১৯২৬ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1916 session",
+     "as": "১৯১৬ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1936 session",
+     "as": "১৯৩৬ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1946 session",
+     "as": "১৯৪৬ চনৰ অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian National Congress held its 1926 session at Pandu near Guwahati in Assam.",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছে অসমৰ গুৱাহাটীৰ ওচৰত পাণ্ডুত ইয়াৰ ১৯২৬ চনৰ অধিৱেশন অনুষ্ঠিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-083",
+   "q": {
+    "en": "Who presided over the 1926 Indian National Congress session at Pandu?",
+    "as": "পাণ্ডুত ১৯২৬ চনৰ ভাৰতীয় জাতীয় কংগ্ৰেছ অধিৱেশনৰ সভাপতিত্ব কোনে কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "S. Srinivasa Iyengar",
+     "as": "এছ. শ্ৰীনিৱাস আয়েংগাৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "S. Srinivasa Iyengar presided over the 1926 Congress session at Pandu, Assam.",
+    "as": "এছ. শ্ৰীনিৱাস আয়েংগাৰে অসমৰ পাণ্ডুত ১৯২৬ চনৰ কংগ্ৰেছ অধিৱেশনৰ সভাপতিত্ব কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-084",
+   "q": {
+    "en": "Which Assamese leader was a prominent figure in the Indian National Congress?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছত এজন বিশিষ্ট অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was a prominent Assamese leader of the Indian National Congress.",
+    "as": "গোপীনাথ বৰদলৈ ভাৰতীয় জাতীয় কংগ্ৰেছৰ এজন বিশিষ্ট অসমীয়া নেতা আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-085",
+   "q": {
+    "en": "Which Assamese leader is known as the 'Lokapriya'?",
+    "as": "কোন অসমীয়া নেতাক 'লোকপ্ৰিয়' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi is affectionately known as Lokapriya (beloved of the people).",
+    "as": "গোপীনাথ বৰদলৈক স্নেহভাৱে লোকপ্ৰিয় (জনপ্ৰিয়) বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-086",
+   "q": {
+    "en": "Who was the first Chief Minister of Assam after independence?",
+    "as": "স্বাধীনতাৰ পিছত অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi became the first Chief Minister of Assam after independence.",
+    "as": "গোপীনাথ বৰদলৈ স্বাধীনতাৰ পিছত অসমৰ প্ৰথম মুখ্যমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-087",
+   "q": {
+    "en": "Which Assamese leader was awarded the Bharat Ratna?",
+    "as": "কোন অসমীয়া নেতাক ভাৰতৰত্ন প্ৰদান কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was posthumously awarded the Bharat Ratna in 1999.",
+    "as": "গোপীনাথ বৰদলৈক ১৯৯৯ চনত মৰণোত্তৰভাৱে ভাৰতৰত্ন প্ৰদান কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-088",
+   "q": {
+    "en": "Which Assamese leader opposed the grouping of Assam with Pakistan during partition?",
+    "as": "বিভাজনৰ সময়ত অসমক পাকিস্তানৰ লগত সংযুক্ত কৰাৰ বিৰোধিতা কৰা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi strongly opposed the grouping of Assam with Pakistan and helped keep Assam in India.",
+    "as": "গোপীনাথ বৰদলৈয়ে অসমক পাকিস্তানৰ লগত সংযুক্ত কৰাৰ তীব্ৰ বিৰোধিতা কৰিছিল আৰু অসমক ভাৰতত ৰখাত সহায় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-089",
+   "q": {
+    "en": "Which plan proposed the grouping of Assam with Pakistan before independence?",
+    "as": "স্বাধীনতাৰ আগত অসমক পাকিস্তানৰ লগত সংযুক্ত কৰাৰ প্ৰস্তাৱ কোন পৰিকল্পনাই দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Cabinet Mission Plan",
+     "as": "কেবিনেট মিছন পৰিকল্পনা"
+    },
+    {
+     "en": "The Cripps Mission",
+     "as": "ক্ৰিপছ মিছন"
+    },
+    {
+     "en": "The Simon Commission",
+     "as": "চাইমন কমিশন"
+    },
+    {
+     "en": "The Wavell Plan",
+     "as": "ৱেভেল পৰিকল্পনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Cabinet Mission Plan of 1946 proposed grouping Assam with Bengal and Pakistan, which Bordoloi opposed.",
+    "as": "১৯৪৬ চনৰ কেবিনেট মিছন পৰিকল্পনাই অসমক বংগ আৰু পাকিস্তানৰ লগত সংযুক্ত কৰাৰ প্ৰস্তাৱ দিছিল, যাৰ বৰদলৈয়ে বিৰোধিতা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-090",
+   "q": {
+    "en": "Which Assamese leader worked to keep Assam out of Pakistan during partition?",
+    "as": "বিভাজনৰ সময়ত অসমক পাকিস্তানৰ বাহিৰত ৰাখিবলৈ কাম কৰা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi worked to keep Assam out of Pakistan and within India.",
+    "as": "গোপীনাথ বৰদলৈয়ে অসমক পাকিস্তানৰ বাহিৰত আৰু ভাৰতৰ ভিতৰত ৰাখিবলৈ কাম কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-091",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister during the 1962 Chinese aggression?",
+    "as": "১৯৬২ চনৰ চীন আক্ৰমণৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha was the Chief Minister of Assam during the 1962 Chinese aggression.",
+    "as": "১৯৬২ চনৰ চীন আক্ৰমণৰ সময়ত বিমলা প্ৰসাদ চলিহা অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-092",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister during the Assam Movement?",
+    "as": "অসম আন্দোলনৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiteswar Saikia was the Chief Minister of Assam during the later phase of the Assam Movement.",
+    "as": "অসম আন্দোলনৰ পিছৰ পৰ্যায়ত হিতেশ্বৰ শইকীয়া অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-093",
+   "q": {
+    "en": "Which Assamese leader signed the Assam Accord on behalf of the state government?",
+    "as": "অসম চুক্তি ৰাজ্য চৰকাৰৰ হৈ কোন অসমীয়া নেতাই স্বাক্ষৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiteswar Saikia signed the Assam Accord in 1985 on behalf of the state government.",
+    "as": "হিতেশ্বৰ শইকীয়াই ১৯৮৫ চনত ৰাজ্য চৰকাৰৰ হৈ অসম চুক্তিত স্বাক্ষৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-094",
+   "q": {
+    "en": "Who led the Assam Movement (1979-1985)?",
+    "as": "অসম আন্দোলন (১৯৭৯-১৯৮৫) কোনে নেতৃত্ব দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The All Assam Students' Union (AASU)",
+     "as": "সৰ্ব অসম ছাত্ৰ সন্থা (আছু)"
+    },
+    {
+     "en": "The Indian National Congress",
+     "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ"
+    },
+    {
+     "en": "The Communist Party",
+     "as": "কমিউনিষ্ট পাৰ্টী"
+    },
+    {
+     "en": "The Muslim League",
+     "as": "মুছলিম লীগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Movement was led by the All Assam Students' Union (AASU).",
+    "as": "অসম আন্দোলনৰ নেতৃত্ব সৰ্ব অসম ছাত্ৰ সন্থাই (আছু) দিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-095",
+   "q": {
+    "en": "In which year did the Assam Movement begin?",
+    "as": "অসম আন্দোলন কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1979 CE",
+     "as": "১৯৭৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1971 CE",
+     "as": "১৯৭১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1983 CE",
+     "as": "১৯৮৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Movement began in 1979 against illegal immigration.",
+    "as": "অসম আন্দোলন ১৯৭৯ চনত অবৈধ অনুপ্ৰৱেশৰ বিৰুদ্ধে আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-096",
+   "q": {
+    "en": "In which year was the Assam Accord signed?",
+    "as": "অসম চুক্তি কিমান চনত স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1979 CE",
+     "as": "১৯৭৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1983 CE",
+     "as": "১৯৮৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1990 CE",
+     "as": "১৯৯০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Accord was signed on 15 August 1985, ending the Assam Movement.",
+    "as": "অসম চুক্তি ১৯৮৫ চনৰ ১৫ আগষ্টত স্বাক্ষৰিত হৈছিল, অসম আন্দোলন অন্ত কৰি।"
+   }
+  },
+  {
+   "id": "assam-history-modern-097",
+   "q": {
+    "en": "Which Prime Minister signed the Assam Accord?",
+    "as": "অসম চুক্তিত কোন প্ৰধানমন্ত্ৰীয়ে স্বাক্ষৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rajiv Gandhi",
+     "as": "ৰাজীৱ গান্ধী"
+    },
+    {
+     "en": "Indira Gandhi",
+     "as": "ইন্দিৰা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Morarji Desai",
+     "as": "মোৰাৰজী দেশাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Prime Minister Rajiv Gandhi signed the Assam Accord in 1985.",
+    "as": "প্ৰধানমন্ত্ৰী ৰাজীৱ গান্ধীয়ে ১৯৮৫ চনত অসম চুক্তিত স্বাক্ষৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-098",
+   "q": {
+    "en": "What was the cut-off date for citizenship under the Assam Accord?",
+    "as": "অসম চুক্তিৰ অধীনত নাগৰিকত্বৰ বাবে কটাৰী তাৰিখ কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "25 March 1971",
+     "as": "২৫ মাৰ্চ ১৯৭১"
+    },
+    {
+     "en": "15 August 1947",
+     "as": "১৫ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "1 January 1966",
+     "as": "১ জানুৱাৰী ১৯৬৬"
+    },
+    {
+     "en": "25 March 1985",
+     "as": "২৫ মাৰ্চ ১৯৮৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Accord set 25 March 1971 as the cut-off date for citizenship.",
+    "as": "অসম চুক্তিয়ে নাগৰিকত্বৰ বাবে ২৫ মাৰ্চ ১৯৭১ কটাৰী তাৰিখ হিচাপে নিৰ্ধাৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-099",
+   "q": {
+    "en": "What was the major demand of the Assam Movement?",
+    "as": "অসম আন্দোলনৰ প্ৰধান দাবী কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Detection and deportation of illegal immigrants",
+     "as": "অবৈধ অনুপ্ৰৱেশকাৰী চিনাক্ত আৰু বহিষ্কাৰ"
+    },
+    {
+     "en": "Independence of Assam",
+     "as": "অসমৰ স্বাধীনতা"
+    },
+    {
+     "en": "Merger with Bengal",
+     "as": "বংগৰ লগত সংযুক্তি"
+    },
+    {
+     "en": "Formation of a new state",
+     "as": "এটা নতুন ৰাজ্য গঠন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Movement demanded the detection and deportation of illegal immigrants from Bangladesh.",
+    "as": "অসম আন্দোলনে বাংলাদেশৰ পৰা অহা অবৈধ অনুপ্ৰৱেশকাৰী চিনাক্ত আৰু বহিষ্কাৰৰ দাবী জনাইছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-100",
+   "q": {
+    "en": "Which massacre during the Assam Movement took place in 1983?",
+    "as": "অসম আন্দোলনৰ সময়ত ১৯৮৩ চনত সংঘটিত হোৱা হত্যাকাণ্ড কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Nellie massacre",
+     "as": "নেলী হত্যাকাণ্ড"
+    },
+    {
+     "en": "The Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ড"
+    },
+    {
+     "en": "The Chauri Chaura incident",
+     "as": "চৌৰী চৌৰা ঘটনা"
+    },
+    {
+     "en": "The Phulaguri uprising",
+     "as": "ফুলগুৰি বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nellie massacre of 1983 was a tragic event during the Assam Movement.",
+    "as": "১৯৮৩ চনৰ নেলী হত্যাকাণ্ড অসম আন্দোলনৰ সময়ত এটা কৰুণ ঘটনা আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-101",
+   "q": {
+    "en": "Which organization led the Assam Movement along with AASU?",
+    "as": "আছুৰ লগতে অসম আন্দোলনৰ নেতৃত্ব কোন সংগঠনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The All Assam Gana Sangram Parishad (AAGSP)",
+     "as": "সৰ্ব অসম গণ সংগ্ৰাম পৰিষদ (আগপ)"
+    },
+    {
+     "en": "The Indian National Congress",
+     "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ"
+    },
+    {
+     "en": "The Communist Party",
+     "as": "কমিউনিষ্ট পাৰ্টী"
+    },
+    {
+     "en": "The Muslim League",
+     "as": "মুছলিম লীগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Movement was led by AASU along with the All Assam Gana Sangram Parishad.",
+    "as": "অসম আন্দোলনৰ নেতৃত্ব আছুৰ লগতে সৰ্ব অসম গণ সংগ্ৰাম পৰিষদে দিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-102",
+   "q": {
+    "en": "Which Assamese leader was a prominent face of the Assam Movement?",
+    "as": "অসম আন্দোলনৰ এজন বিশিষ্ট মুখ কোন অসমীয়া নেতা আছিল?"
+   },
+   "options": [
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Prafulla Kumar Mahanta was a prominent leader of the Assam Movement and later Chief Minister.",
+    "as": "প্ৰফুল্ল কুমাৰ মহন্ত অসম আন্দোলনৰ এজন বিশিষ্ট নেতা আছিল আৰু পিছত মুখ্যমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-103",
+   "q": {
+    "en": "Which Assamese leader became Chief Minister after the Assam Accord?",
+    "as": "অসম চুক্তিৰ পিছত কোন অসমীয়া নেতা মুখ্যমন্ত্ৰী হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Prafulla Kumar Mahanta became Chief Minister of Assam after the Assam Accord in 1985.",
+    "as": "১৯৮৫ চনত অসম চুক্তিৰ পিছত প্ৰফুল্ল কুমাৰ মহন্ত অসমৰ মুখ্যমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-104",
+   "q": {
+    "en": "Which Assamese leader founded the Asom Gana Parishad?",
+    "as": "অসম গণ পৰিষদ কোন অসমীয়া নেতাই প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Prafulla Kumar Mahanta and others from AASU",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত আৰু আছুৰ আনসকল"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Asom Gana Parishad was founded by Prafulla Kumar Mahanta and other AASU leaders after the Assam Accord.",
+    "as": "অসম চুক্তিৰ পিছত প্ৰফুল্ল কুমাৰ মহন্ত আৰু আছুৰ আন নেতাসকলে অসম গণ পৰিষদ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-105",
+   "q": {
+    "en": "In which year was the Asom Gana Parishad formed?",
+    "as": "অসম গণ পৰিষদ কিমান চনত গঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1979 CE",
+     "as": "১৯৭৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1983 CE",
+     "as": "১৯৮৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1990 CE",
+     "as": "১৯৯০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Asom Gana Parishad was formed in 1985 after the Assam Accord.",
+    "as": "অসম চুক্তিৰ পিছত ১৯৮৫ চনত অসম গণ পৰিষদ গঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-106",
+   "q": {
+    "en": "Which foreign country was the source of the immigration contested during the Assam Movement?",
+    "as": "অসম আন্দোলনৰ সময়ত বিবাদিত অনুপ্ৰৱেশৰ উৎস কোন বিদেশ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bangladesh (formerly East Pakistan)",
+     "as": "বাংলাদেশ (পূৰ্বতে পূব পাকিস্তান)"
+    },
+    {
+     "en": "Nepal",
+     "as": "নেপাল"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভুটান"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The immigration contested during the Assam Movement came mainly from Bangladesh (formerly East Pakistan).",
+    "as": "অসম আন্দোলনৰ সময়ত বিবাদিত অনুপ্ৰৱেশ মূলত বাংলাদেশৰ (পূৰ্বতে পূব পাকিস্তান) পৰা আহিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-107",
+   "q": {
+    "en": "Which river islands of Assam were particularly affected by immigration during the Assam Movement?",
+    "as": "অসম আন্দোলনৰ সময়ত অনুপ্ৰৱেশৰ দ্বাৰা বিশেষভাৱে প্ৰভাৱিত অসমৰ নদী দ্বীপসমূহ কোনবোৰ?"
+   },
+   "options": [
+    {
+     "en": "The Brahmaputra char areas",
+     "as": "ব্ৰহ্মপুত্ৰৰ চৰ অঞ্চল"
+    },
+    {
+     "en": "Majuli only",
+     "as": "কেৱল মাজুলী"
+    },
+    {
+     "en": "Umananda only",
+     "as": "কেৱল উমানন্দ"
+    },
+    {
+     "en": "Peacock Island only",
+     "as": "কেৱল ময়ূৰ দ্বীপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Brahmaputra char (river island) areas of Assam were particularly affected by immigration.",
+    "as": "অসমৰ ব্ৰহ্মপুত্ৰৰ চৰ (নদী দ্বীপ) অঞ্চল অনুপ্ৰৱেশৰ দ্বাৰা বিশেষভাৱে প্ৰভাৱিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-108",
+   "q": {
+    "en": "Which Assamese leader was a prominent Gandhian during the freedom movement?",
+    "as": "স্বাধীনতা আন্দোলনৰ সময়ত এজন বিশিষ্ট গান্ধীবাদী অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was a prominent Gandhian leader during the freedom movement in Assam.",
+    "as": "গোপীনাথ বৰদলৈ অসমত স্বাধীনতা আন্দোলনৰ সময়ত এজন বিশিষ্ট গান্ধীবাদী নেতা আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-109",
+   "q": {
+    "en": "Which Assamese leader participated in the Non-Cooperation Movement?",
+    "as": "অসহযোগ আন্দোলনত অংশ লোৱা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi participated in the Non-Cooperation Movement in Assam.",
+    "as": "গোপীনাথ বৰদলৈয়ে অসমত অসহযোগ আন্দোলনত অংশ লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-110",
+   "q": {
+    "en": "Which Assamese leader participated in the Civil Disobedience Movement?",
+    "as": "আইন অমান্য আন্দোলনত অংশ লোৱা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi participated in the Civil Disobedience Movement in Assam.",
+    "as": "গোপীনাথ বৰদলৈয়ে অসমত আইন অমান্য আন্দোলনত অংশ লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-111",
+   "q": {
+    "en": "Which Assamese leader participated in the Quit India Movement?",
+    "as": "ভাৰত ছাড়ো আন্দোলনত অংশ লোৱা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi participated in the Quit India Movement in Assam.",
+    "as": "গোপীনাথ বৰদলৈয়ে অসমত ভাৰত ছাড়ো আন্দোলনত অংশ লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-112",
+   "q": {
+    "en": "Which Assamese leader was imprisoned during the freedom movement?",
+    "as": "স্বাধীনতা আন্দোলনৰ সময়ত কাৰাবৰণ কৰা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was imprisoned several times during the freedom movement.",
+    "as": "গোপীনাথ বৰদলৈক স্বাধীনতা আন্দোলনৰ সময়ত কেইবাবাৰো কাৰাবৰণ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-113",
+   "q": {
+    "en": "Which Assamese leader attended the Round Table Conference?",
+    "as": "গোলমেজ সন্মিলনত অংশ লোৱা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi attended the Round Table Conference as part of the Indian delegation.",
+    "as": "গোপীনাথ বৰদলৈয়ে ভাৰতীয় প্ৰতিনিধি দলৰ অংশ হিচাপে গোলমেজ সন্মিলনত অংশ লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-114",
+   "q": {
+    "en": "Which Assamese leader was a member of the Constituent Assembly of India?",
+    "as": "ভাৰতৰ সংবিধান সভাৰ সদস্য অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was a member of the Constituent Assembly of India.",
+    "as": "গোপীনাথ বৰদলৈ ভাৰতৰ সংবিধান সভাৰ সদস্য আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-115",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam for the longest period?",
+    "as": "আটাইতকৈ দীঘলীয়া সময় অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiteswar Saikia served as Chief Minister of Assam for the longest cumulative period.",
+    "as": "হিতেশ্বৰ শইকীয়াই আটাইতকৈ দীঘলীয়া সঞ্চিত সময় অসমৰ মুখ্যমন্ত্ৰী হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-116",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister during the anti-foreigners movement?",
+    "as": "বিদেশী বিৰোধী আন্দোলনৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiteswar Saikia was the Chief Minister of Assam during the anti-foreigners movement.",
+    "as": "বিদেশী বিৰোধী আন্দোলনৰ সময়ত হিতেশ্বৰ শইকীয়া অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-117",
+   "q": {
+    "en": "Which Assamese leader was associated with the Congress party in Assam?",
+    "as": "অসমত কংগ্ৰেছ দলৰ লগত জড়িত অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was a leading Congress leader in Assam.",
+    "as": "গোপীনাথ বৰদলৈ অসমত এজন প্ৰধান কংগ্ৰেছ নেতা আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-118",
+   "q": {
+    "en": "Which Assamese leader was associated with the Asom Gana Parishad?",
+    "as": "অসম গণ পৰিষদৰ লগত জড়িত অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Prafulla Kumar Mahanta was a leading leader of the Asom Gana Parishad.",
+    "as": "প্ৰফুল্ল কুমাৰ মহন্ত অসম গণ পৰিষদৰ এজন প্ৰধান নেতা আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-119",
+   "q": {
+    "en": "Which Assamese leader was a prominent socialist during the freedom movement?",
+    "as": "স্বাধীনতা আন্দোলনৰ সময়ত এজন বিশিষ্ট সমাজবাদী অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ambikagiri Raichoudhury was a prominent Assamese nationalist and poet.",
+    "as": "অম্বিকাগিৰি ৰায়চৌধুৰী এজন বিশিষ্ট অসমীয়া জাতীয়তাবাদী আৰু কবি আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-120",
+   "q": {
+    "en": "Who wrote the patriotic Assamese song 'O mur apunar dex'?",
+    "as": "দেশপ্ৰেমমূলক অসমীয়া গীত 'ও মোৰ আপোনাৰ দেশ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote the patriotic Assamese song 'O mur apunar dex'.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই দেশপ্ৰেমমূলক অসমীয়া গীত 'ও মোৰ আপোনাৰ দেশ' লিখিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-121",
+   "q": {
+    "en": "Which Assamese leader was known as 'Rupkonwar'?",
+    "as": "কোন অসমীয়া নেতাক 'ৰূপকোঁৱৰ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jyoti Prasad Agarwala",
+     "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jyoti Prasad Agarwala, a pioneer of Assamese cinema and culture, was known as Rupkonwar.",
+    "as": "জ্যোতিপ্ৰসাদ আগৰৱালা, অসমীয়া চলচ্চিত্ৰ আৰু সংস্কৃতিৰ এজন অগ্ৰণী, ৰূপকোঁৱৰ নামেৰে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-122",
+   "q": {
+    "en": "Who is regarded as the pioneer of Assamese cinema?",
+    "as": "অসমীয়া চলচ্চিত্ৰৰ অগ্ৰণী কোন বুলি গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Jyoti Prasad Agarwala",
+     "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jyoti Prasad Agarwala is regarded as the pioneer of Assamese cinema.",
+    "as": "জ্যোতিপ্ৰসাদ আগৰৱালাক অসমীয়া চলচ্চিত্ৰৰ অগ্ৰণী বুলি গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-123",
+   "q": {
+    "en": "Which was the first Assamese film?",
+    "as": "প্ৰথম অসমীয়া চলচ্চিত্ৰ কোনখন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Joymoti",
+     "as": "জয়মতী"
+    },
+    {
+     "en": "Indramalati",
+     "as": "ইন্দ্ৰমালতী"
+    },
+    {
+     "en": "Rongmon",
+     "as": "ৰংমন"
+    },
+    {
+     "en": "Maniraam Dewan",
+     "as": "মণিৰাম দেৱান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Joymoti (1935), directed by Jyoti Prasad Agarwala, was the first Assamese film.",
+    "as": "জয়মতী (১৯৩৫), জ্যোতিপ্ৰসাদ আগৰৱালাৰ পৰিচালনাত, প্ৰথম অসমীয়া চলচ্চিত্ৰ আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-124",
+   "q": {
+    "en": "In which year was the first Assamese film 'Joymoti' released?",
+    "as": "প্ৰথম অসমীয়া চলচ্চিত্ৰ 'জয়মতী' কিমান চনত মুক্তি লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1925 CE",
+     "as": "১৯২৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1955 CE",
+     "as": "১৯৫৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Joymoti, the first Assamese film, was released in 1935.",
+    "as": "জয়মতী, প্ৰথম অসমীয়া চলচ্চিত্ৰ, ১৯৩৫ চনত মুক্তি লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-125",
+   "q": {
+    "en": "Which Assamese cultural figure was known as 'Xewabrat'?",
+    "as": "কোন অসমীয়া সাংস্কৃতিক ব্যক্তিক 'সেৱাব্ৰত' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Jyoti Prasad Agarwala",
+     "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bishnu Prasad Rabha, a revolutionary cultural figure, was known as Kalaguru.",
+    "as": "বিষ্ণু প্ৰসাদ ৰাভা, এজন বিপ্লৱী সাংস্কৃতিক ব্যক্তি, কলাগুৰু নামেৰে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-126",
+   "q": {
+    "en": "Which Assamese cultural figure was known as 'Kalaguru'?",
+    "as": "কোন অসমীয়া সাংস্কৃতিক ব্যক্তিক 'কলাগুৰু' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Jyoti Prasad Agarwala",
+     "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bishnu Prasad Rabha is known as Kalaguru for his contributions to Assamese art and culture.",
+    "as": "অসমীয়া কলা আৰু সংস্কৃতিলৈ অৱদানৰ বাবে বিষ্ণু প্ৰসাদ ৰাভাক কলাগুৰু বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-127",
+   "q": {
+    "en": "Which Assamese cultural figure was known as 'Sahityarathi'?",
+    "as": "কোন অসমীয়া সাংস্কৃতিক ব্যক্তিক 'সাহিত্যৰথী' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Jyoti Prasad Agarwala",
+     "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa is known as Sahityarathi for his contributions to Assamese literature.",
+    "as": "অসমীয়া সাহিত্যলৈ অৱদানৰ বাবে লক্ষ্মীনাথ বেজবৰুৱাক সাহিত্যৰথী বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-128",
+   "q": {
+    "en": "Which Assamese poet was known as 'Kaviratna'?",
+    "as": "কোন অসমীয়া কবিক 'কবিৰত্ন' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Raghunath Choudhary",
+     "as": "ৰঘুনাথ চৌধাৰী"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raghunath Choudhary, known as the 'Bihogi Kabi', was a noted Assamese poet.",
+    "as": "ৰঘুনাথ চৌধাৰী, 'বিহগী কবি' নামেৰে জনা, এজন উল্লেখযোগ্য অসমীয়া কবি আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-129",
+   "q": {
+    "en": "Which Assamese poet was known as the 'Bihogi Kabi'?",
+    "as": "কোন অসমীয়া কবিক 'বিহগী কবি' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Raghunath Choudhary",
+     "as": "ৰঘুনাথ চৌধাৰী"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Ambikagiri Raichoudhury",
+     "as": "অম্বিকাগিৰি ৰায়চৌধুৰী"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raghunath Choudhary is known as the Bihogi Kabi for his nature poetry about birds.",
+    "as": "ৰঘুনাথ চৌধাৰীক চৰাইৰ বিষয়ে তেওঁৰ প্ৰকৃতি-কবিতাৰ বাবে বিহগী কবি বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-130",
+   "q": {
+    "en": "Which Assamese writer is known as the 'Father of Assamese novel'?",
+    "as": "'অসমীয়া উপন্যাসৰ পিতৃ' কোন অসমীয়া লেখক বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah is known as the father of the Assamese novel for 'Bhanumati'.",
+    "as": "পদ্মনাথ গোহাঞিবৰুৱাক 'ভানুমতী'ৰ বাবে অসমীয়া উপন্যাসৰ পিতৃ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-131",
+   "q": {
+    "en": "Which Assamese writer is known as the 'Father of Assamese drama'?",
+    "as": "'অসমীয়া নাটকৰ পিতৃ' কোন অসমীয়া লেখক বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah is known as the father of Assamese drama for his plays.",
+    "as": "পদ্মনাথ গোহাঞিবৰুৱাক তেওঁৰ নাটকৰ বাবে অসমীয়া নাটকৰ পিতৃ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-132",
+   "q": {
+    "en": "Which Assamese magazine did Lakshminath Bezbaroa edit?",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই কোন অসমীয়া আলোচনী সম্পাদনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Banhi",
+     "as": "বাঁহী"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদয়"
+    },
+    {
+     "en": "Ghar Jeuti",
+     "as": "ঘৰ জেউতি"
+    },
+    {
+     "en": "Awahon",
+     "as": "আৱাহন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa edited the influential Assamese magazine Banhi.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই প্ৰভাৱশালী অসমীয়া আলোচনী বাঁহী সম্পাদনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-133",
+   "q": {
+    "en": "Which Assamese magazine played a key role in the growth of Assamese literature in the early 20th century?",
+    "as": "বিংশ শতিকাৰ আৰম্ভণিতে অসমীয়া সাহিত্যৰ বিকাশত কোন অসমীয়া আলোচনীয়ে মূল ভূমিকা লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Banhi",
+     "as": "বাঁহী"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদয়"
+    },
+    {
+     "en": "Ghar Jeuti",
+     "as": "ঘৰ জেউতি"
+    },
+    {
+     "en": "Awahon",
+     "as": "আৱাহন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Banhi, edited by Lakshminath Bezbaroa, played a key role in the growth of Assamese literature.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাৰ সম্পাদনাত বাঁহীয়ে অসমীয়া সাহিত্যৰ বিকাশত মূল ভূমিকা লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-134",
+   "q": {
+    "en": "Which Assamese organization was founded for the growth of Assamese language and literature?",
+    "as": "অসমীয়া ভাষা আৰু সাহিত্যৰ বিকাশৰ বাবে কোন অসমীয়া সংগঠন প্ৰতিষ্ঠা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Assam Sahitya Sabha",
+     "as": "অসম সাহিত্য সভা"
+    },
+    {
+     "en": "The Indian National Congress",
+     "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ"
+    },
+    {
+     "en": "The Muslim League",
+     "as": "মুছলিম লীগ"
+    },
+    {
+     "en": "The Communist Party",
+     "as": "কমিউনিষ্ট পাৰ্টী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Sahitya Sabha was founded for the growth of Assamese language and literature.",
+    "as": "অসমীয়া ভাষা আৰু সাহিত্যৰ বিকাশৰ বাবে অসম সাহিত্য সভা প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-135",
+   "q": {
+    "en": "In which year was the Assam Sahitya Sabha founded?",
+    "as": "অসম সাহিত্য সভা কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1917 CE",
+     "as": "১৯১৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1907 CE",
+     "as": "১৯০৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1927 CE",
+     "as": "১৯২৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1937 CE",
+     "as": "১৯৩৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Sahitya Sabha was founded in 1917 for the promotion of Assamese language and literature.",
+    "as": "অসমীয়া ভাষা আৰু সাহিত্যৰ প্ৰচাৰৰ বাবে অসম সাহিত্য সভা ১৯১৭ চনত প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-136",
+   "q": {
+    "en": "Who was the first president of the Assam Sahitya Sabha?",
+    "as": "অসম সাহিত্য সভাৰ প্ৰথম সভাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah was the first president of the Assam Sahitya Sabha.",
+    "as": "পদ্মনাথ গোহাঞিবৰুৱা অসম সাহিত্য সভাৰ প্ৰথম সভাপতি আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-137",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister during the creation of Nagaland?",
+    "as": "নাগালেণ্ড সৃষ্টিৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha was the Chief Minister of Assam when Nagaland was created in 1963.",
+    "as": "১৯৬৩ চনত নাগালেণ্ড সৃষ্টিৰ সময়ত বিমলা প্ৰসাদ চলিহা অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-138",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister during the creation of Meghalaya?",
+    "as": "মেঘালয় সৃষ্টিৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha was the Chief Minister of Assam when Meghalaya was created.",
+    "as": "মেঘালয় সৃষ্টিৰ সময়ত বিমলা প্ৰসাদ চলিহা অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-139",
+   "q": {
+    "en": "In which year was Nagaland separated from Assam?",
+    "as": "নাগালেণ্ড কিমান চনত অসমৰ পৰা পৃথক কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1963 CE",
+     "as": "১৯৬৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1953 CE",
+     "as": "১৯৫৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1973 CE",
+     "as": "১৯৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1983 CE",
+     "as": "১৯৮৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nagaland was separated from Assam and became a state in 1963.",
+    "as": "নাগালেণ্ড অসমৰ পৰা পৃথক কৰি ১৯৬৩ চনত এটা ৰাজ্য হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-140",
+   "q": {
+    "en": "In which year was Meghalaya separated from Assam?",
+    "as": "মেঘালয় কিমান চনত অসমৰ পৰা পৃথক কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1972 CE",
+     "as": "১৯৭২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1962 CE",
+     "as": "১৯৬২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1982 CE",
+     "as": "১৯৮২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1992 CE",
+     "as": "১৯৯২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Meghalaya was separated from Assam and became a state in 1972.",
+    "as": "মেঘালয় অসমৰ পৰা পৃথক কৰি ১৯৭২ চনত এটা ৰাজ্য হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-141",
+   "q": {
+    "en": "In which year was Mizoram separated from Assam?",
+    "as": "মিজোৰাম কিমান চনত অসমৰ পৰা পৃথক কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1972 CE",
+     "as": "১৯৭২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1962 CE",
+     "as": "১৯৬২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1982 CE",
+     "as": "১৯৮২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1987 CE",
+     "as": "১৯৮৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mizoram was separated from Assam in 1972 and became a full state in 1987.",
+    "as": "মিজোৰাম ১৯৭২ চনত অসমৰ পৰা পৃথক কৰা হৈছিল আৰু ১৯৮৭ চনত পূৰ্ণ ৰাজ্য হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-142",
+   "q": {
+    "en": "In which year was Arunachal Pradesh separated from Assam?",
+    "as": "অৰুণাচল প্ৰদেশ কিমান চনত অসমৰ পৰা পৃথক কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1972 CE",
+     "as": "১৯৭২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1962 CE",
+     "as": "১৯৬২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1982 CE",
+     "as": "১৯৮২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1987 CE",
+     "as": "১৯৮৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Arunachal Pradesh (then NEFA) was separated from Assam's administration in 1972.",
+    "as": "অৰুণাচল প্ৰদেশ (তেতিয়াৰ নেফা) ১৯৭২ চনত অসমৰ প্ৰশাসনৰ পৰা পৃথক কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-143",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister when Arunachal Pradesh was separated?",
+    "as": "অৰুণাচল প্ৰদেশ পৃথক কৰাৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarat Chandra Sinha was the Chief Minister of Assam when Arunachal Pradesh was separated in 1972.",
+    "as": "১৯৭২ চনত অৰুণাচল প্ৰদেশ পৃথক কৰাৰ সময়ত সৰৎ চন্দ্ৰ সিংহ অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-144",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam in the 1970s?",
+    "as": "১৯৭০ৰ দশকত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarat Chandra Sinha was the Chief Minister of Assam in the early 1970s.",
+    "as": "১৯৭০ৰ দশকৰ আৰম্ভণিতে সৰৎ চন্দ্ৰ সিংহ অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-145",
+   "q": {
+    "en": "Which Assamese leader was the first Chief Minister of Assam to complete a full term?",
+    "as": "পূৰ্ণ কাৰ্যকাল সম্পূৰ্ণ কৰা অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bishnuram Medhi was among the early Chief Ministers of Assam after Bordoloi.",
+    "as": "বিষ্ণুৰাম মেধি বৰদলৈৰ পিছত অসমৰ প্ৰাৰম্ভিক মুখ্যমন্ত্ৰীসকলৰ এজন আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-146",
+   "q": {
+    "en": "Which Assamese leader was the Governor of Assam?",
+    "as": "অসমৰ ৰাজ্যপাল হোৱা অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bishnuram Medhi later served as the Governor of Madras, having been Chief Minister of Assam.",
+    "as": "বিষ্ণুৰাম মেধি অসমৰ মুখ্যমন্ত্ৰী হোৱাৰ পিছত মাদ্ৰাজৰ ৰাজ্যপাল হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-147",
+   "q": {
+    "en": "Which Assamese leader was associated with the Congress party's freedom struggle in Assam?",
+    "as": "অসমত কংগ্ৰেছ দলৰ স্বাধীনতা সংগ্ৰামৰ লগত জড়িত অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bishnuram Medhi was a Congress leader active in the freedom struggle in Assam.",
+    "as": "বিষ্ণুৰাম মেধি অসমত স্বাধীনতা সংগ্ৰামত সক্ৰিয় এজন কংগ্ৰেছ নেতা আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-148",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister during the 1962 war and the creation of Nagaland?",
+    "as": "১৯৬২ চনৰ যুদ্ধ আৰু নাগালেণ্ড সৃষ্টিৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha was Chief Minister during the 1962 war and the creation of Nagaland.",
+    "as": "১৯৬২ চনৰ যুদ্ধ আৰু নাগালেণ্ড সৃষ্টিৰ সময়ত বিমলা প্ৰসাদ চলিহা মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-149",
+   "q": {
+    "en": "Which Assamese leader was known for his role in the 1962 Chinese aggression relief efforts?",
+    "as": "১৯৬২ চনৰ চীন আক্ৰমণৰ সাহায্য কাৰ্যত ভূমিকাৰ বাবে কোন অসমীয়া নেতা জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha led Assam's relief and defence efforts during the 1962 Chinese aggression.",
+    "as": "১৯৬২ চনৰ চীন আক্ৰমণৰ সময়ত বিমলা প্ৰসাদ চলিহাই অসমৰ সাহায্য আৰু প্ৰতিৰক্ষা কাৰ্যৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-150",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam during the 1971 Bangladesh Liberation War?",
+    "as": "১৯৭১ চনৰ বাংলাদেশ মুক্তি যুদ্ধৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarat Chandra Sinha was the Chief Minister of Assam during the 1971 Bangladesh Liberation War.",
+    "as": "১৯৭১ চনৰ বাংলাদেশ মুক্তি যুদ্ধৰ সময়ত সৰৎ চন্দ্ৰ সিংহ অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-151",
+   "q": {
+    "en": "Which Assamese city received many refugees during the 1971 Bangladesh Liberation War?",
+    "as": "১৯৭১ চনৰ বাংলাদেশ মুক্তি যুদ্ধৰ সময়ত অসমৰ কোন চহৰে বহু শৰণাৰ্থী লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Silchar and other Barak valley towns",
+     "as": "শিলচৰ আৰু আন বৰাক উপত্যকাৰ চহৰ"
+    },
+    {
+     "en": "Shillong",
+     "as": "শ্বিলং"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Silchar and other Barak valley towns received many refugees during the 1971 war.",
+    "as": "১৯৭১ চনৰ যুদ্ধত শিলচৰ আৰু আন বৰাক উপত্যকাৰ চহৰে বহু শৰণাৰ্থী লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-152",
+   "q": {
+    "en": "Which Assamese leader worked for the rehabilitation of refugees after 1971?",
+    "as": "১৯৭১ চনৰ পিছত শৰণাৰ্থী পুনৰ্বাসনৰ বাবে কাম কৰা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarat Chandra Sinha's government worked for the rehabilitation of refugees after 1971.",
+    "as": "১৯৭১ চনৰ পিছত সৰৎ চন্দ্ৰ সিংহৰ চৰকাৰে শৰণাৰ্থী পুনৰ্বাসনৰ বাবে কাম কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-153",
+   "q": {
+    "en": "Which Assamese leader was a prominent figure in the Congress during the freedom movement and after?",
+    "as": "স্বাধীনতা আন্দোলন আৰু তাৰ পিছত কংগ্ৰেছত এজন বিশিষ্ট অসমীয়া ব্যক্তি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was a prominent Congress figure in Assam during and after the freedom movement.",
+    "as": "গোপীনাথ বৰদলৈ স্বাধীনতা আন্দোলনৰ সময়ত আৰু পিছত অসমত এজন বিশিষ্ট কংগ্ৰেছ ব্যক্তি আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-154",
+   "q": {
+    "en": "Which Assamese leader is remembered for his role in the 1942 Quit India Movement in Assam?",
+    "as": "অসমত ১৯৪২ চনৰ ভাৰত ছাড়ো আন্দোলনত ভূমিকাৰ বাবে কোন অসমীয়া নেতা স্মৰণ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi led the Quit India Movement in Assam and was imprisoned for it.",
+    "as": "গোপীনাথ বৰদলৈয়ে অসমত ভাৰত ছাড়ো আন্দোলনৰ নেতৃত্ব দিছিল আৰু ইয়াৰ বাবে কাৰাবৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-155",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister when Assam's capital shifted from Shillong?",
+    "as": "অসমৰ ৰাজধানী শ্বিলঙৰ পৰা স্থানান্তৰিত হোৱাৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam's capital later shifted from Shillong to Dispur, a process during the 1960s-70s.",
+    "as": "অসমৰ ৰাজধানী পিছত শ্বিলঙৰ পৰা দিছপুৰলৈ স্থানান্তৰিত হৈছিল, ১৯৬০-৭০ৰ দশকৰ প্ৰক্ৰিয়া।"
+   }
+  },
+  {
+   "id": "assam-history-modern-156",
+   "q": {
+    "en": "Which Assamese city became the capital of Assam after Shillong?",
+    "as": "শ্বিলঙৰ পিছত অসমৰ ৰাজধানী কোন চহৰ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Dispur (Guwahati)",
+     "as": "দিছপুৰ (গুৱাহাটী)"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dispur, within Guwahati, became the capital of Assam after Shillong.",
+    "as": "গুৱাহাটীৰ ভিতৰত দিছপুৰ শ্বিলঙৰ পিছত অসমৰ ৰাজধানী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-157",
+   "q": {
+    "en": "In which year did Dispur become the capital of Assam?",
+    "as": "দিছপুৰ কিমান চনত অসমৰ ৰাজধানী হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1973 CE",
+     "as": "১৯৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1963 CE",
+     "as": "১৯৬৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1983 CE",
+     "as": "১৯৮৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1993 CE",
+     "as": "১৯৯৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dispur became the capital of Assam in 1973 after Shillong became the capital of Meghalaya.",
+    "as": "শ্বিলং মেঘালয়ৰ ৰাজধানী হোৱাৰ পিছত ১৯৭৩ চনত দিছপুৰ অসমৰ ৰাজধানী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-158",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister when Dispur became the capital?",
+    "as": "দিছপুৰ ৰাজধানী হোৱাৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarat Chandra Sinha was the Chief Minister when Dispur became the capital of Assam in 1973.",
+    "as": "১৯৭৩ চনত দিছপুৰ অসমৰ ৰাজধানী হোৱাৰ সময়ত সৰৎ চন্দ্ৰ সিংহ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-159",
+   "q": {
+    "en": "Which Assamese leader was a prominent member of the Swaraj Party in Assam?",
+    "as": "অসমত স্বৰাজ দলৰ এজন বিশিষ্ট সদস্য কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was associated with the Congress and nationalist politics in Assam.",
+    "as": "গোপীনাথ বৰদলৈ অসমত কংগ্ৰেছ আৰু জাতীয়তাবাদী ৰাজনীতিৰ লগত জড়িত আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-160",
+   "q": {
+    "en": "Which Assamese leader opposed the partition of India?",
+    "as": "ভাৰত বিভাজনৰ বিৰোধিতা কৰা অসমীয়া নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi opposed the partition of India and worked to keep Assam in India.",
+    "as": "গোপীনাথ বৰদলৈয়ে ভাৰত বিভাজনৰ বিৰোধিতা কৰিছিল আৰু অসমক ভাৰতত ৰখাত কাম কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-161",
+   "q": {
+    "en": "Which Assamese leader is remembered as the 'architect of modern Assam'?",
+    "as": "'আধুনিক অসমৰ স্থপতি' হিচাপে কোন অসমীয়া নেতাক স্মৰণ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi is remembered as the architect of modern Assam for his leadership.",
+    "as": "গোপীনাথ বৰদলৈক তেওঁৰ নেতৃত্বৰ বাবে আধুনিক অসমৰ স্থপতি হিচাপে স্মৰণ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-162",
+   "q": {
+    "en": "Which Assamese leader was a key figure in the anti-colonial struggle in Assam?",
+    "as": "অসমত ঔপনিৱেশিকতা বিৰোধী সংগ্ৰামৰ এজন মূল ব্যক্তি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was a key figure in the anti-colonial struggle in Assam.",
+    "as": "গোপীনাথ বৰদলৈ অসমত ঔপনিৱেশিকতা বিৰোধী সংগ্ৰামৰ এজন মূল ব্যক্তি আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-163",
+   "q": {
+    "en": "In which year did India gain independence, ending British rule in Assam?",
+    "as": "কিমান চনত ভাৰতে স্বাধীনতা লাভ কৰিছিল, অসমত ব্ৰিটিছ শাসন অন্ত কৰি?"
+   },
+   "options": [
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1950 CE",
+     "as": "১৯৫০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1942 CE",
+     "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "India gained independence in 1947, ending British rule in Assam.",
+    "as": "ভাৰতে ১৯৪৭ চনত স্বাধীনতা লাভ কৰিছিল, অসমত ব্ৰিটিছ শাসন অন্ত কৰি।"
+   }
+  },
+  {
+   "id": "assam-history-modern-164",
+   "q": {
+    "en": "Which Assamese leader became the first Chief Minister of independent Assam?",
+    "as": "স্বাধীন অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন অসমীয়া নেতা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi became the first Chief Minister of independent Assam in 1947.",
+    "as": "১৯৪৭ চনত গোপীনাথ বৰদলৈ স্বাধীন অসমৰ প্ৰথম মুখ্যমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-165",
+   "q": {
+    "en": "In which year did the Assam Medical College start in Dibrugarh?",
+    "as": "অসম মেডিকেল কলেজ কিমান চনত ডিব্ৰুগড়ত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1937 CE",
+     "as": "১৯৩৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1957 CE",
+     "as": "১৯৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1967 CE",
+     "as": "১৯৬৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Medical College at Dibrugarh was established in 1947, the first medical college in Assam.",
+    "as": "ডিব্ৰুগড়ৰ অসম মেডিকেল কলেজ ১৯৪৭ চনত প্ৰতিষ্ঠা হৈছিল, অসমৰ প্ৰথম মেডিকেল কলেজ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-166",
+   "q": {
+    "en": "Which was the first medical college in Assam?",
+    "as": "অসমৰ প্ৰথম মেডিকেল কলেজ কোনখন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Assam Medical College, Dibrugarh",
+     "as": "অসম মেডিকেল কলেজ, ডিব্ৰুগড়"
+    },
+    {
+     "en": "Gauhati Medical College",
+     "as": "গুৱাহাটী মেডিকেল কলেজ"
+    },
+    {
+     "en": "Silchar Medical College",
+     "as": "শিলচৰ মেডিকেল কলেজ"
+    },
+    {
+     "en": "Jorhat Medical College",
+     "as": "যোৰহাট মেডিকেল কলেজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Medical College at Dibrugarh, established in 1947, was the first medical college in Assam.",
+    "as": "১৯৪৭ চনত প্ৰতিষ্ঠিত ডিব্ৰুগড়ৰ অসম মেডিকেল কলেজ অসমৰ প্ৰথম মেডিকেল কলেজ আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-167",
+   "q": {
+    "en": "Which university was the first to be established in Assam?",
+    "as": "অসমত প্ৰথমে কোন বিশ্ববিদ্যালয় প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Gauhati University",
+     "as": "গুৱাহাটী বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Dibrugarh University",
+     "as": "ডিব্ৰুগড় বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Tezpur University",
+     "as": "তেজপুৰ বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Assam University",
+     "as": "অসম বিশ্ববিদ্যালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gauhati University, established in 1948, was the first university in Assam.",
+    "as": "১৯৪৮ চনত প্ৰতিষ্ঠিত গুৱাহাটী বিশ্ববিদ্যালয় অসমৰ প্ৰথম বিশ্ববিদ্যালয় আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-168",
+   "q": {
+    "en": "In which year was Dibrugarh University established?",
+    "as": "ডিব্ৰুগড় বিশ্ববিদ্যালয় কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1965 CE",
+     "as": "১৯৬৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1955 CE",
+     "as": "১৯৫৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1975 CE",
+     "as": "১৯৭৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh University was established in 1965, the second university in Assam.",
+    "as": "ডিব্ৰুগড় বিশ্ববিদ্যালয় ১৯৬৫ চনত প্ৰতিষ্ঠা হৈছিল, অসমৰ দ্বিতীয় বিশ্ববিদ্যালয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-169",
+   "q": {
+    "en": "In which year was the Assam Agricultural University established?",
+    "as": "অসম কৃষি বিশ্ববিদ্যালয় কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1969 CE",
+     "as": "১৯৬৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1959 CE",
+     "as": "১৯৫৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1979 CE",
+     "as": "১৯৭৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1989 CE",
+     "as": "১৯৮৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Agricultural University was established in 1969 at Jorhat.",
+    "as": "অসম কৃষি বিশ্ববিদ্যালয় ১৯৬৯ চনত যোৰহাটত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-170",
+   "q": {
+    "en": "In which year was Tezpur University established?",
+    "as": "তেজপুৰ বিশ্ববিদ্যালয় কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1994 CE",
+     "as": "১৯৯৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1984 CE",
+     "as": "১৯৮৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2004 CE",
+     "as": "২০০৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2014 CE",
+     "as": "২০১৪ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tezpur University was established in 1994 as a central university.",
+    "as": "তেজপুৰ বিশ্ববিদ্যালয় ১৯৯৪ চনত এটা কেন্দ্ৰীয় বিশ্ববিদ্যালয় হিচাপে প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-171",
+   "q": {
+    "en": "Which Assamese city is known as the 'cultural capital' of Assam?",
+    "as": "অসমৰ কোন চহৰ 'সাংস্কৃতিক ৰাজধানী' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jorhat is often known as the cultural capital of Assam.",
+    "as": "যোৰহাট প্ৰায়ে অসমৰ সাংস্কৃতিক ৰাজধানী হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-172",
+   "q": {
+    "en": "Which Assamese city is known as the 'gateway to the north-east'?",
+    "as": "অসমৰ কোন চহৰ 'উত্তৰ-পূবৰ দুৱাৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati is known as the gateway to the north-east of India.",
+    "as": "গুৱাহাটী ভাৰতৰ উত্তৰ-পূবৰ দুৱাৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-173",
+   "q": {
+    "en": "Which Assamese city is known as the 'tea city' of India?",
+    "as": "ভাৰতৰ কোন অসমীয়া চহৰ 'চাহ নগৰী' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh is known as the tea city of India.",
+    "as": "ডিব্ৰুগড় ভাৰতৰ চাহ নগৰী হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-174",
+   "q": {
+    "en": "Which Assamese city is known as the 'Manchester of Assam'?",
+    "as": "অসমৰ কোন চহৰ 'অসমৰ মাঞ্চেষ্টাৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jorhat is sometimes known as the Manchester of Assam for its industries and institutions.",
+    "as": "উদ্যোগ আৰু প্ৰতিষ্ঠানৰ বাবে যোৰহাট কেতিয়াবা অসমৰ মাঞ্চেষ্টাৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-175",
+   "q": {
+    "en": "Which Assamese city is known as the 'city of hills'?",
+    "as": "অসমৰ কোন চহৰ 'পাহাৰৰ চহৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Haflong",
+     "as": "হাফলং"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Haflong, the headquarters of Dima Hasao district, is known as the city of hills.",
+    "as": "হাফলং, ডিমা হাছাও জিলাৰ সদৰ, পাহাৰৰ চহৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-176",
+   "q": {
+    "en": "Which Assamese district is known for its hills and the Karbi people?",
+    "as": "কোন অসমীয়া জিলা ইয়াৰ পাহাৰ আৰু কাৰ্বি লোকসকলৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Karbi Anglong district is known for its hills and the Karbi people.",
+    "as": "কাৰ্বি আংলং জিলা ইয়াৰ পাহাৰ আৰু কাৰ্বি লোকসকলৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-177",
+   "q": {
+    "en": "Which Assamese district is known for the Dimasa people?",
+    "as": "কোন অসমীয়া জিলা ডিমাছা লোকসকলৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dima Hasao district is known for the Dimasa people.",
+    "as": "ডিমা হাছাও জিলা ডিমাছা লোকসকলৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-178",
+   "q": {
+    "en": "Which autonomous council was created for the Bodo people of Assam?",
+    "as": "অসমৰ বড়ো লোকসকলৰ বাবে কোন স্বায়ত্তশাসিত পৰিষদ সৃষ্টি কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Bodoland Territorial Council",
+     "as": "বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল"
+    },
+    {
+     "en": "The Karbi Anglong Council",
+     "as": "কাৰ্বি আংলং পৰিষদ"
+    },
+    {
+     "en": "The Dima Hasao Council",
+     "as": "ডিমা হাছাও পৰিষদ"
+    },
+    {
+     "en": "The Mishing Council",
+     "as": "মিচিং পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bodoland Territorial Council was created for the Bodo people of Assam.",
+    "as": "অসমৰ বড়ো লোকসকলৰ বাবে বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল সৃষ্টি কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-179",
+   "q": {
+    "en": "In which year was the Bodoland Territorial Council created?",
+    "as": "বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল কিমান চনত সৃষ্টি কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2003 CE",
+     "as": "২০০৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1993 CE",
+     "as": "১৯৯৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1983 CE",
+     "as": "১৯৮৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2013 CE",
+     "as": "২০১৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bodoland Territorial Council was created in 2003 after the Bodo Accord.",
+    "as": "বড়ো চুক্তিৰ পিছত ২০০৩ চনত বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল সৃষ্টি কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-180",
+   "q": {
+    "en": "Which accord led to the creation of the Bodoland Territorial Council?",
+    "as": "কোন চুক্তিয়ে বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল সৃষ্টিলৈ লৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Bodo Accord of 2003",
+     "as": "২০০৩ চনৰ বড়ো চুক্তি"
+    },
+    {
+     "en": "The Assam Accord of 1985",
+     "as": "১৯৮৫ চনৰ অসম চুক্তি"
+    },
+    {
+     "en": "The Mizo Accord",
+     "as": "মিজো চুক্তি"
+    },
+    {
+     "en": "The Naga Accord",
+     "as": "নাগা চুক্তি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bodo Accord of 2003 led to the creation of the Bodoland Territorial Council.",
+    "as": "২০০৩ চনৰ বড়ো চুক্তিয়ে বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল সৃষ্টিলৈ লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-181",
+   "q": {
+    "en": "Which armed movement in Assam demanded a separate Bodo homeland?",
+    "as": "অসমত কোন সশস্ত্ৰ আন্দোলনে পৃথক বড়ো Homeland দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Bodo movement",
+     "as": "বড়ো আন্দোলন"
+    },
+    {
+     "en": "The Mizo movement",
+     "as": "মিজো আন্দোলন"
+    },
+    {
+     "en": "The Naga movement",
+     "as": "নাগা আন্দোলন"
+    },
+    {
+     "en": "The ULFA movement",
+     "as": "উলফা আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bodo movement demanded a separate homeland for the Bodo people.",
+    "as": "বড়ো আন্দোলনে বড়ো লোকসকলৰ বাবে এটা পৃথক Homeland দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-182",
+   "q": {
+    "en": "Which armed organization in Assam demanded a sovereign Assam?",
+    "as": "অসমত কোন সশস্ত্ৰ সংগঠনে এখন সাৰ্বভৌম অসম দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The United Liberation Front of Asom (ULFA)",
+     "as": "সংযুক্ত মুক্তি বাহিনী অসম (উলফা)"
+    },
+    {
+     "en": "The Bodo Liberation Tigers",
+     "as": "বড়ো লিবাৰেশ্যন টাইগাৰ্ছ"
+    },
+    {
+     "en": "The All Bodo Students Union",
+     "as": "সৰ্ব বড়ো ছাত্ৰ সন্থা"
+    },
+    {
+     "en": "The Naga National Council",
+     "as": "নাগা নেশ্যনেল কাউন্সিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "ULFA demanded a sovereign Assam through an armed struggle.",
+    "as": "উলফাই সশস্ত্ৰ সংগ্ৰামৰ জৰিয়তে এখন সাৰ্বভৌম অসম দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-183",
+   "q": {
+    "en": "In which year was ULFA formed?",
+    "as": "উলফা কিমান চনত গঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1979 CE",
+     "as": "১৯৭৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1969 CE",
+     "as": "১৯৬৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1989 CE",
+     "as": "১৯৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1999 CE",
+     "as": "১৯৯৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "ULFA was formed in 1979 amid the Assam Movement.",
+    "as": "অসম আন্দোলনৰ মাজত ১৯৭৯ চনত উলফা গঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-184",
+   "q": {
+    "en": "Which organization led the Bodo statehood movement?",
+    "as": "বড়ো ৰাজ্য আন্দোলনৰ নেতৃত্ব কোন সংগঠনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The All Bodo Students Union (ABSU)",
+     "as": "সৰ্ব বড়ো ছাত্ৰ সন্থা (আবছু)"
+    },
+    {
+     "en": "The United Liberation Front of Asom",
+     "as": "সংযুক্ত মুক্তি বাহিনী অসম"
+    },
+    {
+     "en": "The Naga National Council",
+     "as": "নাগা নেশ্যনেল কাউন্সিল"
+    },
+    {
+     "en": "The Mizo National Front",
+     "as": "মিজো নেশ্যনেল ফ্ৰণ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The All Bodo Students Union led the Bodo statehood movement.",
+    "as": "সৰ্ব বড়ো ছাত্ৰ সন্থাই বড়ো ৰাজ্য আন্দোলনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-185",
+   "q": {
+    "en": "Which Assamese movement demanded the creation of a separate state for the Bodos?",
+    "as": "কোন অসমীয়া আন্দোলনে বড়োসকলৰ বাবে পৃথক ৰাজ্য সৃষ্টিৰ দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Bodo statehood movement",
+     "as": "বড়ো ৰাজ্য আন্দোলন"
+    },
+    {
+     "en": "The Assam Movement",
+     "as": "অসম আন্দোলন"
+    },
+    {
+     "en": "The language movement",
+     "as": "ভাষা আন্দোলন"
+    },
+    {
+     "en": "The tea workers' movement",
+     "as": "চাহ শ্ৰমিক আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bodo statehood movement demanded a separate state for the Bodo people.",
+    "as": "বড়ো ৰাজ্য আন্দোলনে বড়ো লোকসকলৰ বাবে পৃথক ৰাজ্য দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-186",
+   "q": {
+    "en": "Which Assamese movement demanded a separate state for the Karbis?",
+    "as": "কোন অসমীয়া আন্দোলনে কাৰ্বিসকলৰ বাবে পৃথক ৰাজ্য দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Karbi statehood movement",
+     "as": "কাৰ্বি ৰাজ্য আন্দোলন"
+    },
+    {
+     "en": "The Assam Movement",
+     "as": "অসম আন্দোলন"
+    },
+    {
+     "en": "The language movement",
+     "as": "ভাষা আন্দোলন"
+    },
+    {
+     "en": "The tea workers' movement",
+     "as": "চাহ শ্ৰমিক আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Karbi statehood movement demanded a separate state for the Karbi people.",
+    "as": "কাৰ্বি ৰাজ্য আন্দোলনে কাৰ্বি লোকসকলৰ বাবে পৃথক ৰাজ্য দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-187",
+   "q": {
+    "en": "Which autonomous council was created for the Karbi people?",
+    "as": "কাৰ্বি লোকসকলৰ বাবে কোন স্বায়ত্তশাসিত পৰিষদ সৃষ্টি কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Karbi Anglong Autonomous Council",
+     "as": "কাৰ্বি আংলং স্বায়ত্তশাসিত পৰিষদ"
+    },
+    {
+     "en": "The Bodoland Territorial Council",
+     "as": "বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল"
+    },
+    {
+     "en": "The Dima Hasao Council",
+     "as": "ডিমা হাছাও পৰিষদ"
+    },
+    {
+     "en": "The Mishing Council",
+     "as": "মিচিং পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Karbi Anglong Autonomous Council was created for the Karbi people.",
+    "as": "কাৰ্বি লোকসকলৰ বাবে কাৰ্বি আংলং স্বায়ত্তশাসিত পৰিষদ সৃষ্টি কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-188",
+   "q": {
+    "en": "Which autonomous council was created for the Dimasa people?",
+    "as": "ডিমাছা লোকসকলৰ বাবে কোন স্বায়ত্তশাসিত পৰিষদ সৃষ্টি কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Dima Hasao Autonomous Council",
+     "as": "ডিমা হাছাও স্বায়ত্তশাসিত পৰিষদ"
+    },
+    {
+     "en": "The Bodoland Territorial Council",
+     "as": "বড়োলেণ্ড টেৰিটৰিয়েল কাউন্সিল"
+    },
+    {
+     "en": "The Karbi Anglong Council",
+     "as": "কাৰ্বি আংলং পৰিষদ"
+    },
+    {
+     "en": "The Mishing Council",
+     "as": "মিচিং পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dima Hasao Autonomous Council was created for the Dimasa people.",
+    "as": "ডিমাছা লোকসকলৰ বাবে ডিমা হাছাও স্বায়ত্তশাসিত পৰিষদ সৃষ্টি কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-189",
+   "q": {
+    "en": "In which year was the Assamese language made the official language of Assam after independence?",
+    "as": "স্বাধীনতাৰ পিছত কিমান চনত অসমীয়া ভাষা অসমৰ চৰকাৰী ভাষা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1960 CE",
+     "as": "১৯৬০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1970 CE",
+     "as": "১৯৭০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1980 CE",
+     "as": "১৯৮০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Official Language Act of 1960 made Assamese the official language of Assam.",
+    "as": "১৯৬০ চনৰ অসম চৰকাৰী ভাষা আইনে অসমীয়াক অসমৰ চৰকাৰী ভাষা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-190",
+   "q": {
+    "en": "Which act made Assamese the official language of Assam?",
+    "as": "কোন আইনে অসমীয়াক অসমৰ চৰকাৰী ভাষা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Assam Official Language Act, 1960",
+     "as": "অসম চৰকাৰী ভাষা আইন, ১৯৬০"
+    },
+    {
+     "en": "The Assam Accord",
+     "as": "অসম চুক্তি"
+    },
+    {
+     "en": "The Bodo Accord",
+     "as": "বড়ো চুক্তি"
+    },
+    {
+     "en": "The Government of India Act",
+     "as": "ভাৰত চৰকাৰ আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Official Language Act of 1960 made Assamese the official language of Assam.",
+    "as": "১৯৬০ চনৰ অসম চৰকাৰী ভাষা আইনে অসমীয়াক অসমৰ চৰকাৰী ভাষা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-191",
+   "q": {
+    "en": "Which language movement took place in Assam in 1960?",
+    "as": "১৯৬০ চনত অসমত কোন ভাষা আন্দোলন সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Assamese language movement",
+     "as": "অসমীয়া ভাষা আন্দোলন"
+    },
+    {
+     "en": "The Bengali language movement",
+     "as": "বঙালী ভাষা আন্দোলন"
+    },
+    {
+     "en": "The Hindi language movement",
+     "as": "হিন্দী ভাষা আন্দোলন"
+    },
+    {
+     "en": "The Bodo language movement",
+     "as": "বড়ো ভাষা আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assamese language movement of 1960 was for making Assamese the official language of Assam.",
+    "as": "১৯৬০ চনৰ অসমীয়া ভাষা আন্দোলন অসমীয়াক অসমৰ চৰকাৰী ভাষা কৰাৰ বাবে আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-192",
+   "q": {
+    "en": "Which valley of Assam protested against the Assamese language act of 1960?",
+    "as": "১৯৬০ চনৰ অসমীয়া ভাষা আইনৰ বিৰুদ্ধে অসমৰ কোন উপত্যকাই প্ৰতিবাদ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Barak valley",
+     "as": "বৰাক উপত্যকা"
+    },
+    {
+     "en": "The Brahmaputra valley",
+     "as": "ব্ৰহ্মপুত্ৰ উপত্যকা"
+    },
+    {
+     "en": "The Dhansiri valley",
+     "as": "ধনশিৰি উপত্যকা"
+    },
+    {
+     "en": "The Subansiri valley",
+     "as": "সুবনশিৰি উপত্যকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Barak valley protested against the Assam Official Language Act of 1960, leading to the language movement there.",
+    "as": "বৰাক উপত্যকাই ১৯৬০ চনৰ অসম চৰকাৰী ভাষা আইনৰ বিৰুদ্ধে প্ৰতিবাদ কৰিছিল, তাত ভাষা আন্দোলনলৈ লৈ গৈ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-193",
+   "q": {
+    "en": "Which incident in 1961 in the Barak valley was related to the language movement?",
+    "as": "বৰাক উপত্যকাত ১৯৬১ চনৰ কোন ঘটনা ভাষা আন্দোলনৰ লগত জড়িত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Silchar railway station firing",
+     "as": "শিলচৰ ৰে'ল ষ্টেচন গুলীবৰ্ষণ"
+    },
+    {
+     "en": "The Nellie massacre",
+     "as": "নেলী হত্যাকাণ্ড"
+    },
+    {
+     "en": "The Phulaguri uprising",
+     "as": "ফুলগুৰি বিদ্ৰোহ"
+    },
+    {
+     "en": "The Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Silchar railway station firing of 1961 occurred during the Barak valley language movement.",
+    "as": "১৯৬১ চনৰ শিলচৰ ৰে'ল ষ্টেচন গুলীবৰ্ষণ বৰাক উপত্যকাৰ ভাষা আন্দোলনৰ সময়ত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-194",
+   "q": {
+    "en": "In which year did the Silchar railway station firing take place?",
+    "as": "শিলচৰ ৰে'ল ষ্টেচন গুলীবৰ্ষণ কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1961 CE",
+     "as": "১৯৬১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1960 CE",
+     "as": "১৯৬০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1962 CE",
+     "as": "১৯৬২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1965 CE",
+     "as": "১৯৬৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Silchar railway station firing took place in 1961 during the language movement in the Barak valley.",
+    "as": "বৰাক উপত্যকাৰ ভাষা আন্দোলনৰ সময়ত ১৯৬১ চনত শিলচৰ ৰে'ল ষ্টেচন গুলীবৰ্ষণ সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-195",
+   "q": {
+    "en": "Which language is the official language of the Barak valley districts of Assam?",
+    "as": "অসমৰ বৰাক উপত্যকা জিলাসমূহৰ চৰকাৰী ভাষা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Bengali",
+     "as": "বঙালী"
+    },
+    {
+     "en": "Assamese",
+     "as": "অসমীয়া"
+    },
+    {
+     "en": "Hindi",
+     "as": "হিন্দী"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bengali is an official language in the Barak valley districts of Assam.",
+    "as": "অসমৰ বৰাক উপত্যকা জিলাসমূহত বঙালী এটা চৰকাৰী ভাষা।"
+   }
+  },
+  {
+   "id": "assam-history-modern-196",
+   "q": {
+    "en": "Which language was added as an associate official language of Assam?",
+    "as": "অসমৰ সহযোগী চৰকাৰী ভাষা হিচাপে কোন ভাষা যোগ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Hindi",
+     "as": "হিন্দী"
+    },
+    {
+     "en": "Bengali",
+     "as": "বঙালী"
+    },
+    {
+     "en": "Nepali",
+     "as": "নেপালী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bodo was added as an associate official language of Assam.",
+    "as": "বড়োক অসমৰ সহযোগী চৰকাৰী ভাষা হিচাপে যোগ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-197",
+   "q": {
+    "en": "In which year was Bodo made an associate official language of Assam?",
+    "as": "বড়োক কিমান চনত অসমৰ সহযোগী চৰকাৰী ভাষা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1975 CE",
+     "as": "১৯৭৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1995 CE",
+     "as": "১৯৯৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2003 CE",
+     "as": "২০০৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bodo was made an associate official language of Assam following the Assam Accord in 1985.",
+    "as": "১৯৮৫ চনৰ অসম চুক্তিৰ পিছত বড়োক অসমৰ সহযোগী চৰকাৰী ভাষা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-198",
+   "q": {
+    "en": "Which Assamese movement took place in 1972 for the rights of the people of the plains tribes?",
+    "as": "১৯৭২ চনত সমভূমি জনজাতিৰ লোকসকলৰ অধিকাৰৰ বাবে কোন অসমীয়া আন্দোলন সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The plains tribes movement",
+     "as": "সমভূমি জনজাতি আন্দোলন"
+    },
+    {
+     "en": "The Assam Movement",
+     "as": "অসম আন্দোলন"
+    },
+    {
+     "en": "The language movement",
+     "as": "ভাষা আন্দোলন"
+    },
+    {
+     "en": "The tea workers' movement",
+     "as": "চাহ শ্ৰমিক আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The plains tribes movement of 1972 demanded rights and recognition for the plains tribal communities of Assam.",
+    "as": "১৯৭২ চনৰ সমভূমি জনজাতি আন্দোলনে অসমৰ সমভূমি জনজাতি সমাজসমূহৰ অধিকাৰ আৰু স্বীকৃতি দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-199",
+   "q": {
+    "en": "Which Assamese movement demanded Scheduled Tribe status for various communities?",
+    "as": "কোন অসমীয়া আন্দোলনে বিভিন্ন সমাজৰ বাবে অনুসূচিত জনজাতি মৰ্যাদা দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Scheduled Tribe status movement",
+     "as": "অনুসূচিত জনজাতি মৰ্যাদা আন্দোলন"
+    },
+    {
+     "en": "The Assam Movement",
+     "as": "অসম আন্দোলন"
+    },
+    {
+     "en": "The language movement",
+     "as": "ভাষা আন্দোলন"
+    },
+    {
+     "en": "The tea workers' movement",
+     "as": "চাহ শ্ৰমিক আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Several communities in Assam demanded Scheduled Tribe status through various movements.",
+    "as": "অসমৰ কেইবাটাও সমাজে বিভিন্ন আন্দোলনৰ জৰিয়তে অনুসূচিত জনজাতি মৰ্যাদা দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-200",
+   "q": {
+    "en": "Which Assamese community was granted Scheduled Tribe status after a long movement?",
+    "as": "দীঘলীয়া আন্দোলনৰ পিছত কোন অসমীয়া সমাজক অনুসূচিত জনজাতি মৰ্যাদা প্ৰদান কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Mishing (Miri)",
+     "as": "মিচিং (মিৰি)"
+    },
+    {
+     "en": "The Ahoms",
+     "as": "আহোমসকল"
+    },
+    {
+     "en": "The Koch",
+     "as": "কোচসকল"
+    },
+    {
+     "en": "The Bengali Hindus",
+     "as": "বঙালী হিন্দুসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Communities such as the Mishing were granted Scheduled Tribe status in Assam.",
+    "as": "মিচিংৰ দৰে সমাজক অসমত অনুসূচিত জনজাতি মৰ্যাদা প্ৰদান কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-201",
+   "q": {
+    "en": "Which Assamese community demanded Scheduled Tribe status in the 1980s and 1990s?",
+    "as": "১৯৮০ আৰু ১৯৯০ৰ দশকত কোন অসমীয়া সমাজে অনুসূচিত জনজাতি মৰ্যাদা দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Ahoms and others",
+     "as": "আহোমসকল আৰু আনসকল"
+    },
+    {
+     "en": "The Bengali Hindus",
+     "as": "বঙালী হিন্দুসকল"
+    },
+    {
+     "en": "The Marwaris",
+     "as": "মাৰোৱাৰীসকল"
+    },
+    {
+     "en": "The Punjabis",
+     "as": "পঞ্জাবীসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Communities such as the Ahoms demanded Scheduled Tribe status in Assam in the 1980s and 1990s.",
+    "as": "আহোমৰ দৰে সমাজে ১৯৮০ আৰু ১৯৯০ৰ দশকত অসমত অনুসূচিত জনজাতি মৰ্যাদা দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-202",
+   "q": {
+    "en": "Which Assamese movement demanded Sixth Schedule status for the hills?",
+    "as": "কোন অসমীয়া আন্দোলনে পাহাৰৰ বাবে ষষ্ঠ অনুসূচী মৰ্যাদা দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Sixth Schedule movement",
+     "as": "ষষ্ঠ অনুসূচী আন্দোলন"
+    },
+    {
+     "en": "The Assam Movement",
+     "as": "অসম আন্দোলন"
+    },
+    {
+     "en": "The language movement",
+     "as": "ভাষা আন্দোলন"
+    },
+    {
+     "en": "The tea workers' movement",
+     "as": "চাহ শ্ৰমিক আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Various hill communities in Assam demanded Sixth Schedule status for autonomy.",
+    "as": "অসমৰ বিভিন্ন পাহাৰীয়া সমাজে স্বায়ত্তশাসনৰ বাবে ষষ্ঠ অনুসূচী মৰ্যাদা দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-203",
+   "q": {
+    "en": "Which Assamese movement was led by the tea garden workers?",
+    "as": "অসমত চাহ বাগিচাৰ শ্ৰমিকসকলে নেতৃত্ব দিয়া আন্দোলন কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The tea workers' movement for wages and rights",
+     "as": "মজুৰি আৰু অধিকাৰৰ বাবে চাহ শ্ৰমিক আন্দোলন"
+    },
+    {
+     "en": "The Assam Movement",
+     "as": "অসম আন্দোলন"
+    },
+    {
+     "en": "The language movement",
+     "as": "ভাষা আন্দোলন"
+    },
+    {
+     "en": "The Bodo movement",
+     "as": "বড়ো আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tea garden workers in Assam led movements for better wages and rights.",
+    "as": "অসমৰ চাহ বাগিচাৰ শ্ৰমিকসকলে উন্নত মজুৰি আৰু অধিকাৰৰ বাবে আন্দোলনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-204",
+   "q": {
+    "en": "Which Assamese leader is associated with the rights of the tea tribes?",
+    "as": "চাহ জনজাতিৰ অধিকাৰৰ লগত কোন অসমীয়া নেতা জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Various Adivasi leaders",
+     "as": "বিভিন্ন আদিবাসী নেতা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Various Adivasi leaders championed the rights of the tea tribes in Assam.",
+    "as": "বিভিন্ন আদিবাসী নেতাই অসমত চাহ জনজাতিৰ অধিকাৰৰ হকে মাত মাতিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-205",
+   "q": {
+    "en": "Which Assamese community is also known as 'Adivasi'?",
+    "as": "কোন অসমীয়া সমাজক 'আদিবাসী' বুলিও জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The tea tribes",
+     "as": "চাহ জনজাতি"
+    },
+    {
+     "en": "The Ahoms",
+     "as": "আহোমসকল"
+    },
+    {
+     "en": "The Bodos",
+     "as": "বড়োসকল"
+    },
+    {
+     "en": "The Mishings",
+     "as": "মিচিংসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The tea tribes of Assam are also known as the Adivasi community.",
+    "as": "অসমৰ চাহ জনজাতিক আদিবাসী সমাজ বুলিও জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-206",
+   "q": {
+    "en": "Which Assamese movement demanded the recognition of the Sadri language?",
+    "as": "কোন অসমীয়া আন্দোলনে সদৰী ভাষাৰ স্বীকৃতি দাবী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Sadri language movement",
+     "as": "সদৰী ভাষা আন্দোলন"
+    },
+    {
+     "en": "The Assamese language movement",
+     "as": "অসমীয়া ভাষা আন্দোলন"
+    },
+    {
+     "en": "The Bodo language movement",
+     "as": "বড়ো ভাষা আন্দোলন"
+    },
+    {
+     "en": "The Bengali language movement",
+     "as": "বঙালী ভাষা আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sadri language movement demanded recognition for Sadri, spoken by many tea garden communities.",
+    "as": "সদৰী ভাষা আন্দোলনে বহু চাহ বাগিচা সমাজে কোৱা সদৰী ভাষাৰ স্বীকৃতি দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-207",
+   "q": {
+    "en": "Which Assamese district is known for the Mishing community?",
+    "as": "কোন অসমীয়া জিলা মিচিং সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dhemaji and Majuli",
+     "as": "ধেমাজি আৰু মাজুলী"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dhemaji and Majuli districts are known for the Mishing community.",
+    "as": "ধেমাজি আৰু মাজুলী জিলা মিচিং সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-208",
+   "q": {
+    "en": "Which Assamese district is known for the Rabha community?",
+    "as": "কোন অসমীয়া জিলা ৰাভা সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Goalpara district is known for the Rabha community.",
+    "as": "গোৱালপাৰা জিলা ৰাভা সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-209",
+   "q": {
+    "en": "Which Assamese district is known for the Tiwa community?",
+    "as": "কোন অসমীয়া জিলা তিওৱা সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Morigaon and Nagaon",
+     "as": "মৰিগাঁও আৰু নগাঁও"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Morigaon and Nagaon districts are known for the Tiwa (Lalung) community.",
+    "as": "মৰিগাঁও আৰু নগাঁও জিলা তিওৱা (লালুং) সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-210",
+   "q": {
+    "en": "Which Assamese district is known for the Deori community?",
+    "as": "কোন অসমীয়া জিলা দেওৰী সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar and Lakhimpur",
+     "as": "শিৱসাগৰ আৰু লখিমপুৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sivasagar and Lakhimpur districts are known for the Deori community.",
+    "as": "শিৱসাগৰ আৰু লখিমপুৰ জিলা দেওৰী সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-211",
+   "q": {
+    "en": "Which Assamese district is known for the Sonowal Kachari community?",
+    "as": "কোন অসমীয়া জিলা সোণোৱাল কছাৰী সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh and Tinsukia",
+     "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh and Tinsukia districts are known for the Sonowal Kachari community.",
+    "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া জিলা সোণোৱাল কছাৰী সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-212",
+   "q": {
+    "en": "Which Assamese district is known for the Karbi community?",
+    "as": "কোন অসমীয়া জিলা কাৰ্বি সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Karbi Anglong district is known for the Karbi community.",
+    "as": "কাৰ্বি আংলং জিলা কাৰ্বি সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-213",
+   "q": {
+    "en": "Which Assamese district is known for the Dimasa community?",
+    "as": "কোন অসমীয়া জিলা ডিমাছা সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dima Hasao district is known for the Dimasa community.",
+    "as": "ডিমা হাছাও জিলা ডিমাছা সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-214",
+   "q": {
+    "en": "Which Assamese district is known for the Bodo community?",
+    "as": "কোন অসমীয়া জিলা বড়ো সমাজৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Kokrajhar and the Bodoland region",
+     "as": "কোকৰাঝাৰ আৰু বড়োলেণ্ড অঞ্চল"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kokrajhar and the Bodoland region are known for the Bodo community.",
+    "as": "কোকৰাঝাৰ আৰু বড়োলেণ্ড অঞ্চল বড়ো সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-215",
+   "q": {
+    "en": "Which Assamese district is known for the tea industry and gardens?",
+    "as": "কোন অসমীয়া জিলা চাহ শিল্প আৰু বাগিচাৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh district is known for the tea industry and its many tea gardens.",
+    "as": "ডিব্ৰুগড় জিলা চাহ শিল্প আৰু ইয়াৰ অসংখ্য চাহ বাগিচাৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-216",
+   "q": {
+    "en": "Which Assamese district is known for the oil industry?",
+    "as": "কোন অসমীয়া জিলা তেল শিল্পৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh and Sivasagar",
+     "as": "ডিব্ৰুগড় আৰু শিৱসাগৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh and Sivasagar districts are known for the oil industry, including Digboi.",
+    "as": "ডিব্ৰুগড় আৰু শিৱসাগৰ জিলা তেল শিল্পৰ বাবে জনা যায়, ডিগবৈকে ধৰি।"
+   }
+  },
+  {
+   "id": "assam-history-modern-217",
+   "q": {
+    "en": "Which Assamese district is known for the silk industry?",
+    "as": "কোন অসমীয়া জিলা ৰেচম শিল্পৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar and Jorhat",
+     "as": "শিৱসাগৰ আৰু যোৰহাট"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sivasagar and Jorhat districts are known for the muga silk industry.",
+    "as": "শিৱসাগৰ আৰু যোৰহাট জিলা মুগা ৰেচম শিল্পৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-218",
+   "q": {
+    "en": "Which Assamese city is known for the silk industry?",
+    "as": "কোন অসমীয়া চহৰ ৰেচম শিল্পৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sualkuchi, near Guwahati, is known as the silk town of Assam.",
+    "as": "গুৱাহাটীৰ ওচৰত শুৱালকুছি অসমৰ ৰেচম নগৰী হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-219",
+   "q": {
+    "en": "Which Assamese city is known as the 'Manchester of the East' for silk?",
+    "as": "ৰেচমৰ বাবে কোন অসমীয়া চহৰ 'পূবৰ মাঞ্চেষ্টাৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sualkuchi is known for its silk weaving, especially muga silk.",
+    "as": "শুৱালকুছি ইয়াৰ ৰেচম বয়ন, বিশেষকৈ মুগা ৰেচমৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-220",
+   "q": {
+    "en": "Which Assamese city is known for the oil refinery at Numaligarh?",
+    "as": "নুমলীগড়ত তেল শোধনাগাৰৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Numaligarh refinery is located in Golaghat district, Assam.",
+    "as": "নুমলীগড় শোধনাগাৰ অসমৰ গোলাঘাট জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-221",
+   "q": {
+    "en": "Which Assamese city is known for the Bongaigaon refinery?",
+    "as": "বঙাইগাঁও শোধনাগাৰৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bongaigaon refinery is located in Bongaigaon district, Assam.",
+    "as": "বঙাইগাঁও শোধনাগাৰ অসমৰ বঙাইগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-222",
+   "q": {
+    "en": "Which Assamese city is known for the Guwahati refinery?",
+    "as": "গুৱাহাটী শোধনাগাৰৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Guwahati refinery is located in Guwahati, Assam.",
+    "as": "গুৱাহাটী শোধনাগাৰ অসমৰ গুৱাহাটীত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-223",
+   "q": {
+    "en": "Which Assamese city is known for the Numaligarh refinery and the Golaghat district?",
+    "as": "নুমলীগড় শোধনাগাৰ আৰু গোলাঘাট জিলাৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Golaghat district is known for the Numaligarh refinery.",
+    "as": "গোলাঘাট জিলা নুমলীগড় শোধনাগাৰৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-224",
+   "q": {
+    "en": "Which Assamese national park is known for the one-horned rhinoceros?",
+    "as": "এশিঙীয়া গঁড়ৰ বাবে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-চৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga National Park in Assam is famous for the one-horned rhinoceros.",
+    "as": "অসমৰ কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-225",
+   "q": {
+    "en": "In which year was Kaziranga National Park established?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1925 CE",
+     "as": "১৯২৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1965 CE",
+     "as": "১৯৬৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga was established as a reserved forest in 1905 and later became a national park.",
+    "as": "কাজিৰঙা ১৯০৫ চনত এটা সংৰক্ষিত বন হিচাপে প্ৰতিষ্ঠা হৈছিল আৰু পিছত এটা ৰাষ্ট্ৰীয় উদ্যান হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-226",
+   "q": {
+    "en": "In which year was Kaziranga declared a national park?",
+    "as": "কাজিৰঙাক কিমান চনত ৰাষ্ট্ৰীয় উদ্যান ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1974 CE",
+     "as": "১৯৭৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1964 CE",
+     "as": "১৯৬৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1984 CE",
+     "as": "১৯৮৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1994 CE",
+     "as": "১৯৯৪ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga was declared a national park in 1974.",
+    "as": "কাজিৰঙাক ১৯৭৪ চনত ৰাষ্ট্ৰীয় উদ্যান ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-227",
+   "q": {
+    "en": "In which year was Kaziranga declared a UNESCO World Heritage Site?",
+    "as": "কাজিৰঙাক কিমান চনত ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1975 CE",
+     "as": "১৯৭৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1995 CE",
+     "as": "১৯৯৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2005 CE",
+     "as": "২০০৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga was declared a UNESCO World Heritage Site in 1985.",
+    "as": "কাজিৰঙাক ১৯৮৫ চনত ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-228",
+   "q": {
+    "en": "Which Assamese national park is known for the golden langur?",
+    "as": "সোণালী বান্দৰৰ বাবে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park in Assam is known for the golden langur and other wildlife.",
+    "as": "অসমৰ মানস ৰাষ্ট্ৰীয় উদ্যান সোণালী বান্দৰ আৰু আন বন্যপ্ৰাণীৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-229",
+   "q": {
+    "en": "Which Assamese national park is a UNESCO World Heritage Site along with Kaziranga?",
+    "as": "কাজিৰঙাৰ লগতে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-চৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park is a UNESCO World Heritage Site and a tiger reserve.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান এটা ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ আৰু বাঘ সংৰক্ষণ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-230",
+   "q": {
+    "en": "Which Assamese national park is known for the pygmy hog?",
+    "as": "পিগমী হগৰ বাবে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park is known for the endangered pygmy hog.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান বিপন্ন পিগমী হগৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-231",
+   "q": {
+    "en": "Which Assamese national park is known for the white-winged wood duck?",
+    "as": "বগা-পাখিৰ বনৰীয়া হাঁহৰ বাবে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nameri National Park is known for the white-winged wood duck.",
+    "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান বগা-পাখিৰ বনৰীয়া হাঁহৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-232",
+   "q": {
+    "en": "Which Assamese national park is known for the Bengal florican?",
+    "as": "বেংগল ফ্ল'ৰিকানৰ বাবে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park is known for the Bengal florican.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান বেংগল ফ্ল'ৰিকানৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-233",
+   "q": {
+    "en": "Which Assamese national park is known for the one-horned rhino and wild water buffalo?",
+    "as": "এশিঙীয়া গঁড় আৰু বনৰীয়া ম'হৰ বাবে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga National Park is known for the one-horned rhino and wild water buffalo.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান এশিঙীয়া গঁড় আৰু বনৰীয়া ম'হৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-234",
+   "q": {
+    "en": "Which Assamese national park is known for the tiger and elephant?",
+    "as": "বাঘ আৰু হাতীৰ বাবে কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-চৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga National Park has significant tiger and elephant populations.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানত উল্লেখযোগ্য বাঘ আৰু হাতীৰ জনসংখ্যা আছে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-235",
+   "q": {
+    "en": "Which Assamese national park is located in the Barak valley?",
+    "as": "বৰাক উপত্যকাত কোন অসমীয়া ৰাষ্ট্ৰীয় উদ্যান অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "No major national park (mainly reserved forests)",
+     "as": "কোনো প্ৰধান ৰাষ্ট্ৰীয় উদ্যান নাই (মূলত সংৰক্ষিত বন)"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Barak valley mainly has reserved forests rather than major national parks.",
+    "as": "বৰাক উপত্যকাত মূলত প্ৰধান ৰাষ্ট্ৰীয় উদ্যানৰ সলনি সংৰক্ষিত বন আছে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-236",
+   "q": {
+    "en": "Which Assamese biosphere reserve is known for its biodiversity?",
+    "as": "জৈৱ-বৈচিত্ৰ্যৰ বাবে কোন অসমীয়া জৈৱমণ্ডল সংৰক্ষণ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Manas Biosphere Reserve",
+     "as": "মানস জৈৱমণ্ডল সংৰক্ষণ"
+    },
+    {
+     "en": "Nameri Biosphere Reserve",
+     "as": "নামেৰী জৈৱমণ্ডল সংৰক্ষণ"
+    },
+    {
+     "en": "Kaziranga Biosphere Reserve",
+     "as": "কাজিৰঙা জৈৱমণ্ডল সংৰক্ষণ"
+    },
+    {
+     "en": "Orang Biosphere Reserve",
+     "as": "ওৰাং জৈৱমণ্ডল সংৰক্ষণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas is a biosphere reserve known for its rich biodiversity.",
+    "as": "মানস এটা জৈৱমণ্ডল সংৰক্ষণ যি ইয়াৰ সমৃদ্ধ জৈৱ-বৈচিত্ৰ্যৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-237",
+   "q": {
+    "en": "Which Assamese wetland is a Ramsar site?",
+    "as": "কোন অসমীয়া জলাশয় এটা ৰামছাৰ স্থান?"
+   },
+   "options": [
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    },
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    },
+    {
+     "en": "Son Beel",
+     "as": "সোণ বিল"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepor Beel, near Guwahati, is a Ramsar wetland site in Assam.",
+    "as": "গুৱাহাটীৰ ওচৰত দীপৰ বিল অসমত এটা ৰামছাৰ জলাশয় স্থান।"
+   }
+  },
+  {
+   "id": "assam-history-modern-238",
+   "q": {
+    "en": "Which Assamese lake is one of the largest in Assam and a Ramsar site?",
+    "as": "অসমৰ আটাইতকৈ ডাঙৰ হ্ৰদসমূহৰ এটা আৰু এটা ৰামছাৰ স্থান কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Son Beel",
+     "as": "সোণ বিল"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    },
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Son Beel in the Barak valley is one of the largest lakes in Assam and a Ramsar site.",
+    "as": "বৰাক উপত্যকাৰ সোণ বিল অসমৰ আটাইতকৈ ডাঙৰ হ্ৰদসমূহৰ এটা আৰু এটা ৰামছাৰ স্থান।"
+   }
+  },
+  {
+   "id": "assam-history-modern-239",
+   "q": {
+    "en": "Which Assamese lake is known for its scenic beauty in Karbi Anglong?",
+    "as": "কাৰ্বি আংলঙত ইয়াৰ মনোৰম সৌন্দৰ্যৰ বাবে কোন অসমীয়া হ্ৰদ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    },
+    {
+     "en": "Son Beel",
+     "as": "সোণ বিল"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chandubi Lake in Karbi Anglong is known for its scenic beauty.",
+    "as": "কাৰ্বি আংলঙৰ চান্দুবি হ্ৰদ ইয়াৰ মনোৰম সৌন্দৰ্যৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-240",
+   "q": {
+    "en": "Which Assamese river island is the largest river island in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ কোন অসমীয়া নদী দ্বীপ?"
+   },
+   "options": [
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    },
+    {
+     "en": "Umananda",
+     "as": "উমানন্দ"
+    },
+    {
+     "en": "Peacock Island",
+     "as": "ময়ূৰ দ্বীপ"
+    },
+    {
+     "en": "Bhavani Island",
+     "as": "ভৱানী দ্বীপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Majuli in the Brahmaputra is the largest river island in the world.",
+    "as": "ব্ৰহ্মপুত্ৰৰ মাজুলী বিশ্বৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-241",
+   "q": {
+    "en": "Which Assamese river island is a centre of Sattra culture?",
+    "as": "সত্ৰ সংস্কৃতিৰ কেন্দ্ৰ কোন অসমীয়া নদী দ্বীপ?"
+   },
+   "options": [
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    },
+    {
+     "en": "Umananda",
+     "as": "উমানন্দ"
+    },
+    {
+     "en": "Peacock Island",
+     "as": "ময়ূৰ দ্বীপ"
+    },
+    {
+     "en": "Bhavani Island",
+     "as": "ভৱানী দ্বীপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Majuli is a major centre of Sattra culture in Assam.",
+    "as": "মাজুলী অসমত সত্ৰ সংস্কৃতিৰ এটা প্ৰধান কেন্দ্ৰ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-242",
+   "q": {
+    "en": "Which Assamese river island is known for its mask-making tradition?",
+    "as": "ইয়াৰ মুখা নিৰ্মাণ পৰম্পৰাৰ বাবে কোন অসমীয়া নদী দ্বীপ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Majuli (Samaguri Sattra)",
+     "as": "মাজুলী (সমাগুৰি সত্ৰ)"
+    },
+    {
+     "en": "Umananda",
+     "as": "উমানন্দ"
+    },
+    {
+     "en": "Peacock Island",
+     "as": "ময়ূৰ দ্বীপ"
+    },
+    {
+     "en": "Bhavani Island",
+     "as": "ভৱানী দ্বীপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Majuli, especially the Samaguri Sattra, is known for its mask-making tradition.",
+    "as": "মাজুলী, বিশেষকৈ সমাগুৰি সত্ৰ, ইয়াৰ মুখা নিৰ্মাণ পৰম্পৰাৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-243",
+   "q": {
+    "en": "Which Assamese festival is celebrated as the harvest festival?",
+    "as": "কোন অসমীয়া উৎসৱ শস্য চপোৱাৰ উৎসৱ হিচাপে উদযাপন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব’হাগ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Rongali Bihu",
+     "as": "ৰঙালী বিহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Magh Bihu is celebrated as the harvest festival of Assam.",
+    "as": "মাঘ বিহু অসমৰ শস্য চপোৱাৰ উৎসৱ হিচাপে উদযাপন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-244",
+   "q": {
+    "en": "Which Assamese festival marks the Assamese New Year?",
+    "as": "কোন অসমীয়া উৎসৱে অসমীয়া নৱবৰ্ষ সূচায়?"
+   },
+   "options": [
+    {
+     "en": "Bohag Bihu",
+     "as": "ব’হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Bhogali Bihu",
+     "as": "ভোগালী বিহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bohag Bihu marks the Assamese New Year.",
+    "as": "ব’হাগ বিহুৱে অসমীয়া নৱবৰ্ষ সূচায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-245",
+   "q": {
+    "en": "Which Assamese festival is associated with the worship of ancestors?",
+    "as": "কোন অসমীয়া উৎসৱ পিতৃপূজাৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফি"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব’হাগ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Me-Dam-Me-Phi, the Ahom festival, is associated with the worship of ancestors.",
+    "as": "মে-দাম-মে-ফি, আহোম উৎসৱ, পিতৃপূজাৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-246",
+   "q": {
+    "en": "Which Assamese festival is associated with the goddess Kamakhya?",
+    "as": "কোন অসমীয়া উৎসৱ দেৱী কামাখ্যাৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Ambubachi Mela",
+     "as": "অম্বুবাচী মেলা"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব’হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ambubachi Mela at Kamakhya is associated with the goddess Kamakhya.",
+    "as": "কামাখ্যাত অম্বুবাচী মেলা দেৱী কামাখ্যাৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-247",
+   "q": {
+    "en": "Which Assamese festival is celebrated by the Bodo community?",
+    "as": "কোন অসমীয়া উৎসৱ বড়ো সমাজে উদযাপন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Bwisagu",
+     "as": "বিছাগু"
+    },
+    {
+     "en": "Ali-Ai-Ligang",
+     "as": "আলি-আই-লৃগাং"
+    },
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফি"
+    },
+    {
+     "en": "Ambubachi",
+     "as": "অম্বুবাচী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bwisagu is the chief festival of the Bodo community of Assam.",
+    "as": "বিছাগু অসমৰ বড়ো সমাজৰ প্ৰধান উৎসৱ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-248",
+   "q": {
+    "en": "Which Assamese festival is celebrated by the Mishing community?",
+    "as": "কোন অসমীয়া উৎসৱ মিচিং সমাজে উদযাপন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Ali-Ai-Ligang",
+     "as": "আলি-আই-লৃগাং"
+    },
+    {
+     "en": "Bwisagu",
+     "as": "বিছাগু"
+    },
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফি"
+    },
+    {
+     "en": "Ambubachi",
+     "as": "অম্বুবাচী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ali-Ai-Ligang is the chief festival of the Mishing community of Assam.",
+    "as": "আলি-আই-লৃগাং অসমৰ মিচিং সমাজৰ প্ৰধান উৎসৱ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-249",
+   "q": {
+    "en": "Which Assamese festival is celebrated by the Rabha community?",
+    "as": "কোন অসমীয়া উৎসৱ ৰাভা সমাজে উদযাপন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Baikho",
+     "as": "বাইখো"
+    },
+    {
+     "en": "Bwisagu",
+     "as": "বিছাগু"
+    },
+    {
+     "en": "Ali-Ai-Ligang",
+     "as": "আলি-আই-লৃগাং"
+    },
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Baikho is a festival of the Rabha community of Assam.",
+    "as": "বাইখো অসমৰ ৰাভা সমাজৰ এটা উৎসৱ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-250",
+   "q": {
+    "en": "Which Assamese festival is celebrated by the Tiwa community?",
+    "as": "কোন অসমীয়া উৎসৱ তিওৱা সমাজে উদযাপন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Jonbeel Mela",
+     "as": "জোনবিল মেলা"
+    },
+    {
+     "en": "Bwisagu",
+     "as": "বিছাগু"
+    },
+    {
+     "en": "Ali-Ai-Ligang",
+     "as": "আলি-আই-লৃগাং"
+    },
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jonbeel Mela is a traditional fair of the Tiwa community of Assam.",
+    "as": "জোনবিল মেলা অসমৰ তিওৱা সমাজৰ এটা পৰম্পৰাগত মেলা।"
+   }
+  },
+  {
+   "id": "assam-history-modern-251",
+   "q": {
+    "en": "Which Assamese fair is known for its barter system?",
+    "as": "কোন অসমীয়া মেলা ইয়াৰ বিনিময় ব্যৱস্থাৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jonbeel Mela",
+     "as": "জোনবিল মেলা"
+    },
+    {
+     "en": "Ambubachi Mela",
+     "as": "অম্বুবাচী মেলা"
+    },
+    {
+     "en": "Rash Mela",
+     "as": "ৰাস মেলা"
+    },
+    {
+     "en": "Bihu Mela",
+     "as": "বিহু মেলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jonbeel Mela is known for its traditional barter system.",
+    "as": "জোনবিল মেলা ইয়াৰ পৰম্পৰাগত বিনিময় ব্যৱস্থাৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-252",
+   "q": {
+    "en": "Which Assamese festival is associated with the Raas Leela?",
+    "as": "কোন অসমীয়া উৎসৱ ৰাস লীলাৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Raas Mahotsav",
+     "as": "ৰাস মহোৎসৱ"
+    },
+    {
+     "en": "Bihu",
+     "as": "বিহু"
+    },
+    {
+     "en": "Ambubachi",
+     "as": "অম্বুবাচী"
+    },
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Raas Mahotsav, celebrating Krishna's life, is associated with the Vaishnava tradition of Assam.",
+    "as": "ৰাস মহোৎসৱ, কৃষ্ণৰ জীৱন উদযাপন কৰি, অসমৰ বৈষ্ণৱ পৰম্পৰাৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-253",
+   "q": {
+    "en": "Which Assamese city is famous for the Raas Mahotsav?",
+    "as": "ৰাস মহোৎসৱৰ বাবে কোন অসমীয়া চহৰ বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nalbari and other towns of Assam are famous for the Raas Mahotsav.",
+    "as": "নলবাৰী আৰু অসমৰ আন চহৰ ৰাস মহোৎসৱৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-254",
+   "q": {
+    "en": "Which Assamese city is famous for the Kamakhya temple and the Ambubachi Mela?",
+    "as": "কামাখ্যা মন্দিৰ আৰু অম্বুবাচী মেলাৰ বাবে কোন অসমীয়া চহৰ বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati is famous for the Kamakhya temple and the Ambubachi Mela.",
+    "as": "গুৱাহাটী কামাখ্যা মন্দিৰ আৰু অম্বুবাচী মেলাৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-255",
+   "q": {
+    "en": "Which Assamese city is famous for the Ahom monuments and Rang Ghar?",
+    "as": "আহোম স্মৃতিস্তম্ভ আৰু ৰংঘৰৰ বাবে কোন অসমীয়া চহৰ বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sivasagar is famous for its Ahom monuments and the Rang Ghar.",
+    "as": "শিৱসাগৰ ইয়াৰ আহোম স্মৃতিস্তম্ভ আৰু ৰংঘৰৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-256",
+   "q": {
+    "en": "Which Assamese city is famous for the Kareng Ghar and Talatal Ghar?",
+    "as": "কাৰেং ঘৰ আৰু তলাতল ঘৰৰ বাবে কোন অসমীয়া চহৰ বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sivasagar is famous for the Kareng Ghar and Talatal Ghar of the Ahom period.",
+    "as": "শিৱসাগৰ আহোম কালৰ কাৰেং ঘৰ আৰু তলাতল ঘৰৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-257",
+   "q": {
+    "en": "Which Assamese city is known for the Charaideo Moidams?",
+    "as": "চৰাইদেউ মৈদামৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar (Charaideo)",
+     "as": "শিৱসাগৰ (চৰাইদেউ)"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Charaideo Moidams, near Sivasagar, are the royal burial mounds of the Ahom kings.",
+    "as": "শিৱসাগৰৰ ওচৰত চৰাইদেউ মৈদাম আহোম ৰজাসকলৰ ৰাজকীয় সমাধি-টিলা।"
+   }
+  },
+  {
+   "id": "assam-history-modern-258",
+   "q": {
+    "en": "Which Assamese city is known for the Tocklai Tea Research Centre?",
+    "as": "টকলাই চাহ গৱেষণা কেন্দ্ৰৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tocklai Tea Research Centre, a major tea research institute, is located in Jorhat.",
+    "as": "টকলাই চাহ গৱেষণা কেন্দ্ৰ, এটা প্ৰধান চাহ গৱেষণা প্ৰতিষ্ঠান, যোৰহাটত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-259",
+   "q": {
+    "en": "Which Assamese city is known for the Assam Agricultural University?",
+    "as": "অসম কৃষি বিশ্ববিদ্যালয়ৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Agricultural University is located in Jorhat.",
+    "as": "অসম কৃষি বিশ্ববিদ্যালয় যোৰহাটত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-260",
+   "q": {
+    "en": "Which Assamese city is known for the Assam Medical College?",
+    "as": "অসম মেডিকেল কলেজৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Medical College is located in Dibrugarh.",
+    "as": "অসম মেডিকেল কলেজ ডিব্ৰুগড়ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-261",
+   "q": {
+    "en": "Which Assamese city is known for the Gauhati Medical College?",
+    "as": "গুৱাহাটী মেডিকেল কলেজৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gauhati Medical College is located in Guwahati.",
+    "as": "গুৱাহাটী মেডিকেল কলেজ গুৱাহাটীত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-262",
+   "q": {
+    "en": "Which Assamese city is known for the Silchar Medical College?",
+    "as": "শিলচৰ মেডিকেল কলেজৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Silchar Medical College is located in Silchar, Barak valley.",
+    "as": "শিলচৰ মেডিকেল কলেজ বৰাক উপত্যকাৰ শিলচৰত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-263",
+   "q": {
+    "en": "Which Assamese city is known for the Assam University?",
+    "as": "অসম বিশ্ববিদ্যালয়ৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam University is a central university located at Silchar.",
+    "as": "অসম বিশ্ববিদ্যালয় শিলচৰত অৱস্থিত এটা কেন্দ্ৰীয় বিশ্ববিদ্যালয়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-264",
+   "q": {
+    "en": "Which Assamese city is known for the Tezpur University?",
+    "as": "তেজপুৰ বিশ্ববিদ্যালয়ৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tezpur University is located in Tezpur, Assam.",
+    "as": "তেজপুৰ বিশ্ববিদ্যালয় অসমৰ তেজপুৰত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-265",
+   "q": {
+    "en": "Which Assamese city is known for the Bodoland University?",
+    "as": "বড়োলেণ্ড বিশ্ববিদ্যালয়ৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bodoland University is located at Kokrajhar in Assam.",
+    "as": "বড়োলেণ্ড বিশ্ববিদ্যালয় অসমৰ কোকৰাঝাৰত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-266",
+   "q": {
+    "en": "Which Assamese leader was the first woman Chief Minister of Assam?",
+    "as": "অসমৰ প্ৰথম মহিলা মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Syeda Anwara Taimur",
+     "as": "ছৈয়দা আনোৱাৰা তাইমূৰ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Syeda Anwara Taimur was the first and only woman Chief Minister of Assam.",
+    "as": "ছৈয়দা আনোৱাৰা তাইমূৰ অসমৰ প্ৰথম আৰু একমাত্ৰ মহিলা মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-267",
+   "q": {
+    "en": "Which Assamese leader served as the Governor of Assam and other states?",
+    "as": "অসম আৰু আন ৰাজ্যৰ ৰাজ্যপাল হিচাপে কাৰ্যনিৰ্বাহ কৰা অসমীয়া নেতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bishnuram Medhi served as Chief Minister of Assam and later as Governor of Madras.",
+    "as": "বিষ্ণুৰাম মেধি অসমৰ মুখ্যমন্ত্ৰী হিচাপে আৰু পিছত মাদ্ৰাজৰ ৰাজ্যপাল হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-268",
+   "q": {
+    "en": "Which Assamese leader was a freedom fighter and the first Chief Minister of Assam?",
+    "as": "এজন স্বাধীনতা সংগ্ৰামী আৰু অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopinath Bordoloi was a freedom fighter and the first Chief Minister of Assam.",
+    "as": "গোপীনাথ বৰদলৈ এজন স্বাধীনতা সংগ্ৰামী আৰু অসমৰ প্ৰথম মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-269",
+   "q": {
+    "en": "Which Assamese leader was a prominent Congress Chief Minister in the 1950s and 1960s?",
+    "as": "১৯৫০ আৰু ১৯৬০ৰ দশকত এজন বিশিষ্ট কংগ্ৰেছ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha was a prominent Congress Chief Minister of Assam in the 1950s and 1960s.",
+    "as": "বিমলা প্ৰসাদ চলিহা ১৯৫০ আৰু ১৯৬০ৰ দশকত অসমৰ এজন বিশিষ্ট কংগ্ৰেছ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-270",
+   "q": {
+    "en": "Which Assamese leader was Chief Minister during the creation of Meghalaya and Mizoram?",
+    "as": "মেঘালয় আৰু মিজোৰাম সৃষ্টিৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha was Chief Minister during the creation of Meghalaya and Mizoram.",
+    "as": "মেঘালয় আৰু মিজোৰাম সৃষ্টিৰ সময়ত বিমলা প্ৰসাদ চলিহা মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-271",
+   "q": {
+    "en": "Which Assamese leader was Chief Minister during the 1960 language movement?",
+    "as": "১৯৬০ চনৰ ভাষা আন্দোলনৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bimala Prasad Chaliha was Chief Minister during the 1960 language movement in Assam.",
+    "as": "১৯৬০ চনৰ অসম ভাষা আন্দোলনৰ সময়ত বিমলা প্ৰসাদ চলিহা মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-272",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam in the 1980s?",
+    "as": "১৯৮০ৰ দশকত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiteswar Saikia and Prafulla Kumar Mahanta",
+     "as": "হিতেশ্বৰ শইকীয়া আৰু প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiteswar Saikia and Prafulla Kumar Mahanta were Chief Ministers of Assam in the 1980s.",
+    "as": "হিতেশ্বৰ শইকীয়া আৰু প্ৰফুল্ল কুমাৰ মহন্ত ১৯৮০ৰ দশকত অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-273",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam in the 1990s?",
+    "as": "১৯৯০ৰ দশকত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiteswar Saikia and Prafulla Kumar Mahanta",
+     "as": "হিতেশ্বৰ শইকীয়া আৰু প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiteswar Saikia and Prafulla Kumar Mahanta were Chief Ministers of Assam in the 1990s.",
+    "as": "হিতেশ্বৰ শইকীয়া আৰু প্ৰফুল্ল কুমাৰ মহন্ত ১৯৯০ৰ দশকত অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-274",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam in the 2000s?",
+    "as": "২০০০ৰ দশকত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Tarun Gogoi",
+     "as": "তৰুণ গগৈ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi",
+     "as": "বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Bimala Prasad Chaliha",
+     "as": "বিমলা প্ৰসাদ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tarun Gogoi served as Chief Minister of Assam for three consecutive terms from 2001.",
+    "as": "তৰুণ গগৈয়ে ২০০১ চনৰ পৰা তিনিটা ক্ৰমিক কাৰ্যকাল অসমৰ মুখ্যমন্ত্ৰী হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-275",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam for three consecutive terms?",
+    "as": "কোন অসমীয়া নেতা তিনিটা ক্ৰমিক কাৰ্যকাল অসমৰ মুখ্যমন্ত্ৰী আছিল?"
+   },
+   "options": [
+    {
+     "en": "Tarun Gogoi",
+     "as": "তৰুণ গগৈ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tarun Gogoi served three consecutive terms as Chief Minister of Assam from 2001 to 2016.",
+    "as": "তৰুণ গগৈয়ে ২০০১ৰ পৰা ২০১৬লৈ তিনিটা ক্ৰমিক কাৰ্যকাল অসমৰ মুখ্যমন্ত্ৰী হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-276",
+   "q": {
+    "en": "Which Assamese leader became Chief Minister of Assam in 2016?",
+    "as": "২০১৬ চনত অসমৰ মুখ্যমন্ত্ৰী কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarbananda Sonowal",
+     "as": "সৰ্বানন্দ সোণোৱাল"
+    },
+    {
+     "en": "Tarun Gogoi",
+     "as": "তৰুণ গগৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarbananda Sonowal became Chief Minister of Assam in 2016.",
+    "as": "সৰ্বানন্দ সোণোৱাল ২০১৬ চনত অসমৰ মুখ্যমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-277",
+   "q": {
+    "en": "Which Assamese leader became Chief Minister of Assam in 2021?",
+    "as": "২০২১ চনত অসমৰ মুখ্যমন্ত্ৰী কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Himanta Biswa Sarma",
+     "as": "হিমন্ত বিশ্ব শৰ্মা"
+    },
+    {
+     "en": "Tarun Gogoi",
+     "as": "তৰুণ গগৈ"
+    },
+    {
+     "en": "Sarbananda Sonowal",
+     "as": "সৰ্বানন্দ সোণোৱাল"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Himanta Biswa Sarma became Chief Minister of Assam in 2021.",
+    "as": "হিমন্ত বিশ্ব শৰ্মা ২০২১ চনত অসমৰ মুখ্যমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-278",
+   "q": {
+    "en": "Which Assamese leader was the Chief Minister of Assam in 2016 after the BJP-led alliance won?",
+    "as": "বিজেপি নেতৃত্বাধীন মিত্ৰজোঁট জয়ী হোৱাৰ পিছত ২০১৬ চনত অসমৰ মুখ্যমন্ত্ৰী কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarbananda Sonowal",
+     "as": "সৰ্বানন্দ সোণোৱাল"
+    },
+    {
+     "en": "Tarun Gogoi",
+     "as": "তৰুণ গগৈ"
+    },
+    {
+     "en": "Prafulla Kumar Mahanta",
+     "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+    },
+    {
+     "en": "Hiteswar Saikia",
+     "as": "হিতেশ্বৰ শইকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarbananda Sonowal became Chief Minister in 2016 after the BJP-led alliance won the Assam election.",
+    "as": "বিজেপি নেতৃত্বাধীন মিত্ৰজোঁটে অসম নিৰ্বাচন জয়ী হোৱাৰ পিছত ২০১৬ চনত সৰ্বানন্দ সোণোৱাল মুখ্যমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-279",
+   "q": {
+    "en": "Which Assamese leader is known for the 'Act East' policy focus on Assam?",
+    "as": "অসমৰ প্ৰতি 'এক্ট ইষ্ট' নীতিৰ গুৰুত্বৰ বাবে কোন অসমীয়া নেতা জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Various Chief Ministers and central leaders",
+     "as": "বিভিন্ন মুখ্যমন্ত্ৰী আৰু কেন্দ্ৰীয় নেতা"
+    },
+    {
+     "en": "Gopinath Bordoloi alone",
+     "as": "কেৱল গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Bishnuram Medhi alone",
+     "as": "কেৱল বিষ্ণুৰাম মেধি"
+    },
+    {
+     "en": "Sarat Chandra Sinha alone",
+     "as": "কেৱল সৰৎ চন্দ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Various Chief Ministers and central leaders promoted the Act East policy for Assam's development.",
+    "as": "বিভিন্ন মুখ্যমন্ত্ৰী আৰু কেন্দ্ৰীয় নেতাই অসমৰ বিকাশৰ বাবে এক্ট ইষ্ট নীতি আগবঢ়াইছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-280",
+   "q": {
+    "en": "Which Assamese city hosted the 2007 National Games?",
+    "as": "কোন অসমীয়া চহৰে ২০০৭ চনৰ ৰাষ্ট্ৰীয় ক্ৰীড়া আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati hosted the 2007 National Games of India.",
+    "as": "গুৱাহাটীয়ে ভাৰতৰ ২০০৭ চনৰ ৰাষ্ট্ৰীয় ক্ৰীড়া আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-281",
+   "q": {
+    "en": "Which Assamese city hosted the 2016 South Asian Games?",
+    "as": "কোন অসমীয়া চহৰে ২০১৬ চনৰ দক্ষিণ এছিয় ক্ৰীড়া আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guwahati and Shillong",
+     "as": "গুৱাহাটী আৰু শ্বিলং"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati and Shillong jointly hosted the 2016 South Asian Games.",
+    "as": "গুৱাহাটী আৰু শ্বিলঙে যুটীয়াভাৱে ২০১৬ চনৰ দক্ষিণ এছিয় ক্ৰীড়া আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-282",
+   "q": {
+    "en": "Which Assamese stadium is a major cricket venue?",
+    "as": "কোন অসমীয়া ষ্টেডিয়াম এটা প্ৰধান ক্ৰিকেট স্থান?"
+   },
+   "options": [
+    {
+     "en": "Barsapara Stadium",
+     "as": "বৰ্ষাপাৰা ষ্টেডিয়াম"
+    },
+    {
+     "en": "Nehru Stadium",
+     "as": "নেহৰু ষ্টেডিয়াম"
+    },
+    {
+     "en": "Indira Gandhi Stadium",
+     "as": "ইন্দিৰা গান্ধী ষ্টেডিয়াম"
+    },
+    {
+     "en": "Sarusajai Stadium",
+     "as": "সৰুসজাই ষ্টেডিয়াম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Barsapara Cricket Stadium in Guwahati is a major cricket venue in Assam.",
+    "as": "গুৱাহাটীৰ বৰ্ষাপাৰা ক্ৰিকেট ষ্টেডিয়াম অসমত এটা প্ৰধান ক্ৰিকেট স্থান।"
+   }
+  },
+  {
+   "id": "assam-history-modern-283",
+   "q": {
+    "en": "Which Assamese city is known for the Sarusajai sports complex?",
+    "as": "সৰুসজাই ক্ৰীড়া কমপ্লেক্সৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sarusajai sports complex is located in Guwahati, Assam.",
+    "as": "সৰুসজাই ক্ৰীড়া কমপ্লেক্স অসমৰ গুৱাহাটীত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-284",
+   "q": {
+    "en": "Which Assamese athlete won an Olympic medal?",
+    "as": "কোন অসমীয়া ক্ৰীড়াবিদে অলিম্পিক পদক জিকিছিল?"
+   },
+   "options": [
+    {
+     "en": "No Assamese athlete has won an individual Olympic medal",
+     "as": "কোনো অসমীয়া ক্ৰীড়াবিদে ব্যক্তিগত অলিম্পিক পদক জিকা নাই"
+    },
+    {
+     "en": "Several",
+     "as": "কেইবাজনো"
+    },
+    {
+     "en": "Many",
+     "as": "বহুজনে"
+    },
+    {
+     "en": "All",
+     "as": "সকলোৱে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "No Assamese athlete has yet won an individual Olympic medal.",
+    "as": "এতিয়ালৈকে কোনো অসমীয়া ক্ৰীড়াবিদে ব্যক্তিগত অলিম্পিক পদক জিকা নাই।"
+   }
+  },
+  {
+   "id": "assam-history-modern-285",
+   "q": {
+    "en": "Which Assamese boxer won a medal at the world level?",
+    "as": "বিশ্ব পৰ্যায়ত পদক জিকা অসমীয়া বক্সাৰ কোন?"
+   },
+   "options": [
+    {
+     "en": "Shiva Thapa",
+     "as": "শিৱ থাপা"
+    },
+    {
+     "en": "Mary Kom",
+     "as": "মেৰী কম"
+    },
+    {
+     "en": "Vijender Singh",
+     "as": "বিজেন্দৰ সিং"
+    },
+    {
+     "en": "Sushil Kumar",
+     "as": "সুশীল কুমাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shiva Thapa, an Assamese boxer, has won medals at the world and Asian levels.",
+    "as": "শিৱ থাপা, এজন অসমীয়া বক্সাৰ, বিশ্ব আৰু এছিয় পৰ্যায়ত পদক জিকিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-286",
+   "q": {
+    "en": "Which Assamese sportsperson is known in chess?",
+    "as": "দাবাত কোন অসমীয়া ক্ৰীড়াবিদ জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Various players from Assam",
+     "as": "অসমৰ বিভিন্ন খেলুৱৈ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Various chess players from Assam have represented the state and country.",
+    "as": "অসমৰ বিভিন্ন দাবা খেলুৱৈয়ে ৰাজ্য আৰু দেশক প্ৰতিনিধিত্ব কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-287",
+   "q": {
+    "en": "Which Assamese sportsperson is known in football?",
+    "as": "ফুটবলত কোন অসমীয়া ক্ৰীড়াবিদ জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Various players from Assam",
+     "as": "অসমৰ বিভিন্ন খেলুৱৈ"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Various football players from Assam have represented the state and country.",
+    "as": "অসমৰ বিভিন্ন ফুটবল খেলুৱৈয়ে ৰাজ্য আৰু দেশক প্ৰতিনিধিত্ব কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-288",
+   "q": {
+    "en": "Which Assamese sportsperson is known in athletics?",
+    "as": "এথলেটিকছত কোন অসমীয়া ক্ৰীড়াবিদ জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    },
+    {
+     "en": "Gopinath Bordoloi",
+     "as": "গোপীনাথ বৰদলৈ"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hima Das, the 'Dhing Express', is a noted Assamese sprinter.",
+    "as": "হিমা দাস, 'ঢিং এক্সপ্ৰেছ', এগৰাকী উল্লেখযোগ্য অসমীয়া ধাৱক।"
+   }
+  },
+  {
+   "id": "assam-history-modern-289",
+   "q": {
+    "en": "Which Assamese sprinter is known as the 'Dhing Express'?",
+    "as": "কোন অসমীয়া ধাৱকক 'ঢিং এক্সপ্ৰেছ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    },
+    {
+     "en": "Mary Kom",
+     "as": "মেৰী কম"
+    },
+    {
+     "en": "Sania Mirza",
+     "as": "ছানিয়া মিৰ্জা"
+    },
+    {
+     "en": "P. T. Usha",
+     "as": "পি. টি. উষা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hima Das, from Dhing in Assam, is known as the 'Dhing Express'.",
+    "as": "অসমৰ ঢিংৰ হিমা দাসক 'ঢিং এক্সপ্ৰেছ' বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-290",
+   "q": {
+    "en": "Which Assamese city is the birthplace of Hima Das?",
+    "as": "হিমা দাসৰ জন্মস্থান কোন অসমীয়া চহৰ?"
+   },
+   "options": [
+    {
+     "en": "Dhing (Nagaon)",
+     "as": "ঢিং (নগাঁও)"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hima Das was born in Dhing, Nagaon district, Assam.",
+    "as": "হিমা দাস অসমৰ নগাঁও জিলাৰ ঢিঙত জন্মগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-291",
+   "q": {
+    "en": "Which Assamese boxer is known as 'Magnificent Mary'?",
+    "as": "কোন অসমীয়া বক্সাৰক 'মেগনিফিচেণ্ট মেৰী' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Mary Kom",
+     "as": "মেৰী কম"
+    },
+    {
+     "en": "Shiva Thapa",
+     "as": "শিৱ থাপা"
+    },
+    {
+     "en": "Vijender Singh",
+     "as": "বিজেন্দৰ সিং"
+    },
+    {
+     "en": "Sushil Kumar",
+     "as": "সুশীল কুমাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mary Kom, a boxer from Manipur who trained in Assam, is known as 'Magnificent Mary'.",
+    "as": "মেৰী কম, মণিপুৰৰ এগৰাকী বক্সাৰ যিয়ে অসমত প্ৰশিক্ষণ লৈছিল, 'মেগনিফিচেণ্ট মেৰী' নামেৰে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-292",
+   "q": {
+    "en": "Which Assamese institution is the premier research institute for tea?",
+    "as": "চাহৰ বাবে অসমৰ প্ৰধান গৱেষণা প্ৰতিষ্ঠান কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Tocklai Tea Research Institute",
+     "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "Assam Agricultural University",
+     "as": "অসম কৃষি বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Gauhati University",
+     "as": "গুৱাহাটী বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "IIT Guwahati",
+     "as": "আইআইটি গুৱাহাটী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tocklai Tea Research Institute in Jorhat is the premier tea research institute in Assam.",
+    "as": "যোৰহাটৰ টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান অসমৰ প্ৰধান চাহ গৱেষণা প্ৰতিষ্ঠান।"
+   }
+  },
+  {
+   "id": "assam-history-modern-293",
+   "q": {
+    "en": "In which year was IIT Guwahati established?",
+    "as": "আইআইটি গুৱাহাটী কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1994 CE",
+     "as": "১৯৯৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1984 CE",
+     "as": "১৯৮৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2004 CE",
+     "as": "২০০৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1974 CE",
+     "as": "১৯৭৪ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "IIT Guwahati was established in 1994, a premier technical institute in Assam.",
+    "as": "আইআইটি গুৱাহাটী ১৯৯৪ চনত প্ৰতিষ্ঠা হৈছিল, অসমত এটা প্ৰধান কাৰিকৰী প্ৰতিষ্ঠান।"
+   }
+  },
+  {
+   "id": "assam-history-modern-294",
+   "q": {
+    "en": "In which year was NIT Silchar established?",
+    "as": "এনআইটি শিলচৰ কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1967 CE",
+     "as": "১৯৬৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1957 CE",
+     "as": "১৯৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1977 CE",
+     "as": "১৯৭৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1987 CE",
+     "as": "১৯৮৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "NIT Silchar was established in 1967 as a regional engineering college.",
+    "as": "এনআইটি শিলচৰ ১৯৬৭ চনত এটা আঞ্চলিক অভিযান্ত্ৰিক মহাবিদ্যালয় হিচাপে প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-295",
+   "q": {
+    "en": "In which year was the Assam Engineering College established?",
+    "as": "অসম অভিযান্ত্ৰিক মহাবিদ্যালয় কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1955 CE",
+     "as": "১৯৫৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1965 CE",
+     "as": "১৯৬৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1975 CE",
+     "as": "১৯৭৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Engineering College was established in 1955 at Guwahati.",
+    "as": "অসম অভিযান্ত্ৰিক মহাবিদ্যালয় ১৯৫৫ চনত গুৱাহাটীত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-history-modern-296",
+   "q": {
+    "en": "Which Assamese city is known for the Assam Engineering College?",
+    "as": "অসম অভিযান্ত্ৰিক মহাবিদ্যালয়ৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assam Engineering College is located in Guwahati.",
+    "as": "অসম অভিযান্ত্ৰিক মহাবিদ্যালয় গুৱাহাটীত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-297",
+   "q": {
+    "en": "Which Assamese city is known for the Assam Medical College and the tea industry?",
+    "as": "অসম মেডিকেল কলেজ আৰু চাহ শিল্পৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh is known for the Assam Medical College and the tea industry.",
+    "as": "ডিব্ৰুগড় অসম মেডিকেল কলেজ আৰু চাহ শিল্পৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-298",
+   "q": {
+    "en": "Which Assamese city is known for the Assam Agricultural University and Tocklai?",
+    "as": "অসম কৃষি বিশ্ববিদ্যালয় আৰু টকলাইৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jorhat is known for the Assam Agricultural University and the Tocklai Tea Research Institute.",
+    "as": "যোৰহাট অসম কৃষি বিশ্ববিদ্যালয় আৰু টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-299",
+   "q": {
+    "en": "Which Assamese city is known for Assam University?",
+    "as": "অসম বিশ্ববিদ্যালয়ৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam University is located at Silchar in the Barak valley.",
+    "as": "অসম বিশ্ববিদ্যালয় বৰাক উপত্যকাৰ শিলচৰত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-300",
+   "q": {
+    "en": "Which Assamese city is known for the Barak valley's culture?",
+    "as": "বৰাক উপত্যকাৰ সংস্কৃতিৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Silchar is a major cultural centre of the Barak valley.",
+    "as": "শিলচৰ বৰাক উপত্যকাৰ এটা প্ৰধান সাংস্কৃতিক কেন্দ্ৰ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-301",
+   "q": {
+    "en": "Which Assamese city is known for the Manipuri and Bengali communities?",
+    "as": "মণিপুৰী আৰু বঙালী সমাজৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Silchar and the Barak valley",
+     "as": "শিলচৰ আৰু বৰাক উপত্যকা"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Silchar and the Barak valley are known for their Manipuri and Bengali communities.",
+    "as": "শিলচৰ আৰু বৰাক উপত্যকা ইয়াৰ মণিপুৰী আৰু বঙালী সমাজৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-302",
+   "q": {
+    "en": "Which Assamese city is known for the Hajong community?",
+    "as": "হাজং সমাজৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Goalpara and the Garo hills border",
+     "as": "গোৱালপাৰা আৰু গাৰো পাহাৰ সীমান্ত"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Hajong community is found in Goalpara and along the Garo hills border of Assam.",
+    "as": "হাজং সমাজ গোৱালপাৰা আৰু অসমৰ গাৰো পাহাৰ সীমান্তত পোৱা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-303",
+   "q": {
+    "en": "Which Assamese community is known for the 'Baikho' festival?",
+    "as": "কোন অসমীয়া সমাজ 'বাইখো' উৎসৱৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Mishing community",
+     "as": "মিচিং সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Rabha community of Assam celebrates the Baikho festival.",
+    "as": "অসমৰ ৰাভা সমাজে বাইখো উৎসৱ উদযাপন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-304",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bwisagu' festival?",
+    "as": "কোন অসমীয়া সমাজ 'বিছাগু' উৎসৱৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    },
+    {
+     "en": "The Mishing community",
+     "as": "মিচিং সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bodo community of Assam celebrates the Bwisagu festival.",
+    "as": "অসমৰ বড়ো সমাজে বিছাগু উৎসৱ উদযাপন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-305",
+   "q": {
+    "en": "Which Assamese community is known for the 'Ali-Ai-Ligang' festival?",
+    "as": "কোন অসমীয়া সমাজ 'আলি-আই-লৃগাং' উৎসৱৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Mishing community",
+     "as": "মিচিং সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mishing community of Assam celebrates the Ali-Ai-Ligang festival.",
+    "as": "অসমৰ মিচিং সমাজে আলি-আই-লৃগাং উৎসৱ উদযাপন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-306",
+   "q": {
+    "en": "Which Assamese community is known for the 'Me-Dam-Me-Phi' festival?",
+    "as": "কোন অসমীয়া সমাজ 'মে-দাম-মে-ফি' উৎসৱৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Ahom community",
+     "as": "আহোম সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ahom community of Assam celebrates the Me-Dam-Me-Phi festival.",
+    "as": "অসমৰ আহোম সমাজে মে-দাম-মে-ফি উৎসৱ উদযাপন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-307",
+   "q": {
+    "en": "Which Assamese community is known for the 'Rongker' festival?",
+    "as": "কোন অসমীয়া সমাজ 'ৰংকেৰ' উৎসৱৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    },
+    {
+     "en": "The Mishing community",
+     "as": "মিচিং সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Karbi community of Assam celebrates the Rongker festival.",
+    "as": "অসমৰ কাৰ্বি সমাজে ৰংকেৰ উৎসৱ উদযাপন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-308",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bathou' religion?",
+    "as": "কোন অসমীয়া সমাজ 'বাথৌ' ধৰ্মৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    },
+    {
+     "en": "The Mishing community",
+     "as": "মিচিং সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bodo community follows the Bathou religion.",
+    "as": "বড়ো সমাজে বাথৌ ধৰ্ম অনুসৰণ কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-309",
+   "q": {
+    "en": "Which Assamese community is known for the 'Donyi-Polo' faith?",
+    "as": "কোন অসমীয়া সমাজ 'দonyi-পolo' বিশ্বাসৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Various tribal communities of the hills",
+     "as": "পাহাৰৰ বিভিন্ন জনজাতীয় সমাজ"
+    },
+    {
+     "en": "The Bengali community",
+     "as": "বঙালী সমাজ"
+    },
+    {
+     "en": "The Marwari community",
+     "as": "মাৰোৱাৰী সমাজ"
+    },
+    {
+     "en": "The Punjabi community",
+     "as": "পঞ্জাবী সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Donyi-Polo is followed by various tribal communities in the hills of the region.",
+    "as": "দonyi-পolo এই অঞ্চলৰ পাহাৰৰ বিভিন্ন জনজাতীয় সমাজে অনুসৰণ কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-310",
+   "q": {
+    "en": "Which Assamese community is known for the 'Sattra' institutions?",
+    "as": "কোন অসমীয়া সমাজ 'সত্ৰ' প্ৰতিষ্ঠানৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Vaishnava community of Assam is associated with the Sattra institutions.",
+    "as": "অসমৰ বৈষ্ণৱ সমাজ সত্ৰ প্ৰতিষ্ঠানৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-311",
+   "q": {
+    "en": "Which Assamese community is known for the 'Namghar' institutions?",
+    "as": "কোন অসমীয়া সমাজ 'নামঘৰ' প্ৰতিষ্ঠানৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Vaishnava community of Assam is associated with the Namghar institutions.",
+    "as": "অসমৰ বৈষ্ণৱ সমাজ নামঘৰ প্ৰতিষ্ঠানৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-312",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bhaona' performances?",
+    "as": "কোন অসমীয়া সমাজ 'ভাওনা' পৰিবেশনৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Vaishnava community of Assam performs Bhaona, a traditional theatrical form.",
+    "as": "অসমৰ বৈষ্ণৱ সমাজে ভাওনা, এটা পৰম্পৰাগত নাট্য ৰূপ পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-313",
+   "q": {
+    "en": "Which Assamese community is known for the 'Sattriya' dance?",
+    "as": "কোন অসমীয়া সমাজ 'সত্ৰীয়া' নৃত্যৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community of the Sattras",
+     "as": "সত্ৰৰ বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sattriya dance is performed by the Vaishnava community associated with the Sattras.",
+    "as": "সত্ৰীয়া নৃত্য সত্ৰসমূহৰ লগত জড়িত বৈষ্ণৱ সমাজে পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-314",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bihu' dance?",
+    "as": "কোন অসমীয়া সমাজ 'বিহু' নৃত্যৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "Only the Ahoms",
+     "as": "কেৱল আহোমসকল"
+    },
+    {
+     "en": "Only the Bodos",
+     "as": "কেৱল বড়োসকল"
+    },
+    {
+     "en": "Only the Mishings",
+     "as": "কেৱল মিচিংসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bihu dance is performed by all Assamese communities.",
+    "as": "বিহু নৃত্য অসমৰ সকলো সমাজে পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-315",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bagurumba' dance?",
+    "as": "কোন অসমীয়া সমাজ 'বগৰুম্বা' নৃত্যৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Ahom community",
+     "as": "আহোম সমাজ"
+    },
+    {
+     "en": "The Koch community",
+     "as": "কোচ সমাজ"
+    },
+    {
+     "en": "The Mishing community",
+     "as": "মিচিং সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bagurumba dance is a traditional dance of the Bodo community.",
+    "as": "বগৰুম্বা নৃত্য বড়ো সমাজৰ এটা পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-history-modern-316",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bhortal' dance?",
+    "as": "কোন অসমীয়া সমাজ 'ভৰতাল' নৃত্যৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhortal dance is associated with the Vaishnava tradition of Assam.",
+    "as": "ভৰতাল নৃত্য অসমৰ বৈষ্ণৱ পৰম্পৰাৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-317",
+   "q": {
+    "en": "Which Assamese community is known for the 'Ojapali' performance?",
+    "as": "কোন অসমীয়া সমাজ 'ওজাপালি' পৰিবেশনৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Various communities of Assam",
+     "as": "অসমৰ বিভিন্ন সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ojapali is a traditional narrative performance found among various communities of Assam.",
+    "as": "ওজাপালি অসমৰ বিভিন্ন সমাজত পোৱা এটা পৰম্পৰাগত আখ্যানমূলক পৰিবেশন।"
+   }
+  },
+  {
+   "id": "assam-history-modern-318",
+   "q": {
+    "en": "Which Assamese community is known for the 'Deodhani' dance?",
+    "as": "কোন অসমীয়া সমাজ 'দেওধনী' নৃত্যৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Shakti-worshipping communities",
+     "as": "শাক্ত উপাসক সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Deodhani dance is associated with the Shakti tradition of Assam.",
+    "as": "দেওধনী নৃত্য অসমৰ শাক্ত পৰম্পৰাৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-319",
+   "q": {
+    "en": "Which Assamese community is known for the 'Kushan' folk drama?",
+    "as": "কোন অসমীয়া সমাজ 'কুশান' লোকনাট্যৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Various communities of Assam",
+     "as": "অসমৰ বিভিন্ন সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kushan is a traditional folk drama form of Assam.",
+    "as": "কুশান অসমৰ এটা পৰম্পৰাগত লোকনাট্য ৰূপ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-320",
+   "q": {
+    "en": "Which Assamese community is known for the 'Ankiya Naat'?",
+    "as": "কোন অসমীয়া সমাজ 'অংকীয়া নাট'ৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ankiya Naat is a one-act play form associated with the Vaishnava tradition of Assam.",
+    "as": "অংকীয়া নাট অসমৰ বৈষ্ণৱ পৰম্পৰাৰ লগত জড়িত একাংকিক নাটকৰ ৰূপ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-321",
+   "q": {
+    "en": "Which Assamese community is known for the 'Borgeet'?",
+    "as": "কোন অসমীয়া সমাজ 'বৰগীত'ৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Borgeet is a devotional song form associated with the Vaishnava tradition of Assam.",
+    "as": "বৰগীত অসমৰ বৈষ্ণৱ পৰম্পৰাৰ লগত জড়িত ভক্তিমূলক গীতৰ ৰূপ।"
+   }
+  },
+  {
+   "id": "assam-history-modern-322",
+   "q": {
+    "en": "Which Assamese community is known for the 'Khol' instrument?",
+    "as": "কোন অসমীয়া সমাজ 'খোল' বাদ্যযন্ত্ৰৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The khol drum is used by the Vaishnava community in Assam.",
+    "as": "খোল ঢোল অসমত বৈষ্ণৱ সমাজে ব্যৱহাৰ কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-323",
+   "q": {
+    "en": "Which Assamese community is known for the 'Taal' instrument?",
+    "as": "কোন অসমীয়া সমাজ 'তাল' বাদ্যযন্ত্ৰৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Vaishnava community",
+     "as": "বৈষ্ণৱ সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The taal cymbals are used by the Vaishnava community in Assam.",
+    "as": "তাল কৰতাল অসমত বৈষ্ণৱ সমাজে ব্যৱহাৰ কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-324",
+   "q": {
+    "en": "Which Assamese community is known for the 'Pepa' instrument?",
+    "as": "কোন অসমীয়া সমাজ 'পেঁপা' বাদ্যযন্ত্ৰৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Mishing community",
+     "as": "মিচিং সমাজ"
+    },
+    {
+     "en": "The Bodo community",
+     "as": "বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community",
+     "as": "কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community",
+     "as": "ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The pepa, a buffalo-horn instrument, is played by the Mishing community of Assam.",
+    "as": "পেঁপা, ম'হৰ শিঙৰ বাদ্যযন্ত্ৰ, অসমৰ মিচিং সমাজে বজায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-325",
+   "q": {
+    "en": "Which Assamese community is known for the 'Dhol' instrument?",
+    "as": "কোন অসমীয়া সমাজ 'ঢোল' বাদ্যযন্ত্ৰৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The dhol drum is used by all Assamese communities in Bihu and other festivals.",
+    "as": "ঢোল বিহু আৰু আন উৎসৱত অসমৰ সকলো সমাজে ব্যৱহাৰ কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-326",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bamboo' craft?",
+    "as": "কোন অসমীয়া সমাজ 'বাঁহ' শিল্পৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bamboo craft is practised by all Assamese communities.",
+    "as": "বাঁহ শিল্প অসমৰ সকলো সমাজে অনুশীলন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-327",
+   "q": {
+    "en": "Which Assamese community is known for the 'Cane' craft?",
+    "as": "কোন অসমীয়া সমাজ 'বেত' শিল্পৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cane craft is practised by all Assamese communities.",
+    "as": "বেত শিল্প অসমৰ সকলো সমাজে অনুশীলন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-328",
+   "q": {
+    "en": "Which Assamese community is known for the 'Muga silk' weaving?",
+    "as": "কোন অসমীয়া সমাজ 'মুগা ৰেচম' বয়নৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muga silk weaving is practised by all Assamese communities.",
+    "as": "মুগা ৰেচম বয়ন অসমৰ সকলো সমাজে অনুশীলন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-329",
+   "q": {
+    "en": "Which Assamese community is known for the 'Eri silk' weaving?",
+    "as": "কোন অসমীয়া সমাজ 'এৰী ৰেচম' বয়নৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Eri silk weaving is practised by all Assamese communities.",
+    "as": "এৰী ৰেচম বয়ন অসমৰ সকলো সমাজে অনুশীলন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-330",
+   "q": {
+    "en": "Which Assamese community is known for the 'Pat silk' weaving?",
+    "as": "কোন অসমীয়া সমাজ 'পাট ৰেচম' বয়নৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pat silk weaving is practised by all Assamese communities.",
+    "as": "পাট ৰেচম বয়ন অসমৰ সকলো সমাজে অনুশীলন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-331",
+   "q": {
+    "en": "Which Assamese community is known for the 'Gamosa' weaving?",
+    "as": "কোন অসমীয়া সমাজ 'গামোচা' বয়নৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gamosa weaving is practised by all Assamese communities.",
+    "as": "গামোচা বয়ন অসমৰ সকলো সমাজে অনুশীলন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-332",
+   "q": {
+    "en": "Which Assamese community is known for the 'Japi' craft?",
+    "as": "কোন অসমীয়া সমাজ 'জাপি' শিল্পৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "All Assamese communities",
+     "as": "অসমৰ সকলো সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Japi making is practised by all Assamese communities.",
+    "as": "জাপি নিৰ্মাণ অসমৰ সকলো সমাজে অনুশীলন কৰে।"
+   }
+  },
+  {
+   "id": "assam-history-modern-333",
+   "q": {
+    "en": "Which Assamese community is known for the 'Bell-metal' craft?",
+    "as": "কোন অসমীয়া সমাজ 'কাঁহ' শিল্পৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Various communities of Assam",
+     "as": "অসমৰ বিভিন্ন সমাজ"
+    },
+    {
+     "en": "The Bodo community only",
+     "as": "কেৱল বড়ো সমাজ"
+    },
+    {
+     "en": "The Karbi community only",
+     "as": "কেৱল কাৰ্বি সমাজ"
+    },
+    {
+     "en": "The Rabha community only",
+     "as": "কেৱল ৰাভা সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bell-metal craft is practised by various communities of Assam, notably in Sarthebari.",
+    "as": "কাঁহ শিল্প অসমৰ বিভিন্ন সমাজে অনুশীলন কৰে, বিশেষকৈ সৰ্থেবাৰীত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-334",
+   "q": {
+    "en": "Which Assamese town is known for bell-metal craft?",
+    "as": "কাঁহ শিল্পৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sarthebari",
+     "as": "সৰ্থেবাৰী"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarthebari in Assam is known for its traditional bell-metal craft.",
+    "as": "অসমৰ সৰ্থেবাৰী ইয়াৰ পৰম্পৰাগত কাঁহ শিল্পৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-335",
+   "q": {
+    "en": "Which Assamese town is known for silk weaving?",
+    "as": "ৰেচম বয়নৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sualkuchi is known for silk weaving, especially muga silk.",
+    "as": "শুৱালকুছি ৰেচম বয়ন, বিশেষকৈ মুগা ৰেচমৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-336",
+   "q": {
+    "en": "Which Assamese town is known for the Kamakhya temple?",
+    "as": "কামাখ্যা মন্দিৰৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati is home to the Kamakhya temple.",
+    "as": "গুৱাহাটী কামাখ্যা মন্দিৰৰ স্থান।"
+   }
+  },
+  {
+   "id": "assam-history-modern-337",
+   "q": {
+    "en": "Which Assamese town is known for the Ahom monuments?",
+    "as": "আহোম স্মৃতিস্তম্ভৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sivasagar is known for its Ahom monuments.",
+    "as": "শিৱসাগৰ ইয়াৰ আহোম স্মৃতিস্তম্ভৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-338",
+   "q": {
+    "en": "Which Assamese town is known for the Moidams?",
+    "as": "মৈদামৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Charaideo",
+     "as": "চৰাইদেউ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Charaideo is known for the royal Moidams of the Ahom kings.",
+    "as": "চৰাইদেউ আহোম ৰজাসকলৰ ৰাজকীয় মৈদামৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-339",
+   "q": {
+    "en": "Which Assamese town is known for the tea gardens and the Brahmaputra?",
+    "as": "চাহ বাগিচা আৰু ব্ৰহ্মপুত্ৰৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibrugarh, on the Brahmaputra, is known for its tea gardens.",
+    "as": "ব্ৰহ্মপুত্ৰৰ পাৰত ডিব্ৰুগড় ইয়াৰ চাহ বাগিচাৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-340",
+   "q": {
+    "en": "Which Assamese town is known for the Kaziranga National Park?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Golaghat and Nagaon",
+     "as": "গোলাঘাট আৰু নগাঁও"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga National Park spans the Golaghat and Nagaon districts of Assam.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমৰ গোলাঘাট আৰু নগাঁও জিলাজুৰি বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-341",
+   "q": {
+    "en": "Which Assamese town is known for the Manas National Park?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যানৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Barpeta and Chirang",
+     "as": "বৰপেটা আৰু চিৰাং"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park is located in the Barpeta and Chirang districts of Assam.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান অসমৰ বৰপেটা আৰু চিৰাং জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-342",
+   "q": {
+    "en": "Which Assamese town is known for the Nameri National Park?",
+    "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যানৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nameri National Park is located in the Sonitpur district of Assam.",
+    "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান অসমৰ শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-343",
+   "q": {
+    "en": "Which Assamese town is known for the Orang National Park?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যানৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orang National Park is located in the Darrang and Sonitpur districts of Assam.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান অসমৰ দৰং আৰু শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-344",
+   "q": {
+    "en": "Which Assamese town is known for the Dibru-Saikhowa National Park?",
+    "as": "ডিব্ৰু-চৈখোৱা ৰাষ্ট্ৰীয় উদ্যানৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh and Tinsukia",
+     "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is located in the Dibrugarh and Tinsukia districts of Assam.",
+    "as": "ডিব্ৰু-চৈখোৱা ৰাষ্ট্ৰীয় উদ্যান অসমৰ ডিব্ৰুগড় আৰু তিনিচুকীয়া জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-345",
+   "q": {
+    "en": "Which Assamese town is known for the Pobitora Wildlife Sanctuary?",
+    "as": "পবিতৰা বন্যপ্ৰাণী অভয়াৰণ্যৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Morigaon",
+     "as": "মৰিগাঁও"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary, known for its rhinos, is located in Morigaon district, Assam.",
+    "as": "পবিতৰা বন্যপ্ৰাণী অভয়াৰণ্য, ইয়াৰ গঁড়ৰ বাবে জনা, অসমৰ মৰিগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-346",
+   "q": {
+    "en": "Which Assamese town is known for the Deepor Beel?",
+    "as": "দীপৰ বিলৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepor Beel, a Ramsar wetland, is located near Guwahati in Assam.",
+    "as": "দীপৰ বিল, এটা ৰামছাৰ জলাশয়, অসমৰ গুৱাহাটীৰ ওচৰত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-347",
+   "q": {
+    "en": "Which Assamese town is known for the Majuli island?",
+    "as": "মাজুলী দ্বীপৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Majuli, the world's largest river island, is reached from Jorhat in Assam.",
+    "as": "মাজুলী, বিশ্বৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ, অসমৰ যোৰহাটৰ পৰা পোৱা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-348",
+   "q": {
+    "en": "Which Assamese town is known for the Sattras of Majuli?",
+    "as": "মাজুলীৰ সত্ৰসমূহৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sattras of Majuli are reached from Jorhat in Assam.",
+    "as": "মাজুলীৰ সত্ৰসমূহ অসমৰ যোৰহাটৰ পৰা পোৱা যায়।"
+   }
+  },
+  {
+   "id": "assam-history-modern-349",
+   "q": {
+    "en": "Which Assamese town is known for the Ahom capital of Rangpur?",
+    "as": "ৰংপুৰ আহোম ৰাজধানীৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rangpur, a former Ahom capital, is located in present-day Sivasagar district, Assam.",
+    "as": "ৰংপুৰ, এটা পূৰ্বৰ আহোম ৰাজধানী, বৰ্তমান অসমৰ শিৱসাগৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-history-modern-350",
+   "q": {
+    "en": "Which Assamese town is known for the Ahom capital of Gargaon?",
+    "as": "গড়গাঁও আহোম ৰাজধানীৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gargaon, a former Ahom capital, is located in present-day Sivasagar district, Assam.",
+    "as": "গড়গাঁও, এটা পূৰ্বৰ আহোম ৰাজধানী, বৰ্তমান অসমৰ শিৱসাগৰ জিলাত অৱস্থিত।"
+   }
+  }
  ]
 };
