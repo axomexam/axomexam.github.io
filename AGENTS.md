@@ -242,6 +242,13 @@ so the EN/AS toggle stays aligned. Source blocks for those 12 live in
 `/workspace/gen/nb_*.py`; `python3 /workspace/gen/patch_notes.py` splices them
 into the notes file, replacing only the keys it defines and preserving key order.
 
+The seven History topics carry their long article in a separate module,
+`tools/adre-grade-3.history-notes.js`, merged over the base NOTES in
+`tools/adre-grade-3.structure.js` (the dedicated module wins per key). Each of
+the seven (Assam Ancient/Medieval/Modern, Indian Ancient/Medieval/Modern, World
+History) is 1300+ words in English and 1000+ in Assamese. Add new long topics
+here rather than editing the base notes file, to keep that file's diff small.
+
 The mathematics topic tree mirrors the 23-topic practice section under
 `data/content/math/`. `basic-mensuration` is the Class 8/10 mensuration topic
 and is kept alongside the deeper `mensuration-2d` and `mensuration-3d`. The
