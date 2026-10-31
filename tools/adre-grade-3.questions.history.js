@@ -42010,5 +42010,10507 @@ module.exports = {
     "as": "গুপ্তোত্তৰ কালত আঞ্চলিক ভাষা আৰু সাহিত্যৰ বিকাশ ঘটিছিল।"
    }
   }
+ ],
+ "indian-history-medieval": [
+  {
+   "id": "indian-history-medieval-001",
+   "q": {
+    "en": "Who founded the Slave (Mamluk) dynasty of Delhi?",
+    "as": "দিল্লীৰ দাস (মামলুক) বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Qutb-ud-din Aibak founded the Slave dynasty of Delhi in 1206.",
+    "as": "কুতুবুদ্দিন আইবকে ১২০৬ চনত দিল্লীৰ দাস বংশ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-002",
+   "q": {
+    "en": "In which year was the Delhi Sultanate established?",
+    "as": "দিল্লী সুলতানী কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1206 CE",
+     "as": "১২০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1192 CE",
+     "as": "১১৯২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1210 CE",
+     "as": "১২১০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1290 CE",
+     "as": "১২৯০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Delhi Sultanate was established in 1206 CE by Qutb-ud-din Aibak.",
+    "as": "দিল্লী সুলতানী ১২০৬ খ্ৰীষ্টাব্দত কুতুবুদ্দিন আইবকৰ দ্বাৰা প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-003",
+   "q": {
+    "en": "Which monument was begun by Qutb-ud-din Aibak and completed by Iltutmish?",
+    "as": "কোন স্মৃতিস্তম্ভ কুতুবুদ্দিন আইবকে আৰম্ভ কৰি ইলতুতমিছে সম্পূৰ্ণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Qutub Minar",
+     "as": "কুতুব মিনাৰ"
+    },
+    {
+     "en": "The Taj Mahal",
+     "as": "তাজমহল"
+    },
+    {
+     "en": "The Red Fort",
+     "as": "লাল কিলা"
+    },
+    {
+     "en": "The Charminar",
+     "as": "চাৰমিনাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Qutub Minar was begun by Qutb-ud-din Aibak and completed by Iltutmish.",
+    "as": "কুতুব মিনাৰ কুতুবুদ্দিন আইবকে আৰম্ভ কৰি ইলতুতমিছে সম্পূৰ্ণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-004",
+   "q": {
+    "en": "Who is regarded as the real founder of the Slave dynasty?",
+    "as": "দাস বংশৰ প্ৰকৃত প্ৰতিষ্ঠাপক হিচাপে কাক গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish is regarded as the real founder of the Slave dynasty.",
+    "as": "ইলতুতমিছক দাস বংশৰ প্ৰকৃত প্ৰতিষ্ঠাপক হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-005",
+   "q": {
+    "en": "Which ruler introduced the 'Chalisa' or Council of Forty?",
+    "as": "কোন শাসকে 'চালিছা' বা চল্লিশজনৰ পৰিষদ প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish introduced the Chalisa, a council of forty nobles.",
+    "as": "ইলতুতমিছে চালিছা, চল্লিশজন অভিজাতৰ পৰিষদ প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-006",
+   "q": {
+    "en": "Who was the first woman ruler of the Delhi Sultanate?",
+    "as": "দিল্লী সুলতানীৰ প্ৰথম মহিলা শাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    },
+    {
+     "en": "Chand Bibi",
+     "as": "চান্দ বিবি"
+    },
+    {
+     "en": "Nur Jahan",
+     "as": "নূৰজাহান"
+    },
+    {
+     "en": "Razia Begum of Bengal",
+     "as": "বংগৰ ৰাজিয়া বেগম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Razia Sultan was the first woman ruler of the Delhi Sultanate.",
+    "as": "ৰাজিয়া চুলতান দিল্লী সুলতানীৰ প্ৰথম মহিলা শাসক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-007",
+   "q": {
+    "en": "Who was the first Sultan to shift the capital from Lahore to Delhi?",
+    "as": "লাহোৰৰ পৰা ৰাজধানী দিল্লীলৈ স্থানান্তৰ কৰা প্ৰথম সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish shifted the capital from Lahore to Delhi.",
+    "as": "ইলতুতমিছে ৰাজধানী লাহোৰৰ পৰা দিল্লীলৈ স্থানান্তৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-008",
+   "q": {
+    "en": "Which Sultan is known for his policy of 'blood and iron'?",
+    "as": "কোন সুলতান তেওঁৰ 'তেজ আৰু লো' নীতিৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balban is known for his policy of blood and iron.",
+    "as": "বলবন তেওঁৰ তেজ আৰু লো নীতিৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-009",
+   "q": {
+    "en": "Which Sultan introduced the Persian festival of 'Nauroz' and the practice of 'Sijda' and 'Paibos'?",
+    "as": "কোন সুলতানে 'নৌৰোজ' পাৰস্য উৎসৱ আৰু 'সিজদা' ও 'পাইবছ' প্ৰথা প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balban introduced Nauroz and the practices of Sijda and Paibos.",
+    "as": "বলবনে নৌৰোজ আৰু সিজদা ও পাইবছ প্ৰথা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-010",
+   "q": {
+    "en": "Who founded the Khilji dynasty of Delhi?",
+    "as": "দিল্লীৰ খিলজী বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jalal-ud-din Khilji",
+     "as": "জালালুদ্দিন খিলজী"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jalal-ud-din Khilji founded the Khilji dynasty of Delhi.",
+    "as": "জালালুদ্দিন খিলজীয়ে দিল্লীৰ খিলজী বংশ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-011",
+   "q": {
+    "en": "Which Sultan is known as the 'Alexander of the medieval age' for his conquests?",
+    "as": "তেওঁৰ বিজয়ৰ বাবে কোন সুলতানক 'মধ্যযুগৰ আলেকজেণ্ডাৰ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji is known as the Alexander of the medieval age.",
+    "as": "আলাউদ্দিন খিলজীক মধ্যযুগৰ আলেকজেণ্ডাৰ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-012",
+   "q": {
+    "en": "Which Sultan introduced market control regulations in Delhi?",
+    "as": "কোন সুলতানে দিল্লীত বজাৰ নিয়ন্ত্ৰণ নিয়ম প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji introduced strict market control regulations.",
+    "as": "আলাউদ্দিন খিলজীয়ে কঠোৰ বজাৰ নিয়ন্ত্ৰণ নিয়ম প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-013",
+   "q": {
+    "en": "Who was the military commander of Alauddin Khilji who led the Deccan campaigns?",
+    "as": "দাক্ষিণাত্য অভিযানৰ নেতৃত্ব দিয়া আলাউদ্দিন খিলজীৰ সামৰিক সেনাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Malik Kafur",
+     "as": "মালিক কাফুৰ"
+    },
+    {
+     "en": "Malik Ghazi",
+     "as": "মালিক গাজী"
+    },
+    {
+     "en": "Ulugh Khan",
+     "as": "উলুঘ খান"
+    },
+    {
+     "en": "Zafar Khan",
+     "as": "জাফৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Malik Kafur, the military commander of Alauddin Khilji, led the Deccan campaigns.",
+    "as": "মালিক কাফুৰ, আলাউদ্দিন খিলজীৰ সামৰিক সেনাপতি, দাক্ষিণাত্য অভিযানৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-014",
+   "q": {
+    "en": "Which Sultan's reign saw the Mongol invasions being repelled successfully?",
+    "as": "কোন সুলতানৰ ৰাজত্বকালত মঙ্গোল আক্ৰমণ সফলভাৱে প্ৰতিহত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji successfully repelled the Mongol invasions.",
+    "as": "আলাউদ্দিন খিলজীয়ে মঙ্গোল আক্ৰমণ সফলভাৱে প্ৰতিহত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-015",
+   "q": {
+    "en": "Who built the Alai Darwaza?",
+    "as": "আলাই দৰৱাজা কোনে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji built the Alai Darwaza at the Qutub complex.",
+    "as": "আলাউদ্দিন খিলজীয়ে কুতুব পৰিসৰত আলাই দৰৱাজা নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-016",
+   "q": {
+    "en": "Who founded the Tughlaq dynasty of Delhi?",
+    "as": "দিল্লীৰ তুঘলক বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ghiyas-ud-din Tughlaq founded the Tughlaq dynasty of Delhi.",
+    "as": "ঘিয়াসুদ্দিন তুঘলকে দিল্লীৰ তুঘলক বংশ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-017",
+   "q": {
+    "en": "Which Sultan shifted his capital from Delhi to Daulatabad?",
+    "as": "কোন সুলতানে ৰাজধানী দিল্লীৰ পৰা দৌলতাবাদলৈ স্থানান্তৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muhammad-bin-Tughlaq shifted his capital from Delhi to Daulatabad.",
+    "as": "মুহম্মদ বিন তুঘলকে ৰাজধানী দিল্লীৰ পৰা দৌলতাবাদলৈ স্থানান্তৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-018",
+   "q": {
+    "en": "Which Sultan introduced token currency made of bronze and copper?",
+    "as": "কোন সুলতানে ব্ৰঞ্জ আৰু তামৰ টোকেন মুদ্ৰা প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muhammad-bin-Tughlaq introduced token currency made of bronze and copper.",
+    "as": "মুহম্মদ বিন তুঘলকে ব্ৰঞ্জ আৰু তামৰ টোকেন মুদ্ৰা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-019",
+   "q": {
+    "en": "Which Sultan is known as the 'wisest fool' in Indian history?",
+    "as": "ভাৰতীয় ইতিহাসত কোন সুলতানক 'জ্ঞানী মূৰ্খ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muhammad-bin-Tughlaq is often called the wisest fool in Indian history.",
+    "as": "মুহম্মদ বিন তুঘলকক প্ৰায়ে ভাৰতীয় ইতিহাসৰ জ্ঞানী মূৰ্খ বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-020",
+   "q": {
+    "en": "Which Sultan wrote a book on medicine and established a hospital?",
+    "as": "কোন সুলতানে ঔষধৰ ওপৰত এখন গ্ৰন্থ লিখিছিল আৰু এখন চিকিৎসালয় প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Firoz Shah Tughlaq wrote a book on medicine and established a hospital.",
+    "as": "ফিৰোজ শাহ তুঘলকে ঔষধৰ ওপৰত এখন গ্ৰন্থ লিখিছিল আৰু এখন চিকিৎসালয় প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-021",
+   "q": {
+    "en": "Which Sultan dug canals for irrigation and established new towns?",
+    "as": "কোন সুলতানে জলসিঞ্চনৰ বাবে খাল খান্দিছিল আৰু নতুন চহৰ প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Firoz Shah Tughlaq dug canals for irrigation and established new towns.",
+    "as": "ফিৰোজ শাহ তুঘলকে জলসিঞ্চনৰ বাবে খাল খান্দিছিল আৰু নতুন চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-022",
+   "q": {
+    "en": "Which city was founded by Firoz Shah Tughlaq?",
+    "as": "ফিৰোজ শাহ তুঘলকে কোন চহৰ প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Firozabad",
+     "as": "ফিৰোজাবাদ"
+    },
+    {
+     "en": "Daulatabad",
+     "as": "দৌলতাবাদ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Agra",
+     "as": "আগ্ৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Firoz Shah Tughlaq founded the city of Firozabad.",
+    "as": "ফিৰোজ শাহ তুঘলকে ফিৰোজাবাদ চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-023",
+   "q": {
+    "en": "Who founded the Sayyid dynasty of Delhi?",
+    "as": "দিল্লীৰ সৈয়দ বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    },
+    {
+     "en": "Mubarak Shah",
+     "as": "মুৱাৰক শাহ"
+    },
+    {
+     "en": "Muhammad Shah",
+     "as": "মুহম্মদ শাহ"
+    },
+    {
+     "en": "Alam Shah",
+     "as": "আলম শাহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Khizr Khan founded the Sayyid dynasty of Delhi.",
+    "as": "খিজ্ৰ খানে দিল্লীৰ সৈয়দ বংশ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-024",
+   "q": {
+    "en": "Who founded the Lodi dynasty of Delhi?",
+    "as": "দিল্লীৰ লোদী বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    },
+    {
+     "en": "Sikandar Lodi",
+     "as": "চিকন্দৰ লোদী"
+    },
+    {
+     "en": "Ibrahim Lodi",
+     "as": "ইব্ৰাহিম লোদী"
+    },
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bahlul Lodi founded the Lodi dynasty of Delhi.",
+    "as": "বাহলুল লোদীয়ে দিল্লীৰ লোদী বংশ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-025",
+   "q": {
+    "en": "Which Lodi Sultan founded the city of Agra?",
+    "as": "কোন লোদী সুলতানে আগ্ৰা চহৰ প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sikandar Lodi",
+     "as": "চিকন্দৰ লোদী"
+    },
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    },
+    {
+     "en": "Ibrahim Lodi",
+     "as": "ইব্ৰাহিম লোদী"
+    },
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sikandar Lodi founded the city of Agra.",
+    "as": "চিকন্দৰ লোদীয়ে আগ্ৰা চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-026",
+   "q": {
+    "en": "Which Lodi Sultan was defeated at the First Battle of Panipat?",
+    "as": "প্ৰথম পানিপথ যুদ্ধত কোন লোদী সুলতান পৰাস্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Ibrahim Lodi",
+     "as": "ইব্ৰাহিম লোদী"
+    },
+    {
+     "en": "Sikandar Lodi",
+     "as": "চিকন্দৰ লোদী"
+    },
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    },
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ibrahim Lodi was defeated at the First Battle of Panipat in 1526.",
+    "as": "ইব্ৰাহিম লোদী ১৫২৬ চনত প্ৰথম পানিপথ যুদ্ধত পৰাস্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-027",
+   "q": {
+    "en": "In which year was the First Battle of Panipat fought?",
+    "as": "প্ৰথম পানিপথ যুদ্ধ কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1556 CE",
+     "as": "১৫৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 BCE",
+     "as": "১৫২৬ খ্ৰীষ্টপূৰ্ব"
+    },
+    {
+     "en": "1600 CE",
+     "as": "১৬০০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The First Battle of Panipat was fought in 1526 CE.",
+    "as": "প্ৰথম পানিপথ যুদ্ধ ১৫২৬ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-028",
+   "q": {
+    "en": "Who defeated Ibrahim Lodi at the First Battle of Panipat?",
+    "as": "প্ৰথম পানিপথ যুদ্ধত ইব্ৰাহিম লোদীক কোনে পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Sher Shah Suri",
+     "as": "শেৰ শাহ সূৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Babur defeated Ibrahim Lodi at the First Battle of Panipat.",
+    "as": "বাবৰে প্ৰথম পানিপথ যুদ্ধত ইব্ৰাহিম লোদীক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-029",
+   "q": {
+    "en": "Who wrote the 'Tarikh-i-Firoz Shahi'?",
+    "as": "'তাৰিখ-ই-ফিৰোজ শাহী' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ziauddin Barani",
+     "as": "জিয়াউদ্দিন বৰণী"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ziauddin Barani wrote the Tarikh-i-Firoz Shahi, a history of the Delhi Sultanate.",
+    "as": "জিয়াউদ্দিন বৰণীয়ে তাৰিখ-ই-ফিৰোজ শাহী লিখিছিল, দিল্লী সুলতানীৰ এটা ইতিহাস।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-030",
+   "q": {
+    "en": "Who is known as the 'Parrot of India' (Tuti-e-Hind)?",
+    "as": "কাক 'ভাৰতৰ ভাটৌ' (তুতি-ই-হিন্দ) বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    },
+    {
+     "en": "Ziauddin Barani",
+     "as": "জিয়াউদ্দিন বৰণী"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amir Khusrau is known as the Parrot of India (Tuti-e-Hind).",
+    "as": "আমীৰ খসৰুক ভাৰতৰ ভাটৌ (তুতি-ই-হিন্দ) বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-031",
+   "q": {
+    "en": "Which poet-musician is credited with the invention of the sitar and tabla?",
+    "as": "কোন কবি-সংগীতজ্ঞক সেতাৰ আৰু তবলাৰ আৱিষ্কাৰৰ কৃতিত্ব দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    },
+    {
+     "en": "Tansen",
+     "as": "তানসেন"
+    },
+    {
+     "en": "Baiju Bawra",
+     "as": "বৈজু বাৱৰা"
+    },
+    {
+     "en": "Haridas",
+     "as": "হৰিদাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amir Khusrau is credited with the invention of the sitar and tabla.",
+    "as": "আমীৰ খসৰুক সেতাৰ আৰু তবলাৰ আৱিষ্কাৰৰ কৃতিত্ব দিয়া হয়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-032",
+   "q": {
+    "en": "Which Sultanate official was known as 'Ariz-i-Mumalik'?",
+    "as": "কোন সুলতানী বিষয়াক 'আৰিজ-ই-মুমালিক' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The head of the military department",
+     "as": "সামৰিক বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The head of the revenue department",
+     "as": "ৰাজহ বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The chief judge",
+     "as": "প্ৰধান বিচাৰক"
+    },
+    {
+     "en": "The chief priest",
+     "as": "প্ৰধান পুৰোহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ariz-i-Mumalik was the head of the military department in the Delhi Sultanate.",
+    "as": "আৰিজ-ই-মুমালিক দিল্লী সুলতানীৰ সামৰিক বিভাগৰ মুৰব্বী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-033",
+   "q": {
+    "en": "Which Sultanate official was known as 'Diwan-i-Wizarat'?",
+    "as": "কোন সুলতানী বিষয়াক 'দিৱান-ই-ৱিজাৰত' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The head of the finance department",
+     "as": "বিত্ত বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The head of the military department",
+     "as": "সামৰিক বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The chief judge",
+     "as": "প্ৰধান বিচাৰক"
+    },
+    {
+     "en": "The chief priest",
+     "as": "প্ৰধান পুৰোহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Diwan-i-Wizarat was the head of the finance department in the Delhi Sultanate.",
+    "as": "দিৱান-ই-ৱিজাৰত দিল্লী সুলতানীৰ বিত্ত বিভাগৰ মুৰব্বী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-034",
+   "q": {
+    "en": "Which Sultanate official was known as 'Sadr-us-Sudur'?",
+    "as": "কোন সুলতানী বিষয়াক 'ছদৰ-উছ-ছুদুৰ' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The head of the religious department",
+     "as": "ধৰ্ম বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The head of the military department",
+     "as": "সামৰিক বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The head of the finance department",
+     "as": "বিত্ত বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The chief judge",
+     "as": "প্ৰধান বিচাৰক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sadr-us-Sudur was the head of the religious department and endowments.",
+    "as": "ছদৰ-উছ-ছুদুৰ ধৰ্ম বিভাগ আৰু দান-সম্পত্তিৰ মুৰব্বী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-035",
+   "q": {
+    "en": "Which Sultanate official was known as 'Qazi-ul-Quzat'?",
+    "as": "কোন সুলতানী বিষয়াক 'কাজী-উল-কুজাত' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The chief judge",
+     "as": "প্ৰধান বিচাৰক"
+    },
+    {
+     "en": "The head of the military department",
+     "as": "সামৰিক বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The head of the finance department",
+     "as": "বিত্ত বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The chief priest",
+     "as": "প্ৰধান পুৰোহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Qazi-ul-Quzat was the chief judge of the Delhi Sultanate.",
+    "as": "কাজী-উল-কুজাত দিল্লী সুলতানীৰ প্ৰধান বিচাৰক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-036",
+   "q": {
+    "en": "Which Sultanate official was known as 'Barid-i-Mumalik'?",
+    "as": "কোন সুলতানী বিষয়াক 'বৰিদ-ই-মুমালিক' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The head of the intelligence department",
+     "as": "গোৱেন্দা বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The head of the military department",
+     "as": "সামৰিক বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The head of the finance department",
+     "as": "বিত্ত বিভাগৰ মুৰব্বী"
+    },
+    {
+     "en": "The chief judge",
+     "as": "প্ৰধান বিচাৰক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Barid-i-Mumalik was the head of the intelligence and postal department.",
+    "as": "বৰিদ-ই-মুমালিক গোৱেন্দা আৰু ডাক বিভাগৰ মুৰব্বী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-037",
+   "q": {
+    "en": "Which land revenue system was followed in the Delhi Sultanate?",
+    "as": "দিল্লী সুলতানীত কোন ভূমি ৰাজহ ব্যৱস্থা অনুসৰণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Iqta system",
+     "as": "ইকতা ব্যৱস্থা"
+    },
+    {
+     "en": "The Mansabdari system",
+     "as": "মনচবদাৰী ব্যৱস্থা"
+    },
+    {
+     "en": "The Zamindari system",
+     "as": "জমিদাৰী ব্যৱস্থা"
+    },
+    {
+     "en": "The Ryotwari system",
+     "as": "ৰৈয়তৱাৰী ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Iqta system was the land revenue system of the Delhi Sultanate.",
+    "as": "ইকতা ব্যৱস্থা দিল্লী সুলতানীৰ ভূমি ৰাজহ ব্যৱস্থা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-038",
+   "q": {
+    "en": "What was an 'Iqta' in the Delhi Sultanate?",
+    "as": "দিল্লী সুলতানীত 'ইকতা' কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A land revenue assignment",
+     "as": "এক ভূমি ৰাজহ নিযুক্তি"
+    },
+    {
+     "en": "A military rank",
+     "as": "এক সামৰিক পদ"
+    },
+    {
+     "en": "A coin",
+     "as": "এটা মুদ্ৰা"
+    },
+    {
+     "en": "A temple",
+     "as": "এটা মন্দিৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "An Iqta was a land revenue assignment given to nobles in the Delhi Sultanate.",
+    "as": "ইকতা দিল্লী সুলতানীত অভিজাতসকলক দিয়া এক ভূমি ৰাজহ নিযুক্তি আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-039",
+   "q": {
+    "en": "Who was the first Sultan to introduce the 'Sijda' and 'Paibos' practices?",
+    "as": "'সিজদা' আৰু 'পাইবছ' প্ৰথা প্ৰৱৰ্তন কৰা প্ৰথম সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balban was the first Sultan to introduce the Sijda and Paibos practices.",
+    "as": "বলবন সিজদা আৰু পাইবছ প্ৰথা প্ৰৱৰ্তন কৰা প্ৰথম সুলতান আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-040",
+   "q": {
+    "en": "Which Sultan abolished the Chalisa and curbed the power of the nobles?",
+    "as": "কোন সুলতানে চালিছা বিলুপ্ত কৰি অভিজাতসকলৰ শক্তি দমন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balban abolished the Chalisa and curbed the power of the nobles.",
+    "as": "বলবনে চালিছা বিলুপ্ত কৰি অভিজাতসকলৰ শক্তি দমন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-041",
+   "q": {
+    "en": "Which Sultan established a separate military department called the 'Diwan-i-Arz'?",
+    "as": "কোন সুলতানে 'দিৱান-ই-আৰজ' নামৰ এক পৃথক সামৰিক বিভাগ প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji established the Diwan-i-Arz, a separate military department.",
+    "as": "আলাউদ্দিন খিলজীয়ে দিৱান-ই-আৰজ, এক পৃথক সামৰিক বিভাগ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-042",
+   "q": {
+    "en": "Which Sultan fixed the prices of commodities in Delhi?",
+    "as": "কোন সুলতানে দিল্লীত সামগ্ৰীৰ মূল্য নিৰ্ধাৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji fixed the prices of commodities in Delhi.",
+    "as": "আলাউদ্দিন খিলজীয়ে দিল্লীত সামগ্ৰীৰ মূল্য নিৰ্ধাৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-043",
+   "q": {
+    "en": "Which Sultan introduced the system of measurement of land for revenue assessment?",
+    "as": "কোন সুলতানে ৰাজহ মূল্যায়নৰ বাবে ভূমি জোখৰ ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji introduced the measurement of land for revenue assessment.",
+    "as": "আলাউদ্দিন খিলজীয়ে ৰাজহ মূল্যায়নৰ বাবে ভূমি জোখৰ ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-044",
+   "q": {
+    "en": "Which Sultan was the first to conquer the Deccan for the Delhi Sultanate?",
+    "as": "দিল্লী সুলতানীৰ বাবে দাক্ষিণাত্য প্ৰথমে জয় কৰা সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji was the first Sultan to conquer the Deccan.",
+    "as": "আলাউদ্দিন খিলজী দাক্ষিণাত্য জয় কৰা প্ৰথম সুলতান আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-045",
+   "q": {
+    "en": "Which Sultan's period is called the 'Golden Age' of the Delhi Sultanate?",
+    "as": "কোন সুলতানৰ কালক দিল্লী সুলতানীৰ 'সোণালী যুগ' বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji's period is often called the Golden Age of the Delhi Sultanate.",
+    "as": "আলাউদ্দিন খিলজীৰ কালক প্ৰায়ে দিল্লী সুলতানীৰ সোণালী যুগ বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-046",
+   "q": {
+    "en": "Who was the last ruler of the Tughlaq dynasty?",
+    "as": "তুঘলক বংশৰ শেষ শাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Nasir-ud-din Mahmud",
+     "as": "নাছিৰুদ্দিন মহমুদ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nasir-ud-din Mahmud was the last ruler of the Tughlaq dynasty.",
+    "as": "নাছিৰুদ্দিন মহমুদ তুঘলক বংশৰ শেষ শাসক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-047",
+   "q": {
+    "en": "Which Sultan was known for his religious tolerance and the title 'Jalal-ud-din'?",
+    "as": "কোন সুলতান তেওঁৰ ধৰ্মীয় সহনশীলতাৰ বাবে জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Jalal-ud-din Khilji",
+     "as": "জালালুদ্দিন খিলজী"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jalal-ud-din Khilji was known for his mild and tolerant rule.",
+    "as": "জালালুদ্দিন খিলজী তেওঁৰ নম্ৰ আৰু সহনশীল শাসনৰ বাবে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-048",
+   "q": {
+    "en": "Who was the founder of the Slave dynasty's capital at Delhi?",
+    "as": "দিল্লীত দাস বংশৰ ৰাজধানী প্ৰতিষ্ঠা কৰা শাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Qutb-ud-din Aibak established the Slave dynasty's capital at Delhi.",
+    "as": "কুতুবুদ্দিন আইবকে দিল্লীত দাস বংশৰ ৰাজধানী প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-049",
+   "q": {
+    "en": "Which Sultan built the tomb of his son at Sultan Ghari?",
+    "as": "কোন সুলতানে তেওঁৰ পুত্ৰৰ সমাধি চুলতান ঘাৰীত নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish built the tomb of his son at Sultan Ghari.",
+    "as": "ইলতুতমিছে তেওঁৰ পুত্ৰৰ সমাধি চুলতান ঘাৰীত নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-050",
+   "q": {
+    "en": "Who was the first Sultan to be formally recognised by the Abbasid Caliph?",
+    "as": "আব্বাছী খলিফাৰ দ্বাৰা আনুষ্ঠানিকভাৱে স্বীকৃতি পোৱা প্ৰথম সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish was the first Sultan to be formally recognised by the Abbasid Caliph.",
+    "as": "ইলতুতমিছ আব্বাছী খলিফাৰ দ্বাৰা আনুষ্ঠানিকভাৱে স্বীকৃতি পোৱা প্ৰথম সুলতান আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-051",
+   "q": {
+    "en": "Which Sultan's court was visited by the Moroccan traveller Ibn Battuta?",
+    "as": "মৰক্কোৰ পৰিব্ৰাজক ইবনে বতুতাই কোন সুলতানৰ ৰাজদৰবাৰ ভ্ৰমণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ibn Battuta visited the court of Muhammad-bin-Tughlaq.",
+    "as": "ইবনে বতুতা মুহম্মদ বিন তুঘলকৰ ৰাজদৰবাৰ ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-052",
+   "q": {
+    "en": "Who wrote the 'Rihla', an account of travels in India?",
+    "as": "ভাৰত ভ্ৰমণৰ বিৱৰণ 'ৰিহলা' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    },
+    {
+     "en": "Ziauddin Barani",
+     "as": "জিয়াউদ্দিন বৰণী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ibn Battuta wrote the Rihla, an account of his travels including India.",
+    "as": "ইবনে বতুতাই ৰিহলা লিখিছিল, ভাৰতকে ধৰি তেওঁৰ ভ্ৰমণৰ এটা বিৱৰণ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-053",
+   "q": {
+    "en": "Which Sultan is associated with the 'Diwan-i-Khairat' for charity?",
+    "as": "কোন সুলতান দান-ধৰ্মৰ বাবে 'দিৱান-ই-খৈৰাত'ৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Firoz Shah Tughlaq established the Diwan-i-Khairat for charity.",
+    "as": "ফিৰোজ শাহ তুঘলকে দান-ধৰ্মৰ বাবে দিৱান-ই-খৈৰাত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-054",
+   "q": {
+    "en": "Which Sultan built the 'Kotla Firoz Shah'?",
+    "as": "'কোটলা ফিৰোজ শাহ' কোন সুলতানে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Firoz Shah Tughlaq built the Kotla Firoz Shah, a fortress in Delhi.",
+    "as": "ফিৰোজ শাহ তুঘলকে কোটলা ফিৰোজ শাহ, দিল্লীৰ এটা দুৰ্গ, নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-055",
+   "q": {
+    "en": "Which Sultan was the first to use the title 'Sultan' on his coins in India?",
+    "as": "ভাৰতত প্ৰথমে তেওঁৰ মুদ্ৰাত 'সুলতান' উপাধি ব্যৱহাৰ কৰা সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish was the first to use the title Sultan on his coins.",
+    "as": "ইলতুতমিছ প্ৰথমে তেওঁৰ মুদ্ৰাত সুলতান উপাধি ব্যৱহাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-056",
+   "q": {
+    "en": "Which Sultan's reign saw the establishment of the 'Diwan-i-Mustakhraj' to recover arrears?",
+    "as": "কোন সুলতানৰ ৰাজত্বকালত বকেয়া আদায়ৰ বাবে 'দিৱান-ই-মুস্তাখৰাজ' প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji established the Diwan-i-Mustakhraj to recover revenue arrears.",
+    "as": "আলাউদ্দিন খিলজীয়ে ৰাজহ বকেয়া আদায়ৰ বাবে দিৱান-ই-মুস্তাখৰাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-057",
+   "q": {
+    "en": "Which Sultan was known as 'Sikandar-i-Sani' (the second Alexander)?",
+    "as": "কোন সুলতানক 'চিকন্দৰ-ই-চানী' (দ্বিতীয় আলেকজেণ্ডাৰ) বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji was known as Sikandar-i-Sani, the second Alexander.",
+    "as": "আলাউদ্দিন খিলজীক চিকন্দৰ-ই-চানী, দ্বিতীয় আলেকজেণ্ডাৰ বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-058",
+   "q": {
+    "en": "Which Sultan was the first to introduce a standing army paid in cash?",
+    "as": "নগদ ধনেৰে দিয়া স্থায়ী সেনা প্ৰথমে কোন সুলতানে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji was the first to introduce a standing army paid in cash.",
+    "as": "আলাউদ্দিন খিলজী নগদ ধনেৰে দিয়া স্থায়ী সেনা প্ৰথমে প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-059",
+   "q": {
+    "en": "Which Sultan's market regulations were enforced by the 'Shahna-i-Mandi'?",
+    "as": "কোন সুলতানৰ বজাৰ নিয়ম 'শাহনা-ই-মান্দী'ই বলবৎ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji's market regulations were enforced by the Shahna-i-Mandi, the market superintendent.",
+    "as": "আলাউদ্দিন খিলজীৰ বজাৰ নিয়ম শাহনা-ই-মান্দী, বজাৰ পৰিদৰ্শকে বলবৎ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-060",
+   "q": {
+    "en": "Which Sultan is credited with the construction of the Hauz Khas reservoir?",
+    "as": "হৌজ খাছ জলাশয় নিৰ্মাণৰ কৃতিত্ব কোন সুলতানৰ?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji is credited with the construction of the Hauz Khas reservoir.",
+    "as": "হৌজ খাছ জলাশয় নিৰ্মাণৰ কৃতিত্ব আলাউদ্দিন খিলজীৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-061",
+   "q": {
+    "en": "Which Sultan founded the city of Siri?",
+    "as": "চিৰি চহৰ কোন সুলতানে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji founded the city of Siri.",
+    "as": "আলাউদ্দিন খিলজীয়ে চিৰি চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-062",
+   "q": {
+    "en": "Which Sultan founded the city of Tughlaqabad?",
+    "as": "তুঘলকাবাদ চহৰ কোন সুলতানে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ghiyas-ud-din Tughlaq founded the city of Tughlaqabad.",
+    "as": "ঘিয়াসুদ্দিন তুঘলকে তুঘলকাবাদ চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-063",
+   "q": {
+    "en": "Which Sultan founded the city of Jahanpanah?",
+    "as": "জাহানপানাহ চহৰ কোন সুলতানে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muhammad-bin-Tughlaq founded the city of Jahanpanah.",
+    "as": "মুহম্মদ বিন তুঘলকে জাহানপানাহ চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-064",
+   "q": {
+    "en": "Which Sultan founded the city of Fatehabad?",
+    "as": "ফতেহাবাদ চহৰ কোন সুলতানে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    },
+    {
+     "en": "Muhammad-bin-Tughlaq",
+     "as": "মুহম্মদ বিন তুঘলক"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Firoz Shah Tughlaq founded the city of Fatehabad.",
+    "as": "ফিৰোজ শাহ তুঘলকে ফতেহাবাদ চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-065",
+   "q": {
+    "en": "Which Sultan was the first to appoint a 'Naib' (deputy) to run the administration?",
+    "as": "প্ৰশাসন চলাবলৈ 'নায়েব' (উপ-শাসক) নিযুক্তি দিয়া প্ৰথম সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balban was the first to appoint a Naib (deputy) to run the administration.",
+    "as": "বলবন প্ৰশাসন চলাবলৈ নায়েব (উপ-শাসক) নিযুক্তি দিয়া প্ৰথম আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-066",
+   "q": {
+    "en": "Which Sultan's rule saw the rise of the 'Khilji' nobles and the decline of the old Turkish nobility?",
+    "as": "কোন সুলতানৰ শাসনত 'খিলজী' অভিজাতসকলৰ উত্থান আৰু পুৰণি তুৰ্কী অভিজাতসকলৰ অৱনতি ঘটিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jalal-ud-din Khilji",
+     "as": "জালালুদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Under Jalal-ud-din Khilji the Khilji nobles rose and the old Turkish nobility declined.",
+    "as": "জালালুদ্দিন খিলজীৰ অধীনত খিলজী অভিজাতসকলে উত্থান লাভ কৰিছিল আৰু পুৰণি তুৰ্কী অভিজাতসকলৰ অৱনতি ঘটিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-067",
+   "q": {
+    "en": "Which Sultan was the first to bring the Deccan under the Delhi Sultanate permanently?",
+    "as": "দাক্ষিণাত্যক স্থায়ীভাৱে দিল্লী সুলতানীৰ অধীনলৈ অনা প্ৰথম সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji was the first to bring the Deccan permanently under the Delhi Sultanate.",
+    "as": "আলাউদ্দিন খিলজী দাক্ষিণাত্যক স্থায়ীভাৱে দিল্লী সুলতানীৰ অধীনলৈ অনা প্ৰথম আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-068",
+   "q": {
+    "en": "Which Sultan is associated with the construction of the 'Alai Minar'?",
+    "as": "'আলাই মিনাৰ' নিৰ্মাণৰ লগত কোন সুলতান জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Khilji began the construction of the Alai Minar.",
+    "as": "আলাউদ্দিন খিলজীয়ে আলাই মিনাৰ নিৰ্মাণ আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-069",
+   "q": {
+    "en": "Which Sultan is known for the saying that 'kingship knows no kinship'?",
+    "as": "কোন সুলতান 'ৰাজত্বই সম্বন্ধ নাজানে' বুলি কোৱাৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balban is known for the principle that kingship knows no kinship.",
+    "as": "বলবন ৰাজত্বই সম্বন্ধ নাজানে এই নীতিটোৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-070",
+   "q": {
+    "en": "Which Sultan's tomb is the first example of a dome in India?",
+    "as": "ভাৰতত গম্বুজৰ প্ৰথম উদাহৰণ কোন সুলতানৰ সমাধি?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish's tomb is regarded as the first example of a dome in India.",
+    "as": "ইলতুতমিছৰ সমাধিক ভাৰতত গম্বুজৰ প্ৰথম উদাহৰণ হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-071",
+   "q": {
+    "en": "Which Sultan is credited with the introduction of the 'Sijda' (prostration) before the king?",
+    "as": "ৰজাৰ সন্মুখত 'সিজদা' (প্ৰণিপাত) প্ৰৱৰ্তনৰ কৃতিত্ব কোন সুলতানৰ?"
+   },
+   "options": [
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balban is credited with the introduction of Sijda before the king.",
+    "as": "ৰজাৰ সন্মুখত সিজদা প্ৰৱৰ্তনৰ কৃতিত্ব বলবনৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-072",
+   "q": {
+    "en": "Which Sultan's reign saw the first Mongol invasion of India?",
+    "as": "ভাৰতলৈ প্ৰথম মঙ্গোল আক্ৰমণ কোন সুলতানৰ ৰাজত্বকালত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first Mongol invasion of India took place during Iltutmish's reign.",
+    "as": "ভাৰতলৈ প্ৰথম মঙ্গোল আক্ৰমণ ইলতুতমিছৰ ৰাজত্বকালত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-073",
+   "q": {
+    "en": "Which Sultan is known for establishing the 'Turkan-i-Chahalgani'?",
+    "as": "'তুৰ্কান-ই-চাহালগানী' প্ৰতিষ্ঠাৰ বাবে কোন সুলতান জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish established the Turkan-i-Chahalgani, the corps of forty.",
+    "as": "ইলতুতমিছে তুৰ্কান-ই-চাহালগানী, চল্লিশজনৰ বাহিনী, প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-074",
+   "q": {
+    "en": "Which Sultan was the first to appoint non-Turks to high offices?",
+    "as": "উচ্চ পদত প্ৰথমে অ-তুৰ্কসকলক নিযুক্তি দিয়া সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Jalal-ud-din Khilji",
+     "as": "জালালুদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jalal-ud-din Khilji was the first to appoint non-Turks to high offices.",
+    "as": "জালালুদ্দিন খিলজী উচ্চ পদত প্ৰথমে অ-তুৰ্কসকলক নিযুক্তি দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-075",
+   "q": {
+    "en": "Which Sultan's dynasty is known as the 'Slave dynasty'?",
+    "as": "কোন সুলতানৰ বংশক 'দাস বংশ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Qutb-ud-din Aibak's dynasty is known as the Slave dynasty because he was originally a slave.",
+    "as": "কুতুবুদ্দিন আইবকৰ বংশক দাস বংশ বুলি জনা যায় কাৰণ তেওঁ মূলত এজন দাস আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-076",
+   "q": {
+    "en": "Which Sultan was a slave of Muhammad Ghori?",
+    "as": "মুহম্মদ ঘোৰীৰ দাস কোন সুলতান আছিল?"
+   },
+   "options": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Qutb-ud-din Aibak was a slave of Muhammad Ghori.",
+    "as": "কুতুবুদ্দিন আইবক মুহম্মদ ঘোৰীৰ দাস আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-077",
+   "q": {
+    "en": "Which Sultan's original name was Shihab-ud-din?",
+    "as": "কোন সুলতানৰ মূল নাম চিহাবুদ্দিন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Qutb-ud-din Aibak's original name was Shihab-ud-din.",
+    "as": "কুতুবুদ্দিন আইবকৰ মূল নাম চিহাবুদ্দিন আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-078",
+   "q": {
+    "en": "Which Sultan was also known as 'Lakh Baksh' (giver of lakhs)?",
+    "as": "কোন সুলতানক 'লাখ বখশ' (লাখ লাখ দান কৰা) বুলিও জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Qutb-ud-din Aibak was known as Lakh Baksh for his generosity.",
+    "as": "কুতুবুদ্দিন আইবক তেওঁৰ দানশীলতাৰ বাবে লাখ বখশ বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-079",
+   "q": {
+    "en": "Which Sultan is credited with the construction of the Adhai Din Ka Jhonpra?",
+    "as": "আধাই দিন কা ঝোংপ্ৰা নিৰ্মাণৰ কৃতিত্ব কোন সুলতানৰ?"
+   },
+   "options": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Qutb-ud-din Aibak is credited with the Adhai Din Ka Jhonpra at Ajmer.",
+    "as": "আধাই দিন কা ঝোংপ্ৰা, আজমেৰত, নিৰ্মাণৰ কৃতিত্ব কুতুবুদ্দিন আইবকৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-080",
+   "q": {
+    "en": "Which Sultan was the first to introduce the Persian system of government in India?",
+    "as": "ভাৰতত পাৰস্য শাসন ব্যৱস্থা প্ৰথমে কোন সুলতানে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish was the first to introduce the Persian system of government in India.",
+    "as": "ইলতুতমিছ ভাৰতত পাৰস্য শাসন ব্যৱস্থা প্ৰথমে প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-081",
+   "q": {
+    "en": "Which Sultan's reign saw the completion of the Qutub Minar?",
+    "as": "কুতুব মিনাৰ নিৰ্মাণ কোন সুলতানৰ ৰাজত্বকালত সম্পূৰ্ণ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Qutub Minar was completed during Iltutmish's reign.",
+    "as": "কুতুব মিনাৰ ইলতুতমিছৰ ৰাজত্বকালত সম্পূৰ্ণ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-082",
+   "q": {
+    "en": "Which Sultan is known for his 'forty nobles' and the 'Chalisa'?",
+    "as": "কোন সুলতান তেওঁৰ 'চল্লিশ অভিজাত' আৰু 'চালিছা'ৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish is known for his Chalisa, the corps of forty nobles.",
+    "as": "ইলতুতমিছ তেওঁৰ চালিছা, চল্লিশ অভিজাতৰ বাহিনীৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-083",
+   "q": {
+    "en": "Which Sultan was the first to make Delhi the permanent capital of the Sultanate?",
+    "as": "সুলতানীৰ স্থায়ী ৰাজধানী প্ৰথমে দিল্লীক কৰা সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish was the first to make Delhi the permanent capital.",
+    "as": "ইলতুতমিছ প্ৰথমে দিল্লীক স্থায়ী ৰাজধানী কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-084",
+   "q": {
+    "en": "Which Sultan's tomb is located in the Qutub complex?",
+    "as": "কোন সুলতানৰ সমাধি কুতুব পৰিসৰত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Qutb-ud-din Aibak",
+     "as": "কুতুবুদ্দিন আইবক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Alauddin Khilji",
+     "as": "আলাউদ্দিন খিলজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Iltutmish's tomb is located in the Qutub complex.",
+    "as": "ইলতুতমিছৰ সমাধি কুতুব পৰিসৰত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-085",
+   "q": {
+    "en": "Which Sultan's dynasty lasted from 1290 to 1320 CE?",
+    "as": "কোন সুলতানৰ বংশ ১২৯০ ৰ পৰা ১৩২০ খ্ৰীষ্টাব্দলৈ চলিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jalal-ud-din Khilji",
+     "as": "জালালুদ্দিন খিলজী"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Firoz Shah Tughlaq",
+     "as": "ফিৰোজ শাহ তুঘলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Khilji dynasty lasted from 1290 to 1320 CE.",
+    "as": "খিলজী বংশ ১২৯০ ৰ পৰা ১৩২০ খ্ৰীষ্টাব্দলৈ চলিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-086",
+   "q": {
+    "en": "Which Sultan's dynasty lasted from 1320 to 1414 CE?",
+    "as": "কোন সুলতানৰ বংশ ১৩২০ ৰ পৰা ১৪১৪ খ্ৰীষ্টাব্দলৈ চলিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    },
+    {
+     "en": "Iltutmish",
+     "as": "ইলতুতমিছ"
+    },
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tughlaq dynasty lasted from 1320 to 1414 CE.",
+    "as": "তুঘলক বংশ ১৩২০ ৰ পৰা ১৪১৪ খ্ৰীষ্টাব্দলৈ চলিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-087",
+   "q": {
+    "en": "Which Sultan's dynasty lasted from 1414 to 1451 CE?",
+    "as": "কোন সুলতানৰ বংশ ১৪১৪ ৰ পৰা ১৪৫১ খ্ৰীষ্টাব্দলৈ চলিছিল?"
+   },
+   "options": [
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    },
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sayyid dynasty lasted from 1414 to 1451 CE.",
+    "as": "সৈয়দ বংশ ১৪১৪ ৰ পৰা ১৪৫১ খ্ৰীষ্টাব্দলৈ চলিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-088",
+   "q": {
+    "en": "Which Sultan's dynasty lasted from 1451 to 1526 CE?",
+    "as": "কোন সুলতানৰ বংশ ১৪৫১ ৰ পৰা ১৫২৬ খ্ৰীষ্টাব্দলৈ চলিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    },
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    },
+    {
+     "en": "Ghiyas-ud-din Tughlaq",
+     "as": "ঘিয়াসুদ্দিন তুঘলক"
+    },
+    {
+     "en": "Balban",
+     "as": "বলবন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Lodi dynasty lasted from 1451 to 1526 CE.",
+    "as": "লোদী বংশ ১৪৫১ ৰ পৰা ১৫২৬ খ্ৰীষ্টাব্দলৈ চলিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-089",
+   "q": {
+    "en": "Which Sultan is known for his repeated invasions of India before the establishment of the Sultanate?",
+    "as": "সুলতানী প্ৰতিষ্ঠাৰ আগতে ভাৰতলৈ তেওঁৰ বাৰে বাৰে আক্ৰমণৰ বাবে কোন জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Muhammad Ghori",
+     "as": "মুহম্মদ ঘোৰী"
+    },
+    {
+     "en": "Mahmud of Ghazni",
+     "as": "গজনীৰ মহমুদ"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Timur",
+     "as": "তৈমুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muhammad Ghori is known for his repeated invasions of India before the Sultanate.",
+    "as": "মুহম্মদ ঘোৰী সুলতানীৰ আগতে ভাৰতলৈ তেওঁৰ বাৰে বাৰে আক্ৰমণৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-090",
+   "q": {
+    "en": "In which battle did Muhammad Ghori defeat Prithviraj Chauhan?",
+    "as": "কোন যুদ্ধত মুহম্মদ ঘোৰীয়ে পৃথ্বীৰাজ চৌহানক পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Second Battle of Tarain",
+     "as": "তাৰাইনৰ দ্বিতীয় যুদ্ধ"
+    },
+    {
+     "en": "The First Battle of Panipat",
+     "as": "প্ৰথম পানিপথ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Plassey",
+     "as": "পলাশীৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Haldighati",
+     "as": "হলদীঘাটীৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muhammad Ghori defeated Prithviraj Chauhan at the Second Battle of Tarain in 1192.",
+    "as": "মুহম্মদ ঘোৰীয়ে ১১৯২ চনত তাৰাইনৰ দ্বিতীয় যুদ্ধত পৃথ্বীৰাজ চৌহানক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-091",
+   "q": {
+    "en": "In which year was the Second Battle of Tarain fought?",
+    "as": "তাৰাইনৰ দ্বিতীয় যুদ্ধ কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1192 CE",
+     "as": "১১৯২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1206 CE",
+     "as": "১২০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1191 CE",
+     "as": "১১৯১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1210 CE",
+     "as": "১২১০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Second Battle of Tarain was fought in 1192 CE.",
+    "as": "তাৰাইনৰ দ্বিতীয় যুদ্ধ ১১৯২ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-092",
+   "q": {
+    "en": "Who was the last Sultan of the Lodi dynasty?",
+    "as": "লোদী বংশৰ শেষ সুলতান কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ibrahim Lodi",
+     "as": "ইব্ৰাহিম লোদী"
+    },
+    {
+     "en": "Sikandar Lodi",
+     "as": "চিকন্দৰ লোদী"
+    },
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    },
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ibrahim Lodi was the last Sultan of the Lodi dynasty.",
+    "as": "ইব্ৰাহিম লোদী লোদী বংশৰ শেষ সুলতান আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-093",
+   "q": {
+    "en": "Which Sultan's rule ended with the establishment of the Mughal Empire?",
+    "as": "কোন সুলতানৰ শাসন মোগল সাম্ৰাজ্য প্ৰতিষ্ঠাৰ সৈতে অন্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Ibrahim Lodi",
+     "as": "ইব্ৰাহিম লোদী"
+    },
+    {
+     "en": "Sikandar Lodi",
+     "as": "চিকন্দৰ লোদী"
+    },
+    {
+     "en": "Bahlul Lodi",
+     "as": "বাহলুল লোদী"
+    },
+    {
+     "en": "Khizr Khan",
+     "as": "খিজ্ৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ibrahim Lodi's rule ended with the establishment of the Mughal Empire in 1526.",
+    "as": "ইব্ৰাহিম লোদীৰ শাসন ১৫২৬ চনত মোগল সাম্ৰাজ্য প্ৰতিষ্ঠাৰ সৈতে অন্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-094",
+   "q": {
+    "en": "Who founded the Vijayanagara Empire?",
+    "as": "বিজয়নগৰ সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Harihara and Bukka",
+     "as": "হৰিহৰ আৰু বুক্ক"
+    },
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    },
+    {
+     "en": "Rama Raya",
+     "as": "ৰাম ৰায়"
+    },
+    {
+     "en": "Devaraya II",
+     "as": "দেৱৰায় দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Harihara and Bukka founded the Vijayanagara Empire in 1336.",
+    "as": "হৰিহৰ আৰু বুক্কে ১৩৩৬ চনত বিজয়নগৰ সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-095",
+   "q": {
+    "en": "In which year was the Vijayanagara Empire founded?",
+    "as": "বিজয়নগৰ সাম্ৰাজ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1336 CE",
+     "as": "১৩৩৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1206 CE",
+     "as": "১২০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1347 CE",
+     "as": "১৩৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Vijayanagara Empire was founded in 1336 CE.",
+    "as": "বিজয়নগৰ সাম্ৰাজ্য ১৩৩৬ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-096",
+   "q": {
+    "en": "On which river bank was the city of Vijayanagara located?",
+    "as": "বিজয়নগৰ চহৰ কোন নদীৰ পাৰত অৱস্থিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Tungabhadra",
+     "as": "তুংগভদ্ৰা"
+    },
+    {
+     "en": "The Krishna",
+     "as": "কৃষ্ণা"
+    },
+    {
+     "en": "The Godavari",
+     "as": "গোদাৱৰী"
+    },
+    {
+     "en": "The Kaveri",
+     "as": "কাবেৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Vijayanagara was located on the bank of the Tungabhadra.",
+    "as": "বিজয়নগৰ চহৰ তুংগভদ্ৰা নদীৰ পাৰত অৱস্থিত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-097",
+   "q": {
+    "en": "Which Vijayanagara ruler is known as the greatest of the dynasty?",
+    "as": "বংশৰ শ্ৰেষ্ঠ হিচাপে জনা বিজয়নগৰ শাসক কোন?"
+   },
+   "options": [
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    },
+    {
+     "en": "Harihara",
+     "as": "হৰিহৰ"
+    },
+    {
+     "en": "Bukka",
+     "as": "বুক্ক"
+    },
+    {
+     "en": "Rama Raya",
+     "as": "ৰাম ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Krishnadevaraya is known as the greatest ruler of the Vijayanagara Empire.",
+    "as": "কৃষ্ণদেৱৰায় বিজয়নগৰ সাম্ৰাজ্যৰ শ্ৰেষ্ঠ শাসক হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-098",
+   "q": {
+    "en": "Which Vijayanagara ruler wrote the 'Amuktamalyada'?",
+    "as": "'অমুক্তমাল্যদ' কোন বিজয়নগৰ শাসকে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    },
+    {
+     "en": "Harihara",
+     "as": "হৰিহৰ"
+    },
+    {
+     "en": "Bukka",
+     "as": "বুক্ক"
+    },
+    {
+     "en": "Devaraya II",
+     "as": "দেৱৰায় দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Krishnadevaraya wrote the Amuktamalyada, a Telugu work.",
+    "as": "কৃষ্ণদেৱৰায়ে অমুক্তমাল্যদ লিখিছিল, এখন তেলুগু গ্ৰন্থ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-099",
+   "q": {
+    "en": "Which Vijayanagara ruler was a patron of the Telugu poet Allasani Peddana?",
+    "as": "কোন বিজয়নগৰ শাসক তেলুগু কবি আল্লসানি পেদ্দানাৰ পৃষ্ঠপোষক আছিল?"
+   },
+   "options": [
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    },
+    {
+     "en": "Harihara",
+     "as": "হৰিহৰ"
+    },
+    {
+     "en": "Bukka",
+     "as": "বুক্ক"
+    },
+    {
+     "en": "Rama Raya",
+     "as": "ৰাম ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Krishnadevaraya was a patron of the Telugu poet Allasani Peddana.",
+    "as": "কৃষ্ণদেৱৰায় তেলুগু কবি আল্লসানি পেদ্দানাৰ পৃষ্ঠপোষক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-100",
+   "q": {
+    "en": "Which eight poets adorned the court of Krishnadevaraya?",
+    "as": "কৃষ্ণদেৱৰায়ৰ ৰাজদৰবাৰ শোভা পোৱা আঠজন কবি কোনসকল আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Ashtadiggajas",
+     "as": "অষ্টদিগ্গজ"
+    },
+    {
+     "en": "The Navaratna",
+     "as": "নৱৰত্ন"
+    },
+    {
+     "en": "The Ashtapradhan",
+     "as": "অষ্টপ্ৰধান"
+    },
+    {
+     "en": "The Pancharatna",
+     "as": "পঞ্চৰত্ন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ashtadiggajas, the eight poets, adorned the court of Krishnadevaraya.",
+    "as": "অষ্টদিগ্গজ, আঠজন কবি, কৃষ্ণদেৱৰায়ৰ ৰাজদৰবাৰ শোভা পাইছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-101",
+   "q": {
+    "en": "Which traveller visited the Vijayanagara Empire and wrote about it?",
+    "as": "কোন পৰিব্ৰাজকে বিজয়নগৰ সাম্ৰাজ্য ভ্ৰমণ কৰি ইয়াৰ বিষয়ে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Domingo Paes",
+     "as": "ডমিংগো পায়েছ"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Domingo Paes, a Portuguese traveller, visited Vijayanagara and wrote about it.",
+    "as": "ডমিংগো পায়েছ, এজন পৰ্তুগীজ পৰিব্ৰাজক, বিজয়নগৰ ভ্ৰমণ কৰি ইয়াৰ বিষয়ে লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-102",
+   "q": {
+    "en": "Which traveller's account describes the wealth of Vijayanagara?",
+    "as": "কোন পৰিব্ৰাজকৰ বিৱৰণে বিজয়নগৰৰ সম্পদৰ বৰ্ণনা কৰে?"
+   },
+   "options": [
+    {
+     "en": "Abdur Razzak",
+     "as": "আব্দুৰ ৰাজ্জাক"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Abdur Razzak, a Persian traveller, described the wealth of Vijayanagara.",
+    "as": "আব্দুৰ ৰাজ্জাক, এজন পাৰস্য পৰিব্ৰাজক, বিজয়নগৰৰ সম্পদৰ বৰ্ণনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-103",
+   "q": {
+    "en": "Which battle led to the decline of the Vijayanagara Empire?",
+    "as": "কোন যুদ্ধই বিজয়নগৰ সাম্ৰাজ্যৰ অৱনতিলৈ লৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Battle of Talikota",
+     "as": "তালিকোটাৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Panipat",
+     "as": "পানিপথৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Plassey",
+     "as": "পলাশীৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Haldighati",
+     "as": "হলদীঘাটীৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Talikota in 1565 led to the decline of the Vijayanagara Empire.",
+    "as": "১৫৬৫ চনত তালিকোটাৰ যুদ্ধই বিজয়নগৰ সাম্ৰাজ্যৰ অৱনতিলৈ লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-104",
+   "q": {
+    "en": "In which year was the Battle of Talikota fought?",
+    "as": "তালিকোটাৰ যুদ্ধ কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1565 CE",
+     "as": "১৫৬৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1600 CE",
+     "as": "১৬০০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1336 CE",
+     "as": "১৩৩৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Talikota was fought in 1565 CE.",
+    "as": "তালিকোটাৰ যুদ্ধ ১৫৬৫ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-105",
+   "q": {
+    "en": "Which alliance defeated Vijayanagara at the Battle of Talikota?",
+    "as": "তালিকোটাৰ যুদ্ধত কোন মিত্ৰজোঁটে বিজয়নগৰক পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Deccan Sultanates",
+     "as": "দাক্ষিণাত্য সুলতানীসমূহ"
+    },
+    {
+     "en": "The Mughals",
+     "as": "মোগল"
+    },
+    {
+     "en": "The Marathas",
+     "as": "মাৰাঠা"
+    },
+    {
+     "en": "The Rajputs",
+     "as": "ৰাজপুত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The alliance of the Deccan Sultanates defeated Vijayanagara at the Battle of Talikota.",
+    "as": "দাক্ষিণাত্য সুলতানীসমূহৰ মিত্ৰজোঁটে তালিকোটাৰ যুদ্ধত বিজয়নগৰক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-106",
+   "q": {
+    "en": "Who founded the Bahmani Kingdom?",
+    "as": "বাহমনী ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alauddin Bahman Shah",
+     "as": "আলাউদ্দিন বাহমন শাহ"
+    },
+    {
+     "en": "Harihara",
+     "as": "হৰিহৰ"
+    },
+    {
+     "en": "Bukka",
+     "as": "বুক্ক"
+    },
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alauddin Bahman Shah founded the Bahmani Kingdom in 1347.",
+    "as": "আলাউদ্দিন বাহমন শাহে ১৩৪৭ চনত বাহমনী ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-107",
+   "q": {
+    "en": "In which year was the Bahmani Kingdom founded?",
+    "as": "বাহমনী ৰাজ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1347 CE",
+     "as": "১৩৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1336 CE",
+     "as": "১৩৩৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1565 CE",
+     "as": "১৫৬৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bahmani Kingdom was founded in 1347 CE.",
+    "as": "বাহমনী ৰাজ্য ১৩৪৭ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-108",
+   "q": {
+    "en": "Which was the capital of the Bahmani Kingdom?",
+    "as": "বাহমনী ৰাজ্যৰ ৰাজধানী কোনখন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gulbarga",
+     "as": "গুলবৰ্গা"
+    },
+    {
+     "en": "Vijayanagara",
+     "as": "বিজয়নগৰ"
+    },
+    {
+     "en": "Hampi",
+     "as": "হাম্পি"
+    },
+    {
+     "en": "Bidar",
+     "as": "বিদৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gulbarga was the capital of the Bahmani Kingdom.",
+    "as": "গুলবৰ্গা বাহমনী ৰাজ্যৰ ৰাজধানী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-109",
+   "q": {
+    "en": "Who was the greatest Bahmani minister?",
+    "as": "শ্ৰেষ্ঠ বাহমনী মন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahmud Gawan",
+     "as": "মহমুদ গৱান"
+    },
+    {
+     "en": "Alauddin Bahman Shah",
+     "as": "আলাউদ্দিন বাহমন শাহ"
+    },
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    },
+    {
+     "en": "Rama Raya",
+     "as": "ৰাম ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahmud Gawan was the greatest Bahmani minister.",
+    "as": "মহমুদ গৱান শ্ৰেষ্ঠ বাহমনী মন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-110",
+   "q": {
+    "en": "Which Bahmani minister introduced reforms in land revenue and the army?",
+    "as": "কোন বাহমনী মন্ত্ৰীয়ে ভূমি ৰাজহ আৰু সেনাত সংস্কাৰ প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahmud Gawan",
+     "as": "মহমুদ গৱান"
+    },
+    {
+     "en": "Alauddin Bahman Shah",
+     "as": "আলাউদ্দিন বাহমন শাহ"
+    },
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    },
+    {
+     "en": "Rama Raya",
+     "as": "ৰাম ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahmud Gawan introduced reforms in land revenue and the army.",
+    "as": "মহমুদ গৱানে ভূমি ৰাজহ আৰু সেনাত সংস্কাৰ প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-111",
+   "q": {
+    "en": "Into how many states did the Bahmani Kingdom break up?",
+    "as": "বাহমনী ৰাজ্য কিমানখন ৰাজ্যত বিভক্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Five",
+     "as": "পাঁচখন"
+    },
+    {
+     "en": "Two",
+     "as": "দুইখন"
+    },
+    {
+     "en": "Three",
+     "as": "তিনিখন"
+    },
+    {
+     "en": "Four",
+     "as": "চাৰিখন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bahmani Kingdom broke up into five Deccan Sultanates.",
+    "as": "বাহমনী ৰাজ্য পাঁচখন দাক্ষিণাত্য সুলতানীত বিভক্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-112",
+   "q": {
+    "en": "Which Deccan Sultanate was ruled by the Adil Shahi dynasty?",
+    "as": "কোন দাক্ষিণাত্য সুলতানী আদিল শাহী বংশই শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bijapur",
+     "as": "বিজাপুৰ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bijapur was one of the five Deccan Sultanates.",
+    "as": "বিজাপুৰ পাঁচখন দাক্ষিণাত্য সুলতানীৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-113",
+   "q": {
+    "en": "Which Deccan Sultanate was ruled by the Qutb Shahi dynasty?",
+    "as": "কোন দাক্ষিণাত্য সুলতানী কুতুব শাহী বংশই শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Golconda",
+     "as": "গোলকণ্ডা"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Golconda was one of the five Deccan Sultanates.",
+    "as": "গোলকণ্ডা পাঁচখন দাক্ষিণাত্য সুলতানীৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-114",
+   "q": {
+    "en": "Which Deccan Sultanate was ruled by the Nizam Shahi dynasty?",
+    "as": "কোন দাক্ষিণাত্য সুলতানী নিজাম শাহী বংশই শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ahmednagar",
+     "as": "আহমদনগৰ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ahmednagar was one of the five Deccan Sultanates.",
+    "as": "আহমদনগৰ পাঁচখন দাক্ষিণাত্য সুলতানীৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-115",
+   "q": {
+    "en": "Which Deccan Sultanate was ruled by the Barid Shahi dynasty?",
+    "as": "কোন দাক্ষিণাত্য সুলতানী বৰিদ শাহী বংশই শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bidar",
+     "as": "বিদৰ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bidar was one of the five Deccan Sultanates.",
+    "as": "বিদৰ পাঁচখন দাক্ষিণাত্য সুলতানীৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-116",
+   "q": {
+    "en": "Which Deccan Sultanate was ruled by the Imad Shahi dynasty?",
+    "as": "কোন দাক্ষিণাত্য সুলতানী ইমাদ শাহী বংশই শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Berar",
+     "as": "বেৰাৰ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Berar was one of the five Deccan Sultanates.",
+    "as": "বেৰাৰ পাঁচখন দাক্ষিণাত্য সুলতানীৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-117",
+   "q": {
+    "en": "Which Sultanate kingdom was ruled by the Sharqi dynasty?",
+    "as": "কোন সুলতানী ৰাজ্য শৰ্কী বংশই শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jaunpur was ruled by the Sharqi dynasty.",
+    "as": "জৌনপুৰ শৰ্কী বংশই শাসন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-118",
+   "q": {
+    "en": "Which Sultanate kingdom was founded by Hussain Shah?",
+    "as": "হুছেইন শাহে কোন সুলতানী ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hussain Shah founded the independent Sultanate of Bengal.",
+    "as": "হুছেইন শাহে বংগৰ স্বাধীন সুলতানী প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-119",
+   "q": {
+    "en": "Which Sultanate kingdom was ruled by the Khalji and Tughlaq governors?",
+    "as": "কোন সুলতানী ৰাজ্য খিলজী আৰু তুঘলক ৰাজ্যপালসকলে শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Vijayanagara",
+     "as": "বিজয়নগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Malwa was ruled by Khalji and Tughlaq governors before becoming independent.",
+    "as": "মালৱা স্বাধীন হোৱাৰ আগতে খিলজী আৰু তুঘলক ৰাজ্যপালসকলে শাসন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-120",
+   "q": {
+    "en": "Which Sultanate kingdom was founded by Zafar Khan in Gujarat?",
+    "as": "গুজৰাটত জাফৰ খানে কোন সুলতানী ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Zafar Khan founded the independent Sultanate of Gujarat.",
+    "as": "জাফৰ খানে গুজৰাটৰ স্বাধীন সুলতানী প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-121",
+   "q": {
+    "en": "Which Sultanate kingdom had its capital at Mandu?",
+    "as": "কোন সুলতানী ৰাজ্যৰ ৰাজধানী মাণ্ডুত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Malwa had its capital at Mandu.",
+    "as": "মালৱাৰ ৰাজধানী মাণ্ডুত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-122",
+   "q": {
+    "en": "Which Sultanate kingdom had its capital at Ahmedabad?",
+    "as": "কোন সুলতানী ৰাজ্যৰ ৰাজধানী আহমেদাবাদত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gujarat had its capital at Ahmedabad.",
+    "as": "গুজৰাটৰ ৰাজধানী আহমেদাবাদত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-123",
+   "q": {
+    "en": "Which Sultanate kingdom had its capital at Pandua and Gaur?",
+    "as": "কোন সুলতানী ৰাজ্যৰ ৰাজধানী পান্ডুৱা আৰু গৌড়ত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bengal had its capitals at Pandua and Gaur.",
+    "as": "বংগৰ ৰাজধানী পান্ডুৱা আৰু গৌড়ত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-124",
+   "q": {
+    "en": "Which Sultanate kingdom was founded by the Sharqi dynasty at Jaunpur?",
+    "as": "জৌনপুৰত শৰ্কী বংশই কোন সুলতানী ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jaunpur",
+     "as": "জৌনপুৰ"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sharqi dynasty founded the Sultanate of Jaunpur.",
+    "as": "শৰ্কী বংশই জৌনপুৰৰ সুলতানী প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-125",
+   "q": {
+    "en": "Which kingdom of the Deccan was known for its diamond mines?",
+    "as": "দাক্ষিণাত্যৰ কোন ৰাজ্য ইয়াৰ হীৰাৰ খনিৰ বাবে জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Golconda",
+     "as": "গোলকণ্ডা"
+    },
+    {
+     "en": "Bijapur",
+     "as": "বিজাপুৰ"
+    },
+    {
+     "en": "Bidar",
+     "as": "বিদৰ"
+    },
+    {
+     "en": "Berar",
+     "as": "বেৰাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Golconda was known for its diamond mines.",
+    "as": "গোলকণ্ডা ইয়াৰ হীৰাৰ খনিৰ বাবে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-126",
+   "q": {
+    "en": "Which Deccan Sultanate was known for its painting and architecture?",
+    "as": "কোন দাক্ষিণাত্য সুলতানী ইয়াৰ চিত্ৰকলা আৰু স্থাপত্যৰ বাবে জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Bijapur",
+     "as": "বিজাপুৰ"
+    },
+    {
+     "en": "Bidar",
+     "as": "বিদৰ"
+    },
+    {
+     "en": "Berar",
+     "as": "বেৰাৰ"
+    },
+    {
+     "en": "Golconda",
+     "as": "গোলকণ্ডা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bijapur was known for its painting and architecture, including the Gol Gumbaz.",
+    "as": "বিজাপুৰ ইয়াৰ চিত্ৰকলা আৰু স্থাপত্যৰ বাবে জনা গৈছিল, গোল গুম্বাজকে ধৰি।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-127",
+   "q": {
+    "en": "Which monument at Bijapur is famous for its dome?",
+    "as": "বিজাপুৰত কোন স্মৃতিস্তম্ভ ইয়াৰ গম্বুজৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "The Gol Gumbaz",
+     "as": "গোল গুম্বাজ"
+    },
+    {
+     "en": "The Charminar",
+     "as": "চাৰমিনাৰ"
+    },
+    {
+     "en": "The Taj Mahal",
+     "as": "তাজমহল"
+    },
+    {
+     "en": "The Qutub Minar",
+     "as": "কুতুব মিনাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gol Gumbaz at Bijapur is famous for its huge dome.",
+    "as": "বিজাপুৰৰ গোল গুম্বাজ ইয়াৰ বিশাল গম্বুজৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-128",
+   "q": {
+    "en": "Which ruler of Ahmednagar resisted the Mughal expansion in the Deccan?",
+    "as": "আহমদনগৰৰ কোন শাসকে দাক্ষিণাত্যত মোগল বিস্তাৰ প্ৰতিহত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Malik Ambar",
+     "as": "মালিক আম্বৰ"
+    },
+    {
+     "en": "Mahmud Gawan",
+     "as": "মহমুদ গৱান"
+    },
+    {
+     "en": "Krishnadevaraya",
+     "as": "কৃষ্ণদেৱৰায়"
+    },
+    {
+     "en": "Rama Raya",
+     "as": "ৰাম ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Malik Ambar of Ahmednagar resisted the Mughal expansion in the Deccan.",
+    "as": "আহমদনগৰৰ মালিক আম্বৰে দাক্ষিণাত্যত মোগল বিস্তাৰ প্ৰতিহত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-129",
+   "q": {
+    "en": "Who was Malik Ambar?",
+    "as": "মালিক আম্বৰ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "A minister and general of Ahmednagar",
+     "as": "আহমদনগৰৰ এজন মন্ত্ৰী আৰু সেনাপতি"
+    },
+    {
+     "en": "A Mughal emperor",
+     "as": "এজন মোগল সম্ৰাট"
+    },
+    {
+     "en": "A Vijayanagara king",
+     "as": "এজন বিজয়নগৰ ৰজা"
+    },
+    {
+     "en": "A Bahmani sultan",
+     "as": "এজন বাহমনী সুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Malik Ambar was a minister and general of Ahmednagar who resisted the Mughals.",
+    "as": "মালিক আম্বৰ আহমদনগৰৰ এজন মন্ত্ৰী আৰু সেনাপতি আছিল যি মোগলসকলক প্ৰতিহত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-130",
+   "q": {
+    "en": "Which Mughal emperor finally annexed Ahmednagar?",
+    "as": "কোন মোগল সম্ৰাটে শেষত আহমদনগৰ অধিগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan finally annexed Ahmednagar.",
+    "as": "শাহজাহানে শেষত আহমদনগৰ অধিগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-131",
+   "q": {
+    "en": "Who founded the Sikh religion?",
+    "as": "শিখ ধৰ্ম কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    },
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Teg Bahadur",
+     "as": "গুৰু তেগ বাহাদুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Nanak founded the Sikh religion in the 15th century.",
+    "as": "গুৰু নানকে ১৫ শতিকাত শিখ ধৰ্ম প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-132",
+   "q": {
+    "en": "Who was the first Sikh Guru?",
+    "as": "প্ৰথম শিখ গুৰু কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Angad",
+     "as": "গুৰু অঙ্গদ"
+    },
+    {
+     "en": "Guru Amar Das",
+     "as": "গুৰু অমৰ দাস"
+    },
+    {
+     "en": "Guru Ram Das",
+     "as": "গুৰু ৰাম দাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Nanak was the first Sikh Guru.",
+    "as": "গুৰু নানক প্ৰথম শিখ গুৰু আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-133",
+   "q": {
+    "en": "Who was the fifth Sikh Guru?",
+    "as": "পঞ্চম শিখ গুৰু কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Hargobind",
+     "as": "গুৰু হৰগোবিন্দ"
+    },
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Arjan Dev was the fifth Sikh Guru.",
+    "as": "গুৰু অৰ্জন দেৱ পঞ্চম শিখ গুৰু আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-134",
+   "q": {
+    "en": "Which Sikh Guru compiled the 'Adi Granth'?",
+    "as": "কোন শিখ গুৰুৱে 'আদি গ্ৰন্থ' সংকলন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    },
+    {
+     "en": "Guru Hargobind",
+     "as": "গুৰু হৰগোবিন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Arjan Dev compiled the Adi Granth.",
+    "as": "গুৰু অৰ্জন দেৱে আদি গ্ৰন্থ সংকলন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-135",
+   "q": {
+    "en": "Who founded the city of Amritsar?",
+    "as": "অমৃতসৰ চহৰ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Ram Das",
+     "as": "গুৰু ৰাম দাস"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Ram Das founded the city of Amritsar.",
+    "as": "গুৰু ৰাম দাসে অমৃতসৰ চহৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-136",
+   "q": {
+    "en": "Which Sikh Guru built the Golden Temple?",
+    "as": "কোন শিখ গুৰুৱে স্বৰ্ণ মন্দিৰ নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    },
+    {
+     "en": "Guru Hargobind",
+     "as": "গুৰু হৰগোবিন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Arjan Dev built the Golden Temple (Harmandir Sahib).",
+    "as": "গুৰু অৰ্জন দেৱে স্বৰ্ণ মন্দিৰ (হৰমন্দিৰ চাহিব) নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-137",
+   "q": {
+    "en": "Which Sikh Guru founded the Khalsa?",
+    "as": "কোন শিখ গুৰুৱে খালছা প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Hargobind",
+     "as": "গুৰু হৰগোবিন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Gobind Singh founded the Khalsa in 1699.",
+    "as": "গুৰু গোবিন্দ সিঙে ১৬৯৯ চনত খালছা প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-138",
+   "q": {
+    "en": "In which year was the Khalsa founded?",
+    "as": "খালছা কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1699 CE",
+     "as": "১৬৯৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1606 CE",
+     "as": "১৬০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1708 CE",
+     "as": "১৭০৮ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Khalsa was founded in 1699 CE.",
+    "as": "খালছা ১৬৯৯ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-139",
+   "q": {
+    "en": "Who was the last Sikh Guru?",
+    "as": "শেষ শিখ গুৰু কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Hargobind",
+     "as": "গুৰু হৰগোবিন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Gobind Singh was the last Sikh Guru.",
+    "as": "গুৰু গোবিন্দ সিং শেষ শিখ গুৰু আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-140",
+   "q": {
+    "en": "Who founded the Maratha Empire?",
+    "as": "মাৰাঠা সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Balaji Vishwanath",
+     "as": "বালাজী বিশ্বনাথ"
+    },
+    {
+     "en": "Sambhaji",
+     "as": "সম্ভাজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shivaji founded the Maratha Empire.",
+    "as": "শিৱাজীয়ে মাৰাঠা সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-141",
+   "q": {
+    "en": "When was Shivaji crowned?",
+    "as": "শিৱাজী কেতিয়া ৰাজ্যাভিষিক্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1674 CE",
+     "as": "১৬৭৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1657 CE",
+     "as": "১৬৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1680 CE",
+     "as": "১৬৮০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1707 CE",
+     "as": "১৭০৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shivaji was crowned in 1674 CE at Raigad.",
+    "as": "শিৱাজী ১৬৭৪ খ্ৰীষ্টাব্দত ৰায়গড়ত ৰাজ্যাভিষিক্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-142",
+   "q": {
+    "en": "Which title did Shivaji assume at his coronation?",
+    "as": "শিৱাজীয়ে ৰাজ্যাভিষেকত কোন উপাধি গ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chhatrapati",
+     "as": "ছত্ৰপতি"
+    },
+    {
+     "en": "Padishah",
+     "as": "পাদিশাহ"
+    },
+    {
+     "en": "Sultan",
+     "as": "সুলতান"
+    },
+    {
+     "en": "Maharaja",
+     "as": "মহাৰাজা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shivaji assumed the title Chhatrapati at his coronation.",
+    "as": "শিৱাজীয়ে ৰাজ্যাভিষেকত ছত্ৰপতি উপাধি গ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-143",
+   "q": {
+    "en": "Who was Shivaji's chief minister known as?",
+    "as": "শিৱাজীৰ প্ৰধান মন্ত্ৰীক কি বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Peshwa",
+     "as": "পেশৱা"
+    },
+    {
+     "en": "The Wazir",
+     "as": "ৱাজিৰ"
+    },
+    {
+     "en": "The Diwan",
+     "as": "দিৱান"
+    },
+    {
+     "en": "The Sadr",
+     "as": "ছদৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shivaji's chief minister was known as the Peshwa.",
+    "as": "শিৱাজীৰ প্ৰধান মন্ত্ৰীক পেশৱা বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-144",
+   "q": {
+    "en": "Who was the founder of the Peshwa dynasty of the Marathas?",
+    "as": "মাৰাঠাসকলৰ পেশৱা বংশৰ প্ৰতিষ্ঠাপক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Balaji Vishwanath",
+     "as": "বালাজী বিশ্বনাথ"
+    },
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Sambhaji",
+     "as": "সম্ভাজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Balaji Vishwanath was the founder of the Peshwa dynasty of the Marathas.",
+    "as": "বালাজী বিশ্বনাথ মাৰাঠাসকলৰ পেশৱা বংশৰ প্ৰতিষ্ঠাপক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-145",
+   "q": {
+    "en": "Which Peshwa is known as the greatest of the Marathas?",
+    "as": "কোন পেশৱাক মাৰাঠাসকলৰ শ্ৰেষ্ঠ হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Balaji Vishwanath",
+     "as": "বালাজী বিশ্বনাথ"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Sambhaji",
+     "as": "সম্ভাজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Baji Rao I is known as the greatest of the Maratha Peshwas.",
+    "as": "বাজী ৰাও প্ৰথমক মাৰাঠা পেশৱাসকলৰ শ্ৰেষ্ঠ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-146",
+   "q": {
+    "en": "Which Maratha leader fought the Third Battle of Panipat?",
+    "as": "তৃতীয় পানিপথ যুদ্ধত কোন মাৰাঠা নেতাই যুদ্ধ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sadashiv Rao Bhau",
+     "as": "সদাশিৱ ৰাও ভাউ"
+    },
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Sambhaji",
+     "as": "সম্ভাজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sadashiv Rao Bhau led the Marathas at the Third Battle of Panipat.",
+    "as": "সদাশিৱ ৰাও ভাউয়ে তৃতীয় পানিপথ যুদ্ধত মাৰাঠাসকলৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-147",
+   "q": {
+    "en": "In which year was the Third Battle of Panipat fought?",
+    "as": "তৃতীয় পানিপথ যুদ্ধ কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1761 CE",
+     "as": "১৭৬১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1556 CE",
+     "as": "১৫৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Third Battle of Panipat was fought in 1761 CE.",
+    "as": "তৃতীয় পানিপথ যুদ্ধ ১৭৬১ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-148",
+   "q": {
+    "en": "Who defeated the Marathas at the Third Battle of Panipat?",
+    "as": "তৃতীয় পানিপথ যুদ্ধত মাৰাঠাসকলক কোনে পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ahmad Shah Abdali",
+     "as": "আহমদ শাহ আব্দালী"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Sher Shah Suri",
+     "as": "শেৰ শাহ সূৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ahmad Shah Abdali defeated the Marathas at the Third Battle of Panipat.",
+    "as": "আহমদ শাহ আব্দালীয়ে তৃতীয় পানিপথ যুদ্ধত মাৰাঠাসকলক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-149",
+   "q": {
+    "en": "Which Maratha leader established a kingdom at Gwalior?",
+    "as": "গোৱালিয়ৰত ৰাজ্য প্ৰতিষ্ঠা কৰা মাৰাঠা নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahadaji Shinde",
+     "as": "মহাদাজী শিন্দে"
+    },
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Sambhaji",
+     "as": "সম্ভাজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahadaji Shinde established a Maratha kingdom at Gwalior.",
+    "as": "মহাদাজী শিন্দে গোৱালিয়ৰত এখন মাৰাঠা ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-150",
+   "q": {
+    "en": "Which Maratha leader established a kingdom at Indore?",
+    "as": "ইন্দোৰত ৰাজ্য প্ৰতিষ্ঠা কৰা মাৰাঠা নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ahilyabai Holkar",
+     "as": "অহিল্যাবাই হোলকাৰ"
+    },
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Sambhaji",
+     "as": "সম্ভাজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ahilyabai Holkar ruled the Maratha kingdom at Indore.",
+    "as": "অহিল্যাবাই হোলকাৰে ইন্দোৰত মাৰাঠা ৰাজ্য শাসন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-151",
+   "q": {
+    "en": "Who founded the Bhakti movement in North India?",
+    "as": "উত্তৰ ভাৰতত ভক্তি আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ramananda",
+     "as": "ৰামানন্দ"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Mirabai",
+     "as": "মীৰাবাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ramananda founded the Bhakti movement in North India.",
+    "as": "ৰামানন্দে উত্তৰ ভাৰতত ভক্তি আন্দোলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-152",
+   "q": {
+    "en": "Who was the most famous disciple of Ramananda?",
+    "as": "ৰামানন্দৰ আটাইতকৈ বিখ্যাত শিষ্য কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Mirabai",
+     "as": "মীৰাবাই"
+    },
+    {
+     "en": "Surdas",
+     "as": "সুৰদাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kabir was the most famous disciple of Ramananda.",
+    "as": "কবিৰ ৰামানন্দৰ আটাইতকৈ বিখ্যাত শিষ্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-153",
+   "q": {
+    "en": "Who wrote the 'Ramcharitmanas'?",
+    "as": "'ৰামচৰিতমানস' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Surdas",
+     "as": "সুৰদাস"
+    },
+    {
+     "en": "Mirabai",
+     "as": "মীৰাবাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tulsidas wrote the Ramcharitmanas in Awadhi.",
+    "as": "তুলসীদাসে অৱধী ভাষাত ৰামচৰিতমানস লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-154",
+   "q": {
+    "en": "Who was the blind poet-saint devoted to Krishna?",
+    "as": "কৃষ্ণৰ প্ৰতি ভক্ত এজন অন্ধ কবি-সন্ত কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Surdas",
+     "as": "সুৰদাস"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Mirabai",
+     "as": "মীৰাবাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Surdas was the blind poet-saint devoted to Krishna.",
+    "as": "সুৰদাস কৃষ্ণৰ প্ৰতি ভক্ত অন্ধ কবি-সন্ত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-155",
+   "q": {
+    "en": "Who was the Rajput princess who became a devotee of Krishna?",
+    "as": "কৃষ্ণৰ ভক্ত হোৱা ৰাজপুত ৰাজকুমাৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Mirabai",
+     "as": "মীৰাবাই"
+    },
+    {
+     "en": "Surdas",
+     "as": "সুৰদাস"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mirabai was the Rajput princess who became a devotee of Krishna.",
+    "as": "মীৰাবাই কৃষ্ণৰ ভক্ত হোৱা ৰাজপুত ৰাজকুমাৰী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-156",
+   "q": {
+    "en": "Who founded the Sufi Chishti order in India?",
+    "as": "ভাৰতত চিশতী ছুফী তৰিকাৰ প্ৰতিষ্ঠাপক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Khwaja Moinuddin Chishti",
+     "as": "খাজা মুইনুদ্দিন চিশতী"
+    },
+    {
+     "en": "Nizamuddin Auliya",
+     "as": "নিজামুদ্দিন আউলিয়া"
+    },
+    {
+     "en": "Baba Farid",
+     "as": "বাবা ফৰিদ"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Khwaja Moinuddin Chishti founded the Chishti order in India.",
+    "as": "খাজা মুইনুদ্দিন চিশতীয়ে ভাৰতত চিশতী তৰিকা প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-157",
+   "q": {
+    "en": "Which Sufi saint is buried at Ajmer?",
+    "as": "কোন ছুফী সন্ত আজমেৰত সমাধিস্থ?"
+   },
+   "options": [
+    {
+     "en": "Khwaja Moinuddin Chishti",
+     "as": "খাজা মুইনুদ্দিন চিশতী"
+    },
+    {
+     "en": "Nizamuddin Auliya",
+     "as": "নিজামুদ্দিন আউলিয়া"
+    },
+    {
+     "en": "Baba Farid",
+     "as": "বাবা ফৰিদ"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Khwaja Moinuddin Chishti is buried at Ajmer.",
+    "as": "খাজা মুইনুদ্দিন চিশতী আজমেৰত সমাধিস্থ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-158",
+   "q": {
+    "en": "Which Sufi saint was known as 'Gharib Nawaz'?",
+    "as": "কোন ছুফী সন্তক 'গৰীব নৱাজ' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Khwaja Moinuddin Chishti",
+     "as": "খাজা মুইনুদ্দিন চিশতী"
+    },
+    {
+     "en": "Nizamuddin Auliya",
+     "as": "নিজামুদ্দিন আউলিয়া"
+    },
+    {
+     "en": "Baba Farid",
+     "as": "বাবা ফৰিদ"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Khwaja Moinuddin Chishti was known as Gharib Nawaz, the protector of the poor.",
+    "as": "খাজা মুইনুদ্দিন চিশতীক গৰীব নৱাজ, দৰিদ্ৰৰ ৰক্ষক, বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-159",
+   "q": {
+    "en": "Which Sufi saint was known as 'Chirag-i-Delhi'?",
+    "as": "কোন ছুফী সন্তক 'চিৰাগ-ই-দিল্লী' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Nasiruddin Mahmud",
+     "as": "নাছিৰুদ্দিন মহমুদ"
+    },
+    {
+     "en": "Khwaja Moinuddin Chishti",
+     "as": "খাজা মুইনুদ্দিন চিশতী"
+    },
+    {
+     "en": "Nizamuddin Auliya",
+     "as": "নিজামুদ্দিন আউলিয়া"
+    },
+    {
+     "en": "Baba Farid",
+     "as": "বাবা ফৰিদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nasiruddin Mahmud was known as Chirag-i-Delhi, the lamp of Delhi.",
+    "as": "নাছিৰুদ্দিন মহমুদক চিৰাগ-ই-দিল্লী, দিল্লীৰ চাকি, বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-160",
+   "q": {
+    "en": "Which Sufi saint was known as 'Baba Farid'?",
+    "as": "কোন ছুফী সন্তক 'বাবা ফৰিদ' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Fariduddin Ganjshakar",
+     "as": "ফৰিদুদ্দিন গঞ্জশকৰ"
+    },
+    {
+     "en": "Khwaja Moinuddin Chishti",
+     "as": "খাজা মুইনুদ্দিন চিশতী"
+    },
+    {
+     "en": "Nizamuddin Auliya",
+     "as": "নিজামুদ্দিন আউলিয়া"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Fariduddin Ganjshakar was known as Baba Farid.",
+    "as": "ফৰিদুদ্দিন গঞ্জশকৰক বাবা ফৰিদ বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-161",
+   "q": {
+    "en": "Which Sufi order was founded by Khwaja Bahauddin Naqshband?",
+    "as": "খাজা বাহাউদ্দিন নকশবন্দে কোন ছুফী তৰিকা প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Naqshbandi order",
+     "as": "নকশবন্দী তৰিকা"
+    },
+    {
+     "en": "The Chishti order",
+     "as": "চিশতী তৰিকা"
+    },
+    {
+     "en": "The Suhrawardi order",
+     "as": "চুহৰাৱৰ্দী তৰিকা"
+    },
+    {
+     "en": "The Qadiri order",
+     "as": "কাদিৰী তৰিকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Khwaja Bahauddin Naqshband founded the Naqshbandi Sufi order.",
+    "as": "খাজা বাহাউদ্দিন নকশবন্দে নকশবন্দী ছুফী তৰিকা প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-162",
+   "q": {
+    "en": "Which Sufi order was founded by Sheikh Shihabuddin Suhrawardi?",
+    "as": "শেখ চিহাবুদ্দিন চুহৰাৱৰ্দীয়ে কোন ছুফী তৰিকা প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Suhrawardi order",
+     "as": "চুহৰাৱৰ্দী তৰিকা"
+    },
+    {
+     "en": "The Chishti order",
+     "as": "চিশতী তৰিকা"
+    },
+    {
+     "en": "The Naqshbandi order",
+     "as": "নকশবন্দী তৰিকা"
+    },
+    {
+     "en": "The Qadiri order",
+     "as": "কাদিৰী তৰিকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sheikh Shihabuddin Suhrawardi founded the Suhrawardi Sufi order.",
+    "as": "শেখ চিহাবুদ্দিন চুহৰাৱৰ্দীয়ে চুহৰাৱৰ্দী ছুফী তৰিকা প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-163",
+   "q": {
+    "en": "Which Mughal prince was a follower of the Qadiri Sufi order?",
+    "as": "কোন মোগল ৰাজকুমাৰ কাদিৰী ছুফী তৰিকাৰ অনুগামী আছিল?"
+   },
+   "options": [
+    {
+     "en": "Dara Shikoh",
+     "as": "দাৰা শিকোহ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dara Shikoh, the Mughal prince, was a follower of the Qadiri Sufi order.",
+    "as": "দাৰা শিকোহ, মোগল ৰাজকুমাৰ, কাদিৰী ছুফী তৰিকাৰ অনুগামী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-164",
+   "q": {
+    "en": "Which Mughal emperor translated the Upanishads into Persian with the help of Dara Shikoh?",
+    "as": "কোন মোগল সম্ৰাটে দাৰা শিকোহৰ সহায়ত উপনিষদ পাৰস্য ভাষালৈ অনুবাদ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan's era (Dara Shikoh's work)",
+     "as": "শাহজাহানৰ যুগ (দাৰা শিকোহৰ কাম)"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dara Shikoh, in Shah Jahan's era, translated the Upanishads into Persian.",
+    "as": "দাৰা শিকোহ, শাহজাহানৰ যুগত, উপনিষদ পাৰস্য ভাষালৈ অনুবাদ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-165",
+   "q": {
+    "en": "Which Mughal emperor was known for his 'Din-i-Ilahi'?",
+    "as": "কোন মোগল সম্ৰাট তেওঁৰ 'দীন-ই-ইলাহী'ৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar was known for his Din-i-Ilahi, a syncretic religion.",
+    "as": "আকবৰ তেওঁৰ দীন-ই-ইলাহী, এক সমন্বয়বাদী ধৰ্ম, ৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-166",
+   "q": {
+    "en": "Who was the Sikh Guru who was executed by the Mughals?",
+    "as": "মোগলসকলে কাক মৃত্যুদণ্ড দিয়া শিখ গুৰু কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    },
+    {
+     "en": "Guru Hargobind",
+     "as": "গুৰু হৰগোবিন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Arjan Dev was executed by the Mughals in 1606.",
+    "as": "গুৰু অৰ্জন দেৱক ১৬০৬ চনত মোগলসকলে মৃত্যুদণ্ড দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-167",
+   "q": {
+    "en": "Which Sikh Guru was executed by Aurangzeb?",
+    "as": "আওৰাংজেবে কোন শিখ গুৰুক মৃত্যুদণ্ড দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guru Teg Bahadur",
+     "as": "গুৰু তেগ বাহাদুৰ"
+    },
+    {
+     "en": "Guru Nanak",
+     "as": "গুৰু নানক"
+    },
+    {
+     "en": "Guru Arjan Dev",
+     "as": "গুৰু অৰ্জন দেৱ"
+    },
+    {
+     "en": "Guru Gobind Singh",
+     "as": "গুৰু গোবিন্দ সিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guru Teg Bahadur was executed by Aurangzeb in 1675.",
+    "as": "গুৰু তেগ বাহাদুৰক ১৬৭৫ চনত আওৰাংজেবে মৃত্যুদণ্ড দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-168",
+   "q": {
+    "en": "Who was the Maratha ruler who fought against Aurangzeb?",
+    "as": "আওৰাংজেবৰ বিৰুদ্ধে যুদ্ধ কৰা মাৰাঠা শাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Balaji Vishwanath",
+     "as": "বালাজী বিশ্বনাথ"
+    },
+    {
+     "en": "Sadashiv Rao Bhau",
+     "as": "সদাশিৱ ৰাও ভাউ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shivaji fought against Aurangzeb and the Mughals.",
+    "as": "শিৱাজীয়ে আওৰাংজেব আৰু মোগলসকলৰ বিৰুদ্ধে যুদ্ধ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-169",
+   "q": {
+    "en": "Which Maratha king was captured and executed by Aurangzeb?",
+    "as": "আওৰাংজেবে কাক বন্দী কৰি মৃত্যুদণ্ড দিয়া মাৰাঠা ৰজা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sambhaji",
+     "as": "সম্ভাজী"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Baji Rao I",
+     "as": "বাজী ৰাও প্ৰথম"
+    },
+    {
+     "en": "Balaji Vishwanath",
+     "as": "বালাজী বিশ্বনাথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sambhaji was captured and executed by Aurangzeb.",
+    "as": "সম্ভাজীক আওৰাংজেবে বন্দী কৰি মৃত্যুদণ্ড দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-170",
+   "q": {
+    "en": "What was the central teaching of the Bhakti movement?",
+    "as": "ভক্তি আন্দোলনৰ কেন্দ্ৰীয় শিক্ষা কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Devotion to a personal god",
+     "as": "এক ব্যক্তিগত দেৱতাৰ প্ৰতি ভক্তি"
+    },
+    {
+     "en": "Ritual sacrifice",
+     "as": "আচাৰ-অনুষ্ঠানৰ বলি"
+    },
+    {
+     "en": "Caste supremacy",
+     "as": "জাতি শ্ৰেষ্ঠত্ব"
+    },
+    {
+     "en": "Temple building only",
+     "as": "কেৱল মন্দিৰ নিৰ্মাণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement emphasised devotion to a personal god.",
+    "as": "ভক্তি আন্দোলনে এক ব্যক্তিগত দেৱতাৰ প্ৰতি ভক্তিৰ ওপৰত গুৰুত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-171",
+   "q": {
+    "en": "What was the central idea of the Sufi movement?",
+    "as": "ছুফী আন্দোলনৰ কেন্দ্ৰীয় ধাৰণা কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Mysticism and love of God",
+     "as": "ৰহস্যবাদ আৰু ঈশ্বৰৰ প্ৰেম"
+    },
+    {
+     "en": "Ritual sacrifice",
+     "as": "আচাৰ-অনুষ্ঠানৰ বলি"
+    },
+    {
+     "en": "Caste supremacy",
+     "as": "জাতি শ্ৰেষ্ঠত্ব"
+    },
+    {
+     "en": "Temple building only",
+     "as": "কেৱল মন্দিৰ নিৰ্মাণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sufi movement emphasised mysticism and the love of God.",
+    "as": "ছুফী আন্দোলনে ৰহস্যবাদ আৰু ঈশ্বৰৰ প্ৰেমৰ ওপৰত গুৰুত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-172",
+   "q": {
+    "en": "Which of the following was a feature of the Bhakti movement in South India?",
+    "as": "দক্ষিণ ভাৰতত ভক্তি আন্দোলনৰ এটা বৈশিষ্ট্য তলৰ কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Alvars and Nayanars",
+     "as": "আলৱাৰ আৰু নয়নৰ"
+    },
+    {
+     "en": "The Ashtadiggajas",
+     "as": "অষ্টদিগ্গজ"
+    },
+    {
+     "en": "The Navaratna",
+     "as": "নৱৰত্ন"
+    },
+    {
+     "en": "The Ashtapradhan",
+     "as": "অষ্টপ্ৰধান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Alvars and Nayanars led the Bhakti movement in South India.",
+    "as": "আলৱাৰ আৰু নয়নৰসকলে দক্ষিণ ভাৰতত ভক্তি আন্দোলনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-173",
+   "q": {
+    "en": "Who were the Alvars?",
+    "as": "আলৱাৰসকল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Vaishnava poet-saints of South India",
+     "as": "দক্ষিণ ভাৰতৰ বৈষ্ণৱ কবি-সন্ত"
+    },
+    {
+     "en": "Shaiva poet-saints of South India",
+     "as": "দক্ষিণ ভাৰতৰ শৈৱ কবি-সন্ত"
+    },
+    {
+     "en": "Sufi saints of Delhi",
+     "as": "দিল্লীৰ ছুফী সন্ত"
+    },
+    {
+     "en": "Buddhist monks of Bengal",
+     "as": "বংগৰ বৌদ্ধ ভিক্ষু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Alvars were Vaishnava poet-saints of South India.",
+    "as": "আলৱাৰসকল দক্ষিণ ভাৰতৰ বৈষ্ণৱ কবি-সন্ত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-174",
+   "q": {
+    "en": "Who were the Nayanars?",
+    "as": "নয়নৰসকল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Shaiva poet-saints of South India",
+     "as": "দক্ষিণ ভাৰতৰ শৈৱ কবি-সন্ত"
+    },
+    {
+     "en": "Vaishnava poet-saints of South India",
+     "as": "দক্ষিণ ভাৰতৰ বৈষ্ণৱ কবি-সন্ত"
+    },
+    {
+     "en": "Sufi saints of Delhi",
+     "as": "দিল্লীৰ ছুফী সন্ত"
+    },
+    {
+     "en": "Buddhist monks of Bengal",
+     "as": "বংগৰ বৌদ্ধ ভিক্ষু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nayanars were Shaiva poet-saints of South India.",
+    "as": "নয়নৰসকল দক্ষিণ ভাৰতৰ শৈৱ কবি-সন্ত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-175",
+   "q": {
+    "en": "Who was the woman Alvar saint?",
+    "as": "মহিলা আলৱাৰ সন্ত কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Andal",
+     "as": "আন্দাল"
+    },
+    {
+     "en": "Mirabai",
+     "as": "মীৰাবাই"
+    },
+    {
+     "en": "Akkamahadevi",
+     "as": "অক্কমহাদেৱী"
+    },
+    {
+     "en": "Lal Ded",
+     "as": "লল দেদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Andal was the woman Alvar saint of South India.",
+    "as": "আন্দাল দক্ষিণ ভাৰতৰ মহিলা আলৱাৰ সন্ত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-176",
+   "q": {
+    "en": "Who founded the Lingayat movement in Karnataka?",
+    "as": "কৰ্ণাটকত লিংগায়ত আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Basavanna",
+     "as": "বসৱন্ন"
+    },
+    {
+     "en": "Ramananda",
+     "as": "ৰামানন্দ"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Chaitanya",
+     "as": "চৈতন্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Basavanna founded the Lingayat movement in Karnataka.",
+    "as": "বসৱন্নে কৰ্ণাটকত লিংগায়ত আন্দোলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-177",
+   "q": {
+    "en": "Who founded the Vaishnava movement in Bengal?",
+    "as": "বংগত বৈষ্ণৱ আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chaitanya Mahaprabhu",
+     "as": "চৈতন্য মহাপ্ৰভু"
+    },
+    {
+     "en": "Ramananda",
+     "as": "ৰামানন্দ"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Basavanna",
+     "as": "বসৱন্ন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chaitanya Mahaprabhu founded the Vaishnava movement in Bengal.",
+    "as": "চৈতন্য মহাপ্ৰভুৱে বংগত বৈষ্ণৱ আন্দোলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-178",
+   "q": {
+    "en": "Which of the following was a feature of the Bhakti movement in Assam?",
+    "as": "অসমত ভক্তি আন্দোলনৰ এটা বৈশিষ্ট্য তলৰ কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Ekasarana Dharma of Srimanta Sankardeva",
+     "as": "শ্ৰীমন্ত শংকৰদেৱৰ একশৰণ ধৰ্ম"
+    },
+    {
+     "en": "The Sufi order",
+     "as": "ছুফী তৰিকা"
+    },
+    {
+     "en": "The Lingayat movement",
+     "as": "লিংগায়ত আন্দোলন"
+    },
+    {
+     "en": "The Alvar movement",
+     "as": "আলৱাৰ আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ekasarana Dharma of Srimanta Sankardeva was a feature of the Bhakti movement in Assam.",
+    "as": "শ্ৰীমন্ত শংকৰদেৱৰ একশৰণ ধৰ্ম অসমত ভক্তি আন্দোলনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-179",
+   "q": {
+    "en": "Who founded the Ekasarana Dharma in Assam?",
+    "as": "অসমত একশৰণ ধৰ্ম কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Srimanta Sankardeva",
+     "as": "শ্ৰীমন্ত শংকৰদেৱ"
+    },
+    {
+     "en": "Madhavdeva",
+     "as": "মাধৱদেৱ"
+    },
+    {
+     "en": "Damodardeva",
+     "as": "দামোদৰদেৱ"
+    },
+    {
+     "en": "Harideva",
+     "as": "হৰিদেৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Srimanta Sankardeva founded the Ekasarana Dharma in Assam.",
+    "as": "শ্ৰীমন্ত শংকৰদেৱে অসমত একশৰণ ধৰ্ম প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-180",
+   "q": {
+    "en": "Which Vaishnava saint was the chief disciple of Sankardeva?",
+    "as": "শংকৰদেৱৰ প্ৰধান শিষ্য কোন বৈষ্ণৱ সন্ত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Madhavdeva",
+     "as": "মাধৱদেৱ"
+    },
+    {
+     "en": "Damodardeva",
+     "as": "দামোদৰদেৱ"
+    },
+    {
+     "en": "Harideva",
+     "as": "হৰিদেৱ"
+    },
+    {
+     "en": "Gopaldev",
+     "as": "গোপালদেৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Madhavdeva was the chief disciple of Srimanta Sankardeva.",
+    "as": "মাধৱদেৱ শ্ৰীমন্ত শংকৰদেৱৰ প্ৰধান শিষ্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-181",
+   "q": {
+    "en": "In which languages did the Bhakti movement reach the common people?",
+    "as": "কোন ভাষাত ভক্তি আন্দোলনে সাধাৰণ লোকৰ ওচৰ চাপিছিল?"
+   },
+   "options": [
+    {
+     "en": "The use of local languages",
+     "as": "স্থানীয় ভাষাৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of Latin",
+     "as": "লেটিনৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of Greek",
+     "as": "গ্ৰীকৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of Arabic",
+     "as": "আৰবীৰ ব্যৱহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement used local languages to reach the common people.",
+    "as": "ভক্তি আন্দোলনে সাধাৰণ লোকৰ ওচৰ চাপিবলৈ স্থানীয় ভাষা ব্যৱহাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-182",
+   "q": {
+    "en": "What practice did the Sufi movement use in worship?",
+    "as": "ছুফী আন্দোলনে উপাসনাত কি প্ৰথা ব্যৱহাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The use of music (sama) in worship",
+     "as": "উপাসনাত সংগীত (ছামা) ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of Latin",
+     "as": "লেটিনৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of Greek",
+     "as": "গ্ৰীকৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of fire sacrifices",
+     "as": "অগ্নি বলিৰ ব্যৱহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sufi movement used music (sama) in worship.",
+    "as": "ছুফী আন্দোলনে উপাসনাত সংগীত (ছামা) ব্যৱহাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-183",
+   "q": {
+    "en": "What did the Bhakti movement reject in society?",
+    "as": "ভক্তি আন্দোলনে সমাজত কি প্ৰত্যাখ্যান কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The rejection of caste and ritual",
+     "as": "জাতি আৰু আচাৰ-অনুষ্ঠানৰ প্ৰত্যাখ্যান"
+    },
+    {
+     "en": "The support of caste",
+     "as": "জাতিৰ সমৰ্থন"
+    },
+    {
+     "en": "The support of ritual sacrifice",
+     "as": "আচাৰ-অনুষ্ঠানৰ বলিৰ সমৰ্থন"
+    },
+    {
+     "en": "The support of temple building only",
+     "as": "কেৱল মন্দিৰ নিৰ্মাণৰ সমৰ্থন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement rejected caste distinctions and elaborate rituals.",
+    "as": "ভক্তি আন্দোলনে জাতি বিভেদ আৰু বিস্তৃত আচাৰ-অনুষ্ঠান প্ৰত্যাখ্যান কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-184",
+   "q": {
+    "en": "What institutions were central to the Sufi movement?",
+    "as": "ছুফী আন্দোলনত কোন প্ৰতিষ্ঠান কেন্দ্ৰীয় আছিল?"
+   },
+   "options": [
+    {
+     "en": "The importance of the pir and the khanqah",
+     "as": "পীৰ আৰু খানকাহৰ গুৰুত্ব"
+    },
+    {
+     "en": "The importance of the temple",
+     "as": "মন্দিৰৰ গুৰুত্ব"
+    },
+    {
+     "en": "The importance of the caste system",
+     "as": "জাতি ব্যৱস্থাৰ গুৰুত্ব"
+    },
+    {
+     "en": "The importance of ritual sacrifice",
+     "as": "আচাৰ-অনুষ্ঠানৰ বলিৰ গুৰুত্ব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sufi movement emphasised the pir (master) and the khanqah (hospice).",
+    "as": "ছুফী আন্দোলনে পীৰ (গুৰু) আৰু খানকাহ (আশ্ৰয়স্থল)ৰ ওপৰত গুৰুত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-185",
+   "q": {
+    "en": "What role did the guru play in the Bhakti movement?",
+    "as": "ভক্তি আন্দোলনত গুৰুৱে কি ভূমিকা লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The importance of the guru",
+     "as": "গুৰুৰ গুৰুত্ব"
+    },
+    {
+     "en": "The importance of the priest only",
+     "as": "কেৱল পুৰোহিতৰ গুৰুত্ব"
+    },
+    {
+     "en": "The importance of the king only",
+     "as": "কেৱল ৰজাৰ গুৰুত্ব"
+    },
+    {
+     "en": "The importance of the army only",
+     "as": "কেৱল সেনাৰ গুৰুত্ব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement emphasised the importance of the guru.",
+    "as": "ভক্তি আন্দোলনে গুৰুৰ গুৰুত্বৰ ওপৰত জোৰ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-186",
+   "q": {
+    "en": "What form of literature did the Bhakti movement mainly produce?",
+    "as": "ভক্তি আন্দোলনে মূলত কি ধৰণৰ সাহিত্য সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The composition of devotional songs",
+     "as": "ভক্তিমূলক গীতৰ ৰচনা"
+    },
+    {
+     "en": "The composition of scientific texts",
+     "as": "বৈজ্ঞানিক গ্ৰন্থৰ ৰচনা"
+    },
+    {
+     "en": "The composition of legal codes",
+     "as": "আইন সংহিতাৰ ৰচনা"
+    },
+    {
+     "en": "The composition of medical texts",
+     "as": "চিকিৎসা গ্ৰন্থৰ ৰচনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement produced a rich body of devotional songs.",
+    "as": "ভক্তি আন্দোলনে ভক্তিমূলক গীতৰ এক সমৃদ্ধ ভাণ্ডাৰ সৃষ্টি কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-187",
+   "q": {
+    "en": "What form of literature did the Sufi movement produce?",
+    "as": "ছুফী আন্দোলনে কি ধৰণৰ সাহিত্য সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The composition of mystical poetry",
+     "as": "ৰহস্যবাদী কবিতাৰ ৰচনা"
+    },
+    {
+     "en": "The composition of scientific texts",
+     "as": "বৈজ্ঞানিক গ্ৰন্থৰ ৰচনা"
+    },
+    {
+     "en": "The composition of legal codes",
+     "as": "আইন সংহিতাৰ ৰচনা"
+    },
+    {
+     "en": "The composition of medical texts",
+     "as": "চিকিৎসা গ্ৰন্থৰ ৰচনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sufi movement produced mystical poetry in Persian and local languages.",
+    "as": "ছুফী আন্দোলনে পাৰস্য আৰু স্থানীয় ভাষাত ৰহস্যবাদী কবিতা সৃষ্টি কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-188",
+   "q": {
+    "en": "Which of the following was a feature of the Bhakti movement in North India?",
+    "as": "উত্তৰ ভাৰতত ভক্তি আন্দোলনৰ এটা বৈশিষ্ট্য তলৰ কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Rama and Krishna cults",
+     "as": "ৰাম আৰু কৃষ্ণ উপাসনা"
+    },
+    {
+     "en": "The Shiva cult only",
+     "as": "কেৱল শিৱ উপাসনা"
+    },
+    {
+     "en": "The Buddha cult",
+     "as": "বুদ্ধ উপাসনা"
+    },
+    {
+     "en": "The Mahavira cult",
+     "as": "মহাবীৰ উপাসনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Rama and Krishna cults were features of the Bhakti movement in North India.",
+    "as": "ৰাম আৰু কৃষ্ণ উপাসনা উত্তৰ ভাৰতত ভক্তি আন্দোলনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-189",
+   "q": {
+    "en": "Which deities were mainly worshipped in the North Indian Bhakti movement?",
+    "as": "উত্তৰ ভাৰতীয় ভক্তি আন্দোলনত মূলত কোন দেৱতাৰ উপাসনা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The belief in a personal god",
+     "as": "এক ব্যক্তিগত দেৱতাত বিশ্বাস"
+    },
+    {
+     "en": "The belief in many gods only",
+     "as": "কেৱল বহু দেৱতাত বিশ্বাস"
+    },
+    {
+     "en": "The belief in no god",
+     "as": "ঈশ্বৰত অবিশ্বাস"
+    },
+    {
+     "en": "The belief in the king as god",
+     "as": "ৰজাক ঈশ্বৰ হিচাপে বিশ্বাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement emphasised belief in a personal god.",
+    "as": "ভক্তি আন্দোলনে এক ব্যক্তিগত দেৱতাত বিশ্বাসৰ ওপৰত গুৰুত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-190",
+   "q": {
+    "en": "How did the Bhakti movement conceive of god?",
+    "as": "ভক্তি আন্দোলনে ঈশ্বৰক কেনেদৰে কল্পনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The rejection of the mediation of priests",
+     "as": "পুৰোহিতৰ মধ্যস্থতাৰ প্ৰত্যাখ্যান"
+    },
+    {
+     "en": "The support of priestly mediation",
+     "as": "পুৰোহিতৰ মধ্যস্থতাৰ সমৰ্থন"
+    },
+    {
+     "en": "The support of ritual sacrifice",
+     "as": "আচাৰ-অনুষ্ঠানৰ বলিৰ সমৰ্থন"
+    },
+    {
+     "en": "The support of caste supremacy",
+     "as": "জাতি শ্ৰেষ্ঠত্বৰ সমৰ্থন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement rejected the mediation of priests.",
+    "as": "ভক্তি আন্দোলনে পুৰোহিতৰ মধ্যস্থতা প্ৰত্যাখ্যান কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-191",
+   "q": {
+    "en": "How did the Bhakti movement view the role of priests?",
+    "as": "ভক্তি আন্দোলনে পুৰোহিতৰ ভূমিকাক কেনেদৰে চাইছিল?"
+   },
+   "options": [
+    {
+     "en": "The emphasis on devotion over ritual",
+     "as": "আচাৰ-অনুষ্ঠানতকৈ ভক্তিৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on ritual over devotion",
+     "as": "ভক্তিতকৈ আচাৰ-অনুষ্ঠানৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on wealth over devotion",
+     "as": "ভক্তিতকৈ ধনৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on war over devotion",
+     "as": "ভক্তিতকৈ যুদ্ধৰ ওপৰত জোৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement emphasised devotion over ritual.",
+    "as": "ভক্তি আন্দোলনে আচাৰ-অনুষ্ঠানতকৈ ভক্তিৰ ওপৰত জোৰ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-192",
+   "q": {
+    "en": "What did the Bhakti movement value more than ritual?",
+    "as": "ভক্তি আন্দোলনে আচাৰ-অনুষ্ঠানতকৈ কাক বেছি মূল্য দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The emphasis on equality of all devotees",
+     "as": "সকলো ভক্তৰ সমতাৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on caste hierarchy",
+     "as": "জাতি ক্ৰমৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on wealth hierarchy",
+     "as": "ধন ক্ৰমৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on military hierarchy",
+     "as": "সামৰিক ক্ৰমৰ ওপৰত জোৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement emphasised the equality of all devotees.",
+    "as": "ভক্তি আন্দোলনে সকলো ভক্তৰ সমতাৰ ওপৰত জোৰ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-193",
+   "q": {
+    "en": "What did the Bhakti movement teach about devotees of different backgrounds?",
+    "as": "ভক্তি আন্দোলনে বিভিন্ন পৃষ্ঠভূমিৰ ভক্তসকলৰ বিষয়ে কি শিকাইছিল?"
+   },
+   "options": [
+    {
+     "en": "The emphasis on personal experience of god",
+     "as": "ঈশ্বৰৰ ব্যক্তিগত অভিজ্ঞতাৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on book learning only",
+     "as": "কেৱল গ্ৰন্থ শিক্ষাৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on wealth only",
+     "as": "কেৱল ধনৰ ওপৰত জোৰ"
+    },
+    {
+     "en": "The emphasis on war only",
+     "as": "কেৱল যুদ্ধৰ ওপৰত জোৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement emphasised the personal experience of god.",
+    "as": "ভক্তি আন্দোলনে ঈশ্বৰৰ ব্যক্তিগত অভিজ্ঞতাৰ ওপৰত জোৰ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-194",
+   "q": {
+    "en": "What kind of religious experience did the Bhakti movement stress?",
+    "as": "ভক্তি আন্দোলনে কি ধৰণৰ ধৰ্মীয় অভিজ্ঞতাৰ ওপৰত জোৰ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The composition of hymns in regional languages",
+     "as": "আঞ্চলিক ভাষাত স্তৱ ৰচনা"
+    },
+    {
+     "en": "The composition of hymns in Latin",
+     "as": "লেটিনত স্তৱ ৰচনা"
+    },
+    {
+     "en": "The composition of hymns in Greek",
+     "as": "গ্ৰীকত স্তৱ ৰচনা"
+    },
+    {
+     "en": "The composition of hymns in Arabic",
+     "as": "আৰবীত স্তৱ ৰচনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement composed hymns in regional languages.",
+    "as": "ভক্তি আন্দোলনে আঞ্চলিক ভাষাত স্তৱ ৰচনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-195",
+   "q": {
+    "en": "In which languages were Bhakti hymns composed?",
+    "as": "কোন ভাষাত ভক্তিৰ স্তৱ ৰচিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The spread of devotion among all classes",
+     "as": "সকলো শ্ৰেণীৰ মাজত ভক্তিৰ প্ৰসাৰ"
+    },
+    {
+     "en": "The spread of devotion among the rich only",
+     "as": "কেৱল ধনীসকলৰ মাজত ভক্তিৰ প্ৰসাৰ"
+    },
+    {
+     "en": "The spread of devotion among the priests only",
+     "as": "কেৱল পুৰোহিতসকলৰ মাজত ভক্তিৰ প্ৰসাৰ"
+    },
+    {
+     "en": "The spread of devotion among the kings only",
+     "as": "কেৱল ৰজাসকলৰ মাজত ভক্তিৰ প্ৰসাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement spread devotion among all classes of society.",
+    "as": "ভক্তি আন্দোলনে সমাজৰ সকলো শ্ৰেণীৰ মাজত ভক্তি বিয়পাইছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-196",
+   "q": {
+    "en": "Among which social groups did the Bhakti movement spread?",
+    "as": "কোন সামাজিক শ্ৰেণীৰ মাজত ভক্তি আন্দোলন বিয়পিছিল?"
+   },
+   "options": [
+    {
+     "en": "The use of music and dance in worship",
+     "as": "উপাসনাত সংগীত আৰু নৃত্যৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of fire sacrifice in worship",
+     "as": "উপাসনাত অগ্নি বলিৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of animal sacrifice in worship",
+     "as": "উপাসনাত পশু বলিৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of silent prayer only",
+     "as": "কেৱল নীৰৱ প্ৰাৰ্থনাৰ ব্যৱহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement used music and dance in worship.",
+    "as": "ভক্তি আন্দোলনে উপাসনাত সংগীত আৰু নৃত্য ব্যৱহাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-197",
+   "q": {
+    "en": "What role did music and dance play in the Bhakti movement?",
+    "as": "ভক্তি আন্দোলনত সংগীত আৰু নৃত্যৰ কি ভূমিকা আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of vernacular literature",
+     "as": "দেশজ ভাষাৰ সাহিত্যৰ বিকাশ"
+    },
+    {
+     "en": "The growth of Latin literature",
+     "as": "লেটিন সাহিত্যৰ বিকাশ"
+    },
+    {
+     "en": "The growth of Greek literature",
+     "as": "গ্ৰীক সাহিত্যৰ বিকাশ"
+    },
+    {
+     "en": "The growth of Arabic literature",
+     "as": "আৰবী সাহিত্যৰ বিকাশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhakti movement led to the growth of vernacular literature.",
+    "as": "ভক্তি আন্দোলনে দেশজ ভাষাৰ সাহিত্যৰ বিকাশলৈ লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-198",
+   "q": {
+    "en": "Who founded the Mughal Empire in India?",
+    "as": "ভাৰতত মোগল সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Babur founded the Mughal Empire in India in 1526.",
+    "as": "বাবৰে ১৫২৬ চনত ভাৰতত মোগল সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-199",
+   "q": {
+    "en": "Who was the first Mughal emperor?",
+    "as": "প্ৰথম মোগল সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Babur was the first Mughal emperor.",
+    "as": "বাবৰ প্ৰথম মোগল সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-200",
+   "q": {
+    "en": "Who wrote the autobiography 'Baburnama'?",
+    "as": "আত্মজীৱনী 'বাবুৰনামা' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Babur wrote the Baburnama, his autobiography, in Turkish.",
+    "as": "বাবৰে তুৰ্কী ভাষাত তেওঁৰ আত্মজীৱনী বাবুৰনামা লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-201",
+   "q": {
+    "en": "Which battle established the Mughal Empire in India?",
+    "as": "কোন যুদ্ধই ভাৰতত মোগল সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The First Battle of Panipat",
+     "as": "প্ৰথম পানিপথ যুদ্ধ"
+    },
+    {
+     "en": "The Second Battle of Panipat",
+     "as": "দ্বিতীয় পানিপথ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Khanwa",
+     "as": "খানুৱাৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Chausa",
+     "as": "চৌছাৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The First Battle of Panipat in 1526 established the Mughal Empire.",
+    "as": "১৫২৬ চনত প্ৰথম পানিপথ যুদ্ধই মোগল সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-202",
+   "q": {
+    "en": "Whom did Babur defeat at the Battle of Khanwa?",
+    "as": "খানুৱাৰ যুদ্ধত বাবৰে কাক পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rana Sanga",
+     "as": "ৰাণা সংগা"
+    },
+    {
+     "en": "Ibrahim Lodi",
+     "as": "ইব্ৰাহিম লোদী"
+    },
+    {
+     "en": "Sher Shah Suri",
+     "as": "শেৰ শাহ সূৰী"
+    },
+    {
+     "en": "Hemu",
+     "as": "হেমু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Babur defeated Rana Sanga of Mewar at the Battle of Khanwa.",
+    "as": "বাবৰে খানুৱাৰ যুদ্ধত মেৱাৰৰ ৰাণা সংগাক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-203",
+   "q": {
+    "en": "Which battle did Babur fight against the Rajputs?",
+    "as": "বাবৰে ৰাজপুতসকলৰ বিৰুদ্ধে কোন যুদ্ধ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Battle of Khanwa",
+     "as": "খানুৱাৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Talikota",
+     "as": "তালিকোটাৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Plassey",
+     "as": "পলাশীৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Haldighati",
+     "as": "হলদীঘাটীৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Babur fought the Rajputs at the Battle of Khanwa in 1527.",
+    "as": "বাবৰে ১৫২৭ চনত খানুৱাৰ যুদ্ধত ৰাজপুতসকলৰ সৈতে যুঁজিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-204",
+   "q": {
+    "en": "Who succeeded Babur as the Mughal emperor?",
+    "as": "বাবৰৰ পিছত মোগল সম্ৰাট কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Sher Shah Suri",
+     "as": "শেৰ শাহ সূৰী"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Humayun succeeded Babur as the Mughal emperor.",
+    "as": "হুমায়ুন বাবৰৰ পিছত মোগল সম্ৰাট হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-205",
+   "q": {
+    "en": "Who defeated Humayun at the Battle of Chausa?",
+    "as": "চৌছাৰ যুদ্ধত হুমায়ুনক কোনে পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sher Shah Suri",
+     "as": "শেৰ শাহ সূৰী"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Rana Sanga",
+     "as": "ৰাণা সংগা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sher Shah Suri defeated Humayun at the Battle of Chausa.",
+    "as": "শেৰ শাহ সূৰীয়ে চৌছাৰ যুদ্ধত হুমায়ুনক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-206",
+   "q": {
+    "en": "Who founded the Sur dynasty in India?",
+    "as": "ভাৰতত সূৰ বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sher Shah Suri",
+     "as": "শেৰ শাহ সূৰী"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sher Shah Suri founded the Sur dynasty in India.",
+    "as": "শেৰ শাহ সূৰীয়ে ভাৰতত সূৰ বংশ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-207",
+   "q": {
+    "en": "Who was the original name of Sher Shah Suri?",
+    "as": "শেৰ শাহ সূৰীৰ মূল নাম কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Farid",
+     "as": "ফৰিদ"
+    },
+    {
+     "en": "Sher Khan",
+     "as": "শেৰ খান"
+    },
+    {
+     "en": "Suri Khan",
+     "as": "সূৰী খান"
+    },
+    {
+     "en": "Bahlul",
+     "as": "বাহলুল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sher Shah Suri's original name was Farid.",
+    "as": "শেৰ শাহ সূৰীৰ মূল নাম ফৰিদ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-208",
+   "q": {
+    "en": "Which currency system was introduced by Sher Shah Suri?",
+    "as": "কোন মুদ্ৰা ব্যৱস্থা শেৰ শাহ সূৰীয়ে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The silver rupaya and copper dam",
+     "as": "ৰূপৰ ৰুপয়া আৰু তামৰ দাম"
+    },
+    {
+     "en": "The gold dinar",
+     "as": "সোণৰ দিনাৰ"
+    },
+    {
+     "en": "The silver tanka only",
+     "as": "কেৱল ৰূপৰ টঙ্কা"
+    },
+    {
+     "en": "The bronze paisa",
+     "as": "ব্ৰঞ্জৰ পইছা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sher Shah Suri introduced the silver rupaya and copper dam currency system.",
+    "as": "শেৰ শাহ সূৰীয়ে ৰূপৰ ৰুপয়া আৰু তামৰ দাম মুদ্ৰা ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-209",
+   "q": {
+    "en": "Which road was built by Sher Shah Suri?",
+    "as": "কোন পথ শেৰ শাহ সূৰীয়ে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Grand Trunk Road",
+     "as": "মহা ৰাজপথ"
+    },
+    {
+     "en": "The Silk Road",
+     "as": "ৰেচম পথ"
+    },
+    {
+     "en": "The Spice Route",
+     "as": "মচলা পথ"
+    },
+    {
+     "en": "The Amber Road",
+     "as": "এম্বাৰ পথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sher Shah Suri built the Grand Trunk Road from Sonargaon to Attock.",
+    "as": "শেৰ শাহ সূৰীয়ে চোনাৰগাঁৱৰ পৰা অটকলৈ মহা ৰাজপথ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-210",
+   "q": {
+    "en": "Who built the Rohtas Fort?",
+    "as": "ৰোহতাস দুৰ্গ কোনে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sher Shah Suri",
+     "as": "শেৰ শাহ সূৰী"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sher Shah Suri built the Rohtas Fort.",
+    "as": "শেৰ শাহ সূৰীয়ে ৰোহতাস দুৰ্গ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-211",
+   "q": {
+    "en": "Who was the Mughal emperor who re-established the empire after the Sur interregnum?",
+    "as": "সূৰ অন্তৱৰ্তীকালৰ পিছত সাম্ৰাজ্য পুনৰ প্ৰতিষ্ঠা কৰা মোগল সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Humayun re-established the Mughal Empire after the Sur interregnum.",
+    "as": "সূৰ অন্তৱৰ্তীকালৰ পিছত হুমায়ুনে মোগল সাম্ৰাজ্য পুনৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-212",
+   "q": {
+    "en": "In which battle did Akbar defeat Hemu?",
+    "as": "কোন যুদ্ধত আকবৰে হেমুক পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Second Battle of Panipat",
+     "as": "দ্বিতীয় পানিপথ যুদ্ধ"
+    },
+    {
+     "en": "The First Battle of Panipat",
+     "as": "প্ৰথম পানিপথ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Talikota",
+     "as": "তালিকোটাৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Haldighati",
+     "as": "হলদীঘাটীৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar defeated Hemu at the Second Battle of Panipat in 1556.",
+    "as": "আকবৰে ১৫৫৬ চনত দ্বিতীয় পানিপথ যুদ্ধত হেমুক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-213",
+   "q": {
+    "en": "Who was the regent of Akbar during his minority?",
+    "as": "আকবৰৰ নাবালক কালত তেওঁৰ ৰিজেণ্ট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bairam Khan",
+     "as": "বৈৰাম খান"
+    },
+    {
+     "en": "Todar Mal",
+     "as": "টোডৰ মল"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bairam Khan was the regent of Akbar during his minority.",
+    "as": "বৈৰাম খান আকবৰৰ নাবালক কালত তেওঁৰ ৰিজেণ্ট আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-214",
+   "q": {
+    "en": "Who was the revenue minister of Akbar?",
+    "as": "আকবৰৰ ৰাজহ মন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Todar Mal",
+     "as": "টোডৰ মল"
+    },
+    {
+     "en": "Bairam Khan",
+     "as": "বৈৰাম খান"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Todar Mal was the revenue minister of Akbar.",
+    "as": "টোডৰ মল আকবৰৰ ৰাজহ মন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-215",
+   "q": {
+    "en": "Who introduced the 'Zabti' or 'Dahsala' land revenue system?",
+    "as": "'জব্তি' বা 'দহচালা' ভূমি ৰাজহ ব্যৱস্থা কোনে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Todar Mal",
+     "as": "টোডৰ মল"
+    },
+    {
+     "en": "Bairam Khan",
+     "as": "বৈৰাম খান"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Todar Mal introduced the Zabti or Dahsala land revenue system.",
+    "as": "টোডৰ মলে জব্তি বা দহচালা ভূমি ৰাজহ ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-216",
+   "q": {
+    "en": "Who was the author of the 'Akbarnama'?",
+    "as": "'আকবৰনামা'ৰ লেখক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    },
+    {
+     "en": "Badauni",
+     "as": "বাদাউনী"
+    },
+    {
+     "en": "Faizi",
+     "as": "ফৈজী"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Abul Fazl wrote the Akbarnama, the official history of Akbar's reign.",
+    "as": "আবুল ফজলে আকবৰনামা লিখিছিল, আকবৰৰ ৰাজত্বৰ চৰকাৰী ইতিহাস।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-217",
+   "q": {
+    "en": "Who was the author of the 'Ain-i-Akbari'?",
+    "as": "'আইন-ই-আকবৰী'ৰ লেখক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    },
+    {
+     "en": "Badauni",
+     "as": "বাদাউনী"
+    },
+    {
+     "en": "Faizi",
+     "as": "ফৈজী"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Abul Fazl wrote the Ain-i-Akbari, a detailed account of Akbar's administration.",
+    "as": "আবুল ফজলে আইন-ই-আকবৰী লিখিছিল, আকবৰৰ প্ৰশাসনৰ এটা বিশদ বিৱৰণ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-218",
+   "q": {
+    "en": "Who were the 'Navaratna' of Akbar's court?",
+    "as": "আকবৰৰ ৰাজদৰবাৰৰ 'নৱৰত্ন' কোনসকল আছিল?"
+   },
+   "options": [
+    {
+     "en": "Nine gems or famous courtiers",
+     "as": "ন গৰাকী ৰত্ন বা বিখ্যাত ৰাজসভিক"
+    },
+    {
+     "en": "Ten generals",
+     "as": "দহজন সেনাপতি"
+    },
+    {
+     "en": "Twelve ministers",
+     "as": "বাৰজন মন্ত্ৰী"
+    },
+    {
+     "en": "Eight poets",
+     "as": "আঠজন কবি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Navaratna were the nine gems, famous courtiers of Akbar's court.",
+    "as": "নৱৰত্ন আছিল ন গৰাকী ৰত্ন, আকবৰৰ ৰাজদৰবাৰৰ বিখ্যাত ৰাজসভিক।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-219",
+   "q": {
+    "en": "Who was the famous musician of Akbar's court?",
+    "as": "আকবৰৰ ৰাজদৰবাৰৰ বিখ্যাত সংগীতজ্ঞ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Tansen",
+     "as": "তানসেন"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    },
+    {
+     "en": "Todar Mal",
+     "as": "টোডৰ মল"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tansen was the famous musician of Akbar's court.",
+    "as": "তানসেন আকবৰৰ ৰাজদৰবাৰৰ বিখ্যাত সংগীতজ্ঞ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-220",
+   "q": {
+    "en": "Who was the famous wit and advisor of Akbar?",
+    "as": "আকবৰৰ বিখ্যাত ৰসিক আৰু উপদেষ্টা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    },
+    {
+     "en": "Tansen",
+     "as": "তানসেন"
+    },
+    {
+     "en": "Todar Mal",
+     "as": "টোডৰ মল"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Birbal was the famous wit and advisor of Akbar.",
+    "as": "বীৰবল আকবৰৰ বিখ্যাত ৰসিক আৰু উপদেষ্টা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-221",
+   "q": {
+    "en": "Which battle did Akbar fight against Maharana Pratap?",
+    "as": "আকবৰে মহাৰাণা প্ৰতাপৰ বিৰুদ্ধে কোন যুদ্ধ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Battle of Haldighati",
+     "as": "হলদীঘাটীৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Khanwa",
+     "as": "খানুৱাৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Chausa",
+     "as": "চৌছাৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Talikota",
+     "as": "তালিকোটাৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar fought Maharana Pratap at the Battle of Haldighati in 1576.",
+    "as": "আকবৰে ১৫৭৬ চনত হলদীঘাটীৰ যুদ্ধত মহাৰাণা প্ৰতাপৰ সৈতে যুঁজিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-222",
+   "q": {
+    "en": "Which Mughal emperor built the Fatehpur Sikri?",
+    "as": "ফতেহপুৰ চিক্ৰী কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar built the city of Fatehpur Sikri.",
+    "as": "আকবৰে ফতেহপুৰ চিক্ৰী চহৰ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-223",
+   "q": {
+    "en": "Which Mughal emperor built the Buland Darwaza?",
+    "as": "বুলন্দ দৰৱাজা কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar built the Buland Darwaza at Fatehpur Sikri to commemorate his Gujarat conquest.",
+    "as": "আকবৰে তেওঁৰ গুজৰাট বিজয়ৰ স্মৃতিত ফতেহপুৰ চিক্ৰীত বুলন্দ দৰৱাজা নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-224",
+   "q": {
+    "en": "Which Mughal emperor founded the 'Din-i-Ilahi'?",
+    "as": "'দীন-ই-ইলাহী' কোন মোগল সম্ৰাটে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar founded the Din-i-Ilahi in 1582.",
+    "as": "আকবৰে ১৫৮২ চনত দীন-ই-ইলাহী প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-225",
+   "q": {
+    "en": "Which Mughal emperor held religious discussions at the 'Ibadat Khana'?",
+    "as": "কোন মোগল সম্ৰাটে 'ইবাদত খানা'ত ধৰ্মীয় আলোচনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar held religious discussions at the Ibadat Khana at Fatehpur Sikri.",
+    "as": "আকবৰে ফতেহপুৰ চিক্ৰীৰ ইবাদত খানাত ধৰ্মীয় আলোচনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-226",
+   "q": {
+    "en": "Which Mughal emperor married a Rajput princess, Jodha Bai?",
+    "as": "কোন মোগল সম্ৰাটে ৰাজপুত ৰাজকুমাৰী যোধা বাইক বিয়া কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar married the Rajput princess Jodha Bai to strengthen his alliances.",
+    "as": "আকবৰে তেওঁৰ মিত্ৰতা দৃঢ় কৰিবলৈ ৰাজপুত ৰাজকুমাৰী যোধা বাইক বিয়া কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-227",
+   "q": {
+    "en": "Which policy did Akbar follow towards the Rajputs?",
+    "as": "আকবৰে ৰাজপুতসকলৰ প্ৰতি কোন নীতি অনুসৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "A policy of matrimonial alliances and conciliation",
+     "as": "বৈবাহিক মিত্ৰতা আৰু সন্ধিৰ নীতি"
+    },
+    {
+     "en": "A policy of total war",
+     "as": "সৰ্বাত্মক যুদ্ধৰ নীতি"
+    },
+    {
+     "en": "A policy of extermination",
+     "as": "নিধনৰ নীতি"
+    },
+    {
+     "en": "A policy of isolation",
+     "as": "বিচ্ছিন্নতাৰ নীতি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar followed a policy of matrimonial alliances and conciliation with the Rajputs.",
+    "as": "আকবৰে ৰাজপুতসকলৰ সৈতে বৈবাহিক মিত্ৰতা আৰু সন্ধিৰ নীতি অনুসৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-228",
+   "q": {
+    "en": "Which Mughal emperor is known for his 'Sulh-i-Kul' policy?",
+    "as": "কোন মোগল সম্ৰাট তেওঁৰ 'চুলহ-ই-কুল' নীতিৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar is known for his Sulh-i-Kul, the policy of universal peace and tolerance.",
+    "as": "আকবৰ তেওঁৰ চুলহ-ই-কুল, সৰ্বজনীন শান্তি আৰু সহনশীলতাৰ নীতিৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-229",
+   "q": {
+    "en": "Which Mughal emperor introduced the 'Mansabdari' system?",
+    "as": "'মনচবদাৰী' ব্যৱস্থা কোন মোগল সম্ৰাটে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar introduced the Mansabdari system of military and civil administration.",
+    "as": "আকবৰে সামৰিক আৰু অসামৰিক প্ৰশাসনৰ মনচবদাৰী ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-230",
+   "q": {
+    "en": "What was a 'Mansab' in the Mughal administration?",
+    "as": "মোগল প্ৰশাসনত 'মনচব' কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A rank determining status and obligations",
+     "as": "মৰ্যাদা আৰু দায়িত্ব নিৰ্ধাৰণ কৰা এটা পদ"
+    },
+    {
+     "en": "A land grant",
+     "as": "এক ভূমি-দান"
+    },
+    {
+     "en": "A tax",
+     "as": "এটা কৰ"
+    },
+    {
+     "en": "A coin",
+     "as": "এটা মুদ্ৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A Mansab was a rank that determined a noble's status and military obligations.",
+    "as": "মনচব এটা পদ আছিল যি এজন অভিজাতৰ মৰ্যাদা আৰু সামৰিক দায়িত্ব নিৰ্ধাৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-231",
+   "q": {
+    "en": "What was a 'Jagir' in the Mughal administration?",
+    "as": "মোগল প্ৰশাসনত 'জাগিৰ' কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A land revenue assignment",
+     "as": "এক ভূমি ৰাজহ নিযুক্তি"
+    },
+    {
+     "en": "A military rank",
+     "as": "এক সামৰিক পদ"
+    },
+    {
+     "en": "A coin",
+     "as": "এটা মুদ্ৰা"
+    },
+    {
+     "en": "A temple",
+     "as": "এটা মন্দিৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A Jagir was a land revenue assignment given to Mughal nobles.",
+    "as": "জাগিৰ মোগল অভিজাতসকলক দিয়া এক ভূমি ৰাজহ নিযুক্তি আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-232",
+   "q": {
+    "en": "Which Mughal emperor's tomb is at Sikandra?",
+    "as": "কোন মোগল সম্ৰাটৰ সমাধি চিকন্দৰাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar's tomb is at Sikandra near Agra.",
+    "as": "আকবৰৰ সমাধি আগ্ৰাৰ ওচৰত চিকন্দৰাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-233",
+   "q": {
+    "en": "Which Mughal emperor was known as 'Jagat Guru'?",
+    "as": "কোন মোগল সম্ৰাটক 'জগত গুৰু' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar was known as Jagat Guru, the world teacher, for his religious tolerance.",
+    "as": "আকবৰক তেওঁৰ ধৰ্মীয় সহনশীলতাৰ বাবে জগত গুৰু, বিশ্ব গুৰু, বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-234",
+   "q": {
+    "en": "Which Mughal emperor abolished the 'jizya' tax on non-Muslims?",
+    "as": "কোন মোগল সম্ৰাটে অমুছলিমসকলৰ ওপৰত 'জিজিয়া' কৰ বিলুপ্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar abolished the jizya tax on non-Muslims.",
+    "as": "আকবৰে অমুছলিমসকলৰ ওপৰত জিজিয়া কৰ বিলুপ্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-235",
+   "q": {
+    "en": "Which Mughal emperor reimposed the 'jizya' tax?",
+    "as": "কোন মোগল সম্ৰাটে 'জিজিয়া' কৰ পুনৰ লগাইছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb reimposed the jizya tax on non-Muslims.",
+    "as": "আওৰাংজেবে অমুছলিমসকলৰ ওপৰত জিজিয়া কৰ পুনৰ লগাইছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-236",
+   "q": {
+    "en": "Who was the Mughal emperor who built the Purana Qila?",
+    "as": "পুৰাণা কিলা কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Humayun built the Purana Qila (Old Fort) at Delhi.",
+    "as": "হুমায়ুনে দিল্লীত পুৰাণা কিলা (পুৰণি দুৰ্গ) নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-237",
+   "q": {
+    "en": "Which monument at Delhi was built by Humayun's wife?",
+    "as": "দিল্লীত কোন স্মৃতিস্তম্ভ হুমায়ুনৰ পত্নীয়ে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Humayun's Tomb",
+     "as": "হুমায়ুনৰ সমাধি"
+    },
+    {
+     "en": "The Red Fort",
+     "as": "লাল কিলা"
+    },
+    {
+     "en": "The Qutub Minar",
+     "as": "কুতুব মিনাৰ"
+    },
+    {
+     "en": "The Purana Qila",
+     "as": "পুৰাণা কিলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Humayun's Tomb was built by his wife, Bega Begum.",
+    "as": "হুমায়ুনৰ সমাধি তেওঁৰ পত্নী বেগা বেগমে নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-238",
+   "q": {
+    "en": "Which Mughal emperor was known for his love of art and books?",
+    "as": "কোন মোগল সম্ৰাট তেওঁৰ কলা আৰু গ্ৰন্থপ্ৰেমৰ বাবে জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jahangir was known for his love of art and books.",
+    "as": "জাহাঙ্গীৰ তেওঁৰ কলা আৰু গ্ৰন্থপ্ৰেমৰ বাবে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-239",
+   "q": {
+    "en": "Who wrote the autobiography 'Tuzuk-i-Jahangiri'?",
+    "as": "আত্মজীৱনী 'তুজুক-ই-জাহাঙ্গীৰী' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jahangir wrote the Tuzuk-i-Jahangiri, his autobiography.",
+    "as": "জাহাঙ্গীৰে তেওঁৰ আত্মজীৱনী তুজুক-ই-জাহাঙ্গীৰী লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-240",
+   "q": {
+    "en": "Which Mughal emperor was known as 'Shah-e-Jahan'?",
+    "as": "কোন মোগল সম্ৰাটক 'শাহ-এ-জাহান' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan means 'king of the world', a title of the Mughal emperor.",
+    "as": "শাহজাহানৰ অৰ্থ বিশ্বৰ ৰজা, এজন মোগল সম্ৰাটৰ উপাধি।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-241",
+   "q": {
+    "en": "Which Mughal emperor built the Taj Mahal?",
+    "as": "তাজমহল কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan built the Taj Mahal in memory of Mumtaz Mahal.",
+    "as": "শাহজাহানে মুমতাজ মহলৰ স্মৃতিত তাজমহল নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-242",
+   "q": {
+    "en": "In whose memory was the Taj Mahal built?",
+    "as": "কাৰ স্মৃতিত তাজমহল নিৰ্মাণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Mumtaz Mahal",
+     "as": "মুমতাজ মহল"
+    },
+    {
+     "en": "Nur Jahan",
+     "as": "নূৰজাহান"
+    },
+    {
+     "en": "Jodha Bai",
+     "as": "যোধা বাই"
+    },
+    {
+     "en": "Razia Sultan",
+     "as": "ৰাজিয়া চুলতান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Taj Mahal was built in memory of Mumtaz Mahal, Shah Jahan's wife.",
+    "as": "তাজমহল শাহজাহানৰ পত্নী মুমতাজ মহলৰ স্মৃতিত নিৰ্মাণ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-243",
+   "q": {
+    "en": "Which city was built by Shah Jahan as a new capital?",
+    "as": "শাহজাহানে কোন চহৰ নতুন ৰাজধানী হিচাপে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shahjahanabad",
+     "as": "শাহজাহানাবাদ"
+    },
+    {
+     "en": "Fatehpur Sikri",
+     "as": "ফতেহপুৰ চিক্ৰী"
+    },
+    {
+     "en": "Agra",
+     "as": "আগ্ৰা"
+    },
+    {
+     "en": "Lahore",
+     "as": "লাহোৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan built Shahjahanabad (present-day Old Delhi) as a new capital.",
+    "as": "শাহজাহানে শাহজাহানাবাদ (বৰ্তমান পুৰণি দিল্লী) নতুন ৰাজধানী হিচাপে নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-244",
+   "q": {
+    "en": "Which Mughal emperor built the Red Fort in Delhi?",
+    "as": "দিল্লীত লাল কিলা কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan built the Red Fort in Delhi.",
+    "as": "শাহজাহানে দিল্লীত লাল কিলা নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-245",
+   "q": {
+    "en": "Which Mughal emperor built the Jama Masjid in Delhi?",
+    "as": "দিল্লীত জামা মছজিদ কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan built the Jama Masjid in Delhi.",
+    "as": "শাহজাহানে দিল্লীত জামা মছজিদ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-246",
+   "q": {
+    "en": "Which Mughal emperor built the Moti Masjid in the Agra Fort?",
+    "as": "আগ্ৰা দুৰ্গত মতি মছজিদ কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan built the Moti Masjid in the Agra Fort.",
+    "as": "শাহজাহানে আগ্ৰা দুৰ্গত মতি মছজিদ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-247",
+   "q": {
+    "en": "Which Mughal emperor is known as 'Zinda Pir' (living saint)?",
+    "as": "কোন মোগল সম্ৰাটক 'জিন্দা পীৰ' (জীৱিত সন্ত) বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb was known as Zinda Pir for his simple and pious life.",
+    "as": "আওৰাংজেবক তেওঁৰ সৰল আৰু ধাৰ্মিক জীৱনৰ বাবে জিন্দা পীৰ বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-248",
+   "q": {
+    "en": "Which Mughal emperor ruled the longest?",
+    "as": "কোন মোগল সম্ৰাটে আটাইতকৈ বেছি দিন শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb ruled the longest, for about 49 years.",
+    "as": "আওৰাংজেবে আটাইতকৈ বেছি, প্ৰায় ৪৯ বছৰ শাসন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-249",
+   "q": {
+    "en": "Which Mughal emperor was imprisoned by his son?",
+    "as": "কোন মোগল সম্ৰাটক তেওঁৰ পুত্ৰই কাৰাগাৰত বন্দী কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan was imprisoned by his son Aurangzeb in the Agra Fort.",
+    "as": "শাহজাহানক তেওঁৰ পুত্ৰ আওৰাংজেবে আগ্ৰা দুৰ্গত বন্দী কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-250",
+   "q": {
+    "en": "Which Mughal emperor's reign saw the Deccan campaigns against the Marathas?",
+    "as": "কোন মোগল সম্ৰাটৰ ৰাজত্বকালত মাৰাঠাসকলৰ বিৰুদ্ধে দাক্ষিণাত্য অভিযান হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb's reign saw the long Deccan campaigns against the Marathas.",
+    "as": "আওৰাংজেবৰ ৰাজত্বকালত মাৰাঠাসকলৰ বিৰুদ্ধে দীঘলীয়া দাক্ষিণাত্য অভিযান হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-251",
+   "q": {
+    "en": "Who was the Mughal emperor who executed Guru Teg Bahadur?",
+    "as": "গুৰু তেগ বাহাদুৰক মৃত্যুদণ্ড দিয়া মোগল সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb executed Guru Teg Bahadur, the ninth Sikh Guru.",
+    "as": "আওৰাংজেবে নৱম শিখ গুৰু গুৰু তেগ বাহাদুৰক মৃত্যুদণ্ড দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-252",
+   "q": {
+    "en": "Which Mughal emperor's policies led to the rise of the Marathas as a challenge?",
+    "as": "কোন মোগল সম্ৰাটৰ নীতিয়ে মাৰাঠাসকলৰ উত্থানক প্ৰত্যাহ্বান হিচাপে লৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb's policies led to the rise of the Marathas as a major challenge.",
+    "as": "আওৰাংজেবৰ নীতিয়ে মাৰাঠাসকলৰ উত্থানক এটা প্ৰধান প্ৰত্যাহ্বান হিচাপে লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-253",
+   "q": {
+    "en": "Which Mughal emperor was the last effective ruler of the empire?",
+    "as": "সাম্ৰাজ্যৰ শেষ প্ৰভাৱশালী শাসক কোন মোগল সম্ৰাট আছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Bahadur Shah I",
+     "as": "বাহাদুৰ শাহ প্ৰথম"
+    },
+    {
+     "en": "Shah Alam II",
+     "as": "শাহ আলম দ্বিতীয়"
+    },
+    {
+     "en": "Akbar II",
+     "as": "আকবৰ দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb was the last effective ruler of the Mughal Empire.",
+    "as": "আওৰাংজেব মোগল সাম্ৰাজ্যৰ শেষ প্ৰভাৱশালী শাসক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-254",
+   "q": {
+    "en": "Who was the Mughal emperor during the Battle of Plassey?",
+    "as": "পলাশীৰ যুদ্ধৰ সময়ত মোগল সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Shah Alam II",
+     "as": "শাহ আলম দ্বিতীয়"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Bahadur Shah I",
+     "as": "বাহাদুৰ শাহ প্ৰথম"
+    },
+    {
+     "en": "Akbar II",
+     "as": "আকবৰ দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Alam II was the Mughal emperor during the Battle of Plassey in 1757.",
+    "as": "শাহ আলম দ্বিতীয় ১৭৫৭ চনত পলাশীৰ যুদ্ধৰ সময়ত মোগল সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-255",
+   "q": {
+    "en": "Who was the last Mughal emperor?",
+    "as": "শেষ মোগল সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bahadur Shah Zafar",
+     "as": "বাহাদুৰ শাহ জাফৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Shah Alam II",
+     "as": "শাহ আলম দ্বিতীয়"
+    },
+    {
+     "en": "Akbar II",
+     "as": "আকবৰ দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bahadur Shah Zafar was the last Mughal emperor.",
+    "as": "বাহাদুৰ শাহ জাফৰ শেষ মোগল সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-256",
+   "q": {
+    "en": "Which Mughal emperor was exiled to Rangoon by the British?",
+    "as": "ব্ৰিটিছে কোন মোগল সম্ৰাটক ৰেংগুনলৈ নিৰ্বাসিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bahadur Shah Zafar",
+     "as": "বাহাদুৰ শাহ জাফৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Shah Alam II",
+     "as": "শাহ আলম দ্বিতীয়"
+    },
+    {
+     "en": "Akbar II",
+     "as": "আকবৰ দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bahadur Shah Zafar was exiled to Rangoon by the British after 1857.",
+    "as": "১৮৫৭ চনৰ পিছত ব্ৰিটিছে বাহাদুৰ শাহ জাফৰক ৰেংগুনলৈ নিৰ্বাসিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-257",
+   "q": {
+    "en": "Which Mughal emperor is regarded as the greatest builder?",
+    "as": "কোন মোগল সম্ৰাটক শ্ৰেষ্ঠ নিৰ্মাতা হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan is regarded as the greatest builder among the Mughals.",
+    "as": "শাহজাহানক মোগলসকলৰ মাজত শ্ৰেষ্ঠ নিৰ্মাতা হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-258",
+   "q": {
+    "en": "Which Mughal emperor is known as the 'Engineer King'?",
+    "as": "কোন মোগল সম্ৰাটক 'ইঞ্জিনিয়াৰ ৰজা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shah Jahan is known as the Engineer King for his architectural works.",
+    "as": "শাহজাহানক তেওঁৰ স্থাপত্য কামৰ বাবে ইঞ্জিনিয়াৰ ৰজা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-259",
+   "q": {
+    "en": "Which Mughal architectural style is a blend of Indian and Persian traditions?",
+    "as": "কোন মোগল স্থাপত্য শৈলী ভাৰতীয় আৰু পাৰস্য পৰম্পৰাৰ মিশ্ৰণ?"
+   },
+   "options": [
+    {
+     "en": "The Mughal style",
+     "as": "মোগল শৈলী"
+    },
+    {
+     "en": "The Gupta style",
+     "as": "গুপ্ত শৈলী"
+    },
+    {
+     "en": "The Chola style",
+     "as": "চোল শৈলী"
+    },
+    {
+     "en": "The Pallava style",
+     "as": "পল্লৱ শৈলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal style blends Indian and Persian architectural traditions.",
+    "as": "মোগল শৈলীয়ে ভাৰতীয় আৰু পাৰস্য স্থাপত্য পৰম্পৰাৰ মিশ্ৰণ ঘটায়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-260",
+   "q": {
+    "en": "Which material was extensively used in Mughal architecture?",
+    "as": "মোগল স্থাপত্যত কোন সামগ্ৰী ব্যাপকভাৱে ব্যৱহাৰ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Red sandstone and white marble",
+     "as": "ৰঙা বেলেপাথৰ আৰু বগা মাৰ্বল"
+    },
+    {
+     "en": "Granite",
+     "as": "গ্ৰেনাইট"
+    },
+    {
+     "en": "Bamboo",
+     "as": "বাঁহ"
+    },
+    {
+     "en": "Mud",
+     "as": "বোকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal architecture extensively used red sandstone and white marble.",
+    "as": "মোগল স্থাপত্যত ৰঙা বেলেপাথৰ আৰু বগা মাৰ্বল ব্যাপকভাৱে ব্যৱহাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-261",
+   "q": {
+    "en": "Which ornamentation technique was popular in Mughal architecture?",
+    "as": "মোগল স্থাপত্যত কোন অলংকৰণ কৌশল জনপ্ৰিয় আছিল?"
+   },
+   "options": [
+    {
+     "en": "Pietra dura (inlay work)",
+     "as": "পিয়েট্ৰা দ্যুৰা (জড়াই কৰা কাম)"
+    },
+    {
+     "en": "Wall painting",
+     "as": "বেৰৰ চিত্ৰ"
+    },
+    {
+     "en": "Mosaic tiles only",
+     "as": "কেৱল মোজাইক টাইলছ"
+    },
+    {
+     "en": "Wood carving only",
+     "as": "কেৱল কাঠ খোদাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pietra dura, or inlay work with semi-precious stones, was popular in Mughal architecture.",
+    "as": "পিয়েট্ৰা দ্যুৰা, অৰ্ধ-মূল্যৱান শিলেৰে জড়াই কৰা কাম, মোগল স্থাপত্যত জনপ্ৰিয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-262",
+   "q": {
+    "en": "Which garden style was introduced by the Mughals?",
+    "as": "মোগলসকলে কোন উদ্যান শৈলী প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Charbagh style",
+     "as": "চাৰবাগ শৈলী"
+    },
+    {
+     "en": "The Zen garden",
+     "as": "জেন উদ্যান"
+    },
+    {
+     "en": "The English garden",
+     "as": "ইংৰাজী উদ্যান"
+    },
+    {
+     "en": "The rock garden",
+     "as": "শিলৰ উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughals introduced the Charbagh, a four-part garden style.",
+    "as": "মোগলসকলে চাৰবাগ, চাৰি ভাগৰ উদ্যান শৈলী, প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-263",
+   "q": {
+    "en": "Which Mughal garden is a famous example of the Charbagh style?",
+    "as": "চাৰবাগ শৈলীৰ এটা বিখ্যাত উদাহৰণ কোন মোগল উদ্যান?"
+   },
+   "options": [
+    {
+     "en": "The Nishat Bagh",
+     "as": "নিশাত বাগ"
+    },
+    {
+     "en": "The Rock Garden",
+     "as": "ৰক গাৰ্ডেন"
+    },
+    {
+     "en": "The Botanical Garden",
+     "as": "বটানিকেল গাৰ্ডেন"
+    },
+    {
+     "en": "The Hanging Gardens",
+     "as": "ঝুলন্ত উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nishat Bagh in Kashmir is a famous example of the Mughal Charbagh style.",
+    "as": "কাশ্মীৰৰ নিশাত বাগ মোগল চাৰবাগ শৈলীৰ এটা বিখ্যাত উদাহৰণ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-264",
+   "q": {
+    "en": "Which Mughal emperor laid out the Shalimar Bagh in Kashmir?",
+    "as": "কাশ্মীৰত শালিমাৰ বাগ কোন মোগল সম্ৰাটে সজাইছিল?"
+   },
+   "options": [
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jahangir laid out the Shalimar Bagh in Kashmir.",
+    "as": "জাহাঙ্গীৰে কাশ্মীৰত শালিমাৰ বাগ সজাইছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-265",
+   "q": {
+    "en": "Which Mughal emperor built the Panch Mahal at Fatehpur Sikri?",
+    "as": "ফতেহপুৰ চিক্ৰীত পঞ্চ মহল কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar built the Panch Mahal at Fatehpur Sikri.",
+    "as": "আকবৰে ফতেহপুৰ চিক্ৰীত পঞ্চ মহল নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-266",
+   "q": {
+    "en": "Which Mughal building at Fatehpur Sikri is the tomb of a Sufi saint?",
+    "as": "ফতেহপুৰ চিক্ৰীৰ কোন মোগল ভৱন এজন ছুফী সন্তৰ সমাধি?"
+   },
+   "options": [
+    {
+     "en": "The Salim Chishti dargah",
+     "as": "চালিম চিশতী দৰগাহ"
+    },
+    {
+     "en": "The Panch Mahal",
+     "as": "পঞ্চ মহল"
+    },
+    {
+     "en": "The Buland Darwaza",
+     "as": "বুলন্দ দৰৱাজা"
+    },
+    {
+     "en": "The Jama Masjid",
+     "as": "জামা মছজিদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Salim Chishti dargah at Fatehpur Sikri is the tomb of the Sufi saint Salim Chishti.",
+    "as": "ফতেহপুৰ চিক্ৰীৰ চালিম চিশতী দৰগাহ ছুফী সন্ত চালিম চিশতীৰ সমাধি।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-267",
+   "q": {
+    "en": "Which Mughal emperor built the Bibi Ka Maqbara?",
+    "as": "বিবি কা মকবৰা কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurangzeb built the Bibi Ka Maqbara at Aurangabad.",
+    "as": "আওৰাংজেবে ঔৰংগাবাদত বিবি কা মকবৰা নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-268",
+   "q": {
+    "en": "Which Mughal building is called the 'Mini Taj Mahal'?",
+    "as": "কোন মোগল ভৱনক 'মিনি তাজমহল' বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "The Bibi Ka Maqbara",
+     "as": "বিবি কা মকবৰা"
+    },
+    {
+     "en": "The Humayun's Tomb",
+     "as": "হুমায়ুনৰ সমাধি"
+    },
+    {
+     "en": "The Moti Masjid",
+     "as": "মতি মছজিদ"
+    },
+    {
+     "en": "The Jama Masjid",
+     "as": "জামা মছজিদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bibi Ka Maqbara is called the Mini Taj Mahal.",
+    "as": "বিবি কা মকবৰাক মিনি তাজমহল বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-269",
+   "q": {
+    "en": "Which Mughal painting school is famous?",
+    "as": "কোন মোগল চিত্ৰকলা বিদ্যালয় বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "The Mughal miniature painting school",
+     "as": "মোগল ক্ষুদ্ৰ চিত্ৰকলা বিদ্যালয়"
+    },
+    {
+     "en": "The Ajanta school",
+     "as": "অজন্তা বিদ্যালয়"
+    },
+    {
+     "en": "The Ellora school",
+     "as": "এলোৰা বিদ্যালয়"
+    },
+    {
+     "en": "The Tanjore school",
+     "as": "তাঞ্জোৰ বিদ্যালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal miniature painting school is famous for its detailed works.",
+    "as": "মোগল ক্ষুদ্ৰ চিত্ৰকলা বিদ্যালয় ইয়াৰ বিশদ কামৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-270",
+   "q": {
+    "en": "Which Mughal emperor was a great patron of miniature painting?",
+    "as": "কোন মোগল সম্ৰাট ক্ষুদ্ৰ চিত্ৰকলাৰ এজন মহান পৃষ্ঠপোষক আছিল?"
+   },
+   "options": [
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jahangir was a great patron of miniature painting.",
+    "as": "জাহাঙ্গীৰ ক্ষুদ্ৰ চিত্ৰকলাৰ এজন মহান পৃষ্ঠপোষক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-271",
+   "q": {
+    "en": "Which Persian painters came to Akbar's court and influenced Mughal painting?",
+    "as": "কোন পাৰস্য চিত্ৰশিল্পী আকবৰৰ ৰাজদৰবাৰলৈ আহি মোগল চিত্ৰকলাক প্ৰভাৱিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mir Sayyid Ali and Abdus Samad",
+     "as": "মীৰ চৈয়দ আলী আৰু আব্দুচ চামাদ"
+    },
+    {
+     "en": "Tansen",
+     "as": "তানসেন"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mir Sayyid Ali and Abdus Samad, Persian painters, influenced Mughal painting at Akbar's court.",
+    "as": "মীৰ চৈয়দ আলী আৰু আব্দুচ চামাদ, পাৰস্য চিত্ৰশিল্পী, আকবৰৰ ৰাজদৰবাৰত মোগল চিত্ৰকলাক প্ৰভাৱিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-272",
+   "q": {
+    "en": "What was a 'Subah' in the Mughal administration?",
+    "as": "মোগল প্ৰশাসনত 'চুবাহ' কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A province",
+     "as": "এখন প্ৰদেশ"
+    },
+    {
+     "en": "A district",
+     "as": "এখন জিলা"
+    },
+    {
+     "en": "A village",
+     "as": "এখন গাঁও"
+    },
+    {
+     "en": "A city",
+     "as": "এখন চহৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A Subah was a province in the Mughal administration.",
+    "as": "চুবাহ মোগল প্ৰশাসনত এখন প্ৰদেশ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-273",
+   "q": {
+    "en": "What was a 'Faujdar' in the Mughal administration?",
+    "as": "মোগল প্ৰশাসনত 'ফৌজদাৰ' কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "The military governor of a district",
+     "as": "এখন জিলাৰ সামৰিক ৰাজ্যপাল"
+    },
+    {
+     "en": "The head of a province",
+     "as": "এখন প্ৰদেশৰ মুৰব্বী"
+    },
+    {
+     "en": "The chief judge",
+     "as": "প্ৰধান বিচাৰক"
+    },
+    {
+     "en": "The finance minister",
+     "as": "বিত্ত মন্ত্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A Faujdar was the military governor of a district in the Mughal administration.",
+    "as": "ফৌজদাৰ মোগল প্ৰশাসনত এখন জিলাৰ সামৰিক ৰাজ্যপাল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-274",
+   "q": {
+    "en": "What was a 'Diwan' in the Mughal administration?",
+    "as": "মোগল প্ৰশাসনত 'দিৱান' কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "The finance minister of a province",
+     "as": "এখন প্ৰদেশৰ বিত্ত মন্ত্ৰী"
+    },
+    {
+     "en": "The military commander",
+     "as": "সামৰিক সেনাপতি"
+    },
+    {
+     "en": "The chief judge",
+     "as": "প্ৰধান বিচাৰক"
+    },
+    {
+     "en": "The religious head",
+     "as": "ধৰ্মীয় মুৰব্বী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A Diwan was the finance minister of a province in the Mughal administration.",
+    "as": "দিৱান মোগল প্ৰশাসনত এখন প্ৰদেশৰ বিত্ত মন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-275",
+   "q": {
+    "en": "What was the 'Mansabdari' system based on?",
+    "as": "'মনচবদাৰী' ব্যৱস্থা কিসৰ ওপৰত আধাৰিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Rank (zat) and cavalry (sawar)",
+     "as": "পদ (জাত) আৰু অশ্বাৰোহী (চৱাৰ)"
+    },
+    {
+     "en": "Land ownership",
+     "as": "ভূমি মালিকী"
+    },
+    {
+     "en": "Caste",
+     "as": "জাতি"
+    },
+    {
+     "en": "Wealth",
+     "as": "ধন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mansabdari system was based on rank (zat) and cavalry (sawar).",
+    "as": "মনচবদাৰী ব্যৱস্থা পদ (জাত) আৰু অশ্বাৰোহী (চৱাৰ)ৰ ওপৰত আধাৰিত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-276",
+   "q": {
+    "en": "Which Mughal land revenue system was based on a ten-year average?",
+    "as": "কোন মোগল ভূমি ৰাজহ ব্যৱস্থা দহ বছৰৰ গড়ৰ ওপৰত আধাৰিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Dahsala system",
+     "as": "দহচালা ব্যৱস্থা"
+    },
+    {
+     "en": "The Iqta system",
+     "as": "ইকতা ব্যৱস্থা"
+    },
+    {
+     "en": "The Zamindari system",
+     "as": "জমিদাৰী ব্যৱস্থা"
+    },
+    {
+     "en": "The Ryotwari system",
+     "as": "ৰৈয়তৱাৰী ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dahsala system was based on a ten-year average of produce and prices.",
+    "as": "দহচালা ব্যৱস্থা উৎপাদন আৰু মূল্যৰ দহ বছৰৰ গড়ৰ ওপৰত আধাৰিত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-277",
+   "q": {
+    "en": "Which crop was introduced to India during the Mughal period?",
+    "as": "মোগল কালত ভাৰতলৈ কোন শস্য প্ৰৱৰ্তন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Tobacco and maize",
+     "as": "তামোল আৰু মাকৈ"
+    },
+    {
+     "en": "Wheat and barley",
+     "as": "ঘেঁহু আৰু যৱ"
+    },
+    {
+     "en": "Rice and millet",
+     "as": "ধান আৰু বাজৰা"
+    },
+    {
+     "en": "Cotton and jute",
+     "as": "কপাহ আৰু পাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tobacco and maize were introduced to India during the Mughal period.",
+    "as": "মোগল কালত ভাৰতলৈ তামোল আৰু মাকৈ প্ৰৱৰ্তন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-278",
+   "q": {
+    "en": "Which industry was a major source of revenue in the Mughal period?",
+    "as": "মোগল কালত কোন উদ্যোগ ৰাজহৰ এটা প্ৰধান উৎস আছিল?"
+   },
+   "options": [
+    {
+     "en": "Textile (cotton and silk)",
+     "as": "বস্ত্ৰ (কপাহ আৰু ৰেচম)"
+    },
+    {
+     "en": "Iron and steel",
+     "as": "লো আৰু ইস্পাত"
+    },
+    {
+     "en": "Shipbuilding",
+     "as": "জাহাজ নিৰ্মাণ"
+    },
+    {
+     "en": "Glass-making",
+     "as": "কাঁচ নিৰ্মাণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The textile industry, especially cotton and silk, was a major source of revenue.",
+    "as": "বস্ত্ৰ উদ্যোগ, বিশেষকৈ কপাহ আৰু ৰেচম, ৰাজহৰ এটা প্ৰধান উৎস আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-279",
+   "q": {
+    "en": "Which port was a major centre of Mughal overseas trade?",
+    "as": "কোন বন্দৰ মোগল বৈদেশিক বাণিজ্যৰ এটা প্ৰধান কেন্দ্ৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Surat",
+     "as": "চুৰাট"
+    },
+    {
+     "en": "Calicut",
+     "as": "কালিকট"
+    },
+    {
+     "en": "Goa",
+     "as": "গোৱা"
+    },
+    {
+     "en": "Pondicherry",
+     "as": "পণ্ডিচেৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Surat was a major centre of Mughal overseas trade.",
+    "as": "চুৰাট মোগল বৈদেশিক বাণিজ্যৰ এটা প্ৰধান কেন্দ্ৰ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-280",
+   "q": {
+    "en": "Which European power traded with India during the Mughal period?",
+    "as": "মোগল কালত কোন ইউৰোপীয় শক্তিয়ে ভাৰতৰ সৈতে বাণিজ্য কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Portuguese and the Dutch",
+     "as": "পৰ্তুগীজ আৰু ডাচ"
+    },
+    {
+     "en": "The Russians",
+     "as": "ৰাছিয়ান"
+    },
+    {
+     "en": "The Chinese",
+     "as": "চীনা"
+    },
+    {
+     "en": "The Japanese",
+     "as": "জাপানী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Portuguese and the Dutch traded with India during the Mughal period.",
+    "as": "মোগল কালত পৰ্তুগীজ আৰু ডাচে ভাৰতৰ সৈতে বাণিজ্য কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-281",
+   "q": {
+    "en": "Which European power established a factory at Surat in 1613?",
+    "as": "১৬১৩ চনত কোন ইউৰোপীয় শক্তিয়ে চুৰাটত কাৰখানা স্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The English East India Company",
+     "as": "ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানী"
+    },
+    {
+     "en": "The French",
+     "as": "ফৰাচী"
+    },
+    {
+     "en": "The Portuguese",
+     "as": "পৰ্তুগীজ"
+    },
+    {
+     "en": "The Dutch",
+     "as": "ডাচ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The English East India Company established a factory at Surat in 1613.",
+    "as": "ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানীয়ে ১৬১৩ চনত চুৰাটত কাৰখানা স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-282",
+   "q": {
+    "en": "Which Mughal emperor granted trading rights to the English East India Company?",
+    "as": "কোন মোগল সম্ৰাটে ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানীক বাণিজ্য অধিকাৰ প্ৰদান কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jahangir granted trading rights to the English East India Company.",
+    "as": "জাহাঙ্গীৰে ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানীক বাণিজ্য অধিকাৰ প্ৰদান কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-283",
+   "q": {
+    "en": "Which Mughal emperor's court was visited by the English ambassador Sir Thomas Roe?",
+    "as": "ইংৰাজ ৰাষ্ট্ৰদূত চাৰ থমাছ ৰোৱে কোন মোগল সম্ৰাটৰ ৰাজদৰবাৰ ভ্ৰমণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jahangir",
+     "as": "জাহাঙ্গীৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sir Thomas Roe visited the court of Jahangir as the English ambassador.",
+    "as": "চাৰ থমাছ ৰোৱে ইংৰাজ ৰাষ্ট্ৰদূত হিচাপে জাহাঙ্গীৰৰ ৰাজদৰবাৰ ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-284",
+   "q": {
+    "en": "Which European traveller wrote about Mughal India in the 17th century?",
+    "as": "১৭ শতিকাত কোন ইউৰোপীয় পৰিব্ৰাজকে মোগল ভাৰতৰ বিষয়ে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Francois Bernier",
+     "as": "ফ্ৰাঙ্কোৱা বাৰ্নিয়াৰ"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Francois Bernier, a French traveller, wrote about Mughal India.",
+    "as": "ফ্ৰাঙ্কোৱা বাৰ্নিয়াৰ, এজন ফৰাচী পৰিব্ৰাজক, মোগল ভাৰতৰ বিষয়ে লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-285",
+   "q": {
+    "en": "Which traveller described the Mughal Empire as a 'despotic' state?",
+    "as": "কোন পৰিব্ৰাজকে মোগল সাম্ৰাজ্যক 'স্বৈৰাচাৰী' ৰাজ্য বুলি বৰ্ণনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Francois Bernier",
+     "as": "ফ্ৰাঙ্কোৱা বাৰ্নিয়াৰ"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Francois Bernier described the Mughal Empire as a despotic state.",
+    "as": "ফ্ৰাঙ্কোৱা বাৰ্নিয়াৰে মোগল সাম্ৰাজ্যক স্বৈৰাচাৰী ৰাজ্য বুলি বৰ্ণনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-286",
+   "q": {
+    "en": "What was the position of women in Mughal society generally?",
+    "as": "সাধাৰণতে মোগল সমাজত মহিলাসকলৰ স্থান কেনে আছিল?"
+   },
+   "options": [
+    {
+     "en": "Restricted, with purdah and limited rights",
+     "as": "সীমাবদ্ধ, পৰ্দা আৰু সীমিত অধিকাৰৰ সৈতে"
+    },
+    {
+     "en": "Equal to men",
+     "as": "পুৰুষৰ সমান"
+    },
+    {
+     "en": "Superior to men",
+     "as": "পুৰুষতকৈ উচ্চ"
+    },
+    {
+     "en": "Free and independent",
+     "as": "মুক্ত আৰু স্বাধীন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Women in Mughal society were generally restricted, with purdah and limited rights.",
+    "as": "মোগল সমাজত মহিলাসকল সাধাৰণতে সীমাবদ্ধ আছিল, পৰ্দা আৰু সীমিত অধিকাৰৰ সৈতে।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-287",
+   "q": {
+    "en": "Which practice was common in Mughal royal families regarding marriage?",
+    "as": "বিবাহৰ ক্ষেত্ৰত মোগল ৰাজপৰিয়ালত কোন প্ৰথা সাধাৰণ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Political alliances through marriage",
+     "as": "বিবাহৰ জৰিয়তে ৰাজনৈতিক মিত্ৰতা"
+    },
+    {
+     "en": "Marriage within the family only",
+     "as": "কেৱল পৰিয়ালৰ ভিতৰত বিবাহ"
+    },
+    {
+     "en": "Marriage to foreigners only",
+     "as": "কেৱল বিদেশীৰ সৈতে বিবাহ"
+    },
+    {
+     "en": "No marriage",
+     "as": "বিবাহ নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Political alliances through marriage were common in Mughal royal families.",
+    "as": "বিবাহৰ জৰিয়তে ৰাজনৈতিক মিত্ৰতা মোগল ৰাজপৰিয়ালত সাধাৰণ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-288",
+   "q": {
+    "en": "Which language was the court language of the Mughals?",
+    "as": "মোগলসকলৰ ৰাজদৰবাৰৰ ভাষা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Persian",
+     "as": "পাৰস্য"
+    },
+    {
+     "en": "Turkish",
+     "as": "তুৰ্কী"
+    },
+    {
+     "en": "Arabic",
+     "as": "আৰবী"
+    },
+    {
+     "en": "Sanskrit",
+     "as": "সংস্কৃত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Persian was the court language of the Mughals.",
+    "as": "পাৰস্য মোগলসকলৰ ৰাজদৰবাৰৰ ভাষা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-289",
+   "q": {
+    "en": "Which language developed as a common language during the Mughal period?",
+    "as": "মোগল কালত কোন ভাষা এটা সাধাৰণ ভাষা হিচাপে বিকশিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Urdu",
+     "as": "উৰ্দু"
+    },
+    {
+     "en": "Sanskrit",
+     "as": "সংস্কৃত"
+    },
+    {
+     "en": "Tamil",
+     "as": "তামিল"
+    },
+    {
+     "en": "Bengali",
+     "as": "বাংলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Urdu developed as a common language during the Mughal period.",
+    "as": "মোগল কালত উৰ্দু এটা সাধাৰণ ভাষা হিচাপে বিকশিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-290",
+   "q": {
+    "en": "Which education system was prevalent in the Mughal period?",
+    "as": "মোগল কালত কোন শিক্ষা ব্যৱস্থা প্ৰচলিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The madrasa and maktab system",
+     "as": "মাদ্ৰাছা আৰু মক্তব ব্যৱস্থা"
+    },
+    {
+     "en": "The university system",
+     "as": "বিশ্ববিদ্যালয় ব্যৱস্থা"
+    },
+    {
+     "en": "The online system",
+     "as": "অনলাইন ব্যৱস্থা"
+    },
+    {
+     "en": "The gurukul system only",
+     "as": "কেৱল গুৰুকুল ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The madrasa and maktab system of education was prevalent in the Mughal period.",
+    "as": "মোগল কালত মাদ্ৰাছা আৰু মক্তব শিক্ষা ব্যৱস্থা প্ৰচলিত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-291",
+   "q": {
+    "en": "What structural elements are typical of Mughal architecture?",
+    "as": "মোগল স্থাপত্যৰ সাধাৰণ গাঁথনিগত উপাদান কি?"
+   },
+   "options": [
+    {
+     "en": "Large domes and minarets",
+     "as": "বৃহৎ গম্বুজ আৰু মিনাৰ"
+    },
+    {
+     "en": "Rock-cut caves",
+     "as": "শিল কাটি নিৰ্মিত গুহা"
+    },
+    {
+     "en": "Wooden temples",
+     "as": "কাঠৰ মন্দিৰ"
+    },
+    {
+     "en": "Thatched huts",
+     "as": "খেৰৰ জুপুৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Large domes and minarets are features of Mughal architecture.",
+    "as": "বৃহৎ গম্বুজ আৰু মিনাৰ মোগল স্থাপত্যৰ বৈশিষ্ট্য।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-292",
+   "q": {
+    "en": "What garden and water features are typical of Mughal architecture?",
+    "as": "মোগল স্থাপত্যৰ সাধাৰণ উদ্যান আৰু পানীৰ বৈশিষ্ট্য কি?"
+   },
+   "options": [
+    {
+     "en": "Symmetrical gardens and water channels",
+     "as": "সমমিতিক উদ্যান আৰু পানীৰ নলা"
+    },
+    {
+     "en": "Random layouts",
+     "as": "এলেমেলীয়া বিন্যাস"
+    },
+    {
+     "en": "Underground cities",
+     "as": "ভূগৰ্ভস্থ চহৰ"
+    },
+    {
+     "en": "Floating structures",
+     "as": "ভাসমান গাঁথনি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Symmetrical gardens and water channels are features of Mughal architecture.",
+    "as": "সমমিতিক উদ্যান আৰু পানীৰ নলা মোগল স্থাপত্যৰ বৈশিষ্ট্য।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-293",
+   "q": {
+    "en": "Which of the following was a feature of Mughal painting?",
+    "as": "তলৰ কোনটো মোগল চিত্ৰকলাৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "Realistic portraits and nature scenes",
+     "as": "বাস্তৱিক প্ৰতিকৃতি আৰু প্ৰকৃতি দৃশ্য"
+    },
+    {
+     "en": "Abstract geometric art",
+     "as": "অমূৰ্ত জ্যামিতিক কলা"
+    },
+    {
+     "en": "Cave murals",
+     "as": "গুহা-চিত্ৰ"
+    },
+    {
+     "en": "Stained glass",
+     "as": "ৰঙীন কাঁচ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Realistic portraits and nature scenes are features of Mughal painting.",
+    "as": "বাস্তৱিক প্ৰতিকৃতি আৰু প্ৰকৃতি দৃশ্য মোগল চিত্ৰকলাৰ বৈশিষ্ট্য।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-294",
+   "q": {
+    "en": "Which of the following was a feature of the Mughal economy?",
+    "as": "তলৰ কোনটো মোগল অৰ্থনীতিৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "A monetised economy with silver currency",
+     "as": "ৰূপৰ মুদ্ৰাৰ সৈতে এক মুদ্ৰাকৃত অৰ্থনীতি"
+    },
+    {
+     "en": "A barter-only economy",
+     "as": "কেৱল বিনিময়ৰ অৰ্থনীতি"
+    },
+    {
+     "en": "A paper-money economy",
+     "as": "কাগজৰ টকাৰ অৰ্থনীতি"
+    },
+    {
+     "en": "A gold-only economy",
+     "as": "কেৱল সোণৰ অৰ্থনীতি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal economy was monetised, based on silver currency.",
+    "as": "মোগল অৰ্থনীতি মুদ্ৰাকৃত আছিল, ৰূপৰ মুদ্ৰাৰ ওপৰত আধাৰিত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-295",
+   "q": {
+    "en": "What wealthy class grew in Mughal society?",
+    "as": "মোগল সমাজত কোন ধনী শ্ৰেণী বিকশিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "A hierarchical society with nobles at the top",
+     "as": "অভিজাতসকল শীৰ্ষত থকা এক শ্ৰেণীবদ্ধ সমাজ"
+    },
+    {
+     "en": "A classless society",
+     "as": "এখন শ্ৰেণীহীন সমাজ"
+    },
+    {
+     "en": "A democratic society",
+     "as": "এখন গণতান্ত্ৰিক সমাজ"
+    },
+    {
+     "en": "An egalitarian society",
+     "as": "এখন সমতাবাদী সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal society was hierarchical, with nobles at the top.",
+    "as": "মোগল সমাজ শ্ৰেণীবদ্ধ আছিল, অভিজাতসকল শীৰ্ষত থকা।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-296",
+   "q": {
+    "en": "What was the nature of Mughal central authority?",
+    "as": "মোগল কেন্দ্ৰীয় ক্ষমতাৰ প্ৰকৃতি কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Centralised rule with provincial governors",
+     "as": "প্ৰাদেশিক ৰাজ্যপালৰ সৈতে কেন্দ্ৰীভূত শাসন"
+    },
+    {
+     "en": "Complete decentralisation",
+     "as": "সম্পূৰ্ণ বিকেন্দ্ৰীকৰণ"
+    },
+    {
+     "en": "Direct democracy",
+     "as": "প্ৰত্যক্ষ গণতন্ত্ৰ"
+    },
+    {
+     "en": "Rule by elected councils",
+     "as": "নিৰ্বাচিত পৰিষদৰ শাসন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal administration was centralised, with provincial governors appointed by the emperor.",
+    "as": "মোগল প্ৰশাসন কেন্দ্ৰীভূত আছিল, সম্ৰাটে নিযুক্তি দিয়া প্ৰাদেশিক ৰাজ্যপালৰ সৈতে।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-297",
+   "q": {
+    "en": "How was the Mughal army organised?",
+    "as": "মোগল সেনা কেনেদৰে সংগঠিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "A strong standing army",
+     "as": "এক শক্তিশালী স্থায়ী সেনা"
+    },
+    {
+     "en": "A weak army",
+     "as": "এক দুৰ্বল সেনা"
+    },
+    {
+     "en": "No army",
+     "as": "সেনা নাই"
+    },
+    {
+     "en": "A mercenary-only army",
+     "as": "কেৱল ভাড়াটীয়া সেনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal administration maintained a strong standing army.",
+    "as": "মোগল প্ৰশাসনে এক শক্তিশালী স্থায়ী সেনা ৰাখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-298",
+   "q": {
+    "en": "What was the nature of the Mughal revenue system?",
+    "as": "মোগল ৰাজহ ব্যৱস্থাৰ প্ৰকৃতি কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A well-organised revenue system",
+     "as": "এক সুসংগঠিত ৰাজহ ব্যৱস্থা"
+    },
+    {
+     "en": "No revenue system",
+     "as": "ৰাজহ ব্যৱস্থা নাই"
+    },
+    {
+     "en": "A barter revenue system",
+     "as": "বিনিময় ৰাজহ ব্যৱস্থা"
+    },
+    {
+     "en": "A tribute-only system",
+     "as": "কেৱল কৰ-ভেটি ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal administration had a well-organised revenue system.",
+    "as": "মোগল প্ৰশাসনত এক সুসংগঠিত ৰাজহ ব্যৱস্থা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-299",
+   "q": {
+    "en": "How did the Mughals gather information?",
+    "as": "মোগলসকলে কেনেদৰে তথ্য সংগ্ৰহ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "A network of spies and informers",
+     "as": "গুপচৰ আৰু সংবাদদাতাৰ এটা জাল"
+    },
+    {
+     "en": "No intelligence system",
+     "as": "গোৱেন্দা ব্যৱস্থা নাই"
+    },
+    {
+     "en": "A public parliament",
+     "as": "এখন ৰাজহুৱা সংসদ"
+    },
+    {
+     "en": "An elected senate",
+     "as": "এখন নিৰ্বাচিত চেনেট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal administration maintained a network of spies and informers.",
+    "as": "মোগল প্ৰশাসনে গুপচৰ আৰু সংবাদদাতাৰ এটা জাল ৰাখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-300",
+   "q": {
+    "en": "How were Mughal provincial governors controlled?",
+    "as": "মোগল প্ৰাদেশিক ৰাজ্যপালসকলক কেনেদৰে নিয়ন্ত্ৰণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "A system of checks on provincial governors",
+     "as": "প্ৰাদেশিক ৰাজ্যপালৰ ওপৰত নিয়ন্ত্ৰণৰ ব্যৱস্থা"
+    },
+    {
+     "en": "No checks on governors",
+     "as": "ৰাজ্যপালৰ ওপৰত নিয়ন্ত্ৰণ নাই"
+    },
+    {
+     "en": "Governors were independent",
+     "as": "ৰাজ্যপালসকল স্বাধীন আছিল"
+    },
+    {
+     "en": "Governors were elected",
+     "as": "ৰাজ্যপালসকল নিৰ্বাচিত আছিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal administration had a system of checks on provincial governors.",
+    "as": "মোগল প্ৰশাসনত প্ৰাদেশিক ৰাজ্যপালৰ ওপৰত নিয়ন্ত্ৰণৰ ব্যৱস্থা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-301",
+   "q": {
+    "en": "What role did the council of ministers play in Mughal rule?",
+    "as": "মোগল শাসনত মন্ত্ৰী পৰিষদে কি ভূমিকা লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The emperor was the supreme authority",
+     "as": "সম্ৰাট আছিল সৰ্বোচ্চ ক্ষমতা"
+    },
+    {
+     "en": "The emperor was a figurehead",
+     "as": "সম্ৰাট এজন নামমাত্ৰ মুৰব্বী আছিল"
+    },
+    {
+     "en": "The emperor was elected",
+     "as": "সম্ৰাট নিৰ্বাচিত আছিল"
+    },
+    {
+     "en": "There was no emperor",
+     "as": "সম্ৰাট নাছিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In Mughal administration, the emperor was the supreme authority.",
+    "as": "মোগল প্ৰশাসনত সম্ৰাট আছিল সৰ্বোচ্চ ক্ষমতা।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-302",
+   "q": {
+    "en": "Which of the following was a feature of Mughal administration?",
+    "as": "তলৰ কোনটো মোগল প্ৰশাসনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "A council of ministers to advise the emperor",
+     "as": "সম্ৰাটক পৰামৰ্শ দিবলৈ মন্ত্ৰী পৰিষদ"
+    },
+    {
+     "en": "No council of ministers",
+     "as": "মন্ত্ৰী পৰিষদ নাই"
+    },
+    {
+     "en": "An elected cabinet",
+     "as": "এখন নিৰ্বাচিত মন্ত্ৰীসভা"
+    },
+    {
+     "en": "A foreign council",
+     "as": "এখন বিদেশী পৰিষদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal emperor was advised by a council of ministers.",
+    "as": "মোগল সম্ৰাটক মন্ত্ৰী পৰিষদে পৰামৰ্শ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-303",
+   "q": {
+    "en": "What branches made up the Mughal army?",
+    "as": "মোগল সেনাৰ কি কি শাখা আছিল?"
+   },
+   "options": [
+    {
+     "en": "Cavalry, infantry and artillery",
+     "as": "অশ্বাৰোহী, পদাতিক আৰু কামান বাহিনী"
+    },
+    {
+     "en": "Only infantry",
+     "as": "কেৱল পদাতিক বাহিনী"
+    },
+    {
+     "en": "Only cavalry",
+     "as": "কেৱল অশ্বাৰোহী বাহিনী"
+    },
+    {
+     "en": "Only navy",
+     "as": "কেৱল নৌবাহিনী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal army consisted of cavalry, infantry and artillery.",
+    "as": "মোগল সেনাত অশ্বাৰোহী, পদাতিক আৰু কামান বাহিনী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-304",
+   "q": {
+    "en": "Which animals were used by the Mughal army in battle?",
+    "as": "যুদ্ধত মোগল সেনাই কোন জন্তু ব্যৱহাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The use of elephants in battle",
+     "as": "যুদ্ধত হাতীৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of tanks",
+     "as": "টেংকৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of aircraft",
+     "as": "বিমানৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of submarines",
+     "as": "ছাবমেৰিনৰ ব্যৱহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal army used elephants in battle.",
+    "as": "মোগল সেনাই যুদ্ধত হাতী ব্যৱহাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-305",
+   "q": {
+    "en": "Which of the following was a feature of Mughal warfare?",
+    "as": "তলৰ কোনটো মোগল যুদ্ধৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The use of matchlock guns and cannons",
+     "as": "মেটলক বন্দুক আৰু কামানৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of machine guns",
+     "as": "মেচিন গানৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of bombs",
+     "as": "বোমাৰ ব্যৱহাৰ"
+    },
+    {
+     "en": "The use of missiles",
+     "as": "মিচাইলৰ ব্যৱহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal warfare used matchlock guns and cannons.",
+    "as": "মোগল যুদ্ধত মেটলক বন্দুক আৰু কামান ব্যৱহাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-306",
+   "q": {
+    "en": "What was the scale of Mughal trade?",
+    "as": "মোগল বাণিজ্যৰ পৰিমাণ কিমান আছিল?"
+   },
+   "options": [
+    {
+     "en": "A large volume of inland and overseas trade",
+     "as": "অভ্যন্তৰীণ আৰু বৈদেশিক বাণিজ্যৰ এক বিশাল পৰিমাণ"
+    },
+    {
+     "en": "No trade",
+     "as": "বাণিজ্য নাই"
+    },
+    {
+     "en": "Only local trade",
+     "as": "কেৱল স্থানীয় বাণিজ্য"
+    },
+    {
+     "en": "Only barter",
+     "as": "কেৱল বিনিময়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal economy had a large volume of inland and overseas trade.",
+    "as": "মোগল অৰ্থনীতিত অভ্যন্তৰীণ আৰু বৈদেশিক বাণিজ্যৰ এক বিশাল পৰিমাণ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-307",
+   "q": {
+    "en": "What happened to towns and crafts in the Mughal economy?",
+    "as": "মোগল অৰ্থনীতিত চহৰ আৰু হস্তশিল্পৰ কি হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of towns and crafts",
+     "as": "চহৰ আৰু হস্তশিল্পৰ বিকাশ"
+    },
+    {
+     "en": "The decline of towns",
+     "as": "চহৰসমূহৰ অৱনতি"
+    },
+    {
+     "en": "The end of crafts",
+     "as": "হস্তশিল্পৰ অন্ত"
+    },
+    {
+     "en": "The end of agriculture",
+     "as": "কৃষিৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal economy saw the growth of towns and crafts.",
+    "as": "মোগল অৰ্থনীতিত চহৰ আৰু হস্তশিল্পৰ বিকাশ ঘটিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-308",
+   "q": {
+    "en": "What financial institutions existed in the Mughal economy?",
+    "as": "মোগল অৰ্থনীতিত কি বিত্তীয় প্ৰতিষ্ঠান আছিল?"
+   },
+   "options": [
+    {
+     "en": "A well-developed banking and credit system",
+     "as": "এক সুবিকশিত বেংকিং আৰু ঋণ ব্যৱস্থা"
+    },
+    {
+     "en": "No banking system",
+     "as": "বেংকিং ব্যৱস্থা নাই"
+    },
+    {
+     "en": "Only barter trade",
+     "as": "কেৱল বিনিময় বাণিজ্য"
+    },
+    {
+     "en": "Only local markets",
+     "as": "কেৱল স্থানীয় বজাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mughal economy had a well-developed banking and credit system.",
+    "as": "মোগল অৰ্থনীতিত এক সুবিকশিত বেংকিং আৰু ঋণ ব্যৱস্থা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-309",
+   "q": {
+    "en": "What middle class grew in Mughal society?",
+    "as": "মোগল সমাজত কোন মধ্যৱৰ্তী শ্ৰেণী বিকশিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of a wealthy noble class",
+     "as": "এক ধনী অভিজাত শ্ৰেণীৰ বিকাশ"
+    },
+    {
+     "en": "The decline of nobles",
+     "as": "অভিজাতসকলৰ অৱনতি"
+    },
+    {
+     "en": "A classless society",
+     "as": "এখন শ্ৰেণীহীন সমাজ"
+    },
+    {
+     "en": "A tribal society",
+     "as": "এখন জনজাতীয় সমাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal society saw the growth of a wealthy noble class.",
+    "as": "মোগল সমাজত এক ধনী অভিজাত শ্ৰেণীৰ বিকাশ ঘটিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-310",
+   "q": {
+    "en": "Which group formed the majority of Mughal society?",
+    "as": "মোগল সমাজৰ সংখ্যাগৰিষ্ঠতা কোন গোটে গঠন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of a middle class of traders and officials",
+     "as": "ব্যৱসায়ী আৰু বিষয়াসকলৰ এক মধ্যৱৰ্তী শ্ৰেণীৰ বিকাশ"
+    },
+    {
+     "en": "The decline of traders",
+     "as": "ব্যৱসায়ীসকলৰ অৱনতি"
+    },
+    {
+     "en": "The end of the middle class",
+     "as": "মধ্যৱৰ্তী শ্ৰেণীৰ অন্ত"
+    },
+    {
+     "en": "The rise of slaves only",
+     "as": "কেৱল দাসসকলৰ উত্থান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal society saw the growth of a middle class of traders and officials.",
+    "as": "মোগল সমাজত ব্যৱসায়ী আৰু বিষয়াসকলৰ এক মধ্যৱৰ্তী শ্ৰেণীৰ বিকাশ ঘটিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-311",
+   "q": {
+    "en": "Which of the following was a feature of Mughal society?",
+    "as": "তলৰ কোনটো মোগল সমাজৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of a peasant majority",
+     "as": "এক কৃষক সংখ্যাগৰিষ্ঠতাৰ বিকাশ"
+    },
+    {
+     "en": "The decline of peasants",
+     "as": "কৃষকসকলৰ অৱনতি"
+    },
+    {
+     "en": "The end of agriculture",
+     "as": "কৃষিৰ অন্ত"
+    },
+    {
+     "en": "The rise of a warrior-only society",
+     "as": "কেৱল যোদ্ধা সমাজৰ উত্থান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mughal society had a large peasant majority.",
+    "as": "মোগল সমাজত এক বিশাল কৃষক সংখ্যাগৰিষ্ঠতা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-312",
+   "q": {
+    "en": "Who wrote the 'Prithviraj Raso'?",
+    "as": "'পৃথ্বীৰাজ ৰাসো' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chand Bardai",
+     "as": "চান্দ বৰদাই"
+    },
+    {
+     "en": "Kalhana",
+     "as": "কলহন"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    },
+    {
+     "en": "Ziauddin Barani",
+     "as": "জিয়াউদ্দিন বৰণী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chand Bardai wrote the Prithviraj Raso, a ballad about Prithviraj Chauhan.",
+    "as": "চান্দ বৰদাই পৃথ্বীৰাজ ৰাসো লিখিছিল, পৃথ্বীৰাজ চৌহানৰ বিষয়ে এটা বীৰগাথা।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-313",
+   "q": {
+    "en": "Who wrote the 'Padmavat'?",
+    "as": "'পদ্মাৱত' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Malik Muhammad Jayasi",
+     "as": "মালিক মুহম্মদ জায়সী"
+    },
+    {
+     "en": "Chand Bardai",
+     "as": "চান্দ বৰদাই"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Surdas",
+     "as": "সুৰদাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Malik Muhammad Jayasi wrote the Padmavat.",
+    "as": "মালিক মুহম্মদ জায়সীয়ে পদ্মাৱত লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-314",
+   "q": {
+    "en": "Who wrote the 'Ramayana' in Awadhi?",
+    "as": "অৱধী ভাষাত 'ৰামায়ণ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Valmiki",
+     "as": "ৱাল্মীকি"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Surdas",
+     "as": "সুৰদাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tulsidas wrote the Ramcharitmanas, the Ramayana in Awadhi.",
+    "as": "তুলসীদাসে ৰামচৰিতমানস, অৱধী ভাষাৰ ৰামায়ণ, লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-315",
+   "q": {
+    "en": "Who wrote the 'Sursagar'?",
+    "as": "'সুৰসাগৰ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Surdas",
+     "as": "সুৰদাস"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    },
+    {
+     "en": "Kabir",
+     "as": "কবিৰ"
+    },
+    {
+     "en": "Mirabai",
+     "as": "মীৰাবাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Surdas wrote the Sursagar, a collection of devotional poems to Krishna.",
+    "as": "সুৰদাসে সুৰসাগৰ লিখিছিল, কৃষ্ণৰ প্ৰতি ভক্তিমূলক কবিতাৰ এটা সংকলন।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-316",
+   "q": {
+    "en": "Which language did Amir Khusrau use for his poetry?",
+    "as": "আমীৰ খসৰুৱে তেওঁৰ কবিতাৰ বাবে কোন ভাষা ব্যৱহাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Persian and Hindavi",
+     "as": "পাৰস্য আৰু হিন্দৱী"
+    },
+    {
+     "en": "Sanskrit and Tamil",
+     "as": "সংস্কৃত আৰু তামিল"
+    },
+    {
+     "en": "Greek and Latin",
+     "as": "গ্ৰীক আৰু লেটিন"
+    },
+    {
+     "en": "Arabic and Turkish only",
+     "as": "কেৱল আৰবী আৰু তুৰ্কী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amir Khusrau wrote in Persian and Hindavi.",
+    "as": "আমীৰ খসৰুৱে পাৰস্য আৰু হিন্দৱী ভাষাত লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-317",
+   "q": {
+    "en": "Which form of music is associated with Amir Khusrau?",
+    "as": "কোন সংগীত ৰূপ আমীৰ খসৰুৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Qawwali and Khayal",
+     "as": "কৱালী আৰু খেয়াল"
+    },
+    {
+     "en": "Carnatic music",
+     "as": "কৰ্ণাটকী সংগীত"
+    },
+    {
+     "en": "Folk music only",
+     "as": "কেৱল লোক সংগীত"
+    },
+    {
+     "en": "Rock music",
+     "as": "ৰক সংগীত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amir Khusrau is associated with the development of Qawwali and Khayal.",
+    "as": "আমীৰ খসৰু কৱালী আৰু খেয়ালৰ বিকাশৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-318",
+   "q": {
+    "en": "Who was the historian of Akbar's court who wrote against his policies?",
+    "as": "আকবৰৰ ৰাজদৰবাৰৰ কোন ইতিহাসবিদে তেওঁৰ নীতিবিৰোধী লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Badauni",
+     "as": "বাদাউনী"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    },
+    {
+     "en": "Faizi",
+     "as": "ফৈজী"
+    },
+    {
+     "en": "Birbal",
+     "as": "বীৰবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Badauni, a historian of Akbar's court, wrote critically about his religious policies.",
+    "as": "বাদাউনী, আকবৰৰ ৰাজদৰবাৰৰ এজন ইতিহাসবিদ, তেওঁৰ ধৰ্মীয় নীতিৰ বিষয়ে সমালোচনামূলকভাৱে লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-319",
+   "q": {
+    "en": "Who wrote the 'Tabaqat-i-Akbari'?",
+    "as": "'তবকাত-ই-আকবৰী' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nizamuddin Ahmad",
+     "as": "নিজামুদ্দিন আহমদ"
+    },
+    {
+     "en": "Abul Fazl",
+     "as": "আবুল ফজল"
+    },
+    {
+     "en": "Badauni",
+     "as": "বাদাউনী"
+    },
+    {
+     "en": "Amir Khusrau",
+     "as": "আমীৰ খসৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nizamuddin Ahmad wrote the Tabaqat-i-Akbari, a general history.",
+    "as": "নিজামুদ্দিন আহমদে তবকাত-ই-আকবৰী লিখিছিল, এখন সাধাৰণ ইতিহাস।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-320",
+   "q": {
+    "en": "Which medieval Indian text is a chronicle of Kashmir?",
+    "as": "কোন মধ্যযুগীয় ভাৰতীয় গ্ৰন্থ কাশ্মীৰৰ এটা বৃত্তান্ত?"
+   },
+   "options": [
+    {
+     "en": "The Rajatarangini",
+     "as": "ৰাজতৰংগিনী"
+    },
+    {
+     "en": "The Akbarnama",
+     "as": "আকবৰনামা"
+    },
+    {
+     "en": "The Baburnama",
+     "as": "বাবুৰনামা"
+    },
+    {
+     "en": "The Tuzuk-i-Jahangiri",
+     "as": "তুজুক-ই-জাহাঙ্গীৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Rajatarangini by Kalhana is a chronicle of Kashmir.",
+    "as": "কলহনৰ ৰাজতৰংগিনী কাশ্মীৰৰ এটা বৃত্তান্ত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-321",
+   "q": {
+    "en": "Which medieval Indian text is a chronicle of the Delhi Sultanate?",
+    "as": "কোন মধ্যযুগীয় ভাৰতীয় গ্ৰন্থ দিল্লী সুলতানীৰ এটা বৃত্তান্ত?"
+   },
+   "options": [
+    {
+     "en": "The Tarikh-i-Firoz Shahi",
+     "as": "তাৰিখ-ই-ফিৰোজ শাহী"
+    },
+    {
+     "en": "The Rajatarangini",
+     "as": "ৰাজতৰংগিনী"
+    },
+    {
+     "en": "The Baburnama",
+     "as": "বাবুৰনামা"
+    },
+    {
+     "en": "The Akbarnama",
+     "as": "আকবৰনামা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tarikh-i-Firoz Shahi by Barani is a chronicle of the Delhi Sultanate.",
+    "as": "বৰণীৰ তাৰিখ-ই-ফিৰোজ শাহী দিল্লী সুলতানীৰ এটা বৃত্তান্ত।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-322",
+   "q": {
+    "en": "Which traveller wrote about the Vijayanagara Empire's Hampi?",
+    "as": "কোন পৰিব্ৰাজকে বিজয়নগৰ সাম্ৰাজ্যৰ হাম্পিৰ বিষয়ে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Domingo Paes",
+     "as": "ডমিংগো পায়েছ"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Domingo Paes wrote about Hampi, the capital of the Vijayanagara Empire.",
+    "as": "ডমিংগো পায়েছে হাম্পি, বিজয়নগৰ সাম্ৰাজ্যৰ ৰাজধানী, বিষয়ে লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-323",
+   "q": {
+    "en": "Which traveller visited India during the reign of Muhammad-bin-Tughlaq?",
+    "as": "মুহম্মদ বিন তুঘলকৰ ৰাজত্বকালত কোন পৰিব্ৰাজকে ভাৰত ভ্ৰমণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Megasthenes",
+     "as": "মেগাস্থেনিছ"
+    },
+    {
+     "en": "Fa-Hien",
+     "as": "ফা-হিয়েন"
+    },
+    {
+     "en": "Hiuen Tsang",
+     "as": "হিউৱেন চাং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ibn Battuta visited India during the reign of Muhammad-bin-Tughlaq.",
+    "as": "ইবনে বতুতা মুহম্মদ বিন তুঘলকৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-324",
+   "q": {
+    "en": "Which traveller visited India during the reign of Akbar?",
+    "as": "আকবৰৰ ৰাজত্বকালত কোন পৰিব্ৰাজকে ভাৰত ভ্ৰমণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ralph Fitch",
+     "as": "ৰাল্ফ ফিচ"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ralph Fitch, an English traveller, visited India during Akbar's reign.",
+    "as": "ৰাল্ফ ফিচ, এজন ইংৰাজ পৰিব্ৰাজক, আকবৰৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-325",
+   "q": {
+    "en": "Which medieval Indian coin was issued by Sher Shah Suri?",
+    "as": "শেৰ শাহ সূৰীয়ে কোন মধ্যযুগীয় ভাৰতীয় মুদ্ৰা জাৰি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The silver rupaya",
+     "as": "ৰূপৰ ৰুপয়া"
+    },
+    {
+     "en": "The gold mohur",
+     "as": "সোণৰ মোহৰ"
+    },
+    {
+     "en": "The copper paisa",
+     "as": "তামৰ পইছা"
+    },
+    {
+     "en": "The bronze dam only",
+     "as": "কেৱল ব্ৰঞ্জৰ দাম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sher Shah Suri issued the silver rupaya, the basis of the modern rupee.",
+    "as": "শেৰ শাহ সূৰীয়ে ৰূপৰ ৰুপয়া জাৰি কৰিছিল, আধুনিক টকাৰ আধাৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-326",
+   "q": {
+    "en": "Which Mughal emperor issued the gold 'mohur'?",
+    "as": "কোন মোগল সম্ৰাটে সোণৰ 'মোহৰ' জাৰি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Humayun",
+     "as": "হুমায়ুন"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Akbar issued the gold mohur.",
+    "as": "আকবৰে সোণৰ মোহৰ জাৰি কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-327",
+   "q": {
+    "en": "Which medieval Indian ruler built the city of Hampi?",
+    "as": "কোন মধ্যযুগীয় ভাৰতীয় শাসকে হাম্পি চহৰ নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Vijayanagara rulers",
+     "as": "বিজয়নগৰ শাসকসকল"
+    },
+    {
+     "en": "The Mughals",
+     "as": "মোগল"
+    },
+    {
+     "en": "The Lodis",
+     "as": "লোদী"
+    },
+    {
+     "en": "The Sayyids",
+     "as": "সৈয়দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Vijayanagara rulers built the city of Hampi.",
+    "as": "বিজয়নগৰ শাসকসকলে হাম্পি চহৰ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-328",
+   "q": {
+    "en": "Which medieval Indian temple city is a UNESCO World Heritage Site?",
+    "as": "কোন মধ্যযুগীয় ভাৰতীয় মন্দিৰ চহৰ ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "Hampi",
+     "as": "হাম্পি"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Agra",
+     "as": "আগ্ৰা"
+    },
+    {
+     "en": "Lahore",
+     "as": "লাহোৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hampi is a UNESCO World Heritage Site.",
+    "as": "হাম্পি এটা ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-329",
+   "q": {
+    "en": "Which medieval Indian monument complex is a UNESCO World Heritage Site?",
+    "as": "কোন মধ্যযুগীয় ভাৰতীয় স্মৃতিস্তম্ভ পৰিসৰ ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "The Qutub Minar complex",
+     "as": "কুতুব মিনাৰ পৰিসৰ"
+    },
+    {
+     "en": "The Charminar",
+     "as": "চাৰমিনাৰ"
+    },
+    {
+     "en": "The Gateway of India",
+     "as": "গেটৱে অৱ ইণ্ডিয়া"
+    },
+    {
+     "en": "The Victoria Memorial",
+     "as": "ভিক্টোৰিয়া মেম'ৰিয়েল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Qutub Minar complex is a UNESCO World Heritage Site.",
+    "as": "কুতুব মিনাৰ পৰিসৰ এটা ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-330",
+   "q": {
+    "en": "Which medieval Indian monument is a UNESCO World Heritage Site?",
+    "as": "কোন মধ্যযুগীয় ভাৰতীয় স্মৃতিস্তম্ভ ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "The Taj Mahal",
+     "as": "তাজমহল"
+    },
+    {
+     "en": "The India Gate",
+     "as": "ইণ্ডিয়া গেট"
+    },
+    {
+     "en": "The Howrah Bridge",
+     "as": "হাওৰা দলং"
+    },
+    {
+     "en": "The Marina Beach",
+     "as": "মাৰিনা বিচ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Taj Mahal is a UNESCO World Heritage Site.",
+    "as": "তাজমহল এটা ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-331",
+   "q": {
+    "en": "Which medieval Indian fort is a UNESCO World Heritage Site?",
+    "as": "কোন মধ্যযুগীয় ভাৰতীয় দুৰ্গ ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "The Agra Fort",
+     "as": "আগ্ৰা দুৰ্গ"
+    },
+    {
+     "en": "The Golconda Fort",
+     "as": "গোলকণ্ডা দুৰ্গ"
+    },
+    {
+     "en": "The Mehrangarh Fort",
+     "as": "মেহৰানগড় দুৰ্গ"
+    },
+    {
+     "en": "The Chittor Fort",
+     "as": "চিতোৰ দুৰ্গ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Agra Fort is a UNESCO World Heritage Site.",
+    "as": "আগ্ৰা দুৰ্গ এটা ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-332",
+   "q": {
+    "en": "Who founded the Ahom kingdom in Assam?",
+    "as": "অসমত আহোম ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Sukhrungphaa",
+     "as": "চুখ্ৰুংফা"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sukapha founded the Ahom kingdom in Assam in 1228.",
+    "as": "চুকাফাই ১২২৮ চনত অসমত আহোম ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-333",
+   "q": {
+    "en": "In which year was the Ahom kingdom founded?",
+    "as": "আহোম ৰাজ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1228 CE",
+     "as": "১২২৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1206 CE",
+     "as": "১২০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1336 CE",
+     "as": "১৩৩৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ahom kingdom was founded in 1228 CE by Sukapha.",
+    "as": "চুকাফাই ১২২৮ খ্ৰীষ্টাব্দত আহোম ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-334",
+   "q": {
+    "en": "Which battle marked the defeat of the Mughals by the Ahoms?",
+    "as": "কোন যুদ্ধই মোগলসকলৰ ওপৰত আহোমসকলৰ বিজয় চিহ্নিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Battle of Saraighat",
+     "as": "শৰাইঘাটৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Panipat",
+     "as": "পানিপথৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Plassey",
+     "as": "পলাশীৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Talikota",
+     "as": "তালিকোটাৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Saraighat in 1671 marked the defeat of the Mughals by the Ahoms.",
+    "as": "১৬৭১ চনত শৰাইঘাটৰ যুদ্ধই মোগলসকলৰ ওপৰত আহোমসকলৰ বিজয় চিহ্নিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-335",
+   "q": {
+    "en": "Who led the Ahom forces at the Battle of Saraighat?",
+    "as": "শৰাইঘাটৰ যুদ্ধত আহোম সেনাৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lachit Borphukan led the Ahom forces at the Battle of Saraighat.",
+    "as": "লাচিত বৰফুকনে শৰাইঘাটৰ যুদ্ধত আহোম সেনাৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-336",
+   "q": {
+    "en": "In which year was the Battle of Saraighat fought?",
+    "as": "শৰাইঘাটৰ যুদ্ধ কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1671 CE",
+     "as": "১৬৭১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1526 CE",
+     "as": "১৫২৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1615 CE",
+     "as": "১৬১৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1761 CE",
+     "as": "১৭৬১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Saraighat was fought in 1671 CE.",
+    "as": "শৰাইঘাটৰ যুদ্ধ ১৬৭১ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-337",
+   "q": {
+    "en": "Who was the Mughal commander at the Battle of Saraighat?",
+    "as": "শৰাইঘাটৰ যুদ্ধত মোগল সেনাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ram Singh",
+     "as": "ৰাম সিং"
+    },
+    {
+     "en": "Mir Jumla",
+     "as": "মীৰ জুমলা"
+    },
+    {
+     "en": "Shah Jahan",
+     "as": "শাহজাহান"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ram Singh was the Mughal commander at the Battle of Saraighat.",
+    "as": "ৰাম সিং শৰাইঘাটৰ যুদ্ধত মোগল সেনাপতি আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-338",
+   "q": {
+    "en": "Who was the Ahom general known as 'Lachit Borphukan'?",
+    "as": "'লাচিত বৰফুকন' হিচাপে জনা আহোম সেনাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "The commander who defeated the Mughals at Saraighat",
+     "as": "শৰাইঘাটত মোগলসকলক পৰাস্ত কৰা সেনাপতি"
+    },
+    {
+     "en": "The founder of the Ahom kingdom",
+     "as": "আহোম ৰাজ্যৰ প্ৰতিষ্ঠাপক"
+    },
+    {
+     "en": "A Mughal governor",
+     "as": "এজন মোগল ৰাজ্যপাল"
+    },
+    {
+     "en": "A Sufi saint",
+     "as": "এজন ছুফী সন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lachit Borphukan was the Ahom commander who defeated the Mughals at Saraighat.",
+    "as": "লাচিত বৰফুকন আছিল শৰাইঘাটত মোগলসকলক পৰাস্ত কৰা আহোম সেনাপতি।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-339",
+   "q": {
+    "en": "Which Mughal general invaded Assam in 1662?",
+    "as": "কোন মোগল সেনাপতিয়ে ১৬৬২ চনত অসম আক্ৰমণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mir Jumla",
+     "as": "মীৰ জুমলা"
+    },
+    {
+     "en": "Ram Singh",
+     "as": "ৰাম সিং"
+    },
+    {
+     "en": "Raja Man Singh",
+     "as": "ৰজা মান সিং"
+    },
+    {
+     "en": "Todar Mal",
+     "as": "টোডৰ মল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mir Jumla invaded Assam in 1662.",
+    "as": "মীৰ জুমলাই ১৬৬২ চনত অসম আক্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-340",
+   "q": {
+    "en": "Which Mughal general invaded Assam in 1615?",
+    "as": "কোন মোগল সেনাপতিয়ে ১৬১৫ চনত অসম আক্ৰমণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Raja Man Singh",
+     "as": "ৰজা মান সিং"
+    },
+    {
+     "en": "Mir Jumla",
+     "as": "মীৰ জুমলা"
+    },
+    {
+     "en": "Ram Singh",
+     "as": "ৰাম সিং"
+    },
+    {
+     "en": "Bairam Khan",
+     "as": "বৈৰাম খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raja Man Singh invaded Assam in 1615.",
+    "as": "ৰজা মান সিঙে ১৬১৫ চনত অসম আক্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-341",
+   "q": {
+    "en": "Which Ahom king assumed the title 'Rudra Singha'?",
+    "as": "কোন আহোম ৰজাই 'ৰুদ্ৰ সিংহ' উপাধি গ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sukhrungphaa",
+     "as": "চুখ্ৰুংফা"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Pratap Singha",
+     "as": "প্ৰতাপ সিংহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sukhrungphaa assumed the title Rudra Singha.",
+    "as": "চুখ্ৰুংফাই ৰুদ্ৰ সিংহ উপাধি গ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-342",
+   "q": {
+    "en": "Which Ahom king was known as 'Pratap Singha'?",
+    "as": "কোন আহোম ৰজাক 'প্ৰতাপ সিংহ' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Susenghphaa",
+     "as": "চুচেংফা"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Sukhrungphaa",
+     "as": "চুখ্ৰুংফা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Susenghphaa was known as Pratap Singha.",
+    "as": "চুচেংফাক প্ৰতাপ সিংহ বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-343",
+   "q": {
+    "en": "Which of the following was a feature of the Ahom administration?",
+    "as": "তলৰ কোনটো আহোম প্ৰশাসনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Paik system of labour",
+     "as": "শ্ৰমৰ পাইক ব্যৱস্থা"
+    },
+    {
+     "en": "The Mansabdari system",
+     "as": "মনচবদাৰী ব্যৱস্থা"
+    },
+    {
+     "en": "The Iqta system",
+     "as": "ইকতা ব্যৱস্থা"
+    },
+    {
+     "en": "The Zamindari system",
+     "as": "জমিদাৰী ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Paik system of labour was a feature of Ahom administration.",
+    "as": "শ্ৰমৰ পাইক ব্যৱস্থা আহোম প্ৰশাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-344",
+   "q": {
+    "en": "What was the 'Paik' system of the Ahoms?",
+    "as": "আহোমসকলৰ 'পাইক' ব্যৱস্থা কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A system of compulsory labour service",
+     "as": "বাধ্যতামূলক শ্ৰম সেৱাৰ এটা ব্যৱস্থা"
+    },
+    {
+     "en": "A land revenue system",
+     "as": "এক ভূমি ৰাজহ ব্যৱস্থা"
+    },
+    {
+     "en": "A coinage system",
+     "as": "এক মুদ্ৰা ব্যৱস্থা"
+    },
+    {
+     "en": "A military rank",
+     "as": "এক সামৰিক পদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Paik system was a system of compulsory labour service among the Ahoms.",
+    "as": "পাইক ব্যৱস্থা আহোমসকলৰ মাজত বাধ্যতামূলক শ্ৰম সেৱাৰ এটা ব্যৱস্থা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-345",
+   "q": {
+    "en": "Which Ahom official was known as 'Borphukan'?",
+    "as": "কোন আহোম বিষয়াক 'বৰফুকন' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "A high military and civil officer",
+     "as": "এজন উচ্চ সামৰিক আৰু অসামৰিক বিষয়া"
+    },
+    {
+     "en": "A village headman",
+     "as": "এজন গাঁৱৰ মুৰব্বী"
+    },
+    {
+     "en": "A priest",
+     "as": "এজন পুৰোহিত"
+    },
+    {
+     "en": "A trader",
+     "as": "এজন ব্যৱসায়ী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A Borphukan was a high military and civil officer in the Ahom administration.",
+    "as": "বৰফুকন আহোম প্ৰশাসনত এজন উচ্চ সামৰিক আৰু অসামৰিক বিষয়া আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-346",
+   "q": {
+    "en": "Which religion did the Ahom kings mainly patronise?",
+    "as": "আহোম ৰজাসকলে মূলত কোন ধৰ্মৰ পৃষ্ঠপোষকতা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hinduism (later) and their traditional beliefs",
+     "as": "হিন্দু ধৰ্ম (পিছত) আৰু তেওঁলোকৰ পৰম্পৰাগত বিশ্বাস"
+    },
+    {
+     "en": "Buddhism",
+     "as": "বৌদ্ধ ধৰ্ম"
+    },
+    {
+     "en": "Islam",
+     "as": "ইছলাম"
+    },
+    {
+     "en": "Christianity",
+     "as": "খ্ৰীষ্টান ধৰ্ম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ahom kings patronised their traditional beliefs and later Hinduism.",
+    "as": "আহোম ৰজাসকলে তেওঁলোকৰ পৰম্পৰাগত বিশ্বাস আৰু পিছত হিন্দু ধৰ্মৰ পৃষ্ঠপোষকতা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-347",
+   "q": {
+    "en": "What kind of military organisation did the Ahom kingdom have?",
+    "as": "আহোম ৰাজ্যত কি ধৰণৰ সামৰিক সংগঠন আছিল?"
+   },
+   "options": [
+    {
+     "en": "A strong military organisation",
+     "as": "এক শক্তিশালী সামৰিক সংগঠন"
+    },
+    {
+     "en": "A weak military",
+     "as": "এক দুৰ্বল সামৰিক বাহিনী"
+    },
+    {
+     "en": "No army",
+     "as": "সেনা নাই"
+    },
+    {
+     "en": "A naval-only force",
+     "as": "কেৱল নৌ বাহিনী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ahom kingdom had a strong military organisation.",
+    "as": "আহোম ৰাজ্যত এক শক্তিশালী সামৰিক সংগঠন আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-348",
+   "q": {
+    "en": "Which medieval Indian kingdom was founded by the Gajapati rulers?",
+    "as": "গজপতি শাসকসকলে কোন মধ্যযুগীয় ভাৰতীয় ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Odisha",
+     "as": "ওড়িশা"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gajapati rulers founded the kingdom of Odisha.",
+    "as": "গজপতি শাসকসকলে ওড়িশা ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-349",
+   "q": {
+    "en": "Which medieval Indian kingdom was ruled by the Kakatiya dynasty?",
+    "as": "কাকতীয় বংশই কোন মধ্যযুগীয় ভাৰতীয় ৰাজ্য শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Warangal",
+     "as": "ৱাৰাংগল"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Kakatiya dynasty ruled Warangal in the Deccan.",
+    "as": "কাকতীয় বংশই দাক্ষিণাত্যৰ ৱাৰাংগল শাসন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-medieval-350",
+   "q": {
+    "en": "Which medieval Indian kingdom was ruled by the Hoysala dynasty?",
+    "as": "হোয়সাল বংশই কোন মধ্যযুগীয় ভাৰতীয় ৰাজ্য শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Karnataka",
+     "as": "কৰ্ণাটক"
+    },
+    {
+     "en": "Bengal",
+     "as": "বংগ"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Malwa",
+     "as": "মালৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Hoysala dynasty ruled Karnataka and built famous temples at Belur and Halebidu.",
+    "as": "হোয়সাল বংশই কৰ্ণাটক শাসন কৰিছিল আৰু বেলুৰ আৰু হালেবিডুত বিখ্যাত মন্দিৰ নিৰ্মাণ কৰিছিল।"
+   }
+  }
  ]
 };
