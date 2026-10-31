@@ -348,9 +348,32 @@ const SYLLABUS = {
 const NOTES = require("./adre-grade-3.notes.js");
 const HISTORY_NOTES = require("./adre-grade-3.history-notes.js");
 const ENGLISH_NOTES = require("./adre-grade-3.english-notes.js");
+const EXPAND_NOTES = require("./adre-grade-3.expand-notes.js");
 
 /* History and English topics carry a longer study article than the base NOTES,
    so the dedicated modules win wherever they define a key. */
 const MERGED_NOTES = Object.assign({}, NOTES, HISTORY_NOTES, ENGLISH_NOTES);
+
+/* Topics whose merged article was shorter than 1300 words in either language
+   get the extra sections from EXPAND_NOTES appended, so both languages clear
+   the 1300-word floor. The base entry's own text stays first, unchanged. */
+const mergeList = (a = [], b = []) => [...a, ...b];
+for (const id of Object.keys(EXPAND_NOTES)) {
+  const extra = EXPAND_NOTES[id];
+  const base = MERGED_NOTES[id];
+  if (!base) { MERGED_NOTES[id] = extra; continue; }
+  MERGED_NOTES[id] = {
+    ...base,
+    p: {
+      en: mergeList(base.p && base.p.en, extra.p && extra.p.en),
+      as: mergeList(base.p && base.p.as, extra.p && extra.p.as),
+    },
+    list: {
+      en: mergeList(base.list && base.list.en, extra.list && extra.list.en),
+      as: mergeList(base.list && base.list.as, extra.list && extra.list.as),
+    },
+    faqs: mergeList(base.faqs, extra.faqs),
+  };
+}
 
 module.exports = { EXAM, SYLLABUS, NOTES: MERGED_NOTES };
