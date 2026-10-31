@@ -4,6 +4,39 @@ Static bilingual (English + Assamese) exam-prep site served from the repository
 root by GitHub Pages at https://axomexam.in. There is no build step at deploy
 time: the committed `index.html` files are what GitHub Pages serves.
 
+## Pushing to `main` — never overwrite anyone's work
+
+This repository is shared and other people push to `main` while an agent is
+working. Before every push, confirm the remote tip is an ancestor of `HEAD`;
+if it is not, someone pushed in the meantime and the push must be stopped and
+rebased instead of forced.
+
+Use the helper, which enforces this and refuses unsafe pushes:
+
+```bash
+tools/safe-push.sh origin main
+```
+
+It fetches, checks that `origin/main` is reachable from `HEAD` (a pure
+fast-forward), and only then pushes. If the remote has commits that `HEAD`
+lacks, it prints `BLOCKED` and exits without pushing, so nothing is lost. On
+a block, rebase and re-run:
+
+```bash
+git rebase origin/main        # resolve conflicts, keep both sides' work
+tools/safe-push.sh origin main
+```
+
+Never use `git push --force` or `--force-with-lease` to `main`, and never
+push directly with `git push` without this check. A manual equivalent of the
+guard is:
+
+```bash
+git fetch origin main
+git merge-base --is-ancestor origin/main HEAD || { echo BLOCKED; exit 1; }
+git push origin HEAD:main
+```
+
 ## Architecture
 
 - `js/app.src.js` is the client-side router and renderer. It replaces the
