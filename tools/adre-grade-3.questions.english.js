@@ -15397,6 +15397,17170 @@ module.exports = {
    }
   }
  ],
+ "error-detection": [
+  {
+   "id": "error-detection-001",
+   "q": {
+    "en": "Spot the error in the sentence: He do not like tea.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He do not like tea."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "not",
+     "as": "not"
+    },
+    {
+     "en": "like",
+     "as": "like"
+    },
+    {
+     "en": "do",
+     "as": "do"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'do' is wrong here; it should be 'does'. Third person singular takes 'does'.",
+    "as": "ইয়াত 'do' ভুল; 'does' হোৱা উচিত। তৃতীয় পুৰুষ একবচনে 'does' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-002",
+   "q": {
+    "en": "Find the error in the sentence: She have a beautiful garden.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She have a beautiful garden."
+   },
+   "options": [
+    {
+     "en": "beautiful",
+     "as": "beautiful"
+    },
+    {
+     "en": "garden",
+     "as": "garden"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'have' is wrong here; it should be 'has'. 'She' takes 'has'.",
+    "as": "ইয়াত 'have' ভুল; 'has' হোৱা উচিত। 'She' ৰ সৈতে 'has' লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-003",
+   "q": {
+    "en": "Find the error in the sentence: The boys was playing outside.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The boys was playing outside."
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "playing",
+     "as": "playing"
+    },
+    {
+     "en": "outside",
+     "as": "outside"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'was' is wrong here; it should be 'were'. A plural subject takes 'were'.",
+    "as": "ইয়াত 'was' ভুল; 'were' হোৱা উচিত। বহুবচন কৰ্তাই 'were' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-004",
+   "q": {
+    "en": "Find the error in the sentence: One of my friends are a doctor.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: One of my friends are a doctor."
+   },
+   "options": [
+    {
+     "en": "friends",
+     "as": "friends"
+    },
+    {
+     "en": "doctor",
+     "as": "doctor"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "One",
+     "as": "One"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'One of' takes a singular verb.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'One of' য়ে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-005",
+   "q": {
+    "en": "Find the error in the sentence: Each of the students have a book.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Each of the students have a book."
+   },
+   "options": [
+    {
+     "en": "book",
+     "as": "book"
+    },
+    {
+     "en": "Each",
+     "as": "Each"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'have' is wrong here; it should be 'has'. 'Each' takes a singular verb.",
+    "as": "ইয়াত 'have' ভুল; 'has' হোৱা উচিত। 'Each' য়ে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-006",
+   "q": {
+    "en": "Find the error in the sentence: Neither of them have come.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Neither of them have come."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "them",
+     "as": "them"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "come",
+     "as": "come"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'have' is wrong here; it should be 'has'. 'Neither of' takes a singular verb.",
+    "as": "ইয়াত 'have' ভুল; 'has' হোৱা উচিত। 'Neither of' য়ে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-007",
+   "q": {
+    "en": "Find the error in the sentence: The news are very shocking.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The news are very shocking."
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "very",
+     "as": "very"
+    },
+    {
+     "en": "shocking",
+     "as": "shocking"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'News' is singular.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'News' একবচন।"
+   }
+  },
+  {
+   "id": "error-detection-008",
+   "q": {
+    "en": "Spot the error in the sentence: Mathematics are my favourite subject.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Mathematics are my favourite subject."
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "subject",
+     "as": "subject"
+    },
+    {
+     "en": "Mathematics",
+     "as": "Mathematics"
+    },
+    {
+     "en": "my",
+     "as": "my"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'Mathematics' is treated as singular.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'Mathematics' একবচন হিচাপে গণ্য হয়।"
+   }
+  },
+  {
+   "id": "error-detection-009",
+   "q": {
+    "en": "Find the error in the sentence: Ten kilometres are a long distance.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Ten kilometres are a long distance."
+   },
+   "options": [
+    {
+     "en": "Ten",
+     "as": "Ten"
+    },
+    {
+     "en": "kilometres",
+     "as": "kilometres"
+    },
+    {
+     "en": "long",
+     "as": "long"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. A distance is treated as a single unit.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। দূৰত্বক এটা একক হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "error-detection-010",
+   "q": {
+    "en": "Find the error in the sentence: The cattle is grazing in the field.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The cattle is grazing in the field."
+   },
+   "options": [
+    {
+     "en": "field",
+     "as": "field"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "cattle",
+     "as": "cattle"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'is' is wrong here; it should be 'are'. 'Cattle' is a plural noun.",
+    "as": "ইয়াত 'is' ভুল; 'are' হোৱা উচিত। 'Cattle' এটা বহুবচন বিশেষ্য।"
+   }
+  },
+  {
+   "id": "error-detection-011",
+   "q": {
+    "en": "Find the error in the sentence: My spectacles is broken.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: My spectacles is broken."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "spectacles",
+     "as": "spectacles"
+    },
+    {
+     "en": "broken",
+     "as": "broken"
+    },
+    {
+     "en": "My",
+     "as": "My"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'is' is wrong here; it should be 'are'. 'Spectacles' is plural.",
+    "as": "ইয়াত 'is' ভুল; 'are' হোৱা উচিত। 'Spectacles' বহুবচন।"
+   }
+  },
+  {
+   "id": "error-detection-012",
+   "q": {
+    "en": "Find the error in the sentence: Bread and butter are my breakfast.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Bread and butter are my breakfast."
+   },
+   "options": [
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "butter",
+     "as": "butter"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "my",
+     "as": "my"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. A single idea joined by 'and' takes a singular verb.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'and' ৰে যুক্ত এটা ধাৰণাই একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-013",
+   "q": {
+    "en": "Find the error in the sentence: Many a man have tried and failed.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Many a man have tried and failed."
+   },
+   "options": [
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "tried",
+     "as": "tried"
+    },
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "failed",
+     "as": "failed"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'have' is wrong here; it should be 'has'. 'Many a' takes a singular verb.",
+    "as": "ইয়াত 'have' ভুল; 'has' হোৱা উচিত। 'Many a' য়ে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-014",
+   "q": {
+    "en": "Find the error in the sentence: Physics are a difficult subject.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Physics are a difficult subject."
+   },
+   "options": [
+    {
+     "en": "difficult",
+     "as": "difficult"
+    },
+    {
+     "en": "subject",
+     "as": "subject"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "Physics",
+     "as": "Physics"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'Physics' is singular.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'Physics' একবচন।"
+   }
+  },
+  {
+   "id": "error-detection-015",
+   "q": {
+    "en": "Find the error in the sentence: A number of students is absent today.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: A number of students is absent today."
+   },
+   "options": [
+    {
+     "en": "today",
+     "as": "today"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "number",
+     "as": "number"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'is' is wrong here; it should be 'are'. 'A number of' takes a plural verb.",
+    "as": "ইয়াত 'is' ভুল; 'are' হোৱা উচিত। 'A number of' ৱে বহুবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-016",
+   "q": {
+    "en": "Find the error in the sentence: The number of students are small.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The number of students are small."
+   },
+   "options": [
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "number",
+     "as": "number"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'The number of' takes a singular verb.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'The number of' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-017",
+   "q": {
+    "en": "Find the error in the sentence: Either of the two are acceptable.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Either of the two are acceptable."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "two",
+     "as": "two"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'Either of' takes a singular verb.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'Either of' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-018",
+   "q": {
+    "en": "Find the error in the sentence: He are my best friend.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He are my best friend."
+   },
+   "options": [
+    {
+     "en": "my",
+     "as": "my"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "best",
+     "as": "best"
+    },
+    {
+     "en": "friend",
+     "as": "friend"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'He' takes 'is'.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'He' ৰ সৈতে 'is' লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-019",
+   "q": {
+    "en": "Find the error in the sentence: They was late for the meeting.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: They was late for the meeting."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "meeting",
+     "as": "meeting"
+    },
+    {
+     "en": "They",
+     "as": "They"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'was' is wrong here; it should be 'were'. 'They' takes 'were'.",
+    "as": "ইয়াত 'was' ভুল; 'were' হোৱা উচিত। 'They' ৰ সৈতে 'were' লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-020",
+   "q": {
+    "en": "Spot the error in the sentence: The committee have taken its decision.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The committee have taken its decision."
+   },
+   "options": [
+    {
+     "en": "decision",
+     "as": "decision"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "committee",
+     "as": "committee"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'have' is wrong here; it should be 'has'. A collective noun acting as one body takes a singular verb.",
+    "as": "ইয়াত 'have' ভুল; 'has' হোৱা উচিত। এক শৰীৰ হিচাপে কাম কৰা সমষ্টিবাচক বিশেষ্যই একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-021",
+   "q": {
+    "en": "Find the error in the sentence: He go to school every day.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He go to school every day."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "go",
+     "as": "go"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "school",
+     "as": "school"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'go' is wrong here; it should be 'goes'. Present simple third person singular adds '-s'.",
+    "as": "ইয়াত 'go' ভুল; 'goes' হোৱা উচিত। Present simple তৃতীয় পুৰুষ একবচনে '-s' যোগ কৰে।"
+   }
+  },
+  {
+   "id": "error-detection-022",
+   "q": {
+    "en": "Find the error in the sentence: She has went to Delhi.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She has went to Delhi."
+   },
+   "options": [
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "Delhi",
+     "as": "Delhi"
+    },
+    {
+     "en": "went",
+     "as": "went"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'went' is wrong here; it should be 'gone'. The present perfect uses the past participle.",
+    "as": "ইয়াত 'went' ভুল; 'gone' হোৱা উচিত। Present perfect এ past participle ব্যৱহাৰ কৰে।"
+   }
+  },
+  {
+   "id": "error-detection-023",
+   "q": {
+    "en": "Find the error in the sentence: I have saw that movie.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have saw that movie."
+   },
+   "options": [
+    {
+     "en": "saw",
+     "as": "saw"
+    },
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "movie",
+     "as": "movie"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'saw' is wrong here; it should be 'seen'. The present perfect uses the past participle.",
+    "as": "ইয়াত 'saw' ভুল; 'seen' হোৱা উচিত। Present perfect এ past participle ব্যৱহাৰ কৰে।"
+   }
+  },
+  {
+   "id": "error-detection-024",
+   "q": {
+    "en": "Find the error in the sentence: He did not came yesterday.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He did not came yesterday."
+   },
+   "options": [
+    {
+     "en": "yesterday",
+     "as": "yesterday"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "did",
+     "as": "did"
+    },
+    {
+     "en": "came",
+     "as": "came"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'came' is wrong here; it should be 'come'. After 'did not' the base form is used.",
+    "as": "ইয়াত 'came' ভুল; 'come' হোৱা উচিত। 'did not' ৰ পিছত base form ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-025",
+   "q": {
+    "en": "Spot the error in the sentence: She is knowing the answer.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is knowing the answer."
+   },
+   "options": [
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "knowing",
+     "as": "knowing"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'knowing' is wrong here; it should be 'knows'. Stative verbs are not used in continuous tenses.",
+    "as": "ইয়াত 'knowing' ভুল; 'knows' হোৱা উচিত। Stative verb continuous tense ত ব্যৱহাৰ নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-026",
+   "q": {
+    "en": "Spot the error in the sentence: I am understanding your problem.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am understanding your problem."
+   },
+   "options": [
+    {
+     "en": "understanding",
+     "as": "understanding"
+    },
+    {
+     "en": "your",
+     "as": "your"
+    },
+    {
+     "en": "problem",
+     "as": "problem"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'understanding' is wrong here; it should be 'understand'. Stative verbs are not used in continuous tenses.",
+    "as": "ইয়াত 'understanding' ভুল; 'understand' হোৱা উচিত। Stative verb continuous tense ত ব্যৱহাৰ নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-027",
+   "q": {
+    "en": "Find the error in the sentence: He is having two cars.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is having two cars."
+   },
+   "options": [
+    {
+     "en": "two",
+     "as": "two"
+    },
+    {
+     "en": "cars",
+     "as": "cars"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "having",
+     "as": "having"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'having' is wrong here; it should be 'has'. 'Have' for possession is not used in the continuous form.",
+    "as": "ইয়াত 'having' ভুল; 'has' হোৱা উচিত। অধিকাৰৰ অৰ্থত 'have' continuous ৰূপত ব্যৱহাৰ নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-028",
+   "q": {
+    "en": "Find the error in the sentence: When I reached, he has already left.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: When I reached, he has already left."
+   },
+   "options": [
+    {
+     "en": "he",
+     "as": "he"
+    },
+    {
+     "en": "already",
+     "as": "already"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "left",
+     "as": "left"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'has' is wrong here; it should be 'had'. The past perfect is used for the earlier action.",
+    "as": "ইয়াত 'has' ভুল; 'had' হোৱা উচিত। আগৰ কামৰ বাবে past perfect ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-029",
+   "q": {
+    "en": "Find the error in the sentence: The train has left before I arrived.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The train has left before I arrived."
+   },
+   "options": [
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "before",
+     "as": "before"
+    },
+    {
+     "en": "arrived",
+     "as": "arrived"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'has' is wrong here; it should be 'had'. The past perfect is used for the earlier action.",
+    "as": "ইয়াত 'has' ভুল; 'had' হোৱা উচিত। আগৰ কামৰ বাবে past perfect ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-030",
+   "q": {
+    "en": "Find the error in the sentence: If he will come, I shall meet him.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: If he will come, I shall meet him."
+   },
+   "options": [
+    {
+     "en": "him",
+     "as": "him"
+    },
+    {
+     "en": "will",
+     "as": "will"
+    },
+    {
+     "en": "If",
+     "as": "If"
+    },
+    {
+     "en": "he",
+     "as": "he"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'will' is wrong here; it should be 'comes'. An 'if' clause takes the present tense for a future event.",
+    "as": "ইয়াত 'will' ভুল; 'comes' হোৱা উচিত। 'if' উপবাক্যই ভৱিষ্যতৰ ঘটনাৰ বাবে present tense লয়।"
+   }
+  },
+  {
+   "id": "error-detection-031",
+   "q": {
+    "en": "Find the error in the sentence: I am living here since 2010.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am living here since 2010."
+   },
+   "options": [
+    {
+     "en": "am living",
+     "as": "am living"
+    },
+    {
+     "en": "here",
+     "as": "here"
+    },
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'am living' is wrong here; it should be 'have been living'. 'Since' needs the present perfect continuous.",
+    "as": "ইয়াত 'am living' ভুল; 'have been living' হোৱা উচিত। 'Since' ৰ সৈতে present perfect continuous লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-032",
+   "q": {
+    "en": "Find the error in the sentence: He is working here for five years.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is working here for five years."
+   },
+   "options": [
+    {
+     "en": "here",
+     "as": "here"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "is working",
+     "as": "is working"
+    },
+    {
+     "en": "five",
+     "as": "five"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'is working' is wrong here; it should be 'has been working'. 'For' with a duration needs the present perfect continuous.",
+    "as": "ইয়াত 'is working' ভুল; 'has been working' হোৱা উচিত। সময়কালৰ সৈতে 'for' ৱে present perfect continuous লয়।"
+   }
+  },
+  {
+   "id": "error-detection-033",
+   "q": {
+    "en": "Find the error in the sentence: She write a letter yesterday.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She write a letter yesterday."
+   },
+   "options": [
+    {
+     "en": "write",
+     "as": "write"
+    },
+    {
+     "en": "yesterday",
+     "as": "yesterday"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "letter",
+     "as": "letter"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'write' is wrong here; it should be 'wrote'. A finished past action takes the past simple.",
+    "as": "ইয়াত 'write' ভুল; 'wrote' হোৱা উচিত। সমাপ্ত ভূতকালীন কামই past simple লয়।"
+   }
+  },
+  {
+   "id": "error-detection-034",
+   "q": {
+    "en": "Find the error in the sentence: They are knowing each other well.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: They are knowing each other well."
+   },
+   "options": [
+    {
+     "en": "other",
+     "as": "other"
+    },
+    {
+     "en": "well",
+     "as": "well"
+    },
+    {
+     "en": "They",
+     "as": "They"
+    },
+    {
+     "en": "knowing",
+     "as": "knowing"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'knowing' is wrong here; it should be 'know'. Stative verbs are not used in continuous tenses.",
+    "as": "ইয়াত 'knowing' ভুল; 'know' হোৱা উচিত। Stative verb continuous tense ত ব্যৱহাৰ নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-035",
+   "q": {
+    "en": "Find the error in the sentence: I have been knowing him for years.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have been knowing him for years."
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "years",
+     "as": "years"
+    },
+    {
+     "en": "been knowing",
+     "as": "been knowing"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'been knowing' is wrong here; it should be 'known'. 'Know' is a stative verb and takes no continuous form.",
+    "as": "ইয়াত 'been knowing' ভুল; 'known' হোৱা উচিত। 'Know' এটা stative verb আৰু continuous ৰূপ লয় না।"
+   }
+  },
+  {
+   "id": "error-detection-036",
+   "q": {
+    "en": "Spot the error in the sentence: He is senior than me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is senior than me."
+   },
+   "options": [
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'to'. Latin comparatives take 'to', not 'than'.",
+    "as": "ইয়াত 'than' ভুল; 'to' হোৱা উচিত। Latin তুলনাত্মক ৰূপই 'than' নহয় 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-037",
+   "q": {
+    "en": "Find the error in the sentence: She is junior than her sister.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is junior than her sister."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "junior",
+     "as": "junior"
+    },
+    {
+     "en": "her",
+     "as": "her"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'to'. 'Junior' takes 'to'.",
+    "as": "ইয়াত 'than' ভুল; 'to' হোৱা উচিত। 'Junior' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-038",
+   "q": {
+    "en": "Find the error in the sentence: He is superior than me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is superior than me."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "superior",
+     "as": "superior"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'to'. 'Superior' takes 'to'.",
+    "as": "ইয়াত 'than' ভুল; 'to' হোৱা উচিত। 'Superior' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-039",
+   "q": {
+    "en": "Spot the error in the sentence: He is afraid from dogs.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is afraid from dogs."
+   },
+   "options": [
+    {
+     "en": "afraid",
+     "as": "afraid"
+    },
+    {
+     "en": "dogs",
+     "as": "dogs"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'from' is wrong here; it should be 'of'. 'Afraid' takes 'of'.",
+    "as": "ইয়াত 'from' ভুল; 'of' হোৱা উচিত। 'Afraid' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-040",
+   "q": {
+    "en": "Spot the error in the sentence: She is married with a doctor.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is married with a doctor."
+   },
+   "options": [
+    {
+     "en": "doctor",
+     "as": "doctor"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'with' is wrong here; it should be 'to'. 'Married' takes 'to'.",
+    "as": "ইয়াত 'with' ভুল; 'to' হোৱা উচিত। 'Married' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-041",
+   "q": {
+    "en": "Find the error in the sentence: He apologised of his mistake.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He apologised of his mistake."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "apologised",
+     "as": "apologised"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'for'. 'Apologise' takes 'for'.",
+    "as": "ইয়াত 'of' ভুল; 'for' হোৱা উচিত। 'Apologise' ৱে 'for' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-042",
+   "q": {
+    "en": "Find the error in the sentence: I am angry on you.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am angry on you."
+   },
+   "options": [
+    {
+     "en": "you",
+     "as": "you"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "angry",
+     "as": "angry"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'on' is wrong here; it should be 'with'. 'Angry with' is used for a person.",
+    "as": "ইয়াত 'on' ভুল; 'with' হোৱা উচিত। মানুহৰ ক্ষেত্ৰত 'angry with' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-043",
+   "q": {
+    "en": "Find the error in the sentence: He insisted in going there.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He insisted in going there."
+   },
+   "options": [
+    {
+     "en": "going",
+     "as": "going"
+    },
+    {
+     "en": "there",
+     "as": "there"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'in' is wrong here; it should be 'on'. 'Insist' takes 'on'.",
+    "as": "ইয়াত 'in' ভুল; 'on' হোৱা উচিত। 'Insist' ৱে 'on' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-044",
+   "q": {
+    "en": "Find the error in the sentence: She depends of her parents.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She depends of her parents."
+   },
+   "options": [
+    {
+     "en": "parents",
+     "as": "parents"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "depends",
+     "as": "depends"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'on'. 'Depend' takes 'on'.",
+    "as": "ইয়াত 'of' ভুল; 'on' হোৱা উচিত। 'Depend' ৱে 'on' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-045",
+   "q": {
+    "en": "Find the error in the sentence: He died by malaria.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He died by malaria."
+   },
+   "options": [
+    {
+     "en": "malaria",
+     "as": "malaria"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "died",
+     "as": "died"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'by' is wrong here; it should be 'of'. 'Die of' is used for a disease.",
+    "as": "ইয়াত 'by' ভুল; 'of' হোৱা উচিত। ৰোগৰ ক্ষেত্ৰত 'die of' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-046",
+   "q": {
+    "en": "Find the error in the sentence: He congratulated me for my success.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He congratulated me for my success."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "congratulated",
+     "as": "congratulated"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'on'. 'Congratulate' takes 'on'.",
+    "as": "ইয়াত 'for' ভুল; 'on' হোৱা উচিত। 'Congratulate' ৱে 'on' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-047",
+   "q": {
+    "en": "Find the error in the sentence: He was accused for theft.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He was accused for theft."
+   },
+   "options": [
+    {
+     "en": "accused",
+     "as": "accused"
+    },
+    {
+     "en": "theft",
+     "as": "theft"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'of'. 'Accused' takes 'of'.",
+    "as": "ইয়াত 'for' ভুল; 'of' হোৱা উচিত। 'Accused' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-048",
+   "q": {
+    "en": "Find the error in the sentence: She is jealous with her friend.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is jealous with her friend."
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "jealous",
+     "as": "jealous"
+    },
+    {
+     "en": "her",
+     "as": "her"
+    },
+    {
+     "en": "friend",
+     "as": "friend"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'with' is wrong here; it should be 'of'. 'Jealous' takes 'of'.",
+    "as": "ইয়াত 'with' ভুল; 'of' হোৱা উচিত। 'Jealous' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-049",
+   "q": {
+    "en": "Find the error in the sentence: He was deprived from his rights.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He was deprived from his rights."
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "rights",
+     "as": "rights"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'from' is wrong here; it should be 'of'. 'Deprived' takes 'of'.",
+    "as": "ইয়াত 'from' ভুল; 'of' হোৱা উচিত। 'Deprived' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-050",
+   "q": {
+    "en": "Find the error in the sentence: He is addicted with gambling.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is addicted with gambling."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "addicted",
+     "as": "addicted"
+    },
+    {
+     "en": "gambling",
+     "as": "gambling"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'with' is wrong here; it should be 'to'. 'Addicted' takes 'to'.",
+    "as": "ইয়াত 'with' ভুল; 'to' হোৱা উচিত। 'Addicted' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-051",
+   "q": {
+    "en": "Find the error in the sentence: The train arrived in the station.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The train arrived in the station."
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "arrived",
+     "as": "arrived"
+    },
+    {
+     "en": "station",
+     "as": "station"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'in' is wrong here; it should be 'at'. 'Arrive at' is used for a small place.",
+    "as": "ইয়াত 'in' ভুল; 'at' হোৱা উচিত। সৰু ঠাইৰ বাবে 'arrive at' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-052",
+   "q": {
+    "en": "Find the error in the sentence: He is blind of one eye.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is blind of one eye."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "blind",
+     "as": "blind"
+    },
+    {
+     "en": "one",
+     "as": "one"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'in'. 'Blind in' is used for an organ.",
+    "as": "ইয়াত 'of' ভুল; 'in' হোৱা উচিত। অংগৰ ক্ষেত্ৰত 'blind in' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-053",
+   "q": {
+    "en": "Find the error in the sentence: She is good in mathematics.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is good in mathematics."
+   },
+   "options": [
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "good",
+     "as": "good"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'in' is wrong here; it should be 'at'. 'Good at' is used for a skill.",
+    "as": "ইয়াত 'in' ভুল; 'at' হোৱা উচিত। দক্ষতাৰ ক্ষেত্ৰত 'good at' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-054",
+   "q": {
+    "en": "Find the error in the sentence: He is popular between his students.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is popular between his students."
+   },
+   "options": [
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "students",
+     "as": "students"
+    },
+    {
+     "en": "between",
+     "as": "between"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'between' is wrong here; it should be 'among'. 'Among' is used for more than two.",
+    "as": "ইয়াত 'between' ভুল; 'among' হোৱা উচিত। দুইতকৈ বেছিৰ ক্ষেত্ৰত 'among' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-055",
+   "q": {
+    "en": "Find the error in the sentence: Divide the money among the two brothers.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Divide the money among the two brothers."
+   },
+   "options": [
+    {
+     "en": "brothers",
+     "as": "brothers"
+    },
+    {
+     "en": "Divide",
+     "as": "Divide"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "among",
+     "as": "among"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'among' is wrong here; it should be 'between'. 'Between' is used for two.",
+    "as": "ইয়াত 'among' ভুল; 'between' হোৱা উচিত। দুইৰ ক্ষেত্ৰত 'between' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-056",
+   "q": {
+    "en": "Find the error in the sentence: He is not eligible to this post.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is not eligible to this post."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "not",
+     "as": "not"
+    },
+    {
+     "en": "eligible",
+     "as": "eligible"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'for'. 'Eligible' takes 'for'.",
+    "as": "ইয়াত 'to' ভুল; 'for' হোৱা উচিত। 'Eligible' ৱে 'for' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-057",
+   "q": {
+    "en": "Find the error in the sentence: The patient is now free of pain.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The patient is now free of pain."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "now",
+     "as": "now"
+    },
+    {
+     "en": "free",
+     "as": "free"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'from'. 'Free from' is used for a condition.",
+    "as": "ইয়াত 'of' ভুল; 'from' হোৱা উচিত। অৱস্থাৰ ক্ষেত্ৰত 'free from' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-058",
+   "q": {
+    "en": "Find the error in the sentence: He was punished of his misconduct.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He was punished of his misconduct."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "punished",
+     "as": "punished"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "misconduct",
+     "as": "misconduct"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'for'. 'Punished' takes 'for'.",
+    "as": "ইয়াত 'of' ভুল; 'for' হোৱা উচিত। 'Punished' ৱে 'for' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-059",
+   "q": {
+    "en": "Find the error in the sentence: I have been waiting since two hours.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have been waiting since two hours."
+   },
+   "options": [
+    {
+     "en": "two",
+     "as": "two"
+    },
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "hours",
+     "as": "hours"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'since' is wrong here; it should be 'for'. 'For' is used with a period of time.",
+    "as": "ইয়াত 'since' ভুল; 'for' হোৱা উচিত। সময়কালৰ ক্ষেত্ৰত 'for' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-060",
+   "q": {
+    "en": "Find the error in the sentence: He has lived here for 2015.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has lived here for 2015."
+   },
+   "options": [
+    {
+     "en": "here",
+     "as": "here"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'since'. 'Since' is used with a point of time.",
+    "as": "ইয়াত 'for' ভুল; 'since' হোৱা উচিত। নিৰ্দিষ্ট সময়ৰ বিন্দুৰ ক্ষেত্ৰত 'since' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-061",
+   "q": {
+    "en": "Find the error in the sentence: He is a honest man.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is a honest man."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "honest",
+     "as": "honest"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'a' is wrong here; it should be 'an'. 'Honest' begins with a vowel sound, so 'an' is used.",
+    "as": "ইয়াত 'a' ভুল; 'an' হোৱা উচিত। 'Honest' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-062",
+   "q": {
+    "en": "Find the error in the sentence: She is a M.A. in English.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is a M.A. in English."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "English",
+     "as": "English"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'a' is wrong here; it should be 'an'. 'M' is pronounced with a vowel sound here, so 'an' is used.",
+    "as": "ইয়াত 'a' ভুল; 'an' হোৱা উচিত। ইয়াত 'M' স্বৰধ্বনিৰে উচ্চাৰিত হয়, গতিকে 'an' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-063",
+   "q": {
+    "en": "Find the error in the sentence: He bought a umbrella.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He bought a umbrella."
+   },
+   "options": [
+    {
+     "en": "umbrella",
+     "as": "umbrella"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "bought",
+     "as": "bought"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'a' is wrong here; it should be 'an'. 'Umbrella' begins with a vowel sound.",
+    "as": "ইয়াত 'a' ভুল; 'an' হোৱা উচিত। 'Umbrella' স্বৰধ্বনিৰে আৰম্ভ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-064",
+   "q": {
+    "en": "Spot the error in the sentence: He is an European.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is an European."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "European",
+     "as": "European"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'an' is wrong here; it should be 'a'. 'European' begins with a consonant sound.",
+    "as": "ইয়াত 'an' ভুল; 'a' হোৱা উচিত। 'European' ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-065",
+   "q": {
+    "en": "Find the error in the sentence: She is an university student.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is an university student."
+   },
+   "options": [
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "university",
+     "as": "university"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'an' is wrong here; it should be 'a'. 'University' begins with a consonant sound.",
+    "as": "ইয়াত 'an' ভুল; 'a' হোৱা উচিত। 'University' ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-066",
+   "q": {
+    "en": "Find the error in the sentence: Ganga is a holy river.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Ganga is a holy river."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "holy",
+     "as": "holy"
+    },
+    {
+     "en": "river",
+     "as": "river"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'a' is wrong here; it should be 'The'. Names of rivers take the definite article.",
+    "as": "ইয়াত 'a' ভুল; 'The' হোৱা উচিত। নদীৰ নামে definite article লয়।"
+   }
+  },
+  {
+   "id": "error-detection-067",
+   "q": {
+    "en": "Find the error in the sentence: He is best student in the class.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is best student in the class."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "student",
+     "as": "student"
+    },
+    {
+     "en": "best",
+     "as": "best"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'best' is wrong here; it should be 'the best'. The superlative takes 'the'.",
+    "as": "ইয়াত 'best' ভুল; 'the best' হোৱা উচিত। Superlative ৱে 'the' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-068",
+   "q": {
+    "en": "Find the error in the sentence: It took me a hour to finish.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: It took me a hour to finish."
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "hour",
+     "as": "hour"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'a' is wrong here; it should be 'an'. 'Hour' begins with a vowel sound.",
+    "as": "ইয়াত 'a' ভুল; 'an' হোৱা উচিত। 'Hour' স্বৰধ্বনিৰে আৰম্ভ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-069",
+   "q": {
+    "en": "Find the error in the sentence: This is mine book.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is mine book."
+   },
+   "options": [
+    {
+     "en": "book",
+     "as": "book"
+    },
+    {
+     "en": "This",
+     "as": "This"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "mine",
+     "as": "mine"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'mine' is wrong here; it should be 'my'. 'Mine' cannot be used before a noun.",
+    "as": "ইয়াত 'mine' ভুল; 'my' হোৱা উচিত। বিশেষ্যৰ আগত 'mine' ব্যৱহাৰ নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-070",
+   "q": {
+    "en": "Find the error in the sentence: Me and he went to the market.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Me and he went to the market."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "Me",
+     "as": "Me"
+    },
+    {
+     "en": "market",
+     "as": "market"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'Me' is wrong here; it should be 'I'. The subject pronoun 'I' is used as the subject.",
+    "as": "ইয়াত 'Me' ভুল; 'I' হোৱা উচিত। কৰ্তা হিচাপে 'I' কৰ্তৃবাচক সৰ্বনাম ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-071",
+   "q": {
+    "en": "Find the error in the sentence: Between you and I, he is wrong.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Between you and I, he is wrong."
+   },
+   "options": [
+    {
+     "en": "I",
+     "as": "I"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "wrong",
+     "as": "wrong"
+    },
+    {
+     "en": "Between",
+     "as": "Between"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'I' is wrong here; it should be 'me'. A preposition takes the objective case.",
+    "as": "ইয়াত 'I' ভুল; 'me' হোৱা উচিত। পূৰ্বসৰ্গই objective case লয়।"
+   }
+  },
+  {
+   "id": "error-detection-072",
+   "q": {
+    "en": "Find the error in the sentence: Each of the boys did their work.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Each of the boys did their work."
+   },
+   "options": [
+    {
+     "en": "work",
+     "as": "work"
+    },
+    {
+     "en": "Each",
+     "as": "Each"
+    },
+    {
+     "en": "their",
+     "as": "their"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'their' is wrong here; it should be 'his'. 'Each' takes a singular possessive.",
+    "as": "ইয়াত 'their' ভুল; 'his' হোৱা উচিত। 'Each' ৱে একবচন possessive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-073",
+   "q": {
+    "en": "Find the error in the sentence: The dog wagged it's tail.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The dog wagged it's tail."
+   },
+   "options": [
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "dog",
+     "as": "dog"
+    },
+    {
+     "en": "wagged",
+     "as": "wagged"
+    },
+    {
+     "en": "it's",
+     "as": "it's"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'it's' is wrong here; it should be 'its'. 'It's' means 'it is'; the possessive is 'its'.",
+    "as": "ইয়াত 'it's' ভুল; 'its' হোৱা উচিত। 'It's' মানে 'it is'; possessive হৈছে 'its'।"
+   }
+  },
+  {
+   "id": "error-detection-074",
+   "q": {
+    "en": "Find the error in the sentence: Himself did the work.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Himself did the work."
+   },
+   "options": [
+    {
+     "en": "Himself",
+     "as": "Himself"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "work",
+     "as": "work"
+    },
+    {
+     "en": "did",
+     "as": "did"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'Himself' is wrong here; it should be 'He'. A reflexive pronoun cannot be the subject.",
+    "as": "ইয়াত 'Himself' ভুল; 'He' হোৱা উচিত। Reflexive pronoun কৰ্তা হ'ব নোৱাৰে।"
+   }
+  },
+  {
+   "id": "error-detection-075",
+   "q": {
+    "en": "Find the error in the sentence: He is more taller than his brother.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is more taller than his brother."
+   },
+   "options": [
+    {
+     "en": "brother",
+     "as": "brother"
+    },
+    {
+     "en": "more",
+     "as": "more"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'more' is wrong here; it should be 'taller'. A double comparative is wrong.",
+    "as": "ইয়াত 'more' ভুল; 'taller' হোৱা উচিত। দ্বিগুণ comparative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-076",
+   "q": {
+    "en": "Spot the error in the sentence: This is the most best book.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the most best book."
+   },
+   "options": [
+    {
+     "en": "book",
+     "as": "book"
+    },
+    {
+     "en": "This",
+     "as": "This"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "most",
+     "as": "most"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'most' is wrong here; it should be 'best'. A double superlative is wrong.",
+    "as": "ইয়াত 'most' ভুল; 'best' হোৱা উচিত। দ্বিগুণ superlative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-077",
+   "q": {
+    "en": "Spot the error in the sentence: He works very hardly.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He works very hardly."
+   },
+   "options": [
+    {
+     "en": "works",
+     "as": "works"
+    },
+    {
+     "en": "very",
+     "as": "very"
+    },
+    {
+     "en": "hardly",
+     "as": "hardly"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'hardly' is wrong here; it should be 'hard'. 'Hardly' means scarcely; 'hard' means with effort.",
+    "as": "ইয়াত 'hardly' ভুল; 'hard' হোৱা উচিত। 'Hardly' মানে কমকৈ; 'hard' মানে পৰিশ্ৰমেৰে।"
+   }
+  },
+  {
+   "id": "error-detection-078",
+   "q": {
+    "en": "Spot the error in the sentence: He is the eldest of the two brothers.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the eldest of the two brothers."
+   },
+   "options": [
+    {
+     "en": "brothers",
+     "as": "brothers"
+    },
+    {
+     "en": "eldest",
+     "as": "eldest"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'eldest' is wrong here; it should be 'elder'. 'Elder' is used for two people.",
+    "as": "ইয়াত 'eldest' ভুল; 'elder' হোৱা উচিত। দুজনৰ ক্ষেত্ৰত 'elder' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-079",
+   "q": {
+    "en": "Find the error in the sentence: She has less friends than I.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She has less friends than I."
+   },
+   "options": [
+    {
+     "en": "less",
+     "as": "less"
+    },
+    {
+     "en": "friends",
+     "as": "friends"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'less' is wrong here; it should be 'fewer'. 'Fewer' is used with countable nouns.",
+    "as": "ইয়াত 'less' ভুল; 'fewer' হোৱা উচিত। গণনাযোগ্য বিশেষ্যৰ সৈতে 'fewer' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-080",
+   "q": {
+    "en": "Find the error in the sentence: There is fewer water in the pot.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: There is fewer water in the pot."
+   },
+   "options": [
+    {
+     "en": "fewer",
+     "as": "fewer"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "water",
+     "as": "water"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'fewer' is wrong here; it should be 'less'. 'Less' is used with uncountable nouns.",
+    "as": "ইয়াত 'fewer' ভুল; 'less' হোৱা উচিত। অগণনীয় বিশেষ্যৰ সৈতে 'less' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-081",
+   "q": {
+    "en": "Find the error in the sentence: He ran fastly to catch the train.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He ran fastly to catch the train."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "fastly",
+     "as": "fastly"
+    },
+    {
+     "en": "catch",
+     "as": "catch"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'fastly' is wrong here; it should be 'fast'. 'Fast' is both an adjective and an adverb.",
+    "as": "ইয়াত 'fastly' ভুল; 'fast' হোৱা উচিত। 'Fast' adjective আৰু adverb দুয়োটা।"
+   }
+  },
+  {
+   "id": "error-detection-082",
+   "q": {
+    "en": "Find the error in the sentence: This is more better than that.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is more better than that."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "more",
+     "as": "more"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "that",
+     "as": "that"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'more' is wrong here; it should be 'better'. A double comparative is wrong.",
+    "as": "ইয়াত 'more' ভুল; 'better' হোৱা উচিত। দ্বিগুণ comparative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-083",
+   "q": {
+    "en": "Find the error in the sentence: She is the taller of the three.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is the taller of the three."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "taller",
+     "as": "taller"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "three",
+     "as": "three"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'taller' is wrong here; it should be 'tallest'. The superlative is used for three or more.",
+    "as": "ইয়াত 'taller' ভুল; 'tallest' হোৱা উচিত। তিনিজন বা ততোধিকৰ বাবে superlative ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-084",
+   "q": {
+    "en": "Find the error in the sentence: He is poor and honest.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is poor and honest."
+   },
+   "options": [
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "honest",
+     "as": "honest"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'and' is wrong here; it should be 'but'. A contrast needs 'but'.",
+    "as": "ইয়াত 'and' ভুল; 'but' হোৱা উচিত। বৈপৰীতৰ বাবে 'but' লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-085",
+   "q": {
+    "en": "Find the error in the sentence: No sooner he arrived than he left.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: No sooner he arrived than he left."
+   },
+   "options": [
+    {
+     "en": "left",
+     "as": "left"
+    },
+    {
+     "en": "arrived",
+     "as": "arrived"
+    },
+    {
+     "en": "No",
+     "as": "No"
+    },
+    {
+     "en": "sooner",
+     "as": "sooner"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'arrived' is wrong here; it should be 'had arrived'. 'No sooner' needs the past perfect.",
+    "as": "ইয়াত 'arrived' ভুল; 'had arrived' হোৱা উচিত। 'No sooner' ৱে past perfect লয়।"
+   }
+  },
+  {
+   "id": "error-detection-086",
+   "q": {
+    "en": "Find the error in the sentence: Hardly he had arrived when the meeting began.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Hardly he had arrived when the meeting began."
+   },
+   "options": [
+    {
+     "en": "had",
+     "as": "had"
+    },
+    {
+     "en": "arrived",
+     "as": "arrived"
+    },
+    {
+     "en": "Hardly",
+     "as": "Hardly"
+    },
+    {
+     "en": "when",
+     "as": "when"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'Hardly' is wrong here; it should be 'Hardly had'. 'Hardly' at the start needs inversion.",
+    "as": "ইয়াত 'Hardly' ভুল; 'Hardly had' হোৱা উচিত। আৰম্ভণিত 'Hardly' ৱে inversion লয়।"
+   }
+  },
+  {
+   "id": "error-detection-087",
+   "q": {
+    "en": "Find the error in the sentence: Neither he or his brother came.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Neither he or his brother came."
+   },
+   "options": [
+    {
+     "en": "he",
+     "as": "he"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "brother",
+     "as": "brother"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'or' is wrong here; it should be 'nor'. 'Neither' is paired with 'nor'.",
+    "as": "ইয়াত 'or' ভুল; 'nor' হোৱা উচিত। 'Neither' ৰ সৈতে 'nor' যুক্ত হয়।"
+   }
+  },
+  {
+   "id": "error-detection-088",
+   "q": {
+    "en": "Find the error in the sentence: Though he was tired but he continued.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Though he was tired but he continued."
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    },
+    {
+     "en": "tired",
+     "as": "tired"
+    },
+    {
+     "en": "continued",
+     "as": "continued"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'but' is wrong here; it should be 'yet'. 'Though' is not followed by 'but'.",
+    "as": "ইয়াত 'but' ভুল; 'yet' হোৱা উচিত। 'Though' ৰ পিছত 'but' নাহে।"
+   }
+  },
+  {
+   "id": "error-detection-089",
+   "q": {
+    "en": "Spot the error in the sentence: Because he was ill, so he did not come.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Because he was ill, so he did not come."
+   },
+   "options": [
+    {
+     "en": "did",
+     "as": "did"
+    },
+    {
+     "en": "not",
+     "as": "not"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    },
+    {
+     "en": "come",
+     "as": "come"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'so' is wrong here; it should be 'therefore'. 'Because' is not paired with 'so'.",
+    "as": "ইয়াত 'so' ভুল; 'therefore' হোৱা উচিত। 'Because' ৰ সৈতে 'so' যুক্ত নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-090",
+   "q": {
+    "en": "Find the error in the sentence: He asked me that where I lived.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He asked me that where I lived."
+   },
+   "options": [
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "asked",
+     "as": "asked"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "lived",
+     "as": "lived"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'that' is wrong here; it should be 'where'. 'That' is not used before a wh-question.",
+    "as": "ইয়াত 'that' ভুল; 'where' হোৱা উচিত। wh-প্ৰশ্নৰ আগত 'that' ব্যৱহাৰ নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-091",
+   "q": {
+    "en": "Find the error in the sentence: He always is late for school.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He always is late for school."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "always",
+     "as": "always"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "always is",
+     "as": "always is"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'always is' is wrong here; it should be 'is always'. An adverb of frequency comes after 'be'.",
+    "as": "ইয়াত 'always is' ভুল; 'is always' হোৱা উচিত। পুনৰাবৃত্তিৰ adverb 'be' ৰ পিছত আহে।"
+   }
+  },
+  {
+   "id": "error-detection-092",
+   "q": {
+    "en": "Find the error in the sentence: She speaks fluently English.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She speaks fluently English."
+   },
+   "options": [
+    {
+     "en": "speaks",
+     "as": "speaks"
+    },
+    {
+     "en": "fluently",
+     "as": "fluently"
+    },
+    {
+     "en": "English",
+     "as": "English"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'fluently' is wrong here; it should be 'fluent'. An adjective modifies the noun, so 'fluent' is correct.",
+    "as": "ইয়াত 'fluently' ভুল; 'fluent' হোৱা উচিত। বিশেষণে বিশেষ্যক নিৰ্দেশ কৰে, গতিকে 'fluent' শুদ্ধ।"
+   }
+  },
+  {
+   "id": "error-detection-093",
+   "q": {
+    "en": "Find the error in the sentence: He gave me a pen blue.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He gave me a pen blue."
+   },
+   "options": [
+    {
+     "en": "blue",
+     "as": "blue"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'blue' is wrong here; it should be 'blue pen'. The adjective comes before the noun.",
+    "as": "ইয়াত 'blue' ভুল; 'blue pen' হোৱা উচিত। বিশেষণ বিশেষ্যৰ আগত আহে।"
+   }
+  },
+  {
+   "id": "error-detection-094",
+   "q": {
+    "en": "Spot the error in the sentence: He returned back from Delhi.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He returned back from Delhi."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "Delhi",
+     "as": "Delhi"
+    },
+    {
+     "en": "back",
+     "as": "back"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'back' is wrong here; it should be 'returned'. 'Return' already means to come back.",
+    "as": "ইয়াত 'back' ভুল; 'returned' হোৱা উচিত। 'Return' ৰ অৰ্থই ইতিমধ্যে ঘূৰি অহা।"
+   }
+  },
+  {
+   "id": "error-detection-095",
+   "q": {
+    "en": "Find the error in the sentence: She discussed about the problem.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She discussed about the problem."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "problem",
+     "as": "problem"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'about' is wrong here; it should be 'discussed'. 'Discuss' takes no 'about'.",
+    "as": "ইয়াত 'about' ভুল; 'discussed' হোৱা উচিত। 'Discuss' ৱে 'about' নলয়।"
+   }
+  },
+  {
+   "id": "error-detection-096",
+   "q": {
+    "en": "Find the error in the sentence: He repeated the lesson again.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He repeated the lesson again."
+   },
+   "options": [
+    {
+     "en": "again",
+     "as": "again"
+    },
+    {
+     "en": "lesson",
+     "as": "lesson"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'again' is wrong here; it should be 'repeated'. 'Repeat' already means to do again.",
+    "as": "ইয়াত 'again' ভুল; 'repeated' হোৱা উচিত। 'Repeat' ৰ অৰ্থই ইতিমধ্যে পুনৰ কৰা।"
+   }
+  },
+  {
+   "id": "error-detection-097",
+   "q": {
+    "en": "Find the error in the sentence: The two twins look alike.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The two twins look alike."
+   },
+   "options": [
+    {
+     "en": "two",
+     "as": "two"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "look",
+     "as": "look"
+    },
+    {
+     "en": "alike",
+     "as": "alike"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'two' is wrong here; it should be 'twins'. 'Twins' already means two.",
+    "as": "ইয়াত 'two' ভুল; 'twins' হোৱা উচিত। 'Twins' ৰ অৰ্থই ইতিমধ্যে দুজন।"
+   }
+  },
+  {
+   "id": "error-detection-098",
+   "q": {
+    "en": "Spot the error in the sentence: He ordered for a cup of tea.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He ordered for a cup of tea."
+   },
+   "options": [
+    {
+     "en": "cup",
+     "as": "cup"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "tea",
+     "as": "tea"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'ordered'. 'Order' takes no 'for'.",
+    "as": "ইয়াত 'for' ভুল; 'ordered' হোৱা উচিত। 'Order' ৱে 'for' নলয়।"
+   }
+  },
+  {
+   "id": "error-detection-099",
+   "q": {
+    "en": "Find the error in the sentence: She is my cousin sister.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is my cousin sister."
+   },
+   "options": [
+    {
+     "en": "my",
+     "as": "my"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "sister",
+     "as": "sister"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'sister' is wrong here; it should be 'cousin'. 'Cousin' alone shows the relationship.",
+    "as": "ইয়াত 'sister' ভুল; 'cousin' হোৱা উচিত। 'Cousin' ৱে নিজেই সম্পৰ্ক দেখুৱায়।"
+   }
+  },
+  {
+   "id": "error-detection-100",
+   "q": {
+    "en": "Find the error in the sentence: You should to obey your parents.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: You should to obey your parents."
+   },
+   "options": [
+    {
+     "en": "parents",
+     "as": "parents"
+    },
+    {
+     "en": "You",
+     "as": "You"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "should",
+     "as": "should"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'obey'. 'Should' takes the bare infinitive.",
+    "as": "ইয়াত 'to' ভুল; 'obey' হোৱা উচিত। 'Should' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-101",
+   "q": {
+    "en": "Find the error in the sentence: He can to swim very well.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He can to swim very well."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "can",
+     "as": "can"
+    },
+    {
+     "en": "very",
+     "as": "very"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'swim'. 'Can' takes the bare infinitive.",
+    "as": "ইয়াত 'to' ভুল; 'swim' হোৱা উচিত। 'Can' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-102",
+   "q": {
+    "en": "Find the error in the sentence: He ought to respected his teachers.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He ought to respected his teachers."
+   },
+   "options": [
+    {
+     "en": "respected",
+     "as": "respected"
+    },
+    {
+     "en": "ought",
+     "as": "ought"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'respected' is wrong here; it should be 'respect'. 'Ought to' takes the base form.",
+    "as": "ইয়াত 'respected' ভুল; 'respect' হোৱা উচিত। 'Ought to' ৱে base form লয়।"
+   }
+  },
+  {
+   "id": "error-detection-103",
+   "q": {
+    "en": "Find the error in the sentence: You need not to worry.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: You need not to worry."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "You",
+     "as": "You"
+    },
+    {
+     "en": "need",
+     "as": "need"
+    },
+    {
+     "en": "not",
+     "as": "not"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'worry'. 'Need not' takes the bare infinitive.",
+    "as": "ইয়াত 'to' ভুল; 'worry' হোৱা উচিত। 'Need not' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-104",
+   "q": {
+    "en": "Find the error in the sentence: He dare not to speak.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He dare not to speak."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "dare",
+     "as": "dare"
+    },
+    {
+     "en": "not",
+     "as": "not"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'speak'. 'Dare not' takes the bare infinitive.",
+    "as": "ইয়াত 'to' ভুল; 'speak' হোৱা উচিত। 'Dare not' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-105",
+   "q": {
+    "en": "Spot the error in the sentence: He is looking forward to meet you.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is looking forward to meet you."
+   },
+   "options": [
+    {
+     "en": "looking",
+     "as": "looking"
+    },
+    {
+     "en": "forward",
+     "as": "forward"
+    },
+    {
+     "en": "meet",
+     "as": "meet"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'meet' is wrong here; it should be 'meeting'. 'Look forward to' takes a gerund.",
+    "as": "ইয়াত 'meet' ভুল; 'meeting' হোৱা উচিত। 'Look forward to' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-106",
+   "q": {
+    "en": "Find the error in the sentence: She is used to get up early.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is used to get up early."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "up",
+     "as": "up"
+    },
+    {
+     "en": "get",
+     "as": "get"
+    },
+    {
+     "en": "early",
+     "as": "early"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'get' is wrong here; it should be 'getting'. 'Used to' meaning accustomed takes a gerund.",
+    "as": "ইয়াত 'get' ভুল; 'getting' হোৱা উচিত। অভ্যস্ত অৰ্থত 'used to' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-107",
+   "q": {
+    "en": "Find the error in the sentence: I am fond of to read books.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am fond of to read books."
+   },
+   "options": [
+    {
+     "en": "to read",
+     "as": "to read"
+    },
+    {
+     "en": "read",
+     "as": "read"
+    },
+    {
+     "en": "books",
+     "as": "books"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to read' is wrong here; it should be 'reading'. A preposition takes a gerund.",
+    "as": "ইয়াত 'to read' ভুল; 'reading' হোৱা উচিত। পূৰ্বসৰ্গই gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-108",
+   "q": {
+    "en": "Find the error in the sentence: It is no use to cry over spilt milk.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: It is no use to cry over spilt milk."
+   },
+   "options": [
+    {
+     "en": "milk",
+     "as": "milk"
+    },
+    {
+     "en": "It",
+     "as": "It"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "to cry",
+     "as": "to cry"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to cry' is wrong here; it should be 'crying'. 'It is no use' takes a gerund.",
+    "as": "ইয়াত 'to cry' ভুল; 'crying' হোৱা উচিত। 'It is no use' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-109",
+   "q": {
+    "en": "Find the error in the sentence: He avoided to meet me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He avoided to meet me."
+   },
+   "options": [
+    {
+     "en": "meet",
+     "as": "meet"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "to meet",
+     "as": "to meet"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to meet' is wrong here; it should be 'meeting'. 'Avoid' takes a gerund.",
+    "as": "ইয়াত 'to meet' ভুল; 'meeting' হোৱা উচিত। 'Avoid' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-110",
+   "q": {
+    "en": "Find the error in the sentence: She suggested to go to the cinema.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She suggested to go to the cinema."
+   },
+   "options": [
+    {
+     "en": "to go",
+     "as": "to go"
+    },
+    {
+     "en": "suggested",
+     "as": "suggested"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "go",
+     "as": "go"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to go' is wrong here; it should be 'going'. 'Suggest' takes a gerund.",
+    "as": "ইয়াত 'to go' ভুল; 'going' হোৱা উচিত। 'Suggest' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-111",
+   "q": {
+    "en": "Spot the error in the sentence: He denied to steal the money.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He denied to steal the money."
+   },
+   "options": [
+    {
+     "en": "to steal",
+     "as": "to steal"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "steal",
+     "as": "steal"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to steal' is wrong here; it should be 'stealing'. 'Deny' takes a gerund.",
+    "as": "ইয়াত 'to steal' ভুল; 'stealing' হোৱা উচিত। 'Deny' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-112",
+   "q": {
+    "en": "Find the error in the sentence: I enjoy to play cricket.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I enjoy to play cricket."
+   },
+   "options": [
+    {
+     "en": "to play",
+     "as": "to play"
+    },
+    {
+     "en": "cricket",
+     "as": "cricket"
+    },
+    {
+     "en": "enjoy",
+     "as": "enjoy"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to play' is wrong here; it should be 'playing'. 'Enjoy' takes a gerund.",
+    "as": "ইয়াত 'to play' ভুল; 'playing' হোৱা উচিত। 'Enjoy' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-113",
+   "q": {
+    "en": "Find the error in the sentence: He is a doctor, isn't it?",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is a doctor, isn't it?"
+   },
+   "options": [
+    {
+     "en": "doctor",
+     "as": "doctor"
+    },
+    {
+     "en": "it",
+     "as": "it"
+    },
+    {
+     "en": "isn't",
+     "as": "isn't"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'it' is wrong here; it should be 'he'. The tag matches the subject pronoun.",
+    "as": "ইয়াত 'it' ভুল; 'he' হোৱা উচিত। Tag কৰ্তৃবাচক সৰ্বনামৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-114",
+   "q": {
+    "en": "Find the error in the sentence: I don't know nothing about it.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I don't know nothing about it."
+   },
+   "options": [
+    {
+     "en": "know",
+     "as": "know"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    },
+    {
+     "en": "it",
+     "as": "it"
+    },
+    {
+     "en": "nothing",
+     "as": "nothing"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'nothing' is wrong here; it should be 'anything'. A double negative is wrong.",
+    "as": "ইয়াত 'nothing' ভুল; 'anything' হোৱা উচিত। দ্বিগুণ নেতিবাচক ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-115",
+   "q": {
+    "en": "Find the error in the sentence: He didn't do nothing wrong.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He didn't do nothing wrong."
+   },
+   "options": [
+    {
+     "en": "do",
+     "as": "do"
+    },
+    {
+     "en": "wrong",
+     "as": "wrong"
+    },
+    {
+     "en": "nothing",
+     "as": "nothing"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'nothing' is wrong here; it should be 'anything'. A double negative is wrong.",
+    "as": "ইয়াত 'nothing' ভুল; 'anything' হোৱা উচিত। দ্বিগুণ নেতিবাচক ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-116",
+   "q": {
+    "en": "Find the error in the sentence: She has much friends.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She has much friends."
+   },
+   "options": [
+    {
+     "en": "much",
+     "as": "much"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "friends",
+     "as": "friends"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'much' is wrong here; it should be 'many'. 'Many' is used with countable nouns.",
+    "as": "ইয়াত 'much' ভুল; 'many' হোৱা উচিত। গণনাযোগ্য বিশেষ্যৰ সৈতে 'many' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-117",
+   "q": {
+    "en": "Find the error in the sentence: He gave me a few advice.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He gave me a few advice."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "few",
+     "as": "few"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'few' is wrong here; it should be 'little'. 'Advice' is uncountable, so 'little' is used.",
+    "as": "ইয়াত 'few' ভুল; 'little' হোৱা উচিত। 'Advice' অগণনীয়, গতিকে 'little' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-118",
+   "q": {
+    "en": "Find the error in the sentence: There is many water in the tank.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: There is many water in the tank."
+   },
+   "options": [
+    {
+     "en": "many",
+     "as": "many"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "tank",
+     "as": "tank"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'many' is wrong here; it should be 'much'. 'Water' is uncountable, so 'much' is used.",
+    "as": "ইয়াত 'many' ভুল; 'much' হোৱা উচিত। 'Water' অগণনীয়, গতিকে 'much' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-119",
+   "q": {
+    "en": "Find the error in the sentence: Each student must bring their book.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Each student must bring their book."
+   },
+   "options": [
+    {
+     "en": "bring",
+     "as": "bring"
+    },
+    {
+     "en": "book",
+     "as": "book"
+    },
+    {
+     "en": "Each",
+     "as": "Each"
+    },
+    {
+     "en": "their",
+     "as": "their"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'their' is wrong here; it should be 'his'. 'Each' takes a singular possessive.",
+    "as": "ইয়াত 'their' ভুল; 'his' হোৱা উচিত। 'Each' ৱে একবচন possessive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-120",
+   "q": {
+    "en": "Find the error in the sentence: Every of the boys was present.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Every of the boys was present."
+   },
+   "options": [
+    {
+     "en": "present",
+     "as": "present"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "Every",
+     "as": "Every"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'Every' is wrong here; it should be 'Each'. 'Every' is not followed by 'of'.",
+    "as": "ইয়াত 'Every' ভুল; 'Each' হোৱা উচিত। 'Every' ৰ পিছত 'of' নাহে।"
+   }
+  },
+  {
+   "id": "error-detection-121",
+   "q": {
+    "en": "Find the error in the sentence: He is one of the best student in the class.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is one of the best student in the class."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "student",
+     "as": "student"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "one",
+     "as": "one"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'student' is wrong here; it should be 'students'. 'One of the' takes a plural noun.",
+    "as": "ইয়াত 'student' ভুল; 'students' হোৱা উচিত। 'One of the' ৱে বহুবচন বিশেষ্য লয়।"
+   }
+  },
+  {
+   "id": "error-detection-122",
+   "q": {
+    "en": "Spot the error in the sentence: The scenery of Assam are beautiful.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The scenery of Assam are beautiful."
+   },
+   "options": [
+    {
+     "en": "scenery",
+     "as": "scenery"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "Assam",
+     "as": "Assam"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'Scenery' is uncountable and takes a singular verb.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'Scenery' অগণনীয় আৰু একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-123",
+   "q": {
+    "en": "Find the error in the sentence: He gave me an information.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He gave me an information."
+   },
+   "options": [
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "information",
+     "as": "information"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'an' is wrong here; it should be 'some'. 'Information' is uncountable and takes no 'an'.",
+    "as": "ইয়াত 'an' ভুল; 'some' হোৱা উচিত। 'Information' অগণনীয় আৰু 'an' নলয়।"
+   }
+  },
+  {
+   "id": "error-detection-124",
+   "q": {
+    "en": "Find the error in the sentence: She bought two furnitures.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She bought two furnitures."
+   },
+   "options": [
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "bought",
+     "as": "bought"
+    },
+    {
+     "en": "furnitures",
+     "as": "furnitures"
+    },
+    {
+     "en": "two",
+     "as": "two"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'furnitures' is wrong here; it should be 'furniture'. 'Furniture' is uncountable.",
+    "as": "ইয়াত 'furnitures' ভুল; 'furniture' হোৱা উচিত। 'Furniture' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-125",
+   "q": {
+    "en": "Find the error in the sentence: He has many luggages.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has many luggages."
+   },
+   "options": [
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "luggages",
+     "as": "luggages"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'luggages' is wrong here; it should be 'luggage'. 'Luggage' is uncountable.",
+    "as": "ইয়াত 'luggages' ভুল; 'luggage' হোৱা উচিত। 'Luggage' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-126",
+   "q": {
+    "en": "Find the error in the sentence: The poors need our help.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The poors need our help."
+   },
+   "options": [
+    {
+     "en": "poors",
+     "as": "poors"
+    },
+    {
+     "en": "need",
+     "as": "need"
+    },
+    {
+     "en": "our",
+     "as": "our"
+    },
+    {
+     "en": "help",
+     "as": "help"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'poors' is wrong here; it should be 'poor'. 'Poor' as a noun is plural and unchanged.",
+    "as": "ইয়াত 'poors' ভুল; 'poor' হোৱা উচিত। বিশেষ্য হিচাপে 'poor' বহুবচন আৰু অপৰিৱৰ্তিত।"
+   }
+  },
+  {
+   "id": "error-detection-127",
+   "q": {
+    "en": "Find the error in the sentence: He is more cleverer than his friend.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is more cleverer than his friend."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "more",
+     "as": "more"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'more' is wrong here; it should be 'cleverer'. A double comparative is wrong.",
+    "as": "ইয়াত 'more' ভুল; 'cleverer' হোৱা উচিত। দ্বিগুণ comparative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-128",
+   "q": {
+    "en": "Find the error in the sentence: I am used to smoke.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am used to smoke."
+   },
+   "options": [
+    {
+     "en": "used",
+     "as": "used"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    },
+    {
+     "en": "smoke",
+     "as": "smoke"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'smoke' is wrong here; it should be 'smoking'. Accustomed 'used to' takes a gerund.",
+    "as": "ইয়াত 'smoke' ভুল; 'smoking' হোৱা উচিত। অভ্যস্ত অৰ্থত 'used to' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-129",
+   "q": {
+    "en": "Spot the error in the sentence: He prevented me to go there.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He prevented me to go there."
+   },
+   "options": [
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "to go",
+     "as": "to go"
+    },
+    {
+     "en": "go",
+     "as": "go"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to go' is wrong here; it should be 'from going'. 'Prevent' takes 'from' with a gerund.",
+    "as": "ইয়াত 'to go' ভুল; 'from going' হোৱা উচিত। 'Prevent' ৱে gerund ৰ সৈতে 'from' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-130",
+   "q": {
+    "en": "Find the error in the sentence: She insisted to come with us.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She insisted to come with us."
+   },
+   "options": [
+    {
+     "en": "come",
+     "as": "come"
+    },
+    {
+     "en": "to come",
+     "as": "to come"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "us",
+     "as": "us"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'to come' is wrong here; it should be 'on coming'. 'Insist' takes 'on' with a gerund.",
+    "as": "ইয়াত 'to come' ভুল; 'on coming' হোৱা উচিত। 'Insist' ৱে gerund ৰ সৈতে 'on' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-131",
+   "q": {
+    "en": "Find the error in the sentence: He is the boy which won the prize.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the boy which won the prize."
+   },
+   "options": [
+    {
+     "en": "won",
+     "as": "won"
+    },
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "prize",
+     "as": "prize"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'which' is wrong here; it should be 'who'. 'Who' is used for people.",
+    "as": "ইয়াত 'which' ভুল; 'who' হোৱা উচিত। মানুহৰ বাবে 'who' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-132",
+   "q": {
+    "en": "Find the error in the sentence: This is the house which I was born.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the house which I was born."
+   },
+   "options": [
+    {
+     "en": "born",
+     "as": "born"
+    },
+    {
+     "en": "This",
+     "as": "This"
+    },
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'which' is wrong here; it should be 'where'. 'Where' is used for a place.",
+    "as": "ইয়াত 'which' ভুল; 'where' হোৱা উচিত। ঠাইৰ বাবে 'where' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-133",
+   "q": {
+    "en": "Find the error in the sentence: He asked me where did I live.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He asked me where did I live."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "did I live",
+     "as": "did I live"
+    },
+    {
+     "en": "asked",
+     "as": "asked"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'did I live' is wrong here; it should be 'I lived'. An indirect question takes normal word order.",
+    "as": "ইয়াত 'did I live' ভুল; 'I lived' হোৱা উচিত। পৰোক্ষ প্ৰশ্নই সাধাৰণ শব্দ ক্ৰম লয়।"
+   }
+  },
+  {
+   "id": "error-detection-134",
+   "q": {
+    "en": "Find the error in the sentence: The teacher made him to recite the poem.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The teacher made him to recite the poem."
+   },
+   "options": [
+    {
+     "en": "to recite",
+     "as": "to recite"
+    },
+    {
+     "en": "teacher",
+     "as": "teacher"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "him",
+     "as": "him"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to recite' is wrong here; it should be 'recite'. 'Make' takes the bare infinitive.",
+    "as": "ইয়াত 'to recite' ভুল; 'recite' হোৱা উচিত। 'Make' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-135",
+   "q": {
+    "en": "Find the error in the sentence: I heard him to sing a song.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I heard him to sing a song."
+   },
+   "options": [
+    {
+     "en": "to sing",
+     "as": "to sing"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "song",
+     "as": "song"
+    },
+    {
+     "en": "heard",
+     "as": "heard"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to sing' is wrong here; it should be 'sing'. Verbs of perception take the bare infinitive.",
+    "as": "ইয়াত 'to sing' ভুল; 'sing' হোৱা উচিত। অনুভৱৰ ক্ৰিয়াই bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-136",
+   "q": {
+    "en": "Find the error in the sentence: Let us to go now.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Let us to go now."
+   },
+   "options": [
+    {
+     "en": "Let",
+     "as": "Let"
+    },
+    {
+     "en": "us",
+     "as": "us"
+    },
+    {
+     "en": "now",
+     "as": "now"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'go'. 'Let' takes the bare infinitive.",
+    "as": "ইয়াত 'to' ভুল; 'go' হোৱা উচিত। 'Let' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-137",
+   "q": {
+    "en": "Spot the error in the sentence: Neither he nor his friends was present.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Neither he nor his friends was present."
+   },
+   "options": [
+    {
+     "en": "friends",
+     "as": "friends"
+    },
+    {
+     "en": "present",
+     "as": "present"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "Neither",
+     "as": "Neither"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'was' is wrong here; it should be 'were'. The verb agrees with the nearer subject.",
+    "as": "ইয়াত 'was' ভুল; 'were' হোৱা উচিত। ক্ৰিয়া ওচৰৰ কৰ্তাৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-138",
+   "q": {
+    "en": "Find the error in the sentence: Either he or I is wrong.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Either he or I is wrong."
+   },
+   "options": [
+    {
+     "en": "he",
+     "as": "he"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    },
+    {
+     "en": "wrong",
+     "as": "wrong"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'is' is wrong here; it should be 'am'. The verb agrees with the nearer subject.",
+    "as": "ইয়াত 'is' ভুল; 'am' হোৱা উচিত। ক্ৰিয়া ওচৰৰ কৰ্তাৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-139",
+   "q": {
+    "en": "Find the error in the sentence: Not only he but also his friends was present.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Not only he but also his friends was present."
+   },
+   "options": [
+    {
+     "en": "he",
+     "as": "he"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "also",
+     "as": "also"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'was' is wrong here; it should be 'were'. The verb agrees with the nearer subject.",
+    "as": "ইয়াত 'was' ভুল; 'were' হোৱা উচিত। ক্ৰিয়া ওচৰৰ কৰ্তাৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-140",
+   "q": {
+    "en": "Find the error in the sentence: The police has arrested the thief.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The police has arrested the thief."
+   },
+   "options": [
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "thief",
+     "as": "thief"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "police",
+     "as": "police"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'has' is wrong here; it should be 'have'. 'Police' is a plural noun.",
+    "as": "ইয়াত 'has' ভুল; 'have' হোৱা উচিত। 'Police' এটা বহুবচন বিশেষ্য।"
+   }
+  },
+  {
+   "id": "error-detection-141",
+   "q": {
+    "en": "Find the error in the sentence: People is waiting outside.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: People is waiting outside."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "outside",
+     "as": "outside"
+    },
+    {
+     "en": "People",
+     "as": "People"
+    },
+    {
+     "en": "waiting",
+     "as": "waiting"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'is' is wrong here; it should be 'are'. 'People' is a plural noun.",
+    "as": "ইয়াত 'is' ভুল; 'are' হোৱা উচিত। 'People' এটা বহুবচন বিশেষ্য।"
+   }
+  },
+  {
+   "id": "error-detection-142",
+   "q": {
+    "en": "Find the error in the sentence: Five years are a long time.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Five years are a long time."
+   },
+   "options": [
+    {
+     "en": "years",
+     "as": "years"
+    },
+    {
+     "en": "long",
+     "as": "long"
+    },
+    {
+     "en": "time",
+     "as": "time"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. A period of time is treated as a single unit.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। সময়কালক এটা একক হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "error-detection-143",
+   "q": {
+    "en": "Find the error in the sentence: Two and two makes four.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Two and two makes four."
+   },
+   "options": [
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "four",
+     "as": "four"
+    },
+    {
+     "en": "Two",
+     "as": "Two"
+    },
+    {
+     "en": "makes",
+     "as": "makes"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'makes' is wrong here; it should be 'make'. A sum of numbers takes a plural verb.",
+    "as": "ইয়াত 'makes' ভুল; 'make' হোৱা উচিত। সংখ্যাৰ যোগফল বহুবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-144",
+   "q": {
+    "en": "Find the error in the sentence: Slow and steady win the race.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Slow and steady win the race."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "win",
+     "as": "win"
+    },
+    {
+     "en": "race",
+     "as": "race"
+    },
+    {
+     "en": "Slow",
+     "as": "Slow"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'win' is wrong here; it should be 'wins'. A single idea joined by 'and' takes a singular verb.",
+    "as": "ইয়াত 'win' ভুল; 'wins' হোৱা উচিত। 'and' ৰে যুক্ত এটা ধাৰণাই একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-145",
+   "q": {
+    "en": "Find the error in the sentence: He is senior than me by two years.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is senior than me by two years."
+   },
+   "options": [
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "two",
+     "as": "two"
+    },
+    {
+     "en": "years",
+     "as": "years"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'to'. 'Senior' takes 'to'.",
+    "as": "ইয়াত 'than' ভুল; 'to' হোৱা উচিত। 'Senior' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-146",
+   "q": {
+    "en": "Find the error in the sentence: She prefers coffee than tea.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She prefers coffee than tea."
+   },
+   "options": [
+    {
+     "en": "prefers",
+     "as": "prefers"
+    },
+    {
+     "en": "coffee",
+     "as": "coffee"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "tea",
+     "as": "tea"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'to'. 'Prefer' takes 'to'.",
+    "as": "ইয়াত 'than' ভুল; 'to' হোৱা উচিত। 'Prefer' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-147",
+   "q": {
+    "en": "Find the error in the sentence: He is known by his honesty.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is known by his honesty."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "known",
+     "as": "known"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'by' is wrong here; it should be 'for'. 'Known for' is used for a quality.",
+    "as": "ইয়াত 'by' ভুল; 'for' হোৱা উচিত। গুণৰ ক্ষেত্ৰত 'known for' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-148",
+   "q": {
+    "en": "Find the error in the sentence: She takes pride on her work.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She takes pride on her work."
+   },
+   "options": [
+    {
+     "en": "pride",
+     "as": "pride"
+    },
+    {
+     "en": "her",
+     "as": "her"
+    },
+    {
+     "en": "work",
+     "as": "work"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'on' is wrong here; it should be 'in'. 'Take pride in' is the correct phrase.",
+    "as": "ইয়াত 'on' ভুল; 'in' হোৱা উচিত। 'Take pride in' শুদ্ধ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-149",
+   "q": {
+    "en": "Find the error in the sentence: He is confident on success.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is confident on success."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "confident",
+     "as": "confident"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'on' is wrong here; it should be 'of'. 'Confident of' is correct.",
+    "as": "ইয়াত 'on' ভুল; 'of' হোৱা উচিত। 'Confident of' শুদ্ধ।"
+   }
+  },
+  {
+   "id": "error-detection-150",
+   "q": {
+    "en": "Find the error in the sentence: He is attentive in his studies.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is attentive in his studies."
+   },
+   "options": [
+    {
+     "en": "studies",
+     "as": "studies"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'in' is wrong here; it should be 'to'. 'Attentive to' is correct.",
+    "as": "ইয়াত 'in' ভুল; 'to' হোৱা উচিত। 'Attentive to' শুদ্ধ।"
+   }
+  },
+  {
+   "id": "error-detection-151",
+   "q": {
+    "en": "Find the error in the sentence: He is deaf of one ear.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is deaf of one ear."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "deaf",
+     "as": "deaf"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'in'. 'Deaf in' is used for an organ.",
+    "as": "ইয়াত 'of' ভুল; 'in' হোৱা উচিত। অংগৰ ক্ষেত্ৰত 'deaf in' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-152",
+   "q": {
+    "en": "Find the error in the sentence: The ship sailed in the sea.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The ship sailed in the sea."
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "sea",
+     "as": "sea"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "ship",
+     "as": "ship"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'in' is wrong here; it should be 'on'. 'Sail on the sea' is the usual phrase.",
+    "as": "ইয়াত 'in' ভুল; 'on' হোৱা উচিত। 'Sail on the sea' সাধাৰণ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-153",
+   "q": {
+    "en": "Find the error in the sentence: He lives at Guwahati.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He lives at Guwahati."
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "Guwahati"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "lives",
+     "as": "lives"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'at' is wrong here; it should be 'in'. 'In' is used with a city.",
+    "as": "ইয়াত 'at' ভুল; 'in' হোৱা উচিত। নগৰৰ সৈতে 'in' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-154",
+   "q": {
+    "en": "Find the error in the sentence: She arrived to the station late.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She arrived to the station late."
+   },
+   "options": [
+    {
+     "en": "station",
+     "as": "station"
+    },
+    {
+     "en": "late",
+     "as": "late"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'at'. 'Arrive at' is used for a place.",
+    "as": "ইয়াত 'to' ভুল; 'at' হোৱা উচিত। ঠাইৰ বাবে 'arrive at' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-155",
+   "q": {
+    "en": "Find the error in the sentence: I have been ill from last Monday.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have been ill from last Monday."
+   },
+   "options": [
+    {
+     "en": "Monday",
+     "as": "Monday"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "been",
+     "as": "been"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'from' is wrong here; it should be 'since'. 'Since' is used with a point of time.",
+    "as": "ইয়াত 'from' ভুল; 'since' হোৱা উচিত। নিৰ্দিষ্ট সময়ৰ বিন্দুৰ বাবে 'since' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-156",
+   "q": {
+    "en": "Find the error in the sentence: He has been working here since five years.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has been working here since five years."
+   },
+   "options": [
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "been",
+     "as": "been"
+    },
+    {
+     "en": "working",
+     "as": "working"
+    },
+    {
+     "en": "since",
+     "as": "since"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'since' is wrong here; it should be 'for'. 'For' is used with a period of time.",
+    "as": "ইয়াত 'since' ভুল; 'for' হোৱা উচিত। সময়কালৰ বাবে 'for' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-157",
+   "q": {
+    "en": "Find the error in the sentence: The teacher as well as the students were present.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The teacher as well as the students were present."
+   },
+   "options": [
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "teacher",
+     "as": "teacher"
+    },
+    {
+     "en": "as",
+     "as": "as"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'were' is wrong here; it should be 'was'. 'As well as' does not change the number of the subject.",
+    "as": "ইয়াত 'were' ভুল; 'was' হোৱা উচিত। 'As well as' ৱে কৰ্তাৰ সংখ্যা সলনি নকৰে।"
+   }
+  },
+  {
+   "id": "error-detection-158",
+   "q": {
+    "en": "Find the error in the sentence: He, along with his friends, are coming.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He, along with his friends, are coming."
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "along",
+     "as": "along"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'Along with' does not change the number of the subject.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'Along with' ৱে কৰ্তাৰ সংখ্যা সলনি নকৰে।"
+   }
+  },
+  {
+   "id": "error-detection-159",
+   "q": {
+    "en": "Find the error in the sentence: The colour of the walls are white.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The colour of the walls are white."
+   },
+   "options": [
+    {
+     "en": "walls",
+     "as": "walls"
+    },
+    {
+     "en": "white",
+     "as": "white"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. The verb agrees with the true subject 'colour'.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। ক্ৰিয়া প্ৰকৃত কৰ্তা 'colour' ৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-160",
+   "q": {
+    "en": "Find the error in the sentence: One of the boy is absent.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: One of the boy is absent."
+   },
+   "options": [
+    {
+     "en": "boy",
+     "as": "boy"
+    },
+    {
+     "en": "absent",
+     "as": "absent"
+    },
+    {
+     "en": "One",
+     "as": "One"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'boy' is wrong here; it should be 'boys'. 'One of the' takes a plural noun.",
+    "as": "ইয়াত 'boy' ভুল; 'boys' হোৱা উচিত। 'One of the' ৱে বহুবচন বিশেষ্য লয়।"
+   }
+  },
+  {
+   "id": "error-detection-161",
+   "q": {
+    "en": "Spot the error in the sentence: He is one of my best friend.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is one of my best friend."
+   },
+   "options": [
+    {
+     "en": "my",
+     "as": "my"
+    },
+    {
+     "en": "best",
+     "as": "best"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "friend",
+     "as": "friend"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'friend' is wrong here; it should be 'friends'. 'One of my' takes a plural noun.",
+    "as": "ইয়াত 'friend' ভুল; 'friends' হোৱা উচিত। 'One of my' ৱে বহুবচন বিশেষ্য লয়।"
+   }
+  },
+  {
+   "id": "error-detection-162",
+   "q": {
+    "en": "Find the error in the sentence: Hardly had he reached than the train left.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Hardly had he reached than the train left."
+   },
+   "options": [
+    {
+     "en": "Hardly",
+     "as": "Hardly"
+    },
+    {
+     "en": "had",
+     "as": "had"
+    },
+    {
+     "en": "he",
+     "as": "he"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'when'. 'Hardly ... when' is the correct pair.",
+    "as": "ইয়াত 'than' ভুল; 'when' হোৱা উচিত। 'Hardly ... when' শুদ্ধ যুগল।"
+   }
+  },
+  {
+   "id": "error-detection-163",
+   "q": {
+    "en": "Find the error in the sentence: No sooner he had left than it rained.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: No sooner he had left than it rained."
+   },
+   "options": [
+    {
+     "en": "he",
+     "as": "he"
+    },
+    {
+     "en": "had",
+     "as": "had"
+    },
+    {
+     "en": "he had",
+     "as": "he had"
+    },
+    {
+     "en": "left",
+     "as": "left"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'he had' is wrong here; it should be 'had he'. 'No sooner' at the start needs inversion.",
+    "as": "ইয়াত 'he had' ভুল; 'had he' হোৱা উচিত। আৰম্ভণিত 'No sooner' ৱে inversion লয়।"
+   }
+  },
+  {
+   "id": "error-detection-164",
+   "q": {
+    "en": "Find the error in the sentence: Scarcely he had entered when the bell rang.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Scarcely he had entered when the bell rang."
+   },
+   "options": [
+    {
+     "en": "entered",
+     "as": "entered"
+    },
+    {
+     "en": "he had",
+     "as": "he had"
+    },
+    {
+     "en": "when",
+     "as": "when"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'he had' is wrong here; it should be 'had he'. 'Scarcely' at the start needs inversion.",
+    "as": "ইয়াত 'he had' ভুল; 'had he' হোৱা উচিত। আৰম্ভণিত 'Scarcely' ৱে inversion লয়।"
+   }
+  },
+  {
+   "id": "error-detection-165",
+   "q": {
+    "en": "Find the error in the sentence: He is too weak that he cannot walk.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is too weak that he cannot walk."
+   },
+   "options": [
+    {
+     "en": "too",
+     "as": "too"
+    },
+    {
+     "en": "weak",
+     "as": "weak"
+    },
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "cannot",
+     "as": "cannot"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'too' is wrong here; it should be 'so'. 'So ... that' is the correct pair.",
+    "as": "ইয়াত 'too' ভুল; 'so' হোৱা উচিত। 'So ... that' শুদ্ধ যুগল।"
+   }
+  },
+  {
+   "id": "error-detection-166",
+   "q": {
+    "en": "Find the error in the sentence: The book is too interesting to put down.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The book is too interesting to put down."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "too",
+     "as": "too"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    },
+    {
+     "en": "down",
+     "as": "down"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'too' is wrong here; it should be 'so'. 'Too' before an adjective means excessively.",
+    "as": "ইয়াত 'too' ভুল; 'so' হোৱা উচিত। বিশেষণৰ আগত 'Too' ৱে অত্যাধিক বুজায়।"
+   }
+  },
+  {
+   "id": "error-detection-167",
+   "q": {
+    "en": "Find the error in the sentence: I am very much sorry for the delay.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am very much sorry for the delay."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "very much",
+     "as": "very much"
+    },
+    {
+     "en": "delay",
+     "as": "delay"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'very much' is wrong here; it should be 'very'. 'Very' alone is used with 'sorry'.",
+    "as": "ইয়াত 'very much' ভুল; 'very' হোৱা উচিত। 'Sorry' ৰ সৈতে 'very' অকলে ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-168",
+   "q": {
+    "en": "Find the error in the sentence: She is the most unique girl in the class.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is the most unique girl in the class."
+   },
+   "options": [
+    {
+     "en": "class",
+     "as": "class"
+    },
+    {
+     "en": "most",
+     "as": "most"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'most' is wrong here; it should be 'unique'. 'Unique' is absolute and takes no comparison.",
+    "as": "ইয়াত 'most' ভুল; 'unique' হোৱা উচিত। 'Unique' নিৰপেক্ষ আৰু তুলনা লয় না।"
+   }
+  },
+  {
+   "id": "error-detection-169",
+   "q": {
+    "en": "Find the error in the sentence: This is the most perfect answer.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the most perfect answer."
+   },
+   "options": [
+    {
+     "en": "most",
+     "as": "most"
+    },
+    {
+     "en": "This",
+     "as": "This"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'most' is wrong here; it should be 'perfect'. 'Perfect' is absolute and takes no comparison.",
+    "as": "ইয়াত 'most' ভুল; 'perfect' হোৱা উচিত। 'Perfect' নিৰপেক্ষ আৰু তুলনা লয় না।"
+   }
+  },
+  {
+   "id": "error-detection-170",
+   "q": {
+    "en": "Find the error in the sentence: He has completed the work yesterday.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has completed the work yesterday."
+   },
+   "options": [
+    {
+     "en": "yesterday",
+     "as": "yesterday"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "has completed",
+     "as": "has completed"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'has completed' is wrong here; it should be 'completed'. A definite past time takes the past simple.",
+    "as": "ইয়াত 'has completed' ভুল; 'completed' হোৱা উচিত। নিৰ্দিষ্ট ভূতকালই past simple লয়।"
+   }
+  },
+  {
+   "id": "error-detection-171",
+   "q": {
+    "en": "Find the error in the sentence: She has gone to Delhi last week.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She has gone to Delhi last week."
+   },
+   "options": [
+    {
+     "en": "gone",
+     "as": "gone"
+    },
+    {
+     "en": "has gone",
+     "as": "has gone"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "Delhi",
+     "as": "Delhi"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'has gone' is wrong here; it should be 'went'. A definite past time takes the past simple.",
+    "as": "ইয়াত 'has gone' ভুল; 'went' হোৱা উচিত। নিৰ্দিষ্ট ভূতকালই past simple লয়।"
+   }
+  },
+  {
+   "id": "error-detection-172",
+   "q": {
+    "en": "Find the error in the sentence: I am reading this book since morning.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am reading this book since morning."
+   },
+   "options": [
+    {
+     "en": "book",
+     "as": "book"
+    },
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "morning",
+     "as": "morning"
+    },
+    {
+     "en": "am reading",
+     "as": "am reading"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'am reading' is wrong here; it should be 'have been reading'. 'Since' needs the present perfect continuous.",
+    "as": "ইয়াত 'am reading' ভুল; 'have been reading' হোৱা উচিত। 'Since' ৱে present perfect continuous লয়।"
+   }
+  },
+  {
+   "id": "error-detection-173",
+   "q": {
+    "en": "Find the error in the sentence: He said that he is ill.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He said that he is ill."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "said",
+     "as": "said"
+    },
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'is' is wrong here; it should be 'was'. Reported speech shifts the tense back.",
+    "as": "ইয়াত 'is' ভুল; 'was' হোৱা উচিত। Reported speech ত কাল পিছুৱায়।"
+   }
+  },
+  {
+   "id": "error-detection-174",
+   "q": {
+    "en": "Find the error in the sentence: She told that she was tired.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She told that she was tired."
+   },
+   "options": [
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "told",
+     "as": "told"
+    },
+    {
+     "en": "tired",
+     "as": "tired"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'told' is wrong here; it should be 'said'. 'Told' needs an object.",
+    "as": "ইয়াত 'told' ভুল; 'said' হোৱা উচিত। 'Told' ৱে object লয়।"
+   }
+  },
+  {
+   "id": "error-detection-175",
+   "q": {
+    "en": "Find the error in the sentence: He said me the truth.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He said me the truth."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "truth",
+     "as": "truth"
+    },
+    {
+     "en": "said",
+     "as": "said"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'said' is wrong here; it should be 'told'. 'Tell' takes a personal object.",
+    "as": "ইয়াত 'said' ভুল; 'told' হোৱা উচিত। 'Tell' ৱে ব্যক্তিগত object লয়।"
+   }
+  },
+  {
+   "id": "error-detection-176",
+   "q": {
+    "en": "Find the error in the sentence: The teacher ordered to the boys to sit down.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The teacher ordered to the boys to sit down."
+   },
+   "options": [
+    {
+     "en": "teacher",
+     "as": "teacher"
+    },
+    {
+     "en": "ordered",
+     "as": "ordered"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "boys",
+     "as": "boys"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'the'. 'Order' takes the object directly.",
+    "as": "ইয়াত 'to' ভুল; 'the' হোৱা উচিত। 'Order' ৱে object প্ৰত্যক্ষভাৱে লয়।"
+   }
+  },
+  {
+   "id": "error-detection-177",
+   "q": {
+    "en": "Find the error in the sentence: He is residing in this city since childhood.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is residing in this city since childhood."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "this",
+     "as": "this"
+    },
+    {
+     "en": "residing",
+     "as": "residing"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'residing' is wrong here; it should be 'has been residing'. 'Since' needs the present perfect continuous.",
+    "as": "ইয়াত 'residing' ভুল; 'has been residing' হোৱা উচিত। 'Since' ৱে present perfect continuous লয়।"
+   }
+  },
+  {
+   "id": "error-detection-178",
+   "q": {
+    "en": "Find the error in the sentence: Every one of the girls were present.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Every one of the girls were present."
+   },
+   "options": [
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "girls",
+     "as": "girls"
+    },
+    {
+     "en": "present",
+     "as": "present"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'were' is wrong here; it should be 'was'. 'Every one of' takes a singular verb.",
+    "as": "ইয়াত 'were' ভুল; 'was' হোৱা উচিত। 'Every one of' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-179",
+   "q": {
+    "en": "Find the error in the sentence: None of the boys were absent.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: None of the boys were absent."
+   },
+   "options": [
+    {
+     "en": "boys",
+     "as": "boys"
+    },
+    {
+     "en": "absent",
+     "as": "absent"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "None",
+     "as": "None"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'were' is wrong here; it should be 'was'. 'None of' with a singular sense takes a singular verb.",
+    "as": "ইয়াত 'were' ভুল; 'was' হোৱা উচিত। একবচন অৰ্থত 'None of' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-180",
+   "q": {
+    "en": "Find the error in the sentence: He has no any money.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has no any money."
+   },
+   "options": [
+    {
+     "en": "no",
+     "as": "no"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "any",
+     "as": "any"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'any' is wrong here; it should be 'money'. 'No' already carries the negative sense.",
+    "as": "ইয়াত 'any' ভুল; 'money' হোৱা উচিত। 'No' ৱে ইতিমধ্যে নেতিবাচক অৰ্থ বহন কৰে।"
+   }
+  },
+  {
+   "id": "error-detection-181",
+   "q": {
+    "en": "Find the error in the sentence: I have got no any friends.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have got no any friends."
+   },
+   "options": [
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "got",
+     "as": "got"
+    },
+    {
+     "en": "any",
+     "as": "any"
+    },
+    {
+     "en": "no",
+     "as": "no"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'any' is wrong here; it should be 'friends'. 'No' already carries the negative sense.",
+    "as": "ইয়াত 'any' ভুল; 'friends' হোৱা উচিত। 'No' ৱে ইতিমধ্যে নেতিবাচক অৰ্থ বহন কৰে।"
+   }
+  },
+  {
+   "id": "error-detection-182",
+   "q": {
+    "en": "Find the error in the sentence: He is a most intelligent boy.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is a most intelligent boy."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "intelligent",
+     "as": "intelligent"
+    },
+    {
+     "en": "most",
+     "as": "most"
+    },
+    {
+     "en": "boy",
+     "as": "boy"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'most' is wrong here; it should be 'very'. 'A most' is unusual; 'very' fits the sense.",
+    "as": "ইয়াত 'most' ভুল; 'very' হোৱা উচিত। 'A most' অস্বাভাৱিক; 'very' অৰ্থৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-183",
+   "q": {
+    "en": "Find the error in the sentence: The man is a friend of me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The man is a friend of me."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "friend",
+     "as": "friend"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'me' is wrong here; it should be 'mine'. A double possessive uses 'mine'.",
+    "as": "ইয়াত 'me' ভুল; 'mine' হোৱা উচিত। দ্বিগুণ possessive ৱে 'mine' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-184",
+   "q": {
+    "en": "Find the error in the sentence: He is a friend of my.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is a friend of my."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "my",
+     "as": "my"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'my' is wrong here; it should be 'mine'. A double possessive uses 'mine'.",
+    "as": "ইয়াত 'my' ভুল; 'mine' হোৱা উচিত। দ্বিগুণ possessive ৱে 'mine' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-185",
+   "q": {
+    "en": "Find the error in the sentence: This is the same book which I lost.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the same book which I lost."
+   },
+   "options": [
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "book",
+     "as": "book"
+    },
+    {
+     "en": "lost",
+     "as": "lost"
+    },
+    {
+     "en": "This",
+     "as": "This"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'which' is wrong here; it should be 'that'. 'The same' is followed by 'that'.",
+    "as": "ইয়াত 'which' ভুল; 'that' হোৱা উচিত। 'The same' ৰ পিছত 'that' আহে।"
+   }
+  },
+  {
+   "id": "error-detection-186",
+   "q": {
+    "en": "Find the error in the sentence: He is such a man who can be trusted.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is such a man who can be trusted."
+   },
+   "options": [
+    {
+     "en": "who",
+     "as": "who"
+    },
+    {
+     "en": "man",
+     "as": "man"
+    },
+    {
+     "en": "can",
+     "as": "can"
+    },
+    {
+     "en": "be",
+     "as": "be"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'who' is wrong here; it should be 'as'. 'Such' is followed by 'as'.",
+    "as": "ইয়াত 'who' ভুল; 'as' হোৱা উচিত। 'Such' ৰ পিছত 'as' আহে।"
+   }
+  },
+  {
+   "id": "error-detection-187",
+   "q": {
+    "en": "Find the error in the sentence: It is I who is responsible.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: It is I who is responsible."
+   },
+   "options": [
+    {
+     "en": "It",
+     "as": "It"
+    },
+    {
+     "en": "who",
+     "as": "who"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "responsible",
+     "as": "responsible"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'is' is wrong here; it should be 'am'. The verb agrees with 'I'.",
+    "as": "ইয়াত 'is' ভুল; 'am' হোৱা উচিত। ক্ৰিয়া 'I' ৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-188",
+   "q": {
+    "en": "Find the error in the sentence: It is you who has done it.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: It is you who has done it."
+   },
+   "options": [
+    {
+     "en": "you",
+     "as": "you"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "who",
+     "as": "who"
+    },
+    {
+     "en": "done",
+     "as": "done"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'has' is wrong here; it should be 'have'. The verb agrees with 'you'.",
+    "as": "ইয়াত 'has' ভুল; 'have' হোৱা উচিত। ক্ৰিয়া 'you' ৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-189",
+   "q": {
+    "en": "Find the error in the sentence: He runs faster than me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He runs faster than me."
+   },
+   "options": [
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "runs",
+     "as": "runs"
+    },
+    {
+     "en": "faster",
+     "as": "faster"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'me' is wrong here; it should be 'I'. The subject pronoun is used after 'than'.",
+    "as": "ইয়াত 'me' ভুল; 'I' হোৱা উচিত। 'Than' ৰ পিছত কৰ্তৃবাচক সৰ্বনাম ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-190",
+   "q": {
+    "en": "Find the error in the sentence: She is as tall as me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is as tall as me."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "as",
+     "as": "as"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "tall",
+     "as": "tall"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'me' is wrong here; it should be 'I'. The subject pronoun is used after 'as'.",
+    "as": "ইয়াত 'me' ভুল; 'I' হোৱা উচিত। 'As' ৰ পিছত কৰ্তৃবাচক সৰ্বনাম ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-191",
+   "q": {
+    "en": "Find the error in the sentence: Let you and I do the work.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Let you and I do the work."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "work",
+     "as": "work"
+    },
+    {
+     "en": "Let",
+     "as": "Let"
+    },
+    {
+     "en": "I",
+     "as": "I"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'I' is wrong here; it should be 'me'. 'Let' takes the objective case.",
+    "as": "ইয়াত 'I' ভুল; 'me' হোৱা উচিত। 'Let' ৱে objective case লয়।"
+   }
+  },
+  {
+   "id": "error-detection-192",
+   "q": {
+    "en": "Find the error in the sentence: He availed of the opportunity.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He availed of the opportunity."
+   },
+   "options": [
+    {
+     "en": "availed",
+     "as": "availed"
+    },
+    {
+     "en": "opportunity",
+     "as": "opportunity"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'availed' is wrong here; it should be 'availed himself'. 'Avail' is a reflexive verb.",
+    "as": "ইয়াত 'availed' ভুল; 'availed himself' হোৱা উচিত। 'Avail' এটা reflexive ক্ৰিয়া।"
+   }
+  },
+  {
+   "id": "error-detection-193",
+   "q": {
+    "en": "Find the error in the sentence: I am going to home now.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am going to home now."
+   },
+   "options": [
+    {
+     "en": "am",
+     "as": "am"
+    },
+    {
+     "en": "going",
+     "as": "going"
+    },
+    {
+     "en": "now",
+     "as": "now"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'home'. 'Home' as an adverb takes no preposition.",
+    "as": "ইয়াত 'to' ভুল; 'home' হোৱা উচিত। Adverb হিচাপে 'home' ৱে পূৰ্বসৰ্গ নলয়।"
+   }
+  },
+  {
+   "id": "error-detection-194",
+   "q": {
+    "en": "Find the error in the sentence: The reason is because he was late.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The reason is because he was late."
+   },
+   "options": [
+    {
+     "en": "reason",
+     "as": "reason"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "he",
+     "as": "he"
+    },
+    {
+     "en": "because",
+     "as": "because"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'because' is wrong here; it should be 'that'. 'The reason is that' is the correct form.",
+    "as": "ইয়াত 'because' ভুল; 'that' হোৱা উচিত। 'The reason is that' শুদ্ধ ৰূপ।"
+   }
+  },
+  {
+   "id": "error-detection-195",
+   "q": {
+    "en": "Find the error in the sentence: He did not come because of he was ill.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He did not come because of he was ill."
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "because of",
+     "as": "because of"
+    },
+    {
+     "en": "ill",
+     "as": "ill"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'because of' is wrong here; it should be 'because'. 'Because of' takes a noun, not a clause.",
+    "as": "ইয়াত 'because of' ভুল; 'because' হোৱা উচিত। 'Because of' ৱে বিশেষ্য লয়, উপবাক্য নহয়।"
+   }
+  },
+  {
+   "id": "error-detection-196",
+   "q": {
+    "en": "Find the error in the sentence: Inspite of the rain, we went out.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Inspite of the rain, we went out."
+   },
+   "options": [
+    {
+     "en": "we",
+     "as": "we"
+    },
+    {
+     "en": "Inspite",
+     "as": "Inspite"
+    },
+    {
+     "en": "went",
+     "as": "went"
+    },
+    {
+     "en": "out",
+     "as": "out"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'Inspite' is wrong here; it should be 'In spite'. 'In spite of' is three words.",
+    "as": "ইয়াত 'Inspite' ভুল; 'In spite' হোৱা উচিত। 'In spite of' তিনি শব্দ।"
+   }
+  },
+  {
+   "id": "error-detection-197",
+   "q": {
+    "en": "Find the error in the sentence: He is the same age like me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the same age like me."
+   },
+   "options": [
+    {
+     "en": "age",
+     "as": "age"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "like",
+     "as": "like"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'like' is wrong here; it should be 'as'. 'The same age as' is the correct phrase.",
+    "as": "ইয়াত 'like' ভুল; 'as' হোৱা উচিত। 'The same age as' শুদ্ধ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-198",
+   "q": {
+    "en": "Find the error in the sentence: She is different than her sister.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is different than her sister."
+   },
+   "options": [
+    {
+     "en": "different",
+     "as": "different"
+    },
+    {
+     "en": "her",
+     "as": "her"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "sister",
+     "as": "sister"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'from'. 'Different from' is the correct phrase.",
+    "as": "ইয়াত 'than' ভুল; 'from' হোৱা উচিত। 'Different from' শুদ্ধ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-199",
+   "q": {
+    "en": "Spot the error in the sentence: He is capable to do this work.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is capable to do this work."
+   },
+   "options": [
+    {
+     "en": "capable",
+     "as": "capable"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "to do",
+     "as": "to do"
+    },
+    {
+     "en": "do",
+     "as": "do"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to do' is wrong here; it should be 'of doing'. 'Capable' takes 'of' with a gerund.",
+    "as": "ইয়াত 'to do' ভুল; 'of doing' হোৱা উচিত। 'Capable' ৱে gerund ৰ সৈতে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-200",
+   "q": {
+    "en": "Find the error in the sentence: She is good in singing.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is good in singing."
+   },
+   "options": [
+    {
+     "en": "singing",
+     "as": "singing"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'in' is wrong here; it should be 'at'. 'Good at' is used for a skill.",
+    "as": "ইয়াত 'in' ভুল; 'at' হোৱা উচিত। দক্ষতাৰ বাবে 'good at' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-201",
+   "q": {
+    "en": "Find the error in the sentence: He was angry with my behaviour.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He was angry with my behaviour."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "angry",
+     "as": "angry"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'with' is wrong here; it should be 'at'. 'Angry at' is used for a thing.",
+    "as": "ইয়াত 'with' ভুল; 'at' হোৱা উচিত। বস্তুৰ বাবে 'angry at' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-202",
+   "q": {
+    "en": "Find the error in the sentence: I prefer reading than writing.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I prefer reading than writing."
+   },
+   "options": [
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "prefer",
+     "as": "prefer"
+    },
+    {
+     "en": "reading",
+     "as": "reading"
+    },
+    {
+     "en": "writing",
+     "as": "writing"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'than' is wrong here; it should be 'to'. 'Prefer' takes 'to'.",
+    "as": "ইয়াত 'than' ভুল; 'to' হোৱা উচিত। 'Prefer' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-203",
+   "q": {
+    "en": "Find the error in the sentence: He is used to work hard.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is used to work hard."
+   },
+   "options": [
+    {
+     "en": "work",
+     "as": "work"
+    },
+    {
+     "en": "used",
+     "as": "used"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "hard",
+     "as": "hard"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'work' is wrong here; it should be 'working'. Accustomed 'used to' takes a gerund.",
+    "as": "ইয়াত 'work' ভুল; 'working' হোৱা উচিত। অভ্যস্ত অৰ্থত 'used to' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-204",
+   "q": {
+    "en": "Find the error in the sentence: The climate of Assam is better than Meghalaya.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The climate of Assam is better than Meghalaya."
+   },
+   "options": [
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "Meghalaya"
+    },
+    {
+     "en": "climate",
+     "as": "climate"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'Meghalaya' is wrong here; it should be 'that of Meghalaya'. A comparison must match the two things compared.",
+    "as": "ইয়াত 'Meghalaya' ভুল; 'that of Meghalaya' হোৱা উচিত। তুলনাই দুয়ো বস্তু মিলাব লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-205",
+   "q": {
+    "en": "Find the error in the sentence: The roads of Delhi are better than Mumbai.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The roads of Delhi are better than Mumbai."
+   },
+   "options": [
+    {
+     "en": "roads",
+     "as": "roads"
+    },
+    {
+     "en": "Mumbai",
+     "as": "Mumbai"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "Delhi",
+     "as": "Delhi"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'Mumbai' is wrong here; it should be 'those of Mumbai'. A comparison must match the two things compared.",
+    "as": "ইয়াত 'Mumbai' ভুল; 'those of Mumbai' হোৱা উচিত। তুলনাই দুয়ো বস্তু মিলাব লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-206",
+   "q": {
+    "en": "Spot the error in the sentence: Neither of the two answers are correct.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Neither of the two answers are correct."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "two",
+     "as": "two"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'Neither of' takes a singular verb.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। 'Neither of' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-207",
+   "q": {
+    "en": "Find the error in the sentence: Each of the girls have a bag.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Each of the girls have a bag."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "girls",
+     "as": "girls"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'have' is wrong here; it should be 'has'. 'Each' takes a singular verb.",
+    "as": "ইয়াত 'have' ভুল; 'has' হোৱা উচিত। 'Each' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-208",
+   "q": {
+    "en": "Find the error in the sentence: The teacher told the students to not talk.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The teacher told the students to not talk."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "not",
+     "as": "not"
+    },
+    {
+     "en": "to not talk",
+     "as": "to not talk"
+    },
+    {
+     "en": "talk",
+     "as": "talk"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to not talk' is wrong here; it should be 'not to talk'. The negative infinitive is 'not to'.",
+    "as": "ইয়াত 'to not talk' ভুল; 'not to talk' হোৱা উচিত। নেতিবাচক infinitive হৈছে 'not to'।"
+   }
+  },
+  {
+   "id": "error-detection-209",
+   "q": {
+    "en": "Find the error in the sentence: He asked me to not go there.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He asked me to not go there."
+   },
+   "options": [
+    {
+     "en": "to not go",
+     "as": "to not go"
+    },
+    {
+     "en": "go",
+     "as": "go"
+    },
+    {
+     "en": "there",
+     "as": "there"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to not go' is wrong here; it should be 'not to go'. The negative infinitive is 'not to'.",
+    "as": "ইয়াত 'to not go' ভুল; 'not to go' হোৱা উচিত। নেতিবাচক infinitive হৈছে 'not to'।"
+   }
+  },
+  {
+   "id": "error-detection-210",
+   "q": {
+    "en": "Find the error in the sentence: She hardly knows nothing about it.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She hardly knows nothing about it."
+   },
+   "options": [
+    {
+     "en": "it",
+     "as": "it"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "hardly",
+     "as": "hardly"
+    },
+    {
+     "en": "nothing",
+     "as": "nothing"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'nothing' is wrong here; it should be 'anything'. A double negative is wrong.",
+    "as": "ইয়াত 'nothing' ভুল; 'anything' হোৱা উচিত। দ্বিগুণ নেতিবাচক ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-211",
+   "q": {
+    "en": "Find the error in the sentence: He never tells lies, doesn't he?",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He never tells lies, doesn't he?"
+   },
+   "options": [
+    {
+     "en": "doesn't he",
+     "as": "doesn't he"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "never",
+     "as": "never"
+    },
+    {
+     "en": "tells",
+     "as": "tells"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'doesn't he' is wrong here; it should be 'does he'. A positive tag follows a negative statement.",
+    "as": "ইয়াত 'doesn't he' ভুল; 'does he' হোৱা উচিত। নেতিবাচক উক্তিৰ পিছত ধনাত্মক tag আহে।"
+   }
+  },
+  {
+   "id": "error-detection-212",
+   "q": {
+    "en": "Find the error in the sentence: Let me to help you.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Let me to help you."
+   },
+   "options": [
+    {
+     "en": "to help",
+     "as": "to help"
+    },
+    {
+     "en": "you",
+     "as": "you"
+    },
+    {
+     "en": "Let",
+     "as": "Let"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to help' is wrong here; it should be 'help'. 'Let' takes the bare infinitive.",
+    "as": "ইয়াত 'to help' ভুল; 'help' হোৱা উচিত। 'Let' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-213",
+   "q": {
+    "en": "Find the error in the sentence: I would rather to die than beg.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I would rather to die than beg."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "to die",
+     "as": "to die"
+    },
+    {
+     "en": "beg",
+     "as": "beg"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to die' is wrong here; it should be 'die'. 'Would rather' takes the bare infinitive.",
+    "as": "ইয়াত 'to die' ভুল; 'die' হোৱা উচিত। 'Would rather' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-214",
+   "q": {
+    "en": "Find the error in the sentence: He had better to consult a doctor.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He had better to consult a doctor."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "doctor",
+     "as": "doctor"
+    },
+    {
+     "en": "to consult",
+     "as": "to consult"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to consult' is wrong here; it should be 'consult'. 'Had better' takes the bare infinitive.",
+    "as": "ইয়াত 'to consult' ভুল; 'consult' হোৱা উচিত। 'Had better' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-215",
+   "q": {
+    "en": "Find the error in the sentence: She cannot help to laugh.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She cannot help to laugh."
+   },
+   "options": [
+    {
+     "en": "laugh",
+     "as": "laugh"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "to laugh",
+     "as": "to laugh"
+    },
+    {
+     "en": "cannot",
+     "as": "cannot"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to laugh' is wrong here; it should be 'laughing'. 'Cannot help' takes a gerund.",
+    "as": "ইয়াত 'to laugh' ভুল; 'laughing' হোৱা উচিত। 'Cannot help' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-216",
+   "q": {
+    "en": "Find the error in the sentence: He is busy to write a letter.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is busy to write a letter."
+   },
+   "options": [
+    {
+     "en": "letter",
+     "as": "letter"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "to write",
+     "as": "to write"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to write' is wrong here; it should be 'writing'. 'Busy' takes a gerund.",
+    "as": "ইয়াত 'to write' ভুল; 'writing' হোৱা উচিত। 'Busy' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-217",
+   "q": {
+    "en": "Find the error in the sentence: The house is worth to buy.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The house is worth to buy."
+   },
+   "options": [
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "house",
+     "as": "house"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "to buy",
+     "as": "to buy"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to buy' is wrong here; it should be 'buying'. 'Worth' takes a gerund.",
+    "as": "ইয়াত 'to buy' ভুল; 'buying' হোৱা উচিত। 'Worth' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-218",
+   "q": {
+    "en": "Find the error in the sentence: He is accustomed with hard work.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is accustomed with hard work."
+   },
+   "options": [
+    {
+     "en": "accustomed",
+     "as": "accustomed"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "hard",
+     "as": "hard"
+    },
+    {
+     "en": "work",
+     "as": "work"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'with' is wrong here; it should be 'to'. 'Accustomed' takes 'to'.",
+    "as": "ইয়াত 'with' ভুল; 'to' হোৱা উচিত। 'Accustomed' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-219",
+   "q": {
+    "en": "Find the error in the sentence: She is afraid to the dark.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is afraid to the dark."
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "dark",
+     "as": "dark"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'of'. 'Afraid' takes 'of'.",
+    "as": "ইয়াত 'to' ভুল; 'of' হোৱা উচিত। 'Afraid' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-220",
+   "q": {
+    "en": "Find the error in the sentence: He is interested to music.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is interested to music."
+   },
+   "options": [
+    {
+     "en": "music",
+     "as": "music"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'in'. 'Interested' takes 'in'.",
+    "as": "ইয়াত 'to' ভুল; 'in' হোৱা উচিত। 'Interested' ৱে 'in' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-221",
+   "q": {
+    "en": "Find the error in the sentence: She is fond to sweets.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is fond to sweets."
+   },
+   "options": [
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "fond",
+     "as": "fond"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'of'. 'Fond' takes 'of'.",
+    "as": "ইয়াত 'to' ভুল; 'of' হোৱা উচিত। 'Fond' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-222",
+   "q": {
+    "en": "Find the error in the sentence: He is sorry of his mistake.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is sorry of his mistake."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "sorry",
+     "as": "sorry"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'for'. 'Sorry' takes 'for'.",
+    "as": "ইয়াত 'of' ভুল; 'for' হোৱা উচিত। 'Sorry' ৱে 'for' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-223",
+   "q": {
+    "en": "Find the error in the sentence: I am thankful of your help.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am thankful of your help."
+   },
+   "options": [
+    {
+     "en": "your",
+     "as": "your"
+    },
+    {
+     "en": "help",
+     "as": "help"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'for'. 'Thankful' takes 'for'.",
+    "as": "ইয়াত 'of' ভুল; 'for' হোৱা উচিত। 'Thankful' ৱে 'for' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-224",
+   "q": {
+    "en": "Find the error in the sentence: He is proud on his son.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is proud on his son."
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "son",
+     "as": "son"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'on' is wrong here; it should be 'of'. 'Proud' takes 'of'.",
+    "as": "ইয়াত 'on' ভুল; 'of' হোৱা উচিত। 'Proud' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-225",
+   "q": {
+    "en": "Find the error in the sentence: She is ashamed for her conduct.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is ashamed for her conduct."
+   },
+   "options": [
+    {
+     "en": "conduct",
+     "as": "conduct"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'of'. 'Ashamed' takes 'of'.",
+    "as": "ইয়াত 'for' ভুল; 'of' হোৱা উচিত। 'Ashamed' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-226",
+   "q": {
+    "en": "Find the error in the sentence: The boy is guilty for murder.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The boy is guilty for murder."
+   },
+   "options": [
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "boy",
+     "as": "boy"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'of'. 'Guilty' takes 'of'.",
+    "as": "ইয়াত 'for' ভুল; 'of' হোৱা উচিত। 'Guilty' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-227",
+   "q": {
+    "en": "Find the error in the sentence: She is conscious for her duty.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is conscious for her duty."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "conscious",
+     "as": "conscious"
+    },
+    {
+     "en": "her",
+     "as": "her"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'of'. 'Conscious' takes 'of'.",
+    "as": "ইয়াত 'for' ভুল; 'of' হোৱা উচিত। 'Conscious' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-228",
+   "q": {
+    "en": "Find the error in the sentence: He is jealous from his brother.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is jealous from his brother."
+   },
+   "options": [
+    {
+     "en": "jealous",
+     "as": "jealous"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "brother",
+     "as": "brother"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'from' is wrong here; it should be 'of'. 'Jealous' takes 'of'.",
+    "as": "ইয়াত 'from' ভুল; 'of' হোৱা উচিত। 'Jealous' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-229",
+   "q": {
+    "en": "Find the error in the sentence: He is doubtful for success.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is doubtful for success."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "doubtful",
+     "as": "doubtful"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'of'. 'Doubtful' takes 'of'.",
+    "as": "ইয়াত 'for' ভুল; 'of' হোৱা উচিত। 'Doubtful' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-230",
+   "q": {
+    "en": "Find the error in the sentence: She is desirous to fame.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is desirous to fame."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "desirous",
+     "as": "desirous"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "fame",
+     "as": "fame"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to' is wrong here; it should be 'of'. 'Desirous' takes 'of'.",
+    "as": "ইয়াত 'to' ভুল; 'of' হোৱা উচিত। 'Desirous' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-231",
+   "q": {
+    "en": "Find the error in the sentence: He is angry at me for my mistake.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is angry at me for my mistake."
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "mistake",
+     "as": "mistake"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'at' is wrong here; it should be 'with'. 'Angry with' is used for a person.",
+    "as": "ইয়াত 'at' ভুল; 'with' হোৱা উচিত। মানুহৰ বাবে 'angry with' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-232",
+   "q": {
+    "en": "Find the error in the sentence: The meeting was presided by the Principal.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The meeting was presided by the Principal."
+   },
+   "options": [
+    {
+     "en": "meeting",
+     "as": "meeting"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "presided",
+     "as": "presided"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'by' is wrong here; it should be 'over'. 'Presided over' is the correct phrase.",
+    "as": "ইয়াত 'by' ভুল; 'over' হোৱা উচিত। 'Presided over' শুদ্ধ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-233",
+   "q": {
+    "en": "Find the error in the sentence: He is married with her.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is married with her."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "married",
+     "as": "married"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'with' is wrong here; it should be 'to'. 'Married' takes 'to'.",
+    "as": "ইয়াত 'with' ভুল; 'to' হোৱা উচিত। 'Married' ৱে 'to' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-234",
+   "q": {
+    "en": "Find the error in the sentence: She is engaged with a doctor.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is engaged with a doctor."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "engaged",
+     "as": "engaged"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "doctor",
+     "as": "doctor"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'with' is wrong here; it should be 'to'. 'Engaged to' is used for marriage.",
+    "as": "ইয়াত 'with' ভুল; 'to' হোৱা উচিত। বিবাহৰ বাবে 'engaged to' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-235",
+   "q": {
+    "en": "Find the error in the sentence: He is busy in his work.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is busy in his work."
+   },
+   "options": [
+    {
+     "en": "work",
+     "as": "work"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'in' is wrong here; it should be 'with'. 'Busy with' is the correct phrase.",
+    "as": "ইয়াত 'in' ভুল; 'with' হোৱা উচিত। 'Busy with' শুদ্ধ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-236",
+   "q": {
+    "en": "Find the error in the sentence: He is blind of his own faults.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is blind of his own faults."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "blind",
+     "as": "blind"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'to'. 'Blind to' is used for faults.",
+    "as": "ইয়াত 'of' ভুল; 'to' হোৱা উচিত। দোষৰ বাবে 'blind to' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-237",
+   "q": {
+    "en": "Find the error in the sentence: He is deaf of all advice.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is deaf of all advice."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "deaf",
+     "as": "deaf"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "all",
+     "as": "all"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'to'. 'Deaf to' is used for advice.",
+    "as": "ইয়াত 'of' ভুল; 'to' হোৱা উচিত। পৰামৰ্শৰ বাবে 'deaf to' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-238",
+   "q": {
+    "en": "Find the error in the sentence: He was charged of murder.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He was charged of murder."
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "charged",
+     "as": "charged"
+    },
+    {
+     "en": "murder",
+     "as": "murder"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'of' is wrong here; it should be 'with'. 'Charged with' is the correct phrase.",
+    "as": "ইয়াত 'of' ভুল; 'with' হোৱা উচিত। 'Charged with' শুদ্ধ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-239",
+   "q": {
+    "en": "Find the error in the sentence: She was accused for stealing.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She was accused for stealing."
+   },
+   "options": [
+    {
+     "en": "accused",
+     "as": "accused"
+    },
+    {
+     "en": "stealing",
+     "as": "stealing"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'for' is wrong here; it should be 'of'. 'Accused' takes 'of'.",
+    "as": "ইয়াত 'for' ভুল; 'of' হোৱা উচিত। 'Accused' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-240",
+   "q": {
+    "en": "Find the error in the sentence: He was acquitted from the charge.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He was acquitted from the charge."
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "charge",
+     "as": "charge"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'from' is wrong here; it should be 'of'. 'Acquitted of' is the correct phrase.",
+    "as": "ইয়াত 'from' ভুল; 'of' হোৱা উচিত। 'Acquitted of' শুদ্ধ বাক্যাংশ।"
+   }
+  },
+  {
+   "id": "error-detection-241",
+   "q": {
+    "en": "Find the error in the sentence: The thief was deprived from his liberty.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The thief was deprived from his liberty."
+   },
+   "options": [
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "thief",
+     "as": "thief"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'from' is wrong here; it should be 'of'. 'Deprived' takes 'of'.",
+    "as": "ইয়াত 'from' ভুল; 'of' হোৱা উচিত। 'Deprived' ৱে 'of' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-242",
+   "q": {
+    "en": "Find the error in the sentence: He is not accustomed to live in a city.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is not accustomed to live in a city."
+   },
+   "options": [
+    {
+     "en": "accustomed",
+     "as": "accustomed"
+    },
+    {
+     "en": "live",
+     "as": "live"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'live' is wrong here; it should be 'living'. 'Accustomed to' takes a gerund.",
+    "as": "ইয়াত 'live' ভুল; 'living' হোৱা উচিত। 'Accustomed to' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-243",
+   "q": {
+    "en": "Find the error in the sentence: She is averse to work hard.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is averse to work hard."
+   },
+   "options": [
+    {
+     "en": "averse",
+     "as": "averse"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "hard",
+     "as": "hard"
+    },
+    {
+     "en": "work",
+     "as": "work"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'work' is wrong here; it should be 'working'. 'Averse to' takes a gerund.",
+    "as": "ইয়াত 'work' ভুল; 'working' হোৱা উচিত। 'Averse to' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-244",
+   "q": {
+    "en": "Find the error in the sentence: He is addicted to gamble.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is addicted to gamble."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "gamble",
+     "as": "gamble"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'gamble' is wrong here; it should be 'gambling'. 'Addicted to' takes a gerund.",
+    "as": "ইয়াত 'gamble' ভুল; 'gambling' হোৱা উচিত। 'Addicted to' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-245",
+   "q": {
+    "en": "Find the error in the sentence: She is fond of to dance.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is fond of to dance."
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "dance",
+     "as": "dance"
+    },
+    {
+     "en": "to dance",
+     "as": "to dance"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to dance' is wrong here; it should be 'dancing'. A preposition takes a gerund.",
+    "as": "ইয়াত 'to dance' ভুল; 'dancing' হোৱা উচিত। পূৰ্বসৰ্গই gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-246",
+   "q": {
+    "en": "Find the error in the sentence: He insisted on to see the manager.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He insisted on to see the manager."
+   },
+   "options": [
+    {
+     "en": "to see",
+     "as": "to see"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "insisted",
+     "as": "insisted"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to see' is wrong here; it should be 'seeing'. 'Insist on' takes a gerund.",
+    "as": "ইয়াত 'to see' ভুল; 'seeing' হোৱা উচিত। 'Insist on' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-247",
+   "q": {
+    "en": "Find the error in the sentence: He is afraid of to fail.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is afraid of to fail."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "to fail",
+     "as": "to fail"
+    },
+    {
+     "en": "afraid",
+     "as": "afraid"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to fail' is wrong here; it should be 'failing'. A preposition takes a gerund.",
+    "as": "ইয়াত 'to fail' ভুল; 'failing' হোৱা উচিত। পূৰ্বসৰ্গই gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-248",
+   "q": {
+    "en": "Find the error in the sentence: He prevented me to enter the room.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He prevented me to enter the room."
+   },
+   "options": [
+    {
+     "en": "to enter",
+     "as": "to enter"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "enter",
+     "as": "enter"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to enter' is wrong here; it should be 'from entering'. 'Prevent from' takes a gerund.",
+    "as": "ইয়াত 'to enter' ভুল; 'from entering' হোৱা উচিত। 'Prevent from' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-249",
+   "q": {
+    "en": "Find the error in the sentence: She stopped me to go out.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She stopped me to go out."
+   },
+   "options": [
+    {
+     "en": "to go",
+     "as": "to go"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "go",
+     "as": "go"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to go' is wrong here; it should be 'from going'. 'Stop from' takes a gerund.",
+    "as": "ইয়াত 'to go' ভুল; 'from going' হোৱা উচিত। 'Stop from' ৱে gerund লয়।"
+   }
+  },
+  {
+   "id": "error-detection-250",
+   "q": {
+    "en": "Find the error in the sentence: He is too tired for walking.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is too tired for walking."
+   },
+   "options": [
+    {
+     "en": "tired",
+     "as": "tired"
+    },
+    {
+     "en": "for walking",
+     "as": "for walking"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "walking",
+     "as": "walking"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'for walking' is wrong here; it should be 'to walk'. 'Too tired to' is the correct pattern.",
+    "as": "ইয়াত 'for walking' ভুল; 'to walk' হোৱা উচিত। 'Too tired to' শুদ্ধ আৰ্হি।"
+   }
+  },
+  {
+   "id": "error-detection-251",
+   "q": {
+    "en": "Find the error in the sentence: He was the first man to arrived.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He was the first man to arrived."
+   },
+   "options": [
+    {
+     "en": "man",
+     "as": "man"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "arrived",
+     "as": "arrived"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'arrived' is wrong here; it should be 'arrive'. The infinitive after 'first' is in the base form.",
+    "as": "ইয়াত 'arrived' ভুল; 'arrive' হোৱা উচিত। 'First' ৰ পিছত infinitive base form ত থাকে।"
+   }
+  },
+  {
+   "id": "error-detection-252",
+   "q": {
+    "en": "Find the error in the sentence: I heard him to speak loudly.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I heard him to speak loudly."
+   },
+   "options": [
+    {
+     "en": "loudly",
+     "as": "loudly"
+    },
+    {
+     "en": "heard",
+     "as": "heard"
+    },
+    {
+     "en": "to speak",
+     "as": "to speak"
+    },
+    {
+     "en": "him",
+     "as": "him"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to speak' is wrong here; it should be 'speak'. Verbs of perception take the bare infinitive.",
+    "as": "ইয়াত 'to speak' ভুল; 'speak' হোৱা উচিত। অনুভৱৰ ক্ৰিয়াই bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-253",
+   "q": {
+    "en": "Find the error in the sentence: He made me to wait for an hour.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He made me to wait for an hour."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "to wait",
+     "as": "to wait"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'to wait' is wrong here; it should be 'wait'. 'Make' takes the bare infinitive.",
+    "as": "ইয়াত 'to wait' ভুল; 'wait' হোৱা উচিত। 'Make' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-254",
+   "q": {
+    "en": "Find the error in the sentence: I saw him to cross the road.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I saw him to cross the road."
+   },
+   "options": [
+    {
+     "en": "to cross",
+     "as": "to cross"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "road",
+     "as": "road"
+    },
+    {
+     "en": "saw",
+     "as": "saw"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to cross' is wrong here; it should be 'cross'. Verbs of perception take the bare infinitive.",
+    "as": "ইয়াত 'to cross' ভুল; 'cross' হোৱা উচিত। অনুভৱৰ ক্ৰিয়াই bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-255",
+   "q": {
+    "en": "Find the error in the sentence: He need not to come tomorrow.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He need not to come tomorrow."
+   },
+   "options": [
+    {
+     "en": "to come",
+     "as": "to come"
+    },
+    {
+     "en": "tomorrow",
+     "as": "tomorrow"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "need",
+     "as": "need"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'to come' is wrong here; it should be 'come'. 'Need not' takes the bare infinitive.",
+    "as": "ইয়াত 'to come' ভুল; 'come' হোৱা উচিত। 'Need not' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-256",
+   "q": {
+    "en": "Find the error in the sentence: You had better to see a doctor.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: You had better to see a doctor."
+   },
+   "options": [
+    {
+     "en": "You",
+     "as": "You"
+    },
+    {
+     "en": "to see",
+     "as": "to see"
+    },
+    {
+     "en": "had",
+     "as": "had"
+    },
+    {
+     "en": "better",
+     "as": "better"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'to see' is wrong here; it should be 'see'. 'Had better' takes the bare infinitive.",
+    "as": "ইয়াত 'to see' ভুল; 'see' হোৱা উচিত। 'Had better' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-257",
+   "q": {
+    "en": "Find the error in the sentence: He cannot but to laugh.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He cannot but to laugh."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "cannot",
+     "as": "cannot"
+    },
+    {
+     "en": "to laugh",
+     "as": "to laugh"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'to laugh' is wrong here; it should be 'laugh'. 'Cannot but' takes the bare infinitive.",
+    "as": "ইয়াত 'to laugh' ভুল; 'laugh' হোৱা উচিত। 'Cannot but' ৱে bare infinitive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-258",
+   "q": {
+    "en": "Find the error in the sentence: She is the girl whom I think is honest.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is the girl whom I think is honest."
+   },
+   "options": [
+    {
+     "en": "honest",
+     "as": "honest"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "whom",
+     "as": "whom"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'whom' is wrong here; it should be 'who'. 'Who' is the subject of 'is honest'.",
+    "as": "ইয়াত 'whom' ভুল; 'who' হোৱা উচিত। 'Who' হৈছে 'is honest' ৰ কৰ্তা।"
+   }
+  },
+  {
+   "id": "error-detection-259",
+   "q": {
+    "en": "Find the error in the sentence: This is the boy whom I believe won the prize.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the boy whom I believe won the prize."
+   },
+   "options": [
+    {
+     "en": "prize",
+     "as": "prize"
+    },
+    {
+     "en": "whom",
+     "as": "whom"
+    },
+    {
+     "en": "This",
+     "as": "This"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'whom' is wrong here; it should be 'who'. 'Who' is the subject of 'won'.",
+    "as": "ইয়াত 'whom' ভুল; 'who' হোৱা উচিত। 'Who' হৈছে 'won' ৰ কৰ্তা।"
+   }
+  },
+  {
+   "id": "error-detection-260",
+   "q": {
+    "en": "Find the error in the sentence: He is the man which helped me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the man which helped me."
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "man",
+     "as": "man"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'which' is wrong here; it should be 'who'. 'Who' is used for people.",
+    "as": "ইয়াত 'which' ভুল; 'who' হোৱা উচিত। মানুহৰ বাবে 'who' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-261",
+   "q": {
+    "en": "Find the error in the sentence: The book who I read was interesting.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The book who I read was interesting."
+   },
+   "options": [
+    {
+     "en": "who",
+     "as": "who"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "book",
+     "as": "book"
+    },
+    {
+     "en": "read",
+     "as": "read"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'who' is wrong here; it should be 'which'. 'Which' is used for things.",
+    "as": "ইয়াত 'who' ভুল; 'which' হোৱা উচিত। বস্তুৰ বাবে 'which' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-262",
+   "q": {
+    "en": "Find the error in the sentence: This is the place which we met.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the place which we met."
+   },
+   "options": [
+    {
+     "en": "place",
+     "as": "place"
+    },
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "we",
+     "as": "we"
+    },
+    {
+     "en": "met",
+     "as": "met"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'which' is wrong here; it should be 'where'. 'Where' is used for a place.",
+    "as": "ইয়াত 'which' ভুল; 'where' হোৱা উচিত। ঠাইৰ বাবে 'where' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-263",
+   "q": {
+    "en": "Find the error in the sentence: I know the reason why he is absent, isn't it?",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I know the reason why he is absent, isn't it?"
+   },
+   "options": [
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "reason",
+     "as": "reason"
+    },
+    {
+     "en": "isn't it",
+     "as": "isn't it"
+    },
+    {
+     "en": "why",
+     "as": "why"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'isn't it' is wrong here; it should be 'isn't he'. The tag matches the subject pronoun.",
+    "as": "ইয়াত 'isn't it' ভুল; 'isn't he' হোৱা উচিত। Tag কৰ্তৃবাচক সৰ্বনামৰ লগত মিলে।"
+   }
+  },
+  {
+   "id": "error-detection-264",
+   "q": {
+    "en": "Find the error in the sentence: He is the only one who have done it.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the only one who have done it."
+   },
+   "options": [
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "it",
+     "as": "it"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'have' is wrong here; it should be 'has'. 'Who' refers to 'one' and takes a singular verb.",
+    "as": "ইয়াত 'have' ভুল; 'has' হোৱা উচিত। 'Who' ৱে 'one' ক নিৰ্দেশ কৰি একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-265",
+   "q": {
+    "en": "Find the error in the sentence: It is high time we go home.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: It is high time we go home."
+   },
+   "options": [
+    {
+     "en": "go",
+     "as": "go"
+    },
+    {
+     "en": "It",
+     "as": "It"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "high",
+     "as": "high"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'go' is wrong here; it should be 'went'. 'It is high time' takes the past subjunctive.",
+    "as": "ইয়াত 'go' ভুল; 'went' হোৱা উচিত। 'It is high time' ৱে past subjunctive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-266",
+   "q": {
+    "en": "Find the error in the sentence: It is time you take a decision.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: It is time you take a decision."
+   },
+   "options": [
+    {
+     "en": "take",
+     "as": "take"
+    },
+    {
+     "en": "It",
+     "as": "It"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "time",
+     "as": "time"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'take' is wrong here; it should be 'took'. 'It is time' takes the past subjunctive.",
+    "as": "ইয়াত 'take' ভুল; 'took' হোৱা উচিত। 'It is time' ৱে past subjunctive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-267",
+   "q": {
+    "en": "Find the error in the sentence: If I was you, I would accept.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: If I was you, I would accept."
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "would",
+     "as": "would"
+    },
+    {
+     "en": "accept",
+     "as": "accept"
+    },
+    {
+     "en": "If",
+     "as": "If"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'was' is wrong here; it should be 'were'. An unreal condition takes 'were'.",
+    "as": "ইয়াত 'was' ভুল; 'were' হোৱা উচিত। অবাস্তৱ চৰ্তই 'were' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-268",
+   "q": {
+    "en": "Find the error in the sentence: He behaves as if he was the boss.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He behaves as if he was the boss."
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "if",
+     "as": "if"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "boss",
+     "as": "boss"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'was' is wrong here; it should be 'were'. 'As if' takes 'were' for an unreal state.",
+    "as": "ইয়াত 'was' ভুল; 'were' হোৱা উচিত। অবাস্তৱ অৱস্থাৰ বাবে 'as if' ৱে 'were' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-269",
+   "q": {
+    "en": "Find the error in the sentence: I would rather you leave now.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I would rather you leave now."
+   },
+   "options": [
+    {
+     "en": "would",
+     "as": "would"
+    },
+    {
+     "en": "leave",
+     "as": "leave"
+    },
+    {
+     "en": "rather",
+     "as": "rather"
+    },
+    {
+     "en": "you",
+     "as": "you"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'leave' is wrong here; it should be 'left'. 'Would rather' with a subject takes the past subjunctive.",
+    "as": "ইয়াত 'leave' ভুল; 'left' হোৱা উচিত। কৰ্তাসহ 'would rather' ৱে past subjunctive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-270",
+   "q": {
+    "en": "Find the error in the sentence: Supposing he refuse, what will you do?",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Supposing he refuse, what will you do?"
+   },
+   "options": [
+    {
+     "en": "refuse",
+     "as": "refuse"
+    },
+    {
+     "en": "do",
+     "as": "do"
+    },
+    {
+     "en": "Supposing",
+     "as": "Supposing"
+    },
+    {
+     "en": "he",
+     "as": "he"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'refuse' is wrong here; it should be 'refused'. A supposition takes the past subjunctive.",
+    "as": "ইয়াত 'refuse' ভুল; 'refused' হোৱা উচিত। ধাৰণাই past subjunctive লয়।"
+   }
+  },
+  {
+   "id": "error-detection-271",
+   "q": {
+    "en": "Find the error in the sentence: He talks as though he knows everything.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He talks as though he knows everything."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "talks",
+     "as": "talks"
+    },
+    {
+     "en": "knows",
+     "as": "knows"
+    },
+    {
+     "en": "as",
+     "as": "as"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'knows' is wrong here; it should be 'knew'. 'As though' takes 'knew' for an unreal state.",
+    "as": "ইয়াত 'knows' ভুল; 'knew' হোৱা উচিত। অবাস্তৱ অৱস্থাৰ বাবে 'as though' ৱে 'knew' লয়।"
+   }
+  },
+  {
+   "id": "error-detection-272",
+   "q": {
+    "en": "Find the error in the sentence: The majority of the students has passed.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The majority of the students has passed."
+   },
+   "options": [
+    {
+     "en": "majority",
+     "as": "majority"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "students",
+     "as": "students"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'has' is wrong here; it should be 'have'. 'The majority of' takes a plural verb.",
+    "as": "ইয়াত 'has' ভুল; 'have' হোৱা উচিত। 'The majority of' ৱে বহুবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-273",
+   "q": {
+    "en": "Find the error in the sentence: A variety of books was sold.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: A variety of books was sold."
+   },
+   "options": [
+    {
+     "en": "variety",
+     "as": "variety"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "books",
+     "as": "books"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'was' is wrong here; it should be 'were'. 'A variety of' takes a plural verb.",
+    "as": "ইয়াত 'was' ভুল; 'were' হোৱা উচিত। 'A variety of' ৱে বহুবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-274",
+   "q": {
+    "en": "Find the error in the sentence: Plenty of time are left.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Plenty of time are left."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "time",
+     "as": "time"
+    },
+    {
+     "en": "left",
+     "as": "left"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'are' is wrong here; it should be 'is'. 'Plenty of' with an uncountable noun takes a singular verb.",
+    "as": "ইয়াত 'are' ভুল; 'is' হোৱা উচিত। অগণনীয় বিশেষ্যৰ সৈতে 'plenty of' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-275",
+   "q": {
+    "en": "Find the error in the sentence: There were a lot of noise outside.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: There were a lot of noise outside."
+   },
+   "options": [
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "outside",
+     "as": "outside"
+    },
+    {
+     "en": "There",
+     "as": "There"
+    },
+    {
+     "en": "lot",
+     "as": "lot"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'were' is wrong here; it should be 'was'. 'A lot of' with an uncountable noun takes a singular verb.",
+    "as": "ইয়াত 'were' ভুল; 'was' হোৱা উচিত। অগণনীয় বিশেষ্যৰ সৈতে 'a lot of' ৱে একবচন ক্ৰিয়া লয়।"
+   }
+  },
+  {
+   "id": "error-detection-276",
+   "q": {
+    "en": "Find the error in the sentence: He is more wiser than his brother.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is more wiser than his brother."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "more",
+     "as": "more"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'more' is wrong here; it should be 'wiser'. A double comparative is wrong.",
+    "as": "ইয়াত 'more' ভুল; 'wiser' হোৱা উচিত। দ্বিগুণ comparative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-277",
+   "q": {
+    "en": "Find the error in the sentence: She is the most prettiest girl.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is the most prettiest girl."
+   },
+   "options": [
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "most",
+     "as": "most"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'most' is wrong here; it should be 'prettiest'. A double superlative is wrong.",
+    "as": "ইয়াত 'most' ভুল; 'prettiest' হোৱা উচিত। দ্বিগুণ superlative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-278",
+   "q": {
+    "en": "Find the error in the sentence: He is very unique in his style.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is very unique in his style."
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "very",
+     "as": "very"
+    },
+    {
+     "en": "style",
+     "as": "style"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'very' is wrong here; it should be 'unique'. 'Unique' is absolute and takes no modifier of degree.",
+    "as": "ইয়াত 'very' ভুল; 'unique' হোৱা উচিত। 'Unique' নিৰপেক্ষ আৰু মাত্ৰাৰ পৰিৱৰ্তক লয় না।"
+   }
+  },
+  {
+   "id": "error-detection-279",
+   "q": {
+    "en": "Find the error in the sentence: My hairs are black.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: My hairs are black."
+   },
+   "options": [
+    {
+     "en": "black",
+     "as": "black"
+    },
+    {
+     "en": "My",
+     "as": "My"
+    },
+    {
+     "en": "hairs",
+     "as": "hairs"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'hairs' is wrong here; it should be 'hair'. 'Hair' is uncountable for the whole head.",
+    "as": "ইয়াত 'hairs' ভুল; 'hair' হোৱা উচিত। সম্পূৰ্ণ মূৰৰ বাবে 'hair' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-280",
+   "q": {
+    "en": "Spot the error in the sentence: He gave me many informations.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He gave me many informations."
+   },
+   "options": [
+    {
+     "en": "many",
+     "as": "many"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    },
+    {
+     "en": "informations",
+     "as": "informations"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'informations' is wrong here; it should be 'information'. 'Information' is uncountable.",
+    "as": "ইয়াত 'informations' ভুল; 'information' হোৱা উচিত। 'Information' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-281",
+   "q": {
+    "en": "Find the error in the sentence: She has many furnitures at home.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She has many furnitures at home."
+   },
+   "options": [
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "furnitures",
+     "as": "furnitures"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'furnitures' is wrong here; it should be 'furniture'. 'Furniture' is uncountable.",
+    "as": "ইয়াত 'furnitures' ভুল; 'furniture' হোৱা উচিত। 'Furniture' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-282",
+   "q": {
+    "en": "Find the error in the sentence: I need some advices from you.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I need some advices from you."
+   },
+   "options": [
+    {
+     "en": "some",
+     "as": "some"
+    },
+    {
+     "en": "advices",
+     "as": "advices"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "you",
+     "as": "you"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'advices' is wrong here; it should be 'advice'. 'Advice' is uncountable.",
+    "as": "ইয়াত 'advices' ভুল; 'advice' হোৱা উচিত। 'Advice' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-283",
+   "q": {
+    "en": "Find the error in the sentence: He bought many equipments.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He bought many equipments."
+   },
+   "options": [
+    {
+     "en": "equipments",
+     "as": "equipments"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "bought",
+     "as": "bought"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'equipments' is wrong here; it should be 'equipment'. 'Equipment' is uncountable.",
+    "as": "ইয়াত 'equipments' ভুল; 'equipment' হোৱা উচিত। 'Equipment' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-284",
+   "q": {
+    "en": "Find the error in the sentence: She gave me a good news.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She gave me a good news."
+   },
+   "options": [
+    {
+     "en": "good",
+     "as": "good"
+    },
+    {
+     "en": "news",
+     "as": "news"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'a' is wrong here; it should be 'some'. 'News' is uncountable and takes no 'a'.",
+    "as": "ইয়াত 'a' ভুল; 'some' হোৱা উচিত। 'News' অগণনীয় আৰু 'a' নলয়।"
+   }
+  },
+  {
+   "id": "error-detection-285",
+   "q": {
+    "en": "Find the error in the sentence: The furnitures are new.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The furnitures are new."
+   },
+   "options": [
+    {
+     "en": "new",
+     "as": "new"
+    },
+    {
+     "en": "furnitures",
+     "as": "furnitures"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'furnitures' is wrong here; it should be 'furniture'. 'Furniture' is uncountable.",
+    "as": "ইয়াত 'furnitures' ভুল; 'furniture' হোৱা উচিত। 'Furniture' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-286",
+   "q": {
+    "en": "Find the error in the sentence: He has a lot of moneys.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has a lot of moneys."
+   },
+   "options": [
+    {
+     "en": "moneys",
+     "as": "moneys"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "lot",
+     "as": "lot"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'moneys' is wrong here; it should be 'money'. 'Money' is uncountable.",
+    "as": "ইয়াত 'moneys' ভুল; 'money' হোৱা উচিত। 'Money' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-287",
+   "q": {
+    "en": "Find the error in the sentence: She wears many jewelleries.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She wears many jewelleries."
+   },
+   "options": [
+    {
+     "en": "wears",
+     "as": "wears"
+    },
+    {
+     "en": "jewelleries",
+     "as": "jewelleries"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'jewelleries' is wrong here; it should be 'jewellery'. 'Jewellery' is uncountable.",
+    "as": "ইয়াত 'jewelleries' ভুল; 'jewellery' হোৱা উচিত। 'Jewellery' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-288",
+   "q": {
+    "en": "Find the error in the sentence: He gave me two breads.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He gave me two breads."
+   },
+   "options": [
+    {
+     "en": "two",
+     "as": "two"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    },
+    {
+     "en": "breads",
+     "as": "breads"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'breads' is wrong here; it should be 'bread'. 'Bread' is uncountable.",
+    "as": "ইয়াত 'breads' ভুল; 'bread' হোৱা উচিত। 'Bread' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-289",
+   "q": {
+    "en": "Find the error in the sentence: The sceneries of Assam are lovely.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The sceneries of Assam are lovely."
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "sceneries",
+     "as": "sceneries"
+    },
+    {
+     "en": "lovely",
+     "as": "lovely"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'sceneries' is wrong here; it should be 'scenery'. 'Scenery' is uncountable.",
+    "as": "ইয়াত 'sceneries' ভুল; 'scenery' হোৱা উচিত। 'Scenery' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-290",
+   "q": {
+    "en": "Find the error in the sentence: He has many knowledges.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has many knowledges."
+   },
+   "options": [
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "knowledges",
+     "as": "knowledges"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'knowledges' is wrong here; it should be 'knowledge'. 'Knowledge' is uncountable.",
+    "as": "ইয়াত 'knowledges' ভুল; 'knowledge' হোৱা উচিত। 'Knowledge' অগণনীয়।"
+   }
+  },
+  {
+   "id": "error-detection-291",
+   "q": {
+    "en": "Find the error in the sentence: He works hardly and succeeds.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He works hardly and succeeds."
+   },
+   "options": [
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "succeeds",
+     "as": "succeeds"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "hardly",
+     "as": "hardly"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'hardly' is wrong here; it should be 'hard'. 'Hardly' means scarcely; 'hard' means with effort.",
+    "as": "ইয়াত 'hardly' ভুল; 'hard' হোৱা উচিত। 'Hardly' মানে কমকৈ; 'hard' মানে পৰিশ্ৰমেৰে।"
+   }
+  },
+  {
+   "id": "error-detection-292",
+   "q": {
+    "en": "Find the error in the sentence: She speaks English very good.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She speaks English very good."
+   },
+   "options": [
+    {
+     "en": "good",
+     "as": "good"
+    },
+    {
+     "en": "very",
+     "as": "very"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "speaks",
+     "as": "speaks"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'good' is wrong here; it should be 'well'. A verb needs an adverb.",
+    "as": "ইয়াত 'good' ভুল; 'well' হোৱা উচিত। ক্ৰিয়াৰ বাবে adverb লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-293",
+   "q": {
+    "en": "Find the error in the sentence: He did the work good.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He did the work good."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "did",
+     "as": "did"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "good",
+     "as": "good"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'good' is wrong here; it should be 'well'. A verb needs an adverb.",
+    "as": "ইয়াত 'good' ভুল; 'well' হোৱা উচিত। ক্ৰিয়াৰ বাবে adverb লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-294",
+   "q": {
+    "en": "Find the error in the sentence: He runs very quick.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He runs very quick."
+   },
+   "options": [
+    {
+     "en": "very",
+     "as": "very"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "runs",
+     "as": "runs"
+    },
+    {
+     "en": "quick",
+     "as": "quick"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'quick' is wrong here; it should be 'quickly'. A verb needs an adverb.",
+    "as": "ইয়াত 'quick' ভুল; 'quickly' হোৱা উচিত। ক্ৰিয়াৰ বাবে adverb লাগে।"
+   }
+  },
+  {
+   "id": "error-detection-295",
+   "q": {
+    "en": "Find the error in the sentence: He is the most tallest boy in the school.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the most tallest boy in the school."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "most",
+     "as": "most"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'most' is wrong here; it should be 'tallest'. A double superlative is wrong.",
+    "as": "ইয়াত 'most' ভুল; 'tallest' হোৱা উচিত। দ্বিগুণ superlative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-296",
+   "q": {
+    "en": "Find the error in the sentence: This is the most cheapest pen.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the most cheapest pen."
+   },
+   "options": [
+    {
+     "en": "pen",
+     "as": "pen"
+    },
+    {
+     "en": "most",
+     "as": "most"
+    },
+    {
+     "en": "This",
+     "as": "This"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'most' is wrong here; it should be 'cheapest'. A double superlative is wrong.",
+    "as": "ইয়াত 'most' ভুল; 'cheapest' হোৱা উচিত। দ্বিগুণ superlative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-297",
+   "q": {
+    "en": "Find the error in the sentence: He is more stronger than me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is more stronger than me."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "more",
+     "as": "more"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'more' is wrong here; it should be 'stronger'. A double comparative is wrong.",
+    "as": "ইয়াত 'more' ভুল; 'stronger' হোৱা উচিত। দ্বিগুণ comparative ভুল।"
+   }
+  },
+  {
+   "id": "error-detection-298",
+   "q": {
+    "en": "Find the error in the sentence: She is the elder of the three sisters.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is the elder of the three sisters."
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "elder",
+     "as": "elder"
+    },
+    {
+     "en": "three",
+     "as": "three"
+    },
+    {
+     "en": "sisters",
+     "as": "sisters"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'elder' is wrong here; it should be 'eldest'. 'Eldest' is used for three or more.",
+    "as": "ইয়াত 'elder' ভুল; 'eldest' হোৱা উচিত। তিনিজন বা ততোধিকৰ বাবে 'eldest' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-299",
+   "q": {
+    "en": "Find the error in the sentence: He is my older brother.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is my older brother."
+   },
+   "options": [
+    {
+     "en": "my",
+     "as": "my"
+    },
+    {
+     "en": "older",
+     "as": "older"
+    },
+    {
+     "en": "brother",
+     "as": "brother"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'older' is wrong here; it should be 'elder'. 'Elder' is used for family relations.",
+    "as": "ইয়াত 'older' ভুল; 'elder' হোৱা উচিত। পৰিয়ালৰ সম্পৰ্কৰ বাবে 'elder' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-300",
+   "q": {
+    "en": "Find the error in the sentence: She is the older of the two sisters.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is the older of the two sisters."
+   },
+   "options": [
+    {
+     "en": "sisters",
+     "as": "sisters"
+    },
+    {
+     "en": "She",
+     "as": "She"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "older",
+     "as": "older"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'older' is wrong here; it should be 'elder'. 'Elder' is used for family relations.",
+    "as": "ইয়াত 'older' ভুল; 'elder' হোৱা উচিত। পৰিয়ালৰ সম্পৰ্কৰ বাবে 'elder' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-301",
+   "q": {
+    "en": "Find the error in the sentence: He arrived latter than me.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He arrived latter than me."
+   },
+   "options": [
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "arrived",
+     "as": "arrived"
+    },
+    {
+     "en": "latter",
+     "as": "latter"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'latter' is wrong here; it should be 'later'. 'Later' means after; 'latter' means the second of two.",
+    "as": "ইয়াত 'latter' ভুল; 'later' হোৱা উচিত। 'Later' মানে পিছত; 'latter' মানে দুটাৰ দ্বিতীয়।"
+   }
+  },
+  {
+   "id": "error-detection-302",
+   "q": {
+    "en": "Find the error in the sentence: Of the two, the later is better.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Of the two, the later is better."
+   },
+   "options": [
+    {
+     "en": "later",
+     "as": "later"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "two",
+     "as": "two"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'later' is wrong here; it should be 'latter'. 'Latter' means the second of two.",
+    "as": "ইয়াত 'later' ভুল; 'latter' হোৱা উচিত। 'Latter' মানে দুটাৰ দ্বিতীয়।"
+   }
+  },
+  {
+   "id": "error-detection-303",
+   "q": {
+    "en": "Find the error in the sentence: He gave a few advice.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He gave a few advice."
+   },
+   "options": [
+    {
+     "en": "advice",
+     "as": "advice"
+    },
+    {
+     "en": "few",
+     "as": "few"
+    },
+    {
+     "en": "He",
+     "as": "He"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'few' is wrong here; it should be 'little'. 'Advice' is uncountable, so 'little' is used.",
+    "as": "ইয়াত 'few' ভুল; 'little' হোৱা উচিত। 'Advice' অগণনীয়, গতিকে 'little' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-304",
+   "q": {
+    "en": "Find the error in the sentence: There is a few milk in the glass.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: There is a few milk in the glass."
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "few",
+     "as": "few"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "glass",
+     "as": "glass"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'few' is wrong here; it should be 'little'. 'Milk' is uncountable, so 'little' is used.",
+    "as": "ইয়াত 'few' ভুল; 'little' হোৱা উচিত। 'Milk' অগণনীয়, গতিকে 'little' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-305",
+   "q": {
+    "en": "Find the error in the sentence: He has a little friends in the city.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has a little friends in the city."
+   },
+   "options": [
+    {
+     "en": "a little",
+     "as": "a little"
+    },
+    {
+     "en": "friends",
+     "as": "friends"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'a little' is wrong here; it should be 'a few'. 'Friends' is countable, so 'a few' is used.",
+    "as": "ইয়াত 'a little' ভুল; 'a few' হোৱা উচিত। 'Friends' গণনাযোগ্য, গতিকে 'a few' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-306",
+   "q": {
+    "en": "Find the error in the sentence: I have a little books on history.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have a little books on history."
+   },
+   "options": [
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "little",
+     "as": "little"
+    },
+    {
+     "en": "books",
+     "as": "books"
+    },
+    {
+     "en": "a little",
+     "as": "a little"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'a little' is wrong here; it should be 'a few'. 'Books' is countable, so 'a few' is used.",
+    "as": "ইয়াত 'a little' ভুল; 'a few' হোৱা উচিত। 'Books' গণনাযোগ্য, গতিকে 'a few' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-307",
+   "q": {
+    "en": "Find the error in the sentence: She spent much rupees on clothes.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She spent much rupees on clothes."
+   },
+   "options": [
+    {
+     "en": "much",
+     "as": "much"
+    },
+    {
+     "en": "spent",
+     "as": "spent"
+    },
+    {
+     "en": "rupees",
+     "as": "rupees"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'much' is wrong here; it should be 'many'. 'Rupees' is countable, so 'many' is used.",
+    "as": "ইয়াত 'much' ভুল; 'many' হোৱা উচিত। 'Rupees' গণনাযোগ্য, গতিকে 'many' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-308",
+   "q": {
+    "en": "Find the error in the sentence: How much students are present?",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: How much students are present?"
+   },
+   "options": [
+    {
+     "en": "present",
+     "as": "present"
+    },
+    {
+     "en": "much",
+     "as": "much"
+    },
+    {
+     "en": "How",
+     "as": "How"
+    },
+    {
+     "en": "students",
+     "as": "students"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'much' is wrong here; it should be 'many'. 'Students' is countable, so 'many' is used.",
+    "as": "ইয়াত 'much' ভুল; 'many' হোৱা উচিত। 'Students' গণনাযোগ্য, গতিকে 'many' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-309",
+   "q": {
+    "en": "Find the error in the sentence: How many water do you need?",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: How many water do you need?"
+   },
+   "options": [
+    {
+     "en": "you",
+     "as": "you"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    },
+    {
+     "en": "need",
+     "as": "need"
+    },
+    {
+     "en": "How",
+     "as": "How"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'many' is wrong here; it should be 'much'. 'Water' is uncountable, so 'much' is used.",
+    "as": "ইয়াত 'many' ভুল; 'much' হোৱা উচিত। 'Water' অগণনীয়, গতিকে 'much' ব্যৱহাৰ হয়।"
+   }
+  },
+  {
+   "id": "error-detection-310",
+   "q": {
+    "en": "Find the error in the sentence: He spent many money on the trip.",
+    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He spent many money on the trip."
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "trip",
+     "as": "trip"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'many' is wrong here; it should be 'much'. 'Money' is uncountable, so 'much' is used.",
+    "as": "ইয়াত 'many' ভুল; 'much' হোৱা উচিত। 'Money' অগণনীয়, গতিকে 'much' ব্যৱহাৰ হয়।"
+   }
+  }
+ ],
+ "fill-in-the-blanks": [
+  {
+   "id": "fill-in-the-blanks-001",
+   "q": {
+    "en": "Complete the sentence: He is afraid ___ dogs.",
+    "as": "তেওঁ কুকুৰলৈ ভয় কৰে।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-002",
+   "q": {
+    "en": "Complete the sentence: She is good ___ mathematics.",
+    "as": "তেওঁ গণিতত ভাল।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-003",
+   "q": {
+    "en": "Fill in the blank: He is angry ___ me.",
+    "as": "তেওঁ মোলৈ খং কৰিছে।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-004",
+   "q": {
+    "en": "Fill in the blank: I am fond ___ sweets.",
+    "as": "মই মিঠাই ভাল পাওঁ।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-005",
+   "q": {
+    "en": "Fill in the blank: He apologised ___ his mistake.",
+    "as": "তেওঁ নিজৰ ভুলৰ বাবে ক্ষমা খুজিলে।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-006",
+   "q": {
+    "en": "Fill in the blank: She is married ___ a doctor.",
+    "as": "তেওঁ এজন ডাক্তৰৰ লগত বিবাহিত।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-007",
+   "q": {
+    "en": "Fill in the blank: He is senior ___ me by two years.",
+    "as": "তেওঁ মোতকৈ দুবছৰ জ্যেষ্ঠ।"
+   },
+   "options": [
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-008",
+   "q": {
+    "en": "Fill in the blank: She is junior ___ her sister.",
+    "as": "তেওঁ নিজৰ ভনীতকৈ কনিষ্ঠ।"
+   },
+   "options": [
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-009",
+   "q": {
+    "en": "Fill in the blank: He is superior ___ me in knowledge.",
+    "as": "তেওঁ জ্ঞানত মোতকৈ শ্ৰেষ্ঠ।"
+   },
+   "options": [
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "over",
+     "as": "over"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-010",
+   "q": {
+    "en": "Fill in the blank: I have been waiting ___ two hours.",
+    "as": "মই দুঘণ্টা ধৰি অপেক্ষা কৰি আছোঁ।"
+   },
+   "options": [
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-011",
+   "q": {
+    "en": "Fill in the blank: He has lived here ___ 2015.",
+    "as": "তেওঁ ২০১৫ চনৰপৰা ইয়াত থাকে।"
+   },
+   "options": [
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'since'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'since'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-012",
+   "q": {
+    "en": "Fill in the blank: She is not afraid ___ anything.",
+    "as": "তেওঁ একোৰেই ভয় নকৰে।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-013",
+   "q": {
+    "en": "Fill in the blank: He insisted ___ going there.",
+    "as": "তেওঁ তালৈ যোৱাত জোৰ দিলে।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-014",
+   "q": {
+    "en": "Fill in the blank: She depends ___ her parents.",
+    "as": "তেওঁ নিজৰ পিতৃ-মাতৃৰ ওপৰত নিৰ্ভৰশীল।"
+   },
+   "options": [
+    {
+     "en": "upon",
+     "as": "upon"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-015",
+   "q": {
+    "en": "Complete the sentence: He died ___ malaria.",
+    "as": "তেওঁ মেলেৰিয়াত মৃত্যুবৰণ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-016",
+   "q": {
+    "en": "Fill in the blank: He died ___ overwork.",
+    "as": "তেওঁ অতিৰিক্ত পৰিশ্ৰমত মৃত্যুবৰণ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'from'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'from'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-017",
+   "q": {
+    "en": "Fill in the blank: She congratulated me ___ my success.",
+    "as": "তেওঁ মোৰ সফলতাৰ বাবে অভিনন্দন জনালে।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-018",
+   "q": {
+    "en": "Complete the sentence: He was accused ___ theft.",
+    "as": "তেওঁ চুৰিৰ অভিযোগত অভিযুক্ত হৈছিল।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-019",
+   "q": {
+    "en": "Fill in the blank: She is jealous ___ her friend.",
+    "as": "তেওঁ নিজৰ বান্ধৱীৰ প্ৰতি ঈৰ্ষাপৰায়ণ।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-020",
+   "q": {
+    "en": "Fill in the blank: He was deprived ___ his rights.",
+    "as": "তেওঁ নিজৰ অধিকাৰৰ পৰা বঞ্চিত হৈছিল।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-021",
+   "q": {
+    "en": "Fill in the blank: I congratulated him ___ his victory.",
+    "as": "মই তেওঁক তেওঁৰ জয়ৰ বাবে অভিনন্দন জনালোঁ।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-022",
+   "q": {
+    "en": "Fill in the blank: The train arrived ___ the station.",
+    "as": "ৰেলগাড়ী ষ্টেচনত উপস্থিত হ'ল।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-023",
+   "q": {
+    "en": "Fill in the blank: He lives ___ Guwahati.",
+    "as": "তেওঁ গুৱাহাটীত থাকে।"
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "into",
+     "as": "into"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-024",
+   "q": {
+    "en": "Complete the sentence: The book is ___ the table.",
+    "as": "কিতাপখন মেজৰ ওপৰত আছে।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "over",
+     "as": "over"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-025",
+   "q": {
+    "en": "Fill in the blank: He is known ___ his honesty.",
+    "as": "তেওঁ নিজৰ সততাৰ বাবে পৰিচিত।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-026",
+   "q": {
+    "en": "Fill in the blank: She is angry ___ his behaviour.",
+    "as": "তেওঁ তেওঁৰ আচৰণলৈ খং কৰিছে।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-027",
+   "q": {
+    "en": "Fill in the blank: He is popular ___ his students.",
+    "as": "তেওঁ নিজৰ ছাত্ৰ-ছাত্ৰীৰ মাজত জনপ্ৰিয়।"
+   },
+   "options": [
+    {
+     "en": "among",
+     "as": "among"
+    },
+    {
+     "en": "between",
+     "as": "between"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-028",
+   "q": {
+    "en": "Fill in the blank: Divide the sweets ___ the four children.",
+    "as": "মিঠাইখিনি চাৰিজন ল'ৰা-ছোৱালীৰ মাজত ভগাই দিয়া।"
+   },
+   "options": [
+    {
+     "en": "between",
+     "as": "between"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "into",
+     "as": "into"
+    },
+    {
+     "en": "among",
+     "as": "among"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'among'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'among'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-029",
+   "q": {
+    "en": "Fill in the blank: Divide the money ___ the two brothers.",
+    "as": "ধনখিনি দুজন ভাইৰ মাজত ভগাই দিয়া।"
+   },
+   "options": [
+    {
+     "en": "among",
+     "as": "among"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "between",
+     "as": "between"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'between'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'between'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-030",
+   "q": {
+    "en": "Fill in the blank: He is addicted ___ gambling.",
+    "as": "তেওঁ জুৱা খেলাৰ আসক্ত।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-031",
+   "q": {
+    "en": "Fill in the blank: She is confident ___ success.",
+    "as": "তেওঁ সফলতাৰ বিষয়ে আত্মবিশ্বাসী।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-032",
+   "q": {
+    "en": "Fill in the blank: He was born ___ a rich family.",
+    "as": "তেওঁ এটা ধনী পৰিয়ালত জন্মগ্ৰহণ কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "into",
+     "as": "into"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-033",
+   "q": {
+    "en": "Fill in the blank: I have no money ___ me.",
+    "as": "মোৰ লগত ধন নাই।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-034",
+   "q": {
+    "en": "Fill in the blank: He is blind ___ one eye.",
+    "as": "তেওঁ এটা চকুৰে অন্ধ।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-035",
+   "q": {
+    "en": "Fill in the blank: She is deaf ___ one ear.",
+    "as": "তেওঁ এটা কাণেৰে কলা।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-036",
+   "q": {
+    "en": "Fill in the blank: He is always attentive ___ his studies.",
+    "as": "তেওঁ সদায় নিজৰ পঢ়া-শুনালৈ মনোযোগী।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-037",
+   "q": {
+    "en": "Fill in the blank: She takes pride ___ her work.",
+    "as": "তেওঁ নিজৰ কামত গৌৰৱ কৰে।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-038",
+   "q": {
+    "en": "Fill in the blank: He is not eligible ___ this post.",
+    "as": "তেওঁ এই পদৰ বাবে যোগ্য নহয়।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-039",
+   "q": {
+    "en": "Fill in the blank: The patient is now free ___ pain.",
+    "as": "ৰোগী এতিয়া বিষৰ পৰা মুক্ত।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'from'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'from'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-040",
+   "q": {
+    "en": "Fill in the blank: He was punished ___ his misconduct.",
+    "as": "তেওঁ নিজৰ অসদাচৰণৰ বাবে শাস্তি পাইছিল।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-041",
+   "q": {
+    "en": "Complete the sentence: He is ___ honest man.",
+    "as": "তেওঁ এজন সৎ মানুহ।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'an'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'an'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-042",
+   "q": {
+    "en": "Fill in the blank: She is ___ M.A. in English.",
+    "as": "তেওঁ ইংৰাজীত এম.এ.।"
+   },
+   "options": [
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'an'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'an'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-043",
+   "q": {
+    "en": "Fill in the blank: He bought ___ umbrella yesterday.",
+    "as": "তেওঁ কালি এটা ছাতি কিনিছিল।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'an'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'an'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-044",
+   "q": {
+    "en": "Fill in the blank: It took me ___ hour to finish.",
+    "as": "শেষ কৰিবলৈ মোৰ এঘণ্টা লাগিছিল।"
+   },
+   "options": [
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'an'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'an'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-045",
+   "q": {
+    "en": "Fill in the blank: He is ___ European.",
+    "as": "তেওঁ এজন ইউৰোপীয়।"
+   },
+   "options": [
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'a'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'a'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-046",
+   "q": {
+    "en": "Fill in the blank: She is ___ university student.",
+    "as": "তেওঁ এজন বিশ্ববিদ্যালয়ৰ ছাত্ৰী।"
+   },
+   "options": [
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'a'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'a'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-047",
+   "q": {
+    "en": "Complete the sentence: ___ Ganga is a holy river.",
+    "as": "গংগা এটা পৱিত্ৰ নদী।"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "An",
+     "as": "An"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'The'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'The'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-048",
+   "q": {
+    "en": "Fill in the blank: ___ Himalayas lie in the north.",
+    "as": "হিমালয় উত্তৰত অৱস্থিত।"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "The",
+     "as": "The"
+    },
+    {
+     "en": "An",
+     "as": "An"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'The'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'The'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-049",
+   "q": {
+    "en": "Fill in the blank: He plays ___ cricket every evening.",
+    "as": "তেওঁ প্ৰতিদিনে সন্ধিয়া ক্ৰিকেট খেলে।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'no article'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'no article'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-050",
+   "q": {
+    "en": "Fill in the blank: She goes to ___ school by bus.",
+    "as": "তেওঁ বাছত স্কুললৈ যায়।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'no article'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'no article'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-051",
+   "q": {
+    "en": "Fill in the blank: He is ___ best student in the class.",
+    "as": "তেওঁ শ্ৰেণীৰ শ্ৰেষ্ঠ ছাত্ৰ।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'the'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'the'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-052",
+   "q": {
+    "en": "Fill in the blank: She is ___ tallest girl in the school.",
+    "as": "তেওঁ বিদ্যালয়ৰ আটাইতকৈ ওখ ছোৱালী।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'the'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'the'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-053",
+   "q": {
+    "en": "Complete the sentence: I saw ___ elephant in the zoo.",
+    "as": "মই চিৰিয়াখানাত এটা হাতী দেখিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'an'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'an'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-054",
+   "q": {
+    "en": "Fill in the blank: He is ___ MLA from this area.",
+    "as": "তেওঁ এই অঞ্চলৰ এজন বিধায়ক।"
+   },
+   "options": [
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    },
+    {
+     "en": "an",
+     "as": "an"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'an'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'an'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-055",
+   "q": {
+    "en": "Fill in the blank: Each of the boys ___ present.",
+    "as": "ল'ৰাবোৰৰ প্ৰত্যেকেই উপস্থিত আছিল।"
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'was'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'was'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-056",
+   "q": {
+    "en": "Fill in the blank: Neither of them ___ come.",
+    "as": "তেওঁলোকৰ কোনেও অহা নাই।"
+   },
+   "options": [
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'has'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'has'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-057",
+   "q": {
+    "en": "Complete the sentence: One of my friends ___ a doctor.",
+    "as": "মোৰ এজন বন্ধু ডাক্তৰ।"
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-058",
+   "q": {
+    "en": "Fill in the blank: The news ___ very shocking.",
+    "as": "বাতৰিটো অতি আচৰিতজনক।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-059",
+   "q": {
+    "en": "Complete the sentence: Mathematics ___ my favourite subject.",
+    "as": "গণিত মোৰ প্ৰিয় বিষয়।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-060",
+   "q": {
+    "en": "Fill in the blank: Ten kilometres ___ a long distance.",
+    "as": "দহ কিলোমিটাৰ এটা দীঘল দূৰত্ব।"
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-061",
+   "q": {
+    "en": "Fill in the blank: Neither the teacher nor the students ___ present.",
+    "as": "শিক্ষক নাইবা ছাত্ৰসকল উপস্থিত নাছিল।"
+   },
+   "options": [
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'were'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'were'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-062",
+   "q": {
+    "en": "Fill in the blank: Either he or I ___ wrong.",
+    "as": "হয় তেওঁ নাইবা মই ভুল।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "am",
+     "as": "am"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'am'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'am'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-063",
+   "q": {
+    "en": "Fill in the blank: Bread and butter ___ my breakfast.",
+    "as": "পাউৰুটি আৰু মাখন মোৰ ৰাতিপুৱাৰ আহাৰ।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-064",
+   "q": {
+    "en": "Fill in the blank: The poet and writer ___ dead.",
+    "as": "কবি আৰু লেখকজনৰ মৃত্যু হৈছে।"
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-065",
+   "q": {
+    "en": "Fill in the blank: Many a man ___ tried and failed.",
+    "as": "বহুত মানুহে চেষ্টা কৰি বিফল হৈছে।"
+   },
+   "options": [
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'has'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'has'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-066",
+   "q": {
+    "en": "Fill in the blank: The cattle ___ grazing in the field.",
+    "as": "গৰুবোৰ পথাৰত চৰি আছে।"
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'are'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'are'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-067",
+   "q": {
+    "en": "Fill in the blank: Physics ___ a difficult subject.",
+    "as": "পদাৰ্থবিজ্ঞান এটা কঠিন বিষয়।"
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-068",
+   "q": {
+    "en": "Fill in the blank: My spectacles ___ broken.",
+    "as": "মোৰ চছমা ভাঙি গৈছে।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'are'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'are'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-069",
+   "q": {
+    "en": "Fill in the blank: A number of students ___ absent today.",
+    "as": "আজি বহুতো ছাত্ৰ অনুপস্থিত।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'are'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'are'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-070",
+   "q": {
+    "en": "Fill in the blank: The number of students ___ small.",
+    "as": "ছাত্ৰৰ সংখ্যা কম।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-071",
+   "q": {
+    "en": "Fill in the blank: Each boy and each girl ___ a book.",
+    "as": "প্ৰতিটো ল'ৰা আৰু প্ৰতিটো ছোৱালীয়ে এখন কিতাপ পাইছে।"
+   },
+   "options": [
+    {
+     "en": "have",
+     "as": "have"
+    },
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "has",
+     "as": "has"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'has'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'has'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-072",
+   "q": {
+    "en": "Fill in the blank: Either of the two ___ acceptable.",
+    "as": "দুটাৰ যিকোনো এটা গ্ৰহণযোগ্য।"
+   },
+   "options": [
+    {
+     "en": "are",
+     "as": "are"
+    },
+    {
+     "en": "were",
+     "as": "were"
+    },
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "have",
+     "as": "have"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'is'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-073",
+   "q": {
+    "en": "Fill in the blank: He ___ to school every day.",
+    "as": "তেওঁ প্ৰতিদিনে বিদ্যালয়লৈ যায়।"
+   },
+   "options": [
+    {
+     "en": "goes",
+     "as": "goes"
+    },
+    {
+     "en": "go",
+     "as": "go"
+    },
+    {
+     "en": "going",
+     "as": "going"
+    },
+    {
+     "en": "gone",
+     "as": "gone"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'goes'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'goes'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-074",
+   "q": {
+    "en": "Fill in the blank: She ___ here since morning.",
+    "as": "তেওঁ ৰাতিপুৱাৰপৰা ইয়াত আছে।"
+   },
+   "options": [
+    {
+     "en": "is",
+     "as": "is"
+    },
+    {
+     "en": "was",
+     "as": "was"
+    },
+    {
+     "en": "has been",
+     "as": "has been"
+    },
+    {
+     "en": "have been",
+     "as": "have been"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'has been'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'has been'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-075",
+   "q": {
+    "en": "Fill in the blank: They ___ football when it started raining.",
+    "as": "বৰষুণ আৰম্ভ হোৱাৰ সময়ত তেওঁলোকে ফুটবল খেলি আছিল।"
+   },
+   "options": [
+    {
+     "en": "played",
+     "as": "played"
+    },
+    {
+     "en": "play",
+     "as": "play"
+    },
+    {
+     "en": "were playing",
+     "as": "were playing"
+    },
+    {
+     "en": "have played",
+     "as": "have played"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'were playing'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'were playing'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-076",
+   "q": {
+    "en": "Fill in the blank: I ___ my homework before he came.",
+    "as": "তেওঁ অহাৰ আগতে মই মোৰ ঘৰুৱা কাম শেষ কৰিছিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "finished",
+     "as": "finished"
+    },
+    {
+     "en": "had finished",
+     "as": "had finished"
+    },
+    {
+     "en": "have finished",
+     "as": "have finished"
+    },
+    {
+     "en": "finish",
+     "as": "finish"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'had finished'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'had finished'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-077",
+   "q": {
+    "en": "Fill in the blank: He ___ in this office for five years.",
+    "as": "তেওঁ এই কাৰ্যালয়ত পাঁচ বছৰ ধৰি কাম কৰি আছে।"
+   },
+   "options": [
+    {
+     "en": "has been working",
+     "as": "has been working"
+    },
+    {
+     "en": "works",
+     "as": "works"
+    },
+    {
+     "en": "worked",
+     "as": "worked"
+    },
+    {
+     "en": "is working",
+     "as": "is working"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'has been working'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'has been working'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-078",
+   "q": {
+    "en": "Fill in the blank: If it rains, we ___ stay at home.",
+    "as": "যদি বৰষুণ দিয়ে, আমি ঘৰত থাকিম।"
+   },
+   "options": [
+    {
+     "en": "would",
+     "as": "would"
+    },
+    {
+     "en": "will have",
+     "as": "will have"
+    },
+    {
+     "en": "should have",
+     "as": "should have"
+    },
+    {
+     "en": "shall",
+     "as": "shall"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'shall'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'shall'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-079",
+   "q": {
+    "en": "Fill in the blank: She ___ her lesson now.",
+    "as": "তেওঁ এতিয়া নিজৰ পাঠ পঢ়ি আছে।"
+   },
+   "options": [
+    {
+     "en": "reads",
+     "as": "reads"
+    },
+    {
+     "en": "read",
+     "as": "read"
+    },
+    {
+     "en": "has read",
+     "as": "has read"
+    },
+    {
+     "en": "is reading",
+     "as": "is reading"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'is reading'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'is reading'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-080",
+   "q": {
+    "en": "Fill in the blank: The sun ___ in the east.",
+    "as": "সূৰ্য পূৱত উদয় হয়।"
+   },
+   "options": [
+    {
+     "en": "rises",
+     "as": "rises"
+    },
+    {
+     "en": "rise",
+     "as": "rise"
+    },
+    {
+     "en": "rose",
+     "as": "rose"
+    },
+    {
+     "en": "rising",
+     "as": "rising"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'rises'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'rises'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-081",
+   "q": {
+    "en": "Fill in the blank: I ___ him yesterday.",
+    "as": "মই কালি তেওঁক লগ পাইছিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "meet",
+     "as": "meet"
+    },
+    {
+     "en": "have met",
+     "as": "have met"
+    },
+    {
+     "en": "met",
+     "as": "met"
+    },
+    {
+     "en": "meeting",
+     "as": "meeting"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'met'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'met'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-082",
+   "q": {
+    "en": "Fill in the blank: He ___ the work by tomorrow.",
+    "as": "তেওঁ কাইলৈৰ ভিতৰত কামটো কৰি শেষ কৰিব।"
+   },
+   "options": [
+    {
+     "en": "finished",
+     "as": "finished"
+    },
+    {
+     "en": "has finished",
+     "as": "has finished"
+    },
+    {
+     "en": "will finish",
+     "as": "will finish"
+    },
+    {
+     "en": "finish",
+     "as": "finish"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'will finish'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'will finish'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-083",
+   "q": {
+    "en": "Fill in the blank: Water ___ at 100 degrees Celsius.",
+    "as": "পানী ১০০ ডিগ্ৰী চেলছিয়াছত উতলি যায়।"
+   },
+   "options": [
+    {
+     "en": "boil",
+     "as": "boil"
+    },
+    {
+     "en": "boiled",
+     "as": "boiled"
+    },
+    {
+     "en": "boils",
+     "as": "boils"
+    },
+    {
+     "en": "is boiling",
+     "as": "is boiling"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'boils'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'boils'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-084",
+   "q": {
+    "en": "Fill in the blank: She ___ to Delhi last week.",
+    "as": "তেওঁ যোৱা সপ্তাহত দিল্লীলৈ গৈছিল।"
+   },
+   "options": [
+    {
+     "en": "goes",
+     "as": "goes"
+    },
+    {
+     "en": "has gone",
+     "as": "has gone"
+    },
+    {
+     "en": "went",
+     "as": "went"
+    },
+    {
+     "en": "gone",
+     "as": "gone"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'went'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'went'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-085",
+   "q": {
+    "en": "Fill in the blank: They ___ the movie already.",
+    "as": "তেওঁলোকে ছবিখন ইতিমধ্যে চাইছে।"
+   },
+   "options": [
+    {
+     "en": "saw",
+     "as": "saw"
+    },
+    {
+     "en": "have seen",
+     "as": "have seen"
+    },
+    {
+     "en": "see",
+     "as": "see"
+    },
+    {
+     "en": "seeing",
+     "as": "seeing"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'have seen'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'have seen'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-086",
+   "q": {
+    "en": "Fill in the blank: He ___ TV when I called him.",
+    "as": "মই তেওঁক ফোন কৰাৰ সময়ত তেওঁ টিভি চাই আছিল।"
+   },
+   "options": [
+    {
+     "en": "watched",
+     "as": "watched"
+    },
+    {
+     "en": "watches",
+     "as": "watches"
+    },
+    {
+     "en": "was watching",
+     "as": "was watching"
+    },
+    {
+     "en": "has watched",
+     "as": "has watched"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'was watching'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'was watching'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-087",
+   "q": {
+    "en": "Fill in the blank: By next year he ___ his degree.",
+    "as": "অহা বছৰৰ ভিতৰত তেওঁ নিজৰ ডিগ্ৰী ল'ব।"
+   },
+   "options": [
+    {
+     "en": "completes",
+     "as": "completes"
+    },
+    {
+     "en": "completed",
+     "as": "completed"
+    },
+    {
+     "en": "is completing",
+     "as": "is completing"
+    },
+    {
+     "en": "will have completed",
+     "as": "will have completed"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'will have completed'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'will have completed'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-088",
+   "q": {
+    "en": "Complete the sentence: He is poor ___ honest.",
+    "as": "তেওঁ দুখীয়া কিন্তু সৎ।"
+   },
+   "options": [
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'but'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'but'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-089",
+   "q": {
+    "en": "Complete the sentence: Work hard ___ you will fail.",
+    "as": "পৰিশ্ৰম কৰা নহ'লে তুমি বিফল হ'বা।"
+   },
+   "options": [
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'or'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'or'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-090",
+   "q": {
+    "en": "Fill in the blank: He was tired ___ he continued working.",
+    "as": "তেওঁ ক্লান্ত আছিল তথাপিও কাম কৰি থাকিল।"
+   },
+   "options": [
+    {
+     "en": "so",
+     "as": "so"
+    },
+    {
+     "en": "yet",
+     "as": "yet"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'yet'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'yet'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-091",
+   "q": {
+    "en": "Fill in the blank: She was ill, ___ she did not attend school.",
+    "as": "তেওঁ অসুস্থ আছিল, সেয়ে বিদ্যালয়লৈ যোৱা নাই।"
+   },
+   "options": [
+    {
+     "en": "so",
+     "as": "so"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    },
+    {
+     "en": "yet",
+     "as": "yet"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'so'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'so'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-092",
+   "q": {
+    "en": "Fill in the blank: ___ he is rich, he is humble.",
+    "as": "যদিও তেওঁ ধনী, তথাপি বিনয়ী।"
+   },
+   "options": [
+    {
+     "en": "Although",
+     "as": "Although"
+    },
+    {
+     "en": "Because",
+     "as": "Because"
+    },
+    {
+     "en": "So",
+     "as": "So"
+    },
+    {
+     "en": "Unless",
+     "as": "Unless"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'Although'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'Although'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-093",
+   "q": {
+    "en": "Fill in the blank: ___ you work hard, you cannot succeed.",
+    "as": "যদি তুমি পৰিশ্ৰম নকৰা, সফল হ'ব নোৱাৰা।"
+   },
+   "options": [
+    {
+     "en": "If",
+     "as": "If"
+    },
+    {
+     "en": "Unless",
+     "as": "Unless"
+    },
+    {
+     "en": "Although",
+     "as": "Although"
+    },
+    {
+     "en": "Because",
+     "as": "Because"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'Unless'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'Unless'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-094",
+   "q": {
+    "en": "Fill in the blank: He ran fast ___ he could catch the bus.",
+    "as": "তেওঁ বাছ ধৰিবলৈ দ্ৰুত দৌৰিলে।"
+   },
+   "options": [
+    {
+     "en": "because",
+     "as": "because"
+    },
+    {
+     "en": "so that",
+     "as": "so that"
+    },
+    {
+     "en": "although",
+     "as": "although"
+    },
+    {
+     "en": "unless",
+     "as": "unless"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'so that'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'so that'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-095",
+   "q": {
+    "en": "Fill in the blank: I like tea ___ my brother likes coffee.",
+    "as": "মই চাহ ভাল পাওঁ আনহাতে মোৰ ভাইয়ে কফি ভাল পায়।"
+   },
+   "options": [
+    {
+     "en": "while",
+     "as": "while"
+    },
+    {
+     "en": "because",
+     "as": "because"
+    },
+    {
+     "en": "unless",
+     "as": "unless"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'while'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'while'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-096",
+   "q": {
+    "en": "Fill in the blank: He will come ___ it rains.",
+    "as": "যদি বৰষুণ নিদিয়ে তেওঁ আহিব।"
+   },
+   "options": [
+    {
+     "en": "if",
+     "as": "if"
+    },
+    {
+     "en": "although",
+     "as": "although"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    },
+    {
+     "en": "unless",
+     "as": "unless"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'unless'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'unless'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-097",
+   "q": {
+    "en": "Fill in the blank: Neither he ___ his brother came.",
+    "as": "তেওঁ নাইবা তেওঁৰ ভাই অহা নাই।"
+   },
+   "options": [
+    {
+     "en": "or",
+     "as": "or"
+    },
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "nor",
+     "as": "nor"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'nor'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'nor'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-098",
+   "q": {
+    "en": "Fill in the blank: Both the teacher ___ the students were present.",
+    "as": "শিক্ষক আৰু ছাত্ৰ দুয়ো উপস্থিত আছিল।"
+   },
+   "options": [
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    },
+    {
+     "en": "nor",
+     "as": "nor"
+    },
+    {
+     "en": "but",
+     "as": "but"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'and'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'and'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-099",
+   "q": {
+    "en": "Fill in the blank: Not only he ___ also his friends came.",
+    "as": "কেৱল তেওঁৱেই নহয় তেওঁৰ বন্ধুবোৰো আহিছিল।"
+   },
+   "options": [
+    {
+     "en": "but",
+     "as": "but"
+    },
+    {
+     "en": "and",
+     "as": "and"
+    },
+    {
+     "en": "or",
+     "as": "or"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'but'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'but'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-100",
+   "q": {
+    "en": "Fill in the blank: This is ___ book, not yours.",
+    "as": "এইখন মোৰ কিতাপ, আপোনাৰ নহয়।"
+   },
+   "options": [
+    {
+     "en": "mine",
+     "as": "mine"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "myself",
+     "as": "myself"
+    },
+    {
+     "en": "my",
+     "as": "my"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'my'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'my'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-101",
+   "q": {
+    "en": "Fill in the blank: The book is ___.",
+    "as": "কিতাপখন মোৰ।"
+   },
+   "options": [
+    {
+     "en": "my",
+     "as": "my"
+    },
+    {
+     "en": "me",
+     "as": "me"
+    },
+    {
+     "en": "myself",
+     "as": "myself"
+    },
+    {
+     "en": "mine",
+     "as": "mine"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'mine'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'mine'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-102",
+   "q": {
+    "en": "Fill in the blank: He hurt ___ while playing.",
+    "as": "খেলি থাকোঁতে তেওঁ নিজকে আঘাত কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "himself",
+     "as": "himself"
+    },
+    {
+     "en": "him",
+     "as": "him"
+    },
+    {
+     "en": "his",
+     "as": "his"
+    },
+    {
+     "en": "he",
+     "as": "he"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'himself'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'himself'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-103",
+   "q": {
+    "en": "Fill in the blank: She did the work ___.",
+    "as": "তেওঁ নিজেই কামটো কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "her",
+     "as": "her"
+    },
+    {
+     "en": "herself",
+     "as": "herself"
+    },
+    {
+     "en": "hers",
+     "as": "hers"
+    },
+    {
+     "en": "she",
+     "as": "she"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'herself'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'herself'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-104",
+   "q": {
+    "en": "Complete the sentence: He is taller ___ his brother.",
+    "as": "তেওঁ নিজৰ ভাইতকৈ ওখ।"
+   },
+   "options": [
+    {
+     "en": "then",
+     "as": "then"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'than'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'than'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-105",
+   "q": {
+    "en": "Complete the sentence: This is the ___ book I have ever read.",
+    "as": "এইখন মই পঢ়া আটাইতকৈ ভাল কিতাপ।"
+   },
+   "options": [
+    {
+     "en": "better",
+     "as": "better"
+    },
+    {
+     "en": "good",
+     "as": "good"
+    },
+    {
+     "en": "well",
+     "as": "well"
+    },
+    {
+     "en": "best",
+     "as": "best"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'best'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'best'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-106",
+   "q": {
+    "en": "Complete the sentence: She sings ___ than her sister.",
+    "as": "তেওঁ নিজৰ ভনীতকৈ ভাল গায়।"
+   },
+   "options": [
+    {
+     "en": "better",
+     "as": "better"
+    },
+    {
+     "en": "best",
+     "as": "best"
+    },
+    {
+     "en": "good",
+     "as": "good"
+    },
+    {
+     "en": "well",
+     "as": "well"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'better'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'better'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-107",
+   "q": {
+    "en": "Fill in the blank: He works ___ than anyone else.",
+    "as": "তেওঁ আন যিকোনোতকৈ বেছি পৰিশ্ৰম কৰে।"
+   },
+   "options": [
+    {
+     "en": "hardest",
+     "as": "hardest"
+    },
+    {
+     "en": "hard",
+     "as": "hard"
+    },
+    {
+     "en": "harder",
+     "as": "harder"
+    },
+    {
+     "en": "hardly",
+     "as": "hardly"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'harder'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'harder'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-108",
+   "q": {
+    "en": "Fill in the blank: He is the ___ of the two brothers.",
+    "as": "তেওঁ দুজন ভাইৰ ভিতৰত ডাঙৰ।"
+   },
+   "options": [
+    {
+     "en": "older",
+     "as": "older"
+    },
+    {
+     "en": "eldest",
+     "as": "eldest"
+    },
+    {
+     "en": "oldest",
+     "as": "oldest"
+    },
+    {
+     "en": "elder",
+     "as": "elder"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'elder'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'elder'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-109",
+   "q": {
+    "en": "Fill in the blank: She spoke very ___.",
+    "as": "তেওঁ অতি মৃদুভাৱে কথা ক'লে।"
+   },
+   "options": [
+    {
+     "en": "softly",
+     "as": "softly"
+    },
+    {
+     "en": "soft",
+     "as": "soft"
+    },
+    {
+     "en": "softness",
+     "as": "softness"
+    },
+    {
+     "en": "softer",
+     "as": "softer"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'softly'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'softly'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-110",
+   "q": {
+    "en": "Fill in the blank: He ran ___ to catch the train.",
+    "as": "তেওঁ ৰেল ধৰিবলৈ দ্ৰুত দৌৰিলে।"
+   },
+   "options": [
+    {
+     "en": "fastly",
+     "as": "fastly"
+    },
+    {
+     "en": "faster",
+     "as": "faster"
+    },
+    {
+     "en": "fastest",
+     "as": "fastest"
+    },
+    {
+     "en": "fast",
+     "as": "fast"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'fast'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'fast'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-111",
+   "q": {
+    "en": "Complete the sentence: I have ___ money than you.",
+    "as": "মোৰ আপোনাতকৈ কম ধন আছে।"
+   },
+   "options": [
+    {
+     "en": "fewer",
+     "as": "fewer"
+    },
+    {
+     "en": "less",
+     "as": "less"
+    },
+    {
+     "en": "little",
+     "as": "little"
+    },
+    {
+     "en": "least",
+     "as": "least"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'less'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'less'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-112",
+   "q": {
+    "en": "Fill in the blank: There are ___ students today.",
+    "as": "আজি কম ছাত্ৰ আছে।"
+   },
+   "options": [
+    {
+     "en": "less",
+     "as": "less"
+    },
+    {
+     "en": "little",
+     "as": "little"
+    },
+    {
+     "en": "least",
+     "as": "least"
+    },
+    {
+     "en": "fewer",
+     "as": "fewer"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'fewer'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'fewer'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-113",
+   "q": {
+    "en": "Fill in the blank: He has ___ friends here.",
+    "as": "তেওঁৰ ইয়াত মাত্ৰ কেইজনমান বন্ধু আছে।"
+   },
+   "options": [
+    {
+     "en": "a few",
+     "as": "a few"
+    },
+    {
+     "en": "a little",
+     "as": "a little"
+    },
+    {
+     "en": "much",
+     "as": "much"
+    },
+    {
+     "en": "less",
+     "as": "less"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'a few'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'a few'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-114",
+   "q": {
+    "en": "Fill in the blank: She has ___ sugar in her tea.",
+    "as": "তেওঁৰ চাহত অলপ চেনি আছে।"
+   },
+   "options": [
+    {
+     "en": "a few",
+     "as": "a few"
+    },
+    {
+     "en": "many",
+     "as": "many"
+    },
+    {
+     "en": "a little",
+     "as": "a little"
+    },
+    {
+     "en": "fewer",
+     "as": "fewer"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'a little'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'a little'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-115",
+   "q": {
+    "en": "Fill in the blank: You ___ obey your parents.",
+    "as": "তুমি তোমাৰ পিতৃ-মাতৃৰ কথা মানিব লাগে।"
+   },
+   "options": [
+    {
+     "en": "could",
+     "as": "could"
+    },
+    {
+     "en": "should",
+     "as": "should"
+    },
+    {
+     "en": "would",
+     "as": "would"
+    },
+    {
+     "en": "may",
+     "as": "may"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'should'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'should'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-116",
+   "q": {
+    "en": "Fill in the blank: He ___ swim when he was five.",
+    "as": "তেওঁ পাঁচ বছৰ বয়সত সাঁতুৰিব পাৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "can",
+     "as": "can"
+    },
+    {
+     "en": "could",
+     "as": "could"
+    },
+    {
+     "en": "may",
+     "as": "may"
+    },
+    {
+     "en": "must",
+     "as": "must"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'could'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'could'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-117",
+   "q": {
+    "en": "Fill in the blank: ___ I come in, sir?",
+    "as": "ছাৰ, মই সোমাব পাৰোঁ নেকি?"
+   },
+   "options": [
+    {
+     "en": "Must",
+     "as": "Must"
+    },
+    {
+     "en": "Should",
+     "as": "Should"
+    },
+    {
+     "en": "Ought",
+     "as": "Ought"
+    },
+    {
+     "en": "May",
+     "as": "May"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'May'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'May'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-118",
+   "q": {
+    "en": "Complete the sentence: You ___ not smoke here.",
+    "as": "তুমি ইয়াত ধূমপান কৰিব নালাগে।"
+   },
+   "options": [
+    {
+     "en": "can",
+     "as": "can"
+    },
+    {
+     "en": "may",
+     "as": "may"
+    },
+    {
+     "en": "must",
+     "as": "must"
+    },
+    {
+     "en": "would",
+     "as": "would"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'must'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'must'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-119",
+   "q": {
+    "en": "Fill in the blank: She ___ be at home now.",
+    "as": "তেওঁ এতিয়া ঘৰত থাকিব পাৰে।"
+   },
+   "options": [
+    {
+     "en": "must",
+     "as": "must"
+    },
+    {
+     "en": "should",
+     "as": "should"
+    },
+    {
+     "en": "need",
+     "as": "need"
+    },
+    {
+     "en": "might",
+     "as": "might"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'might'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'might'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-120",
+   "q": {
+    "en": "Fill in the blank: You ___ have told me earlier.",
+    "as": "তুমি মোক আগতে ক'ব লাগিছিল।"
+   },
+   "options": [
+    {
+     "en": "would",
+     "as": "would"
+    },
+    {
+     "en": "could",
+     "as": "could"
+    },
+    {
+     "en": "should",
+     "as": "should"
+    },
+    {
+     "en": "might",
+     "as": "might"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'should'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'should'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-121",
+   "q": {
+    "en": "Fill in the blank: He is a man of ___ words.",
+    "as": "তেওঁ অলপ কথা কোৱা মানুহ।"
+   },
+   "options": [
+    {
+     "en": "few",
+     "as": "few"
+    },
+    {
+     "en": "less",
+     "as": "less"
+    },
+    {
+     "en": "little",
+     "as": "little"
+    },
+    {
+     "en": "much",
+     "as": "much"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'few'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'few'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-122",
+   "q": {
+    "en": "Fill in the blank: The teacher made him ___ the poem.",
+    "as": "শিক্ষকে তেওঁক কবিতাটো আবৃত্তি কৰালে।"
+   },
+   "options": [
+    {
+     "en": "recites",
+     "as": "recites"
+    },
+    {
+     "en": "recited",
+     "as": "recited"
+    },
+    {
+     "en": "recite",
+     "as": "recite"
+    },
+    {
+     "en": "reciting",
+     "as": "reciting"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'recite'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'recite'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-123",
+   "q": {
+    "en": "Fill in the blank: I would rather ___ than beg.",
+    "as": "মই ভিক্ষা কৰাতকৈ মৃত্যু বাছি ল'ম।"
+   },
+   "options": [
+    {
+     "en": "to die",
+     "as": "to die"
+    },
+    {
+     "en": "died",
+     "as": "died"
+    },
+    {
+     "en": "die",
+     "as": "die"
+    },
+    {
+     "en": "dying",
+     "as": "dying"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'die'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'die'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-124",
+   "q": {
+    "en": "Fill in the blank: She is used to ___ early.",
+    "as": "তেওঁ সোনকালে উঠাৰ অভ্যস্ত।"
+   },
+   "options": [
+    {
+     "en": "getting up",
+     "as": "getting up"
+    },
+    {
+     "en": "get up",
+     "as": "get up"
+    },
+    {
+     "en": "gets up",
+     "as": "gets up"
+    },
+    {
+     "en": "got up",
+     "as": "got up"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'getting up'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'getting up'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-125",
+   "q": {
+    "en": "Fill in the blank: He is looking forward to ___ you.",
+    "as": "তেওঁ আপোনাক লগ পোৱাৰ বাবে অপেক্ষা কৰি আছে।"
+   },
+   "options": [
+    {
+     "en": "meeting",
+     "as": "meeting"
+    },
+    {
+     "en": "meet",
+     "as": "meet"
+    },
+    {
+     "en": "met",
+     "as": "met"
+    },
+    {
+     "en": "meets",
+     "as": "meets"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'meeting'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'meeting'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-126",
+   "q": {
+    "en": "Fill in the blank: It is no use ___ over spilt milk.",
+    "as": "হৈ যোৱা কামৰ বাবে অনুতাপ কৰা বৃথা।"
+   },
+   "options": [
+    {
+     "en": "crying",
+     "as": "crying"
+    },
+    {
+     "en": "cry",
+     "as": "cry"
+    },
+    {
+     "en": "cried",
+     "as": "cried"
+    },
+    {
+     "en": "cries",
+     "as": "cries"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'crying'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'crying'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-127",
+   "q": {
+    "en": "Fill in the blank: Hardly had he arrived ___ the meeting began.",
+    "as": "তেওঁ মাত্ৰ উপস্থিত হোৱাৰ লগে লগে সভা আৰম্ভ হ'ল।"
+   },
+   "options": [
+    {
+     "en": "when",
+     "as": "when"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "then",
+     "as": "then"
+    },
+    {
+     "en": "that",
+     "as": "that"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'when'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'when'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-128",
+   "q": {
+    "en": "Fill in the blank: No sooner had he arrived ___ he left.",
+    "as": "তেওঁ মাত্ৰ উপস্থিত হোৱাৰ লগে লগে গুচি গ'ল।"
+   },
+   "options": [
+    {
+     "en": "when",
+     "as": "when"
+    },
+    {
+     "en": "then",
+     "as": "then"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "that",
+     "as": "that"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'than'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'than'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-129",
+   "q": {
+    "en": "Fill in the blank: He prefers tea ___ coffee.",
+    "as": "তেওঁ কফিতকৈ চাহ বেছি ভাল পায়।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "than",
+     "as": "than"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "over",
+     "as": "over"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-130",
+   "q": {
+    "en": "Fill in the blank: She is the same girl ___ came yesterday.",
+    "as": "তেওঁ কালি অহা সেই ছোৱালীজনী।"
+   },
+   "options": [
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "who",
+     "as": "who"
+    },
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "whom",
+     "as": "whom"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'that'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'that'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-131",
+   "q": {
+    "en": "Fill in the blank: This is the house ___ I was born.",
+    "as": "এইখন সেই ঘৰ য'ত মই জন্ম লৈছিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "where",
+     "as": "where"
+    },
+    {
+     "en": "when",
+     "as": "when"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'where'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'where'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-132",
+   "q": {
+    "en": "Fill in the blank: He is the boy ___ won the prize.",
+    "as": "তেওঁ সেই ল'ৰা যিয়ে পুৰস্কাৰ জিতিছে।"
+   },
+   "options": [
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "whom",
+     "as": "whom"
+    },
+    {
+     "en": "whose",
+     "as": "whose"
+    },
+    {
+     "en": "who",
+     "as": "who"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'who'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'who'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-133",
+   "q": {
+    "en": "Fill in the blank: He ___ up smoking last year.",
+    "as": "তেওঁ যোৱা বছৰ ধূমপান এৰি দিলে।"
+   },
+   "options": [
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'gave'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'gave'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-134",
+   "q": {
+    "en": "Fill in the blank: The meeting was ___ off due to rain.",
+    "as": "বৰষুণৰ বাবে সভা বাতিল হ'ল।"
+   },
+   "options": [
+    {
+     "en": "taken",
+     "as": "taken"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "called",
+     "as": "called"
+    },
+    {
+     "en": "kept",
+     "as": "kept"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'called'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'called'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-135",
+   "q": {
+    "en": "Fill in the blank: She ___ after her younger brother.",
+    "as": "তাই নিজৰ সৰু ভাইৰ যতন লয়।"
+   },
+   "options": [
+    {
+     "en": "looks",
+     "as": "looks"
+    },
+    {
+     "en": "sees",
+     "as": "sees"
+    },
+    {
+     "en": "watches",
+     "as": "watches"
+    },
+    {
+     "en": "takes",
+     "as": "takes"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'looks'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'looks'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-136",
+   "q": {
+    "en": "Fill in the blank: He ___ up early every morning.",
+    "as": "তেওঁ প্ৰতিদিনে ৰাতিপুৱা সোনকালে উঠে।"
+   },
+   "options": [
+    {
+     "en": "gets",
+     "as": "gets"
+    },
+    {
+     "en": "takes",
+     "as": "takes"
+    },
+    {
+     "en": "makes",
+     "as": "makes"
+    },
+    {
+     "en": "puts",
+     "as": "puts"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'gets'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'gets'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-137",
+   "q": {
+    "en": "Fill in the blank: The car ___ down on the highway.",
+    "as": "গাড়ীখন ঘাইপথত বেয়া হৈ পৰিল।"
+   },
+   "options": [
+    {
+     "en": "fell",
+     "as": "fell"
+    },
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "broke",
+     "as": "broke"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'broke'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'broke'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-138",
+   "q": {
+    "en": "Fill in the blank: Please ___ off the light before leaving.",
+    "as": "যোৱাৰ আগতে অনুগ্ৰহ কৰি লাইটটো নুমুৱাই দিয়ক।"
+   },
+   "options": [
+    {
+     "en": "shut",
+     "as": "shut"
+    },
+    {
+     "en": "switch",
+     "as": "switch"
+    },
+    {
+     "en": "close",
+     "as": "close"
+    },
+    {
+     "en": "take",
+     "as": "take"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'switch'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'switch'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-139",
+   "q": {
+    "en": "Fill in the blank: He ___ out the truth at last.",
+    "as": "তেওঁ অৱশেষত সত্যটো উলিয়ালে।"
+   },
+   "options": [
+    {
+     "en": "looked",
+     "as": "looked"
+    },
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "found",
+     "as": "found"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'found'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'found'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-140",
+   "q": {
+    "en": "Fill in the blank: She ___ up the matter with her boss.",
+    "as": "তাই নিজৰ বসুৱাৰ সৈতে বিষয়টো উত্থাপন কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    },
+    {
+     "en": "took",
+     "as": "took"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'took'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'took'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-141",
+   "q": {
+    "en": "Fill in the blank: The plane ___ off at six.",
+    "as": "উৰাজাহাজখন ছয় বজাত উৰা মাৰিলে।"
+   },
+   "options": [
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "got",
+     "as": "got"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'took'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'took'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-142",
+   "q": {
+    "en": "Fill in the blank: He ___ on well with his colleagues.",
+    "as": "তেওঁ নিজৰ সহকৰ্মীসকলৰ সৈতে ভাল চলি যায়।"
+   },
+   "options": [
+    {
+     "en": "takes",
+     "as": "takes"
+    },
+    {
+     "en": "makes",
+     "as": "makes"
+    },
+    {
+     "en": "gets",
+     "as": "gets"
+    },
+    {
+     "en": "puts",
+     "as": "puts"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'gets'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'gets'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-143",
+   "q": {
+    "en": "Fill in the blank: She ___ out the candle before sleeping.",
+    "as": "শুবলৈ যোৱাৰ আগতে তাই মমবাতিটো নুমুৱালে।"
+   },
+   "options": [
+    {
+     "en": "put",
+     "as": "put"
+    },
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'put'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'put'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-144",
+   "q": {
+    "en": "Fill in the blank: He was ___ up by his uncle.",
+    "as": "তেওঁক নিজৰ খুৰাই ডাঙৰ-দীঘল কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "brought",
+     "as": "brought"
+    },
+    {
+     "en": "taken",
+     "as": "taken"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'brought'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'brought'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-145",
+   "q": {
+    "en": "Fill in the blank: The thief ___ away with the money.",
+    "as": "চোৰটোৱে ধন লৈ পলাই গ'ল।"
+   },
+   "options": [
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "got",
+     "as": "got"
+    },
+    {
+     "en": "ran",
+     "as": "ran"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'ran'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'ran'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-146",
+   "q": {
+    "en": "Fill in the blank: She ___ up the quarrel with her friend.",
+    "as": "তাই নিজৰ বান্ধৱীৰ সৈতে ঝগড়া মিটাই পেলালে।"
+   },
+   "options": [
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "gave",
+     "as": "gave"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'made'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'made'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-147",
+   "q": {
+    "en": "Fill in the blank: He ___ through his savings in a year.",
+    "as": "তেওঁ এবছৰতে নিজৰ সাঁচ খৰচ কৰি শেষ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "went",
+     "as": "went"
+    },
+    {
+     "en": "took",
+     "as": "took"
+    },
+    {
+     "en": "made",
+     "as": "made"
+    },
+    {
+     "en": "put",
+     "as": "put"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'went'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'went'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-148",
+   "q": {
+    "en": "Fill in the blank: ___ is your name?",
+    "as": "আপোনাৰ নাম কি?"
+   },
+   "options": [
+    {
+     "en": "Who",
+     "as": "Who"
+    },
+    {
+     "en": "Whom",
+     "as": "Whom"
+    },
+    {
+     "en": "What",
+     "as": "What"
+    },
+    {
+     "en": "Whose",
+     "as": "Whose"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'What'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'What'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-149",
+   "q": {
+    "en": "Fill in the blank: ___ do you live?",
+    "as": "আপুনি ক'ত থাকে?"
+   },
+   "options": [
+    {
+     "en": "When",
+     "as": "When"
+    },
+    {
+     "en": "Why",
+     "as": "Why"
+    },
+    {
+     "en": "How",
+     "as": "How"
+    },
+    {
+     "en": "Where",
+     "as": "Where"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'Where'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'Where'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-150",
+   "q": {
+    "en": "Fill in the blank: ___ are you crying?",
+    "as": "তুমি কিয় কান্দি আছা?"
+   },
+   "options": [
+    {
+     "en": "What",
+     "as": "What"
+    },
+    {
+     "en": "Where",
+     "as": "Where"
+    },
+    {
+     "en": "Why",
+     "as": "Why"
+    },
+    {
+     "en": "Which",
+     "as": "Which"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'Why'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'Why'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-151",
+   "q": {
+    "en": "Fill in the blank: ___ old are you?",
+    "as": "তোমাৰ বয়স কিমান?"
+   },
+   "options": [
+    {
+     "en": "What",
+     "as": "What"
+    },
+    {
+     "en": "Which",
+     "as": "Which"
+    },
+    {
+     "en": "How",
+     "as": "How"
+    },
+    {
+     "en": "When",
+     "as": "When"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'How'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'How'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-152",
+   "q": {
+    "en": "Fill in the blank: ___ book is this?",
+    "as": "এইখন কাৰ কিতাপ?"
+   },
+   "options": [
+    {
+     "en": "Whose",
+     "as": "Whose"
+    },
+    {
+     "en": "Who",
+     "as": "Who"
+    },
+    {
+     "en": "Whom",
+     "as": "Whom"
+    },
+    {
+     "en": "Which",
+     "as": "Which"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'Whose'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'Whose'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-153",
+   "q": {
+    "en": "Fill in the blank: ___ of the two is better?",
+    "as": "দুটাৰ ভিতৰত কোনটো ভাল?"
+   },
+   "options": [
+    {
+     "en": "Who",
+     "as": "Who"
+    },
+    {
+     "en": "What",
+     "as": "What"
+    },
+    {
+     "en": "Whom",
+     "as": "Whom"
+    },
+    {
+     "en": "Which",
+     "as": "Which"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'Which'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'Which'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-154",
+   "q": {
+    "en": "Fill in the blank: ___ did you meet at the station?",
+    "as": "আপুনি ষ্টেচনত কাক লগ পাইছিল?"
+   },
+   "options": [
+    {
+     "en": "Who",
+     "as": "Who"
+    },
+    {
+     "en": "Which",
+     "as": "Which"
+    },
+    {
+     "en": "Whose",
+     "as": "Whose"
+    },
+    {
+     "en": "Whom",
+     "as": "Whom"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'Whom'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'Whom'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-155",
+   "q": {
+    "en": "Fill in the blank: ___ will you return?",
+    "as": "আপুনি কেতিয়া উভতি আহিব?"
+   },
+   "options": [
+    {
+     "en": "When",
+     "as": "When"
+    },
+    {
+     "en": "Where",
+     "as": "Where"
+    },
+    {
+     "en": "Why",
+     "as": "Why"
+    },
+    {
+     "en": "How",
+     "as": "How"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'When'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'When'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-156",
+   "q": {
+    "en": "Fill in the blank: He is a ___ (success) businessman.",
+    "as": "তেওঁ এজন সফল ব্যৱসায়ী।"
+   },
+   "options": [
+    {
+     "en": "success",
+     "as": "success"
+    },
+    {
+     "en": "successfully",
+     "as": "successfully"
+    },
+    {
+     "en": "succeed",
+     "as": "succeed"
+    },
+    {
+     "en": "successful",
+     "as": "successful"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'successful'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'successful'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-157",
+   "q": {
+    "en": "Fill in the blank: She sings ___ (beautiful).",
+    "as": "তাই ধুনীয়াকৈ গায়।"
+   },
+   "options": [
+    {
+     "en": "beautifully",
+     "as": "beautifully"
+    },
+    {
+     "en": "beautiful",
+     "as": "beautiful"
+    },
+    {
+     "en": "beauty",
+     "as": "beauty"
+    },
+    {
+     "en": "beautify",
+     "as": "beautify"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'beautifully'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'beautifully'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-158",
+   "q": {
+    "en": "Fill in the blank: He works ___ (hard) than anyone.",
+    "as": "তেওঁ আন যিকোনোতকৈ বেছি পৰিশ্ৰম কৰে।"
+   },
+   "options": [
+    {
+     "en": "hard",
+     "as": "hard"
+    },
+    {
+     "en": "hardest",
+     "as": "hardest"
+    },
+    {
+     "en": "harder",
+     "as": "harder"
+    },
+    {
+     "en": "hardly",
+     "as": "hardly"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'harder'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'harder'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-159",
+   "q": {
+    "en": "Fill in the blank: Honesty is the best ___ (politics).",
+    "as": "সততাই শ্ৰেষ্ঠ নীতি।"
+   },
+   "options": [
+    {
+     "en": "politics",
+     "as": "politics"
+    },
+    {
+     "en": "politician",
+     "as": "politician"
+    },
+    {
+     "en": "political",
+     "as": "political"
+    },
+    {
+     "en": "policy",
+     "as": "policy"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'policy'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'policy'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-160",
+   "q": {
+    "en": "Fill in the blank: He is a good ___ (lead).",
+    "as": "তেওঁ এজন ভাল নেতা।"
+   },
+   "options": [
+    {
+     "en": "leading",
+     "as": "leading"
+    },
+    {
+     "en": "lead",
+     "as": "lead"
+    },
+    {
+     "en": "leader",
+     "as": "leader"
+    },
+    {
+     "en": "leadership",
+     "as": "leadership"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'leader'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'leader'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-161",
+   "q": {
+    "en": "Fill in the blank: Her ___ (kind) moved us.",
+    "as": "তাইৰ দয়াই আমাক আপ্লুত কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "kind",
+     "as": "kind"
+    },
+    {
+     "en": "kindness",
+     "as": "kindness"
+    },
+    {
+     "en": "kindly",
+     "as": "kindly"
+    },
+    {
+     "en": "kinder",
+     "as": "kinder"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'kindness'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'kindness'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-162",
+   "q": {
+    "en": "Fill in the blank: The ___ (differ) is small.",
+    "as": "পাৰ্থক্যটো সৰু।"
+   },
+   "options": [
+    {
+     "en": "different",
+     "as": "different"
+    },
+    {
+     "en": "differ",
+     "as": "differ"
+    },
+    {
+     "en": "difference",
+     "as": "difference"
+    },
+    {
+     "en": "differently",
+     "as": "differently"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'difference'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'difference'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-163",
+   "q": {
+    "en": "Fill in the blank: He spoke with great ___ (confident).",
+    "as": "তেওঁ বহুত আত্মবিশ্বাসেৰে কথা ক'লে।"
+   },
+   "options": [
+    {
+     "en": "confidence",
+     "as": "confidence"
+    },
+    {
+     "en": "confident",
+     "as": "confident"
+    },
+    {
+     "en": "confidently",
+     "as": "confidently"
+    },
+    {
+     "en": "confide",
+     "as": "confide"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'confidence'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'confidence'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-164",
+   "q": {
+    "en": "Fill in the blank: We must protect our ___ (free).",
+    "as": "আমি আমাৰ স্বাধীনতা ৰক্ষা কৰিব লাগে।"
+   },
+   "options": [
+    {
+     "en": "free",
+     "as": "free"
+    },
+    {
+     "en": "freedom",
+     "as": "freedom"
+    },
+    {
+     "en": "freely",
+     "as": "freely"
+    },
+    {
+     "en": "freer",
+     "as": "freer"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'freedom'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'freedom'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-165",
+   "q": {
+    "en": "Fill in the blank: The ___ (difficult) of the task is great.",
+    "as": "কামটোৰ কঠিনতা বহুত।"
+   },
+   "options": [
+    {
+     "en": "difficulty",
+     "as": "difficulty"
+    },
+    {
+     "en": "difficult",
+     "as": "difficult"
+    },
+    {
+     "en": "difficultly",
+     "as": "difficultly"
+    },
+    {
+     "en": "difficulties",
+     "as": "difficulties"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'difficulty'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'difficulty'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-166",
+   "q": {
+    "en": "Fill in the blank: He is a ___ (create) writer.",
+    "as": "তেওঁ এজন সৃষ্টিশীল লেখক।"
+   },
+   "options": [
+    {
+     "en": "creation",
+     "as": "creation"
+    },
+    {
+     "en": "creative",
+     "as": "creative"
+    },
+    {
+     "en": "create",
+     "as": "create"
+    },
+    {
+     "en": "creatively",
+     "as": "creatively"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'creative'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'creative'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-167",
+   "q": {
+    "en": "Fill in the blank: She completed the work ___ (success).",
+    "as": "তাই সফলভাৱে কামটো শেষ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "success",
+     "as": "success"
+    },
+    {
+     "en": "successfully",
+     "as": "successfully"
+    },
+    {
+     "en": "successful",
+     "as": "successful"
+    },
+    {
+     "en": "succeed",
+     "as": "succeed"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'successfully'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'successfully'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-168",
+   "q": {
+    "en": "Fill in the blank: His ___ (honest) is well known.",
+    "as": "তেওঁৰ সততা সুপৰিচিত।"
+   },
+   "options": [
+    {
+     "en": "honest",
+     "as": "honest"
+    },
+    {
+     "en": "honesty",
+     "as": "honesty"
+    },
+    {
+     "en": "honestly",
+     "as": "honestly"
+    },
+    {
+     "en": "honestest",
+     "as": "honestest"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'honesty'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'honesty'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-169",
+   "q": {
+    "en": "Fill in the blank: The weather is ___ (please) today.",
+    "as": "আজি বতৰ মনোৰম।"
+   },
+   "options": [
+    {
+     "en": "pleased",
+     "as": "pleased"
+    },
+    {
+     "en": "pleasing",
+     "as": "pleasing"
+    },
+    {
+     "en": "pleasure",
+     "as": "pleasure"
+    },
+    {
+     "en": "pleasant",
+     "as": "pleasant"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'pleasant'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'pleasant'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-170",
+   "q": {
+    "en": "Fill in the blank: He accepted the ___ (invite) gladly.",
+    "as": "তেওঁ আনন্দেৰে নিমন্ত্ৰণ গ্ৰহণ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "invitation",
+     "as": "invitation"
+    },
+    {
+     "en": "invite",
+     "as": "invite"
+    },
+    {
+     "en": "inviting",
+     "as": "inviting"
+    },
+    {
+     "en": "invited",
+     "as": "invited"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'invitation'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'invitation'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-171",
+   "q": {
+    "en": "Fill in the blank: She has a ___ (beauty) smile.",
+    "as": "তাইৰ এটা ধুনীয়া হাঁহি আছে।"
+   },
+   "options": [
+    {
+     "en": "beauty",
+     "as": "beauty"
+    },
+    {
+     "en": "beautiful",
+     "as": "beautiful"
+    },
+    {
+     "en": "beautifully",
+     "as": "beautifully"
+    },
+    {
+     "en": "beautify",
+     "as": "beautify"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'beautiful'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'beautiful'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-172",
+   "q": {
+    "en": "Fill in the blank: His ___ (behave) was shocking.",
+    "as": "তেওঁৰ আচৰণ আচৰিতজনক আছিল।"
+   },
+   "options": [
+    {
+     "en": "behave",
+     "as": "behave"
+    },
+    {
+     "en": "behaviour",
+     "as": "behaviour"
+    },
+    {
+     "en": "behaving",
+     "as": "behaving"
+    },
+    {
+     "en": "behaved",
+     "as": "behaved"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'behaviour'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'behaviour'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-173",
+   "q": {
+    "en": "Fill in the blank: We should use our time ___ (wise).",
+    "as": "আমি আমাৰ সময় বুদ্ধিমত্তাৰে ব্যৱহাৰ কৰা উচিত।"
+   },
+   "options": [
+    {
+     "en": "wise",
+     "as": "wise"
+    },
+    {
+     "en": "wisdom",
+     "as": "wisdom"
+    },
+    {
+     "en": "wiser",
+     "as": "wiser"
+    },
+    {
+     "en": "wisely",
+     "as": "wisely"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'wisely'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'wisely'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-174",
+   "q": {
+    "en": "Fill in the blank: He is ___ honest officer.",
+    "as": "তেওঁ এজন সৎ বিষয়া।"
+   },
+   "options": [
+    {
+     "en": "an",
+     "as": "an"
+    },
+    {
+     "en": "a",
+     "as": "a"
+    },
+    {
+     "en": "the",
+     "as": "the"
+    },
+    {
+     "en": "no article",
+     "as": "no article"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'an'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'an'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-175",
+   "q": {
+    "en": "Fill in the blank: The boy ___ is standing there is my brother.",
+    "as": "তাত থিয় হৈ থকা ল'ৰাটো মোৰ ভাই।"
+   },
+   "options": [
+    {
+     "en": "which",
+     "as": "which"
+    },
+    {
+     "en": "whom",
+     "as": "whom"
+    },
+    {
+     "en": "whose",
+     "as": "whose"
+    },
+    {
+     "en": "who",
+     "as": "who"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'who'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'who'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-176",
+   "q": {
+    "en": "Fill in the blank: I do not know ___ he will come.",
+    "as": "মই নাজানো তেওঁ আহিব নে নাই।"
+   },
+   "options": [
+    {
+     "en": "that",
+     "as": "that"
+    },
+    {
+     "en": "what",
+     "as": "what"
+    },
+    {
+     "en": "whether",
+     "as": "whether"
+    },
+    {
+     "en": "which",
+     "as": "which"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'whether'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'whether'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-177",
+   "q": {
+    "en": "Fill in the blank: He behaves ___ he were a king.",
+    "as": "তেওঁ এনে আচৰণ কৰে যেন তেওঁ ৰজা।"
+   },
+   "options": [
+    {
+     "en": "as",
+     "as": "as"
+    },
+    {
+     "en": "as if",
+     "as": "as if"
+    },
+    {
+     "en": "like",
+     "as": "like"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'as if'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'as if'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-178",
+   "q": {
+    "en": "Fill in the blank: It has been raining ___ morning.",
+    "as": "ৰাতিপুৱাৰপৰা বৰষুণ দি আছে।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'since'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'since'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-179",
+   "q": {
+    "en": "Complete the sentence: I have known him ___ ten years.",
+    "as": "মই তেওঁক দহ বছৰ ধৰি জানো।"
+   },
+   "options": [
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-180",
+   "q": {
+    "en": "Fill in the blank: He is the ___ boy in the class.",
+    "as": "তেওঁ শ্ৰেণীৰ আটাইতকৈ বুদ্ধিমান ল'ৰা।"
+   },
+   "options": [
+    {
+     "en": "most intelligent",
+     "as": "most intelligent"
+    },
+    {
+     "en": "intelligent",
+     "as": "intelligent"
+    },
+    {
+     "en": "more intelligent",
+     "as": "more intelligent"
+    },
+    {
+     "en": "intelligenter",
+     "as": "intelligenter"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'most intelligent'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'most intelligent'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-181",
+   "q": {
+    "en": "Fill in the blank: She is ___ than her sister.",
+    "as": "তাই নিজৰ ভনীতকৈ ধুনীয়া।"
+   },
+   "options": [
+    {
+     "en": "pretty",
+     "as": "pretty"
+    },
+    {
+     "en": "prettiest",
+     "as": "prettiest"
+    },
+    {
+     "en": "prettier",
+     "as": "prettier"
+    },
+    {
+     "en": "more pretty",
+     "as": "more pretty"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'prettier'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'prettier'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-182",
+   "q": {
+    "en": "Fill in the blank: This is ___ interesting book I have read.",
+    "as": "এইখন মই পঢ়া আটাইতকৈ আগ্ৰহজনক কিতাপ।"
+   },
+   "options": [
+    {
+     "en": "most",
+     "as": "most"
+    },
+    {
+     "en": "more",
+     "as": "more"
+    },
+    {
+     "en": "the most",
+     "as": "the most"
+    },
+    {
+     "en": "much",
+     "as": "much"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'the most'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'the most'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-183",
+   "q": {
+    "en": "Fill in the blank: He speaks English ___ fluently.",
+    "as": "তেওঁ অতি সাৱলীলভাৱে ইংৰাজী কয়।"
+   },
+   "options": [
+    {
+     "en": "much",
+     "as": "much"
+    },
+    {
+     "en": "so",
+     "as": "so"
+    },
+    {
+     "en": "too",
+     "as": "too"
+    },
+    {
+     "en": "very",
+     "as": "very"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'very'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'very'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-184",
+   "q": {
+    "en": "Fill in the blank: She lives ___ Mumbai.",
+    "as": "তাই মুম্বাইত থাকে।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-185",
+   "q": {
+    "en": "Fill in the blank: He arrived ___ the airport late.",
+    "as": "তেওঁ বিমানবন্দৰত দেৰিকৈ উপস্থিত হ'ল।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-186",
+   "q": {
+    "en": "Fill in the blank: We shall meet ___ Monday.",
+    "as": "আমি সোমবাৰে লগ পাম।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-187",
+   "q": {
+    "en": "Fill in the blank: The meeting is ___ 5 p.m.",
+    "as": "সভাখন আবেলি ৫ বজাত।"
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-188",
+   "q": {
+    "en": "Complete the sentence: He was born ___ 1995.",
+    "as": "তেওঁ ১৯৯৫ চনত জন্মগ্ৰহণ কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "since",
+     "as": "since"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-189",
+   "q": {
+    "en": "Fill in the blank: She has been ill ___ Monday.",
+    "as": "তাই সোমবাৰৰপৰা অসুস্থ।"
+   },
+   "options": [
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'since'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'since'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-190",
+   "q": {
+    "en": "Fill in the blank: He apologized ___ being late.",
+    "as": "তেওঁ দেৰি হোৱাৰ বাবে ক্ষমা খুজিলে।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-191",
+   "q": {
+    "en": "Fill in the blank: She is capable ___ doing the work.",
+    "as": "তাই কামটো কৰিবলৈ সক্ষম।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-192",
+   "q": {
+    "en": "Fill in the blank: He is not used ___ cold weather.",
+    "as": "তেওঁ ঠাণ্ডা বতৰৰ অভ্যস্ত নহয়।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-193",
+   "q": {
+    "en": "Fill in the blank: We must abide ___ the rules.",
+    "as": "আমি নিয়মবোৰ মানি চলিব লাগে।"
+   },
+   "options": [
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'by'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'by'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-194",
+   "q": {
+    "en": "Fill in the blank: He complied ___ my request.",
+    "as": "তেওঁ মোৰ অনুৰোধ ৰক্ষা কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-195",
+   "q": {
+    "en": "Fill in the blank: She is averse ___ hard work.",
+    "as": "তাই কঠোৰ পৰিশ্ৰমৰ প্ৰতি বিৰাগী।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-196",
+   "q": {
+    "en": "Fill in the blank: He is endowed ___ many talents.",
+    "as": "তেওঁ বহুত প্ৰতিভাৰে বিভূষিত।"
+   },
+   "options": [
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-197",
+   "q": {
+    "en": "Fill in the blank: The room is full ___ smoke.",
+    "as": "ৰুমটো ধোঁৱাৰে ভৰি আছে।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-198",
+   "q": {
+    "en": "Fill in the blank: He is devoid ___ common sense.",
+    "as": "তেওঁ সাধাৰণ জ্ঞানৰ অভাৱ।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-199",
+   "q": {
+    "en": "Fill in the blank: She is anxious ___ her son's health.",
+    "as": "তাই নিজৰ পুত্ৰৰ স্বাস্থ্যৰ বিষয়ে চিন্তিত।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'about'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'about'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-200",
+   "q": {
+    "en": "Fill in the blank: He is intent ___ doing good.",
+    "as": "তেওঁ ভাল কাম কৰাৰ উদ্দেশ্যেৰে আগবাঢ়িছে।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-201",
+   "q": {
+    "en": "Fill in the blank: We congratulated him ___ his success.",
+    "as": "আমি তেওঁক তেওঁৰ সফলতাৰ বাবে অভিনন্দন জনালোঁ।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-202",
+   "q": {
+    "en": "Fill in the blank: He was admitted ___ the hospital.",
+    "as": "তেওঁ চিকিৎসালয়ত ভৰ্তি হৈছিল।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "into",
+     "as": "into"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-203",
+   "q": {
+    "en": "Fill in the blank: She is married ___ an engineer.",
+    "as": "তাই এজন অভিযন্তাৰ সৈতে বিবাহিত।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-204",
+   "q": {
+    "en": "Fill in the blank: He is addicted ___ drugs.",
+    "as": "তেওঁ ড্ৰাগছৰ আসক্ত।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-205",
+   "q": {
+    "en": "Fill in the blank: The boy was accused ___ stealing.",
+    "as": "ল'ৰাটো চুৰি কৰাৰ অভিযোগত অভিযুক্ত হৈছিল।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-206",
+   "q": {
+    "en": "Fill in the blank: She is gifted ___ a fine voice.",
+    "as": "তাই এটা উত্তম স্বৰেৰে প্ৰতিভাশালী।"
+   },
+   "options": [
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-207",
+   "q": {
+    "en": "Fill in the blank: He is blind ___ his own faults.",
+    "as": "তেওঁ নিজৰ দোষৰ প্ৰতি অন্ধ।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-208",
+   "q": {
+    "en": "Fill in the blank: We should be loyal ___ our country.",
+    "as": "আমি আমাৰ দেশৰ প্ৰতি অনুগত হোৱা উচিত।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-209",
+   "q": {
+    "en": "Fill in the blank: He is confident ___ winning.",
+    "as": "তেওঁ জয়ৰ বিষয়ে আত্মবিশ্বাসী।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-210",
+   "q": {
+    "en": "Fill in the blank: She is keen ___ learning.",
+    "as": "তাই শিকিবলৈ আগ্ৰহী।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-211",
+   "q": {
+    "en": "Fill in the blank: He is worthy ___ praise.",
+    "as": "তেওঁ প্ৰশংসাৰ যোগ্য।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-212",
+   "q": {
+    "en": "Fill in the blank: The teacher was angry ___ the students.",
+    "as": "শিক্ষক ছাত্ৰসকললৈ খং কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-213",
+   "q": {
+    "en": "Fill in the blank: He is sorry ___ the delay.",
+    "as": "তেওঁ দেৰিৰ বাবে দুখী।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-214",
+   "q": {
+    "en": "Fill in the blank: She is famous ___ her singing.",
+    "as": "তাই নিজৰ গানৰ বাবে বিখ্যাত।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-215",
+   "q": {
+    "en": "Fill in the blank: He is guilty ___ murder.",
+    "as": "তেওঁ হত্যাৰ দোষী।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-216",
+   "q": {
+    "en": "Fill in the blank: He is engaged ___ writing a book.",
+    "as": "তেওঁ এখন কিতাপ লিখাত ব্যস্ত।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-217",
+   "q": {
+    "en": "Fill in the blank: We should not laugh ___ others.",
+    "as": "আমি আনক হাঁহিব নালাগে।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-218",
+   "q": {
+    "en": "Fill in the blank: He is deaf ___ advice.",
+    "as": "তেওঁ পৰামৰ্শলৈ কলা।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-219",
+   "q": {
+    "en": "Fill in the blank: She is desirous ___ fame.",
+    "as": "তাই খ্যাতিৰ বাবে আকাংক্ষী।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-220",
+   "q": {
+    "en": "Fill in the blank: He is aware ___ the danger.",
+    "as": "তেওঁ বিপদৰ বিষয়ে সচেতন।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-221",
+   "q": {
+    "en": "Fill in the blank: She is ignorant ___ the facts.",
+    "as": "তাই তথ্যৰ বিষয়ে অজ্ঞ।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-222",
+   "q": {
+    "en": "Fill in the blank: He is proficient ___ English.",
+    "as": "তেওঁ ইংৰাজীত পাৰদৰ্শী।"
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-223",
+   "q": {
+    "en": "Fill in the blank: She is vexed ___ his behaviour.",
+    "as": "তাই তেওঁৰ আচৰণলৈ বিৰক্ত।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-224",
+   "q": {
+    "en": "Fill in the blank: He is indifferent ___ praise.",
+    "as": "তেওঁ প্ৰশংসাৰ প্ৰতি উদাসীন।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-225",
+   "q": {
+    "en": "Fill in the blank: We must comply ___ the rules.",
+    "as": "আমি নিয়মবোৰ পালন কৰিব লাগে।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-226",
+   "q": {
+    "en": "Fill in the blank: She is zealous ___ her work.",
+    "as": "তাই নিজৰ কামত উৎসাহী।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-227",
+   "q": {
+    "en": "Fill in the blank: He is notorious ___ his cruelty.",
+    "as": "তেওঁ নিজৰ নিষ্ঠুৰতাৰ বাবে কুখ্যাত।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-228",
+   "q": {
+    "en": "Fill in the blank: The house is adjacent ___ the school.",
+    "as": "ঘৰটো বিদ্যালয়ৰ কাষত।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-229",
+   "q": {
+    "en": "Fill in the blank: He is envious ___ my success.",
+    "as": "তেওঁ মোৰ সফলতাৰ প্ৰতি ঈৰ্ষাপৰায়ণ।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-230",
+   "q": {
+    "en": "Fill in the blank: She is busy ___ her homework.",
+    "as": "তাই নিজৰ ঘৰুৱা কামত ব্যস্ত।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-231",
+   "q": {
+    "en": "Fill in the blank: He is anxious ___ success.",
+    "as": "তেওঁ সফলতাৰ বাবে উদ্বিগ্ন।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-232",
+   "q": {
+    "en": "Fill in the blank: She was pleased ___ the gift.",
+    "as": "তাই উপহাৰটোত সন্তুষ্ট হ'ল।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-233",
+   "q": {
+    "en": "Fill in the blank: He was astonished ___ the news.",
+    "as": "তেওঁ বাতৰিটোত আচৰিত হ'ল।"
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-234",
+   "q": {
+    "en": "Fill in the blank: She is careful ___ her health.",
+    "as": "তাই নিজৰ স্বাস্থ্যৰ বিষয়ে সতৰ্ক।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'about'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'about'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-235",
+   "q": {
+    "en": "Fill in the blank: He is ambitious ___ power.",
+    "as": "তেওঁ ক্ষমতাৰ বাবে উচ্চাকাংক্ষী।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-236",
+   "q": {
+    "en": "Fill in the blank: The train is bound ___ Delhi.",
+    "as": "ৰেলখন দিল্লীলৈ যোৱাৰ পথত।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-237",
+   "q": {
+    "en": "Fill in the blank: He is equal ___ the task.",
+    "as": "তেওঁ কামটোৰ যোগ্য।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-238",
+   "q": {
+    "en": "Fill in the blank: She is remarkable ___ her patience.",
+    "as": "তাই নিজৰ ধৈৰ্যৰ বাবে উল্লেখনীয়।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-239",
+   "q": {
+    "en": "Fill in the blank: He is good ___ playing cricket.",
+    "as": "তেওঁ ক্ৰিকেট খেলাত ভাল।"
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-240",
+   "q": {
+    "en": "Fill in the blank: She was born ___ a small village.",
+    "as": "তাই এখন সৰু গাঁৱত জন্মগ্ৰহণ কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "into",
+     "as": "into"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-241",
+   "q": {
+    "en": "Fill in the blank: He has been absent ___ Monday.",
+    "as": "তেওঁ সোমবাৰৰপৰা অনুপস্থিত।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'since'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'since'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-242",
+   "q": {
+    "en": "Fill in the blank: They have lived here ___ many years.",
+    "as": "তেওঁলোক বহু বছৰ ধৰি ইয়াত বাস কৰি আছে।"
+   },
+   "options": [
+    {
+     "en": "since",
+     "as": "since"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-243",
+   "q": {
+    "en": "Fill in the blank: He apologized ___ his rudeness.",
+    "as": "তেওঁ নিজৰ অভদ্ৰতাৰ বাবে ক্ষমা খুজিলে।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-244",
+   "q": {
+    "en": "Fill in the blank: She is proficient ___ mathematics.",
+    "as": "তাই গণিতত পাৰদৰ্শী।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'in'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'in'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-245",
+   "q": {
+    "en": "Fill in the blank: He was accused ___ cheating.",
+    "as": "তেওঁ প্ৰতাৰণা কৰাৰ অভিযোগত অভিযুক্ত হৈছিল।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-246",
+   "q": {
+    "en": "Fill in the blank: The child is afraid ___ the dark.",
+    "as": "শিশুটো অন্ধকাৰলৈ ভয় কৰে।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-247",
+   "q": {
+    "en": "Fill in the blank: He is married ___ my cousin.",
+    "as": "তেওঁ মোৰ সম্বন্ধীয়ৰ সৈতে বিবাহিত।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-248",
+   "q": {
+    "en": "Fill in the blank: We should abide ___ the law.",
+    "as": "আমি আইন মানি চলা উচিত।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'by'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'by'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-249",
+   "q": {
+    "en": "Fill in the blank: He is jealous ___ his neighbour.",
+    "as": "তেওঁ নিজৰ চুবুৰীয়াৰ প্ৰতি ঈৰ্ষাপৰায়ণ।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-250",
+   "q": {
+    "en": "Fill in the blank: She is confident ___ her success.",
+    "as": "তাই নিজৰ সফলতাৰ বিষয়ে আত্মবিশ্বাসী।"
+   },
+   "options": [
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-251",
+   "q": {
+    "en": "Fill in the blank: He is famous ___ his paintings.",
+    "as": "তেওঁ নিজৰ চিত্ৰৰ বাবে বিখ্যাত।"
+   },
+   "options": [
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-252",
+   "q": {
+    "en": "Fill in the blank: The room was full ___ people.",
+    "as": "ৰুমটো মানুহেৰে ভৰি আছিল।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-253",
+   "q": {
+    "en": "Fill in the blank: He is not eligible ___ the post.",
+    "as": "তেওঁ পদটোৰ বাবে যোগ্য নহয়।"
+   },
+   "options": [
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'for'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'for'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-254",
+   "q": {
+    "en": "Fill in the blank: She is afraid ___ making mistakes.",
+    "as": "তাই ভুল কৰিবলৈ ভয় কৰে।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-255",
+   "q": {
+    "en": "Fill in the blank: He was deprived ___ his property.",
+    "as": "তেওঁ নিজৰ সম্পত্তিৰ পৰা বঞ্চিত হৈছিল।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'of'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-256",
+   "q": {
+    "en": "Fill in the blank: We congratulated her ___ her marriage.",
+    "as": "আমি তাইক তাইৰ বিবাহৰ বাবে অভিনন্দন জনালোঁ।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-257",
+   "q": {
+    "en": "Fill in the blank: He is anxious ___ his result.",
+    "as": "তেওঁ নিজৰ ফলাফলৰ বাবে উদ্বিগ্ন।"
+   },
+   "options": [
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "about",
+     "as": "about"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'about'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'about'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-258",
+   "q": {
+    "en": "Fill in the blank: The train arrived ___ the platform.",
+    "as": "ৰেলখন প্লেটফৰ্মত উপস্থিত হ'ল।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct word is 'at'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'at'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-259",
+   "q": {
+    "en": "Fill in the blank: He is endowed ___ a sharp mind.",
+    "as": "তেওঁ এটা তীক্ষ্ণ বুদ্ধিৰে বিভূষিত।"
+   },
+   "options": [
+    {
+     "en": "by",
+     "as": "by"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-260",
+   "q": {
+    "en": "Fill in the blank: She is averse ___ publicity.",
+    "as": "তাই প্ৰচাৰৰ প্ৰতি বিৰাগী।"
+   },
+   "options": [
+    {
+     "en": "from",
+     "as": "from"
+    },
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "of",
+     "as": "of"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'to'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'to'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-261",
+   "q": {
+    "en": "Fill in the blank: He is intent ___ winning the race.",
+    "as": "তেওঁ দৌৰত জয়ৰ উদ্দেশ্যেৰে আগবাঢ়িছে।"
+   },
+   "options": [
+    {
+     "en": "in",
+     "as": "in"
+    },
+    {
+     "en": "at",
+     "as": "at"
+    },
+    {
+     "en": "on",
+     "as": "on"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct word is 'on'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'on'।"
+   }
+  },
+  {
+   "id": "fill-in-the-blanks-262",
+   "q": {
+    "en": "Fill in the blank: We must comply ___ the orders.",
+    "as": "আমি আদেশবোৰ পালন কৰিব লাগে।"
+   },
+   "options": [
+    {
+     "en": "with",
+     "as": "with"
+    },
+    {
+     "en": "to",
+     "as": "to"
+    },
+    {
+     "en": "for",
+     "as": "for"
+    },
+    {
+     "en": "by",
+     "as": "by"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct word is 'with'.",
+    "as": "শুদ্ধ শব্দটো হৈছে 'with'।"
+   }
+  }
+ ],
  "idioms-phrases": [
   {
    "id": "idioms-phrases-001",
@@ -49634,6 +66798,7808 @@ module.exports = {
    "explanation": {
     "en": "On is used when one thing rests on a surface.",
     "as": "On তেতিয়া ব্যৱহাৰ হয় যেতিয়া এটা বস্তুৱে এটা পৃষ্ঠত থাকে।"
+   }
+  }
+ ],
+ "sentence-rearrangement": [
+  {
+   "id": "sentence-rearrangement-001",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) rises (2) in the east (3) every morning (4) The sun.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উদয় হয় (2) পূৱত (3) প্ৰতিদিনে ৰাতিপুৱা (4) সূৰ্য।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The sun rises in the east every morning.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The sun rises in the east every morning.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-002",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to office (2) by bus (3) My father (4) goes.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কাৰ্যালয়লৈ (2) বাছত (3) মোৰ দেউতা (4) যায়।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'My father goes to office by bus.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My father goes to office by bus.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-003",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to her friend (2) She (3) is writing (4) a letter.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ বান্ধৱীলৈ (2) তাই (3) লিখি আছে (4) এখন চিঠি।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'She is writing a letter to her friend.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She is writing a letter to her friend.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-004",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) are playing (2) football (3) in the ground (4) The children.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) খেলি আছে (2) ফুটবল (3) পথাৰত (4) ল'ৰা-ছোৱালীবোৰ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The children are playing football in the ground.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children are playing football in the ground.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-005",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in Guwahati (2) for ten years (3) He (4) has been living.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গুৱাহাটীত (2) দহ বছৰ ধৰি (3) তেওঁ (4) বাস কৰি আছে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He has been living in Guwahati for ten years.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He has been living in Guwahati for ten years.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-006",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at the market (2) I (3) met (4) my old friend.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বজাৰত (2) মই (3) লগ পাইছিলোঁ (4) মোৰ পুৰণি বন্ধুক।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'I met my old friend at the market.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'I met my old friend at the market.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-007",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) explained (2) the lesson (3) very clearly (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বুজাই দিলে (2) পাঠটো (3) অতি স্পষ্টকৈ (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher explained the lesson very clearly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher explained the lesson very clearly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-008",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) our parents (2) and teachers (3) We (4) should respect.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাৰ পিতৃ-মাতৃক (2) আৰু শিক্ষকসকলক (3) আমি (4) সন্মান কৰা উচিত।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We should respect our parents and teachers.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should respect our parents and teachers.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-009",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) on time (2) The train (3) arrived (4) at the station.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সময়মতে (2) ৰেলগাড়ী (3) উপস্থিত হ'ল (4) ষ্টেচনত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The train arrived at the station on time.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train arrived at the station on time.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-010",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) bought (2) a beautiful dress (3) yesterday (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কিনিছিল (2) এখন ধুনীয়া ফ্ৰক (3) কালি (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She bought a beautiful dress yesterday.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She bought a beautiful dress yesterday.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-011",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the sky (2) during the day (3) Birds (4) fly.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আকাশত (2) দিনৰ ভাগত (3) চৰাইবোৰ (4) উৰে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'Birds fly in the sky during the day.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'Birds fly in the sky during the day.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-012",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) every day (2) The farmer (3) works hard (4) in the field.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) প্ৰতিদিনে (2) কৃষকে (3) পৰিশ্ৰম কৰে (4) পথাৰত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer works hard in the field every day.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer works hard in the field every day.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-013",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) cooks (2) delicious food (3) for the family (4) My mother.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰান্ধে (2) সুস্বাদু খাদ্য (3) পৰিয়ালৰ বাবে (4) মোৰ মা।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'My mother cooks delicious food for the family.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My mother cooks delicious food for the family.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-014",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) of dogs (2) since childhood (3) He (4) is afraid.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কুকুৰলৈ (2) শৈশৱৰপৰা (3) তেওঁ (4) ভয় কৰে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He is afraid of dogs since childhood.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He is afraid of dogs since childhood.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-015",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) interesting (2) The book (3) which I read (4) was very.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আগ্ৰহজনক (2) কিতাপখন (3) যিখন মই পঢ়িছিলোঁ (4) আছিল অতি।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The book which I read was very interesting.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The book which I read was very interesting.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-016",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) must obey (2) the rules (3) of the school (4) Students.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মানিব লাগে (2) নিয়মবোৰ (3) বিদ্যালয়ৰ (4) ছাত্ৰসকলে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'Students must obey the rules of the school.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'Students must obey the rules of the school.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-017",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) through the valley (2) quietly (3) The river (4) flows.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উপত্যকাৰ মাজেৰে (2) নীৰৱে (3) নদীখন (4) বয়।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The river flows through the valley quietly.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The river flows through the valley quietly.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-018",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the morning (2) She (3) sings (4) very sweetly.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰাতিপুৱা (2) তাই (3) গায় (4) অতি মধুৰভাৱে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She sings very sweetly in the morning.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She sings very sweetly in the morning.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-019",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) went (2) to the zoo (3) last Sunday (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গৈছিলোঁ (2) চিৰিয়াখানালৈ (3) যোৱা দেওবাৰে (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We went to the zoo last Sunday.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We went to the zoo last Sunday.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-020",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to take rest (2) for a week (3) The doctor (4) advised him.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) জিৰণি ল'বলৈ (2) এসপ্তাহৰ বাবে (3) ডাক্তৰে (4) তেওঁক পৰামৰ্শ দিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The doctor advised him to take rest for a week.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The doctor advised him to take rest for a week.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-021",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) because he was ill (2) He (3) did not come (4) to school.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কাৰণ তেওঁ অসুস্থ আছিল (2) তেওঁ (3) অহা নাই (4) বিদ্যালয়লৈ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He did not come to school because he was ill.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He did not come to school because he was ill.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-022",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) climbed (2) the tall tree (3) quickly (4) The boy.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উঠিল (2) ওখ গছজোপাত (3) দ্ৰুতভাৱে (4) ল'ৰাটো।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The boy climbed the tall tree quickly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The boy climbed the tall tree quickly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-023",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) my homework (2) already (3) I (4) have finished.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মোৰ ঘৰুৱা কাম (2) ইতিমধ্যে (3) মই (4) শেষ কৰিছোঁ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'I have finished my homework already.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'I have finished my homework already.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-024",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) last night (2) The police (3) caught (4) the thief.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যোৱা ৰাতি (2) পুলিচে (3) ধৰিছিল (4) চোৰটোক।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The police caught the thief last night.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The police caught the thief last night.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-025",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) wants (2) to become (3) a doctor (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বিচাৰে (2) হ'বলৈ (3) এজনী ডাক্তৰ (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'She wants to become a doctor.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She wants to become a doctor.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-026",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in spring (2) beautifully (3) The flowers (4) bloom.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বসন্তত (2) ধুনীয়াকৈ (3) ফুলবোৰ (4) ফুলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The flowers bloom in spring beautifully.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The flowers bloom in spring beautifully.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-027",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) on my birthday (2) He (3) gave me (4) a valuable gift.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মোৰ জন্মদিনত (2) তেওঁ (3) মোক দিলে (4) এটা মূল্যৱান উপহাৰ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He gave me a valuable gift on my birthday.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He gave me a valuable gift on my birthday.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-028",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) were listening (2) to the teacher (3) attentively (4) The students.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) শুনি আছিল (2) শিক্ষকৰ কথা (3) মনোযোগেৰে (4) ছাত্ৰসকল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The students were listening to the teacher attentively.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The students were listening to the teacher attentively.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-029",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to play (2) the guitar (3) My sister (4) is learning.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বজাবলৈ (2) গীটাৰ (3) মোৰ ভনী (4) শিকি আছে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'My sister is learning to play the guitar.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My sister is learning to play the guitar.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-030",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) along the road (2) The old man (3) walked (4) slowly.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পথৰ কাষেৰে (2) বৃদ্ধজন (3) খোজ কাঢ়িছিল (4) লাহে লাহে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The old man walked slowly along the road.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The old man walked slowly along the road.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-031",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) should plant (2) more trees (3) to save the earth (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰোৱা উচিত (2) বেছি গছ (3) পৃথিৱী ৰক্ষা কৰিবলৈ (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We should plant more trees to save the earth.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should plant more trees to save the earth.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-032",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) high (2) in the sky (3) The kite (4) flew.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ওপৰলৈ (2) আকাশত (3) চিলাটো (4) উৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The kite flew high in the sky.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The kite flew high in the sky.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-033",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) with my work (2) He (3) promised (4) to help me.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মোৰ কামত (2) তেওঁ (3) প্ৰতিশ্ৰুতি দিলে (4) মোক সহায় কৰিবলৈ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He promised to help me with my work.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He promised to help me with my work.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-034",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) asked (2) the students (3) a question (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সুধিলে (2) ছাত্ৰসকলক (3) এটা প্ৰশ্ন (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher asked the students a question.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher asked the students a question.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-035",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a novel (2) in her room (3) She (4) was reading.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এখন উপন্যাস (2) নিজৰ ৰুমত (3) তাই (4) পঢ়ি আছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She was reading a novel in her room.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She was reading a novel in her room.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-036",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) suddenly (2) The bus (3) stopped (4) at the corner.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) হঠাতে (2) বাছখন (3) ৰ'ল (4) চুকত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The bus stopped at the corner suddenly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The bus stopped at the corner suddenly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-037",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) love (2) to play (3) in the rain (4) Children.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ভাল পায় (2) খেলিবলৈ (3) বৰষুণত (4) ল'ৰা-ছোৱালীয়ে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'Children love to play in the rain.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'Children love to play in the rain.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-038",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at the bird (2) carefully (3) The hunter (4) aimed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চৰাইটোলৈ (2) সাৱধানেৰে (3) চিকাৰীয়ে (4) লক্ষ্য কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The hunter aimed at the bird carefully.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The hunter aimed at the bird carefully.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-039",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to the teacher (2) He (3) apologised (4) for his mistake.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) শিক্ষকৰ ওচৰত (2) তেওঁ (3) ক্ষমা খুজিলে (4) নিজৰ ভুলৰ বাবে।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He apologised for his mistake to the teacher.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He apologised for his mistake to the teacher.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-040",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) shines (2) brightly (3) at night (4) The moon.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উজ্বলি উঠে (2) উজ্জ্বলভাৱে (3) ৰাতি (4) জোন।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The moon shines brightly at night.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The moon shines brightly at night.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-041",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) waste (2) our time (3) We (4) must not.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অপচয় কৰিব (2) আমাৰ সময় (3) আমি (4) নালাগে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We must not waste our time.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We must not waste our time.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-042",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) every morning (2) The gardener (3) waters (4) the plants.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) প্ৰতিদিনে ৰাতিপুৱা (2) মালীয়ে (3) পানী দিয়ে (4) গছবোৰক।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The gardener waters the plants every morning.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The gardener waters the plants every morning.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-043",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) has gone (2) to Delhi (3) for a meeting (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গৈছে (2) দিল্লীলৈ (3) এখন সভাৰ বাবে (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She has gone to Delhi for a meeting.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She has gone to Delhi for a meeting.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-044",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at the stranger (2) loudly (3) The dog (4) barked.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অচিনাকি মানুহজনলৈ (2) চিঞৰি (3) কুকুৰটো (4) ভুকিলে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The dog barked at the stranger loudly.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The dog barked at the stranger loudly.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-045",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the village (2) He (3) is known (4) for his honesty.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গাঁৱত (2) তেওঁ (3) পৰিচিত (4) নিজৰ সততাৰ বাবে।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He is known for his honesty in the village.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He is known for his honesty in the village.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-046",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) returned (2) from school (3) in the evening (4) The children.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ঘূৰি আহিল (2) বিদ্যালয়ৰ পৰা (3) সন্ধিয়া (4) ল'ৰা-ছোৱালীবোৰ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The children returned from school in the evening.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children returned from school in the evening.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-047",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in a village (2) near the river (3) My uncle (4) lives.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এখন গাঁৱত (2) নদীখনৰ ওচৰত (3) মোৰ খুৰা (4) বাস কৰে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'My uncle lives in a village near the river.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My uncle lives in a village near the river.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-048",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) suddenly (2) The rain (3) stopped (4) in the afternoon.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) হঠাতে (2) বৰষুণ (3) বন্ধ হ'ল (4) আবেলি।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The rain stopped in the afternoon suddenly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The rain stopped in the afternoon suddenly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-049",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) prepared (2) the food (3) for the guests (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) প্ৰস্তুত কৰিলে (2) খাদ্য (3) অতিথিসকলৰ বাবে (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She prepared the food for the guests.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She prepared the food for the guests.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-050",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a nest (2) in the tree (3) The bird (4) built.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এটা বাহ (2) গছজোপাত (3) চৰাইটো (4) সাজিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The bird built a nest in the tree.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The bird built a nest in the tree.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-051",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) because of carelessness (2) He (3) failed (4) in the examination.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অসতৰ্কতাৰ বাবে (2) তেওঁ (3) বিফল হ'ল (4) পৰীক্ষাত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He failed in the examination because of carelessness.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He failed in the examination because of carelessness.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-052",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) gave us (2) a lot of (3) homework (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাক দিলে (2) বহুত (3) ঘৰুৱা কাম (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher gave us a lot of homework.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher gave us a lot of homework.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-053",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the station (2) before the train (3) We (4) reached.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ষ্টেচনত (2) ৰেলখনৰ আগতে (3) আমি (4) পাইছিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'We reached the station before the train.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We reached the station before the train.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-054",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) warmly (2) She (3) thanked me (4) for my help.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আন্তৰিকভাৱে (2) তাই (3) মোক ধন্যবাদ দিলে (4) মোৰ সহায়ৰ বাবে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She thanked me for my help warmly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She thanked me for my help warmly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-055",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) sold (2) his crops (3) in the market (4) The farmer.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বিক্ৰী কৰিলে (2) নিজৰ শস্য (3) বজাৰত (4) কৃষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer sold his crops in the market.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer sold his crops in the market.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-056",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) for his mistake (2) by the teacher (3) He (4) was punished.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ ভুলৰ বাবে (2) শিক্ষকৰ দ্বাৰা (3) তেওঁ (4) শাস্তি পাইছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He was punished for his mistake by the teacher.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He was punished for his mistake by the teacher.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-057",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) from the saucer (2) The cat (3) drank (4) the milk.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) তাৰখনৰ পৰা (2) মেকুৰীটোৱে (3) পান কৰিলে (4) গাখীৰ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The cat drank the milk from the saucer.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The cat drank the milk from the saucer.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-058",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) invited me (2) to his house (3) for dinner (4) My friend.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মোক নিমন্ত্ৰণ কৰিলে (2) নিজৰ ঘৰলৈ (3) ৰাতিৰ আহাৰৰ বাবে (4) মোৰ বন্ধুৱে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'My friend invited me to his house for dinner.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My friend invited me to his house for dinner.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-059",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the window (2) with a stone (3) The boy (4) broke.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) খিৰিকীখন (2) এটা শিলেৰে (3) ল'ৰাটোৱে (4) ভাঙিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The boy broke the window with a stone.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The boy broke the window with a stone.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-060",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to her mother (2) She (3) wrote (4) a letter.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ মাকলৈ (2) তাই (3) লিখিলে (4) এখন চিঠি।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She wrote a letter to her mother.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She wrote a letter to her mother.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-061",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) left (2) the platform (3) at five o'clock (4) The train.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এৰিলে (2) প্লেটফৰ্ম (3) পাঁচ বজাত (4) ৰেলগাড়ী।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The train left the platform at five o'clock.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train left the platform at five o'clock.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-062",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the film (2) very much (3) We (4) enjoyed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ছবিখন (2) অতি বেছি (3) আমি (4) উপভোগ কৰিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We enjoyed the film very much.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We enjoyed the film very much.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-063",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) from a teacher (2) He (3) learns (4) English.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এজন শিক্ষকৰ পৰা (2) তেওঁ (3) শিকে (4) ইংৰাজী।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He learns English from a teacher.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He learns English from a teacher.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-064",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) sets (2) in the west (3) in the evening (4) The sun.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অস্ত যায় (2) পশ্চিমত (3) সন্ধিয়া (4) সূৰ্য।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The sun sets in the west in the evening.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The sun sets in the west in the evening.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-065",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) my luggage (2) to the platform (3) The porter (4) carried.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মোৰ মাল-সামগ্ৰী (2) প্লেটফৰ্মলৈ (3) কুলিয়ে (4) বহন কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The porter carried my luggage to the platform.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The porter carried my luggage to the platform.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-066",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the market (2) She (3) lost (4) her purse.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বজাৰত (2) তাই (3) হেৰুৱালে (4) নিজৰ মোনা।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She lost her purse in the market.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She lost her purse in the market.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-067",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) sang (2) a song (3) together (4) The children.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গালে (2) এটা গীত (3) একেলগে (4) ল'ৰা-ছোৱালীবোৰে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The children sang a song together.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children sang a song together.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-068",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a book (2) from the library (3) He (4) borrowed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এখন কিতাপ (2) পুথিভঁৰালৰ পৰা (3) তেওঁ (4) ধাৰ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He borrowed a book from the library.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He borrowed a book from the library.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-069",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) with chalk (2) The teacher (3) wrote (4) on the blackboard.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চকেৰে (2) শিক্ষকে (3) লিখিলে (4) শ্যামফলকত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher wrote on the blackboard with chalk.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher wrote on the blackboard with chalk.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-070",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) should help (2) the poor (3) and needy (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সহায় কৰা উচিত (2) দুখীয়াক (3) আৰু অভাৱীসকলক (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We should help the poor and needy.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should help the poor and needy.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-071",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the tree (2) quickly (3) The monkey (4) climbed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গছজোপাত (2) দ্ৰুতভাৱে (3) বান্দৰটো (4) উঠিল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The monkey climbed the tree quickly.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The monkey climbed the tree quickly.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-072",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the kitchen (2) She (3) is cooking (4) rice.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পাকঘৰত (2) তাই (3) ৰান্ধি আছে (4) ভাত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She is cooking rice in the kitchen.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She is cooking rice in the kitchen.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-073",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) ploughs (2) the field (3) before sowing (4) The farmer.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চহায় (2) পথাৰখন (3) বনোৱাৰ আগতে (4) কৃষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer ploughs the field before sowing.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer ploughs the field before sowing.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-074",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a telegram (2) to his brother (3) He (4) sent.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এটা তাৰ-বাৰ্তা (2) নিজৰ ভাইলৈ (3) তেওঁ (4) পঠিয়ালে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He sent a telegram to his brother.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He sent a telegram to his brother.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-075",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) carefully (2) The doctor (3) examined (4) the patient.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সাৱধানেৰে (2) ডাক্তৰে (3) পৰীক্ষা কৰিলে (4) ৰোগীক।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The doctor examined the patient carefully.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The doctor examined the patient carefully.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-076",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) reads (2) the newspaper (3) every morning (4) My father.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পঢ়ে (2) বাতৰি কাকত (3) প্ৰতিদিনে ৰাতিপুৱা (4) মোৰ দেউতা।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'My father reads the newspaper every morning.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My father reads the newspaper every morning.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-077",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) gracefully (2) on the stage (3) The girl (4) danced.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সুন্দৰভাৱে (2) মঞ্চত (3) ছোৱালীজনীয়ে (4) নাচিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The girl danced gracefully on the stage.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The girl danced gracefully on the stage.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-078",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) yesterday (2) We (3) visited (4) the museum.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কালি (2) আমি (3) পৰিদৰ্শন কৰিলোঁ (4) সংগ্ৰহালয়।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We visited the museum yesterday.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We visited the museum yesterday.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-079",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) fought (2) bravely (3) in the war (4) The soldier.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যুঁজিলে (2) বীৰত্বেৰে (3) যুদ্ধত (4) সৈনিকজনে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The soldier fought bravely in the war.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The soldier fought bravely in the war.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-080",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the books (2) on the shelf (3) She (4) kept.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কিতাপবোৰ (2) শেলফত (3) তাই (4) ৰাখিলে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She kept the books on the shelf.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She kept the books on the shelf.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-081",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) last week (2) The river (3) was flooded (4) after heavy rain.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যোৱা সপ্তাহত (2) নদীখন (3) বানপানী হৈছিল (4) অতি বৰষুণৰ পিছত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The river was flooded after heavy rain last week.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The river was flooded after heavy rain last week.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-082",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) joined (2) the army (3) at the age of eighteen (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যোগ দিলে (2) সেনাবাহিনীত (3) আঠাইশ বছৰ বয়সত (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He joined the army at the age of eighteen.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He joined the army at the age of eighteen.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-083",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the boy (2) for his honesty (3) The teacher (4) praised.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ল'ৰাটোক (2) নিজৰ সততাৰ বাবে (3) শিক্ষকে (4) প্ৰশংসা কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher praised the boy for his honesty.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher praised the boy for his honesty.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-084",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) from pollution (2) We (3) must protect (4) our environment.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) প্ৰদূষণৰ পৰা (2) আমি (3) ৰক্ষা কৰা উচিত (4) আমাৰ পৰিৱেশ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'We must protect our environment from pollution.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We must protect our environment from pollution.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-085",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) was flying (2) high above (3) the buildings (4) The kite.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উৰি আছিল (2) ওপৰেৰে (3) অট্টালিকাবোৰৰ (4) চিলাটো।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The kite was flying high above the buildings.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The kite was flying high above the buildings.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-086",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) her work (2) before the bell rang (3) She (4) had finished.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ কাম (2) ঘণ্টা বজাৰ আগতে (3) তাই (4) শেষ কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She had finished her work before the bell rang.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She had finished her work before the bell rang.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-087",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) quietly (2) The old woman (3) was sitting (4) near the fire.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নীৰৱে (2) বৃদ্ধা গৰাকী (3) বহি আছিল (4) জুইৰ ওচৰত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The old woman was sitting near the fire quietly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The old woman was sitting near the fire quietly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-088",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) told me (2) an interesting story (3) last night (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মোক ক'লে (2) এটা আগ্ৰহজনক কাহিনী (3) যোৱা ৰাতি (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He told me an interesting story last night.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He told me an interesting story last night.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-089",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) about the picnic (2) very much (3) The children (4) were excited.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পিকনিকৰ বাবে (2) অতি বেছি (3) ল'ৰা-ছোৱালীবোৰ (4) উৎসাহিত আছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The children were excited about the picnic very much.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children were excited about the picnic very much.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-090",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in Guwahati (2) My brother (3) works (4) in a bank.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গুৱাহাটীত (2) মোৰ ভাই (3) কাম কৰে (4) এখন বেংকত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'My brother works in a bank in Guwahati.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My brother works in a bank in Guwahati.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-091",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) crawled (2) into the hole (3) slowly (4) The snake.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সোমাল (2) গাতটোত (3) লাহে লাহে (4) সাপটো।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The snake crawled into the hole slowly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The snake crawled into the hole slowly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-092",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the beggar (2) some money (3) She (4) gave.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ভিক্ষাৰীজনক (2) কিছু ধন (3) তাই (4) দিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She gave the beggar some money.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She gave the beggar some money.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-093",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at noon (2) The plane (3) took off (4) from the airport.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দুপৰীয়া (2) উৰাজাহাজখন (3) উৰা মাৰিলে (4) বিমানবন্দৰৰ পৰা।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The plane took off from the airport at noon.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The plane took off from the airport at noon.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-094",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) planted (2) saplings (3) in the school garden (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰোপণ কৰিলোঁ (2) পুলি (3) বিদ্যালয়ৰ বাগিচাত (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We planted saplings in the school garden.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We planted saplings in the school garden.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-095",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at mathematics (2) and science (3) He (4) is very good.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গণিতত (2) আৰু বিজ্ঞানত (3) তেওঁ (4) অতি ভাল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He is very good at mathematics and science.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He is very good at mathematics and science.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-096",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) loudly (2) The baby (3) cried (4) for milk.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চিঞৰি (2) শিশুটো (3) কান্দিলে (4) গাখীৰৰ বাবে।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The baby cried for milk loudly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The baby cried for milk loudly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-097",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) received (2) a letter (3) from her friend (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পাইছিল (2) এখন চিঠি (3) নিজৰ বান্ধৱীৰ পৰা (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She received a letter from her friend.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She received a letter from her friend.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-098",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to be quiet (2) in the class (3) The teacher (4) told the students.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চুপ থাকিবলৈ (2) শ্ৰেণীত (3) শিক্ষকে (4) ছাত্ৰসকলক ক'লে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher told the students to be quiet in the class.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher told the students to be quiet in the class.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-099",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) with one arrow (2) The hunter (3) killed (4) two birds.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) একে এটা কাঁড়েৰে (2) চিকাৰীয়ে (3) মাৰিলে (4) দুটা চৰাই।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The hunter killed two birds with one arrow.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The hunter killed two birds with one arrow.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-100",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) should always (2) speak the truth (3) without fear (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সদায় উচিত (2) সত্য কথা কোৱা (3) ভয় নকৰাকৈ (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'We should always speak the truth without fear.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should always speak the truth without fear.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-101",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) near the river (2) on the hill (3) The village (4) is situated.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নদীখনৰ ওচৰত (2) পাহাৰৰ ওপৰত (3) গাঁওখন (4) অৱস্থিত।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The village is situated near the river on the hill.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The village is situated near the river on the hill.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-102",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) for his bravery (2) He (3) was awarded (4) a prize.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ বীৰত্বৰ বাবে (2) তেওঁ (3) পুৰস্কৃত হৈছিল (4) এটা বঁটাৰে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He was awarded a prize for his bravery.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He was awarded a prize for his bravery.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-103",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) are preparing (2) for the examination (3) seriously (4) The students.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) প্ৰস্তুতি চলাইছে (2) পৰীক্ষাৰ বাবে (3) গম্ভীৰভাৱে (4) ছাত্ৰসকল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The students are preparing for the examination seriously.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The students are preparing for the examination seriously.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-104",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) us stories (2) at night (3) My grandfather (4) tells.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাক কাহিনী (2) ৰাতি (3) মোৰ ককা (4) কয়।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'My grandfather tells us stories at night.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'My grandfather tells us stories at night.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-105",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the village (2) The fire (3) destroyed (4) many houses.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গাঁৱত (2) জুয়ে (3) ধ্বংস কৰিলে (4) বহুত ঘৰ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The fire destroyed many houses in the village.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The fire destroyed many houses in the village.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-106",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) is interested (2) in classical music (3) very much (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আগ্ৰহী (2) শাস্ত্ৰীয় সংগীতত (3) অতি বেছি (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She is interested in classical music very much.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She is interested in classical music very much.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-107",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) by two hours (2) due to fog (3) The train (4) was delayed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দুঘণ্টাৰে (2) কুঁৱলীৰ বাবে (3) ৰেলগাড়ী (4) পলম হৈছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The train was delayed by two hours due to fog.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train was delayed by two hours due to fog.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-108",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the garden (2) He (3) planted (4) a mango tree.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বাগিচাত (2) তেওঁ (3) ৰোপণ কৰিলে (4) এজোপা আম গছ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He planted a mango tree in the garden.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He planted a mango tree in the garden.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-109",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) were playing (2) hide and seek (3) in the yard (4) The children.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) খেলি আছিল (2) লুকাভাকু (3) চোতালত (4) ল'ৰা-ছোৱালীবোৰ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The children were playing hide and seek in the yard.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children were playing hide and seek in the yard.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-110",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) traffic rules (2) on the road (3) We (4) must follow.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যান-বাহনৰ নিয়ম (2) পথত (3) আমি (4) মানি চলা উচিত।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We must follow traffic rules on the road.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We must follow traffic rules on the road.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-111",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) yesterday (2) The gardener (3) cut (4) the overgrown grass.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কালি (2) মালীয়ে (3) কাটিলে (4) বাঢ়ি যোৱা ঘাঁহ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The gardener cut the overgrown grass yesterday.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The gardener cut the overgrown grass yesterday.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-112",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) answered (2) all the questions (3) correctly (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উত্তৰ দিলে (2) সকলো প্ৰশ্নৰ (3) শুদ্ধভাৱে (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She answered all the questions correctly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She answered all the questions correctly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-113",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the gathering (2) in the evening (3) The leader (4) addressed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সমবেত জনতাক (2) সন্ধিয়া (3) নেতাজনে (4) সম্বোধন কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The leader addressed the gathering in the evening.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The leader addressed the gathering in the evening.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-114",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) last year (2) He (3) gave up (4) smoking.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যোৱা বছৰ (2) তেওঁ (3) এৰি দিলে (4) ধূমপান।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He gave up smoking last year.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He gave up smoking last year.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-115",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) cast (2) his net (3) into the river (4) The fisherman.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পেলালে (2) নিজৰ জাল (3) নদীখনত (4) মাছমৰীয়াই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The fisherman cast his net into the river.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The fisherman cast his net into the river.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-116",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) Independence Day (2) at school (3) We (4) celebrated.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) স্বাধীনতা দিৱস (2) বিদ্যালয়ত (3) আমি (4) পালন কৰিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We celebrated Independence Day at school.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We celebrated Independence Day at school.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-117",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) near the gate (2) The driver (3) stopped (4) the car.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দুৱাৰখনৰ ওচৰত (2) চালকে (3) ৰখালে (4) গাড়ীখন।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The driver stopped the car near the gate.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The driver stopped the car near the gate.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-118",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) has been working (2) in this office (3) since 2015 (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কাম কৰি আছে (2) এই কাৰ্যালয়ত (3) ২০১৫ চনৰপৰা (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She has been working in this office since 2015.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She has been working in this office since 2015.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-119",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) nectar (2) from the flowers (3) The bees (4) collect.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মৌ (2) ফুলবোৰৰ পৰা (3) মৌমাখিবোৰে (4) সংগ্ৰহ কৰে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The bees collect nectar from the flowers.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The bees collect nectar from the flowers.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-120",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the city (2) He (3) is looking (4) for a job.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নগৰখনত (2) তেওঁ (3) বিচাৰি আছে (4) এটা চাকৰি।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He is looking for a job in the city.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He is looking for a job in the city.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-121",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) corrected (2) our answer scripts (3) carefully (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) শুধৰালে (2) আমাৰ উত্তৰ পত্ৰ (3) সাৱধানেৰে (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher corrected our answer scripts carefully.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher corrected our answer scripts carefully.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-122",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the sunset (2) from the hilltop (3) We (4) watched.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সূৰ্যাস্ত (2) পাহাৰৰ টিঙৰ পৰা (3) আমি (4) চাইছিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We watched the sunset from the hilltop.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We watched the sunset from the hilltop.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-123",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) by his father (2) The boy (3) was punished (4) for telling a lie.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ দেউতাৰ দ্বাৰা (2) ল'ৰাটো (3) শাস্তি পাইছিল (4) মিছা কোৱাৰ বাবে।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The boy was punished for telling a lie by his father.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The boy was punished for telling a lie by his father.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-124",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) sings (2) a melodious song (3) in the choir (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গায় (2) এটা মধুৰ গীত (3) কোৱাইৰত (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She sings a melodious song in the choir.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She sings a melodious song in the choir.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-125",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) some medicines (2) for the fever (3) The doctor (4) prescribed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কিছু ঔষধ (2) জ্বৰৰ বাবে (3) ডাক্তৰে (4) লিখি দিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The doctor prescribed some medicines for the fever.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The doctor prescribed some medicines for the fever.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-126",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) across the river (2) They (3) built (4) a new bridge.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নদীখনৰ ওপৰত (2) তেওঁলোকে (3) নিৰ্মাণ কৰিলে (4) এখন নতুন দলং।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'They built a new bridge across the river.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'They built a new bridge across the river.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-127",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) harvested (2) the ripe paddy (3) in autumn (4) The farmer.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দায় মাৰিলে (2) পকা ধান (3) শৰৎকালত (4) কৃষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer harvested the ripe paddy in autumn.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer harvested the ripe paddy in autumn.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-128",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to drive (2) a car (3) He (4) has learnt.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চালাবলৈ (2) এখন গাড়ী (3) তেওঁ (4) শিকিছে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He has learnt to drive a car.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He has learnt to drive a car.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-129",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) this morning (2) The postman (3) delivered (4) the letters.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আজি ৰাতিপুৱা (2) ডাকমেনে (3) বিলি কৰিলে (4) চিঠিবোৰ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The postman delivered the letters this morning.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The postman delivered the letters this morning.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-130",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) should keep (2) our surroundings (3) clean and tidy (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰখা উচিত (2) আমাৰ চাৰিওফাল (3) পৰিষ্কাৰ আৰু পৰিপাটি (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We should keep our surroundings clean and tidy.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should keep our surroundings clean and tidy.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-131",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) of the dark (2) at night (3) The child (4) was afraid.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অন্ধকাৰলৈ (2) ৰাতি (3) শিশুটো (4) ভয় কৰিছিল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The child was afraid of the dark at night.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The child was afraid of the dark at night.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-132",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in a vase (2) She (3) put (4) the flowers.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এটা ফুলদানীত (2) তাই (3) ৰাখিলে (4) ফুলবোৰ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She put the flowers in a vase.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She put the flowers in a vase.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-133",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) crossed (2) the long bridge (3) at high speed (4) The train.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পাৰ হ'ল (2) দীঘল দলংখন (3) উচ্চ গতিত (4) ৰেলগাড়ী।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The train crossed the long bridge at high speed.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train crossed the long bridge at high speed.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-134",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to bring (2) his notebook (3) He (4) forgot.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আনিবলৈ (2) নিজৰ টোকাবহী (3) তেওঁ (4) পাহৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He forgot to bring his notebook.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He forgot to bring his notebook.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-135",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) after the performance (2) The audience (3) clapped (4) loudly.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অনুষ্ঠানৰ পিছত (2) দৰ্শকসকলে (3) হাত চাপৰি মাৰিলে (4) চিঞৰি।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The audience clapped loudly after the performance.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The audience clapped loudly after the performance.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-136",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) arranged (2) the books (3) on the shelves (4) The librarian.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সজালে (2) কিতাপবোৰ (3) শেলফবোৰত (4) পুথিভঁৰালিকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The librarian arranged the books on the shelves.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The librarian arranged the books on the shelves.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-137",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a red saree (2) to the party (3) She (4) wore.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এখন ৰঙা শাড়ী (2) মেলালৈ (3) তাই (4) পিন্ধিছিল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She wore a red saree to the party.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She wore a red saree to the party.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-138",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) by accident (2) The child (3) broke (4) the toy.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দুৰ্ঘটনাক্ৰমে (2) শিশুটোৱে (3) ভাঙিলে (4) খেলনাটো।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The child broke the toy by accident.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The child broke the toy by accident.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-139",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) went (2) for a walk (3) in the park (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গৈছিলোঁ (2) ফুৰিবলৈ (3) উদ্যানত (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We went for a walk in the park.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We went for a walk in the park.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-140",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the border (2) day and night (3) The soldier (4) guarded.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সীমান্ত (2) দিনে-ৰাতিয়ে (3) সৈনিকজনে (4) পহৰা দিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The soldier guarded the border day and night.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The soldier guarded the border day and night.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-141",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) yesterday (2) He (3) repaired (4) the broken chair.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কালি (2) তেওঁ (3) মেৰামতি কৰিলে (4) ভঙা চকীখন।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He repaired the broken chair yesterday.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He repaired the broken chair yesterday.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-142",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) cheered (2) the winning team (3) loudly (4) The crowd.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উৎসাহ দিলে (2) বিজয়ী দলক (3) চিঞৰি (4) ভিৰে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The crowd cheered the winning team loudly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The crowd cheered the winning team loudly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-143",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the room (2) with flowers (3) She (4) decorated.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰুমটো (2) ফুলেৰে (3) তাই (4) সজাই তুলিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She decorated the room with flowers.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She decorated the room with flowers.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-144",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to the students (2) The teacher (3) distributed (4) the answer sheets.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ছাত্ৰসকলক (2) শিক্ষকে (3) বিতৰণ কৰিলে (4) উত্তৰ পত্ৰবোৰ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher distributed the answer sheets to the students.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher distributed the answer sheets to the students.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-145",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) should save (2) water (3) for the future (4) We.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সাঁচিব উচিত (2) পানী (3) ভৱিষ্যতৰ বাবে (4) আমি।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We should save water for the future.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should save water for the future.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-146",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) when it saw (2) the cat (3) The bird (4) flew away.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যেতিয়া দেখিলে (2) মেকুৰীটো (3) চৰাইটো (4) উৰি গ'ল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The bird flew away when it saw the cat.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The bird flew away when it saw the cat.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-147",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) by ten minutes (2) He (3) was late (4) for the meeting.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দহ মিনিটৰে (2) তেওঁ (3) দেৰি হৈছিল (4) সভালৈ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He was late for the meeting by ten minutes.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He was late for the meeting by ten minutes.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-148",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) welcomed (2) the guests (3) warmly (4) The villagers.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) স্বাগতম জনালে (2) অতিথিসকলক (3) আন্তৰিকভাৱে (4) গাঁৱৰ লোকসকলে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The villagers welcomed the guests warmly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The villagers welcomed the guests warmly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-149",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) her dinner (2) quickly (3) She (4) finished.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ ৰাতিৰ আহাৰ (2) দ্ৰুতভাৱে (3) তাই (4) শেষ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She finished her dinner quickly.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She finished her dinner quickly.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-150",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at dawn (2) The sun (3) rose (4) above the hills.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পুৱতি নিশা (2) সূৰ্য (3) উদয় হ'ল (4) পাহাৰৰ ওপৰত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The sun rose above the hills at dawn.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The sun rose above the hills at dawn.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-151",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) bought (2) a new bicycle (3) last week (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কিনিলে (2) এখন নতুন চাইকেল (3) যোৱা সপ্তাহত (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He bought a new bicycle last week.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He bought a new bicycle last week.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-152",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) by the loud noise (2) suddenly (3) The children (4) were frightened.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চিঞৰৰ শব্দত (2) হঠাতে (3) ল'ৰা-ছোৱালীবোৰ (4) ভয় খাইছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The children were frightened by the loud noise suddenly.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children were frightened by the loud noise suddenly.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-153",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) of our society (2) We (3) should respect (4) the elders.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাৰ সমাজৰ (2) আমি (3) সন্মান কৰা উচিত (4) বয়োজ্যেষ্ঠসকলক।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'We should respect the elders of our society.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should respect the elders of our society.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-154",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) painted (2) a beautiful picture (3) on the wall (4) The painter.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আঁকিলে (2) এখন ধুনীয়া ছবি (3) বেৰত (4) চিত্ৰকৰে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The painter painted a beautiful picture on the wall.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The painter painted a beautiful picture on the wall.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-155",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) to return (2) the book (3) He (4) promised.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ঘূৰাই দিবলৈ (2) কিতাপখন (3) তেওঁ (4) প্ৰতিশ্ৰুতি দিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He promised to return the book.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He promised to return the book.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-156",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the shed (2) The farmer (3) kept (4) the cattle.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গোশালাত (2) কৃষকে (3) ৰাখিছিল (4) গৰুবোৰ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer kept the cattle in the shed.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer kept the cattle in the shed.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-157",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) watered (2) the plants (3) in the garden (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পানী দিলে (2) গছবোৰক (3) বাগিচাত (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She watered the plants in the garden.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She watered the plants in the garden.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-158",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) with passengers (2) in the morning (3) The train (4) was crowded.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যাত্ৰীৰে (2) ৰাতিপুৱা (3) ৰেলগাড়ী (4) ভৰি আছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The train was crowded with passengers in the morning.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train was crowded with passengers in the morning.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-159",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the examination (2) He (3) studied hard (4) and passed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পৰীক্ষাত (2) তেওঁ (3) পৰিশ্ৰম কৰিলে (4) আৰু উত্তীৰ্ণ হ'ল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He studied hard and passed the examination.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He studied hard and passed the examination.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-160",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) blew (2) the leaves (3) off the tree (4) The wind.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উৰুৱাই নিলে (2) পাতবোৰ (3) গছজোপাৰ পৰা (4) বতাহে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The wind blew the leaves off the tree.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The wind blew the leaves off the tree.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-161",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) break (2) the traffic rules (3) We (4) must not.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ভংগ কৰিব (2) যান-বাহনৰ নিয়ম (3) আমি (4) নালাগে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We must not break the traffic rules.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We must not break the traffic rules.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-162",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the menu (2) The waiter (3) brought (4) us.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মেনুখন (2) পৰিবেশকে (3) আনিলে (4) আমাক।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The waiter brought us the menu.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The waiter brought us the menu.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-163",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) lent me (2) her notes (3) for the test (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মোক ধাৰ দিলে (2) নিজৰ টোকা (3) পৰীক্ষাৰ বাবে (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She lent me her notes for the test.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She lent me her notes for the test.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-164",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) after the cat (2) across the yard (3) The dog (4) ran.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মেকুৰীটোৰ পিছত (2) চোতালখনৰ মাজেৰে (3) কুকুৰটো (4) দৌৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The dog ran after the cat across the yard.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The dog ran after the cat across the yard.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-165",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the yard (2) He (3) planted (4) a sapling.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চোতালত (2) তেওঁ (3) ৰোপণ কৰিলে (4) এটা পুলি।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He planted a sapling in the yard.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He planted a sapling in the yard.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-166",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) discussed (2) the topic (3) in groups (4) The students.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আলোচনা কৰিলে (2) বিষয়টো (3) গোট গোট হৈ (4) ছাত্ৰসকলে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The students discussed the topic in groups.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The students discussed the topic in groups.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-167",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) wild animals (2) from extinction (3) We (4) should protect.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বনৰীয়া প্ৰাণীক (2) বিলুপ্তিৰ পৰা (3) আমি (4) ৰক্ষা কৰা উচিত।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We should protect wild animals from extinction.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should protect wild animals from extinction.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-168",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) about his village (2) The old man (3) told us (4) a story.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ গাঁৱৰ বিষয়ে (2) বৃদ্ধজনে (3) আমাক ক'লে (4) এটা কাহিনী।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The old man told us a story about his village.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The old man told us a story about his village.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-169",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) washes (2) her clothes (3) every Sunday (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ধুৱে (2) নিজৰ কাপোৰ (3) প্ৰতি দেওবাৰে (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She washes her clothes every Sunday.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She washes her clothes every Sunday.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-170",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) us letters (2) every morning (3) The postman (4) brings.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাক চিঠি (2) প্ৰতিদিনে ৰাতিপুৱা (3) ডাকমেনে (4) আনে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The postman brings us letters every morning.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The postman brings us letters every morning.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-171",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) after lunch (2) He (3) took (4) his medicine.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দুপৰীয়াৰ আহাৰৰ পিছত (2) তেওঁ (3) খালে (4) নিজৰ ঔষধ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He took his medicine after lunch.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He took his medicine after lunch.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-172",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) landed (2) safely (3) at the airport (4) The plane.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অৱতৰণ কৰিলে (2) নিৰাপদে (3) বিমানবন্দৰত (4) উৰাজাহাজখন।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The plane landed safely at the airport.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The plane landed safely at the airport.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-173",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) by the news (2) very much (3) We (4) were surprised.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বাতৰিটোত (2) অতি বেছি (3) আমি (4) আচৰিত হৈছিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We were surprised by the news very much.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We were surprised by the news very much.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-174",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) for the exam (2) The teacher (3) advised us (4) to work hard.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পৰীক্ষাৰ বাবে (2) শিক্ষকে (3) আমাক পৰামৰ্শ দিলে (4) পৰিশ্ৰম কৰিবলৈ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher advised us to work hard for the exam.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher advised us to work hard for the exam.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-175",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) invited (2) all her friends (3) to the wedding (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিমন্ত্ৰণ কৰিলে (2) সকলো বান্ধৱীক (3) বিবাহলৈ (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She invited all her friends to the wedding.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She invited all her friends to the wedding.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-176",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) quietly (2) through the plain (3) The river (4) flows.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নীৰৱে (2) সমতল ভূমিৰ মাজেৰে (3) নদীখন (4) বয়।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The river flows quietly through the plain.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The river flows quietly through the plain.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-177",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) for being late (2) He (3) was scolded (4) by his mother.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দেৰি হোৱাৰ বাবে (2) তেওঁ (3) গালি খাইছিল (4) নিজৰ মাকৰ পৰা।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He was scolded by his mother for being late.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He was scolded by his mother for being late.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-178",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) was sleeping (2) on the mat (3) peacefully (4) The cat.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) শুই আছিল (2) তাৰখনৰ ওপৰত (3) শান্তিৰে (4) মেকুৰীটো।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The cat was sleeping on the mat peacefully.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The cat was sleeping on the mat peacefully.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-179",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) trees (2) along the road (3) We (4) planted.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) গছ (2) পথৰ কাষেৰে (3) আমি (4) ৰোপণ কৰিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We planted trees along the road.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We planted trees along the road.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-180",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the evening (2) The farmer (3) irrigated (4) the field.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সন্ধিয়া (2) কৃষকে (3) পানী দিলে (4) পথাৰখনক।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer irrigated the field in the evening.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer irrigated the field in the evening.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-181",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) took (2) a photograph (3) of the monument (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) তুলিলে (2) এখন ফটো (3) স্মৃতিসৌধৰ (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She took a photograph of the monument.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She took a photograph of the monument.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-182",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at the small station (2) briefly (3) The train (4) halted.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সৰু ষ্টেচনত (2) অলপ সময়ৰ বাবে (3) ৰেলগাড়ী (4) ৰ'ল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The train halted at the small station briefly.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train halted at the small station briefly.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-183",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the competition (2) He (3) won (4) the first prize.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) প্ৰতিযোগিতাত (2) তেওঁ (3) জিতিলে (4) প্ৰথম পুৰস্কাৰ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He won the first prize in the competition.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He won the first prize in the competition.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-184",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) were playing (2) in the park (3) happily (4) The children.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) খেলি আছিল (2) উদ্যানত (3) আনন্দেৰে (4) ল'ৰা-ছোৱালীবোৰ।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The children were playing in the park happily.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children were playing in the park happily.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-185",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) our cultural heritage (2) for posterity (3) We (4) must preserve.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাৰ সাংস্কৃতিক ঐতিহ্য (2) ভৱিষ্যত প্ৰজন্মৰ বাবে (3) আমি (4) সংৰক্ষণ কৰা উচিত।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We must preserve our cultural heritage for posterity.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We must preserve our cultural heritage for posterity.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-186",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) by his skill (2) The doctor (3) saved (4) the patient's life.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ দক্ষতাৰে (2) ডাক্তৰে (3) ৰক্ষা কৰিলে (4) ৰোগীৰ জীৱন।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The doctor saved the patient's life by his skill.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The doctor saved the patient's life by his skill.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-187",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) bought (2) some vegetables (3) from the market (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কিনিলে (2) কিছু পাচলি (3) বজাৰৰ পৰা (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'She bought some vegetables from the market.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She bought some vegetables from the market.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-188",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) us the museum (2) patiently (3) The guide (4) showed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাক সংগ্ৰহালয় (2) ধৈৰ্যৰে (3) গাইডে (4) দেখুৱালে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The guide showed us the museum patiently.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The guide showed us the museum patiently.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-189",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) of the team (2) He (3) was elected (4) the captain.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দলৰ (2) তেওঁ (3) নिर्वाचित হ'ল (4) অধিনায়ক হিচাপে।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He was elected the captain of the team.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He was elected the captain of the team.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-190",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) was covered (2) with dark clouds (3) suddenly (4) The sky.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ঢাকি পৰিল (2) ক'লা ডাৱৰেৰে (3) হঠাতে (4) আকাশ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The sky was covered with dark clouds suddenly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The sky was covered with dark clouds suddenly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-191",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) waste (2) our precious time (3) We (4) should not.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অপচয় কৰা (2) আমাৰ মূল্যৱান সময় (3) আমি (4) উচিত নহয়।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We should not waste our precious time.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should not waste our precious time.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-192",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) neatly (2) The gardener (3) trimmed (4) the hedges.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পৰিপাটিকৈ (2) মালীয়ে (3) কাটি চাফা কৰিলে (4) বেড়বোৰ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The gardener trimmed the hedges neatly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The gardener trimmed the hedges neatly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-193",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) packed (2) her bag (3) for the journey (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বান্ধি ল'লে (2) নিজৰ বেগ (3) যাত্ৰাৰ বাবে (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She packed her bag for the journey.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She packed her bag for the journey.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-194",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) up the ladder (2) carefully (3) The boy (4) climbed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) জখলাৰ ওপৰলৈ (2) সাৱধানেৰে (3) ল'ৰাটো (4) উঠিল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The boy climbed up the ladder carefully.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The boy climbed up the ladder carefully.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-195",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) very much (2) He (3) is afraid (4) of heights.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অতি বেছি (2) তেওঁ (3) ভয় কৰে (4) উচ্চতালৈ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He is afraid of heights very much.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He is afraid of heights very much.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-196",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) explained (2) the sum (3) with patience (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বুজাই দিলে (2) যোগফলটো (3) ধৈৰ্যৰে (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher explained the sum with patience.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher explained the sum with patience.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-197",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) our grandparents (2) during the holidays (3) We (4) visited.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাৰ ককা-আইতাক (2) ছুটীৰ সময়ত (3) আমি (4) লগ ধৰিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'We visited our grandparents during the holidays.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We visited our grandparents during the holidays.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-198",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) smoothly (2) The boat (3) sailed (4) down the river.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মসৃণভাৱে (2) নাওখন (3) বাগৰিল (4) নদীখনৰ তললৈ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The boat sailed down the river smoothly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The boat sailed down the river smoothly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-199",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) wrote (2) an essay (3) on pollution (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) লিখিলে (2) এটা ৰচনা (3) প্ৰদূষণৰ ওপৰত (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She wrote an essay on pollution.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She wrote an essay on pollution.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-200",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) very (2) attentive (3) The audience (4) was.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অতি (2) মনোযোগী (3) দৰ্শকসকল (4) আছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The audience was very attentive.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The audience was very attentive.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-201",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) last month (2) He (3) joined (4) a music class.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) যোৱা মাহত (2) তেওঁ (3) যোগ দিলে (4) এখন সংগীত শ্ৰেণীত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He joined a music class last month.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He joined a music class last month.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-202",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) shines (2) brightly (3) in summer (4) The sun.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উজ্বলে (2) উজ্জ্বলভাৱে (3) গ্ৰীষ্মকালত (4) সূৰ্য।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The sun shines brightly in summer.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The sun shines brightly in summer.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-203",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the flood victims (2) generously (3) We (4) should help.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বানপানীৰ বলি হোৱাসকলক (2) উদাৰভাৱে (3) আমি (4) সহায় কৰা উচিত।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We should help the flood victims generously.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should help the flood victims generously.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-204",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at midnight (2) The clock (3) struck (4) twelve.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মাজনিশা (2) ঘড়ীটো (3) বাজিল (4) বাৰ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The clock struck twelve at midnight.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The clock struck twelve at midnight.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-205",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) ironed (2) her uniform (3) in the morning (4) She.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ইস্ত্ৰি কৰিলে (2) নিজৰ ইউনিফৰ্ম (3) ৰাতিপুৱা (4) তাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She ironed her uniform in the morning.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She ironed her uniform in the morning.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-206",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) hard (2) for the match (3) The team (4) practised.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কঠোৰভাৱে (2) মেচখনৰ বাবে (3) দলটোৱে (4) অনুশীলন কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The team practised hard for the match.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The team practised hard for the match.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-207",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) somewhere (2) He (3) lost (4) his keys.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ক'ৰবাত (2) তেওঁ (3) হেৰুৱালে (4) নিজৰ চাবি।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He lost his keys somewhere.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He lost his keys somewhere.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-208",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) marked (2) the attendance (3) quickly (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) টুকি ল'লে (2) উপস্থিতি (3) দ্ৰুতভাৱে (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher marked the attendance quickly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher marked the attendance quickly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-209",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the chairs (2) in rows (3) We (4) arranged.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চকীবোৰ (2) শাৰী শাৰীকৈ (3) আমি (4) সজালোঁ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We arranged the chairs in rows.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We arranged the chairs in rows.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-210",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the morning (2) The bird (3) chirped (4) sweetly.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰাতিপুৱা (2) চৰাইটো (3) চিঞৰিলে (4) মধুৰভাৱে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The bird chirped sweetly in the morning.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The bird chirped sweetly in the morning.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-211",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) was happy (2) to meet (3) his friend (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আনন্দিত আছিল (2) লগ পাই (3) নিজৰ বন্ধুক (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He was happy to meet his friend.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He was happy to meet his friend.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-212",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) her hair (2) with a ribbon (3) The girl (4) tied.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) নিজৰ চুলি (2) এটা ফিটাৰে (3) ছোৱালীজনীয়ে (4) বান্ধিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The girl tied her hair with a ribbon.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The girl tied her hair with a ribbon.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-213",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) after the rain (2) We (3) saw (4) a rainbow.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বৰষুণৰ পিছত (2) আমি (3) দেখিলোঁ (4) এখন ৰামধেনু।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We saw a rainbow after the rain.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We saw a rainbow after the rain.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-214",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) weighed (2) the rice (3) carefully (4) The shopkeeper.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) জুখিলে (2) চাউলখিনি (3) সাৱধানেৰে (4) দোকানীয়ে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The shopkeeper weighed the rice carefully.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The shopkeeper weighed the rice carefully.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-215",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the doctor (2) for his kindness (3) She (4) thanked.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ডাক্তৰজনক (2) তেওঁৰ দয়াৰ বাবে (3) তাই (4) ধন্যবাদ দিলে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She thanked the doctor for his kindness.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She thanked the doctor for his kindness.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-216",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) suddenly (2) The child (3) fell (4) from the swing.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) হঠাতে (2) শিশুটো (3) পৰিল (4) দোলনাখনৰ পৰা।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The child fell from the swing suddenly.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The child fell from the swing suddenly.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-217",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) reads (2) the Gita (3) every morning (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পঢ়ে (2) গীতা (3) প্ৰতিদিনে ৰাতিপুৱা (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He reads the Gita every morning.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He reads the Gita every morning.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-218",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) through the tunnel (2) noisily (3) The train (4) rushed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সুৰংখনৰ মাজেৰে (2) হুলস্থূলকৈ (3) ৰেলগাড়ী (4) বেগেৰে গ'ল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The train rushed through the tunnel noisily.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train rushed through the tunnel noisily.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-219",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) for the flood relief (2) We (3) collected (4) money.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বানপানী সাহাৰ্যৰ বাবে (2) আমি (3) সংগ্ৰহ কৰিলোঁ (4) ধন।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'We collected money for the flood relief.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We collected money for the flood relief.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-220",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) checked (2) our notebooks (3) regularly (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পৰীক্ষা কৰিলে (2) আমাৰ টোকাবহীবোৰ (3) নিয়মিতভাৱে (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher checked our notebooks regularly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher checked our notebooks regularly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-221",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the keys (2) in her bag (3) She (4) kept.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চাবিবোৰ (2) নিজৰ বেগত (3) তাই (4) ৰাখিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She kept the keys in her bag.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She kept the keys in her bag.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-222",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the field (2) The farmer (3) sowed (4) the seeds.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পথাৰত (2) কৃষকে (3) সিঁচিলে (4) গুটিবোৰ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer sowed the seeds in the field.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer sowed the seeds in the field.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-223",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) returned (2) the borrowed book (3) to the library (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ঘূৰাই দিলে (2) ধাৰ লোৱা কিতাপখন (3) পুথিভঁৰাললৈ (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He returned the borrowed book to the library.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He returned the borrowed book to the library.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-224",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the house (2) at night (3) The dog (4) guarded.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ঘৰটো (2) ৰাতি (3) কুকুৰটোৱে (4) পহৰা দিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The dog guarded the house at night.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The dog guarded the house at night.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-225",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) under a tree (2) We (3) took (4) shelter.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এজোপা গছৰ তলত (2) আমি (3) ল'লোঁ (4) আশ্ৰয়।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'We took shelter under a tree.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We took shelter under a tree.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-226",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) peeped (2) through the clouds (3) faintly (4) The moon.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উঁকি মাৰিলে (2) ডাৱৰৰ মাজেৰে (3) ক্ষীণভাৱে (4) জোন।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The moon peeped through the clouds faintly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The moon peeped through the clouds faintly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-227",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the cake (2) with a knife (3) She (4) cut.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) কেকখন (2) এখন চুৰিৰে (3) তাই (4) কাটিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'She cut the cake with a knife.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She cut the cake with a knife.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-228",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) before eating (2) The boy (3) washed (4) his hands.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) খোৱাৰ আগতে (2) ল'ৰাটোৱে (3) ধুলে (4) নিজৰ হাত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The boy washed his hands before eating.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The boy washed his hands before eating.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-229",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) opened (2) the window (3) for fresh air (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) খুলিলে (2) খিৰিকীখন (3) সতেজ বতাহৰ বাবে (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He opened the window for fresh air.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He opened the window for fresh air.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-230",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the temple (2) eagerly (3) The tourists (4) photographed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মন্দিৰৰ (2) আগ্ৰহেৰে (3) পৰ্যটকসকলে (4) ফটো তুলিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The tourists photographed the temple eagerly.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The tourists photographed the temple eagerly.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-231",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) from fire (2) We (3) must protect (4) the forests.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) জুইৰ পৰা (2) আমি (3) ৰক্ষা কৰা উচিত (4) বনবোৰক।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We must protect the forests from fire.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We must protect the forests from fire.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-232",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) put (2) the letter (3) in the box (4) The postman.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পেলালে (2) চিঠিখন (3) বাকচটোত (4) ডাকমেনে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The postman put the letter in the box.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The postman put the letter in the box.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-233",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the door (2) every night (3) She (4) locks.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দুৱাৰখন (2) প্ৰতি ৰাতি (3) তাই (4) তলা মাৰে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She locks the door every night.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She locks the door every night.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-234",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) noisily (2) The crowd (3) gathered (4) in the square.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) হুলস্থূলকৈ (2) ভিৰটো (3) গোট খালে (4) চৌহদত।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The crowd gathered in the square noisily.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The crowd gathered in the square noisily.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-235",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) apologised (2) to his teacher (3) sincerely (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ক্ষমা খুজিলে (2) নিজৰ শিক্ষকৰ ওচৰত (3) আন্তৰিকভাৱে (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'He apologised to his teacher sincerely.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He apologised to his teacher sincerely.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-236",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) flowers (2) from the garden (3) The girl (4) collected.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ফুল (2) বাগিচাৰ পৰা (3) ছোৱালীজনীয়ে (4) সংগ্ৰহ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The girl collected flowers from the garden.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The girl collected flowers from the garden.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-237",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) every day (2) We (3) should eat (4) fresh vegetables.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) প্ৰতিদিনে (2) আমি (3) খোৱা উচিত (4) সতেজ পাচলি।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We should eat fresh vegetables every day.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should eat fresh vegetables every day.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-238",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) breathed (2) heavily (3) after the climb (4) The old man.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উশাহ ল'লে (2) কষ্টকৈ (3) আৰোহণৰ পিছত (4) বৃদ্ধজনে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The old man breathed heavily after the climb.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The old man breathed heavily after the climb.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-239",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) sweets (2) among the children (3) She (4) distributed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) মিঠাই (2) ল'ৰা-ছোৱালীবোৰৰ মাজত (3) তাই (4) বিতৰণ কৰিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'She distributed sweets among the children.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She distributed sweets among the children.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-240",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) at last (2) The train (3) reached (4) the destination.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অৱশেষত (2) ৰেলগাড়ী (3) উপনীত হ'ল (4) গন্তব্যস্থলত।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The train reached the destination at last.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The train reached the destination at last.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-241",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) finished (2) the race (3) in record time (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) শেষ কৰিলে (2) দৌৰখন (3) ৰেকৰ্ড সময়ত (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He finished the race in record time.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He finished the race in record time.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-242",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) through the night (2) fiercely (3) The wind (4) howled.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰাতিজুৰি (2) প্ৰচণ্ডভাৱে (3) বতাহ (4) চিঞৰি বৈ থাকিল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The wind howled through the night fiercely.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The wind howled through the night fiercely.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-243",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) very much (2) We (3) enjoyed (4) the picnic.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) অতি বেছি (2) আমি (3) উপভোগ কৰিলোঁ (4) পিকনিকটো।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'We enjoyed the picnic very much.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We enjoyed the picnic very much.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-244",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) gave (2) us a test (3) today (4) The teacher.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) দিলে (2) আমাক এটা পৰীক্ষা (3) আজি (4) শিক্ষকে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher gave us a test today.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher gave us a test today.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-245",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a pair of shoes (2) yesterday (3) She (4) bought.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এযোৰ জোতা (2) কালি (3) তাই (4) কিনিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She bought a pair of shoes yesterday.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She bought a pair of shoes yesterday.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-246",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) merrily (2) The child (3) laughed (4) at the clown.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আনন্দেৰে (2) শিশুটো (3) হাঁহিলে (4) ভাঁওৰিয়ালজনলৈ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The child laughed at the clown merrily.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The child laughed at the clown merrily.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-247",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) climbed (2) the mountain (3) with great effort (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আৰোহণ কৰিলে (2) পৰ্বতখন (3) বহুত পৰিশ্ৰমেৰে (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'He climbed the mountain with great effort.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He climbed the mountain with great effort.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-248",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) the earth (2) gently (3) The sun (4) warmed.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পৃথিৱীক (2) কোমলভাৱে (3) সূৰ্যে (4) উমাই তুলিলে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The sun warmed the earth gently.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The sun warmed the earth gently.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-249",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in our locality (2) We (3) should plant (4) more trees.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) আমাৰ অঞ্চলত (2) আমি (3) ৰোৱা উচিত (4) বেছি গছ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We should plant more trees in our locality.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We should plant more trees in our locality.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-250",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) cleaned (2) the room (3) thoroughly (4) The servant.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পৰিষ্কাৰ কৰিলে (2) ৰুমটো (3) ভালদৰে (4) চাকৰটোৱে।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The servant cleaned the room thoroughly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The servant cleaned the room thoroughly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-251",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a coin (2) on the road (3) She (4) found.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এটা মুদ্ৰা (2) পথত (3) তাই (4) পাইছিল।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'She found a coin on the road.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She found a coin on the road.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-252",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) early in the morning (2) The farmer (3) milked (4) the cow.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰাতিপুৱা সোনকালে (2) কৃষকে (3) দুধিলে (4) গৰুটোক।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'The farmer milked the cow early in the morning.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The farmer milked the cow early in the morning.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-253",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) crossed (2) the river (3) by boat (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পাৰ হ'ল (2) নদীখন (3) নাওঁত (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'He crossed the river by boat.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He crossed the river by boat.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-254",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) in the hall (2) for the function (3) The students (4) assembled.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) সভাঘৰত (2) অনুষ্ঠানৰ বাবে (3) ছাত্ৰসকল (4) গোট খালে।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The students assembled in the hall for the function.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The students assembled in the hall for the function.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-255",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) about wildlife (2) We (3) watched (4) a documentary.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বনৰীয়া জীৱ-জন্তুৰ বিষয়ে (2) আমি (3) চাইছিলোঁ (4) এখন তথ্যচিত্ৰ।"
+   },
+   "options": [
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The correct sentence is 'We watched a documentary about wildlife.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'We watched a documentary about wildlife.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-256",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) rowed (2) the boat (3) slowly (4) The boatman.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) বাই নিলে (2) নাওখন (3) লাহে লাহে (4) নাওঁৱালাই।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The correct sentence is 'The boatman rowed the boat slowly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The boatman rowed the boat slowly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-257",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) a sweater (2) for her brother (3) She (4) knitted.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) এটা চুৱেটাৰ (2) নিজৰ ভাইৰ বাবে (3) তাই (4) বুণিছিল।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The correct sentence is 'She knitted a sweater for her brother.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'She knitted a sweater for her brother.', অৰ্থাৎ ৩-৪-১-২।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-258",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) with examples (2) The teacher (3) taught (4) us grammar.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) উদাহৰণসহ (2) শিক্ষকে (3) শিকালে (4) আমাক ব্যাকৰণ।"
+   },
+   "options": [
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The teacher taught us grammar with examples.', i.e. 2-3-4-1.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The teacher taught us grammar with examples.', অৰ্থাৎ ২-৩-৪-১।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-259",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) drank (2) a glass of water (3) quickly (4) He.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) পান কৰিলে (2) এগিলাচ পানী (3) দ্ৰুতভাৱে (4) তেওঁ।"
+   },
+   "options": [
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    },
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'He drank a glass of water quickly.', i.e. 4-1-2-3.",
+    "as": "শুদ্ধ বাক্য হ'ল 'He drank a glass of water quickly.', অৰ্থাৎ ৪-১-২-৩।"
+   }
+  },
+  {
+   "id": "sentence-rearrangement-260",
+   "q": {
+    "en": "Arrange the parts to form a meaningful sentence: (1) kites (2) on the roof (3) The children (4) flew.",
+    "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) চিলা (2) চালিত (3) ল'ৰা-ছোৱালীবোৰে (4) উৰুৱালে।"
+   },
+   "options": [
+    {
+     "en": "3-4-1-2",
+     "as": "৩-৪-১-২"
+    },
+    {
+     "en": "2-3-4-1",
+     "as": "২-৩-৪-১"
+    },
+    {
+     "en": "1-2-3-4",
+     "as": "১-২-৩-৪"
+    },
+    {
+     "en": "4-1-2-3",
+     "as": "৪-১-২-৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The correct sentence is 'The children flew kites on the roof.', i.e. 3-4-1-2.",
+    "as": "শুদ্ধ বাক্য হ'ল 'The children flew kites on the roof.', অৰ্থাৎ ৩-৪-১-২।"
    }
   }
  ],
