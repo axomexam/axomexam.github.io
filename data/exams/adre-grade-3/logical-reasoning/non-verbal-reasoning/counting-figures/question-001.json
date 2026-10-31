@@ -2,121 +2,1737 @@
   {
     "id": "counting-figures-001",
     "q": {
-      "en": "What should be counted first in a counting figures question?",
-      "as": "চিত্ৰ গণনাৰ প্ৰশ্নত প্ৰথমে কি গণনা কৰিব লাগে?"
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
     },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"85\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
     "options": [
       {
-        "en": "The largest figures",
-        "as": "আটাইতকৈ ডাঙৰ চিত্ৰ"
+        "en": "2",
+        "as": "২"
       },
       {
-        "en": "The smallest figures",
-        "as": "আটাইতকৈ সৰু চিত্ৰ"
+        "en": "4",
+        "as": "৪"
       },
       {
-        "en": "The colours",
-        "as": "ৰং"
+        "en": "1",
+        "as": "১"
       },
       {
-        "en": "The labels",
-        "as": "লেবেল"
+        "en": "3",
+        "as": "৩"
       }
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
-      "en": "The smallest figures are counted first, then the larger ones.",
-      "as": "প্ৰথমে আটাইতকৈ সৰু চিত্ৰবোৰ, তাৰ পিছত ডাঙৰবোৰ গণনা কৰা হয়।"
+      "en": "The figure has 3 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 3 টা ত্ৰিভুজ আছে।"
     }
   },
   {
     "id": "counting-figures-002",
     "q": {
-      "en": "How can double counting be avoided in a counting figures question?",
-      "as": "চিত্ৰ গণনাৰ প্ৰশ্নত দুবাৰ গণনা কেনেকৈ ৰোধ কৰিব?"
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
     },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"62.667\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"107.333\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
     "options": [
       {
-        "en": "Count quickly",
-        "as": "দ্ৰুতভাৱে গণনা কৰা"
+        "en": "7",
+        "as": "৭"
       },
       {
-        "en": "Keep a small table of counts",
-        "as": "গণনাৰ এটা সৰু তালিকা ৰাখা"
+        "en": "4",
+        "as": "৪"
       },
       {
-        "en": "Guess the total",
-        "as": "মুঠ অনুমান কৰা"
+        "en": "5",
+        "as": "৫"
       },
       {
-        "en": "Skip small figures",
-        "as": "সৰু চিত্ৰ এৰি দিয়া"
+        "en": "6",
+        "as": "৬"
       }
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
-      "en": "Keeping a written table of each count prevents double counting.",
-      "as": "প্ৰতিটো গণনাৰ লিখিত তালিকা ৰাখিলে দুবাৰ গণনা ৰোধ হয়।"
+      "en": "The figure has 6 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 6 টা ত্ৰিভুজ আছে।"
     }
   },
   {
     "id": "counting-figures-003",
     "q": {
-      "en": "A cube has how many edges?",
-      "as": "এটা ঘনকৰ কিমানটা কাষ থাকে?"
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
     },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"51.5\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"85\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"118.5\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
     "options": [
       {
-        "en": "6",
-        "as": "৬"
+        "en": "9",
+        "as": "৯"
       },
       {
         "en": "8",
         "as": "৮"
       },
       {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure has 10 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 10 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-004",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"44.8\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"71.6\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"98.4\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"125.2\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure has 15 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 15 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-005",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"40.333\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"62.667\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"85\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"107.333\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"129.667\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure has 21 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 21 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-006",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"85\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"51.5\" y1=\"70\" x2=\"118.5\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Counting the small and the combined triangles, the figure has 6 triangles.",
+      "as": "সৰু আৰু সংযুক্ত ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 6 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-007",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"62.667\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"107.333\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"51.5\" y1=\"70\" x2=\"118.5\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
         "en": "12",
         "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting the small and the combined triangles, the figure has 12 triangles.",
+      "as": "সৰু আৰু সংযুক্ত ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 12 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-008",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"51.5\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"85\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"118.5\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"51.5\" y1=\"70\" x2=\"118.5\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting the small and the combined triangles, the figure has 20 triangles.",
+      "as": "সৰু আৰু সংযুক্ত ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 20 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-009",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"44.8\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"71.6\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"98.4\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"125.2\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"51.5\" y1=\"70\" x2=\"118.5\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting the small and the combined triangles, the figure has 30 triangles.",
+      "as": "সৰু আৰু সংযুক্ত ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 30 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-010",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"20\" x2=\"130\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"120\" x2=\"30\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"120\" x2=\"30\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"20\" x2=\"30\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The square with its diagonals contains 8 triangles.",
+      "as": "কৰ্ণসহ বৰ্গটোত 8 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-011",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"20\" x2=\"130\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"120\" x2=\"30\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"120\" x2=\"30\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"20\" x2=\"30\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"70\" x2=\"130\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
       },
       {
         "en": "16",
         "as": "১৬"
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
-      "en": "A cube has six faces, eight corners and twelve edges.",
-      "as": "ঘনকৰ ছটা পৃষ্ঠ, আঠটা চুক আৰু বাৰটা কাষ থাকে।"
+      "en": "The square with its diagonals contains 16 triangles.",
+      "as": "কৰ্ণসহ বৰ্গটোত 16 টা ত্ৰিভুজ আছে।"
     }
   },
   {
-    "id": "counting-figures-004",
+    "id": "counting-figures-012",
     "q": {
-      "en": "A cube has how many corners?",
-      "as": "এটা ঘনকৰ কিমানটা চুক থাকে?"
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
     },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"16\" x2=\"16\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"124\" x2=\"154\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"154\" y1=\"124\" x2=\"85\" y2=\"16\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"85\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"57.4\" y1=\"59.2\" x2=\"112.6\" y2=\"59.2\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"36.7\" y1=\"91.6\" x2=\"133.3\" y2=\"91.6\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
     "options": [
       {
-        "en": "4",
-        "as": "৪"
-      },
-      {
-        "en": "6",
-        "as": "৬"
+        "en": "7",
+        "as": "৭"
       },
       {
         "en": "8",
         "as": "৮"
       },
       {
-        "en": "12",
-        "as": "১২"
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting every size of triangle, the figure has 9 triangles.",
+      "as": "প্ৰতিটো আকাৰৰ ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 9 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-013",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"16\" x2=\"16\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"124\" x2=\"154\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"154\" y1=\"124\" x2=\"85\" y2=\"16\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"62\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"108\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"57.4\" y1=\"59.2\" x2=\"112.6\" y2=\"59.2\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"36.7\" y1=\"91.6\" x2=\"133.3\" y2=\"91.6\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Counting every size of triangle, the figure has 18 triangles.",
+      "as": "প্ৰতিটো আকাৰৰ ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 18 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-014",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"16\" x2=\"16\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"124\" x2=\"154\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"154\" y1=\"124\" x2=\"85\" y2=\"16\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"50.5\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"85\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"119.5\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"57.4\" y1=\"59.2\" x2=\"112.6\" y2=\"59.2\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"36.7\" y1=\"91.6\" x2=\"133.3\" y2=\"91.6\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "A cube has eight corners.",
-      "as": "ঘনকৰ আঠটা চুক থাকে।"
+      "en": "Counting every size of triangle, the figure has 30 triangles.",
+      "as": "প্ৰতিটো আকাৰৰ ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 30 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-015",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"136.357\" y2=\"55.313\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"116.74\" y2=\"115.687\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"53.26\" y2=\"115.687\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"33.643\" y2=\"55.313\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"136.357\" y1=\"55.313\" x2=\"116.74\" y2=\"115.687\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"136.357\" y1=\"55.313\" x2=\"53.26\" y2=\"115.687\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"136.357\" y1=\"55.313\" x2=\"33.643\" y2=\"55.313\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"116.74\" y1=\"115.687\" x2=\"53.26\" y2=\"115.687\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"116.74\" y1=\"115.687\" x2=\"33.643\" y2=\"55.313\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"53.26\" y1=\"115.687\" x2=\"33.643\" y2=\"55.313\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The pentagon with all its diagonals contains 35 triangles.",
+      "as": "সকলো কৰ্ণসহ পঞ্চভুজটোত 35 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-016",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"131.765\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"131.765\" y2=\"99\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"85\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"38.235\" y2=\"99\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"38.235\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"131.765\" y1=\"45\" x2=\"131.765\" y2=\"99\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"131.765\" y1=\"45\" x2=\"85\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"131.765\" y1=\"45\" x2=\"38.235\" y2=\"99\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"131.765\" y1=\"45\" x2=\"38.235\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"131.765\" y1=\"99\" x2=\"85\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"131.765\" y1=\"99\" x2=\"38.235\" y2=\"99\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"131.765\" y1=\"99\" x2=\"38.235\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"126\" x2=\"38.235\" y2=\"99\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"126\" x2=\"38.235\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"38.235\" y1=\"99\" x2=\"38.235\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "111",
+        "as": "১১১"
+      },
+      {
+        "en": "109",
+        "as": "১০৯"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The hexagon with all its diagonals contains 110 triangles.",
+      "as": "সকলো কৰ্ণসহ ষড়ভুজটোত 110 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-017",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"14\" x2=\"12\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"126\" x2=\"158\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"158\" y1=\"126\" x2=\"85\" y2=\"14\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"32.857\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"53.714\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"74.571\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"95.429\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"116.286\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"137.143\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure has 28 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 28 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-018",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"14\" x2=\"12\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"126\" x2=\"158\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"158\" y1=\"126\" x2=\"85\" y2=\"14\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"30.25\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"48.5\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"66.75\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"85\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"103.25\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"121.5\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"139.75\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure has 36 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 36 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-019",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"14\" x2=\"12\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"126\" x2=\"158\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"158\" y1=\"126\" x2=\"85\" y2=\"14\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"28.222\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"44.444\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"60.667\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"76.889\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"93.111\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"109.333\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"125.556\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"14\" x2=\"141.778\" y2=\"126\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure has 45 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 45 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-020",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"16\" x2=\"16\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"124\" x2=\"154\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"154\" y1=\"124\" x2=\"85\" y2=\"16\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"85\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"60.85\" y1=\"53.8\" x2=\"109.15\" y2=\"53.8\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"43.6\" y1=\"80.8\" x2=\"126.4\" y2=\"80.8\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"28.42\" y1=\"104.56\" x2=\"141.58\" y2=\"104.56\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting every size of triangle, the figure has 12 triangles.",
+      "as": "প্ৰতিটো আকাৰৰ ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 12 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-021",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"16\" x2=\"16\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"124\" x2=\"154\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"154\" y1=\"124\" x2=\"85\" y2=\"16\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"62\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"108\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"60.85\" y1=\"53.8\" x2=\"109.15\" y2=\"53.8\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"43.6\" y1=\"80.8\" x2=\"126.4\" y2=\"80.8\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"28.42\" y1=\"104.56\" x2=\"141.58\" y2=\"104.56\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting every size of triangle, the figure has 24 triangles.",
+      "as": "প্ৰতিটো আকাৰৰ ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 24 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-022",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"16\" x2=\"16\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"124\" x2=\"154\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"154\" y1=\"124\" x2=\"85\" y2=\"16\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"50.5\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"85\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"16\" x2=\"119.5\" y2=\"124\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"60.85\" y1=\"53.8\" x2=\"109.15\" y2=\"53.8\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"43.6\" y1=\"80.8\" x2=\"126.4\" y2=\"80.8\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"28.42\" y1=\"104.56\" x2=\"141.58\" y2=\"104.56\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting every size of triangle, the figure has 40 triangles.",
+      "as": "প্ৰতিটো আকাৰৰ ত্ৰিভুজ গণনা কৰি, চিত্ৰখনত 40 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-023",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"62.667\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"107.333\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115.15\" y1=\"64.8\" x2=\"58.2\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure has 12 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 12 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-024",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"51.5\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"85\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"118.5\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115.15\" y1=\"64.8\" x2=\"58.2\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure has 16 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 16 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-025",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"85\" y1=\"18\" x2=\"18\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"122\" x2=\"152\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"152\" y1=\"122\" x2=\"85\" y2=\"18\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"44.8\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"71.6\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"98.4\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"18\" x2=\"125.2\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115.15\" y1=\"64.8\" x2=\"58.2\" y2=\"122\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure has 25 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 25 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-026",
+    "q": {
+      "en": "How many triangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"20\" x2=\"130\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"120\" x2=\"30\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"120\" x2=\"30\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"20\" x2=\"30\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure has 12 triangles in all.",
+      "as": "চিত্ৰখনত মুঠতে 12 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figures-027",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"85\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"85\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 5.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 5।"
+    }
+  },
+  {
+    "id": "counting-figures-028",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"115\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"115\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 14.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 14।"
+    }
+  },
+  {
+    "id": "counting-figures-029",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"145\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"145\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"145\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 30.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 30।"
+    }
+  },
+  {
+    "id": "counting-figures-030",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"85\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"85\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 8.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 8।"
+    }
+  },
+  {
+    "id": "counting-figures-031",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"115\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"115\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 20.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 20।"
+    }
+  },
+  {
+    "id": "counting-figures-032",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"55\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"55\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 4.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 4।"
+    }
+  },
+  {
+    "id": "counting-figures-033",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"85\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"85\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 11.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 11।"
+    }
+  },
+  {
+    "id": "counting-figures-034",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"145\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"145\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 11.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 11।"
+    }
+  },
+  {
+    "id": "counting-figures-035",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"175\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"175\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"175\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"175\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"175\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"175\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 55.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 55।"
+    }
+  },
+  {
+    "id": "counting-figures-036",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"115\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"115\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 26.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 26।"
+    }
+  },
+  {
+    "id": "counting-figures-037",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"175\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"175\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"175\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"175\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 26.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 26।"
+    }
+  },
+  {
+    "id": "counting-figures-038",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"205\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"205\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"205\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"205\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"205\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"205\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"170\" x2=\"205\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"20\" x2=\"205\" y2=\"170\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "92",
+        "as": "৯২"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "89",
+        "as": "৮৯"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 91.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 91।"
+    }
+  },
+  {
+    "id": "counting-figures-039",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"145\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"145\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"145\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"145\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 40.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 40।"
+    }
+  },
+  {
+    "id": "counting-figures-040",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"55\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"55\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 3.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 3।"
+    }
+  },
+  {
+    "id": "counting-figures-041",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"55\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"55\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 5.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 5।"
+    }
+  },
+  {
+    "id": "counting-figures-042",
+    "q": {
+      "en": "How many squares are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"175\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"175\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"175\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An m x n grid holds every square size from 1 to min(m, n); for this grid the count is 14.",
+      "as": "m x n জালিকাত 1 ৰ পৰা min(m, n) লৈ প্ৰতিটো আকাৰৰ বৰ্গ থাকে; এই জালিকাত সংখ্যা 14।"
+    }
+  },
+  {
+    "id": "counting-figures-043",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"85\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"85\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 9.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 9।"
+    }
+  },
+  {
+    "id": "counting-figures-044",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"85\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"85\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 18.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 18।"
+    }
+  },
+  {
+    "id": "counting-figures-045",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"115\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"115\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 36.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 36।"
+    }
+  },
+  {
+    "id": "counting-figures-046",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"85\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"85\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 30.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 30।"
+    }
+  },
+  {
+    "id": "counting-figures-047",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"115\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"115\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "61",
+        "as": "৬১"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "59",
+        "as": "৫৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 60.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 60।"
+    }
+  },
+  {
+    "id": "counting-figures-048",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"145\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"145\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"145\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "101",
+        "as": "১০১"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "99",
+        "as": "৯৯"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 100.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 100।"
+    }
+  },
+  {
+    "id": "counting-figures-049",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"55\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"55\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 6.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 6।"
+    }
+  },
+  {
+    "id": "counting-figures-050",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"85\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"85\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"85\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"85\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 45.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 45।"
+    }
+  },
+  {
+    "id": "counting-figures-051",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"145\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"145\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "59",
+        "as": "৫৯"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 60.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 60।"
+    }
+  },
+  {
+    "id": "counting-figures-052",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"115\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"115\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"115\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"115\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "91",
+        "as": "৯১"
+      },
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "89",
+        "as": "৮৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 90.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 90।"
+    }
+  },
+  {
+    "id": "counting-figures-053",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"175\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"175\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"175\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"175\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "89",
+        "as": "৮৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 90.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 90।"
+    }
+  },
+  {
+    "id": "counting-figures-054",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"55\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"55\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"55\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"55\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"55\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 15.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 15।"
+    }
+  },
+  {
+    "id": "counting-figures-055",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"175\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"175\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"175\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"175\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"175\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"175\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "224",
+        "as": "২২৪"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "226",
+        "as": "২২৬"
+      },
+      {
+        "en": "223",
+        "as": "২২৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 225.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 225।"
+    }
+  },
+  {
+    "id": "counting-figures-056",
+    "q": {
+      "en": "How many rectangles are there in the given figure?",
+      "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"145\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"145\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"145\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"145\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"145\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "151",
+        "as": "১৫১"
+      },
+      {
+        "en": "149",
+        "as": "১৪৯"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "148",
+        "as": "১৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 150.",
+      "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 150।"
     }
   }
 ]

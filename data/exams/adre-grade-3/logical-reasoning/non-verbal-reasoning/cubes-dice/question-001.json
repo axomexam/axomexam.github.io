@@ -2,10 +2,46 @@
   {
     "id": "cubes-dice-001",
     "q": {
-      "en": "The numbers on the opposite faces of a standard die add up to —",
-      "as": "সাধাৰণ পাশাৰ বিপৰীত পৃষ্ঠৰ সংখ্যাৰ যোগফল —"
+      "en": "Two positions of the same dice are shown. Which number is opposite to the face showing 1?",
+      "as": "একে লুডুৰ দুটা অৱস্থান দেখুওৱা হৈছে। ১ দেখুওৱা পিঠিখনৰ বিপৰীত পিঠিত কোনটো সংখ্যা থাকিব?"
     },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" width=\"440\" height=\"140\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"138\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg></g><text x=\"220\" y=\"83\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"310\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(310,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg></g></svg>",
     "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In the two views the face 1 is adjacent to 4, 5, 2, 3, so its opposite is the only remaining face, 6.",
+      "as": "দুটা দৃশ্যত ১ নম্বৰ পিঠিখন ৪, ৫, ২, ৩ ৰ কাষত আছে, গতিকে ইয়াৰ বিপৰীত পিঠি বাকী থকা ৬।"
+    }
+  },
+  {
+    "id": "cubes-dice-002",
+    "q": {
+      "en": "Two positions of the same dice are shown. Which number is opposite to the face showing 2?",
+      "as": "একে লুডুৰ দুটা অৱস্থান দেখুওৱা হৈছে। ২ দেখুওৱা পিঠিখনৰ বিপৰীত পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" width=\"440\" height=\"140\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"138\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg></g><text x=\"220\" y=\"83\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"310\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(310,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
       {
         "en": "5",
         "as": "৫"
@@ -15,27 +51,151 @@
         "as": "৬"
       },
       {
-        "en": "7",
-        "as": "৭"
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In the two views the face 2 is adjacent to 6, 4, 1, 3, so its opposite is the only remaining face, 5.",
+      "as": "দুটা দৃশ্যত ২ নম্বৰ পিঠিখন ৬, ৪, ১, ৩ ৰ কাষত আছে, গতিকে ইয়াৰ বিপৰীত পিঠি বাকী থকা ৫।"
+    }
+  },
+  {
+    "id": "cubes-dice-003",
+    "q": {
+      "en": "Two positions of the same dice are shown. Which number is opposite to the face showing 3?",
+      "as": "একে লুডুৰ দুটা অৱস্থান দেখুওৱা হৈছে। ৩ দেখুওৱা পিঠিখনৰ বিপৰীত পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" width=\"440\" height=\"140\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"138\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg></g><text x=\"220\" y=\"83\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"310\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(310,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
       },
       {
-        "en": "8",
-        "as": "৮"
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In the two views the face 3 is adjacent to 2, 1, 5, 6, so its opposite is the only remaining face, 4.",
+      "as": "দুটা দৃশ্যত ৩ নম্বৰ পিঠিখন ২, ১, ৫, ৬ ৰ কাষত আছে, গতিকে ইয়াৰ বিপৰীত পিঠি বাকী থকা ৪।"
+    }
+  },
+  {
+    "id": "cubes-dice-004",
+    "q": {
+      "en": "Two positions of the same dice are shown. Which number is opposite to the face showing 4?",
+      "as": "একে লুডুৰ দুটা অৱস্থান দেখুওৱা হৈছে। ৪ দেখুওৱা পিঠিখনৰ বিপৰীত পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" width=\"440\" height=\"140\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"138\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg></g><text x=\"220\" y=\"83\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"310\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(310,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "The opposite faces of a standard die always add up to seven.",
-      "as": "সাধাৰণ পাশাৰ বিপৰীত পৃষ্ঠৰ যোগফল সদায় সাত।"
+      "en": "In the two views the face 4 is adjacent to 2, 5, 1, 6, so its opposite is the only remaining face, 3.",
+      "as": "দুটা দৃশ্যত ৪ নম্বৰ পিঠিখন ২, ৫, ১, ৬ ৰ কাষত আছে, গতিকে ইয়াৰ বিপৰীত পিঠি বাকী থকা ৩।"
     }
   },
   {
-    "id": "cubes-dice-002",
+    "id": "cubes-dice-005",
     "q": {
-      "en": "A cube has how many faces?",
-      "as": "এটা ঘনকৰ কিমানটা পৃষ্ঠ থাকে?"
+      "en": "Two positions of the same dice are shown. Which number is opposite to the face showing 5?",
+      "as": "একে লুডুৰ দুটা অৱস্থান দেখুওৱা হৈছে। ৫ দেখুওৱা পিঠিখনৰ বিপৰীত পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" width=\"440\" height=\"140\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"138\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg></g><text x=\"220\" y=\"83\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"310\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(310,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg></g></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In the two views the face 5 is adjacent to 4, 6, 1, 3, so its opposite is the only remaining face, 2.",
+      "as": "দুটা দৃশ্যত ৫ নম্বৰ পিঠিখন ৪, ৬, ১, ৩ ৰ কাষত আছে, গতিকে ইয়াৰ বিপৰীত পিঠি বাকী থকা ২।"
+    }
+  },
+  {
+    "id": "cubes-dice-006",
+    "q": {
+      "en": "Two positions of the same dice are shown. Which number is opposite to the face showing 6?",
+      "as": "একে লুডুৰ দুটা অৱস্থান দেখুওৱা হৈছে। ৬ দেখুওৱা পিঠিখনৰ বিপৰীত পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" width=\"440\" height=\"140\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"138\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg></g><text x=\"220\" y=\"83\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"310\" y=\"10\" width=\"120\" height=\"120\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(310,10) scale(1.2)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\" width=\"120\" height=\"120\"><polygon points=\"60,18 100,40 60,62 20,40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"20,40 60,62 60,108 20,86\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"60,62 100,40 100,86 60,108\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"46.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><text x=\"40\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><text x=\"80\" y=\"80.48\" font-size=\"18\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In the two views the face 6 is adjacent to 3, 4, 5, 2, so its opposite is the only remaining face, 1.",
+      "as": "দুটা দৃশ্যত ৬ নম্বৰ পিঠিখন ৩, ৪, ৫, ২ ৰ কাষত আছে, গতিকে ইয়াৰ বিপৰীত পিঠি বাকী থকা ১।"
+    }
+  },
+  {
+    "id": "cubes-dice-007",
+    "q": {
+      "en": "How many faces does a cube have?",
+      "as": "এটা ঘনকৰ কিমানখন পিঠি থাকে?"
     },
     "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
       {
         "en": "4",
         "as": "৪"
@@ -47,76 +207,1392 @@
       {
         "en": "8",
         "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A cube has 6 square faces.",
+      "as": "ঘনকৰ 6 খন বৰ্গ পিঠি থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-008",
+    "q": {
+      "en": "How many edges does a cube have?",
+      "as": "এটা ঘনকৰ কিমানটা কাষ থাকে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A cube has 12 edges.",
+      "as": "ঘনকৰ 12 টা কাষ থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-009",
+    "q": {
+      "en": "How many vertices (corners) does a cube have?",
+      "as": "এটা ঘনকৰ কিমানটা শীৰ্ষবিন্দু (কোণ) থাকে?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A cube has 8 vertices.",
+      "as": "ঘনকৰ 8 টা শীৰ্ষবিন্দু থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-010",
+    "q": {
+      "en": "How many faces does a cuboid have?",
+      "as": "এটা আয়তঘনৰ কিমানখন পিঠি থাকে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A cuboid also has 6 faces.",
+      "as": "আয়তঘনৰো 6 খন পিঠি থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-011",
+    "q": {
+      "en": "A cube of side 3 cm is cut into 1 cm cubes. How many small cubes are formed?",
+      "as": "3 চে.মি. বাহুৰ এটা ঘনক 1 চে.মি. ঘনকত কাটিলে কিমানটা সৰু ঘনক হয়?"
+    },
+    "options": [
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3 x 3 x 3 = 27 small cubes.",
+      "as": "3 x 3 x 3 = 27 টা সৰু ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-012",
+    "q": {
+      "en": "A cube of side 4 cm is cut into 1 cm cubes. How many small cubes are formed?",
+      "as": "4 চে.মি. বাহুৰ এটা ঘনক 1 চে.মি. ঘনকত কাটিলে কিমানটা সৰু ঘনক হয়?"
+    },
+    "options": [
+      {
+        "en": "256",
+        "as": "২৫৬"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "4 x 4 x 4 = 64 small cubes.",
+      "as": "4 x 4 x 4 = 64 টা সৰু ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-013",
+    "q": {
+      "en": "A cube of side 2 cm is cut into 1 cm cubes. How many small cubes are formed?",
+      "as": "2 চে.মি. বাহুৰ এটা ঘনক 1 চে.মি. ঘনকত কাটিলে কিমানটা সৰু ঘনক হয়?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2 x 2 x 2 = 8 small cubes.",
+      "as": "2 x 2 x 2 = 8 টা সৰু ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-014",
+    "q": {
+      "en": "A 3 cm cube is painted red and then cut into 1 cm cubes. How many small cubes have three faces painted?",
+      "as": "3 চে.মি. ঘনক ৰঙেৰে ৰঙাই 1 চে.মি. ঘনকত কাটিলে কিমানটা সৰু ঘনকৰ তিনিখন পিঠি ৰঙা হয়?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only the 8 corner cubes have three painted faces.",
+      "as": "কেৱল 8 টা কোণৰ ঘনকৰহে তিনিখন পিঠি ৰঙা হয়।"
+    }
+  },
+  {
+    "id": "cubes-dice-015",
+    "q": {
+      "en": "A 3 cm cube is painted and cut into 1 cm cubes. How many small cubes have no face painted?",
+      "as": "3 চে.মি. ঘনক ৰঙাই 1 চে.মি. ঘনকত কাটিলে কিমানটা সৰু ঘনকৰ কোনো পিঠি ৰঙা নহয়?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only the single centre cube has no painted face.",
+      "as": "কেৱল মাজৰ এটা ঘনকৰ কোনো পিঠি ৰঙা নহয়।"
+    }
+  },
+  {
+    "id": "cubes-dice-016",
+    "q": {
+      "en": "A 3 cm cube is painted and cut into 1 cm cubes. How many small cubes have exactly two faces painted?",
+      "as": "3 চে.মি. ঘনক ৰঙাই 1 চে.মি. ঘনকত কাটিলে কিমানটা সৰু ঘনকৰ ঠিক দুখন পিঠি ৰঙা হয়?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 12 edge-centre cubes have exactly two painted faces.",
+      "as": "12 টা কাষৰ মাজৰ ঘনকৰ ঠিক দুখন পিঠি ৰঙা হয়।"
+    }
+  },
+  {
+    "id": "cubes-dice-017",
+    "q": {
+      "en": "A 3 cm cube is painted and cut into 1 cm cubes. How many small cubes have exactly one face painted?",
+      "as": "3 চে.মি. ঘনক ৰঙাই 1 চে.মি. ঘনকত কাটিলে কিমানটা সৰু ঘনকৰ ঠিক এখন পিঠি ৰঙা হয়?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 6 face-centre cubes have exactly one painted face.",
+      "as": "6 টা পিঠিৰ মাজৰ ঘনকৰ ঠিক এখন পিঠি ৰঙা হয়।"
+    }
+  },
+  {
+    "id": "cubes-dice-018",
+    "q": {
+      "en": "How many unit cubes are needed to build a 2 x 2 x 2 cube?",
+      "as": "2 x 2 x 2 ঘনক সাজিবলৈ কিমানটা একক ঘনক লাগে?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
       },
       {
         "en": "12",
         "as": "১২"
       }
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
-      "en": "A cube has six faces.",
-      "as": "ঘনকৰ ছটা পৃষ্ঠ থাকে।"
+      "en": "2 x 2 x 2 = 8 unit cubes.",
+      "as": "2 x 2 x 2 = 8 টা একক ঘনক।"
     }
   },
   {
-    "id": "cubes-dice-003",
+    "id": "cubes-dice-019",
     "q": {
-      "en": "If a painted cube is cut into smaller cubes, the corner cubes have how many painted faces?",
-      "as": "ৰঙা ঘনক সৰু ঘনকত কাটিলে চুকৰ ঘনকবোৰত কিমানটা ৰঙা পৃষ্ঠ থাকে?"
+      "en": "How many unit cubes are needed to build a 5 x 5 x 5 cube?",
+      "as": "5 x 5 x 5 ঘনক সাজিবলৈ কিমানটা একক ঘনক লাগে?"
     },
     "options": [
       {
-        "en": "1",
-        "as": "১"
+        "en": "25",
+        "as": "২৫"
       },
       {
-        "en": "2",
-        "as": "২"
+        "en": "75",
+        "as": "৭৫"
       },
       {
-        "en": "3",
-        "as": "৩"
+        "en": "100",
+        "as": "১০০"
       },
       {
-        "en": "0",
-        "as": "০"
-      }
-    ],
-    "correct": 2,
-    "explanation": {
-      "en": "Corner cubes have three painted faces.",
-      "as": "চুকৰ ঘনকবোৰত তিনিটা ৰঙা পৃষ্ঠ থাকে।"
-    }
-  },
-  {
-    "id": "cubes-dice-004",
-    "q": {
-      "en": "If a painted cube is cut into smaller cubes, the inner cubes have how many painted faces?",
-      "as": "ৰঙা ঘনক সৰু ঘনকত কাটিলে ভিতৰৰ ঘনকবোৰত কিমানটা ৰঙা পৃষ্ঠ থাকে?"
-    },
-    "options": [
-      {
-        "en": "3",
-        "as": "৩"
-      },
-      {
-        "en": "2",
-        "as": "২"
-      },
-      {
-        "en": "1",
-        "as": "১"
-      },
-      {
-        "en": "0",
-        "as": "০"
+        "en": "125",
+        "as": "১২৫"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "Inner cubes have no painted face.",
-      "as": "ভিতৰৰ ঘনকবোৰত কোনো ৰঙা পৃষ্ঠ নাথাকে।"
+      "en": "5 x 5 x 5 = 125 unit cubes.",
+      "as": "5 x 5 x 5 = 125 টা একক ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-020",
+    "q": {
+      "en": "How many faces of a cuboid are rectangles?",
+      "as": "আয়তঘনৰ কিমানখন পিঠি আয়ত?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All 6 faces of a cuboid are rectangles.",
+      "as": "আয়তঘনৰ আটাইবোৰ 6 খন পিঠি আয়ত।"
+    }
+  },
+  {
+    "id": "cubes-dice-021",
+    "q": {
+      "en": "On a dice the opposite faces always add up to how much?",
+      "as": "লুডুত বিপৰীত পিঠিবোৰৰ যোগফল সদায় কিমান হয়?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "On a standard dice opposite faces add up to 7.",
+      "as": "প্ৰামাণ্য লুডুত বিপৰীত পিঠিবোৰৰ যোগফল 7 হয়।"
+    }
+  },
+  {
+    "id": "cubes-dice-022",
+    "q": {
+      "en": "If 1 is on top of a dice, which number is at the bottom?",
+      "as": "লুডুৰ ওপৰত 1 থাকিলে তলত কোনটো সংখ্যা থাকে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1 and 6 are opposite, so 6 is at the bottom.",
+      "as": "1 আৰু 6 বিপৰীত, গতিকে তলত 6 থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-023",
+    "q": {
+      "en": "If 2 is on top of a dice, which number is at the bottom?",
+      "as": "লুডুৰ ওপৰত 2 থাকিলে তলত কোনটো সংখ্যা থাকে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2 and 5 are opposite, so 5 is at the bottom.",
+      "as": "2 আৰু 5 বিপৰীত, গতিকে তলত 5 থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-024",
+    "q": {
+      "en": "If 3 is on top of a dice, which number is at the bottom?",
+      "as": "লুডুৰ ওপৰত 3 থাকিলে তলত কোনটো সংখ্যা থাকে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3 and 4 are opposite, so 4 is at the bottom.",
+      "as": "3 আৰু 4 বিপৰীত, গতিকে তলত 4 থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-025",
+    "q": {
+      "en": "How many faces of a cube meet at each vertex?",
+      "as": "ঘনকৰ প্ৰতিটো শীৰ্ষবিন্দুত কিমানখন পিঠি লগ লাগে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three faces meet at each vertex of a cube.",
+      "as": "ঘনকৰ প্ৰতিটো শীৰ্ষবিন্দুত তিনিখন পিঠি লগ লাগে।"
+    }
+  },
+  {
+    "id": "cubes-dice-026",
+    "q": {
+      "en": "How many edges meet at each vertex of a cube?",
+      "as": "ঘনকৰ প্ৰতিটো শীৰ্ষবিন্দুত কিমানটা কাষ লগ লাগে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three edges meet at each vertex of a cube.",
+      "as": "ঘনকৰ প্ৰতিটো শীৰ্ষবিন্দুত তিনিটা কাষ লগ লাগে।"
+    }
+  },
+  {
+    "id": "cubes-dice-027",
+    "q": {
+      "en": "A dice is rolled and 4 shows on top. What shows at the bottom?",
+      "as": "লুডু মাৰি ওপৰত 4 দেখুৱালে তলত কি দেখুৱাব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "4 and 3 are opposite.",
+      "as": "4 আৰু 3 বিপৰীত।"
+    }
+  },
+  {
+    "id": "cubes-dice-028",
+    "q": {
+      "en": "A dice shows 5 on top. Which number is at the bottom?",
+      "as": "লুডুত ওপৰত 5 দেখুৱালে তলত কোনটো সংখ্যা থাকিব?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5 and 2 are opposite.",
+      "as": "5 আৰু 2 বিপৰীত।"
+    }
+  },
+  {
+    "id": "cubes-dice-029",
+    "q": {
+      "en": "A dice shows 6 on top. Which number is at the bottom?",
+      "as": "লুডুত ওপৰত 6 দেখুৱালে তলত কোনটো সংখ্যা থাকিব?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6 and 1 are opposite.",
+      "as": "6 আৰু 1 বিপৰীত।"
+    }
+  },
+  {
+    "id": "cubes-dice-030",
+    "q": {
+      "en": "How many corner cubes does a 4 cm painted cube have?",
+      "as": "4 চে.মি. ৰঙা ঘনকৰ কিমানটা কোণৰ ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Every cube has 8 corner cubes.",
+      "as": "প্ৰতিটো ঘনকৰ 8 টা কোণৰ ঘনক থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-031",
+    "q": {
+      "en": "How many cubes are there in a 2 x 2 x 3 cuboid?",
+      "as": "2 x 2 x 3 আয়তঘনত কিমানটা ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2 x 2 x 3 = 12 cubes.",
+      "as": "2 x 2 x 3 = 12 টা ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-032",
+    "q": {
+      "en": "How many cubes are there in a 3 x 3 x 2 cuboid?",
+      "as": "3 x 3 x 2 আয়তঘনত কিমানটা ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3 x 3 x 2 = 18 cubes.",
+      "as": "3 x 3 x 2 = 18 টা ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-033",
+    "q": {
+      "en": "How many cubes are there in a 4 x 3 x 2 cuboid?",
+      "as": "4 x 3 x 2 আয়তঘনত কিমানটা ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 x 3 x 2 = 24 cubes.",
+      "as": "4 x 3 x 2 = 24 টা ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-034",
+    "q": {
+      "en": "How many cubes are there in a 3 x 4 x 5 cuboid?",
+      "as": "3 x 4 x 5 আয়তঘনত কিমানটা ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3 x 4 x 5 = 60 cubes.",
+      "as": "3 x 4 x 5 = 60 টা ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-035",
+    "q": {
+      "en": "If a dice is cut from a solid cube, how many faces does it have?",
+      "as": "এটা ঘনকৰ পৰা এটা লুডু কাটি ললে ইয়াৰ কিমানখন পিঠি থাকে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A dice is a cube, so it has 6 faces.",
+      "as": "লুডু এটা ঘনক, গতিকে ইয়াৰ 6 খন পিঠি।"
+    }
+  },
+  {
+    "id": "cubes-dice-036",
+    "q": {
+      "en": "How many painted faces does a corner cube of a painted big cube have?",
+      "as": "ৰঙা ডাঙৰ ঘনকৰ এটা কোণৰ ঘনকৰ কিমানখন পিঠি ৰঙা হয়?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A corner cube touches three faces, so all three are painted.",
+      "as": "কোণৰ ঘনকে তিনিখন পিঠি চুই থাকে, গতিকে তিনিওখন ৰঙা।"
+    }
+  },
+  {
+    "id": "cubes-dice-037",
+    "q": {
+      "en": "How many painted faces does a cube at the centre of an edge have?",
+      "as": "কাষৰ মাজত থকা ঘনকৰ কিমানখন পিঠি ৰঙা হয়?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An edge-centre cube touches two faces, so two are painted.",
+      "as": "কাষৰ মাজৰ ঘনকে দুখন পিঠি চুই থাকে, গতিকে দুখন ৰঙা।"
+    }
+  },
+  {
+    "id": "cubes-dice-038",
+    "q": {
+      "en": "How many painted faces does a cube at the centre of a face have?",
+      "as": "পিঠিৰ মাজত থকা ঘনকৰ কিমানখন পিঠি ৰঙা হয়?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A face-centre cube touches only one face.",
+      "as": "পিঠিৰ মাজৰ ঘনকে কেৱল এখন পিঠি চুই থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-039",
+    "q": {
+      "en": "How many painted faces does the innermost cube of a 3 cm painted cube have?",
+      "as": "3 চে.মি. ৰঙা ঘনকৰ আটাইতকৈ ভিতৰৰ ঘনকৰ কিমানখন পিঠি ৰঙা হয়?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The innermost cube is not touched by paint.",
+      "as": "আটাইতকৈ ভিতৰৰ ঘনকত ৰং নালাগে।"
+    }
+  },
+  {
+    "id": "cubes-dice-040",
+    "q": {
+      "en": "How many cubes are there in a 6 x 6 x 6 cube?",
+      "as": "6 x 6 x 6 ঘনকত কিমানটা ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "6 x 6 x 6 = 216 cubes.",
+      "as": "6 x 6 x 6 = 216 টা ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-041",
+    "q": {
+      "en": "How many unit cubes are there in a 4 x 4 x 4 cube?",
+      "as": "4 x 4 x 4 ঘনকত কিমানটা একক ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "4 x 4 x 4 = 64 unit cubes.",
+      "as": "4 x 4 x 4 = 64 টা একক ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-042",
+    "q": {
+      "en": "How many faces does a solid cuboid have?",
+      "as": "এটা ঘন আয়তঘনৰ কিমানখন পিঠি থাকে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A cuboid has 6 faces.",
+      "as": "আয়তঘনৰ 6 খন পিঠি থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-043",
+    "q": {
+      "en": "How many edges does a cuboid have?",
+      "as": "আয়তঘনৰ কিমানটা কাষ থাকে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A cuboid has 12 edges.",
+      "as": "আয়তঘনৰ 12 টা কাষ থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-044",
+    "q": {
+      "en": "How many vertices does a cuboid have?",
+      "as": "আয়তঘনৰ কিমানটা শীৰ্ষবিন্দু থাকে?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A cuboid has 8 vertices.",
+      "as": "আয়তঘনৰ 8 টা শীৰ্ষবিন্দু থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-045",
+    "q": {
+      "en": "Two dice faces shown together are 1 and 6. What can you say?",
+      "as": "লুডুৰ দুখন পিঠি একেলগে 1 আৰু 6 দেখুৱালে কি ক'ব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "They are opposite faces",
+        "as": "সিহঁত বিপৰীত পিঠি"
+      },
+      {
+        "en": "They are the same face",
+        "as": "সিহঁত একেই পিঠি"
+      },
+      {
+        "en": "They cannot be opposite faces",
+        "as": "সিহঁত বিপৰীত পিঠি হ'ব নোৱাৰে"
+      },
+      {
+        "en": "The dice is not a cube",
+        "as": "লুডুটো ঘনক নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Opposite faces never appear together in one view.",
+      "as": "বিপৰীত পিঠি একে দৃশ্যত কেতিয়াও একেলগে নাথাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-046",
+    "q": {
+      "en": "A dice shows 2, 3 and 4 together. Which number cannot be opposite 3?",
+      "as": "লুডুত 2, 3 আৰু 4 একেলগে দেখুৱালে কোনটো সংখ্যা 3 ৰ বিপৰীত হ'ব নোৱাৰে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 is seen with 3, so 4 is adjacent to 3, not opposite.",
+      "as": "4 ক 3 ৰ লগত দেখা যায়, গতিকে 4 কাষত, বিপৰীত নহয়।"
+    }
+  },
+  {
+    "id": "cubes-dice-047",
+    "q": {
+      "en": "A dice shows 1, 2 and 5 together. Which number cannot be opposite 5?",
+      "as": "লুডুত 1, 2 আৰু 5 একেলগে দেখুৱালে কোনটো সংখ্যা 5 ৰ বিপৰীত হ'ব নোৱাৰে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2 is seen with 5, so 2 is adjacent to 5.",
+      "as": "2 ক 5 ৰ লগত দেখা যায়, গতিকে 2 কাষত।"
+    }
+  },
+  {
+    "id": "cubes-dice-048",
+    "q": {
+      "en": "A 3 cm cube is cut into 1 cm cubes. How many cubes have at least one painted face if all faces are painted?",
+      "as": "3 চে.মি. ঘনক 1 চে.মি. ঘনকত কাটিলে আটাইবোৰ পিঠি ৰঙাই কিমানটা ঘনকৰ অন্ততঃ এখন পিঠি ৰঙা?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only the centre cube is unpainted, so 27 - 1 = 26.",
+      "as": "কেৱল মাজৰ ঘনকটো ৰঙা নহয়, গতিকে 27 - 1 = 26।"
+    }
+  },
+  {
+    "id": "cubes-dice-049",
+    "q": {
+      "en": "How many 1 cm cubes fit in a 2 x 3 x 4 box?",
+      "as": "2 x 3 x 4 বাকচত কিমানটা 1 চে.মি. ঘনক সোমায়?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2 x 3 x 4 = 24 cubes.",
+      "as": "2 x 3 x 4 = 24 টা ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-050",
+    "q": {
+      "en": "A cube has how many pairs of opposite faces?",
+      "as": "এটা ঘনকত কিমান যোৰ বিপৰীত পিঠি থাকে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A cube has 3 pairs of opposite faces.",
+      "as": "ঘনকত 3 যোৰ বিপৰীত পিঠি থাকে।"
+    }
+  },
+  {
+    "id": "cubes-dice-051",
+    "q": {
+      "en": "A dice is rolled and 6 appears. What is opposite to 6?",
+      "as": "লুডু মাৰি 6 ওলালে 6 ৰ বিপৰীত কি?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6 and 1 are opposite.",
+      "as": "6 আৰু 1 বিপৰীত।"
+    }
+  },
+  {
+    "id": "cubes-dice-052",
+    "q": {
+      "en": "How many unit cubes are in a 2 x 4 x 5 cuboid?",
+      "as": "2 x 4 x 5 আয়তঘনত কিমানটা একক ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2 x 4 x 5 = 40 unit cubes.",
+      "as": "2 x 4 x 5 = 40 টা একক ঘনক।"
+    }
+  },
+  {
+    "id": "cubes-dice-053",
+    "q": {
+      "en": "How many unit cubes are in a 3 x 3 x 3 cube?",
+      "as": "3 x 3 x 3 ঘনকত কিমানটা একক ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3 x 3 x 3 = 27 unit cubes.",
+      "as": "3 x 3 x 3 = 27 টা একক ঘনক।"
     }
   }
 ]

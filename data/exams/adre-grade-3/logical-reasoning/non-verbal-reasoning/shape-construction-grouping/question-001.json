@@ -2,61 +2,2209 @@
   {
     "id": "shape-construction-grouping-001",
     "q": {
-      "en": "Two right-angled triangles of equal size are joined along their equal sides. Which figure is formed?",
-      "as": "সমান জোখৰ দুটা সমকোণী ত্ৰিভুজ সমান বাহুৰে জোৰা লগোৱা হ'ল। কোনটো চিত্ৰ গঠন হয়?"
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
     },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
     "options": [
       {
-        "en": "A circle",
-        "as": "এটা বৃত্ত"
+        "en": "4",
+        "as": "৪"
       },
       {
-        "en": "A pentagon",
-        "as": "এটা পঞ্চভুজ"
+        "en": "2",
+        "as": "২"
       },
       {
-        "en": "A rectangle",
-        "as": "এটা আয়তক্ষেত্ৰ"
+        "en": "3",
+        "as": "৩"
       },
       {
-        "en": "A triangle",
-        "as": "এটা ত্ৰিভুজ"
+        "en": "3",
+        "as": "৩"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "Two equal right-angled triangles joined along their equal sides form a rectangle.",
-      "as": "সমান জোখৰ দুটা সমকোণী ত্ৰিভুজ সমান বাহুৰে জোৰা লগালে এটা আয়তক্ষেত্ৰ গঠন হয়।"
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 3 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 3 মাৰিবাঁহ লাগে।"
     }
   },
   {
     "id": "shape-construction-grouping-002",
     "q": {
-      "en": "Which figure does not belong to the group: square, rectangle, rhombus, circle?",
-      "as": "কোনটো চিত্ৰ দলত নপৰে: বৰ্গ, আয়তক্ষেত্ৰ, ৰম্বাছ, বৃত্ত?"
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
     },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"68\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"72\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
     "options": [
       {
-        "en": "Square",
-        "as": "বৰ্গ"
+        "en": "6",
+        "as": "৬"
       },
       {
-        "en": "Rectangle",
-        "as": "আয়তক্ষেত্ৰ"
+        "en": "6",
+        "as": "৬"
       },
       {
-        "en": "Rhombus",
-        "as": "ৰম্বাছ"
+        "en": "5",
+        "as": "৫"
       },
       {
-        "en": "Circle",
-        "as": "বৃত্ত"
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 5 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 5 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-003",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"68\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"72\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"100\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"72\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 7 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 7 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-004",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"68\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"72\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"100\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"72\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"132\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"132\" y1=\"72\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 9 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 9 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-005",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"68\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"72\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"100\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"72\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"132\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"132\" y1=\"72\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"164\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"164\" y1=\"72\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 11 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 11 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-006",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"68\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"72\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"100\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"72\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"132\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"132\" y1=\"72\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"164\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"164\" y1=\"72\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"100\" x2=\"196\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"196\" y1=\"72\" x2=\"212\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"100\" x2=\"212\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 13 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 13 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-007",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"68\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"72\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"100\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"72\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"132\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"132\" y1=\"72\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"164\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"164\" y1=\"72\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"100\" x2=\"196\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"196\" y1=\"72\" x2=\"212\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"100\" x2=\"212\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"212\" y1=\"100\" x2=\"228\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"72\" x2=\"244\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"212\" y1=\"100\" x2=\"244\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 15 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 15 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-008",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"100\" x2=\"36\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"72\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"100\" x2=\"52\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"68\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"72\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"52\" y1=\"100\" x2=\"84\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"100\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"72\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"84\" y1=\"100\" x2=\"116\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"132\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"132\" y1=\"72\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"100\" x2=\"148\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"164\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"164\" y1=\"72\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"100\" x2=\"196\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"196\" y1=\"72\" x2=\"212\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"100\" x2=\"212\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"212\" y1=\"100\" x2=\"228\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"72\" x2=\"244\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"212\" y1=\"100\" x2=\"244\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"244\" y1=\"100\" x2=\"260\" y2=\"72\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"260\" y1=\"72\" x2=\"276\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"244\" y1=\"100\" x2=\"276\" y2=\"100\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new triangle in the row shares one side, so n triangles need 2n + 1 = 17 matchsticks.",
+      "as": "শাৰীত প্ৰতিটো নতুন ত্ৰিভুজে এটা বাহু ভাগ কৰে, গতিকে n ত্ৰিভুজৰ বাবে 2n + 1 = 17 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-009",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 4 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 4 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-010",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"66\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 7 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 7 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-011",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"66\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"98\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"66\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 10 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 10 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-012",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"66\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"98\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"66\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"124\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"66\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "The square, rectangle and rhombus are all quadrilaterals with four sides, while a circle has no straight sides.",
-      "as": "বৰ্গ, আয়তক্ষেত্ৰ আৰু ৰম্বাছ সকলো চতুৰ্ভুজ, চাৰিটা বাহু থাকে, আনহাতে বৃত্তৰ সোজা বাহু নাই।"
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 13 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 13 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-013",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"66\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"98\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"66\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"124\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"66\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"66\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 16 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 16 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-014",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"40\" x2=\"176\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"66\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"98\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"66\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"124\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"66\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"66\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"40\" x2=\"176\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"66\" x2=\"176\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 19 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 19 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-015",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"40\" x2=\"176\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"202\" y1=\"40\" x2=\"202\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"66\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"98\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"66\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"124\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"66\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"66\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"40\" x2=\"176\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"66\" x2=\"176\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"40\" x2=\"202\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"66\" x2=\"202\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 22 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 22 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-016",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 120\" width=\"170\" height=\"120\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"116\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"40\" x2=\"176\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"202\" y1=\"40\" x2=\"202\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"40\" x2=\"228\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"66\" x2=\"72\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"40\" x2=\"98\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"66\" x2=\"98\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"40\" x2=\"124\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"66\" x2=\"124\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"66\" x2=\"150\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"40\" x2=\"176\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"66\" x2=\"176\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"40\" x2=\"202\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"66\" x2=\"202\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"202\" y1=\"40\" x2=\"228\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"202\" y1=\"66\" x2=\"228\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each new square shares one side, so n squares need 3n + 1 = 25 matchsticks.",
+      "as": "প্ৰতিটো নতুন বৰ্গই এটা বাহু ভাগ কৰে, গতিকে n বৰ্গৰ বাবে 3n + 1 = 25 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-017",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"72\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"72\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"72\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 12 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 12 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-018",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"72\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"72\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"72\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"72\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 17 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 17 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-019",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"98\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"98\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"98\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"98\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"30\" x2=\"98\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 24 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 24 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-020",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"46\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"46\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"46\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"46\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 10 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 10 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-021",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"72\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"72\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"72\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"72\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"134\" x2=\"72\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 22 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 22 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-022",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"98\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"98\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"98\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"98\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"134\" x2=\"98\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"30\" x2=\"98\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 31 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 31 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-023",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"124\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"124\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"124\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"124\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"134\" x2=\"124\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"30\" x2=\"98\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"30\" x2=\"124\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 40 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 40 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-024",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"46\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"46\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"46\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"46\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"134\" x2=\"46\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"160\" x2=\"46\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 16 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 16 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-025",
+    "q": {
+      "en": "How many matchsticks are needed to make the given figure?",
+      "as": "দিয়া চিত্ৰখন সাজিবলৈ কিমানখন মাৰিবাঁহ লাগে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 130\" width=\"170\" height=\"130\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"126\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"20\" y1=\"30\" x2=\"72\" y2=\"30\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"56\" x2=\"72\" y2=\"56\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"82\" x2=\"72\" y2=\"82\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"108\" x2=\"72\" y2=\"108\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"134\" x2=\"72\" y2=\"134\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"30\" x2=\"20\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"46\" y1=\"30\" x2=\"46\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An m x n grid needs 2mn + m + n = 27 matchsticks.",
+      "as": "m x n জালিকাৰ বাবে 2mn + m + n = 27 মাৰিবাঁহ লাগে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-026",
+    "q": {
+      "en": "Which figure can be made by joining the two given pieces?",
+      "as": "দিয়া দুটা টুকুৰা জোৰা লগাই কোনটো চিত্ৰ বনাব পাৰি?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 352 120\" width=\"352\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"350\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"30,20 30,80 90,80\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></g><text x=\"176\" y=\"73\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"30,20 30,80 90,80\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><polygon points=\"50,24 74.727,41.966 65.282,71.034 34.718,71.034 25.273,41.966\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><polygon points=\"50,22.7 56.74,40.724 75.964,41.564 60.905,53.543 66.047,72.086 50,61.466 33.953,72.086 39.095,53.543 24.036,41.564 43.26,40.724\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><circle cx=\"50\" cy=\"50\" r=\"24.44\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two identical right isosceles triangles join along their equal sides to make a square.",
+      "as": "দুটা একে সমকোণী সমদ্বিবাহু ত্ৰিভুজ সমান বাহুৰে জোৰা লগালে এটা বৰ্গ বনাব পাৰি।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-027",
+    "q": {
+      "en": "Which figure can be made by joining the two given pieces?",
+      "as": "দিয়া দুটা টুকুৰা জোৰা লগাই কোনটো চিত্ৰ বনাব পাৰি?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 352 120\" width=\"352\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"350\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"35,20 60.981,65 9.019,65\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></g><text x=\"176\" y=\"73\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"65,80 39.019,35 90.981,35\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><polygon points=\"50,24 74.727,41.966 65.282,71.034 34.718,71.034 25.273,41.966\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><polygon points=\"50,24 72.517,37 72.517,63 50,76 27.483,63 27.483,37\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><circle cx=\"50\" cy=\"50\" r=\"24.44\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two identical equilateral triangles join base to base to make a rhombus.",
+      "as": "দুটা একে সমবাহু ত্ৰিভুজ ভূমি-ভূমি জোৰা লগালে এটা ৰম্বাছ বনাব পাৰি।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-028",
+    "q": {
+      "en": "Which figure can be made by joining the two given pieces?",
+      "as": "দিয়া দুটা টুকুৰা জোৰা লগাই কোনটো চিত্ৰ বনাব পাৰি?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 352 120\" width=\"352\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"350\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><rect x=\"20\" y=\"35\" width=\"55\" height=\"30\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.4\"/></g><text x=\"176\" y=\"73\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\"></text><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><rect x=\"75\" y=\"35\" width=\"55\" height=\"30\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.4\"/></g></svg>",
+    "options": [
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><circle cx=\"50\" cy=\"50\" r=\"24.44\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><polygon points=\"50,22.7 56.74,40.724 75.964,41.564 60.905,53.543 66.047,72.086 50,61.466 33.953,72.086 39.095,53.543 24.036,41.564 43.26,40.724\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><rect x=\"25\" y=\"40\" width=\"50\" height=\"20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.4\"/></g></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two identical rectangles join along their long sides to make a larger rectangle.",
+      "as": "দুটা একে আয়ত দীঘল বাহুৰে জোৰা লগালে এটা ডাঙৰ আয়ত বনাব পাৰি।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-029",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three figures have the same shape (triangle) and figure 1 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ত্ৰিভুজ) আৰু 1 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-030",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (triangle) and figure 2 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ত্ৰিভুজ) আৰু 2 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-031",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (triangle) and figure 3 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ত্ৰিভুজ) আৰু 3 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-032",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (triangle) and figure 4 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ত্ৰিভুজ) আৰু 4 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-033",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (square) and figure 1 is a pentagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৰ্গ) আৰু 1 নম্বৰটো পঞ্চভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-034",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three figures have the same shape (square) and figure 2 is a pentagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৰ্গ) আৰু 2 নম্বৰটো পঞ্চভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-035",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Three figures have the same shape (square) and figure 3 is a pentagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৰ্গ) আৰু 3 নম্বৰটো পঞ্চভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-036",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (square) and figure 4 is a pentagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৰ্গ) আৰু 4 নম্বৰটো পঞ্চভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-037",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (pentagon) and figure 1 is a hexagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (পঞ্চভুজ) আৰু 1 নম্বৰটো ষড়ভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-038",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three figures have the same shape (pentagon) and figure 2 is a hexagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (পঞ্চভুজ) আৰু 2 নম্বৰটো ষড়ভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-039",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (pentagon) and figure 3 is a hexagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (পঞ্চভুজ) আৰু 3 নম্বৰটো ষড়ভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-040",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 76.63,41.348 66.458,72.652 33.542,72.652 23.37,41.348\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three figures have the same shape (pentagon) and figure 4 is a hexagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (পঞ্চভুজ) আৰু 4 নম্বৰটো ষড়ভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-041",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three figures have the same shape (hexagon) and figure 1 is a heptagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ষড়ভুজ) আৰু 1 নম্বৰটো সপ্তভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-042",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Three figures have the same shape (hexagon) and figure 2 is a heptagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ষড়ভুজ) আৰু 2 নম্বৰটো সপ্তভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-043",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (hexagon) and figure 3 is a heptagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ষড়ভুজ) আৰু 3 নম্বৰটো সপ্তভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-044",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,36 74.249,64 50,78 25.751,64 25.751,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (hexagon) and figure 4 is a heptagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ষড়ভুজ) আৰু 4 নম্বৰটো সপ্তভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-045",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (heptagon) and figure 1 is a octagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (সপ্তভুজ) আৰু 1 নম্বৰটো অষ্টভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-046",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (heptagon) and figure 2 is a octagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (সপ্তভুজ) আৰু 2 নম্বৰটো অষ্টভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-047",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (heptagon) and figure 3 is a octagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (সপ্তভুজ) আৰু 3 নম্বৰটো অষ্টভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-048",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 71.891,32.542 77.298,56.231 62.149,75.227 37.851,75.227 22.702,56.231 28.109,32.542\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (heptagon) and figure 4 is a octagon, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (সপ্তভুজ) আৰু 4 নম্বৰটো অষ্টভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-049",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three figures have the same shape (octagon) and figure 1 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (অষ্টভুজ) আৰু 1 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-050",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three figures have the same shape (octagon) and figure 2 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (অষ্টভুজ) আৰু 2 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-051",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (octagon) and figure 3 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (অষ্টভুজ) আৰু 3 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-052",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 69.799,30.201 78,50 69.799,69.799 50,78 30.201,69.799 22,50 30.201,30.201\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (octagon) and figure 4 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (অষ্টভুজ) আৰু 4 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-053",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (circle) and figure 1 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৃত্ত) আৰু 1 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-054",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Three figures have the same shape (circle) and figure 2 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৃত্ত) আৰু 2 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-055",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (circle) and figure 3 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৃত্ত) আৰু 3 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-056",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><circle cx=\"50\" cy=\"50\" r=\"26.32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><rect x=\"30.201\" y=\"30.201\" width=\"39.598\" height=\"39.598\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (circle) and figure 4 is a square, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (বৃত্ত) আৰু 4 নম্বৰটো বৰ্গ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-057",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Three figures have the same shape (diamond) and figure 1 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ৰম্বাছ) আৰু 1 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-058",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (diamond) and figure 2 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ৰম্বাছ) আৰু 2 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-059",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (diamond) and figure 3 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ৰম্বাছ) আৰু 3 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-060",
+    "q": {
+      "en": "Which numbered figure does not belong to the same group as the others?",
+      "as": "কোনটো নম্বৰৰ চিত্ৰটো আনবোৰৰ সৈতে একে দলৰ নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,16.96 83.04,50 50,83.04 16.96,50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,22 74.249,64 25.751,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Three figures have the same shape (diamond) and figure 4 is a triangle, so it does not belong.",
+      "as": "তিনিটা চিত্ৰ একেই আকৃতি (ৰম্বাছ) আৰু 4 নম্বৰটো ত্ৰিভুজ, গতিকে ই দলৰ নহয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-061",
+    "q": {
+      "en": "How many small squares make a 2 x 2 square?",
+      "as": "2 x 2 বৰ্গ বনাবলৈ কিমানটা সৰু বৰ্গ লাগে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A 2 x 2 square is made of 4 unit squares.",
+      "as": "2 x 2 বৰ্গ 4 টা একক বৰ্গেৰে গঠিত।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-062",
+    "q": {
+      "en": "How many small squares make a 3 x 3 square?",
+      "as": "3 x 3 বৰ্গ বনাবলৈ কিমানটা সৰু বৰ্গ লাগে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A 3 x 3 square is made of 9 unit squares.",
+      "as": "3 x 3 বৰ্গ 9 টা একক বৰ্গেৰে গঠিত।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-063",
+    "q": {
+      "en": "A square is cut by one diagonal. How many triangles are formed?",
+      "as": "এটা বৰ্গ এটা কৰ্ণৰে কাটিলে কিমানটা ত্ৰিভুজ হয়?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One diagonal divides a square into 2 triangles.",
+      "as": "এটা কৰ্ণই বৰ্গটো 2 টা ত্ৰিভুজত ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-064",
+    "q": {
+      "en": "A square is cut by both diagonals. How many triangles are formed?",
+      "as": "এটা বৰ্গ দুয়ো কৰ্ণৰে কাটিলে কিমানটা ত্ৰিভুজ হয়?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Both diagonals divide a square into 4 triangles.",
+      "as": "দুয়ো কৰ্ণই বৰ্গটো 4 টা ত্ৰিভুজত ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-065",
+    "q": {
+      "en": "Two identical squares joined side by side make a ___",
+      "as": "দুটা একে বৰ্গ কাষে-কাষে জোৰা লগালে হয় ___"
+    },
+    "options": [
+      {
+        "en": "triangle",
+        "as": "ত্ৰিভুজ"
+      },
+      {
+        "en": "rectangle",
+        "as": "আয়ত"
+      },
+      {
+        "en": "circle",
+        "as": "বৃত্ত"
+      },
+      {
+        "en": "square",
+        "as": "বৰ্গ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two squares side by side form a rectangle.",
+      "as": "দুটা বৰ্গ কাষে-কাষে থাকিলে এটা আয়ত হয়।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-066",
+    "q": {
+      "en": "A rectangle cut along a diagonal gives two ___",
+      "as": "এটা আয়ত কৰ্ণৰে কাটিলে দুটা ___ পোৱা যায়"
+    },
+    "options": [
+      {
+        "en": "right triangles",
+        "as": "সমকোণী ত্ৰিভুজ"
+      },
+      {
+        "en": "squares",
+        "as": "বৰ্গ"
+      },
+      {
+        "en": "circles",
+        "as": "বৃত্ত"
+      },
+      {
+        "en": "pentagons",
+        "as": "পঞ্চভুজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A diagonal of a rectangle makes two right triangles.",
+      "as": "আয়তৰ এটা কৰ্ণই দুটা সমকোণী ত্ৰিভুজ কৰে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-067",
+    "q": {
+      "en": "How many equilateral triangles are needed to make a rhombus?",
+      "as": "এটা ৰম্বাছ বনাবলৈ কিমানটা সমবাহু ত্ৰিভুজ লাগে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two equilateral triangles make a rhombus.",
+      "as": "দুটা সমবাহু ত্ৰিভুজে এটা ৰম্বাছ কৰে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-068",
+    "q": {
+      "en": "How many equilateral triangles are needed to make a regular hexagon?",
+      "as": "এটা সুষম ষড়ভুজ বনাবলৈ কিমানটা সমবাহু ত্ৰিভুজ লাগে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A regular hexagon is made of 6 equilateral triangles.",
+      "as": "সুষম ষড়ভুজ 6 টা সমবাহু ত্ৰিভুজেৰে গঠিত।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-069",
+    "q": {
+      "en": "How many small triangles are needed to build a bigger triangle of side 2?",
+      "as": "বাহু 2 ৰ ডাঙৰ ত্ৰিভুজ বনাবলৈ কিমানটা সৰু ত্ৰিভুজ লাগে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A triangle of side 2 holds 4 unit triangles.",
+      "as": "বাহু 2 ৰ ত্ৰিভুজত 4 টা একক ত্ৰিভুজ থাকে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-070",
+    "q": {
+      "en": "How many small triangles are needed to build a bigger triangle of side 3?",
+      "as": "বাহু 3 ৰ ডাঙৰ ত্ৰিভুজ বনাবলৈ কিমানটা সৰু ত্ৰিভুজ লাগে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A triangle of side 3 holds 9 unit triangles.",
+      "as": "বাহু 3 ৰ ত্ৰিভুজত 9 টা একক ত্ৰিভুজ থাকে।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-071",
+    "q": {
+      "en": "A circle is cut into two equal parts. Each part is a ___",
+      "as": "এটা বৃত্ত দুটা সমান ভাগত কাটিলে প্ৰতিটো ভাগ ___"
+    },
+    "options": [
+      {
+        "en": "semicircle",
+        "as": "অৰ্ধবৃত্ত"
+      },
+      {
+        "en": "square",
+        "as": "বৰ্গ"
+      },
+      {
+        "en": "triangle",
+        "as": "ত্ৰিভুজ"
+      },
+      {
+        "en": "quarter circle",
+        "as": "চতুৰ্থাংশ বৃত্ত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Half of a circle is a semicircle.",
+      "as": "বৃত্তৰ আধা অংশ এটা অৰ্ধবৃত্ত।"
+    }
+  },
+  {
+    "id": "shape-construction-grouping-072",
+    "q": {
+      "en": "A circle is cut into four equal parts. Each part is a ___",
+      "as": "এটা বৃত্ত চাৰিটা সমান ভাগত কাটিলে প্ৰতিটো ভাগ ___"
+    },
+    "options": [
+      {
+        "en": "triangle",
+        "as": "ত্ৰিভুজ"
+      },
+      {
+        "en": "semicircle",
+        "as": "অৰ্ধবৃত্ত"
+      },
+      {
+        "en": "quarter circle",
+        "as": "চতুৰ্থাংশ বৃত্ত"
+      },
+      {
+        "en": "square",
+        "as": "বৰ্গ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One fourth of a circle is a quarter circle.",
+      "as": "বৃত্তৰ এক চতুৰ্থাংশ এটা চতুৰ্থাংশ বৃত্ত।"
     }
   }
 ]
