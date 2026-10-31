@@ -231,9 +231,13 @@ generated file by hand.
 
 ### Grade III GK question banks
 
-The two "Assam's Culture & Literature" topics (`assam-folk-culture`,
-`assamese-literature`) keep their large banks in `tools/gk-src/`, one file per
-topic, in the same compact row shape as `tools/history-src/`:
+The larger GK topics keep their banks in `tools/gk-src/`, one file per topic,
+in the same compact row shape as `tools/history-src/`. The list of topics the
+generator expands is the `TOPICS` array in `tools/build-gk-questions.js`
+(currently the Culture & Literature, National Parks, Brahmaputra & Barak,
+Natural Resources, India Rivers/Mountains/States, Important Days, Awards,
+Sports, Indian Geography, Assam & India Current Affairs and Government Schemes
+topics). A topic without a source file is simply skipped:
 
 ```js
 ["question en", "question as",

@@ -92332,5 +92332,17289 @@ module.exports = {
     "as": "অসমত ভাৰতৰ আটাইতকৈ দীঘল নদীদ্বীপ মাজুলী আছে।"
    }
   }
+ ],
+ "assam-india-current-affairs": [
+  {
+   "id": "assam-india-current-affairs-001",
+   "q": {
+    "en": "Who is the Governor of Assam?",
+    "as": "অসমৰ ৰাজ্যপাল কোন?"
+   },
+   "options": [
+    {
+     "en": "Banwarilal Purohit",
+     "as": "বনোৱাৰীলাল পুৰোহিত"
+    },
+    {
+     "en": "Gulab Chand Kataria",
+     "as": "গুলাব চান্দ কাটাৰিয়া"
+    },
+    {
+     "en": "Jagdish Mukhi",
+     "as": "জগদীশ মুখী"
+    },
+    {
+     "en": "Lakshman Prasad Acharya",
+     "as": "লক্ষ্মণ প্ৰসাদ আচাৰ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Lakshman Prasad Acharya is the Governor of Assam.",
+    "as": "লক্ষ্মণ প্ৰসাদ আচাৰ্য অসমৰ ৰাজ্যপাল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-002",
+   "q": {
+    "en": "Which Assam government scheme provides monthly financial assistance to poor families?",
+    "as": "কোন অসম চৰকাৰৰ আঁচনিয়ে দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায় দিয়ে?"
+   },
+   "options": [
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদই"
+    },
+    {
+     "en": "Atal Amrit Abhiyan",
+     "as": "অটল অমৃত অভিযান"
+    },
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    },
+    {
+     "en": "SVAYEM",
+     "as": "স্বয়ম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orunodoi provides monthly financial assistance to poor families.",
+    "as": "অৰুণোদয়ে দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায় দিয়ে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-003",
+   "q": {
+    "en": "How much money is provided per month under Assam's Orunodoi scheme?",
+    "as": "অসমৰ অৰুণোদই আঁচনিত মাহে কিমান টকা দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "Rs 1,000",
+     "as": "১০০০ টকা"
+    },
+    {
+     "en": "Rs 1,250",
+     "as": "১২৫০ টকা"
+    },
+    {
+     "en": "Rs 2,000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 830",
+     "as": "৮৩০ টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Under Orunodoi a monthly assistance of Rs 1,250 is provided.",
+    "as": "অৰুণোদইত মাহেকীয়া ১২৫০ টকা সহায় দিয়া হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-004",
+   "q": {
+    "en": "Which scheme of the Assam government gives a monthly stipend to girl students?",
+    "as": "কোন অসম চৰকাৰৰ আঁচনিয়ে ছাত্ৰীসকলক মাহেকীয়া বৃত্তি দিয়ে?"
+   },
+   "options": [
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    },
+    {
+     "en": "Aponar Apon Ghar",
+     "as": "আপোনাৰ আপোন ঘৰ"
+    },
+    {
+     "en": "Bhasha Gaurav",
+     "as": "ভাষা গৌৰৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nijut Moina gives a monthly stipend to girl students.",
+    "as": "নিজুত মইনাই ছাত্ৰীসকলক মাহেকীয়া বৃত্তি দিয়ে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-005",
+   "q": {
+    "en": "Mukhyamantri Atmanirbhar Assam Abhiyan is a scheme for which purpose?",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান কোন উদ্দেশ্যেৰে এটা আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "self-employment of youth",
+     "as": "যুৱক-যুৱতীৰ আত্মনিয়োগ"
+    },
+    {
+     "en": "land records",
+     "as": "ভূমি পঞ্জী"
+    },
+    {
+     "en": "health insurance",
+     "as": "স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "tourism promotion",
+     "as": "পৰ্যটন প্ৰচাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "It promotes self-employment among the youth of Assam.",
+    "as": "ই অসমৰ যুৱক-যুৱতীৰ আত্মনিয়োগক প্ৰচাৰ কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-006",
+   "q": {
+    "en": "Which district of Assam is famous for the Tata semiconductor project?",
+    "as": "অসমৰ কোনখন জিলা টাটা চেমিকণ্ডাক্টৰ প্ৰকল্পৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Numaligarh in Golaghat",
+     "as": "গোলাঘাটৰ নুমলীগড়"
+    },
+    {
+     "en": "Silchar in Cachar",
+     "as": "কাছাৰৰ শিলচৰ"
+    },
+    {
+     "en": "Jagiroad in Morigaon",
+     "as": "মৰিগাঁওৰ জাগীৰোড"
+    },
+    {
+     "en": "Digboi in Tinsukia",
+     "as": "তিনিচুকীয়াৰ ডিগবয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Tata Electronics is setting up a semiconductor plant at Jagiroad in Morigaon district.",
+    "as": "টাটা ইলেক্ট্ৰনিকছে মৰিগাঁও জিলাৰ জাগীৰোডত এটা চেমিকণ্ডাক্টৰ কাৰখানা স্থাপন কৰিছে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-007",
+   "q": {
+    "en": "Which historic site of Assam received UNESCO World Heritage status in 2024?",
+    "as": "অসমৰ কোন ঐতিহাসিক স্থানে ২০২৪ চনত ইউনেস্কো বিশ্ব ঐতিহ্যৰ স্বীকৃতি লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Talatal Ghar",
+     "as": "তলাতল ঘৰ"
+    },
+    {
+     "en": "Kamakhya Temple",
+     "as": "কামাখ্যা মন্দিৰ"
+    },
+    {
+     "en": "Charaideo Moidams",
+     "as": "চৰাইদেউ মৈদাম"
+    },
+    {
+     "en": "Rang Ghar",
+     "as": "ৰংঘৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Moidams of Charaideo were inscribed as a UNESCO World Heritage Site in 2024.",
+    "as": "চৰাইদেউৰ মৈদাম ২০২৪ চনত ইউনেস্কো বিশ্ব ঐতিহ্য স্থান হিচাপে স্বীকৃত হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-008",
+   "q": {
+    "en": "Which Assam government campaign was launched for tree plantation?",
+    "as": "কোন অসম চৰকাৰৰ অভিযান বৃক্ষৰোপণৰ বাবে আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Khel Maharan",
+     "as": "খেল মহাৰণ"
+    },
+    {
+     "en": "Amrit Brikshya Andolan",
+     "as": "অমৃত বৃক্ষ্য আন্দোলন"
+    },
+    {
+     "en": "Gajah Kotha",
+     "as": "গজ কথা"
+    },
+    {
+     "en": "Sanskriti Maharan",
+     "as": "সংস্কৃতি মহাৰণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Amrit Brikshya Andolan is a massive tree plantation campaign of Assam.",
+    "as": "অমৃত বৃক্ষ্য আন্দোলন অসমৰ এক বৃহৎ বৃক্ষৰোপণ অভিযান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-009",
+   "q": {
+    "en": "Which Assamese environmentalist is known for conserving the Greater Adjutant stork?",
+    "as": "কোন অসমীয়া পৰিৱেশবিদজনে বৃহৎ বগা বগলী (হাড়গিলা) সংৰক্ষণৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Dr. Purnima Devi Barman",
+     "as": "ড° পূৰ্ণিমা দেৱী বৰ্মন"
+    },
+    {
+     "en": "Jadav Payeng",
+     "as": "যাদৱ পায়েং"
+    },
+    {
+     "en": "Anima Baishya",
+     "as": "অনিমা বৈশ্য"
+    },
+    {
+     "en": "Aparna Sarma",
+     "as": "অপৰ্ণা শৰ্মা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dr. Purnima Devi Barman is known for conserving the Greater Adjutant stork.",
+    "as": "ড° পূৰ্ণিমা দেৱী বৰ্মন হাড়গিলা সংৰক্ষণৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-010",
+   "q": {
+    "en": "Who is known as the Forest Man of India, who created a forest in Assam?",
+    "as": "ভাৰতৰ বন মানৱ বুলি কাক জনা যায়, যিয়ে অসমত এখন বন সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rajendra Singh",
+     "as": "ৰাজেন্দ্ৰ সিং"
+    },
+    {
+     "en": "Sundarlal Bahuguna",
+     "as": "সুন্দৰলাল বহুগুণা"
+    },
+    {
+     "en": "Jadav Payeng",
+     "as": "যাদৱ পায়েং"
+    },
+    {
+     "en": "Chandi Prasad Bhatt",
+     "as": "চন্দী প্ৰসাদ ভট্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Jadav Payeng is known as the Forest Man of India.",
+    "as": "যাদৱ পায়েংক ভাৰতৰ বন মানৱ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-011",
+   "q": {
+    "en": "Which bio-refinery producing bio-ethanol from bamboo is located in Assam?",
+    "as": "বাঁহৰ পৰা জৈৱ-ইথানল উৎপাদন কৰা কোন জৈৱ শোধনাগাৰ অসমত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Numaligarh",
+     "as": "নুমলীগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The country's first bamboo-based bio-refinery is at Numaligarh in Assam.",
+    "as": "দেশৰ প্ৰথম বাঁহভিত্তিক জৈৱ শোধনাগাৰ অসমৰ নুমলীগড়ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-012",
+   "q": {
+    "en": "Which Assam scheme provides health insurance to poor families?",
+    "as": "কোন অসম আঁচনিয়ে দৰিদ্ৰ পৰিয়ালক স্বাস্থ্য বীমা প্ৰদান কৰে?"
+   },
+   "options": [
+    {
+     "en": "Aponar Apon Ghar",
+     "as": "আপোনাৰ আপোন ঘৰ"
+    },
+    {
+     "en": "SVAYEM",
+     "as": "স্বয়ম"
+    },
+    {
+     "en": "Atal Amrit Abhiyan",
+     "as": "অটল অমৃত অভিযান"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Atal Amrit Abhiyan provides health insurance to poor families of Assam.",
+    "as": "অটল অমৃত অভিযানে অসমৰ দৰিদ্ৰ পৰিয়ালক স্বাস্থ্য বীমা প্ৰদান কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-013",
+   "q": {
+    "en": "Mission Basundhara of Assam is related to which field?",
+    "as": "অসমৰ মিচন বসুন্ধৰা কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "road construction",
+     "as": "পথ নিৰ্মাণ"
+    },
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "health services",
+     "as": "স্বাস্থ্য সেৱা"
+    },
+    {
+     "en": "school education",
+     "as": "বিদ্যালয় শিক্ষা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mission Basundhara digitises land records and revenue services.",
+    "as": "মিচন বসুন্ধৰাই ভূমি পঞ্জী আৰু ৰাজহ সেৱাক ডিজিটেল কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-014",
+   "q": {
+    "en": "Gunotsav is a programme of the Assam government related to which field?",
+    "as": "গুণোৎসৱ অসম চৰকাৰৰ কোন ক্ষেত্ৰৰ সৈতে জড়িত কাৰ্যসূচী?"
+   },
+   "options": [
+    {
+     "en": "agriculture",
+     "as": "কৃষি"
+    },
+    {
+     "en": "tourism",
+     "as": "পৰ্যটন"
+    },
+    {
+     "en": "sports",
+     "as": "খেল"
+    },
+    {
+     "en": "school education",
+     "as": "বিদ্যালয় শিক্ষা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gunotsav assesses the quality of school education in Assam.",
+    "as": "গুণোৎসৱে অসমত বিদ্যালয় শিক্ষাৰ গুণাগুণ মূল্যাঙ্কন কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-015",
+   "q": {
+    "en": "Khel Maharan is a sports festival started by which government?",
+    "as": "খেল মহাৰণ কোন চৰকাৰে আৰম্ভ কৰা ক্ৰীড়া মহোৎসৱ?"
+   },
+   "options": [
+    {
+     "en": "Government of Meghalaya",
+     "as": "মেঘালয় চৰকাৰ"
+    },
+    {
+     "en": "Government of Nagaland",
+     "as": "নাগালেণ্ড চৰকাৰ"
+    },
+    {
+     "en": "Government of Assam",
+     "as": "অসম চৰকাৰ"
+    },
+    {
+     "en": "Government of India",
+     "as": "ভাৰত চৰকাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Khel Maharan is a sports festival of the Assam government.",
+    "as": "খেল মহাৰণ অসম চৰকাৰৰ এক ক্ৰীড়া মহোৎসৱ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-016",
+   "q": {
+    "en": "Which famous Assamese swimmer swam across the English Channel?",
+    "as": "কোন বিখ্যাত অসমীয়া সাঁতোৰবিদে ইংৰাজী চেনেল সাঁতুৰি পাৰ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Arati Saha",
+     "as": "আৰতি সাহা"
+    },
+    {
+     "en": "Mihir Sen",
+     "as": "মিহিৰ সেন"
+    },
+    {
+     "en": "Shivani Kataria",
+     "as": "শিৱানী কাটাৰিয়া"
+    },
+    {
+     "en": "Elvis Ali Hazarika",
+     "as": "এলভিছ আলী হাজৰিকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Elvis Ali Hazarika of Assam swam across the English Channel.",
+    "as": "অসমৰ এলভিছ আলী হাজৰিকাই ইংৰাজী চেনেল সাঁতুৰি পাৰ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-017",
+   "q": {
+    "en": "Which boxer from Assam won a medal at the Paris Olympics 2024?",
+    "as": "পেৰিছ অলিম্পিক ২০২৪ ত অসমৰ কোন বক্সাৰে পদক লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jamuna Boro",
+     "as": "যমুনা বৰো"
+    },
+    {
+     "en": "Mary Kom",
+     "as": "মেৰী কম"
+    },
+    {
+     "en": "Lovlina Borgohain",
+     "as": "লাভলীনা বৰগোহাঁই"
+    },
+    {
+     "en": "Ankushita Boro",
+     "as": "অংকুশিতা বৰো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lovlina Borgohain won a medal at the Paris Olympics 2024.",
+    "as": "লাভলীনা বৰগোহাঁই পেৰিছ অলিম্পিক ২০২৪ ত পদক লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-018",
+   "q": {
+    "en": "Which GI tag was granted to a fragrant product of Assam?",
+    "as": "অসমৰ কোন সুগন্ধি সামগ্ৰীক জি আই টেগ প্ৰদান কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Assam Agarwood Oil",
+     "as": "অসম আগৰ কাঠ তেল"
+    },
+    {
+     "en": "Assam Lemon",
+     "as": "অসম নেমু"
+    },
+    {
+     "en": "Assam Tea",
+     "as": "অসম চাহ"
+    },
+    {
+     "en": "Assam Silk",
+     "as": "অসম ৰেচম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam Agarwood Oil has received a GI tag.",
+    "as": "অসম আগৰ কাঠ তেলে জি আই টেগ লাভ কৰিছে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-019",
+   "q": {
+    "en": "Which two heritage crafts of Majuli received GI tags?",
+    "as": "মাজুলীৰ কোন দুটা ঐতিহ্যবাহী শিল্পই জি আই টেগ লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bamboo and Cane Craft",
+     "as": "বাঁহ আৰু বেতৰ শিল্প"
+    },
+    {
+     "en": "Muga Silk and Eri Silk",
+     "as": "মুগা ৰেচম আৰু এৰী ৰেচম"
+    },
+    {
+     "en": "Majuli Masks and Majuli Manuscript Painting",
+     "as": "মাজুলী মুখা আৰু মাজুলী পাণ্ডুলিপি চিত্ৰ"
+    },
+    {
+     "en": "Bell Metal and Brass",
+     "as": "কাঁহ আৰু পিতল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Majuli Masks and Majuli Manuscript Painting received GI tags.",
+    "as": "মাজুলী মুখা আৰু মাজুলী পাণ্ডুলিপি চিত্ৰই জি আই টেগ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-020",
+   "q": {
+    "en": "Which Assam government award is given to meritorious students with a cash prize?",
+    "as": "কোন অসম চৰকাৰৰ বঁটা মেধাৱী শিক্ষাৰ্থীক নগদ ধনেৰে প্ৰদান কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Assam Saurav",
+     "as": "অসম সৌৰভ"
+    },
+    {
+     "en": "Anundoram Borooah Award",
+     "as": "আনন্দৰাম বৰুৱা বঁটা"
+    },
+    {
+     "en": "Bir Chilarai Award",
+     "as": "বীৰ চিলাৰায় বঁটা"
+    },
+    {
+     "en": "Assam Baibhav",
+     "as": "অসম বৈভৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Anundoram Borooah Award is given to meritorious students.",
+    "as": "আনন্দৰাম বৰুৱা বঁটা মেধাৱী শিক্ষাৰ্থীক প্ৰদান কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-021",
+   "q": {
+    "en": "Which is the highest civilian honour of the Assam government?",
+    "as": "অসম চৰকাৰৰ সৰ্বোচ্চ অসামৰিক সন্মান কোন?"
+   },
+   "options": [
+    {
+     "en": "Assam Baibhav",
+     "as": "অসম বৈভৱ"
+    },
+    {
+     "en": "Assam Saurav",
+     "as": "অসম সৌৰভ"
+    },
+    {
+     "en": "Assam Gaurav",
+     "as": "অসম গৌৰৱ"
+    },
+    {
+     "en": "Bir Chilarai Award",
+     "as": "বীৰ চিলাৰায় বঁটা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam Baibhav is the highest civilian honour of the Assam government.",
+    "as": "অসম বৈভৱ অসম চৰকাৰৰ সৰ্বোচ্চ অসামৰিক সন্মান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-022",
+   "q": {
+    "en": "Which agreement was signed between ULFA and the Government of India?",
+    "as": "ইউএলএফএ আৰু ভাৰত চৰকাৰৰ মাজত কোন চুক্তি স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Karbi Accord",
+     "as": "কাৰ্বি চুক্তি"
+    },
+    {
+     "en": "Bodo Accord",
+     "as": "বড়ো চুক্তি"
+    },
+    {
+     "en": "ULFA peace agreement",
+     "as": "ইউএলএফএ শান্তি চুক্তি"
+    },
+    {
+     "en": "Naga Accord",
+     "as": "নাগা চুক্তি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A peace agreement was signed with the pro-talk faction of ULFA.",
+    "as": "ইউএলএফএৰ আলোচনাকামী গোটৰ সৈতে শান্তি চুক্তি স্বাক্ষৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-023",
+   "q": {
+    "en": "Which Assamese city hosted the Advantage Assam Global Investors Summit 2.0?",
+    "as": "কোন অসমীয়া চহৰে এডভাণ্টেজ অসম গ্ল'বেল ইনভেষ্টৰছ ছামিট ২.০ আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Advantage Assam Global Investors Summit 2.0 was held in Guwahati.",
+    "as": "এডভাণ্টেজ অসম গ্ল'বেল ইনভেষ্টৰছ ছামিট ২.০ গুৱাহাটীত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-024",
+   "q": {
+    "en": "Which corridor is being developed at the Kamakhya Temple in Assam?",
+    "as": "অসমৰ কামাখ্যা মন্দিৰত কোন কৰিডৰ বিকশিত কৰা হৈছে?"
+   },
+   "options": [
+    {
+     "en": "Mahakal Corridor",
+     "as": "মহাকাল কৰিডৰ"
+    },
+    {
+     "en": "Somnath Corridor",
+     "as": "সোমনাথ কৰিডৰ"
+    },
+    {
+     "en": "Maa Kamakhya Divyalok Corridor",
+     "as": "মা কামাখ্যা দিৱ্যালোক কৰিডৰ"
+    },
+    {
+     "en": "Kashi Vishwanath Corridor",
+     "as": "কাশী বিশ্বনাথ কৰিডৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Maa Kamakhya Divyalok Corridor is being developed at the Kamakhya Temple.",
+    "as": "মা কামাখ্যা দিৱ্যালোক কৰিডৰ কামাখ্যা মন্দিৰত বিকশিত কৰা হৈছে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-025",
+   "q": {
+    "en": "Which university was established by the Assam government with Asian Development Bank support?",
+    "as": "এছীয় উন্নয়ন বেংকৰ সহায়ত অসম চৰকাৰে কোন বিশ্ববিদ্যালয় স্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Assam University",
+     "as": "অসম বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Gauhati University",
+     "as": "গুৱাহাটী বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Assam Skill University",
+     "as": "অসম দক্ষতা বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Tezpur University",
+     "as": "তেজপুৰ বিশ্ববিদ্যালয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Skill University was established with Asian Development Bank support.",
+    "as": "এছীয় উন্নয়ন বেংকৰ সহায়ত অসম দক্ষতা বিশ্ববিদ্যালয় স্থাপন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-026",
+   "q": {
+    "en": "Which Assam village was awarded Best Tourism Village by the central government?",
+    "as": "কেন্দ্ৰীয় চৰকাৰে কোন অসমীয়া গাঁওক শ্ৰেষ্ঠ পৰ্যটন গাঁও হিচাপে সন্মানিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    },
+    {
+     "en": "Chandubi",
+     "as": "চান্দুবি"
+    },
+    {
+     "en": "Biswanath Ghat",
+     "as": "বিশ্বনাথ ঘাট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Biswanath Ghat in Assam was awarded Best Tourism Village.",
+    "as": "অসমৰ বিশ্বনাথ ঘাটক শ্ৰেষ্ঠ পৰ্যটন গাঁও হিচাপে সন্মানিত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-027",
+   "q": {
+    "en": "Which campaign was started by the Assam government for elephant conservation?",
+    "as": "হাতী সংৰক্ষণৰ বাবে অসম চৰকাৰে কোন অভিযান আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Gaj Yatra",
+     "as": "গজ যাত্ৰা"
+    },
+    {
+     "en": "Project Elephant",
+     "as": "প্ৰজেক্ট এলিফেণ্ট"
+    },
+    {
+     "en": "Gajah Kotha",
+     "as": "গজ কথা"
+    },
+    {
+     "en": "Haathi Mere Saathi",
+     "as": "হাতী মেৰে সাথী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Gajah Kotha is an awareness campaign for elephant conservation in Assam.",
+    "as": "গজ কথা হাতী সংৰক্ষণৰ বাবে অসমৰ এক সজাগতা অভিযান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-028",
+   "q": {
+    "en": "Which is Assam's state aquatic animal?",
+    "as": "অসমৰ ৰাজ্যিক জলচৰ প্ৰাণী কোন?"
+   },
+   "options": [
+    {
+     "en": "Whale",
+     "as": "তিমি"
+    },
+    {
+     "en": "Gharial",
+     "as": "ঘঁৰিয়াল"
+    },
+    {
+     "en": "Turtle",
+     "as": "কাছ"
+    },
+    {
+     "en": "Ganges River Dolphin",
+     "as": "গংগা নদীৰ ডলফিন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Ganges River Dolphin is Assam's state aquatic animal.",
+    "as": "গংগা নদীৰ ডলফিন অসমৰ ৰাজ্যিক জলচৰ প্ৰাণী।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-029",
+   "q": {
+    "en": "Which national park of Assam is known for high tiger density?",
+    "as": "অসমৰ কোন ৰাষ্ট্ৰীয় উদ্যান উচ্চ বাঘ ঘনত্বৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Orang National Park",
+     "as": "অৰং ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dibru Saikhowa National Park",
+     "as": "ডিব্ৰু ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orang National Park is known for high tiger density.",
+    "as": "অৰং ৰাষ্ট্ৰীয় উদ্যান উচ্চ বাঘ ঘনত্বৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-030",
+   "q": {
+    "en": "Which is the smallest wild pig found in Assam?",
+    "as": "অসমত পোৱা আটাইতকৈ সৰু বনৰীয়া গাহৰি কোন?"
+   },
+   "options": [
+    {
+     "en": "Tapir",
+     "as": "টেপিৰ"
+    },
+    {
+     "en": "Pygmy Hog",
+     "as": "পিগমী হগ"
+    },
+    {
+     "en": "Peccary",
+     "as": "পেকাৰী"
+    },
+    {
+     "en": "Wild Boar",
+     "as": "বনৰীয়া গাহৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The pygmy hog is the smallest wild pig, found in Assam.",
+    "as": "পিগমী হগ আটাইতকৈ সৰু বনৰীয়া গাহৰি, অসমত পোৱা যায়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-031",
+   "q": {
+    "en": "Which Ramsar site of Assam is being revived as a biodiversity area?",
+    "as": "অসমৰ কোন ৰামছাৰ স্থানক জৈৱবৈচিত্ৰ্য অঞ্চল হিচাপে পুনৰুজ্জীৱিত কৰা হৈছে?"
+   },
+   "options": [
+    {
+     "en": "Sonbeel",
+     "as": "সোণবিল"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    },
+    {
+     "en": "Chandubi",
+     "as": "চান্দুবি"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Deepor Beel is a Ramsar site being revived in Assam.",
+    "as": "দীপৰ বিল অসমৰ পুনৰুজ্জীৱিত কৰা এক ৰামছাৰ স্থান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-032",
+   "q": {
+    "en": "Which Assamese district topped in NITI Aayog's Aspirational Districts Programme?",
+    "as": "নীতি আয়োগৰ আকাংক্ষী জিলা কাৰ্যসূচীত কোন অসমীয়া জিলাই শীৰ্ষস্থান লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Baksa",
+     "as": "বাক্সা"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Baksa district of Assam topped in the Aspirational Districts Programme.",
+    "as": "অসমৰ বাক্সা জিলাই আকাংক্ষী জিলা কাৰ্যসূচীত শীৰ্ষস্থান লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-033",
+   "q": {
+    "en": "Which Assamese swimmer is famous for long-distance swimming?",
+    "as": "দীৰ্ঘদূৰত্ব সাঁতোৰৰ বাবে কোন অসমীয়া সাঁতোৰবিদ বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Lovlina Borgohain",
+     "as": "লাভলীনা বৰগোহাঁই"
+    },
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    },
+    {
+     "en": "Ankushita Boro",
+     "as": "অংকুশিতা বৰো"
+    },
+    {
+     "en": "Elvis Ali Hazarika",
+     "as": "এলভিছ আলী হাজৰিকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Elvis Ali Hazarika is a well known long-distance swimmer from Assam.",
+    "as": "এলভিছ আলী হাজৰিকা অসমৰ এজন সুপৰিচিত দীৰ্ঘদূৰত্ব সাঁতোৰবিদ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-034",
+   "q": {
+    "en": "Which Assam government scheme supports women self-help groups as micro-entrepreneurs?",
+    "as": "কোন অসম চৰকাৰৰ আঁচনিয়ে মহিলা স্বসহায়ক গোটক ক্ষুদ্ৰ উদ্যোগী হিচাপে সহায় কৰে?"
+   },
+   "options": [
+    {
+     "en": "SVAYEM",
+     "as": "স্বয়ম"
+    },
+    {
+     "en": "Mukhyamantri Mahila Udyamita Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদই"
+    },
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mukhyamantri Mahila Udyamita Abhiyan supports women self-help groups.",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযানে মহিলা স্বসহায়ক গোটক সহায় কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-035",
+   "q": {
+    "en": "Which body is the highest civilian honour of Assam named after?",
+    "as": "অসমৰ সৰ্বোচ্চ অসামৰিক সন্মান কোন নামেৰে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Assam Vibhushan",
+     "as": "অসম বিভূষণ"
+    },
+    {
+     "en": "Assam Bhushan",
+     "as": "অসম ভূষণ"
+    },
+    {
+     "en": "Assam Ratna",
+     "as": "অসম ৰত্ন"
+    },
+    {
+     "en": "Assam Baibhav",
+     "as": "অসম বৈভৱ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Baibhav is the highest civilian honour of Assam.",
+    "as": "অসম বৈভৱ অসমৰ সৰ্বোচ্চ অসামৰিক সন্মান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-036",
+   "q": {
+    "en": "Who received the Assam Baibhav honour?",
+    "as": "অসম বৈভৱ সন্মান কোনে লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhupen Hazarika",
+     "as": "ভূপেন হাজৰিকা"
+    },
+    {
+     "en": "Justice Ranjan Gogoi",
+     "as": "ন্যায়াধীশ ৰঞ্জন গগৈ"
+    },
+    {
+     "en": "Jadav Payeng",
+     "as": "যাদৱ পায়েং"
+    },
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Justice Ranjan Gogoi was conferred the Assam Baibhav.",
+    "as": "ন্যায়াধীশ ৰঞ্জন গগৈক অসম বৈভৱ প্ৰদান কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-037",
+   "q": {
+    "en": "Who received the Assam Saurav honour for athletics?",
+    "as": "এথলেটিকছৰ বাবে অসম সৌৰভ সন্মান কোনে লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ankushita Boro",
+     "as": "অংকুশিতা বৰো"
+    },
+    {
+     "en": "Lovlina Borgohain",
+     "as": "লাভলীনা বৰগোহাঁই"
+    },
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    },
+    {
+     "en": "Mary Kom",
+     "as": "মেৰী কম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Hima Das received the Assam Saurav honour for athletics.",
+    "as": "হিমা দাসে এথলেটিকছৰ বাবে অসম সৌৰভ সন্মান লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-038",
+   "q": {
+    "en": "Which Assamese folk artist received the Sangeet Natak Akademi Award for Sattriya dance?",
+    "as": "সত্ৰীয়া নৃত্যৰ বাবে কোন অসমীয়া লোক শিল্পীয়ে সংগীত নাটক অকাডেমী বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sharodi Saikia",
+     "as": "শৰদী শইকীয়া"
+    },
+    {
+     "en": "Jatin Goswami",
+     "as": "যতীন গোস্বামী"
+    },
+    {
+     "en": "Mallika Kandali",
+     "as": "মল্লিকা কন্দলী"
+    },
+    {
+     "en": "Guneswar Oja",
+     "as": "গুণেশ্বৰ ওজা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Guneswar Oja received the Sangeet Natak Akademi Award.",
+    "as": "গুণেশ্বৰ ওজাই সংগীত নাটক অকাডেমী বঁটা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-039",
+   "q": {
+    "en": "Which Assamese writer won the Sahitya Akademi Yuva Puraskar?",
+    "as": "কোন অসমীয়া লেখকে সাহিত্য অকাডেমী যুৱ পুৰস্কাৰ লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Harekrishna Deka",
+     "as": "হৰেকৃষ্ণ ডেকা"
+    },
+    {
+     "en": "Nayanjyoti Sarma",
+     "as": "নয়নজ্যোতি শৰ্মা"
+    },
+    {
+     "en": "Ranju Hazarika",
+     "as": "ৰঞ্জু হাজৰিকা"
+    },
+    {
+     "en": "Indira Goswami",
+     "as": "ইন্দিৰা গোস্বামী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nayanjyoti Sarma won the Sahitya Akademi Yuva Puraskar.",
+    "as": "নয়নজ্যোতি শৰ্মাই সাহিত্য অকাডেমী যুৱ পুৰস্কাৰ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-040",
+   "q": {
+    "en": "Which Assamese children's writer won the Bal Sahitya Puraskar?",
+    "as": "কোন অসমীয়া শিশু-সাহিত্যিকে বাল সাহিত্য পুৰস্কাৰ লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhabendra Nath Saikia",
+     "as": "ভবেন্দ্ৰ নাথ শইকীয়া"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Ranju Hazarika",
+     "as": "ৰঞ্জু হাজৰিকা"
+    },
+    {
+     "en": "Nayanjyoti Sarma",
+     "as": "নয়নজ্যোতি শৰ্মা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ranju Hazarika won the Bal Sahitya Puraskar.",
+    "as": "ৰঞ্জু হাজৰিকাই বাল সাহিত্য পুৰস্কাৰ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-041",
+   "q": {
+    "en": "Which is the first bio-refinery of India based on bamboo, set up in Assam?",
+    "as": "বাঁহভিত্তিক ভাৰতৰ প্ৰথম জৈৱ শোধনাগাৰ, অসমত স্থাপিত, কোন?"
+   },
+   "options": [
+    {
+     "en": "Guwahati Refinery",
+     "as": "গুৱাহাটী শোধনাগাৰ"
+    },
+    {
+     "en": "Numaligarh Bio-Refinery",
+     "as": "নুমলীগড় জৈৱ শোধনাগাৰ"
+    },
+    {
+     "en": "Bongaigaon Refinery",
+     "as": "বঙাইগাঁও শোধনাগাৰ"
+    },
+    {
+     "en": "Digboi Refinery",
+     "as": "ডিগবয় শোধনাগাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "India's first bamboo-based bio-refinery is at Numaligarh in Assam.",
+    "as": "ভাৰতৰ প্ৰথম বাঁহভিত্তিক জৈৱ শোধনাগাৰ অসমৰ নুমলীগড়ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-042",
+   "q": {
+    "en": "Which force was withdrawn from most districts of Assam under AFSPA?",
+    "as": "এএফএছপিএৰ অধীনত অসমৰ বেছিভাগ জিলাৰ পৰা কোন বাহিনী প্ৰত্যাহাৰ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "National Security Act",
+     "as": "ৰাষ্ট্ৰীয় সুৰক্ষা আইন"
+    },
+    {
+     "en": "Unlawful Activities Act",
+     "as": "অবৈধ কাৰ্যকলাপ আইন"
+    },
+    {
+     "en": "Preventive Detention Act",
+     "as": "প্ৰতিৰোধমূলক আটক আইন"
+    },
+    {
+     "en": "Armed Forces (Special Powers) Act",
+     "as": "সশস্ত্ৰ বাহিনী (বিশেষ ক্ষমতা) আইন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "AFSPA was withdrawn from most districts of Assam.",
+    "as": "অসমৰ বেছিভাগ জিলাৰ পৰা এএফএছপিএ প্ৰত্যাহাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-043",
+   "q": {
+    "en": "Which Assamese city is known as the Gateway to the North East?",
+    "as": "কোন অসমীয়া চহৰক উত্তৰ-পূবৰ প্ৰৱেশদ্বাৰ বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Guwahati is known as the Gateway to the North East.",
+    "as": "গুৱাহাটীক উত্তৰ-পূবৰ প্ৰৱেশদ্বাৰ বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-044",
+   "q": {
+    "en": "Which Assamese festival is celebrated in three forms during the year?",
+    "as": "কোন অসমীয়া উৎসৱ বছৰত তিনি ৰূপত পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Baisagu",
+     "as": "বাইচাগু"
+    },
+    {
+     "en": "Bihu",
+     "as": "বিহু"
+    },
+    {
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফি"
+    },
+    {
+     "en": "Ali-Ai-Ligang",
+     "as": "আলি-আই-লিগাং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bihu is celebrated in three forms — Bohag, Kati and Magh.",
+    "as": "বিহু তিনি ৰূপত পালন কৰা হয় — ব'হাগ, কাতি আৰু মাঘ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-045",
+   "q": {
+    "en": "Which Assamese city is known as the Manchester of the East?",
+    "as": "কোন অসমীয়া চহৰক পূবৰ মাঞ্চেষ্টাৰ বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sualkuchi is known as the Manchester of the East for its silk weaving.",
+    "as": "শুৱালকুছিক ৰেচম বোৱাৰ বাবে পূবৰ মাঞ্চেষ্টাৰ বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-046",
+   "q": {
+    "en": "Which is the highest peak of Assam?",
+    "as": "অসমৰ সৰ্বোচ্চ শৃংগ কোন?"
+   },
+   "options": [
+    {
+     "en": "Nanda Devi",
+     "as": "নন্দা দেৱী"
+    },
+    {
+     "en": "Anamudi",
+     "as": "আনামুডী"
+    },
+    {
+     "en": "Unnamed peak near Dima Hasao",
+     "as": "ডিমা হাছাওৰ ওচৰৰ নাম নথকা শৃংগ"
+    },
+    {
+     "en": "Kanchenjunga",
+     "as": "কাঞ্চনজঙ্ঘা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The highest point of Assam is an unnamed peak in the Dima Hasao district.",
+    "as": "অসমৰ সৰ্বোচ্চ বিন্দু ডিমা হাছাও জিলাৰ এটা নাম নথকা শৃংগ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-047",
+   "q": {
+    "en": "Which Assamese district has the highest tea production?",
+    "as": "কোন অসমীয়া জিলাত আটাইতকৈ বেছি চাহ উৎপাদন হয়?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dibrugarh district has high tea production in Assam.",
+    "as": "ডিব্ৰুগড় জিলাত অসমত বেছি চাহ উৎপাদন হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-048",
+   "q": {
+    "en": "Which Assamese town is known for Asia's oldest oil refinery?",
+    "as": "এছিয়াৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰৰ বাবে কোন অসমীয়া চহৰ জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Numaligarh",
+     "as": "নুমলীগড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Digboi in Assam has one of Asia's oldest oil refineries.",
+    "as": "অসমৰ ডিগবয়ত এছিয়াৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰসমূহৰ এটা আছে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-049",
+   "q": {
+    "en": "Which Assamese scholar wrote the first Assamese dictionary?",
+    "as": "কোন অসমীয়া পণ্ডিতে প্ৰথম অসমীয়া অভিধান লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hem Chandra Barua",
+     "as": "হেম চন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Banikanta Kakati",
+     "as": "বাণীকান্ত কাকতি"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Anundoram Borooah",
+     "as": "আনন্দৰাম বৰুৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hem Chandra Barua compiled the first Assamese dictionary.",
+    "as": "হেম চন্দ্ৰ বৰুৱাই প্ৰথম অসমীয়া অভিধান সংকলন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-050",
+   "q": {
+    "en": "Which Assamese cultural institution is named after Srimanta Sankardev?",
+    "as": "শ্ৰীমন্ত শংকৰদেৱৰ নামেৰে কোন অসমীয়া সাংস্কৃতিক অনুষ্ঠানৰ নাম ৰখা হৈছে?"
+   },
+   "options": [
+    {
+     "en": "Rabindra Bhavan",
+     "as": "ৰবীন্দ্ৰ ভৱন"
+    },
+    {
+     "en": "Bharat Kala Kendra",
+     "as": "ভাৰত কলা কেন্দ্ৰ"
+    },
+    {
+     "en": "Lalit Kala Akademi",
+     "as": "ললিত কলা অকাডেমী"
+    },
+    {
+     "en": "Srimanta Sankaradeva Kalakshetra",
+     "as": "শ্ৰীমন্ত শংকৰদেৱ কলাক্ষেত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Srimanta Sankaradeva Kalakshetra is a cultural institution in Guwahati.",
+    "as": "শ্ৰীমন্ত শংকৰদেৱ কলাক্ষেত্ৰ গুৱাহাটীৰ এটা সাংস্কৃতিক অনুষ্ঠান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-051",
+   "q": {
+    "en": "Which Assamese city hosts the Assam International Film Festival?",
+    "as": "অসম আন্তৰ্জাতিক চলচ্চিত্ৰ মহোৎসৱ কোন অসমীয়া চহৰত অনুষ্ঠিত হয়?"
+   },
+   "options": [
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Assam International Film Festival is held in Guwahati.",
+    "as": "অসম আন্তৰ্জাতিক চলচ্চিত্ৰ মহোৎসৱ গুৱাহাটীত অনুষ্ঠিত হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-052",
+   "q": {
+    "en": "Who is the Prime Minister of India?",
+    "as": "ভাৰতৰ প্ৰধানমন্ত্ৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "Rahul Gandhi",
+     "as": "ৰাহুল গান্ধী"
+    },
+    {
+     "en": "Manmohan Singh",
+     "as": "মনমোহন সিং"
+    },
+    {
+     "en": "Amit Shah",
+     "as": "অমিত শ্বাহ"
+    },
+    {
+     "en": "Narendra Modi",
+     "as": "নৰেন্দ্ৰ মোদী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Narendra Modi is the Prime Minister of India.",
+    "as": "নৰেন্দ্ৰ মোদী ভাৰতৰ প্ৰধানমন্ত্ৰী।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-053",
+   "q": {
+    "en": "Who is the Union Finance Minister of India?",
+    "as": "ভাৰতৰ কেন্দ্ৰীয় বিত্তমন্ত্ৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "Nitin Gadkari",
+     "as": "নিতিন গডকাৰী"
+    },
+    {
+     "en": "Nirmala Sitharaman",
+     "as": "নিৰ্মলা সীতাৰমণ"
+    },
+    {
+     "en": "Piyush Goyal",
+     "as": "পীযূষ গোৱেল"
+    },
+    {
+     "en": "Amit Shah",
+     "as": "অমিত শ্বাহ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nirmala Sitharaman is the Union Finance Minister.",
+    "as": "নিৰ্মলা সীতাৰমণ কেন্দ্ৰীয় বিত্তমন্ত্ৰী।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-054",
+   "q": {
+    "en": "Who is the Union Defence Minister of India?",
+    "as": "ভাৰতৰ কেন্দ্ৰীয় প্ৰতিৰক্ষা মন্ত্ৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "Nirmala Sitharaman",
+     "as": "নিৰ্মলা সীতাৰমণ"
+    },
+    {
+     "en": "Rajnath Singh",
+     "as": "ৰাজনাথ সিং"
+    },
+    {
+     "en": "Amit Shah",
+     "as": "অমিত শ্বাহ"
+    },
+    {
+     "en": "Manohar Parrikar",
+     "as": "মনোহৰ পাৰিকৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rajnath Singh is the Union Defence Minister.",
+    "as": "ৰাজনাথ সিং কেন্দ্ৰীয় প্ৰতিৰক্ষা মন্ত্ৰী।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-055",
+   "q": {
+    "en": "Who is the Chief Election Commissioner of India?",
+    "as": "ভাৰতৰ মুখ্য নিৰ্বাচন আয়ুক্ত কোন?"
+   },
+   "options": [
+    {
+     "en": "Gyanesh Kumar",
+     "as": "জ্ঞানেশ কুমাৰ"
+    },
+    {
+     "en": "Sushil Chandra",
+     "as": "সুশীল চন্দ্ৰ"
+    },
+    {
+     "en": "Rajiv Kumar",
+     "as": "ৰাজীৱ কুমাৰ"
+    },
+    {
+     "en": "Arun Goel",
+     "as": "অৰুণ গোৱেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gyanesh Kumar is the Chief Election Commissioner of India.",
+    "as": "জ্ঞানেশ কুমাৰ ভাৰতৰ মুখ্য নিৰ্বাচন আয়ুক্ত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-056",
+   "q": {
+    "en": "Who is the Chairman of the 16th Finance Commission of India?",
+    "as": "ভাৰতৰ ১৬ সংখ্যক বিত্ত আয়োগৰ অধ্যক্ষ কোন?"
+   },
+   "options": [
+    {
+     "en": "Y. V. Reddy",
+     "as": "ৱাই ভি ৰেড্ডী"
+    },
+    {
+     "en": "C. Rangarajan",
+     "as": "চি ৰঙ্গৰাজন"
+    },
+    {
+     "en": "Dr. Arvind Panagariya",
+     "as": "ড° অৰবিন্দ পনগৰিয়া"
+    },
+    {
+     "en": "N. K. Singh",
+     "as": "এন কে সিং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dr. Arvind Panagariya is the Chairman of the 16th Finance Commission.",
+    "as": "ড° অৰবিন্দ পনগৰিয়া ১৬ সংখ্যক বিত্ত আয়োগৰ অধ্যক্ষ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-057",
+   "q": {
+    "en": "Under which article of the Constitution is the Finance Commission constituted?",
+    "as": "সংবিধানৰ কোন অনুচ্ছেদৰ অধীনত বিত্ত আয়োগ গঠন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Article 280",
+     "as": "অনুচ্ছেদ ২৮০"
+    },
+    {
+     "en": "Article 370",
+     "as": "অনুচ্ছেদ ৩৭০"
+    },
+    {
+     "en": "Article 356",
+     "as": "অনুচ্ছেদ ৩৫৬"
+    },
+    {
+     "en": "Article 324",
+     "as": "অনুচ্ছেদ ৩২৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Finance Commission is constituted under Article 280.",
+    "as": "বিত্ত আয়োগ অনুচ্ছেদ ২৮০ ৰ অধীনত গঠন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-058",
+   "q": {
+    "en": "The Women's Reservation Act provides what percentage of reservation for women?",
+    "as": "মহিলা সংৰক্ষণ আইনে মহিলাৰ বাবে কিমান শতাংশ সংৰক্ষণ প্ৰদান কৰে?"
+   },
+   "options": [
+    {
+     "en": "25 per cent",
+     "as": "২৫ শতাংশ"
+    },
+    {
+     "en": "33 per cent",
+     "as": "৩৩ শতাংশ"
+    },
+    {
+     "en": "50 per cent",
+     "as": "৫০ শতাংশ"
+    },
+    {
+     "en": "40 per cent",
+     "as": "৪০ শতাংশ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Act provides 33 per cent reservation for women in legislatures.",
+    "as": "আইনে বিধানসভাত মহিলাৰ বাবে ৩৩ শতাংশ সংৰক্ষণ প্ৰদান কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-059",
+   "q": {
+    "en": "Who chaired the high-level committee on the 'One Nation One Election' proposal?",
+    "as": "'এক ৰাষ্ট্ৰ এক নিৰ্বাচন' প্ৰস্তাৱৰ উচ্চ পৰ্যায়ৰ সমিতিৰ অধ্যক্ষ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ram Nath Kovind",
+     "as": "ৰামনাথ কোবিন্দ"
+    },
+    {
+     "en": "N. K. Singh",
+     "as": "এন কে সিং"
+    },
+    {
+     "en": "Arvind Panagariya",
+     "as": "অৰবিন্দ পনগৰিয়া"
+    },
+    {
+     "en": "Pranab Mukherjee",
+     "as": "প্ৰণৱ মুখাৰ্জী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Former President Ram Nath Kovind chaired the One Nation One Election committee.",
+    "as": "প্ৰাক্তন ৰাষ্ট্ৰপতি ৰামনাথ কোবিন্দে এক ৰাষ্ট্ৰ এক নিৰ্বাচন সমিতিৰ অধ্যক্ষতা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-060",
+   "q": {
+    "en": "Which act replaced the sedition law under the new criminal laws?",
+    "as": "নতুন ফৌজদাৰী আইনৰ অধীনত দেশদ্ৰোহ আইনৰ ঠাই কোনে লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Section 144 of CrPC",
+     "as": "চিআৰপিচিৰ ধাৰা ১৪৪"
+    },
+    {
+     "en": "Section 124A of IPC",
+     "as": "আইপিচিৰ ধাৰা ১২৪এ"
+    },
+    {
+     "en": "Section 302 of IPC",
+     "as": "আইপিচিৰ ধাৰা ৩০২"
+    },
+    {
+     "en": "Section 152 of BNS",
+     "as": "বিএনএছৰ ধাৰা ১৫২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Section 152 of the BNS replaced the old sedition section.",
+    "as": "বিএনএছৰ ধাৰা ১৫২ য়ে পুৰণি দেশদ্ৰোহ ধাৰাৰ ঠাই লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-061",
+   "q": {
+    "en": "The rules of which act were notified in 2024 to grant citizenship?",
+    "as": "২০২৪ চনত কোন আইনৰ নিয়ম নাগৰিকত্ব প্ৰদানৰ বাবে অধিসূচিত কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Foreigners Act",
+     "as": "বিদেশী আইন"
+    },
+    {
+     "en": "Citizenship Act 1955",
+     "as": "নাগৰিকত্ব আইন ১৯৫৫"
+    },
+    {
+     "en": "Citizenship (Amendment) Act",
+     "as": "নাগৰিকত্ব (সংশোধনী) আইন"
+    },
+    {
+     "en": "Passport Act",
+     "as": "পাছপৰ্ট আইন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The rules of the Citizenship (Amendment) Act were notified in 2024.",
+    "as": "নাগৰিকত্ব (সংশোধনী) আইনৰ নিয়ম ২০২৪ চনত অধিসূচিত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-062",
+   "q": {
+    "en": "When did the Ram Mandir Pran Pratishtha ceremony in Ayodhya take place?",
+    "as": "অযোধ্যাত ৰাম মন্দিৰ প্ৰাণ প্ৰতিষ্ঠা অনুষ্ঠান কেতিয়া অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "22 January 2024",
+     "as": "২২ জানুৱাৰী ২০২৪"
+    },
+    {
+     "en": "15 August 2024",
+     "as": "১৫ আগষ্ট ২০২৪"
+    },
+    {
+     "en": "22 January 2023",
+     "as": "২২ জানুৱাৰী ২০২৩"
+    },
+    {
+     "en": "5 August 2020",
+     "as": "৫ আগষ্ট ২০২০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ram Mandir Pran Pratishtha was held on 22 January 2024.",
+    "as": "ৰাম মন্দিৰ প্ৰাণ প্ৰতিষ্ঠা ২২ জানুৱাৰী ২০২৪ ত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-063",
+   "q": {
+    "en": "The Supreme Court upheld the abrogation of Article 370 in which year?",
+    "as": "সৰ্বোচ্চ ন্যায়ালয়ে অনুচ্ছেদ ৩৭০ বাতিলকৰণ কিমান চনত বহাল ৰাখিছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Supreme Court upheld the abrogation of Article 370 in 2023.",
+    "as": "সৰ্বোচ্চ ন্যায়ালয়ে ২০২৩ চনত অনুচ্ছেদ ৩৭০ বাতিলকৰণ বহাল ৰাখিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-064",
+   "q": {
+    "en": "Which is the world's largest stadium, inaugurated in Ahmedabad?",
+    "as": "আহমেদাবাদত উদ্বোধন কৰা বিশ্বৰ আটাইতকৈ ডাঙৰ ষ্টেডিয়াম কোন?"
+   },
+   "options": [
+    {
+     "en": "Narendra Modi Stadium",
+     "as": "নৰেন্দ্ৰ মোদী ষ্টেডিয়াম"
+    },
+    {
+     "en": "Eden Gardens",
+     "as": "ইডেন গাৰ্ডেন"
+    },
+    {
+     "en": "Chinnaswamy Stadium",
+     "as": "চিন্নাস্বামী ষ্টেডিয়াম"
+    },
+    {
+     "en": "Wankhede Stadium",
+     "as": "ৱাংখেড়ে ষ্টেডিয়াম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Narendra Modi Stadium in Ahmedabad is the world's largest cricket stadium.",
+    "as": "আহমেদাবাদৰ নৰেন্দ্ৰ মোদী ষ্টেডিয়াম বিশ্বৰ আটাইতকৈ ডাঙৰ ক্ৰিকেট ষ্টেডিয়াম।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-065",
+   "q": {
+    "en": "Which mission aims to make India a developed nation by 2047?",
+    "as": "কোন অভিযানে ২০৪৭ চনৰ ভিতৰত ভাৰতক উন্নত ৰাষ্ট্ৰ কৰাৰ লক্ষ্য ৰাখে?"
+   },
+   "options": [
+    {
+     "en": "Skill India",
+     "as": "দক্ষ ভাৰত"
+    },
+    {
+     "en": "Digital India",
+     "as": "ডিজিটেল ইণ্ডিয়া"
+    },
+    {
+     "en": "Viksit Bharat 2047",
+     "as": "বিকসিত ভাৰত ২০৪৭"
+    },
+    {
+     "en": "Make in India",
+     "as": "মেক ইন ইণ্ডিয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Viksit Bharat 2047 aims to make India a developed nation by 2047.",
+    "as": "বিকসিত ভাৰত ২০৪৭ য়ে ২০৪৭ চনৰ ভিতৰত ভাৰতক উন্নত ৰাষ্ট্ৰ কৰাৰ লক্ষ্য ৰাখে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-066",
+   "q": {
+    "en": "Who is the Chief Justice of India?",
+    "as": "ভাৰতৰ মুখ্য ন্যায়াধীশ কোন?"
+   },
+   "options": [
+    {
+     "en": "Justice Surya Kant",
+     "as": "ন্যায়াধীশ সূৰ্য কান্ত"
+    },
+    {
+     "en": "S. A. Bobde",
+     "as": "এছ এ ববদে"
+    },
+    {
+     "en": "N. V. Ramana",
+     "as": "এন ভি ৰমনা"
+    },
+    {
+     "en": "D. Y. Chandrachud",
+     "as": "ডি ৱাই চন্দ্ৰচূড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Justice Surya Kant is the Chief Justice of India.",
+    "as": "ন্যায়াধীশ সূৰ্য কান্ত ভাৰতৰ মুখ্য ন্যায়াধীশ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-067",
+   "q": {
+    "en": "Which new high-level committee was constituted in 2026 to reform the banking sector?",
+    "as": "২০২৬ চনত বেংকিং খণ্ডৰ সংস্কাৰৰ বাবে কোন নতুন উচ্চ পৰ্যায়ৰ সমিতি গঠন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Raghuram Rajan Committee",
+     "as": "ৰঘুৰাম ৰাজন সমিতি"
+    },
+    {
+     "en": "High-Level Committee on Banking for Viksit Bharat",
+     "as": "বিকসিত ভাৰতৰ বাবে বেংকিং উচ্চ পৰ্যায়ৰ সমিতি"
+    },
+    {
+     "en": "Narasimham Committee",
+     "as": "নাৰসিংহম সমিতি"
+    },
+    {
+     "en": "N. K. Singh Committee",
+     "as": "এন কে সিং সমিতি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A High-Level Committee on Banking for Viksit Bharat was constituted in 2026.",
+    "as": "বিকসিত ভাৰতৰ বাবে বেংকিং উচ্চ পৰ্যায়ৰ সমিতি ২০২৬ চনত গঠন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-068",
+   "q": {
+    "en": "Who chairs the High-Level Committee on Banking for Viksit Bharat?",
+    "as": "বিকসিত ভাৰতৰ বাবে বেংকিং উচ্চ পৰ্যায়ৰ সমিতিৰ অধ্যক্ষ কোন?"
+   },
+   "options": [
+    {
+     "en": "N. K. Singh",
+     "as": "এন কে সিং"
+    },
+    {
+     "en": "Shaktikanta Das",
+     "as": "শক্তিকান্ত দাস"
+    },
+    {
+     "en": "Arvind Panagariya",
+     "as": "অৰবিন্দ পনগৰিয়া"
+    },
+    {
+     "en": "Suresh N. Patel",
+     "as": "সুৰেশ এন পেটেল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Former CVC Suresh N. Patel chairs the banking reform committee.",
+    "as": "প্ৰাক্তন চিভিচি সুৰেশ এন পেটেলে বেংকিং সংস্কাৰ সমিতিৰ অধ্যক্ষতা কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-069",
+   "q": {
+    "en": "Which ministry launched the Tobacco-Free Youth Campaign 4.0?",
+    "as": "কোন মন্ত্ৰালয়ে ট'বেক' মুক্ত যুৱ অভিযান ৪.০ আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ministry of Social Justice",
+     "as": "সমাজিক ন্যায় মন্ত্ৰালয়"
+    },
+    {
+     "en": "Ministry of Youth Affairs",
+     "as": "যুৱ পৰিক্ৰমা মন্ত্ৰালয়"
+    },
+    {
+     "en": "Ministry of Health and Family Welfare",
+     "as": "স্বাস্থ্য আৰু পৰিয়াল কল্যাণ মন্ত্ৰালয়"
+    },
+    {
+     "en": "Ministry of Education",
+     "as": "শিক্ষা মন্ত্ৰালয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Ministry of Health and Family Welfare launched TFYC 4.0.",
+    "as": "স্বাস্থ্য আৰু পৰিয়াল কল্যাণ মন্ত্ৰালয়ে টিএফৱাইচি ৪.০ আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-070",
+   "q": {
+    "en": "What does PRAGATI stand for in the government's project monitoring platform?",
+    "as": "চৰকাৰৰ প্ৰকল্প নিৰীক্ষণ মঞ্চত প্ৰগতিয়ে কি সূচায়?"
+   },
+   "options": [
+    {
+     "en": "Public Reform and Governance",
+     "as": "পাব্লিক ৰিফৰ্ম এণ্ড গভৰ্নেন্স"
+    },
+    {
+     "en": "Pro-Active Governance and Timely Implementation",
+     "as": "প্ৰ-এক্টিভ গভৰ্নেন্স এণ্ড টাইমলি ইমপ্লিমেণ্টেচন"
+    },
+    {
+     "en": "Project Review and Growth Action",
+     "as": "প্ৰজেক্ট ৰিভিউ এণ্ড গ্ৰ'থ একচন"
+    },
+    {
+     "en": "Programme Action and Growth",
+     "as": "প্ৰগ্ৰেম একচন এণ্ড গ্ৰ'থ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "PRAGATI stands for Pro-Active Governance and Timely Implementation.",
+    "as": "প্ৰগাতিৰ পূৰ্ণৰূপ প্ৰ-এক্টিভ গভৰ্নেন্স এণ্ড টাইমলি ইমপ্লিমেণ্টেচন।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-071",
+   "q": {
+    "en": "Who chaired the 54th PRAGATI meeting in 2026?",
+    "as": "২০২৬ চনত ৫৪ সংখ্যক প্ৰগাতি বৈঠকৰ অধ্যক্ষতা কোনে কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rajnath Singh",
+     "as": "ৰাজনাথ সিং"
+    },
+    {
+     "en": "Nirmala Sitharaman",
+     "as": "নিৰ্মলা সীতাৰমণ"
+    },
+    {
+     "en": "Amit Shah",
+     "as": "অমিত শ্বাহ"
+    },
+    {
+     "en": "Narendra Modi",
+     "as": "নৰেন্দ্ৰ মোদী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Prime Minister Narendra Modi chaired the 54th PRAGATI meeting.",
+    "as": "প্ৰধানমন্ত্ৰী নৰেন্দ্ৰ মোদীয়ে ৫৪ সংখ্যক প্ৰগাতি বৈঠকৰ অধ্যক্ষতা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-072",
+   "q": {
+    "en": "Which state's museum ranked ninth among the world's best museums in 2026?",
+    "as": "২০২৬ চনত কোন ৰাজ্যৰ সংগ্ৰহালয়ে বিশ্বৰ শ্ৰেষ্ঠ সংগ্ৰহালয়ৰ ভিতৰত নৱম স্থান লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "National Museum",
+     "as": "ৰাষ্ট্ৰীয় সংগ্ৰহালয়"
+    },
+    {
+     "en": "Salar Jung Museum",
+     "as": "ছালাৰ জঙ সংগ্ৰহালয়"
+    },
+    {
+     "en": "Bihar Museum",
+     "as": "বিহাৰ সংগ্ৰহালয়"
+    },
+    {
+     "en": "Indian Museum",
+     "as": "ভাৰতীয় সংগ্ৰহালয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Bihar Museum ranked ninth in the 2026 world museum list.",
+    "as": "বিহাৰ সংগ্ৰহালয়ে ২০২৬ চনৰ বিশ্ব সংগ্ৰহালয় তালিকাত নৱম স্থান লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-073",
+   "q": {
+    "en": "Which three Indian sites joined the UNESCO World Heritage Tentative List in 2026?",
+    "as": "২০২৬ চনত কোন তিনিটা ভাৰতীয় স্থান ইউনেস্কো বিশ্ব ঐতিহ্য সাম্ভাব্য তালিকাত যোগ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Baratang mud volcanoes and Sirpur",
+     "as": "বাৰাটাং কৰ্দম আগ্নেয়গিৰি আৰু সিৰপুৰ"
+    },
+    {
+     "en": "Hampi and Pattadakal",
+     "as": "হাম্পি আৰু পট্টদকাল"
+    },
+    {
+     "en": "Khajuraho and Konark",
+     "as": "খজুৰাহো আৰু কোণাৰ্ক"
+    },
+    {
+     "en": "Ajanta and Ellora",
+     "as": "অজন্তা আৰু ইলোৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Baratang mud volcanoes and the Sirpur landscape joined the UNESCO tentative list.",
+    "as": "বাৰাটাং কৰ্দম আগ্নেয়গিৰি আৰু সিৰপুৰ লেণ্ডস্কেপ ইউনেস্কো সাম্ভাব্য তালিকাত যোগ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-074",
+   "q": {
+    "en": "Which union minister launched the Tobacco-Free Youth Campaign 4.0?",
+    "as": "কোন কেন্দ্ৰীয় মন্ত্ৰীয়ে ট'বেক' মুক্ত যুৱ অভিযান ৪.০ আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "J. P. Nadda",
+     "as": "জে পি নাড্ডা"
+    },
+    {
+     "en": "Mansukh Mandaviya",
+     "as": "মনসুখ মাণ্ডৱিয়া"
+    },
+    {
+     "en": "Anupriya Patel",
+     "as": "অনুপ্ৰিয়া পেটেল"
+    },
+    {
+     "en": "Prataprao Jadhav",
+     "as": "প্ৰতাপৰাও জাধৱ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Union Minister of State Prataprao Jadhav launched TFYC 4.0.",
+    "as": "কেন্দ্ৰীয় ৰাজ্যমন্ত্ৰী প্ৰতাপৰাও জাধৱে টিএফৱাইচি ৪.০ আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-075",
+   "q": {
+    "en": "Which scheme was approved by the Cabinet in 2026 for sports goods manufacturing?",
+    "as": "২০২৬ চনত ক্ৰীড়া সামগ্ৰী উৎপাদনৰ বাবে মন্ত্ৰীসভাই কোন আঁচনি অনুমোদন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "National Sports Policy",
+     "as": "ৰাষ্ট্ৰীয় ক্ৰীড়া নীতি"
+    },
+    {
+     "en": "Khelo India Youth Games",
+     "as": "খেলো ইণ্ডিয়া যুৱ গেমছ"
+    },
+    {
+     "en": "Target Olympic Podium Scheme",
+     "as": "টাৰ্গেট অলিম্পিক প'ডিয়াম আঁচনি"
+    },
+    {
+     "en": "Khelo India Sports Goods Manufacturing Scheme",
+     "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Cabinet approved the Khelo India Sports Goods Manufacturing Scheme.",
+    "as": "মন্ত্ৰীসভাই খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি অনুমোদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-076",
+   "q": {
+    "en": "What is the total outlay of the Khelo India Sports Goods Manufacturing Scheme?",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনিৰ মুঠ পৰিমাণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "Rs 3,050 crore",
+     "as": "৩০৫০ কোটি টকা"
+    },
+    {
+     "en": "Rs 1,856.67 crore",
+     "as": "১৮৫৬.৬৭ কোটি টকা"
+    },
+    {
+     "en": "Rs 7,395 crore",
+     "as": "৭৩৯৫ কোটি টকা"
+    },
+    {
+     "en": "Rs 10,000 crore",
+     "as": "১০,০০০ কোটি টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The scheme has an outlay of Rs 1,856.67 crore.",
+    "as": "আঁচনিখনৰ পৰিমাণ ১৮৫৬.৬৭ কোটি টকা।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-077",
+   "q": {
+    "en": "Which new scheme with a Rs 7,395 crore outlay was approved by the Cabinet in 2026?",
+    "as": "২০২৬ চনত মন্ত্ৰীসভাই ৭৩৯৫ কোটি টকাৰ কোন নতুন আঁচনি অনুমোদন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Vibrant Villages Programme",
+     "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী"
+    },
+    {
+     "en": "Viksit Gram Swaraj Yojana",
+     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+    },
+    {
+     "en": "Jal Jeevan Mission",
+     "as": "জল জীৱন মিছন"
+    },
+    {
+     "en": "PM Gram Sadak Yojana",
+     "as": "পিএম গ্ৰাম সড়ক যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Cabinet approved the Viksit Gram Swaraj Yojana with a Rs 7,395 crore outlay.",
+    "as": "মন্ত্ৰীসভাই ৭৩৯৫ কোটি টকাৰ বিকসিত গ্ৰাম স্বৰাজ যোজনা অনুমোদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-078",
+   "q": {
+    "en": "Which new pass was introduced for local vehicles on National Highways in 2026?",
+    "as": "২০২৬ চনত ৰাষ্ট্ৰীয় ঘাইপথত স্থানীয় বাহনৰ বাবে কোন নতুন পাছ আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "FASTag Annual Local Pass",
+     "as": "ফাষ্টটেগ বাৰ্ষিক স্থানীয় পাছ"
+    },
+    {
+     "en": "Toll Free Pass",
+     "as": "ট'ল মুক্ত পাছ"
+    },
+    {
+     "en": "Green Tax Pass",
+     "as": "সেউজ কৰ পাছ"
+    },
+    {
+     "en": "National Highway Pass",
+     "as": "ৰাষ্ট্ৰীয় ঘাইপথ পাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "MoRTH introduced the FASTag Annual Local Pass in 2026.",
+    "as": "সৰক পৰিবহণ মন্ত্ৰালয়ে ২০২৬ চনত ফাষ্টটেগ বাৰ্ষিক স্থানীয় পাছ আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-079",
+   "q": {
+    "en": "PM-KISAN's 24th instalment transferred how much money to farmer families?",
+    "as": "পিএম-কিষাণৰ ২৪ সংখ্যক কিস্তিয়ে কৃষক পৰিয়াললৈ কিমান ধন স্থানান্তৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rs 2,000 each",
+     "as": "প্ৰতিজনলৈ ২০০০ টকা"
+    },
+    {
+     "en": "Rs 4,000 each",
+     "as": "প্ৰতিজনলৈ ৪০০০ টকা"
+    },
+    {
+     "en": "Rs 1,000 each",
+     "as": "প্ৰতিজনলৈ ১০০০ টকা"
+    },
+    {
+     "en": "Rs 6,000 each",
+     "as": "প্ৰতিজনলৈ ৬০০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each eligible family received Rs 2,000 in the 24th PM-KISAN instalment.",
+    "as": "২৪ সংখ্যক পিএম-কিষাণ কিস্তিত প্ৰতিটো যোগ্য পৰিয়ালে ২০০০ টকা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-080",
+   "q": {
+    "en": "Under PM-KISAN, how much is given to each farmer family per year?",
+    "as": "পিএম-কিষাণৰ অধীনত প্ৰতি বছৰে প্ৰতিটো কৃষক পৰিয়ালক কিমান দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "Rs 6,000",
+     "as": "৬০০০ টকা"
+    },
+    {
+     "en": "Rs 2,000",
+     "as": "২০০০ টকা"
+    },
+    {
+     "en": "Rs 4,000",
+     "as": "৪০০০ টকা"
+    },
+    {
+     "en": "Rs 8,000",
+     "as": "৮০০০ টকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM-KISAN gives Rs 6,000 per year to each eligible farmer family.",
+    "as": "পিএম-কিষাণে প্ৰতি বছৰে প্ৰতিটো যোগ্য কৃষক পৰিয়ালক ৬০০০ টকা দিয়ে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-081",
+   "q": {
+    "en": "Which country will host COP31 of the UNFCCC?",
+    "as": "ইউএনএফচিসিচিৰ কপ৩১ কোন দেশে আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
+    },
+    {
+     "en": "Brazil",
+     "as": "ব্ৰাজিল"
+    },
+    {
+     "en": "UAE",
+     "as": "আমিৰাত"
+    },
+    {
+     "en": "Türkiye",
+     "as": "তুৰ্কী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Türkiye will host COP31 in Antalya.",
+    "as": "তুৰ্কীয়ে আণ্টালিয়াত কপ৩১ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-082",
+   "q": {
+    "en": "In which city will COP31 of the UNFCCC be held in 2026?",
+    "as": "২০২৬ চনত ইউএনএফচিসিচিৰ কপ৩১ কোন চহৰত অনুষ্ঠিত হ'ব?"
+   },
+   "options": [
+    {
+     "en": "Glasgow",
+     "as": "গ্লাছগো"
+    },
+    {
+     "en": "Dubai",
+     "as": "দুবাই"
+    },
+    {
+     "en": "Baku",
+     "as": "বাকু"
+    },
+    {
+     "en": "Antalya",
+     "as": "আণ্টালিয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "COP31 will be held in Antalya, Türkiye.",
+    "as": "কপ৩১ তুৰ্কীৰ আণ্টালিয়াত অনুষ্ঠিত হ'ব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-083",
+   "q": {
+    "en": "What climate finance goal was agreed at COP29?",
+    "as": "কপ২৯ ত কোন জলবায়ু বিত্তীয় লক্ষ্যত সন্মত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "USD 50 billion annually",
+     "as": "বছৰি ৫০ বিলিয়ন ডলাৰ"
+    },
+    {
+     "en": "USD 300 billion annually by 2035",
+     "as": "২০৩৫ চনৰ ভিতৰত বছৰি ৩০০ বিলিয়ন আমেৰিকান ডলাৰ"
+    },
+    {
+     "en": "USD 1 trillion annually",
+     "as": "বছৰি ১ ট্ৰিলিয়ন ডলাৰ"
+    },
+    {
+     "en": "USD 100 billion annually",
+     "as": "বছৰি ১০০ বিলিয়ন ডলাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "COP29 agreed on at least USD 300 billion annually by 2035.",
+    "as": "কপ২৯ এ ২০৩৫ চনৰ ভিতৰত বছৰি কমেও ৩০০ বিলিয়ন ডলাৰত সন্মত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-084",
+   "q": {
+    "en": "Where was CBD COP-17 held in 2026?",
+    "as": "২০২৬ চনত চিবিডি কপ-১৭ ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Cali, Colombia",
+     "as": "কালি, কলম্বিয়া"
+    },
+    {
+     "en": "Antalya, Türkiye",
+     "as": "আণ্টালিয়া, তুৰ্কী"
+    },
+    {
+     "en": "Yerevan, Armenia",
+     "as": "য়েৰেভান, আৰ্মেনিয়া"
+    },
+    {
+     "en": "Montreal, Canada",
+     "as": "মণ্ট্ৰিয়েল, কানাডা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "CBD COP-17 was held in Yerevan, Armenia.",
+    "as": "চিবিডি কপ-১৭ আৰ্মেনিয়াৰ য়েৰেভানত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-085",
+   "q": {
+    "en": "Which framework did India reaffirm at CBD COP-17?",
+    "as": "চিবিডি কপ-১৭ ত ভাৰতে কোন খতিয়ান পুনৰ নিশ্চিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Paris Agreement",
+     "as": "পেৰিছ চুক্তি"
+    },
+    {
+     "en": "Kunming-Montreal Global Biodiversity Framework",
+     "as": "কুনমিং-মণ্ট্ৰিয়েল বিশ্ব জৈৱবৈচিত্ৰ্য খতিয়ান"
+    },
+    {
+     "en": "Ramsar Convention",
+     "as": "ৰামছাৰ সন্মিলন"
+    },
+    {
+     "en": "Kyoto Protocol",
+     "as": "কিয়'ট' প্ৰ'ট'কল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "India reaffirmed the Kunming-Montreal Global Biodiversity Framework.",
+    "as": "ভাৰতে কুনমিং-মণ্ট্ৰিয়েল বিশ্ব জৈববৈচিত্ৰ্য খতিয়ান পুনৰ নিশ্চিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-086",
+   "q": {
+    "en": "Which African country was decided to host the 20th G20 Summit in 2025?",
+    "as": "২০২৫ চনত ২০ সংখ্যক জি২০ শীৰ্ষ সন্মিলন আয়োজনৰ বাবে কোন আফ্ৰিকান দেশ নিৰ্ধাৰণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Nigeria",
+     "as": "নাইজেৰিয়া"
+    },
+    {
+     "en": "South Africa",
+     "as": "দক্ষিণ আফ্ৰিকা"
+    },
+    {
+     "en": "Egypt",
+     "as": "ইজিপ্ত"
+    },
+    {
+     "en": "Kenya",
+     "as": "কেনিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "South Africa hosted the 20th G20 Summit in 2025.",
+    "as": "দক্ষিণ আফ্ৰিকাই ২০২৫ চনত ২০ সংখ্যক জি২০ শীৰ্ষ সন্মিলন আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-087",
+   "q": {
+    "en": "Which Prime Minister resigned and took refuge in India in 2024?",
+    "as": "২০২৪ চনত কোন প্ৰধানমন্ত্ৰীয়ে পদত্যাগ কৰি ভাৰতত আশ্ৰয় লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Sheikh Hasina",
+     "as": "শ্বেখ হাছিনা"
+    },
+    {
+     "en": "Khaleda Zia",
+     "as": "খালেদা জিয়া"
+    },
+    {
+     "en": "Aung San Suu Kyi",
+     "as": "আউঙ ছান ছু কিয়ী"
+    },
+    {
+     "en": "Muhammad Yunus",
+     "as": "মুহাম্মদ ইউনুছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sheikh Hasina resigned as Prime Minister of Bangladesh and came to India in 2024.",
+    "as": "শ্বেখ হাছিনাই বাংলাদেশৰ প্ৰধানমন্ত্ৰী পদৰ পৰা পদত্যাগ কৰি ২০২৪ চনত ভাৰতলৈ আহিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-088",
+   "q": {
+    "en": "Who assumed the office of Prime Minister of the United Kingdom in 2024?",
+    "as": "২০২৪ চনত যুক্তৰাজ্যৰ প্ৰধানমন্ত্ৰী পদত কোনে অধিষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Rishi Sunak",
+     "as": "ঋষি সুনাক"
+    },
+    {
+     "en": "Liz Truss",
+     "as": "লিজ ট্ৰাছ"
+    },
+    {
+     "en": "Boris Johnson",
+     "as": "বৰিছ জনছন"
+    },
+    {
+     "en": "Keir Starmer",
+     "as": "কিয়াৰ ষ্টাৰ্মাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Keir Starmer became the Prime Minister of the United Kingdom in 2024.",
+    "as": "কিয়াৰ ষ্টাৰ্মাৰ ২০২৪ চনত যুক্তৰাজ্যৰ প্ৰধানমন্ত্ৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-089",
+   "q": {
+    "en": "Who was sworn in as the first woman President of Mexico?",
+    "as": "মেক্সিকোৰ প্ৰথম মহিলা ৰাষ্ট্ৰপতি হিচাপে কোনে শপত লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Claudia Sheinbaum",
+     "as": "ক্লাউডিয়া ছেইনবাউম"
+    },
+    {
+     "en": "Kamala Harris",
+     "as": "কমলা হেৰিছ"
+    },
+    {
+     "en": "Ursula von der Leyen",
+     "as": "উৰ্চুলা ভন ডেৰ লেইন"
+    },
+    {
+     "en": "Christine Lagarde",
+     "as": "ক্ৰিষ্টিন লাগাৰ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Claudia Sheinbaum became the first woman President of Mexico.",
+    "as": "ক্লাউডিয়া ছেইনবাউম মেক্সিকোৰ প্ৰথম মহিলা ৰাষ্ট্ৰপতি হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-090",
+   "q": {
+    "en": "Who announced an early resignation as President of the European Central Bank in 2026?",
+    "as": "২০২৬ চনত ইউৰোপীয় কেন্দ্ৰীয় বেংকৰ ৰাষ্ট্ৰপতি হিচাপে কোনে আগতীয়াকৈ পদত্যাগৰ ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Christine Lagarde",
+     "as": "ক্ৰিষ্টিন লাগাৰ্ড"
+    },
+    {
+     "en": "Mario Draghi",
+     "as": "মাৰিঅ' ড্ৰাগী"
+    },
+    {
+     "en": "Ursula von der Leyen",
+     "as": "উৰ্চুলা ভন ডেৰ লেইন"
+    },
+    {
+     "en": "Jerome Powell",
+     "as": "জেৰ'ম পাওৱেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Christine Lagarde announced her early resignation as ECB President.",
+    "as": "ক্ৰিষ্টিন লাগাৰ্ডে ইচিবি ৰাষ্ট্ৰপতি হিচাপে আগতীয়া পদত্যাগৰ ঘোষণা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-091",
+   "q": {
+    "en": "Which country hosted the 2024 BRICS Summit?",
+    "as": "২০২৪ চনৰ ব্ৰিকছ শীৰ্ষ সন্মিলন কোন দেশে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "Brazil",
+     "as": "ব্ৰাজিল"
+    },
+    {
+     "en": "Russia",
+     "as": "ৰাছিয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Russia hosted the 2024 BRICS Summit in Kazan.",
+    "as": "ৰাছিয়াই কাজানত ২০২৪ চনৰ ব্ৰিকছ শীৰ্ষ সন্মিলন আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-092",
+   "q": {
+    "en": "In which city was the 2024 BRICS Summit held?",
+    "as": "২০২৪ চনৰ ব্ৰিকছ শীৰ্ষ সন্মিলন কোন চহৰত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Sochi",
+     "as": "ছ'চি"
+    },
+    {
+     "en": "St Petersburg",
+     "as": "ছেইণ্ট পিটাৰ্ছবাৰ্গ"
+    },
+    {
+     "en": "Kazan",
+     "as": "কাজান"
+    },
+    {
+     "en": "Moscow",
+     "as": "মস্কো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The 2024 BRICS Summit was held in Kazan, Russia.",
+    "as": "২০২৪ চনৰ ব্ৰিকছ শীৰ্ষ সন্মিলন ৰাছিয়াৰ কাজানত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-093",
+   "q": {
+    "en": "Which grouping's first Home Ministers' Meeting was held in New Delhi in 2026?",
+    "as": "২০২৬ চনত নতুন দিল্লীত কোন গোটৰ প্ৰথম গৃহমন্ত্ৰী বৈঠক অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "SAARC",
+     "as": "ছাৰ্ক"
+    },
+    {
+     "en": "SCO",
+     "as": "এছচিঅ'"
+    },
+    {
+     "en": "BIMSTEC",
+     "as": "বিমষ্টেক"
+    },
+    {
+     "en": "ASEAN",
+     "as": "আছিয়ান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The first BIMSTEC Home Ministers' Meeting was held in New Delhi in 2026.",
+    "as": "প্ৰথম বিমষ্টেক গৃহমন্ত্ৰী বৈঠক ২০২৬ চনত নতুন দিল্লীত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-094",
+   "q": {
+    "en": "How many member states does BIMSTEC have?",
+    "as": "বিমষ্টেকৰ কিমানখন সদস্য ৰাষ্ট্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "Ten",
+     "as": "দহ"
+    },
+    {
+     "en": "Eight",
+     "as": "আঠ"
+    },
+    {
+     "en": "Seven",
+     "as": "সাত"
+    },
+    {
+     "en": "Five",
+     "as": "পাঁচ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "BIMSTEC has seven member states.",
+    "as": "বিমষ্টেকৰ সাতখন সদস্য ৰাষ্ট্ৰ আছে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-095",
+   "q": {
+    "en": "Where is the BIMSTEC Secretariat located?",
+    "as": "বিমষ্টেকৰ সচিবালয় ক'ত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Bangkok, Thailand",
+     "as": "বেংকক, থাইলেণ্ড"
+    },
+    {
+     "en": "New Delhi, India",
+     "as": "নতুন দিল্লী, ভাৰত"
+    },
+    {
+     "en": "Colombo, Sri Lanka",
+     "as": "কলম্বো, শ্ৰীলংকা"
+    },
+    {
+     "en": "Dhaka, Bangladesh",
+     "as": "ঢাকা, বাংলাদেশ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The BIMSTEC Secretariat is in Dhaka, Bangladesh.",
+    "as": "বিমষ্টেকৰ সচিবালয় বাংলাদেশৰ ঢাকাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-096",
+   "q": {
+    "en": "Which country hosted the 2023 G20 Summit?",
+    "as": "২০২৩ চনৰ জি২০ শীৰ্ষ সন্মিলন কোন দেশে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Brazil",
+     "as": "ব্ৰাজিল"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
+     "en": "Indonesia",
+     "as": "ইণ্ডোনেছিয়া"
+    },
+    {
+     "en": "Japan",
+     "as": "জাপান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "India hosted the 2023 G20 Summit in New Delhi.",
+    "as": "ভাৰতে নতুন দিল্লীত ২০২৩ চনৰ জি২০ শীৰ্ষ সন্মিলন আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-097",
+   "q": {
+    "en": "Which declaration was adopted at the Kazan BRICS Summit?",
+    "as": "কাজান ব্ৰিকছ শীৰ্ষ সন্মিলনত কোন ঘোষণাপত্ৰ গ্ৰহণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "New Delhi Declaration",
+     "as": "নতুন দিল্লী ঘোষণাপত্ৰ"
+    },
+    {
+     "en": "Johannesburg Declaration",
+     "as": "জোহান্সবাৰ্গ ঘোষণাপত্ৰ"
+    },
+    {
+     "en": "Kazan Declaration",
+     "as": "কাজান ঘোষণাপত্ৰ"
+    },
+    {
+     "en": "Bali Declaration",
+     "as": "বালি ঘোষণাপত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Kazan Declaration was adopted at the 2024 BRICS Summit.",
+    "as": "২০২৪ চনৰ ব্ৰিকছ শীৰ্ষ সন্মিলনত কাজান ঘোষণাপত্ৰ গ্ৰহণ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-098",
+   "q": {
+    "en": "Which country will host the 2026 Commonwealth Games?",
+    "as": "২০২৬ চনৰ কমনৱেলথ গেমছ কোন দেশে আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
+     "en": "Canada",
+     "as": "কানাডা"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Australia will host the 2026 Commonwealth Games in Glasgow (Scotland).",
+    "as": "অষ্ট্ৰেলিয়া স্কটলেণ্ডৰ গ্লাছগোত ২০২৬ কমনৱেলথ গেমছ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-099",
+   "q": {
+    "en": "Where will the 2030 Commonwealth Games be held?",
+    "as": "২০৩০ চনৰ কমনৱেলথ গেমছ ক'ত অনুষ্ঠিত হ'ব?"
+   },
+   "options": [
+    {
+     "en": "Ahmedabad, India",
+     "as": "আহমেদাবাদ, ভাৰত"
+    },
+    {
+     "en": "Victoria, Australia",
+     "as": "ভিক্টোৰিয়া, অষ্ট্ৰেলিয়া"
+    },
+    {
+     "en": "Birmingham, UK",
+     "as": "বাৰ্মিংহাম, যুক্তৰাজ্য"
+    },
+    {
+     "en": "Delhi, India",
+     "as": "দিল্লী, ভাৰত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 2030 Commonwealth Games will be held in Ahmedabad, India.",
+    "as": "২০৩০ চনৰ কমনৱেলথ গেমছ ভাৰতৰ আহমেদাবাদত অনুষ্ঠিত হ'ব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-100",
+   "q": {
+    "en": "Which country will jointly host the FIFA World Cup 2026?",
+    "as": "২০২৬ চনৰ ফিফা বিশ্বকাপ কোন দেশসমূহে যুটীয়াভাৱে আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "USA, Canada and Mexico",
+     "as": "আমেৰিকা, কানাডা আৰু মেক্সিকো"
+    },
+    {
+     "en": "Spain, Portugal and Morocco",
+     "as": "স্পেইন, পৰ্তুগাল আৰু মৰক্কো"
+    },
+    {
+     "en": "Japan and South Korea",
+     "as": "জাপান আৰু দক্ষিণ কোৰিয়া"
+    },
+    {
+     "en": "Brazil, Argentina and Uruguay",
+     "as": "ব্ৰাজিল, আৰ্জেণ্টিনা আৰু উৰুগুৱে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The USA, Canada and Mexico will jointly host the FIFA World Cup 2026.",
+    "as": "আমেৰিকা, কানাডা আৰু মেক্সিকোৱে যুটীয়াভাৱে ২০২৬ ফিফা বিশ্বকাপ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-101",
+   "q": {
+    "en": "Who won the 2026 Men's Ballon d'Or?",
+    "as": "২০২৬ চনৰ পুৰুষৰ বেলন ডি'অৰ কোনে জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Kylian Mbappe",
+     "as": "কাইলিয়ান এম্বাপে"
+    },
+    {
+     "en": "Cristiano Ronaldo",
+     "as": "ক্ৰিষ্টিয়ানো ৰোনাল্ডো"
+    },
+    {
+     "en": "Lionel Messi",
+     "as": "লিঅ'নেল মেচি"
+    },
+    {
+     "en": "Harry Kane",
+     "as": "হেৰি কেন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Harry Kane won the 2026 Men's Ballon d'Or.",
+    "as": "হেৰি কেনে ২০২৬ চনৰ পুৰুষৰ বেলন ডি'অৰ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-102",
+   "q": {
+    "en": "Where was the 2026 Ballon d'Or ceremony held?",
+    "as": "২০২৬ চনৰ বেলন ডি'অৰ অনুষ্ঠান ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Milan",
+     "as": "মিলান"
+    },
+    {
+     "en": "Madrid",
+     "as": "মাদ্ৰিদ"
+    },
+    {
+     "en": "Paris",
+     "as": "পেৰিছ"
+    },
+    {
+     "en": "London Palladium",
+     "as": "লণ্ডন পেলাডিয়াম"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The 2026 Ballon d'Or ceremony was held at the London Palladium.",
+    "as": "২০২৬ চনৰ বেলন ডি'অৰ অনুষ্ঠান লণ্ডন পেলাডিয়ামত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-103",
+   "q": {
+    "en": "Who was the first ever winner of the Ballon d'Or?",
+    "as": "বেলন ডি'অৰৰ প্ৰথম বিজেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bobby Charlton",
+     "as": "ববি চাৰ্লটন"
+    },
+    {
+     "en": "Alfredo Di Stefano",
+     "as": "আলফ্ৰেডো ডি ষ্টেফানো"
+    },
+    {
+     "en": "Kevin Keegan",
+     "as": "কেভিন কিগান"
+    },
+    {
+     "en": "Stanley Matthews",
+     "as": "ষ্টেনলী মেথিউছ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Stanley Matthews won the first Ballon d'Or in 1956.",
+    "as": "ষ্টেনলী মেথিউছে ১৯৫৬ চনত প্ৰথম বেলন ডি'অৰ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-104",
+   "q": {
+    "en": "Which magazine presents the Ballon d'Or award?",
+    "as": "কোন আলোচনীয়ে বেলন ডি'অৰ বঁটা প্ৰদান কৰে?"
+   },
+   "options": [
+    {
+     "en": "FIFA",
+     "as": "ফিফা"
+    },
+    {
+     "en": "UEFA",
+     "as": "উৱেফা"
+    },
+    {
+     "en": "L'Equipe",
+     "as": "ল'ইকুইপ"
+    },
+    {
+     "en": "France Football",
+     "as": "ফ্ৰান্স ফুটবল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Ballon d'Or is presented by the magazine France Football.",
+    "as": "বেলন ডি'অৰ ফ্ৰান্স ফুটবল আলোচনীয়ে প্ৰদান কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-105",
+   "q": {
+    "en": "Who became the first Indian woman to win gold at the Senior World Wrestling Championships?",
+    "as": "চিনিয়ৰ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপত স্বৰ্ণ জয় কৰা প্ৰথম ভাৰতীয় মহিলা কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Manisha Bhanwala",
+     "as": "মনীষা ভানৱালা"
+    },
+    {
+     "en": "Vinesh Phogat",
+     "as": "বিনেশ ফোগাট"
+    },
+    {
+     "en": "Sakshi Malik",
+     "as": "সাক্ষী মালিক"
+    },
+    {
+     "en": "Bajrang Punia",
+     "as": "বজৰং পুনিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manisha Bhanwala became the first Indian woman to win gold at the Senior World Wrestling Championships.",
+    "as": "মনীষা ভানৱালা চিনিয়ৰ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপত স্বৰ্ণ জয় কৰা প্ৰথম ভাৰতীয় মহিলা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-106",
+   "q": {
+    "en": "In which city were the 2026 World Wrestling Championships held?",
+    "as": "২০২৬ চনৰ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপ কোন চহৰত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Astana, Kazakhstan",
+     "as": "আস্তানা, কাজাখস্তান"
+    },
+    {
+     "en": "Tokyo, Japan",
+     "as": "টকিঅ', জাপান"
+    },
+    {
+     "en": "Ningbo, China",
+     "as": "নিংবো, চীন"
+    },
+    {
+     "en": "Budva, Montenegro",
+     "as": "বুদভা, মন্টেনিগ্ৰো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 2026 World Wrestling Championships were held in Astana, Kazakhstan.",
+    "as": "২০২৬ চনৰ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপ কাজাখস্তানৰ আস্তানাত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-107",
+   "q": {
+    "en": "Which Indian cueist won his 29th career world title in 2026?",
+    "as": "২০২৬ চনত কোন ভাৰতীয় কিয়িষ্টে তেওঁৰ ২৯ সংখ্যক বিশ্ব খিতাপ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Pankaj Advani",
+     "as": "পংকজ আডভাণী"
+    },
+    {
+     "en": "Aditya Mehta",
+     "as": "আদিত্য মেহতা"
+    },
+    {
+     "en": "Geet Sethi",
+     "as": "গীত শেঠী"
+    },
+    {
+     "en": "Michael Ferreira",
+     "as": "মাইকেল ফেৰেৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pankaj Advani won his 29th career world title in 2026.",
+    "as": "পংকজ আডভাণীয়ে ২০২৬ চনত তেওঁৰ ২৯ সংখ্যক বিশ্ব খিতাপ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-108",
+   "q": {
+    "en": "India became the first men's team to record how many outright T20 International victories?",
+    "as": "ভাৰত পুৰুষ দল হিচাপে কিমানটা স্পষ্ট টি-২০ আন্তৰ্জাতিক বিজয়ৰ প্ৰথম দল হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "200",
+     "as": "২০০"
+    },
+    {
+     "en": "250",
+     "as": "২৫০"
+    },
+    {
+     "en": "150",
+     "as": "১৫০"
+    },
+    {
+     "en": "300",
+     "as": "৩০০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "India became the first men's team to record 200 outright T20I victories.",
+    "as": "ভাৰত ২০০ টা স্পষ্ট টি-২০ আন্তৰ্জাতিক বিজয়ৰ প্ৰথম পুৰুষ দল হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-109",
+   "q": {
+    "en": "Which Indian won gold in javelin at the 2026 Asian Para Games?",
+    "as": "২০২৬ এছিয়ান পেৰা গেমছত জেভলিনত কোন ভাৰতীয়ই স্বৰ্ণ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sumit Antil",
+     "as": "সুমিত আন্তিল"
+    },
+    {
+     "en": "Devendra Jhajharia",
+     "as": "দেৱেন্দ্ৰ ঝাঝাৰিয়া"
+    },
+    {
+     "en": "Sundar Singh Gurjar",
+     "as": "সুন্দৰ সিং গুৰ্জাৰ"
+    },
+    {
+     "en": "Neeraj Chopra",
+     "as": "নীৰজ চোপ্ৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sumit Antil won gold in the F64 javelin at the 2026 Asian Para Games.",
+    "as": "সুমিত আন্তিলে ২০২৬ এছিয়ান পেৰা গেমছত এফ৬৪ জেভলিনত স্বৰ্ণ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-110",
+   "q": {
+    "en": "Which city will host the 2029 Senior World Weightlifting Championships?",
+    "as": "২০২৯ চনৰ চিনিয়ৰ বিশ্ব ভাৰউত্তোলন চেম্পিয়নশ্বিপ কোন চহৰে আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "Moscow",
+     "as": "মস্কো"
+    },
+    {
+     "en": "Ahmedabad",
+     "as": "আহমেদাবাদ"
+    },
+    {
+     "en": "Tokyo",
+     "as": "টকিঅ'"
+    },
+    {
+     "en": "Ningbo",
+     "as": "নিংবো"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ahmedabad will host the 2029 Senior World Weightlifting Championships.",
+    "as": "আহমেদাবাদে ২০২৯ চনৰ চিনিয়ৰ বিশ্ব ভাৰউত্তোলন চেম্পিয়নশ্বিপ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-111",
+   "q": {
+    "en": "Which two Indian chess players won individual gold at the 2026 European Chess Club Cup?",
+    "as": "২০২৬ ইউৰোপীয় দবা ক্লাব কাপত কোন দুজন ভাৰতীয় দবা খেলুৱৈয়ে ব্যক্তিগত স্বৰ্ণ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nihal Sarin and R. Praggnanandhaa",
+     "as": "নিহাল সৰিন আৰু আৰ প্ৰগনানন্দ"
+    },
+    {
+     "en": "Nihal Sarin and Koneru Humpy",
+     "as": "নিহাল সৰিন আৰু কোনেৰু হাম্পী"
+    },
+    {
+     "en": "Pentala Harikrishna and Tania Sachdev",
+     "as": "পেণ্টালা হৰিকৃষ্ণ আৰু তানিয়া সচদেৱ"
+    },
+    {
+     "en": "Viswanathan Anand and Vidit Gujrathi",
+     "as": "বিশ্বনাথন আনন্দ আৰু বিদিত গুজৰাথী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nihal Sarin and Koneru Humpy won gold at the European Chess Club Cup 2026.",
+    "as": "নিহাল সৰিন আৰু কোনেৰু হাম্পীয়ে ২০২৬ ইউৰোপীয় দবা ক্লাব কাপত স্বৰ্ণ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-112",
+   "q": {
+    "en": "Which Indian city will host the 2029 World Weightlifting Championships?",
+    "as": "২০২৯ চনৰ বিশ্ব ভাৰউত্তোলন চেম্পিয়নশ্বিপ কোন ভাৰতীয় চহৰে আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "Kolkata",
+     "as": "কলকাতা"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Ahmedabad",
+     "as": "আহমেদাবাদ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ahmedabad will host the 2029 World Weightlifting Championships.",
+    "as": "আহমেদাবাদে ২০২৯ চনৰ বিশ্ব ভাৰউত্তোলন চেম্পিয়নশ্বিপ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-113",
+   "q": {
+    "en": "Which two sportspersons were nominated to the 2030 Commonwealth Games Organising Board?",
+    "as": "২০৩০ কমনৱেলথ গেমছ আয়োজন সমিতিলৈ কোন দুজন খেলুৱৈ মনোনীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Neeraj Chopra and P. V. Sindhu",
+     "as": "নীৰজ চোপ্ৰা আৰু পি ভি সিন্ধু"
+    },
+    {
+     "en": "Rahul Dravid and Saina Nehwal",
+     "as": "ৰাহুল দ্ৰাবিড় আৰু ছাইনা নেহৱাল"
+    },
+    {
+     "en": "Sachin Tendulkar and P. T. Usha",
+     "as": "সচিন তেন্দুলকাৰ আৰু পি টি ঊষা"
+    },
+    {
+     "en": "Kapil Dev and Mary Kom",
+     "as": "কপিল দেৱ আৰু মেৰী কম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rahul Dravid and Saina Nehwal were nominated to the 2030 CWG Board.",
+    "as": "ৰাহুল দ্ৰাবিড় আৰু ছাইনা নেহৱাল ২০৩০ চিৱিজি বৰ্ডলৈ মনোনীত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-114",
+   "q": {
+    "en": "How many sporting disciplines will feature in the 2030 Commonwealth Games in Ahmedabad?",
+    "as": "আহমেদাবাদত ২০৩০ কমনৱেলথ গেমছত কিমানটা ক্ৰীড়া বিভাগ থাকিব?"
+   },
+   "options": [
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The 2030 Commonwealth Games in Ahmedabad will have 17 sporting disciplines.",
+    "as": "আহমেদাবাদত ২০৩০ কমনৱেলথ গেমছত ১৭ টা ক্ৰীড়া বিভাগ থাকিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-115",
+   "q": {
+    "en": "Which Indian wrestler was the first to win a senior world title before Manisha Bhanwala?",
+    "as": "মনীষা ভানৱালাৰ আগতে কোন ভাৰতীয় মল্লযুঁজাৰুৱে প্ৰথমে চিনিয়ৰ বিশ্ব খিতাপ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Yogeshwar Dutt",
+     "as": "যোগেশ্বৰ দত্ত"
+    },
+    {
+     "en": "Sushil Kumar",
+     "as": "সুশীল কুমাৰ"
+    },
+    {
+     "en": "Ravi Dahiya",
+     "as": "ৰবি দাহিয়া"
+    },
+    {
+     "en": "Bajrang Punia",
+     "as": "বজৰং পুনিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sushil Kumar won a senior world title in 2010.",
+    "as": "সুশীল কুমাৰে ২০১০ চনত চিনিয়ৰ বিশ্ব খিতাপ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-116",
+   "q": {
+    "en": "India's 200th outright T20I win came against which team?",
+    "as": "ভাৰতৰ ২০০ সংখ্যক স্পষ্ট টি-২০ বিজয় কোন দলৰ বিৰুদ্ধে আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
+    },
+    {
+     "en": "New Zealand",
+     "as": "নিউজিলেণ্ড"
+    },
+    {
+     "en": "South Africa",
+     "as": "দক্ষিণ আফ্ৰিকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "India's 200th outright T20I win came against New Zealand.",
+    "as": "ভাৰতৰ ২০০ সংখ্যক স্পষ্ট টি-২০ বিজয় নিউজিলেণ্ডৰ বিৰুদ্ধে আহিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-117",
+   "q": {
+    "en": "Which Indian woman wrestler won a silver at the 2026 World Wrestling Championships in the 50kg category?",
+    "as": "২০২৬ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপৰ ৫০ কেজি শাখাত কোন ভাৰতীয় মহিলা মল্লযুঁজাৰুৱে ৰূপ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Manisha Bhanwala",
+     "as": "মনীষা ভানৱালা"
+    },
+    {
+     "en": "Sakshi Malik",
+     "as": "সাক্ষী মালিক"
+    },
+    {
+     "en": "Neelam Sirohi",
+     "as": "নীলম সিৰোহী"
+    },
+    {
+     "en": "Kajal Dhochak",
+     "as": "কাজল ধোচাক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Neelam Sirohi won silver in the 50kg category at the 2026 World Wrestling Championships.",
+    "as": "নীলম সিৰোহীয়ে ২০২৬ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপৰ ৫০ কেজি শাখাত ৰূপ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-118",
+   "q": {
+    "en": "Which Indian cueist's 2026 world title was his 21st world championship in billiards?",
+    "as": "২০২৬ চনত কোন ভাৰতীয় কিয়িষ্টৰ বিশ্ব খিতাপ তেওঁৰ বিলিয়াৰ্ডছৰ ২১ সংখ্যক বিশ্ব চেম্পিয়নশ্বিপ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Aditya Mehta",
+     "as": "আদিত্য মেহতা"
+    },
+    {
+     "en": "Michael Ferreira",
+     "as": "মাইকেল ফেৰেৰা"
+    },
+    {
+     "en": "Geet Sethi",
+     "as": "গীত শেঠী"
+    },
+    {
+     "en": "Pankaj Advani",
+     "as": "পংকজ আডভাণী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pankaj Advani's 2026 title was his 21st world championship in billiards.",
+    "as": "পংকজ আডভাণীৰ ২০২৬ চনৰ খিতাপ তেওঁৰ বিলিয়াৰ্ডছৰ ২১ সংখ্যক বিশ্ব চেম্পিয়নশ্বিপ আছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-119",
+   "q": {
+    "en": "Which country did Manisha Bhanwala defeat in the 2026 World Wrestling Championships final?",
+    "as": "২০২৬ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপৰ ফাইনেলত মনীষা ভানৱালাই কোন দেশক পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "USA",
+     "as": "আমেৰিকা"
+    },
+    {
+     "en": "Japan",
+     "as": "জাপান"
+    },
+    {
+     "en": "Russia",
+     "as": "ৰাছিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Manisha Bhanwala defeated an American wrestler in the final.",
+    "as": "মনীষা ভানৱালাই ফাইনেলত এগৰাকী আমেৰিকান মল্লযুঁজাৰুক পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-120",
+   "q": {
+    "en": "Which sport is Pankaj Advani associated with?",
+    "as": "পংকজ আডভাণী কোন খেলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Chess",
+     "as": "দবা"
+    },
+    {
+     "en": "Tennis",
+     "as": "টেনিছ"
+    },
+    {
+     "en": "Badminton",
+     "as": "বেডমিণ্টন"
+    },
+    {
+     "en": "Billiards and snooker",
+     "as": "বিলিয়াৰ্ডছ আৰু স্নুকাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pankaj Advani is associated with billiards and snooker.",
+    "as": "পংকজ আডভাণী বিলিয়াৰ্ডছ আৰু স্নুকাৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-121",
+   "q": {
+    "en": "Which Indian player won the Almaty Open doubles title in 2026?",
+    "as": "২০২৬ চনত কোন ভাৰতীয় খেলুৱৈয়ে আলমাটি অপেন দ্বৈত খিতাপ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Yuki Bhambri",
+     "as": "য়ুকি ভাম্বৰী"
+    },
+    {
+     "en": "Rohan Bopanna",
+     "as": "ৰোহন বোপান্না"
+    },
+    {
+     "en": "Leander Paes",
+     "as": "লিয়েণ্ডাৰ পেজ"
+    },
+    {
+     "en": "Mahesh Bhupathi",
+     "as": "মহেশ ভূপতি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Yuki Bhambri won the Almaty Open doubles title in 2026.",
+    "as": "য়ুকি ভাম্বৰীয়ে ২০২৬ চনত আলমাটি অপেন দ্বৈত খিতাপ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-122",
+   "q": {
+    "en": "Which Indian woman wrestler won a silver at the 2026 World Wrestling Championships in the 76kg category?",
+    "as": "২০২৬ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপৰ ৭৬ কেজি শাখাত কোন ভাৰতীয় মহিলা মল্লযুঁজাৰুৱে ৰূপ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Manisha Bhanwala",
+     "as": "মনীষা ভানৱালা"
+    },
+    {
+     "en": "Vinesh Phogat",
+     "as": "বিনেশ ফোগাট"
+    },
+    {
+     "en": "Neelam Sirohi",
+     "as": "নীলম সিৰোহী"
+    },
+    {
+     "en": "Kajal Dhochak",
+     "as": "কাজল ধোচাক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kajal Dhochak won silver in the 76kg category.",
+    "as": "কাজল ধোচাকে ৭৬ কেজি শাখাত ৰূপ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-123",
+   "q": {
+    "en": "In which sport did Nihal Sarin win a gold medal at the 2026 European Chess Club Cup?",
+    "as": "২০২৬ ইউৰোপীয় দবা ক্লাব কাপত নিহাল সৰিনে কোন খেলত স্বৰ্ণ পদক জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Billiards",
+     "as": "বিলিয়াৰ্ডছ"
+    },
+    {
+     "en": "Chess",
+     "as": "দবা"
+    },
+    {
+     "en": "Snooker",
+     "as": "স্নুকাৰ"
+    },
+    {
+     "en": "Table tennis",
+     "as": "টেবুল টেনিছ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nihal Sarin won a gold medal in chess.",
+    "as": "নিহাল সৰিনে দবাত স্বৰ্ণ পদক জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-124",
+   "q": {
+    "en": "Which Indian state will host the 2030 Commonwealth Games?",
+    "as": "২০৩০ কমনৱেলথ গেমছ কোন ভাৰতীয় ৰাজ্যই আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Tamil Nadu",
+     "as": "তামিলনাডু"
+    },
+    {
+     "en": "Karnataka",
+     "as": "কৰ্ণাটক"
+    },
+    {
+     "en": "Maharashtra",
+     "as": "মহাৰাষ্ট্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gujarat will host the 2030 Commonwealth Games in Ahmedabad.",
+    "as": "গুজৰাটে আহমেদাবাদত ২০৩০ কমনৱেলথ গেমছ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-125",
+   "q": {
+    "en": "Which country will host the 2030 Senior World Weightlifting Championships?",
+    "as": "২০৩০ চনৰ চিনিয়ৰ বিশ্ব ভাৰউত্তোলন চেম্পিয়নশ্বিপ কোন দেশে আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "Kazakhstan",
+     "as": "কাজাখস্তান"
+    },
+    {
+     "en": "Russia",
+     "as": "ৰাছিয়া"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Russia will host the 2030 Senior World Weightlifting Championships in Moscow.",
+    "as": "ৰাছিয়াই মস্কোত ২০৩০ চিনিয়ৰ বিশ্ব ভাৰউত্তোলন চেম্পিয়নশ্বিপ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-126",
+   "q": {
+    "en": "Which trophy did Pankaj Advani receive for his 2026 world title?",
+    "as": "২০২৬ চনৰ বিশ্ব খিতাপৰ বাবে পংকজ আডভাণীয়ে কোন ট্ৰফী লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "John Roberts Trophy",
+     "as": "জন ৰবাৰ্টছ ট্ৰফী"
+    },
+    {
+     "en": "Irani Cup",
+     "as": "ইৰাণী কাপ"
+    },
+    {
+     "en": "Ranji Trophy",
+     "as": "ৰঞ্জী ট্ৰফী"
+    },
+    {
+     "en": "Duleep Trophy",
+     "as": "দলীপ ট্ৰফী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pankaj Advani received the John Roberts Trophy.",
+    "as": "পংকজ আডভাণীয়ে জন ৰবাৰ্টছ ট্ৰফী লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-127",
+   "q": {
+    "en": "Which Indian para-athlete defended his Asian Para Games javelin F64 title in 2026?",
+    "as": "২০২৬ চনত কোন ভাৰতীয় পেৰা-এথলীটে এছিয়ান পেৰা গেমছ জেভলিন এফ৬৪ খিতাপ ৰক্ষা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Amit Kumar",
+     "as": "অমিত কুমাৰ"
+    },
+    {
+     "en": "Devendra Jhajharia",
+     "as": "দেৱেন্দ্ৰ ঝাঝাৰিয়া"
+    },
+    {
+     "en": "Sumit Antil",
+     "as": "সুমিত আন্তিল"
+    },
+    {
+     "en": "Sundar Singh Gurjar",
+     "as": "সুন্দৰ সিং গুৰ্জাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sumit Antil defended his Asian Para Games javelin F64 title in 2026.",
+    "as": "সুমিত আন্তিলে ২০২৬ চনত এছিয়ান পেৰা গেমছ জেভলিন এফ৬৪ খিতাপ ৰক্ষা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-128",
+   "q": {
+    "en": "Which Indian city is scheduled to host the 2030 Commonwealth Games?",
+    "as": "২০৩০ কমনৱেলথ গেমছ আয়োজনৰ বাবে কোন ভাৰতীয় চহৰ নিৰ্ধাৰিত?"
+   },
+   "options": [
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Ahmedabad",
+     "as": "আহমেদাবাদ"
+    },
+    {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ahmedabad is scheduled to host the 2030 Commonwealth Games.",
+    "as": "আহমেদাবাদ ২০৩০ কমনৱেলথ গেমছ আয়োজনৰ বাবে নিৰ্ধাৰিত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-129",
+   "q": {
+    "en": "How many years did it take India to reach 200 outright T20I victories?",
+    "as": "ভাৰতে ২০০ টা স্পষ্ট টি-২০ বিজয়ত উপনীত হ'বলৈ কিমান বছৰ লাগিছিল?"
+   },
+   "options": [
+    {
+     "en": "About 30 years",
+     "as": "প্ৰায় ৩০ বছৰ"
+    },
+    {
+     "en": "About 19 years",
+     "as": "প্ৰায় ১৯ বছৰ"
+    },
+    {
+     "en": "About 10 years",
+     "as": "প্ৰায় ১০ বছৰ"
+    },
+    {
+     "en": "About 25 years",
+     "as": "প্ৰায় ২৫ বছৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "India reached 200 outright T20I victories in about 19 years.",
+    "as": "ভাৰতে প্ৰায় ১৯ বছৰত ২০০ টা স্পষ্ট টি-২০ বিজয়ত উপনীত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-130",
+   "q": {
+    "en": "Which country's team did India defeat for its 300th men's T20I appearance landmark?",
+    "as": "ভাৰতৰ ৩০০ সংখ্যক পুৰুষ টি-২০ উপস্থিতিৰ মাইলৰ্খই কোন দেশৰ বিৰুদ্ধে আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sri Lanka",
+     "as": "শ্ৰীলংকা"
+    },
+    {
+     "en": "New Zealand",
+     "as": "নিউজিলেণ্ড"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "India's 300th men's T20I appearance was against New Zealand.",
+    "as": "ভাৰতৰ ৩০০ সংখ্যক পুৰুষ টি-২০ উপস্থিতি নিউজিলেণ্ডৰ বিৰুদ্ধে আছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-131",
+   "q": {
+    "en": "Which Indian shuttler won the Almaty Open doubles title?",
+    "as": "কোন ভাৰতীয় বেডমিণ্টন খেলুৱৈয়ে আলমাটি অপেন দ্বৈত খিতাপ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rohan Bopanna",
+     "as": "ৰোহন বোপান্না"
+    },
+    {
+     "en": "Yuki Bhambri",
+     "as": "য়ুকি ভাম্বৰী"
+    },
+    {
+     "en": "Leander Paes",
+     "as": "লিয়েণ্ডাৰ পেজ"
+    },
+    {
+     "en": "Sania Mirza",
+     "as": "ছানিয়া মিৰ্জা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Yuki Bhambri won the Almaty Open doubles title.",
+    "as": "য়ুকি ভাম্বৰীয়ে আলমাটি অপেন দ্বৈত খিতাপ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-132",
+   "q": {
+    "en": "Which international weightlifting body awarded the 2029 Championships to India?",
+    "as": "কোন আন্তৰ্জাতিক ভাৰউত্তোলন সংস্থাই ভাৰতক ২০২৯ চেম্পিয়নশ্বিপ প্ৰদান কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "World Athletics",
+     "as": "ৱৰ্ল্ড এথলেটিকছ"
+    },
+    {
+     "en": "International Olympic Committee",
+     "as": "আন্তৰ্জাতিক অলিম্পিক কমিটি"
+    },
+    {
+     "en": "FIFA",
+     "as": "ফিফা"
+    },
+    {
+     "en": "International Weightlifting Federation",
+     "as": "আন্তৰ্জাতিক ভাৰউত্তোলন সংস্থা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The International Weightlifting Federation awarded the 2029 Championships to India.",
+    "as": "আন্তৰ্জাতিক ভাৰউত্তোলন সংস্থাই ভাৰতক ২০২৯ চেম্পিয়নশ্বিপ প্ৰদান কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-133",
+   "q": {
+    "en": "Which Indian sportsperson won the women's 59kg world wrestling gold in 2026?",
+    "as": "২০২৬ চনত কোন ভাৰতীয় খেলুৱৈয়ে মহিলাৰ ৫৯ কেজি বিশ্ব মল্লযুঁজ স্বৰ্ণ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Kajal Dhochak",
+     "as": "কাজল ধোচাক"
+    },
+    {
+     "en": "Neelam Sirohi",
+     "as": "নীলম সিৰোহী"
+    },
+    {
+     "en": "Manisha Bhanwala",
+     "as": "মনীষা ভানৱালা"
+    },
+    {
+     "en": "Sakshi Malik",
+     "as": "সাক্ষী মালিক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Manisha Bhanwala won the women's 59kg world wrestling gold in 2026.",
+    "as": "মনীষা ভানৱালাই ২০২৬ চনত মহিলাৰ ৫৯ কেজি বিশ্ব মল্লযুঁজ স্বৰ্ণ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-134",
+   "q": {
+    "en": "Which sportsperson from Haryana won gold at the 2026 World Wrestling Championships?",
+    "as": "হাৰিয়ানাৰ কোন খেলুৱৈয়ে ২০২৬ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপত স্বৰ্ণ জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bajrang Punia",
+     "as": "বজৰং পুনিয়া"
+    },
+    {
+     "en": "Manisha Bhanwala",
+     "as": "মনীষা ভানৱালা"
+    },
+    {
+     "en": "Sakshi Malik",
+     "as": "সাক্ষী মালিক"
+    },
+    {
+     "en": "Vinesh Phogat",
+     "as": "বিনেশ ফোগাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Manisha Bhanwala of Haryana won gold at the 2026 World Wrestling Championships.",
+    "as": "হাৰিয়ানাৰ মনীষা ভানৱালাই ২০২৬ বিশ্ব মল্লযুঁজ চেম্পিয়নশ্বিপত স্বৰ্ণ জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-135",
+   "q": {
+    "en": "Which navigation satellite did ISRO launch on GSLV-F18 in October 2026?",
+    "as": "২০২৬ চনৰ অক্টোবৰত ইছৰ'ৱে জিএছএলভি-এফ১৮ ত কোন নেভিগেশন উপগ্ৰহ উৎক্ষেপণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "NVS-03",
+     "as": "এনভিএছ-০৩"
+    },
+    {
+     "en": "IRNSS-1A",
+     "as": "আইআৰএনএছএছ-১এ"
+    },
+    {
+     "en": "NVS-01",
+     "as": "এনভিএছ-০১"
+    },
+    {
+     "en": "GSAT-24",
+     "as": "জিএছএটি-২৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "ISRO launched the NVS-03 navigation satellite on GSLV-F18.",
+    "as": "ইছৰ'ৱে জিএছএলভি-এফ১৮ ত এনভিএছ-০৩ নেভিগেশন উপগ্ৰহ উৎক্ষেপণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-136",
+   "q": {
+    "en": "Which constellation does the NVS-03 satellite support?",
+    "as": "এনভিএছ-০৩ উপগ্ৰহই কোন নক্ষত্ৰপুঞ্জক সমৰ্থন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Galileo",
+     "as": "গেলিলিঅ'"
+    },
+    {
+     "en": "GLONASS",
+     "as": "গ্ল'নাছ"
+    },
+    {
+     "en": "GPS",
+     "as": "জিপিএছ"
+    },
+    {
+     "en": "NavIC",
+     "as": "নাভিক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "NVS-03 supports the NavIC navigation system.",
+    "as": "এনভিএছ-০৩ য়ে নাভিক নেভিগেশন প্ৰণালীক সমৰ্থন কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-137",
+   "q": {
+    "en": "From which spaceport was GSLV-F18 launched?",
+    "as": "জিএছএলভি-এফ১৮ কোন মহাকাশ বন্দৰৰ পৰা উৎক্ষেপণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Sriharikota",
+     "as": "শ্ৰীহৰিকোটা"
+    },
+    {
+     "en": "Kourou",
+     "as": "কুৰু"
+    },
+    {
+     "en": "Thumba",
+     "as": "থুম্বা"
+    },
+    {
+     "en": "Baikonur",
+     "as": "বাইকনুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "GSLV-F18 was launched from Sriharikota.",
+    "as": "জিএছএলভি-এফ১৮ শ্ৰীহৰিকোটাৰ পৰা উৎক্ষেপণ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-138",
+   "q": {
+    "en": "What is the name of the Mars meteorite that revealed ancient water history?",
+    "as": "প্ৰাচীন জলৰ ইতিহাস প্ৰকাশ কৰা মঙ্গল গ্ৰহৰ উল্কাপিণ্ডৰ নাম কি?"
+   },
+   "options": [
+    {
+     "en": "Nakhla",
+     "as": "নাখলা"
+    },
+    {
+     "en": "Teghaza 001",
+     "as": "তেঘাজা ০০১"
+    },
+    {
+     "en": "Shergotty",
+     "as": "শ্বেৰগট্টি"
+    },
+    {
+     "en": "Allan Hills 84001",
+     "as": "এলান হিলছ ৮৪০০১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Teghaza 001 revealed the ancient water history of Mars.",
+    "as": "তেঘাজা ০০১ য়ে মঙ্গল গ্ৰহৰ প্ৰাচীন জলৰ ইতিহাস প্ৰকাশ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-139",
+   "q": {
+    "en": "In which country was the Teghaza 001 meteorite found?",
+    "as": "তেঘাজা ০০১ উল্কাপিণ্ড কোন দেশত পোৱা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Algeria",
+     "as": "আলজেৰিয়া"
+    },
+    {
+     "en": "Egypt",
+     "as": "ইজিপ্ত"
+    },
+    {
+     "en": "Mali",
+     "as": "মালি"
+    },
+    {
+     "en": "Morocco",
+     "as": "মৰক্কো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Teghaza 001 meteorite was found in Mali.",
+    "as": "তেঘাজা ০০১ উল্কাপিণ্ড মালিত পোৱা গৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-140",
+   "q": {
+    "en": "Which organisation announced the discovery of the possible dwarf planet 2026 ED138?",
+    "as": "সম্ভাব্য বামন গ্ৰহ ২০২৬ ইডি১৩৮ আৱিষ্কাৰৰ ঘোষণা কোন সংস্থাই কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "International Astronomical Union's Minor Planet Center",
+     "as": "আন্তৰ্জাতিক জ্যোতিৰ্বিজ্ঞান সংঘৰ লঘু গ্ৰহ কেন্দ্ৰ"
+    },
+    {
+     "en": "NASA",
+     "as": "নাছা"
+    },
+    {
+     "en": "ISRO",
+     "as": "ইছৰ'"
+    },
+    {
+     "en": "ESA",
+     "as": "ইএছএ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The IAU Minor Planet Center announced 2026 ED138 as a possible dwarf planet.",
+    "as": "আইএইউ লঘু গ্ৰহ কেন্দ্ৰই ২০২৬ ইডি১৩৮ ক সম্ভাব্য বামন গ্ৰহ হিচাপে ঘোষণা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-141",
+   "q": {
+    "en": "Which observatory detected the possible dwarf planet 2026 ED138?",
+    "as": "কোন মানমন্দিৰে সম্ভাব্য বামন গ্ৰহ ২০২৬ ইডি১৩৮ চিনাক্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hubble Space Telescope",
+     "as": "হাবল মহাকাশ দূৰবীক্ষণ"
+    },
+    {
+     "en": "James Webb Telescope",
+     "as": "জেমছ ৱেব দূৰবীক্ষণ"
+    },
+    {
+     "en": "Keck Observatory",
+     "as": "কেক মানমন্দিৰ"
+    },
+    {
+     "en": "Vera C. Rubin Observatory",
+     "as": "ভেৰা চি ৰুবিন মানমন্দিৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Vera C. Rubin Observatory detected 2026 ED138.",
+    "as": "ভেৰা চি ৰুবিন মানমন্দিৰে ২০২৬ ইডি১৩৮ চিনাক্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-142",
+   "q": {
+    "en": "What is the name of Google's project that ran an AI model in orbit?",
+    "as": "কক্ষপথত এআই মডেল চলোৱা গুগলৰ প্ৰকল্পৰ নাম কি?"
+   },
+   "options": [
+    {
+     "en": "Project Soli",
+     "as": "প্ৰজেক্ট ছলি"
+    },
+    {
+     "en": "Project Suncatcher",
+     "as": "প্ৰজেক্ট ছানকেচাৰ"
+    },
+    {
+     "en": "Project Wing",
+     "as": "প্ৰজেক্ট ৱিং"
+    },
+    {
+     "en": "Project Loon",
+     "as": "প্ৰজেক্ট লুন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Google's Project Suncatcher ran an AI model in orbit.",
+    "as": "গুগলৰ প্ৰজেক্ট ছানকেচাৰে কক্ষপথত এআই মডেল চলাইছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-143",
+   "q": {
+    "en": "Which AI model ran aboard Google's Project Suncatcher satellite?",
+    "as": "গুগলৰ প্ৰজেক্ট ছানকেচাৰ উপগ্ৰহত কোন এআই মডেলে কাম কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Gemma",
+     "as": "জেমা"
+    },
+    {
+     "en": "Llama",
+     "as": "লামা"
+    },
+    {
+     "en": "ChatGPT",
+     "as": "চেটজিপিটি"
+    },
+    {
+     "en": "Claude",
+     "as": "ক্লড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gemma AI model ran aboard the Project Suncatcher satellite.",
+    "as": "জেমা এআই মডেলে প্ৰজেক্ট ছানকেচাৰ উপগ্ৰহত কাম কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-144",
+   "q": {
+    "en": "Which space agency's mission is BioSentinel?",
+    "as": "বায়'চেণ্টিনেল কোন মহাকাশ সংস্থাৰ অভিযান?"
+   },
+   "options": [
+    {
+     "en": "NASA",
+     "as": "নাছা"
+    },
+    {
+     "en": "ESA",
+     "as": "ইএছএ"
+    },
+    {
+     "en": "JAXA",
+     "as": "জাক্সা"
+    },
+    {
+     "en": "ISRO",
+     "as": "ইছৰ'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "BioSentinel is a NASA astrobiology mission.",
+    "as": "বায়'চেণ্টিনেল নাছাৰ এক জ্যোতিৰ্জীৱবিজ্ঞান অভিযান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-145",
+   "q": {
+    "en": "What organism does NASA's BioSentinel study?",
+    "as": "নাছাৰ বায়'চেণ্টিনেলে কোন জীৱ অধ্যয়ন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Algae",
+     "as": "শেলাই"
+    },
+    {
+     "en": "Budding yeast",
+     "as": "বাডিং য়িষ্ট"
+    },
+    {
+     "en": "Fungi",
+     "as": "ভেঁকুৰ"
+    },
+    {
+     "en": "Bacteria",
+     "as": "বেক্টেৰিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "BioSentinel studies the effects of deep-space radiation on budding yeast.",
+    "as": "বায়'চেণ্টিনেলে গভীৰ মহাকাশৰ ৰশ্মিৰ বাডিং য়িষ্টৰ ওপৰত প্ৰভাৱ অধ্যয়ন কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-146",
+   "q": {
+    "en": "Which new fungal species was discovered in the Sikkim Himalaya in 2026?",
+    "as": "২০২৬ চনত ছিক্কিম হিমালয়ত কোন নতুন ভেঁকুৰ প্ৰজাতি আৱিষ্কাৰ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Aspergillus himalaya",
+     "as": "এছপাৰ্জিলাছ হিমালয়"
+    },
+    {
+     "en": "Candida sikkim",
+     "as": "কেণ্ডিডা ছিক্কিম"
+    },
+    {
+     "en": "Penicillium sikkimensis",
+     "as": "পেনিচিলিয়াম ছিক্কিমেনচিছ"
+    },
+    {
+     "en": "Mollisia sokpayensia",
+     "as": "মলিচিয়া ছকপায়েনচিয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mollisia sokpayensia was discovered in the Sikkim Himalaya.",
+    "as": "মলিচিয়া ছকপায়েনচিয়া ছিক্কিম হিমালয়ত আৱিষ্কাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-147",
+   "q": {
+    "en": "Which journal published the study of the new giant waterlily species Victoria colombiana?",
+    "as": "নতুন দৈত্যাকাৰ জলপদ্ম প্ৰজাতি ভিক্টোৰিয়া কলম্বিয়ানাৰ অধ্যয়ন কোন আলোচনীয়ে প্ৰকাশ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Cell",
+     "as": "চেল"
+    },
+    {
+     "en": "Science",
+     "as": "ছায়েন্স"
+    },
+    {
+     "en": "Phytotaxa",
+     "as": "ফাইট'টেক্সা"
+    },
+    {
+     "en": "Nature",
+     "as": "নেচাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The study was published in the botanical journal Phytotaxa.",
+    "as": "অধ্যয়নখন ফাইট'টেক্সা উদ্ভিদবিজ্ঞান আলোচনীত প্ৰকাশ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-148",
+   "q": {
+    "en": "Which journal published the study of a fully marine amphibian from 237 million years ago?",
+    "as": "২৩.৭ কোটি বছৰ পুৰণি সম্পূৰ্ণ সাগৰীয় উভচৰ প্ৰাণীৰ অধ্যয়ন কোন আলোচনীয়ে প্ৰকাশ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nature Ecology & Evolution",
+     "as": "নেচাৰ ইক'লজি এণ্ড ইভ'লিউচন"
+    },
+    {
+     "en": "Cell",
+     "as": "চেল"
+    },
+    {
+     "en": "Nature",
+     "as": "নেচাৰ"
+    },
+    {
+     "en": "Science",
+     "as": "ছায়েন্স"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The study appeared in Nature Ecology & Evolution.",
+    "as": "অধ্যয়নখন নেচাৰ ইক'লজি এণ্ড ইভ'লিউচনত প্ৰকাশ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-149",
+   "q": {
+    "en": "What is the name of the marine amphibian discovered from 237 million years ago?",
+    "as": "২৩.৭ কোটি বছৰ পুৰণি সাগৰীয় উভচৰ প্ৰাণীৰ নাম কি?"
+   },
+   "options": [
+    {
+     "en": "Ichthyostega",
+     "as": "ইকথিঅ'ষ্টেগা"
+    },
+    {
+     "en": "Tiktaalik",
+     "as": "টিকটালিক"
+    },
+    {
+     "en": "Acanthostega",
+     "as": "একেন্থ'ষ্টেগা"
+    },
+    {
+     "en": "Gerrothorax maritimus",
+     "as": "জেৰ'থ'ৰাক্স মেৰিটিমাছ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gerrothorax maritimus is the first known fully marine stem amphibian.",
+    "as": "জেৰ'থ'ৰাক্স মেৰিটিমাছ প্ৰথম জনাজাত সম্পূৰ্ণ সাগৰীয় উভচৰ প্ৰাণী।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-150",
+   "q": {
+    "en": "In which country were the fossils of Gerrothorax maritimus found?",
+    "as": "জেৰ'থ'ৰাক্স মেৰিটিমাছৰ জীৱাশ্ম কোন দেশত পোৱা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "Brazil",
+     "as": "ব্ৰাজিল"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
+     "en": "USA",
+     "as": "আমেৰিকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The fossils were found in Guizhou Province, China.",
+    "as": "জীৱাশ্ম চীনৰ গুইঝৌ প্ৰদেশত পোৱা গৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-151",
+   "q": {
+    "en": "What does BioSentinel measure in deep space?",
+    "as": "বায়'চেণ্টিনেলে গভীৰ মহাকাশত কি জোখে?"
+   },
+   "options": [
+    {
+     "en": "Gravity waves",
+     "as": "মাধ্যাকৰ্ষণ তৰংগ"
+    },
+    {
+     "en": "Solar wind speed",
+     "as": "সৌৰ বায়ুৰ গতি"
+    },
+    {
+     "en": "Effects of space radiation",
+     "as": "মহাকাশৰ ৰশ্মিৰ প্ৰভাৱ"
+    },
+    {
+     "en": "Cosmic dust",
+     "as": "মহাজাগতিক ধূলি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "BioSentinel studies the effects of deep-space radiation on living organisms.",
+    "as": "বায়'চেণ্টিনেলে গভীৰ মহাকাশৰ ৰশ্মিৰ জীৱৰ ওপৰত প্ৰভাৱ অধ্যয়ন কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-152",
+   "q": {
+    "en": "Which space agency launched the Project Suncatcher satellite aboard a SpaceX rocket?",
+    "as": "স্পেচএক্স ৰকেটত প্ৰজেক্ট ছানকেচাৰ উপগ্ৰহ কোন মহাকাশ সংস্থাই উৎক্ষেপণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "ISRO",
+     "as": "ইছৰ'"
+    },
+    {
+     "en": "ESA",
+     "as": "ইএছএ"
+    },
+    {
+     "en": "Google with Planet",
+     "as": "গুগল আৰু প্লেনেট"
+    },
+    {
+     "en": "NASA",
+     "as": "নাছা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Google developed Project Suncatcher with Planet.",
+    "as": "গুগলে প্লেনেটৰ সৈতে প্ৰজেক্ট ছানকেচাৰ বিকশিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-153",
+   "q": {
+    "en": "Which country's scientists led the study on the Guliya Plateau ice cores?",
+    "as": "গুলিয়া মালভূমিৰ বৰফৰ কেন্দ্ৰৰ অধ্যয়ন কোন দেশৰ বিজ্ঞানীসকলে নেতৃত্ব দিছিল?"
+   },
+   "options": [
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
+     "en": "Russia",
+     "as": "ৰাছিয়া"
+    },
+    {
+     "en": "USA",
+     "as": "আমেৰিকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The study was led by Lonnie Thompson of Ohio State University in the USA.",
+    "as": "অধ্যয়নখন আমেৰিকাৰ অহাইঅ' ষ্টেট বিশ্ববিদ্যালয়ৰ ল'নী থম্পছনে নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-154",
+   "q": {
+    "en": "What is the name of the giant waterlily genus to which Victoria colombiana belongs?",
+    "as": "ভিক্টোৰিয়া কলম্বিয়ানা কোন দৈত্যাকাৰ জলপদ্ম গণৰ অন্তৰ্গত?"
+   },
+   "options": [
+    {
+     "en": "Nymphaea",
+     "as": "নিম্ফিয়া"
+    },
+    {
+     "en": "Victoria",
+     "as": "ভিক্টোৰিয়া"
+    },
+    {
+     "en": "Nelumbo",
+     "as": "নেলুম্বো"
+    },
+    {
+     "en": "Lotus",
+     "as": "ল'টাছ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Victoria colombiana belongs to the genus Victoria.",
+    "as": "ভিক্টোৰিয়া কলম্বিয়ানা ভিক্টোৰিয়া গণৰ অন্তৰ্গত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-155",
+   "q": {
+    "en": "Which missile did Russia test-fire from a Borei-A class submarine in 2026?",
+    "as": "২০২৬ চনত ৰাছিয়াই ব'ৰেই-এ শ্ৰেণীৰ ডুবুজাহাজৰ পৰা কোন ক্ষেপণাস্ত্ৰ পৰীক্ষা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "BrahMos",
+     "as": "ব্ৰহ্মস"
+    },
+    {
+     "en": "Trident",
+     "as": "ট্ৰাইডেণ্ট"
+    },
+    {
+     "en": "Minuteman",
+     "as": "মিনিটমেন"
+    },
+    {
+     "en": "Bulava",
+     "as": "বুলাভা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Russia test-fired the Bulava submarine-launched ballistic missile.",
+    "as": "ৰাছিয়াই বুলাভা ডুবুজাহাজ-উৎক্ষেপিত ক্ষেপণাস্ত্ৰ পৰীক্ষা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-156",
+   "q": {
+    "en": "Which aircraft carrier saw the first landing of a Rafale Marine jet in 2026?",
+    "as": "২০২৬ চনত কোন বিমানবাহী জাহাজত ৰাফেল মেৰিন জেটৰ প্ৰথম অৱতৰণ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "INS Vikrant",
+     "as": "আইএনএছ বিক্ৰান্ত"
+    },
+    {
+     "en": "INS Vikramaditya",
+     "as": "আইএনএছ বিক্ৰমাদিত্য"
+    },
+    {
+     "en": "INS Viraat",
+     "as": "আইএনএছ বিৰাট"
+    },
+    {
+     "en": "INS Kolkata",
+     "as": "আইএনএছ কলকাতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A Rafale Marine made its first landing on INS Vikrant.",
+    "as": "ৰাফেল মেৰিনে আইএনএছ বিক্ৰান্তত প্ৰথম অৱতৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-157",
+   "q": {
+    "en": "Where was the first BIMSTEC maritime security exercise hosted by India?",
+    "as": "ভাৰতে আয়োজন কৰা প্ৰথম বিমষ্টেক সামুদ্ৰিক সুৰক্ষা অনুশীলন ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    },
+    {
+     "en": "Kochi",
+     "as": "কচি"
+    },
+    {
+     "en": "Sri Vijaya Puram",
+     "as": "শ্ৰী বিজয় পুৰম"
+    },
+    {
+     "en": "Visakhapatnam",
+     "as": "বিশাখাপট্টনম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The first BIMSTEC maritime security exercise was hosted at Sri Vijaya Puram.",
+    "as": "প্ৰথম বিমষ্টেক সামুদ্ৰিক সুৰক্ষা অনুশীলন শ্ৰী বিজয় পুৰমত আয়োজিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-158",
+   "q": {
+    "en": "Sri Vijaya Puram is the new name of which city?",
+    "as": "শ্ৰী বিজয় পুৰম কোন চহৰৰ নতুন নাম?"
+   },
+   "options": [
+    {
+     "en": "Pondicherry",
+     "as": "পণ্ডিচেৰী"
+    },
+    {
+     "en": "Daman",
+     "as": "দমন"
+    },
+    {
+     "en": "Port Blair",
+     "as": "পৰ্ট ব্লেয়াৰ"
+    },
+    {
+     "en": "Kavaratti",
+     "as": "কাভাৰত্তী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sri Vijaya Puram is the new name of Port Blair.",
+    "as": "শ্ৰী বিজয় পুৰম পৰ্ট ব্লেয়াৰৰ নতুন নাম।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-159",
+   "q": {
+    "en": "Which joint naval exercise did INS Sahyadri participate in at Busan in 2026?",
+    "as": "২০২৬ চনত আইএনএছ সহ্যাদ্ৰীয়ে বুচানত কোন যুটীয়া নৌ অনুশীলনত অংশগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Malabar exercise",
+     "as": "মালাবাৰ অনুশীলন"
+    },
+    {
+     "en": "Varuna exercise",
+     "as": "বৰুণা অনুশীলন"
+    },
+    {
+     "en": "India-Republic of Korea exercise",
+     "as": "ভাৰত-দক্ষিণ কোৰিয়া অনুশীলন"
+    },
+    {
+     "en": "Yudh Abhyas",
+     "as": "যুদ্ধ অভ্যাস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "INS Sahyadri participated in the India-ROK naval exercise at Busan.",
+    "as": "আইএনএছ সহ্যাদ্ৰীয়ে বুচানত ভাৰত-আৰঅকে নৌ অনুশীলনত অংশগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-160",
+   "q": {
+    "en": "Which class of frigate does INS Sahyadri belong to?",
+    "as": "আইএনএছ সহ্যাদ্ৰী কোন শ্ৰেণীৰ ফ্ৰিগেট?"
+   },
+   "options": [
+    {
+     "en": "Talwar class",
+     "as": "তলৱাৰ শ্ৰেণী"
+    },
+    {
+     "en": "Rajput class",
+     "as": "ৰাজপুত শ্ৰেণী"
+    },
+    {
+     "en": "Shivalik class",
+     "as": "শিৱালিক শ্ৰেণী"
+    },
+    {
+     "en": "Kolkata class",
+     "as": "কলকাতা শ্ৰেণী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "INS Sahyadri is a Shivalik-class guided missile stealth frigate.",
+    "as": "আইএনএছ সহ্যাদ্ৰী এখন শিৱালিক শ্ৰেণীৰ ক্ষেপণাস্ত্ৰ সুপ্ত ফ্ৰিগেট।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-161",
+   "q": {
+    "en": "Which exercise is India's largest multinational air combat exercise hosted in 2026?",
+    "as": "২০২৬ চনত আয়োজিত ভাৰতৰ আটাইতকৈ ডাঙৰ বহুজাতিক বিমান যুদ্ধ অনুশীলন কোন?"
+   },
+   "options": [
+    {
+     "en": "Malabar",
+     "as": "মালাবাৰ"
+    },
+    {
+     "en": "Tarang Shakti",
+     "as": "তৰং শক্তি"
+    },
+    {
+     "en": "Yudh Abhyas",
+     "as": "যুদ্ধ অভ্যাস"
+    },
+    {
+     "en": "Garuda",
+     "as": "গৰুড়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tarang Shakti is India's largest multinational air combat exercise.",
+    "as": "তৰং শক্তি ভাৰতৰ আটাইতকৈ ডাঙৰ বহুজাতিক বিমান যুদ্ধ অনুশীলন।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-162",
+   "q": {
+    "en": "Who retired as the Chief of the Air Staff of India in October 2026?",
+    "as": "২০২৬ চনৰ অক্টোবৰত কোনে ভাৰতৰ বায়ুসেনাৰ মুৰব্বী হিচাপে অৱসৰ লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Air Chief Marshal A. P. Singh",
+     "as": "এয়াৰ চীফ মাৰ্শাল এ পি সিং"
+    },
+    {
+     "en": "Air Chief Marshal Birender Singh Dhanoa",
+     "as": "এয়াৰ চীফ মাৰ্শাল বিৰেন্দ্ৰ সিং ধনোৱা"
+    },
+    {
+     "en": "Air Chief Marshal V. R. Chaudhari",
+     "as": "এয়াৰ চীফ মাৰ্শাল ভি আৰ চৌধুৰী"
+    },
+    {
+     "en": "Air Chief Marshal R. K. S. Bhadauria",
+     "as": "এয়াৰ চীফ মাৰ্শাল আৰ কে এছ ভদৌৰিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Air Chief Marshal A. P. Singh retired as Chief of the Air Staff.",
+    "as": "এয়াৰ চীফ মাৰ্শাল এ পি সিঙে বায়ুসেনাৰ মুৰব্বী হিচাপে অৱসৰ লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-163",
+   "q": {
+    "en": "Who succeeded A. P. Singh as the Chief of the Air Staff of India?",
+    "as": "এ পি সিঙৰ পিছত ভাৰতৰ বায়ুসেনাৰ মুৰব্বী কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Air Marshal Sandeep Singh",
+     "as": "এয়াৰ মাৰ্শাল সন্দীপ সিং"
+    },
+    {
+     "en": "Air Marshal Ashutosh Dixit",
+     "as": "এয়াৰ মাৰ্শাল আশুতোষ দীক্ষিত"
+    },
+    {
+     "en": "Air Marshal R. K. S. Bhadauria",
+     "as": "এয়াৰ মাৰ্শাল আৰ কে এছ ভদৌৰিয়া"
+    },
+    {
+     "en": "Air Marshal V. R. Chaudhari",
+     "as": "এয়াৰ মাৰ্শাল ভি আৰ চৌধুৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Air Marshal Ashutosh Dixit succeeded A. P. Singh.",
+    "as": "এয়াৰ মাৰ্শাল আশুতোষ দীক্ষিতে এ পি সিঙৰ উত্তৰাধিকাৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-164",
+   "q": {
+    "en": "Which DRDO event showcased India's indigenous defence capabilities in 2026?",
+    "as": "২০২৬ চনত কোন ডিআৰডিঅ' অনুষ্ঠানে ভাৰতৰ থলুৱা প্ৰতিৰক্ষা সামৰ্থ্য প্ৰদৰ্শন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "VISV-2026",
+     "as": "ভিআইএছভি-২০২৬"
+    },
+    {
+     "en": "Aero India",
+     "as": "এৰ' ইণ্ডিয়া"
+    },
+    {
+     "en": "DefExpo",
+     "as": "ডেফএক্সপো"
+    },
+    {
+     "en": "Milap",
+     "as": "মিলাপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "VISV-2026 showcased India's indigenous defence capabilities.",
+    "as": "ভিআইএছভি-২০২৬ য়ে ভাৰতৰ থলুৱা প্ৰতিৰক্ষা সামৰ্থ্য প্ৰদৰ্শন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-165",
+   "q": {
+    "en": "Which missile was tested by DRDO with MIRV technology?",
+    "as": "ডিআৰডিঅ'ৱে এমআইআৰভি প্ৰযুক্তিৰে কোন ক্ষেপণাস্ত্ৰ পৰীক্ষা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Prithvi",
+     "as": "পৃথিৱী"
+    },
+    {
+     "en": "Agni-V",
+     "as": "অগ্নি-৫"
+    },
+    {
+     "en": "BrahMos",
+     "as": "ব্ৰহ্মস"
+    },
+    {
+     "en": "Agni-IV",
+     "as": "অগ্নি-৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "DRDO tested the Agni-V missile with MIRV technology.",
+    "as": "ডিআৰডিঅ'ৱে এমআইআৰভি প্ৰযুক্তিৰে অগ্নি-৫ ক্ষেপণাস্ত্ৰ পৰীক্ষা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-166",
+   "q": {
+    "en": "Which is India's second nuclear-powered ballistic missile submarine?",
+    "as": "ভাৰতৰ দ্বিতীয় পাৰমাণৱিক-চালিত ব্যালিষ্টিক ক্ষেপণাস্ত্ৰ ডুবুজাহাজ কোন?"
+   },
+   "options": [
+    {
+     "en": "INS Kalvari",
+     "as": "আইএনএছ কলভাৰী"
+    },
+    {
+     "en": "INS Vagsheer",
+     "as": "আইএনএছ বাগশীৰ"
+    },
+    {
+     "en": "INS Arighaat",
+     "as": "আইএনএছ অৰিঘাত"
+    },
+    {
+     "en": "INS Arihant",
+     "as": "আইএনএছ অৰিহন্ত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "INS Arighaat is India's second nuclear-powered ballistic missile submarine.",
+    "as": "আইএনএছ অৰিঘাত ভাৰতৰ দ্বিতীয় পাৰমাণৱিক-চালিত ব্যালিষ্টিক ক্ষেপণাস্ত্ৰ ডুবুজাহাজ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-167",
+   "q": {
+    "en": "Which is the sixth and final Scorpene-class submarine commissioned into the Indian Navy?",
+    "as": "ভাৰতীয় নৌসেনাত নিযুক্ত ষষ্ঠ আৰু অন্তিম স্কৰ্পিন শ্ৰেণীৰ ডুবুজাহাজ কোন?"
+   },
+   "options": [
+    {
+     "en": "INS Vagir",
+     "as": "আইএনএছ বাগীৰ"
+    },
+    {
+     "en": "INS Khanderi",
+     "as": "আইএনএছ খাণ্ডেৰী"
+    },
+    {
+     "en": "INS Kalvari",
+     "as": "আইএনএছ কলভাৰী"
+    },
+    {
+     "en": "INS Vagsheer",
+     "as": "আইএনএছ বাগশীৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "INS Vagsheer is the sixth and final Scorpene-class submarine.",
+    "as": "আইএনএছ বাগশীৰ ষষ্ঠ আৰু অন্তিম স্কৰ্পিন শ্ৰেণীৰ ডুবুজাহাজ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-168",
+   "q": {
+    "en": "Which Indian Navy missile corvette was converted into a museum?",
+    "as": "কোন ভাৰতীয় নৌসেনাৰ ক্ষেপণাস্ত্ৰ কৰভেট সংগ্ৰহালয়লৈ ৰূপান্তৰিত কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "INS Sindhughosh",
+     "as": "আইএনএছ সিন্ধুঘোষ"
+    },
+    {
+     "en": "INS Veer",
+     "as": "আইএনএছ বীৰ"
+    },
+    {
+     "en": "INS Khukri",
+     "as": "আইএনএছ খুক্ৰী"
+    },
+    {
+     "en": "INS Nirbhik",
+     "as": "আইএনএছ নিৰ্ভীক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "INS Khukri was converted into a museum.",
+    "as": "আইএনএছ খুক্ৰীক সংগ্ৰহালয়লৈ ৰূপান্তৰিত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-169",
+   "q": {
+    "en": "Which country did India raise concerns with over an F-16 package for Pakistan in 2026?",
+    "as": "২০২৬ চনত পাকিস্তানৰ বাবে এফ-১৬ পেকেজৰ ওপৰত ভাৰতে কোন দেশৰ সৈতে চিন্তা উত্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Russia",
+     "as": "ৰাছিয়া"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    },
+    {
+     "en": "USA",
+     "as": "আমেৰিকা"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "India raised concerns with the USA over an F-16 package for Pakistan.",
+    "as": "পাকিস্তানৰ বাবে এফ-১৬ পেকেজৰ ওপৰত ভাৰতে আমেৰিকাৰ সৈতে চিন্তা উত্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-170",
+   "q": {
+    "en": "Which joint exercise is held between the Indian and Kazakh armies?",
+    "as": "ভাৰতীয় আৰু কাজাখ সেনাৰ মাজত কোন যুটীয়া অনুশীলন অনুষ্ঠিত হয়?"
+   },
+   "options": [
+    {
+     "en": "Yudh Abhyas",
+     "as": "যুদ্ধ অভ্যাস"
+    },
+    {
+     "en": "Varuna",
+     "as": "বৰুণা"
+    },
+    {
+     "en": "Garuda",
+     "as": "গৰুড়"
+    },
+    {
+     "en": "KAZIND",
+     "as": "কাজিন্দ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "KAZIND is the joint exercise between the Indian and Kazakh armies.",
+    "as": "কাজিন্দ ভাৰতীয় আৰু কাজাখ সেনাৰ মাজত যুটীয়া অনুশীলন।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-171",
+   "q": {
+    "en": "Which exercise is held between the Indian and Omani armies?",
+    "as": "ভাৰতীয় আৰু ওমানী সেনাৰ মাজত কোন অনুশীলন অনুষ্ঠিত হয়?"
+   },
+   "options": [
+    {
+     "en": "Al Najah",
+     "as": "আল নাজাহ"
+    },
+    {
+     "en": "Yudh Abhyas",
+     "as": "যুদ্ধ অভ্যাস"
+    },
+    {
+     "en": "Sampriti",
+     "as": "সম্প্ৰীতি"
+    },
+    {
+     "en": "Mitra Shakti",
+     "as": "মিত্ৰ শক্তি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Al Najah is the joint exercise between the Indian and Omani armies.",
+    "as": "আল নাজাহ ভাৰতীয় আৰু ওমানী সেনাৰ মাজত যুটীয়া অনুশীলন।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-172",
+   "q": {
+    "en": "Which missile did the USA approve for potential sale to Ukraine in 2026?",
+    "as": "২০২৬ চনত আমেৰিকাই ইউক্ৰেইনলৈ সম্ভাব্য বিক্ৰীৰ বাবে কোন ক্ষেপণাস্ত্ৰ অনুমোদন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Tomahawk",
+     "as": "টমাহক"
+    },
+    {
+     "en": "Patriot missiles",
+     "as": "পেট্ৰিয়ট ক্ষেপণাস্ত্ৰ"
+    },
+    {
+     "en": "HIMARS",
+     "as": "হাইমাৰ্ছ"
+    },
+    {
+     "en": "Javelin",
+     "as": "জেভলিন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The USA approved a potential sale of Patriot missiles to Ukraine.",
+    "as": "আমেৰিকাই ইউক্ৰেইনলৈ পেট্ৰিয়ট ক্ষেপণাস্ত্ৰৰ সম্ভাব্য বিক্ৰী অনুমোদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-173",
+   "q": {
+    "en": "Which two countries agreed to set up an AMRAAM assembly facility in 2026?",
+    "as": "২০২৬ চনত কোন দুখন দেশে এএমআৰএএএম সংযোজন সুবিধা স্থাপনত সন্মত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "USA and Japan",
+     "as": "আমেৰিকা আৰু জাপান"
+    },
+    {
+     "en": "USA and Australia",
+     "as": "আমেৰিকা আৰু অষ্ট্ৰেলিয়া"
+    },
+    {
+     "en": "Japan and India",
+     "as": "জাপান আৰু ভাৰত"
+    },
+    {
+     "en": "USA and India",
+     "as": "আমেৰিকা আৰু ভাৰত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The USA and Japan agreed on an AMRAAM assembly facility.",
+    "as": "আমেৰিকা আৰু জাপানে এএমআৰএএএম সংযোজন সুবিধাত সন্মত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-174",
+   "q": {
+    "en": "What does AMRAAM stand for?",
+    "as": "এএমআৰএএএম য়ে কি সূচায়?"
+   },
+   "options": [
+    {
+     "en": "Advanced Multi-Role Attack Missile",
+     "as": "অ্যাডভান্সড মাল্টি-ৰ'ল এটেক মিছাইল"
+    },
+    {
+     "en": "Air Missile Range System",
+     "as": "এয়াৰ মিছাইল ৰেঞ্জ চিষ্টেম"
+    },
+    {
+     "en": "Anti-Missile Radar Array",
+     "as": "এণ্টি-মিছাইল ৰাডাৰ এৰে"
+    },
+    {
+     "en": "Advanced Medium-Range Air-to-Air Missile",
+     "as": "অ্যাডভান্সড মিডিয়াম-ৰেঞ্জ এয়াৰ-টু-এয়াৰ মিছাইল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "AMRAAM stands for Advanced Medium-Range Air-to-Air Missile.",
+    "as": "এএমআৰএএএম য়ে অ্যাডভান্সড মিডিয়াম-ৰেঞ্জ এয়াৰ-টু-এয়াৰ মিছাইল সূচায়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-175",
+   "q": {
+    "en": "Which DRDO scheme funds innovation for the defence forces?",
+    "as": "কোন ডিআৰডিঅ' আঁচনিয়ে প্ৰতিৰক্ষা বাহিনীৰ বাবে উদ্ভাৱনক পুঁজি যোগায়?"
+   },
+   "options": [
+    {
+     "en": "Make-II",
+     "as": "মেক-২"
+    },
+    {
+     "en": "SPARK",
+     "as": "স্পাৰ্ক"
+    },
+    {
+     "en": "PLI",
+     "as": "পিএলআই"
+    },
+    {
+     "en": "iDEX",
+     "as": "আইডেক্স"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "iDEX funds startup innovation for the defence forces.",
+    "as": "আইডেক্সে প্ৰতিৰক্ষা বাহিনীৰ বাবে ষ্টাৰ্টআপ উদ্ভাৱনক পুঁজি যোগায়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-176",
+   "q": {
+    "en": "Which scheme supports the development of India's last border villages?",
+    "as": "কোন আঁচনিয়ে ভাৰতৰ শেষ সীমান্ত গাঁৱৰ উন্নয়নক সমৰ্থন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Vibrant Villages Programme",
+     "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী"
+    },
+    {
+     "en": "SAGY",
+     "as": "চাগী"
+    },
+    {
+     "en": "PM Gram Sadak Yojana",
+     "as": "পিএম গ্ৰাম সড়ক যোজনা"
+    },
+    {
+     "en": "Border Area Development Programme",
+     "as": "সীমান্ত অঞ্চল উন্নয়ন কাৰ্যসূচী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Vibrant Villages Programme supports border village development.",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচীয়ে সীমান্ত গাঁৱৰ উন্নয়নক সমৰ্থন কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-177",
+   "q": {
+    "en": "Which cyclone made landfall near Yanam in October 2026?",
+    "as": "২০২৬ চনৰ অক্টোবৰত কোন ঘূৰ্ণীবতাহে য়ানামৰ ওচৰত উপকূলত আঘাত হানিছিল?"
+   },
+   "options": [
+    {
+     "en": "Cyclone Yaas",
+     "as": "ঘূৰ্ণীবতাহ য়াছ"
+    },
+    {
+     "en": "Cyclone Amphan",
+     "as": "ঘূৰ্ণীবতাহ আম্পান"
+    },
+    {
+     "en": "Cyclone Arnab",
+     "as": "ঘূৰ্ণীবতাহ অৰ্ণব"
+    },
+    {
+     "en": "Cyclone Remal",
+     "as": "ঘূৰ্ণীবতাহ ৰেমাল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Cyclone Arnab made landfall near Yanam in October 2026.",
+    "as": "ঘূৰ্ণীবতাহ অৰ্ণবে ২০২৬ চনৰ অক্টোবৰত য়ানামৰ ওচৰত উপকূলত আঘাত হানিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-178",
+   "q": {
+    "en": "A glacial lake outburst flood in Bhutan in 2026 affected which Indian state's districts?",
+    "as": "২০২৬ চনত ভূটানত হোৱা হিমবাহ হ্ৰদ বিস্ফোৰণে কোন ভাৰতীয় ৰাজ্যৰ জিলাক প্ৰভাৱিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Sikkim",
+     "as": "ছিক্কিম"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Bhutan GLOF triggered flood alerts in Assam and West Bengal.",
+    "as": "ভূটানৰ গ্লফে অসম আৰু পশ্চিমবংগত বানপানী সতৰ্কতা সৃষ্টি কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-179",
+   "q": {
+    "en": "Which district of Assam was NOT listed in the 2026 GLOF flood advisory?",
+    "as": "২০২৬ চনৰ গ্লফ বানপানী উপদেশত অসমৰ কোন জিলা উল্লেখ কৰা নাছিল?"
+   },
+   "options": [
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Baksa",
+     "as": "বাক্সা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dhubri, Kokrajhar, Baksa and Chirang were listed in the advisory.",
+    "as": "ধুবুৰী, কোকৰাঝাৰ, বাক্সা আৰু চিৰাং উপদেশত উল্লেখ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-180",
+   "q": {
+    "en": "Which volcano in the Philippines erupted in October 2026?",
+    "as": "২০২৬ চনৰ অক্টোবৰত ফিলিপাইনছৰ কোন আগ্নেয়গিৰি বিস্ফোৰণ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Mayon Volcano",
+     "as": "মায়ন আগ্নেয়গিৰি"
+    },
+    {
+     "en": "Pinatubo",
+     "as": "পিনাটুবো"
+    },
+    {
+     "en": "Taal Volcano",
+     "as": "টাল আগ্নেয়গিৰি"
+    },
+    {
+     "en": "Krakatoa",
+     "as": "ক্ৰাকাটোয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mayon Volcano in the Philippines erupted in October 2026.",
+    "as": "ফিলিপাইনছৰ মায়ন আগ্নেয়গিৰি ২০২৬ চনৰ অক্টোবৰত বিস্ফোৰণ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-181",
+   "q": {
+    "en": "Which prize made its India debut in Mumbai in 2026?",
+    "as": "২০২৬ চনত মুম্বাইত কোন বঁটাই ভাৰতত আত্মপ্ৰকাশ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ramon Magsaysay Award",
+     "as": "ৰেমন মেগছেছে বঁটা"
+    },
+    {
+     "en": "Right Livelihood Award",
+     "as": "ৰাইট লিভলিহুড বঁটা"
+    },
+    {
+     "en": "Earthshot Prize",
+     "as": "আৰ্থশ্বট প্ৰাইজ"
+    },
+    {
+     "en": "Nobel Prize",
+     "as": "নবেল বঁটা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Earthshot Prize made its India debut in Mumbai in 2026.",
+    "as": "আৰ্থশ্বট প্ৰাইজে ২০২৬ চনত মুম্বাইত ভাৰতত আত্মপ্ৰকাশ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-182",
+   "q": {
+    "en": "Who founded the Earthshot Prize?",
+    "as": "আৰ্থশ্বট প্ৰাইজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Prince William",
+     "as": "প্ৰিন্স ৱিলিয়াম"
+    },
+    {
+     "en": "Prince Charles",
+     "as": "প্ৰিন্স চাৰ্লছ"
+    },
+    {
+     "en": "David Attenborough",
+     "as": "ডেভিড এটেনবৰ"
+    },
+    {
+     "en": "Bill Gates",
+     "as": "বিল গেটছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Earthshot Prize was launched in 2020 by Prince William.",
+    "as": "আৰ্থশ্বট প্ৰাইজ ২০২০ চনত প্ৰিন্স ৱিলিয়ামে আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-183",
+   "q": {
+    "en": "How many award categories does the Earthshot Prize have?",
+    "as": "আৰ্থশ্বট প্ৰাইজত কিমানটা বঁটা শ্ৰেণী আছে?"
+   },
+   "options": [
+    {
+     "en": "Five",
+     "as": "পাঁচ"
+    },
+    {
+     "en": "Four",
+     "as": "চাৰি"
+    },
+    {
+     "en": "Six",
+     "as": "ছয়"
+    },
+    {
+     "en": "Three",
+     "as": "তিনি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Earthshot Prize has five award categories.",
+    "as": "আৰ্থশ্বট প্ৰাইজত পাঁচটা বঁটা শ্ৰেণী আছে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-184",
+   "q": {
+    "en": "Which new giant waterlily species was identified in Colombia in 2026?",
+    "as": "২০২৬ চনত কলম্বিয়াত কোন নতুন দৈত্যাকাৰ জলপদ্ম প্ৰজাতি চিনাক্ত কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Victoria boliviana",
+     "as": "ভিক্টোৰিয়া বলিভিয়ানা"
+    },
+    {
+     "en": "Victoria amazonica",
+     "as": "ভিক্টোৰিয়া আমাজনিকা"
+    },
+    {
+     "en": "Victoria cruziana",
+     "as": "ভিক্টোৰিয়া ক্ৰুজিয়ানা"
+    },
+    {
+     "en": "Victoria colombiana",
+     "as": "ভিক্টোৰিয়া কলম্বিয়ানা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Victoria colombiana was identified as a new giant waterlily species.",
+    "as": "ভিক্টোৰিয়া কলম্বিয়ানাক নতুন দৈত্যাকাৰ জলপদ্ম প্ৰজাতি হিচাপে চিনাক্ত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-185",
+   "q": {
+    "en": "Which migratory birds arrived at Kolhapur's Masai Plateau in 2026?",
+    "as": "২০২৬ চনত কোহলাপুৰৰ মাচাই মালভূমিত কোন পৰিভ্ৰমী চৰাই আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sparrow and Myna",
+     "as": "চৰাই আৰু মইনা"
+    },
+    {
+     "en": "Siberian Crane and Stork",
+     "as": "ছাইবেৰিয়ান ক্ৰেন আৰু ষ্টৰ্ক"
+    },
+    {
+     "en": "Pallid Harrier and European Roller",
+     "as": "পেলিড হেৰিয়াৰ আৰু ইউৰোপীয় ৰ'লাৰ"
+    },
+    {
+     "en": "Flamingo and Pelican",
+     "as": "ফ্লেমিংগ' আৰু পেলিকান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Pallid Harrier and European Roller arrived at Masai Plateau.",
+    "as": "পেলিড হেৰিয়াৰ আৰু ইউৰোপীয় ৰ'লাৰ মাচাই মালভূমিত আহিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-186",
+   "q": {
+    "en": "Which Indian city recorded eight owl species in a 2026 study?",
+    "as": "২০২৬ চনৰ এক অধ্যয়নত কোন ভাৰতীয় চহৰত আঠটা পেঁচা প্ৰজাতি ৰেকৰ্ড কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A study in Guwahati recorded eight owl species.",
+    "as": "গুৱাহাটীৰ এক অধ্যয়নে আঠটা পেঁচা প্ৰজাতি ৰেকৰ্ড কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-187",
+   "q": {
+    "en": "To which order do owls belong?",
+    "as": "পেঁচা কোন বৰ্গৰ অন্তৰ্গত?"
+   },
+   "options": [
+    {
+     "en": "Columbiformes",
+     "as": "কলম্বিফৰ্মিছ"
+    },
+    {
+     "en": "Strigiformes",
+     "as": "ষ্ট্ৰিজিফৰ্মিছ"
+    },
+    {
+     "en": "Accipitriformes",
+     "as": "এক্সিপিট্ৰিফৰ্মিছ"
+    },
+    {
+     "en": "Passeriformes",
+     "as": "পাছেৰিফৰ্মিছ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Owls belong to the order Strigiformes.",
+    "as": "পেঁচা ষ্ট্ৰিজিফৰ্মিছ বৰ্গৰ অন্তৰ্গত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-188",
+   "q": {
+    "en": "Which butterfly species was recorded in Kaziranga National Park?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানত কোন পখিলা প্ৰজাতি ৰেকৰ্ড কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Common Birdwing",
+     "as": "ক'মন বাৰ্ডৱিং"
+    },
+    {
+     "en": "Chocolate Bordered Flitter",
+     "as": "চকলেট বৰ্ডাৰড ফ্লিটাৰ"
+    },
+    {
+     "en": "Malabar Banded Peacock",
+     "as": "মালাবাৰ বেণ্ডেড পিকক"
+    },
+    {
+     "en": "Blue Mormon",
+     "as": "ব্লু মৰমন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Chocolate Bordered Flitter was recorded in Kaziranga National Park.",
+    "as": "চকলেট বৰ্ডাৰড ফ্লিটাৰ কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানত ৰেকৰ্ড কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-189",
+   "q": {
+    "en": "Which new Ramsar site is being revived in Assam?",
+    "as": "অসমত কোন নতুন ৰামছাৰ স্থান পুনৰুজ্জীৱিত কৰা হৈছে?"
+   },
+   "options": [
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    },
+    {
+     "en": "Chandubi",
+     "as": "চান্দুবি"
+    },
+    {
+     "en": "Sonbeel",
+     "as": "সোণবিল"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepor Beel is a Ramsar site being revived in Assam.",
+    "as": "দীপৰ বিল অসমৰ পুনৰুজ্জীৱিত কৰা এক ৰামছাৰ স্থান।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-190",
+   "q": {
+    "en": "Which country hosted the first Himalayan Yak Festival in 2026?",
+    "as": "২০২৬ চনত প্ৰথম হিমালয়ী য়াক মহোৎসৱ কোন দেশে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nepal",
+     "as": "নেপাল"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "India hosted the first Himalayan Yak Festival in Sikkim.",
+    "as": "ভাৰতে ছিক্কিমত প্ৰথম হিমালয়ী য়াক মহোৎসৱ আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-191",
+   "q": {
+    "en": "In which Indian state was the first Himalayan Yak Festival held?",
+    "as": "প্ৰথম হিমালয়ী য়াক মহোৎসৱ কোন ভাৰতীয় ৰাজ্যত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Sikkim",
+     "as": "ছিক্কিম"
+    },
+    {
+     "en": "Ladakh",
+     "as": "লাডাখ"
+    },
+    {
+     "en": "Himachal Pradesh",
+     "as": "হিমাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The first Himalayan Yak Festival was held in Sikkim's Gnathang Valley.",
+    "as": "প্ৰথম হিমালয়ী য়াক মহোৎসৱ ছিক্কিমৰ গ্নাথাং উপত্যকাত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-192",
+   "q": {
+    "en": "Which Indian lake saw greater flamingos sighted in 2026?",
+    "as": "২০২৬ চনত কোন ভাৰতীয় হ্ৰদত বৃহৎ ফ্লেমিংগ' দেখা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Chilika Lake",
+     "as": "চিলিকা হ্ৰদ"
+    },
+    {
+     "en": "Veeranam Lake",
+     "as": "বীৰানাম হ্ৰদ"
+    },
+    {
+     "en": "Sambhar Lake",
+     "as": "সাম্বৰ হ্ৰদ"
+    },
+    {
+     "en": "Pulicat Lake",
+     "as": "পুলিকট হ্ৰদ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Greater flamingos were sighted at Veeranam Lake in Tamil Nadu.",
+    "as": "তামিলনাডুৰ বীৰানাম হ্ৰদত বৃহৎ ফ্লেমিংগ' দেখা গৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-193",
+   "q": {
+    "en": "Which Indian city hosted the Agrivoltaics World Conference 2026?",
+    "as": "২০২৬ চনত এগ্ৰিভল্টেইকছ বিশ্ব সন্মিলন কোন ভাৰতীয় চহৰে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Agrivoltaics World Conference 2026 was held in New Delhi.",
+    "as": "এগ্ৰিভল্টেইকছ বিশ্ব সন্মিলন ২০২৬ নতুন দিল্লীত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-194",
+   "q": {
+    "en": "What does agrivoltaics combine?",
+    "as": "এগ্ৰিভল্টেইকছে কি একত্ৰিত কৰে?"
+   },
+   "options": [
+    {
+     "en": "Agriculture and hydropower",
+     "as": "কৃষি আৰু জলশক্তি"
+    },
+    {
+     "en": "Agriculture and solar power",
+     "as": "কৃষি আৰু সৌৰ শক্তি"
+    },
+    {
+     "en": "Solar and wind power",
+     "as": "সৌৰ আৰু বায়ু শক্তি"
+    },
+    {
+     "en": "Agriculture and wind power",
+     "as": "কৃষি আৰু বায়ু শক্তি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Agrivoltaics combines agriculture and solar power generation.",
+    "as": "এগ্ৰিভল্টেইকছে কৃষি আৰু সৌৰ শক্তি উৎপাদন একত্ৰিত কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-195",
+   "q": {
+    "en": "Who is the Governor of the Reserve Bank of India?",
+    "as": "ভাৰতীয় ৰিজাৰ্ভ বেংকৰ গৱৰ্ণৰ কোন?"
+   },
+   "options": [
+    {
+     "en": "Urjit Patel",
+     "as": "উৰ্জিত পেটেল"
+    },
+    {
+     "en": "Sanjay Malhotra",
+     "as": "সঞ্জয় মলহোত্ৰা"
+    },
+    {
+     "en": "Raghuram Rajan",
+     "as": "ৰঘুৰাম ৰাজন"
+    },
+    {
+     "en": "Shaktikanta Das",
+     "as": "শক্তিকান্ত দাস"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sanjay Malhotra is the Governor of the Reserve Bank of India.",
+    "as": "সঞ্জয় মলহোত্ৰা ভাৰতীয় ৰিজাৰ্ভ বেংকৰ গৱৰ্ণৰ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-196",
+   "q": {
+    "en": "Which company did the CCI approve Adani Energy Solutions to acquire in 2026?",
+    "as": "২০২৬ চনত চিচিআইয়ে অদানি এনাৰ্জি ছলিউচনছক কোন কোম্পানী অধিগ্ৰহণৰ অনুমোদন দিছিল?"
+   },
+   "options": [
+    {
+     "en": "IntelliSmart Infrastructure",
+     "as": "ইণ্টেলিস্মাৰ্ট ইনফ্ৰাষ্ট্ৰাকচাৰ"
+    },
+    {
+     "en": "Sterlite Power",
+     "as": "ষ্টাৰলাইট পাওৱাৰ"
+    },
+    {
+     "en": "Power Grid",
+     "as": "পাৱাৰ গ্ৰিড"
+    },
+    {
+     "en": "Tata Power",
+     "as": "টাটা পাওৱাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The CCI approved Adani Energy Solutions' acquisition of IntelliSmart.",
+    "as": "চিচিআইয়ে অদানি এনাৰ্জি ছলিউচনছৰ ইণ্টেলিস্মাৰ্ট অধিগ্ৰহণ অনুমোদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-197",
+   "q": {
+    "en": "What was the value of the Adani Energy Solutions-IntelliSmart deal approved in 2026?",
+    "as": "২০২৬ চনত অনুমোদিত অদানি এনাৰ্জি ছলিউশনছ-ইণ্টেলিস্মাৰ্ট চুক্তিৰ মূল্য কিমান আছিল?"
+   },
+   "options": [
+    {
+     "en": "Rs 1,856 crore",
+     "as": "১৮৫৬ কোটি টকা"
+    },
+    {
+     "en": "Rs 3,050 crore",
+     "as": "৩০৫০ কোটি টকা"
+    },
+    {
+     "en": "Rs 7,395 crore",
+     "as": "৭৩৯৫ কোটি টকা"
+    },
+    {
+     "en": "Rs 10,000 crore",
+     "as": "১০,০০০ কোটি টকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The deal was valued at Rs 3,050 crore.",
+    "as": "চুক্তিখনৰ মূল্য ৩০৫০ কোটি টকা আছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-198",
+   "q": {
+    "en": "At what GST rate did the GST Council recommend taxing e-commerce delivery services in 2026?",
+    "as": "২০২৬ চনত জিএছটি পৰিষদে ই-কমাৰ্চ ডেলিভাৰী সেৱাৰ ওপৰত কিমান হাৰত কৰৰ পৰামৰ্শ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "18 per cent",
+     "as": "১৮ শতাংশ"
+    },
+    {
+     "en": "28 per cent",
+     "as": "২৮ শতাংশ"
+    },
+    {
+     "en": "5 per cent",
+     "as": "৫ শতাংশ"
+    },
+    {
+     "en": "12 per cent",
+     "as": "১২ শতাংশ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The GST Council recommended a 5 per cent rate for e-commerce delivery services.",
+    "as": "জিএছটি পৰিষদে ই-কমাৰ্চ ডেলিভাৰী সেৱাৰ বাবে ৫ শতাংশ হাৰৰ পৰামৰ্শ দিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-199",
+   "q": {
+    "en": "Who became the new Chairman of the Insurance Regulatory and Development Authority of India?",
+    "as": "ভাৰতৰ বীমা নিয়ন্ত্ৰণ আৰু উন্নয়ন কৰ্তৃপক্ষৰ নতুন অধ্যক্ষ কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Ajay Seth",
+     "as": "অজয় শেঠ"
+    },
+    {
+     "en": "T. S. Vijayan",
+     "as": "টি এছ বিজয়ন"
+    },
+    {
+     "en": "Debashish Panda",
+     "as": "দেৱাশিষ পাণ্ডা"
+    },
+    {
+     "en": "Subhash Chandra Khuntia",
+     "as": "সুভাষ চন্দ্ৰ খুন্তিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ajay Seth is associated with IRDAI leadership in 2026.",
+    "as": "অজয় শেঠ ২০২৬ চনত আইআৰডিএআই নেতৃত্বৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-200",
+   "q": {
+    "en": "Which regulatory body approved the Adani Energy Solutions-IntelliSmart deal?",
+    "as": "কোন নিয়ন্ত্ৰক সংস্থাই অদানি এনাৰ্জি ছলিউশনছ-ইণ্টেলিস্মাৰ্ট চুক্তি অনুমোদন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Competition Commission of India",
+     "as": "ভাৰতৰ প্ৰতিযোগিতা আয়োগ"
+    },
+    {
+     "en": "SEBI",
+     "as": "চেবি"
+    },
+    {
+     "en": "IRDAI",
+     "as": "আইআৰডিএআই"
+    },
+    {
+     "en": "RBI",
+     "as": "আৰবিআই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Competition Commission of India approved the deal.",
+    "as": "ভাৰতৰ প্ৰতিযোগিতা আয়োগে চুক্তি অনুমোদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-201",
+   "q": {
+    "en": "Which body regulates acquisitions and combinations in India?",
+    "as": "ভাৰতত অধিগ্ৰহণ আৰু সংযুক্তি কোন সংস্থাই নিয়ন্ত্ৰণ কৰে?"
+   },
+   "options": [
+    {
+     "en": "Competition Commission of India",
+     "as": "ভাৰতৰ প্ৰতিযোগিতা আয়োগ"
+    },
+    {
+     "en": "RBI",
+     "as": "আৰবিআই"
+    },
+    {
+     "en": "SEBI",
+     "as": "চেবি"
+    },
+    {
+     "en": "Ministry of Finance",
+     "as": "বিত্ত মন্ত্ৰালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Competition Commission of India regulates combinations.",
+    "as": "ভাৰতৰ প্ৰতিযোগিতা আয়োগে সংযুক্তি নিয়ন্ত্ৰণ কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-202",
+   "q": {
+    "en": "Where did the GST Council hold its 57th meeting in 2026?",
+    "as": "২০২৬ চনত জিএছটি পৰিষদে তেওঁলোকৰ ৫৭ সংখ্যক বৈঠক ক'ত অনুষ্ঠিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jaipur",
+     "as": "জয়পুৰ"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The GST Council's 57th meeting was held in New Delhi.",
+    "as": "জিএছটি পৰিষদৰ ৫৭ সংখ্যক বৈঠক নতুন দিল্লীত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-203",
+   "q": {
+    "en": "What was the previous GST rate on e-commerce delivery services before the 2026 revision?",
+    "as": "২০২৬ চনৰ সংশোধনৰ আগতে ই-কমাৰ্চ ডেলিভাৰী সেৱাৰ ওপৰত পূৰ্বৰ জিএছটি হাৰ কিমান আছিল?"
+   },
+   "options": [
+    {
+     "en": "18 per cent",
+     "as": "১৮ শতাংশ"
+    },
+    {
+     "en": "12 per cent",
+     "as": "১২ শতাংশ"
+    },
+    {
+     "en": "28 per cent",
+     "as": "২৮ শতাংশ"
+    },
+    {
+     "en": "5 per cent",
+     "as": "৫ শতাংশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The rate was reduced from 18 per cent to 5 per cent.",
+    "as": "হাৰ ১৮ শতাংশৰ পৰা ৫ শতাংশলৈ হ্ৰাস কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-204",
+   "q": {
+    "en": "Which body announced that November would be Grievance Resolution Month in 2026?",
+    "as": "২০২৬ চনত নৱেম্বৰক অভিযোগ নিষ্পত্তি মাহ হিচাপে কোন সংস্থাই ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "IRDAI",
+     "as": "আইআৰডিএআই"
+    },
+    {
+     "en": "SEBI",
+     "as": "চেবি"
+    },
+    {
+     "en": "RBI",
+     "as": "আৰবিআই"
+    },
+    {
+     "en": "PFRDA",
+     "as": "পিএফআৰডিএ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "IRDAI announced November as Grievance Resolution Month.",
+    "as": "আইআৰডিএআইয়ে নৱেম্বৰক অভিযোগ নিষ্পত্তি মাহ হিচাপে ঘোষণা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-205",
+   "q": {
+    "en": "Which Indian airport was approved as an export point for agarwood in 2026?",
+    "as": "২০২৬ চনত কোন ভাৰতীয় বিমানবন্দৰক আগৰ কাঠ ৰপ্তানিৰ বিন্দু হিচাপে অনুমোদন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Lokpriya Gopinath Bordoloi International Airport",
+     "as": "লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তৰ্জাতিক বিমানবন্দৰ"
+    },
+    {
+     "en": "Indira Gandhi International Airport",
+     "as": "ইন্দিৰা গান্ধী আন্তৰ্জাতিক বিমানবন্দৰ"
+    },
+    {
+     "en": "Chennai Airport",
+     "as": "চেন্নাই বিমানবন্দৰ"
+    },
+    {
+     "en": "Chhatrapati Shivaji Airport",
+     "as": "ছত্ৰপতি শিৱাজী বিমানবন্দৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati's Lokpriya Gopinath Bordoloi International Airport was approved for agarwood exports.",
+    "as": "গুৱাহাটীৰ লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তৰ্জাতিক বিমানবন্দৰ আগৰ কাঠ ৰপ্তানিৰ বাবে অনুমোদিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-206",
+   "q": {
+    "en": "Which state accounts for about 81 per cent of India's agarwood production?",
+    "as": "কোন ৰাজ্যই ভাৰতৰ প্ৰায় ৮১ শতাংশ আগৰ কাঠ উৎপাদন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Karnataka",
+     "as": "কৰ্ণাটক"
+    },
+    {
+     "en": "Mizoram",
+     "as": "মিজোৰাম"
+    },
+    {
+     "en": "Kerala",
+     "as": "কেৰালা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam accounts for about 81 per cent of India's agarwood production.",
+    "as": "অসমে ভাৰতৰ প্ৰায় ৮১ শতাংশ আগৰ কাঠ উৎপাদন কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-207",
+   "q": {
+    "en": "Which state's jumbo custard apple entered the international market for the first time in 2026?",
+    "as": "২০২৬ চনত কোন ৰাজ্যৰ জাম্ব' কাষ্টাৰ্ড এপলে প্ৰথমবাৰৰ বাবে আন্তৰ্জাতিক বজাৰত প্ৰৱেশ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Maharashtra",
+     "as": "মহাৰাষ্ট্ৰ"
+    },
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Rajasthan",
+     "as": "ৰাজস্থান"
+    },
+    {
+     "en": "Madhya Pradesh",
+     "as": "মধ্যপ্ৰদেশ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Madhya Pradesh's GI-tagged jumbo custard apple entered the international market.",
+    "as": "মধ্যপ্ৰদেশৰ জি আই টেগযুক্ত জাম্ব' কাষ্টাৰ্ড এপলে আন্তৰ্জাতিক বজাৰত প্ৰৱেশ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-208",
+   "q": {
+    "en": "Which country will receive the first consignment of Seoni's jumbo custard apple?",
+    "as": "চেওনীৰ জাম্ব' কাষ্টাৰ্ড এপলৰ প্ৰথম চালান কোন দেশে লাভ কৰিব?"
+   },
+   "options": [
+    {
+     "en": "London",
+     "as": "লণ্ডন"
+    },
+    {
+     "en": "Dubai",
+     "as": "দুবাই"
+    },
+    {
+     "en": "Tokyo",
+     "as": "টকিঅ'"
+    },
+    {
+     "en": "Singapore",
+     "as": "ছিংগাপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The first consignment of Seoni's jumbo custard apple will go to Dubai.",
+    "as": "চেওনীৰ জাম্ব' কাষ্টাৰ্ড এপলৰ প্ৰথম চালান দুবাইলৈ যাব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-209",
+   "q": {
+    "en": "Which scheme was extended for cotton import duty exemption until December 2026?",
+    "as": "২০২৬ চনৰ ডিচেম্বৰলৈ কপাহ আমদানি কৰ ৰেহাইৰ বাবে কোন আঁচনি বৃদ্ধি কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Interest subvention",
+     "as": "সুদত সহায়"
+    },
+    {
+     "en": "Customs duty exemption on cotton",
+     "as": "কপাহৰ ওপৰত শুল্ক ৰেহাই"
+    },
+    {
+     "en": "PLI for textiles",
+     "as": "কাপোৰৰ বাবে পিএলআই"
+    },
+    {
+     "en": "Export incentive",
+     "as": "ৰপ্তানি প্ৰণোদনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The customs duty exemption on cotton imports was extended.",
+    "as": "কপাহ আমদানিত শুল্ক ৰেহাই বৃদ্ধি কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-210",
+   "q": {
+    "en": "Who took charge as Chairman and Managing Director of IREDA in 2026?",
+    "as": "২০২৬ চনত ইৰেডাৰ অধ্যক্ষ আৰু পৰিচালন সঞ্চালক হিচাপে কোনে দায়িত্ব লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Pradip Kumar Das",
+     "as": "প্ৰদীপ কুমাৰ দাস"
+    },
+    {
+     "en": "Jatin Kumar Nayak",
+     "as": "যতীন কুমাৰ নায়ক"
+    },
+    {
+     "en": "Bijay Kumar Mohanty",
+     "as": "বিজয় কুমাৰ মোহান্তী"
+    },
+    {
+     "en": "S. K. Dey",
+     "as": "এছ কে দে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Jatin Kumar Nayak took charge as IREDA CMD in 2026.",
+    "as": "যতীন কুমাৰ নায়কে ২০২৬ চনত ইৰেডাৰ চিএমডি হিচাপে দায়িত্ব লৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-211",
+   "q": {
+    "en": "What does IREDA stand for?",
+    "as": "ইৰেডা য়ে কি সূচায়?"
+   },
+   "options": [
+    {
+     "en": "Indian Renewable Energy Development Agency",
+     "as": "ভাৰতীয় নৱীকৰণযোগ্য শক্তি উন্নয়ন সংস্থা"
+    },
+    {
+     "en": "Indian Renewable Electricity Distribution Agency",
+     "as": "ভাৰতীয় নৱীকৰণযোগ্য বিদ্যুৎ বিতৰণ সংস্থা"
+    },
+    {
+     "en": "International Renewable Energy Agency",
+     "as": "আন্তৰ্জাতিক নৱীকৰণযোগ্য শক্তি সংস্থা"
+    },
+    {
+     "en": "Indian Rural Energy Development Authority",
+     "as": "ভাৰতীয় গ্ৰাম্য শক্তি উন্নয়ন কৰ্তৃপক্ষ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "IREDA stands for Indian Renewable Energy Development Agency.",
+    "as": "ইৰেডা য়ে ভাৰতীয় নৱীকৰণযোগ্য শক্তি উন্নয়ন সংস্থা সূচায়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-212",
+   "q": {
+    "en": "Which body approved Jatin Kumar Nayak's appointment as IREDA CMD?",
+    "as": "ইৰেডাৰ চিএমডি হিচাপে যতীন কুমাৰ নায়কৰ নিয়োগ কোন সংস্থাই অনুমোদন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Union Public Service Commission",
+     "as": "সংঘ লোক সেৱা আয়োগ"
+    },
+    {
+     "en": "SEBI",
+     "as": "চেবি"
+    },
+    {
+     "en": "Reserve Bank of India",
+     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+    },
+    {
+     "en": "Appointments Committee of the Cabinet",
+     "as": "মন্ত্ৰীসভাৰ নিয়োগ সমিতি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Appointments Committee of the Cabinet approved the appointment.",
+    "as": "মন্ত্ৰীসভাৰ নিয়োগ সমিতিয়ে নিয়োগ অনুমোদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-213",
+   "q": {
+    "en": "Who succeeded Noel Tata as Chairman of Trent Ltd in 2026?",
+    "as": "২০২৬ চনত ন'ৱেল টাটাৰ পিছত ট্ৰেণ্ট লিমিটেডৰ অধ্যক্ষ কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Ratan Tata",
+     "as": "ৰতন টাটা"
+    },
+    {
+     "en": "Rajiv Dube",
+     "as": "ৰাজীৱ দুবে"
+    },
+    {
+     "en": "N. Chandrasekaran",
+     "as": "এন চন্দ্ৰশেখৰন"
+    },
+    {
+     "en": "Bahram Vakil",
+     "as": "বাহৰাম ৱাকিল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bahram Vakil succeeded Noel Tata as Chairman of Trent Ltd.",
+    "as": "বাহৰাম ৱাকিল ট্ৰেণ্ট লিমিটেডৰ অধ্যক্ষ হিচাপে ন'ৱেল টাটাৰ উত্তৰাধিকাৰী হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-214",
+   "q": {
+    "en": "Which regulatory body fined CDSL in 2026?",
+    "as": "২০২৬ চনত কোন নিয়ন্ত্ৰক সংস্থাই চিডিএছএলক জৰিমনা বিহিছিল?"
+   },
+   "options": [
+    {
+     "en": "CCI",
+     "as": "চিচিআই"
+    },
+    {
+     "en": "IRDAI",
+     "as": "আইআৰডিএআই"
+    },
+    {
+     "en": "RBI",
+     "as": "আৰবিআই"
+    },
+    {
+     "en": "SEBI",
+     "as": "চেবি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "SEBI fined CDSL for compliance lapses.",
+    "as": "চেবিয়ে অনুপালন ত্ৰুটিৰ বাবে চিডিএছএলক জৰিমনা বিহিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-215",
+   "q": {
+    "en": "Which rate did the GST Council recommend for e-commerce delivery services without input tax credit?",
+    "as": "জিএছটি পৰিষদে ইনপুট টেক্স ক্ৰেডিট নোহোৱাকৈ ই-কমাৰ্চ ডেলিভাৰী সেৱাৰ বাবে কোন হাৰৰ পৰামৰ্শ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "5 per cent",
+     "as": "৫ শতাংশ"
+    },
+    {
+     "en": "12 per cent",
+     "as": "১২ শতাংশ"
+    },
+    {
+     "en": "18 per cent",
+     "as": "১৮ শতাংশ"
+    },
+    {
+     "en": "28 per cent",
+     "as": "২৮ শতাংশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Council recommended 5 per cent without input tax credit.",
+    "as": "পৰিষদে ইনপুট টেক্স ক্ৰেডিট নোহোৱাকৈ ৫ শতাংশৰ পৰামৰ্শ দিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-216",
+   "q": {
+    "en": "Where was the 19th G20 Summit held in November 2024?",
+    "as": "২০২৪ চনৰ নৱেম্বৰত ১৯ সংখ্যক জি২০ শীৰ্ষ সন্মিলন ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Rio de Janeiro, Brazil",
+     "as": "ৰিঅ' ডি জেনেৰো, ব্ৰাজিল"
+    },
+    {
+     "en": "Johannesburg, South Africa",
+     "as": "জোহান্সবাৰ্গ, দক্ষিণ আফ্ৰিকা"
+    },
+    {
+     "en": "New Delhi, India",
+     "as": "নতুন দিল্লী, ভাৰত"
+    },
+    {
+     "en": "Bali, Indonesia",
+     "as": "বালি, ইণ্ডোনেছিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 19th G20 Summit was held in Rio de Janeiro, Brazil.",
+    "as": "১৯ সংখ্যক জি২০ শীৰ্ষ সন্মিলন ব্ৰাজিলৰ ৰিঅ' ডি জেনেৰোত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-217",
+   "q": {
+    "en": "Which initiative was launched under Brazil's G20 presidency?",
+    "as": "ব্ৰাজিলৰ জি২০ অধ্যক্ষতাৰ অধীনত কোন প্ৰয়াস আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Global Health Fund",
+     "as": "বিশ্ব স্বাস্থ্য পুঁজি"
+    },
+    {
+     "en": "Global Alliance Against Hunger and Poverty",
+     "as": "ভোক আৰু দাৰিদ্ৰ্যৰ বিৰুদ্ধে বিশ্ব মিত্ৰজোঁট"
+    },
+    {
+     "en": "Global Climate Fund",
+     "as": "বিশ্ব জলবায়ু পুঁজি"
+    },
+    {
+     "en": "Global Trade Alliance",
+     "as": "বিশ্ব বাণিজ্য মিত্ৰজোঁট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Global Alliance Against Hunger and Poverty was launched at the Rio G20 Summit.",
+    "as": "ৰিঅ' জি২০ শীৰ্ষ সন্মিলনত ভোক আৰু দাৰিদ্ৰ্যৰ বিৰুদ্ধে বিশ্ব মিত্ৰজোঁট আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-218",
+   "q": {
+    "en": "Where did India host the first SCO Civilisational Dialogue Forum announcement take place?",
+    "as": "ভাৰতে প্ৰথম এছচিঅ' সভ্যতা সংলাপ মঞ্চৰ ঘোষণা ক'ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "New Delhi, India",
+     "as": "নতুন দিল্লী, ভাৰত"
+    },
+    {
+     "en": "Tianjin, China",
+     "as": "টিয়াঞ্জিন, চীন"
+    },
+    {
+     "en": "Moscow, Russia",
+     "as": "মস্কো, ৰাছিয়া"
+    },
+    {
+     "en": "Dushanbe, Tajikistan",
+     "as": "দুশানবে, তাজিকিস্তান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The announcement was made at the SCO meeting in Dushanbe, Tajikistan.",
+    "as": "ঘোষণাটো তাজিকিস্তানৰ দুশানবেত এছচিঅ' বৈঠকত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-219",
+   "q": {
+    "en": "Where was the SCO Council of Heads of Government meeting held in October 2026?",
+    "as": "২০২৬ চনৰ অক্টোবৰত এছচিঅ' চৰকাৰ প্ৰধান পৰিষদৰ বৈঠক ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Astana, Kazakhstan",
+     "as": "আস্তানা, কাজাখস্তান"
+    },
+    {
+     "en": "New Delhi, India",
+     "as": "নতুন দিল্লী, ভাৰত"
+    },
+    {
+     "en": "Beijing, China",
+     "as": "বেইজিং, চীন"
+    },
+    {
+     "en": "Dushanbe, Tajikistan",
+     "as": "দুশানবে, তাজিকিস্তান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The SCO CHG meeting was held in Dushanbe, Tajikistan.",
+    "as": "এছচিঅ' চিএইচজি বৈঠক তাজিকিস্তানৰ দুশানবেত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-220",
+   "q": {
+    "en": "Where will the ICAR-CGIAR Science and Partnership Week 2027 be held?",
+    "as": "আইচিএআৰ-চিজিআইএআৰ বিজ্ঞান আৰু অংশীদাৰিত্ব সপ্তাহ ২০২৭ ক'ত অনুষ্ঠিত হ'ব?"
+   },
+   "options": [
+    {
+     "en": "Pune",
+     "as": "পুনে"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Hyderabad",
+     "as": "হায়দৰাবাদ"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The ICAR-CGIAR Science and Partnership Week 2027 will be held in New Delhi.",
+    "as": "আইচিএআৰ-চিজিআইএআৰ বিজ্ঞান আৰু অংশীদাৰিত্ব সপ্তাহ ২০২৭ নতুন দিল্লীত অনুষ্ঠিত হ'ব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-221",
+   "q": {
+    "en": "Which institute will host the ICAR-CGIAR Science and Partnership Week 2027?",
+    "as": "আইচিএআৰ-চিজিআইএআৰ বিজ্ঞান আৰু অংশীদাৰিত্ব সপ্তাহ ২০২৭ কোন প্ৰতিষ্ঠানে আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "IARI",
+     "as": "আইএআৰআই"
+    },
+    {
+     "en": "ICRISAT",
+     "as": "আইচিআৰআইএছএটি"
+    },
+    {
+     "en": "CGIAR",
+     "as": "চিজিআইএআৰ"
+    },
+    {
+     "en": "ICAR",
+     "as": "আইচিএআৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "ICRISAT will host the ICAR-CGIAR Science and Partnership Week 2027.",
+    "as": "আইচিআৰআইএছএটিয়ে আইচিএআৰ-চিজিআইএআৰ বিজ্ঞান আৰু অংশীদাৰিত্ব সপ্তাহ ২০২৭ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-222",
+   "q": {
+    "en": "Where was the National Urban Conclave 2026 held?",
+    "as": "ৰাষ্ট্ৰীয় চহৰীয়া সন্মিলন ২০২৬ ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Ahmedabad",
+     "as": "আহমেদাবাদ"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Bhubaneswar",
+     "as": "ভুৱনেশ্বৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The National Urban Conclave 2026 was held in Bhubaneswar.",
+    "as": "ৰাষ্ট্ৰীয় চহৰীয়া সন্মিলন ২০২৬ ভুৱনেশ্বৰত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-223",
+   "q": {
+    "en": "Where will the Indian Navy host the Indo-Pacific Regional Dialogue 2026?",
+    "as": "ভাৰতীয় নৌসেনাই ইন্দো-পেচিফিক আঞ্চলিক সংলাপ ২০২৬ ক'ত আয়োজন কৰিব?"
+   },
+   "options": [
+    {
+     "en": "Goa",
+     "as": "গোৱা"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Kochi",
+     "as": "কচি"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Indian Navy will host the Indo-Pacific Regional Dialogue 2026 in New Delhi.",
+    "as": "ভাৰতীয় নৌসেনাই নতুন দিল্লীত ইন্দো-পেচিফিক আঞ্চলিক সংলাপ ২০২৬ আয়োজন কৰিব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-224",
+   "q": {
+    "en": "Which city hosted the Earthshot Prize 2026 ceremony?",
+    "as": "২০২৬ চনৰ আৰ্থশ্বট প্ৰাইজ অনুষ্ঠান কোন চহৰত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Kolkata",
+     "as": "কলকাতা"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Earthshot Prize 2026 ceremony was held in Mumbai.",
+    "as": "আৰ্থশ্বট প্ৰাইজ ২০২৬ অনুষ্ঠান মুম্বাইত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-225",
+   "q": {
+    "en": "Where will CyberTech Asia 2027 be held?",
+    "as": "চাইবেৰটেক এছিয়া ২০২৭ ক'ত অনুষ্ঠিত হ'ব?"
+   },
+   "options": [
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Hyderabad",
+     "as": "হায়দৰাবাদ"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Pune",
+     "as": "পুনে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "CyberTech Asia 2027 will be held in Mumbai.",
+    "as": "চাইবেৰটেক এছিয়া ২০২৭ মুম্বাইত অনুষ্ঠিত হ'ব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-226",
+   "q": {
+    "en": "Where did the Bharat 6G Symposium 2026 open?",
+    "as": "ভাৰত ৬জি সন্মিলন ২০২৬ ক'ত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bharat 6G Symposium 2026 opened in New Delhi.",
+    "as": "ভাৰত ৬জি সন্মিলন ২০২৬ নতুন দিল্লীত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-227",
+   "q": {
+    "en": "Where did FICCI FRAMES 2026 begin?",
+    "as": "ফিকি ফ্ৰেমছ ২০২৬ ক'ত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Kolkata",
+     "as": "কলকাতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "FICCI FRAMES 2026 began in Mumbai.",
+    "as": "ফিকি ফ্ৰেমছ ২০২৬ মুম্বাইত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-228",
+   "q": {
+    "en": "Where was the 7th Agrivoltaics World Conference 2026 held?",
+    "as": "৭ সংখ্যক এগ্ৰিভল্টেইকছ বিশ্ব সন্মিলন ২০২৬ ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Ahmedabad",
+     "as": "আহমেদাবাদ"
+    },
+    {
+     "en": "Pune",
+     "as": "পুনে"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 7th Agrivoltaics World Conference was held in New Delhi.",
+    "as": "৭ সংখ্যক এগ্ৰিভল্টেইকছ বিশ্ব সন্মিলন নতুন দিল্লীত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-229",
+   "q": {
+    "en": "Which Assamese personality received the Assam Baibhav?",
+    "as": "কোন অসমীয়া ব্যক্তিত্বই অসম বৈভৱ লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhupen Hazarika",
+     "as": "ভূপেন হাজৰিকা"
+    },
+    {
+     "en": "Jadav Payeng",
+     "as": "যাদৱ পায়েং"
+    },
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    },
+    {
+     "en": "Justice Ranjan Gogoi",
+     "as": "ন্যায়াধীশ ৰঞ্জন গগৈ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Justice Ranjan Gogoi was conferred the Assam Baibhav.",
+    "as": "ন্যায়াধীশ ৰঞ্জন গগৈক অসম বৈভৱ প্ৰদান কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-230",
+   "q": {
+    "en": "Which Assamese athlete received the Assam Saurav award?",
+    "as": "কোন অসমীয়া খেলুৱৈয়ে অসম সৌৰভ বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    },
+    {
+     "en": "Elvis Ali Hazarika",
+     "as": "এলভিছ আলী হাজৰিকা"
+    },
+    {
+     "en": "Ankushita Boro",
+     "as": "অংকুশিতা বৰো"
+    },
+    {
+     "en": "Lovlina Borgohain",
+     "as": "লাভলীনা বৰগোহাঁই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hima Das received the Assam Saurav award.",
+    "as": "হিমা দাসে অসম সৌৰভ বঁটা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-231",
+   "q": {
+    "en": "Who received the Bir Chilarai Award of the Assam government?",
+    "as": "অসম চৰকাৰৰ বীৰ চিলাৰায় বঁটা কোনে লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ranjan Gogoi",
+     "as": "ৰঞ্জন গগৈ"
+    },
+    {
+     "en": "Hima Das",
+     "as": "হিমা দাস"
+    },
+    {
+     "en": "Chidananda Roy",
+     "as": "চিদানন্দ ৰায়"
+    },
+    {
+     "en": "Jadav Payeng",
+     "as": "যাদৱ পায়েং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Chidananda Roy was conferred the Bir Chilarai Award.",
+    "as": "চিদানন্দ ৰায়ক বীৰ চিলাৰায় বঁটা প্ৰদান কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-232",
+   "q": {
+    "en": "Which Japanese author died in October 2026?",
+    "as": "২০২৬ চনৰ অক্টোবৰত কোন জাপানী লেখকৰ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Haruki Murakami",
+     "as": "হাৰুকি মোৰাকামি"
+    },
+    {
+     "en": "Ryu Murakami",
+     "as": "ৰিউ মোৰাকামি"
+    },
+    {
+     "en": "Kenzaburo Oe",
+     "as": "কেঞ্জাবুৰো অ'য়ে"
+    },
+    {
+     "en": "Yasunari Kawabata",
+     "as": "য়াচুনাৰি কাৱাবাটা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Japanese novelist Ryu Murakami died in October 2026.",
+    "as": "জাপানী ঔপন্যাসিক ৰিউ মোৰাকামিৰ ২০২৬ চনৰ অক্টোবৰত মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-233",
+   "q": {
+    "en": "Which famous jeweller associated with the Sengol died in 2026?",
+    "as": "২০২৬ চনত চেংগলৰ সৈতে জড়িত কোন বিখ্যাত অলংকাৰিকৰ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Nirav Modi",
+     "as": "নীৰৱ মোদী"
+    },
+    {
+     "en": "Mehul Choksi",
+     "as": "মেহুল চোক্সী"
+    },
+    {
+     "en": "Vummidi Ethiraj",
+     "as": "ভুম্মিদি এথিৰাজ"
+    },
+    {
+     "en": "Tanishq Shah",
+     "as": "তনিষ্ক শ্বাহ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Vummidi Ethiraj, associated with crafting the Sengol, died in 2026.",
+    "as": "চেংগল নিৰ্মাণৰ সৈতে জড়িত ভুম্মিদি এথিৰাজৰ ২০২৬ চনত মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-234",
+   "q": {
+    "en": "Where was the 65th National Exhibition of Art held in 2026?",
+    "as": "২০২৬ চনত ৬৫ সংখ্যক ৰাষ্ট্ৰীয় কলা প্ৰদৰ্শনী ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Kolkata",
+     "as": "কলকাতা"
+    },
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The 65th National Exhibition of Art was held in New Delhi.",
+    "as": "৬৫ সংখ্যক ৰাষ্ট্ৰীয় কলা প্ৰদৰ্শনী নতুন দিল্লীত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-235",
+   "q": {
+    "en": "Which academy organises the National Exhibition of Art?",
+    "as": "কোন একাডেমীয়ে ৰাষ্ট্ৰীয় কলা প্ৰদৰ্শনী আয়োজন কৰে?"
+   },
+   "options": [
+    {
+     "en": "IGNCA",
+     "as": "আইজিএনচিএ"
+    },
+    {
+     "en": "Sangeet Natak Akademi",
+     "as": "সংগীত নাটক অকাডেমী"
+    },
+    {
+     "en": "Lalit Kala Akademi",
+     "as": "ললিত কলা অকাডেমী"
+    },
+    {
+     "en": "Sahitya Akademi",
+     "as": "সাহিত্য অকাডেমী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Lalit Kala Akademi organises the National Exhibition of Art.",
+    "as": "ললিত কলা অকাডেমীয়ে ৰাষ্ট্ৰীয় কলা প্ৰদৰ্শনী আয়োজন কৰে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-236",
+   "q": {
+    "en": "Which award did Pavani Pasumarthi receive for Kuchipudi music in 2026?",
+    "as": "২০২৬ চনত কুচিপুড়ি সংগীতৰ বাবে পাৱনী পাচুমাৰ্থীয়ে কোন বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Tansen Samman",
+     "as": "তানসেন সন্মান"
+    },
+    {
+     "en": "Sangeet Natak Akademi Award",
+     "as": "সংগীত নাটক অকাডেমী বঁটা"
+    },
+    {
+     "en": "Ustad Bismillah Khan Yuva Puraskar",
+     "as": "ওস্তাদ বিছমিল্লাহ খান যুৱ পুৰস্কাৰ"
+    },
+    {
+     "en": "Ustad Amir Khan Award",
+     "as": "ওস্তাদ আমীৰ খান বঁটা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pavani Pasumarthi received the Ustad Bismillah Khan Yuva Puraskar.",
+    "as": "পাৱনী পাচুমাৰ্থীয়ে ওস্তাদ বিছমিল্লাহ খান যুৱ পুৰস্কাৰ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-237",
+   "q": {
+    "en": "The Ustad Bismillah Khan Yuva Puraskar is given to artists up to what age?",
+    "as": "ওস্তাদ বিছমিল্লাহ খান যুৱ পুৰস্কাৰ কিমান বছৰ বয়সলৈকে শিল্পীক দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "40 years",
+     "as": "৪০ বছৰ"
+    },
+    {
+     "en": "30 years",
+     "as": "৩০ বছৰ"
+    },
+    {
+     "en": "35 years",
+     "as": "৩৫ বছৰ"
+    },
+    {
+     "en": "45 years",
+     "as": "৪৫ বছৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "It is open to artists up to 40 years of age.",
+    "as": "ই ৪০ বছৰ বয়সলৈকে শিল্পীসকলৰ বাবে মুকলি।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-238",
+   "q": {
+    "en": "Which instrument was Ustad Bismillah Khan famous for playing?",
+    "as": "ওস্তাদ বিছমিল্লাহ খান কোন বাদ্যযন্ত্ৰ বজোৱাৰ বাবে বিখ্যাত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Tabla",
+     "as": "তবলা"
+    },
+    {
+     "en": "Sitar",
+     "as": "চিতাৰ"
+    },
+    {
+     "en": "Shehnai",
+     "as": "শহনাই"
+    },
+    {
+     "en": "Sarod",
+     "as": "চাৰোদ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ustad Bismillah Khan was a shehnai maestro.",
+    "as": "ওস্তাদ বিছমিল্লাহ খান এজন শহনাই বাদক আছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-239",
+   "q": {
+    "en": "In which year did Ustad Bismillah Khan receive the Bharat Ratna?",
+    "as": "ওস্তাদ বিছমিল্লাহ খানে কিমান চনত ভাৰত ৰত্ন লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "১৯৯৮"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2001",
+     "as": "২০০১"
+    },
+    {
+     "en": "1992",
+     "as": "১৯৯২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ustad Bismillah Khan received the Bharat Ratna in 2001.",
+    "as": "ওস্তাদ বিছমিল্লাহ খানে ২০০১ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-240",
+   "q": {
+    "en": "Which Assamese film won Best Film at the Assam State Film Awards?",
+    "as": "অসম ৰাজ্যিক চলচ্চিত্ৰ বঁটাত কোন অসমীয়া চলচ্চিত্ৰই শ্ৰেষ্ঠ চলচ্চিত্ৰৰ সন্মান লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Anur",
+     "as": "অনুৰ"
+    },
+    {
+     "en": "Kothanodi",
+     "as": "কথানদী"
+    },
+    {
+     "en": "Bulbul Can Sing",
+     "as": "বুলবুল কেন ছিং"
+    },
+    {
+     "en": "Village Rockstars",
+     "as": "ভিলেজ ৰকষ্টাৰ্ছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The film Anur won Best Film at the Assam State Film Awards.",
+    "as": "অনুৰ চলচ্চিত্ৰই অসম ৰাজ্যিক চলচ্চিত্ৰ বঁটাত শ্ৰেষ্ঠ চলচ্চিত্ৰৰ সন্মান লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-241",
+   "q": {
+    "en": "Which Assamese educationist and former Vice-Chancellor passed away recently?",
+    "as": "কোন অসমীয়া শিক্ষাবিদ আৰু প্ৰাক্তন উপাচাৰ্যই শেহতীয়াকৈ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Dr. Amalendu Chakraborty",
+     "as": "ড° অমলেন্দু চক্ৰৱৰ্তী"
+    },
+    {
+     "en": "Dr. Purnima Devi Barman",
+     "as": "ড° পূৰ্ণিমা দেৱী বৰ্মন"
+    },
+    {
+     "en": "Dr. Mallika Kandali",
+     "as": "ড° মল্লিকা কন্দলী"
+    },
+    {
+     "en": "Dr. Bidyut Chandan Deka",
+     "as": "ড° বিদ্যুত চন্দন ডেকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dr. Amalendu Chakraborty, an Assamese educationist, passed away.",
+    "as": "অসমীয়া শিক্ষাবিদ ড° অমলেন্দু চক্ৰৱৰ্তীৰ মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-242",
+   "q": {
+    "en": "Which Assamese film director and playwright passed away recently?",
+    "as": "কোন অসমীয়া চলচ্চিত্ৰ পৰিচালক আৰু নাট্যকাৰে শেহতীয়াকৈ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Jahnu Barua",
+     "as": "জাহ্নু বৰুৱা"
+    },
+    {
+     "en": "Sanjib Sabhapandit",
+     "as": "সঞ্জীৱ সহপণ্ডিত"
+    },
+    {
+     "en": "Dara Ahmed",
+     "as": "দাৰা আহমেদ"
+    },
+    {
+     "en": "Bhabendra Nath Saikia",
+     "as": "ভবেন্দ্ৰ নাথ শইকীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assamese film director Dara Ahmed passed away.",
+    "as": "অসমীয়া চলচ্চিত্ৰ পৰিচালক দাৰা আহমেদৰ মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-243",
+   "q": {
+    "en": "Which veteran Assamese folk artist and flutist passed away recently?",
+    "as": "কোন পুৰণি অসমীয়া লোক শিল্পী আৰু বাঁহীবাদকে শেহতীয়াকৈ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Khagen Das Oja",
+     "as": "খগেন দাস ওজা"
+    },
+    {
+     "en": "Jitul Sonowal",
+     "as": "জিতুল সোণোৱাল"
+    },
+    {
+     "en": "Guneswar Oja",
+     "as": "গুণেশ্বৰ ওজা"
+    },
+    {
+     "en": "Prabhat Sarma",
+     "as": "প্ৰভাত শৰ্মা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Veteran Assamese folk artist and flutist Prabhat Sarma passed away.",
+    "as": "পুৰণি অসমীয়া লোক শিল্পী আৰু বাঁহীবাদক প্ৰভাত শৰ্মাৰ মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-244",
+   "q": {
+    "en": "Which Assamese translator and children's writer passed away recently?",
+    "as": "কোন অসমীয়া অনুবাদক আৰু শিশু-সাহিত্যিকে শেহতীয়াকৈ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Ranju Hazarika",
+     "as": "ৰঞ্জু হাজৰিকা"
+    },
+    {
+     "en": "Harekrishna Deka",
+     "as": "হৰেকৃষ্ণ ডেকা"
+    },
+    {
+     "en": "Surendra Nath Medhi",
+     "as": "সুৰেন্দ্ৰ নাথ মেধি"
+    },
+    {
+     "en": "Nayanjyoti Sarma",
+     "as": "নয়নজ্যোতি শৰ্মা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assamese translator and children's writer Surendra Nath Medhi passed away.",
+    "as": "অসমীয়া অনুবাদক আৰু শিশু-সাহিত্যিক সুৰেন্দ্ৰ নাথ মেধিৰ মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-245",
+   "q": {
+    "en": "Which Assamese folk artist of the Dhuliya culture passed away recently?",
+    "as": "ধুলিয়া সংস্কৃতিৰ কোন অসমীয়া লোক শিল্পীয়ে শেহতীয়াকৈ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Khagen Das Oja",
+     "as": "খগেন দাস ওজা"
+    },
+    {
+     "en": "Drona Bhuyan",
+     "as": "দ্ৰোণ ভূঞা"
+    },
+    {
+     "en": "Guneswar Oja",
+     "as": "গুণেশ্বৰ ওজা"
+    },
+    {
+     "en": "Prabhat Sarma",
+     "as": "প্ৰভাত শৰ্মা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Khagen Das Oja, an exponent of Assamese folk culture, passed away.",
+    "as": "অসমীয়া লোক সংস্কৃতিৰ পণ্ডিত খগেন দাস ওজাৰ মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-246",
+   "q": {
+    "en": "Which Assamese physician and kidney specialist passed away in Guwahati?",
+    "as": "কোন অসমীয়া চিকিৎসক আৰু বৃক্ক বিশেষজ্ঞৰ গুৱাহাটীত মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Dr. Bidyut Chandan Deka",
+     "as": "ড° বিদ্যুত চন্দন ডেকা"
+    },
+    {
+     "en": "Dr. Amalendu Chakraborty",
+     "as": "ড° অমলেন্দু চক্ৰৱৰ্তী"
+    },
+    {
+     "en": "Dr. Punyadhar Duwara",
+     "as": "ড° পুণ্যধৰ দুৱৰা"
+    },
+    {
+     "en": "Dr. Jogendra Nath Phukan",
+     "as": "ড° যোগেন্দ্ৰ নাথ ফুকন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dr. Punyadhar Duwara, a kidney specialist, passed away in Guwahati.",
+    "as": "বৃক্ক বিশেষজ্ঞ ড° পুণ্যধৰ দুৱৰাৰ গুৱাহাটীত মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-247",
+   "q": {
+    "en": "Which Assamese historian and member of the Kamarupa Anusandhan Samiti passed away?",
+    "as": "কামৰূপ অনুসন্ধান সমিতিৰ কোন অসমীয়া ইতিহাসবিদৰ মৃত্যু হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Dr. Amalendu Chakraborty",
+     "as": "ড° অমলেন্দু চক্ৰৱৰ্তী"
+    },
+    {
+     "en": "Dr. Jogendra Nath Phukan",
+     "as": "ড° যোগেন্দ্ৰ নাথ ফুকন"
+    },
+    {
+     "en": "Dr. R. D. Choudhury",
+     "as": "ড° আৰ ডি চৌধুৰী"
+    },
+    {
+     "en": "Dr. Suresh Phukan",
+     "as": "ড° সুৰেশ ফুকন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dr. Jogendra Nath Phukan, an Assamese historian, passed away.",
+    "as": "অসমীয়া ইতিহাসবিদ ড° যোগেন্দ্ৰ নাথ ফুকনৰ মৃত্যু হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-248",
+   "q": {
+    "en": "On which date is Silpi Divas observed in Assam?",
+    "as": "অসমত শিল্পী দিৱস কোন তাৰিখে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "17 January",
+     "as": "১৭ জানুৱাৰী"
+    },
+    {
+     "en": "7 January",
+     "as": "৭ জানুৱাৰী"
+    },
+    {
+     "en": "17 February",
+     "as": "১৭ ফেব্ৰুৱাৰী"
+    },
+    {
+     "en": "27 January",
+     "as": "২৭ জানুৱাৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Silpi Divas is observed on 17 January in Assam.",
+    "as": "অসমত শিল্পী দিৱস ১৭ জানুৱাৰীত পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-249",
+   "q": {
+    "en": "Silpi Divas of Assam marks the death anniversary of which personality?",
+    "as": "অসমৰ শিল্পী দিৱসে কোন ব্যক্তিত্বৰ মৃত্যু বাৰ্ষিকী সূচায়?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Bhupen Hazarika",
+     "as": "ভূপেন হাজৰিকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Silpi Divas marks the death anniversary of Jyotiprasad Agarwala.",
+    "as": "শিল্পী দিৱসে জ্যোতি প্ৰসাদ আগৰৱালাৰ মৃত্যু বাৰ্ষিকী সূচায়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-250",
+   "q": {
+    "en": "On which date is World Psoriasis Day observed?",
+    "as": "বিশ্ব ছ'ৰিয়াছিছ দিৱস কোন তাৰিখে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "9 October",
+     "as": "৯ অক্টোবৰ"
+    },
+    {
+     "en": "29 September",
+     "as": "২৯ ছেপ্তেম্বৰ"
+    },
+    {
+     "en": "19 October",
+     "as": "১৯ অক্টোবৰ"
+    },
+    {
+     "en": "29 October",
+     "as": "২৯ অক্টোবৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "World Psoriasis Day is observed on 29 October.",
+    "as": "বিশ্ব ছ'ৰিয়াছিছ দিৱস ২৯ অক্টোবৰত পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-251",
+   "q": {
+    "en": "Which is the largest inland water body mentioned in relation to the Caspian Sea?",
+    "as": "কাস্পিয়ান সাগৰৰ সৈতে উল্লেখ কৰা আটাইতকৈ ডাঙৰ অন্তৰ্দেশীয় জলাশয় কোন?"
+   },
+   "options": [
+    {
+     "en": "Caspian Sea",
+     "as": "কাস্পিয়ান সাগৰ"
+    },
+    {
+     "en": "Lake Baikal",
+     "as": "বাইকাল হ্ৰদ"
+    },
+    {
+     "en": "Dead Sea",
+     "as": "মৃত সাগৰ"
+    },
+    {
+     "en": "Aral Sea",
+     "as": "আৰল সাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Caspian Sea is the world's largest inland water body.",
+    "as": "কাস্পিয়ান সাগৰ বিশ্বৰ আটাইতকৈ ডাঙৰ অন্তৰ্দেশীয় জলাশয়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-252",
+   "q": {
+    "en": "Which country ratified the Caspian Sea Convention in 2026?",
+    "as": "২০২৬ চনত কোন দেশে কাস্পিয়ান সাগৰ সন্মিলন অনুমোদন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Russia",
+     "as": "ৰাছিয়া"
+    },
+    {
+     "en": "Azerbaijan",
+     "as": "আজেৰবাইজান"
+    },
+    {
+     "en": "Kazakhstan",
+     "as": "কাজাখস্তান"
+    },
+    {
+     "en": "Iran",
+     "as": "ইৰাণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Iran ratified the 2018 Convention on the Legal Status of the Caspian Sea.",
+    "as": "ইৰাণে ২০১৮ চনৰ কাস্পিয়ান সাগৰৰ আইনী স্থিতি সন্মিলন অনুমোদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-253",
+   "q": {
+    "en": "Which classical Tamil text is the focus of Kashi Tamil Sangamam 5.0?",
+    "as": "কাশী তামিল সংগমম ৫.০ ৰ কেন্দ্ৰবিন্দু কোন ধ্ৰুপদী তামিল গ্ৰন্থ?"
+   },
+   "options": [
+    {
+     "en": "Thirukkural",
+     "as": "তিৰুক্কুৰাল"
+    },
+    {
+     "en": "Tolkappiyam",
+     "as": "তolkappiyam"
+    },
+    {
+     "en": "Silappatikaram",
+     "as": "শিলপ্পতিকাাৰম"
+    },
+    {
+     "en": "Manimekalai",
+     "as": "মণিমেকলাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kashi Tamil Sangamam 5.0 focuses on the Thirukkural.",
+    "as": "কাশী তামিল সংগমম ৫.০ তিৰুক্কুৰালৰ ওপৰত কেন্দ্ৰিত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-254",
+   "q": {
+    "en": "How many couplets does the Thirukkural contain?",
+    "as": "তিৰুক্কুৰালত কিমানটা দোহা আছে?"
+   },
+   "options": [
+    {
+     "en": "1,000",
+     "as": "১০০০"
+    },
+    {
+     "en": "1,500",
+     "as": "১৫০০"
+    },
+    {
+     "en": "1,330",
+     "as": "১৩৩০"
+    },
+    {
+     "en": "2,000",
+     "as": "২০০০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Thirukkural contains 1,330 couplets.",
+    "as": "তিৰুক্কুৰালত ১৩৩০ টা দোহা আছে।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-255",
+   "q": {
+    "en": "Who is the author of the Thirukkural?",
+    "as": "তিৰুক্কুৰালৰ ৰচয়িতা কোন?"
+   },
+   "options": [
+    {
+     "en": "Kambar",
+     "as": "কম্বৰ"
+    },
+    {
+     "en": "Thiruvalluvar",
+     "as": "তিৰুৱল্লুৱৰ"
+    },
+    {
+     "en": "Bharathiyar",
+     "as": "ভাৰতীয়াৰ"
+    },
+    {
+     "en": "Avvaiyar",
+     "as": "অৱ্বৈয়াৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Thirukkural is attributed to Thiruvalluvar.",
+    "as": "তিৰুক্কুৰাল তিৰুৱল্লুৱৰৰ ৰচনা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-256",
+   "q": {
+    "en": "Which state announced that CyberTech Asia will be held in India for the first time?",
+    "as": "কোন ৰাজ্যই চাইবেৰটেক এছিয়া ভাৰতত প্ৰথমবাৰৰ বাবে অনুষ্ঠিত হ'ব বুলি ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Gujarat",
+     "as": "গুজৰাট"
+    },
+    {
+     "en": "Maharashtra",
+     "as": "মহাৰাষ্ট্ৰ"
+    },
+    {
+     "en": "Telangana",
+     "as": "তেলেংগানা"
+    },
+    {
+     "en": "Karnataka",
+     "as": "কৰ্ণাটক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Maharashtra announced CyberTech Asia will be held in Mumbai.",
+    "as": "মহাৰাষ্ট্ৰই ঘোষণা কৰিছিল যে চাইবেৰটেক এছিয়া মুম্বাইত অনুষ্ঠিত হ'ব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-257",
+   "q": {
+    "en": "Which city hosted the 2026 National Urban Conclave?",
+    "as": "২০২৬ ৰাষ্ট্ৰীয় চহৰীয়া সন্মিলন কোন চহৰে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhopal",
+     "as": "ভোপাল"
+    },
+    {
+     "en": "Bhubaneswar",
+     "as": "ভুৱনেশ্বৰ"
+    },
+    {
+     "en": "Jaipur",
+     "as": "জয়পুৰ"
+    },
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bhubaneswar hosted the National Urban Conclave 2026.",
+    "as": "ভুৱনেশ্বৰে ৰাষ্ট্ৰীয় চহৰীয়া সন্মিলন ২০২৬ আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-258",
+   "q": {
+    "en": "Which Indian city hosted the first Earthshot Prize ceremony in India?",
+    "as": "ভাৰতত প্ৰথম আৰ্থশ্বট প্ৰাইজ অনুষ্ঠান কোন ভাৰতীয় চহৰে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "New Delhi",
+     "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    },
+    {
+     "en": "Kolkata",
+     "as": "কলকাতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mumbai hosted the first Earthshot Prize ceremony in India.",
+    "as": "মুম্বাইয়ে ভাৰতত প্ৰথম আৰ্থশ্বট প্ৰাইজ অনুষ্ঠান আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-259",
+   "q": {
+    "en": "Which Indian museum was the only one in the 2026 world's 100 best museums list?",
+    "as": "২০২৬ চনৰ বিশ্বৰ ১০০ শ্ৰেষ্ঠ সংগ্ৰহালয় তালিকাত কোন ভাৰতীয় সংগ্ৰহালয় একমাত্ৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Salar Jung Museum",
+     "as": "ছালাৰ জঙ সংগ্ৰহালয়"
+    },
+    {
+     "en": "Bihar Museum",
+     "as": "বিহাৰ সংগ্ৰহালয়"
+    },
+    {
+     "en": "Indian Museum",
+     "as": "ভাৰতীয় সংগ্ৰহালয়"
+    },
+    {
+     "en": "National Museum",
+     "as": "ৰাষ্ট্ৰীয় সংগ্ৰহালয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Bihar Museum was the only Indian museum in the 2026 list.",
+    "as": "বিহাৰ সংগ্ৰহালয় ২০২৬ তালিকাত একমাত্ৰ ভাৰতীয় সংগ্ৰহালয় আছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-260",
+   "q": {
+    "en": "Which museum topped the 2026 list of the world's best museums?",
+    "as": "২০২৬ চনৰ বিশ্বৰ শ্ৰেষ্ঠ সংগ্ৰহালয় তালিকাত কোন সংগ্ৰহালয়ে শীৰ্ষস্থান লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Metropolitan Museum, New York",
+     "as": "মেট্ৰ'পলিটান সংগ্ৰহালয়, নিউয়ৰ্ক"
+    },
+    {
+     "en": "Museo Nacional de Antropologia, Mexico City",
+     "as": "মেক্সিকো চহৰৰ জাতীয় নৃতত্ত্ব সংগ্ৰহালয়"
+    },
+    {
+     "en": "British Museum, London",
+     "as": "ব্ৰিটিছ সংগ্ৰহালয়, লণ্ডন"
+    },
+    {
+     "en": "Louvre, Paris",
+     "as": "লুভ্ৰ, পেৰিছ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mexico City's Museo Nacional de Antropologia topped the 2026 list.",
+    "as": "মেক্সিকো চহৰৰ জাতীয় নৃতত্ত্ব সংগ্ৰহালয়ে ২০২৬ তালিকাত শীৰ্ষস্থান লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-261",
+   "q": {
+    "en": "Which drone show set a Guinness World Record in Mysuru in 2026?",
+    "as": "২০২৬ চনত মহীশূৰত কোন ড্ৰ'ন শ্ব'ই গিনিজ বিশ্ব ৰেকৰ্ড স্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mysuru Dasara drone show",
+     "as": "মহীশূৰ দচৰা ড্ৰ'ন শ্ব'"
+    },
+    {
+     "en": "Mysuru Yoga show",
+     "as": "মহীশূৰ যোগ শ্ব'"
+    },
+    {
+     "en": "Hampi Utsav show",
+     "as": "হাম্পি উৎসৱ শ্ব'"
+    },
+    {
+     "en": "Bengaluru Karaga show",
+     "as": "বেংগালুৰু কৰাগা শ্ব'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mysuru Dasara drone show set a Guinness World Record.",
+    "as": "মহীশূৰ দচৰা ড্ৰ'ন শ্ব'ই গিনিজ বিশ্ব ৰেকৰ্ড স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-262",
+   "q": {
+    "en": "How many drones were used in the record-setting Mysuru Dasara drone show?",
+    "as": "ৰেকৰ্ড স্থাপন কৰা মহীশূৰ দচৰা ড্ৰ'ন শ্ব'ত কিমানটা ড্ৰ'ন ব্যৱহাৰ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "5,000",
+     "as": "৫০০০"
+    },
+    {
+     "en": "2,000",
+     "as": "২০০০"
+    },
+    {
+     "en": "3,473",
+     "as": "৩৪৭৩"
+    },
+    {
+     "en": "1,000",
+     "as": "১০০০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The drone show used 3,473 drones.",
+    "as": "ড্ৰ'ন শ্ব'ত ৩৪৭৩ টা ড্ৰ'ন ব্যৱহাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-263",
+   "q": {
+    "en": "Which bird's shape was formed in the record-setting Mysuru drone show?",
+    "as": "ৰেকৰ্ড স্থাপন কৰা মহীশূৰ ড্ৰ'ন শ্ব'ত কোন চৰাইৰ আকৃতি গঠন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Swan",
+     "as": "ৰাজহাঁহ"
+    },
+    {
+     "en": "Peacock",
+     "as": "ময়ূৰ"
+    },
+    {
+     "en": "Eagle",
+     "as": "ঈগল"
+    },
+    {
+     "en": "Parrot",
+     "as": "ভাটৌ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The drone show depicted a dancing peacock, India's national bird.",
+    "as": "ড্ৰ'ন শ্ব'ত ভাৰতৰ ৰাষ্ট্ৰীয় চৰাই নাচি থকা ময়ূৰৰ চিত্ৰ দেখুওৱা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-264",
+   "q": {
+    "en": "Which Chola-era bronze idols were unearthed in Nagapattinam in 2026?",
+    "as": "২০২৬ চনত নাগাপট্টিনামত কোন চোল যুগৰ ব্ৰঞ্জ মূৰ্তি উদ্ধাৰ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Krishna and Radha",
+     "as": "কৃষ্ণ আৰু ৰাধা"
+    },
+    {
+     "en": "Ganesha and Parvati",
+     "as": "গণেশ আৰু পাৰ্বতী"
+    },
+    {
+     "en": "Nataraja and Sivakami",
+     "as": "নটৰাজ আৰু শিৱকামী"
+    },
+    {
+     "en": "Rama and Sita",
+     "as": "ৰাম আৰু সীতা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bronze idols of Nataraja and Sivakami were unearthed in Nagapattinam.",
+    "as": "নাগাপট্টিনামত নটৰাজ আৰু শিৱকামীৰ ব্ৰঞ্জ মূৰ্তি উদ্ধাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-265",
+   "q": {
+    "en": "To which century do the Nataraja and Sivakami idols found in Nagapattinam belong?",
+    "as": "নাগাপট্টিনামত পোৱা নটৰাজ আৰু শিৱকামী মূৰ্তি কোন শতিকাৱলীৰ?"
+   },
+   "options": [
+    {
+     "en": "9th century AD",
+     "as": "খ্ৰীষ্টাব্দৰ ৯ সংখ্যক শতিকা"
+    },
+    {
+     "en": "15th century AD",
+     "as": "খ্ৰীষ্টাব্দৰ ১৫ সংখ্যক শতিকা"
+    },
+    {
+     "en": "18th century AD",
+     "as": "খ্ৰীষ্টাব্দৰ ১৮ সংখ্যক শতিকা"
+    },
+    {
+     "en": "12th century AD",
+     "as": "খ্ৰীষ্টাব্দৰ ১২ সংখ্যক শতিকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The idols date to the 12th century AD.",
+    "as": "মূৰ্তিবোৰ খ্ৰীষ্টাব্দৰ ১২ সংখ্যক শতিকাৱলীৰ।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-266",
+   "q": {
+    "en": "In which state is the Nagapattinam excavation site?",
+    "as": "নাগাপট্টিনাম খনন স্থান কোন ৰাজ্যত?"
+   },
+   "options": [
+    {
+     "en": "Kerala",
+     "as": "কেৰালা"
+    },
+    {
+     "en": "Tamil Nadu",
+     "as": "তামিলনাডু"
+    },
+    {
+     "en": "Andhra Pradesh",
+     "as": "অন্ধ্ৰ প্ৰদেশ"
+    },
+    {
+     "en": "Karnataka",
+     "as": "কৰ্ণাটক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nagapattinam is in Tamil Nadu.",
+    "as": "নাগাপট্টিনাম তামিলনাডুত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-267",
+   "q": {
+    "en": "Where will Buddha's Piprahwa relics be displayed in 2026?",
+    "as": "২০২৬ চনত বুদ্ধৰ পিপ্ৰহৱা অৱশেষ ক'ত প্ৰদৰ্শন কৰা হ'ব?"
+   },
+   "options": [
+    {
+     "en": "Sikkim",
+     "as": "ছিক্কিম"
+    },
+    {
+     "en": "Bihar",
+     "as": "বিহাৰ"
+    },
+    {
+     "en": "Uttar Pradesh",
+     "as": "উত্তৰ প্ৰদেশ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Piprahwa relics will be displayed in Arunachal Pradesh.",
+    "as": "পিপ্ৰহৱা অৱশেষ অৰুণাচল প্ৰদেশত প্ৰদৰ্শন কৰা হ'ব।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-268",
+   "q": {
+    "en": "Where are Buddha's Piprahwa relics normally preserved?",
+    "as": "বুদ্ধৰ পিপ্ৰহৱা অৱশেষ সাধাৰণতে ক'ত সংৰক্ষিত থাকে?"
+   },
+   "options": [
+    {
+     "en": "Patna Museum",
+     "as": "পাটনা সংগ্ৰহালয়"
+    },
+    {
+     "en": "Indian Museum, Kolkata",
+     "as": "ভাৰতীয় সংগ্ৰহালয়, কলকাতা"
+    },
+    {
+     "en": "Salar Jung Museum",
+     "as": "ছালাৰ জঙ সংগ্ৰহালয়"
+    },
+    {
+     "en": "National Museum, New Delhi",
+     "as": "ৰাষ্ট্ৰীয় সংগ্ৰহালয়, নতুন দিল্লী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Piprahwa relics are preserved at the National Museum in New Delhi.",
+    "as": "পিপ্ৰহৱা অৱশেষ নতুন দিল্লীৰ ৰাষ্ট্ৰীয় সংগ্ৰহালয়ত সংৰক্ষিত।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-269",
+   "q": {
+    "en": "Which union ministry organised the display of Buddha's Piprahwa relics?",
+    "as": "বুদ্ধৰ পিপ্ৰহৱা অৱশেষ প্ৰদৰ্শন কোন কেন্দ্ৰীয় মন্ত্ৰালয়ে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ministry of Home Affairs",
+     "as": "গৃহ মন্ত্ৰালয়"
+    },
+    {
+     "en": "Ministry of Culture",
+     "as": "সংস্কৃতি মন্ত্ৰালয়"
+    },
+    {
+     "en": "Ministry of Tourism",
+     "as": "পৰ্যটন মন্ত্ৰালয়"
+    },
+    {
+     "en": "Ministry of External Affairs",
+     "as": "বিদেশ মন্ত্ৰালয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Ministry of Culture organised the Piprahwa relics display.",
+    "as": "সংস্কৃতি মন্ত্ৰালয়ে পিপ্ৰহৱা অৱশেষ প্ৰদৰ্শন আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-270",
+   "q": {
+    "en": "Which festival did Sikkim host for the first time in 2026?",
+    "as": "২০২৬ চনত ছিক্কিমে প্ৰথমবাৰৰ বাবে কোন মহোৎসৱ আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sikkim Orchid Festival",
+     "as": "ছিক্কিম অৰ্কিড মহোৎসৱ"
+    },
+    {
+     "en": "Sikkim Snow Festival",
+     "as": "ছিক্কিম তুষাৰ মহোৎসৱ"
+    },
+    {
+     "en": "Sikkim Tea Festival",
+     "as": "ছিক্কিম চাহ মহোৎসৱ"
+    },
+    {
+     "en": "Himalayan Yak Festival",
+     "as": "হিমালয়ী য়াক মহোৎসৱ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sikkim hosted its first Himalayan Yak Festival in 2026.",
+    "as": "ছিক্কিমে ২০২৬ চনত প্ৰথম হিমালয়ী য়াক মহোৎসৱ আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-271",
+   "q": {
+    "en": "Which department organised the Himalayan Yak Festival in Sikkim?",
+    "as": "ছিক্কিমত হিমালয়ী য়াক মহোৎসৱ কোন বিভাগে আয়োজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Animal Husbandry and Veterinary Services Department",
+     "as": "পশুপালন আৰু পশু চিকিৎসা সেৱা বিভাগ"
+    },
+    {
+     "en": "Forest Department",
+     "as": "বন বিভাগ"
+    },
+    {
+     "en": "Tourism Department",
+     "as": "পৰ্যটন বিভাগ"
+    },
+    {
+     "en": "Agriculture Department",
+     "as": "কৃষি বিভাগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Animal Husbandry and Veterinary Services Department organised the festival.",
+    "as": "পশুপালন আৰু পশু চিকিৎসা সেৱা বিভাগে মহোৎসৱ আয়োজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-272",
+   "q": {
+    "en": "Which folk artist was selected for the Karnataka Janapada Academy award in 2026?",
+    "as": "২০২৬ চনত কৰ্ণাটক জনপদ একাডেমী বঁটাৰ বাবে কোন লোক শিল্পী নিৰ্বাচিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Khagen Das Oja",
+     "as": "খগেন দাস ওজা"
+    },
+    {
+     "en": "Guneswar Oja",
+     "as": "গুণেশ্বৰ ওজা"
+    },
+    {
+     "en": "Prabhat Sarma",
+     "as": "প্ৰভাত শৰ্মা"
+    },
+    {
+     "en": "Devadas Chimakode",
+     "as": "দেৱদাস চিমাকোডে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Devadas Chimakode was selected for the Karnataka Janapada Academy award.",
+    "as": "দেৱদাস চিমাকোডে কৰ্ণাটক জনপদ একাডেমী বঁটাৰ বাবে নিৰ্বাচিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-273",
+   "q": {
+    "en": "Which Assamese village was declared Best Tourism Village by the central government?",
+    "as": "কেন্দ্ৰীয় চৰকাৰে কোন অসমীয়া গাঁওক শ্ৰেষ্ঠ পৰ্যটন গাঁও ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chandubi",
+     "as": "চান্দুবি"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Biswanath Ghat",
+     "as": "বিশ্বনাথ ঘাট"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Biswanath Ghat was declared Best Tourism Village.",
+    "as": "বিশ্বনাথ ঘাটক শ্ৰেষ্ঠ পৰ্যটন গাঁও ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-india-current-affairs-274",
+   "q": {
+    "en": "Which Assamese campaign was launched to prevent human-elephant conflict?",
+    "as": "মানুহ-হাতী সংঘাত ৰোধ কৰিবলৈ কোন অসমীয়া অভিযান আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Haathi Mere Saathi",
+     "as": "হাতী মেৰে সাথী"
+    },
+    {
+     "en": "Gajah Kotha",
+     "as": "গজ কথা"
+    },
+    {
+     "en": "Gaj Yatra",
+     "as": "গজ যাত্ৰা"
+    },
+    {
+     "en": "Project Elephant",
+     "as": "প্ৰজেক্ট এলিফেণ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Gajah Kotha was launched to prevent human-elephant conflict.",
+    "as": "মানুহ-হাতী সংঘাত ৰোধ কৰিবলৈ গজ কথা আৰম্ভ কৰা হৈছিল।"
+   }
+  }
+ ],
+ "government-schemes": [
+  {
+   "id": "government-schemes-001",
+   "q": {
+    "en": "Orunodoi is a scheme related to which field?",
+    "as": "অৰুণোদই কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    },
+    {
+     "en": "self-employment through micro enterprises",
+     "as": "ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগ"
+    },
+    {
+     "en": "monthly financial assistance to poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Orunodoi is a scheme related to monthly financial assistance to poor families.",
+    "as": "অৰুণোদই দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-002",
+   "q": {
+    "en": "Which of the following is a scheme of the Government of Assam?",
+    "as": "তলৰ কোনটো অসম চৰকাৰৰ আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "iDEX",
+     "as": "আইডেক্স"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদই"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Awas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Orunodoi is a scheme of the Government of Assam.",
+    "as": "অৰুণোদই অসম চৰকাৰৰ এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-003",
+   "q": {
+    "en": "Who are the main beneficiaries of Orunodoi?",
+    "as": "অৰুণোদইৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "poor and needy families",
+     "as": "দৰিদ্ৰ আৰু অভাৱী পৰিয়াল"
+    },
+    {
+     "en": "SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগী"
+    },
+    {
+     "en": "tea garden workers",
+     "as": "চাহ বাগানৰ কৰ্মী"
+    },
+    {
+     "en": "students who excel in examinations",
+     "as": "পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Orunodoi are poor and needy families.",
+    "as": "অৰুণোদইৰ প্ৰধান উপকাৰী দৰিদ্ৰ আৰু অভাৱী পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-004",
+   "q": {
+    "en": "In which year was Orunodoi launched?",
+    "as": "অৰুণোদই কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Orunodoi was launched in 2020.",
+    "as": "অৰুণোদই 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-005",
+   "q": {
+    "en": "Which scheme is related to monthly financial assistance to poor families?",
+    "as": "কোন আঁচনি দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Mukhya Mantri Nijut Moina (girls)",
+     "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)"
+    },
+    {
+     "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana",
+     "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা"
+    },
+    {
+     "en": "Mahila Samman Savings Certificate",
+     "as": "মহিলা সম্মান সঞ্চয় পত্ৰ"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদই"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Orunodoi is related to monthly financial assistance to poor families.",
+    "as": "অৰুণোদই দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-006",
+   "q": {
+    "en": "Mukhyamantri Atmanirbhar Assam Abhiyan is a scheme related to which field?",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    },
+    {
+     "en": "self-employment for youth",
+     "as": "যুৱক-যুৱতীৰ আত্মনিয়োগ"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    },
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mukhyamantri Atmanirbhar Assam Abhiyan is a scheme related to self-employment for youth.",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান যুৱক-যুৱতীৰ আত্মনিয়োগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-007",
+   "q": {
+    "en": "Who are the main beneficiaries of Mukhyamantri Atmanirbhar Assam Abhiyan?",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযানৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "women of poor households",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ মহিলা"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    },
+    {
+     "en": "manufacturing industries",
+     "as": "উৎপাদন উদ্যোগ"
+    },
+    {
+     "en": "unemployed youth",
+     "as": "নিবনুৱা যুৱক-যুৱতী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Mukhyamantri Atmanirbhar Assam Abhiyan are unemployed youth.",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযানৰ প্ৰধান উপকাৰী নিবনুৱা যুৱক-যুৱতী।"
+   }
+  },
+  {
+   "id": "government-schemes-008",
+   "q": {
+    "en": "In which year was Mukhyamantri Atmanirbhar Assam Abhiyan launched?",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mukhyamantri Atmanirbhar Assam Abhiyan was launched in 2025.",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান 2025 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-009",
+   "q": {
+    "en": "Which scheme is related to self-employment for youth?",
+    "as": "কোন আঁচনি যুৱক-যুৱতীৰ আত্মনিয়োগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Assam Darshan",
+     "as": "অসম দৰ্শন"
+    },
+    {
+     "en": "Ayushman Bharat",
+     "as": "আয়ুষ্মান ভাৰত"
+    },
+    {
+     "en": "Mukhyamantri Atmanirbhar Assam Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান"
+    },
+    {
+     "en": "Assam Tea Industry Special Incentive Scheme",
+     "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mukhyamantri Atmanirbhar Assam Abhiyan is related to self-employment for youth.",
+    "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান যুৱক-যুৱতীৰ আত্মনিয়োগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-010",
+   "q": {
+    "en": "Mukhyamantri Mahila Udyamita Abhiyan is a scheme related to which field?",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "accident insurance",
+     "as": "দুৰ্ঘটনা বীমা"
+    },
+    {
+     "en": "women's self-help group enterprises",
+     "as": "মহিলা স্বসহায়ক গোটৰ উদ্যোগ"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    },
+    {
+     "en": "funding innovation for defence",
+     "as": "প্ৰতিৰক্ষাৰ বাবে উদ্ভাৱনক পুঁজি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mukhyamantri Mahila Udyamita Abhiyan is a scheme related to women's self-help group enterprises.",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান মহিলা স্বসহায়ক গোটৰ উদ্যোগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-011",
+   "q": {
+    "en": "Who are the main beneficiaries of Mukhyamantri Mahila Udyamita Abhiyan?",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযানৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "investors",
+     "as": "বিনিয়োগকাৰী"
+    },
+    {
+     "en": "women of poor households",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ মহিলা"
+    },
+    {
+     "en": "rural women of self-help groups",
+     "as": "গ্ৰাম্য মহিলা স্বসহায়ক গোট"
+    },
+    {
+     "en": "land holders",
+     "as": "ভূমিৰ মালিক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Mukhyamantri Mahila Udyamita Abhiyan are rural women of self-help groups.",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযানৰ প্ৰধান উপকাৰী গ্ৰাম্য মহিলা স্বসহায়ক গোট।"
+   }
+  },
+  {
+   "id": "government-schemes-012",
+   "q": {
+    "en": "In which year was Mukhyamantri Mahila Udyamita Abhiyan launched?",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mukhyamantri Mahila Udyamita Abhiyan was launched in 2025.",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান 2025 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-013",
+   "q": {
+    "en": "Which scheme is related to women's self-help group enterprises?",
+    "as": "কোন আঁচনি মহিলা স্বসহায়ক গোটৰ উদ্যোগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Mukhyamantri Mahila Udyamita Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান"
+    },
+    {
+     "en": "Assam Tea Industry Special Incentive Scheme",
+     "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি"
+    },
+    {
+     "en": "Anundoram Borooah Award",
+     "as": "আনন্দৰাম বৰুৱা বঁটা"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mukhyamantri Mahila Udyamita Abhiyan is related to women's self-help group enterprises.",
+    "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান মহিলা স্বসহায়ক গোটৰ উদ্যোগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-014",
+   "q": {
+    "en": "Nijut Moina is a scheme related to which field?",
+    "as": "নিজুত মইনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "monthly stipend to girl students",
+     "as": "ছাত্ৰীসকলক মাহেকীয়া বৃত্তি"
+    },
+    {
+     "en": "manufacturing of sports goods",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদন"
+    },
+    {
+     "en": "housing for all",
+     "as": "সকলৰ বাবে আবাস"
+    },
+    {
+     "en": "funding innovation for defence",
+     "as": "প্ৰতিৰক্ষাৰ বাবে উদ্ভাৱনক পুঁজি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nijut Moina is a scheme related to monthly stipend to girl students.",
+    "as": "নিজুত মইনা ছাত্ৰীসকলক মাহেকীয়া বৃত্তিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-015",
+   "q": {
+    "en": "Who are the main beneficiaries of Nijut Moina?",
+    "as": "নিজুত মইনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "girl students of higher secondary and above",
+     "as": "উচ্চতৰ মাধ্যমিক আৰু তাৰ ওপৰৰ ছাত্ৰী"
+    },
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    },
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Nijut Moina are girl students of higher secondary and above.",
+    "as": "নিজুত মইনাৰ প্ৰধান উপকাৰী উচ্চতৰ মাধ্যমিক আৰু তাৰ ওপৰৰ ছাত্ৰী।"
+   }
+  },
+  {
+   "id": "government-schemes-016",
+   "q": {
+    "en": "In which year was Nijut Moina launched?",
+    "as": "নিজুত মইনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2004",
+     "as": "২০০৪"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nijut Moina was launched in 2024.",
+    "as": "নিজুত মইনা 2024 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-017",
+   "q": {
+    "en": "Which scheme is related to monthly stipend to girl students?",
+    "as": "কোন আঁচনি ছাত্ৰীসকলক মাহেকীয়া বৃত্তিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা"
+    },
+    {
+     "en": "Assam Tea Industry Special Incentive Scheme",
+     "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি"
+    },
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    },
+    {
+     "en": "Ujjwala Yojana",
+     "as": "উজ্জ্বলা যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nijut Moina is related to monthly stipend to girl students.",
+    "as": "নিজুত মইনা ছাত্ৰীসকলক মাহেকীয়া বৃত্তিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-018",
+   "q": {
+    "en": "Atal Amrit Abhiyan is a scheme related to which field?",
+    "as": "অটল অমৃত অভিযান কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "development of border villages",
+     "as": "সীমান্ত গাঁৱৰ উন্নয়ন"
+    },
+    {
+     "en": "health insurance",
+     "as": "স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "LPG connections to migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগ"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Atal Amrit Abhiyan is a scheme related to health insurance.",
+    "as": "অটল অমৃত অভিযান স্বাস্থ্য বীমাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-019",
+   "q": {
+    "en": "Who are the main beneficiaries of Atal Amrit Abhiyan?",
+    "as": "অটল অমৃত অভিযানৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "poor and low-income families",
+     "as": "দৰিদ্ৰ আৰু নিম্ন আয়ৰ পৰিয়াল"
+    },
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    },
+    {
+     "en": "poor and homeless families",
+     "as": "দৰিদ্ৰ আৰু গৃহহীন পৰিয়াল"
+    },
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Atal Amrit Abhiyan are poor and low-income families.",
+    "as": "অটল অমৃত অভিযানৰ প্ৰধান উপকাৰী দৰিদ্ৰ আৰু নিম্ন আয়ৰ পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-020",
+   "q": {
+    "en": "In which year was Atal Amrit Abhiyan launched?",
+    "as": "অটল অমৃত অভিযান কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Atal Amrit Abhiyan was launched in 2016.",
+    "as": "অটল অমৃত অভিযান 2016 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-021",
+   "q": {
+    "en": "Which scheme is related to health insurance?",
+    "as": "কোন আঁচনি স্বাস্থ্য বীমাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "ESIC New Amnesty Scheme",
+     "as": "ইএছআইচি নতুন ক্ষমা আঁচনি"
+    },
+    {
+     "en": "Atal Amrit Abhiyan",
+     "as": "অটল অমৃত অভিযান"
+    },
+    {
+     "en": "Assam Tea Industry Special Incentive Scheme",
+     "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Atal Amrit Abhiyan is related to health insurance.",
+    "as": "অটল অমৃত অভিযান স্বাস্থ্য বীমাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-022",
+   "q": {
+    "en": "Mission Basundhara is a scheme related to which field?",
+    "as": "মিচন বসুন্ধৰা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "sanitation and cleanliness",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্নতা"
+    },
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "rural development and governance",
+     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+    },
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mission Basundhara is a scheme related to land records and revenue services.",
+    "as": "মিচন বসুন্ধৰা ভূমি পঞ্জী আৰু ৰাজহ সেৱাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-023",
+   "q": {
+    "en": "Who are the main beneficiaries of Mission Basundhara?",
+    "as": "মিচন বসুন্ধৰাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    },
+    {
+     "en": "border village residents",
+     "as": "সীমান্ত গাঁৱৰ বাসিন্দা"
+    },
+    {
+     "en": "land holders",
+     "as": "ভূমিৰ মালিক"
+    },
+    {
+     "en": "rural women of self-help groups",
+     "as": "গ্ৰাম্য মহিলা স্বসহায়ক গোট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Mission Basundhara are land holders.",
+    "as": "মিচন বসুন্ধৰাৰ প্ৰধান উপকাৰী ভূমিৰ মালিক।"
+   }
+  },
+  {
+   "id": "government-schemes-024",
+   "q": {
+    "en": "In which year was Mission Basundhara launched?",
+    "as": "মিচন বসুন্ধৰা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mission Basundhara was launched in 2020.",
+    "as": "মিচন বসুন্ধৰা 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-025",
+   "q": {
+    "en": "Which scheme is related to land records and revenue services?",
+    "as": "কোন আঁচনি ভূমি পঞ্জী আৰু ৰাজহ সেৱাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Senior Citizens' Savings Scheme",
+     "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি"
+    },
+    {
+     "en": "Pradhan Mantri Suraksha Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা"
+    },
+    {
+     "en": "Swachh Bharat Mission",
+     "as": "স্বচ্ছ ভাৰত মিছন"
+    },
+    {
+     "en": "Mission Basundhara",
+     "as": "মিচন বসুন্ধৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mission Basundhara is related to land records and revenue services.",
+    "as": "মিচন বসুন্ধৰা ভূমি পঞ্জী আৰু ৰাজহ সেৱাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-026",
+   "q": {
+    "en": "Anundoram Borooah Award is a scheme related to which field?",
+    "as": "আনন্দৰাম বৰুৱা বঁটা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "investment in gold bonds",
+     "as": "স্বৰ্ণ বণ্ডত বিনিয়োগ"
+    },
+    {
+     "en": "award of computers to meritorious students",
+     "as": "মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদান"
+    },
+    {
+     "en": "income support to farmers",
+     "as": "কৃষকক আয় সহায়"
+    },
+    {
+     "en": "monthly financial assistance to poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Anundoram Borooah Award is a scheme related to award of computers to meritorious students.",
+    "as": "আনন্দৰাম বৰুৱা বঁটা মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদানৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-027",
+   "q": {
+    "en": "Who are the main beneficiaries of Anundoram Borooah Award?",
+    "as": "আনন্দৰাম বৰুৱা বঁটাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "students who excel in examinations",
+     "as": "পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী"
+    },
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    },
+    {
+     "en": "unorganised sector workers",
+     "as": "অসংগঠিত খণ্ডৰ কৰ্মী"
+    },
+    {
+     "en": "poor patients",
+     "as": "দৰিদ্ৰ ৰোগী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Anundoram Borooah Award are students who excel in examinations.",
+    "as": "আনন্দৰাম বৰুৱা বঁটাৰ প্ৰধান উপকাৰী পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী।"
+   }
+  },
+  {
+   "id": "government-schemes-028",
+   "q": {
+    "en": "In which year was Anundoram Borooah Award launched?",
+    "as": "আনন্দৰাম বৰুৱা বঁটা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Anundoram Borooah Award was launched in 2005.",
+    "as": "আনন্দৰাম বৰুৱা বঁটা 2005 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-029",
+   "q": {
+    "en": "Which scheme is related to award of computers to meritorious students?",
+    "as": "কোন আঁচনি মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদানৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Fasal Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা"
+    },
+    {
+     "en": "ESIC New Amnesty Scheme",
+     "as": "ইএছআইচি নতুন ক্ষমা আঁচনি"
+    },
+    {
+     "en": "Senior Citizens' Savings Scheme",
+     "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি"
+    },
+    {
+     "en": "Anundoram Borooah Award",
+     "as": "আনন্দৰাম বৰুৱা বঁটা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Anundoram Borooah Award is related to award of computers to meritorious students.",
+    "as": "আনন্দৰাম বৰুৱা বঁটা মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদানৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-030",
+   "q": {
+    "en": "CMSGUY is a scheme related to which field?",
+    "as": "চিএমএছজিইউৱাই কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "loans to SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণ"
+    },
+    {
+     "en": "rural broadband connectivity",
+     "as": "গ্ৰাম্য ব্ৰডবেণ্ড সংযোগ"
+    },
+    {
+     "en": "skill development and employment for youth",
+     "as": "যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগ"
+    },
+    {
+     "en": "working capital to street vendors",
+     "as": "পথ বিক্ৰেতাক কাৰ্যবাহী মূলধন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "CMSGUY is a scheme related to skill development and employment for youth.",
+    "as": "চিএমএছজিইউৱাই যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-031",
+   "q": {
+    "en": "Who are the main beneficiaries of CMSGUY?",
+    "as": "চিএমএছজিইউৱাইৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    },
+    {
+     "en": "economically weaker families",
+     "as": "অৰ্থনৈতিকভাৱে দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "students who excel in examinations",
+     "as": "পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী"
+    },
+    {
+     "en": "unemployed educated youth",
+     "as": "নিবনুৱা শিক্ষিত যুৱক-যুৱতী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of CMSGUY are unemployed educated youth.",
+    "as": "চিএমএছজিইউৱাইৰ প্ৰধান উপকাৰী নিবনুৱা শিক্ষিত যুৱক-যুৱতী।"
+   }
+  },
+  {
+   "id": "government-schemes-032",
+   "q": {
+    "en": "In which year was CMSGUY launched?",
+    "as": "চিএমএছজিইউৱাই কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "CMSGUY was launched in 2018.",
+    "as": "চিএমএছজিইউৱাই 2018 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-033",
+   "q": {
+    "en": "Which scheme is related to skill development and employment for youth?",
+    "as": "কোন আঁচনি যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Mission Basundhara",
+     "as": "মিচন বসুন্ধৰা"
+    },
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    },
+    {
+     "en": "CMSGUY",
+     "as": "চিএমএছজিইউৱাই"
+    },
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "CMSGUY is related to skill development and employment for youth.",
+    "as": "চিএমএছজিইউৱাই যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-034",
+   "q": {
+    "en": "SVAYEM is a scheme related to which field?",
+    "as": "স্বয়ম কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "promotion of Assamese and other local languages",
+     "as": "অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰ"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    },
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    },
+    {
+     "en": "self-employment through micro enterprises",
+     "as": "ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "SVAYEM is a scheme related to self-employment through micro enterprises.",
+    "as": "স্বয়ম ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-035",
+   "q": {
+    "en": "Who are the main beneficiaries of SVAYEM?",
+    "as": "স্বয়মৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "girl students",
+     "as": "ছাত্ৰী"
+    },
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    },
+    {
+     "en": "women micro finance borrowers",
+     "as": "মহিলা মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতা"
+    },
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of SVAYEM are young entrepreneurs.",
+    "as": "স্বয়মৰ প্ৰধান উপকাৰী যুৱ উদ্যোগী।"
+   }
+  },
+  {
+   "id": "government-schemes-036",
+   "q": {
+    "en": "In which year was SVAYEM launched?",
+    "as": "স্বয়ম কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "SVAYEM was launched in 2020.",
+    "as": "স্বয়ম 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-037",
+   "q": {
+    "en": "Which scheme is related to self-employment through micro enterprises?",
+    "as": "কোন আঁচনি ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Jal Jeevan Mission",
+     "as": "জল জীৱন মিছন"
+    },
+    {
+     "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+     "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন"
+    },
+    {
+     "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা"
+    },
+    {
+     "en": "SVAYEM",
+     "as": "স্বয়ম"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "SVAYEM is related to self-employment through micro enterprises.",
+    "as": "স্বয়ম ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-038",
+   "q": {
+    "en": "Pragyan Bharati is a scheme related to which field?",
+    "as": "প্ৰজ্ঞান ভাৰতী কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "piped drinking water to rural homes",
+     "as": "গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানী"
+    },
+    {
+     "en": "working capital to street vendors",
+     "as": "পথ বিক্ৰেতাক কাৰ্যবাহী মূলধন"
+    },
+    {
+     "en": "monthly financial assistance to poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায়"
+    },
+    {
+     "en": "free admission and scholarships for students",
+     "as": "শিক্ষাৰ্থীৰ বিনামূলীয়া নামভৰ্তি আৰু জলপানি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pragyan Bharati is a scheme related to free admission and scholarships for students.",
+    "as": "প্ৰজ্ঞান ভাৰতী শিক্ষাৰ্থীৰ বিনামূলীয়া নামভৰ্তি আৰু জলপানিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-039",
+   "q": {
+    "en": "Who are the main beneficiaries of Pragyan Bharati?",
+    "as": "প্ৰজ্ঞান ভাৰতীৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "college and university students",
+     "as": "মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়ৰ শিক্ষাৰ্থী"
+    },
+    {
+     "en": "rural population",
+     "as": "গ্ৰাম্য জনগণ"
+    },
+    {
+     "en": "people aged 18 to 50",
+     "as": "১৮ ৰ পৰা ৫০ বছৰৰ লোক"
+    },
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Pragyan Bharati are college and university students.",
+    "as": "প্ৰজ্ঞান ভাৰতীৰ প্ৰধান উপকাৰী মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়ৰ শিক্ষাৰ্থী।"
+   }
+  },
+  {
+   "id": "government-schemes-040",
+   "q": {
+    "en": "In which year was Pragyan Bharati launched?",
+    "as": "প্ৰজ্ঞান ভাৰতী কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pragyan Bharati was launched in 2021.",
+    "as": "প্ৰজ্ঞান ভাৰতী 2021 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-041",
+   "q": {
+    "en": "Which scheme is related to free admission and scholarships for students?",
+    "as": "কোন আঁচনি শিক্ষাৰ্থীৰ বিনামূলীয়া নামভৰ্তি আৰু জলপানিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    },
+    {
+     "en": "Assam Micro Finance Incentive and Relief Scheme",
+     "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি"
+    },
+    {
+     "en": "Assam Arogya Nidhi",
+     "as": "অসম আৰোগ্য নিধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pragyan Bharati is related to free admission and scholarships for students.",
+    "as": "প্ৰজ্ঞান ভাৰতী শিক্ষাৰ্থীৰ বিনামূলীয়া নামভৰ্তি আৰু জলপানিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-042",
+   "q": {
+    "en": "Bhasha Gaurav is a scheme related to which field?",
+    "as": "ভাষা গৌৰৱ কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "subsidised food grain",
+     "as": "সুবিধাপ্ৰাপ্ত খাদ্য শস্য"
+    },
+    {
+     "en": "housing for all",
+     "as": "সকলৰ বাবে আবাস"
+    },
+    {
+     "en": "promotion of Assamese and other local languages",
+     "as": "অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰ"
+    },
+    {
+     "en": "skill training for rural youth",
+     "as": "গ্ৰাম্য যুৱকৰ দক্ষতা প্ৰশিক্ষণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bhasha Gaurav is a scheme related to promotion of Assamese and other local languages.",
+    "as": "ভাষা গৌৰৱ অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-043",
+   "q": {
+    "en": "Who are the main beneficiaries of Bhasha Gaurav?",
+    "as": "ভাষা গৌৰৱৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    },
+    {
+     "en": "SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগী"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Bhasha Gaurav are students and language teachers.",
+    "as": "ভাষা গৌৰৱৰ প্ৰধান উপকাৰী শিক্ষাৰ্থী আৰু ভাষা শিক্ষক।"
+   }
+  },
+  {
+   "id": "government-schemes-044",
+   "q": {
+    "en": "In which year was Bhasha Gaurav launched?",
+    "as": "ভাষা গৌৰৱ কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2004",
+     "as": "২০০৪"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bhasha Gaurav was launched in 2023.",
+    "as": "ভাষা গৌৰৱ 2023 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-045",
+   "q": {
+    "en": "Which scheme is related to promotion of Assamese and other local languages?",
+    "as": "কোন আঁচনি অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bhasha Gaurav",
+     "as": "ভাষা গৌৰৱ"
+    },
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Ujjwala Yojana 2.0",
+     "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০"
+    },
+    {
+     "en": "ESIC New Amnesty Scheme",
+     "as": "ইএছআইচি নতুন ক্ষমা আঁচনি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhasha Gaurav is related to promotion of Assamese and other local languages.",
+    "as": "ভাষা গৌৰৱ অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-046",
+   "q": {
+    "en": "Assam Darshan is a scheme related to which field?",
+    "as": "অসম দৰ্শন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "rural development and governance",
+     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+    },
+    {
+     "en": "promotion of tourism",
+     "as": "পৰ্যটনৰ প্ৰচাৰ"
+    },
+    {
+     "en": "incentive against child marriage",
+     "as": "বাল্য বিবাহ ৰোধৰ প্ৰণোদনা"
+    },
+    {
+     "en": "investment in gold bonds",
+     "as": "স্বৰ্ণ বণ্ডত বিনিয়োগ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assam Darshan is a scheme related to promotion of tourism.",
+    "as": "অসম দৰ্শন পৰ্যটনৰ প্ৰচাৰৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-047",
+   "q": {
+    "en": "Who are the main beneficiaries of Assam Darshan?",
+    "as": "অসম দৰ্শনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "tourists and tourism workers",
+     "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+    },
+    {
+     "en": "poor and vulnerable families",
+     "as": "দৰিদ্ৰ আৰু দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "unemployed youth",
+     "as": "নিবনুৱা যুৱক-যুৱতী"
+    },
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Assam Darshan are tourists and tourism workers.",
+    "as": "অসম দৰ্শনৰ প্ৰধান উপকাৰী পৰ্যটক আৰু পৰ্যটন কৰ্মী।"
+   }
+  },
+  {
+   "id": "government-schemes-048",
+   "q": {
+    "en": "In which year was Assam Darshan launched?",
+    "as": "অসম দৰ্শন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Darshan was launched in 2022.",
+    "as": "অসম দৰ্শন 2022 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-049",
+   "q": {
+    "en": "Which scheme is related to promotion of tourism?",
+    "as": "কোন আঁচনি পৰ্যটনৰ প্ৰচাৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Stand-Up India",
+     "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া"
+    },
+    {
+     "en": "Ayushman Bharat",
+     "as": "আয়ুষ্মান ভাৰত"
+    },
+    {
+     "en": "Assam Darshan",
+     "as": "অসম দৰ্শন"
+    },
+    {
+     "en": "Mukhyamantri Atmanirbhar Assam Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Darshan is related to promotion of tourism.",
+    "as": "অসম দৰ্শন পৰ্যটনৰ প্ৰচাৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-050",
+   "q": {
+    "en": "Aponar Apon Ghar is a scheme related to which field?",
+    "as": "আপোনাৰ আপোন ঘৰ কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "monthly stipend to girl students",
+     "as": "ছাত্ৰীসকলক মাহেকীয়া বৃত্তি"
+    },
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "LPG connections to migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগ"
+    },
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Aponar Apon Ghar is a scheme related to housing for poor families.",
+    "as": "আপোনাৰ আপোন ঘৰ দৰিদ্ৰ পৰিয়ালৰ বাবে আবাসৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-051",
+   "q": {
+    "en": "Who are the main beneficiaries of Aponar Apon Ghar?",
+    "as": "আপোনাৰ আপোন ঘৰৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "rural women of self-help groups",
+     "as": "গ্ৰাম্য মহিলা স্বসহায়ক গোট"
+    },
+    {
+     "en": "poor and vulnerable families",
+     "as": "দৰিদ্ৰ আৰু দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "economically weaker families",
+     "as": "অৰ্থনৈতিকভাৱে দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Aponar Apon Ghar are economically weaker families.",
+    "as": "আপোনাৰ আপোন ঘৰৰ প্ৰধান উপকাৰী অৰ্থনৈতিকভাৱে দুৰ্বল পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-052",
+   "q": {
+    "en": "In which year was Aponar Apon Ghar launched?",
+    "as": "আপোনাৰ আপোন ঘৰ কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Aponar Apon Ghar was launched in 2022.",
+    "as": "আপোনাৰ আপোন ঘৰ 2022 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-053",
+   "q": {
+    "en": "Which scheme is related to housing for poor families?",
+    "as": "কোন আঁচনি দৰিদ্ৰ পৰিয়ালৰ বাবে আবাসৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "iDEX",
+     "as": "আইডেক্স"
+    },
+    {
+     "en": "Anundoram Borooah Award",
+     "as": "আনন্দৰাম বৰুৱা বঁটা"
+    },
+    {
+     "en": "PM Vishwakarma",
+     "as": "পিএম বিশ্বকৰ্মা"
+    },
+    {
+     "en": "Aponar Apon Ghar",
+     "as": "আপোনাৰ আপোন ঘৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Aponar Apon Ghar is related to housing for poor families.",
+    "as": "আপোনাৰ আপোন ঘৰ দৰিদ্ৰ পৰিয়ালৰ বাবে আবাসৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-054",
+   "q": {
+    "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana is a scheme related to which field?",
+    "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "financial help for medical treatment",
+     "as": "চিকিৎসাৰ বাবে আৰ্থিক সহায়"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    },
+    {
+     "en": "subsidised food grain",
+     "as": "সুবিধাপ্ৰাপ্ত খাদ্য শস্য"
+    },
+    {
+     "en": "sanitation and cleanliness",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্নতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana is a scheme related to farm tools and equipment to farmers.",
+    "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা কৃষকক কৃষি সা-সঁজুলিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-055",
+   "q": {
+    "en": "Who are the main beneficiaries of Mukhya Mantri Krishi Sa-Sajuli Yojana?",
+    "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "poor and homeless families",
+     "as": "দৰিদ্ৰ আৰু গৃহহীন পৰিয়াল"
+    },
+    {
+     "en": "sports goods manufacturers",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদক"
+    },
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Mukhya Mantri Krishi Sa-Sajuli Yojana are small and marginal farmers.",
+    "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনাৰ প্ৰধান উপকাৰী ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক।"
+   }
+  },
+  {
+   "id": "government-schemes-056",
+   "q": {
+    "en": "In which year was Mukhya Mantri Krishi Sa-Sajuli Yojana launched?",
+    "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana was launched in 2017.",
+    "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা 2017 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-057",
+   "q": {
+    "en": "Which scheme is related to farm tools and equipment to farmers?",
+    "as": "কোন আঁচনি কৃষকক কৃষি সা-সঁজুলিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Suraksha Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা"
+    },
+    {
+     "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana",
+     "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা"
+    },
+    {
+     "en": "Assam Darshan",
+     "as": "অসম দৰ্শন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana is related to farm tools and equipment to farmers.",
+    "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা কৃষকক কৃষি সা-সঁজুলিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-058",
+   "q": {
+    "en": "Assam Micro Finance Incentive and Relief Scheme is a scheme related to which field?",
+    "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    },
+    {
+     "en": "development of border villages",
+     "as": "সীমান্ত গাঁৱৰ উন্নয়ন"
+    },
+    {
+     "en": "monthly stipend to girl students",
+     "as": "ছাত্ৰীসকলক মাহেকীয়া বৃত্তি"
+    },
+    {
+     "en": "skill training for rural youth",
+     "as": "গ্ৰাম্য যুৱকৰ দক্ষতা প্ৰশিক্ষণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam Micro Finance Incentive and Relief Scheme is a scheme related to relief to micro finance borrowers.",
+    "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাইৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-059",
+   "q": {
+    "en": "Who are the main beneficiaries of Assam Micro Finance Incentive and Relief Scheme?",
+    "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগী"
+    },
+    {
+     "en": "women micro finance borrowers",
+     "as": "মহিলা মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতা"
+    },
+    {
+     "en": "rural poor youth",
+     "as": "গ্ৰাম্য দৰিদ্ৰ যুৱক"
+    },
+    {
+     "en": "border village residents",
+     "as": "সীমান্ত গাঁৱৰ বাসিন্দা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Assam Micro Finance Incentive and Relief Scheme are women micro finance borrowers.",
+    "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনিৰ প্ৰধান উপকাৰী মহিলা মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতা।"
+   }
+  },
+  {
+   "id": "government-schemes-060",
+   "q": {
+    "en": "In which year was Assam Micro Finance Incentive and Relief Scheme launched?",
+    "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Micro Finance Incentive and Relief Scheme was launched in 2021.",
+    "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি 2021 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-061",
+   "q": {
+    "en": "Which scheme is related to relief to micro finance borrowers?",
+    "as": "কোন আঁচনি মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাইৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "iDEX",
+     "as": "আইডেক্স"
+    },
+    {
+     "en": "Pradhan Mantri Ujjwala Yojana 2.0",
+     "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০"
+    },
+    {
+     "en": "Mission Basundhara",
+     "as": "মিচন বসুন্ধৰা"
+    },
+    {
+     "en": "Assam Micro Finance Incentive and Relief Scheme",
+     "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Micro Finance Incentive and Relief Scheme is related to relief to micro finance borrowers.",
+    "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাইৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-062",
+   "q": {
+    "en": "Assam Arogya Nidhi is a scheme related to which field?",
+    "as": "অসম আৰোগ্য নিধি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "manufacturing of sports goods",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদন"
+    },
+    {
+     "en": "financial help for medical treatment",
+     "as": "চিকিৎসাৰ বাবে আৰ্থিক সহায়"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    },
+    {
+     "en": "housing for all",
+     "as": "সকলৰ বাবে আবাস"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assam Arogya Nidhi is a scheme related to financial help for medical treatment.",
+    "as": "অসম আৰোগ্য নিধি চিকিৎসাৰ বাবে আৰ্থিক সহায়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-063",
+   "q": {
+    "en": "Who are the main beneficiaries of Assam Arogya Nidhi?",
+    "as": "অসম আৰোগ্য নিধিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "unbanked people",
+     "as": "বেংক একাউণ্ট নথকা লোক"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    },
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    },
+    {
+     "en": "poor patients",
+     "as": "দৰিদ্ৰ ৰোগী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Assam Arogya Nidhi are poor patients.",
+    "as": "অসম আৰোগ্য নিধিৰ প্ৰধান উপকাৰী দৰিদ্ৰ ৰোগী।"
+   }
+  },
+  {
+   "id": "government-schemes-064",
+   "q": {
+    "en": "In which year was Assam Arogya Nidhi launched?",
+    "as": "অসম আৰোগ্য নিধি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assam Arogya Nidhi was launched in 2019.",
+    "as": "অসম আৰোগ্য নিধি 2019 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-065",
+   "q": {
+    "en": "Which scheme is related to financial help for medical treatment?",
+    "as": "কোন আঁচনি চিকিৎসাৰ বাবে আৰ্থিক সহায়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "Assam Darshan",
+     "as": "অসম দৰ্শন"
+    },
+    {
+     "en": "Assam Arogya Nidhi",
+     "as": "অসম আৰোগ্য নিধি"
+    },
+    {
+     "en": "Mukhyamantri Atmanirbhar Assam Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Arogya Nidhi is related to financial help for medical treatment.",
+    "as": "অসম আৰোগ্য নিধি চিকিৎসাৰ বাবে আৰ্থিক সহায়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-066",
+   "q": {
+    "en": "Assam Tea Industry Special Incentive Scheme is a scheme related to which field?",
+    "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "support to tea garden workers and industry",
+     "as": "চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়"
+    },
+    {
+     "en": "free LPG connections",
+     "as": "বিনামূলীয়া এলপিজি সংযোগ"
+    },
+    {
+     "en": "self-employment through micro enterprises",
+     "as": "ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগ"
+    },
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam Tea Industry Special Incentive Scheme is a scheme related to support to tea garden workers and industry.",
+    "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-067",
+   "q": {
+    "en": "Who are the main beneficiaries of Assam Tea Industry Special Incentive Scheme?",
+    "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "tea garden workers",
+     "as": "চাহ বাগানৰ কৰ্মী"
+    },
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    },
+    {
+     "en": "girl students",
+     "as": "ছাত্ৰী"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Assam Tea Industry Special Incentive Scheme are tea garden workers.",
+    "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনিৰ প্ৰধান উপকাৰী চাহ বাগানৰ কৰ্মী।"
+   }
+  },
+  {
+   "id": "government-schemes-068",
+   "q": {
+    "en": "In which year was Assam Tea Industry Special Incentive Scheme launched?",
+    "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam Tea Industry Special Incentive Scheme was launched in 2023.",
+    "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি 2023 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-069",
+   "q": {
+    "en": "Which scheme is related to support to tea garden workers and industry?",
+    "as": "কোন আঁচনি চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    },
+    {
+     "en": "Bhasha Gaurav",
+     "as": "ভাষা গৌৰৱ"
+    },
+    {
+     "en": "Assam Tea Industry Special Incentive Scheme",
+     "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি"
+    },
+    {
+     "en": "Vibrant Villages Programme",
+     "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Tea Industry Special Incentive Scheme is related to support to tea garden workers and industry.",
+    "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-070",
+   "q": {
+    "en": "Mukhya Mantri Nijut Moina (girls) is a scheme related to which field?",
+    "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী) কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "life insurance",
+     "as": "জীৱন বীমা"
+    },
+    {
+     "en": "incentives to boost manufacturing",
+     "as": "উৎপাদন বৃদ্ধিৰ প্ৰণোদনা"
+    },
+    {
+     "en": "piped drinking water to rural homes",
+     "as": "গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানী"
+    },
+    {
+     "en": "incentive against child marriage",
+     "as": "বাল্য বিবাহ ৰোধৰ প্ৰণোদনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mukhya Mantri Nijut Moina (girls) is a scheme related to incentive against child marriage.",
+    "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী) বাল্য বিবাহ ৰোধৰ প্ৰণোদনাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-071",
+   "q": {
+    "en": "Who are the main beneficiaries of Mukhya Mantri Nijut Moina (girls)?",
+    "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)ৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "poor and low-income families",
+     "as": "দৰিদ্ৰ আৰু নিম্ন আয়ৰ পৰিয়াল"
+    },
+    {
+     "en": "girl students",
+     "as": "ছাত্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Mukhya Mantri Nijut Moina (girls) are girl students.",
+    "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)ৰ প্ৰধান উপকাৰী ছাত্ৰী।"
+   }
+  },
+  {
+   "id": "government-schemes-072",
+   "q": {
+    "en": "In which year was Mukhya Mantri Nijut Moina (girls) launched?",
+    "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী) কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mukhya Mantri Nijut Moina (girls) was launched in 2024.",
+    "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী) 2024 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-073",
+   "q": {
+    "en": "Which scheme is related to incentive against child marriage?",
+    "as": "কোন আঁচনি বাল্য বিবাহ ৰোধৰ প্ৰণোদনাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Assam Arogya Nidhi",
+     "as": "অসম আৰোগ্য নিধি"
+    },
+    {
+     "en": "Mukhya Mantri Nijut Moina (girls)",
+     "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)"
+    },
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mukhya Mantri Nijut Moina (girls) is related to incentive against child marriage.",
+    "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী) বাল্য বিবাহ ৰোধৰ প্ৰণোদনাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-074",
+   "q": {
+    "en": "Pradhan Mantri Jan Dhan Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    },
+    {
+     "en": "promotion of Assamese and other local languages",
+     "as": "অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰ"
+    },
+    {
+     "en": "financial inclusion and bank accounts",
+     "as": "বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্ট"
+    },
+    {
+     "en": "skill development and employment for youth",
+     "as": "যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Jan Dhan Yojana is a scheme related to financial inclusion and bank accounts.",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্টৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-075",
+   "q": {
+    "en": "Which of the following is a scheme of the Government of India?",
+    "as": "তলৰ কোনটো ভাৰত চৰকাৰৰ আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+    },
+    {
+     "en": "Vibrant Villages Programme",
+     "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী"
+    },
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Jan Dhan Yojana is a scheme of the Government of India.",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা ভাৰত চৰকাৰৰ এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-076",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Jan Dhan Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "poor and needy families",
+     "as": "দৰিদ্ৰ আৰু অভাৱী পৰিয়াল"
+    },
+    {
+     "en": "poor families",
+     "as": "দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "unbanked people",
+     "as": "বেংক একাউণ্ট নথকা লোক"
+    },
+    {
+     "en": "girl students",
+     "as": "ছাত্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Jan Dhan Yojana are unbanked people.",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনাৰ প্ৰধান উপকাৰী বেংক একাউণ্ট নথকা লোক।"
+   }
+  },
+  {
+   "id": "government-schemes-077",
+   "q": {
+    "en": "In which year was Pradhan Mantri Jan Dhan Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Jan Dhan Yojana was launched in 2014.",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা 2014 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-078",
+   "q": {
+    "en": "Which scheme is related to financial inclusion and bank accounts?",
+    "as": "কোন আঁচনি বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্টৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Viksit Gram Swaraj Yojana",
+     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+    },
+    {
+     "en": "Mukhya Mantri Nijut Moina (girls)",
+     "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)"
+    },
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    },
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Jan Dhan Yojana is related to financial inclusion and bank accounts.",
+    "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্টৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-079",
+   "q": {
+    "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "guaranteed rural wage employment",
+     "as": "গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তা"
+    },
+    {
+     "en": "funding innovation for defence",
+     "as": "প্ৰতিৰক্ষাৰ বাবে উদ্ভাৱনক পুঁজি"
+    },
+    {
+     "en": "life insurance",
+     "as": "জীৱন বীমা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana is a scheme related to life insurance.",
+    "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা জীৱন বীমাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-080",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Jeevan Jyoti Bima Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "economically weaker families",
+     "as": "অৰ্থনৈতিকভাৱে দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    },
+    {
+     "en": "girl students",
+     "as": "ছাত্ৰী"
+    },
+    {
+     "en": "people aged 18 to 50",
+     "as": "১৮ ৰ পৰা ৫০ বছৰৰ লোক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Jeevan Jyoti Bima Yojana are people aged 18 to 50.",
+    "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনাৰ প্ৰধান উপকাৰী ১৮ ৰ পৰা ৫০ বছৰৰ লোক।"
+   }
+  },
+  {
+   "id": "government-schemes-081",
+   "q": {
+    "en": "In which year was Pradhan Mantri Jeevan Jyoti Bima Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana was launched in 2015.",
+    "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-082",
+   "q": {
+    "en": "Which scheme is related to life insurance?",
+    "as": "কোন আঁচনি জীৱন বীমাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Ujjwala Yojana",
+     "as": "উজ্জ্বলা যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana is related to life insurance.",
+    "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা জীৱন বীমাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-083",
+   "q": {
+    "en": "Pradhan Mantri Suraksha Bima Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "accident insurance",
+     "as": "দুৰ্ঘটনা বীমা"
+    },
+    {
+     "en": "savings for senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়"
+    },
+    {
+     "en": "pension after 60 years",
+     "as": "৬০ বছৰৰ পিছত পেঞ্চন"
+    },
+    {
+     "en": "incentive against child marriage",
+     "as": "বাল্য বিবাহ ৰোধৰ প্ৰণোদনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Suraksha Bima Yojana is a scheme related to accident insurance.",
+    "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা দুৰ্ঘটনা বীমাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-084",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Suraksha Bima Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগী"
+    },
+    {
+     "en": "college and university students",
+     "as": "মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়ৰ শিক্ষাৰ্থী"
+    },
+    {
+     "en": "unbanked people",
+     "as": "বেংক একাউণ্ট নথকা লোক"
+    },
+    {
+     "en": "bank account holders",
+     "as": "বেংক একাউণ্টধাৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Suraksha Bima Yojana are bank account holders.",
+    "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনাৰ প্ৰধান উপকাৰী বেংক একাউণ্টধাৰী।"
+   }
+  },
+  {
+   "id": "government-schemes-085",
+   "q": {
+    "en": "In which year was Pradhan Mantri Suraksha Bima Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Suraksha Bima Yojana was launched in 2015.",
+    "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-086",
+   "q": {
+    "en": "Which scheme is related to accident insurance?",
+    "as": "কোন আঁচনি দুৰ্ঘটনা বীমাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Suraksha Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা"
+    },
+    {
+     "en": "National Food Security Act",
+     "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন"
+    },
+    {
+     "en": "ESIC New Amnesty Scheme",
+     "as": "ইএছআইচি নতুন ক্ষমা আঁচনি"
+    },
+    {
+     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Suraksha Bima Yojana is related to accident insurance.",
+    "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা দুৰ্ঘটনা বীমাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-087",
+   "q": {
+    "en": "Atal Pension Yojana is a scheme related to which field?",
+    "as": "অটল পেঞ্চন যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "pension after 60 years",
+     "as": "৬০ বছৰৰ পিছত পেঞ্চন"
+    },
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "life insurance",
+     "as": "জীৱন বীমা"
+    },
+    {
+     "en": "award of computers to meritorious students",
+     "as": "মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Atal Pension Yojana is a scheme related to pension after 60 years.",
+    "as": "অটল পেঞ্চন যোজনা ৬০ বছৰৰ পিছত পেঞ্চনৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-088",
+   "q": {
+    "en": "Who are the main beneficiaries of Atal Pension Yojana?",
+    "as": "অটল পেঞ্চন যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "border village residents",
+     "as": "সীমান্ত গাঁৱৰ বাসিন্দা"
+    },
+    {
+     "en": "unorganised sector workers",
+     "as": "অসংগঠিত খণ্ডৰ কৰ্মী"
+    },
+    {
+     "en": "rural and urban households",
+     "as": "গ্ৰাম্য আৰু চহৰীয়া পৰিয়াল"
+    },
+    {
+     "en": "poor and needy families",
+     "as": "দৰিদ্ৰ আৰু অভাৱী পৰিয়াল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Atal Pension Yojana are unorganised sector workers.",
+    "as": "অটল পেঞ্চন যোজনাৰ প্ৰধান উপকাৰী অসংগঠিত খণ্ডৰ কৰ্মী।"
+   }
+  },
+  {
+   "id": "government-schemes-089",
+   "q": {
+    "en": "In which year was Atal Pension Yojana launched?",
+    "as": "অটল পেঞ্চন যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Atal Pension Yojana was launched in 2015.",
+    "as": "অটল পেঞ্চন যোজনা 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-090",
+   "q": {
+    "en": "Which scheme is related to pension after 60 years?",
+    "as": "কোন আঁচনি ৬০ বছৰৰ পিছত পেঞ্চনৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Stand-Up India",
+     "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া"
+    },
+    {
+     "en": "National Food Security Act",
+     "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Mudra Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Atal Pension Yojana is related to pension after 60 years.",
+    "as": "অটল পেঞ্চন যোজনা ৬০ বছৰৰ পিছত পেঞ্চনৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-091",
+   "q": {
+    "en": "Pradhan Mantri Mudra Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    },
+    {
+     "en": "investment in gold bonds",
+     "as": "স্বৰ্ণ বণ্ডত বিনিয়োগ"
+    },
+    {
+     "en": "guaranteed rural wage employment",
+     "as": "গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তা"
+    },
+    {
+     "en": "support to traditional artisans and craftspeople",
+     "as": "পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Mudra Yojana is a scheme related to loans to micro and small enterprises.",
+    "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-092",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Mudra Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "tourists and tourism workers",
+     "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+    },
+    {
+     "en": "poor families",
+     "as": "দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "small business owners",
+     "as": "সৰু ব্যৱসায়ী"
+    },
+    {
+     "en": "students who excel in examinations",
+     "as": "পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Mudra Yojana are small business owners.",
+    "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনাৰ প্ৰধান উপকাৰী সৰু ব্যৱসায়ী।"
+   }
+  },
+  {
+   "id": "government-schemes-093",
+   "q": {
+    "en": "In which year was Pradhan Mantri Mudra Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Mudra Yojana was launched in 2015.",
+    "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-094",
+   "q": {
+    "en": "Which scheme is related to loans to micro and small enterprises?",
+    "as": "কোন আঁচনি ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Aponar Apon Ghar",
+     "as": "আপোনাৰ আপোন ঘৰ"
+    },
+    {
+     "en": "Jal Jeevan Mission",
+     "as": "জল জীৱন মিছন"
+    },
+    {
+     "en": "Mahila Samman Savings Certificate",
+     "as": "মহিলা সম্মান সঞ্চয় পত্ৰ"
+    },
+    {
+     "en": "Pradhan Mantri Mudra Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Mudra Yojana is related to loans to micro and small enterprises.",
+    "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-095",
+   "q": {
+    "en": "Stand-Up India is a scheme related to which field?",
+    "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "subsidised food grain",
+     "as": "সুবিধাপ্ৰাপ্ত খাদ্য শস্য"
+    },
+    {
+     "en": "free LPG connections",
+     "as": "বিনামূলীয়া এলপিজি সংযোগ"
+    },
+    {
+     "en": "piped drinking water to rural homes",
+     "as": "গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানী"
+    },
+    {
+     "en": "loans to SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Stand-Up India is a scheme related to loans to SC, ST and women entrepreneurs.",
+    "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-096",
+   "q": {
+    "en": "Who are the main beneficiaries of Stand-Up India?",
+    "as": "ষ্টেণ্ড-আপ ইণ্ডিয়াৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগী"
+    },
+    {
+     "en": "poor and needy families",
+     "as": "দৰিদ্ৰ আৰু অভাৱী পৰিয়াল"
+    },
+    {
+     "en": "poor and low-income families",
+     "as": "দৰিদ্ৰ আৰু নিম্ন আয়ৰ পৰিয়াল"
+    },
+    {
+     "en": "girl students",
+     "as": "ছাত্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Stand-Up India are SC, ST and women entrepreneurs.",
+    "as": "ষ্টেণ্ড-আপ ইণ্ডিয়াৰ প্ৰধান উপকাৰী এছচি, এছটি আৰু মহিলা উদ্যোগী।"
+   }
+  },
+  {
+   "id": "government-schemes-097",
+   "q": {
+    "en": "In which year was Stand-Up India launched?",
+    "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Stand-Up India was launched in 2016.",
+    "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া 2016 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-098",
+   "q": {
+    "en": "Which scheme is related to loans to SC, ST and women entrepreneurs?",
+    "as": "কোন আঁচনি এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Stand-Up India",
+     "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া"
+    },
+    {
+     "en": "PM-DevINE",
+     "as": "পিএম-দেৱিন"
+    },
+    {
+     "en": "Anundoram Borooah Award",
+     "as": "আনন্দৰাম বৰুৱা বঁটা"
+    },
+    {
+     "en": "Mukhya Mantri Nijut Moina (girls)",
+     "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stand-Up India is related to loans to SC, ST and women entrepreneurs.",
+    "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-099",
+   "q": {
+    "en": "PM SVANidhi is a scheme related to which field?",
+    "as": "পিএম স্বনিধি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "working capital to street vendors",
+     "as": "পথ বিক্ৰেতাক কাৰ্যবাহী মূলধন"
+    },
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    },
+    {
+     "en": "investment in gold bonds",
+     "as": "স্বৰ্ণ বণ্ডত বিনিয়োগ"
+    },
+    {
+     "en": "free admission and scholarships for students",
+     "as": "শিক্ষাৰ্থীৰ বিনামূলীয়া নামভৰ্তি আৰু জলপানি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM SVANidhi is a scheme related to working capital to street vendors.",
+    "as": "পিএম স্বনিধি পথ বিক্ৰেতাক কাৰ্যবাহী মূলধনৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-100",
+   "q": {
+    "en": "Who are the main beneficiaries of PM SVANidhi?",
+    "as": "পিএম স্বনিধিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "land holders",
+     "as": "ভূমিৰ মালিক"
+    },
+    {
+     "en": "tea garden workers",
+     "as": "চাহ বাগানৰ কৰ্মী"
+    },
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    },
+    {
+     "en": "street vendors",
+     "as": "পথ বিক্ৰেতা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of PM SVANidhi are street vendors.",
+    "as": "পিএম স্বনিধিৰ প্ৰধান উপকাৰী পথ বিক্ৰেতা।"
+   }
+  },
+  {
+   "id": "government-schemes-101",
+   "q": {
+    "en": "In which year was PM SVANidhi launched?",
+    "as": "পিএম স্বনিধি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "PM SVANidhi was launched in 2020.",
+    "as": "পিএম স্বনিধি 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-102",
+   "q": {
+    "en": "Which scheme is related to working capital to street vendors?",
+    "as": "কোন আঁচনি পথ বিক্ৰেতাক কাৰ্যবাহী মূলধনৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "PM SVANidhi",
+     "as": "পিএম স্বনিধি"
+    },
+    {
+     "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+     "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন"
+    },
+    {
+     "en": "Senior Citizens' Savings Scheme",
+     "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি"
+    },
+    {
+     "en": "Pradhan Mantri Mudra Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM SVANidhi is related to working capital to street vendors.",
+    "as": "পিএম স্বনিধি পথ বিক্ৰেতাক কাৰ্যবাহী মূলধনৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-103",
+   "q": {
+    "en": "PM Vishwakarma is a scheme related to which field?",
+    "as": "পিএম বিশ্বকৰ্মা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "pension after 60 years",
+     "as": "৬০ বছৰৰ পিছত পেঞ্চন"
+    },
+    {
+     "en": "support to traditional artisans and craftspeople",
+     "as": "পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "PM Vishwakarma is a scheme related to support to traditional artisans and craftspeople.",
+    "as": "পিএম বিশ্বকৰ্মা পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-104",
+   "q": {
+    "en": "Who are the main beneficiaries of PM Vishwakarma?",
+    "as": "পিএম বিশ্বকৰ্মাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "unemployed youth",
+     "as": "নিবনুৱা যুৱক-যুৱতী"
+    },
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    },
+    {
+     "en": "unorganised sector workers",
+     "as": "অসংগঠিত খণ্ডৰ কৰ্মী"
+    },
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of PM Vishwakarma are artisans and craftspeople.",
+    "as": "পিএম বিশ্বকৰ্মাৰ প্ৰধান উপকাৰী শিল্পী আৰু কাৰিকৰ।"
+   }
+  },
+  {
+   "id": "government-schemes-105",
+   "q": {
+    "en": "In which year was PM Vishwakarma launched?",
+    "as": "পিএম বিশ্বকৰ্মা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM Vishwakarma was launched in 2023.",
+    "as": "পিএম বিশ্বকৰ্মা 2023 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-106",
+   "q": {
+    "en": "Which scheme is related to support to traditional artisans and craftspeople?",
+    "as": "কোন আঁচনি পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Khelo India Sports Goods Manufacturing Scheme",
+     "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি"
+    },
+    {
+     "en": "Viksit Gram Swaraj Yojana",
+     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+    },
+    {
+     "en": "PM Vishwakarma",
+     "as": "পিএম বিশ্বকৰ্মা"
+    },
+    {
+     "en": "Atal Amrit Abhiyan",
+     "as": "অটল অমৃত অভিযান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "PM Vishwakarma is related to support to traditional artisans and craftspeople.",
+    "as": "পিএম বিশ্বকৰ্মা পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-107",
+   "q": {
+    "en": "Mahila Samman Savings Certificate is a scheme related to which field?",
+    "as": "মহিলা সম্মান সঞ্চয় পত্ৰ কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "small savings for women",
+     "as": "মহিলাৰ বাবে সৰু সঞ্চয়"
+    },
+    {
+     "en": "savings for senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়"
+    },
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "LPG connections to migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahila Samman Savings Certificate is a scheme related to small savings for women.",
+    "as": "মহিলা সম্মান সঞ্চয় পত্ৰ মহিলাৰ বাবে সৰু সঞ্চয়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-108",
+   "q": {
+    "en": "Who are the main beneficiaries of Mahila Samman Savings Certificate?",
+    "as": "মহিলা সম্মান সঞ্চয় পত্ৰৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়াল"
+    },
+    {
+     "en": "poor patients",
+     "as": "দৰিদ্ৰ ৰোগী"
+    },
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    },
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Mahila Samman Savings Certificate are women investors.",
+    "as": "মহিলা সম্মান সঞ্চয় পত্ৰৰ প্ৰধান উপকাৰী মহিলা বিনিয়োগকাৰী।"
+   }
+  },
+  {
+   "id": "government-schemes-109",
+   "q": {
+    "en": "In which year was Mahila Samman Savings Certificate launched?",
+    "as": "মহিলা সম্মান সঞ্চয় পত্ৰ কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mahila Samman Savings Certificate was launched in 2023.",
+    "as": "মহিলা সম্মান সঞ্চয় পত্ৰ 2023 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-110",
+   "q": {
+    "en": "Which scheme is related to small savings for women?",
+    "as": "কোন আঁচনি মহিলাৰ বাবে সৰু সঞ্চয়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Ayushman Bharat",
+     "as": "আয়ুষ্মান ভাৰত"
+    },
+    {
+     "en": "Pradhan Mantri Suraksha Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা"
+    },
+    {
+     "en": "Mahila Samman Savings Certificate",
+     "as": "মহিলা সম্মান সঞ্চয় পত্ৰ"
+    },
+    {
+     "en": "Atal Amrit Abhiyan",
+     "as": "অটল অমৃত অভিযান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mahila Samman Savings Certificate is related to small savings for women.",
+    "as": "মহিলা সম্মান সঞ্চয় পত্ৰ মহিলাৰ বাবে সৰু সঞ্চয়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-111",
+   "q": {
+    "en": "Senior Citizens' Savings Scheme is a scheme related to which field?",
+    "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "savings for senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়"
+    },
+    {
+     "en": "health insurance for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "sanitation and cleanliness",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্নতা"
+    },
+    {
+     "en": "monthly financial assistance to poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালক মাহেকীয়া আৰ্থিক সহায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Senior Citizens' Savings Scheme is a scheme related to savings for senior citizens.",
+    "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-112",
+   "q": {
+    "en": "Who are the main beneficiaries of Senior Citizens' Savings Scheme?",
+    "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "women micro finance borrowers",
+     "as": "মহিলা মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতা"
+    },
+    {
+     "en": "senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিক"
+    },
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    },
+    {
+     "en": "poor and vulnerable families",
+     "as": "দৰিদ্ৰ আৰু দুৰ্বল পৰিয়াল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Senior Citizens' Savings Scheme are senior citizens.",
+    "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনিৰ প্ৰধান উপকাৰী জ্যেষ্ঠ নাগৰিক।"
+   }
+  },
+  {
+   "id": "government-schemes-113",
+   "q": {
+    "en": "In which year was Senior Citizens' Savings Scheme launched?",
+    "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2004",
+     "as": "২০০৪"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Senior Citizens' Savings Scheme was launched in 2004.",
+    "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি 2004 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-114",
+   "q": {
+    "en": "Which scheme is related to savings for senior citizens?",
+    "as": "কোন আঁচনি জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    },
+    {
+     "en": "Pradhan Mantri Kisan Samman Nidhi",
+     "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি"
+    },
+    {
+     "en": "Assam Darshan",
+     "as": "অসম দৰ্শন"
+    },
+    {
+     "en": "Senior Citizens' Savings Scheme",
+     "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Senior Citizens' Savings Scheme is related to savings for senior citizens.",
+    "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-115",
+   "q": {
+    "en": "Sovereign Gold Bond Scheme is a scheme related to which field?",
+    "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "free food grain",
+     "as": "বিনামূলীয়া খাদ্য শস্য"
+    },
+    {
+     "en": "investment in gold bonds",
+     "as": "স্বৰ্ণ বণ্ডত বিনিয়োগ"
+    },
+    {
+     "en": "rural development and governance",
+     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+    },
+    {
+     "en": "award of computers to meritorious students",
+     "as": "মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sovereign Gold Bond Scheme is a scheme related to investment in gold bonds.",
+    "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি স্বৰ্ণ বণ্ডত বিনিয়োগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-116",
+   "q": {
+    "en": "Who are the main beneficiaries of Sovereign Gold Bond Scheme?",
+    "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "farmers",
+     "as": "কৃষক"
+    },
+    {
+     "en": "senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিক"
+    },
+    {
+     "en": "college and university students",
+     "as": "মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়ৰ শিক্ষাৰ্থী"
+    },
+    {
+     "en": "investors",
+     "as": "বিনিয়োগকাৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Sovereign Gold Bond Scheme are investors.",
+    "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনিৰ প্ৰধান উপকাৰী বিনিয়োগকাৰী।"
+   }
+  },
+  {
+   "id": "government-schemes-117",
+   "q": {
+    "en": "In which year was Sovereign Gold Bond Scheme launched?",
+    "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sovereign Gold Bond Scheme was launched in 2015.",
+    "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-118",
+   "q": {
+    "en": "Which scheme is related to investment in gold bonds?",
+    "as": "কোন আঁচনি স্বৰ্ণ বণ্ডত বিনিয়োগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Awas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা"
+    },
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    },
+    {
+     "en": "Assam Darshan",
+     "as": "অসম দৰ্শন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sovereign Gold Bond Scheme is related to investment in gold bonds.",
+    "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি স্বৰ্ণ বণ্ডত বিনিয়োগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-119",
+   "q": {
+    "en": "Ayushman Bharat is a scheme related to which field?",
+    "as": "আয়ুষ্মান ভাৰত কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "piped drinking water to rural homes",
+     "as": "গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানী"
+    },
+    {
+     "en": "health insurance for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ayushman Bharat is a scheme related to health insurance for poor families.",
+    "as": "আয়ুষ্মান ভাৰত দৰিদ্ৰ পৰিয়ালৰ স্বাস্থ্য বীমাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-120",
+   "q": {
+    "en": "Who are the main beneficiaries of Ayushman Bharat?",
+    "as": "আয়ুষ্মান ভাৰতৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "unorganised sector workers",
+     "as": "অসংগঠিত খণ্ডৰ কৰ্মী"
+    },
+    {
+     "en": "poor and vulnerable families",
+     "as": "দৰিদ্ৰ আৰু দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "rural women of self-help groups",
+     "as": "গ্ৰাম্য মহিলা স্বসহায়ক গোট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Ayushman Bharat are poor and vulnerable families.",
+    "as": "আয়ুষ্মান ভাৰতৰ প্ৰধান উপকাৰী দৰিদ্ৰ আৰু দুৰ্বল পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-121",
+   "q": {
+    "en": "In which year was Ayushman Bharat launched?",
+    "as": "আয়ুষ্মান ভাৰত কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ayushman Bharat was launched in 2018.",
+    "as": "আয়ুষ্মান ভাৰত 2018 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-122",
+   "q": {
+    "en": "Which scheme is related to health insurance for poor families?",
+    "as": "কোন আঁচনি দৰিদ্ৰ পৰিয়ালৰ স্বাস্থ্য বীমাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    },
+    {
+     "en": "Atal Amrit Abhiyan",
+     "as": "অটল অমৃত অভিযান"
+    },
+    {
+     "en": "Stand-Up India",
+     "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া"
+    },
+    {
+     "en": "Ayushman Bharat",
+     "as": "আয়ুষ্মান ভাৰত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ayushman Bharat is related to health insurance for poor families.",
+    "as": "আয়ুষ্মান ভাৰত দৰিদ্ৰ পৰিয়ালৰ স্বাস্থ্য বীমাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-123",
+   "q": {
+    "en": "Pradhan Mantri Kisan Samman Nidhi is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "infrastructure development in the north-east",
+     "as": "উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়ন"
+    },
+    {
+     "en": "health insurance",
+     "as": "স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "income support to farmers",
+     "as": "কৃষকক আয় সহায়"
+    },
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Kisan Samman Nidhi is a scheme related to income support to farmers.",
+    "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি কৃষকক আয় সহায়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-124",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Kisan Samman Nidhi?",
+    "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "investors",
+     "as": "বিনিয়োগকাৰী"
+    },
+    {
+     "en": "students who excel in examinations",
+     "as": "পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী"
+    },
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Kisan Samman Nidhi are small and marginal farmers.",
+    "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধিৰ প্ৰধান উপকাৰী ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক।"
+   }
+  },
+  {
+   "id": "government-schemes-125",
+   "q": {
+    "en": "In which year was Pradhan Mantri Kisan Samman Nidhi launched?",
+    "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Kisan Samman Nidhi was launched in 2019.",
+    "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি 2019 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-126",
+   "q": {
+    "en": "Which scheme is related to income support to farmers?",
+    "as": "কোন আঁচনি কৃষকক আয় সহায়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "National Food Security Act",
+     "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন"
+    },
+    {
+     "en": "Pradhan Mantri Kisan Samman Nidhi",
+     "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি"
+    },
+    {
+     "en": "ESIC New Amnesty Scheme",
+     "as": "ইএছআইচি নতুন ক্ষমা আঁচনি"
+    },
+    {
+     "en": "Assam Darshan",
+     "as": "অসম দৰ্শন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pradhan Mantri Kisan Samman Nidhi is related to income support to farmers.",
+    "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি কৃষকক আয় সহায়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-127",
+   "q": {
+    "en": "Pradhan Mantri Awas Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "housing for all",
+     "as": "সকলৰ বাবে আবাস"
+    },
+    {
+     "en": "pension after 60 years",
+     "as": "৬০ বছৰৰ পিছত পেঞ্চন"
+    },
+    {
+     "en": "income support to farmers",
+     "as": "কৃষকক আয় সহায়"
+    },
+    {
+     "en": "skill development and employment for youth",
+     "as": "যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Awas Yojana is a scheme related to housing for all.",
+    "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা সকলৰ বাবে আবাসৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-128",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Awas Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী আবাস যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "investors",
+     "as": "বিনিয়োগকাৰী"
+    },
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    },
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    },
+    {
+     "en": "poor and homeless families",
+     "as": "দৰিদ্ৰ আৰু গৃহহীন পৰিয়াল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Awas Yojana are poor and homeless families.",
+    "as": "প্ৰধানমন্ত্ৰী আবাস যোজনাৰ প্ৰধান উপকাৰী দৰিদ্ৰ আৰু গৃহহীন পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-129",
+   "q": {
+    "en": "In which year was Pradhan Mantri Awas Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2004",
+     "as": "২০০৪"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Awas Yojana was launched in 2015.",
+    "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-130",
+   "q": {
+    "en": "Which scheme is related to housing for all?",
+    "as": "কোন আঁচনি সকলৰ বাবে আবাসৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Mahila Samman Savings Certificate",
+     "as": "মহিলা সম্মান সঞ্চয় পত্ৰ"
+    },
+    {
+     "en": "Pradhan Mantri Awas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Suraksha Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা"
+    },
+    {
+     "en": "Mission Basundhara",
+     "as": "মিচন বসুন্ধৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pradhan Mantri Awas Yojana is related to housing for all.",
+    "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা সকলৰ বাবে আবাসৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-131",
+   "q": {
+    "en": "Pradhan Mantri Garib Kalyan Anna Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "working capital to street vendors",
+     "as": "পথ বিক্ৰেতাক কাৰ্যবাহী মূলধন"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    },
+    {
+     "en": "subsidised food grain",
+     "as": "সুবিধাপ্ৰাপ্ত খাদ্য শস্য"
+    },
+    {
+     "en": "free food grain",
+     "as": "বিনামূলীয়া খাদ্য শস্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Garib Kalyan Anna Yojana is a scheme related to free food grain.",
+    "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা বিনামূলীয়া খাদ্য শস্যৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-132",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Garib Kalyan Anna Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    },
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    },
+    {
+     "en": "poor families",
+     "as": "দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "tourists and tourism workers",
+     "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Garib Kalyan Anna Yojana are poor families.",
+    "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনাৰ প্ৰধান উপকাৰী দৰিদ্ৰ পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-133",
+   "q": {
+    "en": "In which year was Pradhan Mantri Garib Kalyan Anna Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Garib Kalyan Anna Yojana was launched in 2020.",
+    "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-134",
+   "q": {
+    "en": "Which scheme is related to free food grain?",
+    "as": "কোন আঁচনি বিনামূলীয়া খাদ্য শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+    },
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    },
+    {
+     "en": "CMSGUY",
+     "as": "চিএমএছজিইউৱাই"
+    },
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Garib Kalyan Anna Yojana is related to free food grain.",
+    "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা বিনামূলীয়া খাদ্য শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-135",
+   "q": {
+    "en": "Ujjwala Yojana is a scheme related to which field?",
+    "as": "উজ্জ্বলা যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "promotion of tourism",
+     "as": "পৰ্যটনৰ প্ৰচাৰ"
+    },
+    {
+     "en": "free LPG connections",
+     "as": "বিনামূলীয়া এলপিজি সংযোগ"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ujjwala Yojana is a scheme related to free LPG connections.",
+    "as": "উজ্জ্বলা যোজনা বিনামূলীয়া এলপিজি সংযোগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-136",
+   "q": {
+    "en": "Who are the main beneficiaries of Ujjwala Yojana?",
+    "as": "উজ্জ্বলা যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "women of poor households",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ মহিলা"
+    },
+    {
+     "en": "poor families",
+     "as": "দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "economically weaker families",
+     "as": "অৰ্থনৈতিকভাৱে দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Ujjwala Yojana are women of poor households.",
+    "as": "উজ্জ্বলা যোজনাৰ প্ৰধান উপকাৰী দৰিদ্ৰ পৰিয়ালৰ মহিলা।"
+   }
+  },
+  {
+   "id": "government-schemes-137",
+   "q": {
+    "en": "In which year was Ujjwala Yojana launched?",
+    "as": "উজ্জ্বলা যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ujjwala Yojana was launched in 2016.",
+    "as": "উজ্জ্বলা যোজনা 2016 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-138",
+   "q": {
+    "en": "Which scheme is related to free LPG connections?",
+    "as": "কোন আঁচনি বিনামূলীয়া এলপিজি সংযোগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "iDEX",
+     "as": "আইডেক্স"
+    },
+    {
+     "en": "Ujjwala Yojana",
+     "as": "উজ্জ্বলা যোজনা"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    },
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ujjwala Yojana is related to free LPG connections.",
+    "as": "উজ্জ্বলা যোজনা বিনামূলীয়া এলপিজি সংযোগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-139",
+   "q": {
+    "en": "Swachh Bharat Mission is a scheme related to which field?",
+    "as": "স্বচ্ছ ভাৰত মিছন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "investment in gold bonds",
+     "as": "স্বৰ্ণ বণ্ডত বিনিয়োগ"
+    },
+    {
+     "en": "small savings for women",
+     "as": "মহিলাৰ বাবে সৰু সঞ্চয়"
+    },
+    {
+     "en": "sanitation and cleanliness",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্নতা"
+    },
+    {
+     "en": "loans to SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Swachh Bharat Mission is a scheme related to sanitation and cleanliness.",
+    "as": "স্বচ্ছ ভাৰত মিছন পৰিষ্কাৰ-পৰিচ্ছন্নতাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-140",
+   "q": {
+    "en": "Who are the main beneficiaries of Swachh Bharat Mission?",
+    "as": "স্বচ্ছ ভাৰত মিছনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    },
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    },
+    {
+     "en": "rural and urban households",
+     "as": "গ্ৰাম্য আৰু চহৰীয়া পৰিয়াল"
+    },
+    {
+     "en": "employers and insured persons",
+     "as": "নিয়োগকৰ্তা আৰু বীমাকৃত ব্যক্তি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Swachh Bharat Mission are rural and urban households.",
+    "as": "স্বচ্ছ ভাৰত মিছনৰ প্ৰধান উপকাৰী গ্ৰাম্য আৰু চহৰীয়া পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-141",
+   "q": {
+    "en": "In which year was Swachh Bharat Mission launched?",
+    "as": "স্বচ্ছ ভাৰত মিছন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Swachh Bharat Mission was launched in 2014.",
+    "as": "স্বচ্ছ ভাৰত মিছন 2014 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-142",
+   "q": {
+    "en": "Which scheme is related to sanitation and cleanliness?",
+    "as": "কোন আঁচনি পৰিষ্কাৰ-পৰিচ্ছন্নতাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Mukhyamantri Atmanirbhar Assam Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম অভিযান"
+    },
+    {
+     "en": "Aponar Apon Ghar",
+     "as": "আপোনাৰ আপোন ঘৰ"
+    },
+    {
+     "en": "Assam Arogya Nidhi",
+     "as": "অসম আৰোগ্য নিধি"
+    },
+    {
+     "en": "Swachh Bharat Mission",
+     "as": "স্বচ্ছ ভাৰত মিছন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Swachh Bharat Mission is related to sanitation and cleanliness.",
+    "as": "স্বচ্ছ ভাৰত মিছন পৰিষ্কাৰ-পৰিচ্ছন্নতাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-143",
+   "q": {
+    "en": "Jal Jeevan Mission is a scheme related to which field?",
+    "as": "জল জীৱন মিছন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "piped drinking water to rural homes",
+     "as": "গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানী"
+    },
+    {
+     "en": "support to traditional artisans and craftspeople",
+     "as": "পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Jal Jeevan Mission is a scheme related to piped drinking water to rural homes.",
+    "as": "জল জীৱন মিছন গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানীৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-144",
+   "q": {
+    "en": "Who are the main beneficiaries of Jal Jeevan Mission?",
+    "as": "জল জীৱন মিছনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "land holders",
+     "as": "ভূমিৰ মালিক"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগী"
+    },
+    {
+     "en": "poor patients",
+     "as": "দৰিদ্ৰ ৰোগী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Jal Jeevan Mission are rural households.",
+    "as": "জল জীৱন মিছনৰ প্ৰধান উপকাৰী গ্ৰাম্য পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-145",
+   "q": {
+    "en": "In which year was Jal Jeevan Mission launched?",
+    "as": "জল জীৱন মিছন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Jal Jeevan Mission was launched in 2019.",
+    "as": "জল জীৱন মিছন 2019 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-146",
+   "q": {
+    "en": "Which scheme is related to piped drinking water to rural homes?",
+    "as": "কোন আঁচনি গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Kisan Samman Nidhi",
+     "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি"
+    },
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    },
+    {
+     "en": "Anundoram Borooah Award",
+     "as": "আনন্দৰাম বৰুৱা বঁটা"
+    },
+    {
+     "en": "Jal Jeevan Mission",
+     "as": "জল জীৱন মিছন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Jal Jeevan Mission is related to piped drinking water to rural homes.",
+    "as": "জল জীৱন মিছন গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-147",
+   "q": {
+    "en": "Pradhan Mantri Fasal Bima Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "manufacturing of sports goods",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদন"
+    },
+    {
+     "en": "housing for all",
+     "as": "সকলৰ বাবে আবাস"
+    },
+    {
+     "en": "rural broadband connectivity",
+     "as": "গ্ৰাম্য ব্ৰডবেণ্ড সংযোগ"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Fasal Bima Yojana is a scheme related to crop insurance.",
+    "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা শস্য বীমাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-148",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Fasal Bima Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "farmers",
+     "as": "কৃষক"
+    },
+    {
+     "en": "unemployed educated youth",
+     "as": "নিবনুৱা শিক্ষিত যুৱক-যুৱতী"
+    },
+    {
+     "en": "manufacturing industries",
+     "as": "উৎপাদন উদ্যোগ"
+    },
+    {
+     "en": "sports goods manufacturers",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Fasal Bima Yojana are farmers.",
+    "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনাৰ প্ৰধান উপকাৰী কৃষক।"
+   }
+  },
+  {
+   "id": "government-schemes-149",
+   "q": {
+    "en": "In which year was Pradhan Mantri Fasal Bima Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Fasal Bima Yojana was launched in 2016.",
+    "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা 2016 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-150",
+   "q": {
+    "en": "Which scheme is related to crop insurance?",
+    "as": "কোন আঁচনি শস্য বীমাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Fasal Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    },
+    {
+     "en": "Swachh Bharat Mission",
+     "as": "স্বচ্ছ ভাৰত মিছন"
+    },
+    {
+     "en": "Vibrant Villages Programme",
+     "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Fasal Bima Yojana is related to crop insurance.",
+    "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা শস্য বীমাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-151",
+   "q": {
+    "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana is a scheme related to which field?",
+    "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "promotion of tourism",
+     "as": "পৰ্যটনৰ প্ৰচাৰ"
+    },
+    {
+     "en": "accident insurance",
+     "as": "দুৰ্ঘটনা বীমা"
+    },
+    {
+     "en": "skill training for rural youth",
+     "as": "গ্ৰাম্য যুৱকৰ দক্ষতা প্ৰশিক্ষণ"
+    },
+    {
+     "en": "infrastructure development in the north-east",
+     "as": "উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়ন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana is a scheme related to skill training for rural youth.",
+    "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা গ্ৰাম্য যুৱকৰ দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-152",
+   "q": {
+    "en": "Who are the main beneficiaries of Deen Dayal Upadhyaya Grameen Kaushalya Yojana?",
+    "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "land holders",
+     "as": "ভূমিৰ মালিক"
+    },
+    {
+     "en": "rural poor youth",
+     "as": "গ্ৰাম্য দৰিদ্ৰ যুৱক"
+    },
+    {
+     "en": "poor and homeless families",
+     "as": "দৰিদ্ৰ আৰু গৃহহীন পৰিয়াল"
+    },
+    {
+     "en": "bank account holders",
+     "as": "বেংক একাউণ্টধাৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Deen Dayal Upadhyaya Grameen Kaushalya Yojana are rural poor youth.",
+    "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনাৰ প্ৰধান উপকাৰী গ্ৰাম্য দৰিদ্ৰ যুৱক।"
+   }
+  },
+  {
+   "id": "government-schemes-153",
+   "q": {
+    "en": "In which year was Deen Dayal Upadhyaya Grameen Kaushalya Yojana launched?",
+    "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana was launched in 2014.",
+    "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা 2014 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-154",
+   "q": {
+    "en": "Which scheme is related to skill training for rural youth?",
+    "as": "কোন আঁচনি গ্ৰাম্য যুৱকৰ দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "SVAYEM",
+     "as": "স্বয়ম"
+    },
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana is related to skill training for rural youth.",
+    "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা গ্ৰাম্য যুৱকৰ দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-155",
+   "q": {
+    "en": "Mahatma Gandhi National Rural Employment Guarantee Act is a scheme related to which field?",
+    "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "monthly stipend to girl students",
+     "as": "ছাত্ৰীসকলক মাহেকীয়া বৃত্তি"
+    },
+    {
+     "en": "guaranteed rural wage employment",
+     "as": "গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তা"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mahatma Gandhi National Rural Employment Guarantee Act is a scheme related to guaranteed rural wage employment.",
+    "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-156",
+   "q": {
+    "en": "Who are the main beneficiaries of Mahatma Gandhi National Rural Employment Guarantee Act?",
+    "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "poor families",
+     "as": "দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "rural women of self-help groups",
+     "as": "গ্ৰাম্য মহিলা স্বসহায়ক গোট"
+    },
+    {
+     "en": "college and university students",
+     "as": "মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়ৰ শিক্ষাৰ্থী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Mahatma Gandhi National Rural Employment Guarantee Act are rural households.",
+    "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইনৰ প্ৰধান উপকাৰী গ্ৰাম্য পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-157",
+   "q": {
+    "en": "In which year was Mahatma Gandhi National Rural Employment Guarantee Act launched?",
+    "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mahatma Gandhi National Rural Employment Guarantee Act was launched in 2005.",
+    "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন 2005 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-158",
+   "q": {
+    "en": "Which scheme is related to guaranteed rural wage employment?",
+    "as": "কোন আঁচনি গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    },
+    {
+     "en": "Mukhya Mantri Nijut Moina (girls)",
+     "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)"
+    },
+    {
+     "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+     "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন"
+    },
+    {
+     "en": "Pradhan Mantri Suraksha Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mahatma Gandhi National Rural Employment Guarantee Act is related to guaranteed rural wage employment.",
+    "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-159",
+   "q": {
+    "en": "National Food Security Act is a scheme related to which field?",
+    "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "financial inclusion and bank accounts",
+     "as": "বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্ট"
+    },
+    {
+     "en": "infrastructure development in the north-east",
+     "as": "উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়ন"
+    },
+    {
+     "en": "incentives to boost manufacturing",
+     "as": "উৎপাদন বৃদ্ধিৰ প্ৰণোদনা"
+    },
+    {
+     "en": "subsidised food grain",
+     "as": "সুবিধাপ্ৰাপ্ত খাদ্য শস্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "National Food Security Act is a scheme related to subsidised food grain.",
+    "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন সুবিধাপ্ৰাপ্ত খাদ্য শস্যৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-160",
+   "q": {
+    "en": "Who are the main beneficiaries of National Food Security Act?",
+    "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "poor and needy families",
+     "as": "দৰিদ্ৰ আৰু অভাৱী পৰিয়াল"
+    },
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    },
+    {
+     "en": "tea garden workers",
+     "as": "চাহ বাগানৰ কৰ্মী"
+    },
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of National Food Security Act are priority households.",
+    "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইনৰ প্ৰধান উপকাৰী অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-161",
+   "q": {
+    "en": "In which year was National Food Security Act launched?",
+    "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "National Food Security Act was launched in 2013.",
+    "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন 2013 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-162",
+   "q": {
+    "en": "Which scheme is related to subsidised food grain?",
+    "as": "কোন আঁচনি সুবিধাপ্ৰাপ্ত খাদ্য শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    },
+    {
+     "en": "Pradhan Mantri Kisan Samman Nidhi",
+     "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি"
+    },
+    {
+     "en": "SVAYEM",
+     "as": "স্বয়ম"
+    },
+    {
+     "en": "National Food Security Act",
+     "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "National Food Security Act is related to subsidised food grain.",
+    "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন সুবিধাপ্ৰাপ্ত খাদ্য শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-163",
+   "q": {
+    "en": "Pradhan Mantri Ujjwala Yojana 2.0 is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০ কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "savings for senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়"
+    },
+    {
+     "en": "LPG connections to migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগ"
+    },
+    {
+     "en": "health insurance",
+     "as": "স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "self-employment through micro enterprises",
+     "as": "ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pradhan Mantri Ujjwala Yojana 2.0 is a scheme related to LPG connections to migrant families.",
+    "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০ প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-164",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Ujjwala Yojana 2.0?",
+    "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০ৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "women of poor households",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ মহিলা"
+    },
+    {
+     "en": "people aged 18 to 50",
+     "as": "১৮ ৰ পৰা ৫০ বছৰৰ লোক"
+    },
+    {
+     "en": "poor patients",
+     "as": "দৰিদ্ৰ ৰোগী"
+    },
+    {
+     "en": "migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়াল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Ujjwala Yojana 2.0 are migrant families.",
+    "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০ৰ প্ৰধান উপকাৰী প্ৰব্ৰজনকাৰী পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-165",
+   "q": {
+    "en": "In which year was Pradhan Mantri Ujjwala Yojana 2.0 launched?",
+    "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০ কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Ujjwala Yojana 2.0 was launched in 2021.",
+    "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০ 2021 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-166",
+   "q": {
+    "en": "Which scheme is related to LPG connections to migrant families?",
+    "as": "কোন আঁচনি প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Viksit Gram Swaraj Yojana",
+     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদই"
+    },
+    {
+     "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+     "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন"
+    },
+    {
+     "en": "Pradhan Mantri Ujjwala Yojana 2.0",
+     "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Ujjwala Yojana 2.0 is related to LPG connections to migrant families.",
+    "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০ প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-167",
+   "q": {
+    "en": "Production Linked Incentive is a scheme related to which field?",
+    "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "financial inclusion and bank accounts",
+     "as": "বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্ট"
+    },
+    {
+     "en": "piped drinking water to rural homes",
+     "as": "গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানী"
+    },
+    {
+     "en": "loans to SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণ"
+    },
+    {
+     "en": "incentives to boost manufacturing",
+     "as": "উৎপাদন বৃদ্ধিৰ প্ৰণোদনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Production Linked Incentive is a scheme related to incentives to boost manufacturing.",
+    "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ উৎপাদন বৃদ্ধিৰ প্ৰণোদনাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-168",
+   "q": {
+    "en": "Who are the main beneficiaries of Production Linked Incentive?",
+    "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "manufacturing industries",
+     "as": "উৎপাদন উদ্যোগ"
+    },
+    {
+     "en": "economically weaker families",
+     "as": "অৰ্থনৈতিকভাৱে দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়াল"
+    },
+    {
+     "en": "unorganised sector workers",
+     "as": "অসংগঠিত খণ্ডৰ কৰ্মী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Production Linked Incentive are manufacturing industries.",
+    "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভৰ প্ৰধান উপকাৰী উৎপাদন উদ্যোগ।"
+   }
+  },
+  {
+   "id": "government-schemes-169",
+   "q": {
+    "en": "In which year was Production Linked Incentive launched?",
+    "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Production Linked Incentive was launched in 2020.",
+    "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-170",
+   "q": {
+    "en": "Which scheme is related to incentives to boost manufacturing?",
+    "as": "কোন আঁচনি উৎপাদন বৃদ্ধিৰ প্ৰণোদনাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    },
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    },
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    },
+    {
+     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Production Linked Incentive is related to incentives to boost manufacturing.",
+    "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ উৎপাদন বৃদ্ধিৰ প্ৰণোদনাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-171",
+   "q": {
+    "en": "Vibrant Villages Programme is a scheme related to which field?",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "self-employment for youth",
+     "as": "যুৱক-যুৱতীৰ আত্মনিয়োগ"
+    },
+    {
+     "en": "support to tea garden workers and industry",
+     "as": "চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়"
+    },
+    {
+     "en": "development of border villages",
+     "as": "সীমান্ত গাঁৱৰ উন্নয়ন"
+    },
+    {
+     "en": "loans to SC, ST and women entrepreneurs",
+     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Vibrant Villages Programme is a scheme related to development of border villages.",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী সীমান্ত গাঁৱৰ উন্নয়নৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-172",
+   "q": {
+    "en": "Who are the main beneficiaries of Vibrant Villages Programme?",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচীৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিক"
+    },
+    {
+     "en": "poor and needy families",
+     "as": "দৰিদ্ৰ আৰু অভাৱী পৰিয়াল"
+    },
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    },
+    {
+     "en": "border village residents",
+     "as": "সীমান্ত গাঁৱৰ বাসিন্দা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Vibrant Villages Programme are border village residents.",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচীৰ প্ৰধান উপকাৰী সীমান্ত গাঁৱৰ বাসিন্দা।"
+   }
+  },
+  {
+   "id": "government-schemes-173",
+   "q": {
+    "en": "In which year was Vibrant Villages Programme launched?",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2004",
+     "as": "২০০৪"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Vibrant Villages Programme was launched in 2023.",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী 2023 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-174",
+   "q": {
+    "en": "Which scheme is related to development of border villages?",
+    "as": "কোন আঁচনি সীমান্ত গাঁৱৰ উন্নয়নৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Vibrant Villages Programme",
+     "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী"
+    },
+    {
+     "en": "Pradhan Mantri Suraksha Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনা"
+    },
+    {
+     "en": "Orunodoi",
+     "as": "অৰুণোদই"
+    },
+    {
+     "en": "Pradhan Mantri Kisan Samman Nidhi",
+     "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Vibrant Villages Programme is related to development of border villages.",
+    "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী সীমান্ত গাঁৱৰ উন্নয়নৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-175",
+   "q": {
+    "en": "PM-DevINE is a scheme related to which field?",
+    "as": "পিএম-দেৱিন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "promotion of Assamese and other local languages",
+     "as": "অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰ"
+    },
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    },
+    {
+     "en": "infrastructure development in the north-east",
+     "as": "উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়ন"
+    },
+    {
+     "en": "free admission and scholarships for students",
+     "as": "শিক্ষাৰ্থীৰ বিনামূলীয়া নামভৰ্তি আৰু জলপানি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "PM-DevINE is a scheme related to infrastructure development in the north-east.",
+    "as": "পিএম-দেৱিন উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়নৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-176",
+   "q": {
+    "en": "Who are the main beneficiaries of PM-DevINE?",
+    "as": "পিএম-দেৱিনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "tea garden workers",
+     "as": "চাহ বাগানৰ কৰ্মী"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "north-eastern states",
+     "as": "উত্তৰ-পূবৰ ৰাজ্য"
+    },
+    {
+     "en": "small business owners",
+     "as": "সৰু ব্যৱসায়ী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of PM-DevINE are north-eastern states.",
+    "as": "পিএম-দেৱিনৰ প্ৰধান উপকাৰী উত্তৰ-পূবৰ ৰাজ্য।"
+   }
+  },
+  {
+   "id": "government-schemes-177",
+   "q": {
+    "en": "In which year was PM-DevINE launched?",
+    "as": "পিএম-দেৱিন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "PM-DevINE was launched in 2022.",
+    "as": "পিএম-দেৱিন 2022 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-178",
+   "q": {
+    "en": "Which scheme is related to infrastructure development in the north-east?",
+    "as": "কোন আঁচনি উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়নৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "PM-DevINE",
+     "as": "পিএম-দেৱিন"
+    },
+    {
+     "en": "Bhasha Gaurav",
+     "as": "ভাষা গৌৰৱ"
+    },
+    {
+     "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana",
+     "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM-DevINE is related to infrastructure development in the north-east.",
+    "as": "পিএম-দেৱিন উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়নৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-179",
+   "q": {
+    "en": "iDEX is a scheme related to which field?",
+    "as": "আইডেক্স কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "life insurance",
+     "as": "জীৱন বীমা"
+    },
+    {
+     "en": "sanitation and cleanliness",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্নতা"
+    },
+    {
+     "en": "funding innovation for defence",
+     "as": "প্ৰতিৰক্ষাৰ বাবে উদ্ভাৱনক পুঁজি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "iDEX is a scheme related to funding innovation for defence.",
+    "as": "আইডেক্স প্ৰতিৰক্ষাৰ বাবে উদ্ভাৱনক পুঁজিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-180",
+   "q": {
+    "en": "Who are the main beneficiaries of iDEX?",
+    "as": "আইডেক্সৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "girl students of higher secondary and above",
+     "as": "উচ্চতৰ মাধ্যমিক আৰু তাৰ ওপৰৰ ছাত্ৰী"
+    },
+    {
+     "en": "land holders",
+     "as": "ভূমিৰ মালিক"
+    },
+    {
+     "en": "unemployed youth",
+     "as": "নিবনুৱা যুৱক-যুৱতী"
+    },
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of iDEX are defence startups.",
+    "as": "আইডেক্সৰ প্ৰধান উপকাৰী প্ৰতিৰক্ষা ষ্টাৰ্টআপ।"
+   }
+  },
+  {
+   "id": "government-schemes-181",
+   "q": {
+    "en": "In which year was iDEX launched?",
+    "as": "আইডেক্স কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "iDEX was launched in 2018.",
+    "as": "আইডেক্স 2018 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-182",
+   "q": {
+    "en": "Which scheme is related to funding innovation for defence?",
+    "as": "কোন আঁচনি প্ৰতিৰক্ষাৰ বাবে উদ্ভাৱনক পুঁজিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    },
+    {
+     "en": "Assam Tea Industry Special Incentive Scheme",
+     "as": "অসম চাহ উদ্যোগ বিশেষ প্ৰণোদনা আঁচনি"
+    },
+    {
+     "en": "Mukhyamantri Mahila Udyamita Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান"
+    },
+    {
+     "en": "iDEX",
+     "as": "আইডেক্স"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "iDEX is related to funding innovation for defence.",
+    "as": "আইডেক্স প্ৰতিৰক্ষাৰ বাবে উদ্ভাৱনক পুঁজিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-183",
+   "q": {
+    "en": "Digital Bharat Nidhi is a scheme related to which field?",
+    "as": "ডিজিটেল ভাৰত নিধি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "piped drinking water to rural homes",
+     "as": "গ্ৰাম্য ঘৰত পাইপযুক্ত খোৱাপানী"
+    },
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "pension after 60 years",
+     "as": "৬০ বছৰৰ পিছত পেঞ্চন"
+    },
+    {
+     "en": "rural broadband connectivity",
+     "as": "গ্ৰাম্য ব্ৰডবেণ্ড সংযোগ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Digital Bharat Nidhi is a scheme related to rural broadband connectivity.",
+    "as": "ডিজিটেল ভাৰত নিধি গ্ৰাম্য ব্ৰডবেণ্ড সংযোগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-184",
+   "q": {
+    "en": "Who are the main beneficiaries of Digital Bharat Nidhi?",
+    "as": "ডিজিটেল ভাৰত নিধিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "rural and urban households",
+     "as": "গ্ৰাম্য আৰু চহৰীয়া পৰিয়াল"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "rural women of self-help groups",
+     "as": "গ্ৰাম্য মহিলা স্বসহায়ক গোট"
+    },
+    {
+     "en": "unbanked people",
+     "as": "বেংক একাউণ্ট নথকা লোক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Digital Bharat Nidhi are rural households.",
+    "as": "ডিজিটেল ভাৰত নিধিৰ প্ৰধান উপকাৰী গ্ৰাম্য পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-185",
+   "q": {
+    "en": "In which year was Digital Bharat Nidhi launched?",
+    "as": "ডিজিটেল ভাৰত নিধি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Digital Bharat Nidhi was launched in 2023.",
+    "as": "ডিজিটেল ভাৰত নিধি 2023 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-186",
+   "q": {
+    "en": "Which scheme is related to rural broadband connectivity?",
+    "as": "কোন আঁচনি গ্ৰাম্য ব্ৰডবেণ্ড সংযোগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Mudra Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা"
+    },
+    {
+     "en": "Digital Bharat Nidhi",
+     "as": "ডিজিটেল ভাৰত নিধি"
+    },
+    {
+     "en": "Pradhan Mantri Awas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা"
+    },
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Digital Bharat Nidhi is related to rural broadband connectivity.",
+    "as": "ডিজিটেল ভাৰত নিধি গ্ৰাম্য ব্ৰডবেণ্ড সংযোগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-187",
+   "q": {
+    "en": "Viksit Gram Swaraj Yojana is a scheme related to which field?",
+    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "rural development and governance",
+     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    },
+    {
+     "en": "health insurance",
+     "as": "স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "support to traditional artisans and craftspeople",
+     "as": "পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Viksit Gram Swaraj Yojana is a scheme related to rural development and governance.",
+    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা গ্ৰাম্য উন্নয়ন আৰু শাসনৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-188",
+   "q": {
+    "en": "Who are the main beneficiaries of Viksit Gram Swaraj Yojana?",
+    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "artisans and craftspeople",
+     "as": "শিল্পী আৰু কাৰিকৰ"
+    },
+    {
+     "en": "small business owners",
+     "as": "সৰু ব্যৱসায়ী"
+    },
+    {
+     "en": "rural population",
+     "as": "গ্ৰাম্য জনগণ"
+    },
+    {
+     "en": "investors",
+     "as": "বিনিয়োগকাৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Viksit Gram Swaraj Yojana are rural population.",
+    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনাৰ প্ৰধান উপকাৰী গ্ৰাম্য জনগণ।"
+   }
+  },
+  {
+   "id": "government-schemes-189",
+   "q": {
+    "en": "In which year was Viksit Gram Swaraj Yojana launched?",
+    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Viksit Gram Swaraj Yojana was launched in 2026.",
+    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা 2026 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-190",
+   "q": {
+    "en": "Which scheme is related to rural development and governance?",
+    "as": "কোন আঁচনি গ্ৰাম্য উন্নয়ন আৰু শাসনৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Jal Jeevan Mission",
+     "as": "জল জীৱন মিছন"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    },
+    {
+     "en": "Viksit Gram Swaraj Yojana",
+     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+    },
+    {
+     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Viksit Gram Swaraj Yojana is related to rural development and governance.",
+    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা গ্ৰাম্য উন্নয়ন আৰু শাসনৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-191",
+   "q": {
+    "en": "Khelo India Sports Goods Manufacturing Scheme is a scheme related to which field?",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "guaranteed rural wage employment",
+     "as": "গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তা"
+    },
+    {
+     "en": "rural development and governance",
+     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+    },
+    {
+     "en": "manufacturing of sports goods",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Khelo India Sports Goods Manufacturing Scheme is a scheme related to manufacturing of sports goods.",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি ক্ৰীড়া সামগ্ৰী উৎপাদনৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-192",
+   "q": {
+    "en": "Who are the main beneficiaries of Khelo India Sports Goods Manufacturing Scheme?",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "sports goods manufacturers",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদক"
+    },
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Khelo India Sports Goods Manufacturing Scheme are sports goods manufacturers.",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনিৰ প্ৰধান উপকাৰী ক্ৰীড়া সামগ্ৰী উৎপাদক।"
+   }
+  },
+  {
+   "id": "government-schemes-193",
+   "q": {
+    "en": "In which year was Khelo India Sports Goods Manufacturing Scheme launched?",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2004",
+     "as": "২০০৪"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Khelo India Sports Goods Manufacturing Scheme was launched in 2026.",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি 2026 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-194",
+   "q": {
+    "en": "Which scheme is related to manufacturing of sports goods?",
+    "as": "কোন আঁচনি ক্ৰীড়া সামগ্ৰী উৎপাদনৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Assam Micro Finance Incentive and Relief Scheme",
+     "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি"
+    },
+    {
+     "en": "Ujjwala Yojana",
+     "as": "উজ্জ্বলা যোজনা"
+    },
+    {
+     "en": "iDEX",
+     "as": "আইডেক্স"
+    },
+    {
+     "en": "Khelo India Sports Goods Manufacturing Scheme",
+     "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Khelo India Sports Goods Manufacturing Scheme is related to manufacturing of sports goods.",
+    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি ক্ৰীড়া সামগ্ৰী উৎপাদনৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-195",
+   "q": {
+    "en": "ESIC New Amnesty Scheme is a scheme related to which field?",
+    "as": "ইএছআইচি নতুন ক্ষমা আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "pension after 60 years",
+     "as": "৬০ বছৰৰ পিছত পেঞ্চন"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    },
+    {
+     "en": "incentive against child marriage",
+     "as": "বাল্য বিবাহ ৰোধৰ প্ৰণোদনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "ESIC New Amnesty Scheme is a scheme related to settlement of pending ESI disputes.",
+    "as": "ইএছআইচি নতুন ক্ষমা আঁচনি বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-196",
+   "q": {
+    "en": "Who are the main beneficiaries of ESIC New Amnesty Scheme?",
+    "as": "ইএছআইচি নতুন ক্ষমা আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "employers and insured persons",
+     "as": "নিয়োগকৰ্তা আৰু বীমাকৃত ব্যক্তি"
+    },
+    {
+     "en": "poor families",
+     "as": "দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "college and university students",
+     "as": "মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়ৰ শিক্ষাৰ্থী"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of ESIC New Amnesty Scheme are employers and insured persons.",
+    "as": "ইএছআইচি নতুন ক্ষমা আঁচনিৰ প্ৰধান উপকাৰী নিয়োগকৰ্তা আৰু বীমাকৃত ব্যক্তি।"
+   }
+  },
+  {
+   "id": "government-schemes-197",
+   "q": {
+    "en": "In which year was ESIC New Amnesty Scheme launched?",
+    "as": "ইএছআইচি নতুন ক্ষমা আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "ESIC New Amnesty Scheme was launched in 2025.",
+    "as": "ইএছআইচি নতুন ক্ষমা আঁচনি 2025 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-198",
+   "q": {
+    "en": "Which scheme is related to settlement of pending ESI disputes?",
+    "as": "কোন আঁচনি বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Ujjwala Yojana",
+     "as": "উজ্জ্বলা যোজনা"
+    },
+    {
+     "en": "Khelo India Sports Goods Manufacturing Scheme",
+     "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি"
+    },
+    {
+     "en": "ESIC New Amnesty Scheme",
+     "as": "ইএছআইচি নতুন ক্ষমা আঁচনি"
+    },
+    {
+     "en": "CMSGUY",
+     "as": "চিএমএছজিইউৱাই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "ESIC New Amnesty Scheme is related to settlement of pending ESI disputes.",
+    "as": "ইএছআইচি নতুন ক্ষমা আঁচনি বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-199",
+   "q": {
+    "en": "PM Poshan is a scheme related to which field?",
+    "as": "পিএম পোষণ কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "working capital to street vendors",
+     "as": "পথ বিক্ৰেতাক কাৰ্যবাহী মূলধন"
+    },
+    {
+     "en": "subsidised food grain",
+     "as": "সুবিধাপ্ৰাপ্ত খাদ্য শস্য"
+    },
+    {
+     "en": "rural roads",
+     "as": "গ্ৰাম্য পথ"
+    },
+    {
+     "en": "mid-day meal for school children",
+     "as": "বিদ্যালয়ৰ শিশুৰ মাজাহাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "PM Poshan is a scheme related to mid-day meal for school children.",
+    "as": "পিএম পোষণ বিদ্যালয়ৰ শিশুৰ মাজাহাৰৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-200",
+   "q": {
+    "en": "Who are the main beneficiaries of PM Poshan?",
+    "as": "পিএম পোষণৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "youth seeking jobs",
+     "as": "চাকৰি বিচৰা যুৱক"
+    },
+    {
+     "en": "school children",
+     "as": "বিদ্যালয়ৰ শিশু"
+    },
+    {
+     "en": "land holders",
+     "as": "ভূমিৰ মালিক"
+    },
+    {
+     "en": "street vendors",
+     "as": "পথ বিক্ৰেতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of PM Poshan are school children.",
+    "as": "পিএম পোষণৰ প্ৰধান উপকাৰী বিদ্যালয়ৰ শিশু।"
+   }
+  },
+  {
+   "id": "government-schemes-201",
+   "q": {
+    "en": "In which year was PM Poshan launched?",
+    "as": "পিএম পোষণ কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "PM Poshan was launched in 2021.",
+    "as": "পিএম পোষণ 2021 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-202",
+   "q": {
+    "en": "Which scheme is related to mid-day meal for school children?",
+    "as": "কোন আঁচনি বিদ্যালয়ৰ শিশুৰ মাজাহাৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "PM Poshan",
+     "as": "পিএম পোষণ"
+    },
+    {
+     "en": "Senior Citizens' Savings Scheme",
+     "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি"
+    },
+    {
+     "en": "Beti Bachao Beti Padhao",
+     "as": "বেটি বচাও বেটি পঢ়াও"
+    },
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM Poshan is related to mid-day meal for school children.",
+    "as": "পিএম পোষণ বিদ্যালয়ৰ শিশুৰ মাজাহাৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-203",
+   "q": {
+    "en": "Samagra Shiksha is a scheme related to which field?",
+    "as": "সমগ্ৰ শিক্ষা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "income support to farmers",
+     "as": "কৃষকক আয় সহায়"
+    },
+    {
+     "en": "development of border villages",
+     "as": "সীমান্ত গাঁৱৰ উন্নয়ন"
+    },
+    {
+     "en": "school education",
+     "as": "বিদ্যালয় শিক্ষা"
+    },
+    {
+     "en": "nutrition for women and children",
+     "as": "মহিলা আৰু শিশুৰ পুষ্টি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Samagra Shiksha is a scheme related to school education.",
+    "as": "সমগ্ৰ শিক্ষা বিদ্যালয় শিক্ষাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-204",
+   "q": {
+    "en": "Who are the main beneficiaries of Samagra Shiksha?",
+    "as": "সমগ্ৰ শিক্ষাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    },
+    {
+     "en": "girl children",
+     "as": "কন্যা শিশু"
+    },
+    {
+     "en": "rural villages",
+     "as": "গ্ৰাম্য গাঁও"
+    },
+    {
+     "en": "school students",
+     "as": "বিদ্যালয়ৰ শিক্ষাৰ্থী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Samagra Shiksha are school students.",
+    "as": "সমগ্ৰ শিক্ষাৰ প্ৰধান উপকাৰী বিদ্যালয়ৰ শিক্ষাৰ্থী।"
+   }
+  },
+  {
+   "id": "government-schemes-205",
+   "q": {
+    "en": "In which year was Samagra Shiksha launched?",
+    "as": "সমগ্ৰ শিক্ষা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Samagra Shiksha was launched in 2018.",
+    "as": "সমগ্ৰ শিক্ষা 2018 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-206",
+   "q": {
+    "en": "Which scheme is related to school education?",
+    "as": "কোন আঁচনি বিদ্যালয় শিক্ষাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Samagra Shiksha",
+     "as": "সমগ্ৰ শিক্ষা"
+    },
+    {
+     "en": "Pradhan Mantri Ujjwala Yojana 2.0",
+     "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা ২.০"
+    },
+    {
+     "en": "Stand-Up India",
+     "as": "ষ্টেণ্ড-আপ ইণ্ডিয়া"
+    },
+    {
+     "en": "Pradhan Mantri Gram Sadak Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Samagra Shiksha is related to school education.",
+    "as": "সমগ্ৰ শিক্ষা বিদ্যালয় শিক্ষাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-207",
+   "q": {
+    "en": "Beti Bachao Beti Padhao is a scheme related to which field?",
+    "as": "বেটি বচাও বেটি পঢ়াও কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "welfare and education of the girl child",
+     "as": "কন্যা শিশুৰ কল্যাণ আৰু শিক্ষা"
+    },
+    {
+     "en": "award of computers to meritorious students",
+     "as": "মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদান"
+    },
+    {
+     "en": "health insurance",
+     "as": "স্বাস্থ্য বীমা"
+    },
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Beti Bachao Beti Padhao is a scheme related to welfare and education of the girl child.",
+    "as": "বেটি বচাও বেটি পঢ়াও কন্যা শিশুৰ কল্যাণ আৰু শিক্ষাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-208",
+   "q": {
+    "en": "Who are the main beneficiaries of Beti Bachao Beti Padhao?",
+    "as": "বেটি বচাও বেটি পঢ়াওৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    },
+    {
+     "en": "girl children",
+     "as": "কন্যা শিশু"
+    },
+    {
+     "en": "urban residents",
+     "as": "চহৰীয়া বাসিন্দা"
+    },
+    {
+     "en": "entrepreneurs",
+     "as": "উদ্যোগী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Beti Bachao Beti Padhao are girl children.",
+    "as": "বেটি বচাও বেটি পঢ়াওৰ প্ৰধান উপকাৰী কন্যা শিশু।"
+   }
+  },
+  {
+   "id": "government-schemes-209",
+   "q": {
+    "en": "In which year was Beti Bachao Beti Padhao launched?",
+    "as": "বেটি বচাও বেটি পঢ়াও কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Beti Bachao Beti Padhao was launched in 2015.",
+    "as": "বেটি বচাও বেটি পঢ়াও 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-210",
+   "q": {
+    "en": "Which scheme is related to welfare and education of the girl child?",
+    "as": "কোন আঁচনি কন্যা শিশুৰ কল্যাণ আৰু শিক্ষাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "ESIC New Amnesty Scheme",
+     "as": "ইএছআইচি নতুন ক্ষমা আঁচনি"
+    },
+    {
+     "en": "Beti Bachao Beti Padhao",
+     "as": "বেটি বচাও বেটি পঢ়াও"
+    },
+    {
+     "en": "Startup India",
+     "as": "ষ্টাৰ্টআপ ইণ্ডিয়া"
+    },
+    {
+     "en": "Mahila Samman Savings Certificate",
+     "as": "মহিলা সম্মান সঞ্চয় পত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Beti Bachao Beti Padhao is related to welfare and education of the girl child.",
+    "as": "বেটি বচাও বেটি পঢ়াও কন্যা শিশুৰ কল্যাণ আৰু শিক্ষাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-211",
+   "q": {
+    "en": "Pradhan Mantri Kaushal Vikas Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "monthly stipend to girl students",
+     "as": "ছাত্ৰীসকলক মাহেকীয়া বৃত্তি"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "support to tea garden workers and industry",
+     "as": "চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়"
+    },
+    {
+     "en": "skill training",
+     "as": "দক্ষতা প্ৰশিক্ষণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Kaushal Vikas Yojana is a scheme related to skill training.",
+    "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-212",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Kaushal Vikas Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "unemployed educated youth",
+     "as": "নিবনুৱা শিক্ষিত যুৱক-যুৱতী"
+    },
+    {
+     "en": "farmers and traders",
+     "as": "কৃষক আৰু ব্যৱসায়ী"
+    },
+    {
+     "en": "youth seeking jobs",
+     "as": "চাকৰি বিচৰা যুৱক"
+    },
+    {
+     "en": "youth",
+     "as": "যুৱক-যুৱতী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Kaushal Vikas Yojana are youth seeking jobs.",
+    "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনাৰ প্ৰধান উপকাৰী চাকৰি বিচৰা যুৱক।"
+   }
+  },
+  {
+   "id": "government-schemes-213",
+   "q": {
+    "en": "In which year was Pradhan Mantri Kaushal Vikas Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Kaushal Vikas Yojana was launched in 2015.",
+    "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-214",
+   "q": {
+    "en": "Which scheme is related to skill training?",
+    "as": "কোন আঁচনি দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Smart Cities Mission",
+     "as": "স্মাৰ্ট চিটিজ মিছন"
+    },
+    {
+     "en": "Atal Pension Yojana",
+     "as": "অটল পেঞ্চন যোজনা"
+    },
+    {
+     "en": "PM Vishwakarma",
+     "as": "পিএম বিশ্বকৰ্মা"
+    },
+    {
+     "en": "Pradhan Mantri Kaushal Vikas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pradhan Mantri Kaushal Vikas Yojana is related to skill training.",
+    "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-215",
+   "q": {
+    "en": "PM Gati Shakti is a scheme related to which field?",
+    "as": "পিএম গতি শক্তি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "financial inclusion and bank accounts",
+     "as": "বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্ট"
+    },
+    {
+     "en": "multimodal infrastructure",
+     "as": "বহুমুখী আন্তঃগাঁথনি"
+    },
+    {
+     "en": "savings for senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিকৰ বাবে সঞ্চয়"
+    },
+    {
+     "en": "manufacturing of sports goods",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "PM Gati Shakti is a scheme related to multimodal infrastructure.",
+    "as": "পিএম গতি শক্তি বহুমুখী আন্তঃগাঁথনিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-216",
+   "q": {
+    "en": "Who are the main beneficiaries of PM Gati Shakti?",
+    "as": "পিএম গতি শক্তিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "unbanked people",
+     "as": "বেংক একাউণ্ট নথকা লোক"
+    },
+    {
+     "en": "poor and homeless families",
+     "as": "দৰিদ্ৰ আৰু গৃহহীন পৰিয়াল"
+    },
+    {
+     "en": "infrastructure sectors",
+     "as": "আন্তঃগাঁথনি খণ্ড"
+    },
+    {
+     "en": "priority households",
+     "as": "অগ্ৰাধিকাৰপ্ৰাপ্ত পৰিয়াল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of PM Gati Shakti are infrastructure sectors.",
+    "as": "পিএম গতি শক্তিৰ প্ৰধান উপকাৰী আন্তঃগাঁথনি খণ্ড।"
+   }
+  },
+  {
+   "id": "government-schemes-217",
+   "q": {
+    "en": "In which year was PM Gati Shakti launched?",
+    "as": "পিএম গতি শক্তি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "PM Gati Shakti was launched in 2021.",
+    "as": "পিএম গতি শক্তি 2021 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-218",
+   "q": {
+    "en": "Which scheme is related to multimodal infrastructure?",
+    "as": "কোন আঁচনি বহুমুখী আন্তঃগাঁথনিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Kaushal Vikas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা"
+    },
+    {
+     "en": "Digital Bharat Nidhi",
+     "as": "ডিজিটেল ভাৰত নিধি"
+    },
+    {
+     "en": "PM Gati Shakti",
+     "as": "পিএম গতি শক্তি"
+    },
+    {
+     "en": "National Apprenticeship Promotion Scheme",
+     "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "PM Gati Shakti is related to multimodal infrastructure.",
+    "as": "পিএম গতি শক্তি বহুমুখী আন্তঃগাঁথনিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-219",
+   "q": {
+    "en": "Poshan Abhiyaan is a scheme related to which field?",
+    "as": "পোষণ অভিযান কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "digital infrastructure and services",
+     "as": "ডিজিটেল আন্তঃগাঁথনি আৰু সেৱা"
+    },
+    {
+     "en": "rural roads",
+     "as": "গ্ৰাম্য পথ"
+    },
+    {
+     "en": "nutrition for women and children",
+     "as": "মহিলা আৰু শিশুৰ পুষ্টি"
+    },
+    {
+     "en": "development of border villages",
+     "as": "সীমান্ত গাঁৱৰ উন্নয়ন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Poshan Abhiyaan is a scheme related to nutrition for women and children.",
+    "as": "পোষণ অভিযান মহিলা আৰু শিশুৰ পুষ্টিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-220",
+   "q": {
+    "en": "Who are the main beneficiaries of Poshan Abhiyaan?",
+    "as": "পোষণ অভিযানৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "women and children",
+     "as": "মহিলা আৰু শিশু"
+    },
+    {
+     "en": "farmers and traders",
+     "as": "কৃষক আৰু ব্যৱসায়ী"
+    },
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    },
+    {
+     "en": "girl students of higher secondary and above",
+     "as": "উচ্চতৰ মাধ্যমিক আৰু তাৰ ওপৰৰ ছাত্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Poshan Abhiyaan are women and children.",
+    "as": "পোষণ অভিযানৰ প্ৰধান উপকাৰী মহিলা আৰু শিশু।"
+   }
+  },
+  {
+   "id": "government-schemes-221",
+   "q": {
+    "en": "In which year was Poshan Abhiyaan launched?",
+    "as": "পোষণ অভিযান কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Poshan Abhiyaan was launched in 2018.",
+    "as": "পোষণ অভিযান 2018 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-222",
+   "q": {
+    "en": "Which scheme is related to nutrition for women and children?",
+    "as": "কোন আঁচনি মহিলা আৰু শিশুৰ পুষ্টিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Poshan Abhiyaan",
+     "as": "পোষণ অভিযান"
+    },
+    {
+     "en": "Smart Cities Mission",
+     "as": "স্মাৰ্ট চিটিজ মিছন"
+    },
+    {
+     "en": "Aponar Apon Ghar",
+     "as": "আপোনাৰ আপোন ঘৰ"
+    },
+    {
+     "en": "Mahila Samman Savings Certificate",
+     "as": "মহিলা সম্মান সঞ্চয় পত্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Poshan Abhiyaan is related to nutrition for women and children.",
+    "as": "পোষণ অভিযান মহিলা আৰু শিশুৰ পুষ্টিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-223",
+   "q": {
+    "en": "Pradhan Mantri Matru Vandana Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "maternity benefit",
+     "as": "মাতৃকালীন সুবিধা"
+    },
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    },
+    {
+     "en": "support to traditional artisans and craftspeople",
+     "as": "পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়"
+    },
+    {
+     "en": "higher education",
+     "as": "উচ্চ শিক্ষা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Matru Vandana Yojana is a scheme related to maternity benefit.",
+    "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনা মাতৃকালীন সুবিধাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-224",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Matru Vandana Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "pregnant and lactating women",
+     "as": "গৰ্ভৱতী আৰু প্ৰসূতি মহিলা"
+    },
+    {
+     "en": "entrepreneurs",
+     "as": "উদ্যোগী"
+    },
+    {
+     "en": "women investors",
+     "as": "মহিলা বিনিয়োগকাৰী"
+    },
+    {
+     "en": "unbanked people",
+     "as": "বেংক একাউণ্ট নথকা লোক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Matru Vandana Yojana are pregnant and lactating women.",
+    "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনাৰ প্ৰধান উপকাৰী গৰ্ভৱতী আৰু প্ৰসূতি মহিলা।"
+   }
+  },
+  {
+   "id": "government-schemes-225",
+   "q": {
+    "en": "In which year was Pradhan Mantri Matru Vandana Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Matru Vandana Yojana was launched in 2017.",
+    "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনা 2017 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-226",
+   "q": {
+    "en": "Which scheme is related to maternity benefit?",
+    "as": "কোন আঁচনি মাতৃকালীন সুবিধাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Khelo India Sports Goods Manufacturing Scheme",
+     "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি"
+    },
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    },
+    {
+     "en": "Pradhan Mantri Matru Vandana Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনা"
+    },
+    {
+     "en": "Startup India",
+     "as": "ষ্টাৰ্টআপ ইণ্ডিয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Matru Vandana Yojana is related to maternity benefit.",
+    "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনা মাতৃকালীন সুবিধাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-227",
+   "q": {
+    "en": "Atal Bhujal Yojana is a scheme related to which field?",
+    "as": "অটল ভূজল যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "promotion of tourism",
+     "as": "পৰ্যটনৰ প্ৰচাৰ"
+    },
+    {
+     "en": "irrigation",
+     "as": "জলসিঞ্চন"
+    },
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "groundwater management",
+     "as": "ভূগৰ্ভস্থ জল ব্যৱস্থাপনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Atal Bhujal Yojana is a scheme related to groundwater management.",
+    "as": "অটল ভূজল যোজনা ভূগৰ্ভস্থ জল ব্যৱস্থাপনাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-228",
+   "q": {
+    "en": "Who are the main beneficiaries of Atal Bhujal Yojana?",
+    "as": "অটল ভূজল যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "students who excel in examinations",
+     "as": "পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী"
+    },
+    {
+     "en": "farmers",
+     "as": "কৃষক"
+    },
+    {
+     "en": "unemployed youth",
+     "as": "নিবনুৱা যুৱক-যুৱতী"
+    },
+    {
+     "en": "farmers in water-stressed areas",
+     "as": "জলসংকটীয় অঞ্চলৰ কৃষক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Atal Bhujal Yojana are farmers in water-stressed areas.",
+    "as": "অটল ভূজল যোজনাৰ প্ৰধান উপকাৰী জলসংকটীয় অঞ্চলৰ কৃষক।"
+   }
+  },
+  {
+   "id": "government-schemes-229",
+   "q": {
+    "en": "In which year was Atal Bhujal Yojana launched?",
+    "as": "অটল ভূজল যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Atal Bhujal Yojana was launched in 2020.",
+    "as": "অটল ভূজল যোজনা 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-230",
+   "q": {
+    "en": "Which scheme is related to groundwater management?",
+    "as": "কোন আঁচনি ভূগৰ্ভস্থ জল ব্যৱস্থাপনাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Mukhya Mantri Nijut Moina (girls)",
+     "as": "মুখ্যমন্ত্ৰী নিজুত মইনা (ছাত্ৰী)"
+    },
+    {
+     "en": "National Apprenticeship Promotion Scheme",
+     "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি"
+    },
+    {
+     "en": "Atal Bhujal Yojana",
+     "as": "অটল ভূজল যোজনা"
+    },
+    {
+     "en": "PM Vishwakarma",
+     "as": "পিএম বিশ্বকৰ্মা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Atal Bhujal Yojana is related to groundwater management.",
+    "as": "অটল ভূজল যোজনা ভূগৰ্ভস্থ জল ব্যৱস্থাপনাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-231",
+   "q": {
+    "en": "Namami Gange is a scheme related to which field?",
+    "as": "নমামি গংগে কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "manufacturing of sports goods",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদন"
+    },
+    {
+     "en": "cleaning and conservation of the Ganga",
+     "as": "গংগাৰ পৰিষ্কাৰ আৰু সংৰক্ষণ"
+    },
+    {
+     "en": "infrastructure development in the north-east",
+     "as": "উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়ন"
+    },
+    {
+     "en": "skill development",
+     "as": "দক্ষতা উন্নয়ন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Namami Gange is a scheme related to cleaning and conservation of the Ganga.",
+    "as": "নমামি গংগে গংগাৰ পৰিষ্কাৰ আৰু সংৰক্ষণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-232",
+   "q": {
+    "en": "Who are the main beneficiaries of Namami Gange?",
+    "as": "নমামি গংগেৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    },
+    {
+     "en": "poor and low-income families",
+     "as": "দৰিদ্ৰ আৰু নিম্ন আয়ৰ পৰিয়াল"
+    },
+    {
+     "en": "girl children",
+     "as": "কন্যা শিশু"
+    },
+    {
+     "en": "the Ganga river ecosystem",
+     "as": "গংগা নদীৰ পৰিৱেশ তন্ত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Namami Gange are the Ganga river ecosystem.",
+    "as": "নমামি গংগেৰ প্ৰধান উপকাৰী গংগা নদীৰ পৰিৱেশ তন্ত্ৰ।"
+   }
+  },
+  {
+   "id": "government-schemes-233",
+   "q": {
+    "en": "In which year was Namami Gange launched?",
+    "as": "নমামি গংগে কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Namami Gange was launched in 2014.",
+    "as": "নমামি গংগে 2014 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-234",
+   "q": {
+    "en": "Which scheme is related to cleaning and conservation of the Ganga?",
+    "as": "কোন আঁচনি গংগাৰ পৰিষ্কাৰ আৰু সংৰক্ষণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    },
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    },
+    {
+     "en": "Digital India",
+     "as": "ডিজিটেল ইণ্ডিয়া"
+    },
+    {
+     "en": "Namami Gange",
+     "as": "নমামি গংগে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Namami Gange is related to cleaning and conservation of the Ganga.",
+    "as": "নমামি গংগে গংগাৰ পৰিষ্কাৰ আৰু সংৰক্ষণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-235",
+   "q": {
+    "en": "e-NAM is a scheme related to which field?",
+    "as": "ই-নাম কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "online agricultural marketing",
+     "as": "অনলাইন কৃষি বিপণন"
+    },
+    {
+     "en": "free food grain",
+     "as": "বিনামূলীয়া খাদ্য শস্য"
+    },
+    {
+     "en": "rural development and governance",
+     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+    },
+    {
+     "en": "groundwater management",
+     "as": "ভূগৰ্ভস্থ জল ব্যৱস্থাপনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "e-NAM is a scheme related to online agricultural marketing.",
+    "as": "ই-নাম অনলাইন কৃষি বিপণনৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-236",
+   "q": {
+    "en": "Who are the main beneficiaries of e-NAM?",
+    "as": "ই-নামৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "entrepreneurs",
+     "as": "উদ্যোগী"
+    },
+    {
+     "en": "unbanked people",
+     "as": "বেংক একাউণ্ট নথকা লোক"
+    },
+    {
+     "en": "farmers and traders",
+     "as": "কৃষক আৰু ব্যৱসায়ী"
+    },
+    {
+     "en": "city residents",
+     "as": "চহৰৰ বাসিন্দা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of e-NAM are farmers and traders.",
+    "as": "ই-নামৰ প্ৰধান উপকাৰী কৃষক আৰু ব্যৱসায়ী।"
+   }
+  },
+  {
+   "id": "government-schemes-237",
+   "q": {
+    "en": "In which year was e-NAM launched?",
+    "as": "ই-নাম কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "e-NAM was launched in 2016.",
+    "as": "ই-নাম 2016 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-238",
+   "q": {
+    "en": "Which scheme is related to online agricultural marketing?",
+    "as": "কোন আঁচনি অনলাইন কৃষি বিপণনৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sovereign Gold Bond Scheme",
+     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+    },
+    {
+     "en": "e-NAM",
+     "as": "ই-নাম"
+    },
+    {
+     "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+     "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন"
+    },
+    {
+     "en": "Digital India",
+     "as": "ডিজিটেল ইণ্ডিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "e-NAM is related to online agricultural marketing.",
+    "as": "ই-নাম অনলাইন কৃষি বিপণনৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-239",
+   "q": {
+    "en": "Kisan Credit Card is a scheme related to which field?",
+    "as": "কিষাণ ক্ৰেডিট কাৰ্ড কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "digital education",
+     "as": "ডিজিটেল শিক্ষা"
+    },
+    {
+     "en": "development of border villages",
+     "as": "সীমান্ত গাঁৱৰ উন্নয়ন"
+    },
+    {
+     "en": "credit to farmers",
+     "as": "কৃষকক ঋণ"
+    },
+    {
+     "en": "accident insurance",
+     "as": "দুৰ্ঘটনা বীমা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Kisan Credit Card is a scheme related to credit to farmers.",
+    "as": "কিষাণ ক্ৰেডিট কাৰ্ড কৃষকক ঋণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-240",
+   "q": {
+    "en": "Who are the main beneficiaries of Kisan Credit Card?",
+    "as": "কিষাণ ক্ৰেডিট কাৰ্ডৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "rural and urban households",
+     "as": "গ্ৰাম্য আৰু চহৰীয়া পৰিয়াল"
+    },
+    {
+     "en": "students and language teachers",
+     "as": "শিক্ষাৰ্থী আৰু ভাষা শিক্ষক"
+    },
+    {
+     "en": "farmers",
+     "as": "কৃষক"
+    },
+    {
+     "en": "sports goods manufacturers",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Kisan Credit Card are farmers.",
+    "as": "কিষাণ ক্ৰেডিট কাৰ্ডৰ প্ৰধান উপকাৰী কৃষক।"
+   }
+  },
+  {
+   "id": "government-schemes-241",
+   "q": {
+    "en": "In which year was Kisan Credit Card launched?",
+    "as": "কিষাণ ক্ৰেডিট কাৰ্ড কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "1998",
+     "as": "১৯৯৮"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kisan Credit Card was launched in 1998.",
+    "as": "কিষাণ ক্ৰেডিট কাৰ্ড 1998 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-242",
+   "q": {
+    "en": "Which scheme is related to credit to farmers?",
+    "as": "কোন আঁচনি কৃষকক ঋণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    },
+    {
+     "en": "National Apprenticeship Promotion Scheme",
+     "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি"
+    },
+    {
+     "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+     "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ নিশ্চিতি আইন"
+    },
+    {
+     "en": "Kisan Credit Card",
+     "as": "কিষাণ ক্ৰেডিট কাৰ্ড"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kisan Credit Card is related to credit to farmers.",
+    "as": "কিষাণ ক্ৰেডিট কাৰ্ড কৃষকক ঋণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-243",
+   "q": {
+    "en": "Pradhan Mantri Krishi Sinchayee Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "promotion of tourism",
+     "as": "পৰ্যটনৰ প্ৰচাৰ"
+    },
+    {
+     "en": "monthly stipend to girl students",
+     "as": "ছাত্ৰীসকলক মাহেকীয়া বৃত্তি"
+    },
+    {
+     "en": "irrigation",
+     "as": "জলসিঞ্চন"
+    },
+    {
+     "en": "support to tea garden workers and industry",
+     "as": "চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Krishi Sinchayee Yojana is a scheme related to irrigation.",
+    "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা জলসিঞ্চনৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-244",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Krishi Sinchayee Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "girl children",
+     "as": "কন্যা শিশু"
+    },
+    {
+     "en": "youth",
+     "as": "যুৱক-যুৱতী"
+    },
+    {
+     "en": "farmers in water-stressed areas",
+     "as": "জলসংকটীয় অঞ্চলৰ কৃষক"
+    },
+    {
+     "en": "farmers",
+     "as": "কৃষক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Krishi Sinchayee Yojana are farmers.",
+    "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনাৰ প্ৰধান উপকাৰী কৃষক।"
+   }
+  },
+  {
+   "id": "government-schemes-245",
+   "q": {
+    "en": "In which year was Pradhan Mantri Krishi Sinchayee Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Krishi Sinchayee Yojana was launched in 2015.",
+    "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-246",
+   "q": {
+    "en": "Which scheme is related to irrigation?",
+    "as": "কোন আঁচনি জলসিঞ্চনৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Krishi Sinchayee Yojana",
+     "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা"
+    },
+    {
+     "en": "Mukhyamantri Mahila Udyamita Abhiyan",
+     "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান"
+    },
+    {
+     "en": "Make in India",
+     "as": "মেক ইন ইণ্ডিয়া"
+    },
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pradhan Mantri Krishi Sinchayee Yojana is related to irrigation.",
+    "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা জলসিঞ্চনৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-247",
+   "q": {
+    "en": "Digital India is a scheme related to which field?",
+    "as": "ডিজিটেল ইণ্ডিয়া কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "housing for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে আবাস"
+    },
+    {
+     "en": "digital infrastructure and services",
+     "as": "ডিজিটেল আন্তঃগাঁথনি আৰু সেৱা"
+    },
+    {
+     "en": "skill training",
+     "as": "দক্ষতা প্ৰশিক্ষণ"
+    },
+    {
+     "en": "farm tools and equipment to farmers",
+     "as": "কৃষকক কৃষি সা-সঁজুলি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Digital India is a scheme related to digital infrastructure and services.",
+    "as": "ডিজিটেল ইণ্ডিয়া ডিজিটেল আন্তঃগাঁথনি আৰু সেৱাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-248",
+   "q": {
+    "en": "Who are the main beneficiaries of Digital India?",
+    "as": "ডিজিটেল ইণ্ডিয়াৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "entrepreneurs",
+     "as": "উদ্যোগী"
+    },
+    {
+     "en": "citizens",
+     "as": "নাগৰিক"
+    },
+    {
+     "en": "women and children",
+     "as": "মহিলা আৰু শিশু"
+    },
+    {
+     "en": "rural women of self-help groups",
+     "as": "গ্ৰাম্য মহিলা স্বসহায়ক গোট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Digital India are citizens.",
+    "as": "ডিজিটেল ইণ্ডিয়াৰ প্ৰধান উপকাৰী নাগৰিক।"
+   }
+  },
+  {
+   "id": "government-schemes-249",
+   "q": {
+    "en": "In which year was Digital India launched?",
+    "as": "ডিজিটেল ইণ্ডিয়া কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Digital India was launched in 2015.",
+    "as": "ডিজিটেল ইণ্ডিয়া 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-250",
+   "q": {
+    "en": "Which scheme is related to digital infrastructure and services?",
+    "as": "কোন আঁচনি ডিজিটেল আন্তঃগাঁথনি আৰু সেৱাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Digital India",
+     "as": "ডিজিটেল ইণ্ডিয়া"
+    },
+    {
+     "en": "National Food Security Act",
+     "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন"
+    },
+    {
+     "en": "PM SHRI Schools",
+     "as": "পিএম শ্ৰী বিদ্যালয়"
+    },
+    {
+     "en": "Smart Cities Mission",
+     "as": "স্মাৰ্ট চিটিজ মিছন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Digital India is related to digital infrastructure and services.",
+    "as": "ডিজিটেল ইণ্ডিয়া ডিজিটেল আন্তঃগাঁথনি আৰু সেৱাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-251",
+   "q": {
+    "en": "Make in India is a scheme related to which field?",
+    "as": "মেক ইন ইণ্ডিয়া কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "electricity connections to households",
+     "as": "ঘৰত বিদ্যুৎ সংযোগ"
+    },
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    },
+    {
+     "en": "manufacturing investment",
+     "as": "উৎপাদন বিনিয়োগ"
+    },
+    {
+     "en": "online agricultural marketing",
+     "as": "অনলাইন কৃষি বিপণন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Make in India is a scheme related to manufacturing investment.",
+    "as": "মেক ইন ইণ্ডিয়া উৎপাদন বিনিয়োগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-252",
+   "q": {
+    "en": "Who are the main beneficiaries of Make in India?",
+    "as": "মেক ইন ইণ্ডিয়াৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "industries",
+     "as": "উদ্যোগ"
+    },
+    {
+     "en": "sports goods manufacturers",
+     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদক"
+    },
+    {
+     "en": "unemployed youth",
+     "as": "নিবনুৱা যুৱক-যুৱতী"
+    },
+    {
+     "en": "apprentices",
+     "as": "শিক্ষানবিশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Make in India are industries.",
+    "as": "মেক ইন ইণ্ডিয়াৰ প্ৰধান উপকাৰী উদ্যোগ।"
+   }
+  },
+  {
+   "id": "government-schemes-253",
+   "q": {
+    "en": "In which year was Make in India launched?",
+    "as": "মেক ইন ইণ্ডিয়া কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Make in India was launched in 2014.",
+    "as": "মেক ইন ইণ্ডিয়া 2014 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-254",
+   "q": {
+    "en": "Which scheme is related to manufacturing investment?",
+    "as": "কোন আঁচনি উৎপাদন বিনিয়োগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Awas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা"
+    },
+    {
+     "en": "Make in India",
+     "as": "মেক ইন ইণ্ডিয়া"
+    },
+    {
+     "en": "Pradhan Mantri Krishi Sinchayee Yojana",
+     "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা"
+    },
+    {
+     "en": "Digital Bharat Nidhi",
+     "as": "ডিজিটেল ভাৰত নিধি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Make in India is related to manufacturing investment.",
+    "as": "মেক ইন ইণ্ডিয়া উৎপাদন বিনিয়োগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-255",
+   "q": {
+    "en": "Startup India is a scheme related to which field?",
+    "as": "ষ্টাৰ্টআপ ইণ্ডিয়া কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "free food grain",
+     "as": "বিনামূলীয়া খাদ্য শস্য"
+    },
+    {
+     "en": "welfare and education of the girl child",
+     "as": "কন্যা শিশুৰ কল্যাণ আৰু শিক্ষা"
+    },
+    {
+     "en": "promotion of startups",
+     "as": "ষ্টাৰ্টআপৰ প্ৰচাৰ"
+    },
+    {
+     "en": "loans to micro and small enterprises",
+     "as": "ক্ষুদ্ৰ আৰু সৰু উদ্যোগক ঋণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Startup India is a scheme related to promotion of startups.",
+    "as": "ষ্টাৰ্টআপ ইণ্ডিয়া ষ্টাৰ্টআপৰ প্ৰচাৰৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-256",
+   "q": {
+    "en": "Who are the main beneficiaries of Startup India?",
+    "as": "ষ্টাৰ্টআপ ইণ্ডিয়াৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "poor and needy families",
+     "as": "দৰিদ্ৰ আৰু অভাৱী পৰিয়াল"
+    },
+    {
+     "en": "young entrepreneurs",
+     "as": "যুৱ উদ্যোগী"
+    },
+    {
+     "en": "entrepreneurs",
+     "as": "উদ্যোগী"
+    },
+    {
+     "en": "farmers and traders",
+     "as": "কৃষক আৰু ব্যৱসায়ী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of Startup India are entrepreneurs.",
+    "as": "ষ্টাৰ্টআপ ইণ্ডিয়াৰ প্ৰধান উপকাৰী উদ্যোগী।"
+   }
+  },
+  {
+   "id": "government-schemes-257",
+   "q": {
+    "en": "In which year was Startup India launched?",
+    "as": "ষ্টাৰ্টআপ ইণ্ডিয়া কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Startup India was launched in 2016.",
+    "as": "ষ্টাৰ্টআপ ইণ্ডিয়া 2016 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-258",
+   "q": {
+    "en": "Which scheme is related to promotion of startups?",
+    "as": "কোন আঁচনি ষ্টাৰ্টআপৰ প্ৰচাৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Saubhagya",
+     "as": "সৌভাগ্য"
+    },
+    {
+     "en": "Vibrant Villages Programme",
+     "as": "ব্ৰান্ত গাঁও কাৰ্যসূচী"
+    },
+    {
+     "en": "Startup India",
+     "as": "ষ্টাৰ্টআপ ইণ্ডিয়া"
+    },
+    {
+     "en": "Kisan Credit Card",
+     "as": "কিষাণ ক্ৰেডিট কাৰ্ড"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Startup India is related to promotion of startups.",
+    "as": "ষ্টাৰ্টআপ ইণ্ডিয়া ষ্টাৰ্টআপৰ প্ৰচাৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-259",
+   "q": {
+    "en": "Skill India Mission is a scheme related to which field?",
+    "as": "দক্ষ ভাৰত মিছন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "online agricultural marketing",
+     "as": "অনলাইন কৃষি বিপণন"
+    },
+    {
+     "en": "free admission and scholarships for students",
+     "as": "শিক্ষাৰ্থীৰ বিনামূলীয়া নামভৰ্তি আৰু জলপানি"
+    },
+    {
+     "en": "skill development",
+     "as": "দক্ষতা উন্নয়ন"
+    },
+    {
+     "en": "self-employment through micro enterprises",
+     "as": "ক্ষুদ্ৰ উদ্যোগৰ জৰিয়তে আত্মনিয়োগ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Skill India Mission is a scheme related to skill development.",
+    "as": "দক্ষ ভাৰত মিছন দক্ষতা উন্নয়নৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-260",
+   "q": {
+    "en": "Who are the main beneficiaries of Skill India Mission?",
+    "as": "দক্ষ ভাৰত মিছনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "girl students",
+     "as": "ছাত্ৰী"
+    },
+    {
+     "en": "farmers and traders",
+     "as": "কৃষক আৰু ব্যৱসায়ী"
+    },
+    {
+     "en": "defence startups",
+     "as": "প্ৰতিৰক্ষা ষ্টাৰ্টআপ"
+    },
+    {
+     "en": "youth",
+     "as": "যুৱক-যুৱতী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Skill India Mission are youth.",
+    "as": "দক্ষ ভাৰত মিছনৰ প্ৰধান উপকাৰী যুৱক-যুৱতী।"
+   }
+  },
+  {
+   "id": "government-schemes-261",
+   "q": {
+    "en": "In which year was Skill India Mission launched?",
+    "as": "দক্ষ ভাৰত মিছন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Skill India Mission was launched in 2015.",
+    "as": "দক্ষ ভাৰত মিছন 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-262",
+   "q": {
+    "en": "Which scheme is related to skill development?",
+    "as": "কোন আঁচনি দক্ষতা উন্নয়নৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Viksit Gram Swaraj Yojana",
+     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+    },
+    {
+     "en": "Rashtriya Uchchatar Shiksha Abhiyan",
+     "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযান"
+    },
+    {
+     "en": "Skill India Mission",
+     "as": "দক্ষ ভাৰত মিছন"
+    },
+    {
+     "en": "Pradhan Mantri Awas Yojana",
+     "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Skill India Mission is related to skill development.",
+    "as": "দক্ষ ভাৰত মিছন দক্ষতা উন্নয়নৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-263",
+   "q": {
+    "en": "PM SHRI Schools is a scheme related to which field?",
+    "as": "পিএম শ্ৰী বিদ্যালয় কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "model schools",
+     "as": "আদৰ্শ বিদ্যালয়"
+    },
+    {
+     "en": "multimodal infrastructure",
+     "as": "বহুমুখী আন্তঃগাঁথনি"
+    },
+    {
+     "en": "self-employment for youth",
+     "as": "যুৱক-যুৱতীৰ আত্মনিয়োগ"
+    },
+    {
+     "en": "promotion of tourism",
+     "as": "পৰ্যটনৰ প্ৰচাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM SHRI Schools is a scheme related to model schools.",
+    "as": "পিএম শ্ৰী বিদ্যালয় আদৰ্শ বিদ্যালয়ৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-264",
+   "q": {
+    "en": "Who are the main beneficiaries of PM SHRI Schools?",
+    "as": "পিএম শ্ৰী বিদ্যালয়ৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "tea garden workers",
+     "as": "চাহ বাগানৰ কৰ্মী"
+    },
+    {
+     "en": "poor and vulnerable families",
+     "as": "দৰিদ্ৰ আৰু দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "school students",
+     "as": "বিদ্যালয়ৰ শিক্ষাৰ্থী"
+    },
+    {
+     "en": "farmers",
+     "as": "কৃষক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of PM SHRI Schools are school students.",
+    "as": "পিএম শ্ৰী বিদ্যালয়ৰ প্ৰধান উপকাৰী বিদ্যালয়ৰ শিক্ষাৰ্থী।"
+   }
+  },
+  {
+   "id": "government-schemes-265",
+   "q": {
+    "en": "In which year was PM SHRI Schools launched?",
+    "as": "পিএম শ্ৰী বিদ্যালয় কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "PM SHRI Schools was launched in 2022.",
+    "as": "পিএম শ্ৰী বিদ্যালয় 2022 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-266",
+   "q": {
+    "en": "Which scheme is related to model schools?",
+    "as": "কোন আঁচনি আদৰ্শ বিদ্যালয়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Kisan Samman Nidhi",
+     "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি"
+    },
+    {
+     "en": "Bhasha Gaurav",
+     "as": "ভাষা গৌৰৱ"
+    },
+    {
+     "en": "PM SHRI Schools",
+     "as": "পিএম শ্ৰী বিদ্যালয়"
+    },
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "PM SHRI Schools is related to model schools.",
+    "as": "পিএম শ্ৰী বিদ্যালয় আদৰ্শ বিদ্যালয়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-267",
+   "q": {
+    "en": "National Apprenticeship Promotion Scheme is a scheme related to which field?",
+    "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "financial help for medical treatment",
+     "as": "চিকিৎসাৰ বাবে আৰ্থিক সহায়"
+    },
+    {
+     "en": "sanitation and cleanliness",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্নতা"
+    },
+    {
+     "en": "apprenticeship training",
+     "as": "শিক্ষানবিশ প্ৰশিক্ষণ"
+    },
+    {
+     "en": "financial inclusion and bank accounts",
+     "as": "বিত্তীয় অন্তৰ্ভুক্তি আৰু বেংক একাউণ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "National Apprenticeship Promotion Scheme is a scheme related to apprenticeship training.",
+    "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি শিক্ষানবিশ প্ৰশিক্ষণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-268",
+   "q": {
+    "en": "Who are the main beneficiaries of National Apprenticeship Promotion Scheme?",
+    "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "tourists and tourism workers",
+     "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+    },
+    {
+     "en": "apprentices",
+     "as": "শিক্ষানবিশ"
+    },
+    {
+     "en": "school students",
+     "as": "বিদ্যালয়ৰ শিক্ষাৰ্থী"
+    },
+    {
+     "en": "infrastructure sectors",
+     "as": "আন্তঃগাঁথনি খণ্ড"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of National Apprenticeship Promotion Scheme are apprentices.",
+    "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনিৰ প্ৰধান উপকাৰী শিক্ষানবিশ।"
+   }
+  },
+  {
+   "id": "government-schemes-269",
+   "q": {
+    "en": "In which year was National Apprenticeship Promotion Scheme launched?",
+    "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2005",
+     "as": "২০০৫"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "National Apprenticeship Promotion Scheme was launched in 2016.",
+    "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি 2016 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-270",
+   "q": {
+    "en": "Which scheme is related to apprenticeship training?",
+    "as": "কোন আঁচনি শিক্ষানবিশ প্ৰশিক্ষণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "National Apprenticeship Promotion Scheme",
+     "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি"
+    },
+    {
+     "en": "Nijut Moina",
+     "as": "নিজুত মইনা"
+    },
+    {
+     "en": "Startup India",
+     "as": "ষ্টাৰ্টআপ ইণ্ডিয়া"
+    },
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "National Apprenticeship Promotion Scheme is related to apprenticeship training.",
+    "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি শিক্ষানবিশ প্ৰশিক্ষণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-271",
+   "q": {
+    "en": "PM e-VIDYA is a scheme related to which field?",
+    "as": "পিএম ই-বিদ্যা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "digital education",
+     "as": "ডিজিটেল শিক্ষা"
+    },
+    {
+     "en": "working capital to street vendors",
+     "as": "পথ বিক্ৰেতাক কাৰ্যবাহী মূলধন"
+    },
+    {
+     "en": "self-employment for youth",
+     "as": "যুৱক-যুৱতীৰ আত্মনিয়োগ"
+    },
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM e-VIDYA is a scheme related to digital education.",
+    "as": "পিএম ই-বিদ্যা ডিজিটেল শিক্ষাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-272",
+   "q": {
+    "en": "Who are the main beneficiaries of PM e-VIDYA?",
+    "as": "পিএম ই-বিদ্যাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "students",
+     "as": "শিক্ষাৰ্থী"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of PM e-VIDYA are students.",
+    "as": "পিএম ই-বিদ্যাৰ প্ৰধান উপকাৰী শিক্ষাৰ্থী।"
+   }
+  },
+  {
+   "id": "government-schemes-273",
+   "q": {
+    "en": "In which year was PM e-VIDYA launched?",
+    "as": "পিএম ই-বিদ্যা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "PM e-VIDYA was launched in 2020.",
+    "as": "পিএম ই-বিদ্যা 2020 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-274",
+   "q": {
+    "en": "Which scheme is related to digital education?",
+    "as": "কোন আঁচনি ডিজিটেল শিক্ষাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "PM e-VIDYA",
+     "as": "পিএম ই-বিদ্যা"
+    },
+    {
+     "en": "Pradhan Mantri Matru Vandana Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনা"
+    },
+    {
+     "en": "Saubhagya",
+     "as": "সৌভাগ্য"
+    },
+    {
+     "en": "Production Linked Incentive",
+     "as": "প্ৰডাকচন লিংকড ইনচেণ্টিভ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "PM e-VIDYA is related to digital education.",
+    "as": "পিএম ই-বিদ্যা ডিজিটেল শিক্ষাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-275",
+   "q": {
+    "en": "Rashtriya Uchchatar Shiksha Abhiyan is a scheme related to which field?",
+    "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযান কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "accident insurance",
+     "as": "দুৰ্ঘটনা বীমা"
+    },
+    {
+     "en": "higher education",
+     "as": "উচ্চ শিক্ষা"
+    },
+    {
+     "en": "land records and revenue services",
+     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+    },
+    {
+     "en": "multimodal infrastructure",
+     "as": "বহুমুখী আন্তঃগাঁথনি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rashtriya Uchchatar Shiksha Abhiyan is a scheme related to higher education.",
+    "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযান উচ্চ শিক্ষাৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-276",
+   "q": {
+    "en": "Who are the main beneficiaries of Rashtriya Uchchatar Shiksha Abhiyan?",
+    "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযানৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "tea garden workers",
+     "as": "চাহ বাগানৰ কৰ্মী"
+    },
+    {
+     "en": "entrepreneurs",
+     "as": "উদ্যোগী"
+    },
+    {
+     "en": "students",
+     "as": "শিক্ষাৰ্থী"
+    },
+    {
+     "en": "colleges and universities",
+     "as": "মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Rashtriya Uchchatar Shiksha Abhiyan are colleges and universities.",
+    "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযানৰ প্ৰধান উপকাৰী মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়।"
+   }
+  },
+  {
+   "id": "government-schemes-277",
+   "q": {
+    "en": "In which year was Rashtriya Uchchatar Shiksha Abhiyan launched?",
+    "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযান কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2013",
+     "as": "২০১৩"
+    },
+    {
+     "en": "2026",
+     "as": "২০২৬"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rashtriya Uchchatar Shiksha Abhiyan was launched in 2013.",
+    "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযান 2013 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-278",
+   "q": {
+    "en": "Which scheme is related to higher education?",
+    "as": "কোন আঁচনি উচ্চ শিক্ষাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pragyan Bharati",
+     "as": "প্ৰজ্ঞান ভাৰতী"
+    },
+    {
+     "en": "Rashtriya Uchchatar Shiksha Abhiyan",
+     "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযান"
+    },
+    {
+     "en": "Mission Saksham",
+     "as": "মিচন সক্ষম"
+    },
+    {
+     "en": "Viksit Gram Swaraj Yojana",
+     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rashtriya Uchchatar Shiksha Abhiyan is related to higher education.",
+    "as": "ৰাষ্ট্ৰীয় উচ্চতৰ শিক্ষা অভিযান উচ্চ শিক্ষাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-279",
+   "q": {
+    "en": "AMRUT is a scheme related to which field?",
+    "as": "অমৃত কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "urban infrastructure",
+     "as": "চহৰীয়া আন্তঃগাঁথনি"
+    },
+    {
+     "en": "award of computers to meritorious students",
+     "as": "মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদান"
+    },
+    {
+     "en": "groundwater management",
+     "as": "ভূগৰ্ভস্থ জল ব্যৱস্থাপনা"
+    },
+    {
+     "en": "LPG connections to migrant families",
+     "as": "প্ৰব্ৰজনকাৰী পৰিয়ালক এলপিজি সংযোগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "AMRUT is a scheme related to urban infrastructure.",
+    "as": "অমৃত চহৰীয়া আন্তঃগাঁথনিৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-280",
+   "q": {
+    "en": "Who are the main beneficiaries of AMRUT?",
+    "as": "অমৃতৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "youth",
+     "as": "যুৱক-যুৱতী"
+    },
+    {
+     "en": "senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিক"
+    },
+    {
+     "en": "urban residents",
+     "as": "চহৰীয়া বাসিন্দা"
+    },
+    {
+     "en": "industries",
+     "as": "উদ্যোগ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The main beneficiaries of AMRUT are urban residents.",
+    "as": "অমৃতৰ প্ৰধান উপকাৰী চহৰীয়া বাসিন্দা।"
+   }
+  },
+  {
+   "id": "government-schemes-281",
+   "q": {
+    "en": "In which year was AMRUT launched?",
+    "as": "অমৃত কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    },
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2004",
+     "as": "২০০৪"
+    },
+    {
+     "en": "2000",
+     "as": "২০০০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "AMRUT was launched in 2015.",
+    "as": "অমৃত 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-282",
+   "q": {
+    "en": "Which scheme is related to urban infrastructure?",
+    "as": "কোন আঁচনি চহৰীয়া আন্তঃগাঁথনিৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Assam Skill Development Mission",
+     "as": "অসম দক্ষতা উন্নয়ন মিছন"
+    },
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    },
+    {
+     "en": "AMRUT",
+     "as": "অমৃত"
+    },
+    {
+     "en": "Pradhan Mantri Jan Dhan Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "AMRUT is related to urban infrastructure.",
+    "as": "অমৃত চহৰীয়া আন্তঃগাঁথনিৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-283",
+   "q": {
+    "en": "Smart Cities Mission is a scheme related to which field?",
+    "as": "স্মাৰ্ট চিটিজ মিছন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "urban development",
+     "as": "চহৰ উন্নয়ন"
+    },
+    {
+     "en": "incentives to boost manufacturing",
+     "as": "উৎপাদন বৃদ্ধিৰ প্ৰণোদনা"
+    },
+    {
+     "en": "award of computers to meritorious students",
+     "as": "মেধাৱী শিক্ষাৰ্থীক কম্পিউটাৰ প্ৰদান"
+    },
+    {
+     "en": "support to tea garden workers and industry",
+     "as": "চাহ বাগান কৰ্মী আৰু উদ্যোগক সহায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Smart Cities Mission is a scheme related to urban development.",
+    "as": "স্মাৰ্ট চিটিজ মিছন চহৰ উন্নয়নৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-284",
+   "q": {
+    "en": "Who are the main beneficiaries of Smart Cities Mission?",
+    "as": "স্মাৰ্ট চিটিজ মিছনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিক"
+    },
+    {
+     "en": "girl students of higher secondary and above",
+     "as": "উচ্চতৰ মাধ্যমিক আৰু তাৰ ওপৰৰ ছাত্ৰী"
+    },
+    {
+     "en": "tourists and tourism workers",
+     "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+    },
+    {
+     "en": "city residents",
+     "as": "চহৰৰ বাসিন্দা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The main beneficiaries of Smart Cities Mission are city residents.",
+    "as": "স্মাৰ্ট চিটিজ মিছনৰ প্ৰধান উপকাৰী চহৰৰ বাসিন্দা।"
+   }
+  },
+  {
+   "id": "government-schemes-285",
+   "q": {
+    "en": "In which year was Smart Cities Mission launched?",
+    "as": "স্মাৰ্ট চিটিজ মিছন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Smart Cities Mission was launched in 2015.",
+    "as": "স্মাৰ্ট চিটিজ মিছন 2015 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-286",
+   "q": {
+    "en": "Which scheme is related to urban development?",
+    "as": "কোন আঁচনি চহৰ উন্নয়নৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "e-NAM",
+     "as": "ই-নাম"
+    },
+    {
+     "en": "Smart Cities Mission",
+     "as": "স্মাৰ্ট চিটিজ মিছন"
+    },
+    {
+     "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana",
+     "as": "মুখ্যমন্ত্ৰী কৃষি সা-সঁজুলি যোজনা"
+    },
+    {
+     "en": "National Apprenticeship Promotion Scheme",
+     "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Smart Cities Mission is related to urban development.",
+    "as": "স্মাৰ্ট চিটিজ মিছন চহৰ উন্নয়নৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-287",
+   "q": {
+    "en": "Pradhan Mantri Gram Sadak Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "investment in gold bonds",
+     "as": "স্বৰ্ণ বণ্ডত বিনিয়োগ"
+    },
+    {
+     "en": "income support to farmers",
+     "as": "কৃষকক আয় সহায়"
+    },
+    {
+     "en": "rural roads",
+     "as": "গ্ৰাম্য পথ"
+    },
+    {
+     "en": "infrastructure development in the north-east",
+     "as": "উত্তৰ-পূবত আন্তঃগাঁথনি উন্নয়ন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pradhan Mantri Gram Sadak Yojana is a scheme related to rural roads.",
+    "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা গ্ৰাম্য পথৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-288",
+   "q": {
+    "en": "Who are the main beneficiaries of Pradhan Mantri Gram Sadak Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনাৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "rural villages",
+     "as": "গ্ৰাম্য গাঁও"
+    },
+    {
+     "en": "small and marginal farmers",
+     "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+    },
+    {
+     "en": "poor families",
+     "as": "দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "citizens",
+     "as": "নাগৰিক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Pradhan Mantri Gram Sadak Yojana are rural villages.",
+    "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনাৰ প্ৰধান উপকাৰী গ্ৰাম্য গাঁও।"
+   }
+  },
+  {
+   "id": "government-schemes-289",
+   "q": {
+    "en": "In which year was Pradhan Mantri Gram Sadak Yojana launched?",
+    "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2000",
+     "as": "২০০০"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pradhan Mantri Gram Sadak Yojana was launched in 2000.",
+    "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা 2000 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-290",
+   "q": {
+    "en": "Which scheme is related to rural roads?",
+    "as": "কোন আঁচনি গ্ৰাম্য পথৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Senior Citizens' Savings Scheme",
+     "as": "জ্যেষ্ঠ নাগৰিক সঞ্চয় আঁচনি"
+    },
+    {
+     "en": "Pradhan Mantri Gram Sadak Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা"
+    },
+    {
+     "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+    },
+    {
+     "en": "Assam Micro Finance Incentive and Relief Scheme",
+     "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pradhan Mantri Gram Sadak Yojana is related to rural roads.",
+    "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা গ্ৰাম্য পথৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-291",
+   "q": {
+    "en": "Saubhagya is a scheme related to which field?",
+    "as": "সৌভাগ্য কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "electricity connections to households",
+     "as": "ঘৰত বিদ্যুৎ সংযোগ"
+    },
+    {
+     "en": "nutrition for women and children",
+     "as": "মহিলা আৰু শিশুৰ পুষ্টি"
+    },
+    {
+     "en": "promotion of Assamese and other local languages",
+     "as": "অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰ"
+    },
+    {
+     "en": "urban infrastructure",
+     "as": "চহৰীয়া আন্তঃগাঁথনি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Saubhagya is a scheme related to electricity connections to households.",
+    "as": "সৌভাগ্য ঘৰত বিদ্যুৎ সংযোগৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-292",
+   "q": {
+    "en": "Who are the main beneficiaries of Saubhagya?",
+    "as": "সৌভাগ্যৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "pregnant and lactating women",
+     "as": "গৰ্ভৱতী আৰু প্ৰসূতি মহিলা"
+    },
+    {
+     "en": "rural and poor households",
+     "as": "গ্ৰাম্য আৰু দৰিদ্ৰ পৰিয়াল"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "employers and insured persons",
+     "as": "নিয়োগকৰ্তা আৰু বীমাকৃত ব্যক্তি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The main beneficiaries of Saubhagya are rural and poor households.",
+    "as": "সৌভাগ্যৰ প্ৰধান উপকাৰী গ্ৰাম্য আৰু দৰিদ্ৰ পৰিয়াল।"
+   }
+  },
+  {
+   "id": "government-schemes-293",
+   "q": {
+    "en": "In which year was Saubhagya launched?",
+    "as": "সৌভাগ্য কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "settlement of pending ESI disputes",
+     "as": "বিচাৰাধীন ইএছআই বিবাদৰ নিষ্পত্তি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Saubhagya was launched in 2017.",
+    "as": "সৌভাগ্য 2017 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-294",
+   "q": {
+    "en": "Which scheme is related to electricity connections to households?",
+    "as": "কোন আঁচনি ঘৰত বিদ্যুৎ সংযোগৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "PM SVANidhi",
+     "as": "পিএম স্বনিধি"
+    },
+    {
+     "en": "Saubhagya",
+     "as": "সৌভাগ্য"
+    },
+    {
+     "en": "Pradhan Mantri Mudra Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনা"
+    },
+    {
+     "en": "Kisan Credit Card",
+     "as": "কিষাণ ক্ৰেডিট কাৰ্ড"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Saubhagya is related to electricity connections to households.",
+    "as": "সৌভাগ্য ঘৰত বিদ্যুৎ সংযোগৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-295",
+   "q": {
+    "en": "Assam Skill Development Mission is a scheme related to which field?",
+    "as": "অসম দক্ষতা উন্নয়ন মিছন কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "skill training in Assam",
+     "as": "অসমত দক্ষতা প্ৰশিক্ষণ"
+    },
+    {
+     "en": "free LPG connections",
+     "as": "বিনামূলীয়া এলপিজি সংযোগ"
+    },
+    {
+     "en": "model schools",
+     "as": "আদৰ্শ বিদ্যালয়"
+    },
+    {
+     "en": "promotion of Assamese and other local languages",
+     "as": "অসমীয়া আৰু অন্যান্য স্থানীয় ভাষাৰ প্ৰচাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam Skill Development Mission is a scheme related to skill training in Assam.",
+    "as": "অসম দক্ষতা উন্নয়ন মিছন অসমত দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-296",
+   "q": {
+    "en": "Who are the main beneficiaries of Assam Skill Development Mission?",
+    "as": "অসম দক্ষতা উন্নয়ন মিছনৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "youth of Assam",
+     "as": "অসমৰ যুৱক-যুৱতী"
+    },
+    {
+     "en": "tourists and tourism workers",
+     "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+    },
+    {
+     "en": "poor patients",
+     "as": "দৰিদ্ৰ ৰোগী"
+    },
+    {
+     "en": "women of poor households",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ মহিলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Assam Skill Development Mission are youth of Assam.",
+    "as": "অসম দক্ষতা উন্নয়ন মিছনৰ প্ৰধান উপকাৰী অসমৰ যুৱক-যুৱতী।"
+   }
+  },
+  {
+   "id": "government-schemes-297",
+   "q": {
+    "en": "In which year was Assam Skill Development Mission launched?",
+    "as": "অসম দক্ষতা উন্নয়ন মিছন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Skill Development Mission was launched in 2017.",
+    "as": "অসম দক্ষতা উন্নয়ন মিছন 2017 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-298",
+   "q": {
+    "en": "Which scheme is related to skill training in Assam?",
+    "as": "কোন আঁচনি অসমত দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Startup India",
+     "as": "ষ্টাৰ্টআপ ইণ্ডিয়া"
+    },
+    {
+     "en": "Assam Skill Development Mission",
+     "as": "অসম দক্ষতা উন্নয়ন মিছন"
+    },
+    {
+     "en": "Saubhagya",
+     "as": "সৌভাগ্য"
+    },
+    {
+     "en": "Pradhan Mantri Gram Sadak Yojana",
+     "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assam Skill Development Mission is related to skill training in Assam.",
+    "as": "অসম দক্ষতা উন্নয়ন মিছন অসমত দক্ষতা প্ৰশিক্ষণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "government-schemes-299",
+   "q": {
+    "en": "Mission Saksham is a scheme related to which field?",
+    "as": "মিচন সক্ষম কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+   },
+   "options": [
+    {
+     "en": "online agricultural marketing",
+     "as": "অনলাইন কৃষি বিপণন"
+    },
+    {
+     "en": "relief to micro finance borrowers",
+     "as": "মাইক্ৰ' ফাইনেন্স ঋণগ্ৰহীতাক ৰেহাই"
+    },
+    {
+     "en": "assessment of school education quality",
+     "as": "বিদ্যালয় শিক্ষাৰ গুণাগুণ মূল্যাঙ্কন"
+    },
+    {
+     "en": "health insurance for poor families",
+     "as": "দৰিদ্ৰ পৰিয়ালৰ স্বাস্থ্য বীমা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mission Saksham is a scheme related to assessment of school education quality.",
+    "as": "মিচন সক্ষম বিদ্যালয় শিক্ষাৰ গুণাগুণ মূল্যাঙ্কনৰ সৈতে জড়িত এটা আঁচনি।"
+   }
+  },
+  {
+   "id": "government-schemes-300",
+   "q": {
+    "en": "Who are the main beneficiaries of Mission Saksham?",
+    "as": "মিচন সক্ষমৰ প্ৰধান উপকাৰী কোন?"
+   },
+   "options": [
+    {
+     "en": "school students of Assam",
+     "as": "অসমৰ বিদ্যালয়ৰ শিক্ষাৰ্থী"
+    },
+    {
+     "en": "economically weaker families",
+     "as": "অৰ্থনৈতিকভাৱে দুৰ্বল পৰিয়াল"
+    },
+    {
+     "en": "rural households",
+     "as": "গ্ৰাম্য পৰিয়াল"
+    },
+    {
+     "en": "unorganised sector workers",
+     "as": "অসংগঠিত খণ্ডৰ কৰ্মী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The main beneficiaries of Mission Saksham are school students of Assam.",
+    "as": "মিচন সক্ষমৰ প্ৰধান উপকাৰী অসমৰ বিদ্যালয়ৰ শিক্ষাৰ্থী।"
+   }
+  },
+  {
+   "id": "government-schemes-301",
+   "q": {
+    "en": "In which year was Mission Saksham launched?",
+    "as": "মিচন সক্ষম কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
+     "en": "2025",
+     "as": "২০২৫"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mission Saksham was launched in 2025.",
+    "as": "মিচন সক্ষম 2025 চনত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "government-schemes-302",
+   "q": {
+    "en": "Which scheme is related to assessment of school education quality?",
+    "as": "কোন আঁচনি বিদ্যালয় শিক্ষাৰ গুণাগুণ মূল্যাঙ্কনৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা"
+    },
+    {
+     "en": "Mission Saksham",
+     "as": "মিচন সক্ষম"
+    },
+    {
+     "en": "Assam Skill Development Mission",
+     "as": "অসম দক্ষতা উন্নয়ন মিছন"
+    },
+    {
+     "en": "Pradhan Mantri Krishi Sinchayee Yojana",
+     "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mission Saksham is related to assessment of school education quality.",
+    "as": "মিচন সক্ষম বিদ্যালয় শিক্ষাৰ গুণাগুণ মূল্যাঙ্কনৰ সৈতে জড়িত।"
+   }
+  }
  ]
 };
