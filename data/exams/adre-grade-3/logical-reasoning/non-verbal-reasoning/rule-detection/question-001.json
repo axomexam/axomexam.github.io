@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rule-detection-001",
+    "q": {
+      "en": "Rule: the letters of the group must be in alphabetical order. Which option follows the rule?",
+      "as": "নিয়ম: দলটোৰ আখৰবোৰ বৰ্ণমালাৰ ক্ৰমত থাকিব লাগে। কোনটো বিকল্পই নিয়ম মানি চলে?"
+    },
+    "options": [
+      {
+        "en": "BDEF",
+        "as": "BDEF"
+      },
+      {
+        "en": "BDAF",
+        "as": "BDAF"
+      },
+      {
+        "en": "DBFE",
+        "as": "DBFE"
+      },
+      {
+        "en": "FEDB",
+        "as": "FEDB"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only B, D, E, F are in increasing alphabetical order; the others are out of order.",
+      "as": "কেৱল B, D, E, F বৰ্ণমালাৰ বঢ়া ক্ৰমত আছে; আনবোৰৰ ক্ৰম ভুল।"
+    }
+  },
+  {
+    "id": "rule-detection-002",
+    "q": {
+      "en": "Rule: the number must be divisible by 5. Which option follows the rule?",
+      "as": "নিয়ম: সংখ্যাটো 5 ৰে বিভাজ্য হ'ব লাগে। কোনটো বিকল্পই নিয়ম মানি চলে?"
+    },
+    "options": [
+      {
+        "en": "123",
+        "as": "১২৩"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A number is divisible by 5 only if its last digit is 0 or 5, and only 125 ends in 5.",
+      "as": "শেষ অংক 0 বা 5 হ'লেহে সংখ্যা 5 ৰে বিভাজ্য, আৰু কেৱল 125 ৰ শেষত 5 আছে।"
+    }
+  }
+]

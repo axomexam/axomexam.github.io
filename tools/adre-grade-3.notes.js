@@ -1299,4 +1299,292 @@ module.exports = {
       a: { en: "Read the headings, note exactly which numbers the question needs, and only then do the arithmetic of percentage, average or ratio.", as: "শিৰোনাম পঢ়ক, প্ৰশ্নই কোনবোৰ সংখ্যা বিচাৰে সেয়া টুকি লওক, আৰু তাৰ পিছতহে শতাংশ, গড় বা অনুপাতৰ গণনা কৰক।" } }
   ]
 },
+
+"alpha-numeric-series": {
+  h2: { en: "Alpha-Numeric Series", as: "বৰ্ণ আৰু সংখ্যাৰ মিশ্ৰিত শৃংখলা" },
+  p: {
+    en: ["An alpha-numeric series mixes letters and numbers in one sequence, and the question asks for the term that comes next or for the term at a stated position. The method is to separate the two threads. Read the letters alone and find their rule, then read the numbers alone and find their rule. When the two rules are known, the missing term is written by placing the next letter beside the next number.", "The letters usually move by a fixed step in the alphabet, forward or backward, and the step may grow by one each time. The numbers usually follow a pattern of addition, subtraction, multiplication or a square or cube sequence. In a series such as A1, C4, E9, G16 the letters advance by two and the numbers are the squares of the letter positions. Reading the position value of a letter, A as one and B as two, turns most such questions into simple arithmetic."],
+    as: ["এটা বৰ্ণ-সংখ্যা মিশ্ৰিত শৃংখলাত আখৰ আৰু সংখ্যা একেটা ক্ৰমত মিলাই দিয়া থাকে, আৰু প্ৰশ্নই পিছৰ পদটো বা নিৰ্দিষ্ট স্থানৰ পদটো সোধে। পদ্ধতিটো হ'ল দুটা সূত্ৰ বেলেগ কৰা। প্ৰথমে কেৱল আখৰবোৰ পঢ়ি তাৰ নিয়ম বিচাৰক, তাৰ পিছত কেৱল সংখ্যাবোৰ পঢ়ি তাৰ নিয়ম বিচাৰক। দুয়োটা নিয়ম জনা হ'লে পিছৰ আখৰটো পিছৰ সংখ্যাটোৰ কাষত লিখি নোহোৱা পদটো পোৱা যায়।", "আখৰবোৰ সাধাৰণতে বৰ্ণমালাত এটা নিৰ্দিষ্ট খোজত আগলৈ বা পিছলৈ যায়, আৰু খোজটো প্ৰতিবাৰ একেৰে বাঢ়িবও পাৰে। সংখ্যাবোৰ সাধাৰণতে যোগ, বিয়োগ, পূৰণ বা বৰ্গ-ঘনৰ ক্ৰম অনুসৰি চলে। A1, C4, E9, G16 দৰে শৃংখলাত আখৰ দুটাকৈ আগবাঢ়ে আৰু সংখ্যাবোৰ আখৰৰ স্থানৰ বৰ্গ। আখৰৰ স্থানীয় মান ধৰিলে (A এ এক, B এ দুই) এনে প্ৰায় প্ৰতিটো প্ৰশ্ন সহজ পাটিগণিতলৈ ৰূপান্তৰ হয়।"]
+  },
+  list: {
+    en: ["Separate the letters and the numbers before looking for a rule.", "Convert letters to their position numbers to see the pattern clearly.", "A letter step may be constant or may grow by one each term.", "Check the answer by placing it back into the series."],
+    as: ["নিয়ম বিচাৰিবলৈ যোৱাৰ আগতে আখৰ আৰু সংখ্যা বেলেগ কৰক।", "আৰ্হিটো স্পষ্টকৈ দেখিবলৈ আখৰবোৰক স্থানীয় সংখ্যালৈ ৰূপান্তৰ কৰক।", "আখৰৰ খোজ স্থিৰ হ'ব পাৰে বা প্ৰতিবাৰ একেৰে বাঢ়িব পাৰে।", "উত্তৰটো শৃংখলাত আকৌ বহুৱাই পৰীক্ষা কৰক।"]
+  },
+  faqs: [
+    { q: { en: "How do I solve a mixed series quickly?", as: "মিশ্ৰিত শৃংখলা কেনেকৈ দ্ৰুতভাৱে সমাধান কৰোঁ?" },
+      a: { en: "Split it into a letter series and a number series, find each rule separately, and then combine the two answers.", as: "ইয়াক এটা আখৰ শৃংখলা আৰু এটা সংখ্যা শৃংখলাত ভাগ কৰক, প্ৰতিটো নিয়ম বেলেগে বিচাৰক, আৰু তাৰ পিছত দুয়োটা উত্তৰ একেলগ কৰক।" } }
+  ]
+},
+
+"alphabet-test-word-formation": {
+  h2: { en: "Alphabet Test & Word Formation", as: "বৰ্ণমালা পৰীক্ষা আৰু শব্দ গঠন" },
+  p: {
+    en: ["The alphabet test asks for the position of a letter in the alphabet, the letter that lies between two given letters, or the letter that comes a fixed number of steps before or after another. The English alphabet has twenty-six letters, and a candidate who can write the position number of every letter quickly will save a great deal of time. Letters from A to M lie in the first half and N to Z in the second, which makes the middle letter easy to find.", "Word formation asks whether a given word can be made from the letters of another word, or how many meaningful words can be formed from a set of letters, or the dictionary order of a group of words. In dictionary order the words are arranged as a dictionary arranges them, comparing the first letter, then the second, and so on. This is also called the alphabetical order test."],
+    as: ["বৰ্ণমালা পৰীক্ষাই বৰ্ণমালাত আখৰ এটাৰ স্থান, দুটা আখৰৰ মাজত থকা আখৰ, বা আন এটা আখৰৰ পৰা নিৰ্দিষ্ট সংখ্যক খোজ আগত বা পিছত থকা আখৰ সোধে। ইংৰাজী বৰ্ণমালাত ছাব্বিশটা আখৰ আছে, আৰু যি প্ৰাৰ্থীয়ে প্ৰতিটো আখৰৰ স্থানীয় সংখ্যা দ্ৰুতকৈ লিখিব পাৰে তেওঁ বহু সময় সাঁচিব। A ৰ পৰা M লৈ প্ৰথম আধাত আৰু N ৰ পৰা Z লৈ দ্বিতীয় আধাত থাকে, যাৰ ফলত মাজৰ আখৰটো সহজে পোৱা যায়।", "শব্দ গঠনে সোধে এটা দিয়া শব্দ আন এটা শব্দৰ আখৰৰ পৰা বনাব পাৰি নেকি, এটা আখৰৰ সমষ্টিৰ পৰা কিমানটা অৰ্থপূৰ্ণ শব্দ বনাব পাৰি, বা শব্দ এটা দলৰ অভিধানৰ ক্ৰম। অভিধানৰ ক্ৰমত শব্দবোৰ অভিধানৰ দৰে সজোৱা হয়, প্ৰথমে প্ৰথম আখৰ, তাৰ পিছত দ্বিতীয়টো, এইদৰে তুলনা কৰি। ইয়াক বৰ্ণমালাৰ ক্ৰম পৰীক্ষাও বোলা হয়।"]
+  },
+  list: {
+    en: ["Write the position number of each letter from A to Z.", "For a between question, add the two positions and halve the result.", "A word can be formed only if every letter it needs is available.", "For dictionary order, compare letters one by one from the left."],
+    as: ["A ৰ পৰা Z লৈ প্ৰতিটো আখৰৰ স্থানীয় সংখ্যা লিখি লওক।", "মাজৰ আখৰ সোধা প্ৰশ্নত দুয়োটা স্থান যোগ কৰি আধা কৰক।", "যি শব্দৰ যি আখৰবোৰ লাগে সেইবোৰ উপলব্ধ হ'লেহে শব্দ গঠন হ'ব পাৰে।", "অভিধানৰ ক্ৰমৰ বাবে বাওঁফালৰ পৰা আখৰবোৰ এটা এটাকৈ তুলনা কৰক।"]
+  },
+  faqs: [
+    { q: { en: "What is the quickest way to find the middle letter between two letters?", as: "দুটা আখৰৰ মাজৰ আখৰ আটাইতকৈ দ্ৰুতকৈ কেনেকৈ বিচাৰি পাম?" },
+      a: { en: "Add the two position numbers, divide by two, and read the letter at that position.", as: "দুয়োটা স্থানীয় সংখ্যা যোগ কৰি দুইৰে হৰণ কৰক, আৰু সেই স্থানৰ আখৰটো পঢ়ক।" } }
+  ]
+},
+
+"data-sufficiency": {
+  h2: { en: "Data Sufficiency", as: "তথ্য পৰ্যাপ্ততা" },
+  p: {
+    en: ["In data sufficiency the question is not answered; only the sufficiency of the given data is judged. A question is followed by two statements, and the candidate must decide whether the first statement alone is enough, the second alone is enough, both together are needed, or even both together are not enough. The answer choices are fixed, so the work is to test each statement on its own first.", "The discipline of the chapter is to avoid solving the whole problem. Many candidates waste time finding the answer when the question only asks whether it can be found. If a statement gives a unique value for the unknown it is sufficient, and if it leaves two or more possibilities it is not. The two statements are combined only after each has been tested alone."],
+    as: ["তথ্য পৰ্যাপ্ততা (Data Sufficiency) ত প্ৰশ্নটোৰ উত্তৰ নিদিয়া হয়; কেৱল দিয়া তথ্য যথেষ্ট নে নাই সেয়া নিৰ্ণয় কৰা হয়। এটা প্ৰশ্নৰ পিছত দুটা বিবৃতি দিয়া থাকে, আৰু প্ৰাৰ্থীয়ে নিৰ্ণয় কৰিব লাগে প্ৰথম বিবৃতিটোৱেই যথেষ্ট নে, দ্বিতীয়টোৱেই যথেষ্ট নে, দুয়োটা একেলগেহে লাগে নে, বা দুয়োটা একেলগেও যথেষ্ট নহয়। উত্তৰৰ বিকল্পবোৰ নিৰ্দিষ্ট, গতিকে কামটো হ'ল প্ৰথমে প্ৰতিটো বিবৃতি বেলেগে পৰীক্ষা কৰা।", "এই অধ্যায়ৰ শৃংখলা হ'ল গোটেই সমস্যাটো সমাধান কৰাৰ পৰা বিৰত থকা। বহু প্ৰাৰ্থীয়ে উত্তৰ বিচাৰি সময় নষ্ট কৰে যেতিয়া প্ৰশ্নই কেৱল উত্তৰ পোৱা যায় নে নাই সোধে। এটা বিবৃতিয়ে অজ্ঞাত ৰাশিৰ এটা অনন্য মান দিলে সেয়া যথেষ্ট, আৰু দুটা বা অধিক সম্ভাৱনা এৰি দিলে সেয়া যথেষ্ট নহয়। প্ৰতিটো বেলেগে পৰীক্ষা কৰাৰ পিছতহে দুয়োটা একেলগ কৰা হয়।"]
+  },
+  list: {
+    en: ["Read the answer choices once and keep them in mind.", "Test statement I alone, then statement II alone.", "A statement is sufficient only if it gives one unique answer.", "Do not spend time finding the actual answer."],
+    as: ["উত্তৰৰ বিকল্পবোৰ এবাৰ পঢ়ি মনত ৰাখক।", "প্ৰথমে কেৱল বিবৃতি I পৰীক্ষা কৰক, তাৰ পিছত কেৱল বিবৃতি II।", "এটা বিবৃতি কেৱল এটা অনন্য উত্তৰ দিলেহে যথেষ্ট।", "প্ৰকৃত উত্তৰ বিচাৰি সময় নষ্ট নকৰিব।"]
+  },
+  faqs: [
+    { q: { en: "Do I need to calculate the answer in a data sufficiency question?", as: "তথ্য পৰ্যাপ্ততাৰ প্ৰশ্নত উত্তৰটো গণনা কৰিব লাগেনে?" },
+      a: { en: "No. You only decide whether the data is enough to find a unique answer.", as: "নালাগে। আপুনি কেৱল নিৰ্ণয় কৰে তথ্যই এটা অনন্য উত্তৰ পাবলৈ যথেষ্ট নে নাই।" } }
+  ]
+},
+
+"input-output-machine": {
+  h2: { en: "Input-Output & Machine", as: "ইনপুট-আউটপুট আৰু যন্ত্ৰ" },
+  p: {
+    en: ["An input-output question shows a machine that rearranges a set of numbers or words in a fixed number of steps. The input is given, together with one or two steps of the output, and the question asks for a later step or for the final arrangement. The rule is hidden in the steps that are shown, and the task is to discover it.", "The rearrangement usually moves the smallest number to the left, or the largest number to the right, or arranges the words alphabetically, one item at a time. Compare the input with the first shown step to see which item moved and where. Once the rule is known, apply it step by step until the required step is reached. The same rule always applies at every step."],
+    as: ["ইনপুট-আউটপুট প্ৰশ্নত এটা যন্ত্ৰ দেখুওৱা হয় যি এটা নিৰ্দিষ্ট সংখ্যক ধাপত সংখ্যা বা শব্দৰ এটা সমষ্টি পুনৰ্বিন্যাস কৰে। ইনপুটটো দিয়া থাকে, আৰু আউটপুটৰ এটা বা দুটা ধাপো, আৰু প্ৰশ্নই পিছৰ ধাপ বা অন্তিম বিন্যাস সোধে। দেখুওৱা ধাপবোৰত নিয়মটো লুকুৱাই থাকে, আৰু কামটো হ'ল তাক আৱিষ্কাৰ কৰা।", "পুনৰ্বিন্যাসে সাধাৰণতে সৰু সংখ্যাটো বাওঁফালে বা ডাঙৰটো সোঁফালে ঠেলে, বা শব্দবোৰ বৰ্ণমালাৰ ক্ৰমত এটা এটাকৈ সজায়। ইনপুটটো প্ৰথম দেখুওৱা ধাপৰ সৈতে তুলনা কৰি কোনটো বস্তু ক'লৈ গ'ল চাওক। নিয়ম জানিলে প্ৰয়োজনীয় ধাপ নোপোৱালৈকে তাক ধাপে ধাপে প্ৰয়োগ কৰক। একেটা নিয়মেই প্ৰতিটো ধাপত সদায় খাটে।"]
+  },
+  list: {
+    en: ["Compare the input with the first step to find what moved.", "The machine usually places one item in order at each step.", "Apply the same rule at every step.", "Count the steps carefully to reach the step that is asked."],
+    as: ["কি বস্তু লৰিছে বিচাৰিবলৈ ইনপুটটো প্ৰথম ধাপৰ সৈতে তুলনা কৰক।", "যন্ত্ৰই সাধাৰণতে প্ৰতিটো ধাপত এটা বস্তু ক্ৰমত বহুৱায়।", "প্ৰতিটো ধাপত একেই নিয়ম প্ৰয়োগ কৰক।", "সোধা ধাপ পাবলৈ ধাপবোৰ সাৱধানে গণনা কৰক।"]
+  },
+  faqs: [
+    { q: { en: "How do I find the rule of the machine?", as: "যন্ত্ৰটোৰ নিয়ম কেনেকৈ বিচাৰি পাম?" },
+      a: { en: "Compare the input with the first step shown; the item that changed position reveals the rule.", as: "ইনপুটটো প্ৰথম দেখুওৱা ধাপৰ সৈতে তুলনা কৰক; যি বস্তুৰ অৱস্থান সলনি হ'ল সেয়াই নিয়মটো প্ৰকাশ কৰে।" } }
+  ]
+},
+
+"seating-arrangement": {
+  h2: { en: "Seating Arrangement", as: "বহাৰ বিন্যাস" },
+  p: {
+    en: ["A seating arrangement gives a group of people seated in a line, a circle or a square, together with clues about who sits next to whom, who faces which way, or who sits at an end. The questions ask for the position of one person or for the order of the whole row. The method is to draw the arrangement on paper rather than to hold it in the head.", "In a linear arrangement the people sit in a straight row and may face north or south. In a circular arrangement the people sit around a table and may face the centre or away from it. A square arrangement places people on four sides. Begin with the clue that fixes one person, then add the others one by one, crossing out a clue once it is used. If two arrangements fit the clues, the question has a definite answer only when the same person holds the asked position in both."],
+    as: ["বহাৰ বিন্যাসত এটা দলৰ মানুহ শাৰী, বৃত্ত বা বৰ্গত বহুওৱা হয়, আৰু কোন কাৰ কাষত বহে, কোনটো দিশলৈ মুখ কৰি থাকে, বা কোনটো মূৰত বহে তাৰ সূত্ৰ দিয়া থাকে। প্ৰশ্নই এজন মানুহৰ অৱস্থান বা গোটেই শাৰীৰ ক্ৰম সোধে। পদ্ধতিটো হ'ল বিন্যাসটো মনত নাৰাখি কাগজত অঁকা।", "শাৰী বিন্যাসত মানুহবোৰ সোজা শাৰীত বহে আৰু উত্তৰ বা দক্ষিণলৈ মুখ কৰিব পাৰে। বৃত্তাকাৰ বিন্যাসত মানুহবোৰ মেজ এখনৰ চাৰিওফালে বহে আৰু কেন্দ্ৰলৈ বা কেন্দ্ৰৰ পৰা আঁতৰলৈ মুখ কৰিব পাৰে। বৰ্গ বিন্যাসে মানুহবোৰ চাৰিটা ফালে বহুৱায়। যি সূত্ৰই এজন মানুহক স্থিৰ কৰে তাৰ পৰা আৰম্ভ কৰক, তাৰ পিছত এজন এজনকৈ আনবোৰ যোগ কৰক, এটা সূত্ৰ ব্যৱহাৰ হ'লে কাটি দিয়ক। দুটা বিন্যাস সূত্ৰৰ লগত মিলিলে, সোধা অৱস্থানত দুয়োতেই একেই মানুহ থাকিলেহে প্ৰশ্নৰ এটা নিশ্চিত উত্তৰ থাকে।"]
+  },
+  list: {
+    en: ["Draw the line or circle before reading the clues again.", "Start with the clue that fixes one person's place.", "Tick off each clue once it is used.", "For circular arrangements, note whether people face the centre."],
+    as: ["সূত্ৰবোৰ আকৌ পঢ়াৰ আগতে শাৰী বা বৃত্তটো অঁকক।", "যি সূত্ৰই এজন মানুহৰ স্থান স্থিৰ কৰে তাৰ পৰা আৰম্ভ কৰক।", "প্ৰতিটো সূত্ৰ ব্যৱহাৰ হ'লে টিক দিয়ক।", "বৃত্তাকাৰ বিন্যাসত মানুহবোৰে কেন্দ্ৰলৈ মুখ কৰে নে নাই মন কৰক।"]
+  },
+  faqs: [
+    { q: { en: "Why should I draw the arrangement?", as: "বিন্যাসটো কিয় অঁকা উচিত?" },
+      a: { en: "Drawing fixes the positions on paper, so the clues can be added one by one without confusion.", as: "অঁকালে অৱস্থানবোৰ কাগজত স্থিৰ হয়, গতিকে সূত্ৰবোৰ এটা এটাকৈ বিভ্ৰম নোহোৱাকৈ যোগ কৰিব পাৰি।" } }
+  ]
+},
+
+"complex-puzzles": {
+  h2: { en: "Complex Puzzles", as: "জটিল পাজল" },
+  p: {
+    en: ["A complex puzzle gives several items, such as people on different floors of a building, boxes on a shelf, or days of a week, and a set of clues that link them. From the clues the candidate must fix the position of each item. The chapter is called complex because two or more attributes, such as a name and a floor, must be matched at the same time.", "The method is to make a small table with one column for each attribute and to fill it from the clues. Begin with the most definite clue, such as one that fixes an exact position, and then use the relative clues. A clue that says one item is immediately above another is stronger than one that says it is somewhere above. Working in this order usually finishes the table without guesswork."],
+    as: ["জটিল পাজলত কেইবাটাও বস্তু দিয়া থাকে, যেনে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থকা মানুহ, শেলফত থকা পেটিকা, বা সপ্তাহৰ দিন, আৰু সেইবোৰক সংযোগ কৰা সূত্ৰ এটা সমষ্টি। সূত্ৰবোৰৰ পৰা প্ৰাৰ্থীয়ে প্ৰতিটো বস্তুৰ অৱস্থান স্থিৰ কৰিব লাগে। দুটা বা অধিক গুণ, যেনে নাম আৰু মহলা, একে সময়তে মিলাব লাগে বাবেই এই অধ্যায়ক জটিল বোলা হয়।", "পদ্ধতিটো হ'ল প্ৰতিটো গুণৰ বাবে এটা স্তম্ভ থকা সৰু তালিকা এখন বনাই সূত্ৰবোৰৰ পৰা তাক পূৰণ কৰা। আটাইতকৈ নিশ্চিত সূত্ৰ, যেনে এটা সঠিক অৱস্থান স্থিৰ কৰা সূত্ৰ,ৰ পৰা আৰম্ভ কৰক, তাৰ পিছত তুলনামূলক সূত্ৰবোৰ ব্যৱহাৰ কৰক। এটা বস্তু আনটোৰ ঠিক ওপৰত আছে বুলি কোৱা সূত্ৰ ক'ৰবাত ওপৰত আছে বুলি কোৱাতকৈ বেছি শক্তিশালী। এই ক্ৰমত কাম কৰিলে সাধাৰণতে অনুমান নকৰাকৈ তালিকাখন সম্পূৰ্ণ হয়।"]
+  },
+  list: {
+    en: ["Make a table with one column per attribute.", "Use the most definite clue first.", "An immediate-above clue is stronger than a somewhere-above clue.", "Fill the table until every position is fixed."],
+    as: ["প্ৰতিটো গুণৰ বাবে এটা স্তম্ভ থকা তালিকা এখন বনাওক।", "আটাইতকৈ নিশ্চিত সূত্ৰ প্ৰথমে ব্যৱহাৰ কৰক।", "ঠিক ওপৰত থকা সূত্ৰ ক'ৰবাত ওপৰত থকা সূত্ৰতকৈ বেছি শক্তিশালী।", "প্ৰতিটো অৱস্থান স্থিৰ নোহোৱালৈকে তালিকা পূৰণ কৰক।"]
+  },
+  faqs: [
+    { q: { en: "How do I begin a complex puzzle?", as: "জটিল পাজল কেনেকৈ আৰম্ভ কৰোঁ?" },
+      a: { en: "Draw a table of the attributes and start with the clue that fixes an exact position.", as: "গুণবোৰৰ তালিকা এখন অঁকক আৰু এটা সঠিক অৱস্থান স্থিৰ কৰা সূত্ৰৰ পৰা আৰম্ভ কৰক।" } }
+  ]
+},
+
+"inequality": {
+  h2: { en: "Inequality", as: "অসমতা" },
+  p: {
+    en: ["An inequality question gives a set of relations between letters, such as A greater than B, B greater than or equal to C, and C less than D, and asks which conclusion is definitely true. The symbols must be read carefully: a greater-than sign, a less-than sign, and the two signs that also allow equality. The task is to chain the relations and read the conclusion.", "In coded inequality the symbols are replaced by ordinary words or by unfamiliar signs, and the first step is to decode each symbol into its usual meaning. Once the code is known the question becomes an ordinary inequality. A useful rule is that a conclusion about two letters follows only when a single chain of signs joins them without a break; two separate chains prove nothing about each other."],
+    as: ["অসমতাৰ প্ৰশ্নত আখৰবোৰৰ মাজৰ সম্পৰ্ক এটা সমষ্টি দিয়া থাকে, যেনে A ৰ B তকৈ ডাঙৰ, B ৰ C তকৈ ডাঙৰ বা সমান, আৰু C ৰ D তকৈ সৰু, আৰু সোধে কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা। চিহ্নবোৰ সাৱধানে পঢ়িব লাগে: ডাঙৰৰ চিহ্ন, সৰুৰ চিহ্ন, আৰু সমতাও অনুমতি দিয়া দুটা চিহ্ন। কামটো হ'ল সম্পৰ্কবোৰ শিকলিৰ দৰে জোৰা লাগাই সিদ্ধান্ত পঢ়া।", "সংকেতিত অসমতাত চিহ্নবোৰৰ সলনি সাধাৰণ শব্দ বা অপৰিচিত চিহ্ন দিয়া থাকে, আৰু প্ৰথম কামটো হ'ল প্ৰতিটো চিহ্নক তাৰ সাধাৰণ অৰ্থলৈ ৰূপান্তৰ কৰা। সংকেত জনা হ'লে প্ৰশ্নটো সাধাৰণ অসমতা হৈ পৰে। এটা উপযোগী নিয়ম হ'ল দুটা আখৰৰ বিষয়ে সিদ্ধান্ত কেৱল তেতিয়াহে ওলায় যেতিয়া এটা অটুট চিহ্নৰ শিকলিয়ে তেওঁলোকক জোৰে; দুটা বেলেগ শিকলিয়ে ইজনে সিজনৰ বিষয়ে একো প্ৰমাণ নকৰে।"]
+  },
+  list: {
+    en: ["Read every symbol for its exact meaning, including equality.", "Chain the relations into one line from left to right.", "A conclusion needs one unbroken chain between the two letters.", "In coded inequality, decode the symbols first."],
+    as: ["প্ৰতিটো চিহ্ন তাৰ সঠিক অৰ্থৰ সৈতে পঢ়ক, সমতাও ধৰি।", "সম্পৰ্কবোৰ বাওঁৰ পৰা সোঁলৈ এটা শাৰীত জোৰা লাগাওক।", "এটা সিদ্ধান্তৰ বাবে দুটা আখৰৰ মাজত এটা অটুট শিকলি লাগে।", "সংকেতিত অসমতাত প্ৰথমে চিহ্নবোৰ ৰূপান্তৰ কৰক।"]
+  },
+  faqs: [
+    { q: { en: "When does a conclusion follow in an inequality question?", as: "অসমতাৰ প্ৰশ্নত সিদ্ধান্ত কেতিয়া মানি লোৱা যায়?" },
+      a: { en: "Only when a single continuous chain of signs connects the two letters being compared.", as: "কেৱল যেতিয়া এটা অটুট চিহ্নৰ শিকলিয়ে তুলনা কৰা দুটা আখৰক সংযোগ কৰে।" } }
+  ]
+},
+
+"statement-conclusions": {
+  h2: { en: "Statement & Conclusions", as: "বিবৃতি আৰু সিদ্ধান্ত" },
+  p: {
+    en: ["In a statement and conclusions question a short statement is given, followed by two or more conclusions. The candidate must decide which conclusion follows logically from the statement alone, without adding outside knowledge. A conclusion follows only if it must be true whenever the statement is true.", "The safe test is to ask whether the statement can be true while the conclusion is false. If it can, the conclusion does not follow. A conclusion that merely repeats a part of the statement usually follows, while one that generalises beyond it usually does not. Words such as all, some and none must be read exactly as written."],
+    as: ["বিবৃতি আৰু সিদ্ধান্তৰ প্ৰশ্নত এটা চুটি বিবৃতি দিয়া থাকে, আৰু তাৰ পিছত দুটা বা অধিক সিদ্ধান্ত। প্ৰাৰ্থীয়ে নিৰ্ণয় কৰিব লাগে কোনটো সিদ্ধান্ত কেৱল বিবৃতিৰ পৰাই যুক্তিসংগতভাৱে ওলায়, বাহিৰৰ জ্ঞান নিদিয়াকৈ। এটা সিদ্ধান্ত কেৱল তেতিয়াহে ওলায় যেতিয়া বিবৃতিটো সঁচা হ'লে সেয়াও সঁচা হ'ব লাগিব।", "সুৰক্ষিত পৰীক্ষাটো হ'ল, সিদ্ধান্তটো মিছা হৈয়ো বিবৃতিটো সঁচা হ'ব পাৰে নেকি সোধা। পাৰিলে সিদ্ধান্তটো ওলোৱা নাই। বিবৃতিৰ এটা অংশ কেৱল পুনৰাবৃত্তি কৰা সিদ্ধান্ত সাধাৰণতে ওলায়, আনহাতে তাক অতিক্ৰম কৰি সাধাৰণীকৰণ কৰা সিদ্ধান্ত সাধাৰণতে নোলায়। সকলো, কিছুমান আৰু একো নাই দৰে শব্দ লিখাৰ দৰেই সঠিকভাৱে পঢ়িব লাগে।"]
+  },
+  list: {
+    en: ["Use only the statement, never outside facts.", "A conclusion must always be true when the statement is true.", "Reject a conclusion that only may be true, not must be.", "Read all, some and none exactly as written."],
+    as: ["কেৱল বিবৃতিটো ব্যৱহাৰ কৰক, কেতিয়াও বাহিৰৰ তথ্য নহয়।", "বিবৃতিটো সঁচা হ'লে সিদ্ধান্তটো সদায় সঁচা হ'ব লাগে।", "কেৱল হ'ব পাৰে, কিন্তু হ'বই লাগে নহয়, এনে সিদ্ধান্ত বাদ দিয়ক।", "সকলো, কিছুমান আৰু একো নাই লিখাৰ দৰেই পঢ়ক।"]
+  },
+  faqs: [
+    { q: { en: "What is the test for a valid conclusion?", as: "বৈধ সিদ্ধান্তৰ পৰীক্ষা কি?" },
+      a: { en: "The conclusion must be true whenever the statement is true; if the statement can hold while the conclusion fails, the conclusion does not follow.", as: "বিবৃতিটো সঁচা হ'লে সিদ্ধান্তটো সঁচা হ'বই লাগে; সিদ্ধান্তটো অসঁচা হৈয়ো বিবৃতিটো সঁচা থাকিব পাৰিলে সিদ্ধান্তটো ওলোৱা নাই।" } }
+  ]
+},
+
+"statement-assumptions": {
+  h2: { en: "Statement & Assumptions", as: "বিবৃতি আৰু অনুমান" },
+  p: {
+    en: ["An assumption is something the speaker takes for granted but does not state. In this chapter a statement is given and two assumptions are offered, and the candidate decides which assumption is implicit in the statement. An implicit assumption is one the statement depends on; if the assumption were false, the statement would make no sense.", "The test is the negation test. Deny the assumption and see whether the statement still stands. If denying it makes the statement pointless, the assumption is implicit. Assumptions that merely restate the statement, or that add a fact the speaker need not have believed, are not implicit."],
+    as: ["অনুমান হৈছে এনে এটা কথা যিটো কওঁতাই ধৰি লয় কিন্তু নকয়। এই অধ্যায়ত এটা বিবৃতি আৰু দুটা অনুমান দিয়া থাকে, আৰু প্ৰাৰ্থীয়ে নিৰ্ণয় কৰে কোনটো অনুমান বিবৃতিত লুকুৱাই আছে। লুকুৱা অনুমান হৈছে যিটোৰ ওপৰত বিবৃতিটো নিৰ্ভৰশীল; অনুমানটো অসঁচা হ'লে বিবৃতিটোৰ কোনো অৰ্থ নাথাকিলহেঁতেন।", "পৰীক্ষাটো হ'ল অস্বীকাৰৰ পৰীক্ষা। অনুমানটো অস্বীকাৰ কৰি চাওক বিবৃতিটো তেতিয়াও টিকি থাকে নে নাই। অস্বীকাৰ কৰিলে বিবৃতিটো নিৰৰ্থক হ'লে অনুমানটো লুকুৱাই আছে। কেৱল বিবৃতি পুনৰাবৃত্তি কৰা, বা কওঁতাই বিশ্বাস নকৰিবও পৰা এটা তথ্য যোগ কৰা অনুমান লুকুৱাই নাথাকে।"]
+  },
+  list: {
+    en: ["An implicit assumption is one the statement depends on.", "Use the negation test on each assumption.", "Reject an assumption that only restates the statement.", "Reject an assumption that adds an unnecessary belief."],
+    as: ["লুকুৱা অনুমান হৈছে যিটোৰ ওপৰত বিবৃতিটো নিৰ্ভৰশীল।", "প্ৰতিটো অনুমানত অস্বীকাৰৰ পৰীক্ষা ব্যৱহাৰ কৰক।", "কেৱল বিবৃতি পুনৰাবৃত্তি কৰা অনুমান বাদ দিয়ক।", "অপ্ৰয়োজনীয় বিশ্বাস যোগ কৰা অনুমান বাদ দিয়ক।"]
+  },
+  faqs: [
+    { q: { en: "What is the negation test for assumptions?", as: "অনুমানৰ বাবে অস্বীকাৰৰ পৰীক্ষা কি?" },
+      a: { en: "Deny the assumption; if the statement then becomes meaningless, the assumption is implicit.", as: "অনুমানটো অস্বীকাৰ কৰক; তেতিয়া বিবৃতিটো অৰ্থহীন হ'লে অনুমানটো লুকুৱাই আছে।" } }
+  ]
+},
+
+"statement-arguments": {
+  h2: { en: "Statement & Arguments", as: "বিবৃতি আৰু যুক্তি" },
+  p: {
+    en: ["In this chapter a statement, often a proposal or a policy, is followed by two arguments, one for and one against. The candidate decides which argument is strong. A strong argument is directly related to the statement, is based on fact or on a sound principle, and would influence a reasonable person's decision.", "A weak argument may appeal to emotion, may rest on a fact that is not established, or may be beside the point. The strength of an argument does not depend on whether the candidate agrees with the policy; it depends only on whether the argument addresses the statement and is reasonable. Both arguments may be strong, or both may be weak."],
+    as: ["এই অধ্যায়ত এটা বিবৃতি, প্ৰায়ে এটা প্ৰস্তাৱ বা নীতি, আৰু তাৰ পিছত দুটা যুক্তি, এটা পক্ষত আৰু এটা বিৰুদ্ধে দিয়া থাকে। প্ৰাৰ্থীয়ে নিৰ্ণয় কৰে কোনটো যুক্তি শক্তিশালী। শক্তিশালী যুক্তি বিবৃতিৰ সৈতে পোনপটীয়াকৈ জড়িত, তথ্য বা সুস্থ নীতিত ভিত্তি কৰি, আৰু এজন বিচাৰবুদ্ধিসম্পন্ন লোকৰ সিদ্ধান্তক প্ৰভাৱিত কৰিব।", "দুৰ্বল যুক্তি আৱেগত ধৰিব পাৰে, প্ৰতিষ্ঠিত নোহোৱা এটা তথ্যত নিৰ্ভৰ কৰিব পাৰে, বা বিষয়ৰ পৰা আঁতৰত থাকিব পাৰে। যুক্তিৰ শক্তি প্ৰাৰ্থীয়ে নীতিটোৰ সৈতে সন্মত নে নাই তাৰ ওপৰত নিৰ্ভৰ নকৰে; কেৱল যুক্তিটোৱে বিবৃতিটোক সম্বোধন কৰে নে নাই আৰু যুক্তিসংগত নে নাই তাৰ ওপৰত নিৰ্ভৰ কৰে। দুয়োটা যুক্তি শক্তিশালীও হ'ব পাৰে, বা দুয়োটা দুৰ্বলও হ'ব পাৰে।"]
+  },
+  list: {
+    en: ["A strong argument is directly related to the statement.", "It rests on fact or on a sound principle.", "Emotional appeals and unproved facts make an argument weak.", "Both arguments may be strong, or both weak."],
+    as: ["শক্তিশালী যুক্তি বিবৃতিৰ সৈতে পোনপটীয়াকৈ জড়িত।", "সেয়া তথ্য বা সুস্থ নীতিত ভিত্তি কৰি।", "আৱেগিক আহ্বান আৰু অপ্ৰমাণিত তথ্যই যুক্তিক দুৰ্বল কৰে।", "দুয়োটা যুক্তি শক্তিশালীও হ'ব পাৰে, বা দুয়োটা দুৰ্বলও।"]
+  },
+  faqs: [
+    { q: { en: "How do I judge whether an argument is strong?", as: "যুক্তি এটা শক্তিশালী নে দুৰ্বল কেনেকৈ বিচাৰ কৰোঁ?" },
+      a: { en: "Ask whether it is directly related to the statement and based on fact or a sound principle.", as: "সোধক, সেয়া বিবৃতিৰ সৈতে পোনপটীয়াকৈ জড়িত নে আৰু তথ্য বা সুস্থ নীতিত ভিত্তি কৰি নে।" } }
+  ]
+},
+
+"statement-course-of-action": {
+  h2: { en: "Statement & Course of Action", as: "বিবৃতি আৰু কাৰ্যপন্থা" },
+  p: {
+    en: ["A statement describes a problem or a situation, and two courses of action are offered. The candidate decides which course of action is worth following. A good course of action must be practical, must address the problem in the statement, and must be capable of reducing or solving it.", "A course of action is rejected if it is too vague, if it merely repeats the problem, if it solves only a small part while a larger solution is needed, or if it is beyond the authority of the person concerned. The test is whether following the action would make the situation better in a real and direct way."],
+    as: ["বিবৃতি এটাই এটা সমস্যা বা পৰিস্থিতি বৰ্ণনা কৰে, আৰু দুটা কাৰ্যপন্থা দিয়া থাকে। প্ৰাৰ্থীয়ে নিৰ্ণয় কৰে কোনটো কাৰ্যপন্থা অনুসৰণ কৰিবলৈ যোগ্য। ভাল কাৰ্যপন্থা বাস্তৱসন্মত হ'ব লাগে, বিবৃতিত থকা সমস্যাটোক সম্বোধন কৰিব লাগে, আৰু তাক কমাব বা সমাধান কৰিব পৰা হ'ব লাগে।", "এটা কাৰ্যপন্থা বাদ দিয়া হয় যদি সেয়া অতিশয় অস্পষ্ট, যদি কেৱল সমস্যাটো পুনৰাবৃত্তি কৰে, যদি ডাঙৰ সমাধান লাগিলেও এটা সৰু অংশহে সমাধান কৰে, বা যদি সংশ্লিষ্ট ব্যক্তিৰ অধিকাৰৰ বাহিৰত। পৰীক্ষাটো হ'ল, কাৰ্যপন্থাটো অনুসৰণ কৰিলে পৰিস্থিতি বাস্তৱ আৰু পোনপটীয়া ৰূপত ভাল হ'ব নে।"]
+  },
+  list: {
+    en: ["A good action is practical and directly addresses the problem.", "Reject an action that only repeats the problem.", "Reject an action that is too vague.", "The action must lie within the authority of the person concerned."],
+    as: ["ভাল কাৰ্যপন্থা বাস্তৱসন্মত আৰু সমস্যাটোক পোনপটীয়াকৈ সম্বোধন কৰে।", "কেৱল সমস্যা পুনৰাবৃত্তি কৰা কাৰ্যপন্থা বাদ দিয়ক।", "অতিশয় অস্পষ্ট কাৰ্যপন্থা বাদ দিয়ক।", "কাৰ্যপন্থা সংশ্লিষ্ট ব্যক্তিৰ অধিকাৰৰ ভিতৰত থাকিব লাগে।"]
+  },
+  faqs: [
+    { q: { en: "What makes a course of action acceptable?", as: "কাৰ্যপন্থা এটা গ্ৰহণযোগ্য কৰি তোলে কি?" },
+      a: { en: "It must be practical, address the problem in the statement, and be able to solve or reduce it.", as: "সেয়া বাস্তৱসন্মত হ'ব লাগে, বিবৃতিত থকা সমস্যাটোক সম্বোধন কৰিব লাগে, আৰু তাক সমাধান বা কমাব পৰা হ'ব লাগে।" } }
+  ]
+},
+
+"cause-effect": {
+  h2: { en: "Cause & Effect", as: "কাৰণ আৰু ফলাফল" },
+  p: {
+    en: ["In a cause and effect question two statements are given, numbered one and two, and the candidate decides whether the first is the cause of the second, the second is the cause of the first, both are effects of a common cause, or both are independent. The answer is chosen from these fixed possibilities.", "The method is to look for a direct link. One event is the cause of another only if the second could not reasonably have happened without the first. Two events that share a hidden third cause, such as heavy rain producing both a flood and a rise in prices, are both effects of a common cause rather than one of the other."],
+    as: ["কাৰণ আৰু ফলাফলৰ প্ৰশ্নত দুটা বিবৃতি দিয়া থাকে, এক আৰু দুই নম্বৰে, আৰু প্ৰাৰ্থীয়ে নিৰ্ণয় কৰে প্ৰথমটো দ্বিতীয়টোৰ কাৰণ নে, দ্বিতীয়টো প্ৰথমটোৰ কাৰণ নে, দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল নে, বা দুয়োটা স্বাধীন। উত্তৰ এই নিৰ্দিষ্ট সম্ভাৱনাবোৰৰ পৰা বাছনি কৰা হয়।", "পদ্ধতিটো হ'ল পোনপটীয়া সংযোগ বিচৰা। এটা ঘটনা আনটোৰ কাৰণ কেৱল তেতিয়াহে যেতিয়া প্ৰথমটো নোহোৱাকৈ দ্বিতীয়টো যুক্তিসংগতভাৱে হ'ব নোৱাৰিলেহেঁতেন। লুকুৱা তৃতীয় এটা কাৰণ ভাগ কৰা দুটা ঘটনা, যেনে ধুমুহা বৰষুণে বানপানী আৰু দাম বৃদ্ধি দুয়োটা কৰে, সেয়া এটা সাধাৰণ কাৰণৰ ফলাফল, আনটো নহয়।"]
+  },
+  list: {
+    en: ["Look for a direct link between the two events.", "A cause makes its effect happen, not merely accompany it.", "Two events with a hidden common cause are both effects.", "Choose from the fixed answer possibilities."],
+    as: ["দুটা ঘটনাৰ মাজত পোনপটীয়া সংযোগ বিচাৰক।", "কাৰণে তাৰ ফলাফল ঘটা কৰে, কেৱল লগত নাথাকে।", "লুকুৱা সাধাৰণ কাৰণ থকা দুটা ঘটনা দুয়োটা ফলাফল।", "নিৰ্দিষ্ট উত্তৰৰ সম্ভাৱনাবোৰৰ পৰা বাছনি কৰক।"]
+  },
+  faqs: [
+    { q: { en: "How do I decide whether two events have a common cause?", as: "দুটা ঘটনাৰ সাধাৰণ কাৰণ আছে নে নাই কেনেকৈ নিৰ্ণয় কৰোঁ?" },
+      a: { en: "If a single hidden event could produce both, then both are effects of that common cause.", as: "এটা লুকুৱা ঘটনাই দুয়োটা কৰিব পাৰিলে, দুয়োটা সেই সাধাৰণ কাৰণৰ ফলাফল।" } }
+  ]
+},
+
+"assertion-reason": {
+  h2: { en: "Assertion & Reason", as: "দাবী আৰু কাৰণ" },
+  p: {
+    en: ["An assertion and a reason question gives two statements, marked A for assertion and R for reason. The candidate must decide whether both are true and, when both are true, whether the reason correctly explains the assertion. The answer is chosen from the standard options.", "The two judgements are separate. First decide the truth of each statement on its own. If both are true, then decide whether the reason is the explanation of the assertion or merely another true fact that does not explain it. A true reason that is unrelated to the assertion does not make the assertion follow."],
+    as: ["দাবী আৰু কাৰণৰ প্ৰশ্নত দুটা বিবৃতি দিয়া থাকে, A ৰে দাবী আৰু R ৰে কাৰণ চিহ্নিত কৰি। প্ৰাৰ্থীয়ে নিৰ্ণয় কৰিব লাগে দুয়োটা সঁচা নে নাই আৰু, দুয়োটা সঁচা হ'লে, কাৰণে দাবীটো সঠিকভাৱে ব্যাখ্যা কৰে নে নাই। উত্তৰ মানক বিকল্পবোৰৰ পৰা বাছনি কৰা হয়।", "দুটা বিচাৰ বেলেগ বেলেগ। প্ৰথমে প্ৰতিটো বিবৃতিৰ সত্যতা বেলেগে নিৰ্ণয় কৰক। দুয়োটা সঁচা হ'লে, কাৰণটো দাবীৰ ব্যাখ্যা নে নাই কেৱল আন এটা সঁচা তথ্য যি ব্যাখ্যা নকৰে সেয়া নিৰ্ণয় কৰক। দাবীৰ সৈতে অসম্পৰ্কিত সঁচা কাৰণে দাবীটো মানি লোৱাটো নকৰে।"]
+  },
+  list: {
+    en: ["Judge the truth of A and R separately.", "If both are true, test whether R explains A.", "A true but unrelated reason does not explain the assertion.", "Choose from the standard answer options."],
+    as: ["A আৰু R ৰ সত্যতা বেলেগে বিচাৰ কৰক।", "দুয়োটা সঁচা হ'লে, R এ A ব্যাখ্যা কৰে নে নাই পৰীক্ষা কৰক।", "সঁচা কিন্তু অসম্পৰ্কিত কাৰণে দাবী ব্যাখ্যা নকৰে।", "মানক উত্তৰৰ বিকল্পবোৰৰ পৰা বাছনি কৰক।"]
+  },
+  faqs: [
+    { q: { en: "If both the assertion and the reason are true, what next?", as: "দাবী আৰু কাৰণ দুয়োটা সঁচা হ'লে, তাৰ পিছত কি?" },
+      a: { en: "Decide whether the reason actually explains the assertion or is an unrelated truth.", as: "কাৰণটোৱে প্ৰকৃততে দাবীটো ব্যাখ্যা কৰে নে নাই নে সেয়া অসম্পৰ্কিত সত্য, সেয়া নিৰ্ণয় কৰক।" } }
+  ]
+},
+
+"decision-making": {
+  h2: { en: "Decision Making", as: "সিদ্ধান্ত লোৱা" },
+  p: {
+    en: ["A decision making question gives a passage that lays down eligibility conditions or an administrative rule, and then a set of cases. For each case the candidate must decide whether the person qualifies or which action should be taken. The conditions must be applied exactly as written, without adding sympathy or guesswork.", "The work is careful reading. Note every condition, decide which are essential and which may be relaxed if the passage allows it, and test each case against them one at a time. A candidate who satisfies all the essential conditions qualifies; if any essential condition fails, the case does not qualify unless the passage provides an exception."],
+    as: ["সিদ্ধান্ত লোৱাৰ প্ৰশ্নত এটা অনুচ্ছেদ দিয়া থাকে যি যোগ্যতাৰ চৰ্ত বা প্ৰশাসনিক নিয়ম নিৰ্ধাৰণ কৰে, আৰু তাৰ পিছত কেইবাটাও গোচৰ। প্ৰতিটো গোচৰৰ বাবে প্ৰাৰ্থীয়ে নিৰ্ণয় কৰিব লাগে ব্যক্তিজনে যোগ্য নে নাই বা কোনটো পদক্ষেপ ল'ব লাগে। চৰ্তবোৰ লিখাৰ দৰেই সঠিকভাৱে প্ৰয়োগ কৰিব লাগে, সহানুভূতি বা অনুমান নিদিয়াকৈ।", "কামটো হ'ল সাৱধানে পঢ়া। প্ৰতিটো চৰ্ত টুকি লওক, কোনটো অত্যাৱশ্যক আৰু কোনটো অনুচ্ছেদে অনুমতি দিলে শিথিল কৰিব পাৰি সেয়া নিৰ্ণয় কৰক, আৰু প্ৰতিটো গোচৰ এটা এটাকৈ পৰীক্ষা কৰক। যি প্ৰাৰ্থীয়ে সকলো অত্যাৱশ্যক চৰ্ত পূৰণ কৰে তেওঁ যোগ্য; কোনো অত্যাৱশ্যক চৰ্ত বিফল হ'লে, অনুচ্ছেদে ব্যতিক্ৰম নিদিলে গোচৰটো যোগ্য নহয়।"]
+  },
+  list: {
+    en: ["Apply the conditions exactly as written.", "List the conditions before testing the cases.", "Note which conditions may be relaxed and which may not.", "A case qualifies only if every essential condition is met."],
+    as: ["চৰ্তবোৰ লিখাৰ দৰেই সঠিকভাৱে প্ৰয়োগ কৰক।", "গোচৰ পৰীক্ষা কৰাৰ আগতে চৰ্তবোৰ তালিকাভুক্ত কৰক।", "কোনবোৰ চৰ্ত শিথিল কৰিব পাৰি আৰু কোনবোৰ নোৱাৰি টুকি লওক।", "প্ৰতিটো অত্যাৱশ্যক চৰ্ত পূৰণ হ'লেহে গোচৰ এটা যোগ্য।"]
+  },
+  faqs: [
+    { q: { en: "Should I add conditions that are not written?", as: "নিলিখা চৰ্ত যোগ কৰিব লাগেনে?" },
+      a: { en: "No. Apply only the conditions given in the passage, exactly as written.", as: "নালাগে। কেৱল অনুচ্ছেদত দিয়া চৰ্তবোৰ লিখাৰ দৰেই প্ৰয়োগ কৰক।" } }
+  ]
+},
+
+"drawing-inferences": {
+  h2: { en: "Drawing Inferences", as: "সিদ্ধান্ত টনা" },
+  p: {
+    en: ["In a drawing inferences question a short passage is given and the candidate must choose the inference that can be drawn from it. An inference is a statement that is certainly true given the passage, even though it is not written out in full. It must not go beyond the passage.", "The method is to reject any option that adds information, that reverses the passage, or that is only probable. The correct inference follows from the passage with certainty. Options that merely repeat a sentence are usually too weak to be the answer, because an inference should be a conclusion, not a copy."],
+    as: ["সিদ্ধান্ত টনাৰ প্ৰশ্নত এটা চুটি অনুচ্ছেদ দিয়া থাকে আৰু প্ৰাৰ্থীয়ে তাৰ পৰা টানি উলিয়াব পৰা সিদ্ধান্তটো বাছনি কৰিব লাগে। সিদ্ধান্ত হৈছে এনে এটা বিবৃতি যি অনুচ্ছেদ দিলে নিশ্চিতভাৱে সঁচা, যদিও সেয়া সম্পূৰ্ণকৈ লিখা নাই। সেয়া অনুচ্ছেদৰ বাহিৰলৈ যাব নালাগে।", "পদ্ধতিটো হ'ল তথ্য যোগ কৰা, অনুচ্ছেদ ওলোটাই দিয়া, বা কেৱল সম্ভাৱ্য যিকোনো বিকল্প বাদ দিয়া। শুদ্ধ সিদ্ধান্ত অনুচ্ছেদৰ পৰা নিশ্চিতভাৱে ওলায়। কেৱল এটা বাক্য পুনৰাবৃত্তি কৰা বিকল্প সাধাৰণতে উত্তৰ হ'বলৈ অতি দুৰ্বল, কাৰণ সিদ্ধান্ত এটা উপসংহাৰ হ'ব লাগে, নকল নহয়।"]
+  },
+  list: {
+    en: ["An inference must be certainly true from the passage.", "Reject options that add outside information.", "Reject options that only reverse or weaken the passage.", "An inference is a conclusion, not a copied sentence."],
+    as: ["সিদ্ধান্ত এটা অনুচ্ছেদৰ পৰা নিশ্চিতভাৱে সঁচা হ'ব লাগে।", "বাহিৰৰ তথ্য যোগ কৰা বিকল্প বাদ দিয়ক।", "কেৱল অনুচ্ছেদ ওলোটাই দিয়া বা দুৰ্বল কৰা বিকল্প বাদ দিয়ক।", "সিদ্ধান্ত এটা উপসংহাৰ, নকল কৰা বাক্য নহয়।"]
+  },
+  faqs: [
+    { q: { en: "What makes an inference correct?", as: "সিদ্ধান্ত এটা শুদ্ধ কৰি তোলে কি?" },
+      a: { en: "It must follow with certainty from the passage alone, without adding any new information.", as: "সেয়া কেৱল অনুচ্ছেদৰ পৰাই নিশ্চিতভাৱে ওলাব লাগে, কোনো নতুন তথ্য নিদিয়াকৈ।" } }
+  ]
+},
+
+"figure-matrix": {
+  h2: { en: "Figure Matrix", as: "চিত্ৰ মেট্ৰিক্স" },
+  p: {
+    en: ["A figure matrix shows figures arranged in rows and columns, and one cell is left empty. The candidate must find the figure that completes the matrix. The rule runs both along the rows and down the columns, and the same relation usually holds in each direction.", "The method is to read the first row and find how the first two figures produce the third, then check the same rule on the second row. Common relations are that the number of lines adds, that a shape loses or gains a part, or that a shading moves. When the row rule is found, the missing figure is the one that satisfies the rule in its own row and column."],
+    as: ["চিত্ৰ মেট্ৰিক্সে চিত্ৰবোৰ শাৰী আৰু স্তম্ভত সজাই দেখুৱায়, আৰু এটা ঘৰ খালী ৰাখে। প্ৰাৰ্থীয়ে মেট্ৰিক্সখন সম্পূৰ্ণ কৰা চিত্ৰটো বিচাৰিব লাগে। নিয়মটো শাৰীৰ লগত আৰু স্তম্ভৰ লগত দুয়োফালে চলে, আৰু সাধাৰণতে প্ৰতিটো দিশত একেই সম্পৰ্ক খাটে।", "পদ্ধতিটো হ'ল প্ৰথম শাৰী পঢ়ি প্ৰথম দুটা চিত্ৰই কেনেকৈ তৃতীয়টো উলিয়ায় সেয়া বিচৰা, তাৰ পিছত একেই নিয়ম দ্বিতীয় শাৰীত পৰীক্ষা কৰা। সাধাৰণ সম্পৰ্কবোৰ হ'ল ৰেখাৰ সংখ্যা যোগ হোৱা, এটা আকৃতিয়ে এটা অংশ হেৰুওৱা বা পোৱা, বা এটা ছাঁ সৰকা। শাৰীৰ নিয়ম পোৱা হ'লে, নোহোৱা চিত্ৰটো হ'ল নিজৰ শাৰী আৰু স্তম্ভত নিয়মটো পূৰণ কৰা চিত্ৰ।"]
+  },
+  list: {
+    en: ["Read the row rule first, then check it on the next row.", "The same relation usually holds down the columns too.", "Watch for adding lines, gaining or losing parts, and moving shading.", "The answer must satisfy the rule in both its row and its column."],
+    as: ["প্ৰথমে শাৰীৰ নিয়ম পঢ়ক, তাৰ পিছত পিছৰ শাৰীত তাক পৰীক্ষা কৰক।", "সাধাৰণতে একেই সম্পৰ্ক স্তম্ভৰ লগতো খাটে।", "ৰেখা যোগ হোৱা, অংশ পোৱা বা হেৰুওৱা, আৰু ছাঁ সৰকা লক্ষ্য কৰক।", "উত্তৰে নিজৰ শাৰী আৰু স্তম্ভ দুয়োতেই নিয়ম পূৰণ কৰিব লাগে।"]
+  },
+  faqs: [
+    { q: { en: "Which direction do I read a figure matrix?", as: "চিত্ৰ মেট্ৰিক্স কোন দিশে পঢ়িব লাগে?" },
+      a: { en: "Read the rows first to find the rule, then confirm that the same rule works down the columns.", as: "নিয়ম বিচাৰিবলৈ প্ৰথমে শাৰীবোৰ পঢ়ক, তাৰ পিছত একেই নিয়ম স্তম্ভবোৰতো খাটে নে নাই নিশ্চিত কৰক।" } }
+  ]
+},
+
+"rule-detection": {
+  h2: { en: "Rule Detection", as: "নিয়ম নিৰ্ণয়" },
+  p: {
+    en: ["In a rule detection question a rule is stated, such as every letter group must have its letters in alphabetical order, or every number must be divisible by a stated number, and the candidate must choose the option that obeys the rule. The rule is given, so no rule has to be discovered; the work is to test each option against it.", "The safe method is to check the options one by one against the stated rule and to stop at the first that satisfies it, after making sure that the others fail. A single counter-example is enough to reject an option. Reading the rule twice before testing avoids the common error of testing a different rule from the one that was given."],
+    as: ["নিয়ম নিৰ্ণয়ৰ প্ৰশ্নত এটা নিয়ম দিয়া থাকে, যেনে প্ৰতিটো আখৰৰ দলৰ আখৰবোৰ বৰ্ণমালাৰ ক্ৰমত থাকিব লাগে, বা প্ৰতিটো সংখ্যা এটা নিৰ্দিষ্ট সংখ্যাৰে বিভাজ্য হ'ব লাগে, আৰু প্ৰাৰ্থীয়ে নিয়মটো মানি চলা বিকল্পটো বাছনি কৰিব লাগে। নিয়মটো দিয়া থাকে, গতিকে কোনো নিয়ম আৱিষ্কাৰ কৰিব নালাগে; কামটো হ'ল প্ৰতিটো বিকল্প তাক পৰীক্ষা কৰা।", "সুৰক্ষিত পদ্ধতিটো হ'ল বিকল্পবোৰ এটা এটাকৈ দিয়া নিয়মৰ লগত পৰীক্ষা কৰা আৰু তাক পূৰণ কৰা প্ৰথমটোতে ৰোৱা, আনবোৰ বিফল হয় নে নাই নিশ্চিত কৰাৰ পিছত। এটা প্ৰতিভাও যথেষ্ট বিকল্প এটা বাদ দিবলৈ। পৰীক্ষা কৰাৰ আগতে নিয়মটো দুবাৰ পঢ়িলে দিয়া নিয়মৰ পৰা বেলেগ নিয়ম পৰীক্ষা কৰা সাধাৰণ ভুল এৰাই যায়।"]
+  },
+  list: {
+    en: ["Read the given rule twice before testing.", "Test each option against the rule, one by one.", "One counter-example is enough to reject an option.", "Confirm that the other options fail before choosing."],
+    as: ["পৰীক্ষা কৰাৰ আগতে দিয়া নিয়মটো দুবাৰ পঢ়ক।", "প্ৰতিটো বিকল্প এটা এটাকৈ নিয়মৰ লগত পৰীক্ষা কৰক।", "এটা প্ৰতিভাও যথেষ্ট বিকল্প এটা বাদ দিবলৈ।", "বাছনি কৰাৰ আগতে আনবোৰ বিকল্প বিফল হয় নে নাই নিশ্চিত কৰক।"]
+  },
+  faqs: [
+    { q: { en: "Do I have to discover the rule in a rule detection question?", as: "নিয়ম নিৰ্ণয়ৰ প্ৰশ্নত নিয়ম আৱিষ্কাৰ কৰিব লাগেনে?" },
+      a: { en: "No. The rule is given; you only test each option against it.", as: "নালাগে। নিয়মটো দিয়া থাকে; আপুনি কেৱল প্ৰতিটো বিকল্প তাক পৰীক্ষা কৰে।" } }
+  ]
+},
+
+"shape-construction-grouping": {
+  h2: { en: "Shape Construction & Grouping", as: "আকৃতি গঠন আৰু শ্ৰেণীবদ্ধকৰণ" },
+  p: {
+    en: ["Shape construction asks which figure can be made by joining the pieces given, or which set of pieces makes a stated figure. The pieces may be turned but are not stretched, and every piece must be used exactly once. The candidate must picture the join without moving the paper.", "Grouping of identical figures asks which of the given figures are alike in some respect, or which figure does not belong to the group. The likeness may be in the number of sides, the number of enclosed regions, the symmetry or the shading. Deciding the property first, and then testing each figure against it, is quicker than comparing the figures in pairs."],
+    as: ["আকৃতি গঠনে সোধে দিয়া টুকুৰাবোৰ জোৰা লগাই কোনটো চিত্ৰ বনাব পাৰি, বা কোনটো টুকুৰাৰ সমষ্টিয়ে এটা দিয়া চিত্ৰ বনায়। টুকুৰাবোৰ ঘূৰাব পাৰি কিন্তু টানিব নোৱাৰি, আৰু প্ৰতিটো টুকুৰা ঠিক এবাৰ ব্যৱহাৰ কৰিব লাগে। প্ৰাৰ্থীয়ে কাগজ নলৰুৱাকৈ জোৰটো মনত কল্পনা কৰিব লাগে।", "একে ধৰণৰ চিত্ৰৰ শ্ৰেণীবদ্ধকৰণে সোধে দিয়া চিত্ৰবোৰ কিবা এটা দিশত একে নে নাই, বা কোনটো চিত্ৰ দলত নপৰে। সাদৃশ্য বাহুৰ সংখ্যা, আগুৰা অঞ্চলৰ সংখ্যা, প্ৰতিসমতা বা ছাঁত হ'ব পাৰে। প্ৰথমে ধৰ্মটো নিৰ্ণয় কৰি, তাৰ পিছত প্ৰতিটো চিত্ৰ তাক পৰীক্ষা কৰাটো চিত্ৰবোৰ যোৰে যোৰে তুলনা কৰাতকৈ দ্ৰুত।"]
+  },
+  list: {
+    en: ["Pieces may be rotated but never stretched or overlapped.", "Every piece must be used exactly once.", "For grouping, name the common property before comparing.", "Likeness may lie in sides, enclosed regions, symmetry or shading."],
+    as: ["টুকুৰাবোৰ ঘূৰাব পাৰি কিন্তু কেতিয়াও টানি বা ওপৰাওপৰ কৰিব নোৱাৰি।", "প্ৰতিটো টুকুৰা ঠিক এবাৰ ব্যৱহাৰ কৰিব লাগে।", "শ্ৰেণীবদ্ধকৰণৰ বাবে, তুলনা কৰাৰ আগতে সাধাৰণ ধৰ্মটোৰ নাম লওক।", "সাদৃশ্য বাহু, আগুৰা অঞ্চল, প্ৰতিসমতা বা ছাঁত থাকিব পাৰে।"]
+  },
+  faqs: [
+    { q: { en: "Can the pieces be stretched in a shape construction question?", as: "আকৃতি গঠনৰ প্ৰশ্নত টুকুৰাবোৰ টানিব পাৰি নেকি?" },
+      a: { en: "No. The pieces may be rotated but their shape and size stay the same, and each is used once.", as: "নোৱাৰি। টুকুৰাবোৰ ঘূৰাব পাৰি কিন্তু তাৰ আকৃতি আৰু জোখ একেই থাকে, আৰু প্ৰতিটো এবাৰ ব্যৱহাৰ হয়।" } }
+  ]
+},
 };

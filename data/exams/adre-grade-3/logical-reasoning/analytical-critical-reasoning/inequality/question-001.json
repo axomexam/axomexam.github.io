@@ -1,0 +1,62 @@
+[
+  {
+    "id": "inequality-001",
+    "q": {
+      "en": "If A > B and B > C, which conclusion is definitely true?",
+      "as": "যদি A > B আৰু B > C, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+    },
+    "options": [
+      {
+        "en": "A > C",
+        "as": "A > C"
+      },
+      {
+        "en": "C > A",
+        "as": "C > A"
+      },
+      {
+        "en": "A = C",
+        "as": "A = C"
+      },
+      {
+        "en": "Cannot be decided",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The two relations form one chain A > B > C, so A is greater than C.",
+      "as": "দুয়োটা সম্পৰ্কই A > B > C শিকলি গঠন কৰে, গতিকে A ৰ C তকৈ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "inequality-002",
+    "q": {
+      "en": "If P ≥ Q and Q > R, which conclusion is definitely true?",
+      "as": "যদি P ≥ Q আৰু Q > R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+    },
+    "options": [
+      {
+        "en": "P = R",
+        "as": "P = R"
+      },
+      {
+        "en": "P > R",
+        "as": "P > R"
+      },
+      {
+        "en": "R > P",
+        "as": "R > P"
+      },
+      {
+        "en": "P < R",
+        "as": "P < R"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P is at least Q and Q is greater than R, so P is greater than R.",
+      "as": "P ৰ Q তকৈ কম নহয় আৰু Q ৰ R তকৈ ডাঙৰ, গতিকে P ৰ R তকৈ ডাঙৰ।"
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "statement-assumptions-001",
+    "q": {
+      "en": "Statement: Please use the footbridge to cross the road. Assumption: People can use the footbridge.",
+      "as": "বিবৃতি: ৰাস্তা পাৰ হ'বলৈ অনুগ্ৰহ কৰি খোজ-সেতু ব্যৱহাৰ কৰক। অনুমান: মানুহে খোজ-সেতু ব্যৱহাৰ কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "The assumption is implicit",
+        "as": "অনুমানটো লুকুৱাই আছে"
+      },
+      {
+        "en": "The assumption is not implicit",
+        "as": "অনুমানটো লুকুৱাই নাই"
+      },
+      {
+        "en": "The statement is false",
+        "as": "বিবৃতিটো অসঁচা"
+      },
+      {
+        "en": "Cannot be decided",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The request makes sense only if people can use the footbridge, so the assumption is implicit.",
+      "as": "খোজ-সেতু মানুহে ব্যৱহাৰ কৰিব পাৰিলেহে অনুৰোধটোৰ অৰ্থ আছে, গতিকে অনুমানটো লুকুৱাই আছে।"
+    }
+  },
+  {
+    "id": "statement-assumptions-002",
+    "q": {
+      "en": "Statement: Join the evening batch to improve your English. Assumption: An evening batch is available.",
+      "as": "বিবৃতি: আপোনাৰ ইংৰাজী উন্নত কৰিবলৈ সন্ধিয়াৰ বেট্চত যোগ দিয়ক। অনুমান: সন্ধিয়াৰ এটা বেট্চ উপলব্ধ।"
+    },
+    "options": [
+      {
+        "en": "The assumption is not implicit",
+        "as": "অনুমানটো লুকুৱাই নাই"
+      },
+      {
+        "en": "The assumption is implicit",
+        "as": "অনুমানটো লুকুৱাই আছে"
+      },
+      {
+        "en": "The statement is false",
+        "as": "বিবৃতিটো অসঁচা"
+      },
+      {
+        "en": "Cannot be decided",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Asking someone to join the evening batch assumes that such a batch exists, so the assumption is implicit.",
+      "as": "সন্ধিয়াৰ বেট্চত যোগ দিবলৈ কোৱাটোৱে এনে এটা বেট্চ আছে বুলি ধৰি লয়, গতিকে অনুমানটো লুকুৱাই আছে।"
+    }
+  }
+]

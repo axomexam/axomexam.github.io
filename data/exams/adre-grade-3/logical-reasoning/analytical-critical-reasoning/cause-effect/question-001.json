@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cause-effect-001",
+    "q": {
+      "en": "I. Heavy rain fell in the district. II. The river overflowed its banks. Which is correct?",
+      "as": "I. জিলাখনত ধুমুহা বৰষুণ হ'ল। II. নদী পাৰ উপচি পৰিল। কোনটো শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is the effect",
+        "as": "II কাৰণ আৰু I ফলাফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "I is the cause and II is the effect",
+        "as": "I কাৰণ আৰু II ফলাফল"
+      },
+      {
+        "en": "Both are independent",
+        "as": "দুয়োটা স্বাধীন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The river overflowed because of the heavy rain, so the rain is the cause and the overflow is the effect.",
+      "as": "ধুমুহা বৰষুণৰ বাবেই নদী উপচিল, গতিকে বৰষুণ কাৰণ আৰু উপচি পৰাটো ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-002",
+    "q": {
+      "en": "I. The price of vegetables rose. II. Heavy rain damaged the crops. Which is correct?",
+      "as": "I. পাচলিৰ দাম বাঢ়িল। II. ধুমুহা বৰষুণে শস্য নষ্ট কৰিলে। কোনটো শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is the effect",
+        "as": "I কাৰণ আৰু II ফলাফল"
+      },
+      {
+        "en": "Both are independent",
+        "as": "দুয়োটা স্বাধীন"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "II is the cause and I is the effect",
+        "as": "II কাৰণ আৰু I ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Crop damage reduced the supply and pushed the price up, so II is the cause and I is the effect.",
+      "as": "শস্য নষ্ট হোৱাৰ ফলত যোগান কমি দাম বাঢ়িল, গতিকে II কাৰণ আৰু I ফলাফল।"
+    }
+  }
+]

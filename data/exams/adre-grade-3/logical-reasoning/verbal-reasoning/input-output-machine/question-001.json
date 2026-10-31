@@ -1,0 +1,62 @@
+[
+  {
+    "id": "input-output-machine-001",
+    "q": {
+      "en": "A machine sorts numbers in increasing order, one per step. Input: 5 2 9 1. Step 1: 1 5 2 9. Step 2: 1 2 5 9. What is Step 1 for input 7 3 8 4?",
+      "as": "এটা যন্ত্ৰই সংখ্যাবোৰ বঢ়াৰ ক্ৰমত সজায়, প্ৰতি ধাপত এটা। ইনপুট: 5 2 9 1। ধাপ 1: 1 5 2 9। ধাপ 2: 1 2 5 9। ইনপুট 7 3 8 4 ৰ বাবে ধাপ 1 কি?"
+    },
+    "options": [
+      {
+        "en": "3 7 4 8",
+        "as": "৩ ৭ ৪ ৮"
+      },
+      {
+        "en": "4 3 7 8",
+        "as": "৪ ৩ ৭ ৮"
+      },
+      {
+        "en": "3 7 8 4",
+        "as": "৩ ৭ ৮ ৪"
+      },
+      {
+        "en": "3 4 7 8",
+        "as": "৩ ৪ ৭ ৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The machine moves the smallest number to the front at each step, so 7 3 8 4 becomes 3 7 8 4 in the first step.",
+      "as": "যন্ত্ৰই প্ৰতিটো ধাপত সৰু সংখ্যাটো আগলৈ আনে, গতিকে 7 3 8 4 প্ৰথম ধাপত 3 7 8 4 হয়।"
+    }
+  },
+  {
+    "id": "input-output-machine-002",
+    "q": {
+      "en": "A machine moves the largest number to the end, one per step. Input: 4 9 1 6. What is Step 1?",
+      "as": "এটা যন্ত্ৰই ডাঙৰ সংখ্যাটো শেষলৈ ঠেলে, প্ৰতি ধাপত এটা। ইনপুট: 4 9 1 6। ধাপ 1 কি?"
+    },
+    "options": [
+      {
+        "en": "4 1 9 6",
+        "as": "৪ ১ ৯ ৬"
+      },
+      {
+        "en": "1 4 6 9",
+        "as": "১ ৪ ৬ ৯"
+      },
+      {
+        "en": "9 4 1 6",
+        "as": "৯ ৪ ১ ৬"
+      },
+      {
+        "en": "4 1 6 9",
+        "as": "৪ ১ ৬ ৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The largest number, 9, moves to the end, so the first step is 4 1 6 9.",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা 9 শেষলৈ যায়, গতিকে প্ৰথম ধাপ 4 1 6 9।"
+    }
+  }
+]
