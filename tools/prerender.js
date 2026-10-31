@@ -954,6 +954,14 @@ function homepageQuestionTotal() {
 function buildHome() {
   const firstCat = (categories[0] && categories[0].id) || "gk";
   const totalQuestions = homepageQuestionTotal();
+  /* Topic total spans every library (practice + exam books + current affairs
+     + trending); counts.json stores it, the practice index alone misses the
+     exam books. Fall back to the index length on an older manifest. */
+  const countsForTopics = readJSON(path.join(ROOT, "data", "counts.json")) || {};
+  const totalTopics =
+    typeof countsForTopics.topicsTotal === "number"
+      ? countsForTopics.topicsTotal
+      : topicIndex.length;
   const trending = [...topicIndex]
     .filter((r) => r.path.startsWith("trending/") || r.popularity >= 7)
     .sort((a, b) => b.popularity - a.popularity)
@@ -988,7 +996,7 @@ function buildHome() {
           </div>
           <div class="hero-stats">
             <div class="stat"><b>${totalQuestions.toLocaleString()}+</b><span>Questions</span></div>
-            <div class="stat"><b>${topicIndex.length}+</b><span>Topics</span></div>
+            <div class="stat"><b>${totalTopics.toLocaleString()}+</b><span>Topics</span></div>
             <div class="stat"><b>${PDF_NOTE_COUNT}+</b><span>PDFs</span></div>
           </div>
         </div>

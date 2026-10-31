@@ -183,6 +183,17 @@ number used to be hand-edited and drifted stale every time questions were
 added. Run it after `build-question-counts.js`; `--check` reports drift
 without writing.
 
+The hero's Topics count comes from the `topicsTotal` field that
+`tools/build-question-counts.js` writes to `data/counts.json`: the practice
+library topics plus the exam-book leaf topics plus the current-affairs
+categories plus the trending topics. It used to be `topicIndex.length`
+alone, so adding a whole exam book or a Current Affairs category never moved
+it and the number stuck at 325. `js/app.src.js` reads `counts.topicsTotal`
+in `applyPrecomputedCounts` and renders it in `renderHome` /
+`updateHeroTotals`; `tools/prerender.js` uses the same field for the
+prerendered `dist/` copy. Add the count from every library a new topic could
+land in, or the hero will drift again.
+
 `enrich-thin-pages.js` rewrites the 8 hub pages the builder emits, so the
 committed state is post-enrichment. A build on top of it reports those 8 pages
 as changed again; that is expected, and the tree is stable after the enrich

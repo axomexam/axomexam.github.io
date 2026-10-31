@@ -31,6 +31,7 @@
     examTotalLoaded: false,
     examTotalPromise: null,
     counts: null,
+    topicsTotal: 0,
     caCounts: null,
     caQuestionTotal: 0,
     caTotalPromise: null,
@@ -886,6 +887,13 @@
       state.examQuestionTotal = counts.examsTotal;
       state.examTotalLoaded = true;
     }
+
+    /* Topic total across every library (practice + exam books + current
+       affairs + trending). The practice-library index alone never moved when
+       a whole exam book or CA category was added, so the hero counter stuck. */
+    if (typeof counts.topicsTotal === "number") {
+      state.topicsTotal = counts.topicsTotal;
+    }
   }
 
   /* ================= Navigation helpers ================= */
@@ -1612,6 +1620,9 @@
   /* ================= Homepage ================= */
   function renderHome(main) {
     const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
+    /* Topic total comes from counts.json (practice + exam books + current
+       affairs + trending); the practice index alone misses the exam books. */
+    const totalTopics = state.topicsTotal || state.topicIndex.length;
     /* Only real downloadable PDF files count here; every other study
        resource on the site is an HTML page, not a PDF. */
     const totalPdfs = PDF_NOTE_COUNT;
@@ -1628,7 +1639,7 @@
           <p class="sub">${t("hero.sub") || "Practice thousands of questions for Assam competitive exams and download printable PDF notes in both Assamese and English — for ADRE 3.0, APSC, Assam Police, SSC, Railway & more."}</p>
           <div class="hero-stats">
             <div class="stat"><b id="stat-total-questions">${totalQuestions.toLocaleString()}+</b><span>${t("stat.questions")}</span></div>
-            <div class="stat"><b>${state.topicIndex.length}+</b><span>${t("stat.topics")}</span></div>
+            <div class="stat"><b id="stat-total-topics">${totalTopics.toLocaleString()}+</b><span>${t("stat.topics")}</span></div>
             <div class="stat"><b id="stat-total-pdfs">${totalPdfs}+</b><span>${t("stat.pdfs")}</span></div>
           </div>
         </div>
@@ -4707,6 +4718,11 @@
     const pdfEl = $("#stat-total-pdfs");
     if (pdfEl) {
       pdfEl.textContent = `${PDF_NOTE_COUNT}+`;
+    }
+    const topicsEl = $("#stat-total-topics");
+    if (topicsEl) {
+      const topics = state.topicsTotal || state.topicIndex.length;
+      topicsEl.textContent = `${topics.toLocaleString()}+`;
     }
   }
 

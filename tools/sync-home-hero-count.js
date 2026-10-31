@@ -85,7 +85,15 @@ function homepageTotals() {
   } catch (e) {}
   for (const f of trendingFiles) questions += countQuestionsFile(path.join(trendingDir, f));
 
-  const topics = Object.keys(topicCounts).length + trendingFiles.length;
+  /* The topic total spans every library the site serves — practice topics,
+     exam-book topics, current-affairs categories and trending topics — so
+     adding a new book or category moves the counter. build-question-counts.js
+     computes and stores it; fall back to the practice-library length if an
+     older manifest is present. */
+  const topics =
+    typeof counts.topicsTotal === "number"
+      ? counts.topicsTotal
+      : Object.keys(topicCounts).length + trendingFiles.length;
 
   return { questions, topics, pdfs: PDF_NOTE_COUNT };
 }

@@ -176,12 +176,44 @@ for (const exam of exams) {
   }
 }
 
+/* ------------------------------------------------------------------
+   Homepage "Topics" total.
+
+   The hero counter used to be just the practice-library topic index, so
+   adding a whole exam book (or a Current Affairs category) never moved it.
+   Sum every topic the site actually serves instead:
+
+     practice topics + exam-book topics + current-affairs topics
+       + trending topics
+   ------------------------------------------------------------------ */
+const practiceTopicCount = Object.keys(topicCounts).length;
+
+/* Exam-book topics are the deepest nodes in the section tree — the ones
+   that actually carry a question bank. */
+const examTopicCount = (() => {
+  const keys = Object.keys(examSectionCounts);
+  return keys.filter((k) => !keys.some((o) => o !== k && o.startsWith(k + "/"))).length;
+})();
+
+const caIndex = readJSON(path.join(SAMPLE, "current-affairs", "index.json")) || {};
+const caTopicCount = Array.isArray(caIndex.categories) ? caIndex.categories.length : 0;
+
+let trendingTopicCount = 0;
+try {
+  trendingTopicCount = fs
+    .readdirSync(path.join(SAMPLE, "trending-topics"))
+    .filter((n) => /\.json$/i.test(n)).length;
+} catch (e) {}
+
+const topicsTotal = practiceTopicCount + examTopicCount + caTopicCount + trendingTopicCount;
+
 /* ------------------------------------------------------------------ */
 const output = {
   generatedAt: new Date().toISOString(),
   topicCounts,
   examSectionCounts,
   examsTotal,
+  topicsTotal,
 };
 
 fs.writeFileSync(OUT_FILE, JSON.stringify(output, null, 2) + "\n");
@@ -189,5 +221,7 @@ console.log(
   `Wrote ${path.relative(ROOT, OUT_FILE)} — ` +
   `${Object.keys(topicCounts).length} topics, ` +
   `${Object.keys(examSectionCounts).length} exam sections, ` +
-  `examsTotal=${examsTotal}`
+  `examsTotal=${examsTotal}, topicsTotal=${topicsTotal}` +
+  ` (practice ${practiceTopicCount} + exam ${examTopicCount} + ` +
+  `current-affairs ${caTopicCount} + trending ${trendingTopicCount})`
 );
