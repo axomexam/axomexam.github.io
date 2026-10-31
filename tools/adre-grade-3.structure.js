@@ -125,7 +125,8 @@ const EXAM = {
           id: "vocabulary",
           title: { en: "Vocabulary", as: "শব্দভাণ্ডাৰ (Vocabulary)" },
           subcategories: [
-            { id: "synonyms-antonyms", title: { en: "Synonyms & Antonyms", as: "সমৰ্থক আৰু বিপৰীত শব্দ (Synonyms & Antonyms)।" } },
+            { id: "synonyms", title: { en: "Synonyms", as: "সমাৰ্থক শব্দ (Synonyms)।" } },
+            { id: "antonyms", title: { en: "Antonyms", as: "বিপৰীত শব্দ (Antonyms)।" } },
             { id: "one-word-substitution", title: { en: "One Word Substitution", as: "এটা শব্দত প্ৰকাশ (One Word Substitution)।" } },
             { id: "idioms-phrases", title: { en: "Idioms & Phrases", as: "Idioms and Phrases — বাক্যৰীতি আৰু খণ্ডবাক্য।" } },
             { id: "error-detection", title: { en: "Spotting Errors", as: "বাক্যৰ ভুল নিৰ্ণয় (Spotting Errors)।" } },

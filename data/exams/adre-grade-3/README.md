@@ -30,7 +30,7 @@ data/exams/adre-grade-3/
 ```json
 [
   {
-    "id": "synonyms-antonyms-002",
+    "id": "synonyms-002",
     "q": { "en": "...", "as": "..." },
     "options": [
       { "en": "...", "as": "..." },
@@ -87,7 +87,8 @@ data/exams/adre-grade-3/
 | General English | Grammar → Subject-Verb Agreement | `general-english/grammar/subject-verb-agreement` |
 | General English | Grammar → Voice Change | `general-english/grammar/voice-change` |
 | General English | Grammar → Narration | `general-english/grammar/narration` |
-| General English | Vocabulary → Synonyms & Antonyms | `general-english/vocabulary/synonyms-antonyms` |
+| General English | Vocabulary → Synonyms | `general-english/vocabulary/synonyms` |
+| General English | Vocabulary → Antonyms | `general-english/vocabulary/antonyms` |
 | General English | Vocabulary → One Word Substitution | `general-english/vocabulary/one-word-substitution` |
 | General English | Vocabulary → Idioms & Phrases | `general-english/vocabulary/idioms-phrases` |
 | General English | Vocabulary → Spotting Errors | `general-english/vocabulary/error-detection` |

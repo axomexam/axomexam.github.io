@@ -24,11 +24,13 @@ const SRC_DIR = path.join(__dirname, "english-src");
 const OUT = path.join(__dirname, "adre-grade-3.questions.english.js");
 
 const TOPICS = [
+  "antonyms",
   "articles-determiners",
   "narration",
   "parts-of-speech",
   "prepositions",
   "subject-verb-agreement",
+  "synonyms",
   "tenses-rules",
   "voice-change",
 ];

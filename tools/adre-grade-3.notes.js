@@ -339,19 +339,38 @@ module.exports = {
       a: { en: "A question in indirect speech is joined by if or whether, or by the question word itself such as what or where.", as: "পৰোক্ষ উক্তিত প্ৰশ্নক if বা whether, বা প্ৰশ্নবোধক শব্দ যেনে what বা where ৰে যোগ কৰা হয়।" } }
   ]
 },
-"synonyms-antonyms": {
-  h2: { en: "Synonyms & Antonyms", as: "সমাৰ্থক আৰু বিপৰীত শব্দ" },
+"synonyms": {
+  h2: { en: "Synonyms", as: "সমাৰ্থক শব্দ" },
   p: {
-    en: ["A synonym is a word that has nearly the same meaning as another word, and an antonym is a word that has the opposite meaning. This chapter rewards a wide reading vocabulary more than any rule.", "The safest method is to learn words in pairs and in sentences. A word learnt with its antonym is remembered twice as well as a word learnt alone."],
-    as: ["সমাৰ্থক শব্দ হৈছে এনে শব্দ যাৰ অৰ্থ আন এটা শব্দৰ প্ৰায় একেই, আৰু বিপৰীত শব্দ হৈছে এনে শব্দ যাৰ অৰ্থ ওলোটা। এই অধ্যায়ে যিকোনো নিয়মতকৈ বহল পঠন-শব্দভাণ্ডাৰক পুৰস্কৃত কৰে।", "আটাইতকৈ সুৰক্ষিত পদ্ধতি হৈছে শব্দবোৰ যোৰ আৰু বাক্যত শিকা। বিপৰীত শব্দৰ সৈতে শিকা শব্দ এটা অকলে শিকাতকৈ দুগুণ ভালকৈ মনত থাকে।"]
+    en: ["A synonym is a word that has nearly the same meaning as another word. The examiner gives a word and asks you to choose, from four options, the one closest in sense to it. This chapter rewards a wide reading vocabulary more than any rule.", "The safest method is to learn words in pairs and in sentences. A word learnt together with its opposite is remembered twice as well as a word learnt alone, and a word used in a sentence of your own is remembered longer still."],
+    as: ["সমাৰ্থক শব্দ হৈছে এনে শব্দ যাৰ অৰ্থ আন এটা শব্দৰ প্ৰায় একেই। পৰীক্ষকে এটা শব্দ দি চাৰিটা বিকল্পৰ পৰা অৰ্থত আটাইতকৈ ওচৰৰ শব্দটো বাছনি কৰিবলৈ কয়। এই অধ্যায়ে যিকোনো নিয়মতকৈ বহল পঠন-শব্দভাণ্ডাৰক পুৰস্কৃত কৰে।", "আটাইতকৈ সুৰক্ষিত পদ্ধতি হৈছে শব্দবোৰ যোৰ আৰু বাক্যত শিকা। বিপৰীত শব্দৰ সৈতে শিকা শব্দ এটা অকলে শিকাতকৈ দুগুণ ভালকৈ মনত থাকে, আৰু নিজৰ বাক্যত ব্যৱহাৰ কৰা শব্দ আৰু বেছিদিন থাকে।"]
   },
   list: {
-    en: ["Learn the word with its antonym, not alone.", "Note the part of speech of the word before choosing its synonym.", "A word may have more than one synonym.", "Read the full sentence to judge the exact meaning."],
-    as: ["শব্দটো অকলে নহয়, বিপৰীত শব্দৰ সৈতে শিকক।", "সমাৰ্থক বাছনি কৰাৰ আগতে শব্দটোৰ প্ৰকাৰ টুকি লওক।", "এটা শব্দৰ এটাতকৈ বেছি সমাৰ্থক থাকিব পাৰে।", "সঠিক অৰ্থ নিৰ্ণয় কৰিবলৈ গোটেই বাক্যটো পঢ়ক।"]
+    en: ["Note the part of speech of the word before choosing its synonym.", "A word may have more than one synonym; pick the one that fits the sentence.", "Read the full sentence to judge the exact shade of meaning.", "Learn each new word with a synonym and an example sentence."],
+    as: ["সমাৰ্থক বাছনি কৰাৰ আগতে শব্দটোৰ প্ৰকাৰ টুকি লওক।", "এটা শব্দৰ এটাতকৈ বেছি সমাৰ্থক থাকিব পাৰে; বাক্যত খাপ খোৱাটো বাছনি কৰক।", "সঠিক অৰ্থৰ ছাঁ নিৰ্ণয় কৰিবলৈ গোটেই বাক্যটো পঢ়ক।", "প্ৰতিটো নতুন শব্দ এটা সমাৰ্থক আৰু এটা উদাহৰণ বাক্যৰ সৈতে শিকক।"]
   },
   faqs: [
-    { q: { en: "What is the best way to remember a new word?", as: "নতুন শব্দ এটা মনত ৰখাৰ আটাইতকৈ ভাল উপায় কি?" },
-      a: { en: "Learn it with its antonym and use it in a sentence of your own, because the opposite meaning fixes the sense of the word in memory.", as: "ইয়াক বিপৰীত শব্দৰ সৈতে শিকক আৰু নিজৰ এটা বাক্যত ব্যৱহাৰ কৰক, কাৰণ বিপৰীত অৰ্থই শব্দটোৰ ভাৱ মনত পকা কৰে।" } }
+    { q: { en: "What is a synonym?", as: "সমাৰ্থক শব্দ কি?" },
+      a: { en: "A synonym is a word that has nearly the same meaning as another word, such as brave and courageous, or begin and start.", as: "সমাৰ্থক শব্দ হৈছে এনে এটা শব্দ যাৰ অৰ্থ আন এটা শব্দৰ প্ৰায় একেই, যেনে brave আৰু courageous, বা begin আৰু start।" } },
+    { q: { en: "How do I choose between two close synonyms in the exam?", as: "পৰীক্ষাত দুটা ওচৰৰ সমাৰ্থকৰ মাজত কেনেকৈ বাছনি কৰিম?" },
+      a: { en: "Read the whole sentence and check the part of speech and the tone. The option that keeps the meaning and the grammar of the sentence intact is the answer.", as: "গোটেই বাক্যটো পঢ়ক আৰু শব্দৰ প্ৰকাৰ আৰু ভাব পৰীক্ষা কৰক। যি বিকল্পই বাক্যৰ অৰ্থ আৰু ব্যাকৰণ অটুট ৰাখে সেয়াই উত্তৰ।" } }
+  ]
+},
+"antonyms": {
+  h2: { en: "Antonyms", as: "বিপৰীত শব্দ" },
+  p: {
+    en: ["An antonym is a word that has the opposite meaning of another word. The question gives a word and asks for the option that is most opposite in meaning to it, so the answer must be the exact reverse and not merely a different word.", "Antonyms are easiest to remember as pairs. Learning hot with cold, ancient with modern and victory with defeat fixes both words at once, and the examiner tests these standard pairs far more often than rare ones."],
+    as: ["বিপৰীত শব্দ হৈছে এনে শব্দ যাৰ অৰ্থ আন এটা শব্দৰ ওলোটা। প্ৰশ্নই এটা শব্দ দি তাৰ অৰ্থৰ আটাইতকৈ বিপৰীত বিকল্পটো বিচাৰে, গতিকে উত্তৰটো নিশ্চিতভাৱে ওলোটা অৰ্থৰ হ'ব লাগে, কেৱল বেলেগ শব্দ নহয়।", "বিপৰীত শব্দ যোৰ হিচাপে মনত ৰখাত আটাইতকৈ সহজ। hot ৰ সৈতে cold, ancient ৰ সৈতে modern আৰু victory ৰ সৈতে defeat শিকিলে দুয়োটা শব্দ একেলগে পকা হয়, আৰু পৰীক্ষকে বিৰল শব্দতকৈ এই মানক যোৰবোৰেই বেছি সোধে।"]
+  },
+  list: {
+    en: ["Learn each word together with its antonym.", "Check the part of speech: the antonym of a verb is a verb.", "Do not pick a word that is merely different; it must be opposite.", "Revise the standard pairs in short, repeated sessions."],
+    as: ["প্ৰতিটো শব্দ তাৰ বিপৰীত শব্দৰ সৈতে শিকক।", "শব্দৰ প্ৰকাৰ পৰীক্ষা কৰক: ক্ৰিয়াৰ বিপৰীতও ক্ৰিয়া হয়।", "কেৱল বেলেগ শব্দ নবাছিব; সেয়া বিপৰীত হ'ব লাগে।", "মানক যোৰবোৰ চুটি চুটি সততে পুনৰালোচনা কৰক।"]
+  },
+  faqs: [
+    { q: { en: "What is an antonym?", as: "বিপৰীত শব্দ কি?" },
+      a: { en: "An antonym is a word that has the opposite meaning of another word, such as ancient and modern, or victory and defeat.", as: "বিপৰীত শব্দ হৈছে এনে এটা শব্দ যাৰ অৰ্থ আন এটা শব্দৰ ওলোটা, যেনে ancient আৰু modern, বা victory আৰু defeat।" } },
+    { q: { en: "Why is it safer to learn words in pairs?", as: "শব্দ যোৰ হিচাপে শিকা কিয় সুৰক্ষিত?" },
+      a: { en: "A word learnt with its opposite is remembered twice as well, because the two meanings hold each other in memory and the examiner often tests both.", as: "বিপৰীত শব্দৰ সৈতে শিকা শব্দ দুগুণ ভালকৈ মনত থাকে, কাৰণ দুয়োটা অৰ্থই ইটোৱে সিটোক মনত ৰাখে আৰু পৰীক্ষকে প্ৰায়ে দুয়োটা সোধে।" } }
   ]
 },
 "one-word-substitution": {

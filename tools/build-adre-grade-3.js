@@ -813,7 +813,7 @@ data/exams/adre-grade-3/
 \`\`\`json
 [
   {
-    "id": "synonyms-antonyms-002",
+    "id": "synonyms-002",
     "q": { "en": "...", "as": "..." },
     "options": [
       { "en": "...", "as": "..." },
