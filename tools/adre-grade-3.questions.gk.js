@@ -12,12 +12,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nine days",
-     "as": "ন দিন"
-    },
-    {
      "en": "Seven days",
      "as": "সাত দিন"
+    },
+    {
+     "en": "Nine days",
+     "as": "ন দিন"
     },
     {
      "en": "Five days",
@@ -28,7 +28,7 @@ module.exports = {
      "as": "তিনি দিন"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Bohag Bihu is a seven-day festival beginning with Goru Bihu and ending with Sera Bihu.",
     "as": "ব'হাগ বিহু সাত দিনীয়া উৎসৱ, গৰু বিহুৰ পৰা আৰম্ভ হৈ ছেৰা বিহুৰে শেষ হয়।"
@@ -42,23 +42,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Manuh Bihu",
-     "as": "মানুহ বিহু"
-    },
-    {
      "en": "Sera Bihu",
      "as": "ছেৰা বিহু"
+    },
+    {
+     "en": "Goru Bihu",
+     "as": "গৰু বিহু"
     },
     {
      "en": "Gosai Bihu",
      "as": "গোসাঁই বিহু"
     },
     {
-     "en": "Goru Bihu",
-     "as": "গৰু বিহু"
+     "en": "Manuh Bihu",
+     "as": "মানুহ বিহু"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "The first day of Bohag Bihu is Goru Bihu, devoted to cattle.",
     "as": "ব'হাগ বিহুৰ প্ৰথম দিন গৰু বিহু, যি গৰুৰ বাবে উৎসৰ্গিত।"
@@ -72,10 +72,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The fifth day",
-     "as": "পঞ্চম দিন"
-    },
-    {
      "en": "The seventh day",
      "as": "সপ্তম দিন"
     },
@@ -86,9 +82,13 @@ module.exports = {
     {
      "en": "The second day",
      "as": "দ্বিতীয় দিন"
+    },
+    {
+     "en": "The fifth day",
+     "as": "পঞ্চম দিন"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Manuh Bihu falls on the second day of Bohag Bihu and marks the Assamese New Year.",
     "as": "মানুহ বিহু ব'হাগ বিহুৰ দ্বিতীয় দিনত পৰে আৰু অসমীয়া নৱবৰ্ষৰ সূচনা কৰে।"
@@ -106,12 +106,12 @@ module.exports = {
      "as": "বিছু"
     },
     {
-     "en": "Bohag Bihu",
-     "as": "ব'হাগ বিহু"
-    },
-    {
      "en": "Magh Bihu",
      "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
     },
     {
      "en": "Kati Bihu",
@@ -132,6 +132,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
      "en": "Magh Bihu",
      "as": "মাঘ বিহু"
     },
@@ -140,15 +144,11 @@ module.exports = {
      "as": "ৰঙালী বিহু"
     },
     {
-     "en": "Kati Bihu",
-     "as": "কাতি বিহু"
-    },
-    {
      "en": "Bohag Bihu",
      "as": "ব'হাগ বিহু"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Kati Bihu, celebrated in Kartik (October), is a quiet festival of lamps lit in paddy fields and at the Tulsi plant.",
     "as": "কাতি বিহু, কাতি মাহত (অক্টোবৰ) পালন কৰা হয়, ধাননি পথাৰত আৰু তুলসী গছৰ গুৰিত চাকি জ্বলোৱা এটা শান্ত উৎসৱ।"
@@ -166,19 +166,19 @@ module.exports = {
      "as": "ভেলাঘৰ"
     },
     {
-     "en": "Husori",
-     "as": "হুছৰি"
-    },
-    {
      "en": "Uruka",
      "as": "উৰুকা"
+    },
+    {
+     "en": "Husori",
+     "as": "হুছৰি"
     },
     {
      "en": "Meji",
      "as": "মেজি"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The eve of Magh Bihu is Uruka, a night of community feasting.",
     "as": "মাঘ বিহুৰ আগদিনা উৰুকা, সামূহিক ভোজৰ ৰাতি।"
@@ -192,23 +192,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhelaghar",
-     "as": "ভেলাঘৰ"
+     "en": "Ghar",
+     "as": "ঘৰ"
     },
     {
      "en": "Chowki",
      "as": "চৌকী"
     },
     {
-     "en": "Ghar",
-     "as": "ঘৰ"
+     "en": "Bhelaghar",
+     "as": "ভেলাঘৰ"
     },
     {
      "en": "Namghar",
      "as": "নামঘৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Bhelaghar is the temporary bamboo hut built on Uruka night for the community feast.",
     "as": "ভেলাঘৰ হৈছে উৰুকা ৰাতি সামূহিক ভোজৰ বাবে সজা বাঁহৰ অস্থায়ী পঁজা।"
@@ -222,23 +222,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Meji",
-     "as": "মেজি"
-    },
-    {
-     "en": "Dhua",
-     "as": "ধোৱা"
-    },
-    {
      "en": "Agni",
      "as": "অগ্নি"
     },
     {
      "en": "Holika",
      "as": "হোলিকা"
+    },
+    {
+     "en": "Dhua",
+     "as": "ধোৱা"
+    },
+    {
+     "en": "Meji",
+     "as": "মেজি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Meji is the bonfire burnt on Magh Bihu morning; people throw pithas and betel into it.",
     "as": "মেজি হৈছে মাঘ বিহুৰ ৰাতিপুৱা জ্বলোৱা জুই; লোকে তাত পিঠা আৰু তামোল পেলায়।"
@@ -252,23 +252,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bwisagu",
-     "as": "বিছাগু"
-    },
-    {
      "en": "Bohag Bihu",
      "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
     },
     {
      "en": "Kati Bihu",
      "as": "কাতি বিহু"
     },
     {
-     "en": "Magh Bihu",
-     "as": "মাঘ বিহু"
+     "en": "Bwisagu",
+     "as": "বিছাগু"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Bohag Bihu, the spring new-year festival, is also called Rangali Bihu.",
     "as": "ব'হাগ বিহু, বসন্তকালীন নৱবৰ্ষ উৎসৱ, ৰঙালী বিহু বুলিও জনা যায়।"
@@ -282,23 +282,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Magh Bihu",
-     "as": "মাঘ বিহু"
-    },
-    {
      "en": "Kati Bihu",
      "as": "কাতি বিহু"
     },
     {
-     "en": "Bohag Bihu",
-     "as": "ব'হাগ বিহু"
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
     },
     {
      "en": "Bhogali Bihu only",
      "as": "কেৱল ভোগালী বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Magh Bihu, also called Bhogali Bihu, is the harvest festival of feasting.",
     "as": "মাঘ বিহু, ভোগালী বিহু বুলিও জনা যায়, ভোজৰ শস্য চপোৱা উৎসৱ।"
@@ -312,23 +312,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Agriculture and the seasons",
-     "as": "কৃষি আৰু ঋতু"
-    },
-    {
-     "en": "Trade and commerce",
-     "as": "ব্যৱসায়-বাণিজ্য"
-    },
-    {
      "en": "War and conquest",
      "as": "যুদ্ধ আৰু বিজয়"
     },
     {
      "en": "Coronation",
      "as": "ৰাজ্যাভিষেক"
+    },
+    {
+     "en": "Agriculture and the seasons",
+     "as": "কৃষি আৰু ঋতু"
+    },
+    {
+     "en": "Trade and commerce",
+     "as": "ব্যৱসায়-বাণিজ্য"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Bihu is an agrarian festival marking the agricultural seasons of Assam.",
     "as": "বিহু অসমৰ কৃষি ঋতু চিহ্নিত কৰা এটা কৃষিভিত্তিক উৎসৱ।"
@@ -342,23 +342,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tulsi",
-     "as": "তুলসী"
+     "en": "Banyan",
+     "as": "বৰগছ"
     },
     {
      "en": "Peepal",
      "as": "পিপল"
     },
     {
-     "en": "Banyan",
-     "as": "বৰগছ"
-    },
-    {
      "en": "Mango",
      "as": "আম"
+    },
+    {
+     "en": "Tulsi",
+     "as": "তুলসী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A Tulsi sapling is planted and worshipped during Bohag Bihu.",
     "as": "ব'হাগ বিহুত এজোপা তুলসী ৰুই পূজা কৰা হয়।"
@@ -380,12 +380,12 @@ module.exports = {
      "as": "কাতি বিহু"
     },
     {
-     "en": "Uruka",
-     "as": "উৰুকা"
-    },
-    {
      "en": "Magh Bihu",
      "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Uruka",
+     "as": "উৰুকা"
     }
    ],
    "correct": 0,
@@ -406,19 +406,19 @@ module.exports = {
      "as": "চাদৰ"
     },
     {
-     "en": "Aronai",
-     "as": "আৰণাই"
-    },
-    {
      "en": "Gamosa",
      "as": "গামোচা"
     },
     {
      "en": "Dokhona",
      "as": "দখনা"
+    },
+    {
+     "en": "Aronai",
+     "as": "আৰণাই"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The Gamosa is the white cloth with red borders offered as a mark of respect.",
     "as": "গামোচা হৈছে ৰঙা পাৰিৰ বগা কাপোৰ, যি সন্মানৰ চিন হিচাপে আগবঢ়োৱা হয়।"
@@ -432,23 +432,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Young men and women together",
-     "as": "যুৱক-যুৱতীয়ে একেলগে"
-    },
-    {
-     "en": "Only children",
-     "as": "কেৱল শিশুৱে"
-    },
-    {
      "en": "Only men",
      "as": "কেৱল পুৰুষে"
     },
     {
      "en": "Only women",
      "as": "কেৱল মহিলাই"
+    },
+    {
+     "en": "Young men and women together",
+     "as": "যুৱক-যুৱতীয়ে একেলগে"
+    },
+    {
+     "en": "Only children",
+     "as": "কেৱল শিশুৱে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Bihu dance is performed by young men and women together, especially during Bohag Bihu.",
     "as": "বিহু নৃত্য যুৱক-যুৱতীয়ে একেলগে পৰিবেশন কৰে, বিশেষকৈ ব'হাগ বিহুত।"
@@ -462,16 +462,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Monsoon",
-     "as": "বৰ্ষা"
+     "en": "Autumn",
+     "as": "শৰৎ"
     },
     {
      "en": "Winter",
      "as": "শীত"
     },
     {
-     "en": "Autumn",
-     "as": "শৰৎ"
+     "en": "Monsoon",
+     "as": "বৰ্ষা"
     },
     {
      "en": "Spring",
@@ -492,6 +492,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
      "en": "Kati Bihu",
      "as": "কাতি বিহু"
     },
@@ -500,15 +504,11 @@ module.exports = {
      "as": "ৰঙালী বিহু"
     },
     {
-     "en": "Magh Bihu",
-     "as": "মাঘ বিহু"
-    },
-    {
      "en": "Bohag Bihu",
      "as": "ব'হাগ বিহু"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Magh Bihu is celebrated in the month of Magh, around 14-15 January.",
     "as": "মাঘ বিহু মাঘ মাহত, ১৪-১৫ জানুৱাৰীৰ আশে-পাশে পালন কৰা হয়।"
@@ -522,23 +522,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Uruka",
-     "as": "উৰুকা"
-    },
-    {
-     "en": "Manuh Bihu",
-     "as": "মানুহ বিহু"
+     "en": "Goru Bihu",
+     "as": "গৰু বিহু"
     },
     {
      "en": "Sera Bihu",
      "as": "ছেৰা বিহু"
     },
     {
-     "en": "Goru Bihu",
-     "as": "গৰু বিহু"
+     "en": "Uruka",
+     "as": "উৰুকা"
+    },
+    {
+     "en": "Manuh Bihu",
+     "as": "মানুহ বিহু"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The seventh and last day of Bohag Bihu is Sera Bihu.",
     "as": "ব'হাগ বিহুৰ সপ্তম তথা শেষ দিনটো ছেৰা বিহু।"
@@ -552,20 +552,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Vishnu",
-     "as": "বিষ্ণু"
-    },
-    {
      "en": "Bihuva",
      "as": "বিহুৱা"
+    },
+    {
+     "en": "Bihu",
+     "as": "বিহু"
     },
     {
      "en": "Vishu",
      "as": "বিষু"
     },
     {
-     "en": "Bihu",
-     "as": "বিহু"
+     "en": "Vishnu",
+     "as": "বিষ্ণু"
     }
    ],
    "correct": 2,
@@ -590,15 +590,15 @@ module.exports = {
      "as": "কাতি"
     },
     {
-     "en": "Bohag",
-     "as": "ব'হাগ"
-    },
-    {
      "en": "Magh",
      "as": "মাঘ"
+    },
+    {
+     "en": "Bohag",
+     "as": "ব'হাগ"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Bohag Bihu falls in the Assamese month of Bohag.",
     "as": "ব'হাগ বিহু অসমীয়া ব'হাগ মাহত পৰে।"
@@ -616,16 +616,16 @@ module.exports = {
      "as": "পেঁপা"
     },
     {
-     "en": "Xutuli",
-     "as": "শুতুলি"
+     "en": "Khol",
+     "as": "খোল"
     },
     {
      "en": "Gogona",
      "as": "গগনা"
     },
     {
-     "en": "Khol",
-     "as": "খোল"
+     "en": "Xutuli",
+     "as": "শুতুলি"
     }
    ],
    "correct": 0,
@@ -642,20 +642,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Metal",
-     "as": "ধাতু"
+     "en": "Clay",
+     "as": "মাটি"
     },
     {
      "en": "Bamboo",
      "as": "বাঁহ"
     },
     {
-     "en": "Buffalo horn",
-     "as": "ম'হৰ শিং"
+     "en": "Metal",
+     "as": "ধাতু"
     },
     {
-     "en": "Clay",
-     "as": "মাটি"
+     "en": "Buffalo horn",
+     "as": "ম'হৰ শিং"
     }
    ],
    "correct": 1,
@@ -676,19 +676,19 @@ module.exports = {
      "as": "ধাতু"
     },
     {
-     "en": "Wood",
-     "as": "কাঠ"
-    },
-    {
      "en": "Ivory",
      "as": "হাতীদাঁত"
     },
     {
      "en": "Bamboo or clay",
      "as": "বাঁহ বা মাটি"
+    },
+    {
+     "en": "Wood",
+     "as": "কাঠ"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The Xutuli is a small whistle made of bamboo or clay.",
     "as": "শুতুলি হৈছে বাঁহ বা মাটিৰে নিৰ্মিত এটা সৰু বাদ্য।"
@@ -702,23 +702,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dhol",
-     "as": "ঢোল"
-    },
-    {
-     "en": "Doba",
-     "as": "ডবা"
-    },
-    {
      "en": "Dhak",
      "as": "ঢাক"
     },
     {
      "en": "Khol",
      "as": "খোল"
+    },
+    {
+     "en": "Doba",
+     "as": "ডবা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Dhol is the main drum of Bihu performances.",
     "as": "ঢোল বিহু পৰিবেশনৰ প্ৰধান তালবাদ্য।"
@@ -732,23 +732,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pepa",
-     "as": "পেঁপা"
-    },
-    {
      "en": "Taal",
      "as": "তাল"
     },
     {
-     "en": "Doba",
-     "as": "ডবা"
-    },
-    {
      "en": "Khol",
      "as": "খোল"
+    },
+    {
+     "en": "Pepa",
+     "as": "পেঁপা"
+    },
+    {
+     "en": "Doba",
+     "as": "ডবা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "The Taal, a pair of small cymbals, keeps rhythm in Bihu music.",
     "as": "তাল, সৰু কৰতালৰ যোৰ, বিহু সংগীতত তাল ৰাখে।"
@@ -762,20 +762,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pepa",
-     "as": "পেঁপা"
+     "en": "Xutuli",
+     "as": "শুতুলি"
     },
     {
      "en": "Baanhi",
      "as": "বাঁহী"
     },
     {
-     "en": "Gogona",
-     "as": "গগনা"
+     "en": "Pepa",
+     "as": "পেঁপা"
     },
     {
-     "en": "Xutuli",
-     "as": "শুতুলি"
+     "en": "Gogona",
+     "as": "গগনা"
     }
    ],
    "correct": 1,
@@ -796,19 +796,19 @@ module.exports = {
      "as": "আহোম ৰাজদৰবাৰ"
     },
     {
-     "en": "Tea garden songs",
-     "as": "চাহ বাগিচাৰ গান"
-    },
-    {
      "en": "Bihu folk dance",
      "as": "বিহু লোক-নৃত্য"
     },
     {
      "en": "Vaishnavite Sattriya tradition",
      "as": "বৈষ্ণৱ সত্ৰীয়া পৰম্পৰা"
+    },
+    {
+     "en": "Tea garden songs",
+     "as": "চাহ বাগিচাৰ গান"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The Khol is the drum of the Vaishnavite Sattriya tradition.",
     "as": "খোল বৈষ্ণৱ সত্ৰীয়া পৰম্পৰাৰ ঢোল।"
@@ -822,16 +822,16 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Laopani",
+     "as": "লাওপানী"
+    },
+    {
      "en": "Zu",
      "as": "জু"
     },
     {
      "en": "Chako",
      "as": "চাকো"
-    },
-    {
-     "en": "Laopani",
-     "as": "লাওপানী"
     },
     {
      "en": "Apong",
@@ -852,23 +852,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jolpan only",
-     "as": "কেৱল জলপান"
-    },
-    {
-     "en": "Muri",
-     "as": "মুৰি"
+     "en": "Pitha",
+     "as": "পিঠা"
     },
     {
      "en": "Chira",
      "as": "চিৰা"
     },
     {
-     "en": "Pitha",
-     "as": "পিঠা"
+     "en": "Jolpan only",
+     "as": "কেৱল জলপান"
+    },
+    {
+     "en": "Muri",
+     "as": "মুৰি"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Pitha, a rice cake, is a speciality of Bihu.",
     "as": "পিঠা, চাউলৰ পৰা বনোৱা কেক, বিহুৰ এটা বিশেষ খাদ্য।"
@@ -886,19 +886,19 @@ module.exports = {
      "as": "কেৱল গুড়"
     },
     {
-     "en": "Coconut",
-     "as": "নাৰিকল"
-    },
-    {
      "en": "Sesame seeds",
      "as": "তিল"
     },
     {
      "en": "Groundnut",
      "as": "বাদাম"
+    },
+    {
+     "en": "Coconut",
+     "as": "নাৰিকল"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Til Pitha is a rice cake stuffed with sesame seeds and jaggery.",
     "as": "তিল পিঠা তিল আৰু গুড়েৰে ভৰা চাউলৰ পিঠা।"
@@ -912,23 +912,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A set of traditional snacks",
-     "as": "পৰম্পৰাগত জলপানৰ সংহতি"
+     "en": "A sweet drink",
+     "as": "এটা মিঠা পানীয়"
     },
     {
      "en": "A type of curry",
      "as": "এবিধ তৰকাৰী"
     },
     {
-     "en": "A sweet drink",
-     "as": "এটা মিঠা পানীয়"
+     "en": "A set of traditional snacks",
+     "as": "পৰম্পৰাগত জলপানৰ সংহতি"
     },
     {
      "en": "A main rice meal",
      "as": "প্ৰধান ভাতৰ আহাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Jolpan is the Assamese term for a platter of traditional light snacks.",
     "as": "জলপান হৈছে পৰম্পৰাগত লঘু আহাৰৰ এটা সংহতিৰ অসমীয়া শব্দ।"
@@ -942,23 +942,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Biryani",
-     "as": "বিৰিয়ানী"
+     "en": "Khichdi",
+     "as": "খিচুড়ি"
     },
     {
      "en": "Pulao",
      "as": "পোলাও"
     },
     {
-     "en": "Payas",
-     "as": "পায়স"
+     "en": "Biryani",
+     "as": "বিৰিয়ানী"
     },
     {
-     "en": "Khichdi",
-     "as": "খিচুড়ি"
+     "en": "Payas",
+     "as": "পায়স"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Payas (rice kheer) is a popular Assamese sweet dish and offering.",
     "as": "পায়স (চাউলৰ পায়স) এটা জনপ্ৰিয় অসমীয়া মিঠা ব্যঞ্জন তথা নৈবেদ্য।"
@@ -976,16 +976,16 @@ module.exports = {
      "as": "২০০০ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "2010 CE",
-     "as": "২০১০ খ্ৰীষ্টাব্দ"
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
     },
     {
      "en": "1990 CE",
      "as": "১৯৯০ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "1985 CE",
-     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+     "en": "2010 CE",
+     "as": "২০১০ খ্ৰীষ্টাব্দ"
     }
    ],
    "correct": 0,
@@ -1006,19 +1006,19 @@ module.exports = {
      "as": "হৰিদেৱ"
     },
     {
-     "en": "Madhavdeva",
-     "as": "মাধৱদেৱ"
-    },
-    {
      "en": "Srimanta Sankardeva",
      "as": "শ্ৰীমন্ত শংকৰদেৱ"
     },
     {
      "en": "Damodardeva",
      "as": "দামোদৰদেৱ"
+    },
+    {
+     "en": "Madhavdeva",
+     "as": "মাধৱদেৱ"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Srimanta Sankardeva shaped the Sattriya dance tradition of the sattras.",
     "as": "শ্ৰীমন্ত শংকৰদেৱে সত্ৰৰ সত্ৰীয়া নৃত্য পৰম্পৰা গঢ় দিছিল।"
@@ -1032,23 +1032,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Manikut",
-     "as": "মণিকূট"
-    },
-    {
-     "en": "Namghar",
-     "as": "নামঘৰ"
-    },
-    {
      "en": "Rang Ghar",
      "as": "ৰংঘৰ"
     },
     {
      "en": "Dol",
      "as": "দ'ল"
+    },
+    {
+     "en": "Namghar",
+     "as": "নামঘৰ"
+    },
+    {
+     "en": "Manikut",
+     "as": "মণিকূট"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "The Namghar is the prayer hall of a sattra and of the village.",
     "as": "নামঘৰ হৈছে সত্ৰ তথা গাঁৱৰ প্ৰাৰ্থনা গৃহ।"
@@ -1066,12 +1066,12 @@ module.exports = {
      "as": "ভেলাঘৰ"
     },
     {
-     "en": "Chowki",
-     "as": "চৌকী"
-    },
-    {
      "en": "Ghar",
      "as": "ঘৰ"
+    },
+    {
+     "en": "Chowki",
+     "as": "চৌকী"
     },
     {
      "en": "Manikut",
@@ -1122,23 +1122,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bihugeet",
-     "as": "বিহুগীত"
-    },
-    {
-     "en": "Tokarigeet",
-     "as": "টোকাৰীগীত"
-    },
-    {
      "en": "Goalpariya",
      "as": "গোৱালপৰীয়া"
     },
     {
      "en": "Borgeet",
      "as": "বৰগীত"
+    },
+    {
+     "en": "Bihugeet",
+     "as": "বিহুগীত"
+    },
+    {
+     "en": "Tokarigeet",
+     "as": "টোকাৰীগীত"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Borgeet are the devotional songs composed mainly by Sankardeva and Madhavdeva.",
     "as": "বৰগীত হৈছে মূলতঃ শংকৰদেৱ আৰু মাধৱদেৱে ৰচনা কৰা ভক্তিমূলক গীত।"
@@ -1152,12 +1152,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Putala Naach",
-     "as": "পুতলা নাচ"
-    },
-    {
      "en": "Bihu",
      "as": "বিহু"
+    },
+    {
+     "en": "Putala Naach",
+     "as": "পুতলা নাচ"
     },
     {
      "en": "Bhaona",
@@ -1182,23 +1182,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Naam Ghosha",
-     "as": "নামঘোষা"
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
     },
     {
      "en": "Bhagavata",
      "as": "ভাগৱত"
     },
     {
-     "en": "Kirtan Ghosha",
-     "as": "কীৰ্তন ঘোষা"
-    },
-    {
      "en": "Gita",
      "as": "গীতা"
+    },
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Naam Ghosha of Madhavdeva is recited in Namghars.",
     "as": "মাধৱদেৱৰ নামঘোষা নামঘৰত পাঠ কৰা হয়।"
@@ -1212,23 +1212,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Auniati Satra",
-     "as": "আউনীআটী সত্ৰ"
-    },
-    {
-     "en": "Garamur Satra",
-     "as": "গৰমূৰ সত্ৰ"
-    },
-    {
      "en": "Samaguri Satra",
      "as": "সমাগুৰি সত্ৰ"
     },
     {
      "en": "Kamalabari Satra",
      "as": "কমলাবৰী সত্ৰ"
+    },
+    {
+     "en": "Auniati Satra",
+     "as": "আউনীআটী সত্ৰ"
+    },
+    {
+     "en": "Garamur Satra",
+     "as": "গৰমূৰ সত্ৰ"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Samaguri Satra in Majuli is famous for traditional mask making used in Bhaona.",
     "as": "মাজুলীৰ সমাগুৰি সত্ৰ ভাওনাত ব্যৱহৃত পৰম্পৰাগত মুখা নিৰ্মাণৰ বাবে বিখ্যাত।"
@@ -1242,8 +1242,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Deka family",
-     "as": "ডেকা পৰিয়াল"
+     "en": "The Bora family",
+     "as": "বৰা পৰিয়াল"
     },
     {
      "en": "The Goswami family",
@@ -1254,8 +1254,8 @@ module.exports = {
      "as": "শইকীয়া পৰিয়াল"
     },
     {
-     "en": "The Bora family",
-     "as": "বৰা পৰিয়াল"
+     "en": "The Deka family",
+     "as": "ডেকা পৰিয়াল"
     }
    ],
    "correct": 1,
@@ -1272,23 +1272,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Gogona",
-     "as": "গগনা"
-    },
-    {
-     "en": "Dhol",
-     "as": "ঢোল"
-    },
-    {
      "en": "Pepa",
      "as": "পেঁপা"
     },
     {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
      "en": "Khol",
      "as": "খোল"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The Khol accompanies Borgeet in the Namghar.",
     "as": "নামঘৰত বৰগীতৰ লগত খোল বজোৱা হয়।"
@@ -1302,10 +1302,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Taal",
-     "as": "তাল"
-    },
-    {
      "en": "Doba",
      "as": "ডবা"
     },
@@ -1316,9 +1312,13 @@ module.exports = {
     {
      "en": "Baanhi",
      "as": "বাঁহী"
+    },
+    {
+     "en": "Taal",
+     "as": "তাল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Taal accompanies Borgeet and Khol in the Sattriya tradition.",
     "as": "সত্ৰীয়া পৰম্পৰাত তালে বৰগীত আৰু খোলৰ লগত সংগত কৰে।"
@@ -1332,23 +1332,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Garamur Satra",
-     "as": "গৰমূৰ সত্ৰ"
-    },
-    {
-     "en": "Auniati Satra",
-     "as": "আউনীআটী সত্ৰ"
+     "en": "Dakhinpat Satra",
+     "as": "দক্ষিণপাট সত্ৰ"
     },
     {
      "en": "Kamalabari Satra",
      "as": "কমলাবৰী সত্ৰ"
     },
     {
-     "en": "Dakhinpat Satra",
-     "as": "দক্ষিণপাট সত্ৰ"
+     "en": "Auniati Satra",
+     "as": "আউনীআটী সত্ৰ"
+    },
+    {
+     "en": "Garamur Satra",
+     "as": "গৰমূৰ সত্ৰ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Dakhinpat Satra is among the oldest and largest sattras of Majuli.",
     "as": "দক্ষিণপাট সত্ৰ মাজুলীৰ আটাইতকৈ পুৰণি আৰু ডাঙৰ সত্ৰসমূহৰ এটা।"
@@ -1366,19 +1366,19 @@ module.exports = {
      "as": "ভূপেন দ্বীপ"
     },
     {
-     "en": "Umananda",
-     "as": "উমানন্দ"
-    },
-    {
      "en": "Majuli",
      "as": "মাজুলী"
     },
     {
      "en": "Peacock Island",
      "as": "ময়ূৰ দ্বীপ"
+    },
+    {
+     "en": "Umananda",
+     "as": "উমানন্দ"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Majuli is the greatest centre of Sattriya Vaishnavite culture.",
     "as": "মাজুলী সত্ৰীয়া বৈষ্ণৱ সংস্কৃতিৰ আটাইতকৈ ডাঙৰ কেন্দ্ৰ।"
@@ -1392,8 +1392,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Barak",
-     "as": "বৰাক"
+     "en": "Dhansiri",
+     "as": "ধনসিৰী"
     },
     {
      "en": "Subansiri",
@@ -1404,8 +1404,8 @@ module.exports = {
      "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "Dhansiri",
-     "as": "ধনসিৰী"
+     "en": "Barak",
+     "as": "বৰাক"
     }
    ],
    "correct": 2,
@@ -1422,23 +1422,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mobile theatre",
-     "as": "ভ্ৰাম্যমাণ থিয়েটাৰ"
+     "en": "Ojapali",
+     "as": "ওজাপালি"
     },
     {
-     "en": "Bhaona",
-     "as": "ভাওনা"
+     "en": "Mobile theatre",
+     "as": "ভ্ৰাম্যমাণ থিয়েটাৰ"
     },
     {
      "en": "Putala Naach",
      "as": "পুতলা নাচ"
     },
     {
-     "en": "Ojapali",
-     "as": "ওজাপালি"
+     "en": "Bhaona",
+     "as": "ভাওনা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Bhaona, the performance of Ankiya Naat, uses masks and is staged around a Namghar.",
     "as": "ভাওনা, অঙ্কীয়া নাটৰ পৰিবেশন, মুখা ব্যৱহাৰ কৰি নামঘৰৰ চাৰিওফালে মঞ্চস্থ কৰা হয়।"
@@ -1452,10 +1452,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bodo folk",
-     "as": "বড়ো লোক"
-    },
-    {
      "en": "Sattriya Vaishnavite",
      "as": "সত্ৰীয়া বৈষ্ণৱ"
     },
@@ -1464,11 +1460,15 @@ module.exports = {
      "as": "মিচিং লোক"
     },
     {
+     "en": "Bodo folk",
+     "as": "বড়ো লোক"
+    },
+    {
      "en": "Ahom court",
      "as": "আহোম ৰাজসভা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "The Sutradhara is the chief narrator of a Sattriya Bhaona.",
     "as": "সুত্ৰধাৰ হৈছে সত্ৰীয়া ভাওনাৰ প্ৰধান বৰ্ণনাকাৰী।"
@@ -1486,19 +1486,19 @@ module.exports = {
      "as": "বৰপেটা সত্ৰ"
     },
     {
-     "en": "Sarthebari Satra",
-     "as": "সৰ্থেবাৰী সত্ৰ"
+     "en": "Kamalabari Satra",
+     "as": "কমলাবৰী সত্ৰ"
     },
     {
      "en": "Samaguri Satra",
      "as": "সমাগুৰি সত্ৰ"
     },
     {
-     "en": "Kamalabari Satra",
-     "as": "কমলাবৰী সত্ৰ"
+     "en": "Sarthebari Satra",
+     "as": "সৰ্থেবাৰী সত্ৰ"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Kamalabari Satra in Majuli is known for its Raas festival.",
     "as": "মাজুলীৰ কমলাবৰী সত্ৰ ৰাস উৎসৱৰ বাবে জনাজাত।"
@@ -1512,23 +1512,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Garamur Satra",
-     "as": "গৰমূৰ সত্ৰ"
-    },
-    {
      "en": "Dakhinpat Satra",
      "as": "দক্ষিণপাট সত্ৰ"
     },
     {
-     "en": "Auniati Satra",
-     "as": "আউনীআটী সত্ৰ"
+     "en": "Garamur Satra",
+     "as": "গৰমূৰ সত্ৰ"
     },
     {
      "en": "Barpeta Satra",
      "as": "বৰপেটা সত্ৰ"
+    },
+    {
+     "en": "Auniati Satra",
+     "as": "আউনীআটী সত্ৰ"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Barpeta Satra was founded by Madhavdeva.",
     "as": "বৰপেটা সত্ৰ মাধৱদেৱে প্ৰতিষ্ঠা কৰিছিল।"
@@ -1542,23 +1542,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Village markets",
-     "as": "গাঁৱৰ বজাৰ"
-    },
-    {
-     "en": "Sattras",
-     "as": "সত্ৰ"
-    },
-    {
      "en": "Tea gardens",
      "as": "চাহ বাগিচা"
     },
     {
+     "en": "Village markets",
+     "as": "গাঁৱৰ বজাৰ"
+    },
+    {
      "en": "Royal courts",
      "as": "ৰাজদৰবাৰ"
+    },
+    {
+     "en": "Sattras",
+     "as": "সত্ৰ"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Sattriya dance began as an offering in the sattras.",
     "as": "সত্ৰীয়া নৃত্য সত্ৰত নৈবেদ্য হিচাপে আৰম্ভ হৈছিল।"
@@ -1572,6 +1572,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Ekasarana Dharma",
+     "as": "একশৰণ ধৰ্ম"
+    },
+    {
      "en": "Bathou Dharma",
      "as": "বাথৌ ধৰ্ম"
     },
@@ -1580,15 +1584,11 @@ module.exports = {
      "as": "শৈৱ ধৰ্ম"
     },
     {
-     "en": "Ekasarana Dharma",
-     "as": "একশৰণ ধৰ্ম"
-    },
-    {
      "en": "Sakta Dharma",
      "as": "শাক্ত ধৰ্ম"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Ekasarana Dharma, founded by Sankardeva, means the religion of devotion to one God.",
     "as": "শংকৰদেৱে প্ৰতিষ্ঠা কৰা একশৰণ ধৰ্মৰ অৰ্থ এক ঈশ্বৰৰ প্ৰতি ভক্তিৰ ধৰ্ম।"
@@ -1602,20 +1602,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Peepal",
-     "as": "পিপল"
+     "en": "Banyan",
+     "as": "বৰগছ"
     },
     {
      "en": "Sijou",
      "as": "ছিজৌ"
     },
     {
-     "en": "Banyan",
-     "as": "বৰগছ"
-    },
-    {
      "en": "Tulsi",
      "as": "তুলসী"
+    },
+    {
+     "en": "Peepal",
+     "as": "পিপল"
     }
    ],
    "correct": 1,
@@ -1632,23 +1632,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Garamur Satra",
-     "as": "গৰমূৰ সত্ৰ"
-    },
-    {
-     "en": "Kamalabari Satra",
-     "as": "কমলাবৰী সত্ৰ"
-    },
-    {
      "en": "Auniati Satra",
      "as": "আউনীআটী সত্ৰ"
     },
     {
+     "en": "Garamur Satra",
+     "as": "গৰমূৰ সত্ৰ"
+    },
+    {
      "en": "Dakhinpat Satra",
      "as": "দক্ষিণপাট সত্ৰ"
+    },
+    {
+     "en": "Kamalabari Satra",
+     "as": "কমলাবৰী সত্ৰ"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Dakhinpat Satra is among the oldest and largest sattras of Majuli.",
     "as": "দক্ষিণপাট সত্ৰ মাজুলীৰ আটাইতকৈ পুৰণি আৰু ডাঙৰ সত্ৰসমূহৰ এটা।"
@@ -1662,16 +1662,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bathou Dharma",
-     "as": "বাথৌ ধৰ্ম"
-    },
-    {
      "en": "Sakta Dharma",
      "as": "শাক্ত ধৰ্ম"
     },
     {
      "en": "Saiva Dharma",
      "as": "শৈৱ ধৰ্ম"
+    },
+    {
+     "en": "Bathou Dharma",
+     "as": "বাথৌ ধৰ্ম"
     },
     {
      "en": "Ekasarana Dharma",
@@ -1692,23 +1692,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jhumur",
-     "as": "ঝুমুৰ"
-    },
-    {
      "en": "Bagurumba",
      "as": "বাগুৰুম্বা"
     },
     {
-     "en": "Sattriya",
-     "as": "সত্ৰীয়া"
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
     },
     {
      "en": "Bhortal",
      "as": "ভৰতাল"
+    },
+    {
+     "en": "Sattriya",
+     "as": "সত্ৰীয়া"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Bagurumba is the signature folk dance of the Bodo community.",
     "as": "বাগুৰুম্বা বড়ো জনগোষ্ঠীৰ বৈশিষ্ট্যপূৰ্ণ লোক-নৃত্য।"
@@ -1722,10 +1722,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Wangala",
-     "as": "ৱানগালা"
-    },
-    {
      "en": "Kherai",
      "as": "খেৰাই"
     },
@@ -1736,9 +1732,13 @@ module.exports = {
     {
      "en": "Bwisagu",
      "as": "বিছাগু"
+    },
+    {
+     "en": "Wangala",
+     "as": "ৱানগালা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Busu Dima is the main harvest festival of the Dimasa community.",
     "as": "বুছু দিমা দিমাছা জনগোষ্ঠীৰ প্ৰধান শস্য চপোৱা উৎসৱ।"
@@ -1752,10 +1752,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rabha",
-     "as": "ৰাভা"
-    },
-    {
      "en": "Karbi",
      "as": "কাৰ্বি"
     },
@@ -1764,11 +1760,15 @@ module.exports = {
      "as": "বড়ো"
     },
     {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    },
+    {
      "en": "Mishing",
      "as": "মিচিং"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Rabha community celebrates the Baikho festival.",
     "as": "ৰাভা জনগোষ্ঠীয়ে বাইখো উৎসৱ পালন কৰে।"
@@ -1786,19 +1786,19 @@ module.exports = {
      "as": "বড়ো"
     },
     {
-     "en": "Tea garden communities",
-     "as": "চাহ বাগিচাৰ জনগোষ্ঠী"
-    },
-    {
      "en": "Karbi",
      "as": "কাৰ্বি"
     },
     {
      "en": "Rabha",
      "as": "ৰাভা"
+    },
+    {
+     "en": "Tea garden communities",
+     "as": "চাহ বাগিচাৰ জনগোষ্ঠী"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Jhumur is the traditional dance of the tea garden communities of Assam.",
     "as": "ঝুমুৰ অসমৰ চাহ বাগিচাৰ জনগোষ্ঠীসমূহৰ পৰম্পৰাগত নৃত্য।"
@@ -1816,16 +1816,16 @@ module.exports = {
      "as": "ডাঙৰ কৰতাল"
     },
     {
+     "en": "Sticks",
+     "as": "লাঠি"
+    },
+    {
      "en": "Umbrellas",
      "as": "ছাতি"
     },
     {
      "en": "Swords",
      "as": "তৰোৱাল"
-    },
-    {
-     "en": "Sticks",
-     "as": "লাঠি"
     }
    ],
    "correct": 0,
@@ -1842,12 +1842,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Manasa",
-     "as": "মনসা"
-    },
-    {
      "en": "Kali",
      "as": "কালী"
+    },
+    {
+     "en": "Manasa",
+     "as": "মনসা"
     },
     {
      "en": "Lakshmi",
@@ -1858,7 +1858,7 @@ module.exports = {
      "as": "দুৰ্গা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Deodhani dance is performed during Manasa worship.",
     "as": "দেৱধনী নৃত্য মনসা পূজাৰ সময়ত পৰিবেশন কৰা হয়।"
@@ -1872,23 +1872,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhaona",
-     "as": "ভাওনা"
-    },
-    {
-     "en": "Ojapali",
-     "as": "ওজাপালি"
+     "en": "Kushan",
+     "as": "কুশান"
     },
     {
      "en": "Dhuliya",
      "as": "ধুলিয়া"
     },
     {
-     "en": "Kushan",
-     "as": "কুশান"
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    },
+    {
+     "en": "Bhaona",
+     "as": "ভাওনা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Ojapali is the folk dance-drama of undivided Kamrup.",
     "as": "ওজাপালি অখণ্ড কামৰূপৰ লোক-নৃত্য-নাট্য।"
@@ -1902,23 +1902,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhaona",
-     "as": "ভাওনা"
-    },
-    {
-     "en": "Kushan Geet",
-     "as": "কুশান গীত"
-    },
-    {
      "en": "Ojapali",
      "as": "ওজাপালি"
     },
     {
      "en": "Dhuliya",
      "as": "ধুলিয়া"
+    },
+    {
+     "en": "Bhaona",
+     "as": "ভাওনা"
+    },
+    {
+     "en": "Kushan Geet",
+     "as": "কুশান গীত"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Kushan Geet of Goalpara narrates stories from the Ramayana.",
     "as": "গোৱালপৰাৰ কুশান গীতে ৰামায়ণৰ কাহিনী বৰ্ণনা কৰে।"
@@ -1936,16 +1936,16 @@ module.exports = {
      "as": "দৰং"
     },
     {
-     "en": "Barpeta",
-     "as": "বৰপেটা"
-    },
-    {
      "en": "Cachar",
      "as": "কাছাৰ"
     },
     {
      "en": "Goalpara",
      "as": "গোৱালপৰা"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
     }
    ],
    "correct": 0,
@@ -1962,6 +1962,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Kham",
+     "as": "খাম"
+    },
+    {
      "en": "Dhol",
      "as": "ঢোল"
     },
@@ -1972,13 +1976,9 @@ module.exports = {
     {
      "en": "Doba",
      "as": "ডবা"
-    },
-    {
-     "en": "Kham",
-     "as": "খাম"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Dhol is the large drum played with sticks in Assamese folk music.",
     "as": "ঢোল অসমীয়া লোক-সংগীতত লাঠিৰে বজোৱা ডাঙৰ ঢোল।"
@@ -1992,23 +1992,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kham",
-     "as": "খাম"
-    },
-    {
      "en": "Dhol",
      "as": "ঢোল"
     },
     {
-     "en": "Khol",
-     "as": "খোল"
+     "en": "Kham",
+     "as": "খাম"
     },
     {
      "en": "Doba",
      "as": "ডবা"
+    },
+    {
+     "en": "Khol",
+     "as": "খোল"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The Doba is the traditional drum of the Karbi community.",
     "as": "ডবা কাৰ্বি জনগোষ্ঠীৰ পৰম্পৰাগত ঢোল।"
@@ -2022,23 +2022,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pepa",
-     "as": "পেঁপা"
-    },
-    {
-     "en": "Sifung",
-     "as": "ছিফুং"
-    },
-    {
      "en": "Gogona",
      "as": "গগনা"
     },
     {
+     "en": "Pepa",
+     "as": "পেঁপা"
+    },
+    {
      "en": "Baanhi",
      "as": "বাঁহী"
+    },
+    {
+     "en": "Sifung",
+     "as": "ছিফুং"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "The Sifung is the traditional bamboo flute of the Bodo community.",
     "as": "ছিফুং বড়ো জনগোষ্ঠীৰ পৰম্পৰাগত বাঁহৰ বাঁহী।"
@@ -2052,23 +2052,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sifung",
-     "as": "ছিফুং"
-    },
-    {
-     "en": "Doba",
-     "as": "ডবা"
+     "en": "Serja",
+     "as": "ছেৰ্জা"
     },
     {
      "en": "Kham",
      "as": "খাম"
     },
     {
-     "en": "Serja",
-     "as": "ছেৰ্জা"
+     "en": "Sifung",
+     "as": "ছিফুং"
+    },
+    {
+     "en": "Doba",
+     "as": "ডবা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "The Serja is the bowed stringed instrument of the Bodo community.",
     "as": "ছেৰ্জা বড়ো জনগোষ্ঠীৰ ধনুৰে বজোৱা তাঁৰযন্ত্ৰ।"
@@ -2082,8 +2082,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Khol",
-     "as": "খোল"
+     "en": "Doba",
+     "as": "ডবা"
     },
     {
      "en": "Kham",
@@ -2094,8 +2094,8 @@ module.exports = {
      "as": "ঢোল"
     },
     {
-     "en": "Doba",
-     "as": "ডবা"
+     "en": "Khol",
+     "as": "খোল"
     }
    ],
    "correct": 1,
@@ -2112,23 +2112,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ivory",
-     "as": "হাতীদাঁত"
+     "en": "Clay",
+     "as": "মাটি"
     },
     {
      "en": "Metal",
      "as": "ধাতু"
     },
     {
-     "en": "Clay",
-     "as": "মাটি"
-    },
-    {
      "en": "Bamboo",
      "as": "বাঁহ"
+    },
+    {
+     "en": "Ivory",
+     "as": "হাতীদাঁত"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The Toka is a bamboo clapper used in Assamese folk music.",
     "as": "টোকা অসমীয়া লোক-সংগীতত ব্যৱহৃত বাঁহৰ বাদ্য।"
@@ -2142,10 +2142,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Biyanam",
-     "as": "বিয়ানাম"
-    },
-    {
      "en": "Husori",
      "as": "হুছৰি"
     },
@@ -2156,9 +2152,13 @@ module.exports = {
     {
      "en": "Bihu naam",
      "as": "বিহু নাম"
+    },
+    {
+     "en": "Biyanam",
+     "as": "বিয়ানাম"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Biyanam are wedding songs sung by women.",
     "as": "বিয়ানাম বিয়াৰ সময়ত মহিলাসকলে গোৱা গীত।"
@@ -2180,12 +2180,12 @@ module.exports = {
      "as": "বিহু গীত"
     },
     {
-     "en": "Aainam",
-     "as": "আইনাম"
-    },
-    {
      "en": "Biyanam",
      "as": "বিয়ানাম"
+    },
+    {
+     "en": "Aainam",
+     "as": "আইনাম"
     }
    ],
    "correct": 0,
@@ -2202,23 +2202,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dhol and Taal",
-     "as": "ঢোল আৰু তাল"
-    },
-    {
-     "en": "Sifung and Doba",
-     "as": "ছিফুং আৰু ডবা"
-    },
-    {
      "en": "Khol and Taal",
      "as": "খোল আৰু তাল"
     },
     {
+     "en": "Dhol and Taal",
+     "as": "ঢোল আৰু তাল"
+    },
+    {
      "en": "Serja and Kham",
      "as": "ছেৰ্জা আৰু খাম"
+    },
+    {
+     "en": "Sifung and Doba",
+     "as": "ছিফুং আৰু ডবা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Bihu dance is performed with the Dhol and Taal.",
     "as": "বিহু নৃত্য ঢোল আৰু তালৰ সৈতে পৰিবেশন কৰা হয়।"
@@ -2232,12 +2232,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ghila khel",
-     "as": "ঘিলা খেল"
-    },
-    {
      "en": "Ha-du-du",
      "as": "হা-ডু-ডু"
+    },
+    {
+     "en": "Ghila khel",
+     "as": "ঘিলা খেল"
     },
     {
      "en": "Dhopkhel",
@@ -2262,23 +2262,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kori khel",
-     "as": "কড়ি খেল"
-    },
-    {
-     "en": "Ha-du-du",
-     "as": "হা-ডু-ডু"
-    },
-    {
      "en": "Bagh-bakri",
      "as": "বাঘ-বকৰী"
     },
     {
+     "en": "Kori khel",
+     "as": "কড়ি খেল"
+    },
+    {
      "en": "Dhopkhel",
      "as": "ঢোপখেল"
+    },
+    {
+     "en": "Ha-du-du",
+     "as": "হা-ডু-ডু"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Ha-du-du is the Assamese name for kabaddi.",
     "as": "হা-ডু-ডু হৈছে কাবাডিৰ অসমীয়া নাম।"
@@ -2292,10 +2292,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ghila khel",
-     "as": "ঘিলা খেল"
-    },
-    {
      "en": "Kori khel",
      "as": "কড়ি খেল"
     },
@@ -2306,9 +2302,13 @@ module.exports = {
     {
      "en": "Ha-du-du",
      "as": "হা-ডু-ডু"
+    },
+    {
+     "en": "Ghila khel",
+     "as": "ঘিলা খেল"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Kori khel (seven stones) is a traditional Assamese game.",
     "as": "কড়ি খেল (সাত শিল) এটা পৰম্পৰাগত অসমীয়া খেল।"
@@ -2322,23 +2322,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhaona",
-     "as": "ভাওনা"
-    },
-    {
      "en": "Kushan",
      "as": "কুশান"
+    },
+    {
+     "en": "Putala Naach",
+     "as": "পুতলা নাচ"
     },
     {
      "en": "Ojapali",
      "as": "ওজাপালি"
     },
     {
-     "en": "Putala Naach",
-     "as": "পুতলা নাচ"
+     "en": "Bhaona",
+     "as": "ভাওনা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Putala Naach is the puppet theatre of Assam.",
     "as": "পুতলা নাচ অসমৰ পুতলী-নাট্য।"
@@ -2352,10 +2352,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rangmanch",
-     "as": "ৰংমঞ্চ"
-    },
-    {
      "en": "Jatra",
      "as": "যাত্ৰা"
     },
@@ -2366,9 +2362,13 @@ module.exports = {
     {
      "en": "Bhramyaman theatre",
      "as": "ভ্ৰাম্যমাণ থিয়েটাৰ"
+    },
+    {
+     "en": "Rangmanch",
+     "as": "ৰংমঞ্চ"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The travelling theatre of Assam is called Bhramyaman (mobile) theatre.",
     "as": "অসমৰ ভ্ৰমণকাৰী থিয়েটাৰক ভ্ৰাম্যমাণ থিয়েটাৰ বোলা হয়।"
@@ -2386,19 +2386,19 @@ module.exports = {
      "as": "চাহ প্ৰক্ৰিয়াকৰণ"
     },
     {
-     "en": "Silk weaving",
-     "as": "ৰেচম বোৱা"
-    },
-    {
      "en": "Oil refining",
      "as": "তেল শোধন"
     },
     {
      "en": "Paper making",
      "as": "কাগজ নিৰ্মাণ"
+    },
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Sualkuchi is famous for silk weaving, especially muga and pat silk.",
     "as": "সুৱালকুছি ৰেচম বোৱাৰ বাবে বিখ্যাত, বিশেষকৈ মুগা আৰু পাট ৰেচম।"
@@ -2412,23 +2412,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Deep red",
-     "as": "গাঢ় ৰঙা"
-    },
-    {
      "en": "Golden yellow",
      "as": "সোণালী হালধীয়া"
     },
     {
-     "en": "Green",
-     "as": "সেউজীয়া"
+     "en": "Deep red",
+     "as": "গাঢ় ৰঙা"
     },
     {
      "en": "Blue",
      "as": "নীলা"
+    },
+    {
+     "en": "Green",
+     "as": "সেউজীয়া"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Muga silk has a natural golden yellow colour and a lustrous sheen.",
     "as": "মুগা ৰেচমৰ স্বাভাৱিক সোণালী হালধীয়া ৰং আৰু চিকচিকিয়া দীপ্তি আছে।"
@@ -2442,6 +2442,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "It is made of cotton",
+     "as": "ই কপাহেৰে নিৰ্মিত"
+    },
+    {
      "en": "The silkworm is not killed",
      "as": "ৰেচম পোক নুমুৱা নহয়"
     },
@@ -2450,15 +2454,11 @@ module.exports = {
      "as": "ই বগা"
     },
     {
-     "en": "It is made of cotton",
-     "as": "ই কপাহেৰে নিৰ্মিত"
-    },
-    {
      "en": "It is cheap",
      "as": "ই সস্তা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Eri silk is called ahimsa silk because the moth emerges before the cocoon is reeled, so the silkworm is not killed.",
     "as": "এৰী ৰেচমক অহিংসা ৰেচম বোলা হয় কাৰণ লেটা মেলাৰ আগতে পোকটো ওলাই যায়, গতিকে পোক নুমুৱা নহয়।"
@@ -2472,23 +2472,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pat",
-     "as": "পাট"
+     "en": "Tassar",
+     "as": "তছৰ"
     },
     {
      "en": "Muga",
      "as": "মুগা"
     },
     {
-     "en": "Tassar",
-     "as": "তছৰ"
-    },
-    {
      "en": "Eri",
      "as": "এৰী"
+    },
+    {
+     "en": "Pat",
+     "as": "পাট"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Eri silk is produced by the eri silkworm and is widely reared by tribal communities.",
     "as": "এৰী ৰেচম এৰী ৰেচম-পোকে উৎপাদন কৰে আৰু জনজাতীয় জনগোষ্ঠীয়ে বহুলভাৱে প্ৰতিপালন কৰে।"
@@ -2502,6 +2502,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Assamese men",
+     "as": "অসমীয়া পুৰুষৰ"
+    },
+    {
      "en": "Bodo men",
      "as": "বড়ো পুৰুষৰ"
     },
@@ -2512,13 +2516,9 @@ module.exports = {
     {
      "en": "Assamese women",
      "as": "অসমীয়া মহিলাৰ"
-    },
-    {
-     "en": "Assamese men",
-     "as": "অসমীয়া পুৰুষৰ"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Mekhela Chador is the traditional two-piece dress of Assamese women.",
     "as": "মেখেলা চাদৰ অসমীয়া মহিলাৰ পৰম্পৰাগত দুটুকুৰীয়া পোছাক।"
@@ -2532,23 +2532,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mishing",
-     "as": "মিচিং"
-    },
-    {
      "en": "Bodo",
      "as": "বড়ো"
     },
     {
-     "en": "Rabha",
-     "as": "ৰাভা"
+     "en": "Mishing",
+     "as": "মিচিং"
     },
     {
      "en": "Karbi",
      "as": "কাৰ্বি"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "The Dokhona is the traditional dress of Bodo women.",
     "as": "দখনা বড়ো মহিলাৰ পৰম্পৰাগত পোছাক।"
@@ -2562,8 +2562,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Wrist",
-     "as": "হাতৰ কবিৰি"
+     "en": "Nose",
+     "as": "নাক"
     },
     {
      "en": "Ear",
@@ -2574,8 +2574,8 @@ module.exports = {
      "as": "ডিঙি"
     },
     {
-     "en": "Nose",
-     "as": "নাক"
+     "en": "Wrist",
+     "as": "হাতৰ কবিৰি"
     }
    ],
    "correct": 1,
@@ -2596,19 +2596,19 @@ module.exports = {
      "as": "নূপুৰ"
     },
     {
+     "en": "Jonbiri",
+     "as": "জোনবিৰি"
+    },
+    {
      "en": "Mantia",
      "as": "মন্তিয়া"
     },
     {
      "en": "Kharu",
      "as": "খাৰু"
-    },
-    {
-     "en": "Jonbiri",
-     "as": "জোনবিৰি"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "The Mantia is a traditional Assamese necklace.",
     "as": "মন্তিয়া এটা পৰম্পৰাগত অসমীয়া গলপতা।"
@@ -2622,23 +2622,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Thuria",
-     "as": "থুৰিয়া"
-    },
-    {
-     "en": "Kharu",
-     "as": "খাৰু"
-    },
-    {
      "en": "Jonbiri",
      "as": "জোনবিৰি"
     },
     {
      "en": "Mantia",
      "as": "মন্তিয়া"
+    },
+    {
+     "en": "Thuria",
+     "as": "থুৰিয়া"
+    },
+    {
+     "en": "Kharu",
+     "as": "খাৰু"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "The Kharu is a traditional Assamese bangle.",
     "as": "খাৰু এটা পৰম্পৰাগত অসমীয়া চুড়ি।"
@@ -2656,16 +2656,16 @@ module.exports = {
      "as": "কাঁহ"
     },
     {
+     "en": "Iron",
+     "as": "লোহা"
+    },
+    {
      "en": "Zinc",
      "as": "জিংক"
     },
     {
      "en": "Copper",
      "as": "তাম"
-    },
-    {
-     "en": "Iron",
-     "as": "লোহা"
     }
    ],
    "correct": 0,
@@ -2682,23 +2682,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Silk weaving",
-     "as": "ৰেচম বোৱা"
-    },
-    {
-     "en": "Bamboo baskets",
-     "as": "বাঁহৰ টুপি"
-    },
-    {
      "en": "Mask making",
      "as": "মুখা নিৰ্মাণ"
     },
     {
      "en": "Bell metal and brass work",
      "as": "কাঁহ আৰু পিতলৰ কাম"
+    },
+    {
+     "en": "Bamboo baskets",
+     "as": "বাঁহৰ টুপি"
+    },
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Sarthebari is famous for bell metal and brass utensils.",
     "as": "সৰ্থেবাৰী কাঁহ আৰু পিতলৰ বাচন-বৰ্তনৰ বাবে বিখ্যাত।"
@@ -2712,12 +2712,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Leather",
-     "as": "চামৰা"
-    },
-    {
      "en": "Cane only",
      "as": "কেৱল বেত"
+    },
+    {
+     "en": "Leather",
+     "as": "চামৰা"
     },
     {
      "en": "Bamboo and palm leaf",
@@ -2742,23 +2742,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bodo",
-     "as": "বড়ো"
-    },
-    {
-     "en": "Karbi",
-     "as": "কাৰ্বি"
-    },
-    {
      "en": "Dimasa",
      "as": "দিমাছা"
     },
     {
      "en": "Mishing",
      "as": "মিচিং"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Japi is closely associated with the Bodo community.",
     "as": "জাপি বড়ো জনগোষ্ঠীৰ সৈতে ঘনিষ্ঠভাৱে জড়িত।"
@@ -2772,23 +2772,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jute",
-     "as": "পাট"
-    },
-    {
-     "en": "Silk only",
-     "as": "কেৱল ৰেচম"
-    },
-    {
      "en": "Cotton",
      "as": "কপাহ"
     },
     {
      "en": "Wool",
      "as": "ঊণ"
+    },
+    {
+     "en": "Silk only",
+     "as": "কেৱল ৰেচম"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "The Gamosa is traditionally woven from cotton.",
     "as": "গামোচা পৰম্পৰাগতভাৱে কপাহেৰে বোৱা হয়।"
@@ -2802,23 +2802,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mekhela",
-     "as": "মেখেলা"
-    },
-    {
-     "en": "Aronai",
-     "as": "আৰণাই"
+     "en": "Dokhona",
+     "as": "দখনা"
     },
     {
      "en": "Gamsa",
      "as": "গামছা"
     },
     {
-     "en": "Dokhona",
-     "as": "দখনা"
+     "en": "Mekhela",
+     "as": "মেখেলা"
+    },
+    {
+     "en": "Aronai",
+     "as": "আৰণাই"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The Gamsa is the traditional Bodo scarf.",
     "as": "গামছা বড়ো পৰম্পৰাগত গামোচা।"
@@ -2832,23 +2832,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tea garden communities",
-     "as": "চাহ বাগিচাৰ জনগোষ্ঠী"
-    },
-    {
-     "en": "Mishing",
-     "as": "মিচিং"
-    },
-    {
      "en": "Rabha",
      "as": "ৰাভা"
     },
     {
+     "en": "Tea garden communities",
+     "as": "চাহ বাগিচাৰ জনগোষ্ঠী"
+    },
+    {
      "en": "Bodo",
      "as": "বড়ো"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The Aronai is a traditional Bodo scarf.",
     "as": "আৰণাই এটা পৰম্পৰাগত বড়ো গামোচা।"
@@ -2866,19 +2866,19 @@ module.exports = {
      "as": "জৰা শিল্প"
     },
     {
-     "en": "Mukha shilpa",
-     "as": "মুখা শিল্প"
+     "en": "Tant shilpa",
+     "as": "তাঁত শিল্প"
     },
     {
      "en": "Pith shilpa",
      "as": "পিঠ শিল্প"
     },
     {
-     "en": "Tant shilpa",
-     "as": "তাঁত শিল্প"
+     "en": "Mukha shilpa",
+     "as": "মুখা শিল্প"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Mukha shilpa is the traditional mask-making craft used in Bhaona.",
     "as": "মুখা শিল্প হৈছে ভাওনাত ব্যৱহৃত পৰম্পৰাগত মুখা নিৰ্মাণৰ শিল্প।"
@@ -2892,10 +2892,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Auniati Satra",
-     "as": "আউনীআটী সত্ৰ"
-    },
-    {
      "en": "Samaguri Satra",
      "as": "সমাগুৰি সত্ৰ"
     },
@@ -2906,9 +2902,13 @@ module.exports = {
     {
      "en": "Kamalabari Satra",
      "as": "কমলাবৰী সত্ৰ"
+    },
+    {
+     "en": "Auniati Satra",
+     "as": "আউনীআটী সত্ৰ"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Mask making is centred at Samaguri Satra in Majuli.",
     "as": "মুখা নিৰ্মাণ মাজুলীৰ সমাগুৰি সত্ৰত কেন্দ্ৰীভূত।"
@@ -2922,23 +2922,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Cane and bamboo craft",
-     "as": "বেত-বাঁহ শিল্প"
+     "en": "Mask craft",
+     "as": "মুখা শিল্প"
     },
     {
-     "en": "Silk craft",
-     "as": "ৰেচম শিল্প"
+     "en": "Cane and bamboo craft",
+     "as": "বেত-বাঁহ শিল্প"
     },
     {
      "en": "Bell metal craft",
      "as": "কাঁহ শিল্প"
     },
     {
-     "en": "Mask craft",
-     "as": "মুখা শিল্প"
+     "en": "Silk craft",
+     "as": "ৰেচম শিল্প"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Cane and bamboo craft is a major Assamese handicraft.",
     "as": "বেত-বাঁহ শিল্প এটা প্ৰধান অসমীয়া হস্তশিল্প।"
@@ -2956,19 +2956,19 @@ module.exports = {
      "as": "মুগা চিত্ৰ"
     },
     {
+     "en": "Pith painting",
+     "as": "পিঠ চিত্ৰ"
+    },
+    {
      "en": "Sanchipat painting",
      "as": "ছাঁচিপাত চিত্ৰ"
     },
     {
      "en": "Mask painting",
      "as": "মুখা চিত্ৰ"
-    },
-    {
-     "en": "Pith painting",
-     "as": "পিঠ চিত্ৰ"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Sanchipat painting is the traditional Assamese manuscript illustration on sanchi bark.",
     "as": "ছাঁচিপাত চিত্ৰ হৈছে ছাঁচি গছৰ বাকলিত কৰা পৰম্পৰাগত অসমীয়া পুথি-চিত্ৰ।"
@@ -2982,16 +2982,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Glass",
-     "as": "কাঁচ"
+     "en": "Ivory",
+     "as": "হাতীদাঁত"
     },
     {
      "en": "Silver",
      "as": "ৰূপ"
     },
     {
-     "en": "Ivory",
-     "as": "হাতীদাঁত"
+     "en": "Glass",
+     "as": "কাঁচ"
     },
     {
      "en": "Bamboo",
@@ -3012,23 +3012,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pitika",
-     "as": "পিটিকা"
+     "en": "Masor tenga",
+     "as": "মাছৰ টেঙা"
     },
     {
-     "en": "Khar",
-     "as": "খাৰ"
+     "en": "Pitika",
+     "as": "পিটিকা"
     },
     {
      "en": "Poitabhat",
      "as": "পইতাভাত"
     },
     {
-     "en": "Masor tenga",
-     "as": "মাছৰ টেঙা"
+     "en": "Khar",
+     "as": "খাৰ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Masor tenga is the sour fish curry of Assam, often made with bamboo shoot or lemon.",
     "as": "মাছৰ টেঙা অসমৰ টেঙা মাছৰ তৰকাৰী, প্ৰায়ে বাঁহৰ গজাল বা নেমুৰ সৈতে প্ৰস্তুত কৰা হয়।"
@@ -3046,19 +3046,19 @@ module.exports = {
      "as": "শুকান"
     },
     {
-     "en": "Tenga",
-     "as": "টেঙা"
-    },
-    {
      "en": "Khar",
      "as": "খাৰ"
     },
     {
      "en": "Pitika",
      "as": "পিটিকা"
+    },
+    {
+     "en": "Tenga",
+     "as": "টেঙা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Khar is prepared using alkaline water obtained from the ash of banana.",
     "as": "খাৰ কলৰ ছাইৰ পৰা পোৱা খাৰ পানী ব্যৱহাৰ কৰি প্ৰস্তুত কৰা হয়।"
@@ -3072,20 +3072,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Khar",
-     "as": "খাৰ"
+     "en": "Tenga",
+     "as": "টেঙা"
     },
     {
-     "en": "Pitha",
-     "as": "পিঠা"
+     "en": "Khar",
+     "as": "খাৰ"
     },
     {
      "en": "Pitika",
      "as": "পিটিকা"
     },
     {
-     "en": "Tenga",
-     "as": "টেঙা"
+     "en": "Pitha",
+     "as": "পিঠা"
     }
    ],
    "correct": 2,
@@ -3132,6 +3132,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Jonbeel Mela",
+     "as": "জোনবিল মেলা"
+    },
+    {
      "en": "Ambubachi Mela",
      "as": "অম্বুবাচী মেলা"
     },
@@ -3142,13 +3146,9 @@ module.exports = {
     {
      "en": "Bihu",
      "as": "বিহু"
-    },
-    {
-     "en": "Jonbeel Mela",
-     "as": "জোনবিল মেলা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "The Jonbeel Mela is famous for its traditional barter system.",
     "as": "জোনবিল মেলা ইয়াৰ পৰম্পৰাগত বিনিময় প্ৰথাৰ বাবে বিখ্যাত।"
@@ -3162,10 +3162,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sualkuchi",
-     "as": "সুৱালকুছি"
-    },
-    {
      "en": "Tezpur",
      "as": "তেজপুৰ"
     },
@@ -3176,9 +3172,13 @@ module.exports = {
     {
      "en": "Barpeta",
      "as": "বৰপেটা"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "সুৱালকুছি"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The Jonbeel Mela is held at Jagiroad in Morigaon district.",
     "as": "জোনবিল মেলা মৰিগাঁও জিলাৰ জাগীৰোডত অনুষ্ঠিত হয়।"
@@ -3200,15 +3200,15 @@ module.exports = {
      "as": "মিচিং"
     },
     {
-     "en": "Karbi",
-     "as": "কাৰ্বি"
-    },
-    {
      "en": "Tiwa (Lalung)",
      "as": "তিওয়া (লালুং)"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "The Jonbeel Mela is organised by the Tiwa (Lalung) community.",
     "as": "জোনবিল মেলা তিওয়া (লালুং) জনগোষ্ঠীয়ে আয়োজন কৰে।"
@@ -3222,23 +3222,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kamakhya Temple",
-     "as": "কামাখ্যা মন্দিৰ"
+     "en": "Doul Govinda Temple",
+     "as": "দৌল গোবিন্দ মন্দিৰ"
     },
     {
      "en": "Hayagriva Madhava",
      "as": "হয়গ্ৰীৱ মাধৱ"
     },
     {
-     "en": "Doul Govinda Temple",
-     "as": "দৌল গোবিন্দ মন্দিৰ"
-    },
-    {
      "en": "Negheriting Temple",
      "as": "নগাঁও"
+    },
+    {
+     "en": "Kamakhya Temple",
+     "as": "কামাখ্যা মন্দিৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Ambubachi Mela is held at the Kamakhya Temple in Guwahati.",
     "as": "অম্বুবাচী মেলা গুৱাহাটীৰ কামাখ্যা মন্দিৰত অনুষ্ঠিত হয়।"
@@ -3252,6 +3252,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "The menstruation of the Earth goddess",
+     "as": "পৃথিৱী দেৱীৰ ঋতুস্ৰাৱ"
+    },
+    {
      "en": "The harvesting season",
      "as": "শস্য চপোৱাৰ ঋতু"
     },
@@ -3262,13 +3266,9 @@ module.exports = {
     {
      "en": "A war victory",
      "as": "যুদ্ধ বিজয়"
-    },
-    {
-     "en": "The menstruation of the Earth goddess",
-     "as": "পৃথিৱী দেৱীৰ ঋতুস্ৰাৱ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Ambubachi marks the annual menstruation of the Earth goddess at Kamakhya.",
     "as": "অম্বুবাচীয়ে কামাখ্যাত পৃথিৱী দেৱীৰ বাৰ্ষিক ঋতুস্ৰাৱ চিহ্নিত কৰে।"
@@ -3282,23 +3282,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bohag Bihu",
-     "as": "ব'হাগ বিহু"
-    },
-    {
-     "en": "Jonbeel",
-     "as": "জোনবিল"
+     "en": "Ambubachi",
+     "as": "অম্বুবাচী"
     },
     {
      "en": "Raas Mahotsav",
      "as": "ৰাস মহোৎসৱ"
     },
     {
-     "en": "Ambubachi",
-     "as": "অম্বুবাচী"
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Jonbeel",
+     "as": "জোনবিল"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The Raas Mahotsav, with Raas Leela performances, is most famous at Majuli.",
     "as": "ৰাসলীলা পৰিবেশনৰ সৈতে ৰাস মহোৎসৱ মাজুলীত আটাইতকৈ বিখ্যাত।"
@@ -3312,23 +3312,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Raas Leela",
-     "as": "ৰাসলীলা"
-    },
-    {
-     "en": "Bhaona",
-     "as": "ভাওনা"
+     "en": "Ojapali",
+     "as": "ওজাপালি"
     },
     {
      "en": "Kushan",
      "as": "কুশান"
     },
     {
-     "en": "Ojapali",
-     "as": "ওজাপালি"
+     "en": "Raas Leela",
+     "as": "ৰাসলীলা"
+    },
+    {
+     "en": "Bhaona",
+     "as": "ভাওনা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Raas Leela depicts the life and pastimes of Krishna.",
     "as": "ৰাসলীলাই কৃষ্ণৰ জীৱন আৰু লীলা চিত্ৰিত কৰে।"
@@ -3342,8 +3342,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Manasa Puja",
-     "as": "মনসা পূজা"
+     "en": "Karam Puja",
+     "as": "কৰম পূজা"
     },
     {
      "en": "Tusu Puja",
@@ -3354,11 +3354,11 @@ module.exports = {
      "as": "বাথৌ পূজা"
     },
     {
-     "en": "Karam Puja",
-     "as": "কৰম পূজা"
+     "en": "Manasa Puja",
+     "as": "মনসা পূজা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Manasa Puja is the worship of the serpent goddess.",
     "as": "মনসা পূজা সৰ্প দেৱীৰ পূজা।"
@@ -3372,12 +3372,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kushan Geet",
-     "as": "কুশান গীত"
-    },
-    {
      "en": "Manasa Mangal",
      "as": "মনসা মঙ্গল"
+    },
+    {
+     "en": "Kushan Geet",
+     "as": "কুশান গীত"
     },
     {
      "en": "Biyanam",
@@ -3388,7 +3388,7 @@ module.exports = {
      "as": "নিচুকনি"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Manasa Mangal narrates the story of the goddess Manasa.",
     "as": "মনসা মঙ্গলে দেৱী মনসাৰ কাহিনী বৰ্ণনা কৰে।"
@@ -3402,23 +3402,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bihu",
-     "as": "বিহু"
-    },
-    {
      "en": "Wangala",
      "as": "ৱানগালা"
+    },
+    {
+     "en": "Karam Puja",
+     "as": "কৰম পূজা"
     },
     {
      "en": "Kherai",
      "as": "খেৰাই"
     },
     {
-     "en": "Karam Puja",
-     "as": "কৰম পূজা"
+     "en": "Bihu",
+     "as": "বিহু"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Karam Puja is celebrated with Jhumur dance by tea garden communities.",
     "as": "কৰম পূজা চাহ বাগিচাৰ জনগোষ্ঠীয়ে ঝুমুৰ নৃত্যৰ সৈতে পালন কৰে।"
@@ -3462,23 +3462,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A fort",
-     "as": "এটা দুৰ্গ"
-    },
-    {
      "en": "A temple",
      "as": "এটা মন্দিৰ"
     },
     {
-     "en": "A two-storeyed royal pavilion",
-     "as": "দুই মহলীয়া ৰাজকীয় পেভিলিয়ন"
+     "en": "A fort",
+     "as": "এটা দুৰ্গ"
     },
     {
      "en": "A palace gate",
      "as": "এখন ৰাজপ্ৰাসাদৰ দুৱাৰ"
+    },
+    {
+     "en": "A two-storeyed royal pavilion",
+     "as": "দুই মহলীয়া ৰাজকীয় পেভিলিয়ন"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "The Rang Ghar is a two-storeyed oval amphitheatre built by the Ahoms.",
     "as": "ৰংঘৰ আহোমসকলে নিৰ্মাণ কৰা দুই মহলীয়া ডিম্বাকৃতিৰ ৰংমঞ্চ।"
@@ -3492,23 +3492,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A tall tower",
-     "as": "এটা ওখ টাৱাৰ"
-    },
-    {
-     "en": "A rock garden",
-     "as": "এটা শিলৰ বাগান"
+     "en": "Underground chambers",
+     "as": "ভূগৰ্ভস্থ কোঠা"
     },
     {
      "en": "A hanging bridge",
      "as": "এখন ওলমা দলং"
     },
     {
-     "en": "Underground chambers",
-     "as": "ভূগৰ্ভস্থ কোঠা"
+     "en": "A tall tower",
+     "as": "এটা ওখ টাৱাৰ"
+    },
+    {
+     "en": "A rock garden",
+     "as": "এটা শিলৰ বাগান"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "The Talatal Ghar is known for its underground chambers and tunnels.",
     "as": "তলাতল ঘৰ ইয়াৰ ভূগৰ্ভস্থ কোঠা আৰু সুৰংগৰ বাবে জনাজাত।"
@@ -3526,19 +3526,19 @@ module.exports = {
      "as": "কোচ"
     },
     {
-     "en": "Pala",
-     "as": "পাল"
-    },
-    {
      "en": "Ahom",
      "as": "আহোম"
+    },
+    {
+     "en": "Pala",
+     "as": "পাল"
     },
     {
      "en": "Kachari",
      "as": "কছাৰী"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The Charaideo Maidams are the burial mounds of Ahom kings.",
     "as": "চৰাইদেউৰ মৈদাম আহোম ৰজাসকলৰ সমাধি-স্তূপ।"
@@ -3552,23 +3552,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2023 CE",
-     "as": "২০২৩ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "2015 CE",
      "as": "২০১৫ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "2019 CE",
-     "as": "২০১৯ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "2010 CE",
      "as": "২০১০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2023 CE",
+     "as": "২০২৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2019 CE",
+     "as": "২০১৯ খ্ৰীষ্টাব্দ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Charaideo Maidams were inscribed as a UNESCO World Heritage Site in 2023.",
     "as": "চৰাইদেউৰ মৈদাম ২০২৩ চনত ইউনেস্ক' বিশ্ব ঐতিহ্য ক্ষেত্ৰ হিচাপে অন্তৰ্ভুক্ত হৈছিল।"
@@ -3612,23 +3612,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Buddhism",
-     "as": "বৌদ্ধ ধৰ্ম"
+     "en": "Tantrism (Shaktism)",
+     "as": "তন্ত্ৰবাদ (শাক্ত ধৰ্ম)"
     },
     {
      "en": "Jainism",
      "as": "জৈন ধৰ্ম"
     },
     {
-     "en": "Vaishnavism",
-     "as": "বৈষ্ণৱ ধৰ্ম"
+     "en": "Buddhism",
+     "as": "বৌদ্ধ ধৰ্ম"
     },
     {
-     "en": "Tantrism (Shaktism)",
-     "as": "তন্ত্ৰবাদ (শাক্ত ধৰ্ম)"
+     "en": "Vaishnavism",
+     "as": "বৈষ্ণৱ ধৰ্ম"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "The Kamakhya Temple is a major centre of Tantric Shaktism.",
     "as": "কামাখ্যা মন্দিৰ তান্ত্ৰিক শাক্ত ধৰ্মৰ এটা প্ৰধান কেন্দ্ৰ।"
@@ -3642,20 +3642,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tezpur",
-     "as": "তেজপুৰ"
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
     },
     {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
     },
     {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    },
-    {
      "en": "Jorhat",
      "as": "যোৰহাট"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
     }
    ],
    "correct": 1,
@@ -3676,16 +3676,16 @@ module.exports = {
      "as": "শিলচৰ"
     },
     {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
+     "en": "Nagaon",
+     "as": "নগাঁও"
     },
     {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
     },
     {
-     "en": "Nagaon",
-     "as": "নগাঁও"
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
     }
    ],
    "correct": 2,
@@ -3702,6 +3702,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
      "en": "Barpeta",
      "as": "বৰপেটা"
     },
@@ -3712,13 +3716,9 @@ module.exports = {
     {
      "en": "North Guwahati",
      "as": "উত্তৰ গুৱাহাটী"
-    },
-    {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "The Doul Govinda Temple is located at North Guwahati.",
     "as": "দৌল গোবিন্দ মন্দিৰ উত্তৰ গুৱাহাটীত অৱস্থিত।"
@@ -3732,23 +3732,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
-    },
-    {
      "en": "Hajo",
      "as": "হাজো"
     },
     {
-     "en": "Majuli",
-     "as": "মাজুলী"
-    },
-    {
      "en": "Barpeta",
      "as": "বৰপেটা"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "The Hayagriva Madhava Temple is located at Hajo.",
     "as": "হয়গ্ৰীৱ মাধৱ মন্দিৰ হাজোত অৱস্থিত।"
@@ -3762,23 +3762,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kamrup",
-     "as": "কামৰূপ"
-    },
-    {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
-    },
-    {
      "en": "Cachar",
      "as": "কাছাৰ"
     },
     {
      "en": "Darrang",
      "as": "দৰং"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "The Negheriting Shiva Temple is located in Darrang district.",
     "as": "নগেৰিটিং শিৱ মন্দিৰ দৰং জিলাত অৱস্থিত।"
@@ -3792,12 +3792,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hayagriva Madhava",
-     "as": "হয়গ্ৰীৱ মাধৱ"
-    },
-    {
      "en": "Doul Govinda",
      "as": "দৌল গোবিন্দ"
+    },
+    {
+     "en": "Hayagriva Madhava",
+     "as": "হয়গ্ৰীৱ মাধৱ"
     },
     {
      "en": "Kamakhya Temple",
@@ -3822,16 +3822,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
+     "en": "Jorhat",
+     "as": "যোৰহাট"
     },
     {
      "en": "Tezpur",
      "as": "তেজপুৰ"
     },
     {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
     },
     {
      "en": "Gargaon, Sivasagar",
@@ -3856,12 +3856,12 @@ module.exports = {
      "as": "ৰংঘৰ"
     },
     {
-     "en": "Kareng Ghar",
-     "as": "কাৰেং ঘৰ"
-    },
-    {
      "en": "Talatal Ghar",
      "as": "তলাতল ঘৰ"
+    },
+    {
+     "en": "Kareng Ghar",
+     "as": "কাৰেং ঘৰ"
     },
     {
      "en": "Joysagar",
@@ -3920,15 +3920,15 @@ module.exports = {
      "as": "বাগুৰুম্বা"
     },
     {
-     "en": "Jhumur",
-     "as": "ঝুমুৰ"
-    },
-    {
      "en": "Sattriya",
      "as": "সত্ৰীয়া"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Sattriya is the classical dance of Assam rooted in the Sattras.",
     "as": "সত্ৰীয়া সত্ৰত শিপাই থকা অসমৰ শাস্ত্ৰীয় নৃত্য।"
@@ -3942,23 +3942,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bohag Bihu",
-     "as": "ব'হাগ বিহু"
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
     },
     {
      "en": "Kati Bihu",
      "as": "কাতি বিহু"
     },
     {
-     "en": "Magh Bihu",
-     "as": "মাঘ বিহু"
-    },
-    {
      "en": "Raas",
      "as": "ৰাস"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Bohag Bihu is the main spring festival of Assam.",
     "as": "ব'হাগ বিহু অসমৰ প্ৰধান বসন্ত উৎসৱ।"
@@ -4010,12 +4010,12 @@ module.exports = {
      "as": "অতিথিক সন্মান আৰু তামোল আগবঢ়োৱা"
     },
     {
-     "en": "Storing grain",
-     "as": "শস্য ভঁৰাল কৰা"
-    },
-    {
      "en": "Weaving silk",
      "as": "ৰেচম বোৱা"
+    },
+    {
+     "en": "Storing grain",
+     "as": "শস্য ভঁৰাল কৰা"
     }
    ],
    "correct": 1,
@@ -4032,23 +4032,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Me-Dam-Me-Phi",
-     "as": "মে-দাম-মে-ফী"
+     "en": "Raas",
+     "as": "ৰাস"
     },
     {
      "en": "Kherai",
      "as": "খেৰাই"
     },
     {
-     "en": "Raas",
-     "as": "ৰাস"
+     "en": "Me-Dam-Me-Phi",
+     "as": "মে-দাম-মে-ফী"
     },
     {
      "en": "Bihu",
      "as": "বিহু"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Me-Dam-Me-Phi is the ancestor-worship festival of the Ahom community.",
     "as": "মে-দাম-মে-ফী আহোম জনগোষ্ঠীৰ পূৰ্বপুৰুষ-পূজাৰ উৎসৱ।"
@@ -4062,23 +4062,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kori khel",
-     "as": "কড়ি খেল"
-    },
-    {
      "en": "Ha-du-du",
      "as": "হা-ডু-ডু"
     },
     {
-     "en": "Dhopkhel",
-     "as": "ঢোপখেল"
+     "en": "Kori khel",
+     "as": "কড়ি খেল"
     },
     {
      "en": "Ghila khel",
      "as": "ঘিলা খেল"
+    },
+    {
+     "en": "Dhopkhel",
+     "as": "ঢোপখেল"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Dhopkhel is a traditional Assamese ball game, often played near water.",
     "as": "ঢোপখেল এটা পৰম্পৰাগত অসমীয়া বল-খেল, প্ৰায়ে পানীৰ ওচৰত খেলা হয়।"
@@ -4092,8 +4092,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rabha",
-     "as": "ৰাভা"
+     "en": "Vaishnavite communities of Barpeta",
+     "as": "বৰপেটাৰ বৈষ্ণৱ জনগোষ্ঠী"
     },
     {
      "en": "Bodo",
@@ -4104,11 +4104,11 @@ module.exports = {
      "as": "কাৰ্বি"
     },
     {
-     "en": "Vaishnavite communities of Barpeta",
-     "as": "বৰপেটাৰ বৈষ্ণৱ জনগোষ্ঠী"
+     "en": "Rabha",
+     "as": "ৰাভা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Bhortal is traditionally performed by Vaishnavite communities of Barpeta.",
     "as": "ভৰতাল পৰম্পৰাগতভাৱে বৰপেটাৰ বৈষ্ণৱ জনগোষ্ঠীয়ে পৰিবেশন কৰে।"
@@ -4122,20 +4122,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dimasa",
-     "as": "দিমাছা"
+     "en": "Karbi",
+     "as": "কাৰ্বি"
     },
     {
      "en": "Bodo",
      "as": "বড়ো"
     },
     {
-     "en": "Karbi",
-     "as": "কাৰ্বি"
-    },
-    {
      "en": "Mishing",
      "as": "মিচিং"
+    },
+    {
+     "en": "Dimasa",
+     "as": "দিমাছা"
     }
    ],
    "correct": 1,
@@ -4152,23 +4152,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhaona",
-     "as": "ভাওনা"
-    },
-    {
-     "en": "Ojapali",
-     "as": "ওজাপালি"
+     "en": "Dhuliya",
+     "as": "ধুলিয়া"
     },
     {
      "en": "Kushan",
      "as": "কুশান"
     },
     {
-     "en": "Dhuliya",
-     "as": "ধুলিয়া"
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    },
+    {
+     "en": "Bhaona",
+     "as": "ভাওনা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Ojapali is performed by the Oja and his Pali companions.",
     "as": "ওজাপালি ওজা আৰু তেওঁৰ পালি সঙ্গীসকলে পৰিবেশন কৰে।"
@@ -4182,23 +4182,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Magh Bihu",
-     "as": "মাঘ বিহু"
-    },
-    {
      "en": "Raas",
      "as": "ৰাস"
     },
     {
-     "en": "Bohag Bihu",
-     "as": "ব'হাগ বিহু"
-    },
-    {
      "en": "Kati Bihu",
      "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Husori singing groups perform during Bohag Bihu.",
     "as": "হুছৰি গায়ক দলে ব'হাগ বিহুত পৰিবেশন কৰে।"
@@ -4212,23 +4212,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bohag Bihu",
-     "as": "ব'হাগ বিহু"
-    },
-    {
-     "en": "Raas",
-     "as": "ৰাস"
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
     },
     {
      "en": "Kati Bihu",
      "as": "কাতি বিহু"
     },
     {
-     "en": "Magh Bihu",
-     "as": "মাঘ বিহু"
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Raas",
+     "as": "ৰাস"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Magh Bihu is the harvest festival celebrated with feasts and bonfires.",
     "as": "মাঘ বিহু ভোজ আৰু জুইৰ সৈতে পালন কৰা শস্য চপোৱা উৎসৱ।"
@@ -4246,19 +4246,19 @@ module.exports = {
      "as": "মিচিং"
     },
     {
-     "en": "Rabha",
-     "as": "ৰাভা"
-    },
-    {
      "en": "Bodo",
      "as": "বড়ো"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
     },
     {
      "en": "Karbi",
      "as": "কাৰ্বি"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The Bathou religion, symbolised by the Sijou plant, is followed by the Bodo community.",
     "as": "ছিজৌ গছেৰে প্ৰতীকিত বাথৌ ধৰ্ম বড়ো জনগোষ্ঠীয়ে পালন কৰে।"
@@ -4272,23 +4272,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Garo",
-     "as": "গাৰো"
+     "en": "Mishing",
+     "as": "মিচিং"
     },
     {
      "en": "Karbi",
      "as": "কাৰ্বি"
     },
     {
-     "en": "Mishing",
-     "as": "মিচিং"
+     "en": "Garo",
+     "as": "গাৰো"
     },
     {
      "en": "Bodo",
      "as": "বড়ো"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Wangala is the harvest festival of the Garo community.",
     "as": "ৱানগালা গাৰো জনগোষ্ঠীৰ শস্য চপোৱা উৎসৱ।"
@@ -4302,23 +4302,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bagurumba",
-     "as": "বাগুৰুম্বা"
+     "en": "Bhortal",
+     "as": "ভৰতাল"
     },
     {
      "en": "Jhumur",
      "as": "ঝুমুৰ"
     },
     {
-     "en": "Bhortal",
-     "as": "ভৰতাল"
-    },
-    {
      "en": "Deodhani",
      "as": "দেৱধনী"
+    },
+    {
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Bagurumba dance gracefully imitates the movement of butterflies.",
     "as": "বাগুৰুম্বা নৃত্য পখিলাৰ গতি কমনীয়ভাৱে অনুকৰণ কৰে।"
@@ -4340,12 +4340,12 @@ module.exports = {
      "as": "ভৰতাল"
     },
     {
-     "en": "Bagurumba",
-     "as": "বাগুৰুম্বা"
-    },
-    {
      "en": "Jhumur",
      "as": "ঝুমুৰ"
+    },
+    {
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
     }
    ],
    "correct": 0,
@@ -4362,23 +4362,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bodo",
-     "as": "বড়ো"
-    },
-    {
      "en": "Rabha",
      "as": "ৰাভা"
+    },
+    {
+     "en": "The Vaishnavite Assamese society",
+     "as": "বৈষ্ণৱ অসমীয়া সমাজ"
     },
     {
      "en": "Karbi",
      "as": "কাৰ্বি"
     },
     {
-     "en": "The Vaishnavite Assamese society",
-     "as": "বৈষ্ণৱ অসমীয়া সমাজ"
+     "en": "Bodo",
+     "as": "বড়ো"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Sattriya dance and the Sattra institution are associated with Vaishnavite Assamese society.",
     "as": "সত্ৰীয়া নৃত্য আৰু সত্ৰ প্ৰতিষ্ঠান বৈষ্ণৱ অসমীয়া সমাজৰ সৈতে জড়িত।"
@@ -4392,8 +4392,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mishing",
-     "as": "মিচিং"
+     "en": "Rabha",
+     "as": "ৰাভা"
     },
     {
      "en": "Karbi",
@@ -4404,8 +4404,8 @@ module.exports = {
      "as": "বড়ো"
     },
     {
-     "en": "Rabha",
-     "as": "ৰাভা"
+     "en": "Mishing",
+     "as": "মিচিং"
     }
    ],
    "correct": 2,
@@ -4422,23 +4422,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Gumrag",
-     "as": "গুমৰাগ"
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
     },
     {
      "en": "Bhortal",
      "as": "ভৰতাল"
     },
     {
-     "en": "Bagurumba",
-     "as": "বাগুৰুম্বা"
-    },
-    {
      "en": "Jhumur",
      "as": "ঝুমুৰ"
+    },
+    {
+     "en": "Gumrag",
+     "as": "গুমৰাগ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Gumrag is the traditional Mishing dance performed during Ali-Ai-Ligang.",
     "as": "গুমৰাগ আলি-আই-লিগাংত পৰিবেশন কৰা পৰম্পৰাগত মিচিং নৃত্য।"
@@ -4452,23 +4452,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dimasa",
-     "as": "দিমাছা"
-    },
-    {
-     "en": "Bodo",
-     "as": "বড়ো"
-    },
-    {
      "en": "Mishing",
      "as": "মিচিং"
     },
     {
      "en": "Karbi",
      "as": "কাৰ্বি"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Dimasa",
+     "as": "দিমাছা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Ali-Ai-Ligang is the main festival of the Mishing community.",
     "as": "আলি-আই-লিগাং মিচিং জনগোষ্ঠীৰ প্ৰধান উৎসৱ।"
@@ -4482,6 +4482,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Busu Dima",
+     "as": "বুছু দিমা"
+    },
+    {
      "en": "Bwisagu",
      "as": "বিছাগু"
     },
@@ -4490,15 +4494,11 @@ module.exports = {
      "as": "খেৰাই"
     },
     {
-     "en": "Busu Dima",
-     "as": "বুছু দিমা"
-    },
-    {
      "en": "Wangala",
      "as": "ৱানগালা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Bwisagu is the traditional New Year festival of the Bodo community.",
     "as": "বিছাগু বড়ো জনগোষ্ঠীৰ পৰম্পৰাগত নৱবৰ্ষ উৎসৱ।"
@@ -4512,23 +4512,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bathou",
-     "as": "বাথৌ"
-    },
-    {
-     "en": "Animism",
-     "as": "প্ৰকৃতি-পূজা"
-    },
-    {
      "en": "Vaishnavism",
      "as": "বৈষ্ণৱ ধৰ্ম"
     },
     {
      "en": "Buddhism",
      "as": "বৌদ্ধ ধৰ্ম"
+    },
+    {
+     "en": "Animism",
+     "as": "প্ৰকৃতি-পূজা"
+    },
+    {
+     "en": "Bathou",
+     "as": "বাথৌ"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Kherai is a festival of the traditional animistic religion of the Karbi community.",
     "as": "খেৰাই কাৰ্বি জনগোষ্ঠীৰ পৰম্পৰাগত প্ৰকৃতি-পূজা ধৰ্মৰ উৎসৱ।"
@@ -4542,23 +4542,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Harvest",
-     "as": "শস্য চপোৱা"
-    },
-    {
      "en": "Birth",
      "as": "জন্ম"
     },
     {
-     "en": "Death rites",
-     "as": "মৃত্যু-সংস্কাৰ"
-    },
-    {
      "en": "Marriage",
      "as": "বিবাহ"
+    },
+    {
+     "en": "Harvest",
+     "as": "শস্য চপোৱা"
+    },
+    {
+     "en": "Death rites",
+     "as": "মৃত্যু-সংস্কাৰ"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Chomangkan is the death ceremony of the Karbi community.",
     "as": "চোমাংকান কাৰ্বি জনগোষ্ঠীৰ মৃত্যু-সংস্কাৰৰ অনুষ্ঠান।"
@@ -4576,16 +4576,16 @@ module.exports = {
      "as": "কাৰ্বি"
     },
     {
-     "en": "Rabha",
-     "as": "ৰাভা"
+     "en": "Bodo",
+     "as": "বড়ো"
     },
     {
      "en": "Mishing",
      "as": "মিচিং"
     },
     {
-     "en": "Bodo",
-     "as": "বড়ো"
+     "en": "Rabha",
+     "as": "ৰাভা"
     }
    ],
    "correct": 0,
@@ -4606,19 +4606,19 @@ module.exports = {
      "as": "তুসু পূজা"
     },
     {
+     "en": "Karam Puja",
+     "as": "কৰম পূজা"
+    },
+    {
      "en": "Bathou Puja",
      "as": "বাথৌ পূজা"
     },
     {
      "en": "Manasa Puja",
      "as": "মনসা পূজা"
-    },
-    {
-     "en": "Karam Puja",
-     "as": "কৰম পূজা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Karam Puja is celebrated with the Karam dance by the tea tribes.",
     "as": "কৰম পূজা চাহ জনগোষ্ঠীয়ে কৰম নৃত্যৰ সৈতে পালন কৰে।"
@@ -4632,12 +4632,882 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bodo",
-     "as": "বড়ো"
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
     },
     {
      "en": "Tea garden communities",
      "as": "চাহ বাগিচাৰ জনগোষ্ঠী"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Jhumur is associated with the tea garden communities of Assam.",
+    "as": "ঝুমুৰ অসমৰ চাহ বাগিচাৰ জনগোষ্ঠীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-156",
+   "q": {
+    "en": "During which Bihu do people light a lamp under the Tulsi plant and in the paddy fields?",
+    "as": "কোন বিহুত লোকে তুলসী গছৰ তলত আৰু ধাননি পথাৰত চাকি জ্বলায়?"
+   },
+   "options": [
+    {
+     "en": "Sera Bihu",
+     "as": "ছেৰা বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Lamps are lit at the Tulsi plant and in paddy fields during Kati Bihu.",
+    "as": "কাতি বিহুত তুলসী গছৰ তলত আৰু ধাননি পথাৰত চাকি জ্বলোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-157",
+   "q": {
+    "en": "What is the name of the ritual lamp-stand used in Kati Bihu worship?",
+    "as": "কাতি বিহুৰ পূজাত ব্যৱহৃত চাকি ৰখা সামগ্ৰীটোৰ নাম কি?"
+   },
+   "options": [
+    {
+     "en": "Saki",
+     "as": "চাকি"
+    },
+    {
+     "en": "Pradip",
+     "as": "প্ৰদীপ"
+    },
+    {
+     "en": "Agni",
+     "as": "অগ্নি"
+    },
+    {
+     "en": "Dipa",
+     "as": "দীপা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A saki (earthen lamp) is placed on a pole in the paddy field during Kati Bihu.",
+    "as": "কাতি বিহুত ধাননি পথাৰত এটা খুটিৰ ওপৰত চাকি ৰখা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-158",
+   "q": {
+    "en": "Which traditional Assamese instrument is made from a bamboo tube and played during Bihu?",
+    "as": "কোন পৰম্পৰাগত অসমীয়া বাদ্য বাঁহৰ নলেৰে নিৰ্মিত আৰু বিহুত বজোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    },
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Doba",
+     "as": "ডবা"
+    },
+    {
+     "en": "Khol",
+     "as": "খোল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Gogona is a bamboo jaw harp played during Bihu.",
+    "as": "গগনা বাঁহৰে নিৰ্মিত এটা মুখে বজোৱা বাদ্য, যি বিহুত বজোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-159",
+   "q": {
+    "en": "Which dance is performed by young women during Bohag Bihu?",
+    "as": "ব'হাগ বিহুত যুৱতীসকলে কোন নৃত্য পৰিবেশন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Sattriya dance",
+     "as": "সত্ৰীয়া নৃত্য"
+    },
+    {
+     "en": "Bhortal dance",
+     "as": "ভৰতাল নৃত্য"
+    },
+    {
+     "en": "Bihu dance",
+     "as": "বিহু নৃত্য"
+    },
+    {
+     "en": "Bagurumba dance",
+     "as": "বাগুৰুম্বা নৃত্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Bihu dance is performed by young women during Bohag Bihu.",
+    "as": "ব'হাগ বিহুত যুৱতীসকলে বিহু নৃত্য পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-160",
+   "q": {
+    "en": "What is the traditional Assamese practice of giving a Gamosa to guests called?",
+    "as": "অতিথিক গামোচা আগবঢ়োৱাৰ পৰম্পৰাগত অসমীয়া ৰীতি কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Aronai diya",
+     "as": "আৰণাই দিয়া"
+    },
+    {
+     "en": "Xorai diya",
+     "as": "জৰা দিয়া"
+    },
+    {
+     "en": "Bihu diya",
+     "as": "বিহু দিয়া"
+    },
+    {
+     "en": "Gamosa diya",
+     "as": "গামোচা দিয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Offering a Gamosa is the Assamese custom of showing respect to guests.",
+    "as": "গামোচা আগবঢ়োৱা অসমীয়া ৰীতি, যি অতিথিক সন্মান দেখুৱায়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-161",
+   "q": {
+    "en": "Which Assamese festival is celebrated by the Bodo people as their New Year?",
+    "as": "কোন অসমীয়া উৎসৱ বড়োসকলে তেওঁলোকৰ নৱবৰ্ষ হিচাপে পালন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Bwisagu",
+     "as": "বিছাগু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bwisagu is the Bodo New Year festival, celebrated in spring.",
+    "as": "বিছাগু বড়োসকলৰ নৱবৰ্ষ উৎসৱ, যি বসন্তকালত পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-162",
+   "q": {
+    "en": "What is the traditional Assamese rice dish cooked with milk and jaggery for festivals?",
+    "as": "উৎসৱত গাখীৰ আৰু গুড়ৰ সৈতে ৰন্ধা পৰম্পৰাগত অসমীয়া চাউলৰ ব্যঞ্জন কি?"
+   },
+   "options": [
+    {
+     "en": "Tenga",
+     "as": "টেঙা"
+    },
+    {
+     "en": "Payas",
+     "as": "পায়স"
+    },
+    {
+     "en": "Khar",
+     "as": "খাৰ"
+    },
+    {
+     "en": "Pitika",
+     "as": "পিটিকা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Payas, a rice pudding with milk and jaggery, is a festive Assamese dish.",
+    "as": "পায়স, গাখীৰ আৰু গুড়ৰ চাউলৰ পায়স, এটা উৎসৱৰ অসমীয়া ব্যঞ্জন।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-163",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the traditional sport of bullock racing?",
+    "as": "কোন অসমীয়া উৎসৱ পৰম্পৰাগত ষাঁড় দৌৰৰ খেলৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bullock racing is a traditional Magh Bihu sport in Assam.",
+    "as": "ষাঁড় দৌৰ অসমৰ মাঘ বিহুৰ এটা পৰম্পৰাগত খেল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-164",
+   "q": {
+    "en": "What is the traditional Assamese game played with a spindle-shaped top?",
+    "as": "কোন পৰম্পৰাগত অসমীয়া খেল টাকুৰি আকৃতিৰ লাটিমৰ সৈতে খেলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Kori khel",
+     "as": "কড়ি খেল"
+    },
+    {
+     "en": "Ha-du-du",
+     "as": "হা-ডু-ডু"
+    },
+    {
+     "en": "Dhopkhel",
+     "as": "ঢোপখেল"
+    },
+    {
+     "en": "Latu khel",
+     "as": "লাটু খেল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Latu khel (spinning top) is a traditional Assamese game.",
+    "as": "লাটু খেল (ঘূৰ্ণায়মান লাটিম) এটা পৰম্পৰাগত অসমীয়া খেল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-165",
+   "q": {
+    "en": "Which Assamese folk dance imitates the movement of a peacock?",
+    "as": "কোন অসমীয়া লোক-নৃত্য ময়ূৰৰ গতি অনুকৰণ কৰে?"
+   },
+   "options": [
+    {
+     "en": "Mayur dance",
+     "as": "ময়ূৰ নৃত্য"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    },
+    {
+     "en": "Deodhani",
+     "as": "দেৱধনী"
+    },
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mayur dance imitates the graceful movement of a peacock.",
+    "as": "ময়ূৰ নৃত্য ময়ূৰৰ কমনীয় গতি অনুকৰণ কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-166",
+   "q": {
+    "en": "Which Assamese folk song is sung while rowing boats?",
+    "as": "কোন অসমীয়া লোক-গীত নাৱ বাই যাওঁতে গোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Biyanam",
+     "as": "বিয়ানাম"
+    },
+    {
+     "en": "Nao khelor geet",
+     "as": "নাও খেলৰ গীত"
+    },
+    {
+     "en": "Nisukoni geet",
+     "as": "নিচুকনি গীত"
+    },
+    {
+     "en": "Husori",
+     "as": "হুছৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nao khelor geet are boat-rowing songs of the riverine communities.",
+    "as": "নাও খেলৰ গীত নদী-অঞ্চলৰ জনগোষ্ঠীৰ নাৱ বোৱা গীত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-167",
+   "q": {
+    "en": "Which Assamese folk song tradition is associated with the tea garden workers?",
+    "as": "কোন অসমীয়া লোক-গীত পৰম্পৰা চাহ বাগিচাৰ শ্ৰমিকসকলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    },
+    {
+     "en": "Bihu geet",
+     "as": "বিহু গীত"
+    },
+    {
+     "en": "Jhumur geet",
+     "as": "ঝুমুৰ গীত"
+    },
+    {
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Jhumur geet are associated with the tea garden workers of Assam.",
+    "as": "ঝুমুৰ গীত অসমৰ চাহ বাগিচাৰ শ্ৰমিকসকলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-168",
+   "q": {
+    "en": "What is the traditional Assamese headgear worn by farmers in the fields called?",
+    "as": "পথাৰত কৃষকসকলে পিন্ধা পৰম্পৰাগত অসমীয়া শিৰোভূষণটোক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Xorai",
+     "as": "জৰা"
+    },
+    {
+     "en": "Aronai",
+     "as": "আৰণাই"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Japi",
+     "as": "জাপি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Japi is the conical hat worn by Assamese farmers.",
+    "as": "জাপি অসমীয়া কৃষকসকলে পিন্ধা শঙ্কু-আকৃতিৰ টুপি।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-169",
+   "q": {
+    "en": "Which Assamese community's women traditionally wear the Mekhela Chador?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ মহিলাসকলে পৰম্পৰাগতভাৱে মেখেলা চাদৰ পিন্ধে?"
+   },
+   "options": [
+    {
+     "en": "Assamese (general)",
+     "as": "অসমীয়া (সাধাৰণ)"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mekhela Chador is the traditional dress of Assamese women in general.",
+    "as": "মেখেলা চাদৰ সাধাৰণ অসমীয়া মহিলাৰ পৰম্পৰাগত পোছাক।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-170",
+   "q": {
+    "en": "Which Assamese traditional craft is famous for making the Xorai offering tray?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত শিল্প জৰা নৈবেদ্যৰ ট্ৰে নিৰ্মাণৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
+    },
+    {
+     "en": "Bell metal craft",
+     "as": "কাঁহ শিল্প"
+    },
+    {
+     "en": "Cane craft",
+     "as": "বেত শিল্প"
+    },
+    {
+     "en": "Mask making",
+     "as": "মুখা নিৰ্মাণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The bell metal craft is famous for making the Xorai.",
+    "as": "কাঁহ শিল্প জৰা নিৰ্মাণৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-171",
+   "q": {
+    "en": "Which Assamese festival involves the worship of the goddess Durga with a grand pandal?",
+    "as": "কোন অসমীয়া উৎসৱ দেৱী দুৰ্গাৰ পূজাৰ সৈতে এক বিশাল পণ্ডেলত পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Raas Puja",
+     "as": "ৰাস পূজা"
+    },
+    {
+     "en": "Karam Puja",
+     "as": "কৰম পূজা"
+    },
+    {
+     "en": "Durga Puja",
+     "as": "দুৰ্গা পূজা"
+    },
+    {
+     "en": "Manasa Puja",
+     "as": "মনসা পূজা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Durga Puja is celebrated across Assam with grand pandals.",
+    "as": "দুৰ্গা পূজা অসমজুৰি বিশাল পণ্ডেলত পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-172",
+   "q": {
+    "en": "Which Assamese festival celebrates the worship of the goddess Saraswati?",
+    "as": "কোন অসমীয়া উৎসৱ দেৱী সৰস্বতীৰ পূজাৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Lakshmi Puja",
+     "as": "লক্ষ্মী পূজা"
+    },
+    {
+     "en": "Durga Puja",
+     "as": "দুৰ্গা পূজা"
+    },
+    {
+     "en": "Kali Puja",
+     "as": "কালী পূজা"
+    },
+    {
+     "en": "Saraswati Puja",
+     "as": "সৰস্বতী পূজা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Saraswati Puja is celebrated in Assam, especially by students.",
+    "as": "সৰস্বতী পূজা অসমত পালন কৰা হয়, বিশেষকৈ ছাত্ৰ-ছাত্ৰীয়ে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-173",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the worship of the goddess Lakshmi in autumn?",
+    "as": "কোন অসমীয়া উৎসৱ শৰৎকালত দেৱী লক্ষ্মীৰ পূজাৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Lakshmi Puja",
+     "as": "লক্ষ্মী পূজা"
+    },
+    {
+     "en": "Kali Puja",
+     "as": "কালী পূজা"
+    },
+    {
+     "en": "Saraswati Puja",
+     "as": "সৰস্বতী পূজা"
+    },
+    {
+     "en": "Durga Puja",
+     "as": "দুৰ্গা পূজা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshmi Puja is celebrated in autumn in Assam.",
+    "as": "লক্ষ্মী পূজা অসমত শৰৎকালত পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-174",
+   "q": {
+    "en": "Which Assamese folk tradition is a form of ballad sung by men at night?",
+    "as": "কোন অসমীয়া লোক-পৰম্পৰা ৰাতি পুৰুষসকলে গোৱা এটা ধৰণৰ বালাড?"
+   },
+   "options": [
+    {
+     "en": "Bihu geet",
+     "as": "বিহু গীত"
+    },
+    {
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    },
+    {
+     "en": "Nisukoni",
+     "as": "নিচুকনি"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ojapali is a night-time ballad performance of men.",
+    "as": "ওজাপালি পুৰুষসকলে ৰাতি পৰিবেশন কৰা এটা বালাড।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-175",
+   "q": {
+    "en": "Which Assamese folk performance uses a large cymbal and is popular in Barpeta?",
+    "as": "কোন অসমীয়া লোক-পৰিবেশনা ডাঙৰ কৰতাল ব্যৱহাৰ কৰে আৰু বৰপেটাত জনপ্ৰিয়?"
+   },
+   "options": [
+    {
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    },
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    },
+    {
+     "en": "Deodhani",
+     "as": "দেৱধনী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bhortal is a cymbal dance popular in Barpeta.",
+    "as": "ভৰতাল বৰপেটাত জনপ্ৰিয় কৰতাল নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-176",
+   "q": {
+    "en": "Which Assamese community traditionally performs the Bihu dance with the Dhol and Taal?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীয়ে ঢোল আৰু তালৰ সৈতে বিহু নৃত্য পৰিবেশন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Dimasa",
+     "as": "দিমাছা"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Assamese people of the valleys",
+     "as": "উপত্যকাৰ অসমীয়া লোক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Bihu dance with Dhol and Taal is performed by the Assamese people of the valleys.",
+    "as": "ঢোল আৰু তালৰ সৈতে বিহু নৃত্য উপত্যকাৰ অসমীয়া লোকে পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-177",
+   "q": {
+    "en": "Which Assamese community's traditional festival is the Kherai dance festival?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত উৎসৱ খেৰাই নৃত্য উৎসৱ?"
+   },
+   "options": [
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Kherai festival with its dance is celebrated by the Karbi community.",
+    "as": "নৃত্যৰ সৈতে খেৰাই উৎসৱ কাৰ্বি জনগোষ্ঠীয়ে পালন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-178",
+   "q": {
+    "en": "Which Assamese community celebrates the Rongker festival?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীয়ে ৰংকেৰ উৎসৱ পালন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rongker is celebrated by the Karbi community.",
+    "as": "ৰংকেৰ কাৰ্বি জনগোষ্ঠীয়ে পালন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-179",
+   "q": {
+    "en": "Which Assamese community celebrates the Baikho festival?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীয়ে বাইখো উৎসৱ পালন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Baikho is celebrated by the Rabha community.",
+    "as": "বাইখো ৰাভা জনগোষ্ঠীয়ে পালন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-180",
+   "q": {
+    "en": "Which Assamese community celebrates the Busu Dima festival?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীয়ে বুছু দিমা উৎসৱ পালন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    },
+    {
+     "en": "Dimasa",
+     "as": "দিমাছা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Busu Dima is the harvest festival of the Dimasa community.",
+    "as": "বুছু দিমা দিমাছা জনগোষ্ঠীৰ শস্য চপোৱা উৎসৱ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-181",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Gumrag?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য গুমৰাগ?"
+   },
+   "options": [
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gumrag is the traditional dance of the Mishing community.",
+    "as": "গুমৰাগ মিচিং জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-182",
+   "q": {
+    "en": "Which Assamese community's traditional instrument is the Kham drum?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত বাদ্য খাম ঢোল?"
+   },
+   "options": [
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Kham drum is traditional to the Bodo community.",
+    "as": "খাম ঢোল বড়ো জনগোষ্ঠীৰ পৰম্পৰাগত বাদ্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-183",
+   "q": {
+    "en": "Which Assamese community's traditional instrument is the Sifung flute?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত বাদ্য ছিফুং বাঁহী?"
+   },
+   "options": [
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Sifung flute is traditional to the Bodo community.",
+    "as": "ছিফুং বাঁহী বড়ো জনগোষ্ঠীৰ পৰম্পৰাগত বাদ্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-184",
+   "q": {
+    "en": "Which Assamese community's traditional instrument is the Doba drum?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত বাদ্য ডবা ঢোল?"
+   },
+   "options": [
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
     },
     {
      "en": "Rabha",
@@ -4648,10 +5518,2650 @@ module.exports = {
      "as": "কাৰ্বি"
     }
    ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Doba drum is traditional to the Karbi community.",
+    "as": "ডবা ঢোল কাৰ্বি জনগোষ্ঠীৰ পৰম্পৰাগত বাদ্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-185",
+   "q": {
+    "en": "Which Assamese traditional silk is produced from the muga silkworm?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত ৰেচম মুগা ৰেচম-পোকৰ পৰা উৎপাদন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Muga silk",
+     "as": "মুগা ৰেচম"
+    },
+    {
+     "en": "Pat silk",
+     "as": "পাট ৰেচম"
+    },
+    {
+     "en": "Eri silk",
+     "as": "এৰী ৰেচম"
+    },
+    {
+     "en": "Tassar silk",
+     "as": "তছৰ ৰেচম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muga silk is produced from the muga silkworm, unique to Assam.",
+    "as": "মুগা ৰেচম মুগা ৰেচম-পোকৰ পৰা উৎপাদন কৰা হয়, যি অসমৰ অনন্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-186",
+   "q": {
+    "en": "Which Assamese town is famous for muga silk weaving?",
+    "as": "কোন অসমীয়া চহৰ মুগা ৰেচম বোৱাৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Hajo",
+     "as": "হাজো"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "সুৱালকুছি"
+    },
+    {
+     "en": "Sarthebari",
+     "as": "সৰ্থেবাৰী"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    }
+   ],
    "correct": 1,
    "explanation": {
-    "en": "Jhumur is associated with the tea garden communities of Assam.",
-    "as": "ঝুমুৰ অসমৰ চাহ বাগিচাৰ জনগোষ্ঠীৰ সৈতে জড়িত।"
+    "en": "Sualkuchi is famous for weaving muga silk.",
+    "as": "সুৱালকুছি মুগা ৰেচম বোৱাৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-187",
+   "q": {
+    "en": "Which Assamese town is famous for bell metal and brass craft?",
+    "as": "কোন অসমীয়া চহৰ কাঁহ আৰু পিতলৰ শিল্পৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Hajo",
+     "as": "হাজো"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "Sarthebari",
+     "as": "সৰ্থেবাৰী"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "সুৱালকুছি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sarthebari is famous for bell metal and brass craft.",
+    "as": "সৰ্থেবাৰী কাঁহ আৰু পিতলৰ শিল্পৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-188",
+   "q": {
+    "en": "Which Assamese town is famous for traditional mask making?",
+    "as": "কোন অসমীয়া ঠাই পৰম্পৰাগত মুখা নিৰ্মাণৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Sarthebari",
+     "as": "সৰ্থেবাৰী"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "সুৱালকুছি"
+    },
+    {
+     "en": "Samaguri, Majuli",
+     "as": "সমাগুৰি, মাজুলী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Samaguri in Majuli is famous for traditional mask making.",
+    "as": "মাজুলীৰ সমাগুৰি পৰম্পৰাগত মুখা নিৰ্মাণৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-189",
+   "q": {
+    "en": "Which Assamese festival is celebrated at the Kamakhya temple with a grand fair?",
+    "as": "কোন অসমীয়া উৎসৱ কামাখ্যা মন্দিৰত এক বিশাল মেলা সহ পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Ambubachi Mela",
+     "as": "অম্বুবাচী মেলা"
+    },
+    {
+     "en": "Raas Mahotsav",
+     "as": "ৰাস মহোৎসৱ"
+    },
+    {
+     "en": "Jonbeel Mela",
+     "as": "জোনবিল মেলা"
+    },
+    {
+     "en": "Durga Puja",
+     "as": "দুৰ্গা পূজা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ambubachi Mela is held at the Kamakhya temple.",
+    "as": "অম্বুবাচী মেলা কামাখ্যা মন্দিৰত অনুষ্ঠিত হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-190",
+   "q": {
+    "en": "Which Assamese fair is famous for its traditional barter system?",
+    "as": "কোন অসমীয়া মেলা ইয়াৰ পৰম্পৰাগত বিনিময় প্ৰথাৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Bihu Mela",
+     "as": "বিহু মেলা"
+    },
+    {
+     "en": "Jonbeel Mela",
+     "as": "জোনবিল মেলা"
+    },
+    {
+     "en": "Raas Mela",
+     "as": "ৰাস মেলা"
+    },
+    {
+     "en": "Ambubachi Mela",
+     "as": "অম্বুবাচী মেলা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jonbeel Mela is famous for its barter system.",
+    "as": "জোনবিল মেলা ইয়াৰ বিনিময় প্ৰথাৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-191",
+   "q": {
+    "en": "Which Assamese community organises the Jonbeel Mela?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীয়ে জোনবিল মেলা আয়োজন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Tiwa (Lalung)",
+     "as": "তিওয়া (লালুং)"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Tiwa (Lalung) community organises the Jonbeel Mela.",
+    "as": "তিওয়া (লালুং) জনগোষ্ঠীয়ে জোনবিল মেলা আয়োজন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-192",
+   "q": {
+    "en": "Which Assamese place is the largest river island and a centre of Sattriya culture?",
+    "as": "কোন অসমীয়া ঠাই আটাইতকৈ ডাঙৰ নদী দ্বীপ আৰু সত্ৰীয়া সংস্কৃতিৰ কেন্দ্ৰ?"
+   },
+   "options": [
+    {
+     "en": "Umananda",
+     "as": "উমানন্দ"
+    },
+    {
+     "en": "Peacock Island",
+     "as": "ময়ূৰ দ্বীপ"
+    },
+    {
+     "en": "Bhupen Dwip",
+     "as": "ভূপেন দ্বীপ"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Majuli is the largest river island and a centre of Sattriya culture.",
+    "as": "মাজুলী আটাইতকৈ ডাঙৰ নদী দ্বীপ আৰু সত্ৰীয়া সংস্কৃতিৰ কেন্দ্ৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-193",
+   "q": {
+    "en": "Which Assamese folk craft is used to make the traditional Japi?",
+    "as": "কোন অসমীয়া লোক-শিল্প পৰম্পৰাগত জাপি নিৰ্মাণত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bamboo and palm weaving",
+     "as": "বাঁহ আৰু তালপাতৰ বোৱা"
+    },
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
+    },
+    {
+     "en": "Mask making",
+     "as": "মুখা নিৰ্মাণ"
+    },
+    {
+     "en": "Bell metal work",
+     "as": "কাঁহৰ কাম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Japi is made by weaving bamboo and palm leaves.",
+    "as": "জাপি বাঁহ আৰু তালপাত বোৱাই নিৰ্মাণ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-194",
+   "q": {
+    "en": "Which Assamese dance form is performed with masks depicting deities and demons?",
+    "as": "কোন অসমীয়া নৃত্য দেৱতা আৰু দানৱৰ মুখা পিন্ধি পৰিবেশন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bihu",
+     "as": "বিহু"
+    },
+    {
+     "en": "Bhaona",
+     "as": "ভাওনা"
+    },
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bhaona performances use masks depicting deities and demons.",
+    "as": "ভাওনা পৰিবেশনত দেৱতা আৰু দানৱৰ মুখা ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-195",
+   "q": {
+    "en": "Which Assamese festival marks the beginning of the agricultural year?",
+    "as": "কোন অসমীয়া উৎসৱ কৃষি বছৰৰ আৰম্ভণি চিহ্নিত কৰে?"
+   },
+   "options": [
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bohag Bihu marks the beginning of the Assamese agricultural year.",
+    "as": "ব'হাগ বিহু অসমীয়া কৃষি বছৰৰ আৰম্ভণি চিহ্নিত কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-196",
+   "q": {
+    "en": "How many Bihus are celebrated in a year in Assam?",
+    "as": "অসমত বছৰত কিমানটা বিহু পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Five",
+     "as": "পাঁচটা"
+    },
+    {
+     "en": "Two",
+     "as": "দুটা"
+    },
+    {
+     "en": "Four",
+     "as": "চাৰিটা"
+    },
+    {
+     "en": "Three",
+     "as": "তিনিটা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Three Bihus — Bohag, Kati and Magh — are celebrated in a year.",
+    "as": "বছৰত তিনিটা বিহু — ব'হাগ, কাতি আৰু মাঘ — পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-197",
+   "q": {
+    "en": "Which Bihu is celebrated as the Assamese harvest festival?",
+    "as": "কোন বিহুক অসমৰ শস্য চপোৱা উৎসৱ বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Sera Bihu",
+     "as": "ছেৰা বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Magh Bihu is known as the harvest festival of Assam.",
+    "as": "মাঘ বিহুক অসমৰ শস্য চপোৱা উৎসৱ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-198",
+   "q": {
+    "en": "Which Bihu is also called Bhogali Bihu?",
+    "as": "কোন বিহুক ভোগালী বিহু বুলিও কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Sera Bihu",
+     "as": "ছেৰা বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Magh Bihu is also called Bhogali Bihu because of the feasts.",
+    "as": "ভোজৰ বাবে মাঘ বিহুক ভোগালী বিহু বুলিও কোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-199",
+   "q": {
+    "en": "Which Bihu is also called Rongali Bihu?",
+    "as": "কোন বিহুক ৰঙালী বিহু বুলিও কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Sera Bihu",
+     "as": "ছেৰা বিহু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bohag Bihu is also called Rongali Bihu, the festival of merriment.",
+    "as": "ব'হাগ বিহুক ৰঙালী বিহু, আনন্দৰ উৎসৱ বুলিও কোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-200",
+   "q": {
+    "en": "Which Bihu is also called Kongali Bihu?",
+    "as": "কোন বিহুক কঙালী বিহু বুলিও কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Sera Bihu",
+     "as": "ছেৰা বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kati Bihu is also called Kongali Bihu, the lean-season festival.",
+    "as": "কাতি বিহুক কঙালী বিহু, অভাৱৰ সময়ৰ উৎসৱ বুলিও কোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-201",
+   "q": {
+    "en": "The first day of Bohag Bihu is dedicated to the worship of which animal?",
+    "as": "ব'হাগ বিহুৰ প্ৰথম দিনটো কোন জন্তুৰ পূজাৰ বাবে উৎসৰ্গিত?"
+   },
+   "options": [
+    {
+     "en": "Cattle",
+     "as": "গৰু"
+    },
+    {
+     "en": "Horse",
+     "as": "ঘোঁৰা"
+    },
+    {
+     "en": "Goat",
+     "as": "ছাগলী"
+    },
+    {
+     "en": "Elephant",
+     "as": "হাতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first day of Bohag Bihu, Goru Bihu, is dedicated to cattle.",
+    "as": "ব'হাগ বিহুৰ প্ৰথম দিন, গৰু বিহু, গৰুৰ বাবে উৎসৰ্গিত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-202",
+   "q": {
+    "en": "What is the second day of Bohag Bihu called?",
+    "as": "ব'হাগ বিহুৰ দ্বিতীয় দিনটোক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Gosai Bihu",
+     "as": "গোসাঁই বিহু"
+    },
+    {
+     "en": "Manuh Bihu",
+     "as": "মানুহ বিহু"
+    },
+    {
+     "en": "Sera Bihu",
+     "as": "ছেৰা বিহু"
+    },
+    {
+     "en": "Goru Bihu",
+     "as": "গৰু বিহু"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The second day of Bohag Bihu is called Manuh Bihu.",
+    "as": "ব'হাগ বিহুৰ দ্বিতীয় দিনটোক মানুহ বিহু বোলা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-203",
+   "q": {
+    "en": "What is the third day of Bohag Bihu called?",
+    "as": "ব'হাগ বিহুৰ তৃতীয় দিনটোক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Manuh Bihu",
+     "as": "মানুহ বিহু"
+    },
+    {
+     "en": "Sera Bihu",
+     "as": "ছেৰা বিহু"
+    },
+    {
+     "en": "Gosai Bihu",
+     "as": "গোসাঁই বিহু"
+    },
+    {
+     "en": "Goru Bihu",
+     "as": "গৰু বিহু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The third day of Bohag Bihu is called Gosai Bihu.",
+    "as": "ব'হাগ বিহুৰ তৃতীয় দিনটোক গোসাঁই বিহু বোলা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-204",
+   "q": {
+    "en": "How do Assamese people traditionally greet one another at Bihu?",
+    "as": "বিহুত বিনিময় কৰা পৰম্পৰাগত অসমীয়া সম্ভাষণটো কি?"
+   },
+   "options": [
+    {
+     "en": "Namaskar",
+     "as": "নমস্কাৰ"
+    },
+    {
+     "en": "Nomoskar",
+     "as": "নমস্কাৰ"
+    },
+    {
+     "en": "Pranam",
+     "as": "প্ৰণাম"
+    },
+    {
+     "en": "Bihu greeting with Gamosa",
+     "as": "গামোচাৰে বিহু সম্ভাষণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "People exchange Bihu greetings with a Gamosa during the festival.",
+    "as": "উৎসৱৰ সময়ত লোকে গামোচাৰে বিহু সম্ভাষণ বিনিময় কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-205",
+   "q": {
+    "en": "Which Assamese folk song is sung by women while working in the fields?",
+    "as": "কোন অসমীয়া লোক-গীত মহিলাসকলে পথাৰত কাম কৰোঁতে গায়?"
+   },
+   "options": [
+    {
+     "en": "Nisukoni geet",
+     "as": "নিচুকনি গীত"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    },
+    {
+     "en": "Bihu geet",
+     "as": "বিহু গীত"
+    },
+    {
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Field-work songs are sung by women while working in the fields.",
+    "as": "পথাৰত কাম কৰোঁতে মহিলাসকলে পথাৰ-কৰ্মৰ গীত গায়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-206",
+   "q": {
+    "en": "Which Assamese folk song is sung to lull a child to sleep?",
+    "as": "কোন অসমীয়া লোক-গীত শিশুক টোপনি যাবলৈ গোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bihu geet",
+     "as": "বিহু গীত"
+    },
+    {
+     "en": "Nisukoni geet",
+     "as": "নিচুকনি গীত"
+    },
+    {
+     "en": "Biyanam",
+     "as": "বিয়ানাম"
+    },
+    {
+     "en": "Husori",
+     "as": "হুছৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nisukoni geet are lullabies sung to children.",
+    "as": "নিচুকনি গীত শিশুক টোপনি যাবলৈ গোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-207",
+   "q": {
+    "en": "Which Assamese folk song is sung at weddings?",
+    "as": "কোন অসমীয়া লোক-গীত বিয়াত গোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    },
+    {
+     "en": "Nisukoni geet",
+     "as": "নিচুকনি গীত"
+    },
+    {
+     "en": "Biyanam",
+     "as": "বিয়ানাম"
+    },
+    {
+     "en": "Bihu geet",
+     "as": "বিহু গীত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Biyanam are wedding songs of Assam.",
+    "as": "বিয়ানাম অসমৰ বিয়াৰ গীত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-208",
+   "q": {
+    "en": "Which Assamese folk instrument is a two-faced drum?",
+    "as": "কোন অসমীয়া লোক-বাদ্য দুই মুখীয়া ঢোল?"
+   },
+   "options": [
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Bahi",
+     "as": "বাঁহী"
+    },
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dhol is a two-faced drum used in Assamese folk music.",
+    "as": "ঢোল অসমীয়া লোক-সংগীতত ব্যৱহৃত দুই মুখীয়া ঢোল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-209",
+   "q": {
+    "en": "Which Assamese folk instrument is a bamboo flute?",
+    "as": "কোন অসমীয়া লোক-বাদ্য বাঁহৰ বাঁহী?"
+   },
+   "options": [
+    {
+     "en": "Bahi",
+     "as": "বাঁহী"
+    },
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    },
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bahi is the bamboo flute of Assamese folk music.",
+    "as": "বাঁহী অসমীয়া লোক-সংগীতৰ বাঁহৰ বাঁহী।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-210",
+   "q": {
+    "en": "Which Assamese folk instrument is a stringed instrument played with a bow?",
+    "as": "কোন অসমীয়া লোক-বাদ্য ধনুৰে বজোৱা তাঁৰযুক্ত বাদ্য?"
+   },
+   "options": [
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Serja",
+     "as": "ছেৰ্জা"
+    },
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Serja is a bowed string instrument of Assamese folk music.",
+    "as": "ছেৰ্জা অসমীয়া লোক-সংগীতৰ ধনুৰে বজোৱা তাঁৰযুক্ত বাদ্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-211",
+   "q": {
+    "en": "Which Assamese folk instrument is a large drum played during Bihu?",
+    "as": "কোন অসমীয়া লোক-বাদ্য বিহুত বজোৱা ডাঙৰ ঢোল?"
+   },
+   "options": [
+    {
+     "en": "Bahi",
+     "as": "বাঁহী"
+    },
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    },
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Dhol is the large drum played during Bihu.",
+    "as": "ঢোল বিহুত বজোৱা ডাঙৰ ঢোল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-212",
+   "q": {
+    "en": "Which Assamese folk instrument is a pair of large cymbals?",
+    "as": "কোন অসমীয়া লোক-বাদ্য ডাঙৰ কৰতালৰ যোৰ?"
+   },
+   "options": [
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    },
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bhortal is a pair of large cymbals used in Assamese folk music.",
+    "as": "ভৰতাল অসমীয়া লোক-সংগীতত ব্যৱহৃত ডাঙৰ কৰতালৰ যোৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-213",
+   "q": {
+    "en": "Which Assamese dance is performed with the Bhortal cymbals?",
+    "as": "কোন অসমীয়া নৃত্য ভৰতাল কৰতালৰ সৈতে পৰিবেশন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhortal dance",
+     "as": "ভৰতাল নৃত্য"
+    },
+    {
+     "en": "Sattriya dance",
+     "as": "সত্ৰীয়া নৃত্য"
+    },
+    {
+     "en": "Bihu dance",
+     "as": "বিহু নৃত্য"
+    },
+    {
+     "en": "Bagurumba dance",
+     "as": "বাগুৰুম্বা নৃত্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhortal dance is performed with the Bhortal cymbals.",
+    "as": "ভৰতাল নৃত্য ভৰতাল কৰতালৰ সৈতে পৰিবেশন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-214",
+   "q": {
+    "en": "Which Assamese cuisine staple is a tangy dish made with dried fish and herbs?",
+    "as": "কোন অসমীয়া খাদ্যৰ মূল ব্যঞ্জন শুকান মাছ আৰু শাক-পাচলিৰে তৈয়াৰী টেঙা ব্যঞ্জন?"
+   },
+   "options": [
+    {
+     "en": "Pitika",
+     "as": "পিটিকা"
+    },
+    {
+     "en": "Tenga",
+     "as": "টেঙা"
+    },
+    {
+     "en": "Khar",
+     "as": "খাৰ"
+    },
+    {
+     "en": "Payas",
+     "as": "পায়স"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tenga is a tangy Assamese dish often made with dried fish.",
+    "as": "টেঙা এটা টেঙা অসমীয়া ব্যঞ্জন, প্ৰায়ে শুকান মাছৰে তৈয়াৰী।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-215",
+   "q": {
+    "en": "Which Assamese cuisine staple is made with alkaline water from banana ash?",
+    "as": "কোন অসমীয়া খাদ্যৰ মূল ব্যঞ্জন কলৰ ছাইৰ ক্ষাৰীয় পানীৰে তৈয়াৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Tenga",
+     "as": "টেঙা"
+    },
+    {
+     "en": "Payas",
+     "as": "পায়স"
+    },
+    {
+     "en": "Khar",
+     "as": "খাৰ"
+    },
+    {
+     "en": "Pitika",
+     "as": "পিটিকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Khar is an Assamese dish made using alkaline water from banana ash.",
+    "as": "খাৰ কলৰ ছাইৰ ক্ষাৰীয় পানী ব্যৱহাৰ কৰি তৈয়াৰ কৰা অসমীয়া ব্যঞ্জন।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-216",
+   "q": {
+    "en": "Which Assamese cuisine staple is a mashed preparation of vegetables or fish?",
+    "as": "কোন অসমীয়া খাদ্যৰ মূল ব্যঞ্জন শাক-পাচলি বা মাছ মোহাৰি তৈয়াৰ কৰা?"
+   },
+   "options": [
+    {
+     "en": "Khar",
+     "as": "খাৰ"
+    },
+    {
+     "en": "Payas",
+     "as": "পায়স"
+    },
+    {
+     "en": "Tenga",
+     "as": "টেঙা"
+    },
+    {
+     "en": "Pitika",
+     "as": "পিটিকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pitika is a mashed Assamese preparation of vegetables or fish.",
+    "as": "পিটিকা শাক-পাচলি বা মাছ মোহাৰি তৈয়াৰ কৰা অসমীয়া ব্যঞ্জন।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-217",
+   "q": {
+    "en": "Which Assamese dish is made from roasted and ground rice flour?",
+    "as": "কোন অসমীয়া ব্যঞ্জন ভজা আৰু পিহা চাউলৰ গুড়িৰে তৈয়াৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Pitha",
+     "as": "পিঠা"
+    },
+    {
+     "en": "Pitika",
+     "as": "পিটিকা"
+    },
+    {
+     "en": "Khar",
+     "as": "খাৰ"
+    },
+    {
+     "en": "Tenga",
+     "as": "টেঙা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pitha is made from roasted and ground rice flour.",
+    "as": "পিঠা ভজা আৰু পিহা চাউলৰ গুড়িৰে তৈয়াৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-218",
+   "q": {
+    "en": "Which Assamese festival is especially associated with making Pitha?",
+    "as": "কোন অসমীয়া উৎসৱ বিশেষভাৱে পিঠা তৈয়াৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pitha is especially associated with Magh Bihu.",
+    "as": "পিঠা বিশেষভাৱে মাঘ বিহুৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-219",
+   "q": {
+    "en": "Which Assamese dish is a sour fish curry traditionally cooked with bamboo shoot?",
+    "as": "কোন অসমীয়া ব্যঞ্জন পৰম্পৰাগতভাৱে বাঁহৰ গাজৰ সৈতে ৰন্ধা টেঙা মাছৰ তৰকাৰী?"
+   },
+   "options": [
+    {
+     "en": "Payas",
+     "as": "পায়স"
+    },
+    {
+     "en": "Khar",
+     "as": "খাৰ"
+    },
+    {
+     "en": "Masor tenga",
+     "as": "মাছৰ টেঙা"
+    },
+    {
+     "en": "Pitika",
+     "as": "পিটিকা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Masor tenga is a sour fish curry cooked with bamboo shoot.",
+    "as": "মাছৰ টেঙা বাঁহৰ গাজৰ সৈতে ৰন্ধা টেঙা মাছৰ তৰকাৰী।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-220",
+   "q": {
+    "en": "Which Assamese dish is a traditional preparation of duck with ash gourd?",
+    "as": "কোন অসমীয়া ব্যঞ্জন কমলাৰ সৈতে হাঁহৰ পৰম্পৰাগত ব্যঞ্জন?"
+   },
+   "options": [
+    {
+     "en": "Chicken curry",
+     "as": "মুৰ্গীৰ তৰকাৰী"
+    },
+    {
+     "en": "Mutton curry",
+     "as": "মেঘাৰ তৰকাৰী"
+    },
+    {
+     "en": "Fish curry",
+     "as": "মাছৰ তৰকাৰী"
+    },
+    {
+     "en": "Duck with ash gourd",
+     "as": "কমলাৰ সৈতে হাঁহ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Duck cooked with ash gourd is a traditional Assamese dish.",
+    "as": "কমলাৰ সৈতে ৰন্ধা হাঁহ এটা পৰম্পৰাগত অসমীয়া ব্যঞ্জন।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-221",
+   "q": {
+    "en": "Which Assamese beverage is a traditional rice beer?",
+    "as": "কোন অসমীয়া পানীয় পৰম্পৰাগত চাউলৰ সঁচ?"
+   },
+   "options": [
+    {
+     "en": "Laopani",
+     "as": "লাওপানী"
+    },
+    {
+     "en": "Sherbet",
+     "as": "ছেৰবত"
+    },
+    {
+     "en": "Tea",
+     "as": "চাহ"
+    },
+    {
+     "en": "Lassi",
+     "as": "লাচ্ছি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Laopani is the traditional rice beer of Assam.",
+    "as": "লাওপানী অসমৰ পৰম্পৰাগত চাউলৰ সঁচ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-222",
+   "q": {
+    "en": "Which Assamese community is traditionally associated with the Xorai?",
+    "as": "কোন অসমীয়া জনগোষ্ঠী পৰম্পৰাগতভাৱে জৰাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Assamese (general)",
+     "as": "অসমীয়া (সাধাৰণ)"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Xorai is used in Assamese society in general.",
+    "as": "জৰা সাধাৰণ অসমীয়া সমাজত ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-223",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the traditional sport of egg fighting?",
+    "as": "কোন অসমীয়া উৎসৱ পৰম্পৰাগত কণী যুঁজৰ খেলৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Egg fighting is a traditional Magh Bihu sport.",
+    "as": "কণী যুঁজ মাঘ বিহুৰ এটা পৰম্পৰাগত খেল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-224",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the traditional sport of bird fighting?",
+    "as": "কোন অসমীয়া উৎসৱ পৰম্পৰাগত চৰাই যুঁজৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bird fighting is a traditional Magh Bihu sport.",
+    "as": "চৰাই যুঁজ মাঘ বিহুৰ এটা পৰম্পৰাগত খেল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-225",
+   "q": {
+    "en": "What is the traditional Assamese structure built for the Magh Bihu bonfire called?",
+    "as": "মাঘ বিহুৰ জুইৰ বাবে নিৰ্মিত পৰম্পৰাগত অসমীয়া গাঁথনিটোক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Meji",
+     "as": "মেজি"
+    },
+    {
+     "en": "Ghar",
+     "as": "ঘৰ"
+    },
+    {
+     "en": "Bhelaghar",
+     "as": "ভেলাঘৰ"
+    },
+    {
+     "en": "Chowki",
+     "as": "চৌকী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Meji is the bonfire structure built for Magh Bihu.",
+    "as": "মেজি মাঘ বিহুৰ বাবে নিৰ্মিত জুইৰ গাঁথনি।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-226",
+   "q": {
+    "en": "What is the traditional Assamese hut built for the Magh Bihu night vigil called?",
+    "as": "মাঘ বিহুৰ ৰাতি জাগৰণৰ বাবে নিৰ্মিত পৰম্পৰাগত অসমীয়া জুপুৰিটোক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Ghar",
+     "as": "ঘৰ"
+    },
+    {
+     "en": "Bhelaghar",
+     "as": "ভেলাঘৰ"
+    },
+    {
+     "en": "Meji",
+     "as": "মেজি"
+    },
+    {
+     "en": "Chowki",
+     "as": "চৌকী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Bhelaghar is the hut built for the Magh Bihu night vigil.",
+    "as": "ভেলাঘৰ মাঘ বিহুৰ ৰাতি জাগৰণৰ বাবে নিৰ্মিত জুপুৰি।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-227",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the Uruka feast?",
+    "as": "কোন অসমীয়া উৎসৱ উৰুকা ভোজৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Uruka is the feast on the eve of Magh Bihu.",
+    "as": "উৰুকা মাঘ বিহুৰ আগদিনাৰ ভোজ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-228",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the Goru Bihu ritual?",
+    "as": "কোন অসমীয়া উৎসৱ গৰু বিহু ৰীতিৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Goru Bihu is the first day of Bohag Bihu, dedicated to cattle.",
+    "as": "গৰু বিহু ব'হাগ বিহুৰ প্ৰথম দিন, গৰুৰ বাবে উৎসৰ্গিত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-229",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the Husori performance?",
+    "as": "কোন অসমীয়া উৎসৱ হুছৰি পৰিবেশনৰ সৈতে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Husori is performed during Bohag Bihu.",
+    "as": "হুছৰি ব'হাগ বিহুত পৰিবেশন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-230",
+   "q": {
+    "en": "Which Assamese festival is celebrated with the Bihu Husori visiting homes?",
+    "as": "কোন অসমীয়া উৎসৱ বিহু হুছৰিয়ে ঘৰে ঘৰে গৈ পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Kati Bihu",
+     "as": "কাতি বিহু"
+    },
+    {
+     "en": "Bohag Bihu",
+     "as": "ব'হাগ বিহু"
+    },
+    {
+     "en": "Raas",
+     "as": "ৰাস"
+    },
+    {
+     "en": "Magh Bihu",
+     "as": "মাঘ বিহু"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Husori groups visit homes during Bohag Bihu.",
+    "as": "ব'হাগ বিহুত হুছৰি দলে ঘৰে ঘৰে গৈ পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-231",
+   "q": {
+    "en": "Which Assamese folk dance is performed by men with sticks?",
+    "as": "কোন অসমীয়া লোক-নৃত্য পুৰুষসকলে লাঠিৰে পৰিবেশন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Sattriya dance",
+     "as": "সত্ৰীয়া নৃত্য"
+    },
+    {
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
+    },
+    {
+     "en": "Bihu dance",
+     "as": "বিহু নৃত্য"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Men perform the Bihu dance with sticks during the festival.",
+    "as": "উৎসৱত পুৰুষসকলে লাঠিৰে বিহু নৃত্য পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-232",
+   "q": {
+    "en": "Which Assamese folk dance is performed by women with a graceful swaying movement?",
+    "as": "কোন অসমীয়া লোক-নৃত্য মহিলাসকলে কমনীয় দোলন গতিৰে পৰিবেশন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    },
+    {
+     "en": "Deodhani",
+     "as": "দেৱধনী"
+    },
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    },
+    {
+     "en": "Bihu dance",
+     "as": "বিহু নৃত্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Women perform the Bihu dance with a graceful swaying movement.",
+    "as": "মহিলাসকলে কমনীয় দোলন গতিৰে বিহু নৃত্য পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-233",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Bihu dance?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য বিহু নৃত্য?"
+   },
+   "options": [
+    {
+     "en": "Assamese of the plains",
+     "as": "সমতলৰ অসমীয়া"
+    },
+    {
+     "en": "Dimasa",
+     "as": "দিমাছা"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bihu dance is the traditional dance of the Assamese of the plains.",
+    "as": "বিহু নৃত্য সমতলৰ অসমীয়াৰ পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-234",
+   "q": {
+    "en": "Which Assamese folk instrument is a small bamboo clapper?",
+    "as": "কোন অসমীয়া লোক-বাদ্য সৰু বাঁহৰ ঠেকা বাদ্য?"
+   },
+   "options": [
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    },
+    {
+     "en": "Tokari",
+     "as": "টোকাৰী"
+    },
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Bahi",
+     "as": "বাঁহী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Tokari is a small bamboo clapper used in folk music.",
+    "as": "টোকাৰী লোক-সংগীতত ব্যৱহৃত সৰু বাঁহৰ ঠেকা বাদ্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-235",
+   "q": {
+    "en": "Which Assamese folk instrument is a one-stringed instrument played with a bamboo bow?",
+    "as": "কোন অসমীয়া লোক-বাদ্য বাঁহৰ ধনুৰে বজোৱা এটা তাঁৰযুক্ত বাদ্য?"
+   },
+   "options": [
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Ektara",
+     "as": "একতাৰা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Ektara is a one-stringed folk instrument of Assam.",
+    "as": "একতাৰা অসমৰ এটা তাঁৰযুক্ত লোক-বাদ্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-236",
+   "q": {
+    "en": "Which Assamese folk instrument is a pair of small cymbals?",
+    "as": "কোন অসমীয়া লোক-বাদ্য সৰু কৰতালৰ যোৰ?"
+   },
+   "options": [
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    },
+    {
+     "en": "Bahi",
+     "as": "বাঁহী"
+    },
+    {
+     "en": "Taal",
+     "as": "তাল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Taal is a pair of small cymbals used in folk music.",
+    "as": "তাল লোক-সংগীতত ব্যৱহৃত সৰু কৰতালৰ যোৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-237",
+   "q": {
+    "en": "Which Assamese folk instrument is a jaw harp made of bamboo?",
+    "as": "কোন অসমীয়া লোক-বাদ্য বাঁহৰে নিৰ্মিত মুখে বজোৱা বাদ্য?"
+   },
+   "options": [
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Taal",
+     "as": "তাল"
+    },
+    {
+     "en": "Bahi",
+     "as": "বাঁহী"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gogona is a bamboo jaw harp.",
+    "as": "গগনা বাঁহৰে নিৰ্মিত মুখে বজোৱা বাদ্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-238",
+   "q": {
+    "en": "Which Assamese folk instrument is used mainly in Sattriya music?",
+    "as": "কোন অসমীয়া লোক-বাদ্য মূলতঃ সত্ৰীয়া সংগীতত ব্যৱহৃত হয়?"
+   },
+   "options": [
+    {
+     "en": "Serja",
+     "as": "ছেৰ্জা"
+    },
+    {
+     "en": "Khol",
+     "as": "খোল"
+    },
+    {
+     "en": "Doba",
+     "as": "ডবা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Khol is the main drum used in Sattriya music.",
+    "as": "খোল সত্ৰীয়া সংগীতত ব্যৱহৃত প্ৰধান ঢোল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-239",
+   "q": {
+    "en": "Which Assamese folk instrument accompanies Borgeet?",
+    "as": "কোন অসমীয়া লোক-বাদ্য বৰগীতৰ সৈতে বজোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Serja and Doba",
+     "as": "ছেৰ্জা আৰু ডবা"
+    },
+    {
+     "en": "Bahi and Tokari",
+     "as": "বাঁহী আৰু টোকাৰী"
+    },
+    {
+     "en": "Khol and Taal",
+     "as": "খোল আৰু তাল"
+    },
+    {
+     "en": "Dhol and Gogona",
+     "as": "ঢোল আৰু গগনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Borgeet is accompanied by the Khol and Taal.",
+    "as": "বৰগীত খোল আৰু তালৰ সৈতে বজোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-240",
+   "q": {
+    "en": "Which Assamese folk instrument is used mainly in Bihu music?",
+    "as": "কোন অসমীয়া লোক-বাদ্য মূলতঃ বিহু সংগীতত ব্যৱহৃত হয়?"
+   },
+   "options": [
+    {
+     "en": "Serja",
+     "as": "ছেৰ্জা"
+    },
+    {
+     "en": "Doba",
+     "as": "ডবা"
+    },
+    {
+     "en": "Khol",
+     "as": "খোল"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dhol is the main drum used in Bihu music.",
+    "as": "ঢোল বিহু সংগীতত ব্যৱহৃত প্ৰধান ঢোল।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-241",
+   "q": {
+    "en": "Which Assamese folk instrument is used in Ojapali performances?",
+    "as": "কোন অসমীয়া লোক-বাদ্য ওজাপালি পৰিবেশনত ব্যৱহৃত হয়?"
+   },
+   "options": [
+    {
+     "en": "Khol and Taal",
+     "as": "খোল আৰু তাল"
+    },
+    {
+     "en": "Bahi and Tokari",
+     "as": "বাঁহী আৰু টোকাৰী"
+    },
+    {
+     "en": "Serja and Doba",
+     "as": "ছেৰ্জা আৰু ডবা"
+    },
+    {
+     "en": "Dhol and Gogona",
+     "as": "ঢোল আৰু গগনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ojapali performances use the Khol and Taal.",
+    "as": "ওজাপালি পৰিবেশনত খোল আৰু তাল ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-242",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Deodhani dance?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য দেৱধনী নৃত্য?"
+   },
+   "options": [
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Assamese (Sakta tradition)",
+     "as": "অসমীয়া (শাক্ত পৰম্পৰা)"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Deodhani dance belongs to the Sakta tradition of Assam.",
+    "as": "দেৱধনী নৃত্য অসমৰ শাক্ত পৰম্পৰাৰ অন্তৰ্গত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-243",
+   "q": {
+    "en": "Which Assamese folk dance is performed during the Manasa Puja?",
+    "as": "কোন অসমীয়া লোক-নৃত্য মনসা পূজাৰ সময়ত পৰিবেশন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    },
+    {
+     "en": "Deodhani",
+     "as": "দেৱধনী"
+    },
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Deodhani dance is performed during Manasa Puja.",
+    "as": "দেৱধনী নৃত্য মনসা পূজাৰ সময়ত পৰিবেশন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-244",
+   "q": {
+    "en": "Which Assamese folk performance is associated with the worship of Manasa?",
+    "as": "কোন অসমীয়া লোক-পৰিবেশনা মনসা পূজাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    },
+    {
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
+    },
+    {
+     "en": "Bihu",
+     "as": "বিহু"
+    },
+    {
+     "en": "Deodhani",
+     "as": "দেৱধনী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Deodhani performances are associated with Manasa worship.",
+    "as": "দেৱধনী পৰিবেশনা মনসা পূজাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-245",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Jhumur?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য ঝুমুৰ?"
+   },
+   "options": [
+    {
+     "en": "Tea garden communities",
+     "as": "চাহ বাগিচাৰ জনগোষ্ঠী"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jhumur is the traditional dance of the tea garden communities.",
+    "as": "ঝুমুৰ চাহ বাগিচাৰ জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-246",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Bhortal?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য ভৰতাল?"
+   },
+   "options": [
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Vaishnavite communities of Barpeta",
+     "as": "বৰপেটাৰ বৈষ্ণৱ জনগোষ্ঠী"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bhortal is the traditional dance of the Vaishnavite communities of Barpeta.",
+    "as": "ভৰতাল বৰপেটাৰ বৈষ্ণৱ জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-247",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Bamboo dance?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য বাঁহৰ নৃত্য?"
+   },
+   "options": [
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Rabha",
+     "as": "ৰাভা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Bamboo dance is performed by the Mishing community.",
+    "as": "বাঁহৰ নৃত্য মিচিং জনগোষ্ঠীয়ে পৰিবেশন কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-248",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Hojagiri?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য হোজাগিৰি?"
+   },
+   "options": [
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Tripuri (Bru)",
+     "as": "ত্ৰিপুৰী (ব্ৰু)"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hojagiri is the traditional dance of the Tripuri (Bru) community.",
+    "as": "হোজাগিৰি ত্ৰিপুৰী (ব্ৰু) জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-249",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Bihu?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য বিহু?"
+   },
+   "options": [
+    {
+     "en": "Assamese of the plains",
+     "as": "সমতলৰ অসমীয়া"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bihu is the traditional dance of the Assamese of the plains.",
+    "as": "বিহু সমতলৰ অসমীয়াৰ পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-250",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Sattriya?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য সত্ৰীয়া?"
+   },
+   "options": [
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Vaishnavite Sattras",
+     "as": "বৈষ্ণৱ সত্ৰ"
+    },
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sattriya is the classical dance of the Vaishnavite Sattras.",
+    "as": "সত্ৰীয়া বৈষ্ণৱ সত্ৰৰ শাস্ত্ৰীয় নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-251",
+   "q": {
+    "en": "Which Assamese community's traditional dance is the Deodhani?",
+    "as": "কোন অসমীয়া জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য দেৱধনী?"
+   },
+   "options": [
+    {
+     "en": "Mishing",
+     "as": "মিচিং"
+    },
+    {
+     "en": "Karbi",
+     "as": "কাৰ্বি"
+    },
+    {
+     "en": "Assamese (Sakta)",
+     "as": "অসমীয়া (শাক্ত)"
+    },
+    {
+     "en": "Bodo",
+     "as": "বড়ো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Deodhani is the traditional dance of the Sakta tradition.",
+    "as": "দেৱধনী শাক্ত পৰম্পৰাৰ পৰম্পৰাগত নৃত্য।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-252",
+   "q": {
+    "en": "Which Assamese folk dance involves balancing pots on the head?",
+    "as": "কোন অসমীয়া লোক-নৃত্য মূৰত কলহ ৰাখি ভাৰসাম্য ৰক্ষা কৰি পৰিবেশন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhortal",
+     "as": "ভৰতাল"
+    },
+    {
+     "en": "Bihu",
+     "as": "বিহু"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    },
+    {
+     "en": "Hojagiri",
+     "as": "হোজাগিৰি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hojagiri involves balancing pots on the head while dancing.",
+    "as": "হোজাগিৰিত নাচি থকা অৱস্থাত মূৰত কলহ ভাৰসাম্য ৰাখি ৰখা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-253",
+   "q": {
+    "en": "Which Assamese traditional painting style depicts the life of Krishna?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত চিত্ৰশৈলীয়ে কৃষ্ণৰ জীৱন চিত্ৰিত কৰে?"
+   },
+   "options": [
+    {
+     "en": "Sattriya painting",
+     "as": "সত্ৰীয়া চিত্ৰ"
+    },
+    {
+     "en": "Pahari painting",
+     "as": "পাহাৰী চিত্ৰ"
+    },
+    {
+     "en": "Rajput painting",
+     "as": "ৰাজপুত চিত্ৰ"
+    },
+    {
+     "en": "Mughal painting",
+     "as": "মোগল চিত্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sattriya painting depicts the life of Krishna in the Sattras.",
+    "as": "সত্ৰীয়া চিত্ৰই সত্ৰত কৃষ্ণৰ জীৱন চিত্ৰিত কৰে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-254",
+   "q": {
+    "en": "Which Assamese manuscript illustration tradition is associated with the Sattras?",
+    "as": "কোন অসমীয়া পুথি-চিত্ৰ অলংকৰণ পৰম্পৰা সত্ৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Mughal miniature",
+     "as": "মোগল ক্ষুদ্ৰচিত্ৰ"
+    },
+    {
+     "en": "Sattriya manuscript painting",
+     "as": "সত্ৰীয়া পুথি-চিত্ৰ"
+    },
+    {
+     "en": "Pahari miniature",
+     "as": "পাহাৰী ক্ষুদ্ৰচিত্ৰ"
+    },
+    {
+     "en": "Company painting",
+     "as": "কোম্পানী চিত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sattriya manuscript painting is associated with the Sattras.",
+    "as": "সত্ৰীয়া পুথি-চিত্ৰ সত্ৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-255",
+   "q": {
+    "en": "Which Assamese folk art is used to decorate the walls of homes during festivals?",
+    "as": "কোন অসমীয়া লোক-শিল্প উৎসৱত ঘৰৰ বেৰ সজোৱাৰ বাবে ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Warli",
+     "as": "ৱাৰলী"
+    },
+    {
+     "en": "Madhubani",
+     "as": "মধুবনী"
+    },
+    {
+     "en": "Alpana",
+     "as": "আলপনা"
+    },
+    {
+     "en": "Kalamkari",
+     "as": "কলমকাৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Alpana is used to decorate the walls and floors during festivals.",
+    "as": "উৎসৱত আলপনাই বেৰ আৰু মজিয়া সজায়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-256",
+   "q": {
+    "en": "Which Assamese traditional art form is a floor decoration made with rice paste?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত শিল্প চাউলৰ পিটিকাৰে কৰা মজিয়াৰ অলংকৰণ?"
+   },
+   "options": [
+    {
+     "en": "Warli",
+     "as": "ৱাৰলী"
+    },
+    {
+     "en": "Kalamkari",
+     "as": "কলমকাৰী"
+    },
+    {
+     "en": "Pattachitra",
+     "as": "পটচিত্ৰ"
+    },
+    {
+     "en": "Alpana",
+     "as": "আলপনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Alpana is a floor decoration made with rice paste.",
+    "as": "আলপনা চাউলৰ পিটিকাৰে কৰা মজিয়াৰ অলংকৰণ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-257",
+   "q": {
+    "en": "Which Assamese traditional craft is used to make cane and bamboo furniture?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত শিল্প বেত আৰু বাঁহৰ আসবাব নিৰ্মাণত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Cane and bamboo craft",
+     "as": "বেত আৰু বাঁহৰ শিল্প"
+    },
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
+    },
+    {
+     "en": "Mask making",
+     "as": "মুখা নিৰ্মাণ"
+    },
+    {
+     "en": "Bell metal craft",
+     "as": "কাঁহৰ শিল্প"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cane and bamboo craft is used to make furniture in Assam.",
+    "as": "বেত আৰু বাঁহৰ শিল্প অসমত আসবাব নিৰ্মাণত ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-258",
+   "q": {
+    "en": "Which Assamese traditional craft is used to make wooden items?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত শিল্প কাঠৰ সামগ্ৰী নিৰ্মাণত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
+    },
+    {
+     "en": "Woodcraft",
+     "as": "কাঠ-শিল্প"
+    },
+    {
+     "en": "Bell metal craft",
+     "as": "কাঁহৰ শিল্প"
+    },
+    {
+     "en": "Mask making",
+     "as": "মুখা নিৰ্মাণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Woodcraft is a traditional craft of Assam.",
+    "as": "কাঠ-শিল্প অসমৰ এটা পৰম্পৰাগত শিল্প।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-259",
+   "q": {
+    "en": "Which Assamese traditional craft is used to make clay items?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত শিল্প মাটিৰ সামগ্ৰী নিৰ্মাণত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
+    },
+    {
+     "en": "Bell metal craft",
+     "as": "কাঁহৰ শিল্প"
+    },
+    {
+     "en": "Pottery",
+     "as": "কুম্ভকাৰ শিল্প"
+    },
+    {
+     "en": "Mask making",
+     "as": "মুখা নিৰ্মাণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pottery is a traditional craft of Assam.",
+    "as": "কুম্ভকাৰ শিল্প অসমৰ এটা পৰম্পৰাগত শিল্প।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-260",
+   "q": {
+    "en": "Which Assamese traditional craft is used to make jewellery?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত শিল্প অলংকাৰ নিৰ্মাণত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Silk weaving",
+     "as": "ৰেচম বোৱা"
+    },
+    {
+     "en": "Bell metal craft",
+     "as": "কাঁহৰ শিল্প"
+    },
+    {
+     "en": "Mask making",
+     "as": "মুখা নিৰ্মাণ"
+    },
+    {
+     "en": "Gold and silver smithy",
+     "as": "সোণ আৰু ৰূপৰ কাৰিকৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gold and silver smithy is a traditional craft of Assam.",
+    "as": "সোণ আৰু ৰূপৰ কাৰিকৰী অসমৰ এটা পৰম্পৰাগত শিল্প।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-261",
+   "q": {
+    "en": "Which Assamese traditional ornament is worn on the forehead?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত অলংকাৰ কপালত পিন্ধা হয়?"
+   },
+   "options": [
+    {
+     "en": "Tikli",
+     "as": "টিকলী"
+    },
+    {
+     "en": "Jonbiri",
+     "as": "জোনবিৰি"
+    },
+    {
+     "en": "Gamkharu",
+     "as": "গামখাৰু"
+    },
+    {
+     "en": "Dholbiri",
+     "as": "ঢোলবিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tikli is worn on the forehead.",
+    "as": "টিকলী কপালত পিন্ধা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-262",
+   "q": {
+    "en": "Which Assamese traditional ornament is a pair of earrings?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত অলংকাৰ কাণফুলিৰ যোৰ?"
+   },
+   "options": [
+    {
+     "en": "Dholbiri",
+     "as": "ঢোলবিৰি"
+    },
+    {
+     "en": "Keru",
+     "as": "কেৰু"
+    },
+    {
+     "en": "Gamkharu",
+     "as": "গামখাৰু"
+    },
+    {
+     "en": "Jonbiri",
+     "as": "জোনবিৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Keru is a traditional Assamese ear ornament.",
+    "as": "কেৰু এটা পৰম্পৰাগত অসমীয়া কাণৰ অলংকাৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-263",
+   "q": {
+    "en": "Which Assamese traditional ornament is worn on the arm?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত অলংকাৰ বাহুত পিন্ধা হয়?"
+   },
+   "options": [
+    {
+     "en": "Tikli",
+     "as": "টিকলী"
+    },
+    {
+     "en": "Dholbiri",
+     "as": "ঢোলবিৰি"
+    },
+    {
+     "en": "Gamkharu",
+     "as": "গামখাৰু"
+    },
+    {
+     "en": "Jonbiri",
+     "as": "জোনবিৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Gamkharu is worn on the arm.",
+    "as": "গামখাৰু বাহুত পিন্ধা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-264",
+   "q": {
+    "en": "Which Assamese traditional ornament is worn on the waist?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত অলংকাৰ কঁকালত পিন্ধা হয়?"
+   },
+   "options": [
+    {
+     "en": "Gamkharu",
+     "as": "গামখাৰু"
+    },
+    {
+     "en": "Tikli",
+     "as": "টিকলী"
+    },
+    {
+     "en": "Keru",
+     "as": "কেৰু"
+    },
+    {
+     "en": "Jonbiri",
+     "as": "জোনবিৰি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Jonbiri is worn on the waist.",
+    "as": "জোনবিৰি কঁকালত পিন্ধা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-265",
+   "q": {
+    "en": "Which Assamese traditional ornament is a large ear ornament?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত অলংকাৰ ডাঙৰ কাণৰ অলংকাৰ?"
+   },
+   "options": [
+    {
+     "en": "Dholbiri",
+     "as": "ঢোলবিৰি"
+    },
+    {
+     "en": "Gamkharu",
+     "as": "গামখাৰু"
+    },
+    {
+     "en": "Jonbiri",
+     "as": "জোনবিৰি"
+    },
+    {
+     "en": "Tikli",
+     "as": "টিকলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dholbiri is a large traditional ear ornament.",
+    "as": "ঢোলবিৰি এটা ডাঙৰ পৰম্পৰাগত কাণৰ অলংকাৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-266",
+   "q": {
+    "en": "Which Assamese traditional garment is a wrapper worn around the waist?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক কঁকালত মেৰিয়াই পিন্ধা বস্ত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "Riha",
+     "as": "ৰিহা"
+    },
+    {
+     "en": "Mekhela",
+     "as": "মেখেলা"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Chador",
+     "as": "চাদৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Mekhela is the lower wrapper worn by Assamese women.",
+    "as": "মেখেলা অসমীয়া মহিলাসকলে পিন্ধা তলৰ বস্ত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-267",
+   "q": {
+    "en": "Which Assamese traditional garment is worn over the shoulder by women?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক মহিলাসকলে কান্ধত পিন্ধে?"
+   },
+   "options": [
+    {
+     "en": "Japi",
+     "as": "জাপি"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Chador",
+     "as": "চাদৰ"
+    },
+    {
+     "en": "Mekhela",
+     "as": "মেখেলা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Chador is worn over the shoulder by Assamese women.",
+    "as": "চাদৰ অসমীয়া মহিলাসকলে কান্ধত পিন্ধে।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-268",
+   "q": {
+    "en": "Which Assamese traditional garment is a small scarf worn by Bodo women?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক বড়ো মহিলাসকলে পিন্ধা সৰু স্কাৰ্ফ?"
+   },
+   "options": [
+    {
+     "en": "Mekhela",
+     "as": "মেখেলা"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Chador",
+     "as": "চাদৰ"
+    },
+    {
+     "en": "Riha",
+     "as": "ৰিহা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Riha is the small scarf worn by Bodo women with the Dokhona.",
+    "as": "ৰিহা দখনাৰ সৈতে বড়ো মহিলাসকলে পিন্ধা সৰু স্কাৰ্ফ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-269",
+   "q": {
+    "en": "Which Assamese traditional garment is a red and white woven cloth used as a towel?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক চুৱা পৰিষ্কাৰ কৰিবলৈ ব্যৱহৃত ৰঙা-বগা বোৱা বস্ত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Chador",
+     "as": "চাদৰ"
+    },
+    {
+     "en": "Mekhela",
+     "as": "মেখেলা"
+    },
+    {
+     "en": "Riha",
+     "as": "ৰিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gamosa is a red and white woven cloth used as a towel and mark of respect.",
+    "as": "গামোচা ৰঙা-বগা বোৱা বস্ত্ৰ, যি চুৱা আৰু সন্মানৰ চিন হিচাপে ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-270",
+   "q": {
+    "en": "Which Assamese traditional garment is a silk cloth used for ceremonial purposes?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক ৰীতি-নীতিৰ বাবে ব্যৱহৃত ৰেচমৰ বস্ত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "Chador",
+     "as": "চাদৰ"
+    },
+    {
+     "en": "Aronai",
+     "as": "আৰণাই"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Mekhela",
+     "as": "মেখেলা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Aronai is a silk cloth used for ceremonial purposes in Assam.",
+    "as": "আৰণাই অসমত ৰীতি-নীতিৰ বাবে ব্যৱহৃত ৰেচমৰ বস্ত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-271",
+   "q": {
+    "en": "Which Assamese traditional garment is a shawl woven by the Mishing community?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক মিচিং জনগোষ্ঠীয়ে বোৱা চাদৰ?"
+   },
+   "options": [
+    {
+     "en": "Aronai",
+     "as": "আৰণাই"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Ribi",
+     "as": "ৰিবি"
+    },
+    {
+     "en": "Chador",
+     "as": "চাদৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Ribi is a shawl woven by the Mishing community.",
+    "as": "ৰিবি মিচিং জনগোষ্ঠীয়ে বোৱা চাদৰ।"
+   }
+  },
+  {
+   "id": "assam-folk-culture-272",
+   "q": {
+    "en": "Which Assamese traditional garment is a wraparound worn by Mishing women?",
+    "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক মিচিং মহিলাসকলে মেৰিয়াই পিন্ধে?"
+   },
+   "options": [
+    {
+     "en": "Mekhela",
+     "as": "মেখেলা"
+    },
+    {
+     "en": "Chador",
+     "as": "চাদৰ"
+    },
+    {
+     "en": "Dokhona",
+     "as": "দখনা"
+    },
+    {
+     "en": "Gaseng",
+     "as": "গাচেং"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Gaseng is a wraparound worn by Mishing women.",
+    "as": "গাচেং মিচিং মহিলাসকলে মেৰিয়াই পিন্ধা পোছাক।"
    }
   }
  ],
@@ -4664,23 +8174,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pali",
-     "as": "পালি"
-    },
-    {
-     "en": "Sanskrit",
-     "as": "সংস্কৃত"
-    },
-    {
      "en": "Abahatta (old Bengali-Assamese)",
      "as": "অৱহট্ট (পুৰণি বঙালী-অসমীয়া)"
     },
     {
      "en": "Hindi",
      "as": "হিন্দী"
+    },
+    {
+     "en": "Sanskrit",
+     "as": "সংস্কৃত"
+    },
+    {
+     "en": "Pali",
+     "as": "পালি"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "The Charyapada were composed in Abahatta, an early eastern Indo-Aryan language.",
     "as": "চৰ্যাপদ অৱহট্ট ভাষাত ৰচনা কৰা হৈছিল, যি প্ৰাচীন পূব ইণ্ডো-আৰ্য ভাষা।"
@@ -4694,10 +8204,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Vaishnavite saints",
-     "as": "বৈষ্ণৱ সন্তসকল"
-    },
-    {
      "en": "Ahom priests",
      "as": "আহোম পুৰোহিত"
     },
@@ -4706,11 +8212,15 @@ module.exports = {
      "as": "বৌদ্ধ সিদ্ধাচাৰ্যসকল"
     },
     {
+     "en": "Vaishnavite saints",
+     "as": "বৈষ্ণৱ সন্তসকল"
+    },
+    {
      "en": "Muslim Sufis",
      "as": "মুছলিম চুফী"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "The Charyapada were composed by Buddhist Siddhacharyas.",
     "as": "চৰ্যাপদ বৌদ্ধ সিদ্ধাচাৰ্যসকলে ৰচনা কৰিছিল।"
@@ -4724,10 +8234,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Haraprasad Shastri",
-     "as": "হৰপ্ৰসাদ শাস্ত্ৰী"
-    },
-    {
      "en": "Hemchandra Barua",
      "as": "হেমচন্দ্ৰ বৰুৱা"
     },
@@ -4736,11 +8242,15 @@ module.exports = {
      "as": "সুনীতি কুমাৰ চট্টোপাধ্যায়"
     },
     {
+     "en": "Haraprasad Shastri",
+     "as": "হৰপ্ৰসাদ শাস্ত্ৰী"
+    },
+    {
      "en": "Banikanta Kakati",
      "as": "বাণীকান্ত কাকতি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Haraprasad Shastri brought the Charyapada to scholarly attention.",
     "as": "হৰপ্ৰসাদ শাস্ত্ৰীয়ে চৰ্যাপদ পাণ্ডিত্যপূৰ্ণভাৱে প্ৰকাশ কৰিছিল।"
@@ -4758,19 +8268,19 @@ module.exports = {
      "as": "তিব্বত"
     },
     {
-     "en": "Nepal",
-     "as": "নেপাল"
+     "en": "China",
+     "as": "চীন"
     },
     {
      "en": "Bhutan",
      "as": "ভুটান"
     },
     {
-     "en": "China",
-     "as": "চীন"
+     "en": "Nepal",
+     "as": "নেপাল"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "The Charyapada manuscript was discovered in Nepal.",
     "as": "চৰ্যাপদৰ পুথি নেপালত আৱিষ্কাৰ হৈছিল।"
@@ -4784,23 +8294,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1900 CE",
-     "as": "১৯০০ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "1916 CE",
      "as": "১৯১৬ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "1935 CE",
-     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+     "en": "1900 CE",
+     "as": "১৯০০ খ্ৰীষ্টাব্দ"
     },
     {
      "en": "1921 CE",
      "as": "১৯২১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "The Charyapada was published in 1916.",
     "as": "চৰ্যাপদ ১৯১৬ চনত প্ৰকাশিত হৈছিল।"
@@ -4814,23 +8324,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Saptakanda Ramayana",
-     "as": "সপ্তকাণ্ড ৰামায়ণ"
-    },
-    {
      "en": "Mahabharata",
      "as": "মহাভাৰত"
     },
     {
-     "en": "Bhagavata",
-     "as": "ভাগৱত"
+     "en": "Saptakanda Ramayana",
+     "as": "সপ্তকাণ্ড ৰামায়ণ"
     },
     {
      "en": "Kirtan Ghosha",
      "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Bhagavata",
+     "as": "ভাগৱত"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Madhava Kandali translated the Ramayana as the Saptakanda Ramayana.",
     "as": "মাধৱ কন্দলীয়ে ৰামায়ণৰ সপ্তকাণ্ড ৰামায়ণ নামেৰে অনুবাদ কৰিছিল।"
@@ -4844,10 +8354,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kachari (Koch)",
-     "as": "কছাৰী (কোচ)"
-    },
-    {
      "en": "Varman",
      "as": "বৰ্মন"
     },
@@ -4856,11 +8362,15 @@ module.exports = {
      "as": "আহোম"
     },
     {
+     "en": "Kachari (Koch)",
+     "as": "কছাৰী (কোচ)"
+    },
+    {
      "en": "Pala",
      "as": "পাল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Madhava Kandali composed the Saptakanda Ramayana in the Kachari court.",
     "as": "মাধৱ কন্দলীয়ে কছাৰী ৰাজসভাত সপ্তকাণ্ড ৰামায়ণ ৰচনা কৰিছিল।"
@@ -4874,23 +8384,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Seven kings",
-     "as": "সাতজন ৰজা"
-    },
-    {
      "en": "Seven poets",
      "as": "সাতজন কবি"
     },
     {
-     "en": "Seven sections (kandas)",
-     "as": "সাতটা কাণ্ড"
+     "en": "Seven kings",
+     "as": "সাতজন ৰজা"
     },
     {
      "en": "Seven years",
      "as": "সাত বছৰ"
+    },
+    {
+     "en": "Seven sections (kandas)",
+     "as": "সাতটা কাণ্ড"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Saptakanda refers to the seven kandas or sections of the Ramayana.",
     "as": "সপ্তকাণ্ডয়ে ৰামায়ণৰ সাতটা কাণ্ড সূচায়।"
@@ -4904,23 +8414,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Valmiki",
-     "as": "বাল্মীকি"
-    },
-    {
-     "en": "Krittibas",
-     "as": "কৃত্তিবাস"
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
     },
     {
      "en": "Tulsidas",
      "as": "তুলসীদাস"
     },
     {
-     "en": "Madhava Kandali",
-     "as": "মাধৱ কন্দলী"
+     "en": "Krittibas",
+     "as": "কৃত্তিবাস"
+    },
+    {
+     "en": "Valmiki",
+     "as": "বাল্মীকি"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Madhava Kandali was among the earliest to translate the Ramayana into a vernacular.",
     "as": "মাধৱ কন্দলী ৰামায়ণ স্থানীয় ভাষালৈ অনুবাদ কৰা আটাইতকৈ আগৰসকলৰ এজন।"
@@ -4964,23 +8474,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Madhava Kandali",
-     "as": "মাধৱ কন্দলী"
-    },
-    {
-     "en": "Hema Saraswati",
-     "as": "হেম সৰস্বতী"
+     "en": "Rudra Kandali",
+     "as": "ৰুদ্ৰ কন্দলী"
     },
     {
      "en": "Harivara Vipra",
      "as": "হৰিবৰ বিপ্ৰ"
     },
     {
-     "en": "Rudra Kandali",
-     "as": "ৰুদ্ৰ কন্দলী"
+     "en": "Hema Saraswati",
+     "as": "হেম সৰস্বতী"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Hema Saraswati wrote Hara-Gauri Samvada.",
     "as": "হেম সৰস্বতীয়ে হৰ-গৌৰী সংবাদ লিখিছিল।"
@@ -4994,16 +8504,16 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
      "en": "Saptakanda Ramayana",
      "as": "সপ্তকাণ্ড ৰামায়ণ"
     },
     {
      "en": "Prahlada Charitra",
      "as": "প্ৰহ্লাদ চৰিত্ৰ"
-    },
-    {
-     "en": "Kirtan Ghosha",
-     "as": "কীৰ্তন ঘোষা"
     },
     {
      "en": "Babruvahana Yuddha",
@@ -5024,12 +8534,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Madhava Kandali",
-     "as": "মাধৱ কন্দলী"
-    },
-    {
      "en": "Rudra Kandali",
      "as": "ৰুদ্ৰ কন্দলী"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
     },
     {
      "en": "Hema Saraswati",
@@ -5040,7 +8550,7 @@ module.exports = {
      "as": "শংকৰদেৱ"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Rudra Kandali wrote Jayadratha Badh.",
     "as": "ৰুদ্ৰ কন্দলীয়ে জয়দ্ৰথ বধ লিখিছিল।"
@@ -5054,23 +8564,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhattadeva",
-     "as": "ভট্টদেৱ"
-    },
-    {
      "en": "Ram Saraswati",
      "as": "ৰাম সৰস্বতী"
     },
     {
-     "en": "Madhavdeva",
-     "as": "মাধৱদেৱ"
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
     },
     {
      "en": "Sankardeva",
      "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Madhavdeva",
+     "as": "মাধৱদেৱ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Bhattadeva wrote Bhakti Ratnavali in Assamese prose.",
     "as": "ভট্টদেৱে অসমীয়া গদ্যত ভক্তি ৰত্নাৱলী লিখিছিল।"
@@ -5084,23 +8594,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sankardeva",
-     "as": "শংকৰদেৱ"
-    },
-    {
-     "en": "Bhattadeva",
-     "as": "ভট্টদেৱ"
-    },
-    {
      "en": "Madhava Kandali",
      "as": "মাধৱ কন্দলী"
     },
     {
      "en": "Hemchandra Barua",
      "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Bhattadeva is regarded as the father of Assamese prose.",
     "as": "ভট্টদেৱক অসমীয়া গদ্যৰ পিতৃ হিচাপে গণ্য কৰা হয়।"
@@ -5114,23 +8624,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Saivism",
-     "as": "শৈৱ ধৰ্ম"
-    },
-    {
      "en": "Buddhism",
      "as": "বৌদ্ধ ধৰ্ম"
     },
     {
-     "en": "Ekasarana Dharma (Vaishnavism)",
-     "as": "একশৰণ ধৰ্ম (বৈষ্ণৱ ধৰ্ম)"
+     "en": "Saivism",
+     "as": "শৈৱ ধৰ্ম"
     },
     {
      "en": "Sufism",
      "as": "চুফীবাদ"
+    },
+    {
+     "en": "Ekasarana Dharma (Vaishnavism)",
+     "as": "একশৰণ ধৰ্ম (বৈষ্ণৱ ধৰ্ম)"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Sankardeva founded the Ekasarana Dharma, the Vaishnavite movement of Assam.",
     "as": "শংকৰদেৱে অসমৰ বৈষ্ণৱ আন্দোলন একশৰণ ধৰ্ম প্ৰতিষ্ঠা কৰিছিল।"
@@ -5144,23 +8654,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Saptakanda Ramayana",
-     "as": "সপ্তকাণ্ড ৰামায়ণ"
-    },
-    {
      "en": "Kirtan Ghosha",
      "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Bhagavata",
+     "as": "ভাগৱত"
     },
     {
      "en": "Naam Ghosha",
      "as": "নামঘোষা"
     },
     {
-     "en": "Bhagavata",
-     "as": "ভাগৱত"
+     "en": "Saptakanda Ramayana",
+     "as": "সপ্তকাণ্ড ৰামায়ণ"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "The Kirtan Ghosha is regarded as Sankardeva's magnum opus.",
     "as": "কীৰ্তন ঘোষা শংকৰদেৱৰ শ্ৰেষ্ঠ কৰ্ম হিচাপে গণ্য কৰা হয়।"
@@ -5174,10 +8684,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhattadeva",
-     "as": "ভট্টদেৱ"
-    },
-    {
      "en": "Ram Saraswati",
      "as": "ৰাম সৰস্বতী"
     },
@@ -5188,9 +8694,13 @@ module.exports = {
     {
      "en": "Sankardeva",
      "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Madhavdeva composed the Naam Ghosha.",
     "as": "মাধৱদেৱে নামঘোষা ৰচনা কৰিছিল।"
@@ -5204,8 +8714,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jatra",
-     "as": "যাত্ৰা"
+     "en": "Yakshagana",
+     "as": "যক্ষগান"
     },
     {
      "en": "Nautanki",
@@ -5216,8 +8726,8 @@ module.exports = {
      "as": "অঙ্কীয়া নাট"
     },
     {
-     "en": "Yakshagana",
-     "as": "যক্ষগান"
+     "en": "Jatra",
+     "as": "যাত্ৰা"
     }
    ],
    "correct": 2,
@@ -5234,23 +8744,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Chihna Yatra",
-     "as": "চিহ্ন যাত্ৰা"
+     "en": "Rukmini Haran",
+     "as": "ৰুক্মিণী হৰণ"
     },
     {
      "en": "Parijat Haran",
      "as": "পাৰিজাত হৰণ"
     },
     {
-     "en": "Rukmini Haran",
-     "as": "ৰুক্মিণী হৰণ"
-    },
-    {
      "en": "Keli Gopal",
      "as": "কেলি গোপাল"
+    },
+    {
+     "en": "Chihna Yatra",
+     "as": "চিহ্ন যাত্ৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Chihna Yatra is regarded as Sankardeva's first Ankiya Naat.",
     "as": "চিহ্ন যাত্ৰা শংকৰদেৱৰ প্ৰথম অঙ্কীয়া নাট হিচাপে গণ্য কৰা হয়।"
@@ -5264,6 +8774,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Rukmini Haran",
+     "as": "ৰুক্মিণী হৰণ"
+    },
+    {
      "en": "Parijat Haran",
      "as": "পাৰিজাত হৰণ"
     },
@@ -5274,13 +8788,9 @@ module.exports = {
     {
      "en": "Keli Gopal",
      "as": "কেলি গোপাল"
-    },
-    {
-     "en": "Rukmini Haran",
-     "as": "ৰুক্মিণী হৰণ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Rukmini Haran is an Ankiya Naat about the abduction of Rukmini.",
     "as": "ৰুক্মিণী হৰণ ৰুক্মিণী হৰণৰ বিষয়ে এটা অঙ্কীয়া নাট।"
@@ -5298,19 +8808,19 @@ module.exports = {
      "as": "ৰুক্মিণী হৰণ"
     },
     {
-     "en": "Patni Prasad",
-     "as": "পত্নী প্ৰসাদ"
-    },
-    {
      "en": "Parijat Haran",
      "as": "পাৰিজাত হৰণ"
+    },
+    {
+     "en": "Patni Prasad",
+     "as": "পত্নী প্ৰসাদ"
     },
     {
      "en": "Kaliya Daman",
      "as": "কালীয় দমন"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Parijat Haran is an Ankiya Naat about the Parijat flower.",
     "as": "পাৰিজাত হৰণ পাৰিজাত ফুলৰ বিষয়ে এটা অঙ্কীয়া নাট।"
@@ -5324,23 +8834,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kaliya Daman",
-     "as": "কালীয় দমন"
+     "en": "Rukmini Haran",
+     "as": "ৰুক্মিণী হৰণ"
     },
     {
      "en": "Parijat Haran",
      "as": "পাৰিজাত হৰণ"
     },
     {
-     "en": "Keli Gopal",
-     "as": "কেলি গোপাল"
+     "en": "Kaliya Daman",
+     "as": "কালীয় দমন"
     },
     {
-     "en": "Rukmini Haran",
-     "as": "ৰুক্মিণী হৰণ"
+     "en": "Keli Gopal",
+     "as": "কেলি গোপাল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Kaliya Daman is an Ankiya Naat about the subduing of the serpent Kaliya.",
     "as": "কালীয় দমন কালীয় সৰ্পক দমনৰ বিষয়ে এটা অঙ্কীয়া নাট।"
@@ -5354,23 +8864,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Parijat Haran",
-     "as": "পাৰিজাত হৰণ"
+     "en": "Rukmini Haran",
+     "as": "ৰুক্মিণী হৰণ"
     },
     {
      "en": "Chihna Yatra",
      "as": "চিহ্ন যাত্ৰা"
     },
     {
-     "en": "Arjun Bhanjan",
-     "as": "অৰ্জুন ভঞ্জন"
+     "en": "Parijat Haran",
+     "as": "পাৰিজাত হৰণ"
     },
     {
-     "en": "Rukmini Haran",
-     "as": "ৰুক্মিণী হৰণ"
+     "en": "Arjun Bhanjan",
+     "as": "অৰ্জুন ভঞ্জন"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Arjun Bhanjan is an Ankiya Naat attributed to Madhavdeva.",
     "as": "অৰ্জুন ভঞ্জন মাধৱদেৱৰ বুলি কৃতিত্ব দিয়া এটা অঙ্কীয়া নাট।"
@@ -5388,12 +8898,12 @@ module.exports = {
      "as": "মাধৱদেৱ"
     },
     {
-     "en": "Damodardeva",
-     "as": "দামোদৰদেৱ"
-    },
-    {
      "en": "Bhattadeva",
      "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Damodardeva",
+     "as": "দামোদৰদেৱ"
     },
     {
      "en": "Harideva",
@@ -5414,23 +8924,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sankardeva and Madhavdeva",
-     "as": "শংকৰদেৱ আৰু মাধৱদেৱ"
-    },
-    {
-     "en": "Bhattadeva and Ram Saraswati",
-     "as": "ভট্টদেৱ আৰু ৰাম সৰস্বতী"
-    },
-    {
      "en": "Sankardeva and Bhattadeva",
      "as": "শংকৰদেৱ আৰু ভট্টদেৱ"
     },
     {
+     "en": "Sankardeva and Madhavdeva",
+     "as": "শংকৰদেৱ আৰু মাধৱদেৱ"
+    },
+    {
      "en": "Madhavdeva and Damodardeva",
      "as": "মাধৱদেৱ আৰু দামোদৰদেৱ"
+    },
+    {
+     "en": "Bhattadeva and Ram Saraswati",
+     "as": "ভট্টদেৱ আৰু ৰাম সৰস্বতী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Sankardeva and Madhavdeva are mainly credited with the Borgeet.",
     "as": "শংকৰদেৱ আৰু মাধৱদেৱক মূলতঃ বৰগীতৰ কৃতিত্ব দিয়া হয়।"
@@ -5448,19 +8958,19 @@ module.exports = {
      "as": "সংস্কৃত"
     },
     {
+     "en": "Pure Assamese",
+     "as": "শুদ্ধ অসমীয়া"
+    },
+    {
      "en": "Brajavali",
      "as": "ব্ৰজাৱলী"
     },
     {
      "en": "Bengali",
      "as": "বঙালী"
-    },
-    {
-     "en": "Pure Assamese",
-     "as": "শুদ্ধ অসমীয়া"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "The Borgeet were composed in Brajavali, a literary language.",
     "as": "বৰগীত ব্ৰজাৱলী, এটা সাহিত্যিক ভাষাত ৰচনা কৰা হৈছিল।"
@@ -5478,19 +8988,19 @@ module.exports = {
      "as": "অৱহট্ট"
     },
     {
-     "en": "Brajavali",
-     "as": "ব্ৰজাৱলী"
+     "en": "Sadhu Bhasha",
+     "as": "সাধু ভাষা"
     },
     {
      "en": "Pali",
      "as": "পালি"
     },
     {
-     "en": "Sadhu Bhasha",
-     "as": "সাধু ভাষা"
+     "en": "Brajavali",
+     "as": "ব্ৰজাৱলী"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Brajavali was the literary language of the Vaishnavite writers.",
     "as": "ব্ৰজাৱলী বৈষ্ণৱ লেখকসকলৰ সাহিত্যিক ভাষা আছিল।"
@@ -5504,10 +9014,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sukapha",
-     "as": "চুকাফা"
-    },
-    {
      "en": "Naranarayan",
      "as": "নাৰায়ণ"
     },
@@ -5518,9 +9024,13 @@ module.exports = {
     {
      "en": "Rudra Singha",
      "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Koch king Naranarayan became a disciple and patron of Sankardeva.",
     "as": "কোচ ৰজা নাৰায়ণ শংকৰদেৱৰ শিষ্য তথা পৃষ্ঠপোষক হৈছিল।"
@@ -5534,10 +9044,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sankardeva",
-     "as": "শংকৰদেৱ"
-    },
-    {
      "en": "Madhavdeva",
      "as": "মাধৱদেৱ"
     },
@@ -5546,11 +9052,15 @@ module.exports = {
      "as": "ভট্টদেৱ"
     },
     {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    },
+    {
      "en": "Ananta Kandali",
      "as": "অনন্ত কন্দলী"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Bhattadeva translated the Bhagavata into Assamese prose.",
     "as": "ভট্টদেৱে ভাগৱতক অসমীয়া গদ্যত অনুবাদ কৰিছিল।"
@@ -5564,23 +9074,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Saptakanda Ramayana and Bhagavata",
-     "as": "সপ্তকাণ্ড ৰামায়ণ আৰু ভাগৱত"
-    },
-    {
-     "en": "Kirtan Ghosha and Naam Ghosha",
-     "as": "কীৰ্তন ঘোষা আৰু নামঘোষা"
-    },
-    {
      "en": "Rukmini Haran and Parijat Haran",
      "as": "ৰুক্মিণী হৰণ আৰু পাৰিজাত হৰণ"
     },
     {
+     "en": "Saptakanda Ramayana and Bhagavata",
+     "as": "সপ্তকাণ্ড ৰামায়ণ আৰু ভাগৱত"
+    },
+    {
      "en": "Katha Bhagavata and Katha Gita",
      "as": "কথা ভাগৱত আৰু কথা গীতা"
+    },
+    {
+     "en": "Kirtan Ghosha and Naam Ghosha",
+     "as": "কীৰ্তন ঘোষা আৰু নামঘোষা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Katha Bhagavata and Katha Gita are the prose works of Bhattadeva.",
     "as": "কথা ভাগৱত আৰু কথা গীতা ভট্টদেৱৰ গদ্য কৰ্ম।"
@@ -5594,23 +9104,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ananta Kandali",
-     "as": "অনন্ত কন্দলী"
-    },
-    {
      "en": "Bhattadeva",
      "as": "ভট্টদেৱ"
     },
     {
-     "en": "Ram Saraswati",
-     "as": "ৰাম সৰস্বতী"
-    },
-    {
      "en": "Madhava Kandali",
      "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Ananta Kandali",
+     "as": "অনন্ত কন্দলী"
+    },
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Ram Saraswati translated the Mahabharata into Assamese.",
     "as": "ৰাম সৰস্বতীয়ে মহাভাৰতক অসমীয়ালৈ অনুবাদ কৰিছিল।"
@@ -5624,23 +9134,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Ramayana",
-     "as": "ৰামায়ণ"
-    },
-    {
-     "en": "The Mahabharata",
-     "as": "মহাভাৰত"
-    },
-    {
      "en": "The Bhagavata",
      "as": "ভাগৱত"
     },
     {
+     "en": "The Ramayana",
+     "as": "ৰামায়ণ"
+    },
+    {
      "en": "The Markandeya Purana",
      "as": "মাৰ্কণ্ডেয় পুৰাণ"
+    },
+    {
+     "en": "The Mahabharata",
+     "as": "মহাভাৰত"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Ananta Kandali translated portions of the Bhagavata into Assamese.",
     "as": "অনন্ত কন্দলীয়ে ভাগৱতৰ অংশ অসমীয়ালৈ অনুবাদ কৰিছিল।"
@@ -5654,12 +9164,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Srimanta Sankardeva",
-     "as": "শ্ৰীমন্ত শংকৰদেৱ"
-    },
-    {
      "en": "Bhattadeva",
      "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Srimanta Sankardeva",
+     "as": "শ্ৰীমন্ত শংকৰদেৱ"
     },
     {
      "en": "Ram Saraswati",
@@ -5670,7 +9180,7 @@ module.exports = {
      "as": "মাধৱদেৱ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Srimanta Sankardeva established the Satra institution.",
     "as": "শ্ৰীমন্ত শংকৰদেৱে সত্ৰ প্ৰতিষ্ঠান প্ৰতিষ্ঠা কৰিছিল।"
@@ -5688,19 +9198,19 @@ module.exports = {
      "as": "এটা প্ৰেম-কবিতা"
     },
     {
+     "en": "A devotional song",
+     "as": "এটা ভক্তিমূলক গীত"
+    },
+    {
      "en": "A chronicle of kings and events",
      "as": "ৰজা আৰু ঘটনাৱলীৰ ইতিহাস-পুথি"
     },
     {
      "en": "A dictionary",
      "as": "এটা অভিধান"
-    },
-    {
-     "en": "A devotional song",
-     "as": "এটা ভক্তিমূলক গীত"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "A Buranji is a historical chronicle of Assam.",
     "as": "বুৰঞ্জী হৈছে অসমৰ ঐতিহাসিক ইতিহাস-পুথি।"
@@ -5714,23 +9224,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Charit Puthi",
-     "as": "চৰিত পুথি"
-    },
-    {
      "en": "Borgeet",
      "as": "বৰগীত"
     },
     {
-     "en": "Buranji",
-     "as": "বুৰঞ্জী"
-    },
-    {
      "en": "Naam Ghosha",
      "as": "নামঘোষা"
+    },
+    {
+     "en": "Charit Puthi",
+     "as": "চৰিত পুথি"
+    },
+    {
+     "en": "Buranji",
+     "as": "বুৰঞ্জী"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "The Ahom kings maintained Buranji, the royal chronicles.",
     "as": "আহোম ৰজাসকলে বুৰঞ্জী, ৰাজকীয় ইতিহাস-পুথি ৰাখিছিল।"
@@ -5744,23 +9254,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A devotional poem",
-     "as": "এটা ভক্তিমূলক কবিতা"
-    },
-    {
      "en": "An Ahom royal chronicle",
      "as": "এখন আহোম ৰাজকীয় ইতিহাস-পুথি"
     },
     {
-     "en": "A grammar",
-     "as": "এখন ব্যাকৰণ"
+     "en": "A devotional poem",
+     "as": "এটা ভক্তিমূলক কবিতা"
     },
     {
      "en": "A dictionary",
      "as": "এটা অভিধান"
+    },
+    {
+     "en": "A grammar",
+     "as": "এখন ব্যাকৰণ"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Tungkhungia Buranji is an Ahom royal chronicle.",
     "as": "তুংখুঙীয়া বুৰঞ্জী এখন আহোম ৰাজকীয় ইতিহাস-পুথি।"
@@ -5774,8 +9284,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A collection of folk tales",
-     "as": "লোককথাৰ সংকলন"
+     "en": "A book of grammar",
+     "as": "এখন ব্যাকৰণ পুথি"
     },
     {
      "en": "Biographies of Vaishnavite saints",
@@ -5786,8 +9296,8 @@ module.exports = {
      "as": "এটা অভিধান"
     },
     {
-     "en": "A book of grammar",
-     "as": "এখন ব্যাকৰণ পুথি"
+     "en": "A collection of folk tales",
+     "as": "লোককথাৰ সংকলন"
     }
    ],
    "correct": 1,
@@ -5804,6 +9314,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Ahom kings",
+     "as": "আহোম ৰজা"
+    },
+    {
      "en": "Koch kings",
      "as": "কোচ ৰজা"
     },
@@ -5812,15 +9326,11 @@ module.exports = {
      "as": "বৈষ্ণৱ গুৰুসকল"
     },
     {
-     "en": "Ahom kings",
-     "as": "আহোম ৰজা"
-    },
-    {
      "en": "British officers",
      "as": "ব্ৰিটিছ বিষয়া"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "The Guru Charit Katha describes the lives of Vaishnavite gurus.",
     "as": "গুৰু চৰিত কথাই বৈষ্ণৱ গুৰুসকলৰ জীৱন বৰ্ণনা কৰে।"
@@ -5864,23 +9374,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Bodo",
-     "as": "বড়ো"
-    },
-    {
      "en": "The Kachari (Dimasa)",
      "as": "কছাৰী (দিমাছা)"
     },
     {
-     "en": "The Ahom",
-     "as": "আহোম"
-    },
-    {
      "en": "The Koch",
      "as": "কোচ"
+    },
+    {
+     "en": "The Bodo",
+     "as": "বড়ো"
+    },
+    {
+     "en": "The Ahom",
+     "as": "আহোম"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Kachari Buranji is a chronicle of the Kachari people.",
     "as": "কছাৰী বুৰঞ্জী কছাৰী জনগোষ্ঠীৰ ইতিহাস-পুথি।"
@@ -5894,6 +9404,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "A dictionary",
+     "as": "এটা অভিধান"
+    },
+    {
      "en": "A chronicle of the Mughal period",
      "as": "মোগল যুগৰ ইতিহাস-পুথি"
     },
@@ -5902,15 +9416,11 @@ module.exports = {
      "as": "এটা ভক্তিমূলক গীত"
     },
     {
-     "en": "A dictionary",
-     "as": "এটা অভিধান"
-    },
-    {
      "en": "A grammar",
      "as": "এখন ব্যাকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Padshah Buranji is a chronicle dealing with the Mughal period.",
     "as": "পাদশাহ বুৰঞ্জী মোগল যুগৰ সৈতে জড়িত এখন ইতিহাস-পুথি।"
@@ -5928,16 +9438,16 @@ module.exports = {
      "as": "সমাগুৰি সত্ৰ"
     },
     {
-     "en": "Barpeta Satra",
-     "as": "বৰপেটা সত্ৰ"
+     "en": "Dakhinpat Satra",
+     "as": "দক্ষিণপাট সত্ৰ"
     },
     {
      "en": "Auniati Satra",
      "as": "আউনীআটী সত্ৰ"
     },
     {
-     "en": "Dakhinpat Satra",
-     "as": "দক্ষিণপাট সত্ৰ"
+     "en": "Barpeta Satra",
+     "as": "বৰপেটা সত্ৰ"
     }
    ],
    "correct": 2,
@@ -5954,23 +9464,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Saptakanda Ramayana",
-     "as": "সপ্তকাণ্ড ৰামায়ণ"
-    },
-    {
      "en": "Charit Puthi",
      "as": "চৰিত পুথি"
     },
     {
-     "en": "Kirtan Ghosha",
-     "as": "কীৰ্তন ঘোষা"
-    },
-    {
      "en": "Buranji",
      "as": "বুৰঞ্জী"
+    },
+    {
+     "en": "Saptakanda Ramayana",
+     "as": "সপ্তকাণ্ড ৰামায়ণ"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "The Kirtan Ghosha is central to Assamese Vaishnavism.",
     "as": "কীৰ্তন ঘোষা অসমীয়া বৈষ্ণৱ ধৰ্মৰ কেন্দ্ৰীয়।"
@@ -5984,6 +9494,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Khandas",
+     "as": "খণ্ড"
+    },
+    {
      "en": "Kandas",
      "as": "কাণ্ড"
     },
@@ -5994,13 +9508,9 @@ module.exports = {
     {
      "en": "Sargas",
      "as": "সৰ্গ"
-    },
-    {
-     "en": "Khandas",
-     "as": "খণ্ড"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "The Kirtan Ghosha is divided into khandas.",
     "as": "কীৰ্তন ঘোষাক খণ্ডত ভাগ কৰা হৈছে।"
@@ -6014,12 +9524,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Naranarayan",
-     "as": "নাৰায়ণ"
-    },
-    {
      "en": "Rudra Singha",
      "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Naranarayan",
+     "as": "নাৰায়ণ"
     },
     {
      "en": "Gadadhar Singha",
@@ -6030,7 +9540,7 @@ module.exports = {
      "as": "চিলাৰায়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Koch king Naranarayan commissioned translations of the epics into Assamese.",
     "as": "কোচ ৰজা নাৰায়ণে মহাকাব্য অসমীয়ালৈ অনুবাদৰ আদেশ দিছিল।"
@@ -6044,23 +9554,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ananta Kandali",
-     "as": "অনন্ত কন্দলী"
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
     },
     {
      "en": "Ram Saraswati",
      "as": "ৰাম সৰস্বতী"
     },
     {
-     "en": "Bhattadeva",
-     "as": "ভট্টদেৱ"
-    },
-    {
      "en": "Madhab Kandali's successors",
      "as": "মাধৱ কন্দলীৰ উত্তৰসূৰী"
+    },
+    {
+     "en": "Ananta Kandali",
+     "as": "অনন্ত কন্দলী"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Later Vaishnavite poets continued translating the Ramayana.",
     "as": "পৰৱৰ্তী বৈষ্ণৱ কবিসকলে ৰামায়ণ অনুবাদ অব্যাহত ৰাখিছিল।"
@@ -6078,19 +9588,19 @@ module.exports = {
      "as": "ভট্টদেৱ"
     },
     {
+     "en": "Harideva",
+     "as": "হৰিদেৱ"
+    },
+    {
      "en": "Damodardeva",
      "as": "দামোদৰদেৱ"
     },
     {
      "en": "Madhavdeva",
      "as": "মাধৱদেৱ"
-    },
-    {
-     "en": "Harideva",
-     "as": "হৰিদেৱ"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Madhavdeva wrote the Naam Ghosha and led the order after Sankardeva.",
     "as": "মাধৱদেৱে নামঘোষা লিখিছিল আৰু শংকৰদেৱৰ পিছত ধৰ্মৰ নেতৃত্ব দিছিল।"
@@ -6104,10 +9614,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Sakta tradition",
-     "as": "শাক্ত পৰম্পৰা"
-    },
-    {
      "en": "The Vaishnavite (Kala Sanghati) tradition",
      "as": "বৈষ্ণৱ (কলা সংঘাটি) পৰম্পৰা"
     },
@@ -6116,11 +9622,15 @@ module.exports = {
      "as": "বৌদ্ধ পৰম্পৰা"
     },
     {
+     "en": "The Sakta tradition",
+     "as": "শাক্ত পৰম্পৰা"
+    },
+    {
      "en": "The Ahom chronicle tradition",
      "as": "আহোম বুৰঞ্জী পৰম্পৰা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Gopaladeva was associated with the Vaishnavite Kala Sanghati tradition.",
     "as": "গোপালদেৱ বৈষ্ণৱ কলা সংঘাটি পৰম্পৰাৰ সৈতে জড়িত আছিল।"
@@ -6138,19 +9648,19 @@ module.exports = {
      "as": "বিহু"
     },
     {
-     "en": "Kushan",
-     "as": "কুশান"
-    },
-    {
      "en": "Bhaona",
      "as": "ভাওনা"
+    },
+    {
+     "en": "Kushan",
+     "as": "কুশান"
     },
     {
      "en": "Ojapali",
      "as": "ওজাপালি"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Bhaona, the staging of Ankiya Naat, was introduced by Sankardeva.",
     "as": "ভাওনা, অঙ্কীয়া নাটৰ মঞ্চস্থতা, শংকৰদেৱে প্ৰৱৰ্তন কৰিছিল।"
@@ -6164,23 +9674,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sutradhara",
-     "as": "সুত্ৰধাৰ"
-    },
-    {
      "en": "Oja",
      "as": "ওজা"
     },
     {
-     "en": "Bhaoriya",
-     "as": "ভাওৰীয়া"
-    },
-    {
      "en": "Pali",
      "as": "পালি"
+    },
+    {
+     "en": "Sutradhara",
+     "as": "সুত্ৰধাৰ"
+    },
+    {
+     "en": "Bhaoriya",
+     "as": "ভাওৰীয়া"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Sutradhara is the chief narrator of a Bhaona.",
     "as": "সুত্ৰধাৰ ভাওনাৰ প্ৰধান বৰ্ণনাকাৰী।"
@@ -6194,23 +9704,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhaoriya",
-     "as": "ভাওৰীয়া"
-    },
-    {
-     "en": "Sattradhikar",
-     "as": "সত্ৰাধিকাৰ"
+     "en": "Oja",
+     "as": "ওজা"
     },
     {
      "en": "Pali",
      "as": "পালি"
     },
     {
-     "en": "Oja",
-     "as": "ওজা"
+     "en": "Sattradhikar",
+     "as": "সত্ৰাধিকাৰ"
+    },
+    {
+     "en": "Bhaoriya",
+     "as": "ভাওৰীয়া"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Bhaona performers are called Bhaoriya.",
     "as": "ভাওনাৰ অভিনেতাসকলক ভাওৰীয়া বোলা হয়।"
@@ -6224,23 +9734,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Auniati Satra",
-     "as": "আউনীআটী সত্ৰ"
+     "en": "Barpeta Satra",
+     "as": "বৰপেটা সত্ৰ"
     },
     {
      "en": "Dakhinpat Satra",
      "as": "দক্ষিণপাট সত্ৰ"
     },
     {
-     "en": "Barpeta Satra",
-     "as": "বৰপেটা সত্ৰ"
-    },
-    {
      "en": "Kamalabari Satra",
      "as": "কমলাবৰী সত্ৰ"
+    },
+    {
+     "en": "Auniati Satra",
+     "as": "আউনীআটী সত্ৰ"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Barpeta Satra was founded by Madhavdeva.",
     "as": "বৰপেটা সত্ৰ মাধৱদেৱে প্ৰতিষ্ঠা কৰিছিল।"
@@ -6254,23 +9764,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kamalabari Satra",
-     "as": "কমলাবৰী সত্ৰ"
+     "en": "Sarthebari Satra",
+     "as": "সৰ্থেবাৰী সত্ৰ"
     },
     {
-     "en": "Barpeta Satra",
-     "as": "বৰপেটা সত্ৰ"
+     "en": "Kamalabari Satra",
+     "as": "কমলাবৰী সত্ৰ"
     },
     {
      "en": "Samaguri Satra",
      "as": "সমাগুৰি সত্ৰ"
     },
     {
-     "en": "Sarthebari Satra",
-     "as": "সৰ্থেবাৰী সত্ৰ"
+     "en": "Barpeta Satra",
+     "as": "বৰপেটা সত্ৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Kamalabari Satra is famous for its Raas festival.",
     "as": "কমলাবৰী সত্ৰ ৰাস উৎসৱৰ বাবে বিখ্যাত।"
@@ -6284,10 +9794,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Auniati Satra",
-     "as": "আউনীআটী সত্ৰ"
-    },
-    {
      "en": "Dakhinpat Satra",
      "as": "দক্ষিণপাট সত্ৰ"
     },
@@ -6298,9 +9804,13 @@ module.exports = {
     {
      "en": "Samaguri Satra",
      "as": "সমাগুৰি সত্ৰ"
+    },
+    {
+     "en": "Auniati Satra",
+     "as": "আউনীআটী সত্ৰ"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Samaguri Satra is renowned for mask making.",
     "as": "সমাগুৰি সত্ৰ মুখা নিৰ্মাণৰ বাবে বিখ্যাত।"
@@ -6314,23 +9824,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Welsh Mission",
-     "as": "ৱেলছ মিছন"
-    },
-    {
-     "en": "The American Baptist Mission",
-     "as": "আমেৰিকান বেপ্টিষ্ট মিছন"
-    },
-    {
      "en": "The Catholic Mission",
      "as": "কেথলিক মিছন"
     },
     {
      "en": "The Church of England",
      "as": "ইংলেণ্ডৰ চাৰ্চ"
+    },
+    {
+     "en": "The Welsh Mission",
+     "as": "ৱেলছ মিছন"
+    },
+    {
+     "en": "The American Baptist Mission",
+     "as": "আমেৰিকান বেপ্টিষ্ট মিছন"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Orunodoi was published by the American Baptist Mission.",
     "as": "অৰুণোদয় আমেৰিকান বেপ্টিষ্ট মিছনৰ দ্বাৰা প্ৰকাশিত হৈছিল।"
@@ -6344,23 +9854,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1836 CE",
-     "as": "১৮৩৬ খ্ৰীষ্টাব্দ"
-    },
-    {
-     "en": "1857 CE",
-     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "1846 CE",
      "as": "১৮৪৬ খ্ৰীষ্টাব্দ"
     },
     {
+     "en": "1836 CE",
+     "as": "১৮৩৬ খ্ৰীষ্টাব্দ"
+    },
+    {
      "en": "1870 CE",
      "as": "১৮৭০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Orunodoi began publication in 1846 from Sibsagar.",
     "as": "অৰুণোদয় ১৮৪৬ চনত শিৱসাগৰৰ পৰা প্ৰকাশ আৰম্ভ কৰিছিল।"
@@ -6374,10 +9884,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Calcutta",
-     "as": "কলিকতা"
-    },
-    {
      "en": "Tezpur",
      "as": "তেজপুৰ"
     },
@@ -6388,9 +9894,13 @@ module.exports = {
     {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Calcutta",
+     "as": "কলিকতা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Orunodoi was published from Sibsagar.",
     "as": "অৰুণোদয় শিৱসাগৰৰ পৰা প্ৰকাশিত হৈছিল।"
@@ -6404,23 +9914,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lakshminath Bezbaroa",
-     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
-    },
-    {
-     "en": "Hemchandra Barua",
-     "as": "হেমচন্দ্ৰ বৰুৱা"
-    },
-    {
      "en": "Anandaram Dhekial Phukan",
      "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
     },
     {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
      "en": "Nathan Brown",
      "as": "নাথান ব্ৰাউন"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Nathan Brown of the American Baptist Mission edited Orunodoi.",
     "as": "আমেৰিকান বেপ্টিষ্ট মিছনৰ নাথান ব্ৰাউনে অৰুণোদয় সম্পাদনা কৰিছিল।"
@@ -6434,23 +9944,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hemchandra Barua",
-     "as": "হেমচন্দ্ৰ বৰুৱা"
-    },
-    {
-     "en": "Anandaram Dhekial Phukan",
-     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
-     "en": "Rajanikanta Bordoloi",
-     "as": "ৰজনীকান্ত বৰদলৈ"
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Anandaram Dhekial Phukan is regarded as a pioneer of modern Assamese prose.",
     "as": "আনন্দৰাম ঢেকিয়াল ফুকনক আধুনিক অসমীয়া গদ্যৰ অগ্ৰগামী হিচাপে গণ্য কৰা হয়।"
@@ -6464,23 +9974,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bhattadeva",
-     "as": "ভট্টদেৱ"
-    },
-    {
-     "en": "Anandaram Dhekial Phukan",
-     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
     },
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
-     "en": "Hemchandra Barua",
-     "as": "হেমচন্দ্ৰ বৰুৱা"
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Hemchandra Barua compiled the Hemkosh.",
     "as": "হেমচন্দ্ৰ বৰুৱাই হেমকোষ সংকলন কৰিছিল।"
@@ -6502,12 +10012,12 @@ module.exports = {
      "as": "হেমচন্দ্ৰ বৰুৱা"
     },
     {
-     "en": "Nathan Brown",
-     "as": "নাথান ব্ৰাউন"
-    },
-    {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Nathan Brown",
+     "as": "নাথান ব্ৰাউন"
     }
    ],
    "correct": 1,
@@ -6524,10 +10034,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Gunabhiram Barua",
-     "as": "গুণাভিৰাম বৰুৱা"
-    },
-    {
      "en": "Jyotiprasad Agarwala",
      "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
     },
@@ -6538,9 +10044,13 @@ module.exports = {
     {
      "en": "Hemchandra Barua",
      "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Gunabhiram Barua",
+     "as": "গুণাভিৰাম বৰুৱা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Hemchandra Barua wrote Kaniyar Kirtan, the first Assamese drama.",
     "as": "হেমচন্দ্ৰ বৰুৱাই প্ৰথম অসমীয়া নাটক কনিয়াৰ কীৰ্তন লিখিছিল।"
@@ -6554,23 +10064,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1889 CE",
-     "as": "১৮৮৯ খ্ৰীষ্টাব্দ"
+     "en": "1879 CE",
+     "as": "১৮৭৯ খ্ৰীষ্টাব্দ"
     },
     {
      "en": "1899 CE",
      "as": "১৮৯৯ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "1879 CE",
-     "as": "১৮৭৯ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "1909 CE",
      "as": "১৯০৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1889 CE",
+     "as": "১৮৮৯ খ্ৰীষ্টাব্দ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Jonaki magazine was started in 1889.",
     "as": "জোনাকী আলোচনী ১৮৮৯ চনত আৰম্ভ হৈছিল।"
@@ -6584,10 +10094,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
-    },
-    {
      "en": "Calcutta",
      "as": "কলিকতা"
     },
@@ -6596,11 +10102,15 @@ module.exports = {
      "as": "তেজপুৰ"
     },
     {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Jonaki was published from Calcutta.",
     "as": "জোনাকী কলিকতাৰ পৰা প্ৰকাশিত হৈছিল।"
@@ -6614,23 +10124,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Chandra Kumar Agarwala",
-     "as": "চন্দ্ৰ কুমাৰ আগৰৱালা"
-    },
-    {
      "en": "Padmanath Gohain Baruah",
      "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     },
     {
-     "en": "Hemchandra Goswami",
-     "as": "হেমচন্দ্ৰ গোস্বামী"
+     "en": "Chandra Kumar Agarwala",
+     "as": "চন্দ্ৰ কুমাৰ আগৰৱালা"
     },
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Goswami",
+     "as": "হেমচন্দ্ৰ গোস্বামী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Chandra Kumar Agarwala founded Jonaki.",
     "as": "চন্দ্ৰ কুমাৰ আগৰৱালাই জোনাকী প্ৰতিষ্ঠা কৰিছিল।"
@@ -6644,10 +10154,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sahityarathi",
-     "as": "সাহিত্যৰথী"
-    },
-    {
      "en": "Biswakabi",
      "as": "বিশ্বকবি"
     },
@@ -6656,11 +10162,15 @@ module.exports = {
      "as": "ৰূপকোঁৱৰ"
     },
     {
+     "en": "Sahityarathi",
+     "as": "সাহিত্যৰথী"
+    },
+    {
      "en": "Kalaguru",
      "as": "কলাগুৰু"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Lakshminath Bezbaroa's pen name was Sahityarathi.",
     "as": "লক্ষ্মীনাথ বেজবৰুৱাৰ ছদ্মনাম আছিল সাহিত্যৰথী।"
@@ -6678,19 +10188,19 @@ module.exports = {
      "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
      "en": "Padmanath Gohain Baruah",
      "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     },
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
-    },
-    {
-     "en": "Hemchandra Barua",
-     "as": "হেমচন্দ্ৰ বৰুৱা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Lakshminath Bezbaroa pioneered the Assamese short story.",
     "as": "লক্ষ্মীনাথ বেজবৰুৱাই অসমীয়া চুটি গল্পৰ পথ দেখুৱাইছিল।"
@@ -6712,12 +10222,12 @@ module.exports = {
      "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
-     "en": "Hemchandra Goswami",
-     "as": "হেমচন্দ্ৰ গোস্বামী"
-    },
-    {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Goswami",
+     "as": "হেমচন্দ্ৰ গোস্বামী"
     }
    ],
    "correct": 0,
@@ -6738,19 +10248,19 @@ module.exports = {
      "as": "হোমেন বৰগোহাঞি"
     },
     {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
      "en": "Padmanath Gohain Baruah",
      "as": "পদ্মনাথ গোহাঞি বৰুৱা"
-    },
-    {
-     "en": "Rajanikanta Bordoloi",
-     "as": "ৰজনীকান্ত বৰদলৈ"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Rajanikanta Bordoloi wrote Miri Jiyori.",
     "as": "ৰজনীকান্ত বৰদলৈয়ে মিৰি জীয়ৰী লিখিছিল।"
@@ -6764,12 +10274,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Birendra Kumar Bhattacharyya",
-     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
-    },
-    {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
     {
      "en": "Rajanikanta Bordoloi",
@@ -6794,12 +10304,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bishnu Prasad Rabha",
-     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
-    },
-    {
      "en": "Birendra Kumar Bhattacharyya",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
     },
     {
      "en": "Lakshminath Bezbaroa",
@@ -6824,23 +10334,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rupkonwar",
-     "as": "ৰূপকোঁৱৰ"
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
     },
     {
-     "en": "Bishnu Prasad Rabha",
-     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+     "en": "Rupkonwar",
+     "as": "ৰূপকোঁৱৰ"
     },
     {
      "en": "Phani Sarma",
      "as": "ফণী শৰ্মা"
     },
     {
-     "en": "Jyotiprasad Agarwala",
-     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Jyotiprasad Agarwala directed Joymoti, the first Assamese film.",
     "as": "জ্যোতি প্ৰসাদ আগৰৱালাই প্ৰথম অসমীয়া চলচ্চিত্ৰ জয়মতী পৰিচালনা কৰিছিল।"
@@ -6854,23 +10364,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1940 CE",
-     "as": "১৯৪০ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "1925 CE",
      "as": "১৯২৫ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "1947 CE",
-     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "1935 CE",
      "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1940 CE",
+     "as": "১৯৪০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Joymoti was released in 1935.",
     "as": "জয়মতী ১৯৩৫ চনত মুক্তি লাভ কৰিছিল।"
@@ -6884,23 +10394,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bishnu Prasad Rabha",
-     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
      "en": "Hemango Biswas",
      "as": "হেমাঙ্গ বিশ্বাস"
     },
     {
-     "en": "Lakshminath Bezbaroa",
-     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
     },
     {
      "en": "Jyotiprasad Agarwala",
      "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Bishnu Prasad Rabha is popularly titled Kalaguru.",
     "as": "বিষ্ণু প্ৰসাদ ৰাভাক জনপ্ৰিয়ভাৱে কলাগুৰু উপাধি দিয়া হয়।"
@@ -6914,23 +10424,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nilmani Phookan",
-     "as": "নীলমণি ফুকন"
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
-     "en": "Nalini Bala Devi",
-     "as": "নলিনী বালা দেৱী"
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
     },
     {
      "en": "Raghunath Choudhury",
      "as": "ৰঘুনাথ চৌধুৰী"
     },
     {
-     "en": "Lakshminath Bezbaroa",
-     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "Nalini Bala Devi wrote Alakananda.",
     "as": "নলিনী বালা দেৱীয়ে অলকানন্দা লিখিছিল।"
@@ -6944,10 +10454,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
-    },
-    {
      "en": "Birendra Kumar Bhattacharyya",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
@@ -6958,9 +10464,13 @@ module.exports = {
     {
      "en": "Nilmani Phookan",
      "as": "নীলমণি ফুকন"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Birendra Kumar Bhattacharyya was the first Assamese to win the Jnanpith Award.",
     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য জ্ঞানপীঠ বঁটা লাভ কৰা প্ৰথম অসমীয়া।"
@@ -6978,19 +10488,19 @@ module.exports = {
      "as": "হালধীয়া চৰায়ে বাওধান খায়"
     },
     {
-     "en": "Aghari Atmar Kahini",
-     "as": "আঘৰি আত্মাৰ কাহিনী"
+     "en": "Mrityunjay",
+     "as": "মৃত্যুঞ্জয়"
     },
     {
      "en": "Iyaruingam",
      "as": "ইয়াৰুইংগম"
     },
     {
-     "en": "Mrityunjay",
-     "as": "মৃত্যুঞ্জয়"
+     "en": "Aghari Atmar Kahini",
+     "as": "আঘৰি আত্মাৰ কাহিনী"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Birendra Kumar Bhattacharyya won the Jnanpith for Mrityunjay.",
     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই মৃত্যুঞ্জয়ৰ বাবে জ্ঞানপীঠ লাভ কৰিছিল।"
@@ -7008,19 +10518,19 @@ module.exports = {
      "as": "ভাৰত বিভাজন"
     },
     {
+     "en": "The Assam Movement",
+     "as": "অসম আন্দোলন"
+    },
+    {
      "en": "The 1942 Quit India Movement",
      "as": "১৯৪২ চনৰ ভাৰত ছাড়ো আন্দোলন"
     },
     {
      "en": "The Chinese aggression",
      "as": "চীন আক্ৰমণ"
-    },
-    {
-     "en": "The Assam Movement",
-     "as": "অসম আন্দোলন"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Mrityunjay is set against the 1942 Quit India Movement.",
     "as": "মৃত্যুঞ্জয় ১৯৪২ চনৰ ভাৰত ছাড়ো আন্দোলনৰ পটভূমিত ৰচিত।"
@@ -7042,15 +10552,15 @@ module.exports = {
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Birendra Kumar Bhattacharyya",
-     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "Birendra Kumar Bhattacharyya wrote Iyaruingam.",
     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই ইয়াৰুইংগম লিখিছিল।"
@@ -7064,23 +10574,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Birendra Kumar Bhattacharyya",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     },
     {
      "en": "Syed Abdul Malik",
      "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Mamoni Raisom Goswami wrote Dontal Hatir Une Khowa Howdah.",
     "as": "মামণি ৰয়ছম গোস্বামীয়ে দন্তাল হাতীৰ উনে খোৱা হাওদা লিখিছিল।"
@@ -7094,16 +10604,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1990 CE",
-     "as": "১৯৯০ খ্ৰীষ্টাব্দ"
+     "en": "2010 CE",
+     "as": "২০১০ খ্ৰীষ্টাব্দ"
     },
     {
      "en": "2000 CE",
      "as": "২০০০ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "2010 CE",
-     "as": "২০১০ খ্ৰীষ্টাব্দ"
+     "en": "1990 CE",
+     "as": "১৯৯০ খ্ৰীষ্টাব্দ"
     },
     {
      "en": "1985 CE",
@@ -7124,10 +10634,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Indira Goswami",
-     "as": "ইন্দিৰা গোস্বামী"
-    },
-    {
      "en": "Rita Chowdhury",
      "as": "ৰীতা চৌধুৰী"
     },
@@ -7136,11 +10642,15 @@ module.exports = {
      "as": "নলিনী বালা দেৱী"
     },
     {
+     "en": "Indira Goswami",
+     "as": "ইন্দিৰা গোস্বামী"
+    },
+    {
      "en": "Chandraprabha Saikiani",
      "as": "চন্দ্ৰপ্ৰভা শইকীয়ানী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Mamoni Raisom Goswami is the pen name of Indira Goswami.",
     "as": "মামণি ৰয়ছম গোস্বামী ইন্দিৰা গোস্বামীৰ ছদ্মনাম।"
@@ -7154,23 +10664,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Aghari Atmar Kahini",
-     "as": "আঘৰি আত্মাৰ কাহিনী"
-    },
-    {
-     "en": "Pita Putra",
-     "as": "পিতা পুত্ৰ"
-    },
-    {
      "en": "Mamore Dhora Tarowal",
      "as": "মামৰে ধৰা তৰোৱাল"
     },
     {
      "en": "Mrityunjay",
      "as": "মৃত্যুঞ্জয়"
+    },
+    {
+     "en": "Pita Putra",
+     "as": "পিতা পুত্ৰ"
+    },
+    {
+     "en": "Aghari Atmar Kahini",
+     "as": "আঘৰি আত্মাৰ কাহিনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Aghari Atmar Kahini deals with the lives of widows in Vrindavan.",
     "as": "আঘৰি আত্মাৰ কাহিনী বৃত্তাবনৰ বিধৱাসকলৰ জীৱনৰ সৈতে জড়িত।"
@@ -7184,23 +10694,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
-    },
-    {
-     "en": "Birendra Kumar Bhattacharyya",
-     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
      "en": "Syed Abdul Malik",
      "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "Mamoni Raisom Goswami wrote Mamore Dhora Tarowal.",
     "as": "মামণি ৰয়ছম গোস্বামীয়ে মামৰে ধৰা তৰোৱাল লিখিছিল।"
@@ -7218,19 +10728,19 @@ module.exports = {
      "as": "মহিম বৰা"
     },
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
-    },
-    {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
      "en": "Birendra Kumar Bhattacharyya",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Homen Borgohain wrote Pita Putra.",
     "as": "হোমেন বৰগোহাঞিয়ে পিতা পুত্ৰ লিখিছিল।"
@@ -7244,8 +10754,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
     },
     {
      "en": "Mahim Bora",
@@ -7256,8 +10766,8 @@ module.exports = {
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     }
    ],
    "correct": 2,
@@ -7278,12 +10788,12 @@ module.exports = {
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
-    },
-    {
      "en": "Birendra Kumar Bhattacharyya",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
     },
     {
      "en": "Homen Borgohain",
@@ -7304,6 +10814,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "The Assamese novel and short story",
+     "as": "অসমীয়া উপন্যাস আৰু চুটি গল্প"
+    },
+    {
      "en": "The epic poem",
      "as": "মহাকাব্য"
     },
@@ -7314,13 +10828,9 @@ module.exports = {
     {
      "en": "The grammar",
      "as": "ব্যাকৰণ"
-    },
-    {
-     "en": "The Assamese novel and short story",
-     "as": "অসমীয়া উপন্যাস আৰু চুটি গল্প"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Syed Abdul Malik was a master of the Assamese novel and short story.",
     "as": "চৈয়দ আব্দুল মালিক অসমীয়া উপন্যাস আৰু চুটি গল্পৰ এজন ওস্তাদ আছিল।"
@@ -7334,10 +10844,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
-    },
-    {
      "en": "Syed Abdul Malik",
      "as": "চৈয়দ আব্দুল মালিক"
     },
@@ -7348,9 +10854,13 @@ module.exports = {
     {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Saurabh Kumar Chaliha wrote Ashanta Electron.",
     "as": "সৌৰভ কুমাৰ চলিহাই অশান্ত ইলেক্ট্ৰন লিখিছিল।"
@@ -7368,19 +10878,19 @@ module.exports = {
      "as": "ভক্তিমূলক গীত"
     },
     {
-     "en": "Satirical and intellectual short stories",
-     "as": "ব্যংগাত্মক আৰু বৌদ্ধিক চুটি গল্প"
-    },
-    {
      "en": "Historical fiction",
      "as": "ঐতিহাসিক কল্প-সাহিত্য"
+    },
+    {
+     "en": "Satirical and intellectual short stories",
+     "as": "ব্যংগাত্মক আৰু বৌদ্ধিক চুটি গল্প"
     },
     {
      "en": "Romantic poetry",
      "as": "ৰোমাণ্টিক কবিতা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Saurabh Kumar Chaliha is known for satirical and intellectual short stories.",
     "as": "সৌৰভ কুমাৰ চলিহা ব্যংগাত্মক আৰু বৌদ্ধিক চুটি গল্পৰ বাবে জনাজাত।"
@@ -7424,23 +10934,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
-    },
-    {
-     "en": "Rita Chowdhury",
-     "as": "ৰীতা চৌধুৰী"
+     "en": "Anuradha Sharma Pujari",
+     "as": "অনুৰাধা শৰ্মা পূজাৰী"
     },
     {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Anuradha Sharma Pujari",
-     "as": "অনুৰাধা শৰ্মা পূজাৰী"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Rita Chowdhury",
+     "as": "ৰীতা চৌধুৰী"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Anuradha Sharma Pujari wrote Hriday Ek Bigyapan.",
     "as": "অনুৰাধা শৰ্মা পূজাৰীয়ে হৃদয় এখন বিজ্ঞাপন লিখিছিল।"
@@ -7458,19 +10968,19 @@ module.exports = {
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
     {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Birendra Kumar Bhattacharyya",
-     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Birendra Kumar Bhattacharyya wrote Patal Bhairavi.",
     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই পাতাল ভৈৰৱী লিখিছিল।"
@@ -7484,23 +10994,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2021 CE",
-     "as": "২০২১ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "2010 CE",
      "as": "২০১০ খ্ৰীষ্টাব্দ"
     },
     {
-     "en": "2000 CE",
-     "as": "২০০০ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "2015 CE",
      "as": "২০১৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2021 CE",
+     "as": "২০২১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2000 CE",
+     "as": "২০০০ খ্ৰীষ্টাব্দ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Nilmani Phookan won the Jnanpith Award in 2021.",
     "as": "নীলমণি ফুকনে ২০২১ চনত জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
@@ -7514,23 +11024,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Poet",
-     "as": "কবি"
-    },
-    {
-     "en": "Playwright",
-     "as": "নাট্যকাৰ"
-    },
-    {
      "en": "Essayist",
      "as": "প্ৰবন্ধকাৰ"
     },
     {
      "en": "Novelist",
      "as": "ঔপন্যাসিক"
+    },
+    {
+     "en": "Playwright",
+     "as": "নাট্যকাৰ"
+    },
+    {
+     "en": "Poet",
+     "as": "কবি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Nilmani Phookan is primarily known as a poet.",
     "as": "নীলমণি ফুকন প্ৰধানকৈ এজন কবি হিচাপে জনাজাত।"
@@ -7544,23 +11054,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Musician",
-     "as": "সংগীতশিল্পী"
+     "en": "Poet",
+     "as": "কবি"
     },
     {
-     "en": "Painter",
-     "as": "চিত্ৰশিল্পী"
+     "en": "Musician",
+     "as": "সংগীতশিল্পী"
     },
     {
      "en": "Actor",
      "as": "অভিনেতা"
     },
     {
-     "en": "Poet",
-     "as": "কবি"
+     "en": "Painter",
+     "as": "চিত্ৰশিল্পী"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Nabakanta Barua is best known as a poet.",
     "as": "নৱকান্ত বৰুৱা এজন কবি হিচাপে আটাইতকৈ বেছি জনাজাত।"
@@ -7574,6 +11084,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Maheswar Neog",
+     "as": "মহেশ্বৰ নেওগ"
+    },
+    {
      "en": "Banikanta Kakati",
      "as": "বাণীকান্ত কাকতি"
     },
@@ -7582,15 +11096,11 @@ module.exports = {
      "as": "সুনীতি কুমাৰ চট্টোপাধ্যায়"
     },
     {
-     "en": "Maheswar Neog",
-     "as": "মহেশ্বৰ নেওগ"
-    },
-    {
      "en": "Hem Barua",
      "as": "হেম বৰুৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Banikanta Kakati wrote Assamese: Its Formation and Development.",
     "as": "বাণীকান্ত কাকতিয়ে অসমীয়া: ইটছ ফৰ্মেচন এণ্ড ডেভেলপমেণ্ট লিখিছিল।"
@@ -7604,23 +11114,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Scholar of Assamese culture and literature",
-     "as": "অসমীয়া সংস্কৃতি আৰু সাহিত্যৰ পণ্ডিত"
-    },
-    {
-     "en": "Novelist",
-     "as": "ঔপন্যাসিক"
+     "en": "Film director",
+     "as": "চলচ্চিত্ৰ পৰিচালক"
     },
     {
      "en": "Painter",
      "as": "চিত্ৰশিল্পী"
     },
     {
-     "en": "Film director",
-     "as": "চলচ্চিত্ৰ পৰিচালক"
+     "en": "Scholar of Assamese culture and literature",
+     "as": "অসমীয়া সংস্কৃতি আৰু সাহিত্যৰ পণ্ডিত"
+    },
+    {
+     "en": "Novelist",
+     "as": "ঔপন্যাসিক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Maheswar Neog was a scholar of Assamese culture and literature.",
     "as": "মহেশ্বৰ নেওগ অসমীয়া সংস্কৃতি আৰু সাহিত্যৰ এজন পণ্ডিত আছিল।"
@@ -7634,23 +11144,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1917 CE",
-     "as": "১৯১৭ খ্ৰীষ্টাব্দ"
-    },
-    {
-     "en": "1927 CE",
-     "as": "১৯২৭ খ্ৰীষ্টাব্দ"
-    },
-    {
      "en": "1937 CE",
      "as": "১৯৩৭ খ্ৰীষ্টাব্দ"
     },
     {
      "en": "1907 CE",
      "as": "১৯০৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1927 CE",
+     "as": "১৯২৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1917 CE",
+     "as": "১৯১৭ খ্ৰীষ্টাব্দ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Assam Sahitya Sabha was founded in 1917.",
     "as": "অসম সাহিত্য সভা ১৯১৭ চনত প্ৰতিষ্ঠা হৈছিল।"
@@ -7664,23 +11174,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
     },
     {
      "en": "Nagaon",
      "as": "নগাঁও"
     },
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
+     "en": "Jorhat",
+     "as": "যোৰহাট"
     },
     {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "The first session of the Assam Sahitya Sabha was held at Sivasagar.",
     "as": "অসম সাহিত্য সভাৰ প্ৰথম অধিৱেশন শিৱসাগৰত অনুষ্ঠিত হৈছিল।"
@@ -7694,23 +11204,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Padmanath Gohain Baruah",
-     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
-    },
-    {
-     "en": "Banikanta Kakati",
-     "as": "বাণীকান্ত কাকতি"
-    },
-    {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
      "en": "Hemchandra Goswami",
      "as": "হেমচন্দ্ৰ গোস্বামী"
+    },
+    {
+     "en": "Banikanta Kakati",
+     "as": "বাণীকান্ত কাকতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Padmanath Gohain Baruah was the first president of the Assam Sahitya Sabha.",
     "as": "পদ্মনাথ গোহাঞি বৰুৱা অসম সাহিত্য সভাৰ প্ৰথম সভাপতি আছিল।"
@@ -7724,23 +11234,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Ninth Schedule",
-     "as": "নৱম তফছিল"
-    },
-    {
-     "en": "The Sixth Schedule",
-     "as": "ষষ্ঠ তফছিল"
-    },
-    {
      "en": "The Seventh Schedule",
      "as": "সপ্তম তফছিল"
     },
     {
+     "en": "The Ninth Schedule",
+     "as": "নৱম তফছিল"
+    },
+    {
      "en": "The Eighth Schedule",
      "as": "অষ্টম তফছিল"
+    },
+    {
+     "en": "The Sixth Schedule",
+     "as": "ষষ্ঠ তফছিল"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Assamese is included in the Eighth Schedule of the Indian Constitution.",
     "as": "অসমীয়া ভাৰতীয় সংবিধানৰ অষ্টম তফছিলত অন্তৰ্ভুক্ত।"
@@ -7754,16 +11264,16 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Four",
+     "as": "চাৰিজন"
+    },
+    {
      "en": "Two",
      "as": "দুজন"
     },
     {
      "en": "One",
      "as": "এজন"
-    },
-    {
-     "en": "Four",
-     "as": "চাৰিজন"
     },
     {
      "en": "Three",
@@ -7792,12 +11302,12 @@ module.exports = {
      "as": "নলিনী বালা দেৱী"
     },
     {
-     "en": "Rita Chowdhury",
-     "as": "ৰীতা চৌধুৰী"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Rita Chowdhury",
+     "as": "ৰীতা চৌধুৰী"
     }
    ],
    "correct": 0,
@@ -7822,12 +11332,12 @@ module.exports = {
      "as": "নলিনী বালা দেৱী"
     },
     {
-     "en": "Lakshminath Bezbaroa",
-     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
-    },
-    {
      "en": "Chandraprabha Saikiani",
      "as": "চন্দ্ৰপ্ৰভা শইকীয়ানী"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     }
    ],
    "correct": 1,
@@ -7844,10 +11354,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Novelist",
-     "as": "ঔপন্যাসিক"
-    },
-    {
      "en": "Playwright",
      "as": "নাট্যকাৰ"
     },
@@ -7858,9 +11364,13 @@ module.exports = {
     {
      "en": "Poet",
      "as": "কবি"
+    },
+    {
+     "en": "Novelist",
+     "as": "ঔপন্যাসিক"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Nalini Bala Devi was primarily a poet.",
     "as": "নলিনী বালা দেৱী প্ৰধানকৈ এগৰাকী কবি আছিল।"
@@ -7874,23 +11384,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lakshminath Bezbaroa",
-     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
-    },
-    {
-     "en": "Padmanath Gohain Baruah",
-     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
      "en": "Hemchandra Barua",
      "as": "হেমচন্দ্ৰ বৰুৱা"
     },
     {
-     "en": "Rajanikanta Bordoloi",
-     "as": "ৰজনীকান্ত বৰদলৈ"
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Lakshminath Bezbaroa wrote Burhi Aair Sadhu.",
     "as": "লক্ষ্মীনাথ বেজবৰুৱাই বুঢ়ী আইৰ সাধু লিখিছিল।"
@@ -7908,16 +11418,16 @@ module.exports = {
      "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     }
    ],
    "correct": 0,
@@ -7934,10 +11444,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Padmanath Gohain Baruah",
-     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
@@ -7948,9 +11454,13 @@ module.exports = {
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Rajanikanta Bordoloi wrote Nirmal Bhakat.",
     "as": "ৰজনীকান্ত বৰদলৈয়ে নিৰ্মল ভকত লিখিছিল।"
@@ -7964,23 +11474,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Gunabhiram Barua",
-     "as": "গুণাভিৰাম বৰুৱা"
-    },
-    {
-     "en": "Hemchandra Barua",
-     "as": "হেমচন্দ্ৰ বৰুৱা"
-    },
-    {
      "en": "Jyotiprasad Agarwala",
      "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
     },
     {
+     "en": "Gunabhiram Barua",
+     "as": "গুণাভিৰাম বৰুৱা"
+    },
+    {
      "en": "Padmanath Gohain Baruah",
      "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Padmanath Gohain Baruah wrote Belimar.",
     "as": "পদ্মনাথ গোহাঞি বৰুৱাই বেলিমাৰ লিখিছিল।"
@@ -7994,23 +11504,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Padmanath Gohain Baruah",
-     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
-    },
-    {
-     "en": "Gunabhiram Barua",
-     "as": "গুণাভিৰাম বৰুৱা"
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
     },
     {
      "en": "Hemchandra Barua",
      "as": "হেমচন্দ্ৰ বৰুৱা"
     },
     {
-     "en": "Jyotiprasad Agarwala",
-     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+     "en": "Gunabhiram Barua",
+     "as": "গুণাভিৰাম বৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Padmanath Gohain Baruah wrote Sadhani.",
     "as": "পদ্মনাথ গোহাঞি বৰুৱাই সাধনী লিখিছিল।"
@@ -8028,16 +11538,16 @@ module.exports = {
      "as": "চন্দ্ৰ কুমাৰ আগৰৱালা"
     },
     {
-     "en": "Hemchandra Goswami",
-     "as": "হেমচন্দ্ৰ গোস্বামী"
-    },
-    {
      "en": "Raghunath Choudhury",
      "as": "ৰঘুনাথ চৌধুৰী"
     },
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Goswami",
+     "as": "হেমচন্দ্ৰ গোস্বামী"
     }
    ],
    "correct": 0,
@@ -8084,23 +11594,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rajanikanta Bordoloi",
-     "as": "ৰজনীকান্ত বৰদলৈ"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
      "en": "Syed Abdul Malik",
      "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "Syed Abdul Malik wrote Priyotomar Sandhan.",
     "as": "চৈয়দ আব্দুল মালিকে প্ৰিয়তমাৰ সন্ধান লিখিছিল।"
@@ -8114,23 +11624,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     },
     {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
-    },
-    {
      "en": "Mahim Bora",
      "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Syed Abdul Malik wrote Dhanya Nadi.",
     "as": "চৈয়দ আব্দুল মালিকে ধন্য নদী লিখিছিল।"
@@ -8148,12 +11658,12 @@ module.exports = {
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
-    },
-    {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Nabakanta Barua",
@@ -8174,23 +11684,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
-    },
-    {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "Homen Borgohain wrote Edhani Mahir Hanhi.",
     "as": "হোমেন বৰগোহাঞিয়ে এধানি মাহীৰ হাঁহি লিখিছিল।"
@@ -8204,23 +11714,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
-    },
-    {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Rita Chowdhury",
      "as": "ৰীতা চৌধুৰী"
     },
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Mahim Bora wrote Saudor Putra.",
     "as": "মহিম বৰাই সাউদৰ পুত্ৰ লিখিছিল।"
@@ -8234,10 +11744,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
-    },
-    {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
     },
@@ -8248,9 +11754,13 @@ module.exports = {
     {
      "en": "Rita Chowdhury",
      "as": "ৰীতা চৌধুৰী"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Mahim Bora wrote the short-story collection Kanya.",
     "as": "মহিম বৰাই কন্যা চুটি গল্প-সংকলন লিখিছিল।"
@@ -8264,23 +11774,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Padmanath Gohain Baruah",
-     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
-     "en": "Jyotiprasad Agarwala",
-     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     },
     {
      "en": "Hemchandra Barua",
      "as": "হেমচন্দ্ৰ বৰুৱা"
     },
     {
-     "en": "Lakshminath Bezbaroa",
-     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Lakshminath Bezbaroa wrote the play Jaymoti.",
     "as": "লক্ষ্মীনাথ বেজবৰুৱাই জয়মতী নাটক লিখিছিল।"
@@ -8298,19 +11808,19 @@ module.exports = {
      "as": "ৰূপকোঁৱৰ"
     },
     {
-     "en": "Jyotiprasad Agarwala",
-     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
-    },
-    {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
      "en": "Bishnu Prasad Rabha",
      "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "Lakshminath Bezbaroa wrote O Mur Apunar Dex.",
     "as": "লক্ষ্মীনাথ বেজবৰুৱাই ও মোৰ আপোনাৰ দেশ লিখিছিল।"
@@ -8324,23 +11834,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rajanikanta Bordoloi",
-     "as": "ৰজনীকান্ত বৰদলৈ"
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     },
     {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Padmanath Gohain Baruah",
-     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
      "en": "Lakshminath Bezbaroa",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Rajanikanta Bordoloi pioneered the Assamese historical novel.",
     "as": "ৰজনীকান্ত বৰদলৈয়ে অসমীয়া ঐতিহাসিক উপন্যাসৰ পথ দেখুৱাইছিল।"
@@ -8358,12 +11868,12 @@ module.exports = {
      "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     },
     {
-     "en": "Lakshminath Bezbaroa",
-     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
-    },
-    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
      "en": "Rajanikanta Bordoloi",
@@ -8384,10 +11894,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nalini Bala Devi",
-     "as": "নলিনী বালা দেৱী"
-    },
-    {
      "en": "Nilmani Phookan",
      "as": "নীলমণি ফুকন"
     },
@@ -8396,11 +11902,15 @@ module.exports = {
      "as": "ৰঘুনাথ চৌধুৰী"
     },
     {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    },
+    {
      "en": "Nabakanta Barua",
      "as": "নৱকান্ত বৰুৱা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Nilmani Phookan wrote the poetry collection Sagar Dekhisa.",
     "as": "নীলমণি ফুকনে সাগৰ দেখিছা কবিতা-সংকলন লিখিছিল।"
@@ -8414,23 +11924,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nabakanta Barua",
-     "as": "নৱকান্ত বৰুৱা"
-    },
-    {
-     "en": "Raghunath Choudhury",
-     "as": "ৰঘুনাথ চৌধুৰী"
-    },
-    {
      "en": "Nilmani Phookan",
      "as": "নীলমণি ফুকন"
     },
     {
+     "en": "Nabakanta Barua",
+     "as": "নৱকান্ত বৰুৱা"
+    },
+    {
      "en": "Nalini Bala Devi",
      "as": "নলিনী বালা দেৱী"
+    },
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Nabakanta Barua wrote Ekhon Duti Teen.",
     "as": "নৱকান্ত বৰুৱাই এখন দুই তিনি লিখিছিল।"
@@ -8441,36 +11951,6 @@ module.exports = {
    "q": {
     "en": "Which Assamese writer is known for the novel 'Antareep'?",
     "as": "কোন অসমীয়া লেখক উপন্যাস 'অন্তৰীপ'ৰ বাবে জনাজাত?"
-   },
-   "options": [
-    {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
-    },
-    {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
-    },
-    {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
-    },
-    {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Homen Borgohain wrote the novel Antareep.",
-    "as": "হোমেন বৰগোহাঞিয়ে অন্তৰীপ উপন্যাস লিখিছিল।"
-   }
-  },
-  {
-   "id": "assamese-literature-128",
-   "q": {
-    "en": "Which Assamese writer is known for the novel 'Matsyagandha'?",
-    "as": "কোন অসমীয়া লেখক উপন্যাস 'মৎস্যগন্ধা'ৰ বাবে জনাজাত?"
    },
    "options": [
     {
@@ -8491,6 +11971,36 @@ module.exports = {
     }
    ],
    "correct": 2,
+   "explanation": {
+    "en": "Homen Borgohain wrote the novel Antareep.",
+    "as": "হোমেন বৰগোহাঞিয়ে অন্তৰীপ উপন্যাস লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-128",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Matsyagandha'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'মৎস্যগন্ধা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 3,
    "explanation": {
     "en": "Homen Borgohain wrote the novel Matsyagandha.",
     "as": "হোমেন বৰগোহাঞিয়ে মৎস্যগন্ধা উপন্যাস লিখিছিল।"
@@ -8534,23 +12044,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
-    },
-    {
      "en": "Mahim Bora",
      "as": "মহিম বৰা"
     },
     {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Mamoni Raisom Goswami wrote the short-story collection Pitribhumi.",
     "as": "মামণি ৰয়ছম গোস্বামীয়ে পিতৃভূমি চুটি গল্প-সংকলন লিখিছিল।"
@@ -8568,19 +12078,19 @@ module.exports = {
      "as": "ৰীতা চৌধুৰী"
     },
     {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Mahim Bora",
      "as": "মহিম বৰা"
-    },
-    {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Mamoni Raisom Goswami wrote the novel Sandhya Bhraman.",
     "as": "মামণি ৰয়ছম গোস্বামীয়ে সন্ধ্যা ভ্ৰমণ উপন্যাস লিখিছিল।"
@@ -8594,23 +12104,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
-    },
-    {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
-    },
-    {
      "en": "Mahim Bora",
      "as": "মহিম বৰা"
     },
     {
      "en": "Mamoni Raisom Goswami",
      "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Homen Borgohain wrote the novel Nilkanthi.",
     "as": "হোমেন বৰগোহাঞিয়ে নীলকণ্ঠী উপন্যাস লিখিছিল।"
@@ -8624,8 +12134,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Syed Abdul Malik",
-     "as": "চৈয়দ আব্দুল মালিক"
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     },
     {
      "en": "Mamoni Raisom Goswami",
@@ -8636,11 +12146,11 @@ module.exports = {
      "as": "মহিম বৰা"
     },
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Homen Borgohain wrote the novel Suhrit.",
     "as": "হোমেন বৰগোহাঞিয়ে সুহৃদ উপন্যাস লিখিছিল।"
@@ -8654,20 +12164,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Rita Chowdhury",
+     "as": "ৰীতা চৌধুৰী"
     },
     {
      "en": "Mahim Bora",
      "as": "মহিম বৰা"
     },
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Rita Chowdhury",
-     "as": "ৰীতা চৌধুৰী"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     }
    ],
    "correct": 1,
@@ -8684,23 +12194,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Syed Abdul Malik",
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
     },
     {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Mahim Bora wrote the novel Jangam.",
     "as": "মহিম বৰাই জংগম উপন্যাস লিখিছিল।"
@@ -8714,12 +12224,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
-    },
-    {
      "en": "Mahim Bora",
      "as": "মহিম বৰা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     },
     {
      "en": "Mamoni Raisom Goswami",
@@ -8744,23 +12254,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
-    },
-    {
      "en": "Rita Chowdhury",
      "as": "ৰীতা চৌধুৰী"
     },
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "Rita Chowdhury wrote the novel Devi.",
     "as": "ৰীতা চৌধুৰীয়ে দেৱী উপন্যাস লিখিছিল।"
@@ -8774,20 +12284,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
     },
     {
      "en": "Rita Chowdhury",
      "as": "ৰীতা চৌধুৰী"
     },
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Mahim Bora",
-     "as": "মহিম বৰা"
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
     }
    ],
    "correct": 1,
@@ -8804,6 +12314,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
     },
@@ -8814,13 +12328,9 @@ module.exports = {
     {
      "en": "Rita Chowdhury",
      "as": "ৰীতা চৌধুৰী"
-    },
-    {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "Anuradha Sharma Pujari wrote the short-story collection Ei Anuradha.",
     "as": "অনুৰাধা শৰ্মা পূজাৰীয়ে এই অনুৰাধা চুটি গল্প-সংকলন লিখিছিল।"
@@ -8838,12 +12348,12 @@ module.exports = {
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Rita Chowdhury",
-     "as": "ৰীতা চৌধুৰী"
-    },
-    {
      "en": "Homen Borgohain",
      "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rita Chowdhury",
+     "as": "ৰীতা চৌধুৰী"
     },
     {
      "en": "Anuradha Sharma Pujari",
@@ -8864,12 +12374,3972 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Rita Chowdhury",
+     "as": "ৰীতা চৌধুৰী"
+    },
+    {
      "en": "Anuradha Sharma Pujari",
      "as": "অনুৰাধা শৰ্মা পূজাৰী"
     },
     {
-     "en": "Rita Chowdhury",
-     "as": "ৰীতা চৌধুৰী"
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rita Chowdhury wrote the novel Rupali Nadi.",
+    "as": "ৰীতা চৌধুৰীয়ে ৰূপালী নদী উপন্যাস লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-142",
+   "q": {
+    "en": "The Charyapada is also known by which other name?",
+    "as": "চৰ্যাপদ আন কোন নামেৰেও জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Charyapatha",
+     "as": "চৰ্যপথ"
+    },
+    {
+     "en": "Charyagiti",
+     "as": "চৰ্যাগীতি"
+    },
+    {
+     "en": "Charyapurana",
+     "as": "চৰ্যপুৰাণ"
+    },
+    {
+     "en": "Charyasutra",
+     "as": "চৰ্যসূত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Charyapada is also known as Charyagiti, songs of realisation.",
+    "as": "চৰ্যাপদ চৰ্যাগীতি নামেৰেও জনা যায়, অৰ্থাৎ সিদ্ধিৰ গীত।"
+   }
+  },
+  {
+   "id": "assamese-literature-143",
+   "q": {
+    "en": "How many poems are there in the Charyapada?",
+    "as": "চৰ্যাপদত কিমানটা পদ আছে?"
+   },
+   "options": [
+    {
+     "en": "Thirty-five",
+     "as": "পঁয়ত্ৰিশ"
+    },
+    {
+     "en": "Sixty",
+     "as": "ষাঠি"
+    },
+    {
+     "en": "Forty-seven",
+     "as": "সাতচল্লিশ"
+    },
+    {
+     "en": "Fifty",
+     "as": "পঞ্চাশ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Charyapada contains forty-seven poems.",
+    "as": "চৰ্যাপদত সাতচল্লিশটা পদ আছে।"
+   }
+  },
+  {
+   "id": "assamese-literature-144",
+   "q": {
+    "en": "Which Siddhacharya is traditionally regarded as the first poet of the Charyapada?",
+    "as": "কোন সিদ্ধাচাৰ্যক পৰম্পৰাগতভাৱে চৰ্যাপদৰ প্ৰথম কবি হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Kanhapa",
+     "as": "কাহ্নপা"
+    },
+    {
+     "en": "Sarahapa",
+     "as": "সৰহপা"
+    },
+    {
+     "en": "Shabarapa",
+     "as": "শবৰপা"
+    },
+    {
+     "en": "Luipa",
+     "as": "লুইপা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Luipa is traditionally regarded as the first poet of the Charyapada.",
+    "as": "লুইপাক পৰম্পৰাগতভাৱে চৰ্যাপদৰ প্ৰথম কবি হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-145",
+   "q": {
+    "en": "Which Charyapada poet is also known as Kanha?",
+    "as": "কোন চৰ্যাপদ কবি কাহ্ন নামেৰেও জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Kanhapa",
+     "as": "কাহ্নপা"
+    },
+    {
+     "en": "Sarahapa",
+     "as": "সৰহপা"
+    },
+    {
+     "en": "Shabarapa",
+     "as": "শবৰপা"
+    },
+    {
+     "en": "Luipa",
+     "as": "লুইপা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kanhapa is also known as Kanha.",
+    "as": "কাহ্নপাক কাহ্ন নামেৰেও জনা যায়।"
+   }
+  },
+  {
+   "id": "assamese-literature-146",
+   "q": {
+    "en": "Which Charyapada poet is associated with the song of the boatman?",
+    "as": "কোন চৰ্যাপদ কবি নাৱৰীয়াৰ গীতৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Shabarapa",
+     "as": "শবৰপা"
+    },
+    {
+     "en": "Kanhapa",
+     "as": "কাহ্নপা"
+    },
+    {
+     "en": "Sarahapa",
+     "as": "সৰহপা"
+    },
+    {
+     "en": "Luipa",
+     "as": "লুইপা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kanhapa composed the famous boatman song in the Charyapada.",
+    "as": "কাহ্নপাই চৰ্যাপদত প্ৰসিদ্ধ নাৱৰীয়াৰ গীত ৰচনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-147",
+   "q": {
+    "en": "The Charyapada songs express which religious philosophy?",
+    "as": "চৰ্যাপদৰ গীতসমূহে কোন ধৰ্মীয় দৰ্শন প্ৰকাশ কৰে?"
+   },
+   "options": [
+    {
+     "en": "Advaita Vedanta",
+     "as": "অদ্বৈত বেদান্ত"
+    },
+    {
+     "en": "Vaishnavism",
+     "as": "বৈষ্ণৱ ধৰ্ম"
+    },
+    {
+     "en": "Sahajiya Buddhism",
+     "as": "সহজিয়া বৌদ্ধ ধৰ্ম"
+    },
+    {
+     "en": "Islam",
+     "as": "ইছলাম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Charyapada songs express Sahajiya Buddhist philosophy.",
+    "as": "চৰ্যাপদৰ গীতসমূহে সহজিয়া বৌদ্ধ দৰ্শন প্ৰকাশ কৰে।"
+   }
+  },
+  {
+   "id": "assamese-literature-148",
+   "q": {
+    "en": "The Charyapada is regarded as the earliest specimen of which literary tradition?",
+    "as": "চৰ্যাপদ কোন সাহিত্য পৰম্পৰাৰ আটাইতকৈ প্ৰাচীন নিদৰ্শন হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Odia literature",
+     "as": "ওড়িয়া সাহিত্য"
+    },
+    {
+     "en": "Maithili literature",
+     "as": "মৈথিলী সাহিত্য"
+    },
+    {
+     "en": "Hindi literature",
+     "as": "হিন্দী সাহিত্য"
+    },
+    {
+     "en": "Assamese and Bengali literature",
+     "as": "অসমীয়া আৰু বঙালী সাহিত্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Charyapada is regarded as the earliest specimen of Assamese and Bengali literature.",
+    "as": "চৰ্যাপদ অসমীয়া আৰু বঙালী সাহিত্যৰ আটাইতকৈ প্ৰাচীন নিদৰ্শন হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-149",
+   "q": {
+    "en": "Who translated the Charyapada into Assamese?",
+    "as": "চৰ্যাপদ অসমীয়ালৈ কোনে অনুবাদ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Several Assamese scholars",
+     "as": "কেইবাজন অসমীয়া পণ্ডিত"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Nathan Brown",
+     "as": "নাথান ব্ৰাউন"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Several Assamese scholars have translated the Charyapada into Assamese.",
+    "as": "কেইবাজন অসমীয়া পণ্ডিতে চৰ্যাপদ অসমীয়ালৈ অনুবাদ কৰিছে।"
+   }
+  },
+  {
+   "id": "assamese-literature-150",
+   "q": {
+    "en": "Which language family does Assamese belong to?",
+    "as": "অসমীয়া ভাষা কোন ভাষা-পৰিয়ালৰ অন্তৰ্গত?"
+   },
+   "options": [
+    {
+     "en": "Austro-Asiatic",
+     "as": "অষ্ট্ৰো-এচিয়াটিক"
+    },
+    {
+     "en": "Indo-Aryan",
+     "as": "ইণ্ডো-আৰ্য"
+    },
+    {
+     "en": "Sino-Tibetan",
+     "as": "চীন-তিব্বতীয়"
+    },
+    {
+     "en": "Dravidian",
+     "as": "দ্ৰাবিড়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assamese belongs to the Indo-Aryan language family.",
+    "as": "অসমীয়া ইণ্ডো-আৰ্য ভাষা-পৰিয়ালৰ অন্তৰ্গত।"
+   }
+  },
+  {
+   "id": "assamese-literature-151",
+   "q": {
+    "en": "Assamese developed from which earlier language?",
+    "as": "অসমীয়া কোন প্ৰাচীন ভাষাৰ পৰা বিকশিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Sauraseni Prakrit",
+     "as": "শৌৰসেনী প্ৰাকৃত"
+    },
+    {
+     "en": "Paisachi Prakrit",
+     "as": "পৈশাচী প্ৰাকৃত"
+    },
+    {
+     "en": "Magadhi Prakrit",
+     "as": "মাগধী প্ৰাকৃত"
+    },
+    {
+     "en": "Maharashtri Prakrit",
+     "as": "মহাৰাষ্ট্ৰী প্ৰাকৃত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assamese developed from Magadhi Prakrit through Abahatta.",
+    "as": "অসমীয়া মাগধী প্ৰাকৃতৰ পৰা অৱহট্টৰ মাজেৰে বিকশিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-152",
+   "q": {
+    "en": "Which Assamese work is considered the first Assamese prose translation of the Bhagavata?",
+    "as": "কোন অসমীয়া কৰ্মক ভাগৱতৰ প্ৰথম অসমীয়া গদ্য অনুবাদ হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Saptakanda Ramayana",
+     "as": "সপ্তকাণ্ড ৰামায়ণ"
+    },
+    {
+     "en": "Katha Bhagavata",
+     "as": "কথা ভাগৱত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Katha Bhagavata is the first Assamese prose translation of the Bhagavata.",
+    "as": "কথা ভাগৱত ভাগৱতৰ প্ৰথম অসমীয়া গদ্য অনুবাদ।"
+   }
+  },
+  {
+   "id": "assamese-literature-153",
+   "q": {
+    "en": "Which Assamese work is a prose translation of the Bhagavad Gita by Bhattadeva?",
+    "as": "কোন অসমীয়া কৰ্ম ভট্টদেৱৰ দ্বাৰা ভগৱদগীতাৰ গদ্য অনুবাদ?"
+   },
+   "options": [
+    {
+     "en": "Katha Gita",
+     "as": "কথা গীতা"
+    },
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Katha Bhagavata",
+     "as": "কথা ভাগৱত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Katha Gita is Bhattadeva's prose translation of the Bhagavad Gita.",
+    "as": "কথা গীতা ভট্টদেৱৰ ভগৱদগীতাৰ গদ্য অনুবাদ।"
+   }
+  },
+  {
+   "id": "assamese-literature-154",
+   "q": {
+    "en": "Which Assamese work is a translation of the Bhagavata by Sankardeva?",
+    "as": "কোন অসমীয়া কৰ্ম শংকৰদেৱৰ দ্বাৰা ভাগৱতৰ অনুবাদ?"
+   },
+   "options": [
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Bhagavata (translation)",
+     "as": "ভাগৱত (অনুবাদ)"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Katha Gita",
+     "as": "কথা গীতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sankardeva translated portions of the Bhagavata into Assamese.",
+    "as": "শংকৰদেৱে ভাগৱতৰ অংশ অসমীয়ালৈ অনুবাদ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-155",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Uttara Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'উত্তৰ কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Uttara Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ উত্তৰ কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-156",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Adi Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'আদি কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Adi Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ আদি কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-157",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Aranya Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'অৰণ্য কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Aranya Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ অৰণ্য কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-158",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Sundara Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'সুন্দৰ কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Sundara Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ সুন্দৰ কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-159",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Lanka Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'লঙ্কা কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Lanka Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ লঙ্কা কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-160",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Bala Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'বাল কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Bala Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ বাল কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-161",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Kishkindha Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'কিষ্কিন্ধা কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Kishkindha Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ কিষ্কিন্ধা কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-162",
+   "q": {
+    "en": "Which Assamese poet wrote the 'Ayodhya Kanda' of the Ramayana?",
+    "as": "কোন অসমীয়া কবিয়ে ৰামায়ণৰ 'অযোধ্যা কাণ্ড' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sankardeva",
+     "as": "শংকৰদেৱ"
+    },
+    {
+     "en": "Madhava Kandali",
+     "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Bhattadeva",
+     "as": "ভট্টদেৱ"
+    },
+    {
+     "en": "Ram Saraswati",
+     "as": "ৰাম সৰস্বতী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Madhava Kandali wrote the Ayodhya Kanda of the Assamese Ramayana.",
+    "as": "মাধৱ কন্দলীয়ে অসমীয়া ৰামায়ণৰ অযোধ্যা কাণ্ড লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-163",
+   "q": {
+    "en": "In which year was Srimanta Sankardeva born?",
+    "as": "শ্ৰীমন্ত শংকৰদেৱ কিমান চনত জন্মগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1600 CE",
+     "as": "১৬০০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1350 CE",
+     "as": "১৩৫০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1449 CE",
+     "as": "১৪৪৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1550 CE",
+     "as": "১৫৫০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Srimanta Sankardeva was born in 1449 CE.",
+    "as": "শ্ৰীমন্ত শংকৰদেৱ ১৪৪৯ খ্ৰীষ্টাব্দত জন্মগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-164",
+   "q": {
+    "en": "At which place in Nagaon district was Srimanta Sankardeva born?",
+    "as": "শ্ৰীমন্ত শংকৰদেৱ ক'ত জন্মগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    },
+    {
+     "en": "Bordowa, Nagaon",
+     "as": "বৰদোৱা, নগাঁও"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sankardeva was born at Bordowa in Nagaon district.",
+    "as": "শংকৰদেৱ নগাঁও জিলাৰ বৰদোৱাত জন্মগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-165",
+   "q": {
+    "en": "Which village is regarded as the birthplace of Srimanta Sankardeva?",
+    "as": "কোন গাঁও শ্ৰীমন্ত শংকৰদেৱৰ জন্মস্থান হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bordowa",
+     "as": "বৰদোৱা"
+    },
+    {
+     "en": "Kamalabari",
+     "as": "কমলাবৰী"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    },
+    {
+     "en": "Dhuwahat",
+     "as": "ধুৱাহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bordowa is regarded as the birthplace of Sankardeva.",
+    "as": "বৰদোৱাক শংকৰদেৱৰ জন্মস্থান হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-166",
+   "q": {
+    "en": "What was the name of the Sattra founded by Srimanta Sankardeva at Bordowa?",
+    "as": "বৰদোৱাত শ্ৰীমন্ত শংকৰদেৱে প্ৰতিষ্ঠা কৰা সত্ৰৰ নাম কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Kamalabari Sattra",
+     "as": "কমলাবৰী সত্ৰ"
+    },
+    {
+     "en": "Dhuwahat Sattra",
+     "as": "ধুৱাহাট সত্ৰ"
+    },
+    {
+     "en": "Auniati Sattra",
+     "as": "আউনীআটী সত্ৰ"
+    },
+    {
+     "en": "Barpeta Sattra",
+     "as": "বৰপেটা সত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sankardeva founded the Dhuwahat Sattra.",
+    "as": "শংকৰদেৱে ধুৱাহাট সত্ৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-167",
+   "q": {
+    "en": "Which place is associated with the 'Manikanchan Sanjog' of Sankardeva and Madhavdeva?",
+    "as": "শংকৰদেৱ আৰু মাধৱদেৱৰ 'মণিকাঞ্চন সংযোগ' কোন ঠাইৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    },
+    {
+     "en": "Bordowa",
+     "as": "বৰদোৱা"
+    },
+    {
+     "en": "Dhuwahat",
+     "as": "ধুৱাহাট"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Manikanchan Sanjog took place at Dhuwahat.",
+    "as": "মণিকাঞ্চন সংযোগ ধুৱাহাটত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-168",
+   "q": {
+    "en": "What was the original name of Madhavdeva?",
+    "as": "মাধৱদেৱৰ মূল নাম কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Madhab Kandali",
+     "as": "মাধৱ কন্দলী"
+    },
+    {
+     "en": "Madhab Deva",
+     "as": "মাধৱ দেৱ"
+    },
+    {
+     "en": "Madhab Barua",
+     "as": "মাধৱ বৰুৱা"
+    },
+    {
+     "en": "Madhab Das",
+     "as": "মাধৱ দাস"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Madhavdeva was originally known as Madhab Das.",
+    "as": "মাধৱদেৱ মূলতঃ মাধৱ দাস নামেৰে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-169",
+   "q": {
+    "en": "Which river is associated with the story of Sankardeva's childhood?",
+    "as": "শংকৰদেৱৰ শৈশৱৰ কাহিনী কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Manas",
+     "as": "মনস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Brahmaputra is associated with Sankardeva's childhood story.",
+    "as": "ব্ৰহ্মপুত্ৰ শংকৰদেৱৰ শৈশৱৰ কাহিনীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assamese-literature-170",
+   "q": {
+    "en": "Which form of devotional music was composed by Srimanta Sankardeva?",
+    "as": "শ্ৰীমন্ত শংকৰদেৱে কোন ধৰণৰ ভক্তিমূলক সংগীত ৰচনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    },
+    {
+     "en": "Ojapali",
+     "as": "ওজাপালি"
+    },
+    {
+     "en": "Bihu geet",
+     "as": "বিহু গীত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sankardeva composed the Borgeet, devotional songs.",
+    "as": "শংকৰদেৱে বৰগীত, ভক্তিমূলক গীত ৰচনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-171",
+   "q": {
+    "en": "Which dance form was introduced by Srimanta Sankardeva in the Sattras?",
+    "as": "শ্ৰীমন্ত শংকৰদেৱে সত্ৰত কোন নৃত্য প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bihu dance",
+     "as": "বিহু নৃত্য"
+    },
+    {
+     "en": "Bagurumba",
+     "as": "বাগুৰুম্বা"
+    },
+    {
+     "en": "Sattriya dance",
+     "as": "সত্ৰীয়া নৃত্য"
+    },
+    {
+     "en": "Jhumur",
+     "as": "ঝুমুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sankardeva introduced the Sattriya dance in the Sattras.",
+    "as": "শংকৰদেৱে সত্ৰত সত্ৰীয়া নৃত্য প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-172",
+   "q": {
+    "en": "Which musical instrument is central to Sattriya dance performances?",
+    "as": "কোন বাদ্য সত্ৰীয়া নৃত্য পৰিবেশনৰ কেন্দ্ৰীয়?"
+   },
+   "options": [
+    {
+     "en": "Serja",
+     "as": "ছেৰ্জা"
+    },
+    {
+     "en": "Dhol",
+     "as": "ঢোল"
+    },
+    {
+     "en": "Gogona",
+     "as": "গগনা"
+    },
+    {
+     "en": "Khol",
+     "as": "খোল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Khol is central to Sattriya dance performances.",
+    "as": "খোল সত্ৰীয়া নৃত্য পৰিবেশনৰ কেন্দ্ৰীয় বাদ্য।"
+   }
+  },
+  {
+   "id": "assamese-literature-173",
+   "q": {
+    "en": "How many Borgeet are traditionally attributed to Sankardeva and Madhavdeva?",
+    "as": "পৰম্পৰাগতভাৱে শংকৰদেৱ আৰু মাধৱদেৱৰ নামত কিমানটা বৰগীত আছে?"
+   },
+   "options": [
+    {
+     "en": "Around two hundred and forty",
+     "as": "প্ৰায় দুইশ চল্লিশটা"
+    },
+    {
+     "en": "Around one hundred",
+     "as": "প্ৰায় এশটা"
+    },
+    {
+     "en": "Around fifty",
+     "as": "প্ৰায় পঞ্চাশটা"
+    },
+    {
+     "en": "Around five hundred",
+     "as": "প্ৰায় পাঁচশটা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Around two hundred and forty Borgeet are attributed to them.",
+    "as": "প্ৰায় দুইশ চল্লিশটা বৰগীত তেওঁলোকৰ নামত আছে।"
+   }
+  },
+  {
+   "id": "assamese-literature-174",
+   "q": {
+    "en": "Which Assamese text contains the teachings of the Ekasarana Dharma in verse?",
+    "as": "কোন অসমীয়া গ্ৰন্থত একশৰণ ধৰ্মৰ শিক্ষা পদ্যত সন্নিবিষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Bhatima",
+     "as": "ভাটিমা"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Kirtan Ghosha contains the teachings of Ekasarana Dharma in verse.",
+    "as": "কীৰ্তন ঘোষাত একশৰণ ধৰ্মৰ শিক্ষা পদ্যত সন্নিবিষ্ট।"
+   }
+  },
+  {
+   "id": "assamese-literature-175",
+   "q": {
+    "en": "Which Assamese text is a collection of devotional hymns by Madhavdeva?",
+    "as": "কোন অসমীয়া গ্ৰন্থ মাধৱদেৱৰ ভক্তিমূলক স্তৱৰ সংকলন?"
+   },
+   "options": [
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Ankiya Naat",
+     "as": "অঙ্কীয়া নাট"
+    },
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Naam Ghosha is a collection of devotional hymns by Madhavdeva.",
+    "as": "নামঘোষা মাধৱদেৱৰ ভক্তিমূলক স্তৱৰ সংকলন।"
+   }
+  },
+  {
+   "id": "assamese-literature-176",
+   "q": {
+    "en": "Which Assamese devotional text is recited daily in the Namghar?",
+    "as": "কোন অসমীয়া ভক্তিমূলক গ্ৰন্থ নামঘৰত প্ৰতিদিনে পাঠ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Ankiya Naat",
+     "as": "অঙ্কীয়া নাট"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    },
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Naam Ghosha is recited daily in the Namghar.",
+    "as": "নামঘোষা নামঘৰত প্ৰতিদিনে পাঠ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-177",
+   "q": {
+    "en": "What is the prayer hall of the Vaishnavite Sattra called?",
+    "as": "বৈষ্ণৱ সত্ৰৰ প্ৰাৰ্থনা গৃহক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Namghar",
+     "as": "নামঘৰ"
+    },
+    {
+     "en": "Doul",
+     "as": "দৌল"
+    },
+    {
+     "en": "Kirtanghar",
+     "as": "কীৰ্তনঘৰ"
+    },
+    {
+     "en": "Mandir",
+     "as": "মন্দিৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The prayer hall of the Sattra is called the Namghar.",
+    "as": "সত্ৰৰ প্ৰাৰ্থনা গৃহক নামঘৰ বোলা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-178",
+   "q": {
+    "en": "What is the head of a Sattra called?",
+    "as": "সত্ৰৰ মুৰব্বীক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhakata",
+     "as": "ভকত"
+    },
+    {
+     "en": "Sattradhikar",
+     "as": "সত্ৰাধিকাৰ"
+    },
+    {
+     "en": "Dekagiri",
+     "as": "দেকাগিৰি"
+    },
+    {
+     "en": "Oja",
+     "as": "ওজা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The head of a Sattra is called the Sattradhikar.",
+    "as": "সত্ৰৰ মুৰব্বীক সত্ৰাধিকাৰ বোলা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-179",
+   "q": {
+    "en": "What is the head of a Namghar called?",
+    "as": "নামঘৰৰ মুৰব্বীক কি বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "Sattradhikar",
+     "as": "সত্ৰাধিকাৰ"
+    },
+    {
+     "en": "Bhaoriya",
+     "as": "ভাওৰীয়া"
+    },
+    {
+     "en": "Dekagiri",
+     "as": "দেকাগিৰি"
+    },
+    {
+     "en": "Oja",
+     "as": "ওজা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The head of a Namghar is called the Dekagiri.",
+    "as": "নামঘৰৰ মুৰব্বীক দেকাগিৰি বোলা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-180",
+   "q": {
+    "en": "Which Assamese Sattra is famous for its Raas festival in Majuli?",
+    "as": "মাজুলীৰ কোন অসমীয়া সত্ৰ ইয়াৰ ৰাস উৎসৱৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Samaguri Sattra",
+     "as": "সমাগুৰি সত্ৰ"
+    },
+    {
+     "en": "Barpeta Sattra",
+     "as": "বৰপেটা সত্ৰ"
+    },
+    {
+     "en": "Dhuwahat Sattra",
+     "as": "ধুৱাহাট সত্ৰ"
+    },
+    {
+     "en": "Kamalabari Sattra",
+     "as": "কমলাবৰী সত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kamalabari Sattra is famous for its Raas festival.",
+    "as": "কমলাবৰী সত্ৰ ইয়াৰ ৰাস উৎসৱৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assamese-literature-181",
+   "q": {
+    "en": "Which Assamese Sattra is famous for mask making?",
+    "as": "কোন অসমীয়া সত্ৰ মুখা নিৰ্মাণৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Samaguri Sattra",
+     "as": "সমাগুৰি সত্ৰ"
+    },
+    {
+     "en": "Dakhinpat Sattra",
+     "as": "দক্ষিণপাট সত্ৰ"
+    },
+    {
+     "en": "Auniati Sattra",
+     "as": "আউনীআটী সত্ৰ"
+    },
+    {
+     "en": "Kamalabari Sattra",
+     "as": "কমলাবৰী সত্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Samaguri Sattra is famous for mask making.",
+    "as": "সমাগুৰি সত্ৰ মুখা নিৰ্মাণৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assamese-literature-182",
+   "q": {
+    "en": "Which Assamese Sattra was founded by Madhavdeva at Barpeta?",
+    "as": "মাধৱদেৱে বৰপেটাত কোন অসমীয়া সত্ৰ প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Kamalabari Sattra",
+     "as": "কমলাবৰী সত্ৰ"
+    },
+    {
+     "en": "Barpeta Sattra",
+     "as": "বৰপেটা সত্ৰ"
+    },
+    {
+     "en": "Auniati Sattra",
+     "as": "আউনীআটী সত্ৰ"
+    },
+    {
+     "en": "Samaguri Sattra",
+     "as": "সমাগুৰি সত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Madhavdeva founded the Barpeta Sattra.",
+    "as": "মাধৱদেৱে বৰপেটা সত্ৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-183",
+   "q": {
+    "en": "Which Assamese Sattra is located in Majuli and was founded by Niranjan Pathak?",
+    "as": "মাজুলীত অৱস্থিত আৰু নীৰঞ্জন পাঠকে প্ৰতিষ্ঠা কৰা অসমীয়া সত্ৰ কোন?"
+   },
+   "options": [
+    {
+     "en": "Barpeta Sattra",
+     "as": "বৰপেটা সত্ৰ"
+    },
+    {
+     "en": "Dhuwahat Sattra",
+     "as": "ধুৱাহাট সত্ৰ"
+    },
+    {
+     "en": "Auniati Sattra",
+     "as": "আউনীআটী সত্ৰ"
+    },
+    {
+     "en": "Samaguri Sattra",
+     "as": "সমাগুৰি সত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Auniati Sattra in Majuli was founded by Niranjan Pathak.",
+    "as": "মাজুলীৰ আউনীআটী সত্ৰ নীৰঞ্জন পাঠকে প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-184",
+   "q": {
+    "en": "Which Assamese Sattra is one of the four main Sattras of Majuli?",
+    "as": "কোন অসমীয়া সত্ৰ মাজুলীৰ চাৰিটা প্ৰধান সত্ৰৰ এটা?"
+   },
+   "options": [
+    {
+     "en": "Dhuwahat Sattra",
+     "as": "ধুৱাহাট সত্ৰ"
+    },
+    {
+     "en": "Barpeta Sattra",
+     "as": "বৰপেটা সত্ৰ"
+    },
+    {
+     "en": "Samaguri Sattra",
+     "as": "সমাগুৰি সত্ৰ"
+    },
+    {
+     "en": "Dakhinpat Sattra",
+     "as": "দক্ষিণপাট সত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dakhinpat Sattra is one of the four main Sattras of Majuli.",
+    "as": "দক্ষিণপাট সত্ৰ মাজুলীৰ চাৰিটা প্ৰধান সত্ৰৰ এটা।"
+   }
+  },
+  {
+   "id": "assamese-literature-185",
+   "q": {
+    "en": "Which Assamese Sattra is known for its unique Doul festival?",
+    "as": "কোন অসমীয়া সত্ৰ ইয়াৰ অনন্য দৌল উৎসৱৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Barpeta Sattra",
+     "as": "বৰপেটা সত্ৰ"
+    },
+    {
+     "en": "Samaguri Sattra",
+     "as": "সমাগুৰি সত্ৰ"
+    },
+    {
+     "en": "Auniati Sattra",
+     "as": "আউনীআটী সত্ৰ"
+    },
+    {
+     "en": "Kamalabari Sattra",
+     "as": "কমলাবৰী সত্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Barpeta Sattra is known for its unique Doul festival.",
+    "as": "বৰপেটা সত্ৰ ইয়াৰ অনন্য দৌল উৎসৱৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assamese-literature-186",
+   "q": {
+    "en": "Which Ahom Buranji covers the reign of the Tungkhungia kings?",
+    "as": "কোন আহোম বুৰঞ্জীয়ে তুংখুঙীয়া ৰজাসকলৰ ৰাজত্বকাল সামৰি লয়?"
+   },
+   "options": [
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Kamrupar Buranji",
+     "as": "কামৰূপৰ বুৰঞ্জী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tungkhungia Buranji covers the reign of the Tungkhungia kings.",
+    "as": "তুংখুঙীয়া বুৰঞ্জী তুংখুঙীয়া ৰজাসকলৰ ৰাজত্বকাল সামৰি লয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-187",
+   "q": {
+    "en": "Which Buranji deals with the history of Kamrup?",
+    "as": "কোন বুৰঞ্জীয়ে কামৰূপৰ ইতিহাসৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Kamrupar Buranji",
+     "as": "কামৰূপৰ বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Kamrupar Buranji deals with the history of Kamrup.",
+    "as": "কামৰূপৰ বুৰঞ্জী কামৰূপৰ ইতিহাসৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assamese-literature-188",
+   "q": {
+    "en": "Which Buranji deals with the history of the Ahom kings?",
+    "as": "কোন বুৰঞ্জীয়ে আহোম ৰজাসকলৰ ইতিহাসৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Kamrupar Buranji",
+     "as": "কামৰূপৰ বুৰঞ্জী"
+    },
+    {
+     "en": "Ahom Buranji",
+     "as": "আহোম বুৰঞ্জী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ahom Buranji deals with the history of the Ahom kings.",
+    "as": "আহোম বুৰঞ্জী আহোম ৰজাসকলৰ ইতিহাসৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assamese-literature-189",
+   "q": {
+    "en": "Which Buranji deals with the history of the Mughal emperors in Assam?",
+    "as": "কোন বুৰঞ্জীয়ে অসমত মোগল সম্ৰাটসকলৰ ইতিহাসৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Kamrupar Buranji",
+     "as": "কামৰূপৰ বুৰঞ্জী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Padshah Buranji deals with the Mughal emperors in Assam.",
+    "as": "পাদশাহ বুৰঞ্জী অসমত মোগল সম্ৰাটসকলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assamese-literature-190",
+   "q": {
+    "en": "Which Buranji deals with the history of the Dimasa Kachari kings?",
+    "as": "কোন বুৰঞ্জীয়ে দিমাছা কছাৰী ৰজাসকলৰ ইতিহাসৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Kamrupar Buranji",
+     "as": "কামৰূপৰ বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kachari Buranji deals with the Dimasa Kachari kings.",
+    "as": "কছাৰী বুৰঞ্জী দিমাছা কছাৰী ৰজাসকলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assamese-literature-191",
+   "q": {
+    "en": "Which Buranji is a chronicle of the Koch kings?",
+    "as": "কোন বুৰঞ্জী কোচ ৰজাসকলৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    },
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Koch Buranji is a chronicle of the Koch kings.",
+    "as": "কোচ বুৰঞ্জী কোচ ৰজাসকলৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-192",
+   "q": {
+    "en": "Which Assamese work is a biography of Srimanta Sankardeva?",
+    "as": "কোন অসমীয়া কৰ্ম শ্ৰীমন্ত শংকৰদেৱৰ জীৱনী?"
+   },
+   "options": [
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Sankardeva Charit",
+     "as": "শংকৰদেৱ চৰিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sankardeva Charit is a biography of Srimanta Sankardeva.",
+    "as": "শংকৰদেৱ চৰিত শ্ৰীমন্ত শংকৰদেৱৰ জীৱনী।"
+   }
+  },
+  {
+   "id": "assamese-literature-193",
+   "q": {
+    "en": "Which Assamese work is a biography of Madhavdeva?",
+    "as": "কোন অসমীয়া কৰ্ম মাধৱদেৱৰ জীৱনী?"
+   },
+   "options": [
+    {
+     "en": "Madhavdeva Charit",
+     "as": "মাধৱদেৱ চৰিত"
+    },
+    {
+     "en": "Sankardeva Charit",
+     "as": "শংকৰদেৱ চৰিত"
+    },
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Madhavdeva Charit is a biography of Madhavdeva.",
+    "as": "মাধৱদেৱ চৰিত মাধৱদেৱৰ জীৱনী।"
+   }
+  },
+  {
+   "id": "assamese-literature-194",
+   "q": {
+    "en": "Which Assamese text is a chronicle written in the form of a biography of Vaishnavite gurus?",
+    "as": "কোন অসমীয়া গ্ৰন্থ বৈষ্ণৱ গুৰুসকলৰ জীৱনী ৰূপত লিখা ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Guru Charit Katha",
+     "as": "গুৰু চৰিত কথা"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    },
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Guru Charit Katha is a chronicle of Vaishnavite gurus.",
+    "as": "গুৰু চৰিত কথা বৈষ্ণৱ গুৰুসকলৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-195",
+   "q": {
+    "en": "Which Assamese text describes the life of Sankardeva in verse?",
+    "as": "কোন অসমীয়া গ্ৰন্থ শংকৰদেৱৰ জীৱন পদ্যত বৰ্ণনা কৰে?"
+   },
+   "options": [
+    {
+     "en": "Naam Ghosha",
+     "as": "নামঘোষা"
+    },
+    {
+     "en": "Kirtan Ghosha",
+     "as": "কীৰ্তন ঘোষা"
+    },
+    {
+     "en": "Sankardeva Charit",
+     "as": "শংকৰদেৱ চৰিত"
+    },
+    {
+     "en": "Borgeet",
+     "as": "বৰগীত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sankardeva Charit describes the life of Sankardeva in verse.",
+    "as": "শংকৰদেৱ চৰিত শংকৰদেৱৰ জীৱন পদ্যত বৰ্ণনা কৰে।"
+   }
+  },
+  {
+   "id": "assamese-literature-196",
+   "q": {
+    "en": "Which Ahom king was a great patron of Assamese literature and chronicles?",
+    "as": "কোন আহোম ৰজা অসমীয়া সাহিত্য আৰু ইতিহাস-পুথিৰ এজন মহান পৃষ্ঠপোষক আছিল?"
+   },
+   "options": [
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rudra Singha was a great patron of Assamese literature.",
+    "as": "ৰুদ্ৰ সিংহ অসমীয়া সাহিত্যৰ এজন মহান পৃষ্ঠপোষক আছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-197",
+   "q": {
+    "en": "Which Ahom king composed the 'Dakshinpat Buranji'?",
+    "as": "কোন আহোম ৰজাই 'দক্ষিণপাট বুৰঞ্জী' ৰচনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rudra Singha is credited with the Dakshinpat Buranji.",
+    "as": "ৰুদ্ৰ সিংহক দক্ষিণপাট বুৰঞ্জীৰ কৃতিত্ব দিয়া হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-198",
+   "q": {
+    "en": "Which Ahom king wrote the 'Buranji' in the Assamese language?",
+    "as": "কোন আহোম ৰজাই অসমীয়া ভাষাত 'বুৰঞ্জী' লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
+    },
+    {
+     "en": "Rudra Singha",
+     "as": "ৰুদ্ৰ সিংহ"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    },
+    {
+     "en": "Gadadhar Singha",
+     "as": "গদাধৰ সিংহ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rudra Singha wrote Buranji in the Assamese language.",
+    "as": "ৰুদ্ৰ সিংহে অসমীয়া ভাষাত বুৰঞ্জী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-199",
+   "q": {
+    "en": "Which Assamese work is a chronicle of the Koch king Naranarayan?",
+    "as": "কোন অসমীয়া কৰ্ম কোচ ৰজা নাৰায়ণৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    },
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Koch Buranji is a chronicle of the Koch king Naranarayan.",
+    "as": "কোচ বুৰঞ্জী কোচ ৰজা নাৰায়ণৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-200",
+   "q": {
+    "en": "Which Assamese text is a chronicle of the Ahom-Mughal conflicts?",
+    "as": "কোন অসমীয়া গ্ৰন্থ আহোম-মোগল সংঘৰ্ষৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Padshah Buranji is a chronicle of the Ahom-Mughal conflicts.",
+    "as": "পাদশাহ বুৰঞ্জী আহোম-মোগল সংঘৰ্ষৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-201",
+   "q": {
+    "en": "Which Assamese text is a chronicle of the Kachari kings of Dimapur?",
+    "as": "কোন অসমীয়া গ্ৰন্থ দিমাপুৰৰ কছাৰী ৰজাসকলৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    },
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kachari Buranji is a chronicle of the Kachari kings of Dimapur.",
+    "as": "কছাৰী বুৰঞ্জী দিমাপুৰৰ কছাৰী ৰজাসকলৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-202",
+   "q": {
+    "en": "Which Assamese text is a chronicle of the Kachari kings of Maibong?",
+    "as": "কোন অসমীয়া গ্ৰন্থ মাইবঙৰ কছাৰী ৰজাসকলৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Tungkhungia Buranji",
+     "as": "তুংখুঙীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kachari Buranji is a chronicle of the Kachari kings of Maibong.",
+    "as": "কছাৰী বুৰঞ্জী মাইবঙৰ কছাৰী ৰজাসকলৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-203",
+   "q": {
+    "en": "Which Assamese text is a chronicle of the Jaintia kings?",
+    "as": "কোন অসমীয়া গ্ৰন্থ জয়ন্তীয়া ৰজাসকলৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Jaintia Buranji",
+     "as": "জয়ন্তীয়া বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Jaintia Buranji is a chronicle of the Jaintia kings.",
+    "as": "জয়ন্তীয়া বুৰঞ্জী জয়ন্তীয়া ৰজাসকলৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-204",
+   "q": {
+    "en": "Which Assamese text is a chronicle of the Chutia kings?",
+    "as": "কোন অসমীয়া গ্ৰন্থ চুতীয়া ৰজাসকলৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Chutia Buranji",
+     "as": "চুতীয়া বুৰঞ্জী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Chutia Buranji is a chronicle of the Chutia kings.",
+    "as": "চুতীয়া বুৰঞ্জী চুতীয়া ৰজাসকলৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-205",
+   "q": {
+    "en": "Which Assamese text is a chronicle of the Baro-Bhuyan chiefs?",
+    "as": "কোন অসমীয়া গ্ৰন্থ বাৰো-ভূঞা সেনাপতিসকলৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Baro-Bhuyan Buranji",
+     "as": "বাৰো-ভূঞা বুৰঞ্জী"
+    },
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    },
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Baro-Bhuyan Buranji is a chronicle of the Baro-Bhuyan chiefs.",
+    "as": "বাৰো-ভূঞা বুৰঞ্জী বাৰো-ভূঞা সেনাপতিসকলৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-206",
+   "q": {
+    "en": "Which Assamese text is a chronicle of the Kamata kingdom?",
+    "as": "কোন অসমীয়া গ্ৰন্থ কমতা ৰাজ্যৰ ইতিহাস-পুথি?"
+   },
+   "options": [
+    {
+     "en": "Padshah Buranji",
+     "as": "পাদশাহ বুৰঞ্জী"
+    },
+    {
+     "en": "Kamata Buranji",
+     "as": "কমতা বুৰঞ্জী"
+    },
+    {
+     "en": "Kachari Buranji",
+     "as": "কছাৰী বুৰঞ্জী"
+    },
+    {
+     "en": "Koch Buranji",
+     "as": "কোচ বুৰঞ্জী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kamata Buranji is a chronicle of the Kamata kingdom.",
+    "as": "কমতা বুৰঞ্জী কমতা ৰাজ্যৰ ইতিহাস-পুথি।"
+   }
+  },
+  {
+   "id": "assamese-literature-207",
+   "q": {
+    "en": "Which missionary published the first Assamese dictionary?",
+    "as": "কোন মিছনেৰীয়ে প্ৰথম অসমীয়া অভিধান প্ৰকাশ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Miles Bronson",
+     "as": "মাইলছ ব্ৰনছন"
+    },
+    {
+     "en": "Nathan Brown",
+     "as": "নাথান ব্ৰাউন"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nathan Brown published an early Assamese dictionary.",
+    "as": "নাথান ব্ৰাউনে এটা প্ৰাচীন অসমীয়া অভিধান প্ৰকাশ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-208",
+   "q": {
+    "en": "Who wrote the first Assamese grammar in English?",
+    "as": "ইংৰাজীত প্ৰথম অসমীয়া ব্যাকৰণ কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    },
+    {
+     "en": "Miles Bronson",
+     "as": "মাইলছ ব্ৰনছন"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Nathan Brown",
+     "as": "নাথান ব্ৰাউন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nathan Brown wrote an early Assamese grammar in English.",
+    "as": "নাথান ব্ৰাউনে ইংৰাজীত এটা প্ৰাচীন অসমীয়া ব্যাকৰণ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-209",
+   "q": {
+    "en": "Which Assamese writer is known as the 'Lion of Assam'?",
+    "as": "কোন অসমীয়া লেখক 'অসমৰ সিংহ' হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Anandaram Dhekial Phukan",
+     "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa is known as the 'Lion of Assam'.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাক 'অসমৰ সিংহ' হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assamese-literature-210",
+   "q": {
+    "en": "Which Assamese writer is known for the humorous sketches 'Kripabar Barbarua'?",
+    "as": "কোন অসমীয়া লেখক হাস্যৰসাত্মক ৰচনা 'কৃপাবৰ বৰবৰুৱা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa created the humorous character Kripabar Barbarua.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই কৃপাবৰ বৰবৰুৱা হাস্যৰসাত্মক চৰিত্ৰ সৃষ্টি কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-211",
+   "q": {
+    "en": "Which Assamese writer is known for the humorous sketches 'Kokadeuta'?",
+    "as": "কোন অসমীয়া লেখক হাস্যৰসাত্মক ৰচনা 'ককাদেউতা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote the Kokadeuta sketches.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই ককাদেউতা ৰচনা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-212",
+   "q": {
+    "en": "Which Assamese writer edited the journal 'Jonaki' along with Chandra Kumar Agarwala?",
+    "as": "কোন অসমীয়া লেখকে চন্দ্ৰ কুমাৰ আগৰৱালাৰ সৈতে 'জোনাকী' আলোচনী সম্পাদনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Hemchandra Goswami",
+     "as": "হেমচন্দ্ৰ গোস্বামী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hemchandra Goswami edited Jonaki along with Chandra Kumar Agarwala.",
+    "as": "হেমচন্দ্ৰ গোস্বামীয়ে চন্দ্ৰ কুমাৰ আগৰৱালাৰ সৈতে জোনাকী সম্পাদনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-213",
+   "q": {
+    "en": "Which Assamese writer is known for the poem 'Keteki'?",
+    "as": "কোন অসমীয়া লেখক 'কেতেকী' কবিতাৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
+    },
+    {
+     "en": "Chandra Kumar Agarwala",
+     "as": "চন্দ্ৰ কুমাৰ আগৰৱালা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raghunath Choudhury wrote the poem Keteki.",
+    "as": "ৰঘুনাথ চৌধুৰীয়ে কেতেকী কবিতা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-214",
+   "q": {
+    "en": "Which Assamese poet is known as the 'Bihogi Kabi'?",
+    "as": "কোন অসমীয়া কবি 'বিহগী কবি' হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    },
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    },
+    {
+     "en": "Nabakanta Barua",
+     "as": "নৱকান্ত বৰুৱা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Raghunath Choudhury is known as the Bihogi Kabi.",
+    "as": "ৰঘুনাথ চৌধুৰী বিহগী কবি হিচাপে জনাজাত।"
+   }
+  },
+  {
+   "id": "assamese-literature-215",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Bon Phoring'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'বন ফৰিং'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote the novel Bon Phoring.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে বন ফৰিং উপন্যাস লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-216",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Rangili'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'ৰঙিলী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote the novel Rangili.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে ৰঙিলী উপন্যাস লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-217",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Nirmal Bhakat'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'নিৰ্মল ভকত'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote the novel Nirmal Bhakat.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে নিৰ্মল ভকত উপন্যাস লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-218",
+   "q": {
+    "en": "Which Assamese writer is known for the play 'Belimar'?",
+    "as": "কোন অসমীয়া লেখক নাটক 'বেলিমাৰ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah wrote the play Belimar.",
+    "as": "পদ্মনাথ গোহাঞি বৰুৱাই বেলিমাৰ নাটক লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-219",
+   "q": {
+    "en": "Which Assamese writer is known for the play 'Sadhani'?",
+    "as": "কোন অসমীয়া লেখক নাটক 'সাধনী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah wrote the play Sadhani.",
+    "as": "পদ্মনাথ গোহাঞি বৰুৱাই সাধনী নাটক লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-220",
+   "q": {
+    "en": "Which Assamese writer is known as 'Sahityarathi'?",
+    "as": "কোন অসমীয়া লেখক 'সাহিত্যৰথী' হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Hemchandra Goswami",
+     "as": "হেমচন্দ্ৰ গোস্বামী"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa is known as Sahityarathi.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱা সাহিত্যৰথী হিচাপে জনাজাত।"
+   }
+  },
+  {
+   "id": "assamese-literature-221",
+   "q": {
+    "en": "Which Assamese writer is known as 'Rupkonwar'?",
+    "as": "কোন অসমীয়া লেখক 'ৰূপকোঁৱৰ' হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jyotiprasad Agarwala is known as Rupkonwar.",
+    "as": "জ্যোতি প্ৰসাদ আগৰৱালা ৰূপকোঁৱৰ হিচাপে জনাজাত।"
+   }
+  },
+  {
+   "id": "assamese-literature-222",
+   "q": {
+    "en": "Which Assamese writer is known as 'Kalaguru'?",
+    "as": "কোন অসমীয়া লেখক 'কলাগুৰু' হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Hemango Biswas",
+     "as": "হেমাঙ্গ বিশ্বাস"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bishnu Prasad Rabha is known as Kalaguru.",
+    "as": "বিষ্ণু প্ৰসাদ ৰাভা কলাগুৰু হিচাপে জনাজাত।"
+   }
+  },
+  {
+   "id": "assamese-literature-223",
+   "q": {
+    "en": "Which Assamese writer is known for the song 'Bisarjan'?",
+    "as": "কোন অসমীয়া লেখক 'বিসৰ্জন' গীতৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    },
+    {
+     "en": "Bishnu Prasad Rabha",
+     "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+    },
+    {
+     "en": "Hemango Biswas",
+     "as": "হেমাঙ্গ বিশ্বাস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bishnu Prasad Rabha composed the song Bisarjan.",
+    "as": "বিষ্ণু প্ৰসাদ ৰাভাই বিসৰ্জন গীত ৰচনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-224",
+   "q": {
+    "en": "Which Assamese film is regarded as the first Assamese feature film?",
+    "as": "কোন অসমীয়া চলচ্চিত্ৰক প্ৰথম অসমীয়া কাহিনী-চিত্ৰ হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Rangili",
+     "as": "ৰঙিলী"
+    },
+    {
+     "en": "Indramalati",
+     "as": "ইন্দ্ৰমালতী"
+    },
+    {
+     "en": "Manomati",
+     "as": "মনোমতী"
+    },
+    {
+     "en": "Joymoti",
+     "as": "জয়মতী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Joymoti is regarded as the first Assamese feature film.",
+    "as": "জয়মতীক প্ৰথম অসমীয়া কাহিনী-চিত্ৰ হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "assamese-literature-225",
+   "q": {
+    "en": "Which Assamese film was directed by Jyotiprasad Agarwala?",
+    "as": "কোন অসমীয়া চলচ্চিত্ৰ জ্যোতি প্ৰসাদ আগৰৱালাই পৰিচালনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Joymoti",
+     "as": "জয়মতী"
+    },
+    {
+     "en": "Manomati",
+     "as": "মনোমতী"
+    },
+    {
+     "en": "Nirmal Bhakat",
+     "as": "নিৰ্মল ভকত"
+    },
+    {
+     "en": "Rangili",
+     "as": "ৰঙিলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jyotiprasad Agarwala directed the film Joymoti.",
+    "as": "জ্যোতি প্ৰসাদ আগৰৱালাই জয়মতী চলচ্চিত্ৰ পৰিচালনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-226",
+   "q": {
+    "en": "Which Assamese film was directed by Bishnu Prasad Rabha?",
+    "as": "কোন অসমীয়া চলচ্চিত্ৰ বিষ্ণু প্ৰসাদ ৰাভাই পৰিচালনা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Manomati",
+     "as": "মনোমতী"
+    },
+    {
+     "en": "Indramalati",
+     "as": "ইন্দ্ৰমালতী"
+    },
+    {
+     "en": "Joymoti",
+     "as": "জয়মতী"
+    },
+    {
+     "en": "Rangili",
+     "as": "ৰঙিলী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bishnu Prasad Rabha directed the film Indramalati.",
+    "as": "বিষ্ণু প্ৰসাদ ৰাভাই ইন্দ্ৰমালতী চলচ্চিত্ৰ পৰিচালনা কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-227",
+   "q": {
+    "en": "Which Assamese writer is known for the short-story collection 'Xadhukotha'?",
+    "as": "কোন অসমীয়া লেখক চুটি গল্প-সংকলন 'সাধুকথা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote the short-story collection Xadhukotha.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই সাধুকথা চুটি গল্প-সংকলন লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-228",
+   "q": {
+    "en": "Which Assamese author received the Jnanpith Award for the novel 'Mrityunjay'?",
+    "as": "কোন অসমীয়া লেখকে 'মৃত্যুঞ্জয়' উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Birendra Kumar Bhattacharyya won the Jnanpith for Mrityunjay.",
+    "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই মৃত্যুঞ্জয়ৰ বাবে জ্ঞানপীঠ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-229",
+   "q": {
+    "en": "Which Assamese writer won the Jnanpith Award for the novel 'Aghari Atmar Kahini'?",
+    "as": "কোন অসমীয়া লেখকে 'আঘৰি আত্মাৰ কাহিনী' উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mamoni Raisom Goswami won the Jnanpith for Aghari Atmar Kahini.",
+    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনীৰ বাবে জ্ঞানপীঠ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-230",
+   "q": {
+    "en": "Which Assamese poet won the Jnanpith Award for the collection 'Sagar Dekhisa'?",
+    "as": "কোন অসমীয়া কবিয়ে 'সাগৰ দেখিছা' সংকলনৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    },
+    {
+     "en": "Nabakanta Barua",
+     "as": "নৱকান্ত বৰুৱা"
+    },
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nilmani Phookan won the Jnanpith for Sagar Dekhisa.",
+    "as": "নীলমণি ফুকনে সাগৰ দেখিছা সংকলনৰ বাবে জ্ঞানপীঠ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-231",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Mamore Dhora Tarowal'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'মামৰে ধৰা তৰোৱাল'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mamoni Raisom Goswami wrote Mamore Dhora Tarowal.",
+    "as": "মামণি ৰয়ছম গোস্বামীয়ে মামৰে ধৰা তৰোৱাল লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-232",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Dontal Hatir Une Khowa Howdah'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'দন্তাল হাতীৰ উনে খোৱা হাওদা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mamoni Raisom Goswami wrote Dontal Hatir Une Khowa Howdah.",
+    "as": "মামণি ৰয়ছম গোস্বামীয়ে দন্তাল হাতীৰ উনে খোৱা হাওদা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-233",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Pita Putra'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'পিতা পুত্ৰ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Homen Borgohain wrote Pita Putra.",
+    "as": "হোমেন বৰগোহাঞিয়ে পিতা পুত্ৰ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-234",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Halodhiya Choraye Baodhan Khai'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'হালধীয়া চৰায়ে বাওধান খায়'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Homen Borgohain wrote Halodhiya Choraye Baodhan Khai.",
+    "as": "হোমেন বৰগোহাঞিয়ে হালধীয়া চৰায়ে বাওধান খায় লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-235",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Kathanibari Ghat'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'কথানিবাৰী ঘাট'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Homen Borgohain wrote Kathanibari Ghat.",
+    "as": "হোমেন বৰগোহাঞিয়ে কথানিবাৰী ঘাট লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-236",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Suhrit'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'সুহৃদ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Homen Borgohain wrote Suhrit.",
+    "as": "হোমেন বৰগোহাঞিয়ে সুহৃদ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-237",
+   "q": {
+    "en": "Which Assamese writer is known for the short-story collection 'Golam'?",
+    "as": "কোন অসমীয়া লেখক চুটি গল্প-সংকলন 'গোলাম'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Saurabh Kumar Chaliha wrote the short-story collection Golam.",
+    "as": "সৌৰভ কুমাৰ চলিহাই গোলাম চুটি গল্প-সংকলন লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-238",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Priyotomar Sandhan'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'প্ৰিয়তমাৰ সন্ধান'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Syed Abdul Malik wrote Priyotomar Sandhan.",
+    "as": "চৈয়দ আব্দুল মালিকে প্ৰিয়তমাৰ সন্ধান লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-239",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Dhanya Nadi'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'ধন্য নদী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Syed Abdul Malik wrote Dhanya Nadi.",
+    "as": "চৈয়দ আব্দুল মালিকে ধন্য নদী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-240",
+   "q": {
+    "en": "Which Assamese writer is known for the autobiography 'Adha Lekha Dastabej'?",
+    "as": "কোন অসমীয়া লেখক আত্মজীৱনী 'আধা লেখা দস্তাবেজ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Syed Abdul Malik wrote Adha Lekha Dastabej.",
+    "as": "চৈয়দ আব্দুল মালিকে আধা লেখা দস্তাবেজ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-241",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Edhani Mahir Hanhi'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'এধানি মাহীৰ হাঁহি'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Homen Borgohain wrote Edhani Mahir Hanhi.",
+    "as": "হোমেন বৰগোহাঞিয়ে এধানি মাহীৰ হাঁহি লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-242",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Saudor Putra'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'সাউদৰ পুত্ৰ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mahim Bora wrote Saudor Putra.",
+    "as": "মহিম বৰাই সাউদৰ পুত্ৰ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-243",
+   "q": {
+    "en": "Which Assamese writer is known for the short-story collection 'Kanya'?",
+    "as": "কোন অসমীয়া লেখক চুটি গল্প-সংকলন 'কন্যা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mahim Bora wrote the short-story collection Kanya.",
+    "as": "মহিম বৰাই কন্যা চুটি গল্প-সংকলন লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-244",
+   "q": {
+    "en": "Which Assamese writer received the Sahitya Akademi Award for the novel 'Iyaruingam'?",
+    "as": "কোন অসমীয়া লেখকে 'ইয়াৰুইংগম' উপন্যাসৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Birendra Kumar Bhattacharyya won the Sahitya Akademi Award for Iyaruingam.",
+    "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই ইয়াৰুইংগমৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-245",
+   "q": {
+    "en": "Which Assamese writer received the Sahitya Akademi Award for the novel 'Aghari Atmar Kahini'?",
+    "as": "কোন অসমীয়া লেখকে 'আঘৰি আত্মাৰ কাহিনী' উপন্যাসৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mamoni Raisom Goswami won the Sahitya Akademi Award for Aghari Atmar Kahini.",
+    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনীৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-246",
+   "q": {
+    "en": "Which Assamese writer received the Sahitya Akademi Award for the novel 'Pita Putra'?",
+    "as": "কোন অসমীয়া লেখকে 'পিতা পুত্ৰ' উপন্যাসৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Homen Borgohain won the Sahitya Akademi Award for Pita Putra.",
+    "as": "হোমেন বৰগোহাঞিয়ে পিতা পুত্ৰৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-247",
+   "q": {
+    "en": "Which Assamese writer received the Sahitya Akademi Award for the novel 'Jangam'?",
+    "as": "কোন অসমীয়া লেখকে 'জংগম' উপন্যাসৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mahim Bora won the Sahitya Akademi Award for Jangam.",
+    "as": "মহিম বৰাই জংগমৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-248",
+   "q": {
+    "en": "Which Assamese writer received the Sahitya Akademi Award for the collection 'Ashanta Electron'?",
+    "as": "কোন অসমীয়া লেখকে 'অশান্ত ইলেক্ট্ৰন'ৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Saurabh Kumar Chaliha won the Sahitya Akademi Award for Ashanta Electron.",
+    "as": "সৌৰভ কুমাৰ চলিহাই অশান্ত ইলেক্ট্ৰনৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-249",
+   "q": {
+    "en": "Which Assamese poet is known for the poem 'Nirjhar'?",
+    "as": "কোন অসমীয়া কবি 'নিৰ্ঝৰ' কবিতাৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Nabakanta Barua",
+     "as": "নৱকান্ত বৰুৱা"
+    },
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
+    },
+    {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nabakanta Barua wrote the poem Nirjhar.",
+    "as": "নৱকান্ত বৰুৱাই নিৰ্ঝৰ কবিতা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-250",
+   "q": {
+    "en": "Which Assamese poet is known for the poem collection 'Aru Kirti'?",
+    "as": "কোন অসমীয়া কবি কবিতা-সংকলন 'আৰু কীৰ্তি'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
+    },
+    {
+     "en": "Nabakanta Barua",
+     "as": "নৱকান্ত বৰুৱা"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    },
+    {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nabakanta Barua wrote the poetry collection Aru Kirti.",
+    "as": "নৱকান্ত বৰুৱাই আৰু কীৰ্তি কবিতা-সংকলন লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-251",
+   "q": {
+    "en": "Which Assamese poet is known for the collection 'Phuli Thaka Phool'?",
+    "as": "কোন অসমীয়া কবি সংকলন 'ফুলি থকা ফুল'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Nabakanta Barua",
+     "as": "নৱকান্ত বৰুৱা"
+    },
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
+    },
+    {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nalini Bala Devi wrote the collection Phuli Thaka Phool.",
+    "as": "নলিনী বালা দেৱীয়ে ফুলি থকা ফুল সংকলন লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-252",
+   "q": {
+    "en": "Which Assamese poet is known for the collection 'Shatadhara'?",
+    "as": "কোন অসমীয়া কবি সংকলন 'শতধাৰা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Nabakanta Barua",
+     "as": "নৱকান্ত বৰুৱা"
+    },
+    {
+     "en": "Raghunath Choudhury",
+     "as": "ৰঘুনাথ চৌধুৰী"
+    },
+    {
+     "en": "Nilmani Phookan",
+     "as": "নীলমণি ফুকন"
+    },
+    {
+     "en": "Nalini Bala Devi",
+     "as": "নলিনী বালা দেৱী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nalini Bala Devi wrote the collection Shatadhara.",
+    "as": "নলিনী বালা দেৱীয়ে শতধাৰা সংকলন লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-253",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Nilkanthi'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'নীলকণ্ঠী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Homen Borgohain wrote Nilkanthi.",
+    "as": "হোমেন বৰগোহাঞিয়ে নীলকণ্ঠী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-254",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Bathou'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'বাথৌ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mahim Bora wrote Bathou.",
+    "as": "মহিম বৰাই বাথৌ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-255",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Gadadhar'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'গদাধৰ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote Gadadhar.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে গদাধৰ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-256",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Manomati'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'মনোমতী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote Manomati.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে মনোমতী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-257",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Kadam Kali'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'কদম কলি'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote Kadam Kali.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে কদম কলি লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-258",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Miri Jiyori'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'মিৰি জীয়ৰী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote Miri Jiyori.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে মিৰি জীয়ৰী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-259",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Bhanumati'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'ভানুমতী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah wrote Bhanumati.",
+    "as": "পদ্মনাথ গোহাঞি বৰুৱাই ভানুমতী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-260",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Phuleswari'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'ফুলেশ্বৰী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah wrote Phuleswari.",
+    "as": "পদ্মনাথ গোহাঞি বৰুৱাই ফুলেশ্বৰী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-261",
+   "q": {
+    "en": "Which Assamese writer is known for the play 'Jaymoti'?",
+    "as": "কোন অসমীয়া লেখক নাটক 'জয়মতী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote the play Jaymoti.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই জয়মতী নাটক লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-262",
+   "q": {
+    "en": "Which Assamese writer is known for the folk-tale collection 'Burhi Aair Sadhu'?",
+    "as": "কোন অসমীয়া লেখক লোককথা-সংকলন 'বুঢ়ী আইৰ সাধু'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote Burhi Aair Sadhu.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই বুঢ়ী আইৰ সাধু লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-263",
+   "q": {
+    "en": "Which Assamese writer is known for the children's work 'Kokadeuta aru Nati Lora'?",
+    "as": "কোন অসমীয়া লেখক শিশু-সাহিত্য 'ককাদেউতা আৰু নাতি-ল'ৰা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote Kokadeuta aru Nati Lora.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই ককাদেউতা আৰু নাতি-ল'ৰা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-264",
+   "q": {
+    "en": "Which Assamese writer is known for the humorous work 'Kripabar Barbaruar Kakotor Topola'?",
+    "as": "কোন অসমীয়া লেখক হাস্যৰসাত্মক কৰ্ম 'কৃপাবৰ বৰবৰুৱাৰ কাকতৰ টোপোলা'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote Kripabar Barbaruar Kakotor Topola.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই কৃপাবৰ বৰবৰুৱাৰ কাকতৰ টোপোলা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-265",
+   "q": {
+    "en": "Which Assamese writer is known for the work 'Mor Jivan Xonwaron'?",
+    "as": "কোন অসমীয়া লেখক কৰ্ম 'মোৰ জীৱন সোঁৱৰণ'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote the autobiographical Mor Jivan Xonwaron.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই আত্মজীৱনীমূলক মোৰ জীৱন সোঁৱৰণ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-266",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Patal Bhairavi'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'পাতাল ভৈৰৱী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Birendra Kumar Bhattacharyya wrote Patal Bhairavi.",
+    "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই পাতাল ভৈৰৱী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-267",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Mrityunjay'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'মৃত্যুঞ্জয়'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Birendra Kumar Bhattacharyya wrote Mrityunjay.",
+    "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই মৃত্যুঞ্জয় লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-268",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Iyaruingam'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'ইয়াৰুইংগম'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Birendra Kumar Bhattacharyya wrote Iyaruingam.",
+    "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই ইয়াৰুইংগম লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-269",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Aghari Atmar Kahini'?",
+    "as": "কোন অসমীয়া লেখক উপন্যাস 'আঘৰি আত্মাৰ কাহিনী'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mamoni Raisom Goswami wrote Aghari Atmar Kahini.",
+    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-270",
+   "q": {
+    "en": "Which Assamese writer is known for the play 'Belimar' and 'Sadhani'?",
+    "as": "কোন অসমীয়া লেখক 'বেলিমাৰ' আৰু 'সাধনী' নাটকৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    },
+    {
+     "en": "Jyotiprasad Agarwala",
+     "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Padmanath Gohain Baruah wrote Belimar and Sadhani.",
+    "as": "পদ্মনাথ গোহাঞি বৰুৱাই বেলিমাৰ আৰু সাধনী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-271",
+   "q": {
+    "en": "Which Assamese writer is known for the play 'Jaymoti' and the folk-tale collection 'Burhi Aair Sadhu'?",
+    "as": "কোন অসমীয়া লেখক 'জয়মতী' নাটক আৰু 'বুঢ়ী আইৰ সাধু' সংকলনৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    },
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Hemchandra Barua",
+     "as": "হেমচন্দ্ৰ বৰুৱা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lakshminath Bezbaroa wrote both Jaymoti and Burhi Aair Sadhu.",
+    "as": "লক্ষ্মীনাথ বেজবৰুৱাই জয়মতী আৰু বুঢ়ী আইৰ সাধু দুয়ো লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-272",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Miri Jiyori' and 'Manomati'?",
+    "as": "কোন অসমীয়া লেখক 'মিৰি জীয়ৰী' আৰু 'মনোমতী' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Padmanath Gohain Baruah",
+     "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+    },
+    {
+     "en": "Lakshminath Bezbaroa",
+     "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rajanikanta Bordoloi",
+     "as": "ৰজনীকান্ত বৰদলৈ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rajanikanta Bordoloi wrote Miri Jiyori and Manomati.",
+    "as": "ৰজনীকান্ত বৰদলৈয়ে মিৰি জীয়ৰী আৰু মনোমতী লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-273",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Mrityunjay' and 'Iyaruingam'?",
+    "as": "কোন অসমীয়া লেখক 'মৃত্যুঞ্জয়' আৰু 'ইয়াৰুইংগম' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
     },
     {
      "en": "Homen Borgohain",
@@ -8880,10 +16350,220 @@ module.exports = {
      "as": "মামণি ৰয়ছম গোস্বামী"
     }
    ],
+   "correct": 0,
+   "explanation": {
+    "en": "Birendra Kumar Bhattacharyya wrote Mrityunjay and Iyaruingam.",
+    "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই মৃত্যুঞ্জয় আৰু ইয়াৰুইংগম লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-274",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Pita Putra' and 'Matsyagandha'?",
+    "as": "কোন অসমীয়া লেখক 'পিতা পুত্ৰ' আৰু 'মৎস্যগন্ধা' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    }
+   ],
    "correct": 1,
    "explanation": {
-    "en": "Rita Chowdhury wrote the novel Rupali Nadi.",
-    "as": "ৰীতা চৌধুৰীয়ে ৰূপালী নদী উপন্যাস লিখিছিল।"
+    "en": "Homen Borgohain wrote Pita Putra and Matsyagandha.",
+    "as": "হোমেন বৰগোহাঞিয়ে পিতা পুত্ৰ আৰু মৎস্যগন্ধা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-275",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Aghari Atmar Kahini' and 'Dontal Hatir Une Khowa Howdah'?",
+    "as": "কোন অসমীয়া লেখক 'আঘৰি আত্মাৰ কাহিনী' আৰু 'দন্তাল হাতীৰ উনে খোৱা হাওদা' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    },
+    {
+     "en": "Birendra Kumar Bhattacharyya",
+     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mamoni Raisom Goswami wrote Aghari Atmar Kahini and Dontal Hatir Une Khowa Howdah.",
+    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনী আৰু দন্তাল হাতীৰ উনে খোৱা হাওদা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-276",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Rupali Nadi' and 'Rangmala'?",
+    "as": "কোন অসমীয়া লেখক 'ৰূপালী নদী' আৰু 'ৰঙমালা' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Anuradha Sharma Pujari",
+     "as": "অনুৰাধা শৰ্মা পূজাৰী"
+    },
+    {
+     "en": "Rita Chowdhury",
+     "as": "ৰীতা চৌধুৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rita Chowdhury wrote Rupali Nadi and Rangmala.",
+    "as": "ৰীতা চৌধুৰীয়ে ৰূপালী নদী আৰু ৰঙমালা লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-277",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Hriday Ek Bigyapan' and 'Jalchhabi'?",
+    "as": "কোন অসমীয়া লেখক 'হৃদয় এখন বিজ্ঞাপন' আৰু 'জলছবি' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Anuradha Sharma Pujari",
+     "as": "অনুৰাধা শৰ্মা পূজাৰী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Rita Chowdhury",
+     "as": "ৰীতা চৌধুৰী"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Anuradha Sharma Pujari wrote Hriday Ek Bigyapan and Jalchhabi.",
+    "as": "অনুৰাধা শৰ্মা পূজাৰীয়ে হৃদয় এখন বিজ্ঞাপন আৰু জলছবি লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-278",
+   "q": {
+    "en": "Which Assamese writer is known for the short-story collection 'Ashanta Electron' and 'Golam'?",
+    "as": "কোন অসমীয়া লেখক চুটি গল্প-সংকলন 'অশান্ত ইলেক্ট্ৰন' আৰু 'গোলাম'ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Saurabh Kumar Chaliha",
+     "as": "সৌৰভ কুমাৰ চলিহা"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Saurabh Kumar Chaliha wrote Ashanta Electron and Golam.",
+    "as": "সৌৰভ কুমাৰ চলিহাই অশান্ত ইলেক্ট্ৰন আৰু গোলাম লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-279",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Jangam' and 'Bathou'?",
+    "as": "কোন অসমীয়া লেখক 'জংগম' আৰু 'বাথৌ' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mahim Bora wrote Jangam and Bathou.",
+    "as": "মহিম বৰাই জংগম আৰু বাথৌ লিখিছিল।"
+   }
+  },
+  {
+   "id": "assamese-literature-280",
+   "q": {
+    "en": "Which Assamese writer is known for the novel 'Priyotomar Sandhan' and 'Dhanya Nadi'?",
+    "as": "কোন অসমীয়া লেখক 'প্ৰিয়তমাৰ সন্ধান' আৰু 'ধন্য নদী' উপন্যাসৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Homen Borgohain",
+     "as": "হোমেন বৰগোহাঞি"
+    },
+    {
+     "en": "Mamoni Raisom Goswami",
+     "as": "মামণি ৰয়ছম গোস্বামী"
+    },
+    {
+     "en": "Mahim Bora",
+     "as": "মহিম বৰা"
+    },
+    {
+     "en": "Syed Abdul Malik",
+     "as": "চৈয়দ আব্দুল মালিক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Syed Abdul Malik wrote Priyotomar Sandhan and Dhanya Nadi.",
+    "as": "চৈয়দ আব্দুল মালিকে প্ৰিয়তমাৰ সন্ধান আৰু ধন্য নদী লিখিছিল।"
    }
   }
  ]
