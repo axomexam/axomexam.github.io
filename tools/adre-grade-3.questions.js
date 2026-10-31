@@ -134073,3 +134073,6 @@ Object.assign(module.exports, require("./adre-grade-3.questions.english.js"));
 
 /* Generated GK banks (see tools/build-gk-questions.js). */
 Object.assign(module.exports, require("./adre-grade-3.questions.gk.js"));
+
+/* Generated Polity banks (see tools/build-polity-questions.js). */
+Object.assign(module.exports, require("./adre-grade-3.questions.polity.js"));
