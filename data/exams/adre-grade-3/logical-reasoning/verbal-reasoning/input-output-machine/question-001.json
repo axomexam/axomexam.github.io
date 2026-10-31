@@ -2,61 +2,1681 @@
   {
     "id": "input-output-machine-001",
     "q": {
-      "en": "A machine sorts numbers in increasing order, one per step. Input: 5 2 9 1. Step 1: 1 5 2 9. Step 2: 1 2 5 9. What is Step 1 for input 7 3 8 4?",
-      "as": "এটা যন্ত্ৰই সংখ্যাবোৰ বঢ়াৰ ক্ৰমত সজায়, প্ৰতি ধাপত এটা। ইনপুট: 5 2 9 1। ধাপ 1: 1 5 2 9। ধাপ 2: 1 2 5 9। ইনপুট 7 3 8 4 ৰ বাবে ধাপ 1 কি?"
+      "en": "Input: 32, 45, 12, 67, 89. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 32, 45, 12, 67, 89। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
     },
     "options": [
       {
-        "en": "3 7 4 8",
-        "as": "৩ ৭ ৪ ৮"
+        "en": "45",
+        "as": "45"
       },
       {
-        "en": "4 3 7 8",
-        "as": "৪ ৩ ৭ ৮"
+        "en": "67",
+        "as": "67"
       },
       {
-        "en": "3 7 8 4",
-        "as": "৩ ৭ ৮ ৪"
+        "en": "32",
+        "as": "32"
       },
       {
-        "en": "3 4 7 8",
-        "as": "৩ ৪ ৭ ৮"
+        "en": "12",
+        "as": "12"
       }
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": {
-      "en": "The machine moves the smallest number to the front at each step, so 7 3 8 4 becomes 3 7 8 4 in the first step.",
-      "as": "যন্ত্ৰই প্ৰতিটো ধাপত সৰু সংখ্যাটো আগলৈ আনে, গতিকে 7 3 8 4 প্ৰথম ধাপত 3 7 8 4 হয়।"
+      "en": "Ascending order is 12, 32, 45, 67, 89, so the third number is 45.",
+      "as": "ঊৰ্ধ্বক্ৰম 12, 32, 45, 67, 89, গতিকে তৃতীয় সংখ্যা 45।"
     }
   },
   {
     "id": "input-output-machine-002",
     "q": {
-      "en": "A machine moves the largest number to the end, one per step. Input: 4 9 1 6. What is Step 1?",
-      "as": "এটা যন্ত্ৰই ডাঙৰ সংখ্যাটো শেষলৈ ঠেলে, প্ৰতি ধাপত এটা। ইনপুট: 4 9 1 6। ধাপ 1 কি?"
+      "en": "Input: 54, 23, 76, 18, 90. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 54, 23, 76, 18, 90। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
     },
     "options": [
       {
-        "en": "4 1 9 6",
-        "as": "৪ ১ ৯ ৬"
+        "en": "23",
+        "as": "23"
       },
       {
-        "en": "1 4 6 9",
-        "as": "১ ৪ ৬ ৯"
+        "en": "90",
+        "as": "90"
       },
       {
-        "en": "9 4 1 6",
-        "as": "৯ ৪ ১ ৬"
+        "en": "54",
+        "as": "54"
       },
       {
-        "en": "4 1 6 9",
-        "as": "৪ ১ ৬ ৯"
+        "en": "76",
+        "as": "76"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Descending order is 90, 76, 54, 23, 18, so the third number is 54.",
+      "as": "অধঃক্ৰম 90, 76, 54, 23, 18, গতিকে তৃতীয় সংখ্যা 54।"
+    }
+  },
+  {
+    "id": "input-output-machine-003",
+    "q": {
+      "en": "Input: 61, 14, 83, 27, 55. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 61, 14, 83, 27, 55। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "69",
+        "as": "69"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "82",
+        "as": "82"
+      },
+      {
+        "en": "41",
+        "as": "41"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "The largest number, 9, moves to the end, so the first step is 4 1 6 9.",
-      "as": "আটাইতকৈ ডাঙৰ সংখ্যা 9 শেষলৈ যায়, গতিকে প্ৰথম ধাপ 4 1 6 9।"
+      "en": "Ascending order is 14, 27, 55, 61, 83, so the first two are 14 and 27, summing to 41.",
+      "as": "ঊৰ্ধ্বক্ৰম 14, 27, 55, 61, 83, গতিকে প্ৰথম দুটা 14 আৰু 27, যোগফল 41।"
+    }
+  },
+  {
+    "id": "input-output-machine-004",
+    "q": {
+      "en": "Input: 39, 72, 16, 48, 91. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 39, 72, 16, 48, 91। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "91",
+        "as": "91"
+      },
+      {
+        "en": "39",
+        "as": "39"
+      },
+      {
+        "en": "72",
+        "as": "72"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 91 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 91 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-005",
+    "q": {
+      "en": "Input: 25, 64, 13, 87, 50. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 25, 64, 13, 87, 50। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "13"
+      },
+      {
+        "en": "50",
+        "as": "50"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 13, 25, 50, 64, 87, so the third number is 50.",
+      "as": "ঊৰ্ধ্বক্ৰম 13, 25, 50, 64, 87, গতিকে তৃতীয় সংখ্যা 50।"
+    }
+  },
+  {
+    "id": "input-output-machine-006",
+    "q": {
+      "en": "Input: 70, 11, 95, 33, 58. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 70, 11, 95, 33, 58। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "33"
+      },
+      {
+        "en": "58",
+        "as": "58"
+      },
+      {
+        "en": "95",
+        "as": "95"
+      },
+      {
+        "en": "70",
+        "as": "70"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Descending order is 95, 70, 58, 33, 11, so the third number is 58.",
+      "as": "অধঃক্ৰম 95, 70, 58, 33, 11, গতিকে তৃতীয় সংখ্যা 58।"
+    }
+  },
+  {
+    "id": "input-output-machine-007",
+    "q": {
+      "en": "Input: 44, 29, 81, 17, 63. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 44, 29, 81, 17, 63। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "47"
+      },
+      {
+        "en": "61",
+        "as": "61"
+      },
+      {
+        "en": "46",
+        "as": "46"
+      },
+      {
+        "en": "73",
+        "as": "73"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ascending order is 17, 29, 44, 63, 81, so the first two are 17 and 29, summing to 46.",
+      "as": "ঊৰ্ধ্বক্ৰম 17, 29, 44, 63, 81, গতিকে প্ৰথম দুটা 17 আৰু 29, যোগফল 46।"
+    }
+  },
+  {
+    "id": "input-output-machine-008",
+    "q": {
+      "en": "Input: 56, 38, 74, 22, 99. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 56, 38, 74, 22, 99। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "74",
+        "as": "74"
+      },
+      {
+        "en": "99",
+        "as": "99"
+      },
+      {
+        "en": "22",
+        "as": "22"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 99 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 99 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-009",
+    "q": {
+      "en": "Input: 18, 52, 86, 31, 67. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 18, 52, 86, 31, 67। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "67",
+        "as": "67"
+      },
+      {
+        "en": "52",
+        "as": "52"
+      },
+      {
+        "en": "31",
+        "as": "31"
+      },
+      {
+        "en": "18",
+        "as": "18"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 18, 31, 52, 67, 86, so the third number is 52.",
+      "as": "ঊৰ্ধ্বক্ৰম 18, 31, 52, 67, 86, গতিকে তৃতীয় সংখ্যা 52।"
+    }
+  },
+  {
+    "id": "input-output-machine-010",
+    "q": {
+      "en": "Input: 43, 78, 21, 65, 34. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 43, 78, 21, 65, 34। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "65"
+      },
+      {
+        "en": "78",
+        "as": "78"
+      },
+      {
+        "en": "34",
+        "as": "34"
+      },
+      {
+        "en": "43",
+        "as": "43"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Descending order is 78, 65, 43, 34, 21, so the third number is 43.",
+      "as": "অধঃক্ৰম 78, 65, 43, 34, 21, গতিকে তৃতীয় সংখ্যা 43।"
+    }
+  },
+  {
+    "id": "input-output-machine-011",
+    "q": {
+      "en": "Input: 90, 15, 72, 49, 26. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 90, 15, 72, 49, 26। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "75",
+        "as": "75"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ascending order is 15, 26, 49, 72, 90, so the first two are 15 and 26, summing to 41.",
+      "as": "ঊৰ্ধ্বক্ৰম 15, 26, 49, 72, 90, গতিকে প্ৰথম দুটা 15 আৰু 26, যোগফল 41।"
+    }
+  },
+  {
+    "id": "input-output-machine-012",
+    "q": {
+      "en": "Input: 37, 84, 19, 60, 53. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 37, 84, 19, 60, 53। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "19",
+        "as": "19"
+      },
+      {
+        "en": "84",
+        "as": "84"
+      },
+      {
+        "en": "60",
+        "as": "60"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 84 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 84 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-013",
+    "q": {
+      "en": "Input: 62, 28, 91, 14, 75. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 62, 28, 91, 14, 75। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "75"
+      },
+      {
+        "en": "62",
+        "as": "62"
+      },
+      {
+        "en": "14",
+        "as": "14"
+      },
+      {
+        "en": "28",
+        "as": "28"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 14, 28, 62, 75, 91, so the third number is 62.",
+      "as": "ঊৰ্ধ্বক্ৰম 14, 28, 62, 75, 91, গতিকে তৃতীয় সংখ্যা 62।"
+    }
+  },
+  {
+    "id": "input-output-machine-014",
+    "q": {
+      "en": "Input: 48, 33, 88, 25, 57. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 48, 33, 88, 25, 57। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "48"
+      },
+      {
+        "en": "57",
+        "as": "57"
+      },
+      {
+        "en": "33",
+        "as": "33"
+      },
+      {
+        "en": "88",
+        "as": "88"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Descending order is 88, 57, 48, 33, 25, so the third number is 48.",
+      "as": "অধঃক্ৰম 88, 57, 48, 33, 25, গতিকে তৃতীয় সংখ্যা 48।"
+    }
+  },
+  {
+    "id": "input-output-machine-015",
+    "q": {
+      "en": "Input: 71, 16, 83, 40, 64. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 71, 16, 83, 40, 64। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "57",
+        "as": "57"
+      },
+      {
+        "en": "80",
+        "as": "80"
+      },
+      {
+        "en": "56",
+        "as": "56"
+      },
+      {
+        "en": "104",
+        "as": "104"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ascending order is 16, 40, 64, 71, 83, so the first two are 16 and 40, summing to 56.",
+      "as": "ঊৰ্ধ্বক্ৰম 16, 40, 64, 71, 83, গতিকে প্ৰথম দুটা 16 আৰু 40, যোগফল 56।"
+    }
+  },
+  {
+    "id": "input-output-machine-016",
+    "q": {
+      "en": "Input: 55, 92, 27, 68, 11. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 55, 92, 27, 68, 11। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "68",
+        "as": "68"
+      },
+      {
+        "en": "92",
+        "as": "92"
+      },
+      {
+        "en": "11",
+        "as": "11"
+      },
+      {
+        "en": "27",
+        "as": "27"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 92 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 92 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-017",
+    "q": {
+      "en": "Input: 36, 73, 18, 85, 42. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 36, 73, 18, 85, 42। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "36"
+      },
+      {
+        "en": "18",
+        "as": "18"
+      },
+      {
+        "en": "73",
+        "as": "73"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ascending order is 18, 36, 42, 73, 85, so the third number is 42.",
+      "as": "ঊৰ্ধ্বক্ৰম 18, 36, 42, 73, 85, গতিকে তৃতীয় সংখ্যা 42।"
+    }
+  },
+  {
+    "id": "input-output-machine-018",
+    "q": {
+      "en": "Input: 24, 59, 97, 31, 66. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 24, 59, 97, 31, 66। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "66"
+      },
+      {
+        "en": "97",
+        "as": "97"
+      },
+      {
+        "en": "59",
+        "as": "59"
+      },
+      {
+        "en": "31",
+        "as": "31"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Descending order is 97, 66, 59, 31, 24, so the third number is 59.",
+      "as": "অধঃক্ৰম 97, 66, 59, 31, 24, গতিকে তৃতীয় সংখ্যা 59।"
+    }
+  },
+  {
+    "id": "input-output-machine-019",
+    "q": {
+      "en": "Input: 80, 13, 54, 76, 29. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 80, 13, 54, 76, 29। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "83",
+        "as": "83"
+      },
+      {
+        "en": "67",
+        "as": "67"
+      },
+      {
+        "en": "43",
+        "as": "43"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ascending order is 13, 29, 54, 76, 80, so the first two are 13 and 29, summing to 42.",
+      "as": "ঊৰ্ধ্বক্ৰম 13, 29, 54, 76, 80, গতিকে প্ৰথম দুটা 13 আৰু 29, যোগফল 42।"
+    }
+  },
+  {
+    "id": "input-output-machine-020",
+    "q": {
+      "en": "Input: 45, 68, 22, 91, 37. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 45, 68, 22, 91, 37। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "91",
+        "as": "91"
+      },
+      {
+        "en": "22",
+        "as": "22"
+      },
+      {
+        "en": "68",
+        "as": "68"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 91 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 91 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-021",
+    "q": {
+      "en": "Input: 17, 62, 88, 34, 51. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 17, 62, 88, 34, 51। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "51",
+        "as": "51"
+      },
+      {
+        "en": "17",
+        "as": "17"
+      },
+      {
+        "en": "62",
+        "as": "62"
+      },
+      {
+        "en": "34",
+        "as": "34"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ascending order is 17, 34, 51, 62, 88, so the third number is 51.",
+      "as": "ঊৰ্ধ্বক্ৰম 17, 34, 51, 62, 88, গতিকে তৃতীয় সংখ্যা 51।"
+    }
+  },
+  {
+    "id": "input-output-machine-022",
+    "q": {
+      "en": "Input: 79, 26, 63, 90, 15. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 79, 26, 63, 90, 15। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "79",
+        "as": "79"
+      },
+      {
+        "en": "90",
+        "as": "90"
+      },
+      {
+        "en": "63",
+        "as": "63"
+      },
+      {
+        "en": "26",
+        "as": "26"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Descending order is 90, 79, 63, 26, 15, so the third number is 63.",
+      "as": "অধঃক্ৰম 90, 79, 63, 26, 15, গতিকে তৃতীয় সংখ্যা 63।"
+    }
+  },
+  {
+    "id": "input-output-machine-023",
+    "q": {
+      "en": "Input: 41, 87, 24, 70, 58. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 41, 87, 24, 70, 58। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "82",
+        "as": "82"
+      },
+      {
+        "en": "99",
+        "as": "99"
+      },
+      {
+        "en": "66",
+        "as": "66"
+      },
+      {
+        "en": "65",
+        "as": "65"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ascending order is 24, 41, 58, 70, 87, so the first two are 24 and 41, summing to 65.",
+      "as": "ঊৰ্ধ্বক্ৰম 24, 41, 58, 70, 87, গতিকে প্ৰথম দুটা 24 আৰু 41, যোগফল 65।"
+    }
+  },
+  {
+    "id": "input-output-machine-024",
+    "q": {
+      "en": "Input: 66, 19, 82, 47, 35. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 66, 19, 82, 47, 35। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "35"
+      },
+      {
+        "en": "19",
+        "as": "19"
+      },
+      {
+        "en": "66",
+        "as": "66"
+      },
+      {
+        "en": "82",
+        "as": "82"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 82 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 82 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-025",
+    "q": {
+      "en": "Input: 28, 75, 53, 91, 12. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 28, 75, 53, 91, 12। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "12"
+      },
+      {
+        "en": "75",
+        "as": "75"
+      },
+      {
+        "en": "53",
+        "as": "53"
+      },
+      {
+        "en": "28",
+        "as": "28"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ascending order is 12, 28, 53, 75, 91, so the third number is 53.",
+      "as": "ঊৰ্ধ্বক্ৰম 12, 28, 53, 75, 91, গতিকে তৃতীয় সংখ্যা 53।"
+    }
+  },
+  {
+    "id": "input-output-machine-026",
+    "q": {
+      "en": "Input: 84, 37, 61, 16, 72. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 84, 37, 61, 16, 72। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "84",
+        "as": "84"
+      },
+      {
+        "en": "61",
+        "as": "61"
+      },
+      {
+        "en": "72",
+        "as": "72"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Descending order is 84, 72, 61, 37, 16, so the third number is 61.",
+      "as": "অধঃক্ৰম 84, 72, 61, 37, 16, গতিকে তৃতীয় সংখ্যা 61।"
+    }
+  },
+  {
+    "id": "input-output-machine-027",
+    "q": {
+      "en": "Input: 50, 23, 95, 68, 41. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 50, 23, 95, 68, 41। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "73",
+        "as": "73"
+      },
+      {
+        "en": "91",
+        "as": "91"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "65",
+        "as": "65"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ascending order is 23, 41, 50, 68, 95, so the first two are 23 and 41, summing to 64.",
+      "as": "ঊৰ্ধ্বক্ৰম 23, 41, 50, 68, 95, গতিকে প্ৰথম দুটা 23 আৰু 41, যোগফল 64।"
+    }
+  },
+  {
+    "id": "input-output-machine-028",
+    "q": {
+      "en": "Input: 33, 86, 57, 20, 74. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 33, 86, 57, 20, 74। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "86",
+        "as": "86"
+      },
+      {
+        "en": "74",
+        "as": "74"
+      },
+      {
+        "en": "33",
+        "as": "33"
+      },
+      {
+        "en": "20",
+        "as": "20"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 86 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 86 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-029",
+    "q": {
+      "en": "Input: 69, 14, 48, 82, 31. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 69, 14, 48, 82, 31। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "31"
+      },
+      {
+        "en": "48",
+        "as": "48"
+      },
+      {
+        "en": "69",
+        "as": "69"
+      },
+      {
+        "en": "14",
+        "as": "14"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 14, 31, 48, 69, 82, so the third number is 48.",
+      "as": "ঊৰ্ধ্বক্ৰম 14, 31, 48, 69, 82, গতিকে তৃতীয় সংখ্যা 48।"
+    }
+  },
+  {
+    "id": "input-output-machine-030",
+    "q": {
+      "en": "Input: 22, 90, 65, 38, 77. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 22, 90, 65, 38, 77। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "77",
+        "as": "77"
+      },
+      {
+        "en": "65",
+        "as": "65"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      },
+      {
+        "en": "90",
+        "as": "90"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Descending order is 90, 77, 65, 38, 22, so the third number is 65.",
+      "as": "অধঃক্ৰম 90, 77, 65, 38, 22, গতিকে তৃতীয় সংখ্যা 65।"
+    }
+  },
+  {
+    "id": "input-output-machine-031",
+    "q": {
+      "en": "Input: 46, 81, 29, 73, 15. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 46, 81, 29, 73, 15। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "44",
+        "as": "44"
+      },
+      {
+        "en": "61",
+        "as": "61"
+      },
+      {
+        "en": "75",
+        "as": "75"
+      },
+      {
+        "en": "45",
+        "as": "45"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ascending order is 15, 29, 46, 73, 81, so the first two are 15 and 29, summing to 44.",
+      "as": "ঊৰ্ধ্বক্ৰম 15, 29, 46, 73, 81, গতিকে প্ৰথম দুটা 15 আৰু 29, যোগফল 44।"
+    }
+  },
+  {
+    "id": "input-output-machine-032",
+    "q": {
+      "en": "Input: 58, 35, 92, 24, 67. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 58, 35, 92, 24, 67। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "92",
+        "as": "92"
+      },
+      {
+        "en": "24",
+        "as": "24"
+      },
+      {
+        "en": "35",
+        "as": "35"
+      },
+      {
+        "en": "67",
+        "as": "67"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 92 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 92 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-033",
+    "q": {
+      "en": "Input: 31, 78, 54, 86, 19. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 31, 78, 54, 86, 19। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "19"
+      },
+      {
+        "en": "54",
+        "as": "54"
+      },
+      {
+        "en": "78",
+        "as": "78"
+      },
+      {
+        "en": "31",
+        "as": "31"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 19, 31, 54, 78, 86, so the third number is 54.",
+      "as": "ঊৰ্ধ্বক্ৰম 19, 31, 54, 78, 86, গতিকে তৃতীয় সংখ্যা 54।"
+    }
+  },
+  {
+    "id": "input-output-machine-034",
+    "q": {
+      "en": "Input: 64, 27, 89, 42, 75. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 64, 27, 89, 42, 75। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "75",
+        "as": "75"
+      },
+      {
+        "en": "89",
+        "as": "89"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Descending order is 89, 75, 64, 42, 27, so the third number is 64.",
+      "as": "অধঃক্ৰম 89, 75, 64, 42, 27, গতিকে তৃতীয় সংখ্যা 64।"
+    }
+  },
+  {
+    "id": "input-output-machine-035",
+    "q": {
+      "en": "Input: 85, 39, 62, 17, 50. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 85, 39, 62, 17, 50। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "56"
+      },
+      {
+        "en": "67",
+        "as": "67"
+      },
+      {
+        "en": "89",
+        "as": "89"
+      },
+      {
+        "en": "57",
+        "as": "57"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ascending order is 17, 39, 50, 62, 85, so the first two are 17 and 39, summing to 56.",
+      "as": "ঊৰ্ধ্বক্ৰম 17, 39, 50, 62, 85, গতিকে প্ৰথম দুটা 17 আৰু 39, যোগফল 56।"
+    }
+  },
+  {
+    "id": "input-output-machine-036",
+    "q": {
+      "en": "Input: 43, 96, 28, 71, 34. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 43, 96, 28, 71, 34। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "28"
+      },
+      {
+        "en": "34",
+        "as": "34"
+      },
+      {
+        "en": "71",
+        "as": "71"
+      },
+      {
+        "en": "96",
+        "as": "96"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 96 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 96 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-037",
+    "q": {
+      "en": "Input: 57, 20, 83, 46, 69. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 57, 20, 83, 46, 69। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "20"
+      },
+      {
+        "en": "57",
+        "as": "57"
+      },
+      {
+        "en": "69",
+        "as": "69"
+      },
+      {
+        "en": "46",
+        "as": "46"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 20, 46, 57, 69, 83, so the third number is 57.",
+      "as": "ঊৰ্ধ্বক্ৰম 20, 46, 57, 69, 83, গতিকে তৃতীয় সংখ্যা 57।"
+    }
+  },
+  {
+    "id": "input-output-machine-038",
+    "q": {
+      "en": "Input: 26, 73, 58, 91, 35. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 26, 73, 58, 91, 35। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "73",
+        "as": "73"
+      },
+      {
+        "en": "58",
+        "as": "58"
+      },
+      {
+        "en": "35",
+        "as": "35"
+      },
+      {
+        "en": "91",
+        "as": "91"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Descending order is 91, 73, 58, 35, 26, so the third number is 58.",
+      "as": "অধঃক্ৰম 91, 73, 58, 35, 26, গতিকে তৃতীয় সংখ্যা 58।"
+    }
+  },
+  {
+    "id": "input-output-machine-039",
+    "q": {
+      "en": "Input: 76, 41, 88, 23, 54. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 76, 41, 88, 23, 54। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "77",
+        "as": "77"
+      },
+      {
+        "en": "65",
+        "as": "65"
+      },
+      {
+        "en": "95",
+        "as": "95"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ascending order is 23, 41, 54, 76, 88, so the first two are 23 and 41, summing to 64.",
+      "as": "ঊৰ্ধ্বক্ৰম 23, 41, 54, 76, 88, গতিকে প্ৰথম দুটা 23 আৰু 41, যোগফল 64।"
+    }
+  },
+  {
+    "id": "input-output-machine-040",
+    "q": {
+      "en": "Input: 34, 69, 51, 92, 17. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 34, 69, 51, 92, 17। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "17"
+      },
+      {
+        "en": "34",
+        "as": "34"
+      },
+      {
+        "en": "92",
+        "as": "92"
+      },
+      {
+        "en": "69",
+        "as": "69"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 92 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 92 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-041",
+    "q": {
+      "en": "Input: 81, 48, 25, 64, 37. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 81, 48, 25, 64, 37। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "48",
+        "as": "48"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ascending order is 25, 37, 48, 64, 81, so the third number is 48.",
+      "as": "ঊৰ্ধ্বক্ৰম 25, 37, 48, 64, 81, গতিকে তৃতীয় সংখ্যা 48।"
+    }
+  },
+  {
+    "id": "input-output-machine-042",
+    "q": {
+      "en": "Input: 52, 95, 18, 73, 44. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 52, 95, 18, 73, 44। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "52"
+      },
+      {
+        "en": "44",
+        "as": "44"
+      },
+      {
+        "en": "95",
+        "as": "95"
+      },
+      {
+        "en": "73",
+        "as": "73"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Descending order is 95, 73, 52, 44, 18, so the third number is 52.",
+      "as": "অধঃক্ৰম 95, 73, 52, 44, 18, গতিকে তৃতীয় সংখ্যা 52।"
+    }
+  },
+  {
+    "id": "input-output-machine-043",
+    "q": {
+      "en": "Input: 29, 66, 84, 39, 57. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 29, 66, 84, 39, 57। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "68",
+        "as": "68"
+      },
+      {
+        "en": "96",
+        "as": "96"
+      },
+      {
+        "en": "86",
+        "as": "86"
+      },
+      {
+        "en": "69",
+        "as": "69"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ascending order is 29, 39, 57, 66, 84, so the first two are 29 and 39, summing to 68.",
+      "as": "ঊৰ্ধ্বক্ৰম 29, 39, 57, 66, 84, গতিকে প্ৰথম দুটা 29 আৰু 39, যোগফল 68।"
+    }
+  },
+  {
+    "id": "input-output-machine-044",
+    "q": {
+      "en": "Input: 63, 22, 90, 55, 31. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 63, 22, 90, 55, 31। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "63",
+        "as": "63"
+      },
+      {
+        "en": "22",
+        "as": "22"
+      },
+      {
+        "en": "90",
+        "as": "90"
+      },
+      {
+        "en": "31",
+        "as": "31"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 90 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 90 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-045",
+    "q": {
+      "en": "Input: 47, 74, 36, 88, 19. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 47, 74, 36, 88, 19। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "74",
+        "as": "74"
+      },
+      {
+        "en": "36",
+        "as": "36"
+      },
+      {
+        "en": "19",
+        "as": "19"
+      },
+      {
+        "en": "47",
+        "as": "47"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ascending order is 19, 36, 47, 74, 88, so the third number is 47.",
+      "as": "ঊৰ্ধ্বক্ৰম 19, 36, 47, 74, 88, গতিকে তৃতীয় সংখ্যা 47।"
+    }
+  },
+  {
+    "id": "input-output-machine-046",
+    "q": {
+      "en": "Input: 70, 25, 53, 91, 42. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 70, 25, 53, 91, 42। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "53",
+        "as": "53"
+      },
+      {
+        "en": "70",
+        "as": "70"
+      },
+      {
+        "en": "91",
+        "as": "91"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Descending order is 91, 70, 53, 42, 25, so the third number is 53.",
+      "as": "অধঃক্ৰম 91, 70, 53, 42, 25, গতিকে তৃতীয় সংখ্যা 53।"
+    }
+  },
+  {
+    "id": "input-output-machine-047",
+    "q": {
+      "en": "Input: 38, 82, 64, 27, 76. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 38, 82, 64, 27, 76। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "102",
+        "as": "102"
+      },
+      {
+        "en": "91",
+        "as": "91"
+      },
+      {
+        "en": "66",
+        "as": "66"
+      },
+      {
+        "en": "65",
+        "as": "65"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ascending order is 27, 38, 64, 76, 82, so the first two are 27 and 38, summing to 65.",
+      "as": "ঊৰ্ধ্বক্ৰম 27, 38, 64, 76, 82, গতিকে প্ৰথম দুটা 27 আৰু 38, যোগফল 65।"
+    }
+  },
+  {
+    "id": "input-output-machine-048",
+    "q": {
+      "en": "Input: 59, 31, 85, 44, 68. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 59, 31, 85, 44, 68। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "85",
+        "as": "85"
+      },
+      {
+        "en": "31",
+        "as": "31"
+      },
+      {
+        "en": "68",
+        "as": "68"
+      },
+      {
+        "en": "44",
+        "as": "44"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 85 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 85 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-049",
+    "q": {
+      "en": "Input: 44, 77, 26, 63, 91. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 44, 77, 26, 63, 91। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "77",
+        "as": "77"
+      },
+      {
+        "en": "63",
+        "as": "63"
+      },
+      {
+        "en": "26",
+        "as": "26"
+      },
+      {
+        "en": "44",
+        "as": "44"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 26, 44, 63, 77, 91, so the third number is 63.",
+      "as": "ঊৰ্ধ্বক্ৰম 26, 44, 63, 77, 91, গতিকে তৃতীয় সংখ্যা 63।"
+    }
+  },
+  {
+    "id": "input-output-machine-050",
+    "q": {
+      "en": "Input: 35, 88, 52, 19, 74. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 35, 88, 52, 19, 74। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "88",
+        "as": "88"
+      },
+      {
+        "en": "74",
+        "as": "74"
+      },
+      {
+        "en": "35",
+        "as": "35"
+      },
+      {
+        "en": "52",
+        "as": "52"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Descending order is 88, 74, 52, 35, 19, so the third number is 52.",
+      "as": "অধঃক্ৰম 88, 74, 52, 35, 19, গতিকে তৃতীয় সংখ্যা 52।"
+    }
+  },
+  {
+    "id": "input-output-machine-051",
+    "q": {
+      "en": "Input: 67, 24, 91, 43, 56. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 67, 24, 91, 43, 56। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "99",
+        "as": "99"
+      },
+      {
+        "en": "67",
+        "as": "67"
+      },
+      {
+        "en": "68",
+        "as": "68"
+      },
+      {
+        "en": "80",
+        "as": "80"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 24, 43, 56, 67, 91, so the first two are 24 and 43, summing to 67.",
+      "as": "ঊৰ্ধ্বক্ৰম 24, 43, 56, 67, 91, গতিকে প্ৰথম দুটা 24 আৰু 43, যোগফল 67।"
+    }
+  },
+  {
+    "id": "input-output-machine-052",
+    "q": {
+      "en": "Input: 30, 75, 48, 86, 21. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 30, 75, 48, 86, 21। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "86",
+        "as": "86"
+      },
+      {
+        "en": "21",
+        "as": "21"
+      },
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "75",
+        "as": "75"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 86 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 86 ডাঙৰেই থাকে।"
+    }
+  },
+  {
+    "id": "input-output-machine-053",
+    "q": {
+      "en": "Input: 92, 37, 64, 15, 79. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+      "as": "ইনপুট: 92, 37, 64, 15, 79। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "15",
+        "as": "15"
+      },
+      {
+        "en": "79",
+        "as": "79"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ascending order is 15, 37, 64, 79, 92, so the third number is 64.",
+      "as": "ঊৰ্ধ্বক্ৰম 15, 37, 64, 79, 92, গতিকে তৃতীয় সংখ্যা 64।"
+    }
+  },
+  {
+    "id": "input-output-machine-054",
+    "q": {
+      "en": "Input: 41, 68, 23, 90, 57. Step I arranges the numbers in descending order. Which number is third in Step I?",
+      "as": "ইনপুট: 41, 68, 23, 90, 57। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "90"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "57",
+        "as": "57"
+      },
+      {
+        "en": "68",
+        "as": "68"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Descending order is 90, 68, 57, 41, 23, so the third number is 57.",
+      "as": "অধঃক্ৰম 90, 68, 57, 41, 23, গতিকে তৃতীয় সংখ্যা 57।"
+    }
+  },
+  {
+    "id": "input-output-machine-055",
+    "q": {
+      "en": "Input: 53, 86, 39, 72, 25. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+      "as": "ইনপুট: 53, 86, 39, 72, 25। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "92",
+        "as": "92"
+      },
+      {
+        "en": "78",
+        "as": "78"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "65",
+        "as": "65"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ascending order is 25, 39, 53, 72, 86, so the first two are 25 and 39, summing to 64.",
+      "as": "ঊৰ্ধ্বক্ৰম 25, 39, 53, 72, 86, গতিকে প্ৰথম দুটা 25 আৰু 39, যোগফল 64।"
+    }
+  },
+  {
+    "id": "input-output-machine-056",
+    "q": {
+      "en": "Input: 62, 18, 94, 45, 70. Step I replaces each number by its square. Which number becomes the largest?",
+      "as": "ইনপুট: 62, 18, 94, 45, 70। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "18"
+      },
+      {
+        "en": "70",
+        "as": "70"
+      },
+      {
+        "en": "94",
+        "as": "94"
+      },
+      {
+        "en": "45",
+        "as": "45"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Squaring preserves order for positive numbers, so the largest number 94 stays the largest.",
+      "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 94 ডাঙৰেই থাকে।"
     }
   }
 ]

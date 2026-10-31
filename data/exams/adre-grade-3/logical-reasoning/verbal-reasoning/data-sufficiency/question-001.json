@@ -2,61 +2,1651 @@
   {
     "id": "data-sufficiency-001",
     "q": {
-      "en": "What is the value of x? I. x + 5 = 12. II. x is a prime number.",
-      "as": "x ৰ মান কিমান? I. x + 5 = 12। II. x এটা মৌলিক সংখ্যা।"
+      "en": "Question: What is the age of Ravi? Statement I: Ravi is 5 years older than his sister. Statement II: His sister is 10 years old. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the age of Ravi? বিবৃতি I: Ravi is 5 years older than his sister. বিবৃতি II: His sister is 10 years old. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
     },
     "options": [
       {
-        "en": "I alone is sufficient",
-        "as": "কেৱল I যথেষ্ট"
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
       },
       {
-        "en": "II alone is sufficient",
-        "as": "কেৱল II যথেষ্ট"
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
       },
       {
-        "en": "Both together are needed",
-        "as": "দুয়োটা একেলগে লাগে"
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
       },
       {
-        "en": "Both together are not sufficient",
-        "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
-      "en": "Statement I gives x = 7 on its own; statement II alone does not fix a single value. So I alone is sufficient.",
-      "as": "বিবৃতি I এ নিজেই x = 7 দিয়ে; বিবৃতি II এ অকলে এটা মান স্থিৰ নকৰে। গতিকে কেৱল I যথেষ্ট।"
+      "en": "I gives only the difference and II gives the sister's age; together Ravi is 15.",
+      "as": "I এ পাৰ্থক্য আৰু II এ ভনীৰ বয়স দিয়ে; একেলগে ৰবিৰ বয়স ১৫।"
     }
   },
   {
     "id": "data-sufficiency-002",
     "q": {
-      "en": "Is the number n even? I. n is divisible by 3. II. n is divisible by 6.",
-      "as": "n সংখ্যাটো যুগ্ম নে? I. n ৰ 3 ৰে বিভাজ্য। II. n ৰ 6 ৰে বিভাজ্য।"
+      "en": "Question: What is the two-digit number? Statement I: The sum of its digits is 9. Statement II: The digit in the tens place is 4. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the two-digit number? বিবৃতি I: The sum of its digits is 9. বিবৃতি II: The digit in the tens place is 4. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
     },
     "options": [
       {
-        "en": "I alone is sufficient",
-        "as": "কেৱল I যথেষ্ট"
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
       },
       {
-        "en": "II alone is sufficient",
-        "as": "কেৱল II যথেষ্ট"
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
       },
       {
-        "en": "Both together are needed",
-        "as": "দুয়োটা একেলগে লাগে"
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
       },
       {
-        "en": "Both together are not sufficient",
-        "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "A number divisible by 6 is always even, so statement II alone answers the question; statement I alone does not.",
-      "as": "6 ৰে বিভাজ্য সংখ্যা সদায় যুগ্ম, গতিকে বিবৃতি II এ অকলে উত্তৰ দিয়ে; বিবৃতি I এ অকলে নিদিয়ে।"
+      "en": "II fixes the tens digit and I fixes the sum, so the units digit is 5 and the number is 45.",
+      "as": "II এ দহকৰ স্থান আৰু I এ যোগফল নিৰ্ণয় কৰে, গতিকে সংখ্যাটো 45।"
+    }
+  },
+  {
+    "id": "data-sufficiency-003",
+    "q": {
+      "en": "Question: How many students are in the class? Statement I: The number of boys is 20. Statement II: The number of girls is 15. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many students are in the class? বিবৃতি I: The number of boys is 20. বিবৃতি II: The number of girls is 15. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives boys and II gives girls; together the total is 35.",
+      "as": "I এ ল'ৰা আৰু II এ ছোৱালীৰ সংখ্যা দিয়ে; একেলগে মুঠ 35।"
+    }
+  },
+  {
+    "id": "data-sufficiency-004",
+    "q": {
+      "en": "Question: What is the speed of the train? Statement I: It covers 240 km in 3 hours. Statement II: The train is 200 m long. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the speed of the train? বিবৃতি I: It covers 240 km in 3 hours. বিবৃতি II: The train is 200 m long. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "I alone gives speed = 240/3 = 80 km/h; II is irrelevant.",
+      "as": "I একেৱে গতি = 240/3 = 80 km/h দিয়ে; II অসম্পৰ্কীয়।"
+    }
+  },
+  {
+    "id": "data-sufficiency-005",
+    "q": {
+      "en": "Question: Is x greater than y? Statement I: x = 15. Statement II: y = 12. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Is x greater than y? বিবৃতি I: x = 15. বিবৃতি II: y = 12. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives x and II gives y; together x > y is decided.",
+      "as": "I এ x আৰু II এ y দিয়ে; একেলগে x > y নিৰ্ণয় হয়।"
+    }
+  },
+  {
+    "id": "data-sufficiency-006",
+    "q": {
+      "en": "Question: What is the area of the rectangle? Statement I: Its length is 10 cm. Statement II: Its breadth is 5 cm. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the area of the rectangle? বিবৃতি I: Its length is 10 cm. বিবৃতি II: Its breadth is 5 cm. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives length and II gives breadth; together area = 50 cm².",
+      "as": "I এ দীঘ আৰু II এ প্ৰস্থ দিয়ে; একেলগে কালি = 50 cm²।"
+    }
+  },
+  {
+    "id": "data-sufficiency-007",
+    "q": {
+      "en": "Question: What is the cost of one pen? Statement I: 5 pens cost Rs 100. Statement II: The cost of a notebook is Rs 30. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the cost of one pen? বিবৃতি I: 5 pens cost Rs 100. বিবৃতি II: The cost of a notebook is Rs 30. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I alone gives the pen price as Rs 20; II is unrelated.",
+      "as": "I একেৱে কলমৰ দাম ২০ টকা দিয়ে; II অসম্পৰ্কীয়।"
+    }
+  },
+  {
+    "id": "data-sufficiency-008",
+    "q": {
+      "en": "Question: In which year was Mohan born? Statement I: Mohan is 25 years old now. Statement II: The current year is 2024. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: In which year was Mohan born? বিবৃতি I: Mohan is 25 years old now. বিবৃতি II: The current year is 2024. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives the age and II gives the current year; together the birth year is 1999.",
+      "as": "I এ বয়স আৰু II এ চলিত বছৰ দিয়ে; একেলগে জন্মবৰ্ষ 1999।"
+    }
+  },
+  {
+    "id": "data-sufficiency-009",
+    "q": {
+      "en": "Question: What is the value of x? Statement I: x + y = 10. Statement II: y = 4. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the value of x? বিবৃতি I: x + y = 10. বিবৃতি II: y = 4. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "II gives y and then I gives x = 6.",
+      "as": "II এ y দিয়ে আৰু তাৰ পিছত I এ x = 6 দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-010",
+    "q": {
+      "en": "Question: How many brothers does Anil have? Statement I: Anil has 3 sisters. Statement II: Anil's only sister has 2 brothers. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many brothers does Anil have? বিবৃতি I: Anil has 3 sisters. বিবৃতি II: Anil's only sister has 2 brothers. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "II alone tells that the family has 2 boys, so Anil has 1 brother; I does not help.",
+      "as": "II একেৱে কয় যে পৰিয়ালত ২ জন ল'ৰা, গতিকে অনিলৰ ১ জন ভাই; I এ সহায় নকৰে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-011",
+    "q": {
+      "en": "Question: What is the perimeter of a square? Statement I: Its side is 7 cm. Statement II: Its area is 49 cm². Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the perimeter of a square? বিবৃতি I: Its side is 7 cm. বিবৃতি II: Its area is 49 cm². প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I alone gives perimeter = 28 cm; II also gives the side but I is sufficient by itself, so I alone answers it.",
+      "as": "I একেৱে পৰিসীমা = 28 cm দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-012",
+    "q": {
+      "en": "Question: Who is the tallest among A, B and C? Statement I: A is taller than B. Statement II: B is taller than C. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Who is the tallest among A, B and C? বিবৃতি I: A is taller than B. বিবৃতি II: B is taller than C. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Together A > B > C, so A is the tallest.",
+      "as": "একেলগে A > B > C, গতিকে A আটাইতকৈ ওখ।"
+    }
+  },
+  {
+    "id": "data-sufficiency-013",
+    "q": {
+      "en": "Question: What is the total marks of the student? Statement I: The student scored 60 in maths. Statement II: The student scored 70 in English. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the total marks of the student? বিবৃতি I: The student scored 60 in maths. বিবৃতি II: The student scored 70 in English. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives maths and II gives English; together the total is 130.",
+      "as": "I এ গণিত আৰু II এ ইংৰাজী দিয়ে; একেলগে মুঠ 130।"
+    }
+  },
+  {
+    "id": "data-sufficiency-014",
+    "q": {
+      "en": "Question: Is the number n even? Statement I: n is divisible by 4. Statement II: n is greater than 10. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Is the number n even? বিবৃতি I: n is divisible by 4. বিবৃতি II: n is greater than 10. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I alone tells that n is even; II does not decide parity.",
+      "as": "I একেৱে কয় যে n যুগ্ম; II এ নিৰ্ণয় নকৰে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-015",
+    "q": {
+      "en": "Question: What is the day on 1 January 2025? Statement I: 1 January 2024 was a Monday. Statement II: 2024 is a leap year. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the day on 1 January 2025? বিবৃতি I: 1 January 2024 was a Monday. বিবৃতি II: 2024 is a leap year. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "I gives the base day and II gives the number of days; together the day can be found.",
+      "as": "I এ আধাৰ দিন আৰু II এ দিনৰ সংখ্যা দিয়ে; একেলগে নিৰ্ণয় হয়।"
+    }
+  },
+  {
+    "id": "data-sufficiency-016",
+    "q": {
+      "en": "Question: How far is the school from Ravi's house? Statement I: Ravi walks to school in 20 minutes. Statement II: Ravi walks at 3 km/h. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How far is the school from Ravi's house? বিবৃতি I: Ravi walks to school in 20 minutes. বিবৃতি II: Ravi walks at 3 km/h. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives time and II gives speed; together distance = 1 km.",
+      "as": "I এ সময় আৰু II এ গতি দিয়ে; একেলগে দূৰত্ব = 1 km।"
+    }
+  },
+  {
+    "id": "data-sufficiency-017",
+    "q": {
+      "en": "Question: What is the total number of pages in the book? Statement I: Ravi read 50 pages. Statement II: Ravi read one-fourth of the book. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the total number of pages in the book? বিবৃতি I: Ravi read 50 pages. বিবৃতি II: Ravi read one-fourth of the book. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "II alone means 50 pages is one-fourth, so the book has 200 pages; I alone is not enough.",
+      "as": "II একেৱে কয় 50 পৃষ্ঠা চতুৰ্থাংশ, গতিকে মুঠ 200 পৃষ্ঠা।"
+    }
+  },
+  {
+    "id": "data-sufficiency-018",
+    "q": {
+      "en": "Question: What is the average of three numbers? Statement I: Their sum is 90. Statement II: One of them is 30. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the average of three numbers? বিবৃতি I: Their sum is 90. বিবৃতি II: One of them is 30. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I alone gives the average as 30; II is not needed.",
+      "as": "I একেৱে গড় 30 দিয়ে; II প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "data-sufficiency-019",
+    "q": {
+      "en": "Question: What is the volume of a cube? Statement I: Its total surface area is 54 cm². Statement II: Its diagonal is 3√3 cm. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the volume of a cube? বিবৃতি I: Its total surface area is 54 cm². বিবৃতি II: Its diagonal is 3√3 cm. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I alone gives side = 3 and volume = 27 cm³; I is sufficient.",
+      "as": "I একেৱে বাহু = 3 আৰু আয়তন = 27 cm³ দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-020",
+    "q": {
+      "en": "Question: How many runs did the batsman score? Statement I: He hit 5 fours and 3 sixes. Statement II: He also ran 20 singles. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many runs did the batsman score? বিবৃতি I: He hit 5 fours and 3 sixes. বিবৃতি II: He also ran 20 singles. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives 38 from boundaries and II adds 20, so the total is 58.",
+      "as": "I এ সীমাৰ পৰা 38 আৰু II এ 20 যোগ কৰে, মুঠ 58।"
+    }
+  },
+  {
+    "id": "data-sufficiency-021",
+    "q": {
+      "en": "Question: What is the cost of 10 kg of rice? Statement I: 1 kg of rice costs Rs 40. Statement II: 5 kg of rice costs Rs 200. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the cost of 10 kg of rice? বিবৃতি I: 1 kg of rice costs Rs 40. বিবৃতি II: 5 kg of rice costs Rs 200. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I alone gives Rs 400 for 10 kg; either alone works but I alone is sufficient.",
+      "as": "I একেৱে 10 kg ৰ বাবে ৪০০ টকা দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-022",
+    "q": {
+      "en": "Question: Is P older than Q? Statement I: P is 30 years old. Statement II: Q is 25 years old. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Is P older than Q? বিবৃতি I: P is 30 years old. বিবৃতি II: Q is 25 years old. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives P and II gives Q; together P is older.",
+      "as": "I এ P আৰু II এ Q দিয়ে; একেলগে P ডাঙৰ।"
+    }
+  },
+  {
+    "id": "data-sufficiency-023",
+    "q": {
+      "en": "Question: What is the sum of the first n natural numbers? Statement I: n = 10. Statement II: The numbers are consecutive. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the sum of the first n natural numbers? বিবৃতি I: n = 10. বিবৃতি II: The numbers are consecutive. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "I alone gives the sum as 55; II is already implied.",
+      "as": "I একেৱে যোগফল 55 দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-024",
+    "q": {
+      "en": "Question: What is the code for the word 'TREE'? Statement I: 'T' is coded as 20. Statement II: 'E' is coded as 5. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the code for the word 'TREE'? বিবৃতি I: 'T' is coded as 20. বিবৃতি II: 'E' is coded as 5. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "I gives T's code and II gives E's code; together the pattern can be applied, but a full coding rule is needed, so together they are sufficient only if the code is the alphabet position, which the pair confirms.",
+      "as": "I এ T আৰু II এ E ৰ সংকেত দিয়ে; একেলগে আৰ্হি প্ৰয়োগ কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "data-sufficiency-025",
+    "q": {
+      "en": "Question: How many children does Mr. Rao have? Statement I: He has 3 sons. Statement II: He has 2 daughters. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many children does Mr. Rao have? বিবৃতি I: He has 3 sons. বিবৃতি II: He has 2 daughters. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives sons and II gives daughters; together the total is 5.",
+      "as": "I এ পুত্ৰ আৰু II এ জীয়েক দিয়ে; একেলগে মুঠ 5।"
+    }
+  },
+  {
+    "id": "data-sufficiency-026",
+    "q": {
+      "en": "Question: What is the value of the expression a + b? Statement I: a = 7. Statement II: a − b = 3. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the value of the expression a + b? বিবৃতি I: a = 7. বিবৃতি II: a − b = 3. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives a and II gives b = 4, so a + b = 11.",
+      "as": "I এ a আৰু II এ b = 4 দিয়ে, গতিকে a + b = 11।"
+    }
+  },
+  {
+    "id": "data-sufficiency-027",
+    "q": {
+      "en": "Question: What is the height of the tower? Statement I: Its shadow is 20 m long. Statement II: The angle of elevation of the sun is 45°. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the height of the tower? বিবৃতি I: Its shadow is 20 m long. বিবৃতি II: The angle of elevation of the sun is 45°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives the shadow and II gives the angle; together height = shadow = 20 m.",
+      "as": "I এ ছাঁ আৰু II এ কোণ দিয়ে; একেলগে উচ্চতা = 20 m।"
+    }
+  },
+  {
+    "id": "data-sufficiency-028",
+    "q": {
+      "en": "Question: Which is the largest number among 12, 21 and 31? Statement I: All three are two-digit numbers. Statement II: 31 is the greatest of the three. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Which is the largest number among 12, 21 and 31? বিবৃতি I: All three are two-digit numbers. বিবৃতি II: 31 is the greatest of the three. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "II alone directly states the answer; I is not needed.",
+      "as": "II একেৱে পোনপটীয়াকৈ উত্তৰ দিয়ে; I প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "data-sufficiency-029",
+    "q": {
+      "en": "Question: What is the total surface area of a sphere? Statement I: Its radius is 7 cm. Statement II: Its volume is 1437.33 cm³. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the total surface area of a sphere? বিবৃতি I: Its radius is 7 cm. বিবৃতি II: Its volume is 1437.33 cm³. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "I alone gives surface area = 4πr² = 616 cm²; I alone is sufficient.",
+      "as": "I একেৱে পৃষ্ঠকালি = 4πr² = 616 cm² দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-030",
+    "q": {
+      "en": "Question: What is the present age of the father? Statement I: The father is 3 times as old as his son. Statement II: The son is 12 years old. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the present age of the father? বিবৃতি I: The father is 3 times as old as his son. বিবৃতি II: The son is 12 years old. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives the ratio and II gives the son's age; together the father is 36.",
+      "as": "I এ অনুপাত আৰু II এ পুত্ৰৰ বয়স দিয়ে; একেলগে দেউতা 36।"
+    }
+  },
+  {
+    "id": "data-sufficiency-031",
+    "q": {
+      "en": "Question: How many wickets did the bowler take? Statement I: He bowled 10 overs. Statement II: He gave away 45 runs and took 3 wickets. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many wickets did the bowler take? বিবৃতি I: He bowled 10 overs. বিবৃতি II: He gave away 45 runs and took 3 wickets. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "II alone states the number of wickets; I is not needed.",
+      "as": "II একেৱে উইকেটৰ সংখ্যা কয়; I প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "data-sufficiency-032",
+    "q": {
+      "en": "Question: What is the perimeter of the triangle? Statement I: Two of its sides are 5 cm and 7 cm. Statement II: The third side is 8 cm. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the perimeter of the triangle? বিবৃতি I: Two of its sides are 5 cm and 7 cm. বিবৃতি II: The third side is 8 cm. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives two sides and II gives the third; together the perimeter is 20 cm.",
+      "as": "I এ দুটা বাহু আৰু II এ তৃতীয়টো দিয়ে; একেলগে পৰিসীমা 20 cm।"
+    }
+  },
+  {
+    "id": "data-sufficiency-033",
+    "q": {
+      "en": "Question: Is the integer n divisible by 6? Statement I: n is divisible by 2. Statement II: n is divisible by 3. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Is the integer n divisible by 6? বিবৃতি I: n is divisible by 2. বিবৃতি II: n is divisible by 3. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Divisibility by both 2 and 3 makes it divisible by 6, so together they suffice.",
+      "as": "2 আৰু 3 দুয়োৰে দ্বাৰা বিভাজ্য হ'লে 6 ৰেও বিভাজ্য, গতিকে একেলগে যথেষ্ট।"
+    }
+  },
+  {
+    "id": "data-sufficiency-034",
+    "q": {
+      "en": "Question: What is the speed of the boat in still water? Statement I: The boat goes 12 km downstream in 2 hours. Statement II: The speed of the stream is 2 km/h. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the speed of the boat in still water? বিবৃতি I: The boat goes 12 km downstream in 2 hours. বিবৃতি II: The speed of the stream is 2 km/h. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives downstream speed 6 and II gives the stream speed, so still-water speed is 4.",
+      "as": "I এ অনুকূল গতি 6 আৰু II এ সোঁতৰ গতি দিয়ে, গতিকে স্থিৰ পানীৰ গতি 4।"
+    }
+  },
+  {
+    "id": "data-sufficiency-035",
+    "q": {
+      "en": "Question: How many oranges can be bought for Rs 100? Statement I: One orange costs Rs 5. Statement II: 10 oranges cost Rs 50. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many oranges can be bought for Rs 100? বিবৃতি I: One orange costs Rs 5. বিবৃতি II: 10 oranges cost Rs 50. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "I alone gives 20 oranges; either alone suffices and I alone is sufficient.",
+      "as": "I একেৱে 20 কমলা দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-036",
+    "q": {
+      "en": "Question: What is the value of x²? Statement I: x = 9. Statement II: x is a positive integer. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the value of x²? বিবৃতি I: x = 9. বিবৃতি II: x is a positive integer. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "I alone gives x² = 81; II is not needed.",
+      "as": "I একেৱে x² = 81 দিয়ে; II প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "data-sufficiency-037",
+    "q": {
+      "en": "Question: Who scored the highest marks? Statement I: A scored more than B. Statement II: C scored less than B. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Who scored the highest marks? বিবৃতি I: A scored more than B. বিবৃতি II: C scored less than B. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Together A > B > C, so A scored the highest.",
+      "as": "একেলগে A > B > C, গতিকে A আটাইতকৈ বেছি।"
+    }
+  },
+  {
+    "id": "data-sufficiency-038",
+    "q": {
+      "en": "Question: What is the compound interest for 2 years? Statement I: The principal is Rs 1000. Statement II: The rate is 10% per annum. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the compound interest for 2 years? বিবৃতি I: The principal is Rs 1000. বিবৃতি II: The rate is 10% per annum. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives principal and II gives rate; together the CI is Rs 210.",
+      "as": "I এ মূলধন আৰু II এ হাৰ দিয়ে; একেলগে চক্ৰবৃদ্ধি সুত ২১০ টকা।"
+    }
+  },
+  {
+    "id": "data-sufficiency-039",
+    "q": {
+      "en": "Question: Is the quadrilateral a parallelogram? Statement I: Its opposite sides are equal. Statement II: Its opposite angles are equal. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Is the quadrilateral a parallelogram? বিবৃতি I: Its opposite sides are equal. বিবৃতি II: Its opposite angles are equal. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Either condition alone defines a parallelogram, so I alone is sufficient.",
+      "as": "যিকোনো এটা চৰ্তই সামান্তৰিক নিৰ্ণয় কৰে, গতিকে I একেৱে যথেষ্ট।"
+    }
+  },
+  {
+    "id": "data-sufficiency-040",
+    "q": {
+      "en": "Question: What is the total distance travelled? Statement I: The car moved at 60 km/h. Statement II: The car travelled for 2 hours. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the total distance travelled? বিবৃতি I: The car moved at 60 km/h. বিবৃতি II: The car travelled for 2 hours. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives speed and II gives time; together distance = 120 km.",
+      "as": "I এ গতি আৰু II এ সময় দিয়ে; একেলগে দূৰত্ব = 120 km।"
+    }
+  },
+  {
+    "id": "data-sufficiency-041",
+    "q": {
+      "en": "Question: How many sides does the polygon have? Statement I: The sum of its interior angles is 720°. Statement II: Each exterior angle is 45°. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many sides does the polygon have? বিবৃতি I: The sum of its interior angles is 720°. বিবৃতি II: Each exterior angle is 45°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I alone gives n = 6; I alone is sufficient.",
+      "as": "I একেৱে n = 6 দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-042",
+    "q": {
+      "en": "Question: What is the average age of the team? Statement I: There are 11 players. Statement II: The total age of the players is 264 years. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the average age of the team? বিবৃতি I: There are 11 players. বিবৃতি II: The total age of the players is 264 years. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "II alone gives the average as 24; I is not needed.",
+      "as": "II একেৱে গড় 24 দিয়ে; I প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "data-sufficiency-043",
+    "q": {
+      "en": "Question: Is x a prime number? Statement I: x is an odd number greater than 1. Statement II: x has exactly two factors. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Is x a prime number? বিবৃতি I: x is an odd number greater than 1. বিবৃতি II: x has exactly two factors. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "II alone is the definition of a prime; I does not decide it.",
+      "as": "II একেৱে মৌলিক সংখ্যাৰ সংজ্ঞা; I এ নিৰ্ণয় নকৰে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-044",
+    "q": {
+      "en": "Question: What is the total profit? Statement I: The cost price is Rs 500. Statement II: The selling price is Rs 600. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the total profit? বিবৃতি I: The cost price is Rs 500. বিবৃতি II: The selling price is Rs 600. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives cost and II gives selling price; together the profit is Rs 100.",
+      "as": "I এ ক্ৰয়মূল্য আৰু II এ বিক্ৰয়মূল্য দিয়ে; একেলগে লাভ ১০০ টকা।"
+    }
+  },
+  {
+    "id": "data-sufficiency-045",
+    "q": {
+      "en": "Question: How many diagonals does the polygon have? Statement I: The polygon has 6 sides. Statement II: The polygon is regular. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many diagonals does the polygon have? বিবৃতি I: The polygon has 6 sides. বিবৃতি II: The polygon is regular. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I alone gives 9 diagonals; II is not needed.",
+      "as": "I একেৱে 9 কৰ্ণ দিয়ে; II প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "data-sufficiency-046",
+    "q": {
+      "en": "Question: What is the value of the angle? Statement I: The angle is twice its complement. Statement II: The angle is less than 90°. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the value of the angle? বিবৃতি I: The angle is twice its complement. বিবৃতি II: The angle is less than 90°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "I alone gives the angle as 60°; II is not needed.",
+      "as": "I একেৱে কোণ 60° দিয়ে; II প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "data-sufficiency-047",
+    "q": {
+      "en": "Question: What is the population of the town? Statement I: There are 2000 men. Statement II: There are 1800 women and 700 children. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the population of the town? বিবৃতি I: There are 2000 men. বিবৃতি II: There are 1800 women and 700 children. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "I gives men and II gives women and children; together the total is 4500.",
+      "as": "I এ পুৰুষ আৰু II এ মহিলা-শিশু দিয়ে; একেলগে মুঠ 4500।"
+    }
+  },
+  {
+    "id": "data-sufficiency-048",
+    "q": {
+      "en": "Question: Is the triangle right-angled? Statement I: Its sides are 6 cm, 8 cm and 10 cm. Statement II: Its largest angle is 90°. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: Is the triangle right-angled? বিবৃতি I: Its sides are 6 cm, 8 cm and 10 cm. বিবৃতি II: Its largest angle is 90°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I alone satisfies 6² + 8² = 10², so I alone is sufficient.",
+      "as": "I একেৱে 6² + 8² = 10² সিদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-049",
+    "q": {
+      "en": "Question: How many litres of water does the tank hold? Statement I: The tank is 2 m long and 1 m wide. Statement II: The depth of the tank is 1.5 m. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many litres of water does the tank hold? বিবৃতি I: The tank is 2 m long and 1 m wide. বিবৃতি II: The depth of the tank is 1.5 m. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I gives base area and II gives depth; together the volume is 3 m³ = 3000 litres.",
+      "as": "I এ ভূমি কালি আৰু II এ গভীৰতা দিয়ে; একেলগে আয়তন 3 m³ = 3000 লিটাৰ।"
+    }
+  },
+  {
+    "id": "data-sufficiency-050",
+    "q": {
+      "en": "Question: What is the total number of runs scored by the team? Statement I: The team scored 250 in the first innings. Statement II: The team scored 300 in the second innings. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the total number of runs scored by the team? বিবৃতি I: The team scored 250 in the first innings. বিবৃতি II: The team scored 300 in the second innings. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "I gives the first innings and II gives the second; together the total is 550.",
+      "as": "I এ প্ৰথম ইনিংছ আৰু II এ দ্বিতীয় দিয়ে; একেলগে মুঠ 550।"
+    }
+  },
+  {
+    "id": "data-sufficiency-051",
+    "q": {
+      "en": "Question: What is the value of 1/x? Statement I: x = 0.25. Statement II: 4x = 1. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the value of 1/x? বিবৃতি I: x = 0.25. বিবৃতি II: 4x = 1. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "I alone gives 1/x = 4; either works and I alone is sufficient.",
+      "as": "I একেৱে 1/x = 4 দিয়ে।"
+    }
+  },
+  {
+    "id": "data-sufficiency-052",
+    "q": {
+      "en": "Question: How many students passed the exam? Statement I: 60% of the students passed. Statement II: There were 50 students. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: How many students passed the exam? বিবৃতি I: 60% of the students passed. বিবৃতি II: There were 50 students. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "I gives the percentage and II gives the strength; together 30 passed.",
+      "as": "I এ শতাংশ আৰু II এ সংখ্যা দিয়ে; একেলগে 30 পাছ।"
+    }
+  },
+  {
+    "id": "data-sufficiency-053",
+    "q": {
+      "en": "Question: What is the difference between the two numbers? Statement I: Their sum is 100. Statement II: One number is 60. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the difference between the two numbers? বিবৃতি I: Their sum is 100. বিবৃতি II: One number is 60. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives the sum and II gives one number, so the other is 40 and the difference is 20.",
+      "as": "I এ যোগফল আৰু II এ এটা সংখ্যা দিয়ে, গতিকে পাৰ্থক্য 20।"
+    }
+  },
+  {
+    "id": "data-sufficiency-054",
+    "q": {
+      "en": "Question: What is the length of the train? Statement I: The train crosses a pole in 10 seconds. Statement II: The speed of the train is 20 m/s. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the length of the train? বিবৃতি I: The train crosses a pole in 10 seconds. বিবৃতি II: The speed of the train is 20 m/s. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "I gives time and II gives speed; together length = 200 m.",
+      "as": "I এ সময় আৰু II এ গতি দিয়ে; একেলগে দীঘ 200 m।"
+    }
+  },
+  {
+    "id": "data-sufficiency-055",
+    "q": {
+      "en": "Question: What is the simple interest? Statement I: The sum is Rs 2000. Statement II: The rate is 5% and the time is 3 years. Which statement is sufficient to answer the question?",
+      "as": "প্ৰশ্ন: What is the simple interest? বিবৃতি I: The sum is Rs 2000. বিবৃতি II: The rate is 5% and the time is 3 years. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Both statements together are sufficient",
+        "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+      },
+      {
+        "en": "Statement I alone is sufficient",
+        "as": "কেৱল বিবৃতি I যথেষ্ট"
+      },
+      {
+        "en": "Statement II alone is sufficient",
+        "as": "কেৱল বিবৃতি II যথেষ্ট"
+      },
+      {
+        "en": "Neither statement is sufficient",
+        "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "I gives the principal and II gives rate and time; together SI = Rs 300.",
+      "as": "I এ মূলধন আৰু II এ হাৰ-সময় দিয়ে; একেলগে সৰল সুত ৩০০ টকা।"
     }
   }
 ]

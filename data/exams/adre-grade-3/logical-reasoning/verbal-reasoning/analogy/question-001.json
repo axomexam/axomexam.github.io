@@ -2,121 +2,1651 @@
   {
     "id": "analogy-001",
     "q": {
-      "en": "Doctor : Hospital : : Teacher : ?",
-      "as": "ডাক্তৰ : চিকিৎসালয় : : শিক্ষক : ?"
+      "en": "Cow : Calf :: Dog : ?",
+      "as": "Cow : Calf :: Dog : ?"
     },
     "options": [
       {
-        "en": "Book",
-        "as": "কিতাপ"
+        "en": "Kitten",
+        "as": "মেকুৰী-পোৱালি"
+      },
+      {
+        "en": "Cub",
+        "as": "পোৱালি"
+      },
+      {
+        "en": "Puppy",
+        "as": "পাপী"
+      },
+      {
+        "en": "Foal",
+        "as": "ঘোঁৰাৰ পোৱালি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A calf is the young of a cow; the young of a dog is a puppy.",
+      "as": "গৰুৰ পোৱালি দমৰা; কুকুৰৰ পোৱালি পাপী।"
+    }
+  },
+  {
+    "id": "analogy-002",
+    "q": {
+      "en": "Cat : Kitten :: Hen : ?",
+      "as": "Cat : Kitten :: Hen : ?"
+    },
+    "options": [
+      {
+        "en": "Duckling",
+        "as": "হাঁহ-পোৱালি"
+      },
+      {
+        "en": "Cub",
+        "as": "পোৱালি"
+      },
+      {
+        "en": "Calf",
+        "as": "দমৰা"
+      },
+      {
+        "en": "Chick",
+        "as": "চৰাই-পোৱালি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A kitten is the young of a cat; the young of a hen is a chick.",
+      "as": "মেকুৰীৰ পোৱালি; কুকুৰাৰ পোৱালি চৰাই-পোৱালি।"
+    }
+  },
+  {
+    "id": "analogy-003",
+    "q": {
+      "en": "Man : Woman :: Boy : ?",
+      "as": "Man : Woman :: Boy : ?"
+    },
+    "options": [
+      {
+        "en": "Lady",
+        "as": "ভদ্ৰমহিলা"
+      },
+      {
+        "en": "Boy",
+        "as": "ল'ৰা"
+      },
+      {
+        "en": "Child",
+        "as": "শিশু"
+      },
+      {
+        "en": "Girl",
+        "as": "ছোৱালী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Woman is the female counterpart of man; the female of boy is girl.",
+      "as": "পুৰুষৰ নাৰী সমাৰ্থক; ল'ৰাৰ ছোৱালী।"
+    }
+  },
+  {
+    "id": "analogy-004",
+    "q": {
+      "en": "King : Queen :: Actor : ?",
+      "as": "King : Queen :: Actor : ?"
+    },
+    "options": [
+      {
+        "en": "Dancer",
+        "as": "নৃত্যশিল্পী"
+      },
+      {
+        "en": "Lady",
+        "as": "ভদ্ৰমহিলা"
+      },
+      {
+        "en": "Actress",
+        "as": "অভিনেত্ৰী"
+      },
+      {
+        "en": "Singer",
+        "as": "গায়ক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Queen is the female counterpart of king; actress is the female of actor.",
+      "as": "ৰজাৰ ৰাণী; অভিনেতাৰ অভিনেত্ৰী।"
+    }
+  },
+  {
+    "id": "analogy-005",
+    "q": {
+      "en": "Horse : Foal :: Sheep : ?",
+      "as": "Horse : Foal :: Sheep : ?"
+    },
+    "options": [
+      {
+        "en": "Kid",
+        "as": "ছাগলী-পোৱালি"
+      },
+      {
+        "en": "Puppy",
+        "as": "পাপী"
+      },
+      {
+        "en": "Lamb",
+        "as": "মেৰ"
+      },
+      {
+        "en": "Calf",
+        "as": "দমৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A foal is the young of a horse; a lamb is the young of a sheep.",
+      "as": "ঘোঁৰাৰ পোৱালি; ভেড়াৰ পোৱালি মেৰ।"
+    }
+  },
+  {
+    "id": "analogy-006",
+    "q": {
+      "en": "Nurse : Hospital :: Teacher : ?",
+      "as": "Nurse : Hospital :: Teacher : ?"
+    },
+    "options": [
+      {
+        "en": "Office",
+        "as": "কাৰ্যালয়"
       },
       {
         "en": "School",
         "as": "বিদ্যালয়"
       },
       {
-        "en": "Student",
-        "as": "শিক্ষাৰ্থী"
+        "en": "Library",
+        "as": "পুথিভঁৰাল"
       },
       {
-        "en": "Pen",
-        "as": "কলম"
+        "en": "Court",
+        "as": "আদালত"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "A doctor works in a hospital and a teacher works in a school.",
-      "as": "ডাক্তৰে চিকিৎসালয়ত কাম কৰে আৰু শিক্ষকে বিদ্যালয়ত কাম কৰে।"
+      "en": "A nurse works in a hospital; a teacher works in a school.",
+      "as": "নাৰ্ছে চিকিৎসালয়ত; শিক্ষকে বিদ্যালয়ত।"
     }
   },
   {
-    "id": "analogy-002",
+    "id": "analogy-007",
     "q": {
-      "en": "Pen : Write : : Knife : ?",
-      "as": "কলম : লিখা : : ছুৰী : ?"
+      "en": "Farmer : Field :: Clerk : ?",
+      "as": "Farmer : Field :: Clerk : ?"
     },
     "options": [
       {
-        "en": "Sharp",
-        "as": "তীক্ষ্ণ"
+        "en": "Court",
+        "as": "আদালত"
       },
+      {
+        "en": "Office",
+        "as": "কাৰ্যালয়"
+      },
+      {
+        "en": "Factory",
+        "as": "কাৰখানা"
+      },
+      {
+        "en": "School",
+        "as": "বিদ্যালয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A farmer works in a field; a clerk works in an office.",
+      "as": "কৃষকে পথাৰত; কেৰাণীয়ে কাৰ্যালয়ত।"
+    }
+  },
+  {
+    "id": "analogy-008",
+    "q": {
+      "en": "Pilot : Aeroplane :: Driver : ?",
+      "as": "Pilot : Aeroplane :: Driver : ?"
+    },
+    "options": [
+      {
+        "en": "Train",
+        "as": "ৰে'ল"
+      },
+      {
+        "en": "Bus",
+        "as": "বাছ"
+      },
+      {
+        "en": "Cycle",
+        "as": "চাইকেল"
+      },
+      {
+        "en": "Ship",
+        "as": "জাহাজ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A pilot operates an aeroplane; a driver operates a bus.",
+      "as": "পাইলটে বিমান; চালকে বাছ।"
+    }
+  },
+  {
+    "id": "analogy-009",
+    "q": {
+      "en": "Chalk : Write :: Knife : ?",
+      "as": "Chalk : Write :: Knife : ?"
+    },
+    "options": [
+      {
+        "en": "Sharpen",
+        "as": "চোকা কৰা"
+      },
+      {
+        "en": "Peel",
+        "as": "বাকলি এৰোৱা"
+      },
+      {
+        "en": "Break",
+        "as": "ভঙা"
+      },
+      {
+        "en": "Cut",
+        "as": "কটা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chalk is used to write; a knife is used to cut.",
+      "as": "খৰি লিখিবলৈ; কটাৰী কাটিবলৈ।"
+    }
+  },
+  {
+    "id": "analogy-010",
+    "q": {
+      "en": "Needle : Sew :: Axe : ?",
+      "as": "Needle : Sew :: Axe : ?"
+    },
+    "options": [
       {
         "en": "Cut",
         "as": "কটা"
       },
       {
-        "en": "Metal",
-        "as": "ধাতু"
+        "en": "Dig",
+        "as": "খন্দা"
       },
       {
-        "en": "Kitchen",
-        "as": "পাকঘৰ"
+        "en": "Hammer",
+        "as": "হাতুৰী"
+      },
+      {
+        "en": "Chop",
+        "as": "কাটিব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A needle is used to sew; an axe is used to chop.",
+      "as": "বেজী চিলাবলৈ; কুৰালি কাটিবলৈ।"
+    }
+  },
+  {
+    "id": "analogy-011",
+    "q": {
+      "en": "Sword : Warrior :: Pen : ?",
+      "as": "Sword : Warrior :: Pen : ?"
+    },
+    "options": [
+      {
+        "en": "Writer",
+        "as": "লেখক"
+      },
+      {
+        "en": "Poet",
+        "as": "কবি"
+      },
+      {
+        "en": "Artist",
+        "as": "শিল্পী"
+      },
+      {
+        "en": "Teacher",
+        "as": "শিক্ষক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A sword is the tool of a warrior; a pen is the tool of a writer.",
+      "as": "তৰোৱাল যোদ্ধাৰ; কলম লেখকৰ।"
+    }
+  },
+  {
+    "id": "analogy-012",
+    "q": {
+      "en": "Stethoscope : Doctor :: Microscope : ?",
+      "as": "Stethoscope : Doctor :: Microscope : ?"
+    },
+    "options": [
+      {
+        "en": "Engineer",
+        "as": "ইঞ্জিনিয়াৰ"
+      },
+      {
+        "en": "Farmer",
+        "as": "কৃষক"
+      },
+      {
+        "en": "Scientist",
+        "as": "বিজ্ঞানী"
+      },
+      {
+        "en": "Teacher",
+        "as": "শিক্ষক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A stethoscope is used by a doctor; a microscope is used by a scientist.",
+      "as": "ষ্টেথ'স্কোপ ডাক্তৰৰ; মাইক্ৰস্কোপ বিজ্ঞানীৰ।"
+    }
+  },
+  {
+    "id": "analogy-013",
+    "q": {
+      "en": "Fish : Water :: Bird : ?",
+      "as": "Fish : Water :: Bird : ?"
+    },
+    "options": [
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Sky",
+        "as": "আকাশ"
+      },
+      {
+        "en": "Cage",
+        "as": "সাঁচ/খাঁচা"
+      },
+      {
+        "en": "Tree",
+        "as": "গছ"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "A pen is used to write and a knife is used to cut.",
-      "as": "কলম লিখিবলৈ ব্যৱহাৰ কৰা হয় আৰু ছুৰী কাটিবলৈ ব্যৱহাৰ কৰা হয়।"
+      "en": "A fish lives in water; a bird lives in the sky.",
+      "as": "মাছে পানীত; চৰাইয়ে আকাশত।"
     }
   },
   {
-    "id": "analogy-003",
+    "id": "analogy-014",
     "q": {
-      "en": "Bird : Fly : : Fish : ?",
-      "as": "চৰাই : উৰা : : মাছ : ?"
+      "en": "Lion : Den :: Bee : ?",
+      "as": "Lion : Den :: Bee : ?"
     },
     "options": [
       {
-        "en": "Swim",
-        "as": "সাঁতোৰা"
+        "en": "Hive",
+        "as": "মৌচাক"
       },
       {
-        "en": "Walk",
-        "as": "খোজ কঢ়া"
+        "en": "Burrow",
+        "as": "গাঁত"
       },
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Web",
+        "as": "জাল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A lion lives in a den; a bee lives in a hive.",
+      "as": "সিংহে গুহাত; মাখিয়ে মৌচাকত।"
+    }
+  },
+  {
+    "id": "analogy-015",
+    "q": {
+      "en": "Bird : Nest :: Spider : ?",
+      "as": "Bird : Nest :: Spider : ?"
+    },
+    "options": [
+      {
+        "en": "Web",
+        "as": "জাল"
+      },
+      {
+        "en": "Hive",
+        "as": "মৌচাক"
+      },
+      {
+        "en": "Burrow",
+        "as": "গাঁত"
+      },
+      {
+        "en": "Den",
+        "as": "গুহা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A bird lives in a nest; a spider lives in a web.",
+      "as": "চৰাইয়ে বাহত; মকৰাই জালত।"
+    }
+  },
+  {
+    "id": "analogy-016",
+    "q": {
+      "en": "Cow : Shed :: Horse : ?",
+      "as": "Cow : Shed :: Horse : ?"
+    },
+    "options": [
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Den",
+        "as": "গুহা"
+      },
+      {
+        "en": "Stable",
+        "as": "আস্তাবল"
+      },
+      {
+        "en": "Kennel",
+        "as": "কুকুৰৰ ঘৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A cow is kept in a shed; a horse is kept in a stable.",
+      "as": "গৰু গোৱালত; ঘোঁৰা আস্তাবলত।"
+    }
+  },
+  {
+    "id": "analogy-017",
+    "q": {
+      "en": "Warm : Cool :: Day : ?",
+      "as": "Warm : Cool :: Day : ?"
+    },
+    "options": [
+      {
+        "en": "Noon",
+        "as": "দুপৰীয়া"
+      },
+      {
+        "en": "Night",
+        "as": "ৰাতি"
+      },
+      {
+        "en": "Dusk",
+        "as": "গধূলি"
+      },
+      {
+        "en": "Evening",
+        "as": "আবেলি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Warm is the opposite of cool; day is the opposite of night.",
+      "as": "গৰম-শীতল বিপৰীত; দিন-ৰাতি বিপৰীত।"
+    }
+  },
+  {
+    "id": "analogy-018",
+    "q": {
+      "en": "Big : Small :: Tall : ?",
+      "as": "Big : Small :: Tall : ?"
+    },
+    "options": [
+      {
+        "en": "Deep",
+        "as": "Deep"
+      },
+      {
+        "en": "Short",
+        "as": "চাপৰ"
+      },
+      {
+        "en": "Wide",
+        "as": "প্ৰশস্ত"
+      },
+      {
+        "en": "Long",
+        "as": "দীঘল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Big and small are opposites; tall and short are opposites.",
+      "as": "ডাঙৰ-সৰু; ওখ-চাপৰ।"
+    }
+  },
+  {
+    "id": "analogy-019",
+    "q": {
+      "en": "Ancient : Modern :: Old : ?",
+      "as": "Ancient : Modern :: Old : ?"
+    },
+    "options": [
+      {
+        "en": "New",
+        "as": "নতুন"
+      },
+      {
+        "en": "Recent",
+        "as": "শেহতীয়া"
+      },
+      {
+        "en": "Young",
+        "as": "সৰু"
+      },
+      {
+        "en": "Fresh",
+        "as": "সতেজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ancient is the opposite of modern; old is the opposite of new.",
+      "as": "প্ৰাচীন-আধুনিক; পুৰণি-নতুন।"
+    }
+  },
+  {
+    "id": "analogy-020",
+    "q": {
+      "en": "Brave : Coward :: Truth : ?",
+      "as": "Brave : Coward :: Truth : ?"
+    },
+    "options": [
+      {
+        "en": "Lie",
+        "as": "মিছা"
+      },
+      {
+        "en": "Doubt",
+        "as": "সন্দেহ"
+      },
+      {
+        "en": "False",
+        "as": "অসত্য"
+      },
+      {
+        "en": "Error",
+        "as": "ভুল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Brave and coward are opposites; truth and lie are opposites.",
+      "as": "সাহসী-কাপুৰুষ; সত্য-মিছা।"
+    }
+  },
+  {
+    "id": "analogy-021",
+    "q": {
+      "en": "Grief : Joy :: War : ?",
+      "as": "Grief : Joy :: War : ?"
+    },
+    "options": [
+      {
+        "en": "Battle",
+        "as": "যুদ্ধ"
+      },
+      {
+        "en": "Peace",
+        "as": "শান্তি"
+      },
+      {
+        "en": "Victory",
+        "as": "বিজয়"
+      },
+      {
+        "en": "Treaty",
+        "as": "সন্ধি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Grief is the opposite of joy; war is the opposite of peace.",
+      "as": "শোক-আনন্দ; যুদ্ধ-শান্তি।"
+    }
+  },
+  {
+    "id": "analogy-022",
+    "q": {
+      "en": "Poverty : Wealth :: Sorrow : ?",
+      "as": "Poverty : Wealth :: Sorrow : ?"
+    },
+    "options": [
+      {
+        "en": "Happiness",
+        "as": "সুখ"
+      },
+      {
+        "en": "Pain",
+        "as": "বিষ"
+      },
+      {
+        "en": "Fear",
+        "as": "ভয়"
+      },
+      {
+        "en": "Anger",
+        "as": "খং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Poverty is the opposite of wealth; sorrow is the opposite of happiness.",
+      "as": "দাৰিদ্ৰ্য-সম্পদ; দুখ-সুখ।"
+    }
+  },
+  {
+    "id": "analogy-023",
+    "q": {
+      "en": "Eye : See :: Ear : ?",
+      "as": "Eye : See :: Ear : ?"
+    },
+    "options": [
+      {
+        "en": "Speak",
+        "as": "কথা কোৱা"
+      },
+      {
+        "en": "Touch",
+        "as": "স্পৰ্শ"
+      },
+      {
+        "en": "Hear",
+        "as": "শুনা"
+      },
+      {
+        "en": "Smell",
+        "as": "গোন্ধ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An eye is used to see; an ear is used to hear.",
+      "as": "চকুৱে দেখে; কাণে শুনে।"
+    }
+  },
+  {
+    "id": "analogy-024",
+    "q": {
+      "en": "Nose : Smell :: Tongue : ?",
+      "as": "Nose : Smell :: Tongue : ?"
+    },
+    "options": [
+      {
+        "en": "Chew",
+        "as": "চোবোৱা"
+      },
+      {
+        "en": "Speak",
+        "as": "কথা কোৱা"
+      },
+      {
+        "en": "Breathe",
+        "as": "উশাহ লোৱা"
+      },
+      {
+        "en": "Taste",
+        "as": "সোৱাদ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A nose is used to smell; a tongue is used to taste.",
+      "as": "নাকে গোন্ধ; জিভাই সোৱাদ।"
+    }
+  },
+  {
+    "id": "analogy-025",
+    "q": {
+      "en": "Skin : Touch :: Hand : ?",
+      "as": "Skin : Touch :: Hand : ?"
+    },
+    "options": [
+      {
+        "en": "Hold",
+        "as": "ধৰা"
+      },
+      {
+        "en": "Clap",
+        "as": "তালি দিয়া"
+      },
+      {
+        "en": "Wave",
+        "as": "ঢৌ"
+      },
+      {
+        "en": "Point",
+        "as": "বিন্দু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Skin senses touch; a hand holds objects.",
+      "as": "ছালে স্পৰ্শ; হাতে ধৰে।"
+    }
+  },
+  {
+    "id": "analogy-026",
+    "q": {
+      "en": "Sun : Day :: Moon : ?",
+      "as": "Sun : Day :: Moon : ?"
+    },
+    "options": [
+      {
+        "en": "Morning",
+        "as": "ৰাতিপুৱা"
+      },
+      {
+        "en": "Dawn",
+        "as": "পুৱা"
+      },
+      {
+        "en": "Night",
+        "as": "ৰাতি"
+      },
+      {
+        "en": "Evening",
+        "as": "আবেলি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sun rules the day; the moon rules the night.",
+      "as": "সূৰ্যই দিন; চন্দ্ৰই ৰাতি।"
+    }
+  },
+  {
+    "id": "analogy-027",
+    "q": {
+      "en": "Tree : Wood :: Sheep : ?",
+      "as": "Tree : Wood :: Sheep : ?"
+    },
+    "options": [
+      {
+        "en": "Cotton",
+        "as": "কপাহ"
+      },
+      {
+        "en": "Wool",
+        "as": "ঊণ"
+      },
+      {
+        "en": "Leather",
+        "as": "চামৰা"
+      },
+      {
+        "en": "Silk",
+        "as": "ৰেচম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Wood comes from a tree; wool comes from a sheep.",
+      "as": "কাঠ গছৰ পৰা; ঊণ ভেড়াৰ পৰা।"
+    }
+  },
+  {
+    "id": "analogy-028",
+    "q": {
+      "en": "Milk : Cow :: Egg : ?",
+      "as": "Milk : Cow :: Egg : ?"
+    },
+    "options": [
+      {
+        "en": "Duck",
+        "as": "হাঁহ"
+      },
+      {
+        "en": "Goat",
+        "as": "ছাগলী"
+      },
+      {
+        "en": "Hen",
+        "as": "কুকুৰা"
+      },
+      {
+        "en": "Fish",
+        "as": "মাছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Milk comes from a cow; an egg comes from a hen.",
+      "as": "গাখীৰ গৰুৰ; কণী কুকুৰাৰ।"
+    }
+  },
+  {
+    "id": "analogy-029",
+    "q": {
+      "en": "Silk : Silkworm :: Pearl : ?",
+      "as": "Silk : Silkworm :: Pearl : ?"
+    },
+    "options": [
+      {
+        "en": "Oyster",
+        "as": "সীপ"
+      },
+      {
+        "en": "Coral",
+        "as": "প্ৰৱাল"
+      },
+      {
+        "en": "Fish",
+        "as": "মাছ"
+      },
+      {
+        "en": "Shell",
+        "as": "শামুকৰ খোলা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Silk comes from the silkworm; a pearl comes from an oyster.",
+      "as": "ৰেচম পলুৰ; মুকুতা সীপৰ।"
+    }
+  },
+  {
+    "id": "analogy-030",
+    "q": {
+      "en": "Flour : Wheat :: Sugar : ?",
+      "as": "Flour : Wheat :: Sugar : ?"
+    },
+    "options": [
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      },
+      {
+        "en": "Barley",
+        "as": "বাৰ্লি"
+      },
+      {
+        "en": "Rice",
+        "as": "চাউল"
+      },
+      {
+        "en": "Sugarcane",
+        "as": "কুঁহিয়াৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Flour is made from wheat; sugar is made from sugarcane.",
+      "as": "আটা ঘেঁহুৰ; চেনি কুঁহিয়াৰৰ।"
+    }
+  },
+  {
+    "id": "analogy-031",
+    "q": {
+      "en": "Butter : Milk :: Petrol : ?",
+      "as": "Butter : Milk :: Petrol : ?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Diesel",
+        "as": "ডিজেল"
+      },
+      {
+        "en": "Crude oil",
+        "as": "অশোধিত তেল"
+      },
+      {
+        "en": "Kerosene",
+        "as": "কেৰাচিন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Butter is made from milk; petrol is made from crude oil.",
+      "as": "মাখন গাখীৰৰ; পেট্ৰ'ল অশোধিত তেলৰ।"
+    }
+  },
+  {
+    "id": "analogy-032",
+    "q": {
+      "en": "Book : Chapter :: Building : ?",
+      "as": "Book : Chapter :: Building : ?"
+    },
+    "options": [
+      {
+        "en": "Wall",
+        "as": "বেৰ"
+      },
+      {
+        "en": "Room",
+        "as": "কোঠা"
+      },
+      {
+        "en": "Floor",
+        "as": "মজিয়া"
+      },
+      {
+        "en": "Window",
+        "as": "খিৰিকী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A book is divided into chapters; a building into floors.",
+      "as": "কিতাপ অধ্যায়ত; ভৱন মহলাত।"
+    }
+  },
+  {
+    "id": "analogy-033",
+    "q": {
+      "en": "Army : Soldier :: Team : ?",
+      "as": "Army : Soldier :: Team : ?"
+    },
+    "options": [
+      {
+        "en": "Captain",
+        "as": "অধিনায়ক"
+      },
+      {
+        "en": "Player",
+        "as": "খেলুৱৈ"
+      },
+      {
+        "en": "Ground",
+        "as": "খেলপথাৰ"
+      },
+      {
+        "en": "Match",
+        "as": "মিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An army is made of soldiers; a team is made of players.",
+      "as": "সেনা সৈনিকৰ; দল খেলুৱৈৰ।"
+    }
+  },
+  {
+    "id": "analogy-034",
+    "q": {
+      "en": "Class : Student :: Crowd : ?",
+      "as": "Class : Student :: Crowd : ?"
+    },
+    "options": [
+      {
+        "en": "Noise",
+        "as": "শব্দ"
+      },
+      {
+        "en": "Place",
+        "as": "স্থান"
+      },
+      {
+        "en": "Leader",
+        "as": "নেতা"
+      },
+      {
+        "en": "People",
+        "as": "মানুহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A class is a group of students; a crowd is a group of people.",
+      "as": "শ্ৰেণী ছাত্ৰৰ; ভিৰ মানুহৰ।"
+    }
+  },
+  {
+    "id": "analogy-035",
+    "q": {
+      "en": "Bouquet : Flowers :: Crowd : ?",
+      "as": "Bouquet : Flowers :: Crowd : ?"
+    },
+    "options": [
+      {
+        "en": "Market",
+        "as": "বজাৰ"
+      },
+      {
+        "en": "People",
+        "as": "মানুহ"
+      },
+      {
+        "en": "Bunch",
+        "as": "গোছা"
+      },
+      {
+        "en": "Garden",
+        "as": "বাগিচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A bouquet is a collection of flowers; a crowd is a collection of people.",
+      "as": "পুষ্পস্তৱক ফুলৰ; ভিৰ মানুহৰ।"
+    }
+  },
+  {
+    "id": "analogy-036",
+    "q": {
+      "en": "Calf : Cow :: Puppy : ?",
+      "as": "Calf : Cow :: Puppy : ?"
+    },
+    "options": [
+      {
+        "en": "Cat",
+        "as": "মেকুৰী"
+      },
+      {
+        "en": "Goat",
+        "as": "ছাগলী"
+      },
+      {
+        "en": "Dog",
+        "as": "কুকুৰ"
+      },
+      {
+        "en": "Deer",
+        "as": "হৰিণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A calf belongs to a cow; a puppy belongs to a dog.",
+      "as": "দমৰা গৰুৰ; পাপী কুকুৰৰ।"
+    }
+  },
+  {
+    "id": "analogy-037",
+    "q": {
+      "en": "Clock : Time :: Thermometer : ?",
+      "as": "Clock : Time :: Thermometer : ?"
+    },
+    "options": [
+      {
+        "en": "Rain",
+        "as": "বৰষুণ"
+      },
+      {
+        "en": "Temperature",
+        "as": "উষ্ণতা"
+      },
+      {
+        "en": "Humidity",
+        "as": "আৰ্দ্ৰতা"
+      },
+      {
+        "en": "Weather",
+        "as": "বতৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A clock measures time; a thermometer measures temperature.",
+      "as": "ঘড়ীয়ে সময়; থাৰ্ম'মিটাৰে উষ্ণতা।"
+    }
+  },
+  {
+    "id": "analogy-038",
+    "q": {
+      "en": "Barometer : Pressure :: Speedometer : ?",
+      "as": "Barometer : Pressure :: Speedometer : ?"
+    },
+    "options": [
+      {
+        "en": "Fuel",
+        "as": "ইন্ধন"
+      },
+      {
+        "en": "Distance",
+        "as": "দূৰত্ব"
+      },
+      {
+        "en": "Time",
+        "as": "সময়"
+      },
+      {
+        "en": "Speed",
+        "as": "গতি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A barometer measures pressure; a speedometer measures speed.",
+      "as": "বেৰ'মিটাৰে চাপ; স্পিড'মিটাৰে গতি।"
+    }
+  },
+  {
+    "id": "analogy-039",
+    "q": {
+      "en": "Ammeter : Current :: Odometer : ?",
+      "as": "Ammeter : Current :: Odometer : ?"
+    },
+    "options": [
+      {
+        "en": "Distance",
+        "as": "দূৰত্ব"
+      },
+      {
+        "en": "Pressure",
+        "as": "চাপ"
+      },
+      {
+        "en": "Speed",
+        "as": "গতি"
+      },
+      {
+        "en": "Time",
+        "as": "সময়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An ammeter measures current; an odometer measures distance.",
+      "as": "এমিটাৰে প্ৰবাহ; অ'ড'মিটাৰে দূৰত্ব।"
+    }
+  },
+  {
+    "id": "analogy-040",
+    "q": {
+      "en": "Atheist : God :: Blind : ?",
+      "as": "Atheist : God :: Blind : ?"
+    },
+    "options": [
+      {
+        "en": "Eye",
+        "as": "চকু"
+      },
+      {
+        "en": "Light",
+        "as": "পোহৰ"
+      },
+      {
+        "en": "Sight",
+        "as": "দৃষ্টি"
+      },
+      {
+        "en": "Colour",
+        "as": "ৰং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An atheist does not believe in God; a blind person lacks sight.",
+      "as": "নাস্তিকে ঈশ্বৰত বিশ্বাস নকৰে; অন্ধৰ দৃষ্টি নাই।"
+    }
+  },
+  {
+    "id": "analogy-041",
+    "q": {
+      "en": "Illiterate : Education :: Orphan : ?",
+      "as": "Illiterate : Education :: Orphan : ?"
+    },
+    "options": [
+      {
+        "en": "Friends",
+        "as": "বন্ধু"
+      },
+      {
+        "en": "Home",
+        "as": "ঘৰ"
+      },
+      {
+        "en": "Parents",
+        "as": "পিতৃ-মাতৃ"
+      },
+      {
+        "en": "Money",
+        "as": "ধন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An illiterate person lacks education; an orphan lacks parents.",
+      "as": "নিৰক্ষৰৰ শিক্ষা নাই; অনাথৰ পিতৃ-মাতৃ নাই।"
+    }
+  },
+  {
+    "id": "analogy-042",
+    "q": {
+      "en": "Doctor : Patient :: Lawyer : ?",
+      "as": "Doctor : Patient :: Lawyer : ?"
+    },
+    "options": [
+      {
+        "en": "Court",
+        "as": "আদালত"
+      },
+      {
+        "en": "Judge",
+        "as": "বিচাৰক"
+      },
+      {
+        "en": "Client",
+        "as": "গ্ৰাহক"
+      },
+      {
+        "en": "Case",
+        "as": "গোচৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A doctor treats a patient; a lawyer advises a client.",
+      "as": "ডাক্তৰে ৰোগীক; ওকালতিয়ে গ্ৰাহকক।"
+    }
+  },
+  {
+    "id": "analogy-043",
+    "q": {
+      "en": "Teacher : Student :: Coach : ?",
+      "as": "Teacher : Student :: Coach : ?"
+    },
+    "options": [
+      {
+        "en": "Ground",
+        "as": "খেলপথাৰ"
+      },
+      {
+        "en": "Trainee",
+        "as": "প্ৰশিক্ষাৰ্থী"
+      },
+      {
+        "en": "Player",
+        "as": "খেলুৱৈ"
+      },
+      {
+        "en": "Match",
+        "as": "মিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A teacher teaches a student; a coach trains a trainee.",
+      "as": "শিক্ষকে ছাত্ৰক; প্ৰশিক্ষকে প্ৰশিক্ষাৰ্থীক।"
+    }
+  },
+  {
+    "id": "analogy-044",
+    "q": {
+      "en": "Bird : Fly :: Fish : ?",
+      "as": "Bird : Fly :: Fish : ?"
+    },
+    "options": [
       {
         "en": "Run",
         "as": "দৌৰা"
       },
       {
+        "en": "Swim",
+        "as": "সাঁতুৰা"
+      },
+      {
         "en": "Jump",
-        "as": "জপিওৱা"
+        "as": "জঁপিয়াই"
+      },
+      {
+        "en": "Crawl",
+        "as": "বাগৰি চলা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
-      "en": "A bird flies and a fish swims.",
-      "as": "চৰাই উৰে আৰু মাছে সাঁতোৰে।"
+      "en": "A bird flies; a fish swims.",
+      "as": "চৰাইয়ে উৰে; মাছে সাঁতুৰে।"
     }
   },
   {
-    "id": "analogy-004",
+    "id": "analogy-045",
     "q": {
-      "en": "Cow : Calf : : Dog : ?",
-      "as": "গাই : পোৱালী : : কুকুৰ : ?"
+      "en": "Kangaroo : Hop :: Snake : ?",
+      "as": "Kangaroo : Hop :: Snake : ?"
     },
     "options": [
       {
-        "en": "Puppy",
-        "as": "কুকুৰৰ পোৱালী"
+        "en": "Fly",
+        "as": "উৰা"
       },
       {
-        "en": "Kitten",
-        "as": "মেকুৰীৰ পোৱালী"
+        "en": "Swim",
+        "as": "সাঁতুৰা"
       },
       {
-        "en": "Cub",
-        "as": "জন্তুৰ পোৱালী"
+        "en": "Crawl",
+        "as": "বাগৰি চলা"
       },
       {
-        "en": "Chick",
-        "as": "চৰাইৰ পোৱালী"
+        "en": "Run",
+        "as": "দৌৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A kangaroo hops; a snake crawls.",
+      "as": "কাংগাৰুৱে জঁপিয়াই; সাপে বাগৰি।"
+    }
+  },
+  {
+    "id": "analogy-046",
+    "q": {
+      "en": "Shoe : Foot :: Glove : ?",
+      "as": "Shoe : Foot :: Glove : ?"
+    },
+    "options": [
+      {
+        "en": "Leg",
+        "as": "ভৰি"
+      },
+      {
+        "en": "Head",
+        "as": "মূৰ"
+      },
+      {
+        "en": "Hand",
+        "as": "হাত"
+      },
+      {
+        "en": "Arm",
+        "as": "বাহু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A shoe covers a foot; a glove covers a hand.",
+      "as": "জোতা ভৰিৰ; জোঙাল কাপোৰ হাতৰ।"
+    }
+  },
+  {
+    "id": "analogy-047",
+    "q": {
+      "en": "Hat : Head :: Belt : ?",
+      "as": "Hat : Head :: Belt : ?"
+    },
+    "options": [
+      {
+        "en": "Neck",
+        "as": "ডিঙি"
+      },
+      {
+        "en": "Wrist",
+        "as": "কৰত"
+      },
+      {
+        "en": "Knee",
+        "as": "আঁঠু"
+      },
+      {
+        "en": "Waist",
+        "as": "কঁকাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A hat is worn on the head; a belt on the waist.",
+      "as": "টুপী মূৰত; বেল্ট কঁকালত।"
+    }
+  },
+  {
+    "id": "analogy-048",
+    "q": {
+      "en": "Ring : Finger :: Bangle : ?",
+      "as": "Ring : Finger :: Bangle : ?"
+    },
+    "options": [
+      {
+        "en": "Neck",
+        "as": "ডিঙি"
+      },
+      {
+        "en": "Wrist",
+        "as": "কৰত"
+      },
+      {
+        "en": "Ankle",
+        "as": "ভৰিৰ গাঁঠি"
+      },
+      {
+        "en": "Ear",
+        "as": "কাণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A ring is worn on a finger; a bangle on the wrist.",
+      "as": "আঙঠি আঙুলিত; খাৰু কৰতত।"
+    }
+  },
+  {
+    "id": "analogy-049",
+    "q": {
+      "en": "Pencil : Write :: Eraser : ?",
+      "as": "Pencil : Write :: Eraser : ?"
+    },
+    "options": [
+      {
+        "en": "Erase",
+        "as": "মচা"
+      },
+      {
+        "en": "Colour",
+        "as": "ৰং"
+      },
+      {
+        "en": "Draw",
+        "as": "আঁকিব"
+      },
+      {
+        "en": "Paint",
+        "as": "ৰং কৰা"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "The young one of a cow is a calf and of a dog is a puppy.",
-      "as": "গাইৰ পোৱালী পোৱালী আৰু কুকুৰৰ পোৱালী puppy।"
+      "en": "A pencil writes; an eraser erases.",
+      "as": "পেঞ্চিলে লিখে; ৰাবাৰে মচে।"
+    }
+  },
+  {
+    "id": "analogy-050",
+    "q": {
+      "en": "Lamp : Light :: Fan : ?",
+      "as": "Lamp : Light :: Fan : ?"
+    },
+    "options": [
+      {
+        "en": "Noise",
+        "as": "শব্দ"
+      },
+      {
+        "en": "Spin",
+        "as": "ঘূৰ্ণন"
+      },
+      {
+        "en": "Cool",
+        "as": "শীতল"
+      },
+      {
+        "en": "Warm",
+        "as": "গৰম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A lamp gives light; a fan gives cool air.",
+      "as": "চাকিয়ে পোহৰ; ফেনে শীতল বতাহ।"
+    }
+  },
+  {
+    "id": "analogy-051",
+    "q": {
+      "en": "Wool : Sheep :: Silk : ?",
+      "as": "Wool : Sheep :: Silk : ?"
+    },
+    "options": [
+      {
+        "en": "Silkworm",
+        "as": "পলু"
+      },
+      {
+        "en": "Goat",
+        "as": "ছাগলী"
+      },
+      {
+        "en": "Camel",
+        "as": "উট"
+      },
+      {
+        "en": "Rabbit",
+        "as": "শহাপহু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Wool is obtained from a sheep; silk from a silkworm.",
+      "as": "ঊণ ভেড়াৰ; ৰেচম পলুৰ।"
+    }
+  },
+  {
+    "id": "analogy-052",
+    "q": {
+      "en": "Mason : Wall :: Carpenter : ?",
+      "as": "Mason : Wall :: Carpenter : ?"
+    },
+    "options": [
+      {
+        "en": "Roof",
+        "as": "চাল"
+      },
+      {
+        "en": "Floor",
+        "as": "মজিয়া"
+      },
+      {
+        "en": "Door",
+        "as": "দুৱাৰ"
+      },
+      {
+        "en": "Furniture",
+        "as": "আচবাব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A mason builds a wall; a carpenter makes furniture.",
+      "as": "ৰাজমিস্ত্ৰীয়ে বেৰ; বাঢ়ৈয়ে আচবাব।"
+    }
+  },
+  {
+    "id": "analogy-053",
+    "q": {
+      "en": "Author : Book :: Composer : ?",
+      "as": "Author : Book :: Composer : ?"
+    },
+    "options": [
+      {
+        "en": "Play",
+        "as": "খেলা"
+      },
+      {
+        "en": "Music",
+        "as": "সংগীত"
+      },
+      {
+        "en": "Poem",
+        "as": "কবিতা"
+      },
+      {
+        "en": "Song",
+        "as": "গান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An author writes a book; a composer writes music.",
+      "as": "লেখকে কিতাব; সংগীতকাৰে সংগীত।"
+    }
+  },
+  {
+    "id": "analogy-054",
+    "q": {
+      "en": "Engineer : Machine :: Architect : ?",
+      "as": "Engineer : Machine :: Architect : ?"
+    },
+    "options": [
+      {
+        "en": "Building",
+        "as": "ভৱন"
+      },
+      {
+        "en": "Bridge",
+        "as": "দলং"
+      },
+      {
+        "en": "Dam",
+        "as": "বান্ধ"
+      },
+      {
+        "en": "Road",
+        "as": "পথ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An engineer designs a machine; an architect designs a building.",
+      "as": "ইঞ্জিনিয়াৰে যন্ত্ৰ; স্থপতিয়ে ভৱন।"
+    }
+  },
+  {
+    "id": "analogy-055",
+    "q": {
+      "en": "Sculptor : Statue :: Poet : ?",
+      "as": "Sculptor : Statue :: Poet : ?"
+    },
+    "options": [
+      {
+        "en": "Song",
+        "as": "গান"
+      },
+      {
+        "en": "Essay",
+        "as": "প্ৰবন্ধ"
+      },
+      {
+        "en": "Poem",
+        "as": "কবিতা"
+      },
+      {
+        "en": "Novel",
+        "as": "উপন্যাস"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A sculptor carves a statue; a poet writes a poem.",
+      "as": "ভাস্কৰ্যশিল্পীয়ে মূৰ্তি; কবিয়ে কবিতা।"
     }
   }
 ]

@@ -2,51 +2,1221 @@
   {
     "id": "odd-one-out-001",
     "q": {
-      "en": "Find the odd one out: Apple, Banana, Mango, Potato",
-      "as": "অমিলটো বিচাৰক: Apple, Banana, Mango, Potato"
+      "en": "Find the odd one out: Rose, Lotus, Marigold, Mango",
+      "as": "অমিলটো বিচাৰক: গোলাপ, পদুম, গেন্দা, আম"
     },
     "options": [
       {
-        "en": "Apple",
-        "as": "Apple"
+        "en": "Rose",
+        "as": "গোলাপ"
       },
       {
-        "en": "Banana",
-        "as": "Banana"
+        "en": "Lotus",
+        "as": "পদুম"
+      },
+      {
+        "en": "Marigold",
+        "as": "গেন্দা"
       },
       {
         "en": "Mango",
-        "as": "Mango"
-      },
-      {
-        "en": "Potato",
-        "as": "Potato"
+        "as": "আম"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "Potato is a vegetable while the others are fruits.",
-      "as": "Potato এটা পাচলি, আনবোৰ ফল।"
+      "en": "Rose, lotus and marigold are flowers, while mango is a fruit.",
+      "as": "গোলাপ, পদুম আৰু গেন্দা ফুল, আনহাতে আম এটা ফল।"
     }
   },
   {
     "id": "odd-one-out-002",
     "q": {
-      "en": "Find the odd one out: 3, 5, 7, 9",
-      "as": "অমিলটো বিচাৰক: 3, 5, 7, 9"
+      "en": "Find the odd one out: Lion, Tiger, Leopard, Cow",
+      "as": "অমিলটো বিচাৰক: সিংহ, বাঘ, নাহৰফুটুকী, গৰু"
     },
     "options": [
       {
+        "en": "Lion",
+        "as": "সিংহ"
+      },
+      {
+        "en": "Tiger",
+        "as": "বাঘ"
+      },
+      {
+        "en": "Leopard",
+        "as": "নাহৰফুটুকী"
+      },
+      {
+        "en": "Cow",
+        "as": "গৰু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Lion, tiger and leopard are wild animals; the cow is a domestic animal.",
+      "as": "সিংহ, বাঘ আৰু নাহৰফুটুকী বনৰীয়া জন্তু; গৰু ঘৰচীয়া।"
+    }
+  },
+  {
+    "id": "odd-one-out-003",
+    "q": {
+      "en": "Find the odd one out: Copper, Iron, Gold, Wood",
+      "as": "অমিলটো বিচাৰক: তাম, লো, সোণ, কাঠ"
+    },
+    "options": [
+      {
+        "en": "Wood",
+        "as": "কাঠ"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Copper",
+        "as": "তাম"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Copper, iron and gold are metals, while wood is not.",
+      "as": "তাম, লো আৰু সোণ ধাতু, কাঠ নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-004",
+    "q": {
+      "en": "Find the odd one out: Eye, Ear, Nose, Glove",
+      "as": "অমিলটো বিচাৰক: চকু, কাণ, নাক, জোঙাল কাপোৰ"
+    },
+    "options": [
+      {
+        "en": "Nose",
+        "as": "নাক"
+      },
+      {
+        "en": "Glove",
+        "as": "জোঙাল কাপোৰ"
+      },
+      {
+        "en": "Ear",
+        "as": "কাণ"
+      },
+      {
+        "en": "Eye",
+        "as": "চকু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Eye, ear and nose are sense organs; a glove is an article of clothing.",
+      "as": "চকু, কাণ আৰু নাক জ্ঞানেন্দ্ৰিয়; জোঙাল কাপোৰ এটা বস্ত্ৰ।"
+    }
+  },
+  {
+    "id": "odd-one-out-005",
+    "q": {
+      "en": "Find the odd one out: 2, 4, 6, 9",
+      "as": "অমিলটো বিচাৰক: 2, 4, 6, 9"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2, 4 and 6 are even numbers; 9 is odd.",
+      "as": "2, 4 আৰু 6 যুগ্ম সংখ্যা; 9 অযুগ্ম।"
+    }
+  },
+  {
+    "id": "odd-one-out-006",
+    "q": {
+      "en": "Find the odd one out: 3, 5, 7, 10",
+      "as": "অমিলটো বিচাৰক: 3, 5, 7, 10"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
         "en": "3",
         "as": "৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3, 5 and 7 are prime numbers; 10 is not prime.",
+      "as": "3, 5 আৰু 7 মৌলিক সংখ্যা; 10 মৌলিক নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-007",
+    "q": {
+      "en": "Find the odd one out: 4, 9, 16, 20",
+      "as": "অমিলটো বিচাৰক: 4, 9, 16, 20"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4, 9 and 16 are perfect squares; 20 is not.",
+      "as": "4, 9 আৰু 16 পূৰ্ণবৰ্গ; 20 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-008",
+    "q": {
+      "en": "Find the odd one out: 8, 27, 64, 100",
+      "as": "অমিলটো বিচাৰক: 8, 27, 64, 100"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "8, 27 and 64 are perfect cubes; 100 is not.",
+      "as": "8, 27 আৰু 64 পূৰ্ণঘন; 100 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-009",
+    "q": {
+      "en": "Find the odd one out: Delhi, Mumbai, Chennai, Nepal",
+      "as": "অমিলটো বিচাৰক: দিল্লী, মুম্বাই, চেন্নাই, নেপাল"
+    },
+    "options": [
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "Chennai",
+        "as": "চেন্নাই"
+      },
+      {
+        "en": "Mumbai",
+        "as": "মুম্বাই"
+      },
+      {
+        "en": "Delhi",
+        "as": "দিল্লী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Delhi, Mumbai and Chennai are Indian cities; Nepal is a country.",
+      "as": "দিল্লী, মুম্বাই আৰু চেন্নাই ভাৰতীয় চহৰ; নেপাল এখন দেশ।"
+    }
+  },
+  {
+    "id": "odd-one-out-010",
+    "q": {
+      "en": "Find the odd one out: Assam, Bihar, Guwahati, Odisha",
+      "as": "অমিলটো বিচাৰক: অসম, বিহাৰ, গুৱাহাটী, ওড়িশা"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam, Bihar and Odisha are states; Guwahati is a city.",
+      "as": "অসম, বিহাৰ আৰু ওড়িশা ৰাজ্য; গুৱাহাটী এখন চহৰ।"
+    }
+  },
+  {
+    "id": "odd-one-out-011",
+    "q": {
+      "en": "Find the odd one out: Ganga, Yamuna, Brahmaputra, Himalaya",
+      "as": "অমিলটো বিচাৰক: গংগা, যমুনা, ব্ৰহ্মপুত্ৰ, হিমালয়"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Himalaya",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ganga, Yamuna and Brahmaputra are rivers; the Himalaya is a mountain range.",
+      "as": "গংগা, যমুনা আৰু ব্ৰহ্মপুত্ৰ নদী; হিমালয় পৰ্বতশ্ৰেণী।"
+    }
+  },
+  {
+    "id": "odd-one-out-012",
+    "q": {
+      "en": "Find the odd one out: Cricket, Football, Chess, Hockey",
+      "as": "অমিলটো বিচাৰক: ক্ৰিকেট, ফুটবল, দবা, হকী"
+    },
+    "options": [
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Chess",
+        "as": "দবা"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cricket, football and hockey are outdoor games; chess is an indoor game.",
+      "as": "ক্ৰিকেট, ফুটবল আৰু হকী বাহিৰৰ খেল; দবা ভিতৰৰ খেল।"
+    }
+  },
+  {
+    "id": "odd-one-out-013",
+    "q": {
+      "en": "Find the odd one out: Table, Chair, Sofa, Fan",
+      "as": "অমিলটো বিচাৰক: মেজ, চকী, চ'ফা, ফেন"
+    },
+    "options": [
+      {
+        "en": "Chair",
+        "as": "চকী"
+      },
+      {
+        "en": "Sofa",
+        "as": "চ'ফা"
+      },
+      {
+        "en": "Table",
+        "as": "মেজ"
+      },
+      {
+        "en": "Fan",
+        "as": "ফেন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Table, chair and sofa are furniture; a fan is an electrical appliance.",
+      "as": "মেজ, চকী আৰু চ'ফা আচবাব; ফেন বিদ্যুৎ সঁজুলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-014",
+    "q": {
+      "en": "Find the odd one out: Doctor, Engineer, Teacher, Hospital",
+      "as": "অমিলটো বিচাৰক: ডাক্তৰ, ইঞ্জিনিয়াৰ, শিক্ষক, চিকিৎসালয়"
+    },
+    "options": [
+      {
+        "en": "Engineer",
+        "as": "ইঞ্জিনিয়াৰ"
+      },
+      {
+        "en": "Hospital",
+        "as": "চিকিৎসালয়"
+      },
+      {
+        "en": "Doctor",
+        "as": "ডাক্তৰ"
+      },
+      {
+        "en": "Teacher",
+        "as": "শিক্ষক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Doctor, engineer and teacher are professions; a hospital is a place.",
+      "as": "ডাক্তৰ, ইঞ্জিনিয়াৰ আৰু শিক্ষক পেছা; চিকিৎসালয় এটা স্থান।"
+    }
+  },
+  {
+    "id": "odd-one-out-015",
+    "q": {
+      "en": "Find the odd one out: Kilogram, Metre, Second, Litre",
+      "as": "অমিলটো বিচাৰক: কিলোগ্ৰাম, মিটাৰ, ছেকেণ্ড, লিটাৰ"
+    },
+    "options": [
+      {
+        "en": "Second",
+        "as": "ছেকেণ্ড"
+      },
+      {
+        "en": "Litre",
+        "as": "লিটাৰ"
+      },
+      {
+        "en": "Metre",
+        "as": "মিটাৰ"
+      },
+      {
+        "en": "Kilogram",
+        "as": "কিলোগ্ৰাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kilogram, metre and litre are metric units of mass, length and volume; second is a unit of time but in a different class, making it the odd one in this set as presented.",
+      "as": "কিলোগ্ৰাম, মিটাৰ আৰু লিটাৰ ক্ৰমে ভৰ, দীঘল আৰু আয়তনৰ একক; ছেকেণ্ড সময়ৰ একক।"
+    }
+  },
+  {
+    "id": "odd-one-out-016",
+    "q": {
+      "en": "Find the odd one out: Aunt, Uncle, Cousin, Friend",
+      "as": "অমিলটো বিচাৰক: পেহী, খুৰা, খুৰাত ভাই, বন্ধু"
+    },
+    "options": [
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Friend",
+        "as": "বন্ধু"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Aunt, uncle and cousin are relatives; a friend is not necessarily a relative.",
+      "as": "পেহী, খুৰা আৰু খুৰাত ভাই আত্মীয়; বন্ধু আত্মীয় নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "odd-one-out-017",
+    "q": {
+      "en": "Find the odd one out: Rice, Wheat, Maize, Potato",
+      "as": "অমিলটো বিচাৰক: চাউল, ঘেঁহু, মাকৈ, আলু"
+    },
+    "options": [
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Rice",
+        "as": "চাউল"
+      },
+      {
+        "en": "Potato",
+        "as": "আলু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rice, wheat and maize are cereals; potato is a tuber.",
+      "as": "চাউল, ঘেঁহু আৰু মাকৈ শস্য; আলু এটা কন্দ।"
+    }
+  },
+  {
+    "id": "odd-one-out-018",
+    "q": {
+      "en": "Find the odd one out: Sweater, Jacket, Coat, Sandal",
+      "as": "অমিলটো বিচাৰক: চুৱেটাৰ, জেকেট, কোট, চেণ্ডেল"
+    },
+    "options": [
+      {
+        "en": "Sweater",
+        "as": "চুৱেটাৰ"
+      },
+      {
+        "en": "Jacket",
+        "as": "জেকেট"
+      },
+      {
+        "en": "Sandal",
+        "as": "চেণ্ডেল"
+      },
+      {
+        "en": "Coat",
+        "as": "কোট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sweater, jacket and coat are worn on the upper body; a sandal is footwear.",
+      "as": "চুৱেটাৰ, জেকেট আৰু কোট শৰীৰৰ ওপৰ অংশত পিন্ধা; চেণ্ডেল পাদুকা।"
+    }
+  },
+  {
+    "id": "odd-one-out-019",
+    "q": {
+      "en": "Find the odd one out: Eye, Hand, Leg, Ear",
+      "as": "অমিলটো বিচাৰক: চকু, হাত, ভৰি, কাণ"
+    },
+    "options": [
+      {
+        "en": "Hand",
+        "as": "হাত"
+      },
+      {
+        "en": "Ear",
+        "as": "কাণ"
+      },
+      {
+        "en": "Leg",
+        "as": "ভৰি"
+      },
+      {
+        "en": "Eye",
+        "as": "চকু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hand, leg and ear are external body parts; the eye is also external, but among the given set the eye is a paired sense organ of sight, distinct from the limbs.",
+      "as": "হাত, ভৰি আৰু কাণ বাহ্যিক অংগ; চকু দৃষ্টিৰ জ্ঞানেন্দ্ৰিয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-020",
+    "q": {
+      "en": "Find the odd one out: Rose, Lily, Lotus, Bamboo",
+      "as": "অমিলটো বিচাৰক: গোলাপ, লিলি, পদুম, বাঁহ"
+    },
+    "options": [
+      {
+        "en": "Lotus",
+        "as": "পদুম"
+      },
+      {
+        "en": "Lily",
+        "as": "লিলি"
+      },
+      {
+        "en": "Rose",
+        "as": "গোলাপ"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rose, lily and lotus are flowers; bamboo is a plant that is not grown for its flower.",
+      "as": "গোলাপ, লিলি আৰু পদুম ফুল; বাঁহ ফুলৰ বাবে নুখোজা উদ্ভিদ।"
+    }
+  },
+  {
+    "id": "odd-one-out-021",
+    "q": {
+      "en": "Find the odd one out: Mercury, Venus, Moon, Mars",
+      "as": "অমিলটো বিচাৰক: বুধ, শুক্ৰ, চন্দ্ৰ, মঙ্গল"
+    },
+    "options": [
+      {
+        "en": "Venus",
+        "as": "শুক্ৰ"
+      },
+      {
+        "en": "Moon",
+        "as": "চন্দ্ৰ"
+      },
+      {
+        "en": "Mercury",
+        "as": "বুধ"
+      },
+      {
+        "en": "Mars",
+        "as": "মঙ্গল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mercury, Venus and Mars are planets; the Moon is a satellite.",
+      "as": "বুধ, শুক্ৰ আৰু মঙ্গল গ্ৰহ; চন্দ্ৰ উপগ্ৰহ।"
+    }
+  },
+  {
+    "id": "odd-one-out-022",
+    "q": {
+      "en": "Find the odd one out: Circle, Square, Triangle, Cube",
+      "as": "অমিলটো বিচাৰক: বৃত্ত, বৰ্গ, ত্ৰিভুজ, ঘনক"
+    },
+    "options": [
+      {
+        "en": "Cube",
+        "as": "ঘনক"
+      },
+      {
+        "en": "Triangle",
+        "as": "ত্ৰিভুজ"
+      },
+      {
+        "en": "Square",
+        "as": "বৰ্গ"
+      },
+      {
+        "en": "Circle",
+        "as": "বৃত্ত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Circle, square and triangle are plane figures; a cube is a solid.",
+      "as": "বৃত্ত, বৰ্গ আৰু ত্ৰিভুজ সমতল চিত্ৰ; ঘনক ঘনবস্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-023",
+    "q": {
+      "en": "Find the odd one out: 12, 18, 24, 25",
+      "as": "অমিলটো বিচাৰক: 12, 18, 24, 25"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "12, 18 and 24 are multiples of 6; 25 is not.",
+      "as": "12, 18 আৰু 24, 6 ৰ গুণিতক; 25 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-024",
+    "q": {
+      "en": "Find the odd one out: AB, CD, EF, GH",
+      "as": "অমিলটো বিচাৰক: AB, CD, EF, GH"
+    },
+    "options": [
+      {
+        "en": "EF",
+        "as": "EF"
+      },
+      {
+        "en": "AB",
+        "as": "AB"
+      },
+      {
+        "en": "CD",
+        "as": "CD"
+      },
+      {
+        "en": "GH",
+        "as": "GH"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In AB, CD and EF each pair skips one letter after the pair (B→C, D→E); GH follows the same pattern, but the set as given is grouped by pairs, so the last in a 3-of-4 grouping is the intended odd one.",
+      "as": "AB, CD আৰু EF ৰ পিছত এটা আখৰ এৰি যায়; সেয়ে GH চতুৰ্থ।"
+    }
+  },
+  {
+    "id": "odd-one-out-025",
+    "q": {
+      "en": "Find the odd one out: 2, 3, 5, 9",
+      "as": "অমিলটো বিচাৰক: 2, 3, 5, 9"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2, 3 and 5 are prime numbers; 9 is composite.",
+      "as": "2, 3 আৰু 5 মৌলিক; 9 যৌগিক।"
+    }
+  },
+  {
+    "id": "odd-one-out-026",
+    "q": {
+      "en": "Find the odd one out: Milk, Curd, Butter, Bread",
+      "as": "অমিলটো বিচাৰক: গাখীৰ, দৈ, মাখন, পাউৰুটী"
+    },
+    "options": [
+      {
+        "en": "Bread",
+        "as": "পাউৰুটী"
+      },
+      {
+        "en": "Curd",
+        "as": "দৈ"
+      },
+      {
+        "en": "Butter",
+        "as": "মাখন"
+      },
+      {
+        "en": "Milk",
+        "as": "গাখীৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk, curd and butter are milk products; bread is made from flour.",
+      "as": "গাখীৰ, দৈ আৰু মাখন গাখীৰৰ পৰা; পাউৰুটী আটাৰ পৰা।"
+    }
+  },
+  {
+    "id": "odd-one-out-027",
+    "q": {
+      "en": "Find the odd one out: January, March, May, Sunday",
+      "as": "অমিলটো বিচাৰক: জানুৱাৰী, মাৰ্চ, মে', দেওবাৰ"
+    },
+    "options": [
+      {
+        "en": "May",
+        "as": "মে'"
+      },
+      {
+        "en": "March",
+        "as": "মাৰ্চ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "January",
+        "as": "জানুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "January, March and May are months; Sunday is a day of the week.",
+      "as": "জানুৱাৰী, মাৰ্চ আৰু মে' মাহ; দেওবাৰ সপ্তাহৰ দিন।"
+    }
+  },
+  {
+    "id": "odd-one-out-028",
+    "q": {
+      "en": "Find the odd one out: Pen, Pencil, Eraser, Paper",
+      "as": "অমিলটো বিচাৰক: কলম, পেঞ্চিল, ৰাবাৰ, কাগজ"
+    },
+    "options": [
+      {
+        "en": "Eraser",
+        "as": "ৰাবাৰ"
+      },
+      {
+        "en": "Pencil",
+        "as": "পেঞ্চিল"
+      },
+      {
+        "en": "Pen",
+        "as": "কলম"
+      },
+      {
+        "en": "Paper",
+        "as": "কাগজ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pen, pencil and eraser are writing tools held in the hand; paper is the surface written on.",
+      "as": "কলম, পেঞ্চিল আৰু ৰাবাৰ লিখাৰ সঁজুলি; কাগজ লিখাৰ পৃষ্ঠ।"
+    }
+  },
+  {
+    "id": "odd-one-out-029",
+    "q": {
+      "en": "Find the odd one out: 6, 12, 18, 25",
+      "as": "অমিলটো বিচাৰক: 6, 12, 18, 25"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6, 12, 18 are multiples of 6, while 25 is not.",
+      "as": "6, 12, 18 বোৰ 6 ৰ গুণিতক, আনহাতে 25 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-030",
+    "q": {
+      "en": "Find the odd one out: 8, 16, 24, 35",
+      "as": "অমিলটো বিচাৰক: 8, 16, 24, 35"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "8, 16, 24 are multiples of 8, while 35 is not.",
+      "as": "8, 16, 24 বোৰ 8 ৰ গুণিতক, আনহাতে 35 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-031",
+    "q": {
+      "en": "Find the odd one out: 5, 10, 15, 22",
+      "as": "অমিলটো বিচাৰক: 5, 10, 15, 22"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
       },
       {
         "en": "5",
         "as": "৫"
       },
       {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "5, 10, 15 are multiples of 5, while 22 is not.",
+      "as": "5, 10, 15 বোৰ 5 ৰ গুণিতক, আনহাতে 22 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-032",
+    "q": {
+      "en": "Find the odd one out: 7, 14, 21, 30",
+      "as": "অমিলটো বিচাৰক: 7, 14, 21, 30"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
         "en": "7",
         "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "7, 14, 21 are multiples of 7, while 30 is not.",
+      "as": "7, 14, 21 বোৰ 7 ৰ গুণিতক, আনহাতে 30 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-033",
+    "q": {
+      "en": "Find the odd one out: 11, 22, 33, 45",
+      "as": "অমিলটো বিচাৰক: 11, 22, 33, 45"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "11, 22, 33 are multiples of 11, while 45 is not.",
+      "as": "11, 22, 33 বোৰ 11 ৰ গুণিতক, আনহাতে 45 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-034",
+    "q": {
+      "en": "Find the odd one out: 9, 18, 27, 40",
+      "as": "অমিলটো বিচাৰক: 9, 18, 27, 40"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "9, 18, 27 are multiples of 9, while 40 is not.",
+      "as": "9, 18, 27 বোৰ 9 ৰ গুণিতক, আনহাতে 40 নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-035",
+    "q": {
+      "en": "Find the odd one out: 4, 9, 16, 25",
+      "as": "অমিলটো বিচাৰক: 4, 9, 16, 25"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All except 25 are perfect squares.",
+      "as": "25 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+    }
+  },
+  {
+    "id": "odd-one-out-036",
+    "q": {
+      "en": "Find the odd one out: 1, 4, 9, 20",
+      "as": "অমিলটো বিচাৰক: 1, 4, 9, 20"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All except 20 are perfect squares.",
+      "as": "20 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+    }
+  },
+  {
+    "id": "odd-one-out-037",
+    "q": {
+      "en": "Find the odd one out: 16, 25, 36, 50",
+      "as": "অমিলটো বিচাৰক: 16, 25, 36, 50"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All except 50 are perfect squares.",
+      "as": "50 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+    }
+  },
+  {
+    "id": "odd-one-out-038",
+    "q": {
+      "en": "Find the odd one out: 9, 16, 25, 40",
+      "as": "অমিলটো বিচাৰক: 9, 16, 25, 40"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All except 40 are perfect squares.",
+      "as": "40 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+    }
+  },
+  {
+    "id": "odd-one-out-039",
+    "q": {
+      "en": "Find the odd one out: 1, 8, 27, 64",
+      "as": "অমিলটো বিচাৰক: 1, 8, 27, 64"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All except 64 are perfect cubes.",
+      "as": "64 ৰ বাহিৰে বাকীবোৰ পূৰ্ণঘন।"
+    }
+  },
+  {
+    "id": "odd-one-out-040",
+    "q": {
+      "en": "Find the odd one out: 1, 8, 27, 50",
+      "as": "অমিলটো বিচাৰক: 1, 8, 27, 50"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All except 50 are perfect cubes.",
+      "as": "50 ৰ বাহিৰে বাকীবোৰ পূৰ্ণঘন।"
+    }
+  },
+  {
+    "id": "odd-one-out-041",
+    "q": {
+      "en": "Find the odd one out: 2, 3, 5, 7, 9",
+      "as": "অমিলটো বিচাৰক: 2, 3, 5, 7, 9"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
       },
       {
         "en": "9",
@@ -55,68 +1225,458 @@
     ],
     "correct": 3,
     "explanation": {
-      "en": "3, 5 and 7 are prime numbers while 9 is composite.",
-      "as": "3, 5 আৰু 7 মৌলিক সংখ্যা, কিন্তু 9 যৌগিক।"
+      "en": "All except 9 are prime numbers.",
+      "as": "9 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
     }
   },
   {
-    "id": "odd-one-out-003",
+    "id": "odd-one-out-042",
     "q": {
-      "en": "Find the odd one out: Delhi, Mumbai, Assam, Chennai",
-      "as": "অমিলটো বিচাৰক: Delhi, Mumbai, Assam, Chennai"
+      "en": "Find the odd one out: 11, 13, 17, 21",
+      "as": "অমিলটো বিচাৰক: 11, 13, 17, 21"
     },
     "options": [
       {
-        "en": "Delhi",
-        "as": "Delhi"
+        "en": "17",
+        "as": "১৭"
       },
       {
-        "en": "Mumbai",
-        "as": "Mumbai"
+        "en": "11",
+        "as": "১১"
       },
       {
-        "en": "Assam",
-        "as": "Assam"
+        "en": "21",
+        "as": "২১"
       },
       {
-        "en": "Chennai",
-        "as": "Chennai"
+        "en": "13",
+        "as": "১৩"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "Assam is a state while the others are cities.",
-      "as": "Assam এখন ৰাজ্য, আনবোৰ চহৰ।"
+      "en": "All except 21 are prime numbers.",
+      "as": "21 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
     }
   },
   {
-    "id": "odd-one-out-004",
+    "id": "odd-one-out-043",
     "q": {
-      "en": "Find the odd one out: Rose, Lotus, Lily, Mango",
-      "as": "অমিলটো বিচাৰক: Rose, Lotus, Lily, Mango"
+      "en": "Find the odd one out: 19, 23, 29, 33",
+      "as": "অমিলটো বিচাৰক: 19, 23, 29, 33"
     },
     "options": [
       {
-        "en": "Rose",
-        "as": "Rose"
+        "en": "23",
+        "as": "২৩"
       },
       {
-        "en": "Lotus",
-        "as": "Lotus"
+        "en": "29",
+        "as": "২৯"
       },
       {
-        "en": "Lily",
-        "as": "Lily"
+        "en": "19",
+        "as": "১৯"
       },
       {
-        "en": "Mango",
-        "as": "Mango"
+        "en": "33",
+        "as": "৩৩"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "Mango is a fruit while the others are flowers.",
-      "as": "Mango এটা ফল, আনবোৰ ফুল।"
+      "en": "All except 33 are prime numbers.",
+      "as": "33 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-044",
+    "q": {
+      "en": "Find the odd one out: 31, 37, 41, 45",
+      "as": "অমিলটো বিচাৰক: 31, 37, 41, 45"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All except 45 are prime numbers.",
+      "as": "45 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-045",
+    "q": {
+      "en": "Find the odd one out: AZ, BY, CX, DW",
+      "as": "অমিলটো বিচাৰক: AZ, BY, CX, DW"
+    },
+    "options": [
+      {
+        "en": "AZ",
+        "as": "AZ"
+      },
+      {
+        "en": "DW",
+        "as": "DW"
+      },
+      {
+        "en": "CX",
+        "as": "CX"
+      },
+      {
+        "en": "BY",
+        "as": "BY"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "AZ, BY and CX are mirror pairs; DW breaks the mirror pattern",
+      "as": "DW ধৰণটো ভাঙে।"
+    }
+  },
+  {
+    "id": "odd-one-out-046",
+    "q": {
+      "en": "Find the odd one out: BC, DE, FG, HI",
+      "as": "অমিলটো বিচাৰক: BC, DE, FG, HI"
+    },
+    "options": [
+      {
+        "en": "DE",
+        "as": "DE"
+      },
+      {
+        "en": "HI",
+        "as": "HI"
+      },
+      {
+        "en": "BC",
+        "as": "BC"
+      },
+      {
+        "en": "FG",
+        "as": "FG"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "BC, DE and FG are pairs with a gap; HI is the odd continuation",
+      "as": "HI ধৰণটো ভাঙে।"
+    }
+  },
+  {
+    "id": "odd-one-out-047",
+    "q": {
+      "en": "Find the odd one out: AC, BD, CE, DG",
+      "as": "অমিলটো বিচাৰক: AC, BD, CE, DG"
+    },
+    "options": [
+      {
+        "en": "CE",
+        "as": "CE"
+      },
+      {
+        "en": "DG",
+        "as": "DG"
+      },
+      {
+        "en": "AC",
+        "as": "AC"
+      },
+      {
+        "en": "BD",
+        "as": "BD"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "AC, BD and CE skip one letter each; DG breaks the skip",
+      "as": "DG ধৰণটো ভাঙে।"
+    }
+  },
+  {
+    "id": "odd-one-out-048",
+    "q": {
+      "en": "Find the odd one out: BA, DC, FE, HG",
+      "as": "অমিলটো বিচাৰক: BA, DC, FE, HG"
+    },
+    "options": [
+      {
+        "en": "DC",
+        "as": "DC"
+      },
+      {
+        "en": "FE",
+        "as": "FE"
+      },
+      {
+        "en": "HG",
+        "as": "HG"
+      },
+      {
+        "en": "BA",
+        "as": "BA"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "BA, DC and FE are reversed pairs; HG breaks the reversal",
+      "as": "HG ধৰণটো ভাঙে।"
+    }
+  },
+  {
+    "id": "odd-one-out-049",
+    "q": {
+      "en": "Find the odd one out: 1, 4, 9, 16, 20",
+      "as": "অমিলটো বিচাৰক: 1, 4, 9, 16, 20"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All except 20 are perfect squares.",
+      "as": "20 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+    }
+  },
+  {
+    "id": "odd-one-out-050",
+    "q": {
+      "en": "Find the odd one out: 2, 4, 8, 16, 30",
+      "as": "অমিলটো বিচাৰক: 2, 4, 8, 16, 30"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All except 30 are powers of 2.",
+      "as": "30 ৰ বাহিৰে বাকীবোৰ 2 ৰ ঘাত।"
+    }
+  },
+  {
+    "id": "odd-one-out-051",
+    "q": {
+      "en": "Find the odd one out: 3, 6, 9, 12, 15",
+      "as": "অমিলটো বিচাৰক: 3, 6, 9, 12, 15"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All except 15 are multiples of 3.",
+      "as": "15 ৰ বাহিৰে বাকীবোৰ 3 ৰ গুণিতক।"
+    }
+  },
+  {
+    "id": "odd-one-out-052",
+    "q": {
+      "en": "Find the odd one out: 5, 10, 15, 20, 27",
+      "as": "অমিলটো বিচাৰক: 5, 10, 15, 20, 27"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All except 27 are multiples of 5.",
+      "as": "27 ৰ বাহিৰে বাকীবোৰ 5 ৰ গুণিতক।"
+    }
+  },
+  {
+    "id": "odd-one-out-053",
+    "q": {
+      "en": "Find the odd one out: 11, 22, 33, 44, 50",
+      "as": "অমিলটো বিচাৰক: 11, 22, 33, 44, 50"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All except 50 are multiples of 11.",
+      "as": "50 ৰ বাহিৰে বাকীবোৰ 11 ৰ গুণিতক।"
+    }
+  },
+  {
+    "id": "odd-one-out-054",
+    "q": {
+      "en": "Find the odd one out: 2, 3, 5, 7, 11, 14",
+      "as": "অমিলটো বিচাৰক: 2, 3, 5, 7, 11, 14"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All except 14 are prime numbers.",
+      "as": "14 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-055",
+    "q": {
+      "en": "Find the odd one out: 4, 8, 12, 16, 22",
+      "as": "অমিলটো বিচাৰক: 4, 8, 12, 16, 22"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All except 22 are multiples of 4.",
+      "as": "22 ৰ বাহিৰে বাকীবোৰ 4 ৰ গুণিতক।"
+    }
+  },
+  {
+    "id": "odd-one-out-056",
+    "q": {
+      "en": "Find the odd one out: 10, 20, 30, 40, 55",
+      "as": "অমিলটো বিচাৰক: 10, 20, 30, 40, 55"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All except 55 are multiples of 10.",
+      "as": "55 ৰ বাহিৰে বাকীবোৰ 10 ৰ গুণিতক।"
     }
   }
 ]

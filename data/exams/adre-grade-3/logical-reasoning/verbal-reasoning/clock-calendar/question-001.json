@@ -2,8 +2,38 @@
   {
     "id": "clock-calendar-001",
     "q": {
-      "en": "At 3 o'clock, the angle between the hour hand and the minute hand is —",
-      "as": "৩ বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ —"
+      "en": "What is the angle between the hour hand and the minute hand at 1 o'clock?",
+      "as": "1 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "45 degrees",
+        "as": "৪৫ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 1 o'clock the angle is 30 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 1 বজাত কোণ 30 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-002",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 2 o'clock?",
+      "as": "2 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
     },
     "options": [
       {
@@ -11,8 +41,184 @@
         "as": "৬০ ডিগ্ৰী"
       },
       {
+        "en": "75 degrees",
+        "as": "৭৫ ডিগ্ৰী"
+      },
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
         "en": "90 degrees",
         "as": "৯০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 2 o'clock the angle is 60 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 2 বজাত কোণ 60 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-003",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 3 o'clock?",
+      "as": "3 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "105 degrees",
+        "as": "১০৫ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 3 o'clock the angle is 90 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 3 বজাত কোণ 90 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-004",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 4 o'clock?",
+      "as": "4 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "135 degrees",
+        "as": "১৩৫ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 4 o'clock the angle is 120 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 4 বজাত কোণ 120 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-005",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 5 o'clock?",
+      "as": "5 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      },
+      {
+        "en": "165 degrees",
+        "as": "১৬৫ ডিগ্ৰী"
+      },
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 5 o'clock the angle is 150 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 5 বজাত কোণ 150 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-006",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 6 o'clock?",
+      "as": "6 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "210 degrees",
+        "as": "২১০ ডিগ্ৰী"
+      },
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "195 degrees",
+        "as": "১৯৫ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 6 o'clock the angle is 180 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 6 বজাত কোণ 180 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-007",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 7 o'clock?",
+      "as": "7 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "165 degrees",
+        "as": "১৬৫ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 7 o'clock the angle is 150 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 7 বজাত কোণ 150 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-008",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 8 o'clock?",
+      "as": "8 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "135 degrees",
+        "as": "১৩৫ ডিগ্ৰী"
       },
       {
         "en": "120 degrees",
@@ -21,81 +227,59 @@
       {
         "en": "150 degrees",
         "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "Each hour mark is 30 degrees apart, so at 3 o'clock the hands are 3 x 30 = 90 degrees apart.",
-      "as": "প্ৰতি ঘণ্টাৰ ব্যৱধান ৩০ ডিগ্ৰী, গতিকে ৩ বজাত কাঁটা দুটা ৩ x ৩০ = ৯০ ডিগ্ৰী আঁতৰত থাকে।"
+      "en": "Each hour is 30 degrees, so at 8 o'clock the angle is 120 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 8 বজাত কোণ 120 ডিগ্ৰী।"
     }
   },
   {
-    "id": "clock-calendar-002",
+    "id": "clock-calendar-009",
     "q": {
-      "en": "If 1 January of a year is a Monday, then 1 February of the same year falls on —",
-      "as": "কোনো বছৰৰ ১ জানুৱাৰী সোমবাৰ হ'লে সেই বছৰৰ ১ ফেব্ৰুৱাৰী কি বাৰ হ'ব?"
+      "en": "What is the angle between the hour hand and the minute hand at 9 o'clock?",
+      "as": "9 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
     },
     "options": [
       {
-        "en": "Tuesday",
-        "as": "মঙ্গলবাৰ"
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
       },
       {
-        "en": "Wednesday",
-        "as": "বুধবাৰ"
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
       },
       {
-        "en": "Thursday",
-        "as": "বৃহস্পতিবাৰ"
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
       },
       {
-        "en": "Friday",
-        "as": "শুক্ৰবাৰ"
+        "en": "105 degrees",
+        "as": "১০৫ ডিগ্ৰী"
       }
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": {
-      "en": "January has 31 days, and 31 divided by 7 leaves a remainder of 3, so the day advances by 3: Monday + 3 = Thursday.",
-      "as": "জানুৱাৰীত ৩১ দিন, আৰু ৩১ ক ৭ ৰে হৰণ কৰিলে ভাগশেষ ৩ হয়, গতিকে বাৰ ৩ আগবাঢ়ে: সোমবাৰ + ৩ = বৃহস্পতিবাৰ।"
+      "en": "Each hour is 30 degrees, so at 9 o'clock the angle is 90 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 9 বজাত কোণ 90 ডিগ্ৰী।"
     }
   },
   {
-    "id": "clock-calendar-003",
+    "id": "clock-calendar-010",
     "q": {
-      "en": "If today is Wednesday, the day after 60 days will be —",
-      "as": "আজি বুধবাৰ হ'লে ৬০ দিনৰ পিছত কি বাৰ হ'ব?"
+      "en": "What is the angle between the hour hand and the minute hand at 10 o'clock?",
+      "as": "10 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
     },
     "options": [
       {
-        "en": "Saturday",
-        "as": "শনিবাৰ"
+        "en": "75 degrees",
+        "as": "৭৫ ডিগ্ৰী"
       },
-      {
-        "en": "Sunday",
-        "as": "দেওবাৰ"
-      },
-      {
-        "en": "Monday",
-        "as": "সোমবাৰ"
-      },
-      {
-        "en": "Tuesday",
-        "as": "মঙ্গলবাৰ"
-      }
-    ],
-    "correct": 1,
-    "explanation": {
-      "en": "60 divided by 7 leaves a remainder of 4; Wednesday plus 4 days is Sunday.",
-      "as": "৬০ ক ৭ ৰে হৰণ কৰিলে ভাগশেষ ৪ হয়; বুধবাৰৰ পৰা ৪ দিন আগবাঢ়িলে দেওবাৰ হয়।"
-    }
-  },
-  {
-    "id": "clock-calendar-004",
-    "q": {
-      "en": "At 3 o'clock, the angle between the hands of a clock is —",
-      "as": "3 টা বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ —"
-    },
-    "options": [
       {
         "en": "30 degrees",
         "as": "৩০ ডিগ্ৰী"
@@ -107,16 +291,1332 @@
       {
         "en": "90 degrees",
         "as": "৯০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 10 o'clock the angle is 60 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 10 বজাত কোণ 60 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-011",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 11 o'clock?",
+      "as": "11 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
+        "en": "45 degrees",
+        "as": "৪৫ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 11 o'clock the angle is 30 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 11 বজাত কোণ 30 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-012",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand at 12 o'clock?",
+      "as": "12 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "15 degrees",
+        "as": "১৫ ডিগ্ৰী"
+      },
+      {
+        "en": "0 degrees",
+        "as": "০ ডিগ্ৰী"
+      },
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each hour is 30 degrees, so at 12 o'clock the angle is 0 degrees.",
+      "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 12 বজাত কোণ 0 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-013",
+    "q": {
+      "en": "What is the angle between the hands at 1:30?",
+      "as": "1:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "135 degrees",
+        "as": "১৩৫ ডিগ্ৰী"
+      },
+      {
+        "en": "165 degrees",
+        "as": "১৬৫ ডিগ্ৰী"
       },
       {
         "en": "120 degrees",
         "as": "১২০ ডিগ্ৰী"
       }
     ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the formula, the angle at 1:30 is 135 degrees.",
+      "as": "সূত্ৰ অনুসৰি 1:30 বজাত কোণ 135 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-014",
+    "q": {
+      "en": "What is the angle between the hands at 2:30?",
+      "as": "2:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "105 degrees",
+        "as": "১০৫ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "135 degrees",
+        "as": "১৩৫ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using the formula, the angle at 2:30 is 105 degrees.",
+      "as": "সূত্ৰ অনুসৰি 2:30 বজাত কোণ 105 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-015",
+    "q": {
+      "en": "What is the angle between the hands at 3:30?",
+      "as": "3:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "105 degrees",
+        "as": "১০৫ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "75 degrees",
+        "as": "৭৫ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      }
+    ],
     "correct": 2,
     "explanation": {
-      "en": "The hour hand is at 3 and the minute hand at 12, giving an angle of 3 × 30 = 90 degrees.",
-      "as": "ঘণ্টাৰ কাঁটা 3 ত আৰু মিনিটৰ কাঁটা 12 ত, গতিকে কোণ 3 × 30 = 90 ডিগ্ৰী।"
+      "en": "Using the formula, the angle at 3:30 is 75 degrees.",
+      "as": "সূত্ৰ অনুসৰি 3:30 বজাত কোণ 75 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-016",
+    "q": {
+      "en": "What is the angle between the hands at 4:30?",
+      "as": "4:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
+        "en": "75 degrees",
+        "as": "৭৫ ডিগ্ৰী"
+      },
+      {
+        "en": "45 degrees",
+        "as": "৪৫ ডিগ্ৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using the formula, the angle at 4:30 is 45 degrees.",
+      "as": "সূত্ৰ অনুসৰি 4:30 বজাত কোণ 45 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-017",
+    "q": {
+      "en": "What is the angle between the hands at 5:30?",
+      "as": "5:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "45 degrees",
+        "as": "৪৫ ডিগ্ৰী"
+      },
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
+        "en": "0 degrees",
+        "as": "০ ডিগ্ৰী"
+      },
+      {
+        "en": "15 degrees",
+        "as": "১৫ ডিগ্ৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using the formula, the angle at 5:30 is 15 degrees.",
+      "as": "সূত্ৰ অনুসৰি 5:30 বজাত কোণ 15 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-018",
+    "q": {
+      "en": "What is the angle between the hands at 7:30?",
+      "as": "7:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
+        "en": "45 degrees",
+        "as": "৪৫ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "75 degrees",
+        "as": "৭৫ ডিগ্ৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the formula, the angle at 7:30 is 45 degrees.",
+      "as": "সূত্ৰ অনুসৰি 7:30 বজাত কোণ 45 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-019",
+    "q": {
+      "en": "What is the angle between the hands at 8:30?",
+      "as": "8:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "75 degrees",
+        "as": "৭৫ ডিগ্ৰী"
+      },
+      {
+        "en": "105 degrees",
+        "as": "১০৫ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using the formula, the angle at 8:30 is 75 degrees.",
+      "as": "সূত্ৰ অনুসৰি 8:30 বজাত কোণ 75 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-020",
+    "q": {
+      "en": "What is the angle between the hands at 10:30?",
+      "as": "10:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "135 degrees",
+        "as": "১৩৫ ডিগ্ৰী"
+      },
+      {
+        "en": "165 degrees",
+        "as": "১৬৫ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the formula, the angle at 10:30 is 135 degrees.",
+      "as": "সূত্ৰ অনুসৰি 10:30 বজাত কোণ 135 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-021",
+    "q": {
+      "en": "How many times do the hands of a clock overlap in 24 hours?",
+      "as": "২৪ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ ওপৰাওপৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hands overlap 11 times in 12 hours, so 22 times in 24 hours.",
+      "as": "১২ ঘণ্টাত ১১ বাৰ ওপৰাওপৰ হয়, গতিকে ২৪ ঘণ্টাত ২২ বাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-022",
+    "q": {
+      "en": "How many times are the hands of a clock at right angles in 24 hours?",
+      "as": "২৪ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ সমকোণত থাকে?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "They are at right angles twice per hour except a few, giving 44 times in 24 hours.",
+      "as": "প্ৰায় প্ৰতি ঘণ্টাত দুবাৰ সমকোণ, ২৪ ঘণ্টাত ৪৪ বাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-023",
+    "q": {
+      "en": "How many times do the hands of a clock point in opposite directions in 24 hours?",
+      "as": "২৪ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ বিপৰীত দিশত থাকে?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They are opposite 11 times in 12 hours, so 22 times in 24 hours.",
+      "as": "১২ ঘণ্টাত ১১ বাৰ বিপৰীত, গতিকে ২৪ ঘণ্টাত ২২ বাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-024",
+    "q": {
+      "en": "At what time between 2 and 3 will the hands overlap?",
+      "as": "২ আৰু ৩ বজাৰ মাজত কেতিয়া কাঁটাদুটা ওপৰাওপৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "2:20",
+        "as": "২:২০"
+      },
+      {
+        "en": "2:15",
+        "as": "২:১৫"
+      },
+      {
+        "en": "2:05",
+        "as": "২:০৫"
+      },
+      {
+        "en": "2:10 10/11",
+        "as": "২:১০ 10/11"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Overlap between 2 and 3 occurs at 2 hours and 10 10/11 minutes.",
+      "as": "২ আৰু ৩ ৰ মাজত ওপৰাওপৰ হয় ২ বজা ১০ ১০/১১ মিনিটত।"
+    }
+  },
+  {
+    "id": "clock-calendar-025",
+    "q": {
+      "en": "If today is Monday, what day will it be after 15 days?",
+      "as": "আজি সোমবাৰ হ'লে ১৫ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "15 divided by 7 leaves 1, so one day after Monday is Tuesday.",
+      "as": "১৫ ÷ ৭ ৰ ভাগশেষ ১, গতিকে সোমবাৰৰ এদিন পিছত মঙ্গলবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-026",
+    "q": {
+      "en": "If today is Friday, what day was it 10 days ago?",
+      "as": "আজি শুক্ৰবাৰ হ'লে ১০ দিন আগতে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "10 divided by 7 leaves 3; three days before Friday is Tuesday.",
+      "as": "১০ ÷ ৭ ৰ ভাগশেষ ৩; শুক্ৰবাৰৰ তিনিদিন আগতে মঙ্গলবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-027",
+    "q": {
+      "en": "If 1 January 2023 was a Sunday, what day was 1 February 2023?",
+      "as": "১ জানুৱাৰী ২০২৩ দেওবাৰ হ'লে ১ ফেব্ৰুৱাৰী ২০২৩ কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "January has 31 days; 31 mod 7 = 3, so Sunday + 3 = Wednesday.",
+      "as": "জানুৱাৰীত ৩১ দিন; ৩১ mod ৭ = ৩, গতিকে দেওবাৰ + ৩ = বুধবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-028",
+    "q": {
+      "en": "How many days are there in a leap year?",
+      "as": "অধিবৰ্ষ এটাত কিমান দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "367",
+        "as": "৩৬৭"
+      },
+      {
+        "en": "365",
+        "as": "৩৬৫"
+      },
+      {
+        "en": "364",
+        "as": "৩৬৪"
+      },
+      {
+        "en": "366",
+        "as": "৩৬৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A leap year has 366 days.",
+      "as": "অধিবৰ্ষত ৩৬৬ দিন থাকে।"
+    }
+  },
+  {
+    "id": "clock-calendar-029",
+    "q": {
+      "en": "How many odd days does a common year of 365 days contain?",
+      "as": "৩৬৫ দিনৰ এটা সাধাৰণ বছৰত কিমান অযুগ্ম দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "365 mod 7 = 1, so a common year has 1 odd day.",
+      "as": "৩৬৫ mod ৭ = ১, গতিকে সাধাৰণ বছৰত ১ অযুগ্ম দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-030",
+    "q": {
+      "en": "A leap year of 366 days leaves how many odd days?",
+      "as": "৩৬৬ দিনৰ এটা অধিবৰ্ষই কিমান অযুগ্ম দিন এৰি যায়?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "366 mod 7 = 2, so a leap year leaves 2 odd days.",
+      "as": "৩৬৬ mod ৭ = ২, গতিকে অধিবৰ্ষই ২ অযুগ্ম দিন এৰি যায়।"
+    }
+  },
+  {
+    "id": "clock-calendar-031",
+    "q": {
+      "en": "If today is Sunday, what day will it be after 100 days?",
+      "as": "আজি দেওবাৰ হ'লে ১০০ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "100 mod 7 = 2, so Sunday + 2 = Tuesday.",
+      "as": "১০০ mod ৭ = ২, গতিকে দেওবাৰ + ২ = মঙ্গলবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-032",
+    "q": {
+      "en": "Which of these is a leap year?",
+      "as": "এইবোৰৰ কোনটো অধিবৰ্ষ?"
+    },
+    "options": [
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2024 is divisible by 4 and not a century year, so it is a leap year.",
+      "as": "২০২৪ ৪ ৰে বিভাজ্য আৰু শতবৰ্ষ নহয়, গতিকে অধিবৰ্ষ।"
+    }
+  },
+  {
+    "id": "clock-calendar-033",
+    "q": {
+      "en": "Which of these is NOT a leap year?",
+      "as": "এইবোৰৰ কোনটো অধিবৰ্ষ নহয়?"
+    },
+    "options": [
+      {
+        "en": "2000",
+        "as": "২০০০"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "1900",
+        "as": "১৯০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1900 is a century year not divisible by 400, so it is not a leap year.",
+      "as": "১৯০০ শতবৰ্ষ আৰু ৪০০ ৰে বিভাজ্য নহয়, গতিকে অধিবৰ্ষ নহয়।"
+    }
+  },
+  {
+    "id": "clock-calendar-034",
+    "q": {
+      "en": "If 1 March falls on a Wednesday, on which day does 1 April fall?",
+      "as": "১ মাৰ্চ বুধবাৰ হ'লে ১ এপ্ৰিল কি বাৰত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুক্ৰবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "March has 31 days; 31 mod 7 = 3, so Wednesday + 3 = Saturday.",
+      "as": "মাৰ্চত ৩১ দিন; ৩১ mod ৭ = ৩, গতিকে বুধবাৰ + ৩ = শনিবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-035",
+    "q": {
+      "en": "How many Sundays can a month of 31 days have at most?",
+      "as": "৩১ দিনৰ মাহত সৰ্বাধিক কিমান দেওবাৰ থাকিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "31 days allow up to 5 of any weekday.",
+      "as": "৩১ দিনত যিকোনো বাৰৰ সৰ্বাধিক ৫টা থাকিব পাৰে।"
+    }
+  },
+  {
+    "id": "clock-calendar-036",
+    "q": {
+      "en": "If today is Wednesday, what day will it be after 21 days?",
+      "as": "আজি বুধবাৰ হ'লে ২১ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুক্ৰবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "21 is a multiple of 7, so the day is the same, Wednesday.",
+      "as": "২১, ৭ ৰ গুণিতক, গতিকে বাৰ একেই, বুধবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-037",
+    "q": {
+      "en": "How many degrees does the minute hand move in 5 minutes?",
+      "as": "৫ মিনিটত মিনিটৰ কাঁটাই কিমান ডিগ্ৰী ঘূৰে?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The minute hand moves 6 degrees per minute, so 30 degrees in 5 minutes.",
+      "as": "মিনিটৰ কাঁটা মিনিটত ৬ ডিগ্ৰী ঘূৰে, গতিকে ৫ মিনিটত ৩০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-038",
+    "q": {
+      "en": "How many degrees does the minute hand move in 1 minute?",
+      "as": "১ মিনিটত মিনিটৰ কাঁটাই কিমান ডিগ্ৰী ঘূৰে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The minute hand covers 360 degrees in 60 minutes, i.e. 6 degrees per minute.",
+      "as": "মিনিটৰ কাঁটা ৬০ মিনিটত ৩৬০ ডিগ্ৰী, অৰ্থাৎ মিনিটত ৬ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-039",
+    "q": {
+      "en": "How many degrees does the hour hand move in one hour?",
+      "as": "এক ঘণ্টাত ঘণ্টাৰ কাঁটাই কিমান ডিগ্ৰী ঘূৰে?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The hour hand covers 360 degrees in 12 hours, i.e. 30 degrees per hour.",
+      "as": "ঘণ্টাৰ কাঁটা ১২ ঘণ্টাত ৩৬০ ডিগ্ৰী, অৰ্থাৎ ঘণ্টাত ৩০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-040",
+    "q": {
+      "en": "A clock shows 6 o'clock. What is the angle between the hands?",
+      "as": "ঘড়ীত ৬ বজা দেখুৱাইছে। কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "At 6 o'clock the hands are opposite, giving 180 degrees.",
+      "as": "৬ বজাত কাঁটাদুটা বিপৰীত, গতিকে ১৮০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-041",
+    "q": {
+      "en": "A clock shows 9 o'clock. What is the angle between the hands?",
+      "as": "ঘড়ীত ৯ বজা দেখুৱাইছে। কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At 9 o'clock the hands are at right angles, i.e. 90 degrees.",
+      "as": "৯ বজাত কাঁটাদুটা সমকোণত, অৰ্থাৎ ৯০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-042",
+    "q": {
+      "en": "A clock shows 12 o'clock. What is the angle between the hands?",
+      "as": "ঘড়ীত ১২ বজা দেখুৱাইছে। কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30 degrees",
+        "as": "৩০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      },
+      {
+        "en": "0 degrees",
+        "as": "০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "At 12 o'clock the hands coincide, so the angle is 0 degrees.",
+      "as": "১২ বজাত কাঁটাদুটা একেলগে, গতিকে কোণ ০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-043",
+    "q": {
+      "en": "How many times does a clock's hour hand rotate in 24 hours?",
+      "as": "২৪ ঘণ্টাত ঘণ্টাৰ কাঁটা কিমানবাৰ ঘূৰে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hour hand makes one full rotation in 12 hours, so 2 in 24 hours.",
+      "as": "ঘণ্টাৰ কাঁটা ১২ ঘণ্টাত এপাক ঘূৰে, গতিকে ২৪ ঘণ্টাত ২ পাক।"
+    }
+  },
+  {
+    "id": "clock-calendar-044",
+    "q": {
+      "en": "How many times does a clock's minute hand rotate in 12 hours?",
+      "as": "১২ ঘণ্টাত মিনিটৰ কাঁটা কিমানবাৰ ঘূৰে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The minute hand makes one full rotation each hour, so 12 in 12 hours.",
+      "as": "মিনিটৰ কাঁটা প্ৰতি ঘণ্টাত এপাক, গতিকে ১২ ঘণ্টাত ১২ পাক।"
+    }
+  },
+  {
+    "id": "clock-calendar-045",
+    "q": {
+      "en": "What is the angle between the hands at 2:15?",
+      "as": "2:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "7 degrees",
+        "as": "৭ ডিগ্ৰী"
+      },
+      {
+        "en": "52 degrees",
+        "as": "৫২ ডিগ্ৰী"
+      },
+      {
+        "en": "22 degrees",
+        "as": "২২ ডিগ্ৰী"
+      },
+      {
+        "en": "37 degrees",
+        "as": "৩৭ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the formula, the angle at 2:15 is 22 degrees.",
+      "as": "সূত্ৰ অনুসৰি 2:15 বজাত কোণ 22 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-046",
+    "q": {
+      "en": "What is the angle between the hands at 4:15?",
+      "as": "4:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "67 degrees",
+        "as": "৬৭ ডিগ্ৰী"
+      },
+      {
+        "en": "52 degrees",
+        "as": "৫২ ডিগ্ৰী"
+      },
+      {
+        "en": "37 degrees",
+        "as": "৩৭ ডিগ্ৰী"
+      },
+      {
+        "en": "22 degrees",
+        "as": "২২ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the formula, the angle at 4:15 is 37 degrees.",
+      "as": "সূত্ৰ অনুসৰি 4:15 বজাত কোণ 37 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-047",
+    "q": {
+      "en": "What is the angle between the hands at 6:15?",
+      "as": "6:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "112 degrees",
+        "as": "১১২ ডিগ্ৰী"
+      },
+      {
+        "en": "97 degrees",
+        "as": "৯৭ ডিগ্ৰী"
+      },
+      {
+        "en": "127 degrees",
+        "as": "১২৭ ডিগ্ৰী"
+      },
+      {
+        "en": "82 degrees",
+        "as": "৮২ ডিগ্ৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the formula, the angle at 6:15 is 97 degrees.",
+      "as": "সূত্ৰ অনুসৰি 6:15 বজাত কোণ 97 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-048",
+    "q": {
+      "en": "What is the angle between the hands at 9:15?",
+      "as": "9:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "172 degrees",
+        "as": "১৭২ ডিগ্ৰী"
+      },
+      {
+        "en": "187 degrees",
+        "as": "১৮৭ ডিগ্ৰী"
+      },
+      {
+        "en": "157 degrees",
+        "as": "১৫৭ ডিগ্ৰী"
+      },
+      {
+        "en": "202 degrees",
+        "as": "২০২ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using the formula, the angle at 9:15 is 172 degrees.",
+      "as": "সূত্ৰ অনুসৰি 9:15 বজাত কোণ 172 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-049",
+    "q": {
+      "en": "What is the angle between the hands at 11:15?",
+      "as": "11:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "97 degrees",
+        "as": "৯৭ ডিগ্ৰী"
+      },
+      {
+        "en": "127 degrees",
+        "as": "১২৭ ডিগ্ৰী"
+      },
+      {
+        "en": "112 degrees",
+        "as": "১১২ ডিগ্ৰী"
+      },
+      {
+        "en": "142 degrees",
+        "as": "১৪২ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the formula, the angle at 11:15 is 112 degrees.",
+      "as": "সূত্ৰ অনুসৰি 11:15 বজাত কোণ 112 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-050",
+    "q": {
+      "en": "What is the angle between the hands at 1:45?",
+      "as": "1:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "172 degrees",
+        "as": "১৭২ ডিগ্ৰী"
+      },
+      {
+        "en": "142 degrees",
+        "as": "১৪২ ডিগ্ৰী"
+      },
+      {
+        "en": "127 degrees",
+        "as": "১২৭ ডিগ্ৰী"
+      },
+      {
+        "en": "157 degrees",
+        "as": "১৫৭ ডিগ্ৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the formula, the angle at 1:45 is 142 degrees.",
+      "as": "সূত্ৰ অনুসৰি 1:45 বজাত কোণ 142 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-051",
+    "q": {
+      "en": "What is the angle between the hands at 3:45?",
+      "as": "3:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "142 degrees",
+        "as": "১৪২ ডিগ্ৰী"
+      },
+      {
+        "en": "172 degrees",
+        "as": "১৭২ ডিগ্ৰী"
+      },
+      {
+        "en": "157 degrees",
+        "as": "১৫৭ ডিগ্ৰী"
+      },
+      {
+        "en": "187 degrees",
+        "as": "১৮৭ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the formula, the angle at 3:45 is 157 degrees.",
+      "as": "সূত্ৰ অনুসৰি 3:45 বজাত কোণ 157 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-052",
+    "q": {
+      "en": "What is the angle between the hands at 5:45?",
+      "as": "5:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "82 degrees",
+        "as": "৮২ ডিগ্ৰী"
+      },
+      {
+        "en": "97 degrees",
+        "as": "৯৭ ডিগ্ৰী"
+      },
+      {
+        "en": "127 degrees",
+        "as": "১২৭ ডিগ্ৰী"
+      },
+      {
+        "en": "112 degrees",
+        "as": "১১২ ডিগ্ৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the formula, the angle at 5:45 is 97 degrees.",
+      "as": "সূত্ৰ অনুসৰি 5:45 বজাত কোণ 97 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-053",
+    "q": {
+      "en": "What is the angle between the hands at 7:45?",
+      "as": "7:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "37 degrees",
+        "as": "৩৭ ডিগ্ৰী"
+      },
+      {
+        "en": "67 degrees",
+        "as": "৬৭ ডিগ্ৰী"
+      },
+      {
+        "en": "22 degrees",
+        "as": "২২ ডিগ্ৰী"
+      },
+      {
+        "en": "52 degrees",
+        "as": "৫২ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using the formula, the angle at 7:45 is 37 degrees.",
+      "as": "সূত্ৰ অনুসৰি 7:45 বজাত কোণ 37 ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "clock-calendar-054",
+    "q": {
+      "en": "What is the angle between the hands at 10:45?",
+      "as": "10:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "82 degrees",
+        "as": "৮২ ডিগ্ৰী"
+      },
+      {
+        "en": "67 degrees",
+        "as": "৬৭ ডিগ্ৰী"
+      },
+      {
+        "en": "52 degrees",
+        "as": "৫২ ডিগ্ৰী"
+      },
+      {
+        "en": "37 degrees",
+        "as": "৩৭ ডিগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the formula, the angle at 10:45 is 52 degrees.",
+      "as": "সূত্ৰ অনুসৰি 10:45 বজাত কোণ 52 ডিগ্ৰী।"
     }
   }
 ]

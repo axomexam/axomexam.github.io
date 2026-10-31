@@ -2,121 +2,1651 @@
   {
     "id": "venn-diagrams-001",
     "q": {
-      "en": "All cats are animals. Which relation is correct?",
-      "as": "সকলো মেকুৰী প্ৰাণী। কোনটো সম্পৰ্ক শুদ্ধ?"
+      "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Men'?",
+      "as": "'Doctors' আৰু 'Men' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
     },
     "options": [
       {
-        "en": "Cats lie inside the circle of animals",
-        "as": "মেকুৰীৰ বৃত্ত প্ৰাণীৰ ভিতৰত থাকে"
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
       },
       {
-        "en": "Animals lie inside the circle of cats",
-        "as": "প্ৰাণীৰ বৃত্ত মেকুৰীৰ ভিতৰত থাকে"
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
       },
       {
-        "en": "The circles are separate",
-        "as": "বৃত্ত দুটা বেলেগ"
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
       },
       {
-        "en": "The circles are partly overlapping",
-        "as": "বৃত্ত দুটা আংশিক ওপৰাওপৰ"
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
-      "en": "If all cats are animals, the circle of cats lies entirely inside the circle of animals.",
-      "as": "সকলো মেকুৰী প্ৰাণী হ'লে মেকুৰীৰ বৃত্ত প্ৰাণীৰ বৃত্তৰ ভিতৰত সম্পূৰ্ণভাৱে থাকে।"
+      "en": "Some doctors are men and some men are doctors, so the circles intersect.",
+      "as": "কিছুমান ডাক্তৰ পুৰুষ আৰু কিছুমান পুৰুষ ডাক্তৰ, গতিকে বৃত্ত দুটাই কটাকটি কৰে।"
     }
   },
   {
     "id": "venn-diagrams-002",
     "q": {
-      "en": "If no rose is a flower that is blue, the circles for 'rose' and 'blue flower' are —",
-      "as": "'কোনো গোলাপ নীলা ফুল নহয়' হ'লে 'গোলাপ' আৰু 'নীলা ফুল' ৰ বৃত্ত দুটা —"
+      "en": "Which Venn diagram best shows the relation between 'Flowers' and 'Roses'?",
+      "as": "'Flowers' আৰু 'Roses' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
     },
     "options": [
       {
-        "en": "Separate",
-        "as": "বেলেগ"
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
       },
       {
-        "en": "One inside the other",
-        "as": "এটা আনটোৰ ভিতৰত"
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
       },
       {
-        "en": "Overlapping",
-        "as": "ওপৰাওপৰ"
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
       },
       {
-        "en": "Identical",
-        "as": "একে"
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
-      "en": "When two classes have nothing in common, their circles are drawn separately.",
-      "as": "দুটা শ্ৰেণীৰ মাজত একো সাধাৰণ নাথাকিলে তেওঁলোকৰ বৃত্ত বেলেগে অঁকা হয়।"
+      "en": "All roses are flowers, so the rose circle lies inside the flower circle.",
+      "as": "সকলো গোলাপ ফুল, গতিকে গোলাপৰ বৃত্ত ফুলৰ বৃত্তৰ ভিতৰত।"
     }
   },
   {
     "id": "venn-diagrams-003",
     "q": {
-      "en": "Some doctors are writers. The circles for 'doctors' and 'writers' are —",
-      "as": "কিছুমান ডাক্তৰ লেখক। 'ডাক্তৰ' আৰু 'লেখক' ৰ বৃত্ত দুটা —"
+      "en": "Which Venn diagram best shows the relation between 'Cats' and 'Dogs'?",
+      "as": "'Cats' আৰু 'Dogs' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
     },
     "options": [
       {
-        "en": "Separate",
-        "as": "বেলেগ"
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
       },
       {
-        "en": "Overlapping",
-        "as": "ওপৰাওপৰ"
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
       },
       {
-        "en": "Identical",
-        "as": "একে"
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
       },
       {
-        "en": "One inside the other",
-        "as": "এটা আনটোৰ ভিতৰত"
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
       }
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
-      "en": "Some doctors are writers means the two classes partly overlap.",
-      "as": "কিছুমান ডাক্তৰ লেখক মানে দুটা শ্ৰেণী আংশিকভাৱে ওপৰাওপৰ।"
+      "en": "No cat is a dog, so the two circles are separate.",
+      "as": "কোনো মেকুৰী কুকুৰ নহয়, গতিকে দুটা বৃত্ত সুকীয়া।"
     }
   },
   {
     "id": "venn-diagrams-004",
     "q": {
-      "en": "All pens are tools and all tools are useful. Then —",
-      "as": "সকলো কলম সঁজুলি আৰু সকলো সঁজুলি উপযোগী। তেন্তে —"
+      "en": "Which Venn diagram best shows the relation between 'Teachers' and 'Musicians'?",
+      "as": "'Teachers' আৰু 'Musicians' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
     },
     "options": [
       {
-        "en": "all pens are useful",
-        "as": "সকলো কলম উপযোগী"
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
       },
       {
-        "en": "no pen is useful",
-        "as": "কোনো কলম উপযোগী নহয়"
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
       },
       {
-        "en": "some pens are not useful",
-        "as": "কিছুমান কলম উপযোগী নহয়"
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
       },
       {
-        "en": "cannot be determined",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "Since all pens are tools and all tools are useful, all pens are useful.",
-      "as": "সকলো কলম সঁজুলি আৰু সকলো সঁজুলি উপযোগী, গতিকে সকলো কলম উপযোগী।"
+      "en": "A person can be both a teacher and a musician, so the circles intersect.",
+      "as": "এজন ব্যক্তি শিক্ষক আৰু সংগীতজ্ঞ দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-005",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Fruits' and 'Mangoes'?",
+      "as": "'Fruits' আৰু 'Mangoes' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All mangoes are fruits, so mangoes lie inside fruits.",
+      "as": "সকলো আম ফল, গতিকে আম ফলৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-006",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Boys' and 'Girls'?",
+      "as": "'Boys' আৰু 'Girls' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A person cannot be both a boy and a girl, so the circles are separate.",
+      "as": "এজন ব্যক্তি ল'ৰা আৰু ছোৱালী দুয়ো হ'ব নোৱাৰে, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-007",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Engineers' and 'Indians'?",
+      "as": "'Engineers' আৰু 'Indians' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Some engineers are Indians and some Indians are engineers, so the circles intersect.",
+      "as": "কিছুমান ইঞ্জিনিয়াৰ ভাৰতীয়, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-008",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Birds' and 'Parrots'?",
+      "as": "'Birds' আৰু 'Parrots' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All parrots are birds, so parrots lie inside birds.",
+      "as": "সকলো ভাটৌ চৰাই, গতিকে ভাটৌ চৰাইৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-009",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Odd numbers' and 'Even numbers'?",
+      "as": "'Odd numbers' আৰু 'Even numbers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "No number is both odd and even, so the circles are separate.",
+      "as": "কোনো সংখ্যা অযুগ্ম আৰু যুগ্ম দুয়ো নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-010",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Squares' and 'Rectangles'?",
+      "as": "'Squares' আৰু 'Rectangles' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Every square is a rectangle, so squares lie inside rectangles.",
+      "as": "প্ৰতিটো বৰ্গ এটা আয়তক্ষেত্ৰ, গতিকে বৰ্গ আয়তক্ষেত্ৰৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-011",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Patients'?",
+      "as": "'Doctors' আৰু 'Patients' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A doctor may also be a patient, so the circles intersect.",
+      "as": "এজন ডাক্তৰ ৰোগীও হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-012",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Rivers' and 'Ganga'?",
+      "as": "'Rivers' আৰু 'Ganga' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ganga is a river, so it lies inside rivers.",
+      "as": "গংগা এখন নদী, গতিকে নদীৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-013",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Men' and 'Women'?",
+      "as": "'Men' আৰু 'Women' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "No person is both a man and a woman, so the circles are separate.",
+      "as": "কোনো ব্যক্তি পুৰুষ আৰু মহিলা দুয়ো নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-014",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Singers' and 'Dancers'?",
+      "as": "'Singers' আৰু 'Dancers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A person can be both a singer and a dancer, so the circles intersect.",
+      "as": "এজন ব্যক্তি গায়ক আৰু নৃত্যশিল্পী দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-015",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Trees' and 'Banyan'?",
+      "as": "'Trees' আৰু 'Banyan' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A banyan is a tree, so it lies inside trees.",
+      "as": "বৰগছ এজোপা গছ, গতিকে গছৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-016",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Pens' and 'Books'?",
+      "as": "'Pens' আৰু 'Books' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A pen is not a book, so the circles are separate.",
+      "as": "কলম কিতাপ নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-017",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Students' and 'Players'?",
+      "as": "'Students' আৰু 'Players' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A student can also be a player, so the circles intersect.",
+      "as": "এজন ছাত্ৰ খেলুৱৈও হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-018",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Mammals' and 'Whales'?",
+      "as": "'Mammals' আৰু 'Whales' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A whale is a mammal, so it lies inside mammals.",
+      "as": "তিমি এটা স্তন্যপায়ী, গতিকে স্তন্যপায়ীৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-019",
+    "q": {
+      "en": "In a class of 40 students, 25 play cricket and 20 play football. If 10 play both, how many play at least one game?",
+      "as": "৪০ জনৰ শ্ৰেণীত ২৫ জনে ক্ৰিকেট আৰু ২০ জনে ফুটবল খেলে। ১০ জনে দুয়োটা খেলে। অন্ততঃ এটা খেল কিমানজনে খেলে?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At least one = 25 + 20 − 10 = 35.",
+      "as": "অন্ততঃ এটা = 25 + 20 − 10 = 35।"
+    }
+  },
+  {
+    "id": "venn-diagrams-020",
+    "q": {
+      "en": "In a group of 50 people, 30 speak Hindi and 25 speak English. If 10 speak both, how many speak only Hindi?",
+      "as": "৫০ জনৰ দলত ৩০ জনে হিন্দী আৰু ২৫ জনে ইংৰাজী কয়। ১০ জনে দুয়োটা কয়। কেৱল হিন্দী কিমানজনে কয়?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only Hindi = 30 − 10 = 20.",
+      "as": "কেৱল হিন্দী = 30 − 10 = 20।"
+    }
+  },
+  {
+    "id": "venn-diagrams-021",
+    "q": {
+      "en": "In a survey of 100 people, 60 like tea and 50 like coffee. If 20 like both, how many like neither?",
+      "as": "১০০ জনৰ সমীক্ষাত ৬০ জনে চাহ আৰু ৫০ জনে কফি ভাল পায়। ২০ জনে দুয়োটা ভাল পায়। কিমানজনে একোৱেই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 60 + 50 − 20 = 90, so neither = 100 − 90 = 10.",
+      "as": "অন্ততঃ এটা = 90, গতিকে একোৱেই নহয় = 10।"
+    }
+  },
+  {
+    "id": "venn-diagrams-022",
+    "q": {
+      "en": "In a class, 18 play only football, 12 play only cricket and 5 play both. How many play at least one game?",
+      "as": "এখন শ্ৰেণীত ১৮ জনে কেৱল ফুটবল, ১২ জনে কেৱল ক্ৰিকেট আৰু ৫ জনে দুয়োটা খেলে। অন্ততঃ এটা কিমানজনে খেলে?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 18 + 12 + 5 = 35.",
+      "as": "মুঠ = 18 + 12 + 5 = 35।"
+    }
+  },
+  {
+    "id": "venn-diagrams-023",
+    "q": {
+      "en": "In a group of 60, 35 read newspaper A and 30 read newspaper B. If 15 read both, how many read only B?",
+      "as": "৬০ জনৰ দলত ৩৫ জনে A বাতৰি কাকত আৰু ৩০ জনে B পঢ়ে। ১৫ জনে দুয়োটা পঢ়ে। কেৱল B কিমানজনে পঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only B = 30 − 15 = 15.",
+      "as": "কেৱল B = 30 − 15 = 15।"
+    }
+  },
+  {
+    "id": "venn-diagrams-024",
+    "q": {
+      "en": "In a class of 45, 25 like maths and 20 like science. If 5 like both, how many like neither?",
+      "as": "৪৫ জনৰ শ্ৰেণীত ২৫ জনে গণিত আৰু ২০ জনে বিজ্ঞান ভাল পায়। ৫ জনে দুয়োটা ভাল পায়। কিমানজনে একোৱেই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 25 + 20 − 5 = 40, so neither = 45 − 40 = 5.",
+      "as": "অন্ততঃ এটা = 40, গতিকে একোৱেই নহয় = 5।"
+    }
+  },
+  {
+    "id": "venn-diagrams-025",
+    "q": {
+      "en": "In a group, 40 know Assamese, 30 know Bengali and 20 know both. How many know at least one language?",
+      "as": "এটা দলত ৪০ জনে অসমীয়া, ৩০ জনে বঙালী আৰু ২০ জনে দুয়োটা জানে। অন্ততঃ এটা ভাষা কিমানজনে জানে?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At least one = 40 + 30 − 20 = 50.",
+      "as": "অন্ততঃ এটা = 40 + 30 − 20 = 50।"
+    }
+  },
+  {
+    "id": "venn-diagrams-026",
+    "q": {
+      "en": "In a survey, 70 read English papers, 50 read Assamese papers and 30 read both. How many read only English?",
+      "as": "এটা সমীক্ষাত ৭০ জনে ইংৰাজী, ৫০ জনে অসমীয়া কাকত পঢ়ে আৰু ৩০ জনে দুয়োটা। কেৱল ইংৰাজী কিমানজনে পঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only English = 70 − 30 = 40.",
+      "as": "কেৱল ইংৰাজী = 70 − 30 = 40।"
+    }
+  },
+  {
+    "id": "venn-diagrams-027",
+    "q": {
+      "en": "In a class, 20 play cricket, 25 play hockey and 8 play both. How many play at least one game?",
+      "as": "এখন শ্ৰেণীত ২০ জনে ক্ৰিকেট, ২৫ জনে হকী আৰু ৮ জনে দুয়োটা খেলে। অন্ততঃ এটা কিমানজনে খেলে?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At least one = 20 + 25 − 8 = 37.",
+      "as": "অন্ততঃ এটা = 20 + 25 − 8 = 37।"
+    }
+  },
+  {
+    "id": "venn-diagrams-028",
+    "q": {
+      "en": "In a group of 80, 45 like milk and 35 like tea. If 15 like both, how many like neither?",
+      "as": "৮০ জনৰ দলত ৪৫ জনে গাখীৰ আৰু ৩৫ জনে চাহ ভাল পায়। ১৫ জনে দুয়োটা ভাল পায়। কিমানজনে একোৱেই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At least one = 45 + 35 − 15 = 65, so neither = 80 − 65 = 15.",
+      "as": "অন্ততঃ এটা = 65, গতিকে একোৱেই নহয় = 15।"
+    }
+  },
+  {
+    "id": "venn-diagrams-029",
+    "q": {
+      "en": "In a class of 50, 30 pass maths, 25 pass English and 10 pass both. How many pass exactly one subject?",
+      "as": "৫০ জনৰ শ্ৰেণীত ৩০ জনে গণিত, ২৫ জনে ইংৰাজীত পাছ আৰু ১০ জনে দুয়োতেই পাছ। ঠিক এটা বিষয়ত কিমানজনে পাছ?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = (30−10) + (25−10) = 35.",
+      "as": "ঠিক এটা = (30−10) + (25−10) = 35।"
+    }
+  },
+  {
+    "id": "venn-diagrams-030",
+    "q": {
+      "en": "In a group, 12 like only tea, 15 like only coffee and 8 like both. How many like tea?",
+      "as": "এটা দলত ১২ জনে কেৱল চাহ, ১৫ জনে কেৱল কফি আৰু ৮ জনে দুয়োটা ভাল পায়। কিমানজনে চাহ ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tea total = only tea + both = 12 + 8 = 20.",
+      "as": "চাহ মুঠ = কেৱল চাহ + দুয়োটা = 12 + 8 = 20।"
+    }
+  },
+  {
+    "id": "venn-diagrams-031",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Engineers'?",
+      "as": "'Doctors' আৰু 'Engineers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A person can be both a doctor and an engineer, so the circles intersect.",
+      "as": "এজন ব্যক্তি ডাক্তৰ আৰু ইঞ্জিনিয়াৰ দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-032",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Furniture' and 'Tables'?",
+      "as": "'Furniture' আৰু 'Tables' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All tables are furniture, so tables lie inside furniture.",
+      "as": "সকলো মেজ আচবাব, গতিকে মেজ আচবাবৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-033",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Cats' and 'Rats'?",
+      "as": "'Cats' আৰু 'Rats' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A cat is not a rat, so the circles are separate.",
+      "as": "মেকুৰী এটা নিগনী নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-034",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Painters' and 'Poets'?",
+      "as": "'Painters' আৰু 'Poets' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A person can be both a painter and a poet, so the circles intersect.",
+      "as": "এজন ব্যক্তি চিত্ৰকৰ আৰু কবি দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-035",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Cereals' and 'Rice'?",
+      "as": "'Cereals' আৰু 'Rice' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rice is a cereal, so rice lies inside cereals.",
+      "as": "চাউল এটা শস্য, গতিকে শস্যৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-036",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Sun' and 'Moon'?",
+      "as": "'Sun' আৰু 'Moon' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The sun and the moon are different bodies, so the circles are separate.",
+      "as": "সূৰ্য্য আৰু চন্দ্ৰ সুকীয়া, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-037",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Politicians' and 'Writers'?",
+      "as": "'Politicians' আৰু 'Writers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A person can be both a politician and a writer, so the circles intersect.",
+      "as": "এজন ব্যক্তি ৰাজনীতিবিদ আৰু লেখক দুয়ো হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-038",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Mammals' and 'Humans'?",
+      "as": "'Mammals' আৰু 'Humans' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All humans are mammals, so humans lie inside mammals.",
+      "as": "সকলো মানুহ স্তন্যপায়ী, গতিকে মানুহ স্তন্যপায়ীৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-039",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Chairs' and 'Tables'?",
+      "as": "'Chairs' আৰু 'Tables' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A chair is not a table, so the circles are separate.",
+      "as": "চকী মেজ নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-040",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Teachers' and 'Writers'?",
+      "as": "'Teachers' আৰু 'Writers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A person can be both a teacher and a writer, so the circles intersect.",
+      "as": "এজন ব্যক্তি শিক্ষক আৰু লেখক দুয়ো হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-041",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Vehicles' and 'Cars'?",
+      "as": "'Vehicles' আৰু 'Cars' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All cars are vehicles, so cars lie inside vehicles.",
+      "as": "সকলো গাড়ী যানবাহন, গতিকে গাড়ী যানবাহনৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-042",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Cricket' and 'Football'?",
+      "as": "'Cricket' আৰু 'Football' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "No single game is both cricket and football, so the circles are separate.",
+      "as": "এখন খেল ক্ৰিকেট আৰু ফুটবল দুয়ো নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-043",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Scientists' and 'Mathematicians'?",
+      "as": "'Scientists' আৰু 'Mathematicians' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A person can be both a scientist and a mathematician, so the circles intersect.",
+      "as": "এজন ব্যক্তি বিজ্ঞানী আৰু গণিতজ্ঞ দুয়ো হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-044",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Metals' and 'Gold'?",
+      "as": "'Metals' আৰু 'Gold' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gold is a metal, so gold lies inside metals.",
+      "as": "সোণ এটা ধাতু, গতিকে ধাতুৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-045",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Boys' and 'Players'?",
+      "as": "'Boys' আৰু 'Players' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A boy can also be a player, so the circles intersect.",
+      "as": "এজন ল'ৰা খেলুৱৈও হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-046",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Flowers' and 'Lotus'?",
+      "as": "'Flowers' আৰু 'Lotus' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The lotus is a flower, so it lies inside flowers.",
+      "as": "পদুম এটা ফুল, গতিকে ফুলৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-047",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Mountains' and 'Rivers'?",
+      "as": "'Mountains' আৰু 'Rivers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A mountain is not a river, so the circles are separate.",
+      "as": "পৰ্বত এখন নদী নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-048",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Teachers'?",
+      "as": "'Doctors' আৰু 'Teachers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersecA",
+        "as": "The two circles intersecA"
+      },
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A person can be both a doctor and a teacher, so the circles intersect.",
+      "as": "এজন ব্যক্তি ডাক্তৰ আৰু শিক্ষক দুয়ো হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-049",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Trees' and 'Pines'?",
+      "as": "'Trees' আৰু 'Pines' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The first circle lies inside the seconK",
+        "as": "The first circle lies inside the seconK"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A pine is a tree, so pines lie inside trees.",
+      "as": "পাইন এজোপা গছ, গতিকে গছৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagrams-050",
+    "q": {
+      "en": "Which Venn diagram best shows the relation between 'Pens' and 'Ink'?",
+      "as": "'Pens' আৰু 'Ink' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+    },
+    "options": [
+      {
+        "en": "The two circles intersect",
+        "as": "দুটা বৃত্তে কটাকটি কৰে"
+      },
+      {
+        "en": "The two circles are separatL",
+        "as": "The two circles are separatL"
+      },
+      {
+        "en": "The two circles are separate",
+        "as": "দুটা বৃত্ত সুকীয়া"
+      },
+      {
+        "en": "The first circle lies inside the second",
+        "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A pen is not ink, so the circles are separate.",
+      "as": "কলম চিয়াহী নহয়, গতিকে বৃত্ত সুকীয়া।"
+    }
+  },
+  {
+    "id": "venn-diagrams-051",
+    "q": {
+      "en": "In a class of 35, 20 like tea and 18 like coffee. If 8 like both, how many like at least one?",
+      "as": "৩৫ জনৰ শ্ৰেণীত ২০ জনে চাহ আৰু ১৮ জনে কফি ভাল পায়। ৮ জনে দুয়োটা ভাল পায়। অন্ততঃ এটা কিমানজনে ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At least one = 20 + 18 − 8 = 30.",
+      "as": "অন্ততঃ এটা = 20 + 18 − 8 = 30।"
+    }
+  },
+  {
+    "id": "venn-diagrams-052",
+    "q": {
+      "en": "In a group of 90, 50 play chess and 40 play carrom. If 20 play both, how many play neither?",
+      "as": "৯০ জনৰ দলত ৫০ জনে দবা আৰু ৪০ জনে কেৰাম খেলে। ২০ জনে দুয়োটা খেলে। কিমানজনে একোৱেই নেখেলে?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At least one = 50 + 40 − 20 = 70, so neither = 90 − 70 = 20.",
+      "as": "অন্ততঃ এটা = 70, গতিকে একোৱেই নহয় = 20।"
+    }
+  },
+  {
+    "id": "venn-diagrams-053",
+    "q": {
+      "en": "In a survey of 120, 70 read English and 60 read Hindi. If 30 read both, how many read only English?",
+      "as": "১২০ জনৰ সমীক্ষাত ৭০ জনে ইংৰাজী আৰু ৬০ জনে হিন্দী পঢ়ে। ৩০ জনে দুয়োটা পঢ়ে। কেৱল ইংৰাজী কিমানজনে পঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only English = 70 − 30 = 40.",
+      "as": "কেৱল ইংৰাজী = 70 − 30 = 40।"
+    }
+  },
+  {
+    "id": "venn-diagrams-054",
+    "q": {
+      "en": "In a class, 22 play only hockey, 16 play only football and 9 play both. How many play at least one?",
+      "as": "এখন শ্ৰেণীত ২২ জনে কেৱল হকী, ১৬ জনে কেৱল ফুটবল আৰু ৯ জনে দুয়োটা খেলে। অন্ততঃ এটা কিমানজনে খেলে?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 22 + 16 + 9 = 47.",
+      "as": "মুঠ = 22 + 16 + 9 = 47।"
+    }
+  },
+  {
+    "id": "venn-diagrams-055",
+    "q": {
+      "en": "In a group, 15 know French, 25 know German and 10 know both. How many know at least one language?",
+      "as": "এটা দলত ১৫ জনে ফৰাচী, ২৫ জনে জাৰ্মান আৰু ১০ জনে দুয়োটা জানে। অন্ততঃ এটা ভাষা কিমানজনে জানে?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At least one = 15 + 25 − 10 = 30.",
+      "as": "অন্ততঃ এটা = 15 + 25 − 10 = 30।"
     }
   }
 ]

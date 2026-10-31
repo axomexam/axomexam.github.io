@@ -2,121 +2,1741 @@
   {
     "id": "coding-decoding-001",
     "q": {
-      "en": "If CAT is coded as DBU, then DOG is coded as —",
-      "as": "CAT ক DBU হিচাপে সংকেত কৰিলে DOG ক সংকেত কৰা হয় —"
+      "en": "If CAT is coded as DBU, then DBU is coded as —",
+      "as": "যদি CAT ক DBU হিচাপে সংকেত কৰা হয়, তেন্তে DBU ক সংকেত কৰা হয় —"
     },
     "options": [
       {
-        "en": "EPH",
-        "as": "EPH"
+        "en": "DBU",
+        "as": "DBU"
       },
       {
-        "en": "EPI",
-        "as": "EPI"
+        "en": "ECV",
+        "as": "ECV"
       },
       {
-        "en": "FPH",
-        "as": "FPH"
+        "en": "FDW",
+        "as": "FDW"
       },
       {
-        "en": "DPH",
-        "as": "DPH"
+        "en": "ECW",
+        "as": "ECW"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
-      "en": "Each letter moves one step forward, so DOG becomes EPH.",
-      "as": "প্ৰতিটো আখৰ এখোজ আগলৈ যায়, গতিকে DOG এ EPH হয়।"
+      "en": "Each letter moves +1 step(s) in the alphabet, so DBU becomes ECV.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +1 খোজ যায়, গতিকে DBU এ ECV হয়।"
     }
   },
   {
     "id": "coding-decoding-002",
     "q": {
-      "en": "If A = 1, B = 2, C = 3, then the code for CAB is —",
-      "as": "A = 1, B = 2, C = 3 হ'লে CAB ৰ সংকেত —"
+      "en": "If BOOK is coded as ERRN, then ERRN is coded as —",
+      "as": "যদি BOOK ক ERRN হিচাপে সংকেত কৰা হয়, তেন্তে ERRN ক সংকেত কৰা হয় —"
     },
     "options": [
       {
-        "en": "312",
-        "as": "৩১২"
+        "en": "IVVR",
+        "as": "IVVR"
       },
       {
-        "en": "321",
-        "as": "৩২১"
+        "en": "FSSO",
+        "as": "FSSO"
       },
       {
-        "en": "123",
-        "as": "১২৩"
+        "en": "GTTP",
+        "as": "GTTP"
       },
       {
-        "en": "213",
-        "as": "২১৩"
+        "en": "HUUQ",
+        "as": "HUUQ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
-      "en": "C is 3, A is 1 and B is 2, so CAB is 312.",
-      "as": "C হৈছে 3, A হৈছে 1 আৰু B হৈছে 2, গতিকে CAB হৈছে 312।"
+      "en": "Each letter moves +3 step(s) in the alphabet, so ERRN becomes HUUQ.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +3 খোজ যায়, গতিকে ERRN এ HUUQ হয়।"
     }
   },
   {
     "id": "coding-decoding-003",
     "q": {
-      "en": "If MOUSE is coded as NVP TF by shifting each letter one step forward, the last letter of the code is —",
-      "as": "MOUSE ৰ প্ৰতিটো আখৰ এক এখোজ আগবঢ়াই NVP TF হিচাপে সংকেত কৰিলে সংকেতৰ শেষ আখৰ —"
+      "en": "If FISH is coded as JMWL, then JMWL is coded as —",
+      "as": "যদি FISH ক JMWL হিচাপে সংকেত কৰা হয়, তেন্তে JMWL ক সংকেত কৰা হয় —"
     },
     "options": [
       {
-        "en": "E",
-        "as": "E"
+        "en": "KNXM",
+        "as": "KNXM"
       },
       {
-        "en": "F",
-        "as": "F"
+        "en": "MPZO",
+        "as": "MPZO"
       },
       {
-        "en": "G",
-        "as": "G"
+        "en": "NQAP",
+        "as": "NQAP"
       },
       {
-        "en": "T",
-        "as": "T"
+        "en": "ORBQ",
+        "as": "ORBQ"
       }
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
-      "en": "The last letter E moves one step forward to F.",
-      "as": "শেষ আখৰ E এক এখোজ আগবাঢ়ি F হয়।"
+      "en": "Each letter moves +4 step(s) in the alphabet, so JMWL becomes NQAP.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +4 খোজ যায়, গতিকে JMWL এ NQAP হয়।"
     }
   },
   {
     "id": "coding-decoding-004",
     "q": {
-      "en": "If RAM is coded as SBN, then SUN is coded as —",
-      "as": "RAM ক SBN হিচাপে সংকেত কৰিলে SUN ক সংকেত কৰা হয় —"
+      "en": "If STAR is coded as YZGX, then YZGX is coded as —",
+      "as": "যদি STAR ক YZGX হিচাপে সংকেত কৰা হয়, তেন্তে YZGX ক সংকেত কৰা হয় —"
     },
     "options": [
       {
-        "en": "TVO",
-        "as": "TVO"
+        "en": "DELC",
+        "as": "DELC"
       },
       {
-        "en": "TVP",
-        "as": "TVP"
+        "en": "FGNE",
+        "as": "FGNE"
       },
       {
-        "en": "TVN",
-        "as": "TVN"
+        "en": "EFMD",
+        "as": "EFMD"
       },
       {
-        "en": "SVO",
-        "as": "SVO"
+        "en": "ZAHY",
+        "as": "ZAHY"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each letter moves +6 step(s) in the alphabet, so YZGX becomes EFMD.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +6 খোজ যায়, গতিকে YZGX এ EFMD হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-005",
+    "q": {
+      "en": "If MOON is coded as GIIH, then GIIH is coded as —",
+      "as": "যদি MOON ক GIIH হিচাপে সংকেত কৰা হয়, তেন্তে GIIH ক সংকেত কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "ZBBA",
+        "as": "ZBBA"
+      },
+      {
+        "en": "ACCB",
+        "as": "ACCB"
+      },
+      {
+        "en": "BDDC",
+        "as": "BDDC"
+      },
+      {
+        "en": "HJJI",
+        "as": "HJJI"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each letter moves -6 step(s) in the alphabet, so GIIH becomes ACCB.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -6 খোজ যায়, গতিকে GIIH এ ACCB হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-006",
+    "q": {
+      "en": "If PAGE is coded as MXDB, then MXDB is coded as —",
+      "as": "যদি PAGE ক MXDB হিচাপে সংকেত কৰা হয়, তেন্তে MXDB ক সংকেত কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "JUAY",
+        "as": "JUAY"
+      },
+      {
+        "en": "ITZX",
+        "as": "ITZX"
+      },
+      {
+        "en": "NYEC",
+        "as": "NYEC"
+      },
+      {
+        "en": "KVBZ",
+        "as": "KVBZ"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "Each letter moves one step forward, so SUN becomes TVO.",
-      "as": "প্ৰতিটো আখৰ এখোজ আগলৈ যায়, গতিকে SUN এ TVO হয়।"
+      "en": "Each letter moves -3 step(s) in the alphabet, so MXDB becomes JUAY.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -3 খোজ যায়, গতিকে MXDB এ JUAY হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-007",
+    "q": {
+      "en": "If BIRD is coded as XENZ, then XENZ is coded as —",
+      "as": "যদি BIRD ক XENZ হিচাপে সংকেত কৰা হয়, তেন্তে XENZ ক সংকেত কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "TAJV",
+        "as": "TAJV"
+      },
+      {
+        "en": "YFOA",
+        "as": "YFOA"
+      },
+      {
+        "en": "UBKW",
+        "as": "UBKW"
+      },
+      {
+        "en": "SZIU",
+        "as": "SZIU"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter moves -4 step(s) in the alphabet, so XENZ becomes TAJV.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -4 খোজ যায়, গতিকে XENZ এ TAJV হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-008",
+    "q": {
+      "en": "If DOG is coded as CNF, then CNF is coded as —",
+      "as": "যদি DOG ক CNF হিচাপে সংকেত কৰা হয়, তেন্তে CNF ক সংকেত কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "BME",
+        "as": "BME"
+      },
+      {
+        "en": "CNF",
+        "as": "CNF"
+      },
+      {
+        "en": "ALD",
+        "as": "ALD"
+      },
+      {
+        "en": "DOG",
+        "as": "DOG"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter moves -1 step(s) in the alphabet, so CNF becomes BME.",
+      "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -1 খোজ যায়, গতিকে CNF এ BME হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-009",
+    "q": {
+      "en": "In a code, TIGER is written as VKIGT. How is VKIGT written in the same code?",
+      "as": "এটা সংকেতত TIGER ক VKIGT লিখা হয়। একেই সংকেতত VKIGT কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "XMKIW",
+        "as": "XMKIW"
+      },
+      {
+        "en": "WLJHU",
+        "as": "WLJHU"
+      },
+      {
+        "en": "YNLJW",
+        "as": "YNLJW"
+      },
+      {
+        "en": "XMKIV",
+        "as": "XMKIV"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The same letter shift of +2 is applied again, giving XMKIV.",
+      "as": "একেই +2 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে XMKIV পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-010",
+    "q": {
+      "en": "In a code, HORSE is written as KRUVH. How is KRUVH written in the same code?",
+      "as": "এটা সংকেতত HORSE ক KRUVH লিখা হয়। একেই সংকেতত KRUVH কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "NUXYK",
+        "as": "NUXYK"
+      },
+      {
+        "en": "LSVWI",
+        "as": "LSVWI"
+      },
+      {
+        "en": "MTWXJ",
+        "as": "MTWXJ"
+      },
+      {
+        "en": "OVYZL",
+        "as": "OVYZL"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The same letter shift of +3 is applied again, giving NUXYK.",
+      "as": "একেই +3 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে NUXYK পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-011",
+    "q": {
+      "en": "In a code, APPLE is written as BQQMF. How is BQQMF written in the same code?",
+      "as": "এটা সংকেতত APPLE ক BQQMF লিখা হয়। একেই সংকেতত BQQMF কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "CRRNH",
+        "as": "CRRNH"
+      },
+      {
+        "en": "CRRNG",
+        "as": "CRRNG"
+      },
+      {
+        "en": "BQQMF",
+        "as": "BQQMF"
+      },
+      {
+        "en": "DSSOH",
+        "as": "DSSOH"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The same letter shift of +1 is applied again, giving CRRNG.",
+      "as": "একেই +1 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে CRRNG পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-012",
+    "q": {
+      "en": "In a code, RIVER is written as VMZIV. How is VMZIV written in the same code?",
+      "as": "এটা সংকেতত RIVER ক VMZIV লিখা হয়। একেই সংকেতত VMZIV কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "WNAJW",
+        "as": "WNAJW"
+      },
+      {
+        "en": "YPCLY",
+        "as": "YPCLY"
+      },
+      {
+        "en": "ZQDMZ",
+        "as": "ZQDMZ"
+      },
+      {
+        "en": "ARENA",
+        "as": "ARENA"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The same letter shift of +4 is applied again, giving ZQDMZ.",
+      "as": "একেই +4 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে ZQDMZ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-013",
+    "q": {
+      "en": "In a code, MONEY is written as KMLCW. How is KMLCW written in the same code?",
+      "as": "এটা সংকেতত MONEY ক KMLCW লিখা হয়। একেই সংকেতত KMLCW কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "IKJAU",
+        "as": "IKJAU"
+      },
+      {
+        "en": "HJIZT",
+        "as": "HJIZT"
+      },
+      {
+        "en": "JLKBV",
+        "as": "JLKBV"
+      },
+      {
+        "en": "LNMDX",
+        "as": "LNMDX"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The same letter shift of -2 is applied again, giving IKJAU.",
+      "as": "একেই -2 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে IKJAU পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-014",
+    "q": {
+      "en": "In a code, WATER is written as ZDWHU. How is ZDWHU written in the same code?",
+      "as": "এটা সংকেতত WATER ক ZDWHU লিখা হয়। একেই সংকেতত ZDWHU কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "DHALY",
+        "as": "DHALY"
+      },
+      {
+        "en": "AEXIV",
+        "as": "AEXIV"
+      },
+      {
+        "en": "CGZKX",
+        "as": "CGZKX"
+      },
+      {
+        "en": "BFYJW",
+        "as": "BFYJW"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The same letter shift of +3 is applied again, giving CGZKX.",
+      "as": "একেই +3 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে CGZKX পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-015",
+    "q": {
+      "en": "In a code, LIGHT is written as KHFGS. How is KHFGS written in the same code?",
+      "as": "এটা সংকেতত LIGHT ক KHFGS লিখা হয়। একেই সংকেতত KHFGS কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "IFDEQ",
+        "as": "IFDEQ"
+      },
+      {
+        "en": "KHFGS",
+        "as": "KHFGS"
+      },
+      {
+        "en": "JGEFR",
+        "as": "JGEFR"
+      },
+      {
+        "en": "LIGHT",
+        "as": "LIGHT"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The same letter shift of -1 is applied again, giving JGEFR.",
+      "as": "একেই -1 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে JGEFR পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-016",
+    "q": {
+      "en": "In a code, STONE is written as UVQPG. How is UVQPG written in the same code?",
+      "as": "এটা সংকেতত STONE ক UVQPG লিখা হয়। একেই সংকেতত UVQPG কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "VWRQH",
+        "as": "VWRQH"
+      },
+      {
+        "en": "WXSRI",
+        "as": "WXSRI"
+      },
+      {
+        "en": "XYTSJ",
+        "as": "XYTSJ"
+      },
+      {
+        "en": "WXSRJ",
+        "as": "WXSRJ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The same letter shift of +2 is applied again, giving WXSRI.",
+      "as": "একেই +2 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে WXSRI পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-017",
+    "q": {
+      "en": "In a code, MUSIC is written as JRPFZ. How is JRPFZ written in the same code?",
+      "as": "এটা সংকেতত MUSIC ক JRPFZ লিখা হয়। একেই সংকেতত JRPFZ কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "FNLBV",
+        "as": "FNLBV"
+      },
+      {
+        "en": "GOMCW",
+        "as": "GOMCW"
+      },
+      {
+        "en": "HPNDX",
+        "as": "HPNDX"
+      },
+      {
+        "en": "KSQGA",
+        "as": "KSQGA"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The same letter shift of -3 is applied again, giving GOMCW.",
+      "as": "একেই -3 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে GOMCW পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-018",
+    "q": {
+      "en": "In a code, CLOUD is written as GPSYH. How is GPSYH written in the same code?",
+      "as": "এটা সংকেতত CLOUD ক GPSYH লিখা হয়। একেই সংকেতত GPSYH কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "JSVBK",
+        "as": "JSVBK"
+      },
+      {
+        "en": "HQTZI",
+        "as": "HQTZI"
+      },
+      {
+        "en": "KTWCL",
+        "as": "KTWCL"
+      },
+      {
+        "en": "LUXDM",
+        "as": "LUXDM"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The same letter shift of +4 is applied again, giving KTWCL.",
+      "as": "একেই +4 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে KTWCL পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-019",
+    "q": {
+      "en": "In a code, HONEY is written as IPOFZ. How is IPOFZ written in the same code?",
+      "as": "এটা সংকেতত HONEY ক IPOFZ লিখা হয়। একেই সংকেতত IPOFZ কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "IPOFZ",
+        "as": "IPOFZ"
+      },
+      {
+        "en": "JQPGA",
+        "as": "JQPGA"
+      },
+      {
+        "en": "JQPGB",
+        "as": "JQPGB"
+      },
+      {
+        "en": "KRQHB",
+        "as": "KRQHB"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The same letter shift of +1 is applied again, giving JQPGA.",
+      "as": "একেই +1 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে JQPGA পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-020",
+    "q": {
+      "en": "In a code, PLANT is written as LHWJP. How is LHWJP written in the same code?",
+      "as": "এটা সংকেতত PLANT ক LHWJP লিখা হয়। একেই সংকেতত LHWJP কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "IETGM",
+        "as": "IETGM"
+      },
+      {
+        "en": "MIXKQ",
+        "as": "MIXKQ"
+      },
+      {
+        "en": "HDSFL",
+        "as": "HDSFL"
+      },
+      {
+        "en": "GCREK",
+        "as": "GCREK"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The same letter shift of -4 is applied again, giving HDSFL.",
+      "as": "একেই -4 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে HDSFL পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-021",
+    "q": {
+      "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is CAT coded?",
+      "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), CAT ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "TAC",
+        "as": "TAC"
+      },
+      {
+        "en": "DBU",
+        "as": "DBU"
+      },
+      {
+        "en": "CAT",
+        "as": "CAT"
+      },
+      {
+        "en": "XZG",
+        "as": "XZG"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each letter is replaced by the letter opposite it, so CAT becomes XZG.",
+      "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে CAT এ XZG হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-022",
+    "q": {
+      "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is DOG coded?",
+      "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), DOG ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "DOG",
+        "as": "DOG"
+      },
+      {
+        "en": "GOD",
+        "as": "GOD"
+      },
+      {
+        "en": "EPH",
+        "as": "EPH"
+      },
+      {
+        "en": "WLT",
+        "as": "WLT"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each letter is replaced by the letter opposite it, so DOG becomes WLT.",
+      "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে DOG এ WLT হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-023",
+    "q": {
+      "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is PEN coded?",
+      "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), PEN ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "KVM",
+        "as": "KVM"
+      },
+      {
+        "en": "QFO",
+        "as": "QFO"
+      },
+      {
+        "en": "PEN",
+        "as": "PEN"
+      },
+      {
+        "en": "NEP",
+        "as": "NEP"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter is replaced by the letter opposite it, so PEN becomes KVM.",
+      "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে PEN এ KVM হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-024",
+    "q": {
+      "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is SUN coded?",
+      "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), SUN ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "SUN",
+        "as": "SUN"
+      },
+      {
+        "en": "NUS",
+        "as": "NUS"
+      },
+      {
+        "en": "HFM",
+        "as": "HFM"
+      },
+      {
+        "en": "TVO",
+        "as": "TVO"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each letter is replaced by the letter opposite it, so SUN becomes HFM.",
+      "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে SUN এ HFM হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-025",
+    "q": {
+      "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is BOX coded?",
+      "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), BOX ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "CPY",
+        "as": "CPY"
+      },
+      {
+        "en": "YLC",
+        "as": "YLC"
+      },
+      {
+        "en": "BOX",
+        "as": "BOX"
+      },
+      {
+        "en": "XOB",
+        "as": "XOB"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each letter is replaced by the letter opposite it, so BOX becomes YLC.",
+      "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে BOX এ YLC হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-026",
+    "q": {
+      "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is NET coded?",
+      "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), NET ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "OFU",
+        "as": "OFU"
+      },
+      {
+        "en": "MVG",
+        "as": "MVG"
+      },
+      {
+        "en": "NET",
+        "as": "NET"
+      },
+      {
+        "en": "TEN",
+        "as": "TEN"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each letter is replaced by the letter opposite it, so NET becomes MVG.",
+      "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে NET এ MVG হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-027",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word DOG?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে DOG শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "26",
+        "as": "26"
+      },
+      {
+        "en": "36",
+        "as": "36"
+      },
+      {
+        "en": "27",
+        "as": "27"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the alphabet positions: 4 + 15 + 7 = 26.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 4 + 15 + 7 = 26।"
+    }
+  },
+  {
+    "id": "coding-decoding-028",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word CAT?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে CAT শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "23",
+        "as": "23"
+      },
+      {
+        "en": "34",
+        "as": "34"
+      },
+      {
+        "en": "24",
+        "as": "24"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the alphabet positions: 3 + 1 + 20 = 24.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 3 + 1 + 20 = 24।"
+    }
+  },
+  {
+    "id": "coding-decoding-029",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word SUN?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে SUN শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "53",
+        "as": "53"
+      },
+      {
+        "en": "54",
+        "as": "54"
+      },
+      {
+        "en": "55",
+        "as": "55"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the alphabet positions: 19 + 21 + 14 = 54.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 19 + 21 + 14 = 54।"
+    }
+  },
+  {
+    "id": "coding-decoding-030",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word BOX?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে BOX শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "40"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "51",
+        "as": "51"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the alphabet positions: 2 + 15 + 24 = 41.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 2 + 15 + 24 = 41।"
+    }
+  },
+  {
+    "id": "coding-decoding-031",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word PEN?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে PEN শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "45"
+      },
+      {
+        "en": "36",
+        "as": "36"
+      },
+      {
+        "en": "35",
+        "as": "35"
+      },
+      {
+        "en": "34",
+        "as": "34"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the alphabet positions: 16 + 5 + 14 = 35.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 16 + 5 + 14 = 35।"
+    }
+  },
+  {
+    "id": "coding-decoding-032",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word TEA?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে TEA শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "27"
+      },
+      {
+        "en": "26",
+        "as": "26"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "36",
+        "as": "36"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the alphabet positions: 20 + 5 + 1 = 26.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 20 + 5 + 1 = 26।"
+    }
+  },
+  {
+    "id": "coding-decoding-033",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word BUS?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে BUS শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "43",
+        "as": "43"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "52",
+        "as": "52"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the alphabet positions: 2 + 21 + 19 = 42.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 2 + 21 + 19 = 42।"
+    }
+  },
+  {
+    "id": "coding-decoding-034",
+    "q": {
+      "en": "If A=1, B=2, C=3 and so on, what is the code of the word CUP?",
+      "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে CUP শব্দটোৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "40"
+      },
+      {
+        "en": "39",
+        "as": "39"
+      },
+      {
+        "en": "50",
+        "as": "50"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add the alphabet positions: 3 + 21 + 16 = 40.",
+      "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 3 + 21 + 16 = 40।"
+    }
+  },
+  {
+    "id": "coding-decoding-035",
+    "q": {
+      "en": "If A=26, B=25, ... Z=1, what is the code of HI?",
+      "as": "যদি A=26, B=25, ... Z=1, HI ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "35",
+        "as": "35"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using reverse positions, HI = 37.",
+      "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, HI = 37।"
+    }
+  },
+  {
+    "id": "coding-decoding-036",
+    "q": {
+      "en": "If A=26, B=25, ... Z=1, what is the code of GO?",
+      "as": "যদি A=26, B=25, ... Z=1, GO ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "33",
+        "as": "33"
+      },
+      {
+        "en": "32",
+        "as": "32"
+      },
+      {
+        "en": "37",
+        "as": "37"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using reverse positions, GO = 32.",
+      "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, GO = 32।"
+    }
+  },
+  {
+    "id": "coding-decoding-037",
+    "q": {
+      "en": "If A=26, B=25, ... Z=1, what is the code of AM?",
+      "as": "যদি A=26, B=25, ... Z=1, AM ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "38"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "45",
+        "as": "45"
+      },
+      {
+        "en": "40",
+        "as": "40"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using reverse positions, AM = 40.",
+      "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, AM = 40।"
+    }
+  },
+  {
+    "id": "coding-decoding-038",
+    "q": {
+      "en": "If A=26, B=25, ... Z=1, what is the code of ON?",
+      "as": "যদি A=26, B=25, ... Z=1, ON ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "26",
+        "as": "26"
+      },
+      {
+        "en": "23",
+        "as": "23"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using reverse positions, ON = 25.",
+      "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, ON = 25।"
+    }
+  },
+  {
+    "id": "coding-decoding-039",
+    "q": {
+      "en": "If 'red' means 'green', 'green' means 'blue', 'blue' means 'white' and 'white' means 'black', what colour is the sky said to be?",
+      "as": "যদি 'ৰঙা' মানে 'সেউজীয়া', 'সেউজীয়া' মানে 'নীলা', 'নীলা' মানে 'বগা' আৰু 'বগা' মানে 'কালা', তেন্তে আকাশক কি ৰঙ বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "green",
+        "as": "green"
+      },
+      {
+        "en": "blue",
+        "as": "blue"
+      },
+      {
+        "en": "white",
+        "as": "white"
+      },
+      {
+        "en": "black",
+        "as": "black"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sky is blue, and blue is called white in this code.",
+      "as": "আকাশ নীলা, আৰু এই সংকেতত নীলাক বগা বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-040",
+    "q": {
+      "en": "In a code, 'sun' means 'moon', 'moon' means 'star' and 'star' means 'sky'. What shines at night in this code?",
+      "as": "এটা সংকেতত 'সূৰ্য্য' মানে 'চন্দ্ৰ', 'চন্দ্ৰ' মানে 'তৰা' আৰু 'তৰা' মানে 'আকাশ'। এই সংকেতত ৰাতি কি জিলিকে?"
+    },
+    "options": [
+      {
+        "en": "moon",
+        "as": "moon"
+      },
+      {
+        "en": "sky",
+        "as": "sky"
+      },
+      {
+        "en": "star",
+        "as": "star"
+      },
+      {
+        "en": "sun",
+        "as": "sun"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The moon shines at night, and the moon is called star in this code.",
+      "as": "ৰাতি চন্দ্ৰই জিলিকে, আৰু এই সংকেতত চন্দ্ৰক তৰা বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-041",
+    "q": {
+      "en": "If 'water' is called 'fire', 'fire' is called 'air' and 'air' is called 'earth', what do we breathe in this code?",
+      "as": "যদি 'পানী' ক 'জুই' বোলা হয়, 'জুই' ক 'বায়ু' আৰু 'বায়ু' ক 'মাটি' বোলা হয়, এই সংকেতত আমি কি উশাহ লওঁ?"
+    },
+    "options": [
+      {
+        "en": "air",
+        "as": "air"
+      },
+      {
+        "en": "earth",
+        "as": "earth"
+      },
+      {
+        "en": "water",
+        "as": "water"
+      },
+      {
+        "en": "fire",
+        "as": "fire"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "We breathe air, and air is called earth in this code.",
+      "as": "আমি বায়ু উশাহ লওঁ, আৰু এই সংকেতত বায়ুক মাটি বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-042",
+    "q": {
+      "en": "If 'pen' means 'paper', 'paper' means 'table' and 'table' means 'chair', on what do we write in this code?",
+      "as": "যদি 'কলম' মানে 'কাগজ', 'কাগজ' মানে 'মেজ' আৰু 'মেজ' মানে 'চকী', এই সংকেতত আমি কেতিয়া লিখোঁ?"
+    },
+    "options": [
+      {
+        "en": "table",
+        "as": "table"
+      },
+      {
+        "en": "pen",
+        "as": "pen"
+      },
+      {
+        "en": "paper",
+        "as": "paper"
+      },
+      {
+        "en": "chair",
+        "as": "chair"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "We write on paper, and paper is called table in this code.",
+      "as": "আমি কাগজত লিখোঁ, আৰু এই সংকেতত কাগজক মেজ বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-043",
+    "q": {
+      "en": "If 'rose' is called 'lily', 'lily' is called 'lotus' and 'lotus' is called 'sunflower', which flower is called 'lily' in this code?",
+      "as": "যদি 'গোলাপ' ক 'লিলি' বোলা হয়, 'লিলি' ক 'পদুম' আৰু 'পদুম' ক 'সূৰ্যমুখী' বোলা হয়, এই সংকেতত 'লিলি' কাক বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "lotus",
+        "as": "lotus"
+      },
+      {
+        "en": "rose",
+        "as": "rose"
+      },
+      {
+        "en": "lily",
+        "as": "lily"
+      },
+      {
+        "en": "sunflower",
+        "as": "sunflower"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The name 'lily' stands for the rose in this code.",
+      "as": "এই সংকেতত 'লিলি' নামটোৱে গোলাপক সূচায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-044",
+    "q": {
+      "en": "If 'north' is called 'south', 'south' is called 'east' and 'east' is called 'west', in which direction does the sun rise in this code?",
+      "as": "যদি 'উত্তৰ' ক 'দক্ষিণ' বোলা হয়, 'দক্ষিণ' ক 'পূৱ' আৰু 'পূৱ' ক 'পশ্চিম' বোলা হয়, এই সংকেতত সূৰ্য্য কোন দিশত উদয় হয়?"
+    },
+    "options": [
+      {
+        "en": "south",
+        "as": "south"
+      },
+      {
+        "en": "east",
+        "as": "east"
+      },
+      {
+        "en": "north",
+        "as": "north"
+      },
+      {
+        "en": "west",
+        "as": "west"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The sun rises in the east, and east is called west in this code.",
+      "as": "সূৰ্য্য পূৱত উদয় হয়, আৰু এই সংকেতত পূৱক পশ্চিম বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-045",
+    "q": {
+      "en": "In a code each pair of letters is interchanged. How is RIVER coded?",
+      "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। RIVER ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "RIVER",
+        "as": "RIVER"
+      },
+      {
+        "en": "IREVR",
+        "as": "IREVR"
+      },
+      {
+        "en": "SJWFS",
+        "as": "SJWFS"
+      },
+      {
+        "en": "REVIR",
+        "as": "REVIR"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interchanging each adjacent pair gives IREVR.",
+      "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে IREVR পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-046",
+    "q": {
+      "en": "In a code each pair of letters is interchanged. How is MONEY coded?",
+      "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। MONEY ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "OMENY",
+        "as": "OMENY"
+      },
+      {
+        "en": "MONEY",
+        "as": "MONEY"
+      },
+      {
+        "en": "NPOFZ",
+        "as": "NPOFZ"
+      },
+      {
+        "en": "YENOM",
+        "as": "YENOM"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Interchanging each adjacent pair gives OMENY.",
+      "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে OMENY পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-047",
+    "q": {
+      "en": "In a code each pair of letters is interchanged. How is LIGHT coded?",
+      "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। LIGHT ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "LIGHT",
+        "as": "LIGHT"
+      },
+      {
+        "en": "THGIL",
+        "as": "THGIL"
+      },
+      {
+        "en": "ILHGT",
+        "as": "ILHGT"
+      },
+      {
+        "en": "MJHIU",
+        "as": "MJHIU"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Interchanging each adjacent pair gives ILHGT.",
+      "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে ILHGT পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-048",
+    "q": {
+      "en": "In a code each pair of letters is interchanged. How is STONE coded?",
+      "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। STONE ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "TSNOE",
+        "as": "TSNOE"
+      },
+      {
+        "en": "STONE",
+        "as": "STONE"
+      },
+      {
+        "en": "TUPOF",
+        "as": "TUPOF"
+      },
+      {
+        "en": "ENOTS",
+        "as": "ENOTS"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Interchanging each adjacent pair gives TSNOE.",
+      "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে TSNOE পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-049",
+    "q": {
+      "en": "In a code each pair of letters is interchanged. How is MUSIC coded?",
+      "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। MUSIC ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "MUSIC",
+        "as": "MUSIC"
+      },
+      {
+        "en": "UMISC",
+        "as": "UMISC"
+      },
+      {
+        "en": "NVTJD",
+        "as": "NVTJD"
+      },
+      {
+        "en": "CISUM",
+        "as": "CISUM"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interchanging each adjacent pair gives UMISC.",
+      "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে UMISC পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-050",
+    "q": {
+      "en": "In a code each pair of letters is interchanged. How is CLOUD coded?",
+      "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। CLOUD ক কেনেকৈ সংকেত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "CLOUD",
+        "as": "CLOUD"
+      },
+      {
+        "en": "LCUOD",
+        "as": "LCUOD"
+      },
+      {
+        "en": "DMPVE",
+        "as": "DMPVE"
+      },
+      {
+        "en": "DUOLC",
+        "as": "DUOLC"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interchanging each adjacent pair gives LCUOD.",
+      "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে LCUOD পোৱা যায়।"
+    }
+  },
+  {
+    "id": "coding-decoding-051",
+    "q": {
+      "en": "If a word is coded by the number of its letters, what is the code of BANANA?",
+      "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, BANANA ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "BANANA has 6 letters, so its code is 6.",
+      "as": "BANANA ত 6 টা আখৰ আছে, গতিকে সংকেত 6।"
+    }
+  },
+  {
+    "id": "coding-decoding-052",
+    "q": {
+      "en": "If a word is coded by the number of its letters, what is the code of SCHOOL?",
+      "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, SCHOOL ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SCHOOL has 6 letters, so its code is 6.",
+      "as": "SCHOOL ত 6 টা আখৰ আছে, গতিকে সংকেত 6।"
+    }
+  },
+  {
+    "id": "coding-decoding-053",
+    "q": {
+      "en": "If a word is coded by the number of its letters, what is the code of ASSAM?",
+      "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, ASSAM ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "ASSAM has 5 letters, so its code is 5.",
+      "as": "ASSAM ত 5 টা আখৰ আছে, গতিকে সংকেত 5।"
+    }
+  },
+  {
+    "id": "coding-decoding-054",
+    "q": {
+      "en": "If a word is coded by the number of its letters, what is the code of INDIA?",
+      "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, INDIA ৰ সংকেত কিমান?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "INDIA has 5 letters, so its code is 5.",
+      "as": "INDIA ত 5 টা আখৰ আছে, গতিকে সংকেত 5।"
+    }
+  },
+  {
+    "id": "coding-decoding-055",
+    "q": {
+      "en": "Each letter is moved 1 step(s) forward. What is the code of XYZ?",
+      "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিয়া হয়। XYZ ৰ সংকেত কি?"
+    },
+    "options": [
+      {
+        "en": "ZAB",
+        "as": "ZAB"
+      },
+      {
+        "en": "XYZ",
+        "as": "XYZ"
+      },
+      {
+        "en": "YZA",
+        "as": "YZA"
+      },
+      {
+        "en": "YZB",
+        "as": "YZB"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Shifting each letter 1 step(s) forward, XYZ becomes YZA.",
+      "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিলে XYZ এ YZA হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-056",
+    "q": {
+      "en": "Each letter is moved 2 step(s) forward. What is the code of ZOO?",
+      "as": "প্ৰতিটো আখৰ 2 খোজ আগলৈ নিয়া হয়। ZOO ৰ সংকেত কি?"
+    },
+    "options": [
+      {
+        "en": "ZOO",
+        "as": "ZOO"
+      },
+      {
+        "en": "APP",
+        "as": "APP"
+      },
+      {
+        "en": "BQQ",
+        "as": "BQQ"
+      },
+      {
+        "en": "CRR",
+        "as": "CRR"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Shifting each letter 2 step(s) forward, ZOO becomes BQQ.",
+      "as": "প্ৰতিটো আখৰ 2 খোজ আগলৈ নিলে ZOO এ BQQ হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-057",
+    "q": {
+      "en": "Each letter is moved 3 step(s) forward. What is the code of VOW?",
+      "as": "প্ৰতিটো আখৰ 3 খোজ আগলৈ নিয়া হয়। VOW ৰ সংকেত কি?"
+    },
+    "options": [
+      {
+        "en": "VOW",
+        "as": "VOW"
+      },
+      {
+        "en": "XQY",
+        "as": "XQY"
+      },
+      {
+        "en": "YRZ",
+        "as": "YRZ"
+      },
+      {
+        "en": "ZSA",
+        "as": "ZSA"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Shifting each letter 3 step(s) forward, VOW becomes YRZ.",
+      "as": "প্ৰতিটো আখৰ 3 খোজ আগলৈ নিলে VOW এ YRZ হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-058",
+    "q": {
+      "en": "Each letter is moved 1 step(s) forward. What is the code of YUVA?",
+      "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিয়া হয়। YUVA ৰ সংকেত কি?"
+    },
+    "options": [
+      {
+        "en": "ZVWB",
+        "as": "ZVWB"
+      },
+      {
+        "en": "YUVA",
+        "as": "YUVA"
+      },
+      {
+        "en": "ZVWC",
+        "as": "ZVWC"
+      },
+      {
+        "en": "AWXC",
+        "as": "AWXC"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Shifting each letter 1 step(s) forward, YUVA becomes ZVWB.",
+      "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিলে YUVA এ ZVWB হয়।"
     }
   }
 ]

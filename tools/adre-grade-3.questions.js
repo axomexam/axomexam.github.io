@@ -281,121 +281,1651 @@ module.exports = {
   {
    "id": "analogy-001",
    "q": {
-    "en": "Doctor : Hospital : : Teacher : ?",
-    "as": "ডাক্তৰ : চিকিৎসালয় : : শিক্ষক : ?"
+    "en": "Cow : Calf :: Dog : ?",
+    "as": "Cow : Calf :: Dog : ?"
    },
    "options": [
     {
-     "en": "Book",
-     "as": "কিতাপ"
+     "en": "Kitten",
+     "as": "মেকুৰী-পোৱালি"
+    },
+    {
+     "en": "Cub",
+     "as": "পোৱালি"
+    },
+    {
+     "en": "Puppy",
+     "as": "পাপী"
+    },
+    {
+     "en": "Foal",
+     "as": "ঘোঁৰাৰ পোৱালি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A calf is the young of a cow; the young of a dog is a puppy.",
+    "as": "গৰুৰ পোৱালি দমৰা; কুকুৰৰ পোৱালি পাপী।"
+   }
+  },
+  {
+   "id": "analogy-002",
+   "q": {
+    "en": "Cat : Kitten :: Hen : ?",
+    "as": "Cat : Kitten :: Hen : ?"
+   },
+   "options": [
+    {
+     "en": "Duckling",
+     "as": "হাঁহ-পোৱালি"
+    },
+    {
+     "en": "Cub",
+     "as": "পোৱালি"
+    },
+    {
+     "en": "Calf",
+     "as": "দমৰা"
+    },
+    {
+     "en": "Chick",
+     "as": "চৰাই-পোৱালি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A kitten is the young of a cat; the young of a hen is a chick.",
+    "as": "মেকুৰীৰ পোৱালি; কুকুৰাৰ পোৱালি চৰাই-পোৱালি।"
+   }
+  },
+  {
+   "id": "analogy-003",
+   "q": {
+    "en": "Man : Woman :: Boy : ?",
+    "as": "Man : Woman :: Boy : ?"
+   },
+   "options": [
+    {
+     "en": "Lady",
+     "as": "ভদ্ৰমহিলা"
+    },
+    {
+     "en": "Boy",
+     "as": "ল'ৰা"
+    },
+    {
+     "en": "Child",
+     "as": "শিশু"
+    },
+    {
+     "en": "Girl",
+     "as": "ছোৱালী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Woman is the female counterpart of man; the female of boy is girl.",
+    "as": "পুৰুষৰ নাৰী সমাৰ্থক; ল'ৰাৰ ছোৱালী।"
+   }
+  },
+  {
+   "id": "analogy-004",
+   "q": {
+    "en": "King : Queen :: Actor : ?",
+    "as": "King : Queen :: Actor : ?"
+   },
+   "options": [
+    {
+     "en": "Dancer",
+     "as": "নৃত্যশিল্পী"
+    },
+    {
+     "en": "Lady",
+     "as": "ভদ্ৰমহিলা"
+    },
+    {
+     "en": "Actress",
+     "as": "অভিনেত্ৰী"
+    },
+    {
+     "en": "Singer",
+     "as": "গায়ক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Queen is the female counterpart of king; actress is the female of actor.",
+    "as": "ৰজাৰ ৰাণী; অভিনেতাৰ অভিনেত্ৰী।"
+   }
+  },
+  {
+   "id": "analogy-005",
+   "q": {
+    "en": "Horse : Foal :: Sheep : ?",
+    "as": "Horse : Foal :: Sheep : ?"
+   },
+   "options": [
+    {
+     "en": "Kid",
+     "as": "ছাগলী-পোৱালি"
+    },
+    {
+     "en": "Puppy",
+     "as": "পাপী"
+    },
+    {
+     "en": "Lamb",
+     "as": "মেৰ"
+    },
+    {
+     "en": "Calf",
+     "as": "দমৰা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A foal is the young of a horse; a lamb is the young of a sheep.",
+    "as": "ঘোঁৰাৰ পোৱালি; ভেড়াৰ পোৱালি মেৰ।"
+   }
+  },
+  {
+   "id": "analogy-006",
+   "q": {
+    "en": "Nurse : Hospital :: Teacher : ?",
+    "as": "Nurse : Hospital :: Teacher : ?"
+   },
+   "options": [
+    {
+     "en": "Office",
+     "as": "কাৰ্যালয়"
     },
     {
      "en": "School",
      "as": "বিদ্যালয়"
     },
     {
-     "en": "Student",
-     "as": "শিক্ষাৰ্থী"
+     "en": "Library",
+     "as": "পুথিভঁৰাল"
     },
     {
-     "en": "Pen",
-     "as": "কলম"
+     "en": "Court",
+     "as": "আদালত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "A doctor works in a hospital and a teacher works in a school.",
-    "as": "ডাক্তৰে চিকিৎসালয়ত কাম কৰে আৰু শিক্ষকে বিদ্যালয়ত কাম কৰে।"
+    "en": "A nurse works in a hospital; a teacher works in a school.",
+    "as": "নাৰ্ছে চিকিৎসালয়ত; শিক্ষকে বিদ্যালয়ত।"
    }
   },
   {
-   "id": "analogy-002",
+   "id": "analogy-007",
    "q": {
-    "en": "Pen : Write : : Knife : ?",
-    "as": "কলম : লিখা : : ছুৰী : ?"
+    "en": "Farmer : Field :: Clerk : ?",
+    "as": "Farmer : Field :: Clerk : ?"
    },
    "options": [
     {
-     "en": "Sharp",
-     "as": "তীক্ষ্ণ"
+     "en": "Court",
+     "as": "আদালত"
     },
+    {
+     "en": "Office",
+     "as": "কাৰ্যালয়"
+    },
+    {
+     "en": "Factory",
+     "as": "কাৰখানা"
+    },
+    {
+     "en": "School",
+     "as": "বিদ্যালয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A farmer works in a field; a clerk works in an office.",
+    "as": "কৃষকে পথাৰত; কেৰাণীয়ে কাৰ্যালয়ত।"
+   }
+  },
+  {
+   "id": "analogy-008",
+   "q": {
+    "en": "Pilot : Aeroplane :: Driver : ?",
+    "as": "Pilot : Aeroplane :: Driver : ?"
+   },
+   "options": [
+    {
+     "en": "Train",
+     "as": "ৰে'ল"
+    },
+    {
+     "en": "Bus",
+     "as": "বাছ"
+    },
+    {
+     "en": "Cycle",
+     "as": "চাইকেল"
+    },
+    {
+     "en": "Ship",
+     "as": "জাহাজ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A pilot operates an aeroplane; a driver operates a bus.",
+    "as": "পাইলটে বিমান; চালকে বাছ।"
+   }
+  },
+  {
+   "id": "analogy-009",
+   "q": {
+    "en": "Chalk : Write :: Knife : ?",
+    "as": "Chalk : Write :: Knife : ?"
+   },
+   "options": [
+    {
+     "en": "Sharpen",
+     "as": "চোকা কৰা"
+    },
+    {
+     "en": "Peel",
+     "as": "বাকলি এৰোৱা"
+    },
+    {
+     "en": "Break",
+     "as": "ভঙা"
+    },
+    {
+     "en": "Cut",
+     "as": "কটা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Chalk is used to write; a knife is used to cut.",
+    "as": "খৰি লিখিবলৈ; কটাৰী কাটিবলৈ।"
+   }
+  },
+  {
+   "id": "analogy-010",
+   "q": {
+    "en": "Needle : Sew :: Axe : ?",
+    "as": "Needle : Sew :: Axe : ?"
+   },
+   "options": [
     {
      "en": "Cut",
      "as": "কটা"
     },
     {
-     "en": "Metal",
-     "as": "ধাতু"
+     "en": "Dig",
+     "as": "খন্দা"
     },
     {
-     "en": "Kitchen",
-     "as": "পাকঘৰ"
+     "en": "Hammer",
+     "as": "হাতুৰী"
+    },
+    {
+     "en": "Chop",
+     "as": "কাটিব"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A needle is used to sew; an axe is used to chop.",
+    "as": "বেজী চিলাবলৈ; কুৰালি কাটিবলৈ।"
+   }
+  },
+  {
+   "id": "analogy-011",
+   "q": {
+    "en": "Sword : Warrior :: Pen : ?",
+    "as": "Sword : Warrior :: Pen : ?"
+   },
+   "options": [
+    {
+     "en": "Writer",
+     "as": "লেখক"
+    },
+    {
+     "en": "Poet",
+     "as": "কবি"
+    },
+    {
+     "en": "Artist",
+     "as": "শিল্পী"
+    },
+    {
+     "en": "Teacher",
+     "as": "শিক্ষক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A sword is the tool of a warrior; a pen is the tool of a writer.",
+    "as": "তৰোৱাল যোদ্ধাৰ; কলম লেখকৰ।"
+   }
+  },
+  {
+   "id": "analogy-012",
+   "q": {
+    "en": "Stethoscope : Doctor :: Microscope : ?",
+    "as": "Stethoscope : Doctor :: Microscope : ?"
+   },
+   "options": [
+    {
+     "en": "Engineer",
+     "as": "ইঞ্জিনিয়াৰ"
+    },
+    {
+     "en": "Farmer",
+     "as": "কৃষক"
+    },
+    {
+     "en": "Scientist",
+     "as": "বিজ্ঞানী"
+    },
+    {
+     "en": "Teacher",
+     "as": "শিক্ষক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A stethoscope is used by a doctor; a microscope is used by a scientist.",
+    "as": "ষ্টেথ'স্কোপ ডাক্তৰৰ; মাইক্ৰস্কোপ বিজ্ঞানীৰ।"
+   }
+  },
+  {
+   "id": "analogy-013",
+   "q": {
+    "en": "Fish : Water :: Bird : ?",
+    "as": "Fish : Water :: Bird : ?"
+   },
+   "options": [
+    {
+     "en": "Nest",
+     "as": "বাহ"
+    },
+    {
+     "en": "Sky",
+     "as": "আকাশ"
+    },
+    {
+     "en": "Cage",
+     "as": "সাঁচ/খাঁচা"
+    },
+    {
+     "en": "Tree",
+     "as": "গছ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "A pen is used to write and a knife is used to cut.",
-    "as": "কলম লিখিবলৈ ব্যৱহাৰ কৰা হয় আৰু ছুৰী কাটিবলৈ ব্যৱহাৰ কৰা হয়।"
+    "en": "A fish lives in water; a bird lives in the sky.",
+    "as": "মাছে পানীত; চৰাইয়ে আকাশত।"
    }
   },
   {
-   "id": "analogy-003",
+   "id": "analogy-014",
    "q": {
-    "en": "Bird : Fly : : Fish : ?",
-    "as": "চৰাই : উৰা : : মাছ : ?"
+    "en": "Lion : Den :: Bee : ?",
+    "as": "Lion : Den :: Bee : ?"
    },
    "options": [
     {
-     "en": "Swim",
-     "as": "সাঁতোৰা"
+     "en": "Hive",
+     "as": "মৌচাক"
     },
     {
-     "en": "Walk",
-     "as": "খোজ কঢ়া"
+     "en": "Burrow",
+     "as": "গাঁত"
     },
+    {
+     "en": "Nest",
+     "as": "বাহ"
+    },
+    {
+     "en": "Web",
+     "as": "জাল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A lion lives in a den; a bee lives in a hive.",
+    "as": "সিংহে গুহাত; মাখিয়ে মৌচাকত।"
+   }
+  },
+  {
+   "id": "analogy-015",
+   "q": {
+    "en": "Bird : Nest :: Spider : ?",
+    "as": "Bird : Nest :: Spider : ?"
+   },
+   "options": [
+    {
+     "en": "Web",
+     "as": "জাল"
+    },
+    {
+     "en": "Hive",
+     "as": "মৌচাক"
+    },
+    {
+     "en": "Burrow",
+     "as": "গাঁত"
+    },
+    {
+     "en": "Den",
+     "as": "গুহা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A bird lives in a nest; a spider lives in a web.",
+    "as": "চৰাইয়ে বাহত; মকৰাই জালত।"
+   }
+  },
+  {
+   "id": "analogy-016",
+   "q": {
+    "en": "Cow : Shed :: Horse : ?",
+    "as": "Cow : Shed :: Horse : ?"
+   },
+   "options": [
+    {
+     "en": "Nest",
+     "as": "বাহ"
+    },
+    {
+     "en": "Den",
+     "as": "গুহা"
+    },
+    {
+     "en": "Stable",
+     "as": "আস্তাবল"
+    },
+    {
+     "en": "Kennel",
+     "as": "কুকুৰৰ ঘৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A cow is kept in a shed; a horse is kept in a stable.",
+    "as": "গৰু গোৱালত; ঘোঁৰা আস্তাবলত।"
+   }
+  },
+  {
+   "id": "analogy-017",
+   "q": {
+    "en": "Warm : Cool :: Day : ?",
+    "as": "Warm : Cool :: Day : ?"
+   },
+   "options": [
+    {
+     "en": "Noon",
+     "as": "দুপৰীয়া"
+    },
+    {
+     "en": "Night",
+     "as": "ৰাতি"
+    },
+    {
+     "en": "Dusk",
+     "as": "গধূলি"
+    },
+    {
+     "en": "Evening",
+     "as": "আবেলি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Warm is the opposite of cool; day is the opposite of night.",
+    "as": "গৰম-শীতল বিপৰীত; দিন-ৰাতি বিপৰীত।"
+   }
+  },
+  {
+   "id": "analogy-018",
+   "q": {
+    "en": "Big : Small :: Tall : ?",
+    "as": "Big : Small :: Tall : ?"
+   },
+   "options": [
+    {
+     "en": "Deep",
+     "as": "Deep"
+    },
+    {
+     "en": "Short",
+     "as": "চাপৰ"
+    },
+    {
+     "en": "Wide",
+     "as": "প্ৰশস্ত"
+    },
+    {
+     "en": "Long",
+     "as": "দীঘল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Big and small are opposites; tall and short are opposites.",
+    "as": "ডাঙৰ-সৰু; ওখ-চাপৰ।"
+   }
+  },
+  {
+   "id": "analogy-019",
+   "q": {
+    "en": "Ancient : Modern :: Old : ?",
+    "as": "Ancient : Modern :: Old : ?"
+   },
+   "options": [
+    {
+     "en": "New",
+     "as": "নতুন"
+    },
+    {
+     "en": "Recent",
+     "as": "শেহতীয়া"
+    },
+    {
+     "en": "Young",
+     "as": "সৰু"
+    },
+    {
+     "en": "Fresh",
+     "as": "সতেজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ancient is the opposite of modern; old is the opposite of new.",
+    "as": "প্ৰাচীন-আধুনিক; পুৰণি-নতুন।"
+   }
+  },
+  {
+   "id": "analogy-020",
+   "q": {
+    "en": "Brave : Coward :: Truth : ?",
+    "as": "Brave : Coward :: Truth : ?"
+   },
+   "options": [
+    {
+     "en": "Lie",
+     "as": "মিছা"
+    },
+    {
+     "en": "Doubt",
+     "as": "সন্দেহ"
+    },
+    {
+     "en": "False",
+     "as": "অসত্য"
+    },
+    {
+     "en": "Error",
+     "as": "ভুল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Brave and coward are opposites; truth and lie are opposites.",
+    "as": "সাহসী-কাপুৰুষ; সত্য-মিছা।"
+   }
+  },
+  {
+   "id": "analogy-021",
+   "q": {
+    "en": "Grief : Joy :: War : ?",
+    "as": "Grief : Joy :: War : ?"
+   },
+   "options": [
+    {
+     "en": "Battle",
+     "as": "যুদ্ধ"
+    },
+    {
+     "en": "Peace",
+     "as": "শান্তি"
+    },
+    {
+     "en": "Victory",
+     "as": "বিজয়"
+    },
+    {
+     "en": "Treaty",
+     "as": "সন্ধি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Grief is the opposite of joy; war is the opposite of peace.",
+    "as": "শোক-আনন্দ; যুদ্ধ-শান্তি।"
+   }
+  },
+  {
+   "id": "analogy-022",
+   "q": {
+    "en": "Poverty : Wealth :: Sorrow : ?",
+    "as": "Poverty : Wealth :: Sorrow : ?"
+   },
+   "options": [
+    {
+     "en": "Happiness",
+     "as": "সুখ"
+    },
+    {
+     "en": "Pain",
+     "as": "বিষ"
+    },
+    {
+     "en": "Fear",
+     "as": "ভয়"
+    },
+    {
+     "en": "Anger",
+     "as": "খং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Poverty is the opposite of wealth; sorrow is the opposite of happiness.",
+    "as": "দাৰিদ্ৰ্য-সম্পদ; দুখ-সুখ।"
+   }
+  },
+  {
+   "id": "analogy-023",
+   "q": {
+    "en": "Eye : See :: Ear : ?",
+    "as": "Eye : See :: Ear : ?"
+   },
+   "options": [
+    {
+     "en": "Speak",
+     "as": "কথা কোৱা"
+    },
+    {
+     "en": "Touch",
+     "as": "স্পৰ্শ"
+    },
+    {
+     "en": "Hear",
+     "as": "শুনা"
+    },
+    {
+     "en": "Smell",
+     "as": "গোন্ধ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "An eye is used to see; an ear is used to hear.",
+    "as": "চকুৱে দেখে; কাণে শুনে।"
+   }
+  },
+  {
+   "id": "analogy-024",
+   "q": {
+    "en": "Nose : Smell :: Tongue : ?",
+    "as": "Nose : Smell :: Tongue : ?"
+   },
+   "options": [
+    {
+     "en": "Chew",
+     "as": "চোবোৱা"
+    },
+    {
+     "en": "Speak",
+     "as": "কথা কোৱা"
+    },
+    {
+     "en": "Breathe",
+     "as": "উশাহ লোৱা"
+    },
+    {
+     "en": "Taste",
+     "as": "সোৱাদ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A nose is used to smell; a tongue is used to taste.",
+    "as": "নাকে গোন্ধ; জিভাই সোৱাদ।"
+   }
+  },
+  {
+   "id": "analogy-025",
+   "q": {
+    "en": "Skin : Touch :: Hand : ?",
+    "as": "Skin : Touch :: Hand : ?"
+   },
+   "options": [
+    {
+     "en": "Hold",
+     "as": "ধৰা"
+    },
+    {
+     "en": "Clap",
+     "as": "তালি দিয়া"
+    },
+    {
+     "en": "Wave",
+     "as": "ঢৌ"
+    },
+    {
+     "en": "Point",
+     "as": "বিন্দু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Skin senses touch; a hand holds objects.",
+    "as": "ছালে স্পৰ্শ; হাতে ধৰে।"
+   }
+  },
+  {
+   "id": "analogy-026",
+   "q": {
+    "en": "Sun : Day :: Moon : ?",
+    "as": "Sun : Day :: Moon : ?"
+   },
+   "options": [
+    {
+     "en": "Morning",
+     "as": "ৰাতিপুৱা"
+    },
+    {
+     "en": "Dawn",
+     "as": "পুৱা"
+    },
+    {
+     "en": "Night",
+     "as": "ৰাতি"
+    },
+    {
+     "en": "Evening",
+     "as": "আবেলি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The sun rules the day; the moon rules the night.",
+    "as": "সূৰ্যই দিন; চন্দ্ৰই ৰাতি।"
+   }
+  },
+  {
+   "id": "analogy-027",
+   "q": {
+    "en": "Tree : Wood :: Sheep : ?",
+    "as": "Tree : Wood :: Sheep : ?"
+   },
+   "options": [
+    {
+     "en": "Cotton",
+     "as": "কপাহ"
+    },
+    {
+     "en": "Wool",
+     "as": "ঊণ"
+    },
+    {
+     "en": "Leather",
+     "as": "চামৰা"
+    },
+    {
+     "en": "Silk",
+     "as": "ৰেচম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Wood comes from a tree; wool comes from a sheep.",
+    "as": "কাঠ গছৰ পৰা; ঊণ ভেড়াৰ পৰা।"
+   }
+  },
+  {
+   "id": "analogy-028",
+   "q": {
+    "en": "Milk : Cow :: Egg : ?",
+    "as": "Milk : Cow :: Egg : ?"
+   },
+   "options": [
+    {
+     "en": "Duck",
+     "as": "হাঁহ"
+    },
+    {
+     "en": "Goat",
+     "as": "ছাগলী"
+    },
+    {
+     "en": "Hen",
+     "as": "কুকুৰা"
+    },
+    {
+     "en": "Fish",
+     "as": "মাছ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Milk comes from a cow; an egg comes from a hen.",
+    "as": "গাখীৰ গৰুৰ; কণী কুকুৰাৰ।"
+   }
+  },
+  {
+   "id": "analogy-029",
+   "q": {
+    "en": "Silk : Silkworm :: Pearl : ?",
+    "as": "Silk : Silkworm :: Pearl : ?"
+   },
+   "options": [
+    {
+     "en": "Oyster",
+     "as": "সীপ"
+    },
+    {
+     "en": "Coral",
+     "as": "প্ৰৱাল"
+    },
+    {
+     "en": "Fish",
+     "as": "মাছ"
+    },
+    {
+     "en": "Shell",
+     "as": "শামুকৰ খোলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Silk comes from the silkworm; a pearl comes from an oyster.",
+    "as": "ৰেচম পলুৰ; মুকুতা সীপৰ।"
+   }
+  },
+  {
+   "id": "analogy-030",
+   "q": {
+    "en": "Flour : Wheat :: Sugar : ?",
+    "as": "Flour : Wheat :: Sugar : ?"
+   },
+   "options": [
+    {
+     "en": "Maize",
+     "as": "মাকৈ"
+    },
+    {
+     "en": "Barley",
+     "as": "বাৰ্লি"
+    },
+    {
+     "en": "Rice",
+     "as": "চাউল"
+    },
+    {
+     "en": "Sugarcane",
+     "as": "কুঁহিয়াৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Flour is made from wheat; sugar is made from sugarcane.",
+    "as": "আটা ঘেঁহুৰ; চেনি কুঁহিয়াৰৰ।"
+   }
+  },
+  {
+   "id": "analogy-031",
+   "q": {
+    "en": "Butter : Milk :: Petrol : ?",
+    "as": "Butter : Milk :: Petrol : ?"
+   },
+   "options": [
+    {
+     "en": "Coal",
+     "as": "কয়লা"
+    },
+    {
+     "en": "Diesel",
+     "as": "ডিজেল"
+    },
+    {
+     "en": "Crude oil",
+     "as": "অশোধিত তেল"
+    },
+    {
+     "en": "Kerosene",
+     "as": "কেৰাচিন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Butter is made from milk; petrol is made from crude oil.",
+    "as": "মাখন গাখীৰৰ; পেট্ৰ'ল অশোধিত তেলৰ।"
+   }
+  },
+  {
+   "id": "analogy-032",
+   "q": {
+    "en": "Book : Chapter :: Building : ?",
+    "as": "Book : Chapter :: Building : ?"
+   },
+   "options": [
+    {
+     "en": "Wall",
+     "as": "বেৰ"
+    },
+    {
+     "en": "Room",
+     "as": "কোঠা"
+    },
+    {
+     "en": "Floor",
+     "as": "মজিয়া"
+    },
+    {
+     "en": "Window",
+     "as": "খিৰিকী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A book is divided into chapters; a building into floors.",
+    "as": "কিতাপ অধ্যায়ত; ভৱন মহলাত।"
+   }
+  },
+  {
+   "id": "analogy-033",
+   "q": {
+    "en": "Army : Soldier :: Team : ?",
+    "as": "Army : Soldier :: Team : ?"
+   },
+   "options": [
+    {
+     "en": "Captain",
+     "as": "অধিনায়ক"
+    },
+    {
+     "en": "Player",
+     "as": "খেলুৱৈ"
+    },
+    {
+     "en": "Ground",
+     "as": "খেলপথাৰ"
+    },
+    {
+     "en": "Match",
+     "as": "মিল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "An army is made of soldiers; a team is made of players.",
+    "as": "সেনা সৈনিকৰ; দল খেলুৱৈৰ।"
+   }
+  },
+  {
+   "id": "analogy-034",
+   "q": {
+    "en": "Class : Student :: Crowd : ?",
+    "as": "Class : Student :: Crowd : ?"
+   },
+   "options": [
+    {
+     "en": "Noise",
+     "as": "শব্দ"
+    },
+    {
+     "en": "Place",
+     "as": "স্থান"
+    },
+    {
+     "en": "Leader",
+     "as": "নেতা"
+    },
+    {
+     "en": "People",
+     "as": "মানুহ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A class is a group of students; a crowd is a group of people.",
+    "as": "শ্ৰেণী ছাত্ৰৰ; ভিৰ মানুহৰ।"
+   }
+  },
+  {
+   "id": "analogy-035",
+   "q": {
+    "en": "Bouquet : Flowers :: Crowd : ?",
+    "as": "Bouquet : Flowers :: Crowd : ?"
+   },
+   "options": [
+    {
+     "en": "Market",
+     "as": "বজাৰ"
+    },
+    {
+     "en": "People",
+     "as": "মানুহ"
+    },
+    {
+     "en": "Bunch",
+     "as": "গোছা"
+    },
+    {
+     "en": "Garden",
+     "as": "বাগিচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A bouquet is a collection of flowers; a crowd is a collection of people.",
+    "as": "পুষ্পস্তৱক ফুলৰ; ভিৰ মানুহৰ।"
+   }
+  },
+  {
+   "id": "analogy-036",
+   "q": {
+    "en": "Calf : Cow :: Puppy : ?",
+    "as": "Calf : Cow :: Puppy : ?"
+   },
+   "options": [
+    {
+     "en": "Cat",
+     "as": "মেকুৰী"
+    },
+    {
+     "en": "Goat",
+     "as": "ছাগলী"
+    },
+    {
+     "en": "Dog",
+     "as": "কুকুৰ"
+    },
+    {
+     "en": "Deer",
+     "as": "হৰিণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A calf belongs to a cow; a puppy belongs to a dog.",
+    "as": "দমৰা গৰুৰ; পাপী কুকুৰৰ।"
+   }
+  },
+  {
+   "id": "analogy-037",
+   "q": {
+    "en": "Clock : Time :: Thermometer : ?",
+    "as": "Clock : Time :: Thermometer : ?"
+   },
+   "options": [
+    {
+     "en": "Rain",
+     "as": "বৰষুণ"
+    },
+    {
+     "en": "Temperature",
+     "as": "উষ্ণতা"
+    },
+    {
+     "en": "Humidity",
+     "as": "আৰ্দ্ৰতা"
+    },
+    {
+     "en": "Weather",
+     "as": "বতৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A clock measures time; a thermometer measures temperature.",
+    "as": "ঘড়ীয়ে সময়; থাৰ্ম'মিটাৰে উষ্ণতা।"
+   }
+  },
+  {
+   "id": "analogy-038",
+   "q": {
+    "en": "Barometer : Pressure :: Speedometer : ?",
+    "as": "Barometer : Pressure :: Speedometer : ?"
+   },
+   "options": [
+    {
+     "en": "Fuel",
+     "as": "ইন্ধন"
+    },
+    {
+     "en": "Distance",
+     "as": "দূৰত্ব"
+    },
+    {
+     "en": "Time",
+     "as": "সময়"
+    },
+    {
+     "en": "Speed",
+     "as": "গতি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A barometer measures pressure; a speedometer measures speed.",
+    "as": "বেৰ'মিটাৰে চাপ; স্পিড'মিটাৰে গতি।"
+   }
+  },
+  {
+   "id": "analogy-039",
+   "q": {
+    "en": "Ammeter : Current :: Odometer : ?",
+    "as": "Ammeter : Current :: Odometer : ?"
+   },
+   "options": [
+    {
+     "en": "Distance",
+     "as": "দূৰত্ব"
+    },
+    {
+     "en": "Pressure",
+     "as": "চাপ"
+    },
+    {
+     "en": "Speed",
+     "as": "গতি"
+    },
+    {
+     "en": "Time",
+     "as": "সময়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "An ammeter measures current; an odometer measures distance.",
+    "as": "এমিটাৰে প্ৰবাহ; অ'ড'মিটাৰে দূৰত্ব।"
+   }
+  },
+  {
+   "id": "analogy-040",
+   "q": {
+    "en": "Atheist : God :: Blind : ?",
+    "as": "Atheist : God :: Blind : ?"
+   },
+   "options": [
+    {
+     "en": "Eye",
+     "as": "চকু"
+    },
+    {
+     "en": "Light",
+     "as": "পোহৰ"
+    },
+    {
+     "en": "Sight",
+     "as": "দৃষ্টি"
+    },
+    {
+     "en": "Colour",
+     "as": "ৰং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "An atheist does not believe in God; a blind person lacks sight.",
+    "as": "নাস্তিকে ঈশ্বৰত বিশ্বাস নকৰে; অন্ধৰ দৃষ্টি নাই।"
+   }
+  },
+  {
+   "id": "analogy-041",
+   "q": {
+    "en": "Illiterate : Education :: Orphan : ?",
+    "as": "Illiterate : Education :: Orphan : ?"
+   },
+   "options": [
+    {
+     "en": "Friends",
+     "as": "বন্ধু"
+    },
+    {
+     "en": "Home",
+     "as": "ঘৰ"
+    },
+    {
+     "en": "Parents",
+     "as": "পিতৃ-মাতৃ"
+    },
+    {
+     "en": "Money",
+     "as": "ধন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "An illiterate person lacks education; an orphan lacks parents.",
+    "as": "নিৰক্ষৰৰ শিক্ষা নাই; অনাথৰ পিতৃ-মাতৃ নাই।"
+   }
+  },
+  {
+   "id": "analogy-042",
+   "q": {
+    "en": "Doctor : Patient :: Lawyer : ?",
+    "as": "Doctor : Patient :: Lawyer : ?"
+   },
+   "options": [
+    {
+     "en": "Court",
+     "as": "আদালত"
+    },
+    {
+     "en": "Judge",
+     "as": "বিচাৰক"
+    },
+    {
+     "en": "Client",
+     "as": "গ্ৰাহক"
+    },
+    {
+     "en": "Case",
+     "as": "গোচৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A doctor treats a patient; a lawyer advises a client.",
+    "as": "ডাক্তৰে ৰোগীক; ওকালতিয়ে গ্ৰাহকক।"
+   }
+  },
+  {
+   "id": "analogy-043",
+   "q": {
+    "en": "Teacher : Student :: Coach : ?",
+    "as": "Teacher : Student :: Coach : ?"
+   },
+   "options": [
+    {
+     "en": "Ground",
+     "as": "খেলপথাৰ"
+    },
+    {
+     "en": "Trainee",
+     "as": "প্ৰশিক্ষাৰ্থী"
+    },
+    {
+     "en": "Player",
+     "as": "খেলুৱৈ"
+    },
+    {
+     "en": "Match",
+     "as": "মিল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A teacher teaches a student; a coach trains a trainee.",
+    "as": "শিক্ষকে ছাত্ৰক; প্ৰশিক্ষকে প্ৰশিক্ষাৰ্থীক।"
+   }
+  },
+  {
+   "id": "analogy-044",
+   "q": {
+    "en": "Bird : Fly :: Fish : ?",
+    "as": "Bird : Fly :: Fish : ?"
+   },
+   "options": [
     {
      "en": "Run",
      "as": "দৌৰা"
     },
     {
+     "en": "Swim",
+     "as": "সাঁতুৰা"
+    },
+    {
      "en": "Jump",
-     "as": "জপিওৱা"
+     "as": "জঁপিয়াই"
+    },
+    {
+     "en": "Crawl",
+     "as": "বাগৰি চলা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "A bird flies and a fish swims.",
-    "as": "চৰাই উৰে আৰু মাছে সাঁতোৰে।"
+    "en": "A bird flies; a fish swims.",
+    "as": "চৰাইয়ে উৰে; মাছে সাঁতুৰে।"
    }
   },
   {
-   "id": "analogy-004",
+   "id": "analogy-045",
    "q": {
-    "en": "Cow : Calf : : Dog : ?",
-    "as": "গাই : পোৱালী : : কুকুৰ : ?"
+    "en": "Kangaroo : Hop :: Snake : ?",
+    "as": "Kangaroo : Hop :: Snake : ?"
    },
    "options": [
     {
-     "en": "Puppy",
-     "as": "কুকুৰৰ পোৱালী"
+     "en": "Fly",
+     "as": "উৰা"
     },
     {
-     "en": "Kitten",
-     "as": "মেকুৰীৰ পোৱালী"
+     "en": "Swim",
+     "as": "সাঁতুৰা"
     },
     {
-     "en": "Cub",
-     "as": "জন্তুৰ পোৱালী"
+     "en": "Crawl",
+     "as": "বাগৰি চলা"
     },
     {
-     "en": "Chick",
-     "as": "চৰাইৰ পোৱালী"
+     "en": "Run",
+     "as": "দৌৰা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A kangaroo hops; a snake crawls.",
+    "as": "কাংগাৰুৱে জঁপিয়াই; সাপে বাগৰি।"
+   }
+  },
+  {
+   "id": "analogy-046",
+   "q": {
+    "en": "Shoe : Foot :: Glove : ?",
+    "as": "Shoe : Foot :: Glove : ?"
+   },
+   "options": [
+    {
+     "en": "Leg",
+     "as": "ভৰি"
+    },
+    {
+     "en": "Head",
+     "as": "মূৰ"
+    },
+    {
+     "en": "Hand",
+     "as": "হাত"
+    },
+    {
+     "en": "Arm",
+     "as": "বাহু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A shoe covers a foot; a glove covers a hand.",
+    "as": "জোতা ভৰিৰ; জোঙাল কাপোৰ হাতৰ।"
+   }
+  },
+  {
+   "id": "analogy-047",
+   "q": {
+    "en": "Hat : Head :: Belt : ?",
+    "as": "Hat : Head :: Belt : ?"
+   },
+   "options": [
+    {
+     "en": "Neck",
+     "as": "ডিঙি"
+    },
+    {
+     "en": "Wrist",
+     "as": "কৰত"
+    },
+    {
+     "en": "Knee",
+     "as": "আঁঠু"
+    },
+    {
+     "en": "Waist",
+     "as": "কঁকাল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A hat is worn on the head; a belt on the waist.",
+    "as": "টুপী মূৰত; বেল্ট কঁকালত।"
+   }
+  },
+  {
+   "id": "analogy-048",
+   "q": {
+    "en": "Ring : Finger :: Bangle : ?",
+    "as": "Ring : Finger :: Bangle : ?"
+   },
+   "options": [
+    {
+     "en": "Neck",
+     "as": "ডিঙি"
+    },
+    {
+     "en": "Wrist",
+     "as": "কৰত"
+    },
+    {
+     "en": "Ankle",
+     "as": "ভৰিৰ গাঁঠি"
+    },
+    {
+     "en": "Ear",
+     "as": "কাণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A ring is worn on a finger; a bangle on the wrist.",
+    "as": "আঙঠি আঙুলিত; খাৰু কৰতত।"
+   }
+  },
+  {
+   "id": "analogy-049",
+   "q": {
+    "en": "Pencil : Write :: Eraser : ?",
+    "as": "Pencil : Write :: Eraser : ?"
+   },
+   "options": [
+    {
+     "en": "Erase",
+     "as": "মচা"
+    },
+    {
+     "en": "Colour",
+     "as": "ৰং"
+    },
+    {
+     "en": "Draw",
+     "as": "আঁকিব"
+    },
+    {
+     "en": "Paint",
+     "as": "ৰং কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The young one of a cow is a calf and of a dog is a puppy.",
-    "as": "গাইৰ পোৱালী পোৱালী আৰু কুকুৰৰ পোৱালী puppy।"
+    "en": "A pencil writes; an eraser erases.",
+    "as": "পেঞ্চিলে লিখে; ৰাবাৰে মচে।"
+   }
+  },
+  {
+   "id": "analogy-050",
+   "q": {
+    "en": "Lamp : Light :: Fan : ?",
+    "as": "Lamp : Light :: Fan : ?"
+   },
+   "options": [
+    {
+     "en": "Noise",
+     "as": "শব্দ"
+    },
+    {
+     "en": "Spin",
+     "as": "ঘূৰ্ণন"
+    },
+    {
+     "en": "Cool",
+     "as": "শীতল"
+    },
+    {
+     "en": "Warm",
+     "as": "গৰম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A lamp gives light; a fan gives cool air.",
+    "as": "চাকিয়ে পোহৰ; ফেনে শীতল বতাহ।"
+   }
+  },
+  {
+   "id": "analogy-051",
+   "q": {
+    "en": "Wool : Sheep :: Silk : ?",
+    "as": "Wool : Sheep :: Silk : ?"
+   },
+   "options": [
+    {
+     "en": "Silkworm",
+     "as": "পলু"
+    },
+    {
+     "en": "Goat",
+     "as": "ছাগলী"
+    },
+    {
+     "en": "Camel",
+     "as": "উট"
+    },
+    {
+     "en": "Rabbit",
+     "as": "শহাপহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Wool is obtained from a sheep; silk from a silkworm.",
+    "as": "ঊণ ভেড়াৰ; ৰেচম পলুৰ।"
+   }
+  },
+  {
+   "id": "analogy-052",
+   "q": {
+    "en": "Mason : Wall :: Carpenter : ?",
+    "as": "Mason : Wall :: Carpenter : ?"
+   },
+   "options": [
+    {
+     "en": "Roof",
+     "as": "চাল"
+    },
+    {
+     "en": "Floor",
+     "as": "মজিয়া"
+    },
+    {
+     "en": "Door",
+     "as": "দুৱাৰ"
+    },
+    {
+     "en": "Furniture",
+     "as": "আচবাব"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A mason builds a wall; a carpenter makes furniture.",
+    "as": "ৰাজমিস্ত্ৰীয়ে বেৰ; বাঢ়ৈয়ে আচবাব।"
+   }
+  },
+  {
+   "id": "analogy-053",
+   "q": {
+    "en": "Author : Book :: Composer : ?",
+    "as": "Author : Book :: Composer : ?"
+   },
+   "options": [
+    {
+     "en": "Play",
+     "as": "খেলা"
+    },
+    {
+     "en": "Music",
+     "as": "সংগীত"
+    },
+    {
+     "en": "Poem",
+     "as": "কবিতা"
+    },
+    {
+     "en": "Song",
+     "as": "গান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "An author writes a book; a composer writes music.",
+    "as": "লেখকে কিতাব; সংগীতকাৰে সংগীত।"
+   }
+  },
+  {
+   "id": "analogy-054",
+   "q": {
+    "en": "Engineer : Machine :: Architect : ?",
+    "as": "Engineer : Machine :: Architect : ?"
+   },
+   "options": [
+    {
+     "en": "Building",
+     "as": "ভৱন"
+    },
+    {
+     "en": "Bridge",
+     "as": "দলং"
+    },
+    {
+     "en": "Dam",
+     "as": "বান্ধ"
+    },
+    {
+     "en": "Road",
+     "as": "পথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "An engineer designs a machine; an architect designs a building.",
+    "as": "ইঞ্জিনিয়াৰে যন্ত্ৰ; স্থপতিয়ে ভৱন।"
+   }
+  },
+  {
+   "id": "analogy-055",
+   "q": {
+    "en": "Sculptor : Statue :: Poet : ?",
+    "as": "Sculptor : Statue :: Poet : ?"
+   },
+   "options": [
+    {
+     "en": "Song",
+     "as": "গান"
+    },
+    {
+     "en": "Essay",
+     "as": "প্ৰবন্ধ"
+    },
+    {
+     "en": "Poem",
+     "as": "কবিতা"
+    },
+    {
+     "en": "Novel",
+     "as": "উপন্যাস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A sculptor carves a statue; a poet writes a poem.",
+    "as": "ভাস্কৰ্যশিল্পীয়ে মূৰ্তি; কবিয়ে কবিতা।"
    }
   }
  ],
@@ -5345,51 +6875,321 @@ module.exports = {
   {
    "id": "blood-relations-001",
    "q": {
-    "en": "Pointing to a man, a woman said, 'He is the brother of my mother.' How is the man related to her?",
-    "as": "এজন মানুহলৈ আঙুলিয়াই এগৰাকী মহিলাই ক'লে, 'তেওঁ মোৰ মাকৰ ভাই।' মানুহজন তাইৰ কিদৰে সম্পৰ্কীয়?"
+    "en": "Pointing to a man, a woman said, 'He is the son of my mother.' How is the man related to the woman?",
+    "as": "এজন মানুহলৈ আঙুলিয়াই এগৰাকী মহিলাই ক'লে, 'তেওঁ মোৰ মাকৰ পুত্ৰ।' মানুহজন মহিলাগৰাকীৰ কি হয়?"
    },
    "options": [
     {
-     "en": "Father",
-     "as": "দেউতাক"
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
     },
     {
      "en": "Uncle",
-     "as": "খুড়া/মামা"
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "He is the son of her mother, so he is her brother.",
+    "as": "তেওঁ তাইৰ মাকৰ পুত্ৰ, গতিকে তেওঁ তাইৰ ভাই।"
+   }
+  },
+  {
+   "id": "blood-relations-002",
+   "q": {
+    "en": "A man said, 'This girl is the daughter of my grandfather's only son.' How is the girl related to the man?",
+    "as": "এজন মানুহে ক'লে, 'এই ছোৱালীজনী মোৰ ককাকৰ একমাত্ৰ পুত্ৰৰ জীয়েক।' ছোৱালীজনী মানুহজনৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "My grandfather's only son is my father, and his daughter is my sister.",
+    "as": "মোৰ ককাকৰ একমাত্ৰ পুত্ৰ মোৰ দেউতা, আৰু তেওঁৰ জীয়েক মোৰ ভনী।"
+   }
+  },
+  {
+   "id": "blood-relations-003",
+   "q": {
+    "en": "Ravi's mother is the only daughter of Mohan's father. How is Mohan related to Ravi?",
+    "as": "ৰবিৰ মাক মোহনৰ দেউতাৰ একমাত্ৰ জীয়েক। মোহন ৰবিৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
     },
     {
      "en": "Brother",
      "as": "ভাই"
     },
     {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ravi's mother is Mohan's sister, so Mohan is Ravi's maternal uncle.",
+    "as": "ৰবিৰ মাক মোহনৰ ভনী, গতিকে মোহন ৰবিৰ মোমাই।"
+   }
+  },
+  {
+   "id": "blood-relations-004",
+   "q": {
+    "en": "Introducing a boy, Sita said, 'He is the son of the daughter of the father of my uncle.' How is the boy related to Sita?",
+    "as": "এজন ল'ৰাক পৰিচয় দি সীতাই ক'লে, 'তেওঁ মোৰ খুৰাৰ দেউতাৰ জীয়েকৰ পুত্ৰ।' ল'ৰাজন সীতাৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Nephew",
+     "as": "ভতিজা/ভাগিনা"
+    },
+    {
      "en": "Cousin",
-     "as": "সম্বন্ধীয় ভাই"
+     "as": "খুৰাত ভাই-ভনী"
+    },
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The father of my uncle is my grandfather; his daughter is my aunt, and her son is my cousin.",
+    "as": "মোৰ খুৰাৰ দেউতা মোৰ ককাক; তেওঁৰ জীয়েক মোৰ পেহী, আৰু তাইৰ পুত্ৰ মোৰ খুৰাত ভাই।"
+   }
+  },
+  {
+   "id": "blood-relations-005",
+   "q": {
+    "en": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+    "as": "A হৈছে B ৰ ভনী। C হৈছে B ৰ মাক। D হৈছে C ৰ দেউতা। A, D ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    },
+    {
+     "en": "Granddaughter",
+     "as": "নাতিনী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is a child of C, and C is D's daughter, so A is D's granddaughter.",
+    "as": "A হৈছে C ৰ সন্তান, আৰু C হৈছে D ৰ জীয়েক, গতিকে A হৈছে D ৰ নাতিনী।"
+   }
+  },
+  {
+   "id": "blood-relations-006",
+   "q": {
+    "en": "P is the brother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+    "as": "P হৈছে Q ৰ ভাই। Q হৈছে R ৰ ভনী। R হৈছে S ৰ দেউতা। P, S ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "P and R are siblings, so P is the uncle of R's child S.",
+    "as": "P আৰু R সহোদৰ, গতিকে P হৈছে R ৰ সন্তান S ৰ খুৰা।"
+   }
+  },
+  {
+   "id": "blood-relations-007",
+   "q": {
+    "en": "M is the mother of N. N is the wife of O. P is the son of O. How is M related to P?",
+    "as": "M হৈছে N ৰ মাক। N হৈছে O ৰ পত্নী। P হৈছে O ৰ পুত্ৰ। M, P ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The brother of her mother is her uncle.",
-    "as": "তাইৰ মাকৰ ভাই হৈছে তাইৰ খুড়া/মামা।"
+    "en": "N is P's mother and M is N's mother, so M is P's grandmother.",
+    "as": "N হৈছে P ৰ মাক আৰু M হৈছে N ৰ মাক, গতিকে M হৈছে P ৰ আইতা।"
    }
   },
   {
-   "id": "blood-relations-002",
+   "id": "blood-relations-008",
    "q": {
-    "en": "A is the father of B and C is the daughter of B. How is A related to C?",
-    "as": "A হৈছে B ৰ দেউতাক আৰু C হৈছে B ৰ জীয়েক। A, C ৰ কিদৰে সম্পৰ্কীয়?"
+    "en": "X is the son of Y. Y is the daughter of Z. Z is the mother of W. How is X related to W?",
+    "as": "X হৈছে Y ৰ পুত্ৰ। Y হৈছে Z ৰ জীয়েক। Z হৈছে W ৰ মাক। X, W ৰ কি হয়?"
    },
    "options": [
     {
-     "en": "Father",
-     "as": "দেউতাক"
+     "en": "Son",
+     "as": "পুত্ৰ"
+    },
+    {
+     "en": "Nephew",
+     "as": "ভতিজা/ভাগিনা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Y and W are siblings (children of Z), so Y's son X is W's nephew.",
+    "as": "Y আৰু W সহোদৰ (Z ৰ সন্তান), গতিকে Y ৰ পুত্ৰ X হৈছে W ৰ ভতিজা।"
+   }
+  },
+  {
+   "id": "blood-relations-009",
+   "q": {
+    "en": "A woman said, 'My father is the brother of your mother.' How is the woman related to the listener?",
+    "as": "এগৰাকী মহিলাই ক'লে, 'মোৰ দেউতা তোমাৰ মাকৰ ভাই।' মহিলাগৰাকী শ্ৰোতাৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The woman's father and the listener's mother are siblings, so they are cousins.",
+    "as": "মহিলাগৰাকীৰ দেউতা আৰু শ্ৰোতাৰ মাক সহোদৰ, গতিকে তেওঁলোক খুৰাত-ভাই-ভনী।"
+   }
+  },
+  {
+   "id": "blood-relations-010",
+   "q": {
+    "en": "A is the father of B and C. C is the brother of D. D is the mother of E. How is A related to E?",
+    "as": "A হৈছে B আৰু C ৰ দেউতা। C হৈছে D ৰ ভাই। D হৈছে E ৰ মাক। A, E ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
     },
     {
      "en": "Grandfather",
      "as": "ককাক"
     },
     {
-     "en": "Uncle",
-     "as": "খুড়া"
+     "en": "Father",
+     "as": "দেউতা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "D is a sibling of C, so D is A's child, and D's child E is A's grandchild.",
+    "as": "D হৈছে C ৰ সহোদৰ, গতিকে D হৈছে A ৰ সন্তান, আৰু D ৰ সন্তান E হৈছে A ৰ নাতি।"
+   }
+  },
+  {
+   "id": "blood-relations-011",
+   "q": {
+    "en": "Introducing a man, a woman said, 'His wife is the only daughter of my father.' How is the man related to the woman?",
+    "as": "এজন মানুহৰ পৰিচয় দি এগৰাকী মহিলাই ক'লে, 'তেওঁৰ পত্নী মোৰ দেউতাৰ একমাত্ৰ জীয়েক।' মানুহজন মহিলাগৰাকীৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Husband",
+     "as": "স্বামী"
+    },
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
     },
     {
      "en": "Brother",
@@ -5398,68 +7198,1328 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "A is the father of B, so A is the grandfather of C.",
-    "as": "A হৈছে B ৰ দেউতাক, গতিকে A হৈছে C ৰ ককাক।"
+    "en": "The only daughter of her father is the woman herself, so the man is her husband.",
+    "as": "তাইৰ দেউতাৰ একমাত্ৰ জীয়েক তাই নিজেই, গতিকে মানুহজন তাইৰ স্বামী।"
    }
   },
   {
-   "id": "blood-relations-003",
+   "id": "blood-relations-012",
    "q": {
-    "en": "My mother's only son is —",
-    "as": "মোৰ মাকৰ একমাত্ৰ পুত্ৰ হৈছে —"
+    "en": "K is the brother of L. M is the mother of L. N is the father of K. How is M related to N?",
+    "as": "K হৈছে L ৰ ভাই। M হৈছে L ৰ মাক। N হৈছে K ৰ দেউতা। M, N ৰ কি হয়?"
    },
    "options": [
     {
-     "en": "my cousin",
-     "as": "মোৰ সম্বন্ধীয় ভাই"
+     "en": "Daughter",
+     "as": "জীয়েক"
     },
     {
-     "en": "my brother",
-     "as": "মোৰ ভাই"
+     "en": "Sister",
+     "as": "ভনী"
     },
     {
-     "en": "myself",
-     "as": "মই নিজে"
+     "en": "Wife",
+     "as": "পত্নী"
     },
     {
-     "en": "my uncle",
-     "as": "মোৰ খুড়া"
+     "en": "Mother",
+     "as": "মাক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "My mother's only son is myself, if I am the only son.",
-    "as": "মই যদি একমাত্ৰ পুত্ৰ হওঁ, তেন্তে মোৰ মাকৰ একমাত্ৰ পুত্ৰ হৈছে মই নিজে।"
+    "en": "K and L are siblings with the same parents M and N, so M is N's wife.",
+    "as": "K আৰু L একে দেউতা-মাক M আৰু N ৰ সন্তান, গতিকে M হৈছে N ৰ পত্নী।"
    }
   },
   {
-   "id": "blood-relations-004",
+   "id": "blood-relations-013",
    "q": {
-    "en": "The daughter of my uncle is my —",
-    "as": "মোৰ খুড়াৰ জীয়েক হৈছে মোৰ —"
+    "en": "A is B's brother. B is C's father. C is D's sister. How is A related to D?",
+    "as": "A হৈছে B ৰ ভাই। B হৈছে C ৰ দেউতা। C হৈছে D ৰ ভনী। A, D ৰ কি হয়?"
    },
    "options": [
     {
-     "en": "sister",
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is a sibling of B, so A is the uncle of B's children C and D.",
+    "as": "A হৈছে B ৰ সহোদৰ, গতিকে A হৈছে B ৰ সন্তান C আৰু D ৰ খুৰা।"
+   }
+  },
+  {
+   "id": "blood-relations-014",
+   "q": {
+    "en": "The son of my mother's brother is my —",
+    "as": "মোৰ মাকৰ ভাইৰ পুত্ৰ মোৰ —"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Nephew",
+     "as": "ভতিজা/ভাগিনা"
+    },
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "My mother's brother is my uncle, and his son is my cousin.",
+    "as": "মোৰ মাকৰ ভাই মোৰ মোমাই, আৰু তেওঁৰ পুত্ৰ মোৰ খুৰাত ভাই।"
+   }
+  },
+  {
+   "id": "blood-relations-015",
+   "q": {
+    "en": "My father's sister's husband is my —",
+    "as": "মোৰ দেউতাৰ ভনীৰ স্বামী মোৰ —"
+   },
+   "options": [
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Nephew",
+     "as": "ভতিজা/ভাগিনা"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "My father's sister is my aunt and her husband is my uncle.",
+    "as": "মোৰ দেউতাৰ ভনী মোৰ পেহী আৰু তাইৰ স্বামী মোৰ পেহাদেউ।"
+   }
+  },
+  {
+   "id": "blood-relations-016",
+   "q": {
+    "en": "My mother's father's son's daughter is my —",
+    "as": "মোৰ মাকৰ দেউতাৰ পুত্ৰৰ জীয়েক মোৰ —"
+   },
+   "options": [
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    },
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "My mother's father is my grandfather; his son is my maternal uncle and his daughter is my cousin.",
+    "as": "মোৰ মাকৰ দেউতা মোৰ ককাক; তেওঁৰ পুত্ৰ মোৰ মোমাই আৰু তেওঁৰ জীয়েক মোৰ খুৰাত ভনী।"
+   }
+  },
+  {
+   "id": "blood-relations-017",
+   "q": {
+    "en": "P's father is Q's son. How is P related to Q?",
+    "as": "P ৰ দেউতা হৈছে Q ৰ পুত্ৰ। P, Q ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Nephew",
+     "as": "ভতিজা/ভাগিনা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandchild",
+     "as": "নাতি"
+    },
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Q's son is P's father, so P is Q's grandchild.",
+    "as": "Q ৰ পুত্ৰ হৈছে P ৰ দেউতা, গতিকে P হৈছে Q ৰ নাতি।"
+   }
+  },
+  {
+   "id": "blood-relations-018",
+   "q": {
+    "en": "X and Y are brothers. P and Q are sisters. X's son is Q's brother. How is Y related to P?",
+    "as": "A আৰু B সহোদৰ ভাই। C আৰু D সহোদৰ ভনী। A ৰ পুত্ৰ হৈছে D ৰ ভাই। B, C ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A's son is D's brother, so D is A's child; then C is also A's child, and B is A's brother, so B is C's uncle.",
+    "as": "A ৰ পুত্ৰ D ৰ ভাই, গতিকে D হৈছে A ৰ সন্তান; তেন্তে Cও A ৰ সন্তান, আৰু B হৈছে A ৰ ভাই, গতিকে B হৈছে C ৰ খুৰা।"
+   }
+  },
+  {
+   "id": "blood-relations-019",
+   "q": {
+    "en": "If 'A + B' means A is the father of B and 'A − B' means A is the mother of B, then in 'P + Q − R', how is P related to R?",
+    "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা আৰু 'A − B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'P + Q − R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Q is the mother of R and P is the father of Q, so P is R's grandfather.",
+    "as": "Q হৈছে R ৰ মাক আৰু P হৈছে Q ৰ দেউতা, গতিকে P হৈছে R ৰ ককাক।"
+   }
+  },
+  {
+   "id": "blood-relations-020",
+   "q": {
+    "en": "If 'X × Y' means X is the son of Y, then in 'A × B × C', how is A related to C?",
+    "as": "যদি 'X × Y' ৰ অৰ্থ X হৈছে Y ৰ পুত্ৰ, তেন্তে 'A × B × C' ত A, C ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandson",
+     "as": "নাতি"
+    },
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A is the son of B and B is the son of C, so A is C's grandson.",
+    "as": "A হৈছে B ৰ পুত্ৰ আৰু B হৈছে C ৰ পুত্ৰ, গতিকে A হৈছে C ৰ নাতি।"
+   }
+  },
+  {
+   "id": "blood-relations-021",
+   "q": {
+    "en": "If 'A ÷ B' means A is the mother of B and 'A × B' means A is the brother of B, then in 'P ÷ Q × R', how is P related to R?",
+    "as": "যদি 'A ÷ B' ৰ অৰ্থ A হৈছে B ৰ মাক আৰু 'A × B' ৰ অৰ্থ A হৈছে B ৰ ভাই, তেন্তে 'P ÷ Q × R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Sister",
      "as": "ভনী"
     },
     {
-     "en": "cousin",
-     "as": "সম্বন্ধীয় ভনী"
-    },
-    {
-     "en": "niece",
-     "as": "ভাগিনী"
-    },
-    {
-     "en": "aunt",
+     "en": "Aunt",
      "as": "পেহী/মাহী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The daughter of an uncle is a cousin.",
-    "as": "খুড়াৰ জীয়েক হৈছে সম্বন্ধীয় ভনী।"
+    "en": "Q is the brother of R and P is the mother of Q, so P is R's mother.",
+    "as": "Q হৈছে R ৰ ভাই আৰু P হৈছে Q ৰ মাক, গতিকে P হৈছে R ৰ মাক।"
+   }
+  },
+  {
+   "id": "blood-relations-022",
+   "q": {
+    "en": "If 'A − B' means A is the wife of B and 'A + B' means A is the son of B, then in 'P − Q + R', how is P related to R?",
+    "as": "যদি 'A − B' ৰ অৰ্থ A হৈছে B ৰ পত্নী আৰু 'A + B' ৰ অৰ্থ A হৈছে B ৰ পুত্ৰ, তেন্তে 'P − Q + R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Daughter-in-law",
+     "as": "বোৱাৰী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Q is the son of R and P is the wife of Q, so P is the daughter-in-law of R.",
+    "as": "Q হৈছে R ৰ পুত্ৰ আৰু P হৈছে Q ৰ পত্নী, গতিকে P হৈছে R ৰ বোৱাৰী।"
+   }
+  },
+  {
+   "id": "blood-relations-023",
+   "q": {
+    "en": "If 'A @ B' means A is the husband of B, then in 'P @ Q @ R', how is P related to R?",
+    "as": "যদি 'A @ B' ৰ অৰ্থ A হৈছে B ৰ স্বামী, তেন্তে 'P @ Q @ R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Cannot be determined",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The code gives only husband relations; P's link to R cannot be fixed from the data.",
+    "as": "সংকেতটোৱে কেৱল স্বামীৰ সম্পৰ্ক দিয়ে; তথ্যৰ পৰা P ৰ R লগত সম্পৰ্ক নিৰ্ণয় কৰিব নোৱাৰি।"
+   }
+  },
+  {
+   "id": "blood-relations-024",
+   "q": {
+    "en": "If 'A + B' means A is the father of B and 'A * B' means A is the sister of B, then in 'M + N * O', how is M related to O?",
+    "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা আৰু 'A * B' ৰ অৰ্থ A হৈছে B ৰ ভনী, তেন্তে 'M + N * O' ত M, O ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "N is the sister of O and M is the father of N, so M is O's father.",
+    "as": "N হৈছে O ৰ ভনী আৰু M হৈছে N ৰ দেউতা, গতিকে M হৈছে O ৰ দেউতা।"
+   }
+  },
+  {
+   "id": "blood-relations-025",
+   "q": {
+    "en": "If 'A Δ B' means A is the mother of B, then in 'X Δ Y Δ Z', how is X related to Z?",
+    "as": "যদি 'A Δ B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'X Δ Y Δ Z' ত X, Z ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Y is the mother of Z and X is the mother of Y, so X is Z's grandmother.",
+    "as": "Y হৈছে Z ৰ মাক আৰু X হৈছে Y ৰ মাক, গতিকে X হৈছে Z ৰ আইতা।"
+   }
+  },
+  {
+   "id": "blood-relations-026",
+   "q": {
+    "en": "If 'A # B' means A is the daughter of B, then in 'P # Q # R', how is P related to R?",
+    "as": "যদি 'A # B' ৰ অৰ্থ A হৈছে B ৰ জীয়েক, তেন্তে 'P # Q # R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Granddaughter",
+     "as": "নাতিনী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Q is the daughter of R and P is the daughter of Q, so P is R's granddaughter.",
+    "as": "Q হৈছে R ৰ জীয়েক আৰু P হৈছে Q ৰ জীয়েক, গতিকে P হৈছে R ৰ নাতিনী।"
+   }
+  },
+  {
+   "id": "blood-relations-027",
+   "q": {
+    "en": "If 'A & B' means A is the brother of B and 'A % B' means A is the father of B, then in 'P % Q & R', how is P related to R?",
+    "as": "যদি 'A & B' ৰ অৰ্থ A হৈছে B ৰ ভাই আৰু 'A % B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, তেন্তে 'P % Q & R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Q is the brother of R and P is the father of Q, so P is R's father.",
+    "as": "Q হৈছে R ৰ ভাই আৰু P হৈছে Q ৰ দেউতা, গতিকে P হৈছে R ৰ দেউতা।"
+   }
+  },
+  {
+   "id": "blood-relations-028",
+   "q": {
+    "en": "If 'A $ B' means A is the wife of B, then in 'P $ Q $ R', how is P related to R?",
+    "as": "যদি 'A $ B' ৰ অৰ্থ A হৈছে B ৰ পত্নী, তেন্তে 'P $ Q $ R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Cannot be determined",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Only wife relations are given, so P's link to R cannot be determined.",
+    "as": "কেৱল পত্নীৰ সম্পৰ্ক দিয়া আছে, গতিকে P ৰ R লগত সম্পৰ্ক নিৰ্ণয় কৰিব নোৱাৰি।"
+   }
+  },
+  {
+   "id": "blood-relations-029",
+   "q": {
+    "en": "If 'A + B' means A is the father of B, 'A − B' means A is the mother of B and 'A × B' means A is the brother of B, then in 'P × Q + R', how is P related to R?",
+    "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, 'A − B' ৰ অৰ্থ A হৈছে B ৰ মাক আৰু 'A × B' ৰ অৰ্থ A হৈছে B ৰ ভাই, তেন্তে 'P × Q + R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Q is the father of R and P is the brother of Q, so P is R's uncle.",
+    "as": "Q হৈছে R ৰ দেউতা আৰু P হৈছে Q ৰ ভাই, গতিকে P হৈছে R ৰ খুৰা।"
+   }
+  },
+  {
+   "id": "blood-relations-030",
+   "q": {
+    "en": "If 'A * B' means A is the son of B and 'A / B' means A is the daughter of B, then in 'P / Q * R', how is P related to R?",
+    "as": "যদি 'A * B' ৰ অৰ্থ A হৈছে B ৰ পুত্ৰ আৰু 'A / B' ৰ অৰ্থ A হৈছে B ৰ জীয়েক, তেন্তে 'P / Q * R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    },
+    {
+     "en": "Granddaughter",
+     "as": "নাতিনী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Q is the son of R and P is the daughter of Q, so P is R's granddaughter.",
+    "as": "Q হৈছে R ৰ পুত্ৰ আৰু P হৈছে Q ৰ জীয়েক, গতিকে P হৈছে R ৰ নাতিনী।"
+   }
+  },
+  {
+   "id": "blood-relations-031",
+   "q": {
+    "en": "If 'A ! B' means A is the father of B, then in 'X ! Y ! Z', how is X related to Z?",
+    "as": "যদি 'A ! B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, তেন্তে 'X ! Y ! Z' ত X, Z ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Y is the father of Z and X is the father of Y, so X is Z's grandfather.",
+    "as": "Y হৈছে Z ৰ দেউতা আৰু X হৈছে Y ৰ দেউতা, গতিকে X হৈছে Z ৰ ককাক।"
+   }
+  },
+  {
+   "id": "blood-relations-032",
+   "q": {
+    "en": "If 'A + B' means A is the son of B, then in 'P + Q + R', how is P related to R?",
+    "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ পুত্ৰ, তেন্তে 'P + Q + R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandson",
+     "as": "নাতি"
+    },
+    {
+     "en": "Nephew",
+     "as": "ভতিজা/ভাগিনা"
+    },
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Q is the son of R and P is the son of Q, so P is R's grandson.",
+    "as": "Q হৈছে R ৰ পুত্ৰ আৰু P হৈছে Q ৰ পুত্ৰ, গতিকে P হৈছে R ৰ নাতি।"
+   }
+  },
+  {
+   "id": "blood-relations-033",
+   "q": {
+    "en": "If 'A × B' means A is the mother of B, then in 'P × Q × R', how is P related to R?",
+    "as": "যদি 'A × B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'P × Q × R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Q is the mother of R and P is the mother of Q, so P is R's grandmother.",
+    "as": "Q হৈছে R ৰ মাক আৰু P হৈছে Q ৰ মাক, গতিকে P হৈছে R ৰ আইতা।"
+   }
+  },
+  {
+   "id": "blood-relations-034",
+   "q": {
+    "en": "If 'A - B' means A is the sister of B, then in 'P - Q - R', how is P related to R?",
+    "as": "যদি 'A - B' ৰ অৰ্থ A হৈছে B ৰ ভনী, তেন্তে 'P - Q - R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Q is the sister of R and P is the sister of Q, so P is R's sister.",
+    "as": "Q হৈছে R ৰ ভনী আৰু P হৈছে Q ৰ ভনী, গতিকে P হৈছে R ৰ ভনী।"
+   }
+  },
+  {
+   "id": "blood-relations-035",
+   "q": {
+    "en": "If 'A + B' means A is the father of B, 'A − B' means A is the mother of B, then in 'P − Q + R', how is P related to R?",
+    "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, 'A − B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'P − Q + R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Q is the father of R and P is the mother of Q, so P is R's grandmother.",
+    "as": "Q হৈছে R ৰ দেউতা আৰু P হৈছে Q ৰ মাক, গতিকে P হৈছে R ৰ আইতা।"
+   }
+  },
+  {
+   "id": "blood-relations-036",
+   "q": {
+    "en": "If 'A * B' means A is the wife of B, then in 'P * Q * R', how is P related to R?",
+    "as": "যদি 'A * B' ৰ অৰ্থ A হৈছে B ৰ পত্নী, তেন্তে 'P * Q * R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Cannot be determined",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Only wife relations are given, so P's relation to R is not determined.",
+    "as": "কেৱল পত্নীৰ সম্পৰ্ক দিয়া আছে, গতিকে P ৰ R লগত সম্পৰ্ক নিৰ্ণয় নহয়।"
+   }
+  },
+  {
+   "id": "blood-relations-037",
+   "q": {
+    "en": "If 'A % B' means A is the brother of B and 'A + B' means A is the father of B, then in 'P + Q % R', how is P related to R?",
+    "as": "যদি 'A % B' ৰ অৰ্থ A হৈছে B ৰ ভাই আৰু 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, তেন্তে 'P + Q % R' ত P, R ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Q is the brother of R and P is the father of Q, so P is R's father.",
+    "as": "Q হৈছে R ৰ ভাই আৰু P হৈছে Q ৰ দেউতা, গতিকে P হৈছে R ৰ দেউতা।"
+   }
+  },
+  {
+   "id": "blood-relations-038",
+   "q": {
+    "en": "In a family of six, A is the father of B and C. C is the sister of D. E is the mother of D. How is E related to A?",
+    "as": "ছজনীয়া পৰিয়ালত A হৈছে B আৰু C ৰ দেউতা। C হৈছে D ৰ ভনী। E হৈছে D ৰ মাক। E, A ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Wife",
+     "as": "পত্নী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "C and D are siblings with parents A and E, so E is A's wife.",
+    "as": "C আৰু D একে দেউতা-মাক A আৰু E ৰ সন্তান, গতিকে E হৈছে A ৰ পত্নী।"
+   }
+  },
+  {
+   "id": "blood-relations-039",
+   "q": {
+    "en": "A is the brother of B. C is the mother of A. D is the father of C. How is B related to D?",
+    "as": "A হৈছে B ৰ ভাই। C হৈছে A ৰ মাক। D হৈছে C ৰ দেউতা। B, D ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Granddaughter",
+     "as": "নাতিনী"
+    },
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "B is a child of C and C is D's daughter, so B is a grandchild of D.",
+    "as": "B হৈছে C ৰ সন্তান আৰু C হৈছে D ৰ জীয়েক, গতিকে B হৈছে D ৰ নাতি।"
+   }
+  },
+  {
+   "id": "blood-relations-040",
+   "q": {
+    "en": "Pointing to a photograph, a man said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph is it?",
+    "as": "এখন ফটোলৈ আঙুলিয়াই এজনে ক'লে, 'মোৰ কোনো ভাই বা ভনী নাই, কিন্তু সেই মানুহজনৰ দেউতা মোৰ দেউতাৰ পুত্ৰ।' ফটোখন কাৰ?"
+   },
+   "options": [
+    {
+     "en": "His father's",
+     "as": "তেওঁৰ দেউতাৰ"
+    },
+    {
+     "en": "His son's",
+     "as": "তেওঁৰ পুত্ৰৰ"
+    },
+    {
+     "en": "His uncle's",
+     "as": "তেওঁৰ খুৰাৰ"
+    },
+    {
+     "en": "His own",
+     "as": "তেওঁৰ নিজৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "My father's son is me (no siblings), so the man's father is me; the photograph is of my son.",
+    "as": "মোৰ দেউতাৰ পুত্ৰ মই (ভাই-ভনী নাই), গতিকে সেই মানুহজনৰ দেউতা মই; ফটোখন মোৰ পুত্ৰৰ।"
+   }
+  },
+  {
+   "id": "blood-relations-041",
+   "q": {
+    "en": "A woman has a son and a daughter. The son is the father of a girl. How is the girl related to the woman?",
+    "as": "এগৰাকী মহিলাৰ এজন পুত্ৰ আৰু এগৰাকী জীয়েক আছে। পুত্ৰজন এজনী ছোৱালীৰ দেউতা। ছোৱালীজনী মহিলাগৰাকীৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Granddaughter",
+     "as": "নাতিনী"
+    },
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The girl is the child of the woman's son, so she is the woman's granddaughter.",
+    "as": "ছোৱালীজনী মহিলাগৰাকীৰ পুত্ৰৰ সন্তান, গতিকে তাই মহিলাগৰাকীৰ নাতিনী।"
+   }
+  },
+  {
+   "id": "blood-relations-042",
+   "q": {
+    "en": "If A is the mother of B and B is the sister of C, then A is C's —",
+    "as": "যদি A হৈছে B ৰ মাক আৰু B হৈছে C ৰ ভনী, তেন্তে A হৈছে C ৰ —"
+   },
+   "options": [
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "B and C share the same mother A, so A is C's mother.",
+    "as": "B আৰু C এগৰাকী মাক A ৰ সন্তান, গতিকে A হৈছে C ৰ মাক।"
+   }
+  },
+  {
+   "id": "blood-relations-043",
+   "q": {
+    "en": "My father's only son's mother is my —",
+    "as": "মোৰ দেউতাৰ একমাত্ৰ পুত্ৰৰ মাক মোৰ —"
+   },
+   "options": [
+    {
+     "en": "Grandmother",
+     "as": "আইতা"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "My father's only son is me (if no brothers), and his mother is my mother.",
+    "as": "মোৰ দেউতাৰ একমাত্ৰ পুত্ৰ মই (ভাই নাই), আৰু তেওঁৰ মাক মোৰ মাক।"
+   }
+  },
+  {
+   "id": "blood-relations-044",
+   "q": {
+    "en": "R is the son of S. T is the mother of S. U is the father of T. How is R related to U?",
+    "as": "R হৈছে S ৰ পুত্ৰ। T হৈছে S ৰ মাক। U হৈছে T ৰ দেউতা। R, U ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Nephew",
+     "as": "ভতিজা/ভাগিনা"
+    },
+    {
+     "en": "Great-grandson",
+     "as": "প্ৰনাতি"
+    },
+    {
+     "en": "Grandson",
+     "as": "নাতি"
+    },
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "S is the child of T, T is the child of U, so R (S's son) is U's great-grandson.",
+    "as": "S হৈছে T ৰ সন্তান, T হৈছে U ৰ সন্তান, গতিকে R (S ৰ পুত্ৰ) হৈছে U ৰ প্ৰনাতি।"
+   }
+  },
+  {
+   "id": "blood-relations-045",
+   "q": {
+    "en": "A is the father of B. B is the sister of C. C is the son of D. How is A related to D?",
+    "as": "A হৈছে B ৰ দেউতা। B হৈছে C ৰ ভনী। C হৈছে D ৰ পুত্ৰ। A, D ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Son",
+     "as": "পুত্ৰ"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Husband",
+     "as": "স্বামী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "B and C are siblings; B's father is A and C's parent is D, so A is D's husband.",
+    "as": "B আৰু C সহোদৰ; B ৰ দেউতা A আৰু C ৰ পিতৃ-মাতৃ D, গতিকে A হৈছে D ৰ স্বামী।"
+   }
+  },
+  {
+   "id": "blood-relations-046",
+   "q": {
+    "en": "Pointing to a lady, a man said, 'She is the daughter of the only son of my grandmother.' How is the lady related to the man?",
+    "as": "এগৰাকী মহিলালৈ আঙুলিয়াই এজনে ক'লে, 'তেওঁ মোৰ আইতাৰ একমাত্ৰ পুত্ৰৰ জীয়েক।' মহিলাগৰাকী মানুহজনৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "My grandmother's only son is my father, and his daughter is my sister.",
+    "as": "মোৰ আইতাৰ একমাত্ৰ পুত্ৰ মোৰ দেউতা, আৰু তেওঁৰ জীয়েক মোৰ ভনী।"
+   }
+  },
+  {
+   "id": "blood-relations-047",
+   "q": {
+    "en": "A and B are a married couple. C is A's sister. D is B's brother. How is C related to D?",
+    "as": "A আৰু B এটা বিবাহিত দম্পতী। C হৈছে A ৰ ভনী। D হৈছে B ৰ ভাই। C, D ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Sister-in-law",
+     "as": "শালী/ননদ"
+    },
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "C is the sister of A and D is the brother of B, so C is D's sister-in-law.",
+    "as": "C হৈছে A ৰ ভনী আৰু D হৈছে B ৰ ভাই, গতিকে C হৈছে D ৰ শালী।"
+   }
+  },
+  {
+   "id": "blood-relations-048",
+   "q": {
+    "en": "A man's son is my father. How is the man related to me?",
+    "as": "এজন মানুহৰ পুত্ৰ মোৰ দেউতা। মানুহজন মোৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The man's son is my father, so the man is my grandfather.",
+    "as": "মানুহজনৰ পুত্ৰ মোৰ দেউতা, গতিকে মানুহজন মোৰ ককাক।"
+   }
+  },
+  {
+   "id": "blood-relations-049",
+   "q": {
+    "en": "If P is the father of Q and Q is the daughter of R, then R is P's —",
+    "as": "যদি P হৈছে Q ৰ দেউতা আৰু Q হৈছে R ৰ জীয়েক, তেন্তে R হৈছে P ৰ —"
+   },
+   "options": [
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Wife",
+     "as": "পত্নী"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Q is the child of both P and R, so R is P's wife.",
+    "as": "Q হৈছে P আৰু R দুয়োৰে সন্তান, গতিকে R হৈছে P ৰ পত্নী।"
+   }
+  },
+  {
+   "id": "blood-relations-050",
+   "q": {
+    "en": "A is the uncle of B. B is the son of C. C is the sister of A. What is C to A?",
+    "as": "A হৈছে B ৰ খুৰা। B হৈছে C ৰ পুত্ৰ। C হৈছে A ৰ ভনী। C, A ৰ কি?"
+   },
+   "options": [
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "C is A's sister, and B is her son, which makes A the uncle of B.",
+    "as": "C হৈছে A ৰ ভনী, আৰু B তাইৰ পুত্ৰ, সেয়ে A হৈছে B ৰ খুৰা।"
+   }
+  },
+  {
+   "id": "blood-relations-051",
+   "q": {
+    "en": "M is N's brother. N is O's mother. O is P's father. How is M related to P?",
+    "as": "M হৈছে N ৰ ভাই। N হৈছে O ৰ মাক। O হৈছে P ৰ দেউতা। M, P ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    },
+    {
+     "en": "Grandfather",
+     "as": "ককাক"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "M is a brother of N, so M is the uncle of N's child O.",
+    "as": "M হৈছে N ৰ ভাই, গতিকে M হৈছে N ৰ সন্তান O ৰ খুৰা।"
+   }
+  },
+  {
+   "id": "blood-relations-052",
+   "q": {
+    "en": "Sita is the daughter of Ram. Ram is the son of Mohan. Gita is Mohan's daughter. How is Gita related to Sita?",
+    "as": "সীতা হৈছে ৰামৰ জীয়েক। ৰাম হৈছে মোহনৰ পুত্ৰ। গীতা হৈছে মোহনৰ জীয়েক। গীতা, সীতাৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    },
+    {
+     "en": "Mother",
+     "as": "মাক"
+    },
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gita is Ram's sister, and Ram is Sita's father, so Gita is Sita's aunt.",
+    "as": "গীতা হৈছে ৰামৰ ভনী, আৰু ৰাম হৈছে সীতাৰ দেউতা, গতিকে গীতা হৈছে সীতাৰ পেহী।"
+   }
+  },
+  {
+   "id": "blood-relations-053",
+   "q": {
+    "en": "A is B's father. C is B's mother. D is C's brother. How is D related to A?",
+    "as": "A হৈছে B ৰ দেউতা। C হৈছে B ৰ মাক। D হৈছে C ৰ ভাই। D, A ৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Brother-in-law",
+     "as": "শালা/ভিনদেউ"
+    },
+    {
+     "en": "Father",
+     "as": "দেউতা"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Brother",
+     "as": "ভাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "D is the brother of A's wife C, so D is A's brother-in-law.",
+    "as": "D হৈছে A ৰ পত্নী C ৰ ভাই, গতিকে D হৈছে A ৰ শালা।"
+   }
+  },
+  {
+   "id": "blood-relations-054",
+   "q": {
+    "en": "In a family, the father is a doctor and their son's wife is a lawyer. How is the lawyer related to the doctor?",
+    "as": "এটা পৰিয়ালত দেউতা ডাক্তৰ আৰু তেওঁলোকৰ পুত্ৰৰ পত্নী অধিবক্তা। অধিবক্তাগৰাকী ডাক্তৰৰ কি হয়?"
+   },
+   "options": [
+    {
+     "en": "Niece",
+     "as": "ভতিজী/ভাগিনী"
+    },
+    {
+     "en": "Daughter",
+     "as": "জীয়েক"
+    },
+    {
+     "en": "Daughter-in-law",
+     "as": "বোৱাৰী"
+    },
+    {
+     "en": "Sister",
+     "as": "ভনী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The lawyer is the wife of the doctor's son, so she is his daughter-in-law.",
+    "as": "অধিবক্তাগৰাকী ডাক্তৰৰ পুত্ৰৰ পত্নী, গতিকে তেওঁ ডাক্তৰৰ বোৱাৰী।"
+   }
+  },
+  {
+   "id": "blood-relations-055",
+   "q": {
+    "en": "If A's mother is the sister of B's father, then A and B are —",
+    "as": "যদি A ৰ মাক B ৰ দেউতাৰ ভনী, তেন্তে A আৰু B হৈছে —"
+   },
+   "options": [
+    {
+     "en": "Uncle and nephew",
+     "as": "খুৰা আৰু ভতিজা"
+    },
+    {
+     "en": "Father and son",
+     "as": "পিতৃ আৰু পুত্ৰ"
+    },
+    {
+     "en": "Siblings",
+     "as": "সহোদৰ"
+    },
+    {
+     "en": "Cousins",
+     "as": "খুৰাত ভাই-ভনী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A's mother and B's father are siblings, so A and B are cousins.",
+    "as": "A ৰ মাক আৰু B ৰ দেউতা সহোদৰ, গতিকে A আৰু B খুৰাত-ভাই-ভনী।"
    }
   }
  ],
@@ -5589,8 +8649,38 @@ module.exports = {
   {
    "id": "clock-calendar-001",
    "q": {
-    "en": "At 3 o'clock, the angle between the hour hand and the minute hand is —",
-    "as": "৩ বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ —"
+    "en": "What is the angle between the hour hand and the minute hand at 1 o'clock?",
+    "as": "1 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ ডিগ্ৰী"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 1 o'clock the angle is 30 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 1 বজাত কোণ 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-002",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 2 o'clock?",
+    "as": "2 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
    },
    "options": [
     {
@@ -5598,8 +8688,184 @@ module.exports = {
      "as": "৬০ ডিগ্ৰী"
     },
     {
+     "en": "75 degrees",
+     "as": "৭৫ ডিগ্ৰী"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
      "en": "90 degrees",
      "as": "৯০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 2 o'clock the angle is 60 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 2 বজাত কোণ 60 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-003",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 3 o'clock?",
+    "as": "3 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "105 degrees",
+     "as": "১০৫ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 3 o'clock the angle is 90 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 3 বজাত কোণ 90 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-004",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 4 o'clock?",
+    "as": "4 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ ডিগ্ৰী"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 4 o'clock the angle is 120 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 4 বজাত কোণ 120 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-005",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 5 o'clock?",
+    "as": "5 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "180 degrees",
+     "as": "১৮০ ডিগ্ৰী"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ ডিগ্ৰী"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 5 o'clock the angle is 150 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 5 বজাত কোণ 150 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-006",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 6 o'clock?",
+    "as": "6 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "210 degrees",
+     "as": "২১০ ডিগ্ৰী"
+    },
+    {
+     "en": "150 degrees",
+     "as": "১৫০ ডিগ্ৰী"
+    },
+    {
+     "en": "195 degrees",
+     "as": "১৯৫ ডিগ্ৰী"
+    },
+    {
+     "en": "180 degrees",
+     "as": "১৮০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 6 o'clock the angle is 180 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 6 বজাত কোণ 180 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-007",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 7 o'clock?",
+    "as": "7 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ ডিগ্ৰী"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ ডিগ্ৰী"
+    },
+    {
+     "en": "180 degrees",
+     "as": "১৮০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 7 o'clock the angle is 150 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 7 বজাত কোণ 150 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-008",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 8 o'clock?",
+    "as": "8 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ ডিগ্ৰী"
     },
     {
      "en": "120 degrees",
@@ -5608,81 +8874,59 @@ module.exports = {
     {
      "en": "150 degrees",
      "as": "১৫০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "Each hour mark is 30 degrees apart, so at 3 o'clock the hands are 3 x 30 = 90 degrees apart.",
-    "as": "প্ৰতি ঘণ্টাৰ ব্যৱধান ৩০ ডিগ্ৰী, গতিকে ৩ বজাত কাঁটা দুটা ৩ x ৩০ = ৯০ ডিগ্ৰী আঁতৰত থাকে।"
+    "en": "Each hour is 30 degrees, so at 8 o'clock the angle is 120 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 8 বজাত কোণ 120 ডিগ্ৰী।"
    }
   },
   {
-   "id": "clock-calendar-002",
+   "id": "clock-calendar-009",
    "q": {
-    "en": "If 1 January of a year is a Monday, then 1 February of the same year falls on —",
-    "as": "কোনো বছৰৰ ১ জানুৱাৰী সোমবাৰ হ'লে সেই বছৰৰ ১ ফেব্ৰুৱাৰী কি বাৰ হ'ব?"
+    "en": "What is the angle between the hour hand and the minute hand at 9 o'clock?",
+    "as": "9 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
    },
    "options": [
     {
-     "en": "Tuesday",
-     "as": "মঙ্গলবাৰ"
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
     },
     {
-     "en": "Wednesday",
-     "as": "বুধবাৰ"
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
     },
     {
-     "en": "Thursday",
-     "as": "বৃহস্পতিবাৰ"
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
     },
     {
-     "en": "Friday",
-     "as": "শুক্ৰবাৰ"
+     "en": "105 degrees",
+     "as": "১০৫ ডিগ্ৰী"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "January has 31 days, and 31 divided by 7 leaves a remainder of 3, so the day advances by 3: Monday + 3 = Thursday.",
-    "as": "জানুৱাৰীত ৩১ দিন, আৰু ৩১ ক ৭ ৰে হৰণ কৰিলে ভাগশেষ ৩ হয়, গতিকে বাৰ ৩ আগবাঢ়ে: সোমবাৰ + ৩ = বৃহস্পতিবাৰ।"
+    "en": "Each hour is 30 degrees, so at 9 o'clock the angle is 90 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 9 বজাত কোণ 90 ডিগ্ৰী।"
    }
   },
   {
-   "id": "clock-calendar-003",
+   "id": "clock-calendar-010",
    "q": {
-    "en": "If today is Wednesday, the day after 60 days will be —",
-    "as": "আজি বুধবাৰ হ'লে ৬০ দিনৰ পিছত কি বাৰ হ'ব?"
+    "en": "What is the angle between the hour hand and the minute hand at 10 o'clock?",
+    "as": "10 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
    },
    "options": [
     {
-     "en": "Saturday",
-     "as": "শনিবাৰ"
+     "en": "75 degrees",
+     "as": "৭৫ ডিগ্ৰী"
     },
-    {
-     "en": "Sunday",
-     "as": "দেওবাৰ"
-    },
-    {
-     "en": "Monday",
-     "as": "সোমবাৰ"
-    },
-    {
-     "en": "Tuesday",
-     "as": "মঙ্গলবাৰ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "60 divided by 7 leaves a remainder of 4; Wednesday plus 4 days is Sunday.",
-    "as": "৬০ ক ৭ ৰে হৰণ কৰিলে ভাগশেষ ৪ হয়; বুধবাৰৰ পৰা ৪ দিন আগবাঢ়িলে দেওবাৰ হয়।"
-   }
-  },
-  {
-   "id": "clock-calendar-004",
-   "q": {
-    "en": "At 3 o'clock, the angle between the hands of a clock is —",
-    "as": "3 টা বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ —"
-   },
-   "options": [
     {
      "en": "30 degrees",
      "as": "৩০ ডিগ্ৰী"
@@ -5694,16 +8938,1332 @@ module.exports = {
     {
      "en": "90 degrees",
      "as": "৯০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 10 o'clock the angle is 60 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 10 বজাত কোণ 60 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-011",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 11 o'clock?",
+    "as": "11 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ ডিগ্ৰী"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 11 o'clock the angle is 30 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 11 বজাত কোণ 30 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-012",
+   "q": {
+    "en": "What is the angle between the hour hand and the minute hand at 12 o'clock?",
+    "as": "12 বজাত ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "15 degrees",
+     "as": "১৫ ডিগ্ৰী"
+    },
+    {
+     "en": "0 degrees",
+     "as": "০ ডিগ্ৰী"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each hour is 30 degrees, so at 12 o'clock the angle is 0 degrees.",
+    "as": "প্ৰতি ঘণ্টা 30 ডিগ্ৰী, গতিকে 12 বজাত কোণ 0 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-013",
+   "q": {
+    "en": "What is the angle between the hands at 1:30?",
+    "as": "1:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ ডিগ্ৰী"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ ডিগ্ৰী"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ ডিগ্ৰী"
     },
     {
      "en": "120 degrees",
      "as": "১২০ ডিগ্ৰী"
     }
    ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using the formula, the angle at 1:30 is 135 degrees.",
+    "as": "সূত্ৰ অনুসৰি 1:30 বজাত কোণ 135 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-014",
+   "q": {
+    "en": "What is the angle between the hands at 2:30?",
+    "as": "2:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "105 degrees",
+     "as": "১০৫ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using the formula, the angle at 2:30 is 105 degrees.",
+    "as": "সূত্ৰ অনুসৰি 2:30 বজাত কোণ 105 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-015",
+   "q": {
+    "en": "What is the angle between the hands at 3:30?",
+    "as": "3:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "105 degrees",
+     "as": "১০৫ ডিগ্ৰী"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    },
+    {
+     "en": "75 degrees",
+     "as": "৭৫ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    }
+   ],
    "correct": 2,
    "explanation": {
-    "en": "The hour hand is at 3 and the minute hand at 12, giving an angle of 3 × 30 = 90 degrees.",
-    "as": "ঘণ্টাৰ কাঁটা 3 ত আৰু মিনিটৰ কাঁটা 12 ত, গতিকে কোণ 3 × 30 = 90 ডিগ্ৰী।"
+    "en": "Using the formula, the angle at 3:30 is 75 degrees.",
+    "as": "সূত্ৰ অনুসৰি 3:30 বজাত কোণ 75 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-016",
+   "q": {
+    "en": "What is the angle between the hands at 4:30?",
+    "as": "4:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
+     "en": "75 degrees",
+     "as": "৭৫ ডিগ্ৰী"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ ডিগ্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using the formula, the angle at 4:30 is 45 degrees.",
+    "as": "সূত্ৰ অনুসৰি 4:30 বজাত কোণ 45 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-017",
+   "q": {
+    "en": "What is the angle between the hands at 5:30?",
+    "as": "5:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "45 degrees",
+     "as": "৪৫ ডিগ্ৰী"
+    },
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
+     "en": "0 degrees",
+     "as": "০ ডিগ্ৰী"
+    },
+    {
+     "en": "15 degrees",
+     "as": "১৫ ডিগ্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using the formula, the angle at 5:30 is 15 degrees.",
+    "as": "সূত্ৰ অনুসৰি 5:30 বজাত কোণ 15 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-018",
+   "q": {
+    "en": "What is the angle between the hands at 7:30?",
+    "as": "7:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
+     "en": "45 degrees",
+     "as": "৪৫ ডিগ্ৰী"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    },
+    {
+     "en": "75 degrees",
+     "as": "৭৫ ডিগ্ৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using the formula, the angle at 7:30 is 45 degrees.",
+    "as": "সূত্ৰ অনুসৰি 7:30 বজাত কোণ 45 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-019",
+   "q": {
+    "en": "What is the angle between the hands at 8:30?",
+    "as": "8:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "75 degrees",
+     "as": "৭৫ ডিগ্ৰী"
+    },
+    {
+     "en": "105 degrees",
+     "as": "১০৫ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using the formula, the angle at 8:30 is 75 degrees.",
+    "as": "সূত্ৰ অনুসৰি 8:30 বজাত কোণ 75 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-020",
+   "q": {
+    "en": "What is the angle between the hands at 10:30?",
+    "as": "10:30 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ ডিগ্ৰী"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "135 degrees",
+     "as": "১৩৫ ডিগ্ৰী"
+    },
+    {
+     "en": "165 degrees",
+     "as": "১৬৫ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using the formula, the angle at 10:30 is 135 degrees.",
+    "as": "সূত্ৰ অনুসৰি 10:30 বজাত কোণ 135 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-021",
+   "q": {
+    "en": "How many times do the hands of a clock overlap in 24 hours?",
+    "as": "২৪ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ ওপৰাওপৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The hands overlap 11 times in 12 hours, so 22 times in 24 hours.",
+    "as": "১২ ঘণ্টাত ১১ বাৰ ওপৰাওপৰ হয়, গতিকে ২৪ ঘণ্টাত ২২ বাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-022",
+   "q": {
+    "en": "How many times are the hands of a clock at right angles in 24 hours?",
+    "as": "২৪ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ সমকোণত থাকে?"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "48",
+     "as": "৪৮"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "44",
+     "as": "৪৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "They are at right angles twice per hour except a few, giving 44 times in 24 hours.",
+    "as": "প্ৰায় প্ৰতি ঘণ্টাত দুবাৰ সমকোণ, ২৪ ঘণ্টাত ৪৪ বাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-023",
+   "q": {
+    "en": "How many times do the hands of a clock point in opposite directions in 24 hours?",
+    "as": "২৪ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ বিপৰীত দিশত থাকে?"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "44",
+     "as": "৪৪"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "They are opposite 11 times in 12 hours, so 22 times in 24 hours.",
+    "as": "১২ ঘণ্টাত ১১ বাৰ বিপৰীত, গতিকে ২৪ ঘণ্টাত ২২ বাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-024",
+   "q": {
+    "en": "At what time between 2 and 3 will the hands overlap?",
+    "as": "২ আৰু ৩ বজাৰ মাজত কেতিয়া কাঁটাদুটা ওপৰাওপৰ হ'ব?"
+   },
+   "options": [
+    {
+     "en": "2:20",
+     "as": "২:২০"
+    },
+    {
+     "en": "2:15",
+     "as": "২:১৫"
+    },
+    {
+     "en": "2:05",
+     "as": "২:০৫"
+    },
+    {
+     "en": "2:10 10/11",
+     "as": "২:১০ 10/11"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Overlap between 2 and 3 occurs at 2 hours and 10 10/11 minutes.",
+    "as": "২ আৰু ৩ ৰ মাজত ওপৰাওপৰ হয় ২ বজা ১০ ১০/১১ মিনিটত।"
+   }
+  },
+  {
+   "id": "clock-calendar-025",
+   "q": {
+    "en": "If today is Monday, what day will it be after 15 days?",
+    "as": "আজি সোমবাৰ হ'লে ১৫ দিনৰ পিছত কি বাৰ হ'ব?"
+   },
+   "options": [
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Sunday",
+     "as": "দেওবাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "15 divided by 7 leaves 1, so one day after Monday is Tuesday.",
+    "as": "১৫ ÷ ৭ ৰ ভাগশেষ ১, গতিকে সোমবাৰৰ এদিন পিছত মঙ্গলবাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-026",
+   "q": {
+    "en": "If today is Friday, what day was it 10 days ago?",
+    "as": "আজি শুক্ৰবাৰ হ'লে ১০ দিন আগতে কি বাৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Sunday",
+     "as": "দেওবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "10 divided by 7 leaves 3; three days before Friday is Tuesday.",
+    "as": "১০ ÷ ৭ ৰ ভাগশেষ ৩; শুক্ৰবাৰৰ তিনিদিন আগতে মঙ্গলবাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-027",
+   "q": {
+    "en": "If 1 January 2023 was a Sunday, what day was 1 February 2023?",
+    "as": "১ জানুৱাৰী ২০২৩ দেওবাৰ হ'লে ১ ফেব্ৰুৱাৰী ২০২৩ কি বাৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "January has 31 days; 31 mod 7 = 3, so Sunday + 3 = Wednesday.",
+    "as": "জানুৱাৰীত ৩১ দিন; ৩১ mod ৭ = ৩, গতিকে দেওবাৰ + ৩ = বুধবাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-028",
+   "q": {
+    "en": "How many days are there in a leap year?",
+    "as": "অধিবৰ্ষ এটাত কিমান দিন থাকে?"
+   },
+   "options": [
+    {
+     "en": "367",
+     "as": "৩৬৭"
+    },
+    {
+     "en": "365",
+     "as": "৩৬৫"
+    },
+    {
+     "en": "364",
+     "as": "৩৬৪"
+    },
+    {
+     "en": "366",
+     "as": "৩৬৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A leap year has 366 days.",
+    "as": "অধিবৰ্ষত ৩৬৬ দিন থাকে।"
+   }
+  },
+  {
+   "id": "clock-calendar-029",
+   "q": {
+    "en": "How many odd days does a common year of 365 days contain?",
+    "as": "৩৬৫ দিনৰ এটা সাধাৰণ বছৰত কিমান অযুগ্ম দিন থাকে?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "365 mod 7 = 1, so a common year has 1 odd day.",
+    "as": "৩৬৫ mod ৭ = ১, গতিকে সাধাৰণ বছৰত ১ অযুগ্ম দিন।"
+   }
+  },
+  {
+   "id": "clock-calendar-030",
+   "q": {
+    "en": "A leap year of 366 days leaves how many odd days?",
+    "as": "৩৬৬ দিনৰ এটা অধিবৰ্ষই কিমান অযুগ্ম দিন এৰি যায়?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "366 mod 7 = 2, so a leap year leaves 2 odd days.",
+    "as": "৩৬৬ mod ৭ = ২, গতিকে অধিবৰ্ষই ২ অযুগ্ম দিন এৰি যায়।"
+   }
+  },
+  {
+   "id": "clock-calendar-031",
+   "q": {
+    "en": "If today is Sunday, what day will it be after 100 days?",
+    "as": "আজি দেওবাৰ হ'লে ১০০ দিনৰ পিছত কি বাৰ হ'ব?"
+   },
+   "options": [
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "100 mod 7 = 2, so Sunday + 2 = Tuesday.",
+    "as": "১০০ mod ৭ = ২, গতিকে দেওবাৰ + ২ = মঙ্গলবাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-032",
+   "q": {
+    "en": "Which of these is a leap year?",
+    "as": "এইবোৰৰ কোনটো অধিবৰ্ষ?"
+   },
+   "options": [
+    {
+     "en": "2022",
+     "as": "২০২২"
+    },
+    {
+     "en": "2023",
+     "as": "২০২৩"
+    },
+    {
+     "en": "2021",
+     "as": "২০২১"
+    },
+    {
+     "en": "2024",
+     "as": "২০২৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "2024 is divisible by 4 and not a century year, so it is a leap year.",
+    "as": "২০২৪ ৪ ৰে বিভাজ্য আৰু শতবৰ্ষ নহয়, গতিকে অধিবৰ্ষ।"
+   }
+  },
+  {
+   "id": "clock-calendar-033",
+   "q": {
+    "en": "Which of these is NOT a leap year?",
+    "as": "এইবোৰৰ কোনটো অধিবৰ্ষ নহয়?"
+   },
+   "options": [
+    {
+     "en": "2000",
+     "as": "২০০০"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
+     "en": "1900",
+     "as": "১৯০০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "1900 is a century year not divisible by 400, so it is not a leap year.",
+    "as": "১৯০০ শতবৰ্ষ আৰু ৪০০ ৰে বিভাজ্য নহয়, গতিকে অধিবৰ্ষ নহয়।"
+   }
+  },
+  {
+   "id": "clock-calendar-034",
+   "q": {
+    "en": "If 1 March falls on a Wednesday, on which day does 1 April fall?",
+    "as": "১ মাৰ্চ বুধবাৰ হ'লে ১ এপ্ৰিল কি বাৰত পৰে?"
+   },
+   "options": [
+    {
+     "en": "Saturday",
+     "as": "শনিবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Sunday",
+     "as": "দেওবাৰ"
+    },
+    {
+     "en": "Friday",
+     "as": "শুক্ৰবাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "March has 31 days; 31 mod 7 = 3, so Wednesday + 3 = Saturday.",
+    "as": "মাৰ্চত ৩১ দিন; ৩১ mod ৭ = ৩, গতিকে বুধবাৰ + ৩ = শনিবাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-035",
+   "q": {
+    "en": "How many Sundays can a month of 31 days have at most?",
+    "as": "৩১ দিনৰ মাহত সৰ্বাধিক কিমান দেওবাৰ থাকিব পাৰে?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "31 days allow up to 5 of any weekday.",
+    "as": "৩১ দিনত যিকোনো বাৰৰ সৰ্বাধিক ৫টা থাকিব পাৰে।"
+   }
+  },
+  {
+   "id": "clock-calendar-036",
+   "q": {
+    "en": "If today is Wednesday, what day will it be after 21 days?",
+    "as": "আজি বুধবাৰ হ'লে ২১ দিনৰ পিছত কি বাৰ হ'ব?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Friday",
+     "as": "শুক্ৰবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "21 is a multiple of 7, so the day is the same, Wednesday.",
+    "as": "২১, ৭ ৰ গুণিতক, গতিকে বাৰ একেই, বুধবাৰ।"
+   }
+  },
+  {
+   "id": "clock-calendar-037",
+   "q": {
+    "en": "How many degrees does the minute hand move in 5 minutes?",
+    "as": "৫ মিনিটত মিনিটৰ কাঁটাই কিমান ডিগ্ৰী ঘূৰে?"
+   },
+   "options": [
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The minute hand moves 6 degrees per minute, so 30 degrees in 5 minutes.",
+    "as": "মিনিটৰ কাঁটা মিনিটত ৬ ডিগ্ৰী ঘূৰে, গতিকে ৫ মিনিটত ৩০ ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-038",
+   "q": {
+    "en": "How many degrees does the minute hand move in 1 minute?",
+    "as": "১ মিনিটত মিনিটৰ কাঁটাই কিমান ডিগ্ৰী ঘূৰে?"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The minute hand covers 360 degrees in 60 minutes, i.e. 6 degrees per minute.",
+    "as": "মিনিটৰ কাঁটা ৬০ মিনিটত ৩৬০ ডিগ্ৰী, অৰ্থাৎ মিনিটত ৬ ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-039",
+   "q": {
+    "en": "How many degrees does the hour hand move in one hour?",
+    "as": "এক ঘণ্টাত ঘণ্টাৰ কাঁটাই কিমান ডিগ্ৰী ঘূৰে?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The hour hand covers 360 degrees in 12 hours, i.e. 30 degrees per hour.",
+    "as": "ঘণ্টাৰ কাঁটা ১২ ঘণ্টাত ৩৬০ ডিগ্ৰী, অৰ্থাৎ ঘণ্টাত ৩০ ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-040",
+   "q": {
+    "en": "A clock shows 6 o'clock. What is the angle between the hands?",
+    "as": "ঘড়ীত ৬ বজা দেখুৱাইছে। কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "150 degrees",
+     "as": "১৫০ ডিগ্ৰী"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "180 degrees",
+     "as": "১৮০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "At 6 o'clock the hands are opposite, giving 180 degrees.",
+    "as": "৬ বজাত কাঁটাদুটা বিপৰীত, গতিকে ১৮০ ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-041",
+   "q": {
+    "en": "A clock shows 9 o'clock. What is the angle between the hands?",
+    "as": "ঘড়ীত ৯ বজা দেখুৱাইছে। কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "60 degrees",
+     "as": "৬০ ডিগ্ৰী"
+    },
+    {
+     "en": "120 degrees",
+     "as": "১২০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "180 degrees",
+     "as": "১৮০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "At 9 o'clock the hands are at right angles, i.e. 90 degrees.",
+    "as": "৯ বজাত কাঁটাদুটা সমকোণত, অৰ্থাৎ ৯০ ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-042",
+   "q": {
+    "en": "A clock shows 12 o'clock. What is the angle between the hands?",
+    "as": "ঘড়ীত ১২ বজা দেখুৱাইছে। কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "30 degrees",
+     "as": "৩০ ডিগ্ৰী"
+    },
+    {
+     "en": "90 degrees",
+     "as": "৯০ ডিগ্ৰী"
+    },
+    {
+     "en": "180 degrees",
+     "as": "১৮০ ডিগ্ৰী"
+    },
+    {
+     "en": "0 degrees",
+     "as": "০ ডিগ্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "At 12 o'clock the hands coincide, so the angle is 0 degrees.",
+    "as": "১২ বজাত কাঁটাদুটা একেলগে, গতিকে কোণ ০ ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-043",
+   "q": {
+    "en": "How many times does a clock's hour hand rotate in 24 hours?",
+    "as": "২৪ ঘণ্টাত ঘণ্টাৰ কাঁটা কিমানবাৰ ঘূৰে?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The hour hand makes one full rotation in 12 hours, so 2 in 24 hours.",
+    "as": "ঘণ্টাৰ কাঁটা ১২ ঘণ্টাত এপাক ঘূৰে, গতিকে ২৪ ঘণ্টাত ২ পাক।"
+   }
+  },
+  {
+   "id": "clock-calendar-044",
+   "q": {
+    "en": "How many times does a clock's minute hand rotate in 12 hours?",
+    "as": "১২ ঘণ্টাত মিনিটৰ কাঁটা কিমানবাৰ ঘূৰে?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The minute hand makes one full rotation each hour, so 12 in 12 hours.",
+    "as": "মিনিটৰ কাঁটা প্ৰতি ঘণ্টাত এপাক, গতিকে ১২ ঘণ্টাত ১২ পাক।"
+   }
+  },
+  {
+   "id": "clock-calendar-045",
+   "q": {
+    "en": "What is the angle between the hands at 2:15?",
+    "as": "2:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "7 degrees",
+     "as": "৭ ডিগ্ৰী"
+    },
+    {
+     "en": "52 degrees",
+     "as": "৫২ ডিগ্ৰী"
+    },
+    {
+     "en": "22 degrees",
+     "as": "২২ ডিগ্ৰী"
+    },
+    {
+     "en": "37 degrees",
+     "as": "৩৭ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using the formula, the angle at 2:15 is 22 degrees.",
+    "as": "সূত্ৰ অনুসৰি 2:15 বজাত কোণ 22 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-046",
+   "q": {
+    "en": "What is the angle between the hands at 4:15?",
+    "as": "4:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "67 degrees",
+     "as": "৬৭ ডিগ্ৰী"
+    },
+    {
+     "en": "52 degrees",
+     "as": "৫২ ডিগ্ৰী"
+    },
+    {
+     "en": "37 degrees",
+     "as": "৩৭ ডিগ্ৰী"
+    },
+    {
+     "en": "22 degrees",
+     "as": "২২ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using the formula, the angle at 4:15 is 37 degrees.",
+    "as": "সূত্ৰ অনুসৰি 4:15 বজাত কোণ 37 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-047",
+   "q": {
+    "en": "What is the angle between the hands at 6:15?",
+    "as": "6:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "112 degrees",
+     "as": "১১২ ডিগ্ৰী"
+    },
+    {
+     "en": "97 degrees",
+     "as": "৯৭ ডিগ্ৰী"
+    },
+    {
+     "en": "127 degrees",
+     "as": "১২৭ ডিগ্ৰী"
+    },
+    {
+     "en": "82 degrees",
+     "as": "৮২ ডিগ্ৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using the formula, the angle at 6:15 is 97 degrees.",
+    "as": "সূত্ৰ অনুসৰি 6:15 বজাত কোণ 97 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-048",
+   "q": {
+    "en": "What is the angle between the hands at 9:15?",
+    "as": "9:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "172 degrees",
+     "as": "১৭২ ডিগ্ৰী"
+    },
+    {
+     "en": "187 degrees",
+     "as": "১৮৭ ডিগ্ৰী"
+    },
+    {
+     "en": "157 degrees",
+     "as": "১৫৭ ডিগ্ৰী"
+    },
+    {
+     "en": "202 degrees",
+     "as": "২০২ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using the formula, the angle at 9:15 is 172 degrees.",
+    "as": "সূত্ৰ অনুসৰি 9:15 বজাত কোণ 172 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-049",
+   "q": {
+    "en": "What is the angle between the hands at 11:15?",
+    "as": "11:15 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "97 degrees",
+     "as": "৯৭ ডিগ্ৰী"
+    },
+    {
+     "en": "127 degrees",
+     "as": "১২৭ ডিগ্ৰী"
+    },
+    {
+     "en": "112 degrees",
+     "as": "১১২ ডিগ্ৰী"
+    },
+    {
+     "en": "142 degrees",
+     "as": "১৪২ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using the formula, the angle at 11:15 is 112 degrees.",
+    "as": "সূত্ৰ অনুসৰি 11:15 বজাত কোণ 112 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-050",
+   "q": {
+    "en": "What is the angle between the hands at 1:45?",
+    "as": "1:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "172 degrees",
+     "as": "১৭২ ডিগ্ৰী"
+    },
+    {
+     "en": "142 degrees",
+     "as": "১৪২ ডিগ্ৰী"
+    },
+    {
+     "en": "127 degrees",
+     "as": "১২৭ ডিগ্ৰী"
+    },
+    {
+     "en": "157 degrees",
+     "as": "১৫৭ ডিগ্ৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using the formula, the angle at 1:45 is 142 degrees.",
+    "as": "সূত্ৰ অনুসৰি 1:45 বজাত কোণ 142 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-051",
+   "q": {
+    "en": "What is the angle between the hands at 3:45?",
+    "as": "3:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "142 degrees",
+     "as": "১৪২ ডিগ্ৰী"
+    },
+    {
+     "en": "172 degrees",
+     "as": "১৭২ ডিগ্ৰী"
+    },
+    {
+     "en": "157 degrees",
+     "as": "১৫৭ ডিগ্ৰী"
+    },
+    {
+     "en": "187 degrees",
+     "as": "১৮৭ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using the formula, the angle at 3:45 is 157 degrees.",
+    "as": "সূত্ৰ অনুসৰি 3:45 বজাত কোণ 157 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-052",
+   "q": {
+    "en": "What is the angle between the hands at 5:45?",
+    "as": "5:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "82 degrees",
+     "as": "৮২ ডিগ্ৰী"
+    },
+    {
+     "en": "97 degrees",
+     "as": "৯৭ ডিগ্ৰী"
+    },
+    {
+     "en": "127 degrees",
+     "as": "১২৭ ডিগ্ৰী"
+    },
+    {
+     "en": "112 degrees",
+     "as": "১১২ ডিগ্ৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using the formula, the angle at 5:45 is 97 degrees.",
+    "as": "সূত্ৰ অনুসৰি 5:45 বজাত কোণ 97 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-053",
+   "q": {
+    "en": "What is the angle between the hands at 7:45?",
+    "as": "7:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "37 degrees",
+     "as": "৩৭ ডিগ্ৰী"
+    },
+    {
+     "en": "67 degrees",
+     "as": "৬৭ ডিগ্ৰী"
+    },
+    {
+     "en": "22 degrees",
+     "as": "২২ ডিগ্ৰী"
+    },
+    {
+     "en": "52 degrees",
+     "as": "৫২ ডিগ্ৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using the formula, the angle at 7:45 is 37 degrees.",
+    "as": "সূত্ৰ অনুসৰি 7:45 বজাত কোণ 37 ডিগ্ৰী।"
+   }
+  },
+  {
+   "id": "clock-calendar-054",
+   "q": {
+    "en": "What is the angle between the hands at 10:45?",
+    "as": "10:45 বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+   },
+   "options": [
+    {
+     "en": "82 degrees",
+     "as": "৮২ ডিগ্ৰী"
+    },
+    {
+     "en": "67 degrees",
+     "as": "৬৭ ডিগ্ৰী"
+    },
+    {
+     "en": "52 degrees",
+     "as": "৫২ ডিগ্ৰী"
+    },
+    {
+     "en": "37 degrees",
+     "as": "৩৭ ডিগ্ৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using the formula, the angle at 10:45 is 52 degrees.",
+    "as": "সূত্ৰ অনুসৰি 10:45 বজাত কোণ 52 ডিগ্ৰী।"
    }
   }
  ],
@@ -5711,121 +10271,1741 @@ module.exports = {
   {
    "id": "coding-decoding-001",
    "q": {
-    "en": "If CAT is coded as DBU, then DOG is coded as —",
-    "as": "CAT ক DBU হিচাপে সংকেত কৰিলে DOG ক সংকেত কৰা হয় —"
+    "en": "If CAT is coded as DBU, then DBU is coded as —",
+    "as": "যদি CAT ক DBU হিচাপে সংকেত কৰা হয়, তেন্তে DBU ক সংকেত কৰা হয় —"
    },
    "options": [
     {
-     "en": "EPH",
-     "as": "EPH"
+     "en": "DBU",
+     "as": "DBU"
     },
     {
-     "en": "EPI",
-     "as": "EPI"
+     "en": "ECV",
+     "as": "ECV"
     },
     {
-     "en": "FPH",
-     "as": "FPH"
+     "en": "FDW",
+     "as": "FDW"
     },
     {
-     "en": "DPH",
-     "as": "DPH"
+     "en": "ECW",
+     "as": "ECW"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "Each letter moves one step forward, so DOG becomes EPH.",
-    "as": "প্ৰতিটো আখৰ এখোজ আগলৈ যায়, গতিকে DOG এ EPH হয়।"
+    "en": "Each letter moves +1 step(s) in the alphabet, so DBU becomes ECV.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +1 খোজ যায়, গতিকে DBU এ ECV হয়।"
    }
   },
   {
    "id": "coding-decoding-002",
    "q": {
-    "en": "If A = 1, B = 2, C = 3, then the code for CAB is —",
-    "as": "A = 1, B = 2, C = 3 হ'লে CAB ৰ সংকেত —"
+    "en": "If BOOK is coded as ERRN, then ERRN is coded as —",
+    "as": "যদি BOOK ক ERRN হিচাপে সংকেত কৰা হয়, তেন্তে ERRN ক সংকেত কৰা হয় —"
    },
    "options": [
     {
-     "en": "312",
-     "as": "৩১২"
+     "en": "IVVR",
+     "as": "IVVR"
     },
     {
-     "en": "321",
-     "as": "৩২১"
+     "en": "FSSO",
+     "as": "FSSO"
     },
     {
-     "en": "123",
-     "as": "১২৩"
+     "en": "GTTP",
+     "as": "GTTP"
     },
     {
-     "en": "213",
-     "as": "২১৩"
+     "en": "HUUQ",
+     "as": "HUUQ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "C is 3, A is 1 and B is 2, so CAB is 312.",
-    "as": "C হৈছে 3, A হৈছে 1 আৰু B হৈছে 2, গতিকে CAB হৈছে 312।"
+    "en": "Each letter moves +3 step(s) in the alphabet, so ERRN becomes HUUQ.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +3 খোজ যায়, গতিকে ERRN এ HUUQ হয়।"
    }
   },
   {
    "id": "coding-decoding-003",
    "q": {
-    "en": "If MOUSE is coded as NVP TF by shifting each letter one step forward, the last letter of the code is —",
-    "as": "MOUSE ৰ প্ৰতিটো আখৰ এক এখোজ আগবঢ়াই NVP TF হিচাপে সংকেত কৰিলে সংকেতৰ শেষ আখৰ —"
+    "en": "If FISH is coded as JMWL, then JMWL is coded as —",
+    "as": "যদি FISH ক JMWL হিচাপে সংকেত কৰা হয়, তেন্তে JMWL ক সংকেত কৰা হয় —"
    },
    "options": [
     {
-     "en": "E",
-     "as": "E"
+     "en": "KNXM",
+     "as": "KNXM"
     },
     {
-     "en": "F",
-     "as": "F"
+     "en": "MPZO",
+     "as": "MPZO"
     },
     {
-     "en": "G",
-     "as": "G"
+     "en": "NQAP",
+     "as": "NQAP"
     },
     {
-     "en": "T",
-     "as": "T"
+     "en": "ORBQ",
+     "as": "ORBQ"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "The last letter E moves one step forward to F.",
-    "as": "শেষ আখৰ E এক এখোজ আগবাঢ়ি F হয়।"
+    "en": "Each letter moves +4 step(s) in the alphabet, so JMWL becomes NQAP.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +4 খোজ যায়, গতিকে JMWL এ NQAP হয়।"
    }
   },
   {
    "id": "coding-decoding-004",
    "q": {
-    "en": "If RAM is coded as SBN, then SUN is coded as —",
-    "as": "RAM ক SBN হিচাপে সংকেত কৰিলে SUN ক সংকেত কৰা হয় —"
+    "en": "If STAR is coded as YZGX, then YZGX is coded as —",
+    "as": "যদি STAR ক YZGX হিচাপে সংকেত কৰা হয়, তেন্তে YZGX ক সংকেত কৰা হয় —"
    },
    "options": [
     {
-     "en": "TVO",
-     "as": "TVO"
+     "en": "DELC",
+     "as": "DELC"
     },
     {
-     "en": "TVP",
-     "as": "TVP"
+     "en": "FGNE",
+     "as": "FGNE"
     },
     {
-     "en": "TVN",
-     "as": "TVN"
+     "en": "EFMD",
+     "as": "EFMD"
     },
     {
-     "en": "SVO",
-     "as": "SVO"
+     "en": "ZAHY",
+     "as": "ZAHY"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Each letter moves +6 step(s) in the alphabet, so YZGX becomes EFMD.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত +6 খোজ যায়, গতিকে YZGX এ EFMD হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-005",
+   "q": {
+    "en": "If MOON is coded as GIIH, then GIIH is coded as —",
+    "as": "যদি MOON ক GIIH হিচাপে সংকেত কৰা হয়, তেন্তে GIIH ক সংকেত কৰা হয় —"
+   },
+   "options": [
+    {
+     "en": "ZBBA",
+     "as": "ZBBA"
+    },
+    {
+     "en": "ACCB",
+     "as": "ACCB"
+    },
+    {
+     "en": "BDDC",
+     "as": "BDDC"
+    },
+    {
+     "en": "HJJI",
+     "as": "HJJI"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each letter moves -6 step(s) in the alphabet, so GIIH becomes ACCB.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -6 খোজ যায়, গতিকে GIIH এ ACCB হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-006",
+   "q": {
+    "en": "If PAGE is coded as MXDB, then MXDB is coded as —",
+    "as": "যদি PAGE ক MXDB হিচাপে সংকেত কৰা হয়, তেন্তে MXDB ক সংকেত কৰা হয় —"
+   },
+   "options": [
+    {
+     "en": "JUAY",
+     "as": "JUAY"
+    },
+    {
+     "en": "ITZX",
+     "as": "ITZX"
+    },
+    {
+     "en": "NYEC",
+     "as": "NYEC"
+    },
+    {
+     "en": "KVBZ",
+     "as": "KVBZ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Each letter moves one step forward, so SUN becomes TVO.",
-    "as": "প্ৰতিটো আখৰ এখোজ আগলৈ যায়, গতিকে SUN এ TVO হয়।"
+    "en": "Each letter moves -3 step(s) in the alphabet, so MXDB becomes JUAY.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -3 খোজ যায়, গতিকে MXDB এ JUAY হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-007",
+   "q": {
+    "en": "If BIRD is coded as XENZ, then XENZ is coded as —",
+    "as": "যদি BIRD ক XENZ হিচাপে সংকেত কৰা হয়, তেন্তে XENZ ক সংকেত কৰা হয় —"
+   },
+   "options": [
+    {
+     "en": "TAJV",
+     "as": "TAJV"
+    },
+    {
+     "en": "YFOA",
+     "as": "YFOA"
+    },
+    {
+     "en": "UBKW",
+     "as": "UBKW"
+    },
+    {
+     "en": "SZIU",
+     "as": "SZIU"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each letter moves -4 step(s) in the alphabet, so XENZ becomes TAJV.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -4 খোজ যায়, গতিকে XENZ এ TAJV হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-008",
+   "q": {
+    "en": "If DOG is coded as CNF, then CNF is coded as —",
+    "as": "যদি DOG ক CNF হিচাপে সংকেত কৰা হয়, তেন্তে CNF ক সংকেত কৰা হয় —"
+   },
+   "options": [
+    {
+     "en": "BME",
+     "as": "BME"
+    },
+    {
+     "en": "CNF",
+     "as": "CNF"
+    },
+    {
+     "en": "ALD",
+     "as": "ALD"
+    },
+    {
+     "en": "DOG",
+     "as": "DOG"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each letter moves -1 step(s) in the alphabet, so CNF becomes BME.",
+    "as": "প্ৰতিটো আখৰ বৰ্ণমালাত -1 খোজ যায়, গতিকে CNF এ BME হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-009",
+   "q": {
+    "en": "In a code, TIGER is written as VKIGT. How is VKIGT written in the same code?",
+    "as": "এটা সংকেতত TIGER ক VKIGT লিখা হয়। একেই সংকেতত VKIGT কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "XMKIW",
+     "as": "XMKIW"
+    },
+    {
+     "en": "WLJHU",
+     "as": "WLJHU"
+    },
+    {
+     "en": "YNLJW",
+     "as": "YNLJW"
+    },
+    {
+     "en": "XMKIV",
+     "as": "XMKIV"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The same letter shift of +2 is applied again, giving XMKIV.",
+    "as": "একেই +2 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে XMKIV পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-010",
+   "q": {
+    "en": "In a code, HORSE is written as KRUVH. How is KRUVH written in the same code?",
+    "as": "এটা সংকেতত HORSE ক KRUVH লিখা হয়। একেই সংকেতত KRUVH কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "NUXYK",
+     "as": "NUXYK"
+    },
+    {
+     "en": "LSVWI",
+     "as": "LSVWI"
+    },
+    {
+     "en": "MTWXJ",
+     "as": "MTWXJ"
+    },
+    {
+     "en": "OVYZL",
+     "as": "OVYZL"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The same letter shift of +3 is applied again, giving NUXYK.",
+    "as": "একেই +3 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে NUXYK পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-011",
+   "q": {
+    "en": "In a code, APPLE is written as BQQMF. How is BQQMF written in the same code?",
+    "as": "এটা সংকেতত APPLE ক BQQMF লিখা হয়। একেই সংকেতত BQQMF কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "CRRNH",
+     "as": "CRRNH"
+    },
+    {
+     "en": "CRRNG",
+     "as": "CRRNG"
+    },
+    {
+     "en": "BQQMF",
+     "as": "BQQMF"
+    },
+    {
+     "en": "DSSOH",
+     "as": "DSSOH"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The same letter shift of +1 is applied again, giving CRRNG.",
+    "as": "একেই +1 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে CRRNG পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-012",
+   "q": {
+    "en": "In a code, RIVER is written as VMZIV. How is VMZIV written in the same code?",
+    "as": "এটা সংকেতত RIVER ক VMZIV লিখা হয়। একেই সংকেতত VMZIV কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "WNAJW",
+     "as": "WNAJW"
+    },
+    {
+     "en": "YPCLY",
+     "as": "YPCLY"
+    },
+    {
+     "en": "ZQDMZ",
+     "as": "ZQDMZ"
+    },
+    {
+     "en": "ARENA",
+     "as": "ARENA"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The same letter shift of +4 is applied again, giving ZQDMZ.",
+    "as": "একেই +4 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে ZQDMZ পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-013",
+   "q": {
+    "en": "In a code, MONEY is written as KMLCW. How is KMLCW written in the same code?",
+    "as": "এটা সংকেতত MONEY ক KMLCW লিখা হয়। একেই সংকেতত KMLCW কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "IKJAU",
+     "as": "IKJAU"
+    },
+    {
+     "en": "HJIZT",
+     "as": "HJIZT"
+    },
+    {
+     "en": "JLKBV",
+     "as": "JLKBV"
+    },
+    {
+     "en": "LNMDX",
+     "as": "LNMDX"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The same letter shift of -2 is applied again, giving IKJAU.",
+    "as": "একেই -2 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে IKJAU পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-014",
+   "q": {
+    "en": "In a code, WATER is written as ZDWHU. How is ZDWHU written in the same code?",
+    "as": "এটা সংকেতত WATER ক ZDWHU লিখা হয়। একেই সংকেতত ZDWHU কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "DHALY",
+     "as": "DHALY"
+    },
+    {
+     "en": "AEXIV",
+     "as": "AEXIV"
+    },
+    {
+     "en": "CGZKX",
+     "as": "CGZKX"
+    },
+    {
+     "en": "BFYJW",
+     "as": "BFYJW"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The same letter shift of +3 is applied again, giving CGZKX.",
+    "as": "একেই +3 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে CGZKX পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-015",
+   "q": {
+    "en": "In a code, LIGHT is written as KHFGS. How is KHFGS written in the same code?",
+    "as": "এটা সংকেতত LIGHT ক KHFGS লিখা হয়। একেই সংকেতত KHFGS কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "IFDEQ",
+     "as": "IFDEQ"
+    },
+    {
+     "en": "KHFGS",
+     "as": "KHFGS"
+    },
+    {
+     "en": "JGEFR",
+     "as": "JGEFR"
+    },
+    {
+     "en": "LIGHT",
+     "as": "LIGHT"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The same letter shift of -1 is applied again, giving JGEFR.",
+    "as": "একেই -1 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে JGEFR পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-016",
+   "q": {
+    "en": "In a code, STONE is written as UVQPG. How is UVQPG written in the same code?",
+    "as": "এটা সংকেতত STONE ক UVQPG লিখা হয়। একেই সংকেতত UVQPG কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "VWRQH",
+     "as": "VWRQH"
+    },
+    {
+     "en": "WXSRI",
+     "as": "WXSRI"
+    },
+    {
+     "en": "XYTSJ",
+     "as": "XYTSJ"
+    },
+    {
+     "en": "WXSRJ",
+     "as": "WXSRJ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The same letter shift of +2 is applied again, giving WXSRI.",
+    "as": "একেই +2 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে WXSRI পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-017",
+   "q": {
+    "en": "In a code, MUSIC is written as JRPFZ. How is JRPFZ written in the same code?",
+    "as": "এটা সংকেতত MUSIC ক JRPFZ লিখা হয়। একেই সংকেতত JRPFZ কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "FNLBV",
+     "as": "FNLBV"
+    },
+    {
+     "en": "GOMCW",
+     "as": "GOMCW"
+    },
+    {
+     "en": "HPNDX",
+     "as": "HPNDX"
+    },
+    {
+     "en": "KSQGA",
+     "as": "KSQGA"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The same letter shift of -3 is applied again, giving GOMCW.",
+    "as": "একেই -3 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে GOMCW পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-018",
+   "q": {
+    "en": "In a code, CLOUD is written as GPSYH. How is GPSYH written in the same code?",
+    "as": "এটা সংকেতত CLOUD ক GPSYH লিখা হয়। একেই সংকেতত GPSYH কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "JSVBK",
+     "as": "JSVBK"
+    },
+    {
+     "en": "HQTZI",
+     "as": "HQTZI"
+    },
+    {
+     "en": "KTWCL",
+     "as": "KTWCL"
+    },
+    {
+     "en": "LUXDM",
+     "as": "LUXDM"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The same letter shift of +4 is applied again, giving KTWCL.",
+    "as": "একেই +4 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে KTWCL পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-019",
+   "q": {
+    "en": "In a code, HONEY is written as IPOFZ. How is IPOFZ written in the same code?",
+    "as": "এটা সংকেতত HONEY ক IPOFZ লিখা হয়। একেই সংকেতত IPOFZ কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "IPOFZ",
+     "as": "IPOFZ"
+    },
+    {
+     "en": "JQPGA",
+     "as": "JQPGA"
+    },
+    {
+     "en": "JQPGB",
+     "as": "JQPGB"
+    },
+    {
+     "en": "KRQHB",
+     "as": "KRQHB"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The same letter shift of +1 is applied again, giving JQPGA.",
+    "as": "একেই +1 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে JQPGA পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-020",
+   "q": {
+    "en": "In a code, PLANT is written as LHWJP. How is LHWJP written in the same code?",
+    "as": "এটা সংকেতত PLANT ক LHWJP লিখা হয়। একেই সংকেতত LHWJP কেনেকৈ লিখা হয়?"
+   },
+   "options": [
+    {
+     "en": "IETGM",
+     "as": "IETGM"
+    },
+    {
+     "en": "MIXKQ",
+     "as": "MIXKQ"
+    },
+    {
+     "en": "HDSFL",
+     "as": "HDSFL"
+    },
+    {
+     "en": "GCREK",
+     "as": "GCREK"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The same letter shift of -4 is applied again, giving HDSFL.",
+    "as": "একেই -4 আখৰৰ স্থানান্তৰ পুনৰ প্ৰয়োগ কৰিলে HDSFL পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-021",
+   "q": {
+    "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is CAT coded?",
+    "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), CAT ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "TAC",
+     "as": "TAC"
+    },
+    {
+     "en": "DBU",
+     "as": "DBU"
+    },
+    {
+     "en": "CAT",
+     "as": "CAT"
+    },
+    {
+     "en": "XZG",
+     "as": "XZG"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each letter is replaced by the letter opposite it, so CAT becomes XZG.",
+    "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে CAT এ XZG হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-022",
+   "q": {
+    "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is DOG coded?",
+    "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), DOG ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "DOG",
+     "as": "DOG"
+    },
+    {
+     "en": "GOD",
+     "as": "GOD"
+    },
+    {
+     "en": "EPH",
+     "as": "EPH"
+    },
+    {
+     "en": "WLT",
+     "as": "WLT"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each letter is replaced by the letter opposite it, so DOG becomes WLT.",
+    "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে DOG এ WLT হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-023",
+   "q": {
+    "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is PEN coded?",
+    "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), PEN ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "KVM",
+     "as": "KVM"
+    },
+    {
+     "en": "QFO",
+     "as": "QFO"
+    },
+    {
+     "en": "PEN",
+     "as": "PEN"
+    },
+    {
+     "en": "NEP",
+     "as": "NEP"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each letter is replaced by the letter opposite it, so PEN becomes KVM.",
+    "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে PEN এ KVM হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-024",
+   "q": {
+    "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is SUN coded?",
+    "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), SUN ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "SUN",
+     "as": "SUN"
+    },
+    {
+     "en": "NUS",
+     "as": "NUS"
+    },
+    {
+     "en": "HFM",
+     "as": "HFM"
+    },
+    {
+     "en": "TVO",
+     "as": "TVO"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Each letter is replaced by the letter opposite it, so SUN becomes HFM.",
+    "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে SUN এ HFM হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-025",
+   "q": {
+    "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is BOX coded?",
+    "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), BOX ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "CPY",
+     "as": "CPY"
+    },
+    {
+     "en": "YLC",
+     "as": "YLC"
+    },
+    {
+     "en": "BOX",
+     "as": "BOX"
+    },
+    {
+     "en": "XOB",
+     "as": "XOB"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each letter is replaced by the letter opposite it, so BOX becomes YLC.",
+    "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে BOX এ YLC হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-026",
+   "q": {
+    "en": "If the alphabet is reversed (A↔Z, B↔Y ...), how is NET coded?",
+    "as": "বৰ্ণমালা ওলোটাই দিলে (A↔Z, B↔Y ...), NET ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "OFU",
+     "as": "OFU"
+    },
+    {
+     "en": "MVG",
+     "as": "MVG"
+    },
+    {
+     "en": "NET",
+     "as": "NET"
+    },
+    {
+     "en": "TEN",
+     "as": "TEN"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each letter is replaced by the letter opposite it, so NET becomes MVG.",
+    "as": "প্ৰতিটো আখৰৰ বিপৰীত আখৰেৰে সলনি কৰিলে NET এ MVG হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-027",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word DOG?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে DOG শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "26",
+     "as": "26"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "27",
+     "as": "27"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Add the alphabet positions: 4 + 15 + 7 = 26.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 4 + 15 + 7 = 26।"
+   }
+  },
+  {
+   "id": "coding-decoding-028",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word CAT?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে CAT শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "23",
+     "as": "23"
+    },
+    {
+     "en": "34",
+     "as": "34"
+    },
+    {
+     "en": "24",
+     "as": "24"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Add the alphabet positions: 3 + 1 + 20 = 24.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 3 + 1 + 20 = 24।"
+   }
+  },
+  {
+   "id": "coding-decoding-029",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word SUN?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে SUN শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "53",
+     "as": "53"
+    },
+    {
+     "en": "54",
+     "as": "54"
+    },
+    {
+     "en": "55",
+     "as": "55"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Add the alphabet positions: 19 + 21 + 14 = 54.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 19 + 21 + 14 = 54।"
+   }
+  },
+  {
+   "id": "coding-decoding-030",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word BOX?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে BOX শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "40"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "51",
+     "as": "51"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Add the alphabet positions: 2 + 15 + 24 = 41.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 2 + 15 + 24 = 41।"
+   }
+  },
+  {
+   "id": "coding-decoding-031",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word PEN?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে PEN শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "45"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "35",
+     "as": "35"
+    },
+    {
+     "en": "34",
+     "as": "34"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Add the alphabet positions: 16 + 5 + 14 = 35.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 16 + 5 + 14 = 35।"
+   }
+  },
+  {
+   "id": "coding-decoding-032",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word TEA?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে TEA শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "27",
+     "as": "27"
+    },
+    {
+     "en": "26",
+     "as": "26"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Add the alphabet positions: 20 + 5 + 1 = 26.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 20 + 5 + 1 = 26।"
+   }
+  },
+  {
+   "id": "coding-decoding-033",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word BUS?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে BUS শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "43",
+     "as": "43"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "52",
+     "as": "52"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Add the alphabet positions: 2 + 21 + 19 = 42.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 2 + 21 + 19 = 42।"
+   }
+  },
+  {
+   "id": "coding-decoding-034",
+   "q": {
+    "en": "If A=1, B=2, C=3 and so on, what is the code of the word CUP?",
+    "as": "যদি A=1, B=2, C=3 ইত্যাদি, তেন্তে CUP শব্দটোৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "40"
+    },
+    {
+     "en": "39",
+     "as": "39"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Add the alphabet positions: 3 + 21 + 16 = 40.",
+    "as": "বৰ্ণমালাৰ স্থানবোৰ যোগ কৰক: 3 + 21 + 16 = 40।"
+   }
+  },
+  {
+   "id": "coding-decoding-035",
+   "q": {
+    "en": "If A=26, B=25, ... Z=1, what is the code of HI?",
+    "as": "যদি A=26, B=25, ... Z=1, HI ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "35",
+     "as": "35"
+    },
+    {
+     "en": "38",
+     "as": "38"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using reverse positions, HI = 37.",
+    "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, HI = 37।"
+   }
+  },
+  {
+   "id": "coding-decoding-036",
+   "q": {
+    "en": "If A=26, B=25, ... Z=1, what is the code of GO?",
+    "as": "যদি A=26, B=25, ... Z=1, GO ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "33",
+     "as": "33"
+    },
+    {
+     "en": "32",
+     "as": "32"
+    },
+    {
+     "en": "37",
+     "as": "37"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using reverse positions, GO = 32.",
+    "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, GO = 32।"
+   }
+  },
+  {
+   "id": "coding-decoding-037",
+   "q": {
+    "en": "If A=26, B=25, ... Z=1, what is the code of AM?",
+    "as": "যদি A=26, B=25, ... Z=1, AM ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "38",
+     "as": "38"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "45",
+     "as": "45"
+    },
+    {
+     "en": "40",
+     "as": "40"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using reverse positions, AM = 40.",
+    "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, AM = 40।"
+   }
+  },
+  {
+   "id": "coding-decoding-038",
+   "q": {
+    "en": "If A=26, B=25, ... Z=1, what is the code of ON?",
+    "as": "যদি A=26, B=25, ... Z=1, ON ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "26",
+     "as": "26"
+    },
+    {
+     "en": "23",
+     "as": "23"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using reverse positions, ON = 25.",
+    "as": "ওলোটা স্থান ব্যৱহাৰ কৰি, ON = 25।"
+   }
+  },
+  {
+   "id": "coding-decoding-039",
+   "q": {
+    "en": "If 'red' means 'green', 'green' means 'blue', 'blue' means 'white' and 'white' means 'black', what colour is the sky said to be?",
+    "as": "যদি 'ৰঙা' মানে 'সেউজীয়া', 'সেউজীয়া' মানে 'নীলা', 'নীলা' মানে 'বগা' আৰু 'বগা' মানে 'কালা', তেন্তে আকাশক কি ৰঙ বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "green",
+     "as": "green"
+    },
+    {
+     "en": "blue",
+     "as": "blue"
+    },
+    {
+     "en": "white",
+     "as": "white"
+    },
+    {
+     "en": "black",
+     "as": "black"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The sky is blue, and blue is called white in this code.",
+    "as": "আকাশ নীলা, আৰু এই সংকেতত নীলাক বগা বোলা হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-040",
+   "q": {
+    "en": "In a code, 'sun' means 'moon', 'moon' means 'star' and 'star' means 'sky'. What shines at night in this code?",
+    "as": "এটা সংকেতত 'সূৰ্য্য' মানে 'চন্দ্ৰ', 'চন্দ্ৰ' মানে 'তৰা' আৰু 'তৰা' মানে 'আকাশ'। এই সংকেতত ৰাতি কি জিলিকে?"
+   },
+   "options": [
+    {
+     "en": "moon",
+     "as": "moon"
+    },
+    {
+     "en": "sky",
+     "as": "sky"
+    },
+    {
+     "en": "star",
+     "as": "star"
+    },
+    {
+     "en": "sun",
+     "as": "sun"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The moon shines at night, and the moon is called star in this code.",
+    "as": "ৰাতি চন্দ্ৰই জিলিকে, আৰু এই সংকেতত চন্দ্ৰক তৰা বোলা হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-041",
+   "q": {
+    "en": "If 'water' is called 'fire', 'fire' is called 'air' and 'air' is called 'earth', what do we breathe in this code?",
+    "as": "যদি 'পানী' ক 'জুই' বোলা হয়, 'জুই' ক 'বায়ু' আৰু 'বায়ু' ক 'মাটি' বোলা হয়, এই সংকেতত আমি কি উশাহ লওঁ?"
+   },
+   "options": [
+    {
+     "en": "air",
+     "as": "air"
+    },
+    {
+     "en": "earth",
+     "as": "earth"
+    },
+    {
+     "en": "water",
+     "as": "water"
+    },
+    {
+     "en": "fire",
+     "as": "fire"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "We breathe air, and air is called earth in this code.",
+    "as": "আমি বায়ু উশাহ লওঁ, আৰু এই সংকেতত বায়ুক মাটি বোলা হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-042",
+   "q": {
+    "en": "If 'pen' means 'paper', 'paper' means 'table' and 'table' means 'chair', on what do we write in this code?",
+    "as": "যদি 'কলম' মানে 'কাগজ', 'কাগজ' মানে 'মেজ' আৰু 'মেজ' মানে 'চকী', এই সংকেতত আমি কেতিয়া লিখোঁ?"
+   },
+   "options": [
+    {
+     "en": "table",
+     "as": "table"
+    },
+    {
+     "en": "pen",
+     "as": "pen"
+    },
+    {
+     "en": "paper",
+     "as": "paper"
+    },
+    {
+     "en": "chair",
+     "as": "chair"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "We write on paper, and paper is called table in this code.",
+    "as": "আমি কাগজত লিখোঁ, আৰু এই সংকেতত কাগজক মেজ বোলা হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-043",
+   "q": {
+    "en": "If 'rose' is called 'lily', 'lily' is called 'lotus' and 'lotus' is called 'sunflower', which flower is called 'lily' in this code?",
+    "as": "যদি 'গোলাপ' ক 'লিলি' বোলা হয়, 'লিলি' ক 'পদুম' আৰু 'পদুম' ক 'সূৰ্যমুখী' বোলা হয়, এই সংকেতত 'লিলি' কাক বোলা হয়?"
+   },
+   "options": [
+    {
+     "en": "lotus",
+     "as": "lotus"
+    },
+    {
+     "en": "rose",
+     "as": "rose"
+    },
+    {
+     "en": "lily",
+     "as": "lily"
+    },
+    {
+     "en": "sunflower",
+     "as": "sunflower"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The name 'lily' stands for the rose in this code.",
+    "as": "এই সংকেতত 'লিলি' নামটোৱে গোলাপক সূচায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-044",
+   "q": {
+    "en": "If 'north' is called 'south', 'south' is called 'east' and 'east' is called 'west', in which direction does the sun rise in this code?",
+    "as": "যদি 'উত্তৰ' ক 'দক্ষিণ' বোলা হয়, 'দক্ষিণ' ক 'পূৱ' আৰু 'পূৱ' ক 'পশ্চিম' বোলা হয়, এই সংকেতত সূৰ্য্য কোন দিশত উদয় হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "south"
+    },
+    {
+     "en": "east",
+     "as": "east"
+    },
+    {
+     "en": "north",
+     "as": "north"
+    },
+    {
+     "en": "west",
+     "as": "west"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The sun rises in the east, and east is called west in this code.",
+    "as": "সূৰ্য্য পূৱত উদয় হয়, আৰু এই সংকেতত পূৱক পশ্চিম বোলা হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-045",
+   "q": {
+    "en": "In a code each pair of letters is interchanged. How is RIVER coded?",
+    "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। RIVER ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "RIVER",
+     "as": "RIVER"
+    },
+    {
+     "en": "IREVR",
+     "as": "IREVR"
+    },
+    {
+     "en": "SJWFS",
+     "as": "SJWFS"
+    },
+    {
+     "en": "REVIR",
+     "as": "REVIR"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Interchanging each adjacent pair gives IREVR.",
+    "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে IREVR পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-046",
+   "q": {
+    "en": "In a code each pair of letters is interchanged. How is MONEY coded?",
+    "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। MONEY ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "OMENY",
+     "as": "OMENY"
+    },
+    {
+     "en": "MONEY",
+     "as": "MONEY"
+    },
+    {
+     "en": "NPOFZ",
+     "as": "NPOFZ"
+    },
+    {
+     "en": "YENOM",
+     "as": "YENOM"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Interchanging each adjacent pair gives OMENY.",
+    "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে OMENY পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-047",
+   "q": {
+    "en": "In a code each pair of letters is interchanged. How is LIGHT coded?",
+    "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। LIGHT ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "LIGHT",
+     "as": "LIGHT"
+    },
+    {
+     "en": "THGIL",
+     "as": "THGIL"
+    },
+    {
+     "en": "ILHGT",
+     "as": "ILHGT"
+    },
+    {
+     "en": "MJHIU",
+     "as": "MJHIU"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Interchanging each adjacent pair gives ILHGT.",
+    "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে ILHGT পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-048",
+   "q": {
+    "en": "In a code each pair of letters is interchanged. How is STONE coded?",
+    "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। STONE ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "TSNOE",
+     "as": "TSNOE"
+    },
+    {
+     "en": "STONE",
+     "as": "STONE"
+    },
+    {
+     "en": "TUPOF",
+     "as": "TUPOF"
+    },
+    {
+     "en": "ENOTS",
+     "as": "ENOTS"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Interchanging each adjacent pair gives TSNOE.",
+    "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে TSNOE পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-049",
+   "q": {
+    "en": "In a code each pair of letters is interchanged. How is MUSIC coded?",
+    "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। MUSIC ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "MUSIC",
+     "as": "MUSIC"
+    },
+    {
+     "en": "UMISC",
+     "as": "UMISC"
+    },
+    {
+     "en": "NVTJD",
+     "as": "NVTJD"
+    },
+    {
+     "en": "CISUM",
+     "as": "CISUM"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Interchanging each adjacent pair gives UMISC.",
+    "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে UMISC পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-050",
+   "q": {
+    "en": "In a code each pair of letters is interchanged. How is CLOUD coded?",
+    "as": "এটা সংকেতত প্ৰতিটো আখৰৰ যোৰ ওলোটাই দিয়া হয়। CLOUD ক কেনেকৈ সংকেত কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "CLOUD",
+     "as": "CLOUD"
+    },
+    {
+     "en": "LCUOD",
+     "as": "LCUOD"
+    },
+    {
+     "en": "DMPVE",
+     "as": "DMPVE"
+    },
+    {
+     "en": "DUOLC",
+     "as": "DUOLC"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Interchanging each adjacent pair gives LCUOD.",
+    "as": "প্ৰতিটো কাষৰীয়া যোৰ ওলোটালে LCUOD পোৱা যায়।"
+   }
+  },
+  {
+   "id": "coding-decoding-051",
+   "q": {
+    "en": "If a word is coded by the number of its letters, what is the code of BANANA?",
+    "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, BANANA ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "BANANA has 6 letters, so its code is 6.",
+    "as": "BANANA ত 6 টা আখৰ আছে, গতিকে সংকেত 6।"
+   }
+  },
+  {
+   "id": "coding-decoding-052",
+   "q": {
+    "en": "If a word is coded by the number of its letters, what is the code of SCHOOL?",
+    "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, SCHOOL ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "SCHOOL has 6 letters, so its code is 6.",
+    "as": "SCHOOL ত 6 টা আখৰ আছে, গতিকে সংকেত 6।"
+   }
+  },
+  {
+   "id": "coding-decoding-053",
+   "q": {
+    "en": "If a word is coded by the number of its letters, what is the code of ASSAM?",
+    "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, ASSAM ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "ASSAM has 5 letters, so its code is 5.",
+    "as": "ASSAM ত 5 টা আখৰ আছে, গতিকে সংকেত 5।"
+   }
+  },
+  {
+   "id": "coding-decoding-054",
+   "q": {
+    "en": "If a word is coded by the number of its letters, what is the code of INDIA?",
+    "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, INDIA ৰ সংকেত কিমান?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "INDIA has 5 letters, so its code is 5.",
+    "as": "INDIA ত 5 টা আখৰ আছে, গতিকে সংকেত 5।"
+   }
+  },
+  {
+   "id": "coding-decoding-055",
+   "q": {
+    "en": "Each letter is moved 1 step(s) forward. What is the code of XYZ?",
+    "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিয়া হয়। XYZ ৰ সংকেত কি?"
+   },
+   "options": [
+    {
+     "en": "ZAB",
+     "as": "ZAB"
+    },
+    {
+     "en": "XYZ",
+     "as": "XYZ"
+    },
+    {
+     "en": "YZA",
+     "as": "YZA"
+    },
+    {
+     "en": "YZB",
+     "as": "YZB"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Shifting each letter 1 step(s) forward, XYZ becomes YZA.",
+    "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিলে XYZ এ YZA হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-056",
+   "q": {
+    "en": "Each letter is moved 2 step(s) forward. What is the code of ZOO?",
+    "as": "প্ৰতিটো আখৰ 2 খোজ আগলৈ নিয়া হয়। ZOO ৰ সংকেত কি?"
+   },
+   "options": [
+    {
+     "en": "ZOO",
+     "as": "ZOO"
+    },
+    {
+     "en": "APP",
+     "as": "APP"
+    },
+    {
+     "en": "BQQ",
+     "as": "BQQ"
+    },
+    {
+     "en": "CRR",
+     "as": "CRR"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Shifting each letter 2 step(s) forward, ZOO becomes BQQ.",
+    "as": "প্ৰতিটো আখৰ 2 খোজ আগলৈ নিলে ZOO এ BQQ হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-057",
+   "q": {
+    "en": "Each letter is moved 3 step(s) forward. What is the code of VOW?",
+    "as": "প্ৰতিটো আখৰ 3 খোজ আগলৈ নিয়া হয়। VOW ৰ সংকেত কি?"
+   },
+   "options": [
+    {
+     "en": "VOW",
+     "as": "VOW"
+    },
+    {
+     "en": "XQY",
+     "as": "XQY"
+    },
+    {
+     "en": "YRZ",
+     "as": "YRZ"
+    },
+    {
+     "en": "ZSA",
+     "as": "ZSA"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Shifting each letter 3 step(s) forward, VOW becomes YRZ.",
+    "as": "প্ৰতিটো আখৰ 3 খোজ আগলৈ নিলে VOW এ YRZ হয়।"
+   }
+  },
+  {
+   "id": "coding-decoding-058",
+   "q": {
+    "en": "Each letter is moved 1 step(s) forward. What is the code of YUVA?",
+    "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিয়া হয়। YUVA ৰ সংকেত কি?"
+   },
+   "options": [
+    {
+     "en": "ZVWB",
+     "as": "ZVWB"
+    },
+    {
+     "en": "YUVA",
+     "as": "YUVA"
+    },
+    {
+     "en": "ZVWC",
+     "as": "ZVWC"
+    },
+    {
+     "en": "AWXC",
+     "as": "AWXC"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shifting each letter 1 step(s) forward, YUVA becomes ZVWB.",
+    "as": "প্ৰতিটো আখৰ 1 খোজ আগলৈ নিলে YUVA এ ZVWB হয়।"
    }
   }
  ],
@@ -6199,44 +12379,40 @@ module.exports = {
   {
    "id": "direction-distance-001",
    "q": {
-    "en": "A man walks 5 km north and then 5 km east. He is now in which direction from the starting point?",
-    "as": "এজন মানুহে 5 কি.মি. উত্তৰলৈ আৰু তাৰ পিছত 5 কি.মি. পূবলৈ খোজ কাঢ়ে। তেওঁ এতিয়া আৰম্ভণিৰ পৰা কোন দিশত?"
+    "en": "A man walks 5 km towards the north, then turns right and walks 3 km. Which direction is he facing now?",
+    "as": "এজনে উত্তৰলৈ 5 km খোজ কাঢ়ে, তাৰ পিছত সোঁফালে ঘূৰি 3 km খোজ কাঢ়ে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
    },
    "options": [
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
     {
      "en": "North",
      "as": "উত্তৰ"
     },
     {
-     "en": "East",
-     "as": "পূব"
-    },
-    {
-     "en": "North-East",
-     "as": "উত্তৰ-পূব"
-    },
-    {
-     "en": "South-East",
-     "as": "দক্ষিণ-পূব"
+     "en": "South",
+     "as": "দক্ষিণ"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "Moving north and then east places him in the north-east direction.",
-    "as": "উত্তৰলৈ তাৰ পিছত পূবলৈ গ'লে তেওঁ উত্তৰ-পূব দিশত থাকে।"
+    "en": "Turning right from north faces east.",
+    "as": "উত্তৰৰ পৰা সোঁফালে ঘূৰিলে পূৱলৈ মুখ কৰে।"
    }
   },
   {
    "id": "direction-distance-002",
    "q": {
-    "en": "Facing north, a person turns right. He now faces —",
-    "as": "উত্তৰলৈ মুখ কৰি থকা এজন লোকে সোঁফালে ঘূৰে। তেওঁ এতিয়া কোনফালে মুখ কৰি আছে —"
+    "en": "A man walks 4 km towards the south, then turns left. Which direction is he facing now?",
+    "as": "এজনে দক্ষিণলৈ 4 km খোজ কাঢ়ে, তাৰ পিছত বাওঁফালে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
    },
    "options": [
-    {
-     "en": "East",
-     "as": "পূব"
-    },
     {
      "en": "West",
      "as": "পশ্চিম"
@@ -6248,51 +12424,329 @@ module.exports = {
     {
      "en": "North",
      "as": "উত্তৰ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "A right turn from north leads to east.",
-    "as": "উত্তৰৰ পৰা সোঁফালে ঘূৰিলে পূব হয়।"
+    "en": "Turning left from south faces east.",
+    "as": "দক্ষিণৰ পৰা বাওঁফালে ঘূৰিলে পূৱলৈ মুখ কৰে।"
    }
   },
   {
    "id": "direction-distance-003",
    "q": {
-    "en": "A man walks 3 km south, then 4 km east. The straight-line distance from the start is —",
-    "as": "এজন মানুহে 3 কি.মি. দক্ষিণলৈ, তাৰ পিছত 4 কি.মি. পূবলৈ খোজ কাঢ়ে। আৰম্ভণিৰ পৰা চৰলৰেখাৰ দূৰত্ব —"
+    "en": "A girl walks 3 km north, 4 km east, 3 km south and 4 km west. How far is she from the starting point?",
+    "as": "এজনীয়ে 3 km উত্তৰ, 4 km পূৱ, 3 km দক্ষিণ আৰু 4 km পশ্চিম খোজ কাঢ়ে। তাই আৰম্ভণিৰ পৰা কিমান দূৰত?"
    },
    "options": [
     {
      "en": "5 km",
-     "as": "৫ কি.মি."
+     "as": "৫ km"
     },
     {
-     "en": "6 km",
-     "as": "৬ কি.মি."
+     "en": "0 km",
+     "as": "০ km"
     },
     {
      "en": "7 km",
-     "as": "৭ কি.মি."
+     "as": "৭ km"
     },
     {
-     "en": "12 km",
-     "as": "১২ কি.মি."
+     "en": "14 km",
+     "as": "১৪ km"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "The two sides form a right angle, so the distance is the square root of 9 + 16 = 5 km.",
-    "as": "দুটা বাহুৱে সমকোণ কৰে, গতিকে দূৰত্ব 9 + 16 ৰ বৰ্গমূল = 5 কি.মি.।"
+    "en": "North and south cancel and east and west cancel, so she is back at the start.",
+    "as": "উত্তৰ-দক্ষিণ আৰু পূৱ-পশ্চিম কটাকটি যায়, গতিকে তাই আৰম্ভণিতে উভতি আহে।"
    }
   },
   {
    "id": "direction-distance-004",
    "q": {
-    "en": "If a person faces west and turns 180 degrees, he faces —",
-    "as": "এজন লোকে পশ্চিমলৈ মুখ কৰি 180 ডিগ্ৰী ঘূৰিলে তেওঁ মুখ কৰে —"
+    "en": "A man walks 6 km north, then 8 km east. How far is he from the starting point?",
+    "as": "এজনে 6 km উত্তৰ, তাৰ পিছত 8 km পূৱ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
    },
    "options": [
+    {
+     "en": "14 km",
+     "as": "১৪ km"
+    },
+    {
+     "en": "10 km",
+     "as": "১০ km"
+    },
+    {
+     "en": "2 km",
+     "as": "২ km"
+    },
+    {
+     "en": "48 km",
+     "as": "৪৮ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 6 and 8, which is 10 km.",
+    "as": "সৰণ 6 আৰু 8 ৰ কৰ্ণ, অৰ্থাৎ 10 km।"
+   }
+  },
+  {
+   "id": "direction-distance-005",
+   "q": {
+    "en": "A man walks 9 km north, then 12 km east. How far is he from the starting point?",
+    "as": "এজনে 9 km উত্তৰ, তাৰ পিছত 12 km পূৱ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "21 km",
+     "as": "২১ km"
+    },
+    {
+     "en": "108 km",
+     "as": "১০৮ km"
+    },
+    {
+     "en": "15 km",
+     "as": "১৫ km"
+    },
+    {
+     "en": "3 km",
+     "as": "৩ km"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 9 and 12, which is 15 km.",
+    "as": "সৰণ 9 আৰু 12 ৰ কৰ্ণ, অৰ্থাৎ 15 km।"
+   }
+  },
+  {
+   "id": "direction-distance-006",
+   "q": {
+    "en": "A man walks 5 km north, 5 km east, then 5 km south. Which direction is he from the start?",
+    "as": "এজনে 5 km উত্তৰ, 5 km পূৱ, তাৰ পিছত 5 km দক্ষিণ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "He ends up 5 km to the east of the start.",
+    "as": "তেওঁ আৰম্ভণিৰ পৰা 5 km পূৱত ৰয়।"
+   }
+  },
+  {
+   "id": "direction-distance-007",
+   "q": {
+    "en": "A man facing north turns 90° clockwise, then 180° anticlockwise. Which direction is he facing now?",
+    "as": "উত্তৰলৈ মুখ কৰা এজনে 90° ঘড়ীৰ দিশে ঘূৰে, তাৰ পিছত 180° ঘড়ীৰ বিপৰীতে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+   },
+   "options": [
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "90° clockwise gives east; 180° anticlockwise from east gives west.",
+    "as": "90° ঘড়ীৰ দিশে পূৱ; পূৱৰ পৰা 180° বিপৰীতে পশ্চিম।"
+   }
+  },
+  {
+   "id": "direction-distance-008",
+   "q": {
+    "en": "A man facing south turns 90° anticlockwise, then 90° clockwise. Which direction is he facing now?",
+    "as": "দক্ষিণলৈ মুখ কৰা এজনে 90° ঘড়ীৰ বিপৰীতে ঘূৰে, তাৰ পিছত 90° ঘড়ীৰ দিশে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+   },
+   "options": [
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The two turns cancel out, so he faces south again.",
+    "as": "দুটা ঘূৰ্ণনে কটাকটি যায়, গতিকে তেওঁ পুনৰ দক্ষিণলৈ মুখ কৰে।"
+   }
+  },
+  {
+   "id": "direction-distance-009",
+   "q": {
+    "en": "Walking 2 km east, a man turns left and walks 2 km, then turns left and walks 2 km. Which direction is he from the start?",
+    "as": "2 km পূৱ খোজ কাঢ়ি এজনে বাওঁফালে ঘূৰি 2 km খোজ কাঢ়ে, তাৰ পিছত পুনৰ বাওঁফালে ঘূৰি 2 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "East then left(north) then left(west); the net displacement is 2 km north of the start.",
+    "as": "পূৱ, তাৰ পিছত বাওঁ(উত্তৰ), তাৰ পিছত বাওঁ(পশ্চিম); মূঠ সৰণ আৰম্ভণিৰ 2 km উত্তৰ।"
+   }
+  },
+  {
+   "id": "direction-distance-010",
+   "q": {
+    "en": "A man walks 8 km towards the north, then turns right and walks 6 km. How far is he from the start?",
+    "as": "এজনে উত্তৰলৈ 8 km খোজ কাঢ়ে, তাৰ পিছত সোঁফালে ঘূৰি 6 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "10 km",
+     "as": "১০ km"
+    },
+    {
+     "en": "14 km",
+     "as": "১৪ km"
+    },
+    {
+     "en": "48 km",
+     "as": "৪৮ km"
+    },
+    {
+     "en": "2 km",
+     "as": "২ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 8 and 6, which is 10 km.",
+    "as": "সৰণ 8 আৰু 6 ৰ কৰ্ণ, অৰ্থাৎ 10 km।"
+   }
+  },
+  {
+   "id": "direction-distance-011",
+   "q": {
+    "en": "A man walks 7 km west, then 24 km north. How far is he from the start?",
+    "as": "এজনে 7 km পশ্চিম, তাৰ পিছত 24 km উত্তৰ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "168 km",
+     "as": "১৬৮ km"
+    },
+    {
+     "en": "17 km",
+     "as": "১৭ km"
+    },
+    {
+     "en": "25 km",
+     "as": "২৫ km"
+    },
+    {
+     "en": "31 km",
+     "as": "৩১ km"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 7 and 24, which is 25 km.",
+    "as": "সৰণ 7 আৰু 24 ৰ কৰ্ণ, অৰ্থাৎ 25 km।"
+   }
+  },
+  {
+   "id": "direction-distance-012",
+   "q": {
+    "en": "A boy goes 3 km north, then 4 km west, then 3 km south. How far is he from the start?",
+    "as": "এজন ল'ৰা 3 km উত্তৰ, 4 km পশ্চিম, তাৰ পিছত 3 km দক্ষিণ যায়। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "3 km",
+     "as": "৩ km"
+    },
+    {
+     "en": "4 km",
+     "as": "৪ km"
+    },
+    {
+     "en": "0 km",
+     "as": "০ km"
+    },
+    {
+     "en": "5 km",
+     "as": "৫ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "North and south cancel, leaving 4 km to the west.",
+    "as": "উত্তৰ-দক্ষিণ কটাকটি যায়, 4 km পশ্চিম ৰয়।"
+   }
+  },
+  {
+   "id": "direction-distance-013",
+   "q": {
+    "en": "A man starts facing east. He turns 90° right, then 90° right, then 90° right. Which direction is he facing now?",
+    "as": "এজনে পূৱলৈ মুখ কৰি আৰম্ভ কৰে। তেওঁ 90° সোঁ, 90° সোঁ, 90° সোঁ ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+   },
+   "options": [
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
     {
      "en": "North",
      "as": "উত্তৰ"
@@ -6303,7 +12757,183 @@ module.exports = {
     },
     {
      "en": "East",
-     "as": "পূব"
+     "as": "পূৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each 90° right turn goes E→S→W→N, so after three right turns he faces north.",
+    "as": "প্ৰতিটো 90° সোঁ ঘূৰ্ণন E→S→W→N, গতিকে তিনিবাৰ সোঁ ঘূৰি তেওঁ উত্তৰলৈ মুখ কৰে।"
+   }
+  },
+  {
+   "id": "direction-distance-014",
+   "q": {
+    "en": "A man walks 10 km north, then 10 km east, then 10 km south, then 10 km west. How far is he from the start?",
+    "as": "এজনে 10 km উত্তৰ, 10 km পূৱ, 10 km দক্ষিণ, 10 km পশ্চিম খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "20 km",
+     "as": "২০ km"
+    },
+    {
+     "en": "40 km",
+     "as": "৪০ km"
+    },
+    {
+     "en": "0 km",
+     "as": "০ km"
+    },
+    {
+     "en": "10 km",
+     "as": "১০ km"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "He returns exactly to the starting point.",
+    "as": "তেওঁ ঠিক আৰম্ভণিৰ স্থানলৈ উভতি আহে।"
+   }
+  },
+  {
+   "id": "direction-distance-015",
+   "q": {
+    "en": "A man walks 1 km east, 2 km north, 3 km west and 4 km south. How far is he from the start?",
+    "as": "এজনে 1 km পূৱ, 2 km উত্তৰ, 3 km পশ্চিম আৰু 4 km দক্ষিণ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "4 km",
+     "as": "৪ km"
+    },
+    {
+     "en": "2 km",
+     "as": "২ km"
+    },
+    {
+     "en": "2√2 km",
+     "as": "২√২ km"
+    },
+    {
+     "en": "3 km",
+     "as": "৩ km"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Net east-west is 2 km west and net north-south is 2 km south, giving 2√2 km.",
+    "as": "মূঠ পূৱ-পশ্চিম 2 km পশ্চিম আৰু উত্তৰ-দক্ষিণ 2 km দক্ষিণ, গতিকে 2√2 km।"
+   }
+  },
+  {
+   "id": "direction-distance-016",
+   "q": {
+    "en": "From a point, A goes 5 km north, B goes 5 km south, C goes 5 km east. Which is farthest from the start?",
+    "as": "এটা বিন্দুৰ পৰা A 5 km উত্তৰ, B 5 km দক্ষিণ, C 5 km পূৱলৈ যায়। আৰম্ভণিৰ পৰা কোন আটাইতকৈ দূৰত?"
+   },
+   "options": [
+    {
+     "en": "All are equally far",
+     "as": "সকলো সমান দূৰত"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each is exactly 5 km from the start, so all are equally far.",
+    "as": "প্ৰতিজন আৰম্ভণিৰ পৰা ঠিক 5 km দূৰত, গতিকে সকলো সমান দূৰত।"
+   }
+  },
+  {
+   "id": "direction-distance-017",
+   "q": {
+    "en": "A man walks 5 km north, then turns left and walks 5 km. Which direction is he from the start?",
+    "as": "এজনে 5 km উত্তৰ খোজ কাঢ়ে, তাৰ পিছত বাওঁফালে ঘূৰি 5 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    },
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    },
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    },
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "North then left(west) puts him to the north-west of the start.",
+    "as": "উত্তৰ, তাৰ পিছত বাওঁ(পশ্চিম) লৈ গ'লে তেওঁ আৰম্ভণিৰ উত্তৰ-পশ্চিমত ৰয়।"
+   }
+  },
+  {
+   "id": "direction-distance-018",
+   "q": {
+    "en": "A man walks 5 km north, then turns right and walks 5 km. Which direction is he from the start?",
+    "as": "এজনে 5 km উত্তৰ খোজ কাঢ়ে, তাৰ পিছত সোঁফালে ঘূৰি 5 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    },
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    },
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    },
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "North then right(east) puts him to the north-east of the start.",
+    "as": "উত্তৰ, তাৰ পিছত সোঁ(পূৱ) লৈ গ'লে তেওঁ আৰম্ভণিৰ উত্তৰ-পূৱত ৰয়।"
+   }
+  },
+  {
+   "id": "direction-distance-019",
+   "q": {
+    "en": "At sunrise, a man faces a pole whose shadow falls to his left. Which direction is he facing?",
+    "as": "সূৰ্য্যোদয়ত এজনে এটা খুটাৰ ফালে মুখ কৰি থাকে যাৰ ছাঁ তেওঁৰ বাওঁফালে পৰে। তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+   },
+   "options": [
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
     },
     {
      "en": "West",
@@ -6312,8 +12942,1178 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "A turn of 180 degrees reverses the direction, so west becomes east.",
-    "as": "180 ডিগ্ৰী ঘূৰিলে দিশ ওলোটা হয়, গতিকে পশ্চিম পূব হয়।"
+    "en": "At sunrise the shadow falls to the west; if the shadow is on his left, he faces north.",
+    "as": "সূৰ্য্যোদয়ত ছাঁ পশ্চিমলৈ পৰে; ছাঁ বাওঁফালে থাকিলে তেওঁ উত্তৰলৈ মুখ কৰে।"
+   }
+  },
+  {
+   "id": "direction-distance-020",
+   "q": {
+    "en": "At sunset, a man's shadow falls to his right. Which direction is he facing?",
+    "as": "সূৰ্য্যাস্তত এজনৰ ছাঁ সোঁফালে পৰে। তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+   },
+   "options": [
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At sunset the shadow falls to the east; if it is on his right, he faces north.",
+    "as": "সূৰ্য্যাস্তত ছাঁ পূৱলৈ পৰে; সোঁফালে থাকিলে তেওঁ উত্তৰলৈ মুখ কৰে।"
+   }
+  },
+  {
+   "id": "direction-distance-021",
+   "q": {
+    "en": "At noon in India, the shadow of a vertical pole falls towards —",
+    "as": "ভাৰতত দুপৰীয়া এটা খুটাৰ ছাঁ কোনফালে পৰে?"
+   },
+   "options": [
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At noon the sun is in the south, so the shadow falls to the north.",
+    "as": "দুপৰীয়া সূৰ্য্য দক্ষিণত থাকে, গতিকে ছাঁ উত্তৰলৈ পৰে।"
+   }
+  },
+  {
+   "id": "direction-distance-022",
+   "q": {
+    "en": "A clock's hands at 3 o'clock point towards 12 and 3. If 12 is north, which direction does the hour hand show?",
+    "as": "3 বজাত ঘড়ীৰ কাঁটা 12 আৰু 3 লৈ মুখ কৰে। 12 যদি উত্তৰ হয়, ঘণ্টাৰ কাঁটাই কোন দিশ দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The hour hand at 3 points to 3, which is a quarter turn clockwise from north, i.e. east.",
+    "as": "3 বজাত ঘণ্টাৰ কাঁটা 3 লৈ মুখ কৰে, উত্তৰৰ পৰা চতুৰ্থাংশ ঘড়ীৰ দিশে, অৰ্থাৎ পূৱ।"
+   }
+  },
+  {
+   "id": "direction-distance-023",
+   "q": {
+    "en": "A man walks 4 km north, 3 km east, 4 km south. In which direction is he from the start and how far?",
+    "as": "এজনে 4 km উত্তৰ, 3 km পূৱ, 4 km দক্ষিণ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত আৰু কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "5 km east",
+     "as": "৫ km পূৱ"
+    },
+    {
+     "en": "4 km north",
+     "as": "৪ km উত্তৰ"
+    },
+    {
+     "en": "3 km west",
+     "as": "৩ km পশ্চিম"
+    },
+    {
+     "en": "3 km east",
+     "as": "৩ km পূৱ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "North and south cancel, so he is 3 km east of the start.",
+    "as": "উত্তৰ-দক্ষিণ কটাকটি যায়, গতিকে তেওঁ আৰম্ভণিৰ 3 km পূৱত।"
+   }
+  },
+  {
+   "id": "direction-distance-024",
+   "q": {
+    "en": "Facing north, I turn 45° right and walk straight. Which direction do I walk?",
+    "as": "উত্তৰলৈ মুখ কৰি মই 45° সোঁফালে ঘূৰি সোজা খোজ কাঢ়োঁ। মই কোন দিশলৈ খোজ কাঢ়োঁ?"
+   },
+   "options": [
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    },
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    },
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    },
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A 45° right turn from north is the north-east direction.",
+    "as": "উত্তৰৰ পৰা 45° সোঁ ঘূৰ্ণন উত্তৰ-পূৱ দিশ।"
+   }
+  },
+  {
+   "id": "direction-distance-025",
+   "q": {
+    "en": "Facing west, I turn 135° clockwise. Which direction am I facing now?",
+    "as": "পশ্চিমলৈ মুখ কৰি মই 135° ঘড়ীৰ দিশে ঘূৰোঁ। এতিয়া মই কোন দিশলৈ মুখ কৰি আছোঁ?"
+   },
+   "options": [
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    },
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    },
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    },
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "West plus 135° clockwise passes north to reach north-east.",
+    "as": "পশ্চিমৰ পৰা 135° ঘড়ীৰ দিশে উত্তৰ হৈ উত্তৰ-পূৱত উপনীত হয়।"
+   }
+  },
+  {
+   "id": "direction-distance-026",
+   "q": {
+    "en": "A man walks 3 km towards the north and then 4 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 3 km আৰু তাৰ পিছত পূৱলৈ 4 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "6 km",
+     "as": "৬ km"
+    },
+    {
+     "en": "5 km",
+     "as": "৫ km"
+    },
+    {
+     "en": "4 km",
+     "as": "৪ km"
+    },
+    {
+     "en": "7 km",
+     "as": "৭ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 3 and 4, which is 5 km.",
+    "as": "সৰণ 3 আৰু 4 ৰ কৰ্ণ, অৰ্থাৎ 5 km।"
+   }
+  },
+  {
+   "id": "direction-distance-027",
+   "q": {
+    "en": "A man walks 3 km towards the south and then 4 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 3 km আৰু তাৰ পিছত পশ্চিমলৈ 4 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "5 km",
+     "as": "৫ km"
+    },
+    {
+     "en": "5 kT",
+     "as": "5 kT"
+    },
+    {
+     "en": "3 km",
+     "as": "৩ km"
+    },
+    {
+     "en": "7 km",
+     "as": "৭ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 3 and 4, which is 5 km.",
+    "as": "সৰণ 3 আৰু 4 ৰ কৰ্ণ, অৰ্থাৎ 5 km।"
+   }
+  },
+  {
+   "id": "direction-distance-028",
+   "q": {
+    "en": "A man walks 6 km towards the north and then 8 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 6 km আৰু তাৰ পিছত পূৱলৈ 8 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "14 km",
+     "as": "১৪ km"
+    },
+    {
+     "en": "10 km",
+     "as": "১০ km"
+    },
+    {
+     "en": "9 km",
+     "as": "৯ km"
+    },
+    {
+     "en": "11 km",
+     "as": "১১ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 6 and 8, which is 10 km.",
+    "as": "সৰণ 6 আৰু 8 ৰ কৰ্ণ, অৰ্থাৎ 10 km।"
+   }
+  },
+  {
+   "id": "direction-distance-029",
+   "q": {
+    "en": "A man walks 6 km towards the south and then 8 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 6 km আৰু তাৰ পিছত পশ্চিমলৈ 8 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "10 km",
+     "as": "১০ km"
+    },
+    {
+     "en": "8 km",
+     "as": "৮ km"
+    },
+    {
+     "en": "12 km",
+     "as": "১২ km"
+    },
+    {
+     "en": "14 km",
+     "as": "১৪ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 6 and 8, which is 10 km.",
+    "as": "সৰণ 6 আৰু 8 ৰ কৰ্ণ, অৰ্থাৎ 10 km।"
+   }
+  },
+  {
+   "id": "direction-distance-030",
+   "q": {
+    "en": "A man walks 9 km towards the north and then 12 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 9 km আৰু তাৰ পিছত পূৱলৈ 12 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "21 km",
+     "as": "২১ km"
+    },
+    {
+     "en": "15 km",
+     "as": "১৫ km"
+    },
+    {
+     "en": "14 km",
+     "as": "১৪ km"
+    },
+    {
+     "en": "16 km",
+     "as": "১৬ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 9 and 12, which is 15 km.",
+    "as": "সৰণ 9 আৰু 12 ৰ কৰ্ণ, অৰ্থাৎ 15 km।"
+   }
+  },
+  {
+   "id": "direction-distance-031",
+   "q": {
+    "en": "A man walks 9 km towards the south and then 12 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 9 km আৰু তাৰ পিছত পশ্চিমলৈ 12 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "13 km",
+     "as": "১৩ km"
+    },
+    {
+     "en": "17 km",
+     "as": "১৭ km"
+    },
+    {
+     "en": "21 km",
+     "as": "২১ km"
+    },
+    {
+     "en": "15 km",
+     "as": "১৫ km"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 9 and 12, which is 15 km.",
+    "as": "সৰণ 9 আৰু 12 ৰ কৰ্ণ, অৰ্থাৎ 15 km।"
+   }
+  },
+  {
+   "id": "direction-distance-032",
+   "q": {
+    "en": "A man walks 5 km towards the north and then 12 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 5 km আৰু তাৰ পিছত পূৱলৈ 12 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "13 km",
+     "as": "১৩ km"
+    },
+    {
+     "en": "12 km",
+     "as": "১২ km"
+    },
+    {
+     "en": "17 km",
+     "as": "১৭ km"
+    },
+    {
+     "en": "14 km",
+     "as": "১৪ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 5 and 12, which is 13 km.",
+    "as": "সৰণ 5 আৰু 12 ৰ কৰ্ণ, অৰ্থাৎ 13 km।"
+   }
+  },
+  {
+   "id": "direction-distance-033",
+   "q": {
+    "en": "A man walks 5 km towards the south and then 12 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 5 km আৰু তাৰ পিছত পশ্চিমলৈ 12 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "17 km",
+     "as": "১৭ km"
+    },
+    {
+     "en": "13 km",
+     "as": "১৩ km"
+    },
+    {
+     "en": "15 km",
+     "as": "১৫ km"
+    },
+    {
+     "en": "11 km",
+     "as": "১১ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 5 and 12, which is 13 km.",
+    "as": "সৰণ 5 আৰু 12 ৰ কৰ্ণ, অৰ্থাৎ 13 km।"
+   }
+  },
+  {
+   "id": "direction-distance-034",
+   "q": {
+    "en": "A man walks 8 km towards the north and then 15 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 8 km আৰু তাৰ পিছত পূৱলৈ 15 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "16 km",
+     "as": "১৬ km"
+    },
+    {
+     "en": "23 km",
+     "as": "২৩ km"
+    },
+    {
+     "en": "18 km",
+     "as": "১৮ km"
+    },
+    {
+     "en": "17 km",
+     "as": "১৭ km"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 8 and 15, which is 17 km.",
+    "as": "সৰণ 8 আৰু 15 ৰ কৰ্ণ, অৰ্থাৎ 17 km।"
+   }
+  },
+  {
+   "id": "direction-distance-035",
+   "q": {
+    "en": "A man walks 8 km towards the south and then 15 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 8 km আৰু তাৰ পিছত পশ্চিমলৈ 15 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "19 km",
+     "as": "১৯ km"
+    },
+    {
+     "en": "23 km",
+     "as": "২৩ km"
+    },
+    {
+     "en": "15 km",
+     "as": "১৫ km"
+    },
+    {
+     "en": "17 km",
+     "as": "১৭ km"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 8 and 15, which is 17 km.",
+    "as": "সৰণ 8 আৰু 15 ৰ কৰ্ণ, অৰ্থাৎ 17 km।"
+   }
+  },
+  {
+   "id": "direction-distance-036",
+   "q": {
+    "en": "A man walks 20 km towards the north and then 21 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 20 km আৰু তাৰ পিছত পূৱলৈ 21 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "41 km",
+     "as": "৪১ km"
+    },
+    {
+     "en": "30 km",
+     "as": "৩০ km"
+    },
+    {
+     "en": "28 km",
+     "as": "২৮ km"
+    },
+    {
+     "en": "29 km",
+     "as": "২৯ km"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 20 and 21, which is 29 km.",
+    "as": "সৰণ 20 আৰু 21 ৰ কৰ্ণ, অৰ্থাৎ 29 km।"
+   }
+  },
+  {
+   "id": "direction-distance-037",
+   "q": {
+    "en": "A man walks 20 km towards the south and then 21 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 20 km আৰু তাৰ পিছত পশ্চিমলৈ 21 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "29 km",
+     "as": "২৯ km"
+    },
+    {
+     "en": "27 km",
+     "as": "২৭ km"
+    },
+    {
+     "en": "31 km",
+     "as": "৩১ km"
+    },
+    {
+     "en": "41 km",
+     "as": "৪১ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 20 and 21, which is 29 km.",
+    "as": "সৰণ 20 আৰু 21 ৰ কৰ্ণ, অৰ্থাৎ 29 km।"
+   }
+  },
+  {
+   "id": "direction-distance-038",
+   "q": {
+    "en": "A man walks 7 km towards the north and then 24 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 7 km আৰু তাৰ পিছত পূৱলৈ 24 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "26 km",
+     "as": "২৬ km"
+    },
+    {
+     "en": "24 km",
+     "as": "২৪ km"
+    },
+    {
+     "en": "31 km",
+     "as": "৩১ km"
+    },
+    {
+     "en": "25 km",
+     "as": "২৫ km"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 7 and 24, which is 25 km.",
+    "as": "সৰণ 7 আৰু 24 ৰ কৰ্ণ, অৰ্থাৎ 25 km।"
+   }
+  },
+  {
+   "id": "direction-distance-039",
+   "q": {
+    "en": "A man walks 7 km towards the south and then 24 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 7 km আৰু তাৰ পিছত পশ্চিমলৈ 24 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "27 km",
+     "as": "২৭ km"
+    },
+    {
+     "en": "25 km",
+     "as": "২৫ km"
+    },
+    {
+     "en": "31 km",
+     "as": "৩১ km"
+    },
+    {
+     "en": "23 km",
+     "as": "২৩ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 7 and 24, which is 25 km.",
+    "as": "সৰণ 7 আৰু 24 ৰ কৰ্ণ, অৰ্থাৎ 25 km।"
+   }
+  },
+  {
+   "id": "direction-distance-040",
+   "q": {
+    "en": "A man walks 12 km towards the north and then 16 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 12 km আৰু তাৰ পিছত পূৱলৈ 16 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "19 km",
+     "as": "১৯ km"
+    },
+    {
+     "en": "20 km",
+     "as": "২০ km"
+    },
+    {
+     "en": "21 km",
+     "as": "২১ km"
+    },
+    {
+     "en": "28 km",
+     "as": "২৮ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 12 and 16, which is 20 km.",
+    "as": "সৰণ 12 আৰু 16 ৰ কৰ্ণ, অৰ্থাৎ 20 km।"
+   }
+  },
+  {
+   "id": "direction-distance-041",
+   "q": {
+    "en": "A man walks 12 km towards the south and then 16 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 12 km আৰু তাৰ পিছত পশ্চিমলৈ 16 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "28 km",
+     "as": "২৮ km"
+    },
+    {
+     "en": "20 km",
+     "as": "২০ km"
+    },
+    {
+     "en": "22 km",
+     "as": "২২ km"
+    },
+    {
+     "en": "18 km",
+     "as": "১৮ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 12 and 16, which is 20 km.",
+    "as": "সৰণ 12 আৰু 16 ৰ কৰ্ণ, অৰ্থাৎ 20 km।"
+   }
+  },
+  {
+   "id": "direction-distance-042",
+   "q": {
+    "en": "A man walks 10 km towards the north and then 24 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 10 km আৰু তাৰ পিছত পূৱলৈ 24 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "27 km",
+     "as": "২৭ km"
+    },
+    {
+     "en": "25 km",
+     "as": "২৫ km"
+    },
+    {
+     "en": "34 km",
+     "as": "৩৪ km"
+    },
+    {
+     "en": "26 km",
+     "as": "২৬ km"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 10 and 24, which is 26 km.",
+    "as": "সৰণ 10 আৰু 24 ৰ কৰ্ণ, অৰ্থাৎ 26 km।"
+   }
+  },
+  {
+   "id": "direction-distance-043",
+   "q": {
+    "en": "A man walks 10 km towards the south and then 24 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 10 km আৰু তাৰ পিছত পশ্চিমলৈ 24 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "24 km",
+     "as": "২৪ km"
+    },
+    {
+     "en": "34 km",
+     "as": "৩৪ km"
+    },
+    {
+     "en": "26 km",
+     "as": "২৬ km"
+    },
+    {
+     "en": "28 km",
+     "as": "২৮ km"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 10 and 24, which is 26 km.",
+    "as": "সৰণ 10 আৰু 24 ৰ কৰ্ণ, অৰ্থাৎ 26 km।"
+   }
+  },
+  {
+   "id": "direction-distance-044",
+   "q": {
+    "en": "A man walks 15 km towards the north and then 20 km towards the east. How far is he from the starting point?",
+    "as": "এজনে উত্তৰলৈ 15 km আৰু তাৰ পিছত পূৱলৈ 20 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "26 km",
+     "as": "২৬ km"
+    },
+    {
+     "en": "24 km",
+     "as": "২৪ km"
+    },
+    {
+     "en": "25 km",
+     "as": "২৫ km"
+    },
+    {
+     "en": "35 km",
+     "as": "৩৫ km"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 15 and 20, which is 25 km.",
+    "as": "সৰণ 15 আৰু 20 ৰ কৰ্ণ, অৰ্থাৎ 25 km।"
+   }
+  },
+  {
+   "id": "direction-distance-045",
+   "q": {
+    "en": "A man walks 15 km towards the south and then 20 km towards the west. How far is he from the starting point?",
+    "as": "এজনে দক্ষিণলৈ 15 km আৰু তাৰ পিছত পশ্চিমলৈ 20 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "25 km",
+     "as": "২৫ km"
+    },
+    {
+     "en": "27 km",
+     "as": "২৭ km"
+    },
+    {
+     "en": "35 km",
+     "as": "৩৫ km"
+    },
+    {
+     "en": "23 km",
+     "as": "২৩ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The displacement is the hypotenuse of 15 and 20, which is 25 km.",
+    "as": "সৰণ 15 আৰু 20 ৰ কৰ্ণ, অৰ্থাৎ 25 km।"
+   }
+  },
+  {
+   "id": "direction-distance-046",
+   "q": {
+    "en": "A man walks 1 km towards the north and then 1 km towards the east. How far is he from the start?",
+    "as": "এজনে উত্তৰলৈ 1 km আৰু পিছত পূৱলৈ 1 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "1 km",
+     "as": "১ km"
+    },
+    {
+     "en": "√2 km",
+     "as": "√২ km"
+    },
+    {
+     "en": "3 km",
+     "as": "৩ km"
+    },
+    {
+     "en": "2 km",
+     "as": "২ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The two equal sides 1 and 1 give a displacement of √2 km.",
+    "as": "1 আৰু 1 সমান বাহুৱে √2 km সৰণ দিয়ে।"
+   }
+  },
+  {
+   "id": "direction-distance-047",
+   "q": {
+    "en": "A man walks 3 km towards the north and then 3 km towards the east. How far is he from the start?",
+    "as": "এজনে উত্তৰলৈ 3 km আৰু পিছত পূৱলৈ 3 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "3√2 km",
+     "as": "৩√২ km"
+    },
+    {
+     "en": "7 km",
+     "as": "৭ km"
+    },
+    {
+     "en": "6 km",
+     "as": "৬ km"
+    },
+    {
+     "en": "5 km",
+     "as": "৫ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The two equal sides 3 and 3 give a displacement of 3√2 km.",
+    "as": "3 আৰু 3 সমান বাহুৱে 3√2 km সৰণ দিয়ে।"
+   }
+  },
+  {
+   "id": "direction-distance-048",
+   "q": {
+    "en": "A man walks 5 km towards the north and then 5 km towards the east. How far is he from the start?",
+    "as": "এজনে উত্তৰলৈ 5 km আৰু পিছত পূৱলৈ 5 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "5√2 km",
+     "as": "৫√২ km"
+    },
+    {
+     "en": "11 km",
+     "as": "১১ km"
+    },
+    {
+     "en": "10 km",
+     "as": "১০ km"
+    },
+    {
+     "en": "9 km",
+     "as": "৯ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The two equal sides 5 and 5 give a displacement of 5√2 km.",
+    "as": "5 আৰু 5 সমান বাহুৱে 5√2 km সৰণ দিয়ে।"
+   }
+  },
+  {
+   "id": "direction-distance-049",
+   "q": {
+    "en": "A man walks 2 km towards the north and then 2 km towards the east. How far is he from the start?",
+    "as": "এজনে উত্তৰলৈ 2 km আৰু পিছত পূৱলৈ 2 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "2√2 km",
+     "as": "২√২ km"
+    },
+    {
+     "en": "4 km",
+     "as": "৪ km"
+    },
+    {
+     "en": "5 km",
+     "as": "৫ km"
+    },
+    {
+     "en": "3 km",
+     "as": "৩ km"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The two equal sides 2 and 2 give a displacement of 2√2 km.",
+    "as": "2 আৰু 2 সমান বাহুৱে 2√2 km সৰণ দিয়ে।"
+   }
+  },
+  {
+   "id": "direction-distance-050",
+   "q": {
+    "en": "A man walks 4 km towards the north and then 4 km towards the east. How far is he from the start?",
+    "as": "এজনে উত্তৰলৈ 4 km আৰু পিছত পূৱলৈ 4 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "7 km",
+     "as": "৭ km"
+    },
+    {
+     "en": "4√2 km",
+     "as": "৪√২ km"
+    },
+    {
+     "en": "9 km",
+     "as": "৯ km"
+    },
+    {
+     "en": "8 km",
+     "as": "৮ km"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The two equal sides 4 and 4 give a displacement of 4√2 km.",
+    "as": "4 আৰু 4 সমান বাহুৱে 4√2 km সৰণ দিয়ে।"
+   }
+  },
+  {
+   "id": "direction-distance-051",
+   "q": {
+    "en": "A man walks 6 km towards the north and then 6 km towards the east. How far is he from the start?",
+    "as": "এজনে উত্তৰলৈ 6 km আৰু পিছত পূৱলৈ 6 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+   },
+   "options": [
+    {
+     "en": "12 km",
+     "as": "১২ km"
+    },
+    {
+     "en": "13 km",
+     "as": "১৩ km"
+    },
+    {
+     "en": "6√2 km",
+     "as": "৬√২ km"
+    },
+    {
+     "en": "11 km",
+     "as": "১১ km"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The two equal sides 6 and 6 give a displacement of 6√2 km.",
+    "as": "6 আৰু 6 সমান বাহুৱে 6√2 km সৰণ দিয়ে।"
+   }
+  },
+  {
+   "id": "direction-distance-052",
+   "q": {
+    "en": "Facing south, I turn 90° left. Which direction do I face?",
+    "as": "দক্ষিণলৈ মুখ কৰি বাওঁফালে 90° ঘূৰোঁ। কোন দিশলৈ মুখ কৰোঁ?"
+   },
+   "options": [
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Left from south is east.",
+    "as": "দক্ষিণৰ পৰা বাওঁ হ'লে পূৱ।"
+   }
+  },
+  {
+   "id": "direction-distance-053",
+   "q": {
+    "en": "Facing west, I turn 90° right. Which direction do I face?",
+    "as": "পশ্চিমলৈ মুখ কৰি সোঁফালে 90° ঘূৰোঁ। কোন দিশলৈ মুখ কৰোঁ?"
+   },
+   "options": [
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    },
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Right from west is north.",
+    "as": "পশ্চিমৰ পৰা সোঁ হ'লে উত্তৰ।"
+   }
+  },
+  {
+   "id": "direction-distance-054",
+   "q": {
+    "en": "Facing north, I turn 180°. Which direction do I face?",
+    "as": "উত্তৰলৈ মুখ কৰি 180° ঘূৰোঁ। কোন দিশলৈ মুখ কৰোঁ?"
+   },
+   "options": [
+    {
+     "en": "West",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "South",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "North",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "East",
+     "as": "পূৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A 180° turn reverses the direction.",
+    "as": "180° ঘূৰ্ণনে দিশ ওলোটাই।"
+   }
+  },
+  {
+   "id": "direction-distance-055",
+   "q": {
+    "en": "A man walks 3 km east, then 3 km south. Which direction is he from the start?",
+    "as": "এজনে 3 km পূৱ, পিছত 3 km দক্ষিণ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    },
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    },
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    },
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "East then south puts him to the south-east.",
+    "as": "পূৱ পিছত দক্ষিণ হ'লে তেওঁ দক্ষিণ-পূৱত।"
+   }
+  },
+  {
+   "id": "direction-distance-056",
+   "q": {
+    "en": "A man walks 4 km west, then 4 km south. Which direction is he from the start?",
+    "as": "এজনে 4 km পশ্চিম, পিছত 4 km দক্ষিণ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    },
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    },
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    },
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "West then south puts him to the south-west.",
+    "as": "পশ্চিম পিছত দক্ষিণ হ'লে তেওঁ দক্ষিণ-পশ্চিমত।"
+   }
+  },
+  {
+   "id": "direction-distance-057",
+   "q": {
+    "en": "A man walks 6 km east, then 6 km north. Which direction is he from the start?",
+    "as": "এজনে 6 km পূৱ, পিছত 6 km উত্তৰ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    },
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    },
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    },
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "East then north puts him to the north-east.",
+    "as": "পূৱ পিছত উত্তৰ হ'লে তেওঁ উত্তৰ-পূৱত।"
+   }
+  },
+  {
+   "id": "direction-distance-058",
+   "q": {
+    "en": "A man walks 7 km west, then 7 km north. Which direction is he from the start?",
+    "as": "এজনে 7 km পশ্চিম, পিছত 7 km উত্তৰ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কোন দিশত?"
+   },
+   "options": [
+    {
+     "en": "South-west",
+     "as": "দক্ষিণ-পশ্চিম"
+    },
+    {
+     "en": "North-west",
+     "as": "উত্তৰ-পশ্চিম"
+    },
+    {
+     "en": "North-east",
+     "as": "উত্তৰ-পূৱ"
+    },
+    {
+     "en": "South-east",
+     "as": "দক্ষিণ-পূৱ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "West then north puts him to the north-west.",
+    "as": "পশ্চিম পিছত উত্তৰ হ'লে তেওঁ উত্তৰ-পশ্চিমত।"
    }
   }
  ],
@@ -9739,121 +17539,1681 @@ module.exports = {
   {
    "id": "mathematical-operations-001",
    "q": {
-    "en": "If + means ×, then 5 + 3 = ?",
-    "as": "যদি + ৰ অৰ্থ × হয়, তেন্তে 5 + 3 = ?"
+    "en": "If '+' means '×', then 5 + 3 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '×' হয়, তেন্তে 5 + 3 = ?"
    },
    "options": [
     {
-     "en": "8",
-     "as": "৮"
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "14",
+     "as": "14"
     },
     {
      "en": "15",
-     "as": "১৫"
+     "as": "15"
     },
     {
-     "en": "2",
-     "as": "২"
-    },
-    {
-     "en": "53",
-     "as": "৫৩"
+     "en": "17",
+     "as": "17"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "With + meaning multiplication, 5 + 3 becomes 5 × 3 = 15.",
-    "as": "+ ৰ অৰ্থ পূৰণ হ'লে 5 + 3 এ 5 × 3 = 15 হয়।"
+    "en": "'+' is read as '×', so 5 × 3 = 15.",
+    "as": "'+' ক '×' হিচাপে পঢ়া হয়, গতিকে 5 × 3 = 15।"
    }
   },
   {
    "id": "mathematical-operations-002",
    "q": {
-    "en": "If − means ÷, then 20 − 4 = ?",
-    "as": "যদি − ৰ অৰ্থ ÷ হয়, তেন্তে 20 − 4 = ?"
+    "en": "If '×' means '+', then 4 × 6 = ?",
+    "as": "যদি '×' ৰ অৰ্থ '+' হয়, তেন্তে 4 × 6 = ?"
    },
    "options": [
     {
-     "en": "16",
-     "as": "১৬"
+     "en": "10",
+     "as": "10"
     },
     {
-     "en": "5",
-     "as": "৫"
+     "en": "12",
+     "as": "12"
     },
     {
-     "en": "24",
-     "as": "২৪"
+     "en": "11",
+     "as": "11"
     },
     {
-     "en": "80",
-     "as": "৮০"
+     "en": "9",
+     "as": "9"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "With − meaning division, 20 − 4 becomes 20 ÷ 4 = 5.",
-    "as": "− ৰ অৰ্থ হৰণ হ'লে 20 − 4 এ 20 ÷ 4 = 5 হয়।"
+    "en": "'×' is read as '+', so 4 + 6 = 10.",
+    "as": "'×' ক '+' হিচাপে পঢ়া হয়, গতিকে 4 + 6 = 10।"
    }
   },
   {
    "id": "mathematical-operations-003",
    "q": {
-    "en": "If × means +, then 3 × 4 = ?",
-    "as": "যদি × ৰ অৰ্থ + হয়, তেন্তে 3 × 4 = ?"
+    "en": "If '−' means '+', then 9 − 4 = ?",
+    "as": "যদি '−' ৰ অৰ্থ '+' হয়, তেন্তে 9 − 4 = ?"
    },
    "options": [
     {
+     "en": "14",
+     "as": "14"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
      "en": "12",
-     "as": "১২"
+     "as": "12"
     },
     {
-     "en": "7",
-     "as": "৭"
-    },
-    {
-     "en": "34",
-     "as": "৩৪"
-    },
-    {
-     "en": "1",
-     "as": "১"
+     "en": "13",
+     "as": "13"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "With × meaning addition, 3 × 4 becomes 3 + 4 = 7.",
-    "as": "× ৰ অৰ্থ যোগ হ'লে 3 × 4 এ 3 + 4 = 7 হয়।"
+    "en": "'−' is read as '+', so 9 + 4 = 13.",
+    "as": "'−' ক '+' হিচাপে পঢ়া হয়, গতিকে 9 + 4 = 13।"
    }
   },
   {
    "id": "mathematical-operations-004",
    "q": {
-    "en": "If ÷ means −, then 10 ÷ 4 = ?",
-    "as": "যদি ÷ ৰ অৰ্থ − হয়, তেন্তে 10 ÷ 4 = ?"
+    "en": "If '+' means '−', then 8 + 3 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '−' হয়, তেন্তে 8 + 3 = ?"
    },
    "options": [
     {
-     "en": "14",
-     "as": "১৪"
+     "en": "4",
+     "as": "4"
     },
     {
      "en": "6",
-     "as": "৬"
+     "as": "6"
     },
     {
-     "en": "40",
-     "as": "৪০"
+     "en": "7",
+     "as": "7"
     },
     {
-     "en": "2.5",
-     "as": "২.৫"
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'+' is read as '−', so 8 − 3 = 5.",
+    "as": "'+' ক '−' হিচাপে পঢ়া হয়, গতিকে 8 − 3 = 5।"
+   }
+  },
+  {
+   "id": "mathematical-operations-005",
+   "q": {
+    "en": "If '×' means '−', then 7 × 2 = ?",
+    "as": "যদি '×' ৰ অৰ্থ '−' হয়, তেন্তে 7 × 2 = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'×' is read as '−', so 7 − 2 = 5.",
+    "as": "'×' ক '−' হিচাপে পঢ়া হয়, গতিকে 7 − 2 = 5।"
+   }
+  },
+  {
+   "id": "mathematical-operations-006",
+   "q": {
+    "en": "If '÷' means '+', then 12 ÷ 3 = ?",
+    "as": "যদি '÷' ৰ অৰ্থ '+' হয়, তেন্তে 12 ÷ 3 = ?"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "17"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'÷' is read as '+', so 12 + 3 = 15.",
+    "as": "'÷' ক '+' হিচাপে পঢ়া হয়, গতিকে 12 + 3 = 15।"
+   }
+  },
+  {
+   "id": "mathematical-operations-007",
+   "q": {
+    "en": "If '+' means '÷', then 8 + 2 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '÷' হয়, তেন্তে 8 + 2 = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'+' is read as '÷', so 8 ÷ 2 = 4.",
+    "as": "'+' ক '÷' হিচাপে পঢ়া হয়, গতিকে 8 ÷ 2 = 4।"
+   }
+  },
+  {
+   "id": "mathematical-operations-008",
+   "q": {
+    "en": "If '−' means '×', then 5 − 4 = ?",
+    "as": "যদি '−' ৰ অৰ্থ '×' হয়, তেন্তে 5 − 4 = ?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "20"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "21",
+     "as": "21"
+    },
+    {
+     "en": "19",
+     "as": "19"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'−' is read as '×', so 5 × 4 = 20.",
+    "as": "'−' ক '×' হিচাপে পঢ়া হয়, গতিকে 5 × 4 = 20।"
+   }
+  },
+  {
+   "id": "mathematical-operations-009",
+   "q": {
+    "en": "If '×' means '÷', then 16 × 4 = ?",
+    "as": "যদি '×' ৰ অৰ্থ '÷' হয়, তেন্তে 16 × 4 = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'×' is read as '÷', so 16 ÷ 4 = 4.",
+    "as": "'×' ক '÷' হিচাপে পঢ়া হয়, গতিকে 16 ÷ 4 = 4।"
+   }
+  },
+  {
+   "id": "mathematical-operations-010",
+   "q": {
+    "en": "If '+' means '×', then 6 + 7 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '×' হয়, তেন্তে 6 + 7 = ?"
+   },
+   "options": [
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "44",
+     "as": "44"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "43",
+     "as": "43"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'+' is read as '×', so 6 × 7 = 42.",
+    "as": "'+' ক '×' হিচাপে পঢ়া হয়, গতিকে 6 × 7 = 42।"
+   }
+  },
+  {
+   "id": "mathematical-operations-011",
+   "q": {
+    "en": "If '−' means '÷', then 9 − 3 = ?",
+    "as": "যদি '−' ৰ অৰ্থ '÷' হয়, তেন্তে 9 − 3 = ?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'−' is read as '÷', so 9 ÷ 3 = 3.",
+    "as": "'−' ক '÷' হিচাপে পঢ়া হয়, গতিকে 9 ÷ 3 = 3।"
+   }
+  },
+  {
+   "id": "mathematical-operations-012",
+   "q": {
+    "en": "If '÷' means '×', then 20 ÷ 5 = ?",
+    "as": "যদি '÷' ৰ অৰ্থ '×' হয়, তেন্তে 20 ÷ 5 = ?"
+   },
+   "options": [
+    {
+     "en": "101",
+     "as": "101"
+    },
+    {
+     "en": "99",
+     "as": "99"
+    },
+    {
+     "en": "102",
+     "as": "102"
+    },
+    {
+     "en": "100",
+     "as": "100"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'÷' is read as '×', so 20 × 5 = 100.",
+    "as": "'÷' ক '×' হিচাপে পঢ়া হয়, গতিকে 20 × 5 = 100।"
+   }
+  },
+  {
+   "id": "mathematical-operations-013",
+   "q": {
+    "en": "If '+' means '+', then 3 + 3 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '+' হয়, তেন্তে 3 + 3 = ?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    },
+    {
+     "en": "5",
+     "as": "5"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "With ÷ meaning subtraction, 10 ÷ 4 becomes 10 − 4 = 6.",
-    "as": "÷ ৰ অৰ্থ বিয়োগ হ'লে 10 ÷ 4 এ 10 − 4 = 6 হয়।"
+    "en": "'+' is read as '+', so 3 + 3 = 6.",
+    "as": "'+' ক '+' হিচাপে পঢ়া হয়, গতিকে 3 + 3 = 6।"
+   }
+  },
+  {
+   "id": "mathematical-operations-014",
+   "q": {
+    "en": "If '×' means '×', then 2 × 6 = ?",
+    "as": "যদি '×' ৰ অৰ্থ '×' হয়, তেন্তে 2 × 6 = ?"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "11"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    },
+    {
+     "en": "12",
+     "as": "12"
+    },
+    {
+     "en": "13",
+     "as": "13"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'×' is read as '×', so 2 × 6 = 12.",
+    "as": "'×' ক '×' হিচাপে পঢ়া হয়, গতিকে 2 × 6 = 12।"
+   }
+  },
+  {
+   "id": "mathematical-operations-015",
+   "q": {
+    "en": "If '−' means '−', then 10 − 4 = ?",
+    "as": "যদি '−' ৰ অৰ্থ '−' হয়, তেন্তে 10 − 4 = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'−' is read as '−', so 10 − 4 = 6.",
+    "as": "'−' ক '−' হিচাপে পঢ়া হয়, গতিকে 10 − 4 = 6।"
+   }
+  },
+  {
+   "id": "mathematical-operations-016",
+   "q": {
+    "en": "If '÷' means '÷', then 18 ÷ 3 = ?",
+    "as": "যদি '÷' ৰ অৰ্থ '÷' হয়, তেন্তে 18 ÷ 3 = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'÷' is read as '÷', so 18 ÷ 3 = 6.",
+    "as": "'÷' ক '÷' হিচাপে পঢ়া হয়, গতিকে 18 ÷ 3 = 6।"
+   }
+  },
+  {
+   "id": "mathematical-operations-017",
+   "q": {
+    "en": "If '+' means '×' and '−' means '÷', then 6 + 2 − 3 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '×' আৰু '−' ৰ অৰ্থ '÷', তেন্তে 6 + 2 − 3 = ?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Replacing the symbols gives 6 × 2 ÷ 3 = 4.",
+    "as": "চিহ্ন সলনি কৰিলে 6 × 2 ÷ 3 = 4।"
+   }
+  },
+  {
+   "id": "mathematical-operations-018",
+   "q": {
+    "en": "If '−' means '÷' and '+' means '×', then 10 − 4 + 2 = ?",
+    "as": "যদি '−' ৰ অৰ্থ '÷' আৰু '+' ৰ অৰ্থ '×', তেন্তে 10 − 4 + 2 = ?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Replacing the symbols gives 10 ÷ 4 × 2 = 4.",
+    "as": "চিহ্ন সলনি কৰিলে 10 ÷ 4 × 2 = 4।"
+   }
+  },
+  {
+   "id": "mathematical-operations-019",
+   "q": {
+    "en": "If '×' means '−' and '+' means '÷', then 3 × 4 + 5 = ?",
+    "as": "যদি '×' ৰ অৰ্থ '−' আৰু '+' ৰ অৰ্থ '÷', তেন্তে 3 × 4 + 5 = ?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "0"
+    },
+    {
+     "en": "-1",
+     "as": "-1"
+    },
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "-2",
+     "as": "-2"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Replacing the symbols gives 3 − 4 ÷ 5 = -1.",
+    "as": "চিহ্ন সলনি কৰিলে 3 − 4 ÷ 5 = -1।"
+   }
+  },
+  {
+   "id": "mathematical-operations-020",
+   "q": {
+    "en": "If '÷' means '+' and '−' means '×', then 20 ÷ 5 − 3 = ?",
+    "as": "যদি '÷' ৰ অৰ্থ '+' আৰু '−' ৰ অৰ্থ '×', তেন্তে 20 ÷ 5 − 3 = ?"
+   },
+   "options": [
+    {
+     "en": "76",
+     "as": "76"
+    },
+    {
+     "en": "77",
+     "as": "77"
+    },
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "75",
+     "as": "75"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Replacing the symbols gives 20 + 5 × 3 = 75.",
+    "as": "চিহ্ন সলনি কৰিলে 20 + 5 × 3 = 75।"
+   }
+  },
+  {
+   "id": "mathematical-operations-021",
+   "q": {
+    "en": "If '+' means '−' and '×' means '÷', then 2 + 3 × 4 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '−' আৰু '×' ৰ অৰ্থ '÷', তেন্তে 2 + 3 × 4 = ?"
+   },
+   "options": [
+    {
+     "en": "-2",
+     "as": "-2"
+    },
+    {
+     "en": "0",
+     "as": "0"
+    },
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "-1",
+     "as": "-1"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Replacing the symbols gives 2 − 3 ÷ 4 = -1.",
+    "as": "চিহ্ন সলনি কৰিলে 2 − 3 ÷ 4 = -1।"
+   }
+  },
+  {
+   "id": "mathematical-operations-022",
+   "q": {
+    "en": "If '−' means '+' and '×' means '÷', then 8 − 2 × 5 = ?",
+    "as": "যদি '−' ৰ অৰ্থ '+' আৰু '×' ৰ অৰ্থ '÷', তেন্তে 8 − 2 × 5 = ?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Replacing the symbols gives 8 + 2 ÷ 5 = 2.",
+    "as": "চিহ্ন সলনি কৰিলে 8 + 2 ÷ 5 = 2।"
+   }
+  },
+  {
+   "id": "mathematical-operations-023",
+   "q": {
+    "en": "If '×' means '+' and '÷' means '−', then 12 × 3 ÷ 7 = ?",
+    "as": "যদি '×' ৰ অৰ্থ '+' আৰু '÷' ৰ অৰ্থ '−', তেন্তে 12 × 3 ÷ 7 = ?"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "9"
+    },
+    {
+     "en": "10",
+     "as": "10"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Replacing the symbols gives 12 + 3 − 7 = 8.",
+    "as": "চিহ্ন সলনি কৰিলে 12 + 3 − 7 = 8।"
+   }
+  },
+  {
+   "id": "mathematical-operations-024",
+   "q": {
+    "en": "If '÷' means '×' and '+' means '−', then 16 ÷ 4 + 2 = ?",
+    "as": "যদি '÷' ৰ অৰ্থ '×' আৰু '+' ৰ অৰ্থ '−', তেন্তে 16 ÷ 4 + 2 = ?"
+   },
+   "options": [
+    {
+     "en": "63",
+     "as": "63"
+    },
+    {
+     "en": "61",
+     "as": "61"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "62",
+     "as": "62"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Replacing the symbols gives 16 × 4 − 2 = 62.",
+    "as": "চিহ্ন সলনি কৰিলে 16 × 4 − 2 = 62।"
+   }
+  },
+  {
+   "id": "mathematical-operations-025",
+   "q": {
+    "en": "If '+' means '−' and '÷' means '×', then 9 + 3 ÷ 2 = ?",
+    "as": "যদি '+' ৰ অৰ্থ '−' আৰু '÷' ৰ অৰ্থ '×', তেন্তে 9 + 3 ÷ 2 = ?"
+   },
+   "options": [
+    {
+     "en": "13",
+     "as": "13"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    },
+    {
+     "en": "11",
+     "as": "11"
+    },
+    {
+     "en": "12",
+     "as": "12"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Replacing the symbols gives 9 − 3 × 2 = 12.",
+    "as": "চিহ্ন সলনি কৰিলে 9 − 3 × 2 = 12।"
+   }
+  },
+  {
+   "id": "mathematical-operations-026",
+   "q": {
+    "en": "If '−' means '×' and '÷' means '+', then 18 − 3 ÷ 4 = ?",
+    "as": "যদি '−' ৰ অৰ্থ '×' আৰু '÷' ৰ অৰ্থ '+', তেন্তে 18 − 3 ÷ 4 = ?"
+   },
+   "options": [
+    {
+     "en": "60",
+     "as": "60"
+    },
+    {
+     "en": "57",
+     "as": "57"
+    },
+    {
+     "en": "58",
+     "as": "58"
+    },
+    {
+     "en": "59",
+     "as": "59"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Replacing the symbols gives 18 × 3 + 4 = 58.",
+    "as": "চিহ্ন সলনি কৰিলে 18 × 3 + 4 = 58।"
+   }
+  },
+  {
+   "id": "mathematical-operations-027",
+   "q": {
+    "en": "If '×' means '÷' and '−' means '+', then 5 × 2 − 6 = ?",
+    "as": "যদি '×' ৰ অৰ্থ '÷' আৰু '−' ৰ অৰ্থ '+', তেন্তে 5 × 2 − 6 = ?"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "10"
+    },
+    {
+     "en": "9",
+     "as": "9"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Replacing the symbols gives 5 ÷ 2 + 6 = 8.",
+    "as": "চিহ্ন সলনি কৰিলে 5 ÷ 2 + 6 = 8।"
+   }
+  },
+  {
+   "id": "mathematical-operations-028",
+   "q": {
+    "en": "If '÷' means '−' and '×' means '+', then 24 ÷ 4 × 3 = ?",
+    "as": "যদি '÷' ৰ অৰ্থ '−' আৰু '×' ৰ অৰ্থ '+', তেন্তে 24 ÷ 4 × 3 = ?"
+   },
+   "options": [
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "23",
+     "as": "23"
+    },
+    {
+     "en": "24",
+     "as": "24"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Replacing the symbols gives 24 − 4 + 3 = 23.",
+    "as": "চিহ্ন সলনি কৰিলে 24 − 4 + 3 = 23।"
+   }
+  },
+  {
+   "id": "mathematical-operations-029",
+   "q": {
+    "en": "If the numbers 3 and 7 are interchanged, what is the value of (3 + 7) × 5?",
+    "as": "যদি 3 আৰু 7 সংখ্যা দুটা সাল-সলনি কৰা হয়, (3 + 7) × 5 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "48",
+     "as": "48"
+    },
+    {
+     "en": "55",
+     "as": "55"
+    },
+    {
+     "en": "52",
+     "as": "52"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "After interchange the expression is (7 + 3) × 5 = 50.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (7 + 3) × 5 = 50।"
+   }
+  },
+  {
+   "id": "mathematical-operations-030",
+   "q": {
+    "en": "If the numbers 2 and 6 are interchanged, what is the value of (2 + 6) × 4?",
+    "as": "যদি 2 আৰু 6 সংখ্যা দুটা সাল-সলনি কৰা হয়, (2 + 6) × 4 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "32",
+     "as": "32"
+    },
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "34",
+     "as": "34"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "After interchange the expression is (6 + 2) × 4 = 32.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (6 + 2) × 4 = 32।"
+   }
+  },
+  {
+   "id": "mathematical-operations-031",
+   "q": {
+    "en": "If the numbers 1 and 5 are interchanged, what is the value of (1 + 5) × 3?",
+    "as": "যদি 1 আৰু 5 সংখ্যা দুটা সাল-সলনি কৰা হয়, (1 + 5) × 3 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "20"
+    },
+    {
+     "en": "18",
+     "as": "18"
+    },
+    {
+     "en": "21",
+     "as": "21"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "After interchange the expression is (5 + 1) × 3 = 18.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (5 + 1) × 3 = 18।"
+   }
+  },
+  {
+   "id": "mathematical-operations-032",
+   "q": {
+    "en": "If the numbers 4 and 8 are interchanged, what is the value of (4 + 8) × 6?",
+    "as": "যদি 4 আৰু 8 সংখ্যা দুটা সাল-সলনি কৰা হয়, (4 + 8) × 6 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "78",
+     "as": "78"
+    },
+    {
+     "en": "72",
+     "as": "72"
+    },
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "70",
+     "as": "70"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "After interchange the expression is (8 + 4) × 6 = 72.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (8 + 4) × 6 = 72।"
+   }
+  },
+  {
+   "id": "mathematical-operations-033",
+   "q": {
+    "en": "If the numbers 5 and 9 are interchanged, what is the value of (5 + 9) × 7?",
+    "as": "যদি 5 আৰু 9 সংখ্যা দুটা সাল-সলনি কৰা হয়, (5 + 9) × 7 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "100",
+     "as": "100"
+    },
+    {
+     "en": "98",
+     "as": "98"
+    },
+    {
+     "en": "105",
+     "as": "105"
+    },
+    {
+     "en": "96",
+     "as": "96"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "After interchange the expression is (9 + 5) × 7 = 98.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (9 + 5) × 7 = 98।"
+   }
+  },
+  {
+   "id": "mathematical-operations-034",
+   "q": {
+    "en": "If the numbers 2 and 8 are interchanged, what is the value of (2 + 8) × 5?",
+    "as": "যদি 2 আৰু 8 সংখ্যা দুটা সাল-সলনি কৰা হয়, (2 + 8) × 5 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "48",
+     "as": "48"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "55",
+     "as": "55"
+    },
+    {
+     "en": "52",
+     "as": "52"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "After interchange the expression is (8 + 2) × 5 = 50.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (8 + 2) × 5 = 50।"
+   }
+  },
+  {
+   "id": "mathematical-operations-035",
+   "q": {
+    "en": "If the numbers 3 and 9 are interchanged, what is the value of (3 + 9) × 6?",
+    "as": "যদি 3 আৰু 9 সংখ্যা দুটা সাল-সলনি কৰা হয়, (3 + 9) × 6 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "70",
+     "as": "70"
+    },
+    {
+     "en": "78",
+     "as": "78"
+    },
+    {
+     "en": "72",
+     "as": "72"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "After interchange the expression is (9 + 3) × 6 = 72.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (9 + 3) × 6 = 72।"
+   }
+  },
+  {
+   "id": "mathematical-operations-036",
+   "q": {
+    "en": "If the numbers 1 and 7 are interchanged, what is the value of (1 + 7) × 4?",
+    "as": "যদি 1 আৰু 7 সংখ্যা দুটা সাল-সলনি কৰা হয়, (1 + 7) × 4 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "34",
+     "as": "34"
+    },
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "32",
+     "as": "32"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "After interchange the expression is (7 + 1) × 4 = 32.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (7 + 1) × 4 = 32।"
+   }
+  },
+  {
+   "id": "mathematical-operations-037",
+   "q": {
+    "en": "If the numbers 6 and 10 are interchanged, what is the value of (6 + 10) × 8?",
+    "as": "যদি 6 আৰু 10 সংখ্যা দুটা সাল-সলনি কৰা হয়, (6 + 10) × 8 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "126",
+     "as": "126"
+    },
+    {
+     "en": "128",
+     "as": "128"
+    },
+    {
+     "en": "130",
+     "as": "130"
+    },
+    {
+     "en": "136",
+     "as": "136"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "After interchange the expression is (10 + 6) × 8 = 128.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (10 + 6) × 8 = 128।"
+   }
+  },
+  {
+   "id": "mathematical-operations-038",
+   "q": {
+    "en": "If the numbers 2 and 9 are interchanged, what is the value of (2 + 9) × 7?",
+    "as": "যদি 2 আৰু 9 সংখ্যা দুটা সাল-সলনি কৰা হয়, (2 + 9) × 7 ৰ মান কিমান?"
+   },
+   "options": [
+    {
+     "en": "77",
+     "as": "77"
+    },
+    {
+     "en": "79",
+     "as": "79"
+    },
+    {
+     "en": "84",
+     "as": "84"
+    },
+    {
+     "en": "75",
+     "as": "75"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "After interchange the expression is (9 + 2) × 7 = 77.",
+    "as": "সলনিৰ পিছত প্ৰকাশটো (9 + 2) × 7 = 77।"
+   }
+  },
+  {
+   "id": "mathematical-operations-039",
+   "q": {
+    "en": "Which is correct for: 2 + 3 × 4 = 14 ?",
+    "as": "কোনটো শুদ্ধ: 2 + 3 × 4 = 14 ?"
+   },
+   "options": [
+    {
+     "en": "CorrecA",
+     "as": "CorrecA"
+    },
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    },
+    {
+     "en": "CorrecB",
+     "as": "CorrecB"
+    },
+    {
+     "en": "Correct",
+     "as": "Correct"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "BODMAS gives 2 + 12 = 14.",
+    "as": "BODMAS অনুসৰি 2 + 12 = 14।"
+   }
+  },
+  {
+   "id": "mathematical-operations-040",
+   "q": {
+    "en": "Which is correct for: 8 ÷ 4 + 2 = 4 ?",
+    "as": "কোনটো শুদ্ধ: 8 ÷ 4 + 2 = 4 ?"
+   },
+   "options": [
+    {
+     "en": "CorrecB",
+     "as": "CorrecB"
+    },
+    {
+     "en": "CorrecA",
+     "as": "CorrecA"
+    },
+    {
+     "en": "Correct",
+     "as": "Correct"
+    },
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "8 ÷ 4 = 2 and 2 + 2 = 4.",
+    "as": "8 ÷ 4 = 2 আৰু 2 + 2 = 4।"
+   }
+  },
+  {
+   "id": "mathematical-operations-041",
+   "q": {
+    "en": "Which is correct for: 5 + 5 ÷ 5 = 2 ?",
+    "as": "কোনটো শুদ্ধ: 5 + 5 ÷ 5 = 2 ?"
+   },
+   "options": [
+    {
+     "en": "IncorrecB",
+     "as": "IncorrecB"
+    },
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    },
+    {
+     "en": "Correct",
+     "as": "Correct"
+    },
+    {
+     "en": "IncorrecA",
+     "as": "IncorrecA"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "5 ÷ 5 = 1 and 5 + 1 = 6, not 2.",
+    "as": "5 ÷ 5 = 1 আৰু 5 + 1 = 6, 2 নহয়।"
+   }
+  },
+  {
+   "id": "mathematical-operations-042",
+   "q": {
+    "en": "Which is correct for: 3 × 3 − 3 = 6 ?",
+    "as": "কোনটো শুদ্ধ: 3 × 3 − 3 = 6 ?"
+   },
+   "options": [
+    {
+     "en": "Correct",
+     "as": "Correct"
+    },
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    },
+    {
+     "en": "CorrecB",
+     "as": "CorrecB"
+    },
+    {
+     "en": "CorrecA",
+     "as": "CorrecA"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "3 × 3 = 9 and 9 − 3 = 6.",
+    "as": "3 × 3 = 9 আৰু 9 − 3 = 6।"
+   }
+  },
+  {
+   "id": "mathematical-operations-043",
+   "q": {
+    "en": "Which is correct for: 10 − 2 × 3 = 24 ?",
+    "as": "কোনটো শুদ্ধ: 10 − 2 × 3 = 24 ?"
+   },
+   "options": [
+    {
+     "en": "IncorrecB",
+     "as": "IncorrecB"
+    },
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    },
+    {
+     "en": "Correct",
+     "as": "Correct"
+    },
+    {
+     "en": "IncorrecA",
+     "as": "IncorrecA"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "2 × 3 = 6 and 10 − 6 = 4, not 24.",
+    "as": "2 × 3 = 6 আৰু 10 − 6 = 4, 24 নহয়।"
+   }
+  },
+  {
+   "id": "mathematical-operations-044",
+   "q": {
+    "en": "Which is correct for: 6 ÷ 2 × 3 = 9 ?",
+    "as": "কোনটো শুদ্ধ: 6 ÷ 2 × 3 = 9 ?"
+   },
+   "options": [
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    },
+    {
+     "en": "CorrecA",
+     "as": "CorrecA"
+    },
+    {
+     "en": "Correct",
+     "as": "Correct"
+    },
+    {
+     "en": "CorrecB",
+     "as": "CorrecB"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "6 ÷ 2 = 3 and 3 × 3 = 9.",
+    "as": "6 ÷ 2 = 3 আৰু 3 × 3 = 9।"
+   }
+  },
+  {
+   "id": "mathematical-operations-045",
+   "q": {
+    "en": "Which is correct for: 4 + 4 × 4 = 32 ?",
+    "as": "কোনটো শুদ্ধ: 4 + 4 × 4 = 32 ?"
+   },
+   "options": [
+    {
+     "en": "Correct",
+     "as": "Correct"
+    },
+    {
+     "en": "IncorrecA",
+     "as": "IncorrecA"
+    },
+    {
+     "en": "IncorrecB",
+     "as": "IncorrecB"
+    },
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "4 × 4 = 16 and 4 + 16 = 20, not 32.",
+    "as": "4 × 4 = 16 আৰু 4 + 16 = 20, 32 নহয়।"
+   }
+  },
+  {
+   "id": "mathematical-operations-046",
+   "q": {
+    "en": "Which is correct for: 9 − 3 + 1 = 7 ?",
+    "as": "কোনটো শুদ্ধ: 9 − 3 + 1 = 7 ?"
+   },
+   "options": [
+    {
+     "en": "Correct",
+     "as": "Correct"
+    },
+    {
+     "en": "Incorrect",
+     "as": "Incorrect"
+    },
+    {
+     "en": "CorrecB",
+     "as": "CorrecB"
+    },
+    {
+     "en": "CorrecA",
+     "as": "CorrecA"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Left to right: 9 − 3 = 6 and 6 + 1 = 7.",
+    "as": "বাওঁৰ পৰা সোঁ: 9 − 3 = 6 আৰু 6 + 1 = 7।"
+   }
+  },
+  {
+   "id": "mathematical-operations-047",
+   "q": {
+    "en": "Which operator replaces '?' in 6 ? 2 = 3 ?",
+    "as": "6 ? 2 = 3 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "×",
+     "as": "×"
+    },
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "6 ÷ 2 = 3, so the operator is ÷.",
+    "as": "6 ÷ 2 = 3, গতিকে চিহ্নটো ÷।"
+   }
+  },
+  {
+   "id": "mathematical-operations-048",
+   "q": {
+    "en": "Which operator replaces '?' in 4 ? 3 = 12 ?",
+    "as": "4 ? 3 = 12 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "4 × 3 = 12, so the operator is ×.",
+    "as": "4 × 3 = 12, গতিকে চিহ্নটো ×।"
+   }
+  },
+  {
+   "id": "mathematical-operations-049",
+   "q": {
+    "en": "Which operator replaces '?' in 5 ? 5 = 10 ?",
+    "as": "5 ? 5 = 10 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    },
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "5 + 5 = 10, so the operator is +.",
+    "as": "5 + 5 = 10, গতিকে চিহ্নটো +।"
+   }
+  },
+  {
+   "id": "mathematical-operations-050",
+   "q": {
+    "en": "Which operator replaces '?' in 9 ? 4 = 5 ?",
+    "as": "9 ? 4 = 5 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    },
+    {
+     "en": "−",
+     "as": "−"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "9 − 4 = 5, so the operator is −.",
+    "as": "9 − 4 = 5, গতিকে চিহ্নটো −।"
+   }
+  },
+  {
+   "id": "mathematical-operations-051",
+   "q": {
+    "en": "Which operator replaces '?' in 8 ? 4 = 2 ?",
+    "as": "8 ? 4 = 2 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    },
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "8 ÷ 4 = 2, so the operator is ÷.",
+    "as": "8 ÷ 4 = 2, গতিকে চিহ্নটো ÷।"
+   }
+  },
+  {
+   "id": "mathematical-operations-052",
+   "q": {
+    "en": "Which operator replaces '?' in 7 ? 2 = 14 ?",
+    "as": "7 ? 2 = 14 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    },
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "7 × 2 = 14, so the operator is ×.",
+    "as": "7 × 2 = 14, গতিকে চিহ্নটো ×।"
+   }
+  },
+  {
+   "id": "mathematical-operations-053",
+   "q": {
+    "en": "Which operator replaces '?' in 3 ? 6 = 9 ?",
+    "as": "3 ? 6 = 9 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "3 + 6 = 9, so the operator is +.",
+    "as": "3 + 6 = 9, গতিকে চিহ্নটো +।"
+   }
+  },
+  {
+   "id": "mathematical-operations-054",
+   "q": {
+    "en": "Which operator replaces '?' in 15 ? 5 = 10 ?",
+    "as": "15 ? 5 = 10 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "15 − 5 = 10, so the operator is −.",
+    "as": "15 − 5 = 10, গতিকে চিহ্নটো −।"
+   }
+  },
+  {
+   "id": "mathematical-operations-055",
+   "q": {
+    "en": "Which operator replaces '?' in 12 ? 3 = 4 ?",
+    "as": "12 ? 3 = 4 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "+",
+     "as": "+"
+    },
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    },
+    {
+     "en": "÷",
+     "as": "÷"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "12 ÷ 3 = 4, so the operator is ÷.",
+    "as": "12 ÷ 3 = 4, গতিকে চিহ্নটো ÷।"
+   }
+  },
+  {
+   "id": "mathematical-operations-056",
+   "q": {
+    "en": "Which operator replaces '?' in 6 ? 4 = 24 ?",
+    "as": "6 ? 4 = 24 ত '?' ৰ ঠাইত কোনটো চিহ্ন আহে?"
+   },
+   "options": [
+    {
+     "en": "−",
+     "as": "−"
+    },
+    {
+     "en": "÷",
+     "as": "÷"
+    },
+    {
+     "en": "+",
+     "as": "+"
+    },
+    {
+     "en": "×",
+     "as": "×"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "6 × 4 = 24, so the operator is ×.",
+    "as": "6 × 4 = 24, গতিকে চিহ্নটো ×।"
    }
   }
  ],
@@ -10105,68 +19465,1898 @@ module.exports = {
   {
    "id": "number-alphabet-series-001",
    "q": {
-    "en": "Find the next term: 2, 4, 6, 8, ?",
-    "as": "পিছৰ পদটো বিচাৰক: 2, 4, 6, 8, ?"
+    "en": "Find the next term: 3, 7, 11, 15, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 3, 7, 11, 15, ?"
    },
    "options": [
     {
-     "en": "9",
-     "as": "৯"
+     "en": "21",
+     "as": "21"
     },
     {
-     "en": "10",
-     "as": "১০"
+     "en": "20",
+     "as": "20"
     },
     {
-     "en": "12",
-     "as": "১২"
+     "en": "19",
+     "as": "19"
     },
     {
-     "en": "14",
-     "as": "১৪"
+     "en": "18",
+     "as": "18"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "The terms increase by 2 each time, so the next term is 10.",
-    "as": "পদবোৰ প্ৰতিবাৰ 2 ৰে বাঢ়ে, গতিকে পিছৰ পদ 10।"
+    "en": "The terms increase by 4 each time, so the next term is 19.",
+    "as": "পদবোৰ প্ৰতিবাৰ 4 ৰে বাঢ়ে, গতিকে পিছৰ পদ 19।"
    }
   },
   {
    "id": "number-alphabet-series-002",
    "q": {
-    "en": "Find the next term: 3, 9, 27, ?",
-    "as": "পিছৰ পদটো বিচাৰক: 3, 9, 27, ?"
+    "en": "Find the next term: 5, 12, 19, 26, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 5, 12, 19, 26, ?"
    },
    "options": [
     {
-     "en": "36",
-     "as": "৩৬"
+     "en": "35",
+     "as": "35"
     },
     {
-     "en": "54",
-     "as": "৫৪"
+     "en": "32",
+     "as": "32"
     },
     {
-     "en": "81",
-     "as": "৮১"
+     "en": "34",
+     "as": "34"
     },
     {
-     "en": "90",
-     "as": "৯০"
+     "en": "33",
+     "as": "33"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
-    "en": "Each term is multiplied by 3, so the next term is 81.",
-    "as": "প্ৰতিটো পদ 3 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 81।"
+    "en": "The terms increase by 7 each time, so the next term is 33.",
+    "as": "পদবোৰ প্ৰতিবাৰ 7 ৰে বাঢ়ে, গতিকে পিছৰ পদ 33।"
    }
   },
   {
    "id": "number-alphabet-series-003",
    "q": {
-    "en": "Find the next letter: A, C, E, G, ?",
-    "as": "পিছৰ আখৰটো বিচাৰক: A, C, E, G, ?"
+    "en": "Find the next term: 7, 13, 19, 25, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 7, 13, 19, 25, ?"
+   },
+   "options": [
+    {
+     "en": "31",
+     "as": "31"
+    },
+    {
+     "en": "33",
+     "as": "33"
+    },
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "32",
+     "as": "32"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The terms increase by 6 each time, so the next term is 31.",
+    "as": "পদবোৰ প্ৰতিবাৰ 6 ৰে বাঢ়ে, গতিকে পিছৰ পদ 31।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-004",
+   "q": {
+    "en": "Find the next term: 11, 20, 29, 38, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 11, 20, 29, 38, ?"
+   },
+   "options": [
+    {
+     "en": "46",
+     "as": "46"
+    },
+    {
+     "en": "47",
+     "as": "47"
+    },
+    {
+     "en": "48",
+     "as": "48"
+    },
+    {
+     "en": "49",
+     "as": "49"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The terms increase by 9 each time, so the next term is 47.",
+    "as": "পদবোৰ প্ৰতিবাৰ 9 ৰে বাঢ়ে, গতিকে পিছৰ পদ 47।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-005",
+   "q": {
+    "en": "Find the next term: 2, 15, 28, 41, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 15, 28, 41, ?"
+   },
+   "options": [
+    {
+     "en": "56",
+     "as": "56"
+    },
+    {
+     "en": "53",
+     "as": "53"
+    },
+    {
+     "en": "54",
+     "as": "54"
+    },
+    {
+     "en": "55",
+     "as": "55"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms increase by 13 each time, so the next term is 54.",
+    "as": "পদবোৰ প্ৰতিবাৰ 13 ৰে বাঢ়ে, গতিকে পিছৰ পদ 54।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-006",
+   "q": {
+    "en": "Find the next term: 20, 35, 50, 65, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 20, 35, 50, 65, ?"
+   },
+   "options": [
+    {
+     "en": "79",
+     "as": "79"
+    },
+    {
+     "en": "82",
+     "as": "82"
+    },
+    {
+     "en": "80",
+     "as": "80"
+    },
+    {
+     "en": "81",
+     "as": "81"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms increase by 15 each time, so the next term is 80.",
+    "as": "পদবোৰ প্ৰতিবাৰ 15 ৰে বাঢ়ে, গতিকে পিছৰ পদ 80।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-007",
+   "q": {
+    "en": "Find the next term: 6, 17, 28, 39, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 6, 17, 28, 39, ?"
+   },
+   "options": [
+    {
+     "en": "52",
+     "as": "52"
+    },
+    {
+     "en": "49",
+     "as": "49"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "51",
+     "as": "51"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms increase by 11 each time, so the next term is 50.",
+    "as": "পদবোৰ প্ৰতিবাৰ 11 ৰে বাঢ়ে, গতিকে পিছৰ পদ 50।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-008",
+   "q": {
+    "en": "Find the next term: 14, 22, 30, 38, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 14, 22, 30, 38, ?"
+   },
+   "options": [
+    {
+     "en": "46",
+     "as": "46"
+    },
+    {
+     "en": "47",
+     "as": "47"
+    },
+    {
+     "en": "45",
+     "as": "45"
+    },
+    {
+     "en": "48",
+     "as": "48"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The terms increase by 8 each time, so the next term is 46.",
+    "as": "পদবোৰ প্ৰতিবাৰ 8 ৰে বাঢ়ে, গতিকে পিছৰ পদ 46।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-009",
+   "q": {
+    "en": "Find the next term: 9, 21, 33, 45, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 9, 21, 33, 45, ?"
+   },
+   "options": [
+    {
+     "en": "58",
+     "as": "58"
+    },
+    {
+     "en": "57",
+     "as": "57"
+    },
+    {
+     "en": "59",
+     "as": "59"
+    },
+    {
+     "en": "56",
+     "as": "56"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The terms increase by 12 each time, so the next term is 57.",
+    "as": "পদবোৰ প্ৰতিবাৰ 12 ৰে বাঢ়ে, গতিকে পিছৰ পদ 57।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-010",
+   "q": {
+    "en": "Find the next term: 25, 42, 59, 76, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 25, 42, 59, 76, ?"
+   },
+   "options": [
+    {
+     "en": "92",
+     "as": "92"
+    },
+    {
+     "en": "93",
+     "as": "93"
+    },
+    {
+     "en": "94",
+     "as": "94"
+    },
+    {
+     "en": "95",
+     "as": "95"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The terms increase by 17 each time, so the next term is 93.",
+    "as": "পদবোৰ প্ৰতিবাৰ 17 ৰে বাঢ়ে, গতিকে পিছৰ পদ 93।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-011",
+   "q": {
+    "en": "Find the next term: 31, 45, 59, 73, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 31, 45, 59, 73, ?"
+   },
+   "options": [
+    {
+     "en": "88",
+     "as": "88"
+    },
+    {
+     "en": "87",
+     "as": "87"
+    },
+    {
+     "en": "89",
+     "as": "89"
+    },
+    {
+     "en": "86",
+     "as": "86"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The terms increase by 14 each time, so the next term is 87.",
+    "as": "পদবোৰ প্ৰতিবাৰ 14 ৰে বাঢ়ে, গতিকে পিছৰ পদ 87।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-012",
+   "q": {
+    "en": "Find the next term: 4, 23, 42, 61, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 4, 23, 42, 61, ?"
+   },
+   "options": [
+    {
+     "en": "82",
+     "as": "82"
+    },
+    {
+     "en": "79",
+     "as": "79"
+    },
+    {
+     "en": "81",
+     "as": "81"
+    },
+    {
+     "en": "80",
+     "as": "80"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The terms increase by 19 each time, so the next term is 80.",
+    "as": "পদবোৰ প্ৰতিবাৰ 19 ৰে বাঢ়ে, গতিকে পিছৰ পদ 80।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-013",
+   "q": {
+    "en": "Find the next term: 100, 93, 86, 79, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 100, 93, 86, 79, ?"
+   },
+   "options": [
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "73",
+     "as": "73"
+    },
+    {
+     "en": "71",
+     "as": "71"
+    },
+    {
+     "en": "72",
+     "as": "72"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The terms decrease by 7 each time, so the next term is 72.",
+    "as": "পদবোৰ প্ৰতিবাৰ 7 ৰে কমে, গতিকে পিছৰ পদ 72।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-014",
+   "q": {
+    "en": "Find the next term: 90, 78, 66, 54, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 90, 78, 66, 54, ?"
+   },
+   "options": [
+    {
+     "en": "44",
+     "as": "44"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "43",
+     "as": "43"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms decrease by 12 each time, so the next term is 42.",
+    "as": "পদবোৰ প্ৰতিবাৰ 12 ৰে কমে, গতিকে পিছৰ পদ 42।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-015",
+   "q": {
+    "en": "Find the next term: 75, 66, 57, 48, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 75, 66, 57, 48, ?"
+   },
+   "options": [
+    {
+     "en": "39",
+     "as": "39"
+    },
+    {
+     "en": "38",
+     "as": "38"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "40",
+     "as": "40"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The terms decrease by 9 each time, so the next term is 39.",
+    "as": "পদবোৰ প্ৰতিবাৰ 9 ৰে কমে, গতিকে পিছৰ পদ 39।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-016",
+   "q": {
+    "en": "Find the next term: 120, 107, 94, 81, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 120, 107, 94, 81, ?"
+   },
+   "options": [
+    {
+     "en": "70",
+     "as": "70"
+    },
+    {
+     "en": "69",
+     "as": "69"
+    },
+    {
+     "en": "67",
+     "as": "67"
+    },
+    {
+     "en": "68",
+     "as": "68"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The terms decrease by 13 each time, so the next term is 68.",
+    "as": "পদবোৰ প্ৰতিবাৰ 13 ৰে কমে, গতিকে পিছৰ পদ 68।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-017",
+   "q": {
+    "en": "Find the next term: 2, 6, 18, 54, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 6, 18, 54, ?"
+   },
+   "options": [
+    {
+     "en": "162",
+     "as": "162"
+    },
+    {
+     "en": "163",
+     "as": "163"
+    },
+    {
+     "en": "164",
+     "as": "164"
+    },
+    {
+     "en": "161",
+     "as": "161"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is multiplied by 3, so the next term is 162.",
+    "as": "প্ৰতিটো পদ 3 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 162।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-018",
+   "q": {
+    "en": "Find the next term: 3, 6, 12, 24, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 3, 6, 12, 24, ?"
+   },
+   "options": [
+    {
+     "en": "47",
+     "as": "47"
+    },
+    {
+     "en": "48",
+     "as": "48"
+    },
+    {
+     "en": "49",
+     "as": "49"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is multiplied by 2, so the next term is 48.",
+    "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 48।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-019",
+   "q": {
+    "en": "Find the next term: 5, 10, 20, 40, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 5, 10, 20, 40, ?"
+   },
+   "options": [
+    {
+     "en": "82",
+     "as": "82"
+    },
+    {
+     "en": "80",
+     "as": "80"
+    },
+    {
+     "en": "79",
+     "as": "79"
+    },
+    {
+     "en": "81",
+     "as": "81"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is multiplied by 2, so the next term is 80.",
+    "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 80।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-020",
+   "q": {
+    "en": "Find the next term: 1, 4, 16, 64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1, 4, 16, 64, ?"
+   },
+   "options": [
+    {
+     "en": "256",
+     "as": "256"
+    },
+    {
+     "en": "258",
+     "as": "258"
+    },
+    {
+     "en": "257",
+     "as": "257"
+    },
+    {
+     "en": "255",
+     "as": "255"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is multiplied by 4, so the next term is 256.",
+    "as": "প্ৰতিটো পদ 4 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 256।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-021",
+   "q": {
+    "en": "Find the next term: 4, 12, 36, 108, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 4, 12, 36, 108, ?"
+   },
+   "options": [
+    {
+     "en": "323",
+     "as": "323"
+    },
+    {
+     "en": "324",
+     "as": "324"
+    },
+    {
+     "en": "325",
+     "as": "325"
+    },
+    {
+     "en": "326",
+     "as": "326"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is multiplied by 3, so the next term is 324.",
+    "as": "প্ৰতিটো পদ 3 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 324।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-022",
+   "q": {
+    "en": "Find the next term: 2, 10, 50, 250, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 10, 50, 250, ?"
+   },
+   "options": [
+    {
+     "en": "1250",
+     "as": "1250"
+    },
+    {
+     "en": "1249",
+     "as": "1249"
+    },
+    {
+     "en": "1251",
+     "as": "1251"
+    },
+    {
+     "en": "1252",
+     "as": "1252"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is multiplied by 5, so the next term is 1250.",
+    "as": "প্ৰতিটো পদ 5 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 1250।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-023",
+   "q": {
+    "en": "Find the next term: 7, 14, 28, 56, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 7, 14, 28, 56, ?"
+   },
+   "options": [
+    {
+     "en": "113",
+     "as": "113"
+    },
+    {
+     "en": "114",
+     "as": "114"
+    },
+    {
+     "en": "112",
+     "as": "112"
+    },
+    {
+     "en": "111",
+     "as": "111"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Each term is multiplied by 2, so the next term is 112.",
+    "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 112।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-024",
+   "q": {
+    "en": "Find the next term: 6, 12, 24, 48, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 6, 12, 24, 48, ?"
+   },
+   "options": [
+    {
+     "en": "97",
+     "as": "97"
+    },
+    {
+     "en": "98",
+     "as": "98"
+    },
+    {
+     "en": "95",
+     "as": "95"
+    },
+    {
+     "en": "96",
+     "as": "96"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each term is multiplied by 2, so the next term is 96.",
+    "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 96।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-025",
+   "q": {
+    "en": "Find the next term: 4, 9, 16, 25, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 4, 9, 16, 25, ?"
+   },
+   "options": [
+    {
+     "en": "35",
+     "as": "35"
+    },
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "38",
+     "as": "38"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms are squares of 2, 3, 4, 5, so the next is 6² = 36.",
+    "as": "পদবোৰ 2, 3, 4, 5 ৰ বৰ্গ, গতিকে পিছৰ পদ 6² = 36।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-026",
+   "q": {
+    "en": "Find the next term: 9, 16, 25, 36, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 9, 16, 25, 36, ?"
+   },
+   "options": [
+    {
+     "en": "48",
+     "as": "48"
+    },
+    {
+     "en": "49",
+     "as": "49"
+    },
+    {
+     "en": "51",
+     "as": "51"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The terms are squares of 3, 4, 5, 6, so the next is 7² = 49.",
+    "as": "পদবোৰ 3, 4, 5, 6 ৰ বৰ্গ, গতিকে পিছৰ পদ 7² = 49।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-027",
+   "q": {
+    "en": "Find the next term: 25, 36, 49, 64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 25, 36, 49, 64, ?"
+   },
+   "options": [
+    {
+     "en": "80",
+     "as": "80"
+    },
+    {
+     "en": "82",
+     "as": "82"
+    },
+    {
+     "en": "81",
+     "as": "81"
+    },
+    {
+     "en": "83",
+     "as": "83"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms are squares of 5, 6, 7, 8, so the next is 9² = 81.",
+    "as": "পদবোৰ 5, 6, 7, 8 ৰ বৰ্গ, গতিকে পিছৰ পদ 9² = 81।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-028",
+   "q": {
+    "en": "Find the next term: 36, 49, 64, 81, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 36, 49, 64, 81, ?"
+   },
+   "options": [
+    {
+     "en": "99",
+     "as": "99"
+    },
+    {
+     "en": "101",
+     "as": "101"
+    },
+    {
+     "en": "102",
+     "as": "102"
+    },
+    {
+     "en": "100",
+     "as": "100"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The terms are squares of 6, 7, 8, 9, so the next is 10² = 100.",
+    "as": "পদবোৰ 6, 7, 8, 9 ৰ বৰ্গ, গতিকে পিছৰ পদ 10² = 100।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-029",
+   "q": {
+    "en": "Find the next term: 49, 64, 81, 100, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 49, 64, 81, 100, ?"
+   },
+   "options": [
+    {
+     "en": "123",
+     "as": "123"
+    },
+    {
+     "en": "122",
+     "as": "122"
+    },
+    {
+     "en": "121",
+     "as": "121"
+    },
+    {
+     "en": "120",
+     "as": "120"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms are squares of 7, 8, 9, 10, so the next is 11² = 121.",
+    "as": "পদবোৰ 7, 8, 9, 10 ৰ বৰ্গ, গতিকে পিছৰ পদ 11² = 121।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-030",
+   "q": {
+    "en": "Find the next term: 81, 100, 121, 144, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 81, 100, 121, 144, ?"
+   },
+   "options": [
+    {
+     "en": "171",
+     "as": "171"
+    },
+    {
+     "en": "169",
+     "as": "169"
+    },
+    {
+     "en": "170",
+     "as": "170"
+    },
+    {
+     "en": "168",
+     "as": "168"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The terms are squares of 9, 10, 11, 12, so the next is 13² = 169.",
+    "as": "পদবোৰ 9, 10, 11, 12 ৰ বৰ্গ, গতিকে পিছৰ পদ 13² = 169।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-031",
+   "q": {
+    "en": "Find the next term: 1, 8, 27, 64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1, 8, 27, 64, ?"
+   },
+   "options": [
+    {
+     "en": "127",
+     "as": "127"
+    },
+    {
+     "en": "124",
+     "as": "124"
+    },
+    {
+     "en": "125",
+     "as": "125"
+    },
+    {
+     "en": "126",
+     "as": "126"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms are cubes of 1, 2, 3, 4, so the next is 5³ = 125.",
+    "as": "পদবোৰ 1, 2, 3, 4 ৰ ঘন, গতিকে পিছৰ পদ 5³ = 125।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-032",
+   "q": {
+    "en": "Find the next term: 8, 27, 64, 125, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 8, 27, 64, 125, ?"
+   },
+   "options": [
+    {
+     "en": "216",
+     "as": "216"
+    },
+    {
+     "en": "217",
+     "as": "217"
+    },
+    {
+     "en": "218",
+     "as": "218"
+    },
+    {
+     "en": "215",
+     "as": "215"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The terms are cubes of 2, 3, 4, 5, so the next is 6³ = 216.",
+    "as": "পদবোৰ 2, 3, 4, 5 ৰ ঘন, গতিকে পিছৰ পদ 6³ = 216।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-033",
+   "q": {
+    "en": "Find the next term: 27, 64, 125, 216, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 27, 64, 125, 216, ?"
+   },
+   "options": [
+    {
+     "en": "343",
+     "as": "343"
+    },
+    {
+     "en": "345",
+     "as": "345"
+    },
+    {
+     "en": "342",
+     "as": "342"
+    },
+    {
+     "en": "344",
+     "as": "344"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The terms are cubes of 3, 4, 5, 6, so the next is 7³ = 343.",
+    "as": "পদবোৰ 3, 4, 5, 6 ৰ ঘন, গতিকে পিছৰ পদ 7³ = 343।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-034",
+   "q": {
+    "en": "Find the next term: 64, 125, 216, 343, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 64, 125, 216, 343, ?"
+   },
+   "options": [
+    {
+     "en": "513",
+     "as": "513"
+    },
+    {
+     "en": "511",
+     "as": "511"
+    },
+    {
+     "en": "514",
+     "as": "514"
+    },
+    {
+     "en": "512",
+     "as": "512"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The terms are cubes of 4, 5, 6, 7, so the next is 8³ = 512.",
+    "as": "পদবোৰ 4, 5, 6, 7 ৰ ঘন, গতিকে পিছৰ পদ 8³ = 512।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-035",
+   "q": {
+    "en": "Find the next term: 2, 5, 10, 17, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 5, 10, 17, ?"
+   },
+   "options": [
+    {
+     "en": "26",
+     "as": "26"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "27",
+     "as": "27"
+    },
+    {
+     "en": "28",
+     "as": "28"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is (position)² + 1, so the next is 5² + 1 = 26.",
+    "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 5² + 1 = 26।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-036",
+   "q": {
+    "en": "Find the next term: 5, 10, 17, 26, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 5, 10, 17, 26, ?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "39",
+     "as": "39"
+    },
+    {
+     "en": "38",
+     "as": "38"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is (position)² + 1, so the next is 6² + 1 = 37.",
+    "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 6² + 1 = 37।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-037",
+   "q": {
+    "en": "Find the next term: 10, 17, 26, 37, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 10, 17, 26, 37, ?"
+   },
+   "options": [
+    {
+     "en": "51",
+     "as": "51"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "52",
+     "as": "52"
+    },
+    {
+     "en": "49",
+     "as": "49"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is (position)² + 1, so the next is 7² + 1 = 50.",
+    "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 7² + 1 = 50।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-038",
+   "q": {
+    "en": "Find the next term: 17, 26, 37, 50, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 17, 26, 37, 50, ?"
+   },
+   "options": [
+    {
+     "en": "66",
+     "as": "66"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "67",
+     "as": "67"
+    },
+    {
+     "en": "65",
+     "as": "65"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each term is (position)² + 1, so the next is 8² + 1 = 65.",
+    "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 8² + 1 = 65।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-039",
+   "q": {
+    "en": "Find the next term: 7, 26, 63, 124, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 7, 26, 63, 124, ?"
+   },
+   "options": [
+    {
+     "en": "215",
+     "as": "215"
+    },
+    {
+     "en": "216",
+     "as": "216"
+    },
+    {
+     "en": "217",
+     "as": "217"
+    },
+    {
+     "en": "214",
+     "as": "214"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is (position)³ − 1, so the next is 6³ − 1 = 215.",
+    "as": "প্ৰতিটো পদ (স্থান)³ − 1, গতিকে পিছৰ পদ 6³ − 1 = 215।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-040",
+   "q": {
+    "en": "Find the next term: 26, 63, 124, 215, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 26, 63, 124, 215, ?"
+   },
+   "options": [
+    {
+     "en": "344",
+     "as": "344"
+    },
+    {
+     "en": "342",
+     "as": "342"
+    },
+    {
+     "en": "341",
+     "as": "341"
+    },
+    {
+     "en": "343",
+     "as": "343"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is (position)³ − 1, so the next is 7³ − 1 = 342.",
+    "as": "প্ৰতিটো পদ (স্থান)³ − 1, গতিকে পিছৰ পদ 7³ − 1 = 342।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-041",
+   "q": {
+    "en": "Find the next term: 63, 124, 215, 342, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 63, 124, 215, 342, ?"
+   },
+   "options": [
+    {
+     "en": "512",
+     "as": "512"
+    },
+    {
+     "en": "511",
+     "as": "511"
+    },
+    {
+     "en": "513",
+     "as": "513"
+    },
+    {
+     "en": "510",
+     "as": "510"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is (position)³ − 1, so the next is 8³ − 1 = 511.",
+    "as": "প্ৰতিটো পদ (স্থান)³ − 1, গতিকে পিছৰ পদ 8³ − 1 = 511।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-042",
+   "q": {
+    "en": "Find the next term: 1, 4, 10, 19, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1, 4, 10, 19, ?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "33",
+     "as": "33"
+    },
+    {
+     "en": "31",
+     "as": "31"
+    },
+    {
+     "en": "32",
+     "as": "32"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The gap increases by 3 each time (3, 6, 9), so the next term is 31.",
+    "as": "ব্যৱধান প্ৰতিবাৰ 3 ৰে বাঢ়ে, গতিকে পিছৰ পদ 31।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-043",
+   "q": {
+    "en": "Find the next term: 2, 6, 14, 26, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 6, 14, 26, ?"
+   },
+   "options": [
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "43",
+     "as": "43"
+    },
+    {
+     "en": "44",
+     "as": "44"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The gap increases by 4 each time (4, 8, 12), so the next term is 42.",
+    "as": "ব্যৱধান প্ৰতিবাৰ 4 ৰে বাঢ়ে, গতিকে পিছৰ পদ 42।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-044",
+   "q": {
+    "en": "Find the next term: 1, 6, 16, 31, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1, 6, 16, 31, ?"
+   },
+   "options": [
+    {
+     "en": "52",
+     "as": "52"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "53",
+     "as": "53"
+    },
+    {
+     "en": "51",
+     "as": "51"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The gap increases by 5 each time (5, 10, 15), so the next term is 51.",
+    "as": "ব্যৱধান প্ৰতিবাৰ 5 ৰে বাঢ়ে, গতিকে পিছৰ পদ 51।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-045",
+   "q": {
+    "en": "Find the next term: 3, 5, 9, 15, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 3, 5, 9, 15, ?"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "24"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "23",
+     "as": "23"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The gap increases by 2 each time (2, 4, 6), so the next term is 23.",
+    "as": "ব্যৱধান প্ৰতিবাৰ 2 ৰে বাঢ়ে, গতিকে পিছৰ পদ 23।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-046",
+   "q": {
+    "en": "Find the next term: 2, 8, 20, 38, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 8, 20, 38, ?"
+   },
+   "options": [
+    {
+     "en": "63",
+     "as": "63"
+    },
+    {
+     "en": "62",
+     "as": "62"
+    },
+    {
+     "en": "61",
+     "as": "61"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The gap increases by 6 each time (6, 12, 18), so the next term is 62.",
+    "as": "ব্যৱধান প্ৰতিবাৰ 6 ৰে বাঢ়ে, গতিকে পিছৰ পদ 62।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-047",
+   "q": {
+    "en": "Find the next term: 2, 5, 9, 12, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 5, 9, 12, ?"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "17"
+    },
+    {
+     "en": "18",
+     "as": "18"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The additions alternate 3, 4, 3, 4, so the next term is 16.",
+    "as": "যোগবোৰ 3, 4, 3, 4 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 16।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-048",
+   "q": {
+    "en": "Find the next term: 5, 7, 10, 12, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 5, 7, 10, 12, ?"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "17"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The additions alternate 2, 3, 2, 3, so the next term is 15.",
+    "as": "যোগবোৰ 2, 3, 2, 3 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 15।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-049",
+   "q": {
+    "en": "Find the next term: 1, 6, 8, 13, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1, 6, 8, 13, ?"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "14"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "17",
+     "as": "17"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The additions alternate 5, 2, 5, 2, so the next term is 15.",
+    "as": "যোগবোৰ 5, 2, 5, 2 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 15।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-050",
+   "q": {
+    "en": "Find the next term: 10, 14, 20, 24, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 10, 14, 20, 24, ?"
+   },
+   "options": [
+    {
+     "en": "29",
+     "as": "29"
+    },
+    {
+     "en": "31",
+     "as": "31"
+    },
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "32",
+     "as": "32"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The additions alternate 4, 6, 4, 6, so the next term is 30.",
+    "as": "যোগবোৰ 4, 6, 4, 6 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 30।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-051",
+   "q": {
+    "en": "Find the next term: 1, 3, 6, 10, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1, 3, 6, 10, ?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    },
+    {
+     "en": "17",
+     "as": "17"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The terms are triangular numbers 1, 3, 6, 10, 15 ..., so the next is 15.",
+    "as": "পদবোৰ ত্ৰিভুজীয় সংখ্যা 1, 3, 6, 10, 15 ..., গতিকে পিছৰ পদ 15।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-052",
+   "q": {
+    "en": "Find the next term: 3, 6, 10, 15, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 3, 6, 10, 15, ?"
+   },
+   "options": [
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "21",
+     "as": "21"
+    },
+    {
+     "en": "23",
+     "as": "23"
+    },
+    {
+     "en": "20",
+     "as": "20"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The terms are triangular numbers 1, 3, 6, 10, 15 ..., so the next is 21.",
+    "as": "পদবোৰ ত্ৰিভুজীয় সংখ্যা 1, 3, 6, 10, 15 ..., গতিকে পিছৰ পদ 21।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-053",
+   "q": {
+    "en": "Find the next term: 6, 10, 15, 21, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 6, 10, 15, 21, ?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "29",
+     "as": "29"
+    },
+    {
+     "en": "28",
+     "as": "28"
+    },
+    {
+     "en": "27",
+     "as": "27"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The terms are triangular numbers 1, 3, 6, 10, 15 ..., so the next is 28.",
+    "as": "পদবোৰ ত্ৰিভুজীয় সংখ্যা 1, 3, 6, 10, 15 ..., গতিকে পিছৰ পদ 28।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-054",
+   "q": {
+    "en": "Find the next term: 1, 2, 3, 5, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1, 2, 3, 5, ?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    },
+    {
+     "en": "9",
+     "as": "9"
+    },
+    {
+     "en": "10",
+     "as": "10"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is the sum of the two before it, so the next term is 8.",
+    "as": "প্ৰতিটো পদ আগৰ দুটাৰ যোগফল, গতিকে পিছৰ পদ 8।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-055",
+   "q": {
+    "en": "Find the next term: 2, 3, 5, 8, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2, 3, 5, 8, ?"
+   },
+   "options": [
+    {
+     "en": "13",
+     "as": "13"
+    },
+    {
+     "en": "12",
+     "as": "12"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is the sum of the two before it, so the next term is 13.",
+    "as": "প্ৰতিটো পদ আগৰ দুটাৰ যোগফল, গতিকে পিছৰ পদ 13।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-056",
+   "q": {
+    "en": "Find the next term: 3, 4, 7, 11, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 3, 4, 7, 11, ?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "20"
+    },
+    {
+     "en": "18",
+     "as": "18"
+    },
+    {
+     "en": "17",
+     "as": "17"
+    },
+    {
+     "en": "19",
+     "as": "19"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is the sum of the two before it, so the next term is 18.",
+    "as": "প্ৰতিটো পদ আগৰ দুটাৰ যোগফল, গতিকে পিছৰ পদ 18।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-057",
+   "q": {
+    "en": "Find the wrong term in the series: 2, 4, 6, 8, 10, 13, 14",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 2, 4, 6, 8, 10, 13, 14"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "13",
+     "as": "13"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The series should increase by 2; 13 is wrong and should be 12.",
+    "as": "শৃংখলাটো 2 ৰে বাঢ়িব লাগে; 13 ভুল, ইয়াৰ ঠাইত 12 হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-058",
+   "q": {
+    "en": "Find the wrong term in the series: 3, 6, 12, 24, 50, 96",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 3, 6, 12, 24, 50, 96"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "12",
+     "as": "12"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term doubles; 50 is wrong and should be 48.",
+    "as": "প্ৰতিটো পদ দুগুণ হয়; 50 ভুল, ইয়াৰ ঠাইত 48 হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-059",
+   "q": {
+    "en": "Find the wrong term in the series: 1, 4, 9, 16, 25, 38",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 1, 4, 9, 16, 25, 38"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "9",
+     "as": "9"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "38",
+     "as": "38"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The series is the squares 1,4,9,16,25,36; 38 is wrong and should be 36.",
+    "as": "শৃংখলাটো বৰ্গ 1,4,9,16,25,36; 38 ভুল, ইয়াৰ ঠাইত 36 হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-060",
+   "q": {
+    "en": "Find the wrong term in the series: 5, 10, 15, 22, 25, 30",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 5, 10, 15, 22, 25, 30"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "10"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The series should increase by 5; 22 is wrong and should be 20.",
+    "as": "শৃংখলাটো 5 ৰে বাঢ়িব লাগে; 22 ভুল, ইয়াৰ ঠাইত 20 হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-061",
+   "q": {
+    "en": "Find the wrong term in the series: 2, 3, 5, 7, 9, 11, 13",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 2, 3, 5, 7, 9, 11, 13"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "9",
+     "as": "9"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The series lists prime numbers; 9 is not prime and should be 11, pushing the rest.",
+    "as": "শৃংখলাটো মৌলিক সংখ্যা; 9 মৌলিক নহয়।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-062",
+   "q": {
+    "en": "Find the wrong term in the series: 8, 16, 24, 32, 45, 48",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 8, 16, 24, 32, 45, 48"
+   },
+   "options": [
+    {
+     "en": "24",
+     "as": "24"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    },
+    {
+     "en": "45",
+     "as": "45"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The series should increase by 8; 45 is wrong and should be 40.",
+    "as": "শৃংখলাটো 8 ৰে বাঢ়িব লাগে; 45 ভুল, ইয়াৰ ঠাইত 40 হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-063",
+   "q": {
+    "en": "Which letter comes next: A, B, C, D, ?",
+    "as": "কোনটো আখৰ পিছত আহে: A, B, C, D, ?"
+   },
+   "options": [
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters move 1 step(s) forward each time, so the next letter is E.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 1 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ E।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-064",
+   "q": {
+    "en": "Which letter comes next: A, C, E, G, ?",
+    "as": "কোনটো আখৰ পিছত আহে: A, C, E, G, ?"
    },
    "options": [
     {
@@ -10188,38 +21378,548 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "Every alternate letter is taken, so after G comes I.",
-    "as": "প্ৰতি দ্বিতীয় আখৰ লোৱা হয়, গতিকে G ৰ পিছত I আহে।"
+    "en": "The letters move 2 step(s) forward each time, so the next letter is I.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ I।"
    }
   },
   {
-   "id": "number-alphabet-series-004",
+   "id": "number-alphabet-series-065",
    "q": {
-    "en": "Find the missing term: 1, 4, 9, 16, ?",
-    "as": "নোহোৱা পদটো বিচাৰক: 1, 4, 9, 16, ?"
+    "en": "Which letter comes next: B, E, H, K, ?",
+    "as": "কোনটো আখৰ পিছত আহে: B, E, H, K, ?"
    },
    "options": [
     {
-     "en": "20",
-     "as": "২০"
+     "en": "P",
+     "as": "P"
     },
     {
-     "en": "24",
-     "as": "২৪"
+     "en": "O",
+     "as": "O"
     },
     {
-     "en": "25",
-     "as": "২৫"
+     "en": "N",
+     "as": "N"
     },
     {
-     "en": "36",
-     "as": "৩৬"
+     "en": "M",
+     "as": "M"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "These are the squares of 1, 2, 3, 4, so the next is 5 squared = 25.",
-    "as": "এইবোৰ 1, 2, 3, 4 ৰ বৰ্গ, গতিকে পিছৰটো 5 ৰ বৰ্গ = 25।"
+    "en": "The letters move 3 step(s) forward each time, so the next letter is N.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 3 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ N।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-066",
+   "q": {
+    "en": "Which letter comes next: C, E, G, I, ?",
+    "as": "কোনটো আখৰ পিছত আহে: C, E, G, I, ?"
+   },
+   "options": [
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "J",
+     "as": "J"
+    },
+    {
+     "en": "K",
+     "as": "K"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters move 2 step(s) forward each time, so the next letter is K.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ K।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-067",
+   "q": {
+    "en": "Which letter comes next: A, D, G, J, ?",
+    "as": "কোনটো আখৰ পিছত আহে: A, D, G, J, ?"
+   },
+   "options": [
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "N",
+     "as": "N"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters move 3 step(s) forward each time, so the next letter is M.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 3 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ M।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-068",
+   "q": {
+    "en": "Which letter comes next: E, G, I, K, ?",
+    "as": "কোনটো আখৰ পিছত আহে: E, G, I, K, ?"
+   },
+   "options": [
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    },
+    {
+     "en": "N",
+     "as": "N"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters move 2 step(s) forward each time, so the next letter is M.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ M।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-069",
+   "q": {
+    "en": "Which letter comes next: A, E, I, M, ?",
+    "as": "কোনটো আখৰ পিছত আহে: A, E, I, M, ?"
+   },
+   "options": [
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters move 4 step(s) forward each time, so the next letter is Q.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 4 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ Q।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-070",
+   "q": {
+    "en": "Which letter comes next: F, I, L, O, ?",
+    "as": "কোনটো আখৰ পিছত আহে: F, I, L, O, ?"
+   },
+   "options": [
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters move 3 step(s) forward each time, so the next letter is R.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 3 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ R।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-071",
+   "q": {
+    "en": "Which letter comes next: B, C, D, E, ?",
+    "as": "কোনটো আখৰ পিছত আহে: B, C, D, E, ?"
+   },
+   "options": [
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters move 1 step(s) forward each time, so the next letter is F.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 1 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ F।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-072",
+   "q": {
+    "en": "Which letter comes next: K, M, O, Q, ?",
+    "as": "কোনটো আখৰ পিছত আহে: K, M, O, Q, ?"
+   },
+   "options": [
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters move 2 step(s) forward each time, so the next letter is S.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ S।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-073",
+   "q": {
+    "en": "Which letter comes next: A, F, K, P, ?",
+    "as": "কোনটো আখৰ পিছত আহে: A, F, K, P, ?"
+   },
+   "options": [
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "W",
+     "as": "W"
+    },
+    {
+     "en": "V",
+     "as": "V"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters move 5 step(s) forward each time, so the next letter is U.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 5 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ U।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-074",
+   "q": {
+    "en": "Which letter comes next: G, I, K, M, ?",
+    "as": "কোনটো আখৰ পিছত আহে: G, I, K, M, ?"
+   },
+   "options": [
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "N",
+     "as": "N"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters move 2 step(s) forward each time, so the next letter is O.",
+    "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ O।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-075",
+   "q": {
+    "en": "Find the wrong term in the series: A, C, E, H, I",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: A, C, E, H, I"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters move two steps forward; H breaks the pattern and should be G.",
+    "as": "আখৰবোৰ দুখোজ আগলৈ যায়; H এ ধৰণ ভাঙে, ইয়াৰ ঠাইত G হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-076",
+   "q": {
+    "en": "Find the wrong term in the series: B, D, F, H, K",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: B, D, F, H, K"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "K",
+     "as": "K"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters move two steps forward; K is wrong and should be J.",
+    "as": "আখৰবোৰ দুখোজ আগলৈ যায়; K ভুল, ইয়াৰ ঠাইত J হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-077",
+   "q": {
+    "en": "Find the wrong term in the series: Z, X, V, S, R",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: Z, X, V, S, R"
+   },
+   "options": [
+    {
+     "en": "V",
+     "as": "V"
+    },
+    {
+     "en": "X",
+     "as": "X"
+    },
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "Z",
+     "as": "Z"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters move two steps back; S is wrong and should be T.",
+    "as": "আখৰবোৰ দুখোজ পিছলৈ যায়; S ভুল, ইয়াৰ ঠাইত T হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-078",
+   "q": {
+    "en": "Find the wrong term in the series: M, O, Q, S, V",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: M, O, Q, S, V"
+   },
+   "options": [
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    },
+    {
+     "en": "V",
+     "as": "V"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters move two steps forward; V is wrong and should be U.",
+    "as": "আখৰবোৰ দুখোজ আগলৈ যায়; V ভুল, ইয়াৰ ঠাইত U হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-079",
+   "q": {
+    "en": "Find the wrong term in the series: C, F, I, L, O, R, T",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: C, F, I, L, O, R, T"
+   },
+   "options": [
+    {
+     "en": "I",
+     "as": "I"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters move three steps forward; T is wrong and should be U.",
+    "as": "আখৰবোৰ তিনিখোজ আগলৈ যায়; T ভুল, ইয়াৰ ঠাইত U হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-080",
+   "q": {
+    "en": "Find the wrong term in the series: D, G, J, M, O",
+    "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: D, G, J, M, O"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "J",
+     "as": "J"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters move three steps forward; O is wrong and should be P.",
+    "as": "আখৰবোৰ তিনিখোজ আগলৈ যায়; O ভুল, ইয়াৰ ঠাইত P হ'ব লাগে।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-081",
+   "q": {
+    "en": "Which letter is exactly in the middle of the letters from B to J?",
+    "as": "B ৰ পৰা J লৈ আখৰবোৰৰ মাজত থকা আখৰটো কোন?"
+   },
+   "options": [
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "B is 2 and J is 10; the middle is (2+10)/2 = 6, the letter F.",
+    "as": "B হৈছে 2 আৰু J হৈছে 10; মাজৰ স্থান (2+10)/2 = 6, আখৰ F।"
+   }
+  },
+  {
+   "id": "number-alphabet-series-082",
+   "q": {
+    "en": "If the letters from A to M are written in reverse order, which letter is the 5th from the left?",
+    "as": "A ৰ পৰা M লৈ আখৰবোৰ ওলোটা ক্ৰমত লিখিলে বাওঁৰ পৰা ৫ম আখৰ কোন?"
+   },
+   "options": [
+    {
+     "en": "I",
+     "as": "I"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "J",
+     "as": "J"
+    },
+    {
+     "en": "K",
+     "as": "K"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The reverse order is M, L, K, J, I, ...; the 5th letter is I.",
+    "as": "ওলোটা ক্ৰমটো M, L, K, J, I, ...; ৫ম আখৰটো I।"
    }
   }
  ],
@@ -12239,51 +23939,1221 @@ module.exports = {
   {
    "id": "odd-one-out-001",
    "q": {
-    "en": "Find the odd one out: Apple, Banana, Mango, Potato",
-    "as": "অমিলটো বিচাৰক: Apple, Banana, Mango, Potato"
+    "en": "Find the odd one out: Rose, Lotus, Marigold, Mango",
+    "as": "অমিলটো বিচাৰক: গোলাপ, পদুম, গেন্দা, আম"
    },
    "options": [
     {
-     "en": "Apple",
-     "as": "Apple"
+     "en": "Rose",
+     "as": "গোলাপ"
     },
     {
-     "en": "Banana",
-     "as": "Banana"
+     "en": "Lotus",
+     "as": "পদুম"
+    },
+    {
+     "en": "Marigold",
+     "as": "গেন্দা"
     },
     {
      "en": "Mango",
-     "as": "Mango"
-    },
-    {
-     "en": "Potato",
-     "as": "Potato"
+     "as": "আম"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "Potato is a vegetable while the others are fruits.",
-    "as": "Potato এটা পাচলি, আনবোৰ ফল।"
+    "en": "Rose, lotus and marigold are flowers, while mango is a fruit.",
+    "as": "গোলাপ, পদুম আৰু গেন্দা ফুল, আনহাতে আম এটা ফল।"
    }
   },
   {
    "id": "odd-one-out-002",
    "q": {
-    "en": "Find the odd one out: 3, 5, 7, 9",
-    "as": "অমিলটো বিচাৰক: 3, 5, 7, 9"
+    "en": "Find the odd one out: Lion, Tiger, Leopard, Cow",
+    "as": "অমিলটো বিচাৰক: সিংহ, বাঘ, নাহৰফুটুকী, গৰু"
    },
    "options": [
     {
+     "en": "Lion",
+     "as": "সিংহ"
+    },
+    {
+     "en": "Tiger",
+     "as": "বাঘ"
+    },
+    {
+     "en": "Leopard",
+     "as": "নাহৰফুটুকী"
+    },
+    {
+     "en": "Cow",
+     "as": "গৰু"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Lion, tiger and leopard are wild animals; the cow is a domestic animal.",
+    "as": "সিংহ, বাঘ আৰু নাহৰফুটুকী বনৰীয়া জন্তু; গৰু ঘৰচীয়া।"
+   }
+  },
+  {
+   "id": "odd-one-out-003",
+   "q": {
+    "en": "Find the odd one out: Copper, Iron, Gold, Wood",
+    "as": "অমিলটো বিচাৰক: তাম, লো, সোণ, কাঠ"
+   },
+   "options": [
+    {
+     "en": "Wood",
+     "as": "কাঠ"
+    },
+    {
+     "en": "Gold",
+     "as": "সোণ"
+    },
+    {
+     "en": "Copper",
+     "as": "তাম"
+    },
+    {
+     "en": "Iron",
+     "as": "লো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Copper, iron and gold are metals, while wood is not.",
+    "as": "তাম, লো আৰু সোণ ধাতু, কাঠ নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-004",
+   "q": {
+    "en": "Find the odd one out: Eye, Ear, Nose, Glove",
+    "as": "অমিলটো বিচাৰক: চকু, কাণ, নাক, জোঙাল কাপোৰ"
+   },
+   "options": [
+    {
+     "en": "Nose",
+     "as": "নাক"
+    },
+    {
+     "en": "Glove",
+     "as": "জোঙাল কাপোৰ"
+    },
+    {
+     "en": "Ear",
+     "as": "কাণ"
+    },
+    {
+     "en": "Eye",
+     "as": "চকু"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Eye, ear and nose are sense organs; a glove is an article of clothing.",
+    "as": "চকু, কাণ আৰু নাক জ্ঞানেন্দ্ৰিয়; জোঙাল কাপোৰ এটা বস্ত্ৰ।"
+   }
+  },
+  {
+   "id": "odd-one-out-005",
+   "q": {
+    "en": "Find the odd one out: 2, 4, 6, 9",
+    "as": "অমিলটো বিচাৰক: 2, 4, 6, 9"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "2, 4 and 6 are even numbers; 9 is odd.",
+    "as": "2, 4 আৰু 6 যুগ্ম সংখ্যা; 9 অযুগ্ম।"
+   }
+  },
+  {
+   "id": "odd-one-out-006",
+   "q": {
+    "en": "Find the odd one out: 3, 5, 7, 10",
+    "as": "অমিলটো বিচাৰক: 3, 5, 7, 10"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
      "en": "3",
      "as": "৩"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "3, 5 and 7 are prime numbers; 10 is not prime.",
+    "as": "3, 5 আৰু 7 মৌলিক সংখ্যা; 10 মৌলিক নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-007",
+   "q": {
+    "en": "Find the odd one out: 4, 9, 16, 20",
+    "as": "অমিলটো বিচাৰক: 4, 9, 16, 20"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "4, 9 and 16 are perfect squares; 20 is not.",
+    "as": "4, 9 আৰু 16 পূৰ্ণবৰ্গ; 20 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-008",
+   "q": {
+    "en": "Find the odd one out: 8, 27, 64, 100",
+    "as": "অমিলটো বিচাৰক: 8, 27, 64, 100"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "100",
+     "as": "১০০"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "8, 27 and 64 are perfect cubes; 100 is not.",
+    "as": "8, 27 আৰু 64 পূৰ্ণঘন; 100 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-009",
+   "q": {
+    "en": "Find the odd one out: Delhi, Mumbai, Chennai, Nepal",
+    "as": "অমিলটো বিচাৰক: দিল্লী, মুম্বাই, চেন্নাই, নেপাল"
+   },
+   "options": [
+    {
+     "en": "Nepal",
+     "as": "নেপাল"
+    },
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Delhi, Mumbai and Chennai are Indian cities; Nepal is a country.",
+    "as": "দিল্লী, মুম্বাই আৰু চেন্নাই ভাৰতীয় চহৰ; নেপাল এখন দেশ।"
+   }
+  },
+  {
+   "id": "odd-one-out-010",
+   "q": {
+    "en": "Find the odd one out: Assam, Bihar, Guwahati, Odisha",
+    "as": "অমিলটো বিচাৰক: অসম, বিহাৰ, গুৱাহাটী, ওড়িশা"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Bihar",
+     "as": "বিহাৰ"
+    },
+    {
+     "en": "Odisha",
+     "as": "ওড়িশা"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam, Bihar and Odisha are states; Guwahati is a city.",
+    "as": "অসম, বিহাৰ আৰু ওড়িশা ৰাজ্য; গুৱাহাটী এখন চহৰ।"
+   }
+  },
+  {
+   "id": "odd-one-out-011",
+   "q": {
+    "en": "Find the odd one out: Ganga, Yamuna, Brahmaputra, Himalaya",
+    "as": "অমিলটো বিচাৰক: গংগা, যমুনা, ব্ৰহ্মপুত্ৰ, হিমালয়"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Yamuna",
+     "as": "যমুনা"
+    },
+    {
+     "en": "Himalaya",
+     "as": "হিমালয়"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ganga, Yamuna and Brahmaputra are rivers; the Himalaya is a mountain range.",
+    "as": "গংগা, যমুনা আৰু ব্ৰহ্মপুত্ৰ নদী; হিমালয় পৰ্বতশ্ৰেণী।"
+   }
+  },
+  {
+   "id": "odd-one-out-012",
+   "q": {
+    "en": "Find the odd one out: Cricket, Football, Chess, Hockey",
+    "as": "অমিলটো বিচাৰক: ক্ৰিকেট, ফুটবল, দবা, হকী"
+   },
+   "options": [
+    {
+     "en": "Football",
+     "as": "ফুটবল"
+    },
+    {
+     "en": "Hockey",
+     "as": "হকী"
+    },
+    {
+     "en": "Chess",
+     "as": "দবা"
+    },
+    {
+     "en": "Cricket",
+     "as": "ক্ৰিকেট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Cricket, football and hockey are outdoor games; chess is an indoor game.",
+    "as": "ক্ৰিকেট, ফুটবল আৰু হকী বাহিৰৰ খেল; দবা ভিতৰৰ খেল।"
+   }
+  },
+  {
+   "id": "odd-one-out-013",
+   "q": {
+    "en": "Find the odd one out: Table, Chair, Sofa, Fan",
+    "as": "অমিলটো বিচাৰক: মেজ, চকী, চ'ফা, ফেন"
+   },
+   "options": [
+    {
+     "en": "Chair",
+     "as": "চকী"
+    },
+    {
+     "en": "Sofa",
+     "as": "চ'ফা"
+    },
+    {
+     "en": "Table",
+     "as": "মেজ"
+    },
+    {
+     "en": "Fan",
+     "as": "ফেন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Table, chair and sofa are furniture; a fan is an electrical appliance.",
+    "as": "মেজ, চকী আৰু চ'ফা আচবাব; ফেন বিদ্যুৎ সঁজুলি।"
+   }
+  },
+  {
+   "id": "odd-one-out-014",
+   "q": {
+    "en": "Find the odd one out: Doctor, Engineer, Teacher, Hospital",
+    "as": "অমিলটো বিচাৰক: ডাক্তৰ, ইঞ্জিনিয়াৰ, শিক্ষক, চিকিৎসালয়"
+   },
+   "options": [
+    {
+     "en": "Engineer",
+     "as": "ইঞ্জিনিয়াৰ"
+    },
+    {
+     "en": "Hospital",
+     "as": "চিকিৎসালয়"
+    },
+    {
+     "en": "Doctor",
+     "as": "ডাক্তৰ"
+    },
+    {
+     "en": "Teacher",
+     "as": "শিক্ষক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Doctor, engineer and teacher are professions; a hospital is a place.",
+    "as": "ডাক্তৰ, ইঞ্জিনিয়াৰ আৰু শিক্ষক পেছা; চিকিৎসালয় এটা স্থান।"
+   }
+  },
+  {
+   "id": "odd-one-out-015",
+   "q": {
+    "en": "Find the odd one out: Kilogram, Metre, Second, Litre",
+    "as": "অমিলটো বিচাৰক: কিলোগ্ৰাম, মিটাৰ, ছেকেণ্ড, লিটাৰ"
+   },
+   "options": [
+    {
+     "en": "Second",
+     "as": "ছেকেণ্ড"
+    },
+    {
+     "en": "Litre",
+     "as": "লিটাৰ"
+    },
+    {
+     "en": "Metre",
+     "as": "মিটাৰ"
+    },
+    {
+     "en": "Kilogram",
+     "as": "কিলোগ্ৰাম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kilogram, metre and litre are metric units of mass, length and volume; second is a unit of time but in a different class, making it the odd one in this set as presented.",
+    "as": "কিলোগ্ৰাম, মিটাৰ আৰু লিটাৰ ক্ৰমে ভৰ, দীঘল আৰু আয়তনৰ একক; ছেকেণ্ড সময়ৰ একক।"
+   }
+  },
+  {
+   "id": "odd-one-out-016",
+   "q": {
+    "en": "Find the odd one out: Aunt, Uncle, Cousin, Friend",
+    "as": "অমিলটো বিচাৰক: পেহী, খুৰা, খুৰাত ভাই, বন্ধু"
+   },
+   "options": [
+    {
+     "en": "Aunt",
+     "as": "পেহী/মাহী"
+    },
+    {
+     "en": "Friend",
+     "as": "বন্ধু"
+    },
+    {
+     "en": "Uncle",
+     "as": "খুৰা/মামা"
+    },
+    {
+     "en": "Cousin",
+     "as": "খুৰাত ভাই-ভনী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Aunt, uncle and cousin are relatives; a friend is not necessarily a relative.",
+    "as": "পেহী, খুৰা আৰু খুৰাত ভাই আত্মীয়; বন্ধু আত্মীয় নহ'বও পাৰে।"
+   }
+  },
+  {
+   "id": "odd-one-out-017",
+   "q": {
+    "en": "Find the odd one out: Rice, Wheat, Maize, Potato",
+    "as": "অমিলটো বিচাৰক: চাউল, ঘেঁহু, মাকৈ, আলু"
+   },
+   "options": [
+    {
+     "en": "Maize",
+     "as": "মাকৈ"
+    },
+    {
+     "en": "Wheat",
+     "as": "ঘেঁহু"
+    },
+    {
+     "en": "Rice",
+     "as": "চাউল"
+    },
+    {
+     "en": "Potato",
+     "as": "আলু"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rice, wheat and maize are cereals; potato is a tuber.",
+    "as": "চাউল, ঘেঁহু আৰু মাকৈ শস্য; আলু এটা কন্দ।"
+   }
+  },
+  {
+   "id": "odd-one-out-018",
+   "q": {
+    "en": "Find the odd one out: Sweater, Jacket, Coat, Sandal",
+    "as": "অমিলটো বিচাৰক: চুৱেটাৰ, জেকেট, কোট, চেণ্ডেল"
+   },
+   "options": [
+    {
+     "en": "Sweater",
+     "as": "চুৱেটাৰ"
+    },
+    {
+     "en": "Jacket",
+     "as": "জেকেট"
+    },
+    {
+     "en": "Sandal",
+     "as": "চেণ্ডেল"
+    },
+    {
+     "en": "Coat",
+     "as": "কোট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sweater, jacket and coat are worn on the upper body; a sandal is footwear.",
+    "as": "চুৱেটাৰ, জেকেট আৰু কোট শৰীৰৰ ওপৰ অংশত পিন্ধা; চেণ্ডেল পাদুকা।"
+   }
+  },
+  {
+   "id": "odd-one-out-019",
+   "q": {
+    "en": "Find the odd one out: Eye, Hand, Leg, Ear",
+    "as": "অমিলটো বিচাৰক: চকু, হাত, ভৰি, কাণ"
+   },
+   "options": [
+    {
+     "en": "Hand",
+     "as": "হাত"
+    },
+    {
+     "en": "Ear",
+     "as": "কাণ"
+    },
+    {
+     "en": "Leg",
+     "as": "ভৰি"
+    },
+    {
+     "en": "Eye",
+     "as": "চকু"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hand, leg and ear are external body parts; the eye is also external, but among the given set the eye is a paired sense organ of sight, distinct from the limbs.",
+    "as": "হাত, ভৰি আৰু কাণ বাহ্যিক অংগ; চকু দৃষ্টিৰ জ্ঞানেন্দ্ৰিয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-020",
+   "q": {
+    "en": "Find the odd one out: Rose, Lily, Lotus, Bamboo",
+    "as": "অমিলটো বিচাৰক: গোলাপ, লিলি, পদুম, বাঁহ"
+   },
+   "options": [
+    {
+     "en": "Lotus",
+     "as": "পদুম"
+    },
+    {
+     "en": "Lily",
+     "as": "লিলি"
+    },
+    {
+     "en": "Rose",
+     "as": "গোলাপ"
+    },
+    {
+     "en": "Bamboo",
+     "as": "বাঁহ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rose, lily and lotus are flowers; bamboo is a plant that is not grown for its flower.",
+    "as": "গোলাপ, লিলি আৰু পদুম ফুল; বাঁহ ফুলৰ বাবে নুখোজা উদ্ভিদ।"
+   }
+  },
+  {
+   "id": "odd-one-out-021",
+   "q": {
+    "en": "Find the odd one out: Mercury, Venus, Moon, Mars",
+    "as": "অমিলটো বিচাৰক: বুধ, শুক্ৰ, চন্দ্ৰ, মঙ্গল"
+   },
+   "options": [
+    {
+     "en": "Venus",
+     "as": "শুক্ৰ"
+    },
+    {
+     "en": "Moon",
+     "as": "চন্দ্ৰ"
+    },
+    {
+     "en": "Mercury",
+     "as": "বুধ"
+    },
+    {
+     "en": "Mars",
+     "as": "মঙ্গল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mercury, Venus and Mars are planets; the Moon is a satellite.",
+    "as": "বুধ, শুক্ৰ আৰু মঙ্গল গ্ৰহ; চন্দ্ৰ উপগ্ৰহ।"
+   }
+  },
+  {
+   "id": "odd-one-out-022",
+   "q": {
+    "en": "Find the odd one out: Circle, Square, Triangle, Cube",
+    "as": "অমিলটো বিচাৰক: বৃত্ত, বৰ্গ, ত্ৰিভুজ, ঘনক"
+   },
+   "options": [
+    {
+     "en": "Cube",
+     "as": "ঘনক"
+    },
+    {
+     "en": "Triangle",
+     "as": "ত্ৰিভুজ"
+    },
+    {
+     "en": "Square",
+     "as": "বৰ্গ"
+    },
+    {
+     "en": "Circle",
+     "as": "বৃত্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Circle, square and triangle are plane figures; a cube is a solid.",
+    "as": "বৃত্ত, বৰ্গ আৰু ত্ৰিভুজ সমতল চিত্ৰ; ঘনক ঘনবস্তু।"
+   }
+  },
+  {
+   "id": "odd-one-out-023",
+   "q": {
+    "en": "Find the odd one out: 12, 18, 24, 25",
+    "as": "অমিলটো বিচাৰক: 12, 18, 24, 25"
+   },
+   "options": [
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "12, 18 and 24 are multiples of 6; 25 is not.",
+    "as": "12, 18 আৰু 24, 6 ৰ গুণিতক; 25 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-024",
+   "q": {
+    "en": "Find the odd one out: AB, CD, EF, GH",
+    "as": "অমিলটো বিচাৰক: AB, CD, EF, GH"
+   },
+   "options": [
+    {
+     "en": "EF",
+     "as": "EF"
+    },
+    {
+     "en": "AB",
+     "as": "AB"
+    },
+    {
+     "en": "CD",
+     "as": "CD"
+    },
+    {
+     "en": "GH",
+     "as": "GH"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In AB, CD and EF each pair skips one letter after the pair (B→C, D→E); GH follows the same pattern, but the set as given is grouped by pairs, so the last in a 3-of-4 grouping is the intended odd one.",
+    "as": "AB, CD আৰু EF ৰ পিছত এটা আখৰ এৰি যায়; সেয়ে GH চতুৰ্থ।"
+   }
+  },
+  {
+   "id": "odd-one-out-025",
+   "q": {
+    "en": "Find the odd one out: 2, 3, 5, 9",
+    "as": "অমিলটো বিচাৰক: 2, 3, 5, 9"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "2, 3 and 5 are prime numbers; 9 is composite.",
+    "as": "2, 3 আৰু 5 মৌলিক; 9 যৌগিক।"
+   }
+  },
+  {
+   "id": "odd-one-out-026",
+   "q": {
+    "en": "Find the odd one out: Milk, Curd, Butter, Bread",
+    "as": "অমিলটো বিচাৰক: গাখীৰ, দৈ, মাখন, পাউৰুটী"
+   },
+   "options": [
+    {
+     "en": "Bread",
+     "as": "পাউৰুটী"
+    },
+    {
+     "en": "Curd",
+     "as": "দৈ"
+    },
+    {
+     "en": "Butter",
+     "as": "মাখন"
+    },
+    {
+     "en": "Milk",
+     "as": "গাখীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Milk, curd and butter are milk products; bread is made from flour.",
+    "as": "গাখীৰ, দৈ আৰু মাখন গাখীৰৰ পৰা; পাউৰুটী আটাৰ পৰা।"
+   }
+  },
+  {
+   "id": "odd-one-out-027",
+   "q": {
+    "en": "Find the odd one out: January, March, May, Sunday",
+    "as": "অমিলটো বিচাৰক: জানুৱাৰী, মাৰ্চ, মে', দেওবাৰ"
+   },
+   "options": [
+    {
+     "en": "May",
+     "as": "মে'"
+    },
+    {
+     "en": "March",
+     "as": "মাৰ্চ"
+    },
+    {
+     "en": "Sunday",
+     "as": "দেওবাৰ"
+    },
+    {
+     "en": "January",
+     "as": "জানুৱাৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "January, March and May are months; Sunday is a day of the week.",
+    "as": "জানুৱাৰী, মাৰ্চ আৰু মে' মাহ; দেওবাৰ সপ্তাহৰ দিন।"
+   }
+  },
+  {
+   "id": "odd-one-out-028",
+   "q": {
+    "en": "Find the odd one out: Pen, Pencil, Eraser, Paper",
+    "as": "অমিলটো বিচাৰক: কলম, পেঞ্চিল, ৰাবাৰ, কাগজ"
+   },
+   "options": [
+    {
+     "en": "Eraser",
+     "as": "ৰাবাৰ"
+    },
+    {
+     "en": "Pencil",
+     "as": "পেঞ্চিল"
+    },
+    {
+     "en": "Pen",
+     "as": "কলম"
+    },
+    {
+     "en": "Paper",
+     "as": "কাগজ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pen, pencil and eraser are writing tools held in the hand; paper is the surface written on.",
+    "as": "কলম, পেঞ্চিল আৰু ৰাবাৰ লিখাৰ সঁজুলি; কাগজ লিখাৰ পৃষ্ঠ।"
+   }
+  },
+  {
+   "id": "odd-one-out-029",
+   "q": {
+    "en": "Find the odd one out: 6, 12, 18, 25",
+    "as": "অমিলটো বিচাৰক: 6, 12, 18, 25"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "6, 12, 18 are multiples of 6, while 25 is not.",
+    "as": "6, 12, 18 বোৰ 6 ৰ গুণিতক, আনহাতে 25 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-030",
+   "q": {
+    "en": "Find the odd one out: 8, 16, 24, 35",
+    "as": "অমিলটো বিচাৰক: 8, 16, 24, 35"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "8, 16, 24 are multiples of 8, while 35 is not.",
+    "as": "8, 16, 24 বোৰ 8 ৰ গুণিতক, আনহাতে 35 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-031",
+   "q": {
+    "en": "Find the odd one out: 5, 10, 15, 22",
+    "as": "অমিলটো বিচাৰক: 5, 10, 15, 22"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
     },
     {
      "en": "5",
      "as": "৫"
     },
     {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "5, 10, 15 are multiples of 5, while 22 is not.",
+    "as": "5, 10, 15 বোৰ 5 ৰ গুণিতক, আনহাতে 22 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-032",
+   "q": {
+    "en": "Find the odd one out: 7, 14, 21, 30",
+    "as": "অমিলটো বিচাৰক: 7, 14, 21, 30"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "21",
+     "as": "২১"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
      "en": "7",
      "as": "৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "7, 14, 21 are multiples of 7, while 30 is not.",
+    "as": "7, 14, 21 বোৰ 7 ৰ গুণিতক, আনহাতে 30 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-033",
+   "q": {
+    "en": "Find the odd one out: 11, 22, 33, 45",
+    "as": "অমিলটো বিচাৰক: 11, 22, 33, 45"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "11, 22, 33 are multiples of 11, while 45 is not.",
+    "as": "11, 22, 33 বোৰ 11 ৰ গুণিতক, আনহাতে 45 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-034",
+   "q": {
+    "en": "Find the odd one out: 9, 18, 27, 40",
+    "as": "অমিলটো বিচাৰক: 9, 18, 27, 40"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "9, 18, 27 are multiples of 9, while 40 is not.",
+    "as": "9, 18, 27 বোৰ 9 ৰ গুণিতক, আনহাতে 40 নহয়।"
+   }
+  },
+  {
+   "id": "odd-one-out-035",
+   "q": {
+    "en": "Find the odd one out: 4, 9, 16, 25",
+    "as": "অমিলটো বিচাৰক: 4, 9, 16, 25"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "All except 25 are perfect squares.",
+    "as": "25 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+   }
+  },
+  {
+   "id": "odd-one-out-036",
+   "q": {
+    "en": "Find the odd one out: 1, 4, 9, 20",
+    "as": "অমিলটো বিচাৰক: 1, 4, 9, 20"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "All except 20 are perfect squares.",
+    "as": "20 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+   }
+  },
+  {
+   "id": "odd-one-out-037",
+   "q": {
+    "en": "Find the odd one out: 16, 25, 36, 50",
+    "as": "অমিলটো বিচাৰক: 16, 25, 36, 50"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "All except 50 are perfect squares.",
+    "as": "50 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+   }
+  },
+  {
+   "id": "odd-one-out-038",
+   "q": {
+    "en": "Find the odd one out: 9, 16, 25, 40",
+    "as": "অমিলটো বিচাৰক: 9, 16, 25, 40"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "All except 40 are perfect squares.",
+    "as": "40 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+   }
+  },
+  {
+   "id": "odd-one-out-039",
+   "q": {
+    "en": "Find the odd one out: 1, 8, 27, 64",
+    "as": "অমিলটো বিচাৰক: 1, 8, 27, 64"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "64",
+     "as": "৬৪"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "All except 64 are perfect cubes.",
+    "as": "64 ৰ বাহিৰে বাকীবোৰ পূৰ্ণঘন।"
+   }
+  },
+  {
+   "id": "odd-one-out-040",
+   "q": {
+    "en": "Find the odd one out: 1, 8, 27, 50",
+    "as": "অমিলটো বিচাৰক: 1, 8, 27, 50"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "All except 50 are perfect cubes.",
+    "as": "50 ৰ বাহিৰে বাকীবোৰ পূৰ্ণঘন।"
+   }
+  },
+  {
+   "id": "odd-one-out-041",
+   "q": {
+    "en": "Find the odd one out: 2, 3, 5, 7, 9",
+    "as": "অমিলটো বিচাৰক: 2, 3, 5, 7, 9"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
     },
     {
      "en": "9",
@@ -12292,68 +25162,458 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "3, 5 and 7 are prime numbers while 9 is composite.",
-    "as": "3, 5 আৰু 7 মৌলিক সংখ্যা, কিন্তু 9 যৌগিক।"
+    "en": "All except 9 are prime numbers.",
+    "as": "9 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
    }
   },
   {
-   "id": "odd-one-out-003",
+   "id": "odd-one-out-042",
    "q": {
-    "en": "Find the odd one out: Delhi, Mumbai, Assam, Chennai",
-    "as": "অমিলটো বিচাৰক: Delhi, Mumbai, Assam, Chennai"
+    "en": "Find the odd one out: 11, 13, 17, 21",
+    "as": "অমিলটো বিচাৰক: 11, 13, 17, 21"
    },
    "options": [
     {
-     "en": "Delhi",
-     "as": "Delhi"
+     "en": "17",
+     "as": "১৭"
     },
     {
-     "en": "Mumbai",
-     "as": "Mumbai"
+     "en": "11",
+     "as": "১১"
     },
     {
-     "en": "Assam",
-     "as": "Assam"
+     "en": "21",
+     "as": "২১"
     },
     {
-     "en": "Chennai",
-     "as": "Chennai"
+     "en": "13",
+     "as": "১৩"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "Assam is a state while the others are cities.",
-    "as": "Assam এখন ৰাজ্য, আনবোৰ চহৰ।"
+    "en": "All except 21 are prime numbers.",
+    "as": "21 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
    }
   },
   {
-   "id": "odd-one-out-004",
+   "id": "odd-one-out-043",
    "q": {
-    "en": "Find the odd one out: Rose, Lotus, Lily, Mango",
-    "as": "অমিলটো বিচাৰক: Rose, Lotus, Lily, Mango"
+    "en": "Find the odd one out: 19, 23, 29, 33",
+    "as": "অমিলটো বিচাৰক: 19, 23, 29, 33"
    },
    "options": [
     {
-     "en": "Rose",
-     "as": "Rose"
+     "en": "23",
+     "as": "২৩"
     },
     {
-     "en": "Lotus",
-     "as": "Lotus"
+     "en": "29",
+     "as": "২৯"
     },
     {
-     "en": "Lily",
-     "as": "Lily"
+     "en": "19",
+     "as": "১৯"
     },
     {
-     "en": "Mango",
-     "as": "Mango"
+     "en": "33",
+     "as": "৩৩"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "Mango is a fruit while the others are flowers.",
-    "as": "Mango এটা ফল, আনবোৰ ফুল।"
+    "en": "All except 33 are prime numbers.",
+    "as": "33 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
+   }
+  },
+  {
+   "id": "odd-one-out-044",
+   "q": {
+    "en": "Find the odd one out: 31, 37, 41, 45",
+    "as": "অমিলটো বিচাৰক: 31, 37, 41, 45"
+   },
+   "options": [
+    {
+     "en": "31",
+     "as": "৩১"
+    },
+    {
+     "en": "41",
+     "as": "৪১"
+    },
+    {
+     "en": "37",
+     "as": "৩৭"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "All except 45 are prime numbers.",
+    "as": "45 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
+   }
+  },
+  {
+   "id": "odd-one-out-045",
+   "q": {
+    "en": "Find the odd one out: AZ, BY, CX, DW",
+    "as": "অমিলটো বিচাৰক: AZ, BY, CX, DW"
+   },
+   "options": [
+    {
+     "en": "AZ",
+     "as": "AZ"
+    },
+    {
+     "en": "DW",
+     "as": "DW"
+    },
+    {
+     "en": "CX",
+     "as": "CX"
+    },
+    {
+     "en": "BY",
+     "as": "BY"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "AZ, BY and CX are mirror pairs; DW breaks the mirror pattern",
+    "as": "DW ধৰণটো ভাঙে।"
+   }
+  },
+  {
+   "id": "odd-one-out-046",
+   "q": {
+    "en": "Find the odd one out: BC, DE, FG, HI",
+    "as": "অমিলটো বিচাৰক: BC, DE, FG, HI"
+   },
+   "options": [
+    {
+     "en": "DE",
+     "as": "DE"
+    },
+    {
+     "en": "HI",
+     "as": "HI"
+    },
+    {
+     "en": "BC",
+     "as": "BC"
+    },
+    {
+     "en": "FG",
+     "as": "FG"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "BC, DE and FG are pairs with a gap; HI is the odd continuation",
+    "as": "HI ধৰণটো ভাঙে।"
+   }
+  },
+  {
+   "id": "odd-one-out-047",
+   "q": {
+    "en": "Find the odd one out: AC, BD, CE, DG",
+    "as": "অমিলটো বিচাৰক: AC, BD, CE, DG"
+   },
+   "options": [
+    {
+     "en": "CE",
+     "as": "CE"
+    },
+    {
+     "en": "DG",
+     "as": "DG"
+    },
+    {
+     "en": "AC",
+     "as": "AC"
+    },
+    {
+     "en": "BD",
+     "as": "BD"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "AC, BD and CE skip one letter each; DG breaks the skip",
+    "as": "DG ধৰণটো ভাঙে।"
+   }
+  },
+  {
+   "id": "odd-one-out-048",
+   "q": {
+    "en": "Find the odd one out: BA, DC, FE, HG",
+    "as": "অমিলটো বিচাৰক: BA, DC, FE, HG"
+   },
+   "options": [
+    {
+     "en": "DC",
+     "as": "DC"
+    },
+    {
+     "en": "FE",
+     "as": "FE"
+    },
+    {
+     "en": "HG",
+     "as": "HG"
+    },
+    {
+     "en": "BA",
+     "as": "BA"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "BA, DC and FE are reversed pairs; HG breaks the reversal",
+    "as": "HG ধৰণটো ভাঙে।"
+   }
+  },
+  {
+   "id": "odd-one-out-049",
+   "q": {
+    "en": "Find the odd one out: 1, 4, 9, 16, 20",
+    "as": "অমিলটো বিচাৰক: 1, 4, 9, 16, 20"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "All except 20 are perfect squares.",
+    "as": "20 ৰ বাহিৰে বাকীবোৰ পূৰ্ণবৰ্গ।"
+   }
+  },
+  {
+   "id": "odd-one-out-050",
+   "q": {
+    "en": "Find the odd one out: 2, 4, 8, 16, 30",
+    "as": "অমিলটো বিচাৰক: 2, 4, 8, 16, 30"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "All except 30 are powers of 2.",
+    "as": "30 ৰ বাহিৰে বাকীবোৰ 2 ৰ ঘাত।"
+   }
+  },
+  {
+   "id": "odd-one-out-051",
+   "q": {
+    "en": "Find the odd one out: 3, 6, 9, 12, 15",
+    "as": "অমিলটো বিচাৰক: 3, 6, 9, 12, 15"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "All except 15 are multiples of 3.",
+    "as": "15 ৰ বাহিৰে বাকীবোৰ 3 ৰ গুণিতক।"
+   }
+  },
+  {
+   "id": "odd-one-out-052",
+   "q": {
+    "en": "Find the odd one out: 5, 10, 15, 20, 27",
+    "as": "অমিলটো বিচাৰক: 5, 10, 15, 20, 27"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "All except 27 are multiples of 5.",
+    "as": "27 ৰ বাহিৰে বাকীবোৰ 5 ৰ গুণিতক।"
+   }
+  },
+  {
+   "id": "odd-one-out-053",
+   "q": {
+    "en": "Find the odd one out: 11, 22, 33, 44, 50",
+    "as": "অমিলটো বিচাৰক: 11, 22, 33, 44, 50"
+   },
+   "options": [
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "All except 50 are multiples of 11.",
+    "as": "50 ৰ বাহিৰে বাকীবোৰ 11 ৰ গুণিতক।"
+   }
+  },
+  {
+   "id": "odd-one-out-054",
+   "q": {
+    "en": "Find the odd one out: 2, 3, 5, 7, 11, 14",
+    "as": "অমিলটো বিচাৰক: 2, 3, 5, 7, 11, 14"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "All except 14 are prime numbers.",
+    "as": "14 ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
+   }
+  },
+  {
+   "id": "odd-one-out-055",
+   "q": {
+    "en": "Find the odd one out: 4, 8, 12, 16, 22",
+    "as": "অমিলটো বিচাৰক: 4, 8, 12, 16, 22"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "22",
+     "as": "২২"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "All except 22 are multiples of 4.",
+    "as": "22 ৰ বাহিৰে বাকীবোৰ 4 ৰ গুণিতক।"
+   }
+  },
+  {
+   "id": "odd-one-out-056",
+   "q": {
+    "en": "Find the odd one out: 10, 20, 30, 40, 55",
+    "as": "অমিলটো বিচাৰক: 10, 20, 30, 40, 55"
+   },
+   "options": [
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "55",
+     "as": "৫৫"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "All except 55 are multiples of 10.",
+    "as": "55 ৰ বাহিৰে বাকীবোৰ 10 ৰ গুণিতক।"
    }
   }
  ],
@@ -19281,10 +32541,14 @@ module.exports = {
   {
    "id": "ranking-order-001",
    "q": {
-    "en": "In a row, Ram is 7th from the left and 5th from the right. How many persons are in the row?",
-    "as": "এটা শাৰীত ৰাম বাওঁৰ পৰা ৭ম আৰু সোঁৰ পৰা ৫ম। শাৰীত কিমানজন আছে?"
+    "en": "In a row, a person is 7th from the left and 5th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 7 তম আৰু সোঁৰ পৰা 5 তম। শাৰীত কিমানজন আছে?"
    },
    "options": [
+    {
+     "en": "12",
+     "as": "১২"
+    },
     {
      "en": "10",
      "as": "১০"
@@ -19292,6 +32556,122 @@ module.exports = {
     {
      "en": "11",
      "as": "১১"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 7 + 5 − 1 = 11.",
+    "as": "মুঠ = 7 + 5 − 1 = 11।"
+   }
+  },
+  {
+   "id": "ranking-order-002",
+   "q": {
+    "en": "In a row, a person is 8th from the left and 6th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 8 তম আৰু সোঁৰ পৰা 6 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 8 + 6 − 1 = 13.",
+    "as": "মুঠ = 8 + 6 − 1 = 13।"
+   }
+  },
+  {
+   "id": "ranking-order-003",
+   "q": {
+    "en": "In a row, a person is 10th from the left and 9th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 10 তম আৰু সোঁৰ পৰা 9 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "19",
+     "as": "১৯"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total = 10 + 9 − 1 = 18.",
+    "as": "মুঠ = 10 + 9 − 1 = 18।"
+   }
+  },
+  {
+   "id": "ranking-order-004",
+   "q": {
+    "en": "In a row, a person is 12th from the left and 7th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 12 তম আৰু সোঁৰ পৰা 7 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "19",
+     "as": "১৯"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 12 + 7 − 1 = 18.",
+    "as": "মুঠ = 12 + 7 − 1 = 18।"
+   }
+  },
+  {
+   "id": "ranking-order-005",
+   "q": {
+    "en": "In a row, a person is 6th from the left and 6th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 6 তম আৰু সোঁৰ পৰা 6 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "10",
+     "as": "১০"
     },
     {
      "en": "12",
@@ -19302,100 +32682,1540 @@ module.exports = {
      "as": "১৩"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "Total = 7 + 5 − 1 = 11.",
-    "as": "মুঠ = 7 + 5 − 1 = 11।"
+    "en": "Total = 6 + 6 − 1 = 11.",
+    "as": "মুঠ = 6 + 6 − 1 = 11।"
    }
   },
   {
-   "id": "ranking-order-002",
+   "id": "ranking-order-006",
    "q": {
-    "en": "In a class, Sita is 10th from the top and 20th from the bottom. How many students are there?",
-    "as": "এখন শ্ৰেণীত সীতা ওপৰৰ পৰা ১০ম আৰু তলৰ পৰা ২০তম। মুঠ কিমানজন ছাত্ৰ আছে?"
+    "en": "In a row, a person is 15th from the left and 10th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 15 তম আৰু সোঁৰ পৰা 10 তম। শাৰীত কিমানজন আছে?"
    },
    "options": [
     {
-     "en": "28",
-     "as": "২৮"
+     "en": "26",
+     "as": "২৬"
     },
     {
-     "en": "29",
-     "as": "২৯"
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "23",
+     "as": "২৩"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 15 + 10 − 1 = 24.",
+    "as": "মুঠ = 15 + 10 − 1 = 24।"
+   }
+  },
+  {
+   "id": "ranking-order-007",
+   "q": {
+    "en": "In a row, a person is 9th from the left and 8th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 9 তম আৰু সোঁৰ পৰা 8 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 9 + 8 − 1 = 16.",
+    "as": "মুঠ = 9 + 8 − 1 = 16।"
+   }
+  },
+  {
+   "id": "ranking-order-008",
+   "q": {
+    "en": "In a row, a person is 11th from the left and 4th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 11 তম আৰু সোঁৰ পৰা 4 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Total = 11 + 4 − 1 = 14.",
+    "as": "মুঠ = 11 + 4 − 1 = 14।"
+   }
+  },
+  {
+   "id": "ranking-order-009",
+   "q": {
+    "en": "In a row, a person is 20th from the left and 13th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 20 তম আৰু সোঁৰ পৰা 13 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "34",
+     "as": "৩৪"
+    },
+    {
+     "en": "31",
+     "as": "৩১"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 20 + 13 − 1 = 32.",
+    "as": "মুঠ = 20 + 13 − 1 = 32।"
+   }
+  },
+  {
+   "id": "ranking-order-010",
+   "q": {
+    "en": "In a row, a person is 5th from the left and 9th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 5 তম আৰু সোঁৰ পৰা 9 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 5 + 9 − 1 = 13.",
+    "as": "মুঠ = 5 + 9 − 1 = 13।"
+   }
+  },
+  {
+   "id": "ranking-order-011",
+   "q": {
+    "en": "In a row, a person is 14th from the left and 12th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 14 তম আৰু সোঁৰ পৰা 12 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "26",
+     "as": "২৬"
+    },
+    {
+     "en": "24",
+     "as": "২৪"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "27",
+     "as": "২৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 14 + 12 − 1 = 25.",
+    "as": "মুঠ = 14 + 12 − 1 = 25।"
+   }
+  },
+  {
+   "id": "ranking-order-012",
+   "q": {
+    "en": "In a row, a person is 3th from the left and 7th from the right. How many persons are in the row?",
+    "as": "এটা শাৰীত এজন ব্যক্তি বাওঁৰ পৰা 3 তম আৰু সোঁৰ পৰা 7 তম। শাৰীত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 3 + 7 − 1 = 9.",
+    "as": "মুঠ = 3 + 7 − 1 = 9।"
+   }
+  },
+  {
+   "id": "ranking-order-013",
+   "q": {
+    "en": "In a row of 20 persons, a person is 7th from the left. What is his position from the right?",
+    "as": "20 জনৰ শাৰীত এজন বাওঁৰ পৰা 7 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Position from the right = 20 − 7 + 1 = 14.",
+    "as": "সোঁৰ পৰা স্থান = 20 − 7 + 1 = 14।"
+   }
+  },
+  {
+   "id": "ranking-order-014",
+   "q": {
+    "en": "In a row of 25 persons, a person is 10th from the left. What is his position from the right?",
+    "as": "25 জনৰ শাৰীত এজন বাওঁৰ পৰা 10 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "১৬"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Position from the right = 25 − 10 + 1 = 16.",
+    "as": "সোঁৰ পৰা স্থান = 25 − 10 + 1 = 16।"
+   }
+  },
+  {
+   "id": "ranking-order-015",
+   "q": {
+    "en": "In a row of 30 persons, a person is 12th from the left. What is his position from the right?",
+    "as": "30 জনৰ শাৰীত এজন বাওঁৰ পৰা 12 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    },
+    {
+     "en": "19",
+     "as": "১৯"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Position from the right = 30 − 12 + 1 = 19.",
+    "as": "সোঁৰ পৰা স্থান = 30 − 12 + 1 = 19।"
+   }
+  },
+  {
+   "id": "ranking-order-016",
+   "q": {
+    "en": "In a row of 15 persons, a person is 6th from the left. What is his position from the right?",
+    "as": "15 জনৰ শাৰীত এজন বাওঁৰ পৰা 6 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Position from the right = 15 − 6 + 1 = 10.",
+    "as": "সোঁৰ পৰা স্থান = 15 − 6 + 1 = 10।"
+   }
+  },
+  {
+   "id": "ranking-order-017",
+   "q": {
+    "en": "In a row of 18 persons, a person is 9th from the left. What is his position from the right?",
+    "as": "18 জনৰ শাৰীত এজন বাওঁৰ পৰা 9 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Position from the right = 18 − 9 + 1 = 10.",
+    "as": "সোঁৰ পৰা স্থান = 18 − 9 + 1 = 10।"
+   }
+  },
+  {
+   "id": "ranking-order-018",
+   "q": {
+    "en": "In a row of 22 persons, a person is 14th from the left. What is his position from the right?",
+    "as": "22 জনৰ শাৰীত এজন বাওঁৰ পৰা 14 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Position from the right = 22 − 14 + 1 = 9.",
+    "as": "সোঁৰ পৰা স্থান = 22 − 14 + 1 = 9।"
+   }
+  },
+  {
+   "id": "ranking-order-019",
+   "q": {
+    "en": "In a row of 40 persons, a person is 25th from the left. What is his position from the right?",
+    "as": "40 জনৰ শাৰীত এজন বাওঁৰ পৰা 25 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Position from the right = 40 − 25 + 1 = 16.",
+    "as": "সোঁৰ পৰা স্থান = 40 − 25 + 1 = 16।"
+   }
+  },
+  {
+   "id": "ranking-order-020",
+   "q": {
+    "en": "In a row of 50 persons, a person is 33th from the left. What is his position from the right?",
+    "as": "50 জনৰ শাৰীত এজন বাওঁৰ পৰা 33 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
+     "en": "19",
+     "as": "১৯"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Position from the right = 50 − 33 + 1 = 18.",
+    "as": "সোঁৰ পৰা স্থান = 50 − 33 + 1 = 18।"
+   }
+  },
+  {
+   "id": "ranking-order-021",
+   "q": {
+    "en": "In a row of 12 persons, a person is 4th from the left. What is his position from the right?",
+    "as": "12 জনৰ শাৰীত এজন বাওঁৰ পৰা 4 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Position from the right = 12 − 4 + 1 = 9.",
+    "as": "সোঁৰ পৰা স্থান = 12 − 4 + 1 = 9।"
+   }
+  },
+  {
+   "id": "ranking-order-022",
+   "q": {
+    "en": "In a row of 28 persons, a person is 15th from the left. What is his position from the right?",
+    "as": "28 জনৰ শাৰীত এজন বাওঁৰ পৰা 15 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "14",
+     "as": "১৪"
+    },
+    {
+     "en": "13",
+     "as": "১৩"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Position from the right = 28 − 15 + 1 = 14.",
+    "as": "সোঁৰ পৰা স্থান = 28 − 15 + 1 = 14।"
+   }
+  },
+  {
+   "id": "ranking-order-023",
+   "q": {
+    "en": "In a row of 35 persons, a person is 20th from the left. What is his position from the right?",
+    "as": "35 জনৰ শাৰীত এজন বাওঁৰ পৰা 20 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
+    },
+    {
+     "en": "16",
+     "as": "১৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Position from the right = 35 − 20 + 1 = 16.",
+    "as": "সোঁৰ পৰা স্থান = 35 − 20 + 1 = 16।"
+   }
+  },
+  {
+   "id": "ranking-order-024",
+   "q": {
+    "en": "In a row of 16 persons, a person is 11th from the left. What is his position from the right?",
+    "as": "16 জনৰ শাৰীত এজন বাওঁৰ পৰা 11 তম। সোঁৰ পৰা তেওঁৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "11",
+     "as": "১১"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Position from the right = 16 − 11 + 1 = 6.",
+    "as": "সোঁৰ পৰা স্থান = 16 − 11 + 1 = 6।"
+   }
+  },
+  {
+   "id": "ranking-order-025",
+   "q": {
+    "en": "In a row, A is 5th from the left and B is 9th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 5 তম আৰু B বাওঁৰ পৰা 9 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Persons between = 9 − 5 − 1 = 3.",
+    "as": "মাজত থকা ব্যক্তি = 9 − 5 − 1 = 3।"
+   }
+  },
+  {
+   "id": "ranking-order-026",
+   "q": {
+    "en": "In a row, A is 3th from the left and B is 10th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 3 তম আৰু B বাওঁৰ পৰা 10 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Persons between = 10 − 3 − 1 = 6.",
+    "as": "মাজত থকা ব্যক্তি = 10 − 3 − 1 = 6।"
+   }
+  },
+  {
+   "id": "ranking-order-027",
+   "q": {
+    "en": "In a row, A is 7th from the left and B is 12th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 7 তম আৰু B বাওঁৰ পৰা 12 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Persons between = 12 − 7 − 1 = 4.",
+    "as": "মাজত থকা ব্যক্তি = 12 − 7 − 1 = 4।"
+   }
+  },
+  {
+   "id": "ranking-order-028",
+   "q": {
+    "en": "In a row, A is 6th from the left and B is 8th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 6 তম আৰু B বাওঁৰ পৰা 8 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Persons between = 8 − 6 − 1 = 1.",
+    "as": "মাজত থকা ব্যক্তি = 8 − 6 − 1 = 1।"
+   }
+  },
+  {
+   "id": "ranking-order-029",
+   "q": {
+    "en": "In a row, A is 10th from the left and B is 15th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 10 তম আৰু B বাওঁৰ পৰা 15 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Persons between = 15 − 10 − 1 = 4.",
+    "as": "মাজত থকা ব্যক্তি = 15 − 10 − 1 = 4।"
+   }
+  },
+  {
+   "id": "ranking-order-030",
+   "q": {
+    "en": "In a row, A is 4th from the left and B is 11th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 4 তম আৰু B বাওঁৰ পৰা 11 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Persons between = 11 − 4 − 1 = 6.",
+    "as": "মাজত থকা ব্যক্তি = 11 − 4 − 1 = 6।"
+   }
+  },
+  {
+   "id": "ranking-order-031",
+   "q": {
+    "en": "In a row, A is 8th from the left and B is 14th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 8 তম আৰু B বাওঁৰ পৰা 14 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Persons between = 14 − 8 − 1 = 5.",
+    "as": "মাজত থকা ব্যক্তি = 14 − 8 − 1 = 5।"
+   }
+  },
+  {
+   "id": "ranking-order-032",
+   "q": {
+    "en": "In a row, A is 2th from the left and B is 9th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 2 তম আৰু B বাওঁৰ পৰা 9 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Persons between = 9 − 2 − 1 = 6.",
+    "as": "মাজত থকা ব্যক্তি = 9 − 2 − 1 = 6।"
+   }
+  },
+  {
+   "id": "ranking-order-033",
+   "q": {
+    "en": "In a row, A is 12th from the left and B is 18th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 12 তম আৰু B বাওঁৰ পৰা 18 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Persons between = 18 − 12 − 1 = 5.",
+    "as": "মাজত থকা ব্যক্তি = 18 − 12 − 1 = 5।"
+   }
+  },
+  {
+   "id": "ranking-order-034",
+   "q": {
+    "en": "In a row, A is 5th from the left and B is 13th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 5 তম আৰু B বাওঁৰ পৰা 13 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Persons between = 13 − 5 − 1 = 7.",
+    "as": "মাজত থকা ব্যক্তি = 13 − 5 − 1 = 7।"
+   }
+  },
+  {
+   "id": "ranking-order-035",
+   "q": {
+    "en": "In a row, A is 9th from the left and B is 16th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 9 তম আৰু B বাওঁৰ পৰা 16 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Persons between = 16 − 9 − 1 = 6.",
+    "as": "মাজত থকা ব্যক্তি = 16 − 9 − 1 = 6।"
+   }
+  },
+  {
+   "id": "ranking-order-036",
+   "q": {
+    "en": "In a row, A is 3th from the left and B is 12th from the left. How many persons are there between A and B?",
+    "as": "এটা শাৰীত A বাওঁৰ পৰা 3 তম আৰু B বাওঁৰ পৰা 12 তম। A আৰু B ৰ মাজত কিমানজন আছে?"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "৯"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "8",
+     "as": "৮"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Persons between = 12 − 3 − 1 = 8.",
+    "as": "মাজত থকা ব্যক্তি = 12 − 3 − 1 = 8।"
+   }
+  },
+  {
+   "id": "ranking-order-037",
+   "q": {
+    "en": "In a class, a student ranks 12th from the top and 18th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 12 তম আৰু তলৰ পৰা 18 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    },
+    {
+     "en": "31",
+     "as": "৩১"
     },
     {
      "en": "30",
      "as": "৩০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 12 + 18 + 1 = 31.",
+    "as": "মুঠ = 12 + 18 + 1 = 31।"
+   }
+  },
+  {
+   "id": "ranking-order-038",
+   "q": {
+    "en": "In a class, a student ranks 15th from the top and 20th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 15 তম আৰু তলৰ পৰা 20 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "37",
+     "as": "৩৭"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 15 + 20 + 1 = 36.",
+    "as": "মুঠ = 15 + 20 + 1 = 36।"
+   }
+  },
+  {
+   "id": "ranking-order-039",
+   "q": {
+    "en": "In a class, a student ranks 10th from the top and 25th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 10 তম আৰু তলৰ পৰা 25 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "৩৭"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "38",
+     "as": "৩৮"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total = 10 + 25 + 1 = 36.",
+    "as": "মুঠ = 10 + 25 + 1 = 36।"
+   }
+  },
+  {
+   "id": "ranking-order-040",
+   "q": {
+    "en": "In a class, a student ranks 8th from the top and 30th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 8 তম আৰু তলৰ পৰা 30 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "41",
+     "as": "৪১"
+    },
+    {
+     "en": "39",
+     "as": "৩৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 8 + 30 + 1 = 39.",
+    "as": "মুঠ = 8 + 30 + 1 = 39।"
+   }
+  },
+  {
+   "id": "ranking-order-041",
+   "q": {
+    "en": "In a class, a student ranks 20th from the top and 15th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 20 তম আৰু তলৰ পৰা 15 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "37",
+     "as": "৩৭"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total = 20 + 15 + 1 = 36.",
+    "as": "মুঠ = 20 + 15 + 1 = 36।"
+   }
+  },
+  {
+   "id": "ranking-order-042",
+   "q": {
+    "en": "In a class, a student ranks 25th from the top and 10th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 25 তম আৰু তলৰ পৰা 10 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "৩৭"
+    },
+    {
+     "en": "36",
+     "as": "৩৬"
+    },
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Total = 25 + 10 + 1 = 36.",
+    "as": "মুঠ = 25 + 10 + 1 = 36।"
+   }
+  },
+  {
+   "id": "ranking-order-043",
+   "q": {
+    "en": "In a class, a student ranks 18th from the top and 22th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 18 তম আৰু তলৰ পৰা 22 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "42",
+     "as": "৪২"
+    },
+    {
+     "en": "43",
+     "as": "৪৩"
+    },
+    {
+     "en": "41",
+     "as": "৪১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 18 + 22 + 1 = 41.",
+    "as": "মুঠ = 18 + 22 + 1 = 41।"
+   }
+  },
+  {
+   "id": "ranking-order-044",
+   "q": {
+    "en": "In a class, a student ranks 30th from the top and 12th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 30 তম আৰু তলৰ পৰা 12 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "44",
+     "as": "৪৪"
+    },
+    {
+     "en": "42",
+     "as": "৪২"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "43",
+     "as": "৪৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 30 + 12 + 1 = 43.",
+    "as": "মুঠ = 30 + 12 + 1 = 43।"
+   }
+  },
+  {
+   "id": "ranking-order-045",
+   "q": {
+    "en": "In a class, a student ranks 14th from the top and 16th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 14 তম আৰু তলৰ পৰা 16 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "32",
+     "as": "৩২"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
     },
     {
      "en": "31",
      "as": "৩১"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "Total = 10 + 20 − 1 = 29.",
-    "as": "মুঠ = 10 + 20 − 1 = 29।"
+    "en": "Total = 14 + 16 + 1 = 31.",
+    "as": "মুঠ = 14 + 16 + 1 = 31।"
    }
   },
   {
-   "id": "ranking-order-003",
+   "id": "ranking-order-046",
    "q": {
-    "en": "If Anil is 5th from the left in a row of 12, his position from the right is —",
-    "as": "12 জনৰ এটা শাৰীত অনিল বাওঁৰ পৰা ৫ম হ'লে সোঁৰ পৰা তেওঁৰ স্থান —"
+    "en": "In a class, a student ranks 9th from the top and 11th from the bottom. How many students are in the class?",
+    "as": "এখন শ্ৰেণীত এজন ছাত্ৰ ওপৰৰ পৰা 9 তম আৰু তলৰ পৰা 11 তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
    },
    "options": [
     {
-     "en": "6th",
-     "as": "৬ষ্ঠ"
+     "en": "23",
+     "as": "২৩"
     },
     {
-     "en": "7th",
-     "as": "৭ম"
+     "en": "20",
+     "as": "২০"
     },
     {
-     "en": "8th",
-     "as": "৮ম"
+     "en": "22",
+     "as": "২২"
     },
     {
-     "en": "9th",
-     "as": "৯ম"
+     "en": "21",
+     "as": "২১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Total = 9 + 11 + 1 = 21.",
+    "as": "মুঠ = 9 + 11 + 1 = 21।"
+   }
+  },
+  {
+   "id": "ranking-order-047",
+   "q": {
+    "en": "In a row of five friends, A is taller than B but shorter than C. D is taller than C. Who is the tallest?",
+    "as": "পাঁচজন বন্ধুৰ শাৰীত A, B তকৈ ওখ কিন্তু C তকৈ চাপৰ। D, C তকৈ ওখ। আটাইতকৈ ওখ কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "D is taller than C, and C is taller than A, so D is the tallest.",
+    "as": "D, C তকৈ ওখ, আৰু C, A তকৈ ওখ, গতিকে D আটাইতকৈ ওখ।"
+   }
+  },
+  {
+   "id": "ranking-order-048",
+   "q": {
+    "en": "If A > B, B > C and C > D in marks, who scored the lowest?",
+    "as": "যদি নম্বৰত A > B, B > C আৰু C > D, আটাইতকৈ কম নম্বৰ কোনে পাইছে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "Position from the right = 12 − 5 + 1 = 8th.",
-    "as": "সোঁৰ পৰা স্থান = 12 − 5 + 1 = ৮ম।"
+    "en": "The chain is A > B > C > D, so D scored the lowest.",
+    "as": "শিকলি A > B > C > D, গতিকে D আটাইতকৈ কম।"
    }
   },
   {
-   "id": "ranking-order-004",
+   "id": "ranking-order-049",
    "q": {
-    "en": "In a row of 20, Mohan is 12th from the left. His position from the right is —",
-    "as": "20 জনৰ এটা শাৰীত মোহন বাওঁৰ পৰা ১২তম। সোঁৰ পৰা তেওঁৰ স্থান —"
+    "en": "Ram is taller than Shyam but shorter than Mohan. Who is taller between Shyam and Mohan?",
+    "as": "ৰাম শ্যামতকৈ ওখ কিন্তু মোহনতকৈ চাপৰ। শ্যাম আৰু মোহনৰ ভিতৰত ওখ কোন?"
    },
    "options": [
     {
-     "en": "8th",
-     "as": "৮ম"
+     "en": "Cannot say",
+     "as": "কোৱা নাযায়"
     },
     {
-     "en": "9th",
-     "as": "৯ম"
+     "en": "Both equal",
+     "as": "দুটাই সমান"
     },
     {
-     "en": "10th",
-     "as": "১০ম"
+     "en": "Mohan",
+     "as": "মোহন"
     },
     {
-     "en": "11th",
-     "as": "১১তম"
+     "en": "Shyam",
+     "as": "শ্যাম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mohan > Ram > Shyam, so Mohan is taller than Shyam.",
+    "as": "মোহন > ৰাম > শ্যাম, গতিকে মোহন শ্যামতকৈ ওখ।"
+   }
+  },
+  {
+   "id": "ranking-order-050",
+   "q": {
+    "en": "P is heavier than Q, R is lighter than Q. Who is the lightest?",
+    "as": "P, Q তকৈ গধুৰ, R, Q তকৈ পাতল। আটাইতকৈ পাতল কোন?"
+   },
+   "options": [
+    {
+     "en": "Cannot say",
+     "as": "কোৱা নাযায়"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Q is lighter than P and heavier than R, so R is the lightest.",
+    "as": "Q, P তকৈ পাতল আৰু R তকৈ গধুৰ, গতিকে R আটাইতকৈ পাতল।"
+   }
+  },
+  {
+   "id": "ranking-order-051",
+   "q": {
+    "en": "In a class, A got more marks than B, C got less than B, and D got more than A. Who got the highest marks?",
+    "as": "এখন শ্ৰেণীত A য়ে B তকৈ বেছি নম্বৰ পাইছে, C য়ে B তকৈ কম, আৰু D য়ে A তকৈ বেছি। আটাইতকৈ বেছি নম্বৰ কোনে পাইছে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "Position from the right = 20 − 12 + 1 = 9th.",
-    "as": "সোঁৰ পৰা স্থান = 20 − 12 + 1 = ৯ম।"
+    "en": "D > A > B > C, so D got the highest marks.",
+    "as": "D > A > B > C, গতিকে D আটাইতকৈ বেছি।"
+   }
+  },
+  {
+   "id": "ranking-order-052",
+   "q": {
+    "en": "Five students stand in a line by height. If the shortest is at the left, who is 3rd from the left if the order from shortest to tallest is E, D, C, B, A?",
+    "as": "উচ্চতা অনুসৰি পাঁচজন ছাত্ৰ শাৰীত থিয় হয়। আটাইতকৈ চাপৰ বাওঁফালে থাকিলে, চাপৰৰ পৰা ওখলৈ ক্ৰম E, D, C, B, A হ'লে বাওঁৰ পৰা ৩য় কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting from the shortest, the third is C.",
+    "as": "আটাইতকৈ চাপৰৰ পৰা গণিলে তৃতীয়জন C।"
+   }
+  },
+  {
+   "id": "ranking-order-053",
+   "q": {
+    "en": "A is taller than B. C is shorter than B. Who is the tallest among the three?",
+    "as": "A, B তকৈ ওখ। C, B তকৈ চাপৰ। তিনিজনৰ ভিতৰত আটাইতকৈ ওখ কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "Cannot say",
+     "as": "কোৱা নাযায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A > B > C, so A is the tallest.",
+    "as": "A > B > C, গতিকে A আটাইতকৈ ওখ।"
+   }
+  },
+  {
+   "id": "ranking-order-054",
+   "q": {
+    "en": "If 1st is Anil, 2nd is Bina, 3rd is Chand and 4th is Deep in a race, who finished last?",
+    "as": "দৌৰত ১ম অনিল, ২য় বীণা, ৩য় চন্দ আৰু ৪ৰ্থ দীপ হ'লে আটাইতকৈ শেষত কোনে শেষ কৰিলে?"
+   },
+   "options": [
+    {
+     "en": "Chand",
+     "as": "চন্দ"
+    },
+    {
+     "en": "Anil",
+     "as": "অনিল"
+    },
+    {
+     "en": "Bina",
+     "as": "বীণা"
+    },
+    {
+     "en": "Deep",
+     "as": "দীপ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The 4th position is the last, which is Deep.",
+    "as": "৪ৰ্থ স্থান শেষ, সেয়া দীপ।"
+   }
+  },
+  {
+   "id": "ranking-order-055",
+   "q": {
+    "en": "Mohan is older than Sohan but younger than Rohan. Who is the youngest?",
+    "as": "মোহন সোহনতকৈ ডাঙৰ কিন্তু ৰোহনতকৈ সৰু। আটাইতকৈ সৰু কোন?"
+   },
+   "options": [
+    {
+     "en": "Cannot say",
+     "as": "কোৱা নাযায়"
+    },
+    {
+     "en": "Mohan",
+     "as": "মোহন"
+    },
+    {
+     "en": "Rohan",
+     "as": "ৰোহন"
+    },
+    {
+     "en": "Sohan",
+     "as": "সোহন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rohan > Mohan > Sohan, so Sohan is the youngest.",
+    "as": "ৰোহন > মোহন > সোহন, গতিকে সোহন আটাইতকৈ সৰু।"
+   }
+  },
+  {
+   "id": "ranking-order-056",
+   "q": {
+    "en": "In a line of 7, if A is 4th from the left and B is 2nd from the right, how many stand between A and B?",
+    "as": "৭ জনৰ শাৰীত A বাওঁৰ পৰা ৪ৰ্থ আৰু B সোঁৰ পৰা ২য় হ'লে A আৰু B ৰ মাজত কিমানজন থিয় হয়?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A is at position 4 from the left, B is at position 6 from the left; between them is 1 person.",
+    "as": "A বাওঁৰ পৰা ৪, B বাওঁৰ পৰা ৬; মাজত ১ জন।"
    }
   }
  ],
@@ -25565,121 +40385,1681 @@ module.exports = {
   {
    "id": "syllogism-001",
    "q": {
-    "en": "Statements: All men are mortal. Ram is a man. Conclusion: Ram is mortal.",
-    "as": "বিবৃতি: সকলো মানুহ মৰণশীল। ৰাম এজন মানুহ। সিদ্ধান্ত: ৰাম মৰণশীল।"
+    "en": "Statements: All roses are flowers. All flowers are plants. Conclusions: I. All roses are plants. II. All plants are roses. Which conclusion follows?",
+    "as": "বিবৃতি: All roses are flowers. All flowers are plants. সিদ্ধান্ত: I. All roses are plants. II. All plants are roses. কোনটো সিদ্ধান্ত ওলায়?"
    },
    "options": [
     {
-     "en": "Follows",
-     "as": "ওলায়"
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
     },
     {
-     "en": "Does not follow",
-     "as": "ওলাই নাযায়"
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
     },
     {
-     "en": "Cannot be determined",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
     },
     {
-     "en": "None of these",
-     "as": "এটাও নহয়"
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The conclusion follows directly from the two statements.",
-    "as": "সিদ্ধান্ত দুটা বিবৃতিৰ পৰা পোনপটীয়াকৈ ওলায়।"
+    "en": "Roses are inside flowers and flowers inside plants, so all roses are plants; II does not follow.",
+    "as": "গোলাপ ফুলৰ ভিতৰত আৰু ফুল উদ্ভিদৰ ভিতৰত, গতিকে I ওলায়; II নোলায়।"
    }
   },
   {
    "id": "syllogism-002",
    "q": {
-    "en": "Statements: All roses are flowers. Some flowers fade quickly. Conclusion: Some roses fade quickly.",
-    "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান ফুল সোনকালে শুকাই যায়। সিদ্ধান্ত: কিছুমান গোলাপ সোনকালে শুকাই যায়।"
+    "en": "Statements: All men are mortal. Socrates is a man. Conclusions: I. Socrates is mortal. II. All mortals are men. Which conclusion follows?",
+    "as": "বিবৃতি: All men are mortal. Socrates is a man. সিদ্ধান্ত: I. Socrates is mortal. II. All mortals are men. কোনটো সিদ্ধান্ত ওলায়?"
    },
    "options": [
     {
-     "en": "Follows",
-     "as": "ওলায়"
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
     },
     {
-     "en": "Does not follow",
-     "as": "ওলাই নাযায়"
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
     },
     {
-     "en": "Cannot be determined",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
     },
     {
-     "en": "None of these",
-     "as": "এটাও নহয়"
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The fading flowers need not be roses, so the conclusion does not follow.",
-    "as": "শুকাই যোৱা ফুলবোৰ গোলাপ নহ'বও পাৰে, গতিকে সিদ্ধান্ত ওলাই নাযায়।"
+    "en": "Socrates is a man and all men are mortal, so Socrates is mortal; II reverses the relation.",
+    "as": "চক্ৰেটিছ মানুহ আৰু সকলো মানুহ মৰণশীল, গতিকে I ওলায়; II সম্পৰ্ক ওলোটাই।"
    }
   },
   {
    "id": "syllogism-003",
    "q": {
-    "en": "Statements: No cat is a dog. All dogs are animals. Conclusion: No cat is an animal.",
-    "as": "বিবৃতি: কোনো মেকুৰী কুকুৰ নহয়। সকলো কুকুৰ প্ৰাণী। সিদ্ধান্ত: কোনো মেকুৰী প্ৰাণী নহয়।"
+    "en": "Statements: Some cats are black. Some black things are dogs. Conclusions: I. Some cats are dogs. II. Some dogs are black. Which conclusion follows?",
+    "as": "বিবৃতি: Some cats are black. Some black things are dogs. সিদ্ধান্ত: I. Some cats are dogs. II. Some dogs are black. কোনটো সিদ্ধান্ত ওলায়?"
    },
    "options": [
     {
-     "en": "Follows",
-     "as": "ওলায়"
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
     },
     {
-     "en": "Does not follow",
-     "as": "ওলাই নাযায়"
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
     },
     {
-     "en": "Cannot be determined",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
     },
     {
-     "en": "None of these",
-     "as": "এটাও নহয়"
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "Cats may still be animals other than dogs, so the conclusion does not follow.",
-    "as": "মেকুৰী কুকুৰৰ বাহিৰে আন প্ৰাণীও হ'ব পাৰে, গতিকে সিদ্ধান্ত ওলাই নাযায়।"
+    "en": "The overlap of cats and dogs is not certain, but some black things are dogs means some dogs are black.",
+    "as": "মেকুৰী আৰু কুকুৰৰ ওপৰাওপৰ নিশ্চিত নহয়, কিন্তু কিছুমান ক’লা বস্তু কুকুৰ, গতিকে II ওলায়।"
    }
   },
   {
    "id": "syllogism-004",
    "q": {
-    "en": "Statements: All students are hardworking. Rina is a student. Conclusion: Rina is hardworking.",
-    "as": "বিবৃতি: সকলো ছাত্ৰ পৰিশ্ৰমী। ৰীনা এগৰাকী ছাত্ৰী। সিদ্ধান্ত: ৰীনা পৰিশ্ৰমী।"
+    "en": "Statements: All birds can fly. A penguin is a bird. Conclusions: I. A penguin can fly. II. All flying things are birds. Which conclusion follows?",
+    "as": "বিবৃতি: All birds can fly. A penguin is a bird. সিদ্ধান্ত: I. A penguin can fly. II. All flying things are birds. কোনটো সিদ্ধান্ত ওলায়?"
    },
    "options": [
     {
-     "en": "Follows",
-     "as": "ওলায়"
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
     },
     {
-     "en": "Does not follow",
-     "as": "ওলাই নাযায়"
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
     },
     {
-     "en": "Cannot be determined",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
     },
     {
-     "en": "None of these",
-     "as": "এটাও নহয়"
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Logically, if all birds fly and a penguin is a bird, then a penguin flies; II reverses it.",
+    "as": "যুক্তি অনুসৰি, সকলো চৰাই উৰে আৰু পেংগুইন চৰাই, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "syllogism-005",
+   "q": {
+    "en": "Statements: No man is perfect. All kings are men. Conclusions: I. No king is perfect. II. All perfect beings are kings. Which conclusion follows?",
+    "as": "বিবৃতি: No man is perfect. All kings are men. সিদ্ধান্ত: I. No king is perfect. II. All perfect beings are kings. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The conclusion follows directly from the two statements.",
-    "as": "সিদ্ধান্ত দুটা বিবৃতিৰ পৰা পোনপটীয়াকৈ ওলায়।"
+    "en": "Kings are men and no man is perfect, so no king is perfect; II does not follow.",
+    "as": "ৰজাসকল মানুহ আৰু কোনো মানুহ নিখুঁত নহয়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-006",
+   "q": {
+    "en": "Statements: Some pens are books. All books are papers. Conclusions: I. Some pens are papers. II. All papers are pens. Which conclusion follows?",
+    "as": "বিবৃতি: Some pens are books. All books are papers. সিদ্ধান্ত: I. Some pens are papers. II. All papers are pens. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The pens that are books are also papers, so some pens are papers; II does not follow.",
+    "as": "যিবোৰ কলম কিতাপ সেয়া কাগজো, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-007",
+   "q": {
+    "en": "Statements: All students are honest. Some honest people are rich. Conclusions: I. Some students are rich. II. All honest people are students. Which conclusion follows?",
+    "as": "বিবৃতি: All students are honest. Some honest people are rich. সিদ্ধান্ত: I. Some students are rich. II. All honest people are students. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The rich honest people need not be students, and honest people need not be students, so neither follows.",
+    "as": "ধনী সৎ লোকসকল ছাত্ৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-008",
+   "q": {
+    "en": "Statements: Some doctors are women. All women are mothers. Conclusions: I. Some doctors are mothers. II. All mothers are doctors. Which conclusion follows?",
+    "as": "বিবৃতি: Some doctors are women. All women are mothers. সিদ্ধান্ত: I. Some doctors are mothers. II. All mothers are doctors. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The women who are doctors are also mothers, so some doctors are mothers; II does not follow.",
+    "as": "যিবোৰ মহিলা ডাক্তৰ সেয়া মাকো, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-009",
+   "q": {
+    "en": "Statements: All squares are rectangles. All rectangles are quadrilaterals. Conclusions: I. All squares are quadrilaterals. II. All quadrilaterals are squares. Which conclusion follows?",
+    "as": "বিবৃতি: All squares are rectangles. All rectangles are quadrilaterals. সিদ্ধান্ত: I. All squares are quadrilaterals. II. All quadrilaterals are squares. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Squares lie inside rectangles inside quadrilaterals, so I follows; II does not.",
+    "as": "বৰ্গ আয়তক্ষেত্ৰৰ ভিতৰত আৰু আয়তক্ষেত্ৰ চতুৰ্ভুজৰ ভিতৰত, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-010",
+   "q": {
+    "en": "Statements: No fish is a bird. Some birds are parrots. Conclusions: I. Some parrots are not fish. II. No parrot is a fish. Which conclusion follows?",
+    "as": "বিবৃতি: No fish is a bird. Some birds are parrots. সিদ্ধান্ত: I. Some parrots are not fish. II. No parrot is a fish. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Parrots are birds and no bird is a fish, so some parrots are not fish; II overstates it.",
+    "as": "ভাটৌ চৰাই আৰু কোনো চৰাই মাছ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "syllogism-011",
+   "q": {
+    "en": "Statements: All metals conduct electricity. Copper is a metal. Conclusions: I. Copper conducts electricity. II. All conductors are metals. Which conclusion follows?",
+    "as": "বিবৃতি: All metals conduct electricity. Copper is a metal. সিদ্ধান্ত: I. Copper conducts electricity. II. All conductors are metals. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Copper is a metal and all metals conduct, so I follows; II reverses the relation.",
+    "as": "তাম এটা ধাতু আৰু সকলো ধাতু পৰিবাহী, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "syllogism-012",
+   "q": {
+    "en": "Statements: Some books are novels. All novels are stories. Conclusions: I. Some books are stories. II. All stories are books. Which conclusion follows?",
+    "as": "বিবৃতি: Some books are novels. All novels are stories. সিদ্ধান্ত: I. Some books are stories. II. All stories are books. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The books that are novels are also stories, so some books are stories; II does not follow.",
+    "as": "যিবোৰ কিতাপ উপন্যাস সেয়া কাহিনীও, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-013",
+   "q": {
+    "en": "Statements: All teachers are graduates. Some graduates are researchers. Conclusions: I. Some teachers are researchers. II. All graduates are teachers. Which conclusion follows?",
+    "as": "বিবৃতি: All teachers are graduates. Some graduates are researchers. সিদ্ধান্ত: I. Some teachers are researchers. II. All graduates are teachers. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The researchers need not be teachers and graduates need not be teachers, so neither follows.",
+    "as": "গৱেষকসকল শিক্ষক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-014",
+   "q": {
+    "en": "Statements: No cow is a dog. Some dogs are pets. Conclusions: I. Some pets are not cows. II. No pet is a cow. Which conclusion follows?",
+    "as": "বিবৃতি: No cow is a dog. Some dogs are pets. সিদ্ধান্ত: I. Some pets are not cows. II. No pet is a cow. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The pet dogs are not cows, so some pets are not cows; II overstates it.",
+    "as": "ঘৰচীয়া কুকুৰবোৰ গৰু নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "syllogism-015",
+   "q": {
+    "en": "Statements: All apples are fruits. Some fruits are sweet. Conclusions: I. Some apples are sweet. II. All sweet things are fruits. Which conclusion follows?",
+    "as": "বিবৃতি: All apples are fruits. Some fruits are sweet. সিদ্ধান্ত: I. Some apples are sweet. II. All sweet things are fruits. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The sweet fruits need not be apples and sweet things need not be fruits, so neither follows.",
+    "as": "মিঠা ফলবোৰ আম নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-016",
+   "q": {
+    "en": "Statements: All chairs are furniture. Some furniture is wooden. Conclusions: I. Some chairs are wooden. II. All wooden things are chairs. Which conclusion follows?",
+    "as": "বিবৃতি: All chairs are furniture. Some furniture is wooden. সিদ্ধান্ত: I. Some chairs are wooden. II. All wooden things are chairs. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The wooden furniture need not be chairs and wooden things need not be chairs.",
+    "as": "কাঠৰ আচবাববোৰ চকী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-017",
+   "q": {
+    "en": "Statements: Some men are doctors. All doctors are rich. Conclusions: I. Some men are rich. II. All rich men are doctors. Which conclusion follows?",
+    "as": "বিবৃতি: Some men are doctors. All doctors are rich. সিদ্ধান্ত: I. Some men are rich. II. All rich men are doctors. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The men who are doctors are also rich, so some men are rich; II does not follow.",
+    "as": "যিবোৰ মানুহ ডাক্তৰ সেয়া ধনীও, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-018",
+   "q": {
+    "en": "Statements: All flowers are beautiful. Some beautiful things are costly. Conclusions: I. Some flowers are costly. II. All costly things are beautiful. Which conclusion follows?",
+    "as": "বিবৃতি: All flowers are beautiful. Some beautiful things are costly. সিদ্ধান্ত: I. Some flowers are costly. II. All costly things are beautiful. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The costly beautiful things need not be flowers, and costly things need not be beautiful.",
+    "as": "দামী সুন্দৰ বস্তুবোৰ ফুল নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-019",
+   "q": {
+    "en": "Statements: No student is lazy. All lazy people are unhealthy. Conclusions: I. No student is unhealthy. II. Some unhealthy people are lazy. Which conclusion follows?",
+    "as": "বিবৃতি: No student is lazy. All lazy people are unhealthy. সিদ্ধান্ত: I. No student is unhealthy. II. Some unhealthy people are lazy. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lazy people are unhealthy, so some unhealthy people are lazy; I overstates it.",
+    "as": "আলসুৱা লোক অসুস্থ, গতিকে II ওলায়; I বেছি কয়।"
+   }
+  },
+  {
+   "id": "syllogism-020",
+   "q": {
+    "en": "Statements: All pens are tools. Some tools are expensive. Conclusions: I. Some pens are expensive. II. All expensive things are tools. Which conclusion follows?",
+    "as": "বিবৃতি: All pens are tools. Some tools are expensive. সিদ্ধান্ত: I. Some pens are expensive. II. All expensive things are tools. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The expensive tools need not be pens and expensive things need not be tools.",
+    "as": "দামী সঁজুলিবোৰ কলম নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-021",
+   "q": {
+    "en": "Statements: All dogs are animals. All animals need food. Conclusions: I. All dogs need food. II. All animals are dogs. Which conclusion follows?",
+    "as": "বিবৃতি: All dogs are animals. All animals need food. সিদ্ধান্ত: I. All dogs need food. II. All animals are dogs. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dogs are animals and animals need food, so I follows; II reverses the relation.",
+    "as": "কুকুৰ জন্তু আৰু জন্তুৰ খাদ্য লাগে, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "syllogism-022",
+   "q": {
+    "en": "Statements: Some flowers are red. All red things are attractive. Conclusions: I. Some flowers are attractive. II. All attractive things are red. Which conclusion follows?",
+    "as": "বিবৃতি: Some flowers are red. All red things are attractive. সিদ্ধান্ত: I. Some flowers are attractive. II. All attractive things are red. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The red flowers are attractive, so some flowers are attractive; II does not follow.",
+    "as": "ৰঙা ফুলবোৰ আকৰ্ষণীয়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-023",
+   "q": {
+    "en": "Statements: No cat is a bird. All sparrows are birds. Conclusions: I. No sparrow is a cat. II. All cats are sparrows. Which conclusion follows?",
+    "as": "বিবৃতি: No cat is a bird. All sparrows are birds. সিদ্ধান্ত: I. No sparrow is a cat. II. All cats are sparrows. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sparrows are birds and no bird is a cat, so no sparrow is a cat; II does not follow.",
+    "as": "চৰাইবোৰ মেকুৰী নহয়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-024",
+   "q": {
+    "en": "Statements: All rivers flow. Some flowing things are deep. Conclusions: I. Some rivers are deep. II. All deep things are rivers. Which conclusion follows?",
+    "as": "বিবৃতি: All rivers flow. Some flowing things are deep. সিদ্ধান্ত: I. Some rivers are deep. II. All deep things are rivers. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The deep flowing things need not be rivers and deep things need not be rivers.",
+    "as": "গভীৰ বৈ যোৱা বস্তুবোৰ নদী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-025",
+   "q": {
+    "en": "Statements: All singers are artists. Some artists are famous. Conclusions: I. Some singers are famous. II. All famous artists are singers. Which conclusion follows?",
+    "as": "বিবৃতি: All singers are artists. Some artists are famous. সিদ্ধান্ত: I. Some singers are famous. II. All famous artists are singers. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The famous artists need not be singers and famous artists need not be singers.",
+    "as": "প্ৰখ্যাত শিল্পীবোৰ গায়ক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-026",
+   "q": {
+    "en": "Statements: Some birds cannot fly. All penguins are birds. Conclusions: I. Some penguins may not fly. II. No bird can fly. Which conclusion follows?",
+    "as": "বিবৃতি: Some birds cannot fly. All penguins are birds. সিদ্ধান্ত: I. Some penguins may not fly. II. No bird can fly. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Since some birds cannot fly, a bird like the penguin may not fly; II is too strong.",
+    "as": "কিছুমান চৰাই উৰিব নোৱাৰে, গতিকে I ওলায়; II অত্যধিক কঠিন।"
+   }
+  },
+  {
+   "id": "syllogism-027",
+   "q": {
+    "en": "Statements: All mangoes are sweet. Some sweet things are yellow. Conclusions: I. Some mangoes are yellow. II. All yellow things are sweet. Which conclusion follows?",
+    "as": "বিবৃতি: All mangoes are sweet. Some sweet things are yellow. সিদ্ধান্ত: I. Some mangoes are yellow. II. All yellow things are sweet. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The yellow sweet things need not be mangoes and yellow things need not be sweet.",
+    "as": "হালধীয়া মিঠা বস্তুবোৰ আম নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-028",
+   "q": {
+    "en": "Statements: All chairs have legs. This object has legs. Conclusions: I. This object is a chair. II. Some objects with legs are chairs. Which conclusion follows?",
+    "as": "বিবৃতি: All chairs have legs. This object has legs. সিদ্ধান্ত: I. This object is a chair. II. Some objects with legs are chairs. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Having legs does not make it a chair, but chairs do have legs, so II follows; I does not.",
+    "as": "ভৰি থাকিলেই চকী নহয়, কিন্তু চকীৰ ভৰি থাকে, গতিকে II ওলায়; I নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-029",
+   "q": {
+    "en": "Statements: All cups are glasses. All glasses are vessels. Conclusions: I. All cups are vessels. II. All vessels are cups. Which conclusion follows?",
+    "as": "বিবৃতি: All cups are glasses. All glasses are vessels. সিদ্ধান্ত: I. All cups are vessels. II. All vessels are cups. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Cups lie inside glasses inside vessels, so I follows; II reverses it.",
+    "as": "কাপ গিলাচৰ ভিতৰত আৰু গিলাচ পাত্ৰৰ ভিতৰত, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "syllogism-030",
+   "q": {
+    "en": "Statements: Some tables are chairs. All chairs are wooden. Conclusions: I. Some tables are wooden. II. All wooden things are tables. Which conclusion follows?",
+    "as": "বিবৃতি: Some tables are chairs. All chairs are wooden. সিদ্ধান্ত: I. Some tables are wooden. II. All wooden things are tables. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The tables that are chairs are wooden, so I follows; II does not.",
+    "as": "যিবোৰ মেজ চকী সেয়া কাঠৰ, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-031",
+   "q": {
+    "en": "Statements: No pen is a pencil. Some pencils are red. Conclusions: I. Some red things are not pens. II. No red thing is a pen. Which conclusion follows?",
+    "as": "বিবৃতি: No pen is a pencil. Some pencils are red. সিদ্ধান্ত: I. Some red things are not pens. II. No red thing is a pen. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The red pencils are not pens, so I follows; II overstates it.",
+    "as": "ৰঙা পেঞ্চিলবোৰ কলম নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "syllogism-032",
+   "q": {
+    "en": "Statements: All engineers are graduates. Some graduates are rich. Conclusions: I. Some engineers are rich. II. All rich graduates are engineers. Which conclusion follows?",
+    "as": "বিবৃতি: All engineers are graduates. Some graduates are rich. সিদ্ধান্ত: I. Some engineers are rich. II. All rich graduates are engineers. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The rich graduates need not be engineers, so neither follows.",
+    "as": "ধনী স্নাতকবোৰ ইঞ্জিনিয়াৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-033",
+   "q": {
+    "en": "Statements: All flowers smell. Some smelly things are colourful. Conclusions: I. Some flowers are colourful. II. All colourful things smell. Which conclusion follows?",
+    "as": "বিবৃতি: All flowers smell. Some smelly things are colourful. সিদ্ধান্ত: I. Some flowers are colourful. II. All colourful things smell. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The colourful smelly things need not be flowers, so neither follows.",
+    "as": "ৰঙীন গোন্ধযুক্ত বস্তুবোৰ ফুল নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-034",
+   "q": {
+    "en": "Statements: Some actors are singers. All singers are dancers. Conclusions: I. Some actors are dancers. II. All dancers are actors. Which conclusion follows?",
+    "as": "বিবৃতি: Some actors are singers. All singers are dancers. সিদ্ধান্ত: I. Some actors are dancers. II. All dancers are actors. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The actors who are singers are also dancers, so I follows; II does not.",
+    "as": "যিবোৰ অভিনেতা গায়ক সেয়া নৃত্যশিল্পীও, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-035",
+   "q": {
+    "en": "Statements: All stars twinkle. Some twinkling things are far. Conclusions: I. Some stars are far. II. All far things twinkle. Which conclusion follows?",
+    "as": "বিবৃতি: All stars twinkle. Some twinkling things are far. সিদ্ধান্ত: I. Some stars are far. II. All far things twinkle. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The far twinkling things need not be stars, so neither follows.",
+    "as": "দূৰৰ জিলিকি থকা বস্তুবোৰ তৰা নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-036",
+   "q": {
+    "en": "Statements: No boy is a girl. Some girls are tall. Conclusions: I. Some tall people are not boys. II. No tall person is a boy. Which conclusion follows?",
+    "as": "বিবৃতি: No boy is a girl. Some girls are tall. সিদ্ধান্ত: I. Some tall people are not boys. II. No tall person is a boy. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The tall girls are not boys, so I follows; II overstates it.",
+    "as": "ওখ ছোৱালীবোৰ ল'ৰা নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "syllogism-037",
+   "q": {
+    "en": "Statements: All rivers reach the sea. Some seas are deep. Conclusions: I. Some rivers reach deep seas. II. All deep seas receive rivers. Which conclusion follows?",
+    "as": "বিবৃতি: All rivers reach the sea. Some seas are deep. সিদ্ধান্ত: I. Some rivers reach deep seas. II. All deep seas receive rivers. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The deep seas need not receive rivers, so neither follows.",
+    "as": "গভীৰ সাগৰবোৰলৈ নদী নাহিবও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-038",
+   "q": {
+    "en": "Statements: All books have pages. This object has pages. Conclusions: I. This object is a book. II. Some objects with pages are books. Which conclusion follows?",
+    "as": "বিবৃতি: All books have pages. This object has pages. সিদ্ধান্ত: I. This object is a book. II. Some objects with pages are books. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Having pages does not make it a book, but books do have pages, so II follows.",
+    "as": "পৃষ্ঠা থাকিলেই কিতাপ নহয়, কিন্তু কিতাপৰ পৃষ্ঠা থাকে, গতিকে II ওলায়।"
+   }
+  },
+  {
+   "id": "syllogism-039",
+   "q": {
+    "en": "Statements: Some birds sing. All singing things are alive. Conclusions: I. Some birds are alive. II. All alive things sing. Which conclusion follows?",
+    "as": "বিবৃতি: Some birds sing. All singing things are alive. সিদ্ধান্ত: I. Some birds are alive. II. All alive things sing. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The singing birds are alive, so I follows; II does not.",
+    "as": "গাই থকা চৰাইবোৰ জীৱিত, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-040",
+   "q": {
+    "en": "Statements: All metals are hard. Some hard things are heavy. Conclusions: I. Some metals are heavy. II. All heavy things are metals. Which conclusion follows?",
+    "as": "বিবৃতি: All metals are hard. Some hard things are heavy. সিদ্ধান্ত: I. Some metals are heavy. II. All heavy things are metals. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The heavy hard things need not be metals, so neither follows.",
+    "as": "ভৰি থকা কঠিন বস্তুবোৰ ধাতু নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-041",
+   "q": {
+    "en": "Statements: No rose is blue. All roses are red. Conclusions: I. No red flower is blue. II. All red flowers are roses. Which conclusion follows?",
+    "as": "বিবৃতি: No rose is blue. All roses are red. সিদ্ধান্ত: I. No red flower is blue. II. All red flowers are roses. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The statement covers roses only, not all red flowers, so neither follows.",
+    "as": "বিবৃতিটোৱে কেৱল গোলাপক সামৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-042",
+   "q": {
+    "en": "Statements: All teachers read. Some readers write. Conclusions: I. Some teachers write. II. All writers read. Which conclusion follows?",
+    "as": "বিবৃতি: All teachers read. Some readers write. সিদ্ধান্ত: I. Some teachers write. II. All writers read. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The writing readers need not be teachers, and writers need not read, so neither follows.",
+    "as": "লিখা পাঠকবোৰ শিক্ষক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-043",
+   "q": {
+    "en": "Statements: Some pens are costly. All costly things are rare. Conclusions: I. Some pens are rare. II. All rare things are pens. Which conclusion follows?",
+    "as": "বিবৃতি: Some pens are costly. All costly things are rare. সিদ্ধান্ত: I. Some pens are rare. II. All rare things are pens. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The costly pens are rare, so I follows; II does not.",
+    "as": "দামী কলমবোৰ বিৰল, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-044",
+   "q": {
+    "en": "Statements: All dogs bark. No cat barks. Conclusions: I. No dog is a cat. II. All barking animals are dogs. Which conclusion follows?",
+    "as": "বিবৃতি: All dogs bark. No cat barks. সিদ্ধান্ত: I. No dog is a cat. II. All barking animals are dogs. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dogs bark and cats do not, so no dog is a cat; II reverses it.",
+    "as": "কুকুৰে ভুকুৱায় আৰু মেকুৰীয়ে নাভুকুৱায়, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "syllogism-045",
+   "q": {
+    "en": "Statements: All students study. Some studying people are tired. Conclusions: I. Some students are tired. II. All tired people study. Which conclusion follows?",
+    "as": "বিবৃতি: All students study. Some studying people are tired. সিদ্ধান্ত: I. Some students are tired. II. All tired people study. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The tired studying people need not be students, so neither follows.",
+    "as": "ভাগৰুৱা পঢ়ুৱা লোকসকল ছাত্ৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-046",
+   "q": {
+    "en": "Statements: All ships sail. Some sailing things are old. Conclusions: I. Some ships are old. II. All old things sail. Which conclusion follows?",
+    "as": "বিবৃতি: All ships sail. Some sailing things are old. সিদ্ধান্ত: I. Some ships are old. II. All old things sail. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The old sailing things need not be ships, so neither follows.",
+    "as": "পুৰণি চলাচলকাৰী বস্তুবোৰ জাহাজ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-047",
+   "q": {
+    "en": "Statements: Some flowers are white. All white things reflect light. Conclusions: I. Some flowers reflect light. II. All reflecting things are white. Which conclusion follows?",
+    "as": "বিবৃতি: Some flowers are white. All white things reflect light. সিদ্ধান্ত: I. Some flowers reflect light. II. All reflecting things are white. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The white flowers reflect light, so I follows; II does not.",
+    "as": "বগা ফুলবোৰে পোহৰ প্ৰতিফলিত কৰে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-048",
+   "q": {
+    "en": "Statements: All kings are rulers. Some rulers are cruel. Conclusions: I. Some kings are cruel. II. All cruel rulers are kings. Which conclusion follows?",
+    "as": "বিবৃতি: All kings are rulers. Some rulers are cruel. সিদ্ধান্ত: I. Some kings are cruel. II. All cruel rulers are kings. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The cruel rulers need not be kings, so neither follows.",
+    "as": "নিষ্ঠুৰ শাসকবোৰ ৰজা নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-049",
+   "q": {
+    "en": "Statements: No doctor is careless. All careless people make mistakes. Conclusions: I. No doctor makes mistakes. II. Some who make mistakes are careless. Which conclusion follows?",
+    "as": "বিবৃতি: No doctor is careless. All careless people make mistakes. সিদ্ধান্ত: I. No doctor makes mistakes. II. Some who make mistakes are careless. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Careless people make mistakes, so II follows; I overstates it.",
+    "as": "আমন কৰা লোকসকলে ভুল কৰে, গতিকে II ওলায়; I বেছি কয়।"
+   }
+  },
+  {
+   "id": "syllogism-050",
+   "q": {
+    "en": "Statements: All chairs are seats. Some seats are comfortable. Conclusions: I. Some chairs are comfortable. II. All comfortable seats are chairs. Which conclusion follows?",
+    "as": "বিবৃতি: All chairs are seats. Some seats are comfortable. সিদ্ধান্ত: I. Some chairs are comfortable. II. All comfortable seats are chairs. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The comfortable seats need not be chairs, so neither follows.",
+    "as": "আৰামদায়ক আসনবোৰ চকী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-051",
+   "q": {
+    "en": "Statements: Some apples are green. All green things are fresh. Conclusions: I. Some apples are fresh. II. All fresh things are green. Which conclusion follows?",
+    "as": "বিবৃতি: Some apples are green. All green things are fresh. সিদ্ধান্ত: I. Some apples are fresh. II. All fresh things are green. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The green apples are fresh, so I follows; II does not.",
+    "as": "সেউজীয়া আমবোৰ সতেজ, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-052",
+   "q": {
+    "en": "Statements: All birds have wings. Some winged things fly. Conclusions: I. Some birds fly. II. All flying things are birds. Which conclusion follows?",
+    "as": "বিবৃতি: All birds have wings. Some winged things fly. সিদ্ধান্ত: I. Some birds fly. II. All flying things are birds. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The flying winged things need not be birds, so neither follows.",
+    "as": "উৰা ডেউকাযুক্ত বস্তুবোৰ চৰাই নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-053",
+   "q": {
+    "en": "Statements: No cow eats meat. All lions eat meat. Conclusions: I. No cow is a lion. II. All meat eaters are lions. Which conclusion follows?",
+    "as": "বিবৃতি: No cow eats meat. All lions eat meat. সিদ্ধান্ত: I. No cow is a lion. II. All meat eaters are lions. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cows do not eat meat but lions do, so no cow is a lion; II reverses it.",
+    "as": "গৰুৱে মাংস নাখায় কিন্তু সিংহই খায়, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "syllogism-054",
+   "q": {
+    "en": "Statements: All poems have rhythm. Some rhythmic things are songs. Conclusions: I. Some poems are songs. II. All songs have rhythm. Which conclusion follows?",
+    "as": "বিবৃতি: All poems have rhythm. Some rhythmic things are songs. সিদ্ধান্ত: I. Some poems are songs. II. All songs have rhythm. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The rhythmic songs need not be poems, and songs need not have rhythm, so neither follows.",
+    "as": "ছন্দময় গানবোৰ কবিতা নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-055",
+   "q": {
+    "en": "Statements: Some houses are old. All old things are costly. Conclusions: I. Some houses are costly. II. All costly things are houses. Which conclusion follows?",
+    "as": "বিবৃতি: Some houses are old. All old things are costly. সিদ্ধান্ত: I. Some houses are costly. II. All costly things are houses. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The old houses are costly, so I follows; II does not.",
+    "as": "পুৰণি ঘৰবোৰ দামী, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "syllogism-056",
+   "q": {
+    "en": "Statements: All metals expand on heating. Iron is a metal. Conclusions: I. Iron expands on heating. II. All things that expand are metals. Which conclusion follows?",
+    "as": "বিবৃতি: All metals expand on heating. Iron is a metal. সিদ্ধান্ত: I. Iron expands on heating. II. All things that expand are metals. কোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়ো ওলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Iron is a metal and metals expand, so I follows; II reverses it.",
+    "as": "লো এটা ধাতু আৰু ধাতু প্ৰসাৰিত হয়, গতিকে I ওলায়; II ওলোটাই।"
    }
   }
  ],
@@ -29655,121 +46035,1651 @@ module.exports = {
   {
    "id": "venn-diagrams-001",
    "q": {
-    "en": "All cats are animals. Which relation is correct?",
-    "as": "সকলো মেকুৰী প্ৰাণী। কোনটো সম্পৰ্ক শুদ্ধ?"
+    "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Men'?",
+    "as": "'Doctors' আৰু 'Men' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
    },
    "options": [
     {
-     "en": "Cats lie inside the circle of animals",
-     "as": "মেকুৰীৰ বৃত্ত প্ৰাণীৰ ভিতৰত থাকে"
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
     },
     {
-     "en": "Animals lie inside the circle of cats",
-     "as": "প্ৰাণীৰ বৃত্ত মেকুৰীৰ ভিতৰত থাকে"
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
     },
     {
-     "en": "The circles are separate",
-     "as": "বৃত্ত দুটা বেলেগ"
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
     },
     {
-     "en": "The circles are partly overlapping",
-     "as": "বৃত্ত দুটা আংশিক ওপৰাওপৰ"
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "If all cats are animals, the circle of cats lies entirely inside the circle of animals.",
-    "as": "সকলো মেকুৰী প্ৰাণী হ'লে মেকুৰীৰ বৃত্ত প্ৰাণীৰ বৃত্তৰ ভিতৰত সম্পূৰ্ণভাৱে থাকে।"
+    "en": "Some doctors are men and some men are doctors, so the circles intersect.",
+    "as": "কিছুমান ডাক্তৰ পুৰুষ আৰু কিছুমান পুৰুষ ডাক্তৰ, গতিকে বৃত্ত দুটাই কটাকটি কৰে।"
    }
   },
   {
    "id": "venn-diagrams-002",
    "q": {
-    "en": "If no rose is a flower that is blue, the circles for 'rose' and 'blue flower' are —",
-    "as": "'কোনো গোলাপ নীলা ফুল নহয়' হ'লে 'গোলাপ' আৰু 'নীলা ফুল' ৰ বৃত্ত দুটা —"
+    "en": "Which Venn diagram best shows the relation between 'Flowers' and 'Roses'?",
+    "as": "'Flowers' আৰু 'Roses' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
    },
    "options": [
     {
-     "en": "Separate",
-     "as": "বেলেগ"
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
     },
     {
-     "en": "One inside the other",
-     "as": "এটা আনটোৰ ভিতৰত"
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
     },
     {
-     "en": "Overlapping",
-     "as": "ওপৰাওপৰ"
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
     },
     {
-     "en": "Identical",
-     "as": "একে"
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "When two classes have nothing in common, their circles are drawn separately.",
-    "as": "দুটা শ্ৰেণীৰ মাজত একো সাধাৰণ নাথাকিলে তেওঁলোকৰ বৃত্ত বেলেগে অঁকা হয়।"
+    "en": "All roses are flowers, so the rose circle lies inside the flower circle.",
+    "as": "সকলো গোলাপ ফুল, গতিকে গোলাপৰ বৃত্ত ফুলৰ বৃত্তৰ ভিতৰত।"
    }
   },
   {
    "id": "venn-diagrams-003",
    "q": {
-    "en": "Some doctors are writers. The circles for 'doctors' and 'writers' are —",
-    "as": "কিছুমান ডাক্তৰ লেখক। 'ডাক্তৰ' আৰু 'লেখক' ৰ বৃত্ত দুটা —"
+    "en": "Which Venn diagram best shows the relation between 'Cats' and 'Dogs'?",
+    "as": "'Cats' আৰু 'Dogs' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
    },
    "options": [
     {
-     "en": "Separate",
-     "as": "বেলেগ"
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
     },
     {
-     "en": "Overlapping",
-     "as": "ওপৰাওপৰ"
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
     },
     {
-     "en": "Identical",
-     "as": "একে"
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
     },
     {
-     "en": "One inside the other",
-     "as": "এটা আনটোৰ ভিতৰত"
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "Some doctors are writers means the two classes partly overlap.",
-    "as": "কিছুমান ডাক্তৰ লেখক মানে দুটা শ্ৰেণী আংশিকভাৱে ওপৰাওপৰ।"
+    "en": "No cat is a dog, so the two circles are separate.",
+    "as": "কোনো মেকুৰী কুকুৰ নহয়, গতিকে দুটা বৃত্ত সুকীয়া।"
    }
   },
   {
    "id": "venn-diagrams-004",
    "q": {
-    "en": "All pens are tools and all tools are useful. Then —",
-    "as": "সকলো কলম সঁজুলি আৰু সকলো সঁজুলি উপযোগী। তেন্তে —"
+    "en": "Which Venn diagram best shows the relation between 'Teachers' and 'Musicians'?",
+    "as": "'Teachers' আৰু 'Musicians' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
    },
    "options": [
     {
-     "en": "all pens are useful",
-     "as": "সকলো কলম উপযোগী"
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
     },
     {
-     "en": "no pen is useful",
-     "as": "কোনো কলম উপযোগী নহয়"
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
     },
     {
-     "en": "some pens are not useful",
-     "as": "কিছুমান কলম উপযোগী নহয়"
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
     },
     {
-     "en": "cannot be determined",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Since all pens are tools and all tools are useful, all pens are useful.",
-    "as": "সকলো কলম সঁজুলি আৰু সকলো সঁজুলি উপযোগী, গতিকে সকলো কলম উপযোগী।"
+    "en": "A person can be both a teacher and a musician, so the circles intersect.",
+    "as": "এজন ব্যক্তি শিক্ষক আৰু সংগীতজ্ঞ দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-005",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Fruits' and 'Mangoes'?",
+    "as": "'Fruits' আৰু 'Mangoes' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "All mangoes are fruits, so mangoes lie inside fruits.",
+    "as": "সকলো আম ফল, গতিকে আম ফলৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-006",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Boys' and 'Girls'?",
+    "as": "'Boys' আৰু 'Girls' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A person cannot be both a boy and a girl, so the circles are separate.",
+    "as": "এজন ব্যক্তি ল'ৰা আৰু ছোৱালী দুয়ো হ'ব নোৱাৰে, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-007",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Engineers' and 'Indians'?",
+    "as": "'Engineers' আৰু 'Indians' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Some engineers are Indians and some Indians are engineers, so the circles intersect.",
+    "as": "কিছুমান ইঞ্জিনিয়াৰ ভাৰতীয়, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-008",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Birds' and 'Parrots'?",
+    "as": "'Birds' আৰু 'Parrots' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "All parrots are birds, so parrots lie inside birds.",
+    "as": "সকলো ভাটৌ চৰাই, গতিকে ভাটৌ চৰাইৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-009",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Odd numbers' and 'Even numbers'?",
+    "as": "'Odd numbers' আৰু 'Even numbers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "No number is both odd and even, so the circles are separate.",
+    "as": "কোনো সংখ্যা অযুগ্ম আৰু যুগ্ম দুয়ো নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-010",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Squares' and 'Rectangles'?",
+    "as": "'Squares' আৰু 'Rectangles' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Every square is a rectangle, so squares lie inside rectangles.",
+    "as": "প্ৰতিটো বৰ্গ এটা আয়তক্ষেত্ৰ, গতিকে বৰ্গ আয়তক্ষেত্ৰৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-011",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Patients'?",
+    "as": "'Doctors' আৰু 'Patients' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A doctor may also be a patient, so the circles intersect.",
+    "as": "এজন ডাক্তৰ ৰোগীও হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-012",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Rivers' and 'Ganga'?",
+    "as": "'Rivers' আৰু 'Ganga' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Ganga is a river, so it lies inside rivers.",
+    "as": "গংগা এখন নদী, গতিকে নদীৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-013",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Men' and 'Women'?",
+    "as": "'Men' আৰু 'Women' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "No person is both a man and a woman, so the circles are separate.",
+    "as": "কোনো ব্যক্তি পুৰুষ আৰু মহিলা দুয়ো নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-014",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Singers' and 'Dancers'?",
+    "as": "'Singers' আৰু 'Dancers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A person can be both a singer and a dancer, so the circles intersect.",
+    "as": "এজন ব্যক্তি গায়ক আৰু নৃত্যশিল্পী দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-015",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Trees' and 'Banyan'?",
+    "as": "'Trees' আৰু 'Banyan' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A banyan is a tree, so it lies inside trees.",
+    "as": "বৰগছ এজোপা গছ, গতিকে গছৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-016",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Pens' and 'Books'?",
+    "as": "'Pens' আৰু 'Books' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A pen is not a book, so the circles are separate.",
+    "as": "কলম কিতাপ নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-017",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Students' and 'Players'?",
+    "as": "'Students' আৰু 'Players' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A student can also be a player, so the circles intersect.",
+    "as": "এজন ছাত্ৰ খেলুৱৈও হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-018",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Mammals' and 'Whales'?",
+    "as": "'Mammals' আৰু 'Whales' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে ভালদৰে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A whale is a mammal, so it lies inside mammals.",
+    "as": "তিমি এটা স্তন্যপায়ী, গতিকে স্তন্যপায়ীৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-019",
+   "q": {
+    "en": "In a class of 40 students, 25 play cricket and 20 play football. If 10 play both, how many play at least one game?",
+    "as": "৪০ জনৰ শ্ৰেণীত ২৫ জনে ক্ৰিকেট আৰু ২০ জনে ফুটবল খেলে। ১০ জনে দুয়োটা খেলে। অন্ততঃ এটা খেল কিমানজনে খেলে?"
+   },
+   "options": [
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At least one = 25 + 20 − 10 = 35.",
+    "as": "অন্ততঃ এটা = 25 + 20 − 10 = 35।"
+   }
+  },
+  {
+   "id": "venn-diagrams-020",
+   "q": {
+    "en": "In a group of 50 people, 30 speak Hindi and 25 speak English. If 10 speak both, how many speak only Hindi?",
+    "as": "৫০ জনৰ দলত ৩০ জনে হিন্দী আৰু ২৫ জনে ইংৰাজী কয়। ১০ জনে দুয়োটা কয়। কেৱল হিন্দী কিমানজনে কয়?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Only Hindi = 30 − 10 = 20.",
+    "as": "কেৱল হিন্দী = 30 − 10 = 20।"
+   }
+  },
+  {
+   "id": "venn-diagrams-021",
+   "q": {
+    "en": "In a survey of 100 people, 60 like tea and 50 like coffee. If 20 like both, how many like neither?",
+    "as": "১০০ জনৰ সমীক্ষাত ৬০ জনে চাহ আৰু ৫০ জনে কফি ভাল পায়। ২০ জনে দুয়োটা ভাল পায়। কিমানজনে একোৱেই ভাল নাপায়?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At least one = 60 + 50 − 20 = 90, so neither = 100 − 90 = 10.",
+    "as": "অন্ততঃ এটা = 90, গতিকে একোৱেই নহয় = 10।"
+   }
+  },
+  {
+   "id": "venn-diagrams-022",
+   "q": {
+    "en": "In a class, 18 play only football, 12 play only cricket and 5 play both. How many play at least one game?",
+    "as": "এখন শ্ৰেণীত ১৮ জনে কেৱল ফুটবল, ১২ জনে কেৱল ক্ৰিকেট আৰু ৫ জনে দুয়োটা খেলে। অন্ততঃ এটা কিমানজনে খেলে?"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 18 + 12 + 5 = 35.",
+    "as": "মুঠ = 18 + 12 + 5 = 35।"
+   }
+  },
+  {
+   "id": "venn-diagrams-023",
+   "q": {
+    "en": "In a group of 60, 35 read newspaper A and 30 read newspaper B. If 15 read both, how many read only B?",
+    "as": "৬০ জনৰ দলত ৩৫ জনে A বাতৰি কাকত আৰু ৩০ জনে B পঢ়ে। ১৫ জনে দুয়োটা পঢ়ে। কেৱল B কিমানজনে পঢ়ে?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Only B = 30 − 15 = 15.",
+    "as": "কেৱল B = 30 − 15 = 15।"
+   }
+  },
+  {
+   "id": "venn-diagrams-024",
+   "q": {
+    "en": "In a class of 45, 25 like maths and 20 like science. If 5 like both, how many like neither?",
+    "as": "৪৫ জনৰ শ্ৰেণীত ২৫ জনে গণিত আৰু ২০ জনে বিজ্ঞান ভাল পায়। ৫ জনে দুয়োটা ভাল পায়। কিমানজনে একোৱেই ভাল নাপায়?"
+   },
+   "options": [
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "At least one = 25 + 20 − 5 = 40, so neither = 45 − 40 = 5.",
+    "as": "অন্ততঃ এটা = 40, গতিকে একোৱেই নহয় = 5।"
+   }
+  },
+  {
+   "id": "venn-diagrams-025",
+   "q": {
+    "en": "In a group, 40 know Assamese, 30 know Bengali and 20 know both. How many know at least one language?",
+    "as": "এটা দলত ৪০ জনে অসমীয়া, ৩০ জনে বঙালী আৰু ২০ জনে দুয়োটা জানে। অন্ততঃ এটা ভাষা কিমানজনে জানে?"
+   },
+   "options": [
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "60",
+     "as": "৬০"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "At least one = 40 + 30 − 20 = 50.",
+    "as": "অন্ততঃ এটা = 40 + 30 − 20 = 50।"
+   }
+  },
+  {
+   "id": "venn-diagrams-026",
+   "q": {
+    "en": "In a survey, 70 read English papers, 50 read Assamese papers and 30 read both. How many read only English?",
+    "as": "এটা সমীক্ষাত ৭০ জনে ইংৰাজী, ৫০ জনে অসমীয়া কাকত পঢ়ে আৰু ৩০ জনে দুয়োটা। কেৱল ইংৰাজী কিমানজনে পঢ়ে?"
+   },
+   "options": [
+    {
+     "en": "70",
+     "as": "৭০"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Only English = 70 − 30 = 40.",
+    "as": "কেৱল ইংৰাজী = 70 − 30 = 40।"
+   }
+  },
+  {
+   "id": "venn-diagrams-027",
+   "q": {
+    "en": "In a class, 20 play cricket, 25 play hockey and 8 play both. How many play at least one game?",
+    "as": "এখন শ্ৰেণীত ২০ জনে ক্ৰিকেট, ২৫ জনে হকী আৰু ৮ জনে দুয়োটা খেলে। অন্ততঃ এটা কিমানজনে খেলে?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "৩৭"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "53",
+     "as": "৫৩"
+    },
+    {
+     "en": "33",
+     "as": "৩৩"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At least one = 20 + 25 − 8 = 37.",
+    "as": "অন্ততঃ এটা = 20 + 25 − 8 = 37।"
+   }
+  },
+  {
+   "id": "venn-diagrams-028",
+   "q": {
+    "en": "In a group of 80, 45 like milk and 35 like tea. If 15 like both, how many like neither?",
+    "as": "৮০ জনৰ দলত ৪৫ জনে গাখীৰ আৰু ৩৫ জনে চাহ ভাল পায়। ১৫ জনে দুয়োটা ভাল পায়। কিমানজনে একোৱেই ভাল নাপায়?"
+   },
+   "options": [
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At least one = 45 + 35 − 15 = 65, so neither = 80 − 65 = 15.",
+    "as": "অন্ততঃ এটা = 65, গতিকে একোৱেই নহয় = 15।"
+   }
+  },
+  {
+   "id": "venn-diagrams-029",
+   "q": {
+    "en": "In a class of 50, 30 pass maths, 25 pass English and 10 pass both. How many pass exactly one subject?",
+    "as": "৫০ জনৰ শ্ৰেণীত ৩০ জনে গণিত, ২৫ জনে ইংৰাজীত পাছ আৰু ১০ জনে দুয়োতেই পাছ। ঠিক এটা বিষয়ত কিমানজনে পাছ?"
+   },
+   "options": [
+    {
+     "en": "45",
+     "as": "৪৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Exactly one = (30−10) + (25−10) = 35.",
+    "as": "ঠিক এটা = (30−10) + (25−10) = 35।"
+   }
+  },
+  {
+   "id": "venn-diagrams-030",
+   "q": {
+    "en": "In a group, 12 like only tea, 15 like only coffee and 8 like both. How many like tea?",
+    "as": "এটা দলত ১২ জনে কেৱল চাহ, ১৫ জনে কেৱল কফি আৰু ৮ জনে দুয়োটা ভাল পায়। কিমানজনে চাহ ভাল পায়?"
+   },
+   "options": [
+    {
+     "en": "8",
+     "as": "৮"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
+     "en": "12",
+     "as": "১২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tea total = only tea + both = 12 + 8 = 20.",
+    "as": "চাহ মুঠ = কেৱল চাহ + দুয়োটা = 12 + 8 = 20।"
+   }
+  },
+  {
+   "id": "venn-diagrams-031",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Engineers'?",
+    "as": "'Doctors' আৰু 'Engineers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A person can be both a doctor and an engineer, so the circles intersect.",
+    "as": "এজন ব্যক্তি ডাক্তৰ আৰু ইঞ্জিনিয়াৰ দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-032",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Furniture' and 'Tables'?",
+    "as": "'Furniture' আৰু 'Tables' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "All tables are furniture, so tables lie inside furniture.",
+    "as": "সকলো মেজ আচবাব, গতিকে মেজ আচবাবৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-033",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Cats' and 'Rats'?",
+    "as": "'Cats' আৰু 'Rats' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A cat is not a rat, so the circles are separate.",
+    "as": "মেকুৰী এটা নিগনী নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-034",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Painters' and 'Poets'?",
+    "as": "'Painters' আৰু 'Poets' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A person can be both a painter and a poet, so the circles intersect.",
+    "as": "এজন ব্যক্তি চিত্ৰকৰ আৰু কবি দুয়ো হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-035",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Cereals' and 'Rice'?",
+    "as": "'Cereals' আৰু 'Rice' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rice is a cereal, so rice lies inside cereals.",
+    "as": "চাউল এটা শস্য, গতিকে শস্যৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-036",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Sun' and 'Moon'?",
+    "as": "'Sun' আৰু 'Moon' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The sun and the moon are different bodies, so the circles are separate.",
+    "as": "সূৰ্য্য আৰু চন্দ্ৰ সুকীয়া, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-037",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Politicians' and 'Writers'?",
+    "as": "'Politicians' আৰু 'Writers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A person can be both a politician and a writer, so the circles intersect.",
+    "as": "এজন ব্যক্তি ৰাজনীতিবিদ আৰু লেখক দুয়ো হ'ব পাৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-038",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Mammals' and 'Humans'?",
+    "as": "'Mammals' আৰু 'Humans' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "All humans are mammals, so humans lie inside mammals.",
+    "as": "সকলো মানুহ স্তন্যপায়ী, গতিকে মানুহ স্তন্যপায়ীৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-039",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Chairs' and 'Tables'?",
+    "as": "'Chairs' আৰু 'Tables' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A chair is not a table, so the circles are separate.",
+    "as": "চকী মেজ নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-040",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Teachers' and 'Writers'?",
+    "as": "'Teachers' আৰু 'Writers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A person can be both a teacher and a writer, so the circles intersect.",
+    "as": "এজন ব্যক্তি শিক্ষক আৰু লেখক দুয়ো হ'ব পাৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-041",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Vehicles' and 'Cars'?",
+    "as": "'Vehicles' আৰু 'Cars' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "All cars are vehicles, so cars lie inside vehicles.",
+    "as": "সকলো গাড়ী যানবাহন, গতিকে গাড়ী যানবাহনৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-042",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Cricket' and 'Football'?",
+    "as": "'Cricket' আৰু 'Football' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "No single game is both cricket and football, so the circles are separate.",
+    "as": "এখন খেল ক্ৰিকেট আৰু ফুটবল দুয়ো নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-043",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Scientists' and 'Mathematicians'?",
+    "as": "'Scientists' আৰু 'Mathematicians' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A person can be both a scientist and a mathematician, so the circles intersect.",
+    "as": "এজন ব্যক্তি বিজ্ঞানী আৰু গণিতজ্ঞ দুয়ো হ'ব পাৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-044",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Metals' and 'Gold'?",
+    "as": "'Metals' আৰু 'Gold' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gold is a metal, so gold lies inside metals.",
+    "as": "সোণ এটা ধাতু, গতিকে ধাতুৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-045",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Boys' and 'Players'?",
+    "as": "'Boys' আৰু 'Players' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A boy can also be a player, so the circles intersect.",
+    "as": "এজন ল'ৰা খেলুৱৈও হ'ব পাৰে, গতিকে বৃত্ত কটাকটি কৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-046",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Flowers' and 'Lotus'?",
+    "as": "'Flowers' আৰু 'Lotus' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The lotus is a flower, so it lies inside flowers.",
+    "as": "পদুম এটা ফুল, গতিকে ফুলৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-047",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Mountains' and 'Rivers'?",
+    "as": "'Mountains' আৰু 'Rivers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A mountain is not a river, so the circles are separate.",
+    "as": "পৰ্বত এখন নদী নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-048",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Doctors' and 'Teachers'?",
+    "as": "'Doctors' আৰু 'Teachers' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersecA",
+     "as": "The two circles intersecA"
+    },
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A person can be both a doctor and a teacher, so the circles intersect.",
+    "as": "এজন ব্যক্তি ডাক্তৰ আৰু শিক্ষক দুয়ো হ'ব পাৰে।"
+   }
+  },
+  {
+   "id": "venn-diagrams-049",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Trees' and 'Pines'?",
+    "as": "'Trees' আৰু 'Pines' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The first circle lies inside the seconK",
+     "as": "The first circle lies inside the seconK"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A pine is a tree, so pines lie inside trees.",
+    "as": "পাইন এজোপা গছ, গতিকে গছৰ ভিতৰত।"
+   }
+  },
+  {
+   "id": "venn-diagrams-050",
+   "q": {
+    "en": "Which Venn diagram best shows the relation between 'Pens' and 'Ink'?",
+    "as": "'Pens' আৰু 'Ink' ৰ মাজৰ সম্পৰ্ক কোনটো ভেন ডায়াগ্ৰামে দেখুৱায়?"
+   },
+   "options": [
+    {
+     "en": "The two circles intersect",
+     "as": "দুটা বৃত্তে কটাকটি কৰে"
+    },
+    {
+     "en": "The two circles are separatL",
+     "as": "The two circles are separatL"
+    },
+    {
+     "en": "The two circles are separate",
+     "as": "দুটা বৃত্ত সুকীয়া"
+    },
+    {
+     "en": "The first circle lies inside the second",
+     "as": "প্ৰথম বৃত্তটো দ্বিতীয়টোৰ ভিতৰত থাকে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A pen is not ink, so the circles are separate.",
+    "as": "কলম চিয়াহী নহয়, গতিকে বৃত্ত সুকীয়া।"
+   }
+  },
+  {
+   "id": "venn-diagrams-051",
+   "q": {
+    "en": "In a class of 35, 20 like tea and 18 like coffee. If 8 like both, how many like at least one?",
+    "as": "৩৫ জনৰ শ্ৰেণীত ২০ জনে চাহ আৰু ১৮ জনে কফি ভাল পায়। ৮ জনে দুয়োটা ভাল পায়। অন্ততঃ এটা কিমানজনে ভাল পায়?"
+   },
+   "options": [
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "28",
+     "as": "২৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "At least one = 20 + 18 − 8 = 30.",
+    "as": "অন্ততঃ এটা = 20 + 18 − 8 = 30।"
+   }
+  },
+  {
+   "id": "venn-diagrams-052",
+   "q": {
+    "en": "In a group of 90, 50 play chess and 40 play carrom. If 20 play both, how many play neither?",
+    "as": "৯০ জনৰ দলত ৫০ জনে দবা আৰু ৪০ জনে কেৰাম খেলে। ২০ জনে দুয়োটা খেলে। কিমানজনে একোৱেই নেখেলে?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "0",
+     "as": "০"
+    },
+    {
+     "en": "10",
+     "as": "১০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At least one = 50 + 40 − 20 = 70, so neither = 90 − 70 = 20.",
+    "as": "অন্ততঃ এটা = 70, গতিকে একোৱেই নহয় = 20।"
+   }
+  },
+  {
+   "id": "venn-diagrams-053",
+   "q": {
+    "en": "In a survey of 120, 70 read English and 60 read Hindi. If 30 read both, how many read only English?",
+    "as": "১২০ জনৰ সমীক্ষাত ৭০ জনে ইংৰাজী আৰু ৬০ জনে হিন্দী পঢ়ে। ৩০ জনে দুয়োটা পঢ়ে। কেৱল ইংৰাজী কিমানজনে পঢ়ে?"
+   },
+   "options": [
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "20",
+     "as": "২০"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Only English = 70 − 30 = 40.",
+    "as": "কেৱল ইংৰাজী = 70 − 30 = 40।"
+   }
+  },
+  {
+   "id": "venn-diagrams-054",
+   "q": {
+    "en": "In a class, 22 play only hockey, 16 play only football and 9 play both. How many play at least one?",
+    "as": "এখন শ্ৰেণীত ২২ জনে কেৱল হকী, ১৬ জনে কেৱল ফুটবল আৰু ৯ জনে দুয়োটা খেলে। অন্ততঃ এটা কিমানজনে খেলে?"
+   },
+   "options": [
+    {
+     "en": "38",
+     "as": "৩৮"
+    },
+    {
+     "en": "50",
+     "as": "৫০"
+    },
+    {
+     "en": "47",
+     "as": "৪৭"
+    },
+    {
+     "en": "45",
+     "as": "৪৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Total = 22 + 16 + 9 = 47.",
+    "as": "মুঠ = 22 + 16 + 9 = 47।"
+   }
+  },
+  {
+   "id": "venn-diagrams-055",
+   "q": {
+    "en": "In a group, 15 know French, 25 know German and 10 know both. How many know at least one language?",
+    "as": "এটা দলত ১৫ জনে ফৰাচী, ২৫ জনে জাৰ্মান আৰু ১০ জনে দুয়োটা জানে। অন্ততঃ এটা ভাষা কিমানজনে জানে?"
+   },
+   "options": [
+    {
+     "en": "30",
+     "as": "৩০"
+    },
+    {
+     "en": "25",
+     "as": "২৫"
+    },
+    {
+     "en": "40",
+     "as": "৪০"
+    },
+    {
+     "en": "35",
+     "as": "৩৫"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "At least one = 15 + 25 − 10 = 30.",
+    "as": "অন্ততঃ এটা = 15 + 25 − 10 = 30।"
    }
   }
  ],
@@ -29899,121 +47809,1621 @@ module.exports = {
   {
    "id": "word-formation-dictionary-001",
    "q": {
-    "en": "Which word can be formed from the letters of 'TEACHER'?",
-    "as": "'TEACHER' ৰ আখৰৰ পৰা কোনটো শব্দ গঠন কৰিব পাৰি?"
+    "en": "From the word INTERNATIONAL, which of the following words can be formed?",
+    "as": "INTERNATIONAL শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
    },
    "options": [
     {
-     "en": "CHEAT",
-     "as": "CHEAT"
+     "en": "CAUTION",
+     "as": "CAUTION"
     },
     {
-     "en": "MOUSE",
-     "as": "MOUSE"
+     "en": "COUNTRY",
+     "as": "COUNTRY"
     },
     {
-     "en": "TABLE",
-     "as": "TABLE"
+     "en": "ACTION",
+     "as": "ACTION"
     },
     {
-     "en": "CHAIR",
-     "as": "CHAIR"
+     "en": "RATIONAL",
+     "as": "RATIONAL"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "CHEAT can be formed from the letters of TEACHER.",
-    "as": "TEACHER ৰ আখৰৰ পৰা CHEAT গঠন কৰিব পাৰি।"
+    "en": "Using only the letters of INTERNATIONAL, the word RATIONAL can be formed.",
+    "as": "INTERNATIONAL ৰ আখৰ ব্যৱহাৰ কৰি RATIONAL শব্দ গঠন কৰিব পাৰি।"
    }
   },
   {
    "id": "word-formation-dictionary-002",
    "q": {
-    "en": "Arrange in dictionary order: Cat, Car, Cap, Can",
-    "as": "অভিধানৰ ক্ৰমত সজাওক: Cat, Car, Cap, Can"
+    "en": "From the word EDUCATION, which of the following words can be formed?",
+    "as": "EDUCATION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
    },
    "options": [
     {
-     "en": "Can, Cap, Car, Cat",
-     "as": "Can, Cap, Car, Cat"
+     "en": "TRAIN",
+     "as": "TRAIN"
     },
     {
-     "en": "Cap, Can, Car, Cat",
-     "as": "Cap, Can, Car, Cat"
+     "en": "NATION",
+     "as": "NATION"
     },
     {
-     "en": "Car, Can, Cap, Cat",
-     "as": "Car, Can, Cap, Cat"
+     "en": "RATIONAL",
+     "as": "RATIONAL"
     },
     {
-     "en": "Cat, Car, Cap, Can",
-     "as": "Cat, Car, Cap, Can"
+     "en": "CAUTION",
+     "as": "CAUTION"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "Comparing the third letters n, p, r, t gives Can, Cap, Car, Cat.",
-    "as": "তৃতীয় আখৰ n, p, r, t তুলনা কৰিলে Can, Cap, Car, Cat পোৱা যায়।"
+    "en": "Using only the letters of EDUCATION, the word CAUTION can be formed.",
+    "as": "EDUCATION ৰ আখৰ ব্যৱহাৰ কৰি CAUTION শব্দ গঠন কৰিব পাৰি।"
    }
   },
   {
    "id": "word-formation-dictionary-003",
    "q": {
-    "en": "Which word can be formed from the letters of 'NATION'?",
-    "as": "'NATION' ৰ আখৰৰ পৰা কোনটো শব্দ গঠন কৰিব পাৰি?"
+    "en": "From the word STATEMENT, which of the following words can be formed?",
+    "as": "STATEMENT শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
    },
    "options": [
     {
-     "en": "NOTE",
-     "as": "NOTE"
+     "en": "STATE",
+     "as": "STATE"
     },
     {
-     "en": "BREAD",
-     "as": "BREAD"
+     "en": "NATION",
+     "as": "NATION"
     },
     {
-     "en": "TABLE",
-     "as": "TABLE"
+     "en": "TRAIN",
+     "as": "TRAIN"
     },
     {
-     "en": "CHAIR",
-     "as": "CHAIR"
+     "en": "RATIONAL",
+     "as": "RATIONAL"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "NOTE can be formed from the letters of NATION.",
-    "as": "NATION ৰ আখৰৰ পৰা NOTE গঠন কৰিব পাৰি।"
+    "en": "Using only the letters of STATEMENT, the word STATE can be formed.",
+    "as": "STATEMENT ৰ আখৰ ব্যৱহাৰ কৰি STATE শব্দ গঠন কৰিব পাৰি।"
    }
   },
   {
    "id": "word-formation-dictionary-004",
    "q": {
-    "en": "Arrange in dictionary order: Ball, Bell, Bill, Bull",
-    "as": "অভিধানৰ ক্ৰমত সজাওক: Ball, Bell, Bill, Bull"
+    "en": "From the word PRESENTATION, which of the following words can be formed?",
+    "as": "PRESENTATION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
    },
    "options": [
     {
-     "en": "Ball, Bell, Bill, Bull",
-     "as": "Ball, Bell, Bill, Bull"
+     "en": "RATIONAL",
+     "as": "RATIONAL"
     },
     {
-     "en": "Ball, Bill, Bell, Bull",
-     "as": "Ball, Bill, Bell, Bull"
+     "en": "PRESENT",
+     "as": "PRESENT"
     },
     {
-     "en": "Bell, Ball, Bill, Bull",
-     "as": "Bell, Ball, Bill, Bull"
+     "en": "CAUTION",
+     "as": "CAUTION"
     },
     {
-     "en": "Bull, Bill, Bell, Ball",
-     "as": "Bull, Bill, Bell, Ball"
+     "en": "ACTION",
+     "as": "ACTION"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using only the letters of PRESENTATION, the word PRESENT can be formed.",
+    "as": "PRESENTATION ৰ আখৰ ব্যৱহাৰ কৰি PRESENT শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-005",
+   "q": {
+    "en": "From the word TEMPERATURE, which of the following words can be formed?",
+    "as": "TEMPERATURE শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "TEMPER",
+     "as": "TEMPER"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of TEMPERATURE, the word TEMPER can be formed.",
+    "as": "TEMPERATURE ৰ আখৰ ব্যৱহাৰ কৰি TEMPER শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-006",
+   "q": {
+    "en": "From the word GOVERNMENT, which of the following words can be formed?",
+    "as": "GOVERNMENT শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "GOVERN",
+     "as": "GOVERN"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using only the letters of GOVERNMENT, the word GOVERN can be formed.",
+    "as": "GOVERNMENT ৰ আখৰ ব্যৱহাৰ কৰি GOVERN শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-007",
+   "q": {
+    "en": "From the word AGRICULTURE, which of the following words can be formed?",
+    "as": "AGRICULTURE শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "CULTURE",
+     "as": "CULTURE"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of AGRICULTURE, the word CULTURE can be formed.",
+    "as": "AGRICULTURE ৰ আখৰ ব্যৱহাৰ কৰি CULTURE শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-008",
+   "q": {
+    "en": "From the word DEVELOPMENT, which of the following words can be formed?",
+    "as": "DEVELOPMENT শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "DEVELOP",
+     "as": "DEVELOP"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of DEVELOPMENT, the word DEVELOP can be formed.",
+    "as": "DEVELOPMENT ৰ আখৰ ব্যৱহাৰ কৰি DEVELOP শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-009",
+   "q": {
+    "en": "From the word INFORMATION, which of the following words can be formed?",
+    "as": "INFORMATION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "ACTION",
+     "as": "ACTION"
+    },
+    {
+     "en": "CAUTION",
+     "as": "CAUTION"
+    },
+    {
+     "en": "FORMAT",
+     "as": "FORMAT"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of INFORMATION, the word FORMAT can be formed.",
+    "as": "INFORMATION ৰ আখৰ ব্যৱহাৰ কৰি FORMAT শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-010",
+   "q": {
+    "en": "From the word CELEBRATION, which of the following words can be formed?",
+    "as": "CELEBRATION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATION",
+     "as": "RATION"
+    },
+    {
+     "en": "CAUTION",
+     "as": "CAUTION"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Comparing the second letters a, e, i, u gives Ball, Bell, Bill, Bull.",
-    "as": "দ্বিতীয় আখৰ a, e, i, u তুলনা কৰিলে Ball, Bell, Bill, Bull পোৱা যায়।"
+    "en": "Using only the letters of CELEBRATION, the word RATION can be formed.",
+    "as": "CELEBRATION ৰ আখৰ ব্যৱহাৰ কৰি RATION শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-011",
+   "q": {
+    "en": "From the word CONCENTRATION, which of the following words can be formed?",
+    "as": "CONCENTRATION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "CAUTION",
+     "as": "CAUTION"
+    },
+    {
+     "en": "COUNTRY",
+     "as": "COUNTRY"
+    },
+    {
+     "en": "RATION",
+     "as": "RATION"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of CONCENTRATION, the word RATION can be formed.",
+    "as": "CONCENTRATION ৰ আখৰ ব্যৱহাৰ কৰি RATION শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-012",
+   "q": {
+    "en": "From the word INDEPENDENCE, which of the following words can be formed?",
+    "as": "INDEPENDENCE শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "DEPEND",
+     "as": "DEPEND"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of INDEPENDENCE, the word DEPEND can be formed.",
+    "as": "INDEPENDENCE ৰ আখৰ ব্যৱহাৰ কৰি DEPEND শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-013",
+   "q": {
+    "en": "From the word EXAMINATION, which of the following words can be formed?",
+    "as": "EXAMINATION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "CAUTION",
+     "as": "CAUTION"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using only the letters of EXAMINATION, the word NATION can be formed.",
+    "as": "EXAMINATION ৰ আখৰ ব্যৱহাৰ কৰি NATION শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-014",
+   "q": {
+    "en": "From the word ORGANISATION, which of the following words can be formed?",
+    "as": "ORGANISATION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "ACTION",
+     "as": "ACTION"
+    },
+    {
+     "en": "ORGAN",
+     "as": "ORGAN"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "CAUTION",
+     "as": "CAUTION"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Using only the letters of ORGANISATION, the word ORGAN can be formed.",
+    "as": "ORGANISATION ৰ আখৰ ব্যৱহাৰ কৰি ORGAN শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-015",
+   "q": {
+    "en": "From the word DICTIONARY, which of the following words can be formed?",
+    "as": "DICTIONARY শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "ACTION",
+     "as": "ACTION"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "CAUTION",
+     "as": "CAUTION"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using only the letters of DICTIONARY, the word ACTION can be formed.",
+    "as": "DICTIONARY ৰ আখৰ ব্যৱহাৰ কৰি ACTION শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-016",
+   "q": {
+    "en": "From the word MATHEMATICS, which of the following words can be formed?",
+    "as": "MATHEMATICS শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "MATHS",
+     "as": "MATHS"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of MATHEMATICS, the word MATHS can be formed.",
+    "as": "MATHEMATICS ৰ আখৰ ব্যৱহাৰ কৰি MATHS শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-017",
+   "q": {
+    "en": "From the word ENVIRONMENT, which of the following words can be formed?",
+    "as": "ENVIRONMENT শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "ENTER",
+     "as": "ENTER"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of ENVIRONMENT, the word ENTER can be formed.",
+    "as": "ENVIRONMENT ৰ আখৰ ব্যৱহাৰ কৰি ENTER শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-018",
+   "q": {
+    "en": "From the word DISTRIBUTION, which of the following words can be formed?",
+    "as": "DISTRIBUTION শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "BUTTON",
+     "as": "BUTTON"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using only the letters of DISTRIBUTION, the word BUTTON can be formed.",
+    "as": "DISTRIBUTION ৰ আখৰ ব্যৱহাৰ কৰি BUTTON শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-019",
+   "q": {
+    "en": "From the word INDEPENDENT, which of the following words can be formed?",
+    "as": "INDEPENDENT শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "DEPEND",
+     "as": "DEPEND"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Using only the letters of INDEPENDENT, the word DEPEND can be formed.",
+    "as": "INDEPENDENT ৰ আখৰ ব্যৱহাৰ কৰি DEPEND শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-020",
+   "q": {
+    "en": "From the word ASSAMESE, which of the following words can be formed?",
+    "as": "ASSAMESE শব্দৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+   },
+   "options": [
+    {
+     "en": "MASS",
+     "as": "MASS"
+    },
+    {
+     "en": "NATION",
+     "as": "NATION"
+    },
+    {
+     "en": "RATIONAL",
+     "as": "RATIONAL"
+    },
+    {
+     "en": "TRAIN",
+     "as": "TRAIN"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Using only the letters of ASSAMESE, the word MASS can be formed.",
+    "as": "ASSAMESE ৰ আখৰ ব্যৱহাৰ কৰি MASS শব্দ গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-021",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Apple, Apply, April, Apricot?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Apple, Apply, April, Apricot?"
+   },
+   "options": [
+    {
+     "en": "Apricot",
+     "as": "Apricot"
+    },
+    {
+     "en": "Apple",
+     "as": "Apple"
+    },
+    {
+     "en": "April",
+     "as": "April"
+    },
+    {
+     "en": "Apply",
+     "as": "Apply"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In dictionary order, Apple comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Apple প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-022",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Banana, Band, Bang, Bank?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Banana, Band, Bang, Bank?"
+   },
+   "options": [
+    {
+     "en": "Banana",
+     "as": "Banana"
+    },
+    {
+     "en": "Bank",
+     "as": "Bank"
+    },
+    {
+     "en": "Bang",
+     "as": "Bang"
+    },
+    {
+     "en": "Band",
+     "as": "Band"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In dictionary order, Banana comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Banana প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-023",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Cat, Cart, Card, Care?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Cat, Cart, Card, Care?"
+   },
+   "options": [
+    {
+     "en": "Cat",
+     "as": "Cat"
+    },
+    {
+     "en": "Card",
+     "as": "Card"
+    },
+    {
+     "en": "Cart",
+     "as": "Cart"
+    },
+    {
+     "en": "Care",
+     "as": "Care"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In dictionary order, Care comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Care প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-024",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Dog, Doll, Dose, Door?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Dog, Doll, Dose, Door?"
+   },
+   "options": [
+    {
+     "en": "Doll",
+     "as": "Doll"
+    },
+    {
+     "en": "Dog",
+     "as": "Dog"
+    },
+    {
+     "en": "Dose",
+     "as": "Dose"
+    },
+    {
+     "en": "Door",
+     "as": "Door"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In dictionary order, Dog comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Dog প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-025",
+   "q": {
+    "en": "Which of these comes first in the dictionary: East, Earn, Ease, Easy?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: East, Earn, Ease, Easy?"
+   },
+   "options": [
+    {
+     "en": "Easy",
+     "as": "Easy"
+    },
+    {
+     "en": "Earn",
+     "as": "Earn"
+    },
+    {
+     "en": "Ease",
+     "as": "Ease"
+    },
+    {
+     "en": "East",
+     "as": "East"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In dictionary order, Earn comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Earn প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-026",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Fan, Far, Fat, Fad?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Fan, Far, Fat, Fad?"
+   },
+   "options": [
+    {
+     "en": "Far",
+     "as": "Far"
+    },
+    {
+     "en": "Fad",
+     "as": "Fad"
+    },
+    {
+     "en": "Fan",
+     "as": "Fan"
+    },
+    {
+     "en": "Fat",
+     "as": "Fat"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In dictionary order, Fad comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Fad প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-027",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Game, Gate, Gaze, Gang?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Game, Gate, Gaze, Gang?"
+   },
+   "options": [
+    {
+     "en": "Game",
+     "as": "Game"
+    },
+    {
+     "en": "Gaze",
+     "as": "Gaze"
+    },
+    {
+     "en": "Gang",
+     "as": "Gang"
+    },
+    {
+     "en": "Gate",
+     "as": "Gate"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In dictionary order, Game comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Game প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-028",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Hand, Hang, Hard, Harp?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Hand, Hang, Hard, Harp?"
+   },
+   "options": [
+    {
+     "en": "Hard",
+     "as": "Hard"
+    },
+    {
+     "en": "Hand",
+     "as": "Hand"
+    },
+    {
+     "en": "Harp",
+     "as": "Harp"
+    },
+    {
+     "en": "Hang",
+     "as": "Hang"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In dictionary order, Hand comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Hand প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-029",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Ice, Idea, Idle, Iron?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Ice, Idea, Idle, Iron?"
+   },
+   "options": [
+    {
+     "en": "Ice",
+     "as": "Ice"
+    },
+    {
+     "en": "Idea",
+     "as": "Idea"
+    },
+    {
+     "en": "Iron",
+     "as": "Iron"
+    },
+    {
+     "en": "Idle",
+     "as": "Idle"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In dictionary order, Ice comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Ice প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-030",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Jump, Jungle, Junior, Just?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Jump, Jungle, Junior, Just?"
+   },
+   "options": [
+    {
+     "en": "Junior",
+     "as": "Junior"
+    },
+    {
+     "en": "Jungle",
+     "as": "Jungle"
+    },
+    {
+     "en": "Jump",
+     "as": "Jump"
+    },
+    {
+     "en": "Just",
+     "as": "Just"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In dictionary order, Jump comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Jump প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-031",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Kind, King, Kite, Kiss?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Kind, King, Kite, Kiss?"
+   },
+   "options": [
+    {
+     "en": "King",
+     "as": "King"
+    },
+    {
+     "en": "Kite",
+     "as": "Kite"
+    },
+    {
+     "en": "Kiss",
+     "as": "Kiss"
+    },
+    {
+     "en": "Kind",
+     "as": "Kind"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In dictionary order, Kind comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Kind প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-032",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Lamp, Land, Last, Lake?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Lamp, Land, Last, Lake?"
+   },
+   "options": [
+    {
+     "en": "Land",
+     "as": "Land"
+    },
+    {
+     "en": "Lamp",
+     "as": "Lamp"
+    },
+    {
+     "en": "Lake",
+     "as": "Lake"
+    },
+    {
+     "en": "Last",
+     "as": "Last"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In dictionary order, Lake comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Lake প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-033",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Make, Male, Mall, Many?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Make, Male, Mall, Many?"
+   },
+   "options": [
+    {
+     "en": "Mall",
+     "as": "Mall"
+    },
+    {
+     "en": "Make",
+     "as": "Make"
+    },
+    {
+     "en": "Many",
+     "as": "Many"
+    },
+    {
+     "en": "Male",
+     "as": "Male"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In dictionary order, Make comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Make প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-034",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Nail, Name, Nation, Narrow?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Nail, Name, Nation, Narrow?"
+   },
+   "options": [
+    {
+     "en": "Nation",
+     "as": "Nation"
+    },
+    {
+     "en": "Name",
+     "as": "Name"
+    },
+    {
+     "en": "Narrow",
+     "as": "Narrow"
+    },
+    {
+     "en": "Nail",
+     "as": "Nail"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In dictionary order, Nail comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Nail প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-035",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Open, Oval, Over, Ocean?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Open, Oval, Over, Ocean?"
+   },
+   "options": [
+    {
+     "en": "Ocean",
+     "as": "Ocean"
+    },
+    {
+     "en": "Oval",
+     "as": "Oval"
+    },
+    {
+     "en": "Open",
+     "as": "Open"
+    },
+    {
+     "en": "Over",
+     "as": "Over"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In dictionary order, Ocean comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Ocean প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-036",
+   "q": {
+    "en": "Which of these comes first in the dictionary: Rain, Rare, Rate, Race?",
+    "as": "এইবোৰৰ কোনটো অভিধানত প্ৰথমে আহে: Rain, Rare, Rate, Race?"
+   },
+   "options": [
+    {
+     "en": "Rare",
+     "as": "Rare"
+    },
+    {
+     "en": "Race",
+     "as": "Race"
+    },
+    {
+     "en": "Rate",
+     "as": "Rate"
+    },
+    {
+     "en": "Rain",
+     "as": "Rain"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In dictionary order, Race comes first among the given words.",
+    "as": "অভিধানৰ ক্ৰমত দিয়া শব্দবোৰৰ ভিতৰত Race প্ৰথমে আহে।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-037",
+   "q": {
+    "en": "Arrange in alphabetical order: Book, Ball, Bell, Bold. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Book, Ball, Bell, Bold। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Ball",
+     "as": "Ball"
+    },
+    {
+     "en": "Book",
+     "as": "Book"
+    },
+    {
+     "en": "Bold",
+     "as": "Bold"
+    },
+    {
+     "en": "Bell",
+     "as": "Bell"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In alphabetical order the words are Ball, Bell, Bold, Book, so the second is Bell.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Ball, Bell, Bold, Book, গতিকে দ্বিতীয় Bell।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-038",
+   "q": {
+    "en": "Arrange in alphabetical order: Cat, Cup, Coat, Cot. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Cat, Cup, Coat, Cot। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Cot",
+     "as": "Cot"
+    },
+    {
+     "en": "Cup",
+     "as": "Cup"
+    },
+    {
+     "en": "Coat",
+     "as": "Coat"
+    },
+    {
+     "en": "Cat",
+     "as": "Cat"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In alphabetical order the words are Cat, Coat, Cot, Cup, so the second is Coat.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Cat, Coat, Cot, Cup, গতিকে দ্বিতীয় Coat।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-039",
+   "q": {
+    "en": "Arrange in alphabetical order: Pen, Pin, Pan, Pun. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Pen, Pin, Pan, Pun। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Pan",
+     "as": "Pan"
+    },
+    {
+     "en": "Pen",
+     "as": "Pen"
+    },
+    {
+     "en": "Pin",
+     "as": "Pin"
+    },
+    {
+     "en": "Pun",
+     "as": "Pun"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In alphabetical order the words are Pan, Pen, Pin, Pun, so the second is Pen.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Pan, Pen, Pin, Pun, গতিকে দ্বিতীয় Pen।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-040",
+   "q": {
+    "en": "Arrange in alphabetical order: Sun, Son, Sin, San. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Sun, Son, Sin, San। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Son",
+     "as": "Son"
+    },
+    {
+     "en": "Sun",
+     "as": "Sun"
+    },
+    {
+     "en": "San",
+     "as": "San"
+    },
+    {
+     "en": "Sin",
+     "as": "Sin"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In alphabetical order the words are San, Sin, Son, Sun, so the second is Sin.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ San, Sin, Son, Sun, গতিকে দ্বিতীয় Sin।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-041",
+   "q": {
+    "en": "Arrange in alphabetical order: Tree, True, Trip, Trap. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Tree, True, Trip, Trap। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "True",
+     "as": "True"
+    },
+    {
+     "en": "Trip",
+     "as": "Trip"
+    },
+    {
+     "en": "Tree",
+     "as": "Tree"
+    },
+    {
+     "en": "Trap",
+     "as": "Trap"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In alphabetical order the words are Trap, Tree, Trip, True, so the second is Tree.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Trap, Tree, Trip, True, গতিকে দ্বিতীয় Tree।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-042",
+   "q": {
+    "en": "Arrange in alphabetical order: Main, Man, Mean, Moon. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Main, Man, Mean, Moon। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Moon",
+     "as": "Moon"
+    },
+    {
+     "en": "Main",
+     "as": "Main"
+    },
+    {
+     "en": "Man",
+     "as": "Man"
+    },
+    {
+     "en": "Mean",
+     "as": "Mean"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In alphabetical order the words are Main, Man, Mean, Moon, so the second is Man.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Main, Man, Mean, Moon, গতিকে দ্বিতীয় Man।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-043",
+   "q": {
+    "en": "Arrange in alphabetical order: Red, Rod, Rid, Rude. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Red, Rod, Rid, Rude। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Rod",
+     "as": "Rod"
+    },
+    {
+     "en": "Rid",
+     "as": "Rid"
+    },
+    {
+     "en": "Red",
+     "as": "Red"
+    },
+    {
+     "en": "Rude",
+     "as": "Rude"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In alphabetical order the words are Red, Rid, Rod, Rude, so the second is Rid.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Red, Rid, Rod, Rude, গতিকে দ্বিতীয় Rid।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-044",
+   "q": {
+    "en": "Arrange in alphabetical order: Fall, Fill, Full, Fell. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Fall, Fill, Full, Fell। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Full",
+     "as": "Full"
+    },
+    {
+     "en": "Fall",
+     "as": "Fall"
+    },
+    {
+     "en": "Fell",
+     "as": "Fell"
+    },
+    {
+     "en": "Fill",
+     "as": "Fill"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In alphabetical order the words are Fall, Fell, Fill, Full, so the second is Fell.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Fall, Fell, Fill, Full, গতিকে দ্বিতীয় Fell।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-045",
+   "q": {
+    "en": "Arrange in alphabetical order: Goat, Gate, Gift, Gust. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Goat, Gate, Gift, Gust। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Gust",
+     "as": "Gust"
+    },
+    {
+     "en": "Gate",
+     "as": "Gate"
+    },
+    {
+     "en": "Goat",
+     "as": "Goat"
+    },
+    {
+     "en": "Gift",
+     "as": "Gift"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In alphabetical order the words are Gate, Gift, Goat, Gust, so the second is Gift.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Gate, Gift, Goat, Gust, গতিকে দ্বিতীয় Gift।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-046",
+   "q": {
+    "en": "Arrange in alphabetical order: Lake, Like, Look, Luke. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Lake, Like, Look, Luke। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Look",
+     "as": "Look"
+    },
+    {
+     "en": "Luke",
+     "as": "Luke"
+    },
+    {
+     "en": "Lake",
+     "as": "Lake"
+    },
+    {
+     "en": "Like",
+     "as": "Like"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In alphabetical order the words are Lake, Like, Look, Luke, so the second is Like.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Lake, Like, Look, Luke, গতিকে দ্বিতীয় Like।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-047",
+   "q": {
+    "en": "Arrange in alphabetical order: Hand, Hind, Hound, Hard. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Hand, Hind, Hound, Hard। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Hand",
+     "as": "Hand"
+    },
+    {
+     "en": "Hound",
+     "as": "Hound"
+    },
+    {
+     "en": "Hard",
+     "as": "Hard"
+    },
+    {
+     "en": "Hind",
+     "as": "Hind"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In alphabetical order the words are Hand, Hard, Hind, Hound, so the second is Hard.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Hand, Hard, Hind, Hound, গতিকে দ্বিতীয় Hard।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-048",
+   "q": {
+    "en": "Arrange in alphabetical order: Wine, Wind, Wing, Wink. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Wine, Wind, Wing, Wink। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Wink",
+     "as": "Wink"
+    },
+    {
+     "en": "Wine",
+     "as": "Wine"
+    },
+    {
+     "en": "Wing",
+     "as": "Wing"
+    },
+    {
+     "en": "Wind",
+     "as": "Wind"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In alphabetical order the words are Wind, Wine, Wing, Wink, so the second is Wine.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Wind, Wine, Wing, Wink, গতিকে দ্বিতীয় Wine।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-049",
+   "q": {
+    "en": "Arrange in alphabetical order: Cold, Cord, Card, Crowd. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Cold, Cord, Card, Crowd। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Cold",
+     "as": "Cold"
+    },
+    {
+     "en": "Cord",
+     "as": "Cord"
+    },
+    {
+     "en": "Crowd",
+     "as": "Crowd"
+    },
+    {
+     "en": "Card",
+     "as": "Card"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In alphabetical order the words are Card, Cold, Cord, Crowd, so the second is Cold.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Card, Cold, Cord, Crowd, গতিকে দ্বিতীয় Cold।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-050",
+   "q": {
+    "en": "Arrange in alphabetical order: Mail, Male, Mile, Mole. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Mail, Male, Mile, Mole। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Mail",
+     "as": "Mail"
+    },
+    {
+     "en": "Mole",
+     "as": "Mole"
+    },
+    {
+     "en": "Mile",
+     "as": "Mile"
+    },
+    {
+     "en": "Male",
+     "as": "Male"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In alphabetical order the words are Mail, Male, Mile, Mole, so the second is Male.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Mail, Male, Mile, Mole, গতিকে দ্বিতীয় Male।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-051",
+   "q": {
+    "en": "Arrange in alphabetical order: Seat, Sate, Site, Suit. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Seat, Sate, Site, Suit। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Sate",
+     "as": "Sate"
+    },
+    {
+     "en": "Site",
+     "as": "Site"
+    },
+    {
+     "en": "Suit",
+     "as": "Suit"
+    },
+    {
+     "en": "Seat",
+     "as": "Seat"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In alphabetical order the words are Sate, Seat, Site, Suit, so the second is Seat.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Sate, Seat, Site, Suit, গতিকে দ্বিতীয় Seat।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-052",
+   "q": {
+    "en": "Arrange in alphabetical order: Port, Part, Pert, Pact. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Port, Part, Pert, Pact। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Pact",
+     "as": "Pact"
+    },
+    {
+     "en": "Port",
+     "as": "Port"
+    },
+    {
+     "en": "Part",
+     "as": "Part"
+    },
+    {
+     "en": "Pert",
+     "as": "Pert"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In alphabetical order the words are Pact, Part, Pert, Port, so the second is Part.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Pact, Part, Pert, Port, গতিকে দ্বিতীয় Part।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-053",
+   "q": {
+    "en": "Arrange in alphabetical order: Tale, Tile, Tole, Toll. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Tale, Tile, Tole, Toll। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Tole",
+     "as": "Tole"
+    },
+    {
+     "en": "Tile",
+     "as": "Tile"
+    },
+    {
+     "en": "Toll",
+     "as": "Toll"
+    },
+    {
+     "en": "Tale",
+     "as": "Tale"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In alphabetical order the words are Tale, Tile, Tole, Toll, so the second is Tile.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Tale, Tile, Tole, Toll, গতিকে দ্বিতীয় Tile।"
+   }
+  },
+  {
+   "id": "word-formation-dictionary-054",
+   "q": {
+    "en": "Arrange in alphabetical order: Bend, Band, Bind, Bond. Which word is second?",
+    "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Bend, Band, Bind, Bond। দ্বিতীয় শব্দ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Bind",
+     "as": "Bind"
+    },
+    {
+     "en": "Bend",
+     "as": "Bend"
+    },
+    {
+     "en": "Band",
+     "as": "Band"
+    },
+    {
+     "en": "Bond",
+     "as": "Bond"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In alphabetical order the words are Band, Bend, Bind, Bond, so the second is Bend.",
+    "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Band, Bend, Bind, Bond, গতিকে দ্বিতীয় Bend।"
    }
   }
  ],
@@ -64247,61 +83657,1651 @@ module.exports = {
   {
    "id": "alpha-numeric-series-001",
    "q": {
+    "en": "Find the next term: A1, B4, C9, D16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1, B4, C9, D16, ?"
+   },
+   "options": [
+    {
+     "en": "F25",
+     "as": "F25"
+    },
+    {
+     "en": "E26",
+     "as": "E26"
+    },
+    {
+     "en": "E25",
+     "as": "E25"
+    },
+    {
+     "en": "E24",
+     "as": "E24"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters move 1 step(s) forward and the numbers are the squares 1, 4, 9, 16, 25, so the next term is E25.",
+    "as": "আখৰবোৰ 1 খোজ আগলৈ যায় আৰু সংখ্যাবোৰ বৰ্গ 1, 4, 9, 16, 25, গতিকে পিছৰ পদ E25।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-002",
+   "q": {
+    "en": "Find the next term: B1, D4, F9, H16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: B1, D4, F9, H16, ?"
+   },
+   "options": [
+    {
+     "en": "J24",
+     "as": "J24"
+    },
+    {
+     "en": "K25",
+     "as": "K25"
+    },
+    {
+     "en": "J25",
+     "as": "J25"
+    },
+    {
+     "en": "J26",
+     "as": "J26"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters move 2 step(s) forward and the numbers are the squares 1, 4, 9, 16, 25, so the next term is J25.",
+    "as": "আখৰবোৰ 2 খোজ আগলৈ যায় আৰু সংখ্যাবোৰ বৰ্গ 1, 4, 9, 16, 25, গতিকে পিছৰ পদ J25।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-003",
+   "q": {
     "en": "Find the next term: A1, C4, E9, G16, ?",
     "as": "পিছৰ পদটো বিচাৰক: A1, C4, E9, G16, ?"
    },
    "options": [
     {
      "en": "I25",
-     "as": "I২৫"
+     "as": "I25"
     },
     {
-     "en": "H25",
-     "as": "H২৫"
+     "en": "I24",
+     "as": "I24"
     },
     {
-     "en": "I36",
-     "as": "I৩৬"
+     "en": "I26",
+     "as": "I26"
     },
     {
-     "en": "H16",
-     "as": "H১৬"
+     "en": "J25",
+     "as": "J25"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The letters move two steps forward (A, C, E, G, I) and the numbers are the squares of the letter positions (1, 4, 9, 16, 25), so the next term is I25.",
-    "as": "আখৰবোৰ দুখোজ আগলৈ যায় (A, C, E, G, I) আৰু সংখ্যাবোৰ আখৰৰ স্থানৰ বৰ্গ (1, 4, 9, 16, 25), গতিকে পিছৰ পদ I25।"
+    "en": "The letters move 2 step(s) forward and the numbers are the squares 1, 4, 9, 16, 25, so the next term is I25.",
+    "as": "আখৰবোৰ 2 খোজ আগলৈ যায় আৰু সংখ্যাবোৰ বৰ্গ 1, 4, 9, 16, 25, গতিকে পিছৰ পদ I25।"
    }
   },
   {
-   "id": "alpha-numeric-series-002",
+   "id": "alpha-numeric-series-004",
    "q": {
-    "en": "Find the next term: 2A, 4C, 6E, ?",
-    "as": "পিছৰ পদটো বিচাৰক: 2A, 4C, 6E, ?"
+    "en": "Find the next term: C1, F4, I9, L16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: C1, F4, I9, L16, ?"
    },
    "options": [
     {
-     "en": "7G",
-     "as": "৭G"
+     "en": "O24",
+     "as": "O24"
     },
     {
-     "en": "8G",
-     "as": "৮G"
+     "en": "O25",
+     "as": "O25"
     },
     {
-     "en": "8F",
-     "as": "৮F"
+     "en": "O26",
+     "as": "O26"
     },
     {
-     "en": "10G",
-     "as": "১০G"
+     "en": "P25",
+     "as": "P25"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The numbers increase by 2 (2, 4, 6, 8) and the letters move two steps forward (A, C, E, G), so the next term is 8G.",
-    "as": "সংখ্যাবোৰ 2 কৈ বাঢ়ে (2, 4, 6, 8) আৰু আখৰবোৰ দুখোজ আগলৈ যায় (A, C, E, G), গতিকে পিছৰ পদ 8G।"
+    "en": "The letters move 3 step(s) forward and the numbers are the squares 1, 4, 9, 16, 25, so the next term is O25.",
+    "as": "আখৰবোৰ 3 খোজ আগলৈ যায় আৰু সংখ্যাবোৰ বৰ্গ 1, 4, 9, 16, 25, গতিকে পিছৰ পদ O25।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-005",
+   "q": {
+    "en": "Find the next term: E1, F4, G9, H16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: E1, F4, G9, H16, ?"
+   },
+   "options": [
+    {
+     "en": "I25",
+     "as": "I25"
+    },
+    {
+     "en": "I26",
+     "as": "I26"
+    },
+    {
+     "en": "I24",
+     "as": "I24"
+    },
+    {
+     "en": "J25",
+     "as": "J25"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters move 1 step(s) forward and the numbers are the squares 1, 4, 9, 16, 25, so the next term is I25.",
+    "as": "আখৰবোৰ 1 খোজ আগলৈ যায় আৰু সংখ্যাবোৰ বৰ্গ 1, 4, 9, 16, 25, গতিকে পিছৰ পদ I25।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-006",
+   "q": {
+    "en": "Find the next term: F1, H4, J9, L16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: F1, H4, J9, L16, ?"
+   },
+   "options": [
+    {
+     "en": "N24",
+     "as": "N24"
+    },
+    {
+     "en": "N26",
+     "as": "N26"
+    },
+    {
+     "en": "O25",
+     "as": "O25"
+    },
+    {
+     "en": "N25",
+     "as": "N25"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters move 2 step(s) forward and the numbers are the squares 1, 4, 9, 16, 25, so the next term is N25.",
+    "as": "আখৰবোৰ 2 খোজ আগলৈ যায় আৰু সংখ্যাবোৰ বৰ্গ 1, 4, 9, 16, 25, গতিকে পিছৰ পদ N25।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-007",
+   "q": {
+    "en": "Find the next term: 2A, 4B, 6C, 8D, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2A, 4B, 6C, 8D, ?"
+   },
+   "options": [
+    {
+     "en": "9E",
+     "as": "9E"
+    },
+    {
+     "en": "11E",
+     "as": "11E"
+    },
+    {
+     "en": "10E",
+     "as": "10E"
+    },
+    {
+     "en": "10F",
+     "as": "10F"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The numbers increase by 2 and the letters move 1 step(s) forward, so the next term is 10E.",
+    "as": "সংখ্যাবোৰ 2 ৰে বাঢ়ে আৰু আখৰবোৰ 1 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 10E।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-008",
+   "q": {
+    "en": "Find the next term: 3B, 6D, 9F, 12H, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 3B, 6D, 9F, 12H, ?"
+   },
+   "options": [
+    {
+     "en": "15J",
+     "as": "15J"
+    },
+    {
+     "en": "14J",
+     "as": "14J"
+    },
+    {
+     "en": "15K",
+     "as": "15K"
+    },
+    {
+     "en": "16J",
+     "as": "16J"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The numbers increase by 3 and the letters move 2 step(s) forward, so the next term is 15J.",
+    "as": "সংখ্যাবোৰ 3 ৰে বাঢ়ে আৰু আখৰবোৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 15J।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-009",
+   "q": {
+    "en": "Find the next term: 1A, 3C, 5E, 7G, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1A, 3C, 5E, 7G, ?"
+   },
+   "options": [
+    {
+     "en": "9I",
+     "as": "9I"
+    },
+    {
+     "en": "8I",
+     "as": "8I"
+    },
+    {
+     "en": "9J",
+     "as": "9J"
+    },
+    {
+     "en": "10I",
+     "as": "10I"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The numbers increase by 2 and the letters move 2 step(s) forward, so the next term is 9I.",
+    "as": "সংখ্যাবোৰ 2 ৰে বাঢ়ে আৰু আখৰবোৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 9I।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-010",
+   "q": {
+    "en": "Find the next term: 5C, 10D, 15E, 20F, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 5C, 10D, 15E, 20F, ?"
+   },
+   "options": [
+    {
+     "en": "26G",
+     "as": "26G"
+    },
+    {
+     "en": "25H",
+     "as": "25H"
+    },
+    {
+     "en": "25G",
+     "as": "25G"
+    },
+    {
+     "en": "24G",
+     "as": "24G"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The numbers increase by 5 and the letters move 1 step(s) forward, so the next term is 25G.",
+    "as": "সংখ্যাবোৰ 5 ৰে বাঢ়ে আৰু আখৰবোৰ 1 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 25G।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-011",
+   "q": {
+    "en": "Find the next term: 4A, 6D, 8G, 10J, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 4A, 6D, 8G, 10J, ?"
+   },
+   "options": [
+    {
+     "en": "12N",
+     "as": "12N"
+    },
+    {
+     "en": "11M",
+     "as": "11M"
+    },
+    {
+     "en": "13M",
+     "as": "13M"
+    },
+    {
+     "en": "12M",
+     "as": "12M"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The numbers increase by 2 and the letters move 3 step(s) forward, so the next term is 12M.",
+    "as": "সংখ্যাবোৰ 2 ৰে বাঢ়ে আৰু আখৰবোৰ 3 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 12M।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-012",
+   "q": {
+    "en": "Find the next term: 6E, 9G, 12I, 15K, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 6E, 9G, 12I, 15K, ?"
+   },
+   "options": [
+    {
+     "en": "19M",
+     "as": "19M"
+    },
+    {
+     "en": "18N",
+     "as": "18N"
+    },
+    {
+     "en": "17M",
+     "as": "17M"
+    },
+    {
+     "en": "18M",
+     "as": "18M"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The numbers increase by 3 and the letters move 2 step(s) forward, so the next term is 18M.",
+    "as": "সংখ্যাবোৰ 3 ৰে বাঢ়ে আৰু আখৰবোৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 18M।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-013",
+   "q": {
+    "en": "Find the next term: 10A, 20B, 30C, 40D, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 10A, 20B, 30C, 40D, ?"
+   },
+   "options": [
+    {
+     "en": "51E",
+     "as": "51E"
+    },
+    {
+     "en": "50E",
+     "as": "50E"
+    },
+    {
+     "en": "49E",
+     "as": "49E"
+    },
+    {
+     "en": "50F",
+     "as": "50F"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The numbers increase by 10 and the letters move 1 step(s) forward, so the next term is 50E.",
+    "as": "সংখ্যাবোৰ 10 ৰে বাঢ়ে আৰু আখৰবোৰ 1 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 50E।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-014",
+   "q": {
+    "en": "Find the next term: 7F, 14H, 21J, 28L, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 7F, 14H, 21J, 28L, ?"
+   },
+   "options": [
+    {
+     "en": "34N",
+     "as": "34N"
+    },
+    {
+     "en": "36N",
+     "as": "36N"
+    },
+    {
+     "en": "35N",
+     "as": "35N"
+    },
+    {
+     "en": "35O",
+     "as": "35O"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The numbers increase by 7 and the letters move 2 step(s) forward, so the next term is 35N.",
+    "as": "সংখ্যাবোৰ 7 ৰে বাঢ়ে আৰু আখৰবোৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ পদ 35N।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-015",
+   "q": {
+    "en": "Find the next term: A1, B2, C3, D4, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1, B2, C3, D4, ?"
+   },
+   "options": [
+    {
+     "en": "F5",
+     "as": "F5"
+    },
+    {
+     "en": "E6",
+     "as": "E6"
+    },
+    {
+     "en": "E5",
+     "as": "E5"
+    },
+    {
+     "en": "E4",
+     "as": "E4"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so E is 5 and the next term is E5.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে E হৈছে 5 আৰু পিছৰ পদ E5।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-016",
+   "q": {
+    "en": "Find the next term: A1, C3, E5, G7, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1, C3, E5, G7, ?"
+   },
+   "options": [
+    {
+     "en": "I8",
+     "as": "I8"
+    },
+    {
+     "en": "I9",
+     "as": "I9"
+    },
+    {
+     "en": "J9",
+     "as": "J9"
+    },
+    {
+     "en": "I10",
+     "as": "I10"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so I is 9 and the next term is I9.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে I হৈছে 9 আৰু পিছৰ পদ I9।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-017",
+   "q": {
+    "en": "Find the next term: B2, E5, H8, K11, ?",
+    "as": "পিছৰ পদটো বিচাৰক: B2, E5, H8, K11, ?"
+   },
+   "options": [
+    {
+     "en": "N15",
+     "as": "N15"
+    },
+    {
+     "en": "N14",
+     "as": "N14"
+    },
+    {
+     "en": "O14",
+     "as": "O14"
+    },
+    {
+     "en": "N13",
+     "as": "N13"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so N is 14 and the next term is N14.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে N হৈছে 14 আৰু পিছৰ পদ N14।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-018",
+   "q": {
+    "en": "Find the next term: C3, E5, G7, I9, ?",
+    "as": "পিছৰ পদটো বিচাৰক: C3, E5, G7, I9, ?"
+   },
+   "options": [
+    {
+     "en": "K11",
+     "as": "K11"
+    },
+    {
+     "en": "K10",
+     "as": "K10"
+    },
+    {
+     "en": "K12",
+     "as": "K12"
+    },
+    {
+     "en": "L11",
+     "as": "L11"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so K is 11 and the next term is K11.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে K হৈছে 11 আৰু পিছৰ পদ K11।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-019",
+   "q": {
+    "en": "Find the next term: A1, D4, G7, J10, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1, D4, G7, J10, ?"
+   },
+   "options": [
+    {
+     "en": "M14",
+     "as": "M14"
+    },
+    {
+     "en": "M13",
+     "as": "M13"
+    },
+    {
+     "en": "M12",
+     "as": "M12"
+    },
+    {
+     "en": "N13",
+     "as": "N13"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so M is 13 and the next term is M13.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে M হৈছে 13 আৰু পিছৰ পদ M13।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-020",
+   "q": {
+    "en": "Find the next term: E5, G7, I9, K11, ?",
+    "as": "পিছৰ পদটো বিচাৰক: E5, G7, I9, K11, ?"
+   },
+   "options": [
+    {
+     "en": "N13",
+     "as": "N13"
+    },
+    {
+     "en": "M12",
+     "as": "M12"
+    },
+    {
+     "en": "M14",
+     "as": "M14"
+    },
+    {
+     "en": "M13",
+     "as": "M13"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so M is 13 and the next term is M13.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে M হৈছে 13 আৰু পিছৰ পদ M13।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-021",
+   "q": {
+    "en": "Find the next term: G7, J10, M13, P16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: G7, J10, M13, P16, ?"
+   },
+   "options": [
+    {
+     "en": "S19",
+     "as": "S19"
+    },
+    {
+     "en": "S20",
+     "as": "S20"
+    },
+    {
+     "en": "T19",
+     "as": "T19"
+    },
+    {
+     "en": "S18",
+     "as": "S18"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so S is 19 and the next term is S19.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে S হৈছে 19 আৰু পিছৰ পদ S19।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-022",
+   "q": {
+    "en": "Find the next term: K11, M13, O15, Q17, ?",
+    "as": "পিছৰ পদটো বিচাৰক: K11, M13, O15, Q17, ?"
+   },
+   "options": [
+    {
+     "en": "S18",
+     "as": "S18"
+    },
+    {
+     "en": "S19",
+     "as": "S19"
+    },
+    {
+     "en": "T19",
+     "as": "T19"
+    },
+    {
+     "en": "S20",
+     "as": "S20"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is the position of its letter in the alphabet, so S is 19 and the next term is S19.",
+    "as": "প্ৰতিটো সংখ্যা তাৰ আখৰৰ বৰ্ণমালাৰ স্থান, গতিকে S হৈছে 19 আৰু পিছৰ পদ S19।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-023",
+   "q": {
+    "en": "What comes next: 1A, 2B, 3C, 4D, ?",
+    "as": "পিছত কি আহে: 1A, 2B, 3C, 4D, ?"
+   },
+   "options": [
+    {
+     "en": "7E",
+     "as": "7E"
+    },
+    {
+     "en": "5F",
+     "as": "5F"
+    },
+    {
+     "en": "5E",
+     "as": "5E"
+    },
+    {
+     "en": "3E",
+     "as": "3E"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The number increases by 1 and the letter advances 1 step(s), giving 5E.",
+    "as": "সংখ্যাটো 1 ৰে বাঢ়ে আৰু আখৰটো 1 খোজ আগবাঢ়ে, গতিকে 5E।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-024",
+   "q": {
+    "en": "What comes next: 2B, 5D, 8F, 11H, ?",
+    "as": "পিছত কি আহে: 2B, 5D, 8F, 11H, ?"
+   },
+   "options": [
+    {
+     "en": "14K",
+     "as": "14K"
+    },
+    {
+     "en": "12J",
+     "as": "12J"
+    },
+    {
+     "en": "14J",
+     "as": "14J"
+    },
+    {
+     "en": "16J",
+     "as": "16J"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The number increases by 3 and the letter advances 2 step(s), giving 14J.",
+    "as": "সংখ্যাটো 3 ৰে বাঢ়ে আৰু আখৰটো 2 খোজ আগবাঢ়ে, গতিকে 14J।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-025",
+   "q": {
+    "en": "What comes next: 5A, 10C, 15E, 20G, ?",
+    "as": "পিছত কি আহে: 5A, 10C, 15E, 20G, ?"
+   },
+   "options": [
+    {
+     "en": "25I",
+     "as": "25I"
+    },
+    {
+     "en": "25J",
+     "as": "25J"
+    },
+    {
+     "en": "27I",
+     "as": "27I"
+    },
+    {
+     "en": "23I",
+     "as": "23I"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The number increases by 5 and the letter advances 2 step(s), giving 25I.",
+    "as": "সংখ্যাটো 5 ৰে বাঢ়ে আৰু আখৰটো 2 খোজ আগবাঢ়ে, গতিকে 25I।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-026",
+   "q": {
+    "en": "What comes next: 10C, 20D, 30E, 40F, ?",
+    "as": "পিছত কি আহে: 10C, 20D, 30E, 40F, ?"
+   },
+   "options": [
+    {
+     "en": "50H",
+     "as": "50H"
+    },
+    {
+     "en": "50G",
+     "as": "50G"
+    },
+    {
+     "en": "52G",
+     "as": "52G"
+    },
+    {
+     "en": "48G",
+     "as": "48G"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The number increases by 10 and the letter advances 1 step(s), giving 50G.",
+    "as": "সংখ্যাটো 10 ৰে বাঢ়ে আৰু আখৰটো 1 খোজ আগবাঢ়ে, গতিকে 50G।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-027",
+   "q": {
+    "en": "What comes next: 3A, 7D, 11G, 15J, ?",
+    "as": "পিছত কি আহে: 3A, 7D, 11G, 15J, ?"
+   },
+   "options": [
+    {
+     "en": "17M",
+     "as": "17M"
+    },
+    {
+     "en": "19M",
+     "as": "19M"
+    },
+    {
+     "en": "19N",
+     "as": "19N"
+    },
+    {
+     "en": "21M",
+     "as": "21M"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The number increases by 4 and the letter advances 3 step(s), giving 19M.",
+    "as": "সংখ্যাটো 4 ৰে বাঢ়ে আৰু আখৰটো 3 খোজ আগবাঢ়ে, গতিকে 19M।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-028",
+   "q": {
+    "en": "What comes next: 20E, 40G, 60I, 80K, ?",
+    "as": "পিছত কি আহে: 20E, 40G, 60I, 80K, ?"
+   },
+   "options": [
+    {
+     "en": "100M",
+     "as": "100M"
+    },
+    {
+     "en": "102M",
+     "as": "102M"
+    },
+    {
+     "en": "100N",
+     "as": "100N"
+    },
+    {
+     "en": "98M",
+     "as": "98M"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The number increases by 20 and the letter advances 2 step(s), giving 100M.",
+    "as": "সংখ্যাটো 20 ৰে বাঢ়ে আৰু আখৰটো 2 খোজ আগবাঢ়ে, গতিকে 100M।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-029",
+   "q": {
+    "en": "Find the next term: Z1, Y2, X3, W4, ?",
+    "as": "পিছৰ পদটো বিচাৰক: Z1, Y2, X3, W4, ?"
+   },
+   "options": [
+    {
+     "en": "V5",
+     "as": "V5"
+    },
+    {
+     "en": "U5",
+     "as": "U5"
+    },
+    {
+     "en": "V6",
+     "as": "V6"
+    },
+    {
+     "en": "V4",
+     "as": "V4"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters move 1 step(s) backward and the numbers increase 1, 2, 3, 4, 5, so the next term is V5.",
+    "as": "আখৰবোৰ 1 খোজ পিছলৈ যায় আৰু সংখ্যাবোৰ 1, 2, 3, 4, 5 কৈ বাঢ়ে, গতিকে পিছৰ পদ V5।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-030",
+   "q": {
+    "en": "Find the next term: Z1, X2, V3, T4, ?",
+    "as": "পিছৰ পদটো বিচাৰক: Z1, X2, V3, T4, ?"
+   },
+   "options": [
+    {
+     "en": "R6",
+     "as": "R6"
+    },
+    {
+     "en": "R4",
+     "as": "R4"
+    },
+    {
+     "en": "R5",
+     "as": "R5"
+    },
+    {
+     "en": "Q5",
+     "as": "Q5"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters move 2 step(s) backward and the numbers increase 1, 2, 3, 4, 5, so the next term is R5.",
+    "as": "আখৰবোৰ 2 খোজ পিছলৈ যায় আৰু সংখ্যাবোৰ 1, 2, 3, 4, 5 কৈ বাঢ়ে, গতিকে পিছৰ পদ R5।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-031",
+   "q": {
+    "en": "Find the next term: Y1, W2, U3, S4, ?",
+    "as": "পিছৰ পদটো বিচাৰক: Y1, W2, U3, S4, ?"
+   },
+   "options": [
+    {
+     "en": "P5",
+     "as": "P5"
+    },
+    {
+     "en": "Q5",
+     "as": "Q5"
+    },
+    {
+     "en": "Q4",
+     "as": "Q4"
+    },
+    {
+     "en": "Q6",
+     "as": "Q6"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters move 2 step(s) backward and the numbers increase 1, 2, 3, 4, 5, so the next term is Q5.",
+    "as": "আখৰবোৰ 2 খোজ পিছলৈ যায় আৰু সংখ্যাবোৰ 1, 2, 3, 4, 5 কৈ বাঢ়ে, গতিকে পিছৰ পদ Q5।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-032",
+   "q": {
+    "en": "Find the next term: X1, U2, R3, O4, ?",
+    "as": "পিছৰ পদটো বিচাৰক: X1, U2, R3, O4, ?"
+   },
+   "options": [
+    {
+     "en": "L6",
+     "as": "L6"
+    },
+    {
+     "en": "L5",
+     "as": "L5"
+    },
+    {
+     "en": "L4",
+     "as": "L4"
+    },
+    {
+     "en": "K5",
+     "as": "K5"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters move 3 step(s) backward and the numbers increase 1, 2, 3, 4, 5, so the next term is L5.",
+    "as": "আখৰবোৰ 3 খোজ পিছলৈ যায় আৰু সংখ্যাবোৰ 1, 2, 3, 4, 5 কৈ বাঢ়ে, গতিকে পিছৰ পদ L5।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-033",
+   "q": {
+    "en": "Find the next term: Z1, W2, T3, Q4, ?",
+    "as": "পিছৰ পদটো বিচাৰক: Z1, W2, T3, Q4, ?"
+   },
+   "options": [
+    {
+     "en": "N6",
+     "as": "N6"
+    },
+    {
+     "en": "M5",
+     "as": "M5"
+    },
+    {
+     "en": "N4",
+     "as": "N4"
+    },
+    {
+     "en": "N5",
+     "as": "N5"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters move 3 step(s) backward and the numbers increase 1, 2, 3, 4, 5, so the next term is N5.",
+    "as": "আখৰবোৰ 3 খোজ পিছলৈ যায় আৰু সংখ্যাবোৰ 1, 2, 3, 4, 5 কৈ বাঢ়ে, গতিকে পিছৰ পদ N5।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-034",
+   "q": {
+    "en": "Find the next term: W1, U2, S3, Q4, ?",
+    "as": "পিছৰ পদটো বিচাৰক: W1, U2, S3, Q4, ?"
+   },
+   "options": [
+    {
+     "en": "O5",
+     "as": "O5"
+    },
+    {
+     "en": "O6",
+     "as": "O6"
+    },
+    {
+     "en": "N5",
+     "as": "N5"
+    },
+    {
+     "en": "O4",
+     "as": "O4"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters move 2 step(s) backward and the numbers increase 1, 2, 3, 4, 5, so the next term is O5.",
+    "as": "আখৰবোৰ 2 খোজ পিছলৈ যায় আৰু সংখ্যাবোৰ 1, 2, 3, 4, 5 কৈ বাঢ়ে, গতিকে পিছৰ পদ O5।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-035",
+   "q": {
+    "en": "Find the next term: A2, B4, C6, D8, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A2, B4, C6, D8, ?"
+   },
+   "options": [
+    {
+     "en": "E11",
+     "as": "E11"
+    },
+    {
+     "en": "E10",
+     "as": "E10"
+    },
+    {
+     "en": "F10",
+     "as": "F10"
+    },
+    {
+     "en": "E9",
+     "as": "E9"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is 2 times the letter's alphabet position, so the next term is E10.",
+    "as": "প্ৰতিটো সংখ্যা আখৰৰ বৰ্ণমালাৰ স্থানৰ 2 গুণ, গতিকে পিছৰ পদ E10।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-036",
+   "q": {
+    "en": "Find the next term: B6, D12, F18, H24, ?",
+    "as": "পিছৰ পদটো বিচাৰক: B6, D12, F18, H24, ?"
+   },
+   "options": [
+    {
+     "en": "J31",
+     "as": "J31"
+    },
+    {
+     "en": "K30",
+     "as": "K30"
+    },
+    {
+     "en": "J29",
+     "as": "J29"
+    },
+    {
+     "en": "J30",
+     "as": "J30"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each number is 3 times the letter's alphabet position, so the next term is J30.",
+    "as": "প্ৰতিটো সংখ্যা আখৰৰ বৰ্ণমালাৰ স্থানৰ 3 গুণ, গতিকে পিছৰ পদ J30।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-037",
+   "q": {
+    "en": "Find the next term: A2, C6, E10, G14, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A2, C6, E10, G14, ?"
+   },
+   "options": [
+    {
+     "en": "I17",
+     "as": "I17"
+    },
+    {
+     "en": "I18",
+     "as": "I18"
+    },
+    {
+     "en": "J18",
+     "as": "J18"
+    },
+    {
+     "en": "I19",
+     "as": "I19"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is 2 times the letter's alphabet position, so the next term is I18.",
+    "as": "প্ৰতিটো সংখ্যা আখৰৰ বৰ্ণমালাৰ স্থানৰ 2 গুণ, গতিকে পিছৰ পদ I18।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-038",
+   "q": {
+    "en": "Find the next term: C12, D16, E20, F24, ?",
+    "as": "পিছৰ পদটো বিচাৰক: C12, D16, E20, F24, ?"
+   },
+   "options": [
+    {
+     "en": "H28",
+     "as": "H28"
+    },
+    {
+     "en": "G28",
+     "as": "G28"
+    },
+    {
+     "en": "G29",
+     "as": "G29"
+    },
+    {
+     "en": "G27",
+     "as": "G27"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is 4 times the letter's alphabet position, so the next term is G28.",
+    "as": "প্ৰতিটো সংখ্যা আখৰৰ বৰ্ণমালাৰ স্থানৰ 4 গুণ, গতিকে পিছৰ পদ G28।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-039",
+   "q": {
+    "en": "Find the next term: D8, G14, J20, M26, ?",
+    "as": "পিছৰ পদটো বিচাৰক: D8, G14, J20, M26, ?"
+   },
+   "options": [
+    {
+     "en": "P31",
+     "as": "P31"
+    },
+    {
+     "en": "P32",
+     "as": "P32"
+    },
+    {
+     "en": "P33",
+     "as": "P33"
+    },
+    {
+     "en": "Q32",
+     "as": "Q32"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each number is 2 times the letter's alphabet position, so the next term is P32.",
+    "as": "প্ৰতিটো সংখ্যা আখৰৰ বৰ্ণমালাৰ স্থানৰ 2 গুণ, গতিকে পিছৰ পদ P32।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-040",
+   "q": {
+    "en": "Find the next term: 12A, 23B, 34C, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 12A, 23B, 34C, ?"
+   },
+   "options": [
+    {
+     "en": "45E",
+     "as": "45E"
+    },
+    {
+     "en": "45D",
+     "as": "45D"
+    },
+    {
+     "en": "56D",
+     "as": "56D"
+    },
+    {
+     "en": "46D",
+     "as": "46D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is two consecutive numbers followed by a letter moving 1 step(s), so the next term is 45D.",
+    "as": "প্ৰতিটো পদ দুটা ক্ৰমিক সংখ্যা আৰু 1 খোজ আগবঢ়া আখৰ, গতিকে পিছৰ পদ 45D।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-041",
+   "q": {
+    "en": "Find the next term: 23C, 34E, 45G, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 23C, 34E, 45G, ?"
+   },
+   "options": [
+    {
+     "en": "57I",
+     "as": "57I"
+    },
+    {
+     "en": "56I",
+     "as": "56I"
+    },
+    {
+     "en": "56J",
+     "as": "56J"
+    },
+    {
+     "en": "67I",
+     "as": "67I"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each term is two consecutive numbers followed by a letter moving 2 step(s), so the next term is 56I.",
+    "as": "প্ৰতিটো পদ দুটা ক্ৰমিক সংখ্যা আৰু 2 খোজ আগবঢ়া আখৰ, গতিকে পিছৰ পদ 56I।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-042",
+   "q": {
+    "en": "Find the next term: 34B, 45C, 56D, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 34B, 45C, 56D, ?"
+   },
+   "options": [
+    {
+     "en": "78E",
+     "as": "78E"
+    },
+    {
+     "en": "67F",
+     "as": "67F"
+    },
+    {
+     "en": "67E",
+     "as": "67E"
+    },
+    {
+     "en": "68E",
+     "as": "68E"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Each term is two consecutive numbers followed by a letter moving 1 step(s), so the next term is 67E.",
+    "as": "প্ৰতিটো পদ দুটা ক্ৰমিক সংখ্যা আৰু 1 খোজ আগবঢ়া আখৰ, গতিকে পিছৰ পদ 67E।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-043",
+   "q": {
+    "en": "Find the next term: 45A, 56D, 67G, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 45A, 56D, 67G, ?"
+   },
+   "options": [
+    {
+     "en": "78J",
+     "as": "78J"
+    },
+    {
+     "en": "79J",
+     "as": "79J"
+    },
+    {
+     "en": "89J",
+     "as": "89J"
+    },
+    {
+     "en": "78K",
+     "as": "78K"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Each term is two consecutive numbers followed by a letter moving 3 step(s), so the next term is 78J.",
+    "as": "প্ৰতিটো পদ দুটা ক্ৰমিক সংখ্যা আৰু 3 খোজ আগবঢ়া আখৰ, গতিকে পিছৰ পদ 78J।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-044",
+   "q": {
+    "en": "Find the next term: 56E, 67G, 78I, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 56E, 67G, 78I, ?"
+   },
+   "options": [
+    {
+     "en": "910K",
+     "as": "910K"
+    },
+    {
+     "en": "89L",
+     "as": "89L"
+    },
+    {
+     "en": "810K",
+     "as": "810K"
+    },
+    {
+     "en": "89K",
+     "as": "89K"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each term is two consecutive numbers followed by a letter moving 2 step(s), so the next term is 89K.",
+    "as": "প্ৰতিটো পদ দুটা ক্ৰমিক সংখ্যা আৰু 2 খোজ আগবঢ়া আখৰ, গতিকে পিছৰ পদ 89K।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-045",
+   "q": {
+    "en": "Find the next term: A1B2, C3D4, E5F6, G7H8, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1B2, C3D4, E5F6, G7H8, ?"
+   },
+   "options": [
+    {
+     "en": "C3D4",
+     "as": "C3D4"
+    },
+    {
+     "en": "A1B2",
+     "as": "A1B2"
+    },
+    {
+     "en": "G7H8",
+     "as": "G7H8"
+    },
+    {
+     "en": "I9J10",
+     "as": "I9J10"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Each group carries two consecutive letters and two consecutive numbers in order, so the next term is I9J10.",
+    "as": "প্ৰতিটো দলে ক্ৰমে দুটা ক্ৰমিক আখৰ আৰু দুটা ক্ৰমিক সংখ্যা লৈ যায়, গতিকে পিছৰ পদ I9J10।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-046",
+   "q": {
+    "en": "Find the next term: 1A2B, 3C4D, 5E6F, 7G8H, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1A2B, 3C4D, 5E6F, 7G8H, ?"
+   },
+   "options": [
+    {
+     "en": "7G8H",
+     "as": "7G8H"
+    },
+    {
+     "en": "9I10J",
+     "as": "9I10J"
+    },
+    {
+     "en": "3C4D",
+     "as": "3C4D"
+    },
+    {
+     "en": "1A2B",
+     "as": "1A2B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each group carries two consecutive letters and two consecutive numbers in order, so the next term is 9I10J.",
+    "as": "প্ৰতিটো দলে ক্ৰমে দুটা ক্ৰমিক আখৰ আৰু দুটা ক্ৰমিক সংখ্যা লৈ যায়, গতিকে পিছৰ পদ 9I10J।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-047",
+   "q": {
+    "en": "Find the next term: A2B4, C6D8, E10F12, G14H16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A2B4, C6D8, E10F12, G14H16, ?"
+   },
+   "options": [
+    {
+     "en": "C6D8",
+     "as": "C6D8"
+    },
+    {
+     "en": "I18J20",
+     "as": "I18J20"
+    },
+    {
+     "en": "A2B4",
+     "as": "A2B4"
+    },
+    {
+     "en": "G14H16",
+     "as": "G14H16"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each group carries two consecutive letters and two consecutive numbers in order, so the next term is I18J20.",
+    "as": "প্ৰতিটো দলে ক্ৰমে দুটা ক্ৰমিক আখৰ আৰু দুটা ক্ৰমিক সংখ্যা লৈ যায়, গতিকে পিছৰ পদ I18J20।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-048",
+   "q": {
+    "en": "Find the next term: 2A4B, 6C8D, 10E12F, 14G16H, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2A4B, 6C8D, 10E12F, 14G16H, ?"
+   },
+   "options": [
+    {
+     "en": "2A4B",
+     "as": "2A4B"
+    },
+    {
+     "en": "18I20J",
+     "as": "18I20J"
+    },
+    {
+     "en": "6C8D",
+     "as": "6C8D"
+    },
+    {
+     "en": "14G16H",
+     "as": "14G16H"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each group carries two consecutive letters and two consecutive numbers in order, so the next term is 18I20J.",
+    "as": "প্ৰতিটো দলে ক্ৰমে দুটা ক্ৰমিক আখৰ আৰু দুটা ক্ৰমিক সংখ্যা লৈ যায়, গতিকে পিছৰ পদ 18I20J।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-049",
+   "q": {
+    "en": "Find the next term: Z1Y2, X3W4, V5U6, T7S8, ?",
+    "as": "পিছৰ পদটো বিচাৰক: Z1Y2, X3W4, V5U6, T7S8, ?"
+   },
+   "options": [
+    {
+     "en": "Z1Y2",
+     "as": "Z1Y2"
+    },
+    {
+     "en": "R9Q10",
+     "as": "R9Q10"
+    },
+    {
+     "en": "T7S8",
+     "as": "T7S8"
+    },
+    {
+     "en": "X3W4",
+     "as": "X3W4"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each group carries two consecutive letters and two consecutive numbers in order, so the next term is R9Q10.",
+    "as": "প্ৰতিটো দলে ক্ৰমে দুটা ক্ৰমিক আখৰ আৰু দুটা ক্ৰমিক সংখ্যা লৈ যায়, গতিকে পিছৰ পদ R9Q10।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-050",
+   "q": {
+    "en": "Find the next term: 1Z2Y, 3X4W, 5V6U, 7T8S, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 1Z2Y, 3X4W, 5V6U, 7T8S, ?"
+   },
+   "options": [
+    {
+     "en": "3X4W",
+     "as": "3X4W"
+    },
+    {
+     "en": "9R10Q",
+     "as": "9R10Q"
+    },
+    {
+     "en": "7T8S",
+     "as": "7T8S"
+    },
+    {
+     "en": "1Z2Y",
+     "as": "1Z2Y"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Each group carries two consecutive letters and two consecutive numbers in order, so the next term is 9R10Q.",
+    "as": "প্ৰতিটো দলে ক্ৰমে দুটা ক্ৰমিক আখৰ আৰু দুটা ক্ৰমিক সংখ্যা লৈ যায়, গতিকে পিছৰ পদ 9R10Q।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-051",
+   "q": {
+    "en": "Find the next term: A1, B8, C27, D64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1, B8, C27, D64, ?"
+   },
+   "options": [
+    {
+     "en": "E64",
+     "as": "E64"
+    },
+    {
+     "en": "E216",
+     "as": "E216"
+    },
+    {
+     "en": "F125",
+     "as": "F125"
+    },
+    {
+     "en": "E125",
+     "as": "E125"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters advance 1 step(s) and the numbers are the cubes 1, 8, 27, 64, 125, so the next term is E125.",
+    "as": "আখৰবোৰ 1 খোজ আগবাঢ়ে আৰু সংখ্যাবোৰ ঘন 1, 8, 27, 64, 125, গতিকে পিছৰ পদ E125।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-052",
+   "q": {
+    "en": "Find the next term: B1, D8, F27, H64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: B1, D8, F27, H64, ?"
+   },
+   "options": [
+    {
+     "en": "J216",
+     "as": "J216"
+    },
+    {
+     "en": "J64",
+     "as": "J64"
+    },
+    {
+     "en": "J125",
+     "as": "J125"
+    },
+    {
+     "en": "K125",
+     "as": "K125"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters advance 2 step(s) and the numbers are the cubes 1, 8, 27, 64, 125, so the next term is J125.",
+    "as": "আখৰবোৰ 2 খোজ আগবাঢ়ে আৰু সংখ্যাবোৰ ঘন 1, 8, 27, 64, 125, গতিকে পিছৰ পদ J125।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-053",
+   "q": {
+    "en": "Find the next term: C1, D8, E27, F64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: C1, D8, E27, F64, ?"
+   },
+   "options": [
+    {
+     "en": "G216",
+     "as": "G216"
+    },
+    {
+     "en": "G64",
+     "as": "G64"
+    },
+    {
+     "en": "H125",
+     "as": "H125"
+    },
+    {
+     "en": "G125",
+     "as": "G125"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters advance 1 step(s) and the numbers are the cubes 1, 8, 27, 64, 125, so the next term is G125.",
+    "as": "আখৰবোৰ 1 খোজ আগবাঢ়ে আৰু সংখ্যাবোৰ ঘন 1, 8, 27, 64, 125, গতিকে পিছৰ পদ G125।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-054",
+   "q": {
+    "en": "Find the next term: A1, D8, G27, J64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1, D8, G27, J64, ?"
+   },
+   "options": [
+    {
+     "en": "N125",
+     "as": "N125"
+    },
+    {
+     "en": "M216",
+     "as": "M216"
+    },
+    {
+     "en": "M64",
+     "as": "M64"
+    },
+    {
+     "en": "M125",
+     "as": "M125"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters advance 3 step(s) and the numbers are the cubes 1, 8, 27, 64, 125, so the next term is M125.",
+    "as": "আখৰবোৰ 3 খোজ আগবাঢ়ে আৰু সংখ্যাবোৰ ঘন 1, 8, 27, 64, 125, গতিকে পিছৰ পদ M125।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-055",
+   "q": {
+    "en": "Find the next term: D1, F8, H27, J64, ?",
+    "as": "পিছৰ পদটো বিচাৰক: D1, F8, H27, J64, ?"
+   },
+   "options": [
+    {
+     "en": "L125",
+     "as": "L125"
+    },
+    {
+     "en": "L216",
+     "as": "L216"
+    },
+    {
+     "en": "M125",
+     "as": "M125"
+    },
+    {
+     "en": "L64",
+     "as": "L64"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters advance 2 step(s) and the numbers are the cubes 1, 8, 27, 64, 125, so the next term is L125.",
+    "as": "আখৰবোৰ 2 খোজ আগবাঢ়ে আৰু সংখ্যাবোৰ ঘন 1, 8, 27, 64, 125, গতিকে পিছৰ পদ L125।"
    }
   }
  ],
@@ -64309,13 +85309,1093 @@ module.exports = {
   {
    "id": "alphabet-test-word-formation-001",
    "q": {
-    "en": "Which letter lies exactly in the middle of the letters from A to I?",
-    "as": "A ৰ পৰা I লৈ আখৰবোৰৰ মাজত থকা আখৰটো কোন?"
+    "en": "What is the position of the letter C in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত C আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Counting from A, C is the 3th letter.",
+    "as": "A ৰ পৰা গণিলে C হৈছে 3 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-002",
+   "q": {
+    "en": "What is the position of the letter F in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত F আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "8",
+     "as": "8"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting from A, F is the 6th letter.",
+    "as": "A ৰ পৰা গণিলে F হৈছে 6 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-003",
+   "q": {
+    "en": "What is the position of the letter J in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত J আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "9",
+     "as": "9"
+    },
+    {
+     "en": "11",
+     "as": "11"
+    },
+    {
+     "en": "12",
+     "as": "12"
+    },
+    {
+     "en": "10",
+     "as": "10"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Counting from A, J is the 10th letter.",
+    "as": "A ৰ পৰা গণিলে J হৈছে 10 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-004",
+   "q": {
+    "en": "What is the position of the letter M in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত M আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "12"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    },
+    {
+     "en": "13",
+     "as": "13"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Counting from A, M is the 13th letter.",
+    "as": "A ৰ পৰা গণিলে M হৈছে 13 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-005",
+   "q": {
+    "en": "What is the position of the letter P in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত P আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "18",
+     "as": "18"
+    },
+    {
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "17",
+     "as": "17"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting from A, P is the 16th letter.",
+    "as": "A ৰ পৰা গণিলে P হৈছে 16 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-006",
+   "q": {
+    "en": "What is the position of the letter S in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত S আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "19",
+     "as": "19"
+    },
+    {
+     "en": "21",
+     "as": "21"
+    },
+    {
+     "en": "18",
+     "as": "18"
+    },
+    {
+     "en": "20",
+     "as": "20"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting from A, S is the 19th letter.",
+    "as": "A ৰ পৰা গণিলে S হৈছে 19 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-007",
+   "q": {
+    "en": "What is the position of the letter V in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত V আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "21",
+     "as": "21"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "23",
+     "as": "23"
+    },
+    {
+     "en": "24",
+     "as": "24"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting from A, V is the 22th letter.",
+    "as": "A ৰ পৰা গণিলে V হৈছে 22 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-008",
+   "q": {
+    "en": "What is the position of the letter W in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত W আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "23",
+     "as": "23"
+    },
+    {
+     "en": "24",
+     "as": "24"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting from A, W is the 23th letter.",
+    "as": "A ৰ পৰা গণিলে W হৈছে 23 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-009",
+   "q": {
+    "en": "What is the position of the letter Y in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত Y আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "27",
+     "as": "27"
+    },
+    {
+     "en": "26",
+     "as": "26"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "24",
+     "as": "24"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting from A, Y is the 25th letter.",
+    "as": "A ৰ পৰা গণিলে Y হৈছে 25 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-010",
+   "q": {
+    "en": "What is the position of the letter K in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত K আখৰৰ স্থান কিমান?"
+   },
+   "options": [
+    {
+     "en": "11",
+     "as": "11"
+    },
+    {
+     "en": "12",
+     "as": "12"
+    },
+    {
+     "en": "13",
+     "as": "13"
+    },
+    {
+     "en": "10",
+     "as": "10"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting from A, K is the 11th letter.",
+    "as": "A ৰ পৰা গণিলে K হৈছে 11 তম আখৰ।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-011",
+   "q": {
+    "en": "Which letter is the 4th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 4 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The 4th letter from the left is D.",
+    "as": "বাওঁৰ পৰা 4 তম আখৰ D।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-012",
+   "q": {
+    "en": "Which letter is the 7th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 7 তম আখৰ কোনটো?"
    },
    "options": [
     {
      "en": "F",
      "as": "F"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "I",
+     "as": "I"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The 7th letter from the left is G.",
+    "as": "বাওঁৰ পৰা 7 তম আখৰ G।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-013",
+   "q": {
+    "en": "Which letter is the 12th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 12 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "N",
+     "as": "N"
+    },
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "K",
+     "as": "K"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The 12th letter from the left is L.",
+    "as": "বাওঁৰ পৰা 12 তম আখৰ L।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-014",
+   "q": {
+    "en": "Which letter is the 15th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 15 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "O",
+     "as": "O"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "N",
+     "as": "N"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 15th letter from the left is O.",
+    "as": "বাওঁৰ পৰা 15 তম আখৰ O।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-015",
+   "q": {
+    "en": "Which letter is the 18th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 18 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "R",
+     "as": "R"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The 18th letter from the left is R.",
+    "as": "বাওঁৰ পৰা 18 তম আখৰ R।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-016",
+   "q": {
+    "en": "Which letter is the 20th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 20 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    },
+    {
+     "en": "V",
+     "as": "V"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The 20th letter from the left is T.",
+    "as": "বাওঁৰ পৰা 20 তম আখৰ T।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-017",
+   "q": {
+    "en": "Which letter is the 21th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 21 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "W",
+     "as": "W"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    },
+    {
+     "en": "V",
+     "as": "V"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The 21th letter from the left is U.",
+    "as": "বাওঁৰ পৰা 21 তম আখৰ U।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-018",
+   "q": {
+    "en": "Which letter is the 24th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 24 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Y",
+     "as": "Y"
+    },
+    {
+     "en": "Z",
+     "as": "Z"
+    },
+    {
+     "en": "W",
+     "as": "W"
+    },
+    {
+     "en": "X",
+     "as": "X"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The 24th letter from the left is X.",
+    "as": "বাওঁৰ পৰা 24 তম আখৰ X।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-019",
+   "q": {
+    "en": "Which letter is the 2th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 2 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The 2th letter from the left is B.",
+    "as": "বাওঁৰ পৰা 2 তম আখৰ B।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-020",
+   "q": {
+    "en": "Which letter is the 14th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 14 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "N",
+     "as": "N"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 14th letter from the left is N.",
+    "as": "বাওঁৰ পৰা 14 তম আখৰ N।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-021",
+   "q": {
+    "en": "Which letter is the 17th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 17 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "R",
+     "as": "R"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The 17th letter from the left is Q.",
+    "as": "বাওঁৰ পৰা 17 তম আখৰ Q।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-022",
+   "q": {
+    "en": "Which letter is the 26th letter from the left in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত বাওঁৰ পৰা 26 তম আখৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "Y",
+     "as": "Y"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "Z",
+     "as": "Z"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The 26th letter from the left is Z.",
+    "as": "বাওঁৰ পৰা 26 তম আখৰ Z।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-023",
+   "q": {
+    "en": "Which letter is 3 places to the right of C in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত C ৰ 3 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 3 places to the right of C gives F.",
+    "as": "C ৰ 3 খান সোঁফালে F পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-024",
+   "q": {
+    "en": "Which letter is 4 places to the right of E in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত E ৰ 4 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "I",
+     "as": "I"
+    },
+    {
+     "en": "J",
+     "as": "J"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "K",
+     "as": "K"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 4 places to the right of E gives I.",
+    "as": "E ৰ 4 খান সোঁফালে I পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-025",
+   "q": {
+    "en": "Which letter is 2 places to the right of H in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত H ৰ 2 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "J",
+     "as": "J"
+    },
+    {
+     "en": "K",
+     "as": "K"
+    },
+    {
+     "en": "I",
+     "as": "I"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting 2 places to the right of H gives J.",
+    "as": "H ৰ 2 খান সোঁফালে J পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-026",
+   "q": {
+    "en": "Which letter is 5 places to the right of K in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত K ৰ 5 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Counting 5 places to the right of K gives P.",
+    "as": "K ৰ 5 খান সোঁফালে P পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-027",
+   "q": {
+    "en": "Which letter is 3 places to the right of M in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত M ৰ 3 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Counting 3 places to the right of M gives P.",
+    "as": "M ৰ 3 খান সোঁফালে P পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-028",
+   "q": {
+    "en": "Which letter is 4 places to the right of P in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত P ৰ 4 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "V",
+     "as": "V"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 4 places to the right of P gives T.",
+    "as": "P ৰ 4 খান সোঁফালে T পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-029",
+   "q": {
+    "en": "Which letter is 2 places to the right of R in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত R ৰ 2 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "V",
+     "as": "V"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    },
+    {
+     "en": "S",
+     "as": "S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting 2 places to the right of R gives T.",
+    "as": "R ৰ 2 খান সোঁফালে T পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-030",
+   "q": {
+    "en": "Which letter is 6 places to the right of T in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত T ৰ 6 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "Z",
+     "as": "Z"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "Y",
+     "as": "Y"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 6 places to the right of T gives Z.",
+    "as": "T ৰ 6 খান সোঁফালে Z পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-031",
+   "q": {
+    "en": "Which letter is 1 places to the right of W in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত W ৰ 1 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "X",
+     "as": "X"
+    },
+    {
+     "en": "Y",
+     "as": "Y"
+    },
+    {
+     "en": "Z",
+     "as": "Z"
+    },
+    {
+     "en": "W",
+     "as": "W"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 1 places to the right of W gives X.",
+    "as": "W ৰ 1 খান সোঁফালে X পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-032",
+   "q": {
+    "en": "Which letter is 5 places to the right of B in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত B ৰ 5 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "I",
+     "as": "I"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting 5 places to the right of B gives G.",
+    "as": "B ৰ 5 খান সোঁফালে G পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-033",
+   "q": {
+    "en": "Which letter is 6 places to the right of F in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত F ৰ 6 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "K",
+     "as": "K"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "N",
+     "as": "N"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting 6 places to the right of F gives L.",
+    "as": "F ৰ 6 খান সোঁফালে L পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-034",
+   "q": {
+    "en": "Which letter is 4 places to the right of J in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত J ৰ 4 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "N",
+     "as": "N"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 4 places to the right of J gives N.",
+    "as": "J ৰ 4 খান সোঁফালে N পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-035",
+   "q": {
+    "en": "Which letter is 5 places to the right of N in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত N ৰ 5 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    },
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting 5 places to the right of N gives S.",
+    "as": "N ৰ 5 খান সোঁফালে S পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-036",
+   "q": {
+    "en": "Which letter is 3 places to the right of S in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত S ৰ 3 খান সোঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "V",
+     "as": "V"
+    },
+    {
+     "en": "X",
+     "as": "X"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    },
+    {
+     "en": "W",
+     "as": "W"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 3 places to the right of S gives V.",
+    "as": "S ৰ 3 খান সোঁফালে V পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-037",
+   "q": {
+    "en": "Which letter is 3 places to the left of H in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত H ৰ 3 খান বাওঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "G",
+     "as": "G"
     },
     {
      "en": "D",
@@ -64326,44 +86406,1004 @@ module.exports = {
      "as": "E"
     },
     {
-     "en": "G",
-     "as": "G"
+     "en": "F",
+     "as": "F"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "A is 1 and I is 9; the middle position is (1 + 9) / 2 = 5, and the fifth letter is E.",
-    "as": "A হৈছে 1 আৰু I হৈছে 9; মাজৰ স্থান (1 + 9) / 2 = 5, আৰু পঞ্চম আখৰটো E।"
+    "en": "Counting 3 places to the left of H gives E.",
+    "as": "H ৰ 3 খান বাওঁফালে E পোৱা যায়।"
    }
   },
   {
-   "id": "alphabet-test-word-formation-002",
+   "id": "alphabet-test-word-formation-038",
    "q": {
-    "en": "How many letters are there between K and P in the English alphabet?",
-    "as": "ইংৰাজী বৰ্ণমালাত K আৰু P ৰ মাজত কিমানটা আখৰ আছে?"
+    "en": "Which letter is 2 places to the left of L in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত L ৰ 2 খান বাওঁফালে কোনটো আখৰ?"
    },
    "options": [
     {
-     "en": "5",
-     "as": "৫"
+     "en": "I",
+     "as": "I"
     },
     {
-     "en": "6",
-     "as": "৬"
+     "en": "L",
+     "as": "L"
     },
     {
-     "en": "3",
-     "as": "৩"
+     "en": "J",
+     "as": "J"
     },
     {
-     "en": "4",
-     "as": "৪"
+     "en": "K",
+     "as": "K"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting 2 places to the left of L gives J.",
+    "as": "L ৰ 2 খান বাওঁফালে J পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-039",
+   "q": {
+    "en": "Which letter is 4 places to the left of O in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত O ৰ 4 খান বাওঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "J",
+     "as": "J"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "K",
+     "as": "K"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "The letters between K (11) and P (16) are L, M, N and O, which is four letters.",
-    "as": "K (11) আৰু P (16) ৰ মাজৰ আখৰবোৰ L, M, N আৰু O, অৰ্থাৎ চাৰিটা আখৰ।"
+    "en": "Counting 4 places to the left of O gives K.",
+    "as": "O ৰ 4 খান বাওঁফালে K পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-040",
+   "q": {
+    "en": "Which letter is 5 places to the left of R in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত R ৰ 5 খান বাওঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "L",
+     "as": "L"
+    },
+    {
+     "en": "N",
+     "as": "N"
+    },
+    {
+     "en": "M",
+     "as": "M"
+    },
+    {
+     "en": "O",
+     "as": "O"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting 5 places to the left of R gives M.",
+    "as": "R ৰ 5 খান বাওঁফালে M পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-041",
+   "q": {
+    "en": "Which letter is 2 places to the left of T in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত T ৰ 2 খান বাওঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting 2 places to the left of T gives R.",
+    "as": "T ৰ 2 খান বাওঁফালে R পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-042",
+   "q": {
+    "en": "Which letter is 4 places to the left of W in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত W ৰ 4 খান বাওঁফালে কোনটো আখৰ?"
+   },
+   "options": [
+    {
+     "en": "S",
+     "as": "S"
+    },
+    {
+     "en": "T",
+     "as": "T"
+    },
+    {
+     "en": "R",
+     "as": "R"
+    },
+    {
+     "en": "U",
+     "as": "U"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Counting 4 places to the left of W gives S.",
+    "as": "W ৰ 4 খান বাওঁফালে S পোৱা যায়।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-043",
+   "q": {
+    "en": "How many letters are there between C and H in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত C আৰু H ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Between C and H there are 4 letters.",
+    "as": "C আৰু H ৰ মাজত 4 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-044",
+   "q": {
+    "en": "How many letters are there between E and K in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত E আৰু K ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Between E and K there are 5 letters.",
+    "as": "E আৰু K ৰ মাজত 5 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-045",
+   "q": {
+    "en": "How many letters are there between M and S in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত M আৰু S ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Between M and S there are 5 letters.",
+    "as": "M আৰু S ৰ মাজত 5 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-046",
+   "q": {
+    "en": "How many letters are there between B and G in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত B আৰু G ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Between B and G there are 4 letters.",
+    "as": "B আৰু G ৰ মাজত 4 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-047",
+   "q": {
+    "en": "How many letters are there between J and P in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত J আৰু P ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Between J and P there are 5 letters.",
+    "as": "J আৰু P ৰ মাজত 5 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-048",
+   "q": {
+    "en": "How many letters are there between L and R in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত L আৰু R ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "as": "7"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Between L and R there are 5 letters.",
+    "as": "L আৰু R ৰ মাজত 5 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-049",
+   "q": {
+    "en": "How many letters are there between D and I in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত D আৰু I ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Between D and I there are 4 letters.",
+    "as": "D আৰু I ৰ মাজত 4 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-050",
+   "q": {
+    "en": "How many letters are there between N and T in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত N আৰু T ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "7",
+     "as": "7"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Between N and T there are 5 letters.",
+    "as": "N আৰু T ৰ মাজত 5 টা আখৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-051",
+   "q": {
+    "en": "Rearrange the letters of LPAEP to form a meaningful word. Which is it?",
+    "as": "LPAEP ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "PEAPL",
+     "as": "PEAPL"
+    },
+    {
+     "en": "ELPPA",
+     "as": "ELPPA"
+    },
+    {
+     "en": "APPLE",
+     "as": "APPLE"
+    },
+    {
+     "en": "PAEPL",
+     "as": "PAEPL"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters of LPAEP can be rearranged to form APPLE.",
+    "as": "LPAEP ৰ আখৰবোৰ সলাই APPLE গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-052",
+   "q": {
+    "en": "Rearrange the letters of GNIMRON to form a meaningful word. Which is it?",
+    "as": "GNIMRON ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "NIMRONG",
+     "as": "NIMRONG"
+    },
+    {
+     "en": "NORMING",
+     "as": "NORMING"
+    },
+    {
+     "en": "MORNING",
+     "as": "MORNING"
+    },
+    {
+     "en": "GNINROM",
+     "as": "GNINROM"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters of GNIMRON can be rearranged to form MORNING.",
+    "as": "GNIMRON ৰ আখৰবোৰ সলাই MORNING গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-053",
+   "q": {
+    "en": "Rearrange the letters of TASEM to form a meaningful word. Which is it?",
+    "as": "TASEM ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "ASEMT",
+     "as": "ASEMT"
+    },
+    {
+     "en": "MESAT",
+     "as": "MESAT"
+    },
+    {
+     "en": "TEAMS",
+     "as": "TEAMS"
+    },
+    {
+     "en": "SMAET",
+     "as": "SMAET"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letters of TASEM can be rearranged to form TEAMS.",
+    "as": "TASEM ৰ আখৰবোৰ সলাই TEAMS গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-054",
+   "q": {
+    "en": "Rearrange the letters of CHOOLS to form a meaningful word. Which is it?",
+    "as": "CHOOLS ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "HOOLSC",
+     "as": "HOOLSC"
+    },
+    {
+     "en": "SLOOHC",
+     "as": "SLOOHC"
+    },
+    {
+     "en": "LOOHCS",
+     "as": "LOOHCS"
+    },
+    {
+     "en": "SCHOOL",
+     "as": "SCHOOL"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters of CHOOLS can be rearranged to form SCHOOL.",
+    "as": "CHOOLS ৰ আখৰবোৰ সলাই SCHOOL গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-055",
+   "q": {
+    "en": "Rearrange the letters of REVIL to form a meaningful word. Which is it?",
+    "as": "REVIL ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "LIVER",
+     "as": "LIVER"
+    },
+    {
+     "en": "LIVES",
+     "as": "LIVES"
+    },
+    {
+     "en": "EVILR",
+     "as": "EVILR"
+    },
+    {
+     "en": "REVIL",
+     "as": "REVIL"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters of REVIL can be rearranged to form LIVER.",
+    "as": "REVIL ৰ আখৰবোৰ সলাই LIVER গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-056",
+   "q": {
+    "en": "Rearrange the letters of GHTLI to form a meaningful word. Which is it?",
+    "as": "GHTLI ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "LIGHT",
+     "as": "LIGHT"
+    },
+    {
+     "en": "ILTHG",
+     "as": "ILTHG"
+    },
+    {
+     "en": "THGIL",
+     "as": "THGIL"
+    },
+    {
+     "en": "HTLIG",
+     "as": "HTLIG"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters of GHTLI can be rearranged to form LIGHT.",
+    "as": "GHTLI ৰ আখৰবোৰ সলাই LIGHT গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-057",
+   "q": {
+    "en": "Rearrange the letters of MONEY to form a meaningful word. Which is it?",
+    "as": "MONEY ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "ONEYM",
+     "as": "ONEYM"
+    },
+    {
+     "en": "MONEY",
+     "as": "MONEY"
+    },
+    {
+     "en": "MONEZ",
+     "as": "MONEZ"
+    },
+    {
+     "en": "YENOM",
+     "as": "YENOM"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters of MONEY can be rearranged to form MONEY.",
+    "as": "MONEY ৰ আখৰবোৰ সলাই MONEY গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-058",
+   "q": {
+    "en": "Rearrange the letters of TEAHW to form a meaningful word. Which is it?",
+    "as": "TEAHW ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "WHAET",
+     "as": "WHAET"
+    },
+    {
+     "en": "WHEAT",
+     "as": "WHEAT"
+    },
+    {
+     "en": "EAHWT",
+     "as": "EAHWT"
+    },
+    {
+     "en": "TAEHW",
+     "as": "TAEHW"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letters of TEAHW can be rearranged to form WHEAT.",
+    "as": "TEAHW ৰ আখৰবোৰ সলাই WHEAT গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-059",
+   "q": {
+    "en": "Rearrange the letters of NALERIM to form a meaningful word. Which is it?",
+    "as": "NALERIM ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "MINERAL",
+     "as": "MINERAL"
+    },
+    {
+     "en": "LARENIM",
+     "as": "LARENIM"
+    },
+    {
+     "en": "ALERIMN",
+     "as": "ALERIMN"
+    },
+    {
+     "en": "MIRELAN",
+     "as": "MIRELAN"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters of NALERIM can be rearranged to form MINERAL.",
+    "as": "NALERIM ৰ আখৰবোৰ সলাই MINERAL গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-060",
+   "q": {
+    "en": "Rearrange the letters of BREAG to form a meaningful word. Which is it?",
+    "as": "BREAG ৰ আখৰবোৰ সলাই এটা অৰ্থবোধক শব্দ গঠন কৰক। কোনটো?"
+   },
+   "options": [
+    {
+     "en": "REAGB",
+     "as": "REAGB"
+    },
+    {
+     "en": "GAERB",
+     "as": "GAERB"
+    },
+    {
+     "en": "EGRAB",
+     "as": "EGRAB"
+    },
+    {
+     "en": "BARGE",
+     "as": "BARGE"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters of BREAG can be rearranged to form BARGE.",
+    "as": "BREAG ৰ আখৰবোৰ সলাই BARGE গঠন কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-061",
+   "q": {
+    "en": "How many times does the letter 'A' appear in the word BANANA?",
+    "as": "BANANA শব্দত 'A' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letter 'A' occurs 3 times in BANANA.",
+    "as": "BANANA শব্দত 'A' আখৰ 3 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-062",
+   "q": {
+    "en": "How many times does the letter 'S' appear in the word ASSAM?",
+    "as": "ASSAM শব্দত 'S' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letter 'S' occurs 2 times in ASSAM.",
+    "as": "ASSAM শব্দত 'S' আখৰ 2 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-063",
+   "q": {
+    "en": "How many times does the letter 'S' appear in the word MISSISSIPPI?",
+    "as": "MISSISSIPPI শব্দত 'S' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "6",
+     "as": "6"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letter 'S' occurs 4 times in MISSISSIPPI.",
+    "as": "MISSISSIPPI শব্দত 'S' আখৰ 4 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-064",
+   "q": {
+    "en": "How many times does the letter 'O' appear in the word BOOKKEEPER?",
+    "as": "BOOKKEEPER শব্দত 'O' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "1",
+     "as": "1"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letter 'O' occurs 2 times in BOOKKEEPER.",
+    "as": "BOOKKEEPER শব্দত 'O' আখৰ 2 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-065",
+   "q": {
+    "en": "How many times does the letter 'T' appear in the word COMMITTEE?",
+    "as": "COMMITTEE শব্দত 'T' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letter 'T' occurs 2 times in COMMITTEE.",
+    "as": "COMMITTEE শব্দত 'T' আখৰ 2 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-066",
+   "q": {
+    "en": "How many times does the letter 'L' appear in the word PARALLEL?",
+    "as": "PARALLEL শব্দত 'L' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letter 'L' occurs 3 times in PARALLEL.",
+    "as": "PARALLEL শব্দত 'L' আখৰ 3 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-067",
+   "q": {
+    "en": "How many times does the letter 'S' appear in the word SUCCESS?",
+    "as": "SUCCESS শব্দত 'S' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "5",
+     "as": "5"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letter 'S' occurs 3 times in SUCCESS.",
+    "as": "SUCCESS শব্দত 'S' আখৰ 3 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-068",
+   "q": {
+    "en": "How many times does the letter 'L' appear in the word BALLOON?",
+    "as": "BALLOON শব্দত 'L' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The letter 'L' occurs 2 times in BALLOON.",
+    "as": "BALLOON শব্দত 'L' আখৰ 2 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-069",
+   "q": {
+    "en": "How many times does the letter 'T' appear in the word TATTOO?",
+    "as": "TATTOO শব্দত 'T' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "5"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The letter 'T' occurs 3 times in TATTOO.",
+    "as": "TATTOO শব্দত 'T' আখৰ 3 বাৰ আছে।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-070",
+   "q": {
+    "en": "How many times does the letter 'E' appear in the word COFFEE?",
+    "as": "COFFEE শব্দত 'E' আখৰটো কিমানবাৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "1"
+    },
+    {
+     "en": "4",
+     "as": "4"
+    },
+    {
+     "en": "3",
+     "as": "3"
+    },
+    {
+     "en": "2",
+     "as": "2"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letter 'E' occurs 2 times in COFFEE.",
+    "as": "COFFEE শব্দত 'E' আখৰ 2 বাৰ আছে।"
    }
   }
  ],
@@ -64371,61 +87411,1651 @@ module.exports = {
   {
    "id": "data-sufficiency-001",
    "q": {
-    "en": "What is the value of x? I. x + 5 = 12. II. x is a prime number.",
-    "as": "x ৰ মান কিমান? I. x + 5 = 12। II. x এটা মৌলিক সংখ্যা।"
+    "en": "Question: What is the age of Ravi? Statement I: Ravi is 5 years older than his sister. Statement II: His sister is 10 years old. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the age of Ravi? বিবৃতি I: Ravi is 5 years older than his sister. বিবৃতি II: His sister is 10 years old. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
    },
    "options": [
     {
-     "en": "I alone is sufficient",
-     "as": "কেৱল I যথেষ্ট"
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
     },
     {
-     "en": "II alone is sufficient",
-     "as": "কেৱল II যথেষ্ট"
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
     },
     {
-     "en": "Both together are needed",
-     "as": "দুয়োটা একেলগে লাগে"
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
     },
     {
-     "en": "Both together are not sufficient",
-     "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "Statement I gives x = 7 on its own; statement II alone does not fix a single value. So I alone is sufficient.",
-    "as": "বিবৃতি I এ নিজেই x = 7 দিয়ে; বিবৃতি II এ অকলে এটা মান স্থিৰ নকৰে। গতিকে কেৱল I যথেষ্ট।"
+    "en": "I gives only the difference and II gives the sister's age; together Ravi is 15.",
+    "as": "I এ পাৰ্থক্য আৰু II এ ভনীৰ বয়স দিয়ে; একেলগে ৰবিৰ বয়স ১৫।"
    }
   },
   {
    "id": "data-sufficiency-002",
    "q": {
-    "en": "Is the number n even? I. n is divisible by 3. II. n is divisible by 6.",
-    "as": "n সংখ্যাটো যুগ্ম নে? I. n ৰ 3 ৰে বিভাজ্য। II. n ৰ 6 ৰে বিভাজ্য।"
+    "en": "Question: What is the two-digit number? Statement I: The sum of its digits is 9. Statement II: The digit in the tens place is 4. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the two-digit number? বিবৃতি I: The sum of its digits is 9. বিবৃতি II: The digit in the tens place is 4. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
    },
    "options": [
     {
-     "en": "I alone is sufficient",
-     "as": "কেৱল I যথেষ্ট"
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
     },
     {
-     "en": "II alone is sufficient",
-     "as": "কেৱল II যথেষ্ট"
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
     },
     {
-     "en": "Both together are needed",
-     "as": "দুয়োটা একেলগে লাগে"
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
     },
     {
-     "en": "Both together are not sufficient",
-     "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "A number divisible by 6 is always even, so statement II alone answers the question; statement I alone does not.",
-    "as": "6 ৰে বিভাজ্য সংখ্যা সদায় যুগ্ম, গতিকে বিবৃতি II এ অকলে উত্তৰ দিয়ে; বিবৃতি I এ অকলে নিদিয়ে।"
+    "en": "II fixes the tens digit and I fixes the sum, so the units digit is 5 and the number is 45.",
+    "as": "II এ দহকৰ স্থান আৰু I এ যোগফল নিৰ্ণয় কৰে, গতিকে সংখ্যাটো 45।"
+   }
+  },
+  {
+   "id": "data-sufficiency-003",
+   "q": {
+    "en": "Question: How many students are in the class? Statement I: The number of boys is 20. Statement II: The number of girls is 15. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many students are in the class? বিবৃতি I: The number of boys is 20. বিবৃতি II: The number of girls is 15. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives boys and II gives girls; together the total is 35.",
+    "as": "I এ ল'ৰা আৰু II এ ছোৱালীৰ সংখ্যা দিয়ে; একেলগে মুঠ 35।"
+   }
+  },
+  {
+   "id": "data-sufficiency-004",
+   "q": {
+    "en": "Question: What is the speed of the train? Statement I: It covers 240 km in 3 hours. Statement II: The train is 200 m long. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the speed of the train? বিবৃতি I: It covers 240 km in 3 hours. বিবৃতি II: The train is 200 m long. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "I alone gives speed = 240/3 = 80 km/h; II is irrelevant.",
+    "as": "I একেৱে গতি = 240/3 = 80 km/h দিয়ে; II অসম্পৰ্কীয়।"
+   }
+  },
+  {
+   "id": "data-sufficiency-005",
+   "q": {
+    "en": "Question: Is x greater than y? Statement I: x = 15. Statement II: y = 12. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Is x greater than y? বিবৃতি I: x = 15. বিবৃতি II: y = 12. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives x and II gives y; together x > y is decided.",
+    "as": "I এ x আৰু II এ y দিয়ে; একেলগে x > y নিৰ্ণয় হয়।"
+   }
+  },
+  {
+   "id": "data-sufficiency-006",
+   "q": {
+    "en": "Question: What is the area of the rectangle? Statement I: Its length is 10 cm. Statement II: Its breadth is 5 cm. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the area of the rectangle? বিবৃতি I: Its length is 10 cm. বিবৃতি II: Its breadth is 5 cm. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives length and II gives breadth; together area = 50 cm².",
+    "as": "I এ দীঘ আৰু II এ প্ৰস্থ দিয়ে; একেলগে কালি = 50 cm²।"
+   }
+  },
+  {
+   "id": "data-sufficiency-007",
+   "q": {
+    "en": "Question: What is the cost of one pen? Statement I: 5 pens cost Rs 100. Statement II: The cost of a notebook is Rs 30. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the cost of one pen? বিবৃতি I: 5 pens cost Rs 100. বিবৃতি II: The cost of a notebook is Rs 30. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I alone gives the pen price as Rs 20; II is unrelated.",
+    "as": "I একেৱে কলমৰ দাম ২০ টকা দিয়ে; II অসম্পৰ্কীয়।"
+   }
+  },
+  {
+   "id": "data-sufficiency-008",
+   "q": {
+    "en": "Question: In which year was Mohan born? Statement I: Mohan is 25 years old now. Statement II: The current year is 2024. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: In which year was Mohan born? বিবৃতি I: Mohan is 25 years old now. বিবৃতি II: The current year is 2024. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives the age and II gives the current year; together the birth year is 1999.",
+    "as": "I এ বয়স আৰু II এ চলিত বছৰ দিয়ে; একেলগে জন্মবৰ্ষ 1999।"
+   }
+  },
+  {
+   "id": "data-sufficiency-009",
+   "q": {
+    "en": "Question: What is the value of x? Statement I: x + y = 10. Statement II: y = 4. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the value of x? বিবৃতি I: x + y = 10. বিবৃতি II: y = 4. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "II gives y and then I gives x = 6.",
+    "as": "II এ y দিয়ে আৰু তাৰ পিছত I এ x = 6 দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-010",
+   "q": {
+    "en": "Question: How many brothers does Anil have? Statement I: Anil has 3 sisters. Statement II: Anil's only sister has 2 brothers. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many brothers does Anil have? বিবৃতি I: Anil has 3 sisters. বিবৃতি II: Anil's only sister has 2 brothers. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "II alone tells that the family has 2 boys, so Anil has 1 brother; I does not help.",
+    "as": "II একেৱে কয় যে পৰিয়ালত ২ জন ল'ৰা, গতিকে অনিলৰ ১ জন ভাই; I এ সহায় নকৰে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-011",
+   "q": {
+    "en": "Question: What is the perimeter of a square? Statement I: Its side is 7 cm. Statement II: Its area is 49 cm². Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the perimeter of a square? বিবৃতি I: Its side is 7 cm. বিবৃতি II: Its area is 49 cm². প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I alone gives perimeter = 28 cm; II also gives the side but I is sufficient by itself, so I alone answers it.",
+    "as": "I একেৱে পৰিসীমা = 28 cm দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-012",
+   "q": {
+    "en": "Question: Who is the tallest among A, B and C? Statement I: A is taller than B. Statement II: B is taller than C. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Who is the tallest among A, B and C? বিবৃতি I: A is taller than B. বিবৃতি II: B is taller than C. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Together A > B > C, so A is the tallest.",
+    "as": "একেলগে A > B > C, গতিকে A আটাইতকৈ ওখ।"
+   }
+  },
+  {
+   "id": "data-sufficiency-013",
+   "q": {
+    "en": "Question: What is the total marks of the student? Statement I: The student scored 60 in maths. Statement II: The student scored 70 in English. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the total marks of the student? বিবৃতি I: The student scored 60 in maths. বিবৃতি II: The student scored 70 in English. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives maths and II gives English; together the total is 130.",
+    "as": "I এ গণিত আৰু II এ ইংৰাজী দিয়ে; একেলগে মুঠ 130।"
+   }
+  },
+  {
+   "id": "data-sufficiency-014",
+   "q": {
+    "en": "Question: Is the number n even? Statement I: n is divisible by 4. Statement II: n is greater than 10. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Is the number n even? বিবৃতি I: n is divisible by 4. বিবৃতি II: n is greater than 10. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I alone tells that n is even; II does not decide parity.",
+    "as": "I একেৱে কয় যে n যুগ্ম; II এ নিৰ্ণয় নকৰে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-015",
+   "q": {
+    "en": "Question: What is the day on 1 January 2025? Statement I: 1 January 2024 was a Monday. Statement II: 2024 is a leap year. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the day on 1 January 2025? বিবৃতি I: 1 January 2024 was a Monday. বিবৃতি II: 2024 is a leap year. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "I gives the base day and II gives the number of days; together the day can be found.",
+    "as": "I এ আধাৰ দিন আৰু II এ দিনৰ সংখ্যা দিয়ে; একেলগে নিৰ্ণয় হয়।"
+   }
+  },
+  {
+   "id": "data-sufficiency-016",
+   "q": {
+    "en": "Question: How far is the school from Ravi's house? Statement I: Ravi walks to school in 20 minutes. Statement II: Ravi walks at 3 km/h. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How far is the school from Ravi's house? বিবৃতি I: Ravi walks to school in 20 minutes. বিবৃতি II: Ravi walks at 3 km/h. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives time and II gives speed; together distance = 1 km.",
+    "as": "I এ সময় আৰু II এ গতি দিয়ে; একেলগে দূৰত্ব = 1 km।"
+   }
+  },
+  {
+   "id": "data-sufficiency-017",
+   "q": {
+    "en": "Question: What is the total number of pages in the book? Statement I: Ravi read 50 pages. Statement II: Ravi read one-fourth of the book. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the total number of pages in the book? বিবৃতি I: Ravi read 50 pages. বিবৃতি II: Ravi read one-fourth of the book. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "II alone means 50 pages is one-fourth, so the book has 200 pages; I alone is not enough.",
+    "as": "II একেৱে কয় 50 পৃষ্ঠা চতুৰ্থাংশ, গতিকে মুঠ 200 পৃষ্ঠা।"
+   }
+  },
+  {
+   "id": "data-sufficiency-018",
+   "q": {
+    "en": "Question: What is the average of three numbers? Statement I: Their sum is 90. Statement II: One of them is 30. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the average of three numbers? বিবৃতি I: Their sum is 90. বিবৃতি II: One of them is 30. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I alone gives the average as 30; II is not needed.",
+    "as": "I একেৱে গড় 30 দিয়ে; II প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "data-sufficiency-019",
+   "q": {
+    "en": "Question: What is the volume of a cube? Statement I: Its total surface area is 54 cm². Statement II: Its diagonal is 3√3 cm. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the volume of a cube? বিবৃতি I: Its total surface area is 54 cm². বিবৃতি II: Its diagonal is 3√3 cm. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I alone gives side = 3 and volume = 27 cm³; I is sufficient.",
+    "as": "I একেৱে বাহু = 3 আৰু আয়তন = 27 cm³ দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-020",
+   "q": {
+    "en": "Question: How many runs did the batsman score? Statement I: He hit 5 fours and 3 sixes. Statement II: He also ran 20 singles. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many runs did the batsman score? বিবৃতি I: He hit 5 fours and 3 sixes. বিবৃতি II: He also ran 20 singles. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives 38 from boundaries and II adds 20, so the total is 58.",
+    "as": "I এ সীমাৰ পৰা 38 আৰু II এ 20 যোগ কৰে, মুঠ 58।"
+   }
+  },
+  {
+   "id": "data-sufficiency-021",
+   "q": {
+    "en": "Question: What is the cost of 10 kg of rice? Statement I: 1 kg of rice costs Rs 40. Statement II: 5 kg of rice costs Rs 200. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the cost of 10 kg of rice? বিবৃতি I: 1 kg of rice costs Rs 40. বিবৃতি II: 5 kg of rice costs Rs 200. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I alone gives Rs 400 for 10 kg; either alone works but I alone is sufficient.",
+    "as": "I একেৱে 10 kg ৰ বাবে ৪০০ টকা দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-022",
+   "q": {
+    "en": "Question: Is P older than Q? Statement I: P is 30 years old. Statement II: Q is 25 years old. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Is P older than Q? বিবৃতি I: P is 30 years old. বিবৃতি II: Q is 25 years old. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives P and II gives Q; together P is older.",
+    "as": "I এ P আৰু II এ Q দিয়ে; একেলগে P ডাঙৰ।"
+   }
+  },
+  {
+   "id": "data-sufficiency-023",
+   "q": {
+    "en": "Question: What is the sum of the first n natural numbers? Statement I: n = 10. Statement II: The numbers are consecutive. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the sum of the first n natural numbers? বিবৃতি I: n = 10. বিবৃতি II: The numbers are consecutive. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "I alone gives the sum as 55; II is already implied.",
+    "as": "I একেৱে যোগফল 55 দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-024",
+   "q": {
+    "en": "Question: What is the code for the word 'TREE'? Statement I: 'T' is coded as 20. Statement II: 'E' is coded as 5. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the code for the word 'TREE'? বিবৃতি I: 'T' is coded as 20. বিবৃতি II: 'E' is coded as 5. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "I gives T's code and II gives E's code; together the pattern can be applied, but a full coding rule is needed, so together they are sufficient only if the code is the alphabet position, which the pair confirms.",
+    "as": "I এ T আৰু II এ E ৰ সংকেত দিয়ে; একেলগে আৰ্হি প্ৰয়োগ কৰিব পাৰি।"
+   }
+  },
+  {
+   "id": "data-sufficiency-025",
+   "q": {
+    "en": "Question: How many children does Mr. Rao have? Statement I: He has 3 sons. Statement II: He has 2 daughters. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many children does Mr. Rao have? বিবৃতি I: He has 3 sons. বিবৃতি II: He has 2 daughters. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives sons and II gives daughters; together the total is 5.",
+    "as": "I এ পুত্ৰ আৰু II এ জীয়েক দিয়ে; একেলগে মুঠ 5।"
+   }
+  },
+  {
+   "id": "data-sufficiency-026",
+   "q": {
+    "en": "Question: What is the value of the expression a + b? Statement I: a = 7. Statement II: a − b = 3. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the value of the expression a + b? বিবৃতি I: a = 7. বিবৃতি II: a − b = 3. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives a and II gives b = 4, so a + b = 11.",
+    "as": "I এ a আৰু II এ b = 4 দিয়ে, গতিকে a + b = 11।"
+   }
+  },
+  {
+   "id": "data-sufficiency-027",
+   "q": {
+    "en": "Question: What is the height of the tower? Statement I: Its shadow is 20 m long. Statement II: The angle of elevation of the sun is 45°. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the height of the tower? বিবৃতি I: Its shadow is 20 m long. বিবৃতি II: The angle of elevation of the sun is 45°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives the shadow and II gives the angle; together height = shadow = 20 m.",
+    "as": "I এ ছাঁ আৰু II এ কোণ দিয়ে; একেলগে উচ্চতা = 20 m।"
+   }
+  },
+  {
+   "id": "data-sufficiency-028",
+   "q": {
+    "en": "Question: Which is the largest number among 12, 21 and 31? Statement I: All three are two-digit numbers. Statement II: 31 is the greatest of the three. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Which is the largest number among 12, 21 and 31? বিবৃতি I: All three are two-digit numbers. বিবৃতি II: 31 is the greatest of the three. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "II alone directly states the answer; I is not needed.",
+    "as": "II একেৱে পোনপটীয়াকৈ উত্তৰ দিয়ে; I প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "data-sufficiency-029",
+   "q": {
+    "en": "Question: What is the total surface area of a sphere? Statement I: Its radius is 7 cm. Statement II: Its volume is 1437.33 cm³. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the total surface area of a sphere? বিবৃতি I: Its radius is 7 cm. বিবৃতি II: Its volume is 1437.33 cm³. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "I alone gives surface area = 4πr² = 616 cm²; I alone is sufficient.",
+    "as": "I একেৱে পৃষ্ঠকালি = 4πr² = 616 cm² দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-030",
+   "q": {
+    "en": "Question: What is the present age of the father? Statement I: The father is 3 times as old as his son. Statement II: The son is 12 years old. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the present age of the father? বিবৃতি I: The father is 3 times as old as his son. বিবৃতি II: The son is 12 years old. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives the ratio and II gives the son's age; together the father is 36.",
+    "as": "I এ অনুপাত আৰু II এ পুত্ৰৰ বয়স দিয়ে; একেলগে দেউতা 36।"
+   }
+  },
+  {
+   "id": "data-sufficiency-031",
+   "q": {
+    "en": "Question: How many wickets did the bowler take? Statement I: He bowled 10 overs. Statement II: He gave away 45 runs and took 3 wickets. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many wickets did the bowler take? বিবৃতি I: He bowled 10 overs. বিবৃতি II: He gave away 45 runs and took 3 wickets. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "II alone states the number of wickets; I is not needed.",
+    "as": "II একেৱে উইকেটৰ সংখ্যা কয়; I প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "data-sufficiency-032",
+   "q": {
+    "en": "Question: What is the perimeter of the triangle? Statement I: Two of its sides are 5 cm and 7 cm. Statement II: The third side is 8 cm. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the perimeter of the triangle? বিবৃতি I: Two of its sides are 5 cm and 7 cm. বিবৃতি II: The third side is 8 cm. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives two sides and II gives the third; together the perimeter is 20 cm.",
+    "as": "I এ দুটা বাহু আৰু II এ তৃতীয়টো দিয়ে; একেলগে পৰিসীমা 20 cm।"
+   }
+  },
+  {
+   "id": "data-sufficiency-033",
+   "q": {
+    "en": "Question: Is the integer n divisible by 6? Statement I: n is divisible by 2. Statement II: n is divisible by 3. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Is the integer n divisible by 6? বিবৃতি I: n is divisible by 2. বিবৃতি II: n is divisible by 3. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Divisibility by both 2 and 3 makes it divisible by 6, so together they suffice.",
+    "as": "2 আৰু 3 দুয়োৰে দ্বাৰা বিভাজ্য হ'লে 6 ৰেও বিভাজ্য, গতিকে একেলগে যথেষ্ট।"
+   }
+  },
+  {
+   "id": "data-sufficiency-034",
+   "q": {
+    "en": "Question: What is the speed of the boat in still water? Statement I: The boat goes 12 km downstream in 2 hours. Statement II: The speed of the stream is 2 km/h. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the speed of the boat in still water? বিবৃতি I: The boat goes 12 km downstream in 2 hours. বিবৃতি II: The speed of the stream is 2 km/h. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives downstream speed 6 and II gives the stream speed, so still-water speed is 4.",
+    "as": "I এ অনুকূল গতি 6 আৰু II এ সোঁতৰ গতি দিয়ে, গতিকে স্থিৰ পানীৰ গতি 4।"
+   }
+  },
+  {
+   "id": "data-sufficiency-035",
+   "q": {
+    "en": "Question: How many oranges can be bought for Rs 100? Statement I: One orange costs Rs 5. Statement II: 10 oranges cost Rs 50. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many oranges can be bought for Rs 100? বিবৃতি I: One orange costs Rs 5. বিবৃতি II: 10 oranges cost Rs 50. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "I alone gives 20 oranges; either alone suffices and I alone is sufficient.",
+    "as": "I একেৱে 20 কমলা দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-036",
+   "q": {
+    "en": "Question: What is the value of x²? Statement I: x = 9. Statement II: x is a positive integer. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the value of x²? বিবৃতি I: x = 9. বিবৃতি II: x is a positive integer. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "I alone gives x² = 81; II is not needed.",
+    "as": "I একেৱে x² = 81 দিয়ে; II প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "data-sufficiency-037",
+   "q": {
+    "en": "Question: Who scored the highest marks? Statement I: A scored more than B. Statement II: C scored less than B. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Who scored the highest marks? বিবৃতি I: A scored more than B. বিবৃতি II: C scored less than B. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Together A > B > C, so A scored the highest.",
+    "as": "একেলগে A > B > C, গতিকে A আটাইতকৈ বেছি।"
+   }
+  },
+  {
+   "id": "data-sufficiency-038",
+   "q": {
+    "en": "Question: What is the compound interest for 2 years? Statement I: The principal is Rs 1000. Statement II: The rate is 10% per annum. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the compound interest for 2 years? বিবৃতি I: The principal is Rs 1000. বিবৃতি II: The rate is 10% per annum. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives principal and II gives rate; together the CI is Rs 210.",
+    "as": "I এ মূলধন আৰু II এ হাৰ দিয়ে; একেলগে চক্ৰবৃদ্ধি সুত ২১০ টকা।"
+   }
+  },
+  {
+   "id": "data-sufficiency-039",
+   "q": {
+    "en": "Question: Is the quadrilateral a parallelogram? Statement I: Its opposite sides are equal. Statement II: Its opposite angles are equal. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Is the quadrilateral a parallelogram? বিবৃতি I: Its opposite sides are equal. বিবৃতি II: Its opposite angles are equal. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Either condition alone defines a parallelogram, so I alone is sufficient.",
+    "as": "যিকোনো এটা চৰ্তই সামান্তৰিক নিৰ্ণয় কৰে, গতিকে I একেৱে যথেষ্ট।"
+   }
+  },
+  {
+   "id": "data-sufficiency-040",
+   "q": {
+    "en": "Question: What is the total distance travelled? Statement I: The car moved at 60 km/h. Statement II: The car travelled for 2 hours. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the total distance travelled? বিবৃতি I: The car moved at 60 km/h. বিবৃতি II: The car travelled for 2 hours. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives speed and II gives time; together distance = 120 km.",
+    "as": "I এ গতি আৰু II এ সময় দিয়ে; একেলগে দূৰত্ব = 120 km।"
+   }
+  },
+  {
+   "id": "data-sufficiency-041",
+   "q": {
+    "en": "Question: How many sides does the polygon have? Statement I: The sum of its interior angles is 720°. Statement II: Each exterior angle is 45°. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many sides does the polygon have? বিবৃতি I: The sum of its interior angles is 720°. বিবৃতি II: Each exterior angle is 45°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I alone gives n = 6; I alone is sufficient.",
+    "as": "I একেৱে n = 6 দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-042",
+   "q": {
+    "en": "Question: What is the average age of the team? Statement I: There are 11 players. Statement II: The total age of the players is 264 years. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the average age of the team? বিবৃতি I: There are 11 players. বিবৃতি II: The total age of the players is 264 years. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "II alone gives the average as 24; I is not needed.",
+    "as": "II একেৱে গড় 24 দিয়ে; I প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "data-sufficiency-043",
+   "q": {
+    "en": "Question: Is x a prime number? Statement I: x is an odd number greater than 1. Statement II: x has exactly two factors. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Is x a prime number? বিবৃতি I: x is an odd number greater than 1. বিবৃতি II: x has exactly two factors. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "II alone is the definition of a prime; I does not decide it.",
+    "as": "II একেৱে মৌলিক সংখ্যাৰ সংজ্ঞা; I এ নিৰ্ণয় নকৰে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-044",
+   "q": {
+    "en": "Question: What is the total profit? Statement I: The cost price is Rs 500. Statement II: The selling price is Rs 600. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the total profit? বিবৃতি I: The cost price is Rs 500. বিবৃতি II: The selling price is Rs 600. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives cost and II gives selling price; together the profit is Rs 100.",
+    "as": "I এ ক্ৰয়মূল্য আৰু II এ বিক্ৰয়মূল্য দিয়ে; একেলগে লাভ ১০০ টকা।"
+   }
+  },
+  {
+   "id": "data-sufficiency-045",
+   "q": {
+    "en": "Question: How many diagonals does the polygon have? Statement I: The polygon has 6 sides. Statement II: The polygon is regular. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many diagonals does the polygon have? বিবৃতি I: The polygon has 6 sides. বিবৃতি II: The polygon is regular. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I alone gives 9 diagonals; II is not needed.",
+    "as": "I একেৱে 9 কৰ্ণ দিয়ে; II প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "data-sufficiency-046",
+   "q": {
+    "en": "Question: What is the value of the angle? Statement I: The angle is twice its complement. Statement II: The angle is less than 90°. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the value of the angle? বিবৃতি I: The angle is twice its complement. বিবৃতি II: The angle is less than 90°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "I alone gives the angle as 60°; II is not needed.",
+    "as": "I একেৱে কোণ 60° দিয়ে; II প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "data-sufficiency-047",
+   "q": {
+    "en": "Question: What is the population of the town? Statement I: There are 2000 men. Statement II: There are 1800 women and 700 children. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the population of the town? বিবৃতি I: There are 2000 men. বিবৃতি II: There are 1800 women and 700 children. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "I gives men and II gives women and children; together the total is 4500.",
+    "as": "I এ পুৰুষ আৰু II এ মহিলা-শিশু দিয়ে; একেলগে মুঠ 4500।"
+   }
+  },
+  {
+   "id": "data-sufficiency-048",
+   "q": {
+    "en": "Question: Is the triangle right-angled? Statement I: Its sides are 6 cm, 8 cm and 10 cm. Statement II: Its largest angle is 90°. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: Is the triangle right-angled? বিবৃতি I: Its sides are 6 cm, 8 cm and 10 cm. বিবৃতি II: Its largest angle is 90°. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I alone satisfies 6² + 8² = 10², so I alone is sufficient.",
+    "as": "I একেৱে 6² + 8² = 10² সিদ্ধ কৰে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-049",
+   "q": {
+    "en": "Question: How many litres of water does the tank hold? Statement I: The tank is 2 m long and 1 m wide. Statement II: The depth of the tank is 1.5 m. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many litres of water does the tank hold? বিবৃতি I: The tank is 2 m long and 1 m wide. বিবৃতি II: The depth of the tank is 1.5 m. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I gives base area and II gives depth; together the volume is 3 m³ = 3000 litres.",
+    "as": "I এ ভূমি কালি আৰু II এ গভীৰতা দিয়ে; একেলগে আয়তন 3 m³ = 3000 লিটাৰ।"
+   }
+  },
+  {
+   "id": "data-sufficiency-050",
+   "q": {
+    "en": "Question: What is the total number of runs scored by the team? Statement I: The team scored 250 in the first innings. Statement II: The team scored 300 in the second innings. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the total number of runs scored by the team? বিবৃতি I: The team scored 250 in the first innings. বিবৃতি II: The team scored 300 in the second innings. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "I gives the first innings and II gives the second; together the total is 550.",
+    "as": "I এ প্ৰথম ইনিংছ আৰু II এ দ্বিতীয় দিয়ে; একেলগে মুঠ 550।"
+   }
+  },
+  {
+   "id": "data-sufficiency-051",
+   "q": {
+    "en": "Question: What is the value of 1/x? Statement I: x = 0.25. Statement II: 4x = 1. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the value of 1/x? বিবৃতি I: x = 0.25. বিবৃতি II: 4x = 1. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "I alone gives 1/x = 4; either works and I alone is sufficient.",
+    "as": "I একেৱে 1/x = 4 দিয়ে।"
+   }
+  },
+  {
+   "id": "data-sufficiency-052",
+   "q": {
+    "en": "Question: How many students passed the exam? Statement I: 60% of the students passed. Statement II: There were 50 students. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: How many students passed the exam? বিবৃতি I: 60% of the students passed. বিবৃতি II: There were 50 students. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "I gives the percentage and II gives the strength; together 30 passed.",
+    "as": "I এ শতাংশ আৰু II এ সংখ্যা দিয়ে; একেলগে 30 পাছ।"
+   }
+  },
+  {
+   "id": "data-sufficiency-053",
+   "q": {
+    "en": "Question: What is the difference between the two numbers? Statement I: Their sum is 100. Statement II: One number is 60. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the difference between the two numbers? বিবৃতি I: Their sum is 100. বিবৃতি II: One number is 60. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives the sum and II gives one number, so the other is 40 and the difference is 20.",
+    "as": "I এ যোগফল আৰু II এ এটা সংখ্যা দিয়ে, গতিকে পাৰ্থক্য 20।"
+   }
+  },
+  {
+   "id": "data-sufficiency-054",
+   "q": {
+    "en": "Question: What is the length of the train? Statement I: The train crosses a pole in 10 seconds. Statement II: The speed of the train is 20 m/s. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the length of the train? বিবৃতি I: The train crosses a pole in 10 seconds. বিবৃতি II: The speed of the train is 20 m/s. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "I gives time and II gives speed; together length = 200 m.",
+    "as": "I এ সময় আৰু II এ গতি দিয়ে; একেলগে দীঘ 200 m।"
+   }
+  },
+  {
+   "id": "data-sufficiency-055",
+   "q": {
+    "en": "Question: What is the simple interest? Statement I: The sum is Rs 2000. Statement II: The rate is 5% and the time is 3 years. Which statement is sufficient to answer the question?",
+    "as": "প্ৰশ্ন: What is the simple interest? বিবৃতি I: The sum is Rs 2000. বিবৃতি II: The rate is 5% and the time is 3 years. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+   },
+   "options": [
+    {
+     "en": "Both statements together are sufficient",
+     "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+    },
+    {
+     "en": "Statement I alone is sufficient",
+     "as": "কেৱল বিবৃতি I যথেষ্ট"
+    },
+    {
+     "en": "Statement II alone is sufficient",
+     "as": "কেৱল বিবৃতি II যথেষ্ট"
+    },
+    {
+     "en": "Neither statement is sufficient",
+     "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "I gives the principal and II gives rate and time; together SI = Rs 300.",
+    "as": "I এ মূলধন আৰু II এ হাৰ-সময় দিয়ে; একেলগে সৰল সুত ৩০০ টকা।"
    }
   }
  ],
@@ -64433,61 +89063,1681 @@ module.exports = {
   {
    "id": "input-output-machine-001",
    "q": {
-    "en": "A machine sorts numbers in increasing order, one per step. Input: 5 2 9 1. Step 1: 1 5 2 9. Step 2: 1 2 5 9. What is Step 1 for input 7 3 8 4?",
-    "as": "এটা যন্ত্ৰই সংখ্যাবোৰ বঢ়াৰ ক্ৰমত সজায়, প্ৰতি ধাপত এটা। ইনপুট: 5 2 9 1। ধাপ 1: 1 5 2 9। ধাপ 2: 1 2 5 9। ইনপুট 7 3 8 4 ৰ বাবে ধাপ 1 কি?"
+    "en": "Input: 32, 45, 12, 67, 89. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 32, 45, 12, 67, 89। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
    },
    "options": [
     {
-     "en": "3 7 4 8",
-     "as": "৩ ৭ ৪ ৮"
+     "en": "45",
+     "as": "45"
     },
     {
-     "en": "4 3 7 8",
-     "as": "৪ ৩ ৭ ৮"
+     "en": "67",
+     "as": "67"
     },
     {
-     "en": "3 7 8 4",
-     "as": "৩ ৭ ৮ ৪"
+     "en": "32",
+     "as": "32"
     },
     {
-     "en": "3 4 7 8",
-     "as": "৩ ৪ ৭ ৮"
+     "en": "12",
+     "as": "12"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "The machine moves the smallest number to the front at each step, so 7 3 8 4 becomes 3 7 8 4 in the first step.",
-    "as": "যন্ত্ৰই প্ৰতিটো ধাপত সৰু সংখ্যাটো আগলৈ আনে, গতিকে 7 3 8 4 প্ৰথম ধাপত 3 7 8 4 হয়।"
+    "en": "Ascending order is 12, 32, 45, 67, 89, so the third number is 45.",
+    "as": "ঊৰ্ধ্বক্ৰম 12, 32, 45, 67, 89, গতিকে তৃতীয় সংখ্যা 45।"
    }
   },
   {
    "id": "input-output-machine-002",
    "q": {
-    "en": "A machine moves the largest number to the end, one per step. Input: 4 9 1 6. What is Step 1?",
-    "as": "এটা যন্ত্ৰই ডাঙৰ সংখ্যাটো শেষলৈ ঠেলে, প্ৰতি ধাপত এটা। ইনপুট: 4 9 1 6। ধাপ 1 কি?"
+    "en": "Input: 54, 23, 76, 18, 90. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 54, 23, 76, 18, 90। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
    },
    "options": [
     {
-     "en": "4 1 9 6",
-     "as": "৪ ১ ৯ ৬"
+     "en": "23",
+     "as": "23"
     },
     {
-     "en": "1 4 6 9",
-     "as": "১ ৪ ৬ ৯"
+     "en": "90",
+     "as": "90"
     },
     {
-     "en": "9 4 1 6",
-     "as": "৯ ৪ ১ ৬"
+     "en": "54",
+     "as": "54"
     },
     {
-     "en": "4 1 6 9",
-     "as": "৪ ১ ৬ ৯"
+     "en": "76",
+     "as": "76"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Descending order is 90, 76, 54, 23, 18, so the third number is 54.",
+    "as": "অধঃক্ৰম 90, 76, 54, 23, 18, গতিকে তৃতীয় সংখ্যা 54।"
+   }
+  },
+  {
+   "id": "input-output-machine-003",
+   "q": {
+    "en": "Input: 61, 14, 83, 27, 55. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 61, 14, 83, 27, 55। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "69",
+     "as": "69"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "82",
+     "as": "82"
+    },
+    {
+     "en": "41",
+     "as": "41"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "The largest number, 9, moves to the end, so the first step is 4 1 6 9.",
-    "as": "আটাইতকৈ ডাঙৰ সংখ্যা 9 শেষলৈ যায়, গতিকে প্ৰথম ধাপ 4 1 6 9।"
+    "en": "Ascending order is 14, 27, 55, 61, 83, so the first two are 14 and 27, summing to 41.",
+    "as": "ঊৰ্ধ্বক্ৰম 14, 27, 55, 61, 83, গতিকে প্ৰথম দুটা 14 আৰু 27, যোগফল 41।"
+   }
+  },
+  {
+   "id": "input-output-machine-004",
+   "q": {
+    "en": "Input: 39, 72, 16, 48, 91. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 39, 72, 16, 48, 91। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "16",
+     "as": "16"
+    },
+    {
+     "en": "91",
+     "as": "91"
+    },
+    {
+     "en": "39",
+     "as": "39"
+    },
+    {
+     "en": "72",
+     "as": "72"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 91 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 91 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-005",
+   "q": {
+    "en": "Input: 25, 64, 13, 87, 50. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 25, 64, 13, 87, 50। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "13",
+     "as": "13"
+    },
+    {
+     "en": "50",
+     "as": "50"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 13, 25, 50, 64, 87, so the third number is 50.",
+    "as": "ঊৰ্ধ্বক্ৰম 13, 25, 50, 64, 87, গতিকে তৃতীয় সংখ্যা 50।"
+   }
+  },
+  {
+   "id": "input-output-machine-006",
+   "q": {
+    "en": "Input: 70, 11, 95, 33, 58. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 70, 11, 95, 33, 58। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "33",
+     "as": "33"
+    },
+    {
+     "en": "58",
+     "as": "58"
+    },
+    {
+     "en": "95",
+     "as": "95"
+    },
+    {
+     "en": "70",
+     "as": "70"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Descending order is 95, 70, 58, 33, 11, so the third number is 58.",
+    "as": "অধঃক্ৰম 95, 70, 58, 33, 11, গতিকে তৃতীয় সংখ্যা 58।"
+   }
+  },
+  {
+   "id": "input-output-machine-007",
+   "q": {
+    "en": "Input: 44, 29, 81, 17, 63. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 44, 29, 81, 17, 63। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "47",
+     "as": "47"
+    },
+    {
+     "en": "61",
+     "as": "61"
+    },
+    {
+     "en": "46",
+     "as": "46"
+    },
+    {
+     "en": "73",
+     "as": "73"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ascending order is 17, 29, 44, 63, 81, so the first two are 17 and 29, summing to 46.",
+    "as": "ঊৰ্ধ্বক্ৰম 17, 29, 44, 63, 81, গতিকে প্ৰথম দুটা 17 আৰু 29, যোগফল 46।"
+   }
+  },
+  {
+   "id": "input-output-machine-008",
+   "q": {
+    "en": "Input: 56, 38, 74, 22, 99. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 56, 38, 74, 22, 99। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "99",
+     "as": "99"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "38",
+     "as": "38"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 99 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 99 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-009",
+   "q": {
+    "en": "Input: 18, 52, 86, 31, 67. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 18, 52, 86, 31, 67। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "67",
+     "as": "67"
+    },
+    {
+     "en": "52",
+     "as": "52"
+    },
+    {
+     "en": "31",
+     "as": "31"
+    },
+    {
+     "en": "18",
+     "as": "18"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 18, 31, 52, 67, 86, so the third number is 52.",
+    "as": "ঊৰ্ধ্বক্ৰম 18, 31, 52, 67, 86, গতিকে তৃতীয় সংখ্যা 52।"
+   }
+  },
+  {
+   "id": "input-output-machine-010",
+   "q": {
+    "en": "Input: 43, 78, 21, 65, 34. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 43, 78, 21, 65, 34। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "65",
+     "as": "65"
+    },
+    {
+     "en": "78",
+     "as": "78"
+    },
+    {
+     "en": "34",
+     "as": "34"
+    },
+    {
+     "en": "43",
+     "as": "43"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Descending order is 78, 65, 43, 34, 21, so the third number is 43.",
+    "as": "অধঃক্ৰম 78, 65, 43, 34, 21, গতিকে তৃতীয় সংখ্যা 43।"
+   }
+  },
+  {
+   "id": "input-output-machine-011",
+   "q": {
+    "en": "Input: 90, 15, 72, 49, 26. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 90, 15, 72, 49, 26। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "42",
+     "as": "42"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "75",
+     "as": "75"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ascending order is 15, 26, 49, 72, 90, so the first two are 15 and 26, summing to 41.",
+    "as": "ঊৰ্ধ্বক্ৰম 15, 26, 49, 72, 90, গতিকে প্ৰথম দুটা 15 আৰু 26, যোগফল 41।"
+   }
+  },
+  {
+   "id": "input-output-machine-012",
+   "q": {
+    "en": "Input: 37, 84, 19, 60, 53. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 37, 84, 19, 60, 53। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "19",
+     "as": "19"
+    },
+    {
+     "en": "84",
+     "as": "84"
+    },
+    {
+     "en": "60",
+     "as": "60"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 84 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 84 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-013",
+   "q": {
+    "en": "Input: 62, 28, 91, 14, 75. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 62, 28, 91, 14, 75। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "75",
+     "as": "75"
+    },
+    {
+     "en": "62",
+     "as": "62"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    },
+    {
+     "en": "28",
+     "as": "28"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 14, 28, 62, 75, 91, so the third number is 62.",
+    "as": "ঊৰ্ধ্বক্ৰম 14, 28, 62, 75, 91, গতিকে তৃতীয় সংখ্যা 62।"
+   }
+  },
+  {
+   "id": "input-output-machine-014",
+   "q": {
+    "en": "Input: 48, 33, 88, 25, 57. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 48, 33, 88, 25, 57। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "48",
+     "as": "48"
+    },
+    {
+     "en": "57",
+     "as": "57"
+    },
+    {
+     "en": "33",
+     "as": "33"
+    },
+    {
+     "en": "88",
+     "as": "88"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Descending order is 88, 57, 48, 33, 25, so the third number is 48.",
+    "as": "অধঃক্ৰম 88, 57, 48, 33, 25, গতিকে তৃতীয় সংখ্যা 48।"
+   }
+  },
+  {
+   "id": "input-output-machine-015",
+   "q": {
+    "en": "Input: 71, 16, 83, 40, 64. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 71, 16, 83, 40, 64। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "57",
+     "as": "57"
+    },
+    {
+     "en": "80",
+     "as": "80"
+    },
+    {
+     "en": "56",
+     "as": "56"
+    },
+    {
+     "en": "104",
+     "as": "104"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ascending order is 16, 40, 64, 71, 83, so the first two are 16 and 40, summing to 56.",
+    "as": "ঊৰ্ধ্বক্ৰম 16, 40, 64, 71, 83, গতিকে প্ৰথম দুটা 16 আৰু 40, যোগফল 56।"
+   }
+  },
+  {
+   "id": "input-output-machine-016",
+   "q": {
+    "en": "Input: 55, 92, 27, 68, 11. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 55, 92, 27, 68, 11। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "68",
+     "as": "68"
+    },
+    {
+     "en": "92",
+     "as": "92"
+    },
+    {
+     "en": "11",
+     "as": "11"
+    },
+    {
+     "en": "27",
+     "as": "27"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 92 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 92 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-017",
+   "q": {
+    "en": "Input: 36, 73, 18, 85, 42. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 36, 73, 18, 85, 42। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "18",
+     "as": "18"
+    },
+    {
+     "en": "73",
+     "as": "73"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ascending order is 18, 36, 42, 73, 85, so the third number is 42.",
+    "as": "ঊৰ্ধ্বক্ৰম 18, 36, 42, 73, 85, গতিকে তৃতীয় সংখ্যা 42।"
+   }
+  },
+  {
+   "id": "input-output-machine-018",
+   "q": {
+    "en": "Input: 24, 59, 97, 31, 66. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 24, 59, 97, 31, 66। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "66",
+     "as": "66"
+    },
+    {
+     "en": "97",
+     "as": "97"
+    },
+    {
+     "en": "59",
+     "as": "59"
+    },
+    {
+     "en": "31",
+     "as": "31"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Descending order is 97, 66, 59, 31, 24, so the third number is 59.",
+    "as": "অধঃক্ৰম 97, 66, 59, 31, 24, গতিকে তৃতীয় সংখ্যা 59।"
+   }
+  },
+  {
+   "id": "input-output-machine-019",
+   "q": {
+    "en": "Input: 80, 13, 54, 76, 29. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 80, 13, 54, 76, 29। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "83",
+     "as": "83"
+    },
+    {
+     "en": "67",
+     "as": "67"
+    },
+    {
+     "en": "43",
+     "as": "43"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ascending order is 13, 29, 54, 76, 80, so the first two are 13 and 29, summing to 42.",
+    "as": "ঊৰ্ধ্বক্ৰম 13, 29, 54, 76, 80, গতিকে প্ৰথম দুটা 13 আৰু 29, যোগফল 42।"
+   }
+  },
+  {
+   "id": "input-output-machine-020",
+   "q": {
+    "en": "Input: 45, 68, 22, 91, 37. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 45, 68, 22, 91, 37। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "91",
+     "as": "91"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "68",
+     "as": "68"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 91 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 91 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-021",
+   "q": {
+    "en": "Input: 17, 62, 88, 34, 51. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 17, 62, 88, 34, 51। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "51",
+     "as": "51"
+    },
+    {
+     "en": "17",
+     "as": "17"
+    },
+    {
+     "en": "62",
+     "as": "62"
+    },
+    {
+     "en": "34",
+     "as": "34"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ascending order is 17, 34, 51, 62, 88, so the third number is 51.",
+    "as": "ঊৰ্ধ্বক্ৰম 17, 34, 51, 62, 88, গতিকে তৃতীয় সংখ্যা 51।"
+   }
+  },
+  {
+   "id": "input-output-machine-022",
+   "q": {
+    "en": "Input: 79, 26, 63, 90, 15. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 79, 26, 63, 90, 15। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "79",
+     "as": "79"
+    },
+    {
+     "en": "90",
+     "as": "90"
+    },
+    {
+     "en": "63",
+     "as": "63"
+    },
+    {
+     "en": "26",
+     "as": "26"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Descending order is 90, 79, 63, 26, 15, so the third number is 63.",
+    "as": "অধঃক্ৰম 90, 79, 63, 26, 15, গতিকে তৃতীয় সংখ্যা 63।"
+   }
+  },
+  {
+   "id": "input-output-machine-023",
+   "q": {
+    "en": "Input: 41, 87, 24, 70, 58. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 41, 87, 24, 70, 58। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "82",
+     "as": "82"
+    },
+    {
+     "en": "99",
+     "as": "99"
+    },
+    {
+     "en": "66",
+     "as": "66"
+    },
+    {
+     "en": "65",
+     "as": "65"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ascending order is 24, 41, 58, 70, 87, so the first two are 24 and 41, summing to 65.",
+    "as": "ঊৰ্ধ্বক্ৰম 24, 41, 58, 70, 87, গতিকে প্ৰথম দুটা 24 আৰু 41, যোগফল 65।"
+   }
+  },
+  {
+   "id": "input-output-machine-024",
+   "q": {
+    "en": "Input: 66, 19, 82, 47, 35. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 66, 19, 82, 47, 35। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "35",
+     "as": "35"
+    },
+    {
+     "en": "19",
+     "as": "19"
+    },
+    {
+     "en": "66",
+     "as": "66"
+    },
+    {
+     "en": "82",
+     "as": "82"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 82 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 82 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-025",
+   "q": {
+    "en": "Input: 28, 75, 53, 91, 12. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 28, 75, 53, 91, 12। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "12",
+     "as": "12"
+    },
+    {
+     "en": "75",
+     "as": "75"
+    },
+    {
+     "en": "53",
+     "as": "53"
+    },
+    {
+     "en": "28",
+     "as": "28"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ascending order is 12, 28, 53, 75, 91, so the third number is 53.",
+    "as": "ঊৰ্ধ্বক্ৰম 12, 28, 53, 75, 91, গতিকে তৃতীয় সংখ্যা 53।"
+   }
+  },
+  {
+   "id": "input-output-machine-026",
+   "q": {
+    "en": "Input: 84, 37, 61, 16, 72. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 84, 37, 61, 16, 72। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "84",
+     "as": "84"
+    },
+    {
+     "en": "61",
+     "as": "61"
+    },
+    {
+     "en": "72",
+     "as": "72"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Descending order is 84, 72, 61, 37, 16, so the third number is 61.",
+    "as": "অধঃক্ৰম 84, 72, 61, 37, 16, গতিকে তৃতীয় সংখ্যা 61।"
+   }
+  },
+  {
+   "id": "input-output-machine-027",
+   "q": {
+    "en": "Input: 50, 23, 95, 68, 41. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 50, 23, 95, 68, 41। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "73",
+     "as": "73"
+    },
+    {
+     "en": "91",
+     "as": "91"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "65",
+     "as": "65"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ascending order is 23, 41, 50, 68, 95, so the first two are 23 and 41, summing to 64.",
+    "as": "ঊৰ্ধ্বক্ৰম 23, 41, 50, 68, 95, গতিকে প্ৰথম দুটা 23 আৰু 41, যোগফল 64।"
+   }
+  },
+  {
+   "id": "input-output-machine-028",
+   "q": {
+    "en": "Input: 33, 86, 57, 20, 74. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 33, 86, 57, 20, 74। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "86",
+     "as": "86"
+    },
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "33",
+     "as": "33"
+    },
+    {
+     "en": "20",
+     "as": "20"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 86 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 86 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-029",
+   "q": {
+    "en": "Input: 69, 14, 48, 82, 31. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 69, 14, 48, 82, 31। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "31",
+     "as": "31"
+    },
+    {
+     "en": "48",
+     "as": "48"
+    },
+    {
+     "en": "69",
+     "as": "69"
+    },
+    {
+     "en": "14",
+     "as": "14"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 14, 31, 48, 69, 82, so the third number is 48.",
+    "as": "ঊৰ্ধ্বক্ৰম 14, 31, 48, 69, 82, গতিকে তৃতীয় সংখ্যা 48।"
+   }
+  },
+  {
+   "id": "input-output-machine-030",
+   "q": {
+    "en": "Input: 22, 90, 65, 38, 77. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 22, 90, 65, 38, 77। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "77",
+     "as": "77"
+    },
+    {
+     "en": "65",
+     "as": "65"
+    },
+    {
+     "en": "38",
+     "as": "38"
+    },
+    {
+     "en": "90",
+     "as": "90"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Descending order is 90, 77, 65, 38, 22, so the third number is 65.",
+    "as": "অধঃক্ৰম 90, 77, 65, 38, 22, গতিকে তৃতীয় সংখ্যা 65।"
+   }
+  },
+  {
+   "id": "input-output-machine-031",
+   "q": {
+    "en": "Input: 46, 81, 29, 73, 15. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 46, 81, 29, 73, 15। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "44",
+     "as": "44"
+    },
+    {
+     "en": "61",
+     "as": "61"
+    },
+    {
+     "en": "75",
+     "as": "75"
+    },
+    {
+     "en": "45",
+     "as": "45"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ascending order is 15, 29, 46, 73, 81, so the first two are 15 and 29, summing to 44.",
+    "as": "ঊৰ্ধ্বক্ৰম 15, 29, 46, 73, 81, গতিকে প্ৰথম দুটা 15 আৰু 29, যোগফল 44।"
+   }
+  },
+  {
+   "id": "input-output-machine-032",
+   "q": {
+    "en": "Input: 58, 35, 92, 24, 67. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 58, 35, 92, 24, 67। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "92",
+     "as": "92"
+    },
+    {
+     "en": "24",
+     "as": "24"
+    },
+    {
+     "en": "35",
+     "as": "35"
+    },
+    {
+     "en": "67",
+     "as": "67"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 92 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 92 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-033",
+   "q": {
+    "en": "Input: 31, 78, 54, 86, 19. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 31, 78, 54, 86, 19। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "19",
+     "as": "19"
+    },
+    {
+     "en": "54",
+     "as": "54"
+    },
+    {
+     "en": "78",
+     "as": "78"
+    },
+    {
+     "en": "31",
+     "as": "31"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 19, 31, 54, 78, 86, so the third number is 54.",
+    "as": "ঊৰ্ধ্বক্ৰম 19, 31, 54, 78, 86, গতিকে তৃতীয় সংখ্যা 54।"
+   }
+  },
+  {
+   "id": "input-output-machine-034",
+   "q": {
+    "en": "Input: 64, 27, 89, 42, 75. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 64, 27, 89, 42, 75। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "75",
+     "as": "75"
+    },
+    {
+     "en": "89",
+     "as": "89"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Descending order is 89, 75, 64, 42, 27, so the third number is 64.",
+    "as": "অধঃক্ৰম 89, 75, 64, 42, 27, গতিকে তৃতীয় সংখ্যা 64।"
+   }
+  },
+  {
+   "id": "input-output-machine-035",
+   "q": {
+    "en": "Input: 85, 39, 62, 17, 50. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 85, 39, 62, 17, 50। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "56",
+     "as": "56"
+    },
+    {
+     "en": "67",
+     "as": "67"
+    },
+    {
+     "en": "89",
+     "as": "89"
+    },
+    {
+     "en": "57",
+     "as": "57"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ascending order is 17, 39, 50, 62, 85, so the first two are 17 and 39, summing to 56.",
+    "as": "ঊৰ্ধ্বক্ৰম 17, 39, 50, 62, 85, গতিকে প্ৰথম দুটা 17 আৰু 39, যোগফল 56।"
+   }
+  },
+  {
+   "id": "input-output-machine-036",
+   "q": {
+    "en": "Input: 43, 96, 28, 71, 34. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 43, 96, 28, 71, 34। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "28",
+     "as": "28"
+    },
+    {
+     "en": "34",
+     "as": "34"
+    },
+    {
+     "en": "71",
+     "as": "71"
+    },
+    {
+     "en": "96",
+     "as": "96"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 96 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 96 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-037",
+   "q": {
+    "en": "Input: 57, 20, 83, 46, 69. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 57, 20, 83, 46, 69। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "20",
+     "as": "20"
+    },
+    {
+     "en": "57",
+     "as": "57"
+    },
+    {
+     "en": "69",
+     "as": "69"
+    },
+    {
+     "en": "46",
+     "as": "46"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 20, 46, 57, 69, 83, so the third number is 57.",
+    "as": "ঊৰ্ধ্বক্ৰম 20, 46, 57, 69, 83, গতিকে তৃতীয় সংখ্যা 57।"
+   }
+  },
+  {
+   "id": "input-output-machine-038",
+   "q": {
+    "en": "Input: 26, 73, 58, 91, 35. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 26, 73, 58, 91, 35। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "73",
+     "as": "73"
+    },
+    {
+     "en": "58",
+     "as": "58"
+    },
+    {
+     "en": "35",
+     "as": "35"
+    },
+    {
+     "en": "91",
+     "as": "91"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Descending order is 91, 73, 58, 35, 26, so the third number is 58.",
+    "as": "অধঃক্ৰম 91, 73, 58, 35, 26, গতিকে তৃতীয় সংখ্যা 58।"
+   }
+  },
+  {
+   "id": "input-output-machine-039",
+   "q": {
+    "en": "Input: 76, 41, 88, 23, 54. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 76, 41, 88, 23, 54। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "77",
+     "as": "77"
+    },
+    {
+     "en": "65",
+     "as": "65"
+    },
+    {
+     "en": "95",
+     "as": "95"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ascending order is 23, 41, 54, 76, 88, so the first two are 23 and 41, summing to 64.",
+    "as": "ঊৰ্ধ্বক্ৰম 23, 41, 54, 76, 88, গতিকে প্ৰথম দুটা 23 আৰু 41, যোগফল 64।"
+   }
+  },
+  {
+   "id": "input-output-machine-040",
+   "q": {
+    "en": "Input: 34, 69, 51, 92, 17. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 34, 69, 51, 92, 17। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "17",
+     "as": "17"
+    },
+    {
+     "en": "34",
+     "as": "34"
+    },
+    {
+     "en": "92",
+     "as": "92"
+    },
+    {
+     "en": "69",
+     "as": "69"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 92 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 92 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-041",
+   "q": {
+    "en": "Input: 81, 48, 25, 64, 37. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 81, 48, 25, 64, 37। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "25",
+     "as": "25"
+    },
+    {
+     "en": "48",
+     "as": "48"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ascending order is 25, 37, 48, 64, 81, so the third number is 48.",
+    "as": "ঊৰ্ধ্বক্ৰম 25, 37, 48, 64, 81, গতিকে তৃতীয় সংখ্যা 48।"
+   }
+  },
+  {
+   "id": "input-output-machine-042",
+   "q": {
+    "en": "Input: 52, 95, 18, 73, 44. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 52, 95, 18, 73, 44। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "52",
+     "as": "52"
+    },
+    {
+     "en": "44",
+     "as": "44"
+    },
+    {
+     "en": "95",
+     "as": "95"
+    },
+    {
+     "en": "73",
+     "as": "73"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Descending order is 95, 73, 52, 44, 18, so the third number is 52.",
+    "as": "অধঃক্ৰম 95, 73, 52, 44, 18, গতিকে তৃতীয় সংখ্যা 52।"
+   }
+  },
+  {
+   "id": "input-output-machine-043",
+   "q": {
+    "en": "Input: 29, 66, 84, 39, 57. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 29, 66, 84, 39, 57। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "68",
+     "as": "68"
+    },
+    {
+     "en": "96",
+     "as": "96"
+    },
+    {
+     "en": "86",
+     "as": "86"
+    },
+    {
+     "en": "69",
+     "as": "69"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ascending order is 29, 39, 57, 66, 84, so the first two are 29 and 39, summing to 68.",
+    "as": "ঊৰ্ধ্বক্ৰম 29, 39, 57, 66, 84, গতিকে প্ৰথম দুটা 29 আৰু 39, যোগফল 68।"
+   }
+  },
+  {
+   "id": "input-output-machine-044",
+   "q": {
+    "en": "Input: 63, 22, 90, 55, 31. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 63, 22, 90, 55, 31। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "63",
+     "as": "63"
+    },
+    {
+     "en": "22",
+     "as": "22"
+    },
+    {
+     "en": "90",
+     "as": "90"
+    },
+    {
+     "en": "31",
+     "as": "31"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 90 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 90 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-045",
+   "q": {
+    "en": "Input: 47, 74, 36, 88, 19. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 47, 74, 36, 88, 19। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "36",
+     "as": "36"
+    },
+    {
+     "en": "19",
+     "as": "19"
+    },
+    {
+     "en": "47",
+     "as": "47"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ascending order is 19, 36, 47, 74, 88, so the third number is 47.",
+    "as": "ঊৰ্ধ্বক্ৰম 19, 36, 47, 74, 88, গতিকে তৃতীয় সংখ্যা 47।"
+   }
+  },
+  {
+   "id": "input-output-machine-046",
+   "q": {
+    "en": "Input: 70, 25, 53, 91, 42. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 70, 25, 53, 91, 42। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "53",
+     "as": "53"
+    },
+    {
+     "en": "70",
+     "as": "70"
+    },
+    {
+     "en": "91",
+     "as": "91"
+    },
+    {
+     "en": "42",
+     "as": "42"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Descending order is 91, 70, 53, 42, 25, so the third number is 53.",
+    "as": "অধঃক্ৰম 91, 70, 53, 42, 25, গতিকে তৃতীয় সংখ্যা 53।"
+   }
+  },
+  {
+   "id": "input-output-machine-047",
+   "q": {
+    "en": "Input: 38, 82, 64, 27, 76. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 38, 82, 64, 27, 76। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "102",
+     "as": "102"
+    },
+    {
+     "en": "91",
+     "as": "91"
+    },
+    {
+     "en": "66",
+     "as": "66"
+    },
+    {
+     "en": "65",
+     "as": "65"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ascending order is 27, 38, 64, 76, 82, so the first two are 27 and 38, summing to 65.",
+    "as": "ঊৰ্ধ্বক্ৰম 27, 38, 64, 76, 82, গতিকে প্ৰথম দুটা 27 আৰু 38, যোগফল 65।"
+   }
+  },
+  {
+   "id": "input-output-machine-048",
+   "q": {
+    "en": "Input: 59, 31, 85, 44, 68. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 59, 31, 85, 44, 68। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "85",
+     "as": "85"
+    },
+    {
+     "en": "31",
+     "as": "31"
+    },
+    {
+     "en": "68",
+     "as": "68"
+    },
+    {
+     "en": "44",
+     "as": "44"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 85 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 85 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-049",
+   "q": {
+    "en": "Input: 44, 77, 26, 63, 91. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 44, 77, 26, 63, 91। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "77",
+     "as": "77"
+    },
+    {
+     "en": "63",
+     "as": "63"
+    },
+    {
+     "en": "26",
+     "as": "26"
+    },
+    {
+     "en": "44",
+     "as": "44"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 26, 44, 63, 77, 91, so the third number is 63.",
+    "as": "ঊৰ্ধ্বক্ৰম 26, 44, 63, 77, 91, গতিকে তৃতীয় সংখ্যা 63।"
+   }
+  },
+  {
+   "id": "input-output-machine-050",
+   "q": {
+    "en": "Input: 35, 88, 52, 19, 74. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 35, 88, 52, 19, 74। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "88",
+     "as": "88"
+    },
+    {
+     "en": "74",
+     "as": "74"
+    },
+    {
+     "en": "35",
+     "as": "35"
+    },
+    {
+     "en": "52",
+     "as": "52"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Descending order is 88, 74, 52, 35, 19, so the third number is 52.",
+    "as": "অধঃক্ৰম 88, 74, 52, 35, 19, গতিকে তৃতীয় সংখ্যা 52।"
+   }
+  },
+  {
+   "id": "input-output-machine-051",
+   "q": {
+    "en": "Input: 67, 24, 91, 43, 56. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 67, 24, 91, 43, 56। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "99",
+     "as": "99"
+    },
+    {
+     "en": "67",
+     "as": "67"
+    },
+    {
+     "en": "68",
+     "as": "68"
+    },
+    {
+     "en": "80",
+     "as": "80"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 24, 43, 56, 67, 91, so the first two are 24 and 43, summing to 67.",
+    "as": "ঊৰ্ধ্বক্ৰম 24, 43, 56, 67, 91, গতিকে প্ৰথম দুটা 24 আৰু 43, যোগফল 67।"
+   }
+  },
+  {
+   "id": "input-output-machine-052",
+   "q": {
+    "en": "Input: 30, 75, 48, 86, 21. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 30, 75, 48, 86, 21। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "86",
+     "as": "86"
+    },
+    {
+     "en": "21",
+     "as": "21"
+    },
+    {
+     "en": "30",
+     "as": "30"
+    },
+    {
+     "en": "75",
+     "as": "75"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 86 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 86 ডাঙৰেই থাকে।"
+   }
+  },
+  {
+   "id": "input-output-machine-053",
+   "q": {
+    "en": "Input: 92, 37, 64, 15, 79. Step I arranges the numbers in ascending order. Which number is third in Step I?",
+    "as": "ইনপুট: 92, 37, 64, 15, 79। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "37",
+     "as": "37"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "15",
+     "as": "15"
+    },
+    {
+     "en": "79",
+     "as": "79"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ascending order is 15, 37, 64, 79, 92, so the third number is 64.",
+    "as": "ঊৰ্ধ্বক্ৰম 15, 37, 64, 79, 92, গতিকে তৃতীয় সংখ্যা 64।"
+   }
+  },
+  {
+   "id": "input-output-machine-054",
+   "q": {
+    "en": "Input: 41, 68, 23, 90, 57. Step I arranges the numbers in descending order. Which number is third in Step I?",
+    "as": "ইনপুট: 41, 68, 23, 90, 57। স্তৰ I এ সংখ্যাবোৰ অধঃক্ৰমত সজায়। স্তৰ I ত তৃতীয় সংখ্যা কোনটো?"
+   },
+   "options": [
+    {
+     "en": "90",
+     "as": "90"
+    },
+    {
+     "en": "41",
+     "as": "41"
+    },
+    {
+     "en": "57",
+     "as": "57"
+    },
+    {
+     "en": "68",
+     "as": "68"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Descending order is 90, 68, 57, 41, 23, so the third number is 57.",
+    "as": "অধঃক্ৰম 90, 68, 57, 41, 23, গতিকে তৃতীয় সংখ্যা 57।"
+   }
+  },
+  {
+   "id": "input-output-machine-055",
+   "q": {
+    "en": "Input: 53, 86, 39, 72, 25. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+    "as": "ইনপুট: 53, 86, 39, 72, 25। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+   },
+   "options": [
+    {
+     "en": "92",
+     "as": "92"
+    },
+    {
+     "en": "78",
+     "as": "78"
+    },
+    {
+     "en": "64",
+     "as": "64"
+    },
+    {
+     "en": "65",
+     "as": "65"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ascending order is 25, 39, 53, 72, 86, so the first two are 25 and 39, summing to 64.",
+    "as": "ঊৰ্ধ্বক্ৰম 25, 39, 53, 72, 86, গতিকে প্ৰথম দুটা 25 আৰু 39, যোগফল 64।"
+   }
+  },
+  {
+   "id": "input-output-machine-056",
+   "q": {
+    "en": "Input: 62, 18, 94, 45, 70. Step I replaces each number by its square. Which number becomes the largest?",
+    "as": "ইনপুট: 62, 18, 94, 45, 70। স্তৰ I এ প্ৰতিটো সংখ্যাক তাৰ বৰ্গৰে সলনি কৰে। কোনটো সংখ্যা আটাইতকৈ ডাঙৰ হয়?"
+   },
+   "options": [
+    {
+     "en": "18",
+     "as": "18"
+    },
+    {
+     "en": "70",
+     "as": "70"
+    },
+    {
+     "en": "94",
+     "as": "94"
+    },
+    {
+     "en": "45",
+     "as": "45"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Squaring preserves order for positive numbers, so the largest number 94 stays the largest.",
+    "as": "ধনাত্মক সংখ্যাৰ বাবে বৰ্গই ক্ৰম ৰাখে, গতিকে আটাইতকৈ ডাঙৰ 94 ডাঙৰেই থাকে।"
    }
   }
  ],

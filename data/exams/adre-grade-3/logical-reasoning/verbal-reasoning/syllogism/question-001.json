@@ -2,121 +2,1681 @@
   {
     "id": "syllogism-001",
     "q": {
-      "en": "Statements: All men are mortal. Ram is a man. Conclusion: Ram is mortal.",
-      "as": "বিবৃতি: সকলো মানুহ মৰণশীল। ৰাম এজন মানুহ। সিদ্ধান্ত: ৰাম মৰণশীল।"
+      "en": "Statements: All roses are flowers. All flowers are plants. Conclusions: I. All roses are plants. II. All plants are roses. Which conclusion follows?",
+      "as": "বিবৃতি: All roses are flowers. All flowers are plants. সিদ্ধান্ত: I. All roses are plants. II. All plants are roses. কোনটো সিদ্ধান্ত ওলায়?"
     },
     "options": [
       {
-        "en": "Follows",
-        "as": "ওলায়"
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
       },
       {
-        "en": "Does not follow",
-        "as": "ওলাই নাযায়"
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
       },
       {
-        "en": "Cannot be determined",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
       },
       {
-        "en": "None of these",
-        "as": "এটাও নহয়"
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "The conclusion follows directly from the two statements.",
-      "as": "সিদ্ধান্ত দুটা বিবৃতিৰ পৰা পোনপটীয়াকৈ ওলায়।"
+      "en": "Roses are inside flowers and flowers inside plants, so all roses are plants; II does not follow.",
+      "as": "গোলাপ ফুলৰ ভিতৰত আৰু ফুল উদ্ভিদৰ ভিতৰত, গতিকে I ওলায়; II নোলায়।"
     }
   },
   {
     "id": "syllogism-002",
     "q": {
-      "en": "Statements: All roses are flowers. Some flowers fade quickly. Conclusion: Some roses fade quickly.",
-      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান ফুল সোনকালে শুকাই যায়। সিদ্ধান্ত: কিছুমান গোলাপ সোনকালে শুকাই যায়।"
+      "en": "Statements: All men are mortal. Socrates is a man. Conclusions: I. Socrates is mortal. II. All mortals are men. Which conclusion follows?",
+      "as": "বিবৃতি: All men are mortal. Socrates is a man. সিদ্ধান্ত: I. Socrates is mortal. II. All mortals are men. কোনটো সিদ্ধান্ত ওলায়?"
     },
     "options": [
       {
-        "en": "Follows",
-        "as": "ওলায়"
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
       },
       {
-        "en": "Does not follow",
-        "as": "ওলাই নাযায়"
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
       },
       {
-        "en": "Cannot be determined",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
       },
       {
-        "en": "None of these",
-        "as": "এটাও নহয়"
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "The fading flowers need not be roses, so the conclusion does not follow.",
-      "as": "শুকাই যোৱা ফুলবোৰ গোলাপ নহ'বও পাৰে, গতিকে সিদ্ধান্ত ওলাই নাযায়।"
+      "en": "Socrates is a man and all men are mortal, so Socrates is mortal; II reverses the relation.",
+      "as": "চক্ৰেটিছ মানুহ আৰু সকলো মানুহ মৰণশীল, গতিকে I ওলায়; II সম্পৰ্ক ওলোটাই।"
     }
   },
   {
     "id": "syllogism-003",
     "q": {
-      "en": "Statements: No cat is a dog. All dogs are animals. Conclusion: No cat is an animal.",
-      "as": "বিবৃতি: কোনো মেকুৰী কুকুৰ নহয়। সকলো কুকুৰ প্ৰাণী। সিদ্ধান্ত: কোনো মেকুৰী প্ৰাণী নহয়।"
+      "en": "Statements: Some cats are black. Some black things are dogs. Conclusions: I. Some cats are dogs. II. Some dogs are black. Which conclusion follows?",
+      "as": "বিবৃতি: Some cats are black. Some black things are dogs. সিদ্ধান্ত: I. Some cats are dogs. II. Some dogs are black. কোনটো সিদ্ধান্ত ওলায়?"
     },
     "options": [
       {
-        "en": "Follows",
-        "as": "ওলায়"
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
       },
       {
-        "en": "Does not follow",
-        "as": "ওলাই নাযায়"
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
       },
       {
-        "en": "Cannot be determined",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
       },
       {
-        "en": "None of these",
-        "as": "এটাও নহয়"
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
       }
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
-      "en": "Cats may still be animals other than dogs, so the conclusion does not follow.",
-      "as": "মেকুৰী কুকুৰৰ বাহিৰে আন প্ৰাণীও হ'ব পাৰে, গতিকে সিদ্ধান্ত ওলাই নাযায়।"
+      "en": "The overlap of cats and dogs is not certain, but some black things are dogs means some dogs are black.",
+      "as": "মেকুৰী আৰু কুকুৰৰ ওপৰাওপৰ নিশ্চিত নহয়, কিন্তু কিছুমান ক’লা বস্তু কুকুৰ, গতিকে II ওলায়।"
     }
   },
   {
     "id": "syllogism-004",
     "q": {
-      "en": "Statements: All students are hardworking. Rina is a student. Conclusion: Rina is hardworking.",
-      "as": "বিবৃতি: সকলো ছাত্ৰ পৰিশ্ৰমী। ৰীনা এগৰাকী ছাত্ৰী। সিদ্ধান্ত: ৰীনা পৰিশ্ৰমী।"
+      "en": "Statements: All birds can fly. A penguin is a bird. Conclusions: I. A penguin can fly. II. All flying things are birds. Which conclusion follows?",
+      "as": "বিবৃতি: All birds can fly. A penguin is a bird. সিদ্ধান্ত: I. A penguin can fly. II. All flying things are birds. কোনটো সিদ্ধান্ত ওলায়?"
     },
     "options": [
       {
-        "en": "Follows",
-        "as": "ওলায়"
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
       },
       {
-        "en": "Does not follow",
-        "as": "ওলাই নাযায়"
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
       },
       {
-        "en": "Cannot be determined",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
       },
       {
-        "en": "None of these",
-        "as": "এটাও নহয়"
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Logically, if all birds fly and a penguin is a bird, then a penguin flies; II reverses it.",
+      "as": "যুক্তি অনুসৰি, সকলো চৰাই উৰে আৰু পেংগুইন চৰাই, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "syllogism-005",
+    "q": {
+      "en": "Statements: No man is perfect. All kings are men. Conclusions: I. No king is perfect. II. All perfect beings are kings. Which conclusion follows?",
+      "as": "বিবৃতি: No man is perfect. All kings are men. সিদ্ধান্ত: I. No king is perfect. II. All perfect beings are kings. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "The conclusion follows directly from the two statements.",
-      "as": "সিদ্ধান্ত দুটা বিবৃতিৰ পৰা পোনপটীয়াকৈ ওলায়।"
+      "en": "Kings are men and no man is perfect, so no king is perfect; II does not follow.",
+      "as": "ৰজাসকল মানুহ আৰু কোনো মানুহ নিখুঁত নহয়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-006",
+    "q": {
+      "en": "Statements: Some pens are books. All books are papers. Conclusions: I. Some pens are papers. II. All papers are pens. Which conclusion follows?",
+      "as": "বিবৃতি: Some pens are books. All books are papers. সিদ্ধান্ত: I. Some pens are papers. II. All papers are pens. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The pens that are books are also papers, so some pens are papers; II does not follow.",
+      "as": "যিবোৰ কলম কিতাপ সেয়া কাগজো, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-007",
+    "q": {
+      "en": "Statements: All students are honest. Some honest people are rich. Conclusions: I. Some students are rich. II. All honest people are students. Which conclusion follows?",
+      "as": "বিবৃতি: All students are honest. Some honest people are rich. সিদ্ধান্ত: I. Some students are rich. II. All honest people are students. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The rich honest people need not be students, and honest people need not be students, so neither follows.",
+      "as": "ধনী সৎ লোকসকল ছাত্ৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-008",
+    "q": {
+      "en": "Statements: Some doctors are women. All women are mothers. Conclusions: I. Some doctors are mothers. II. All mothers are doctors. Which conclusion follows?",
+      "as": "বিবৃতি: Some doctors are women. All women are mothers. সিদ্ধান্ত: I. Some doctors are mothers. II. All mothers are doctors. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The women who are doctors are also mothers, so some doctors are mothers; II does not follow.",
+      "as": "যিবোৰ মহিলা ডাক্তৰ সেয়া মাকো, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-009",
+    "q": {
+      "en": "Statements: All squares are rectangles. All rectangles are quadrilaterals. Conclusions: I. All squares are quadrilaterals. II. All quadrilaterals are squares. Which conclusion follows?",
+      "as": "বিবৃতি: All squares are rectangles. All rectangles are quadrilaterals. সিদ্ধান্ত: I. All squares are quadrilaterals. II. All quadrilaterals are squares. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Squares lie inside rectangles inside quadrilaterals, so I follows; II does not.",
+      "as": "বৰ্গ আয়তক্ষেত্ৰৰ ভিতৰত আৰু আয়তক্ষেত্ৰ চতুৰ্ভুজৰ ভিতৰত, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-010",
+    "q": {
+      "en": "Statements: No fish is a bird. Some birds are parrots. Conclusions: I. Some parrots are not fish. II. No parrot is a fish. Which conclusion follows?",
+      "as": "বিবৃতি: No fish is a bird. Some birds are parrots. সিদ্ধান্ত: I. Some parrots are not fish. II. No parrot is a fish. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Parrots are birds and no bird is a fish, so some parrots are not fish; II overstates it.",
+      "as": "ভাটৌ চৰাই আৰু কোনো চৰাই মাছ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "syllogism-011",
+    "q": {
+      "en": "Statements: All metals conduct electricity. Copper is a metal. Conclusions: I. Copper conducts electricity. II. All conductors are metals. Which conclusion follows?",
+      "as": "বিবৃতি: All metals conduct electricity. Copper is a metal. সিদ্ধান্ত: I. Copper conducts electricity. II. All conductors are metals. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Copper is a metal and all metals conduct, so I follows; II reverses the relation.",
+      "as": "তাম এটা ধাতু আৰু সকলো ধাতু পৰিবাহী, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "syllogism-012",
+    "q": {
+      "en": "Statements: Some books are novels. All novels are stories. Conclusions: I. Some books are stories. II. All stories are books. Which conclusion follows?",
+      "as": "বিবৃতি: Some books are novels. All novels are stories. সিদ্ধান্ত: I. Some books are stories. II. All stories are books. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The books that are novels are also stories, so some books are stories; II does not follow.",
+      "as": "যিবোৰ কিতাপ উপন্যাস সেয়া কাহিনীও, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-013",
+    "q": {
+      "en": "Statements: All teachers are graduates. Some graduates are researchers. Conclusions: I. Some teachers are researchers. II. All graduates are teachers. Which conclusion follows?",
+      "as": "বিবৃতি: All teachers are graduates. Some graduates are researchers. সিদ্ধান্ত: I. Some teachers are researchers. II. All graduates are teachers. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The researchers need not be teachers and graduates need not be teachers, so neither follows.",
+      "as": "গৱেষকসকল শিক্ষক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-014",
+    "q": {
+      "en": "Statements: No cow is a dog. Some dogs are pets. Conclusions: I. Some pets are not cows. II. No pet is a cow. Which conclusion follows?",
+      "as": "বিবৃতি: No cow is a dog. Some dogs are pets. সিদ্ধান্ত: I. Some pets are not cows. II. No pet is a cow. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The pet dogs are not cows, so some pets are not cows; II overstates it.",
+      "as": "ঘৰচীয়া কুকুৰবোৰ গৰু নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "syllogism-015",
+    "q": {
+      "en": "Statements: All apples are fruits. Some fruits are sweet. Conclusions: I. Some apples are sweet. II. All sweet things are fruits. Which conclusion follows?",
+      "as": "বিবৃতি: All apples are fruits. Some fruits are sweet. সিদ্ধান্ত: I. Some apples are sweet. II. All sweet things are fruits. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The sweet fruits need not be apples and sweet things need not be fruits, so neither follows.",
+      "as": "মিঠা ফলবোৰ আম নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-016",
+    "q": {
+      "en": "Statements: All chairs are furniture. Some furniture is wooden. Conclusions: I. Some chairs are wooden. II. All wooden things are chairs. Which conclusion follows?",
+      "as": "বিবৃতি: All chairs are furniture. Some furniture is wooden. সিদ্ধান্ত: I. Some chairs are wooden. II. All wooden things are chairs. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The wooden furniture need not be chairs and wooden things need not be chairs.",
+      "as": "কাঠৰ আচবাববোৰ চকী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-017",
+    "q": {
+      "en": "Statements: Some men are doctors. All doctors are rich. Conclusions: I. Some men are rich. II. All rich men are doctors. Which conclusion follows?",
+      "as": "বিবৃতি: Some men are doctors. All doctors are rich. সিদ্ধান্ত: I. Some men are rich. II. All rich men are doctors. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The men who are doctors are also rich, so some men are rich; II does not follow.",
+      "as": "যিবোৰ মানুহ ডাক্তৰ সেয়া ধনীও, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-018",
+    "q": {
+      "en": "Statements: All flowers are beautiful. Some beautiful things are costly. Conclusions: I. Some flowers are costly. II. All costly things are beautiful. Which conclusion follows?",
+      "as": "বিবৃতি: All flowers are beautiful. Some beautiful things are costly. সিদ্ধান্ত: I. Some flowers are costly. II. All costly things are beautiful. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The costly beautiful things need not be flowers, and costly things need not be beautiful.",
+      "as": "দামী সুন্দৰ বস্তুবোৰ ফুল নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-019",
+    "q": {
+      "en": "Statements: No student is lazy. All lazy people are unhealthy. Conclusions: I. No student is unhealthy. II. Some unhealthy people are lazy. Which conclusion follows?",
+      "as": "বিবৃতি: No student is lazy. All lazy people are unhealthy. সিদ্ধান্ত: I. No student is unhealthy. II. Some unhealthy people are lazy. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Lazy people are unhealthy, so some unhealthy people are lazy; I overstates it.",
+      "as": "আলসুৱা লোক অসুস্থ, গতিকে II ওলায়; I বেছি কয়।"
+    }
+  },
+  {
+    "id": "syllogism-020",
+    "q": {
+      "en": "Statements: All pens are tools. Some tools are expensive. Conclusions: I. Some pens are expensive. II. All expensive things are tools. Which conclusion follows?",
+      "as": "বিবৃতি: All pens are tools. Some tools are expensive. সিদ্ধান্ত: I. Some pens are expensive. II. All expensive things are tools. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The expensive tools need not be pens and expensive things need not be tools.",
+      "as": "দামী সঁজুলিবোৰ কলম নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-021",
+    "q": {
+      "en": "Statements: All dogs are animals. All animals need food. Conclusions: I. All dogs need food. II. All animals are dogs. Which conclusion follows?",
+      "as": "বিবৃতি: All dogs are animals. All animals need food. সিদ্ধান্ত: I. All dogs need food. II. All animals are dogs. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dogs are animals and animals need food, so I follows; II reverses the relation.",
+      "as": "কুকুৰ জন্তু আৰু জন্তুৰ খাদ্য লাগে, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "syllogism-022",
+    "q": {
+      "en": "Statements: Some flowers are red. All red things are attractive. Conclusions: I. Some flowers are attractive. II. All attractive things are red. Which conclusion follows?",
+      "as": "বিবৃতি: Some flowers are red. All red things are attractive. সিদ্ধান্ত: I. Some flowers are attractive. II. All attractive things are red. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The red flowers are attractive, so some flowers are attractive; II does not follow.",
+      "as": "ৰঙা ফুলবোৰ আকৰ্ষণীয়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-023",
+    "q": {
+      "en": "Statements: No cat is a bird. All sparrows are birds. Conclusions: I. No sparrow is a cat. II. All cats are sparrows. Which conclusion follows?",
+      "as": "বিবৃতি: No cat is a bird. All sparrows are birds. সিদ্ধান্ত: I. No sparrow is a cat. II. All cats are sparrows. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sparrows are birds and no bird is a cat, so no sparrow is a cat; II does not follow.",
+      "as": "চৰাইবোৰ মেকুৰী নহয়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-024",
+    "q": {
+      "en": "Statements: All rivers flow. Some flowing things are deep. Conclusions: I. Some rivers are deep. II. All deep things are rivers. Which conclusion follows?",
+      "as": "বিবৃতি: All rivers flow. Some flowing things are deep. সিদ্ধান্ত: I. Some rivers are deep. II. All deep things are rivers. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The deep flowing things need not be rivers and deep things need not be rivers.",
+      "as": "গভীৰ বৈ যোৱা বস্তুবোৰ নদী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-025",
+    "q": {
+      "en": "Statements: All singers are artists. Some artists are famous. Conclusions: I. Some singers are famous. II. All famous artists are singers. Which conclusion follows?",
+      "as": "বিবৃতি: All singers are artists. Some artists are famous. সিদ্ধান্ত: I. Some singers are famous. II. All famous artists are singers. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The famous artists need not be singers and famous artists need not be singers.",
+      "as": "প্ৰখ্যাত শিল্পীবোৰ গায়ক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-026",
+    "q": {
+      "en": "Statements: Some birds cannot fly. All penguins are birds. Conclusions: I. Some penguins may not fly. II. No bird can fly. Which conclusion follows?",
+      "as": "বিবৃতি: Some birds cannot fly. All penguins are birds. সিদ্ধান্ত: I. Some penguins may not fly. II. No bird can fly. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Since some birds cannot fly, a bird like the penguin may not fly; II is too strong.",
+      "as": "কিছুমান চৰাই উৰিব নোৱাৰে, গতিকে I ওলায়; II অত্যধিক কঠিন।"
+    }
+  },
+  {
+    "id": "syllogism-027",
+    "q": {
+      "en": "Statements: All mangoes are sweet. Some sweet things are yellow. Conclusions: I. Some mangoes are yellow. II. All yellow things are sweet. Which conclusion follows?",
+      "as": "বিবৃতি: All mangoes are sweet. Some sweet things are yellow. সিদ্ধান্ত: I. Some mangoes are yellow. II. All yellow things are sweet. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The yellow sweet things need not be mangoes and yellow things need not be sweet.",
+      "as": "হালধীয়া মিঠা বস্তুবোৰ আম নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-028",
+    "q": {
+      "en": "Statements: All chairs have legs. This object has legs. Conclusions: I. This object is a chair. II. Some objects with legs are chairs. Which conclusion follows?",
+      "as": "বিবৃতি: All chairs have legs. This object has legs. সিদ্ধান্ত: I. This object is a chair. II. Some objects with legs are chairs. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Having legs does not make it a chair, but chairs do have legs, so II follows; I does not.",
+      "as": "ভৰি থাকিলেই চকী নহয়, কিন্তু চকীৰ ভৰি থাকে, গতিকে II ওলায়; I নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-029",
+    "q": {
+      "en": "Statements: All cups are glasses. All glasses are vessels. Conclusions: I. All cups are vessels. II. All vessels are cups. Which conclusion follows?",
+      "as": "বিবৃতি: All cups are glasses. All glasses are vessels. সিদ্ধান্ত: I. All cups are vessels. II. All vessels are cups. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cups lie inside glasses inside vessels, so I follows; II reverses it.",
+      "as": "কাপ গিলাচৰ ভিতৰত আৰু গিলাচ পাত্ৰৰ ভিতৰত, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "syllogism-030",
+    "q": {
+      "en": "Statements: Some tables are chairs. All chairs are wooden. Conclusions: I. Some tables are wooden. II. All wooden things are tables. Which conclusion follows?",
+      "as": "বিবৃতি: Some tables are chairs. All chairs are wooden. সিদ্ধান্ত: I. Some tables are wooden. II. All wooden things are tables. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The tables that are chairs are wooden, so I follows; II does not.",
+      "as": "যিবোৰ মেজ চকী সেয়া কাঠৰ, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-031",
+    "q": {
+      "en": "Statements: No pen is a pencil. Some pencils are red. Conclusions: I. Some red things are not pens. II. No red thing is a pen. Which conclusion follows?",
+      "as": "বিবৃতি: No pen is a pencil. Some pencils are red. সিদ্ধান্ত: I. Some red things are not pens. II. No red thing is a pen. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The red pencils are not pens, so I follows; II overstates it.",
+      "as": "ৰঙা পেঞ্চিলবোৰ কলম নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "syllogism-032",
+    "q": {
+      "en": "Statements: All engineers are graduates. Some graduates are rich. Conclusions: I. Some engineers are rich. II. All rich graduates are engineers. Which conclusion follows?",
+      "as": "বিবৃতি: All engineers are graduates. Some graduates are rich. সিদ্ধান্ত: I. Some engineers are rich. II. All rich graduates are engineers. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The rich graduates need not be engineers, so neither follows.",
+      "as": "ধনী স্নাতকবোৰ ইঞ্জিনিয়াৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-033",
+    "q": {
+      "en": "Statements: All flowers smell. Some smelly things are colourful. Conclusions: I. Some flowers are colourful. II. All colourful things smell. Which conclusion follows?",
+      "as": "বিবৃতি: All flowers smell. Some smelly things are colourful. সিদ্ধান্ত: I. Some flowers are colourful. II. All colourful things smell. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The colourful smelly things need not be flowers, so neither follows.",
+      "as": "ৰঙীন গোন্ধযুক্ত বস্তুবোৰ ফুল নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-034",
+    "q": {
+      "en": "Statements: Some actors are singers. All singers are dancers. Conclusions: I. Some actors are dancers. II. All dancers are actors. Which conclusion follows?",
+      "as": "বিবৃতি: Some actors are singers. All singers are dancers. সিদ্ধান্ত: I. Some actors are dancers. II. All dancers are actors. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The actors who are singers are also dancers, so I follows; II does not.",
+      "as": "যিবোৰ অভিনেতা গায়ক সেয়া নৃত্যশিল্পীও, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-035",
+    "q": {
+      "en": "Statements: All stars twinkle. Some twinkling things are far. Conclusions: I. Some stars are far. II. All far things twinkle. Which conclusion follows?",
+      "as": "বিবৃতি: All stars twinkle. Some twinkling things are far. সিদ্ধান্ত: I. Some stars are far. II. All far things twinkle. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The far twinkling things need not be stars, so neither follows.",
+      "as": "দূৰৰ জিলিকি থকা বস্তুবোৰ তৰা নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-036",
+    "q": {
+      "en": "Statements: No boy is a girl. Some girls are tall. Conclusions: I. Some tall people are not boys. II. No tall person is a boy. Which conclusion follows?",
+      "as": "বিবৃতি: No boy is a girl. Some girls are tall. সিদ্ধান্ত: I. Some tall people are not boys. II. No tall person is a boy. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The tall girls are not boys, so I follows; II overstates it.",
+      "as": "ওখ ছোৱালীবোৰ ল'ৰা নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "syllogism-037",
+    "q": {
+      "en": "Statements: All rivers reach the sea. Some seas are deep. Conclusions: I. Some rivers reach deep seas. II. All deep seas receive rivers. Which conclusion follows?",
+      "as": "বিবৃতি: All rivers reach the sea. Some seas are deep. সিদ্ধান্ত: I. Some rivers reach deep seas. II. All deep seas receive rivers. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The deep seas need not receive rivers, so neither follows.",
+      "as": "গভীৰ সাগৰবোৰলৈ নদী নাহিবও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-038",
+    "q": {
+      "en": "Statements: All books have pages. This object has pages. Conclusions: I. This object is a book. II. Some objects with pages are books. Which conclusion follows?",
+      "as": "বিবৃতি: All books have pages. This object has pages. সিদ্ধান্ত: I. This object is a book. II. Some objects with pages are books. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Having pages does not make it a book, but books do have pages, so II follows.",
+      "as": "পৃষ্ঠা থাকিলেই কিতাপ নহয়, কিন্তু কিতাপৰ পৃষ্ঠা থাকে, গতিকে II ওলায়।"
+    }
+  },
+  {
+    "id": "syllogism-039",
+    "q": {
+      "en": "Statements: Some birds sing. All singing things are alive. Conclusions: I. Some birds are alive. II. All alive things sing. Which conclusion follows?",
+      "as": "বিবৃতি: Some birds sing. All singing things are alive. সিদ্ধান্ত: I. Some birds are alive. II. All alive things sing. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The singing birds are alive, so I follows; II does not.",
+      "as": "গাই থকা চৰাইবোৰ জীৱিত, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-040",
+    "q": {
+      "en": "Statements: All metals are hard. Some hard things are heavy. Conclusions: I. Some metals are heavy. II. All heavy things are metals. Which conclusion follows?",
+      "as": "বিবৃতি: All metals are hard. Some hard things are heavy. সিদ্ধান্ত: I. Some metals are heavy. II. All heavy things are metals. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The heavy hard things need not be metals, so neither follows.",
+      "as": "ভৰি থকা কঠিন বস্তুবোৰ ধাতু নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-041",
+    "q": {
+      "en": "Statements: No rose is blue. All roses are red. Conclusions: I. No red flower is blue. II. All red flowers are roses. Which conclusion follows?",
+      "as": "বিবৃতি: No rose is blue. All roses are red. সিদ্ধান্ত: I. No red flower is blue. II. All red flowers are roses. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The statement covers roses only, not all red flowers, so neither follows.",
+      "as": "বিবৃতিটোৱে কেৱল গোলাপক সামৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-042",
+    "q": {
+      "en": "Statements: All teachers read. Some readers write. Conclusions: I. Some teachers write. II. All writers read. Which conclusion follows?",
+      "as": "বিবৃতি: All teachers read. Some readers write. সিদ্ধান্ত: I. Some teachers write. II. All writers read. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The writing readers need not be teachers, and writers need not read, so neither follows.",
+      "as": "লিখা পাঠকবোৰ শিক্ষক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-043",
+    "q": {
+      "en": "Statements: Some pens are costly. All costly things are rare. Conclusions: I. Some pens are rare. II. All rare things are pens. Which conclusion follows?",
+      "as": "বিবৃতি: Some pens are costly. All costly things are rare. সিদ্ধান্ত: I. Some pens are rare. II. All rare things are pens. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The costly pens are rare, so I follows; II does not.",
+      "as": "দামী কলমবোৰ বিৰল, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-044",
+    "q": {
+      "en": "Statements: All dogs bark. No cat barks. Conclusions: I. No dog is a cat. II. All barking animals are dogs. Which conclusion follows?",
+      "as": "বিবৃতি: All dogs bark. No cat barks. সিদ্ধান্ত: I. No dog is a cat. II. All barking animals are dogs. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dogs bark and cats do not, so no dog is a cat; II reverses it.",
+      "as": "কুকুৰে ভুকুৱায় আৰু মেকুৰীয়ে নাভুকুৱায়, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "syllogism-045",
+    "q": {
+      "en": "Statements: All students study. Some studying people are tired. Conclusions: I. Some students are tired. II. All tired people study. Which conclusion follows?",
+      "as": "বিবৃতি: All students study. Some studying people are tired. সিদ্ধান্ত: I. Some students are tired. II. All tired people study. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The tired studying people need not be students, so neither follows.",
+      "as": "ভাগৰুৱা পঢ়ুৱা লোকসকল ছাত্ৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-046",
+    "q": {
+      "en": "Statements: All ships sail. Some sailing things are old. Conclusions: I. Some ships are old. II. All old things sail. Which conclusion follows?",
+      "as": "বিবৃতি: All ships sail. Some sailing things are old. সিদ্ধান্ত: I. Some ships are old. II. All old things sail. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The old sailing things need not be ships, so neither follows.",
+      "as": "পুৰণি চলাচলকাৰী বস্তুবোৰ জাহাজ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-047",
+    "q": {
+      "en": "Statements: Some flowers are white. All white things reflect light. Conclusions: I. Some flowers reflect light. II. All reflecting things are white. Which conclusion follows?",
+      "as": "বিবৃতি: Some flowers are white. All white things reflect light. সিদ্ধান্ত: I. Some flowers reflect light. II. All reflecting things are white. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The white flowers reflect light, so I follows; II does not.",
+      "as": "বগা ফুলবোৰে পোহৰ প্ৰতিফলিত কৰে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-048",
+    "q": {
+      "en": "Statements: All kings are rulers. Some rulers are cruel. Conclusions: I. Some kings are cruel. II. All cruel rulers are kings. Which conclusion follows?",
+      "as": "বিবৃতি: All kings are rulers. Some rulers are cruel. সিদ্ধান্ত: I. Some kings are cruel. II. All cruel rulers are kings. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The cruel rulers need not be kings, so neither follows.",
+      "as": "নিষ্ঠুৰ শাসকবোৰ ৰজা নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-049",
+    "q": {
+      "en": "Statements: No doctor is careless. All careless people make mistakes. Conclusions: I. No doctor makes mistakes. II. Some who make mistakes are careless. Which conclusion follows?",
+      "as": "বিবৃতি: No doctor is careless. All careless people make mistakes. সিদ্ধান্ত: I. No doctor makes mistakes. II. Some who make mistakes are careless. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Careless people make mistakes, so II follows; I overstates it.",
+      "as": "আমন কৰা লোকসকলে ভুল কৰে, গতিকে II ওলায়; I বেছি কয়।"
+    }
+  },
+  {
+    "id": "syllogism-050",
+    "q": {
+      "en": "Statements: All chairs are seats. Some seats are comfortable. Conclusions: I. Some chairs are comfortable. II. All comfortable seats are chairs. Which conclusion follows?",
+      "as": "বিবৃতি: All chairs are seats. Some seats are comfortable. সিদ্ধান্ত: I. Some chairs are comfortable. II. All comfortable seats are chairs. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The comfortable seats need not be chairs, so neither follows.",
+      "as": "আৰামদায়ক আসনবোৰ চকী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-051",
+    "q": {
+      "en": "Statements: Some apples are green. All green things are fresh. Conclusions: I. Some apples are fresh. II. All fresh things are green. Which conclusion follows?",
+      "as": "বিবৃতি: Some apples are green. All green things are fresh. সিদ্ধান্ত: I. Some apples are fresh. II. All fresh things are green. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The green apples are fresh, so I follows; II does not.",
+      "as": "সেউজীয়া আমবোৰ সতেজ, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-052",
+    "q": {
+      "en": "Statements: All birds have wings. Some winged things fly. Conclusions: I. Some birds fly. II. All flying things are birds. Which conclusion follows?",
+      "as": "বিবৃতি: All birds have wings. Some winged things fly. সিদ্ধান্ত: I. Some birds fly. II. All flying things are birds. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The flying winged things need not be birds, so neither follows.",
+      "as": "উৰা ডেউকাযুক্ত বস্তুবোৰ চৰাই নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-053",
+    "q": {
+      "en": "Statements: No cow eats meat. All lions eat meat. Conclusions: I. No cow is a lion. II. All meat eaters are lions. Which conclusion follows?",
+      "as": "বিবৃতি: No cow eats meat. All lions eat meat. সিদ্ধান্ত: I. No cow is a lion. II. All meat eaters are lions. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cows do not eat meat but lions do, so no cow is a lion; II reverses it.",
+      "as": "গৰুৱে মাংস নাখায় কিন্তু সিংহই খায়, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "syllogism-054",
+    "q": {
+      "en": "Statements: All poems have rhythm. Some rhythmic things are songs. Conclusions: I. Some poems are songs. II. All songs have rhythm. Which conclusion follows?",
+      "as": "বিবৃতি: All poems have rhythm. Some rhythmic things are songs. সিদ্ধান্ত: I. Some poems are songs. II. All songs have rhythm. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The rhythmic songs need not be poems, and songs need not have rhythm, so neither follows.",
+      "as": "ছন্দময় গানবোৰ কবিতা নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-055",
+    "q": {
+      "en": "Statements: Some houses are old. All old things are costly. Conclusions: I. Some houses are costly. II. All costly things are houses. Which conclusion follows?",
+      "as": "বিবৃতি: Some houses are old. All old things are costly. সিদ্ধান্ত: I. Some houses are costly. II. All costly things are houses. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The old houses are costly, so I follows; II does not.",
+      "as": "পুৰণি ঘৰবোৰ দামী, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "syllogism-056",
+    "q": {
+      "en": "Statements: All metals expand on heating. Iron is a metal. Conclusions: I. Iron expands on heating. II. All things that expand are metals. Which conclusion follows?",
+      "as": "বিবৃতি: All metals expand on heating. Iron is a metal. সিদ্ধান্ত: I. Iron expands on heating. II. All things that expand are metals. কোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়ো ওলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Iron is a metal and metals expand, so I follows; II reverses it.",
+      "as": "লো এটা ধাতু আৰু ধাতু প্ৰসাৰিত হয়, গতিকে I ওলায়; II ওলোটাই।"
     }
   }
 ]

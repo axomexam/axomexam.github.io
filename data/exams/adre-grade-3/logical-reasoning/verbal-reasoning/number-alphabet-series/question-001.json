@@ -2,68 +2,1898 @@
   {
     "id": "number-alphabet-series-001",
     "q": {
-      "en": "Find the next term: 2, 4, 6, 8, ?",
-      "as": "পিছৰ পদটো বিচাৰক: 2, 4, 6, 8, ?"
+      "en": "Find the next term: 3, 7, 11, 15, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 3, 7, 11, 15, ?"
     },
     "options": [
       {
-        "en": "9",
-        "as": "৯"
+        "en": "21",
+        "as": "21"
       },
       {
-        "en": "10",
-        "as": "১০"
+        "en": "20",
+        "as": "20"
       },
       {
-        "en": "12",
-        "as": "১২"
+        "en": "19",
+        "as": "19"
       },
       {
-        "en": "14",
-        "as": "১৪"
+        "en": "18",
+        "as": "18"
       }
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": {
-      "en": "The terms increase by 2 each time, so the next term is 10.",
-      "as": "পদবোৰ প্ৰতিবাৰ 2 ৰে বাঢ়ে, গতিকে পিছৰ পদ 10।"
+      "en": "The terms increase by 4 each time, so the next term is 19.",
+      "as": "পদবোৰ প্ৰতিবাৰ 4 ৰে বাঢ়ে, গতিকে পিছৰ পদ 19।"
     }
   },
   {
     "id": "number-alphabet-series-002",
     "q": {
-      "en": "Find the next term: 3, 9, 27, ?",
-      "as": "পিছৰ পদটো বিচাৰক: 3, 9, 27, ?"
+      "en": "Find the next term: 5, 12, 19, 26, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 5, 12, 19, 26, ?"
     },
     "options": [
       {
-        "en": "36",
-        "as": "৩৬"
+        "en": "35",
+        "as": "35"
       },
       {
-        "en": "54",
-        "as": "৫৪"
+        "en": "32",
+        "as": "32"
       },
       {
-        "en": "81",
-        "as": "৮১"
+        "en": "34",
+        "as": "34"
       },
       {
-        "en": "90",
-        "as": "৯০"
+        "en": "33",
+        "as": "33"
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
-      "en": "Each term is multiplied by 3, so the next term is 81.",
-      "as": "প্ৰতিটো পদ 3 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 81।"
+      "en": "The terms increase by 7 each time, so the next term is 33.",
+      "as": "পদবোৰ প্ৰতিবাৰ 7 ৰে বাঢ়ে, গতিকে পিছৰ পদ 33।"
     }
   },
   {
     "id": "number-alphabet-series-003",
     "q": {
-      "en": "Find the next letter: A, C, E, G, ?",
-      "as": "পিছৰ আখৰটো বিচাৰক: A, C, E, G, ?"
+      "en": "Find the next term: 7, 13, 19, 25, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 7, 13, 19, 25, ?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "31"
+      },
+      {
+        "en": "33",
+        "as": "33"
+      },
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "32",
+        "as": "32"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The terms increase by 6 each time, so the next term is 31.",
+      "as": "পদবোৰ প্ৰতিবাৰ 6 ৰে বাঢ়ে, গতিকে পিছৰ পদ 31।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-004",
+    "q": {
+      "en": "Find the next term: 11, 20, 29, 38, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 11, 20, 29, 38, ?"
+    },
+    "options": [
+      {
+        "en": "46",
+        "as": "46"
+      },
+      {
+        "en": "47",
+        "as": "47"
+      },
+      {
+        "en": "48",
+        "as": "48"
+      },
+      {
+        "en": "49",
+        "as": "49"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms increase by 9 each time, so the next term is 47.",
+      "as": "পদবোৰ প্ৰতিবাৰ 9 ৰে বাঢ়ে, গতিকে পিছৰ পদ 47।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-005",
+    "q": {
+      "en": "Find the next term: 2, 15, 28, 41, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 15, 28, 41, ?"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "56"
+      },
+      {
+        "en": "53",
+        "as": "53"
+      },
+      {
+        "en": "54",
+        "as": "54"
+      },
+      {
+        "en": "55",
+        "as": "55"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms increase by 13 each time, so the next term is 54.",
+      "as": "পদবোৰ প্ৰতিবাৰ 13 ৰে বাঢ়ে, গতিকে পিছৰ পদ 54।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-006",
+    "q": {
+      "en": "Find the next term: 20, 35, 50, 65, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 20, 35, 50, 65, ?"
+    },
+    "options": [
+      {
+        "en": "79",
+        "as": "79"
+      },
+      {
+        "en": "82",
+        "as": "82"
+      },
+      {
+        "en": "80",
+        "as": "80"
+      },
+      {
+        "en": "81",
+        "as": "81"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms increase by 15 each time, so the next term is 80.",
+      "as": "পদবোৰ প্ৰতিবাৰ 15 ৰে বাঢ়ে, গতিকে পিছৰ পদ 80।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-007",
+    "q": {
+      "en": "Find the next term: 6, 17, 28, 39, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 6, 17, 28, 39, ?"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "52"
+      },
+      {
+        "en": "49",
+        "as": "49"
+      },
+      {
+        "en": "50",
+        "as": "50"
+      },
+      {
+        "en": "51",
+        "as": "51"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms increase by 11 each time, so the next term is 50.",
+      "as": "পদবোৰ প্ৰতিবাৰ 11 ৰে বাঢ়ে, গতিকে পিছৰ পদ 50।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-008",
+    "q": {
+      "en": "Find the next term: 14, 22, 30, 38, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 14, 22, 30, 38, ?"
+    },
+    "options": [
+      {
+        "en": "46",
+        "as": "46"
+      },
+      {
+        "en": "47",
+        "as": "47"
+      },
+      {
+        "en": "45",
+        "as": "45"
+      },
+      {
+        "en": "48",
+        "as": "48"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The terms increase by 8 each time, so the next term is 46.",
+      "as": "পদবোৰ প্ৰতিবাৰ 8 ৰে বাঢ়ে, গতিকে পিছৰ পদ 46।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-009",
+    "q": {
+      "en": "Find the next term: 9, 21, 33, 45, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 9, 21, 33, 45, ?"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "58"
+      },
+      {
+        "en": "57",
+        "as": "57"
+      },
+      {
+        "en": "59",
+        "as": "59"
+      },
+      {
+        "en": "56",
+        "as": "56"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms increase by 12 each time, so the next term is 57.",
+      "as": "পদবোৰ প্ৰতিবাৰ 12 ৰে বাঢ়ে, গতিকে পিছৰ পদ 57।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-010",
+    "q": {
+      "en": "Find the next term: 25, 42, 59, 76, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 25, 42, 59, 76, ?"
+    },
+    "options": [
+      {
+        "en": "92",
+        "as": "92"
+      },
+      {
+        "en": "93",
+        "as": "93"
+      },
+      {
+        "en": "94",
+        "as": "94"
+      },
+      {
+        "en": "95",
+        "as": "95"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms increase by 17 each time, so the next term is 93.",
+      "as": "পদবোৰ প্ৰতিবাৰ 17 ৰে বাঢ়ে, গতিকে পিছৰ পদ 93।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-011",
+    "q": {
+      "en": "Find the next term: 31, 45, 59, 73, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 31, 45, 59, 73, ?"
+    },
+    "options": [
+      {
+        "en": "88",
+        "as": "88"
+      },
+      {
+        "en": "87",
+        "as": "87"
+      },
+      {
+        "en": "89",
+        "as": "89"
+      },
+      {
+        "en": "86",
+        "as": "86"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms increase by 14 each time, so the next term is 87.",
+      "as": "পদবোৰ প্ৰতিবাৰ 14 ৰে বাঢ়ে, গতিকে পিছৰ পদ 87।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-012",
+    "q": {
+      "en": "Find the next term: 4, 23, 42, 61, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 4, 23, 42, 61, ?"
+    },
+    "options": [
+      {
+        "en": "82",
+        "as": "82"
+      },
+      {
+        "en": "79",
+        "as": "79"
+      },
+      {
+        "en": "81",
+        "as": "81"
+      },
+      {
+        "en": "80",
+        "as": "80"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The terms increase by 19 each time, so the next term is 80.",
+      "as": "পদবোৰ প্ৰতিবাৰ 19 ৰে বাঢ়ে, গতিকে পিছৰ পদ 80।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-013",
+    "q": {
+      "en": "Find the next term: 100, 93, 86, 79, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 100, 93, 86, 79, ?"
+    },
+    "options": [
+      {
+        "en": "74",
+        "as": "74"
+      },
+      {
+        "en": "73",
+        "as": "73"
+      },
+      {
+        "en": "71",
+        "as": "71"
+      },
+      {
+        "en": "72",
+        "as": "72"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The terms decrease by 7 each time, so the next term is 72.",
+      "as": "পদবোৰ প্ৰতিবাৰ 7 ৰে কমে, গতিকে পিছৰ পদ 72।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-014",
+    "q": {
+      "en": "Find the next term: 90, 78, 66, 54, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 90, 78, 66, 54, ?"
+    },
+    "options": [
+      {
+        "en": "44",
+        "as": "44"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "43",
+        "as": "43"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms decrease by 12 each time, so the next term is 42.",
+      "as": "পদবোৰ প্ৰতিবাৰ 12 ৰে কমে, গতিকে পিছৰ পদ 42।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-015",
+    "q": {
+      "en": "Find the next term: 75, 66, 57, 48, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 75, 66, 57, 48, ?"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "39"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "40",
+        "as": "40"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The terms decrease by 9 each time, so the next term is 39.",
+      "as": "পদবোৰ প্ৰতিবাৰ 9 ৰে কমে, গতিকে পিছৰ পদ 39।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-016",
+    "q": {
+      "en": "Find the next term: 120, 107, 94, 81, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 120, 107, 94, 81, ?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "70"
+      },
+      {
+        "en": "69",
+        "as": "69"
+      },
+      {
+        "en": "67",
+        "as": "67"
+      },
+      {
+        "en": "68",
+        "as": "68"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The terms decrease by 13 each time, so the next term is 68.",
+      "as": "পদবোৰ প্ৰতিবাৰ 13 ৰে কমে, গতিকে পিছৰ পদ 68।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-017",
+    "q": {
+      "en": "Find the next term: 2, 6, 18, 54, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 6, 18, 54, ?"
+    },
+    "options": [
+      {
+        "en": "162",
+        "as": "162"
+      },
+      {
+        "en": "163",
+        "as": "163"
+      },
+      {
+        "en": "164",
+        "as": "164"
+      },
+      {
+        "en": "161",
+        "as": "161"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is multiplied by 3, so the next term is 162.",
+      "as": "প্ৰতিটো পদ 3 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 162।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-018",
+    "q": {
+      "en": "Find the next term: 3, 6, 12, 24, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 3, 6, 12, 24, ?"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "47"
+      },
+      {
+        "en": "48",
+        "as": "48"
+      },
+      {
+        "en": "49",
+        "as": "49"
+      },
+      {
+        "en": "50",
+        "as": "50"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is multiplied by 2, so the next term is 48.",
+      "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 48।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-019",
+    "q": {
+      "en": "Find the next term: 5, 10, 20, 40, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 5, 10, 20, 40, ?"
+    },
+    "options": [
+      {
+        "en": "82",
+        "as": "82"
+      },
+      {
+        "en": "80",
+        "as": "80"
+      },
+      {
+        "en": "79",
+        "as": "79"
+      },
+      {
+        "en": "81",
+        "as": "81"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is multiplied by 2, so the next term is 80.",
+      "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 80।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-020",
+    "q": {
+      "en": "Find the next term: 1, 4, 16, 64, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 1, 4, 16, 64, ?"
+    },
+    "options": [
+      {
+        "en": "256",
+        "as": "256"
+      },
+      {
+        "en": "258",
+        "as": "258"
+      },
+      {
+        "en": "257",
+        "as": "257"
+      },
+      {
+        "en": "255",
+        "as": "255"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is multiplied by 4, so the next term is 256.",
+      "as": "প্ৰতিটো পদ 4 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 256।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-021",
+    "q": {
+      "en": "Find the next term: 4, 12, 36, 108, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 4, 12, 36, 108, ?"
+    },
+    "options": [
+      {
+        "en": "323",
+        "as": "323"
+      },
+      {
+        "en": "324",
+        "as": "324"
+      },
+      {
+        "en": "325",
+        "as": "325"
+      },
+      {
+        "en": "326",
+        "as": "326"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is multiplied by 3, so the next term is 324.",
+      "as": "প্ৰতিটো পদ 3 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 324।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-022",
+    "q": {
+      "en": "Find the next term: 2, 10, 50, 250, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 10, 50, 250, ?"
+    },
+    "options": [
+      {
+        "en": "1250",
+        "as": "1250"
+      },
+      {
+        "en": "1249",
+        "as": "1249"
+      },
+      {
+        "en": "1251",
+        "as": "1251"
+      },
+      {
+        "en": "1252",
+        "as": "1252"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is multiplied by 5, so the next term is 1250.",
+      "as": "প্ৰতিটো পদ 5 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 1250।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-023",
+    "q": {
+      "en": "Find the next term: 7, 14, 28, 56, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 7, 14, 28, 56, ?"
+    },
+    "options": [
+      {
+        "en": "113",
+        "as": "113"
+      },
+      {
+        "en": "114",
+        "as": "114"
+      },
+      {
+        "en": "112",
+        "as": "112"
+      },
+      {
+        "en": "111",
+        "as": "111"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term is multiplied by 2, so the next term is 112.",
+      "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 112।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-024",
+    "q": {
+      "en": "Find the next term: 6, 12, 24, 48, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 6, 12, 24, 48, ?"
+    },
+    "options": [
+      {
+        "en": "97",
+        "as": "97"
+      },
+      {
+        "en": "98",
+        "as": "98"
+      },
+      {
+        "en": "95",
+        "as": "95"
+      },
+      {
+        "en": "96",
+        "as": "96"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term is multiplied by 2, so the next term is 96.",
+      "as": "প্ৰতিটো পদ 2 ৰে পূৰণ হয়, গতিকে পিছৰ পদ 96।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-025",
+    "q": {
+      "en": "Find the next term: 4, 9, 16, 25, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 4, 9, 16, 25, ?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "35"
+      },
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "36",
+        "as": "36"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms are squares of 2, 3, 4, 5, so the next is 6² = 36.",
+      "as": "পদবোৰ 2, 3, 4, 5 ৰ বৰ্গ, গতিকে পিছৰ পদ 6² = 36।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-026",
+    "q": {
+      "en": "Find the next term: 9, 16, 25, 36, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 9, 16, 25, 36, ?"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "48"
+      },
+      {
+        "en": "49",
+        "as": "49"
+      },
+      {
+        "en": "51",
+        "as": "51"
+      },
+      {
+        "en": "50",
+        "as": "50"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms are squares of 3, 4, 5, 6, so the next is 7² = 49.",
+      "as": "পদবোৰ 3, 4, 5, 6 ৰ বৰ্গ, গতিকে পিছৰ পদ 7² = 49।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-027",
+    "q": {
+      "en": "Find the next term: 25, 36, 49, 64, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 25, 36, 49, 64, ?"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "80"
+      },
+      {
+        "en": "82",
+        "as": "82"
+      },
+      {
+        "en": "81",
+        "as": "81"
+      },
+      {
+        "en": "83",
+        "as": "83"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms are squares of 5, 6, 7, 8, so the next is 9² = 81.",
+      "as": "পদবোৰ 5, 6, 7, 8 ৰ বৰ্গ, গতিকে পিছৰ পদ 9² = 81।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-028",
+    "q": {
+      "en": "Find the next term: 36, 49, 64, 81, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 36, 49, 64, 81, ?"
+    },
+    "options": [
+      {
+        "en": "99",
+        "as": "99"
+      },
+      {
+        "en": "101",
+        "as": "101"
+      },
+      {
+        "en": "102",
+        "as": "102"
+      },
+      {
+        "en": "100",
+        "as": "100"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The terms are squares of 6, 7, 8, 9, so the next is 10² = 100.",
+      "as": "পদবোৰ 6, 7, 8, 9 ৰ বৰ্গ, গতিকে পিছৰ পদ 10² = 100।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-029",
+    "q": {
+      "en": "Find the next term: 49, 64, 81, 100, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 49, 64, 81, 100, ?"
+    },
+    "options": [
+      {
+        "en": "123",
+        "as": "123"
+      },
+      {
+        "en": "122",
+        "as": "122"
+      },
+      {
+        "en": "121",
+        "as": "121"
+      },
+      {
+        "en": "120",
+        "as": "120"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms are squares of 7, 8, 9, 10, so the next is 11² = 121.",
+      "as": "পদবোৰ 7, 8, 9, 10 ৰ বৰ্গ, গতিকে পিছৰ পদ 11² = 121।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-030",
+    "q": {
+      "en": "Find the next term: 81, 100, 121, 144, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 81, 100, 121, 144, ?"
+    },
+    "options": [
+      {
+        "en": "171",
+        "as": "171"
+      },
+      {
+        "en": "169",
+        "as": "169"
+      },
+      {
+        "en": "170",
+        "as": "170"
+      },
+      {
+        "en": "168",
+        "as": "168"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms are squares of 9, 10, 11, 12, so the next is 13² = 169.",
+      "as": "পদবোৰ 9, 10, 11, 12 ৰ বৰ্গ, গতিকে পিছৰ পদ 13² = 169।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-031",
+    "q": {
+      "en": "Find the next term: 1, 8, 27, 64, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 1, 8, 27, 64, ?"
+    },
+    "options": [
+      {
+        "en": "127",
+        "as": "127"
+      },
+      {
+        "en": "124",
+        "as": "124"
+      },
+      {
+        "en": "125",
+        "as": "125"
+      },
+      {
+        "en": "126",
+        "as": "126"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms are cubes of 1, 2, 3, 4, so the next is 5³ = 125.",
+      "as": "পদবোৰ 1, 2, 3, 4 ৰ ঘন, গতিকে পিছৰ পদ 5³ = 125।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-032",
+    "q": {
+      "en": "Find the next term: 8, 27, 64, 125, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 8, 27, 64, 125, ?"
+    },
+    "options": [
+      {
+        "en": "216",
+        "as": "216"
+      },
+      {
+        "en": "217",
+        "as": "217"
+      },
+      {
+        "en": "218",
+        "as": "218"
+      },
+      {
+        "en": "215",
+        "as": "215"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The terms are cubes of 2, 3, 4, 5, so the next is 6³ = 216.",
+      "as": "পদবোৰ 2, 3, 4, 5 ৰ ঘন, গতিকে পিছৰ পদ 6³ = 216।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-033",
+    "q": {
+      "en": "Find the next term: 27, 64, 125, 216, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 27, 64, 125, 216, ?"
+    },
+    "options": [
+      {
+        "en": "343",
+        "as": "343"
+      },
+      {
+        "en": "345",
+        "as": "345"
+      },
+      {
+        "en": "342",
+        "as": "342"
+      },
+      {
+        "en": "344",
+        "as": "344"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The terms are cubes of 3, 4, 5, 6, so the next is 7³ = 343.",
+      "as": "পদবোৰ 3, 4, 5, 6 ৰ ঘন, গতিকে পিছৰ পদ 7³ = 343।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-034",
+    "q": {
+      "en": "Find the next term: 64, 125, 216, 343, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 64, 125, 216, 343, ?"
+    },
+    "options": [
+      {
+        "en": "513",
+        "as": "513"
+      },
+      {
+        "en": "511",
+        "as": "511"
+      },
+      {
+        "en": "514",
+        "as": "514"
+      },
+      {
+        "en": "512",
+        "as": "512"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The terms are cubes of 4, 5, 6, 7, so the next is 8³ = 512.",
+      "as": "পদবোৰ 4, 5, 6, 7 ৰ ঘন, গতিকে পিছৰ পদ 8³ = 512।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-035",
+    "q": {
+      "en": "Find the next term: 2, 5, 10, 17, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 5, 10, 17, ?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "26"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "27",
+        "as": "27"
+      },
+      {
+        "en": "28",
+        "as": "28"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is (position)² + 1, so the next is 5² + 1 = 26.",
+      "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 5² + 1 = 26।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-036",
+    "q": {
+      "en": "Find the next term: 5, 10, 17, 26, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 5, 10, 17, 26, ?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "36",
+        "as": "36"
+      },
+      {
+        "en": "39",
+        "as": "39"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is (position)² + 1, so the next is 6² + 1 = 37.",
+      "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 6² + 1 = 37।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-037",
+    "q": {
+      "en": "Find the next term: 10, 17, 26, 37, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 10, 17, 26, 37, ?"
+    },
+    "options": [
+      {
+        "en": "51",
+        "as": "51"
+      },
+      {
+        "en": "50",
+        "as": "50"
+      },
+      {
+        "en": "52",
+        "as": "52"
+      },
+      {
+        "en": "49",
+        "as": "49"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is (position)² + 1, so the next is 7² + 1 = 50.",
+      "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 7² + 1 = 50।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-038",
+    "q": {
+      "en": "Find the next term: 17, 26, 37, 50, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 17, 26, 37, 50, ?"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "66"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      },
+      {
+        "en": "67",
+        "as": "67"
+      },
+      {
+        "en": "65",
+        "as": "65"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term is (position)² + 1, so the next is 8² + 1 = 65.",
+      "as": "প্ৰতিটো পদ (স্থান)² + 1, গতিকে পিছৰ পদ 8² + 1 = 65।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-039",
+    "q": {
+      "en": "Find the next term: 7, 26, 63, 124, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 7, 26, 63, 124, ?"
+    },
+    "options": [
+      {
+        "en": "215",
+        "as": "215"
+      },
+      {
+        "en": "216",
+        "as": "216"
+      },
+      {
+        "en": "217",
+        "as": "217"
+      },
+      {
+        "en": "214",
+        "as": "214"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is (position)³ − 1, so the next is 6³ − 1 = 215.",
+      "as": "প্ৰতিটো পদ (স্থান)³ − 1, গতিকে পিছৰ পদ 6³ − 1 = 215।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-040",
+    "q": {
+      "en": "Find the next term: 26, 63, 124, 215, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 26, 63, 124, 215, ?"
+    },
+    "options": [
+      {
+        "en": "344",
+        "as": "344"
+      },
+      {
+        "en": "342",
+        "as": "342"
+      },
+      {
+        "en": "341",
+        "as": "341"
+      },
+      {
+        "en": "343",
+        "as": "343"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is (position)³ − 1, so the next is 7³ − 1 = 342.",
+      "as": "প্ৰতিটো পদ (স্থান)³ − 1, গতিকে পিছৰ পদ 7³ − 1 = 342।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-041",
+    "q": {
+      "en": "Find the next term: 63, 124, 215, 342, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 63, 124, 215, 342, ?"
+    },
+    "options": [
+      {
+        "en": "512",
+        "as": "512"
+      },
+      {
+        "en": "511",
+        "as": "511"
+      },
+      {
+        "en": "513",
+        "as": "513"
+      },
+      {
+        "en": "510",
+        "as": "510"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is (position)³ − 1, so the next is 8³ − 1 = 511.",
+      "as": "প্ৰতিটো পদ (স্থান)³ − 1, গতিকে পিছৰ পদ 8³ − 1 = 511।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-042",
+    "q": {
+      "en": "Find the next term: 1, 4, 10, 19, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 1, 4, 10, 19, ?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "33",
+        "as": "33"
+      },
+      {
+        "en": "31",
+        "as": "31"
+      },
+      {
+        "en": "32",
+        "as": "32"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The gap increases by 3 each time (3, 6, 9), so the next term is 31.",
+      "as": "ব্যৱধান প্ৰতিবাৰ 3 ৰে বাঢ়ে, গতিকে পিছৰ পদ 31।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-043",
+    "q": {
+      "en": "Find the next term: 2, 6, 14, 26, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 6, 14, 26, ?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "41",
+        "as": "41"
+      },
+      {
+        "en": "43",
+        "as": "43"
+      },
+      {
+        "en": "44",
+        "as": "44"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The gap increases by 4 each time (4, 8, 12), so the next term is 42.",
+      "as": "ব্যৱধান প্ৰতিবাৰ 4 ৰে বাঢ়ে, গতিকে পিছৰ পদ 42।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-044",
+    "q": {
+      "en": "Find the next term: 1, 6, 16, 31, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 1, 6, 16, 31, ?"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "52"
+      },
+      {
+        "en": "50",
+        "as": "50"
+      },
+      {
+        "en": "53",
+        "as": "53"
+      },
+      {
+        "en": "51",
+        "as": "51"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The gap increases by 5 each time (5, 10, 15), so the next term is 51.",
+      "as": "ব্যৱধান প্ৰতিবাৰ 5 ৰে বাঢ়ে, গতিকে পিছৰ পদ 51।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-045",
+    "q": {
+      "en": "Find the next term: 3, 5, 9, 15, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 3, 5, 9, 15, ?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "24"
+      },
+      {
+        "en": "22",
+        "as": "22"
+      },
+      {
+        "en": "23",
+        "as": "23"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The gap increases by 2 each time (2, 4, 6), so the next term is 23.",
+      "as": "ব্যৱধান প্ৰতিবাৰ 2 ৰে বাঢ়ে, গতিকে পিছৰ পদ 23।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-046",
+    "q": {
+      "en": "Find the next term: 2, 8, 20, 38, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 8, 20, 38, ?"
+    },
+    "options": [
+      {
+        "en": "63",
+        "as": "63"
+      },
+      {
+        "en": "62",
+        "as": "62"
+      },
+      {
+        "en": "61",
+        "as": "61"
+      },
+      {
+        "en": "64",
+        "as": "64"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The gap increases by 6 each time (6, 12, 18), so the next term is 62.",
+      "as": "ব্যৱধান প্ৰতিবাৰ 6 ৰে বাঢ়ে, গতিকে পিছৰ পদ 62।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-047",
+    "q": {
+      "en": "Find the next term: 2, 5, 9, 12, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 5, 9, 12, ?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "17"
+      },
+      {
+        "en": "18",
+        "as": "18"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "15",
+        "as": "15"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The additions alternate 3, 4, 3, 4, so the next term is 16.",
+      "as": "যোগবোৰ 3, 4, 3, 4 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 16।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-048",
+    "q": {
+      "en": "Find the next term: 5, 7, 10, 12, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 5, 7, 10, 12, ?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "17"
+      },
+      {
+        "en": "15",
+        "as": "15"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "14",
+        "as": "14"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The additions alternate 2, 3, 2, 3, so the next term is 15.",
+      "as": "যোগবোৰ 2, 3, 2, 3 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 15।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-049",
+    "q": {
+      "en": "Find the next term: 1, 6, 8, 13, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 1, 6, 8, 13, ?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "14"
+      },
+      {
+        "en": "15",
+        "as": "15"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "17",
+        "as": "17"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The additions alternate 5, 2, 5, 2, so the next term is 15.",
+      "as": "যোগবোৰ 5, 2, 5, 2 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 15।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-050",
+    "q": {
+      "en": "Find the next term: 10, 14, 20, 24, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 10, 14, 20, 24, ?"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "29"
+      },
+      {
+        "en": "31",
+        "as": "31"
+      },
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "32",
+        "as": "32"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The additions alternate 4, 6, 4, 6, so the next term is 30.",
+      "as": "যোগবোৰ 4, 6, 4, 6 ক্ৰমে ঘূৰি থাকে, গতিকে পিছৰ পদ 30।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-051",
+    "q": {
+      "en": "Find the next term: 1, 3, 6, 10, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 1, 3, 6, 10, ?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "15"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "14",
+        "as": "14"
+      },
+      {
+        "en": "17",
+        "as": "17"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The terms are triangular numbers 1, 3, 6, 10, 15 ..., so the next is 15.",
+      "as": "পদবোৰ ত্ৰিভুজীয় সংখ্যা 1, 3, 6, 10, 15 ..., গতিকে পিছৰ পদ 15।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-052",
+    "q": {
+      "en": "Find the next term: 3, 6, 10, 15, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 3, 6, 10, 15, ?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "22"
+      },
+      {
+        "en": "21",
+        "as": "21"
+      },
+      {
+        "en": "23",
+        "as": "23"
+      },
+      {
+        "en": "20",
+        "as": "20"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms are triangular numbers 1, 3, 6, 10, 15 ..., so the next is 21.",
+      "as": "পদবোৰ ত্ৰিভুজীয় সংখ্যা 1, 3, 6, 10, 15 ..., গতিকে পিছৰ পদ 21।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-053",
+    "q": {
+      "en": "Find the next term: 6, 10, 15, 21, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 6, 10, 15, 21, ?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "29",
+        "as": "29"
+      },
+      {
+        "en": "28",
+        "as": "28"
+      },
+      {
+        "en": "27",
+        "as": "27"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms are triangular numbers 1, 3, 6, 10, 15 ..., so the next is 28.",
+      "as": "পদবোৰ ত্ৰিভুজীয় সংখ্যা 1, 3, 6, 10, 15 ..., গতিকে পিছৰ পদ 28।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-054",
+    "q": {
+      "en": "Find the next term: 1, 2, 3, 5, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 1, 2, 3, 5, ?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "7"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      },
+      {
+        "en": "9",
+        "as": "9"
+      },
+      {
+        "en": "10",
+        "as": "10"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is the sum of the two before it, so the next term is 8.",
+      "as": "প্ৰতিটো পদ আগৰ দুটাৰ যোগফল, গতিকে পিছৰ পদ 8।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-055",
+    "q": {
+      "en": "Find the next term: 2, 3, 5, 8, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2, 3, 5, 8, ?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "13"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      },
+      {
+        "en": "15",
+        "as": "15"
+      },
+      {
+        "en": "14",
+        "as": "14"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is the sum of the two before it, so the next term is 13.",
+      "as": "প্ৰতিটো পদ আগৰ দুটাৰ যোগফল, গতিকে পিছৰ পদ 13।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-056",
+    "q": {
+      "en": "Find the next term: 3, 4, 7, 11, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 3, 4, 7, 11, ?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "20"
+      },
+      {
+        "en": "18",
+        "as": "18"
+      },
+      {
+        "en": "17",
+        "as": "17"
+      },
+      {
+        "en": "19",
+        "as": "19"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is the sum of the two before it, so the next term is 18.",
+      "as": "প্ৰতিটো পদ আগৰ দুটাৰ যোগফল, গতিকে পিছৰ পদ 18।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-057",
+    "q": {
+      "en": "Find the wrong term in the series: 2, 4, 6, 8, 10, 13, 14",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 2, 4, 6, 8, 10, 13, 14"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "13",
+        "as": "13"
+      },
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The series should increase by 2; 13 is wrong and should be 12.",
+      "as": "শৃংখলাটো 2 ৰে বাঢ়িব লাগে; 13 ভুল, ইয়াৰ ঠাইত 12 হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-058",
+    "q": {
+      "en": "Find the wrong term in the series: 3, 6, 12, 24, 50, 96",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 3, 6, 12, 24, 50, 96"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "50"
+      },
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "3",
+        "as": "3"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term doubles; 50 is wrong and should be 48.",
+      "as": "প্ৰতিটো পদ দুগুণ হয়; 50 ভুল, ইয়াৰ ঠাইত 48 হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-059",
+    "q": {
+      "en": "Find the wrong term in the series: 1, 4, 9, 16, 25, 38",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 1, 4, 9, 16, 25, 38"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "9",
+        "as": "9"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The series is the squares 1,4,9,16,25,36; 38 is wrong and should be 36.",
+      "as": "শৃংখলাটো বৰ্গ 1,4,9,16,25,36; 38 ভুল, ইয়াৰ ঠাইত 36 হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-060",
+    "q": {
+      "en": "Find the wrong term in the series: 5, 10, 15, 22, 25, 30",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 5, 10, 15, 22, 25, 30"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "10"
+      },
+      {
+        "en": "22",
+        "as": "22"
+      },
+      {
+        "en": "15",
+        "as": "15"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The series should increase by 5; 22 is wrong and should be 20.",
+      "as": "শৃংখলাটো 5 ৰে বাঢ়িব লাগে; 22 ভুল, ইয়াৰ ঠাইত 20 হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-061",
+    "q": {
+      "en": "Find the wrong term in the series: 2, 3, 5, 7, 9, 11, 13",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 2, 3, 5, 7, 9, 11, 13"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "3"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "9",
+        "as": "9"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The series lists prime numbers; 9 is not prime and should be 11, pushing the rest.",
+      "as": "শৃংখলাটো মৌলিক সংখ্যা; 9 মৌলিক নহয়।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-062",
+    "q": {
+      "en": "Find the wrong term in the series: 8, 16, 24, 32, 45, 48",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: 8, 16, 24, 32, 45, 48"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "24"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      },
+      {
+        "en": "45",
+        "as": "45"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The series should increase by 8; 45 is wrong and should be 40.",
+      "as": "শৃংখলাটো 8 ৰে বাঢ়িব লাগে; 45 ভুল, ইয়াৰ ঠাইত 40 হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-063",
+    "q": {
+      "en": "Which letter comes next: A, B, C, D, ?",
+      "as": "কোনটো আখৰ পিছত আহে: A, B, C, D, ?"
+    },
+    "options": [
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters move 1 step(s) forward each time, so the next letter is E.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 1 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ E।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-064",
+    "q": {
+      "en": "Which letter comes next: A, C, E, G, ?",
+      "as": "কোনটো আখৰ পিছত আহে: A, C, E, G, ?"
     },
     "options": [
       {
@@ -85,38 +1915,548 @@
     ],
     "correct": 1,
     "explanation": {
-      "en": "Every alternate letter is taken, so after G comes I.",
-      "as": "প্ৰতি দ্বিতীয় আখৰ লোৱা হয়, গতিকে G ৰ পিছত I আহে।"
+      "en": "The letters move 2 step(s) forward each time, so the next letter is I.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ I।"
     }
   },
   {
-    "id": "number-alphabet-series-004",
+    "id": "number-alphabet-series-065",
     "q": {
-      "en": "Find the missing term: 1, 4, 9, 16, ?",
-      "as": "নোহোৱা পদটো বিচাৰক: 1, 4, 9, 16, ?"
+      "en": "Which letter comes next: B, E, H, K, ?",
+      "as": "কোনটো আখৰ পিছত আহে: B, E, H, K, ?"
     },
     "options": [
       {
-        "en": "20",
-        "as": "২০"
+        "en": "P",
+        "as": "P"
       },
       {
-        "en": "24",
-        "as": "২৪"
+        "en": "O",
+        "as": "O"
       },
       {
-        "en": "25",
-        "as": "২৫"
+        "en": "N",
+        "as": "N"
       },
       {
-        "en": "36",
-        "as": "৩৬"
+        "en": "M",
+        "as": "M"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "These are the squares of 1, 2, 3, 4, so the next is 5 squared = 25.",
-      "as": "এইবোৰ 1, 2, 3, 4 ৰ বৰ্গ, গতিকে পিছৰটো 5 ৰ বৰ্গ = 25।"
+      "en": "The letters move 3 step(s) forward each time, so the next letter is N.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 3 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ N।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-066",
+    "q": {
+      "en": "Which letter comes next: C, E, G, I, ?",
+      "as": "কোনটো আখৰ পিছত আহে: C, E, G, I, ?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters move 2 step(s) forward each time, so the next letter is K.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ K।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-067",
+    "q": {
+      "en": "Which letter comes next: A, D, G, J, ?",
+      "as": "কোনটো আখৰ পিছত আহে: A, D, G, J, ?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters move 3 step(s) forward each time, so the next letter is M.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 3 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ M।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-068",
+    "q": {
+      "en": "Which letter comes next: E, G, I, K, ?",
+      "as": "কোনটো আখৰ পিছত আহে: E, G, I, K, ?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters move 2 step(s) forward each time, so the next letter is M.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ M।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-069",
+    "q": {
+      "en": "Which letter comes next: A, E, I, M, ?",
+      "as": "কোনটো আখৰ পিছত আহে: A, E, I, M, ?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters move 4 step(s) forward each time, so the next letter is Q.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 4 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ Q।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-070",
+    "q": {
+      "en": "Which letter comes next: F, I, L, O, ?",
+      "as": "কোনটো আখৰ পিছত আহে: F, I, L, O, ?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters move 3 step(s) forward each time, so the next letter is R.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 3 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ R।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-071",
+    "q": {
+      "en": "Which letter comes next: B, C, D, E, ?",
+      "as": "কোনটো আখৰ পিছত আহে: B, C, D, E, ?"
+    },
+    "options": [
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters move 1 step(s) forward each time, so the next letter is F.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 1 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ F।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-072",
+    "q": {
+      "en": "Which letter comes next: K, M, O, Q, ?",
+      "as": "কোনটো আখৰ পিছত আহে: K, M, O, Q, ?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters move 2 step(s) forward each time, so the next letter is S.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ S।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-073",
+    "q": {
+      "en": "Which letter comes next: A, F, K, P, ?",
+      "as": "কোনটো আখৰ পিছত আহে: A, F, K, P, ?"
+    },
+    "options": [
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters move 5 step(s) forward each time, so the next letter is U.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 5 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ U।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-074",
+    "q": {
+      "en": "Which letter comes next: G, I, K, M, ?",
+      "as": "কোনটো আখৰ পিছত আহে: G, I, K, M, ?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters move 2 step(s) forward each time, so the next letter is O.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ 2 খোজ আগলৈ যায়, গতিকে পিছৰ আখৰ O।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-075",
+    "q": {
+      "en": "Find the wrong term in the series: A, C, E, H, I",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: A, C, E, H, I"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters move two steps forward; H breaks the pattern and should be G.",
+      "as": "আখৰবোৰ দুখোজ আগলৈ যায়; H এ ধৰণ ভাঙে, ইয়াৰ ঠাইত G হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-076",
+    "q": {
+      "en": "Find the wrong term in the series: B, D, F, H, K",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: B, D, F, H, K"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters move two steps forward; K is wrong and should be J.",
+      "as": "আখৰবোৰ দুখোজ আগলৈ যায়; K ভুল, ইয়াৰ ঠাইত J হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-077",
+    "q": {
+      "en": "Find the wrong term in the series: Z, X, V, S, R",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: Z, X, V, S, R"
+    },
+    "options": [
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters move two steps back; S is wrong and should be T.",
+      "as": "আখৰবোৰ দুখোজ পিছলৈ যায়; S ভুল, ইয়াৰ ঠাইত T হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-078",
+    "q": {
+      "en": "Find the wrong term in the series: M, O, Q, S, V",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: M, O, Q, S, V"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters move two steps forward; V is wrong and should be U.",
+      "as": "আখৰবোৰ দুখোজ আগলৈ যায়; V ভুল, ইয়াৰ ঠাইত U হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-079",
+    "q": {
+      "en": "Find the wrong term in the series: C, F, I, L, O, R, T",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: C, F, I, L, O, R, T"
+    },
+    "options": [
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters move three steps forward; T is wrong and should be U.",
+      "as": "আখৰবোৰ তিনিখোজ আগলৈ যায়; T ভুল, ইয়াৰ ঠাইত U হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-080",
+    "q": {
+      "en": "Find the wrong term in the series: D, G, J, M, O",
+      "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: D, G, J, M, O"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters move three steps forward; O is wrong and should be P.",
+      "as": "আখৰবোৰ তিনিখোজ আগলৈ যায়; O ভুল, ইয়াৰ ঠাইত P হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-081",
+    "q": {
+      "en": "Which letter is exactly in the middle of the letters from B to J?",
+      "as": "B ৰ পৰা J লৈ আখৰবোৰৰ মাজত থকা আখৰটো কোন?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B is 2 and J is 10; the middle is (2+10)/2 = 6, the letter F.",
+      "as": "B হৈছে 2 আৰু J হৈছে 10; মাজৰ স্থান (2+10)/2 = 6, আখৰ F।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-082",
+    "q": {
+      "en": "If the letters from A to M are written in reverse order, which letter is the 5th from the left?",
+      "as": "A ৰ পৰা M লৈ আখৰবোৰ ওলোটা ক্ৰমত লিখিলে বাওঁৰ পৰা ৫ম আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The reverse order is M, L, K, J, I, ...; the 5th letter is I.",
+      "as": "ওলোটা ক্ৰমটো M, L, K, J, I, ...; ৫ম আখৰটো I।"
     }
   }
 ]

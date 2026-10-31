@@ -2,51 +2,321 @@
   {
     "id": "blood-relations-001",
     "q": {
-      "en": "Pointing to a man, a woman said, 'He is the brother of my mother.' How is the man related to her?",
-      "as": "এজন মানুহলৈ আঙুলিয়াই এগৰাকী মহিলাই ক'লে, 'তেওঁ মোৰ মাকৰ ভাই।' মানুহজন তাইৰ কিদৰে সম্পৰ্কীয়?"
+      "en": "Pointing to a man, a woman said, 'He is the son of my mother.' How is the man related to the woman?",
+      "as": "এজন মানুহলৈ আঙুলিয়াই এগৰাকী মহিলাই ক'লে, 'তেওঁ মোৰ মাকৰ পুত্ৰ।' মানুহজন মহিলাগৰাকীৰ কি হয়?"
     },
     "options": [
       {
-        "en": "Father",
-        "as": "দেউতাক"
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
       },
       {
         "en": "Uncle",
-        "as": "খুড়া/মামা"
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "He is the son of her mother, so he is her brother.",
+      "as": "তেওঁ তাইৰ মাকৰ পুত্ৰ, গতিকে তেওঁ তাইৰ ভাই।"
+    }
+  },
+  {
+    "id": "blood-relations-002",
+    "q": {
+      "en": "A man said, 'This girl is the daughter of my grandfather's only son.' How is the girl related to the man?",
+      "as": "এজন মানুহে ক'লে, 'এই ছোৱালীজনী মোৰ ককাকৰ একমাত্ৰ পুত্ৰৰ জীয়েক।' ছোৱালীজনী মানুহজনৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "My grandfather's only son is my father, and his daughter is my sister.",
+      "as": "মোৰ ককাকৰ একমাত্ৰ পুত্ৰ মোৰ দেউতা, আৰু তেওঁৰ জীয়েক মোৰ ভনী।"
+    }
+  },
+  {
+    "id": "blood-relations-003",
+    "q": {
+      "en": "Ravi's mother is the only daughter of Mohan's father. How is Mohan related to Ravi?",
+      "as": "ৰবিৰ মাক মোহনৰ দেউতাৰ একমাত্ৰ জীয়েক। মোহন ৰবিৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
       },
       {
         "en": "Brother",
         "as": "ভাই"
       },
       {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ravi's mother is Mohan's sister, so Mohan is Ravi's maternal uncle.",
+      "as": "ৰবিৰ মাক মোহনৰ ভনী, গতিকে মোহন ৰবিৰ মোমাই।"
+    }
+  },
+  {
+    "id": "blood-relations-004",
+    "q": {
+      "en": "Introducing a boy, Sita said, 'He is the son of the daughter of the father of my uncle.' How is the boy related to Sita?",
+      "as": "এজন ল'ৰাক পৰিচয় দি সীতাই ক'লে, 'তেওঁ মোৰ খুৰাৰ দেউতাৰ জীয়েকৰ পুত্ৰ।' ল'ৰাজন সীতাৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা/ভাগিনা"
+      },
+      {
         "en": "Cousin",
-        "as": "সম্বন্ধীয় ভাই"
+        "as": "খুৰাত ভাই-ভনী"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The father of my uncle is my grandfather; his daughter is my aunt, and her son is my cousin.",
+      "as": "মোৰ খুৰাৰ দেউতা মোৰ ককাক; তেওঁৰ জীয়েক মোৰ পেহী, আৰু তাইৰ পুত্ৰ মোৰ খুৰাত ভাই।"
+    }
+  },
+  {
+    "id": "blood-relations-005",
+    "q": {
+      "en": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+      "as": "A হৈছে B ৰ ভনী। C হৈছে B ৰ মাক। D হৈছে C ৰ দেউতা। A, D ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
+        "en": "Granddaughter",
+        "as": "নাতিনী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is a child of C, and C is D's daughter, so A is D's granddaughter.",
+      "as": "A হৈছে C ৰ সন্তান, আৰু C হৈছে D ৰ জীয়েক, গতিকে A হৈছে D ৰ নাতিনী।"
+    }
+  },
+  {
+    "id": "blood-relations-006",
+    "q": {
+      "en": "P is the brother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+      "as": "P হৈছে Q ৰ ভাই। Q হৈছে R ৰ ভনী। R হৈছে S ৰ দেউতা। P, S ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P and R are siblings, so P is the uncle of R's child S.",
+      "as": "P আৰু R সহোদৰ, গতিকে P হৈছে R ৰ সন্তান S ৰ খুৰা।"
+    }
+  },
+  {
+    "id": "blood-relations-007",
+    "q": {
+      "en": "M is the mother of N. N is the wife of O. P is the son of O. How is M related to P?",
+      "as": "M হৈছে N ৰ মাক। N হৈছে O ৰ পত্নী। P হৈছে O ৰ পুত্ৰ। M, P ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "The brother of her mother is her uncle.",
-      "as": "তাইৰ মাকৰ ভাই হৈছে তাইৰ খুড়া/মামা।"
+      "en": "N is P's mother and M is N's mother, so M is P's grandmother.",
+      "as": "N হৈছে P ৰ মাক আৰু M হৈছে N ৰ মাক, গতিকে M হৈছে P ৰ আইতা।"
     }
   },
   {
-    "id": "blood-relations-002",
+    "id": "blood-relations-008",
     "q": {
-      "en": "A is the father of B and C is the daughter of B. How is A related to C?",
-      "as": "A হৈছে B ৰ দেউতাক আৰু C হৈছে B ৰ জীয়েক। A, C ৰ কিদৰে সম্পৰ্কীয়?"
+      "en": "X is the son of Y. Y is the daughter of Z. Z is the mother of W. How is X related to W?",
+      "as": "X হৈছে Y ৰ পুত্ৰ। Y হৈছে Z ৰ জীয়েক। Z হৈছে W ৰ মাক। X, W ৰ কি হয়?"
     },
     "options": [
       {
-        "en": "Father",
-        "as": "দেউতাক"
+        "en": "Son",
+        "as": "পুত্ৰ"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা/ভাগিনা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Y and W are siblings (children of Z), so Y's son X is W's nephew.",
+      "as": "Y আৰু W সহোদৰ (Z ৰ সন্তান), গতিকে Y ৰ পুত্ৰ X হৈছে W ৰ ভতিজা।"
+    }
+  },
+  {
+    "id": "blood-relations-009",
+    "q": {
+      "en": "A woman said, 'My father is the brother of your mother.' How is the woman related to the listener?",
+      "as": "এগৰাকী মহিলাই ক'লে, 'মোৰ দেউতা তোমাৰ মাকৰ ভাই।' মহিলাগৰাকী শ্ৰোতাৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The woman's father and the listener's mother are siblings, so they are cousins.",
+      "as": "মহিলাগৰাকীৰ দেউতা আৰু শ্ৰোতাৰ মাক সহোদৰ, গতিকে তেওঁলোক খুৰাত-ভাই-ভনী।"
+    }
+  },
+  {
+    "id": "blood-relations-010",
+    "q": {
+      "en": "A is the father of B and C. C is the brother of D. D is the mother of E. How is A related to E?",
+      "as": "A হৈছে B আৰু C ৰ দেউতা। C হৈছে D ৰ ভাই। D হৈছে E ৰ মাক। A, E ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
       },
       {
         "en": "Grandfather",
         "as": "ককাক"
       },
       {
-        "en": "Uncle",
-        "as": "খুড়া"
+        "en": "Father",
+        "as": "দেউতা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D is a sibling of C, so D is A's child, and D's child E is A's grandchild.",
+      "as": "D হৈছে C ৰ সহোদৰ, গতিকে D হৈছে A ৰ সন্তান, আৰু D ৰ সন্তান E হৈছে A ৰ নাতি।"
+    }
+  },
+  {
+    "id": "blood-relations-011",
+    "q": {
+      "en": "Introducing a man, a woman said, 'His wife is the only daughter of my father.' How is the man related to the woman?",
+      "as": "এজন মানুহৰ পৰিচয় দি এগৰাকী মহিলাই ক'লে, 'তেওঁৰ পত্নী মোৰ দেউতাৰ একমাত্ৰ জীয়েক।' মানুহজন মহিলাগৰাকীৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Husband",
+        "as": "স্বামী"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
       },
       {
         "en": "Brother",
@@ -55,68 +325,1328 @@
     ],
     "correct": 1,
     "explanation": {
-      "en": "A is the father of B, so A is the grandfather of C.",
-      "as": "A হৈছে B ৰ দেউতাক, গতিকে A হৈছে C ৰ ককাক।"
+      "en": "The only daughter of her father is the woman herself, so the man is her husband.",
+      "as": "তাইৰ দেউতাৰ একমাত্ৰ জীয়েক তাই নিজেই, গতিকে মানুহজন তাইৰ স্বামী।"
     }
   },
   {
-    "id": "blood-relations-003",
+    "id": "blood-relations-012",
     "q": {
-      "en": "My mother's only son is —",
-      "as": "মোৰ মাকৰ একমাত্ৰ পুত্ৰ হৈছে —"
+      "en": "K is the brother of L. M is the mother of L. N is the father of K. How is M related to N?",
+      "as": "K হৈছে L ৰ ভাই। M হৈছে L ৰ মাক। N হৈছে K ৰ দেউতা। M, N ৰ কি হয়?"
     },
     "options": [
       {
-        "en": "my cousin",
-        "as": "মোৰ সম্বন্ধীয় ভাই"
+        "en": "Daughter",
+        "as": "জীয়েক"
       },
       {
-        "en": "my brother",
-        "as": "মোৰ ভাই"
+        "en": "Sister",
+        "as": "ভনী"
       },
       {
-        "en": "myself",
-        "as": "মই নিজে"
+        "en": "Wife",
+        "as": "পত্নী"
       },
       {
-        "en": "my uncle",
-        "as": "মোৰ খুড়া"
+        "en": "Mother",
+        "as": "মাক"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "My mother's only son is myself, if I am the only son.",
-      "as": "মই যদি একমাত্ৰ পুত্ৰ হওঁ, তেন্তে মোৰ মাকৰ একমাত্ৰ পুত্ৰ হৈছে মই নিজে।"
+      "en": "K and L are siblings with the same parents M and N, so M is N's wife.",
+      "as": "K আৰু L একে দেউতা-মাক M আৰু N ৰ সন্তান, গতিকে M হৈছে N ৰ পত্নী।"
     }
   },
   {
-    "id": "blood-relations-004",
+    "id": "blood-relations-013",
     "q": {
-      "en": "The daughter of my uncle is my —",
-      "as": "মোৰ খুড়াৰ জীয়েক হৈছে মোৰ —"
+      "en": "A is B's brother. B is C's father. C is D's sister. How is A related to D?",
+      "as": "A হৈছে B ৰ ভাই। B হৈছে C ৰ দেউতা। C হৈছে D ৰ ভনী। A, D ৰ কি হয়?"
     },
     "options": [
       {
-        "en": "sister",
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is a sibling of B, so A is the uncle of B's children C and D.",
+      "as": "A হৈছে B ৰ সহোদৰ, গতিকে A হৈছে B ৰ সন্তান C আৰু D ৰ খুৰা।"
+    }
+  },
+  {
+    "id": "blood-relations-014",
+    "q": {
+      "en": "The son of my mother's brother is my —",
+      "as": "মোৰ মাকৰ ভাইৰ পুত্ৰ মোৰ —"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা/ভাগিনা"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "My mother's brother is my uncle, and his son is my cousin.",
+      "as": "মোৰ মাকৰ ভাই মোৰ মোমাই, আৰু তেওঁৰ পুত্ৰ মোৰ খুৰাত ভাই।"
+    }
+  },
+  {
+    "id": "blood-relations-015",
+    "q": {
+      "en": "My father's sister's husband is my —",
+      "as": "মোৰ দেউতাৰ ভনীৰ স্বামী মোৰ —"
+    },
+    "options": [
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা/ভাগিনা"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "My father's sister is my aunt and her husband is my uncle.",
+      "as": "মোৰ দেউতাৰ ভনী মোৰ পেহী আৰু তাইৰ স্বামী মোৰ পেহাদেউ।"
+    }
+  },
+  {
+    "id": "blood-relations-016",
+    "q": {
+      "en": "My mother's father's son's daughter is my —",
+      "as": "মোৰ মাকৰ দেউতাৰ পুত্ৰৰ জীয়েক মোৰ —"
+    },
+    "options": [
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "My mother's father is my grandfather; his son is my maternal uncle and his daughter is my cousin.",
+      "as": "মোৰ মাকৰ দেউতা মোৰ ককাক; তেওঁৰ পুত্ৰ মোৰ মোমাই আৰু তেওঁৰ জীয়েক মোৰ খুৰাত ভনী।"
+    }
+  },
+  {
+    "id": "blood-relations-017",
+    "q": {
+      "en": "P's father is Q's son. How is P related to Q?",
+      "as": "P ৰ দেউতা হৈছে Q ৰ পুত্ৰ। P, Q ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Nephew",
+        "as": "ভতিজা/ভাগিনা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandchild",
+        "as": "নাতি"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Q's son is P's father, so P is Q's grandchild.",
+      "as": "Q ৰ পুত্ৰ হৈছে P ৰ দেউতা, গতিকে P হৈছে Q ৰ নাতি।"
+    }
+  },
+  {
+    "id": "blood-relations-018",
+    "q": {
+      "en": "X and Y are brothers. P and Q are sisters. X's son is Q's brother. How is Y related to P?",
+      "as": "A আৰু B সহোদৰ ভাই। C আৰু D সহোদৰ ভনী। A ৰ পুত্ৰ হৈছে D ৰ ভাই। B, C ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's son is D's brother, so D is A's child; then C is also A's child, and B is A's brother, so B is C's uncle.",
+      "as": "A ৰ পুত্ৰ D ৰ ভাই, গতিকে D হৈছে A ৰ সন্তান; তেন্তে Cও A ৰ সন্তান, আৰু B হৈছে A ৰ ভাই, গতিকে B হৈছে C ৰ খুৰা।"
+    }
+  },
+  {
+    "id": "blood-relations-019",
+    "q": {
+      "en": "If 'A + B' means A is the father of B and 'A − B' means A is the mother of B, then in 'P + Q − R', how is P related to R?",
+      "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা আৰু 'A − B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'P + Q − R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Q is the mother of R and P is the father of Q, so P is R's grandfather.",
+      "as": "Q হৈছে R ৰ মাক আৰু P হৈছে Q ৰ দেউতা, গতিকে P হৈছে R ৰ ককাক।"
+    }
+  },
+  {
+    "id": "blood-relations-020",
+    "q": {
+      "en": "If 'X × Y' means X is the son of Y, then in 'A × B × C', how is A related to C?",
+      "as": "যদি 'X × Y' ৰ অৰ্থ X হৈছে Y ৰ পুত্ৰ, তেন্তে 'A × B × C' ত A, C ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandson",
+        "as": "নাতি"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is the son of B and B is the son of C, so A is C's grandson.",
+      "as": "A হৈছে B ৰ পুত্ৰ আৰু B হৈছে C ৰ পুত্ৰ, গতিকে A হৈছে C ৰ নাতি।"
+    }
+  },
+  {
+    "id": "blood-relations-021",
+    "q": {
+      "en": "If 'A ÷ B' means A is the mother of B and 'A × B' means A is the brother of B, then in 'P ÷ Q × R', how is P related to R?",
+      "as": "যদি 'A ÷ B' ৰ অৰ্থ A হৈছে B ৰ মাক আৰু 'A × B' ৰ অৰ্থ A হৈছে B ৰ ভাই, তেন্তে 'P ÷ Q × R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Sister",
         "as": "ভনী"
       },
       {
-        "en": "cousin",
-        "as": "সম্বন্ধীয় ভনী"
-      },
-      {
-        "en": "niece",
-        "as": "ভাগিনী"
-      },
-      {
-        "en": "aunt",
+        "en": "Aunt",
         "as": "পেহী/মাহী"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "The daughter of an uncle is a cousin.",
-      "as": "খুড়াৰ জীয়েক হৈছে সম্বন্ধীয় ভনী।"
+      "en": "Q is the brother of R and P is the mother of Q, so P is R's mother.",
+      "as": "Q হৈছে R ৰ ভাই আৰু P হৈছে Q ৰ মাক, গতিকে P হৈছে R ৰ মাক।"
+    }
+  },
+  {
+    "id": "blood-relations-022",
+    "q": {
+      "en": "If 'A − B' means A is the wife of B and 'A + B' means A is the son of B, then in 'P − Q + R', how is P related to R?",
+      "as": "যদি 'A − B' ৰ অৰ্থ A হৈছে B ৰ পত্নী আৰু 'A + B' ৰ অৰ্থ A হৈছে B ৰ পুত্ৰ, তেন্তে 'P − Q + R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Daughter-in-law",
+        "as": "বোৱাৰী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Q is the son of R and P is the wife of Q, so P is the daughter-in-law of R.",
+      "as": "Q হৈছে R ৰ পুত্ৰ আৰু P হৈছে Q ৰ পত্নী, গতিকে P হৈছে R ৰ বোৱাৰী।"
+    }
+  },
+  {
+    "id": "blood-relations-023",
+    "q": {
+      "en": "If 'A @ B' means A is the husband of B, then in 'P @ Q @ R', how is P related to R?",
+      "as": "যদি 'A @ B' ৰ অৰ্থ A হৈছে B ৰ স্বামী, তেন্তে 'P @ Q @ R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The code gives only husband relations; P's link to R cannot be fixed from the data.",
+      "as": "সংকেতটোৱে কেৱল স্বামীৰ সম্পৰ্ক দিয়ে; তথ্যৰ পৰা P ৰ R লগত সম্পৰ্ক নিৰ্ণয় কৰিব নোৱাৰি।"
+    }
+  },
+  {
+    "id": "blood-relations-024",
+    "q": {
+      "en": "If 'A + B' means A is the father of B and 'A * B' means A is the sister of B, then in 'M + N * O', how is M related to O?",
+      "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা আৰু 'A * B' ৰ অৰ্থ A হৈছে B ৰ ভনী, তেন্তে 'M + N * O' ত M, O ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "N is the sister of O and M is the father of N, so M is O's father.",
+      "as": "N হৈছে O ৰ ভনী আৰু M হৈছে N ৰ দেউতা, গতিকে M হৈছে O ৰ দেউতা।"
+    }
+  },
+  {
+    "id": "blood-relations-025",
+    "q": {
+      "en": "If 'A Δ B' means A is the mother of B, then in 'X Δ Y Δ Z', how is X related to Z?",
+      "as": "যদি 'A Δ B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'X Δ Y Δ Z' ত X, Z ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Y is the mother of Z and X is the mother of Y, so X is Z's grandmother.",
+      "as": "Y হৈছে Z ৰ মাক আৰু X হৈছে Y ৰ মাক, গতিকে X হৈছে Z ৰ আইতা।"
+    }
+  },
+  {
+    "id": "blood-relations-026",
+    "q": {
+      "en": "If 'A # B' means A is the daughter of B, then in 'P # Q # R', how is P related to R?",
+      "as": "যদি 'A # B' ৰ অৰ্থ A হৈছে B ৰ জীয়েক, তেন্তে 'P # Q # R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Granddaughter",
+        "as": "নাতিনী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Q is the daughter of R and P is the daughter of Q, so P is R's granddaughter.",
+      "as": "Q হৈছে R ৰ জীয়েক আৰু P হৈছে Q ৰ জীয়েক, গতিকে P হৈছে R ৰ নাতিনী।"
+    }
+  },
+  {
+    "id": "blood-relations-027",
+    "q": {
+      "en": "If 'A & B' means A is the brother of B and 'A % B' means A is the father of B, then in 'P % Q & R', how is P related to R?",
+      "as": "যদি 'A & B' ৰ অৰ্থ A হৈছে B ৰ ভাই আৰু 'A % B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, তেন্তে 'P % Q & R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Q is the brother of R and P is the father of Q, so P is R's father.",
+      "as": "Q হৈছে R ৰ ভাই আৰু P হৈছে Q ৰ দেউতা, গতিকে P হৈছে R ৰ দেউতা।"
+    }
+  },
+  {
+    "id": "blood-relations-028",
+    "q": {
+      "en": "If 'A $ B' means A is the wife of B, then in 'P $ Q $ R', how is P related to R?",
+      "as": "যদি 'A $ B' ৰ অৰ্থ A হৈছে B ৰ পত্নী, তেন্তে 'P $ Q $ R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only wife relations are given, so P's link to R cannot be determined.",
+      "as": "কেৱল পত্নীৰ সম্পৰ্ক দিয়া আছে, গতিকে P ৰ R লগত সম্পৰ্ক নিৰ্ণয় কৰিব নোৱাৰি।"
+    }
+  },
+  {
+    "id": "blood-relations-029",
+    "q": {
+      "en": "If 'A + B' means A is the father of B, 'A − B' means A is the mother of B and 'A × B' means A is the brother of B, then in 'P × Q + R', how is P related to R?",
+      "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, 'A − B' ৰ অৰ্থ A হৈছে B ৰ মাক আৰু 'A × B' ৰ অৰ্থ A হৈছে B ৰ ভাই, তেন্তে 'P × Q + R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Q is the father of R and P is the brother of Q, so P is R's uncle.",
+      "as": "Q হৈছে R ৰ দেউতা আৰু P হৈছে Q ৰ ভাই, গতিকে P হৈছে R ৰ খুৰা।"
+    }
+  },
+  {
+    "id": "blood-relations-030",
+    "q": {
+      "en": "If 'A * B' means A is the son of B and 'A / B' means A is the daughter of B, then in 'P / Q * R', how is P related to R?",
+      "as": "যদি 'A * B' ৰ অৰ্থ A হৈছে B ৰ পুত্ৰ আৰু 'A / B' ৰ অৰ্থ A হৈছে B ৰ জীয়েক, তেন্তে 'P / Q * R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      },
+      {
+        "en": "Granddaughter",
+        "as": "নাতিনী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Q is the son of R and P is the daughter of Q, so P is R's granddaughter.",
+      "as": "Q হৈছে R ৰ পুত্ৰ আৰু P হৈছে Q ৰ জীয়েক, গতিকে P হৈছে R ৰ নাতিনী।"
+    }
+  },
+  {
+    "id": "blood-relations-031",
+    "q": {
+      "en": "If 'A ! B' means A is the father of B, then in 'X ! Y ! Z', how is X related to Z?",
+      "as": "যদি 'A ! B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, তেন্তে 'X ! Y ! Z' ত X, Z ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Y is the father of Z and X is the father of Y, so X is Z's grandfather.",
+      "as": "Y হৈছে Z ৰ দেউতা আৰু X হৈছে Y ৰ দেউতা, গতিকে X হৈছে Z ৰ ককাক।"
+    }
+  },
+  {
+    "id": "blood-relations-032",
+    "q": {
+      "en": "If 'A + B' means A is the son of B, then in 'P + Q + R', how is P related to R?",
+      "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ পুত্ৰ, তেন্তে 'P + Q + R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandson",
+        "as": "নাতি"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা/ভাগিনা"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Q is the son of R and P is the son of Q, so P is R's grandson.",
+      "as": "Q হৈছে R ৰ পুত্ৰ আৰু P হৈছে Q ৰ পুত্ৰ, গতিকে P হৈছে R ৰ নাতি।"
+    }
+  },
+  {
+    "id": "blood-relations-033",
+    "q": {
+      "en": "If 'A × B' means A is the mother of B, then in 'P × Q × R', how is P related to R?",
+      "as": "যদি 'A × B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'P × Q × R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Q is the mother of R and P is the mother of Q, so P is R's grandmother.",
+      "as": "Q হৈছে R ৰ মাক আৰু P হৈছে Q ৰ মাক, গতিকে P হৈছে R ৰ আইতা।"
+    }
+  },
+  {
+    "id": "blood-relations-034",
+    "q": {
+      "en": "If 'A - B' means A is the sister of B, then in 'P - Q - R', how is P related to R?",
+      "as": "যদি 'A - B' ৰ অৰ্থ A হৈছে B ৰ ভনী, তেন্তে 'P - Q - R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Q is the sister of R and P is the sister of Q, so P is R's sister.",
+      "as": "Q হৈছে R ৰ ভনী আৰু P হৈছে Q ৰ ভনী, গতিকে P হৈছে R ৰ ভনী।"
+    }
+  },
+  {
+    "id": "blood-relations-035",
+    "q": {
+      "en": "If 'A + B' means A is the father of B, 'A − B' means A is the mother of B, then in 'P − Q + R', how is P related to R?",
+      "as": "যদি 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, 'A − B' ৰ অৰ্থ A হৈছে B ৰ মাক, তেন্তে 'P − Q + R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Q is the father of R and P is the mother of Q, so P is R's grandmother.",
+      "as": "Q হৈছে R ৰ দেউতা আৰু P হৈছে Q ৰ মাক, গতিকে P হৈছে R ৰ আইতা।"
+    }
+  },
+  {
+    "id": "blood-relations-036",
+    "q": {
+      "en": "If 'A * B' means A is the wife of B, then in 'P * Q * R', how is P related to R?",
+      "as": "যদি 'A * B' ৰ অৰ্থ A হৈছে B ৰ পত্নী, তেন্তে 'P * Q * R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only wife relations are given, so P's relation to R is not determined.",
+      "as": "কেৱল পত্নীৰ সম্পৰ্ক দিয়া আছে, গতিকে P ৰ R লগত সম্পৰ্ক নিৰ্ণয় নহয়।"
+    }
+  },
+  {
+    "id": "blood-relations-037",
+    "q": {
+      "en": "If 'A % B' means A is the brother of B and 'A + B' means A is the father of B, then in 'P + Q % R', how is P related to R?",
+      "as": "যদি 'A % B' ৰ অৰ্থ A হৈছে B ৰ ভাই আৰু 'A + B' ৰ অৰ্থ A হৈছে B ৰ দেউতা, তেন্তে 'P + Q % R' ত P, R ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Q is the brother of R and P is the father of Q, so P is R's father.",
+      "as": "Q হৈছে R ৰ ভাই আৰু P হৈছে Q ৰ দেউতা, গতিকে P হৈছে R ৰ দেউতা।"
+    }
+  },
+  {
+    "id": "blood-relations-038",
+    "q": {
+      "en": "In a family of six, A is the father of B and C. C is the sister of D. E is the mother of D. How is E related to A?",
+      "as": "ছজনীয়া পৰিয়ালত A হৈছে B আৰু C ৰ দেউতা। C হৈছে D ৰ ভনী। E হৈছে D ৰ মাক। E, A ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Wife",
+        "as": "পত্নী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C and D are siblings with parents A and E, so E is A's wife.",
+      "as": "C আৰু D একে দেউতা-মাক A আৰু E ৰ সন্তান, গতিকে E হৈছে A ৰ পত্নী।"
+    }
+  },
+  {
+    "id": "blood-relations-039",
+    "q": {
+      "en": "A is the brother of B. C is the mother of A. D is the father of C. How is B related to D?",
+      "as": "A হৈছে B ৰ ভাই। C হৈছে A ৰ মাক। D হৈছে C ৰ দেউতা। B, D ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Granddaughter",
+        "as": "নাতিনী"
+      },
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B is a child of C and C is D's daughter, so B is a grandchild of D.",
+      "as": "B হৈছে C ৰ সন্তান আৰু C হৈছে D ৰ জীয়েক, গতিকে B হৈছে D ৰ নাতি।"
+    }
+  },
+  {
+    "id": "blood-relations-040",
+    "q": {
+      "en": "Pointing to a photograph, a man said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph is it?",
+      "as": "এখন ফটোলৈ আঙুলিয়াই এজনে ক'লে, 'মোৰ কোনো ভাই বা ভনী নাই, কিন্তু সেই মানুহজনৰ দেউতা মোৰ দেউতাৰ পুত্ৰ।' ফটোখন কাৰ?"
+    },
+    "options": [
+      {
+        "en": "His father's",
+        "as": "তেওঁৰ দেউতাৰ"
+      },
+      {
+        "en": "His son's",
+        "as": "তেওঁৰ পুত্ৰৰ"
+      },
+      {
+        "en": "His uncle's",
+        "as": "তেওঁৰ খুৰাৰ"
+      },
+      {
+        "en": "His own",
+        "as": "তেওঁৰ নিজৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "My father's son is me (no siblings), so the man's father is me; the photograph is of my son.",
+      "as": "মোৰ দেউতাৰ পুত্ৰ মই (ভাই-ভনী নাই), গতিকে সেই মানুহজনৰ দেউতা মই; ফটোখন মোৰ পুত্ৰৰ।"
+    }
+  },
+  {
+    "id": "blood-relations-041",
+    "q": {
+      "en": "A woman has a son and a daughter. The son is the father of a girl. How is the girl related to the woman?",
+      "as": "এগৰাকী মহিলাৰ এজন পুত্ৰ আৰু এগৰাকী জীয়েক আছে। পুত্ৰজন এজনী ছোৱালীৰ দেউতা। ছোৱালীজনী মহিলাগৰাকীৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Granddaughter",
+        "as": "নাতিনী"
+      },
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The girl is the child of the woman's son, so she is the woman's granddaughter.",
+      "as": "ছোৱালীজনী মহিলাগৰাকীৰ পুত্ৰৰ সন্তান, গতিকে তাই মহিলাগৰাকীৰ নাতিনী।"
+    }
+  },
+  {
+    "id": "blood-relations-042",
+    "q": {
+      "en": "If A is the mother of B and B is the sister of C, then A is C's —",
+      "as": "যদি A হৈছে B ৰ মাক আৰু B হৈছে C ৰ ভনী, তেন্তে A হৈছে C ৰ —"
+    },
+    "options": [
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B and C share the same mother A, so A is C's mother.",
+      "as": "B আৰু C এগৰাকী মাক A ৰ সন্তান, গতিকে A হৈছে C ৰ মাক।"
+    }
+  },
+  {
+    "id": "blood-relations-043",
+    "q": {
+      "en": "My father's only son's mother is my —",
+      "as": "মোৰ দেউতাৰ একমাত্ৰ পুত্ৰৰ মাক মোৰ —"
+    },
+    "options": [
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "My father's only son is me (if no brothers), and his mother is my mother.",
+      "as": "মোৰ দেউতাৰ একমাত্ৰ পুত্ৰ মই (ভাই নাই), আৰু তেওঁৰ মাক মোৰ মাক।"
+    }
+  },
+  {
+    "id": "blood-relations-044",
+    "q": {
+      "en": "R is the son of S. T is the mother of S. U is the father of T. How is R related to U?",
+      "as": "R হৈছে S ৰ পুত্ৰ। T হৈছে S ৰ মাক। U হৈছে T ৰ দেউতা। R, U ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Nephew",
+        "as": "ভতিজা/ভাগিনা"
+      },
+      {
+        "en": "Great-grandson",
+        "as": "প্ৰনাতি"
+      },
+      {
+        "en": "Grandson",
+        "as": "নাতি"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "S is the child of T, T is the child of U, so R (S's son) is U's great-grandson.",
+      "as": "S হৈছে T ৰ সন্তান, T হৈছে U ৰ সন্তান, গতিকে R (S ৰ পুত্ৰ) হৈছে U ৰ প্ৰনাতি।"
+    }
+  },
+  {
+    "id": "blood-relations-045",
+    "q": {
+      "en": "A is the father of B. B is the sister of C. C is the son of D. How is A related to D?",
+      "as": "A হৈছে B ৰ দেউতা। B হৈছে C ৰ ভনী। C হৈছে D ৰ পুত্ৰ। A, D ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Husband",
+        "as": "স্বামী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B and C are siblings; B's father is A and C's parent is D, so A is D's husband.",
+      "as": "B আৰু C সহোদৰ; B ৰ দেউতা A আৰু C ৰ পিতৃ-মাতৃ D, গতিকে A হৈছে D ৰ স্বামী।"
+    }
+  },
+  {
+    "id": "blood-relations-046",
+    "q": {
+      "en": "Pointing to a lady, a man said, 'She is the daughter of the only son of my grandmother.' How is the lady related to the man?",
+      "as": "এগৰাকী মহিলালৈ আঙুলিয়াই এজনে ক'লে, 'তেওঁ মোৰ আইতাৰ একমাত্ৰ পুত্ৰৰ জীয়েক।' মহিলাগৰাকী মানুহজনৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "My grandmother's only son is my father, and his daughter is my sister.",
+      "as": "মোৰ আইতাৰ একমাত্ৰ পুত্ৰ মোৰ দেউতা, আৰু তেওঁৰ জীয়েক মোৰ ভনী।"
+    }
+  },
+  {
+    "id": "blood-relations-047",
+    "q": {
+      "en": "A and B are a married couple. C is A's sister. D is B's brother. How is C related to D?",
+      "as": "A আৰু B এটা বিবাহিত দম্পতী। C হৈছে A ৰ ভনী। D হৈছে B ৰ ভাই। C, D ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Sister-in-law",
+        "as": "শালী/ননদ"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C is the sister of A and D is the brother of B, so C is D's sister-in-law.",
+      "as": "C হৈছে A ৰ ভনী আৰু D হৈছে B ৰ ভাই, গতিকে C হৈছে D ৰ শালী।"
+    }
+  },
+  {
+    "id": "blood-relations-048",
+    "q": {
+      "en": "A man's son is my father. How is the man related to me?",
+      "as": "এজন মানুহৰ পুত্ৰ মোৰ দেউতা। মানুহজন মোৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The man's son is my father, so the man is my grandfather.",
+      "as": "মানুহজনৰ পুত্ৰ মোৰ দেউতা, গতিকে মানুহজন মোৰ ককাক।"
+    }
+  },
+  {
+    "id": "blood-relations-049",
+    "q": {
+      "en": "If P is the father of Q and Q is the daughter of R, then R is P's —",
+      "as": "যদি P হৈছে Q ৰ দেউতা আৰু Q হৈছে R ৰ জীয়েক, তেন্তে R হৈছে P ৰ —"
+    },
+    "options": [
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Wife",
+        "as": "পত্নী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Q is the child of both P and R, so R is P's wife.",
+      "as": "Q হৈছে P আৰু R দুয়োৰে সন্তান, গতিকে R হৈছে P ৰ পত্নী।"
+    }
+  },
+  {
+    "id": "blood-relations-050",
+    "q": {
+      "en": "A is the uncle of B. B is the son of C. C is the sister of A. What is C to A?",
+      "as": "A হৈছে B ৰ খুৰা। B হৈছে C ৰ পুত্ৰ। C হৈছে A ৰ ভনী। C, A ৰ কি?"
+    },
+    "options": [
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C is A's sister, and B is her son, which makes A the uncle of B.",
+      "as": "C হৈছে A ৰ ভনী, আৰু B তাইৰ পুত্ৰ, সেয়ে A হৈছে B ৰ খুৰা।"
+    }
+  },
+  {
+    "id": "blood-relations-051",
+    "q": {
+      "en": "M is N's brother. N is O's mother. O is P's father. How is M related to P?",
+      "as": "M হৈছে N ৰ ভাই। N হৈছে O ৰ মাক। O হৈছে P ৰ দেউতা। M, P ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককাক"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "M is a brother of N, so M is the uncle of N's child O.",
+      "as": "M হৈছে N ৰ ভাই, গতিকে M হৈছে N ৰ সন্তান O ৰ খুৰা।"
+    }
+  },
+  {
+    "id": "blood-relations-052",
+    "q": {
+      "en": "Sita is the daughter of Ram. Ram is the son of Mohan. Gita is Mohan's daughter. How is Gita related to Sita?",
+      "as": "সীতা হৈছে ৰামৰ জীয়েক। ৰাম হৈছে মোহনৰ পুত্ৰ। গীতা হৈছে মোহনৰ জীয়েক। গীতা, সীতাৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Aunt",
+        "as": "পেহী/মাহী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুৰাত ভাই-ভনী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gita is Ram's sister, and Ram is Sita's father, so Gita is Sita's aunt.",
+      "as": "গীতা হৈছে ৰামৰ ভনী, আৰু ৰাম হৈছে সীতাৰ দেউতা, গতিকে গীতা হৈছে সীতাৰ পেহী।"
+    }
+  },
+  {
+    "id": "blood-relations-053",
+    "q": {
+      "en": "A is B's father. C is B's mother. D is C's brother. How is D related to A?",
+      "as": "A হৈছে B ৰ দেউতা। C হৈছে B ৰ মাক। D হৈছে C ৰ ভাই। D, A ৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Brother-in-law",
+        "as": "শালা/ভিনদেউ"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা/মামা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D is the brother of A's wife C, so D is A's brother-in-law.",
+      "as": "D হৈছে A ৰ পত্নী C ৰ ভাই, গতিকে D হৈছে A ৰ শালা।"
+    }
+  },
+  {
+    "id": "blood-relations-054",
+    "q": {
+      "en": "In a family, the father is a doctor and their son's wife is a lawyer. How is the lawyer related to the doctor?",
+      "as": "এটা পৰিয়ালত দেউতা ডাক্তৰ আৰু তেওঁলোকৰ পুত্ৰৰ পত্নী অধিবক্তা। অধিবক্তাগৰাকী ডাক্তৰৰ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Niece",
+        "as": "ভতিজী/ভাগিনী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Daughter-in-law",
+        "as": "বোৱাৰী"
+      },
+      {
+        "en": "Sister",
+        "as": "ভনী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The lawyer is the wife of the doctor's son, so she is his daughter-in-law.",
+      "as": "অধিবক্তাগৰাকী ডাক্তৰৰ পুত্ৰৰ পত্নী, গতিকে তেওঁ ডাক্তৰৰ বোৱাৰী।"
+    }
+  },
+  {
+    "id": "blood-relations-055",
+    "q": {
+      "en": "If A's mother is the sister of B's father, then A and B are —",
+      "as": "যদি A ৰ মাক B ৰ দেউতাৰ ভনী, তেন্তে A আৰু B হৈছে —"
+    },
+    "options": [
+      {
+        "en": "Uncle and nephew",
+        "as": "খুৰা আৰু ভতিজা"
+      },
+      {
+        "en": "Father and son",
+        "as": "পিতৃ আৰু পুত্ৰ"
+      },
+      {
+        "en": "Siblings",
+        "as": "সহোদৰ"
+      },
+      {
+        "en": "Cousins",
+        "as": "খুৰাত ভাই-ভনী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's mother and B's father are siblings, so A and B are cousins.",
+      "as": "A ৰ মাক আৰু B ৰ দেউতা সহোদৰ, গতিকে A আৰু B খুৰাত-ভাই-ভনী।"
     }
   }
 ]
