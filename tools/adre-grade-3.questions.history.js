@@ -52512,5 +52512,10507 @@ module.exports = {
     "as": "হোয়সাল বংশই কৰ্ণাটক শাসন কৰিছিল আৰু বেলুৰ আৰু হালেবিডুত বিখ্যাত মন্দিৰ নিৰ্মাণ কৰিছিল।"
    }
   }
+ ],
+ "indian-history-modern": [
+  {
+   "id": "indian-history-modern-001",
+   "q": {
+    "en": "In which year was the Battle of Plassey fought?",
+    "as": "পলাশীৰ যুদ্ধ কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1757 CE",
+     "as": "১৭৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1764 CE",
+     "as": "১৭৬৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1761 CE",
+     "as": "১৭৬১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Plassey was fought in 1757 CE.",
+    "as": "পলাশীৰ যুদ্ধ ১৭৫৭ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-002",
+   "q": {
+    "en": "Who was the Nawab of Bengal at the Battle of Plassey?",
+    "as": "পলাশীৰ যুদ্ধত বংগৰ নবাব কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Siraj-ud-Daulah",
+     "as": "চিৰাজ-উদ-দৌলা"
+    },
+    {
+     "en": "Mir Jafar",
+     "as": "মীৰ জাফৰ"
+    },
+    {
+     "en": "Mir Qasim",
+     "as": "মীৰ কাচিম"
+    },
+    {
+     "en": "Alivardi Khan",
+     "as": "আলিবৰ্দী খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Siraj-ud-Daulah was the Nawab of Bengal at the Battle of Plassey.",
+    "as": "চিৰাজ-উদ-দৌলা পলাশীৰ যুদ্ধত বংগৰ নবাব আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-003",
+   "q": {
+    "en": "Who led the English forces at the Battle of Plassey?",
+    "as": "পলাশীৰ যুদ্ধত ইংৰাজ সেনাৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Robert Clive",
+     "as": "ৰবাৰ্ট ক্লাইভ"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Robert Clive led the English forces at the Battle of Plassey.",
+    "as": "ৰবাৰ্ট ক্লাইভে পলাশীৰ যুদ্ধত ইংৰাজ সেনাৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-004",
+   "q": {
+    "en": "Who betrayed Siraj-ud-Daulah at the Battle of Plassey?",
+    "as": "পলাশীৰ যুদ্ধত চিৰাজ-উদ-দৌলাক কোনে বিশ্বাসঘাতকতা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mir Jafar",
+     "as": "মীৰ জাফৰ"
+    },
+    {
+     "en": "Mir Qasim",
+     "as": "মীৰ কাচিম"
+    },
+    {
+     "en": "Alivardi Khan",
+     "as": "আলিবৰ্দী খান"
+    },
+    {
+     "en": "Shuja-ud-Daulah",
+     "as": "চুজা-উদ-দৌলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mir Jafar betrayed Siraj-ud-Daulah at the Battle of Plassey.",
+    "as": "মীৰ জাফৰে পলাশীৰ যুদ্ধত চিৰাজ-উদ-দৌলাক বিশ্বাসঘাতকতা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-005",
+   "q": {
+    "en": "In which year was the Battle of Buxar fought?",
+    "as": "বক্সাৰৰ যুদ্ধ কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1764 CE",
+     "as": "১৭৬৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1757 CE",
+     "as": "১৭৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1761 CE",
+     "as": "১৭৬১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Buxar was fought in 1764 CE.",
+    "as": "বক্সাৰৰ যুদ্ধ ১৭৬৪ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-006",
+   "q": {
+    "en": "Which battle established British supremacy in Bengal?",
+    "as": "কোন যুদ্ধই বংগত ব্ৰিটিছ আধিপত্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Battle of Buxar",
+     "as": "বক্সাৰৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Plassey",
+     "as": "পলাশীৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Panipat",
+     "as": "পানিপথৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Haldighati",
+     "as": "হলদীঘাটীৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Buxar established British supremacy in Bengal.",
+    "as": "বক্সাৰৰ যুদ্ধই বংগত ব্ৰিটিছ আধিপত্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-007",
+   "q": {
+    "en": "Who was defeated at the Battle of Buxar?",
+    "as": "বক্সাৰৰ যুদ্ধত কোন পৰাস্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Mir Qasim and his allies",
+     "as": "মীৰ কাচিম আৰু তেওঁৰ মিত্ৰ"
+    },
+    {
+     "en": "Robert Clive",
+     "as": "ৰবাৰ্ট ক্লাইভ"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mir Qasim and his allies were defeated at the Battle of Buxar.",
+    "as": "মীৰ কাচিম আৰু তেওঁৰ মিত্ৰ বক্সাৰৰ যুদ্ধত পৰাস্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-008",
+   "q": {
+    "en": "Which treaty granted the East India Company the Diwani of Bengal?",
+    "as": "কোন সন্ধিয়ে ইষ্ট ইণ্ডিয়া কোম্পানীক বংগৰ দিৱানী প্ৰদান কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Treaty of Allahabad",
+     "as": "এলাহাবাদৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Srirangapatna",
+     "as": "শ্ৰীৰংগপট্টমৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Bassein",
+     "as": "বছেইনৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Salbai",
+     "as": "ছালবাইৰ সন্ধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Treaty of Allahabad in 1765 granted the East India Company the Diwani of Bengal.",
+    "as": "১৭৬৫ চনত এলাহাবাদৰ সন্ধিয়ে ইষ্ট ইণ্ডিয়া কোম্পানীক বংগৰ দিৱানী প্ৰদান কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-009",
+   "q": {
+    "en": "In which year was the Treaty of Allahabad signed?",
+    "as": "এলাহাবাদৰ সন্ধি কিমান চনত স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1765 CE",
+     "as": "১৭৬৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1757 CE",
+     "as": "১৭৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1764 CE",
+     "as": "১৭৬৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1773 CE",
+     "as": "১৭৭৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Treaty of Allahabad was signed in 1765 CE.",
+    "as": "এলাহাবাদৰ সন্ধি ১৭৬৫ খ্ৰীষ্টাব্দত স্বাক্ষৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-010",
+   "q": {
+    "en": "Who was the first Governor of Bengal?",
+    "as": "বংগৰ প্ৰথম গৱৰ্ণৰ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Robert Clive",
+     "as": "ৰবাৰ্ট ক্লাইভ"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Robert Clive was the first Governor of Bengal.",
+    "as": "ৰবাৰ্ট ক্লাইভ বংগৰ প্ৰথম গৱৰ্ণৰ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-011",
+   "q": {
+    "en": "Who was the first Governor-General of Bengal?",
+    "as": "বংগৰ প্ৰথম গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    },
+    {
+     "en": "Robert Clive",
+     "as": "ৰবাৰ্ট ক্লাইভ"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Warren Hastings was the first Governor-General of Bengal.",
+    "as": "ৱাৰেন হেষ্টিংছ বংগৰ প্ৰথম গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-012",
+   "q": {
+    "en": "In which year was the Regulating Act passed?",
+    "as": "ৰেগুলেটিং আইন কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1773 CE",
+     "as": "১৭৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1784 CE",
+     "as": "১৭৮৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1793 CE",
+     "as": "১৭৯৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1813 CE",
+     "as": "১৮১৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Regulating Act was passed in 1773 CE.",
+    "as": "ৰেগুলেটিং আইন ১৭৭৩ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-013",
+   "q": {
+    "en": "Which Act established the Supreme Court at Calcutta?",
+    "as": "কোন আইনে কলিকতা উচ্চতম ন্যায়ালয় প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Regulating Act of 1773",
+     "as": "১৭৭৩ চনৰ ৰেগুলেটিং আইন"
+    },
+    {
+     "en": "The Pitt's India Act of 1784",
+     "as": "১৭৮৪ চনৰ পিটছ ইণ্ডিয়া আইন"
+    },
+    {
+     "en": "The Charter Act of 1813",
+     "as": "১৮১৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Charter Act of 1833",
+     "as": "১৮৩৩ চনৰ চাৰ্টাৰ আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Regulating Act of 1773 established the Supreme Court at Calcutta.",
+    "as": "১৭৭৩ চনৰ ৰেগুলেটিং আইনে কলিকতা উচ্চতম ন্যায়ালয় প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-014",
+   "q": {
+    "en": "In which year was the Pitt's India Act passed?",
+    "as": "পিটছ ইণ্ডিয়া আইন কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1784 CE",
+     "as": "১৭৮৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1773 CE",
+     "as": "১৭৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1793 CE",
+     "as": "১৭৯৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1813 CE",
+     "as": "১৮১৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Pitt's India Act was passed in 1784 CE.",
+    "as": "পিটছ ইণ্ডিয়া আইন ১৭৮৪ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-015",
+   "q": {
+    "en": "Who introduced the Permanent Settlement in Bengal?",
+    "as": "বংগত স্থায়ী বন্দোবস্ত কোনে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    },
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলী"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Cornwallis introduced the Permanent Settlement in Bengal in 1793.",
+    "as": "লৰ্ড কৰ্নৱালিছে ১৭৯৩ চনত বংগত স্থায়ী বন্দোবস্ত প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-016",
+   "q": {
+    "en": "In which year was the Permanent Settlement introduced?",
+    "as": "স্থায়ী বন্দোবস্ত কিমান চনত প্ৰৱৰ্তন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1793 CE",
+     "as": "১৭৯৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1773 CE",
+     "as": "১৭৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1784 CE",
+     "as": "১৭৮৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1813 CE",
+     "as": "১৮১৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Permanent Settlement was introduced in 1793 CE.",
+    "as": "স্থায়ী বন্দোবস্ত ১৭৯৩ খ্ৰীষ্টাব্দত প্ৰৱৰ্তন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-017",
+   "q": {
+    "en": "Who introduced the Ryotwari system?",
+    "as": "ৰৈয়তৱাৰী ব্যৱস্থা কোনে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Thomas Munro",
+     "as": "থমাছ মানৰো"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলী"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Thomas Munro introduced the Ryotwari system in Madras.",
+    "as": "থমাছ মানৰোৱে মাদ্ৰাজত ৰৈয়তৱাৰী ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-018",
+   "q": {
+    "en": "Who introduced the Mahalwari system?",
+    "as": "মহলৱাৰী ব্যৱস্থা কোনে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Holt Mackenzie",
+     "as": "হল্ট মেকেঞ্জি"
+    },
+    {
+     "en": "Thomas Munro",
+     "as": "থমাছ মানৰো"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Holt Mackenzie introduced the Mahalwari system in the North-Western Provinces.",
+    "as": "হল্ট মেকেঞ্জিয়ে উত্তৰ-পশ্চিম প্ৰদেশত মহলৱাৰী ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-019",
+   "q": {
+    "en": "Which Governor-General introduced the Subsidiary Alliance system?",
+    "as": "কোন গৱৰ্ণৰ-জেনেৰেলে সহায়ক মিত্ৰতা ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলী"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Wellesley introduced the Subsidiary Alliance system.",
+    "as": "লৰ্ড ৱেলেছলীয়ে সহায়ক মিত্ৰতা ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-020",
+   "q": {
+    "en": "Which Governor-General introduced the Doctrine of Lapse?",
+    "as": "কোন গৱৰ্ণৰ-জেনেৰেলে অপহৰণ নীতি প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলী"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Dalhousie introduced the Doctrine of Lapse.",
+    "as": "লৰ্ড ডালহাউছিয়ে অপহৰণ নীতি প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-021",
+   "q": {
+    "en": "Which state was annexed under the Doctrine of Lapse?",
+    "as": "অপহৰণ নীতিৰ অধীনত কোন ৰাজ্য অধিগ্ৰহণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Satara",
+     "as": "চতাৰা"
+    },
+    {
+     "en": "Hyderabad",
+     "as": "হায়দৰাবাদ"
+    },
+    {
+     "en": "Mysore",
+     "as": "মহীশূৰ"
+    },
+    {
+     "en": "Awadh",
+     "as": "অৱধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Satara was one of the first states annexed under the Doctrine of Lapse.",
+    "as": "চতাৰা অপহৰণ নীতিৰ অধীনত অধিগ্ৰহণ কৰা প্ৰথম ৰাজ্যসমূহৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-022",
+   "q": {
+    "en": "Which state was annexed by Lord Dalhousie in 1856 on the grounds of misgovernment?",
+    "as": "কোন ৰাজ্য লৰ্ড ডালহাউছিয়ে ১৮৫৬ চনত কুশাসনৰ ভিত্তিত অধিগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Awadh",
+     "as": "অৱধ"
+    },
+    {
+     "en": "Satara",
+     "as": "চতাৰা"
+    },
+    {
+     "en": "Jhansi",
+     "as": "ঝাঁসী"
+    },
+    {
+     "en": "Nagpur",
+     "as": "নাগপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Awadh was annexed by Lord Dalhousie in 1856 on the grounds of misgovernment.",
+    "as": "অৱধ লৰ্ড ডালহাউছিয়ে ১৮৫৬ চনত কুশাসনৰ ভিত্তিত অধিগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-023",
+   "q": {
+    "en": "Which state was annexed by Lord Dalhousie in 1854 after the death of its ruler?",
+    "as": "কোন ৰাজ্য লৰ্ড ডালহাউছিয়ে ১৮৫৪ চনত ইয়াৰ শাসকৰ মৃত্যুৰ পিছত অধিগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nagpur",
+     "as": "নাগপুৰ"
+    },
+    {
+     "en": "Awadh",
+     "as": "অৱধ"
+    },
+    {
+     "en": "Satara",
+     "as": "চতাৰা"
+    },
+    {
+     "en": "Mysore",
+     "as": "মহীশূৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nagpur was annexed by Lord Dalhousie in 1854 under the Doctrine of Lapse.",
+    "as": "নাগপুৰ লৰ্ড ডালহাউছিয়ে ১৮৫৪ চনত অপহৰণ নীতিৰ অধীনত অধিগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-024",
+   "q": {
+    "en": "Which state was annexed by Lord Dalhousie in 1853 after the death of its ruler?",
+    "as": "কোন ৰাজ্য লৰ্ড ডালহাউছিয়ে ১৮৫৩ চনত ইয়াৰ শাসকৰ মৃত্যুৰ পিছত অধিগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jhansi",
+     "as": "ঝাঁসী"
+    },
+    {
+     "en": "Awadh",
+     "as": "অৱধ"
+    },
+    {
+     "en": "Satara",
+     "as": "চতাৰা"
+    },
+    {
+     "en": "Mysore",
+     "as": "মহীশূৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jhansi was annexed by Lord Dalhousie in 1853 under the Doctrine of Lapse.",
+    "as": "ঝাঁসী লৰ্ড ডালহাউছিয়ে ১৮৫৩ চনত অপহৰণ নীতিৰ অধীনত অধিগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-025",
+   "q": {
+    "en": "Which Anglo-Maratha war ended with the Treaty of Salbai?",
+    "as": "কোন ইংৰাজ-মাৰাঠা যুদ্ধ ছালবাইৰ সন্ধিৰে অন্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The First Anglo-Maratha War",
+     "as": "প্ৰথম ইংৰাজ-মাৰাঠা যুদ্ধ"
+    },
+    {
+     "en": "The Second Anglo-Maratha War",
+     "as": "দ্বিতীয় ইংৰাজ-মাৰাঠা যুদ্ধ"
+    },
+    {
+     "en": "The Third Anglo-Maratha War",
+     "as": "তৃতীয় ইংৰাজ-মাৰাঠা যুদ্ধ"
+    },
+    {
+     "en": "The Fourth Anglo-Maratha War",
+     "as": "চতুৰ্থ ইংৰাজ-মাৰাঠা যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The First Anglo-Maratha War ended with the Treaty of Salbai in 1782.",
+    "as": "প্ৰথম ইংৰাজ-মাৰাঠা যুদ্ধ ১৭৮২ চনত ছালবাইৰ সন্ধিৰে অন্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-026",
+   "q": {
+    "en": "Which Anglo-Mysore war ended with the Treaty of Srirangapatna?",
+    "as": "কোন ইংৰাজ-মহীশূৰ যুদ্ধ শ্ৰীৰংগপট্টমৰ সন্ধিৰে অন্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Third Anglo-Mysore War",
+     "as": "তৃতীয় ইংৰাজ-মহীশূৰ যুদ্ধ"
+    },
+    {
+     "en": "The First Anglo-Mysore War",
+     "as": "প্ৰথম ইংৰাজ-মহীশূৰ যুদ্ধ"
+    },
+    {
+     "en": "The Second Anglo-Mysore War",
+     "as": "দ্বিতীয় ইংৰাজ-মহীশূৰ যুদ্ধ"
+    },
+    {
+     "en": "The Fourth Anglo-Mysore War",
+     "as": "চতুৰ্থ ইংৰাজ-মহীশূৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Third Anglo-Mysore War ended with the Treaty of Srirangapatna in 1792.",
+    "as": "তৃতীয় ইংৰাজ-মহীশূৰ যুদ্ধ ১৭৯২ চনত শ্ৰীৰংগপট্টমৰ সন্ধিৰে অন্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-027",
+   "q": {
+    "en": "Who was the ruler of Mysore who fought the British in four wars?",
+    "as": "চাৰিখন যুদ্ধত ব্ৰিটিছৰ বিৰুদ্ধে যুঁজা মহীশূৰৰ শাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Tipu Sultan",
+     "as": "টিপু চুলতান"
+    },
+    {
+     "en": "Haidar Ali",
+     "as": "হাইদৰ আলী"
+    },
+    {
+     "en": "Ranjit Singh",
+     "as": "ৰণজিৎ সিং"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tipu Sultan fought the British in the Anglo-Mysore wars.",
+    "as": "টিপু চুলতানে ইংৰাজ-মহীশূৰ যুদ্ধত ব্ৰিটিছৰ বিৰুদ্ধে যুঁজিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-028",
+   "q": {
+    "en": "Who was the father of Tipu Sultan?",
+    "as": "টিপু চুলতানৰ পিতৃ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Haidar Ali",
+     "as": "হাইদৰ আলী"
+    },
+    {
+     "en": "Ranjit Singh",
+     "as": "ৰণজিৎ সিং"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Baji Rao",
+     "as": "বাজী ৰাও"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Haidar Ali was the father of Tipu Sultan.",
+    "as": "হাইদৰ আলী টিপু চুলতানৰ পিতৃ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-029",
+   "q": {
+    "en": "In which year did Tipu Sultan die fighting the British?",
+    "as": "টিপু চুলতান কিমান চনত ব্ৰিটিছৰ বিৰুদ্ধে যুঁজি মৃত্যুবৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1799 CE",
+     "as": "১৭৯৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1782 CE",
+     "as": "১৭৮২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1792 CE",
+     "as": "১৭৯২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tipu Sultan died in 1799 CE at the Fourth Anglo-Mysore War.",
+    "as": "টিপু চুলতান ১৭৯৯ খ্ৰীষ্টাব্দত চতুৰ্থ ইংৰাজ-মহীশূৰ যুদ্ধত মৃত্যুবৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-030",
+   "q": {
+    "en": "Which battle ended Tipu Sultan's rule?",
+    "as": "কোন যুদ্ধই টিপু চুলতানৰ শাসন অন্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Battle of Srirangapatna",
+     "as": "শ্ৰীৰংগপট্টমৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Plassey",
+     "as": "পলাশীৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Buxar",
+     "as": "বক্সাৰৰ যুদ্ধ"
+    },
+    {
+     "en": "The Battle of Panipat",
+     "as": "পানিপথৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Srirangapatna in 1799 ended Tipu Sultan's rule.",
+    "as": "১৭৯৯ চনত শ্ৰীৰংগপট্টমৰ যুদ্ধই টিপু চুলতানৰ শাসন অন্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-031",
+   "q": {
+    "en": "Who was the Sikh ruler who founded a powerful kingdom in Punjab?",
+    "as": "পঞ্জাবত এখন শক্তিশালী ৰাজ্য প্ৰতিষ্ঠা কৰা শিখ শাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ranjit Singh",
+     "as": "ৰণজিৎ সিং"
+    },
+    {
+     "en": "Tipu Sultan",
+     "as": "টিপু চুলতান"
+    },
+    {
+     "en": "Shivaji",
+     "as": "শিৱাজী"
+    },
+    {
+     "en": "Baji Rao",
+     "as": "বাজী ৰাও"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ranjit Singh founded a powerful Sikh kingdom in Punjab.",
+    "as": "ৰণজিৎ সিঙে পঞ্জাবত এখন শক্তিশালী শিখ ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-032",
+   "q": {
+    "en": "In which year did Ranjit Singh capture Lahore?",
+    "as": "ৰণজিৎ সিঙে কিমান চনত লাহোৰ দখল কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1799 CE",
+     "as": "১৭৯৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1801 CE",
+     "as": "১৮০১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1805 CE",
+     "as": "১৮০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1839 CE",
+     "as": "১৮৩৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ranjit Singh captured Lahore in 1799 CE.",
+    "as": "ৰণজিৎ সিঙে ১৭৯৯ খ্ৰীষ্টাব্দত লাহোৰ দখল কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-033",
+   "q": {
+    "en": "Which treaty was signed between Ranjit Singh and the British in 1809?",
+    "as": "১৮০৯ চনত ৰণজিৎ সিং আৰু ব্ৰিটিছৰ মাজত কোন সন্ধি স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Treaty of Amritsar",
+     "as": "অমৃতসৰৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Lahore",
+     "as": "লাহোৰৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Salbai",
+     "as": "ছালবাইৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Bassein",
+     "as": "বছেইনৰ সন্ধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Treaty of Amritsar was signed between Ranjit Singh and the British in 1809.",
+    "as": "১৮০৯ চনত ৰণজিৎ সিং আৰু ব্ৰিটিছৰ মাজত অমৃতসৰৰ সন্ধি স্বাক্ষৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-034",
+   "q": {
+    "en": "In which year did Ranjit Singh die?",
+    "as": "ৰণজিৎ সিং কিমান চনত মৃত্যুবৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1839 CE",
+     "as": "১৮৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1849 CE",
+     "as": "১৮৪৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1809 CE",
+     "as": "১৮০৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ranjit Singh died in 1839 CE.",
+    "as": "ৰণজিৎ সিং ১৮৩৯ খ্ৰীষ্টাব্দত মৃত্যুবৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-035",
+   "q": {
+    "en": "Which Anglo-Sikh war led to the annexation of Punjab?",
+    "as": "কোন ইংৰাজ-শিখ যুদ্ধই পঞ্জাব অধিগ্ৰহণলৈ লৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Second Anglo-Sikh War",
+     "as": "দ্বিতীয় ইংৰাজ-শিখ যুদ্ধ"
+    },
+    {
+     "en": "The First Anglo-Sikh War",
+     "as": "প্ৰথম ইংৰাজ-শিখ যুদ্ধ"
+    },
+    {
+     "en": "The Third Anglo-Sikh War",
+     "as": "তৃতীয় ইংৰাজ-শিখ যুদ্ধ"
+    },
+    {
+     "en": "The Fourth Anglo-Sikh War",
+     "as": "চতুৰ্থ ইংৰাজ-শিখ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Second Anglo-Sikh War in 1849 led to the annexation of Punjab.",
+    "as": "১৮৪৯ চনত দ্বিতীয় ইংৰাজ-শিখ যুদ্ধই পঞ্জাব অধিগ্ৰহণলৈ লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-036",
+   "q": {
+    "en": "In which year was Punjab annexed by the British?",
+    "as": "কিমান চনত ব্ৰিটিছে পঞ্জাব অধিগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1849 CE",
+     "as": "১৮৪৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1839 CE",
+     "as": "১৮৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1856 CE",
+     "as": "১৮৫৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Punjab was annexed by the British in 1849 CE.",
+    "as": "ব্ৰিটিছে ১৮৪৯ খ্ৰীষ্টাব্দত পঞ্জাব অধিগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-037",
+   "q": {
+    "en": "Which Charter Act ended the East India Company's trade monopoly?",
+    "as": "কোন চাৰ্টাৰ আইনে ইষ্ট ইণ্ডিয়া কোম্পানীৰ বাণিজ্য একচেটিয়া অধিকাৰ অন্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Charter Act of 1813",
+     "as": "১৮১৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Charter Act of 1833",
+     "as": "১৮৩৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Charter Act of 1853",
+     "as": "১৮৫৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Regulating Act of 1773",
+     "as": "১৭৭৩ চনৰ ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Charter Act of 1813 ended the East India Company's trade monopoly.",
+    "as": "১৮১৩ চনৰ চাৰ্টাৰ আইনে ইষ্ট ইণ্ডিয়া কোম্পানীৰ বাণিজ্য একচেটিয়া অধিকাৰ অন্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-038",
+   "q": {
+    "en": "Which Charter Act made the Governor-General of Bengal the Governor-General of India?",
+    "as": "কোন চাৰ্টাৰ আইনে বংগৰ গৱৰ্ণৰ-জেনেৰেলক ভাৰতৰ গৱৰ্ণৰ-জেনেৰেল কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Charter Act of 1833",
+     "as": "১৮৩৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Charter Act of 1813",
+     "as": "১৮১৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Charter Act of 1853",
+     "as": "১৮৫৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Regulating Act of 1773",
+     "as": "১৭৭৩ চনৰ ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Charter Act of 1833 made the Governor-General of Bengal the Governor-General of India.",
+    "as": "১৮৩৩ চনৰ চাৰ্টাৰ আইনে বংগৰ গৱৰ্ণৰ-জেনেৰেলক ভাৰতৰ গৱৰ্ণৰ-জেনেৰেল কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-039",
+   "q": {
+    "en": "Who was the first Governor-General of India?",
+    "as": "ভাৰতৰ প্ৰথম গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord William Bentinck",
+     "as": "লৰ্ড উইলিয়াম বেণ্টিংক"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord William Bentinck was the first Governor-General of India.",
+    "as": "লৰ্ড উইলিয়াম বেণ্টিংক ভাৰতৰ প্ৰথম গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-040",
+   "q": {
+    "en": "Who abolished the practice of Sati?",
+    "as": "সতী প্ৰথা কোনে বিলুপ্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord William Bentinck",
+     "as": "লৰ্ড উইলিয়াম বেণ্টিংক"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord William Bentinck abolished the practice of Sati in 1829.",
+    "as": "লৰ্ড উইলিয়াম বেণ্টিংকে ১৮২৯ চনত সতী প্ৰথা বিলুপ্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-041",
+   "q": {
+    "en": "In which year was Sati abolished?",
+    "as": "সতী প্ৰথা কিমান চনত বিলুপ্ত কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1829 CE",
+     "as": "১৮২৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1833 CE",
+     "as": "১৮৩৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1856 CE",
+     "as": "১৮৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1813 CE",
+     "as": "১৮১৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sati was abolished in 1829 CE.",
+    "as": "সতী প্ৰথা ১৮২৯ খ্ৰীষ্টাব্দত বিলুপ্ত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-042",
+   "q": {
+    "en": "Who introduced English as the medium of instruction in India?",
+    "as": "ভাৰতত শিক্ষাৰ মাধ্যম হিচাপে ইংৰাজী কোনে প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord William Bentinck",
+     "as": "লৰ্ড উইলিয়াম বেণ্টিংক"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord William Bentinck introduced English as the medium of instruction in India.",
+    "as": "লৰ্ড উইলিয়াম বেণ্টিংকে ভাৰতত শিক্ষাৰ মাধ্যম হিচাপে ইংৰাজী প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-043",
+   "q": {
+    "en": "Who was the Governor-General during the First Anglo-Afghan War?",
+    "as": "প্ৰথম ইংৰাজ-আফগান যুদ্ধৰ সময়ত গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Auckland",
+     "as": "লৰ্ড অকলেণ্ড"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord William Bentinck",
+     "as": "লৰ্ড উইলিয়াম বেণ্টিংক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Auckland was the Governor-General during the First Anglo-Afghan War.",
+    "as": "লৰ্ড অকলেণ্ড প্ৰথম ইংৰাজ-আফগান যুদ্ধৰ সময়ত গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-044",
+   "q": {
+    "en": "Which Governor-General is associated with the First Anglo-Sikh War?",
+    "as": "প্ৰথম ইংৰাজ-শিখ যুদ্ধৰ লগত কোন গৱৰ্ণৰ-জেনেৰেল জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Lord Hardinge",
+     "as": "লৰ্ড হাৰ্ডিং"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord Auckland",
+     "as": "লৰ্ড অকলেণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Hardinge was the Governor-General during the First Anglo-Sikh War.",
+    "as": "লৰ্ড হাৰ্ডিং প্ৰথম ইংৰাজ-শিখ যুদ্ধৰ সময়ত গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-045",
+   "q": {
+    "en": "Who was the last Governor-General of India under the East India Company?",
+    "as": "ইষ্ট ইণ্ডিয়া কোম্পানীৰ অধীনত ভাৰতৰ শেষ গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Hardinge",
+     "as": "লৰ্ড হাৰ্ডিং"
+    },
+    {
+     "en": "Lord Auckland",
+     "as": "লৰ্ড অকলেণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Canning was the last Governor-General under the East India Company.",
+    "as": "লৰ্ড ক্যানিং ইষ্ট ইণ্ডিয়া কোম্পানীৰ অধীনত শেষ গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-046",
+   "q": {
+    "en": "Who was the first Viceroy of India?",
+    "as": "ভাৰতৰ প্ৰথম ভাইচৰয় কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Hardinge",
+     "as": "লৰ্ড হাৰ্ডিং"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Canning was the first Viceroy of India.",
+    "as": "লৰ্ড ক্যানিং ভাৰতৰ প্ৰথম ভাইচৰয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-047",
+   "q": {
+    "en": "Which Act transferred India from the East India Company to the British Crown?",
+    "as": "কোন আইনে ভাৰত ইষ্ট ইণ্ডিয়া কোম্পানীৰ পৰা ব্ৰিটিছ ৰাজমুকুটলৈ স্থানান্তৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1858",
+     "as": "১৮৫৮ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Charter Act of 1853",
+     "as": "১৮৫৩ চনৰ চাৰ্টাৰ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1861",
+     "as": "১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Regulating Act of 1773",
+     "as": "১৭৭৩ চনৰ ৰেগুলেটিং আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1858 transferred India to the British Crown.",
+    "as": "১৮৫৮ চনৰ ভাৰত শাসন আইনে ভাৰত ব্ৰিটিছ ৰাজমুকুটলৈ স্থানান্তৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-048",
+   "q": {
+    "en": "Who was the Governor-General who introduced the Doctrine of Lapse?",
+    "as": "অপহৰণ নীতি প্ৰৱৰ্তন কৰা গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord Wellesley",
+     "as": "লৰ্ড ৱেলেছলী"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "as": "লৰ্ড কৰ্নৱালিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Dalhousie introduced the Doctrine of Lapse.",
+    "as": "লৰ্ড ডালহাউছিয়ে অপহৰণ নীতি প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-049",
+   "q": {
+    "en": "Which railway line was the first to be opened in India?",
+    "as": "ভাৰতত প্ৰথম কোন ৰেলপথ আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Bombay to Thane",
+     "as": "বোম্বাইৰ পৰা থানে"
+    },
+    {
+     "en": "Calcutta to Delhi",
+     "as": "কলিকতাৰ পৰা দিল্লী"
+    },
+    {
+     "en": "Madras to Bombay",
+     "as": "মাদ্ৰাজৰ পৰা বোম্বাই"
+    },
+    {
+     "en": "Delhi to Lahore",
+     "as": "দিল্লীৰ পৰা লাহোৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first railway line in India, from Bombay to Thane, opened in 1853.",
+    "as": "ভাৰতৰ প্ৰথম ৰেলপথ, বোম্বাইৰ পৰা থানে, ১৮৫৩ চনত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-050",
+   "q": {
+    "en": "In which year was the first railway line opened in India?",
+    "as": "ভাৰতত প্ৰথম ৰেলপথ কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1853 CE",
+     "as": "১৮৫৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1849 CE",
+     "as": "১৮৪৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1839 CE",
+     "as": "১৮৩৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first railway line opened in India in 1853 CE.",
+    "as": "ভাৰতত প্ৰথম ৰেলপথ ১৮৫৩ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-051",
+   "q": {
+    "en": "In which year was the first telegraph line opened in India?",
+    "as": "ভাৰতত প্ৰথম টেলিগ্ৰাফ লাইন কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1853 CE",
+     "as": "১৮৫৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1849 CE",
+     "as": "১৮৪৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1839 CE",
+     "as": "১৮৩৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first telegraph line in India was opened in 1853 CE.",
+    "as": "ভাৰতত প্ৰথম টেলিগ্ৰাফ লাইন ১৮৫৩ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-052",
+   "q": {
+    "en": "Which Governor-General is known as the 'Father of Indian Railways'?",
+    "as": "কোন গৱৰ্ণৰ-জেনেৰেলক 'ভাৰতীয় ৰেলৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Dalhousie is known as the Father of Indian Railways.",
+    "as": "লৰ্ড ডালহাউছিক ভাৰতীয় ৰেলৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-053",
+   "q": {
+    "en": "Which Governor-General introduced the Widow Remarriage Act?",
+    "as": "কোন গৱৰ্ণৰ-জেনেৰেলে বিধবা বিবাহ আইন প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Dalhousie introduced the Widow Remarriage Act in 1856.",
+    "as": "লৰ্ড ডালহাউছিয়ে ১৮৫৬ চনত বিধবা বিবাহ আইন প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-054",
+   "q": {
+    "en": "In which year was the Widow Remarriage Act passed?",
+    "as": "বিধবা বিবাহ আইন কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1856 CE",
+     "as": "১৮৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1829 CE",
+     "as": "১৮২৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1833 CE",
+     "as": "১৮৩৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Widow Remarriage Act was passed in 1856 CE.",
+    "as": "বিধবা বিবাহ আইন ১৮৫৬ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-055",
+   "q": {
+    "en": "Who founded the Brahmo Samaj?",
+    "as": "ব্ৰাহ্ম সমাজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    },
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828.",
+    "as": "ৰাজা ৰামমোহন ৰায়ে ১৮২৮ চনত ব্ৰাহ্ম সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-056",
+   "q": {
+    "en": "Who is known as the 'Father of the Indian Renaissance'?",
+    "as": "কাক 'ভাৰতীয় নৱজাগৰণৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raja Ram Mohan Roy is known as the Father of the Indian Renaissance.",
+    "as": "ৰাজা ৰামমোহন ৰায়ক ভাৰতীয় নৱজাগৰণৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-057",
+   "q": {
+    "en": "Who founded the Arya Samaj?",
+    "as": "আৰ্য সমাজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    },
+    {
+     "en": "Ramakrishna Paramahamsa",
+     "as": "ৰামকৃষ্ণ পৰমহংস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dayanand Saraswati founded the Arya Samaj in 1875.",
+    "as": "দয়ানন্দ সৰস্বতীয়ে ১৮৭৫ চনত আৰ্য সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-058",
+   "q": {
+    "en": "Who founded the Ramakrishna Mission?",
+    "as": "ৰামকৃষ্ণ মিছন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    },
+    {
+     "en": "Ramakrishna Paramahamsa",
+     "as": "ৰামকৃষ্ণ পৰমহংস"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Swami Vivekananda founded the Ramakrishna Mission in 1897.",
+    "as": "স্বামী বিবেকানন্দে ১৮৯৭ চনত ৰামকৃষ্ণ মিছন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-059",
+   "q": {
+    "en": "Who founded the Theosophical Society in India?",
+    "as": "ভাৰতত থিঅ'চফিকেল ছ'চাইটি কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Annie Besant founded the Theosophical Society in India.",
+    "as": "এনি বেছাণ্টে ভাৰতত থিঅ'চফিকেল ছ'চাইটি প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-060",
+   "q": {
+    "en": "Who founded the Aligarh Movement?",
+    "as": "আলিগড় আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sir Syed Ahmed Khan",
+     "as": "ছাৰ চৈয়দ আহমদ খান"
+    },
+    {
+     "en": "Muhammad Ali Jinnah",
+     "as": "মুহম্মদ আলী জিন্নাহ"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sir Syed Ahmed Khan founded the Aligarh Movement.",
+    "as": "ছাৰ চৈয়দ আহমদ খানে আলিগড় আন্দোলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-061",
+   "q": {
+    "en": "Who founded the Muhammadan Anglo-Oriental College?",
+    "as": "মুহম্মদান এংলো-অৰিয়েণ্টেল কলেজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sir Syed Ahmed Khan",
+     "as": "ছাৰ চৈয়দ আহমদ খান"
+    },
+    {
+     "en": "Muhammad Ali Jinnah",
+     "as": "মুহম্মদ আলী জিন্নাহ"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sir Syed Ahmed Khan founded the Muhammadan Anglo-Oriental College at Aligarh.",
+    "as": "ছাৰ চৈয়দ আহমদ খানে আলিগড়ত মুহম্মদান এংলো-অৰিয়েণ্টেল কলেজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-062",
+   "q": {
+    "en": "Who founded the Servants of India Society?",
+    "as": "ছাৰভেণ্টছ অৱ ইণ্ডিয়া ছ'চাইটি কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    },
+    {
+     "en": "Bipin Chandra Pal",
+     "as": "বিপিন চন্দ্ৰ পাল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopal Krishna Gokhale founded the Servants of India Society in 1905.",
+    "as": "গোপাল কৃষ্ণ গোখলেয়ে ১৯০৫ চনত ছাৰভেণ্টছ অৱ ইণ্ডিয়া ছ'চাইটি প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-063",
+   "q": {
+    "en": "Who founded the Indian National Congress?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "A. O. Hume",
+     "as": "এ. অ'. হিউম"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "W. C. Bonnerjee",
+     "as": "ডব্লিউ. চি. বেনাৰ্জী"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A. O. Hume founded the Indian National Congress in 1885.",
+    "as": "এ. অ'. হিউমে ১৮৮৫ চনত ভাৰতীয় জাতীয় কংগ্ৰেছ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-064",
+   "q": {
+    "en": "In which year was the Indian National Congress founded?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1885 CE",
+     "as": "১৮৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian National Congress was founded in 1885 CE.",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ ১৮৮৫ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-065",
+   "q": {
+    "en": "Who was the first president of the Indian National Congress?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম সভাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "W. C. Bonnerjee",
+     "as": "ডব্লিউ. চি. বেনাৰ্জী"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "A. O. Hume",
+     "as": "এ. অ'. হিউম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "W. C. Bonnerjee was the first president of the Indian National Congress.",
+    "as": "ডব্লিউ. চি. বেনাৰ্জী ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম সভাপতি আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-066",
+   "q": {
+    "en": "Who was the first Indian to become a member of the British Parliament?",
+    "as": "ব্ৰিটিছ সংসদৰ সদস্য হোৱা প্ৰথম ভাৰতীয় কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "W. C. Bonnerjee",
+     "as": "ডব্লিউ. চি. বেনাৰ্জী"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dadabhai Naoroji was the first Indian to become a member of the British Parliament.",
+    "as": "দাদাভাই নৌৰজী ব্ৰিটিছ সংসদৰ সদস্য হোৱা প্ৰথম ভাৰতীয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-067",
+   "q": {
+    "en": "Who wrote the 'Poverty and Un-British Rule in India'?",
+    "as": "'পভাৰ্টি এণ্ড আন-ব্ৰিটিছ ৰুল ইন ইণ্ডিয়া' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "R. C. Dutt",
+     "as": "আৰ. চি. দত্ত"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dadabhai Naoroji wrote 'Poverty and Un-British Rule in India'.",
+    "as": "দাদাভাই নৌৰজীয়ে 'পভাৰ্টি এণ্ড আন-ব্ৰিটিছ ৰুল ইন ইণ্ডিয়া' লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-068",
+   "q": {
+    "en": "Who is known as the 'Grand Old Man of India'?",
+    "as": "কাক 'ভাৰতৰ প্ৰাচীন পুৰুষ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "W. C. Bonnerjee",
+     "as": "ডব্লিউ. চি. বেনাৰ্জী"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dadabhai Naoroji is known as the Grand Old Man of India.",
+    "as": "দাদাভাই নৌৰজীক ভাৰতৰ প্ৰাচীন পুৰুষ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-069",
+   "q": {
+    "en": "Who is known as the 'Father of Indian Nationalism'?",
+    "as": "কাক 'ভাৰতীয় জাতীয়তাবাদৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bal Gangadhar Tilak is known as the Father of Indian Nationalism.",
+    "as": "বাল গঙ্গাধৰ তিলকক ভাৰতীয় জাতীয়তাবাদৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-070",
+   "q": {
+    "en": "Who gave the slogan 'Swaraj is my birthright'?",
+    "as": "'স্বৰাজ মোৰ জন্মগত অধিকাৰ' শ্ল'গান কেৱে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    },
+    {
+     "en": "Bipin Chandra Pal",
+     "as": "বিপিন চন্দ্ৰ পাল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bal Gangadhar Tilak gave the slogan 'Swaraj is my birthright and I shall have it'.",
+    "as": "বাল গঙ্গাধৰ তিলকে 'স্বৰাজ মোৰ জন্মগত অধিকাৰ আৰু মই ইয়াক লম' শ্ল'গান দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-071",
+   "q": {
+    "en": "Who were the 'Lal Bal Pal' trio?",
+    "as": "'লাল বাল পাল' ত্ৰয়ী কোনসকল আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lala Lajpat Rai, Bal Gangadhar Tilak and Bipin Chandra Pal",
+     "as": "লালা লাজপত ৰায়, বাল গঙ্গাধৰ তিলক আৰু বিপিন চন্দ্ৰ পাল"
+    },
+    {
+     "en": "Gandhi, Nehru and Patel",
+     "as": "গান্ধী, নেহৰু আৰু পেটেল"
+    },
+    {
+     "en": "Tilak, Gokhale and Naoroji",
+     "as": "তিলক, গোখলে আৰু নৌৰজী"
+    },
+    {
+     "en": "Bose, Bhagat Singh and Azad",
+     "as": "বসু, ভগত সিং আৰু আজাদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Lal Bal Pal trio were Lala Lajpat Rai, Bal Gangadhar Tilak and Bipin Chandra Pal.",
+    "as": "লাল বাল পাল ত্ৰয়ী আছিল লালা লাজপত ৰায়, বাল গঙ্গাধৰ তিলক আৰু বিপিন চন্দ্ৰ পাল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-072",
+   "q": {
+    "en": "Who started the newspaper 'Kesari'?",
+    "as": "'কেশৰী' বাতৰি কাকত কোনে আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bal Gangadhar Tilak started the newspaper Kesari.",
+    "as": "বাল গঙ্গাধৰ তিলকে কেশৰী বাতৰি কাকত আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-073",
+   "q": {
+    "en": "Who started the newspaper 'Maratha'?",
+    "as": "'মাৰাঠা' বাতৰি কাকত কোনে আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bal Gangadhar Tilak started the newspaper Maratha.",
+    "as": "বাল গঙ্গাধৰ তিলকে মাৰাঠা বাতৰি কাকত আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-074",
+   "q": {
+    "en": "Who was the Viceroy during the partition of Bengal?",
+    "as": "বংগ বিভাজনৰ সময়ত ভাইচৰয় কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    },
+    {
+     "en": "Lord Hardinge",
+     "as": "লৰ্ড হাৰ্ডিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Curzon was the Viceroy during the partition of Bengal in 1905.",
+    "as": "১৯০৫ চনত বংগ বিভাজনৰ সময়ত লৰ্ড কাৰ্জন ভাইচৰয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-075",
+   "q": {
+    "en": "In which year was Bengal partitioned?",
+    "as": "বংগ কিমান চনত বিভাজন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1911 CE",
+     "as": "১৯১১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bengal was partitioned in 1905 CE.",
+    "as": "বংগ ১৯০৫ খ্ৰীষ্টাব্দত বিভাজন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-076",
+   "q": {
+    "en": "In which year was the partition of Bengal annulled?",
+    "as": "বংগ বিভাজন কিমান চনত বাতিল কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1911 CE",
+     "as": "১৯১১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The partition of Bengal was annulled in 1911 CE.",
+    "as": "বংগ বিভাজন ১৯১১ খ্ৰীষ্টাব্দত বাতিল কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-077",
+   "q": {
+    "en": "Who gave the slogan 'Bande Mataram'?",
+    "as": "'বন্দে মাতৰম' শ্ল'গান কেৱে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bankim Chandra Chatterjee",
+     "as": "বঙ্কিম চন্দ্ৰ চট্টোপাধ্যায়"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Aurobindo Ghosh",
+     "as": "অৰবিন্দ ঘোষ"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bankim Chandra Chatterjee wrote 'Bande Mataram' in his novel Anandamath.",
+    "as": "বঙ্কিম চন্দ্ৰ চট্টোপাধ্যায়ে তেওঁৰ উপন্যাস আনন্দমঠত 'বন্দে মাতৰম' লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-078",
+   "q": {
+    "en": "Who founded the Muslim League?",
+    "as": "মুছলিম লীগ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Aga Khan and others",
+     "as": "আগা খান আৰু আনসকল"
+    },
+    {
+     "en": "Muhammad Ali Jinnah",
+     "as": "মুহম্মদ আলী জিন্নাহ"
+    },
+    {
+     "en": "Sir Syed Ahmed Khan",
+     "as": "ছাৰ চৈয়দ আহমদ খান"
+    },
+    {
+     "en": "Liaquat Ali Khan",
+     "as": "লিয়াকত আলী খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Muslim League was founded in 1906 by Aga Khan and others.",
+    "as": "১৯০৬ চনত আগা খান আৰু আনসকলে মুছলিম লীগ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-079",
+   "q": {
+    "en": "In which year was the Muslim League founded?",
+    "as": "মুছলিম লীগ কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1885 CE",
+     "as": "১৮৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1916 CE",
+     "as": "১৯১৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Muslim League was founded in 1906 CE.",
+    "as": "মুছলিম লীগ ১৯০৬ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-080",
+   "q": {
+    "en": "In which year was the Lucknow Pact signed?",
+    "as": "লখনৌ চুক্তি কিমান চনত স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1916 CE",
+     "as": "১৯১৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Lucknow Pact between the Congress and the Muslim League was signed in 1916.",
+    "as": "কংগ্ৰেছ আৰু মুছলিম লীগৰ মাজত লখনৌ চুক্তি ১৯১৬ চনত স্বাক্ষৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-081",
+   "q": {
+    "en": "Who was the Viceroy during the Jallianwala Bagh massacre?",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ সময়ত ভাইচৰয় কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Chelmsford",
+     "as": "লৰ্ড চেমছফৰ্ড"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Reading",
+     "as": "লৰ্ড ৰিডিং"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Chelmsford was the Viceroy during the Jallianwala Bagh massacre.",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ সময়ত লৰ্ড চেমছফৰ্ড ভাইচৰয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-082",
+   "q": {
+    "en": "In which year did the Jallianwala Bagh massacre take place?",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1922 CE",
+     "as": "১৯২২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jallianwala Bagh massacre took place in 1919 CE.",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড ১৯১৯ খ্ৰীষ্টাব্দত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-083",
+   "q": {
+    "en": "Who ordered the Jallianwala Bagh massacre?",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ আদেশ কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "General Dyer",
+     "as": "জেনেৰেল ডায়াৰ"
+    },
+    {
+     "en": "Lord Chelmsford",
+     "as": "লৰ্ড চেমছফৰ্ড"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "General Dyer ordered the Jallianwala Bagh massacre.",
+    "as": "জেনেৰেল ডায়াৰে জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ আদেশ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-084",
+   "q": {
+    "en": "In which city did the Jallianwala Bagh massacre take place?",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড কোন চহৰত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Amritsar",
+     "as": "অমৃতসৰ"
+    },
+    {
+     "en": "Lahore",
+     "as": "লাহোৰ"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Calcutta",
+     "as": "কলিকতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jallianwala Bagh massacre took place at Amritsar.",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড অমৃতসৰত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-085",
+   "q": {
+    "en": "Which Act introduced dyarchy in the provinces?",
+    "as": "কোন আইনে প্ৰদেশসমূহত দ্বৈত শাসন প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Government of India Act 1935",
+     "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Charter Act of 1853",
+     "as": "১৮৫৩ চনৰ চাৰ্টাৰ আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1919 introduced dyarchy in the provinces.",
+    "as": "১৯১৯ চনৰ ভাৰত শাসন আইনে প্ৰদেশসমূহত দ্বৈত শাসন প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-086",
+   "q": {
+    "en": "Which Act introduced separate electorates for Muslims?",
+    "as": "কোন আইনে মুছলমানসকলৰ বাবে পৃথক নিৰ্বাচক মণ্ডল প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Government of India Act 1935",
+     "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Independence Act 1947",
+     "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Councils Act 1909 introduced separate electorates for Muslims.",
+    "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইনে মুছলমানসকলৰ বাবে পৃথক নিৰ্বাচক মণ্ডল প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-087",
+   "q": {
+    "en": "Which Act introduced provincial autonomy?",
+    "as": "কোন আইনে প্ৰাদেশিক স্বায়ত্তশাসন প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1935",
+     "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Independence Act 1947",
+     "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1935 introduced provincial autonomy.",
+    "as": "১৯৩৫ চনৰ ভাৰত শাসন আইনে প্ৰাদেশিক স্বায়ত্তশাসন প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-088",
+   "q": {
+    "en": "In which year was the Rowlatt Act passed?",
+    "as": "ৰ'লেট আইন কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1909 CE",
+     "as": "১৯০৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1929 CE",
+     "as": "১৯২৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Rowlatt Act was passed in 1919 CE.",
+    "as": "ৰ'লেট আইন ১৯১৯ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-089",
+   "q": {
+    "en": "Who called the Rowlatt Act a 'black act'?",
+    "as": "ৰ'লেট আইনক 'কলা আইন' কেৱে কৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Indian nationalists",
+     "as": "ভাৰতীয় জাতীয়তাবাদীসকল"
+    },
+    {
+     "en": "The British government",
+     "as": "ব্ৰিটিছ চৰকাৰ"
+    },
+    {
+     "en": "The Muslim League",
+     "as": "মুছলিম লীগ"
+    },
+    {
+     "en": "The princely states",
+     "as": "দেশীয় ৰাজ্যসমূহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Indian nationalists called the Rowlatt Act a black act.",
+    "as": "ভাৰতীয় জাতীয়তাবাদীসকলে ৰ'লেট আইনক কলা আইন বুলি কৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-090",
+   "q": {
+    "en": "Who is known as the 'Iron Man of India'?",
+    "as": "কাক 'ভাৰতৰ লৌহ মানৱ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sardar Vallabhbhai Patel",
+     "as": "ছৰ্দাৰ বল্লভভাই পেটেল"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sardar Vallabhbhai Patel is known as the Iron Man of India.",
+    "as": "ছৰ্দাৰ বল্লভভাই পেটেলক ভাৰতৰ লৌহ মানৱ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-091",
+   "q": {
+    "en": "Who is known as the 'Frontier Gandhi'?",
+    "as": "কাক 'সীমান্ত গান্ধী' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Khan Abdul Ghaffar Khan",
+     "as": "খান আব্দুল গফ্ফৰ খান"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Khan Abdul Ghaffar Khan is known as the Frontier Gandhi.",
+    "as": "খান আব্দুল গফ্ফৰ খানক সীমান্ত গান্ধী বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-092",
+   "q": {
+    "en": "In which year did Mahatma Gandhi return to India from South Africa?",
+    "as": "মহাত্মা গান্ধী কিমান চনত দক্ষিণ আফ্ৰিকাৰ পৰা ভাৰতলৈ ঘূৰি আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "1915 CE",
+     "as": "১৯১৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi returned to India from South Africa in 1915.",
+    "as": "মহাত্মা গান্ধী ১৯১৫ চনত দক্ষিণ আফ্ৰিকাৰ পৰা ভাৰতলৈ ঘূৰি আহিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-093",
+   "q": {
+    "en": "Which movement was Gandhi's first major movement in India?",
+    "as": "ভাৰতত গান্ধীৰ প্ৰথম প্ৰধান আন্দোলন কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Champaran movement",
+     "as": "চম্পাৰণ আন্দোলন"
+    },
+    {
+     "en": "The Quit India movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Non-Cooperation movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Civil Disobedience movement",
+     "as": "আইন অমান্য আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gandhi's first major movement in India was the Champaran movement in 1917.",
+    "as": "ভাৰতত গান্ধীৰ প্ৰথম প্ৰধান আন্দোলন ১৯১৭ চনৰ চম্পাৰণ আন্দোলন আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-094",
+   "q": {
+    "en": "In which year did the Champaran movement take place?",
+    "as": "চম্পাৰণ আন্দোলন কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1917 CE",
+     "as": "১৯১৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1915 CE",
+     "as": "১৯১৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1918 CE",
+     "as": "১৯১৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Champaran movement took place in 1917 CE.",
+    "as": "চম্পাৰণ আন্দোলন ১৯১৭ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-095",
+   "q": {
+    "en": "Which movement was launched by Gandhi in 1918 in Gujarat?",
+    "as": "১৯১৮ চনত গুজৰাটত গান্ধীয়ে কোন আন্দোলন আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Kheda movement",
+     "as": "খেড়া আন্দোলন"
+    },
+    {
+     "en": "The Champaran movement",
+     "as": "চম্পাৰণ আন্দোলন"
+    },
+    {
+     "en": "The Quit India movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Khilafat movement",
+     "as": "খিলাফত আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gandhi launched the Kheda movement in Gujarat in 1918.",
+    "as": "গান্ধীয়ে ১৯১৮ চনত গুজৰাটত খেড়া আন্দোলন আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-096",
+   "q": {
+    "en": "Which movement was launched by Gandhi in 1918 in Ahmedabad?",
+    "as": "১৯১৮ চনত আহমেদাবাদত গান্ধীয়ে কোন আন্দোলন আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Ahmedabad mill workers' strike",
+     "as": "আহমেদাবাদ মিল শ্ৰমিক ধৰ্মঘট"
+    },
+    {
+     "en": "The Champaran movement",
+     "as": "চম্পাৰণ আন্দোলন"
+    },
+    {
+     "en": "The Quit India movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Khilafat movement",
+     "as": "খিলাফত আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gandhi launched the Ahmedabad mill workers' strike in 1918.",
+    "as": "গান্ধীয়ে ১৯১৮ চনত আহমেদাবাদ মিল শ্ৰমিক ধৰ্মঘট আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-097",
+   "q": {
+    "en": "In which year was the Non-Cooperation Movement launched?",
+    "as": "অসহযোগ আন্দোলন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1942 CE",
+     "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Non-Cooperation Movement was launched in 1920 CE.",
+    "as": "অসহযোগ আন্দোলন ১৯২০ খ্ৰীষ্টাব্দত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-098",
+   "q": {
+    "en": "Why was the Non-Cooperation Movement withdrawn?",
+    "as": "অসহযোগ আন্দোলন কিয় প্ৰত্যাহাৰ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Due to the Chauri Chaura incident",
+     "as": "চৌৰী চৌৰা ঘটনাৰ বাবে"
+    },
+    {
+     "en": "Due to the Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ বাবে"
+    },
+    {
+     "en": "Due to the partition of Bengal",
+     "as": "বংগ বিভাজনৰ বাবে"
+    },
+    {
+     "en": "Due to the Rowlatt Act",
+     "as": "ৰ'লেট আইনৰ বাবে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Non-Cooperation Movement was withdrawn due to the Chauri Chaura incident in 1922.",
+    "as": "চৌৰী চৌৰা ঘটনাৰ বাবে ১৯২২ চনত অসহযোগ আন্দোলন প্ৰত্যাহাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-099",
+   "q": {
+    "en": "In which year did the Chauri Chaura incident take place?",
+    "as": "চৌৰী চৌৰা ঘটনা কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1922 CE",
+     "as": "১৯২২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chauri Chaura incident took place in 1922 CE.",
+    "as": "চৌৰী চৌৰা ঘটনা ১৯২২ খ্ৰীষ্টাব্দত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-100",
+   "q": {
+    "en": "Which movement did Gandhi launch in 1930?",
+    "as": "১৯৩০ চনত গান্ধীয়ে কোন আন্দোলন আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Civil Disobedience Movement",
+     "as": "আইন অমান্য আন্দোলন"
+    },
+    {
+     "en": "The Non-Cooperation Movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Quit India Movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Khilafat Movement",
+     "as": "খিলাফত আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gandhi launched the Civil Disobedience Movement in 1930.",
+    "as": "গান্ধীয়ে ১৯৩০ চনত আইন অমান্য আন্দোলন আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-101",
+   "q": {
+    "en": "Which march marked the beginning of the Civil Disobedience Movement?",
+    "as": "কোন পদযাত্ৰাই আইন অমান্য আন্দোলনৰ আৰম্ভণি চিহ্নিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Dandi March",
+     "as": "দাণ্ডী যাত্ৰা"
+    },
+    {
+     "en": "The Champaran March",
+     "as": "চম্পাৰণ যাত্ৰা"
+    },
+    {
+     "en": "The Quit India March",
+     "as": "ভাৰত ত্যাগ যাত্ৰা"
+    },
+    {
+     "en": "The Khilafat March",
+     "as": "খিলাফত যাত্ৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dandi March marked the beginning of the Civil Disobedience Movement.",
+    "as": "দাণ্ডী যাত্ৰাই আইন অমান্য আন্দোলনৰ আৰম্ভণি চিহ্নিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-102",
+   "q": {
+    "en": "In which year was the Dandi March undertaken?",
+    "as": "দাণ্ডী যাত্ৰা কিমান চনত কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1942 CE",
+     "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dandi March was undertaken in 1930 CE.",
+    "as": "দাণ্ডী যাত্ৰা ১৯৩০ খ্ৰীষ্টাব্দত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-103",
+   "q": {
+    "en": "Why is the Dandi March also called the Salt Satyagraha?",
+    "as": "দাণ্ডী যাত্ৰাক কিয় লৱণ সত্যাগ্ৰহ বুলিও কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Because it protested the salt tax",
+     "as": "কাৰণ ই লৱণ কৰৰ প্ৰতিবাদ কৰিছিল"
+    },
+    {
+     "en": "Because it protested the land tax",
+     "as": "কাৰণ ই ভূমি কৰৰ প্ৰতিবাদ কৰিছিল"
+    },
+    {
+     "en": "Because it protested the income tax",
+     "as": "কাৰণ ই আয় কৰৰ প্ৰতিবাদ কৰিছিল"
+    },
+    {
+     "en": "Because it protested the salt trade",
+     "as": "কাৰণ ই লৱণ বাণিজ্যৰ প্ৰতিবাদ কৰিছিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dandi March is called the Salt Satyagraha because it protested the British salt tax.",
+    "as": "দাণ্ডী যাত্ৰাক লৱণ সত্যাগ্ৰহ বুলি কোৱা হয় কাৰণ ই ব্ৰিটিছ লৱণ কৰৰ প্ৰতিবাদ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-104",
+   "q": {
+    "en": "In which year was the Gandhi-Irwin Pact signed?",
+    "as": "গান্ধী-আৰউইন চুক্তি কিমান চনত স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1931 CE",
+     "as": "১৯৩১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1932 CE",
+     "as": "১৯৩২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gandhi-Irwin Pact was signed in 1931 CE.",
+    "as": "গান্ধী-আৰউইন চুক্তি ১৯৩১ খ্ৰীষ্টাব্দত স্বাক্ষৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-105",
+   "q": {
+    "en": "Which Round Table Conference did Gandhi attend?",
+    "as": "গান্ধীয়ে কোন গোলমেজ সন্মিলনত যোগ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Second Round Table Conference",
+     "as": "দ্বিতীয় গোলমেজ সন্মিলন"
+    },
+    {
+     "en": "The First Round Table Conference",
+     "as": "প্ৰথম গোলমেজ সন্মিলন"
+    },
+    {
+     "en": "The Third Round Table Conference",
+     "as": "তৃতীয় গোলমেজ সন্মিলন"
+    },
+    {
+     "en": "The Fourth Round Table Conference",
+     "as": "চতুৰ্থ গোলমেজ সন্মিলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gandhi attended the Second Round Table Conference in London.",
+    "as": "গান্ধীয়ে লণ্ডনত দ্বিতীয় গোলমেজ সন্মিলনত যোগ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-106",
+   "q": {
+    "en": "Who announced the Communal Award?",
+    "as": "সাম্প্ৰদায়িক পুৰস্কাৰ কোনে ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ramsay MacDonald",
+     "as": "ৰেমচে মেকডনাল্ড"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Winston Churchill",
+     "as": "উইনষ্টন চাৰ্চিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ramsay MacDonald announced the Communal Award in 1932.",
+    "as": "ৰেমচে মেকডনাল্ডে ১৯৩২ চনত সাম্প্ৰদায়িক পুৰস্কাৰ ঘোষণা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-107",
+   "q": {
+    "en": "Who undertook a fast unto death against the Communal Award?",
+    "as": "সাম্প্ৰদায়িক পুৰস্কাৰৰ বিৰুদ্ধে কেৱে মৃত্যু উপবাস কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi undertook a fast unto death against the Communal Award.",
+    "as": "মহাত্মা গান্ধীয়ে সাম্প্ৰদায়িক পুৰস্কাৰৰ বিৰুদ্ধে মৃত্যু উপবাস কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-108",
+   "q": {
+    "en": "What was the Poona Pact of 1932 about?",
+    "as": "১৯৩২ চনৰ পুনা চুক্তি কিসৰ বিষয়ে আছিল?"
+   },
+   "options": [
+    {
+     "en": "Reserved seats for the depressed classes",
+     "as": "অৱনত শ্ৰেণীৰ বাবে সংৰক্ষিত আসন"
+    },
+    {
+     "en": "Separate electorates for Muslims",
+     "as": "মুছলমানসকলৰ বাবে পৃথক নিৰ্বাচক মণ্ডল"
+    },
+    {
+     "en": "Provincial autonomy",
+     "as": "প্ৰাদেশিক স্বায়ত্তশাসন"
+    },
+    {
+     "en": "Salt tax",
+     "as": "লৱণ কৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Poona Pact of 1932 provided reserved seats for the depressed classes.",
+    "as": "১৯৩২ চনৰ পুনা চুক্তিয়ে অৱনত শ্ৰেণীৰ বাবে সংৰক্ষিত আসনৰ ব্যৱস্থা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-109",
+   "q": {
+    "en": "Who signed the Poona Pact on behalf of the depressed classes?",
+    "as": "অৱনত শ্ৰেণীৰ হৈ পুনা চুক্তিত কোনে স্বাক্ষৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B. R. Ambedkar signed the Poona Pact on behalf of the depressed classes.",
+    "as": "বি. আৰ. আম্বেদকাৰে অৱনত শ্ৰেণীৰ হৈ পুনা চুক্তিত স্বাক্ষৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-110",
+   "q": {
+    "en": "In which year was the Government of India Act passed?",
+    "as": "ভাৰত শাসন আইন কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1929 CE",
+     "as": "১৯২৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1942 CE",
+     "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act was passed in 1935 CE.",
+    "as": "ভাৰত শাসন আইন ১৯৩৫ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-111",
+   "q": {
+    "en": "Which session of the Congress demanded 'Purna Swaraj'?",
+    "as": "কংগ্ৰেছৰ কোন অধিৱেশনত 'পূৰ্ণ স্বৰাজ' দাবী কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Lahore session of 1929",
+     "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশন"
+    },
+    {
+     "en": "The Nagpur session of 1920",
+     "as": "১৯২০ চনৰ নাগপুৰ অধিৱেশন"
+    },
+    {
+     "en": "The Calcutta session of 1928",
+     "as": "১৯২৮ চনৰ কলিকতা অধিৱেশন"
+    },
+    {
+     "en": "The Karachi session of 1931",
+     "as": "১৯৩১ চনৰ কৰাচী অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Lahore session of 1929 demanded Purna Swaraj.",
+    "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশনত পূৰ্ণ স্বৰাজ দাবী কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-112",
+   "q": {
+    "en": "Who presided over the Lahore session of the Congress in 1929?",
+    "as": "১৯২৯ চনত কংগ্ৰেছৰ লাহোৰ অধিৱেশনৰ সভাপতিত্ব কোনে কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jawaharlal Nehru presided over the Lahore session of the Congress in 1929.",
+    "as": "জৱাহৰলাল নেহৰুৱে ১৯২৯ চনত কংগ্ৰেছৰ লাহোৰ অধিৱেশনৰ সভাপতিত্ব কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-113",
+   "q": {
+    "en": "When was 'Purna Swaraj' declared as the goal of the Congress?",
+    "as": "কংগ্ৰেছৰ লক্ষ্য হিচাপে 'পূৰ্ণ স্বৰাজ' কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "31 December 1929",
+     "as": "৩১ ডিচেম্বৰ ১৯২৯"
+    },
+    {
+     "en": "26 January 1930",
+     "as": "২৬ জানুৱাৰী ১৯৩০"
+    },
+    {
+     "en": "15 August 1947",
+     "as": "১৫ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "26 November 1949",
+     "as": "২৬ নৱেম্বৰ ১৯৪৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Purna Swaraj was declared as the goal of the Congress on 31 December 1929.",
+    "as": "৩১ ডিচেম্বৰ ১৯২৯ তাৰিখে কংগ্ৰেছৰ লক্ষ্য হিচাপে পূৰ্ণ স্বৰাজ ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-114",
+   "q": {
+    "en": "When was the first Independence Day observed in India?",
+    "as": "ভাৰতত প্ৰথম স্বাধীনতা দিৱস কেতিয়া পালন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "26 January 1930",
+     "as": "২৬ জানুৱাৰী ১৯৩০"
+    },
+    {
+     "en": "15 August 1947",
+     "as": "১৫ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "26 November 1949",
+     "as": "২৬ নৱেম্বৰ ১৯৪৯"
+    },
+    {
+     "en": "31 December 1929",
+     "as": "৩১ ডিচেম্বৰ ১৯২৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first Independence Day was observed on 26 January 1930.",
+    "as": "প্ৰথম স্বাধীনতা দিৱস ২৬ জানুৱাৰী ১৯৩০ তাৰিখে পালন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-115",
+   "q": {
+    "en": "Who founded the Indian National Army (INA)?",
+    "as": "ভাৰতীয় জাতীয় সেনা (আইএনএ) কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Subhas Chandra Bose founded the Indian National Army (INA).",
+    "as": "সুভাষ চন্দ্ৰ বসুৱে ভাৰতীয় জাতীয় সেনা (আইএনএ) প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-116",
+   "q": {
+    "en": "Who gave the slogan 'Give me blood, I will give you freedom'?",
+    "as": "'মোক তেজ দিয়া, মই তোমালোকক স্বাধীনতা দিম' শ্ল'গান কেৱে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Subhas Chandra Bose gave the slogan 'Give me blood, I will give you freedom'.",
+    "as": "সুভাষ চন্দ্ৰ বসুৱে 'মোক তেজ দিয়া, মই তোমালোকক স্বাধীনতা দিম' শ্ল'গান দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-117",
+   "q": {
+    "en": "Who is known as 'Netaji'?",
+    "as": "কাক 'নেতাজী' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Subhas Chandra Bose is known as Netaji.",
+    "as": "সুভাষ চন্দ্ৰ বসুক নেতাজী বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-118",
+   "q": {
+    "en": "Who founded the Forward Bloc?",
+    "as": "ফৰৱাৰ্ড ব্লক কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Subhas Chandra Bose founded the Forward Bloc in 1939.",
+    "as": "সুভাষ চন্দ্ৰ বসুৱে ১৯৩৯ চনত ফৰৱাৰ্ড ব্লক প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-119",
+   "q": {
+    "en": "In which year was the Quit India Movement launched?",
+    "as": "ভাৰত ত্যাগ আন্দোলন কিমান চনত আৰম্ভ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1942 CE",
+     "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Quit India Movement was launched in 1942 CE.",
+    "as": "ভাৰত ত্যাগ আন্দোলন ১৯৪২ খ্ৰীষ্টাব্দত আৰম্ভ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-120",
+   "q": {
+    "en": "Which slogan was associated with the Quit India Movement?",
+    "as": "ভাৰত ত্যাগ আন্দোলনৰ লগত কোন শ্ল'গান জড়িত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Do or Die",
+     "as": "কৰা নাইবা মৰা"
+    },
+    {
+     "en": "Swaraj is my birthright",
+     "as": "স্বৰাজ মোৰ জন্মগত অধিকাৰ"
+    },
+    {
+     "en": "Give me blood",
+     "as": "মোক তেজ দিয়া"
+    },
+    {
+     "en": "Inquilab Zindabad",
+     "as": "ইনকিলাব জিন্দাবাদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The slogan 'Do or Die' was associated with the Quit India Movement.",
+    "as": "'কৰা নাইবা মৰা' শ্ল'গান ভাৰত ত্যাগ আন্দোলনৰ লগত জড়িত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-121",
+   "q": {
+    "en": "Where was the Quit India Movement resolution passed?",
+    "as": "ভাৰত ত্যাগ আন্দোলনৰ প্ৰস্তাৱ ক'ত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Bombay session of the AICC",
+     "as": "এআইচিচিৰ বোম্বাই অধিৱেশন"
+    },
+    {
+     "en": "The Lahore session",
+     "as": "লাহোৰ অধিৱেশন"
+    },
+    {
+     "en": "The Nagpur session",
+     "as": "নাগপুৰ অধিৱেশন"
+    },
+    {
+     "en": "The Calcutta session",
+     "as": "কলিকতা অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Quit India Movement resolution was passed at the Bombay session of the AICC.",
+    "as": "ভাৰত ত্যাগ আন্দোলনৰ প্ৰস্তাৱ এআইচিচিৰ বোম্বাই অধিৱেশনত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-122",
+   "q": {
+    "en": "Who gave the slogan 'Inquilab Zindabad'?",
+    "as": "'ইনকিলাব জিন্দাবাদ' শ্ল'গান কেৱে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhagat Singh",
+     "as": "ভগত সিং"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhagat Singh gave the slogan 'Inquilab Zindabad'.",
+    "as": "ভগত সিঙে 'ইনকিলাব জিন্দাবাদ' শ্ল'গান দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-123",
+   "q": {
+    "en": "Who founded the Naujawan Bharat Sabha?",
+    "as": "নৌজোৱান ভাৰত সভা কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhagat Singh",
+     "as": "ভগত সিং"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhagat Singh founded the Naujawan Bharat Sabha.",
+    "as": "ভগত সিঙে নৌজোৱান ভাৰত সভা প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-124",
+   "q": {
+    "en": "Who threw a bomb in the Central Legislative Assembly in 1929?",
+    "as": "১৯২৯ চনত কেন্দ্ৰীয় বিধান সভাত কোনে বোমা নিক্ষেপ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhagat Singh and B. K. Dutt",
+     "as": "ভগত সিং আৰু বি. কে. দত্ত"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhagat Singh and B. K. Dutt threw a bomb in the Central Legislative Assembly in 1929.",
+    "as": "ভগত সিং আৰু বি. কে. দত্তে ১৯২৯ চনত কেন্দ্ৰীয় বিধান সভাত বোমা নিক্ষেপ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-125",
+   "q": {
+    "en": "In which year was Bhagat Singh hanged?",
+    "as": "ভগত সিং কিমান চনত ফাঁচি দিয়া হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1931 CE",
+     "as": "১৯৩১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1929 CE",
+     "as": "১৯২৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1932 CE",
+     "as": "১৯৩২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhagat Singh was hanged in 1931 CE.",
+    "as": "ভগত সিং ১৯৩১ খ্ৰীষ্টাব্দত ফাঁচি দিয়া হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-126",
+   "q": {
+    "en": "Who killed the British officer Saunders?",
+    "as": "ব্ৰিটিছ বিষয়া ছ'ণ্ডাৰ্ছক কোনে হত্যা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhagat Singh",
+     "as": "ভগত সিং"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhagat Singh killed the British officer Saunders.",
+    "as": "ভগত সিঙে ব্ৰিটিছ বিষয়া ছ'ণ্ডাৰ্ছক হত্যা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-127",
+   "q": {
+    "en": "Who was the founder of the Hindustan Socialist Republican Association?",
+    "as": "হিন্দুস্তান ছ'চিয়েলিষ্ট ৰিপাব্লিকান এছ'চিয়েশ্যনৰ প্ৰতিষ্ঠাপক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhagat Singh and others",
+     "as": "ভগত সিং আৰু আনসকল"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhagat Singh and others founded the Hindustan Socialist Republican Association.",
+    "as": "ভগত সিং আৰু আনসকলে হিন্দুস্তান ছ'চিয়েলিষ্ট ৰিপাব্লিকান এছ'চিয়েশ্যন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-128",
+   "q": {
+    "en": "Who was the Viceroy who announced the partition of India?",
+    "as": "ভাৰত বিভাজন ঘোষণা কৰা ভাইচৰয় কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Mountbatten",
+     "as": "লৰ্ড মাউণ্টবেটেন"
+    },
+    {
+     "en": "Lord Wavell",
+     "as": "লৰ্ড ৱেভেল"
+    },
+    {
+     "en": "Lord Linlithgow",
+     "as": "লৰ্ড লিনলিথগো"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Mountbatten was the Viceroy who announced the partition of India.",
+    "as": "লৰ্ড মাউণ্টবেটেন ভাৰত বিভাজন ঘোষণা কৰা ভাইচৰয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-129",
+   "q": {
+    "en": "What was the Mountbatten Plan?",
+    "as": "মাউণ্টবেটেন পৰিকল্পনা কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A plan for the partition of India",
+     "as": "ভাৰত বিভাজনৰ এটা পৰিকল্পনা"
+    },
+    {
+     "en": "A plan for Indian independence without partition",
+     "as": "বিভাজন নোহোৱাকৈ ভাৰত স্বাধীনতাৰ এটা পৰিকল্পনা"
+    },
+    {
+     "en": "A plan for a federal India",
+     "as": "এখন সংঘীয় ভাৰতৰ এটা পৰিকল্পনা"
+    },
+    {
+     "en": "A plan for a united Pakistan",
+     "as": "এক সংযুক্ত পাকিস্তানৰ এটা পৰিকল্পনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mountbatten Plan was a plan for the partition of India, announced in June 1947.",
+    "as": "মাউণ্টবেটেন পৰিকল্পনা ভাৰত বিভাজনৰ এটা পৰিকল্পনা আছিল, ১৯৪৭ চনৰ জুনত ঘোষণা কৰা।"
+   }
+  },
+  {
+   "id": "indian-history-modern-130",
+   "q": {
+    "en": "When did India gain independence?",
+    "as": "ভাৰত কেতিয়া স্বাধীন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "15 August 1947",
+     "as": "১৫ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "26 January 1950",
+     "as": "২৬ জানুৱাৰী ১৯৫০"
+    },
+    {
+     "en": "26 November 1949",
+     "as": "২৬ নৱেম্বৰ ১৯৪৯"
+    },
+    {
+     "en": "31 December 1929",
+     "as": "৩১ ডিচেম্বৰ ১৯২৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "India gained independence on 15 August 1947.",
+    "as": "ভাৰত ১৫ আগষ্ট ১৯৪৭ তাৰিখে স্বাধীন হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-131",
+   "q": {
+    "en": "When did Pakistan gain independence?",
+    "as": "পাকিস্তান কেতিয়া স্বাধীন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "14 August 1947",
+     "as": "১৪ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "15 August 1947",
+     "as": "১৫ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "26 January 1950",
+     "as": "২৬ জানুৱাৰী ১৯৫০"
+    },
+    {
+     "en": "23 March 1940",
+     "as": "২৩ মাৰ্চ ১৯৪০"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pakistan gained independence on 14 August 1947.",
+    "as": "পাকিস্তান ১৪ আগষ্ট ১৯৪৭ তাৰিখে স্বাধীন হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-132",
+   "q": {
+    "en": "Who was the first Prime Minister of India?",
+    "as": "ভাৰতৰ প্ৰথম প্ৰধানমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    },
+    {
+     "en": "Rajendra Prasad",
+     "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jawaharlal Nehru was the first Prime Minister of India.",
+    "as": "জৱাহৰলাল নেহৰু ভাৰতৰ প্ৰথম প্ৰধানমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-133",
+   "q": {
+    "en": "Who was the first President of India?",
+    "as": "ভাৰতৰ প্ৰথম ৰাষ্ট্ৰপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Rajendra Prasad",
+     "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    },
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rajendra Prasad was the first President of India.",
+    "as": "ৰাজেন্দ্ৰ প্ৰসাদ ভাৰতৰ প্ৰথম ৰাষ্ট্ৰপতি আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-134",
+   "q": {
+    "en": "Who was the first Governor-General of independent India?",
+    "as": "স্বাধীন ভাৰতৰ প্ৰথম গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Mountbatten",
+     "as": "লৰ্ড মাউণ্টবেটেন"
+    },
+    {
+     "en": "C. Rajagopalachari",
+     "as": "চি. ৰাজগোপালাচাৰী"
+    },
+    {
+     "en": "Rajendra Prasad",
+     "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Mountbatten was the first Governor-General of independent India.",
+    "as": "লৰ্ড মাউণ্টবেটেন স্বাধীন ভাৰতৰ প্ৰথম গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-135",
+   "q": {
+    "en": "Who was the last Governor-General of India?",
+    "as": "ভাৰতৰ শেষ গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "C. Rajagopalachari",
+     "as": "চি. ৰাজগোপালাচাৰী"
+    },
+    {
+     "en": "Lord Mountbatten",
+     "as": "লৰ্ড মাউণ্টবেটেন"
+    },
+    {
+     "en": "Rajendra Prasad",
+     "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "C. Rajagopalachari was the last Governor-General of India.",
+    "as": "চি. ৰাজগোপালাচাৰী ভাৰতৰ শেষ গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-136",
+   "q": {
+    "en": "When did the Indian Constitution come into force?",
+    "as": "ভাৰতৰ সংবিধান কেতিয়া বলবৎ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "26 January 1950",
+     "as": "২৬ জানুৱাৰী ১৯৫০"
+    },
+    {
+     "en": "26 November 1949",
+     "as": "২৬ নৱেম্বৰ ১৯৪৯"
+    },
+    {
+     "en": "15 August 1947",
+     "as": "১৫ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "31 December 1929",
+     "as": "৩১ ডিচেম্বৰ ১৯২৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Constitution came into force on 26 January 1950.",
+    "as": "ভাৰতৰ সংবিধান ২৬ জানুৱাৰী ১৯৫০ তাৰিখে বলবৎ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-137",
+   "q": {
+    "en": "When was the Indian Constitution adopted?",
+    "as": "ভাৰতৰ সংবিধান কেতিয়া গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "26 November 1949",
+     "as": "২৬ নৱেম্বৰ ১৯৪৯"
+    },
+    {
+     "en": "26 January 1950",
+     "as": "২৬ জানুৱাৰী ১৯৫০"
+    },
+    {
+     "en": "15 August 1947",
+     "as": "১৫ আগষ্ট ১৯৪৭"
+    },
+    {
+     "en": "31 December 1929",
+     "as": "৩১ ডিচেম্বৰ ১৯২৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Constitution was adopted on 26 November 1949.",
+    "as": "ভাৰতৰ সংবিধান ২৬ নৱেম্বৰ ১৯৪৯ তাৰিখে গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-138",
+   "q": {
+    "en": "Who was the chairman of the Drafting Committee of the Indian Constitution?",
+    "as": "ভাৰতৰ সংবিধানৰ খচৰা সমিতিৰ অধ্যক্ষ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Rajendra Prasad",
+     "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B. R. Ambedkar was the chairman of the Drafting Committee of the Indian Constitution.",
+    "as": "বি. আৰ. আম্বেদকাৰ ভাৰতৰ সংবিধানৰ খচৰা সমিতিৰ অধ্যক্ষ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-139",
+   "q": {
+    "en": "Who is known as the 'Father of the Indian Constitution'?",
+    "as": "কাক 'ভাৰতৰ সংবিধানৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Rajendra Prasad",
+     "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B. R. Ambedkar is known as the Father of the Indian Constitution.",
+    "as": "বি. আৰ. আম্বেদকাৰক ভাৰতৰ সংবিধানৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-140",
+   "q": {
+    "en": "Which movement led to the partition of Bengal in 1947?",
+    "as": "কোন আন্দোলনে ১৯৪৭ চনত বংগ বিভাজনলৈ লৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The demand for Pakistan",
+     "as": "পাকিস্তানৰ দাবী"
+    },
+    {
+     "en": "The Quit India Movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Non-Cooperation Movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Civil Disobedience Movement",
+     "as": "আইন অমান্য আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The demand for Pakistan led to the partition of Bengal in 1947.",
+    "as": "পাকিস্তানৰ দাবীয়ে ১৯৪৭ চনত বংগ বিভাজনলৈ লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-141",
+   "q": {
+    "en": "Which day is observed as Independence Day in India?",
+    "as": "ভাৰতত কোন দিনটো স্বাধীনতা দিৱস হিচাপে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "15 August",
+     "as": "১৫ আগষ্ট"
+    },
+    {
+     "en": "26 January",
+     "as": "২৬ জানুৱাৰী"
+    },
+    {
+     "en": "26 November",
+     "as": "২৬ নৱেম্বৰ"
+    },
+    {
+     "en": "2 October",
+     "as": "২ অক্টোবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "15 August is observed as Independence Day in India.",
+    "as": "১৫ আগষ্ট ভাৰতত স্বাধীনতা দিৱস হিচাপে পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-142",
+   "q": {
+    "en": "Which day is observed as Republic Day in India?",
+    "as": "ভাৰতত কোন দিনটো গণৰাজ্য দিৱস হিচাপে পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "26 January",
+     "as": "২৬ জানুৱাৰী"
+    },
+    {
+     "en": "15 August",
+     "as": "১৫ আগষ্ট"
+    },
+    {
+     "en": "26 November",
+     "as": "২৬ নৱেম্বৰ"
+    },
+    {
+     "en": "2 October",
+     "as": "২ অক্টোবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "26 January is observed as Republic Day in India.",
+    "as": "২৬ জানুৱাৰী ভাৰতত গণৰাজ্য দিৱস হিচাপে পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-143",
+   "q": {
+    "en": "Who founded the Prarthana Samaj?",
+    "as": "প্ৰাৰ্থনা সমাজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Atmaram Pandurang",
+     "as": "আত্মাৰাম পাণ্ডুৰংগ"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Atmaram Pandurang founded the Prarthana Samaj in 1867.",
+    "as": "আত্মাৰাম পাণ্ডুৰংগে ১৮৬৭ চনত প্ৰাৰ্থনা সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-144",
+   "q": {
+    "en": "Who founded the Sadharan Brahmo Samaj?",
+    "as": "সাধাৰণ ব্ৰাহ্ম সমাজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Anand Mohan Bose",
+     "as": "আনন্দমোহন বসু"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Keshab Chandra Sen",
+     "as": "কেশৱ চন্দ্ৰ সেন"
+    },
+    {
+     "en": "Debendranath Tagore",
+     "as": "দেবেন্দ্ৰনাথ ঠাকুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Anand Mohan Bose founded the Sadharan Brahmo Samaj.",
+    "as": "আনন্দমোহন বসুৱে সাধাৰণ ব্ৰাহ্ম সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-145",
+   "q": {
+    "en": "Who founded the Young Bengal Movement?",
+    "as": "ইয়ং বেংগল আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Henry Vivian Derozio",
+     "as": "হেনৰী ভিভিয়ান ডেৰ'জিঅ'"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    },
+    {
+     "en": "Keshab Chandra Sen",
+     "as": "কেশৱ চন্দ্ৰ সেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Henry Vivian Derozio founded the Young Bengal Movement.",
+    "as": "হেনৰী ভিভিয়ান ডেৰ'জিঅ'ই ইয়ং বেংগল আন্দোলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-146",
+   "q": {
+    "en": "Who is known for the Widow Remarriage movement?",
+    "as": "বিধবা বিবাহ আন্দোলনৰ বাবে কোন জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ishwar Chandra Vidyasagar is known for the Widow Remarriage movement.",
+    "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ বিধবা বিবাহ আন্দোলনৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-147",
+   "q": {
+    "en": "Who is known as 'Vidyasagar'?",
+    "as": "কাক 'বিদ্যাসাগৰ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Ishwar Chandra Bandyopadhyay",
+     "as": "ঈশ্বৰ চন্দ্ৰ বন্দ্যোপাধ্যায়"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ishwar Chandra Bandyopadhyay is known as Vidyasagar.",
+    "as": "ঈশ্বৰ চন্দ্ৰ বন্দ্যোপাধ্যায়ক বিদ্যাসাগৰ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-148",
+   "q": {
+    "en": "Who founded the Brahmo Samaj of India?",
+    "as": "ভাৰতৰ ব্ৰাহ্ম সমাজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Keshab Chandra Sen",
+     "as": "কেশৱ চন্দ্ৰ সেন"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Debendranath Tagore",
+     "as": "দেবেন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Anand Mohan Bose",
+     "as": "আনন্দমোহন বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Keshab Chandra Sen founded the Brahmo Samaj of India.",
+    "as": "কেশৱ চন্দ্ৰ সেনে ভাৰতৰ ব্ৰাহ্ম সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-149",
+   "q": {
+    "en": "Who founded the Ramakrishna Math?",
+    "as": "ৰামকৃষ্ণ মঠ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Swami Vivekananda",
+     "as": "স্বামী বিবেকানন্দ"
+    },
+    {
+     "en": "Ramakrishna Paramahamsa",
+     "as": "ৰামকৃষ্ণ পৰমহংস"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Swami Vivekananda founded the Ramakrishna Math.",
+    "as": "স্বামী বিবেকানন্দে ৰামকৃষ্ণ মঠ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-150",
+   "q": {
+    "en": "In which year did Swami Vivekananda address the Parliament of Religions?",
+    "as": "স্বামী বিবেকানন্দে কিমান চনত ধৰ্ম মহাসভাত ভাষণ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "1893 CE",
+     "as": "১৮৯৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1897 CE",
+     "as": "১৮৯৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1885 CE",
+     "as": "১৮৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Swami Vivekananda addressed the Parliament of Religions at Chicago in 1893.",
+    "as": "স্বামী বিবেকানন্দে ১৮৯৩ চনত চিকাগোত ধৰ্ম মহাসভাত ভাষণ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-151",
+   "q": {
+    "en": "Where did Swami Vivekananda address the Parliament of Religions?",
+    "as": "স্বামী বিবেকানন্দে ক'ত ধৰ্ম মহাসভাত ভাষণ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chicago",
+     "as": "চিকাগো"
+    },
+    {
+     "en": "London",
+     "as": "লণ্ডন"
+    },
+    {
+     "en": "New York",
+     "as": "নিউয়ৰ্ক"
+    },
+    {
+     "en": "Paris",
+     "as": "পেৰিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Swami Vivekananda addressed the Parliament of Religions at Chicago.",
+    "as": "স্বামী বিবেকানন্দে চিকাগোত ধৰ্ম মহাসভাত ভাষণ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-152",
+   "q": {
+    "en": "Who founded the Deccan Education Society?",
+    "as": "ডেকান এডুকেশ্যন ছ'চাইটি কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Gopal Ganesh Agarkar",
+     "as": "গোপাল গণেশ আগৰকৰ"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gopal Ganesh Agarkar founded the Deccan Education Society.",
+    "as": "গোপাল গণেশ আগৰকৰে ডেকান এডুকেশ্যন ছ'চাইটি প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-153",
+   "q": {
+    "en": "Who founded the Arya Samaj's DAV schools?",
+    "as": "আৰ্য সমাজৰ ডিএভি বিদ্যালয় কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Swami Dayanand Saraswati",
+     "as": "স্বামী দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Lala Hansraj",
+     "as": "লালা হংসৰাজ"
+    },
+    {
+     "en": "Swami Shraddhanand",
+     "as": "স্বামী শ্ৰদ্ধানন্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Swami Dayanand Saraswati founded the Arya Samaj, which later established DAV schools.",
+    "as": "স্বামী দয়ানন্দ সৰস্বতীয়ে আৰ্য সমাজ প্ৰতিষ্ঠা কৰিছিল, যিয়ে পিছত ডিএভি বিদ্যালয় স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-154",
+   "q": {
+    "en": "Who was the founder of the Shuddhi movement?",
+    "as": "শুদ্ধি আন্দোলনৰ প্ৰতিষ্ঠাপক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Swami Shraddhanand",
+     "as": "স্বামী শ্ৰদ্ধানন্দ"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Keshab Chandra Sen",
+     "as": "কেশৱ চন্দ্ৰ সেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Swami Shraddhanand was the founder of the Shuddhi movement.",
+    "as": "স্বামী শ্ৰদ্ধানন্দ শুদ্ধি আন্দোলনৰ প্ৰতিষ্ঠাপক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-155",
+   "q": {
+    "en": "Who founded the Dev Samaj?",
+    "as": "দেৱ সমাজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Shiv Narayan Agnihotri",
+     "as": "শিৱ নাৰায়ণ অগ্নিহোত্ৰী"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Keshab Chandra Sen",
+     "as": "কেশৱ চন্দ্ৰ সেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Shiv Narayan Agnihotri founded the Dev Samaj.",
+    "as": "শিৱ নাৰায়ণ অগ্নিহোত্ৰীয়ে দেৱ সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-156",
+   "q": {
+    "en": "Who founded the Radhaswami Satsang?",
+    "as": "ৰাধাস্বামী সৎসংগ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Tulsi Ram",
+     "as": "তুলসী ৰাম"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Keshab Chandra Sen",
+     "as": "কেশৱ চন্দ্ৰ সেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tulsi Ram founded the Radhaswami Satsang.",
+    "as": "তুলসী ৰামে ৰাধাস্বামী সৎসংগ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-157",
+   "q": {
+    "en": "Who founded the Self-Respect Movement?",
+    "as": "আত্ম-সন্মান আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "E. V. Ramaswami Naicker",
+     "as": "ই. ভি. ৰামস্বামী নাইকৰ"
+    },
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jyotirao Phule",
+     "as": "জ্যোতিবা ফুলে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "E. V. Ramaswami Naicker (Periyar) founded the Self-Respect Movement.",
+    "as": "ই. ভি. ৰামস্বামী নাইকৰ (পেৰিয়াৰ) আত্ম-সন্মান আন্দোলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-158",
+   "q": {
+    "en": "Who founded the Satyashodhak Samaj?",
+    "as": "সত্যশোধক সমাজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jyotirao Phule",
+     "as": "জ্যোতিবা ফুলে"
+    },
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "E. V. Ramaswami",
+     "as": "ই. ভি. ৰামস্বামী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jyotirao Phule founded the Satyashodhak Samaj in 1873.",
+    "as": "জ্যোতিবা ফুলে ১৮৭৩ চনত সত্যশোধক সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-159",
+   "q": {
+    "en": "Who wrote the book 'Gulamgiri'?",
+    "as": "'গুলামগিৰি' গ্ৰন্থ কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jyotirao Phule",
+     "as": "জ্যোতিবা ফুলে"
+    },
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jyotirao Phule wrote the book Gulamgiri.",
+    "as": "জ্যোতিবা ফুলে গুলামগিৰি গ্ৰন্থ লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-160",
+   "q": {
+    "en": "Who founded the Muhammadan Educational Conference?",
+    "as": "মুহম্মদান এডুকেশ্যনেল কনফাৰেন্স কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sir Syed Ahmed Khan",
+     "as": "ছাৰ চৈয়দ আহমদ খান"
+    },
+    {
+     "en": "Muhammad Ali Jinnah",
+     "as": "মুহম্মদ আলী জিন্নাহ"
+    },
+    {
+     "en": "Liaquat Ali Khan",
+     "as": "লিয়াকত আলী খান"
+    },
+    {
+     "en": "Aga Khan",
+     "as": "আগা খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sir Syed Ahmed Khan founded the Muhammadan Educational Conference.",
+    "as": "ছাৰ চৈয়দ আহমদ খানে মুহম্মদান এডুকেশ্যনেল কনফাৰেন্স প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-161",
+   "q": {
+    "en": "Who wrote the book 'Discovery of India'?",
+    "as": "'ডিস্কভাৰী অৱ ইণ্ডিয়া' গ্ৰন্থ কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jawaharlal Nehru wrote the book Discovery of India.",
+    "as": "জৱাহৰলাল নেহৰুৱে ডিস্কভাৰী অৱ ইণ্ডিয়া গ্ৰন্থ লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-162",
+   "q": {
+    "en": "Who wrote the book 'Hind Swaraj'?",
+    "as": "'হিন্দ স্বৰাজ' গ্ৰন্থ কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi wrote the book Hind Swaraj.",
+    "as": "মহাত্মা গান্ধীয়ে হিন্দ স্বৰাজ গ্ৰন্থ লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-163",
+   "q": {
+    "en": "Who wrote the national anthem 'Jana Gana Mana'?",
+    "as": "ৰাষ্ট্ৰীয় সংগীত 'জন গণ মন' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Bankim Chandra Chatterjee",
+     "as": "বঙ্কিম চন্দ্ৰ চট্টোপাধ্যায়"
+    },
+    {
+     "en": "Muhammad Iqbal",
+     "as": "মুহম্মদ ইকবাল"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rabindranath Tagore wrote the national anthem 'Jana Gana Mana'.",
+    "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে ৰাষ্ট্ৰীয় সংগীত 'জন গণ মন' লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-164",
+   "q": {
+    "en": "Who wrote 'Vande Mataram'?",
+    "as": "'বন্দে মাতৰম' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bankim Chandra Chatterjee",
+     "as": "বঙ্কিম চন্দ্ৰ চট্টোপাধ্যায়"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Muhammad Iqbal",
+     "as": "মুহম্মদ ইকবাল"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bankim Chandra Chatterjee wrote 'Vande Mataram'.",
+    "as": "বঙ্কিম চন্দ্ৰ চট্টোপাধ্যায়ে 'বন্দে মাতৰম' লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-165",
+   "q": {
+    "en": "Who is known as the 'Nightingale of India'?",
+    "as": "কাক 'ভাৰতৰ কোকিল' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Kamala Nehru",
+     "as": "কমলা নেহৰু"
+    },
+    {
+     "en": "Aruna Asaf Ali",
+     "as": "অৰুণা আসাফ আলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarojini Naidu is known as the Nightingale of India.",
+    "as": "সৰোজিনী নাইডুক ভাৰতৰ কোকিল বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-166",
+   "q": {
+    "en": "Who was the first woman president of the Indian National Congress?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম মহিলা সভাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Kamala Nehru",
+     "as": "কমলা নেহৰু"
+    },
+    {
+     "en": "Aruna Asaf Ali",
+     "as": "অৰুণা আসাফ আলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Annie Besant was the first woman president of the Indian National Congress.",
+    "as": "এনি বেছাণ্ট ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম মহিলা সভাপতি আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-167",
+   "q": {
+    "en": "Who was the first Indian woman president of the Indian National Congress?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম ভাৰতীয় মহিলা সভাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Kamala Nehru",
+     "as": "কমলা নেহৰু"
+    },
+    {
+     "en": "Aruna Asaf Ali",
+     "as": "অৰুণা আসাফ আলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarojini Naidu was the first Indian woman president of the Indian National Congress.",
+    "as": "সৰোজিনী নাইডু ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম ভাৰতীয় মহিলা সভাপতি আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-168",
+   "q": {
+    "en": "Who led the Salt Satyagraha at Dharasana?",
+    "as": "ধৰাছানাত লৱণ সত্যাগ্ৰহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarojini Naidu led the Salt Satyagraha at Dharasana.",
+    "as": "সৰোজিনী নাইডুৱে ধৰাছানাত লৱণ সত্যাগ্ৰহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-169",
+   "q": {
+    "en": "Who founded the Banaras Hindu University?",
+    "as": "বনাৰস হিন্দু বিশ্ববিদ্যালয় কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Madan Mohan Malaviya",
+     "as": "মদন মোহন মালৱীয়"
+    },
+    {
+     "en": "Pandit Ishwar Chandra",
+     "as": "পণ্ডিত ঈশ্বৰ চন্দ্ৰ"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Madan Mohan Malaviya founded the Banaras Hindu University.",
+    "as": "মদন মোহন মালৱীয়ে বনাৰস হিন্দু বিশ্ববিদ্যালয় প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-170",
+   "q": {
+    "en": "Who founded the Central Hindu College at Banaras?",
+    "as": "বনাৰসত কেন্দ্ৰীয় হিন্দু কলেজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Madan Mohan Malaviya",
+     "as": "মদন মোহন মালৱীয়"
+    },
+    {
+     "en": "Pandit Ishwar Chandra",
+     "as": "পণ্ডিত ঈশ্বৰ চন্দ্ৰ"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Annie Besant founded the Central Hindu College at Banaras.",
+    "as": "এনি বেছাণ্টে বনাৰসত কেন্দ্ৰীয় হিন্দু কলেজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-171",
+   "q": {
+    "en": "Who founded the Visva-Bharati University?",
+    "as": "বিশ্বভাৰতী বিশ্ববিদ্যালয় কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Madan Mohan Malaviya",
+     "as": "মদন মোহন মালৱীয়"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rabindranath Tagore founded the Visva-Bharati University at Santiniketan.",
+    "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে শান্তিনিকেতনত বিশ্বভাৰতী বিশ্ববিদ্যালয় প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-172",
+   "q": {
+    "en": "Who was the first Indian to win a Nobel Prize?",
+    "as": "নোবেল বঁটা জয় কৰা প্ৰথম ভাৰতীয় কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "C. V. Raman",
+     "as": "চি. ভি. ৰমন"
+    },
+    {
+     "en": "Mother Teresa",
+     "as": "মাদাৰ টেৰেছা"
+    },
+    {
+     "en": "Amartya Sen",
+     "as": "অমৰ্ত্য সেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rabindranath Tagore was the first Indian to win a Nobel Prize.",
+    "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ নোবেল বঁটা জয় কৰা প্ৰথম ভাৰতীয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-173",
+   "q": {
+    "en": "In which year did Rabindranath Tagore win the Nobel Prize?",
+    "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে কিমান চনত নোবেল বঁটা জয় কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1913 CE",
+     "as": "১৯১৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1901 CE",
+     "as": "১৯০১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rabindranath Tagore won the Nobel Prize in 1913 CE.",
+    "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে ১৯১৩ খ্ৰীষ্টাব্দত নোবেল বঁটা জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-174",
+   "q": {
+    "en": "Who founded the newspaper 'Bengalee'?",
+    "as": "'বেংগলী' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Surendranath Banerjee founded the newspaper Bengalee.",
+    "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জীয়ে বেংগলী বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-175",
+   "q": {
+    "en": "Who is known as the 'Rashtraguru'?",
+    "as": "কাক 'ৰাষ্ট্ৰগুৰু' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Surendranath Banerjee is known as the Rashtraguru.",
+    "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জীক ৰাষ্ট্ৰগুৰু বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-176",
+   "q": {
+    "en": "Who founded the newspaper 'Amrita Bazar Patrika'?",
+    "as": "'অমৃত বাজাৰ পত্ৰিকা' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sisir Kumar Ghosh",
+     "as": "শিশিৰ কুমাৰ ঘোষ"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sisir Kumar Ghosh founded the newspaper Amrita Bazar Patrika.",
+    "as": "শিশিৰ কুমাৰ ঘোষে অমৃত বাজাৰ পত্ৰিকা বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-177",
+   "q": {
+    "en": "Who founded the newspaper 'The Hindu'?",
+    "as": "'দ্য হিন্দু' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "G. Subramania Iyer",
+     "as": "জি. সুব্ৰমণ্য আইয়াৰ"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "G. Subramania Iyer founded the newspaper The Hindu.",
+    "as": "জি. সুব্ৰমণ্য আইয়াৰে দ্য হিন্দু বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-178",
+   "q": {
+    "en": "Who founded the newspaper 'Young India'?",
+    "as": "'ইয়ং ইণ্ডিয়া' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi founded the newspaper Young India.",
+    "as": "মহাত্মা গান্ধীয়ে ইয়ং ইণ্ডিয়া বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-179",
+   "q": {
+    "en": "Who founded the newspaper 'Harijan'?",
+    "as": "'হৰিজন' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi founded the newspaper Harijan.",
+    "as": "মহাত্মা গান্ধীয়ে হৰিজন বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-180",
+   "q": {
+    "en": "Who founded the newspaper 'Mooknayak'?",
+    "as": "'মূকনায়ক' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "B. R. Ambedkar",
+     "as": "বি. আৰ. আম্বেদকাৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jyotirao Phule",
+     "as": "জ্যোতিবা ফুলে"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B. R. Ambedkar founded the newspaper Mooknayak.",
+    "as": "বি. আৰ. আম্বেদকাৰে মূকনায়ক বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-181",
+   "q": {
+    "en": "Which was the first Indian newspaper?",
+    "as": "প্ৰথম ভাৰতীয় বাতৰি কাকত কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Bengal Gazette",
+     "as": "দ্য বেংগল গেজেট"
+    },
+    {
+     "en": "The Hindu",
+     "as": "দ্য হিন্দু"
+    },
+    {
+     "en": "Kesari",
+     "as": "কেশৰী"
+    },
+    {
+     "en": "Amrita Bazar Patrika",
+     "as": "অমৃত বাজাৰ পত্ৰিকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bengal Gazette, started by James Augustus Hickey, was the first newspaper in India.",
+    "as": "জেমছ অগাষ্টাছ হিকিয়ে আৰম্ভ কৰা দ্য বেংগল গেজেট ভাৰতৰ প্ৰথম বাতৰি কাকত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-182",
+   "q": {
+    "en": "Who started the first newspaper in India?",
+    "as": "ভাৰতত প্ৰথম বাতৰি কাকত কোনে আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "James Augustus Hickey",
+     "as": "জেমছ অগাষ্টাছ হিকি"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "James Augustus Hickey started the first newspaper in India, the Bengal Gazette.",
+    "as": "জেমছ অগাষ্টাছ হিকিয়ে ভাৰতত প্ৰথম বাতৰি কাকত, দ্য বেংগল গেজেট, আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-183",
+   "q": {
+    "en": "In which year was the first newspaper published in India?",
+    "as": "ভাৰতত প্ৰথম বাতৰি কাকত কিমান চনত প্ৰকাশিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1780 CE",
+     "as": "১৭৮০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1757 CE",
+     "as": "১৭৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1764 CE",
+     "as": "১৭৬৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1813 CE",
+     "as": "১৮১৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first newspaper in India was published in 1780 CE.",
+    "as": "ভাৰতত প্ৰথম বাতৰি কাকত ১৭৮০ খ্ৰীষ্টাব্দত প্ৰকাশিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-184",
+   "q": {
+    "en": "Who founded the Hindu College at Calcutta?",
+    "as": "কলিকতাত হিন্দু কলেজ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Raja Ram Mohan Roy and others",
+     "as": "ৰাজা ৰামমোহন ৰায় আৰু আনসকল"
+    },
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Madan Mohan Malaviya",
+     "as": "মদন মোহন মালৱীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raja Ram Mohan Roy and others founded the Hindu College at Calcutta.",
+    "as": "ৰাজা ৰামমোহন ৰায় আৰু আনসকলে কলিকতাত হিন্দু কলেজ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-185",
+   "q": {
+    "en": "Which was the first university established in India?",
+    "as": "ভাৰতত প্ৰতিষ্ঠিত প্ৰথম বিশ্ববিদ্যালয় কোনখন আছিল?"
+   },
+   "options": [
+    {
+     "en": "The University of Calcutta",
+     "as": "কলিকতা বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "The University of Madras",
+     "as": "মাদ্ৰাজ বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "The University of Bombay",
+     "as": "বোম্বাই বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "The Banaras Hindu University",
+     "as": "বনাৰস হিন্দু বিশ্ববিদ্যালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The University of Calcutta was the first university established in India in 1857.",
+    "as": "১৮৫৭ চনত কলিকতা বিশ্ববিদ্যালয় ভাৰতত প্ৰতিষ্ঠিত প্ৰথম বিশ্ববিদ্যালয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-186",
+   "q": {
+    "en": "In which year were the first three universities established in India?",
+    "as": "ভাৰতত প্ৰথম তিনিখন বিশ্ববিদ্যালয় কিমান চনত প্ৰতিষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1813 CE",
+     "as": "১৮১৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1835 CE",
+     "as": "১৮৩৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1885 CE",
+     "as": "১৮৮৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first three universities in India were established in 1857 CE.",
+    "as": "ভাৰতত প্ৰথম তিনিখন বিশ্ববিদ্যালয় ১৮৫৭ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-187",
+   "q": {
+    "en": "Which British official is associated with the introduction of English education in India?",
+    "as": "ভাৰতত ইংৰাজী শিক্ষা প্ৰৱৰ্তনৰ লগত কোন ব্ৰিটিছ বিষয়া জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Thomas Babington Macaulay",
+     "as": "থমাছ বেবিংটন মেকলে"
+    },
+    {
+     "en": "Lord William Bentinck",
+     "as": "লৰ্ড উইলিয়াম বেণ্টিংক"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Thomas Babington Macaulay is associated with the introduction of English education in India.",
+    "as": "থমাছ বেবিংটন মেকলে ভাৰতত ইংৰাজী শিক্ষা প্ৰৱৰ্তনৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "indian-history-modern-188",
+   "q": {
+    "en": "Who wrote the 'Minute on Indian Education'?",
+    "as": "'মিনিট অন ইণ্ডিয়ান এডুকেশন' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Thomas Babington Macaulay",
+     "as": "থমাছ বেবিংটন মেকলে"
+    },
+    {
+     "en": "Lord William Bentinck",
+     "as": "লৰ্ড উইলিয়াম বেণ্টিংক"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Warren Hastings",
+     "as": "ৱাৰেন হেষ্টিংছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Thomas Babington Macaulay wrote the Minute on Indian Education.",
+    "as": "থমাছ বেবিংটন মেকলেয়ে মিনিট অন ইণ্ডিয়ান এডুকেশন লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-189",
+   "q": {
+    "en": "Which of the following was a feature of the British education policy in India?",
+    "as": "তলৰ কোনটো ভাৰতত ব্ৰিটিছ শিক্ষা নীতিৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The promotion of English education",
+     "as": "ইংৰাজী শিক্ষাৰ প্ৰসাৰ"
+    },
+    {
+     "en": "The promotion of Sanskrit only",
+     "as": "কেৱল সংস্কৃতৰ প্ৰসাৰ"
+    },
+    {
+     "en": "The promotion of vernacular only",
+     "as": "কেৱল দেশজ ভাষাৰ প্ৰসাৰ"
+    },
+    {
+     "en": "The promotion of technical education only",
+     "as": "কেৱল কাৰিকৰী শিক্ষাৰ প্ৰসাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British education policy in India promoted English education.",
+    "as": "ভাৰতত ব্ৰিটিছ শিক্ষা নীতিয়ে ইংৰাজী শিক্ষাৰ প্ৰসাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-190",
+   "q": {
+    "en": "What economic feature marked British rule in India?",
+    "as": "ভাৰতত ব্ৰিটিছ শাসনত কোন অৰ্থনৈতিক বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The drain of wealth from India to Britain",
+     "as": "ভাৰতৰ পৰা ব্ৰিটেইনলৈ ধনৰ ক্ষৰণ"
+    },
+    {
+     "en": "The transfer of wealth to India",
+     "as": "ভাৰতলৈ ধনৰ স্থানান্তৰ"
+    },
+    {
+     "en": "The end of trade",
+     "as": "বাণিজ্যৰ অন্ত"
+    },
+    {
+     "en": "The end of agriculture",
+     "as": "কৃষিৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The drain of wealth from India to Britain was a feature of British rule.",
+    "as": "ভাৰতৰ পৰা ব্ৰিটেইনলৈ ধনৰ ক্ষৰণ ব্ৰিটিছ শাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-191",
+   "q": {
+    "en": "Who wrote the book 'Poverty and Un-British Rule in India'?",
+    "as": "'পভাৰ্টি এণ্ড আন-ব্ৰিটিছ ৰুল ইন ইণ্ডিয়া' গ্ৰন্থ কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "R. C. Dutt",
+     "as": "আৰ. চি. দত্ত"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dadabhai Naoroji wrote the book Poverty and Un-British Rule in India.",
+    "as": "দাদাভাই নৌৰজীয়ে পভাৰ্টি এণ্ড আন-ব্ৰিটিছ ৰুল ইন ইণ্ডিয়া গ্ৰন্থ লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-192",
+   "q": {
+    "en": "Who wrote the book 'Economic History of India'?",
+    "as": "'ইকনমিক হিষ্ট্ৰী অৱ ইণ্ডিয়া' গ্ৰন্থ কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "R. C. Dutt",
+     "as": "আৰ. চি. দত্ত"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "R. C. Dutt wrote the book Economic History of India.",
+    "as": "আৰ. চি. দত্তই ইকনমিক হিষ্ট্ৰী অৱ ইণ্ডিয়া গ্ৰন্থ লিখিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-193",
+   "q": {
+    "en": "What is the 'drain theory'?",
+    "as": "'ক্ষৰণ তত্ত্ব' কি?"
+   },
+   "options": [
+    {
+     "en": "The theory that British rule drained India's wealth",
+     "as": "ব্ৰিটিছ শাসনে ভাৰতৰ ধন ক্ষৰণ কৰিছিল বুলি তত্ত্ব"
+    },
+    {
+     "en": "The theory that India drained British wealth",
+     "as": "ভাৰতে ব্ৰিটিছ ধন ক্ষৰণ কৰিছিল বুলি তত্ত্ব"
+    },
+    {
+     "en": "The theory that trade drained both countries",
+     "as": "বাণিজ্যই দুয়ো দেশৰ ধন ক্ষৰণ কৰিছিল বুলি তত্ত্ব"
+    },
+    {
+     "en": "The theory that agriculture drained wealth",
+     "as": "কৃষিয়ে ধন ক্ষৰণ কৰিছিল বুলি তত্ত্ব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The drain theory held that British rule drained India's wealth to Britain.",
+    "as": "ক্ষৰণ তত্ত্বই কৈছিল যে ব্ৰিটিছ শাসনে ভাৰতৰ ধন ব্ৰিটেইনলৈ ক্ষৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-194",
+   "q": {
+    "en": "Which of the following was a feature of the British revenue system?",
+    "as": "তলৰ কোনটো ব্ৰিটিছ ৰাজহ ব্যৱস্থাৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "High land revenue demand",
+     "as": "উচ্চ ভূমি ৰাজহ দাবী"
+    },
+    {
+     "en": "Low land revenue demand",
+     "as": "নিম্ন ভূমি ৰাজহ দাবী"
+    },
+    {
+     "en": "No land revenue",
+     "as": "ভূমি ৰাজহ নাই"
+    },
+    {
+     "en": "Abolition of land revenue",
+     "as": "ভূমি ৰাজহৰ বিলুপ্তি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "High land revenue demand was a feature of the British revenue system.",
+    "as": "উচ্চ ভূমি ৰাজহ দাবী ব্ৰিটিছ ৰাজহ ব্যৱস্থাৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-195",
+   "q": {
+    "en": "Which of the following was a feature of the British industrial policy?",
+    "as": "তলৰ কোনটো ব্ৰিটিছ উদ্যোগ নীতিৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The decline of Indian handicrafts",
+     "as": "ভাৰতীয় হস্তশিল্পৰ অৱনতি"
+    },
+    {
+     "en": "The growth of Indian handicrafts",
+     "as": "ভাৰতীয় হস্তশিল্পৰ বিকাশ"
+    },
+    {
+     "en": "The growth of Indian industry",
+     "as": "ভাৰতীয় উদ্যোগৰ বিকাশ"
+    },
+    {
+     "en": "The end of trade",
+     "as": "বাণিজ্যৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The decline of Indian handicrafts was a feature of the British industrial policy.",
+    "as": "ভাৰতীয় হস্তশিল্পৰ অৱনতি ব্ৰিটিছ উদ্যোগ নীতিৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-196",
+   "q": {
+    "en": "Which of the following was a feature of the British administration?",
+    "as": "তলৰ কোনটো ব্ৰিটিছ প্ৰশাসনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "Centralisation of power",
+     "as": "ক্ষমতাৰ কেন্দ্ৰীভৱন"
+    },
+    {
+     "en": "Decentralisation of power",
+     "as": "ক্ষমতাৰ বিকেন্দ্ৰীভৱন"
+    },
+    {
+     "en": "Direct democracy",
+     "as": "প্ৰত্যক্ষ গণতন্ত্ৰ"
+    },
+    {
+     "en": "Rule by elected councils",
+     "as": "নিৰ্বাচিত পৰিষদৰ শাসন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Centralisation of power was a feature of the British administration in India.",
+    "as": "ভাৰতত ব্ৰিটিছ প্ৰশাসনৰ এটা বৈশিষ্ট্য আছিল ক্ষমতাৰ কেন্দ্ৰীভৱন।"
+   }
+  },
+  {
+   "id": "indian-history-modern-197",
+   "q": {
+    "en": "What social feature marked British rule in India?",
+    "as": "ভাৰতত ব্ৰিটিছ শাসনত কোন সামাজিক বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "Racial discrimination",
+     "as": "বৰ্ণ বৈষম্য"
+    },
+    {
+     "en": "Racial equality",
+     "as": "বৰ্ণ সমতা"
+    },
+    {
+     "en": "The end of the caste system",
+     "as": "জাতি ব্যৱস্থাৰ অন্ত"
+    },
+    {
+     "en": "The end of religion",
+     "as": "ধৰ্মৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Racial discrimination was a feature of British rule in India.",
+    "as": "বৰ্ণ বৈষম্য ভাৰতত ব্ৰিটিছ শাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-198",
+   "q": {
+    "en": "Which of the following was a feature of the British legal system in India?",
+    "as": "তলৰ কোনটো ভাৰতত ব্ৰিটিছ আইন ব্যৱস্থাৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The introduction of codified law",
+     "as": "সংহিতাবদ্ধ আইনৰ প্ৰৱৰ্তন"
+    },
+    {
+     "en": "The end of law",
+     "as": "আইনৰ অন্ত"
+    },
+    {
+     "en": "The end of courts",
+     "as": "ন্যায়ালয়ৰ অন্ত"
+    },
+    {
+     "en": "The end of judges",
+     "as": "বিচাৰকৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The introduction of codified law was a feature of the British legal system in India.",
+    "as": "সংহিতাবদ্ধ আইনৰ প্ৰৱৰ্তন ভাৰতত ব্ৰিটিছ আইন ব্যৱস্থাৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-199",
+   "q": {
+    "en": "Which of the following was a feature of the British civil service in India?",
+    "as": "তলৰ কোনটো ভাৰতত ব্ৰিটিছ অসামৰিক সেৱাৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indian Civil Service examination",
+     "as": "ভাৰতীয় অসামৰিক সেৱা পৰীক্ষা"
+    },
+    {
+     "en": "The end of examinations",
+     "as": "পৰীক্ষাৰ অন্ত"
+    },
+    {
+     "en": "The end of officials",
+     "as": "বিষয়াসকলৰ অন্ত"
+    },
+    {
+     "en": "The end of administration",
+     "as": "প্ৰশাসনৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Civil Service examination was a feature of British administration in India.",
+    "as": "ভাৰতীয় অসামৰিক সেৱা পৰীক্ষা ভাৰতত ব্ৰিটিছ প্ৰশাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-200",
+   "q": {
+    "en": "Which of the following was a feature of the British army in India?",
+    "as": "তলৰ কোনটো ভাৰতত ব্ৰিটিছ সেনাৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "A large number of Indian soldiers under British officers",
+     "as": "ব্ৰিটিছ বিষয়াৰ অধীনত বিপুল সংখ্যক ভাৰতীয় সৈনিক"
+    },
+    {
+     "en": "Only British soldiers",
+     "as": "কেৱল ব্ৰিটিছ সৈনিক"
+    },
+    {
+     "en": "Only Indian officers",
+     "as": "কেৱল ভাৰতীয় বিষয়া"
+    },
+    {
+     "en": "No Indian soldiers",
+     "as": "ভাৰতীয় সৈনিক নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A large number of Indian soldiers under British officers was a feature of the British army in India.",
+    "as": "ব্ৰিটিছ বিষয়াৰ অধীনত বিপুল সংখ্যক ভাৰতীয় সৈনিক ভাৰতত ব্ৰিটিছ সেনাৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-201",
+   "q": {
+    "en": "What administrative feature marked British rule in India?",
+    "as": "ভাৰতত ব্ৰিটিছ শাসনত কোন প্ৰশাসনিক বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of modern transport and communication",
+     "as": "আধুনিক পৰিবহণ আৰু যোগাযোগৰ বিকাশ"
+    },
+    {
+     "en": "The end of transport",
+     "as": "পৰিবহণৰ অন্ত"
+    },
+    {
+     "en": "The end of communication",
+     "as": "যোগাযোগৰ অন্ত"
+    },
+    {
+     "en": "The end of trade",
+     "as": "বাণিজ্যৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of modern transport and communication was a feature of British rule in India.",
+    "as": "আধুনিক পৰিবহণ আৰু যোগাযোগৰ বিকাশ ভাৰতত ব্ৰিটিছ শাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-202",
+   "q": {
+    "en": "What infrastructural feature marked British rule in India?",
+    "as": "ভাৰতত ব্ৰিটিছ শাসনত কোন আন্তঃগাঁথনি বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of modern education",
+     "as": "আধুনিক শিক্ষাৰ বিকাশ"
+    },
+    {
+     "en": "The end of education",
+     "as": "শিক্ষাৰ অন্ত"
+    },
+    {
+     "en": "The end of schools",
+     "as": "বিদ্যালয়ৰ অন্ত"
+    },
+    {
+     "en": "The end of universities",
+     "as": "বিশ্ববিদ্যালয়ৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of modern education was a feature of British rule in India.",
+    "as": "আধুনিক শিক্ষাৰ বিকাশ ভাৰতত ব্ৰিটিছ শাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-203",
+   "q": {
+    "en": "What educational feature marked British rule in India?",
+    "as": "ভাৰতত ব্ৰিটিছ শাসনত কোন শিক্ষা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of the modern press",
+     "as": "আধুনিক বাতৰি কাকতৰ বিকাশ"
+    },
+    {
+     "en": "The end of the press",
+     "as": "বাতৰি কাকতৰ অন্ত"
+    },
+    {
+     "en": "The end of printing",
+     "as": "ছপা কামৰ অন্ত"
+    },
+    {
+     "en": "The end of writing",
+     "as": "লিখাৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of the modern press was a feature of British rule in India.",
+    "as": "আধুনিক বাতৰি কাকতৰ বিকাশ ভাৰতত ব্ৰিটিছ শাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-204",
+   "q": {
+    "en": "What political feature marked British rule in India?",
+    "as": "ভাৰতত ব্ৰিটিছ শাসনত কোন ৰাজনৈতিক বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of Indian nationalism",
+     "as": "ভাৰতীয় জাতীয়তাবাদৰ বিকাশ"
+    },
+    {
+     "en": "The end of nationalism",
+     "as": "জাতীয়তাবাদৰ অন্ত"
+    },
+    {
+     "en": "The end of patriotism",
+     "as": "দেশপ্ৰেমৰ অন্ত"
+    },
+    {
+     "en": "The end of politics",
+     "as": "ৰাজনীতিৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of Indian nationalism was a feature of British rule in India.",
+    "as": "ভাৰতীয় জাতীয়তাবাদৰ বিকাশ ভাৰতত ব্ৰিটিছ শাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-205",
+   "q": {
+    "en": "What social movement marked British rule in India?",
+    "as": "ভাৰতত ব্ৰিটিছ শাসনত কোন সামাজিক আন্দোলন আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of social reform movements",
+     "as": "সমাজ সংস্কাৰ আন্দোলনৰ বিকাশ"
+    },
+    {
+     "en": "The end of reform",
+     "as": "সংস্কাৰৰ অন্ত"
+    },
+    {
+     "en": "The end of society",
+     "as": "সমাজৰ অন্ত"
+    },
+    {
+     "en": "The end of religion",
+     "as": "ধৰ্মৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of social reform movements was a feature of British rule in India.",
+    "as": "সমাজ সংস্কাৰ আন্দোলনৰ বিকাশ ভাৰতত ব্ৰিটিছ শাসনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-206",
+   "q": {
+    "en": "What trade pattern did the British economic policy create in India?",
+    "as": "ভাৰতত ব্ৰিটিছ অৰ্থনৈতিক নীতিয়ে কি বাণিজ্য আৰ্হি সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The conversion of India into a market for British goods",
+     "as": "ভাৰতক ব্ৰিটিছ সামগ্ৰীৰ বজাৰলৈ ৰূপান্তৰ"
+    },
+    {
+     "en": "The conversion of Britain into a market for Indian goods",
+     "as": "ব্ৰিটেইনক ভাৰতীয় সামগ্ৰীৰ বজাৰলৈ ৰূপান্তৰ"
+    },
+    {
+     "en": "The end of trade",
+     "as": "বাণিজ্যৰ অন্ত"
+    },
+    {
+     "en": "The end of industry",
+     "as": "উদ্যোগৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The conversion of India into a market for British goods was a feature of the British economic policy.",
+    "as": "ভাৰতক ব্ৰিটিছ সামগ্ৰীৰ বজাৰলৈ ৰূপান্তৰ ব্ৰিটিছ অৰ্থনৈতিক নীতিৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-207",
+   "q": {
+    "en": "What raw-material policy did the British follow in India?",
+    "as": "ভাৰতত ব্ৰিটিছে কি কেঁচা-সামগ্ৰী নীতি অনুসৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The export of raw materials from India",
+     "as": "ভাৰতৰ পৰা কেঁচা সামগ্ৰীৰ ৰপ্তানি"
+    },
+    {
+     "en": "The export of finished goods from India",
+     "as": "ভাৰতৰ পৰা প্ৰস্তুত সামগ্ৰীৰ ৰপ্তানি"
+    },
+    {
+     "en": "The end of exports",
+     "as": "ৰপ্তানিৰ অন্ত"
+    },
+    {
+     "en": "The end of imports",
+     "as": "আমদানিৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The export of raw materials from India was a feature of the British economic policy.",
+    "as": "ভাৰতৰ পৰা কেঁচা সামগ্ৰীৰ ৰপ্তানি ব্ৰিটিছ অৰ্থনৈতিক নীতিৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-208",
+   "q": {
+    "en": "What manufactured-goods policy did the British follow in India?",
+    "as": "ভাৰতত ব্ৰিটিছে কি নিৰ্মিত-সামগ্ৰী নীতি অনুসৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The import of British manufactured goods into India",
+     "as": "ভাৰতলৈ ব্ৰিটিছ নিৰ্মিত সামগ্ৰীৰ আমদানি"
+    },
+    {
+     "en": "The import of Indian manufactured goods into Britain",
+     "as": "ব্ৰিটেইনলৈ ভাৰতীয় নিৰ্মিত সামগ্ৰীৰ আমদানি"
+    },
+    {
+     "en": "The end of trade",
+     "as": "বাণিজ্যৰ অন্ত"
+    },
+    {
+     "en": "The end of industry",
+     "as": "উদ্যোগৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The import of British manufactured goods into India was a feature of the British economic policy.",
+    "as": "ভাৰতলৈ ব্ৰিটিছ নিৰ্মিত সামগ্ৰীৰ আমদানি ব্ৰিটিছ অৰ্থনৈতিক নীতিৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-209",
+   "q": {
+    "en": "What happened to agriculture under the British land revenue policy?",
+    "as": "ব্ৰিটিছ ভূমি ৰাজহ নীতিৰ অধীনত কৃষিৰ কি হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The commercialisation of agriculture",
+     "as": "কৃষিৰ বাণিজ্যিকীকৰণ"
+    },
+    {
+     "en": "The end of agriculture",
+     "as": "কৃষিৰ অন্ত"
+    },
+    {
+     "en": "The end of land revenue",
+     "as": "ভূমি ৰাজহৰ অন্ত"
+    },
+    {
+     "en": "The end of landlords",
+     "as": "জমিদাৰৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The commercialisation of agriculture was a feature of the British land revenue policy.",
+    "as": "কৃষিৰ বাণিজ্যিকীকৰণ ব্ৰিটিছ ভূমি ৰাজহ নীতিৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-210",
+   "q": {
+    "en": "What social class grew under the British land revenue policy?",
+    "as": "ব্ৰিটিছ ভূমি ৰাজহ নীতিৰ অধীনত কোন সামাজিক শ্ৰেণী বিকশিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of landlordism",
+     "as": "জমিদাৰীতন্ত্ৰৰ বিকাশ"
+    },
+    {
+     "en": "The end of landlordism",
+     "as": "জমিদাৰীতন্ত্ৰৰ অন্ত"
+    },
+    {
+     "en": "The end of tenants",
+     "as": "প্ৰজাসকলৰ অন্ত"
+    },
+    {
+     "en": "The end of farming",
+     "as": "খেতিৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of landlordism was a feature of the British land revenue policy.",
+    "as": "জমিদাৰীতন্ত্ৰৰ বিকাশ ব্ৰিটিছ ভূমি ৰাজহ নীতিৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-211",
+   "q": {
+    "en": "What problem grew among tenant farmers under the British land revenue policy?",
+    "as": "ব্ৰিটিছ ভূমি ৰাজহ নীতিৰ অধীনত প্ৰজা কৃষকসকলৰ মাজত কি সমস্যা বৃদ্ধি পাইছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of tenant farmers' indebtedness",
+     "as": "প্ৰজা কৃষকসকলৰ ঋণগ্ৰস্ততাৰ বিকাশ"
+    },
+    {
+     "en": "The end of indebtedness",
+     "as": "ঋণগ্ৰস্ততাৰ অন্ত"
+    },
+    {
+     "en": "The end of farming",
+     "as": "খেতিৰ অন্ত"
+    },
+    {
+     "en": "The end of landlords",
+     "as": "জমিদাৰৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of tenant farmers' indebtedness was a feature of the British land revenue policy.",
+    "as": "প্ৰজা কৃষকসকলৰ ঋণগ্ৰস্ততাৰ বিকাশ ব্ৰিটিছ ভূমি ৰাজহ নীতিৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-212",
+   "q": {
+    "en": "Which peasant movement took place in Bengal against indigo planters?",
+    "as": "বংগত নীল চাষীসকলৰ বিৰুদ্ধে কোন কৃষক আন্দোলন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indigo Revolt",
+     "as": "নীল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Moplah Rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    },
+    {
+     "en": "The Santhal Rebellion",
+     "as": "চাঁওতাল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Deccan Riots",
+     "as": "ডেকান দাঙ্গা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indigo Revolt in Bengal was a peasant movement against indigo planters.",
+    "as": "বংগৰ নীল বিদ্ৰোহ নীল চাষীসকলৰ বিৰুদ্ধে এটা কৃষক আন্দোলন আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-213",
+   "q": {
+    "en": "In which year did the Indigo Revolt take place?",
+    "as": "নীল বিদ্ৰোহ কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1859 CE",
+     "as": "১৮৫৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1873 CE",
+     "as": "১৮৭৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1875 CE",
+     "as": "১৮৭৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indigo Revolt took place in 1859 CE.",
+    "as": "নীল বিদ্ৰোহ ১৮৫৯ খ্ৰীষ্টাব্দত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-214",
+   "q": {
+    "en": "Which peasant movement took place in Maharashtra against moneylenders?",
+    "as": "মহাৰাষ্ট্ৰত মহাজনসকলৰ বিৰুদ্ধে কোন কৃষক আন্দোলন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Deccan Riots",
+     "as": "ডেকান দাঙ্গা"
+    },
+    {
+     "en": "The Indigo Revolt",
+     "as": "নীল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Moplah Rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    },
+    {
+     "en": "The Santhal Rebellion",
+     "as": "চাঁওতাল বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Deccan Riots took place in Maharashtra against moneylenders.",
+    "as": "ডেকান দাঙ্গা মহাৰাষ্ট্ৰত মহাজনসকলৰ বিৰুদ্ধে সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-215",
+   "q": {
+    "en": "Which tribal movement took place in Bihar against landlords?",
+    "as": "বিহাৰত জমিদাৰসকলৰ বিৰুদ্ধে কোন জনজাতীয় আন্দোলন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Santhal Rebellion",
+     "as": "চাঁওতাল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Indigo Revolt",
+     "as": "নীল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Deccan Riots",
+     "as": "ডেকান দাঙ্গা"
+    },
+    {
+     "en": "The Moplah Rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Santhal Rebellion took place in Bihar against landlords and moneylenders.",
+    "as": "চাঁওতাল বিদ্ৰোহ বিহাৰত জমিদাৰ আৰু মহাজনসকলৰ বিৰুদ্ধে সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-216",
+   "q": {
+    "en": "Who led the Santhal Rebellion?",
+    "as": "চাঁওতাল বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sido and Kanhu",
+     "as": "চিদো আৰু কানহু"
+    },
+    {
+     "en": "Birsa Munda",
+     "as": "বীৰচা মুণ্ডা"
+    },
+    {
+     "en": "Titu Mir",
+     "as": "তিতু মীৰ"
+    },
+    {
+     "en": "Khan Abdul Ghaffar Khan",
+     "as": "খান আব্দুল গফ্ফৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sido and Kanhu led the Santhal Rebellion.",
+    "as": "চিদো আৰু কানহুৱে চাঁওতাল বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-217",
+   "q": {
+    "en": "Which tribal movement took place in Chotanagpur?",
+    "as": "ছোটানাগপুৰত কোন জনজাতীয় আন্দোলন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Munda Rebellion",
+     "as": "মুণ্ডা বিদ্ৰোহ"
+    },
+    {
+     "en": "The Indigo Revolt",
+     "as": "নীল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Deccan Riots",
+     "as": "ডেকান দাঙ্গা"
+    },
+    {
+     "en": "The Moplah Rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Munda Rebellion took place in Chotanagpur.",
+    "as": "মুণ্ডা বিদ্ৰোহ ছোটানাগপুৰত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-218",
+   "q": {
+    "en": "Who led the Munda Rebellion?",
+    "as": "মুণ্ডা বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Birsa Munda",
+     "as": "বীৰচা মুণ্ডা"
+    },
+    {
+     "en": "Sido",
+     "as": "চিদো"
+    },
+    {
+     "en": "Kanhu",
+     "as": "কানহু"
+    },
+    {
+     "en": "Titu Mir",
+     "as": "তিতু মীৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Birsa Munda led the Munda Rebellion.",
+    "as": "বীৰচা মুণ্ডাই মুণ্ডা বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-219",
+   "q": {
+    "en": "Which rebellion took place in Malabar against the British?",
+    "as": "মালাবাৰত ব্ৰিটিছৰ বিৰুদ্ধে কোন বিদ্ৰোহ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Moplah Rebellion",
+     "as": "মোপলা বিদ্ৰোহ"
+    },
+    {
+     "en": "The Indigo Revolt",
+     "as": "নীল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Deccan Riots",
+     "as": "ডেকান দাঙ্গা"
+    },
+    {
+     "en": "The Santhal Rebellion",
+     "as": "চাঁওতাল বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Moplah Rebellion took place in Malabar against the British.",
+    "as": "মোপলা বিদ্ৰোহ মালাবাৰত ব্ৰিটিছৰ বিৰুদ্ধে সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-220",
+   "q": {
+    "en": "Who led the Wahabi movement?",
+    "as": "ৱাহাবী আন্দোলনৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Syed Ahmed Barelvi",
+     "as": "চৈয়দ আহমদ বেৰলভী"
+    },
+    {
+     "en": "Titu Mir",
+     "as": "তিতু মীৰ"
+    },
+    {
+     "en": "Birsa Munda",
+     "as": "বীৰচা মুণ্ডা"
+    },
+    {
+     "en": "Khan Abdul Ghaffar Khan",
+     "as": "খান আব্দুল গফ্ফৰ খান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Syed Ahmed Barelvi led the Wahabi movement.",
+    "as": "চৈয়দ আহমদ বেৰলভীয়ে ৱাহাবী আন্দোলনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-221",
+   "q": {
+    "en": "Which of the following was a peasant movement of the 19th century?",
+    "as": "তলৰ কোনটো ঊনবিংশ শতিকাৰ এটা কৃষক আন্দোলন আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indigo Revolt",
+     "as": "নীল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Quit India Movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Non-Cooperation Movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Civil Disobedience Movement",
+     "as": "আইন অমান্য আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indigo Revolt was a peasant movement of the 19th century.",
+    "as": "নীল বিদ্ৰোহ ঊনবিংশ শতিকাৰ এটা কৃষক আন্দোলন আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-222",
+   "q": {
+    "en": "Which of the following was a tribal movement of the 19th century?",
+    "as": "তলৰ কোনটো ঊনবিংশ শতিকাৰ এটা জনজাতীয় আন্দোলন আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Santhal Rebellion",
+     "as": "চাঁওতাল বিদ্ৰোহ"
+    },
+    {
+     "en": "The Quit India Movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Non-Cooperation Movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Civil Disobedience Movement",
+     "as": "আইন অমান্য আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Santhal Rebellion was a tribal movement of the 19th century.",
+    "as": "চাঁওতাল বিদ্ৰোহ ঊনবিংশ শতিকাৰ এটা জনজাতীয় আন্দোলন আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-223",
+   "q": {
+    "en": "Who led the Paika Rebellion in Odisha?",
+    "as": "ওড়িশাত পাইক বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bakshi Jagabandhu",
+     "as": "বক্সী জগবন্ধু"
+    },
+    {
+     "en": "Birsa Munda",
+     "as": "বীৰচা মুণ্ডা"
+    },
+    {
+     "en": "Titu Mir",
+     "as": "তিতু মীৰ"
+    },
+    {
+     "en": "Sido",
+     "as": "চিদো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bakshi Jagabandhu led the Paika Rebellion in Odisha.",
+    "as": "বক্সী জগবন্ধুৱে ওড়িশাত পাইক বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-224",
+   "q": {
+    "en": "In which year did the Paika Rebellion take place?",
+    "as": "পাইক বিদ্ৰোহ কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1817 CE",
+     "as": "১৮১৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1859 CE",
+     "as": "১৮৫৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1875 CE",
+     "as": "১৮৭৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Paika Rebellion took place in 1817 CE.",
+    "as": "পাইক বিদ্ৰোহ ১৮১৭ খ্ৰীষ্টাব্দত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-225",
+   "q": {
+    "en": "Who led the revolt in Assam against the British in 1857?",
+    "as": "১৮৫৭ চনত ব্ৰিটিছৰ বিৰুদ্ধে অসমত কোনে বিদ্ৰোহৰ নেতৃত্ব দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Maniram Dewan",
+     "as": "মণিৰাম দেৱান"
+    },
+    {
+     "en": "Birsa Munda",
+     "as": "বীৰচা মুণ্ডা"
+    },
+    {
+     "en": "Titu Mir",
+     "as": "তিতু মীৰ"
+    },
+    {
+     "en": "Sido",
+     "as": "চিদো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Maniram Dewan led the revolt in Assam against the British in 1857.",
+    "as": "মণিৰাম দেৱানে ১৮৫৭ চনত ব্ৰিটিছৰ বিৰুদ্ধে অসমত বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-226",
+   "q": {
+    "en": "Who were the leaders of the 1857 revolt in Assam?",
+    "as": "অসমত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতা কোনসকল আছিল?"
+   },
+   "options": [
+    {
+     "en": "Maniram Dewan and Piyoli Phukan",
+     "as": "মণিৰাম দেৱান আৰু পিয়লী ফুকন"
+    },
+    {
+     "en": "Birsa Munda",
+     "as": "বীৰচা মুণ্ডা"
+    },
+    {
+     "en": "Titu Mir",
+     "as": "তিতু মীৰ"
+    },
+    {
+     "en": "Sido and Kanhu",
+     "as": "চিদো আৰু কানহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Maniram Dewan and Piyoli Phukan were leaders of the 1857 revolt in Assam.",
+    "as": "মণিৰাম দেৱান আৰু পিয়লী ফুকন অসমত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-227",
+   "q": {
+    "en": "Who is known as the 'first martyr of Assam'?",
+    "as": "কাক 'অসমৰ প্ৰথম শ্বহীদ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Piyoli Phukan",
+     "as": "পিয়লী ফুকন"
+    },
+    {
+     "en": "Maniram Dewan",
+     "as": "মণিৰাম দেৱান"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Piyoli Phukan is known as the first martyr of Assam.",
+    "as": "পিয়লী ফুকনক অসমৰ প্ৰথম শ্বহীদ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-228",
+   "q": {
+    "en": "Which of the following was a feature of the 1857 revolt in Assam?",
+    "as": "অসমত ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা বৈশিষ্ট্য তলৰ কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "It was led by Maniram Dewan",
+     "as": "ই মণিৰাম দেৱানে নেতৃত্ব দিছিল"
+    },
+    {
+     "en": "It was led by Tipu Sultan",
+     "as": "ই টিপু চুলতানে নেতৃত্ব দিছিল"
+    },
+    {
+     "en": "It was led by Rani Lakshmibai",
+     "as": "ই ৰাণী লক্ষ্মীবাই নেতৃত্ব দিছিল"
+    },
+    {
+     "en": "It was led by Nana Saheb",
+     "as": "ই নানা চাহেবে নেতৃত্ব দিছিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 1857 revolt in Assam was led by Maniram Dewan.",
+    "as": "অসমত ১৮৫৭ চনৰ বিদ্ৰোহ মণিৰাম দেৱানে নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-229",
+   "q": {
+    "en": "Who was the first Assamese to be hanged by the British?",
+    "as": "ব্ৰিটিছে ফাঁচি দিয়া প্ৰথম অসমীয়া কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Maniram Dewan",
+     "as": "মণিৰাম দেৱান"
+    },
+    {
+     "en": "Piyoli Phukan",
+     "as": "পিয়লী ফুকন"
+    },
+    {
+     "en": "Lachit Borphukan",
+     "as": "লাচিত বৰফুকন"
+    },
+    {
+     "en": "Sukapha",
+     "as": "চুকাফা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Maniram Dewan was the first Assamese to be hanged by the British.",
+    "as": "মণিৰাম দেৱান ব্ৰিটিছে ফাঁচি দিয়া প্ৰথম অসমীয়া আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-230",
+   "q": {
+    "en": "In which year did the Revolt of 1857 begin?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহ কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1858 CE",
+     "as": "১৮৫৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1856 CE",
+     "as": "১৮৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1859 CE",
+     "as": "১৮৫৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Revolt of 1857 began in 1857 CE.",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহ ১৮৫৭ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-231",
+   "q": {
+    "en": "From where did the Revolt of 1857 begin?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহ ক'ৰ পৰা আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Meerut",
+     "as": "মিৰাট"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Kanpur",
+     "as": "কানপুৰ"
+    },
+    {
+     "en": "Lucknow",
+     "as": "লক্ষ্ণৌ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Revolt of 1857 began from Meerut.",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহ মিৰাটৰ পৰা আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-232",
+   "q": {
+    "en": "On which date did the Revolt of 1857 begin?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহ কোন তাৰিখে আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "10 May 1857",
+     "as": "১০ মে' ১৮৫৭"
+    },
+    {
+     "en": "15 August 1857",
+     "as": "১৫ আগষ্ট ১৮৫৭"
+    },
+    {
+     "en": "26 January 1857",
+     "as": "২৬ জানুৱাৰী ১৮৫৭"
+    },
+    {
+     "en": "1 November 1857",
+     "as": "১ নৱেম্বৰ ১৮৫৭"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Revolt of 1857 began on 10 May 1857.",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহ ১০ মে' ১৮৫৭ তাৰিখে আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-233",
+   "q": {
+    "en": "Who was the Mughal emperor during the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ সময়ত মোগল সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Bahadur Shah Zafar",
+     "as": "বাহাদুৰ শাহ জাফৰ"
+    },
+    {
+     "en": "Akbar II",
+     "as": "আকবৰ দ্বিতীয়"
+    },
+    {
+     "en": "Shah Alam II",
+     "as": "শাহ আলম দ্বিতীয়"
+    },
+    {
+     "en": "Aurangzeb",
+     "as": "আওৰাংজেব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bahadur Shah Zafar was the Mughal emperor during the Revolt of 1857.",
+    "as": "বাহাদুৰ শাহ জাফৰ ১৮৫৭ চনৰ বিদ্ৰোহৰ সময়ত মোগল সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-234",
+   "q": {
+    "en": "Who was proclaimed the leader of the Revolt of 1857 by the rebels?",
+    "as": "বিদ্ৰোহীসকলে ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতা হিচাপে কাক ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bahadur Shah Zafar",
+     "as": "বাহাদুৰ শাহ জাফৰ"
+    },
+    {
+     "en": "Nana Saheb",
+     "as": "নানা চাহেব"
+    },
+    {
+     "en": "Rani Lakshmibai",
+     "as": "ৰাণী লক্ষ্মীবাই"
+    },
+    {
+     "en": "Tantia Tope",
+     "as": "তান্তিয়া টোপে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bahadur Shah Zafar was proclaimed the leader of the Revolt of 1857.",
+    "as": "বাহাদুৰ শাহ জাফৰক ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতা হিচাপে ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-235",
+   "q": {
+    "en": "Who led the Revolt of 1857 in Kanpur?",
+    "as": "কানপুৰত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nana Saheb",
+     "as": "নানা চাহেব"
+    },
+    {
+     "en": "Rani Lakshmibai",
+     "as": "ৰাণী লক্ষ্মীবাই"
+    },
+    {
+     "en": "Begum Hazrat Mahal",
+     "as": "বেগম হজৰত মহল"
+    },
+    {
+     "en": "Kunwar Singh",
+     "as": "কুঞ্জৰ সিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nana Saheb led the Revolt of 1857 in Kanpur.",
+    "as": "নানা চাহেবে কানপুৰত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-236",
+   "q": {
+    "en": "Who led the Revolt of 1857 in Jhansi?",
+    "as": "ঝাঁসীত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rani Lakshmibai",
+     "as": "ৰাণী লক্ষ্মীবাই"
+    },
+    {
+     "en": "Nana Saheb",
+     "as": "নানা চাহেব"
+    },
+    {
+     "en": "Begum Hazrat Mahal",
+     "as": "বেগম হজৰত মহল"
+    },
+    {
+     "en": "Kunwar Singh",
+     "as": "কুঞ্জৰ সিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rani Lakshmibai led the Revolt of 1857 in Jhansi.",
+    "as": "ৰাণী লক্ষ্মীবাইয়ে ঝাঁসীত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-237",
+   "q": {
+    "en": "Who was the adopted son of Nana Saheb?",
+    "as": "নানা চাহেবৰ পোষ্য পুত্ৰ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Tantia Tope (a general)",
+     "as": "তান্তিয়া টোপে (এজন সেনাপতি)"
+    },
+    {
+     "en": "Bahadur Shah Zafar",
+     "as": "বাহাদুৰ শাহ জাফৰ"
+    },
+    {
+     "en": "Kunwar Singh",
+     "as": "কুঞ্জৰ সিং"
+    },
+    {
+     "en": "Maulvi Ahmadullah",
+     "as": "মৌলভী আহমদুল্লাহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tantia Tope was the general and close associate of Nana Saheb.",
+    "as": "তান্তিয়া টোপে নানা চাহেবৰ সেনাপতি আৰু ঘনিষ্ঠ সহযোগী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-238",
+   "q": {
+    "en": "Who led the Revolt of 1857 in Lucknow?",
+    "as": "লক্ষ্ণৌত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Begum Hazrat Mahal",
+     "as": "বেগম হজৰত মহল"
+    },
+    {
+     "en": "Rani Lakshmibai",
+     "as": "ৰাণী লক্ষ্মীবাই"
+    },
+    {
+     "en": "Nana Saheb",
+     "as": "নানা চাহেব"
+    },
+    {
+     "en": "Kunwar Singh",
+     "as": "কুঞ্জৰ সিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Begum Hazrat Mahal led the Revolt of 1857 in Lucknow.",
+    "as": "বেগম হজৰত মহলে লক্ষ্ণৌত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-239",
+   "q": {
+    "en": "Who led the Revolt of 1857 in Bihar?",
+    "as": "বিহাৰত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Kunwar Singh",
+     "as": "কুঞ্জৰ সিং"
+    },
+    {
+     "en": "Nana Saheb",
+     "as": "নানা চাহেব"
+    },
+    {
+     "en": "Rani Lakshmibai",
+     "as": "ৰাণী লক্ষ্মীবাই"
+    },
+    {
+     "en": "Begum Hazrat Mahal",
+     "as": "বেগম হজৰত মহল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kunwar Singh led the Revolt of 1857 in Bihar.",
+    "as": "কুঞ্জৰ সিঙে বিহাৰত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-240",
+   "q": {
+    "en": "Who led the Revolt of 1857 in Faizabad?",
+    "as": "ফৈজাবাদত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Maulvi Ahmadullah Shah",
+     "as": "মৌলভী আহমদুল্লাহ শাহ"
+    },
+    {
+     "en": "Nana Saheb",
+     "as": "নানা চাহেব"
+    },
+    {
+     "en": "Rani Lakshmibai",
+     "as": "ৰাণী লক্ষ্মীবাই"
+    },
+    {
+     "en": "Kunwar Singh",
+     "as": "কুঞ্জৰ সিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Maulvi Ahmadullah Shah led the Revolt of 1857 in Faizabad.",
+    "as": "মৌলভী আহমদুল্লাহ শাহে ফৈজাবাদত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-241",
+   "q": {
+    "en": "Who was the Governor-General during the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ সময়ত গৱৰ্ণৰ-জেনেৰেল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Canning",
+     "as": "লৰ্ড ক্যানিং"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "as": "লৰ্ড ডালহাউছি"
+    },
+    {
+     "en": "Lord Hardinge",
+     "as": "লৰ্ড হাৰ্ডিং"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Canning was the Governor-General during the Revolt of 1857.",
+    "as": "লৰ্ড ক্যানিং ১৮৫৭ চনৰ বিদ্ৰোহৰ সময়ত গৱৰ্ণৰ-জেনেৰেল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-242",
+   "q": {
+    "en": "What was the immediate cause of the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ প্ৰত্যক্ষ কাৰণ কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "The greased cartridges issue",
+     "as": "চৰ্বি লগোৱা কাৰ্তুজৰ বিষয়"
+    },
+    {
+     "en": "The partition of Bengal",
+     "as": "বংগ বিভাজন"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰ'লেট আইন"
+    },
+    {
+     "en": "The Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The greased cartridges issue was the immediate cause of the Revolt of 1857.",
+    "as": "চৰ্বি লগোৱা কাৰ্তুজৰ বিষয় ১৮৫৭ চনৰ বিদ্ৰোহৰ প্ৰত্যক্ষ কাৰণ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-243",
+   "q": {
+    "en": "Which of the following was a political cause of the Revolt of 1857?",
+    "as": "তলৰ কোনটো ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা ৰাজনৈতিক কাৰণ আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Doctrine of Lapse",
+     "as": "অপহৰণ নীতি"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰ'লেট আইন"
+    },
+    {
+     "en": "The partition of Bengal",
+     "as": "বংগ বিভাজন"
+    },
+    {
+     "en": "The Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Doctrine of Lapse was a political cause of the Revolt of 1857.",
+    "as": "অপহৰণ নীতি ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা ৰাজনৈতিক কাৰণ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-244",
+   "q": {
+    "en": "Which of the following was an economic cause of the Revolt of 1857?",
+    "as": "তলৰ কোনটো ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা অৰ্থনৈতিক কাৰণ আছিল?"
+   },
+   "options": [
+    {
+     "en": "The ruin of Indian handicrafts",
+     "as": "ভাৰতীয় হস্তশিল্পৰ ধ্বংস"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰ'লেট আইন"
+    },
+    {
+     "en": "The partition of Bengal",
+     "as": "বংগ বিভাজন"
+    },
+    {
+     "en": "The Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The ruin of Indian handicrafts was an economic cause of the Revolt of 1857.",
+    "as": "ভাৰতীয় হস্তশিল্পৰ ধ্বংস ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা অৰ্থনৈতিক কাৰণ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-245",
+   "q": {
+    "en": "Which of the following was a social cause of the Revolt of 1857?",
+    "as": "তলৰ কোনটো ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা সামাজিক কাৰণ আছিল?"
+   },
+   "options": [
+    {
+     "en": "The fear of social reforms and conversion",
+     "as": "সামাজিক সংস্কাৰ আৰু ধৰ্মান্তৰৰ ভয়"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰ'লেট আইন"
+    },
+    {
+     "en": "The partition of Bengal",
+     "as": "বংগ বিভাজন"
+    },
+    {
+     "en": "The Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The fear of social reforms and conversion was a social cause of the Revolt of 1857.",
+    "as": "সামাজিক সংস্কাৰ আৰু ধৰ্মান্তৰৰ ভয় ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা সামাজিক কাৰণ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-246",
+   "q": {
+    "en": "Which of the following was a military cause of the Revolt of 1857?",
+    "as": "তলৰ কোনটো ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা সামৰিক কাৰণ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Discrimination against Indian soldiers",
+     "as": "ভাৰতীয় সৈনিকৰ প্ৰতি বৈষম্য"
+    },
+    {
+     "en": "The Rowlatt Act",
+     "as": "ৰ'লেট আইন"
+    },
+    {
+     "en": "The partition of Bengal",
+     "as": "বংগ বিভাজন"
+    },
+    {
+     "en": "The Jallianwala Bagh massacre",
+     "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Discrimination against Indian soldiers was a military cause of the Revolt of 1857.",
+    "as": "ভাৰতীয় সৈনিকৰ প্ৰতি বৈষম্য ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা সামৰিক কাৰণ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-247",
+   "q": {
+    "en": "Who called the Revolt of 1857 the 'First War of Indian Independence'?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহক 'ভাৰতীয় স্বাধীনতাৰ প্ৰথম যুদ্ধ' কেৱে কৈছিল?"
+   },
+   "options": [
+    {
+     "en": "V. D. Savarkar",
+     "as": "ভি. ডি. সাভাৰকৰ"
+    },
+    {
+     "en": "Karl Marx",
+     "as": "কাৰ্ল মাৰ্ক্স"
+    },
+    {
+     "en": "R. C. Majumdar",
+     "as": "আৰ. চি. মজুমদাৰ"
+    },
+    {
+     "en": "S. N. Sen",
+     "as": "এছ. এন. সেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "V. D. Savarkar called the Revolt of 1857 the First War of Indian Independence.",
+    "as": "ভি. ডি. সাভাৰকৰে ১৮৫৭ চনৰ বিদ্ৰোহক ভাৰতীয় স্বাধীনতাৰ প্ৰথম যুদ্ধ বুলি কৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-248",
+   "q": {
+    "en": "What happened to the East India Company's rule after the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ পিছত ইষ্ট ইণ্ডিয়া কোম্পানীৰ শাসনৰ কি হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The end of the East India Company's rule",
+     "as": "ইষ্ট ইণ্ডিয়া কোম্পানীৰ শাসনৰ অন্ত"
+    },
+    {
+     "en": "The end of British rule",
+     "as": "ব্ৰিটিছ শাসনৰ অন্ত"
+    },
+    {
+     "en": "The partition of India",
+     "as": "ভাৰত বিভাজন"
+    },
+    {
+     "en": "The end of the Mughal dynasty in 1526",
+     "as": "১৫২৬ চনত মোগল বংশৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The end of the East India Company's rule was a result of the Revolt of 1857.",
+    "as": "ইষ্ট ইণ্ডিয়া কোম্পানীৰ শাসনৰ অন্ত ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা ফলাফল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-249",
+   "q": {
+    "en": "What happened to the Mughal Empire after the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ পিছত মোগল সাম্ৰাজ্যৰ কি হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The end of the Mughal Empire",
+     "as": "মোগল সাম্ৰাজ্যৰ অন্ত"
+    },
+    {
+     "en": "The end of the Maratha Empire",
+     "as": "মাৰাঠা সাম্ৰাজ্যৰ অন্ত"
+    },
+    {
+     "en": "The end of the Sikh Empire",
+     "as": "শিখ সাম্ৰাজ্যৰ অন্ত"
+    },
+    {
+     "en": "The end of the Vijayanagara Empire",
+     "as": "বিজয়নগৰ সাম্ৰাজ্যৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The end of the Mughal Empire was a result of the Revolt of 1857.",
+    "as": "মোগল সাম্ৰাজ্যৰ অন্ত ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা ফলাফল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-250",
+   "q": {
+    "en": "What change was made in the British army after the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ পিছত ব্ৰিটিছ সেনাত কি পৰিৱৰ্তন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The reorganisation of the army",
+     "as": "সেনাৰ পুনৰ্গঠন"
+    },
+    {
+     "en": "The end of the army",
+     "as": "সেনাৰ অন্ত"
+    },
+    {
+     "en": "The end of taxation",
+     "as": "কৰৰ অন্ত"
+    },
+    {
+     "en": "The end of trade",
+     "as": "বাণিজ্যৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The reorganisation of the army was a result of the Revolt of 1857.",
+    "as": "সেনাৰ পুনৰ্গঠন ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা ফলাফল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-251",
+   "q": {
+    "en": "What administrative policy did the British adopt after the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ পিছত ব্ৰিটিছে কি প্ৰশাসনিক নীতি গ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The policy of divide and rule",
+     "as": "ভাগ কৰি শাসন কৰাৰ নীতি"
+    },
+    {
+     "en": "The policy of unity",
+     "as": "ঐক্যৰ নীতি"
+    },
+    {
+     "en": "The end of the princely states",
+     "as": "দেশীয় ৰাজ্যসমূহৰ অন্ত"
+    },
+    {
+     "en": "The end of the zamindars",
+     "as": "জমিদাৰসকলৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The policy of divide and rule was a result of the Revolt of 1857.",
+    "as": "ভাগ কৰি শাসন কৰাৰ নীতি ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা ফলাফল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-252",
+   "q": {
+    "en": "What religious policy did the British adopt after the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ পিছত ব্ৰিটিছে কি ধৰ্মীয় নীতি গ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The promise of religious non-interference",
+     "as": "ধৰ্মীয় অহস্তক্ষেপৰ প্ৰতিশ্ৰুতি"
+    },
+    {
+     "en": "The promotion of religious conversion",
+     "as": "ধৰ্মান্তৰৰ প্ৰসাৰ"
+    },
+    {
+     "en": "The end of religion",
+     "as": "ধৰ্মৰ অন্ত"
+    },
+    {
+     "en": "The end of the caste system",
+     "as": "জাতি ব্যৱস্থাৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The promise of religious non-interference was a result of the Revolt of 1857.",
+    "as": "ধৰ্মীয় অহস্তক্ষেপৰ প্ৰতিশ্ৰুতি ১৮৫৭ চনৰ বিদ্ৰোহৰ এটা ফলাফল আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-253",
+   "q": {
+    "en": "Which Viceroy is known for the Ilbert Bill controversy?",
+    "as": "ইলবাৰ্ট বিল বিতৰ্কৰ বাবে কোন ভাইচৰয় জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Lytton",
+     "as": "লৰ্ড লিটন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Ripon is known for the Ilbert Bill controversy.",
+    "as": "লৰ্ড ৰিপন ইলবাৰ্ট বিল বিতৰ্কৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-254",
+   "q": {
+    "en": "Which Viceroy introduced local self-government in India?",
+    "as": "কোন ভাইচৰয়ে ভাৰতত স্থানীয় স্বায়ত্তশাসন প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Lytton",
+     "as": "লৰ্ড লিটন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Ripon introduced local self-government in India.",
+    "as": "লৰ্ড ৰিপনে ভাৰতত স্থানীয় স্বায়ত্তশাসন প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-255",
+   "q": {
+    "en": "Which Viceroy is known as the 'Father of Local Self-Government' in India?",
+    "as": "ভাৰতত কোন ভাইচৰয়ক 'স্থানীয় স্বায়ত্তশাসনৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Lytton",
+     "as": "লৰ্ড লিটন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Ripon is known as the Father of Local Self-Government in India.",
+    "as": "লৰ্ড ৰিপনক ভাৰতত স্থানীয় স্বায়ত্তশাসনৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-256",
+   "q": {
+    "en": "Which Viceroy held the Delhi Durbar of 1877?",
+    "as": "১৮৭৭ চনৰ দিল্লী দৰবাৰ কোন ভাইচৰয়ে অনুষ্ঠিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Lytton",
+     "as": "লৰ্ড লিটন"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Lytton held the Delhi Durbar of 1877.",
+    "as": "লৰ্ড লিটনে ১৮৭৭ চনৰ দিল্লী দৰবাৰ অনুষ্ঠিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-257",
+   "q": {
+    "en": "Which Viceroy is associated with the Vernacular Press Act?",
+    "as": "ভাৰ্নাকুলাৰ প্ৰেছ আইনৰ লগত কোন ভাইচৰয় জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Lord Lytton",
+     "as": "লৰ্ড লিটন"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Lytton is associated with the Vernacular Press Act.",
+    "as": "লৰ্ড লিটন ভাৰ্নাকুলাৰ প্ৰেছ আইনৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "indian-history-modern-258",
+   "q": {
+    "en": "Which Viceroy partitioned Bengal?",
+    "as": "কোন ভাইচৰয়ে বংগ বিভাজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    },
+    {
+     "en": "Lord Lytton",
+     "as": "লৰ্ড লিটন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Curzon partitioned Bengal in 1905.",
+    "as": "লৰ্ড কাৰ্জনে ১৯০৫ চনত বংগ বিভাজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-259",
+   "q": {
+    "en": "Which Viceroy announced the partition of Bengal?",
+    "as": "কোন ভাইচৰয়ে বংগ বিভাজন ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    },
+    {
+     "en": "Lord Hardinge",
+     "as": "লৰ্ড হাৰ্ডিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Curzon announced the partition of Bengal.",
+    "as": "লৰ্ড কাৰ্জনে বংগ বিভাজন ঘোষণা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-260",
+   "q": {
+    "en": "Which Viceroy shifted the capital from Calcutta to Delhi?",
+    "as": "কোন ভাইচৰয়ে ৰাজধানী কলিকতাৰ পৰা দিল্লীলৈ স্থানান্তৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Hardinge",
+     "as": "লৰ্ড হাৰ্ডিং"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Hardinge shifted the capital from Calcutta to Delhi in 1911.",
+    "as": "লৰ্ড হাৰ্ডিঙে ১৯১১ চনত ৰাজধানী কলিকতাৰ পৰা দিল্লীলৈ স্থানান্তৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-261",
+   "q": {
+    "en": "Which Viceroy was associated with the Rowlatt Act?",
+    "as": "ৰ'লেট আইনৰ লগত কোন ভাইচৰয় জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Lord Chelmsford",
+     "as": "লৰ্ড চেমছফৰ্ড"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Chelmsford was associated with the Rowlatt Act.",
+    "as": "লৰ্ড চেমছফৰ্ড ৰ'লেট আইনৰ লগত জড়িত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-262",
+   "q": {
+    "en": "Which Viceroy was associated with the Simon Commission?",
+    "as": "চাইমন কমিছনৰ লগত কোন ভাইচৰয় জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    },
+    {
+     "en": "Lord Chelmsford",
+     "as": "লৰ্ড চেমছফৰ্ড"
+    },
+    {
+     "en": "Lord Reading",
+     "as": "লৰ্ড ৰিডিং"
+    },
+    {
+     "en": "Lord Linlithgow",
+     "as": "লৰ্ড লিনলিথগো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Irwin was associated with the Simon Commission.",
+    "as": "লৰ্ড আৰউইন চাইমন কমিছনৰ লগত জড়িত আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-263",
+   "q": {
+    "en": "Which commission was boycotted by the Congress?",
+    "as": "কংগ্ৰেছে কোন কমিছন বৰ্জন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Simon Commission",
+     "as": "চাইমন কমিছন"
+    },
+    {
+     "en": "The Hunter Commission",
+     "as": "হাণ্টাৰ কমিছন"
+    },
+    {
+     "en": "The Rowlatt Commission",
+     "as": "ৰ'লেট কমিছন"
+    },
+    {
+     "en": "The Sedition Committee",
+     "as": "ৰাজদ্ৰোহ কমিটি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Congress boycotted the Simon Commission because it had no Indian members.",
+    "as": "কংগ্ৰেছে চাইমন কমিছন বৰ্জন কৰিছিল কাৰণ ইয়াত কোনো ভাৰতীয় সদস্য নাছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-264",
+   "q": {
+    "en": "In which year did the Simon Commission come to India?",
+    "as": "চাইমন কমিছন কিমান চনত ভাৰতলৈ আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "1928 CE",
+     "as": "১৯২৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1930 CE",
+     "as": "১৯৩০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Simon Commission came to India in 1928 CE.",
+    "as": "চাইমন কমিছন ১৯২৮ খ্ৰীষ্টাব্দত ভাৰতলৈ আহিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-265",
+   "q": {
+    "en": "Who was killed during the protest against the Simon Commission?",
+    "as": "চাইমন কমিছনৰ বিৰুদ্ধে প্ৰতিবাদৰ সময়ত কোন নিহত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    },
+    {
+     "en": "Bhagat Singh",
+     "as": "ভগত সিং"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lala Lajpat Rai was killed during the protest against the Simon Commission.",
+    "as": "চাইমন কমিছনৰ বিৰুদ্ধে প্ৰতিবাদৰ সময়ত লালা লাজপত ৰায় নিহত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-266",
+   "q": {
+    "en": "Who avenged the death of Lala Lajpat Rai?",
+    "as": "লালা লাজপত ৰায়ৰ মৃত্যুৰ প্ৰতিশোধ কোনে লৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhagat Singh",
+     "as": "ভগত সিং"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhagat Singh avenged the death of Lala Lajpat Rai by killing Saunders.",
+    "as": "ভগত সিঙে ছ'ণ্ডাৰ্ছক হত্যা কৰি লালা লাজপত ৰায়ৰ মৃত্যুৰ প্ৰতিশোধ লৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-267",
+   "q": {
+    "en": "Which Viceroy announced the Communal Award?",
+    "as": "সাম্প্ৰদায়িক পুৰস্কাৰ কোন ভাইচৰয়ে ঘোষণা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Wellington (Ramsay MacDonald)",
+     "as": "লৰ্ড ৱেলিংটন (ৰেমচে মেকডনাল্ড)"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    },
+    {
+     "en": "Lord Reading",
+     "as": "লৰ্ড ৰিডিং"
+    },
+    {
+     "en": "Lord Linlithgow",
+     "as": "লৰ্ড লিনলিথগো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Communal Award was announced in 1932 by Ramsay MacDonald.",
+    "as": "সাম্প্ৰদায়িক পুৰস্কাৰ ১৯৩২ চনত ৰেমচে মেকডনাল্ডে ঘোষণা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-268",
+   "q": {
+    "en": "Which Viceroy was in office during the Quit India Movement?",
+    "as": "ভাৰত ত্যাগ আন্দোলনৰ সময়ত কোন ভাইচৰয় কাৰ্যনিবাহী আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Linlithgow",
+     "as": "লৰ্ড লিনলিথগো"
+    },
+    {
+     "en": "Lord Wavell",
+     "as": "লৰ্ড ৱেভেল"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    },
+    {
+     "en": "Lord Reading",
+     "as": "লৰ্ড ৰিডিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Linlithgow was the Viceroy during the Quit India Movement.",
+    "as": "ভাৰত ত্যাগ আন্দোলনৰ সময়ত লৰ্ড লিনলিথগো ভাইচৰয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-269",
+   "q": {
+    "en": "Which Viceroy was in office during the Wavell Plan?",
+    "as": "ৱেভেল পৰিকল্পনাৰ সময়ত কোন ভাইচৰয় কাৰ্যনিবাহী আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Wavell",
+     "as": "লৰ্ড ৱেভেল"
+    },
+    {
+     "en": "Lord Linlithgow",
+     "as": "লৰ্ড লিনলিথগো"
+    },
+    {
+     "en": "Lord Mountbatten",
+     "as": "লৰ্ড মাউণ্টবেটেন"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Wavell was the Viceroy during the Wavell Plan.",
+    "as": "ৱেভেল পৰিকল্পনাৰ সময়ত লৰ্ড ৱেভেল ভাইচৰয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-270",
+   "q": {
+    "en": "What was the Wavell Plan?",
+    "as": "ৱেভেল পৰিকল্পনা কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A plan for Indian self-government",
+     "as": "ভাৰতীয় স্ব-শাসনৰ এটা পৰিকল্পনা"
+    },
+    {
+     "en": "A plan for the partition of India",
+     "as": "ভাৰত বিভাজনৰ এটা পৰিকল্পনা"
+    },
+    {
+     "en": "A plan for the army",
+     "as": "সেনাৰ এটা পৰিকল্পনা"
+    },
+    {
+     "en": "A plan for education",
+     "as": "শিক্ষাৰ এটা পৰিকল্পনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Wavell Plan was a proposal for Indian self-government.",
+    "as": "ৱেভেল পৰিকল্পনা ভাৰতীয় স্ব-শাসনৰ এটা প্ৰস্তাৱ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-271",
+   "q": {
+    "en": "Which conference was held in 1945 to discuss the Wavell Plan?",
+    "as": "ৱেভেল পৰিকল্পনা আলোচনাৰ বাবে ১৯৪৫ চনত কোন সন্মিলন অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Simla Conference",
+     "as": "চিমলা সন্মিলন"
+    },
+    {
+     "en": "The Round Table Conference",
+     "as": "গোলমেজ সন্মিলন"
+    },
+    {
+     "en": "The Poona Conference",
+     "as": "পুনা সন্মিলন"
+    },
+    {
+     "en": "The Bombay Conference",
+     "as": "বোম্বাই সন্মিলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Simla Conference was held in 1945 to discuss the Wavell Plan.",
+    "as": "ৱেভেল পৰিকল্পনা আলোচনাৰ বাবে ১৯৪৫ চনত চিমলা সন্মিলন অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-272",
+   "q": {
+    "en": "Which mission came to India in 1946 to discuss transfer of power?",
+    "as": "ক্ষমতা হস্তান্তৰ আলোচনাৰ বাবে ১৯৪৬ চনত কোন মিছন ভাৰতলৈ আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Cabinet Mission",
+     "as": "কেবিনেট মিছন"
+    },
+    {
+     "en": "The Cripps Mission",
+     "as": "ক্ৰিপছ মিছন"
+    },
+    {
+     "en": "The Simon Commission",
+     "as": "চাইমন কমিছন"
+    },
+    {
+     "en": "The Wavell Plan",
+     "as": "ৱেভেল পৰিকল্পনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Cabinet Mission came to India in 1946 to discuss the transfer of power.",
+    "as": "ক্ষমতা হস্তান্তৰ আলোচনাৰ বাবে ১৯৪৬ চনত কেবিনেট মিছন ভাৰতলৈ আহিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-273",
+   "q": {
+    "en": "Which mission came to India in 1942 during the Second World War?",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধৰ সময়ত ১৯৪২ চনত কোন মিছন ভাৰতলৈ আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Cripps Mission",
+     "as": "ক্ৰিপছ মিছন"
+    },
+    {
+     "en": "The Cabinet Mission",
+     "as": "কেবিনেট মিছন"
+    },
+    {
+     "en": "The Simon Commission",
+     "as": "চাইমন কমিছন"
+    },
+    {
+     "en": "The Wavell Plan",
+     "as": "ৱেভেল পৰিকল্পনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Cripps Mission came to India in 1942 during the Second World War.",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধৰ সময়ত ১৯৪২ চনত ক্ৰিপছ মিছন ভাৰতলৈ আহিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-274",
+   "q": {
+    "en": "Who led the Cripps Mission?",
+    "as": "ক্ৰিপছ মিছনৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sir Stafford Cripps",
+     "as": "ছাৰ ষ্টাফৰ্ড ক্ৰিপছ"
+    },
+    {
+     "en": "Lord Cabinet",
+     "as": "লৰ্ড কেবিনেট"
+    },
+    {
+     "en": "Sir Simon",
+     "as": "ছাৰ চাইমন"
+    },
+    {
+     "en": "Lord Wavell",
+     "as": "লৰ্ড ৱেভেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sir Stafford Cripps led the Cripps Mission.",
+    "as": "ছাৰ ষ্টাফৰ্ড ক্ৰিপছে ক্ৰিপছ মিছনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-275",
+   "q": {
+    "en": "Which plan proposed the grouping of provinces?",
+    "as": "কোন পৰিকল্পনাই প্ৰদেশসমূহৰ গোট গঠনৰ প্ৰস্তাৱ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Cabinet Mission Plan",
+     "as": "কেবিনেট মিছন পৰিকল্পনা"
+    },
+    {
+     "en": "The Cripps Mission",
+     "as": "ক্ৰিপছ মিছন"
+    },
+    {
+     "en": "The Simon Commission",
+     "as": "চাইমন কমিছন"
+    },
+    {
+     "en": "The Wavell Plan",
+     "as": "ৱেভেল পৰিকল্পনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Cabinet Mission Plan proposed the grouping of provinces.",
+    "as": "কেবিনেট মিছন পৰিকল্পনাই প্ৰদেশসমূহৰ গোট গঠনৰ প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-276",
+   "q": {
+    "en": "In which year was the Indian National Army trial held?",
+    "as": "ভাৰতীয় জাতীয় সেনাৰ বিচাৰ কিমান চনত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1942 CE",
+     "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1946 CE",
+     "as": "১৯৪৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian National Army trial was held in 1945 CE at the Red Fort.",
+    "as": "ভাৰতীয় জাতীয় সেনাৰ বিচাৰ ১৯৪৫ খ্ৰীষ্টাব্দত লাল কিলাত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-277",
+   "q": {
+    "en": "Who defended the INA soldiers during their trial?",
+    "as": "আইএনএ সৈনিকসকলৰ বিচাৰৰ সময়ত কোনে তেওঁলোকৰ হৈ যুক্তি দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bhulabhai Desai and others",
+     "as": "ভূলাভাই দেশাই আৰু আনসকল"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bhulabhai Desai and others defended the INA soldiers during their trial.",
+    "as": "ভূলাভাই দেশাই আৰু আনসকলে আইএনএ সৈনিকসকলৰ বিচাৰৰ সময়ত তেওঁলোকৰ হৈ যুক্তি দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-278",
+   "q": {
+    "en": "Which naval mutiny took place in 1946?",
+    "as": "১৯৪৬ চনত কোন নৌ বিদ্ৰোহ সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Royal Indian Navy mutiny",
+     "as": "ৰয়েল ইণ্ডিয়ান নেভি বিদ্ৰোহ"
+    },
+    {
+     "en": "The Army mutiny",
+     "as": "সেনা বিদ্ৰোহ"
+    },
+    {
+     "en": "The Air Force mutiny",
+     "as": "বায়ুসেনা বিদ্ৰোহ"
+    },
+    {
+     "en": "The Police mutiny",
+     "as": "আৰক্ষী বিদ্ৰোহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Royal Indian Navy mutiny took place in 1946.",
+    "as": "ৰয়েল ইণ্ডিয়ান নেভি বিদ্ৰোহ ১৯৪৬ চনত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-279",
+   "q": {
+    "en": "Who was the last Viceroy of India?",
+    "as": "ভাৰতৰ শেষ ভাইচৰয় কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Mountbatten",
+     "as": "লৰ্ড মাউণ্টবেটেন"
+    },
+    {
+     "en": "Lord Wavell",
+     "as": "লৰ্ড ৱেভেল"
+    },
+    {
+     "en": "Lord Linlithgow",
+     "as": "লৰ্ড লিনলিথগো"
+    },
+    {
+     "en": "Lord Irwin",
+     "as": "লৰ্ড আৰউইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Mountbatten was the last Viceroy of India.",
+    "as": "লৰ্ড মাউণ্টবেটেন ভাৰতৰ শেষ ভাইচৰয় আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-280",
+   "q": {
+    "en": "Which Act created the office of the Secretary of State for India?",
+    "as": "কোন আইনে ভাৰতৰ ৰাজ্য সচিবৰ পদ সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1858",
+     "as": "১৮৫৮ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1861",
+     "as": "১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1892",
+     "as": "১৮৯২ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1858 created the office of the Secretary of State for India.",
+    "as": "১৮৫৮ চনৰ ভাৰত শাসন আইনে ভাৰতৰ ৰাজ্য সচিবৰ পদ সৃষ্টি কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-281",
+   "q": {
+    "en": "Which Act introduced the portfolio system?",
+    "as": "কোন আইনে দপ্তৰ ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indian Councils Act 1861",
+     "as": "১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1892",
+     "as": "১৮৯২ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Government of India Act 1858",
+     "as": "১৮৫৮ চনৰ ভাৰত শাসন আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Councils Act 1861 introduced the portfolio system.",
+    "as": "১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইনে দপ্তৰ ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-282",
+   "q": {
+    "en": "Which Act introduced the principle of election in India?",
+    "as": "কোন আইনে ভাৰতত নিৰ্বাচনৰ নীতি প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indian Councils Act 1892",
+     "as": "১৮৯২ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1861",
+     "as": "১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Government of India Act 1858",
+     "as": "১৮৫৮ চনৰ ভাৰত শাসন আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Councils Act 1892 introduced the principle of election in India.",
+    "as": "১৮৯২ চনৰ ভাৰতীয় পৰিষদ আইনে ভাৰতত নিৰ্বাচনৰ নীতি প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-283",
+   "q": {
+    "en": "Which Act is also known as the Morley-Minto Reforms?",
+    "as": "কোন আইন মৰ্লে-মিণ্টো সংস্কাৰ হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1892",
+     "as": "১৮৯২ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1861",
+     "as": "১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Councils Act 1909 is also known as the Morley-Minto Reforms.",
+    "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন মৰ্লে-মিণ্টো সংস্কাৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-284",
+   "q": {
+    "en": "Which Act is also known as the Montagu-Chelmsford Reforms?",
+    "as": "কোন আইন মন্টেগু-চেমছফৰ্ড সংস্কাৰ হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Government of India Act 1935",
+     "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Independence Act 1947",
+     "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1919 is also known as the Montagu-Chelmsford Reforms.",
+    "as": "১৯১৯ চনৰ ভাৰত শাসন আইন মন্টেগু-চেমছফৰ্ড সংস্কাৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-285",
+   "q": {
+    "en": "Which Act introduced the bicameral legislature at the centre?",
+    "as": "কোন আইনে কেন্দ্ৰত দ্বিকক্ষীয় বিধানমণ্ডল প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1892",
+     "as": "১৮৯২ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Government of India Act 1858",
+     "as": "১৮৫৮ চনৰ ভাৰত শাসন আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1919 introduced the bicameral legislature at the centre.",
+    "as": "১৯১৯ চনৰ ভাৰত শাসন আইনে কেন্দ্ৰত দ্বিকক্ষীয় বিধানমণ্ডল প্ৰৱৰ্তন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-286",
+   "q": {
+    "en": "Which Act provided for a Federal Court in India?",
+    "as": "কোন আইনে ভাৰতত সংঘীয় ন্যায়ালয়ৰ ব্যৱস্থা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1935",
+     "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Independence Act 1947",
+     "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1935 provided for a Federal Court in India.",
+    "as": "১৯৩৫ চনৰ ভাৰত শাসন আইনে ভাৰতত সংঘীয় ন্যায়ালয়ৰ ব্যৱস্থা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-287",
+   "q": {
+    "en": "Which Act was the basis of the Indian Constitution?",
+    "as": "কোন আইন ভাৰতৰ সংবিধানৰ আধাৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Government of India Act 1935",
+     "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    },
+    {
+     "en": "The Indian Independence Act 1947",
+     "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Government of India Act 1935 was the basis of the Indian Constitution.",
+    "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন ভাৰতৰ সংবিধানৰ আধাৰ আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-288",
+   "q": {
+    "en": "Which Act provided for the partition of India?",
+    "as": "কোন আইনে ভাৰত বিভাজনৰ ব্যৱস্থা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indian Independence Act 1947",
+     "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইন"
+    },
+    {
+     "en": "The Government of India Act 1935",
+     "as": "১৯৩৫ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Government of India Act 1919",
+     "as": "১৯১৯ চনৰ ভাৰত শাসন আইন"
+    },
+    {
+     "en": "The Indian Councils Act 1909",
+     "as": "১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Independence Act 1947 provided for the partition of India.",
+    "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইনে ভাৰত বিভাজনৰ ব্যৱস্থা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-289",
+   "q": {
+    "en": "In which year was the Indian Independence Act passed?",
+    "as": "ভাৰত স্বাধীনতা আইন কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1946 CE",
+     "as": "১৯৪৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1935 CE",
+     "as": "১৯৩৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Independence Act was passed in 1947 CE.",
+    "as": "ভাৰত স্বাধীনতা আইন ১৯৪৭ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-290",
+   "q": {
+    "en": "Who was the last British Prime Minister to deal with Indian independence?",
+    "as": "ভাৰত স্বাধীনতাৰ লগত জড়িত শেষ ব্ৰিটিছ প্ৰধানমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Clement Attlee",
+     "as": "ক্লেমেণ্ট এটলি"
+    },
+    {
+     "en": "Winston Churchill",
+     "as": "উইনষ্টন চাৰ্চিল"
+    },
+    {
+     "en": "Ramsay MacDonald",
+     "as": "ৰেমচে মেকডনাল্ড"
+    },
+    {
+     "en": "Neville Chamberlain",
+     "as": "নেভিল চেম্বাৰলেইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Clement Attlee was the British Prime Minister when India gained independence.",
+    "as": "ভাৰত স্বাধীনতা লাভ কৰাৰ সময়ত ক্লেমেণ্ট এটলি ব্ৰিটিছ প্ৰধানমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-291",
+   "q": {
+    "en": "Which of the following was a feature of the Indian Councils Act 1861?",
+    "as": "তলৰ কোনটো ১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The beginning of the legislative devolution",
+     "as": "বিধায়ন ক্ষমতাৰ হস্তান্তৰৰ আৰম্ভণি"
+    },
+    {
+     "en": "The end of legislative councils",
+     "as": "বিধান পৰিষদৰ অন্ত"
+    },
+    {
+     "en": "The end of the Viceroy",
+     "as": "ভাইচৰয়ৰ অন্ত"
+    },
+    {
+     "en": "The end of the Governor-General",
+     "as": "গৱৰ্ণৰ-জেনেৰেলৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian Councils Act 1861 began the process of legislative devolution.",
+    "as": "১৮৬১ চনৰ ভাৰতীয় পৰিষদ আইনে বিধায়ন ক্ষমতাৰ হস্তান্তৰৰ প্ৰক্ৰিয়া আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-292",
+   "q": {
+    "en": "What kind of legislature was created at the centre by the Government of India Act 1919?",
+    "as": "১৯১৯ চনৰ ভাৰত শাসন আইনে কেন্দ্ৰত কি ধৰণৰ বিধানমণ্ডল সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Dyarchy in the provinces",
+     "as": "প্ৰদেশসমূহত দ্বৈত শাসন"
+    },
+    {
+     "en": "Provincial autonomy",
+     "as": "প্ৰাদেশিক স্বায়ত্তশাসন"
+    },
+    {
+     "en": "Separate electorates",
+     "as": "পৃথক নিৰ্বাচক মণ্ডল"
+    },
+    {
+     "en": "The Federal Court",
+     "as": "সংঘীয় ন্যায়ালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dyarchy in the provinces was a feature of the Government of India Act 1919.",
+    "as": "প্ৰদেশসমূহত দ্বৈত শাসন ১৯১৯ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-293",
+   "q": {
+    "en": "What happened to dyarchy in the provinces under the Government of India Act 1935?",
+    "as": "১৯৩৫ চনৰ ভাৰত শাসন আইনৰ অধীনত প্ৰদেশসমূহত দ্বৈত শাসনৰ কি হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Provincial autonomy",
+     "as": "প্ৰাদেশিক স্বায়ত্তশাসন"
+    },
+    {
+     "en": "Dyarchy in the provinces",
+     "as": "প্ৰদেশসমূহত দ্বৈত শাসন"
+    },
+    {
+     "en": "Separate electorates for Muslims",
+     "as": "মুছলমানসকলৰ বাবে পৃথক নিৰ্বাচক মণ্ডল"
+    },
+    {
+     "en": "The portfolio system",
+     "as": "দপ্তৰ ব্যৱস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Provincial autonomy was a feature of the Government of India Act 1935.",
+    "as": "প্ৰাদেশিক স্বায়ত্তশাসন ১৯৩৫ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-294",
+   "q": {
+    "en": "What new system was introduced at the centre by the Government of India Act 1935?",
+    "as": "১৯৩৫ চনৰ ভাৰত শাসন আইনে কেন্দ্ৰত কি নতুন ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The abolition of dyarchy in the provinces",
+     "as": "প্ৰদেশসমূহত দ্বৈত শাসনৰ বিলুপ্তি"
+    },
+    {
+     "en": "The introduction of dyarchy in the provinces",
+     "as": "প্ৰদেশসমূহত দ্বৈত শাসনৰ প্ৰৱৰ্তন"
+    },
+    {
+     "en": "The end of the legislature",
+     "as": "বিধানমণ্ডলৰ অন্ত"
+    },
+    {
+     "en": "The end of elections",
+     "as": "নিৰ্বাচনৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The abolition of dyarchy in the provinces was a feature of the Government of India Act 1935.",
+    "as": "প্ৰদেশসমূহত দ্বৈত শাসনৰ বিলুপ্তি ১৯৩৫ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-295",
+   "q": {
+    "en": "What happened to separate electorates under the Government of India Act 1935?",
+    "as": "১৯৩৫ চনৰ ভাৰত শাসন আইনৰ অধীনত পৃথক নিৰ্বাচক মণ্ডলৰ কি হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The introduction of dyarchy at the centre",
+     "as": "কেন্দ্ৰত দ্বৈত শাসনৰ প্ৰৱৰ্তন"
+    },
+    {
+     "en": "The end of the centre",
+     "as": "কেন্দ্ৰৰ অন্ত"
+    },
+    {
+     "en": "The end of the Governor-General",
+     "as": "গৱৰ্ণৰ-জেনেৰেলৰ অন্ত"
+    },
+    {
+     "en": "The end of the army",
+     "as": "সেনাৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The introduction of dyarchy at the centre was a feature of the Government of India Act 1935.",
+    "as": "কেন্দ্ৰত দ্বৈত শাসনৰ প্ৰৱৰ্তন ১৯৩৫ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-296",
+   "q": {
+    "en": "Which of the following was a feature of the Government of India Act 1935?",
+    "as": "তলৰ কোনটো ১৯৩৫ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The extension of separate electorates",
+     "as": "পৃথক নিৰ্বাচক মণ্ডলৰ সম্প্ৰসাৰণ"
+    },
+    {
+     "en": "The end of separate electorates",
+     "as": "পৃথক নিৰ্বাচক মণ্ডলৰ অন্ত"
+    },
+    {
+     "en": "The end of the franchise",
+     "as": "ভোটাধিকাৰৰ অন্ত"
+    },
+    {
+     "en": "The end of the provinces",
+     "as": "প্ৰদেশসমূহৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The extension of separate electorates was a feature of the Government of India Act 1935.",
+    "as": "পৃথক নিৰ্বাচক মণ্ডলৰ সম্প্ৰসাৰণ ১৯৩৫ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-297",
+   "q": {
+    "en": "Which of the following was a feature of the Indian Councils Act 1909?",
+    "as": "তলৰ কোনটো ১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "Separate electorates for Muslims",
+     "as": "মুছলমানসকলৰ বাবে পৃথক নিৰ্বাচক মণ্ডল"
+    },
+    {
+     "en": "Provincial autonomy",
+     "as": "প্ৰাদেশিক স্বায়ত্তশাসন"
+    },
+    {
+     "en": "Dyarchy in the provinces",
+     "as": "প্ৰদেশসমূহত দ্বৈত শাসন"
+    },
+    {
+     "en": "The Federal Court",
+     "as": "সংঘীয় ন্যায়ালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Separate electorates for Muslims was a feature of the Indian Councils Act 1909.",
+    "as": "মুছলমানসকলৰ বাবে পৃথক নিৰ্বাচক মণ্ডল ১৯০৯ চনৰ ভাৰতীয় পৰিষদ আইনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-298",
+   "q": {
+    "en": "What two houses were created at the centre by the Government of India Act 1919?",
+    "as": "১৯১৯ চনৰ ভাৰত শাসন আইনে কেন্দ্ৰত কি দুটা সদন সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The bicameral legislature at the centre",
+     "as": "কেন্দ্ৰত দ্বিকক্ষীয় বিধানমণ্ডল"
+    },
+    {
+     "en": "The unicameral legislature at the centre",
+     "as": "কেন্দ্ৰত এককক্ষীয় বিধানমণ্ডল"
+    },
+    {
+     "en": "Provincial autonomy",
+     "as": "প্ৰাদেশিক স্বায়ত্তশাসন"
+    },
+    {
+     "en": "The Federal Court",
+     "as": "সংঘীয় ন্যায়ালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The bicameral legislature at the centre was a feature of the Government of India Act 1919.",
+    "as": "কেন্দ্ৰত দ্বিকক্ষীয় বিধানমণ্ডল ১৯১৯ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-299",
+   "q": {
+    "en": "Which of the following was a feature of the Government of India Act 1919?",
+    "as": "তলৰ কোনটো ১৯১৯ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "A central legislative assembly and a council of state",
+     "as": "এক কেন্দ্ৰীয় বিধান সভা আৰু ৰাজ্য পৰিষদ"
+    },
+    {
+     "en": "The end of the legislature",
+     "as": "বিধানমণ্ডলৰ অন্ত"
+    },
+    {
+     "en": "The end of the Viceroy",
+     "as": "ভাইচৰয়ৰ অন্ত"
+    },
+    {
+     "en": "The end of elections",
+     "as": "নিৰ্বাচনৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A central legislative assembly and a council of state were features of the Government of India Act 1919.",
+    "as": "এক কেন্দ্ৰীয় বিধান সভা আৰু ৰাজ্য পৰিষদ ১৯১৯ চনৰ ভাৰত শাসন আইনৰ বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-300",
+   "q": {
+    "en": "In which year was the first session of the Indian National Congress held?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম অধিৱেশন কিমান চনত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1885 CE",
+     "as": "১৮৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1886 CE",
+     "as": "১৮৮৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1887 CE",
+     "as": "১৮৮৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1890 CE",
+     "as": "১৮৯০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first session of the Indian National Congress was held in 1885 CE.",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম অধিৱেশন ১৮৮৫ খ্ৰীষ্টাব্দত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-301",
+   "q": {
+    "en": "Where was the first session of the Indian National Congress held?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম অধিৱেশন ক'ত অনুষ্ঠিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Bombay",
+     "as": "বোম্বাই"
+    },
+    {
+     "en": "Calcutta",
+     "as": "কলিকতা"
+    },
+    {
+     "en": "Madras",
+     "as": "মাদ্ৰাজ"
+    },
+    {
+     "en": "Nagpur",
+     "as": "নাগপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first session of the Indian National Congress was held at Bombay.",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম অধিৱেশন বোম্বাইত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-302",
+   "q": {
+    "en": "In which year was the Congress split into Moderates and Extremists?",
+    "as": "কংগ্ৰেছ কিমান চনত নৰমপন্থী আৰু চৰমপন্থীত বিভক্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1907 CE",
+     "as": "১৯০৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1916 CE",
+     "as": "১৯১৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Congress split into Moderates and Extremists in 1907 at Surat.",
+    "as": "কংগ্ৰেছ ১৯০৭ চনত চুৰাটত নৰমপন্থী আৰু চৰমপন্থীত বিভক্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-303",
+   "q": {
+    "en": "Where did the Surat split of the Congress take place?",
+    "as": "কংগ্ৰেছৰ চুৰাট বিভাজন ক'ত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Surat",
+     "as": "চুৰাট"
+    },
+    {
+     "en": "Calcutta",
+     "as": "কলিকতা"
+    },
+    {
+     "en": "Bombay",
+     "as": "বোম্বাই"
+    },
+    {
+     "en": "Madras",
+     "as": "মাদ্ৰাজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Surat split of the Congress took place at Surat in 1907.",
+    "as": "কংগ্ৰেছৰ চুৰাট বিভাজন ১৯০৭ চনত চুৰাটত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-304",
+   "q": {
+    "en": "Who were the Moderates in the Congress?",
+    "as": "কংগ্ৰেছত নৰমপন্থীসকল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Leaders who believed in constitutional methods",
+     "as": "সাংবিধানিক পদ্ধতিত বিশ্বাসী নেতাসকল"
+    },
+    {
+     "en": "Leaders who believed in armed struggle",
+     "as": "সশস্ত্ৰ সংগ্ৰামত বিশ্বাসী নেতাসকল"
+    },
+    {
+     "en": "Leaders who believed in non-cooperation",
+     "as": "অসহযোগত বিশ্বাসী নেতাসকল"
+    },
+    {
+     "en": "Leaders who believed in partition",
+     "as": "বিভাজনত বিশ্বাসী নেতাসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Moderates believed in constitutional methods to achieve their aims.",
+    "as": "নৰমপন্থীসকলে তেওঁলোকৰ লক্ষ্য লাভৰ বাবে সাংবিধানিক পদ্ধতিত বিশ্বাস কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-305",
+   "q": {
+    "en": "Who were the Extremists in the Congress?",
+    "as": "কংগ্ৰেছত চৰমপন্থীসকল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Leaders who believed in more assertive methods",
+     "as": "অধিক দৃঢ় পদ্ধতিত বিশ্বাসী নেতাসকল"
+    },
+    {
+     "en": "Leaders who believed in constitutional methods",
+     "as": "সাংবিধানিক পদ্ধতিত বিশ্বাসী নেতাসকল"
+    },
+    {
+     "en": "Leaders who believed in cooperation",
+     "as": "সহযোগত বিশ্বাসী নেতাসকল"
+    },
+    {
+     "en": "Leaders who believed in partition",
+     "as": "বিভাজনত বিশ্বাসী নেতাসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Extremists believed in more assertive methods to achieve their aims.",
+    "as": "চৰমপন্থীসকলে তেওঁলোকৰ লক্ষ্য লাভৰ বাবে অধিক দৃঢ় পদ্ধতিত বিশ্বাস কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-306",
+   "q": {
+    "en": "Who is known as the 'Grand Old Man of the Congress'?",
+    "as": "কাক 'কংগ্ৰেছৰ প্ৰাচীন পুৰুষ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "W. C. Bonnerjee",
+     "as": "ডব্লিউ. চি. বেনাৰ্জী"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dadabhai Naoroji is known as the Grand Old Man of the Congress.",
+    "as": "দাদাভাই নৌৰজীক কংগ্ৰেছৰ প্ৰাচীন পুৰুষ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-307",
+   "q": {
+    "en": "Which session of the Congress is known as the 'Banaras session'?",
+    "as": "কংগ্ৰেছৰ কোন অধিৱেশন 'বনাৰস অধিৱেশন' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The 1905 session",
+     "as": "১৯০৫ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1885 session",
+     "as": "১৮৮৫ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1907 session",
+     "as": "১৯০৭ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1920 session",
+     "as": "১৯২০ চনৰ অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 1905 session of the Congress is known as the Banaras session.",
+    "as": "কংগ্ৰেছৰ ১৯০৫ চনৰ অধিৱেশন বনাৰস অধিৱেশন হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-308",
+   "q": {
+    "en": "Which session of the Congress is known as the 'Calcutta session' of 1906?",
+    "as": "কংগ্ৰেছৰ কোন ১৯০৬ চনৰ অধিৱেশন 'কলিকতা অধিৱেশন' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The 1906 session",
+     "as": "১৯০৬ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1905 session",
+     "as": "১৯০৫ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1907 session",
+     "as": "১৯০৭ চনৰ অধিৱেশন"
+    },
+    {
+     "en": "The 1920 session",
+     "as": "১৯২০ চনৰ অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The 1906 session of the Congress was held at Calcutta.",
+    "as": "কংগ্ৰেছৰ ১৯০৬ চনৰ অধিৱেশন কলিকতাত অনুষ্ঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-309",
+   "q": {
+    "en": "Which session of the Congress first demanded 'Swaraj'?",
+    "as": "কংগ্ৰেছৰ কোন অধিৱেশনত প্ৰথমে 'স্বৰাজ' দাবী কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Calcutta session of 1906",
+     "as": "১৯০৬ চনৰ কলিকতা অধিৱেশন"
+    },
+    {
+     "en": "The Lahore session of 1929",
+     "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশন"
+    },
+    {
+     "en": "The Nagpur session of 1920",
+     "as": "১৯২০ চনৰ নাগপুৰ অধিৱেশন"
+    },
+    {
+     "en": "The Surat session of 1907",
+     "as": "১৯০৭ চনৰ চুৰাট অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Calcutta session of 1906 first demanded Swaraj.",
+    "as": "১৯০৬ চনৰ কলিকতা অধিৱেশনত প্ৰথমে স্বৰাজ দাবী কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-310",
+   "q": {
+    "en": "Who presided over the Calcutta session of the Congress in 1906?",
+    "as": "১৯০৬ চনত কংগ্ৰেছৰ কলিকতা অধিৱেশনৰ সভাপতিত্ব কোনে কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Surendranath Banerjee",
+     "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dadabhai Naoroji presided over the Calcutta session of the Congress in 1906.",
+    "as": "দাদাভাই নৌৰজীয়ে ১৯০৬ চনত কংগ্ৰেছৰ কলিকতা অধিৱেশনৰ সভাপতিত্ব কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-311",
+   "q": {
+    "en": "Which session of the Congress adopted the Non-Cooperation programme?",
+    "as": "কংগ্ৰেছৰ কোন অধিৱেশনত অসহযোগ কাৰ্যসূচী গ্ৰহণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Nagpur session of 1920",
+     "as": "১৯২০ চনৰ নাগপুৰ অধিৱেশন"
+    },
+    {
+     "en": "The Lahore session of 1929",
+     "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশন"
+    },
+    {
+     "en": "The Calcutta session of 1906",
+     "as": "১৯০৬ চনৰ কলিকতা অধিৱেশন"
+    },
+    {
+     "en": "The Surat session of 1907",
+     "as": "১৯০৭ চনৰ চুৰাট অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nagpur session of 1920 adopted the Non-Cooperation programme.",
+    "as": "১৯২০ চনৰ নাগপুৰ অধিৱেশনত অসহযোগ কাৰ্যসূচী গ্ৰহণ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-312",
+   "q": {
+    "en": "Which session of the Congress adopted the Civil Disobedience programme?",
+    "as": "কংগ্ৰেছৰ কোন অধিৱেশনত আইন অমান্য কাৰ্যসূচী গ্ৰহণ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Lahore session of 1929",
+     "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশন"
+    },
+    {
+     "en": "The Nagpur session of 1920",
+     "as": "১৯২০ চনৰ নাগপুৰ অধিৱেশন"
+    },
+    {
+     "en": "The Calcutta session of 1906",
+     "as": "১৯০৬ চনৰ কলিকতা অধিৱেশন"
+    },
+    {
+     "en": "The Surat session of 1907",
+     "as": "১৯০৭ চনৰ চুৰাট অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Lahore session of 1929 adopted the Civil Disobedience programme.",
+    "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশনত আইন অমান্য কাৰ্যসূচী গ্ৰহণ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-313",
+   "q": {
+    "en": "Who presided over the Nagpur session of the Congress in 1920?",
+    "as": "১৯২০ চনত কংগ্ৰেছৰ নাগপুৰ অধিৱেশনৰ সভাপতিত্ব কোনে কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "C. Vijayaraghavachariar",
+     "as": "চি. বিজয়াৰাঘৱচাৰিয়াৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "C. Vijayaraghavachariar presided over the Nagpur session of the Congress in 1920.",
+    "as": "চি. বিজয়াৰাঘৱচাৰিয়াৰে ১৯২০ চনত কংগ্ৰেছৰ নাগপুৰ অধিৱেশনৰ সভাপতিত্ব কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-314",
+   "q": {
+    "en": "In which year was the Indian National Congress's Constitution drafted?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ সংবিধান কিমান চনত খচৰা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1885 CE",
+     "as": "১৮৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1906 CE",
+     "as": "১৯০৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1929 CE",
+     "as": "১৯২৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Constitution of the Indian National Congress was drafted in 1920.",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ সংবিধান ১৯২০ চনত খচৰা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-315",
+   "q": {
+    "en": "Who drafted the Constitution of the Indian National Congress?",
+    "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ সংবিধান কোনে খচৰা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi drafted the Constitution of the Indian National Congress in 1920.",
+    "as": "মহাত্মা গান্ধীয়ে ১৯২০ চনত ভাৰতীয় জাতীয় কংগ্ৰেছৰ সংবিধান খচৰা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-316",
+   "q": {
+    "en": "Which session of the Congress passed the Purna Swaraj resolution?",
+    "as": "কংগ্ৰেছৰ কোন অধিৱেশনত পূৰ্ণ স্বৰাজ প্ৰস্তাৱ গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Lahore session of 1929",
+     "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশন"
+    },
+    {
+     "en": "The Nagpur session of 1920",
+     "as": "১৯২০ চনৰ নাগপুৰ অধিৱেশন"
+    },
+    {
+     "en": "The Calcutta session of 1906",
+     "as": "১৯০৬ চনৰ কলিকতা অধিৱেশন"
+    },
+    {
+     "en": "The Karachi session of 1931",
+     "as": "১৯৩১ চনৰ কৰাচী অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Lahore session of 1929 passed the Purna Swaraj resolution.",
+    "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশনত পূৰ্ণ স্বৰাজ প্ৰস্তাৱ গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-317",
+   "q": {
+    "en": "Which session of the Congress passed the Fundamental Rights resolution?",
+    "as": "কংগ্ৰেছৰ কোন অধিৱেশনত মৌলিক অধিকাৰ প্ৰস্তাৱ গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Karachi session of 1931",
+     "as": "১৯৩১ চনৰ কৰাচী অধিৱেশন"
+    },
+    {
+     "en": "The Lahore session of 1929",
+     "as": "১৯২৯ চনৰ লাহোৰ অধিৱেশন"
+    },
+    {
+     "en": "The Nagpur session of 1920",
+     "as": "১৯২০ চনৰ নাগপুৰ অধিৱেশন"
+    },
+    {
+     "en": "The Calcutta session of 1906",
+     "as": "১৯০৬ চনৰ কলিকতা অধিৱেশন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Karachi session of 1931 passed the Fundamental Rights resolution.",
+    "as": "১৯৩১ চনৰ কৰাচী অধিৱেশনত মৌলিক অধিকাৰ প্ৰস্তাৱ গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-318",
+   "q": {
+    "en": "Who presided over the Karachi session of the Congress in 1931?",
+    "as": "১৯৩১ চনত কংগ্ৰেছৰ কৰাচী অধিৱেশনৰ সভাপতিত্ব কোনে কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sardar Vallabhbhai Patel",
+     "as": "ছৰ্দাৰ বল্লভভাই পেটেল"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sardar Vallabhbhai Patel presided over the Karachi session of the Congress in 1931.",
+    "as": "ছৰ্দাৰ বল্লভভাই পেটেলে ১৯৩১ চনত কংগ্ৰেছৰ কৰাচী অধিৱেশনৰ সভাপতিত্ব কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-319",
+   "q": {
+    "en": "In which year did Subhas Chandra Bose resign as Congress president?",
+    "as": "সুভাষ চন্দ্ৰ বসুৱে কিমান চনত কংগ্ৰেছ সভাপতিৰ পদৰ পৰা পদত্যাগ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1939 CE",
+     "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1938 CE",
+     "as": "১৯৩৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1940 CE",
+     "as": "১৯৪০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1942 CE",
+     "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Subhas Chandra Bose resigned as Congress president in 1939.",
+    "as": "সুভাষ চন্দ্ৰ বসুৱে ১৯৩৯ চনত কংগ্ৰেছ সভাপতিৰ পদৰ পৰা পদত্যাগ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-320",
+   "q": {
+    "en": "In which year was Subhas Chandra Bose first elected Congress president?",
+    "as": "সুভাষ চন্দ্ৰ বসু প্ৰথমে কিমান চনত কংগ্ৰেছ সভাপতি নিৰ্বাচিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1938 CE",
+     "as": "১৯৩৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1939 CE",
+     "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1937 CE",
+     "as": "১৯৩৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1940 CE",
+     "as": "১৯৪০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Subhas Chandra Bose was first elected Congress president in 1938.",
+    "as": "সুভাষ চন্দ্ৰ বসু প্ৰথমে ১৯৩৮ চনত কংগ্ৰেছ সভাপতি নিৰ্বাচিত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-321",
+   "q": {
+    "en": "Who defeated Subhas Chandra Bose in the 1939 Congress presidential election?",
+    "as": "১৯৩৯ চনৰ কংগ্ৰেছ সভাপতি নিৰ্বাচনত সুভাষ চন্দ্ৰ বসুক কোনে পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "S. Srinivasa Iyengar (with Gandhi's support)",
+     "as": "এছ. শ্ৰীনিৱাস আয়ংগাৰ (গান্ধীৰ সমৰ্থনত)"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    },
+    {
+     "en": "Rajendra Prasad",
+     "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Subhas Chandra Bose defeated Pattabhi Sitaramayya in the 1939 election, and the controversy led to his resignation.",
+    "as": "সুভাষ চন্দ্ৰ বসুৱে ১৯৩৯ চনৰ নিৰ্বাচনত পট্টাভি সীতাৰামাইয়াক পৰাস্ত কৰিছিল, আৰু বিতৰ্কই তেওঁৰ পদত্যাগলৈ লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-322",
+   "q": {
+    "en": "Which day did Gandhi observe as a day of fasting and prayer after the Jallianwala Bagh massacre?",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ পিছত গান্ধীয়ে কোন দিনটো উপবাস আৰু প্ৰাৰ্থনাৰ দিন হিচাপে পালন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "He observed a day of fasting and prayer",
+     "as": "তেওঁ উপবাস আৰু প্ৰাৰ্থনাৰ এটা দিন পালন কৰিছিল"
+    },
+    {
+     "en": "He observed a day of celebration",
+     "as": "তেওঁ উদযাপনৰ এটা দিন পালন কৰিছিল"
+    },
+    {
+     "en": "He observed a day of mourning only",
+     "as": "তেওঁ কেৱল শোকৰ এটা দিন পালন কৰিছিল"
+    },
+    {
+     "en": "He observed a day of silence",
+     "as": "তেওঁ নীৰৱতাৰ এটা দিন পালন কৰিছিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gandhi observed a day of fasting and prayer after the Jallianwala Bagh massacre.",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ পিছত গান্ধীয়ে উপবাস আৰু প্ৰাৰ্থনাৰ এটা দিন পালন কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-323",
+   "q": {
+    "en": "Who returned the title 'Kaiser-i-Hind' to protest the Jallianwala Bagh massacre?",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ প্ৰতিবাদত কোনে 'কাইজাৰ-ই-হিন্দ' উপাধি ঘূৰাই দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi returned the title Kaiser-i-Hind to protest the Jallianwala Bagh massacre.",
+    "as": "মহাত্মা গান্ধীয়ে জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ প্ৰতিবাদত কাইজাৰ-ই-হিন্দ উপাধি ঘূৰাই দিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-324",
+   "q": {
+    "en": "Who renounced his knighthood to protest the Jallianwala Bagh massacre?",
+    "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ প্ৰতিবাদত কোনে তেওঁৰ নাইট উপাধি ত্যাগ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Rabindranath Tagore",
+     "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rabindranath Tagore renounced his knighthood to protest the Jallianwala Bagh massacre.",
+    "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ প্ৰতিবাদত তেওঁৰ নাইট উপাধি ত্যাগ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-325",
+   "q": {
+    "en": "Who started the Khilafat movement in India?",
+    "as": "ভাৰতত খিলাফত আন্দোলন কোনে আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Muhammad Ali and Shaukat Ali",
+     "as": "মুহম্মদ আলী আৰু শওকত আলী"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muhammad Ali and Shaukat Ali started the Khilafat movement in India.",
+    "as": "মুহম্মদ আলী আৰু শওকত আলীয়ে ভাৰতত খিলাফত আন্দোলন আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-326",
+   "q": {
+    "en": "Which movement did Gandhi combine with the Khilafat movement?",
+    "as": "গান্ধীয়ে খিলাফত আন্দোলনৰ সৈতে কোন আন্দোলন সংযুক্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Non-Cooperation Movement",
+     "as": "অসহযোগ আন্দোলন"
+    },
+    {
+     "en": "The Civil Disobedience Movement",
+     "as": "আইন অমান্য আন্দোলন"
+    },
+    {
+     "en": "The Quit India Movement",
+     "as": "ভাৰত ত্যাগ আন্দোলন"
+    },
+    {
+     "en": "The Home Rule Movement",
+     "as": "হোম ৰুল আন্দোলন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gandhi combined the Non-Cooperation Movement with the Khilafat movement.",
+    "as": "গান্ধীয়ে অসহযোগ আন্দোলনক খিলাফত আন্দোলনৰ সৈতে সংযুক্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-327",
+   "q": {
+    "en": "Who started the Home Rule Movement in India?",
+    "as": "ভাৰতত হোম ৰুল আন্দোলন কোনে আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Annie Besant started the Home Rule Movement in India.",
+    "as": "এনি বেছাণ্টে ভাৰতত হোম ৰুল আন্দোলন আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-328",
+   "q": {
+    "en": "Who also started a Home Rule League in India?",
+    "as": "ভাৰতত হোম ৰুল লীগ কোনে আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bal Gangadhar Tilak also started a Home Rule League in India.",
+    "as": "বাল গঙ্গাধৰ তিলকে ভাৰতত হোম ৰুল লীগ আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-329",
+   "q": {
+    "en": "In which year was the Home Rule Movement started?",
+    "as": "হোম ৰুল আন্দোলন কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1916 CE",
+     "as": "১৯১৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1915 CE",
+     "as": "১৯১৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Home Rule Movement was started in 1916 CE.",
+    "as": "হোম ৰুল আন্দোলন ১৯১৬ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-330",
+   "q": {
+    "en": "Which of the following was a feature of the Home Rule Movement?",
+    "as": "তলৰ কোনটো হোম ৰুল আন্দোলনৰ এটা বৈশিষ্ট্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "The demand for self-government within the empire",
+     "as": "সাম্ৰাজ্যৰ ভিতৰত স্ব-শাসনৰ দাবী"
+    },
+    {
+     "en": "The demand for complete independence",
+     "as": "সম্পূৰ্ণ স্বাধীনতাৰ দাবী"
+    },
+    {
+     "en": "The demand for partition",
+     "as": "বিভাজনৰ দাবী"
+    },
+    {
+     "en": "The demand for a separate state",
+     "as": "এখন পৃথক ৰাজ্যৰ দাবী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Home Rule Movement demanded self-government within the British Empire.",
+    "as": "হোম ৰুল আন্দোলনে ব্ৰিটিছ সাম্ৰাজ্যৰ ভিতৰত স্ব-শাসনৰ দাবী কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-331",
+   "q": {
+    "en": "Who founded the Servants of the People Society?",
+    "as": "ছাৰভেণ্টছ অৱ দ্য পিপল ছ'চাইটি কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lala Lajpat Rai founded the Servants of the People Society.",
+    "as": "লালা লাজপত ৰায়ে ছাৰভেণ্টছ অৱ দ্য পিপল ছ'চাইটি প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-332",
+   "q": {
+    "en": "Who is known as the 'Punjab Kesari'?",
+    "as": "কাক 'পঞ্জাব কেশৰী' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Bipin Chandra Pal",
+     "as": "বিপিন চন্দ্ৰ পাল"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lala Lajpat Rai is known as the Punjab Kesari.",
+    "as": "লালা লাজপত ৰায়ক পঞ্জাব কেশৰী বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-333",
+   "q": {
+    "en": "Who is known as the 'Lion of Punjab'?",
+    "as": "কাক 'পঞ্জাবৰ সিংহ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Bipin Chandra Pal",
+     "as": "বিপিন চন্দ্ৰ পাল"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "as": "গোপাল কৃষ্ণ গোখলে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lala Lajpat Rai is known as the Lion of Punjab.",
+    "as": "লালা লাজপত ৰায়ক পঞ্জাবৰ সিংহ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "indian-history-modern-334",
+   "q": {
+    "en": "Who founded the newspaper 'Bande Mataram'?",
+    "as": "'বন্দে মাতৰম' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Aurobindo Ghosh",
+     "as": "অৰবিন্দ ঘোষ"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Bipin Chandra Pal",
+     "as": "বিপিন চন্দ্ৰ পাল"
+    },
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aurobindo Ghosh founded the newspaper Bande Mataram.",
+    "as": "অৰবিন্দ ঘোষে বন্দে মাতৰম বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-335",
+   "q": {
+    "en": "Who founded the newspaper 'Kesari'?",
+    "as": "'কেশৰী' বাতৰি কাকত কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bal Gangadhar Tilak",
+     "as": "বাল গঙ্গাধৰ তিলক"
+    },
+    {
+     "en": "Aurobindo Ghosh",
+     "as": "অৰবিন্দ ঘোষ"
+    },
+    {
+     "en": "Bipin Chandra Pal",
+     "as": "বিপিন চন্দ্ৰ পাল"
+    },
+    {
+     "en": "Lala Lajpat Rai",
+     "as": "লালা লাজপত ৰায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bal Gangadhar Tilak founded the newspaper Kesari.",
+    "as": "বাল গঙ্গাধৰ তিলকে কেশৰী বাতৰি কাকত প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-336",
+   "q": {
+    "en": "Which Viceroy repealed the Vernacular Press Act?",
+    "as": "কোন ভাইচৰয়ে ভাৰ্নাকুলাৰ প্ৰেছ আইন ৰদ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lord Ripon",
+     "as": "লৰ্ড ৰিপন"
+    },
+    {
+     "en": "Lord Lytton",
+     "as": "লৰ্ড লিটন"
+    },
+    {
+     "en": "Lord Curzon",
+     "as": "লৰ্ড কাৰ্জন"
+    },
+    {
+     "en": "Lord Minto",
+     "as": "লৰ্ড মিণ্টো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lord Ripon repealed the Vernacular Press Act.",
+    "as": "লৰ্ড ৰিপনে ভাৰ্নাকুলাৰ প্ৰেছ আইন ৰদ কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-337",
+   "q": {
+    "en": "Which social reformer is associated with the Age of Consent Act?",
+    "as": "কোন সমাজ সংস্কাৰকে বয়স সম্মতি আইনৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "B. M. Malabari",
+     "as": "বি. এম. মালাবাৰী"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B. M. Malabari is associated with the Age of Consent Act.",
+    "as": "বি. এম. মালাবাৰী বয়স সম্মতি আইনৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "indian-history-modern-338",
+   "q": {
+    "en": "In which year was the Age of Consent Act passed?",
+    "as": "বয়স সম্মতি আইন কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1891 CE",
+     "as": "১৮৯১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1856 CE",
+     "as": "১৮৫৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1829 CE",
+     "as": "১৮২৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1929 CE",
+     "as": "১৯২৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Age of Consent Act was passed in 1891 CE.",
+    "as": "বয়স সম্মতি আইন ১৮৯১ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-339",
+   "q": {
+    "en": "Who founded the National Social Conference?",
+    "as": "ৰাষ্ট্ৰীয় সমাজ সন্মিলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "M. G. Ranade",
+     "as": "এম. জি. ৰানাডে"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "M. G. Ranade founded the National Social Conference.",
+    "as": "এম. জি. ৰানাডেয়ে ৰাষ্ট্ৰীয় সমাজ সন্মিলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-340",
+   "q": {
+    "en": "Who founded the Indian Social Conference?",
+    "as": "ভাৰতীয় সমাজ সন্মিলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "M. G. Ranade and R. Ragunath Rao",
+     "as": "এম. জি. ৰানাডে আৰু আৰ. ৰঘুনাথ ৰাও"
+    },
+    {
+     "en": "Raja Ram Mohan Roy",
+     "as": "ৰাজা ৰামমোহন ৰায়"
+    },
+    {
+     "en": "Ishwar Chandra Vidyasagar",
+     "as": "ঈশ্বৰ চন্দ্ৰ বিদ্যাসাগৰ"
+    },
+    {
+     "en": "Dayanand Saraswati",
+     "as": "দয়ানন্দ সৰস্বতী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "M. G. Ranade and R. Ragunath Rao founded the Indian Social Conference.",
+    "as": "এম. জি. ৰানাডে আৰু আৰ. ৰঘুনাথ ৰাৱে ভাৰতীয় সমাজ সন্মিলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-341",
+   "q": {
+    "en": "Who was the first woman graduate of the University of Calcutta?",
+    "as": "কলিকতা বিশ্ববিদ্যালয়ৰ প্ৰথম মহিলা স্নাতক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Kadambini Ganguly and Chandramukhi Basu",
+     "as": "কাদম্বিনী গাংগুলী আৰু চন্দ্ৰমুখী বসু"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Kamala Nehru",
+     "as": "কমলা নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kadambini Ganguly and Chandramukhi Basu were the first women graduates of the University of Calcutta.",
+    "as": "কাদম্বিনী গাংগুলী আৰু চন্দ্ৰমুখী বসু কলিকতা বিশ্ববিদ্যালয়ৰ প্ৰথম মহিলা স্নাতক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-342",
+   "q": {
+    "en": "Who was the first Indian woman doctor?",
+    "as": "প্ৰথম ভাৰতীয় মহিলা চিকিৎসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Anandibai Joshi",
+     "as": "আনন্দীবাই যোশী"
+    },
+    {
+     "en": "Kadambini Ganguly",
+     "as": "কাদম্বিনী গাংগুলী"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Anandibai Joshi was the first Indian woman doctor.",
+    "as": "আনন্দীবাই যোশী প্ৰথম ভাৰতীয় মহিলা চিকিৎসক আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-343",
+   "q": {
+    "en": "Who was the first woman to practise medicine in India?",
+    "as": "ভাৰতত চিকিৎসা কৰা প্ৰথম মহিলা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Kadambini Ganguly",
+     "as": "কাদম্বিনী গাংগুলী"
+    },
+    {
+     "en": "Anandibai Joshi",
+     "as": "আনন্দীবাই যোশী"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kadambini Ganguly was the first woman to practise medicine in India.",
+    "as": "কাদম্বিনী গাংগুলী ভাৰতত চিকিৎসা কৰা প্ৰথম মহিলা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-344",
+   "q": {
+    "en": "Who founded the Bharat Stree Mahamandal?",
+    "as": "ভাৰত স্ত্ৰী মহামণ্ডল কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarala Devi Chaudhurani",
+     "as": "সৰলা দেৱী চৌধুৰাণী"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Kamala Nehru",
+     "as": "কমলা নেহৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sarala Devi Chaudhurani founded the Bharat Stree Mahamandal.",
+    "as": "সৰলা দেৱী চৌধুৰাণীয়ে ভাৰত স্ত্ৰী মহামণ্ডল প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-345",
+   "q": {
+    "en": "Who was the first Muslim woman to become a teacher in India?",
+    "as": "ভাৰতত শিক্ষক হোৱা প্ৰথম মুছলমান মহিলা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Amina Tyabji",
+     "as": "আমিনা তায়বজী"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
+    },
+    {
+     "en": "Begum Rokeya",
+     "as": "বেগম ৰ'কেয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amina Tyabji was the first Muslim woman to become a teacher in India.",
+    "as": "আমিনা তায়বজী ভাৰতত শিক্ষক হোৱা প্ৰথম মুছলমান মহিলা আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-346",
+   "q": {
+    "en": "What intellectual trend marked the Indian Renaissance?",
+    "as": "ভাৰতীয় নৱজাগৰণত কোন বৌদ্ধিক প্ৰৱণতা আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of rationalism and social reform",
+     "as": "যুক্তিবাদ আৰু সমাজ সংস্কাৰৰ বিকাশ"
+    },
+    {
+     "en": "The end of religion",
+     "as": "ধৰ্মৰ অন্ত"
+    },
+    {
+     "en": "The end of education",
+     "as": "শিক্ষাৰ অন্ত"
+    },
+    {
+     "en": "The end of society",
+     "as": "সমাজৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of rationalism and social reform was a feature of the Indian Renaissance.",
+    "as": "যুক্তিবাদ আৰু সমাজ সংস্কাৰৰ বিকাশ ভাৰতীয় নৱজাগৰণৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-347",
+   "q": {
+    "en": "What literary trend marked the Indian Renaissance?",
+    "as": "ভাৰতীয় নৱজাগৰণত কোন সাহিত্যিক প্ৰৱণতা আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of vernacular literature",
+     "as": "দেশজ ভাষাৰ সাহিত্যৰ বিকাশ"
+    },
+    {
+     "en": "The decline of literature",
+     "as": "সাহিত্যৰ অৱনতি"
+    },
+    {
+     "en": "The end of languages",
+     "as": "ভাষাৰ অন্ত"
+    },
+    {
+     "en": "The end of writing",
+     "as": "লিখাৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of vernacular literature was a feature of the Indian Renaissance.",
+    "as": "দেশজ ভাষাৰ সাহিত্যৰ বিকাশ ভাৰতীয় নৱজাগৰণৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-348",
+   "q": {
+    "en": "What media trend marked the Indian Renaissance?",
+    "as": "ভাৰতীয় নৱজাগৰণত কোন মাধ্যম প্ৰৱণতা আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of the modern press",
+     "as": "আধুনিক বাতৰি কাকতৰ বিকাশ"
+    },
+    {
+     "en": "The end of the press",
+     "as": "বাতৰি কাকতৰ অন্ত"
+    },
+    {
+     "en": "The end of printing",
+     "as": "ছপা কামৰ অন্ত"
+    },
+    {
+     "en": "The end of writing",
+     "as": "লিখাৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of the modern press was a feature of the Indian Renaissance.",
+    "as": "আধুনিক বাতৰি কাকতৰ বিকাশ ভাৰতীয় নৱজাগৰণৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-349",
+   "q": {
+    "en": "What change in women's status marked the Indian Renaissance?",
+    "as": "ভাৰতীয় নৱজাগৰণত মহিলাৰ মৰ্যাদাৰ কি পৰিৱৰ্তন ঘটিছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of women's education",
+     "as": "মহিলা শিক্ষাৰ বিকাশ"
+    },
+    {
+     "en": "The end of women's education",
+     "as": "মহিলা শিক্ষাৰ অন্ত"
+    },
+    {
+     "en": "The end of education",
+     "as": "শিক্ষাৰ অন্ত"
+    },
+    {
+     "en": "The end of society",
+     "as": "সমাজৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of women's education was a feature of the Indian Renaissance.",
+    "as": "মহিলা শিক্ষাৰ বিকাশ ভাৰতীয় নৱজাগৰণৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "indian-history-modern-350",
+   "q": {
+    "en": "What political consciousness marked the Indian Renaissance?",
+    "as": "ভাৰতীয় নৱজাগৰণত কোন ৰাজনৈতিক চেতনা আছিল?"
+   },
+   "options": [
+    {
+     "en": "The growth of national consciousness",
+     "as": "জাতীয় চেতনাৰ বিকাশ"
+    },
+    {
+     "en": "The end of nationalism",
+     "as": "জাতীয়তাবাদৰ অন্ত"
+    },
+    {
+     "en": "The end of patriotism",
+     "as": "দেশপ্ৰেমৰ অন্ত"
+    },
+    {
+     "en": "The end of politics",
+     "as": "ৰাজনীতিৰ অন্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The growth of national consciousness was a feature of the Indian Renaissance.",
+    "as": "জাতীয় চেতনাৰ বিকাশ ভাৰতীয় নৱজাগৰণৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  }
  ]
 };
