@@ -103,6 +103,7 @@ data/exams/adre-grade-3/
 | General Knowledge & Assam GK | India General Knowledge → Important Days & Dates | `general-knowledge-assam-gk/india-general-knowledge/important-days-dates` |
 | General Knowledge & Assam GK | India General Knowledge → Awards & Honours | `general-knowledge-assam-gk/india-general-knowledge/awards-honours` |
 | General Knowledge & Assam GK | India General Knowledge → Sports | `general-knowledge-assam-gk/india-general-knowledge/sports` |
+| General Knowledge & Assam GK | India General Knowledge → Indian Geography | `general-knowledge-assam-gk/india-general-knowledge/indian-geography` |
 | General Knowledge & Assam GK | Current Affairs → Assam & India Current Affairs | `general-knowledge-assam-gk/current-affairs/assam-india-current-affairs` |
 | General Knowledge & Assam GK | Current Affairs → Government Schemes | `general-knowledge-assam-gk/current-affairs/government-schemes` |
 | Reasoning & Mental Ability | Verbal Reasoning → Number Series & Alphabet Series | `logical-reasoning/verbal-reasoning/number-alphabet-series` |

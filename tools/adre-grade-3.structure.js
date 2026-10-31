@@ -167,6 +167,7 @@ const EXAM = {
             { id: "important-days-dates", title: { en: "Important Days & Dates", as: "উল্লেখযোগ্য দিন আৰু দিৱস (Important Days & Dates)।" } },
             { id: "awards-honours", title: { en: "Awards & Honours", as: "বঁটা আৰু সন্মান (Awards & Honours)।" } },
             { id: "sports", title: { en: "Sports", as: "খেল-ধেমালি (Sports)।" } },
+            { id: "indian-geography", title: { en: "Indian Geography", as: "ভাৰতৰ ভূগোল (Indian Geography)।" } },
           ],
         },
         {
