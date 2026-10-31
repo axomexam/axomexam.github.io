@@ -26,7 +26,9 @@ const OUT = path.join(__dirname, "adre-grade-3.questions.english.js");
 const TOPICS = [
   "antonyms",
   "articles-determiners",
+  "idioms-phrases",
   "narration",
+  "one-word-substitution",
   "parts-of-speech",
   "prepositions",
   "subject-verb-agreement",
