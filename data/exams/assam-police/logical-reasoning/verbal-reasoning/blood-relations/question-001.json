@@ -7,10 +7,6 @@
     },
     "options": [
       {
-        "en": "Nephew",
-        "as": "ভতিজা"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
       },
@@ -21,9 +17,13 @@
       {
         "en": "Uncle",
         "as": "খুড়া"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Rina's mother's only son is Rina's brother; his son is her nephew.",
       "as": "ৰিনাৰ মাকৰ একমাত্ৰ পুত্ৰ ৰিনাৰ ভাই; তেওঁৰ পুত্ৰ ৰিনাৰ ভতিজা।"
@@ -37,12 +37,12 @@
     },
     "options": [
       {
-        "en": "Grandfather",
-        "as": "ককা"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককা"
       },
       {
         "en": "Uncle",
@@ -53,7 +53,7 @@
         "as": "ভাই"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A is the father of B, and B is the mother of C, so A is C's grandfather.",
       "as": "A,B ৰ দেউতা আৰু B,C ৰ মাক, গতিকে A হৈছে C ৰ ককা।"
@@ -67,10 +67,6 @@
     },
     "options": [
       {
-        "en": "Wife",
-        "as": "পত্নী"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -79,11 +75,15 @@
         "as": "মাক"
       },
       {
+        "en": "Wife",
+        "as": "পত্নী"
+      },
+      {
         "en": "Aunt",
         "as": "খুড়ী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Rahul's father's only son is Rahul himself; his wife is Rahul's wife.",
       "as": "ৰাহুলৰ দেউতাৰ একমাত্ৰ পুত্ৰ ৰাহুল নিজেই; তেওঁৰ পত্নী ৰাহুলৰ পত্নী।"
@@ -97,12 +97,12 @@
     },
     "options": [
       {
-        "en": "Son",
-        "as": "পুত্ৰ"
-      },
-      {
         "en": "Brother",
         "as": "ভাই"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
       },
       {
         "en": "Father",
@@ -113,7 +113,7 @@
         "as": "খুড়া"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "X and Y are children of Z, so X is Z's son.",
       "as": "X আৰু Y,Z ৰ সন্তান, গতিকে X হৈছে Z ৰ পুত্ৰ।"
@@ -157,12 +157,12 @@
     },
     "options": [
       {
-        "en": "Brother",
-        "as": "ভাই"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
       },
       {
         "en": "Uncle",
@@ -173,7 +173,7 @@
         "as": "পুত্ৰ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The girl's grandfather's only son is her father; his only son is her brother.",
       "as": "ছোৱালীজনীৰ ককাৰ একমাত্ৰ পুত্ৰ তাইৰ দেউতা; তেওঁৰ একমাত্ৰ পুত্ৰ তাইৰ ভাই।"
@@ -187,10 +187,6 @@
     },
     "options": [
       {
-        "en": "Mother",
-        "as": "মাক"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -201,9 +197,13 @@
       {
         "en": "Grandmother",
         "as": "আইতা"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "B and C have the same mother A, so A is C's mother.",
       "as": "B আৰু C ৰ মাক একেই A, গতিকে A হৈছে C ৰ মাক।"
@@ -217,12 +217,12 @@
     },
     "options": [
       {
-        "en": "Cousin",
-        "as": "খুড়তু"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুড়তু"
       },
       {
         "en": "Aunt",
@@ -233,7 +233,7 @@
         "as": "ভতিজী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The man's father's sister is his aunt; her daughter is his cousin.",
       "as": "মানুহজনৰ দেউতাৰ ভগ্নী তেওঁৰ পেহী; তাইৰ জীয়ৰী তেওঁৰ খুড়তু।"
@@ -307,10 +307,6 @@
     },
     "options": [
       {
-        "en": "Mother",
-        "as": "মাক"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -319,11 +315,15 @@
         "as": "খুড়ী"
       },
       {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
         "en": "Grandmother",
         "as": "আইতা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The only daughter of the woman's mother is the woman herself, so she is the man's mother.",
       "as": "মহিলাগৰাকীৰ মাকৰ একমাত্ৰ জীয়ৰী মহিলাগৰাকী নিজেই, গতিকে তেওঁ মানুহজনৰ মাক।"
@@ -337,10 +337,6 @@
     },
     "options": [
       {
-        "en": "Aunt",
-        "as": "পেহী"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
       },
@@ -349,11 +345,15 @@
         "as": "ভগ্নী"
       },
       {
+        "en": "Aunt",
+        "as": "পেহী"
+      },
+      {
         "en": "Grandmother",
         "as": "আইতা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A is the sister of D's father C, so A is D's aunt.",
       "as": "A,D ৰ দেউতা C ৰ ভগ্নী, গতিকে A হৈছে D ৰ পেহী।"
@@ -367,12 +367,12 @@
     },
     "options": [
       {
-        "en": "Nephew",
-        "as": "ভাগিন"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভাগিন"
       },
       {
         "en": "Brother",
@@ -383,7 +383,7 @@
         "as": "খুড়তু"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A sister's son is a nephew.",
       "as": "ভগ্নীৰ পুত্ৰ হৈছে ভাগিন।"
@@ -397,12 +397,12 @@
     },
     "options": [
       {
-        "en": "Wife",
-        "as": "পত্নী"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
+      },
+      {
+        "en": "Wife",
+        "as": "পত্নী"
       },
       {
         "en": "Sister",
@@ -413,7 +413,7 @@
         "as": "খুড়ী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The mother of one's son is one's wife.",
       "as": "পুত্ৰৰ মাক হৈছে পত্নী।"
@@ -427,10 +427,6 @@
     },
     "options": [
       {
-        "en": "Husband",
-        "as": "স্বামী"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -441,9 +437,13 @@
       {
         "en": "Uncle",
         "as": "খুড়া"
+      },
+      {
+        "en": "Husband",
+        "as": "স্বামী"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The father of one's daughter is one's husband.",
       "as": "জীয়ৰীৰ দেউতা হৈছে স্বামী।"
@@ -457,10 +457,6 @@
     },
     "options": [
       {
-        "en": "Mother",
-        "as": "মাক"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -469,11 +465,15 @@
         "as": "খুড়ী"
       },
       {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
         "en": "Grandmother",
         "as": "আইতা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Brothers share the same mother, so C is B's mother.",
       "as": "ভাই-ভাইৰ মাক একেই, গতিকে C হৈছে B ৰ মাক।"
@@ -487,10 +487,6 @@
     },
     "options": [
       {
-        "en": "Aunt",
-        "as": "পেহী"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -501,9 +497,13 @@
       {
         "en": "Cousin",
         "as": "খুড়তু"
+      },
+      {
+        "en": "Aunt",
+        "as": "পেহী"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The man's father's father is his grandfather; his only daughter is the man's aunt.",
       "as": "মানুহজনৰ দেউতাৰ দেউতা তেওঁৰ ককা; তেওঁৰ একমাত্ৰ জীয়ৰী তেওঁৰ পেহী।"
@@ -547,10 +547,6 @@
     },
     "options": [
       {
-        "en": "Cousin",
-        "as": "মাহীতু"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -559,11 +555,15 @@
         "as": "মাহী"
       },
       {
+        "en": "Cousin",
+        "as": "মাহীতু"
+      },
+      {
         "en": "Niece",
         "as": "ভতিজী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The daughter of one's mother's sister is one's cousin.",
       "as": "মাকৰ ভগ্নীৰ জীয়ৰী হৈছে মাহীতু।"
@@ -607,10 +607,6 @@
     },
     "options": [
       {
-        "en": "Father-in-law",
-        "as": "শহুৰ"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -621,9 +617,13 @@
       {
         "en": "Uncle",
         "as": "খুড়া"
+      },
+      {
+        "en": "Father-in-law",
+        "as": "শহুৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The father of one's wife is one's father-in-law.",
       "as": "পত্নীৰ দেউতা হৈছে শহুৰ।"
@@ -637,10 +637,6 @@
     },
     "options": [
       {
-        "en": "Brother-in-law",
-        "as": "শালা"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
       },
@@ -649,11 +645,15 @@
         "as": "ভাই"
       },
       {
+        "en": "Brother-in-law",
+        "as": "শালা"
+      },
+      {
         "en": "Nephew",
         "as": "ভতিজা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The son of the man's wife's father is his wife's brother, that is, his brother-in-law.",
       "as": "মানুহজনৰ পত্নীৰ দেউতাৰ পুত্ৰ তেওঁৰ পত্নীৰ ভাই, অৰ্থাৎ শালা।"
@@ -667,12 +667,12 @@
     },
     "options": [
       {
-        "en": "Grandfather",
-        "as": "ককা"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককা"
       },
       {
         "en": "Uncle",
@@ -683,7 +683,7 @@
         "as": "ভাই"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "If A's father is B's son, then B is the father of A's father, so B is A's grandfather.",
       "as": "A ৰ দেউতা B ৰ পুত্ৰ হ'লে B হৈছে A ৰ দেউতাৰ দেউতা, গতিকে B হৈছে A ৰ ককা।"
@@ -697,10 +697,6 @@
     },
     "options": [
       {
-        "en": "Sister",
-        "as": "ভগ্নী"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
       },
@@ -709,11 +705,15 @@
         "as": "পেহী"
       },
       {
+        "en": "Sister",
+        "as": "ভগ্নী"
+      },
+      {
         "en": "Niece",
         "as": "ভতিজী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "For a man, his father's only daughter is his sister.",
       "as": "পুৰুষ এজনৰ ক্ষেত্ৰত দেউতাৰ একমাত্ৰ জীয়ৰী হৈছে ভগ্নী।"
@@ -727,12 +727,12 @@
     },
     "options": [
       {
-        "en": "Brother",
-        "as": "ভাই"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
       },
       {
         "en": "Father",
@@ -743,7 +743,7 @@
         "as": "খুড়া"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "For a woman, her mother's only son is her brother.",
       "as": "মহিলা এগৰাকীৰ ক্ষেত্ৰত মাকৰ একমাত্ৰ পুত্ৰ হৈছে ভাই।"
@@ -787,10 +787,6 @@
     },
     "options": [
       {
-        "en": "Mother",
-        "as": "মাক"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -799,11 +795,15 @@
         "as": "খুড়ী"
       },
       {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
         "en": "Grandmother",
         "as": "আইতা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "B and C are siblings, so C's mother D is also B's mother.",
       "as": "B আৰু C ভাই-ভনী, গতিকে C ৰ মাক D হৈছে B ৰো মাক।"
@@ -817,12 +817,12 @@
     },
     "options": [
       {
-        "en": "Grandmother",
-        "as": "আইতা"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
+      },
+      {
+        "en": "Grandmother",
+        "as": "আইতা"
       },
       {
         "en": "Aunt",
@@ -833,7 +833,7 @@
         "as": "ভগ্নী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "P is the mother of R's father Q, so P is R's grandmother.",
       "as": "P হৈছে R ৰ দেউতা Q ৰ মাক, গতিকে P হৈছে R ৰ আইতা।"
@@ -847,10 +847,6 @@
     },
     "options": [
       {
-        "en": "Father",
-        "as": "দেউতা"
-      },
-      {
         "en": "Brother",
         "as": "ভাই"
       },
@@ -861,9 +857,13 @@
       {
         "en": "Grandfather",
         "as": "ককা"
+      },
+      {
+        "en": "Father",
+        "as": "দেউতা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The woman's brother's only sister is the woman herself; her father is the man.",
       "as": "মহিলাগৰাকীৰ ভাইৰ একমাত্ৰ ভগ্নী মহিলাগৰাকী নিজেই; তাইৰ দেউতা তেওঁ।"
@@ -907,12 +907,12 @@
     },
     "options": [
       {
-        "en": "Uncle",
-        "as": "খুড়া"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুড়া"
       },
       {
         "en": "Brother",
@@ -923,7 +923,7 @@
         "as": "ককা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A is the brother of C's father B, so A is C's uncle.",
       "as": "A,C ৰ দেউতা B ৰ ভাই, গতিকে A হৈছে C ৰ খুড়া।"
@@ -937,12 +937,12 @@
     },
     "options": [
       {
-        "en": "Husband",
-        "as": "স্বামী"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
+      },
+      {
+        "en": "Husband",
+        "as": "স্বামী"
       },
       {
         "en": "Brother",
@@ -953,7 +953,7 @@
         "as": "খুড়া"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The father of one's son is one's husband.",
       "as": "পুত্ৰৰ দেউতা হৈছে স্বামী।"
@@ -997,10 +997,6 @@
     },
     "options": [
       {
-        "en": "Uncle",
-        "as": "মামা"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -1011,9 +1007,13 @@
       {
         "en": "Nephew",
         "as": "ভতিজা"
+      },
+      {
+        "en": "Uncle",
+        "as": "মামা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The brother of one's mother is one's maternal uncle.",
       "as": "মাকৰ ভাই হৈছে মামা।"
@@ -1057,10 +1057,6 @@
     },
     "options": [
       {
-        "en": "Brother",
-        "as": "ভাই"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -1071,9 +1067,13 @@
       {
         "en": "Cousin",
         "as": "খুড়তু"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The only son of the girl's grandfather is her father; his son is her brother.",
       "as": "ছোৱালীজনীৰ ককাৰ একমাত্ৰ পুত্ৰ তাইৰ দেউতা; তেওঁৰ পুত্ৰ তাইৰ ভাই।"
@@ -1087,10 +1087,6 @@
     },
     "options": [
       {
-        "en": "Brother",
-        "as": "ভাই"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -1099,11 +1095,15 @@
         "as": "খুড়া"
       },
       {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
         "en": "Son",
         "as": "পুত্ৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A and C are both siblings of B, so A is C's brother.",
       "as": "A আৰু C দুয়ো B ৰ ভাই-ভনী, গতিকে A হৈছে C ৰ ভাই।"
@@ -1147,10 +1147,6 @@
     },
     "options": [
       {
-        "en": "Grandmother",
-        "as": "আইতা"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
       },
@@ -1159,11 +1155,15 @@
         "as": "খুড়ী"
       },
       {
+        "en": "Grandmother",
+        "as": "আইতা"
+      },
+      {
         "en": "Sister",
         "as": "ভগ্নী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "One's mother's mother is one's grandmother.",
       "as": "মাকৰ মাক হৈছে আইতা।"
@@ -1267,10 +1267,6 @@
     },
     "options": [
       {
-        "en": "Sister-in-law",
-        "as": "বৌ"
-      },
-      {
         "en": "Sister",
         "as": "ভগ্নী"
       },
@@ -1281,9 +1277,13 @@
       {
         "en": "Mother",
         "as": "মাক"
+      },
+      {
+        "en": "Sister-in-law",
+        "as": "বৌ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "One's brother's wife is one's sister-in-law.",
       "as": "ভাইৰ পত্নী হৈছে বৌ (ভাৱৰীয়া)।"
@@ -1297,12 +1297,12 @@
     },
     "options": [
       {
-        "en": "Granddaughter",
-        "as": "নাতিনী"
-      },
-      {
         "en": "Daughter",
         "as": "জীয়ৰী"
+      },
+      {
+        "en": "Granddaughter",
+        "as": "নাতিনী"
       },
       {
         "en": "Sister",
@@ -1313,7 +1313,7 @@
         "as": "ভতিজী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "B is C's son and A is B's daughter, so A is C's granddaughter.",
       "as": "B,C ৰ পুত্ৰ আৰু A,B ৰ জীয়ৰী, গতিকে A হৈছে C ৰ নাতিনী।"
@@ -1327,10 +1327,6 @@
     },
     "options": [
       {
-        "en": "Grandson",
-        "as": "নাতি"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
       },
@@ -1341,9 +1337,13 @@
       {
         "en": "Nephew",
         "as": "ভতিজা"
+      },
+      {
+        "en": "Grandson",
+        "as": "নাতি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "B is C's daughter and A is B's son, so A is C's grandson.",
       "as": "B,C ৰ জীয়ৰী আৰু A,B ৰ পুত্ৰ, গতিকে A হৈছে C ৰ নাতি।"
@@ -1357,10 +1357,6 @@
     },
     "options": [
       {
-        "en": "Husband",
-        "as": "স্বামী"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -1369,11 +1365,15 @@
         "as": "ভাই"
       },
       {
+        "en": "Husband",
+        "as": "স্বামী"
+      },
+      {
         "en": "Uncle",
         "as": "খুড়া"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The woman's daughter's brother is her son; his father is her husband.",
       "as": "মহিলাগৰাকীৰ জীয়ৰীৰ ভাই তাইৰ পুত্ৰ; তেওঁৰ দেউতা তাইৰ স্বামী।"
@@ -1417,10 +1417,6 @@
     },
     "options": [
       {
-        "en": "Father",
-        "as": "দেউতা"
-      },
-      {
         "en": "Uncle",
         "as": "খুড়া"
       },
@@ -1429,11 +1425,15 @@
         "as": "ভাই"
       },
       {
+        "en": "Father",
+        "as": "দেউতা"
+      },
+      {
         "en": "Grandfather",
         "as": "ককা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Sisters share the same father, so C is B's father.",
       "as": "ভগ্নীসকলৰ দেউতা একেই, গতিকে C হৈছে B ৰ দেউতা।"
@@ -1477,10 +1477,6 @@
     },
     "options": [
       {
-        "en": "Brother",
-        "as": "ভাই"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
       },
@@ -1489,11 +1485,15 @@
         "as": "দেউতা"
       },
       {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
         "en": "Uncle",
         "as": "খুড়া"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "For a woman, her mother's son is her brother.",
       "as": "মহিলা এগৰাকীৰ বাবে মাকৰ পুত্ৰ হৈছে ভাই।"
@@ -1537,10 +1537,6 @@
     },
     "options": [
       {
-        "en": "Nephew",
-        "as": "ভতিজা"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
       },
@@ -1551,9 +1547,13 @@
       {
         "en": "Uncle",
         "as": "খুড়া"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Q is the sibling of A's father P, so A is Q's nephew.",
       "as": "Q,A ৰ দেউতা P ৰ ভাই-ভনী, গতিকে A হৈছে Q ৰ ভতিজা।"
@@ -1567,12 +1567,12 @@
     },
     "options": [
       {
-        "en": "Mother-in-law",
-        "as": "শাহু"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
+      },
+      {
+        "en": "Mother-in-law",
+        "as": "শাহু"
       },
       {
         "en": "Sister",
@@ -1583,7 +1583,7 @@
         "as": "খুড়ী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The mother of one's wife is one's mother-in-law.",
       "as": "পত্নীৰ মাক হৈছে শাহু।"
@@ -1597,10 +1597,6 @@
     },
     "options": [
       {
-        "en": "Father-in-law",
-        "as": "শহুৰ"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -1611,9 +1607,13 @@
       {
         "en": "Uncle",
         "as": "খুড়া"
+      },
+      {
+        "en": "Father-in-law",
+        "as": "শহুৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The father of one's husband is one's father-in-law.",
       "as": "স্বামীৰ দেউতা হৈছে শহুৰ।"
@@ -1627,10 +1627,6 @@
     },
     "options": [
       {
-        "en": "Sister",
-        "as": "ভগ্নী"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
       },
@@ -1639,11 +1635,15 @@
         "as": "মাহী"
       },
       {
+        "en": "Sister",
+        "as": "ভগ্নী"
+      },
+      {
         "en": "Cousin",
         "as": "খুড়তু"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The daughter of one's mother is one's sister.",
       "as": "মাকৰ জীয়ৰী হৈছে ভগ্নী।"
@@ -1657,12 +1657,12 @@
     },
     "options": [
       {
-        "en": "Brother",
-        "as": "ভাই"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
       },
       {
         "en": "Uncle",
@@ -1673,7 +1673,7 @@
         "as": "পুত্ৰ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The son of one's father is one's brother.",
       "as": "দেউতাৰ পুত্ৰ হৈছে ভাই।"
@@ -1687,10 +1687,6 @@
     },
     "options": [
       {
-        "en": "Nephew",
-        "as": "ভতিজা"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
       },
@@ -1701,9 +1697,13 @@
       {
         "en": "Uncle",
         "as": "খুড়া"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "D is the son of C's sibling B, so D is C's nephew.",
       "as": "D হৈছে C ৰ ভাই-ভনী B ৰ পুত্ৰ, গতিকে D হৈছে C ৰ ভতিজা।"
@@ -1717,10 +1717,6 @@
     },
     "options": [
       {
-        "en": "Grandson",
-        "as": "নাতি"
-      },
-      {
         "en": "Son",
         "as": "পুত্ৰ"
       },
@@ -1729,11 +1725,15 @@
         "as": "ভতিজা"
       },
       {
+        "en": "Grandson",
+        "as": "নাতি"
+      },
+      {
         "en": "Brother",
         "as": "ভাই"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "B and C are A's children; D is C's son, so D is A's grandson.",
       "as": "B আৰু C,A ৰ সন্তান; D,C ৰ পুত্ৰ, গতিকে D হৈছে A ৰ নাতি।"
@@ -1747,12 +1747,12 @@
     },
     "options": [
       {
-        "en": "Mother",
-        "as": "মাক"
-      },
-      {
         "en": "Aunt",
         "as": "খুড়ী"
+      },
+      {
+        "en": "Mother",
+        "as": "মাক"
       },
       {
         "en": "Sister",
@@ -1763,7 +1763,7 @@
         "as": "আইতা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "One's grandfather's only son is one's father; his wife is one's mother.",
       "as": "ককাৰ একমাত্ৰ পুত্ৰ হৈছে দেউতা; তেওঁৰ পত্নী হৈছে মাক।"
@@ -1777,10 +1777,6 @@
     },
     "options": [
       {
-        "en": "Cousin",
-        "as": "খুড়তু"
-      },
-      {
         "en": "Brother",
         "as": "ভাই"
       },
@@ -1791,9 +1787,13 @@
       {
         "en": "Uncle",
         "as": "খুড়া"
+      },
+      {
+        "en": "Cousin",
+        "as": "খুড়তু"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The son of one's father's sister is one's cousin.",
       "as": "দেউতাৰ ভগ্নীৰ পুত্ৰ হৈছে খুড়তু।"
@@ -1837,12 +1837,12 @@
     },
     "options": [
       {
-        "en": "His son",
-        "as": "তেওঁৰ পুত্ৰ"
-      },
-      {
         "en": "His father",
         "as": "তেওঁৰ দেউতা"
+      },
+      {
+        "en": "His son",
+        "as": "তেওঁৰ পুত্ৰ"
       },
       {
         "en": "His uncle",
@@ -1853,7 +1853,7 @@
         "as": "তেওঁৰ ভতিজা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "As he has no brother, 'my father's son' is himself; so the man's father is him, meaning it is his son's photograph.",
       "as": "তেওঁৰ ভাই নথকাৰ বাবে 'মোৰ দেউতাৰ পুত্ৰ' তেওঁ নিজেই; গতিকে সেই মানুহজনৰ দেউতা তেওঁ, অৰ্থাৎ ফটোখন তেওঁৰ পুত্ৰৰ।"
@@ -1867,10 +1867,6 @@
     },
     "options": [
       {
-        "en": "Daughter",
-        "as": "জীয়ৰী"
-      },
-      {
         "en": "Granddaughter",
         "as": "নাতিনী"
       },
@@ -1881,9 +1877,13 @@
       {
         "en": "Niece",
         "as": "ভতিজী"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়ৰী"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The only daughter of the woman's mother is the woman herself; so the girl's mother is the woman, making the girl her daughter.",
       "as": "মহিলাগৰাকীৰ মাকৰ একমাত্ৰ জীয়ৰী মহিলাগৰাকী নিজেই; গতিকে ছোৱালীজনীৰ মাক মহিলাগৰাকী, অৰ্থাৎ ছোৱালীজনী তাইৰ জীয়ৰী।"
@@ -1897,10 +1897,6 @@
     },
     "options": [
       {
-        "en": "Uncle",
-        "as": "খুড়া"
-      },
-      {
         "en": "Father",
         "as": "দেউতা"
       },
@@ -1911,9 +1907,13 @@
       {
         "en": "Grandfather",
         "as": "ককা"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুড়া"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The brother of one's father is one's uncle.",
       "as": "দেউতাৰ ভাই হৈছে খুড়া।"
@@ -1927,10 +1927,6 @@
     },
     "options": [
       {
-        "en": "Daughter-in-law",
-        "as": "বোৱাৰী"
-      },
-      {
         "en": "Daughter",
         "as": "জীয়ৰী"
       },
@@ -1939,11 +1935,15 @@
         "as": "ভগ্নী"
       },
       {
+        "en": "Daughter-in-law",
+        "as": "বোৱাৰী"
+      },
+      {
         "en": "Aunt",
         "as": "খুড়ী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "One's son's wife is one's daughter-in-law.",
       "as": "পুত্ৰৰ পত্নী হৈছে বোৱাৰী।"

@@ -97,10 +97,6 @@
     },
     "options": [
       {
-        "en": "Hospital",
-        "as": "চিকিৎসালয়"
-      },
-      {
         "en": "Patient",
         "as": "ৰোগী"
       },
@@ -111,9 +107,13 @@
       {
         "en": "Nurse",
         "as": "নাৰ্ছ"
+      },
+      {
+        "en": "Hospital",
+        "as": "চিকিৎসালয়"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A lawyer works in a court; a doctor works in a hospital.",
       "as": "উকীলে আদালতত কাম কৰে; ডাক্তৰে চিকিৎসালয়ত কাম কৰে।"
@@ -127,10 +127,6 @@
     },
     "options": [
       {
-        "en": "Laboratory",
-        "as": "পৰীক্ষাগাৰ"
-      },
-      {
         "en": "Experiment",
         "as": "পৰীক্ষা"
       },
@@ -141,9 +137,13 @@
       {
         "en": "University",
         "as": "বিশ্ববিদ্যালয়"
+      },
+      {
+        "en": "Laboratory",
+        "as": "পৰীক্ষাগাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A judge works in a court; a scientist works in a laboratory.",
       "as": "ন্যায়াধীশে আদালতত কাম কৰে; বিজ্ঞানীয়ে পৰীক্ষাগাৰত কাম কৰে।"
@@ -157,10 +157,6 @@
     },
     "options": [
       {
-        "en": "Needle",
-        "as": "বেজী"
-      },
-      {
         "en": "Cloth",
         "as": "কাপোৰ"
       },
@@ -169,11 +165,15 @@
         "as": "সূতা"
       },
       {
+        "en": "Needle",
+        "as": "বেজী"
+      },
+      {
         "en": "Button",
         "as": "বুটাম"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A carpenter uses a saw; a tailor uses a needle.",
       "as": "বাঢ়ৈয়ে কৰত ব্যৱহাৰ কৰে; দৰ্জীয়ে বেজী ব্যৱহাৰ কৰে।"
@@ -187,10 +187,6 @@
     },
     "options": [
       {
-        "en": "Gun",
-        "as": "বন্দুক"
-      },
-      {
         "en": "Uniform",
         "as": "ইউনিফৰ্ম"
       },
@@ -199,11 +195,15 @@
         "as": "যুদ্ধ"
       },
       {
+        "en": "Gun",
+        "as": "বন্দুক"
+      },
+      {
         "en": "Army",
         "as": "সেনাবাহিনী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A farmer uses a plough; a soldier uses a gun.",
       "as": "কৃষকে নাঙল ব্যৱহাৰ কৰে; সৈনিকে বন্দুক ব্যৱহাৰ কৰে।"
@@ -217,12 +217,12 @@
     },
     "options": [
       {
-        "en": "Hammer",
-        "as": "হাতুৰী"
-      },
-      {
         "en": "Iron",
         "as": "লো"
+      },
+      {
+        "en": "Hammer",
+        "as": "হাতুৰী"
       },
       {
         "en": "Fire",
@@ -233,7 +233,7 @@
         "as": "ভাঁটি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A painter uses a brush; a blacksmith uses a hammer.",
       "as": "চিত্ৰকৰে তুলিকা ব্যৱহাৰ কৰে; কামাৰে হাতুৰী ব্যৱহাৰ কৰে।"
@@ -247,12 +247,12 @@
     },
     "options": [
       {
-        "en": "Spade",
-        "as": "খন্তি"
-      },
-      {
         "en": "Flower",
         "as": "ফুল"
+      },
+      {
+        "en": "Spade",
+        "as": "খন্তি"
       },
       {
         "en": "Plant",
@@ -263,7 +263,7 @@
         "as": "পানী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A barber uses a razor; a gardener uses a spade.",
       "as": "নাপিতে খুৰ ব্যৱহাৰ কৰে; মালীয়ে খন্তি ব্যৱহাৰ কৰে।"
@@ -277,12 +277,12 @@
     },
     "options": [
       {
-        "en": "Axe",
-        "as": "কুঠাৰ"
-      },
-      {
         "en": "Wood",
         "as": "খৰি"
+      },
+      {
+        "en": "Axe",
+        "as": "কুঠাৰ"
       },
       {
         "en": "Tree",
@@ -293,7 +293,7 @@
         "as": "হাবি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A surgeon uses a scalpel; a woodcutter uses an axe.",
       "as": "শল্য চিকিৎসকে অস্ত্ৰ ব্যৱহাৰ কৰে; খৰিকটীয়াই কুঠাৰ ব্যৱহাৰ কৰে।"
@@ -367,10 +367,6 @@
     },
     "options": [
       {
-        "en": "Aeroplane",
-        "as": "বিমান"
-      },
-      {
         "en": "Bird",
         "as": "চৰাই"
       },
@@ -381,9 +377,13 @@
       {
         "en": "Sky",
         "as": "আকাশ"
+      },
+      {
+        "en": "Aeroplane",
+        "as": "বিমান"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A wheel is a part of a car; a wing is a part of an aeroplane.",
       "as": "চকা গাড়ীৰ অংশ; ডেউকা বিমানৰ অংশ।"
@@ -397,10 +397,6 @@
     },
     "options": [
       {
-        "en": "Sentence",
-        "as": "বাক্য"
-      },
-      {
         "en": "Letter",
         "as": "আখৰ"
       },
@@ -411,9 +407,13 @@
       {
         "en": "Paragraph",
         "as": "অনুচ্ছেদ"
+      },
+      {
+        "en": "Sentence",
+        "as": "বাক্য"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A petal is a part of a flower; a word is a part of a sentence.",
       "as": "পাহি ফুলৰ অংশ; শব্দ বাক্যৰ অংশ।"
@@ -427,12 +427,12 @@
     },
     "options": [
       {
-        "en": "Body",
-        "as": "শৰীৰ"
-      },
-      {
         "en": "Leg",
         "as": "ঠেং"
+      },
+      {
+        "en": "Body",
+        "as": "শৰীৰ"
       },
       {
         "en": "Hand",
@@ -443,7 +443,7 @@
         "as": "কান্ধ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A branch is a part of a tree; an arm is a part of the body.",
       "as": "ডাল গছৰ অংশ; বাহু শৰীৰৰ অংশ।"
@@ -487,10 +487,6 @@
     },
     "options": [
       {
-        "en": "District",
-        "as": "জিলা"
-      },
-      {
         "en": "City",
         "as": "নগৰ"
       },
@@ -499,11 +495,15 @@
         "as": "চহৰ"
       },
       {
+        "en": "District",
+        "as": "জিলা"
+      },
+      {
         "en": "Village",
         "as": "গাঁও"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A state is a part of a country; a district is a part of a state.",
       "as": "ৰাজ্য দেশৰ অংশ; জিলা ৰাজ্যৰ অংশ।"
@@ -517,10 +517,6 @@
     },
     "options": [
       {
-        "en": "Player",
-        "as": "খেলুৱৈ"
-      },
-      {
         "en": "Captain",
         "as": "অধিনায়ক"
       },
@@ -529,11 +525,15 @@
         "as": "খেল"
       },
       {
+        "en": "Player",
+        "as": "খেলুৱৈ"
+      },
+      {
         "en": "Coach",
         "as": "প্ৰশিক্ষক"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "An army is made of soldiers; a team is made of players.",
       "as": "সেনাবাহিনী সৈনিকৰে গঠিত; দল খেলুৱৈৰে গঠিত।"
@@ -547,10 +547,6 @@
     },
     "options": [
       {
-        "en": "Flower",
-        "as": "ফুল"
-      },
-      {
         "en": "Grass",
         "as": "ঘাঁহ"
       },
@@ -559,11 +555,15 @@
         "as": "গছ"
       },
       {
+        "en": "Flower",
+        "as": "ফুল"
+      },
+      {
         "en": "Leaf",
         "as": "পাত"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A forest is full of trees; a garden is full of flowers.",
       "as": "হাবি গছেৰে ভৰা; বাৰী ফুলেৰে ভৰা।"
@@ -577,10 +577,6 @@
     },
     "options": [
       {
-        "en": "Blade",
-        "as": "পাখি"
-      },
-      {
         "en": "Motor",
         "as": "মটৰ"
       },
@@ -591,9 +587,13 @@
       {
         "en": "Air",
         "as": "বতাহ"
+      },
+      {
+        "en": "Blade",
+        "as": "পাখি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A clock has hands; a fan has blades.",
       "as": "ঘড়ীত কাঁটা থাকে; পাখাত পাখি থাকে।"
@@ -607,10 +607,6 @@
     },
     "options": [
       {
-        "en": "Puppy",
-        "as": "কুকুৰ পোৱালি"
-      },
-      {
         "en": "Kitten",
         "as": "মেকুৰী পোৱালি"
       },
@@ -619,11 +615,15 @@
         "as": "পোৱালি"
       },
       {
+        "en": "Puppy",
+        "as": "কুকুৰ পোৱালি"
+      },
+      {
         "en": "Lamb",
         "as": "ভেৰা পোৱালি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The young one of a cow is a calf; the young one of a dog is a puppy.",
       "as": "গাইৰ পোৱালি গো-পোৱালি; কুকুৰৰ পোৱালি কুকুৰ পোৱালি।"
@@ -637,10 +637,6 @@
     },
     "options": [
       {
-        "en": "Lamb",
-        "as": "ভেৰা পোৱালি"
-      },
-      {
         "en": "Calf",
         "as": "গো-পোৱালি"
       },
@@ -649,11 +645,15 @@
         "as": "কুকুৰ পোৱালি"
       },
       {
+        "en": "Lamb",
+        "as": "ভেৰা পোৱালি"
+      },
+      {
         "en": "Kid",
         "as": "ছাগলী পোৱালি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The young one of a cat is a kitten; the young one of a sheep is a lamb.",
       "as": "মেকুৰীৰ পোৱালি মেকুৰী পোৱালি; ভেৰাৰ পোৱালি ভেৰা পোৱালি।"
@@ -667,12 +667,12 @@
     },
     "options": [
       {
-        "en": "Kid",
-        "as": "ছাগলী পোৱালি"
-      },
-      {
         "en": "Lamb",
         "as": "ভেৰা পোৱালি"
+      },
+      {
+        "en": "Kid",
+        "as": "ছাগলী পোৱালি"
       },
       {
         "en": "Calf",
@@ -683,7 +683,7 @@
         "as": "পোৱালি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The young one of a horse is a foal; the young one of a goat is a kid.",
       "as": "ঘোঁৰাৰ পোৱালি ঘোঁৰা পোৱালি; ছাগলীৰ পোৱালি ছাগলী পোৱালি।"
@@ -727,12 +727,12 @@
     },
     "options": [
       {
-        "en": "Tadpole",
-        "as": "ভেকুলী পোৱালি"
-      },
-      {
         "en": "Fry",
         "as": "মাছ পোৱালি"
+      },
+      {
+        "en": "Tadpole",
+        "as": "ভেকুলী পোৱালি"
       },
       {
         "en": "Squab",
@@ -743,7 +743,7 @@
         "as": "গো-পোৱালি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The young one of a deer is a fawn; the young one of a frog is a tadpole.",
       "as": "হৰিণৰ পোৱালি হৰিণ পোৱালি; ভেকুলীৰ পোৱালি জেঠী।"
@@ -757,10 +757,6 @@
     },
     "options": [
       {
-        "en": "Mew",
-        "as": "মিউ মিউ"
-      },
-      {
         "en": "Roar",
         "as": "গৰ্জন"
       },
@@ -771,9 +767,13 @@
       {
         "en": "Grunt",
         "as": "ঘোঁৰ ঘোঁৰ"
+      },
+      {
+        "en": "Mew",
+        "as": "মিউ মিউ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A dog barks; a cat mews.",
       "as": "কুকুৰে ভউ ভউ কৰে; মেকুৰীয়ে মিউ মিউ কৰে।"
@@ -817,12 +817,12 @@
     },
     "options": [
       {
-        "en": "Bleat",
-        "as": "ভেঁ ভেঁ"
-      },
-      {
         "en": "Neigh",
         "as": "হেঁচা"
+      },
+      {
+        "en": "Bleat",
+        "as": "ভেঁ ভেঁ"
       },
       {
         "en": "Cluck",
@@ -833,7 +833,7 @@
         "as": "ফোঁ ফোঁ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A cow moos; a sheep bleats.",
       "as": "গাইয়ে হাম্বা কৰে; ভেৰাই ভেঁ ভেঁ কৰে।"
@@ -847,10 +847,6 @@
     },
     "options": [
       {
-        "en": "Hiss",
-        "as": "ফোঁ ফোঁ"
-      },
-      {
         "en": "Roar",
         "as": "গৰ্জন"
       },
@@ -859,11 +855,15 @@
         "as": "মিউ মিউ"
       },
       {
+        "en": "Hiss",
+        "as": "ফোঁ ফোঁ"
+      },
+      {
         "en": "Bark",
         "as": "ভউ ভউ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A frog croaks; a snake hisses.",
       "as": "ভেকুলীয়ে ক্ৰক কৰে; সাপে ফোঁ ফোঁ কৰে।"
@@ -877,10 +877,6 @@
     },
     "options": [
       {
-        "en": "Caw",
-        "as": "কা কা"
-      },
-      {
         "en": "Coo",
         "as": "কু কু"
       },
@@ -891,9 +887,13 @@
       {
         "en": "Hoot",
         "as": "হু হু"
+      },
+      {
+        "en": "Caw",
+        "as": "কা কা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A duck quacks; a crow caws.",
       "as": "হাঁহে কুৱাক কৰে; কাউৰীয়ে কা কা কৰে।"
@@ -907,12 +907,12 @@
     },
     "options": [
       {
-        "en": "Anthill",
-        "as": "পিঁপৰাৰ দম"
-      },
-      {
         "en": "Nest",
         "as": "বাহ"
+      },
+      {
+        "en": "Anthill",
+        "as": "পিঁপৰাৰ দম"
       },
       {
         "en": "Web",
@@ -923,7 +923,7 @@
         "as": "গুহা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A bee lives in a hive; an ant lives in an anthill.",
       "as": "মৌমাখি মৌচাকত থাকে; পিঁপৰা পিঁপৰাৰ দমত থাকে।"
@@ -937,10 +937,6 @@
     },
     "options": [
       {
-        "en": "Nest",
-        "as": "বাহ"
-      },
-      {
         "en": "Hive",
         "as": "মৌচাক"
       },
@@ -949,11 +945,15 @@
         "as": "গাঁত"
       },
       {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
         "en": "Stable",
         "as": "আস্তাবল"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A lion lives in a den; a bird lives in a nest.",
       "as": "সিংহ গুহাত থাকে; চৰাই বাহত থাকে।"
@@ -967,12 +967,12 @@
     },
     "options": [
       {
-        "en": "Stable",
-        "as": "আস্তাবল"
-      },
-      {
         "en": "Den",
         "as": "গুহা"
+      },
+      {
+        "en": "Stable",
+        "as": "আস্তাবল"
       },
       {
         "en": "Nest",
@@ -983,7 +983,7 @@
         "as": "কুকুৰৰ ঘৰ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A rabbit lives in a burrow; a horse lives in a stable.",
       "as": "শহা গাঁতত থাকে; ঘোঁৰা আস্তাবলত থাকে।"
@@ -997,10 +997,6 @@
     },
     "options": [
       {
-        "en": "Kennel",
-        "as": "কুকুৰৰ ঘৰ"
-      },
-      {
         "en": "Hive",
         "as": "মৌচাক"
       },
@@ -1011,9 +1007,13 @@
       {
         "en": "Stable",
         "as": "আস্তাবল"
+      },
+      {
+        "en": "Kennel",
+        "as": "কুকুৰৰ ঘৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A spider lives in a web; a dog lives in a kennel.",
       "as": "মকৰা জালত থাকে; কুকুৰ কুকুৰৰ ঘৰত থাকে।"
@@ -1027,10 +1027,6 @@
     },
     "options": [
       {
-        "en": "Cage",
-        "as": "পিঞ্জৰা"
-      },
-      {
         "en": "Aquarium",
         "as": "মাছৰ টেংকী"
       },
@@ -1041,9 +1037,13 @@
       {
         "en": "Hive",
         "as": "মৌচাক"
+      },
+      {
+        "en": "Cage",
+        "as": "পিঞ্জৰা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A fish is kept in an aquarium; a bird is kept in a cage.",
       "as": "মাছ মাছৰ টেংকীত ৰখা হয়; চৰাই পিঞ্জৰাত ৰখা হয়।"
@@ -1087,12 +1087,12 @@
     },
     "options": [
       {
-        "en": "Cow",
-        "as": "গাই"
-      },
-      {
         "en": "Calf",
         "as": "গো-পোৱালি"
+      },
+      {
+        "en": "Cow",
+        "as": "গাই"
       },
       {
         "en": "Ox",
@@ -1103,7 +1103,7 @@
         "as": "ম'হ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A hen is the female of a cock; a cow is the female of a bull.",
       "as": "কুকুৰা মাইকী কুকুৰাৰ স্ত্ৰীলিংগ; গাই ষাঁড়ৰ স্ত্ৰীলিংগ।"
@@ -1117,12 +1117,12 @@
     },
     "options": [
       {
-        "en": "Bitch",
-        "as": "কুকুৰী"
-      },
-      {
         "en": "Puppy",
         "as": "কুকুৰ পোৱালি"
+      },
+      {
+        "en": "Bitch",
+        "as": "কুকুৰী"
       },
       {
         "en": "Cat",
@@ -1133,7 +1133,7 @@
         "as": "সিংহী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A mare is the female of a horse; a bitch is the female of a dog.",
       "as": "ঘোঁৰী ঘোঁৰাৰ স্ত্ৰীলিংগ; কুকুৰী কুকুৰৰ স্ত্ৰীলিংগ।"
@@ -1147,10 +1147,6 @@
     },
     "options": [
       {
-        "en": "Niece",
-        "as": "ভাগিনী"
-      },
-      {
         "en": "Uncle",
         "as": "খুড়া"
       },
@@ -1161,9 +1157,13 @@
       {
         "en": "Cousin",
         "as": "খুড়তু"
+      },
+      {
+        "en": "Niece",
+        "as": "ভাগিনী"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A woman is the female of a man; a niece is the female of a nephew.",
       "as": "তিৰোতা পুৰুষৰ স্ত্ৰীলিংগ; ভাগিনী ভাগিনৰ স্ত্ৰীলিংগ।"
@@ -1177,10 +1177,6 @@
     },
     "options": [
       {
-        "en": "Sister",
-        "as": "ভগ্নী"
-      },
-      {
         "en": "Mother",
         "as": "মাক"
       },
@@ -1189,11 +1185,15 @@
         "as": "দেউতা"
       },
       {
+        "en": "Sister",
+        "as": "ভগ্নী"
+      },
+      {
         "en": "Uncle",
         "as": "খুড়া"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A wife is the female of a husband; a sister is the female of a brother.",
       "as": "পত্নী স্বামীৰ স্ত্ৰীলিংগ; ভগ্নী ভাইৰ স্ত্ৰীলিংগ।"
@@ -1207,12 +1207,12 @@
     },
     "options": [
       {
-        "en": "Start",
-        "as": "আৰম্ভ কৰা"
-      },
-      {
         "en": "Stop",
         "as": "বন্ধ কৰা"
+      },
+      {
+        "en": "Start",
+        "as": "আৰম্ভ কৰা"
       },
       {
         "en": "End",
@@ -1223,7 +1223,7 @@
         "as": "সমাপ্ত কৰা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "'Happy' and 'joyful' are synonyms; 'begin' and 'start' are synonyms.",
       "as": "'Happy' আৰু 'joyful' সমাৰ্থক; 'begin' আৰু 'start' সমাৰ্থক।"
@@ -1237,10 +1237,6 @@
     },
     "options": [
       {
-        "en": "Little",
-        "as": "সৰু"
-      },
-      {
         "en": "Huge",
         "as": "বিশাল"
       },
@@ -1251,9 +1247,13 @@
       {
         "en": "Broad",
         "as": "বহল"
+      },
+      {
+        "en": "Little",
+        "as": "সৰু"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "'Big' and 'large' are synonyms; 'small' and 'little' are synonyms.",
       "as": "'Big' আৰু 'large' সমাৰ্থক; 'small' আৰু 'little' সমাৰ্থক।"
@@ -1297,12 +1297,12 @@
     },
     "options": [
       {
-        "en": "Intelligent",
-        "as": "বুদ্ধিমান"
-      },
-      {
         "en": "Foolish",
         "as": "মূৰ্খ"
+      },
+      {
+        "en": "Intelligent",
+        "as": "বুদ্ধিমান"
       },
       {
         "en": "Silly",
@@ -1313,7 +1313,7 @@
         "as": "বলিয়া"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "'Beautiful' and 'pretty' are synonyms; 'wise' and 'intelligent' are synonyms.",
       "as": "'Beautiful' আৰু 'pretty' সমাৰ্থক; 'wise' আৰু 'intelligent' সমাৰ্থক।"
@@ -1327,10 +1327,6 @@
     },
     "options": [
       {
-        "en": "Unhappy",
-        "as": "দুখী"
-      },
-      {
         "en": "Glad",
         "as": "আনন্দিত"
       },
@@ -1339,11 +1335,15 @@
         "as": "সুখী"
       },
       {
+        "en": "Unhappy",
+        "as": "দুখী"
+      },
+      {
         "en": "Joyful",
         "as": "আনন্দময়"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "'Rich' and 'wealthy' are synonyms; 'sad' and 'unhappy' are synonyms.",
       "as": "'Rich' আৰু 'wealthy' সমাৰ্থক; 'sad' আৰু 'unhappy' সমাৰ্থক।"
@@ -1357,10 +1357,6 @@
     },
     "options": [
       {
-        "en": "Night",
-        "as": "ৰাতি"
-      },
-      {
         "en": "Morning",
         "as": "ৰাতিপুৱা"
       },
@@ -1371,9 +1367,13 @@
       {
         "en": "Evening",
         "as": "আবেলি"
+      },
+      {
+        "en": "Night",
+        "as": "ৰাতি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "'Hot' is the opposite of 'cold'; 'day' is the opposite of 'night'.",
       "as": "'Hot' 'cold' ৰ বিপৰীত; 'day' 'night' ৰ বিপৰীত।"
@@ -1387,10 +1387,6 @@
     },
     "options": [
       {
-        "en": "Dark",
-        "as": "আন্ধাৰ"
-      },
-      {
         "en": "Bright",
         "as": "উজ্জ্বল"
       },
@@ -1401,9 +1397,13 @@
       {
         "en": "Lamp",
         "as": "চাকি"
+      },
+      {
+        "en": "Dark",
+        "as": "আন্ধাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "'Up' is the opposite of 'down'; 'light' is the opposite of 'dark'.",
       "as": "'Up' 'down' ৰ বিপৰীত; 'light' 'dark' ৰ বিপৰীত।"
@@ -1447,10 +1447,6 @@
     },
     "options": [
       {
-        "en": "Defeat",
-        "as": "পৰাজয়"
-      },
-      {
         "en": "Win",
         "as": "জয়"
       },
@@ -1459,11 +1455,15 @@
         "as": "সফলতা"
       },
       {
+        "en": "Defeat",
+        "as": "পৰাজয়"
+      },
+      {
         "en": "Triumph",
         "as": "বিজয়"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "'Ancient' is the opposite of 'modern'; 'victory' is the opposite of 'defeat'.",
       "as": "'Ancient' 'modern' ৰ বিপৰীত; 'victory' 'defeat' ৰ বিপৰীত।"
@@ -1477,12 +1477,12 @@
     },
     "options": [
       {
-        "en": "Reject",
-        "as": "নাকচ কৰা"
-      },
-      {
         "en": "Receive",
         "as": "লাভ কৰা"
+      },
+      {
+        "en": "Reject",
+        "as": "নাকচ কৰা"
       },
       {
         "en": "Take",
@@ -1493,7 +1493,7 @@
         "as": "স্বীকাৰ কৰা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "'Increase' is the opposite of 'decrease'; 'accept' is the opposite of 'reject'.",
       "as": "'Increase' 'decrease' ৰ বিপৰীত; 'accept' 'reject' ৰ বিপৰীত।"
@@ -1537,12 +1537,12 @@
     },
     "options": [
       {
-        "en": "Joy",
-        "as": "আনন্দ"
-      },
-      {
         "en": "Failure",
         "as": "ব্যৰ্থতা"
+      },
+      {
+        "en": "Joy",
+        "as": "আনন্দ"
       },
       {
         "en": "Sadness",
@@ -1553,7 +1553,7 @@
         "as": "ভয়"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Death causes sorrow; success causes joy.",
       "as": "মৃত্যুয়ে দুখ আনে; সফলতাই আনন্দ আনে।"
@@ -1567,10 +1567,6 @@
     },
     "options": [
       {
-        "en": "Knowledge",
-        "as": "জ্ঞান"
-      },
-      {
         "en": "Money",
         "as": "ধন"
       },
@@ -1579,11 +1575,15 @@
         "as": "সম্পদ"
       },
       {
+        "en": "Knowledge",
+        "as": "জ্ঞান"
+      },
+      {
         "en": "Illness",
         "as": "ৰোগ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Exercise gives health; study gives knowledge.",
       "as": "ব্যায়ামে স্বাস্থ্য দিয়ে; অধ্যয়নে জ্ঞান দিয়ে।"
@@ -1597,12 +1597,12 @@
     },
     "options": [
       {
-        "en": "Failure",
-        "as": "ব্যৰ্থতা"
-      },
-      {
         "en": "Victory",
         "as": "বিজয়"
+      },
+      {
+        "en": "Failure",
+        "as": "ব্যৰ্থতা"
       },
       {
         "en": "Wealth",
@@ -1613,7 +1613,7 @@
         "as": "খ্যাতি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Hard work leads to success; negligence leads to failure.",
       "as": "পৰিশ্ৰমে সফলতা আনে; অৱহেলাই ব্যৰ্থতা আনে।"
@@ -1627,10 +1627,6 @@
     },
     "options": [
       {
-        "en": "Wisdom",
-        "as": "প্ৰজ্ঞা"
-      },
-      {
         "en": "Ignorance",
         "as": "অজ্ঞতা"
       },
@@ -1641,9 +1637,13 @@
       {
         "en": "Power",
         "as": "শক্তি"
+      },
+      {
+        "en": "Wisdom",
+        "as": "প্ৰজ্ঞা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Fire produces smoke; knowledge produces wisdom.",
       "as": "জুইয়ে ধোঁৱা উৎপন্ন কৰে; জ্ঞানে প্ৰজ্ঞা উৎপন্ন কৰে।"
@@ -1657,12 +1657,12 @@
     },
     "options": [
       {
-        "en": "Worse",
-        "as": "বেছি বেয়া"
-      },
-      {
         "en": "Worst",
         "as": "আটাইতকৈ বেয়া"
+      },
+      {
+        "en": "Worse",
+        "as": "বেছি বেয়া"
       },
       {
         "en": "Badly",
@@ -1673,7 +1673,7 @@
         "as": "সবাতকৈ বেয়া"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "'Better' is the comparative of 'good'; 'worse' is the comparative of 'bad'.",
       "as": "'Better' 'good' ৰ তুলনামূলক ৰূপ; 'worse' 'bad' ৰ তুলনামূলক ৰূপ।"
@@ -1687,10 +1687,6 @@
     },
     "options": [
       {
-        "en": "Hotter",
-        "as": "বেছি গৰম"
-      },
-      {
         "en": "Hottest",
         "as": "আটাইতকৈ গৰম"
       },
@@ -1699,11 +1695,15 @@
         "as": "উৎসাহেৰে"
       },
       {
+        "en": "Hotter",
+        "as": "বেছি গৰম"
+      },
+      {
         "en": "Heated",
         "as": "উত্তপ্ত"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "'Colder' is the comparative of 'cold'; 'hotter' is the comparative of 'hot'.",
       "as": "'Colder' 'cold' ৰ তুলনামূলক ৰূপ; 'hotter' 'hot' ৰ তুলনামূলক ৰূপ।"
@@ -1717,10 +1717,6 @@
     },
     "options": [
       {
-        "en": "Lower",
-        "as": "তলত"
-      },
-      {
         "en": "Lowest",
         "as": "আটাইতকৈ নীচ"
       },
@@ -1729,11 +1725,15 @@
         "as": "নীচভাবে"
       },
       {
+        "en": "Lower",
+        "as": "তলত"
+      },
+      {
         "en": "Lows",
         "as": "নীচ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "'Higher' is the comparative of 'high'; 'lower' is the comparative of 'low'.",
       "as": "'Higher' 'high' ৰ তুলনামূলক ৰূপ; 'lower' 'low' ৰ তুলনামূলক ৰূপ।"
@@ -1747,10 +1747,6 @@
     },
     "options": [
       {
-        "en": "Weight",
-        "as": "ওজন"
-      },
-      {
         "en": "Length",
         "as": "দীঘল"
       },
@@ -1761,9 +1757,13 @@
       {
         "en": "Time",
         "as": "সময়"
+      },
+      {
+        "en": "Weight",
+        "as": "ওজন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A kilometre measures distance; a kilogram measures weight.",
       "as": "কিলোমিটাৰে দূৰত্ব জোখে; কিলোগ্ৰামে ওজন জোখে।"
@@ -1777,12 +1777,12 @@
     },
     "options": [
       {
-        "en": "Length",
-        "as": "দীঘল"
-      },
-      {
         "en": "Weight",
         "as": "ওজন"
+      },
+      {
+        "en": "Length",
+        "as": "দীঘল"
       },
       {
         "en": "Time",
@@ -1793,7 +1793,7 @@
         "as": "কালি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A litre measures liquid; a metre measures length.",
       "as": "লিটাৰে জুলীয়া পদাৰ্থ জোখে; মিটাৰে দীঘল জোখে।"
@@ -1807,10 +1807,6 @@
     },
     "options": [
       {
-        "en": "Pressure",
-        "as": "চাপ"
-      },
-      {
         "en": "Speed",
         "as": "গতি"
       },
@@ -1821,9 +1817,13 @@
       {
         "en": "Rainfall",
         "as": "বৰষুণৰ পৰিমাণ"
+      },
+      {
+        "en": "Pressure",
+        "as": "চাপ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A thermometer measures temperature; a barometer measures pressure.",
       "as": "থাৰ্মোমিটাৰে উষ্ণতা জোখে; বেৰোমিটাৰে চাপ জোখে।"
@@ -1897,10 +1897,6 @@
     },
     "options": [
       {
-        "en": "Paris",
-        "as": "পেৰিছ"
-      },
-      {
         "en": "London",
         "as": "লণ্ডন"
       },
@@ -1909,11 +1905,15 @@
         "as": "ৰোম"
       },
       {
+        "en": "Paris",
+        "as": "পেৰিছ"
+      },
+      {
         "en": "Berlin",
         "as": "বাৰ্লিন"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "New Delhi is the capital of India; Paris is the capital of France.",
       "as": "নতুন দিল্লী ভাৰতৰ ৰাজধানী; পেৰিছ ফ্ৰান্সৰ ৰাজধানী।"
@@ -1987,10 +1987,6 @@
     },
     "options": [
       {
-        "en": "Pound",
-        "as": "পাউণ্ড"
-      },
-      {
         "en": "Dollar",
         "as": "ডলাৰ"
       },
@@ -1999,11 +1995,15 @@
         "as": "ইউৰ'"
       },
       {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
         "en": "Franc",
         "as": "ফ্ৰাঁ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The currency of Japan is the yen; the currency of the UK is the pound.",
       "as": "জাপানৰ মুদ্ৰা য়েন; যুক্তৰাজ্যৰ মুদ্ৰা পাউণ্ড।"
@@ -2077,10 +2077,6 @@
     },
     "options": [
       {
-        "en": "Kiwi",
-        "as": "কিৱি"
-      },
-      {
         "en": "Kangaroo",
         "as": "কেংগেৰু"
       },
@@ -2091,9 +2087,13 @@
       {
         "en": "Penguin",
         "as": "পেংগুইন"
+      },
+      {
+        "en": "Kiwi",
+        "as": "কিৱি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The national bird of India is the peacock; the national bird of New Zealand is the kiwi.",
       "as": "ভাৰতৰ ৰাষ্ট্ৰীয় চৰাই ময়ূৰ; নিউজিলেণ্ডৰ ৰাষ্ট্ৰীয় চৰাই কিৱি।"

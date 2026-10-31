@@ -234,6 +234,26 @@ keep explanations free of "option A/B/C/D" references — the rotation would mak
 such a reference wrong. After a regeneration, check that no topic has one
 option holding ≥50% of the keys.
 
+### Balancing hand-uploaded banks (Grade IV, Assam Police)
+
+`data/exams/adre-grade-4/` and `data/exams/assam-police/` hold their banks as
+hand-written `question-*.json` (no generator), so a topic authored with the
+natural answer first ends up with every key in one slot. Run
+
+```
+node tools/balance-answer-keys.js --check              # audit every book
+node tools/balance-answer-keys.js --book assam-police  # rewrite the skewed topics
+```
+
+The tool reorders each question's `options` text in place and follows the
+answer to its new index; it never changes which option is correct, the question
+or the explanation. Questions whose options contain a positional phrase ("all
+of these", "none of the above") or a figure keep their written order. It uses
+the same seeded sequence as the build-time generators, so a re-run is
+reproducible. After running it, rebuild the static pages with
+`node tools/inject-static-questions.js` so the site shows the new letters, then
+`--check` should report zero skewed topics.
+
 ### Grade III history question banks
 
 The history topics of the Grade III book are too large to keep inline in
