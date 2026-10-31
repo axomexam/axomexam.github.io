@@ -64102,5 +64102,1121 @@ module.exports = {
     "as": "গড় হৈছে পৰ্যবেক্ষণবোৰৰ সমান্তৰ মাধ্য।"
    }
   }
+ ],
+ "alpha-numeric-series": [
+  {
+   "id": "alpha-numeric-series-001",
+   "q": {
+    "en": "Find the next term: A1, C4, E9, G16, ?",
+    "as": "পিছৰ পদটো বিচাৰক: A1, C4, E9, G16, ?"
+   },
+   "options": [
+    {
+     "en": "I25",
+     "as": "I২৫"
+    },
+    {
+     "en": "H25",
+     "as": "H২৫"
+    },
+    {
+     "en": "I36",
+     "as": "I৩৬"
+    },
+    {
+     "en": "H16",
+     "as": "H১৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The letters move two steps forward (A, C, E, G, I) and the numbers are the squares of the letter positions (1, 4, 9, 16, 25), so the next term is I25.",
+    "as": "আখৰবোৰ দুখোজ আগলৈ যায় (A, C, E, G, I) আৰু সংখ্যাবোৰ আখৰৰ স্থানৰ বৰ্গ (1, 4, 9, 16, 25), গতিকে পিছৰ পদ I25।"
+   }
+  },
+  {
+   "id": "alpha-numeric-series-002",
+   "q": {
+    "en": "Find the next term: 2A, 4C, 6E, ?",
+    "as": "পিছৰ পদটো বিচাৰক: 2A, 4C, 6E, ?"
+   },
+   "options": [
+    {
+     "en": "7G",
+     "as": "৭G"
+    },
+    {
+     "en": "8G",
+     "as": "৮G"
+    },
+    {
+     "en": "8F",
+     "as": "৮F"
+    },
+    {
+     "en": "10G",
+     "as": "১০G"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The numbers increase by 2 (2, 4, 6, 8) and the letters move two steps forward (A, C, E, G), so the next term is 8G.",
+    "as": "সংখ্যাবোৰ 2 কৈ বাঢ়ে (2, 4, 6, 8) আৰু আখৰবোৰ দুখোজ আগলৈ যায় (A, C, E, G), গতিকে পিছৰ পদ 8G।"
+   }
+  }
+ ],
+ "alphabet-test-word-formation": [
+  {
+   "id": "alphabet-test-word-formation-001",
+   "q": {
+    "en": "Which letter lies exactly in the middle of the letters from A to I?",
+    "as": "A ৰ পৰা I লৈ আখৰবোৰৰ মাজত থকা আখৰটো কোন?"
+   },
+   "options": [
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "G",
+     "as": "G"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A is 1 and I is 9; the middle position is (1 + 9) / 2 = 5, and the fifth letter is E.",
+    "as": "A হৈছে 1 আৰু I হৈছে 9; মাজৰ স্থান (1 + 9) / 2 = 5, আৰু পঞ্চম আখৰটো E।"
+   }
+  },
+  {
+   "id": "alphabet-test-word-formation-002",
+   "q": {
+    "en": "How many letters are there between K and P in the English alphabet?",
+    "as": "ইংৰাজী বৰ্ণমালাত K আৰু P ৰ মাজত কিমানটা আখৰ আছে?"
+   },
+   "options": [
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The letters between K (11) and P (16) are L, M, N and O, which is four letters.",
+    "as": "K (11) আৰু P (16) ৰ মাজৰ আখৰবোৰ L, M, N আৰু O, অৰ্থাৎ চাৰিটা আখৰ।"
+   }
+  }
+ ],
+ "data-sufficiency": [
+  {
+   "id": "data-sufficiency-001",
+   "q": {
+    "en": "What is the value of x? I. x + 5 = 12. II. x is a prime number.",
+    "as": "x ৰ মান কিমান? I. x + 5 = 12। II. x এটা মৌলিক সংখ্যা।"
+   },
+   "options": [
+    {
+     "en": "I alone is sufficient",
+     "as": "কেৱল I যথেষ্ট"
+    },
+    {
+     "en": "II alone is sufficient",
+     "as": "কেৱল II যথেষ্ট"
+    },
+    {
+     "en": "Both together are needed",
+     "as": "দুয়োটা একেলগে লাগে"
+    },
+    {
+     "en": "Both together are not sufficient",
+     "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Statement I gives x = 7 on its own; statement II alone does not fix a single value. So I alone is sufficient.",
+    "as": "বিবৃতি I এ নিজেই x = 7 দিয়ে; বিবৃতি II এ অকলে এটা মান স্থিৰ নকৰে। গতিকে কেৱল I যথেষ্ট।"
+   }
+  },
+  {
+   "id": "data-sufficiency-002",
+   "q": {
+    "en": "Is the number n even? I. n is divisible by 3. II. n is divisible by 6.",
+    "as": "n সংখ্যাটো যুগ্ম নে? I. n ৰ 3 ৰে বিভাজ্য। II. n ৰ 6 ৰে বিভাজ্য।"
+   },
+   "options": [
+    {
+     "en": "I alone is sufficient",
+     "as": "কেৱল I যথেষ্ট"
+    },
+    {
+     "en": "II alone is sufficient",
+     "as": "কেৱল II যথেষ্ট"
+    },
+    {
+     "en": "Both together are needed",
+     "as": "দুয়োটা একেলগে লাগে"
+    },
+    {
+     "en": "Both together are not sufficient",
+     "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A number divisible by 6 is always even, so statement II alone answers the question; statement I alone does not.",
+    "as": "6 ৰে বিভাজ্য সংখ্যা সদায় যুগ্ম, গতিকে বিবৃতি II এ অকলে উত্তৰ দিয়ে; বিবৃতি I এ অকলে নিদিয়ে।"
+   }
+  }
+ ],
+ "input-output-machine": [
+  {
+   "id": "input-output-machine-001",
+   "q": {
+    "en": "A machine sorts numbers in increasing order, one per step. Input: 5 2 9 1. Step 1: 1 5 2 9. Step 2: 1 2 5 9. What is Step 1 for input 7 3 8 4?",
+    "as": "এটা যন্ত্ৰই সংখ্যাবোৰ বঢ়াৰ ক্ৰমত সজায়, প্ৰতি ধাপত এটা। ইনপুট: 5 2 9 1। ধাপ 1: 1 5 2 9। ধাপ 2: 1 2 5 9। ইনপুট 7 3 8 4 ৰ বাবে ধাপ 1 কি?"
+   },
+   "options": [
+    {
+     "en": "3 7 4 8",
+     "as": "৩ ৭ ৪ ৮"
+    },
+    {
+     "en": "4 3 7 8",
+     "as": "৪ ৩ ৭ ৮"
+    },
+    {
+     "en": "3 7 8 4",
+     "as": "৩ ৭ ৮ ৪"
+    },
+    {
+     "en": "3 4 7 8",
+     "as": "৩ ৪ ৭ ৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The machine moves the smallest number to the front at each step, so 7 3 8 4 becomes 3 7 8 4 in the first step.",
+    "as": "যন্ত্ৰই প্ৰতিটো ধাপত সৰু সংখ্যাটো আগলৈ আনে, গতিকে 7 3 8 4 প্ৰথম ধাপত 3 7 8 4 হয়।"
+   }
+  },
+  {
+   "id": "input-output-machine-002",
+   "q": {
+    "en": "A machine moves the largest number to the end, one per step. Input: 4 9 1 6. What is Step 1?",
+    "as": "এটা যন্ত্ৰই ডাঙৰ সংখ্যাটো শেষলৈ ঠেলে, প্ৰতি ধাপত এটা। ইনপুট: 4 9 1 6। ধাপ 1 কি?"
+   },
+   "options": [
+    {
+     "en": "4 1 9 6",
+     "as": "৪ ১ ৯ ৬"
+    },
+    {
+     "en": "1 4 6 9",
+     "as": "১ ৪ ৬ ৯"
+    },
+    {
+     "en": "9 4 1 6",
+     "as": "৯ ৪ ১ ৬"
+    },
+    {
+     "en": "4 1 6 9",
+     "as": "৪ ১ ৬ ৯"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The largest number, 9, moves to the end, so the first step is 4 1 6 9.",
+    "as": "আটাইতকৈ ডাঙৰ সংখ্যা 9 শেষলৈ যায়, গতিকে প্ৰথম ধাপ 4 1 6 9।"
+   }
+  }
+ ],
+ "seating-arrangement": [
+  {
+   "id": "seating-arrangement-001",
+   "q": {
+    "en": "Five friends sit in a row facing north. A is at the extreme left. B is immediately to the right of A. Who is second from the left?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। A ৰ শাৰীখনৰ একেবাৰে বাওঁমূৰত। B ৰ A ৰ ঠিক সোঁফালে। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "Cannot be determined",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A is at the extreme left and B is immediately to its right, so B is second from the left.",
+    "as": "A একেবাৰে বাওঁমূৰত আৰু B তাৰ ঠিক সোঁফালে, গতিকে B বাওঁফালৰ পৰা দ্বিতীয়।"
+   }
+  },
+  {
+   "id": "seating-arrangement-002",
+   "q": {
+    "en": "Six people sit around a circular table facing the centre. If P is opposite Q, how many people sit between them on one side?",
+    "as": "ছজন মানুহে কেন্দ্ৰলৈ মুখ কৰি এটা বৃত্তাকাৰ মেজত বহে। P ৰ ঠিক বিৰুদ্ধে Q থাকিলে এফালে তেওঁলোকৰ মাজত কিমানজন বহে?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "With six people in a circle, two people sit on each side between a pair who face each other.",
+    "as": "বৃত্তত ছজন মানুহ থাকিলে, এজনে আনজনৰ ঠিক বিৰুদ্ধে থাকিলে এফালে দুজনকৈ বহে।"
+   }
+  }
+ ],
+ "complex-puzzles": [
+  {
+   "id": "complex-puzzles-001",
+   "q": {
+    "en": "Five boxes are placed one above another. P is immediately above Q. Q is at the bottom. Who is at the top?",
+    "as": "পাঁচটা পেটিকা এটাৰ ওপৰত আনটো ৰখা হৈছে। P ৰ Q ৰ ঠিক ওপৰত। Q একেবাৰে তলত। ওপৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "P",
+     "as": "P"
+    },
+    {
+     "en": "Q",
+     "as": "Q"
+    },
+    {
+     "en": "Cannot be determined from the given clue",
+     "as": "দিয়া সূত্ৰৰ পৰা নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "The box just above P",
+     "as": "P ৰ ঠিক ওপৰৰ পেটিকাটো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The clue fixes only P and Q; the positions of the other three boxes are not given, so the top box cannot be determined.",
+    "as": "সূত্ৰই কেৱল P আৰু Q স্থিৰ কৰে; আন তিনিটা পেটিকাৰ অৱস্থান দিয়া নাই, গতিকে ওপৰৰ পেটিকাটো নিৰ্ণয় কৰিব নোৱাৰি।"
+   }
+  },
+  {
+   "id": "complex-puzzles-002",
+   "q": {
+    "en": "In a row of seven boxes, R is in the exact middle. How many boxes are to its right?",
+    "as": "সাতটা পেটিকাৰ এটা শাৰীত R ঠিক মাজত। তাৰ সোঁফালে কিমানটা পেটিকা?"
+   },
+   "options": [
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The middle position of seven is the fourth, which leaves three boxes on each side.",
+    "as": "সাতটাৰ মাজৰ স্থান চতুৰ্থ, যাৰ ফলত দুয়োফালে তিনিটাকৈ পেটিকা থাকে।"
+   }
+  }
+ ],
+ "inequality": [
+  {
+   "id": "inequality-001",
+   "q": {
+    "en": "If A > B and B > C, which conclusion is definitely true?",
+    "as": "যদি A > B আৰু B > C, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "A > C",
+     "as": "A > C"
+    },
+    {
+     "en": "C > A",
+     "as": "C > A"
+    },
+    {
+     "en": "A = C",
+     "as": "A = C"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The two relations form one chain A > B > C, so A is greater than C.",
+    "as": "দুয়োটা সম্পৰ্কই A > B > C শিকলি গঠন কৰে, গতিকে A ৰ C তকৈ ডাঙৰ।"
+   }
+  },
+  {
+   "id": "inequality-002",
+   "q": {
+    "en": "If P ≥ Q and Q > R, which conclusion is definitely true?",
+    "as": "যদি P ≥ Q আৰু Q > R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "R > P",
+     "as": "R > P"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "P is at least Q and Q is greater than R, so P is greater than R.",
+    "as": "P ৰ Q তকৈ কম নহয় আৰু Q ৰ R তকৈ ডাঙৰ, গতিকে P ৰ R তকৈ ডাঙৰ।"
+   }
+  }
+ ],
+ "statement-conclusions": [
+  {
+   "id": "statement-conclusions-001",
+   "q": {
+    "en": "Statement: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses fade quickly. II. All flowers are roses.",
+    "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান ফুল সোনকালে শুকায়। সিদ্ধান্ত: I. কিছুমান গোলাপ সোনকালে শুকায়। II. সকলো ফুল গোলাপ।"
+   },
+   "options": [
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    },
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II এটাও নোলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The flowers that fade quickly need not be roses, and 'all roses are flowers' does not mean all flowers are roses, so neither conclusion follows.",
+    "as": "সোনকালে শুকোৱা ফুলবোৰ গোলাপ নহ'বও পাৰে, আৰু 'সকলো গোলাপ ফুল' মানে সকলো ফুল গোলাপ নহয়, গতিকে এটাও সিদ্ধান্ত নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-002",
+   "q": {
+    "en": "Statement: Some pens are books. Conclusions: I. Some books are pens. II. All books are pens.",
+    "as": "বিবৃতি: কিছুমান কলম কিতাপ। সিদ্ধান্ত: I. কিছুমান কিতাপ কলম। II. সকলো কিতাপ কলম।"
+   },
+   "options": [
+    {
+     "en": "Only II follows",
+     "as": "কেৱল II ওলায়"
+    },
+    {
+     "en": "Both follow",
+     "as": "দুয়োটা ওলায়"
+    },
+    {
+     "en": "Neither follows",
+     "as": "এটাও নোলায়"
+    },
+    {
+     "en": "Only I follows",
+     "as": "কেৱল I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'Some pens are books' means the two groups overlap, so some books are pens; but 'some' does not prove 'all'.",
+    "as": "'কিছুমান কলম কিতাপ' মানে দুটা দল ওপৰাওপৰ, গতিকে কিছুমান কিতাপ কলম; কিন্তু 'কিছুমান'এ 'সকলো' প্ৰমাণ নকৰে।"
+   }
+  }
+ ],
+ "statement-assumptions": [
+  {
+   "id": "statement-assumptions-001",
+   "q": {
+    "en": "Statement: Please use the footbridge to cross the road. Assumption: People can use the footbridge.",
+    "as": "বিবৃতি: ৰাস্তা পাৰ হ'বলৈ অনুগ্ৰহ কৰি খোজ-সেতু ব্যৱহাৰ কৰক। অনুমান: মানুহে খোজ-সেতু ব্যৱহাৰ কৰিব পাৰে।"
+   },
+   "options": [
+    {
+     "en": "The assumption is implicit",
+     "as": "অনুমানটো লুকুৱাই আছে"
+    },
+    {
+     "en": "The assumption is not implicit",
+     "as": "অনুমানটো লুকুৱাই নাই"
+    },
+    {
+     "en": "The statement is false",
+     "as": "বিবৃতিটো অসঁচা"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The request makes sense only if people can use the footbridge, so the assumption is implicit.",
+    "as": "খোজ-সেতু মানুহে ব্যৱহাৰ কৰিব পাৰিলেহে অনুৰোধটোৰ অৰ্থ আছে, গতিকে অনুমানটো লুকুৱাই আছে।"
+   }
+  },
+  {
+   "id": "statement-assumptions-002",
+   "q": {
+    "en": "Statement: Join the evening batch to improve your English. Assumption: An evening batch is available.",
+    "as": "বিবৃতি: আপোনাৰ ইংৰাজী উন্নত কৰিবলৈ সন্ধিয়াৰ বেট্চত যোগ দিয়ক। অনুমান: সন্ধিয়াৰ এটা বেট্চ উপলব্ধ।"
+   },
+   "options": [
+    {
+     "en": "The assumption is not implicit",
+     "as": "অনুমানটো লুকুৱাই নাই"
+    },
+    {
+     "en": "The assumption is implicit",
+     "as": "অনুমানটো লুকুৱাই আছে"
+    },
+    {
+     "en": "The statement is false",
+     "as": "বিবৃতিটো অসঁচা"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Asking someone to join the evening batch assumes that such a batch exists, so the assumption is implicit.",
+    "as": "সন্ধিয়াৰ বেট্চত যোগ দিবলৈ কোৱাটোৱে এনে এটা বেট্চ আছে বুলি ধৰি লয়, গতিকে অনুমানটো লুকুৱাই আছে।"
+   }
+  }
+ ],
+ "statement-arguments": [
+  {
+   "id": "statement-arguments-001",
+   "q": {
+    "en": "Statement: Should the use of plastic bags be banned? Argument: Yes, because plastic bags pollute the environment.",
+    "as": "বিবৃতি: প্লাষ্টিকৰ মোনা ব্যৱহাৰ নিষিদ্ধ কৰা উচিত নে? যুক্তি: হয়, কাৰণ প্লাষ্টিকৰ মোনাই পৰিৱেশ প্ৰদূষিত কৰে।"
+   },
+   "options": [
+    {
+     "en": "The argument is weak",
+     "as": "যুক্তিটো দুৰ্বল"
+    },
+    {
+     "en": "The argument is irrelevant",
+     "as": "যুক্তিটো অসম্পৰ্কিত"
+    },
+    {
+     "en": "The argument is strong",
+     "as": "যুক্তিটো শক্তিশালী"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The argument is directly related to the statement and rests on a real environmental fact, so it is strong.",
+    "as": "যুক্তিটো বিবৃতিৰ সৈতে পোনপটীয়াকৈ জড়িত আৰু এটা প্ৰকৃত পৰিৱেশ তথ্যত ভিত্তি কৰি, গতিকে সেয়া শক্তিশালী।"
+   }
+  },
+  {
+   "id": "statement-arguments-002",
+   "q": {
+    "en": "Statement: Should school children be given homework? Argument: No, because I never liked homework.",
+    "as": "বিবৃতি: স্কুলৰ শিশুক ঘৰুৱা কাম দিয়া উচিত নে? যুক্তি: নহয়, কাৰণ মই কেতিয়াও ঘৰুৱা কাম ভাল নাপাইছিলোঁ।"
+   },
+   "options": [
+    {
+     "en": "The argument is strong",
+     "as": "যুক্তিটো শক্তিশালী"
+    },
+    {
+     "en": "The argument is relevant",
+     "as": "যুক্তিটো প্ৰাসংগিক"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "The argument is weak",
+     "as": "যুক্তিটো দুৰ্বল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A personal dislike is not a sound reason and does not address the merits, so the argument is weak.",
+    "as": "ব্যক্তিগত অনিচ্ছা এটা সুস্থ কাৰণ নহয় আৰু গুণাগুণ সম্বোধন নকৰে, গতিকে যুক্তিটো দুৰ্বল।"
+   }
+  }
+ ],
+ "statement-course-of-action": [
+  {
+   "id": "statement-course-of-action-001",
+   "q": {
+    "en": "Statement: The road near the school is often waterlogged during the rains. Course of action: Repair the drainage of that road.",
+    "as": "বিবৃতি: বৰষুণৰ সময়ত বিদ্যালয়ৰ কাষৰ ৰাস্তা সঘনাই পানীৰে ভৰি থাকে। কাৰ্যপন্থা: সেই ৰাস্তাৰ নলা-নৰ্দমা মেৰামতি কৰা।"
+   },
+   "options": [
+    {
+     "en": "The course of action is worth following",
+     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য"
+    },
+    {
+     "en": "The course of action is not worth following",
+     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য নহয়"
+    },
+    {
+     "en": "The course of action is irrelevant",
+     "as": "কাৰ্যপন্থাটো অসম্পৰ্কিত"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Repairing the drainage directly addresses the waterlogging and would solve it, so the action is worth following.",
+    "as": "নলা-নৰ্দমা মেৰামতিয়ে পানী জমা হোৱা সমস্যাটোক পোনপটীয়াকৈ সম্বোধন কৰি সমাধান কৰিব, গতিকে কাৰ্যপন্থাটো অনুসৰণযোগ্য।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-002",
+   "q": {
+    "en": "Statement: Many students fail mathematics every year. Course of action: The government should resign.",
+    "as": "বিবৃতি: প্ৰতি বছৰে বহু শিক্ষাৰ্থী গণিতত অনুত্তীৰ্ণ হয়। কাৰ্যপন্থা: চৰকাৰে পদত্যাগ কৰা উচিত।"
+   },
+   "options": [
+    {
+     "en": "The course of action is worth following",
+     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য"
+    },
+    {
+     "en": "The course of action is not worth following",
+     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য নহয়"
+    },
+    {
+     "en": "The course of action is relevant",
+     "as": "কাৰ্যপন্থাটো প্ৰাসংগিক"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The action is out of proportion to the problem and would not reduce the failures, so it is not worth following.",
+    "as": "কাৰ্যপন্থাটো সমস্যাৰ তুলনাত অত্যধিক আৰু অনুত্তীৰ্ণ কমাব নোৱাৰে, গতিকে অনুসৰণযোগ্য নহয়।"
+   }
+  }
+ ],
+ "cause-effect": [
+  {
+   "id": "cause-effect-001",
+   "q": {
+    "en": "I. Heavy rain fell in the district. II. The river overflowed its banks. Which is correct?",
+    "as": "I. জিলাখনত ধুমুহা বৰষুণ হ'ল। II. নদী পাৰ উপচি পৰিল। কোনটো শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "II is the cause and I is the effect",
+     "as": "II কাৰণ আৰু I ফলাফল"
+    },
+    {
+     "en": "Both are effects of a common cause",
+     "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "I is the cause and II is the effect",
+     "as": "I কাৰণ আৰু II ফলাফল"
+    },
+    {
+     "en": "Both are independent",
+     "as": "দুয়োটা স্বাধীন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The river overflowed because of the heavy rain, so the rain is the cause and the overflow is the effect.",
+    "as": "ধুমুহা বৰষুণৰ বাবেই নদী উপচিল, গতিকে বৰষুণ কাৰণ আৰু উপচি পৰাটো ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-002",
+   "q": {
+    "en": "I. The price of vegetables rose. II. Heavy rain damaged the crops. Which is correct?",
+    "as": "I. পাচলিৰ দাম বাঢ়িল। II. ধুমুহা বৰষুণে শস্য নষ্ট কৰিলে। কোনটো শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "I is the cause and II is the effect",
+     "as": "I কাৰণ আৰু II ফলাফল"
+    },
+    {
+     "en": "Both are independent",
+     "as": "দুয়োটা স্বাধীন"
+    },
+    {
+     "en": "Both are effects of a common cause",
+     "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "II is the cause and I is the effect",
+     "as": "II কাৰণ আৰু I ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Crop damage reduced the supply and pushed the price up, so II is the cause and I is the effect.",
+    "as": "শস্য নষ্ট হোৱাৰ ফলত যোগান কমি দাম বাঢ়িল, গতিকে II কাৰণ আৰু I ফলাফল।"
+   }
+  }
+ ],
+ "assertion-reason": [
+  {
+   "id": "assertion-reason-001",
+   "q": {
+    "en": "A: Water boils at 100 degrees Celsius at sea level. R: Boiling point depends on atmospheric pressure.",
+    "as": "A: সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰী চেলচিয়াছত উতলে। R: উতলাংক বায়ুমণ্ডলীয় চাপৰ ওপৰত নিৰ্ভৰ কৰে।"
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The reason, that boiling point depends on pressure, is exactly why water boils at 100 degrees at sea level.",
+    "as": "উতলাংক চাপৰ ওপৰত নিৰ্ভৰ কৰে বুলি কাৰণটোৱেই সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰীত উতলাৰ কাৰণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-002",
+   "q": {
+    "en": "A: The sun rises in the east. R: The earth rotates from west to east.",
+    "as": "A: সূৰ্য্য পূৱত উদয় হয়। R: পৃথিৱী পশ্চিমৰ পৰা পূৱলৈ ঘূৰে।"
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The earth's west-to-east rotation is the reason the sun appears to rise in the east.",
+    "as": "পৃথিৱীৰ পশ্চিমৰ পৰা পূৱলৈ ঘূৰ্ণনেই সূৰ্য্য পূৱত উদয় হোৱা যেন লগাৰ কাৰণ।"
+   }
+  }
+ ],
+ "decision-making": [
+  {
+   "id": "decision-making-001",
+   "q": {
+    "en": "A candidate must be at least 18 years old and have passed class 12. Rina is 19 and has passed class 12. Does she qualify?",
+    "as": "প্ৰাৰ্থীৰ বয়স অন্ততঃ 18 বছৰ হ'ব লাগে আৰু দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হ'ব লাগে। ৰিনাৰ বয়স 19 আৰু তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ। তেওঁ যোগ্য নে?"
+   },
+   "options": [
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "She meets both conditions: age 19 is at least 18, and she has passed class 12.",
+    "as": "তেওঁ দুয়োটা চৰ্ত পূৰণ কৰে: বয়স 19 অন্ততঃ 18, আৰু তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ।"
+   }
+  },
+  {
+   "id": "decision-making-002",
+   "q": {
+    "en": "A candidate must be at least 18 years old and have passed class 12. Rahim is 20 and has passed class 10. Does he qualify?",
+    "as": "প্ৰাৰ্থীৰ বয়স অন্ততঃ 18 বছৰ হ'ব লাগে আৰু দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হ'ব লাগে। ৰাহিমৰ বয়স 20 আৰু তেওঁ দশম শ্ৰেণী উত্তীৰ্ণ। তেওঁ যোগ্য নে?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Although he is old enough, he has passed only class 10, so the education condition is not met.",
+    "as": "তেওঁ বয়সত যোগ্য যদিও কেৱল দশম শ্ৰেণী উত্তীৰ্ণ, গতিকে শিক্ষাৰ চৰ্ত পূৰণ হোৱা নাই।"
+   }
+  }
+ ],
+ "drawing-inferences": [
+  {
+   "id": "drawing-inferences-001",
+   "q": {
+    "en": "Passage: All the windows in the hall were shut, yet the floor was wet. Inference:",
+    "as": "অনুচ্ছেদ: হলটোৰ সকলো খিৰিকী বন্ধ আছিল, তথাপি মজিয়া তিতা আছিল। সিদ্ধান্ত:"
+   },
+   "options": [
+    {
+     "en": "Water came from a source inside the hall",
+     "as": "পানী হলটোৰ ভিতৰৰ পৰা আহিছিল"
+    },
+    {
+     "en": "It rained heavily outside",
+     "as": "বাহিৰত ধুমুহা বৰষুণ হৈছিল"
+    },
+    {
+     "en": "The windows were open",
+     "as": "খিৰিকীবোৰ খোলা আছিল"
+    },
+    {
+     "en": "The floor was dry",
+     "as": "মজিয়া শুকান আছিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "With every window shut, the water on the floor must have come from inside; the other options contradict the passage.",
+    "as": "সকলো খিৰিকী বন্ধ থকাৰ পৰিপ্ৰেক্ষিতত মজিয়াৰ পানী ভিতৰৰ পৰা অহা হ'ব; আনবোৰ বিকল্পই অনুচ্ছেদৰ লগত বিৰোধ কৰে।"
+   }
+  },
+  {
+   "id": "drawing-inferences-002",
+   "q": {
+    "en": "Passage: Every student in the class passed, but only one student scored full marks. Inference:",
+    "as": "অনুচ্ছেদ: শ্ৰেণীৰ প্ৰতিজন শিক্ষাৰ্থী উত্তীৰ্ণ হ'ল, কিন্তু কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছিল। সিদ্ধান্ত:"
+   },
+   "options": [
+    {
+     "en": "No student got full marks",
+     "as": "কোনো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+    },
+    {
+     "en": "At least one student did not get full marks",
+     "as": "অন্ততঃ এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+    },
+    {
+     "en": "All students got full marks",
+     "as": "সকলো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছে"
+    },
+    {
+     "en": "The class was empty",
+     "as": "শ্ৰেণী খালী আছিল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Since only one student scored full marks and the class has more than one student, at least one student did not.",
+    "as": "কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱাৰ পিছত আৰু শ্ৰেণীত এজনতকৈ অধিক থকাৰ পিছত, অন্ততঃ এজনে পোৱা নাই।"
+   }
+  }
+ ],
+ "figure-matrix": [
+  {
+   "id": "figure-matrix-001",
+   "q": {
+    "en": "In a figure matrix, each figure in the third column is made by joining the figures in the first two columns of the same row. If the first two cells of a row contain a triangle and a square, the third cell contains a figure with how many sides?",
+    "as": "চিত্ৰ মেট্ৰিক্সত, তৃতীয় স্তম্ভৰ প্ৰতিটো চিত্ৰ একেই শাৰীৰ প্ৰথম দুটা স্তম্ভৰ চিত্ৰ জোৰা লগাই বনোৱা হয়। এটা শাৰীৰ প্ৰথম দুটা ঘৰত ত্ৰিভুজ আৰু বৰ্গ থাকিলে, তৃতীয় ঘৰৰ চিত্ৰত কিমান বাহু থাকিব?"
+   },
+   "options": [
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "7",
+     "as": "৭"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A triangle has 3 sides and a square has 4, and joining them gives 3 + 4 = 7 sides.",
+    "as": "ত্ৰিভুজত 3 বাহু আৰু বৰ্গত 4 বাহু, জোৰা লগালে 3 + 4 = 7 বাহু হয়।"
+   }
+  },
+  {
+   "id": "figure-matrix-002",
+   "q": {
+    "en": "In a 3 by 3 figure matrix, the number of dots in each row increases by one from left to right. If the first cell of a row has 2 dots, how many dots does the third cell have?",
+    "as": "3 গুণ 3 চিত্ৰ মেট্ৰিক্সত, প্ৰতিটো শাৰীত বাওঁৰ পৰা সোঁলৈ বিন্দুৰ সংখ্যা একেৰে বাঢ়ে। এটা শাৰীৰ প্ৰথম ঘৰত 2 বিন্দু থাকিলে, তৃতীয় ঘৰত কিমান বিন্দু থাকিব?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "5",
+     "as": "৫"
+    },
+    {
+     "en": "6",
+     "as": "৬"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The counts are 2, 3 and 4, so the third cell has 4 dots.",
+    "as": "সংখ্যাবোৰ 2, 3 আৰু 4, গতিকে তৃতীয় ঘৰত 4 বিন্দু থাকে।"
+   }
+  }
+ ],
+ "rule-detection": [
+  {
+   "id": "rule-detection-001",
+   "q": {
+    "en": "Rule: the letters of the group must be in alphabetical order. Which option follows the rule?",
+    "as": "নিয়ম: দলটোৰ আখৰবোৰ বৰ্ণমালাৰ ক্ৰমত থাকিব লাগে। কোনটো বিকল্পই নিয়ম মানি চলে?"
+   },
+   "options": [
+    {
+     "en": "BDEF",
+     "as": "BDEF"
+    },
+    {
+     "en": "BDAF",
+     "as": "BDAF"
+    },
+    {
+     "en": "DBFE",
+     "as": "DBFE"
+    },
+    {
+     "en": "FEDB",
+     "as": "FEDB"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Only B, D, E, F are in increasing alphabetical order; the others are out of order.",
+    "as": "কেৱল B, D, E, F বৰ্ণমালাৰ বঢ়া ক্ৰমত আছে; আনবোৰৰ ক্ৰম ভুল।"
+   }
+  },
+  {
+   "id": "rule-detection-002",
+   "q": {
+    "en": "Rule: the number must be divisible by 5. Which option follows the rule?",
+    "as": "নিয়ম: সংখ্যাটো 5 ৰে বিভাজ্য হ'ব লাগে। কোনটো বিকল্পই নিয়ম মানি চলে?"
+   },
+   "options": [
+    {
+     "en": "123",
+     "as": "১২৩"
+    },
+    {
+     "en": "125",
+     "as": "১২৫"
+    },
+    {
+     "en": "127",
+     "as": "১২৭"
+    },
+    {
+     "en": "121",
+     "as": "১২১"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A number is divisible by 5 only if its last digit is 0 or 5, and only 125 ends in 5.",
+    "as": "শেষ অংক 0 বা 5 হ'লেহে সংখ্যা 5 ৰে বিভাজ্য, আৰু কেৱল 125 ৰ শেষত 5 আছে।"
+   }
+  }
+ ],
+ "shape-construction-grouping": [
+  {
+   "id": "shape-construction-grouping-001",
+   "q": {
+    "en": "Two right-angled triangles of equal size are joined along their equal sides. Which figure is formed?",
+    "as": "সমান জোখৰ দুটা সমকোণী ত্ৰিভুজ সমান বাহুৰে জোৰা লগোৱা হ'ল। কোনটো চিত্ৰ গঠন হয়?"
+   },
+   "options": [
+    {
+     "en": "A circle",
+     "as": "এটা বৃত্ত"
+    },
+    {
+     "en": "A pentagon",
+     "as": "এটা পঞ্চভুজ"
+    },
+    {
+     "en": "A rectangle",
+     "as": "এটা আয়তক্ষেত্ৰ"
+    },
+    {
+     "en": "A triangle",
+     "as": "এটা ত্ৰিভুজ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Two equal right-angled triangles joined along their equal sides form a rectangle.",
+    "as": "সমান জোখৰ দুটা সমকোণী ত্ৰিভুজ সমান বাহুৰে জোৰা লগালে এটা আয়তক্ষেত্ৰ গঠন হয়।"
+   }
+  },
+  {
+   "id": "shape-construction-grouping-002",
+   "q": {
+    "en": "Which figure does not belong to the group: square, rectangle, rhombus, circle?",
+    "as": "কোনটো চিত্ৰ দলত নপৰে: বৰ্গ, আয়তক্ষেত্ৰ, ৰম্বাছ, বৃত্ত?"
+   },
+   "options": [
+    {
+     "en": "Square",
+     "as": "বৰ্গ"
+    },
+    {
+     "en": "Rectangle",
+     "as": "আয়তক্ষেত্ৰ"
+    },
+    {
+     "en": "Rhombus",
+     "as": "ৰম্বাছ"
+    },
+    {
+     "en": "Circle",
+     "as": "বৃত্ত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The square, rectangle and rhombus are all quadrilaterals with four sides, while a circle has no straight sides.",
+    "as": "বৰ্গ, আয়তক্ষেত্ৰ আৰু ৰম্বাছ সকলো চতুৰ্ভুজ, চাৰিটা বাহু থাকে, আনহাতে বৃত্তৰ সোজা বাহু নাই।"
+   }
+  }
  ]
 };

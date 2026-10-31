@@ -1,0 +1,62 @@
+[
+  {
+    "id": "data-sufficiency-001",
+    "q": {
+      "en": "What is the value of x? I. x + 5 = 12. II. x is a prime number.",
+      "as": "x ৰ মান কিমান? I. x + 5 = 12। II. x এটা মৌলিক সংখ্যা।"
+    },
+    "options": [
+      {
+        "en": "I alone is sufficient",
+        "as": "কেৱল I যথেষ্ট"
+      },
+      {
+        "en": "II alone is sufficient",
+        "as": "কেৱল II যথেষ্ট"
+      },
+      {
+        "en": "Both together are needed",
+        "as": "দুয়োটা একেলগে লাগে"
+      },
+      {
+        "en": "Both together are not sufficient",
+        "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Statement I gives x = 7 on its own; statement II alone does not fix a single value. So I alone is sufficient.",
+      "as": "বিবৃতি I এ নিজেই x = 7 দিয়ে; বিবৃতি II এ অকলে এটা মান স্থিৰ নকৰে। গতিকে কেৱল I যথেষ্ট।"
+    }
+  },
+  {
+    "id": "data-sufficiency-002",
+    "q": {
+      "en": "Is the number n even? I. n is divisible by 3. II. n is divisible by 6.",
+      "as": "n সংখ্যাটো যুগ্ম নে? I. n ৰ 3 ৰে বিভাজ্য। II. n ৰ 6 ৰে বিভাজ্য।"
+    },
+    "options": [
+      {
+        "en": "I alone is sufficient",
+        "as": "কেৱল I যথেষ্ট"
+      },
+      {
+        "en": "II alone is sufficient",
+        "as": "কেৱল II যথেষ্ট"
+      },
+      {
+        "en": "Both together are needed",
+        "as": "দুয়োটা একেলগে লাগে"
+      },
+      {
+        "en": "Both together are not sufficient",
+        "as": "দুয়োটা একেলগেও যথেষ্ট নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A number divisible by 6 is always even, so statement II alone answers the question; statement I alone does not.",
+      "as": "6 ৰে বিভাজ্য সংখ্যা সদায় যুগ্ম, গতিকে বিবৃতি II এ অকলে উত্তৰ দিয়ে; বিবৃতি I এ অকলে নিদিয়ে।"
+    }
+  }
+]

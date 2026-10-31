@@ -1,0 +1,62 @@
+[
+  {
+    "id": "alpha-numeric-series-001",
+    "q": {
+      "en": "Find the next term: A1, C4, E9, G16, ?",
+      "as": "পিছৰ পদটো বিচাৰক: A1, C4, E9, G16, ?"
+    },
+    "options": [
+      {
+        "en": "I25",
+        "as": "I২৫"
+      },
+      {
+        "en": "H25",
+        "as": "H২৫"
+      },
+      {
+        "en": "I36",
+        "as": "I৩৬"
+      },
+      {
+        "en": "H16",
+        "as": "H১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters move two steps forward (A, C, E, G, I) and the numbers are the squares of the letter positions (1, 4, 9, 16, 25), so the next term is I25.",
+      "as": "আখৰবোৰ দুখোজ আগলৈ যায় (A, C, E, G, I) আৰু সংখ্যাবোৰ আখৰৰ স্থানৰ বৰ্গ (1, 4, 9, 16, 25), গতিকে পিছৰ পদ I25।"
+    }
+  },
+  {
+    "id": "alpha-numeric-series-002",
+    "q": {
+      "en": "Find the next term: 2A, 4C, 6E, ?",
+      "as": "পিছৰ পদটো বিচাৰক: 2A, 4C, 6E, ?"
+    },
+    "options": [
+      {
+        "en": "7G",
+        "as": "৭G"
+      },
+      {
+        "en": "8G",
+        "as": "৮G"
+      },
+      {
+        "en": "8F",
+        "as": "৮F"
+      },
+      {
+        "en": "10G",
+        "as": "১০G"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The numbers increase by 2 (2, 4, 6, 8) and the letters move two steps forward (A, C, E, G), so the next term is 8G.",
+      "as": "সংখ্যাবোৰ 2 কৈ বাঢ়ে (2, 4, 6, 8) আৰু আখৰবোৰ দুখোজ আগলৈ যায় (A, C, E, G), গতিকে পিছৰ পদ 8G।"
+    }
+  }
+]

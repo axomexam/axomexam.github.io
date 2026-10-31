@@ -1,0 +1,62 @@
+[
+  {
+    "id": "decision-making-001",
+    "q": {
+      "en": "A candidate must be at least 18 years old and have passed class 12. Rina is 19 and has passed class 12. Does she qualify?",
+      "as": "প্ৰাৰ্থীৰ বয়স অন্ততঃ 18 বছৰ হ'ব লাগে আৰু দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হ'ব লাগে। ৰিনাৰ বয়স 19 আৰু তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ। তেওঁ যোগ্য নে?"
+    },
+    "options": [
+      {
+        "en": "No, she is too young",
+        "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+      },
+      {
+        "en": "No, she has not passed class 12",
+        "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+      },
+      {
+        "en": "Yes, she qualifies",
+        "as": "হয়, তেওঁ যোগ্য"
+      },
+      {
+        "en": "Cannot be decided",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "She meets both conditions: age 19 is at least 18, and she has passed class 12.",
+      "as": "তেওঁ দুয়োটা চৰ্ত পূৰণ কৰে: বয়স 19 অন্ততঃ 18, আৰু তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ।"
+    }
+  },
+  {
+    "id": "decision-making-002",
+    "q": {
+      "en": "A candidate must be at least 18 years old and have passed class 12. Rahim is 20 and has passed class 10. Does he qualify?",
+      "as": "প্ৰাৰ্থীৰ বয়স অন্ততঃ 18 বছৰ হ'ব লাগে আৰু দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হ'ব লাগে। ৰাহিমৰ বয়স 20 আৰু তেওঁ দশম শ্ৰেণী উত্তীৰ্ণ। তেওঁ যোগ্য নে?"
+    },
+    "options": [
+      {
+        "en": "Yes, he qualifies",
+        "as": "হয়, তেওঁ যোগ্য"
+      },
+      {
+        "en": "No, he is too young",
+        "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+      },
+      {
+        "en": "Cannot be decided",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "No, he has not passed class 12",
+        "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Although he is old enough, he has passed only class 10, so the education condition is not met.",
+      "as": "তেওঁ বয়সত যোগ্য যদিও কেৱল দশম শ্ৰেণী উত্তীৰ্ণ, গতিকে শিক্ষাৰ চৰ্ত পূৰণ হোৱা নাই।"
+    }
+  }
+]

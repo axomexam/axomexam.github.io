@@ -1,0 +1,62 @@
+[
+  {
+    "id": "complex-puzzles-001",
+    "q": {
+      "en": "Five boxes are placed one above another. P is immediately above Q. Q is at the bottom. Who is at the top?",
+      "as": "পাঁচটা পেটিকা এটাৰ ওপৰত আনটো ৰখা হৈছে। P ৰ Q ৰ ঠিক ওপৰত। Q একেবাৰে তলত। ওপৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "Cannot be determined from the given clue",
+        "as": "দিয়া সূত্ৰৰ পৰা নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "The box just above P",
+        "as": "P ৰ ঠিক ওপৰৰ পেটিকাটো"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The clue fixes only P and Q; the positions of the other three boxes are not given, so the top box cannot be determined.",
+      "as": "সূত্ৰই কেৱল P আৰু Q স্থিৰ কৰে; আন তিনিটা পেটিকাৰ অৱস্থান দিয়া নাই, গতিকে ওপৰৰ পেটিকাটো নিৰ্ণয় কৰিব নোৱাৰি।"
+    }
+  },
+  {
+    "id": "complex-puzzles-002",
+    "q": {
+      "en": "In a row of seven boxes, R is in the exact middle. How many boxes are to its right?",
+      "as": "সাতটা পেটিকাৰ এটা শাৰীত R ঠিক মাজত। তাৰ সোঁফালে কিমানটা পেটিকা?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The middle position of seven is the fourth, which leaves three boxes on each side.",
+      "as": "সাতটাৰ মাজৰ স্থান চতুৰ্থ, যাৰ ফলত দুয়োফালে তিনিটাকৈ পেটিকা থাকে।"
+    }
+  }
+]

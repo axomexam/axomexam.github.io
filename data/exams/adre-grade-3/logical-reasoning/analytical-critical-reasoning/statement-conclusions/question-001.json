@@ -1,0 +1,62 @@
+[
+  {
+    "id": "statement-conclusions-001",
+    "q": {
+      "en": "Statement: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses fade quickly. II. All flowers are roses.",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান ফুল সোনকালে শুকায়। সিদ্ধান্ত: I. কিছুমান গোলাপ সোনকালে শুকায়। II. সকলো ফুল গোলাপ।"
+    },
+    "options": [
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      },
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II এটাও নোলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The flowers that fade quickly need not be roses, and 'all roses are flowers' does not mean all flowers are roses, so neither conclusion follows.",
+      "as": "সোনকালে শুকোৱা ফুলবোৰ গোলাপ নহ'বও পাৰে, আৰু 'সকলো গোলাপ ফুল' মানে সকলো ফুল গোলাপ নহয়, গতিকে এটাও সিদ্ধান্ত নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-002",
+    "q": {
+      "en": "Statement: Some pens are books. Conclusions: I. Some books are pens. II. All books are pens.",
+      "as": "বিবৃতি: কিছুমান কলম কিতাপ। সিদ্ধান্ত: I. কিছুমান কিতাপ কলম। II. সকলো কিতাপ কলম।"
+    },
+    "options": [
+      {
+        "en": "Only II follows",
+        "as": "কেৱল II ওলায়"
+      },
+      {
+        "en": "Both follow",
+        "as": "দুয়োটা ওলায়"
+      },
+      {
+        "en": "Neither follows",
+        "as": "এটাও নোলায়"
+      },
+      {
+        "en": "Only I follows",
+        "as": "কেৱল I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Some pens are books' means the two groups overlap, so some books are pens; but 'some' does not prove 'all'.",
+      "as": "'কিছুমান কলম কিতাপ' মানে দুটা দল ওপৰাওপৰ, গতিকে কিছুমান কিতাপ কলম; কিন্তু 'কিছুমান'এ 'সকলো' প্ৰমাণ নকৰে।"
+    }
+  }
+]

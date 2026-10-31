@@ -166,6 +166,8 @@ const EXAM = {
           title: { en: "Verbal Reasoning", as: "ভাষিক যুক্তিতৰ্ক" },
           subcategories: [
             { id: "number-alphabet-series", title: { en: "Number Series & Alphabet Series", as: "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ।" } },
+            { id: "alpha-numeric-series", title: { en: "Alpha-Numeric Series", as: "বৰ্ণ আৰু সংখ্যাৰ মিশ্ৰিত শৃংখলা (Alpha-Numeric Series)।" } },
+            { id: "alphabet-test-word-formation", title: { en: "Alphabet Test & Word Formation", as: "বৰ্ণমালা পৰীক্ষা আৰু শব্দ গঠন — আখৰৰ স্থান, অভিধানৰ ক্ৰম আৰু শব্দ গঠন।" } },
             { id: "coding-decoding", title: { en: "Coding-Decoding", as: "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় (Letter Coding, Number Coding)।" } },
             { id: "blood-relations", title: { en: "Blood Relations", as: "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন।" } },
             { id: "direction-distance", title: { en: "Direction Sense Test", as: "দিশ আৰু দূৰত্ব নিৰ্ণয়।" } },
@@ -177,6 +179,25 @@ const EXAM = {
             { id: "syllogism", title: { en: "Syllogism / Statements & Conclusions", as: "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয়।" } },
             { id: "mathematical-operations", title: { en: "Mathematical Operations", as: "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয়।" } },
             { id: "clock-calendar", title: { en: "Clock & Calendar", as: "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় সম্বন্ধীয় প্ৰশ্ন।" } },
+            { id: "data-sufficiency", title: { en: "Data Sufficiency", as: "তথ্য পৰ্যাপ্ততা (Data Sufficiency) — কোনটো তথ্যই উত্তৰ দিবলৈ যথেষ্ট।" } },
+            { id: "input-output-machine", title: { en: "Input-Output & Machine", as: "ইনপুট-আউটপুট আৰু যন্ত্ৰৰ ধাপ (Input-Output & Machine)।" } },
+          ],
+        },
+        {
+          id: "analytical-critical-reasoning",
+          title: { en: "Analytical & Critical Reasoning", as: "বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিতৰ্ক" },
+          subcategories: [
+            { id: "seating-arrangement", title: { en: "Seating Arrangement", as: "বহাৰ বিন্যাস — শাৰী, বৃত্ত আৰু বৰ্গাকাৰত বহাৰ প্ৰশ্ন।" } },
+            { id: "complex-puzzles", title: { en: "Complex Puzzles", as: "জটিল পাজল — মজিয়া, পেটিকা আৰু সময়সূচীৰ প্ৰশ্ন।" } },
+            { id: "inequality", title: { en: "Inequality", as: "অসমতা (Inequality) — চিহ্নৰ অৰ্থ আৰু তুলনাৰ সম্পৰ্ক।" } },
+            { id: "statement-conclusions", title: { en: "Statement & Conclusions", as: "বিবৃতি আৰু সিদ্ধান্ত — কোনটো সিদ্ধান্ত যুক্তিসংগতভাৱে ওলাই আহে।" } },
+            { id: "statement-assumptions", title: { en: "Statement & Assumptions", as: "বিবৃতি আৰু অনুমান — বিবৃতিত লুকুৱা ধাৰণা নিৰ্ণয়।" } },
+            { id: "statement-arguments", title: { en: "Statement & Arguments", as: "বিবৃতি আৰু যুক্তি — শক্তিশালী যুক্তি বাছনি কৰা।" } },
+            { id: "statement-course-of-action", title: { en: "Statement & Course of Action", as: "বিবৃতি আৰু কাৰ্যপন্থা — সমস্যাৰ বাবে উপযুক্ত পদক্ষেপ নিৰ্ণয়।" } },
+            { id: "cause-effect", title: { en: "Cause & Effect", as: "কাৰণ আৰু ফলাফল (Cause & Effect)।" } },
+            { id: "assertion-reason", title: { en: "Assertion & Reason", as: "দাবী আৰু কাৰণ (Assertion & Reason)।" } },
+            { id: "decision-making", title: { en: "Decision Making", as: "সিদ্ধান্ত লোৱা (Decision Making) — যোগ্যতাৰ চৰ্তৰ পৰা সিদ্ধান্ত।" } },
+            { id: "drawing-inferences", title: { en: "Drawing Inferences", as: "সিদ্ধান্ত টনা (Drawing Inferences) — অনুচ্ছেদৰ পৰা সঠিক অনুমান।" } },
           ],
         },
         {
@@ -192,6 +213,9 @@ const EXAM = {
             { id: "counting-figures", title: { en: "Counting of Figures", as: "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ, আয়তক্ষেত্ৰ বা সৰলৰেখাৰ সংখ্যা গণনা কৰা।" } },
             { id: "paper-folding-cutting", title: { en: "Paper Folding & Paper Cutting", as: "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ নিৰ্ণয়।" } },
             { id: "cubes-dice", title: { en: "Cubes & Dice", as: "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা বা বিন্দু নিৰ্ণয়।" } },
+            { id: "figure-matrix", title: { en: "Figure Matrix", as: "চিত্ৰ মেট্ৰিক্স — শাৰী আৰু স্তম্ভৰ সম্পৰ্কৰ পৰা নোহোৱা চিত্ৰটো পূৰণ কৰা।" } },
+            { id: "rule-detection", title: { en: "Rule Detection", as: "নিয়ম নিৰ্ণয় (Rule Detection) — দিয়া নিয়ম মানি চলা বিকল্পটো বাছনি কৰা।" } },
+            { id: "shape-construction-grouping", title: { en: "Shape Construction & Grouping", as: "আকৃতি গঠন আৰু শ্ৰেণীবদ্ধকৰণ — টুকুৰা জোৰা লগাই আকৃতি সজা।" } },
           ],
         },
       ],
@@ -266,8 +290,8 @@ const SYLLABUS = {
     {
       title: { en: "Reasoning & Mental Ability", as: "যুক্তি আৰু বৌদ্ধিক ক্ষমতা" },
       content: {
-        en: "Category-wise syllabus for the ADRE 3.0 Grade III examination — Reasoning and Mental Ability.\n\nVerbal Reasoning:\n- Number series and alphabet series\n- Coding-decoding\n- Blood relations\n- Direction sense test\n- Analogy\n- Classification and odd one out\n- Ranking and order test\n- Word formation and dictionary order\n- Venn diagrams\n- Syllogism — statements and conclusions\n- Mathematical operations\n- Clock and calendar\n\nNon-Verbal Reasoning:\n- Figure series\n- Figure analogy\n- Figure classification\n- Mirror image and water image\n- Pattern completion\n- Embedded figures\n- Counting of figures\n- Paper folding and paper cutting\n- Cubes and dice",
-        as: "ADRE 3.0 গ্ৰেড III পৰীক্ষাৰ যুক্তি আৰু বৌদ্ধিক ক্ষমতাৰ শ্ৰেণী-ভিত্তিক পাঠ্যক্ৰম।\n\nভাষিক যুক্তিতৰ্ক:\n- সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা\n- সংকেত নিৰ্ণয় (Coding-Decoding)\n- তেজৰ সম্পৰ্ক\n- দিশ আৰু দূৰত্ব নিৰ্ণয়\n- সাদৃশ্য (Analogy)\n- শ্ৰেণীবিভাজন আৰু অমিল নিৰ্ণয়\n- ক্ৰম আৰু স্থান নিৰ্ণয়\n- শব্দ গঠন আৰু অভিধানৰ ক্ৰম\n- ভেন ডায়াগ্ৰাম\n- বিবৃতি আৰু সিদ্ধান্ত (Syllogism)\n- গাণিতিক ক্ৰিয়া\n- ঘড়ী আৰু কেলেণ্ডাৰ\n\nঅ-ভাষিক যুক্তিতৰ্ক:\n- চিত্ৰ শৃংখলা\n- চিত্ৰ সাদৃশ্য\n- চিত্ৰ শ্ৰেণীবিভাজন\n- দাপোণ আৰু পানীৰ প্ৰতিবিম্ব\n- আৰ্হি পূৰণ\n- লুকুৱা চিত্ৰ (Embedded Figures)\n- চিত্ৰ গণনা\n- কাগজ ভাঁজ আৰু কটা\n- ঘনক আৰু পাশা",
+        en: "Category-wise syllabus for the ADRE 3.0 Grade III examination — Reasoning and Mental Ability.\n\nVerbal Reasoning:\n- Number series and alphabet series\n- Alpha-numeric series\n- Alphabet test and word formation\n- Coding-decoding\n- Blood relations\n- Direction sense test\n- Analogy\n- Classification and odd one out\n- Ranking and order test\n- Word formation and dictionary order\n- Venn diagrams\n- Syllogism — statements and conclusions\n- Mathematical operations\n- Clock and calendar\n- Data sufficiency\n- Input-output and machine\n\nAnalytical & Critical Reasoning:\n- Seating arrangement\n- Complex puzzles\n- Inequality\n- Statement and conclusions\n- Statement and assumptions\n- Statement and arguments\n- Statement and course of action\n- Cause and effect\n- Assertion and reason\n- Decision making\n- Drawing inferences\n\nNon-Verbal Reasoning:\n- Figure series\n- Figure analogy\n- Figure classification\n- Mirror image and water image\n- Pattern completion\n- Embedded figures\n- Counting of figures\n- Paper folding and paper cutting\n- Cubes and dice\n- Figure matrix\n- Rule detection\n- Shape construction and grouping",
+        as: "ADRE 3.0 গ্ৰেড III পৰীক্ষাৰ যুক্তি আৰু বৌদ্ধিক ক্ষমতাৰ শ্ৰেণী-ভিত্তিক পাঠ্যক্ৰম।\n\nভাষিক যুক্তিতৰ্ক:\n- সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা\n- বৰ্ণ আৰু সংখ্যাৰ মিশ্ৰিত শৃংখলা (Alpha-Numeric Series)\n- বৰ্ণমালা পৰীক্ষা আৰু শব্দ গঠন\n- সংকেত নিৰ্ণয় (Coding-Decoding)\n- তেজৰ সম্পৰ্ক\n- দিশ আৰু দূৰত্ব নিৰ্ণয়\n- সাদৃশ্য (Analogy)\n- শ্ৰেণীবিভাজন আৰু অমিল নিৰ্ণয়\n- ক্ৰম আৰু স্থান নিৰ্ণয়\n- শব্দ গঠন আৰু অভিধানৰ ক্ৰম\n- ভেন ডায়াগ্ৰাম\n- বিবৃতি আৰু সিদ্ধান্ত (Syllogism)\n- গাণিতিক ক্ৰিয়া\n- ঘড়ী আৰু কেলেণ্ডাৰ\n- তথ্য পৰ্যাপ্ততা (Data Sufficiency)\n- ইনপুট-আউটপুট আৰু যন্ত্ৰ (Input-Output & Machine)\n\nবিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিতৰ্ক:\n- বহাৰ বিন্যাস (Seating Arrangement)\n- জটিল পাজল (Complex Puzzles)\n- অসমতা (Inequality)\n- বিবৃতি আৰু সিদ্ধান্ত\n- বিবৃতি আৰু অনুমান (Statement & Assumptions)\n- বিবৃতি আৰু যুক্তি (Statement & Arguments)\n- বিবৃতি আৰু কাৰ্যপন্থা (Statement & Course of Action)\n- কাৰণ আৰু ফলাফল (Cause & Effect)\n- দাবী আৰু কাৰণ (Assertion & Reason)\n- সিদ্ধান্ত লোৱা (Decision Making)\n- সিদ্ধান্ত টনা (Drawing Inferences)\n\nঅ-ভাষিক যুক্তিতৰ্ক:\n- চিত্ৰ শৃংখলা\n- চিত্ৰ সাদৃশ্য\n- চিত্ৰ শ্ৰেণীবিভাজন\n- দাপোণ আৰু পানীৰ প্ৰতিবিম্ব\n- আৰ্হি পূৰণ\n- লুকুৱা চিত্ৰ (Embedded Figures)\n- চিত্ৰ গণনা\n- কাগজ ভাঁজ আৰু কটা\n- ঘনক আৰু পাশা\n- চিত্ৰ মেট্ৰিক্স (Figure Matrix)\n- নিয়ম নিৰ্ণয় (Rule Detection)\n- আকৃতি গঠন আৰু শ্ৰেণীবদ্ধকৰণ",
       },
     },
     {

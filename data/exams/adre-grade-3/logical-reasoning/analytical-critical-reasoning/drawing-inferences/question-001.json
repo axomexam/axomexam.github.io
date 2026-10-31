@@ -1,0 +1,62 @@
+[
+  {
+    "id": "drawing-inferences-001",
+    "q": {
+      "en": "Passage: All the windows in the hall were shut, yet the floor was wet. Inference:",
+      "as": "অনুচ্ছেদ: হলটোৰ সকলো খিৰিকী বন্ধ আছিল, তথাপি মজিয়া তিতা আছিল। সিদ্ধান্ত:"
+    },
+    "options": [
+      {
+        "en": "Water came from a source inside the hall",
+        "as": "পানী হলটোৰ ভিতৰৰ পৰা আহিছিল"
+      },
+      {
+        "en": "It rained heavily outside",
+        "as": "বাহিৰত ধুমুহা বৰষুণ হৈছিল"
+      },
+      {
+        "en": "The windows were open",
+        "as": "খিৰিকীবোৰ খোলা আছিল"
+      },
+      {
+        "en": "The floor was dry",
+        "as": "মজিয়া শুকান আছিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With every window shut, the water on the floor must have come from inside; the other options contradict the passage.",
+      "as": "সকলো খিৰিকী বন্ধ থকাৰ পৰিপ্ৰেক্ষিতত মজিয়াৰ পানী ভিতৰৰ পৰা অহা হ'ব; আনবোৰ বিকল্পই অনুচ্ছেদৰ লগত বিৰোধ কৰে।"
+    }
+  },
+  {
+    "id": "drawing-inferences-002",
+    "q": {
+      "en": "Passage: Every student in the class passed, but only one student scored full marks. Inference:",
+      "as": "অনুচ্ছেদ: শ্ৰেণীৰ প্ৰতিজন শিক্ষাৰ্থী উত্তীৰ্ণ হ'ল, কিন্তু কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছিল। সিদ্ধান্ত:"
+    },
+    "options": [
+      {
+        "en": "No student got full marks",
+        "as": "কোনো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+      },
+      {
+        "en": "At least one student did not get full marks",
+        "as": "অন্ততঃ এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+      },
+      {
+        "en": "All students got full marks",
+        "as": "সকলো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছে"
+      },
+      {
+        "en": "The class was empty",
+        "as": "শ্ৰেণী খালী আছিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Since only one student scored full marks and the class has more than one student, at least one student did not.",
+      "as": "কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱাৰ পিছত আৰু শ্ৰেণীত এজনতকৈ অধিক থকাৰ পিছত, অন্ততঃ এজনে পোৱা নাই।"
+    }
+  }
+]

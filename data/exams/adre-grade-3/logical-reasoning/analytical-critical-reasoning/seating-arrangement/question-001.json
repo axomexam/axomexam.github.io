@@ -1,0 +1,62 @@
+[
+  {
+    "id": "seating-arrangement-001",
+    "q": {
+      "en": "Five friends sit in a row facing north. A is at the extreme left. B is immediately to the right of A. Who is second from the left?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। A ৰ শাৰীখনৰ একেবাৰে বাওঁমূৰত। B ৰ A ৰ ঠিক সোঁফালে। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is at the extreme left and B is immediately to its right, so B is second from the left.",
+      "as": "A একেবাৰে বাওঁমূৰত আৰু B তাৰ ঠিক সোঁফালে, গতিকে B বাওঁফালৰ পৰা দ্বিতীয়।"
+    }
+  },
+  {
+    "id": "seating-arrangement-002",
+    "q": {
+      "en": "Six people sit around a circular table facing the centre. If P is opposite Q, how many people sit between them on one side?",
+      "as": "ছজন মানুহে কেন্দ্ৰলৈ মুখ কৰি এটা বৃত্তাকাৰ মেজত বহে। P ৰ ঠিক বিৰুদ্ধে Q থাকিলে এফালে তেওঁলোকৰ মাজত কিমানজন বহে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With six people in a circle, two people sit on each side between a pair who face each other.",
+      "as": "বৃত্তত ছজন মানুহ থাকিলে, এজনে আনজনৰ ঠিক বিৰুদ্ধে থাকিলে এফালে দুজনকৈ বহে।"
+    }
+  }
+]

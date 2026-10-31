@@ -102,6 +102,8 @@ data/exams/adre-grade-3/
 | General Knowledge & Assam GK | Current Affairs → Assam & India Current Affairs | `general-knowledge-assam-gk/current-affairs/assam-india-current-affairs` |
 | General Knowledge & Assam GK | Current Affairs → Government Schemes | `general-knowledge-assam-gk/current-affairs/government-schemes` |
 | Reasoning & Mental Ability | Verbal Reasoning → Number Series & Alphabet Series | `logical-reasoning/verbal-reasoning/number-alphabet-series` |
+| Reasoning & Mental Ability | Verbal Reasoning → Alpha-Numeric Series | `logical-reasoning/verbal-reasoning/alpha-numeric-series` |
+| Reasoning & Mental Ability | Verbal Reasoning → Alphabet Test & Word Formation | `logical-reasoning/verbal-reasoning/alphabet-test-word-formation` |
 | Reasoning & Mental Ability | Verbal Reasoning → Coding-Decoding | `logical-reasoning/verbal-reasoning/coding-decoding` |
 | Reasoning & Mental Ability | Verbal Reasoning → Blood Relations | `logical-reasoning/verbal-reasoning/blood-relations` |
 | Reasoning & Mental Ability | Verbal Reasoning → Direction Sense Test | `logical-reasoning/verbal-reasoning/direction-distance` |
@@ -113,6 +115,19 @@ data/exams/adre-grade-3/
 | Reasoning & Mental Ability | Verbal Reasoning → Syllogism / Statements & Conclusions | `logical-reasoning/verbal-reasoning/syllogism` |
 | Reasoning & Mental Ability | Verbal Reasoning → Mathematical Operations | `logical-reasoning/verbal-reasoning/mathematical-operations` |
 | Reasoning & Mental Ability | Verbal Reasoning → Clock & Calendar | `logical-reasoning/verbal-reasoning/clock-calendar` |
+| Reasoning & Mental Ability | Verbal Reasoning → Data Sufficiency | `logical-reasoning/verbal-reasoning/data-sufficiency` |
+| Reasoning & Mental Ability | Verbal Reasoning → Input-Output & Machine | `logical-reasoning/verbal-reasoning/input-output-machine` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Seating Arrangement | `logical-reasoning/analytical-critical-reasoning/seating-arrangement` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Complex Puzzles | `logical-reasoning/analytical-critical-reasoning/complex-puzzles` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Inequality | `logical-reasoning/analytical-critical-reasoning/inequality` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Statement & Conclusions | `logical-reasoning/analytical-critical-reasoning/statement-conclusions` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Statement & Assumptions | `logical-reasoning/analytical-critical-reasoning/statement-assumptions` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Statement & Arguments | `logical-reasoning/analytical-critical-reasoning/statement-arguments` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Statement & Course of Action | `logical-reasoning/analytical-critical-reasoning/statement-course-of-action` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Cause & Effect | `logical-reasoning/analytical-critical-reasoning/cause-effect` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Assertion & Reason | `logical-reasoning/analytical-critical-reasoning/assertion-reason` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Decision Making | `logical-reasoning/analytical-critical-reasoning/decision-making` |
+| Reasoning & Mental Ability | Analytical & Critical Reasoning → Drawing Inferences | `logical-reasoning/analytical-critical-reasoning/drawing-inferences` |
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Figure Series | `logical-reasoning/non-verbal-reasoning/figure-series` |
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Figure Analogy | `logical-reasoning/non-verbal-reasoning/figure-analogy` |
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Figure Classification (Odd One Out) | `logical-reasoning/non-verbal-reasoning/figure-classification` |
@@ -122,6 +137,9 @@ data/exams/adre-grade-3/
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Counting of Figures | `logical-reasoning/non-verbal-reasoning/counting-figures` |
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Paper Folding & Paper Cutting | `logical-reasoning/non-verbal-reasoning/paper-folding-cutting` |
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Cubes & Dice | `logical-reasoning/non-verbal-reasoning/cubes-dice` |
+| Reasoning & Mental Ability | Non-Verbal Reasoning → Figure Matrix | `logical-reasoning/non-verbal-reasoning/figure-matrix` |
+| Reasoning & Mental Ability | Non-Verbal Reasoning → Rule Detection | `logical-reasoning/non-verbal-reasoning/rule-detection` |
+| Reasoning & Mental Ability | Non-Verbal Reasoning → Shape Construction & Grouping | `logical-reasoning/non-verbal-reasoning/shape-construction-grouping` |
 | Social Studies | Indian History | `social-studies/indian-history` |
 | Social Studies | Political Science & Constitution → Constitution, Preamble, Rights & Duties | `social-studies/polity-constitution/constitution-preamble-rights` |
 | Social Studies | Political Science & Constitution → President, PM, Governor & CM | `social-studies/polity-constitution/president-pm-governor-cm` |

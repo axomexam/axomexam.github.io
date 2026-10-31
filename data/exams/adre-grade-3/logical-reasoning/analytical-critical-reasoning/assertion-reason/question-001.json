@@ -1,0 +1,62 @@
+[
+  {
+    "id": "assertion-reason-001",
+    "q": {
+      "en": "A: Water boils at 100 degrees Celsius at sea level. R: Boiling point depends on atmospheric pressure.",
+      "as": "A: সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰী চেলচিয়াছত উতলে। R: উতলাংক বায়ুমণ্ডলীয় চাপৰ ওপৰত নিৰ্ভৰ কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The reason, that boiling point depends on pressure, is exactly why water boils at 100 degrees at sea level.",
+      "as": "উতলাংক চাপৰ ওপৰত নিৰ্ভৰ কৰে বুলি কাৰণটোৱেই সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰীত উতলাৰ কাৰণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-002",
+    "q": {
+      "en": "A: The sun rises in the east. R: The earth rotates from west to east.",
+      "as": "A: সূৰ্য্য পূৱত উদয় হয়। R: পৃথিৱী পশ্চিমৰ পৰা পূৱলৈ ঘূৰে।"
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The earth's west-to-east rotation is the reason the sun appears to rise in the east.",
+      "as": "পৃথিৱীৰ পশ্চিমৰ পৰা পূৱলৈ ঘূৰ্ণনেই সূৰ্য্য পূৱত উদয় হোৱা যেন লগাৰ কাৰণ।"
+    }
+  }
+]

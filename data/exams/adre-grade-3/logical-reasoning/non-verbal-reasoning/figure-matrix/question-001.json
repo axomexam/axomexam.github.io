@@ -1,0 +1,62 @@
+[
+  {
+    "id": "figure-matrix-001",
+    "q": {
+      "en": "In a figure matrix, each figure in the third column is made by joining the figures in the first two columns of the same row. If the first two cells of a row contain a triangle and a square, the third cell contains a figure with how many sides?",
+      "as": "চিত্ৰ মেট্ৰিক্সত, তৃতীয় স্তম্ভৰ প্ৰতিটো চিত্ৰ একেই শাৰীৰ প্ৰথম দুটা স্তম্ভৰ চিত্ৰ জোৰা লগাই বনোৱা হয়। এটা শাৰীৰ প্ৰথম দুটা ঘৰত ত্ৰিভুজ আৰু বৰ্গ থাকিলে, তৃতীয় ঘৰৰ চিত্ৰত কিমান বাহু থাকিব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A triangle has 3 sides and a square has 4, and joining them gives 3 + 4 = 7 sides.",
+      "as": "ত্ৰিভুজত 3 বাহু আৰু বৰ্গত 4 বাহু, জোৰা লগালে 3 + 4 = 7 বাহু হয়।"
+    }
+  },
+  {
+    "id": "figure-matrix-002",
+    "q": {
+      "en": "In a 3 by 3 figure matrix, the number of dots in each row increases by one from left to right. If the first cell of a row has 2 dots, how many dots does the third cell have?",
+      "as": "3 গুণ 3 চিত্ৰ মেট্ৰিক্সত, প্ৰতিটো শাৰীত বাওঁৰ পৰা সোঁলৈ বিন্দুৰ সংখ্যা একেৰে বাঢ়ে। এটা শাৰীৰ প্ৰথম ঘৰত 2 বিন্দু থাকিলে, তৃতীয় ঘৰত কিমান বিন্দু থাকিব?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The counts are 2, 3 and 4, so the third cell has 4 dots.",
+      "as": "সংখ্যাবোৰ 2, 3 আৰু 4, গতিকে তৃতীয় ঘৰত 4 বিন্দু থাকে।"
+    }
+  }
+]
