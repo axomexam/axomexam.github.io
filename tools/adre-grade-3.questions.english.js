@@ -15406,12 +15406,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a sudden and unexpected shock",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
-    },
-    {
      "en": "something that seems bad but turns out to be good",
      "as": "প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা"
+    },
+    {
+     "en": "a sudden and unexpected shock",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
     },
     {
      "en": "a person used by another to do something risky",
@@ -15422,7 +15422,7 @@ module.exports = {
      "as": "অতি কৃপণ ব্যক্তি"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'a blessing in disguise' means something that seems bad but turns out to be good.",
     "as": "'a blessing in disguise' ৰ অৰ্থ হৈছে প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা।"
@@ -15440,19 +15440,19 @@ module.exports = {
      "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
     },
     {
-     "en": "a sudden and unexpected shock",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
-    },
-    {
      "en": "a day of festivity",
      "as": "উৎসৱৰ দিন"
     },
     {
      "en": "a task requiring great strength",
      "as": "অতি কঠিন কাম"
+    },
+    {
+     "en": "a sudden and unexpected shock",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'a bolt from the blue' means a sudden and unexpected shock.",
     "as": "'a bolt from the blue' ৰ অৰ্থ হৈছে আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত।"
@@ -15496,10 +15496,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a very miserly person",
-     "as": "অতি কৃপণ ব্যক্তি"
-    },
-    {
      "en": "an important or memorable day",
      "as": "গুৰুত্বপূৰ্ণ বা স্মৰণীয় দিন"
     },
@@ -15510,9 +15506,13 @@ module.exports = {
     {
      "en": "a subject that causes pain or anger",
      "as": "ব্যথা বা খং দিয়া বিষয়"
+    },
+    {
+     "en": "a very miserly person",
+     "as": "অতি কৃপণ ব্যক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'a close-fisted man' means a very miserly person.",
     "as": "'a close-fisted man' ৰ অৰ্থ হৈছে অতি কৃপণ ব্যক্তি।"
@@ -15530,19 +15530,19 @@ module.exports = {
      "as": "সৎ আৰু মুকলি"
     },
     {
-     "en": "an unexpected winner",
-     "as": "অপ্ৰত্যাশিত বিজয়ী"
-    },
-    {
      "en": "following the rules exactly",
      "as": "নিয়ম মতে কৰা"
+    },
+    {
+     "en": "an unexpected winner",
+     "as": "অপ্ৰত্যাশিত বিজয়ী"
     },
     {
      "en": "to make a bad situation worse",
      "as": "অৱস্থা আৰু বেয়া কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'a dark horse' means an unexpected winner.",
     "as": "'a dark horse' ৰ অৰ্থ হৈছে অপ্ৰত্যাশিত বিজয়ী।"
@@ -15564,15 +15564,15 @@ module.exports = {
      "as": "অতি অপটু"
     },
     {
-     "en": "a law or rule that is no longer obeyed",
-     "as": "এতিয়া অমান্য কৰা আইন"
-    },
-    {
      "en": "a decisive test",
      "as": "নিষ্পত্তিমূলক পৰীক্ষা"
+    },
+    {
+     "en": "a law or rule that is no longer obeyed",
+     "as": "এতিয়া অমান্য কৰা আইন"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'a dead letter' means a law or rule that is no longer obeyed.",
     "as": "'a dead letter' ৰ অৰ্থ হৈছে এতিয়া অমান্য কৰা আইন।"
@@ -15586,10 +15586,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a person in an uncomfortable situation",
-     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
-    },
-    {
      "en": "something easily understood",
      "as": "সহজতে বুজিব পৰা বস্তু"
     },
@@ -15600,9 +15596,13 @@ module.exports = {
     {
      "en": "a person dearly loved",
      "as": "অতি প্ৰিয় ব্যক্তি"
+    },
+    {
+     "en": "a person in an uncomfortable situation",
+     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'a fish out of water' means a person in an uncomfortable situation.",
     "as": "'a fish out of water' ৰ অৰ্থ হৈছে অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি।"
@@ -15616,10 +15616,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a day of festivity",
-     "as": "উৎসৱৰ দিন"
-    },
-    {
      "en": "in bitter enmity",
      "as": "তীব্ৰ শত্ৰুতাত"
     },
@@ -15630,9 +15626,13 @@ module.exports = {
     {
      "en": "known thoroughly",
      "as": "সম্পূৰ্ণভাৱে জানি থোৱা"
+    },
+    {
+     "en": "a day of festivity",
+     "as": "উৎসৱৰ দিন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'a gala day' means a day of festivity.",
     "as": "'a gala day' ৰ অৰ্থ হৈছে উৎসৱৰ দিন।"
@@ -15646,12 +15646,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a task requiring great strength",
-     "as": "অতি কঠিন কাম"
-    },
-    {
      "en": "at the last possible moment",
      "as": "শেষ মুহূৰ্তত"
+    },
+    {
+     "en": "a task requiring great strength",
+     "as": "অতি কঠিন কাম"
     },
     {
      "en": "immediately",
@@ -15662,7 +15662,7 @@ module.exports = {
      "as": "মানুহৰ মাজত শত্ৰুতা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'a herculean task' means a task requiring great strength.",
     "as": "'a herculean task' ৰ অৰ্থ হৈছে অতি কঠিন কাম।"
@@ -15680,19 +15680,19 @@ module.exports = {
      "as": "মূল কথালৈ নাহি ঘূৰি ফুৰি কথা কোৱা"
     },
     {
-     "en": "a prejudiced view",
-     "as": "পক্ষপাতমূলক দৃষ্টিভঙ্গি"
-    },
-    {
      "en": "to make efforts in vain",
      "as": "অসাৰ চেষ্টা কৰা"
     },
     {
      "en": "a comfortable situation",
      "as": "আৰামদায়ক অৱস্থা"
+    },
+    {
+     "en": "a prejudiced view",
+     "as": "পক্ষপাতমূলক দৃষ্টিভঙ্গি"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'a jaundiced eye' means a prejudiced view.",
     "as": "'a jaundiced eye' ৰ অৰ্থ হৈছে পক্ষপাতমূলক দৃষ্টিভঙ্গি।"
@@ -15740,19 +15740,19 @@ module.exports = {
      "as": "মন সঘনে সলনি কৰা"
     },
     {
-     "en": "to praise oneself",
-     "as": "নিজৰ প্ৰশংসা কৰা"
-    },
-    {
      "en": "a scholar or writer",
      "as": "পণ্ডিত বা লেখক"
+    },
+    {
+     "en": "to praise oneself",
+     "as": "নিজৰ প্ৰশংসা কৰা"
     },
     {
      "en": "noble birth",
      "as": "অভিজাত জন্ম"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'a man of letters' means a scholar or writer.",
     "as": "'a man of letters' ৰ অৰ্থ হৈছে পণ্ডিত বা লেখক।"
@@ -15800,19 +15800,19 @@ module.exports = {
      "as": "যিকোনো উপায়েৰে"
     },
     {
-     "en": "a person of no substance or worth",
-     "as": "নগণ্য বা মূল্যহীন ব্যক্তি"
-    },
-    {
      "en": "to speak plainly and frankly",
      "as": "স্পষ্ট আৰু মুকলিভাৱে কোৱা"
     },
     {
      "en": "to do something unnecessary",
      "as": "নিষ্প্ৰয়োজনীয় কাম কৰা"
+    },
+    {
+     "en": "a person of no substance or worth",
+     "as": "নগণ্য বা মূল্যহীন ব্যক্তি"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'a man of straw' means a person of no substance or worth.",
     "as": "'a man of straw' ৰ অৰ্থ হৈছে নগণ্য বা মূল্যহীন ব্যক্তি।"
@@ -15826,12 +15826,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a barely avoided danger",
-     "as": "কোনোমতে হোৱা ৰক্ষা"
-    },
-    {
      "en": "to meet one's match",
      "as": "সমক্ষমতাসম্পন্ন লগ পোৱা"
+    },
+    {
+     "en": "a barely avoided danger",
+     "as": "কোনোমতে হোৱা ৰক্ষা"
     },
     {
      "en": "to catch in the act of doing wrong",
@@ -15842,7 +15842,7 @@ module.exports = {
      "as": "ভীতু"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'a narrow escape' means a barely avoided danger.",
     "as": "'a narrow escape' ৰ অৰ্থ হৈছে কোনোমতে হোৱা ৰক্ষা।"
@@ -15860,19 +15860,19 @@ module.exports = {
      "as": "অবিশ্বাস্য কাহিনী"
     },
     {
-     "en": "a time of need or difficulty",
-     "as": "অভাব বা দুৰ্দিন"
-    },
-    {
      "en": "to succeed brilliantly",
      "as": "চমকপ্ৰদভাৱে সফল হোৱা"
     },
     {
      "en": "to wait for a long time",
      "as": "বহু সময় অপেক্ষা কৰা"
+    },
+    {
+     "en": "a time of need or difficulty",
+     "as": "অভাব বা দুৰ্দিন"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'a rainy day' means a time of need or difficulty.",
     "as": "'a rainy day' ৰ অৰ্থ হৈছে অভাব বা দুৰ্দিন।"
@@ -15946,12 +15946,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "enough space to move",
-     "as": "চলাৰ বাবে পৰ্যাপ্ত ঠাই"
-    },
-    {
      "en": "a subject that causes pain or anger",
      "as": "ব্যথা বা খং দিয়া বিষয়"
+    },
+    {
+     "en": "enough space to move",
+     "as": "চলাৰ বাবে পৰ্যাপ্ত ঠাই"
     },
     {
      "en": "to come to nothing",
@@ -15962,7 +15962,7 @@ module.exports = {
      "as": "সম্পূৰ্ণভাৱে"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'a sore point' means a subject that causes pain or anger.",
     "as": "'a sore point' ৰ অৰ্থ হৈছে ব্যথা বা খং দিয়া বিষয়।"
@@ -16006,6 +16006,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "a useless search or pursuit",
+     "as": "নিষ্প্ৰয়োজনীয় অনুসন্ধান"
+    },
+    {
      "en": "to take advantage of disturbance",
      "as": "অশান্তিৰ সুযোগ লোৱা"
     },
@@ -16016,13 +16020,9 @@ module.exports = {
     {
      "en": "to do the same thing",
      "as": "একে ধৰণৰ কাম কৰা"
-    },
-    {
-     "en": "a useless search or pursuit",
-     "as": "নিষ্প্ৰয়োজনীয় অনুসন্ধান"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'a wild goose chase' means a useless search or pursuit.",
     "as": "'a wild goose chase' ৰ অৰ্থ হৈছে নিষ্প্ৰয়োজনীয় অনুসন্ধান।"
@@ -16036,20 +16036,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a day of celebration",
-     "as": "উদযাপনৰ দিন"
+     "en": "to become friends quickly",
+     "as": "সোনকালে বন্ধু হোৱা"
     },
     {
      "en": "honest and open",
      "as": "সৎ আৰু মুকলি"
     },
     {
-     "en": "to become friends quickly",
-     "as": "সোনকালে বন্ধু হোৱা"
-    },
-    {
      "en": "to be dismissed from a job",
      "as": "চাকৰিৰ পৰা বৰ্খাস্ত হোৱা"
+    },
+    {
+     "en": "the ability to speak fluently",
+     "as": "সহজে ধাৰাপাতভাৱে কোৱাৰ ক্ষমতা"
     }
    ],
    "correct": 1,
@@ -16066,23 +16066,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "following the rules exactly",
-     "as": "নিয়ম মতে কৰা"
-    },
-    {
-     "en": "to keep away from",
-     "as": "দূৰৈত থাকা"
-    },
-    {
      "en": "to treat with indifference",
      "as": "অৱহেলাৰে ব্যৱহাৰ কৰা"
     },
     {
      "en": "to be defeated or ruined",
      "as": "পৰাজিত বা বৰ্বাদ হোৱা"
+    },
+    {
+     "en": "to bribe",
+     "as": "ঘোচ দিয়া"
+    },
+    {
+     "en": "following the rules exactly",
+     "as": "নিয়ম মতে কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'according to the book' means following the rules exactly.",
     "as": "'according to the book' ৰ অৰ্থ হৈছে নিয়ম মতে কৰা।"
@@ -16096,16 +16096,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a period of peace and happiness",
-     "as": "শান্তি আৰু সুখৰ কাল"
-    },
-    {
      "en": "in close association",
      "as": "ঘনিষ্ঠ সংযোগত"
     },
     {
      "en": "a difficult problem",
      "as": "কঠিন সমস্যা"
+    },
+    {
+     "en": "to be obsessed with an idea",
+     "as": "এটা ভাৱনাত মগ্ন থকা"
     },
     {
      "en": "to make a bad situation worse",
@@ -16126,23 +16126,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "contrary to one's inclination",
-     "as": "মনৰ বিৰুদ্ধে"
-    },
-    {
-     "en": "completely or deeply",
-     "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
-    },
-    {
      "en": "in a helpless condition",
      "as": "অসহায় অৱস্থাত"
     },
     {
+     "en": "contrary to one's inclination",
+     "as": "মনৰ বিৰুদ্ধে"
+    },
+    {
      "en": "to do or say the right thing",
      "as": "সঠিক কাম বা কথা কৰা"
+    },
+    {
+     "en": "to be logically sound",
+     "as": "যুক্তিসংগত হোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'against the grain' means contrary to one's inclination.",
     "as": "'against the grain' ৰ অৰ্থ হৈছে মনৰ বিৰুদ্ধে।"
@@ -16156,23 +16156,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "deliberately and without emotion",
-     "as": "ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে"
-    },
-    {
      "en": "in good health",
      "as": "সুস্থ অৱস্থাত"
+    },
+    {
+     "en": "listening very attentively",
+     "as": "অতি মনোযোগেৰে শুনা"
     },
     {
      "en": "in trouble",
      "as": "সমস্যাত"
     },
     {
-     "en": "listening very attentively",
-     "as": "অতি মনোযোগেৰে শুনা"
+     "en": "just in time",
+     "as": "ঠিক সময়ত"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'all ears' means listening very attentively.",
     "as": "'all ears' ৰ অৰ্থ হৈছে অতি মনোযোগেৰে শুনা।"
@@ -16186,23 +16186,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "considering everything",
-     "as": "সকলো দিশ বিবেচনা কৰি"
-    },
-    {
-     "en": "full details",
-     "as": "সম্পূৰ্ণ বিৱৰণ"
-    },
-    {
      "en": "a strong determination",
      "as": "দৃঢ় সংকল্প"
     },
     {
      "en": "a person who can do many kinds of work",
      "as": "বহু কাম কৰিব পৰা ব্যক্তি"
+    },
+    {
+     "en": "considering everything",
+     "as": "সকলো দিশ বিবেচনা কৰি"
+    },
+    {
+     "en": "to hope for good luck",
+     "as": "সৌভাগ্যৰ আশা কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'all in all' means considering everything.",
     "as": "'all in all' ৰ অৰ্থ হৈছে সকলো দিশ বিবেচনা কৰি।"
@@ -16216,8 +16216,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to die",
-     "as": "মৃত্যুবৰণ কৰা"
+     "en": "very clumsy",
+     "as": "অতি অপটু"
     },
     {
      "en": "friends and relatives",
@@ -16228,11 +16228,11 @@ module.exports = {
      "as": "সম্পূৰ্ণভাৱে পৰাজিত কৰা"
     },
     {
-     "en": "very clumsy",
-     "as": "অতি অপটু"
+     "en": "a person who is weak or ineffective",
+     "as": "দুৰ্বল বা অক্ষম ব্যক্তি"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'all thumbs' means very clumsy.",
     "as": "'all thumbs' ৰ অৰ্থ হৈছে অতি অপটু।"
@@ -16250,16 +16250,16 @@ module.exports = {
      "as": "নিষ্পত্তিমূলক পৰীক্ষা"
     },
     {
-     "en": "to laugh secretly",
-     "as": "গুপুতে হাঁহা"
-    },
-    {
      "en": "to live in constant quarrelling",
      "as": "সদায় ঝগড়া কৰি জীৱন কটোৱা"
     },
     {
      "en": "to try every possible means",
      "as": "সকলো সম্ভৱ উপায় চেষ্টা কৰা"
+    },
+    {
+     "en": "an ambiguous compliment",
+     "as": "দুই অৰ্থৰ প্ৰশংসা"
     }
    ],
    "correct": 0,
@@ -16280,16 +16280,16 @@ module.exports = {
      "as": "বিবাদৰ মূল কাৰণ"
     },
     {
-     "en": "to be defeated humbly",
-     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
-    },
-    {
      "en": "the largest share",
      "as": "সৰ্বাধিক অংশ"
     },
     {
      "en": "to live with barely enough money",
      "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
+    },
+    {
+     "en": "to find fault with a gift",
+     "as": "উপহাৰত দোষ বিচৰা"
     }
    ],
    "correct": 0,
@@ -16306,23 +16306,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to become discouraged",
-     "as": "হতাশ হোৱা"
+     "en": "a mere pretence",
+     "as": "মাথোঁ ভাওনা"
     },
     {
      "en": "to confess fully",
      "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
     },
     {
-     "en": "a mere pretence",
-     "as": "মাথোঁ ভাওনা"
-    },
-    {
      "en": "to live within one's income",
      "as": "আয়ৰ ভিতৰত চলা"
+    },
+    {
+     "en": "to seize a good opportunity",
+     "as": "ভাল সুযোগ লোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'an eye wash' means a mere pretence.",
     "as": "'an eye wash' ৰ অৰ্থ হৈছে মাথোঁ ভাওনা।"
@@ -16336,10 +16336,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "an ordinary person",
-     "as": "সাধাৰণ মানুহ"
-    },
-    {
      "en": "abundance and prosperity",
      "as": "প্ৰাচুৰ্য আৰু সমৃদ্ধি"
     },
@@ -16350,9 +16346,13 @@ module.exports = {
     {
      "en": "something that hastens failure",
      "as": "পতন ত্বৰান্বিত কৰা কাৰণ"
+    },
+    {
+     "en": "very close in a race",
+     "as": "দৌৰত অতি ওচৰা-ওচৰি"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'an open book' means something easily understood.",
     "as": "'an open book' ৰ অৰ্থ হৈছে সহজতে বুজিব পৰা বস্তু।"
@@ -16366,23 +16366,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "mutual dislike",
-     "as": "পৰস্পৰ অপছন্দ"
+     "en": "a very difficult task",
+     "as": "অতি কঠিন কাম"
     },
     {
      "en": "having no legal force",
      "as": "আইনগতভাৱে অচল"
     },
     {
-     "en": "a very difficult task",
-     "as": "অতি কঠিন কাম"
-    },
-    {
      "en": "small leftover items",
      "as": "সৰু-সুৰা বাকী বস্তু"
+    },
+    {
+     "en": "occasionally",
+     "as": "মাজে মাজে"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'an uphill task' means a very difficult task.",
     "as": "'an uphill task' ৰ অৰ্থ হৈছে অতি কঠিন কাম।"
@@ -16396,10 +16396,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "faced with two difficult choices",
-     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
-    },
-    {
      "en": "without previous thought",
      "as": "আগত নাভাবি"
     },
@@ -16410,9 +16406,13 @@ module.exports = {
     {
      "en": "very rarely",
      "as": "অতি কেতিয়াবা"
+    },
+    {
+     "en": "something one likes",
+     "as": "নিজৰ পছন্দৰ বস্তু"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'apple of one's eye' means a person dearly loved.",
     "as": "'apple of one's eye' ৰ অৰ্থ হৈছে অতি প্ৰিয় ব্যক্তি।"
@@ -16426,23 +16426,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a critic who does nothing himself",
-     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
-    },
-    {
-     "en": "from one trouble into a worse one",
-     "as": "এটা সমস্যাৰ পৰা আৰু বেয়া সমস্যালৈ"
-    },
-    {
      "en": "to support in words only",
      "as": "মাত্ৰ মুখেৰে সমৰ্থন কৰা"
     },
     {
+     "en": "a critic who does nothing himself",
+     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
+    },
+    {
      "en": "careful in small matters but wasteful in big ones",
      "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
+    },
+    {
+     "en": "to find fault with",
+     "as": "দোষ বিচৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'armchair critic' means a critic who does nothing himself.",
     "as": "'armchair critic' ৰ অৰ্থ হৈছে কাম নকৰি সমালোচনা কৰা ব্যক্তি।"
@@ -16456,10 +16456,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to act to please the crowd",
-     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
-    },
-    {
      "en": "to bear an insult quietly",
      "as": "চুপচাপ অপমান সহ্য কৰা"
     },
@@ -16470,9 +16466,13 @@ module.exports = {
     {
      "en": "to make a determined effort",
      "as": "দৃঢ় প্ৰচেষ্টা কৰা"
+    },
+    {
+     "en": "to use influence secretly",
+     "as": "গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'as cool as a cucumber' means very calm and composed.",
     "as": "'as cool as a cucumber' ৰ অৰ্থ হৈছে অতি শান্ত আৰু ধীৰ।"
@@ -16486,10 +16486,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to be firm about something",
-     "as": "একটা কথাত দৃঢ় হোৱা"
-    },
-    {
      "en": "to say something wrong",
      "as": "ভুল কথা কোৱা"
     },
@@ -16500,9 +16496,13 @@ module.exports = {
     {
      "en": "in bitter enmity",
      "as": "তীব্ৰ শত্ৰুতাত"
+    },
+    {
+     "en": "to rain very heavily",
+     "as": "অতি ধাৰাসাৰে বৰষুণ দিয়া"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'at daggers drawn' means in bitter enmity.",
     "as": "'at daggers drawn' ৰ অৰ্থ হৈছে তীব্ৰ শত্ৰুতাত।"
@@ -16516,23 +16516,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "at liberty or as a whole",
-     "as": "মুক্ত অৱস্থাত বা সমগ্ৰভাৱে"
-    },
-    {
-     "en": "to be satisfied with past success",
-     "as": "পূৰ্বৰ সফলতাত সন্তুষ্ট থকা"
-    },
-    {
      "en": "to take from one to give another",
      "as": "এজনৰ পৰা লৈ আনজনক দিয়া"
     },
     {
      "en": "to be very rich",
      "as": "অতি ধনী হোৱা"
+    },
+    {
+     "en": "to behave violently",
+     "as": "উচণ্ডাল আচৰণ কৰা"
+    },
+    {
+     "en": "at liberty or as a whole",
+     "as": "মুক্ত অৱস্থাত বা সমগ্ৰভাৱে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'at large' means at liberty or as a whole.",
     "as": "'at large' ৰ অৰ্থ হৈছে মুক্ত অৱস্থাত বা সমগ্ৰভাৱে।"
@@ -16546,16 +16546,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to show false sorrow",
-     "as": "মিছা শোক দেখুওৱা"
-    },
-    {
      "en": "to show cowardice",
      "as": "ভীতুতা দেখুওৱা"
     },
     {
      "en": "to avoid taking sides",
      "as": "কোনো পক্ষ লোৱাৰ পৰা বিৰত থকা"
+    },
+    {
+     "en": "to suspect something wrong",
+     "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
     },
     {
      "en": "known thoroughly",
@@ -16576,23 +16576,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
      "en": "to maintain one's position",
      "as": "নিজৰ অবস্থান অটল ৰখা"
+    },
+    {
+     "en": "utterly confused",
+     "as": "সম্পূৰ্ণভাৱে হতবুদ্ধি"
     },
     {
      "en": "to gain an advantage secretly",
      "as": "গুপুতে সুবিধা লাভ কৰা"
     },
     {
-     "en": "utterly confused",
-     "as": "সম্পূৰ্ণভাৱে হতবুদ্ধি"
+     "en": "to maintain one's stand firmly",
+     "as": "নিজৰ মত দৃঢ়ভাৱে ৰখা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'at one's wit's end' means utterly confused.",
     "as": "'at one's wit's end' ৰ অৰ্থ হৈছে সম্পূৰ্ণভাৱে হতবুদ্ধি।"
@@ -16606,10 +16606,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to make the utmost effort",
-     "as": "সৰ্বাধিক চেষ্টা কৰা"
-    },
-    {
      "en": "to take a less important position",
      "as": "কম গুৰুত্বপূৰ্ণ স্থান লোৱা"
     },
@@ -16620,9 +16616,13 @@ module.exports = {
     {
      "en": "to rebuke",
      "as": "ভৎৰ্সনা কৰা"
+    },
+    {
+     "en": "to talk about one's work",
+     "as": "নিজৰ কামৰ কথা কোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'at sixes and sevens' means in a state of confusion.",
     "as": "'at sixes and sevens' ৰ অৰ্থ হৈছে অগোছাল অৱস্থাত।"
@@ -16636,23 +16636,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a decisive test of value",
-     "as": "মূল্যৰ নিষ্পত্তিমূলক পৰীক্ষা"
-    },
-    {
-     "en": "the final decision",
-     "as": "অন্তিম সিদ্ধান্ত"
-    },
-    {
      "en": "to discourage",
      "as": "হতাশ কৰা"
     },
     {
+     "en": "to deceive",
+     "as": "প্ৰতাৰণা কৰা"
+    },
+    {
      "en": "at the last possible moment",
      "as": "শেষ মুহূৰ্তত"
+    },
+    {
+     "en": "to help through a difficulty",
+     "as": "অসুবিধা অতিক্ৰম কৰাত সহায় কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'at the eleventh hour' means at the last possible moment.",
     "as": "'at the eleventh hour' ৰ অৰ্থ হৈছে শেষ মুহূৰ্তত।"
@@ -16666,23 +16666,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "for a very long time",
-     "as": "অতি দীঘল সময়লৈকে"
-    },
-    {
-     "en": "to be confused",
-     "as": "হতবুদ্ধি হোৱা"
+     "en": "to be ignorant",
+     "as": "অজ্ঞ থকা"
     },
     {
      "en": "immediately",
      "as": "তৎক্ষণাত"
     },
     {
-     "en": "to be ignorant",
-     "as": "অজ্ঞ থকা"
+     "en": "to be in low spirits",
+     "as": "হতাশ অৱস্থাত থকা"
+    },
+    {
+     "en": "to win the victory",
+     "as": "বিজয় লাভ কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'at the drop of a hat' means immediately.",
     "as": "'at the drop of a hat' ৰ অৰ্থ হৈছে তৎক্ষণাত।"
@@ -16696,23 +16696,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to win the victory",
-     "as": "বিজয় লাভ কৰা"
+     "en": "to take back what one has said",
+     "as": "কোৱা কথা ঘূৰাই লোৱা"
+    },
+    {
+     "en": "to waste effort on a hopeless matter",
+     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
+    },
+    {
+     "en": "to be involved in many things",
+     "as": "বহু কামত জড়িত থকা"
     },
     {
      "en": "ill feeling between people",
      "as": "মানুহৰ মাজত শত্ৰুতা"
-    },
-    {
-     "en": "to regret what cannot be undone",
-     "as": "হৈ যোৱা কামৰ বাবে অনুতাপ কৰা"
-    },
-    {
-     "en": "to live within one's means",
-     "as": "আয়ৰ লগত খৰচ মিলাই চলা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'bad blood' means ill feeling between people.",
     "as": "'bad blood' ৰ অৰ্থ হৈছে মানুহৰ মাজত শত্ৰুতা।"
@@ -16730,16 +16730,16 @@ module.exports = {
      "as": "সকলো সামগ্ৰীসহ"
     },
     {
-     "en": "to waste effort on a hopeless matter",
-     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
+     "en": "to remain calm",
+     "as": "শান্ত থাকা"
     },
     {
-     "en": "to be involved in many things",
-     "as": "বহু কামত জড়িত থকা"
+     "en": "to forget past quarrels",
+     "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
     },
     {
-     "en": "to be very busy",
-     "as": "অতি ব্যস্ত থকা"
+     "en": "to come to the point quickly",
+     "as": "সোনকালে মূল কথালৈ অহা"
     }
    ],
    "correct": 0,
@@ -16756,23 +16756,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "to shift responsibility to another",
+     "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
+    },
+    {
+     "en": "to behave irresponsibly",
+     "as": "দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা"
+    },
+    {
      "en": "to suffer the main impact",
      "as": "মূল আঘাত সহ্য কৰা"
     },
     {
-     "en": "to forget past quarrels",
-     "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
-    },
-    {
-     "en": "to come to the point quickly",
-     "as": "সোনকালে মূল কথালৈ অহা"
-    },
-    {
-     "en": "to manage with one's income",
-     "as": "আয়ৰ ভিতৰত চলা"
+     "en": "to look sad or disappointed",
+     "as": "দুখ বা হতাশ দেখুওৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'bear the brunt' means to suffer the main impact.",
     "as": "'bear the brunt' ৰ অৰ্থ হৈছে মূল আঘাত সহ্য কৰা।"
@@ -16786,23 +16786,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to shift responsibility to another",
-     "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
-    },
-    {
-     "en": "to behave irresponsibly",
-     "as": "দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to look sad or disappointed",
-     "as": "দুখ বা হতাশ দেখুওৱা"
-    },
-    {
      "en": "to talk without coming to the point",
      "as": "মূল কথালৈ নাহি ঘূৰি ফুৰি কথা কোৱা"
+    },
+    {
+     "en": "to become very angry",
+     "as": "অতি খঙাল হোৱা"
+    },
+    {
+     "en": "to do something remarkable",
+     "as": "উল্লেখনীয় কাম কৰা"
+    },
+    {
+     "en": "to imitate someone",
+     "as": "কাৰোবাৰ অনুকৰণ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'beat about the bush' means to talk without coming to the point.",
     "as": "'beat about the bush' ৰ অৰ্থ হৈছে মূল কথালৈ নাহি ঘূৰি ফুৰি কথা কোৱা।"
@@ -16816,23 +16816,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to become very angry",
-     "as": "অতি খঙাল হোৱা"
-    },
-    {
-     "en": "to do something remarkable",
-     "as": "উল্লেখনীয় কাম কৰা"
-    },
-    {
-     "en": "to suspect a trick",
-     "as": "চক্ৰান্তৰ সন্দেহ কৰা"
+     "en": "to refuse to listen",
+     "as": "শুনিবলৈ অস্বীকাৰ কৰা"
     },
     {
      "en": "to make efforts in vain",
      "as": "অসাৰ চেষ্টা কৰা"
+    },
+    {
+     "en": "to reverse the situation",
+     "as": "অৱস্থা ওলোটা কৰা"
+    },
+    {
+     "en": "to be extremely happy",
+     "as": "অতি আনন্দিত হোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'beat the air' means to make efforts in vain.",
     "as": "'beat the air' ৰ অৰ্থ হৈছে অসাৰ চেষ্টা কৰা।"
@@ -16846,23 +16846,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "with all one's strength",
+     "as": "সকলো শক্তিৰে"
+    },
+    {
      "en": "a comfortable situation",
      "as": "আৰামদায়ক অৱস্থা"
     },
     {
-     "en": "to admit defeat",
-     "as": "পৰাজয় স্বীকাৰ কৰা"
+     "en": "to show any sign of fear",
+     "as": "ভয়ৰ কোনো চিহ্ন দেখুওৱা"
     },
     {
-     "en": "to refuse to listen",
-     "as": "শুনিবলৈ অস্বীকাৰ কৰা"
-    },
-    {
-     "en": "to reverse the situation",
-     "as": "অৱস্থা ওলোটা কৰা"
+     "en": "to make a fresh start",
+     "as": "নতুনকৈ আৰম্ভ কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'bed of roses' means a comfortable situation.",
     "as": "'bed of roses' ৰ অৰ্থ হৈছে আৰামদায়ক অৱস্থা।"
@@ -16876,23 +16876,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to show one's feelings openly",
-     "as": "মুকলিভাৱে ভাৱ প্ৰকাশ কৰা"
+     "en": "feeling unwell",
+     "as": "অসুস্থ অনুভৱ কৰা"
+    },
+    {
+     "en": "good and bad times",
+     "as": "ভাল-বেয়া সময়"
     },
     {
      "en": "beyond the power of words to describe",
      "as": "বৰ্ণনা কৰিব নোৱাৰা"
     },
     {
-     "en": "with all one's strength",
-     "as": "সকলো শক্তিৰে"
-    },
-    {
-     "en": "to show any sign of fear",
-     "as": "ভয়ৰ কোনো চিহ্ন দেখুওৱা"
+     "en": "a person with wide knowledge",
+     "as": "বহু জ্ঞান থকা ব্যক্তি"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'beggar description' means beyond the power of words to describe.",
     "as": "'beggar description' ৰ অৰ্থ হৈছে বৰ্ণনা কৰিব নোৱাৰা।"
@@ -16906,23 +16906,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "right in front of one",
-     "as": "চকুৰ সন্মুখত"
+     "en": "a costly but useless possession",
+     "as": "ব্যয়বহুল কিন্তু অকামী বস্তু"
+    },
+    {
+     "en": "with great success",
+     "as": "মহান সফলতাৰে"
     },
     {
      "en": "secretly",
      "as": "গুপুতে"
     },
     {
-     "en": "feeling unwell",
-     "as": "অসুস্থ অনুভৱ কৰা"
-    },
-    {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
+     "en": "very close to",
+     "as": "অতি ওচৰত"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'behind the scenes' means secretly.",
     "as": "'behind the scenes' ৰ অৰ্থ হৈছে গুপুতে।"
@@ -16936,23 +16936,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a person who discourages others",
-     "as": "আনক নিৰুৎসাহিত কৰা ব্যক্তি"
+     "en": "worth the wages paid",
+     "as": "দিয়া দৰমহাৰ যোগ্য"
+    },
+    {
+     "en": "something that attracts attention briefly",
+     "as": "অলপ সময়লৈ মনোযোগ টনা বস্তু"
+    },
+    {
+     "en": "a mild punishment",
+     "as": "লঘু শাস্তি"
     },
     {
      "en": "to take the risk of doing something",
      "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
-    },
-    {
-     "en": "a costly but useless possession",
-     "as": "ব্যয়বহুল কিন্তু অকামী বস্তু"
-    },
-    {
-     "en": "a foolish and useless search",
-     "as": "মূৰ্খামি আৰু অসাৰ অনুসন্ধান"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'bell the cat' means to take the risk of doing something.",
     "as": "'bell the cat' ৰ অৰ্থ হৈছে কাম কৰাৰ বিপদ মূৰত লোৱা।"
@@ -16966,23 +16966,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "without any sense",
-     "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
-    },
-    {
-     "en": "a dangerous person pretending to be harmless",
-     "as": "নিৰীহ যেন দেখুওৱা বিপদজনক ব্যক্তি"
+     "en": "fully armed",
+     "as": "সম্পূৰ্ণ সজ্জিত"
     },
     {
      "en": "between two equal dangers",
      "as": "দুটা সমান বিপদৰ মাজত"
     },
     {
-     "en": "worth the wages paid",
-     "as": "দিয়া দৰমহাৰ যোগ্য"
+     "en": "very well behaved",
+     "as": "অতি ভদ্ৰ আচৰণযুক্ত"
+    },
+    {
+     "en": "having nothing to do",
+     "as": "কৰিবলৈ একো নথকা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'between the devil and the deep sea' means between two equal dangers.",
     "as": "'between the devil and the deep sea' ৰ অৰ্থ হৈছে দুটা সমান বিপদৰ মাজত।"
@@ -16996,23 +16996,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a harmless lie",
-     "as": "নিৰীহ মিছা কথা"
-    },
-    {
-     "en": "healthy and active",
-     "as": "সুস্থ আৰু সক্ৰিয়"
-    },
-    {
      "en": "a general view from above",
      "as": "ওপৰৰ পৰা চোৱা সাধাৰণ দৃশ্য"
     },
     {
-     "en": "fully armed",
-     "as": "সম্পূৰ্ণ সজ্জিত"
+     "en": "the trouble begins",
+     "as": "সমস্যা আৰম্ভ হোৱা"
+    },
+    {
+     "en": "to follow a wrong line of action",
+     "as": "ভুল পথ অনুসৰণ কৰা"
+    },
+    {
+     "en": "to avoid the main point",
+     "as": "মূল কথা এৰি ঘূৰাই কোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'bird's eye view' means a general view from above.",
     "as": "'bird's eye view' ৰ অৰ্থ হৈছে ওপৰৰ পৰা চোৱা সাধাৰণ দৃশ্য।"
@@ -17026,23 +17026,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the trouble begins",
-     "as": "সমস্যা আৰম্ভ হোৱা"
+     "en": "to stop working for the day",
+     "as": "দিনটোৰ কাম বন্ধ কৰা"
     },
     {
-     "en": "to follow a wrong line of action",
-     "as": "ভুল পথ অনুসৰণ কৰা"
+     "en": "a source of steady profit",
+     "as": "স্থিৰ লাভৰ উৎস"
+    },
+    {
+     "en": "to pass to a new owner",
+     "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
     },
     {
      "en": "to be defeated or to die",
      "as": "পৰাজিত হোৱা বা মৃত্যুবৰণ কৰা"
-    },
-    {
-     "en": "to avoid the main point",
-     "as": "মূল কথা এৰি ঘূৰাই কোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'bite the dust' means to be defeated or to die.",
     "as": "'bite the dust' ৰ অৰ্থ হৈছে পৰাজিত হোৱা বা মৃত্যুবৰণ কৰা।"
@@ -17056,23 +17056,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "nervousness before doing something",
+     "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
+    },
+    {
      "en": "a disreputable member of a group",
      "as": "দলৰ কলংকিত সদস্য"
     },
     {
-     "en": "to attempt more than one can manage",
-     "as": "সাধ্যৰ বাহিৰৰ কাম হাতত লোৱা"
+     "en": "to falsify accounts",
+     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
     },
     {
-     "en": "to spend too much money",
-     "as": "অত্যধিক ধন খৰচ কৰা"
-    },
-    {
-     "en": "credit gained by pleasing others",
-     "as": "আনক সন্তুষ্ট কৰি লাভ কৰা সুনাম"
+     "en": "to do something badly to save time",
+     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'black sheep' means a disreputable member of a group.",
     "as": "'black sheep' ৰ অৰ্থ হৈছে দলৰ কলংকিত সদস্য।"
@@ -17086,23 +17086,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a source of steady profit",
-     "as": "স্থিৰ লাভৰ উৎস"
+     "en": "practical and realistic",
+     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
     },
     {
-     "en": "to pass to a new owner",
-     "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
-    },
-    {
-     "en": "nervousness before doing something",
-     "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
+     "en": "to get no result",
+     "as": "কোনো ফলাফল নোপোৱা"
     },
     {
      "en": "to change one's attitude repeatedly",
      "as": "মন সঘনে সলনি কৰা"
+    },
+    {
+     "en": "a very small amount",
+     "as": "অতি কম পৰিমাণ"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'blow hot and cold' means to change one's attitude repeatedly.",
     "as": "'blow hot and cold' ৰ অৰ্থ হৈছে মন সঘনে সলনি কৰা।"
@@ -17116,23 +17116,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to come to the main point",
-     "as": "মূল কথালৈ অহা"
-    },
-    {
-     "en": "a person who argues the opposite for the sake of argument",
-     "as": "বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি"
-    },
-    {
-     "en": "practical and realistic",
-     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
+     "en": "every bad situation has some good in it",
+     "as": "প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে"
     },
     {
      "en": "to praise oneself",
      "as": "নিজৰ প্ৰশংসা কৰা"
+    },
+    {
+     "en": "to be ignored",
+     "as": "উপেক্ষা কৰা"
+    },
+    {
+     "en": "a wealthy and powerful person",
+     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'blow one's own trumpet' means to praise oneself.",
     "as": "'blow one's own trumpet' ৰ অৰ্থ হৈছে নিজৰ প্ৰশংসা কৰা।"
@@ -17146,23 +17146,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "something worth thinking about",
+     "as": "ভাবিবলগীয়া বিষয়"
+    },
+    {
+     "en": "to become nervous",
+     "as": "স্নায়ুচাপত ভুগা"
+    },
+    {
      "en": "noble birth",
      "as": "অভিজাত জন্ম"
     },
     {
-     "en": "to be completely controlled by another",
-     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
-    },
-    {
-     "en": "to urge someone to do something",
-     "as": "কিবা কৰিবলৈ উচটনি দিয়া"
-    },
-    {
-     "en": "every bad situation has some good in it",
-     "as": "প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে"
+     "en": "to learn how to do something",
+     "as": "কিবা কৰাৰ ধৰণ শিকা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'blue blood' means noble birth.",
     "as": "'blue blood' ৰ অৰ্থ হৈছে অভিজাত জন্ম।"
@@ -17180,16 +17180,16 @@ module.exports = {
      "as": "বিবাদৰ বিষয়"
     },
     {
-     "en": "rare and infrequent",
-     "as": "বিৰল আৰু কম"
+     "en": "to begin a journey",
+     "as": "যাত্ৰা আৰম্ভ কৰা"
     },
     {
-     "en": "a suspicious affair",
-     "as": "সন্দেহজনক কাম"
+     "en": "in a difficult situation",
+     "as": "কঠিন অৱস্থাত"
     },
     {
-     "en": "something worth thinking about",
-     "as": "ভাবিবলগীয়া বিষয়"
+     "en": "in writing",
+     "as": "লিখিত ৰূপত"
     }
    ],
    "correct": 0,
@@ -17206,23 +17206,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to make more effort than expected",
-     "as": "প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা"
-    },
-    {
-     "en": "to begin a journey",
-     "as": "যাত্ৰা আৰম্ভ কৰা"
-    },
-    {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
-    },
-    {
      "en": "to start a conversation",
      "as": "কথোপকথন আৰম্ভ কৰা"
+    },
+    {
+     "en": "to avoid stirring up trouble",
+     "as": "সমস্যা নজগোৱাকৈ থাকা"
+    },
+    {
+     "en": "rather old",
+     "as": "বয়সীয়াল"
+    },
+    {
+     "en": "to lose self-control",
+     "as": "আত্ম-সংযম হেৰুওৱা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'break the ice' means to start a conversation.",
     "as": "'break the ice' ৰ অৰ্থ হৈছে কথোপকথন আৰম্ভ কৰা।"
@@ -17236,23 +17236,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
+     "en": "to make a large profit quickly",
+     "as": "সোনকালে ডাঙৰ লাভ কৰা"
     },
     {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
-    },
-    {
-     "en": "to memorise",
-     "as": "মনস্থ কৰা"
+     "en": "to suffer a final defeat",
+     "as": "অন্তিম পৰাজয় ভোগ কৰা"
     },
     {
      "en": "to punish or question",
      "as": "শাস্তি দিয়া বা প্ৰশ্ন কৰা"
+    },
+    {
+     "en": "to make a situation confusing",
+     "as": "অৱস্থা জটিল কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'bring to book' means to punish or question.",
     "as": "'bring to book' ৰ অৰ্থ হৈছে শাস্তি দিয়া বা প্ৰশ্ন কৰা।"
@@ -17266,23 +17266,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to lose self-control",
-     "as": "আত্ম-সংযম হেৰুওৱা"
+     "en": "free from a difficult situation",
+     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
     },
     {
-     "en": "to go straight towards something",
-     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
-    },
-    {
-     "en": "to make a large profit quickly",
-     "as": "সোনকালে ডাঙৰ লাভ কৰা"
+     "en": "in a risky position",
+     "as": "বিপদজনক অৱস্থাত"
     },
     {
      "en": "to waste energy in two directions",
      "as": "দুইদিশে শক্তি অপচয় কৰা"
+    },
+    {
+     "en": "suddenly and unexpectedly",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'burn the candle at both ends' means to waste energy in two directions.",
     "as": "'burn the candle at both ends' ৰ অৰ্থ হৈছে দুইদিশে শক্তি অপচয় কৰা।"
@@ -17296,23 +17296,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a particular locality",
-     "as": "এক নিৰ্দিষ্ট অঞ্চল"
+     "en": "something very easy",
+     "as": "অতি সহজ কাম"
+    },
+    {
+     "en": "to regain self-control",
+     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
     },
     {
      "en": "to study late into the night",
      "as": "ৰাতি দেৰিলৈকে পঢ়া"
     },
     {
-     "en": "without any conditions",
-     "as": "কোনো চৰ্ত নোহোৱাকৈ"
-    },
-    {
-     "en": "free from a difficult situation",
-     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
+     "en": "to risk everything on one thing",
+     "as": "সকলো আশা এটা বস্তুত ৰখা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'burn the midnight oil' means to study late into the night.",
     "as": "'burn the midnight oil' ৰ অৰ্থ হৈছে ৰাতি দেৰিলৈকে পঢ়া।"
@@ -17326,20 +17326,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to pay too much",
-     "as": "অত্যধিক ধন দিয়া"
+     "en": "to avoid humiliation",
+     "as": "অপমান এৰাই চলা"
     },
     {
      "en": "to make peace",
      "as": "শান্তি স্থাপন কৰা"
     },
     {
-     "en": "to pay the bill",
-     "as": "বিল পৰিশোধ কৰা"
+     "en": "to understand suddenly",
+     "as": "হঠাতে বুজি পোৱা"
     },
     {
-     "en": "something very easy",
-     "as": "অতি সহজ কাম"
+     "en": "to remain patient without acting",
+     "as": "কাম নকৰি ধৈৰ্য ধৰি থাকা"
     }
    ],
    "correct": 1,
@@ -17356,23 +17356,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "to begin from the very beginning",
+     "as": "একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা"
+    },
+    {
      "en": "generally speaking",
      "as": "সাধাৰণভাৱে ক'বলৈ গ'লে"
     },
     {
-     "en": "to cause surprise or disapproval",
-     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
+     "en": "to attract all the attention",
+     "as": "সকলোৰে মনোযোগ টনা"
     },
     {
-     "en": "to disturb a stable situation",
-     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
-    },
-    {
-     "en": "to avoid humiliation",
-     "as": "অপমান এৰাই চলা"
+     "en": "to accept with doubt",
+     "as": "সন্দেহেৰে গ্ৰহণ কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'by and large' means generally speaking.",
     "as": "'by and large' ৰ অৰ্থ হৈছে সাধাৰণভাৱে ক'বলৈ গ'লে।"
@@ -17386,23 +17386,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a hidden and shameful secret",
-     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
+     "en": "a small visible part of a big problem",
+     "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
     },
     {
-     "en": "neat and clean",
-     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
+     "en": "to explain something",
+     "as": "কিবা ব্যাখ্যা কৰা"
+    },
+    {
+     "en": "to spend less money",
+     "as": "কম ধন খৰচ কৰা"
     },
     {
      "en": "by fair or unfair means",
      "as": "যিকোনো উপায়েৰে"
-    },
-    {
-     "en": "to begin from the very beginning",
-     "as": "একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'by hook or by crook' means by fair or unfair means.",
     "as": "'by hook or by crook' ৰ অৰ্থ হৈছে যিকোনো উপায়েৰে।"
@@ -17420,16 +17420,16 @@ module.exports = {
      "as": "স্পষ্ট আৰু মুকলিভাৱে কোৱা"
     },
     {
-     "en": "it is your turn to act",
-     "as": "এতিয়া আপোনাৰ পাল"
+     "en": "to pass the worst part of a crisis",
+     "as": "সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা"
     },
     {
-     "en": "an extra benefit",
-     "as": "অতিৰিক্ত লাভ"
+     "en": "to be clumsy at dancing or movement",
+     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
     },
     {
-     "en": "a small visible part of a big problem",
-     "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
+     "en": "safely achieved",
+     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
     }
    ],
    "correct": 0,
@@ -17446,23 +17446,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to be clumsy at dancing or movement",
-     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
+     "en": "something that seems bad but turns out to be good",
+     "as": "প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা"
     },
     {
-     "en": "safely achieved",
-     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
-    },
-    {
-     "en": "to act according to what one says",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
+     "en": "a sudden and unexpected shock",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
     },
     {
      "en": "to do something unnecessary",
      "as": "নিষ্প্ৰয়োজনীয় কাম কৰা"
+    },
+    {
+     "en": "a person used by another to do something risky",
+     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'carry coals to Newcastle' means to do something unnecessary.",
     "as": "'carry coals to Newcastle' ৰ অৰ্থ হৈছে নিষ্প্ৰয়োজনীয় কাম কৰা।"
@@ -17476,23 +17476,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to act according to what one says",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
-    },
-    {
-     "en": "with some doubt",
-     "as": "কিছু সন্দেহেৰে"
-    },
-    {
-     "en": "spoken communication",
-     "as": "মুখে মুখে প্ৰচাৰ"
-    },
-    {
      "en": "to bring disgrace",
      "as": "কলংক আনি দিয়া"
+    },
+    {
+     "en": "a person used by another to do something risky",
+     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
+    },
+    {
+     "en": "a very miserly person",
+     "as": "অতি কৃপণ ব্যক্তি"
+    },
+    {
+     "en": "an unexpected winner",
+     "as": "অপ্ৰত্যাশিত বিজয়ী"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'cast a slur' means to bring disgrace.",
     "as": "'cast a slur' ৰ অৰ্থ হৈছে কলংক আনি দিয়া।"
@@ -17506,23 +17506,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "a day of festivity",
+     "as": "উৎসৱৰ দিন"
+    },
+    {
      "en": "to offer something valuable to those who cannot appreciate it",
      "as": "মূল্যবান বস্তু অযোগ্যক দিয়া"
     },
     {
-     "en": "waiting makes things seem slower",
-     "as": "অপেক্ষা কৰিলে সময় লেহেমীয়া লাগে"
+     "en": "a task requiring great strength",
+     "as": "অতি কঠিন কাম"
     },
     {
-     "en": "completely in the power of",
-     "as": "সম্পূৰ্ণভাৱে কাৰোবাৰ অধীনত"
-    },
-    {
-     "en": "to endure a painful situation bravely",
-     "as": "কষ্টজনক অৱস্থা সাহসেৰে সহ্য কৰা"
+     "en": "a prejudiced view",
+     "as": "পক্ষপাতমূলক দৃষ্টিভঙ্গি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'cast pearls before swine' means to offer something valuable to those who cannot appreciate it.",
     "as": "'cast pearls before swine' ৰ অৰ্থ হৈছে মূল্যবান বস্তু অযোগ্যক দিয়া।"
@@ -17536,23 +17536,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "a man of many talents",
+     "as": "বহু প্ৰতিভাৰ মানুহ"
+    },
+    {
+     "en": "a person of no substance or worth",
+     "as": "নগণ্য বা মূল্যহীন ব্যক্তি"
+    },
+    {
      "en": "to meet one's match",
      "as": "সমক্ষমতাসম্পন্ন লগ পোৱা"
     },
     {
-     "en": "to be in control",
-     "as": "নিয়ন্ত্ৰণত থকা"
-    },
-    {
-     "en": "to be busy without achieving anything",
-     "as": "একো নকৰাকৈ ব্যস্ত থকা"
-    },
-    {
-     "en": "to accept a difficult situation",
-     "as": "কঠিন অৱস্থা মানি লোৱা"
+     "en": "a barely avoided danger",
+     "as": "কোনোমতে হোৱা ৰক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'catch a tartar' means to meet one's match.",
     "as": "'catch a tartar' ৰ অৰ্থ হৈছে সমক্ষমতাসম্পন্ন লগ পোৱা।"
@@ -17566,16 +17566,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "very sad",
-     "as": "অতি দুখী"
+     "en": "a hidden enemy",
+     "as": "গুপুত শত্ৰু"
     },
     {
-     "en": "to set a limit",
-     "as": "সীমা নিৰ্ধাৰণ কৰা"
+     "en": "a subject that causes pain or anger",
+     "as": "ব্যথা বা খং দিয়া বিষয়"
     },
     {
-     "en": "difficult to do",
-     "as": "কৰাতকৈ কঠিন"
+     "en": "great excitement over a small matter",
+     "as": "সৰু কথাত ডাঙৰ হুলস্থূল"
     },
     {
      "en": "to catch in the act of doing wrong",
@@ -17596,23 +17596,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "following the rules exactly",
+     "as": "নিয়ম মতে কৰা"
+    },
+    {
      "en": "cowardly",
      "as": "ভীতু"
     },
     {
-     "en": "to receive the same bad treatment one gives",
-     "as": "নিজে দিয়া বেয়া ব্যৱহাৰ নিজে পোৱা"
+     "en": "to make a bad situation worse",
+     "as": "অৱস্থা আৰু বেয়া কৰা"
     },
     {
-     "en": "to believe someone without proof",
-     "as": "প্ৰমাণ নোহোৱাকৈ বিশ্বাস কৰা"
-    },
-    {
-     "en": "to start planning again",
-     "as": "পুনৰ পৰিকল্পনা আৰম্ভ কৰা"
+     "en": "contrary to one's inclination",
+     "as": "মনৰ বিৰুদ্ধে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'chicken hearted' means cowardly.",
     "as": "'chicken hearted' ৰ অৰ্থ হৈছে ভীতু।"
@@ -17626,23 +17626,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "very clumsy",
+     "as": "অতি অপটু"
+    },
+    {
+     "en": "a decisive test",
+     "as": "নিষ্পত্তিমূলক পৰীক্ষা"
+    },
+    {
+     "en": "a cause of quarrel",
+     "as": "বিবাদৰ মূল কাৰণ"
+    },
+    {
      "en": "a child very like its parent",
      "as": "পিতৃ-মাতৃৰ লগত একে ল'ৰা-ছোৱালী"
-    },
-    {
-     "en": "both sides are responsible",
-     "as": "দুয়ো পক্ষই দায়ী"
-    },
-    {
-     "en": "to join a popular activity",
-     "as": "জনপ্ৰিয় কামত যোগ দিয়া"
-    },
-    {
-     "en": "to prevent something from harming",
-     "as": "ক্ষতিৰ পৰা বিৰত ৰখা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'chip of the old block' means a child very like its parent.",
     "as": "'chip of the old block' ৰ অৰ্থ হৈছে পিতৃ-মাতৃৰ লগত একে ল'ৰা-ছোৱালী।"
@@ -17656,20 +17656,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "alert and efficient",
-     "as": "সতৰ্ক আৰু দক্ষ"
+     "en": "a very difficult task",
+     "as": "অতি কঠিন কাম"
     },
     {
      "en": "to remove misunderstanding",
      "as": "ভুল বুজাবুজি আঁতৰোৱা"
     },
     {
-     "en": "to be cautious after a bad experience",
-     "as": "বেয়া অভিজ্ঞতাৰ পিছত সতৰ্ক হোৱা"
+     "en": "a person dearly loved",
+     "as": "অতি প্ৰিয় ব্যক্তি"
     },
     {
-     "en": "what is normal or expected",
-     "as": "সাধাৰণ বা প্ৰত্যাশিত"
+     "en": "a critic who does nothing himself",
+     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
     }
    ],
    "correct": 1,
@@ -17686,23 +17686,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to make the best effort",
-     "as": "সৰ্বোত্তম চেষ্টা কৰা"
+     "en": "at liberty or as a whole",
+     "as": "মুক্ত অৱস্থাত বা সমগ্ৰভাৱে"
+    },
+    {
+     "en": "known thoroughly",
+     "as": "সম্পূৰ্ণভাৱে জানি থোৱা"
     },
     {
      "en": "an unbelievable tale",
      "as": "অবিশ্বাস্য কাহিনী"
     },
     {
-     "en": "to set a higher standard",
-     "as": "উচ্চ মান নিৰ্ধাৰণ কৰা"
-    },
-    {
-     "en": "to warn someone firmly",
-     "as": "কঠোৰভাৱে সকীয়নি দিয়া"
+     "en": "utterly confused",
+     "as": "সম্পূৰ্ণভাৱে হতবুদ্ধি"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'cock and bull story' means an unbelievable tale.",
     "as": "'cock and bull story' ৰ অৰ্থ হৈছে অবিশ্বাস্য কাহিনী।"
@@ -17716,20 +17716,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to lose energy or momentum",
-     "as": "শক্তি বা গতি হেৰুওৱা"
+     "en": "immediately",
+     "as": "তৎক্ষণাত"
     },
     {
-     "en": "a change of opinion after reconsidering",
-     "as": "পুনৰ বিবেচনাৰ পিছত মত সলনি"
+     "en": "ill feeling between people",
+     "as": "মানুহৰ মাজত শত্ৰুতা"
     },
     {
      "en": "to succeed brilliantly",
      "as": "চমকপ্ৰদভাৱে সফল হোৱা"
     },
     {
-     "en": "disparaging what one cannot have",
-     "as": "নোপোৱা বস্তুৰ বেয়া কোৱা"
+     "en": "with all one's belongings",
+     "as": "সকলো সামগ্ৰীসহ"
     }
    ],
    "correct": 2,
@@ -17746,23 +17746,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "a comfortable situation",
+     "as": "আৰামদায়ক অৱস্থা"
+    },
+    {
+     "en": "beyond the power of words to describe",
+     "as": "বৰ্ণনা কৰিব নোৱাৰা"
+    },
+    {
      "en": "to wait for a long time",
      "as": "বহু সময় অপেক্ষা কৰা"
     },
     {
-     "en": "an obvious problem everyone ignores",
-     "as": "সকলোৱে উপেক্ষা কৰা স্পষ্ট সমস্যা"
-    },
-    {
-     "en": "to give up",
-     "as": "হাৰ মানি এৰি দিয়া"
-    },
-    {
-     "en": "to get married",
-     "as": "বিবাহ কৰা"
+     "en": "secretly",
+     "as": "গুপুতে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'cool one's heels' means to wait for a long time.",
     "as": "'cool one's heels' ৰ অৰ্থ হৈছে বহু সময় অপেক্ষা কৰা।"
@@ -17776,23 +17776,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "very angry and ready to protest",
-     "as": "অতি খঙাল আৰু প্ৰতিবাদলৈ সাজু"
+     "en": "between two equal dangers",
+     "as": "দুটা সমান বিপদৰ মাজত"
+    },
+    {
+     "en": "a general view from above",
+     "as": "ওপৰৰ পৰা চোৱা সাধাৰণ দৃশ্য"
     },
     {
      "en": "false tears of sorrow",
      "as": "মিছা শোকৰ চকুলো"
     },
     {
-     "en": "to act very carefully",
-     "as": "অতি সাৱধানেৰে কাম কৰা"
-    },
-    {
-     "en": "a past matter no longer important",
-     "as": "পুৰণি আৰু এতিয়া অপ্ৰাসংগিক বিষয়"
+     "en": "to be defeated or to die",
+     "as": "পৰাজিত হোৱা বা মৃত্যুবৰণ কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'crocodile tears' means false tears of sorrow.",
     "as": "'crocodile tears' ৰ অৰ্থ হৈছে মিছা শোকৰ চকুলো।"
@@ -17806,23 +17806,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "something that will never happen",
-     "as": "কেতিয়াও নহ'বলগীয়া কথা"
+     "en": "to praise oneself",
+     "as": "নিজৰ প্ৰশংসা কৰা"
+    },
+    {
+     "en": "noble birth",
+     "as": "অভিজাত জন্ম"
+    },
+    {
+     "en": "a subject of dispute",
+     "as": "বিবাদৰ বিষয়"
     },
     {
      "en": "to quarrel or fight",
      "as": "ঝগড়া বা যুঁজ কৰা"
-    },
-    {
-     "en": "a share of the profit",
-     "as": "লাভৰ এটা অংশ"
-    },
-    {
-     "en": "to make a bad situation worse",
-     "as": "আঘাতৰ ওপৰত অপমান যোগোৱা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'cross swords' means to quarrel or fight.",
     "as": "'cross swords' ৰ অৰ্থ হৈছে ঝগড়া বা যুঁজ কৰা।"
@@ -17836,23 +17836,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to try very hard to help",
-     "as": "সহায় কৰিবলৈ বহুত চেষ্টা কৰা"
-    },
-    {
-     "en": "to stop oneself from speaking",
-     "as": "কথা কোৱাৰ পৰা নিজকে বিৰত ৰখা"
-    },
-    {
-     "en": "to take all of someone's money",
-     "as": "কাৰোবাৰ সকলো ধন লৈ লোৱা"
+     "en": "to waste energy in two directions",
+     "as": "দুইদিশে শক্তি অপচয় কৰা"
     },
     {
      "en": "to make a poor impression",
      "as": "বেয়া ধাৰণা দিয়া"
+    },
+    {
+     "en": "to study late into the night",
+     "as": "ৰাতি দেৰিলৈকে পঢ়া"
+    },
+    {
+     "en": "to make peace",
+     "as": "শান্তি স্থাপন কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'cut a sorry figure' means to make a poor impression.",
     "as": "'cut a sorry figure' ৰ অৰ্থ হৈছে বেয়া ধাৰণা দিয়া।"
@@ -17866,23 +17866,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to agree to end a dispute",
-     "as": "বিবাদ শেষ কৰিবলৈ ৰাজি হোৱা"
+     "en": "to do something unnecessary",
+     "as": "নিষ্প্ৰয়োজনীয় কাম কৰা"
+    },
+    {
+     "en": "to bring disgrace",
+     "as": "কলংক আনি দিয়া"
+    },
+    {
+     "en": "to offer something valuable to those who cannot appreciate it",
+     "as": "মূল্যবান বস্তু অযোগ্যক দিয়া"
     },
     {
      "en": "to solve a difficult problem boldly",
      "as": "কঠিন সমস্যা সাহসেৰে সমাধান কৰা"
-    },
-    {
-     "en": "to take the blame",
-     "as": "দোষ মূৰত লোৱা"
-    },
-    {
-     "en": "completely different",
-     "as": "সম্পূৰ্ণ পৃথক"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'cut the Gordian knot' means to solve a difficult problem boldly.",
     "as": "'cut the Gordian knot' ৰ অৰ্থ হৈছে কঠিন সমস্যা সাহসেৰে সমাধান কৰা।"
@@ -17896,23 +17896,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "whatever happens",
-     "as": "যি নহওক কিয়"
+     "en": "to catch in the act of doing wrong",
+     "as": "অপৰাধ কৰি থকা অৱস্থাত ধৰা"
     },
     {
-     "en": "to raise a false alarm",
-     "as": "মিছা সতৰ্কবাণী দিয়া"
+     "en": "cowardly",
+     "as": "ভীতু"
+    },
+    {
+     "en": "a child very like its parent",
+     "as": "পিতৃ-মাতৃৰ লগত একে ল'ৰা-ছোৱালী"
     },
     {
      "en": "strongly opposed",
      "as": "তীব্ৰ বিৰোধিতা কৰা"
-    },
-    {
-     "en": "to gain early experience of",
-     "as": "প্ৰাৰম্ভিক অভিজ্ঞতা লাভ কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'dead against' means strongly opposed.",
     "as": "'dead against' ৰ অৰ্থ হৈছে তীব্ৰ বিৰোধিতা কৰা।"
@@ -17926,23 +17926,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "to wait for a long time",
+     "as": "বহু সময় অপেক্ষা কৰা"
+    },
+    {
      "en": "to die while working",
      "as": "কাম কৰি থাকোঁতেই মৃত্যুবৰণ কৰা"
     },
     {
-     "en": "to pay attention to small details",
-     "as": "সৰু সৰু বিতংক লৈ মনোযোগ দিয়া"
+     "en": "false tears of sorrow",
+     "as": "মিছা শোকৰ চকুলো"
     },
     {
-     "en": "to eat a lot",
-     "as": "বহুত খোৱা"
-    },
-    {
-     "en": "the last possible moment",
-     "as": "শেষ মুহূৰ্ত"
+     "en": "to quarrel or fight",
+     "as": "ঝগড়া বা যুঁজ কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'die in harness' means to die while working.",
     "as": "'die in harness' ৰ অৰ্থ হৈছে কাম কৰি থাকোঁতেই মৃত্যুবৰণ কৰা।"
@@ -17956,23 +17956,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to be lucky after a difficulty",
-     "as": "অসুবিধাৰ পিছত ভাগ্যৱান হোৱা"
+     "en": "to solve a difficult problem boldly",
+     "as": "কঠিন সমস্যা সাহসেৰে সমাধান কৰা"
     },
     {
-     "en": "an unnoticed observer",
-     "as": "লক্ষ্য নকৰা পৰ্যবেক্ষক"
-    },
-    {
-     "en": "to organise oneself effectively",
-     "as": "নিজকে প্ৰভাৱকৰভাৱে সংগঠিত কৰা"
+     "en": "strongly opposed",
+     "as": "তীব্ৰ বিৰোধিতা কৰা"
     },
     {
      "en": "a person who prevents others from enjoying what he cannot use",
      "as": "নিজে ব্যৱহাৰ নকৰি আনকো নিদিয়া ব্যক্তি"
+    },
+    {
+     "en": "to die while working",
+     "as": "কাম কৰি থাকোঁতেই মৃত্যুবৰণ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'dog in the manger' means a person who prevents others from enjoying what he cannot use.",
     "as": "'dog in the manger' ৰ অৰ্থ হৈছে নিজে ব্যৱহাৰ নকৰি আনকো নিদিয়া ব্যক্তি।"
@@ -17986,23 +17986,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to go to bed",
-     "as": "শুবলৈ যোৱা"
+     "en": "a severe scolding",
+     "as": "কঠোৰ গালি"
+    },
+    {
+     "en": "no score at all",
+     "as": "শূন্য নম্বৰ"
     },
     {
      "en": "deceitful behaviour",
      "as": "প্ৰতাৰণামূলক আচৰণ"
     },
     {
-     "en": "at the highest level of activity",
-     "as": "সৰ্বোচ্চ সক্ৰিয়তাত"
-    },
-    {
-     "en": "over a long period",
-     "as": "দীৰ্ঘকালত"
+     "en": "to apologise humbly",
+     "as": "বিনয়ভাৱে ক্ষমা খোজা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'double dealing' means deceitful behaviour.",
     "as": "'double dealing' ৰ অৰ্থ হৈছে প্ৰতাৰণামূলক আচৰণ।"
@@ -18016,23 +18016,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to achieve two aims with one action",
-     "as": "এটা কামেৰে দুটা উদ্দেশ্য সিদ্ধি কৰা"
-    },
-    {
-     "en": "finally but not less important",
-     "as": "শেষত কিন্তু কম গুৰুত্বপূৰ্ণ নহয়"
-    },
-    {
-     "en": "to learn how a job is done",
-     "as": "কাম কেনেকৈ কৰা হয় শিকা"
+     "en": "completely",
+     "as": "সম্পূৰ্ণভাৱে"
     },
     {
      "en": "to exaggerate",
      "as": "অতিশয়োক্তি কৰা"
+    },
+    {
+     "en": "to bear the consequences",
+     "as": "পৰিণাম ভোগ কৰা"
+    },
+    {
+     "en": "honest and straightforward",
+     "as": "সৎ আৰু সোজা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'draw the long bow' means to exaggerate.",
     "as": "'draw the long bow' ৰ অৰ্থ হৈছে অতিশয়োক্তি কৰা।"
@@ -18046,23 +18046,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to exaggerate a minor problem",
-     "as": "সৰু সমস্যাকে ডাঙৰ কৰা"
+     "en": "to enrich oneself dishonestly",
+     "as": "অসততাৰে নিজৰ স্বাৰ্থ চৰিতাৰ্থ কৰা"
     },
     {
-     "en": "success requires effort",
-     "as": "সফলতাৰ বাবে শ্ৰম লাগে"
-    },
-    {
-     "en": "not for publication",
-     "as": "প্ৰকাশৰ বাবে নহয়"
+     "en": "to find out the opinion of others",
+     "as": "আনৰ মত জানিবলৈ চেষ্টা কৰা"
     },
     {
      "en": "a severe scolding",
      "as": "কঠোৰ গালি"
+    },
+    {
+     "en": "to avoid",
+     "as": "এৰি চলা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'dressing down' means a severe scolding.",
     "as": "'dressing down' ৰ অৰ্থ হৈছে কঠোৰ গালি।"
@@ -18076,20 +18076,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to take a dangerous risk",
-     "as": "বিপদজনক ঝুঁকি লোৱা"
+     "en": "to do the same thing",
+     "as": "একে ধৰণৰ কাম কৰা"
     },
     {
-     "en": "to tease someone playfully",
-     "as": "হাঁহি-ধেমালিতে ঠাট্টা কৰা"
+     "en": "a state of happiness based on false hope",
+     "as": "মিছা আশাৰ আনন্দ"
     },
     {
      "en": "no score at all",
      "as": "শূন্য নম্বৰ"
     },
     {
-     "en": "to correct a misunderstanding",
-     "as": "ভুল ধাৰণা শুধৰোৱা"
+     "en": "permanently",
+     "as": "চিৰকাললৈ"
     }
    ],
    "correct": 2,
@@ -18106,23 +18106,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to wake up and get going",
-     "as": "সাৰ পাই কামত লাগা"
+     "en": "to be dismissed from a job",
+     "as": "চাকৰিৰ পৰা বৰ্খাস্ত হোৱা"
     },
     {
-     "en": "to continue until finished",
-     "as": "শেষলৈকে চলাই ৰখা"
-    },
-    {
-     "en": "to reveal one's real nature",
-     "as": "নিজৰ প্ৰকৃত স্বভাৱ প্ৰকাশ কৰা"
+     "en": "the ability to speak fluently",
+     "as": "সহজে ধাৰাপাতভাৱে কোৱাৰ ক্ষমতা"
     },
     {
      "en": "to apologise humbly",
      "as": "বিনয়ভাৱে ক্ষমা খোজা"
+    },
+    {
+     "en": "to keep away from",
+     "as": "দূৰৈত থাকা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'eat humble pie' means to apologise humbly.",
     "as": "'eat humble pie' ৰ অৰ্থ হৈছে বিনয়ভাৱে ক্ষমা খোজা।"
@@ -18136,23 +18136,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "advantages of two different things",
-     "as": "দুটা ভিন্ন বস্তুৰ সুবিধা"
-    },
-    {
-     "en": "a decision has not yet been made",
-     "as": "এতিয়াও সিদ্ধান্ত হোৱা নাই"
-    },
-    {
-     "en": "to take a big risk",
-     "as": "ডাঙৰ ঝুঁকি লোৱা"
-    },
-    {
      "en": "enough space to move",
      "as": "চলাৰ বাবে পৰ্যাপ্ত ঠাই"
+    },
+    {
+     "en": "to bribe",
+     "as": "ঘোচ দিয়া"
+    },
+    {
+     "en": "an inexperienced person",
+     "as": "অনভিজ্ঞ ব্যক্তি"
+    },
+    {
+     "en": "a period of peace and happiness",
+     "as": "শান্তি আৰু সুখৰ কাল"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'elbow room' means enough space to move.",
     "as": "'elbow room' ৰ অৰ্থ হৈছে চলাৰ বাবে পৰ্যাপ্ত ঠাই।"
@@ -18166,23 +18166,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "of an acceptable standard",
-     "as": "গ্ৰহণযোগ্য মানৰ"
-    },
-    {
-     "en": "to face a certain punishment",
-     "as": "নিশ্চিত শাস্তিৰ সন্মুখীন হোৱা"
+     "en": "to be obsessed with an idea",
+     "as": "এটা ভাৱনাত মগ্ন থকা"
     },
     {
      "en": "to come to nothing",
      "as": "কোনো ফল নোহোৱাকৈ শেষ হোৱা"
     },
     {
-     "en": "with a warm welcome",
-     "as": "আন্তৰিক স্বাগতমেৰে"
+     "en": "to have a selfish motive",
+     "as": "স্বাৰ্থপৰ উদ্দেশ্য থকা"
+    },
+    {
+     "en": "completely or deeply",
+     "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'end in smoke' means to come to nothing.",
     "as": "'end in smoke' ৰ অৰ্থ হৈছে কোনো ফল নোহোৱাকৈ শেষ হোৱা।"
@@ -18196,23 +18196,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "to be logically sound",
+     "as": "যুক্তিসংগত হোৱা"
+    },
+    {
+     "en": "in a few words",
+     "as": "চমুকৈ"
+    },
+    {
      "en": "completely",
      "as": "সম্পূৰ্ণভাৱে"
     },
     {
-     "en": "accusing the wrong person",
-     "as": "ভুল ব্যক্তিক দোষ দিয়া"
-    },
-    {
-     "en": "to take on too much",
-     "as": "সাধ্যতকৈ বেছি কাম লোৱা"
-    },
-    {
-     "en": "a hidden benefit",
-     "as": "লুকুৱা লাভ"
+     "en": "deliberately and without emotion",
+     "as": "ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'every inch' means completely.",
     "as": "'every inch' ৰ অৰ্থ হৈছে সম্পূৰ্ণভাৱে।"
@@ -18226,23 +18226,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to tell the truth",
-     "as": "সত্য কথা কোৱা"
+     "en": "just in time",
+     "as": "ঠিক সময়ত"
+    },
+    {
+     "en": "in direct opposition to",
+     "as": "প্ৰত্যক্ষ বিৰোধিতা কৰি"
     },
     {
      "en": "to bear the consequences",
      "as": "পৰিণাম ভোগ কৰা"
     },
     {
-     "en": "to hope for luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    },
-    {
-     "en": "being too curious can be harmful",
-     "as": "অত্যধিক কৌতূহল ক্ষতিকাৰক হ'ব পাৰে"
+     "en": "full details",
+     "as": "সম্পূৰ্ণ বিৱৰণ"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'face the music' means to bear the consequences.",
     "as": "'face the music' ৰ অৰ্থ হৈছে পৰিণাম ভোগ কৰা।"
@@ -18256,23 +18256,23 @@ module.exports = {
    },
    "options": [
     {
+     "en": "to die",
+     "as": "মৃত্যুবৰণ কৰা"
+    },
+    {
      "en": "honest and straightforward",
      "as": "সৎ আৰু সোজা"
     },
     {
-     "en": "do not assume success too early",
-     "as": "আগতেই সফলতা ধৰি নল'ব"
+     "en": "friends and relatives",
+     "as": "বন্ধু-বান্ধৱ আৰু আত্মীয়"
     },
     {
-     "en": "close and careful watchfulness",
-     "as": "নিবিড় আৰু সাৱধানেৰে নিৰীক্ষণ"
-    },
-    {
-     "en": "a friend only in good times",
-     "as": "কেৱল ভাল সময়ৰ বন্ধু"
+     "en": "to defeat completely",
+     "as": "সম্পূৰ্ণভাৱে পৰাজিত কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'fair and square' means honest and straightforward.",
     "as": "'fair and square' ৰ অৰ্থ হৈছে সৎ আৰু সোজা।"
@@ -18286,20 +18286,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "wasting effort on a hopeless task",
-     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
+     "en": "a person who is weak or ineffective",
+     "as": "দুৰ্বল বা অক্ষম ব্যক্তি"
     },
     {
-     "en": "to stop working or to die",
-     "as": "কাম বন্ধ হোৱা বা মৃত্যু হোৱা"
+     "en": "the final burden that causes collapse",
+     "as": "ভাঙি পেলোৱা অন্তিম বোজা"
     },
     {
      "en": "to fail to produce an effect",
      "as": "কোনো প্ৰভাৱ নজনোৱা"
     },
     {
-     "en": "to remember past times",
-     "as": "অতীতৰ কথা মন পেলোৱা"
+     "en": "to laugh secretly",
+     "as": "গুপুতে হাঁহা"
     }
    ],
    "correct": 2,
@@ -18316,23 +18316,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to encounter an unexpected problem",
-     "as": "অপ্ৰত্যাশিত সমস্যা লগ পোৱা"
+     "en": "an ambiguous compliment",
+     "as": "দুই অৰ্থৰ প্ৰশংসা"
     },
     {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
+     "en": "to reveal a secret",
+     "as": "গোপন কথা ফাদিল কৰা"
+    },
+    {
+     "en": "to be defeated humbly",
+     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
     },
     {
      "en": "a great distance",
      "as": "অতি বেছি ব্যৱধান"
-    },
-    {
-     "en": "very quickly",
-     "as": "অতি ক্ষিপ্ৰভাৱে"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'far cry' means a great distance.",
     "as": "'far cry' ৰ অৰ্থ হৈছে অতি বেছি ব্যৱধান।"
@@ -18346,23 +18346,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to postpone a problem",
-     "as": "সমস্যা পিছুৱাই দিয়া"
+     "en": "to find fault with a gift",
+     "as": "উপহাৰত দোষ বিচৰা"
     },
     {
-     "en": "to forgive past wrongs",
-     "as": "পুৰণি ভুল ক্ষমা কৰা"
+     "en": "think before you act",
+     "as": "কাম কৰাৰ আগতে ভাবা"
+    },
+    {
+     "en": "to become discouraged",
+     "as": "হতাশ হোৱা"
     },
     {
      "en": "to enrich oneself dishonestly",
      "as": "অসততাৰে নিজৰ স্বাৰ্থ চৰিতাৰ্থ কৰা"
-    },
-    {
-     "en": "to live in false hopes",
-     "as": "মিছা আশাত জীৱন কটোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'feather one's own nest' means to enrich oneself dishonestly.",
     "as": "'feather one's own nest' ৰ অৰ্থ হৈছে অসততাৰে নিজৰ স্বাৰ্থ চৰিতাৰ্থ কৰা।"
@@ -18376,23 +18376,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to stop something early",
-     "as": "আৰম্ভণিতে ৰোধ কৰা"
+     "en": "to seize a good opportunity",
+     "as": "ভাল সুযোগ লোৱা"
+    },
+    {
+     "en": "to exaggerate a small matter",
+     "as": "সৰু কথাক ডাঙৰ কৰা"
+    },
+    {
+     "en": "an ordinary person",
+     "as": "সাধাৰণ মানুহ"
     },
     {
      "en": "to find out the opinion of others",
      "as": "আনৰ মত জানিবলৈ চেষ্টা কৰা"
-    },
-    {
-     "en": "mutual dislike between two people",
-     "as": "দুজনৰ মাজত পৰস্পৰ অপছন্দ"
-    },
-    {
-     "en": "away from the usual route",
-     "as": "সাধাৰণ পথৰ পৰা আঁতৰত"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'feel the pulse' means to find out the opinion of others.",
     "as": "'feel the pulse' ৰ অৰ্থ হৈছে আনৰ মত জানিবলৈ চেষ্টা কৰা।"
@@ -18406,23 +18406,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to do one's fair share of work",
-     "as": "নিজৰ ন্যায্য অংশৰ কাম কৰা"
+     "en": "small leftover items",
+     "as": "সৰু-সুৰা বাকী বস্তু"
     },
     {
-     "en": "to be quiet",
-     "as": "চুপ থাকা"
+     "en": "occasionally",
+     "as": "মাজে মাজে"
+    },
+    {
+     "en": "extremely happy",
+     "as": "অতি আনন্দিত"
     },
     {
      "en": "to avoid",
      "as": "এৰি চলা"
-    },
-    {
-     "en": "to act according to one's words",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'fight shy of' means to avoid.",
     "as": "'fight shy of' ৰ অৰ্থ হৈছে এৰি চলা।"
@@ -18436,23 +18436,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to act according to one's words",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
-    },
-    {
-     "en": "to drink in honour of someone",
-     "as": "কাৰোবাৰ সম্মানত পান কৰা"
-    },
-    {
      "en": "to take advantage of disturbance",
      "as": "অশান্তিৰ সুযোগ লোৱা"
     },
     {
-     "en": "to succeed easily",
-     "as": "সহজে সফল হোৱা"
+     "en": "occasionally",
+     "as": "মাজে মাজে"
+    },
+    {
+     "en": "extremely happy",
+     "as": "অতি আনন্দিত"
+    },
+    {
+     "en": "faced with two difficult choices",
+     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'fish in troubled waters' means to take advantage of disturbance.",
     "as": "'fish in troubled waters' ৰ অৰ্থ হৈছে অশান্তিৰ সুযোগ লোৱা।"
@@ -18466,23 +18466,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to do nothing",
-     "as": "একো নকৰা"
-    },
-    {
-     "en": "the person we were talking about has arrived",
-     "as": "যাৰ কথা কৈছিলোঁ তেওঁ আহি পালে"
+     "en": "something one likes",
+     "as": "নিজৰ পছন্দৰ বস্তু"
     },
     {
      "en": "to lose one's temper suddenly",
      "as": "হঠাতে খং উঠা"
     },
     {
-     "en": "to attract all the attention",
-     "as": "সকলোৰে মনোযোগ আকৰ্ষণ কৰা"
+     "en": "thoroughly",
+     "as": "সম্পূৰ্ণৰূপে"
+    },
+    {
+     "en": "from one trouble into a worse one",
+     "as": "এটা সমস্যাৰ পৰা আৰু বেয়া সমস্যালৈ"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'fly off the handle' means to lose one's temper suddenly.",
     "as": "'fly off the handle' ৰ অৰ্থ হৈছে হঠাতে খং উঠা।"
@@ -18500,16 +18500,16 @@ module.exports = {
      "as": "একে ধৰণৰ কাম কৰা"
     },
     {
-     "en": "everything possible",
-     "as": "সকলো সম্ভৱ বস্তু"
+     "en": "to act to please the crowd",
+     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
     },
     {
-     "en": "in good and bad times",
-     "as": "ভাল-বেয়া সকলো সময়তে"
+     "en": "to bear an insult quietly",
+     "as": "চুপচাপ অপমান সহ্য কৰা"
     },
     {
-     "en": "to like sweet things",
-     "as": "মিঠা বস্তু ভাল পোৱা"
+     "en": "to make a determined effort",
+     "as": "দৃঢ় প্ৰচেষ্টা কৰা"
     }
    ],
    "correct": 0,
@@ -18526,20 +18526,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "very similar",
-     "as": "অতি একে ধৰণৰ"
+     "en": "to use influence secretly",
+     "as": "গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা"
     },
     {
-     "en": "to be in a delicate situation",
-     "as": "নাজুক অৱস্থাত থকা"
+     "en": "to state briefly",
+     "as": "চমুকৈ কোৱা"
     },
     {
      "en": "a state of happiness based on false hope",
      "as": "মিছা আশাৰ আনন্দ"
     },
     {
-     "en": "to disown responsibility",
-     "as": "দায়িত্ব অস্বীকাৰ কৰা"
+     "en": "to be firm about something",
+     "as": "একটা কথাত দৃঢ় হোৱা"
     }
    ],
    "correct": 2,
@@ -18556,16 +18556,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in strong disagreement",
-     "as": "তীব্ৰ মতানৈক্যত"
+     "en": "to rain very heavily",
+     "as": "অতি ধাৰাসাৰে বৰষুণ দিয়া"
     },
     {
-     "en": "to listen attentively",
-     "as": "মনোযোগেৰে শুনা"
+     "en": "excessive official routine",
+     "as": "অত্যধিক চৰকাৰী কাগজ-পত্ৰ"
     },
     {
-     "en": "to expose wrongdoing",
-     "as": "অন্যায় উন্মোচন কৰা"
+     "en": "to be satisfied with past success",
+     "as": "পূৰ্বৰ সফলতাত সন্তুষ্ট থকা"
     },
     {
      "en": "permanently",
@@ -18586,23 +18586,23 @@ module.exports = {
    },
    "options": [
     {
-     "en": "to invent a false story",
-     "as": "মিছা কাহিনী সাজি উলিওৱা"
+     "en": "to behave violently",
+     "as": "উচণ্ডাল আচৰণ কৰা"
+    },
+    {
+     "en": "to act against",
+     "as": "বিৰুদ্ধে কাম কৰা"
+    },
+    {
+     "en": "to agree completely",
+     "as": "সম্পূৰ্ণভাৱে একমত হোৱা"
     },
     {
      "en": "with just enough for immediate needs",
      "as": "দিন চলোৱাৰ সমান মাত্ৰ"
-    },
-    {
-     "en": "to delay deliberately",
-     "as": "ইচ্ছাকৃতভাৱে পলম কৰা"
-    },
-    {
-     "en": "to make someone very annoyed",
-     "as": "কাকো অতি বিৰক্ত কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'from hand to mouth' means with just enough for immediate needs.",
     "as": "'from hand to mouth' ৰ অৰ্থ হৈছে দিন চলোৱাৰ সমান মাত্ৰ।"
@@ -18611,55 +18611,25 @@ module.exports = {
   {
    "id": "idioms-phrases-108",
    "q": {
-    "en": "The idiom 'gala day' means —",
-    "as": "'gala day' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
-     "en": "to do something completely",
-     "as": "কাম সম্পূৰ্ণভাৱে কৰা"
-    },
-    {
-     "en": "to keep going despite difficulty",
-     "as": "অসুবিধাতো চলি থাকা"
-    },
-    {
-     "en": "a day of celebration",
-     "as": "উদযাপনৰ দিন"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'gala day' means a day of celebration.",
-    "as": "'gala day' ৰ অৰ্থ হৈছে উদযাপনৰ দিন।"
-   }
-  },
-  {
-   "id": "idioms-phrases-109",
-   "q": {
     "en": "The idiom 'get on like a house on fire' means —",
     "as": "'get on like a house on fire' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to reconsider a decision",
-     "as": "সিদ্ধান্ত পুনৰ বিবেচনা কৰা"
+     "en": "to avoid taking sides",
+     "as": "কোনো পক্ষ লোৱাৰ পৰা বিৰত থকা"
     },
     {
      "en": "to become friends quickly",
      "as": "সোনকালে বন্ধু হোৱা"
     },
     {
-     "en": "to become very angry",
-     "as": "অতি খঙাল হোৱা"
+     "en": "to suspect something wrong",
+     "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
     },
     {
-     "en": "to wait patiently",
-     "as": "ধৈৰ্য ধৰি অপেক্ষা কৰা"
+     "en": "to reveal a secret",
+     "as": "গোপন কথা ফাদিল কৰা"
     }
    ],
    "correct": 1,
@@ -18669,57 +18639,57 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-110",
+   "id": "idioms-phrases-109",
    "q": {
     "en": "The idiom 'get the sack' means —",
     "as": "'get the sack' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to go through many difficulties",
-     "as": "বহু কষ্টৰ মাজেৰে যোৱা"
-    },
-    {
-     "en": "to stay calm",
-     "as": "শান্ত থাকা"
+     "en": "to maintain one's stand firmly",
+     "as": "নিজৰ মত দৃঢ়ভাৱে ৰখা"
     },
     {
      "en": "to be dismissed from a job",
      "as": "চাকৰিৰ পৰা বৰ্খাস্ত হোৱা"
     },
     {
-     "en": "to give strict orders",
-     "as": "কঠোৰ আদেশ দিয়া"
+     "en": "a lot of fuss over a small matter",
+     "as": "সৰু কথাত অত্যধিক হুলস্থূল"
+    },
+    {
+     "en": "to make the utmost effort",
+     "as": "সৰ্বাধিক চেষ্টা কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'get the sack' means to be dismissed from a job.",
     "as": "'get the sack' ৰ অৰ্থ হৈছে চাকৰিৰ পৰা বৰ্খাস্ত হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-111",
+   "id": "idioms-phrases-110",
    "q": {
     "en": "The idiom 'gift of the gab' means —",
     "as": "'gift of the gab' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be frank about something",
-     "as": "কথা মুকলিকৈ কোৱা"
+     "en": "to talk about one's work",
+     "as": "নিজৰ কামৰ কথা কোৱা"
     },
     {
-     "en": "to repair a damaged relationship",
-     "as": "নষ্ট সম্পৰ্ক মেৰামতি কৰা"
+     "en": "boastful talk",
+     "as": "আত্মপ্ৰশংসামূলক কথা"
     },
     {
      "en": "the ability to speak fluently",
      "as": "সহজে ধাৰাপাতভাৱে কোৱাৰ ক্ষমতা"
     },
     {
-     "en": "given low priority",
-     "as": "কম গুৰুত্ব দিয়া"
+     "en": "the final decision",
+     "as": "অন্তিম সিদ্ধান্ত"
     }
    ],
    "correct": 2,
@@ -18729,577 +18699,577 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-112",
+   "id": "idioms-phrases-111",
    "q": {
     "en": "The idiom 'give a wide berth' means —",
     "as": "'give a wide berth' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to make something possible",
-     "as": "কিবা সম্ভৱ কৰি তোলা"
-    },
-    {
-     "en": "to pretend to be uninterested",
-     "as": "অনিচ্ছুক যেন দেখুওৱা"
-    },
-    {
      "en": "to keep away from",
      "as": "দূৰৈত থাকা"
     },
     {
-     "en": "to calm a dispute",
-     "as": "বিবাদ শান্ত কৰা"
+     "en": "to help through a difficulty",
+     "as": "অসুবিধা অতিক্ৰম কৰাত সহায় কৰা"
+    },
+    {
+     "en": "for a very long time",
+     "as": "অতি দীঘল সময়লৈকে"
+    },
+    {
+     "en": "to be confused",
+     "as": "হতবুদ্ধি হোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'give a wide berth' means to keep away from.",
     "as": "'give a wide berth' ৰ অৰ্থ হৈছে দূৰৈত থাকা।"
    }
   },
   {
-   "id": "idioms-phrases-113",
+   "id": "idioms-phrases-112",
    "q": {
     "en": "The idiom 'give the cold shoulder' means —",
     "as": "'give the cold shoulder' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to slow or stop something",
-     "as": "কিবা লেহেম বা বন্ধ কৰা"
-    },
-    {
-     "en": "to think very hard",
-     "as": "অতি কষ্টেৰে ভবা"
-    },
-    {
      "en": "to treat with indifference",
      "as": "অৱহেলাৰে ব্যৱহাৰ কৰা"
     },
     {
-     "en": "to see that failure is coming",
-     "as": "ব্যৰ্থতা আহি থকা দেখা"
+     "en": "to win the victory",
+     "as": "বিজয় লাভ কৰা"
+    },
+    {
+     "en": "to regret what cannot be undone",
+     "as": "হৈ যোৱা কামৰ বাবে অনুতাপ কৰা"
+    },
+    {
+     "en": "to live within one's means",
+     "as": "আয়ৰ লগত খৰচ মিলাই চলা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'give the cold shoulder' means to treat with indifference.",
     "as": "'give the cold shoulder' ৰ অৰ্থ হৈছে অৱহেলাৰে ব্যৱহাৰ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-114",
+   "id": "idioms-phrases-113",
    "q": {
     "en": "The idiom 'go to the wall' means —",
     "as": "'go to the wall' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to forget past quarrels",
+     "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
+    },
+    {
+     "en": "to come to the point quickly",
+     "as": "সোনকালে মূল কথালৈ অহা"
+    },
+    {
+     "en": "to manage with one's income",
+     "as": "আয়ৰ ভিতৰত চলা"
+    },
+    {
      "en": "to be defeated or ruined",
      "as": "পৰাজিত বা বৰ্বাদ হোৱা"
-    },
-    {
-     "en": "to succeed or fail by one's own effort",
-     "as": "নিজৰ চেষ্টাৰে সফল বা ব্যৰ্থ হোৱা"
-    },
-    {
-     "en": "to betray someone",
-     "as": "কাকো বিশ্বাসঘাতকতা কৰা"
-    },
-    {
-     "en": "to tackle a problem boldly",
-     "as": "সমস্যা সাহসেৰে মোকাবিলা কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'go to the wall' means to be defeated or ruined.",
     "as": "'go to the wall' ৰ অৰ্থ হৈছে পৰাজিত বা বৰ্বাদ হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-115",
+   "id": "idioms-phrases-114",
    "q": {
     "en": "The idiom 'grease the palm' means —",
     "as": "'grease the palm' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to enter a competition",
-     "as": "প্ৰতিযোগিতাত নামি পৰা"
-    },
-    {
      "en": "to bribe",
      "as": "ঘোচ দিয়া"
     },
     {
-     "en": "to put more pressure on",
-     "as": "বেছি চাপ দিয়া"
+     "en": "to come to the point quickly",
+     "as": "সোনকালে মূল কথালৈ অহা"
     },
     {
-     "en": "to make no progress",
-     "as": "কোনো অগ্ৰগতি নকৰা"
+     "en": "to manage with one's income",
+     "as": "আয়ৰ ভিতৰত চলা"
+    },
+    {
+     "en": "to make every possible effort",
+     "as": "সকলো সম্ভৱ চেষ্টা কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'grease the palm' means to bribe.",
     "as": "'grease the palm' ৰ অৰ্থ হৈছে ঘোচ দিয়া।"
    }
   },
   {
-   "id": "idioms-phrases-116",
+   "id": "idioms-phrases-115",
    "q": {
     "en": "The idiom 'green horn' means —",
     "as": "'green horn' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to understand the hidden meaning",
+     "as": "লুকুৱা অৰ্থ বুজা"
+    },
+    {
+     "en": "to become very angry",
+     "as": "অতি খঙাল হোৱা"
+    },
+    {
+     "en": "to do something remarkable",
+     "as": "উল্লেখনীয় কাম কৰা"
+    },
+    {
      "en": "an inexperienced person",
      "as": "অনভিজ্ঞ ব্যক্তি"
-    },
-    {
-     "en": "one who keeps changing does not succeed",
-     "as": "সঘনে সলনি কৰাজন সফল নহয়"
-    },
-    {
-     "en": "doing something late is better than not at all",
-     "as": "দেৰিকৈ কৰাও নকৰাতকৈ ভাল"
-    },
-    {
-     "en": "similar people stay together",
-     "as": "একে ধৰণৰ লোক একেলগে থাকে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'green horn' means an inexperienced person.",
     "as": "'green horn' ৰ অৰ্থ হৈছে অনভিজ্ঞ ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-117",
+   "id": "idioms-phrases-116",
    "q": {
     "en": "The idiom 'halcyon days' means —",
     "as": "'halcyon days' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "truthfulness is the best rule",
-     "as": "সততাই শ্ৰেষ্ঠ নীতি"
+     "en": "to imitate someone",
+     "as": "কাৰোবাৰ অনুকৰণ কৰা"
     },
     {
-     "en": "need leads to new ideas",
-     "as": "প্ৰয়োজনেই উদ্ভাৱনৰ জননী"
-    },
-    {
-     "en": "repeated practice brings excellence",
-     "as": "অনুশীলনে নিখুঁত কৰে"
+     "en": "to face a danger boldly",
+     "as": "সাহসেৰে বিপদৰ সন্মুখীন হোৱা"
     },
     {
      "en": "a period of peace and happiness",
      "as": "শান্তি আৰু সুখৰ কাল"
+    },
+    {
+     "en": "to admit defeat",
+     "as": "পৰাজয় স্বীকাৰ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'halcyon days' means a period of peace and happiness.",
     "as": "'halcyon days' ৰ অৰ্থ হৈছে শান্তি আৰু সুখৰ কাল।"
    }
   },
   {
-   "id": "idioms-phrases-118",
+   "id": "idioms-phrases-117",
    "q": {
     "en": "The idiom 'hand in glove' means —",
     "as": "'hand in glove' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "early action brings advantage",
-     "as": "সোনকালে কৰাজনে সুবিধা পায়"
-    },
-    {
-     "en": "too many people spoil a task",
-     "as": "বহুত মানুহে কাম নষ্ট কৰে"
-    },
-    {
-     "en": "unity brings strength",
-     "as": "একতাই শক্তি আনে"
+     "en": "to be extremely happy",
+     "as": "অতি আনন্দিত হোৱা"
     },
     {
      "en": "in close association",
      "as": "ঘনিষ্ঠ সংযোগত"
+    },
+    {
+     "en": "to refuse to have anything to do with",
+     "as": "কোনো সম্পৰ্ক নাৰাখা"
+    },
+    {
+     "en": "to show one's feelings openly",
+     "as": "মুকলিভাৱে ভাৱ প্ৰকাশ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'hand in glove' means in close association.",
     "as": "'hand in glove' ৰ অৰ্থ হৈছে ঘনিষ্ঠ সংযোগত।"
    }
   },
   {
-   "id": "idioms-phrases-119",
+   "id": "idioms-phrases-118",
    "q": {
     "en": "The idiom 'hard nut to crack' means —",
     "as": "'hard nut to crack' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "deeds matter more than promises",
-     "as": "কথাতকৈ কামে বেছি কয়"
+     "en": "right in front of one",
+     "as": "চকুৰ সন্মুখত"
     },
     {
-     "en": "you face the results of your actions",
-     "as": "যি কৰিবা তাকেই পাবা"
+     "en": "feeling unwell",
+     "as": "অসুস্থ অনুভৱ কৰা"
+    },
+    {
+     "en": "good and bad times",
+     "as": "ভাল-বেয়া সময়"
     },
     {
      "en": "a difficult problem",
      "as": "কঠিন সমস্যা"
-    },
-    {
-     "en": "family ties are strongest",
-     "as": "ৰক্তৰ সম্পৰ্ক সৰ্বাধিক গভীৰ"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'hard nut to crack' means a difficult problem.",
     "as": "'hard nut to crack' ৰ অৰ্থ হৈছে কঠিন সমস্যা।"
    }
   },
   {
-   "id": "idioms-phrases-120",
+   "id": "idioms-phrases-119",
    "q": {
     "en": "The idiom 'have a bee in one's bonnet' means —",
     "as": "'have a bee in one's bonnet' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "a person with wide knowledge",
+     "as": "বহু জ্ঞান থকা ব্যক্তি"
+    },
+    {
+     "en": "to discuss private matters openly",
+     "as": "ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা"
+    },
+    {
+     "en": "a person who discourages others",
+     "as": "আনক নিৰুৎসাহিত কৰা ব্যক্তি"
+    },
+    {
      "en": "to be obsessed with an idea",
      "as": "এটা ভাৱনাত মগ্ন থকা"
-    },
-    {
-     "en": "nothing is perfect",
-     "as": "কোনো বস্তুৱেই নিখুঁত নহয়"
-    },
-    {
-     "en": "courage brings success",
-     "as": "সাহসীক ভাগ্যই সহায় কৰে"
-    },
-    {
-     "en": "intelligent people often agree",
-     "as": "মহান মতিৰ লোক প্ৰায় একমত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'have a bee in one's bonnet' means to be obsessed with an idea.",
     "as": "'have a bee in one's bonnet' ৰ অৰ্থ হৈছে এটা ভাৱনাত মগ্ন থকা।"
    }
   },
   {
-   "id": "idioms-phrases-121",
+   "id": "idioms-phrases-120",
    "q": {
     "en": "The idiom 'have an axe to grind' means —",
     "as": "'have an axe to grind' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "very close to",
+     "as": "অতি ওচৰত"
+    },
+    {
+     "en": "without any sense",
+     "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
+    },
+    {
+     "en": "a dangerous person pretending to be harmless",
+     "as": "নিৰীহ যেন দেখুওৱা বিপদজনক ব্যক্তি"
+    },
+    {
      "en": "to have a selfish motive",
      "as": "স্বাৰ্থপৰ উদ্দেশ্য থকা"
-    },
-    {
-     "en": "cheerfulness attracts company",
-     "as": "হাঁহিলে জগতেও লগত হাঁহে"
-    },
-    {
-     "en": "rumours usually have some truth",
-     "as": "উৰাবাতৰিৰ পিছত কিবা সত্য থাকে"
-    },
-    {
-     "en": "kindness should be returned",
-     "as": "উপকাৰৰ প্ৰতিদান দিয়া উচিত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'have an axe to grind' means to have a selfish motive.",
     "as": "'have an axe to grind' ৰ অৰ্থ হৈছে স্বাৰ্থপৰ উদ্দেশ্য থকা।"
    }
   },
   {
-   "id": "idioms-phrases-122",
+   "id": "idioms-phrases-121",
    "q": {
     "en": "The idiom 'head over heels' means —",
     "as": "'head over heels' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "great things take time",
-     "as": "মহান কামলৈ সময় লাগে"
+     "en": "a mild punishment",
+     "as": "লঘু শাস্তি"
     },
     {
-     "en": "one believes what one sees",
-     "as": "দেখিলেই বিশ্বাস হয়"
+     "en": "a harmless lie",
+     "as": "নিৰীহ মিছা কথা"
+    },
+    {
+     "en": "healthy and active",
+     "as": "সুস্থ আৰু সক্ৰিয়"
     },
     {
      "en": "completely or deeply",
      "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
-    },
-    {
-     "en": "others' situations seem better",
-     "as": "আনৰ অৱস্থা সদায় ভাল যেন লাগে"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'head over heels' means completely or deeply.",
     "as": "'head over heels' ৰ অৰ্থ হৈছে সম্পূৰ্ণভাৱে বা গভীৰভাৱে।"
    }
   },
   {
-   "id": "idioms-phrases-123",
+   "id": "idioms-phrases-122",
    "q": {
     "en": "The idiom 'high and dry' means —",
     "as": "'high and dry' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "results follow one's actions",
-     "as": "কৰ্মৰ ফল ভোগ কৰিব লাগে"
-    },
-    {
      "en": "in a helpless condition",
      "as": "অসহায় অৱস্থাত"
     },
     {
-     "en": "a true friend helps in trouble",
-     "as": "বিপদত সহায় কৰাজনেই প্ৰকৃত বন্ধু"
+     "en": "having nothing to do",
+     "as": "কৰিবলৈ একো নথকা"
     },
     {
-     "en": "distance increases love",
-     "as": "আঁতৰত থাকিলে প্ৰেম বাঢ়ে"
+     "en": "back to the starting point",
+     "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
+    },
+    {
+     "en": "a very thin person",
+     "as": "অতি খীণ ব্যক্তি"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'high and dry' means in a helpless condition.",
     "as": "'high and dry' ৰ অৰ্থ হৈছে অসহায় অৱস্থাত।"
    }
   },
   {
-   "id": "idioms-phrases-124",
+   "id": "idioms-phrases-123",
    "q": {
     "en": "The idiom 'hit the nail on the head' means —",
     "as": "'hit the nail on the head' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "not knowing can be pleasant",
-     "as": "অজ্ঞতাই সুখ"
+     "en": "to spend too much money",
+     "as": "অত্যধিক ধন খৰচ কৰা"
     },
     {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
-    },
-    {
-     "en": "wealth gives influence",
-     "as": "ধনে প্ৰভাৱ বিস্তাৰ কৰে"
+     "en": "credit gained by pleasing others",
+     "as": "আনক সন্তুষ্ট কৰি লাভ কৰা সুনাম"
     },
     {
      "en": "to do or say the right thing",
      "as": "সঠিক কাম বা কথা কৰা"
+    },
+    {
+     "en": "to commit oneself beyond withdrawal",
+     "as": "পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'hit the nail on the head' means to do or say the right thing.",
     "as": "'hit the nail on the head' ৰ অৰ্থ হৈছে সঠিক কাম বা কথা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-125",
+   "id": "idioms-phrases-124",
    "q": {
     "en": "The idiom 'hold water' means —",
     "as": "'hold water' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to stop working for the day",
+     "as": "দিনটোৰ কাম বন্ধ কৰা"
+    },
+    {
+     "en": "a source of steady profit",
+     "as": "স্থিৰ লাভৰ উৎস"
+    },
+    {
      "en": "to be logically sound",
      "as": "যুক্তিসংগত হোৱা"
     },
     {
-     "en": "words are more powerful than weapons",
-     "as": "শব্দ অস্ত্ৰতকৈ শক্তিশালী"
-    },
-    {
-     "en": "home is the best place",
-     "as": "ঘৰতকৈ ভাল ঠাই নাই"
-    },
-    {
-     "en": "teamwork gives better results",
-     "as": "দুটা মূৰ এটা মূৰতকৈ ভাল"
+     "en": "to pass to a new owner",
+     "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'hold water' means to be logically sound.",
     "as": "'hold water' ৰ অৰ্থ হৈছে যুক্তিসংগত হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-126",
+   "id": "idioms-phrases-125",
    "q": {
     "en": "The idiom 'in a nutshell' is used to mean —",
     "as": "'in a nutshell' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to do something badly to save time",
+     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
+    },
+    {
+     "en": "to come to the main point",
+     "as": "মূল কথালৈ অহা"
+    },
+    {
+     "en": "a person who argues the opposite for the sake of argument",
+     "as": "বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি"
+    },
+    {
      "en": "in a few words",
      "as": "চমুকৈ"
-    },
-    {
-     "en": "beauty is subjective",
-     "as": "সৌন্দৰ্য দৰ্শকৰ চকুত"
-    },
-    {
-     "en": "caution avoids regret",
-     "as": "সতৰ্ক থাকিলে অনুতাপ নহয়"
-    },
-    {
-     "en": "being clean is a virtue",
-     "as": "পৰিষ্কাৰতা পৱিত্ৰতাৰ দৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'in a nutshell' means in a few words.",
     "as": "'in a nutshell' ৰ অৰ্থ হৈছে চমুকৈ।"
    }
   },
   {
-   "id": "idioms-phrases-127",
+   "id": "idioms-phrases-126",
    "q": {
     "en": "The idiom 'in cold blood' is used to mean —",
     "as": "'in cold blood' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "moderation is best",
-     "as": "পৰ্যাপ্ততাই ভাল"
-    },
-    {
      "en": "deliberately and without emotion",
      "as": "ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে"
     },
     {
-     "en": "failure leads to success",
-     "as": "ব্যৰ্থতাই সফলতাৰ খটখটি"
+     "en": "a very small amount",
+     "as": "অতি কম পৰিমাণ"
     },
     {
-     "en": "self-effort earns help",
-     "as": "নিজে চেষ্টা কৰাজনক ঈশ্বৰে সহায় কৰে"
+     "en": "to be completely controlled by another",
+     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
+    },
+    {
+     "en": "to urge someone to do something",
+     "as": "কিবা কৰিবলৈ উচটনি দিয়া"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'in cold blood' means deliberately and without emotion.",
     "as": "'in cold blood' ৰ অৰ্থ হৈছে ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে।"
    }
   },
   {
-   "id": "idioms-phrases-128",
+   "id": "idioms-phrases-127",
    "q": {
     "en": "The idiom 'in fine fettle' means —",
     "as": "'in fine fettle' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "extreme need ignores rules",
-     "as": "অতিপ্ৰয়োজনে নিয়ম নমানি"
-    },
-    {
-     "en": "what suits one may harm another",
-     "as": "এজনৰ উপকাৰী আনজনৰ অপকাৰী"
-    },
-    {
-     "en": "chances rarely repeat",
-     "as": "সুযোগ বিৰলভাৱে আহে"
+     "en": "a wealthy and powerful person",
+     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
     },
     {
      "en": "in good health",
      "as": "সুস্থ অৱস্থাত"
+    },
+    {
+     "en": "rare and infrequent",
+     "as": "বিৰল আৰু কম"
+    },
+    {
+     "en": "a suspicious affair",
+     "as": "সন্দেহজনক কাম"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'in fine fettle' means in good health.",
     "as": "'in fine fettle' ৰ অৰ্থ হৈছে সুস্থ অৱস্থাত।"
    }
   },
   {
-   "id": "idioms-phrases-129",
+   "id": "idioms-phrases-128",
    "q": {
     "en": "The idiom 'in hot water' is used to mean —",
     "as": "'in hot water' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "every rumour has a basis",
-     "as": "প্ৰতিটো উৰাবাতৰিৰ এটা ভিত্তি থাকে"
-    },
-    {
-     "en": "time is valuable",
-     "as": "সময়েই ধন"
-    },
-    {
-     "en": "determination finds a path",
-     "as": "ইচ্ছা থাকিলে পথ ওলায়"
-    },
-    {
      "en": "in trouble",
      "as": "সমস্যাত"
+    },
+    {
+     "en": "to learn how to do something",
+     "as": "কিবা কৰাৰ ধৰণ শিকা"
+    },
+    {
+     "en": "mutual compromise",
+     "as": "পৰস্পৰ ৰাজি-খুচি"
+    },
+    {
+     "en": "to make more effort than expected",
+     "as": "প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'in hot water' means in trouble.",
     "as": "'in hot water' ৰ অৰ্থ হৈছে সমস্যাত।"
    }
   },
   {
-   "id": "idioms-phrases-130",
+   "id": "idioms-phrases-129",
    "q": {
     "en": "The idiom 'in the nick of time' is used to mean —",
     "as": "'in the nick of time' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a person used by another to do something risky",
-     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
-    },
-    {
-     "en": "a very miserly person",
-     "as": "অতি কৃপণ ব্যক্তি"
-    },
-    {
-     "en": "an unexpected winner",
-     "as": "অপ্ৰত্যাশিত বিজয়ী"
-    },
-    {
      "en": "just in time",
      "as": "ঠিক সময়ত"
+    },
+    {
+     "en": "in writing",
+     "as": "লিখিত ৰূপত"
+    },
+    {
+     "en": "in the same difficult situation",
+     "as": "একে কঠিন অৱস্থাত"
+    },
+    {
+     "en": "to give up a bad habit",
+     "as": "বেয়া অভ্যাস এৰি দিয়া"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'in the nick of time' means just in time.",
     "as": "'in the nick of time' ৰ অৰ্থ হৈছে ঠিক সময়ত।"
    }
   },
   {
-   "id": "idioms-phrases-131",
+   "id": "idioms-phrases-130",
    "q": {
     "en": "The idiom 'in the teeth of' means —",
     "as": "'in the teeth of' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -19310,16 +19280,16 @@ module.exports = {
      "as": "প্ৰত্যক্ষ বিৰোধিতা কৰি"
     },
     {
-     "en": "a day of festivity",
-     "as": "উৎসৱৰ দিন"
+     "en": "rather old",
+     "as": "বয়সীয়াল"
     },
     {
-     "en": "a task requiring great strength",
-     "as": "অতি কঠিন কাম"
+     "en": "to lose self-control",
+     "as": "আত্ম-সংযম হেৰুওৱা"
     },
     {
-     "en": "a prejudiced view",
-     "as": "পক্ষপাতমূলক দৃষ্টিভঙ্গি"
+     "en": "to go straight towards something",
+     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
     }
    ],
    "correct": 0,
@@ -19329,237 +19299,237 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-132",
+   "id": "idioms-phrases-131",
    "q": {
     "en": "The idiom 'ins and outs' means —",
     "as": "'ins and outs' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a man of many talents",
-     "as": "বহু প্ৰতিভাৰ মানুহ"
-    },
-    {
-     "en": "a person of no substance or worth",
-     "as": "নগণ্য বা মূল্যহীন ব্যক্তি"
-    },
-    {
-     "en": "a barely avoided danger",
-     "as": "কোনোমতে হোৱা ৰক্ষা"
-    },
-    {
      "en": "full details",
      "as": "সম্পূৰ্ণ বিৱৰণ"
+    },
+    {
+     "en": "to make a situation confusing",
+     "as": "অৱস্থা জটিল কৰা"
+    },
+    {
+     "en": "a particular locality",
+     "as": "এক নিৰ্দিষ্ট অঞ্চল"
+    },
+    {
+     "en": "without any conditions",
+     "as": "কোনো চৰ্ত নোহোৱাকৈ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'ins and outs' means full details.",
     "as": "'ins and outs' ৰ অৰ্থ হৈছে সম্পূৰ্ণ বিৱৰণ।"
    }
   },
   {
-   "id": "idioms-phrases-133",
+   "id": "idioms-phrases-132",
    "q": {
     "en": "The idiom 'iron will' means —",
     "as": "'iron will' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a hidden enemy",
-     "as": "গুপুত শত্ৰু"
+     "en": "suddenly and unexpectedly",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে"
+    },
+    {
+     "en": "to pay too much",
+     "as": "অত্যধিক ধন দিয়া"
+    },
+    {
+     "en": "to pay the bill",
+     "as": "বিল পৰিশোধ কৰা"
     },
     {
      "en": "a strong determination",
      "as": "দৃঢ় সংকল্প"
-    },
-    {
-     "en": "a subject that causes pain or anger",
-     "as": "ব্যথা বা খং দিয়া বিষয়"
-    },
-    {
-     "en": "great excitement over a small matter",
-     "as": "সৰু কথাত ডাঙৰ হুলস্থূল"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'iron will' means a strong determination.",
     "as": "'iron will' ৰ অৰ্থ হৈছে দৃঢ় সংকল্প।"
    }
   },
   {
-   "id": "idioms-phrases-134",
+   "id": "idioms-phrases-133",
    "q": {
     "en": "The idiom 'jack of all trades' means —",
     "as": "'jack of all trades' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "following the rules exactly",
-     "as": "নিয়ম মতে কৰা"
+     "en": "to risk everything on one thing",
+     "as": "সকলো আশা এটা বস্তুত ৰখা"
     },
     {
-     "en": "to make a bad situation worse",
-     "as": "অৱস্থা আৰু বেয়া কৰা"
-    },
-    {
-     "en": "contrary to one's inclination",
-     "as": "মনৰ বিৰুদ্ধে"
+     "en": "to cause surprise or disapproval",
+     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
     },
     {
      "en": "a person who can do many kinds of work",
      "as": "বহু কাম কৰিব পৰা ব্যক্তি"
+    },
+    {
+     "en": "to disturb a stable situation",
+     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'jack of all trades' means a person who can do many kinds of work.",
     "as": "'jack of all trades' ৰ অৰ্থ হৈছে বহু কাম কৰিব পৰা ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-135",
+   "id": "idioms-phrases-134",
    "q": {
     "en": "The idiom 'keep one's fingers crossed' means —",
     "as": "'keep one's fingers crossed' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a decisive test",
-     "as": "নিষ্পত্তিমূলক পৰীক্ষা"
-    },
-    {
-     "en": "a cause of quarrel",
-     "as": "বিবাদৰ মূল কাৰণ"
-    },
-    {
      "en": "to hope for good luck",
      "as": "সৌভাগ্যৰ আশা কৰা"
     },
     {
-     "en": "a mere pretence",
-     "as": "মাথোঁ ভাওনা"
+     "en": "to remain patient without acting",
+     "as": "কাম নকৰি ধৈৰ্য ধৰি থাকা"
+    },
+    {
+     "en": "a hidden and shameful secret",
+     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
+    },
+    {
+     "en": "neat and clean",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'keep one's fingers crossed' means to hope for good luck.",
     "as": "'keep one's fingers crossed' ৰ অৰ্থ হৈছে সৌভাগ্যৰ আশা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-136",
+   "id": "idioms-phrases-135",
    "q": {
     "en": "The idiom 'keep the wolf from the door' means —",
     "as": "'keep the wolf from the door' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a critic who does nothing himself",
-     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
-    },
-    {
-     "en": "very calm and composed",
-     "as": "অতি শান্ত আৰু ধীৰ"
-    },
-    {
-     "en": "in bitter enmity",
-     "as": "তীব্ৰ শত্ৰুতাত"
-    },
-    {
      "en": "to avoid starvation",
      "as": "ভোকৰ পৰা ৰক্ষা পোৱা"
+    },
+    {
+     "en": "to explain something",
+     "as": "কিবা ব্যাখ্যা কৰা"
+    },
+    {
+     "en": "to spend less money",
+     "as": "কম ধন খৰচ কৰা"
+    },
+    {
+     "en": "not meant seriously",
+     "as": "গম্ভীৰভাৱে নকোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'keep the wolf from the door' means to avoid starvation.",
     "as": "'keep the wolf from the door' ৰ অৰ্থ হৈছে ভোকৰ পৰা ৰক্ষা পোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-137",
+   "id": "idioms-phrases-136",
    "q": {
     "en": "The idiom 'kick the bucket' means —",
     "as": "'kick the bucket' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "known thoroughly",
-     "as": "সম্পূৰ্ণভাৱে জানি থোৱা"
+     "en": "a risky and uncertain situation",
+     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
+    },
+    {
+     "en": "to pass the worst part of a crisis",
+     "as": "সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা"
+    },
+    {
+     "en": "to be clumsy at dancing or movement",
+     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
     },
     {
      "en": "to die",
      "as": "মৃত্যুবৰণ কৰা"
-    },
-    {
-     "en": "utterly confused",
-     "as": "সম্পূৰ্ণভাৱে হতবুদ্ধি"
-    },
-    {
-     "en": "in a state of confusion",
-     "as": "অগোছাল অৱস্থাত"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'kick the bucket' means to die.",
     "as": "'kick the bucket' ৰ অৰ্থ হৈছে মৃত্যুবৰণ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-138",
+   "id": "idioms-phrases-137",
    "q": {
     "en": "The idiom 'kith and kin' is used to mean —",
     "as": "'kith and kin' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    },
-    {
-     "en": "ill feeling between people",
-     "as": "মানুহৰ মাজত শত্ৰুতা"
+     "en": "safely achieved",
+     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
     },
     {
      "en": "friends and relatives",
      "as": "বন্ধু-বান্ধৱ আৰু আত্মীয়"
     },
     {
-     "en": "with all one's belongings",
-     "as": "সকলো সামগ্ৰীসহ"
+     "en": "to act according to what one says",
+     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
+    },
+    {
+     "en": "with some doubt",
+     "as": "কিছু সন্দেহেৰে"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'kith and kin' means friends and relatives.",
     "as": "'kith and kin' ৰ অৰ্থ হৈছে বন্ধু-বান্ধৱ আৰু আত্মীয়।"
    }
   },
   {
-   "id": "idioms-phrases-139",
+   "id": "idioms-phrases-138",
    "q": {
     "en": "The idiom 'knock out' means —",
     "as": "'knock out' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "beyond the power of words to describe",
-     "as": "বৰ্ণনা কৰিব নোৱাৰা"
+     "en": "a very miserly person",
+     "as": "অতি কৃপণ ব্যক্তি"
     },
     {
      "en": "to defeat completely",
      "as": "সম্পূৰ্ণভাৱে পৰাজিত কৰা"
     },
     {
-     "en": "secretly",
-     "as": "গুপুতে"
+     "en": "an unexpected winner",
+     "as": "অপ্ৰত্যাশিত বিজয়ী"
     },
     {
-     "en": "to take the risk of doing something",
-     "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
+     "en": "a law or rule that is no longer obeyed",
+     "as": "এতিয়া অমান্য কৰা আইন"
     }
    ],
    "correct": 1,
@@ -19569,57 +19539,57 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-140",
+   "id": "idioms-phrases-139",
    "q": {
     "en": "The idiom 'lame duck' means —",
     "as": "'lame duck' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "an unexpected winner",
+     "as": "অপ্ৰত্যাশিত বিজয়ী"
+    },
+    {
+     "en": "a law or rule that is no longer obeyed",
+     "as": "এতিয়া অমান্য কৰা আইন"
+    },
+    {
+     "en": "a person in an uncomfortable situation",
+     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
+    },
+    {
      "en": "a person who is weak or ineffective",
      "as": "দুৰ্বল বা অক্ষম ব্যক্তি"
-    },
-    {
-     "en": "between two equal dangers",
-     "as": "দুটা সমান বিপদৰ মাজত"
-    },
-    {
-     "en": "a general view from above",
-     "as": "ওপৰৰ পৰা চোৱা সাধাৰণ দৃশ্য"
-    },
-    {
-     "en": "to be defeated or to die",
-     "as": "পৰাজিত হোৱা বা মৃত্যুবৰণ কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'lame duck' means a person who is weak or ineffective.",
     "as": "'lame duck' ৰ অৰ্থ হৈছে দুৰ্বল বা অক্ষম ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-141",
+   "id": "idioms-phrases-140",
    "q": {
     "en": "The idiom 'last straw' means —",
     "as": "'last straw' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to praise oneself",
-     "as": "নিজৰ প্ৰশংসা কৰা"
+     "en": "a prejudiced view",
+     "as": "পক্ষপাতমূলক দৃষ্টিভঙ্গি"
     },
     {
-     "en": "noble birth",
-     "as": "অভিজাত জন্ম"
+     "en": "an unsatisfactory excuse",
+     "as": "অসমৰ্থনীয় অজুহাত"
     },
     {
      "en": "the final burden that causes collapse",
      "as": "ভাঙি পেলোৱা অন্তিম বোজা"
     },
     {
-     "en": "a subject of dispute",
-     "as": "বিবাদৰ বিষয়"
+     "en": "a scholar or writer",
+     "as": "পণ্ডিত বা লেখক"
     }
    ],
    "correct": 2,
@@ -19629,42 +19599,320 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-142",
+   "id": "idioms-phrases-141",
    "q": {
     "en": "The idiom 'laugh in one's sleeve' means —",
     "as": "'laugh in one's sleeve' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "a barely avoided danger",
+     "as": "কোনোমতে হোৱা ৰক্ষা"
+    },
+    {
      "en": "to laugh secretly",
      "as": "গুপুতে হাঁহা"
     },
     {
-     "en": "to waste energy in two directions",
-     "as": "দুইদিশে শক্তি অপচয় কৰা"
+     "en": "a time of need or difficulty",
+     "as": "অভাব বা দুৰ্দিন"
     },
     {
-     "en": "to study late into the night",
-     "as": "ৰাতি দেৰিলৈকে পঢ়া"
-    },
-    {
-     "en": "to make peace",
-     "as": "শান্তি স্থাপন কৰা"
+     "en": "an important or memorable day",
+     "as": "গুৰুত্বপূৰ্ণ বা স্মৰণীয় দিন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'laugh in one's sleeve' means to laugh secretly.",
     "as": "'laugh in one's sleeve' ৰ অৰ্থ হৈছে গুপুতে হাঁহা।"
    }
   },
   {
-   "id": "idioms-phrases-143",
+   "id": "idioms-phrases-142",
    "q": {
     "en": "The idiom 'lead a cat and dog life' means —",
     "as": "'lead a cat and dog life' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
+    {
+     "en": "great excitement over a small matter",
+     "as": "সৰু কথাত ডাঙৰ হুলস্থূল"
+    },
+    {
+     "en": "a useless search or pursuit",
+     "as": "নিষ্প্ৰয়োজনীয় অনুসন্ধান"
+    },
+    {
+     "en": "to live in constant quarrelling",
+     "as": "সদায় ঝগড়া কৰি জীৱন কটোৱা"
+    },
+    {
+     "en": "honest and open",
+     "as": "সৎ আৰু মুকলি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'lead a cat and dog life' means to live in constant quarrelling.",
+    "as": "'lead a cat and dog life' ৰ অৰ্থ হৈছে সদায় ঝগড়া কৰি জীৱন কটোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-143",
+   "q": {
+    "en": "The idiom 'leave no stone unturned' means —",
+    "as": "'leave no stone unturned' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "contrary to one's inclination",
+     "as": "মনৰ বিৰুদ্ধে"
+    },
+    {
+     "en": "listening very attentively",
+     "as": "অতি মনোযোগেৰে শুনা"
+    },
+    {
+     "en": "to try every possible means",
+     "as": "সকলো সম্ভৱ উপায় চেষ্টা কৰা"
+    },
+    {
+     "en": "considering everything",
+     "as": "সকলো দিশ বিবেচনা কৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'leave no stone unturned' means to try every possible means.",
+    "as": "'leave no stone unturned' ৰ অৰ্থ হৈছে সকলো সম্ভৱ উপায় চেষ্টা কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-144",
+   "q": {
+    "en": "The idiom 'left handed compliment' means —",
+    "as": "'left handed compliment' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "a cause of quarrel",
+     "as": "বিবাদৰ মূল কাৰণ"
+    },
+    {
+     "en": "a mere pretence",
+     "as": "মাথোঁ ভাওনা"
+    },
+    {
+     "en": "an ambiguous compliment",
+     "as": "দুই অৰ্থৰ প্ৰশংসা"
+    },
+    {
+     "en": "something easily understood",
+     "as": "সহজতে বুজিব পৰা বস্তু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'left handed compliment' means an ambiguous compliment.",
+    "as": "'left handed compliment' ৰ অৰ্থ হৈছে দুই অৰ্থৰ প্ৰশংসা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-145",
+   "q": {
+    "en": "The idiom 'let the cat out of the bag' means —",
+    "as": "'let the cat out of the bag' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "in bitter enmity",
+     "as": "তীব্ৰ শত্ৰুতাত"
+    },
+    {
+     "en": "at liberty or as a whole",
+     "as": "মুক্ত অৱস্থাত বা সমগ্ৰভাৱে"
+    },
+    {
+     "en": "known thoroughly",
+     "as": "সম্পূৰ্ণভাৱে জানি থোৱা"
+    },
+    {
+     "en": "to reveal a secret",
+     "as": "গোপন কথা ফাদিল কৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'let the cat out of the bag' means to reveal a secret.",
+    "as": "'let the cat out of the bag' ৰ অৰ্থ হৈছে গোপন কথা ফাদিল কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-146",
+   "q": {
+    "en": "The idiom 'lick the dust' means —",
+    "as": "'lick the dust' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to be defeated humbly",
+     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
+    },
+    {
+     "en": "ill feeling between people",
+     "as": "মানুহৰ মাজত শত্ৰুতা"
+    },
+    {
+     "en": "with all one's belongings",
+     "as": "সকলো সামগ্ৰীসহ"
+    },
+    {
+     "en": "to suffer the main impact",
+     "as": "মূল আঘাত সহ্য কৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'lick the dust' means to be defeated humbly.",
+    "as": "'lick the dust' ৰ অৰ্থ হৈছে লাজৰ সৈতে পৰাজিত হোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-147",
+   "q": {
+    "en": "The idiom 'lion's share' means —",
+    "as": "'lion's share' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "with all one's belongings",
+     "as": "সকলো সামগ্ৰীসহ"
+    },
+    {
+     "en": "to suffer the main impact",
+     "as": "মূল আঘাত সহ্য কৰা"
+    },
+    {
+     "en": "the largest share",
+     "as": "সৰ্বাধিক অংশ"
+    },
+    {
+     "en": "to talk without coming to the point",
+     "as": "মূল কথালৈ নাহি ঘূৰি ফুৰি কথা কোৱা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'lion's share' means the largest share.",
+    "as": "'lion's share' ৰ অৰ্থ হৈছে সৰ্বাধিক অংশ।"
+   }
+  },
+  {
+   "id": "idioms-phrases-148",
+   "q": {
+    "en": "The idiom 'live from hand to mouth' means —",
+    "as": "'live from hand to mouth' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "beyond the power of words to describe",
+     "as": "বৰ্ণনা কৰিব নোৱাৰা"
+    },
+    {
+     "en": "secretly",
+     "as": "গুপুতে"
+    },
+    {
+     "en": "to take the risk of doing something",
+     "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
+    },
+    {
+     "en": "to live with barely enough money",
+     "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'live from hand to mouth' means to live with barely enough money.",
+    "as": "'live from hand to mouth' ৰ অৰ্থ হৈছে কোনোমতে জীৱন নিৰ্বাহ কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-149",
+   "q": {
+    "en": "The idiom 'look a gift horse in the mouth' means —",
+    "as": "'look a gift horse in the mouth' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to change one's attitude repeatedly",
+     "as": "মন সঘনে সলনি কৰা"
+    },
+    {
+     "en": "to praise oneself",
+     "as": "নিজৰ প্ৰশংসা কৰা"
+    },
+    {
+     "en": "to find fault with a gift",
+     "as": "উপহাৰত দোষ বিচৰা"
+    },
+    {
+     "en": "noble birth",
+     "as": "অভিজাত জন্ম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'look a gift horse in the mouth' means to find fault with a gift.",
+    "as": "'look a gift horse in the mouth' ৰ অৰ্থ হৈছে উপহাৰত দোষ বিচৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-150",
+   "q": {
+    "en": "The idiom 'look before you leap' means —",
+    "as": "'look before you leap' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "a subject of dispute",
+     "as": "বিবাদৰ বিষয়"
+    },
+    {
+     "en": "think before you act",
+     "as": "কাম কৰাৰ আগতে ভাবা"
+    },
+    {
+     "en": "to start a conversation",
+     "as": "কথোপকথন আৰম্ভ কৰা"
+    },
+    {
+     "en": "to punish or question",
+     "as": "শাস্তি দিয়া বা প্ৰশ্ন কৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'look before you leap' means think before you act.",
+    "as": "'look before you leap' ৰ অৰ্থ হৈছে কাম কৰাৰ আগতে ভাবা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-151",
+   "q": {
+    "en": "The idiom 'lose heart' means —",
+    "as": "'lose heart' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "by fair or unfair means",
+     "as": "যিকোনো উপায়েৰে"
+    },
+    {
+     "en": "to become discouraged",
+     "as": "হতাশ হোৱা"
+    },
     {
      "en": "to speak plainly and frankly",
      "as": "স্পষ্ট আৰু মুকলিভাৱে কোৱা"
@@ -19672,96 +19920,118 @@ module.exports = {
     {
      "en": "to do something unnecessary",
      "as": "নিষ্প্ৰয়োজনীয় কাম কৰা"
-    },
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'lose heart' means to become discouraged.",
+    "as": "'lose heart' ৰ অৰ্থ হৈছে হতাশ হোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-152",
+   "q": {
+    "en": "The idiom 'make a clean breast of' means —",
+    "as": "'make a clean breast of' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
     {
      "en": "to bring disgrace",
      "as": "কলংক আনি দিয়া"
     },
     {
-     "en": "to live in constant quarrelling",
-     "as": "সদায় ঝগড়া কৰি জীৱন কটোৱা"
+     "en": "to confess fully",
+     "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
+    },
+    {
+     "en": "to offer something valuable to those who cannot appreciate it",
+     "as": "মূল্যবান বস্তু অযোগ্যক দিয়া"
+    },
+    {
+     "en": "to meet one's match",
+     "as": "সমক্ষমতাসম্পন্ন লগ পোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
-    "en": "'lead a cat and dog life' means to live in constant quarrelling.",
-    "as": "'lead a cat and dog life' ৰ অৰ্থ হৈছে সদায় ঝগড়া কৰি জীৱন কটোৱা।"
+    "en": "'make a clean breast of' means to confess fully.",
+    "as": "'make a clean breast of' ৰ অৰ্থ হৈছে সম্পূৰ্ণভাৱে স্বীকাৰ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-144",
+   "id": "idioms-phrases-153",
    "q": {
-    "en": "The idiom 'leave no stone unturned' means —",
-    "as": "'leave no stone unturned' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'make both ends meet' means —",
+    "as": "'make both ends meet' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "to catch in the act of doing wrong",
-     "as": "অপৰাধ কৰি থকা অৱস্থাত ধৰা"
-    },
-    {
-     "en": "cowardly",
-     "as": "ভীতু"
-    },
-    {
-     "en": "a child very like its parent",
-     "as": "পিতৃ-মাতৃৰ লগত একে ল'ৰা-ছোৱালী"
-    },
-    {
-     "en": "to try every possible means",
-     "as": "সকলো সম্ভৱ উপায় চেষ্টা কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'leave no stone unturned' means to try every possible means.",
-    "as": "'leave no stone unturned' ৰ অৰ্থ হৈছে সকলো সম্ভৱ উপায় চেষ্টা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-145",
-   "q": {
-    "en": "The idiom 'left handed compliment' means —",
-    "as": "'left handed compliment' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to succeed brilliantly",
-     "as": "চমকপ্ৰদভাৱে সফল হোৱা"
-    },
     {
      "en": "to wait for a long time",
      "as": "বহু সময় অপেক্ষা কৰা"
+    },
+    {
+     "en": "to live within one's income",
+     "as": "আয়ৰ ভিতৰত চলা"
     },
     {
      "en": "false tears of sorrow",
      "as": "মিছা শোকৰ চকুলো"
     },
     {
-     "en": "an ambiguous compliment",
-     "as": "দুই অৰ্থৰ প্ৰশংসা"
+     "en": "to quarrel or fight",
+     "as": "ঝগড়া বা যুঁজ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
-    "en": "'left handed compliment' means an ambiguous compliment.",
-    "as": "'left handed compliment' ৰ অৰ্থ হৈছে দুই অৰ্থৰ প্ৰশংসা।"
+    "en": "'make both ends meet' means to live within one's income.",
+    "as": "'make both ends meet' ৰ অৰ্থ হৈছে আয়ৰ ভিতৰত চলা।"
    }
   },
   {
-   "id": "idioms-phrases-146",
+   "id": "idioms-phrases-154",
    "q": {
-    "en": "The idiom 'let the cat out of the bag' means —",
-    "as": "'let the cat out of the bag' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'make hay while the sun shines' means —",
+    "as": "'make hay while the sun shines' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
+     "en": "to seize a good opportunity",
+     "as": "ভাল সুযোগ লোৱা"
     },
+    {
+     "en": "false tears of sorrow",
+     "as": "মিছা শোকৰ চকুলো"
+    },
+    {
+     "en": "to quarrel or fight",
+     "as": "ঝগড়া বা যুঁজ কৰা"
+    },
+    {
+     "en": "to make a poor impression",
+     "as": "বেয়া ধাৰণা দিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'make hay while the sun shines' means to seize a good opportunity.",
+    "as": "'make hay while the sun shines' ৰ অৰ্থ হৈছে ভাল সুযোগ লোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-155",
+   "q": {
+    "en": "The idiom 'make mountains out of molehills' means —",
+    "as": "'make mountains out of molehills' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
     {
      "en": "to die while working",
      "as": "কাম কৰি থাকোঁতেই মৃত্যুবৰণ কৰা"
+    },
+    {
+     "en": "to exaggerate a small matter",
+     "as": "সৰু কথাক ডাঙৰ কৰা"
     },
     {
      "en": "a person who prevents others from enjoying what he cannot use",
@@ -19772,27 +20042,19 @@ module.exports = {
      "as": "প্ৰতাৰণামূলক আচৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "'let the cat out of the bag' means to reveal a secret.",
-    "as": "'let the cat out of the bag' ৰ অৰ্থ হৈছে গোপন কথা ফাদিল কৰা।"
+    "en": "'make mountains out of molehills' means to exaggerate a small matter.",
+    "as": "'make mountains out of molehills' ৰ অৰ্থ হৈছে সৰু কথাক ডাঙৰ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-147",
+   "id": "idioms-phrases-156",
    "q": {
-    "en": "The idiom 'lick the dust' means —",
-    "as": "'lick the dust' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'man in the street' means —",
+    "as": "'man in the street' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "to apologise humbly",
-     "as": "বিনয়ভাৱে ক্ষমা খোজা"
-    },
-    {
-     "en": "to be defeated humbly",
-     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
-    },
     {
      "en": "enough space to move",
      "as": "চলাৰ বাবে পৰ্যাপ্ত ঠাই"
@@ -19800,366 +20062,74 @@ module.exports = {
     {
      "en": "to come to nothing",
      "as": "কোনো ফল নোহোৱাকৈ শেষ হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'lick the dust' means to be defeated humbly.",
-    "as": "'lick the dust' ৰ অৰ্থ হৈছে লাজৰ সৈতে পৰাজিত হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-148",
-   "q": {
-    "en": "The idiom 'lion's share' means —",
-    "as": "'lion's share' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to come to nothing",
-     "as": "কোনো ফল নোহোৱাকৈ শেষ হোৱা"
-    },
-    {
-     "en": "the largest share",
-     "as": "সৰ্বাধিক অংশ"
     },
     {
      "en": "completely",
      "as": "সম্পূৰ্ণভাৱে"
     },
     {
-     "en": "to bear the consequences",
-     "as": "পৰিণাম ভোগ কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'lion's share' means the largest share.",
-    "as": "'lion's share' ৰ অৰ্থ হৈছে সৰ্বাধিক অংশ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-149",
-   "q": {
-    "en": "The idiom 'live from hand to mouth' means —",
-    "as": "'live from hand to mouth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a great distance",
-     "as": "অতি বেছি ব্যৱধান"
-    },
-    {
-     "en": "to enrich oneself dishonestly",
-     "as": "অসততাৰে নিজৰ স্বাৰ্থ চৰিতাৰ্থ কৰা"
-    },
-    {
-     "en": "to live with barely enough money",
-     "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
-    },
-    {
-     "en": "to find out the opinion of others",
-     "as": "আনৰ মত জানিবলৈ চেষ্টা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'live from hand to mouth' means to live with barely enough money.",
-    "as": "'live from hand to mouth' ৰ অৰ্থ হৈছে কোনোমতে জীৱন নিৰ্বাহ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-150",
-   "q": {
-    "en": "The idiom 'look a gift horse in the mouth' means —",
-    "as": "'look a gift horse in the mouth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to do the same thing",
-     "as": "একে ধৰণৰ কাম কৰা"
-    },
-    {
-     "en": "a state of happiness based on false hope",
-     "as": "মিছা আশাৰ আনন্দ"
-    },
-    {
-     "en": "permanently",
-     "as": "চিৰকাললৈ"
-    },
-    {
-     "en": "to find fault with a gift",
-     "as": "উপহাৰত দোষ বিচৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'look a gift horse in the mouth' means to find fault with a gift.",
-    "as": "'look a gift horse in the mouth' ৰ অৰ্থ হৈছে উপহাৰত দোষ বিচৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-151",
-   "q": {
-    "en": "The idiom 'look before you leap' means —",
-    "as": "'look before you leap' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "think before you act",
-     "as": "কাম কৰাৰ আগতে ভাবা"
-    },
-    {
-     "en": "a day of celebration",
-     "as": "উদযাপনৰ দিন"
-    },
-    {
-     "en": "to become friends quickly",
-     "as": "সোনকালে বন্ধু হোৱা"
-    },
-    {
-     "en": "to be dismissed from a job",
-     "as": "চাকৰিৰ পৰা বৰ্খাস্ত হোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'look before you leap' means think before you act.",
-    "as": "'look before you leap' ৰ অৰ্থ হৈছে কাম কৰাৰ আগতে ভাবা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-152",
-   "q": {
-    "en": "The idiom 'lose heart' means —",
-    "as": "'lose heart' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to become discouraged",
-     "as": "হতাশ হোৱা"
-    },
-    {
-     "en": "to be defeated or ruined",
-     "as": "পৰাজিত বা বৰ্বাদ হোৱা"
-    },
-    {
-     "en": "to bribe",
-     "as": "ঘোচ দিয়া"
-    },
-    {
-     "en": "an inexperienced person",
-     "as": "অনভিজ্ঞ ব্যক্তি"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'lose heart' means to become discouraged.",
-    "as": "'lose heart' ৰ অৰ্থ হৈছে হতাশ হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-153",
-   "q": {
-    "en": "The idiom 'make a clean breast of' means —",
-    "as": "'make a clean breast of' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in close association",
-     "as": "ঘনিষ্ঠ সংযোগত"
-    },
-    {
-     "en": "a difficult problem",
-     "as": "কঠিন সমস্যা"
-    },
-    {
-     "en": "to be obsessed with an idea",
-     "as": "এটা ভাৱনাত মগ্ন থকা"
-    },
-    {
-     "en": "to confess fully",
-     "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'make a clean breast of' means to confess fully.",
-    "as": "'make a clean breast of' ৰ অৰ্থ হৈছে সম্পূৰ্ণভাৱে স্বীকাৰ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-154",
-   "q": {
-    "en": "The idiom 'make both ends meet' means —",
-    "as": "'make both ends meet' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to live within one's income",
-     "as": "আয়ৰ ভিতৰত চলা"
-    },
-    {
-     "en": "to be logically sound",
-     "as": "যুক্তিসংগত হোৱা"
-    },
-    {
-     "en": "in a few words",
-     "as": "চমুকৈ"
-    },
-    {
-     "en": "deliberately and without emotion",
-     "as": "ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'make both ends meet' means to live within one's income.",
-    "as": "'make both ends meet' ৰ অৰ্থ হৈছে আয়ৰ ভিতৰত চলা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-155",
-   "q": {
-    "en": "The idiom 'make hay while the sun shines' means —",
-    "as": "'make hay while the sun shines' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in good health",
-     "as": "সুস্থ অৱস্থাত"
-    },
-    {
-     "en": "in trouble",
-     "as": "সমস্যাত"
-    },
-    {
-     "en": "just in time",
-     "as": "ঠিক সময়ত"
-    },
-    {
-     "en": "to seize a good opportunity",
-     "as": "ভাল সুযোগ লোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'make hay while the sun shines' means to seize a good opportunity.",
-    "as": "'make hay while the sun shines' ৰ অৰ্থ হৈছে ভাল সুযোগ লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-156",
-   "q": {
-    "en": "The idiom 'make mountains out of molehills' means —",
-    "as": "'make mountains out of molehills' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to exaggerate a small matter",
-     "as": "সৰু কথাক ডাঙৰ কৰা"
-    },
-    {
-     "en": "a strong determination",
-     "as": "দৃঢ় সংকল্প"
-    },
-    {
-     "en": "a person who can do many kinds of work",
-     "as": "বহু কাম কৰিব পৰা ব্যক্তি"
-    },
-    {
-     "en": "to hope for good luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'make mountains out of molehills' means to exaggerate a small matter.",
-    "as": "'make mountains out of molehills' ৰ অৰ্থ হৈছে সৰু কথাক ডাঙৰ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-157",
-   "q": {
-    "en": "The idiom 'man in the street' means —",
-    "as": "'man in the street' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a person who is weak or ineffective",
-     "as": "দুৰ্বল বা অক্ষম ব্যক্তি"
-    },
-    {
      "en": "an ordinary person",
      "as": "সাধাৰণ মানুহ"
-    },
-    {
-     "en": "the final burden that causes collapse",
-     "as": "ভাঙি পেলোৱা অন্তিম বোজা"
-    },
-    {
-     "en": "to laugh secretly",
-     "as": "গুপুতে হাঁহা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'man in the street' means an ordinary person.",
     "as": "'man in the street' ৰ অৰ্থ হৈছে সাধাৰণ মানুহ।"
    }
   },
   {
-   "id": "idioms-phrases-158",
+   "id": "idioms-phrases-157",
    "q": {
     "en": "The idiom 'milk and honey' means —",
     "as": "'milk and honey' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to live in constant quarrelling",
-     "as": "সদায় ঝগড়া কৰি জীৱন কটোৱা"
-    },
-    {
-     "en": "to try every possible means",
-     "as": "সকলো সম্ভৱ উপায় চেষ্টা কৰা"
-    },
-    {
-     "en": "an ambiguous compliment",
-     "as": "দুই অৰ্থৰ প্ৰশংসা"
-    },
-    {
      "en": "abundance and prosperity",
      "as": "প্ৰাচুৰ্য আৰু সমৃদ্ধি"
+    },
+    {
+     "en": "to bear the consequences",
+     "as": "পৰিণাম ভোগ কৰা"
+    },
+    {
+     "en": "honest and straightforward",
+     "as": "সৎ আৰু সোজা"
+    },
+    {
+     "en": "to fail to produce an effect",
+     "as": "কোনো প্ৰভাৱ নজনোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'milk and honey' means abundance and prosperity.",
     "as": "'milk and honey' ৰ অৰ্থ হৈছে প্ৰাচুৰ্য আৰু সমৃদ্ধি।"
    }
   },
   {
-   "id": "idioms-phrases-159",
+   "id": "idioms-phrases-158",
    "q": {
     "en": "The idiom 'nail in the coffin' means —",
     "as": "'nail in the coffin' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "the largest share",
-     "as": "সৰ্বাধিক অংশ"
+     "en": "to find out the opinion of others",
+     "as": "আনৰ মত জানিবলৈ চেষ্টা কৰা"
     },
     {
-     "en": "to live with barely enough money",
-     "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
+     "en": "to avoid",
+     "as": "এৰি চলা"
     },
     {
      "en": "something that hastens failure",
      "as": "পতন ত্বৰান্বিত কৰা কাৰণ"
     },
     {
-     "en": "to find fault with a gift",
-     "as": "উপহাৰত দোষ বিচৰা"
+     "en": "to take advantage of disturbance",
+     "as": "অশান্তিৰ সুযোগ লোৱা"
     }
    ],
    "correct": 2,
@@ -20169,83 +20139,83 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-160",
+   "id": "idioms-phrases-159",
    "q": {
     "en": "The idiom 'neck and neck' means —",
     "as": "'neck and neck' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to confess fully",
-     "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
-    },
-    {
-     "en": "to live within one's income",
-     "as": "আয়ৰ ভিতৰত চলা"
-    },
-    {
-     "en": "to seize a good opportunity",
-     "as": "ভাল সুযোগ লোৱা"
+     "en": "a state of happiness based on false hope",
+     "as": "মিছা আশাৰ আনন্দ"
     },
     {
      "en": "very close in a race",
      "as": "দৌৰত অতি ওচৰা-ওচৰি"
+    },
+    {
+     "en": "permanently",
+     "as": "চিৰকাললৈ"
+    },
+    {
+     "en": "with just enough for immediate needs",
+     "as": "দিন চলোৱাৰ সমান মাত্ৰ"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'neck and neck' means very close in a race.",
     "as": "'neck and neck' ৰ অৰ্থ হৈছে দৌৰত অতি ওচৰা-ওচৰি।"
    }
   },
   {
-   "id": "idioms-phrases-161",
+   "id": "idioms-phrases-160",
    "q": {
     "en": "The idiom 'nip in the bud' means —",
     "as": "'nip in the bud' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "very close in a race",
-     "as": "দৌৰত অতি ওচৰা-ওচৰি"
-    },
-    {
      "en": "to stop something at an early stage",
      "as": "আৰম্ভণিতে ৰোধ কৰা"
     },
     {
-     "en": "mutual dislike",
-     "as": "পৰস্পৰ অপছন্দ"
+     "en": "the ability to speak fluently",
+     "as": "সহজে ধাৰাপাতভাৱে কোৱাৰ ক্ষমতা"
     },
     {
-     "en": "having no legal force",
-     "as": "আইনগতভাৱে অচল"
+     "en": "to keep away from",
+     "as": "দূৰৈত থাকা"
+    },
+    {
+     "en": "to treat with indifference",
+     "as": "অৱহেলাৰে ব্যৱহাৰ কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'nip in the bud' means to stop something at an early stage.",
     "as": "'nip in the bud' ৰ অৰ্থ হৈছে আৰম্ভণিতে ৰোধ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-162",
+   "id": "idioms-phrases-161",
    "q": {
     "en": "The idiom 'no love lost' means —",
     "as": "'no love lost' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "small leftover items",
-     "as": "সৰু-সুৰা বাকী বস্তু"
+     "en": "an inexperienced person",
+     "as": "অনভিজ্ঞ ব্যক্তি"
     },
     {
-     "en": "occasionally",
-     "as": "মাজে মাজে"
+     "en": "a period of peace and happiness",
+     "as": "শান্তি আৰু সুখৰ কাল"
     },
     {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
+     "en": "in close association",
+     "as": "ঘনিষ্ঠ সংযোগত"
     },
     {
      "en": "mutual dislike",
@@ -20259,207 +20229,207 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-163",
+   "id": "idioms-phrases-162",
    "q": {
     "en": "The idiom 'null and void' means —",
     "as": "'null and void' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "very rarely",
-     "as": "অতি কেতিয়াবা"
-    },
-    {
-     "en": "something one likes",
-     "as": "নিজৰ পছন্দৰ বস্তু"
-    },
-    {
-     "en": "thoroughly",
-     "as": "সম্পূৰ্ণৰূপে"
+     "en": "to have a selfish motive",
+     "as": "স্বাৰ্থপৰ উদ্দেশ্য থকা"
     },
     {
      "en": "having no legal force",
      "as": "আইনগতভাৱে অচল"
+    },
+    {
+     "en": "completely or deeply",
+     "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
+    },
+    {
+     "en": "in a helpless condition",
+     "as": "অসহায় অৱস্থাত"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'null and void' means having no legal force.",
     "as": "'null and void' ৰ অৰ্থ হৈছে আইনগতভাৱে অচল।"
    }
   },
   {
-   "id": "idioms-phrases-164",
+   "id": "idioms-phrases-163",
    "q": {
     "en": "The idiom 'odds and ends' means —",
     "as": "'odds and ends' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "careful in small matters but wasteful in big ones",
-     "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
-    },
-    {
-     "en": "to find fault with",
-     "as": "দোষ বিচৰা"
-    },
-    {
-     "en": "to take a subordinate role",
-     "as": "গৌণ ভূমিকা লোৱা"
+     "en": "in a few words",
+     "as": "চমুকৈ"
     },
     {
      "en": "small leftover items",
      "as": "সৰু-সুৰা বাকী বস্তু"
+    },
+    {
+     "en": "deliberately and without emotion",
+     "as": "ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে"
+    },
+    {
+     "en": "in good health",
+     "as": "সুস্থ অৱস্থাত"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'odds and ends' means small leftover items.",
     "as": "'odds and ends' ৰ অৰ্থ হৈছে সৰু-সুৰা বাকী বস্তু।"
    }
   },
   {
-   "id": "idioms-phrases-165",
+   "id": "idioms-phrases-164",
    "q": {
     "en": "The idiom 'off and on' means —",
     "as": "'off and on' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to make a determined effort",
-     "as": "দৃঢ় প্ৰচেষ্টা কৰা"
+     "en": "in direct opposition to",
+     "as": "প্ৰত্যক্ষ বিৰোধিতা কৰি"
     },
     {
-     "en": "to use influence secretly",
-     "as": "গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to state briefly",
-     "as": "চমুকৈ কোৱা"
+     "en": "full details",
+     "as": "সম্পূৰ্ণ বিৱৰণ"
     },
     {
      "en": "occasionally",
      "as": "মাজে মাজে"
+    },
+    {
+     "en": "a strong determination",
+     "as": "দৃঢ় সংকল্প"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'off and on' means occasionally.",
     "as": "'off and on' ৰ অৰ্থ হৈছে মাজে মাজে।"
    }
   },
   {
-   "id": "idioms-phrases-166",
+   "id": "idioms-phrases-165",
    "q": {
     "en": "The idiom 'on cloud nine' means —",
     "as": "'on cloud nine' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "excessive official routine",
-     "as": "অত্যধিক চৰকাৰী কাগজ-পত্ৰ"
+     "en": "friends and relatives",
+     "as": "বন্ধু-বান্ধৱ আৰু আত্মীয়"
     },
     {
-     "en": "to be satisfied with past success",
-     "as": "পূৰ্বৰ সফলতাত সন্তুষ্ট থকা"
+     "en": "to defeat completely",
+     "as": "সম্পূৰ্ণভাৱে পৰাজিত কৰা"
+    },
+    {
+     "en": "a person who is weak or ineffective",
+     "as": "দুৰ্বল বা অক্ষম ব্যক্তি"
     },
     {
      "en": "extremely happy",
      "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "to take from one to give another",
-     "as": "এজনৰ পৰা লৈ আনজনক দিয়া"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'on cloud nine' means extremely happy.",
     "as": "'on cloud nine' ৰ অৰ্থ হৈছে অতি আনন্দিত।"
    }
   },
   {
-   "id": "idioms-phrases-167",
+   "id": "idioms-phrases-166",
    "q": {
     "en": "The idiom 'on the horns of a dilemma' means —",
     "as": "'on the horns of a dilemma' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be very rich",
-     "as": "অতি ধনী হোৱা"
-    },
-    {
-     "en": "to behave violently",
-     "as": "উচণ্ডাল আচৰণ কৰা"
-    },
-    {
-     "en": "to act against",
-     "as": "বিৰুদ্ধে কাম কৰা"
-    },
-    {
      "en": "faced with two difficult choices",
      "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
+    },
+    {
+     "en": "the final burden that causes collapse",
+     "as": "ভাঙি পেলোৱা অন্তিম বোজা"
+    },
+    {
+     "en": "to laugh secretly",
+     "as": "গুপুতে হাঁহা"
+    },
+    {
+     "en": "to live in constant quarrelling",
+     "as": "সদায় ঝগড়া কৰি জীৱন কটোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'on the horns of a dilemma' means faced with two difficult choices.",
     "as": "'on the horns of a dilemma' ৰ অৰ্থ হৈছে দুটা কঠিন বিকল্পৰ সন্মুখীন।"
    }
   },
   {
-   "id": "idioms-phrases-168",
+   "id": "idioms-phrases-167",
    "q": {
     "en": "The idiom 'on the spur of the moment' means —",
     "as": "'on the spur of the moment' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to show cowardice",
-     "as": "ভীতুতা দেখুওৱা"
+     "en": "to reveal a secret",
+     "as": "গোপন কথা ফাদিল কৰা"
     },
     {
-     "en": "to avoid taking sides",
-     "as": "কোনো পক্ষ লোৱাৰ পৰা বিৰত থকা"
+     "en": "to be defeated humbly",
+     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
+    },
+    {
+     "en": "the largest share",
+     "as": "সৰ্বাধিক অংশ"
     },
     {
      "en": "without previous thought",
      "as": "আগত নাভাবি"
-    },
-    {
-     "en": "to suspect something wrong",
-     "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'on the spur of the moment' means without previous thought.",
     "as": "'on the spur of the moment' ৰ অৰ্থ হৈছে আগত নাভাবি।"
    }
   },
   {
-   "id": "idioms-phrases-169",
+   "id": "idioms-phrases-168",
    "q": {
     "en": "The idiom 'once in a blue moon' is used to mean —",
     "as": "'once in a blue moon' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to gain an advantage secretly",
-     "as": "গুপুতে সুবিধা লাভ কৰা"
+     "en": "think before you act",
+     "as": "কাম কৰাৰ আগতে ভাবা"
     },
     {
      "en": "very rarely",
      "as": "অতি কেতিয়াবা"
     },
     {
-     "en": "to maintain one's stand firmly",
-     "as": "নিজৰ মত দৃঢ়ভাৱে ৰখা"
+     "en": "to become discouraged",
+     "as": "হতাশ হোৱা"
     },
     {
-     "en": "a lot of fuss over a small matter",
-     "as": "সৰু কথাত অত্যধিক হুলস্থূল"
+     "en": "to confess fully",
+     "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
     }
    ],
    "correct": 1,
@@ -20469,100 +20439,370 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-170",
+   "id": "idioms-phrases-169",
    "q": {
     "en": "The idiom 'one's cup of tea' means —",
     "as": "'one's cup of tea' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to rebuke",
-     "as": "ভৎৰ্সনা কৰা"
-    },
-    {
-     "en": "to talk about one's work",
-     "as": "নিজৰ কামৰ কথা কোৱা"
-    },
-    {
      "en": "something one likes",
      "as": "নিজৰ পছন্দৰ বস্তু"
     },
     {
-     "en": "boastful talk",
-     "as": "আত্মপ্ৰশংসামূলক কথা"
+     "en": "to exaggerate a small matter",
+     "as": "সৰু কথাক ডাঙৰ কৰা"
+    },
+    {
+     "en": "an ordinary person",
+     "as": "সাধাৰণ মানুহ"
+    },
+    {
+     "en": "abundance and prosperity",
+     "as": "প্ৰাচুৰ্য আৰু সমৃদ্ধি"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'one's cup of tea' means something one likes.",
     "as": "'one's cup of tea' ৰ অৰ্থ হৈছে নিজৰ পছন্দৰ বস্তু।"
    }
   },
   {
-   "id": "idioms-phrases-171",
+   "id": "idioms-phrases-170",
    "q": {
     "en": "The idiom 'out and out' means —",
     "as": "'out and out' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to help through a difficulty",
-     "as": "অসুবিধা অতিক্ৰম কৰাত সহায় কৰা"
-    },
-    {
-     "en": "for a very long time",
-     "as": "অতি দীঘল সময়লৈকে"
-    },
-    {
-     "en": "to be confused",
-     "as": "হতবুদ্ধি হোৱা"
+     "en": "small leftover items",
+     "as": "সৰু-সুৰা বাকী বস্তু"
     },
     {
      "en": "thoroughly",
      "as": "সম্পূৰ্ণৰূপে"
+    },
+    {
+     "en": "occasionally",
+     "as": "মাজে মাজে"
+    },
+    {
+     "en": "extremely happy",
+     "as": "অতি আনন্দিত"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'out and out' means thoroughly.",
     "as": "'out and out' ৰ অৰ্থ হৈছে সম্পূৰ্ণৰূপে।"
    }
   },
   {
-   "id": "idioms-phrases-172",
+   "id": "idioms-phrases-171",
    "q": {
     "en": "The idiom 'out of the frying pan into the fire' means —",
     "as": "'out of the frying pan into the fire' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be ignorant",
-     "as": "অজ্ঞ থকা"
+     "en": "extremely happy",
+     "as": "অতি আনন্দিত"
+    },
+    {
+     "en": "faced with two difficult choices",
+     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
     },
     {
      "en": "from one trouble into a worse one",
      "as": "এটা সমস্যাৰ পৰা আৰু বেয়া সমস্যালৈ"
     },
     {
-     "en": "to be in low spirits",
-     "as": "হতাশ অৱস্থাত থকা"
-    },
-    {
-     "en": "to face a risk for others",
-     "as": "আনৰ বাবে বিপদ মূৰত লোৱা"
+     "en": "without previous thought",
+     "as": "আগত নাভাবি"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'out of the frying pan into the fire' means from one trouble into a worse one.",
     "as": "'out of the frying pan into the fire' ৰ অৰ্থ হৈছে এটা সমস্যাৰ পৰা আৰু বেয়া সমস্যালৈ।"
    }
   },
   {
-   "id": "idioms-phrases-173",
+   "id": "idioms-phrases-172",
    "q": {
     "en": "The idiom 'pay lip service' means —",
     "as": "'pay lip service' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to support in words only",
+     "as": "মাত্ৰ মুখেৰে সমৰ্থন কৰা"
+    },
+    {
+     "en": "thoroughly",
+     "as": "সম্পূৰ্ণৰূপে"
+    },
+    {
+     "en": "from one trouble into a worse one",
+     "as": "এটা সমস্যাৰ পৰা আৰু বেয়া সমস্যালৈ"
+    },
+    {
+     "en": "careful in small matters but wasteful in big ones",
+     "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'pay lip service' means to support in words only.",
+    "as": "'pay lip service' ৰ অৰ্থ হৈছে মাত্ৰ মুখেৰে সমৰ্থন কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-173",
+   "q": {
+    "en": "The idiom 'penny wise pound foolish' means —",
+    "as": "'penny wise pound foolish' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to act to please the crowd",
+     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
+    },
+    {
+     "en": "to bear an insult quietly",
+     "as": "চুপচাপ অপমান সহ্য কৰা"
+    },
+    {
+     "en": "careful in small matters but wasteful in big ones",
+     "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
+    },
+    {
+     "en": "to make a determined effort",
+     "as": "দৃঢ় প্ৰচেষ্টা কৰা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'penny wise pound foolish' means careful in small matters but wasteful in big ones.",
+    "as": "'penny wise pound foolish' ৰ অৰ্থ হৈছে সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক।"
+   }
+  },
+  {
+   "id": "idioms-phrases-174",
+   "q": {
+    "en": "The idiom 'pick holes in' means —",
+    "as": "'pick holes in' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to find fault with",
+     "as": "দোষ বিচৰা"
+    },
+    {
+     "en": "to rain very heavily",
+     "as": "অতি ধাৰাসাৰে বৰষুণ দিয়া"
+    },
+    {
+     "en": "excessive official routine",
+     "as": "অত্যধিক চৰকাৰী কাগজ-পত্ৰ"
+    },
+    {
+     "en": "to be satisfied with past success",
+     "as": "পূৰ্বৰ সফলতাত সন্তুষ্ট থকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'pick holes in' means to find fault with.",
+    "as": "'pick holes in' ৰ অৰ্থ হৈছে দোষ বিচৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-175",
+   "q": {
+    "en": "The idiom 'play second fiddle' means —",
+    "as": "'play second fiddle' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to be satisfied with past success",
+     "as": "পূৰ্বৰ সফলতাত সন্তুষ্ট থকা"
+    },
+    {
+     "en": "to take from one to give another",
+     "as": "এজনৰ পৰা লৈ আনজনক দিয়া"
+    },
+    {
+     "en": "to be very rich",
+     "as": "অতি ধনী হোৱা"
+    },
+    {
+     "en": "to take a subordinate role",
+     "as": "গৌণ ভূমিকা লোৱা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'play second fiddle' means to take a subordinate role.",
+    "as": "'play second fiddle' ৰ অৰ্থ হৈছে গৌণ ভূমিকা লোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-176",
+   "q": {
+    "en": "The idiom 'play to the gallery' means —",
+    "as": "'play to the gallery' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to agree completely",
+     "as": "সম্পূৰ্ণভাৱে একমত হোৱা"
+    },
+    {
+     "en": "to act to please the crowd",
+     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
+    },
+    {
+     "en": "to show false sorrow",
+     "as": "মিছা শোক দেখুওৱা"
+    },
+    {
+     "en": "to show cowardice",
+     "as": "ভীতুতা দেখুওৱা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'play to the gallery' means to act to please the crowd.",
+    "as": "'play to the gallery' ৰ অৰ্থ হৈছে জনতাৰ মন জয় কৰিবলৈ কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-177",
+   "q": {
+    "en": "The idiom 'pocket an insult' means —",
+    "as": "'pocket an insult' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to reveal a secret",
+     "as": "গোপন কথা ফাদিল কৰা"
+    },
+    {
+     "en": "to maintain one's position",
+     "as": "নিজৰ অবস্থান অটল ৰখা"
+    },
+    {
+     "en": "to bear an insult quietly",
+     "as": "চুপচাপ অপমান সহ্য কৰা"
+    },
+    {
+     "en": "to gain an advantage secretly",
+     "as": "গুপুতে সুবিধা লাভ কৰা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'pocket an insult' means to bear an insult quietly.",
+    "as": "'pocket an insult' ৰ অৰ্থ হৈছে চুপচাপ অপমান সহ্য কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-178",
+   "q": {
+    "en": "The idiom 'pull one's socks up' means —",
+    "as": "'pull one's socks up' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to make the utmost effort",
+     "as": "সৰ্বাধিক চেষ্টা কৰা"
+    },
+    {
+     "en": "to take a less important position",
+     "as": "কম গুৰুত্বপূৰ্ণ স্থান লোৱা"
+    },
+    {
+     "en": "to rebuke",
+     "as": "ভৎৰ্সনা কৰা"
+    },
+    {
+     "en": "to make a determined effort",
+     "as": "দৃঢ় প্ৰচেষ্টা কৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'pull one's socks up' means to make a determined effort.",
+    "as": "'pull one's socks up' ৰ অৰ্থ হৈছে দৃঢ় প্ৰচেষ্টা কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-179",
+   "q": {
+    "en": "The idiom 'pull strings' means —",
+    "as": "'pull strings' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "the final decision",
+     "as": "অন্তিম সিদ্ধান্ত"
+    },
+    {
+     "en": "to use influence secretly",
+     "as": "গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা"
+    },
+    {
+     "en": "to discourage",
+     "as": "হতাশ কৰা"
+    },
+    {
+     "en": "to deceive",
+     "as": "প্ৰতাৰণা কৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'pull strings' means to use influence secretly.",
+    "as": "'pull strings' ৰ অৰ্থ হৈছে গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-180",
+   "q": {
+    "en": "The idiom 'put in a nutshell' means —",
+    "as": "'put in a nutshell' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to be confused",
+     "as": "হতবুদ্ধি হোৱা"
+    },
+    {
+     "en": "to be ignorant",
+     "as": "অজ্ঞ থকা"
+    },
+    {
+     "en": "to be in low spirits",
+     "as": "হতাশ অৱস্থাত থকা"
+    },
+    {
+     "en": "to state briefly",
+     "as": "চমুকৈ কোৱা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'put in a nutshell' means to state briefly.",
+    "as": "'put in a nutshell' ৰ অৰ্থ হৈছে চমুকৈ কোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-181",
+   "q": {
+    "en": "The idiom 'put one's foot down' means —",
+    "as": "'put one's foot down' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -20570,432 +20810,162 @@ module.exports = {
      "as": "আয়ৰ লগত খৰচ মিলাই চলা"
     },
     {
-     "en": "to support in words only",
-     "as": "মাত্ৰ মুখেৰে সমৰ্থন কৰা"
-    },
-    {
-     "en": "to solve a problem by bold action",
-     "as": "সাহসী কামেৰে সমস্যা সমাধান কৰা"
-    },
-    {
      "en": "to take back what one has said",
      "as": "কোৱা কথা ঘূৰাই লোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'pay lip service' means to support in words only.",
-    "as": "'pay lip service' ৰ অৰ্থ হৈছে মাত্ৰ মুখেৰে সমৰ্থন কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-174",
-   "q": {
-    "en": "The idiom 'penny wise pound foolish' means —",
-    "as": "'penny wise pound foolish' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be very busy",
-     "as": "অতি ব্যস্ত থকা"
     },
-    {
-     "en": "careful in small matters but wasteful in big ones",
-     "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
-    },
-    {
-     "en": "to act unfairly",
-     "as": "অন্যায়ভাৱে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to remain calm",
-     "as": "শান্ত থাকা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'penny wise pound foolish' means careful in small matters but wasteful in big ones.",
-    "as": "'penny wise pound foolish' ৰ অৰ্থ হৈছে সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক।"
-   }
-  },
-  {
-   "id": "idioms-phrases-175",
-   "q": {
-    "en": "The idiom 'pick holes in' means —",
-    "as": "'pick holes in' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to destroy at an early stage",
-     "as": "আৰম্ভণিতে ধ্বংস কৰা"
-    },
-    {
-     "en": "to shift responsibility to another",
-     "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
-    },
-    {
-     "en": "to find fault with",
-     "as": "দোষ বিচৰা"
-    },
-    {
-     "en": "to behave irresponsibly",
-     "as": "দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'pick holes in' means to find fault with.",
-    "as": "'pick holes in' ৰ অৰ্থ হৈছে দোষ বিচৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-176",
-   "q": {
-    "en": "The idiom 'play second fiddle' means —",
-    "as": "'play second fiddle' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to look sad or disappointed",
-     "as": "দুখ বা হতাশ দেখুওৱা"
-    },
-    {
-     "en": "to take a subordinate role",
-     "as": "গৌণ ভূমিকা লোৱা"
-    },
-    {
-     "en": "to tolerate",
-     "as": "সহ্য কৰা"
-    },
-    {
-     "en": "to understand the hidden meaning",
-     "as": "লুকুৱা অৰ্থ বুজা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'play second fiddle' means to take a subordinate role.",
-    "as": "'play second fiddle' ৰ অৰ্থ হৈছে গৌণ ভূমিকা লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-177",
-   "q": {
-    "en": "The idiom 'play to the gallery' means —",
-    "as": "'play to the gallery' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to suspect a trick",
-     "as": "চক্ৰান্তৰ সন্দেহ কৰা"
-    },
-    {
-     "en": "to imitate someone",
-     "as": "কাৰোবাৰ অনুকৰণ কৰা"
-    },
-    {
-     "en": "to face a danger boldly",
-     "as": "সাহসেৰে বিপদৰ সন্মুখীন হোৱা"
-    },
-    {
-     "en": "to act to please the crowd",
-     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'play to the gallery' means to act to please the crowd.",
-    "as": "'play to the gallery' ৰ অৰ্থ হৈছে জনতাৰ মন জয় কৰিবলৈ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-178",
-   "q": {
-    "en": "The idiom 'pocket an insult' means —",
-    "as": "'pocket an insult' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reverse the situation",
-     "as": "অৱস্থা ওলোটা কৰা"
-    },
-    {
-     "en": "to bear an insult quietly",
-     "as": "চুপচাপ অপমান সহ্য কৰা"
-    },
-    {
-     "en": "to be extremely happy",
-     "as": "অতি আনন্দিত হোৱা"
-    },
-    {
-     "en": "to refuse to have anything to do with",
-     "as": "কোনো সম্পৰ্ক নাৰাখা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'pocket an insult' means to bear an insult quietly.",
-    "as": "'pocket an insult' ৰ অৰ্থ হৈছে চুপচাপ অপমান সহ্য কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-179",
-   "q": {
-    "en": "The idiom 'pull one's socks up' means —",
-    "as": "'pull one's socks up' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to show any sign of fear",
-     "as": "ভয়ৰ কোনো চিহ্ন দেখুওৱা"
-    },
-    {
-     "en": "to make a fresh start",
-     "as": "নতুনকৈ আৰম্ভ কৰা"
-    },
-    {
-     "en": "to make a determined effort",
-     "as": "দৃঢ় প্ৰচেষ্টা কৰা"
-    },
-    {
-     "en": "under suspicion",
-     "as": "সন্দেহৰ আৱৰ্তত"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'pull one's socks up' means to make a determined effort.",
-    "as": "'pull one's socks up' ৰ অৰ্থ হৈছে দৃঢ় প্ৰচেষ্টা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-180",
-   "q": {
-    "en": "The idiom 'pull strings' means —",
-    "as": "'pull strings' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
-    },
-    {
-     "en": "a person with wide knowledge",
-     "as": "বহু জ্ঞান থকা ব্যক্তি"
-    },
-    {
-     "en": "to use influence secretly",
-     "as": "গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to discuss private matters openly",
-     "as": "ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'pull strings' means to use influence secretly.",
-    "as": "'pull strings' ৰ অৰ্থ হৈছে গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-181",
-   "q": {
-    "en": "The idiom 'put in a nutshell' means —",
-    "as": "'put in a nutshell' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to state briefly",
-     "as": "চমুকৈ কোৱা"
-    },
-    {
-     "en": "a foolish and useless search",
-     "as": "মূৰ্খামি আৰু অসাৰ অনুসন্ধান"
-    },
-    {
-     "en": "with great success",
-     "as": "মহান সফলতাৰে"
-    },
-    {
-     "en": "very close to",
-     "as": "অতি ওচৰত"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'put in a nutshell' means to state briefly.",
-    "as": "'put in a nutshell' ৰ অৰ্থ হৈছে চমুকৈ কোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-182",
-   "q": {
-    "en": "The idiom 'put one's foot down' means —",
-    "as": "'put one's foot down' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
     {
      "en": "to be firm about something",
      "as": "একটা কথাত দৃঢ় হোৱা"
     },
     {
-     "en": "something that attracts attention briefly",
-     "as": "অলপ সময়লৈ মনোযোগ টনা বস্তু"
-    },
-    {
-     "en": "a mild punishment",
-     "as": "লঘু শাস্তি"
-    },
-    {
-     "en": "a harmless lie",
-     "as": "নিৰীহ মিছা কথা"
+     "en": "to waste effort on a hopeless matter",
+     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'put one's foot down' means to be firm about something.",
     "as": "'put one's foot down' ৰ অৰ্থ হৈছে একটা কথাত দৃঢ় হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-183",
+   "id": "idioms-phrases-182",
    "q": {
     "en": "The idiom 'put one's foot in one's mouth' means —",
     "as": "'put one's foot in one's mouth' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "having nothing to do",
-     "as": "কৰিবলৈ একো নথকা"
-    },
-    {
-     "en": "back to the starting point",
-     "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
-    },
-    {
-     "en": "a very thin person",
-     "as": "অতি খীণ ব্যক্তি"
-    },
-    {
      "en": "to say something wrong",
      "as": "ভুল কথা কোৱা"
+    },
+    {
+     "en": "to come to the point quickly",
+     "as": "সোনকালে মূল কথালৈ অহা"
+    },
+    {
+     "en": "to manage with one's income",
+     "as": "আয়ৰ ভিতৰত চলা"
+    },
+    {
+     "en": "to make every possible effort",
+     "as": "সকলো সম্ভৱ চেষ্টা কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'put one's foot in one's mouth' means to say something wrong.",
     "as": "'put one's foot in one's mouth' ৰ অৰ্থ হৈছে ভুল কথা কোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-184",
+   "id": "idioms-phrases-183",
    "q": {
     "en": "The idiom 'put the cart before the horse' means —",
     "as": "'put the cart before the horse' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "the trouble begins",
-     "as": "সমস্যা আৰম্ভ হোৱা"
-    },
-    {
      "en": "to do things in the wrong order",
      "as": "ভুল ক্ৰমত কাম কৰা"
     },
     {
-     "en": "to follow a wrong line of action",
-     "as": "ভুল পথ অনুসৰণ কৰা"
+     "en": "to make every possible effort",
+     "as": "সকলো সম্ভৱ চেষ্টা কৰা"
     },
     {
-     "en": "to avoid the main point",
-     "as": "মূল কথা এৰি ঘূৰাই কোৱা"
+     "en": "to shift responsibility to another",
+     "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
+    },
+    {
+     "en": "to behave irresponsibly",
+     "as": "দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'put the cart before the horse' means to do things in the wrong order.",
     "as": "'put the cart before the horse' ৰ অৰ্থ হৈছে ভুল ক্ৰমত কাম কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-185",
+   "id": "idioms-phrases-184",
    "q": {
     "en": "The idiom 'rain cats and dogs' means —",
     "as": "'rain cats and dogs' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "credit gained by pleasing others",
-     "as": "আনক সন্তুষ্ট কৰি লাভ কৰা সুনাম"
+     "en": "to understand the hidden meaning",
+     "as": "লুকুৱা অৰ্থ বুজা"
+    },
+    {
+     "en": "to become very angry",
+     "as": "অতি খঙাল হোৱা"
     },
     {
      "en": "to rain very heavily",
      "as": "অতি ধাৰাসাৰে বৰষুণ দিয়া"
     },
     {
-     "en": "to commit oneself beyond withdrawal",
-     "as": "পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা"
-    },
-    {
-     "en": "to stop working for the day",
-     "as": "দিনটোৰ কাম বন্ধ কৰা"
+     "en": "to do something remarkable",
+     "as": "উল্লেখনীয় কাম কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'rain cats and dogs' means to rain very heavily.",
     "as": "'rain cats and dogs' ৰ অৰ্থ হৈছে অতি ধাৰাসাৰে বৰষুণ দিয়া।"
    }
   },
   {
-   "id": "idioms-phrases-186",
+   "id": "idioms-phrases-185",
    "q": {
     "en": "The idiom 'red tape' means —",
     "as": "'red tape' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "nervousness before doing something",
-     "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
-    },
-    {
-     "en": "to falsify accounts",
-     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
-    },
-    {
      "en": "excessive official routine",
      "as": "অত্যধিক চৰকাৰী কাগজ-পত্ৰ"
     },
     {
-     "en": "to do something badly to save time",
-     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
+     "en": "to admit defeat",
+     "as": "পৰাজয় স্বীকাৰ কৰা"
+    },
+    {
+     "en": "to refuse to listen",
+     "as": "শুনিবলৈ অস্বীকাৰ কৰা"
+    },
+    {
+     "en": "to reverse the situation",
+     "as": "অৱস্থা ওলোটা কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'red tape' means excessive official routine.",
     "as": "'red tape' ৰ অৰ্থ হৈছে অত্যধিক চৰকাৰী কাগজ-পত্ৰ।"
    }
   },
   {
-   "id": "idioms-phrases-187",
+   "id": "idioms-phrases-186",
    "q": {
     "en": "The idiom 'rest on one's laurels' means —",
     "as": "'rest on one's laurels' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "practical and realistic",
-     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
+     "en": "to show one's feelings openly",
+     "as": "মুকলিভাৱে ভাৱ প্ৰকাশ কৰা"
     },
     {
-     "en": "to get no result",
-     "as": "কোনো ফলাফল নোপোৱা"
+     "en": "with all one's strength",
+     "as": "সকলো শক্তিৰে"
     },
     {
-     "en": "a very small amount",
-     "as": "অতি কম পৰিমাণ"
+     "en": "to show any sign of fear",
+     "as": "ভয়ৰ কোনো চিহ্ন দেখুওৱা"
     },
     {
      "en": "to be satisfied with past success",
@@ -21009,97 +20979,97 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-188",
+   "id": "idioms-phrases-187",
    "q": {
     "en": "The idiom 'rob Peter to pay Paul' means —",
     "as": "'rob Peter to pay Paul' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "right in front of one",
+     "as": "চকুৰ সন্মুখত"
+    },
+    {
+     "en": "feeling unwell",
+     "as": "অসুস্থ অনুভৱ কৰা"
+    },
+    {
+     "en": "good and bad times",
+     "as": "ভাল-বেয়া সময়"
+    },
+    {
      "en": "to take from one to give another",
      "as": "এজনৰ পৰা লৈ আনজনক দিয়া"
-    },
-    {
-     "en": "every bad situation has some good in it",
-     "as": "প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে"
-    },
-    {
-     "en": "to be ignored",
-     "as": "উপেক্ষা কৰা"
-    },
-    {
-     "en": "a wealthy and powerful person",
-     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'rob Peter to pay Paul' means to take from one to give another.",
     "as": "'rob Peter to pay Paul' ৰ অৰ্থ হৈছে এজনৰ পৰা লৈ আনজনক দিয়া।"
    }
   },
   {
-   "id": "idioms-phrases-189",
+   "id": "idioms-phrases-188",
    "q": {
     "en": "The idiom 'roll in money' means —",
     "as": "'roll in money' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "mutual compromise",
-     "as": "পৰস্পৰ ৰাজি-খুচি"
+     "en": "very close to",
+     "as": "অতি ওচৰত"
     },
     {
-     "en": "to make more effort than expected",
-     "as": "প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা"
+     "en": "without any sense",
+     "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
+    },
+    {
+     "en": "a dangerous person pretending to be harmless",
+     "as": "নিৰীহ যেন দেখুওৱা বিপদজনক ব্যক্তি"
     },
     {
      "en": "to be very rich",
      "as": "অতি ধনী হোৱা"
-    },
-    {
-     "en": "to begin a journey",
-     "as": "যাত্ৰা আৰম্ভ কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'roll in money' means to be very rich.",
     "as": "'roll in money' ৰ অৰ্থ হৈছে অতি ধনী হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-190",
+   "id": "idioms-phrases-189",
    "q": {
     "en": "The idiom 'run amuck' means —",
     "as": "'run amuck' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "in writing",
-     "as": "লিখিত ৰূপত"
+     "en": "a mild punishment",
+     "as": "লঘু শাস্তি"
+    },
+    {
+     "en": "a harmless lie",
+     "as": "নিৰীহ মিছা কথা"
     },
     {
      "en": "to behave violently",
      "as": "উচণ্ডাল আচৰণ কৰা"
     },
     {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
-    },
-    {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
+     "en": "healthy and active",
+     "as": "সুস্থ আৰু সক্ৰিয়"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'run amuck' means to behave violently.",
     "as": "'run amuck' ৰ অৰ্থ হৈছে উচণ্ডাল আচৰণ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-191",
+   "id": "idioms-phrases-190",
    "q": {
     "en": "The idiom 'run counter to' means —",
     "as": "'run counter to' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -21110,16 +21080,16 @@ module.exports = {
      "as": "বিৰুদ্ধে কাম কৰা"
     },
     {
-     "en": "rather old",
-     "as": "বয়সীয়াল"
+     "en": "having nothing to do",
+     "as": "কৰিবলৈ একো নথকা"
     },
     {
-     "en": "to lose self-control",
-     "as": "আত্ম-সংযম হেৰুওৱা"
+     "en": "back to the starting point",
+     "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
     },
     {
-     "en": "to go straight towards something",
-     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
+     "en": "a very thin person",
+     "as": "অতি খীণ ব্যক্তি"
     }
    ],
    "correct": 0,
@@ -21129,83 +21099,83 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-192",
+   "id": "idioms-phrases-191",
    "q": {
     "en": "The idiom 'see eye to eye' means —",
     "as": "'see eye to eye' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to make a situation confusing",
-     "as": "অৱস্থা জটিল কৰা"
-    },
-    {
-     "en": "a particular locality",
-     "as": "এক নিৰ্দিষ্ট অঞ্চল"
-    },
-    {
-     "en": "without any conditions",
-     "as": "কোনো চৰ্ত নোহোৱাকৈ"
-    },
-    {
      "en": "to agree completely",
      "as": "সম্পূৰ্ণভাৱে একমত হোৱা"
+    },
+    {
+     "en": "to avoid the main point",
+     "as": "মূল কথা এৰি ঘূৰাই কোৱা"
+    },
+    {
+     "en": "to attempt more than one can manage",
+     "as": "সাধ্যৰ বাহিৰৰ কাম হাতত লোৱা"
+    },
+    {
+     "en": "to spend too much money",
+     "as": "অত্যধিক ধন খৰচ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'see eye to eye' means to agree completely.",
     "as": "'see eye to eye' ৰ অৰ্থ হৈছে সম্পূৰ্ণভাৱে একমত হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-193",
+   "id": "idioms-phrases-192",
    "q": {
     "en": "The idiom 'shed crocodile tears' means —",
     "as": "'shed crocodile tears' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to spend too much money",
+     "as": "অত্যধিক ধন খৰচ কৰা"
+    },
+    {
      "en": "to show false sorrow",
      "as": "মিছা শোক দেখুওৱা"
     },
     {
-     "en": "free from a difficult situation",
-     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
+     "en": "credit gained by pleasing others",
+     "as": "আনক সন্তুষ্ট কৰি লাভ কৰা সুনাম"
     },
     {
-     "en": "in a risky position",
-     "as": "বিপদজনক অৱস্থাত"
-    },
-    {
-     "en": "suddenly and unexpectedly",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে"
+     "en": "to commit oneself beyond withdrawal",
+     "as": "পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'shed crocodile tears' means to show false sorrow.",
     "as": "'shed crocodile tears' ৰ অৰ্থ হৈছে মিছা শোক দেখুওৱা।"
    }
   },
   {
-   "id": "idioms-phrases-194",
+   "id": "idioms-phrases-193",
    "q": {
     "en": "The idiom 'show the white feather' means —",
     "as": "'show the white feather' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "something very easy",
-     "as": "অতি সহজ কাম"
+     "en": "to pass to a new owner",
+     "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
     },
     {
-     "en": "to regain self-control",
-     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
+     "en": "nervousness before doing something",
+     "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
     },
     {
-     "en": "to risk everything on one thing",
-     "as": "সকলো আশা এটা বস্তুত ৰখা"
+     "en": "to falsify accounts",
+     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
     },
     {
      "en": "to show cowardice",
@@ -21219,27 +21189,27 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-195",
+   "id": "idioms-phrases-194",
    "q": {
     "en": "The idiom 'sit on the fence' means —",
     "as": "'sit on the fence' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to remain patient without acting",
-     "as": "কাম নকৰি ধৈৰ্য ধৰি থাকা"
+     "en": "a very small amount",
+     "as": "অতি কম পৰিমাণ"
     },
     {
      "en": "to avoid taking sides",
      "as": "কোনো পক্ষ লোৱাৰ পৰা বিৰত থকা"
     },
     {
-     "en": "a hidden and shameful secret",
-     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
+     "en": "to be completely controlled by another",
+     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
     },
     {
-     "en": "neat and clean",
-     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
+     "en": "to urge someone to do something",
+     "as": "কিবা কৰিবলৈ উচটনি দিয়া"
     }
    ],
    "correct": 1,
@@ -21249,27 +21219,27 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-196",
+   "id": "idioms-phrases-195",
    "q": {
     "en": "The idiom 'smell a rat' means —",
     "as": "'smell a rat' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to accept with doubt",
-     "as": "সন্দেহেৰে গ্ৰহণ কৰা"
+     "en": "a wealthy and powerful person",
+     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
     },
     {
-     "en": "it is your turn to act",
-     "as": "এতিয়া আপোনাৰ পাল"
+     "en": "rare and infrequent",
+     "as": "বিৰল আৰু কম"
     },
     {
      "en": "to suspect something wrong",
      "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
     },
     {
-     "en": "an extra benefit",
-     "as": "অতিৰিক্ত লাভ"
+     "en": "a suspicious affair",
+     "as": "সন্দেহজনক কাম"
     }
    ],
    "correct": 2,
@@ -21279,187 +21249,187 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-197",
+   "id": "idioms-phrases-196",
    "q": {
     "en": "The idiom 'spill the beans' means —",
     "as": "'spill the beans' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "not meant seriously",
-     "as": "গম্ভীৰভাৱে নকোৱা"
+     "en": "to learn how to do something",
+     "as": "কিবা কৰাৰ ধৰণ শিকা"
+    },
+    {
+     "en": "mutual compromise",
+     "as": "পৰস্পৰ ৰাজি-খুচি"
+    },
+    {
+     "en": "to make more effort than expected",
+     "as": "প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা"
     },
     {
      "en": "to reveal a secret",
      "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
-     "en": "a risky and uncertain situation",
-     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
-    },
-    {
-     "en": "to pass the worst part of a crisis",
-     "as": "সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'spill the beans' means to reveal a secret.",
     "as": "'spill the beans' ৰ অৰ্থ হৈছে গোপন কথা ফাদিল কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-198",
+   "id": "idioms-phrases-197",
    "q": {
     "en": "The idiom 'stand one's ground' means —",
     "as": "'stand one's ground' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "in writing",
+     "as": "লিখিত ৰূপত"
+    },
+    {
+     "en": "in the same difficult situation",
+     "as": "একে কঠিন অৱস্থাত"
+    },
+    {
      "en": "to maintain one's position",
      "as": "নিজৰ অবস্থান অটল ৰখা"
     },
     {
-     "en": "safely achieved",
-     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
-    },
-    {
-     "en": "to act according to what one says",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
-    },
-    {
-     "en": "with some doubt",
-     "as": "কিছু সন্দেহেৰে"
+     "en": "to give up a bad habit",
+     "as": "বেয়া অভ্যাস এৰি দিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'stand one's ground' means to maintain one's position.",
     "as": "'stand one's ground' ৰ অৰ্থ হৈছে নিজৰ অবস্থান অটল ৰখা।"
    }
   },
   {
-   "id": "idioms-phrases-199",
+   "id": "idioms-phrases-198",
    "q": {
     "en": "The idiom 'steal a march' means —",
     "as": "'steal a march' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "spoken communication",
-     "as": "মুখে মুখে প্ৰচাৰ"
+     "en": "to give up a bad habit",
+     "as": "বেয়া অভ্যাস এৰি দিয়া"
     },
     {
-     "en": "very different from",
-     "as": "পৰা বহু পৃথক"
+     "en": "to memorise",
+     "as": "মনস্থ কৰা"
+    },
+    {
+     "en": "to avoid stirring up trouble",
+     "as": "সমস্যা নজগোৱাকৈ থাকা"
     },
     {
      "en": "to gain an advantage secretly",
      "as": "গুপুতে সুবিধা লাভ কৰা"
-    },
-    {
-     "en": "a controversial issue",
-     "as": "বিতৰ্কিত বিষয়"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'steal a march' means to gain an advantage secretly.",
     "as": "'steal a march' ৰ অৰ্থ হৈছে গুপুতে সুবিধা লাভ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-200",
+   "id": "idioms-phrases-199",
    "q": {
     "en": "The idiom 'stick to one's guns' means —",
     "as": "'stick to one's guns' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to earn a living",
-     "as": "জীৱিকা অৰ্জন কৰা"
-    },
-    {
-     "en": "to be in control",
-     "as": "নিয়ন্ত্ৰণত থকা"
+     "en": "to make a situation confusing",
+     "as": "অৱস্থা জটিল কৰা"
     },
     {
      "en": "to maintain one's stand firmly",
      "as": "নিজৰ মত দৃঢ়ভাৱে ৰখা"
     },
     {
-     "en": "to be busy without achieving anything",
-     "as": "একো নকৰাকৈ ব্যস্ত থকা"
+     "en": "a particular locality",
+     "as": "এক নিৰ্দিষ্ট অঞ্চল"
+    },
+    {
+     "en": "without any conditions",
+     "as": "কোনো চৰ্ত নোহোৱাকৈ"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'stick to one's guns' means to maintain one's stand firmly.",
     "as": "'stick to one's guns' ৰ অৰ্থ হৈছে নিজৰ মত দৃঢ়ভাৱে ৰখা।"
    }
   },
   {
-   "id": "idioms-phrases-201",
+   "id": "idioms-phrases-200",
    "q": {
     "en": "The idiom 'storm in a tea cup' means —",
     "as": "'storm in a tea cup' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to accept a difficult situation",
-     "as": "কঠিন অৱস্থা মানি লোৱা"
-    },
-    {
-     "en": "to deal with a problem when it arises",
-     "as": "সমস্যা আহিলে তেতিয়া সমাধান কৰা"
+     "en": "without any conditions",
+     "as": "কোনো চৰ্ত নোহোৱাকৈ"
     },
     {
      "en": "a lot of fuss over a small matter",
      "as": "সৰু কথাত অত্যধিক হুলস্থূল"
     },
     {
-     "en": "to stop doing something before losing more",
-     "as": "আৰু বেছি হেৰুওৱাৰ আগতে কাম বন্ধ কৰা"
+     "en": "free from a difficult situation",
+     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
+    },
+    {
+     "en": "in a risky position",
+     "as": "বিপদজনক অৱস্থাত"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'storm in a tea cup' means a lot of fuss over a small matter.",
     "as": "'storm in a tea cup' ৰ অৰ্থ হৈছে সৰু কথাত অত্যধিক হুলস্থূল।"
    }
   },
   {
-   "id": "idioms-phrases-202",
+   "id": "idioms-phrases-201",
    "q": {
     "en": "The idiom 'strain every nerve' means —",
     "as": "'strain every nerve' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "everyone gets a chance to succeed",
-     "as": "প্ৰত্যেকেই এদিন সফলতা পায়"
-    },
-    {
-     "en": "to be overlooked",
-     "as": "উপেক্ষিত হোৱা"
-    },
-    {
      "en": "to make the utmost effort",
      "as": "সৰ্বাধিক চেষ্টা কৰা"
     },
     {
-     "en": "to receive the same bad treatment one gives",
-     "as": "নিজে দিয়া বেয়া ব্যৱহাৰ নিজে পোৱা"
+     "en": "to pay the bill",
+     "as": "বিল পৰিশোধ কৰা"
+    },
+    {
+     "en": "something very easy",
+     "as": "অতি সহজ কাম"
+    },
+    {
+     "en": "to regain self-control",
+     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'strain every nerve' means to make the utmost effort.",
     "as": "'strain every nerve' ৰ অৰ্থ হৈছে সৰ্বাধিক চেষ্টা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-203",
+   "id": "idioms-phrases-202",
    "q": {
     "en": "The idiom 'take a back seat' means —",
     "as": "'take a back seat' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -21470,16 +21440,16 @@ module.exports = {
      "as": "কম গুৰুত্বপূৰ্ণ স্থান লোৱা"
     },
     {
-     "en": "to start planning again",
-     "as": "পুনৰ পৰিকল্পনা আৰম্ভ কৰা"
+     "en": "to disturb a stable situation",
+     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
     },
     {
-     "en": "to start something quickly and well",
-     "as": "সোনকালে আৰু ভালদৰে আৰম্ভ কৰা"
+     "en": "to avoid humiliation",
+     "as": "অপমান এৰাই চলা"
     },
     {
-     "en": "in a moment of strong emotion",
-     "as": "প্ৰবল ভাৱনাত"
+     "en": "to understand suddenly",
+     "as": "হঠাতে বুজি পোৱা"
     }
    ],
    "correct": 0,
@@ -21489,53 +21459,53 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-204",
+   "id": "idioms-phrases-203",
    "q": {
     "en": "The idiom 'take to task' means —",
     "as": "'take to task' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "neat and clean",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
+    },
+    {
+     "en": "to begin from the very beginning",
+     "as": "একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা"
+    },
+    {
      "en": "to rebuke",
      "as": "ভৎৰ্সনা কৰা"
     },
     {
-     "en": "to prevent something from harming",
-     "as": "ক্ষতিৰ পৰা বিৰত ৰখা"
-    },
-    {
-     "en": "to cause a disturbance",
-     "as": "হুলস্থূল সৃষ্টি কৰা"
-    },
-    {
-     "en": "to lose an opportunity",
-     "as": "সুযোগ হেৰুওৱা"
+     "en": "to attract all the attention",
+     "as": "সকলোৰে মনোযোগ টনা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'take to task' means to rebuke.",
     "as": "'take to task' ৰ অৰ্থ হৈছে ভৎৰ্সনা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-205",
+   "id": "idioms-phrases-204",
    "q": {
     "en": "The idiom 'talk shop' means —",
     "as": "'talk shop' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "what is normal or expected",
-     "as": "সাধাৰণ বা প্ৰত্যাশিত"
+     "en": "an extra benefit",
+     "as": "অতিৰিক্ত লাভ"
     },
     {
-     "en": "to act without a fixed plan",
-     "as": "নিৰ্দিষ্ট পৰিকল্পনা নোহোৱাকৈ কাম কৰা"
+     "en": "a small visible part of a big problem",
+     "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
     },
     {
-     "en": "to stop something from continuing",
-     "as": "কাম চলি থাকিবলৈ বাধা দিয়া"
+     "en": "to explain something",
+     "as": "কিবা ব্যাখ্যা কৰা"
     },
     {
      "en": "to talk about one's work",
@@ -21549,113 +21519,83 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-206",
+   "id": "idioms-phrases-205",
    "q": {
     "en": "The idiom 'tall talk' is used to mean —",
     "as": "'tall talk' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to warn someone firmly",
-     "as": "কঠোৰভাৱে সকীয়নি দিয়া"
-    },
-    {
-     "en": "to sound familiar",
-     "as": "চিনাকি যেন লাগা"
-    },
-    {
      "en": "boastful talk",
      "as": "আত্মপ্ৰশংসামূলক কথা"
     },
     {
-     "en": "a rough practical method",
-     "as": "মোটামুটি ব্যৱহাৰিক নিয়ম"
+     "en": "a risky and uncertain situation",
+     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
+    },
+    {
+     "en": "to pass the worst part of a crisis",
+     "as": "সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা"
+    },
+    {
+     "en": "to be clumsy at dancing or movement",
+     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'tall talk' means boastful talk.",
     "as": "'tall talk' ৰ অৰ্থ হৈছে আত্মপ্ৰশংসামূলক কথা।"
    }
   },
   {
-   "id": "idioms-phrases-207",
-   "q": {
-    "en": "The idiom 'the acid test' means —",
-    "as": "'the acid test' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a decisive test of value",
-     "as": "মূল্যৰ নিষ্পত্তিমূলক পৰীক্ষা"
-    },
-    {
-     "en": "to take credit for another's idea",
-     "as": "আনৰ ধাৰণাৰ কৃতিত্ব লোৱা"
-    },
-    {
-     "en": "to decide to do something risky",
-     "as": "বিপদজনক কাম কৰাৰ সিদ্ধান্ত লোৱা"
-    },
-    {
-     "en": "an obvious problem everyone ignores",
-     "as": "সকলোৱে উপেক্ষা কৰা স্পষ্ট সমস্যা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'the acid test' means a decisive test of value.",
-    "as": "'the acid test' ৰ অৰ্থ হৈছে মূল্যৰ নিষ্পত্তিমূলক পৰীক্ষা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-208",
+   "id": "idioms-phrases-206",
    "q": {
     "en": "The idiom 'the last word' means —",
     "as": "'the last word' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "with some doubt",
+     "as": "কিছু সন্দেহেৰে"
+    },
+    {
+     "en": "spoken communication",
+     "as": "মুখে মুখে প্ৰচাৰ"
+    },
+    {
      "en": "the final decision",
      "as": "অন্তিম সিদ্ধান্ত"
     },
     {
-     "en": "to give up",
-     "as": "হাৰ মানি এৰি দিয়া"
-    },
-    {
-     "en": "to get married",
-     "as": "বিবাহ কৰা"
-    },
-    {
-     "en": "to ignore something deliberately",
-     "as": "ইচ্ছাকৃতভাৱে উপেক্ষা কৰা"
+     "en": "very different from",
+     "as": "পৰা বহু পৃথক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'the last word' means the final decision.",
     "as": "'the last word' ৰ অৰ্থ হৈছে অন্তিম সিদ্ধান্ত।"
    }
   },
   {
-   "id": "idioms-phrases-209",
+   "id": "idioms-phrases-207",
    "q": {
     "en": "The idiom 'throw cold water' means —",
     "as": "'throw cold water' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a past matter no longer important",
-     "as": "পুৰণি আৰু এতিয়া অপ্ৰাসংগিক বিষয়"
+     "en": "a sudden and unexpected shock",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
     },
     {
-     "en": "to survive a difficult period",
-     "as": "কঠিন সময় পাৰ কৰি যোৱা"
+     "en": "a person used by another to do something risky",
+     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
     },
     {
-     "en": "young and inexperienced",
-     "as": "ডেকা আৰু অনভিজ্ঞ"
+     "en": "a very miserly person",
+     "as": "অতি কৃপণ ব্যক্তি"
     },
     {
      "en": "to discourage",
@@ -21669,127 +21609,127 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-210",
+   "id": "idioms-phrases-208",
    "q": {
     "en": "The idiom 'throw dust in one's eyes' means —",
     "as": "'throw dust in one's eyes' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "a person in an uncomfortable situation",
+     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
+    },
+    {
+     "en": "a day of festivity",
+     "as": "উৎসৱৰ দিন"
+    },
+    {
      "en": "to deceive",
      "as": "প্ৰতাৰণা কৰা"
     },
     {
-     "en": "in a straight line",
-     "as": "পোন ৰেখাত"
-    },
-    {
-     "en": "very slowly",
-     "as": "অতি লেহেমীয়াকৈ"
-    },
-    {
-     "en": "to try very hard to help",
-     "as": "সহায় কৰিবলৈ বহুত চেষ্টা কৰা"
+     "en": "a task requiring great strength",
+     "as": "অতি কঠিন কাম"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'throw dust in one's eyes' means to deceive.",
     "as": "'throw dust in one's eyes' ৰ অৰ্থ হৈছে প্ৰতাৰণা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-211",
+   "id": "idioms-phrases-209",
    "q": {
     "en": "The idiom 'tide over' means —",
     "as": "'tide over' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to take all of someone's money",
-     "as": "কাৰোবাৰ সকলো ধন লৈ লোৱা"
+     "en": "a scholar or writer",
+     "as": "পণ্ডিত বা লেখক"
     },
     {
-     "en": "good luck",
-     "as": "শুভ কামনা"
+     "en": "a man of many talents",
+     "as": "বহু প্ৰতিভাৰ মানুহ"
+    },
+    {
+     "en": "a person of no substance or worth",
+     "as": "নগণ্য বা মূল্যহীন ব্যক্তি"
     },
     {
      "en": "to help through a difficulty",
      "as": "অসুবিধা অতিক্ৰম কৰাত সহায় কৰা"
-    },
-    {
-     "en": "to destroy all chances of return",
-     "as": "ঘূৰি অহাৰ সকলো সুযোগ নষ্ট কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'tide over' means to help through a difficulty.",
     "as": "'tide over' ৰ অৰ্থ হৈছে অসুবিধা অতিক্ৰম কৰাত সহায় কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-212",
+   "id": "idioms-phrases-210",
    "q": {
     "en": "The idiom 'till the cows come home' means —",
     "as": "'till the cows come home' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a state of great happiness",
-     "as": "মহান আনন্দৰ অৱস্থা"
+     "en": "great excitement over a small matter",
+     "as": "সৰু কথাত ডাঙৰ হুলস্থূল"
     },
     {
-     "en": "whatever happens",
-     "as": "যি নহওক কিয়"
-    },
-    {
-     "en": "to raise a false alarm",
-     "as": "মিছা সতৰ্কবাণী দিয়া"
+     "en": "a useless search or pursuit",
+     "as": "নিষ্প্ৰয়োজনীয় অনুসন্ধান"
     },
     {
      "en": "for a very long time",
      "as": "অতি দীঘল সময়লৈকে"
+    },
+    {
+     "en": "honest and open",
+     "as": "সৎ আৰু মুকলি"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'till the cows come home' means for a very long time.",
     "as": "'till the cows come home' ৰ অৰ্থ হৈছে অতি দীঘল সময়লৈকে।"
    }
   },
   {
-   "id": "idioms-phrases-213",
+   "id": "idioms-phrases-211",
    "q": {
     "en": "The idiom 'to be at sea' means —",
     "as": "'to be at sea' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be lucky after a difficulty",
-     "as": "অসুবিধাৰ পিছত ভাগ্যৱান হোৱা"
-    },
-    {
-     "en": "an unnoticed observer",
-     "as": "লক্ষ্য নকৰা পৰ্যবেক্ষক"
+     "en": "very clumsy",
+     "as": "অতি অপটু"
     },
     {
      "en": "to be confused",
      "as": "হতবুদ্ধি হোৱা"
     },
     {
-     "en": "to organise oneself effectively",
-     "as": "নিজকে প্ৰভাৱকৰভাৱে সংগঠিত কৰা"
+     "en": "a decisive test",
+     "as": "নিষ্পত্তিমূলক পৰীক্ষা"
+    },
+    {
+     "en": "a cause of quarrel",
+     "as": "বিবাদৰ মূল কাৰণ"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'to be at sea' means to be confused.",
     "as": "'to be at sea' ৰ অৰ্থ হৈছে হতবুদ্ধি হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-214",
+   "id": "idioms-phrases-212",
    "q": {
     "en": "The idiom 'to be in the dark' is used to mean —",
     "as": "'to be in the dark' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -21800,16 +21740,16 @@ module.exports = {
      "as": "অজ্ঞ থকা"
     },
     {
-     "en": "to go to bed",
-     "as": "শুবলৈ যোৱা"
+     "en": "a very difficult task",
+     "as": "অতি কঠিন কাম"
     },
     {
-     "en": "at the highest level of activity",
-     "as": "সৰ্বোচ্চ সক্ৰিয়তাত"
+     "en": "a person dearly loved",
+     "as": "অতি প্ৰিয় ব্যক্তি"
     },
     {
-     "en": "over a long period",
-     "as": "দীৰ্ঘকালত"
+     "en": "a critic who does nothing himself",
+     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
     }
    ],
    "correct": 0,
@@ -21819,7 +21759,7 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-215",
+   "id": "idioms-phrases-213",
    "q": {
     "en": "The idiom 'to be in the doldrums' means —",
     "as": "'to be in the doldrums' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -21830,16 +21770,16 @@ module.exports = {
      "as": "হতাশ অৱস্থাত থকা"
     },
     {
-     "en": "to accept a situation calmly",
-     "as": "অৱস্থা শান্তভাৱে মানি লোৱা"
+     "en": "something easily understood",
+     "as": "সহজতে বুজিব পৰা বস্তু"
     },
     {
-     "en": "to go to bed",
-     "as": "শুবলৈ যোৱা"
+     "en": "a very difficult task",
+     "as": "অতি কঠিন কাম"
     },
     {
-     "en": "at the highest level of activity",
-     "as": "সৰ্বোচ্চ সক্ৰিয়তাত"
+     "en": "a person dearly loved",
+     "as": "অতি প্ৰিয় ব্যক্তি"
     }
    ],
    "correct": 0,
@@ -21849,247 +21789,187 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-216",
-   "q": {
-    "en": "The idiom 'to bell the cat' is used to mean —",
-    "as": "'to bell the cat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "over a long period",
-     "as": "দীৰ্ঘকালত"
-    },
-    {
-     "en": "to act too soon",
-     "as": "অতি সোনকালে কাম কৰা"
-    },
-    {
-     "en": "to watch carefully",
-     "as": "সাৱধানেৰে চকু ৰখা"
-    },
-    {
-     "en": "to face a risk for others",
-     "as": "আনৰ বাবে বিপদ মূৰত লোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'to bell the cat' means to face a risk for others.",
-    "as": "'to bell the cat' ৰ অৰ্থ হৈছে আনৰ বাবে বিপদ মূৰত লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-217",
+   "id": "idioms-phrases-214",
    "q": {
     "en": "The idiom 'to carry the day' is used to mean —",
     "as": "'to carry the day' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to learn how a job is done",
-     "as": "কাম কেনেকৈ কৰা হয় শিকা"
-    },
-    {
      "en": "to win the victory",
      "as": "বিজয় লাভ কৰা"
     },
     {
-     "en": "to tolerate others' ways",
-     "as": "আনৰ ধৰণ সহ্য কৰা"
+     "en": "in bitter enmity",
+     "as": "তীব্ৰ শত্ৰুতাত"
     },
     {
-     "en": "to be optimistic",
-     "as": "আশাবাদী হোৱা"
+     "en": "at liberty or as a whole",
+     "as": "মুক্ত অৱস্থাত বা সমগ্ৰভাৱে"
+    },
+    {
+     "en": "known thoroughly",
+     "as": "সম্পূৰ্ণভাৱে জানি থোৱা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'to carry the day' means to win the victory.",
     "as": "'to carry the day' ৰ অৰ্থ হৈছে বিজয় লাভ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-218",
+   "id": "idioms-phrases-215",
    "q": {
     "en": "The idiom 'to cry over spilt milk' is used to mean —",
     "as": "'to cry over spilt milk' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "not for publication",
-     "as": "প্ৰকাশৰ বাবে নহয়"
-    },
-    {
-     "en": "free of charge",
-     "as": "বিনামূলীয়া"
-    },
-    {
      "en": "to regret what cannot be undone",
      "as": "হৈ যোৱা কামৰ বাবে অনুতাপ কৰা"
     },
     {
-     "en": "out of control",
-     "as": "নিয়ন্ত্ৰণৰ বাহিৰত"
+     "en": "at the last possible moment",
+     "as": "শেষ মুহূৰ্তত"
+    },
+    {
+     "en": "immediately",
+     "as": "তৎক্ষণাত"
+    },
+    {
+     "en": "ill feeling between people",
+     "as": "মানুহৰ মাজত শত্ৰুতা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'to cry over spilt milk' means to regret what cannot be undone.",
     "as": "'to cry over spilt milk' ৰ অৰ্থ হৈছে হৈ যোৱা কামৰ বাবে অনুতাপ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-219",
+   "id": "idioms-phrases-216",
    "q": {
     "en": "The idiom 'to cut one's coat according to one's cloth' means —",
     "as": "'to cut one's coat according to one's cloth' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a misleading clue",
-     "as": "ভুল পথলৈ নিয়া সূত্ৰ"
+     "en": "beyond the power of words to describe",
+     "as": "বৰ্ণনা কৰিব নোৱাৰা"
+    },
+    {
+     "en": "secretly",
+     "as": "গুপুতে"
+    },
+    {
+     "en": "to take the risk of doing something",
+     "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
     },
     {
      "en": "to live within one's means",
      "as": "আয়ৰ লগত খৰচ মিলাই চলা"
-    },
-    {
-     "en": "to wake up and get going",
-     "as": "সাৰ পাই কামত লাগা"
-    },
-    {
-     "en": "to continue until finished",
-     "as": "শেষলৈকে চলাই ৰখা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'to cut one's coat according to one's cloth' means to live within one's means.",
     "as": "'to cut one's coat according to one's cloth' ৰ অৰ্থ হৈছে আয়ৰ লগত খৰচ মিলাই চলা।"
    }
   },
   {
-   "id": "idioms-phrases-220",
-   "q": {
-    "en": "The idiom 'to cut the Gordian knot' means —",
-    "as": "'to cut the Gordian knot' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reveal one's real nature",
-     "as": "নিজৰ প্ৰকৃত স্বভাৱ প্ৰকাশ কৰা"
-    },
-    {
-     "en": "to postpone an invitation",
-     "as": "নিমন্ত্ৰণ পিছুৱাই দিয়া"
-    },
-    {
-     "en": "to solve a problem by bold action",
-     "as": "সাহসী কামেৰে সমস্যা সমাধান কৰা"
-    },
-    {
-     "en": "to relax",
-     "as": "জিৰণি লোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'to cut the Gordian knot' means to solve a problem by bold action.",
-    "as": "'to cut the Gordian knot' ৰ অৰ্থ হৈছে সাহসী কামেৰে সমস্যা সমাধান কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-221",
+   "id": "idioms-phrases-217",
    "q": {
     "en": "The idiom 'to eat one's words' is used to mean —",
     "as": "'to eat one's words' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to take a big risk",
-     "as": "ডাঙৰ ঝুঁকি লোৱা"
-    },
-    {
-     "en": "time passes quickly",
-     "as": "সময় লৰালৰিকৈ যায়"
-    },
-    {
-     "en": "in secret and illegally",
-     "as": "গোপনে আৰু অবৈধভাৱে"
-    },
-    {
      "en": "to take back what one has said",
      "as": "কোৱা কথা ঘূৰাই লোৱা"
+    },
+    {
+     "en": "to take the risk of doing something",
+     "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
+    },
+    {
+     "en": "between two equal dangers",
+     "as": "দুটা সমান বিপদৰ মাজত"
+    },
+    {
+     "en": "a general view from above",
+     "as": "ওপৰৰ পৰা চোৱা সাধাৰণ দৃশ্য"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'to eat one's words' means to take back what one has said.",
     "as": "'to eat one's words' ৰ অৰ্থ হৈছে কোৱা কথা ঘূৰাই লোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-222",
+   "id": "idioms-phrases-218",
    "q": {
     "en": "The idiom 'to flog a dead horse' means —",
     "as": "'to flog a dead horse' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "with a warm welcome",
-     "as": "আন্তৰিক স্বাগতমেৰে"
+     "en": "to change one's attitude repeatedly",
+     "as": "মন সঘনে সলনি কৰা"
     },
     {
-     "en": "I do not know either",
-     "as": "ময়ো নাজানো"
-    },
-    {
-     "en": "a picture conveys more than words",
-     "as": "ছবিৰ প্ৰভাৱ শব্দতকৈ বেছি"
+     "en": "to praise oneself",
+     "as": "নিজৰ প্ৰশংসা কৰা"
     },
     {
      "en": "to waste effort on a hopeless matter",
      "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
+    },
+    {
+     "en": "noble birth",
+     "as": "অভিজাত জন্ম"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'to flog a dead horse' means to waste effort on a hopeless matter.",
     "as": "'to flog a dead horse' ৰ অৰ্থ হৈছে আশাহীন কামত শ্ৰম নষ্ট কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-223",
+   "id": "idioms-phrases-219",
    "q": {
     "en": "The idiom 'to have a finger in every pie' is used to mean —",
     "as": "'to have a finger in every pie' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to punish or question",
+     "as": "শাস্তি দিয়া বা প্ৰশ্ন কৰা"
+    },
+    {
+     "en": "to waste energy in two directions",
+     "as": "দুইদিশে শক্তি অপচয় কৰা"
+    },
+    {
+     "en": "to study late into the night",
+     "as": "ৰাতি দেৰিলৈকে পঢ়া"
+    },
+    {
      "en": "to be involved in many things",
      "as": "বহু কামত জড়িত থকা"
-    },
-    {
-     "en": "to take on too much",
-     "as": "সাধ্যতকৈ বেছি কাম লোৱা"
-    },
-    {
-     "en": "a hidden benefit",
-     "as": "লুকুৱা লাভ"
-    },
-    {
-     "en": "a feeling of nervousness",
-     "as": "স্নায়ুচাপৰ অনুভৱ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "'to have a finger in every pie' means to be involved in many things.",
     "as": "'to have a finger in every pie' ৰ অৰ্থ হৈছে বহু কামত জড়িত থকা।"
    }
   },
   {
-   "id": "idioms-phrases-224",
+   "id": "idioms-phrases-220",
    "q": {
     "en": "The idiom 'to have one's hands full' means —",
     "as": "'to have one's hands full' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -22100,16 +21980,16 @@ module.exports = {
      "as": "অতি ব্যস্ত থকা"
     },
     {
-     "en": "very common and cheap",
-     "as": "অতি সাধাৰণ আৰু সস্তা"
+     "en": "to bring disgrace",
+     "as": "কলংক আনি দিয়া"
     },
     {
-     "en": "do not assume success too early",
-     "as": "আগতেই সফলতা ধৰি নল'ব"
+     "en": "to offer something valuable to those who cannot appreciate it",
+     "as": "মূল্যবান বস্তু অযোগ্যক দিয়া"
     },
     {
-     "en": "close and careful watchfulness",
-     "as": "নিবিড় আৰু সাৱধানেৰে নিৰীক্ষণ"
+     "en": "to meet one's match",
+     "as": "সমক্ষমতাসম্পন্ন লগ পোৱা"
     }
    ],
    "correct": 0,
@@ -22119,27 +21999,27 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-225",
+   "id": "idioms-phrases-221",
    "q": {
     "en": "The idiom 'to hit below the belt' is used to mean —",
     "as": "'to hit below the belt' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "earlier arrivals get preference",
-     "as": "প্ৰথম অহাজনে প্ৰথমে পায়"
+     "en": "a child very like its parent",
+     "as": "পিতৃ-মাতৃৰ লগত একে ল'ৰা-ছোৱালী"
     },
     {
-     "en": "wasting effort on a hopeless task",
-     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
+     "en": "to remove misunderstanding",
+     "as": "ভুল বুজাবুজি আঁতৰোৱা"
     },
     {
      "en": "to act unfairly",
      "as": "অন্যায়ভাৱে ব্যৱহাৰ কৰা"
     },
     {
-     "en": "to stop working or to die",
-     "as": "কাম বন্ধ হোৱা বা মৃত্যু হোৱা"
+     "en": "an unbelievable tale",
+     "as": "অবিশ্বাস্য কাহিনী"
     }
    ],
    "correct": 2,
@@ -22149,447 +22029,387 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-226",
+   "id": "idioms-phrases-222",
    "q": {
     "en": "The idiom 'to keep one's head' means —",
     "as": "'to keep one's head' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be in a precarious state",
-     "as": "অতি বিপদজনক অৱস্থাত থকা"
-    },
-    {
      "en": "to remain calm",
      "as": "শান্ত থাকা"
     },
     {
-     "en": "to feel nervous",
-     "as": "স্নায়ুচাপ অনুভৱ কৰা"
+     "en": "an unbelievable tale",
+     "as": "অবিশ্বাস্য কাহিনী"
     },
     {
-     "en": "to encounter an unexpected problem",
-     "as": "অপ্ৰত্যাশিত সমস্যা লগ পোৱা"
+     "en": "to succeed brilliantly",
+     "as": "চমকপ্ৰদভাৱে সফল হোৱা"
+    },
+    {
+     "en": "to wait for a long time",
+     "as": "বহু সময় অপেক্ষা কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'to keep one's head' means to remain calm.",
     "as": "'to keep one's head' ৰ অৰ্থ হৈছে শান্ত থাকা।"
    }
   },
   {
-   "id": "idioms-phrases-227",
+   "id": "idioms-phrases-223",
    "q": {
     "en": "The idiom 'to let bygones be bygones' is used to mean —",
     "as": "'to let bygones be bygones' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "very quickly",
-     "as": "অতি ক্ষিপ্ৰভাৱে"
+     "en": "to make a poor impression",
+     "as": "বেয়া ধাৰণা দিয়া"
+    },
+    {
+     "en": "to solve a difficult problem boldly",
+     "as": "কঠিন সমস্যা সাহসেৰে সমাধান কৰা"
+    },
+    {
+     "en": "strongly opposed",
+     "as": "তীব্ৰ বিৰোধিতা কৰা"
     },
     {
      "en": "to forget past quarrels",
      "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
-    },
-    {
-     "en": "it is not complicated",
-     "as": "এইটো জটিল নহয়"
-    },
-    {
-     "en": "to remain cheerful in difficulty",
-     "as": "অসুবিধাতো উৎসাহেৰে থাকা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'to let bygones be bygones' means to forget past quarrels.",
     "as": "'to let bygones be bygones' ৰ অৰ্থ হৈছে পুৰণি ঝগড়া পাহৰি যোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-228",
+   "id": "idioms-phrases-224",
    "q": {
     "en": "The idiom 'to make a long story short' means —",
     "as": "'to make a long story short' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "something very pleasant to hear",
-     "as": "শুনিবলৈ অতি মনোৰম"
+     "en": "no score at all",
+     "as": "শূন্য নম্বৰ"
     },
     {
-     "en": "to stop something early",
-     "as": "আৰম্ভণিতে ৰোধ কৰা"
+     "en": "to apologise humbly",
+     "as": "বিনয়ভাৱে ক্ষমা খোজা"
+    },
+    {
+     "en": "enough space to move",
+     "as": "চলাৰ বাবে পৰ্যাপ্ত ঠাই"
     },
     {
      "en": "to come to the point quickly",
      "as": "সোনকালে মূল কথালৈ অহা"
-    },
-    {
-     "en": "mutual dislike between two people",
-     "as": "দুজনৰ মাজত পৰস্পৰ অপছন্দ"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'to make a long story short' means to come to the point quickly.",
     "as": "'to make a long story short' ৰ অৰ্থ হৈছে সোনকালে মূল কথালৈ অহা।"
    }
   },
   {
-   "id": "idioms-phrases-229",
+   "id": "idioms-phrases-225",
    "q": {
     "en": "The idiom 'to make ends meet' means —",
     "as": "'to make ends meet' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "likely to happen",
-     "as": "ঘটিবলৈ সম্ভাৱনা থকা"
-    },
-    {
-     "en": "very rare",
-     "as": "জীৱনত এবাৰহে হোৱা"
+     "en": "to bear the consequences",
+     "as": "পৰিণাম ভোগ কৰা"
     },
     {
      "en": "to manage with one's income",
      "as": "আয়ৰ ভিতৰত চলা"
     },
     {
-     "en": "asking what someone is thinking",
-     "as": "কি ভাবিছ সুধিবলৈ কোৱা"
+     "en": "honest and straightforward",
+     "as": "সৎ আৰু সোজা"
+    },
+    {
+     "en": "to fail to produce an effect",
+     "as": "কোনো প্ৰভাৱ নজনোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'to make ends meet' means to manage with one's income.",
     "as": "'to make ends meet' ৰ অৰ্থ হৈছে আয়ৰ ভিতৰত চলা।"
    }
   },
   {
-   "id": "idioms-phrases-230",
+   "id": "idioms-phrases-226",
    "q": {
     "en": "The idiom 'to move heaven and earth' is used to mean —",
     "as": "'to move heaven and earth' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to do one's fair share of work",
-     "as": "নিজৰ ন্যায্য অংশৰ কাম কৰা"
-    },
-    {
-     "en": "to be quiet",
-     "as": "চুপ থাকা"
-    },
-    {
-     "en": "to act according to one's words",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
+     "en": "to fail to produce an effect",
+     "as": "কোনো প্ৰভাৱ নজনোৱা"
     },
     {
      "en": "to make every possible effort",
      "as": "সকলো সম্ভৱ চেষ্টা কৰা"
+    },
+    {
+     "en": "a great distance",
+     "as": "অতি বেছি ব্যৱধান"
+    },
+    {
+     "en": "to enrich oneself dishonestly",
+     "as": "অসততাৰে নিজৰ স্বাৰ্থ চৰিতাৰ্থ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'to move heaven and earth' means to make every possible effort.",
     "as": "'to move heaven and earth' ৰ অৰ্থ হৈছে সকলো সম্ভৱ চেষ্টা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-231",
-   "q": {
-    "en": "The idiom 'to nip in the bud' is used to mean —",
-    "as": "'to nip in the bud' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to use the last poor remaining resources",
-     "as": "শেষ অৱশিষ্ট বেয়া সম্পদ ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to do nothing",
-     "as": "একো নকৰা"
-    },
-    {
-     "en": "the person we were talking about has arrived",
-     "as": "যাৰ কথা কৈছিলোঁ তেওঁ আহি পালে"
-    },
-    {
-     "en": "to destroy at an early stage",
-     "as": "আৰম্ভণিতে ধ্বংস কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'to nip in the bud' means to destroy at an early stage.",
-    "as": "'to nip in the bud' ৰ অৰ্থ হৈছে আৰম্ভণিতে ধ্বংস কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-232",
+   "id": "idioms-phrases-227",
    "q": {
     "en": "The idiom 'to pass the buck' means —",
     "as": "'to pass the buck' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to attract all the attention",
-     "as": "সকলোৰে মনোযোগ আকৰ্ষণ কৰা"
+     "en": "to take advantage of disturbance",
+     "as": "অশান্তিৰ সুযোগ লোৱা"
     },
     {
-     "en": "to be the most outstanding",
-     "as": "আটাইতকৈ উল্লেখনীয় হোৱা"
-    },
-    {
-     "en": "it is one's turn to act",
-     "as": "কাম কৰাৰ পাল কাৰোবাৰ"
+     "en": "to lose one's temper suddenly",
+     "as": "হঠাতে খং উঠা"
     },
     {
      "en": "to shift responsibility to another",
      "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
+    },
+    {
+     "en": "to do the same thing",
+     "as": "একে ধৰণৰ কাম কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'to pass the buck' means to shift responsibility to another.",
     "as": "'to pass the buck' ৰ অৰ্থ হৈছে দায়িত্ব আনলৈ ঠেলি দিয়া।"
    }
   },
   {
-   "id": "idioms-phrases-233",
+   "id": "idioms-phrases-228",
    "q": {
     "en": "The idiom 'to play fast and loose' means —",
     "as": "'to play fast and loose' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to ignore deliberately",
-     "as": "ইচ্ছাকৃতভাৱে উপেক্ষা কৰা"
-    },
-    {
-     "en": "very similar",
-     "as": "অতি একে ধৰণৰ"
-    },
-    {
-     "en": "to be in a delicate situation",
-     "as": "নাজুক অৱস্থাত থকা"
-    },
-    {
      "en": "to behave irresponsibly",
      "as": "দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা"
+    },
+    {
+     "en": "the ability to speak fluently",
+     "as": "সহজে ধাৰাপাতভাৱে কোৱাৰ ক্ষমতা"
+    },
+    {
+     "en": "to keep away from",
+     "as": "দূৰৈত থাকা"
+    },
+    {
+     "en": "to treat with indifference",
+     "as": "অৱহেলাৰে ব্যৱহাৰ কৰা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'to play fast and loose' means to behave irresponsibly.",
     "as": "'to play fast and loose' ৰ অৰ্থ হৈছে দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-234",
+   "id": "idioms-phrases-229",
    "q": {
     "en": "The idiom 'to pull a long face' means —",
     "as": "'to pull a long face' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to disown responsibility",
-     "as": "দায়িত্ব অস্বীকাৰ কৰা"
-    },
-    {
      "en": "to look sad or disappointed",
      "as": "দুখ বা হতাশ দেখুওৱা"
     },
     {
-     "en": "with sadness",
-     "as": "দুখেৰে"
+     "en": "to treat with indifference",
+     "as": "অৱহেলাৰে ব্যৱহাৰ কৰা"
     },
     {
-     "en": "a hidden danger",
-     "as": "লুকুৱা বিপদ"
+     "en": "to be defeated or ruined",
+     "as": "পৰাজিত বা বৰ্বাদ হোৱা"
+    },
+    {
+     "en": "to bribe",
+     "as": "ঘোচ দিয়া"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'to pull a long face' means to look sad or disappointed.",
     "as": "'to pull a long face' ৰ অৰ্থ হৈছে দুখ বা হতাশ দেখুওৱা।"
    }
   },
   {
-   "id": "idioms-phrases-235",
+   "id": "idioms-phrases-230",
    "q": {
     "en": "The idiom 'to put up with' is used to mean —",
     "as": "'to put up with' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to reach a crisis point",
-     "as": "সংকটৰ শিখৰত উপনীত হোৱা"
+     "en": "in close association",
+     "as": "ঘনিষ্ঠ সংযোগত"
+    },
+    {
+     "en": "a difficult problem",
+     "as": "কঠিন সমস্যা"
+    },
+    {
+     "en": "to be obsessed with an idea",
+     "as": "এটা ভাৱনাত মগ্ন থকা"
     },
     {
      "en": "to tolerate",
      "as": "সহ্য কৰা"
-    },
-    {
-     "en": "to invent a false story",
-     "as": "মিছা কাহিনী সাজি উলিওৱা"
-    },
-    {
-     "en": "to delay deliberately",
-     "as": "ইচ্ছাকৃতভাৱে পলম কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'to put up with' means to tolerate.",
     "as": "'to put up with' ৰ অৰ্থ হৈছে সহ্য কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-236",
+   "id": "idioms-phrases-231",
    "q": {
     "en": "The idiom 'to read between the lines' is used to mean —",
     "as": "'to read between the lines' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to make someone very annoyed",
-     "as": "কাকো অতি বিৰক্ত কৰা"
-    },
-    {
-     "en": "to fail to reach a standard",
-     "as": "মানত উপনীত হ'ব নোৱৰা"
-    },
-    {
-     "en": "to start something",
-     "as": "কিবা আৰম্ভ কৰা"
-    },
-    {
      "en": "to understand the hidden meaning",
      "as": "লুকুৱা অৰ্থ বুজা"
+    },
+    {
+     "en": "in a helpless condition",
+     "as": "অসহায় অৱস্থাত"
+    },
+    {
+     "en": "to do or say the right thing",
+     "as": "সঠিক কাম বা কথা কৰা"
+    },
+    {
+     "en": "to be logically sound",
+     "as": "যুক্তিসংগত হোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'to read between the lines' means to understand the hidden meaning.",
     "as": "'to read between the lines' ৰ অৰ্থ হৈছে লুকুৱা অৰ্থ বুজা।"
    }
   },
   {
-   "id": "idioms-phrases-237",
+   "id": "idioms-phrases-232",
    "q": {
     "en": "The idiom 'to see red' is used to mean —",
     "as": "'to see red' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to reconsider a decision",
-     "as": "সিদ্ধান্ত পুনৰ বিবেচনা কৰা"
-    },
-    {
-     "en": "to wait patiently",
-     "as": "ধৈৰ্য ধৰি অপেক্ষা কৰা"
-    },
-    {
-     "en": "making a profit",
-     "as": "লাভ কৰি থকা"
-    },
-    {
      "en": "to become very angry",
      "as": "অতি খঙাল হোৱা"
+    },
+    {
+     "en": "in good health",
+     "as": "সুস্থ অৱস্থাত"
+    },
+    {
+     "en": "in trouble",
+     "as": "সমস্যাত"
+    },
+    {
+     "en": "just in time",
+     "as": "ঠিক সময়ত"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'to see red' means to become very angry.",
     "as": "'to see red' ৰ অৰ্থ হৈছে অতি খঙাল হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-238",
+   "id": "idioms-phrases-233",
    "q": {
     "en": "The idiom 'to set the Thames on fire' means —",
     "as": "'to set the Thames on fire' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "given low priority",
-     "as": "কম গুৰুত্ব দিয়া"
+     "en": "to live in constant quarrelling",
+     "as": "সদায় ঝগড়া কৰি জীৱন কটোৱা"
+    },
+    {
+     "en": "to try every possible means",
+     "as": "সকলো সম্ভৱ উপায় চেষ্টা কৰা"
     },
     {
      "en": "to do something remarkable",
      "as": "উল্লেখনীয় কাম কৰা"
     },
     {
-     "en": "to create a complicated problem",
-     "as": "জটিল সমস্যা সৃষ্টি কৰা"
-    },
-    {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
+     "en": "an ambiguous compliment",
+     "as": "দুই অৰ্থৰ প্ৰশংসা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'to set the Thames on fire' means to do something remarkable.",
     "as": "'to set the Thames on fire' ৰ অৰ্থ হৈছে উল্লেখনীয় কাম কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-239",
-   "q": {
-    "en": "The idiom 'to smell a rat' is used to mean —",
-    "as": "'to smell a rat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to give strict orders",
-     "as": "কঠোৰ আদেশ দিয়া"
-    },
-    {
-     "en": "to release pent-up emotions",
-     "as": "চাপি ৰখা ভাৱনা মুকলি কৰা"
-    },
-    {
-     "en": "to ignore wrongdoing",
-     "as": "অন্যায় উপেক্ষা কৰা"
-    },
-    {
-     "en": "to suspect a trick",
-     "as": "চক্ৰান্তৰ সন্দেহ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'to smell a rat' means to suspect a trick.",
-    "as": "'to smell a rat' ৰ অৰ্থ হৈছে চক্ৰান্তৰ সন্দেহ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-240",
+   "id": "idioms-phrases-234",
    "q": {
     "en": "The idiom 'to take a leaf out of someone's book' means —",
     "as": "'to take a leaf out of someone's book' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
+     "en": "friends and relatives",
+     "as": "বন্ধু-বান্ধৱ আৰু আত্মীয়"
     },
     {
      "en": "to imitate someone",
      "as": "কাৰোবাৰ অনুকৰণ কৰা"
     },
     {
-     "en": "to make something possible",
-     "as": "কিবা সম্ভৱ কৰি তোলা"
+     "en": "to defeat completely",
+     "as": "সম্পূৰ্ণভাৱে পৰাজিত কৰা"
     },
     {
-     "en": "to pretend to be uninterested",
-     "as": "অনিচ্ছুক যেন দেখুওৱা"
+     "en": "a person who is weak or ineffective",
+     "as": "দুৰ্বল বা অক্ষম ব্যক্তি"
     }
    ],
    "correct": 1,
@@ -22599,143 +22419,143 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-241",
+   "id": "idioms-phrases-235",
    "q": {
     "en": "The idiom 'to take the bull by the horns' is used to mean —",
     "as": "'to take the bull by the horns' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to live in constant quarrelling",
+     "as": "সদায় ঝগড়া কৰি জীৱন কটোৱা"
+    },
+    {
      "en": "to face a danger boldly",
      "as": "সাহসেৰে বিপদৰ সন্মুখীন হোৱা"
     },
     {
-     "en": "to calm a dispute",
-     "as": "বিবাদ শান্ত কৰা"
+     "en": "to try every possible means",
+     "as": "সকলো সম্ভৱ উপায় চেষ্টা কৰা"
     },
     {
-     "en": "to deceive someone",
-     "as": "কাকো প্ৰতাৰণা কৰা"
-    },
-    {
-     "en": "to go beyond normal limits",
-     "as": "সাধাৰণ সীমাৰ বাহিৰলৈ যোৱা"
+     "en": "an ambiguous compliment",
+     "as": "দুই অৰ্থৰ প্ৰশংসা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'to take the bull by the horns' means to face a danger boldly.",
     "as": "'to take the bull by the horns' ৰ অৰ্থ হৈছে সাহসেৰে বিপদৰ সন্মুখীন হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-242",
+   "id": "idioms-phrases-236",
    "q": {
     "en": "The idiom 'to throw in the towel' is used to mean —",
     "as": "'to throw in the towel' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to operate smoothly",
-     "as": "মসৃণভাৱে চলা"
-    },
-    {
-     "en": "to help someone in return for help",
-     "as": "সহায়ৰ বিনিময়ত সহায় কৰা"
+     "en": "to become discouraged",
+     "as": "হতাশ হোৱা"
     },
     {
      "en": "to admit defeat",
      "as": "পৰাজয় স্বীকাৰ কৰা"
     },
     {
-     "en": "to finalise an agreement",
-     "as": "চুক্তি চূড়ান্ত কৰা"
+     "en": "to confess fully",
+     "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
+    },
+    {
+     "en": "to live within one's income",
+     "as": "আয়ৰ ভিতৰত চলা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'to throw in the towel' means to admit defeat.",
     "as": "'to throw in the towel' ৰ অৰ্থ হৈছে পৰাজয় স্বীকাৰ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-243",
+   "id": "idioms-phrases-237",
    "q": {
     "en": "The idiom 'to turn a deaf ear' is used to mean —",
     "as": "'to turn a deaf ear' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to tackle a problem boldly",
-     "as": "সমস্যা সাহসেৰে মোকাবিলা কৰা"
-    },
-    {
-     "en": "to enter a competition",
-     "as": "প্ৰতিযোগিতাত নামি পৰা"
-    },
-    {
-     "en": "to put more pressure on",
-     "as": "বেছি চাপ দিয়া"
-    },
-    {
      "en": "to refuse to listen",
      "as": "শুনিবলৈ অস্বীকাৰ কৰা"
+    },
+    {
+     "en": "to confess fully",
+     "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
+    },
+    {
+     "en": "to live within one's income",
+     "as": "আয়ৰ ভিতৰত চলা"
+    },
+    {
+     "en": "to seize a good opportunity",
+     "as": "ভাল সুযোগ লোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "'to turn a deaf ear' means to refuse to listen.",
     "as": "'to turn a deaf ear' ৰ অৰ্থ হৈছে শুনিবলৈ অস্বীকাৰ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-244",
+   "id": "idioms-phrases-238",
    "q": {
     "en": "The idiom 'to turn the tables' is used to mean —",
     "as": "'to turn the tables' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to make no progress",
-     "as": "কোনো অগ্ৰগতি নকৰা"
-    },
-    {
-     "en": "to increase the stakes",
-     "as": "দাঙত বঢ়োৱা"
-    },
-    {
-     "en": "to abandon something",
-     "as": "কিবা এৰি থৈ যোৱা"
+     "en": "abundance and prosperity",
+     "as": "প্ৰাচুৰ্য আৰু সমৃদ্ধি"
     },
     {
      "en": "to reverse the situation",
      "as": "অৱস্থা ওলোটা কৰা"
+    },
+    {
+     "en": "something that hastens failure",
+     "as": "পতন ত্বৰান্বিত কৰা কাৰণ"
+    },
+    {
+     "en": "very close in a race",
+     "as": "দৌৰত অতি ওচৰা-ওচৰি"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
     "en": "'to turn the tables' means to reverse the situation.",
     "as": "'to turn the tables' ৰ অৰ্থ হৈছে অৱস্থা ওলোটা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-245",
+   "id": "idioms-phrases-239",
    "q": {
     "en": "The idiom 'to walk on air' is used to mean —",
     "as": "'to walk on air' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "need leads to new ideas",
-     "as": "প্ৰয়োজনেই উদ্ভাৱনৰ জননী"
+     "en": "faced with two difficult choices",
+     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
     },
     {
-     "en": "repeated practice brings excellence",
-     "as": "অনুশীলনে নিখুঁত কৰে"
+     "en": "without previous thought",
+     "as": "আগত নাভাবি"
     },
     {
-     "en": "consistent effort brings success",
-     "as": "ধীৰ আৰু স্থিৰতাই জয় আনে"
+     "en": "very rarely",
+     "as": "অতি কেতিয়াবা"
     },
     {
      "en": "to be extremely happy",
@@ -22749,7 +22569,7 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-246",
+   "id": "idioms-phrases-240",
    "q": {
     "en": "The idiom 'to wash one's hands of' means —",
     "as": "'to wash one's hands of' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -22760,16 +22580,16 @@ module.exports = {
      "as": "কোনো সম্পৰ্ক নাৰাখা"
     },
     {
-     "en": "repeated practice brings excellence",
-     "as": "অনুশীলনে নিখুঁত কৰে"
+     "en": "without previous thought",
+     "as": "আগত নাভাবি"
     },
     {
-     "en": "consistent effort brings success",
-     "as": "ধীৰ আৰু স্থিৰতাই জয় আনে"
+     "en": "very rarely",
+     "as": "অতি কেতিয়াবা"
     },
     {
-     "en": "act at the right moment",
-     "as": "উপযুক্ত সময়ত কাম কৰা"
+     "en": "something one likes",
+     "as": "নিজৰ পছন্দৰ বস্তু"
     }
    ],
    "correct": 0,
@@ -22779,57 +22599,57 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-247",
+   "id": "idioms-phrases-241",
    "q": {
     "en": "The idiom 'to wear one's heart on one's sleeve' is used to mean —",
     "as": "'to wear one's heart on one's sleeve' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "unity brings strength",
-     "as": "একতাই শক্তি আনে"
+     "en": "to support in words only",
+     "as": "মাত্ৰ মুখেৰে সমৰ্থন কৰা"
+    },
+    {
+     "en": "careful in small matters but wasteful in big ones",
+     "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
+    },
+    {
+     "en": "to find fault with",
+     "as": "দোষ বিচৰা"
     },
     {
      "en": "to show one's feelings openly",
      "as": "মুকলিভাৱে ভাৱ প্ৰকাশ কৰা"
-    },
-    {
-     "en": "determination finds a solution",
-     "as": "ইচ্ছা থাকিলে উপায় ওলায়"
-    },
-    {
-     "en": "prompt action prevents bigger trouble",
-     "as": "সময়ত কৰা কামে ডাঙৰ সমস্যা ৰোধ কৰে"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
     "en": "'to wear one's heart on one's sleeve' means to show one's feelings openly.",
     "as": "'to wear one's heart on one's sleeve' ৰ অৰ্থ হৈছে মুকলিভাৱে ভাৱ প্ৰকাশ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-248",
+   "id": "idioms-phrases-242",
    "q": {
     "en": "The idiom 'tooth and nail' means —",
     "as": "'tooth and nail' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "first care for one's own family",
-     "as": "দান নিজৰ ঘৰৰ পৰা আৰম্ভ হয়"
+     "en": "to be firm about something",
+     "as": "একটা কথাত দৃঢ় হোৱা"
     },
     {
-     "en": "nothing is perfect",
-     "as": "কোনো বস্তুৱেই নিখুঁত নহয়"
+     "en": "to say something wrong",
+     "as": "ভুল কথা কোৱা"
     },
     {
      "en": "with all one's strength",
      "as": "সকলো শক্তিৰে"
     },
     {
-     "en": "courage brings success",
-     "as": "সাহসীক ভাগ্যই সহায় কৰে"
+     "en": "to do things in the wrong order",
+     "as": "ভুল ক্ৰমত কাম কৰা"
     }
    ],
    "correct": 2,
@@ -22839,87 +22659,87 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-249",
+   "id": "idioms-phrases-243",
    "q": {
     "en": "The idiom 'turn a hair' means —",
     "as": "'turn a hair' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "intelligent people often agree",
-     "as": "মহান মতিৰ লোক প্ৰায় একমত"
-    },
-    {
      "en": "to show any sign of fear",
      "as": "ভয়ৰ কোনো চিহ্ন দেখুওৱা"
     },
     {
-     "en": "one can always learn",
-     "as": "শিকিবলৈ কেতিয়াও দেৰি নহয়"
+     "en": "to say something wrong",
+     "as": "ভুল কথা কোৱা"
     },
     {
-     "en": "learning gives strength",
-     "as": "জ্ঞানেই শক্তি"
+     "en": "to do things in the wrong order",
+     "as": "ভুল ক্ৰমত কাম কৰা"
+    },
+    {
+     "en": "to rain very heavily",
+     "as": "অতি ধাৰাসাৰে বৰষুণ দিয়া"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'turn a hair' means to show any sign of fear.",
     "as": "'turn a hair' ৰ অৰ্থ হৈছে ভয়ৰ কোনো চিহ্ন দেখুওৱা।"
    }
   },
   {
-   "id": "idioms-phrases-250",
+   "id": "idioms-phrases-244",
    "q": {
     "en": "The idiom 'turn over a new leaf' means —",
     "as": "'turn over a new leaf' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "writing is stronger than force",
-     "as": "কলম তৰোৱালতকৈ শক্তিশালী"
-    },
-    {
-     "en": "great things take time",
-     "as": "মহান কামলৈ সময় লাগে"
-    },
-    {
      "en": "to make a fresh start",
      "as": "নতুনকৈ আৰম্ভ কৰা"
     },
     {
-     "en": "one believes what one sees",
-     "as": "দেখিলেই বিশ্বাস হয়"
+     "en": "to agree completely",
+     "as": "সম্পূৰ্ণভাৱে একমত হোৱা"
+    },
+    {
+     "en": "to show false sorrow",
+     "as": "মিছা শোক দেখুওৱা"
+    },
+    {
+     "en": "to show cowardice",
+     "as": "ভীতুতা দেখুওৱা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'turn over a new leaf' means to make a fresh start.",
     "as": "'turn over a new leaf' ৰ অৰ্থ হৈছে নতুনকৈ আৰম্ভ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-251",
+   "id": "idioms-phrases-245",
    "q": {
     "en": "The idiom 'under a cloud' means —",
     "as": "'under a cloud' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "others' situations seem better",
-     "as": "আনৰ অৱস্থা সদায় ভাল যেন লাগে"
+     "en": "to show false sorrow",
+     "as": "মিছা শোক দেখুওৱা"
     },
     {
-     "en": "no one can stop time",
-     "as": "সময় কাৰো বাবে অপেক্ষা নকৰে"
+     "en": "to show cowardice",
+     "as": "ভীতুতা দেখুওৱা"
     },
     {
      "en": "under suspicion",
      "as": "সন্দেহৰ আৱৰ্তত"
     },
     {
-     "en": "difficult times reveal the strong",
-     "as": "কঠিন সময়ত সবলসকলে আগবাঢ়ে"
+     "en": "to avoid taking sides",
+     "as": "কোনো পক্ষ লোৱাৰ পৰা বিৰত থকা"
     }
    ],
    "correct": 2,
@@ -22929,247 +22749,217 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-252",
+   "id": "idioms-phrases-246",
    "q": {
     "en": "The idiom 'under one's nose' means —",
     "as": "'under one's nose' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "distance increases love",
-     "as": "আঁতৰত থাকিলে প্ৰেম বাঢ়ে"
+     "en": "to maintain one's position",
+     "as": "নিজৰ অবস্থান অটল ৰখা"
     },
     {
-     "en": "what comes easily is lost easily",
-     "as": "সহজে অহা বস্তু সহজে যায়"
-    },
-    {
-     "en": "the first view lasts",
-     "as": "প্ৰথম ধাৰণাই শেষ ধাৰণা"
+     "en": "to gain an advantage secretly",
+     "as": "গুপুতে সুবিধা লাভ কৰা"
     },
     {
      "en": "right in front of one",
      "as": "চকুৰ সন্মুখত"
+    },
+    {
+     "en": "to maintain one's stand firmly",
+     "as": "নিজৰ মত দৃঢ়ভাৱে ৰখা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'under one's nose' means right in front of one.",
     "as": "'under one's nose' ৰ অৰ্থ হৈছে চকুৰ সন্মুখত।"
    }
   },
   {
-   "id": "idioms-phrases-253",
+   "id": "idioms-phrases-247",
    "q": {
     "en": "The idiom 'under the weather' means —",
     "as": "'under the weather' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
+     "en": "to take a less important position",
+     "as": "কম গুৰুত্বপূৰ্ণ স্থান লোৱা"
     },
     {
-     "en": "wealth gives influence",
-     "as": "ধনে প্ৰভাৱ বিস্তাৰ কৰে"
-    },
-    {
-     "en": "stopping a problem is better than fixing it",
-     "as": "প্ৰতিৰোধ উপচাৰতকৈ ভাল"
+     "en": "to rebuke",
+     "as": "ভৎৰ্সনা কৰা"
     },
     {
      "en": "feeling unwell",
      "as": "অসুস্থ অনুভৱ কৰা"
+    },
+    {
+     "en": "to talk about one's work",
+     "as": "নিজৰ কামৰ কথা কোৱা"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
     "en": "'under the weather' means feeling unwell.",
     "as": "'under the weather' ৰ অৰ্থ হৈছে অসুস্থ অনুভৱ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-254",
+   "id": "idioms-phrases-248",
    "q": {
     "en": "The idiom 'ups and downs' means —",
     "as": "'ups and downs' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to discourage",
+     "as": "হতাশ কৰা"
+    },
+    {
+     "en": "to deceive",
+     "as": "প্ৰতাৰণা কৰা"
+    },
+    {
      "en": "good and bad times",
      "as": "ভাল-বেয়া সময়"
     },
     {
-     "en": "big tasks start small",
-     "as": "ডাঙৰ কাম এটা সৰু পদক্ষেপৰ পৰা আৰম্ভ হয়"
-    },
-    {
-     "en": "beauty is subjective",
-     "as": "সৌন্দৰ্য দৰ্শকৰ চকুত"
-    },
-    {
-     "en": "caution avoids regret",
-     "as": "সতৰ্ক থাকিলে অনুতাপ নহয়"
+     "en": "to help through a difficulty",
+     "as": "অসুবিধা অতিক্ৰম কৰাত সহায় কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'ups and downs' means good and bad times.",
     "as": "'ups and downs' ৰ অৰ্থ হৈছে ভাল-বেয়া সময়।"
    }
   },
   {
-   "id": "idioms-phrases-255",
+   "id": "idioms-phrases-249",
    "q": {
     "en": "The idiom 'walking encyclopedia' means —",
     "as": "'walking encyclopedia' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "being clean is a virtue",
-     "as": "পৰিষ্কাৰতা পৱিত্ৰতাৰ দৰে"
+     "en": "to be ignorant",
+     "as": "অজ্ঞ থকা"
     },
     {
-     "en": "a strong opponent needs a strong match",
-     "as": "শক্তিশালীক শক্তিশালীয়ে মোকাবিলা কৰে"
+     "en": "to be in low spirits",
+     "as": "হতাশ অৱস্থাত থকা"
+    },
+    {
+     "en": "to win the victory",
+     "as": "বিজয় লাভ কৰা"
     },
     {
      "en": "a person with wide knowledge",
      "as": "বহু জ্ঞান থকা ব্যক্তি"
-    },
-    {
-     "en": "treat others as you wish to be treated",
-     "as": "আনে যেনে ব্যৱহাৰ বিচাৰা তেনে ব্যৱহাৰ কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'walking encyclopedia' means a person with wide knowledge.",
     "as": "'walking encyclopedia' ৰ অৰ্থ হৈছে বহু জ্ঞান থকা ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-256",
+   "id": "idioms-phrases-250",
    "q": {
     "en": "The idiom 'wash dirty linen in public' means —",
     "as": "'wash dirty linen in public' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to take back what one has said",
+     "as": "কোৱা কথা ঘূৰাই লোৱা"
+    },
+    {
+     "en": "to waste effort on a hopeless matter",
+     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
+    },
+    {
      "en": "to discuss private matters openly",
      "as": "ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা"
     },
     {
-     "en": "self-effort earns help",
-     "as": "নিজে চেষ্টা কৰাজনক ঈশ্বৰে সহায় কৰে"
-    },
-    {
-     "en": "something is better than nothing",
-     "as": "কিছু পোৱা নোপোৱাতকৈ ভাল"
-    },
-    {
-     "en": "self-reliance gives best results",
-     "as": "নিজে কৰিলেহে ভাল হয়"
+     "en": "to be involved in many things",
+     "as": "বহু কামত জড়িত থকা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'wash dirty linen in public' means to discuss private matters openly.",
     "as": "'wash dirty linen in public' ৰ অৰ্থ হৈছে ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-257",
+   "id": "idioms-phrases-251",
    "q": {
     "en": "The idiom 'wet blanket' means —",
     "as": "'wet blanket' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to remain calm",
+     "as": "শান্ত থাকা"
+    },
+    {
+     "en": "to forget past quarrels",
+     "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
+    },
+    {
      "en": "a person who discourages others",
      "as": "আনক নিৰুৎসাহিত কৰা ব্যক্তি"
     },
     {
-     "en": "chances rarely repeat",
-     "as": "সুযোগ বিৰলভাৱে আহে"
-    },
-    {
-     "en": "children resemble their parents",
-     "as": "সন্তান পিতৃ-মাতৃৰ লগত মিলে"
-    },
-    {
-     "en": "true joys cost nothing",
-     "as": "জীৱনৰ শ্ৰেষ্ঠ বস্তু বিনামূলীয়া"
+     "en": "to come to the point quickly",
+     "as": "সোনকালে মূল কথালৈ অহা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'wet blanket' means a person who discourages others.",
     "as": "'wet blanket' ৰ অৰ্থ হৈছে আনক নিৰুৎসাহিত কৰা ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-258",
+   "id": "idioms-phrases-252",
    "q": {
     "en": "The idiom 'white elephant' means —",
     "as": "'white elephant' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to shift responsibility to another",
+     "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
+    },
+    {
      "en": "a costly but useless possession",
      "as": "ব্যয়বহুল কিন্তু অকামী বস্তু"
     },
     {
-     "en": "determination finds a path",
-     "as": "ইচ্ছা থাকিলে পথ ওলায়"
+     "en": "to behave irresponsibly",
+     "as": "দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা"
     },
     {
-     "en": "something that seems bad but turns out to be good",
-     "as": "প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা"
-    },
-    {
-     "en": "a sudden and unexpected shock",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
+     "en": "to look sad or disappointed",
+     "as": "দুখ বা হতাশ দেখুওৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "'white elephant' means a costly but useless possession.",
     "as": "'white elephant' ৰ অৰ্থ হৈছে ব্যয়বহুল কিন্তু অকামী বস্তু।"
    }
   },
   {
-   "id": "idioms-phrases-259",
-   "q": {
-    "en": "The idiom 'wild goose chase' means —",
-    "as": "'wild goose chase' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "an unexpected winner",
-     "as": "অপ্ৰত্যাশিত বিজয়ী"
-    },
-    {
-     "en": "a law or rule that is no longer obeyed",
-     "as": "এতিয়া অমান্য কৰা আইন"
-    },
-    {
-     "en": "a person in an uncomfortable situation",
-     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
-    },
-    {
-     "en": "a foolish and useless search",
-     "as": "মূৰ্খামি আৰু অসাৰ অনুসন্ধান"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'wild goose chase' means a foolish and useless search.",
-    "as": "'wild goose chase' ৰ অৰ্থ হৈছে মূৰ্খামি আৰু অসাৰ অনুসন্ধান।"
-   }
-  },
-  {
-   "id": "idioms-phrases-260",
+   "id": "idioms-phrases-253",
    "q": {
     "en": "The idiom 'with flying colours' means —",
     "as": "'with flying colours' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -23180,16 +22970,16 @@ module.exports = {
      "as": "মহান সফলতাৰে"
     },
     {
-     "en": "a prejudiced view",
-     "as": "পক্ষপাতমূলক দৃষ্টিভঙ্গি"
+     "en": "to become very angry",
+     "as": "অতি খঙাল হোৱা"
     },
     {
-     "en": "an unsatisfactory excuse",
-     "as": "অসমৰ্থনীয় অজুহাত"
+     "en": "to do something remarkable",
+     "as": "উল্লেখনীয় কাম কৰা"
     },
     {
-     "en": "a scholar or writer",
-     "as": "পণ্ডিত বা লেখক"
+     "en": "to imitate someone",
+     "as": "কাৰোবাৰ অনুকৰণ কৰা"
     }
    ],
    "correct": 0,
@@ -23199,113 +22989,113 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-261",
+   "id": "idioms-phrases-254",
    "q": {
     "en": "The idiom 'within an ace of' means —",
     "as": "'within an ace of' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a barely avoided danger",
-     "as": "কোনোমতে হোৱা ৰক্ষা"
-    },
-    {
      "en": "very close to",
      "as": "অতি ওচৰত"
     },
     {
-     "en": "a time of need or difficulty",
-     "as": "অভাব বা দুৰ্দিন"
+     "en": "to refuse to listen",
+     "as": "শুনিবলৈ অস্বীকাৰ কৰা"
     },
     {
-     "en": "an important or memorable day",
-     "as": "গুৰুত্বপূৰ্ণ বা স্মৰণীয় দিন"
+     "en": "to reverse the situation",
+     "as": "অৱস্থা ওলোটা কৰা"
+    },
+    {
+     "en": "to be extremely happy",
+     "as": "অতি আনন্দিত হোৱা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'within an ace of' means very close to.",
     "as": "'within an ace of' ৰ অৰ্থ হৈছে অতি ওচৰত।"
    }
   },
   {
-   "id": "idioms-phrases-262",
+   "id": "idioms-phrases-255",
    "q": {
     "en": "The idiom 'without rhyme or reason' means —",
     "as": "'without rhyme or reason' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "honest and open",
-     "as": "সৎ আৰু মুকলি"
+     "en": "under suspicion",
+     "as": "সন্দেহৰ আৱৰ্তত"
     },
     {
-     "en": "following the rules exactly",
-     "as": "নিয়ম মতে কৰা"
+     "en": "right in front of one",
+     "as": "চকুৰ সন্মুখত"
+    },
+    {
+     "en": "feeling unwell",
+     "as": "অসুস্থ অনুভৱ কৰা"
     },
     {
      "en": "without any sense",
      "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
-    },
-    {
-     "en": "to make a bad situation worse",
-     "as": "অৱস্থা আৰু বেয়া কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'without rhyme or reason' means without any sense.",
     "as": "'without rhyme or reason' ৰ অৰ্থ হৈছে কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ।"
    }
   },
   {
-   "id": "idioms-phrases-263",
+   "id": "idioms-phrases-256",
    "q": {
     "en": "The idiom 'wolf in sheep's clothing' means —",
     "as": "'wolf in sheep's clothing' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "contrary to one's inclination",
-     "as": "মনৰ বিৰুদ্ধে"
+     "en": "feeling unwell",
+     "as": "অসুস্থ অনুভৱ কৰা"
+    },
+    {
+     "en": "good and bad times",
+     "as": "ভাল-বেয়া সময়"
     },
     {
      "en": "a dangerous person pretending to be harmless",
      "as": "নিৰীহ যেন দেখুওৱা বিপদজনক ব্যক্তি"
     },
     {
-     "en": "listening very attentively",
-     "as": "অতি মনোযোগেৰে শুনা"
-    },
-    {
-     "en": "considering everything",
-     "as": "সকলো দিশ বিবেচনা কৰি"
+     "en": "a person with wide knowledge",
+     "as": "বহু জ্ঞান থকা ব্যক্তি"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'wolf in sheep's clothing' means a dangerous person pretending to be harmless.",
     "as": "'wolf in sheep's clothing' ৰ অৰ্থ হৈছে নিৰীহ যেন দেখুওৱা বিপদজনক ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-264",
+   "id": "idioms-phrases-257",
    "q": {
     "en": "The idiom 'worth one's salt' means —",
     "as": "'worth one's salt' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a cause of quarrel",
-     "as": "বিবাদৰ মূল কাৰণ"
+     "en": "a costly but useless possession",
+     "as": "ব্যয়বহুল কিন্তু অকামী বস্তু"
     },
     {
-     "en": "a mere pretence",
-     "as": "মাথোঁ ভাওনা"
+     "en": "with great success",
+     "as": "মহান সফলতাৰে"
     },
     {
-     "en": "something easily understood",
-     "as": "সহজতে বুজিব পৰা বস্তু"
+     "en": "very close to",
+     "as": "অতি ওচৰত"
     },
     {
      "en": "worth the wages paid",
@@ -23319,97 +23109,97 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-265",
+   "id": "idioms-phrases-258",
    "q": {
     "en": "The idiom 'a nine days' wonder' is used to mean —",
     "as": "'a nine days' wonder' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a critic who does nothing himself",
-     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
-    },
-    {
-     "en": "something that attracts attention briefly",
-     "as": "অলপ সময়লৈ মনোযোগ টনা বস্তু"
-    },
-    {
-     "en": "very calm and composed",
-     "as": "অতি শান্ত আৰু ধীৰ"
-    },
-    {
-     "en": "in bitter enmity",
-     "as": "তীব্ৰ শত্ৰুতাত"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'a nine days' wonder' means something that attracts attention briefly.",
-    "as": "'a nine days' wonder' ৰ অৰ্থ হৈছে অলপ সময়লৈ মনোযোগ টনা বস্তু।"
-   }
-  },
-  {
-   "id": "idioms-phrases-266",
-   "q": {
-    "en": "The idiom 'a slap on the wrist' means —",
-    "as": "'a slap on the wrist' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "utterly confused",
-     "as": "সম্পূৰ্ণভাৱে হতবুদ্ধি"
+     "en": "worth the wages paid",
+     "as": "দিয়া দৰমহাৰ যোগ্য"
     },
     {
      "en": "a mild punishment",
      "as": "লঘু শাস্তি"
     },
     {
-     "en": "in a state of confusion",
-     "as": "অগোছাল অৱস্থাত"
+     "en": "something that attracts attention briefly",
+     "as": "অলপ সময়লৈ মনোযোগ টনা বস্তু"
     },
     {
-     "en": "at the last possible moment",
-     "as": "শেষ মুহূৰ্তত"
+     "en": "a harmless lie",
+     "as": "নিৰীহ মিছা কথা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
+   "explanation": {
+    "en": "'a nine days' wonder' means something that attracts attention briefly.",
+    "as": "'a nine days' wonder' ৰ অৰ্থ হৈছে অলপ সময়লৈ মনোযোগ টনা বস্তু।"
+   }
+  },
+  {
+   "id": "idioms-phrases-259",
+   "q": {
+    "en": "The idiom 'a slap on the wrist' means —",
+    "as": "'a slap on the wrist' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "very well behaved",
+     "as": "অতি ভদ্ৰ আচৰণযুক্ত"
+    },
+    {
+     "en": "having nothing to do",
+     "as": "কৰিবলৈ একো নথকা"
+    },
+    {
+     "en": "back to the starting point",
+     "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
+    },
+    {
+     "en": "a mild punishment",
+     "as": "লঘু শাস্তি"
+    }
+   ],
+   "correct": 3,
    "explanation": {
     "en": "'a slap on the wrist' means a mild punishment.",
     "as": "'a slap on the wrist' ৰ অৰ্থ হৈছে লঘু শাস্তি।"
    }
   },
   {
-   "id": "idioms-phrases-267",
+   "id": "idioms-phrases-260",
    "q": {
     "en": "The idiom 'a white lie' means —",
     "as": "'a white lie' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "with all one's belongings",
-     "as": "সকলো সামগ্ৰীসহ"
-    },
-    {
-     "en": "to suffer the main impact",
-     "as": "মূল আঘাত সহ্য কৰা"
-    },
-    {
      "en": "a harmless lie",
      "as": "নিৰীহ মিছা কথা"
     },
     {
-     "en": "to talk without coming to the point",
-     "as": "মূল কথালৈ নাহি ঘূৰি ফুৰি কথা কোৱা"
+     "en": "to follow a wrong line of action",
+     "as": "ভুল পথ অনুসৰণ কৰা"
+    },
+    {
+     "en": "to avoid the main point",
+     "as": "মূল কথা এৰি ঘূৰাই কোৱা"
+    },
+    {
+     "en": "to attempt more than one can manage",
+     "as": "সাধ্যৰ বাহিৰৰ কাম হাতত লোৱা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'a white lie' means a harmless lie.",
     "as": "'a white lie' ৰ অৰ্থ হৈছে নিৰীহ মিছা কথা।"
    }
   },
   {
-   "id": "idioms-phrases-268",
+   "id": "idioms-phrases-261",
    "q": {
     "en": "The idiom 'alive and kicking' means —",
     "as": "'alive and kicking' বাক্যৰীতিটোৰ অৰ্থ —"
@@ -23420,16 +23210,16 @@ module.exports = {
      "as": "সুস্থ আৰু সক্ৰিয়"
     },
     {
-     "en": "beyond the power of words to describe",
-     "as": "বৰ্ণনা কৰিব নোৱাৰা"
+     "en": "to commit oneself beyond withdrawal",
+     "as": "পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা"
     },
     {
-     "en": "secretly",
-     "as": "গুপুতে"
+     "en": "to stop working for the day",
+     "as": "দিনটোৰ কাম বন্ধ কৰা"
     },
     {
-     "en": "to take the risk of doing something",
-     "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
+     "en": "a source of steady profit",
+     "as": "স্থিৰ লাভৰ উৎস"
     }
    ],
    "correct": 0,
@@ -23439,87 +23229,87 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-269",
+   "id": "idioms-phrases-262",
    "q": {
     "en": "The idiom 'armed to the teeth' means —",
     "as": "'armed to the teeth' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be defeated or to die",
-     "as": "পৰাজিত হোৱা বা মৃত্যুবৰণ কৰা"
+     "en": "to falsify accounts",
+     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
+    },
+    {
+     "en": "to do something badly to save time",
+     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
     },
     {
      "en": "fully armed",
      "as": "সম্পূৰ্ণ সজ্জিত"
     },
     {
-     "en": "a disreputable member of a group",
-     "as": "দলৰ কলংকিত সদস্য"
-    },
-    {
-     "en": "to change one's attitude repeatedly",
-     "as": "মন সঘনে সলনি কৰা"
+     "en": "to come to the main point",
+     "as": "মূল কথালৈ অহা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'armed to the teeth' means fully armed.",
     "as": "'armed to the teeth' ৰ অৰ্থ হৈছে সম্পূৰ্ণ সজ্জিত।"
    }
   },
   {
-   "id": "idioms-phrases-270",
+   "id": "idioms-phrases-263",
    "q": {
     "en": "The idiom 'as good as gold' means —",
     "as": "'as good as gold' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a subject of dispute",
-     "as": "বিবাদৰ বিষয়"
+     "en": "to get no result",
+     "as": "কোনো ফলাফল নোপোৱা"
+    },
+    {
+     "en": "a very small amount",
+     "as": "অতি কম পৰিমাণ"
     },
     {
      "en": "very well behaved",
      "as": "অতি ভদ্ৰ আচৰণযুক্ত"
     },
     {
-     "en": "to start a conversation",
-     "as": "কথোপকথন আৰম্ভ কৰা"
-    },
-    {
-     "en": "to punish or question",
-     "as": "শাস্তি দিয়া বা প্ৰশ্ন কৰা"
+     "en": "to be completely controlled by another",
+     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'as good as gold' means very well behaved.",
     "as": "'as good as gold' ৰ অৰ্থ হৈছে অতি ভদ্ৰ আচৰণযুক্ত।"
    }
   },
   {
-   "id": "idioms-phrases-271",
+   "id": "idioms-phrases-264",
    "q": {
     "en": "The idiom 'at a loose end' means —",
     "as": "'at a loose end' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "by fair or unfair means",
-     "as": "যিকোনো উপায়েৰে"
+     "en": "to be ignored",
+     "as": "উপেক্ষা কৰা"
     },
     {
-     "en": "to speak plainly and frankly",
-     "as": "স্পষ্ট আৰু মুকলিভাৱে কোৱা"
+     "en": "a wealthy and powerful person",
+     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
     },
     {
      "en": "having nothing to do",
      "as": "কৰিবলৈ একো নথকা"
     },
     {
-     "en": "to do something unnecessary",
-     "as": "নিষ্প্ৰয়োজনীয় কাম কৰা"
+     "en": "rare and infrequent",
+     "as": "বিৰল আৰু কম"
     }
    ],
    "correct": 2,
@@ -23529,117 +23319,117 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-272",
+   "id": "idioms-phrases-265",
    "q": {
     "en": "The idiom 'back to square one' means —",
     "as": "'back to square one' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to bring disgrace",
-     "as": "কলংক আনি দিয়া"
-    },
-    {
-     "en": "to offer something valuable to those who cannot appreciate it",
-     "as": "মূল্যবান বস্তু অযোগ্যক দিয়া"
-    },
-    {
      "en": "back to the starting point",
      "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
     },
     {
-     "en": "to meet one's match",
-     "as": "সমক্ষমতাসম্পন্ন লগ পোৱা"
+     "en": "to become nervous",
+     "as": "স্নায়ুচাপত ভুগা"
+    },
+    {
+     "en": "to learn how to do something",
+     "as": "কিবা কৰাৰ ধৰণ শিকা"
+    },
+    {
+     "en": "mutual compromise",
+     "as": "পৰস্পৰ ৰাজি-খুচি"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'back to square one' means back to the starting point.",
     "as": "'back to square one' ৰ অৰ্থ হৈছে আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা।"
    }
   },
   {
-   "id": "idioms-phrases-273",
+   "id": "idioms-phrases-266",
    "q": {
     "en": "The idiom 'bag of bones' means —",
     "as": "'bag of bones' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to succeed brilliantly",
-     "as": "চমকপ্ৰদভাৱে সফল হোৱা"
+     "en": "to memorise",
+     "as": "মনস্থ কৰা"
     },
     {
-     "en": "to wait for a long time",
-     "as": "বহু সময় অপেক্ষা কৰা"
+     "en": "to avoid stirring up trouble",
+     "as": "সমস্যা নজগোৱাকৈ থাকা"
+    },
+    {
+     "en": "rather old",
+     "as": "বয়সীয়াল"
     },
     {
      "en": "a very thin person",
      "as": "অতি খীণ ব্যক্তি"
-    },
-    {
-     "en": "false tears of sorrow",
-     "as": "মিছা শোকৰ চকুলো"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'bag of bones' means a very thin person.",
     "as": "'bag of bones' ৰ অৰ্থ হৈছে অতি খীণ ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-274",
+   "id": "idioms-phrases-267",
    "q": {
     "en": "The idiom 'balloon goes up' means —",
     "as": "'balloon goes up' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "false tears of sorrow",
-     "as": "মিছা শোকৰ চকুলো"
-    },
-    {
      "en": "the trouble begins",
      "as": "সমস্যা আৰম্ভ হোৱা"
     },
     {
-     "en": "to quarrel or fight",
-     "as": "ঝগড়া বা যুঁজ কৰা"
+     "en": "to avoid stirring up trouble",
+     "as": "সমস্যা নজগোৱাকৈ থাকা"
     },
     {
-     "en": "to make a poor impression",
-     "as": "বেয়া ধাৰণা দিয়া"
+     "en": "rather old",
+     "as": "বয়সীয়াল"
+    },
+    {
+     "en": "to lose self-control",
+     "as": "আত্ম-সংযম হেৰুওৱা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
     "en": "'balloon goes up' means the trouble begins.",
     "as": "'balloon goes up' ৰ অৰ্থ হৈছে সমস্যা আৰম্ভ হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-275",
+   "id": "idioms-phrases-268",
    "q": {
     "en": "The idiom 'bark up the wrong tree' means —",
     "as": "'bark up the wrong tree' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to die while working",
-     "as": "কাম কৰি থাকোঁতেই মৃত্যুবৰণ কৰা"
+     "en": "to suffer a final defeat",
+     "as": "অন্তিম পৰাজয় ভোগ কৰা"
     },
     {
      "en": "to follow a wrong line of action",
      "as": "ভুল পথ অনুসৰণ কৰা"
     },
     {
-     "en": "a person who prevents others from enjoying what he cannot use",
-     "as": "নিজে ব্যৱহাৰ নকৰি আনকো নিদিয়া ব্যক্তি"
+     "en": "to make a situation confusing",
+     "as": "অৱস্থা জটিল কৰা"
     },
     {
-     "en": "deceitful behaviour",
-     "as": "প্ৰতাৰণামূলক আচৰণ"
+     "en": "a particular locality",
+     "as": "এক নিৰ্দিষ্ট অঞ্চল"
     }
    ],
    "correct": 1,
@@ -23649,173 +23439,173 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-276",
+   "id": "idioms-phrases-269",
    "q": {
     "en": "The idiom 'beat around the bush' means —",
     "as": "'beat around the bush' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "enough space to move",
-     "as": "চলাৰ বাবে পৰ্যাপ্ত ঠাই"
-    },
-    {
-     "en": "to come to nothing",
-     "as": "কোনো ফল নোহোৱাকৈ শেষ হোৱা"
+     "en": "something very easy",
+     "as": "অতি সহজ কাম"
     },
     {
      "en": "to avoid the main point",
      "as": "মূল কথা এৰি ঘূৰাই কোৱা"
     },
     {
-     "en": "completely",
-     "as": "সম্পূৰ্ণভাৱে"
+     "en": "to regain self-control",
+     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
+    },
+    {
+     "en": "to risk everything on one thing",
+     "as": "সকলো আশা এটা বস্তুত ৰখা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'beat around the bush' means to avoid the main point.",
     "as": "'beat around the bush' ৰ অৰ্থ হৈছে মূল কথা এৰি ঘূৰাই কোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-277",
+   "id": "idioms-phrases-270",
    "q": {
     "en": "The idiom 'bite off more than one can chew' means —",
     "as": "'bite off more than one can chew' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to bear the consequences",
-     "as": "পৰিণাম ভোগ কৰা"
+     "en": "to regain self-control",
+     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
+    },
+    {
+     "en": "to risk everything on one thing",
+     "as": "সকলো আশা এটা বস্তুত ৰখা"
     },
     {
      "en": "to attempt more than one can manage",
      "as": "সাধ্যৰ বাহিৰৰ কাম হাতত লোৱা"
     },
     {
-     "en": "honest and straightforward",
-     "as": "সৎ আৰু সোজা"
-    },
-    {
-     "en": "to fail to produce an effect",
-     "as": "কোনো প্ৰভাৱ নজনোৱা"
+     "en": "to cause surprise or disapproval",
+     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
     "en": "'bite off more than one can chew' means to attempt more than one can manage.",
     "as": "'bite off more than one can chew' ৰ অৰ্থ হৈছে সাধ্যৰ বাহিৰৰ কাম হাতত লোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-278",
+   "id": "idioms-phrases-271",
    "q": {
     "en": "The idiom 'break the bank' means —",
     "as": "'break the bank' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to do the same thing",
-     "as": "একে ধৰণৰ কাম কৰা"
-    },
-    {
-     "en": "a state of happiness based on false hope",
-     "as": "মিছা আশাৰ আনন্দ"
-    },
-    {
      "en": "to spend too much money",
      "as": "অত্যধিক ধন খৰচ কৰা"
     },
     {
-     "en": "permanently",
-     "as": "চিৰকাললৈ"
+     "en": "it is your turn to act",
+     "as": "এতিয়া আপোনাৰ পাল"
+    },
+    {
+     "en": "an extra benefit",
+     "as": "অতিৰিক্ত লাভ"
+    },
+    {
+     "en": "a small visible part of a big problem",
+     "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
     "en": "'break the bank' means to spend too much money.",
     "as": "'break the bank' ৰ অৰ্থ হৈছে অত্যধিক ধন খৰচ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-279",
+   "id": "idioms-phrases-272",
    "q": {
     "en": "The idiom 'brownie points' means —",
     "as": "'brownie points' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "a state of happiness based on false hope",
-     "as": "মিছা আশাৰ আনন্দ"
-    },
-    {
-     "en": "permanently",
-     "as": "চিৰকাললৈ"
+     "en": "to attract all the attention",
+     "as": "সকলোৰে মনোযোগ টনা"
     },
     {
      "en": "credit gained by pleasing others",
      "as": "আনক সন্তুষ্ট কৰি লাভ কৰা সুনাম"
     },
     {
-     "en": "with just enough for immediate needs",
-     "as": "দিন চলোৱাৰ সমান মাত্ৰ"
+     "en": "to accept with doubt",
+     "as": "সন্দেহেৰে গ্ৰহণ কৰা"
+    },
+    {
+     "en": "it is your turn to act",
+     "as": "এতিয়া আপোনাৰ পাল"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
     "en": "'brownie points' means credit gained by pleasing others.",
     "as": "'brownie points' ৰ অৰ্থ হৈছে আনক সন্তুষ্ট কৰি লাভ কৰা সুনাম।"
    }
   },
   {
-   "id": "idioms-phrases-280",
+   "id": "idioms-phrases-273",
    "q": {
     "en": "The idiom 'burn one's boats' means —",
     "as": "'burn one's boats' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be dismissed from a job",
-     "as": "চাকৰিৰ পৰা বৰ্খাস্ত হোৱা"
+     "en": "to explain something",
+     "as": "কিবা ব্যাখ্যা কৰা"
     },
     {
-     "en": "the ability to speak fluently",
-     "as": "সহজে ধাৰাপাতভাৱে কোৱাৰ ক্ষমতা"
+     "en": "to spend less money",
+     "as": "কম ধন খৰচ কৰা"
+    },
+    {
+     "en": "not meant seriously",
+     "as": "গম্ভীৰভাৱে নকোৱা"
     },
     {
      "en": "to commit oneself beyond withdrawal",
      "as": "পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা"
-    },
-    {
-     "en": "to keep away from",
-     "as": "দূৰৈত থাকা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
     "en": "'burn one's boats' means to commit oneself beyond withdrawal.",
     "as": "'burn one's boats' ৰ অৰ্থ হৈছে পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-281",
+   "id": "idioms-phrases-274",
    "q": {
     "en": "The idiom 'call it a day' means —",
     "as": "'call it a day' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to bribe",
-     "as": "ঘোচ দিয়া"
+     "en": "to be clumsy at dancing or movement",
+     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
     },
     {
-     "en": "an inexperienced person",
-     "as": "অনভিজ্ঞ ব্যক্তি"
+     "en": "safely achieved",
+     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
     },
     {
-     "en": "a period of peace and happiness",
-     "as": "শান্তি আৰু সুখৰ কাল"
+     "en": "to act according to what one says",
+     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
     },
     {
      "en": "to stop working for the day",
@@ -23829,27 +23619,27 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-282",
+   "id": "idioms-phrases-275",
    "q": {
     "en": "The idiom 'cash cow' means —",
     "as": "'cash cow' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be obsessed with an idea",
-     "as": "এটা ভাৱনাত মগ্ন থকা"
+     "en": "very different from",
+     "as": "পৰা বহু পৃথক"
     },
     {
      "en": "a source of steady profit",
      "as": "স্থিৰ লাভৰ উৎস"
     },
     {
-     "en": "to have a selfish motive",
-     "as": "স্বাৰ্থপৰ উদ্দেশ্য থকা"
+     "en": "a controversial issue",
+     "as": "বিতৰ্কিত বিষয়"
     },
     {
-     "en": "completely or deeply",
-     "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
+     "en": "something that seems bad but turns out to be good",
+     "as": "প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা"
     }
    ],
    "correct": 1,
@@ -23859,7035 +23649,45 @@ module.exports = {
    }
   },
   {
-   "id": "idioms-phrases-283",
+   "id": "idioms-phrases-276",
    "q": {
     "en": "The idiom 'change hands' means —",
     "as": "'change hands' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "a very miserly person",
+     "as": "অতি কৃপণ ব্যক্তি"
+    },
+    {
+     "en": "an unexpected winner",
+     "as": "অপ্ৰত্যাশিত বিজয়ী"
+    },
+    {
      "en": "to pass to a new owner",
      "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
     },
     {
-     "en": "to be logically sound",
-     "as": "যুক্তিসংগত হোৱা"
-    },
-    {
-     "en": "in a few words",
-     "as": "চমুকৈ"
-    },
-    {
-     "en": "deliberately and without emotion",
-     "as": "ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে"
+     "en": "a law or rule that is no longer obeyed",
+     "as": "এতিয়া অমান্য কৰা আইন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "'change hands' means to pass to a new owner.",
     "as": "'change hands' ৰ অৰ্থ হৈছে নতুন গৰাকীৰ হাতলৈ যোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-284",
+   "id": "idioms-phrases-277",
    "q": {
     "en": "The idiom 'cold feet' means —",
     "as": "'cold feet' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "just in time",
-     "as": "ঠিক সময়ত"
-    },
-    {
-     "en": "in direct opposition to",
-     "as": "প্ৰত্যক্ষ বিৰোধিতা কৰি"
-    },
-    {
      "en": "nervousness before doing something",
      "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
-    },
-    {
-     "en": "full details",
-     "as": "সম্পূৰ্ণ বিৱৰণ"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'cold feet' means nervousness before doing something.",
-    "as": "'cold feet' ৰ অৰ্থ হৈছে কাম কৰাৰ আগতে স্নায়ুচাপ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-285",
-   "q": {
-    "en": "The idiom 'cook the books' means —",
-    "as": "'cook the books' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to hope for good luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    },
-    {
-     "en": "to falsify accounts",
-     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
-    },
-    {
-     "en": "to avoid starvation",
-     "as": "ভোকৰ পৰা ৰক্ষা পোৱা"
-    },
-    {
-     "en": "to die",
-     "as": "মৃত্যুবৰণ কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'cook the books' means to falsify accounts.",
-    "as": "'cook the books' ৰ অৰ্থ হৈছে হিচাপ-নিকাচত জালিয়াতি কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-286",
-   "q": {
-    "en": "The idiom 'cut corners' means —",
-    "as": "'cut corners' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to do something badly to save time",
-     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
-    },
-    {
-     "en": "a person who is weak or ineffective",
-     "as": "দুৰ্বল বা অক্ষম ব্যক্তি"
-    },
-    {
-     "en": "the final burden that causes collapse",
-     "as": "ভাঙি পেলোৱা অন্তিম বোজা"
-    },
-    {
-     "en": "to laugh secretly",
-     "as": "গুপুতে হাঁহা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'cut corners' means to do something badly to save time.",
-    "as": "'cut corners' ৰ অৰ্থ হৈছে সময় বচাবলৈ বেয়াকৈ কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-287",
-   "q": {
-    "en": "The idiom 'cut to the chase' means —",
-    "as": "'cut to the chase' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to live with barely enough money",
-     "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
-    },
-    {
-     "en": "to find fault with a gift",
-     "as": "উপহাৰত দোষ বিচৰা"
-    },
-    {
-     "en": "to come to the main point",
-     "as": "মূল কথালৈ অহা"
-    },
-    {
-     "en": "think before you act",
-     "as": "কাম কৰাৰ আগতে ভাবা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'cut to the chase' means to come to the main point.",
-    "as": "'cut to the chase' ৰ অৰ্থ হৈছে মূল কথালৈ অহা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-288",
-   "q": {
-    "en": "The idiom 'devil's advocate' means —",
-    "as": "'devil's advocate' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to find fault with a gift",
-     "as": "উপহাৰত দোষ বিচৰা"
-    },
-    {
-     "en": "a person who argues the opposite for the sake of argument",
-     "as": "বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি"
-    },
-    {
-     "en": "think before you act",
-     "as": "কাম কৰাৰ আগতে ভাবা"
-    },
-    {
-     "en": "to become discouraged",
-     "as": "হতাশ হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'devil's advocate' means a person who argues the opposite for the sake of argument.",
-    "as": "'devil's advocate' ৰ অৰ্থ হৈছে বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-289",
-   "q": {
-    "en": "The idiom 'down to earth' means —",
-    "as": "'down to earth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to seize a good opportunity",
-     "as": "ভাল সুযোগ লোৱা"
-    },
-    {
-     "en": "to exaggerate a small matter",
-     "as": "সৰু কথাক ডাঙৰ কৰা"
-    },
-    {
-     "en": "practical and realistic",
-     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
-    },
-    {
-     "en": "an ordinary person",
-     "as": "সাধাৰণ মানুহ"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'down to earth' means practical and realistic.",
-    "as": "'down to earth' ৰ অৰ্থ হৈছে ব্যৱহাৰিক আৰু বাস্তৱবাদী।"
-   }
-  },
-  {
-   "id": "idioms-phrases-290",
-   "q": {
-    "en": "The idiom 'draw a blank' means —",
-    "as": "'draw a blank' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very close in a race",
-     "as": "দৌৰত অতি ওচৰা-ওচৰি"
-    },
-    {
-     "en": "to get no result",
-     "as": "কোনো ফলাফল নোপোৱা"
-    },
-    {
-     "en": "to stop something at an early stage",
-     "as": "আৰম্ভণিতে ৰোধ কৰা"
-    },
-    {
-     "en": "mutual dislike",
-     "as": "পৰস্পৰ অপছন্দ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'draw a blank' means to get no result.",
-    "as": "'draw a blank' ৰ অৰ্থ হৈছে কোনো ফলাফল নোপোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-291",
-   "q": {
-    "en": "The idiom 'drop in the ocean' means —",
-    "as": "'drop in the ocean' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "occasionally",
-     "as": "মাজে মাজে"
-    },
-    {
-     "en": "a very small amount",
-     "as": "অতি কম পৰিমাণ"
-    },
-    {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "faced with two difficult choices",
-     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'drop in the ocean' means a very small amount.",
-    "as": "'drop in the ocean' ৰ অৰ্থ হৈছে অতি কম পৰিমাণ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-292",
-   "q": {
-    "en": "The idiom 'eat out of one's hand' means —",
-    "as": "'eat out of one's hand' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "something one likes",
-     "as": "নিজৰ পছন্দৰ বস্তু"
-    },
-    {
-     "en": "to be completely controlled by another",
-     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
-    },
-    {
-     "en": "thoroughly",
-     "as": "সম্পূৰ্ণৰূপে"
-    },
-    {
-     "en": "from one trouble into a worse one",
-     "as": "এটা সমস্যাৰ পৰা আৰু বেয়া সমস্যালৈ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'eat out of one's hand' means to be completely controlled by another.",
-    "as": "'eat out of one's hand' ৰ অৰ্থ হৈছে আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-293",
-   "q": {
-    "en": "The idiom 'egg on' means —",
-    "as": "'egg on' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be firm about something",
-     "as": "একটা কথাত দৃঢ় হোৱা"
-    },
-    {
-     "en": "to say something wrong",
-     "as": "ভুল কথা কোৱা"
-    },
-    {
-     "en": "to urge someone to do something",
-     "as": "কিবা কৰিবলৈ উচটনি দিয়া"
-    },
-    {
-     "en": "to do things in the wrong order",
-     "as": "ভুল ক্ৰমত কাম কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'egg on' means to urge someone to do something.",
-    "as": "'egg on' ৰ অৰ্থ হৈছে কিবা কৰিবলৈ উচটনি দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-294",
-   "q": {
-    "en": "The idiom 'every cloud has a silver lining' means —",
-    "as": "'every cloud has a silver lining' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "every bad situation has some good in it",
-     "as": "প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে"
-    },
-    {
-     "en": "to use influence secretly",
-     "as": "গুপুতে প্ৰভাৱ ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to state briefly",
-     "as": "চমুকৈ কোৱা"
-    },
-    {
-     "en": "to be firm about something",
-     "as": "একটা কথাত দৃঢ় হোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'every cloud has a silver lining' means every bad situation has some good in it.",
-    "as": "'every cloud has a silver lining' ৰ অৰ্থ হৈছে প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-295",
-   "q": {
-    "en": "The idiom 'fall on deaf ears' means —",
-    "as": "'fall on deaf ears' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to avoid taking sides",
-     "as": "কোনো পক্ষ লোৱাৰ পৰা বিৰত থকা"
-    },
-    {
-     "en": "to be ignored",
-     "as": "উপেক্ষা কৰা"
-    },
-    {
-     "en": "to suspect something wrong",
-     "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
-    },
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'fall on deaf ears' means to be ignored.",
-    "as": "'fall on deaf ears' ৰ অৰ্থ হৈছে উপেক্ষা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-296",
-   "q": {
-    "en": "The idiom 'fat cat' means —",
-    "as": "'fat cat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a wealthy and powerful person",
-     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
-    },
-    {
-     "en": "to behave violently",
-     "as": "উচণ্ডাল আচৰণ কৰা"
-    },
-    {
-     "en": "to act against",
-     "as": "বিৰুদ্ধে কাম কৰা"
-    },
-    {
-     "en": "to agree completely",
-     "as": "সম্পূৰ্ণভাৱে একমত হোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'fat cat' means a wealthy and powerful person.",
-    "as": "'fat cat' ৰ অৰ্থ হৈছে ধনী আৰু শক্তিশালী ব্যক্তি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-297",
-   "q": {
-    "en": "The idiom 'few and far between' means —",
-    "as": "'few and far between' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to avoid taking sides",
-     "as": "কোনো পক্ষ লোৱাৰ পৰা বিৰত থকা"
-    },
-    {
-     "en": "rare and infrequent",
-     "as": "বিৰল আৰু কম"
-    },
-    {
-     "en": "to suspect something wrong",
-     "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
-    },
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'few and far between' means rare and infrequent.",
-    "as": "'few and far between' ৰ অৰ্থ হৈছে বিৰল আৰু কম।"
-   }
-  },
-  {
-   "id": "idioms-phrases-298",
-   "q": {
-    "en": "The idiom 'fishy business' means —",
-    "as": "'fishy business' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to maintain one's stand firmly",
-     "as": "নিজৰ মত দৃঢ়ভাৱে ৰখা"
-    },
-    {
-     "en": "a lot of fuss over a small matter",
-     "as": "সৰু কথাত অত্যধিক হুলস্থূল"
-    },
-    {
-     "en": "to make the utmost effort",
-     "as": "সৰ্বাধিক চেষ্টা কৰা"
-    },
-    {
-     "en": "a suspicious affair",
-     "as": "সন্দেহজনক কাম"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'fishy business' means a suspicious affair.",
-    "as": "'fishy business' ৰ অৰ্থ হৈছে সন্দেহজনক কাম।"
-   }
-  },
-  {
-   "id": "idioms-phrases-299",
-   "q": {
-    "en": "The idiom 'food for thought' means —",
-    "as": "'food for thought' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to talk about one's work",
-     "as": "নিজৰ কামৰ কথা কোৱা"
-    },
-    {
-     "en": "boastful talk",
-     "as": "আত্মপ্ৰশংসামূলক কথা"
-    },
-    {
-     "en": "a decisive test of value",
-     "as": "মূল্যৰ নিষ্পত্তিমূলক পৰীক্ষা"
-    },
-    {
-     "en": "something worth thinking about",
-     "as": "ভাবিবলগীয়া বিষয়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'food for thought' means something worth thinking about.",
-    "as": "'food for thought' ৰ অৰ্থ হৈছে ভাবিবলগীয়া বিষয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-300",
-   "q": {
-    "en": "The idiom 'get cold feet' means —",
-    "as": "'get cold feet' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be in low spirits",
-     "as": "হতাশ অৱস্থাত থকা"
-    },
-    {
-     "en": "to face a risk for others",
-     "as": "আনৰ বাবে বিপদ মূৰত লোৱা"
-    },
-    {
-     "en": "to become nervous",
-     "as": "স্নায়ুচাপত ভুগা"
-    },
-    {
-     "en": "to win the victory",
-     "as": "বিজয় লাভ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'get cold feet' means to become nervous.",
-    "as": "'get cold feet' ৰ অৰ্থ হৈছে স্নায়ুচাপত ভুগা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-301",
-   "q": {
-    "en": "The idiom 'get the hang of' means —",
-    "as": "'get the hang of' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to waste effort on a hopeless matter",
-     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
-    },
-    {
-     "en": "to be involved in many things",
-     "as": "বহু কামত জড়িত থকা"
-    },
-    {
-     "en": "to be very busy",
-     "as": "অতি ব্যস্ত থকা"
-    },
-    {
-     "en": "to learn how to do something",
-     "as": "কিবা কৰাৰ ধৰণ শিকা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'get the hang of' means to learn how to do something.",
-    "as": "'get the hang of' ৰ অৰ্থ হৈছে কিবা কৰাৰ ধৰণ শিকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-302",
-   "q": {
-    "en": "The idiom 'give and take' means —",
-    "as": "'give and take' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to solve a problem by bold action",
-     "as": "সাহসী কামেৰে সমস্যা সমাধান কৰা"
-    },
-    {
-     "en": "mutual compromise",
-     "as": "পৰস্পৰ ৰাজি-খুচি"
-    },
-    {
-     "en": "to take back what one has said",
-     "as": "কোৱা কথা ঘূৰাই লোৱা"
-    },
-    {
-     "en": "to waste effort on a hopeless matter",
-     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'give and take' means mutual compromise.",
-    "as": "'give and take' ৰ অৰ্থ হৈছে পৰস্পৰ ৰাজি-খুচি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-303",
-   "q": {
-    "en": "The idiom 'go the extra mile' means —",
-    "as": "'go the extra mile' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to act unfairly",
-     "as": "অন্যায়ভাৱে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to remain calm",
-     "as": "শান্ত থাকা"
-    },
-    {
-     "en": "to make more effort than expected",
-     "as": "প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা"
-    },
-    {
-     "en": "to forget past quarrels",
-     "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'go the extra mile' means to make more effort than expected.",
-    "as": "'go the extra mile' ৰ অৰ্থ হৈছে প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-304",
-   "q": {
-    "en": "The idiom 'hit the road' means —",
-    "as": "'hit the road' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to begin a journey",
-     "as": "যাত্ৰা আৰম্ভ কৰা"
-    },
-    {
-     "en": "to make every possible effort",
-     "as": "সকলো সম্ভৱ চেষ্টা কৰা"
-    },
-    {
-     "en": "to destroy at an early stage",
-     "as": "আৰম্ভণিতে ধ্বংস কৰা"
-    },
-    {
-     "en": "to shift responsibility to another",
-     "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'hit the road' means to begin a journey.",
-    "as": "'hit the road' ৰ অৰ্থ হৈছে যাত্ৰা আৰম্ভ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-305",
-   "q": {
-    "en": "The idiom 'in a fix' means —",
-    "as": "'in a fix' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to refuse to listen",
-     "as": "শুনিবলৈ অস্বীকাৰ কৰা"
-    },
-    {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
-    },
-    {
-     "en": "to reverse the situation",
-     "as": "অৱস্থা ওলোটা কৰা"
-    },
-    {
-     "en": "to be extremely happy",
-     "as": "অতি আনন্দিত হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'in a fix' means in a difficult situation.",
-    "as": "'in a fix' ৰ অৰ্থ হৈছে কঠিন অৱস্থাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-306",
-   "q": {
-    "en": "The idiom 'in black and white' is used to mean —",
-    "as": "'in black and white' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to imitate someone",
-     "as": "কাৰোবাৰ অনুকৰণ কৰা"
-    },
-    {
-     "en": "in writing",
-     "as": "লিখিত ৰূপত"
-    },
-    {
-     "en": "to face a danger boldly",
-     "as": "সাহসেৰে বিপদৰ সন্মুখীন হোৱা"
-    },
-    {
-     "en": "to admit defeat",
-     "as": "পৰাজয় স্বীকাৰ কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'in black and white' means in writing.",
-    "as": "'in black and white' ৰ অৰ্থ হৈছে লিখিত ৰূপত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-307",
-   "q": {
-    "en": "The idiom 'in the same boat' means —",
-    "as": "'in the same boat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to show any sign of fear",
-     "as": "ভয়ৰ কোনো চিহ্ন দেখুওৱা"
-    },
-    {
-     "en": "to make a fresh start",
-     "as": "নতুনকৈ আৰম্ভ কৰা"
-    },
-    {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
-    },
-    {
-     "en": "under suspicion",
-     "as": "সন্দেহৰ আৱৰ্তত"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'in the same boat' means in the same difficult situation.",
-    "as": "'in the same boat' ৰ অৰ্থ হৈছে একে কঠিন অৱস্থাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-308",
-   "q": {
-    "en": "The idiom 'kick the habit' means —",
-    "as": "'kick the habit' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
-    },
-    {
-     "en": "right in front of one",
-     "as": "চকুৰ সন্মুখত"
-    },
-    {
-     "en": "feeling unwell",
-     "as": "অসুস্থ অনুভৱ কৰা"
-    },
-    {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'kick the habit' means to give up a bad habit.",
-    "as": "'kick the habit' ৰ অৰ্থ হৈছে বেয়া অভ্যাস এৰি দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-309",
-   "q": {
-    "en": "The idiom 'learn by heart' means —",
-    "as": "'learn by heart' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a person with wide knowledge",
-     "as": "বহু জ্ঞান থকা ব্যক্তি"
-    },
-    {
-     "en": "to discuss private matters openly",
-     "as": "ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা"
-    },
-    {
-     "en": "to memorise",
-     "as": "মনস্থ কৰা"
-    },
-    {
-     "en": "a person who discourages others",
-     "as": "আনক নিৰুৎসাহিত কৰা ব্যক্তি"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'learn by heart' means to memorise.",
-    "as": "'learn by heart' ৰ অৰ্থ হৈছে মনস্থ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-310",
-   "q": {
-    "en": "The idiom 'let sleeping dogs lie' means —",
-    "as": "'let sleeping dogs lie' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "with great success",
-     "as": "মহান সফলতাৰে"
-    },
-    {
-     "en": "very close to",
-     "as": "অতি ওচৰত"
-    },
-    {
-     "en": "without any sense",
-     "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
-    },
-    {
-     "en": "to avoid stirring up trouble",
-     "as": "সমস্যা নজগোৱাকৈ থাকা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'let sleeping dogs lie' means to avoid stirring up trouble.",
-    "as": "'let sleeping dogs lie' ৰ অৰ্থ হৈছে সমস্যা নজগোৱাকৈ থাকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-311",
-   "q": {
-    "en": "The idiom 'long in the tooth' means —",
-    "as": "'long in the tooth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "something that attracts attention briefly",
-     "as": "অলপ সময়লৈ মনোযোগ টনা বস্তু"
-    },
-    {
-     "en": "a mild punishment",
-     "as": "লঘু শাস্তি"
-    },
-    {
-     "en": "a harmless lie",
-     "as": "নিৰীহ মিছা কথা"
-    },
-    {
-     "en": "rather old",
-     "as": "বয়সীয়াল"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'long in the tooth' means rather old.",
-    "as": "'long in the tooth' ৰ অৰ্থ হৈছে বয়সীয়াল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-312",
-   "q": {
-    "en": "The idiom 'lose one's head' means —",
-    "as": "'lose one's head' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "back to the starting point",
-     "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
-    },
-    {
-     "en": "a very thin person",
-     "as": "অতি খীণ ব্যক্তি"
-    },
-    {
-     "en": "to lose self-control",
-     "as": "আত্ম-সংযম হেৰুওৱা"
-    },
-    {
-     "en": "the trouble begins",
-     "as": "সমস্যা আৰম্ভ হোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'lose one's head' means to lose self-control.",
-    "as": "'lose one's head' ৰ অৰ্থ হৈছে আত্ম-সংযম হেৰুওৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-313",
-   "q": {
-    "en": "The idiom 'make a beeline' means —",
-    "as": "'make a beeline' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to go straight towards something",
-     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
-    },
-    {
-     "en": "to follow a wrong line of action",
-     "as": "ভুল পথ অনুসৰণ কৰা"
-    },
-    {
-     "en": "to avoid the main point",
-     "as": "মূল কথা এৰি ঘূৰাই কোৱা"
-    },
-    {
-     "en": "to attempt more than one can manage",
-     "as": "সাধ্যৰ বাহিৰৰ কাম হাতত লোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'make a beeline' means to go straight towards something.",
-    "as": "'make a beeline' ৰ অৰ্থ হৈছে পোনে পোনে কাৰোবালৈ যোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-314",
-   "q": {
-    "en": "The idiom 'make a killing' means —",
-    "as": "'make a killing' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to commit oneself beyond withdrawal",
-     "as": "পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা"
-    },
-    {
-     "en": "to stop working for the day",
-     "as": "দিনটোৰ কাম বন্ধ কৰা"
-    },
-    {
-     "en": "a source of steady profit",
-     "as": "স্থিৰ লাভৰ উৎস"
-    },
-    {
-     "en": "to make a large profit quickly",
-     "as": "সোনকালে ডাঙৰ লাভ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'make a killing' means to make a large profit quickly.",
-    "as": "'make a killing' ৰ অৰ্থ হৈছে সোনকালে ডাঙৰ লাভ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-315",
-   "q": {
-    "en": "The idiom 'meet one's Waterloo' means —",
-    "as": "'meet one's Waterloo' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to falsify accounts",
-     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
-    },
-    {
-     "en": "to do something badly to save time",
-     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
-    },
-    {
-     "en": "to suffer a final defeat",
-     "as": "অন্তিম পৰাজয় ভোগ কৰা"
-    },
-    {
-     "en": "to come to the main point",
-     "as": "মূল কথালৈ অহা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'meet one's Waterloo' means to suffer a final defeat.",
-    "as": "'meet one's Waterloo' ৰ অৰ্থ হৈছে অন্তিম পৰাজয় ভোগ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-316",
-   "q": {
-    "en": "The idiom 'muddy the waters' means —",
-    "as": "'muddy the waters' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make a situation confusing",
-     "as": "অৱস্থা জটিল কৰা"
-    },
-    {
-     "en": "to be ignored",
-     "as": "উপেক্ষা কৰা"
-    },
-    {
-     "en": "a wealthy and powerful person",
-     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
-    },
-    {
-     "en": "rare and infrequent",
-     "as": "বিৰল আৰু কম"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'muddy the waters' means to make a situation confusing.",
-    "as": "'muddy the waters' ৰ অৰ্থ হৈছে অৱস্থা জটিল কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-317",
-   "q": {
-    "en": "The idiom 'neck of the woods' means —",
-    "as": "'neck of the woods' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be ignored",
-     "as": "উপেক্ষা কৰা"
-    },
-    {
-     "en": "a wealthy and powerful person",
-     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
-    },
-    {
-     "en": "rare and infrequent",
-     "as": "বিৰল আৰু কম"
-    },
-    {
-     "en": "a particular locality",
-     "as": "এক নিৰ্দিষ্ট অঞ্চল"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'neck of the woods' means a particular locality.",
-    "as": "'neck of the woods' ৰ অৰ্থ হৈছে এক নিৰ্দিষ্ট অঞ্চল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-318",
-   "q": {
-    "en": "The idiom 'no strings attached' means —",
-    "as": "'no strings attached' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make more effort than expected",
-     "as": "প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা"
-    },
-    {
-     "en": "to begin a journey",
-     "as": "যাত্ৰা আৰম্ভ কৰা"
-    },
-    {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
-    },
-    {
-     "en": "without any conditions",
-     "as": "কোনো চৰ্ত নোহোৱাকৈ"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'no strings attached' means without any conditions.",
-    "as": "'no strings attached' ৰ অৰ্থ হৈছে কোনো চৰ্ত নোহোৱাকৈ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-319",
-   "q": {
-    "en": "The idiom 'off the hook' means —",
-    "as": "'off the hook' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "free from a difficult situation",
-     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
-    },
-    {
-     "en": "to avoid stirring up trouble",
-     "as": "সমস্যা নজগোৱাকৈ থাকা"
-    },
-    {
-     "en": "rather old",
-     "as": "বয়সীয়াল"
-    },
-    {
-     "en": "to lose self-control",
-     "as": "আত্ম-সংযম হেৰুওৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'off the hook' means free from a difficult situation.",
-    "as": "'off the hook' ৰ অৰ্থ হৈছে কঠিন অৱস্থাৰ পৰা মুক্ত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-320",
-   "q": {
-    "en": "The idiom 'on thin ice' means —",
-    "as": "'on thin ice' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to avoid stirring up trouble",
-     "as": "সমস্যা নজগোৱাকৈ থাকা"
-    },
-    {
-     "en": "rather old",
-     "as": "বয়সীয়াল"
-    },
-    {
-     "en": "in a risky position",
-     "as": "বিপদজনক অৱস্থাত"
-    },
-    {
-     "en": "to lose self-control",
-     "as": "আত্ম-সংযম হেৰুওৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'on thin ice' means in a risky position.",
-    "as": "'on thin ice' ৰ অৰ্থ হৈছে বিপদজনক অৱস্থাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-321",
-   "q": {
-    "en": "The idiom 'out of the blue' is used to mean —",
-    "as": "'out of the blue' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to suffer a final defeat",
-     "as": "অন্তিম পৰাজয় ভোগ কৰা"
-    },
-    {
-     "en": "suddenly and unexpectedly",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে"
-    },
-    {
-     "en": "to make a situation confusing",
-     "as": "অৱস্থা জটিল কৰা"
-    },
-    {
-     "en": "a particular locality",
-     "as": "এক নিৰ্দিষ্ট অঞ্চল"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'out of the blue' means suddenly and unexpectedly.",
-    "as": "'out of the blue' ৰ অৰ্থ হৈছে আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-322",
-   "q": {
-    "en": "The idiom 'pay through the nose' means —",
-    "as": "'pay through the nose' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to risk everything on one thing",
-     "as": "সকলো আশা এটা বস্তুত ৰখা"
-    },
-    {
-     "en": "to cause surprise or disapproval",
-     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
-    },
-    {
-     "en": "to pay too much",
-     "as": "অত্যধিক ধন দিয়া"
-    },
-    {
-     "en": "to disturb a stable situation",
-     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'pay through the nose' means to pay too much.",
-    "as": "'pay through the nose' ৰ অৰ্থ হৈছে অত্যধিক ধন দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-323",
-   "q": {
-    "en": "The idiom 'pick up the tab' means —",
-    "as": "'pick up the tab' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to pay the bill",
-     "as": "বিল পৰিশোধ কৰা"
-    },
-    {
-     "en": "to risk everything on one thing",
-     "as": "সকলো আশা এটা বস্তুত ৰখা"
-    },
-    {
-     "en": "to cause surprise or disapproval",
-     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
-    },
-    {
-     "en": "to disturb a stable situation",
-     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'pick up the tab' means to pay the bill.",
-    "as": "'pick up the tab' ৰ অৰ্থ হৈছে বিল পৰিশোধ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-324",
-   "q": {
-    "en": "The idiom 'piece of cake' means —",
-    "as": "'piece of cake' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to remain patient without acting",
-     "as": "কাম নকৰি ধৈৰ্য ধৰি থাকা"
-    },
-    {
-     "en": "a hidden and shameful secret",
-     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
-    },
-    {
-     "en": "neat and clean",
-     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
-    },
-    {
-     "en": "something very easy",
-     "as": "অতি সহজ কাম"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'piece of cake' means something very easy.",
-    "as": "'piece of cake' ৰ অৰ্থ হৈছে অতি সহজ কাম।"
-   }
-  },
-  {
-   "id": "idioms-phrases-325",
-   "q": {
-    "en": "The idiom 'pull oneself together' means —",
-    "as": "'pull oneself together' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a small visible part of a big problem",
-     "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
-    },
-    {
-     "en": "to explain something",
-     "as": "কিবা ব্যাখ্যা কৰা"
-    },
-    {
-     "en": "to regain self-control",
-     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
-    },
-    {
-     "en": "to spend less money",
-     "as": "কম ধন খৰচ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'pull oneself together' means to regain self-control.",
-    "as": "'pull oneself together' ৰ অৰ্থ হৈছে আত্ম-সংযম ঘূৰাই পোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-326",
-   "q": {
-    "en": "The idiom 'put all eggs in one basket' means —",
-    "as": "'put all eggs in one basket' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to spend less money",
-     "as": "কম ধন খৰচ কৰা"
-    },
-    {
-     "en": "not meant seriously",
-     "as": "গম্ভীৰভাৱে নকোৱা"
-    },
-    {
-     "en": "a risky and uncertain situation",
-     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
-    },
-    {
-     "en": "to risk everything on one thing",
-     "as": "সকলো আশা এটা বস্তুত ৰখা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'put all eggs in one basket' means to risk everything on one thing.",
-    "as": "'put all eggs in one basket' ৰ অৰ্থ হৈছে সকলো আশা এটা বস্তুত ৰখা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-327",
-   "q": {
-    "en": "The idiom 'raise eyebrows' means —",
-    "as": "'raise eyebrows' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "safely achieved",
-     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
-    },
-    {
-     "en": "to act according to what one says",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
-    },
-    {
-     "en": "to cause surprise or disapproval",
-     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
-    },
-    {
-     "en": "with some doubt",
-     "as": "কিছু সন্দেহেৰে"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'raise eyebrows' means to cause surprise or disapproval.",
-    "as": "'raise eyebrows' ৰ অৰ্থ হৈছে আচৰিত বা অসন্তুষ্টি জন্মোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-328",
-   "q": {
-    "en": "The idiom 'rock the boat' means —",
-    "as": "'rock the boat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a controversial issue",
-     "as": "বিতৰ্কিত বিষয়"
-    },
-    {
-     "en": "waiting makes things seem slower",
-     "as": "অপেক্ষা কৰিলে সময় লেহেমীয়া লাগে"
-    },
-    {
-     "en": "to disturb a stable situation",
-     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
-    },
-    {
-     "en": "completely in the power of",
-     "as": "সম্পূৰ্ণভাৱে কাৰোবাৰ অধীনত"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'rock the boat' means to disturb a stable situation.",
-    "as": "'rock the boat' ৰ অৰ্থ হৈছে স্থিৰ অৱস্থা বিঘ্নিত কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-329",
-   "q": {
-    "en": "The idiom 'save face' means —",
-    "as": "'save face' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very sad",
-     "as": "অতি দুখী"
-    },
-    {
-     "en": "to set a limit",
-     "as": "সীমা নিৰ্ধাৰণ কৰা"
-    },
-    {
-     "en": "difficult to do",
-     "as": "কৰাতকৈ কঠিন"
-    },
-    {
-     "en": "to avoid humiliation",
-     "as": "অপমান এৰাই চলা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'save face' means to avoid humiliation.",
-    "as": "'save face' ৰ অৰ্থ হৈছে অপমান এৰাই চলা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-330",
-   "q": {
-    "en": "The idiom 'see the light' means —",
-    "as": "'see the light' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to stop doing something before losing more",
-     "as": "আৰু বেছি হেৰুওৱাৰ আগতে কাম বন্ধ কৰা"
-    },
-    {
-     "en": "very sad",
-     "as": "অতি দুখী"
-    },
-    {
-     "en": "to set a limit",
-     "as": "সীমা নিৰ্ধাৰণ কৰা"
-    },
-    {
-     "en": "to understand suddenly",
-     "as": "হঠাতে বুজি পোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'see the light' means to understand suddenly.",
-    "as": "'see the light' ৰ অৰ্থ হৈছে হঠাতে বুজি পোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-331",
-   "q": {
-    "en": "The idiom 'sit tight' means —",
-    "as": "'sit tight' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be overlooked",
-     "as": "উপেক্ষিত হোৱা"
-    },
-    {
-     "en": "to remain patient without acting",
-     "as": "কাম নকৰি ধৈৰ্য ধৰি থাকা"
-    },
-    {
-     "en": "to receive the same bad treatment one gives",
-     "as": "নিজে দিয়া বেয়া ব্যৱহাৰ নিজে পোৱা"
-    },
-    {
-     "en": "to believe someone without proof",
-     "as": "প্ৰমাণ নোহোৱাকৈ বিশ্বাস কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'sit tight' means to remain patient without acting.",
-    "as": "'sit tight' ৰ অৰ্থ হৈছে কাম নকৰি ধৈৰ্য ধৰি থাকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-332",
-   "q": {
-    "en": "The idiom 'skeleton in the cupboard' means —",
-    "as": "'skeleton in the cupboard' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in a moment of strong emotion",
-     "as": "প্ৰবল ভাৱনাত"
-    },
-    {
-     "en": "a hidden and shameful secret",
-     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
-    },
-    {
-     "en": "both sides are responsible",
-     "as": "দুয়ো পক্ষই দায়ী"
-    },
-    {
-     "en": "to join a popular activity",
-     "as": "জনপ্ৰিয় কামত যোগ দিয়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'skeleton in the cupboard' means a hidden and shameful secret.",
-    "as": "'skeleton in the cupboard' ৰ অৰ্থ হৈছে লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-333",
-   "q": {
-    "en": "The idiom 'spick and span' means —",
-    "as": "'spick and span' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to lose an opportunity",
-     "as": "সুযোগ হেৰুওৱা"
-    },
-    {
-     "en": "neat and clean",
-     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
-    },
-    {
-     "en": "alert and efficient",
-     "as": "সতৰ্ক আৰু দক্ষ"
-    },
-    {
-     "en": "to be cautious after a bad experience",
-     "as": "বেয়া অভিজ্ঞতাৰ পিছত সতৰ্ক হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'spick and span' means neat and clean.",
-    "as": "'spick and span' ৰ অৰ্থ হৈছে পৰিষ্কাৰ-পৰিচ্ছন্ন।"
-   }
-  },
-  {
-   "id": "idioms-phrases-334",
-   "q": {
-    "en": "The idiom 'start from scratch' means —",
-    "as": "'start from scratch' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to stop something from continuing",
-     "as": "কাম চলি থাকিবলৈ বাধা দিয়া"
-    },
-    {
-     "en": "to make the best effort",
-     "as": "সৰ্বোত্তম চেষ্টা কৰা"
-    },
-    {
-     "en": "to begin from the very beginning",
-     "as": "একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা"
-    },
-    {
-     "en": "to set a higher standard",
-     "as": "উচ্চ মান নিৰ্ধাৰণ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'start from scratch' means to begin from the very beginning.",
-    "as": "'start from scratch' ৰ অৰ্থ হৈছে একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-335",
-   "q": {
-    "en": "The idiom 'steal the show' means —",
-    "as": "'steal the show' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a change of opinion after reconsidering",
-     "as": "পুনৰ বিবেচনাৰ পিছত মত সলনি"
-    },
-    {
-     "en": "to attract all the attention",
-     "as": "সকলোৰে মনোযোগ টনা"
-    },
-    {
-     "en": "disparaging what one cannot have",
-     "as": "নোপোৱা বস্তুৰ বেয়া কোৱা"
-    },
-    {
-     "en": "to share gossip",
-     "as": "গপ্প-গুজব বিলোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'steal the show' means to attract all the attention.",
-    "as": "'steal the show' ৰ অৰ্থ হৈছে সকলোৰে মনোযোগ টনা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-336",
-   "q": {
-    "en": "The idiom 'take with a grain of salt' means —",
-    "as": "'take with a grain of salt' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to accept with doubt",
-     "as": "সন্দেহেৰে গ্ৰহণ কৰা"
-    },
-    {
-     "en": "to take credit for another's idea",
-     "as": "আনৰ ধাৰণাৰ কৃতিত্ব লোৱা"
-    },
-    {
-     "en": "to decide to do something risky",
-     "as": "বিপদজনক কাম কৰাৰ সিদ্ধান্ত লোৱা"
-    },
-    {
-     "en": "an obvious problem everyone ignores",
-     "as": "সকলোৱে উপেক্ষা কৰা স্পষ্ট সমস্যা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'take with a grain of salt' means to accept with doubt.",
-    "as": "'take with a grain of salt' ৰ অৰ্থ হৈছে সন্দেহেৰে গ্ৰহণ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-337",
-   "q": {
-    "en": "The idiom 'the ball is in your court' means —",
-    "as": "'the ball is in your court' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "it is your turn to act",
-     "as": "এতিয়া আপোনাৰ পাল"
-    },
-    {
-     "en": "to act very carefully",
-     "as": "অতি সাৱধানেৰে কাম কৰা"
-    },
-    {
-     "en": "a past matter no longer important",
-     "as": "পুৰণি আৰু এতিয়া অপ্ৰাসংগিক বিষয়"
-    },
-    {
-     "en": "to survive a difficult period",
-     "as": "কঠিন সময় পাৰ কৰি যোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'the ball is in your court' means it is your turn to act.",
-    "as": "'the ball is in your court' ৰ অৰ্থ হৈছে এতিয়া আপোনাৰ পাল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-338",
-   "q": {
-    "en": "The idiom 'the icing on the cake' means —",
-    "as": "'the icing on the cake' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "an extra benefit",
-     "as": "অতিৰিক্ত লাভ"
-    },
-    {
-     "en": "young and inexperienced",
-     "as": "ডেকা আৰু অনভিজ্ঞ"
-    },
-    {
-     "en": "something that will never happen",
-     "as": "কেতিয়াও নহ'বলগীয়া কথা"
-    },
-    {
-     "en": "a share of the profit",
-     "as": "লাভৰ এটা অংশ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'the icing on the cake' means an extra benefit.",
-    "as": "'the icing on the cake' ৰ অৰ্থ হৈছে অতিৰিক্ত লাভ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-339",
-   "q": {
-    "en": "The idiom 'the tip of the iceberg' means —",
-    "as": "'the tip of the iceberg' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very slowly",
-     "as": "অতি লেহেমীয়াকৈ"
-    },
-    {
-     "en": "to try very hard to help",
-     "as": "সহায় কৰিবলৈ বহুত চেষ্টা কৰা"
-    },
-    {
-     "en": "a small visible part of a big problem",
-     "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
-    },
-    {
-     "en": "to stop oneself from speaking",
-     "as": "কথা কোৱাৰ পৰা নিজকে বিৰত ৰখা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'the tip of the iceberg' means a small visible part of a big problem.",
-    "as": "'the tip of the iceberg' ৰ অৰ্থ হৈছে ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-340",
-   "q": {
-    "en": "The idiom 'throw light on' means —",
-    "as": "'throw light on' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "completely different",
-     "as": "সম্পূৰ্ণ পৃথক"
-    },
-    {
-     "en": "a state of great happiness",
-     "as": "মহান আনন্দৰ অৱস্থা"
-    },
-    {
-     "en": "whatever happens",
-     "as": "যি নহওক কিয়"
-    },
-    {
-     "en": "to explain something",
-     "as": "কিবা ব্যাখ্যা কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'throw light on' means to explain something.",
-    "as": "'throw light on' ৰ অৰ্থ হৈছে কিবা ব্যাখ্যা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-341",
-   "q": {
-    "en": "The idiom 'tighten one's belt' means —",
-    "as": "'tighten one's belt' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to gain early experience of",
-     "as": "প্ৰাৰম্ভিক অভিজ্ঞতা লাভ কৰা"
-    },
-    {
-     "en": "to do as another wishes",
-     "as": "আনৰ ইচ্ছামতে চলা"
-    },
-    {
-     "en": "unable to function or progress",
-     "as": "কাম কৰিব বা আগবাঢ়িব নোৱৰা"
-    },
-    {
-     "en": "to spend less money",
-     "as": "কম ধন খৰচ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'tighten one's belt' means to spend less money.",
-    "as": "'tighten one's belt' ৰ অৰ্থ হৈছে কম ধন খৰচ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-342",
-   "q": {
-    "en": "The idiom 'tongue in cheek' means —",
-    "as": "'tongue in cheek' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "unable to function or progress",
-     "as": "কাম কৰিব বা আগবাঢ়িব নোৱৰা"
-    },
-    {
-     "en": "not meant seriously",
-     "as": "গম্ভীৰভাৱে নকোৱা"
-    },
-    {
-     "en": "the hottest days of summer",
-     "as": "গ্ৰীষ্মৰ আটাইতকৈ উষ্ণ দিন"
-    },
-    {
-     "en": "to pay attention to small details",
-     "as": "সৰু সৰু বিতংক লৈ মনোযোগ দিয়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'tongue in cheek' means not meant seriously.",
-    "as": "'tongue in cheek' ৰ অৰ্থ হৈছে গম্ভীৰভাৱে নকোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-343",
-   "q": {
-    "en": "The idiom 'touch and go' means —",
-    "as": "'touch and go' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a risky and uncertain situation",
-     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
-    },
-    {
-     "en": "to accept the truth",
-     "as": "সত্য মানি লোৱা"
-    },
-    {
-     "en": "to be lucky after a difficulty",
-     "as": "অসুবিধাৰ পিছত ভাগ্যৱান হোৱা"
-    },
-    {
-     "en": "an unnoticed observer",
-     "as": "লক্ষ্য নকৰা পৰ্যবেক্ষক"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'touch and go' means a risky and uncertain situation.",
-    "as": "'touch and go' ৰ অৰ্থ হৈছে বিপদজনক আৰু অনিশ্চিত অৱস্থা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-344",
-   "q": {
-    "en": "The idiom 'turn the corner' means —",
-    "as": "'turn the corner' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to accept a situation calmly",
-     "as": "অৱস্থা শান্তভাৱে মানি লোৱা"
-    },
-    {
-     "en": "to pass the worst part of a crisis",
-     "as": "সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা"
-    },
-    {
-     "en": "to go to bed",
-     "as": "শুবলৈ যোৱা"
-    },
-    {
-     "en": "at the highest level of activity",
-     "as": "সৰ্বোচ্চ সক্ৰিয়তাত"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'turn the corner' means to pass the worst part of a crisis.",
-    "as": "'turn the corner' ৰ অৰ্থ হৈছে সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-345",
-   "q": {
-    "en": "The idiom 'two left feet' means —",
-    "as": "'two left feet' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to watch carefully",
-     "as": "সাৱধানেৰে চকু ৰখা"
-    },
-    {
-     "en": "to achieve two aims with one action",
-     "as": "এটা কামেৰে দুটা উদ্দেশ্য সিদ্ধি কৰা"
-    },
-    {
-     "en": "to be clumsy at dancing or movement",
-     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
-    },
-    {
-     "en": "finally but not less important",
-     "as": "শেষত কিন্তু কম গুৰুত্বপূৰ্ণ নহয়"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'two left feet' means to be clumsy at dancing or movement.",
-    "as": "'two left feet' ৰ অৰ্থ হৈছে নাচ বা চলন-ফুৰণত অপটু হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-346",
-   "q": {
-    "en": "The idiom 'under one's belt' means —",
-    "as": "'under one's belt' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be optimistic",
-     "as": "আশাবাদী হোৱা"
-    },
-    {
-     "en": "safely achieved",
-     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
-    },
-    {
-     "en": "to exaggerate a minor problem",
-     "as": "সৰু সমস্যাকে ডাঙৰ কৰা"
-    },
-    {
-     "en": "success requires effort",
-     "as": "সফলতাৰ বাবে শ্ৰম লাগে"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'under one's belt' means safely achieved.",
-    "as": "'under one's belt' ৰ অৰ্থ হৈছে সুৰক্ষিতভাৱে অৰ্জন কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-347",
-   "q": {
-    "en": "The idiom 'walk the talk' means —",
-    "as": "'walk the talk' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to tease someone playfully",
-     "as": "হাঁহি-ধেমালিতে ঠাট্টা কৰা"
-    },
-    {
-     "en": "to correct a misunderstanding",
-     "as": "ভুল ধাৰণা শুধৰোৱা"
-    },
-    {
-     "en": "to spoil someone's plans",
-     "as": "কাৰোবাৰ পৰিকল্পনা নষ্ট কৰা"
-    },
-    {
-     "en": "to act according to what one says",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'walk the talk' means to act according to what one says.",
-    "as": "'walk the talk' ৰ অৰ্থ হৈছে কোৱা কথা অনুযায়ী কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-348",
-   "q": {
-    "en": "The idiom 'with a pinch of salt' means —",
-    "as": "'with a pinch of salt' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a misleading clue",
-     "as": "ভুল পথলৈ নিয়া সূত্ৰ"
-    },
-    {
-     "en": "with some doubt",
-     "as": "কিছু সন্দেহেৰে"
-    },
-    {
-     "en": "to wake up and get going",
-     "as": "সাৰ পাই কামত লাগা"
-    },
-    {
-     "en": "to continue until finished",
-     "as": "শেষলৈকে চলাই ৰখা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'with a pinch of salt' means with some doubt.",
-    "as": "'with a pinch of salt' ৰ অৰ্থ হৈছে কিছু সন্দেহেৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-349",
-   "q": {
-    "en": "The idiom 'word of mouth' means —",
-    "as": "'word of mouth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to relax",
-     "as": "জিৰণি লোৱা"
-    },
-    {
-     "en": "advantages of two different things",
-     "as": "দুটা ভিন্ন বস্তুৰ সুবিধা"
-    },
-    {
-     "en": "spoken communication",
-     "as": "মুখে মুখে প্ৰচাৰ"
-    },
-    {
-     "en": "a decision has not yet been made",
-     "as": "এতিয়াও সিদ্ধান্ত হোৱা নাই"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'word of mouth' means spoken communication.",
-    "as": "'word of mouth' ৰ অৰ্থ হৈছে মুখে মুখে প্ৰচাৰ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-350",
-   "q": {
-    "en": "The idiom 'a far cry from' means —",
-    "as": "'a far cry from' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in secret and illegally",
-     "as": "গোপনে আৰু অবৈধভাৱে"
-    },
-    {
-     "en": "of an acceptable standard",
-     "as": "গ্ৰহণযোগ্য মানৰ"
-    },
-    {
-     "en": "to face a certain punishment",
-     "as": "নিশ্চিত শাস্তিৰ সন্মুখীন হোৱা"
-    },
-    {
-     "en": "very different from",
-     "as": "পৰা বহু পৃথক"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'a far cry from' means very different from.",
-    "as": "'a far cry from' ৰ অৰ্থ হৈছে পৰা বহু পৃথক।"
-   }
-  },
-  {
-   "id": "idioms-phrases-351",
-   "q": {
-    "en": "The idiom 'a hot potato' means —",
-    "as": "'a hot potato' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a picture conveys more than words",
-     "as": "ছবিৰ প্ৰভাৱ শব্দতকৈ বেছি"
-    },
-    {
-     "en": "to start again after a failure",
-     "as": "ব্যৰ্থতাৰ পিছত পুনৰ আৰম্ভ কৰা"
-    },
-    {
-     "en": "a controversial issue",
-     "as": "বিতৰ্কিত বিষয়"
-    },
-    {
-     "en": "accusing the wrong person",
-     "as": "ভুল ব্যক্তিক দোষ দিয়া"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'a hot potato' means a controversial issue.",
-    "as": "'a hot potato' ৰ অৰ্থ হৈছে বিতৰ্কিত বিষয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-352",
-   "q": {
-    "en": "The idiom 'a watched pot never boils' means —",
-    "as": "'a watched pot never boils' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "waiting makes things seem slower",
-     "as": "অপেক্ষা কৰিলে সময় লেহেমীয়া লাগে"
-    },
-    {
-     "en": "a feeling of nervousness",
-     "as": "স্নায়ুচাপৰ অনুভৱ"
-    },
-    {
-     "en": "to tell the truth",
-     "as": "সত্য কথা কোৱা"
-    },
-    {
-     "en": "to hope for luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'a watched pot never boils' means waiting makes things seem slower.",
-    "as": "'a watched pot never boils' ৰ অৰ্থ হৈছে অপেক্ষা কৰিলে সময় লেহেমীয়া লাগে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-353",
-   "q": {
-    "en": "The idiom 'at the mercy of' means —",
-    "as": "'at the mercy of' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "small details are important",
-     "as": "সৰু বিতংবোৰ গুৰুত্বপূৰ্ণ"
-    },
-    {
-     "en": "completely in the power of",
-     "as": "সম্পূৰ্ণভাৱে কাৰোবাৰ অধীনত"
-    },
-    {
-     "en": "very common and cheap",
-     "as": "অতি সাধাৰণ আৰু সস্তা"
-    },
-    {
-     "en": "do not assume success too early",
-     "as": "আগতেই সফলতা ধৰি নল'ব"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'at the mercy of' means completely in the power of.",
-    "as": "'at the mercy of' ৰ অৰ্থ হৈছে সম্পূৰ্ণভাৱে কাৰোবাৰ অধীনত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-354",
-   "q": {
-    "en": "The idiom 'bite the bullet' means —",
-    "as": "'bite the bullet' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "earlier arrivals get preference",
-     "as": "প্ৰথম অহাজনে প্ৰথমে পায়"
-    },
-    {
-     "en": "to endure a painful situation bravely",
-     "as": "কষ্টজনক অৱস্থা সাহসেৰে সহ্য কৰা"
-    },
-    {
-     "en": "wasting effort on a hopeless task",
-     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
-    },
-    {
-     "en": "to stop working or to die",
-     "as": "কাম বন্ধ হোৱা বা মৃত্যু হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'bite the bullet' means to endure a painful situation bravely.",
-    "as": "'bite the bullet' ৰ অৰ্থ হৈছে কষ্টজনক অৱস্থা সাহসেৰে সহ্য কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-355",
-   "q": {
-    "en": "The idiom 'blow one's top' means —",
-    "as": "'blow one's top' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to remain cheerful in difficulty",
-     "as": "অসুবিধাতো উৎসাহেৰে থাকা"
-    },
-    {
-     "en": "to postpone a problem",
-     "as": "সমস্যা পিছুৱাই দিয়া"
-    },
-    {
-     "en": "to forgive past wrongs",
-     "as": "পুৰণি ভুল ক্ষমা কৰা"
-    },
-    {
-     "en": "to become very angry",
-     "as": "অতি খঙাল হোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'blow one's top' means to become very angry.",
-    "as": "'blow one's top' ৰ অৰ্থ হৈছে অতি খঙাল হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-356",
-   "q": {
-    "en": "The idiom 'bring home the bacon' means —",
-    "as": "'bring home the bacon' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to earn a living",
-     "as": "জীৱিকা অৰ্জন কৰা"
-    },
-    {
-     "en": "to remain cheerful in difficulty",
-     "as": "অসুবিধাতো উৎসাহেৰে থাকা"
-    },
-    {
-     "en": "to postpone a problem",
-     "as": "সমস্যা পিছুৱাই দিয়া"
-    },
-    {
-     "en": "to forgive past wrongs",
-     "as": "পুৰণি ভুল ক্ষমা কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'bring home the bacon' means to earn a living.",
-    "as": "'bring home the bacon' ৰ অৰ্থ হৈছে জীৱিকা অৰ্জন কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-357",
-   "q": {
-    "en": "The idiom 'call the shots' means —",
-    "as": "'call the shots' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "away from the usual route",
-     "as": "সাধাৰণ পথৰ পৰা আঁতৰত"
-    },
-    {
-     "en": "to be in control",
-     "as": "নিয়ন্ত্ৰণত থকা"
-    },
-    {
-     "en": "very happy",
-     "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "likely to happen",
-     "as": "ঘটিবলৈ সম্ভাৱনা থকা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'call the shots' means to be in control.",
-    "as": "'call the shots' ৰ অৰ্থ হৈছে নিয়ন্ত্ৰণত থকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-358",
-   "q": {
-    "en": "The idiom 'chase one's tail' means —",
-    "as": "'chase one's tail' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "likely to happen",
-     "as": "ঘটিবলৈ সম্ভাৱনা থকা"
-    },
-    {
-     "en": "to be busy without achieving anything",
-     "as": "একো নকৰাকৈ ব্যস্ত থকা"
-    },
-    {
-     "en": "very rare",
-     "as": "জীৱনত এবাৰহে হোৱা"
-    },
-    {
-     "en": "asking what someone is thinking",
-     "as": "কি ভাবিছ সুধিবলৈ কোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'chase one's tail' means to be busy without achieving anything.",
-    "as": "'chase one's tail' ৰ অৰ্থ হৈছে একো নকৰাকৈ ব্যস্ত থকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-359",
-   "q": {
-    "en": "The idiom 'come to terms with' means —",
-    "as": "'come to terms with' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be the most outstanding",
-     "as": "আটাইতকৈ উল্লেখনীয় হোৱা"
-    },
-    {
-     "en": "it is one's turn to act",
-     "as": "কাম কৰাৰ পাল কাৰোবাৰ"
-    },
-    {
-     "en": "the final problem that makes one give up",
-     "as": "হাৰ মানিবলৈ বাধ্য কৰা অন্তিম সমস্যা"
-    },
-    {
-     "en": "to accept a difficult situation",
-     "as": "কঠিন অৱস্থা মানি লোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'come to terms with' means to accept a difficult situation.",
-    "as": "'come to terms with' ৰ অৰ্থ হৈছে কঠিন অৱস্থা মানি লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-360",
-   "q": {
-    "en": "The idiom 'cross that bridge when one comes to it' means —",
-    "as": "'cross that bridge when one comes to it' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to deal with a problem when it arises",
-     "as": "সমস্যা আহিলে তেতিয়া সমাধান কৰা"
-    },
-    {
-     "en": "to use the last poor remaining resources",
-     "as": "শেষ অৱশিষ্ট বেয়া সম্পদ ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to do nothing",
-     "as": "একো নকৰা"
-    },
-    {
-     "en": "the person we were talking about has arrived",
-     "as": "যাৰ কথা কৈছিলোঁ তেওঁ আহি পালে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'cross that bridge when one comes to it' means to deal with a problem when it arises.",
-    "as": "'cross that bridge when one comes to it' ৰ অৰ্থ হৈছে সমস্যা আহিলে তেতিয়া সমাধান কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-361",
-   "q": {
-    "en": "The idiom 'cut one's losses' means —",
-    "as": "'cut one's losses' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "it is one's turn to act",
-     "as": "কাম কৰাৰ পাল কাৰোবাৰ"
-    },
-    {
-     "en": "the final problem that makes one give up",
-     "as": "হাৰ মানিবলৈ বাধ্য কৰা অন্তিম সমস্যা"
-    },
-    {
-     "en": "everything possible",
-     "as": "সকলো সম্ভৱ বস্তু"
-    },
-    {
-     "en": "to stop doing something before losing more",
-     "as": "আৰু বেছি হেৰুওৱাৰ আগতে কাম বন্ধ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'cut one's losses' means to stop doing something before losing more.",
-    "as": "'cut one's losses' ৰ অৰ্থ হৈছে আৰু বেছি হেৰুওৱাৰ আগতে কাম বন্ধ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-362",
-   "q": {
-    "en": "The idiom 'down in the dumps' means —",
-    "as": "'down in the dumps' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to ignore deliberately",
-     "as": "ইচ্ছাকৃতভাৱে উপেক্ষা কৰা"
-    },
-    {
-     "en": "very similar",
-     "as": "অতি একে ধৰণৰ"
-    },
-    {
-     "en": "very sad",
-     "as": "অতি দুখী"
-    },
-    {
-     "en": "to be in a delicate situation",
-     "as": "নাজুক অৱস্থাত থকা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'down in the dumps' means very sad.",
-    "as": "'down in the dumps' ৰ অৰ্থ হৈছে অতি দুখী।"
-   }
-  },
-  {
-   "id": "idioms-phrases-363",
-   "q": {
-    "en": "The idiom 'draw the line' means —",
-    "as": "'draw the line' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to expose wrongdoing",
-     "as": "অন্যায় উন্মোচন কৰা"
-    },
-    {
-     "en": "to set a limit",
-     "as": "সীমা নিৰ্ধাৰণ কৰা"
-    },
-    {
-     "en": "to tell important news gently",
-     "as": "গুৰুত্বপূৰ্ণ বাতৰি কোমলভাৱে জনোৱা"
-    },
-    {
-     "en": "to reach a crisis point",
-     "as": "সংকটৰ শিখৰত উপনীত হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'draw the line' means to set a limit.",
-    "as": "'draw the line' ৰ অৰ্থ হৈছে সীমা নিৰ্ধাৰণ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-364",
-   "q": {
-    "en": "The idiom 'easier said than done' means —",
-    "as": "'easier said than done' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "difficult to do",
-     "as": "কৰাতকৈ কঠিন"
-    },
-    {
-     "en": "to make someone very annoyed",
-     "as": "কাকো অতি বিৰক্ত কৰা"
-    },
-    {
-     "en": "to fail to reach a standard",
-     "as": "মানত উপনীত হ'ব নোৱৰা"
-    },
-    {
-     "en": "to start something",
-     "as": "কিবা আৰম্ভ কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'easier said than done' means difficult to do.",
-    "as": "'easier said than done' ৰ অৰ্থ হৈছে কৰাতকৈ কঠিন।"
-   }
-  },
-  {
-   "id": "idioms-phrases-365",
-   "q": {
-    "en": "The idiom 'every dog has its day' means —",
-    "as": "'every dog has its day' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to start something",
-     "as": "কিবা আৰম্ভ কৰা"
-    },
-    {
-     "en": "to assist",
-     "as": "সহায় কৰা"
-    },
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
-     "en": "everyone gets a chance to succeed",
-     "as": "প্ৰত্যেকেই এদিন সফলতা পায়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'every dog has its day' means everyone gets a chance to succeed.",
-    "as": "'every dog has its day' ৰ অৰ্থ হৈছে প্ৰত্যেকেই এদিন সফলতা পায়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-366",
-   "q": {
-    "en": "The idiom 'fall through the cracks' means —",
-    "as": "'fall through the cracks' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "to make something possible",
-     "as": "কিবা সম্ভৱ কৰি তোলা"
-    },
-    {
-     "en": "to pretend to be uninterested",
-     "as": "অনিচ্ছুক যেন দেখুওৱা"
-    },
-    {
-     "en": "to be overlooked",
-     "as": "উপেক্ষিত হোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'fall through the cracks' means to be overlooked.",
-    "as": "'fall through the cracks' ৰ অৰ্থ হৈছে উপেক্ষিত হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-367",
-   "q": {
-    "en": "The idiom 'get a taste of one's own medicine' means —",
-    "as": "'get a taste of one's own medicine' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to receive the same bad treatment one gives",
-     "as": "নিজে দিয়া বেয়া ব্যৱহাৰ নিজে পোৱা"
-    },
-    {
-     "en": "losing money",
-     "as": "ধন হেৰুৱাই থকা"
-    },
-    {
-     "en": "to go through many difficulties",
-     "as": "বহু কষ্টৰ মাজেৰে যোৱা"
-    },
-    {
-     "en": "to stay calm",
-     "as": "শান্ত থাকা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'get a taste of one's own medicine' means to receive the same bad treatment one gives.",
-    "as": "'get a taste of one's own medicine' ৰ অৰ্থ হৈছে নিজে দিয়া বেয়া ব্যৱহাৰ নিজে পোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-368",
-   "q": {
-    "en": "The idiom 'give the benefit of the doubt' means —",
-    "as": "'give the benefit of the doubt' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to ignore wrongdoing",
-     "as": "অন্যায় উপেক্ষা কৰা"
-    },
-    {
-     "en": "to believe someone without proof",
-     "as": "প্ৰমাণ নোহোৱাকৈ বিশ্বাস কৰা"
-    },
-    {
-     "en": "to be frank about something",
-     "as": "কথা মুকলিকৈ কোৱা"
-    },
-    {
-     "en": "to repair a damaged relationship",
-     "as": "নষ্ট সম্পৰ্ক মেৰামতি কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'give the benefit of the doubt' means to believe someone without proof.",
-    "as": "'give the benefit of the doubt' ৰ অৰ্থ হৈছে প্ৰমাণ নোহোৱাকৈ বিশ্বাস কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-369",
-   "q": {
-    "en": "The idiom 'go back to the drawing board' means —",
-    "as": "'go back to the drawing board' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to start planning again",
-     "as": "পুনৰ পৰিকল্পনা আৰম্ভ কৰা"
-    },
-    {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "to make something possible",
-     "as": "কিবা সম্ভৱ কৰি তোলা"
-    },
-    {
-     "en": "to pretend to be uninterested",
-     "as": "অনিচ্ছুক যেন দেখুওৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'go back to the drawing board' means to start planning again.",
-    "as": "'go back to the drawing board' ৰ অৰ্থ হৈছে পুনৰ পৰিকল্পনা আৰম্ভ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-370",
-   "q": {
-    "en": "The idiom 'hit the ground running' means —",
-    "as": "'hit the ground running' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to see that failure is coming",
-     "as": "ব্যৰ্থতা আহি থকা দেখা"
-    },
-    {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    },
-    {
-     "en": "to start something quickly and well",
-     "as": "সোনকালে আৰু ভালদৰে আৰম্ভ কৰা"
-    },
-    {
-     "en": "to operate smoothly",
-     "as": "মসৃণভাৱে চলা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'hit the ground running' means to start something quickly and well.",
-    "as": "'hit the ground running' ৰ অৰ্থ হৈছে সোনকালে আৰু ভালদৰে আৰম্ভ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-371",
-   "q": {
-    "en": "The idiom 'in the heat of the moment' means —",
-    "as": "'in the heat of the moment' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to operate smoothly",
-     "as": "মসৃণভাৱে চলা"
-    },
-    {
-     "en": "to help someone in return for help",
-     "as": "সহায়ৰ বিনিময়ত সহায় কৰা"
-    },
-    {
-     "en": "in a moment of strong emotion",
-     "as": "প্ৰবল ভাৱনাত"
-    },
-    {
-     "en": "to finalise an agreement",
-     "as": "চুক্তি চূড়ান্ত কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'in the heat of the moment' means in a moment of strong emotion.",
-    "as": "'in the heat of the moment' ৰ অৰ্থ হৈছে প্ৰবল ভাৱনাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-372",
-   "q": {
-    "en": "The idiom 'it takes two to tango' means —",
-    "as": "'it takes two to tango' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to tackle a problem boldly",
-     "as": "সমস্যা সাহসেৰে মোকাবিলা কৰা"
-    },
-    {
-     "en": "to enter a competition",
-     "as": "প্ৰতিযোগিতাত নামি পৰা"
-    },
-    {
-     "en": "to put more pressure on",
-     "as": "বেছি চাপ দিয়া"
-    },
-    {
-     "en": "both sides are responsible",
-     "as": "দুয়ো পক্ষই দায়ী"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'it takes two to tango' means both sides are responsible.",
-    "as": "'it takes two to tango' ৰ অৰ্থ হৈছে দুয়ো পক্ষই দায়ী।"
-   }
-  },
-  {
-   "id": "idioms-phrases-373",
-   "q": {
-    "en": "The idiom 'jump on the bandwagon' means —",
-    "as": "'jump on the bandwagon' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to abandon something",
-     "as": "কিবা এৰি থৈ যোৱা"
-    },
-    {
-     "en": "to join a popular activity",
-     "as": "জনপ্ৰিয় কামত যোগ দিয়া"
-    },
-    {
-     "en": "to pretend to be brave",
-     "as": "সাহসী যেন দেখুওৱা"
-    },
-    {
-     "en": "one who keeps changing does not succeed",
-     "as": "সঘনে সলনি কৰাজন সফল নহয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'jump on the bandwagon' means to join a popular activity.",
-    "as": "'jump on the bandwagon' ৰ অৰ্থ হৈছে জনপ্ৰিয় কামত যোগ দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-374",
-   "q": {
-    "en": "The idiom 'keep something at bay' means —",
-    "as": "'keep something at bay' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "do not risk everything at once",
-     "as": "সকলো আশা এঠাইত ৰাখিব নালাগে"
-    },
-    {
-     "en": "truthfulness is the best rule",
-     "as": "সততাই শ্ৰেষ্ঠ নীতি"
-    },
-    {
-     "en": "need leads to new ideas",
-     "as": "প্ৰয়োজনেই উদ্ভাৱনৰ জননী"
-    },
-    {
-     "en": "to prevent something from harming",
-     "as": "ক্ষতিৰ পৰা বিৰত ৰখা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'keep something at bay' means to prevent something from harming.",
-    "as": "'keep something at bay' ৰ অৰ্থ হৈছে ক্ষতিৰ পৰা বিৰত ৰখা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-375",
-   "q": {
-    "en": "The idiom 'make waves' means —",
-    "as": "'make waves' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "unity brings strength",
-     "as": "একতাই শক্তি আনে"
-    },
-    {
-     "en": "to cause a disturbance",
-     "as": "হুলস্থূল সৃষ্টি কৰা"
-    },
-    {
-     "en": "determination finds a solution",
-     "as": "ইচ্ছা থাকিলে উপায় ওলায়"
-    },
-    {
-     "en": "prompt action prevents bigger trouble",
-     "as": "সময়ত কৰা কামে ডাঙৰ সমস্যা ৰোধ কৰে"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'make waves' means to cause a disturbance.",
-    "as": "'make waves' ৰ অৰ্থ হৈছে হুলস্থূল সৃষ্টি কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-376",
-   "q": {
-    "en": "The idiom 'miss the boat' means —",
-    "as": "'miss the boat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "prompt action prevents bigger trouble",
-     "as": "সময়ত কৰা কামে ডাঙৰ সমস্যা ৰোধ কৰে"
-    },
-    {
-     "en": "appearances can be deceptive",
-     "as": "চকচকিয়া বস্তু সদায় সোণ নহয়"
-    },
-    {
-     "en": "to lose an opportunity",
-     "as": "সুযোগ হেৰুওৱা"
-    },
-    {
-     "en": "deeds matter more than promises",
-     "as": "কথাতকৈ কামে বেছি কয়"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'miss the boat' means to lose an opportunity.",
-    "as": "'miss the boat' ৰ অৰ্থ হৈছে সুযোগ হেৰুওৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-377",
-   "q": {
-    "en": "The idiom 'on the ball' means —",
-    "as": "'on the ball' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "first care for one's own family",
-     "as": "দান নিজৰ ঘৰৰ পৰা আৰম্ভ হয়"
-    },
-    {
-     "en": "nothing is perfect",
-     "as": "কোনো বস্তুৱেই নিখুঁত নহয়"
-    },
-    {
-     "en": "alert and efficient",
-     "as": "সতৰ্ক আৰু দক্ষ"
-    },
-    {
-     "en": "courage brings success",
-     "as": "সাহসীক ভাগ্যই সহায় কৰে"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'on the ball' means alert and efficient.",
-    "as": "'on the ball' ৰ অৰ্থ হৈছে সতৰ্ক আৰু দক্ষ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-378",
-   "q": {
-    "en": "The idiom 'once bitten twice shy' means —",
-    "as": "'once bitten twice shy' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "learning gives strength",
-     "as": "জ্ঞানেই শক্তি"
-    },
-    {
-     "en": "to be cautious after a bad experience",
-     "as": "বেয়া অভিজ্ঞতাৰ পিছত সতৰ্ক হোৱা"
-    },
-    {
-     "en": "cheerfulness attracts company",
-     "as": "হাঁহিলে জগতেও লগত হাঁহে"
-    },
-    {
-     "en": "rumours usually have some truth",
-     "as": "উৰাবাতৰিৰ পিছত কিবা সত্য থাকে"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'once bitten twice shy' means to be cautious after a bad experience.",
-    "as": "'once bitten twice shy' ৰ অৰ্থ হৈছে বেয়া অভিজ্ঞতাৰ পিছত সতৰ্ক হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-379",
-   "q": {
-    "en": "The idiom 'par for the course' means —",
-    "as": "'par for the course' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "writing is stronger than force",
-     "as": "কলম তৰোৱালতকৈ শক্তিশালী"
-    },
-    {
-     "en": "what is normal or expected",
-     "as": "সাধাৰণ বা প্ৰত্যাশিত"
-    },
-    {
-     "en": "great things take time",
-     "as": "মহান কামলৈ সময় লাগে"
-    },
-    {
-     "en": "one believes what one sees",
-     "as": "দেখিলেই বিশ্বাস হয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'par for the course' means what is normal or expected.",
-    "as": "'par for the course' ৰ অৰ্থ হৈছে সাধাৰণ বা প্ৰত্যাশিত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-380",
-   "q": {
-    "en": "The idiom 'play it by ear' means —",
-    "as": "'play it by ear' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "difficult times reveal the strong",
-     "as": "কঠিন সময়ত সবলসকলে আগবাঢ়ে"
-    },
-    {
-     "en": "results follow one's actions",
-     "as": "কৰ্মৰ ফল ভোগ কৰিব লাগে"
-    },
-    {
-     "en": "to act without a fixed plan",
-     "as": "নিৰ্দিষ্ট পৰিকল্পনা নোহোৱাকৈ কাম কৰা"
-    },
-    {
-     "en": "a true friend helps in trouble",
-     "as": "বিপদত সহায় কৰাজনেই প্ৰকৃত বন্ধু"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'play it by ear' means to act without a fixed plan.",
-    "as": "'play it by ear' ৰ অৰ্থ হৈছে নিৰ্দিষ্ট পৰিকল্পনা নোহোৱাকৈ কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-381",
-   "q": {
-    "en": "The idiom 'pull the plug' means —",
-    "as": "'pull the plug' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
-    },
-    {
-     "en": "to stop something from continuing",
-     "as": "কাম চলি থাকিবলৈ বাধা দিয়া"
-    },
-    {
-     "en": "wealth gives influence",
-     "as": "ধনে প্ৰভাৱ বিস্তাৰ কৰে"
-    },
-    {
-     "en": "stopping a problem is better than fixing it",
-     "as": "প্ৰতিৰোধ উপচাৰতকৈ ভাল"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'pull the plug' means to stop something from continuing.",
-    "as": "'pull the plug' ৰ অৰ্থ হৈছে কাম চলি থাকিবলৈ বাধা দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-382",
-   "q": {
-    "en": "The idiom 'put one's best foot forward' means —",
-    "as": "'put one's best foot forward' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "teamwork gives better results",
-     "as": "দুটা মূৰ এটা মূৰতকৈ ভাল"
-    },
-    {
-     "en": "to make the best effort",
-     "as": "সৰ্বোত্তম চেষ্টা কৰা"
-    },
-    {
-     "en": "you cannot enjoy two opposite things",
-     "as": "দুটা পৰস্পৰবিৰোধী বস্তু একেলগে ভোগ নকৰা"
-    },
-    {
-     "en": "big tasks start small",
-     "as": "ডাঙৰ কাম এটা সৰু পদক্ষেপৰ পৰা আৰম্ভ হয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'put one's best foot forward' means to make the best effort.",
-    "as": "'put one's best foot forward' ৰ অৰ্থ হৈছে সৰ্বোত্তম চেষ্টা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-383",
-   "q": {
-    "en": "The idiom 'raise the bar' means —",
-    "as": "'raise the bar' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "being clean is a virtue",
-     "as": "পৰিষ্কাৰতা পৱিত্ৰতাৰ দৰে"
-    },
-    {
-     "en": "a strong opponent needs a strong match",
-     "as": "শক্তিশালীক শক্তিশালীয়ে মোকাবিলা কৰে"
-    },
-    {
-     "en": "treat others as you wish to be treated",
-     "as": "আনে যেনে ব্যৱহাৰ বিচাৰা তেনে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to set a higher standard",
-     "as": "উচ্চ মান নিৰ্ধাৰণ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'raise the bar' means to set a higher standard.",
-    "as": "'raise the bar' ৰ অৰ্থ হৈছে উচ্চ মান নিৰ্ধাৰণ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-384",
-   "q": {
-    "en": "The idiom 'read the riot act' means —",
-    "as": "'read the riot act' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to warn someone firmly",
-     "as": "কঠোৰভাৱে সকীয়নি দিয়া"
-    },
-    {
-     "en": "treat others as you wish to be treated",
-     "as": "আনে যেনে ব্যৱহাৰ বিচাৰা তেনে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "moderation is best",
-     "as": "পৰ্যাপ্ততাই ভাল"
-    },
-    {
-     "en": "failure leads to success",
-     "as": "ব্যৰ্থতাই সফলতাৰ খটখটি"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'read the riot act' means to warn someone firmly.",
-    "as": "'read the riot act' ৰ অৰ্থ হৈছে কঠোৰভাৱে সকীয়নি দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-385",
-   "q": {
-    "en": "The idiom 'ring a bell' means —",
-    "as": "'ring a bell' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "self-reliance gives best results",
-     "as": "নিজে কৰিলেহে ভাল হয়"
-    },
-    {
-     "en": "extreme need ignores rules",
-     "as": "অতিপ্ৰয়োজনে নিয়ম নমানি"
-    },
-    {
-     "en": "to sound familiar",
-     "as": "চিনাকি যেন লাগা"
-    },
-    {
-     "en": "what suits one may harm another",
-     "as": "এজনৰ উপকাৰী আনজনৰ অপকাৰী"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'ring a bell' means to sound familiar.",
-    "as": "'ring a bell' ৰ অৰ্থ হৈছে চিনাকি যেন লাগা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-386",
-   "q": {
-    "en": "The idiom 'rule of thumb' means —",
-    "as": "'rule of thumb' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "true joys cost nothing",
-     "as": "জীৱনৰ শ্ৰেষ্ঠ বস্তু বিনামূলীয়া"
-    },
-    {
-     "en": "every rumour has a basis",
-     "as": "প্ৰতিটো উৰাবাতৰিৰ এটা ভিত্তি থাকে"
-    },
-    {
-     "en": "a rough practical method",
-     "as": "মোটামুটি ব্যৱহাৰিক নিয়ম"
-    },
-    {
-     "en": "time is valuable",
-     "as": "সময়েই ধন"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'rule of thumb' means a rough practical method.",
-    "as": "'rule of thumb' ৰ অৰ্থ হৈছে মোটামুটি ব্যৱহাৰিক নিয়ম।"
-   }
-  },
-  {
-   "id": "idioms-phrases-387",
-   "q": {
-    "en": "The idiom 'run out of steam' means —",
-    "as": "'run out of steam' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to lose energy or momentum",
-     "as": "শক্তি বা গতি হেৰুওৱা"
-    },
-    {
-     "en": "a sudden and unexpected shock",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
-    },
-    {
-     "en": "a person used by another to do something risky",
-     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
-    },
-    {
-     "en": "a very miserly person",
-     "as": "অতি কৃপণ ব্যক্তি"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'run out of steam' means to lose energy or momentum.",
-    "as": "'run out of steam' ৰ অৰ্থ হৈছে শক্তি বা গতি হেৰুওৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-388",
-   "q": {
-    "en": "The idiom 'second thoughts' means —",
-    "as": "'second thoughts' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a person in an uncomfortable situation",
-     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
-    },
-    {
-     "en": "a day of festivity",
-     "as": "উৎসৱৰ দিন"
-    },
-    {
-     "en": "a task requiring great strength",
-     "as": "অতি কঠিন কাম"
-    },
-    {
-     "en": "a change of opinion after reconsidering",
-     "as": "পুনৰ বিবেচনাৰ পিছত মত সলনি"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'second thoughts' means a change of opinion after reconsidering.",
-    "as": "'second thoughts' ৰ অৰ্থ হৈছে পুনৰ বিবেচনাৰ পিছত মত সলনি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-389",
-   "q": {
-    "en": "The idiom 'sour grapes' means —",
-    "as": "'sour grapes' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a scholar or writer",
-     "as": "পণ্ডিত বা লেখক"
-    },
-    {
-     "en": "disparaging what one cannot have",
-     "as": "নোপোৱা বস্তুৰ বেয়া কোৱা"
-    },
-    {
-     "en": "a man of many talents",
-     "as": "বহু প্ৰতিভাৰ মানুহ"
-    },
-    {
-     "en": "a person of no substance or worth",
-     "as": "নগণ্য বা মূল্যহীন ব্যক্তি"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'sour grapes' means disparaging what one cannot have.",
-    "as": "'sour grapes' ৰ অৰ্থ হৈছে নোপোৱা বস্তুৰ বেয়া কোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-390",
-   "q": {
-    "en": "The idiom 'spill the tea' means —",
-    "as": "'spill the tea' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "an important or memorable day",
-     "as": "গুৰুত্বপূৰ্ণ বা স্মৰণীয় দিন"
-    },
-    {
-     "en": "to share gossip",
-     "as": "গপ্প-গুজব বিলোৱা"
-    },
-    {
-     "en": "a hidden enemy",
-     "as": "গুপুত শত্ৰু"
-    },
-    {
-     "en": "a subject that causes pain or anger",
-     "as": "ব্যথা বা খং দিয়া বিষয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'spill the tea' means to share gossip.",
-    "as": "'spill the tea' ৰ অৰ্থ হৈছে গপ্প-গুজব বিলোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-391",
-   "q": {
-    "en": "The idiom 'steal someone's thunder' means —",
-    "as": "'steal someone's thunder' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to take credit for another's idea",
-     "as": "আনৰ ধাৰণাৰ কৃতিত্ব লোৱা"
-    },
-    {
-     "en": "honest and open",
-     "as": "সৎ আৰু মুকলি"
-    },
-    {
-     "en": "following the rules exactly",
-     "as": "নিয়ম মতে কৰা"
-    },
-    {
-     "en": "to make a bad situation worse",
-     "as": "অৱস্থা আৰু বেয়া কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'steal someone's thunder' means to take credit for another's idea.",
-    "as": "'steal someone's thunder' ৰ অৰ্থ হৈছে আনৰ ধাৰণাৰ কৃতিত্ব লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-392",
-   "q": {
-    "en": "The idiom 'take the plunge' means —",
-    "as": "'take the plunge' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very calm and composed",
-     "as": "অতি শান্ত আৰু ধীৰ"
-    },
-    {
-     "en": "in bitter enmity",
-     "as": "তীব্ৰ শত্ৰুতাত"
-    },
-    {
-     "en": "to decide to do something risky",
-     "as": "বিপদজনক কাম কৰাৰ সিদ্ধান্ত লোৱা"
-    },
-    {
-     "en": "at liberty or as a whole",
-     "as": "মুক্ত অৱস্থাত বা সমগ্ৰভাৱে"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'take the plunge' means to decide to do something risky.",
-    "as": "'take the plunge' ৰ অৰ্থ হৈছে বিপদজনক কাম কৰাৰ সিদ্ধান্ত লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-393",
-   "q": {
-    "en": "The idiom 'the elephant in the room' means —",
-    "as": "'the elephant in the room' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "something easily understood",
-     "as": "সহজতে বুজিব পৰা বস্তু"
-    },
-    {
-     "en": "an obvious problem everyone ignores",
-     "as": "সকলোৱে উপেক্ষা কৰা স্পষ্ট সমস্যা"
-    },
-    {
-     "en": "a very difficult task",
-     "as": "অতি কঠিন কাম"
-    },
-    {
-     "en": "a person dearly loved",
-     "as": "অতি প্ৰিয় ব্যক্তি"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'the elephant in the room' means an obvious problem everyone ignores.",
-    "as": "'the elephant in the room' ৰ অৰ্থ হৈছে সকলোৱে উপেক্ষা কৰা স্পষ্ট সমস্যা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-394",
-   "q": {
-    "en": "The idiom 'throw in the towel' means —",
-    "as": "'throw in the towel' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "utterly confused",
-     "as": "সম্পূৰ্ণভাৱে হতবুদ্ধি"
-    },
-    {
-     "en": "in a state of confusion",
-     "as": "অগোছাল অৱস্থাত"
-    },
-    {
-     "en": "at the last possible moment",
-     "as": "শেষ মুহূৰ্তত"
-    },
-    {
-     "en": "to give up",
-     "as": "হাৰ মানি এৰি দিয়া"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'throw in the towel' means to give up.",
-    "as": "'throw in the towel' ৰ অৰ্থ হৈছে হাৰ মানি এৰি দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-395",
-   "q": {
-    "en": "The idiom 'tie the knot' means —",
-    "as": "'tie the knot' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "at the last possible moment",
-     "as": "শেষ মুহূৰ্তত"
-    },
-    {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    },
-    {
-     "en": "to get married",
-     "as": "বিবাহ কৰা"
-    },
-    {
-     "en": "ill feeling between people",
-     "as": "মানুহৰ মাজত শত্ৰুতা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'tie the knot' means to get married.",
-    "as": "'tie the knot' ৰ অৰ্থ হৈছে বিবাহ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-396",
-   "q": {
-    "en": "The idiom 'turn a blind eye' means —",
-    "as": "'turn a blind eye' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "beyond the power of words to describe",
-     "as": "বৰ্ণনা কৰিব নোৱাৰা"
-    },
-    {
-     "en": "secretly",
-     "as": "গুপুতে"
-    },
-    {
-     "en": "to take the risk of doing something",
-     "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
-    },
-    {
-     "en": "to ignore something deliberately",
-     "as": "ইচ্ছাকৃতভাৱে উপেক্ষা কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'turn a blind eye' means to ignore something deliberately.",
-    "as": "'turn a blind eye' ৰ অৰ্থ হৈছে ইচ্ছাকৃতভাৱে উপেক্ষা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-397",
-   "q": {
-    "en": "The idiom 'up in arms' means —",
-    "as": "'up in arms' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to take the risk of doing something",
-     "as": "কাম কৰাৰ বিপদ মূৰত লোৱা"
-    },
-    {
-     "en": "between two equal dangers",
-     "as": "দুটা সমান বিপদৰ মাজত"
-    },
-    {
-     "en": "very angry and ready to protest",
-     "as": "অতি খঙাল আৰু প্ৰতিবাদলৈ সাজু"
-    },
-    {
-     "en": "a general view from above",
-     "as": "ওপৰৰ পৰা চোৱা সাধাৰণ দৃশ্য"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'up in arms' means very angry and ready to protest.",
-    "as": "'up in arms' ৰ অৰ্থ হৈছে অতি খঙাল আৰু প্ৰতিবাদলৈ সাজু।"
-   }
-  },
-  {
-   "id": "idioms-phrases-398",
-   "q": {
-    "en": "The idiom 'walk on eggshells' means —",
-    "as": "'walk on eggshells' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to act very carefully",
-     "as": "অতি সাৱধানেৰে কাম কৰা"
-    },
-    {
-     "en": "to change one's attitude repeatedly",
-     "as": "মন সঘনে সলনি কৰা"
-    },
-    {
-     "en": "to praise oneself",
-     "as": "নিজৰ প্ৰশংসা কৰা"
-    },
-    {
-     "en": "noble birth",
-     "as": "অভিজাত জন্ম"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'walk on eggshells' means to act very carefully.",
-    "as": "'walk on eggshells' ৰ অৰ্থ হৈছে অতি সাৱধানেৰে কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-399",
-   "q": {
-    "en": "The idiom 'water under the bridge' means —",
-    "as": "'water under the bridge' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to punish or question",
-     "as": "শাস্তি দিয়া বা প্ৰশ্ন কৰা"
-    },
-    {
-     "en": "a past matter no longer important",
-     "as": "পুৰণি আৰু এতিয়া অপ্ৰাসংগিক বিষয়"
-    },
-    {
-     "en": "to waste energy in two directions",
-     "as": "দুইদিশে শক্তি অপচয় কৰা"
-    },
-    {
-     "en": "to study late into the night",
-     "as": "ৰাতি দেৰিলৈকে পঢ়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'water under the bridge' means a past matter no longer important.",
-    "as": "'water under the bridge' ৰ অৰ্থ হৈছে পুৰণি আৰু এতিয়া অপ্ৰাসংগিক বিষয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-400",
-   "q": {
-    "en": "The idiom 'weather the storm' means —",
-    "as": "'weather the storm' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "by fair or unfair means",
-     "as": "যিকোনো উপায়েৰে"
-    },
-    {
-     "en": "to speak plainly and frankly",
-     "as": "স্পষ্ট আৰু মুকলিভাৱে কোৱা"
-    },
-    {
-     "en": "to do something unnecessary",
-     "as": "নিষ্প্ৰয়োজনীয় কাম কৰা"
-    },
-    {
-     "en": "to survive a difficult period",
-     "as": "কঠিন সময় পাৰ কৰি যোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'weather the storm' means to survive a difficult period.",
-    "as": "'weather the storm' ৰ অৰ্থ হৈছে কঠিন সময় পাৰ কৰি যোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-401",
-   "q": {
-    "en": "The idiom 'wet behind the ears' means —",
-    "as": "'wet behind the ears' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to meet one's match",
-     "as": "সমক্ষমতাসম্পন্ন লগ পোৱা"
-    },
-    {
-     "en": "young and inexperienced",
-     "as": "ডেকা আৰু অনভিজ্ঞ"
-    },
-    {
-     "en": "to catch in the act of doing wrong",
-     "as": "অপৰাধ কৰি থকা অৱস্থাত ধৰা"
-    },
-    {
-     "en": "cowardly",
-     "as": "ভীতু"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'wet behind the ears' means young and inexperienced.",
-    "as": "'wet behind the ears' ৰ অৰ্থ হৈছে ডেকা আৰু অনভিজ্ঞ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-402",
-   "q": {
-    "en": "The idiom 'when pigs fly' means —",
-    "as": "'when pigs fly' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "an unbelievable tale",
-     "as": "অবিশ্বাস্য কাহিনী"
-    },
-    {
-     "en": "to succeed brilliantly",
-     "as": "চমকপ্ৰদভাৱে সফল হোৱা"
-    },
-    {
-     "en": "to wait for a long time",
-     "as": "বহু সময় অপেক্ষা কৰা"
-    },
-    {
-     "en": "something that will never happen",
-     "as": "কেতিয়াও নহ'বলগীয়া কথা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'when pigs fly' means something that will never happen.",
-    "as": "'when pigs fly' ৰ অৰ্থ হৈছে কেতিয়াও নহ'বলগীয়া কথা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-403",
-   "q": {
-    "en": "The idiom 'a piece of the pie' means —",
-    "as": "'a piece of the pie' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make a poor impression",
-     "as": "বেয়া ধাৰণা দিয়া"
-    },
-    {
-     "en": "to solve a difficult problem boldly",
-     "as": "কঠিন সমস্যা সাহসেৰে সমাধান কৰা"
-    },
-    {
-     "en": "a share of the profit",
-     "as": "লাভৰ এটা অংশ"
-    },
-    {
-     "en": "strongly opposed",
-     "as": "তীব্ৰ বিৰোধিতা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'a piece of the pie' means a share of the profit.",
-    "as": "'a piece of the pie' ৰ অৰ্থ হৈছে লাভৰ এটা অংশ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-404",
-   "q": {
-    "en": "The idiom 'add insult to injury' means —",
-    "as": "'add insult to injury' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "completely",
-     "as": "সম্পূৰ্ণভাৱে"
-    },
-    {
-     "en": "to bear the consequences",
-     "as": "পৰিণাম ভোগ কৰা"
-    },
-    {
-     "en": "honest and straightforward",
-     "as": "সৎ আৰু সোজা"
-    },
-    {
-     "en": "to make a bad situation worse",
-     "as": "আঘাতৰ ওপৰত অপমান যোগোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'add insult to injury' means to make a bad situation worse.",
-    "as": "'add insult to injury' ৰ অৰ্থ হৈছে আঘাতৰ ওপৰত অপমান যোগোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-405",
-   "q": {
-    "en": "The idiom 'as the crow flies' means —",
-    "as": "'as the crow flies' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "enough space to move",
-     "as": "চলাৰ বাবে পৰ্যাপ্ত ঠাই"
-    },
-    {
-     "en": "in a straight line",
-     "as": "পোন ৰেখাত"
-    },
-    {
-     "en": "to come to nothing",
-     "as": "কোনো ফল নোহোৱাকৈ শেষ হোৱা"
-    },
-    {
-     "en": "completely",
-     "as": "সম্পূৰ্ণভাৱে"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'as the crow flies' means in a straight line.",
-    "as": "'as the crow flies' ৰ অৰ্থ হৈছে পোন ৰেখাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-406",
-   "q": {
-    "en": "The idiom 'at a snail's pace' means —",
-    "as": "'at a snail's pace' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to fail to produce an effect",
-     "as": "কোনো প্ৰভাৱ নজনোৱা"
-    },
-    {
-     "en": "a great distance",
-     "as": "অতি বেছি ব্যৱধান"
-    },
-    {
-     "en": "to enrich oneself dishonestly",
-     "as": "অসততাৰে নিজৰ স্বাৰ্থ চৰিতাৰ্থ কৰা"
-    },
-    {
-     "en": "very slowly",
-     "as": "অতি লেহেমীয়াকৈ"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'at a snail's pace' means very slowly.",
-    "as": "'at a snail's pace' ৰ অৰ্থ হৈছে অতি লেহেমীয়াকৈ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-407",
-   "q": {
-    "en": "The idiom 'bend over backwards' means —",
-    "as": "'bend over backwards' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to try very hard to help",
-     "as": "সহায় কৰিবলৈ বহুত চেষ্টা কৰা"
-    },
-    {
-     "en": "a state of happiness based on false hope",
-     "as": "মিছা আশাৰ আনন্দ"
-    },
-    {
-     "en": "permanently",
-     "as": "চিৰকাললৈ"
-    },
-    {
-     "en": "with just enough for immediate needs",
-     "as": "দিন চলোৱাৰ সমান মাত্ৰ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'bend over backwards' means to try very hard to help.",
-    "as": "'bend over backwards' ৰ অৰ্থ হৈছে সহায় কৰিবলৈ বহুত চেষ্টা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-408",
-   "q": {
-    "en": "The idiom 'bite one's tongue' means —",
-    "as": "'bite one's tongue' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "with just enough for immediate needs",
-     "as": "দিন চলোৱাৰ সমান মাত্ৰ"
-    },
-    {
-     "en": "a day of celebration",
-     "as": "উদযাপনৰ দিন"
-    },
-    {
-     "en": "to stop oneself from speaking",
-     "as": "কথা কোৱাৰ পৰা নিজকে বিৰত ৰখা"
-    },
-    {
-     "en": "to become friends quickly",
-     "as": "সোনকালে বন্ধু হোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'bite one's tongue' means to stop oneself from speaking.",
-    "as": "'bite one's tongue' ৰ অৰ্থ হৈছে কথা কোৱাৰ পৰা নিজকে বিৰত ৰখা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-409",
-   "q": {
-    "en": "The idiom 'bleed someone dry' means —",
-    "as": "'bleed someone dry' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to keep away from",
-     "as": "দূৰৈত থাকা"
-    },
-    {
-     "en": "to treat with indifference",
-     "as": "অৱহেলাৰে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to take all of someone's money",
-     "as": "কাৰোবাৰ সকলো ধন লৈ লোৱা"
-    },
-    {
-     "en": "to be defeated or ruined",
-     "as": "পৰাজিত বা বৰ্বাদ হোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'bleed someone dry' means to take all of someone's money.",
-    "as": "'bleed someone dry' ৰ অৰ্থ হৈছে কাৰোবাৰ সকলো ধন লৈ লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-410",
-   "q": {
-    "en": "The idiom 'break a leg' means —",
-    "as": "'break a leg' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a period of peace and happiness",
-     "as": "শান্তি আৰু সুখৰ কাল"
-    },
-    {
-     "en": "good luck",
-     "as": "শুভ কামনা"
-    },
-    {
-     "en": "in close association",
-     "as": "ঘনিষ্ঠ সংযোগত"
-    },
-    {
-     "en": "a difficult problem",
-     "as": "কঠিন সমস্যা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'break a leg' means good luck.",
-    "as": "'break a leg' ৰ অৰ্থ হৈছে শুভ কামনা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-411",
-   "q": {
-    "en": "The idiom 'burn bridges' means —",
-    "as": "'burn bridges' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "completely or deeply",
-     "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
-    },
-    {
-     "en": "in a helpless condition",
-     "as": "অসহায় অৱস্থাত"
-    },
-    {
-     "en": "to do or say the right thing",
-     "as": "সঠিক কাম বা কথা কৰা"
-    },
-    {
-     "en": "to destroy all chances of return",
-     "as": "ঘূৰি অহাৰ সকলো সুযোগ নষ্ট কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'burn bridges' means to destroy all chances of return.",
-    "as": "'burn bridges' ৰ অৰ্থ হৈছে ঘূৰি অহাৰ সকলো সুযোগ নষ্ট কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-412",
-   "q": {
-    "en": "The idiom 'by the skin of one's teeth' means —",
-    "as": "'by the skin of one's teeth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "deliberately and without emotion",
-     "as": "ইচ্ছাকৃতভাৱে আৰু নিৰ্দয়ভাৱে"
-    },
-    {
-     "en": "in good health",
-     "as": "সুস্থ অৱস্থাত"
-    },
-    {
-     "en": "only just barely",
-     "as": "কোনোমতে সামান্য ব্যৱধানত"
-    },
-    {
-     "en": "in trouble",
-     "as": "সমস্যাত"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'by the skin of one's teeth' means only just barely.",
-    "as": "'by the skin of one's teeth' ৰ অৰ্থ হৈছে কোনোমতে সামান্য ব্যৱধানত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-413",
-   "q": {
-    "en": "The idiom 'call it quits' means —",
-    "as": "'call it quits' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to hope for good luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    },
-    {
-     "en": "to avoid starvation",
-     "as": "ভোকৰ পৰা ৰক্ষা পোৱা"
-    },
-    {
-     "en": "to die",
-     "as": "মৃত্যুবৰণ কৰা"
-    },
-    {
-     "en": "to agree to end a dispute",
-     "as": "বিবাদ শেষ কৰিবলৈ ৰাজি হোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'call it quits' means to agree to end a dispute.",
-    "as": "'call it quits' ৰ অৰ্থ হৈছে বিবাদ শেষ কৰিবলৈ ৰাজি হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-414",
-   "q": {
-    "en": "The idiom 'carry the can' means —",
-    "as": "'carry the can' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to die",
-     "as": "মৃত্যুবৰণ কৰা"
-    },
-    {
-     "en": "friends and relatives",
-     "as": "বন্ধু-বান্ধৱ আৰু আত্মীয়"
-    },
-    {
-     "en": "to defeat completely",
-     "as": "সম্পূৰ্ণভাৱে পৰাজিত কৰা"
-    },
-    {
-     "en": "to take the blame",
-     "as": "দোষ মূৰত লোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'carry the can' means to take the blame.",
-    "as": "'carry the can' ৰ অৰ্থ হৈছে দোষ মূৰত লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-415",
-   "q": {
-    "en": "The idiom 'chalk and cheese' means —",
-    "as": "'chalk and cheese' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
-     "en": "to be defeated humbly",
-     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
-    },
-    {
-     "en": "the largest share",
-     "as": "সৰ্বাধিক অংশ"
-    },
-    {
-     "en": "completely different",
-     "as": "সম্পূৰ্ণ পৃথক"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'chalk and cheese' means completely different.",
-    "as": "'chalk and cheese' ৰ অৰ্থ হৈছে সম্পূৰ্ণ পৃথক।"
-   }
-  },
-  {
-   "id": "idioms-phrases-416",
-   "q": {
-    "en": "The idiom 'cloud nine' means —",
-    "as": "'cloud nine' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be defeated humbly",
-     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
-    },
-    {
-     "en": "the largest share",
-     "as": "সৰ্বাধিক অংশ"
-    },
-    {
-     "en": "a state of great happiness",
-     "as": "মহান আনন্দৰ অৱস্থা"
-    },
-    {
-     "en": "to live with barely enough money",
-     "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'cloud nine' means a state of great happiness.",
-    "as": "'cloud nine' ৰ অৰ্থ হৈছে মহান আনন্দৰ অৱস্থা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-417",
-   "q": {
-    "en": "The idiom 'come rain or shine' means —",
-    "as": "'come rain or shine' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "whatever happens",
-     "as": "যি নহওক কিয়"
-    },
-    {
-     "en": "to become discouraged",
-     "as": "হতাশ হোৱা"
-    },
-    {
-     "en": "to confess fully",
-     "as": "সম্পূৰ্ণভাৱে স্বীকাৰ কৰা"
-    },
-    {
-     "en": "to live within one's income",
-     "as": "আয়ৰ ভিতৰত চলা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'come rain or shine' means whatever happens.",
-    "as": "'come rain or shine' ৰ অৰ্থ হৈছে যি নহওক কিয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-418",
-   "q": {
-    "en": "The idiom 'cry wolf' means —",
-    "as": "'cry wolf' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to raise a false alarm",
-     "as": "মিছা সতৰ্কবাণী দিয়া"
-    },
-    {
-     "en": "an ordinary person",
-     "as": "সাধাৰণ মানুহ"
-    },
-    {
-     "en": "abundance and prosperity",
-     "as": "প্ৰাচুৰ্য আৰু সমৃদ্ধি"
-    },
-    {
-     "en": "something that hastens failure",
-     "as": "পতন ত্বৰান্বিত কৰা কাৰণ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'cry wolf' means to raise a false alarm.",
-    "as": "'cry wolf' ৰ অৰ্থ হৈছে মিছা সতৰ্কবাণী দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-419",
-   "q": {
-    "en": "The idiom 'cut one's teeth on' means —",
-    "as": "'cut one's teeth on' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to gain early experience of",
-     "as": "প্ৰাৰম্ভিক অভিজ্ঞতা লাভ কৰা"
-    },
-    {
-     "en": "mutual dislike",
-     "as": "পৰস্পৰ অপছন্দ"
-    },
-    {
-     "en": "having no legal force",
-     "as": "আইনগতভাৱে অচল"
-    },
-    {
-     "en": "small leftover items",
-     "as": "সৰু-সুৰা বাকী বস্তু"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'cut one's teeth on' means to gain early experience of.",
-    "as": "'cut one's teeth on' ৰ অৰ্থ হৈছে প্ৰাৰম্ভিক অভিজ্ঞতা লাভ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-420",
-   "q": {
-    "en": "The idiom 'dance to someone's tune' means —",
-    "as": "'dance to someone's tune' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "faced with two difficult choices",
-     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
-    },
-    {
-     "en": "to do as another wishes",
-     "as": "আনৰ ইচ্ছামতে চলা"
-    },
-    {
-     "en": "without previous thought",
-     "as": "আগত নাভাবি"
-    },
-    {
-     "en": "very rarely",
-     "as": "অতি কেতিয়াবা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'dance to someone's tune' means to do as another wishes.",
-    "as": "'dance to someone's tune' ৰ অৰ্থ হৈছে আনৰ ইচ্ছামতে চলা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-421",
-   "q": {
-    "en": "The idiom 'dead in the water' means —",
-    "as": "'dead in the water' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "unable to function or progress",
-     "as": "কাম কৰিব বা আগবাঢ়িব নোৱৰা"
-    },
-    {
-     "en": "from one trouble into a worse one",
-     "as": "এটা সমস্যাৰ পৰা আৰু বেয়া সমস্যালৈ"
-    },
-    {
-     "en": "to support in words only",
-     "as": "মাত্ৰ মুখেৰে সমৰ্থন কৰা"
-    },
-    {
-     "en": "careful in small matters but wasteful in big ones",
-     "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'dead in the water' means unable to function or progress.",
-    "as": "'dead in the water' ৰ অৰ্থ হৈছে কাম কৰিব বা আগবাঢ়িব নোৱৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-422",
-   "q": {
-    "en": "The idiom 'dog days' means —",
-    "as": "'dog days' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to act to please the crowd",
-     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
-    },
-    {
-     "en": "to bear an insult quietly",
-     "as": "চুপচাপ অপমান সহ্য কৰা"
-    },
-    {
-     "en": "to make a determined effort",
-     "as": "দৃঢ় প্ৰচেষ্টা কৰা"
-    },
-    {
-     "en": "the hottest days of summer",
-     "as": "গ্ৰীষ্মৰ আটাইতকৈ উষ্ণ দিন"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'dog days' means the hottest days of summer.",
-    "as": "'dog days' ৰ অৰ্থ হৈছে গ্ৰীষ্মৰ আটাইতকৈ উষ্ণ দিন।"
-   }
-  },
-  {
-   "id": "idioms-phrases-423",
-   "q": {
-    "en": "The idiom 'dot the i's and cross the t's' means —",
-    "as": "'dot the i's and cross the t's' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be firm about something",
-     "as": "একটা কথাত দৃঢ় হোৱা"
-    },
-    {
-     "en": "to say something wrong",
-     "as": "ভুল কথা কোৱা"
-    },
-    {
-     "en": "to pay attention to small details",
-     "as": "সৰু সৰু বিতংক লৈ মনোযোগ দিয়া"
-    },
-    {
-     "en": "to do things in the wrong order",
-     "as": "ভুল ক্ৰমত কাম কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'dot the i's and cross the t's' means to pay attention to small details.",
-    "as": "'dot the i's and cross the t's' ৰ অৰ্থ হৈছে সৰু সৰু বিতংক লৈ মনোযোগ দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-424",
-   "q": {
-    "en": "The idiom 'eat like a horse' means —",
-    "as": "'eat like a horse' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to eat a lot",
-     "as": "বহুত খোৱা"
-    },
-    {
-     "en": "to be satisfied with past success",
-     "as": "পূৰ্বৰ সফলতাত সন্তুষ্ট থকা"
-    },
-    {
-     "en": "to take from one to give another",
-     "as": "এজনৰ পৰা লৈ আনজনক দিয়া"
-    },
-    {
-     "en": "to be very rich",
-     "as": "অতি ধনী হোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'eat like a horse' means to eat a lot.",
-    "as": "'eat like a horse' ৰ অৰ্থ হৈছে বহুত খোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-425",
-   "q": {
-    "en": "The idiom 'eleventh hour' means —",
-    "as": "'eleventh hour' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "the last possible moment",
-     "as": "শেষ মুহূৰ্ত"
-    },
-    {
-     "en": "to suspect something wrong",
-     "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
-    },
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
-     "en": "to maintain one's position",
-     "as": "নিজৰ অবস্থান অটল ৰখা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'eleventh hour' means the last possible moment.",
-    "as": "'eleventh hour' ৰ অৰ্থ হৈছে শেষ মুহূৰ্ত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-426",
-   "q": {
-    "en": "The idiom 'face the facts' means —",
-    "as": "'face the facts' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to maintain one's stand firmly",
-     "as": "নিজৰ মত দৃঢ়ভাৱে ৰখা"
-    },
-    {
-     "en": "a lot of fuss over a small matter",
-     "as": "সৰু কথাত অত্যধিক হুলস্থূল"
-    },
-    {
-     "en": "to accept the truth",
-     "as": "সত্য মানি লোৱা"
-    },
-    {
-     "en": "to make the utmost effort",
-     "as": "সৰ্বাধিক চেষ্টা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'face the facts' means to accept the truth.",
-    "as": "'face the facts' ৰ অৰ্থ হৈছে সত্য মানি লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-427",
-   "q": {
-    "en": "The idiom 'fall on one's feet' means —",
-    "as": "'fall on one's feet' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make the utmost effort",
-     "as": "সৰ্বাধিক চেষ্টা কৰা"
-    },
-    {
-     "en": "to take a less important position",
-     "as": "কম গুৰুত্বপূৰ্ণ স্থান লোৱা"
-    },
-    {
-     "en": "to be lucky after a difficulty",
-     "as": "অসুবিধাৰ পিছত ভাগ্যৱান হোৱা"
-    },
-    {
-     "en": "to rebuke",
-     "as": "ভৎৰ্সনা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'fall on one's feet' means to be lucky after a difficulty.",
-    "as": "'fall on one's feet' ৰ অৰ্থ হৈছে অসুবিধাৰ পিছত ভাগ্যৱান হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-428",
-   "q": {
-    "en": "The idiom 'fly on the wall' means —",
-    "as": "'fly on the wall' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "an unnoticed observer",
-     "as": "লক্ষ্য নকৰা পৰ্যবেক্ষক"
-    },
-    {
-     "en": "a decisive test of value",
-     "as": "মূল্যৰ নিষ্পত্তিমূলক পৰীক্ষা"
-    },
-    {
-     "en": "the final decision",
-     "as": "অন্তিম সিদ্ধান্ত"
-    },
-    {
-     "en": "to discourage",
-     "as": "হতাশ কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'fly on the wall' means an unnoticed observer.",
-    "as": "'fly on the wall' ৰ অৰ্থ হৈছে লক্ষ্য নকৰা পৰ্যবেক্ষক।"
-   }
-  },
-  {
-   "id": "idioms-phrases-429",
-   "q": {
-    "en": "The idiom 'get one's act together' means —",
-    "as": "'get one's act together' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "for a very long time",
-     "as": "অতি দীঘল সময়লৈকে"
-    },
-    {
-     "en": "to be confused",
-     "as": "হতবুদ্ধি হোৱা"
-    },
-    {
-     "en": "to be ignorant",
-     "as": "অজ্ঞ থকা"
-    },
-    {
-     "en": "to organise oneself effectively",
-     "as": "নিজকে প্ৰভাৱকৰভাৱে সংগঠিত কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'get one's act together' means to organise oneself effectively.",
-    "as": "'get one's act together' ৰ অৰ্থ হৈছে নিজকে প্ৰভাৱকৰভাৱে সংগঠিত কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-430",
-   "q": {
-    "en": "The idiom 'give someone a piece of one's mind' means —",
-    "as": "'give someone a piece of one's mind' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to win the victory",
-     "as": "বিজয় লাভ কৰা"
-    },
-    {
-     "en": "to regret what cannot be undone",
-     "as": "হৈ যোৱা কামৰ বাবে অনুতাপ কৰা"
-    },
-    {
-     "en": "to live within one's means",
-     "as": "আয়ৰ লগত খৰচ মিলাই চলা"
-    },
-    {
-     "en": "to scold someone frankly",
-     "as": "মুকলিভাৱে গালি পাৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'give someone a piece of one's mind' means to scold someone frankly.",
-    "as": "'give someone a piece of one's mind' ৰ অৰ্থ হৈছে মুকলিভাৱে গালি পাৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-431",
-   "q": {
-    "en": "The idiom 'go with the flow' means —",
-    "as": "'go with the flow' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to accept a situation calmly",
-     "as": "অৱস্থা শান্তভাৱে মানি লোৱা"
-    },
-    {
-     "en": "to act unfairly",
-     "as": "অন্যায়ভাৱে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to remain calm",
-     "as": "শান্ত থাকা"
-    },
-    {
-     "en": "to forget past quarrels",
-     "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'go with the flow' means to accept a situation calmly.",
-    "as": "'go with the flow' ৰ অৰ্থ হৈছে অৱস্থা শান্তভাৱে মানি লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-432",
-   "q": {
-    "en": "The idiom 'hit the sack' means —",
-    "as": "'hit the sack' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to forget past quarrels",
-     "as": "পুৰণি ঝগড়া পাহৰি যোৱা"
-    },
-    {
-     "en": "to come to the point quickly",
-     "as": "সোনকালে মূল কথালৈ অহা"
-    },
-    {
-     "en": "to manage with one's income",
-     "as": "আয়ৰ ভিতৰত চলা"
-    },
-    {
-     "en": "to go to bed",
-     "as": "শুবলৈ যোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'hit the sack' means to go to bed.",
-    "as": "'hit the sack' ৰ অৰ্থ হৈছে শুবলৈ যোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-433",
-   "q": {
-    "en": "The idiom 'in full swing' means —",
-    "as": "'in full swing' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to shift responsibility to another",
-     "as": "দায়িত্ব আনলৈ ঠেলি দিয়া"
-    },
-    {
-     "en": "to behave irresponsibly",
-     "as": "দায়িত্বহীনভাৱে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "at the highest level of activity",
-     "as": "সৰ্বোচ্চ সক্ৰিয়তাত"
-    },
-    {
-     "en": "to look sad or disappointed",
-     "as": "দুখ বা হতাশ দেখুওৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'in full swing' means at the highest level of activity.",
-    "as": "'in full swing' ৰ অৰ্থ হৈছে সৰ্বোচ্চ সক্ৰিয়তাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-434",
-   "q": {
-    "en": "The idiom 'in the long run' means —",
-    "as": "'in the long run' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to become very angry",
-     "as": "অতি খঙাল হোৱা"
-    },
-    {
-     "en": "to do something remarkable",
-     "as": "উল্লেখনীয় কাম কৰা"
-    },
-    {
-     "en": "to suspect a trick",
-     "as": "চক্ৰান্তৰ সন্দেহ কৰা"
-    },
-    {
-     "en": "over a long period",
-     "as": "দীৰ্ঘকালত"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'in the long run' means over a long period.",
-    "as": "'in the long run' ৰ অৰ্থ হৈছে দীৰ্ঘকালত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-435",
-   "q": {
-    "en": "The idiom 'jump the gun' means —",
-    "as": "'jump the gun' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to admit defeat",
-     "as": "পৰাজয় স্বীকাৰ কৰা"
-    },
-    {
-     "en": "to refuse to listen",
-     "as": "শুনিবলৈ অস্বীকাৰ কৰা"
-    },
-    {
-     "en": "to reverse the situation",
-     "as": "অৱস্থা ওলোটা কৰা"
-    },
-    {
-     "en": "to act too soon",
-     "as": "অতি সোনকালে কাম কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'jump the gun' means to act too soon.",
-    "as": "'jump the gun' ৰ অৰ্থ হৈছে অতি সোনকালে কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-436",
-   "q": {
-    "en": "The idiom 'keep an eye on' means —",
-    "as": "'keep an eye on' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to show one's feelings openly",
-     "as": "মুকলিভাৱে ভাৱ প্ৰকাশ কৰা"
-    },
-    {
-     "en": "with all one's strength",
-     "as": "সকলো শক্তিৰে"
-    },
-    {
-     "en": "to show any sign of fear",
-     "as": "ভয়ৰ কোনো চিহ্ন দেখুওৱা"
-    },
-    {
-     "en": "to watch carefully",
-     "as": "সাৱধানেৰে চকু ৰখা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'keep an eye on' means to watch carefully.",
-    "as": "'keep an eye on' ৰ অৰ্থ হৈছে সাৱধানেৰে চকু ৰখা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-437",
-   "q": {
-    "en": "The idiom 'kill two birds with one stone' means —",
-    "as": "'kill two birds with one stone' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "right in front of one",
-     "as": "চকুৰ সন্মুখত"
-    },
-    {
-     "en": "feeling unwell",
-     "as": "অসুস্থ অনুভৱ কৰা"
-    },
-    {
-     "en": "to achieve two aims with one action",
-     "as": "এটা কামেৰে দুটা উদ্দেশ্য সিদ্ধি কৰা"
-    },
-    {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'kill two birds with one stone' means to achieve two aims with one action.",
-    "as": "'kill two birds with one stone' ৰ অৰ্থ হৈছে এটা কামেৰে দুটা উদ্দেশ্য সিদ্ধি কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-438",
-   "q": {
-    "en": "The idiom 'last but not least' means —",
-    "as": "'last but not least' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "finally but not less important",
-     "as": "শেষত কিন্তু কম গুৰুত্বপূৰ্ণ নহয়"
-    },
-    {
-     "en": "a person who discourages others",
-     "as": "আনক নিৰুৎসাহিত কৰা ব্যক্তি"
-    },
-    {
-     "en": "a costly but useless possession",
-     "as": "ব্যয়বহুল কিন্তু অকামী বস্তু"
-    },
-    {
-     "en": "a foolish and useless search",
-     "as": "মূৰ্খামি আৰু অসাৰ অনুসন্ধান"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'last but not least' means finally but not less important.",
-    "as": "'last but not least' ৰ অৰ্থ হৈছে শেষত কিন্তু কম গুৰুত্বপূৰ্ণ নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-439",
-   "q": {
-    "en": "The idiom 'learn the ropes' means —",
-    "as": "'learn the ropes' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to learn how a job is done",
-     "as": "কাম কেনেকৈ কৰা হয় শিকা"
-    },
-    {
-     "en": "without any sense",
-     "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
-    },
-    {
-     "en": "a dangerous person pretending to be harmless",
-     "as": "নিৰীহ যেন দেখুওৱা বিপদজনক ব্যক্তি"
-    },
-    {
-     "en": "worth the wages paid",
-     "as": "দিয়া দৰমহাৰ যোগ্য"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'learn the ropes' means to learn how a job is done.",
-    "as": "'learn the ropes' ৰ অৰ্থ হৈছে কাম কেনেকৈ কৰা হয় শিকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-440",
-   "q": {
-    "en": "The idiom 'live and let live' means —",
-    "as": "'live and let live' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "having nothing to do",
-     "as": "কৰিবলৈ একো নথকা"
-    },
-    {
-     "en": "to tolerate others' ways",
-     "as": "আনৰ ধৰণ সহ্য কৰা"
-    },
-    {
-     "en": "back to the starting point",
-     "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
-    },
-    {
-     "en": "a very thin person",
-     "as": "অতি খীণ ব্যক্তি"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'live and let live' means to tolerate others' ways.",
-    "as": "'live and let live' ৰ অৰ্থ হৈছে আনৰ ধৰণ সহ্য কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-441",
-   "q": {
-    "en": "The idiom 'look on the bright side' means —",
-    "as": "'look on the bright side' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "practical and realistic",
-     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
-    },
-    {
-     "en": "to be optimistic",
-     "as": "আশাবাদী হোৱা"
-    },
-    {
-     "en": "to get no result",
-     "as": "কোনো ফলাফল নোপোৱা"
-    },
-    {
-     "en": "a very small amount",
-     "as": "অতি কম পৰিমাণ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'look on the bright side' means to be optimistic.",
-    "as": "'look on the bright side' ৰ অৰ্থ হৈছে আশাবাদী হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-442",
-   "q": {
-    "en": "The idiom 'make a mountain out of a molehill' means —",
-    "as": "'make a mountain out of a molehill' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to commit oneself beyond withdrawal",
-     "as": "পিছ হুঁহকিব নোৱাৰাকৈ প্ৰতিশ্ৰুতিবদ্ধ হোৱা"
-    },
-    {
-     "en": "to exaggerate a minor problem",
-     "as": "সৰু সমস্যাকে ডাঙৰ কৰা"
-    },
-    {
-     "en": "to stop working for the day",
-     "as": "দিনটোৰ কাম বন্ধ কৰা"
-    },
-    {
-     "en": "a source of steady profit",
-     "as": "স্থিৰ লাভৰ উৎস"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'make a mountain out of a molehill' means to exaggerate a minor problem.",
-    "as": "'make a mountain out of a molehill' ৰ অৰ্থ হৈছে সৰু সমস্যাকে ডাঙৰ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-443",
-   "q": {
-    "en": "The idiom 'no pain no gain' means —",
-    "as": "'no pain no gain' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "success requires effort",
-     "as": "সফলতাৰ বাবে শ্ৰম লাগে"
-    },
-    {
-     "en": "a source of steady profit",
-     "as": "স্থিৰ লাভৰ উৎস"
-    },
-    {
-     "en": "to pass to a new owner",
-     "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
-    },
-    {
-     "en": "nervousness before doing something",
-     "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'no pain no gain' means success requires effort.",
-    "as": "'no pain no gain' ৰ অৰ্থ হৈছে সফলতাৰ বাবে শ্ৰম লাগে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-444",
-   "q": {
-    "en": "The idiom 'off the record' means —",
-    "as": "'off the record' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to come to the main point",
-     "as": "মূল কথালৈ অহা"
-    },
-    {
-     "en": "not for publication",
-     "as": "প্ৰকাশৰ বাবে নহয়"
-    },
-    {
-     "en": "a person who argues the opposite for the sake of argument",
-     "as": "বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি"
-    },
-    {
-     "en": "practical and realistic",
-     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'off the record' means not for publication.",
-    "as": "'off the record' ৰ অৰ্থ হৈছে প্ৰকাশৰ বাবে নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-445",
-   "q": {
-    "en": "The idiom 'on the house' means —",
-    "as": "'on the house' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "free of charge",
-     "as": "বিনামূলীয়া"
-    },
-    {
-     "en": "to be completely controlled by another",
-     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
-    },
-    {
-     "en": "to urge someone to do something",
-     "as": "কিবা কৰিবলৈ উচটনি দিয়া"
-    },
-    {
-     "en": "every bad situation has some good in it",
-     "as": "প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'on the house' means free of charge.",
-    "as": "'on the house' ৰ অৰ্থ হৈছে বিনামূলীয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-446",
-   "q": {
-    "en": "The idiom 'out of hand' means —",
-    "as": "'out of hand' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "rare and infrequent",
-     "as": "বিৰল আৰু কম"
-    },
-    {
-     "en": "a suspicious affair",
-     "as": "সন্দেহজনক কাম"
-    },
-    {
-     "en": "out of control",
-     "as": "নিয়ন্ত্ৰণৰ বাহিৰত"
-    },
-    {
-     "en": "something worth thinking about",
-     "as": "ভাবিবলগীয়া বিষয়"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'out of hand' means out of control.",
-    "as": "'out of hand' ৰ অৰ্থ হৈছে নিয়ন্ত্ৰণৰ বাহিৰত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-447",
-   "q": {
-    "en": "The idiom 'play with fire' means —",
-    "as": "'play with fire' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
-    },
-    {
-     "en": "to take a dangerous risk",
-     "as": "বিপদজনক ঝুঁকি লোৱা"
-    },
-    {
-     "en": "in writing",
-     "as": "লিখিত ৰূপত"
-    },
-    {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'play with fire' means to take a dangerous risk.",
-    "as": "'play with fire' ৰ অৰ্থ হৈছে বিপদজনক ঝুঁকি লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-448",
-   "q": {
-    "en": "The idiom 'pull someone's leg' means —",
-    "as": "'pull someone's leg' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
-    },
-    {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
-    },
-    {
-     "en": "to memorise",
-     "as": "মনস্থ কৰা"
-    },
-    {
-     "en": "to tease someone playfully",
-     "as": "হাঁহি-ধেমালিতে ঠাট্টা কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'pull someone's leg' means to tease someone playfully.",
-    "as": "'pull someone's leg' ৰ অৰ্থ হৈছে হাঁহি-ধেমালিতে ঠাট্টা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-449",
-   "q": {
-    "en": "The idiom 'put the record straight' means —",
-    "as": "'put the record straight' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to lose self-control",
-     "as": "আত্ম-সংযম হেৰুওৱা"
-    },
-    {
-     "en": "to go straight towards something",
-     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
-    },
-    {
-     "en": "to correct a misunderstanding",
-     "as": "ভুল ধাৰণা শুধৰোৱা"
-    },
-    {
-     "en": "to make a large profit quickly",
-     "as": "সোনকালে ডাঙৰ লাভ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'put the record straight' means to correct a misunderstanding.",
-    "as": "'put the record straight' ৰ অৰ্থ হৈছে ভুল ধাৰণা শুধৰোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-450",
-   "q": {
-    "en": "The idiom 'rain on someone's parade' means —",
-    "as": "'rain on someone's parade' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a particular locality",
-     "as": "এক নিৰ্দিষ্ট অঞ্চল"
-    },
-    {
-     "en": "without any conditions",
-     "as": "কোনো চৰ্ত নোহোৱাকৈ"
-    },
-    {
-     "en": "free from a difficult situation",
-     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
-    },
-    {
-     "en": "to spoil someone's plans",
-     "as": "কাৰোবাৰ পৰিকল্পনা নষ্ট কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'rain on someone's parade' means to spoil someone's plans.",
-    "as": "'rain on someone's parade' ৰ অৰ্থ হৈছে কাৰোবাৰ পৰিকল্পনা নষ্ট কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-451",
-   "q": {
-    "en": "The idiom 'red herring' means —",
-    "as": "'red herring' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to pay too much",
-     "as": "অত্যধিক ধন দিয়া"
-    },
-    {
-     "en": "a misleading clue",
-     "as": "ভুল পথলৈ নিয়া সূত্ৰ"
-    },
-    {
-     "en": "to pay the bill",
-     "as": "বিল পৰিশোধ কৰা"
-    },
-    {
-     "en": "something very easy",
-     "as": "অতি সহজ কাম"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'red herring' means a misleading clue.",
-    "as": "'red herring' ৰ অৰ্থ হৈছে ভুল পথলৈ নিয়া সূত্ৰ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-452",
-   "q": {
-    "en": "The idiom 'rise and shine' means —",
-    "as": "'rise and shine' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to cause surprise or disapproval",
-     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
-    },
-    {
-     "en": "to disturb a stable situation",
-     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
-    },
-    {
-     "en": "to avoid humiliation",
-     "as": "অপমান এৰাই চলা"
-    },
-    {
-     "en": "to wake up and get going",
-     "as": "সাৰ পাই কামত লাগা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'rise and shine' means to wake up and get going.",
-    "as": "'rise and shine' ৰ অৰ্থ হৈছে সাৰ পাই কামত লাগা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-453",
-   "q": {
-    "en": "The idiom 'see something through' means —",
-    "as": "'see something through' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a hidden and shameful secret",
-     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
-    },
-    {
-     "en": "neat and clean",
-     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
-    },
-    {
-     "en": "to begin from the very beginning",
-     "as": "একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা"
-    },
-    {
-     "en": "to continue until finished",
-     "as": "শেষলৈকে চলাই ৰখা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'see something through' means to continue until finished.",
-    "as": "'see something through' ৰ অৰ্থ হৈছে শেষলৈকে চলাই ৰখা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-454",
-   "q": {
-    "en": "The idiom 'show one's true colours' means —",
-    "as": "'show one's true colours' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reveal one's real nature",
-     "as": "নিজৰ প্ৰকৃত স্বভাৱ প্ৰকাশ কৰা"
-    },
-    {
-     "en": "it is your turn to act",
-     "as": "এতিয়া আপোনাৰ পাল"
-    },
-    {
-     "en": "an extra benefit",
-     "as": "অতিৰিক্ত লাভ"
-    },
-    {
-     "en": "a small visible part of a big problem",
-     "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'show one's true colours' means to reveal one's real nature.",
-    "as": "'show one's true colours' ৰ অৰ্থ হৈছে নিজৰ প্ৰকৃত স্বভাৱ প্ৰকাশ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-455",
-   "q": {
-    "en": "The idiom 'take a rain check' means —",
-    "as": "'take a rain check' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to postpone an invitation",
-     "as": "নিমন্ত্ৰণ পিছুৱাই দিয়া"
-    },
-    {
-     "en": "not meant seriously",
-     "as": "গম্ভীৰভাৱে নকোৱা"
-    },
-    {
-     "en": "a risky and uncertain situation",
-     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
-    },
-    {
-     "en": "to pass the worst part of a crisis",
-     "as": "সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'take a rain check' means to postpone an invitation.",
-    "as": "'take a rain check' ৰ অৰ্থ হৈছে নিমন্ত্ৰণ পিছুৱাই দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-456",
-   "q": {
-    "en": "The idiom 'take it easy' means —",
-    "as": "'take it easy' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to relax",
-     "as": "জিৰণি লোৱা"
-    },
-    {
-     "en": "to act according to what one says",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
-    },
-    {
-     "en": "with some doubt",
-     "as": "কিছু সন্দেহেৰে"
-    },
-    {
-     "en": "spoken communication",
-     "as": "মুখে মুখে প্ৰচাৰ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'take it easy' means to relax.",
-    "as": "'take it easy' ৰ অৰ্থ হৈছে জিৰণি লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-457",
-   "q": {
-    "en": "The idiom 'the best of both worlds' means —",
-    "as": "'the best of both worlds' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "waiting makes things seem slower",
-     "as": "অপেক্ষা কৰিলে সময় লেহেমীয়া লাগে"
-    },
-    {
-     "en": "advantages of two different things",
-     "as": "দুটা ভিন্ন বস্তুৰ সুবিধা"
-    },
-    {
-     "en": "completely in the power of",
-     "as": "সম্পূৰ্ণভাৱে কাৰোবাৰ অধীনত"
-    },
-    {
-     "en": "to endure a painful situation bravely",
-     "as": "কষ্টজনক অৱস্থা সাহসেৰে সহ্য কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'the best of both worlds' means advantages of two different things.",
-    "as": "'the best of both worlds' ৰ অৰ্থ হৈছে দুটা ভিন্ন বস্তুৰ সুবিধা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-458",
-   "q": {
-    "en": "The idiom 'the jury is out' means —",
-    "as": "'the jury is out' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be in control",
-     "as": "নিয়ন্ত্ৰণত থকা"
-    },
-    {
-     "en": "to be busy without achieving anything",
-     "as": "একো নকৰাকৈ ব্যস্ত থকা"
-    },
-    {
-     "en": "to accept a difficult situation",
-     "as": "কঠিন অৱস্থা মানি লোৱা"
-    },
-    {
-     "en": "a decision has not yet been made",
-     "as": "এতিয়াও সিদ্ধান্ত হোৱা নাই"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'the jury is out' means a decision has not yet been made.",
-    "as": "'the jury is out' ৰ অৰ্থ হৈছে এতিয়াও সিদ্ধান্ত হোৱা নাই।"
-   }
-  },
-  {
-   "id": "idioms-phrases-459",
-   "q": {
-    "en": "The idiom 'throw caution to the wind' means —",
-    "as": "'throw caution to the wind' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to take a big risk",
-     "as": "ডাঙৰ ঝুঁকি লোৱা"
-    },
-    {
-     "en": "everyone gets a chance to succeed",
-     "as": "প্ৰত্যেকেই এদিন সফলতা পায়"
-    },
-    {
-     "en": "to be overlooked",
-     "as": "উপেক্ষিত হোৱা"
-    },
-    {
-     "en": "to receive the same bad treatment one gives",
-     "as": "নিজে দিয়া বেয়া ব্যৱহাৰ নিজে পোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'throw caution to the wind' means to take a big risk.",
-    "as": "'throw caution to the wind' ৰ অৰ্থ হৈছে ডাঙৰ ঝুঁকি লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-460",
-   "q": {
-    "en": "The idiom 'time flies' means —",
-    "as": "'time flies' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to receive the same bad treatment one gives",
-     "as": "নিজে দিয়া বেয়া ব্যৱহাৰ নিজে পোৱা"
-    },
-    {
-     "en": "to believe someone without proof",
-     "as": "প্ৰমাণ নোহোৱাকৈ বিশ্বাস কৰা"
-    },
-    {
-     "en": "time passes quickly",
-     "as": "সময় লৰালৰিকৈ যায়"
-    },
-    {
-     "en": "to start planning again",
-     "as": "পুনৰ পৰিকল্পনা আৰম্ভ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'time flies' means time passes quickly.",
-    "as": "'time flies' ৰ অৰ্থ হৈছে সময় লৰালৰিকৈ যায়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-461",
-   "q": {
-    "en": "The idiom 'under the table' means —",
-    "as": "'under the table' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "both sides are responsible",
-     "as": "দুয়ো পক্ষই দায়ী"
-    },
-    {
-     "en": "to join a popular activity",
-     "as": "জনপ্ৰিয় কামত যোগ দিয়া"
-    },
-    {
-     "en": "in secret and illegally",
-     "as": "গোপনে আৰু অবৈধভাৱে"
-    },
-    {
-     "en": "to prevent something from harming",
-     "as": "ক্ষতিৰ পৰা বিৰত ৰখা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'under the table' means in secret and illegally.",
-    "as": "'under the table' ৰ অৰ্থ হৈছে গোপনে আৰু অবৈধভাৱে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-462",
-   "q": {
-    "en": "The idiom 'up to scratch' means —",
-    "as": "'up to scratch' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "of an acceptable standard",
-     "as": "গ্ৰহণযোগ্য মানৰ"
-    },
-    {
-     "en": "alert and efficient",
-     "as": "সতৰ্ক আৰু দক্ষ"
-    },
-    {
-     "en": "to be cautious after a bad experience",
-     "as": "বেয়া অভিজ্ঞতাৰ পিছত সতৰ্ক হোৱা"
-    },
-    {
-     "en": "what is normal or expected",
-     "as": "সাধাৰণ বা প্ৰত্যাশিত"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'up to scratch' means of an acceptable standard.",
-    "as": "'up to scratch' ৰ অৰ্থ হৈছে গ্ৰহণযোগ্য মানৰ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-463",
-   "q": {
-    "en": "The idiom 'walk the plank' means —",
-    "as": "'walk the plank' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make the best effort",
-     "as": "সৰ্বোত্তম চেষ্টা কৰা"
-    },
-    {
-     "en": "to face a certain punishment",
-     "as": "নিশ্চিত শাস্তিৰ সন্মুখীন হোৱা"
-    },
-    {
-     "en": "to set a higher standard",
-     "as": "উচ্চ মান নিৰ্ধাৰণ কৰা"
-    },
-    {
-     "en": "to warn someone firmly",
-     "as": "কঠোৰভাৱে সকীয়নি দিয়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'walk the plank' means to face a certain punishment.",
-    "as": "'walk the plank' ৰ অৰ্থ হৈছে নিশ্চিত শাস্তিৰ সন্মুখীন হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-464",
-   "q": {
-    "en": "The idiom 'with open arms' means —",
-    "as": "'with open arms' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "with a warm welcome",
-     "as": "আন্তৰিক স্বাগতমেৰে"
-    },
-    {
-     "en": "to lose energy or momentum",
-     "as": "শক্তি বা গতি হেৰুওৱা"
-    },
-    {
-     "en": "a change of opinion after reconsidering",
-     "as": "পুনৰ বিবেচনাৰ পিছত মত সলনি"
-    },
-    {
-     "en": "disparaging what one cannot have",
-     "as": "নোপোৱা বস্তুৰ বেয়া কোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'with open arms' means with a warm welcome.",
-    "as": "'with open arms' ৰ অৰ্থ হৈছে আন্তৰিক স্বাগতমেৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-465",
-   "q": {
-    "en": "The idiom 'your guess is as good as mine' means —",
-    "as": "'your guess is as good as mine' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to decide to do something risky",
-     "as": "বিপদজনক কাম কৰাৰ সিদ্ধান্ত লোৱা"
-    },
-    {
-     "en": "I do not know either",
-     "as": "ময়ো নাজানো"
-    },
-    {
-     "en": "an obvious problem everyone ignores",
-     "as": "সকলোৱে উপেক্ষা কৰা স্পষ্ট সমস্যা"
-    },
-    {
-     "en": "to give up",
-     "as": "হাৰ মানি এৰি দিয়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'your guess is as good as mine' means I do not know either.",
-    "as": "'your guess is as good as mine' ৰ অৰ্থ হৈছে ময়ো নাজানো।"
-   }
-  },
-  {
-   "id": "idioms-phrases-466",
-   "q": {
-    "en": "The idiom 'a picture is worth a thousand words' means —",
-    "as": "'a picture is worth a thousand words' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very angry and ready to protest",
-     "as": "অতি খঙাল আৰু প্ৰতিবাদলৈ সাজু"
-    },
-    {
-     "en": "a picture conveys more than words",
-     "as": "ছবিৰ প্ৰভাৱ শব্দতকৈ বেছি"
-    },
-    {
-     "en": "to act very carefully",
-     "as": "অতি সাৱধানেৰে কাম কৰা"
-    },
-    {
-     "en": "a past matter no longer important",
-     "as": "পুৰণি আৰু এতিয়া অপ্ৰাসংগিক বিষয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'a picture is worth a thousand words' means a picture conveys more than words.",
-    "as": "'a picture is worth a thousand words' ৰ অৰ্থ হৈছে ছবিৰ প্ৰভাৱ শব্দতকৈ বেছি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-467",
-   "q": {
-    "en": "The idiom 'back to the drawing board' means —",
-    "as": "'back to the drawing board' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to start again after a failure",
-     "as": "ব্যৰ্থতাৰ পিছত পুনৰ আৰম্ভ কৰা"
-    },
-    {
-     "en": "something that will never happen",
-     "as": "কেতিয়াও নহ'বলগীয়া কথা"
-    },
-    {
-     "en": "a share of the profit",
-     "as": "লাভৰ এটা অংশ"
-    },
-    {
-     "en": "to make a bad situation worse",
-     "as": "আঘাতৰ ওপৰত অপমান যোগোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'back to the drawing board' means to start again after a failure.",
-    "as": "'back to the drawing board' ৰ অৰ্থ হৈছে ব্যৰ্থতাৰ পিছত পুনৰ আৰম্ভ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-468",
-   "q": {
-    "en": "The idiom 'barking up the wrong tree' means —",
-    "as": "'barking up the wrong tree' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "accusing the wrong person",
-     "as": "ভুল ব্যক্তিক দোষ দিয়া"
-    },
-    {
-     "en": "to try very hard to help",
-     "as": "সহায় কৰিবলৈ বহুত চেষ্টা কৰা"
-    },
-    {
-     "en": "to stop oneself from speaking",
-     "as": "কথা কোৱাৰ পৰা নিজকে বিৰত ৰখা"
-    },
-    {
-     "en": "to take all of someone's money",
-     "as": "কাৰোবাৰ সকলো ধন লৈ লোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'barking up the wrong tree' means accusing the wrong person.",
-    "as": "'barking up the wrong tree' ৰ অৰ্থ হৈছে ভুল ব্যক্তিক দোষ দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-469",
-   "q": {
-    "en": "The idiom 'bite more than one can chew' means —",
-    "as": "'bite more than one can chew' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a state of great happiness",
-     "as": "মহান আনন্দৰ অৱস্থা"
-    },
-    {
-     "en": "to take on too much",
-     "as": "সাধ্যতকৈ বেছি কাম লোৱা"
-    },
-    {
-     "en": "whatever happens",
-     "as": "যি নহওক কিয়"
-    },
-    {
-     "en": "to raise a false alarm",
-     "as": "মিছা সতৰ্কবাণী দিয়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'bite more than one can chew' means to take on too much.",
-    "as": "'bite more than one can chew' ৰ অৰ্থ হৈছে সাধ্যতকৈ বেছি কাম লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-470",
-   "q": {
-    "en": "The idiom 'blessing in disguise' means —",
-    "as": "'blessing in disguise' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a hidden benefit",
-     "as": "লুকুৱা লাভ"
-    },
-    {
-     "en": "to eat a lot",
-     "as": "বহুত খোৱা"
-    },
-    {
-     "en": "the last possible moment",
-     "as": "শেষ মুহূৰ্ত"
-    },
-    {
-     "en": "to accept the truth",
-     "as": "সত্য মানি লোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'blessing in disguise' means a hidden benefit.",
-    "as": "'blessing in disguise' ৰ অৰ্থ হৈছে লুকুৱা লাভ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-471",
-   "q": {
-    "en": "The idiom 'butterflies in one's stomach' means —",
-    "as": "'butterflies in one's stomach' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a feeling of nervousness",
-     "as": "স্নায়ুচাপৰ অনুভৱ"
-    },
-    {
-     "en": "the hottest days of summer",
-     "as": "গ্ৰীষ্মৰ আটাইতকৈ উষ্ণ দিন"
-    },
-    {
-     "en": "to pay attention to small details",
-     "as": "সৰু সৰু বিতংক লৈ মনোযোগ দিয়া"
-    },
-    {
-     "en": "to eat a lot",
-     "as": "বহুত খোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'butterflies in one's stomach' means a feeling of nervousness.",
-    "as": "'butterflies in one's stomach' ৰ অৰ্থ হৈছে স্নায়ুচাপৰ অনুভৱ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-472",
-   "q": {
-    "en": "The idiom 'come clean' means —",
-    "as": "'come clean' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to accept a situation calmly",
-     "as": "অৱস্থা শান্তভাৱে মানি লোৱা"
-    },
-    {
-     "en": "to go to bed",
-     "as": "শুবলৈ যোৱা"
-    },
-    {
-     "en": "to tell the truth",
-     "as": "সত্য কথা কোৱা"
-    },
-    {
-     "en": "at the highest level of activity",
-     "as": "সৰ্বোচ্চ সক্ৰিয়তাত"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'come clean' means to tell the truth.",
-    "as": "'come clean' ৰ অৰ্থ হৈছে সত্য কথা কোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-473",
-   "q": {
-    "en": "The idiom 'cross one's fingers' means —",
-    "as": "'cross one's fingers' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to watch carefully",
-     "as": "সাৱধানেৰে চকু ৰখা"
-    },
-    {
-     "en": "to achieve two aims with one action",
-     "as": "এটা কামেৰে দুটা উদ্দেশ্য সিদ্ধি কৰা"
-    },
-    {
-     "en": "finally but not less important",
-     "as": "শেষত কিন্তু কম গুৰুত্বপূৰ্ণ নহয়"
-    },
-    {
-     "en": "to hope for luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'cross one's fingers' means to hope for luck.",
-    "as": "'cross one's fingers' ৰ অৰ্থ হৈছে সৌভাগ্যৰ আশা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-474",
-   "q": {
-    "en": "The idiom 'curiosity killed the cat' means —",
-    "as": "'curiosity killed the cat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to achieve two aims with one action",
-     "as": "এটা কামেৰে দুটা উদ্দেশ্য সিদ্ধি কৰা"
-    },
-    {
-     "en": "being too curious can be harmful",
-     "as": "অত্যধিক কৌতূহল ক্ষতিকাৰক হ'ব পাৰে"
-    },
-    {
-     "en": "finally but not less important",
-     "as": "শেষত কিন্তু কম গুৰুত্বপূৰ্ণ নহয়"
-    },
-    {
-     "en": "to learn how a job is done",
-     "as": "কাম কেনেকৈ কৰা হয় শিকা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'curiosity killed the cat' means being too curious can be harmful.",
-    "as": "'curiosity killed the cat' ৰ অৰ্থ হৈছে অত্যধিক কৌতূহল ক্ষতিকাৰক হ'ব পাৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-475",
-   "q": {
-    "en": "The idiom 'cut the mustard' means —",
-    "as": "'cut the mustard' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to exaggerate a minor problem",
-     "as": "সৰু সমস্যাকে ডাঙৰ কৰা"
-    },
-    {
-     "en": "to meet the required standard",
-     "as": "প্ৰয়োজনীয় মান পূৰণ কৰা"
-    },
-    {
-     "en": "success requires effort",
-     "as": "সফলতাৰ বাবে শ্ৰম লাগে"
-    },
-    {
-     "en": "not for publication",
-     "as": "প্ৰকাশৰ বাবে নহয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'cut the mustard' means to meet the required standard.",
-    "as": "'cut the mustard' ৰ অৰ্থ হৈছে প্ৰয়োজনীয় মান পূৰণ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-476",
-   "q": {
-    "en": "The idiom 'devil is in the detail' means —",
-    "as": "'devil is in the detail' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to take a dangerous risk",
-     "as": "বিপদজনক ঝুঁকি লোৱা"
-    },
-    {
-     "en": "to tease someone playfully",
-     "as": "হাঁহি-ধেমালিতে ঠাট্টা কৰা"
-    },
-    {
-     "en": "to correct a misunderstanding",
-     "as": "ভুল ধাৰণা শুধৰোৱা"
-    },
-    {
-     "en": "small details are important",
-     "as": "সৰু বিতংবোৰ গুৰুত্বপূৰ্ণ"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'devil is in the detail' means small details are important.",
-    "as": "'devil is in the detail' ৰ অৰ্থ হৈছে সৰু বিতংবোৰ গুৰুত্বপূৰ্ণ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-477",
-   "q": {
-    "en": "The idiom 'dime a dozen' means —",
-    "as": "'dime a dozen' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to wake up and get going",
-     "as": "সাৰ পাই কামত লাগা"
-    },
-    {
-     "en": "to continue until finished",
-     "as": "শেষলৈকে চলাই ৰখা"
-    },
-    {
-     "en": "to reveal one's real nature",
-     "as": "নিজৰ প্ৰকৃত স্বভাৱ প্ৰকাশ কৰা"
-    },
-    {
-     "en": "very common and cheap",
-     "as": "অতি সাধাৰণ আৰু সস্তা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'dime a dozen' means very common and cheap.",
-    "as": "'dime a dozen' ৰ অৰ্থ হৈছে অতি সাধাৰণ আৰু সস্তা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-478",
-   "q": {
-    "en": "The idiom 'don't count your chickens before they hatch' means —",
-    "as": "'don't count your chickens before they hatch' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "advantages of two different things",
-     "as": "দুটা ভিন্ন বস্তুৰ সুবিধা"
-    },
-    {
-     "en": "do not assume success too early",
-     "as": "আগতেই সফলতা ধৰি নল'ব"
-    },
-    {
-     "en": "a decision has not yet been made",
-     "as": "এতিয়াও সিদ্ধান্ত হোৱা নাই"
-    },
-    {
-     "en": "to take a big risk",
-     "as": "ডাঙৰ ঝুঁকি লোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'don't count your chickens before they hatch' means do not assume success too early.",
-    "as": "'don't count your chickens before they hatch' ৰ অৰ্থ হৈছে আগতেই সফলতা ধৰি নল'ব।"
-   }
-  },
-  {
-   "id": "idioms-phrases-479",
-   "q": {
-    "en": "The idiom 'eagle eye' means —",
-    "as": "'eagle eye' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "close and careful watchfulness",
-     "as": "নিবিড় আৰু সাৱধানেৰে নিৰীক্ষণ"
-    },
-    {
-     "en": "of an acceptable standard",
-     "as": "গ্ৰহণযোগ্য মানৰ"
-    },
-    {
-     "en": "to face a certain punishment",
-     "as": "নিশ্চিত শাস্তিৰ সন্মুখীন হোৱা"
-    },
-    {
-     "en": "with a warm welcome",
-     "as": "আন্তৰিক স্বাগতমেৰে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'eagle eye' means close and careful watchfulness.",
-    "as": "'eagle eye' ৰ অৰ্থ হৈছে নিবিড় আৰু সাৱধানেৰে নিৰীক্ষণ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-480",
-   "q": {
-    "en": "The idiom 'fair weather friend' means —",
-    "as": "'fair weather friend' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to start again after a failure",
-     "as": "ব্যৰ্থতাৰ পিছত পুনৰ আৰম্ভ কৰা"
-    },
-    {
-     "en": "accusing the wrong person",
-     "as": "ভুল ব্যক্তিক দোষ দিয়া"
-    },
-    {
-     "en": "a friend only in good times",
-     "as": "কেৱল ভাল সময়ৰ বন্ধু"
-    },
-    {
-     "en": "to take on too much",
-     "as": "সাধ্যতকৈ বেছি কাম লোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'fair weather friend' means a friend only in good times.",
-    "as": "'fair weather friend' ৰ অৰ্থ হৈছে কেৱল ভাল সময়ৰ বন্ধু।"
-   }
-  },
-  {
-   "id": "idioms-phrases-481",
-   "q": {
-    "en": "The idiom 'first come first served' means —",
-    "as": "'first come first served' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to tell the truth",
-     "as": "সত্য কথা কোৱা"
-    },
-    {
-     "en": "to hope for luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    },
-    {
-     "en": "being too curious can be harmful",
-     "as": "অত্যধিক কৌতূহল ক্ষতিকাৰক হ'ব পাৰে"
-    },
-    {
-     "en": "earlier arrivals get preference",
-     "as": "প্ৰথম অহাজনে প্ৰথমে পায়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'first come first served' means earlier arrivals get preference.",
-    "as": "'first come first served' ৰ অৰ্থ হৈছে প্ৰথম অহাজনে প্ৰথমে পায়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-482",
-   "q": {
-    "en": "The idiom 'flogging a dead horse' means —",
-    "as": "'flogging a dead horse' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very common and cheap",
-     "as": "অতি সাধাৰণ আৰু সস্তা"
-    },
-    {
-     "en": "do not assume success too early",
-     "as": "আগতেই সফলতা ধৰি নল'ব"
-    },
-    {
-     "en": "wasting effort on a hopeless task",
-     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
-    },
-    {
-     "en": "close and careful watchfulness",
-     "as": "নিবিড় আৰু সাৱধানেৰে নিৰীক্ষণ"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'flogging a dead horse' means wasting effort on a hopeless task.",
-    "as": "'flogging a dead horse' ৰ অৰ্থ হৈছে আশাহীন কামত শ্ৰম নষ্ট কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-483",
-   "q": {
-    "en": "The idiom 'give up the ghost' means —",
-    "as": "'give up the ghost' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to encounter an unexpected problem",
-     "as": "অপ্ৰত্যাশিত সমস্যা লগ পোৱা"
-    },
-    {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
-    },
-    {
-     "en": "to stop working or to die",
-     "as": "কাম বন্ধ হোৱা বা মৃত্যু হোৱা"
-    },
-    {
-     "en": "very quickly",
-     "as": "অতি ক্ষিপ্ৰভাৱে"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'give up the ghost' means to stop working or to die.",
-    "as": "'give up the ghost' ৰ অৰ্থ হৈছে কাম বন্ধ হোৱা বা মৃত্যু হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-484",
-   "q": {
-    "en": "The idiom 'go down memory lane' means —",
-    "as": "'go down memory lane' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
-    },
-    {
-     "en": "very quickly",
-     "as": "অতি ক্ষিপ্ৰভাৱে"
-    },
-    {
-     "en": "to remember past times",
-     "as": "অতীতৰ কথা মন পেলোৱা"
-    },
-    {
-     "en": "it is not complicated",
-     "as": "এইটো জটিল নহয়"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'go down memory lane' means to remember past times.",
-    "as": "'go down memory lane' ৰ অৰ্থ হৈছে অতীতৰ কথা মন পেলোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-485",
-   "q": {
-    "en": "The idiom 'hang by a thread' means —",
-    "as": "'hang by a thread' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "something very pleasant to hear",
-     "as": "শুনিবলৈ অতি মনোৰম"
-    },
-    {
-     "en": "to stop something early",
-     "as": "আৰম্ভণিতে ৰোধ কৰা"
-    },
-    {
-     "en": "mutual dislike between two people",
-     "as": "দুজনৰ মাজত পৰস্পৰ অপছন্দ"
-    },
-    {
-     "en": "to be in a precarious state",
-     "as": "অতি বিপদজনক অৱস্থাত থকা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'hang by a thread' means to be in a precarious state.",
-    "as": "'hang by a thread' ৰ অৰ্থ হৈছে অতি বিপদজনক অৱস্থাত থকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-486",
-   "q": {
-    "en": "The idiom 'have butterflies' means —",
-    "as": "'have butterflies' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to feel nervous",
-     "as": "স্নায়ুচাপ অনুভৱ কৰা"
-    },
-    {
-     "en": "very rare",
-     "as": "জীৱনত এবাৰহে হোৱা"
-    },
-    {
-     "en": "asking what someone is thinking",
-     "as": "কি ভাবিছ সুধিবলৈ কোৱা"
-    },
-    {
-     "en": "to argue the opposite side",
-     "as": "বিপৰীত পক্ষ সমৰ্থন কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'have butterflies' means to feel nervous.",
-    "as": "'have butterflies' ৰ অৰ্থ হৈছে স্নায়ুচাপ অনুভৱ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-487",
-   "q": {
-    "en": "The idiom 'hit a snag' means —",
-    "as": "'hit a snag' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "asking what someone is thinking",
-     "as": "কি ভাবিছ সুধিবলৈ কোৱা"
-    },
-    {
-     "en": "to encounter an unexpected problem",
-     "as": "অপ্ৰত্যাশিত সমস্যা লগ পোৱা"
-    },
-    {
-     "en": "to argue the opposite side",
-     "as": "বিপৰীত পক্ষ সমৰ্থন কৰা"
-    },
-    {
-     "en": "to do one's fair share of work",
-     "as": "নিজৰ ন্যায্য অংশৰ কাম কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'hit a snag' means to encounter an unexpected problem.",
-    "as": "'hit a snag' ৰ অৰ্থ হৈছে অপ্ৰত্যাশিত সমস্যা লগ পোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-488",
-   "q": {
-    "en": "The idiom 'in a pickle' means —",
-    "as": "'in a pickle' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to disown responsibility",
-     "as": "দায়িত্ব অস্বীকাৰ কৰা"
-    },
-    {
-     "en": "with sadness",
-     "as": "দুখেৰে"
-    },
-    {
-     "en": "a hidden danger",
-     "as": "লুকুৱা বিপদ"
-    },
-    {
-     "en": "in a difficult situation",
-     "as": "কঠিন অৱস্থাত"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'in a pickle' means in a difficult situation.",
-    "as": "'in a pickle' ৰ অৰ্থ হৈছে কঠিন অৱস্থাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-489",
-   "q": {
-    "en": "The idiom 'in the blink of an eye' means —",
-    "as": "'in the blink of an eye' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "the person we were talking about has arrived",
-     "as": "যাৰ কথা কৈছিলোঁ তেওঁ আহি পালে"
-    },
-    {
-     "en": "to attract all the attention",
-     "as": "সকলোৰে মনোযোগ আকৰ্ষণ কৰা"
-    },
-    {
-     "en": "to be the most outstanding",
-     "as": "আটাইতকৈ উল্লেখনীয় হোৱা"
-    },
-    {
-     "en": "very quickly",
-     "as": "অতি ক্ষিপ্ৰভাৱে"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'in the blink of an eye' means very quickly.",
-    "as": "'in the blink of an eye' ৰ অৰ্থ হৈছে অতি ক্ষিপ্ৰভাৱে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-490",
-   "q": {
-    "en": "The idiom 'it's not rocket science' means —",
-    "as": "'it's not rocket science' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "everything possible",
-     "as": "সকলো সম্ভৱ বস্তু"
-    },
-    {
-     "en": "it is not complicated",
-     "as": "এইটো জটিল নহয়"
-    },
-    {
-     "en": "in good and bad times",
-     "as": "ভাল-বেয়া সকলো সময়তে"
-    },
-    {
-     "en": "to like sweet things",
-     "as": "মিঠা বস্তু ভাল পোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'it's not rocket science' means it is not complicated.",
-    "as": "'it's not rocket science' ৰ অৰ্থ হৈছে এইটো জটিল নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-491",
-   "q": {
-    "en": "The idiom 'keep one's chin up' means —",
-    "as": "'keep one's chin up' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to remain cheerful in difficulty",
-     "as": "অসুবিধাতো উৎসাহেৰে থাকা"
-    },
-    {
-     "en": "to be in a delicate situation",
-     "as": "নাজুক অৱস্থাত থকা"
-    },
-    {
-     "en": "to disown responsibility",
-     "as": "দায়িত্ব অস্বীকাৰ কৰা"
-    },
-    {
-     "en": "with sadness",
-     "as": "দুখেৰে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'keep one's chin up' means to remain cheerful in difficulty.",
-    "as": "'keep one's chin up' ৰ অৰ্থ হৈছে অসুবিধাতো উৎসাহেৰে থাকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-492",
-   "q": {
-    "en": "The idiom 'kick the can down the road' means —",
-    "as": "'kick the can down the road' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
-     "en": "to postpone a problem",
-     "as": "সমস্যা পিছুৱাই দিয়া"
-    },
-    {
-     "en": "to do something completely",
-     "as": "কাম সম্পূৰ্ণভাৱে কৰা"
-    },
-    {
-     "en": "to keep going despite difficulty",
-     "as": "অসুবিধাতো চলি থাকা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'kick the can down the road' means to postpone a problem.",
-    "as": "'kick the can down the road' ৰ অৰ্থ হৈছে সমস্যা পিছুৱাই দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-493",
-   "q": {
-    "en": "The idiom 'let bygones be bygones' means —",
-    "as": "'let bygones be bygones' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to delay deliberately",
-     "as": "ইচ্ছাকৃতভাৱে পলম কৰা"
-    },
-    {
-     "en": "to make someone very annoyed",
-     "as": "কাকো অতি বিৰক্ত কৰা"
-    },
-    {
-     "en": "to fail to reach a standard",
-     "as": "মানত উপনীত হ'ব নোৱৰা"
-    },
-    {
-     "en": "to forgive past wrongs",
-     "as": "পুৰণি ভুল ক্ষমা কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'let bygones be bygones' means to forgive past wrongs.",
-    "as": "'let bygones be bygones' ৰ অৰ্থ হৈছে পুৰণি ভুল ক্ষমা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-494",
-   "q": {
-    "en": "The idiom 'live in a fool's paradise' means —",
-    "as": "'live in a fool's paradise' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
-     "en": "to do something completely",
-     "as": "কাম সম্পূৰ্ণভাৱে কৰা"
-    },
-    {
-     "en": "to live in false hopes",
-     "as": "মিছা আশাত জীৱন কটোৱা"
-    },
-    {
-     "en": "to keep going despite difficulty",
-     "as": "অসুবিধাতো চলি থাকা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'live in a fool's paradise' means to live in false hopes.",
-    "as": "'live in a fool's paradise' ৰ অৰ্থ হৈছে মিছা আশাত জীৱন কটোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-495",
-   "q": {
-    "en": "The idiom 'make a scene' means —",
-    "as": "'make a scene' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to go through many difficulties",
-     "as": "বহু কষ্টৰ মাজেৰে যোৱা"
-    },
-    {
-     "en": "to stay calm",
-     "as": "শান্ত থাকা"
-    },
-    {
-     "en": "to create a public disturbance",
-     "as": "ৰাজহুৱাভাৱে হুলস্থূল কৰা"
-    },
-    {
-     "en": "to give strict orders",
-     "as": "কঠোৰ আদেশ দিয়া"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'make a scene' means to create a public disturbance.",
-    "as": "'make a scene' ৰ অৰ্থ হৈছে ৰাজহুৱাভাৱে হুলস্থূল কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-496",
-   "q": {
-    "en": "The idiom 'music to one's ears' means —",
-    "as": "'music to one's ears' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to stay calm",
-     "as": "শান্ত থাকা"
-    },
-    {
-     "en": "something very pleasant to hear",
-     "as": "শুনিবলৈ অতি মনোৰম"
-    },
-    {
-     "en": "to give strict orders",
-     "as": "কঠোৰ আদেশ দিয়া"
-    },
-    {
-     "en": "to release pent-up emotions",
-     "as": "চাপি ৰখা ভাৱনা মুকলি কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'music to one's ears' means something very pleasant to hear.",
-    "as": "'music to one's ears' ৰ অৰ্থ হৈছে শুনিবলৈ অতি মনোৰম।"
-   }
-  },
-  {
-   "id": "idioms-phrases-497",
-   "q": {
-    "en": "The idiom 'nip something in the bud' means —",
-    "as": "'nip something in the bud' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to stop something early",
-     "as": "আৰম্ভণিতে ৰোধ কৰা"
-    },
-    {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    },
-    {
-     "en": "to operate smoothly",
-     "as": "মসৃণভাৱে চলা"
-    },
-    {
-     "en": "to help someone in return for help",
-     "as": "সহায়ৰ বিনিময়ত সহায় কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'nip something in the bud' means to stop something early.",
-    "as": "'nip something in the bud' ৰ অৰ্থ হৈছে আৰম্ভণিতে ৰোধ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-498",
-   "q": {
-    "en": "The idiom 'no love lost between' means —",
-    "as": "'no love lost between' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to pretend to be uninterested",
-     "as": "অনিচ্ছুক যেন দেখুওৱা"
-    },
-    {
-     "en": "mutual dislike between two people",
-     "as": "দুজনৰ মাজত পৰস্পৰ অপছন্দ"
-    },
-    {
-     "en": "to calm a dispute",
-     "as": "বিবাদ শান্ত কৰা"
-    },
-    {
-     "en": "to deceive someone",
-     "as": "কাকো প্ৰতাৰণা কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'no love lost between' means mutual dislike between two people.",
-    "as": "'no love lost between' ৰ অৰ্থ হৈছে দুজনৰ মাজত পৰস্পৰ অপছন্দ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-499",
-   "q": {
-    "en": "The idiom 'off the beaten track' means —",
-    "as": "'off the beaten track' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to think very hard",
-     "as": "অতি কষ্টেৰে ভবা"
-    },
-    {
-     "en": "away from the usual route",
-     "as": "সাধাৰণ পথৰ পৰা আঁতৰত"
-    },
-    {
-     "en": "to see that failure is coming",
-     "as": "ব্যৰ্থতা আহি থকা দেখা"
-    },
-    {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'off the beaten track' means away from the usual route.",
-    "as": "'off the beaten track' ৰ অৰ্থ হৈছে সাধাৰণ পথৰ পৰা আঁতৰত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-500",
-   "q": {
-    "en": "The idiom 'on cloud seven' means —",
-    "as": "'on cloud seven' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to finalise an agreement",
-     "as": "চুক্তি চূড়ান্ত কৰা"
-    },
-    {
-     "en": "to succeed or fail by one's own effort",
-     "as": "নিজৰ চেষ্টাৰে সফল বা ব্যৰ্থ হোৱা"
-    },
-    {
-     "en": "very happy",
-     "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "to betray someone",
-     "as": "কাকো বিশ্বাসঘাতকতা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'on cloud seven' means very happy.",
-    "as": "'on cloud seven' ৰ অৰ্থ হৈছে অতি আনন্দিত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-501",
-   "q": {
-    "en": "The idiom 'on the cards' means —",
-    "as": "'on the cards' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to put more pressure on",
-     "as": "বেছি চাপ দিয়া"
-    },
-    {
-     "en": "to make no progress",
-     "as": "কোনো অগ্ৰগতি নকৰা"
-    },
-    {
-     "en": "to increase the stakes",
-     "as": "দাঙত বঢ়োৱা"
-    },
-    {
-     "en": "likely to happen",
-     "as": "ঘটিবলৈ সম্ভাৱনা থকা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'on the cards' means likely to happen.",
-    "as": "'on the cards' ৰ অৰ্থ হৈছে ঘটিবলৈ সম্ভাৱনা থকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-502",
-   "q": {
-    "en": "The idiom 'once in a lifetime' means —",
-    "as": "'once in a lifetime' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very rare",
-     "as": "জীৱনত এবাৰহে হোৱা"
-    },
-    {
-     "en": "one who keeps changing does not succeed",
-     "as": "সঘনে সলনি কৰাজন সফল নহয়"
-    },
-    {
-     "en": "doing something late is better than not at all",
-     "as": "দেৰিকৈ কৰাও নকৰাতকৈ ভাল"
-    },
-    {
-     "en": "similar people stay together",
-     "as": "একে ধৰণৰ লোক একেলগে থাকে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'once in a lifetime' means very rare.",
-    "as": "'once in a lifetime' ৰ অৰ্থ হৈছে জীৱনত এবাৰহে হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-503",
-   "q": {
-    "en": "The idiom 'penny for your thoughts' means —",
-    "as": "'penny for your thoughts' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "need leads to new ideas",
-     "as": "প্ৰয়োজনেই উদ্ভাৱনৰ জননী"
-    },
-    {
-     "en": "repeated practice brings excellence",
-     "as": "অনুশীলনে নিখুঁত কৰে"
-    },
-    {
-     "en": "consistent effort brings success",
-     "as": "ধীৰ আৰু স্থিৰতাই জয় আনে"
-    },
-    {
-     "en": "asking what someone is thinking",
-     "as": "কি ভাবিছ সুধিবলৈ কোৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'penny for your thoughts' means asking what someone is thinking.",
-    "as": "'penny for your thoughts' ৰ অৰ্থ হৈছে কি ভাবিছ সুধিবলৈ কোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-504",
-   "q": {
-    "en": "The idiom 'play devil's advocate' means —",
-    "as": "'play devil's advocate' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "too many people spoil a task",
-     "as": "বহুত মানুহে কাম নষ্ট কৰে"
-    },
-    {
-     "en": "to argue the opposite side",
-     "as": "বিপৰীত পক্ষ সমৰ্থন কৰা"
-    },
-    {
-     "en": "unity brings strength",
-     "as": "একতাই শক্তি আনে"
-    },
-    {
-     "en": "determination finds a solution",
-     "as": "ইচ্ছা থাকিলে উপায় ওলায়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'play devil's advocate' means to argue the opposite side.",
-    "as": "'play devil's advocate' ৰ অৰ্থ হৈছে বিপৰীত পক্ষ সমৰ্থন কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-505",
-   "q": {
-    "en": "The idiom 'pull one's weight' means —",
-    "as": "'pull one's weight' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "deeds matter more than promises",
-     "as": "কথাতকৈ কামে বেছি কয়"
-    },
-    {
-     "en": "to do one's fair share of work",
-     "as": "নিজৰ ন্যায্য অংশৰ কাম কৰা"
-    },
-    {
-     "en": "you face the results of your actions",
-     "as": "যি কৰিবা তাকেই পাবা"
-    },
-    {
-     "en": "family ties are strongest",
-     "as": "ৰক্তৰ সম্পৰ্ক সৰ্বাধিক গভীৰ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'pull one's weight' means to do one's fair share of work.",
-    "as": "'pull one's weight' ৰ অৰ্থ হৈছে নিজৰ ন্যায্য অংশৰ কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-506",
-   "q": {
-    "en": "The idiom 'put a sock in it' means —",
-    "as": "'put a sock in it' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "not knowing can be pleasant",
-     "as": "অজ্ঞতাই সুখ"
-    },
-    {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
-    },
-    {
-     "en": "wealth gives influence",
-     "as": "ধনে প্ৰভাৱ বিস্তাৰ কৰে"
-    },
-    {
-     "en": "to be quiet",
-     "as": "চুপ থাকা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'put a sock in it' means to be quiet.",
-    "as": "'put a sock in it' ৰ অৰ্থ হৈছে চুপ থাকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-507",
-   "q": {
-    "en": "The idiom 'put one's money where one's mouth is' means —",
-    "as": "'put one's money where one's mouth is' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to act according to one's words",
-     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
-    },
-    {
-     "en": "great things take time",
-     "as": "মহান কামলৈ সময় লাগে"
-    },
-    {
-     "en": "one believes what one sees",
-     "as": "দেখিলেই বিশ্বাস হয়"
-    },
-    {
-     "en": "others' situations seem better",
-     "as": "আনৰ অৱস্থা সদায় ভাল যেন লাগে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'put one's money where one's mouth is' means to act according to one's words.",
-    "as": "'put one's money where one's mouth is' ৰ অৰ্থ হৈছে কোৱা কথা অনুযায়ী কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-508",
-   "q": {
-    "en": "The idiom 'raise a toast' means —",
-    "as": "'raise a toast' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "one believes what one sees",
-     "as": "দেখিলেই বিশ্বাস হয়"
-    },
-    {
-     "en": "to drink in honour of someone",
-     "as": "কাৰোবাৰ সম্মানত পান কৰা"
-    },
-    {
-     "en": "others' situations seem better",
-     "as": "আনৰ অৱস্থা সদায় ভাল যেন লাগে"
-    },
-    {
-     "en": "no one can stop time",
-     "as": "সময় কাৰো বাবে অপেক্ষা নকৰে"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'raise a toast' means to drink in honour of someone.",
-    "as": "'raise a toast' ৰ অৰ্থ হৈছে কাৰোবাৰ সম্মানত পান কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-509",
-   "q": {
-    "en": "The idiom 'sail through' means —",
-    "as": "'sail through' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "do not change what works well",
-     "as": "কাম কৰি থকা বস্তু নিচলাব"
-    },
-    {
-     "en": "not knowing can be pleasant",
-     "as": "অজ্ঞতাই সুখ"
-    },
-    {
-     "en": "to succeed easily",
-     "as": "সহজে সফল হোৱা"
-    },
-    {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'sail through' means to succeed easily.",
-    "as": "'sail through' ৰ অৰ্থ হৈছে সহজে সফল হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-510",
-   "q": {
-    "en": "The idiom 'salt of the earth' means —",
-    "as": "'salt of the earth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "not knowing can be pleasant",
-     "as": "অজ্ঞতাই সুখ"
-    },
-    {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
-    },
-    {
-     "en": "a very good and honest person",
-     "as": "অতি ভাল আৰু সৎ ব্যক্তি"
-    },
-    {
-     "en": "wealth gives influence",
-     "as": "ধনে প্ৰভাৱ বিস্তাৰ কৰে"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'salt of the earth' means a very good and honest person.",
-    "as": "'salt of the earth' ৰ অৰ্থ হৈছে অতি ভাল আৰু সৎ ব্যক্তি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-511",
-   "q": {
-    "en": "The idiom 'scrape the barrel' means —",
-    "as": "'scrape the barrel' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "home is the best place",
-     "as": "ঘৰতকৈ ভাল ঠাই নাই"
-    },
-    {
-     "en": "teamwork gives better results",
-     "as": "দুটা মূৰ এটা মূৰতকৈ ভাল"
-    },
-    {
-     "en": "to use the last poor remaining resources",
-     "as": "শেষ অৱশিষ্ট বেয়া সম্পদ ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "you cannot enjoy two opposite things",
-     "as": "দুটা পৰস্পৰবিৰোধী বস্তু একেলগে ভোগ নকৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'scrape the barrel' means to use the last poor remaining resources.",
-    "as": "'scrape the barrel' ৰ অৰ্থ হৈছে শেষ অৱশিষ্ট বেয়া সম্পদ ব্যৱহাৰ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-512",
-   "q": {
-    "en": "The idiom 'sit on one's hands' means —",
-    "as": "'sit on one's hands' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "children resemble their parents",
-     "as": "সন্তান পিতৃ-মাতৃৰ লগত মিলে"
-    },
-    {
-     "en": "to do nothing",
-     "as": "একো নকৰা"
-    },
-    {
-     "en": "true joys cost nothing",
-     "as": "জীৱনৰ শ্ৰেষ্ঠ বস্তু বিনামূলীয়া"
-    },
-    {
-     "en": "every rumour has a basis",
-     "as": "প্ৰতিটো উৰাবাতৰিৰ এটা ভিত্তি থাকে"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'sit on one's hands' means to do nothing.",
-    "as": "'sit on one's hands' ৰ অৰ্থ হৈছে একো নকৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-513",
-   "q": {
-    "en": "The idiom 'speak of the devil' means —",
-    "as": "'speak of the devil' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "failure leads to success",
-     "as": "ব্যৰ্থতাই সফলতাৰ খটখটি"
-    },
-    {
-     "en": "self-effort earns help",
-     "as": "নিজে চেষ্টা কৰাজনক ঈশ্বৰে সহায় কৰে"
-    },
-    {
-     "en": "the person we were talking about has arrived",
-     "as": "যাৰ কথা কৈছিলোঁ তেওঁ আহি পালে"
-    },
-    {
-     "en": "something is better than nothing",
-     "as": "কিছু পোৱা নোপোৱাতকৈ ভাল"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'speak of the devil' means the person we were talking about has arrived.",
-    "as": "'speak of the devil' ৰ অৰ্থ হৈছে যাৰ কথা কৈছিলোঁ তেওঁ আহি পালে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-514",
-   "q": {
-    "en": "The idiom 'steal the limelight' means —",
-    "as": "'steal the limelight' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to attract all the attention",
-     "as": "সকলোৰে মনোযোগ আকৰ্ষণ কৰা"
-    },
-    {
-     "en": "every rumour has a basis",
-     "as": "প্ৰতিটো উৰাবাতৰিৰ এটা ভিত্তি থাকে"
-    },
-    {
-     "en": "time is valuable",
-     "as": "সময়েই ধন"
-    },
-    {
-     "en": "determination finds a path",
-     "as": "ইচ্ছা থাকিলে পথ ওলায়"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'steal the limelight' means to attract all the attention.",
-    "as": "'steal the limelight' ৰ অৰ্থ হৈছে সকলোৰে মনোযোগ আকৰ্ষণ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-515",
-   "q": {
-    "en": "The idiom 'take the cake' means —",
-    "as": "'take the cake' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "time is valuable",
-     "as": "সময়েই ধন"
-    },
-    {
-     "en": "determination finds a path",
-     "as": "ইচ্ছা থাকিলে পথ ওলায়"
-    },
-    {
-     "en": "to be the most outstanding",
-     "as": "আটাইতকৈ উল্লেখনীয় হোৱা"
-    },
-    {
-     "en": "something that seems bad but turns out to be good",
-     "as": "প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'take the cake' means to be the most outstanding.",
-    "as": "'take the cake' ৰ অৰ্থ হৈছে আটাইতকৈ উল্লেখনীয় হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-516",
-   "q": {
-    "en": "The idiom 'the ball is in one's court' means —",
-    "as": "'the ball is in one's court' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "it is one's turn to act",
-     "as": "কাম কৰাৰ পাল কাৰোবাৰ"
-    },
-    {
-     "en": "a day of festivity",
-     "as": "উৎসৱৰ দিন"
-    },
-    {
-     "en": "a task requiring great strength",
-     "as": "অতি কঠিন কাম"
-    },
-    {
-     "en": "a prejudiced view",
-     "as": "পক্ষপাতমূলক দৃষ্টিভঙ্গি"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'the ball is in one's court' means it is one's turn to act.",
-    "as": "'the ball is in one's court' ৰ অৰ্থ হৈছে কাম কৰাৰ পাল কাৰোবাৰ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-517",
-   "q": {
-    "en": "The idiom 'the last straw' is used to mean —",
-    "as": "'the last straw' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "the final problem that makes one give up",
-     "as": "হাৰ মানিবলৈ বাধ্য কৰা অন্তিম সমস্যা"
     },
     {
      "en": "a task requiring great strength",
@@ -30904,15 +23704,15 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "'the last straw' means the final problem that makes one give up.",
-    "as": "'the last straw' ৰ অৰ্থ হৈছে হাৰ মানিবলৈ বাধ্য কৰা অন্তিম সমস্যা।"
+    "en": "'cold feet' means nervousness before doing something.",
+    "as": "'cold feet' ৰ অৰ্থ হৈছে কাম কৰাৰ আগতে স্নায়ুচাপ।"
    }
   },
   {
-   "id": "idioms-phrases-518",
+   "id": "idioms-phrases-278",
    "q": {
-    "en": "The idiom 'the whole nine yards' means —",
-    "as": "'the whole nine yards' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'cook the books' means —",
+    "as": "'cook the books' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -30920,128 +23720,128 @@ module.exports = {
      "as": "নগণ্য বা মূল্যহীন ব্যক্তি"
     },
     {
-     "en": "a barely avoided danger",
-     "as": "কোনোমতে হোৱা ৰক্ষা"
+     "en": "to falsify accounts",
+     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
     },
     {
-     "en": "everything possible",
-     "as": "সকলো সম্ভৱ বস্তু"
+     "en": "a barely avoided danger",
+     "as": "কোনোমতে হোৱা ৰক্ষা"
     },
     {
      "en": "a time of need or difficulty",
      "as": "অভাব বা দুৰ্দিন"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "'the whole nine yards' means everything possible.",
-    "as": "'the whole nine yards' ৰ অৰ্থ হৈছে সকলো সম্ভৱ বস্তু।"
+    "en": "'cook the books' means to falsify accounts.",
+    "as": "'cook the books' ৰ অৰ্থ হৈছে হিচাপ-নিকাচত জালিয়াতি কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-519",
+   "id": "idioms-phrases-279",
    "q": {
-    "en": "The idiom 'through thick and thin' means —",
-    "as": "'through thick and thin' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'cut corners' means —",
+    "as": "'cut corners' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "following the rules exactly",
-     "as": "নিয়ম মতে কৰা"
+     "en": "a subject that causes pain or anger",
+     "as": "ব্যথা বা খং দিয়া বিষয়"
     },
     {
-     "en": "to make a bad situation worse",
-     "as": "অৱস্থা আৰু বেয়া কৰা"
+     "en": "great excitement over a small matter",
+     "as": "সৰু কথাত ডাঙৰ হুলস্থূল"
     },
     {
-     "en": "in good and bad times",
-     "as": "ভাল-বেয়া সকলো সময়তে"
+     "en": "to do something badly to save time",
+     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
     },
     {
-     "en": "contrary to one's inclination",
-     "as": "মনৰ বিৰুদ্ধে"
+     "en": "a useless search or pursuit",
+     "as": "নিষ্প্ৰয়োজনীয় অনুসন্ধান"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'through thick and thin' means in good and bad times.",
-    "as": "'through thick and thin' ৰ অৰ্থ হৈছে ভাল-বেয়া সকলো সময়তে।"
+    "en": "'cut corners' means to do something badly to save time.",
+    "as": "'cut corners' ৰ অৰ্থ হৈছে সময় বচাবলৈ বেয়াকৈ কাম কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-520",
+   "id": "idioms-phrases-280",
    "q": {
-    "en": "The idiom 'to have a sweet tooth' is used to mean —",
-    "as": "'to have a sweet tooth' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'cut to the chase' means —",
+    "as": "'cut to the chase' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to like sweet things",
-     "as": "মিঠা বস্তু ভাল পোৱা"
+     "en": "something easily understood",
+     "as": "সহজতে বুজিব পৰা বস্তু"
     },
     {
-     "en": "to make a bad situation worse",
-     "as": "অৱস্থা আৰু বেয়া কৰা"
+     "en": "to come to the main point",
+     "as": "মূল কথালৈ অহা"
     },
     {
-     "en": "contrary to one's inclination",
-     "as": "মনৰ বিৰুদ্ধে"
-    },
-    {
-     "en": "listening very attentively",
-     "as": "অতি মনোযোগেৰে শুনা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'to have a sweet tooth' means to like sweet things.",
-    "as": "'to have a sweet tooth' ৰ অৰ্থ হৈছে মিঠা বস্তু ভাল পোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-521",
-   "q": {
-    "en": "The idiom 'turn a deaf ear' means —",
-    "as": "'turn a deaf ear' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in a state of confusion",
-     "as": "অগোছাল অৱস্থাত"
-    },
-    {
-     "en": "at the last possible moment",
-     "as": "শেষ মুহূৰ্তত"
-    },
-    {
-     "en": "to ignore deliberately",
-     "as": "ইচ্ছাকৃতভাৱে উপেক্ষা কৰা"
-    },
-    {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'turn a deaf ear' means to ignore deliberately.",
-    "as": "'turn a deaf ear' ৰ অৰ্থ হৈছে ইচ্ছাকৃতভাৱে উপেক্ষা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-522",
-   "q": {
-    "en": "The idiom 'two peas in a pod' means —",
-    "as": "'two peas in a pod' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very similar",
-     "as": "অতি একে ধৰণৰ"
+     "en": "a very difficult task",
+     "as": "অতি কঠিন কাম"
     },
     {
      "en": "a person dearly loved",
      "as": "অতি প্ৰিয় ব্যক্তি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'cut to the chase' means to come to the main point.",
+    "as": "'cut to the chase' ৰ অৰ্থ হৈছে মূল কথালৈ অহা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-281",
+   "q": {
+    "en": "The idiom 'devil's advocate' means —",
+    "as": "'devil's advocate' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "a person who argues the opposite for the sake of argument",
+     "as": "বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি"
+    },
+    {
+     "en": "a decisive test",
+     "as": "নিষ্পত্তিমূলক পৰীক্ষা"
+    },
+    {
+     "en": "a cause of quarrel",
+     "as": "বিবাদৰ মূল কাৰণ"
+    },
+    {
+     "en": "a mere pretence",
+     "as": "মাথোঁ ভাওনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'devil's advocate' means a person who argues the opposite for the sake of argument.",
+    "as": "'devil's advocate' ৰ অৰ্থ হৈছে বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি।"
+   }
+  },
+  {
+   "id": "idioms-phrases-282",
+   "q": {
+    "en": "The idiom 'down to earth' means —",
+    "as": "'down to earth' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "a person dearly loved",
+     "as": "অতি প্ৰিয় ব্যক্তি"
+    },
+    {
+     "en": "practical and realistic",
+     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
     },
     {
      "en": "a critic who does nothing himself",
@@ -31052,47 +23852,47 @@ module.exports = {
      "as": "অতি শান্ত আৰু ধীৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "'two peas in a pod' means very similar.",
-    "as": "'two peas in a pod' ৰ অৰ্থ হৈছে অতি একে ধৰণৰ।"
+    "en": "'down to earth' means practical and realistic.",
+    "as": "'down to earth' ৰ অৰ্থ হৈছে ব্যৱহাৰিক আৰু বাস্তৱবাদী।"
    }
   },
   {
-   "id": "idioms-phrases-523",
+   "id": "idioms-phrases-283",
    "q": {
-    "en": "The idiom 'walk a tightrope' means —",
-    "as": "'walk a tightrope' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'draw a blank' means —",
+    "as": "'draw a blank' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be in a delicate situation",
-     "as": "নাজুক অৱস্থাত থকা"
+     "en": "known thoroughly",
+     "as": "সম্পূৰ্ণভাৱে জানি থোৱা"
     },
     {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
+     "en": "to get no result",
+     "as": "কোনো ফলাফল নোপোৱা"
     },
     {
-     "en": "ill feeling between people",
-     "as": "মানুহৰ মাজত শত্ৰুতা"
+     "en": "utterly confused",
+     "as": "সম্পূৰ্ণভাৱে হতবুদ্ধি"
     },
     {
-     "en": "with all one's belongings",
-     "as": "সকলো সামগ্ৰীসহ"
+     "en": "in a state of confusion",
+     "as": "অগোছাল অৱস্থাত"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "'walk a tightrope' means to be in a delicate situation.",
-    "as": "'walk a tightrope' ৰ অৰ্থ হৈছে নাজুক অৱস্থাত থকা।"
+    "en": "'draw a blank' means to get no result.",
+    "as": "'draw a blank' ৰ অৰ্থ হৈছে কোনো ফলাফল নোপোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-524",
+   "id": "idioms-phrases-284",
    "q": {
-    "en": "The idiom 'wash one's hands off' means —",
-    "as": "'wash one's hands off' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'drop in the ocean' means —",
+    "as": "'drop in the ocean' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -31100,29 +23900,29 @@ module.exports = {
      "as": "মানুহৰ মাজত শত্ৰুতা"
     },
     {
-     "en": "with all one's belongings",
-     "as": "সকলো সামগ্ৰীসহ"
+     "en": "a very small amount",
+     "as": "অতি কম পৰিমাণ"
     },
     {
-     "en": "to disown responsibility",
-     "as": "দায়িত্ব অস্বীকাৰ কৰা"
+     "en": "with all one's belongings",
+     "as": "সকলো সামগ্ৰীসহ"
     },
     {
      "en": "to suffer the main impact",
      "as": "মূল আঘাত সহ্য কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "'wash one's hands off' means to disown responsibility.",
-    "as": "'wash one's hands off' ৰ অৰ্থ হৈছে দায়িত্ব অস্বীকাৰ কৰা।"
+    "en": "'drop in the ocean' means a very small amount.",
+    "as": "'drop in the ocean' ৰ অৰ্থ হৈছে অতি কম পৰিমাণ।"
    }
   },
   {
-   "id": "idioms-phrases-525",
+   "id": "idioms-phrases-285",
    "q": {
-    "en": "The idiom 'with a heavy heart' means —",
-    "as": "'with a heavy heart' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'eat out of one's hand' means —",
+    "as": "'eat out of one's hand' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -31134,8 +23934,8 @@ module.exports = {
      "as": "বৰ্ণনা কৰিব নোৱাৰা"
     },
     {
-     "en": "with sadness",
-     "as": "দুখেৰে"
+     "en": "to be completely controlled by another",
+     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
     },
     {
      "en": "secretly",
@@ -31144,17 +23944,25 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "'with a heavy heart' means with sadness.",
-    "as": "'with a heavy heart' ৰ অৰ্থ হৈছে দুখেৰে।"
+    "en": "'eat out of one's hand' means to be completely controlled by another.",
+    "as": "'eat out of one's hand' ৰ অৰ্থ হৈছে আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা।"
    }
   },
   {
-   "id": "idioms-phrases-526",
+   "id": "idioms-phrases-286",
    "q": {
-    "en": "The idiom 'a wolf in sheep's clothing' means —",
-    "as": "'a wolf in sheep's clothing' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'egg on' means —",
+    "as": "'egg on' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
+    {
+     "en": "to punish or question",
+     "as": "শাস্তি দিয়া বা প্ৰশ্ন কৰা"
+    },
+    {
+     "en": "to urge someone to do something",
+     "as": "কিবা কৰিবলৈ উচটনি দিয়া"
+    },
     {
      "en": "to waste energy in two directions",
      "as": "দুইদিশে শক্তি অপচয় কৰা"
@@ -31162,33 +23970,21 @@ module.exports = {
     {
      "en": "to study late into the night",
      "as": "ৰাতি দেৰিলৈকে পঢ়া"
-    },
-    {
-     "en": "a hidden danger",
-     "as": "লুকুৱা বিপদ"
-    },
-    {
-     "en": "to make peace",
-     "as": "শান্তি স্থাপন কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "'a wolf in sheep's clothing' means a hidden danger.",
-    "as": "'a wolf in sheep's clothing' ৰ অৰ্থ হৈছে লুকুৱা বিপদ।"
+    "en": "'egg on' means to urge someone to do something.",
+    "as": "'egg on' ৰ অৰ্থ হৈছে কিবা কৰিবলৈ উচটনি দিয়া।"
    }
   },
   {
-   "id": "idioms-phrases-527",
+   "id": "idioms-phrases-287",
    "q": {
-    "en": "The idiom 'at loggerheads' means —",
-    "as": "'at loggerheads' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'every cloud has a silver lining' means —",
+    "as": "'every cloud has a silver lining' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "in strong disagreement",
-     "as": "তীব্ৰ মতানৈক্যত"
-    },
     {
      "en": "noble birth",
      "as": "অভিজাত জন্ম"
@@ -31198,31 +23994,57 @@ module.exports = {
      "as": "বিবাদৰ বিষয়"
     },
     {
+     "en": "every bad situation has some good in it",
+     "as": "প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে"
+    },
+    {
      "en": "to start a conversation",
      "as": "কথোপকথন আৰম্ভ কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "'at loggerheads' means in strong disagreement.",
-    "as": "'at loggerheads' ৰ অৰ্থ হৈছে তীব্ৰ মতানৈক্যত।"
+    "en": "'every cloud has a silver lining' means every bad situation has some good in it.",
+    "as": "'every cloud has a silver lining' ৰ অৰ্থ হৈছে প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে।"
    }
   },
   {
-   "id": "idioms-phrases-528",
+   "id": "idioms-phrases-288",
    "q": {
-    "en": "The idiom 'be all ears' means —",
-    "as": "'be all ears' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'fall on deaf ears' means —",
+    "as": "'fall on deaf ears' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to listen attentively",
-     "as": "মনোযোগেৰে শুনা"
+     "en": "to meet one's match",
+     "as": "সমক্ষমতাসম্পন্ন লগ পোৱা"
     },
     {
-     "en": "to speak plainly and frankly",
-     "as": "স্পষ্ট আৰু মুকলিভাৱে কোৱা"
+     "en": "to catch in the act of doing wrong",
+     "as": "অপৰাধ কৰি থকা অৱস্থাত ধৰা"
     },
+    {
+     "en": "to be ignored",
+     "as": "উপেক্ষা কৰা"
+    },
+    {
+     "en": "cowardly",
+     "as": "ভীতু"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'fall on deaf ears' means to be ignored.",
+    "as": "'fall on deaf ears' ৰ অৰ্থ হৈছে উপেক্ষা কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-289",
+   "q": {
+    "en": "The idiom 'fat cat' means —",
+    "as": "'fat cat' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
     {
      "en": "to do something unnecessary",
      "as": "নিষ্প্ৰয়োজনীয় কাম কৰা"
@@ -31230,55 +24052,29 @@ module.exports = {
     {
      "en": "to bring disgrace",
      "as": "কলংক আনি দিয়া"
+    },
+    {
+     "en": "to offer something valuable to those who cannot appreciate it",
+     "as": "মূল্যবান বস্তু অযোগ্যক দিয়া"
+    },
+    {
+     "en": "a wealthy and powerful person",
+     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "'be all ears' means to listen attentively.",
-    "as": "'be all ears' ৰ অৰ্থ হৈছে মনোযোগেৰে শুনা।"
+    "en": "'fat cat' means a wealthy and powerful person.",
+    "as": "'fat cat' ৰ অৰ্থ হৈছে ধনী আৰু শক্তিশালী ব্যক্তি।"
    }
   },
   {
-   "id": "idioms-phrases-529",
+   "id": "idioms-phrases-290",
    "q": {
-    "en": "The idiom 'blow the whistle' means —",
-    "as": "'blow the whistle' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'few and far between' means —",
+    "as": "'few and far between' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "to catch in the act of doing wrong",
-     "as": "অপৰাধ কৰি থকা অৱস্থাত ধৰা"
-    },
-    {
-     "en": "to expose wrongdoing",
-     "as": "অন্যায় উন্মোচন কৰা"
-    },
-    {
-     "en": "cowardly",
-     "as": "ভীতু"
-    },
-    {
-     "en": "a child very like its parent",
-     "as": "পিতৃ-মাতৃৰ লগত একে ল'ৰা-ছোৱালী"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'blow the whistle' means to expose wrongdoing.",
-    "as": "'blow the whistle' ৰ অৰ্থ হৈছে অন্যায় উন্মোচন কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-530",
-   "q": {
-    "en": "The idiom 'break the news' means —",
-    "as": "'break the news' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to tell important news gently",
-     "as": "গুৰুত্বপূৰ্ণ বাতৰি কোমলভাৱে জনোৱা"
-    },
     {
      "en": "cowardly",
      "as": "ভীতু"
@@ -31290,24 +24086,28 @@ module.exports = {
     {
      "en": "to remove misunderstanding",
      "as": "ভুল বুজাবুজি আঁতৰোৱা"
+    },
+    {
+     "en": "rare and infrequent",
+     "as": "বিৰল আৰু কম"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "'break the news' means to tell important news gently.",
-    "as": "'break the news' ৰ অৰ্থ হৈছে গুৰুত্বপূৰ্ণ বাতৰি কোমলভাৱে জনোৱা।"
+    "en": "'few and far between' means rare and infrequent.",
+    "as": "'few and far between' ৰ অৰ্থ হৈছে বিৰল আৰু কম।"
    }
   },
   {
-   "id": "idioms-phrases-531",
+   "id": "idioms-phrases-291",
    "q": {
-    "en": "The idiom 'come to a head' means —",
-    "as": "'come to a head' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'fishy business' means —",
+    "as": "'fishy business' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to reach a crisis point",
-     "as": "সংকটৰ শিখৰত উপনীত হোৱা"
+     "en": "a suspicious affair",
+     "as": "সন্দেহজনক কাম"
     },
     {
      "en": "to wait for a long time",
@@ -31324,15 +24124,15 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "'come to a head' means to reach a crisis point.",
-    "as": "'come to a head' ৰ অৰ্থ হৈছে সংকটৰ শিখৰত উপনীত হোৱা।"
+    "en": "'fishy business' means a suspicious affair.",
+    "as": "'fishy business' ৰ অৰ্থ হৈছে সন্দেহজনক কাম।"
    }
   },
   {
-   "id": "idioms-phrases-532",
+   "id": "idioms-phrases-292",
    "q": {
-    "en": "The idiom 'cook up a story' means —",
-    "as": "'cook up a story' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'food for thought' means —",
+    "as": "'food for thought' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -31344,25 +24144,25 @@ module.exports = {
      "as": "কাম কৰি থাকোঁতেই মৃত্যুবৰণ কৰা"
     },
     {
-     "en": "a person who prevents others from enjoying what he cannot use",
-     "as": "নিজে ব্যৱহাৰ নকৰি আনকো নিদিয়া ব্যক্তি"
+     "en": "something worth thinking about",
+     "as": "ভাবিবলগীয়া বিষয়"
     },
     {
-     "en": "to invent a false story",
-     "as": "মিছা কাহিনী সাজি উলিওৱা"
+     "en": "a person who prevents others from enjoying what he cannot use",
+     "as": "নিজে ব্যৱহাৰ নকৰি আনকো নিদিয়া ব্যক্তি"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
-    "en": "'cook up a story' means to invent a false story.",
-    "as": "'cook up a story' ৰ অৰ্থ হৈছে মিছা কাহিনী সাজি উলিওৱা।"
+    "en": "'food for thought' means something worth thinking about.",
+    "as": "'food for thought' ৰ অৰ্থ হৈছে ভাবিবলগীয়া বিষয়।"
    }
   },
   {
-   "id": "idioms-phrases-533",
+   "id": "idioms-phrases-293",
    "q": {
-    "en": "The idiom 'drag one's feet' means —",
-    "as": "'drag one's feet' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'get cold feet' means —",
+    "as": "'get cold feet' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -31370,68 +24170,64 @@ module.exports = {
      "as": "কোনো ফল নোহোৱাকৈ শেষ হোৱা"
     },
     {
-     "en": "completely",
-     "as": "সম্পূৰ্ণভাৱে"
+     "en": "to become nervous",
+     "as": "স্নায়ুচাপত ভুগা"
     },
-    {
-     "en": "to delay deliberately",
-     "as": "ইচ্ছাকৃতভাৱে পলম কৰা"
-    },
-    {
-     "en": "to bear the consequences",
-     "as": "পৰিণাম ভোগ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'drag one's feet' means to delay deliberately.",
-    "as": "'drag one's feet' ৰ অৰ্থ হৈছে ইচ্ছাকৃতভাৱে পলম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-534",
-   "q": {
-    "en": "The idiom 'drive up the wall' means —",
-    "as": "'drive up the wall' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
     {
      "en": "completely",
      "as": "সম্পূৰ্ণভাৱে"
     },
     {
-     "en": "to make someone very annoyed",
-     "as": "কাকো অতি বিৰক্ত কৰা"
-    },
-    {
      "en": "to bear the consequences",
      "as": "পৰিণাম ভোগ কৰা"
-    },
-    {
-     "en": "honest and straightforward",
-     "as": "সৎ আৰু সোজা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'drive up the wall' means to make someone very annoyed.",
-    "as": "'drive up the wall' ৰ অৰ্থ হৈছে কাকো অতি বিৰক্ত কৰা।"
+    "en": "'get cold feet' means to become nervous.",
+    "as": "'get cold feet' ৰ অৰ্থ হৈছে স্নায়ুচাপত ভুগা।"
    }
   },
   {
-   "id": "idioms-phrases-535",
+   "id": "idioms-phrases-294",
    "q": {
-    "en": "The idiom 'fall short of' means —",
-    "as": "'fall short of' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'get the hang of' means —",
+    "as": "'get the hang of' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to lose one's temper suddenly",
+     "as": "হঠাতে খং উঠা"
+    },
+    {
+     "en": "to do the same thing",
+     "as": "একে ধৰণৰ কাম কৰা"
+    },
+    {
+     "en": "a state of happiness based on false hope",
+     "as": "মিছা আশাৰ আনন্দ"
+    },
+    {
+     "en": "to learn how to do something",
+     "as": "কিবা কৰাৰ ধৰণ শিকা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'get the hang of' means to learn how to do something.",
+    "as": "'get the hang of' ৰ অৰ্থ হৈছে কিবা কৰাৰ ধৰণ শিকা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-295",
+   "q": {
+    "en": "The idiom 'give and take' means —",
+    "as": "'give and take' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
      "en": "to enrich oneself dishonestly",
      "as": "অসততাৰে নিজৰ স্বাৰ্থ চৰিতাৰ্থ কৰা"
-    },
-    {
-     "en": "to fail to reach a standard",
-     "as": "মানত উপনীত হ'ব নোৱৰা"
     },
     {
      "en": "to find out the opinion of others",
@@ -31440,109 +24236,233 @@ module.exports = {
     {
      "en": "to avoid",
      "as": "এৰি চলা"
+    },
+    {
+     "en": "mutual compromise",
+     "as": "পৰস্পৰ ৰাজি-খুচি"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "'fall short of' means to fail to reach a standard.",
-    "as": "'fall short of' ৰ অৰ্থ হৈছে মানত উপনীত হ'ব নোৱৰা।"
+    "en": "'give and take' means mutual compromise.",
+    "as": "'give and take' ৰ অৰ্থ হৈছে পৰস্পৰ ৰাজি-খুচি।"
    }
   },
   {
-   "id": "idioms-phrases-536",
+   "id": "idioms-phrases-296",
    "q": {
-    "en": "The idiom 'get the ball rolling' means —",
-    "as": "'get the ball rolling' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'go the extra mile' means —",
+    "as": "'go the extra mile' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to start something",
-     "as": "কিবা আৰম্ভ কৰা"
+     "en": "to do the same thing",
+     "as": "একে ধৰণৰ কাম কৰা"
     },
     {
-     "en": "an inexperienced person",
-     "as": "অনভিজ্ঞ ব্যক্তি"
+     "en": "a state of happiness based on false hope",
+     "as": "মিছা আশাৰ আনন্দ"
     },
     {
-     "en": "a period of peace and happiness",
-     "as": "শান্তি আৰু সুখৰ কাল"
+     "en": "to make more effort than expected",
+     "as": "প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা"
     },
     {
-     "en": "in close association",
-     "as": "ঘনিষ্ঠ সংযোগত"
+     "en": "permanently",
+     "as": "চিৰকাললৈ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "'get the ball rolling' means to start something.",
-    "as": "'get the ball rolling' ৰ অৰ্থ হৈছে কিবা আৰম্ভ কৰা।"
+    "en": "'go the extra mile' means to make more effort than expected.",
+    "as": "'go the extra mile' ৰ অৰ্থ হৈছে প্ৰত্যাশাতকৈ বেছি চেষ্টা কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-537",
+   "id": "idioms-phrases-297",
    "q": {
-    "en": "The idiom 'give a helping hand' means —",
-    "as": "'give a helping hand' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'hit the road' means —",
+    "as": "'hit the road' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "to become friends quickly",
-     "as": "সোনকালে বন্ধু হোৱা"
-    },
-    {
-     "en": "to assist",
-     "as": "সহায় কৰা"
-    },
     {
      "en": "to be dismissed from a job",
      "as": "চাকৰিৰ পৰা বৰ্খাস্ত হোৱা"
     },
     {
+     "en": "to begin a journey",
+     "as": "যাত্ৰা আৰম্ভ কৰা"
+    },
+    {
      "en": "the ability to speak fluently",
      "as": "সহজে ধাৰাপাতভাৱে কোৱাৰ ক্ষমতা"
+    },
+    {
+     "en": "to keep away from",
+     "as": "দূৰৈত থাকা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'give a helping hand' means to assist.",
-    "as": "'give a helping hand' ৰ অৰ্থ হৈছে সহায় কৰা।"
+    "en": "'hit the road' means to begin a journey.",
+    "as": "'hit the road' ৰ অৰ্থ হৈছে যাত্ৰা আৰম্ভ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-538",
+   "id": "idioms-phrases-298",
    "q": {
-    "en": "The idiom 'give the game away' means —",
-    "as": "'give the game away' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'in a fix' means —",
+    "as": "'in a fix' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "completely or deeply",
-     "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
-    },
     {
      "en": "in a helpless condition",
      "as": "অসহায় অৱস্থাত"
     },
     {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
-    },
-    {
      "en": "to do or say the right thing",
      "as": "সঠিক কাম বা কথা কৰা"
+    },
+    {
+     "en": "to be logically sound",
+     "as": "যুক্তিসংগত হোৱা"
+    },
+    {
+     "en": "in a difficult situation",
+     "as": "কঠিন অৱস্থাত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'in a fix' means in a difficult situation.",
+    "as": "'in a fix' ৰ অৰ্থ হৈছে কঠিন অৱস্থাত।"
+   }
+  },
+  {
+   "id": "idioms-phrases-299",
+   "q": {
+    "en": "The idiom 'in black and white' is used to mean —",
+    "as": "'in black and white' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to be obsessed with an idea",
+     "as": "এটা ভাৱনাত মগ্ন থকা"
+    },
+    {
+     "en": "to have a selfish motive",
+     "as": "স্বাৰ্থপৰ উদ্দেশ্য থকা"
+    },
+    {
+     "en": "in writing",
+     "as": "লিখিত ৰূপত"
+    },
+    {
+     "en": "completely or deeply",
+     "as": "সম্পূৰ্ণভাৱে বা গভীৰভাৱে"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'give the game away' means to reveal a secret.",
-    "as": "'give the game away' ৰ অৰ্থ হৈছে গোপন কথা ফাদিল কৰা।"
+    "en": "'in black and white' means in writing.",
+    "as": "'in black and white' ৰ অৰ্থ হৈছে লিখিত ৰূপত।"
    }
   },
   {
-   "id": "idioms-phrases-539",
+   "id": "idioms-phrases-300",
    "q": {
-    "en": "The idiom 'go the whole hog' means —",
-    "as": "'go the whole hog' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'in the same boat' means —",
+    "as": "'in the same boat' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "in trouble",
+     "as": "সমস্যাত"
+    },
+    {
+     "en": "in the same difficult situation",
+     "as": "একে কঠিন অৱস্থাত"
+    },
+    {
+     "en": "just in time",
+     "as": "ঠিক সময়ত"
+    },
+    {
+     "en": "in direct opposition to",
+     "as": "প্ৰত্যক্ষ বিৰোধিতা কৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'in the same boat' means in the same difficult situation.",
+    "as": "'in the same boat' ৰ অৰ্থ হৈছে একে কঠিন অৱস্থাত।"
+   }
+  },
+  {
+   "id": "idioms-phrases-301",
+   "q": {
+    "en": "The idiom 'kick the habit' means —",
+    "as": "'kick the habit' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to give up a bad habit",
+     "as": "বেয়া অভ্যাস এৰি দিয়া"
+    },
+    {
+     "en": "just in time",
+     "as": "ঠিক সময়ত"
+    },
+    {
+     "en": "in direct opposition to",
+     "as": "প্ৰত্যক্ষ বিৰোধিতা কৰি"
+    },
+    {
+     "en": "full details",
+     "as": "সম্পূৰ্ণ বিৱৰণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'kick the habit' means to give up a bad habit.",
+    "as": "'kick the habit' ৰ অৰ্থ হৈছে বেয়া অভ্যাস এৰি দিয়া।"
+   }
+  },
+  {
+   "id": "idioms-phrases-302",
+   "q": {
+    "en": "The idiom 'learn by heart' means —",
+    "as": "'learn by heart' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to memorise",
+     "as": "মনস্থ কৰা"
+    },
+    {
+     "en": "to hope for good luck",
+     "as": "সৌভাগ্যৰ আশা কৰা"
+    },
+    {
+     "en": "to avoid starvation",
+     "as": "ভোকৰ পৰা ৰক্ষা পোৱা"
+    },
+    {
+     "en": "to die",
+     "as": "মৃত্যুবৰণ কৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'learn by heart' means to memorise.",
+    "as": "'learn by heart' ৰ অৰ্থ হৈছে মনস্থ কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-303",
+   "q": {
+    "en": "The idiom 'let sleeping dogs lie' means —",
+    "as": "'let sleeping dogs lie' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -31554,8 +24474,8 @@ module.exports = {
      "as": "ভাঙি পেলোৱা অন্তিম বোজা"
     },
     {
-     "en": "to do something completely",
-     "as": "কাম সম্পূৰ্ণভাৱে কৰা"
+     "en": "to avoid stirring up trouble",
+     "as": "সমস্যা নজগোৱাকৈ থাকা"
     },
     {
      "en": "to laugh secretly",
@@ -31564,145 +24484,17 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "'go the whole hog' means to do something completely.",
-    "as": "'go the whole hog' ৰ অৰ্থ হৈছে কাম সম্পূৰ্ণভাৱে কৰা।"
+    "en": "'let sleeping dogs lie' means to avoid stirring up trouble.",
+    "as": "'let sleeping dogs lie' ৰ অৰ্থ হৈছে সমস্যা নজগোৱাকৈ থাকা।"
    }
   },
   {
-   "id": "idioms-phrases-540",
+   "id": "idioms-phrases-304",
    "q": {
-    "en": "The idiom 'hang in there' means —",
-    "as": "'hang in there' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'long in the tooth' means —",
+    "as": "'long in the tooth' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "to keep going despite difficulty",
-     "as": "অসুবিধাতো চলি থাকা"
-    },
-    {
-     "en": "to do or say the right thing",
-     "as": "সঠিক কাম বা কথা কৰা"
-    },
-    {
-     "en": "to be logically sound",
-     "as": "যুক্তিসংগত হোৱা"
-    },
-    {
-     "en": "in a few words",
-     "as": "চমুকৈ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'hang in there' means to keep going despite difficulty.",
-    "as": "'hang in there' ৰ অৰ্থ হৈছে অসুবিধাতো চলি থাকা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-541",
-   "q": {
-    "en": "The idiom 'have a heart of gold' means —",
-    "as": "'have a heart of gold' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to die",
-     "as": "মৃত্যুবৰণ কৰা"
-    },
-    {
-     "en": "to be very kind",
-     "as": "অতি দয়ালু হোৱা"
-    },
-    {
-     "en": "friends and relatives",
-     "as": "বন্ধু-বান্ধৱ আৰু আত্মীয়"
-    },
-    {
-     "en": "to defeat completely",
-     "as": "সম্পূৰ্ণভাৱে পৰাজিত কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'have a heart of gold' means to be very kind.",
-    "as": "'have a heart of gold' ৰ অৰ্থ হৈছে অতি দয়ালু হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-542",
-   "q": {
-    "en": "The idiom 'have second thoughts' means —",
-    "as": "'have second thoughts' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reconsider a decision",
-     "as": "সিদ্ধান্ত পুনৰ বিবেচনা কৰা"
-    },
-    {
-     "en": "a person who can do many kinds of work",
-     "as": "বহু কাম কৰিব পৰা ব্যক্তি"
-    },
-    {
-     "en": "to hope for good luck",
-     "as": "সৌভাগ্যৰ আশা কৰা"
-    },
-    {
-     "en": "to avoid starvation",
-     "as": "ভোকৰ পৰা ৰক্ষা পোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'have second thoughts' means to reconsider a decision.",
-    "as": "'have second thoughts' ৰ অৰ্থ হৈছে সিদ্ধান্ত পুনৰ বিবেচনা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-543",
-   "q": {
-    "en": "The idiom 'hit the roof' means —",
-    "as": "'hit the roof' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to become very angry",
-     "as": "অতি খঙাল হোৱা"
-    },
-    {
-     "en": "to be defeated humbly",
-     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
-    },
-    {
-     "en": "the largest share",
-     "as": "সৰ্বাধিক অংশ"
-    },
-    {
-     "en": "to live with barely enough money",
-     "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'hit the roof' means to become very angry.",
-    "as": "'hit the roof' ৰ অৰ্থ হৈছে অতি খঙাল হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-544",
-   "q": {
-    "en": "The idiom 'hold one's horses' means —",
-    "as": "'hold one's horses' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to wait patiently",
-     "as": "ধৈৰ্য ধৰি অপেক্ষা কৰা"
-    },
-    {
-     "en": "to try every possible means",
-     "as": "সকলো সম্ভৱ উপায় চেষ্টা কৰা"
-    },
     {
      "en": "an ambiguous compliment",
      "as": "দুই অৰ্থৰ প্ৰশংসা"
@@ -31710,58 +24502,36 @@ module.exports = {
     {
      "en": "to reveal a secret",
      "as": "গোপন কথা ফাদিল কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'hold one's horses' means to wait patiently.",
-    "as": "'hold one's horses' ৰ অৰ্থ হৈছে ধৈৰ্য ধৰি অপেক্ষা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-545",
-   "q": {
-    "en": "The idiom 'in the black' means —",
-    "as": "'in the black' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to live with barely enough money",
-     "as": "কোনোমতে জীৱন নিৰ্বাহ কৰা"
     },
     {
-     "en": "to find fault with a gift",
-     "as": "উপহাৰত দোষ বিচৰা"
+     "en": "rather old",
+     "as": "বয়সীয়াল"
     },
     {
-     "en": "making a profit",
-     "as": "লাভ কৰি থকা"
-    },
-    {
-     "en": "think before you act",
-     "as": "কাম কৰাৰ আগতে ভাবা"
+     "en": "to be defeated humbly",
+     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'in the black' means making a profit.",
-    "as": "'in the black' ৰ অৰ্থ হৈছে লাভ কৰি থকা।"
+    "en": "'long in the tooth' means rather old.",
+    "as": "'long in the tooth' ৰ অৰ্থ হৈছে বয়সীয়াল।"
    }
   },
   {
-   "id": "idioms-phrases-546",
+   "id": "idioms-phrases-305",
    "q": {
-    "en": "The idiom 'in the red' means —",
-    "as": "'in the red' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'lose one's head' means —",
+    "as": "'lose one's head' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to live within one's income",
-     "as": "আয়ৰ ভিতৰত চলা"
+     "en": "to lose self-control",
+     "as": "আত্ম-সংযম হেৰুওৱা"
     },
     {
-     "en": "losing money",
-     "as": "ধন হেৰুৱাই থকা"
+     "en": "to live within one's income",
+     "as": "আয়ৰ ভিতৰত চলা"
     },
     {
      "en": "to seize a good opportunity",
@@ -31772,22 +24542,52 @@ module.exports = {
      "as": "সৰু কথাক ডাঙৰ কৰা"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "'in the red' means losing money.",
-    "as": "'in the red' ৰ অৰ্থ হৈছে ধন হেৰুৱাই থকা।"
+    "en": "'lose one's head' means to lose self-control.",
+    "as": "'lose one's head' ৰ অৰ্থ হৈছে আত্ম-সংযম হেৰুওৱা।"
    }
   },
   {
-   "id": "idioms-phrases-547",
+   "id": "idioms-phrases-306",
    "q": {
-    "en": "The idiom 'jump through hoops' means —",
-    "as": "'jump through hoops' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'make a beeline' means —",
+    "as": "'make a beeline' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "something that hastens failure",
-     "as": "পতন ত্বৰান্বিত কৰা কাৰণ"
+     "en": "to seize a good opportunity",
+     "as": "ভাল সুযোগ লোৱা"
+    },
+    {
+     "en": "to go straight towards something",
+     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
+    },
+    {
+     "en": "to exaggerate a small matter",
+     "as": "সৰু কথাক ডাঙৰ কৰা"
+    },
+    {
+     "en": "an ordinary person",
+     "as": "সাধাৰণ মানুহ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'make a beeline' means to go straight towards something.",
+    "as": "'make a beeline' ৰ অৰ্থ হৈছে পোনে পোনে কাৰোবালৈ যোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-307",
+   "q": {
+    "en": "The idiom 'make a killing' means —",
+    "as": "'make a killing' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to make a large profit quickly",
+     "as": "সোনকালে ডাঙৰ লাভ কৰা"
     },
     {
      "en": "very close in a race",
@@ -31798,91 +24598,53 @@ module.exports = {
      "as": "আৰম্ভণিতে ৰোধ কৰা"
     },
     {
-     "en": "to go through many difficulties",
-     "as": "বহু কষ্টৰ মাজেৰে যোৱা"
+     "en": "mutual dislike",
+     "as": "পৰস্পৰ অপছন্দ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "'jump through hoops' means to go through many difficulties.",
-    "as": "'jump through hoops' ৰ অৰ্থ হৈছে বহু কষ্টৰ মাজেৰে যোৱা।"
+    "en": "'make a killing' means to make a large profit quickly.",
+    "as": "'make a killing' ৰ অৰ্থ হৈছে সোনকালে ডাঙৰ লাভ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-548",
+   "id": "idioms-phrases-308",
    "q": {
-    "en": "The idiom 'keep one's cool' means —",
-    "as": "'keep one's cool' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'meet one's Waterloo' means —",
+    "as": "'meet one's Waterloo' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "without previous thought",
-     "as": "আগত নাভাবি"
+     "en": "occasionally",
+     "as": "মাজে মাজে"
     },
     {
-     "en": "very rarely",
-     "as": "অতি কেতিয়াবা"
+     "en": "extremely happy",
+     "as": "অতি আনন্দিত"
     },
     {
-     "en": "to stay calm",
-     "as": "শান্ত থাকা"
+     "en": "to suffer a final defeat",
+     "as": "অন্তিম পৰাজয় ভোগ কৰা"
     },
     {
-     "en": "something one likes",
-     "as": "নিজৰ পছন্দৰ বস্তু"
+     "en": "faced with two difficult choices",
+     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'keep one's cool' means to stay calm.",
-    "as": "'keep one's cool' ৰ অৰ্থ হৈছে শান্ত থাকা।"
+    "en": "'meet one's Waterloo' means to suffer a final defeat.",
+    "as": "'meet one's Waterloo' ৰ অৰ্থ হৈছে অন্তিম পৰাজয় ভোগ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-549",
+   "id": "idioms-phrases-309",
    "q": {
-    "en": "The idiom 'lay down the law' means —",
-    "as": "'lay down the law' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'muddy the waters' means —",
+    "as": "'muddy the waters' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
-    {
-     "en": "very rarely",
-     "as": "অতি কেতিয়াবা"
-    },
-    {
-     "en": "something one likes",
-     "as": "নিজৰ পছন্দৰ বস্তু"
-    },
-    {
-     "en": "thoroughly",
-     "as": "সম্পূৰ্ণৰূপে"
-    },
-    {
-     "en": "to give strict orders",
-     "as": "কঠোৰ আদেশ দিয়া"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'lay down the law' means to give strict orders.",
-    "as": "'lay down the law' ৰ অৰ্থ হৈছে কঠোৰ আদেশ দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-550",
-   "q": {
-    "en": "The idiom 'let off steam' means —",
-    "as": "'let off steam' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "careful in small matters but wasteful in big ones",
-     "as": "সৰু কথাত সতৰ্ক কিন্তু ডাঙৰ কথাত অসতৰ্ক"
-    },
-    {
-     "en": "to release pent-up emotions",
-     "as": "চাপি ৰখা ভাৱনা মুকলি কৰা"
-    },
     {
      "en": "to find fault with",
      "as": "দোষ বিচৰা"
@@ -31890,79 +24652,87 @@ module.exports = {
     {
      "en": "to take a subordinate role",
      "as": "গৌণ ভূমিকা লোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'let off steam' means to release pent-up emotions.",
-    "as": "'let off steam' ৰ অৰ্থ হৈছে চাপি ৰখা ভাৱনা মুকলি কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-551",
-   "q": {
-    "en": "The idiom 'look the other way' means —",
-    "as": "'look the other way' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be satisfied with past success",
-     "as": "পূৰ্বৰ সফলতাত সন্তুষ্ট থকা"
     },
     {
-     "en": "to take from one to give another",
-     "as": "এজনৰ পৰা লৈ আনজনক দিয়া"
+     "en": "to act to please the crowd",
+     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
     },
     {
-     "en": "to ignore wrongdoing",
-     "as": "অন্যায় উপেক্ষা কৰা"
-    },
-    {
-     "en": "to be very rich",
-     "as": "অতি ধনী হোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'look the other way' means to ignore wrongdoing.",
-    "as": "'look the other way' ৰ অৰ্থ হৈছে অন্যায় উপেক্ষা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-552",
-   "q": {
-    "en": "The idiom 'make no bones about' means —",
-    "as": "'make no bones about' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be very rich",
-     "as": "অতি ধনী হোৱা"
-    },
-    {
-     "en": "to behave violently",
-     "as": "উচণ্ডাল আচৰণ কৰা"
-    },
-    {
-     "en": "to act against",
-     "as": "বিৰুদ্ধে কাম কৰা"
-    },
-    {
-     "en": "to be frank about something",
-     "as": "কথা মুকলিকৈ কোৱা"
+     "en": "to make a situation confusing",
+     "as": "অৱস্থা জটিল কৰা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'make no bones about' means to be frank about something.",
-    "as": "'make no bones about' ৰ অৰ্থ হৈছে কথা মুকলিকৈ কোৱা।"
+    "en": "'muddy the waters' means to make a situation confusing.",
+    "as": "'muddy the waters' ৰ অৰ্থ হৈছে অৱস্থা জটিল কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-553",
+   "id": "idioms-phrases-310",
    "q": {
-    "en": "The idiom 'mend fences' means —",
-    "as": "'mend fences' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'neck of the woods' means —",
+    "as": "'neck of the woods' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to find fault with",
+     "as": "দোষ বিচৰা"
+    },
+    {
+     "en": "a particular locality",
+     "as": "এক নিৰ্দিষ্ট অঞ্চল"
+    },
+    {
+     "en": "to take a subordinate role",
+     "as": "গৌণ ভূমিকা লোৱা"
+    },
+    {
+     "en": "to act to please the crowd",
+     "as": "জনতাৰ মন জয় কৰিবলৈ কৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'neck of the woods' means a particular locality.",
+    "as": "'neck of the woods' ৰ অৰ্থ হৈছে এক নিৰ্দিষ্ট অঞ্চল।"
+   }
+  },
+  {
+   "id": "idioms-phrases-311",
+   "q": {
+    "en": "The idiom 'no strings attached' means —",
+    "as": "'no strings attached' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "without any conditions",
+     "as": "কোনো চৰ্ত নোহোৱাকৈ"
+    },
+    {
+     "en": "to do things in the wrong order",
+     "as": "ভুল ক্ৰমত কাম কৰা"
+    },
+    {
+     "en": "to rain very heavily",
+     "as": "অতি ধাৰাসাৰে বৰষুণ দিয়া"
+    },
+    {
+     "en": "excessive official routine",
+     "as": "অত্যধিক চৰকাৰী কাগজ-পত্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'no strings attached' means without any conditions.",
+    "as": "'no strings attached' ৰ অৰ্থ হৈছে কোনো চৰ্ত নোহোৱাকৈ।"
+   }
+  },
+  {
+   "id": "idioms-phrases-312",
+   "q": {
+    "en": "The idiom 'off the hook' means —",
+    "as": "'off the hook' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -31970,38 +24740,64 @@ module.exports = {
      "as": "অতি ধনী হোৱা"
     },
     {
-     "en": "to behave violently",
-     "as": "উচণ্ডাল আচৰণ কৰা"
+     "en": "free from a difficult situation",
+     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
     },
     {
-     "en": "to repair a damaged relationship",
-     "as": "নষ্ট সম্পৰ্ক মেৰামতি কৰা"
+     "en": "to behave violently",
+     "as": "উচণ্ডাল আচৰণ কৰা"
     },
     {
      "en": "to act against",
      "as": "বিৰুদ্ধে কাম কৰা"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "'mend fences' means to repair a damaged relationship.",
-    "as": "'mend fences' ৰ অৰ্থ হৈছে নষ্ট সম্পৰ্ক মেৰামতি কৰা।"
+    "en": "'off the hook' means free from a difficult situation.",
+    "as": "'off the hook' ৰ অৰ্থ হৈছে কঠিন অৱস্থাৰ পৰা মুক্ত।"
    }
   },
   {
-   "id": "idioms-phrases-554",
+   "id": "idioms-phrases-313",
    "q": {
-    "en": "The idiom 'on the back burner' means —",
-    "as": "'on the back burner' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'on thin ice' means —",
+    "as": "'on thin ice' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "given low priority",
-     "as": "কম গুৰুত্ব দিয়া"
+     "en": "to behave violently",
+     "as": "উচণ্ডাল আচৰণ কৰা"
     },
     {
-     "en": "to show cowardice",
-     "as": "ভীতুতা দেখুওৱা"
+     "en": "in a risky position",
+     "as": "বিপদজনক অৱস্থাত"
+    },
+    {
+     "en": "to act against",
+     "as": "বিৰুদ্ধে কাম কৰা"
+    },
+    {
+     "en": "to agree completely",
+     "as": "সম্পূৰ্ণভাৱে একমত হোৱা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'on thin ice' means in a risky position.",
+    "as": "'on thin ice' ৰ অৰ্থ হৈছে বিপদজনক অৱস্থাত।"
+   }
+  },
+  {
+   "id": "idioms-phrases-314",
+   "q": {
+    "en": "The idiom 'out of the blue' is used to mean —",
+    "as": "'out of the blue' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "suddenly and unexpectedly",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে"
     },
     {
      "en": "to avoid taking sides",
@@ -32010,28 +24806,28 @@ module.exports = {
     {
      "en": "to suspect something wrong",
      "as": "কিবা ভুল হোৱাৰ সন্দেহ কৰা"
+    },
+    {
+     "en": "to reveal a secret",
+     "as": "গোপন কথা ফাদিল কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'on the back burner' means given low priority.",
-    "as": "'on the back burner' ৰ অৰ্থ হৈছে কম গুৰুত্ব দিয়া।"
+    "en": "'out of the blue' means suddenly and unexpectedly.",
+    "as": "'out of the blue' ৰ অৰ্থ হৈছে আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে।"
    }
   },
   {
-   "id": "idioms-phrases-555",
+   "id": "idioms-phrases-315",
    "q": {
-    "en": "The idiom 'open a can of worms' means —",
-    "as": "'open a can of worms' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'pay through the nose' means —",
+    "as": "'pay through the nose' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to create a complicated problem",
-     "as": "জটিল সমস্যা সৃষ্টি কৰা"
-    },
-    {
-     "en": "to take a less important position",
-     "as": "কম গুৰুত্বপূৰ্ণ স্থান লোৱা"
+     "en": "to pay too much",
+     "as": "অত্যধিক ধন দিয়া"
     },
     {
      "en": "to rebuke",
@@ -32040,109 +24836,113 @@ module.exports = {
     {
      "en": "to talk about one's work",
      "as": "নিজৰ কামৰ কথা কোৱা"
+    },
+    {
+     "en": "boastful talk",
+     "as": "আত্মপ্ৰশংসামূলক কথা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'open a can of worms' means to create a complicated problem.",
-    "as": "'open a can of worms' ৰ অৰ্থ হৈছে জটিল সমস্যা সৃষ্টি কৰা।"
+    "en": "'pay through the nose' means to pay too much.",
+    "as": "'pay through the nose' ৰ অৰ্থ হৈছে অত্যধিক ধন দিয়া।"
    }
   },
   {
-   "id": "idioms-phrases-556",
+   "id": "idioms-phrases-316",
    "q": {
-    "en": "The idiom 'over the moon' means —",
-    "as": "'over the moon' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'pick up the tab' means —",
+    "as": "'pick up the tab' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "to talk about one's work",
+     "as": "নিজৰ কামৰ কথা কোৱা"
+    },
+    {
+     "en": "boastful talk",
+     "as": "আত্মপ্ৰশংসামূলক কথা"
+    },
+    {
+     "en": "the final decision",
+     "as": "অন্তিম সিদ্ধান্ত"
+    },
+    {
+     "en": "to pay the bill",
+     "as": "বিল পৰিশোধ কৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'pick up the tab' means to pay the bill.",
+    "as": "'pick up the tab' ৰ অৰ্থ হৈছে বিল পৰিশোধ কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-317",
+   "q": {
+    "en": "The idiom 'piece of cake' means —",
+    "as": "'piece of cake' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to help through a difficulty",
+     "as": "অসুবিধা অতিক্ৰম কৰাত সহায় কৰা"
+    },
+    {
+     "en": "for a very long time",
+     "as": "অতি দীঘল সময়লৈকে"
+    },
+    {
+     "en": "something very easy",
+     "as": "অতি সহজ কাম"
+    },
+    {
      "en": "to be confused",
      "as": "হতবুদ্ধি হোৱা"
-    },
-    {
-     "en": "to be ignorant",
-     "as": "অজ্ঞ থকা"
-    },
-    {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "to be in low spirits",
-     "as": "হতাশ অৱস্থাত থকা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'over the moon' means extremely happy.",
-    "as": "'over the moon' ৰ অৰ্থ হৈছে অতি আনন্দিত।"
+    "en": "'piece of cake' means something very easy.",
+    "as": "'piece of cake' ৰ অৰ্থ হৈছে অতি সহজ কাম।"
    }
   },
   {
-   "id": "idioms-phrases-557",
+   "id": "idioms-phrases-318",
    "q": {
-    "en": "The idiom 'pave the way' means —",
-    "as": "'pave the way' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'pull oneself together' means —",
+    "as": "'pull oneself together' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to be confused",
-     "as": "হতবুদ্ধি হোৱা"
+     "en": "to waste effort on a hopeless matter",
+     "as": "আশাহীন কামত শ্ৰম নষ্ট কৰা"
     },
     {
-     "en": "to make something possible",
-     "as": "কিবা সম্ভৱ কৰি তোলা"
+     "en": "to regain self-control",
+     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
     },
     {
-     "en": "to be ignorant",
-     "as": "অজ্ঞ থকা"
+     "en": "to be involved in many things",
+     "as": "বহু কামত জড়িত থকা"
     },
     {
-     "en": "to be in low spirits",
-     "as": "হতাশ অৱস্থাত থকা"
+     "en": "to be very busy",
+     "as": "অতি ব্যস্ত থকা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'pave the way' means to make something possible.",
-    "as": "'pave the way' ৰ অৰ্থ হৈছে কিবা সম্ভৱ কৰি তোলা।"
+    "en": "'pull oneself together' means to regain self-control.",
+    "as": "'pull oneself together' ৰ অৰ্থ হৈছে আত্ম-সংযম ঘূৰাই পোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-558",
+   "id": "idioms-phrases-319",
    "q": {
-    "en": "The idiom 'play hard to get' means —",
-    "as": "'play hard to get' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to regret what cannot be undone",
-     "as": "হৈ যোৱা কামৰ বাবে অনুতাপ কৰা"
-    },
-    {
-     "en": "to live within one's means",
-     "as": "আয়ৰ লগত খৰচ মিলাই চলা"
-    },
-    {
-     "en": "to pretend to be uninterested",
-     "as": "অনিচ্ছুক যেন দেখুওৱা"
-    },
-    {
-     "en": "to solve a problem by bold action",
-     "as": "সাহসী কামেৰে সমস্যা সমাধান কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'play hard to get' means to pretend to be uninterested.",
-    "as": "'play hard to get' ৰ অৰ্থ হৈছে অনিচ্ছুক যেন দেখুওৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-559",
-   "q": {
-    "en": "The idiom 'pour oil on troubled waters' means —",
-    "as": "'pour oil on troubled waters' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'put all eggs in one basket' means —",
+    "as": "'put all eggs in one basket' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -32154,655 +24954,85 @@ module.exports = {
      "as": "অতি ব্যস্ত থকা"
     },
     {
+     "en": "to risk everything on one thing",
+     "as": "সকলো আশা এটা বস্তুত ৰখা"
+    },
+    {
      "en": "to act unfairly",
      "as": "অন্যায়ভাৱে ব্যৱহাৰ কৰা"
-    },
-    {
-     "en": "to calm a dispute",
-     "as": "বিবাদ শান্ত কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'pour oil on troubled waters' means to calm a dispute.",
-    "as": "'pour oil on troubled waters' ৰ অৰ্থ হৈছে বিবাদ শান্ত কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-560",
-   "q": {
-    "en": "The idiom 'pull the wool over one's eyes' means —",
-    "as": "'pull the wool over one's eyes' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to become very angry",
-     "as": "অতি খঙাল হোৱা"
-    },
-    {
-     "en": "to do something remarkable",
-     "as": "উল্লেখনীয় কাম কৰা"
-    },
-    {
-     "en": "to deceive someone",
-     "as": "কাকো প্ৰতাৰণা কৰা"
-    },
-    {
-     "en": "to suspect a trick",
-     "as": "চক্ৰান্তৰ সন্দেহ কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'pull the wool over one's eyes' means to deceive someone.",
-    "as": "'pull the wool over one's eyes' ৰ অৰ্থ হৈছে কাকো প্ৰতাৰণা কৰা।"
+    "en": "'put all eggs in one basket' means to risk everything on one thing.",
+    "as": "'put all eggs in one basket' ৰ অৰ্থ হৈছে সকলো আশা এটা বস্তুত ৰখা।"
    }
   },
   {
-   "id": "idioms-phrases-561",
+   "id": "idioms-phrases-320",
    "q": {
-    "en": "The idiom 'push the envelope' means —",
-    "as": "'push the envelope' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'raise eyebrows' means —",
+    "as": "'raise eyebrows' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
+    {
+     "en": "to come to the point quickly",
+     "as": "সোনকালে মূল কথালৈ অহা"
+    },
+    {
+     "en": "to cause surprise or disapproval",
+     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
+    },
     {
      "en": "to manage with one's income",
      "as": "আয়ৰ ভিতৰত চলা"
     },
     {
-     "en": "to go beyond normal limits",
-     "as": "সাধাৰণ সীমাৰ বাহিৰলৈ যোৱা"
-    },
-    {
      "en": "to make every possible effort",
      "as": "সকলো সম্ভৱ চেষ্টা কৰা"
-    },
-    {
-     "en": "to destroy at an early stage",
-     "as": "আৰম্ভণিতে ধ্বংস কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'push the envelope' means to go beyond normal limits.",
-    "as": "'push the envelope' ৰ অৰ্থ হৈছে সাধাৰণ সীমাৰ বাহিৰলৈ যোৱা।"
+    "en": "'raise eyebrows' means to cause surprise or disapproval.",
+    "as": "'raise eyebrows' ৰ অৰ্থ হৈছে আচৰিত বা অসন্তুষ্টি জন্মোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-562",
+   "id": "idioms-phrases-321",
    "q": {
-    "en": "The idiom 'put the brakes on' means —",
-    "as": "'put the brakes on' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'rock the boat' means —",
+    "as": "'rock the boat' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to do something remarkable",
-     "as": "উল্লেখনীয় কাম কৰা"
+     "en": "to disturb a stable situation",
+     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
     },
     {
-     "en": "to suspect a trick",
-     "as": "চক্ৰান্তৰ সন্দেহ কৰা"
+     "en": "to look sad or disappointed",
+     "as": "দুখ বা হতাশ দেখুওৱা"
     },
     {
-     "en": "to imitate someone",
-     "as": "কাৰোবাৰ অনুকৰণ কৰা"
+     "en": "to tolerate",
+     "as": "সহ্য কৰা"
     },
     {
-     "en": "to slow or stop something",
-     "as": "কিবা লেহেম বা বন্ধ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'put the brakes on' means to slow or stop something.",
-    "as": "'put the brakes on' ৰ অৰ্থ হৈছে কিবা লেহেম বা বন্ধ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-563",
-   "q": {
-    "en": "The idiom 'rack one's brains' means —",
-    "as": "'rack one's brains' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to think very hard",
-     "as": "অতি কষ্টেৰে ভবা"
-    },
-    {
-     "en": "to refuse to listen",
-     "as": "শুনিবলৈ অস্বীকাৰ কৰা"
-    },
-    {
-     "en": "to reverse the situation",
-     "as": "অৱস্থা ওলোটা কৰা"
-    },
-    {
-     "en": "to be extremely happy",
-     "as": "অতি আনন্দিত হোৱা"
+     "en": "to understand the hidden meaning",
+     "as": "লুকুৱা অৰ্থ বুজা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'rack one's brains' means to think very hard.",
-    "as": "'rack one's brains' ৰ অৰ্থ হৈছে অতি কষ্টেৰে ভবা।"
+    "en": "'rock the boat' means to disturb a stable situation.",
+    "as": "'rock the boat' ৰ অৰ্থ হৈছে স্থিৰ অৱস্থা বিঘ্নিত কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-564",
+   "id": "idioms-phrases-322",
    "q": {
-    "en": "The idiom 'read the writing on the wall' means —",
-    "as": "'read the writing on the wall' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reverse the situation",
-     "as": "অৱস্থা ওলোটা কৰা"
-    },
-    {
-     "en": "to be extremely happy",
-     "as": "অতি আনন্দিত হোৱা"
-    },
-    {
-     "en": "to see that failure is coming",
-     "as": "ব্যৰ্থতা আহি থকা দেখা"
-    },
-    {
-     "en": "to refuse to have anything to do with",
-     "as": "কোনো সম্পৰ্ক নাৰাখা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'read the writing on the wall' means to see that failure is coming.",
-    "as": "'read the writing on the wall' ৰ অৰ্থ হৈছে ব্যৰ্থতা আহি থকা দেখা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-565",
-   "q": {
-    "en": "The idiom 'right off the bat' means —",
-    "as": "'right off the bat' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
-    },
-    {
-     "en": "a person with wide knowledge",
-     "as": "বহু জ্ঞান থকা ব্যক্তি"
-    },
-    {
-     "en": "to discuss private matters openly",
-     "as": "ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা"
-    },
-    {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'right off the bat' means immediately.",
-    "as": "'right off the bat' ৰ অৰ্থ হৈছে তৎক্ষণাত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-566",
-   "q": {
-    "en": "The idiom 'run like clockwork' means —",
-    "as": "'run like clockwork' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
-    },
-    {
-     "en": "to operate smoothly",
-     "as": "মসৃণভাৱে চলা"
-    },
-    {
-     "en": "a person with wide knowledge",
-     "as": "বহু জ্ঞান থকা ব্যক্তি"
-    },
-    {
-     "en": "to discuss private matters openly",
-     "as": "ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'run like clockwork' means to operate smoothly.",
-    "as": "'run like clockwork' ৰ অৰ্থ হৈছে মসৃণভাৱে চলা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-567",
-   "q": {
-    "en": "The idiom 'scratch someone's back' means —",
-    "as": "'scratch someone's back' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to help someone in return for help",
-     "as": "সহায়ৰ বিনিময়ত সহায় কৰা"
-    },
-    {
-     "en": "a foolish and useless search",
-     "as": "মূৰ্খামি আৰু অসাৰ অনুসন্ধান"
-    },
-    {
-     "en": "with great success",
-     "as": "মহান সফলতাৰে"
-    },
-    {
-     "en": "very close to",
-     "as": "অতি ওচৰত"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'scratch someone's back' means to help someone in return for help.",
-    "as": "'scratch someone's back' ৰ অৰ্থ হৈছে সহায়ৰ বিনিময়ত সহায় কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-568",
-   "q": {
-    "en": "The idiom 'seal the deal' means —",
-    "as": "'seal the deal' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to finalise an agreement",
-     "as": "চুক্তি চূড়ান্ত কৰা"
-    },
-    {
-     "en": "worth the wages paid",
-     "as": "দিয়া দৰমহাৰ যোগ্য"
-    },
-    {
-     "en": "something that attracts attention briefly",
-     "as": "অলপ সময়লৈ মনোযোগ টনা বস্তু"
-    },
-    {
-     "en": "a mild punishment",
-     "as": "লঘু শাস্তি"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'seal the deal' means to finalise an agreement.",
-    "as": "'seal the deal' ৰ অৰ্থ হৈছে চুক্তি চূড়ান্ত কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-569",
-   "q": {
-    "en": "The idiom 'sink or swim' means —",
-    "as": "'sink or swim' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "fully armed",
-     "as": "সম্পূৰ্ণ সজ্জিত"
-    },
-    {
-     "en": "to succeed or fail by one's own effort",
-     "as": "নিজৰ চেষ্টাৰে সফল বা ব্যৰ্থ হোৱা"
-    },
-    {
-     "en": "very well behaved",
-     "as": "অতি ভদ্ৰ আচৰণযুক্ত"
-    },
-    {
-     "en": "having nothing to do",
-     "as": "কৰিবলৈ একো নথকা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'sink or swim' means to succeed or fail by one's own effort.",
-    "as": "'sink or swim' ৰ অৰ্থ হৈছে নিজৰ চেষ্টাৰে সফল বা ব্যৰ্থ হোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-570",
-   "q": {
-    "en": "The idiom 'stab someone in the back' means —",
-    "as": "'stab someone in the back' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to pass to a new owner",
-     "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
-    },
-    {
-     "en": "to betray someone",
-     "as": "কাকো বিশ্বাসঘাতকতা কৰা"
-    },
-    {
-     "en": "nervousness before doing something",
-     "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
-    },
-    {
-     "en": "to falsify accounts",
-     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'stab someone in the back' means to betray someone.",
-    "as": "'stab someone in the back' ৰ অৰ্থ হৈছে কাকো বিশ্বাসঘাতকতা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-571",
-   "q": {
-    "en": "The idiom 'take the bull by the horns' means —",
-    "as": "'take the bull by the horns' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a person who argues the opposite for the sake of argument",
-     "as": "বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি"
-    },
-    {
-     "en": "practical and realistic",
-     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
-    },
-    {
-     "en": "to tackle a problem boldly",
-     "as": "সমস্যা সাহসেৰে মোকাবিলা কৰা"
-    },
-    {
-     "en": "to get no result",
-     "as": "কোনো ফলাফল নোপোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'take the bull by the horns' means to tackle a problem boldly.",
-    "as": "'take the bull by the horns' ৰ অৰ্থ হৈছে সমস্যা সাহসেৰে মোকাবিলা কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-572",
-   "q": {
-    "en": "The idiom 'throw one's hat into the ring' means —",
-    "as": "'throw one's hat into the ring' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "nervousness before doing something",
-     "as": "কাম কৰাৰ আগতে স্নায়ুচাপ"
-    },
-    {
-     "en": "to falsify accounts",
-     "as": "হিচাপ-নিকাচত জালিয়াতি কৰা"
-    },
-    {
-     "en": "to enter a competition",
-     "as": "প্ৰতিযোগিতাত নামি পৰা"
-    },
-    {
-     "en": "to do something badly to save time",
-     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'throw one's hat into the ring' means to enter a competition.",
-    "as": "'throw one's hat into the ring' ৰ অৰ্থ হৈছে প্ৰতিযোগিতাত নামি পৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-573",
-   "q": {
-    "en": "The idiom 'tighten the screws' means —",
-    "as": "'tighten the screws' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "practical and realistic",
-     "as": "ব্যৱহাৰিক আৰু বাস্তৱবাদী"
-    },
-    {
-     "en": "to get no result",
-     "as": "কোনো ফলাফল নোপোৱা"
-    },
-    {
-     "en": "to put more pressure on",
-     "as": "বেছি চাপ দিয়া"
-    },
-    {
-     "en": "a very small amount",
-     "as": "অতি কম পৰিমাণ"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'tighten the screws' means to put more pressure on.",
-    "as": "'tighten the screws' ৰ অৰ্থ হৈছে বেছি চাপ দিয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-574",
-   "q": {
-    "en": "The idiom 'tread water' means —",
-    "as": "'tread water' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "every bad situation has some good in it",
-     "as": "প্ৰতিটো বেয়া অৱস্থাত কিবা ভাল থাকে"
-    },
-    {
-     "en": "to be ignored",
-     "as": "উপেক্ষা কৰা"
-    },
-    {
-     "en": "to make no progress",
-     "as": "কোনো অগ্ৰগতি নকৰা"
-    },
-    {
-     "en": "a wealthy and powerful person",
-     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'tread water' means to make no progress.",
-    "as": "'tread water' ৰ অৰ্থ হৈছে কোনো অগ্ৰগতি নকৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-575",
-   "q": {
-    "en": "The idiom 'up the ante' means —",
-    "as": "'up the ante' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "something worth thinking about",
-     "as": "ভাবিবলগীয়া বিষয়"
-    },
-    {
-     "en": "to become nervous",
-     "as": "স্নায়ুচাপত ভুগা"
-    },
-    {
-     "en": "to learn how to do something",
-     "as": "কিবা কৰাৰ ধৰণ শিকা"
-    },
-    {
-     "en": "to increase the stakes",
-     "as": "দাঙত বঢ়োৱা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'up the ante' means to increase the stakes.",
-    "as": "'up the ante' ৰ অৰ্থ হৈছে দাঙত বঢ়োৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-576",
-   "q": {
-    "en": "The idiom 'walk away from' means —",
-    "as": "'walk away from' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to lose self-control",
-     "as": "আত্ম-সংযম হেৰুওৱা"
-    },
-    {
-     "en": "to go straight towards something",
-     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
-    },
-    {
-     "en": "to abandon something",
-     "as": "কিবা এৰি থৈ যোৱা"
-    },
-    {
-     "en": "to make a large profit quickly",
-     "as": "সোনকালে ডাঙৰ লাভ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'walk away from' means to abandon something.",
-    "as": "'walk away from' ৰ অৰ্থ হৈছে কিবা এৰি থৈ যোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-577",
-   "q": {
-    "en": "The idiom 'whistle in the dark' means —",
-    "as": "'whistle in the dark' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to pretend to be brave",
-     "as": "সাহসী যেন দেখুওৱা"
-    },
-    {
-     "en": "to go straight towards something",
-     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
-    },
-    {
-     "en": "to make a large profit quickly",
-     "as": "সোনকালে ডাঙৰ লাভ কৰা"
-    },
-    {
-     "en": "to suffer a final defeat",
-     "as": "অন্তিম পৰাজয় ভোগ কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'whistle in the dark' means to pretend to be brave.",
-    "as": "'whistle in the dark' ৰ অৰ্থ হৈছে সাহসী যেন দেখুওৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-578",
-   "q": {
-    "en": "The idiom 'a rolling stone gathers no moss' means —",
-    "as": "'a rolling stone gathers no moss' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make a large profit quickly",
-     "as": "সোনকালে ডাঙৰ লাভ কৰা"
-    },
-    {
-     "en": "one who keeps changing does not succeed",
-     "as": "সঘনে সলনি কৰাজন সফল নহয়"
-    },
-    {
-     "en": "to suffer a final defeat",
-     "as": "অন্তিম পৰাজয় ভোগ কৰা"
-    },
-    {
-     "en": "to make a situation confusing",
-     "as": "অৱস্থা জটিল কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'a rolling stone gathers no moss' means one who keeps changing does not succeed.",
-    "as": "'a rolling stone gathers no moss' ৰ অৰ্থ হৈছে সঘনে সলনি কৰাজন সফল নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-579",
-   "q": {
-    "en": "The idiom 'better late than never' means —",
-    "as": "'better late than never' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "doing something late is better than not at all",
-     "as": "দেৰিকৈ কৰাও নকৰাতকৈ ভাল"
-    },
-    {
-     "en": "free from a difficult situation",
-     "as": "কঠিন অৱস্থাৰ পৰা মুক্ত"
-    },
-    {
-     "en": "in a risky position",
-     "as": "বিপদজনক অৱস্থাত"
-    },
-    {
-     "en": "suddenly and unexpectedly",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'better late than never' means doing something late is better than not at all.",
-    "as": "'better late than never' ৰ অৰ্থ হৈছে দেৰিকৈ কৰাও নকৰাতকৈ ভাল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-580",
-   "q": {
-    "en": "The idiom 'birds of a feather flock together' means —",
-    "as": "'birds of a feather flock together' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "something very easy",
-     "as": "অতি সহজ কাম"
-    },
-    {
-     "en": "similar people stay together",
-     "as": "একে ধৰণৰ লোক একেলগে থাকে"
-    },
-    {
-     "en": "to regain self-control",
-     "as": "আত্ম-সংযম ঘূৰাই পোৱা"
-    },
-    {
-     "en": "to risk everything on one thing",
-     "as": "সকলো আশা এটা বস্তুত ৰখা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'birds of a feather flock together' means similar people stay together.",
-    "as": "'birds of a feather flock together' ৰ অৰ্থ হৈছে একে ধৰণৰ লোক একেলগে থাকে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-581",
-   "q": {
-    "en": "The idiom 'don't put all your eggs in one basket' means —",
-    "as": "'don't put all your eggs in one basket' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'save face' means —",
+    "as": "'save face' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
@@ -32810,1912 +25040,682 @@ module.exports = {
      "as": "অপমান এৰাই চলা"
     },
     {
-     "en": "do not risk everything at once",
-     "as": "সকলো আশা এঠাইত ৰাখিব নালাগে"
+     "en": "to make a fresh start",
+     "as": "নতুনকৈ আৰম্ভ কৰা"
+    },
+    {
+     "en": "under suspicion",
+     "as": "সন্দেহৰ আৱৰ্তত"
+    },
+    {
+     "en": "right in front of one",
+     "as": "চকুৰ সন্মুখত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'save face' means to avoid humiliation.",
+    "as": "'save face' ৰ অৰ্থ হৈছে অপমান এৰাই চলা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-323",
+   "q": {
+    "en": "The idiom 'see the light' means —",
+    "as": "'see the light' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to be extremely happy",
+     "as": "অতি আনন্দিত হোৱা"
+    },
+    {
+     "en": "to refuse to have anything to do with",
+     "as": "কোনো সম্পৰ্ক নাৰাখা"
+    },
+    {
+     "en": "to show one's feelings openly",
+     "as": "মুকলিভাৱে ভাৱ প্ৰকাশ কৰা"
     },
     {
      "en": "to understand suddenly",
      "as": "হঠাতে বুজি পোৱা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'see the light' means to understand suddenly.",
+    "as": "'see the light' ৰ অৰ্থ হৈছে হঠাতে বুজি পোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-324",
+   "q": {
+    "en": "The idiom 'sit tight' means —",
+    "as": "'sit tight' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to make a fresh start",
+     "as": "নতুনকৈ আৰম্ভ কৰা"
+    },
+    {
+     "en": "under suspicion",
+     "as": "সন্দেহৰ আৱৰ্তত"
+    },
+    {
+     "en": "right in front of one",
+     "as": "চকুৰ সন্মুখত"
     },
     {
      "en": "to remain patient without acting",
      "as": "কাম নকৰি ধৈৰ্য ধৰি থাকা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "'don't put all your eggs in one basket' means do not risk everything at once.",
-    "as": "'don't put all your eggs in one basket' ৰ অৰ্থ হৈছে সকলো আশা এঠাইত ৰাখিব নালাগে।"
+    "en": "'sit tight' means to remain patient without acting.",
+    "as": "'sit tight' ৰ অৰ্থ হৈছে কাম নকৰি ধৈৰ্য ধৰি থাকা।"
    }
   },
   {
-   "id": "idioms-phrases-582",
+   "id": "idioms-phrases-325",
    "q": {
-    "en": "The idiom 'honesty is the best policy' means —",
-    "as": "'honesty is the best policy' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'skeleton in the cupboard' means —",
+    "as": "'skeleton in the cupboard' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "to begin from the very beginning",
-     "as": "একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা"
+     "en": "a person with wide knowledge",
+     "as": "বহু জ্ঞান থকা ব্যক্তি"
     },
     {
-     "en": "truthfulness is the best rule",
-     "as": "সততাই শ্ৰেষ্ঠ নীতি"
+     "en": "to discuss private matters openly",
+     "as": "ব্যক্তিগত কথা মুকলিকৈ আলোচনা কৰা"
+    },
+    {
+     "en": "a person who discourages others",
+     "as": "আনক নিৰুৎসাহিত কৰা ব্যক্তি"
+    },
+    {
+     "en": "a hidden and shameful secret",
+     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'skeleton in the cupboard' means a hidden and shameful secret.",
+    "as": "'skeleton in the cupboard' ৰ অৰ্থ হৈছে লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-326",
+   "q": {
+    "en": "The idiom 'spick and span' means —",
+    "as": "'spick and span' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "neat and clean",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
+    },
+    {
+     "en": "very close to",
+     "as": "অতি ওচৰত"
+    },
+    {
+     "en": "without any sense",
+     "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
+    },
+    {
+     "en": "a dangerous person pretending to be harmless",
+     "as": "নিৰীহ যেন দেখুওৱা বিপদজনক ব্যক্তি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'spick and span' means neat and clean.",
+    "as": "'spick and span' ৰ অৰ্থ হৈছে পৰিষ্কাৰ-পৰিচ্ছন্ন।"
+   }
+  },
+  {
+   "id": "idioms-phrases-327",
+   "q": {
+    "en": "The idiom 'start from scratch' means —",
+    "as": "'start from scratch' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "a mild punishment",
+     "as": "লঘু শাস্তি"
+    },
+    {
+     "en": "a harmless lie",
+     "as": "নিৰীহ মিছা কথা"
+    },
+    {
+     "en": "healthy and active",
+     "as": "সুস্থ আৰু সক্ৰিয়"
+    },
+    {
+     "en": "to begin from the very beginning",
+     "as": "একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'start from scratch' means to begin from the very beginning.",
+    "as": "'start from scratch' ৰ অৰ্থ হৈছে একেবাৰে আৰম্ভণিৰ পৰা আৰম্ভ কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-328",
+   "q": {
+    "en": "The idiom 'steal the show' means —",
+    "as": "'steal the show' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "having nothing to do",
+     "as": "কৰিবলৈ একো নথকা"
     },
     {
      "en": "to attract all the attention",
      "as": "সকলোৰে মনোযোগ টনা"
     },
     {
-     "en": "to accept with doubt",
-     "as": "সন্দেহেৰে গ্ৰহণ কৰা"
+     "en": "back to the starting point",
+     "as": "আৰম্ভণিৰ বিন্দুলৈ ঘূৰি অহা"
+    },
+    {
+     "en": "a very thin person",
+     "as": "অতি খীণ ব্যক্তি"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'honesty is the best policy' means truthfulness is the best rule.",
-    "as": "'honesty is the best policy' ৰ অৰ্থ হৈছে সততাই শ্ৰেষ্ঠ নীতি।"
+    "en": "'steal the show' means to attract all the attention.",
+    "as": "'steal the show' ৰ অৰ্থ হৈছে সকলোৰে মনোযোগ টনা।"
    }
   },
   {
-   "id": "idioms-phrases-583",
+   "id": "idioms-phrases-329",
    "q": {
-    "en": "The idiom 'necessity is the mother of invention' means —",
-    "as": "'necessity is the mother of invention' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'take with a grain of salt' means —",
+    "as": "'take with a grain of salt' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
+    {
+     "en": "to avoid the main point",
+     "as": "মূল কথা এৰি ঘূৰাই কোৱা"
+    },
+    {
+     "en": "to attempt more than one can manage",
+     "as": "সাধ্যৰ বাহিৰৰ কাম হাতত লোৱা"
+    },
+    {
+     "en": "to accept with doubt",
+     "as": "সন্দেহেৰে গ্ৰহণ কৰা"
+    },
+    {
+     "en": "to spend too much money",
+     "as": "অত্যধিক ধন খৰচ কৰা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'take with a grain of salt' means to accept with doubt.",
+    "as": "'take with a grain of salt' ৰ অৰ্থ হৈছে সন্দেহেৰে গ্ৰহণ কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-330",
+   "q": {
+    "en": "The idiom 'the ball is in your court' means —",
+    "as": "'the ball is in your court' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to stop working for the day",
+     "as": "দিনটোৰ কাম বন্ধ কৰা"
+    },
+    {
+     "en": "it is your turn to act",
+     "as": "এতিয়া আপোনাৰ পাল"
+    },
+    {
+     "en": "a source of steady profit",
+     "as": "স্থিৰ লাভৰ উৎস"
+    },
+    {
+     "en": "to pass to a new owner",
+     "as": "নতুন গৰাকীৰ হাতলৈ যোৱা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'the ball is in your court' means it is your turn to act.",
+    "as": "'the ball is in your court' ৰ অৰ্থ হৈছে এতিয়া আপোনাৰ পাল।"
+   }
+  },
+  {
+   "id": "idioms-phrases-331",
+   "q": {
+    "en": "The idiom 'the icing on the cake' means —",
+    "as": "'the icing on the cake' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to do something badly to save time",
+     "as": "সময় বচাবলৈ বেয়াকৈ কাম কৰা"
+    },
+    {
+     "en": "an extra benefit",
+     "as": "অতিৰিক্ত লাভ"
+    },
+    {
+     "en": "to come to the main point",
+     "as": "মূল কথালৈ অহা"
+    },
+    {
+     "en": "a person who argues the opposite for the sake of argument",
+     "as": "বিতৰ্কৰ বাবে বিপৰীত মত দিয়া ব্যক্তি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'the icing on the cake' means an extra benefit.",
+    "as": "'the icing on the cake' ৰ অৰ্থ হৈছে অতিৰিক্ত লাভ।"
+   }
+  },
+  {
+   "id": "idioms-phrases-332",
+   "q": {
+    "en": "The idiom 'the tip of the iceberg' means —",
+    "as": "'the tip of the iceberg' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "a very small amount",
+     "as": "অতি কম পৰিমাণ"
+    },
     {
      "en": "a small visible part of a big problem",
      "as": "ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ"
     },
     {
+     "en": "to be completely controlled by another",
+     "as": "আনৰ সম্পূৰ্ণ নিয়ন্ত্ৰণত থকা"
+    },
+    {
+     "en": "to urge someone to do something",
+     "as": "কিবা কৰিবলৈ উচটনি দিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'the tip of the iceberg' means a small visible part of a big problem.",
+    "as": "'the tip of the iceberg' ৰ অৰ্থ হৈছে ডাঙৰ সমস্যাৰ সৰু দৃশ্যমান অংশ।"
+   }
+  },
+  {
+   "id": "idioms-phrases-333",
+   "q": {
+    "en": "The idiom 'throw light on' means —",
+    "as": "'throw light on' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "a wealthy and powerful person",
+     "as": "ধনী আৰু শক্তিশালী ব্যক্তি"
+    },
+    {
+     "en": "rare and infrequent",
+     "as": "বিৰল আৰু কম"
+    },
+    {
+     "en": "a suspicious affair",
+     "as": "সন্দেহজনক কাম"
+    },
+    {
      "en": "to explain something",
      "as": "কিবা ব্যাখ্যা কৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'throw light on' means to explain something.",
+    "as": "'throw light on' ৰ অৰ্থ হৈছে কিবা ব্যাখ্যা কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-334",
+   "q": {
+    "en": "The idiom 'tighten one's belt' means —",
+    "as": "'tighten one's belt' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "in writing",
+     "as": "লিখিত ৰূপত"
     },
     {
      "en": "to spend less money",
      "as": "কম ধন খৰচ কৰা"
     },
     {
-     "en": "need leads to new ideas",
-     "as": "প্ৰয়োজনেই উদ্ভাৱনৰ জননী"
+     "en": "in the same difficult situation",
+     "as": "একে কঠিন অৱস্থাত"
+    },
+    {
+     "en": "to give up a bad habit",
+     "as": "বেয়া অভ্যাস এৰি দিয়া"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
-    "en": "'necessity is the mother of invention' means need leads to new ideas.",
-    "as": "'necessity is the mother of invention' ৰ অৰ্থ হৈছে প্ৰয়োজনেই উদ্ভাৱনৰ জননী।"
+    "en": "'tighten one's belt' means to spend less money.",
+    "as": "'tighten one's belt' ৰ অৰ্থ হৈছে কম ধন খৰচ কৰা।"
    }
   },
   {
-   "id": "idioms-phrases-584",
+   "id": "idioms-phrases-335",
    "q": {
-    "en": "The idiom 'practice makes perfect' means —",
-    "as": "'practice makes perfect' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'tongue in cheek' means —",
+    "as": "'tongue in cheek' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
-     "en": "repeated practice brings excellence",
-     "as": "অনুশীলনে নিখুঁত কৰে"
+     "en": "in writing",
+     "as": "লিখিত ৰূপত"
     },
+    {
+     "en": "not meant seriously",
+     "as": "গম্ভীৰভাৱে নকোৱা"
+    },
+    {
+     "en": "in the same difficult situation",
+     "as": "একে কঠিন অৱস্থাত"
+    },
+    {
+     "en": "to give up a bad habit",
+     "as": "বেয়া অভ্যাস এৰি দিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "'tongue in cheek' means not meant seriously.",
+    "as": "'tongue in cheek' ৰ অৰ্থ হৈছে গম্ভীৰভাৱে নকোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-336",
+   "q": {
+    "en": "The idiom 'touch and go' means —",
+    "as": "'touch and go' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "rather old",
+     "as": "বয়সীয়াল"
+    },
+    {
+     "en": "to lose self-control",
+     "as": "আত্ম-সংযম হেৰুওৱা"
+    },
+    {
+     "en": "a risky and uncertain situation",
+     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
+    },
+    {
+     "en": "to go straight towards something",
+     "as": "পোনে পোনে কাৰোবালৈ যোৱা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'touch and go' means a risky and uncertain situation.",
+    "as": "'touch and go' ৰ অৰ্থ হৈছে বিপদজনক আৰু অনিশ্চিত অৱস্থা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-337",
+   "q": {
+    "en": "The idiom 'turn the corner' means —",
+    "as": "'turn the corner' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
     {
      "en": "to pass the worst part of a crisis",
      "as": "সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা"
     },
     {
-     "en": "to be clumsy at dancing or movement",
-     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
+     "en": "to make a situation confusing",
+     "as": "অৱস্থা জটিল কৰা"
     },
     {
-     "en": "safely achieved",
-     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
+     "en": "a particular locality",
+     "as": "এক নিৰ্দিষ্ট অঞ্চল"
+    },
+    {
+     "en": "without any conditions",
+     "as": "কোনো চৰ্ত নোহোৱাকৈ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'practice makes perfect' means repeated practice brings excellence.",
-    "as": "'practice makes perfect' ৰ অৰ্থ হৈছে অনুশীলনে নিখুঁত কৰে।"
+    "en": "'turn the corner' means to pass the worst part of a crisis.",
+    "as": "'turn the corner' ৰ অৰ্থ হৈছে সংকটৰ আটাইতকৈ বেয়া অংশ পাৰ হোৱা।"
    }
   },
   {
-   "id": "idioms-phrases-585",
+   "id": "idioms-phrases-338",
    "q": {
-    "en": "The idiom 'slow and steady wins the race' means —",
-    "as": "'slow and steady wins the race' বাক্যৰীতিটোৰ অৰ্থ —"
+    "en": "The idiom 'two left feet' means —",
+    "as": "'two left feet' বাক্যৰীতিটোৰ অৰ্থ —"
    },
    "options": [
     {
+     "en": "suddenly and unexpectedly",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিতভাৱে"
+    },
+    {
+     "en": "to pay too much",
+     "as": "অত্যধিক ধন দিয়া"
+    },
+    {
+     "en": "to pay the bill",
+     "as": "বিল পৰিশোধ কৰা"
+    },
+    {
+     "en": "to be clumsy at dancing or movement",
+     "as": "নাচ বা চলন-ফুৰণত অপটু হোৱা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'two left feet' means to be clumsy at dancing or movement.",
+    "as": "'two left feet' ৰ অৰ্থ হৈছে নাচ বা চলন-ফুৰণত অপটু হোৱা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-339",
+   "q": {
+    "en": "The idiom 'under one's belt' means —",
+    "as": "'under one's belt' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "safely achieved",
+     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
+    },
+    {
+     "en": "to risk everything on one thing",
+     "as": "সকলো আশা এটা বস্তুত ৰখা"
+    },
+    {
+     "en": "to cause surprise or disapproval",
+     "as": "আচৰিত বা অসন্তুষ্টি জন্মোৱা"
+    },
+    {
+     "en": "to disturb a stable situation",
+     "as": "স্থিৰ অৱস্থা বিঘ্নিত কৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "'under one's belt' means safely achieved.",
+    "as": "'under one's belt' ৰ অৰ্থ হৈছে সুৰক্ষিতভাৱে অৰ্জন কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-340",
+   "q": {
+    "en": "The idiom 'walk the talk' means —",
+    "as": "'walk the talk' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to remain patient without acting",
+     "as": "কাম নকৰি ধৈৰ্য ধৰি থাকা"
+    },
+    {
+     "en": "a hidden and shameful secret",
+     "as": "লুকুৱাই ৰখা লজ্জাজনক গোপনীয়তা"
+    },
+    {
+     "en": "neat and clean",
+     "as": "পৰিষ্কাৰ-পৰিচ্ছন্ন"
+    },
+    {
+     "en": "to act according to what one says",
+     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'walk the talk' means to act according to what one says.",
+    "as": "'walk the talk' ৰ অৰ্থ হৈছে কোৱা কথা অনুযায়ী কাম কৰা।"
+   }
+  },
+  {
+   "id": "idioms-phrases-341",
+   "q": {
+    "en": "The idiom 'with a pinch of salt' means —",
+    "as": "'with a pinch of salt' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to accept with doubt",
+     "as": "সন্দেহেৰে গ্ৰহণ কৰা"
+    },
+    {
+     "en": "it is your turn to act",
+     "as": "এতিয়া আপোনাৰ পাল"
+    },
+    {
+     "en": "with some doubt",
+     "as": "কিছু সন্দেহেৰে"
+    },
+    {
+     "en": "an extra benefit",
+     "as": "অতিৰিক্ত লাভ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "'with a pinch of salt' means with some doubt.",
+    "as": "'with a pinch of salt' ৰ অৰ্থ হৈছে কিছু সন্দেহেৰে।"
+   }
+  },
+  {
+   "id": "idioms-phrases-342",
+   "q": {
+    "en": "The idiom 'word of mouth' means —",
+    "as": "'word of mouth' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "to spend less money",
+     "as": "কম ধন খৰচ কৰা"
+    },
+    {
+     "en": "not meant seriously",
+     "as": "গম্ভীৰভাৱে নকোৱা"
+    },
+    {
+     "en": "a risky and uncertain situation",
+     "as": "বিপদজনক আৰু অনিশ্চিত অৱস্থা"
+    },
+    {
      "en": "spoken communication",
      "as": "মুখে মুখে প্ৰচাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'word of mouth' means spoken communication.",
+    "as": "'word of mouth' ৰ অৰ্থ হৈছে মুখে মুখে প্ৰচাৰ।"
+   }
+  },
+  {
+   "id": "idioms-phrases-343",
+   "q": {
+    "en": "The idiom 'a far cry from' means —",
+    "as": "'a far cry from' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "safely achieved",
+     "as": "সুৰক্ষিতভাৱে অৰ্জন কৰা"
+    },
+    {
+     "en": "to act according to what one says",
+     "as": "কোৱা কথা অনুযায়ী কাম কৰা"
+    },
+    {
+     "en": "with some doubt",
+     "as": "কিছু সন্দেহেৰে"
     },
     {
      "en": "very different from",
      "as": "পৰা বহু পৃথক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "'a far cry from' means very different from.",
+    "as": "'a far cry from' ৰ অৰ্থ হৈছে পৰা বহু পৃথক।"
+   }
+  },
+  {
+   "id": "idioms-phrases-344",
+   "q": {
+    "en": "The idiom 'a hot potato' means —",
+    "as": "'a hot potato' বাক্যৰীতিটোৰ অৰ্থ —"
+   },
+   "options": [
+    {
+     "en": "something that seems bad but turns out to be good",
+     "as": "প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা"
     },
     {
-     "en": "consistent effort brings success",
-     "as": "ধীৰ আৰু স্থিৰতাই জয় আনে"
+     "en": "a sudden and unexpected shock",
+     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
     },
     {
      "en": "a controversial issue",
      "as": "বিতৰ্কিত বিষয়"
+    },
+    {
+     "en": "a person used by another to do something risky",
+     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'slow and steady wins the race' means consistent effort brings success.",
-    "as": "'slow and steady wins the race' ৰ অৰ্থ হৈছে ধীৰ আৰু স্থিৰতাই জয় আনে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-586",
-   "q": {
-    "en": "The idiom 'strike while the iron is hot' means —",
-    "as": "'strike while the iron is hot' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to endure a painful situation bravely",
-     "as": "কষ্টজনক অৱস্থা সাহসেৰে সহ্য কৰা"
-    },
-    {
-     "en": "to become very angry",
-     "as": "অতি খঙাল হোৱা"
-    },
-    {
-     "en": "act at the right moment",
-     "as": "উপযুক্ত সময়ত কাম কৰা"
-    },
-    {
-     "en": "to earn a living",
-     "as": "জীৱিকা অৰ্জন কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'strike while the iron is hot' means act at the right moment.",
-    "as": "'strike while the iron is hot' ৰ অৰ্থ হৈছে উপযুক্ত সময়ত কাম কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-587",
-   "q": {
-    "en": "The idiom 'the early bird catches the worm' means —",
-    "as": "'the early bird catches the worm' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "early action brings advantage",
-     "as": "সোনকালে কৰাজনে সুবিধা পায়"
-    },
-    {
-     "en": "to accept a difficult situation",
-     "as": "কঠিন অৱস্থা মানি লোৱা"
-    },
-    {
-     "en": "to deal with a problem when it arises",
-     "as": "সমস্যা আহিলে তেতিয়া সমাধান কৰা"
-    },
-    {
-     "en": "to stop doing something before losing more",
-     "as": "আৰু বেছি হেৰুওৱাৰ আগতে কাম বন্ধ কৰা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'the early bird catches the worm' means early action brings advantage.",
-    "as": "'the early bird catches the worm' ৰ অৰ্থ হৈছে সোনকালে কৰাজনে সুবিধা পায়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-588",
-   "q": {
-    "en": "The idiom 'too many cooks spoil the broth' means —",
-    "as": "'too many cooks spoil the broth' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "difficult to do",
-     "as": "কৰাতকৈ কঠিন"
-    },
-    {
-     "en": "too many people spoil a task",
-     "as": "বহুত মানুহে কাম নষ্ট কৰে"
-    },
-    {
-     "en": "everyone gets a chance to succeed",
-     "as": "প্ৰত্যেকেই এদিন সফলতা পায়"
-    },
-    {
-     "en": "to be overlooked",
-     "as": "উপেক্ষিত হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'too many cooks spoil the broth' means too many people spoil a task.",
-    "as": "'too many cooks spoil the broth' ৰ অৰ্থ হৈছে বহুত মানুহে কাম নষ্ট কৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-589",
-   "q": {
-    "en": "The idiom 'united we stand divided we fall' means —",
-    "as": "'united we stand divided we fall' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to start planning again",
-     "as": "পুনৰ পৰিকল্পনা আৰম্ভ কৰা"
-    },
-    {
-     "en": "unity brings strength",
-     "as": "একতাই শক্তি আনে"
-    },
-    {
-     "en": "to start something quickly and well",
-     "as": "সোনকালে আৰু ভালদৰে আৰম্ভ কৰা"
-    },
-    {
-     "en": "in a moment of strong emotion",
-     "as": "প্ৰবল ভাৱনাত"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'united we stand divided we fall' means unity brings strength.",
-    "as": "'united we stand divided we fall' ৰ অৰ্থ হৈছে একতাই শক্তি আনে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-590",
-   "q": {
-    "en": "The idiom 'where there is a will there is a way' means —",
-    "as": "'where there is a will there is a way' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to be cautious after a bad experience",
-     "as": "বেয়া অভিজ্ঞতাৰ পিছত সতৰ্ক হোৱা"
-    },
-    {
-     "en": "what is normal or expected",
-     "as": "সাধাৰণ বা প্ৰত্যাশিত"
-    },
-    {
-     "en": "determination finds a solution",
-     "as": "ইচ্ছা থাকিলে উপায় ওলায়"
-    },
-    {
-     "en": "to act without a fixed plan",
-     "as": "নিৰ্দিষ্ট পৰিকল্পনা নোহোৱাকৈ কাম কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'where there is a will there is a way' means determination finds a solution.",
-    "as": "'where there is a will there is a way' ৰ অৰ্থ হৈছে ইচ্ছা থাকিলে উপায় ওলায়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-591",
-   "q": {
-    "en": "The idiom 'a stitch in time saves nine' means —",
-    "as": "'a stitch in time saves nine' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "what is normal or expected",
-     "as": "সাধাৰণ বা প্ৰত্যাশিত"
-    },
-    {
-     "en": "prompt action prevents bigger trouble",
-     "as": "সময়ত কৰা কামে ডাঙৰ সমস্যা ৰোধ কৰে"
-    },
-    {
-     "en": "to act without a fixed plan",
-     "as": "নিৰ্দিষ্ট পৰিকল্পনা নোহোৱাকৈ কাম কৰা"
-    },
-    {
-     "en": "to stop something from continuing",
-     "as": "কাম চলি থাকিবলৈ বাধা দিয়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'a stitch in time saves nine' means prompt action prevents bigger trouble.",
-    "as": "'a stitch in time saves nine' ৰ অৰ্থ হৈছে সময়ত কৰা কামে ডাঙৰ সমস্যা ৰোধ কৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-592",
-   "q": {
-    "en": "The idiom 'all that glitters is not gold' means —",
-    "as": "'all that glitters is not gold' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "appearances can be deceptive",
-     "as": "চকচকিয়া বস্তু সদায় সোণ নহয়"
-    },
-    {
-     "en": "to warn someone firmly",
-     "as": "কঠোৰভাৱে সকীয়নি দিয়া"
-    },
-    {
-     "en": "to sound familiar",
-     "as": "চিনাকি যেন লাগা"
-    },
-    {
-     "en": "a rough practical method",
-     "as": "মোটামুটি ব্যৱহাৰিক নিয়ম"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'all that glitters is not gold' means appearances can be deceptive.",
-    "as": "'all that glitters is not gold' ৰ অৰ্থ হৈছে চকচকিয়া বস্তু সদায় সোণ নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-593",
-   "q": {
-    "en": "The idiom 'actions speak louder than words' means —",
-    "as": "'actions speak louder than words' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "disparaging what one cannot have",
-     "as": "নোপোৱা বস্তুৰ বেয়া কোৱা"
-    },
-    {
-     "en": "to share gossip",
-     "as": "গপ্প-গুজব বিলোৱা"
-    },
-    {
-     "en": "to take credit for another's idea",
-     "as": "আনৰ ধাৰণাৰ কৃতিত্ব লোৱা"
-    },
-    {
-     "en": "deeds matter more than promises",
-     "as": "কথাতকৈ কামে বেছি কয়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'actions speak louder than words' means deeds matter more than promises.",
-    "as": "'actions speak louder than words' ৰ অৰ্থ হৈছে কথাতকৈ কামে বেছি কয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-594",
-   "q": {
-    "en": "The idiom 'as you sow so shall you reap' means —",
-    "as": "'as you sow so shall you reap' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to give up",
-     "as": "হাৰ মানি এৰি দিয়া"
-    },
-    {
-     "en": "to get married",
-     "as": "বিবাহ কৰা"
-    },
-    {
-     "en": "you face the results of your actions",
-     "as": "যি কৰিবা তাকেই পাবা"
-    },
-    {
-     "en": "to ignore something deliberately",
-     "as": "ইচ্ছাকৃতভাৱে উপেক্ষা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'as you sow so shall you reap' means you face the results of your actions.",
-    "as": "'as you sow so shall you reap' ৰ অৰ্থ হৈছে যি কৰিবা তাকেই পাবা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-595",
-   "q": {
-    "en": "The idiom 'blood is thicker than water' means —",
-    "as": "'blood is thicker than water' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "family ties are strongest",
-     "as": "ৰক্তৰ সম্পৰ্ক সৰ্বাধিক গভীৰ"
-    },
-    {
-     "en": "a past matter no longer important",
-     "as": "পুৰণি আৰু এতিয়া অপ্ৰাসংগিক বিষয়"
-    },
-    {
-     "en": "to survive a difficult period",
-     "as": "কঠিন সময় পাৰ কৰি যোৱা"
-    },
-    {
-     "en": "young and inexperienced",
-     "as": "ডেকা আৰু অনভিজ্ঞ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'blood is thicker than water' means family ties are strongest.",
-    "as": "'blood is thicker than water' ৰ অৰ্থ হৈছে ৰক্তৰ সম্পৰ্ক সৰ্বাধিক গভীৰ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-596",
-   "q": {
-    "en": "The idiom 'charity begins at home' means —",
-    "as": "'charity begins at home' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make a bad situation worse",
-     "as": "আঘাতৰ ওপৰত অপমান যোগোৱা"
-    },
-    {
-     "en": "first care for one's own family",
-     "as": "দান নিজৰ ঘৰৰ পৰা আৰম্ভ হয়"
-    },
-    {
-     "en": "in a straight line",
-     "as": "পোন ৰেখাত"
-    },
-    {
-     "en": "very slowly",
-     "as": "অতি লেহেমীয়াকৈ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'charity begins at home' means first care for one's own family.",
-    "as": "'charity begins at home' ৰ অৰ্থ হৈছে দান নিজৰ ঘৰৰ পৰা আৰম্ভ হয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-597",
-   "q": {
-    "en": "The idiom 'every rose has its thorn' means —",
-    "as": "'every rose has its thorn' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to take all of someone's money",
-     "as": "কাৰোবাৰ সকলো ধন লৈ লোৱা"
-    },
-    {
-     "en": "nothing is perfect",
-     "as": "কোনো বস্তুৱেই নিখুঁত নহয়"
-    },
-    {
-     "en": "good luck",
-     "as": "শুভ কামনা"
-    },
-    {
-     "en": "to destroy all chances of return",
-     "as": "ঘূৰি অহাৰ সকলো সুযোগ নষ্ট কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'every rose has its thorn' means nothing is perfect.",
-    "as": "'every rose has its thorn' ৰ অৰ্থ হৈছে কোনো বস্তুৱেই নিখুঁত নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-598",
-   "q": {
-    "en": "The idiom 'fortune favours the brave' means —",
-    "as": "'fortune favours the brave' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "courage brings success",
-     "as": "সাহসীক ভাগ্যই সহায় কৰে"
-    },
-    {
-     "en": "to take the blame",
-     "as": "দোষ মূৰত লোৱা"
-    },
-    {
-     "en": "completely different",
-     "as": "সম্পূৰ্ণ পৃথক"
-    },
-    {
-     "en": "a state of great happiness",
-     "as": "মহান আনন্দৰ অৱস্থা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'fortune favours the brave' means courage brings success.",
-    "as": "'fortune favours the brave' ৰ অৰ্থ হৈছে সাহসীক ভাগ্যই সহায় কৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-599",
-   "q": {
-    "en": "The idiom 'great minds think alike' means —",
-    "as": "'great minds think alike' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to gain early experience of",
-     "as": "প্ৰাৰম্ভিক অভিজ্ঞতা লাভ কৰা"
-    },
-    {
-     "en": "to do as another wishes",
-     "as": "আনৰ ইচ্ছামতে চলা"
-    },
-    {
-     "en": "intelligent people often agree",
-     "as": "মহান মতিৰ লোক প্ৰায় একমত"
-    },
-    {
-     "en": "unable to function or progress",
-     "as": "কাম কৰিব বা আগবাঢ়িব নোৱৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'great minds think alike' means intelligent people often agree.",
-    "as": "'great minds think alike' ৰ অৰ্থ হৈছে মহান মতিৰ লোক প্ৰায় একমত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-600",
-   "q": {
-    "en": "The idiom 'it's never too late to learn' means —",
-    "as": "'it's never too late to learn' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to eat a lot",
-     "as": "বহুত খোৱা"
-    },
-    {
-     "en": "the last possible moment",
-     "as": "শেষ মুহূৰ্ত"
-    },
-    {
-     "en": "to accept the truth",
-     "as": "সত্য মানি লোৱা"
-    },
-    {
-     "en": "one can always learn",
-     "as": "শিকিবলৈ কেতিয়াও দেৰি নহয়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'it's never too late to learn' means one can always learn.",
-    "as": "'it's never too late to learn' ৰ অৰ্থ হৈছে শিকিবলৈ কেতিয়াও দেৰি নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-601",
-   "q": {
-    "en": "The idiom 'knowledge is power' means —",
-    "as": "'knowledge is power' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to organise oneself effectively",
-     "as": "নিজকে প্ৰভাৱকৰভাৱে সংগঠিত কৰা"
-    },
-    {
-     "en": "to scold someone frankly",
-     "as": "মুকলিভাৱে গালি পাৰা"
-    },
-    {
-     "en": "to accept a situation calmly",
-     "as": "অৱস্থা শান্তভাৱে মানি লোৱা"
-    },
-    {
-     "en": "learning gives strength",
-     "as": "জ্ঞানেই শক্তি"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'knowledge is power' means learning gives strength.",
-    "as": "'knowledge is power' ৰ অৰ্থ হৈছে জ্ঞানেই শক্তি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-602",
-   "q": {
-    "en": "The idiom 'laugh and the world laughs with you' means —",
-    "as": "'laugh and the world laughs with you' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "over a long period",
-     "as": "দীৰ্ঘকালত"
-    },
-    {
-     "en": "to act too soon",
-     "as": "অতি সোনকালে কাম কৰা"
-    },
-    {
-     "en": "to watch carefully",
-     "as": "সাৱধানেৰে চকু ৰখা"
-    },
-    {
-     "en": "cheerfulness attracts company",
-     "as": "হাঁহিলে জগতেও লগত হাঁহে"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'laugh and the world laughs with you' means cheerfulness attracts company.",
-    "as": "'laugh and the world laughs with you' ৰ অৰ্থ হৈছে হাঁহিলে জগতেও লগত হাঁহে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-603",
-   "q": {
-    "en": "The idiom 'no smoke without fire' means —",
-    "as": "'no smoke without fire' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "rumours usually have some truth",
-     "as": "উৰাবাতৰিৰ পিছত কিবা সত্য থাকে"
-    },
-    {
-     "en": "to learn how a job is done",
-     "as": "কাম কেনেকৈ কৰা হয় শিকা"
-    },
-    {
-     "en": "to tolerate others' ways",
-     "as": "আনৰ ধৰণ সহ্য কৰা"
-    },
-    {
-     "en": "to be optimistic",
-     "as": "আশাবাদী হোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'no smoke without fire' means rumours usually have some truth.",
-    "as": "'no smoke without fire' ৰ অৰ্থ হৈছে উৰাবাতৰিৰ পিছত কিবা সত্য থাকে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-604",
-   "q": {
-    "en": "The idiom 'one good turn deserves another' means —",
-    "as": "'one good turn deserves another' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "not for publication",
-     "as": "প্ৰকাশৰ বাবে নহয়"
-    },
-    {
-     "en": "free of charge",
-     "as": "বিনামূলীয়া"
-    },
-    {
-     "en": "out of control",
-     "as": "নিয়ন্ত্ৰণৰ বাহিৰত"
-    },
-    {
-     "en": "kindness should be returned",
-     "as": "উপকাৰৰ প্ৰতিদান দিয়া উচিত"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'one good turn deserves another' means kindness should be returned.",
-    "as": "'one good turn deserves another' ৰ অৰ্থ হৈছে উপকাৰৰ প্ৰতিদান দিয়া উচিত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-605",
-   "q": {
-    "en": "The idiom 'out of sight out of mind' means —",
-    "as": "'out of sight out of mind' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "absence makes one forget",
-     "as": "দৃষ্টিৰ পৰা আঁতৰ হ'লে মনৰ পৰাও আঁতৰ হয়"
-    },
-    {
-     "en": "to correct a misunderstanding",
-     "as": "ভুল ধাৰণা শুধৰোৱা"
-    },
-    {
-     "en": "to spoil someone's plans",
-     "as": "কাৰোবাৰ পৰিকল্পনা নষ্ট কৰা"
-    },
-    {
-     "en": "a misleading clue",
-     "as": "ভুল পথলৈ নিয়া সূত্ৰ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'out of sight out of mind' means absence makes one forget.",
-    "as": "'out of sight out of mind' ৰ অৰ্থ হৈছে দৃষ্টিৰ পৰা আঁতৰ হ'লে মনৰ পৰাও আঁতৰ হয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-606",
-   "q": {
-    "en": "The idiom 'pen is mightier than the sword' means —",
-    "as": "'pen is mightier than the sword' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to reveal one's real nature",
-     "as": "নিজৰ প্ৰকৃত স্বভাৱ প্ৰকাশ কৰা"
-    },
-    {
-     "en": "to postpone an invitation",
-     "as": "নিমন্ত্ৰণ পিছুৱাই দিয়া"
-    },
-    {
-     "en": "writing is stronger than force",
-     "as": "কলম তৰোৱালতকৈ শক্তিশালী"
-    },
-    {
-     "en": "to relax",
-     "as": "জিৰণি লোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'pen is mightier than the sword' means writing is stronger than force.",
-    "as": "'pen is mightier than the sword' ৰ অৰ্থ হৈছে কলম তৰোৱালতকৈ শক্তিশালী।"
-   }
-  },
-  {
-   "id": "idioms-phrases-607",
-   "q": {
-    "en": "The idiom 'rome was not built in a day' means —",
-    "as": "'rome was not built in a day' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to take a big risk",
-     "as": "ডাঙৰ ঝুঁকি লোৱা"
-    },
-    {
-     "en": "time passes quickly",
-     "as": "সময় লৰালৰিকৈ যায়"
-    },
-    {
-     "en": "great things take time",
-     "as": "মহান কামলৈ সময় লাগে"
-    },
-    {
-     "en": "in secret and illegally",
-     "as": "গোপনে আৰু অবৈধভাৱে"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'rome was not built in a day' means great things take time.",
-    "as": "'rome was not built in a day' ৰ অৰ্থ হৈছে মহান কামলৈ সময় লাগে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-608",
-   "q": {
-    "en": "The idiom 'seeing is believing' means —",
-    "as": "'seeing is believing' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "with a warm welcome",
-     "as": "আন্তৰিক স্বাগতমেৰে"
-    },
-    {
-     "en": "I do not know either",
-     "as": "ময়ো নাজানো"
-    },
-    {
-     "en": "a picture conveys more than words",
-     "as": "ছবিৰ প্ৰভাৱ শব্দতকৈ বেছি"
-    },
-    {
-     "en": "one believes what one sees",
-     "as": "দেখিলেই বিশ্বাস হয়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'seeing is believing' means one believes what one sees.",
-    "as": "'seeing is believing' ৰ অৰ্থ হৈছে দেখিলেই বিশ্বাস হয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-609",
-   "q": {
-    "en": "The idiom 'the grass is always greener on the other side' means —",
-    "as": "'the grass is always greener on the other side' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to take on too much",
-     "as": "সাধ্যতকৈ বেছি কাম লোৱা"
-    },
-    {
-     "en": "a hidden benefit",
-     "as": "লুকুৱা লাভ"
-    },
-    {
-     "en": "a feeling of nervousness",
-     "as": "স্নায়ুচাপৰ অনুভৱ"
-    },
-    {
-     "en": "others' situations seem better",
-     "as": "আনৰ অৱস্থা সদায় ভাল যেন লাগে"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'the grass is always greener on the other side' means others' situations seem better.",
-    "as": "'the grass is always greener on the other side' ৰ অৰ্থ হৈছে আনৰ অৱস্থা সদায় ভাল যেন লাগে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-610",
-   "q": {
-    "en": "The idiom 'time and tide wait for no man' means —",
-    "as": "'time and tide wait for no man' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "no one can stop time",
-     "as": "সময় কাৰো বাবে অপেক্ষা নকৰে"
-    },
-    {
-     "en": "being too curious can be harmful",
-     "as": "অত্যধিক কৌতূহল ক্ষতিকাৰক হ'ব পাৰে"
-    },
-    {
-     "en": "to meet the required standard",
-     "as": "প্ৰয়োজনীয় মান পূৰণ কৰা"
-    },
-    {
-     "en": "small details are important",
-     "as": "সৰু বিতংবোৰ গুৰুত্বপূৰ্ণ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'time and tide wait for no man' means no one can stop time.",
-    "as": "'time and tide wait for no man' ৰ অৰ্থ হৈছে সময় কাৰো বাবে অপেক্ষা নকৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-611",
-   "q": {
-    "en": "The idiom 'when the going gets tough the tough get going' means —",
-    "as": "'when the going gets tough the tough get going' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "difficult times reveal the strong",
-     "as": "কঠিন সময়ত সবলসকলে আগবাঢ়ে"
-    },
-    {
-     "en": "close and careful watchfulness",
-     "as": "নিবিড় আৰু সাৱধানেৰে নিৰীক্ষণ"
-    },
-    {
-     "en": "a friend only in good times",
-     "as": "কেৱল ভাল সময়ৰ বন্ধু"
-    },
-    {
-     "en": "earlier arrivals get preference",
-     "as": "প্ৰথম অহাজনে প্ৰথমে পায়"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'when the going gets tough the tough get going' means difficult times reveal the strong.",
-    "as": "'when the going gets tough the tough get going' ৰ অৰ্থ হৈছে কঠিন সময়ত সবলসকলে আগবাঢ়ে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-612",
-   "q": {
-    "en": "The idiom 'you reap what you sow' means —",
-    "as": "'you reap what you sow' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to remember past times",
-     "as": "অতীতৰ কথা মন পেলোৱা"
-    },
-    {
-     "en": "results follow one's actions",
-     "as": "কৰ্মৰ ফল ভোগ কৰিব লাগে"
-    },
-    {
-     "en": "to be in a precarious state",
-     "as": "অতি বিপদজনক অৱস্থাত থকা"
-    },
-    {
-     "en": "to feel nervous",
-     "as": "স্নায়ুচাপ অনুভৱ কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'you reap what you sow' means results follow one's actions.",
-    "as": "'you reap what you sow' ৰ অৰ্থ হৈছে কৰ্মৰ ফল ভোগ কৰিব লাগে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-613",
-   "q": {
-    "en": "The idiom 'a friend in need is a friend indeed' means —",
-    "as": "'a friend in need is a friend indeed' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "very quickly",
-     "as": "অতি ক্ষিপ্ৰভাৱে"
-    },
-    {
-     "en": "it is not complicated",
-     "as": "এইটো জটিল নহয়"
-    },
-    {
-     "en": "to remain cheerful in difficulty",
-     "as": "অসুবিধাতো উৎসাহেৰে থাকা"
-    },
-    {
-     "en": "a true friend helps in trouble",
-     "as": "বিপদত সহায় কৰাজনেই প্ৰকৃত বন্ধু"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'a friend in need is a friend indeed' means a true friend helps in trouble.",
-    "as": "'a friend in need is a friend indeed' ৰ অৰ্থ হৈছে বিপদত সহায় কৰাজনেই প্ৰকৃত বন্ধু।"
-   }
-  },
-  {
-   "id": "idioms-phrases-614",
-   "q": {
-    "en": "The idiom 'absence makes the heart grow fonder' means —",
-    "as": "'absence makes the heart grow fonder' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "distance increases love",
-     "as": "আঁতৰত থাকিলে প্ৰেম বাঢ়ে"
-    },
-    {
-     "en": "to live in false hopes",
-     "as": "মিছা আশাত জীৱন কটোৱা"
-    },
-    {
-     "en": "to create a public disturbance",
-     "as": "ৰাজহুৱাভাৱে হুলস্থূল কৰা"
-    },
-    {
-     "en": "something very pleasant to hear",
-     "as": "শুনিবলৈ অতি মনোৰম"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'absence makes the heart grow fonder' means distance increases love.",
-    "as": "'absence makes the heart grow fonder' ৰ অৰ্থ হৈছে আঁতৰত থাকিলে প্ৰেম বাঢ়ে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-615",
-   "q": {
-    "en": "The idiom 'easy come easy go' means —",
-    "as": "'easy come easy go' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "what comes easily is lost easily",
-     "as": "সহজে অহা বস্তু সহজে যায়"
-    },
-    {
-     "en": "away from the usual route",
-     "as": "সাধাৰণ পথৰ পৰা আঁতৰত"
-    },
-    {
-     "en": "very happy",
-     "as": "অতি আনন্দিত"
-    },
-    {
-     "en": "likely to happen",
-     "as": "ঘটিবলৈ সম্ভাৱনা থকা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'easy come easy go' means what comes easily is lost easily.",
-    "as": "'easy come easy go' ৰ অৰ্থ হৈছে সহজে অহা বস্তু সহজে যায়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-616",
-   "q": {
-    "en": "The idiom 'first impression is the last impression' means —",
-    "as": "'first impression is the last impression' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "the first view lasts",
-     "as": "প্ৰথম ধাৰণাই শেষ ধাৰণা"
-    },
-    {
-     "en": "to argue the opposite side",
-     "as": "বিপৰীত পক্ষ সমৰ্থন কৰা"
-    },
-    {
-     "en": "to do one's fair share of work",
-     "as": "নিজৰ ন্যায্য অংশৰ কাম কৰা"
-    },
-    {
-     "en": "to be quiet",
-     "as": "চুপ থাকা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'first impression is the last impression' means the first view lasts.",
-    "as": "'first impression is the last impression' ৰ অৰ্থ হৈছে প্ৰথম ধাৰণাই শেষ ধাৰণা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-617",
-   "q": {
-    "en": "The idiom 'if it ain't broke don't fix it' means —",
-    "as": "'if it ain't broke don't fix it' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to succeed easily",
-     "as": "সহজে সফল হোৱা"
-    },
-    {
-     "en": "a very good and honest person",
-     "as": "অতি ভাল আৰু সৎ ব্যক্তি"
-    },
-    {
-     "en": "do not change what works well",
-     "as": "কাম কৰি থকা বস্তু নিচলাব"
-    },
-    {
-     "en": "to use the last poor remaining resources",
-     "as": "শেষ অৱশিষ্ট বেয়া সম্পদ ব্যৱহাৰ কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'if it ain't broke don't fix it' means do not change what works well.",
-    "as": "'if it ain't broke don't fix it' ৰ অৰ্থ হৈছে কাম কৰি থকা বস্তু নিচলাব।"
-   }
-  },
-  {
-   "id": "idioms-phrases-618",
-   "q": {
-    "en": "The idiom 'ignorance is bliss' means —",
-    "as": "'ignorance is bliss' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to attract all the attention",
-     "as": "সকলোৰে মনোযোগ আকৰ্ষণ কৰা"
-    },
-    {
-     "en": "not knowing can be pleasant",
-     "as": "অজ্ঞতাই সুখ"
-    },
-    {
-     "en": "to be the most outstanding",
-     "as": "আটাইতকৈ উল্লেখনীয় হোৱা"
-    },
-    {
-     "en": "it is one's turn to act",
-     "as": "কাম কৰাৰ পাল কাৰোবাৰ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'ignorance is bliss' means not knowing can be pleasant.",
-    "as": "'ignorance is bliss' ৰ অৰ্থ হৈছে অজ্ঞতাই সুখ।"
-   }
-  },
-  {
-   "id": "idioms-phrases-619",
-   "q": {
-    "en": "The idiom 'let the chips fall where they may' means —",
-    "as": "'let the chips fall where they may' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "in good and bad times",
-     "as": "ভাল-বেয়া সকলো সময়তে"
-    },
-    {
-     "en": "to like sweet things",
-     "as": "মিঠা বস্তু ভাল পোৱা"
-    },
-    {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
-    },
-    {
-     "en": "to ignore deliberately",
-     "as": "ইচ্ছাকৃতভাৱে উপেক্ষা কৰা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'let the chips fall where they may' means accept whatever outcome comes.",
-    "as": "'let the chips fall where they may' ৰ অৰ্থ হৈছে যি ফল নহওক তাক মানি লোৱা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-620",
-   "q": {
-    "en": "The idiom 'money talks' means —",
-    "as": "'money talks' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to disown responsibility",
-     "as": "দায়িত্ব অস্বীকাৰ কৰা"
-    },
-    {
-     "en": "with sadness",
-     "as": "দুখেৰে"
-    },
-    {
-     "en": "a hidden danger",
-     "as": "লুকুৱা বিপদ"
-    },
-    {
-     "en": "wealth gives influence",
-     "as": "ধনে প্ৰভাৱ বিস্তাৰ কৰে"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'money talks' means wealth gives influence.",
-    "as": "'money talks' ৰ অৰ্থ হৈছে ধনে প্ৰভাৱ বিস্তাৰ কৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-621",
-   "q": {
-    "en": "The idiom 'prevention is better than cure' means —",
-    "as": "'prevention is better than cure' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to expose wrongdoing",
-     "as": "অন্যায় উন্মোচন কৰা"
-    },
-    {
-     "en": "stopping a problem is better than fixing it",
-     "as": "প্ৰতিৰোধ উপচাৰতকৈ ভাল"
-    },
-    {
-     "en": "to tell important news gently",
-     "as": "গুৰুত্বপূৰ্ণ বাতৰি কোমলভাৱে জনোৱা"
-    },
-    {
-     "en": "to reach a crisis point",
-     "as": "সংকটৰ শিখৰত উপনীত হোৱা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'prevention is better than cure' means stopping a problem is better than fixing it.",
-    "as": "'prevention is better than cure' ৰ অৰ্থ হৈছে প্ৰতিৰোধ উপচাৰতকৈ ভাল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-622",
-   "q": {
-    "en": "The idiom 'the pen is mightier than the sword' means —",
-    "as": "'the pen is mightier than the sword' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to make someone very annoyed",
-     "as": "কাকো অতি বিৰক্ত কৰা"
-    },
-    {
-     "en": "words are more powerful than weapons",
-     "as": "শব্দ অস্ত্ৰতকৈ শক্তিশালী"
-    },
-    {
-     "en": "to fail to reach a standard",
-     "as": "মানত উপনীত হ'ব নোৱৰা"
-    },
-    {
-     "en": "to start something",
-     "as": "কিবা আৰম্ভ কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'the pen is mightier than the sword' means words are more powerful than weapons.",
-    "as": "'the pen is mightier than the sword' ৰ অৰ্থ হৈছে শব্দ অস্ত্ৰতকৈ শক্তিশালী।"
-   }
-  },
-  {
-   "id": "idioms-phrases-623",
-   "q": {
-    "en": "The idiom 'there's no place like home' means —",
-    "as": "'there's no place like home' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to do something completely",
-     "as": "কাম সম্পূৰ্ণভাৱে কৰা"
-    },
-    {
-     "en": "to keep going despite difficulty",
-     "as": "অসুবিধাতো চলি থাকা"
-    },
-    {
-     "en": "home is the best place",
-     "as": "ঘৰতকৈ ভাল ঠাই নাই"
-    },
-    {
-     "en": "to be very kind",
-     "as": "অতি দয়ালু হোৱা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'there's no place like home' means home is the best place.",
-    "as": "'there's no place like home' ৰ অৰ্থ হৈছে ঘৰতকৈ ভাল ঠাই নাই।"
-   }
-  },
-  {
-   "id": "idioms-phrases-624",
-   "q": {
-    "en": "The idiom 'two heads are better than one' means —",
-    "as": "'two heads are better than one' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to wait patiently",
-     "as": "ধৈৰ্য ধৰি অপেক্ষা কৰা"
-    },
-    {
-     "en": "making a profit",
-     "as": "লাভ কৰি থকা"
-    },
-    {
-     "en": "teamwork gives better results",
-     "as": "দুটা মূৰ এটা মূৰতকৈ ভাল"
-    },
-    {
-     "en": "losing money",
-     "as": "ধন হেৰুৱাই থকা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "'two heads are better than one' means teamwork gives better results.",
-    "as": "'two heads are better than one' ৰ অৰ্থ হৈছে দুটা মূৰ এটা মূৰতকৈ ভাল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-625",
-   "q": {
-    "en": "The idiom 'you can't have your cake and eat it too' means —",
-    "as": "'you can't have your cake and eat it too' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to give strict orders",
-     "as": "কঠোৰ আদেশ দিয়া"
-    },
-    {
-     "en": "you cannot enjoy two opposite things",
-     "as": "দুটা পৰস্পৰবিৰোধী বস্তু একেলগে ভোগ নকৰা"
-    },
-    {
-     "en": "to release pent-up emotions",
-     "as": "চাপি ৰখা ভাৱনা মুকলি কৰা"
-    },
-    {
-     "en": "to ignore wrongdoing",
-     "as": "অন্যায় উপেক্ষা কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'you can't have your cake and eat it too' means you cannot enjoy two opposite things.",
-    "as": "'you can't have your cake and eat it too' ৰ অৰ্থ হৈছে দুটা পৰস্পৰবিৰোধী বস্তু একেলগে ভোগ নকৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-626",
-   "q": {
-    "en": "The idiom 'a journey of a thousand miles begins with a single step' means —",
-    "as": "'a journey of a thousand miles begins with a single step' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "big tasks start small",
-     "as": "ডাঙৰ কাম এটা সৰু পদক্ষেপৰ পৰা আৰম্ভ হয়"
-    },
-    {
-     "en": "given low priority",
-     "as": "কম গুৰুত্ব দিয়া"
-    },
-    {
-     "en": "to create a complicated problem",
-     "as": "জটিল সমস্যা সৃষ্টি কৰা"
-    },
-    {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'a journey of a thousand miles begins with a single step' means big tasks start small.",
-    "as": "'a journey of a thousand miles begins with a single step' ৰ অৰ্থ হৈছে ডাঙৰ কাম এটা সৰু পদক্ষেপৰ পৰা আৰম্ভ হয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-627",
-   "q": {
-    "en": "The idiom 'beauty is in the eye of the beholder' means —",
-    "as": "'beauty is in the eye of the beholder' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to calm a dispute",
-     "as": "বিবাদ শান্ত কৰা"
-    },
-    {
-     "en": "to deceive someone",
-     "as": "কাকো প্ৰতাৰণা কৰা"
-    },
-    {
-     "en": "to go beyond normal limits",
-     "as": "সাধাৰণ সীমাৰ বাহিৰলৈ যোৱা"
-    },
-    {
-     "en": "beauty is subjective",
-     "as": "সৌন্দৰ্য দৰ্শকৰ চকুত"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'beauty is in the eye of the beholder' means beauty is subjective.",
-    "as": "'beauty is in the eye of the beholder' ৰ অৰ্থ হৈছে সৌন্দৰ্য দৰ্শকৰ চকুত।"
-   }
-  },
-  {
-   "id": "idioms-phrases-628",
-   "q": {
-    "en": "The idiom 'better safe than sorry' means —",
-    "as": "'better safe than sorry' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to see that failure is coming",
-     "as": "ব্যৰ্থতা আহি থকা দেখা"
-    },
-    {
-     "en": "caution avoids regret",
-     "as": "সতৰ্ক থাকিলে অনুতাপ নহয়"
-    },
-    {
-     "en": "immediately",
-     "as": "তৎক্ষণাত"
-    },
-    {
-     "en": "to operate smoothly",
-     "as": "মসৃণভাৱে চলা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'better safe than sorry' means caution avoids regret.",
-    "as": "'better safe than sorry' ৰ অৰ্থ হৈছে সতৰ্ক থাকিলে অনুতাপ নহয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-629",
-   "q": {
-    "en": "The idiom 'cleanliness is next to godliness' means —",
-    "as": "'cleanliness is next to godliness' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "to succeed or fail by one's own effort",
-     "as": "নিজৰ চেষ্টাৰে সফল বা ব্যৰ্থ হোৱা"
-    },
-    {
-     "en": "being clean is a virtue",
-     "as": "পৰিষ্কাৰতা পৱিত্ৰতাৰ দৰে"
-    },
-    {
-     "en": "to betray someone",
-     "as": "কাকো বিশ্বাসঘাতকতা কৰা"
-    },
-    {
-     "en": "to tackle a problem boldly",
-     "as": "সমস্যা সাহসেৰে মোকাবিলা কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'cleanliness is next to godliness' means being clean is a virtue.",
-    "as": "'cleanliness is next to godliness' ৰ অৰ্থ হৈছে পৰিষ্কাৰতা পৱিত্ৰতাৰ দৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-630",
-   "q": {
-    "en": "The idiom 'diamond cuts diamond' means —",
-    "as": "'diamond cuts diamond' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a strong opponent needs a strong match",
-     "as": "শক্তিশালীক শক্তিশালীয়ে মোকাবিলা কৰে"
-    },
-    {
-     "en": "to make no progress",
-     "as": "কোনো অগ্ৰগতি নকৰা"
-    },
-    {
-     "en": "to increase the stakes",
-     "as": "দাঙত বঢ়োৱা"
-    },
-    {
-     "en": "to abandon something",
-     "as": "কিবা এৰি থৈ যোৱা"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'diamond cuts diamond' means a strong opponent needs a strong match.",
-    "as": "'diamond cuts diamond' ৰ অৰ্থ হৈছে শক্তিশালীক শক্তিশালীয়ে মোকাবিলা কৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-631",
-   "q": {
-    "en": "The idiom 'do unto others as you would have them do unto you' means —",
-    "as": "'do unto others as you would have them do unto you' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "doing something late is better than not at all",
-     "as": "দেৰিকৈ কৰাও নকৰাতকৈ ভাল"
-    },
-    {
-     "en": "similar people stay together",
-     "as": "একে ধৰণৰ লোক একেলগে থাকে"
-    },
-    {
-     "en": "do not risk everything at once",
-     "as": "সকলো আশা এঠাইত ৰাখিব নালাগে"
-    },
-    {
-     "en": "treat others as you wish to be treated",
-     "as": "আনে যেনে ব্যৱহাৰ বিচাৰা তেনে ব্যৱহাৰ কৰা"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'do unto others as you would have them do unto you' means treat others as you wish to be treated.",
-    "as": "'do unto others as you would have them do unto you' ৰ অৰ্থ হৈছে আনে যেনে ব্যৱহাৰ বিচাৰা তেনে ব্যৱহাৰ কৰা।"
-   }
-  },
-  {
-   "id": "idioms-phrases-632",
-   "q": {
-    "en": "The idiom 'enough is as good as a feast' means —",
-    "as": "'enough is as good as a feast' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "repeated practice brings excellence",
-     "as": "অনুশীলনে নিখুঁত কৰে"
-    },
-    {
-     "en": "consistent effort brings success",
-     "as": "ধীৰ আৰু স্থিৰতাই জয় আনে"
-    },
-    {
-     "en": "act at the right moment",
-     "as": "উপযুক্ত সময়ত কাম কৰা"
-    },
-    {
-     "en": "moderation is best",
-     "as": "পৰ্যাপ্ততাই ভাল"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'enough is as good as a feast' means moderation is best.",
-    "as": "'enough is as good as a feast' ৰ অৰ্থ হৈছে পৰ্যাপ্ততাই ভাল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-633",
-   "q": {
-    "en": "The idiom 'failure is the stepping stone to success' means —",
-    "as": "'failure is the stepping stone to success' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "unity brings strength",
-     "as": "একতাই শক্তি আনে"
-    },
-    {
-     "en": "failure leads to success",
-     "as": "ব্যৰ্থতাই সফলতাৰ খটখটি"
-    },
-    {
-     "en": "determination finds a solution",
-     "as": "ইচ্ছা থাকিলে উপায় ওলায়"
-    },
-    {
-     "en": "prompt action prevents bigger trouble",
-     "as": "সময়ত কৰা কামে ডাঙৰ সমস্যা ৰোধ কৰে"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'failure is the stepping stone to success' means failure leads to success.",
-    "as": "'failure is the stepping stone to success' ৰ অৰ্থ হৈছে ব্যৰ্থতাই সফলতাৰ খটখটি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-634",
-   "q": {
-    "en": "The idiom 'god helps those who help themselves' means —",
-    "as": "'god helps those who help themselves' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "you face the results of your actions",
-     "as": "যি কৰিবা তাকেই পাবা"
-    },
-    {
-     "en": "self-effort earns help",
-     "as": "নিজে চেষ্টা কৰাজনক ঈশ্বৰে সহায় কৰে"
-    },
-    {
-     "en": "family ties are strongest",
-     "as": "ৰক্তৰ সম্পৰ্ক সৰ্বাধিক গভীৰ"
-    },
-    {
-     "en": "first care for one's own family",
-     "as": "দান নিজৰ ঘৰৰ পৰা আৰম্ভ হয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'god helps those who help themselves' means self-effort earns help.",
-    "as": "'god helps those who help themselves' ৰ অৰ্থ হৈছে নিজে চেষ্টা কৰাজনক ঈশ্বৰে সহায় কৰে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-635",
-   "q": {
-    "en": "The idiom 'half a loaf is better than none' means —",
-    "as": "'half a loaf is better than none' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "intelligent people often agree",
-     "as": "মহান মতিৰ লোক প্ৰায় একমত"
-    },
-    {
-     "en": "one can always learn",
-     "as": "শিকিবলৈ কেতিয়াও দেৰি নহয়"
-    },
-    {
-     "en": "learning gives strength",
-     "as": "জ্ঞানেই শক্তি"
-    },
-    {
-     "en": "something is better than nothing",
-     "as": "কিছু পোৱা নোপোৱাতকৈ ভাল"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'half a loaf is better than none' means something is better than nothing.",
-    "as": "'half a loaf is better than none' ৰ অৰ্থ হৈছে কিছু পোৱা নোপোৱাতকৈ ভাল।"
-   }
-  },
-  {
-   "id": "idioms-phrases-636",
-   "q": {
-    "en": "The idiom 'if you want something done right do it yourself' means —",
-    "as": "'if you want something done right do it yourself' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "kindness should be returned",
-     "as": "উপকাৰৰ প্ৰতিদান দিয়া উচিত"
-    },
-    {
-     "en": "absence makes one forget",
-     "as": "দৃষ্টিৰ পৰা আঁতৰ হ'লে মনৰ পৰাও আঁতৰ হয়"
-    },
-    {
-     "en": "writing is stronger than force",
-     "as": "কলম তৰোৱালতকৈ শক্তিশালী"
-    },
-    {
-     "en": "self-reliance gives best results",
-     "as": "নিজে কৰিলেহে ভাল হয়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'if you want something done right do it yourself' means self-reliance gives best results.",
-    "as": "'if you want something done right do it yourself' ৰ অৰ্থ হৈছে নিজে কৰিলেহে ভাল হয়।"
-   }
-  },
-  {
-   "id": "idioms-phrases-637",
-   "q": {
-    "en": "The idiom 'necessity knows no law' means —",
-    "as": "'necessity knows no law' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "extreme need ignores rules",
-     "as": "অতিপ্ৰয়োজনে নিয়ম নমানি"
-    },
-    {
-     "en": "others' situations seem better",
-     "as": "আনৰ অৱস্থা সদায় ভাল যেন লাগে"
-    },
-    {
-     "en": "no one can stop time",
-     "as": "সময় কাৰো বাবে অপেক্ষা নকৰে"
-    },
-    {
-     "en": "difficult times reveal the strong",
-     "as": "কঠিন সময়ত সবলসকলে আগবাঢ়ে"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'necessity knows no law' means extreme need ignores rules.",
-    "as": "'necessity knows no law' ৰ অৰ্থ হৈছে অতিপ্ৰয়োজনে নিয়ম নমানি।"
-   }
-  },
-  {
-   "id": "idioms-phrases-638",
-   "q": {
-    "en": "The idiom 'one man's meat is another man's poison' means —",
-    "as": "'one man's meat is another man's poison' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "distance increases love",
-     "as": "আঁতৰত থাকিলে প্ৰেম বাঢ়ে"
-    },
-    {
-     "en": "what comes easily is lost easily",
-     "as": "সহজে অহা বস্তু সহজে যায়"
-    },
-    {
-     "en": "the first view lasts",
-     "as": "প্ৰথম ধাৰণাই শেষ ধাৰণা"
-    },
-    {
-     "en": "what suits one may harm another",
-     "as": "এজনৰ উপকাৰী আনজনৰ অপকাৰী"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'one man's meat is another man's poison' means what suits one may harm another.",
-    "as": "'one man's meat is another man's poison' ৰ অৰ্থ হৈছে এজনৰ উপকাৰী আনজনৰ অপকাৰী।"
-   }
-  },
-  {
-   "id": "idioms-phrases-639",
-   "q": {
-    "en": "The idiom 'opportunity knocks but once' means —",
-    "as": "'opportunity knocks but once' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "chances rarely repeat",
-     "as": "সুযোগ বিৰলভাৱে আহে"
-    },
-    {
-     "en": "accept whatever outcome comes",
-     "as": "যি ফল নহওক তাক মানি লোৱা"
-    },
-    {
-     "en": "wealth gives influence",
-     "as": "ধনে প্ৰভাৱ বিস্তাৰ কৰে"
-    },
-    {
-     "en": "stopping a problem is better than fixing it",
-     "as": "প্ৰতিৰোধ উপচাৰতকৈ ভাল"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "'opportunity knocks but once' means chances rarely repeat.",
-    "as": "'opportunity knocks but once' ৰ অৰ্থ হৈছে সুযোগ বিৰলভাৱে আহে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-640",
-   "q": {
-    "en": "The idiom 'the apple doesn't fall far from the tree' means —",
-    "as": "'the apple doesn't fall far from the tree' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "teamwork gives better results",
-     "as": "দুটা মূৰ এটা মূৰতকৈ ভাল"
-    },
-    {
-     "en": "you cannot enjoy two opposite things",
-     "as": "দুটা পৰস্পৰবিৰোধী বস্তু একেলগে ভোগ নকৰা"
-    },
-    {
-     "en": "big tasks start small",
-     "as": "ডাঙৰ কাম এটা সৰু পদক্ষেপৰ পৰা আৰম্ভ হয়"
-    },
-    {
-     "en": "children resemble their parents",
-     "as": "সন্তান পিতৃ-মাতৃৰ লগত মিলে"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'the apple doesn't fall far from the tree' means children resemble their parents.",
-    "as": "'the apple doesn't fall far from the tree' ৰ অৰ্থ হৈছে সন্তান পিতৃ-মাতৃৰ লগত মিলে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-641",
-   "q": {
-    "en": "The idiom 'the best things in life are free' means —",
-    "as": "'the best things in life are free' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "being clean is a virtue",
-     "as": "পৰিষ্কাৰতা পৱিত্ৰতাৰ দৰে"
-    },
-    {
-     "en": "true joys cost nothing",
-     "as": "জীৱনৰ শ্ৰেষ্ঠ বস্তু বিনামূলীয়া"
-    },
-    {
-     "en": "a strong opponent needs a strong match",
-     "as": "শক্তিশালীক শক্তিশালীয়ে মোকাবিলা কৰে"
-    },
-    {
-     "en": "treat others as you wish to be treated",
-     "as": "আনে যেনে ব্যৱহাৰ বিচাৰা তেনে ব্যৱহাৰ কৰা"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'the best things in life are free' means true joys cost nothing.",
-    "as": "'the best things in life are free' ৰ অৰ্থ হৈছে জীৱনৰ শ্ৰেষ্ঠ বস্তু বিনামূলীয়া।"
-   }
-  },
-  {
-   "id": "idioms-phrases-642",
-   "q": {
-    "en": "The idiom 'there is no smoke without fire' means —",
-    "as": "'there is no smoke without fire' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "self-effort earns help",
-     "as": "নিজে চেষ্টা কৰাজনক ঈশ্বৰে সহায় কৰে"
-    },
-    {
-     "en": "every rumour has a basis",
-     "as": "প্ৰতিটো উৰাবাতৰিৰ এটা ভিত্তি থাকে"
-    },
-    {
-     "en": "something is better than nothing",
-     "as": "কিছু পোৱা নোপোৱাতকৈ ভাল"
-    },
-    {
-     "en": "self-reliance gives best results",
-     "as": "নিজে কৰিলেহে ভাল হয়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "'there is no smoke without fire' means every rumour has a basis.",
-    "as": "'there is no smoke without fire' ৰ অৰ্থ হৈছে প্ৰতিটো উৰাবাতৰিৰ এটা ভিত্তি থাকে।"
-   }
-  },
-  {
-   "id": "idioms-phrases-643",
-   "q": {
-    "en": "The idiom 'time is money' means —",
-    "as": "'time is money' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "chances rarely repeat",
-     "as": "সুযোগ বিৰলভাৱে আহে"
-    },
-    {
-     "en": "children resemble their parents",
-     "as": "সন্তান পিতৃ-মাতৃৰ লগত মিলে"
-    },
-    {
-     "en": "true joys cost nothing",
-     "as": "জীৱনৰ শ্ৰেষ্ঠ বস্তু বিনামূলীয়া"
-    },
-    {
-     "en": "time is valuable",
-     "as": "সময়েই ধন"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'time is money' means time is valuable.",
-    "as": "'time is money' ৰ অৰ্থ হৈছে সময়েই ধন।"
-   }
-  },
-  {
-   "id": "idioms-phrases-644",
-   "q": {
-    "en": "The idiom 'where there's a will there's a way' means —",
-    "as": "'where there's a will there's a way' বাক্যৰীতিটোৰ অৰ্থ —"
-   },
-   "options": [
-    {
-     "en": "a law or rule that is no longer obeyed",
-     "as": "এতিয়া অমান্য কৰা আইন"
-    },
-    {
-     "en": "a person in an uncomfortable situation",
-     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
-    },
-    {
-     "en": "a day of festivity",
-     "as": "উৎসৱৰ দিন"
-    },
-    {
-     "en": "determination finds a path",
-     "as": "ইচ্ছা থাকিলে পথ ওলায়"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "'where there's a will there's a way' means determination finds a path.",
-    "as": "'where there's a will there's a way' ৰ অৰ্থ হৈছে ইচ্ছা থাকিলে পথ ওলায়।"
+    "en": "'a hot potato' means a controversial issue.",
+    "as": "'a hot potato' ৰ অৰ্থ হৈছে বিতৰ্কিত বিষয়।"
    }
   }
  ],
