@@ -42,10 +42,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "26 January 1950",
-     "as": "২৬ জানুৱাৰী ১৯৫০"
-    },
-    {
      "en": "26 November 1949",
      "as": "২৬ নৱেম্বৰ ১৯৪৯"
     },
@@ -54,11 +50,15 @@ module.exports = {
      "as": "১৫ আগষ্ট ১৯৪৭"
     },
     {
+     "en": "26 January 1950",
+     "as": "২৬ জানুৱাৰী ১৯৫০"
+    },
+    {
      "en": "26 January 1949",
      "as": "২৬ জানুৱাৰী ১৯৪৯"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Constitution came into force on 26 January 1950, celebrated as Republic Day.",
     "as": "সংবিধান ২৬ জানুৱাৰী ১৯৫০ চনত কাৰ্যকৰী হৈছিল, যি দিনটো গণৰাজ্য দিৱস হিচাপে পালন কৰা হয়।"
@@ -72,12 +72,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dr. Rajendra Prasad",
-     "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
-    },
-    {
      "en": "Dr. B. R. Ambedkar",
      "as": "ড০ বি আৰ আম্বেদকাৰ"
+    },
+    {
+     "en": "Dr. Rajendra Prasad",
+     "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
     },
     {
      "en": "Jawaharlal Nehru",
@@ -88,7 +88,7 @@ module.exports = {
      "as": "সৰ্দাৰ পেটেল"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Dr. Rajendra Prasad was the Chairman of the Constituent Assembly.",
     "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ গণপৰিষদৰ সভাপতি আছিল।"
@@ -102,10 +102,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dr. B. R. Ambedkar",
-     "as": "ড০ বি আৰ আম্বেদকাৰ"
-    },
-    {
      "en": "Dr. Rajendra Prasad",
      "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
     },
@@ -116,9 +112,13 @@ module.exports = {
     {
      "en": "Sardar Patel",
      "as": "সৰ্দাৰ পেটেল"
+    },
+    {
+     "en": "Dr. B. R. Ambedkar",
+     "as": "ড০ বি আৰ আম্বেদকাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Dr. B. R. Ambedkar chaired the Drafting Committee.",
     "as": "ড০ বি আৰ আম্বেদকাৰে খচৰা প্ৰস্তুতি সমিতিৰ অধ্যক্ষতা কৰিছিল।"
@@ -132,10 +132,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dr. B. R. Ambedkar",
-     "as": "ড০ বি আৰ আম্বেদকাৰ"
-    },
-    {
      "en": "Jawaharlal Nehru",
      "as": "জৱাহৰলাল নেহৰু"
     },
@@ -144,11 +140,15 @@ module.exports = {
      "as": "মহাত্মা গান্ধী"
     },
     {
+     "en": "Dr. B. R. Ambedkar",
+     "as": "ড০ বি আৰ আম্বেদকাৰ"
+    },
+    {
      "en": "Rajendra Prasad",
      "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Dr. B. R. Ambedkar is called the chief architect of the Constitution.",
     "as": "ড০ বি আৰ আম্বেদকাৰক সংবিধানৰ মুখ্য স্থপতি বুলি কোৱা হয়।"
@@ -162,12 +162,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "M. N. Roy",
-     "as": "এম এন ৰয়"
-    },
-    {
      "en": "Mahatma Gandhi",
      "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "M. N. Roy",
+     "as": "এম এন ৰয়"
     },
     {
      "en": "Jawaharlal Nehru",
@@ -178,7 +178,7 @@ module.exports = {
      "as": "বি আৰ আম্বেদকাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "M. N. Roy first proposed the idea of a Constituent Assembly in 1934.",
     "as": "এম এন ৰয়ে ১৯৩৪ চনত প্ৰথমে গণপৰিষদৰ ধাৰণা প্ৰস্তাৱ কৰিছিল।"
@@ -192,12 +192,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2 years 11 months 18 days",
-     "as": "২ বছৰ ১১ মাহ ১৮ দিন"
-    },
-    {
      "en": "3 years",
      "as": "৩ বছৰ"
+    },
+    {
+     "en": "2 years 11 months 18 days",
+     "as": "২ বছৰ ১১ মাহ ১৮ দিন"
     },
     {
      "en": "1 year 6 months",
@@ -208,7 +208,7 @@ module.exports = {
      "as": "৪ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It took 2 years, 11 months and 18 days.",
     "as": "ই ২ বছৰ, ১১ মাহ আৰু ১৮ দিন সময় লৈছিল।"
@@ -222,12 +222,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dr. Rajendra Prasad",
-     "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
-    },
-    {
      "en": "Sachchidananda Sinha",
      "as": "সচ্চিদানন্দ সিনহা"
+    },
+    {
+     "en": "Dr. Rajendra Prasad",
+     "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
     },
     {
      "en": "B. R. Ambedkar",
@@ -238,7 +238,7 @@ module.exports = {
      "as": "নেহৰু"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Dr. Rajendra Prasad was the permanent President; Sachchidananda Sinha was the temporary chairman.",
     "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ স্থায়ী সভাপতি আছিল; সচ্চিদানন্দ সিনহা অস্থায়ী সভাপতি আছিল।"
@@ -252,10 +252,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Cabinet Mission Plan, 1946",
-     "as": "কেবিনেট মিছন পৰিকল্পনা, ১৯৪৬"
-    },
-    {
      "en": "Cripps Mission",
      "as": "ক্ৰিপছ মিছন"
     },
@@ -264,11 +260,15 @@ module.exports = {
      "as": "ভাৰত চৰকাৰ আইন ১৯৩৫"
     },
     {
+     "en": "Cabinet Mission Plan, 1946",
+     "as": "কেবিনেট মিছন পৰিকল্পনা, ১৯৪৬"
+    },
+    {
      "en": "Simon Commission",
      "as": "চাইমন আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Constituent Assembly was constituted under the Cabinet Mission Plan, 1946.",
     "as": "গণপৰিষদ কেবিনেট মিছন পৰিকল্পনা, ১৯৪৬ অনুসৰি গঠিত হৈছিল।"
@@ -282,10 +282,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "About 299",
-     "as": "প্ৰায় ২৯৯"
-    },
-    {
      "en": "About 389",
      "as": "প্ৰায় ৩৮৯"
     },
@@ -296,9 +292,13 @@ module.exports = {
     {
      "en": "About 200",
      "as": "প্ৰায় ২০০"
+    },
+    {
+     "en": "About 299",
+     "as": "প্ৰায় ২৯৯"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "About 299 members were present when the Constitution was adopted.",
     "as": "সংবিধান গ্ৰহণৰ সময়ত প্ৰায় ২৯৯ জন সদস্য উপস্থিত আছিল।"
@@ -312,10 +312,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jawaharlal Nehru",
-     "as": "জৱাহৰলাল নেহৰু"
-    },
-    {
      "en": "B. R. Ambedkar",
      "as": "বি আৰ আম্বেদকাৰ"
     },
@@ -326,9 +322,13 @@ module.exports = {
     {
      "en": "Sardar Patel",
      "as": "সৰ্দাৰ পেটেল"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Jawaharlal Nehru moved the Objectives Resolution in December 1946.",
     "as": "জৱাহৰলাল নেহৰুৱে ১৯৪৬ চনৰ ডিচেম্বৰত উদ্দেশ্য প্ৰস্তাৱ উত্থাপন কৰিছিল।"
@@ -342,10 +342,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sovereign Socialist Secular Democratic Republic",
-     "as": "সাৰ্বভৌম সমাজবাদী ধৰ্মনিপেক্ষ গণতান্ত্ৰিক গণৰাজ্য"
-    },
-    {
      "en": "Sovereign Democratic Republic",
      "as": "সাৰ্বভৌম গণতান্ত্ৰিক গণৰাজ্য"
     },
@@ -354,11 +350,15 @@ module.exports = {
      "as": "যুক্তৰাষ্ট্ৰীয় গণতান্ত্ৰিক গণৰাজ্য"
     },
     {
+     "en": "Sovereign Socialist Secular Democratic Republic",
+     "as": "সাৰ্বভৌম সমাজবাদী ধৰ্মনিপেক্ষ গণতান্ত্ৰিক গণৰাজ্য"
+    },
+    {
      "en": "Socialist Republic",
      "as": "সমাজবাদী গণৰাজ্য"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Preamble declares India a Sovereign Socialist Secular Democratic Republic.",
     "as": "প্ৰস্তাৱনাই ভাৰতক সাৰ্বভৌম সমাজবাদী ধৰ্মনিপেক্ষ গণতান্ত্ৰিক গণৰাজ্য বুলি ঘোষণা কৰে।"
@@ -372,10 +372,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Socialist, Secular and Integrity",
-     "as": "সমাজবাদী, ধৰ্মনিপেক্ষ আৰু অখণ্ডতা"
-    },
-    {
      "en": "Justice and Liberty",
      "as": "ন্যায় আৰু স্বাধীনতা"
     },
@@ -386,9 +382,13 @@ module.exports = {
     {
      "en": "Republic and Democratic",
      "as": "গণৰাজ্য আৰু গণতান্ত্ৰিক"
+    },
+    {
+     "en": "Socialist, Secular and Integrity",
+     "as": "সমাজবাদী, ধৰ্মনিপেক্ষ আৰু অখণ্ডতা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 42nd Amendment (1976) added Socialist, Secular and Integrity.",
     "as": "৪২ সংখ্যক সংশোধনীয়ে (১৯৭৬) সমাজবাদী, ধৰ্মনিপেক্ষ আৰু অখণ্ডতা যোগ কৰিছিল।"
@@ -402,10 +402,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1976",
-     "as": "১৯৭৬"
-    },
-    {
      "en": "1950",
      "as": "১৯৫০"
     },
@@ -416,9 +412,13 @@ module.exports = {
     {
      "en": "1980",
      "as": "১৯৮০"
+    },
+    {
+     "en": "1976",
+     "as": "১৯৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "They were added by the 42nd Amendment in 1976.",
     "as": "ইবোৰ ১৯৭৬ চনত ৪২ সংখ্যক সংশোধনীৰ দ্বাৰা যোগ কৰা হৈছিল।"
@@ -522,10 +522,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "political",
-     "as": "ৰাজনৈতিক"
-    },
-    {
      "en": "cultural",
      "as": "সাংস্কৃতিক"
     },
@@ -534,11 +530,15 @@ module.exports = {
      "as": "আইনী"
     },
     {
+     "en": "political",
+     "as": "ৰাজনৈতিক"
+    },
+    {
      "en": "religious",
      "as": "ধৰ্মীয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Justice is secured in three forms: social, economic and political.",
     "as": "ন্যায় তিনিটা ৰূপত দিয়া হয়: সামাজিক, অৰ্থনৈতিক আৰু ৰাজনৈতিক।"
@@ -582,10 +582,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the head of state is elected",
-     "as": "ৰাষ্ট্ৰৰ মুৰব্বী নিৰ্বাচিত হয়"
-    },
-    {
      "en": "there is no head of state",
      "as": "ৰাষ্ট্ৰৰ মুৰব্বী নাথাকে"
     },
@@ -594,11 +590,15 @@ module.exports = {
      "as": "ৰাষ্ট্ৰৰ মুৰব্বী বংশানুক্ৰমিক"
     },
     {
+     "en": "the head of state is elected",
+     "as": "ৰাষ্ট্ৰৰ মুৰব্বী নিৰ্বাচিত হয়"
+    },
+    {
      "en": "there is no parliament",
      "as": "সংসদ নাথাকে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A Republic means the head of state is elected, not hereditary.",
     "as": "গণৰাজ্যৰ অৰ্থ হৈছে ৰাষ্ট্ৰৰ মুৰব্বী নিৰ্বাচিত হয়, বংশানুক্ৰমিক নহয়।"
@@ -612,10 +612,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 14",
-     "as": "অনুচ্ছেদ ১৪"
-    },
-    {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
     },
@@ -626,9 +622,13 @@ module.exports = {
     {
      "en": "Article 32",
      "as": "অনুচ্ছেদ ৩২"
+    },
+    {
+     "en": "Article 14",
+     "as": "অনুচ্ছেদ ১৪"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 14 guarantees equality before the law.",
     "as": "অনুচ্ছেদ ১৪ আইনৰ আগত সমতা নিশ্চিত কৰে।"
@@ -642,12 +642,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 14",
-     "as": "অনুচ্ছেদ ১৪"
-    },
-    {
      "en": "Article 15",
      "as": "অনুচ্ছেদ ১৫"
+    },
+    {
+     "en": "Article 14",
+     "as": "অনুচ্ছেদ ১৪"
     },
     {
      "en": "Article 16",
@@ -658,7 +658,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৭"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 14 guarantees equality before the law.",
     "as": "অনুচ্ছেদ ১৪ আইনৰ আগত সমতা নিশ্চিত কৰে।"
@@ -762,10 +762,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 19",
-     "as": "অনুচ্ছেদ ১৯"
-    },
-    {
      "en": "Article 20",
      "as": "অনুচ্ছেদ ২০"
     },
@@ -776,9 +772,13 @@ module.exports = {
     {
      "en": "Article 22",
      "as": "অনুচ্ছেদ ২২"
+    },
+    {
+     "en": "Article 19",
+     "as": "অনুচ্ছেদ ১৯"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 19 guarantees six freedoms.",
     "as": "অনুচ্ছেদ ১৯ এ ছটা স্বাধীনতা নিশ্চিত কৰে।"
@@ -792,12 +792,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 21",
-     "as": "অনুচ্ছেদ ২১"
-    },
-    {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
+    },
+    {
+     "en": "Article 21",
+     "as": "অনুচ্ছেদ ২১"
     },
     {
      "en": "Article 20",
@@ -808,7 +808,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ২২"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 21 guarantees the right to life and personal liberty.",
     "as": "অনুচ্ছেদ ২১ জীৱন আৰু ব্যক্তিগত স্বাধীনতাৰ অধিকাৰ নিশ্চিত কৰে।"
@@ -822,10 +822,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "86th Amendment",
-     "as": "৮৬ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "42nd Amendment",
      "as": "৪২ সংখ্যক সংশোধনী"
     },
@@ -834,11 +830,15 @@ module.exports = {
      "as": "৪৪ সংখ্যক সংশোধনী"
     },
     {
+     "en": "86th Amendment",
+     "as": "৮৬ সংখ্যক সংশোধনী"
+    },
+    {
      "en": "73rd Amendment",
      "as": "৭৩ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 86th Amendment (2002) made education a Fundamental Right under Article 21A.",
     "as": "৮৬ সংখ্যক সংশোধনীয়ে (২০০২) অনুচ্ছেদ ২১A অধীনত শিক্ষাক মৌলিক অধিকাৰ কৰিছিল।"
@@ -852,10 +852,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Articles 23 and 24",
-     "as": "অনুচ্ছেদ ২৩ আৰু ২৪"
-    },
-    {
      "en": "Articles 19 and 20",
      "as": "অনুচ্ছেদ ১৯ আৰু ২০"
     },
@@ -864,11 +860,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ২৫ আৰু ২৬"
     },
     {
+     "en": "Articles 23 and 24",
+     "as": "অনুচ্ছেদ ২৩ আৰু ২৪"
+    },
+    {
      "en": "Articles 29 and 30",
      "as": "অনুচ্ছেদ ২৯ আৰু ৩০"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Articles 23 and 24 cover the Right against Exploitation.",
     "as": "অনুচ্ছেদ ২৩ আৰু ২৪ শোষণৰ বিৰুদ্ধে অধিকাৰ অন্তৰ্ভুক্ত কৰে।"
@@ -882,10 +882,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 23",
-     "as": "অনুচ্ছেদ ২৩"
-    },
-    {
      "en": "Article 24",
      "as": "অনুচ্ছেদ ২৪"
     },
@@ -896,9 +892,13 @@ module.exports = {
     {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
+    },
+    {
+     "en": "Article 23",
+     "as": "অনুচ্ছেদ ২৩"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 23 prohibits human trafficking and forced labour.",
     "as": "অনুচ্ছেদ ২৩ মানৱ সৰবৰাহ আৰু বাধ্যতামূলক শ্ৰম নিষিদ্ধ কৰে।"
@@ -912,10 +912,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 24",
-     "as": "অনুচ্ছেদ ২৪"
-    },
-    {
      "en": "Article 23",
      "as": "অনুচ্ছেদ ২৩"
     },
@@ -924,11 +920,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ২১A"
     },
     {
+     "en": "Article 24",
+     "as": "অনুচ্ছেদ ২৪"
+    },
+    {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 24 prohibits child labour in factories.",
     "as": "অনুচ্ছেদ ২৪ কাৰখানাত শিশু শ্ৰম নিষিদ্ধ কৰে।"
@@ -942,10 +942,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Articles 25 to 28",
-     "as": "অনুচ্ছেদ ২৫ ৰ পৰা ২৮"
-    },
-    {
      "en": "Articles 23 to 24",
      "as": "অনুচ্ছেদ ২৩ ৰ পৰা ২৪"
     },
@@ -956,9 +952,13 @@ module.exports = {
     {
      "en": "Articles 19 to 22",
      "as": "অনুচ্ছেদ ১৯ ৰ পৰা ২২"
+    },
+    {
+     "en": "Articles 25 to 28",
+     "as": "অনুচ্ছেদ ২৫ ৰ পৰা ২৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Articles 25 to 28 cover the Right to Freedom of Religion.",
     "as": "অনুচ্ছেদ ২৫ ৰ পৰা ২৮ ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ অন্তৰ্ভুক্ত কৰে।"
@@ -1032,12 +1032,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 32",
-     "as": "অনুচ্ছেদ ৩২"
-    },
-    {
      "en": "Article 21",
      "as": "অনুচ্ছেদ ২১"
+    },
+    {
+     "en": "Article 32",
+     "as": "অনুচ্ছেদ ৩২"
     },
     {
      "en": "Article 14",
@@ -1048,7 +1048,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৯"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 32 guarantees the Right to Constitutional Remedies.",
     "as": "অনুচ্ছেদ ৩২ সাংবিধানিক প্ৰতিকাৰৰ অধিকাৰ নিশ্চিত কৰে।"
@@ -1062,12 +1062,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 32",
-     "as": "অনুচ্ছেদ ৩২"
-    },
-    {
      "en": "Article 21",
      "as": "অনুচ্ছেদ ২১"
+    },
+    {
+     "en": "Article 32",
+     "as": "অনুচ্ছেদ ৩২"
     },
     {
      "en": "Article 14",
@@ -1078,7 +1078,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Dr. Ambedkar called Article 32 the heart and soul of the Constitution.",
     "as": "ড০ আম্বেদকাৰে অনুচ্ছেদ ৩২ ক সংবিধানৰ হৃদয় আৰু আত্মা বুলি কৈছিল।"
@@ -1092,10 +1092,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Habeas Corpus",
-     "as": "হেবিয়াছ কৰ্পাছ"
-    },
-    {
      "en": "Mandamus",
      "as": "মেণ্ডামাছ"
     },
@@ -1104,11 +1100,15 @@ module.exports = {
      "as": "ছাৰ্টিঅ'ৰাৰী"
     },
     {
+     "en": "Habeas Corpus",
+     "as": "হেবিয়াছ কৰ্পাছ"
+    },
+    {
      "en": "Quo Warranto",
      "as": "কুৱ' ৱাৰেণ্টো"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Habeas Corpus is issued to release a person from illegal detention.",
     "as": "অবৈধ আটকৰ পৰা এজনক মুকলি কৰিবলৈ হেবিয়াছ কৰ্পাছ জাৰি কৰা হয়।"
@@ -1122,12 +1122,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mandamus",
-     "as": "মেণ্ডামাছ"
-    },
-    {
      "en": "Habeas Corpus",
      "as": "হেবিয়াছ কৰ্পাছ"
+    },
+    {
+     "en": "Mandamus",
+     "as": "মেণ্ডামাছ"
     },
     {
      "en": "Certiorari",
@@ -1138,7 +1138,7 @@ module.exports = {
      "as": "প্ৰহিবিচন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Mandamus commands a public authority to perform its duty.",
     "as": "মেণ্ডামাছে এটা ৰাজহুৱা কৰ্তৃপক্ষক তাৰ কৰ্তব্য পালন কৰিবলৈ নিৰ্দেশ দিয়ে।"
@@ -1152,10 +1152,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Certiorari",
-     "as": "ছাৰ্টিঅ'ৰাৰী"
-    },
-    {
      "en": "Mandamus",
      "as": "মেণ্ডামাছ"
     },
@@ -1166,9 +1162,13 @@ module.exports = {
     {
      "en": "Quo Warranto",
      "as": "কুৱ' ৱাৰেণ্টো"
+    },
+    {
+     "en": "Certiorari",
+     "as": "ছাৰ্টিঅ'ৰাৰী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Certiorari is issued to quash an order of a lower court.",
     "as": "তলৰ আদালতৰ আদেশ বাতিল কৰিবলৈ ছাৰ্টিঅ'ৰাৰী জাৰি কৰা হয়।"
@@ -1182,12 +1182,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Quo Warranto",
-     "as": "কুৱ' ৱাৰেণ্টো"
-    },
-    {
      "en": "Mandamus",
      "as": "মেণ্ডামাছ"
+    },
+    {
+     "en": "Quo Warranto",
+     "as": "কুৱ' ৱাৰেণ্টো"
     },
     {
      "en": "Certiorari",
@@ -1198,7 +1198,7 @@ module.exports = {
      "as": "হেবিয়াছ কৰ্পাছ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Quo Warranto questions the authority to hold a public office.",
     "as": "কুৱ' ৱাৰেণ্টোৱে ৰাজহুৱা পদত থকাৰ অধিকাৰক প্ৰশ্ন কৰে।"
@@ -1212,10 +1212,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Prohibition",
-     "as": "প্ৰহিবিচন"
-    },
-    {
      "en": "Mandamus",
      "as": "মেণ্ডামাছ"
     },
@@ -1226,9 +1222,13 @@ module.exports = {
     {
      "en": "Quo Warranto",
      "as": "কুৱ' ৱাৰেণ্টো"
+    },
+    {
+     "en": "Prohibition",
+     "as": "প্ৰহিবিচন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Prohibition stops a lower court from exceeding its jurisdiction.",
     "as": "প্ৰহিবিচনে তলৰ আদালতক তাৰ অধিকাৰক্ষেত্ৰ অতিক্ৰম কৰাৰ পৰা বিৰত ৰাখে।"
@@ -1242,10 +1242,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Part III",
-     "as": "তৃতীয় অংশ"
-    },
-    {
      "en": "Part IV",
      "as": "চতুৰ্থ অংশ"
     },
@@ -1256,9 +1252,13 @@ module.exports = {
     {
      "en": "Part V",
      "as": "পঞ্চম অংশ"
+    },
+    {
+     "en": "Part III",
+     "as": "তৃতীয় অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Fundamental Rights are in Part III (Articles 12 to 35).",
     "as": "মৌলিক অধিকাৰ তৃতীয় অংশত (অনুচ্ছেদ ১২ ৰ পৰা ৩৫) আছে।"
@@ -1302,10 +1302,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "42nd Amendment",
-     "as": "৪২ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "44th Amendment",
      "as": "৪৪ সংখ্যক সংশোধনী"
     },
@@ -1316,9 +1312,13 @@ module.exports = {
     {
      "en": "73rd Amendment",
      "as": "৭৩ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "42nd Amendment",
+     "as": "৪২ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 42nd Amendment (1976) added Fundamental Duties.",
     "as": "৪২ সংখ্যক সংশোধনীয়ে (১৯৭৬) মৌলিক কৰ্তব্য যোগ কৰিছিল।"
@@ -1332,12 +1332,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Swaran Singh Committee",
-     "as": "স্বৰণ সিং সমিতি"
-    },
-    {
      "en": "Sarkaria Commission",
      "as": "সৰকাৰিয়া আয়োগ"
+    },
+    {
+     "en": "Swaran Singh Committee",
+     "as": "স্বৰণ সিং সমিতি"
     },
     {
      "en": "Ashok Mehta Committee",
@@ -1348,7 +1348,7 @@ module.exports = {
      "as": "বলৱন্ত ৰায় মেহতা সমিতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Swaran Singh Committee recommended Fundamental Duties.",
     "as": "স্বৰণ সিং সমিতিয়ে মৌলিক কৰ্তব্যৰ পৰামৰ্শ দিছিল।"
@@ -1362,12 +1362,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "11",
-     "as": "১১"
-    },
-    {
      "en": "10",
      "as": "১০"
+    },
+    {
+     "en": "11",
+     "as": "১১"
     },
     {
      "en": "12",
@@ -1378,7 +1378,7 @@ module.exports = {
      "as": "৯"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "There are 11 Fundamental Duties at present.",
     "as": "বৰ্তমান ১১ টা মৌলিক কৰ্তব্য আছে।"
@@ -1422,12 +1422,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "86th Amendment",
-     "as": "৮৬ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "42nd Amendment",
      "as": "৪২ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "86th Amendment",
+     "as": "৮৬ সংখ্যক সংশোধনী"
     },
     {
      "en": "44th Amendment",
@@ -1438,7 +1438,7 @@ module.exports = {
      "as": "৫২ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 86th Amendment (2002) added the 11th Fundamental Duty on education.",
     "as": "৮৬ সংখ্যক সংশোধনীয়ে (২০০২) শিক্ষা সম্পৰ্কীয় একাদশ মৌলিক কৰ্তব্য যোগ কৰিছিল।"
@@ -1452,10 +1452,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "To abide by the Constitution and respect its ideals",
-     "as": "সংবিধান মানি চলা আৰু ইয়াৰ আদৰ্শক সন্মান কৰা"
-    },
-    {
      "en": "To pay taxes",
      "as": "কৰ দিয়া"
     },
@@ -1464,11 +1460,15 @@ module.exports = {
      "as": "ভোট দিয়া"
     },
     {
+     "en": "To abide by the Constitution and respect its ideals",
+     "as": "সংবিধান মানি চলা আৰু ইয়াৰ আদৰ্শক সন্মান কৰা"
+    },
+    {
      "en": "To join the army",
      "as": "সেনাবাহিনীত যোগ দিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The first Fundamental Duty is to abide by the Constitution and respect its ideals.",
     "as": "প্ৰথম মৌলিক কৰ্তব্য হৈছে সংবিধান মানি চলা আৰু ইয়াৰ আদৰ্শক সন্মান কৰা।"
@@ -1482,10 +1482,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the natural environment",
-     "as": "প্ৰাকৃতিক পৰিৱেশ"
-    },
-    {
      "en": "the stock market",
      "as": "শ্বেয়াৰ বজাৰ"
     },
@@ -1494,11 +1490,15 @@ module.exports = {
      "as": "ব্যক্তিগত সম্পত্তি"
     },
     {
+     "en": "the natural environment",
+     "as": "প্ৰাকৃতিক পৰিৱেশ"
+    },
+    {
      "en": "political parties",
      "as": "ৰাজনৈতিক দল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 51A asks citizens to protect the natural environment.",
     "as": "অনুচ্ছেদ 51A এ নাগৰিকক প্ৰাকৃতিক পৰিৱেশ সুৰক্ষা কৰিবলৈ কয়।"
@@ -1512,10 +1512,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 19",
-     "as": "অনুচ্ছেদ ১৯"
-    },
-    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
     },
@@ -1526,9 +1522,13 @@ module.exports = {
     {
      "en": "Article 25",
      "as": "অনুচ্ছেদ ২৫"
+    },
+    {
+     "en": "Article 19",
+     "as": "অনুচ্ছেদ ১৯"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 19 freedoms are available only to citizens.",
     "as": "অনুচ্ছেদ ১৯ ৰ স্বাধীনতাবোৰ কেৱল নাগৰিকৰ বাবে উপলব্ধ।"
@@ -1542,10 +1542,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 13",
-     "as": "অনুচ্ছেদ ১৩"
-    },
-    {
      "en": "Article 32",
      "as": "অনুচ্ছেদ ৩২"
     },
@@ -1554,11 +1550,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৪"
     },
     {
+     "en": "Article 13",
+     "as": "অনুচ্ছেদ ১৩"
+    },
+    {
      "en": "Article 21",
      "as": "অনুচ্ছেদ ২১"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 13 makes laws inconsistent with Fundamental Rights void.",
     "as": "অনুচ্ছেদ ১৩ মৌলিক অধিকাৰৰ সৈতে অসঙ্গত আইন বাতিল কৰে।"
@@ -1572,10 +1572,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "44th Amendment",
-     "as": "৪৪ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "42nd Amendment",
      "as": "৪২ সংখ্যক সংশোধনী"
     },
@@ -1584,11 +1580,15 @@ module.exports = {
      "as": "১ম সংশোধনী"
     },
     {
+     "en": "44th Amendment",
+     "as": "৪৪ সংখ্যক সংশোধনী"
+    },
+    {
      "en": "86th Amendment",
      "as": "৮৬ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 44th Amendment (1978) removed the Right to Property from Fundamental Rights.",
     "as": "৪৪ সংখ্যক সংশোধনীয়ে (১৯৭৮) সম্পত্তিৰ অধিকাৰ মৌলিক অধিকাৰৰ পৰা আঁতৰাইছিল।"
@@ -1602,10 +1602,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "legal right under Article 300A",
-     "as": "অনুচ্ছেদ 300A অধীনত আইনী অধিকাৰ"
-    },
-    {
      "en": "fundamental right",
      "as": "মৌলিক অধিকাৰ"
     },
@@ -1614,11 +1610,15 @@ module.exports = {
      "as": "প্ৰাকৃতিক অধিকাৰ"
     },
     {
+     "en": "legal right under Article 300A",
+     "as": "অনুচ্ছেদ 300A অধীনত আইনী অধিকাৰ"
+    },
+    {
      "en": "duty",
      "as": "কৰ্তব্য"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It became a legal right under Article 300A.",
     "as": "ই অনুচ্ছেদ 300A অধীনত আইনী অধিকাৰ হৈ পৰিছিল।"
@@ -1632,12 +1632,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kesavananda Bharati case",
-     "as": "কেশৱানন্দ ভাৰতী গোচৰ"
-    },
-    {
      "en": "Golaknath case",
      "as": "গোলকনাথ গোচৰ"
+    },
+    {
+     "en": "Kesavananda Bharati case",
+     "as": "কেশৱানন্দ ভাৰতী গোচৰ"
     },
     {
      "en": "Shankari Prasad case",
@@ -1648,7 +1648,7 @@ module.exports = {
      "as": "মিনাৰ্ভা মিলছ গোচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Kesavananda Bharati case (1973) established the basic structure doctrine.",
     "as": "কেশৱানন্দ ভাৰতী গোচৰে (১৯৭৩) মূল কাঠামো মতবাদ প্ৰতিষ্ঠা কৰিছিল।"
@@ -1662,10 +1662,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "legal right",
-     "as": "আইনী অধিকাৰ"
-    },
-    {
      "en": "fundamental right",
      "as": "মৌলিক অধিকাৰ"
     },
@@ -1674,11 +1670,15 @@ module.exports = {
      "as": "সাংবিধানিক অধিকাৰ"
     },
     {
+     "en": "legal right",
+     "as": "আইনী অধিকাৰ"
+    },
+    {
      "en": "natural right",
      "as": "প্ৰাকৃতিক অধিকাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Right to Information is a legal right, not a Fundamental Right.",
     "as": "তথ্যৰ অধিকাৰ এটা আইনী অধিকাৰ, মৌলিক অধিকাৰ নহয়।"
@@ -1722,10 +1722,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kesavananda Bharati case",
-     "as": "কেশৱানন্দ ভাৰতী গোচৰ"
-    },
-    {
      "en": "Berubari case",
      "as": "বেৰুবাৰী গোচৰ"
     },
@@ -1736,9 +1732,13 @@ module.exports = {
     {
      "en": "Minerva Mills case",
      "as": "মিনাৰ্ভা মিলছ গোচৰ"
+    },
+    {
+     "en": "Kesavananda Bharati case",
+     "as": "কেশৱানন্দ ভাৰতী গোচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Kesavananda Bharati case held that the Preamble is a part of the Constitution.",
     "as": "কেশৱানন্দ ভাৰতী গোচৰে কৈছিল যে প্ৰস্তাৱনা সংবিধানৰ এটা অংশ।"
@@ -1752,10 +1752,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "N. A. Palkhivala",
-     "as": "এন এ পালখীৱালা"
-    },
-    {
      "en": "B. R. Ambedkar",
      "as": "বি আৰ আম্বেদকাৰ"
     },
@@ -1764,11 +1760,15 @@ module.exports = {
      "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
     },
     {
+     "en": "N. A. Palkhivala",
+     "as": "এন এ পালখীৱালা"
+    },
+    {
      "en": "Nehru",
      "as": "নেহৰু"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "N. A. Palkhivala called the Preamble the identity card of the Constitution.",
     "as": "এন এ পালখীৱালাই প্ৰস্তাৱনাক সংবিধানৰ পৰিচয়পত্ৰ বুলি কৈছিল।"
@@ -1812,12 +1812,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "395",
-     "as": "৩৯৫"
-    },
-    {
      "en": "448",
      "as": "৪৪৮"
+    },
+    {
+     "en": "395",
+     "as": "৩৯৫"
     },
     {
      "en": "400",
@@ -1828,7 +1828,7 @@ module.exports = {
      "as": "৩৫০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Originally there were 395 Articles.",
     "as": "মূলতঃ ৩৯৫ টা অনুচ্ছেদ আছিল।"
@@ -1842,10 +1842,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "8",
-     "as": "৮"
-    },
-    {
      "en": "12",
      "as": "১২"
     },
@@ -1856,9 +1852,13 @@ module.exports = {
     {
      "en": "6",
      "as": "৬"
+    },
+    {
+     "en": "8",
+     "as": "৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Originally there were 8 Schedules; now there are 12.",
     "as": "মূলতঃ ৮ টা অনুসূচী আছিল; এতিয়া ১২ টা আছে।"
@@ -1902,10 +1902,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the USA",
-     "as": "আমেৰিকা"
-    },
-    {
      "en": "Britain",
      "as": "ব্ৰিটেইন"
     },
@@ -1914,11 +1910,15 @@ module.exports = {
      "as": "আয়াৰলেণ্ড"
     },
     {
+     "en": "the USA",
+     "as": "আমেৰিকা"
+    },
+    {
      "en": "Japan",
      "as": "জাপান"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Fundamental Rights were borrowed from the USA.",
     "as": "মৌলিক অধিকাৰ আমেৰিকাৰ পৰা ধাৰ কৰা হৈছিল।"
@@ -1932,10 +1932,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ireland",
-     "as": "আয়াৰলেণ্ড"
-    },
-    {
      "en": "the USA",
      "as": "আমেৰিকা"
     },
@@ -1946,9 +1942,13 @@ module.exports = {
     {
      "en": "Canada",
      "as": "কানাডা"
+    },
+    {
+     "en": "Ireland",
+     "as": "আয়াৰলেণ্ড"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "DPSP was borrowed from Ireland.",
     "as": "DPSP আয়াৰলেণ্ডৰ পৰা ধাৰ কৰা হৈছিল।"
@@ -1992,10 +1992,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Australia",
-     "as": "অষ্ট্ৰেলিয়া"
-    },
-    {
      "en": "the USA",
      "as": "আমেৰিকা"
     },
@@ -2006,9 +2002,13 @@ module.exports = {
     {
      "en": "Ireland",
      "as": "আয়াৰলেণ্ড"
+    },
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Concurrent List was borrowed from Australia.",
     "as": "যুগ্ম তালিকা অষ্ট্ৰেলিয়াৰ পৰা ধাৰ কৰা হৈছিল।"
@@ -2052,10 +2052,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Eighth Schedule",
-     "as": "অষ্টম অনুসূচী"
-    },
-    {
      "en": "Seventh Schedule",
      "as": "সপ্তম অনুসূচী"
     },
@@ -2066,9 +2062,13 @@ module.exports = {
     {
      "en": "Sixth Schedule",
      "as": "ষষ্ঠ অনুসূচী"
+    },
+    {
+     "en": "Eighth Schedule",
+     "as": "অষ্টম অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Eighth Schedule lists the recognised languages.",
     "as": "অষ্টম অনুসূচীত স্বীকৃত ভাষাবোৰৰ তালিকা আছে।"
@@ -2082,10 +2082,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Eighth Schedule",
-     "as": "অষ্টম অনুসূচী"
-    },
-    {
      "en": "Sixth Schedule",
      "as": "ষষ্ঠ অনুসূচী"
     },
@@ -2096,9 +2092,13 @@ module.exports = {
     {
      "en": "Ninth Schedule",
      "as": "নৱম অনুসূচী"
+    },
+    {
+     "en": "Eighth Schedule",
+     "as": "অষ্টম অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Assamese is in the Eighth Schedule.",
     "as": "অসমীয়া ভাষা অষ্টম অনুসূচীত আছে।"
@@ -2112,12 +2112,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "administration of tribal areas",
-     "as": "জনজাতীয় অঞ্চলৰ প্ৰশাসন"
-    },
-    {
      "en": "union and state lists",
      "as": "সংঘ আৰু ৰাজ্য তালিকা"
+    },
+    {
+     "en": "administration of tribal areas",
+     "as": "জনজাতীয় অঞ্চলৰ প্ৰশাসন"
     },
     {
      "en": "languages",
@@ -2128,7 +2128,7 @@ module.exports = {
      "as": "জৰুৰীকালীন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Sixth Schedule deals with the administration of tribal areas, including in Assam.",
     "as": "ষষ্ঠ অনুসূচীয়ে জনজাতীয় অঞ্চলৰ প্ৰশাসনৰ বিষয়ে কয়, অসমকে ধৰি।"
@@ -2172,10 +2172,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 16",
-     "as": "অনুচ্ছেদ ১৬"
-    },
-    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
     },
@@ -2186,9 +2182,13 @@ module.exports = {
     {
      "en": "Article 17",
      "as": "অনুচ্ছেদ ১৭"
+    },
+    {
+     "en": "Article 16",
+     "as": "অনুচ্ছেদ ১৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 16 provides equality of opportunity in public employment.",
     "as": "অনুচ্ছেদ ১৬ ৰাজহুৱা নিয়োগত সুযোগৰ সমতা প্ৰদান কৰে।"
@@ -2202,12 +2202,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 15",
-     "as": "অনুচ্ছেদ ১৫"
-    },
-    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
+    },
+    {
+     "en": "Article 15",
+     "as": "অনুচ্ছেদ ১৫"
     },
     {
      "en": "Article 16",
@@ -2218,7 +2218,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৭"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 15 prohibits discrimination on these grounds.",
     "as": "অনুচ্ছেদ ১৫ এই ভিত্তিবোৰত ভেদাভেদ নিষিদ্ধ কৰে।"
@@ -2232,10 +2232,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 21",
-     "as": "অনুচ্ছেদ ২১"
-    },
-    {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
     },
@@ -2244,11 +2240,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৫"
     },
     {
+     "en": "Article 21",
+     "as": "অনুচ্ছেদ ২১"
+    },
+    {
      "en": "Article 16",
      "as": "অনুচ্ছেদ ১৬"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 21 is available to all persons, including foreigners.",
     "as": "অনুচ্ছেদ ২১ সকলো ব্যক্তিৰ বাবে, বিদেশীসহ, উপলব্ধ।"
@@ -2262,10 +2262,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 32",
-     "as": "অনুচ্ছেদ ৩২"
-    },
-    {
      "en": "Article 226",
      "as": "অনুচ্ছেদ ২২৬"
     },
@@ -2274,11 +2270,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ২১"
     },
     {
+     "en": "Article 32",
+     "as": "অনুচ্ছেদ ৩২"
+    },
+    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 32 gives the Supreme Court writ jurisdiction.",
     "as": "অনুচ্ছেদ ৩২ সৰ্বোচ্চ ন্যায়ালয়ক ৰিট অধিকাৰক্ষেত্ৰ দিয়ে।"
@@ -2352,12 +2352,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "42nd Amendment",
-     "as": "৪২ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "44th Amendment",
      "as": "৪৪ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "42nd Amendment",
+     "as": "৪২ সংখ্যক সংশোধনী"
     },
     {
      "en": "1st Amendment",
@@ -2368,7 +2368,7 @@ module.exports = {
      "as": "৮৬ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 42nd Amendment (1976) is called the Mini Constitution.",
     "as": "৪২ সংখ্যক সংশোধনীক (১৯৭৬) ক্ষুদ্ৰ সংবিধান বুলি কোৱা হয়।"
@@ -2382,12 +2382,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Indira Gandhi",
-     "as": "ইন্দিৰা গান্ধী"
-    },
-    {
      "en": "Jawaharlal Nehru",
      "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Indira Gandhi",
+     "as": "ইন্দিৰা গান্ধী"
     },
     {
      "en": "Rajiv Gandhi",
@@ -2398,7 +2398,7 @@ module.exports = {
      "as": "মোৰাৰজী দেশাই"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 42nd Amendment was passed in 1976 under Indira Gandhi.",
     "as": "৪২ সংখ্যক সংশোধনী ১৯৭৬ চনত ইন্দিৰা গান্ধীৰ অধীনত গৃহীত হৈছিল।"
@@ -2442,10 +2442,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 11",
-     "as": "অনুচ্ছেদ ১১"
-    },
-    {
      "en": "Article 5",
      "as": "অনুচ্ছেদ ৫"
     },
@@ -2454,11 +2450,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৯"
     },
     {
+     "en": "Article 11",
+     "as": "অনুচ্ছেদ ১১"
+    },
+    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 11 empowers Parliament to regulate citizenship by law.",
     "as": "অনুচ্ছেদ ১১ সংসদক আইনৰ দ্বাৰা নাগৰিকত্ব নিয়ন্ত্ৰণৰ ক্ষমতা দিয়ে।"
@@ -2502,12 +2502,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Union of States",
-     "as": "ৰাজ্যসমূহৰ সংঘ"
-    },
-    {
      "en": "Federation of States",
      "as": "ৰাজ্যসমূহৰ সংযুক্তি"
+    },
+    {
+     "en": "Union of States",
+     "as": "ৰাজ্যসমূহৰ সংঘ"
     },
     {
      "en": "Confederation",
@@ -2518,7 +2518,7 @@ module.exports = {
      "as": "গণৰাজ্য"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 1 declares India a Union of States.",
     "as": "অনুচ্ছেদ ১ ভাৰতক ৰাজ্যসমূহৰ সংঘ বুলি ঘোষণা কৰে।"
@@ -2532,10 +2532,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 2",
-     "as": "অনুচ্ছেদ ২"
-    },
-    {
      "en": "Article 1",
      "as": "অনুচ্ছেদ ১"
     },
@@ -2546,9 +2542,13 @@ module.exports = {
     {
      "en": "Article 4",
      "as": "অনুচ্ছেদ ৪"
+    },
+    {
+     "en": "Article 2",
+     "as": "অনুচ্ছেদ ২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 2 allows Parliament to admit new States.",
     "as": "অনুচ্ছেদ ২ সংসদক নতুন ৰাজ্য অন্তৰ্ভুক্ত কৰাৰ অনুমতি দিয়ে।"
@@ -2592,10 +2592,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Supreme Court",
-     "as": "সৰ্বোচ্চ ন্যায়ালয়"
-    },
-    {
      "en": "The Parliament",
      "as": "সংসদ"
     },
@@ -2604,11 +2600,15 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     },
     {
+     "en": "The Supreme Court",
+     "as": "সৰ্বোচ্চ ন্যায়ালয়"
+    },
+    {
      "en": "The Election Commission",
      "as": "নিৰ্বাচন আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Supreme Court is the guardian of Fundamental Rights.",
     "as": "সৰ্বোচ্চ ন্যায়ালয় মৌলিক অধিকাৰৰ সংৰক্ষক।"
@@ -2652,10 +2652,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 20",
-     "as": "অনুচ্ছেদ ২০"
-    },
-    {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
     },
@@ -2666,9 +2662,13 @@ module.exports = {
     {
      "en": "Article 22",
      "as": "অনুচ্ছেদ ২২"
+    },
+    {
+     "en": "Article 20",
+     "as": "অনুচ্ছেদ ২০"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 20 protects against ex-post-facto laws and double jeopardy.",
     "as": "অনুচ্ছেদ ২০ পূৰ্বৱৰ্তী আইন আৰু দ্বিগুণ দণ্ডৰ পৰা সুৰক্ষা দিয়ে।"
@@ -2682,10 +2682,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 22",
-     "as": "অনুচ্ছেদ ২২"
-    },
-    {
      "en": "Article 21",
      "as": "অনুচ্ছেদ ২১"
     },
@@ -2696,9 +2692,13 @@ module.exports = {
     {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
+    },
+    {
+     "en": "Article 22",
+     "as": "অনুচ্ছেদ ২২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 22 provides protection against arrest and detention.",
     "as": "অনুচ্ছেদ ২২ গ্ৰেপ্তাৰ আৰু আটকৰ পৰা সুৰক্ষা প্ৰদান কৰে।"
@@ -2712,12 +2712,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 32",
-     "as": "অনুচ্ছেদ ৩২"
-    },
-    {
      "en": "Article 226",
      "as": "অনুচ্ছেদ ২২৬"
+    },
+    {
+     "en": "Article 32",
+     "as": "অনুচ্ছেদ ৩২"
     },
     {
      "en": "Article 21",
@@ -2728,7 +2728,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 32 gives the right to move the Supreme Court.",
     "as": "অনুচ্ছেদ ৩২ সৰ্বোচ্চ ন্যায়ালয়ত যোৱাৰ অধিকাৰ দিয়ে।"
@@ -2742,10 +2742,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 13",
-     "as": "অনুচ্ছেদ ১৩"
-    },
-    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
     },
@@ -2756,9 +2752,13 @@ module.exports = {
     {
      "en": "Article 21",
      "as": "অনুচ্ছেদ ২১"
+    },
+    {
+     "en": "Article 13",
+     "as": "অনুচ্ছেদ ১৩"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 13 makes such laws void.",
     "as": "অনুচ্ছেদ ১৩ এনে আইন বাতিল কৰে।"
@@ -2772,10 +2772,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 12",
-     "as": "অনুচ্ছেদ ১২"
-    },
-    {
      "en": "Article 13",
      "as": "অনুচ্ছেদ ১৩"
     },
@@ -2784,11 +2780,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৪"
     },
     {
+     "en": "Article 12",
+     "as": "অনুচ্ছেদ ১২"
+    },
+    {
      "en": "Article 32",
      "as": "অনুচ্ছেদ ৩২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 12 defines the term State.",
     "as": "অনুচ্ছেদ ১২ ৰাজ্য শব্দটো সংজ্ঞায়িত কৰে।"
@@ -2802,12 +2802,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Prem Behari Narain Raizada",
-     "as": "প্ৰেম বেহাৰী নাৰায়ণ ৰায়জাদা"
-    },
-    {
      "en": "B. R. Ambedkar",
      "as": "বি আৰ আম্বেদকাৰ"
+    },
+    {
+     "en": "Prem Behari Narain Raizada",
+     "as": "প্ৰেম বেহাৰী নাৰায়ণ ৰায়জাদা"
     },
     {
      "en": "Nandalal Bose",
@@ -2818,7 +2818,7 @@ module.exports = {
      "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Prem Behari Narain Raizada calligraphed the original Constitution.",
     "as": "প্ৰেম বেহাৰী নাৰায়ণ ৰায়জাদাই মূল সংবিধান হাতেৰে লিখিছিল।"
@@ -2832,12 +2832,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nandalal Bose",
-     "as": "নন্দলাল বসু"
-    },
-    {
      "en": "Prem Behari Narain Raizada",
      "as": "প্ৰেম বেহাৰী নাৰায়ণ ৰায়জাদা"
+    },
+    {
+     "en": "Nandalal Bose",
+     "as": "নন্দলাল বসু"
     },
     {
      "en": "Ambedkar",
@@ -2848,7 +2848,7 @@ module.exports = {
      "as": "নেহৰু"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Nandalal Bose and his team decorated the original Constitution.",
     "as": "নন্দলাল বসু আৰু তেওঁৰ দলে মূল সংবিধান অলংকৃত কৰিছিল।"
@@ -2862,10 +2862,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "9 December 1946",
-     "as": "৯ ডিচেম্বৰ ১৯৪৬"
-    },
-    {
      "en": "26 November 1949",
      "as": "২৬ নৱেম্বৰ ১৯৪৯"
     },
@@ -2876,9 +2872,13 @@ module.exports = {
     {
      "en": "26 January 1950",
      "as": "২৬ জানুৱাৰী ১৯৫০"
+    },
+    {
+     "en": "9 December 1946",
+     "as": "৯ ডিচেম্বৰ ১৯৪৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Constituent Assembly first met on 9 December 1946.",
     "as": "গণপৰিষদে ৯ ডিচেম্বৰ ১৯৪৬ চনত প্ৰথমে বৈঠক কৰিছিল।"
@@ -2892,10 +2892,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "15",
-     "as": "১৫"
-    },
-    {
      "en": "10",
      "as": "১০"
     },
@@ -2904,11 +2900,15 @@ module.exports = {
      "as": "২০"
     },
     {
+     "en": "15",
+     "as": "১৫"
+    },
+    {
      "en": "5",
      "as": "৫"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Fifteen women were members of the Constituent Assembly.",
     "as": "পোন্ধৰগৰাকী মহিলা গণপৰিষদৰ সদস্য আছিল।"
@@ -2952,12 +2952,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "26 November",
-     "as": "২৬ নৱেম্বৰ"
-    },
-    {
      "en": "26 January",
      "as": "২৬ জানুৱাৰী"
+    },
+    {
+     "en": "26 November",
+     "as": "২৬ নৱেম্বৰ"
     },
     {
      "en": "15 August",
@@ -2968,7 +2968,7 @@ module.exports = {
      "as": "২ অক্টোবৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "26 November is celebrated as Constitution Day.",
     "as": "২৬ নৱেম্বৰ সংবিধান দিৱস হিচাপে পালন কৰা হয়।"
@@ -2982,10 +2982,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "26 January",
-     "as": "২৬ জানুৱাৰী"
-    },
-    {
      "en": "26 November",
      "as": "২৬ নৱেম্বৰ"
     },
@@ -2996,9 +2992,13 @@ module.exports = {
     {
      "en": "1 May",
      "as": "১ মে'"
+    },
+    {
+     "en": "26 January",
+     "as": "২৬ জানুৱাৰী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "26 January is celebrated as Republic Day.",
     "as": "২৬ জানুৱাৰী গণৰাজ্য দিৱস হিচাপে পালন কৰা হয়।"
@@ -3072,12 +3072,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Part IV",
-     "as": "চতুৰ্থ অংশ"
-    },
-    {
      "en": "Part III",
      "as": "তৃতীয় অংশ"
+    },
+    {
+     "en": "Part IV",
+     "as": "চতুৰ্থ অংশ"
     },
     {
      "en": "Part II",
@@ -3088,7 +3088,7 @@ module.exports = {
      "as": "পঞ্চম অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "DPSP is in Part IV (Articles 36 to 51).",
     "as": "DPSP চতুৰ্থ অংশত (অনুচ্ছেদ ৩৬ ৰ পৰা ৫১) আছে।"
@@ -3102,12 +3102,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "non-justiciable",
-     "as": "বিচাৰযোগ্য নহয়"
-    },
-    {
      "en": "justiciable",
      "as": "বিচাৰযোগ্য"
+    },
+    {
+     "en": "non-justiciable",
+     "as": "বিচাৰযোগ্য নহয়"
     },
     {
      "en": "enforceable by courts",
@@ -3118,7 +3118,7 @@ module.exports = {
      "as": "মৌলিক অধিকাৰৰ অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "DPSP are non-justiciable.",
     "as": "DPSP বিচাৰযোগ্য নহয়।"
@@ -3162,10 +3162,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 40",
-     "as": "অনুচ্ছেদ ৪০"
-    },
-    {
      "en": "Article 45",
      "as": "অনুচ্ছেদ ৪৫"
     },
@@ -3174,11 +3170,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৪"
     },
     {
+     "en": "Article 40",
+     "as": "অনুচ্ছেদ ৪০"
+    },
+    {
      "en": "Article 48",
      "as": "অনুচ্ছেদ ৪৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 40 directs the State to organise village panchayats.",
     "as": "অনুচ্ছেদ ৪০ ৰাজ্যক গাঁও পঞ্চায়ত সংগঠিত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -3192,10 +3192,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 44",
-     "as": "অনুচ্ছেদ ৪৪"
-    },
-    {
      "en": "Article 40",
      "as": "অনুচ্ছেদ ৪০"
     },
@@ -3204,11 +3200,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৫"
     },
     {
+     "en": "Article 44",
+     "as": "অনুচ্ছেদ ৪৪"
+    },
+    {
      "en": "Article 48",
      "as": "অনুচ্ছেদ ৪৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 44 directs the State to secure a uniform civil code.",
     "as": "অনুচ্ছেদ ৪৪ ৰাজ্যক এক সমান নাগৰিক সংহিতা সুৰক্ষিত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -3222,10 +3222,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "it was the date of the Lahore Session's Purna Swaraj declaration",
-     "as": "সেয়া লাহোৰ অধিৱেশনৰ পূৰ্ণ স্বৰাজ ঘোষণাৰ তাৰিখ আছিল"
-    },
-    {
      "en": "it was the date of Independence",
      "as": "সেয়া স্বাধীনতাৰ তাৰিখ আছিল"
     },
@@ -3234,11 +3230,15 @@ module.exports = {
      "as": "সেয়া ভাৰত এৰা আন্দোলনৰ তাৰিখ আছিল"
     },
     {
+     "en": "it was the date of the Lahore Session's Purna Swaraj declaration",
+     "as": "সেয়া লাহোৰ অধিৱেশনৰ পূৰ্ণ স্বৰাজ ঘোষণাৰ তাৰিখ আছিল"
+    },
+    {
      "en": "it was the date of the Cabinet Mission",
      "as": "সেয়া কেবিনেট মিছনৰ তাৰিখ আছিল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "26 January 1930 was the Purna Swaraj day; hence 26 January 1950 was chosen.",
     "as": "২৬ জানুৱাৰী ১৯৩০ পূৰ্ণ স্বৰাজ দিৱস আছিল; সেইবাবে ২৬ জানুৱাৰী ১৯৫০ বাছনি কৰা হৈছিল।"
@@ -3252,10 +3252,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the first general election in 1952",
-     "as": "১৯৫২ চনৰ প্ৰথম সাধাৰণ নিৰ্বাচনলৈকে"
-    },
-    {
      "en": "1950",
      "as": "১৯৫০"
     },
@@ -3266,9 +3262,13 @@ module.exports = {
     {
      "en": "1947",
      "as": "১৯৪৭"
+    },
+    {
+     "en": "the first general election in 1952",
+     "as": "১৯৫২ চনৰ প্ৰথম সাধাৰণ নিৰ্বাচনলৈকে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It acted as Parliament until the first general election in 1952.",
     "as": "ই ১৯৫২ চনৰ প্ৰথম সাধাৰণ নিৰ্বাচনলৈকে সংসদ হিচাপে কাম কৰিছিল।"
@@ -3282,10 +3282,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sachchidananda Sinha",
-     "as": "সচ্চিদানন্দ সিনহা"
-    },
-    {
      "en": "Rajendra Prasad",
      "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
     },
@@ -3294,11 +3290,15 @@ module.exports = {
      "as": "বি আৰ আম্বেদকাৰ"
     },
     {
+     "en": "Sachchidananda Sinha",
+     "as": "সচ্চিদানন্দ সিনহা"
+    },
+    {
      "en": "Nehru",
      "as": "নেহৰু"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Sachchidananda Sinha was the first (temporary) President.",
     "as": "সচ্চিদানন্দ সিনহা প্ৰথম (অস্থায়ী) সভাপতি আছিল।"
@@ -3312,10 +3312,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "rigidity and flexibility",
-     "as": "কঠোৰতা আৰু নমনীয়তা"
-    },
-    {
      "en": "only rigidity",
      "as": "কেৱল কঠোৰতা"
     },
@@ -3324,11 +3320,15 @@ module.exports = {
      "as": "কেৱল নমনীয়তা"
     },
     {
+     "en": "rigidity and flexibility",
+     "as": "কঠোৰতা আৰু নমনীয়তা"
+    },
+    {
      "en": "neither",
      "as": "কোনোটো নহয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It is partly rigid and partly flexible.",
     "as": "ই আংশিক কঠোৰ আৰু আংশিক নমনীয়।"
@@ -3342,10 +3342,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 368",
-     "as": "অনুচ্ছেদ ৩৬৮"
-    },
-    {
      "en": "Article 356",
      "as": "অনুচ্ছেদ ৩৫৬"
     },
@@ -3354,11 +3350,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৩৭০"
     },
     {
+     "en": "Article 368",
+     "as": "অনুচ্ছেদ ৩৬৮"
+    },
+    {
      "en": "Article 32",
      "as": "অনুচ্ছেদ ৩২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 368 deals with the amendment procedure.",
     "as": "অনুচ্ছেদ ৩৬৮ সংশোধন পদ্ধতিৰ বিষয়ে কয়।"
@@ -3372,10 +3372,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "all persons",
-     "as": "সকলো ব্যক্তি"
-    },
-    {
      "en": "citizens only",
      "as": "কেৱল নাগৰিক"
     },
@@ -3386,9 +3382,13 @@ module.exports = {
     {
      "en": "residents only",
      "as": "কেৱল বাসিন্দা"
+    },
+    {
+     "en": "all persons",
+     "as": "সকলো ব্যক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Articles 25 to 28 are available to all persons.",
     "as": "অনুচ্ছেদ ২৫ ৰ পৰা ২৮ সকলো ব্যক্তিৰ বাবে উপলব্ধ।"
@@ -3432,10 +3432,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 28",
-     "as": "অনুচ্ছেদ ২৮"
-    },
-    {
      "en": "Article 27",
      "as": "অনুচ্ছেদ ২৭"
     },
@@ -3446,9 +3442,13 @@ module.exports = {
     {
      "en": "Article 25",
      "as": "অনুচ্ছেদ ২৫"
+    },
+    {
+     "en": "Article 28",
+     "as": "অনুচ্ছেদ ২৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 28 prohibits religious instruction in State-funded institutions.",
     "as": "অনুচ্ছেদ ২৮ ৰাজ্যৰ ধনৰে চলা অনুষ্ঠানত ধৰ্মীয় শিক্ষা নিষিদ্ধ কৰে।"
@@ -3462,12 +3462,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "national unity and integrity",
-     "as": "ৰাষ্ট্ৰীয় ঐক্য আৰু অখণ্ডতা"
-    },
-    {
      "en": "religious freedom",
      "as": "ধৰ্মীয় স্বাধীনতা"
+    },
+    {
+     "en": "national unity and integrity",
+     "as": "ৰাষ্ট্ৰীয় ঐক্য আৰু অখণ্ডতা"
     },
     {
      "en": "economic growth",
@@ -3478,7 +3478,7 @@ module.exports = {
      "as": "সামাজিক ন্যায়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Integrity was added to promote national unity and integrity.",
     "as": "ৰাষ্ট্ৰীয় ঐক্য আৰু অখণ্ডতাৰ বাবে অখণ্ডতা যোগ কৰা হৈছিল।"
@@ -3492,10 +3492,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "22",
-     "as": "২২"
-    },
-    {
      "en": "25",
      "as": "২৫"
     },
@@ -3504,11 +3500,15 @@ module.exports = {
      "as": "১২"
     },
     {
+     "en": "22",
+     "as": "২২"
+    },
+    {
      "en": "18",
      "as": "১৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Originally there were 22 Parts; now there are 25.",
     "as": "মূলতঃ ২২ টা অংশ আছিল; এতিয়া ২৫ টা আছে।"
@@ -3522,10 +3522,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "12",
-     "as": "১২"
-    },
-    {
      "en": "8",
      "as": "৮"
     },
@@ -3534,11 +3530,15 @@ module.exports = {
      "as": "১০"
     },
     {
+     "en": "12",
+     "as": "১২"
+    },
+    {
      "en": "14",
      "as": "১৪"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "There are 12 Schedules at present.",
     "as": "বৰ্তমান ১২ টা অনুসূচী আছে।"
@@ -3552,12 +3552,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Third Schedule",
-     "as": "তৃতীয় অনুসূচী"
-    },
-    {
      "en": "Second Schedule",
      "as": "দ্বিতীয় অনুসূচী"
+    },
+    {
+     "en": "Third Schedule",
+     "as": "তৃতীয় অনুসূচী"
     },
     {
      "en": "Fourth Schedule",
@@ -3568,7 +3568,7 @@ module.exports = {
      "as": "পঞ্চম অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Third Schedule contains the forms of oath and affirmation.",
     "as": "তৃতীয় অনুসূচীত শপথ আৰু প্ৰতিশ্ৰুতিৰ ৰূপ আছে।"
@@ -3582,10 +3582,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Fourth Schedule",
-     "as": "চতুৰ্থ অনুসূচী"
-    },
-    {
      "en": "Third Schedule",
      "as": "তৃতীয় অনুসূচী"
     },
@@ -3596,9 +3592,13 @@ module.exports = {
     {
      "en": "Sixth Schedule",
      "as": "ষষ্ঠ অনুসূচী"
+    },
+    {
+     "en": "Fourth Schedule",
+     "as": "চতুৰ্থ অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Fourth Schedule allocates Rajya Sabha seats to States and UTs.",
     "as": "চতুৰ্থ অনুসূচীয়ে ৰাজ্য আৰু কেন্দ্ৰীয় শাসিত অঞ্চলক ৰাজ্যসভাৰ আসন বিতৰণ কৰে।"
@@ -3612,12 +3612,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Fifth Schedule",
-     "as": "পঞ্চম অনুসূচী"
-    },
-    {
      "en": "Sixth Schedule",
      "as": "ষষ্ঠ অনুসূচী"
+    },
+    {
+     "en": "Fifth Schedule",
+     "as": "পঞ্চম অনুসূচী"
     },
     {
      "en": "Fourth Schedule",
@@ -3628,7 +3628,7 @@ module.exports = {
      "as": "সপ্তম অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Fifth Schedule deals with Scheduled Areas and Scheduled Tribes.",
     "as": "পঞ্চম অনুসূচীয়ে অনুসূচিত অঞ্চল আৰু অনুসূচিত জনজাতিৰ বিষয়ে কয়।"
@@ -3672,12 +3672,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "State List",
-     "as": "ৰাজ্য তালিকা"
-    },
-    {
      "en": "Union List",
      "as": "সংঘ তালিকা"
+    },
+    {
+     "en": "State List",
+     "as": "ৰাজ্য তালিকা"
     },
     {
      "en": "Concurrent List",
@@ -3688,7 +3688,7 @@ module.exports = {
      "as": "অৱশিষ্ট"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Police is a State List subject.",
     "as": "আৰক্ষী ৰাজ্য তালিকাৰ এটা বিষয়।"
@@ -3702,10 +3702,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Union List",
-     "as": "সংঘ তালিকা"
-    },
-    {
      "en": "State List",
      "as": "ৰাজ্য তালিকা"
     },
@@ -3714,11 +3710,15 @@ module.exports = {
      "as": "যুগ্ম তালিকা"
     },
     {
+     "en": "Union List",
+     "as": "সংঘ তালিকা"
+    },
+    {
      "en": "Residuary",
      "as": "অৱশিষ্ট"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Defence is a Union List subject.",
     "as": "প্ৰতিৰক্ষা সংঘ তালিকাৰ এটা বিষয়।"
@@ -3732,10 +3732,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Concurrent List",
-     "as": "যুগ্ম তালিকা"
-    },
-    {
      "en": "Union List",
      "as": "সংঘ তালিকা"
     },
@@ -3744,11 +3740,15 @@ module.exports = {
      "as": "ৰাজ্য তালিকা"
     },
     {
+     "en": "Concurrent List",
+     "as": "যুগ্ম তালিকা"
+    },
+    {
      "en": "Residuary",
      "as": "অৱশিষ্ট"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Education is in the Concurrent List after the 42nd Amendment.",
     "as": "৪২ সংখ্যক সংশোধনীৰ পিছত শিক্ষা যুগ্ম তালিকাত আছে।"
@@ -3762,10 +3762,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the Parliament",
-     "as": "সংসদ"
-    },
-    {
      "en": "the State Legislature",
      "as": "ৰাজ্য বিধানসভা"
     },
@@ -3776,9 +3772,13 @@ module.exports = {
     {
      "en": "the President",
      "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
+     "en": "the Parliament",
+     "as": "সংসদ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Parliament can legislate on residuary subjects.",
     "as": "সংসদে অৱশিষ্ট বিষয়বোৰত আইন প্ৰণয়ন কৰিব পাৰে।"
@@ -3792,12 +3792,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the Union law",
-     "as": "সংঘ আইন"
-    },
-    {
      "en": "the State law",
      "as": "ৰাজ্য আইন"
+    },
+    {
+     "en": "the Union law",
+     "as": "সংঘ আইন"
     },
     {
      "en": "neither",
@@ -3808,7 +3808,7 @@ module.exports = {
      "as": "পুৰণি আইন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Union law prevails, unless the State law has Presidential assent.",
     "as": "সংঘ আইন প্ৰাধান্য পায়, ৰাজ্য আইনত ৰাষ্ট্ৰপতিৰ সম্মতি নাথাকিলে।"
@@ -3822,12 +3822,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "federal system with a strong Centre",
-     "as": "শক্তিশালী কেন্দ্ৰ থকা যুক্তৰাষ্ট্ৰীয় ব্যৱস্থা"
-    },
-    {
      "en": "pure confederation",
      "as": "পূৰ্ণ সংঘ"
+    },
+    {
+     "en": "federal system with a strong Centre",
+     "as": "শক্তিশালী কেন্দ্ৰ থকা যুক্তৰাষ্ট্ৰীয় ব্যৱস্থা"
     },
     {
      "en": "unitary system",
@@ -3838,7 +3838,7 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতিয়াল ব্যৱস্থা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "India has a federal system with a strong Centre.",
     "as": "ভাৰতত শক্তিশালী কেন্দ্ৰ থকা যুক্তৰাষ্ট্ৰীয় ব্যৱস্থা আছে।"
@@ -3852,10 +3852,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 1",
-     "as": "অনুচ্ছেদ ১"
-    },
-    {
      "en": "Article 2",
      "as": "অনুচ্ছেদ ২"
     },
@@ -3866,9 +3862,13 @@ module.exports = {
     {
      "en": "Article 4",
      "as": "অনুচ্ছেদ ৪"
+    },
+    {
+     "en": "Article 1",
+     "as": "অনুচ্ছেদ ১"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 1 declares India a Union of States.",
     "as": "অনুচ্ছেদ ১ ভাৰতক ৰাজ্যসমূহৰ সংঘ বুলি ঘোষণা কৰে।"
@@ -3882,12 +3882,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 3",
-     "as": "অনুচ্ছেদ ৩"
-    },
-    {
      "en": "Article 1",
      "as": "অনুচ্ছেদ ১"
+    },
+    {
+     "en": "Article 3",
+     "as": "অনুচ্ছেদ ৩"
     },
     {
      "en": "Article 2",
@@ -3898,7 +3898,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 3 allows Parliament to form new States and alter boundaries.",
     "as": "অনুচ্ছেদ ৩ সংসদক নতুন ৰাজ্য গঠন আৰু সীমা পৰিৱৰ্তনৰ অনুমতি দিয়ে।"
@@ -3972,10 +3972,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "52nd Amendment",
-     "as": "৫২ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "42nd Amendment",
      "as": "৪২ সংখ্যক সংশোধনী"
     },
@@ -3984,11 +3980,15 @@ module.exports = {
      "as": "৪৪ সংখ্যক সংশোধনী"
     },
     {
+     "en": "52nd Amendment",
+     "as": "৫২ সংখ্যক সংশোধনী"
+    },
+    {
      "en": "61st Amendment",
      "as": "৬১ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 52nd Amendment (1985) added the anti-defection law.",
     "as": "৫২ সংখ্যক সংশোধনীয়ে (১৯৮৫) দলত্যাগ বিৰোধী আইন যোগ কৰিছিল।"
@@ -4002,10 +4002,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "61st Amendment",
-     "as": "৬১ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "52nd Amendment",
      "as": "৫২ সংখ্যক সংশোধনী"
     },
@@ -4016,9 +4012,13 @@ module.exports = {
     {
      "en": "44th Amendment",
      "as": "৪৪ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "61st Amendment",
+     "as": "৬১ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 61st Amendment (1988) reduced the voting age to 18.",
     "as": "৬১ সংখ্যক সংশোধনীয়ে (১৯৮৮) ভোটদানৰ বয়স ১৮ লৈ হ্ৰাস কৰিছিল।"
@@ -4032,12 +4032,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "86th Amendment",
-     "as": "৮৬ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "42nd Amendment",
      "as": "৪২ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "86th Amendment",
+     "as": "৮৬ সংখ্যক সংশোধনী"
     },
     {
      "en": "44th Amendment",
@@ -4048,7 +4048,7 @@ module.exports = {
      "as": "৯৩ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 86th Amendment (2002) inserted Article 21A.",
     "as": "৮৬ সংখ্যক সংশোধনীয়ে (২০০২) অনুচ্ছেদ ২১A সন্নিৱিষ্ট কৰিছিল।"
@@ -4062,10 +4062,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "93rd Amendment",
-     "as": "৯৩ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "86th Amendment",
      "as": "৮৬ সংখ্যক সংশোধনী"
     },
@@ -4076,9 +4072,13 @@ module.exports = {
     {
      "en": "101st Amendment",
      "as": "১০১ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "93rd Amendment",
+     "as": "৯৩ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 93rd Amendment (2005) enabled reservation for OBCs in education.",
     "as": "৯৩ সংখ্যক সংশোধনীয়ে (২০০৫) শিক্ষাত OBC ৰ বাবে সংৰক্ষণ সক্ৰিয় কৰিছিল।"
@@ -4092,10 +4092,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "101st Amendment",
-     "as": "১০১ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "93rd Amendment",
      "as": "৯৩ সংখ্যক সংশোধনী"
     },
@@ -4104,11 +4100,15 @@ module.exports = {
      "as": "৮৬ সংখ্যক সংশোধনী"
     },
     {
+     "en": "101st Amendment",
+     "as": "১০১ সংখ্যক সংশোধনী"
+    },
+    {
      "en": "103rd Amendment",
      "as": "১০৩ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 101st Amendment (2016) introduced GST.",
     "as": "১০১ সংখ্যক সংশোধনীয়ে (২০১৬) GST প্ৰৱৰ্তন কৰিছিল।"
@@ -4122,10 +4122,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "103rd Amendment",
-     "as": "১০৩ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "101st Amendment",
      "as": "১০১ সংখ্যক সংশোধনী"
     },
@@ -4134,11 +4130,15 @@ module.exports = {
      "as": "৯৩ সংখ্যক সংশোধনী"
     },
     {
+     "en": "103rd Amendment",
+     "as": "১০৩ সংখ্যক সংশোধনী"
+    },
+    {
      "en": "102nd Amendment",
      "as": "১০২ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 103rd Amendment (2019) gave 10% reservation to EWS.",
     "as": "১০৩ সংখ্যক সংশোধনীয়ে (২০১৯) EWS ক ১০% সংৰক্ষণ দিছিল।"
@@ -4152,10 +4152,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "National Commission for Backward Classes",
-     "as": "ৰাষ্ট্ৰীয় পিছপৰা শ্ৰেণী আয়োগ"
-    },
-    {
      "en": "Election Commission",
      "as": "নিৰ্বাচন আয়োগ"
     },
@@ -4166,9 +4162,13 @@ module.exports = {
     {
      "en": "UPSC",
      "as": "UPSC"
+    },
+    {
+     "en": "National Commission for Backward Classes",
+     "as": "ৰাষ্ট্ৰীয় পিছপৰা শ্ৰেণী আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 102nd Amendment gave constitutional status to the NCBC.",
     "as": "১০২ সংখ্যক সংশোধনীয়ে NCBC ক সাংবিধানিক মৰ্যাদা দিছিল।"
@@ -4242,10 +4242,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1978",
-     "as": "১৯৭৮"
-    },
-    {
      "en": "1976",
      "as": "১৯৭৬"
     },
@@ -4254,11 +4250,15 @@ module.exports = {
      "as": "১৯৮০"
     },
     {
+     "en": "1978",
+     "as": "১৯৭৮"
+    },
+    {
      "en": "1971",
      "as": "১৯৭১"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 44th Amendment was passed in 1978.",
     "as": "৪৪ সংখ্যক সংশোধনী ১৯৭৮ চনত গৃহীত হৈছিল।"
@@ -4272,10 +4272,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 18",
-     "as": "অনুচ্ছেদ ১৮"
-    },
-    {
      "en": "Article 17",
      "as": "অনুচ্ছেদ ১৭"
     },
@@ -4286,9 +4282,13 @@ module.exports = {
     {
      "en": "Article 19",
      "as": "অনুচ্ছেদ ১৯"
+    },
+    {
+     "en": "Article 18",
+     "as": "অনুচ্ছেদ ১৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 18 abolishes titles.",
     "as": "অনুচ্ছেদ ১৮ উপাধি বিলোপ কৰে।"
@@ -4302,10 +4302,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "backward classes not adequately represented",
-     "as": "পৰ্যাপ্তভাৱে প্ৰতিনিধিত্ব নথকা পিছপৰা শ্ৰেণী"
-    },
-    {
      "en": "all citizens",
      "as": "সকলো নাগৰিক"
     },
@@ -4316,9 +4312,13 @@ module.exports = {
     {
      "en": "government employees only",
      "as": "কেৱল চৰকাৰী কৰ্মচাৰী"
+    },
+    {
+     "en": "backward classes not adequately represented",
+     "as": "পৰ্যাপ্তভাৱে প্ৰতিনিধিত্ব নথকা পিছপৰা শ্ৰেণী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 16(4) permits reservation for inadequately represented backward classes.",
     "as": "অনুচ্ছেদ 16(4) পৰ্যাপ্ত প্ৰতিনিধিত্ব নথকা পিছপৰা শ্ৰেণীৰ বাবে সংৰক্ষণৰ অনুমতি দিয়ে।"
@@ -4332,12 +4332,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "reservation for backward classes",
-     "as": "পিছপৰা শ্ৰেণীৰ বাবে সংৰক্ষণ"
-    },
-    {
      "en": "electoral reforms",
      "as": "নিৰ্বাচনী সংস্কাৰ"
+    },
+    {
+     "en": "reservation for backward classes",
+     "as": "পিছপৰা শ্ৰেণীৰ বাবে সংৰক্ষণ"
     },
     {
      "en": "tax reforms",
@@ -4348,7 +4348,7 @@ module.exports = {
      "as": "ন্যায়িক সংস্কাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Mandal Commission recommended reservation for backward classes.",
     "as": "মণ্ডল আয়োগে পিছপৰা শ্ৰেণীৰ বাবে সংৰক্ষণৰ পৰামৰ্শ দিছিল।"
@@ -4362,10 +4362,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President's rule in a State",
-     "as": "ৰাজ্যত ৰাষ্ট্ৰপতি শাসন"
-    },
-    {
      "en": "National Emergency",
      "as": "ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা"
     },
@@ -4376,9 +4372,13 @@ module.exports = {
     {
      "en": "amendment of the Constitution",
      "as": "সংবিধান সংশোধন"
+    },
+    {
+     "en": "President's rule in a State",
+     "as": "ৰাজ্যত ৰাষ্ট্ৰপতি শাসন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 356 provides for President's rule in a State.",
     "as": "অনুচ্ছেদ ৩৫৬ ৰাজ্যত ৰাষ্ট্ৰপতি শাসনৰ ব্যৱস্থা কৰে।"
@@ -4392,12 +4392,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "National Emergency",
-     "as": "ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা"
-    },
-    {
      "en": "President's rule",
      "as": "ৰাষ্ট্ৰপতি শাসন"
+    },
+    {
+     "en": "National Emergency",
+     "as": "ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা"
     },
     {
      "en": "Financial Emergency",
@@ -4408,7 +4408,7 @@ module.exports = {
      "as": "ধন বিধেয়ক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 352 provides for a National Emergency.",
     "as": "অনুচ্ছেদ ৩৫২ ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থাৰ ব্যৱস্থা কৰে।"
@@ -4422,12 +4422,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Financial Emergency",
-     "as": "বিত্তীয় জৰুৰীকালীন অৱস্থা"
-    },
-    {
      "en": "National Emergency",
      "as": "ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা"
+    },
+    {
+     "en": "Financial Emergency",
+     "as": "বিত্তীয় জৰুৰীকালীন অৱস্থা"
     },
     {
      "en": "President's rule",
@@ -4438,7 +4438,7 @@ module.exports = {
      "as": "সংঘ বাজেট"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 360 provides for a Financial Emergency.",
     "as": "অনুচ্ছেদ ৩৬০ বিত্তীয় জৰুৰীকালীন অৱস্থাৰ ব্যৱস্থা কৰে।"
@@ -4452,10 +4452,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Three times",
-     "as": "তিনিবাৰ"
-    },
-    {
      "en": "Twice",
      "as": "দুবাৰ"
     },
@@ -4466,9 +4462,13 @@ module.exports = {
     {
      "en": "Four times",
      "as": "চাৰিবাৰ"
+    },
+    {
+     "en": "Three times",
+     "as": "তিনিবাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It has been declared three times: 1962, 1971 and 1975.",
     "as": "ই তিনিবাৰ ঘোষণা কৰা হৈছে: ১৯৬২, ১৯৭১ আৰু ১৯৭৫।"
@@ -4512,10 +4512,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1951 in Punjab",
-     "as": "১৯৫১ চনত পঞ্জাৱত"
-    },
-    {
      "en": "1962 in Kerala",
      "as": "১৯৬২ চনত কেৰালাত"
     },
@@ -4524,11 +4520,15 @@ module.exports = {
      "as": "১৯৭৫ চনত বিহাৰত"
     },
     {
+     "en": "1951 in Punjab",
+     "as": "১৯৫১ চনত পঞ্জাৱত"
+    },
+    {
      "en": "1950 in Assam",
      "as": "১৯৫০ চনত অসমত"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "President's rule was first imposed in Punjab in 1951.",
     "as": "ৰাষ্ট্ৰপতি শাসন প্ৰথমে ১৯৫১ চনত পঞ্জাৱত জাপি দিয়া হৈছিল।"
@@ -4542,12 +4542,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the Lok Sabha",
-     "as": "লোকসভা"
-    },
-    {
      "en": "the Rajya Sabha",
      "as": "ৰাজ্যসভা"
+    },
+    {
+     "en": "the Lok Sabha",
+     "as": "লোকসভা"
     },
     {
      "en": "either House",
@@ -4558,7 +4558,7 @@ module.exports = {
      "as": "যুটীয়া বৈঠক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A Money Bill can be introduced only in the Lok Sabha.",
     "as": "ধন বিধেয়ক কেৱল লোকসভাত উত্থাপন কৰিব পাৰি।"
@@ -4572,10 +4572,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the Speaker of the Lok Sabha",
-     "as": "লোকসভাৰ অধ্যক্ষ"
-    },
-    {
      "en": "the President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -4584,11 +4580,15 @@ module.exports = {
      "as": "ৰাজ্যসভাৰ সভাপতি"
     },
     {
+     "en": "the Speaker of the Lok Sabha",
+     "as": "লোকসভাৰ অধ্যক্ষ"
+    },
+    {
      "en": "the Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Speaker of the Lok Sabha certifies a Money Bill.",
     "as": "লোকসভাৰ অধ্যক্ষে ধন বিধেয়কৰ প্ৰমাণপত্ৰ দিয়ে।"
@@ -4632,12 +4632,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "South Africa",
-     "as": "দক্ষিণ আফ্ৰিকা"
-    },
-    {
      "en": "the USA",
      "as": "আমেৰিকা"
+    },
+    {
+     "en": "South Africa",
+     "as": "দক্ষিণ আফ্ৰিকা"
     },
     {
      "en": "Ireland",
@@ -4648,7 +4648,7 @@ module.exports = {
      "as": "অষ্ট্ৰেলিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The amendment procedure was borrowed from South Africa.",
     "as": "সংশোধন পদ্ধতি দক্ষিণ আফ্ৰিকাৰ পৰা ধাৰ কৰা হৈছিল।"
@@ -4662,10 +4662,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Britain",
-     "as": "ব্ৰিটেইন"
-    },
-    {
      "en": "the USA",
      "as": "আমেৰিকা"
     },
@@ -4676,9 +4672,13 @@ module.exports = {
     {
      "en": "Ireland",
      "as": "আয়াৰলেণ্ড"
+    },
+    {
+     "en": "Britain",
+     "as": "ব্ৰিটেইন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Rule of Law was borrowed from Britain.",
     "as": "আইনৰ শাসন ব্ৰিটেইনৰ পৰা ধাৰ কৰা হৈছিল।"
@@ -4722,10 +4722,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dr. B. R. Ambedkar",
-     "as": "ড০ বি আৰ আম্বেদকাৰ"
-    },
-    {
      "en": "Nehru",
      "as": "নেহৰু"
     },
@@ -4734,11 +4730,15 @@ module.exports = {
      "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
     },
     {
+     "en": "Dr. B. R. Ambedkar",
+     "as": "ড০ বি আৰ আম্বেদকাৰ"
+    },
+    {
      "en": "K. M. Munshi",
      "as": "কে এম মুন্সী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Dr. Ambedkar said the Constitution was framed after borrowing from many sources.",
     "as": "ড০ আম্বেদকাৰে কৈছিল যে সংবিধান বহু উৎসৰ পৰা ধাৰ কৰি প্ৰণয়ন কৰা হৈছিল।"
@@ -4752,12 +4752,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 43",
-     "as": "অনুচ্ছেদ ৪৩"
-    },
-    {
      "en": "Article 39",
      "as": "অনুচ্ছেদ ৩৯"
+    },
+    {
+     "en": "Article 43",
+     "as": "অনুচ্ছেদ ৪৩"
     },
     {
      "en": "Article 41",
@@ -4768,7 +4768,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৭"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 43 directs the State to secure a living wage.",
     "as": "অনুচ্ছেদ ৪৩ ৰাজ্যক জীৱিকা-উপযুক্ত মজুৰি সুৰক্ষিত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -4782,12 +4782,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 39A",
-     "as": "অনুচ্ছেদ ৩৯A"
-    },
-    {
      "en": "Article 43",
      "as": "অনুচ্ছেদ ৪৩"
+    },
+    {
+     "en": "Article 39A",
+     "as": "অনুচ্ছেদ ৩৯A"
     },
     {
      "en": "Article 47",
@@ -4798,7 +4798,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৮A"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 39A directs the State to provide free legal aid.",
     "as": "অনুচ্ছেদ ৩৯A ৰাজ্যক বিনামূলীয়া আইনী সাহায্য প্ৰদানৰ নিৰ্দেশ দিয়ে।"
@@ -4812,10 +4812,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 48A",
-     "as": "অনুচ্ছেদ ৪৮A"
-    },
-    {
      "en": "Article 47",
      "as": "অনুচ্ছেদ ৪৭"
     },
@@ -4824,11 +4820,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৩"
     },
     {
+     "en": "Article 48A",
+     "as": "অনুচ্ছেদ ৪৮A"
+    },
+    {
      "en": "Article 45",
      "as": "অনুচ্ছেদ ৪৫"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 48A directs the State to protect the environment.",
     "as": "অনুচ্ছেদ ৪৮A ৰাজ্যক পৰিৱেশ সুৰক্ষাৰ নিৰ্দেশ দিয়ে।"
@@ -4842,10 +4842,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 47",
-     "as": "অনুচ্ছেদ ৪৭"
-    },
-    {
      "en": "Article 48",
      "as": "অনুচ্ছেদ ৪৮"
     },
@@ -4856,9 +4852,13 @@ module.exports = {
     {
      "en": "Article 45",
      "as": "অনুচ্ছেদ ৪৫"
+    },
+    {
+     "en": "Article 47",
+     "as": "অনুচ্ছেদ ৪৭"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 47 directs the State to prohibit intoxicating drinks and drugs.",
     "as": "অনুচ্ছেদ ৪৭ ৰাজ্যক মাদক পানীয় আৰু ড্ৰাগছ নিষিদ্ধ কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -4902,10 +4902,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 50",
-     "as": "অনুচ্ছেদ ৫০"
-    },
-    {
      "en": "Article 51",
      "as": "অনুচ্ছেদ ৫১"
     },
@@ -4914,11 +4910,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৮"
     },
     {
+     "en": "Article 50",
+     "as": "অনুচ্ছেদ ৫০"
+    },
+    {
      "en": "Article 44",
      "as": "অনুচ্ছেদ ৪৪"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 50 directs separation of the judiciary from the executive.",
     "as": "অনুচ্ছেদ ৫০ ন্যায়পালিকাক কাৰ্যবাহীৰ পৰা পৃথক কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -4932,12 +4932,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 48",
-     "as": "অনুচ্ছেদ ৪৮"
-    },
-    {
      "en": "Article 47",
      "as": "অনুচ্ছেদ ৪৭"
+    },
+    {
+     "en": "Article 48",
+     "as": "অনুচ্ছেদ ৪৮"
     },
     {
      "en": "Article 43",
@@ -4948,7 +4948,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 48 directs the State to modernise agriculture and animal husbandry.",
     "as": "অনুচ্ছেদ ৪৮ ৰাজ্যক কৃষি আৰু পশুপালন আধুনিক কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -4962,10 +4962,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "welfare state",
-     "as": "কল্যাণ ৰাজ্য"
-    },
-    {
      "en": "police state",
      "as": "আৰক্ষী ৰাজ্য"
     },
@@ -4976,9 +4972,13 @@ module.exports = {
     {
      "en": "theocratic state",
      "as": "ধৰ্মতন্ত্ৰ ৰাজ্য"
+    },
+    {
+     "en": "welfare state",
+     "as": "কল্যাণ ৰাজ্য"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "DPSP aims at a welfare state.",
     "as": "DPSP ৰ লক্ষ্য হৈছে কল্যাণ ৰাজ্য।"
@@ -4992,10 +4992,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 44",
-     "as": "অনুচ্ছেদ ৪৪"
-    },
-    {
      "en": "Article 40",
      "as": "অনুচ্ছেদ ৪০"
     },
@@ -5004,11 +5000,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৫"
     },
     {
+     "en": "Article 44",
+     "as": "অনুচ্ছেদ ৪৪"
+    },
+    {
      "en": "Article 48",
      "as": "অনুচ্ছেদ ৪৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 44 directs the State to secure a uniform civil code.",
     "as": "অনুচ্ছেদ ৪৪ ৰাজ্যক এক সমান নাগৰিক সংহিতা সুৰক্ষিত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -5022,10 +5022,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 40",
-     "as": "অনুচ্ছেদ ৪০"
-    },
-    {
      "en": "Article 43",
      "as": "অনুচ্ছেদ ৪৩"
     },
@@ -5036,9 +5032,13 @@ module.exports = {
     {
      "en": "Article 47",
      "as": "অনুচ্ছেদ ৪৭"
+    },
+    {
+     "en": "Article 40",
+     "as": "অনুচ্ছেদ ৪০"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 40 directs the State to organise village panchayats.",
     "as": "অনুচ্ছেদ ৪০ ৰাজ্যক গাঁও পঞ্চায়ত সংগঠিত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -5082,10 +5082,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 42",
-     "as": "অনুচ্ছেদ ৪২"
-    },
-    {
      "en": "Article 41",
      "as": "অনুচ্ছেদ ৪১"
     },
@@ -5094,11 +5090,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৩"
     },
     {
+     "en": "Article 42",
+     "as": "অনুচ্ছেদ ৪২"
+    },
+    {
      "en": "Article 47",
      "as": "অনুচ্ছেদ ৪৭"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 42 directs the State to secure just and humane conditions of work.",
     "as": "অনুচ্ছেদ ৪২ ৰাজ্যক ন্যায়সংগত আৰু মানৱীয় কৰ্ম পৰিস্থিতি সুৰক্ষিত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -5142,10 +5142,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 47",
-     "as": "অনুচ্ছেদ ৪৭"
-    },
-    {
      "en": "Article 45",
      "as": "অনুচ্ছেদ ৪৫"
     },
@@ -5156,9 +5152,13 @@ module.exports = {
     {
      "en": "Article 48",
      "as": "অনুচ্ছেদ ৪৮"
+    },
+    {
+     "en": "Article 47",
+     "as": "অনুচ্ছেদ ৪৭"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 47 directs the State to raise nutrition and public health.",
     "as": "অনুচ্ছেদ ৪৭ ৰাজ্যক পুষ্টি আৰু ৰাজহুৱা স্বাস্থ্য উন্নীত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -5172,12 +5172,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "36 to 51",
-     "as": "৩৬ ৰ পৰা ৫১"
-    },
-    {
      "en": "12 to 35",
      "as": "১২ ৰ পৰা ৩৫"
+    },
+    {
+     "en": "36 to 51",
+     "as": "৩৬ ৰ পৰা ৫১"
     },
     {
      "en": "5 to 11",
@@ -5188,7 +5188,7 @@ module.exports = {
      "as": "51A"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "DPSP is in Articles 36 to 51.",
     "as": "DPSP অনুচ্ছেদ ৩৬ ৰ পৰা ৫১ ত আছে।"
@@ -5202,10 +5202,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "12 to 35",
-     "as": "১২ ৰ পৰা ৩৫"
-    },
-    {
      "en": "36 to 51",
      "as": "৩৬ ৰ পৰা ৫১"
     },
@@ -5214,11 +5210,15 @@ module.exports = {
      "as": "৫ ৰ পৰা ১১"
     },
     {
+     "en": "12 to 35",
+     "as": "১২ ৰ পৰা ৩৫"
+    },
+    {
      "en": "1 to 4",
      "as": "১ ৰ পৰা ৪"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Fundamental Rights are in Articles 12 to 35.",
     "as": "মৌলিক অধিকাৰ অনুচ্ছেদ ১২ ৰ পৰা ৩৫ ত আছে।"
@@ -5262,12 +5262,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1949",
-     "as": "১৯৪৯"
-    },
-    {
      "en": "1950",
      "as": "১৯৫০"
+    },
+    {
+     "en": "1949",
+     "as": "১৯৪৯"
     },
     {
      "en": "1947",
@@ -5278,7 +5278,7 @@ module.exports = {
      "as": "১৯৪৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It was adopted in 1949.",
     "as": "ই ১৯৪৯ চনত গৃহণ কৰা হৈছিল।"
@@ -5322,10 +5322,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 1",
-     "as": "অনুচ্ছেদ ১"
-    },
-    {
      "en": "Article 2",
      "as": "অনুচ্ছেদ ২"
     },
@@ -5336,9 +5332,13 @@ module.exports = {
     {
      "en": "Article 4",
      "as": "অনুচ্ছেদ ৪"
+    },
+    {
+     "en": "Article 1",
+     "as": "অনুচ্ছেদ ১"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 1 provides that India shall be a Union of States.",
     "as": "অনুচ্ছেদ ১ এ কয় যে ভাৰত ৰাজ্যসমূহৰ সংঘ হ'ব।"
@@ -5352,10 +5352,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 1",
-     "as": "অনুচ্ছেদ ১"
-    },
-    {
      "en": "Article 2",
      "as": "অনুচ্ছেদ ২"
     },
@@ -5364,11 +5360,15 @@ module.exports = {
      "as": "কেৱল প্ৰস্তাৱনা"
     },
     {
+     "en": "Article 1",
+     "as": "অনুচ্ছেদ ১"
+    },
+    {
      "en": "Article 3",
      "as": "অনুচ্ছেদ ৩"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 1 says 'India, that is Bharat, shall be a Union of States'.",
     "as": "অনুচ্ছেদ ১ এ কয় 'ভাৰত, অৰ্থাৎ ভাৰত, ৰাজ্যসমূহৰ সংঘ হ'ব'।"
@@ -5382,12 +5382,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 343",
-     "as": "অনুচ্ছেদ ৩৪৩"
-    },
-    {
      "en": "Article 344",
      "as": "অনুচ্ছেদ ৩৪৪"
+    },
+    {
+     "en": "Article 343",
+     "as": "অনুচ্ছেদ ৩৪৩"
     },
     {
      "en": "Article 351",
@@ -5398,7 +5398,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৩৫০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 343 declares Hindi in Devanagari script the official language.",
     "as": "অনুচ্ছেদ ৩৪৩ দেৱনাগৰী লিপিত হিন্দীক ৰাজভাষা ঘোষণা কৰে।"
@@ -5412,12 +5412,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 350B",
-     "as": "অনুচ্ছেদ ৩৫০B"
-    },
-    {
      "en": "Article 343",
      "as": "অনুচ্ছেদ ৩৪৩"
+    },
+    {
+     "en": "Article 350B",
+     "as": "অনুচ্ছেদ ৩৫০B"
     },
     {
      "en": "Article 351",
@@ -5428,7 +5428,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৩৪৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 350B provides for a Special Officer for Linguistic Minorities.",
     "as": "অনুচ্ছেদ ৩৫০B এ ভাষিক সংখ্যালঘুৰ বাবে এজন বিশেষ বিষয়াৰ ব্যৱস্থা কৰে।"
@@ -5472,10 +5472,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "86th Amendment",
-     "as": "৮৬ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "42nd Amendment",
      "as": "৪২ সংখ্যক সংশোধনী"
     },
@@ -5486,9 +5482,13 @@ module.exports = {
     {
      "en": "93rd Amendment",
      "as": "৯৩ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "86th Amendment",
+     "as": "৮৬ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 86th Amendment is known as the Right to Education amendment.",
     "as": "৮৬ সংখ্যক সংশোধনীক শিক্ষাৰ অধিকাৰ সংশোধনী বুলি জনা যায়।"
@@ -5532,10 +5532,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "helium-filled case",
-     "as": "হিলিয়াম ভৰ্তি বাকচত"
-    },
-    {
      "en": "wooden box",
      "as": "কাঠৰ বাকচত"
     },
@@ -5544,11 +5540,15 @@ module.exports = {
      "as": "ষ্টীল লকাৰত"
     },
     {
+     "en": "helium-filled case",
+     "as": "হিলিয়াম ভৰ্তি বাকচত"
+    },
+    {
      "en": "glass cabinet",
      "as": "কাচৰ কেবিনেটত"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The original Constitution was kept in a helium-filled case.",
     "as": "মূল সংবিধান হিলিয়াম ভৰ্তি বাকচত ৰখা হৈছিল।"
@@ -5562,12 +5562,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "About 22",
-     "as": "প্ৰায় ২২"
-    },
-    {
      "en": "About 10",
      "as": "প্ৰায় ১০"
+    },
+    {
+     "en": "About 22",
+     "as": "প্ৰায় ২২"
     },
     {
      "en": "About 30",
@@ -5578,7 +5578,7 @@ module.exports = {
      "as": "প্ৰায় ৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "There were about 22 committees in total.",
     "as": "মুঠ প্ৰায় ২২ টা সমিতি আছিল।"
@@ -5622,12 +5622,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the courts",
-     "as": "আদালত"
-    },
-    {
      "en": "the Parliament",
      "as": "সংসদ"
+    },
+    {
+     "en": "the courts",
+     "as": "আদালত"
     },
     {
      "en": "the President",
@@ -5638,7 +5638,7 @@ module.exports = {
      "as": "আৰক্ষী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Fundamental Rights are enforceable by the courts.",
     "as": "মৌলিক অধিকাৰ আদালতে বলৱৎ কৰিব পাৰে।"
@@ -5712,10 +5712,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Integrity",
-     "as": "অখণ্ডতা"
-    },
-    {
      "en": "Liberty",
      "as": "স্বাধীনতা"
     },
@@ -5724,11 +5720,15 @@ module.exports = {
      "as": "সমতা"
     },
     {
+     "en": "Integrity",
+     "as": "অখণ্ডতা"
+    },
+    {
      "en": "Fraternity",
      "as": "ভাতৃত্ব"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Integrity was added to emphasise national unity.",
     "as": "ৰাষ্ট্ৰীয় ঐক্যৰ ওপৰত গুৰুত্ব দিবলৈ অখণ্ডতা যোগ কৰা হৈছিল।"
@@ -5772,12 +5772,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "free from external control",
-     "as": "বাহ্যিক নিয়ন্ত্ৰণৰ পৰা মুক্ত"
-    },
-    {
      "en": "dependent on others",
      "as": "অন্যান্যৰ ওপৰত নিৰ্ভৰশীল"
+    },
+    {
+     "en": "free from external control",
+     "as": "বাহ্যিক নিয়ন্ত্ৰণৰ পৰা মুক্ত"
     },
     {
      "en": "part of the Commonwealth",
@@ -5788,7 +5788,7 @@ module.exports = {
      "as": "এখন ৰাজতন্ত্ৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Sovereign means free from external control.",
     "as": "সাৰ্বভৌম মানে বাহ্যিক নিয়ন্ত্ৰণৰ পৰা মুক্ত।"
@@ -5802,10 +5802,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "popular sovereignty",
-     "as": "জনসাধাৰণৰ সাৰ্বভৌমত্ব"
-    },
-    {
      "en": "hereditary rule",
      "as": "বংশানুক্ৰমিক শাসন"
     },
@@ -5814,11 +5810,15 @@ module.exports = {
      "as": "সামৰিক শাসন"
     },
     {
+     "en": "popular sovereignty",
+     "as": "জনসাধাৰণৰ সাৰ্বভৌমত্ব"
+    },
+    {
      "en": "one-party rule",
      "as": "একদলীয় শাসন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Democratic refers to popular sovereignty.",
     "as": "গণতান্ত্ৰিকই জনসাধাৰণৰ সাৰ্বভৌমত্বক ইংগিত কৰে।"
@@ -5862,10 +5862,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 124",
-     "as": "অনুচ্ছেদ ১২৪"
-    },
-    {
      "en": "Article 214",
      "as": "অনুচ্ছেদ ২১৪"
     },
@@ -5876,9 +5872,13 @@ module.exports = {
     {
      "en": "Article 226",
      "as": "অনুচ্ছেদ ২২৬"
+    },
+    {
+     "en": "Article 124",
+     "as": "অনুচ্ছেদ ১২৪"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 124 provides for the establishment of the Supreme Court.",
     "as": "অনুচ্ছেদ ১২৪ সৰ্বোচ্চ ন্যায়ালয় স্থাপনৰ ব্যৱস্থা কৰে।"
@@ -5892,10 +5892,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 214",
-     "as": "অনুচ্ছেদ ২১৪"
-    },
-    {
      "en": "Article 124",
      "as": "অনুচ্ছেদ ১২৪"
     },
@@ -5906,9 +5902,13 @@ module.exports = {
     {
      "en": "Article 32",
      "as": "অনুচ্ছেদ ৩২"
+    },
+    {
+     "en": "Article 214",
+     "as": "অনুচ্ছেদ ২১৪"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 214 provides for High Courts.",
     "as": "অনুচ্ছেদ ২১৪ উচ্চ ন্যায়ালয়ৰ ব্যৱস্থা কৰে।"
@@ -5952,12 +5952,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 124",
-     "as": "অনুচ্ছেদ ১২৪"
-    },
-    {
      "en": "Article 214",
      "as": "অনুচ্ছেদ ২১৪"
+    },
+    {
+     "en": "Article 124",
+     "as": "অনুচ্ছেদ ১২৪"
     },
     {
      "en": "Article 32",
@@ -5968,7 +5968,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 124 provides for the appointment of the Chief Justice of India.",
     "as": "অনুচ্ছেদ ১২৪ ভাৰতৰ মুখ্য ন্যায়াধীশ নিযুক্তিৰ ব্যৱস্থা কৰে।"
@@ -6012,10 +6012,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Britain",
-     "as": "ব্ৰিটেইন"
-    },
-    {
      "en": "the USA",
      "as": "আমেৰিকা"
     },
@@ -6026,9 +6022,13 @@ module.exports = {
     {
      "en": "Canada",
      "as": "কানাডা"
+    },
+    {
+     "en": "Britain",
+     "as": "ব্ৰিটেইন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The idea of single citizenship was borrowed from Britain.",
     "as": "একক নাগৰিকত্বৰ ধাৰণা ব্ৰিটেইনৰ পৰা ধাৰ কৰা হৈছিল।"
@@ -6042,10 +6042,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 21",
-     "as": "অনুচ্ছেদ ২১"
-    },
-    {
      "en": "Article 20",
      "as": "অনুচ্ছেদ ২০"
     },
@@ -6054,11 +6050,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৯"
     },
     {
+     "en": "Article 21",
+     "as": "অনুচ্ছেদ ২১"
+    },
+    {
      "en": "Article 22",
      "as": "অনুচ্ছেদ ২২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 21 lays down this protection.",
     "as": "অনুচ্ছেদ ২১ এই সুৰক্ষা নিৰ্ধাৰণ কৰে।"
@@ -6072,10 +6072,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "K. S. Puttaswamy case",
-     "as": "কে এছ পুট্টাস্বামী গোচৰ"
-    },
-    {
      "en": "Kesavananda Bharati case",
      "as": "কেশৱানন্দ ভাৰতী গোচৰ"
     },
@@ -6084,11 +6080,15 @@ module.exports = {
      "as": "গোলকনাথ গোচৰ"
     },
     {
+     "en": "K. S. Puttaswamy case",
+     "as": "কে এছ পুট্টাস্বামী গোচৰ"
+    },
+    {
      "en": "Minerva Mills case",
      "as": "মিনাৰ্ভা মিলছ গোচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The K. S. Puttaswamy case (2017) declared privacy a Fundamental Right.",
     "as": "কে এছ পুট্টাস্বামী গোচৰে (২০১৭) গোপনীয়তাক মৌলিক অধিকাৰ ঘোষণা কৰিছিল।"
@@ -6102,12 +6102,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 15(2)",
-     "as": "অনুচ্ছেদ 15(2)"
-    },
-    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
+    },
+    {
+     "en": "Article 15(2)",
+     "as": "অনুচ্ছেদ 15(2)"
     },
     {
      "en": "Article 16",
@@ -6118,7 +6118,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৭"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 15(2) prohibits discrimination in access to public places.",
     "as": "অনুচ্ছেদ 15(2) ৰাজহুৱা স্থানত প্ৰৱেশত ভেদাভেদ নিষিদ্ধ কৰে।"
@@ -6132,12 +6132,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 19(1)(c)",
-     "as": "অনুচ্ছেদ 19(1)(c)"
-    },
-    {
      "en": "Article 19(1)(a)",
      "as": "অনুচ্ছেদ 19(1)(a)"
+    },
+    {
+     "en": "Article 19(1)(c)",
+     "as": "অনুচ্ছেদ 19(1)(c)"
     },
     {
      "en": "Article 19(1)(g)",
@@ -6148,7 +6148,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ২১"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 19(1)(c) guarantees the right to form associations.",
     "as": "অনুচ্ছেদ 19(1)(c) সংগঠন গঠনৰ অধিকাৰ নিশ্চিত কৰে।"
@@ -6162,10 +6162,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 19(1)(a)",
-     "as": "অনুচ্ছেদ 19(1)(a)"
-    },
-    {
      "en": "Article 19(1)(b)",
      "as": "অনুচ্ছেদ 19(1)(b)"
     },
@@ -6176,9 +6172,13 @@ module.exports = {
     {
      "en": "Article 21",
      "as": "অনুচ্ছেদ ২১"
+    },
+    {
+     "en": "Article 19(1)(a)",
+     "as": "অনুচ্ছেদ 19(1)(a)"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 19(1)(a) guarantees freedom of speech and expression.",
     "as": "অনুচ্ছেদ 19(1)(a) বাক আৰু প্ৰকাশৰ স্বাধীনতা নিশ্চিত কৰে।"
@@ -6224,10 +6224,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "The Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
     },
@@ -6238,9 +6234,13 @@ module.exports = {
     {
      "en": "The Speaker",
      "as": "অধ্যক্ষ"
+    },
+    {
+     "en": "The President",
+     "as": "ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The President is the constitutional head of the Union.",
     "as": "ৰাষ্ট্ৰপতি সংঘৰ সাংবিধানিক মুৰব্বী।"
@@ -6254,12 +6254,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "The Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "The President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "The Vice President",
@@ -6270,7 +6270,7 @@ module.exports = {
      "as": "মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President is the first citizen of India.",
     "as": "ৰাষ্ট্ৰপতি ভাৰতৰ প্ৰথম নাগৰিক।"
@@ -6314,12 +6314,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "Parliament",
@@ -6330,7 +6330,7 @@ module.exports = {
      "as": "মন্ত্ৰীপৰিষদ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 53 vests the executive power of the Union in the President.",
     "as": "অনুচ্ছেদ ৫৩ সংঘৰ কাৰ্যবাহী ক্ষমতা ৰাষ্ট্ৰপতিৰ ওপৰত ন্যস্ত কৰে।"
@@ -6344,10 +6344,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "an electoral college",
-     "as": "এখন নিৰ্বাচনী মহাবিদ্যালয়"
-    },
-    {
      "en": "the people directly",
      "as": "জনসাধাৰণে প্ৰত্যক্ষভাৱে"
     },
@@ -6356,11 +6352,15 @@ module.exports = {
      "as": "কেৱল সংসদে"
     },
     {
+     "en": "an electoral college",
+     "as": "এখন নিৰ্বাচনী মহাবিদ্যালয়"
+    },
+    {
      "en": "the Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়ে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The President is elected by an electoral college.",
     "as": "ৰাষ্ট্ৰপতি এখন নিৰ্বাচনী মহাবিদ্যালয়ে নিৰ্বাচন কৰে।"
@@ -6374,10 +6374,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Elected MPs and elected MLAs of States",
-     "as": "নিৰ্বাচিত সাংসদ আৰু ৰাজ্যসমূহৰ নিৰ্বাচিত বিধায়ক"
-    },
-    {
      "en": "All MPs and all MLAs",
      "as": "সকলো সাংসদ আৰু সকলো বিধায়ক"
     },
@@ -6386,11 +6382,15 @@ module.exports = {
      "as": "কেৱল সাংসদ"
     },
     {
+     "en": "Elected MPs and elected MLAs of States",
+     "as": "নিৰ্বাচিত সাংসদ আৰু ৰাজ্যসমূহৰ নিৰ্বাচিত বিধায়ক"
+    },
+    {
      "en": "Only MLAs",
      "as": "কেৱল বিধায়ক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Elected MPs and elected MLAs of States and some UTs form the college.",
     "as": "নিৰ্বাচিত সাংসদ আৰু ৰাজ্যসমূহৰ নিৰ্বাচিত বিধায়ক আৰু কিছুমান কেন্দ্ৰীয় শাসিত অঞ্চলে মহাবিদ্যালয় গঠন কৰে।"
@@ -6524,10 +6524,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 58",
-     "as": "অনুচ্ছেদ ৫৮"
-    },
-    {
      "en": "Article 56",
      "as": "অনুচ্ছেদ ৫৬"
     },
@@ -6538,9 +6534,13 @@ module.exports = {
     {
      "en": "Article 59",
      "as": "অনুচ্ছেদ ৫৯"
+    },
+    {
+     "en": "Article 58",
+     "as": "অনুচ্ছেদ ৫৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 58 lays down the qualifications.",
     "as": "অনুচ্ছেদ ৫৮ যোগ্যতাবোৰ নিৰ্ধাৰণ কৰে।"
@@ -6584,12 +6584,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 61",
-     "as": "অনুচ্ছেদ ৬১"
-    },
-    {
      "en": "Article 60",
      "as": "অনুচ্ছেদ ৬০"
+    },
+    {
+     "en": "Article 61",
+     "as": "অনুচ্ছেদ ৬১"
     },
     {
      "en": "Article 62",
@@ -6600,7 +6600,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৬৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 61 provides for the impeachment of the President.",
     "as": "অনুচ্ছেদ ৬১ ৰাষ্ট্ৰপতিৰ অভিশংসনৰ ব্যৱস্থা কৰে।"
@@ -6614,12 +6614,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "violation of the Constitution",
-     "as": "সংবিধান উলংঘা"
-    },
-    {
      "en": "misuse of funds",
      "as": "ধনৰ অপব্যৱহাৰ"
+    },
+    {
+     "en": "violation of the Constitution",
+     "as": "সংবিধান উলংঘা"
     },
     {
      "en": "losing an election",
@@ -6630,7 +6630,7 @@ module.exports = {
      "as": "অসুস্থতা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President may be impeached for violation of the Constitution.",
     "as": "সংবিধান উলংঘাৰ বাবে ৰাষ্ট্ৰপতিক অভিশংসন কৰিব পাৰি।"
@@ -6644,10 +6644,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 60",
-     "as": "অনুচ্ছেদ ৬০"
-    },
-    {
      "en": "Article 59",
      "as": "অনুচ্ছেদ ৫৯"
     },
@@ -6656,11 +6652,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৬১"
     },
     {
+     "en": "Article 60",
+     "as": "অনুচ্ছেদ ৬০"
+    },
+    {
      "en": "Article 62",
      "as": "অনুচ্ছেদ ৬২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 60 provides for the oath of the President.",
     "as": "অনুচ্ছেদ ৬০ ৰাষ্ট্ৰপতিৰ শপথৰ ব্যৱস্থা কৰে।"
@@ -6674,12 +6674,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Chief Justice of India",
-     "as": "ভাৰতৰ মুখ্য ন্যায়াধীশ"
-    },
-    {
      "en": "The Vice President",
      "as": "উপ-ৰাষ্ট্ৰপতি"
+    },
+    {
+     "en": "The Chief Justice of India",
+     "as": "ভাৰতৰ মুখ্য ন্যায়াধীশ"
     },
     {
      "en": "The Speaker",
@@ -6690,7 +6690,7 @@ module.exports = {
      "as": "প্ৰধানমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Chief Justice of India administers the oath.",
     "as": "ভাৰতৰ মুখ্য ন্যায়াধীশে শপথ বাক্য পাঠ কৰায়।"
@@ -6704,10 +6704,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 72",
-     "as": "অনুচ্ছেদ ৭২"
-    },
-    {
      "en": "Article 161",
      "as": "অনুচ্ছেদ ১৬১"
     },
@@ -6716,11 +6712,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭৪"
     },
     {
+     "en": "Article 72",
+     "as": "অনুচ্ছেদ ৭২"
+    },
+    {
      "en": "Article 75",
      "as": "অনুচ্ছেদ ৭৫"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 72 deals with the President's pardoning power.",
     "as": "অনুচ্ছেদ ৭২ ৰাষ্ট্ৰপতিৰ ক্ষমা ক্ষমতাৰ বিষয়ে কয়।"
@@ -6734,10 +6734,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 74",
-     "as": "অনুচ্ছেদ ৭৪"
-    },
-    {
      "en": "Article 75",
      "as": "অনুচ্ছেদ ৭৫"
     },
@@ -6746,11 +6742,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭২"
     },
     {
+     "en": "Article 74",
+     "as": "অনুচ্ছেদ ৭৪"
+    },
+    {
      "en": "Article 78",
      "as": "অনুচ্ছেদ ৭৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 74 provides for the Council of Ministers to aid and advise the President.",
     "as": "অনুচ্ছেদ ৭৪ মন্ত্ৰীপৰিষদে ৰাষ্ট্ৰপতিক সহায় আৰু পৰামৰ্শ দিয়াৰ ব্যৱস্থা কৰে।"
@@ -6764,10 +6764,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "binding",
-     "as": "বাধ্যতামূলক"
-    },
-    {
      "en": "optional",
      "as": "ঐচ্ছিক"
     },
@@ -6776,11 +6772,15 @@ module.exports = {
      "as": "কেৱল পৰামৰ্শমূলক"
     },
     {
+     "en": "binding",
+     "as": "বাধ্যতামূলক"
+    },
+    {
      "en": "subject to Parliament",
      "as": "সংসদৰ অধীন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "After the 42nd and 44th Amendments, the advice is binding.",
     "as": "৪২ আৰু ৪৪ সংখ্যক সংশোধনীৰ পিছত পৰামৰ্শ বাধ্যতামূলক।"
@@ -6824,12 +6824,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "The Parliament",
      "as": "সংসদ"
+    },
+    {
+     "en": "The President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "The Speaker",
@@ -6840,7 +6840,7 @@ module.exports = {
      "as": "মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President appoints the Prime Minister.",
     "as": "ৰাষ্ট্ৰপতিয়ে প্ৰধানমন্ত্ৰীক নিযুক্তি দিয়ে।"
@@ -6884,10 +6884,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Prime Minister",
-     "as": "প্ৰধানমন্ত্ৰী"
-    },
-    {
      "en": "The President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -6896,11 +6892,15 @@ module.exports = {
      "as": "উপ-ৰাষ্ট্ৰপতি"
     },
     {
+     "en": "The Prime Minister",
+     "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
      "en": "The Speaker",
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Prime Minister heads the Union Council of Ministers.",
     "as": "প্ৰধানমন্ত্ৰী সংঘৰ মন্ত্ৰীপৰিষদৰ মুৰব্বী।"
@@ -6944,10 +6944,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "15 percent",
-     "as": "১৫ শতাংশ"
-    },
-    {
      "en": "10 percent",
      "as": "১০ শতাংশ"
     },
@@ -6956,11 +6952,15 @@ module.exports = {
      "as": "২০ শতাংশ"
     },
     {
+     "en": "15 percent",
+     "as": "১৫ শতাংশ"
+    },
+    {
      "en": "25 percent",
      "as": "২৫ শতাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "By the 91st Amendment, it is capped at 15 percent.",
     "as": "৯১ সংখ্যক সংশোধনী অনুসৰি ই ১৫ শতাংশত সীমাবদ্ধ।"
@@ -6974,12 +6974,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "91st Amendment",
-     "as": "৯১ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "42nd Amendment",
      "as": "৪২ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "91st Amendment",
+     "as": "৯১ সংখ্যক সংশোধনী"
     },
     {
      "en": "44th Amendment",
@@ -6990,7 +6990,7 @@ module.exports = {
      "as": "৫২ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 91st Amendment (2003) introduced the cap.",
     "as": "৯১ সংখ্যক সংশোধনীয়ে (২০০৩) সীমা প্ৰৱৰ্তন কৰিছিল।"
@@ -7004,10 +7004,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jawaharlal Nehru",
-     "as": "জৱাহৰলাল নেহৰু"
-    },
-    {
      "en": "Rajendra Prasad",
      "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
     },
@@ -7018,9 +7014,13 @@ module.exports = {
     {
      "en": "Lal Bahadur Shastri",
      "as": "লাল বাহাদুৰ শাস্ত্ৰী"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Jawaharlal Nehru was the first Prime Minister.",
     "as": "জৱাহৰলাল নেহৰু প্ৰথম প্ৰধানমন্ত্ৰী আছিল।"
@@ -7064,12 +7064,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pratibha Patil",
-     "as": "প্ৰতিভা পাটিল"
-    },
-    {
      "en": "Indira Gandhi",
      "as": "ইন্দিৰা গান্ধী"
+    },
+    {
+     "en": "Pratibha Patil",
+     "as": "প্ৰতিভা পাটিল"
     },
     {
      "en": "Sarojini Naidu",
@@ -7080,7 +7080,7 @@ module.exports = {
      "as": "দ্ৰৌপদী মুৰ্মু"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Pratibha Patil was the first woman President.",
     "as": "প্ৰতিভা পাটিল প্ৰথম মহিলা ৰাষ্ট্ৰপতি আছিল।"
@@ -7094,10 +7094,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Indira Gandhi",
-     "as": "ইন্দিৰা গান্ধী"
-    },
-    {
      "en": "Sarojini Naidu",
      "as": "সৰোজিনী নাইডু"
     },
@@ -7108,9 +7104,13 @@ module.exports = {
     {
      "en": "Sucheta Kripalani",
      "as": "সুচেতা কৃপালানী"
+    },
+    {
+     "en": "Indira Gandhi",
+     "as": "ইন্দিৰা গান্ধী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Indira Gandhi was the first woman Prime Minister.",
     "as": "ইন্দিৰা গান্ধী প্ৰথম মহিলা প্ৰধানমন্ত্ৰী আছিল।"
@@ -7154,10 +7154,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 63",
-     "as": "অনুচ্ছেদ ৬৩"
-    },
-    {
      "en": "Article 64",
      "as": "অনুচ্ছেদ ৬৪"
     },
@@ -7166,11 +7162,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৬৫"
     },
     {
+     "en": "Article 63",
+     "as": "অনুচ্ছেদ ৬৩"
+    },
+    {
      "en": "Article 66",
      "as": "অনুচ্ছেদ ৬৬"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 63 provides for a Vice President.",
     "as": "অনুচ্ছেদ ৬৩ এজন উপ-ৰাষ্ট্ৰপতিৰ ব্যৱস্থা কৰে।"
@@ -7184,12 +7184,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rajya Sabha",
-     "as": "ৰাজ্যসভা"
-    },
-    {
      "en": "Lok Sabha",
      "as": "লোকসভা"
+    },
+    {
+     "en": "Rajya Sabha",
+     "as": "ৰাজ্যসভা"
     },
     {
      "en": "Supreme Court",
@@ -7200,7 +7200,7 @@ module.exports = {
      "as": "পৰিকল্পনা আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Vice President is the ex-officio Chairman of the Rajya Sabha.",
     "as": "উপ-ৰাষ্ট্ৰপতি পদাধিকাৰীক্ৰমে ৰাজ্যসভাৰ সভাপতি।"
@@ -7214,12 +7214,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "members of both Houses of Parliament",
-     "as": "সংসদৰ দুয়ো সদনৰ সদস্যসকল"
-    },
-    {
      "en": "the people directly",
      "as": "জনসাধাৰণে প্ৰত্যক্ষভাৱে"
+    },
+    {
+     "en": "members of both Houses of Parliament",
+     "as": "সংসদৰ দুয়ো সদনৰ সদস্যসকল"
     },
     {
      "en": "only MPs of the Lok Sabha",
@@ -7230,7 +7230,7 @@ module.exports = {
      "as": "ৰাজ্যৰ বিধায়কসকল"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Vice President is elected by members of both Houses.",
     "as": "উপ-ৰাষ্ট্ৰপতিক দুয়ো সদনৰ সদস্যসকলে নিৰ্বাচন কৰে।"
@@ -7244,10 +7244,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "5 years",
-     "as": "৫ বছৰ"
-    },
-    {
      "en": "4 years",
      "as": "৪ বছৰ"
     },
@@ -7258,9 +7254,13 @@ module.exports = {
     {
      "en": "3 years",
      "as": "৩ বছৰ"
+    },
+    {
+     "en": "5 years",
+     "as": "৫ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Vice President holds office for five years.",
     "as": "উপ-ৰাষ্ট্ৰপতি পাঁচ বছৰ কাৰ্যকাল থাকে।"
@@ -7274,10 +7274,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 153",
-     "as": "অনুচ্ছেদ ১৫৩"
-    },
-    {
      "en": "Article 154",
      "as": "অনুচ্ছেদ ১৫৪"
     },
@@ -7288,9 +7284,13 @@ module.exports = {
     {
      "en": "Article 156",
      "as": "অনুচ্ছেদ ১৫৬"
+    },
+    {
+     "en": "Article 153",
+     "as": "অনুচ্ছেদ ১৫৩"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 153 provides for a Governor for each State.",
     "as": "অনুচ্ছেদ ১৫৩ প্ৰতিখন ৰাজ্যৰ বাবে এজন ৰাজ্যপালৰ ব্যৱস্থা কৰে।"
@@ -7304,10 +7304,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
     },
@@ -7316,11 +7312,15 @@ module.exports = {
      "as": "মুখ্যমন্ত্ৰী"
     },
     {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
      "en": "Chief Justice",
      "as": "মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor is appointed by the President.",
     "as": "ৰাজ্যপালক ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়ে।"
@@ -7424,10 +7424,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "7th Amendment",
-     "as": "৭ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "1st Amendment",
      "as": "১ম সংশোধনী"
     },
@@ -7436,11 +7432,15 @@ module.exports = {
      "as": "৪২ সংখ্যক সংশোধনী"
     },
     {
+     "en": "7th Amendment",
+     "as": "৭ সংখ্যক সংশোধনী"
+    },
+    {
      "en": "44th Amendment",
      "as": "৪৪ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 7th Amendment (1956) allows this.",
     "as": "৭ সংখ্যক সংশোধনীয়ে (১৯৫৬) এই অনুমতি দিয়ে।"
@@ -7454,12 +7454,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 154",
-     "as": "অনুচ্ছেদ ১৫৪"
-    },
-    {
      "en": "Article 153",
      "as": "অনুচ্ছেদ ১৫৩"
+    },
+    {
+     "en": "Article 154",
+     "as": "অনুচ্ছেদ ১৫৪"
     },
     {
      "en": "Article 155",
@@ -7470,7 +7470,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৫৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 154 vests the executive power of the State in the Governor.",
     "as": "অনুচ্ছেদ ১৫৪ ৰাজ্যৰ কাৰ্যবাহী ক্ষমতা ৰাজ্যপালৰ ওপৰত ন্যস্ত কৰে।"
@@ -7484,10 +7484,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 164",
-     "as": "অনুচ্ছেদ ১৬৪"
-    },
-    {
      "en": "Article 163",
      "as": "অনুচ্ছেদ ১৬৩"
     },
@@ -7496,11 +7492,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬৫"
     },
     {
+     "en": "Article 164",
+     "as": "অনুচ্ছেদ ১৬৪"
+    },
+    {
      "en": "Article 167",
      "as": "অনুচ্ছেদ ১৬৭"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 164 deals with the appointment of the Chief Minister.",
     "as": "অনুচ্ছেদ ১৬৪ মুখ্যমন্ত্ৰী নিযুক্তিৰ বিষয়ে কয়।"
@@ -7514,10 +7514,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Governor",
-     "as": "ৰাজ্যপাল"
-    },
-    {
      "en": "The President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -7528,9 +7524,13 @@ module.exports = {
     {
      "en": "The Chief Justice",
      "as": "মুখ্য ন্যায়াধীশ"
+    },
+    {
+     "en": "The Governor",
+     "as": "ৰাজ্যপাল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Governor appoints the Chief Minister.",
     "as": "ৰাজ্যপালে মুখ্যমন্ত্ৰীক নিযুক্তি দিয়ে।"
@@ -7544,10 +7544,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Chief Minister",
-     "as": "মুখ্যমন্ত্ৰী"
-    },
-    {
      "en": "The Governor",
      "as": "ৰাজ্যপাল"
     },
@@ -7556,11 +7552,15 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     },
     {
+     "en": "The Chief Minister",
+     "as": "মুখ্যমন্ত্ৰী"
+    },
+    {
      "en": "The Speaker",
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Chief Minister is the head of the State Government.",
     "as": "মুখ্যমন্ত্ৰী ৰাজ্য চৰকাৰৰ মুৰব্বী।"
@@ -7574,10 +7574,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "majority party in the State Legislative Assembly",
-     "as": "ৰাজ্য বিধানসভাত সংখ্যাগৰিষ্ঠ দলৰ"
-    },
-    {
      "en": "opposition",
      "as": "বিৰোধী দলৰ"
     },
@@ -7588,9 +7584,13 @@ module.exports = {
     {
      "en": "Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়ৰ"
+    },
+    {
+     "en": "majority party in the State Legislative Assembly",
+     "as": "ৰাজ্য বিধানসভাত সংখ্যাগৰিষ্ঠ দলৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The CM is normally the leader of the majority party in the Assembly.",
     "as": "মুখ্যমন্ত্ৰী সাধাৰণতে বিধানসভাত সংখ্যাগৰিষ্ঠ দলৰ নেতা।"
@@ -7604,10 +7604,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 163",
-     "as": "অনুচ্ছেদ ১৬৩"
-    },
-    {
      "en": "Article 164",
      "as": "অনুচ্ছেদ ১৬৪"
     },
@@ -7616,11 +7612,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬৭"
     },
     {
+     "en": "Article 163",
+     "as": "অনুচ্ছেদ ১৬৩"
+    },
+    {
      "en": "Article 154",
      "as": "অনুচ্ছেদ ১৫৪"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 163 provides for the Council of Ministers to aid and advise the Governor.",
     "as": "অনুচ্ছেদ ১৬৩ মন্ত্ৰীপৰিষদে ৰাজ্যপালক সহায় আৰু পৰামৰ্শ দিয়াৰ ব্যৱস্থা কৰে।"
@@ -7634,12 +7634,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 161",
-     "as": "অনুচ্ছেদ ১৬১"
-    },
-    {
      "en": "Article 72",
      "as": "অনুচ্ছেদ ৭২"
+    },
+    {
+     "en": "Article 161",
+     "as": "অনুচ্ছেদ ১৬১"
     },
     {
      "en": "Article 163",
@@ -7650,7 +7650,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 161 deals with the Governor's pardoning power.",
     "as": "অনুচ্ছেদ ১৬১ ৰাজ্যপালৰ ক্ষমা ক্ষমতাৰ বিষয়ে কয়।"
@@ -7724,12 +7724,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "The Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "The President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "The Chief Justice",
@@ -7740,7 +7740,7 @@ module.exports = {
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President appoints the Chief Election Commissioner.",
     "as": "ৰাষ্ট্ৰপতিয়ে মুখ্য নিৰ্বাচন আয়ুক্ত নিযুক্তি দিয়ে।"
@@ -7754,10 +7754,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "The Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
     },
@@ -7766,11 +7762,15 @@ module.exports = {
      "as": "মুখ্য ন্যায়াধীশ"
     },
     {
+     "en": "The President",
+     "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
      "en": "The Parliament",
      "as": "সংসদ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The President appoints the Attorney General.",
     "as": "ৰাষ্ট্ৰপতিয়ে এটৰ্নী জেনেৰেল নিযুক্তি দিয়ে।"
@@ -7784,10 +7784,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 76",
-     "as": "অনুচ্ছেদ ৭৬"
-    },
-    {
      "en": "Article 148",
      "as": "অনুচ্ছেদ ১৪৮"
     },
@@ -7798,9 +7794,13 @@ module.exports = {
     {
      "en": "Article 77",
      "as": "অনুচ্ছেদ ৭৭"
+    },
+    {
+     "en": "Article 76",
+     "as": "অনুচ্ছেদ ৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 76 provides for the Attorney General of India.",
     "as": "অনুচ্ছেদ ৭৬ ভাৰতৰ এটৰ্নী জেনেৰেলৰ ব্যৱস্থা কৰে।"
@@ -7814,10 +7814,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 148",
-     "as": "অনুচ্ছেদ ১৪৮"
-    },
-    {
      "en": "Article 76",
      "as": "অনুচ্ছেদ ৭৬"
     },
@@ -7828,9 +7824,13 @@ module.exports = {
     {
      "en": "Article 324",
      "as": "অনুচ্ছেদ ৩২৪"
+    },
+    {
+     "en": "Article 148",
+     "as": "অনুচ্ছেদ ১৪৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 148 provides for the CAG.",
     "as": "অনুচ্ছেদ ১৪৮ CAG ৰ ব্যৱস্থা কৰে।"
@@ -7844,10 +7844,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 324",
-     "as": "অনুচ্ছেদ ৩২৪"
-    },
-    {
      "en": "Article 315",
      "as": "অনুচ্ছেদ ৩১৫"
     },
@@ -7856,11 +7852,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৪৮"
     },
     {
+     "en": "Article 324",
+     "as": "অনুচ্ছেদ ৩২৪"
+    },
+    {
      "en": "Article 76",
      "as": "অনুচ্ছেদ ৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 324 provides for the Election Commission.",
     "as": "অনুচ্ছেদ ৩২৪ নিৰ্বাচন আয়োগৰ ব্যৱস্থা কৰে।"
@@ -7904,12 +7904,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 213",
-     "as": "অনুচ্ছেদ ২১৩"
-    },
-    {
      "en": "Article 123",
      "as": "অনুচ্ছেদ ১২৩"
+    },
+    {
+     "en": "Article 213",
+     "as": "অনুচ্ছেদ ২১৩"
     },
     {
      "en": "Article 161",
@@ -7920,7 +7920,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 213 empowers the Governor to promulgate ordinances.",
     "as": "অনুচ্ছেদ ২১৩ ৰাজ্যপালক অধ্যাদেশ জাৰি কৰাৰ ক্ষমতা দিয়ে।"
@@ -7934,10 +7934,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President's assent",
-     "as": "ৰাষ্ট্ৰপতিৰ সম্মতি"
-    },
-    {
      "en": "Prime Minister's signature",
      "as": "প্ৰধানমন্ত্ৰীৰ স্বাক্ষৰ"
     },
@@ -7948,9 +7944,13 @@ module.exports = {
     {
      "en": "Chief Justice's approval",
      "as": "মুখ্য ন্যায়াধীশৰ অনুমোদন"
+    },
+    {
+     "en": "President's assent",
+     "as": "ৰাষ্ট্ৰপতিৰ সম্মতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A Bill becomes law after the President's assent.",
     "as": "ৰাষ্ট্ৰপতিৰ সম্মতিৰ পিছত বিধেয়ক আইন হয়।"
@@ -7964,12 +7964,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 111",
-     "as": "অনুচ্ছেদ ১১১"
-    },
-    {
      "en": "Article 123",
      "as": "অনুচ্ছেদ ১২৩"
+    },
+    {
+     "en": "Article 111",
+     "as": "অনুচ্ছেদ ১১১"
     },
     {
      "en": "Article 143",
@@ -7980,7 +7980,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 111 deals with the assent to Bills.",
     "as": "অনুচ্ছেদ ১১১ বিধেয়কত সম্মতিৰ বিষয়ে কয়।"
@@ -7994,10 +7994,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2",
-     "as": "২"
-    },
-    {
      "en": "12",
      "as": "১২"
     },
@@ -8008,9 +8004,13 @@ module.exports = {
     {
      "en": "5",
      "as": "৫"
+    },
+    {
+     "en": "2",
+     "as": "২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The President nominates two Anglo-Indian members (as per the earlier provision).",
     "as": "ৰাষ্ট্ৰপতিয়ে দুজন এংলো-ইণ্ডিয়ান সদস্য মনোনীত কৰিছিল (পূৰ্বৰ বিধান অনুসৰি)।"
@@ -8024,10 +8024,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "12",
-     "as": "১২"
-    },
-    {
      "en": "2",
      "as": "২"
     },
@@ -8038,9 +8034,13 @@ module.exports = {
     {
      "en": "15",
      "as": "১৫"
+    },
+    {
+     "en": "12",
+     "as": "১২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The President nominates 12 members to the Rajya Sabha.",
     "as": "ৰাষ্ট্ৰপতিয়ে ৰাজ্যসভালৈ ১২ জন সদস্য মনোনীত কৰে।"
@@ -8144,12 +8144,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lok Sabha",
-     "as": "লোকসভা"
-    },
-    {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
+    },
+    {
+     "en": "Lok Sabha",
+     "as": "লোকসভা"
     },
     {
      "en": "State Assembly",
@@ -8160,7 +8160,7 @@ module.exports = {
      "as": "সৰ্বোচ্চ ন্যায়ালয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "He must be qualified for election as a member of the Lok Sabha.",
     "as": "তেওঁ লোকসভাৰ সদস্য হিচাপে নিৰ্বাচিত হোৱাৰ যোগ্য হ'ব লাগে।"
@@ -8204,10 +8204,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 356",
-     "as": "অনুচ্ছেদ ৩৫৬"
-    },
-    {
      "en": "Article 352",
      "as": "অনুচ্ছেদ ৩৫২"
     },
@@ -8218,9 +8214,13 @@ module.exports = {
     {
      "en": "Article 365",
      "as": "অনুচ্ছেদ ৩৬৫"
+    },
+    {
+     "en": "Article 356",
+     "as": "অনুচ্ছেদ ৩৫৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 356 provides for President's rule in a State.",
     "as": "অনুচ্ছেদ ৩৫৬ ৰাজ্যত ৰাষ্ট্ৰপতি শাসনৰ ব্যৱস্থা কৰে।"
@@ -8234,10 +8234,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Chief Minister of Assam",
      "as": "অসমৰ মুখ্যমন্ত্ৰী"
     },
@@ -8246,11 +8242,15 @@ module.exports = {
      "as": "প্ৰধানমন্ত্ৰী"
     },
     {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
      "en": "Chief Justice",
      "as": "মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor of Assam, like all Governors, is appointed by the President.",
     "as": "অসমৰ ৰাজ্যপাল, সকলো ৰাজ্যপালৰ দৰে, ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়ে।"
@@ -8294,10 +8294,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "nominal head of the State",
-     "as": "ৰাজ্যৰ নামমাত্ৰ মুৰব্বী"
-    },
-    {
      "en": "real head of the State",
      "as": "ৰাজ্যৰ প্ৰকৃত মুৰব্বী"
     },
@@ -8306,11 +8302,15 @@ module.exports = {
      "as": "ন্যায়পালিকাৰ মুৰব্বী"
     },
     {
+     "en": "nominal head of the State",
+     "as": "ৰাজ্যৰ নামমাত্ৰ মুৰব্বী"
+    },
+    {
      "en": "head of the army",
      "as": "সেনাৰ মুৰব্বী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor is the nominal head; the real power lies with the CM.",
     "as": "ৰাজ্যপাল নামমাত্ৰ মুৰব্বী; প্ৰকৃত ক্ষমতা মুখ্যমন্ত্ৰীৰ ওচৰত।"
@@ -8324,10 +8324,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Chief Minister and the Council of Ministers",
-     "as": "মুখ্যমন্ত্ৰী আৰু মন্ত্ৰীপৰিষদ"
-    },
-    {
      "en": "Governor",
      "as": "ৰাজ্যপাল"
     },
@@ -8336,11 +8332,15 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     },
     {
+     "en": "Chief Minister and the Council of Ministers",
+     "as": "মুখ্যমন্ত্ৰী আৰু মন্ত্ৰীপৰিষদ"
+    },
+    {
      "en": "Legislature",
      "as": "বিধানমণ্ডল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The real executive power lies with the CM and the Council of Ministers.",
     "as": "প্ৰকৃত কাৰ্যবাহী ক্ষমতা মুখ্যমন্ত্ৰী আৰু মন্ত্ৰীপৰিষদৰ ওচৰত।"
@@ -8354,10 +8354,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "One Anglo-Indian member",
-     "as": "এজন এংলো-ইণ্ডিয়ান সদস্য"
-    },
-    {
      "en": "Twelve members",
      "as": "বাৰজন সদস্য"
     },
@@ -8366,11 +8362,15 @@ module.exports = {
      "as": "দুজন সদস্য"
     },
     {
+     "en": "One Anglo-Indian member",
+     "as": "এজন এংলো-ইণ্ডিয়ান সদস্য"
+    },
+    {
      "en": "Ten members",
      "as": "দহজন সদস্য"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor could nominate one Anglo-Indian member to the Assembly.",
     "as": "ৰাজ্যপালে বিধানসভালৈ এজন এংগ্লো-ইণ্ডিয়ান সদস্য মনোনীত কৰিব পাৰিছিল।"
@@ -8384,12 +8384,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Consolidated Fund of India",
-     "as": "ভাৰতৰ সংহত নিধি"
-    },
-    {
      "en": "Contingency Fund",
      "as": "আপদকালীন নিধি"
+    },
+    {
+     "en": "Consolidated Fund of India",
+     "as": "ভাৰতৰ সংহত নিধি"
     },
     {
      "en": "Public Account",
@@ -8400,7 +8400,7 @@ module.exports = {
      "as": "ৰাজ্য নিধি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "They are charged on the Consolidated Fund of India.",
     "as": "ইবোৰ ভাৰতৰ সংহত নিধিৰ ওপৰত ভাৰ।"
@@ -8414,12 +8414,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Chief Justice of the concerned High Court",
-     "as": "সম্পৃক্ত উচ্চ ন্যায়ালয়ৰ মুখ্য ন্যায়াধীশ"
-    },
-    {
      "en": "The Chief Justice of India",
      "as": "ভাৰতৰ মুখ্য ন্যায়াধীশ"
+    },
+    {
+     "en": "The Chief Justice of the concerned High Court",
+     "as": "সম্পৃক্ত উচ্চ ন্যায়ালয়ৰ মুখ্য ন্যায়াধীশ"
     },
     {
      "en": "The President",
@@ -8430,7 +8430,7 @@ module.exports = {
      "as": "মুখ্যমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Chief Justice of the High Court administers the oath.",
     "as": "উচ্চ ন্যায়ালয়ৰ মুখ্য ন্যায়াধীশে শপথ বাক্য পাঠ কৰায়।"
@@ -8444,12 +8444,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 78",
-     "as": "অনুচ্ছেদ ৭৮"
-    },
-    {
      "en": "Article 74",
      "as": "অনুচ্ছেদ ৭৪"
+    },
+    {
+     "en": "Article 78",
+     "as": "অনুচ্ছেদ ৭৮"
     },
     {
      "en": "Article 75",
@@ -8460,7 +8460,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 78 makes it the duty of the PM.",
     "as": "অনুচ্ছেদ ৭৮ এ প্ৰধানমন্ত্ৰীৰ কৰ্তব্য কৰি দিয়ে।"
@@ -8474,10 +8474,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 143",
-     "as": "অনুচ্ছেদ ১৪৩"
-    },
-    {
      "en": "Article 132",
      "as": "অনুচ্ছেদ ১৩২"
     },
@@ -8488,9 +8484,13 @@ module.exports = {
     {
      "en": "Article 124",
      "as": "অনুচ্ছেদ ১২৪"
+    },
+    {
+     "en": "Article 143",
+     "as": "অনুচ্ছেদ ১৪৩"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 143 gives advisory jurisdiction to the Supreme Court.",
     "as": "অনুচ্ছেদ ১৪৩ সৰ্বোচ্চ ন্যায়ালয়ক পৰামৰ্শমূলক অধিকাৰক্ষেত্ৰ দিয়ে।"
@@ -8504,12 +8504,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Speaker of the Lok Sabha",
-     "as": "লোকসভাৰ অধ্যক্ষ"
-    },
-    {
      "en": "The Chairman of the Rajya Sabha",
      "as": "ৰাজ্যসভাৰ সভাপতি"
+    },
+    {
+     "en": "The Speaker of the Lok Sabha",
+     "as": "লোকসভাৰ অধ্যক্ষ"
     },
     {
      "en": "The President",
@@ -8520,7 +8520,7 @@ module.exports = {
      "as": "উপ-ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Speaker of the Lok Sabha presides over a joint sitting.",
     "as": "লোকসভাৰ অধ্যক্ষে যুটীয়া বৈঠকত সভাপতিত্ব কৰে।"
@@ -8534,12 +8534,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Government",
-     "as": "চৰকাৰ"
-    },
-    {
      "en": "Parliament",
      "as": "সংসদ"
+    },
+    {
+     "en": "Government",
+     "as": "চৰকাৰ"
     },
     {
      "en": "Judiciary",
@@ -8550,7 +8550,7 @@ module.exports = {
      "as": "সেনা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President is head of State; the PM is head of Government.",
     "as": "ৰাষ্ট্ৰপতি ৰাষ্ট্ৰৰ মুৰব্বী; প্ৰধানমন্ত্ৰী চৰকাৰৰ মুৰব্বী।"
@@ -8564,10 +8564,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 352",
-     "as": "অনুচ্ছেদ ৩৫২"
-    },
-    {
      "en": "Article 356",
      "as": "অনুচ্ছেদ ৩৫৬"
     },
@@ -8578,9 +8574,13 @@ module.exports = {
     {
      "en": "Article 123",
      "as": "অনুচ্ছেদ ১২৩"
+    },
+    {
+     "en": "Article 352",
+     "as": "অনুচ্ছেদ ৩৫২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 352 empowers the President to declare a National Emergency.",
     "as": "অনুচ্ছেদ ৩৫২ ৰাষ্ট্ৰপতিক ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা ঘোষণা কৰাৰ ক্ষমতা দিয়ে।"
@@ -8594,12 +8594,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 360",
-     "as": "অনুচ্ছেদ ৩৬০"
-    },
-    {
      "en": "Article 352",
      "as": "অনুচ্ছেদ ৩৫২"
+    },
+    {
+     "en": "Article 360",
+     "as": "অনুচ্ছেদ ৩৬০"
     },
     {
      "en": "Article 356",
@@ -8610,7 +8610,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১২৩"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 360 empowers the President to declare a Financial Emergency.",
     "as": "অনুচ্ছেদ ৩৬০ ৰাষ্ট্ৰপতিক বিত্তীয় জৰুৰীকালীন অৱস্থা ঘোষণা কৰাৰ ক্ষমতা দিয়ে।"
@@ -8624,10 +8624,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "one month",
-     "as": "এক মাহ"
-    },
-    {
      "en": "two months",
      "as": "দুই মাহ"
     },
@@ -8638,9 +8634,13 @@ module.exports = {
     {
      "en": "three months",
      "as": "তিনি মাহ"
+    },
+    {
+     "en": "one month",
+     "as": "এক মাহ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It must be approved within one month.",
     "as": "ই এক মাহৰ ভিতৰত অনুমোদিত হ'ব লাগে।"
@@ -8654,12 +8654,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Chief Minister",
      "as": "মুখ্যমন্ত্ৰী"
+    },
+    {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "State Legislature",
@@ -8670,7 +8670,7 @@ module.exports = {
      "as": "প্ৰধানমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Governor holds office during the pleasure of the President and is answerable to him.",
     "as": "ৰাজ্যপাল ৰাষ্ট্ৰপতিৰ সন্তুষ্টি কাললৈকে কাৰ্যকাল থাকে আৰু তেওঁৰ প্ৰতি দায়বদ্ধ।"
@@ -8714,10 +8714,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Legislative Assembly",
-     "as": "বিধানসভা"
-    },
-    {
      "en": "Governor",
      "as": "ৰাজ্যপাল"
     },
@@ -8728,9 +8724,13 @@ module.exports = {
     {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
+    },
+    {
+     "en": "Legislative Assembly",
+     "as": "বিধানসভা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The State Council of Ministers is responsible to the Legislative Assembly.",
     "as": "ৰাজ্য মন্ত্ৰীপৰিষদ বিধানসভাৰ প্ৰতি দায়বদ্ধ।"
@@ -8744,10 +8744,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "15 percent",
-     "as": "১৫ শতাংশ"
-    },
-    {
      "en": "10 percent",
      "as": "১০ শতাংশ"
     },
@@ -8758,9 +8754,13 @@ module.exports = {
     {
      "en": "12 percent",
      "as": "১২ শতাংশ"
+    },
+    {
+     "en": "15 percent",
+     "as": "১৫ শতাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It is capped at 15 percent, with a minimum of 12 ministers.",
     "as": "ই ১৫ শতাংশত সীমাবদ্ধ, ন্যূনতম ১২ জন মন্ত্ৰীৰ সৈতে।"
@@ -8774,12 +8774,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 159",
-     "as": "অনুচ্ছেদ ১৫৯"
-    },
-    {
      "en": "Article 156",
      "as": "অনুচ্ছেদ ১৫৬"
+    },
+    {
+     "en": "Article 159",
+     "as": "অনুচ্ছেদ ১৫৯"
     },
     {
      "en": "Article 158",
@@ -8790,7 +8790,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 159 deals with the oath of the Governor.",
     "as": "অনুচ্ছেদ ১৫৯ ৰাজ্যপালৰ শপথৰ বিষয়ে কয়।"
@@ -8804,10 +8804,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 158",
-     "as": "অনুচ্ছেদ ১৫৮"
-    },
-    {
      "en": "Article 156",
      "as": "অনুচ্ছেদ ১৫৬"
     },
@@ -8818,9 +8814,13 @@ module.exports = {
     {
      "en": "Article 159",
      "as": "অনুচ্ছেদ ১৫৯"
+    },
+    {
+     "en": "Article 158",
+     "as": "অনুচ্ছেদ ১৫৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 158 lays down the conditions of the Governor's office.",
     "as": "অনুচ্ছেদ ১৫৮ ৰাজ্যপালৰ পদৰ চৰ্তবোৰ নিৰ্ধাৰণ কৰে।"
@@ -8834,10 +8834,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 157",
-     "as": "অনুচ্ছেদ ১৫৭"
-    },
-    {
      "en": "Article 155",
      "as": "অনুচ্ছেদ ১৫৫"
     },
@@ -8846,11 +8842,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৫৬"
     },
     {
+     "en": "Article 157",
+     "as": "অনুচ্ছেদ ১৫৭"
+    },
+    {
      "en": "Article 158",
      "as": "অনুচ্ছেদ ১৫৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 157 lays down the qualifications of the Governor.",
     "as": "অনুচ্ছেদ ১৫৭ ৰাজ্যপালৰ যোগ্যতাবোৰ নিৰ্ধাৰণ কৰে।"
@@ -8864,12 +8864,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Chief Minister",
-     "as": "মুখ্যমন্ত্ৰী"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
+     "en": "Chief Minister",
+     "as": "মুখ্যমন্ত্ৰী"
     },
     {
      "en": "Speaker",
@@ -8880,7 +8880,7 @@ module.exports = {
      "as": "প্ৰধানমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Other Ministers are appointed on the advice of the Chief Minister.",
     "as": "অন্য মন্ত্ৰীসকল মুখ্যমন্ত্ৰীৰ পৰামৰ্শত নিযুক্তি দিয়া হয়।"
@@ -8894,10 +8894,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "impeachment",
-     "as": "অভিশংসন"
-    },
-    {
      "en": "a no-confidence motion",
      "as": "অবিশ্বাস প্ৰস্তাৱ"
     },
@@ -8906,11 +8902,15 @@ module.exports = {
      "as": "জনমত সংগ্ৰহ"
     },
     {
+     "en": "impeachment",
+     "as": "অভিশংসন"
+    },
+    {
      "en": "a court order",
      "as": "আদালতৰ আদেশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The President can be removed by impeachment for violation of the Constitution.",
     "as": "সংবিধান উলংঘাৰ বাবে অভিশংসনৰ জৰিয়তে ৰাষ্ট্ৰপতিক আঁতৰাব পাৰি।"
@@ -8954,12 +8954,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 65",
-     "as": "অনুচ্ছেদ ৬৫"
-    },
-    {
      "en": "Article 63",
      "as": "অনুচ্ছেদ ৬৩"
+    },
+    {
+     "en": "Article 65",
+     "as": "অনুচ্ছেদ ৬৫"
     },
     {
      "en": "Article 64",
@@ -8970,7 +8970,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৬৮"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 65 provides for the Vice President discharging the President's functions.",
     "as": "অনুচ্ছেদ ৬৫ উপ-ৰাষ্ট্ৰপতিয়ে ৰাষ্ট্ৰপতিৰ কাৰ্য সম্পাদনৰ ব্যৱস্থা কৰে।"
@@ -8984,12 +8984,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 75",
-     "as": "অনুচ্ছেদ ৭৫"
-    },
-    {
      "en": "Article 74",
      "as": "অনুচ্ছেদ ৭৪"
+    },
+    {
+     "en": "Article 75",
+     "as": "অনুচ্ছেদ ৭৫"
     },
     {
      "en": "Article 78",
@@ -9000,7 +9000,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 75 provides for the appointment of the PM by the President.",
     "as": "অনুচ্ছেদ ৭৫ ৰাষ্ট্ৰপতিয়ে প্ৰধানমন্ত্ৰী নিযুক্তিৰ ব্যৱস্থা কৰে।"
@@ -9014,10 +9014,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "six months",
-     "as": "ছয় মাহ"
-    },
-    {
      "en": "one year",
      "as": "এক বছৰ"
     },
@@ -9026,11 +9022,15 @@ module.exports = {
      "as": "তিনি মাহ"
     },
     {
+     "en": "six months",
+     "as": "ছয় মাহ"
+    },
+    {
      "en": "two years",
      "as": "দুই বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "He must become a member within six months or cease to be a Minister.",
     "as": "তেওঁ ছয় মাহৰ ভিতৰত সদস্য হ'ব লাগে, নহ'লে মন্ত্ৰী পদৰ পৰা আঁতৰিব লাগে।"
@@ -9074,10 +9074,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Raj Bhavan",
-     "as": "ৰাজ ভৱন"
-    },
-    {
      "en": "Rashtrapati Bhavan",
      "as": "ৰাষ্ট্ৰপতি ভৱন"
     },
@@ -9086,11 +9082,15 @@ module.exports = {
      "as": "বিধান ভৱন"
     },
     {
+     "en": "Raj Bhavan",
+     "as": "ৰাজ ভৱন"
+    },
+    {
      "en": "Sachivalaya",
      "as": "সচিবালয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor's residence is called Raj Bhavan.",
     "as": "ৰাজ্যপালৰ বাসভৱনক ৰাজ ভৱন কোৱা হয়।"
@@ -9104,10 +9104,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rashtrapati Bhavan",
-     "as": "ৰাষ্ট্ৰপতি ভৱন"
-    },
-    {
      "en": "Raj Bhavan",
      "as": "ৰাজ ভৱন"
     },
@@ -9118,9 +9114,13 @@ module.exports = {
     {
      "en": "Sansad Bhavan",
      "as": "সংসদ ভৱন"
+    },
+    {
+     "en": "Rashtrapati Bhavan",
+     "as": "ৰাষ্ট্ৰপতি ভৱন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The President's residence is Rashtrapati Bhavan.",
     "as": "ৰাষ্ট্ৰপতিৰ বাসভৱন ৰাষ্ট্ৰপতি ভৱন।"
@@ -9134,10 +9134,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "7, Lok Kalyan Marg",
-     "as": "৭, লোক কল্যাণ মাৰ্গ"
-    },
-    {
      "en": "Rashtrapati Bhavan",
      "as": "ৰাষ্ট্ৰপতি ভৱন"
     },
@@ -9148,9 +9144,13 @@ module.exports = {
     {
      "en": "South Block",
      "as": "দক্ষিণ খণ্ড"
+    },
+    {
+     "en": "7, Lok Kalyan Marg",
+     "as": "৭, লোক কল্যাণ মাৰ্গ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The PM resides at 7, Lok Kalyan Marg, New Delhi.",
     "as": "প্ৰধানমন্ত্ৰী নতুন দিল্লীৰ ৭, লোক কল্যাণ মাৰ্গত থাকে।"
@@ -9164,10 +9164,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Vice President",
-     "as": "উপ-ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "The President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -9178,9 +9174,13 @@ module.exports = {
     {
      "en": "The Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "The Vice President",
+     "as": "উপ-ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Vice President is the ex-officio Chairman of the Rajya Sabha.",
     "as": "উপ-ৰাষ্ট্ৰপতি ৰাজ্যসভাৰ পদাধিকাৰীক্ৰমে সভাপতি।"
@@ -9194,10 +9194,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "members of the Rajya Sabha",
-     "as": "ৰাজ্যসভাৰ সদস্যসকল"
-    },
-    {
      "en": "members of the Lok Sabha",
      "as": "লোকসভাৰ সদস্যসকল"
     },
@@ -9206,11 +9202,15 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     },
     {
+     "en": "members of the Rajya Sabha",
+     "as": "ৰাজ্যসভাৰ সদস্যসকল"
+    },
+    {
      "en": "Vice President",
      "as": "উপ-ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Rajya Sabha elects its Deputy Chairman from among its members.",
     "as": "ৰাজ্যসভাই তাৰ সদস্যসকলৰ পৰা উপ-সভাপতি নিৰ্বাচন কৰে।"
@@ -9224,10 +9224,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "members of the Lok Sabha",
-     "as": "লোকসভাৰ সদস্যসকল"
-    },
-    {
      "en": "members of the Rajya Sabha",
      "as": "ৰাজ্যসভাৰ সদস্যসকল"
     },
@@ -9238,9 +9234,13 @@ module.exports = {
     {
      "en": "Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "members of the Lok Sabha",
+     "as": "লোকসভাৰ সদস্যসকল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Lok Sabha elects its Speaker from among its members.",
     "as": "লোকসভাই তাৰ সদস্যসকলৰ পৰা অধ্যক্ষ নিৰ্বাচন কৰে।"
@@ -9254,12 +9254,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "violation of the Constitution",
-     "as": "সংবিধান উলংঘা"
-    },
-    {
      "en": "corruption",
      "as": "দুৰ্নীতি"
+    },
+    {
+     "en": "violation of the Constitution",
+     "as": "সংবিধান উলংঘা"
     },
     {
      "en": "incompetence",
@@ -9270,7 +9270,7 @@ module.exports = {
      "as": "ৰাষ্ট্ৰদ্ৰোহ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Removal is only for violation of the Constitution.",
     "as": "কেৱল সংবিধান উলংঘাৰ বাবে আঁতৰাব পাৰি।"
@@ -9284,10 +9284,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 74",
-     "as": "অনুচ্ছেদ ৭৪"
-    },
-    {
      "en": "Article 75",
      "as": "অনুচ্ছেদ ৭৫"
     },
@@ -9298,9 +9294,13 @@ module.exports = {
     {
      "en": "Article 52",
      "as": "অনুচ্ছেদ ৫২"
+    },
+    {
+     "en": "Article 74",
+     "as": "অনুচ্ছেদ ৭৪"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 74 provides for the Council of Ministers.",
     "as": "অনুচ্ছেদ ৭৪ মন্ত্ৰীপৰিষদৰ ব্যৱস্থা কৰে।"
@@ -9314,10 +9314,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Prime Minister",
-     "as": "প্ৰধানমন্ত্ৰী"
-    },
-    {
      "en": "Vice President",
      "as": "উপ-ৰাষ্ট্ৰপতি"
     },
@@ -9326,11 +9322,15 @@ module.exports = {
      "as": "অধ্যক্ষ"
     },
     {
+     "en": "Prime Minister",
+     "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
      "en": "Chief Justice",
      "as": "মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The President appoints other Ministers on the advice of the PM.",
     "as": "ৰাষ্ট্ৰপতিয়ে প্ৰধানমন্ত্ৰীৰ পৰামৰ্শত অন্য মন্ত্ৰীসকলক নিযুক্তি দিয়ে।"
@@ -9344,12 +9344,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Governor",
-     "as": "ৰাজ্যপাল"
-    },
-    {
      "en": "The Chief Minister",
      "as": "মুখ্যমন্ত্ৰী"
+    },
+    {
+     "en": "The Governor",
+     "as": "ৰাজ্যপাল"
     },
     {
      "en": "Both equally",
@@ -9360,7 +9360,7 @@ module.exports = {
      "as": "কোনোটো নহয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Governor is the constitutional head of the State.",
     "as": "ৰাজ্যপাল ৰাজ্যৰ সাংবিধানিক মুৰব্বী।"
@@ -9404,12 +9404,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 56",
-     "as": "অনুচ্ছেদ ৫৬"
-    },
-    {
      "en": "Article 57",
      "as": "অনুচ্ছেদ ৫৭"
+    },
+    {
+     "en": "Article 56",
+     "as": "অনুচ্ছেদ ৫৬"
     },
     {
      "en": "Article 58",
@@ -9420,7 +9420,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৫৯"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 56 provides that the President may resign to the Vice President.",
     "as": "অনুচ্ছেদ ৫৬ এ কয় যে ৰাষ্ট্ৰপতিয়ে উপ-ৰাষ্ট্ৰপতিক লিখি পদত্যাগ কৰিব পাৰে।"
@@ -9434,10 +9434,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 66",
-     "as": "অনুচ্ছেদ ৬৬"
-    },
-    {
      "en": "Article 63",
      "as": "অনুচ্ছেদ ৬৩"
     },
@@ -9448,9 +9444,13 @@ module.exports = {
     {
      "en": "Article 65",
      "as": "অনুচ্ছেদ ৬৫"
+    },
+    {
+     "en": "Article 66",
+     "as": "অনুচ্ছেদ ৬৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 66 deals with the election of the Vice President.",
     "as": "অনুচ্ছেদ ৬৬ উপ-ৰাষ্ট্ৰপতি নিৰ্বাচনৰ বিষয়ে কয়।"
@@ -9464,10 +9464,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "35 years",
-     "as": "৩৫ বছৰ"
-    },
-    {
      "en": "30 years",
      "as": "৩০ বছৰ"
     },
@@ -9478,9 +9474,13 @@ module.exports = {
     {
      "en": "40 years",
      "as": "৪০ বছৰ"
+    },
+    {
+     "en": "35 years",
+     "as": "৩৫ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A candidate must be at least 35 years old.",
     "as": "প্ৰাৰ্থীৰ বয়স অন্ততঃ ৩৫ বছৰ হ'ব লাগে।"
@@ -9494,10 +9494,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "five years",
-     "as": "পাঁচ বছৰ"
-    },
-    {
      "en": "six years",
      "as": "ছয় বছৰ"
     },
@@ -9506,11 +9502,15 @@ module.exports = {
      "as": "চাৰি বছৰ"
     },
     {
+     "en": "five years",
+     "as": "পাঁচ বছৰ"
+    },
+    {
      "en": "three years",
      "as": "তিনি বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Vice President's term is five years.",
     "as": "উপ-ৰাষ্ট্ৰপতিৰ কাৰ্যকাল পাঁচ বছৰ।"
@@ -9524,12 +9524,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 155",
-     "as": "অনুচ্ছেদ ১৫৫"
-    },
-    {
      "en": "Article 153",
      "as": "অনুচ্ছেদ ১৫৩"
+    },
+    {
+     "en": "Article 155",
+     "as": "অনুচ্ছেদ ১৫৫"
     },
     {
      "en": "Article 154",
@@ -9540,7 +9540,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৫৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 155 provides that the Governor is appointed by the President.",
     "as": "অনুচ্ছেদ ১৫৫ এ কয় যে ৰাজ্যপালক ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়ে।"
@@ -9554,10 +9554,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 156",
-     "as": "অনুচ্ছেদ ১৫৬"
-    },
-    {
      "en": "Article 155",
      "as": "অনুচ্ছেদ ১৫৫"
     },
@@ -9568,9 +9564,13 @@ module.exports = {
     {
      "en": "Article 158",
      "as": "অনুচ্ছেদ ১৫৮"
+    },
+    {
+     "en": "Article 156",
+     "as": "অনুচ্ছেদ ১৫৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 156 says the Governor holds office during the President's pleasure.",
     "as": "অনুচ্ছেদ ১৫৬ এ কয় যে ৰাজ্যপাল ৰাষ্ট্ৰপতিৰ সন্তুষ্টি কাললৈকে কাৰ্যকাল থাকে।"
@@ -9614,10 +9614,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Governor",
-     "as": "ৰাজ্যপাল"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -9626,11 +9622,15 @@ module.exports = {
      "as": "প্ৰধানমন্ত্ৰী"
     },
     {
+     "en": "Governor",
+     "as": "ৰাজ্যপাল"
+    },
+    {
      "en": "Speaker",
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor appoints the CM and other Ministers.",
     "as": "ৰাজ্যপালে মুখ্যমন্ত্ৰী আৰু অন্য মন্ত্ৰীসকলক নিযুক্তি দিয়ে।"
@@ -9644,10 +9644,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "six months",
-     "as": "ছয় মাহ"
-    },
-    {
      "en": "one year",
      "as": "এক বছৰ"
     },
@@ -9656,11 +9652,15 @@ module.exports = {
      "as": "তিনি মাহ"
     },
     {
+     "en": "six months",
+     "as": "ছয় মাহ"
+    },
+    {
      "en": "two years",
      "as": "দুই বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "He must become a member within six months.",
     "as": "তেওঁ ছয় মাহৰ ভিতৰত সদস্য হ'ব লাগে।"
@@ -9674,10 +9674,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 165",
-     "as": "অনুচ্ছেদ ১৬৫"
-    },
-    {
      "en": "Article 164",
      "as": "অনুচ্ছেদ ১৬৪"
     },
@@ -9686,11 +9682,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬৩"
     },
     {
+     "en": "Article 165",
+     "as": "অনুচ্ছেদ ১৬৫"
+    },
+    {
      "en": "Article 167",
      "as": "অনুচ্ছেদ ১৬৭"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 165 provides for the Advocate General of a State.",
     "as": "অনুচ্ছেদ ১৬৫ ৰাজ্যৰ এডভোকেট জেনেৰেলৰ ব্যৱস্থা কৰে।"
@@ -9704,12 +9704,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Governor",
-     "as": "ৰাজ্যপাল"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
+     "en": "Governor",
+     "as": "ৰাজ্যপাল"
     },
     {
      "en": "Chief Justice",
@@ -9720,7 +9720,7 @@ module.exports = {
      "as": "মুখ্যমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Governor appoints the Advocate General.",
     "as": "ৰাজ্যপালে এডভোকেট জেনেৰেল নিযুক্তি দিয়ে।"
@@ -9734,10 +9734,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 167",
-     "as": "অনুচ্ছেদ ১৬৭"
-    },
-    {
      "en": "Article 163",
      "as": "অনুচ্ছেদ ১৬৩"
     },
@@ -9746,11 +9742,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬৪"
     },
     {
+     "en": "Article 167",
+     "as": "অনুচ্ছেদ ১৬৭"
+    },
+    {
      "en": "Article 165",
      "as": "অনুচ্ছেদ ১৬৫"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 167 makes this the duty of the Chief Minister.",
     "as": "অনুচ্ছেদ ১৬৭ এ মুখ্যমন্ত্ৰীৰ কৰ্তব্য কৰি দিয়ে।"
@@ -9764,10 +9764,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "offences against State laws",
-     "as": "ৰাজ্য আইনৰ বিৰুদ্ধে অপৰাধ"
-    },
-    {
      "en": "offences against Union laws",
      "as": "সংঘ আইনৰ বিৰুদ্ধে অপৰাধ"
     },
@@ -9778,9 +9774,13 @@ module.exports = {
     {
      "en": "death sentences only",
      "as": "কেৱল মৃত্যুদণ্ড"
+    },
+    {
+     "en": "offences against State laws",
+     "as": "ৰাজ্য আইনৰ বিৰুদ্ধে অপৰাধ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Governor's pardoning power is limited to offences against State laws.",
     "as": "ৰাজ্যপালৰ ক্ষমা ক্ষমতা ৰাজ্য আইনৰ বিৰুদ্ধে অপৰাধত সীমাবদ্ধ।"
@@ -9794,12 +9794,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "death sentences and court-martial",
-     "as": "মৃত্যুদণ্ড আৰু কোৰ্ট-মাৰ্শাল"
-    },
-    {
      "en": "State laws only",
      "as": "কেৱল ৰাজ্য আইন"
+    },
+    {
+     "en": "death sentences and court-martial",
+     "as": "মৃত্যুদণ্ড আৰু কোৰ্ট-মাৰ্শাল"
     },
     {
      "en": "civil cases",
@@ -9810,7 +9810,7 @@ module.exports = {
      "as": "নিৰ্বাচনী বিবাদ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President can pardon death sentences and court-martial punishments.",
     "as": "ৰাষ্ট্ৰপতিয়ে মৃত্যুদণ্ড আৰু কোৰ্ট-মাৰ্শাল শাস্তি ক্ষমা কৰিব পাৰে।"
@@ -9824,12 +9824,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 315",
-     "as": "অনুচ্ছেদ ৩১৫"
-    },
-    {
      "en": "Article 324",
      "as": "অনুচ্ছেদ ৩২৪"
+    },
+    {
+     "en": "Article 315",
+     "as": "অনুচ্ছেদ ৩১৫"
     },
     {
      "en": "Article 148",
@@ -9840,7 +9840,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 315 provides for the UPSC and State PSCs.",
     "as": "অনুচ্ছেদ ৩১৫ UPSC আৰু ৰাজ্য PSC ৰ ব্যৱস্থা কৰে।"
@@ -9854,10 +9854,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "elected members of both Houses of Parliament and elected members of State Legislative Assemblies",
-     "as": "সংসদৰ দুয়ো সদনৰ নিৰ্বাচিত সদস্য আৰু ৰাজ্য বিধানসভাৰ নিৰ্বাচিত সদস্য"
-    },
-    {
      "en": "all citizens",
      "as": "সকলো নাগৰিক"
     },
@@ -9866,11 +9862,15 @@ module.exports = {
      "as": "কেৱল ৰাজ্যসভাৰ সদস্য"
     },
     {
+     "en": "elected members of both Houses of Parliament and elected members of State Legislative Assemblies",
+     "as": "সংসদৰ দুয়ো সদনৰ নিৰ্বাচিত সদস্য আৰু ৰাজ্য বিধানসভাৰ নিৰ্বাচিত সদস্য"
+    },
+    {
      "en": "only Lok Sabha members",
      "as": "কেৱল লোকসভাৰ সদস্য"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The electoral college has elected MPs and elected MLAs.",
     "as": "নিৰ্বাচনী মহাবিদ্যালয়ত নিৰ্বাচিত সাংসদ আৰু নিৰ্বাচিত বিধায়ক থাকে।"
@@ -9944,10 +9944,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 55",
-     "as": "অনুচ্ছেদ ৫৫"
-    },
-    {
      "en": "Article 54",
      "as": "অনুচ্ছেদ ৫৪"
     },
@@ -9956,11 +9952,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৫৩"
     },
     {
+     "en": "Article 55",
+     "as": "অনুচ্ছেদ ৫৫"
+    },
+    {
      "en": "Article 56",
      "as": "অনুচ্ছেদ ৫৬"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 55 deals with the manner of election.",
     "as": "অনুচ্ছেদ ৫৫ নিৰ্বাচনৰ ধৰণৰ বিষয়ে কয়।"
@@ -9974,10 +9974,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "that the office does not remain vacant",
-     "as": "যে পদটো খালী নাথাকে"
-    },
-    {
      "en": "a longer term",
      "as": "দীঘল কাৰ্যকাল"
     },
@@ -9986,11 +9982,15 @@ module.exports = {
      "as": "চুটি কাৰ্যকাল"
     },
     {
+     "en": "that the office does not remain vacant",
+     "as": "যে পদটো খালী নাথাকে"
+    },
+    {
      "en": "a re-election",
      "as": "পুনৰ্নিৰ্বাচন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It is held before expiry so the office does not remain vacant.",
     "as": "পদ খালী নাথাকিবলৈ ই কাৰ্যকাল শেষ হোৱাৰ আগতে অনুষ্ঠিত হয়।"
@@ -10064,12 +10064,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Chief Minister",
-     "as": "মুখ্যমন্ত্ৰী"
-    },
-    {
      "en": "The Governor",
      "as": "ৰাজ্যপাল"
+    },
+    {
+     "en": "The Chief Minister",
+     "as": "মুখ্যমন্ত্ৰী"
     },
     {
      "en": "The President",
@@ -10080,7 +10080,7 @@ module.exports = {
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Chief Minister heads the State Council of Ministers.",
     "as": "মুখ্যমন্ত্ৰী ৰাজ্য মন্ত্ৰীপৰিষদৰ মুৰব্বী।"
@@ -10094,10 +10094,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "other Ministers",
-     "as": "অন্য মন্ত্ৰীসকলক"
-    },
-    {
      "en": "the Speaker",
      "as": "অধ্যক্ষক"
     },
@@ -10106,11 +10102,15 @@ module.exports = {
      "as": "মুখ্য ন্যায়াধীশক"
     },
     {
+     "en": "other Ministers",
+     "as": "অন্য মন্ত্ৰীসকলক"
+    },
+    {
      "en": "the Advocate General",
      "as": "এডভোকেট জেনেৰেলক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Other Ministers are appointed on the CM's advice.",
     "as": "অন্য মন্ত্ৰীসকল মুখ্যমন্ত্ৰীৰ পৰামৰ্শত নিযুক্তি দিয়া হয়।"
@@ -10124,10 +10124,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "from persons having special knowledge",
-     "as": "বিশেষ জ্ঞান থকা ব্যক্তিসকলৰ পৰা"
-    },
-    {
      "en": "from the police",
      "as": "আৰক্ষীৰ পৰা"
     },
@@ -10138,9 +10134,13 @@ module.exports = {
     {
      "en": "from the judiciary",
      "as": "ন্যায়পালিকাৰ পৰা"
+    },
+    {
+     "en": "from persons having special knowledge",
+     "as": "বিশেষ জ্ঞান থকা ব্যক্তিসকলৰ পৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Governor nominates persons with special knowledge to the Legislative Council.",
     "as": "ৰাজ্যপালে বিশেষ জ্ঞান থকা ব্যক্তিসকলক বিধান পৰিষদলৈ মনোনীত কৰে।"
@@ -10154,10 +10154,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 176",
-     "as": "অনুচ্ছেদ ১৭৬"
-    },
-    {
      "en": "Article 175",
      "as": "অনুচ্ছেদ ১৭৫"
     },
@@ -10166,11 +10162,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৭৪"
     },
     {
+     "en": "Article 176",
+     "as": "অনুচ্ছেদ ১৭৬"
+    },
+    {
      "en": "Article 178",
      "as": "অনুচ্ছেদ ১৭৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 176 deals with the Governor's special address.",
     "as": "অনুচ্ছেদ ১৭৬ ৰাজ্যপালৰ বিশেষ সম্বোধনৰ বিষয়ে কয়।"
@@ -10184,10 +10184,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 175",
-     "as": "অনুচ্ছেদ ১৭৫"
-    },
-    {
      "en": "Article 176",
      "as": "অনুচ্ছেদ ১৭৬"
     },
@@ -10196,11 +10192,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৭৪"
     },
     {
+     "en": "Article 175",
+     "as": "অনুচ্ছেদ ১৭৫"
+    },
+    {
      "en": "Article 178",
      "as": "অনুচ্ছেদ ১৭৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 175 deals with the Governor's right to address the Legislature.",
     "as": "অনুচ্ছেদ ১৭৫ বিধানমণ্ডলক সম্বোধনৰ ৰাজ্যপালৰ অধিকাৰৰ বিষয়ে কয়।"
@@ -10214,10 +10214,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 85",
-     "as": "অনুচ্ছেদ ৮৫"
-    },
-    {
      "en": "Article 86",
      "as": "অনুচ্ছেদ ৮৬"
     },
@@ -10228,9 +10224,13 @@ module.exports = {
     {
      "en": "Article 88",
      "as": "অনুচ্ছেদ ৮৮"
+    },
+    {
+     "en": "Article 85",
+     "as": "অনুচ্ছেদ ৮৫"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 85 deals with sessions of Parliament, prorogation and dissolution.",
     "as": "অনুচ্ছেদ ৮৫ সংসদৰ অধিৱেশন, স্থগিত আৰু ভংগৰ বিষয়ে কয়।"
@@ -10304,12 +10304,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "he is an integral part of Parliament",
-     "as": "তেওঁ সংসদৰ অবিচ্ছেদ্য অংশ"
-    },
-    {
      "en": "he votes in the Lok Sabha",
      "as": "তেওঁ লোকসভাত ভোট দিয়ে"
+    },
+    {
+     "en": "he is an integral part of Parliament",
+     "as": "তেওঁ সংসদৰ অবিচ্ছেদ্য অংশ"
     },
     {
      "en": "he votes in the Rajya Sabha",
@@ -10320,7 +10320,7 @@ module.exports = {
      "as": "তেওঁ লোকসভাত সভাপতিত্ব কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President is an integral part of Parliament though not a member.",
     "as": "ৰাষ্ট্ৰপতি সদস্য নহ'লেও সংসদৰ অবিচ্ছেদ্য অংশ।"
@@ -10334,12 +10334,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 52",
-     "as": "অনুচ্ছেদ ৫২"
-    },
-    {
      "en": "Article 53",
      "as": "অনুচ্ছেদ ৫৩"
+    },
+    {
+     "en": "Article 52",
+     "as": "অনুচ্ছেদ ৫২"
     },
     {
      "en": "Article 54",
@@ -10350,7 +10350,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৫৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 52 provides for a President of India.",
     "as": "অনুচ্ছেদ ৫২ ভাৰতৰ এজন ৰাষ্ট্ৰপতিৰ ব্যৱস্থা কৰে।"
@@ -10364,12 +10364,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "Chief Minister",
@@ -10380,7 +10380,7 @@ module.exports = {
      "as": "মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President can transfer a Governor.",
     "as": "ৰাষ্ট্ৰপতিয়ে ৰাজ্যপালক বদলি কৰিব পাৰে।"
@@ -10424,10 +10424,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Legislative Assembly",
-     "as": "বিধানসভা"
-    },
-    {
      "en": "Governor",
      "as": "ৰাজ্যপাল"
     },
@@ -10436,11 +10432,15 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     },
     {
+     "en": "Legislative Assembly",
+     "as": "বিধানসভা"
+    },
+    {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The CM remains in office as long as he has the confidence of the Assembly.",
     "as": "বিধানসভাৰ আস্থা থকালৈকে মুখ্যমন্ত্ৰী পদত থাকে।"
@@ -10574,12 +10574,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Inter-State Council",
-     "as": "আন্তঃৰাজ্যিক পৰিষদ"
-    },
-    {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
+    },
+    {
+     "en": "Inter-State Council",
+     "as": "আন্তঃৰাজ্যিক পৰিষদ"
     },
     {
      "en": "Lok Sabha",
@@ -10590,7 +10590,7 @@ module.exports = {
      "as": "নিৰ্বাচন আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The PM is the chairman of the Inter-State Council.",
     "as": "প্ৰধানমন্ত্ৰী আন্তঃৰাজ্যিক পৰিষদৰ অধ্যক্ষ।"
@@ -10604,10 +10604,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Prime Minister",
-     "as": "প্ৰধানমন্ত্ৰী"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -10618,9 +10614,13 @@ module.exports = {
     {
      "en": "Speaker",
      "as": "অধ্যক্ষ"
+    },
+    {
+     "en": "Prime Minister",
+     "as": "প্ৰধানমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Cabinet Secretariat works under the Prime Minister.",
     "as": "মন্ত্ৰীসভা সচিবালয়ে প্ৰধানমন্ত্ৰীৰ অধীনত কাম কৰে।"
@@ -10634,12 +10634,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Prime Minister",
-     "as": "প্ৰধানমন্ত্ৰী"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
+     "en": "Prime Minister",
+     "as": "প্ৰধানমন্ত্ৰী"
     },
     {
      "en": "Vice President",
@@ -10650,7 +10650,7 @@ module.exports = {
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The National Development Council was chaired by the Prime Minister.",
     "as": "ৰাষ্ট্ৰীয় উন্নয়ন পৰিষদৰ অধ্যক্ষ প্ৰধানমন্ত্ৰী আছিল।"
@@ -10694,12 +10694,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 164(2)",
-     "as": "অনুচ্ছেদ 164(2)"
-    },
-    {
      "en": "Article 163",
      "as": "অনুচ্ছেদ ১৬৩"
+    },
+    {
+     "en": "Article 164(2)",
+     "as": "অনুচ্ছেদ 164(2)"
     },
     {
      "en": "Article 164(1)",
@@ -10710,7 +10710,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৬৭"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 164(2) makes the State Council responsible to the Assembly.",
     "as": "অনুচ্ছেদ 164(2) ৰাজ্য মন্ত্ৰীপৰিষদক বিধানসভাৰ প্ৰতি দায়বদ্ধ কৰে।"
@@ -10724,12 +10724,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lok Sabha",
-     "as": "লোকসভা"
-    },
-    {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
+    },
+    {
+     "en": "Lok Sabha",
+     "as": "লোকসভা"
     },
     {
      "en": "Supreme Court",
@@ -10740,7 +10740,7 @@ module.exports = {
      "as": "বিধান পৰিষদ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A no-confidence motion can be moved only in the Lok Sabha.",
     "as": "অবিশ্বাস প্ৰস্তাৱ কেৱল লোকসভাত উত্থাপন কৰিব পাৰি।"
@@ -10754,10 +10754,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
     },
@@ -10768,9 +10764,13 @@ module.exports = {
     {
      "en": "Speaker",
      "as": "অধ্যক্ষ"
+    },
+    {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Governor holds office during the President's pleasure.",
     "as": "ৰাজ্যপাল ৰাষ্ট্ৰপতিৰ সন্তুষ্টি কাললৈকে কাৰ্যকাল থাকে।"
@@ -10784,10 +10784,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 164",
-     "as": "অনুচ্ছেদ ১৬৪"
-    },
-    {
      "en": "Article 163",
      "as": "অনুচ্ছেদ ১৬৩"
     },
@@ -10798,9 +10794,13 @@ module.exports = {
     {
      "en": "Article 167",
      "as": "অনুচ্ছেদ ১৬৭"
+    },
+    {
+     "en": "Article 164",
+     "as": "অনুচ্ছেদ ১৬৪"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 164 read with Article 164(4) allows this.",
     "as": "অনুচ্ছেদ ১৬৪, 164(4) ৰ সৈতে পঢ়ি, এই অনুমতি দিয়ে।"
@@ -10814,10 +10814,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 72",
-     "as": "অনুচ্ছেদ ৭২"
-    },
-    {
      "en": "Article 161",
      "as": "অনুচ্ছেদ ১৬১"
     },
@@ -10828,9 +10824,13 @@ module.exports = {
     {
      "en": "Article 123",
      "as": "অনুচ্ছেদ ১২৩"
+    },
+    {
+     "en": "Article 72",
+     "as": "অনুচ্ছেদ ৭২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 72 gives the President this power.",
     "as": "অনুচ্ছেদ ৭২ ৰাষ্ট্ৰপতিক এই ক্ষমতা দিয়ে।"
@@ -10844,10 +10844,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 161",
-     "as": "অনুচ্ছেদ ১৬১"
-    },
-    {
      "en": "Article 72",
      "as": "অনুচ্ছেদ ৭২"
     },
@@ -10858,9 +10854,13 @@ module.exports = {
     {
      "en": "Article 213",
      "as": "অনুচ্ছেদ ২১৩"
+    },
+    {
+     "en": "Article 161",
+     "as": "অনুচ্ছেদ ১৬১"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 161 gives the Governor this power.",
     "as": "অনুচ্ছেদ ১৬১ ৰাজ্যপালক এই ক্ষমতা দিয়ে।"
@@ -10874,10 +10874,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a parliamentary system",
-     "as": "সংসদীয় ব্যৱস্থা"
-    },
-    {
      "en": "a presidential system",
      "as": "ৰাষ্ট্ৰপতিয়াল ব্যৱস্থা"
     },
@@ -10886,11 +10882,15 @@ module.exports = {
      "as": "সামৰিক ব্যৱস্থা"
     },
     {
+     "en": "a parliamentary system",
+     "as": "সংসদীয় ব্যৱস্থা"
+    },
+    {
      "en": "a direct democracy",
      "as": "প্ৰত্যক্ষ গণতন্ত্ৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "India follows a parliamentary system, so the President is elected indirectly.",
     "as": "ভাৰতত সংসদীয় ব্যৱস্থা, গতিকে ৰাষ্ট্ৰপতি পৰোক্ষভাৱে নিৰ্বাচিত হয়।"
@@ -10904,10 +10904,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 156",
-     "as": "অনুচ্ছেদ ১৫৬"
-    },
-    {
      "en": "Article 155",
      "as": "অনুচ্ছেদ ১৫৫"
     },
@@ -10918,9 +10914,13 @@ module.exports = {
     {
      "en": "Article 158",
      "as": "অনুচ্ছেদ ১৫৮"
+    },
+    {
+     "en": "Article 156",
+     "as": "অনুচ্ছেদ ১৫৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 156 provides that the Governor holds office for five years.",
     "as": "অনুচ্ছেদ ১৫৬ এ কয় যে ৰাজ্যপাল পাঁচ বছৰ কাৰ্যকাল থাকে।"
@@ -10964,10 +10964,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "impeached",
-     "as": "অভিশংসন কৰা হোৱা নাই"
-    },
-    {
      "en": "elected",
      "as": "নিৰ্বাচিত কৰা হোৱা নাই"
     },
@@ -10978,9 +10974,13 @@ module.exports = {
     {
      "en": "removed",
      "as": "আঁতৰোৱা হোৱা নাই"
+    },
+    {
+     "en": "impeached",
+     "as": "অভিশংসন কৰা হোৱা নাই"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "No President of India has ever been impeached.",
     "as": "ভাৰতৰ কোনো ৰাষ্ট্ৰপতিক এতিয়ালৈকে অভিশংসন কৰা হোৱা নাই।"
@@ -10994,10 +10994,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Supreme Court",
-     "as": "সৰ্বোচ্চ ন্যায়ালয়"
-    },
-    {
      "en": "The Election Commission",
      "as": "নিৰ্বাচন আয়োগ"
     },
@@ -11006,11 +11002,15 @@ module.exports = {
      "as": "সংসদ"
     },
     {
+     "en": "The Supreme Court",
+     "as": "সৰ্বোচ্চ ন্যায়ালয়"
+    },
+    {
      "en": "The Chief Justice alone",
      "as": "কেৱল মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Supreme Court decides disputes relating to the President's election.",
     "as": "ৰাষ্ট্ৰপতিৰ নিৰ্বাচন সম্পৰ্কীয় বিবাদ সৰ্বোচ্চ ন্যায়ালয়ে মীমাংসা কৰে।"
@@ -11024,12 +11024,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "five years",
-     "as": "পাঁচ বছৰ"
-    },
-    {
      "en": "six years",
      "as": "ছয় বছৰ"
+    },
+    {
+     "en": "five years",
+     "as": "পাঁচ বছৰ"
     },
     {
      "en": "four years",
@@ -11040,7 +11040,7 @@ module.exports = {
      "as": "তিনি বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Governor is normally appointed for five years.",
     "as": "ৰাজ্যপাল সাধাৰণতে পাঁচ বছৰৰ বাবে নিযুক্তি দিয়া হয়।"
@@ -11054,10 +11054,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Governor",
-     "as": "ৰাজ্যপাল"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -11068,9 +11064,13 @@ module.exports = {
     {
      "en": "Speaker",
      "as": "অধ্যক্ষ"
+    },
+    {
+     "en": "Governor",
+     "as": "ৰাজ্যপাল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Formally, the CM holds office during the Governor's pleasure, but in practice needs the Assembly's confidence.",
     "as": "আনুষ্ঠানিকভাৱে মুখ্যমন্ত্ৰী ৰাজ্যপালৰ সন্তুষ্টি কাললৈকে পদত থাকে, কিন্তু বাস্তৱত বিধানসভাৰ আস্থা প্ৰয়োজন।"
@@ -11084,10 +11084,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "The Vice President",
      "as": "উপ-ৰাষ্ট্ৰপতি"
     },
@@ -11098,9 +11094,13 @@ module.exports = {
     {
      "en": "The Chief Justice",
      "as": "মুখ্য ন্যায়াধীশ"
+    },
+    {
+     "en": "The President",
+     "as": "ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The President administers the oath to the Prime Minister.",
     "as": "ৰাষ্ট্ৰপতিয়ে প্ৰধানমন্ত্ৰীক শপথ বাক্য পাঠ কৰায়।"
@@ -11114,12 +11114,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Vice President",
      "as": "উপ-ৰাষ্ট্ৰপতি"
+    },
+    {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "Speaker",
@@ -11130,7 +11130,7 @@ module.exports = {
      "as": "মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President administers the oath of secrecy.",
     "as": "ৰাষ্ট্ৰপতিয়ে গোপনীয়তাৰ শপথ পাঠ কৰায়।"
@@ -11144,10 +11144,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lok Sabha",
-     "as": "লোকসভা"
-    },
-    {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
     },
@@ -11156,11 +11152,15 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     },
     {
+     "en": "Lok Sabha",
+     "as": "লোকসভা"
+    },
+    {
      "en": "Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Prime Minister is accountable to the Lok Sabha.",
     "as": "প্ৰধানমন্ত্ৰী লোকসভাৰ প্ৰতি দায়বদ্ধ।"
@@ -11174,12 +11174,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 75(1)",
-     "as": "অনুচ্ছেদ 75(1)"
-    },
-    {
      "en": "Article 74",
      "as": "অনুচ্ছেদ ৭৪"
+    },
+    {
+     "en": "Article 75(1)",
+     "as": "অনুচ্ছেদ 75(1)"
     },
     {
      "en": "Article 78",
@@ -11190,7 +11190,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৭৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 75(1) says the PM is appointed by the President.",
     "as": "অনুচ্ছেদ 75(1) এ কয় যে প্ৰধানমন্ত্ৰীক ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়ে।"
@@ -11234,10 +11234,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 200",
-     "as": "অনুচ্ছেদ ২০০"
-    },
-    {
      "en": "Article 201",
      "as": "অনুচ্ছেদ ২০১"
     },
@@ -11246,11 +11242,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১১১"
     },
     {
+     "en": "Article 200",
+     "as": "অনুচ্ছেদ ২০০"
+    },
+    {
      "en": "Article 213",
      "as": "অনুচ্ছেদ ২১৩"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 200 deals with the Governor's assent to Bills.",
     "as": "অনুচ্ছেদ ২০০ ৰাজ্যপালৰ বিধেয়কত সম্মতিৰ বিষয়ে কয়।"
@@ -11264,10 +11264,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 201",
-     "as": "অনুচ্ছেদ ২০১"
-    },
-    {
      "en": "Article 200",
      "as": "অনুচ্ছেদ ২০০"
     },
@@ -11276,11 +11272,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১১১"
     },
     {
+     "en": "Article 201",
+     "as": "অনুচ্ছেদ ২০১"
+    },
+    {
      "en": "Article 213",
      "as": "অনুচ্ছেদ ২১৩"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 201 deals with Bills reserved for the President.",
     "as": "অনুচ্ছেদ ২০১ ৰাষ্ট্ৰপতিৰ বাবে সংৰক্ষিত বিধেয়কৰ বিষয়ে কয়।"
@@ -11294,10 +11294,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "three years",
-     "as": "তিনি বছৰ"
-    },
-    {
      "en": "one year",
      "as": "এক বছৰ"
     },
@@ -11308,9 +11304,13 @@ module.exports = {
     {
      "en": "six months",
      "as": "ছয় মাহ"
+    },
+    {
+     "en": "three years",
+     "as": "তিনি বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "President's rule can continue for a maximum of three years with periodic approval.",
     "as": "ৰাষ্ট্ৰপতি শাসন সময়ে সময়ে অনুমোদনৰ সৈতে সৰ্বাধিক তিনি বছৰ চলিব পাৰে।"
@@ -11354,10 +11354,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "appointing a Chief Minister in a hung Assembly",
-     "as": "ত্ৰিশঙ্কু বিধানসভাত মুখ্যমন্ত্ৰী নিযুক্তি"
-    },
-    {
      "en": "passing the budget",
      "as": "বাজেট পাছ"
     },
@@ -11368,9 +11364,13 @@ module.exports = {
     {
      "en": "appointing judges of the Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়ৰ ন্যায়াধীশ নিযুক্তি"
+    },
+    {
+     "en": "appointing a Chief Minister in a hung Assembly",
+     "as": "ত্ৰিশঙ্কু বিধানসভাত মুখ্যমন্ত্ৰী নিযুক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Governor has discretionary powers in matters like a hung Assembly.",
     "as": "ৰাজ্যপালৰ ত্ৰিশঙ্কু বিধানসভাৰ দৰে বিষয়ত বিচক্ষণতাৰ ক্ষমতা আছে।"
@@ -11414,12 +11414,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Constitution",
-     "as": "সংবিধান"
-    },
-    {
      "en": "Parliament",
      "as": "সংসদ"
+    },
+    {
+     "en": "Constitution",
+     "as": "সংবিধান"
     },
     {
      "en": "Judiciary",
@@ -11430,7 +11430,7 @@ module.exports = {
      "as": "সেনা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The President is the guardian of the Constitution.",
     "as": "ৰাষ্ট্ৰপতি সংবিধানৰ সংৰক্ষক।"
@@ -11444,12 +11444,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "State Constitution within the Constitution",
-     "as": "সংবিধানৰ ভিতৰত ৰাজ্যৰ সংবিধান"
-    },
-    {
      "en": "Parliament",
      "as": "সংসদ"
+    },
+    {
+     "en": "State Constitution within the Constitution",
+     "as": "সংবিধানৰ ভিতৰত ৰাজ্যৰ সংবিধান"
     },
     {
      "en": "Supreme Court",
@@ -11460,7 +11460,7 @@ module.exports = {
      "as": "সেনা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Governor safeguards the Constitution within the State.",
     "as": "ৰাজ্যপাল ৰাজ্যৰ ভিতৰত সংবিধানৰ ৰক্ষক।"
@@ -11504,10 +11504,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 333",
-     "as": "অনুচ্ছেদ ৩৩৩"
-    },
-    {
      "en": "Article 331",
      "as": "অনুচ্ছেদ ৩৩১"
     },
@@ -11518,9 +11514,13 @@ module.exports = {
     {
      "en": "Article 332",
      "as": "অনুচ্ছেদ ৩৩২"
+    },
+    {
+     "en": "Article 333",
+     "as": "অনুচ্ছেদ ৩৩৩"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 333 allowed the Governor to nominate an Anglo-Indian member (earlier provision).",
     "as": "অনুচ্ছেদ ৩৩৩ ৰাজ্যপালক এজন এংগ্লো-ইণ্ডিয়ান সদস্য মনোনীত কৰিবলৈ অনুমতি দিছিল (পূৰ্বৰ বিধান)।"
@@ -11564,10 +11564,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Chief Justice of the State High Court",
-     "as": "ৰাজ্যৰ উচ্চ ন্যায়ালয়ৰ মুখ্য ন্যায়াধীশ"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -11578,9 +11574,13 @@ module.exports = {
     {
      "en": "Chief Minister",
      "as": "মুখ্যমন্ত্ৰী"
+    },
+    {
+     "en": "Chief Justice of the State High Court",
+     "as": "ৰাজ্যৰ উচ্চ ন্যায়ালয়ৰ মুখ্য ন্যায়াধীশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Chief Justice of the High Court administers the oath.",
     "as": "উচ্চ ন্যায়ালয়ৰ মুখ্য ন্যায়াধীশে শপথ পাঠ কৰায়।"
@@ -11594,10 +11594,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "can be removed at any time by the President",
-     "as": "ৰাষ্ট্ৰপতিয়ে যিকোনো সময়ত আঁতৰাব পাৰে"
-    },
-    {
      "en": "cannot be removed",
      "as": "আঁতৰাব নোৱাৰি"
     },
@@ -11606,11 +11602,15 @@ module.exports = {
      "as": "জীৱনকাল কাৰ্যকাল থাকে"
     },
     {
+     "en": "can be removed at any time by the President",
+     "as": "ৰাষ্ট্ৰপতিয়ে যিকোনো সময়ত আঁতৰাব পাৰে"
+    },
+    {
      "en": "is elected",
      "as": "নিৰ্বাচিত হয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor can be removed at any time by the President.",
     "as": "ৰাষ্ট্ৰপতিয়ে যিকোনো সময়ত ৰাজ্যপালক আঁতৰাব পাৰে।"
@@ -11624,12 +11624,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "public servants",
-     "as": "ৰাজহুৱা কৰ্মচাৰী"
-    },
-    {
      "en": "private employees",
      "as": "ব্যক্তিগত কৰ্মচাৰী"
+    },
+    {
+     "en": "public servants",
+     "as": "ৰাজহুৱা কৰ্মচাৰী"
     },
     {
      "en": "judges",
@@ -11640,7 +11640,7 @@ module.exports = {
      "as": "সংসদৰ সদস্য"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "They are all public servants.",
     "as": "তেওঁলোক সকলো ৰাজহুৱা কৰ্মচাৰী।"
@@ -11654,12 +11654,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "determined by Parliament by law",
-     "as": "সংসদে আইনৰ দ্বাৰা নিৰ্ধাৰণ কৰে"
-    },
-    {
      "en": "fixed by the Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়ে নিৰ্ধাৰণ কৰে"
+    },
+    {
+     "en": "determined by Parliament by law",
+     "as": "সংসদে আইনৰ দ্বাৰা নিৰ্ধাৰণ কৰে"
     },
     {
      "en": "decided by the President",
@@ -11670,7 +11670,7 @@ module.exports = {
      "as": "ৰাজ্যপালে নিৰ্ধাৰণ কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Parliament determines the President's salary by law.",
     "as": "সংসদে আইনৰ দ্বাৰা ৰাষ্ট্ৰপতিৰ দৰমহা নিৰ্ধাৰণ কৰে।"
@@ -11714,10 +11714,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 72",
-     "as": "অনুচ্ছেদ ৭২"
-    },
-    {
      "en": "Article 161",
      "as": "অনুচ্ছেদ ১৬১"
     },
@@ -11728,9 +11724,13 @@ module.exports = {
     {
      "en": "Article 123",
      "as": "অনুচ্ছেদ ১২৩"
+    },
+    {
+     "en": "Article 72",
+     "as": "অনুচ্ছেদ ৭২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 72 allows the President to pardon death sentences.",
     "as": "অনুচ্ছেদ ৭২ ৰাষ্ট্ৰপতিক মৃত্যুদণ্ড ক্ষমা কৰিবলৈ অনুমতি দিয়ে।"
@@ -11744,10 +11744,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Chief Justice",
      "as": "মুখ্য ন্যায়াধীশ"
     },
@@ -11756,11 +11752,15 @@ module.exports = {
      "as": "প্ৰধানমন্ত্ৰী"
     },
     {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
      "en": "Speaker",
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The power to pardon a death sentence lies with the President.",
     "as": "মৃত্যুদণ্ড ক্ষমা কৰাৰ ক্ষমতা ৰাষ্ট্ৰপতিৰ ওচৰত।"
@@ -11804,10 +11804,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "constitutional head appointed by the President",
-     "as": "ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়া সাংবিধানিক মুৰব্বী"
-    },
-    {
      "en": "an elected representative",
      "as": "এজন নিৰ্বাচিত প্ৰতিনিধি"
     },
@@ -11816,11 +11812,15 @@ module.exports = {
      "as": "এজন ন্যায়াধীশ"
     },
     {
+     "en": "constitutional head appointed by the President",
+     "as": "ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়া সাংবিধানিক মুৰব্বী"
+    },
+    {
      "en": "a member of Parliament",
      "as": "সংসদৰ এজন সদস্য"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor is a constitutional head appointed by the President.",
     "as": "ৰাজ্যপাল ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়া সাংবিধানিক মুৰব্বী।"
@@ -11834,10 +11834,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Governor of Assam",
-     "as": "অসমৰ ৰাজ্যপাল"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -11846,11 +11842,15 @@ module.exports = {
      "as": "প্ৰধানমন্ত্ৰী"
     },
     {
+     "en": "Governor of Assam",
+     "as": "অসমৰ ৰাজ্যপাল"
+    },
+    {
      "en": "Speaker",
      "as": "অধ্যক্ষ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor of Assam appoints the Chief Minister of Assam.",
     "as": "অসমৰ ৰাজ্যপালে অসমৰ মুখ্যমন্ত্ৰীক নিযুক্তি দিয়ে।"
@@ -11894,10 +11894,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President on the advice of the Union Council of Ministers",
-     "as": "সংঘ মন্ত্ৰীপৰিষদৰ পৰামৰ্শত ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Governor alone",
      "as": "কেৱল ৰাজ্যপাল"
     },
@@ -11908,9 +11904,13 @@ module.exports = {
     {
      "en": "Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়"
+    },
+    {
+     "en": "President on the advice of the Union Council of Ministers",
+     "as": "সংঘ মন্ত্ৰীপৰিষদৰ পৰামৰ্শত ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "President's rule is imposed by the President on the advice of the Union Council of Ministers.",
     "as": "সংঘ মন্ত্ৰীপৰিষদৰ পৰামৰ্শত ৰাষ্ট্ৰপতিয়ে ৰাষ্ট্ৰপতি শাসন জাপি দিয়ে।"
@@ -11924,10 +11924,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "7th Constitutional Amendment",
-     "as": "৭ সংখ্যক সাংবিধানিক সংশোধনী"
-    },
-    {
      "en": "1st Constitutional Amendment",
      "as": "১ম সাংবিধানিক সংশোধনী"
     },
@@ -11938,9 +11934,13 @@ module.exports = {
     {
      "en": "44th Constitutional Amendment",
      "as": "৪৪ সংখ্যক সাংবিধানিক সংশোধনী"
+    },
+    {
+     "en": "7th Constitutional Amendment",
+     "as": "৭ সংখ্যক সাংবিধানিক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 7th Amendment (1956) allowed one person to be Governor of two or more States.",
     "as": "৭ সংখ্যক সংশোধনীয়ে (১৯৫৬) এজন ব্যক্তিক দুই বা ততোধিক ৰাজ্যৰ ৰাজ্যপাল হ'বলৈ অনুমতি দিছিল।"
@@ -11954,10 +11954,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "nominal heads",
-     "as": "নামমাত্ৰ মুৰব্বী"
-    },
-    {
      "en": "real heads",
      "as": "প্ৰকৃত মুৰব্বী"
     },
@@ -11968,9 +11964,13 @@ module.exports = {
     {
      "en": "judges",
      "as": "ন্যায়াধীশ"
+    },
+    {
+     "en": "nominal heads",
+     "as": "নামমাত্ৰ মুৰব্বী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Both are nominal heads; real power lies with the PM and CM respectively.",
     "as": "দুয়ো নামমাত্ৰ মুৰব্বী; প্ৰকৃত ক্ষমতা ক্ৰমে প্ৰধানমন্ত্ৰী আৰু মুখ্যমন্ত্ৰীৰ ওচৰত।"
@@ -12014,12 +12014,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "normally binding",
-     "as": "সাধাৰণতে বাধ্যতামূলক"
-    },
-    {
      "en": "never binding",
      "as": "কেতিয়াও বাধ্যতামূলক নহয়"
+    },
+    {
+     "en": "normally binding",
+     "as": "সাধাৰণতে বাধ্যতামূলক"
     },
     {
      "en": "a constitutional duty",
@@ -12030,7 +12030,7 @@ module.exports = {
      "as": "ন্যায়িক আদেশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The CM's advice on dissolution is normally binding on the Governor.",
     "as": "ভংগৰ বিষয়ে মুখ্যমন্ত্ৰীৰ পৰামৰ্শ ৰাজ্যপালৰ ওপৰত সাধাৰণতে বাধ্যতামূলক।"
@@ -12044,10 +12044,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 111",
-     "as": "অনুচ্ছেদ ১১১"
-    },
-    {
      "en": "Article 123",
      "as": "অনুচ্ছেদ ১২৩"
     },
@@ -12058,9 +12054,13 @@ module.exports = {
     {
      "en": "Article 74",
      "as": "অনুচ্ছেদ ৭৪"
+    },
+    {
+     "en": "Article 111",
+     "as": "অনুচ্ছেদ ১১১"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 111 deals with the President's assent, including the veto.",
     "as": "অনুচ্ছেদ ১১১ ৰাষ্ট্ৰপতিৰ সম্মতি, ভেটোসহ, বিষয়ে কয়।"
@@ -12074,12 +12074,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "keeping a Bill pending indefinitely",
-     "as": "বিধেয়ক অনিৰ্দিষ্টকাললৈ বাকী ৰখা"
-    },
-    {
      "en": "rejecting a Bill outright",
      "as": "বিধেয়ক সম্পূৰ্ণভাৱে নাকচ কৰা"
+    },
+    {
+     "en": "keeping a Bill pending indefinitely",
+     "as": "বিধেয়ক অনিৰ্দিষ্টকাললৈ বাকী ৰখা"
     },
     {
      "en": "returning a Bill to Parliament",
@@ -12090,7 +12090,7 @@ module.exports = {
      "as": "বিধেয়ক অনুমোদন কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A pocket veto means the President neither assents nor returns the Bill.",
     "as": "পকেট ভেটো মানে ৰাষ্ট্ৰপতিয়ে সম্মতি নিদিয়ে, নহয় ঘূৰাই নিদিয়ে।"
@@ -12104,10 +12104,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "cannot return it for reconsideration",
-     "as": "পুনৰ্বিবেচনাৰ বাবে ঘূৰাই দিব নোৱাৰে"
-    },
-    {
      "en": "can return it",
      "as": "ঘূৰাই দিব পাৰে"
     },
@@ -12118,9 +12114,13 @@ module.exports = {
     {
      "en": "can reject it",
      "as": "নাকচ কৰিব পাৰে"
+    },
+    {
+     "en": "cannot return it for reconsideration",
+     "as": "পুনৰ্বিবেচনাৰ বাবে ঘূৰাই দিব নোৱাৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The President cannot return a Money Bill for reconsideration.",
     "as": "ৰাষ্ট্ৰপতিয়ে ধন বিধেয়ক পুনৰ্বিবেচনাৰ বাবে ঘূৰাই দিব নোৱাৰে।"
@@ -12134,10 +12134,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 200",
-     "as": "অনুচ্ছেদ ২০০"
-    },
-    {
      "en": "Article 201",
      "as": "অনুচ্ছেদ ২০১"
     },
@@ -12146,11 +12142,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ১১১"
     },
     {
+     "en": "Article 200",
+     "as": "অনুচ্ছেদ ২০০"
+    },
+    {
      "en": "Article 213",
      "as": "অনুচ্ছেদ ২১৩"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 200 deals with the Governor's assent.",
     "as": "অনুচ্ছেদ ২০০ ৰাজ্যপালৰ সম্মতিৰ বিষয়ে কয়।"
@@ -12164,10 +12164,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Indian Union",
-     "as": "ভাৰতীয় সংঘ"
-    },
-    {
      "en": "State",
      "as": "ৰাজ্য"
     },
@@ -12176,11 +12172,15 @@ module.exports = {
      "as": "সৰ্বোচ্চ ন্যায়ালয়"
     },
     {
+     "en": "Indian Union",
+     "as": "ভাৰতীয় সংঘ"
+    },
+    {
      "en": "Parliament",
      "as": "সংসদ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The President is the head of the Indian Union.",
     "as": "ৰাষ্ট্ৰপতি ভাৰতীয় সংঘৰ মুৰব্বী।"
@@ -12194,10 +12194,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "State",
-     "as": "ৰাজ্য"
-    },
-    {
      "en": "Indian Union",
      "as": "ভাৰতীয় সংঘ"
     },
@@ -12206,11 +12202,15 @@ module.exports = {
      "as": "সংসদ"
     },
     {
+     "en": "State",
+     "as": "ৰাজ্য"
+    },
+    {
      "en": "Judiciary",
      "as": "ন্যায়পালিকা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Governor is the head of the State.",
     "as": "ৰাজ্যপাল ৰাজ্যৰ মুৰব্বী।"
@@ -12224,10 +12224,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Government of India",
-     "as": "ভাৰত চৰকাৰ"
-    },
-    {
      "en": "State",
      "as": "ৰাজ্য"
     },
@@ -12236,11 +12232,15 @@ module.exports = {
      "as": "ন্যায়পালিকা"
     },
     {
+     "en": "Government of India",
+     "as": "ভাৰত চৰকাৰ"
+    },
+    {
      "en": "Parliament",
      "as": "সংসদ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Prime Minister is the head of the Government of India.",
     "as": "প্ৰধানমন্ত্ৰী ভাৰত চৰকাৰৰ মুৰব্বী।"
@@ -12254,10 +12254,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "State Government",
-     "as": "ৰাজ্য চৰকাৰ"
-    },
-    {
      "en": "Indian Union",
      "as": "ভাৰতীয় সংঘ"
     },
@@ -12268,9 +12264,13 @@ module.exports = {
     {
      "en": "Judiciary",
      "as": "ন্যায়পালিকা"
+    },
+    {
+     "en": "State Government",
+     "as": "ৰাজ্য চৰকাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Chief Minister is the head of the State Government.",
     "as": "মুখ্যমন্ত্ৰী ৰাজ্য চৰকাৰৰ মুৰব্বী।"
@@ -12376,10 +12376,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Part IX",
-     "as": "নৱম অংশ"
-    },
-    {
      "en": "Part IXA",
      "as": "নৱম A অংশ"
     },
@@ -12390,9 +12386,13 @@ module.exports = {
     {
      "en": "Part VIII",
      "as": "অষ্টম অংশ"
+    },
+    {
+     "en": "Part IX",
+     "as": "নৱম অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 73rd Amendment added Part IX (Articles 243 to 243O).",
     "as": "৭৩ সংখ্যক সংশোধনীয়ে নৱম অংশ (অনুচ্ছেদ ২৪৩ ৰ পৰা 243O) যোগ কৰিছিল।"
@@ -12436,10 +12436,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "29",
-     "as": "২৯"
-    },
-    {
      "en": "18",
      "as": "১৮"
     },
@@ -12448,11 +12444,15 @@ module.exports = {
      "as": "২৪"
     },
     {
+     "en": "29",
+     "as": "২৯"
+    },
+    {
      "en": "30",
      "as": "৩০"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Eleventh Schedule lists 29 subjects.",
     "as": "একাদশ অনুসূচীত ২৯ টা বিষয় তালিকাভুক্ত।"
@@ -12466,10 +12466,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Three",
-     "as": "তিনি"
-    },
-    {
      "en": "Two",
      "as": "দুই"
     },
@@ -12480,9 +12476,13 @@ module.exports = {
     {
      "en": "Five",
      "as": "পাঁচ"
+    },
+    {
+     "en": "Three",
+     "as": "তিনি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Panchayati Raj has three tiers: village, intermediate and district.",
     "as": "পঞ্চায়তী ৰাজৰ তিনি স্তৰ: গাঁও, মধ্যৱৰ্তী আৰু জিলা।"
@@ -12496,12 +12496,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Balwant Rai Mehta Committee",
-     "as": "বলৱন্ত ৰায় মেহতা সমিতি"
-    },
-    {
      "en": "Ashok Mehta Committee",
      "as": "অশোক মেহতা সমিতি"
+    },
+    {
+     "en": "Balwant Rai Mehta Committee",
+     "as": "বলৱন্ত ৰায় মেহতা সমিতি"
     },
     {
      "en": "Sarkaria Commission",
@@ -12512,7 +12512,7 @@ module.exports = {
      "as": "এল এম সিংভি সমিতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Balwant Rai Mehta Committee (1957) recommended the three-tier system.",
     "as": "বলৱন্ত ৰায় মেহতা সমিতিয়ে (১৯৫৭) তিনি স্তৰীয় ব্যৱস্থা পৰামৰ্শ দিছিল।"
@@ -12526,10 +12526,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ashok Mehta Committee",
-     "as": "অশোক মেহতা সমিতি"
-    },
-    {
      "en": "Balwant Rai Mehta Committee",
      "as": "বলৱন্ত ৰায় মেহতা সমিতি"
     },
@@ -12540,9 +12536,13 @@ module.exports = {
     {
      "en": "L. M. Singhvi Committee",
      "as": "এল এম সিংভি সমিতি"
+    },
+    {
+     "en": "Ashok Mehta Committee",
+     "as": "অশোক মেহতা সমিতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Ashok Mehta Committee (1977) recommended a two-tier system.",
     "as": "অশোক মেহতা সমিতিয়ে (১৯৭৭) দুই স্তৰীয় ব্যৱস্থা পৰামৰ্শ দিছিল।"
@@ -12556,10 +12556,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rajasthan",
-     "as": "ৰাজস্থান"
-    },
-    {
      "en": "Gujarat",
      "as": "গুজৰাট"
     },
@@ -12570,9 +12566,13 @@ module.exports = {
     {
      "en": "Assam",
      "as": "অসম"
+    },
+    {
+     "en": "Rajasthan",
+     "as": "ৰাজস্থান"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Panchayati Raj was first introduced in Rajasthan on 2 October 1959.",
     "as": "পঞ্চায়তী ৰাজ প্ৰথমে ২ অক্টোবৰ ১৯৫৯ চনত ৰাজস্থানত প্ৰৱৰ্তন কৰা হৈছিল।"
@@ -12646,12 +12646,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Municipalities",
-     "as": "পৌৰসভা"
-    },
-    {
      "en": "Panchayats",
      "as": "পঞ্চায়ত"
+    },
+    {
+     "en": "Municipalities",
+     "as": "পৌৰসভা"
     },
     {
      "en": "Cooperative societies",
@@ -12662,7 +12662,7 @@ module.exports = {
      "as": "নিৰ্বাচন আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 74th Amendment deals with municipalities.",
     "as": "৭৪ সংখ্যক সংশোধনীয়ে পৌৰসভাৰ বিষয়ে কয়।"
@@ -12676,10 +12676,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Eleventh Schedule",
-     "as": "একাদশ অনুসূচী"
-    },
-    {
      "en": "Tenth Schedule",
      "as": "দশম অনুসূচী"
     },
@@ -12688,11 +12684,15 @@ module.exports = {
      "as": "নৱম অনুসূচী"
     },
     {
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
+    },
+    {
      "en": "Twelfth Schedule",
      "as": "দ্বাদশ অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Eleventh Schedule lists the powers of Panchayats.",
     "as": "একাদশ অনুসূচীত পঞ্চায়তৰ ক্ষমতা তালিকাভুক্ত।"
@@ -12706,10 +12706,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243A",
-     "as": "অনুচ্ছেদ 243A"
-    },
-    {
      "en": "Article 243",
      "as": "অনুচ্ছেদ ২৪৩"
     },
@@ -12720,9 +12716,13 @@ module.exports = {
     {
      "en": "Article 243C",
      "as": "অনুচ্ছেদ 243C"
+    },
+    {
+     "en": "Article 243A",
+     "as": "অনুচ্ছেদ 243A"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243A provides for the Gram Sabha.",
     "as": "অনুচ্ছেদ 243A গাঁও সভাৰ ব্যৱস্থা কৰে।"
@@ -12736,12 +12736,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "persons registered in the electoral rolls of a village",
-     "as": "এখন গাঁৱৰ ভোটাৰ তালিকাত পঞ্জীভুক্ত ব্যক্তিসকল"
-    },
-    {
      "en": "elected members only",
      "as": "কেৱল নিৰ্বাচিত সদস্য"
+    },
+    {
+     "en": "persons registered in the electoral rolls of a village",
+     "as": "এখন গাঁৱৰ ভোটাৰ তালিকাত পঞ্জীভুক্ত ব্যক্তিসকল"
     },
     {
      "en": "panchayat officials",
@@ -12752,7 +12752,7 @@ module.exports = {
      "as": "জিলা বিষয়া"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Gram Sabha consists of all persons registered in the electoral rolls of a village.",
     "as": "গাঁও সভাত এখন গাঁৱৰ ভোটাৰ তালিকাত পঞ্জীভুক্ত সকলো ব্যক্তি থাকে।"
@@ -12796,12 +12796,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243C",
-     "as": "অনুচ্ছেদ 243C"
-    },
-    {
      "en": "Article 243B",
      "as": "অনুচ্ছেদ 243B"
+    },
+    {
+     "en": "Article 243C",
+     "as": "অনুচ্ছেদ 243C"
     },
     {
      "en": "Article 243D",
@@ -12812,7 +12812,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243E"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243C deals with the composition of Panchayats.",
     "as": "অনুচ্ছেদ 243C পঞ্চায়তৰ গঠনৰ বিষয়ে কয়।"
@@ -12856,10 +12856,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "One-third",
-     "as": "এক-তৃতীয়াংশ"
-    },
-    {
      "en": "One-half",
      "as": "আধা"
     },
@@ -12870,9 +12866,13 @@ module.exports = {
     {
      "en": "Two-thirds",
      "as": "দুই-তৃতীয়াংশ"
+    },
+    {
+     "en": "One-third",
+     "as": "এক-তৃতীয়াংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Not less than one-third of the seats are reserved for women.",
     "as": "এক-তৃতীয়াংশতকৈ কম নহয় আসন মহিলাৰ বাবে সংৰক্ষিত।"
@@ -12886,10 +12886,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243D",
-     "as": "অনুচ্ছেদ 243D"
-    },
-    {
      "en": "Article 243C",
      "as": "অনুচ্ছেদ 243C"
     },
@@ -12898,11 +12894,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243E"
     },
     {
+     "en": "Article 243D",
+     "as": "অনুচ্ছেদ 243D"
+    },
+    {
      "en": "Article 243G",
      "as": "অনুচ্ছেদ 243G"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243D provides for women's reservation.",
     "as": "অনুচ্ছেদ 243D মহিলা সংৰক্ষণৰ ব্যৱস্থা কৰে।"
@@ -12916,10 +12916,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243E",
-     "as": "অনুচ্ছেদ 243E"
-    },
-    {
      "en": "Article 243D",
      "as": "অনুচ্ছেদ 243D"
     },
@@ -12930,9 +12926,13 @@ module.exports = {
     {
      "en": "Article 243G",
      "as": "অনুচ্ছেদ 243G"
+    },
+    {
+     "en": "Article 243E",
+     "as": "অনুচ্ছেদ 243E"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243E deals with the duration of Panchayats.",
     "as": "অনুচ্ছেদ 243E পঞ্চায়তৰ কাৰ্যকালৰ বিষয়ে কয়।"
@@ -13006,10 +13006,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243G",
-     "as": "অনুচ্ছেদ 243G"
-    },
-    {
      "en": "Article 243F",
      "as": "অনুচ্ছেদ 243F"
     },
@@ -13018,11 +13014,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243H"
     },
     {
+     "en": "Article 243G",
+     "as": "অনুচ্ছেদ 243G"
+    },
+    {
      "en": "Article 243I",
      "as": "অনুচ্ছেদ 243I"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243G deals with the powers and functions of Panchayats.",
     "as": "অনুচ্ছেদ 243G পঞ্চায়তৰ ক্ষমতা আৰু কৰ্তব্যৰ বিষয়ে কয়।"
@@ -13036,10 +13036,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243H",
-     "as": "অনুচ্ছেদ 243H"
-    },
-    {
      "en": "Article 243G",
      "as": "অনুচ্ছেদ 243G"
     },
@@ -13050,9 +13046,13 @@ module.exports = {
     {
      "en": "Article 243J",
      "as": "অনুচ্ছেদ 243J"
+    },
+    {
+     "en": "Article 243H",
+     "as": "অনুচ্ছেদ 243H"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243H deals with the taxation powers of Panchayats.",
     "as": "অনুচ্ছেদ 243H পঞ্চায়তৰ কৰ আৰোপণৰ ক্ষমতাৰ বিষয়ে কয়।"
@@ -13066,12 +13066,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243I",
-     "as": "অনুচ্ছেদ 243I"
-    },
-    {
      "en": "Article 243H",
      "as": "অনুচ্ছেদ 243H"
+    },
+    {
+     "en": "Article 243I",
+     "as": "অনুচ্ছেদ 243I"
     },
     {
      "en": "Article 243J",
@@ -13082,7 +13082,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243K"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243I provides for a State Finance Commission.",
     "as": "অনুচ্ছেদ 243I ৰাজ্য বিত্ত আয়োগৰ ব্যৱস্থা কৰে।"
@@ -13096,10 +13096,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243J",
-     "as": "অনুচ্ছেদ 243J"
-    },
-    {
      "en": "Article 243I",
      "as": "অনুচ্ছেদ 243I"
     },
@@ -13108,11 +13104,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243K"
     },
     {
+     "en": "Article 243J",
+     "as": "অনুচ্ছেদ 243J"
+    },
+    {
      "en": "Article 243L",
      "as": "অনুচ্ছেদ 243L"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243J deals with the audit of Panchayat accounts.",
     "as": "অনুচ্ছেদ 243J পঞ্চায়তৰ হিচাপৰ হিচাপপৰীক্ষাৰ বিষয়ে কয়।"
@@ -13126,12 +13126,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243K",
-     "as": "অনুচ্ছেদ 243K"
-    },
-    {
      "en": "Article 243J",
      "as": "অনুচ্ছেদ 243J"
+    },
+    {
+     "en": "Article 243K",
+     "as": "অনুচ্ছেদ 243K"
     },
     {
      "en": "Article 243L",
@@ -13142,7 +13142,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243M"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243K provides for a State Election Commission for Panchayat elections.",
     "as": "অনুচ্ছেদ 243K পঞ্চায়ত নিৰ্বাচনৰ বাবে ৰাজ্য নিৰ্বাচন আয়োগৰ ব্যৱস্থা কৰে।"
@@ -13156,10 +13156,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "State Election Commission",
-     "as": "ৰাজ্য নিৰ্বাচন আয়োগ"
-    },
-    {
      "en": "Election Commission of India",
      "as": "ভাৰতৰ নিৰ্বাচন আয়োগ"
     },
@@ -13170,9 +13166,13 @@ module.exports = {
     {
      "en": "Panchayat Secretary",
      "as": "পঞ্চায়ত সচিব"
+    },
+    {
+     "en": "State Election Commission",
+     "as": "ৰাজ্য নিৰ্বাচন আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Panchayat elections are conducted by the State Election Commission.",
     "as": "পঞ্চায়ত নিৰ্বাচন ৰাজ্য নিৰ্বাচন আয়োগে অনুষ্ঠিত কৰে।"
@@ -13186,10 +13186,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243L",
-     "as": "অনুচ্ছেদ 243L"
-    },
-    {
      "en": "Article 243K",
      "as": "অনুচ্ছেদ 243K"
     },
@@ -13200,9 +13196,13 @@ module.exports = {
     {
      "en": "Article 243N",
      "as": "অনুচ্ছেদ 243N"
+    },
+    {
+     "en": "Article 243L",
+     "as": "অনুচ্ছেদ 243L"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243L deals with the application to Union Territories.",
     "as": "অনুচ্ছেদ 243L সংঘ শাসিত অঞ্চলত প্ৰয়োগৰ বিষয়ে কয়।"
@@ -13216,10 +13216,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243M",
-     "as": "অনুচ্ছেদ 243M"
-    },
-    {
      "en": "Article 243L",
      "as": "অনুচ্ছেদ 243L"
     },
@@ -13230,9 +13226,13 @@ module.exports = {
     {
      "en": "Article 243O",
      "as": "অনুচ্ছেদ 243O"
+    },
+    {
+     "en": "Article 243M",
+     "as": "অনুচ্ছেদ 243M"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243M deals with areas where these provisions do not apply.",
     "as": "অনুচ্ছেদ 243M সেই অঞ্চলৰ বিষয়ে কয় য'ত এই বিধান প্ৰযোজ্য নহয়।"
@@ -13246,12 +13246,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243O",
-     "as": "অনুচ্ছেদ 243O"
-    },
-    {
      "en": "Article 243N",
      "as": "অনুচ্ছেদ 243N"
+    },
+    {
+     "en": "Article 243O",
+     "as": "অনুচ্ছেদ 243O"
     },
     {
      "en": "Article 243M",
@@ -13262,7 +13262,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243K"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243O bars courts from interfering in Panchayat electoral matters.",
     "as": "অনুচ্ছেদ 243O আদালতক পঞ্চায়ত নিৰ্বাচনী বিষয়ত হস্তক্ষেপ কৰাৰ পৰা বিৰত ৰাখে।"
@@ -13336,10 +13336,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Intermediate level",
-     "as": "মধ্যৱৰ্তী স্তৰ"
-    },
-    {
      "en": "Village level",
      "as": "গাঁও স্তৰ"
     },
@@ -13350,9 +13346,13 @@ module.exports = {
     {
      "en": "State level",
      "as": "ৰাজ্য স্তৰ"
+    },
+    {
+     "en": "Intermediate level",
+     "as": "মধ্যৱৰ্তী স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Panchayat Samiti functions at the intermediate (block) level.",
     "as": "পঞ্চায়ত সমিতি মধ্যৱৰ্তী (ব্লক) স্তৰত কাম কৰে।"
@@ -13366,10 +13366,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "District level",
-     "as": "জিলা স্তৰ"
-    },
-    {
      "en": "Village level",
      "as": "গাঁও স্তৰ"
     },
@@ -13378,11 +13374,15 @@ module.exports = {
      "as": "মধ্যৱৰ্তী স্তৰ"
     },
     {
+     "en": "District level",
+     "as": "জিলা স্তৰ"
+    },
+    {
      "en": "State level",
      "as": "ৰাজ্য স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Zila Parishad functions at the district level.",
     "as": "জিলা পৰিষদ জিলা স্তৰত কাম কৰে।"
@@ -13396,10 +13396,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sarpanch / Gaon Bura",
-     "as": "সৰপঞ্চ / গাঁওবুঢ়া"
-    },
-    {
      "en": "Chairman",
      "as": "অধ্যক্ষ"
     },
@@ -13410,9 +13406,13 @@ module.exports = {
     {
      "en": "Collector",
      "as": "আয়ুক্ত"
+    },
+    {
+     "en": "Sarpanch / Gaon Bura",
+     "as": "সৰপঞ্চ / গাঁওবুঢ়া"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Sarpanch (or Gaon Bura in Assam) heads the Gram Panchayat.",
     "as": "সৰপঞ্চ (অসমত গাঁওবুঢ়া) গাঁও পঞ্চায়তৰ মুৰব্বী।"
@@ -13456,12 +13456,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Assam Panchayat Act",
-     "as": "অসম পঞ্চায়ত আইন"
-    },
-    {
      "en": "Assam Municipal Act",
      "as": "অসম পৌৰ আইন"
+    },
+    {
+     "en": "Assam Panchayat Act",
+     "as": "অসম পঞ্চায়ত আইন"
     },
     {
      "en": "Assam Land Act",
@@ -13472,7 +13472,7 @@ module.exports = {
      "as": "অসম ৰাজহ আইন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Assam Panchayat system is governed by the Assam Panchayat Act.",
     "as": "অসম পঞ্চায়ত ব্যৱস্থা অসম পঞ্চায়ত আইনৰ দ্বাৰা পৰিচালিত।"
@@ -13486,10 +13486,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Three",
-     "as": "তিনি"
-    },
-    {
      "en": "Two",
      "as": "দুই"
     },
@@ -13498,11 +13494,15 @@ module.exports = {
      "as": "চাৰি"
     },
     {
+     "en": "Three",
+     "as": "তিনি"
+    },
+    {
      "en": "Five",
      "as": "পাঁচ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Assam has a three-tier Panchayat system.",
     "as": "অসমত তিনি স্তৰীয় পঞ্চায়ত ব্যৱস্থা আছে।"
@@ -13516,10 +13516,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Zila Parishad",
-     "as": "জিলা পৰিষদ"
-    },
-    {
      "en": "Panchayat Samiti",
      "as": "পঞ্চায়ত সমিতি"
     },
@@ -13530,9 +13526,13 @@ module.exports = {
     {
      "en": "Gram Sabha",
      "as": "গাঁও সভা"
+    },
+    {
+     "en": "Zila Parishad",
+     "as": "জিলা পৰিষদ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "In Assam, the district-level body is the Zila Parishad.",
     "as": "অসমত জিলা স্তৰৰ সংস্থা হৈছে জিলা পৰিষদ।"
@@ -13546,10 +13546,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Anchalik Panchayat",
-     "as": "আঞ্চলিক পঞ্চায়ত"
-    },
-    {
      "en": "Zila Parishad",
      "as": "জিলা পৰিষদ"
     },
@@ -13560,9 +13556,13 @@ module.exports = {
     {
      "en": "Gaon Panchayat",
      "as": "গাঁও পঞ্চায়ত"
+    },
+    {
+     "en": "Anchalik Panchayat",
+     "as": "আঞ্চলিক পঞ্চায়ত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "In Assam, the block-level body is the Anchalik Panchayat.",
     "as": "অসমত ব্লক স্তৰৰ সংস্থা হৈছে আঞ্চলিক পঞ্চায়ত।"
@@ -13576,10 +13576,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "5 years",
-     "as": "৫ বছৰ"
-    },
-    {
      "en": "4 years",
      "as": "৪ বছৰ"
     },
@@ -13588,11 +13584,15 @@ module.exports = {
      "as": "৬ বছৰ"
     },
     {
+     "en": "5 years",
+     "as": "৫ বছৰ"
+    },
+    {
      "en": "3 years",
      "as": "৩ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Elections must be held before the expiry of five years.",
     "as": "পাঁচ বছৰ শেষ হোৱাৰ আগতে নিৰ্বাচন অনুষ্ঠিত কৰিব লাগে।"
@@ -13606,12 +13606,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "six months",
-     "as": "ছয় মাহ"
-    },
-    {
      "en": "one year",
      "as": "এক বছৰ"
+    },
+    {
+     "en": "six months",
+     "as": "ছয় মাহ"
     },
     {
      "en": "three months",
@@ -13622,7 +13622,7 @@ module.exports = {
      "as": "দুই বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Elections must be held within six months of dissolution.",
     "as": "ভংগৰ ছয় মাহৰ ভিতৰত নিৰ্বাচন অনুষ্ঠিত কৰিব লাগে।"
@@ -13636,10 +13636,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "21 years",
-     "as": "২১ বছৰ"
-    },
-    {
      "en": "18 years",
      "as": "১৮ বছৰ"
     },
@@ -13648,11 +13644,15 @@ module.exports = {
      "as": "২৫ বছৰ"
     },
     {
+     "en": "21 years",
+     "as": "২১ বছৰ"
+    },
+    {
      "en": "30 years",
      "as": "৩০ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A person must be at least 21 years old.",
     "as": "ব্যক্তিৰ বয়স অন্ততঃ ২১ বছৰ হ'ব লাগে।"
@@ -13666,10 +13666,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "18 years",
-     "as": "১৮ বছৰ"
-    },
-    {
      "en": "21 years",
      "as": "২১ বছৰ"
     },
@@ -13678,11 +13674,15 @@ module.exports = {
      "as": "২৫ বছৰ"
     },
     {
+     "en": "18 years",
+     "as": "১৮ বছৰ"
+    },
+    {
      "en": "16 years",
      "as": "১৬ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A person must be at least 18 years old to vote.",
     "as": "ভোট দিবলৈ ব্যক্তিৰ বয়স অন্ততঃ ১৮ বছৰ হ'ব লাগে।"
@@ -13696,12 +13696,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243D",
-     "as": "অনুচ্ছেদ 243D"
-    },
-    {
      "en": "Article 243C",
      "as": "অনুচ্ছেদ 243C"
+    },
+    {
+     "en": "Article 243D",
+     "as": "অনুচ্ছেদ 243D"
     },
     {
      "en": "Article 243E",
@@ -13712,7 +13712,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243T"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243D provides for SC reservation.",
     "as": "অনুচ্ছেদ 243D SC সংৰক্ষণৰ ব্যৱস্থা কৰে।"
@@ -13726,10 +13726,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243D",
-     "as": "অনুচ্ছেদ 243D"
-    },
-    {
      "en": "Article 243C",
      "as": "অনুচ্ছেদ 243C"
     },
@@ -13738,11 +13734,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243E"
     },
     {
+     "en": "Article 243D",
+     "as": "অনুচ্ছেদ 243D"
+    },
+    {
      "en": "Article 243T",
      "as": "অনুচ্ছেদ 243T"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243D provides for ST reservation.",
     "as": "অনুচ্ছেদ 243D ST সংৰক্ষণৰ ব্যৱস্থা কৰে।"
@@ -13756,12 +13756,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Scheduled Castes, Scheduled Tribes and women",
-     "as": "অনুসূচিত জাতি, অনুসূচিত জনজাতি আৰু মহিলা"
-    },
-    {
      "en": "only women",
      "as": "কেৱল মহিলা"
+    },
+    {
+     "en": "Scheduled Castes, Scheduled Tribes and women",
+     "as": "অনুসূচিত জাতি, অনুসূচিত জনজাতি আৰু মহিলা"
     },
     {
      "en": "only SCs",
@@ -13772,7 +13772,7 @@ module.exports = {
      "as": "কেৱল ST"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The office of Chairperson may be reserved for SCs, STs and women.",
     "as": "অধ্যক্ষৰ পদ SC, ST আৰু মহিলাৰ বাবে সংৰক্ষিত হ'ব পাৰে।"
@@ -13786,10 +13786,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Eleventh Schedule",
-     "as": "একাদশ অনুসূচী"
-    },
-    {
      "en": "Tenth Schedule",
      "as": "দশম অনুসূচী"
     },
@@ -13800,9 +13796,13 @@ module.exports = {
     {
      "en": "Ninth Schedule",
      "as": "নৱম অনুসূচী"
+    },
+    {
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Eleventh Schedule lists the 29 subjects.",
     "as": "একাদশ অনুসূচীত ২৯ টা বিষয় তালিকাভুক্ত।"
@@ -13816,10 +13816,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Agriculture",
-     "as": "কৃষি"
-    },
-    {
      "en": "Defence",
      "as": "প্ৰতিৰক্ষা"
     },
@@ -13828,11 +13824,15 @@ module.exports = {
      "as": "বৈদেশিক পৰিক্ৰমা"
     },
     {
+     "en": "Agriculture",
+     "as": "কৃষি"
+    },
+    {
      "en": "Currency",
      "as": "মুদ্ৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Agriculture is one of the 29 subjects in the Eleventh Schedule.",
     "as": "কৃষি একাদশ অনুসূচীৰ ২৯ টা বিষয়ৰ এটা।"
@@ -13876,10 +13876,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "73rd Amendment",
-     "as": "৭৩ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "74th Amendment",
      "as": "৭৪ সংখ্যক সংশোধনী"
     },
@@ -13890,9 +13886,13 @@ module.exports = {
     {
      "en": "75th Amendment",
      "as": "৭৫ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "73rd Amendment",
+     "as": "৭৩ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 73rd Amendment is called the Panchayati Raj Amendment.",
     "as": "৭৩ সংখ্যক সংশোধনীক পঞ্চায়তী ৰাজ সংশোধনী বুলি কোৱা হয়।"
@@ -13936,10 +13936,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Part IXA",
-     "as": "নৱম A অংশ"
-    },
-    {
      "en": "Part IX",
      "as": "নৱম অংশ"
     },
@@ -13948,11 +13944,15 @@ module.exports = {
      "as": "দশম অংশ"
     },
     {
+     "en": "Part IXA",
+     "as": "নৱম A অংশ"
+    },
+    {
      "en": "Part VIII",
      "as": "অষ্টম অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Part IXA deals with Municipalities.",
     "as": "নৱম A অংশই পৌৰসভাৰ বিষয়ে কয়।"
@@ -13966,10 +13966,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Twelfth Schedule",
-     "as": "দ্বাদশ অনুসূচী"
-    },
-    {
      "en": "Eleventh Schedule",
      "as": "একাদশ অনুসূচী"
     },
@@ -13980,9 +13976,13 @@ module.exports = {
     {
      "en": "Ninth Schedule",
      "as": "নৱম অনুসূচী"
+    },
+    {
+     "en": "Twelfth Schedule",
+     "as": "দ্বাদশ অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Twelfth Schedule lists 18 subjects for Municipalities.",
     "as": "দ্বাদশ অনুসূচীত পৌৰসভাৰ বাবে ১৮ টা বিষয় তালিকাভুক্ত।"
@@ -13996,10 +13996,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "18",
-     "as": "১৮"
-    },
-    {
      "en": "29",
      "as": "২৯"
     },
@@ -14008,11 +14004,15 @@ module.exports = {
      "as": "২৪"
     },
     {
+     "en": "18",
+     "as": "১৮"
+    },
+    {
      "en": "12",
      "as": "১২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Twelfth Schedule lists 18 subjects.",
     "as": "দ্বাদশ অনুসূচীত ১৮ টা বিষয় তালিকাভুক্ত।"
@@ -14056,10 +14056,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1977",
-     "as": "১৯৭৭"
-    },
-    {
      "en": "1957",
      "as": "১৯৫৭"
     },
@@ -14068,11 +14064,15 @@ module.exports = {
      "as": "১৯৮৬"
     },
     {
+     "en": "1977",
+     "as": "১৯৭৭"
+    },
+    {
      "en": "1959",
      "as": "১৯৫৯"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Ashok Mehta Committee was set up in 1977.",
     "as": "অশোক মেহতা সমিতি ১৯৭৭ চনত গঠন কৰা হৈছিল।"
@@ -14116,10 +14116,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "foundation of the Panchayati Raj system",
-     "as": "পঞ্চায়তী ৰাজ ব্যৱস্থাৰ ভিত্তি"
-    },
-    {
      "en": "highest tier",
      "as": "সৰ্বোচ্চ স্তৰ"
     },
@@ -14128,11 +14124,15 @@ module.exports = {
      "as": "এখন আদালত"
     },
     {
+     "en": "foundation of the Panchayati Raj system",
+     "as": "পঞ্চায়তী ৰাজ ব্যৱস্থাৰ ভিত্তি"
+    },
+    {
      "en": "a state body",
      "as": "এটা ৰাজ্য সংস্থা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Gram Sabha is the foundation of the Panchayati Raj system.",
     "as": "গাঁও সভা পঞ্চায়তী ৰাজ ব্যৱস্থাৰ ভিত্তি।"
@@ -14206,12 +14206,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 40",
-     "as": "অনুচ্ছেদ ৪০"
-    },
-    {
      "en": "Article 41",
      "as": "অনুচ্ছেদ ৪১"
+    },
+    {
+     "en": "Article 40",
+     "as": "অনুচ্ছেদ ৪০"
     },
     {
      "en": "Article 43",
@@ -14222,7 +14222,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 40 (a Directive Principle) directs the State to organise village panchayats.",
     "as": "অনুচ্ছেদ ৪০ (এটা নিৰ্দেশনা মূলক সিদ্ধান্ত) ৰাজ্যক গাঁও পঞ্চায়ত সংগঠিত কৰাৰ নিৰ্দেশ দিয়ে।"
@@ -14266,10 +14266,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1992",
-     "as": "১৯৯২"
-    },
-    {
      "en": "1993",
      "as": "১৯৯৩"
     },
@@ -14280,9 +14276,13 @@ module.exports = {
     {
      "en": "1994",
      "as": "১৯৯৪"
+    },
+    {
+     "en": "1992",
+     "as": "১৯৯২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 73rd Amendment was passed in 1992 and came into force in 1993.",
     "as": "৭৩ সংখ্যক সংশোধনী ১৯৯২ চনত গৃহীত হৈ ১৯৯৩ চনত কাৰ্যকৰী হৈছিল।"
@@ -14296,10 +14296,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "all States except certain areas",
-     "as": "কিছুমান অঞ্চল বাদে সকলো ৰাজ্য"
-    },
-    {
      "en": "Union Territories only",
      "as": "কেৱল সংঘ শাসিত অঞ্চল"
     },
@@ -14308,11 +14304,15 @@ module.exports = {
      "as": "সকলো সংঘ শাসিত অঞ্চল"
     },
     {
+     "en": "all States except certain areas",
+     "as": "কিছুমান অঞ্চল বাদে সকলো ৰাজ্য"
+    },
+    {
      "en": "only Scheduled Areas",
      "as": "কেৱল অনুসূচিত অঞ্চল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It applies to all States except certain specified areas.",
     "as": "ই কিছুমান নিৰ্দিষ্ট অঞ্চল বাদে সকলো ৰাজ্যত প্ৰযোজ্য।"
@@ -14326,10 +14326,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Madhya Pradesh",
-     "as": "মধ্য প্ৰদেশ"
-    },
-    {
      "en": "Rajasthan",
      "as": "ৰাজস্থান"
     },
@@ -14340,9 +14336,13 @@ module.exports = {
     {
      "en": "Karnataka",
      "as": "কৰ্ণাটক"
+    },
+    {
+     "en": "Madhya Pradesh",
+     "as": "মধ্য প্ৰদেশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Madhya Pradesh was the first to hold elections under the 73rd Amendment.",
     "as": "৭৩ সংখ্যক সংশোধনীৰ অধীনত প্ৰথমে মধ্য প্ৰদেশে নিৰ্বাচন অনুষ্ঠিত কৰিছিল।"
@@ -14356,10 +14356,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "5 years",
-     "as": "৫ বছৰ"
-    },
-    {
      "en": "3 years",
      "as": "৩ বছৰ"
     },
@@ -14368,11 +14364,15 @@ module.exports = {
      "as": "৪ বছৰ"
     },
     {
+     "en": "5 years",
+     "as": "৫ বছৰ"
+    },
+    {
      "en": "6 years",
      "as": "৬ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The State Finance Commission is constituted every five years.",
     "as": "ৰাজ্য বিত্ত আয়োগ প্ৰতি পাঁচ বছৰত গঠন কৰা হয়।"
@@ -14386,12 +14386,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243K",
-     "as": "অনুচ্ছেদ 243K"
-    },
-    {
      "en": "Article 243I",
      "as": "অনুচ্ছেদ 243I"
+    },
+    {
+     "en": "Article 243K",
+     "as": "অনুচ্ছেদ 243K"
     },
     {
      "en": "Article 243J",
@@ -14402,7 +14402,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ৩২৪"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243K provides for a State Election Commission.",
     "as": "অনুচ্ছেদ 243K ৰাজ্য নিৰ্বাচন আয়োগৰ ব্যৱস্থা কৰে।"
@@ -14446,12 +14446,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 280",
-     "as": "অনুচ্ছেদ ২৮০"
-    },
-    {
      "en": "Article 243I",
      "as": "অনুচ্ছেদ 243I"
+    },
+    {
+     "en": "Article 280",
+     "as": "অনুচ্ছেদ ২৮০"
     },
     {
      "en": "Article 243K",
@@ -14462,7 +14462,7 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৪৮"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 280 provides for the Union Finance Commission.",
     "as": "অনুচ্ছেদ ২৮০ সংঘ বিত্ত আয়োগৰ ব্যৱস্থা কৰে।"
@@ -14476,12 +14476,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Finance Commission",
-     "as": "বিত্ত আয়োগ"
-    },
-    {
      "en": "Election Commission",
      "as": "নিৰ্বাচন আয়োগ"
+    },
+    {
+     "en": "Finance Commission",
+     "as": "বিত্ত আয়োগ"
     },
     {
      "en": "NITI Aayog",
@@ -14492,7 +14492,7 @@ module.exports = {
      "as": "সৰ্বোচ্চ ন্যায়ালয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Finance Commission recommends the distribution of taxes.",
     "as": "বিত্ত আয়োগে কৰ বিতৰণৰ পৰামৰ্শ দিয়ে।"
@@ -14506,10 +14506,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "local self-government",
-     "as": "স্থানীয় স্ব-চৰকাৰ"
-    },
-    {
      "en": "central government",
      "as": "কেন্দ্ৰীয় চৰকাৰ"
     },
@@ -14518,11 +14514,15 @@ module.exports = {
      "as": "ৰাজ্য চৰকাৰ"
     },
     {
+     "en": "local self-government",
+     "as": "স্থানীয় স্ব-চৰকাৰ"
+    },
+    {
      "en": "the judiciary",
      "as": "ন্যায়পালিকা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Panchayats are institutions of local self-government.",
     "as": "পঞ্চায়ত স্থানীয় স্ব-চৰকাৰৰ প্ৰতিষ্ঠান।"
@@ -14536,10 +14536,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "grassroots democracy",
-     "as": "তৃণমূল গণতন্ত্ৰ"
-    },
-    {
      "en": "centralisation of power",
      "as": "ক্ষমতাৰ কেন্দ্ৰীকৰণ"
     },
@@ -14550,9 +14546,13 @@ module.exports = {
     {
      "en": "religious rule",
      "as": "ধৰ্মীয় শাসন"
+    },
+    {
+     "en": "grassroots democracy",
+     "as": "তৃণমূল গণতন্ত্ৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The main aim is grassroots democracy.",
     "as": "মূল লক্ষ্য হৈছে তৃণমূল গণতন্ত্ৰ।"
@@ -14566,10 +14566,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The CEO appointed by the State Government",
-     "as": "ৰাজ্য চৰকাৰে নিযুক্তি দিয়া CEO"
-    },
-    {
      "en": "The Governor",
      "as": "ৰাজ্যপাল"
     },
@@ -14578,11 +14574,15 @@ module.exports = {
      "as": "আয়ুক্ত"
     },
     {
+     "en": "The CEO appointed by the State Government",
+     "as": "ৰাজ্য চৰকাৰে নিযুক্তি দিয়া CEO"
+    },
+    {
      "en": "The Sarpanch",
      "as": "সৰপঞ্চ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A CEO appointed by the State Government heads the administration of a Zila Parishad.",
     "as": "ৰাজ্য চৰকাৰে নিযুক্তি দিয়া CEO এ জিলা পৰিষদৰ প্ৰশাসন পৰিচালনা কৰে।"
@@ -14596,12 +14596,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nagaland, Meghalaya and Mizoram",
-     "as": "নাগালেণ্ড, মেঘালয় আৰু মিজোৰাম"
-    },
-    {
      "en": "Assam",
      "as": "অসম"
+    },
+    {
+     "en": "Nagaland, Meghalaya and Mizoram",
+     "as": "নাগালেণ্ড, মেঘালয় আৰু মিজোৰাম"
     },
     {
      "en": "Rajasthan",
@@ -14612,7 +14612,7 @@ module.exports = {
      "as": "গুজৰাট"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It does not apply to Nagaland, Meghalaya and Mizoram, and certain other areas.",
     "as": "ই নাগালেণ্ড, মেঘালয় আৰু মিজোৰাম, আৰু কিছুমান আন অঞ্চলত প্ৰযোজ্য নহয়।"
@@ -14626,10 +14626,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Scheduled Areas and tribal areas",
-     "as": "অনুসূচিত অঞ্চল আৰু জনজাতীয় অঞ্চল"
-    },
-    {
      "en": "urban areas",
      "as": "চহৰীয়া অঞ্চল"
     },
@@ -14638,11 +14634,15 @@ module.exports = {
      "as": "উপকূলীয় অঞ্চল"
     },
     {
+     "en": "Scheduled Areas and tribal areas",
+     "as": "অনুসূচিত অঞ্চল আৰু জনজাতীয় অঞ্চল"
+    },
+    {
      "en": "hill areas",
      "as": "পাহাৰীয়া অঞ্চল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "They do not apply to Scheduled and tribal areas under the Fifth and Sixth Schedules.",
     "as": "ই পঞ্চম আৰু ষষ্ঠ অনুসূচীৰ অনুসূচিত আৰু জনজাতীয় অঞ্চলত প্ৰযোজ্য নহয়।"
@@ -14656,10 +14656,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sixth Schedule",
-     "as": "ষষ্ঠ অনুসূচী"
-    },
-    {
      "en": "Fifth Schedule",
      "as": "পঞ্চম অনুসূচী"
     },
@@ -14668,11 +14664,15 @@ module.exports = {
      "as": "একাদশ অনুসূচী"
     },
     {
+     "en": "Sixth Schedule",
+     "as": "ষষ্ঠ অনুসূচী"
+    },
+    {
      "en": "Seventh Schedule",
      "as": "সপ্তম অনুসূচী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Sixth Schedule deals with tribal areas in Assam, Meghalaya, Tripura and Mizoram.",
     "as": "ষষ্ঠ অনুসূচীয়ে অসম, মেঘালয়, ত্ৰিপুৰা আৰু মিজোৰামৰ জনজাতীয় অঞ্চলৰ বিষয়ে কয়।"
@@ -14716,12 +14716,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "constitutional bodies",
-     "as": "সাংবিধানিক সংস্থা"
-    },
-    {
      "en": "statutory bodies",
      "as": "বিধিবদ্ধ সংস্থা"
+    },
+    {
+     "en": "constitutional bodies",
+     "as": "সাংবিধানিক সংস্থা"
     },
     {
      "en": "private bodies",
@@ -14732,7 +14732,7 @@ module.exports = {
      "as": "ন্যায়িক সংস্থা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "After the 73rd Amendment, Panchayati Raj institutions are constitutional bodies.",
     "as": "৭৩ সংখ্যক সংশোধনীৰ পিছত পঞ্চায়তী ৰাজ প্ৰতিষ্ঠান সাংবিধানিক সংস্থা।"
@@ -14776,12 +14776,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243D",
-     "as": "অনুচ্ছেদ 243D"
-    },
-    {
      "en": "Article 243C",
      "as": "অনুচ্ছেদ 243C"
+    },
+    {
+     "en": "Article 243D",
+     "as": "অনুচ্ছেদ 243D"
     },
     {
      "en": "Article 243E",
@@ -14792,7 +14792,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243G"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243D provides for women's reservation at all levels.",
     "as": "অনুচ্ছেদ 243D সকলো স্তৰত মহিলা সংৰক্ষণৰ ব্যৱস্থা কৰে।"
@@ -14866,12 +14866,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "participatory democracy",
-     "as": "অংশগ্ৰহণমূলক গণতন্ত্ৰ"
-    },
-    {
      "en": "dictatorship",
      "as": "একনায়কত্ব"
+    },
+    {
+     "en": "participatory democracy",
+     "as": "অংশগ্ৰহণমূলক গণতন্ত্ৰ"
     },
     {
      "en": "monarchy",
@@ -14882,7 +14882,7 @@ module.exports = {
      "as": "কেন্দ্ৰীকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It strengthens participatory democracy.",
     "as": "ই অংশগ্ৰহণমূলক গণতন্ত্ৰ শক্তিশালী কৰে।"
@@ -14926,12 +14926,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Anchalik Panchayat",
-     "as": "আঞ্চলিক পঞ্চায়ত"
-    },
-    {
      "en": "Zila Parishad",
      "as": "জিলা পৰিষদ"
+    },
+    {
+     "en": "Anchalik Panchayat",
+     "as": "আঞ্চলিক পঞ্চায়ত"
     },
     {
      "en": "Gaon Panchayat",
@@ -14942,7 +14942,7 @@ module.exports = {
      "as": "গাঁও সভা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "In Assam, the intermediate tier is the Anchalik Panchayat.",
     "as": "অসমত মধ্যৱৰ্তী স্তৰ হৈছে আঞ্চলিক পঞ্চায়ত।"
@@ -14956,12 +14956,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Gaon Panchayat",
-     "as": "গাঁও পঞ্চায়ত"
-    },
-    {
      "en": "Anchalik Panchayat",
      "as": "আঞ্চলিক পঞ্চায়ত"
+    },
+    {
+     "en": "Gaon Panchayat",
+     "as": "গাঁও পঞ্চায়ত"
     },
     {
      "en": "Zila Parishad",
@@ -14972,7 +14972,7 @@ module.exports = {
      "as": "গাঁও সভা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "In Assam, the village-level body is the Gaon Panchayat.",
     "as": "অসমত গাঁও স্তৰৰ সংস্থা হৈছে গাঁও পঞ্চায়ত।"
@@ -15046,10 +15046,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "intermediate tier",
-     "as": "মধ্যৱৰ্তী স্তৰ"
-    },
-    {
      "en": "village tier",
      "as": "গাঁও স্তৰ"
     },
@@ -15060,9 +15056,13 @@ module.exports = {
     {
      "en": "Gram Sabha",
      "as": "গাঁও সভা"
+    },
+    {
+     "en": "intermediate tier",
+     "as": "মধ্যৱৰ্তী স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A State with a population below 20 lakh may not constitute the intermediate tier.",
     "as": "২০ লাখৰ তলৰ জনসংখ্যাৰ ৰাজ্যই মধ্যৱৰ্তী স্তৰ গঠন নকৰিব পাৰে।"
@@ -15106,12 +15106,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "direct election from territorial constituencies",
-     "as": "ভৌগোলিক সমষ্টিৰ পৰা প্ৰত্যক্ষ নিৰ্বাচন"
-    },
-    {
      "en": "indirect election",
      "as": "পৰোক্ষ নিৰ্বাচন"
+    },
+    {
+     "en": "direct election from territorial constituencies",
+     "as": "ভৌগোলিক সমষ্টিৰ পৰা প্ৰত্যক্ষ নিৰ্বাচন"
     },
     {
      "en": "nomination",
@@ -15122,7 +15122,7 @@ module.exports = {
      "as": "লটাৰি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Members are directly elected from territorial constituencies.",
     "as": "সদস্যসকল ভৌগোলিক সমষ্টিৰ পৰা প্ৰত্যক্ষভাৱে নিৰ্বাচিত হয়।"
@@ -15136,12 +15136,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in the manner provided by the State Legislature",
-     "as": "ৰাজ্য বিধানমণ্ডলে নিৰ্ধাৰণ কৰা ধৰণে"
-    },
-    {
      "en": "by the Governor",
      "as": "ৰাজ্যপালে"
+    },
+    {
+     "en": "in the manner provided by the State Legislature",
+     "as": "ৰাজ্য বিধানমণ্ডলে নিৰ্ধাৰণ কৰা ধৰণে"
     },
     {
      "en": "by the President",
@@ -15152,7 +15152,7 @@ module.exports = {
      "as": "কেন্দ্ৰই"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The manner of election of the Chairperson is decided by the State Legislature.",
     "as": "অধ্যক্ষৰ নিৰ্বাচনৰ ধৰণ ৰাজ্য বিধানমণ্ডলে নিৰ্ধাৰণ কৰে।"
@@ -15166,12 +15166,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "24 April 1993",
-     "as": "২৪ এপ্ৰিল ১৯৯৩"
-    },
-    {
      "en": "1 June 1992",
      "as": "১ জুন ১৯৯২"
+    },
+    {
+     "en": "24 April 1993",
+     "as": "২৪ এপ্ৰিল ১৯৯৩"
     },
     {
      "en": "2 October 1992",
@@ -15182,7 +15182,7 @@ module.exports = {
      "as": "২৬ জানুৱাৰী ১৯৯৩"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It came into force on 24 April 1993.",
     "as": "ই ২৪ এপ্ৰিল ১৯৯৩ চনত কাৰ্যকৰী হৈছিল।"
@@ -15196,10 +15196,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1993",
-     "as": "১৯৯৩"
-    },
-    {
      "en": "1992",
      "as": "১৯৯২"
     },
@@ -15208,11 +15204,15 @@ module.exports = {
      "as": "১৯৯৪"
     },
     {
+     "en": "1993",
+     "as": "১৯৯৩"
+    },
+    {
      "en": "1991",
      "as": "১৯৯১"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 74th Amendment came into force in 1993.",
     "as": "৭৪ সংখ্যক সংশোধনী ১৯৯৩ চনত কাৰ্যকৰী হৈছিল।"
@@ -15226,12 +15226,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Part IXA",
-     "as": "নৱম A অংশ"
-    },
-    {
      "en": "Part IX",
      "as": "নৱম অংশ"
+    },
+    {
+     "en": "Part IXA",
+     "as": "নৱম A অংশ"
     },
     {
      "en": "Part X",
@@ -15242,7 +15242,7 @@ module.exports = {
      "as": "একাদশ অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 74th Amendment added Part IXA on Municipalities.",
     "as": "৭৪ সংখ্যক সংশোধনীয়ে পৌৰসভাৰ ওপৰত নৱম A অংশ যোগ কৰিছিল।"
@@ -15256,12 +15256,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Urban planning",
-     "as": "নগৰ পৰিকল্পনা"
-    },
-    {
      "en": "Defence",
      "as": "প্ৰতিৰক্ষা"
+    },
+    {
+     "en": "Urban planning",
+     "as": "নগৰ পৰিকল্পনা"
     },
     {
      "en": "Currency",
@@ -15272,7 +15272,7 @@ module.exports = {
      "as": "বৈদেশিক পৰিক্ৰমা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Urban planning is one of the 18 subjects in the Twelfth Schedule.",
     "as": "নগৰ পৰিকল্পনা দ্বাদশ অনুসূচীৰ ১৮ টা বিষয়ৰ এটা।"
@@ -15286,10 +15286,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the ancient Indian village republics",
-     "as": "প্ৰাচীন ভাৰতীয় গাঁও গণৰাজ্য"
-    },
-    {
      "en": "Britain",
      "as": "ব্ৰিটেইন"
     },
@@ -15298,11 +15294,15 @@ module.exports = {
      "as": "আমেৰিকা"
     },
     {
+     "en": "the ancient Indian village republics",
+     "as": "প্ৰাচীন ভাৰতীয় গাঁও গণৰাজ্য"
+    },
+    {
      "en": "France",
      "as": "ফ্ৰান্স"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It draws on the tradition of ancient Indian village republics.",
     "as": "ই প্ৰাচীন ভাৰতীয় গাঁও গণৰাজ্যৰ পৰম্পৰাৰ পৰা লোৱা।"
@@ -15316,10 +15316,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "decentralisation of power",
-     "as": "ক্ষমতাৰ বিকেন্দ্ৰীকৰণ"
-    },
-    {
      "en": "centralisation of power",
      "as": "ক্ষমতাৰ কেন্দ্ৰীকৰণ"
     },
@@ -15330,9 +15326,13 @@ module.exports = {
     {
      "en": "urbanisation",
      "as": "নগৰীকৰণ"
+    },
+    {
+     "en": "decentralisation of power",
+     "as": "ক্ষমতাৰ বিকেন্দ্ৰীকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Gandhi saw Panchayati Raj as a means of decentralisation.",
     "as": "গান্ধীয়ে পঞ্চায়তী ৰাজক বিকেন্দ্ৰীকৰণৰ উপায় হিচাপে দেখিছিল।"
@@ -15346,12 +15346,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a republic",
-     "as": "এখন গণৰাজ্য"
-    },
-    {
      "en": "a colony",
      "as": "এখন উপনিৱেশ"
+    },
+    {
+     "en": "a republic",
+     "as": "এখন গণৰাজ্য"
     },
     {
      "en": "a factory",
@@ -15362,7 +15362,7 @@ module.exports = {
      "as": "এখন বজাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Gandhi described the village as a republic.",
     "as": "গান্ধীয়ে গাঁওক গণৰাজ্য বুলি বৰ্ণনা কৰিছিল।"
@@ -15436,10 +15436,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "as provided by the State Legislature",
-     "as": "ৰাজ্য বিধানমণ্ডলে নিৰ্ধাৰণ কৰা অনুসৰি"
-    },
-    {
      "en": "as provided by the Centre",
      "as": "কেন্দ্ৰই নিৰ্ধাৰণ কৰা অনুসৰি"
     },
@@ -15448,11 +15444,15 @@ module.exports = {
      "as": "ৰাজ্যপালে নিৰ্ধাৰণ কৰা অনুসৰি"
     },
     {
+     "en": "as provided by the State Legislature",
+     "as": "ৰাজ্য বিধানমণ্ডলে নিৰ্ধাৰণ কৰা অনুসৰি"
+    },
+    {
      "en": "as provided by the Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়ে নিৰ্ধাৰণ কৰা অনুসৰি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Gram Sabha's powers are fixed by the State Legislature.",
     "as": "গাঁও সভাৰ ক্ষমতা ৰাজ্য বিধানমণ্ডলে নিৰ্ধাৰণ কৰে।"
@@ -15466,12 +15466,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243G",
-     "as": "অনুচ্ছেদ 243G"
-    },
-    {
      "en": "Article 243H",
      "as": "অনুচ্ছেদ 243H"
+    },
+    {
+     "en": "Article 243G",
+     "as": "অনুচ্ছেদ 243G"
     },
     {
      "en": "Article 243I",
@@ -15482,7 +15482,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243F"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243G endows Panchayats with powers of self-government.",
     "as": "অনুচ্ছেদ 243G পঞ্চায়তক স্ব-চৰকাৰৰ ক্ষমতা প্ৰদান কৰে।"
@@ -15496,12 +15496,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "economic development and social justice",
-     "as": "অৰ্থনৈতিক উন্নয়ন আৰু সামাজিক ন্যায়"
-    },
-    {
      "en": "defence",
      "as": "প্ৰতিৰক্ষা"
+    },
+    {
+     "en": "economic development and social justice",
+     "as": "অৰ্থনৈতিক উন্নয়ন আৰু সামাজিক ন্যায়"
     },
     {
      "en": "foreign policy",
@@ -15512,7 +15512,7 @@ module.exports = {
      "as": "মুদ্ৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Panchayats prepare plans for economic development and social justice.",
     "as": "পঞ্চায়তে অৰ্থনৈতিক উন্নয়ন আৰু সামাজিক ন্যায়ৰ বাবে পৰিকল্পনা প্ৰস্তুত কৰে।"
@@ -15526,12 +15526,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "population",
-     "as": "জনসংখ্যা"
-    },
-    {
      "en": "area",
      "as": "কালি"
+    },
+    {
+     "en": "population",
+     "as": "জনসংখ্যা"
     },
     {
      "en": "income",
@@ -15542,7 +15542,7 @@ module.exports = {
      "as": "শিক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Reservation is in proportion to their population.",
     "as": "সংৰক্ষণ তেওঁলোকৰ জনসংখ্যাৰ অনুপাতত।"
@@ -15556,10 +15556,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "one-third of the total",
-     "as": "মুঠৰ এক-তৃতীয়াংশ"
-    },
-    {
      "en": "one-half of the total",
      "as": "মুঠৰ আধা"
     },
@@ -15570,9 +15566,13 @@ module.exports = {
     {
      "en": "two-thirds of the total",
      "as": "মুঠৰ দুই-তৃতীয়াংশ"
+    },
+    {
+     "en": "one-third of the total",
+     "as": "মুঠৰ এক-তৃতীয়াংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "At least one-third of the members must be women.",
     "as": "অন্ততঃ এক-তৃতীয়াংশ সদস্য মহিলা হ'ব লাগে।"
@@ -15586,10 +15586,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "50 percent",
-     "as": "৫০ শতাংশ"
-    },
-    {
      "en": "33 percent",
      "as": "৩৩ শতাংশ"
     },
@@ -15598,11 +15594,15 @@ module.exports = {
      "as": "২৫ শতাংশ"
     },
     {
+     "en": "50 percent",
+     "as": "৫০ শতাংশ"
+    },
+    {
      "en": "40 percent",
      "as": "৪০ শতাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Some States like Bihar have raised it to 50 percent.",
     "as": "বিহাৰৰ দৰে কিছুমান ৰাজ্যই ইয়াক ৫০ শতাংশলৈ বঢ়াইছে।"
@@ -15646,10 +15646,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Comptroller and Auditor General or an officer appointed by the State",
-     "as": "নিয়ন্ত্ৰক আৰু মহা-হিচাপপৰীক্ষক বা ৰাজ্যই নিযুক্তি দিয়া বিষয়া"
-    },
-    {
      "en": "Governor",
      "as": "ৰাজ্যপাল"
     },
@@ -15660,9 +15656,13 @@ module.exports = {
     {
      "en": "Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়"
+    },
+    {
+     "en": "Comptroller and Auditor General or an officer appointed by the State",
+     "as": "নিয়ন্ত্ৰক আৰু মহা-হিচাপপৰীক্ষক বা ৰাজ্যই নিযুক্তি দিয়া বিষয়া"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Panchayat accounts are audited as provided by the State Legislature.",
     "as": "পঞ্চায়তৰ হিচাপ ৰাজ্য বিধানমণ্ডলে নিৰ্ধাৰণ কৰা অনুসৰি হিচাপপৰীক্ষা কৰা হয়।"
@@ -15706,12 +15706,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Governor",
-     "as": "ৰাজ্যপাল"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
+    },
+    {
+     "en": "Governor",
+     "as": "ৰাজ্যপাল"
     },
     {
      "en": "Prime Minister",
@@ -15722,7 +15722,7 @@ module.exports = {
      "as": "মুখ্যমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Governor appoints the State Election Commissioner.",
     "as": "ৰাজ্যপালে ৰাজ্য নিৰ্বাচন আয়ুক্ত নিযুক্তি দিয়ে।"
@@ -15736,10 +15736,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "judge of a High Court",
-     "as": "উচ্চ ন্যায়ালয়ৰ ন্যায়াধীশ"
-    },
-    {
      "en": "minister",
      "as": "মন্ত্ৰী"
     },
@@ -15748,11 +15744,15 @@ module.exports = {
      "as": "মুখ্য সচিব"
     },
     {
+     "en": "judge of a High Court",
+     "as": "উচ্চ ন্যায়ালয়ৰ ন্যায়াধীশ"
+    },
+    {
      "en": "police officer",
      "as": "আৰক্ষী বিষয়া"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "He can be removed only in the manner of a High Court judge.",
     "as": "তেওঁক কেৱল উচ্চ ন্যায়ালয়ৰ ন্যায়াধীশৰ ধৰণেৰে আঁতৰাব পাৰি।"
@@ -15766,10 +15766,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "5 years",
-     "as": "৫ বছৰ"
-    },
-    {
      "en": "3 years",
      "as": "৩ বছৰ"
     },
@@ -15778,11 +15774,15 @@ module.exports = {
      "as": "৪ বছৰ"
     },
     {
+     "en": "5 years",
+     "as": "৫ বছৰ"
+    },
+    {
      "en": "6 years",
      "as": "৬ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The State Finance Commission is constituted every five years.",
     "as": "ৰাজ্য বিত্ত আয়োগ প্ৰতি পাঁচ বছৰত গঠন কৰা হয়।"
@@ -15796,10 +15796,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Zila Parishad",
-     "as": "জিলা পৰিষদ"
-    },
-    {
      "en": "Anchalik Panchayat",
      "as": "আঞ্চলিক পঞ্চায়ত"
     },
@@ -15808,11 +15804,15 @@ module.exports = {
      "as": "গাঁও পঞ্চায়ত"
     },
     {
+     "en": "Zila Parishad",
+     "as": "জিলা পৰিষদ"
+    },
+    {
      "en": "Gram Sabha",
      "as": "গাঁও সভা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "In Assam, the district-level body is the Zila Parishad.",
     "as": "অসমত জিলা স্তৰৰ সংস্থা হৈছে জিলা পৰিষদ।"
@@ -15826,10 +15826,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1994",
-     "as": "১৯৯৪"
-    },
-    {
      "en": "1992",
      "as": "১৯৯২"
     },
@@ -15840,9 +15836,13 @@ module.exports = {
     {
      "en": "1959",
      "as": "১৯৫৯"
+    },
+    {
+     "en": "1994",
+     "as": "১৯৯৪"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Assam Panchayat Act came into force in 1994.",
     "as": "অসম পঞ্চায়ত আইন ১৯৯৪ চনত কাৰ্যকৰী হৈছিল।"
@@ -15856,10 +15856,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Equal to the number of districts",
-     "as": "জিলাৰ সংখ্যাৰ সমান"
-    },
-    {
      "en": "One only",
      "as": "কেৱল এটা"
     },
@@ -15868,11 +15864,15 @@ module.exports = {
      "as": "কেৱল দুটা"
     },
     {
+     "en": "Equal to the number of districts",
+     "as": "জিলাৰ সংখ্যাৰ সমান"
+    },
+    {
      "en": "Five only",
      "as": "কেৱল পাঁচটা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "There is generally one Zila Parishad per district.",
     "as": "সাধাৰণতে প্ৰতি জিলাত এটা জিলা পৰিষদ থাকে।"
@@ -15886,10 +15886,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "intermediate tier",
-     "as": "মধ্যৱৰ্তী স্তৰ"
-    },
-    {
      "en": "village tier",
      "as": "গাঁও স্তৰ"
     },
@@ -15900,9 +15896,13 @@ module.exports = {
     {
      "en": "state tier",
      "as": "ৰাজ্য স্তৰ"
+    },
+    {
+     "en": "intermediate tier",
+     "as": "মধ্যৱৰ্তী স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Anchalik Panchayat is the intermediate tier.",
     "as": "আঞ্চলিক পঞ্চায়ত মধ্যৱৰ্তী স্তৰ।"
@@ -15916,10 +15916,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "village tier",
-     "as": "গাঁও স্তৰ"
-    },
-    {
      "en": "intermediate tier",
      "as": "মধ্যৱৰ্তী স্তৰ"
     },
@@ -15930,9 +15926,13 @@ module.exports = {
     {
      "en": "state tier",
      "as": "ৰাজ্য স্তৰ"
+    },
+    {
+     "en": "village tier",
+     "as": "গাঁও স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Gaon Panchayat is the village tier.",
     "as": "গাঁও পঞ্চায়ত গাঁও স্তৰ।"
@@ -15946,12 +15946,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Gaon Sabha",
-     "as": "গাঁও সভা"
-    },
-    {
      "en": "The Zila Parishad",
      "as": "জিলা পৰিষদ"
+    },
+    {
+     "en": "The Gaon Sabha",
+     "as": "গাঁও সভা"
     },
     {
      "en": "The Governor",
@@ -15962,7 +15962,7 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Gaon Sabha approves the budget of the Gaon Panchayat.",
     "as": "গাঁও সভাই গাঁও পঞ্চায়তৰ বাজেট অনুমোদন কৰে।"
@@ -15976,10 +15976,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "gave constitutional status to Panchayati Raj",
-     "as": "পঞ্চায়তী ৰাজক সাংবিধানিক মৰ্যাদা দিছিল"
-    },
-    {
      "en": "abolished Panchayats",
      "as": "পঞ্চায়ত বিলুপ্ত কৰিছিল"
     },
@@ -15990,9 +15986,13 @@ module.exports = {
     {
      "en": "created new States",
      "as": "নতুন ৰাজ্য সৃষ্টি কৰিছিল"
+    },
+    {
+     "en": "gave constitutional status to Panchayati Raj",
+     "as": "পঞ্চায়তী ৰাজক সাংবিধানিক মৰ্যাদা দিছিল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It gave constitutional status to Panchayati Raj.",
     "as": "ই পঞ্চায়তী ৰাজক সাংবিধানিক মৰ্যাদা দিছিল।"
@@ -16006,10 +16006,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Conducting national elections",
-     "as": "ৰাষ্ট্ৰীয় নিৰ্বাচন অনুষ্ঠিত কৰা"
-    },
-    {
      "en": "Supervising Panchayat Samitis",
      "as": "পঞ্চায়ত সমিতিৰ তদাৰকী"
     },
@@ -16018,11 +16014,15 @@ module.exports = {
      "as": "জিলা পৰিকল্পনা অনুমোদন"
     },
     {
+     "en": "Conducting national elections",
+     "as": "ৰাষ্ট্ৰীয় নিৰ্বাচন অনুষ্ঠিত কৰা"
+    },
+    {
      "en": "Coordinating development",
      "as": "উন্নয়ন সমন্বয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Conducting national elections is not a Zila Parishad function.",
     "as": "ৰাষ্ট্ৰীয় নিৰ্বাচন অনুষ্ঠিত কৰা জিলা পৰিষদৰ কৰ্তব্য নহয়।"
@@ -16036,12 +16036,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "rural development",
-     "as": "গ্ৰামীণ উন্নয়ন"
-    },
-    {
      "en": "urban development only",
      "as": "কেৱল চহৰীয়া উন্নয়ন"
+    },
+    {
+     "en": "rural development",
+     "as": "গ্ৰামীণ উন্নয়ন"
     },
     {
      "en": "defence",
@@ -16052,7 +16052,7 @@ module.exports = {
      "as": "বৈদেশিক বাণিজ্য"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It helps in rural development.",
     "as": "ই গ্ৰামীণ উন্নয়নত সহায় কৰে।"
@@ -16066,10 +16066,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243D",
-     "as": "অনুচ্ছেদ 243D"
-    },
-    {
      "en": "Article 243C",
      "as": "অনুচ্ছেদ 243C"
     },
@@ -16078,11 +16074,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243E"
     },
     {
+     "en": "Article 243D",
+     "as": "অনুচ্ছেদ 243D"
+    },
+    {
      "en": "Article 243G",
      "as": "অনুচ্ছেদ 243G"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243D provides for reservation of the office of Chairperson.",
     "as": "অনুচ্ছেদ 243D অধ্যক্ষৰ পদ সংৰক্ষণৰ ব্যৱস্থা কৰে।"
@@ -16126,10 +16126,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Panchayat",
-     "as": "পঞ্চায়ত"
-    },
-    {
      "en": "Parliament",
      "as": "সংসদ"
     },
@@ -16140,9 +16136,13 @@ module.exports = {
     {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
+    },
+    {
+     "en": "Panchayat",
+     "as": "পঞ্চায়ত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Such a person is disqualified for Panchayat elections too.",
     "as": "এনে ব্যক্তি পঞ্চায়ত নিৰ্বাচনৰ বাবেও অযোগ্য।"
@@ -16186,12 +16186,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rural housing",
-     "as": "গ্ৰামীণ আবাসন"
-    },
-    {
      "en": "Defence",
      "as": "প্ৰতিৰক্ষা"
+    },
+    {
+     "en": "Rural housing",
+     "as": "গ্ৰামীণ আবাসন"
     },
     {
      "en": "Railways",
@@ -16202,7 +16202,7 @@ module.exports = {
      "as": "মুদ্ৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Rural housing is one of the 29 subjects in the Eleventh Schedule.",
     "as": "গ্ৰামীণ আবাসন একাদশ অনুসূচীৰ ২৯ টা বিষয়ৰ এটা।"
@@ -16246,12 +16246,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Poverty alleviation",
-     "as": "দৰিদ্ৰতা নিৰ্মূল"
-    },
-    {
      "en": "Defence",
      "as": "প্ৰতিৰক্ষা"
+    },
+    {
+     "en": "Poverty alleviation",
+     "as": "দৰিদ্ৰতা নিৰ্মূল"
     },
     {
      "en": "Banking",
@@ -16262,7 +16262,7 @@ module.exports = {
      "as": "বীমা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Poverty alleviation is one of the 29 subjects in the Eleventh Schedule.",
     "as": "দৰিদ্ৰতা নিৰ্মূল একাদশ অনুসূচীৰ ২৯ টা বিষয়ৰ এটা।"
@@ -16276,10 +16276,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Primary education",
-     "as": "প্ৰাথমিক শিক্ষা"
-    },
-    {
      "en": "Defence",
      "as": "প্ৰতিৰক্ষা"
     },
@@ -16290,9 +16286,13 @@ module.exports = {
     {
      "en": "Atomic energy",
      "as": "পাৰমাণৱিক শক্তি"
+    },
+    {
+     "en": "Primary education",
+     "as": "প্ৰাথমিক শিক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Primary education is one of the 29 subjects in the Eleventh Schedule.",
     "as": "প্ৰাথমিক শিক্ষা একাদশ অনুসূচীৰ ২৯ টা বিষয়ৰ এটা।"
@@ -16306,10 +16306,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Public health",
-     "as": "ৰাজহুৱা স্বাস্থ্য"
-    },
-    {
      "en": "Railways",
      "as": "ৰে'লপথ"
     },
@@ -16318,11 +16314,15 @@ module.exports = {
      "as": "মুদ্ৰা"
     },
     {
+     "en": "Public health",
+     "as": "ৰাজহুৱা স্বাস্থ্য"
+    },
+    {
      "en": "Defence",
      "as": "প্ৰতিৰক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Public health is one of the 29 subjects in the Eleventh Schedule.",
     "as": "ৰাজহুৱা স্বাস্থ্য একাদশ অনুসূচীৰ ২৯ টা বিষয়ৰ এটা।"
@@ -16336,10 +16336,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Minor irrigation",
-     "as": "লঘু জলসিঞ্চন"
-    },
-    {
      "en": "Defence",
      "as": "প্ৰতিৰক্ষা"
     },
@@ -16350,9 +16346,13 @@ module.exports = {
     {
      "en": "Insurance",
      "as": "বীমা"
+    },
+    {
+     "en": "Minor irrigation",
+     "as": "লঘু জলসিঞ্চন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Minor irrigation is one of the 29 subjects in the Eleventh Schedule.",
     "as": "লঘু জলসিঞ্চন একাদশ অনুসূচীৰ ২৯ টা বিষয়ৰ এটা।"
@@ -16426,10 +16426,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the common people",
-     "as": "সাধাৰণ ৰাইজ"
-    },
-    {
      "en": "only officials",
      "as": "কেৱল বিষয়াসকল"
     },
@@ -16438,11 +16434,15 @@ module.exports = {
      "as": "কেৱল ধনীসকল"
     },
     {
+     "en": "the common people",
+     "as": "সাধাৰণ ৰাইজ"
+    },
+    {
      "en": "only the Governor",
      "as": "কেৱল ৰাজ্যপাল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It provides for the participation of the common people.",
     "as": "ই সাধাৰণ ৰাইজৰ অংশগ্ৰহণৰ ব্যৱস্থা কৰে।"
@@ -16456,10 +16456,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243E",
-     "as": "অনুচ্ছেদ 243E"
-    },
-    {
      "en": "Article 243D",
      "as": "অনুচ্ছেদ 243D"
     },
@@ -16470,9 +16466,13 @@ module.exports = {
     {
      "en": "Article 243G",
      "as": "অনুচ্ছেদ 243G"
+    },
+    {
+     "en": "Article 243E",
+     "as": "অনুচ্ছেদ 243E"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243E provides that a Panchayat continues for five years.",
     "as": "অনুচ্ছেদ 243E এ কয় যে পঞ্চায়ত পাঁচ বছৰ চলিব।"
@@ -16486,10 +16486,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "remainder of the term",
-     "as": "কাৰ্যকালৰ বাকী সময়"
-    },
-    {
      "en": "full five years",
      "as": "পূৰ্ণ পাঁচ বছৰ"
     },
@@ -16498,11 +16494,15 @@ module.exports = {
      "as": "দহ বছৰ"
     },
     {
+     "en": "remainder of the term",
+     "as": "কাৰ্যকালৰ বাকী সময়"
+    },
+    {
      "en": "two years",
      "as": "দুই বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It continues only for the remainder of the original term.",
     "as": "ই কেৱল মূল কাৰ্যকালৰ বাকী সময়লৈ চলিব।"
@@ -16516,10 +16516,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Grants from the State Government",
-     "as": "ৰাজ্য চৰকাৰৰ পৰা অনুদান"
-    },
-    {
      "en": "Income tax",
      "as": "আয়কৰ"
     },
@@ -16530,9 +16526,13 @@ module.exports = {
     {
      "en": "Corporation tax",
      "as": "নিগম কৰ"
+    },
+    {
+     "en": "Grants from the State Government",
+     "as": "ৰাজ্য চৰকাৰৰ পৰা অনুদান"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Grants from the State Government are a source of income.",
     "as": "ৰাজ্য চৰকাৰৰ পৰা অনুদান আয়ৰ এটা উৎস।"
@@ -16546,10 +16546,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "people's participation in administration",
-     "as": "প্ৰশাসনত জনসাধাৰণৰ অংশগ্ৰহণ"
-    },
-    {
      "en": "central control",
      "as": "কেন্দ্ৰীয় নিয়ন্ত্ৰণ"
     },
@@ -16558,11 +16554,15 @@ module.exports = {
      "as": "সামৰিক শাসন"
     },
     {
+     "en": "people's participation in administration",
+     "as": "প্ৰশাসনত জনসাধাৰণৰ অংশগ্ৰহণ"
+    },
+    {
      "en": "religious control",
      "as": "ধৰ্মীয় নিয়ন্ত্ৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It ensures people's participation in administration.",
     "as": "ই প্ৰশাসনত জনসাধাৰণৰ অংশগ্ৰহণ নিশ্চিত কৰে।"
@@ -16576,10 +16576,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243C",
-     "as": "অনুচ্ছেদ 243C"
-    },
-    {
      "en": "Article 243B",
      "as": "অনুচ্ছেদ 243B"
     },
@@ -16590,9 +16586,13 @@ module.exports = {
     {
      "en": "Article 243E",
      "as": "অনুচ্ছেদ 243E"
+    },
+    {
+     "en": "Article 243C",
+     "as": "অনুচ্ছেদ 243C"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243C allows the State Legislature to provide for the composition of Panchayats.",
     "as": "অনুচ্ছেদ 243C ৰাজ্য বিধানমণ্ডলক পঞ্চায়তৰ গঠনৰ ব্যৱস্থা কৰিবলৈ অনুমতি দিয়ে।"
@@ -16606,10 +16606,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "The Zila Parishad",
-     "as": "জিলা পৰিষদ"
-    },
-    {
      "en": "The Gram Sabha",
      "as": "গাঁও সভা"
     },
@@ -16618,11 +16614,15 @@ module.exports = {
      "as": "ৰাজ্যপাল"
     },
     {
+     "en": "The Zila Parishad",
+     "as": "জিলা পৰিষদ"
+    },
+    {
      "en": "The President",
      "as": "ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Zila Parishad approves the plans of the Panchayat Samiti.",
     "as": "জিলা পৰিষদে পঞ্চায়ত সমিতিৰ পৰিকল্পনা অনুমোদন কৰে।"
@@ -16636,10 +16636,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "local self-governance",
-     "as": "স্থানীয় স্ব-শাসন"
-    },
-    {
      "en": "central authority",
      "as": "কেন্দ্ৰীয় কৰ্তৃত্ব"
     },
@@ -16648,11 +16644,15 @@ module.exports = {
      "as": "ন্যায়িক ক্ষমতা"
     },
     {
+     "en": "local self-governance",
+     "as": "স্থানীয় স্ব-শাসন"
+    },
+    {
      "en": "military power",
      "as": "সামৰিক ক্ষমতা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "They promote local self-governance.",
     "as": "ইবোৰে স্থানীয় স্ব-শাসন প্ৰসাৰ কৰে।"
@@ -16666,12 +16666,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "before the expiry of the term",
-     "as": "কাৰ্যকাল শেষ হোৱাৰ আগতে"
-    },
-    {
      "en": "after the expiry of the term",
      "as": "কাৰ্যকাল শেষ হোৱাৰ পিছত"
+    },
+    {
+     "en": "before the expiry of the term",
+     "as": "কাৰ্যকাল শেষ হোৱাৰ আগতে"
     },
     {
      "en": "only on court orders",
@@ -16682,7 +16682,7 @@ module.exports = {
      "as": "কেন্দ্ৰৰ ইচ্ছাত"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Elections must be held before the expiry of the term.",
     "as": "কাৰ্যকাল শেষ হোৱাৰ আগতে নিৰ্বাচন অনুষ্ঠিত কৰিব লাগে।"
@@ -16696,10 +16696,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243I",
-     "as": "অনুচ্ছেদ 243I"
-    },
-    {
      "en": "Article 243K",
      "as": "অনুচ্ছেদ 243K"
     },
@@ -16708,11 +16704,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243H"
     },
     {
+     "en": "Article 243I",
+     "as": "অনুচ্ছেদ 243I"
+    },
+    {
      "en": "Article 280",
      "as": "অনুচ্ছেদ ২৮০"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243I provides for the State Finance Commission.",
     "as": "অনুচ্ছেদ 243I ৰাজ্য বিত্ত আয়োগৰ ব্যৱস্থা কৰে।"
@@ -16726,10 +16726,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Constitution",
-     "as": "সংবিধান"
-    },
-    {
      "en": "municipal law",
      "as": "পৌৰ আইন"
     },
@@ -16740,9 +16736,13 @@ module.exports = {
     {
      "en": "labour law",
      "as": "শ্ৰম আইন"
+    },
+    {
+     "en": "Constitution",
+     "as": "সংবিধান"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It operates within the framework of the Constitution.",
     "as": "ই সংবিধানৰ কাঠামোৰ ভিতৰত কাম কৰে।"
@@ -16756,10 +16756,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243I",
-     "as": "অনুচ্ছেদ 243I"
-    },
-    {
      "en": "Article 243K",
      "as": "অনুচ্ছেদ 243K"
     },
@@ -16770,9 +16766,13 @@ module.exports = {
     {
      "en": "Article 280",
      "as": "অনুচ্ছেদ ২৮০"
+    },
+    {
+     "en": "Article 243I",
+     "as": "অনুচ্ছেদ 243I"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243I requires the Governor to constitute a State Finance Commission every five years.",
     "as": "অনুচ্ছেদ 243I ৰাজ্যপালক প্ৰতি পাঁচ বছৰত ৰাজ্য বিত্ত আয়োগ গঠন কৰিবলৈ কয়।"
@@ -16786,12 +16786,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "73rd and 74th",
-     "as": "৭৩ আৰু ৭৪"
-    },
-    {
      "en": "72nd and 73rd",
      "as": "৭২ আৰু ৭৩"
+    },
+    {
+     "en": "73rd and 74th",
+     "as": "৭৩ আৰু ৭৪"
     },
     {
      "en": "74th and 75th",
@@ -16802,7 +16802,7 @@ module.exports = {
      "as": "৭১ আৰু ৭২"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 73rd added the Eleventh and the 74th added the Twelfth Schedule.",
     "as": "৭৩ য়ে একাদশ আৰু ৭৪ য়ে দ্বাদশ অনুসূচী যোগ কৰিছিল।"
@@ -16816,10 +16816,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "uniform throughout the country",
-     "as": "সমগ্ৰ দেশত একে ধৰণৰ"
-    },
-    {
      "en": "different in every State only",
      "as": "কেৱল প্ৰতিখন ৰাজ্যত বেলেগ"
     },
@@ -16828,11 +16824,15 @@ module.exports = {
      "as": "কিছুমান ৰাজ্যত অনুপস্থিত"
     },
     {
+     "en": "uniform throughout the country",
+     "as": "সমগ্ৰ দেশত একে ধৰণৰ"
+    },
+    {
      "en": "only in urban areas",
      "as": "কেৱল চহৰীয়া অঞ্চলত"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It is broadly uniform, with variations allowed for certain areas.",
     "as": "ই বহুলাংশে একে ধৰণৰ, কিছুমান অঞ্চলৰ বাবে ভিন্নতাৰ অনুমতিৰ সৈতে।"
@@ -16846,10 +16846,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243M",
-     "as": "অনুচ্ছেদ 243M"
-    },
-    {
      "en": "Article 243L",
      "as": "অনুচ্ছেদ 243L"
     },
@@ -16858,11 +16854,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243N"
     },
     {
+     "en": "Article 243M",
+     "as": "অনুচ্ছেদ 243M"
+    },
+    {
      "en": "Article 243O",
      "as": "অনুচ্ছেদ 243O"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243M lists areas where the provisions do not apply.",
     "as": "অনুচ্ছেদ 243M সেই অঞ্চলবোৰ তালিকাভুক্ত কৰে য'ত বিধান প্ৰযোজ্য নহয়।"
@@ -16906,10 +16906,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "three-tier structure",
-     "as": "তিনি স্তৰীয় কাঠামো"
-    },
-    {
      "en": "two-tier structure",
      "as": "দুই স্তৰীয় কাঠামো"
     },
@@ -16920,9 +16916,13 @@ module.exports = {
     {
      "en": "single-tier structure",
      "as": "এক স্তৰীয় কাঠামো"
+    },
+    {
+     "en": "three-tier structure",
+     "as": "তিনি স্তৰীয় কাঠামো"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It provides for a uniform three-tier structure.",
     "as": "ই এক সমান তিনি স্তৰীয় কাঠামোৰ ব্যৱস্থা কৰে।"
@@ -16966,10 +16966,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "all registered voters of a village",
-     "as": "এখন গাঁৱৰ সকলো পঞ্জীভুক্ত ভোটাৰ"
-    },
-    {
      "en": "elected members",
      "as": "নিৰ্বাচিত সদস্য"
     },
@@ -16980,9 +16976,13 @@ module.exports = {
     {
      "en": "panchayat staff",
      "as": "পঞ্চায়ত কৰ্মচাৰী"
+    },
+    {
+     "en": "all registered voters of a village",
+     "as": "এখন গাঁৱৰ সকলো পঞ্জীভুক্ত ভোটাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It consists of all registered voters of the village.",
     "as": "ই গাঁৱৰ সকলো পঞ্জীভুক্ত ভোটাৰেৰে গঠিত।"
@@ -16996,10 +16996,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "accountability of local government",
-     "as": "স্থানীয় চৰকাৰৰ জবাবদিহিতা"
-    },
-    {
      "en": "centralisation",
      "as": "কেন্দ্ৰীকৰণ"
     },
@@ -17010,9 +17006,13 @@ module.exports = {
     {
      "en": "autocracy",
      "as": "স্বেচ্ছাচাৰ"
+    },
+    {
+     "en": "accountability of local government",
+     "as": "স্থানীয় চৰকাৰৰ জবাবদিহিতা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It ensures accountability of local government.",
     "as": "ই স্থানীয় চৰকাৰৰ জবাবদিহিতা নিশ্চিত কৰে।"
@@ -17026,10 +17026,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243A",
-     "as": "অনুচ্ছেদ 243A"
-    },
-    {
      "en": "Article 243",
      "as": "অনুচ্ছেদ ২৪৩"
     },
@@ -17040,9 +17036,13 @@ module.exports = {
     {
      "en": "Article 243C",
      "as": "অনুচ্ছেদ 243C"
+    },
+    {
+     "en": "Article 243A",
+     "as": "অনুচ্ছেদ 243A"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 243A provides for the Gram Sabha and its composition.",
     "as": "অনুচ্ছেদ 243A গাঁও সভা আৰু ইয়াৰ গঠনৰ ব্যৱস্থা কৰে।"
@@ -17056,10 +17056,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Part IX",
-     "as": "নৱম অংশ"
-    },
-    {
      "en": "Part IXA",
      "as": "নৱম A অংশ"
     },
@@ -17070,9 +17066,13 @@ module.exports = {
     {
      "en": "Part VIII",
      "as": "অষ্টম অংশ"
+    },
+    {
+     "en": "Part IX",
+     "as": "নৱম অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It is in Part IX (Articles 243 to 243O).",
     "as": "ই নৱম অংশত (অনুচ্ছেদ ২৪৩ ৰ পৰা 243O) আছে।"
@@ -17086,12 +17086,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Part IXA",
-     "as": "নৱম A অংশ"
-    },
-    {
      "en": "Part IX",
      "as": "নৱম অংশ"
+    },
+    {
+     "en": "Part IXA",
+     "as": "নৱম A অংশ"
     },
     {
      "en": "Part X",
@@ -17102,7 +17102,7 @@ module.exports = {
      "as": "একাদশ অংশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It is in Part IXA (Articles 243P to 243ZG).",
     "as": "ই নৱম A অংশত (অনুচ্ছেদ 243P ৰ পৰা 243ZG) আছে।"
@@ -17116,12 +17116,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "grassroots level",
-     "as": "তৃণমূল স্তৰ"
-    },
-    {
      "en": "national level",
      "as": "ৰাষ্ট্ৰীয় স্তৰ"
+    },
+    {
+     "en": "grassroots level",
+     "as": "তৃণমূল স্তৰ"
     },
     {
      "en": "international level",
@@ -17132,7 +17132,7 @@ module.exports = {
      "as": "কেৱল ৰাজ্য স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It strengthens democracy at the grassroots level.",
     "as": "ই তৃণমূল স্তৰত গণতন্ত্ৰ শক্তিশালী কৰে।"
@@ -17146,12 +17146,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Municipal Corporation",
-     "as": "পৌৰ নিগম"
-    },
-    {
      "en": "Gram Panchayat",
      "as": "গাঁও পঞ্চায়ত"
+    },
+    {
+     "en": "Municipal Corporation",
+     "as": "পৌৰ নিগম"
     },
     {
      "en": "Panchayat Samiti",
@@ -17162,7 +17162,7 @@ module.exports = {
      "as": "জিলা পৰিষদ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Municipal Corporation is an urban body, not a Panchayati Raj tier.",
     "as": "পৌৰ নিগম এটা চহৰীয়া সংস্থা, পঞ্চায়তী ৰাজৰ স্তৰ নহয়।"
@@ -17176,12 +17176,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "village, intermediate and district",
-     "as": "গাঁও, মধ্যৱৰ্তী আৰু জিলা"
-    },
-    {
      "en": "village, town and city",
      "as": "গাঁও, চহৰ আৰু নগৰ"
+    },
+    {
+     "en": "village, intermediate and district",
+     "as": "গাঁও, মধ্যৱৰ্তী আৰু জিলা"
     },
     {
      "en": "block, district and state",
@@ -17192,7 +17192,7 @@ module.exports = {
      "as": "গ্ৰাম, তালুক আৰু ৰাজ্য"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The three tiers are village, intermediate and district.",
     "as": "তিনি স্তৰ হৈছে গাঁও, মধ্যৱৰ্তী আৰু জিলা।"
@@ -17206,12 +17206,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "decentralised governance",
-     "as": "বিকেন্দ্ৰীকৃত শাসন"
-    },
-    {
      "en": "centralised governance",
      "as": "কেন্দ্ৰীকৃত শাসন"
+    },
+    {
+     "en": "decentralised governance",
+     "as": "বিকেন্দ্ৰীকৃত শাসন"
     },
     {
      "en": "military governance",
@@ -17222,7 +17222,7 @@ module.exports = {
      "as": "উপনিৱেশিক শাসন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It is a means of decentralised governance.",
     "as": "ই বিকেন্দ্ৰীকৃত শাসনৰ এটা উপায়।"
@@ -17236,12 +17236,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243O",
-     "as": "অনুচ্ছেদ 243O"
-    },
-    {
      "en": "Article 243N",
      "as": "অনুচ্ছেদ 243N"
+    },
+    {
+     "en": "Article 243O",
+     "as": "অনুচ্ছেদ 243O"
     },
     {
      "en": "Article 243M",
@@ -17252,7 +17252,7 @@ module.exports = {
      "as": "অনুচ্ছেদ 243L"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Article 243O provides that no election shall be called in question except by an election petition.",
     "as": "অনুচ্ছেদ 243O এ কয় যে নিৰ্বাচনী আবেদনৰ বাহিৰে নিৰ্বাচনক প্ৰশ্ন কৰিব নোৱাৰি।"
@@ -17296,12 +17296,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Panchayati Raj Act",
-     "as": "পঞ্চায়তী ৰাজ আইন"
-    },
-    {
      "en": "Municipalities Act",
      "as": "পৌৰসভা আইন"
+    },
+    {
+     "en": "Panchayati Raj Act",
+     "as": "পঞ্চায়তী ৰাজ আইন"
     },
     {
      "en": "Land Reforms Act",
@@ -17312,7 +17312,7 @@ module.exports = {
      "as": "প্ৰতিনিধিত্ব আইন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 73rd Amendment Act is known as the Panchayati Raj Act.",
     "as": "৭৩ সংখ্যক সংশোধনী আইনক পঞ্চায়তী ৰাজ আইন বুলি জনা যায়।"
@@ -17356,12 +17356,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "local level",
-     "as": "স্থানীয় স্তৰ"
-    },
-    {
      "en": "national level",
      "as": "ৰাষ্ট্ৰীয় স্তৰ"
+    },
+    {
+     "en": "local level",
+     "as": "স্থানীয় স্তৰ"
     },
     {
      "en": "international level",
@@ -17372,7 +17372,7 @@ module.exports = {
      "as": "প্ৰাদেশিক স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Panchayats are local-level institutions.",
     "as": "পঞ্চায়ত স্থানীয় স্তৰৰ প্ৰতিষ্ঠান।"
@@ -17386,12 +17386,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "uniform and mandatory",
-     "as": "সমান আৰু বাধ্যতামূলক"
-    },
-    {
      "en": "optional",
      "as": "ঐচ্ছিক"
+    },
+    {
+     "en": "uniform and mandatory",
+     "as": "সমান আৰু বাধ্যতামূলক"
     },
     {
      "en": "temporary",
@@ -17402,7 +17402,7 @@ module.exports = {
      "as": "চহৰীয়া"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It made the system uniform and mandatory.",
     "as": "ই ব্যৱস্থাটোক সমান আৰু বাধ্যতামূলক কৰিছিল।"
@@ -17416,10 +17416,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 243L",
-     "as": "অনুচ্ছেদ 243L"
-    },
-    {
      "en": "Article 243K",
      "as": "অনুচ্ছেদ 243K"
     },
@@ -17428,11 +17424,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 243M"
     },
     {
+     "en": "Article 243L",
+     "as": "অনুচ্ছেদ 243L"
+    },
+    {
      "en": "Article 243N",
      "as": "অনুচ্ছেদ 243N"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 243L deals with Union Territories.",
     "as": "অনুচ্ছেদ 243L সংঘ শাসিত অঞ্চলৰ বিষয়ে কয়।"
@@ -17446,10 +17446,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "shared with the people",
-     "as": "জনসাধাৰণৰ সৈতে ভগাই লোৱা উচিত"
-    },
-    {
      "en": "kept at the Centre",
      "as": "কেন্দ্ৰত ৰখা উচিত"
     },
@@ -17460,9 +17456,13 @@ module.exports = {
     {
      "en": "kept secret",
      "as": "গোপন ৰখা উচিত"
+    },
+    {
+     "en": "shared with the people",
+     "as": "জনসাধাৰণৰ সৈতে ভগাই লোৱা উচিত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It is based on the idea that power should be shared with the people.",
     "as": "ই এই ধাৰণাত আধাৰিত যে ক্ষমতা জনসাধাৰণৰ সৈতে ভগাই ল'ব লাগে।"
@@ -17506,10 +17506,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "takes governance to the doorstep of the people",
-     "as": "শাসন জনসাধাৰণৰ দুৱাৰমুখলৈ লৈ যায়"
-    },
-    {
      "en": "keeps governance at the Centre",
      "as": "শাসন কেন্দ্ৰত ৰাখে"
     },
@@ -17520,9 +17516,13 @@ module.exports = {
     {
      "en": "reduces participation",
      "as": "অংশগ্ৰহণ কমায়"
+    },
+    {
+     "en": "takes governance to the doorstep of the people",
+     "as": "শাসন জনসাধাৰণৰ দুৱাৰমুখলৈ লৈ যায়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It takes governance to the doorstep of the people.",
     "as": "ই শাসন জনসাধাৰণৰ দুৱাৰমুখলৈ লৈ যায়।"
@@ -17536,12 +17536,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "economic development and social justice",
-     "as": "অৰ্থনৈতিক উন্নয়ন আৰু সামাজিক ন্যায়"
-    },
-    {
      "en": "national defence",
      "as": "ৰাষ্ট্ৰীয় প্ৰতিৰক্ষা"
+    },
+    {
+     "en": "economic development and social justice",
+     "as": "অৰ্থনৈতিক উন্নয়ন আৰু সামাজিক ন্যায়"
     },
     {
      "en": "foreign policy",
@@ -17552,7 +17552,7 @@ module.exports = {
      "as": "মুদ্ৰা নীতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Panchayats prepare plans for economic development and social justice.",
     "as": "পঞ্চায়তে অৰ্থনৈতিক উন্নয়ন আৰু সামাজিক ন্যায়ৰ বাবে পৰিকল্পনা প্ৰস্তুত কৰে।"
@@ -17566,10 +17566,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "subjects of Panchayats",
-     "as": "পঞ্চায়তৰ বিষয়"
-    },
-    {
      "en": "subjects of municipalities",
      "as": "পৌৰসভাৰ বিষয়"
     },
@@ -17578,11 +17574,15 @@ module.exports = {
      "as": "সংঘৰ বিষয়"
     },
     {
+     "en": "subjects of Panchayats",
+     "as": "পঞ্চায়তৰ বিষয়"
+    },
+    {
      "en": "subjects of the State",
      "as": "ৰাজ্যৰ বিষয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "They are the subjects entrusted to Panchayats.",
     "as": "ইবোৰ পঞ্চায়তক অৰ্পণ কৰা বিষয়।"
@@ -17626,10 +17626,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a reasonable opportunity of being heard",
-     "as": "শুনানিৰ যুক্তিসংগত সুযোগ"
-    },
-    {
      "en": "the Governor's approval",
      "as": "ৰাজ্যপালৰ অনুমোদন"
     },
@@ -17640,9 +17636,13 @@ module.exports = {
     {
      "en": "a court order",
      "as": "আদালতৰ আদেশ"
+    },
+    {
+     "en": "a reasonable opportunity of being heard",
+     "as": "শুনানিৰ যুক্তিসংগত সুযোগ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A Panchayat cannot be superseded without giving it a reasonable opportunity of being heard.",
     "as": "শুনানিৰ যুক্তিসংগত সুযোগ নিদিয়াকৈ পঞ্চায়ত ভংগ কৰিব নোৱাৰি।"
@@ -17656,12 +17656,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "six months",
-     "as": "ছয় মাহ"
-    },
-    {
      "en": "one year",
      "as": "এক বছৰ"
+    },
+    {
+     "en": "six months",
+     "as": "ছয় মাহ"
     },
     {
      "en": "three months",
@@ -17672,7 +17672,7 @@ module.exports = {
      "as": "দুই বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It must be reconstituted within six months.",
     "as": "ই ছয় মাহৰ ভিতৰত পুনৰ্গঠন কৰিব লাগে।"
@@ -17686,10 +17686,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "elected members of the Panchayat",
-     "as": "পঞ্চায়তৰ নিৰ্বাচিত সদস্য"
-    },
-    {
      "en": "Gram Sabha",
      "as": "গাঁও সভা"
     },
@@ -17700,9 +17696,13 @@ module.exports = {
     {
      "en": "State Government",
      "as": "ৰাজ্য চৰকাৰ"
+    },
+    {
+     "en": "elected members of the Panchayat",
+     "as": "পঞ্চায়তৰ নিৰ্বাচিত সদস্য"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Chairperson is elected by the elected members.",
     "as": "অধ্যক্ষ নিৰ্বাচিত সদস্যসকলৰ দ্বাৰা নিৰ্বাচিত।"
@@ -17716,12 +17716,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Banking",
-     "as": "বেংকিং"
-    },
-    {
      "en": "Agriculture",
      "as": "কৃষি"
+    },
+    {
+     "en": "Banking",
+     "as": "বেংকিং"
     },
     {
      "en": "Minor irrigation",
@@ -17732,7 +17732,7 @@ module.exports = {
      "as": "ৰাজহুৱা স্বাস্থ্য"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Banking is a Union subject, not in the Eleventh Schedule.",
     "as": "বেংকিং সংঘৰ বিষয়, একাদশ অনুসূচীত নাই।"
@@ -17836,10 +17836,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Balwant Rai Mehta Committee",
-     "as": "বলৱন্ত ৰায় মেহতা সমিতি"
-    },
-    {
      "en": "Ashok Mehta Committee",
      "as": "অশোক মেহতা সমিতি"
     },
@@ -17850,9 +17846,13 @@ module.exports = {
     {
      "en": "L. M. Singhvi Committee",
      "as": "এল এম সিংভি সমিতি"
+    },
+    {
+     "en": "Balwant Rai Mehta Committee",
+     "as": "বলৱন্ত ৰায় মেহতা সমিতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It was introduced on the recommendation of the Balwant Rai Mehta Committee.",
     "as": "বলৱন্ত ৰায় মেহতা সমিতিৰ পৰামৰ্শত ইয়াক প্ৰৱৰ্তন কৰা হৈছিল।"
@@ -17866,10 +17866,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "L. M. Singhvi Committee",
-     "as": "এল এম সিংভি সমিতি"
-    },
-    {
      "en": "Balwant Rai Mehta Committee",
      "as": "বলৱন্ত ৰায় মেহতা সমিতি"
     },
@@ -17878,11 +17874,15 @@ module.exports = {
      "as": "অশোক মেহতা সমিতি"
     },
     {
+     "en": "L. M. Singhvi Committee",
+     "as": "এল এম সিংভি সমিতি"
+    },
+    {
      "en": "Sarkaria Commission",
      "as": "সৰকাৰিয়া আয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The L. M. Singhvi Committee recommended constitutional status.",
     "as": "এল এম সিংভি সমিতিয়ে সাংবিধানিক মৰ্যাদা পৰামৰ্শ দিছিল।"
@@ -17956,10 +17956,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Zila Parishad",
-     "as": "জিলা পৰিষদ"
-    },
-    {
      "en": "Gram Panchayat",
      "as": "গাঁও পঞ্চায়ত"
     },
@@ -17970,9 +17966,13 @@ module.exports = {
     {
      "en": "Gram Sabha",
      "as": "গাঁও সভা"
+    },
+    {
+     "en": "Zila Parishad",
+     "as": "জিলা পৰিষদ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Zila Parishad is at the top of the three-tier system.",
     "as": "জিলা পৰিষদ তিনি স্তৰীয় ব্যৱস্থাৰ শীৰ্ষত।"
@@ -18016,10 +18016,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "made Panchayati Raj a constitutional obligation",
-     "as": "পঞ্চায়তী ৰাজক সাংবিধানিক বাধ্যবাধকতা কৰিছিল"
-    },
-    {
      "en": "abolished Panchayati Raj",
      "as": "পঞ্চায়তী ৰাজ বিলুপ্ত কৰিছিল"
     },
@@ -18028,11 +18024,15 @@ module.exports = {
      "as": "পঞ্চায়তৰ ক্ষমতা হ্ৰাস কৰিছিল"
     },
     {
+     "en": "made Panchayati Raj a constitutional obligation",
+     "as": "পঞ্চায়তী ৰাজক সাংবিধানিক বাধ্যবাধকতা কৰিছিল"
+    },
+    {
      "en": "centralised Panchayat funds",
      "as": "পঞ্চায়তৰ ধন কেন্দ্ৰীভূত কৰিছিল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It made Panchayati Raj a constitutional obligation.",
     "as": "ই পঞ্চায়তী ৰাজক সাংবিধানিক বাধ্যবাধকতা কৰিছিল।"
@@ -18076,10 +18076,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "State Election Commission",
-     "as": "ৰাজ্য নিৰ্বাচন আয়োগ"
-    },
-    {
      "en": "Election Commission of India",
      "as": "ভাৰতৰ নিৰ্বাচন আয়োগ"
     },
@@ -18088,11 +18084,15 @@ module.exports = {
      "as": "ৰাজ্যপাল"
     },
     {
+     "en": "State Election Commission",
+     "as": "ৰাজ্য নিৰ্বাচন আয়োগ"
+    },
+    {
      "en": "Zila Parishad",
      "as": "জিলা পৰিষদ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Elections are conducted under the State Election Commission.",
     "as": "নিৰ্বাচন ৰাজ্য নিৰ্বাচন আয়োগৰ তদাৰকীত অনুষ্ঠিত হয়।"
@@ -18106,10 +18106,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Constitution of India",
-     "as": "ভাৰতৰ সংবিধান"
-    },
-    {
      "en": "Indian Penal Code",
      "as": "ভাৰতীয় দণ্ড সংহিতা"
     },
@@ -18118,11 +18114,15 @@ module.exports = {
      "as": "কোম্পানী আইন"
     },
     {
+     "en": "Constitution of India",
+     "as": "ভাৰতৰ সংবিধান"
+    },
+    {
      "en": "Income Tax Act",
      "as": "আয়কৰ আইন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It is part of the Constitution after the 73rd Amendment.",
     "as": "৭৩ সংখ্যক সংশোধনীৰ পিছত ই সংবিধানৰ অংশ।"
@@ -18136,10 +18136,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dr. Shankar Dayal Sharma",
-     "as": "ড০ শংকৰ দয়াল শৰ্মা"
-    },
-    {
      "en": "Dr. Rajendra Prasad",
      "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
     },
@@ -18148,11 +18144,15 @@ module.exports = {
      "as": "আৰ ভেঙ্কটৰমন"
     },
     {
+     "en": "Dr. Shankar Dayal Sharma",
+     "as": "ড০ শংকৰ দয়াল শৰ্মা"
+    },
+    {
      "en": "K. R. Narayanan",
      "as": "কে আৰ নাৰায়ণন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 73rd Amendment came into force in 1993 under President Dr. Shankar Dayal Sharma.",
     "as": "৭৩ সংখ্যক সংশোধনী ১৯৯৩ চনত ৰাষ্ট্ৰপতি ড০ শংকৰ দয়াল শৰ্মাৰ অধীনত কাৰ্যকৰী হৈছিল।"

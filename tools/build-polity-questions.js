@@ -25,10 +25,55 @@ const OUT = path.join(__dirname, "adre-grade-3.questions.polity.js");
 
 const TOPICS = ["constitution-preamble-rights", "president-pm-governor-cm", "panchayati-raj"];
 
+/* The source banks are written with the natural answer first, so without a
+   rotation every key would land in the same position. Spread the correct
+   answers evenly across A/B/C/D with a deterministic (seeded) shuffle so a
+   rebuild reproduces the same order. */
+function balanceKeys(count) {
+  const base = [];
+  for (let i = 0; i < count; i++) base.push(i % 4);
+  let seed = 20260101;
+  const rand = () => (seed = (seed * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  for (let i = base.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [base[i], base[j]] = [base[j], base[i]];
+  }
+  return base;
+}
+
+function rotateOptions(opts, correct, target) {
+  const pairs = [];
+  for (let k = 0; k < 4; k++) pairs.push([opts[k * 2], opts[k * 2 + 1]]);
+  const correctPair = pairs[correct];
+  const others = pairs.filter((_, k) => k !== correct);
+  const out = [];
+  let oi = 0;
+  for (let pos = 0; pos < 4; pos++) out.push(pos === target ? correctPair : others[oi++]);
+  return [].concat(...out);
+}
+
+/* Options such as "all of these" / "none of the above" only make sense in the
+   written order, so a question carrying one keeps its original order and key. */
+function hasPositionalOption(opts) {
+  for (let k = 0; k < 4; k++) {
+    if (/\b(all|none|both|neither)\s+(of\s+)?(the\s+)?(above|these|them)\b/i.test(String(opts[k * 2]))) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function expand(topic, rows) {
   const seen = new Set();
+  const targets = balanceKeys(rows.length);
   return rows.map((row, i) => {
-    const [qEn, qAs, opts, correct, exEn, exAs] = row;
+    const [qEn, qAs, optsIn, correctIn, exEn, exAs] = row;
+    let opts = optsIn;
+    let correct = correctIn;
+    if (Array.isArray(optsIn) && Number.isInteger(correctIn) && !hasPositionalOption(optsIn)) {
+      opts = rotateOptions(optsIn, correctIn, targets[i]);
+      correct = targets[i];
+    }
     const errs = [];
     if (!qEn || !qAs) errs.push("missing question text");
     if (!Array.isArray(opts) || opts.length !== 8) errs.push("needs 4 bilingual options");

@@ -208,6 +208,21 @@ history topics were removed from the other sections: the GK section's
 Social Studies no longer carries `indian-history`. Do not re-add a history
 topic to another section or the book will show two copies of it.
 
+### Answer-key balancing (all src-backed banks)
+
+The compact source rows are written with the natural answer first, so a
+generator that copies them straight across would put every correct key in the
+same position. `build-history-questions.js`, `build-polity-questions.js`,
+`build-economy-questions.js` and `build-english-questions.js` therefore rotate
+each question's options with `balanceKeys()` (a seeded LCG, so a rebuild is
+reproducible) and `rotateOptions()`. A question whose options include a
+positional phrase such as "all of these" or "none of the above" keeps its
+original order and key, because those phrases only make sense in the written
+order. Add the same two helpers when you add a new src-backed generator, and
+keep explanations free of "option A/B/C/D" references — the rotation would make
+such a reference wrong. After a regeneration, check that no topic has one
+option holding ≥50% of the keys.
+
 ### Grade III history question banks
 
 The history topics of the Grade III book are too large to keep inline in

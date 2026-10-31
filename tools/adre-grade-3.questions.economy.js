@@ -42,10 +42,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dadabhai Naoroji",
-     "as": "দাদাভাই নৌৰজী"
-    },
-    {
      "en": "R. C. Dutt",
      "as": "আৰ চি দত্ত"
     },
@@ -56,9 +52,13 @@ module.exports = {
     {
      "en": "M. G. Ranade",
      "as": "এম জি ৰানাডে"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Dadabhai Naoroji wrote this book explaining the 'drain of wealth' theory.",
     "as": "দাদাভাই নৌৰজীয়ে এই কিতাপখন লিখিছিল য'ত 'ধন নিষ্কাশন' তত্ত্ব ব্যাখ্যা কৰা হৈছে।"
@@ -72,12 +72,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dadabhai Naoroji",
-     "as": "দাদাভাই নৌৰজী"
-    },
-    {
      "en": "V. K. R. V. Rao",
      "as": "ভি কে আৰ ভি ৰাও"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "as": "দাদাভাই নৌৰজী"
     },
     {
      "en": "P. C. Mahalanobis",
@@ -88,7 +88,7 @@ module.exports = {
      "as": "অমৰ্ত্য সেন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Dadabhai Naoroji made the first estimate of India's national income in 1868.",
     "as": "দাদাভাই নৌৰজীয়ে ১৮৬৮ চনত ভাৰতৰ ৰাষ্ট্ৰীয় আয়ৰ প্ৰথম অনুমান কৰিছিল।"
@@ -102,10 +102,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "National Statistical Office",
-     "as": "ৰাষ্ট্ৰীয় পৰিসংখ্যা কাৰ্যালয়"
-    },
-    {
      "en": "RBI",
      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
     },
@@ -116,9 +112,13 @@ module.exports = {
     {
      "en": "Finance Ministry",
      "as": "বিত্ত মন্ত্ৰালয়"
+    },
+    {
+     "en": "National Statistical Office",
+     "as": "ৰাষ্ট্ৰীয় পৰিসংখ্যা কাৰ্যালয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The National Statistical Office prepares the National Accounts Statistics.",
     "as": "ৰাষ্ট্ৰীয় পৰিসংখ্যা কাৰ্যালয়ে ৰাষ্ট্ৰীয় হিচাপ পৰিসংখ্যা প্ৰস্তুত কৰে।"
@@ -132,10 +132,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "final goods and services produced within a country",
-     "as": "দেশৰ ভিতৰত উৎপাদিত চূড়ান্ত সামগ্ৰী আৰু সেৱা"
-    },
-    {
      "en": "exports only",
      "as": "কেৱল ৰপ্তানি"
     },
@@ -144,11 +140,15 @@ module.exports = {
      "as": "চৰকাৰী ৰাজহ"
     },
     {
+     "en": "final goods and services produced within a country",
+     "as": "দেশৰ ভিতৰত উৎপাদিত চূড়ান্ত সামগ্ৰী আৰু সেৱা"
+    },
+    {
      "en": "money supply",
      "as": "মুদ্ৰাৰ যোগান"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "GDP measures the value of final goods and services produced within a country.",
     "as": "GDPএ দেশৰ ভিতৰত উৎপাদিত চূড়ান্ত সামগ্ৰী আৰু সেৱাৰ মূল্য জোখে।"
@@ -162,10 +162,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "net factor income from abroad",
-     "as": "বিদেশৰ পৰা নিট কাৰক আয়"
-    },
-    {
      "en": "depreciation",
      "as": "অৱক্ষয়"
     },
@@ -176,9 +172,13 @@ module.exports = {
     {
      "en": "subsidies",
      "as": "ভৰতুক"
+    },
+    {
+     "en": "net factor income from abroad",
+     "as": "বিদেশৰ পৰা নিট কাৰক আয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "GNP = GDP + net factor income from abroad.",
     "as": "GNP = GDP + বিদেশৰ পৰা নিট কাৰক আয়।"
@@ -192,10 +192,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "depreciation",
-     "as": "অৱক্ষয়"
-    },
-    {
      "en": "taxes",
      "as": "কৰ"
     },
@@ -206,9 +202,13 @@ module.exports = {
     {
      "en": "exports",
      "as": "ৰপ্তানি"
+    },
+    {
+     "en": "depreciation",
+     "as": "অৱক্ষয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "NNP = GNP − depreciation.",
     "as": "NNP = GNP − অৱক্ষয়।"
@@ -222,10 +222,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "national income divided by population",
-     "as": "ৰাষ্ট্ৰীয় আয় জনসংখ্যাৰে হৰণ"
-    },
-    {
      "en": "national income times population",
      "as": "ৰাষ্ট্ৰীয় আয় জনসংখ্যাৰে পূৰণ"
     },
@@ -234,11 +230,15 @@ module.exports = {
      "as": "GDP ৰ পৰা কৰ বাদ"
     },
     {
+     "en": "national income divided by population",
+     "as": "ৰাষ্ট্ৰীয় আয় জনসংখ্যাৰে হৰণ"
+    },
+    {
      "en": "exports minus imports",
      "as": "ৰপ্তানি ৰ পৰা আমদানি বাদ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Per capita income = national income ÷ population.",
     "as": "মাথাপিছু আয় = ৰাষ্ট্ৰীয় আয় ÷ জনসংখ্যা।"
@@ -252,12 +252,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Service sector",
-     "as": "সেৱা খণ্ড"
-    },
-    {
      "en": "Agriculture",
      "as": "কৃষি"
+    },
+    {
+     "en": "Service sector",
+     "as": "সেৱা খণ্ড"
     },
     {
      "en": "Manufacturing",
@@ -268,7 +268,7 @@ module.exports = {
      "as": "খনন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The service sector has the largest share in India's GDP.",
     "as": "ভাৰতৰ GDPত সেৱা খণ্ডৰ অংশ আটাইতকৈ বেছি।"
@@ -282,10 +282,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Agriculture",
-     "as": "কৃষি"
-    },
-    {
      "en": "Service sector",
      "as": "সেৱা খণ্ড"
     },
@@ -294,11 +290,15 @@ module.exports = {
      "as": "উৎপাদন"
     },
     {
+     "en": "Agriculture",
+     "as": "কৃষি"
+    },
+    {
      "en": "Mining",
      "as": "খনন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Agriculture employs the largest share of the workforce.",
     "as": "কৃষিয়ে শ্ৰমশক্তিৰ আটাইতকৈ বেছি অংশ নিয়োগ কৰে।"
@@ -312,12 +312,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "agriculture, forestry and mining",
-     "as": "কৃষি, বনাঞ্চল আৰু খনন"
-    },
-    {
      "en": "banking and insurance",
      "as": "বেংকিং আৰু বীমা"
+    },
+    {
+     "en": "agriculture, forestry and mining",
+     "as": "কৃষি, বনাঞ্চল আৰু খনন"
     },
     {
      "en": "transport and trade",
@@ -328,7 +328,7 @@ module.exports = {
      "as": "চফ্টৱেৰ সেৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The primary sector covers agriculture, forestry and mining.",
     "as": "প্ৰাথমিক খণ্ডত কৃষি, বনাঞ্চল আৰু খনন অন্তৰ্ভুক্ত।"
@@ -402,10 +402,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "foodgrain production",
-     "as": "খাদ্যশস্য উৎপাদন"
-    },
-    {
      "en": "milk production",
      "as": "গাখীৰ উৎপাদন"
     },
@@ -414,11 +410,15 @@ module.exports = {
      "as": "মাছ উৎপাদন"
     },
     {
+     "en": "foodgrain production",
+     "as": "খাদ্যশস্য উৎপাদন"
+    },
+    {
      "en": "oil production",
      "as": "তেল উৎপাদন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Green Revolution boosted foodgrain production.",
     "as": "সেউজ বিপ্লৱে খাদ্যশস্য উৎপাদন বৃদ্ধি কৰিছিল।"
@@ -432,12 +432,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "M. S. Swaminathan",
-     "as": "এম এছ স্বামীনাথন"
-    },
-    {
      "en": "Verghese Kurien",
      "as": "ভাৰ্গিজ কুৰিয়েন"
+    },
+    {
+     "en": "M. S. Swaminathan",
+     "as": "এম এছ স্বামীনাথন"
     },
     {
      "en": "Homi Bhabha",
@@ -448,7 +448,7 @@ module.exports = {
      "as": "চি ভি ৰমন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "M. S. Swaminathan is called the father of the Green Revolution in India.",
     "as": "এম এছ স্বামীনাথনক ভাৰতত সেউজ বিপ্লৱৰ পিতৃ বুলি কোৱা হয়।"
@@ -462,10 +462,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "milk production",
-     "as": "গাখীৰ উৎপাদন"
-    },
-    {
      "en": "wheat production",
      "as": "ঘেঁহু উৎপাদন"
     },
@@ -476,9 +472,13 @@ module.exports = {
     {
      "en": "egg production",
      "as": "কণী উৎপাদন"
+    },
+    {
+     "en": "milk production",
+     "as": "গাখীৰ উৎপাদন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The White Revolution is associated with milk production.",
     "as": "শ্বেত বিপ্লৱ গাখীৰ উৎপাদনৰ সৈতে জড়িত।"
@@ -492,12 +492,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Verghese Kurien",
-     "as": "ভাৰ্গিজ কুৰিয়েন"
-    },
-    {
      "en": "M. S. Swaminathan",
      "as": "এম এছ স্বামীনাথন"
+    },
+    {
+     "en": "Verghese Kurien",
+     "as": "ভাৰ্গিজ কুৰিয়েন"
     },
     {
      "en": "Homi Bhabha",
@@ -508,7 +508,7 @@ module.exports = {
      "as": "চি সুব্ৰহ্মণ্যম"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Verghese Kurien is called the father of the White Revolution.",
     "as": "ভাৰ্গিজ কুৰিয়েনক শ্বেত বিপ্লৱৰ পিতৃ বুলি কোৱা হয়।"
@@ -522,12 +522,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fish production",
-     "as": "মাছ উৎপাদন"
-    },
-    {
      "en": "milk production",
      "as": "গাখীৰ উৎপাদন"
+    },
+    {
+     "en": "fish production",
+     "as": "মাছ উৎপাদন"
     },
     {
      "en": "wheat production",
@@ -538,7 +538,7 @@ module.exports = {
      "as": "তেল উৎপাদন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Blue Revolution is associated with fish production.",
     "as": "নীল বিপ্লৱ মাছ উৎপাদনৰ সৈতে জড়িত।"
@@ -552,10 +552,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "oilseeds production",
-     "as": "তেলবীজ উৎপাদন"
-    },
-    {
      "en": "milk production",
      "as": "গাখীৰ উৎপাদন"
     },
@@ -564,11 +560,15 @@ module.exports = {
      "as": "মাছ উৎপাদন"
     },
     {
+     "en": "oilseeds production",
+     "as": "তেলবীজ উৎপাদন"
+    },
+    {
      "en": "cotton production",
      "as": "কপাহ উৎপাদন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Yellow Revolution is associated with oilseeds.",
     "as": "হালধীয়া বিপ্লৱ তেলবীজৰ সৈতে জড়িত।"
@@ -612,10 +612,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1935",
-     "as": "১৯৩৫"
-    },
-    {
      "en": "1949",
      "as": "১৯৪৯"
     },
@@ -624,11 +620,15 @@ module.exports = {
      "as": "১৯২১"
     },
     {
+     "en": "1935",
+     "as": "১৯৩৫"
+    },
+    {
      "en": "1950",
      "as": "১৯৫০"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The RBI was established in 1935.",
     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক ১৯৩৫ চনত স্থাপন কৰা হৈছিল।"
@@ -672,10 +672,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Reserve Bank of India",
-     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
-    },
-    {
      "en": "State Bank of India",
      "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া"
     },
@@ -686,9 +682,13 @@ module.exports = {
     {
      "en": "NITI Aayog",
      "as": "নীতি আয়োগ"
+    },
+    {
+     "en": "Reserve Bank of India",
+     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The RBI is the custodian of India's foreign exchange reserves.",
     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক ভাৰতৰ বিদেশী মুদ্ৰা ভাণ্ডাৰৰ সংৰক্ষক।"
@@ -702,12 +702,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Reserve Bank of India",
-     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
-    },
-    {
      "en": "State Bank of India",
      "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া"
+    },
+    {
+     "en": "Reserve Bank of India",
+     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
     },
     {
      "en": "Punjab National Bank",
@@ -718,7 +718,7 @@ module.exports = {
      "as": "নাবাৰ্ড"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The RBI is called the banker's bank.",
     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংকক বেংকাৰ্ছ বেংক বুলি কোৱা হয়।"
@@ -732,10 +732,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "NABARD",
-     "as": "নাবাৰ্ড"
-    },
-    {
      "en": "SIDBI",
      "as": "চিডবি"
     },
@@ -746,9 +742,13 @@ module.exports = {
     {
      "en": "RBI",
      "as": "আৰবিআই"
+    },
+    {
+     "en": "NABARD",
+     "as": "নাবাৰ্ড"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "NABARD is the apex bank for agriculture and rural development.",
     "as": "নাবাৰ্ড কৃষি আৰু গ্ৰামীণ উন্নয়নৰ শীৰ্ষ বেংক।"
@@ -762,12 +762,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "IDBI",
-     "as": "আইডিবিআই"
-    },
-    {
      "en": "NABARD",
      "as": "নাবাৰ্ড"
+    },
+    {
+     "en": "IDBI",
+     "as": "আইডিবিআই"
     },
     {
      "en": "RBI",
@@ -778,7 +778,7 @@ module.exports = {
      "as": "ছেবি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "IDBI is the apex institution for industrial finance.",
     "as": "আইডিবিআই উদ্যোগিক বিত্তৰ শীৰ্ষ প্ৰতিষ্ঠান।"
@@ -792,12 +792,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "SEBI",
-     "as": "ছেবি"
-    },
-    {
      "en": "RBI",
      "as": "আৰবিআই"
+    },
+    {
+     "en": "SEBI",
+     "as": "ছেবি"
     },
     {
      "en": "IRDAI",
@@ -808,7 +808,7 @@ module.exports = {
      "as": "নাবাৰ্ড"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "SEBI regulates the securities market.",
     "as": "ছেবিয়ে ৰিণ বজাৰ নিয়ন্ত্ৰণ কৰে।"
@@ -822,12 +822,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "IRDAI",
-     "as": "আইআৰডিএআই"
-    },
-    {
      "en": "SEBI",
      "as": "ছেবি"
+    },
+    {
+     "en": "IRDAI",
+     "as": "আইআৰডিএআই"
     },
     {
      "en": "RBI",
@@ -838,7 +838,7 @@ module.exports = {
      "as": "নাবাৰ্ড"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "IRDAI regulates the insurance sector.",
     "as": "আইআৰডিএআইয়ে বীমা খণ্ড নিয়ন্ত্ৰণ কৰে।"
@@ -852,10 +852,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "rise in the general price level",
-     "as": "সাধাৰণ মূল্য স্তৰৰ বৃদ্ধি"
-    },
-    {
      "en": "fall in the general price level",
      "as": "সাধাৰণ মূল্য স্তৰৰ হ্ৰাস"
     },
@@ -864,11 +860,15 @@ module.exports = {
      "as": "বেকাৰতাবৃত্তিৰ বৃদ্ধি"
     },
     {
+     "en": "rise in the general price level",
+     "as": "সাধাৰণ মূল্য স্তৰৰ বৃদ্ধি"
+    },
+    {
      "en": "fall in national income",
      "as": "ৰাষ্ট্ৰীয় আয়ৰ হ্ৰাস"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Inflation is a sustained rise in the general price level.",
     "as": "মুদ্ৰাস্ফীতি সাধাৰণ মূল্য স্তৰৰ এক স্থায়ী বৃদ্ধি।"
@@ -882,10 +882,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "deflation",
-     "as": "অৱমুদ্ৰাস্ফীতি"
-    },
-    {
      "en": "inflation",
      "as": "মুদ্ৰাস্ফীতি"
     },
@@ -896,9 +892,13 @@ module.exports = {
     {
      "en": "stagflation",
      "as": "ষ্টেগফ্লেচন"
+    },
+    {
+     "en": "deflation",
+     "as": "অৱমুদ্ৰাস্ফীতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Deflation is a sustained fall in the general price level.",
     "as": "অৱমুদ্ৰাস্ফীতি সাধাৰণ মূল্য স্তৰৰ এক স্থায়ী হ্ৰাস।"
@@ -912,10 +912,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Consumer Price Index",
-     "as": "উপভোক্তা মূল্য সূচক"
-    },
-    {
      "en": "Wholesale Price Index",
      "as": "পাইকাৰী মূল্য সূচক"
     },
@@ -926,9 +922,13 @@ module.exports = {
     {
      "en": "Sensex",
      "as": "চেনচেক্স"
+    },
+    {
+     "en": "Consumer Price Index",
+     "as": "উপভোক্তা মূল্য সূচক"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Consumer Price Index measures retail inflation.",
     "as": "উপভোক্তা মূল্য সূচকে খুচুৰা মুদ্ৰাস্ফীতি জোখে।"
@@ -942,10 +942,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Reserve Bank of India",
-     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
-    },
-    {
      "en": "Ministry of Finance",
      "as": "বিত্ত মন্ত্ৰালয়"
     },
@@ -954,11 +950,15 @@ module.exports = {
      "as": "নীতি আয়োগ"
     },
     {
+     "en": "Reserve Bank of India",
+     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+    },
+    {
      "en": "SEBI",
      "as": "ছেবি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The RBI frames the monetary policy in India.",
     "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক ভাৰতত মুদ্ৰা নীতি প্ৰণয়ন কৰে।"
@@ -972,12 +972,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "repo rate",
-     "as": "ৰেপ' হাৰ"
-    },
-    {
      "en": "reverse repo rate",
      "as": "ৰিভাৰ্ছ ৰেপ' হাৰ"
+    },
+    {
+     "en": "repo rate",
+     "as": "ৰেপ' হাৰ"
     },
     {
      "en": "CRR",
@@ -988,7 +988,7 @@ module.exports = {
      "as": "এছএলআৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The repo rate is the rate at which the RBI lends to banks.",
     "as": "ৰেপ' হাৰ হৈছে ৰিজাৰ্ভ বেংকে বেংকবোৰক ঋণ দিয়া হাৰ।"
@@ -1002,12 +1002,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Cash Reserve Ratio",
-     "as": "নগদ সংচিতি অনুপাত"
-    },
-    {
      "en": "Statutory Liquidity Ratio",
      "as": "বিধিবদ্ধ তৰলতা অনুপাত"
+    },
+    {
+     "en": "Cash Reserve Ratio",
+     "as": "নগদ সংচিতি অনুপাত"
     },
     {
      "en": "Repo Rate",
@@ -1018,7 +1018,7 @@ module.exports = {
      "as": "বেংক হাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Cash Reserve Ratio is the minimum deposit kept with the RBI.",
     "as": "নগদ সংচিতি অনুপাত হৈছে ৰিজাৰ্ভ বেংকৰ ওচৰত ৰখা ন্যূনতম আমানত।"
@@ -1032,12 +1032,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "liquid assets such as government securities",
-     "as": "চৰকাৰী ৰিণপত্ৰৰ দৰে তৰল সম্পত্তি"
-    },
-    {
      "en": "foreign currency",
      "as": "বিদেশী মুদ্ৰা"
+    },
+    {
+     "en": "liquid assets such as government securities",
+     "as": "চৰকাৰী ৰিণপত্ৰৰ দৰে তৰল সম্পত্তি"
     },
     {
      "en": "gold only",
@@ -1048,7 +1048,7 @@ module.exports = {
      "as": "ভূসম্পত্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "SLR is the minimum holding of liquid assets like government securities.",
     "as": "এছএলআৰ হৈছে চৰকাৰী ৰিণপত্ৰৰ দৰে তৰল সম্পত্তিৰ ন্যূনতম ধাৰণ।"
@@ -1092,12 +1092,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "reverse repo rate",
-     "as": "ৰিভাৰ্ছ ৰেপ' হাৰ"
-    },
-    {
      "en": "repo rate",
      "as": "ৰেপ' হাৰ"
+    },
+    {
+     "en": "reverse repo rate",
+     "as": "ৰিভাৰ্ছ ৰেপ' হাৰ"
     },
     {
      "en": "bank rate",
@@ -1108,7 +1108,7 @@ module.exports = {
      "as": "চিআৰআৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The reverse repo rate is the rate at which banks park surplus funds with the RBI.",
     "as": "ৰিভাৰ্ছ ৰেপ' হাৰ হৈছে বেংকবোৰে উদ্বৃত্ত ধন ৰিজাৰ্ভ বেংকৰ ওচৰত ৰখা হাৰ।"
@@ -1152,10 +1152,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ministry of Finance",
-     "as": "বিত্ত মন্ত্ৰালয়"
-    },
-    {
      "en": "Reserve Bank of India",
      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
     },
@@ -1166,9 +1162,13 @@ module.exports = {
     {
      "en": "SEBI",
      "as": "ছেবি"
+    },
+    {
+     "en": "Ministry of Finance",
+     "as": "বিত্ত মন্ত্ৰালয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "One-rupee notes and coins are issued by the Ministry of Finance.",
     "as": "এক টকীয়া নোট আৰু মুদ্ৰা বিত্ত মন্ত্ৰালয়ে জাৰি কৰে।"
@@ -1182,12 +1182,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2000 rupees",
-     "as": "২০০০ টকা"
-    },
-    {
      "en": "1000 rupees",
      "as": "১০০০ টকা"
+    },
+    {
+     "en": "2000 rupees",
+     "as": "২০০০ টকা"
     },
     {
      "en": "500 rupees",
@@ -1198,7 +1198,7 @@ module.exports = {
      "as": "২০০ টকা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The 2000-rupee note is the largest denomination in circulation.",
     "as": "২০০০ টকীয়া নোট প্ৰচলনত থকা সৰ্বোচ্চ মূল্যৰ নোট।"
@@ -1212,10 +1212,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Minimum Reserve System",
-     "as": "ন্যূনতম সংচিতি প্ৰণালী"
-    },
-    {
      "en": "Gold Standard",
      "as": "সোণমান"
     },
@@ -1224,11 +1220,15 @@ module.exports = {
      "as": "ৰূপমান"
     },
     {
+     "en": "Minimum Reserve System",
+     "as": "ন্যূনতম সংচিতি প্ৰণালী"
+    },
+    {
      "en": "Bimetallism",
      "as": "দ্বিধাতু প্ৰণালী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "India follows the Minimum Reserve System for issuing currency.",
     "as": "ভাৰতে মুদ্ৰা জাৰি কৰিবলৈ ন্যূনতম সংচিতি প্ৰণালী অনুসৰণ কৰে।"
@@ -1242,10 +1242,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1 February",
-     "as": "১ ফেব্ৰুৱাৰী"
-    },
-    {
      "en": "28 February",
      "as": "২৮ ফেব্ৰুৱাৰী"
     },
@@ -1254,11 +1250,15 @@ module.exports = {
      "as": "১ এপ্ৰিল"
     },
     {
+     "en": "1 February",
+     "as": "১ ফেব্ৰুৱাৰী"
+    },
+    {
      "en": "31 March",
      "as": "৩১ মাৰ্চ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Since 2017, the Union Budget is presented on 1 February.",
     "as": "২০১৭ চনৰ পৰা সংঘ বাজেট ১ ফেব্ৰুৱাৰীত উপস্থাপন কৰা হয়।"
@@ -1272,10 +1272,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 112",
-     "as": "অনুচ্ছেদ ১১২"
-    },
-    {
      "en": "Article 110",
      "as": "অনুচ্ছেদ ১১০"
     },
@@ -1286,9 +1282,13 @@ module.exports = {
     {
      "en": "Article 280",
      "as": "অনুচ্ছেদ ২৮০"
+    },
+    {
+     "en": "Article 112",
+     "as": "অনুচ্ছেদ ১১২"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 112 deals with the Annual Financial Statement.",
     "as": "অনুচ্ছেদ ১১২ বাৰ্ষিক বিত্তীয় বিবৃতিৰ বিষয়ে কয়।"
@@ -1302,12 +1302,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lok Sabha",
-     "as": "লোকসভা"
-    },
-    {
      "en": "Rajya Sabha",
      "as": "ৰাজ্যসভা"
+    },
+    {
+     "en": "Lok Sabha",
+     "as": "লোকসভা"
     },
     {
      "en": "either House",
@@ -1318,7 +1318,7 @@ module.exports = {
      "as": "যুটীয়া বৈঠক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A Money Bill can be introduced only in the Lok Sabha.",
     "as": "ধন বিধেয়ক কেৱল লোকসভাত উত্থাপন কৰিব পাৰি।"
@@ -1362,10 +1362,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "direct tax",
-     "as": "প্ৰত্যক্ষ কৰ"
-    },
-    {
      "en": "indirect tax",
      "as": "পৰোক্ষ কৰ"
     },
@@ -1374,11 +1370,15 @@ module.exports = {
      "as": "ৰাজহ শুল্ক"
     },
     {
+     "en": "direct tax",
+     "as": "প্ৰত্যক্ষ কৰ"
+    },
+    {
      "en": "excise duty",
      "as": "আবকাৰী শুল্ক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Income tax is a direct tax.",
     "as": "আয়কৰ এটা প্ৰত্যক্ষ কৰ।"
@@ -1392,12 +1392,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "indirect tax",
-     "as": "পৰোক্ষ কৰ"
-    },
-    {
      "en": "direct tax",
      "as": "প্ৰত্যক্ষ কৰ"
+    },
+    {
+     "en": "indirect tax",
+     "as": "পৰোক্ষ কৰ"
     },
     {
      "en": "wealth tax",
@@ -1408,7 +1408,7 @@ module.exports = {
      "as": "নিগম কৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "GST is an indirect tax.",
     "as": "GST এটা পৰোক্ষ কৰ।"
@@ -1422,10 +1422,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2017",
-     "as": "২০১৭"
-    },
-    {
      "en": "2016",
      "as": "২০১৬"
     },
@@ -1434,11 +1430,15 @@ module.exports = {
      "as": "২০১৮"
     },
     {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
      "en": "2015",
      "as": "২০১৫"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "GST was introduced on 1 July 2017.",
     "as": "GST ১ জুলাই ২০১৭ চনত প্ৰৱৰ্তন কৰা হৈছিল।"
@@ -1452,10 +1452,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "101st Amendment",
-     "as": "১০১ সংখ্যক সংশোধনী"
-    },
-    {
      "en": "100th Amendment",
      "as": "১০০ সংখ্যক সংশোধনী"
     },
@@ -1466,9 +1462,13 @@ module.exports = {
     {
      "en": "99th Amendment",
      "as": "৯৯ সংখ্যক সংশোধনী"
+    },
+    {
+     "en": "101st Amendment",
+     "as": "১০১ সংখ্যক সংশোধনী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The 101st Amendment introduced GST.",
     "as": "১০১ সংখ্যক সংশোধনীয়ে GST প্ৰৱৰ্তন কৰিছিল।"
@@ -1482,10 +1482,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "destination-based tax",
-     "as": "গন্তব্যস্থান-আধাৰিত কৰ"
-    },
-    {
      "en": "origin-based tax",
      "as": "উৎস-আধাৰিত কৰ"
     },
@@ -1494,11 +1490,15 @@ module.exports = {
      "as": "প্ৰত্যক্ষ কৰ"
     },
     {
+     "en": "destination-based tax",
+     "as": "গন্তব্যস্থান-আধাৰিত কৰ"
+    },
+    {
      "en": "property tax",
      "as": "সম্পত্তি কৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "GST is a destination-based consumption tax.",
     "as": "GST এটা গন্তব্যস্থান-আধাৰিত ভোগ কৰ।"
@@ -1542,12 +1542,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Union Finance Minister",
-     "as": "সংঘ বিত্ত মন্ত্ৰী"
-    },
-    {
      "en": "Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "Union Finance Minister",
+     "as": "সংঘ বিত্ত মন্ত্ৰী"
     },
     {
      "en": "RBI Governor",
@@ -1558,7 +1558,7 @@ module.exports = {
      "as": "ৰাষ্ট্ৰপতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Union Finance Minister chairs the GST Council.",
     "as": "সংঘ বিত্ত মন্ত্ৰী GST পৰিষদৰ অধ্যক্ষ।"
@@ -1572,10 +1572,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "supply of goods and services",
-     "as": "সামগ্ৰী আৰু সেৱাৰ যোগান"
-    },
-    {
      "en": "income",
      "as": "আয়"
     },
@@ -1584,11 +1580,15 @@ module.exports = {
      "as": "সম্পত্তি"
     },
     {
+     "en": "supply of goods and services",
+     "as": "সামগ্ৰী আৰু সেৱাৰ যোগান"
+    },
+    {
      "en": "capital gains",
      "as": "পুঁজি লাভ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "GST is levied on the supply of goods and services.",
     "as": "GST সামগ্ৰী আৰু সেৱাৰ যোগানৰ ওপৰত আৰোপ কৰা হয়।"
@@ -1602,10 +1602,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the Soviet Union",
-     "as": "ছোভিয়েট সংঘ"
-    },
-    {
      "en": "the USA",
      "as": "আমেৰিকা"
     },
@@ -1614,11 +1610,15 @@ module.exports = {
      "as": "ব্ৰিটেইন"
     },
     {
+     "en": "the Soviet Union",
+     "as": "ছোভিয়েট সংঘ"
+    },
+    {
      "en": "China",
      "as": "চীন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "India's Five Year Plans were inspired by the Soviet model.",
     "as": "ভাৰতৰ পঞ্চবাৰ্ষিক পৰিকল্পনা ছোভিয়েট আৰ্হিৰ পৰা অনুপ্ৰাণিত আছিল।"
@@ -1632,12 +1632,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1951",
-     "as": "১৯৫১"
-    },
-    {
      "en": "1947",
      "as": "১৯৪৭"
+    },
+    {
+     "en": "1951",
+     "as": "১৯৫১"
     },
     {
      "en": "1956",
@@ -1648,7 +1648,7 @@ module.exports = {
      "as": "১৯৫০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The First Five Year Plan was launched in 1951.",
     "as": "প্ৰথম পঞ্চবাৰ্ষিক পৰিকল্পনা ১৯৫১ চনত আৰম্ভ হৈছিল।"
@@ -1662,12 +1662,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "agriculture and irrigation",
-     "as": "কৃষি আৰু জলসিঞ্চন"
-    },
-    {
      "en": "heavy industry",
      "as": "ভাৰী উদ্যোগ"
+    },
+    {
+     "en": "agriculture and irrigation",
+     "as": "কৃষি আৰু জলসিঞ্চন"
     },
     {
      "en": "poverty removal",
@@ -1678,7 +1678,7 @@ module.exports = {
      "as": "নিয়োগ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The First Plan focused on agriculture and irrigation.",
     "as": "প্ৰথম পৰিকল্পনাই কৃষি আৰু জলসিঞ্চনৰ ওপৰত গুৰুত্ব দিছিল।"
@@ -1692,10 +1692,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "rapid industrialisation",
-     "as": "দ্ৰুত উদ্যোগীকৰণ"
-    },
-    {
      "en": "agriculture",
      "as": "কৃষি"
     },
@@ -1704,11 +1700,15 @@ module.exports = {
      "as": "স্বাস্থ্য"
     },
     {
+     "en": "rapid industrialisation",
+     "as": "দ্ৰুত উদ্যোগীকৰণ"
+    },
+    {
      "en": "education",
      "as": "শিক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Second Plan focused on rapid industrialisation.",
     "as": "দ্বিতীয় পৰিকল্পনাই দ্ৰুত উদ্যোগীকৰণৰ ওপৰত গুৰুত্ব দিছিল।"
@@ -1752,10 +1752,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "faster and more inclusive growth",
-     "as": "দ্ৰুত আৰু অধিক অন্তৰ্ভুক্তিমূলক বৃদ্ধি"
-    },
-    {
      "en": "heavy industry",
      "as": "ভাৰী উদ্যোগ"
     },
@@ -1766,9 +1762,13 @@ module.exports = {
     {
      "en": "exports",
      "as": "ৰপ্তানি"
+    },
+    {
+     "en": "faster and more inclusive growth",
+     "as": "দ্ৰুত আৰু অধিক অন্তৰ্ভুক্তিমূলক বৃদ্ধি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Eleventh Plan aimed at faster and more inclusive growth.",
     "as": "একাদশ পৰিকল্পনাৰ লক্ষ্য আছিল দ্ৰুত আৰু অধিক অন্তৰ্ভুক্তিমূলক বৃদ্ধি।"
@@ -1782,12 +1782,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2012-2017",
-     "as": "২০১২-২০১৭"
-    },
-    {
      "en": "2007-2012",
      "as": "২০০৭-২০১২"
+    },
+    {
+     "en": "2012-2017",
+     "as": "২০১২-২০১৭"
     },
     {
      "en": "2017-2022",
@@ -1798,7 +1798,7 @@ module.exports = {
      "as": "২০১০-২০১৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Twelfth Plan covered 2012–2017.",
     "as": "দ্বাদশ পৰিকল্পনাই ২০১২–২০১৭ কাৰ্যকাল আছিল।"
@@ -1842,10 +1842,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1950",
-     "as": "১৯৫০"
-    },
-    {
      "en": "1951",
      "as": "১৯৫১"
     },
@@ -1856,9 +1852,13 @@ module.exports = {
     {
      "en": "1952",
      "as": "১৯৫২"
+    },
+    {
+     "en": "1950",
+     "as": "১৯৫০"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Planning Commission was set up in 1950.",
     "as": "পৰিকল্পনা আয়োগ ১৯৫০ চনত গঠন কৰা হৈছিল।"
@@ -1872,10 +1872,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Prime Minister",
-     "as": "প্ৰধানমন্ত্ৰী"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -1886,9 +1882,13 @@ module.exports = {
     {
      "en": "RBI Governor",
      "as": "আৰবিআই গৱৰ্ণৰ"
+    },
+    {
+     "en": "Prime Minister",
+     "as": "প্ৰধানমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Prime Minister chairs NITI Aayog.",
     "as": "প্ৰধানমন্ত্ৰী নীতি আয়োগৰ অধ্যক্ষ।"
@@ -1902,10 +1902,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Index of Industrial Production",
-     "as": "উদ্যোগিক উৎপাদন সূচক"
-    },
-    {
      "en": "Consumer Price Index",
      "as": "উপভোক্তা মূল্য সূচক"
     },
@@ -1914,11 +1910,15 @@ module.exports = {
      "as": "পাইকাৰী মূল্য সূচক"
     },
     {
+     "en": "Index of Industrial Production",
+     "as": "উদ্যোগিক উৎপাদন সূচক"
+    },
+    {
      "en": "Human Development Index",
      "as": "মানৱ উন্নয়ন সূচক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Index of Industrial Production measures industrial growth.",
     "as": "উদ্যোগিক উৎপাদন সূচকে উদ্যোগিক বৃদ্ধি জোখে।"
@@ -1962,10 +1962,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mahbub ul Haq",
-     "as": "মাহবুব উল হক"
-    },
-    {
      "en": "Amartya Sen",
      "as": "অমৰ্ত্য সেন"
     },
@@ -1976,9 +1972,13 @@ module.exports = {
     {
      "en": "J. M. Keynes",
      "as": "জে এম কেইনছ"
+    },
+    {
+     "en": "Mahbub ul Haq",
+     "as": "মাহবুব উল হক"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Mahbub ul Haq developed the HDI with Amartya Sen's inputs.",
     "as": "মাহবুব উল হকে অমৰ্ত্য সেনৰ অৱদানৰ সৈতে HDI বিকশিত কৰিছিল।"
@@ -2022,10 +2022,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the poverty line",
-     "as": "দৰিদ্ৰতা ৰেখা"
-    },
-    {
      "en": "the HDI",
      "as": "HDI"
     },
@@ -2036,9 +2032,13 @@ module.exports = {
     {
      "en": "the repo rate",
      "as": "ৰেপ' হাৰ"
+    },
+    {
+     "en": "the poverty line",
+     "as": "দৰিদ্ৰতা ৰেখা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Poverty is measured on the basis of the poverty line.",
     "as": "দৰিদ্ৰতা দৰিদ্ৰতা ৰেখাৰ আধাৰত জোখা হয়।"
@@ -2052,10 +2052,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "calorie consumption and expenditure",
-     "as": "কেলৰি ভোগ আৰু ব্যয়"
-    },
-    {
      "en": "income tax paid",
      "as": "দিয়া আয়কৰ"
     },
@@ -2064,11 +2060,15 @@ module.exports = {
      "as": "ধাৰণ কৰা মাটি"
     },
     {
+     "en": "calorie consumption and expenditure",
+     "as": "কেলৰি ভোগ আৰু ব্যয়"
+    },
+    {
      "en": "education level",
      "as": "শিক্ষাৰ স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The poverty line is based on calorie consumption and expenditure.",
     "as": "দৰিদ্ৰতা ৰেখা কেলৰি ভোগ আৰু ব্যয়ৰ ওপৰত আধাৰিত।"
@@ -2112,10 +2112,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "100 days",
-     "as": "১০০ দিন"
-    },
-    {
      "en": "150 days",
      "as": "১৫০ দিন"
     },
@@ -2124,11 +2120,15 @@ module.exports = {
      "as": "২০০ দিন"
     },
     {
+     "en": "100 days",
+     "as": "১০০ দিন"
+    },
+    {
      "en": "50 days",
      "as": "৫০ দিন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "MGNREGA guarantees at least 100 days of wage employment per year.",
     "as": "MGNREGA য়ে বছৰি অন্ততঃ ১০০ দিনৰ মজুৰিভিত্তিক নিয়োগ গাৰেণ্টী কৰে।"
@@ -2142,10 +2142,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2005",
-     "as": "২০০৫"
-    },
-    {
      "en": "2004",
      "as": "২০০৪"
     },
@@ -2156,9 +2152,13 @@ module.exports = {
     {
      "en": "2008",
      "as": "২০০৮"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "MGNREGA was enacted in 2005 and came into force in 2006.",
     "as": "MGNREGA ২০০৫ চনত বলৱৎ কৰা হৈ ২০০৬ চনত কাৰ্যকৰী হৈছিল।"
@@ -2172,12 +2172,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "MGNREGA",
-     "as": "MGNREGA"
-    },
-    {
      "en": "PMJDY",
      "as": "PMJDY"
+    },
+    {
+     "en": "MGNREGA",
+     "as": "MGNREGA"
     },
     {
      "en": "Aadhaar",
@@ -2188,7 +2188,7 @@ module.exports = {
      "as": "GST"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "MGNREGA is the world's largest employment guarantee programme.",
     "as": "MGNREGA বিশ্বৰ সৰ্ববৃহৎ নিয়োগ গাৰেণ্টী কাৰ্যসূচী।"
@@ -2202,10 +2202,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "financial inclusion",
-     "as": "বিত্তীয় অন্তৰ্ভুক্তি"
-    },
-    {
      "en": "irrigation",
      "as": "জলসিঞ্চন"
     },
@@ -2216,9 +2212,13 @@ module.exports = {
     {
      "en": "education",
      "as": "শিক্ষা"
+    },
+    {
+     "en": "financial inclusion",
+     "as": "বিত্তীয় অন্তৰ্ভুক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Jan Dhan Yojana promotes financial inclusion.",
     "as": "জন ধন যোজনা বিত্তীয় অন্তৰ্ভুক্তি প্ৰসাৰ কৰে।"
@@ -2232,10 +2232,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "12-digit unique identity number",
-     "as": "১২ অংকৰ অনন্য পৰিচয় নম্বৰ"
-    },
-    {
      "en": "bank account number",
      "as": "বেংক একাউণ্ট নম্বৰ"
     },
@@ -2246,9 +2242,13 @@ module.exports = {
     {
      "en": "passport number",
      "as": "পাছপৰ্ট নম্বৰ"
+    },
+    {
+     "en": "12-digit unique identity number",
+     "as": "১২ অংকৰ অনন্য পৰিচয় নম্বৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Aadhaar is a 12-digit unique identity number.",
     "as": "আধাৰ এটা ১২ অংকৰ অনন্য পৰিচয় নম্বৰ।"
@@ -2262,10 +2262,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "manufacturing",
-     "as": "উৎপাদন"
-    },
-    {
      "en": "agriculture",
      "as": "কৃষি"
     },
@@ -2274,11 +2270,15 @@ module.exports = {
      "as": "পৰ্যটন"
     },
     {
+     "en": "manufacturing",
+     "as": "উৎপাদন"
+    },
+    {
      "en": "sports",
      "as": "ক্ৰীড়া"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Make in India promotes manufacturing.",
     "as": "মেক ইন ইণ্ডিয়াই উৎপাদন প্ৰসাৰ কৰে।"
@@ -2322,12 +2322,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "government equity in public sector units",
-     "as": "ৰাজহুৱা খণ্ডৰ এককত চৰকাৰী অংশীদাৰিত্ব"
-    },
-    {
      "en": "private companies",
      "as": "ব্যক্তিগত কোম্পানী"
+    },
+    {
+     "en": "government equity in public sector units",
+     "as": "ৰাজহুৱা খণ্ডৰ এককত চৰকাৰী অংশীদাৰিত্ব"
     },
     {
      "en": "agricultural land",
@@ -2338,7 +2338,7 @@ module.exports = {
      "as": "বিদেশী ভাণ্ডাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Disinvestment is the sale of government equity in PSUs.",
     "as": "বিনিয়োগ হ্ৰাস হৈছে ৰাজহুৱা খণ্ডৰ এককত চৰকাৰী অংশীদাৰিত্বৰ বিক্ৰী।"
@@ -2352,10 +2352,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "excessive government control over industry",
-     "as": "উদ্যোগৰ ওপৰত অত্যধিক চৰকাৰী নিয়ন্ত্ৰণ"
-    },
-    {
      "en": "free trade",
      "as": "মুক্ত বাণিজ্য"
     },
@@ -2364,11 +2360,15 @@ module.exports = {
      "as": "ব্যক্তিগতকৰণ"
     },
     {
+     "en": "excessive government control over industry",
+     "as": "উদ্যোগৰ ওপৰত অত্যধিক চৰকাৰী নিয়ন্ত্ৰণ"
+    },
+    {
      "en": "globalisation",
      "as": "জগতীকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The licence raj involved excessive government control over industry.",
     "as": "লাইচেন্স ৰাজত উদ্যোগৰ ওপৰত অত্যধিক চৰকাৰী নিয়ন্ত্ৰণ আছিল।"
@@ -2382,12 +2382,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1991",
-     "as": "১৯৯১"
-    },
-    {
      "en": "1985",
      "as": "১৯৮৫"
+    },
+    {
+     "en": "1991",
+     "as": "১৯৯১"
     },
     {
      "en": "1995",
@@ -2398,7 +2398,7 @@ module.exports = {
      "as": "২০০০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "India launched the New Economic Policy in 1991.",
     "as": "ভাৰতে ১৯৯১ চনত নতুন অৰ্থনৈতিক নীতি আৰম্ভ কৰিছিল।"
@@ -2412,10 +2412,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Manmohan Singh",
-     "as": "মনমোহন সিং"
-    },
-    {
      "en": "P. V. Narasimha Rao",
      "as": "পি ভি নৰসিংহ ৰাও"
     },
@@ -2426,9 +2422,13 @@ module.exports = {
     {
      "en": "Yashwant Sinha",
      "as": "যশৱন্ত সিনহা"
+    },
+    {
+     "en": "Manmohan Singh",
+     "as": "মনমোহন সিং"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Dr. Manmohan Singh was the Finance Minister during the 1991 reforms.",
     "as": "১৯৯১ চনৰ সংস্কাৰৰ সময়ত ড০ মনমোহন সিং বিত্ত মন্ত্ৰী আছিল।"
@@ -2472,10 +2472,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "does not trade with other countries",
-     "as": "অন্য দেশৰ সৈতে বাণিজ্য নকৰে"
-    },
-    {
      "en": "trades freely with all",
      "as": "সকলোৰ সৈতে মুক্তভাৱে বাণিজ্য কৰে"
     },
@@ -2486,9 +2482,13 @@ module.exports = {
     {
      "en": "exports everything",
      "as": "সকলো ৰপ্তানি কৰে"
+    },
+    {
+     "en": "does not trade with other countries",
+     "as": "অন্য দেশৰ সৈতে বাণিজ্য নকৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A closed economy does not trade with other countries.",
     "as": "বন্ধ অৰ্থনীতিয়ে অন্য দেশৰ সৈতে বাণিজ্য নকৰে।"
@@ -2592,10 +2592,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in terms of foreign currencies",
-     "as": "বিদেশী মুদ্ৰাৰ তুলনাত"
-    },
-    {
      "en": "in terms of gold",
      "as": "সোণৰ তুলনাত"
     },
@@ -2606,9 +2602,13 @@ module.exports = {
     {
      "en": "in terms of wages",
      "as": "মজুৰিৰ তুলনাত"
+    },
+    {
+     "en": "in terms of foreign currencies",
+     "as": "বিদেশী মুদ্ৰাৰ তুলনাত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Devaluation reduces a currency's value in terms of foreign currencies.",
     "as": "অৱমূল্যায়নে বিদেশী মুদ্ৰাৰ তুলনাত মুদ্ৰাৰ মূল্য হ্ৰাস কৰে।"
@@ -2622,10 +2622,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "costlier for foreign buyers",
-     "as": "বিদেশী ক্ৰেতাৰ বাবে ব্যয়বহুল"
-    },
-    {
      "en": "cheaper for foreign buyers",
      "as": "বিদেশী ক্ৰেতাৰ বাবে সস্তা"
     },
@@ -2636,9 +2632,13 @@ module.exports = {
     {
      "en": "illegal",
      "as": "অবৈধ"
+    },
+    {
+     "en": "costlier for foreign buyers",
+     "as": "বিদেশী ক্ৰেতাৰ বাবে ব্যয়বহুল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A rising rupee makes exports costlier abroad.",
     "as": "টকা শক্তিশালী হ'লে ৰপ্তানি বিদেশত ব্যয়বহুল হয়।"
@@ -2652,10 +2652,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in productive assets of another country",
-     "as": "আন এখন দেশৰ উৎপাদনশীল সম্পত্তিত"
-    },
-    {
      "en": "in stock markets only",
      "as": "কেৱল ৰিণ বজাৰত"
     },
@@ -2666,9 +2662,13 @@ module.exports = {
     {
      "en": "in gold only",
      "as": "কেৱল সোণত"
+    },
+    {
+     "en": "in productive assets of another country",
+     "as": "আন এখন দেশৰ উৎপাদনশীল সম্পত্তিত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "FDI is investment in productive assets of another country.",
     "as": "FDI হৈছে আন এখন দেশৰ উৎপাদনশীল সম্পত্তিত বিনিয়োগ।"
@@ -2742,10 +2742,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "World Bank",
-     "as": "বিশ্ব বেংক"
-    },
-    {
      "en": "WTO",
      "as": "বিশ্ব বাণিজ্য সংস্থা"
     },
@@ -2754,11 +2750,15 @@ module.exports = {
      "as": "আন্তৰ্জাতিক মুদ্ৰা নিধি"
     },
     {
+     "en": "World Bank",
+     "as": "বিশ্ব বেংক"
+    },
+    {
      "en": "WHO",
      "as": "বিশ্ব স্বাস্থ্য সংস্থা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The World Bank provides long-term development loans.",
     "as": "বিশ্ব বেংকে দীৰ্ঘম্যাদী উন্নয়ন ঋণ প্ৰদান কৰে।"
@@ -2772,10 +2772,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "international monetary cooperation",
-     "as": "আন্তৰ্জাতিক মুদ্ৰা সহযোগিতা"
-    },
-    {
      "en": "free trade in goods",
      "as": "সামগ্ৰীৰ মুক্ত বাণিজ্য"
     },
@@ -2784,11 +2780,15 @@ module.exports = {
      "as": "স্বাস্থ্য সেৱা"
     },
     {
+     "en": "international monetary cooperation",
+     "as": "আন্তৰ্জাতিক মুদ্ৰা সহযোগিতা"
+    },
+    {
      "en": "cultural exchange",
      "as": "সাংস্কৃতিক বিনিময়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The IMF promotes international monetary cooperation.",
     "as": "আন্তৰ্জাতিক মুদ্ৰা নিধিয়ে আন্তৰ্জাতিক মুদ্ৰা সহযোগিতা প্ৰসাৰ কৰে।"
@@ -2802,10 +2802,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1995",
-     "as": "১৯৯৫"
-    },
-    {
      "en": "1945",
      "as": "১৯৪৫"
     },
@@ -2816,9 +2812,13 @@ module.exports = {
     {
      "en": "2000",
      "as": "২০০০"
+    },
+    {
+     "en": "1995",
+     "as": "১৯৯৫"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The WTO was established in 1995.",
     "as": "বিশ্ব বাণিজ্য সংস্থা ১৯৯৫ চনত স্থাপন কৰা হৈছিল।"
@@ -2892,10 +2892,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Washington D.C.",
-     "as": "ৱাশ্বিংটন ডি চি"
-    },
-    {
      "en": "Geneva",
      "as": "জেনেভা"
     },
@@ -2906,9 +2902,13 @@ module.exports = {
     {
      "en": "London",
      "as": "লণ্ডন"
+    },
+    {
+     "en": "Washington D.C.",
+     "as": "ৱাশ্বিংটন ডি চি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The IMF is headquartered in Washington D.C.",
     "as": "আন্তৰ্জাতিক মুদ্ৰা নিধিৰ মুখ্য কাৰ্যালয় ৱাশ্বিংটন ডি চিত।"
@@ -2922,10 +2922,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Geneva",
-     "as": "জেনেভা"
-    },
-    {
      "en": "New York",
      "as": "নিউয়ৰ্ক"
     },
@@ -2934,11 +2930,15 @@ module.exports = {
      "as": "পেৰিছ"
     },
     {
+     "en": "Geneva",
+     "as": "জেনেভা"
+    },
+    {
      "en": "Washington D.C.",
      "as": "ৱাশ্বিংটন ডি চি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The WTO is headquartered in Geneva.",
     "as": "বিশ্ব বাণিজ্য সংস্থাৰ মুখ্য কাৰ্যালয় জেনেভাত।"
@@ -3012,12 +3012,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "mixed economy",
-     "as": "মিশ্ৰ অৰ্থনীতি"
-    },
-    {
      "en": "pure capitalist economy",
      "as": "পূৰ্ণ পুঁজিবাদী অৰ্থনীতি"
+    },
+    {
+     "en": "mixed economy",
+     "as": "মিশ্ৰ অৰ্থনীতি"
     },
     {
      "en": "pure socialist economy",
@@ -3028,7 +3028,7 @@ module.exports = {
      "as": "বন্ধ অৰ্থনীতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "India is a mixed economy with both public and private sectors.",
     "as": "ভাৰত এখন মিশ্ৰ অৰ্থনীতি, য'ত ৰাজহুৱা আৰু ব্যক্তিগত দুয়ো খণ্ড আছে।"
@@ -3042,12 +3042,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "both public and private sectors coexist",
-     "as": "ৰাজহুৱা আৰু ব্যক্তিগত দুয়ো খণ্ড সহাৱস্থান কৰে"
-    },
-    {
      "en": "only the public sector exists",
      "as": "কেৱল ৰাজহুৱা খণ্ড থাকে"
+    },
+    {
+     "en": "both public and private sectors coexist",
+     "as": "ৰাজহুৱা আৰু ব্যক্তিগত দুয়ো খণ্ড সহাৱস্থান কৰে"
     },
     {
      "en": "only the private sector exists",
@@ -3058,7 +3058,7 @@ module.exports = {
      "as": "চৰকাৰ নাথাকে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A mixed economy has both public and private sectors.",
     "as": "মিশ্ৰ অৰ্থনীতিত ৰাজহুৱা আৰু ব্যক্তিগত দুয়ো খণ্ড থাকে।"
@@ -3072,10 +3072,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "3.5 percent",
-     "as": "৩.৫ শতাংশ"
-    },
-    {
      "en": "7 percent",
      "as": "৭ শতাংশ"
     },
@@ -3086,9 +3082,13 @@ module.exports = {
     {
      "en": "1 percent",
      "as": "১ শতাংশ"
+    },
+    {
+     "en": "3.5 percent",
+     "as": "৩.৫ শতাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Hindu rate of growth was about 3.5 percent.",
     "as": "হিন্দু বৃদ্ধিৰ হাৰ প্ৰায় ৩.৫ শতাংশ আছিল।"
@@ -3102,10 +3102,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "stagflation",
-     "as": "ষ্টেগফ্লেচন"
-    },
-    {
      "en": "deflation",
      "as": "অৱমুদ্ৰাস্ফীতি"
     },
@@ -3116,9 +3112,13 @@ module.exports = {
     {
      "en": "hyperinflation",
      "as": "অতিমুদ্ৰাস্ফীতি"
+    },
+    {
+     "en": "stagflation",
+     "as": "ষ্টেগফ্লেচন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Stagflation is high inflation combined with stagnant growth.",
     "as": "ষ্টেগফ্লেচন হৈছে স্থবিৰ বৃদ্ধিৰ সৈতে উচ্চ মুদ্ৰাস্ফীতি।"
@@ -3132,10 +3132,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "GST and other indirect taxes",
-     "as": "GST আৰু অন্যান্য পৰোক্ষ কৰ"
-    },
-    {
      "en": "income tax",
      "as": "আয়কৰ"
     },
@@ -3144,11 +3140,15 @@ module.exports = {
      "as": "ৰাজহ শুল্ক"
     },
     {
+     "en": "GST and other indirect taxes",
+     "as": "GST আৰু অন্যান্য পৰোক্ষ কৰ"
+    },
+    {
      "en": "fees",
      "as": "শুল্ক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Indirect taxes, especially GST, are the largest revenue source.",
     "as": "পৰোক্ষ কৰ, বিশেষকৈ GST, আটাইতকৈ বৃহৎ আয়ৰ উৎস।"
@@ -3192,10 +3192,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "revenue",
-     "as": "ৰাজহ"
-    },
-    {
      "en": "debt",
      "as": "ঋণ"
     },
@@ -3206,9 +3202,13 @@ module.exports = {
     {
      "en": "exports",
      "as": "ৰপ্তানি"
+    },
+    {
+     "en": "revenue",
+     "as": "ৰাজহ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A budget deficit means expenditure exceeds revenue.",
     "as": "বাজেট ঘাটি মানে ব্যয় ৰাজহ অতিক্ৰম কৰে।"
@@ -3222,12 +3222,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "receipts excluding borrowings",
-     "as": "ঋণ বাদ দি প্ৰাপ্তি"
-    },
-    {
      "en": "borrowings",
      "as": "ঋণ"
+    },
+    {
+     "en": "receipts excluding borrowings",
+     "as": "ঋণ বাদ দি প্ৰাপ্তি"
     },
     {
      "en": "taxes",
@@ -3238,7 +3238,7 @@ module.exports = {
      "as": "ৰপ্তানি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Fiscal deficit excludes borrowings from receipts.",
     "as": "বিত্তীয় ঘাটিয়ে প্ৰাপ্তিৰ পৰা ঋণ বাদ দিয়ে।"
@@ -3252,10 +3252,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "government",
-     "as": "চৰকাৰ"
-    },
-    {
      "en": "private sector",
      "as": "ব্যক্তিগত খণ্ড"
     },
@@ -3264,11 +3260,15 @@ module.exports = {
      "as": "পৰিয়াল"
     },
     {
+     "en": "government",
+     "as": "চৰকাৰ"
+    },
+    {
      "en": "banks",
      "as": "বেংক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Fiscal deficit shows the government's total borrowing requirement.",
     "as": "বিত্তীয় ঘাটিয়ে চৰকাৰৰ মুঠ ঋণৰ প্ৰয়োজন দেখুৱায়।"
@@ -3312,12 +3312,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "government",
-     "as": "চৰকাৰ"
-    },
-    {
      "en": "private firms",
      "as": "ব্যক্তিগত প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "government",
+     "as": "চৰকাৰ"
     },
     {
      "en": "households",
@@ -3328,7 +3328,7 @@ module.exports = {
      "as": "বিদেশী প্ৰতিষ্ঠান"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Public debt is the government's total borrowing.",
     "as": "ৰাজহুৱা ঋণ হৈছে চৰকাৰৰ মুঠ ঋণ।"
@@ -3342,12 +3342,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Indian Oil Corporation",
-     "as": "ইণ্ডিয়ান অয়েল কৰ্পোৰেচন"
-    },
-    {
      "en": "Reliance Industries",
      "as": "ৰিলায়েন্স ইণ্ডাষ্ট্ৰীজ"
+    },
+    {
+     "en": "Indian Oil Corporation",
+     "as": "ইণ্ডিয়ান অয়েল কৰ্পোৰেচন"
     },
     {
      "en": "Tata Motors",
@@ -3358,7 +3358,7 @@ module.exports = {
      "as": "ইনফ'চিছ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Indian Oil Corporation is a public sector undertaking.",
     "as": "ইণ্ডিয়ান অয়েল কৰ্পোৰেশ্যন এটা ৰাজহুৱা খণ্ডৰ উদ্যোগ।"
@@ -3372,10 +3372,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ministry of Finance",
-     "as": "বিত্ত মন্ত্ৰালয়"
-    },
-    {
      "en": "RBI",
      "as": "আৰবিআই"
     },
@@ -3386,9 +3382,13 @@ module.exports = {
     {
      "en": "Planning Commission",
      "as": "পৰিকল্পনা আয়োগ"
+    },
+    {
+     "en": "Ministry of Finance",
+     "as": "বিত্ত মন্ত্ৰালয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Ministry of Finance prepares the Economic Survey.",
     "as": "বিত্ত মন্ত্ৰালয়ে অৰ্থনৈতিক সমীক্ষা প্ৰস্তুত কৰে।"
@@ -3432,10 +3432,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tea",
-     "as": "চাহ"
-    },
-    {
      "en": "Coffee",
      "as": "কফি"
     },
@@ -3446,9 +3442,13 @@ module.exports = {
     {
      "en": "Cotton",
      "as": "কপাহ"
+    },
+    {
+     "en": "Tea",
+     "as": "চাহ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Tea is the most important commercial crop of Assam.",
     "as": "চাহ অসমৰ আটাইতকৈ গুৰুত্বপূৰ্ণ বাণিজ্যিক শস্য।"
@@ -3462,10 +3462,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "More than half",
-     "as": "আধাতকৈ বেছি"
-    },
-    {
      "en": "One-fourth",
      "as": "এক-চতুৰ্থাংশ"
     },
@@ -3474,11 +3470,15 @@ module.exports = {
      "as": "এক-দশমাংশ"
     },
     {
+     "en": "More than half",
+     "as": "আধাতকৈ বেছি"
+    },
+    {
      "en": "One-third",
      "as": "এক-তৃতীয়াংশ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Assam produces more than half of India's tea.",
     "as": "অসমে ভাৰতৰ আধাতকৈ বেছি চাহ উৎপাদন কৰে।"
@@ -3492,10 +3492,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Chabua",
-     "as": "চাবুৱা"
-    },
-    {
      "en": "Dibru",
      "as": "ডিব্ৰু"
     },
@@ -3504,11 +3500,15 @@ module.exports = {
      "as": "যোৰহাট"
     },
     {
+     "en": "Chabua",
+     "as": "চাবুৱা"
+    },
+    {
      "en": "Sonitpur",
      "as": "শোণিতপুৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Chabua in Dibrugarh is regarded as the first tea garden of Assam.",
     "as": "ডিব্ৰুগড়ৰ চাবুৱাক অসমৰ প্ৰথম চাহ বাগান বুলি গণ্য কৰা হয়।"
@@ -3522,10 +3522,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Robert Bruce",
-     "as": "ৰবাৰ্ট ব্ৰুছ"
-    },
-    {
      "en": "Charles Bruce",
      "as": "চাৰ্লছ ব্ৰুছ"
     },
@@ -3536,9 +3532,13 @@ module.exports = {
     {
      "en": "David Scott",
      "as": "ডেভিদ স্কট"
+    },
+    {
+     "en": "Robert Bruce",
+     "as": "ৰবাৰ্ট ব্ৰুছ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Robert Bruce is credited with the discovery of tea in Assam.",
     "as": "অসমত চাহ আৱিষ্কাৰৰ কৃতিত্ব ৰবাৰ্ট ব্ৰুছক দিয়া হয়।"
@@ -3552,10 +3552,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Maniram Dewan",
-     "as": "মণিৰাম দেৱান"
-    },
-    {
      "en": "Robert Bruce",
      "as": "ৰবাৰ্ট ব্ৰুছ"
     },
@@ -3564,11 +3560,15 @@ module.exports = {
      "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
     },
     {
+     "en": "Maniram Dewan",
+     "as": "মণিৰাম দেৱান"
+    },
+    {
      "en": "Hemchandra Barua",
      "as": "হেমচন্দ্ৰ বৰুৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Maniram Dewan was the first Indian tea planter of Assam.",
     "as": "মণিৰাম দেৱান অসমৰ প্ৰথম ভাৰতীয় চাহ ৰোপণকাৰী আছিল।"
@@ -3582,10 +3582,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Assam Tea Company",
-     "as": "অসম চাহ কোম্পানী"
-    },
-    {
      "en": "Jorhat Tea Company",
      "as": "যোৰহাট চাহ কোম্পানী"
     },
@@ -3596,9 +3592,13 @@ module.exports = {
     {
      "en": "Bengal Tea Company",
      "as": "বেংগল চাহ কোম্পানী"
+    },
+    {
+     "en": "Assam Tea Company",
+     "as": "অসম চাহ কোম্পানী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Assam Tea Company was the first tea company.",
     "as": "অসম চাহ কোম্পানী প্ৰথম চাহ কোম্পানী আছিল।"
@@ -3612,10 +3612,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    },
-    {
      "en": "Jorhat",
      "as": "যোৰহাট"
     },
@@ -3624,11 +3620,15 @@ module.exports = {
      "as": "শিৱসাগৰ"
     },
     {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
      "en": "Golaghat",
      "as": "গোলাঘাট"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Dibrugarh is the largest tea-producing district of Assam.",
     "as": "ডিব্ৰুগড় অসমৰ সৰ্ববৃহৎ চাহ উৎপাদনকাৰী জিলা।"
@@ -3642,10 +3642,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
      "en": "Dibrugarh",
      "as": "ডিব্ৰুগড়"
     },
@@ -3654,11 +3650,15 @@ module.exports = {
      "as": "যোৰহাট"
     },
     {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
      "en": "Silchar",
      "as": "শিলচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Guwahati Tea Auction Centre is located in Guwahati.",
     "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ গুৱাহাটীত অৱস্থিত।"
@@ -3672,12 +3672,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Digboi Refinery",
-     "as": "ডিগবৈ শোধনাগাৰ"
-    },
-    {
      "en": "Bongaigaon Refinery",
      "as": "বঙাইগাঁও শোধনাগাৰ"
+    },
+    {
+     "en": "Digboi Refinery",
+     "as": "ডিগবৈ শোধনাগাৰ"
     },
     {
      "en": "Numaligarh Refinery",
@@ -3688,7 +3688,7 @@ module.exports = {
      "as": "গুৱাহাটী শোধনাগাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Digboi Refinery is one of the oldest refineries in the world.",
     "as": "ডিগবৈ শোধনাগাৰ বিশ্বৰ আটাইতকৈ পুৰণি শোধনাগাৰৰ এটা।"
@@ -3732,10 +3732,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati Refinery",
-     "as": "গুৱাহাটী শোধনাগাৰ"
-    },
-    {
      "en": "Digboi Refinery",
      "as": "ডিগবৈ শোধনাগাৰ"
     },
@@ -3744,11 +3740,15 @@ module.exports = {
      "as": "বঙাইগাঁও শোধনাগাৰ"
     },
     {
+     "en": "Guwahati Refinery",
+     "as": "গুৱাহাটী শোধনাগাৰ"
+    },
+    {
      "en": "Numaligarh Refinery",
      "as": "নুমলীগড় শোধনাগাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Guwahati Refinery is the first public sector oil refinery in India.",
     "as": "গুৱাহাটী শোধনাগাৰ ভাৰতৰ ৰাজহুৱা খণ্ডৰ প্ৰথম তেল শোধনাগাৰ।"
@@ -3762,10 +3762,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Golaghat",
-     "as": "গোলাঘাট"
-    },
-    {
      "en": "Dibrugarh",
      "as": "ডিব্ৰুগড়"
     },
@@ -3776,9 +3772,13 @@ module.exports = {
     {
      "en": "Jorhat",
      "as": "যোৰহাট"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Numaligarh Refinery is located in Golaghat district.",
     "as": "নুমলীগড় শোধনাগাৰ গোলাঘাট জিলাত অৱস্থিত।"
@@ -3822,10 +3822,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Duliajan",
-     "as": "ডুলীয়াজান"
-    },
-    {
      "en": "Digboi",
      "as": "ডিগবৈ"
     },
@@ -3836,9 +3832,13 @@ module.exports = {
     {
      "en": "Dibrugarh",
      "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Duliajan",
+     "as": "ডুলীয়াজান"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Oil India Limited is headquartered at Duliajan in Assam.",
     "as": "অয়েল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় অসমৰ ডুলীয়াজানত।"
@@ -3852,12 +3852,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Majuli",
-     "as": "মাজুলী"
-    },
-    {
      "en": "Umananda",
      "as": "উমানন্দ"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
     },
     {
      "en": "Peacock Island",
@@ -3868,7 +3868,7 @@ module.exports = {
      "as": "ডিব্ৰু-শৈখোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Majuli in Assam is the largest river island in the world.",
     "as": "অসমৰ মাজুলী বিশ্বৰ সৰ্ববৃহৎ নদী দ্বীপ।"
@@ -3882,12 +3882,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Brahmaputra",
-     "as": "ব্ৰহ্মপুত্ৰ"
-    },
-    {
      "en": "Barak",
      "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
      "en": "Subansiri",
@@ -3898,7 +3898,7 @@ module.exports = {
      "as": "মানস"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Majuli is formed by the Brahmaputra.",
     "as": "মাজুলী ব্ৰহ্মপুত্ৰই গঠন কৰিছে।"
@@ -3912,10 +3912,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Brahmaputra",
-     "as": "ব্ৰহ্মপুত্ৰ"
-    },
-    {
      "en": "Barak",
      "as": "বৰাক"
     },
@@ -3926,9 +3922,13 @@ module.exports = {
     {
      "en": "Yamuna",
      "as": "যমুনা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Brahmaputra is the main river of Assam.",
     "as": "ব্ৰহ্মপুত্ৰ অসমৰ মূল নদী।"
@@ -3942,10 +3942,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the Brahmaputra and heavy monsoon rains",
-     "as": "ব্ৰহ্মপুত্ৰ আৰু অত্যধিক বৰষুণ"
-    },
-    {
      "en": "earthquakes",
      "as": "ভূমিকম্প"
     },
@@ -3956,9 +3952,13 @@ module.exports = {
     {
      "en": "volcanic activity",
      "as": "আগ্নেয়গিৰিৰ কাৰ্যকলাপ"
+    },
+    {
+     "en": "the Brahmaputra and heavy monsoon rains",
+     "as": "ব্ৰহ্মপুত্ৰ আৰু অত্যধিক বৰষুণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Floods occur due to the Brahmaputra and heavy monsoon rains.",
     "as": "ব্ৰহ্মপুত্ৰ আৰু অত্যধিক বৰষুণৰ বাবে বানপানী হয়।"
@@ -4002,10 +4002,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rice",
-     "as": "ধান"
-    },
-    {
      "en": "Wheat",
      "as": "ঘেঁহু"
     },
@@ -4014,11 +4010,15 @@ module.exports = {
      "as": "বাজৰা"
     },
     {
+     "en": "Rice",
+     "as": "ধান"
+    },
+    {
      "en": "Maize",
      "as": "মাকৈ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Rice is the main monsoon crop of Assam.",
     "as": "ধান অসমৰ মূল বাৰিষা শস্য।"
@@ -4032,12 +4032,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ahu, Sali and Boro",
-     "as": "আহু, শালি আৰু বৰো"
-    },
-    {
      "en": "Basmati only",
      "as": "কেৱল বাছমতী"
+    },
+    {
+     "en": "Ahu, Sali and Boro",
+     "as": "আহু, শালি আৰু বৰো"
     },
     {
      "en": "Japonica only",
@@ -4048,7 +4048,7 @@ module.exports = {
      "as": "কেৱল ইণ্ডিকা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Assam grows Ahu, Sali and Boro varieties of rice.",
     "as": "অসমে আহু, শালি আৰু বৰো জাতৰ ধান উৎপাদন কৰে।"
@@ -4122,10 +4122,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Muga",
-     "as": "মুগা"
-    },
-    {
      "en": "Mulberry",
      "as": "নুনি"
     },
@@ -4134,11 +4130,15 @@ module.exports = {
      "as": "টচৰ"
     },
     {
+     "en": "Muga",
+     "as": "মুগা"
+    },
+    {
      "en": "Eri",
      "as": "এৰী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Muga silk is produced only in Assam.",
     "as": "মুগা পাট কেৱল অসমত উৎপাদন কৰা হয়।"
@@ -4272,10 +4272,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Silchar",
-     "as": "শিলচৰ"
-    },
-    {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
     },
@@ -4286,9 +4282,13 @@ module.exports = {
     {
      "en": "Jorhat",
      "as": "যোৰহাট"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Silchar is the second-largest city of Assam.",
     "as": "শিলচৰ অসমৰ দ্বিতীয় সৰ্ববৃহৎ চহৰ।"
@@ -4332,12 +4332,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tea industry",
-     "as": "চাহ উদ্যোগ"
-    },
-    {
      "en": "Oil industry",
      "as": "তেল উদ্যোগ"
+    },
+    {
+     "en": "Tea industry",
+     "as": "চাহ উদ্যোগ"
     },
     {
      "en": "Cement industry",
@@ -4348,7 +4348,7 @@ module.exports = {
      "as": "কাগজ উদ্যোগ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The tea industry is the largest industry of Assam.",
     "as": "চাহ উদ্যোগ অসমৰ সৰ্ববৃহৎ উদ্যোগ।"
@@ -4362,10 +4362,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nagaon Paper Mill",
-     "as": "নগাঁও কাগজ কল"
-    },
-    {
      "en": "Cachar Paper Mill",
      "as": "কাছাৰ কাগজ কল"
     },
@@ -4374,11 +4370,15 @@ module.exports = {
      "as": "জাগীৰোড কাগজ কল"
     },
     {
+     "en": "Nagaon Paper Mill",
+     "as": "নগাঁও কাগজ কল"
+    },
+    {
      "en": "Assam Paper Mill",
      "as": "অসম কাগজ কল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Nagaon Paper Mill is one of the largest paper mills of Assam.",
     "as": "নগাঁও কাগজ কল অসমৰ সৰ্ববৃহৎ কাগজ কলৰ এটা।"
@@ -4392,10 +4392,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jagiroad",
-     "as": "জাগীৰোড"
-    },
-    {
      "en": "Nagaon town",
      "as": "নগাঁও নগৰ"
     },
@@ -4404,11 +4400,15 @@ module.exports = {
      "as": "ডিব্ৰুগড়"
     },
     {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
      "en": "Silchar",
      "as": "শিলচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Nagaon Paper Mill is located at Jagiroad.",
     "as": "নগাঁও কাগজ কল জাগীৰোডত অৱস্থিত।"
@@ -4452,10 +4452,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
      "en": "Digboi",
      "as": "ডিগবৈ"
     },
@@ -4466,9 +4462,13 @@ module.exports = {
     {
      "en": "Haflong",
      "as": "হাফলং"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Guwahati is a principal centre of the plywood industry.",
     "as": "গুৱাহাটী প্লাইউড উদ্যোগৰ এটা মূল কেন্দ্ৰ।"
@@ -4512,12 +4512,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Taxes on goods, land and excise",
-     "as": "সামগ্ৰী, ভূমি আৰু আবকাৰীৰ ওপৰত কৰ"
-    },
-    {
      "en": "Income from tourism only",
      "as": "কেৱল পৰ্যটনৰ পৰা আয়"
+    },
+    {
+     "en": "Taxes on goods, land and excise",
+     "as": "সামগ্ৰী, ভূমি আৰু আবকাৰীৰ ওপৰত কৰ"
     },
     {
      "en": "Foreign aid",
@@ -4528,7 +4528,7 @@ module.exports = {
      "as": "কেৱল খনন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Taxes on goods, land and excise are the main revenue sources.",
     "as": "সামগ্ৰী, ভূমি আৰু আবকাৰীৰ ওপৰত কৰ মূল আয়ৰ উৎস।"
@@ -4542,10 +4542,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Union Government transfers",
-     "as": "সংঘ চৰকাৰৰ হস্তান্তৰ"
-    },
-    {
      "en": "foreign countries",
      "as": "বিদেশী দেশ"
     },
@@ -4554,11 +4550,15 @@ module.exports = {
      "as": "ব্যক্তিগত বেংক"
     },
     {
+     "en": "Union Government transfers",
+     "as": "সংঘ চৰকাৰৰ হস্তান্তৰ"
+    },
+    {
      "en": "NGOs",
      "as": "এনজিঅ'"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Assam receives a large share of revenue from Union Government transfers.",
     "as": "অসমে আয়ৰ এক বৃহৎ অংশ সংঘ চৰকাৰৰ হস্তান্তৰৰ পৰা পায়।"
@@ -4602,12 +4602,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1985",
-     "as": "১৯৮৫"
-    },
-    {
      "en": "1980",
      "as": "১৯৮০"
+    },
+    {
+     "en": "1985",
+     "as": "১৯৮৫"
     },
     {
      "en": "1990",
@@ -4618,7 +4618,7 @@ module.exports = {
      "as": "১৯৭৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Assam Accord was signed in 1985.",
     "as": "অসম চুক্তি ১৯৮৫ চনত স্বাক্ষৰ কৰা হৈছিল।"
@@ -4662,10 +4662,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "NEDFi",
-     "as": "নেডফি"
-    },
-    {
      "en": "NITI Aayog",
      "as": "নীতি আয়োগ"
     },
@@ -4676,9 +4672,13 @@ module.exports = {
     {
      "en": "NABARD",
      "as": "নাবাৰ্ড"
+    },
+    {
+     "en": "NEDFi",
+     "as": "নেডফি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "NEDFi promotes industrial development in the North East.",
     "as": "নেডফিয়ে উত্তৰ-পূবত উদ্যোগিক উন্নয়ন প্ৰসাৰ কৰে।"
@@ -4692,10 +4692,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
      "en": "Shillong",
      "as": "শ্বিলং"
     },
@@ -4704,11 +4700,15 @@ module.exports = {
      "as": "কোহিমা"
     },
     {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
      "en": "Imphal",
      "as": "ইম্ফাল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "NEDFi is headquartered at Guwahati.",
     "as": "নেডফিৰ মুখ্য কাৰ্যালয় গুৱাহাটীত।"
@@ -4722,10 +4722,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Act East Policy",
-     "as": "এক্ট ইষ্ট নীতি"
-    },
-    {
      "en": "Act West Policy",
      "as": "এক্ট ৱেষ্ট নীতি"
     },
@@ -4736,9 +4732,13 @@ module.exports = {
     {
      "en": "Look South Policy",
      "as": "লুক চাউথ নীতি"
+    },
+    {
+     "en": "Act East Policy",
+     "as": "এক্ট ইষ্ট নীতি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Look East policy was renamed the Act East Policy.",
     "as": "লুক ইষ্ট নীতিক এক্ট ইষ্ট নীতি নাম দিয়া হৈছিল।"
@@ -4752,10 +4752,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "South-East and East Asian countries",
-     "as": "দক্ষিণ-পূব আৰু পূব এছিয়াৰ দেশ"
-    },
-    {
      "en": "European countries",
      "as": "ইউৰোপীয় দেশ"
     },
@@ -4766,9 +4762,13 @@ module.exports = {
     {
      "en": "South American countries",
      "as": "দক্ষিণ আমেৰিকান দেশ"
+    },
+    {
+     "en": "South-East and East Asian countries",
+     "as": "দক্ষিণ-পূব আৰু পূব এছিয়াৰ দেশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Act East Policy focuses on South-East and East Asia.",
     "as": "এক্ট ইষ্ট নীতিয়ে দক্ষিণ-পূব আৰু পূব এছিয়াৰ ওপৰত গুৰুত্ব দিয়ে।"
@@ -4782,10 +4782,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tea",
-     "as": "চাহ"
-    },
-    {
      "en": "Wheat",
      "as": "ঘেঁহু"
     },
@@ -4796,9 +4792,13 @@ module.exports = {
     {
      "en": "Iron ore",
      "as": "লৌহ আকরিক"
+    },
+    {
+     "en": "Tea",
+     "as": "চাহ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Tea is the main export item of Assam.",
     "as": "চাহ অসমৰ মূল ৰপ্তানি সামগ্ৰী।"
@@ -4842,12 +4842,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Low prices and labour issues",
-     "as": "নিম্ন মূল্য আৰু শ্ৰমিক সমস্যা"
-    },
-    {
      "en": "Lack of tea plants",
      "as": "চাহ গছৰ অভাৱ"
+    },
+    {
+     "en": "Low prices and labour issues",
+     "as": "নিম্ন মূল্য আৰু শ্ৰমিক সমস্যা"
     },
     {
      "en": "Excess rainfall",
@@ -4858,7 +4858,7 @@ module.exports = {
      "as": "মাটিৰ অভাৱ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Low prices and labour issues are major problems.",
     "as": "নিম্ন মূল্য আৰু শ্ৰমিক সমস্যা প্ৰধান সমস্যা।"
@@ -4872,10 +4872,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kolkata",
-     "as": "কলিকতা"
-    },
-    {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
     },
@@ -4886,9 +4882,13 @@ module.exports = {
     {
      "en": "New Delhi",
      "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Kolkata",
+     "as": "কলিকতা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Tea Board of India is headquartered at Kolkata.",
     "as": "ভাৰতীয় চাহ ব'ৰ্ডৰ মুখ্য কাৰ্যালয় কলিকতাত।"
@@ -4902,10 +4902,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "China",
-     "as": "চীন"
-    },
-    {
      "en": "India",
      "as": "ভাৰত"
     },
@@ -4916,9 +4912,13 @@ module.exports = {
     {
      "en": "Kenya",
      "as": "কেনিয়া"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "China is the largest tea-producing country in the world.",
     "as": "চীন বিশ্বৰ সৰ্ববৃহৎ চাহ উৎপাদনকাৰী দেশ।"
@@ -4932,12 +4932,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Second",
-     "as": "দ্বিতীয়"
-    },
-    {
      "en": "First",
      "as": "প্ৰথম"
+    },
+    {
+     "en": "Second",
+     "as": "দ্বিতীয়"
     },
     {
      "en": "Third",
@@ -4948,7 +4948,7 @@ module.exports = {
      "as": "চতুৰ্থ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "India is the second-largest tea producer in the world.",
     "as": "ভাৰত বিশ্বৰ দ্বিতীয় সৰ্ববৃহৎ চাহ উৎপাদনকাৰী।"
@@ -4962,10 +4962,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the United Kingdom and other countries",
-     "as": "ব্ৰিটেইন আৰু অন্য দেশ"
-    },
-    {
      "en": "only China",
      "as": "কেৱল চীন"
     },
@@ -4974,11 +4970,15 @@ module.exports = {
      "as": "কেৱল আফ্ৰিকা"
     },
     {
+     "en": "the United Kingdom and other countries",
+     "as": "ব্ৰিটেইন আৰু অন্য দেশ"
+    },
+    {
      "en": "only America",
      "as": "কেৱল আমেৰিকা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Assam tea is exported to the UK and many other countries.",
     "as": "অসমৰ চাহ ব্ৰিটেইন আৰু বহু অন্য দেশলৈ ৰপ্তানি কৰা হয়।"
@@ -4992,10 +4992,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lepetkata",
-     "as": "লেপেটকাটা"
-    },
-    {
      "en": "Digboi",
      "as": "ডিগবৈ"
     },
@@ -5004,11 +5000,15 @@ module.exports = {
      "as": "ডুলীয়াজান"
     },
     {
+     "en": "Lepetkata",
+     "as": "লেপেটকাটা"
+    },
+    {
      "en": "Numaligarh",
      "as": "নুমলীগড়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "BCPL is located at Lepetkata near Dibrugarh.",
     "as": "বিচিপিএল ডিব্ৰুগড়ৰ ওচৰৰ লেপেটকাটাত অৱস্থিত।"
@@ -5022,12 +5022,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Service sector",
-     "as": "সেৱা খণ্ড"
-    },
-    {
      "en": "Agriculture",
      "as": "কৃষি"
+    },
+    {
+     "en": "Service sector",
+     "as": "সেৱা খণ্ড"
     },
     {
      "en": "Manufacturing",
@@ -5038,7 +5038,7 @@ module.exports = {
      "as": "খনন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The service sector is the largest contributor to Assam's economy.",
     "as": "সেৱা খণ্ড অসমৰ অৰ্থনীতিত আটাইতকৈ বেছি অৱদান আগবঢ়ায়।"
@@ -5082,10 +5082,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Margherita and Ledo",
-     "as": "মাৰ্ঘেৰিটা আৰু লেডো"
-    },
-    {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
     },
@@ -5094,11 +5090,15 @@ module.exports = {
      "as": "মাজুলী"
     },
     {
+     "en": "Margherita and Ledo",
+     "as": "মাৰ্ঘেৰিটা আৰু লেডো"
+    },
+    {
      "en": "Silchar",
      "as": "শিলচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Coal is mainly found in Margherita and Ledo.",
     "as": "কয়লা মূলতঃ মাৰ্ঘেৰিটা আৰু লেডোত পোৱা যায়।"
@@ -5112,10 +5112,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Digboi",
-     "as": "ডিগবৈ"
-    },
-    {
      "en": "Duliajan",
      "as": "ডুলীয়াজান"
     },
@@ -5124,11 +5120,15 @@ module.exports = {
      "as": "নাহৰকটীয়া"
     },
     {
+     "en": "Digboi",
+     "as": "ডিগবৈ"
+    },
+    {
      "en": "Moran",
      "as": "মৰাণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The first oil well in Asia was drilled at Digboi in Assam.",
     "as": "এছিয়াৰ প্ৰথম তেল কুঁৱা অসমৰ ডিগবৈত খনন কৰা হৈছিল।"
@@ -5142,10 +5142,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
      "en": "West Bengal",
      "as": "পশ্চিমবঙ্গ"
     },
@@ -5156,9 +5152,13 @@ module.exports = {
     {
      "en": "Kerala",
      "as": "কেৰালা"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Assam is the largest tea-producing State in India.",
     "as": "অসম ভাৰতত সৰ্বাধিক চাহ উৎপাদনকাৰী ৰাজ্য।"
@@ -5172,12 +5172,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "World Bank",
-     "as": "বিশ্ব বেংক"
-    },
-    {
      "en": "IMF",
      "as": "আইএমএফ"
+    },
+    {
+     "en": "World Bank",
+     "as": "বিশ্ব বেংক"
     },
     {
      "en": "WTO",
@@ -5188,7 +5188,7 @@ module.exports = {
      "as": "ছেবি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It is funded by the World Bank.",
     "as": "ই বিশ্ব বেংকে পুঁজি যোগায়।"
@@ -5232,10 +5232,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Digboi",
-     "as": "ডিগবৈ"
-    },
-    {
      "en": "Jorhat",
      "as": "যোৰহাট"
     },
@@ -5244,11 +5240,15 @@ module.exports = {
      "as": "শুৱালকুছি"
     },
     {
+     "en": "Digboi",
+     "as": "ডিগবৈ"
+    },
+    {
      "en": "Silchar",
      "as": "শিলচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Digboi is known as the Oil City of Assam.",
     "as": "ডিগবৈক অসমৰ তেল নগৰ বুলি জনা যায়।"
@@ -5262,12 +5262,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "promote industries in Assam",
-     "as": "অসমত উদ্যোগ প্ৰসাৰ"
-    },
-    {
      "en": "control floods",
      "as": "বানপানী নিয়ন্ত্ৰণ"
+    },
+    {
+     "en": "promote industries in Assam",
+     "as": "অসমত উদ্যোগ প্ৰসাৰ"
     },
     {
      "en": "collect taxes",
@@ -5278,7 +5278,7 @@ module.exports = {
      "as": "বিদ্যালয় চলোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "AIDC promotes industries in Assam.",
     "as": "এআইডিচিয়ে অসমত উদ্যোগ প্ৰসাৰ কৰে।"
@@ -5292,12 +5292,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bamboo and cane work",
-     "as": "বাঁহ আৰু বেতৰ কাম"
-    },
-    {
      "en": "Glassware",
      "as": "কাচৰ সামগ্ৰী"
+    },
+    {
+     "en": "Bamboo and cane work",
+     "as": "বাঁহ আৰু বেতৰ কাম"
     },
     {
      "en": "Porcelain",
@@ -5308,7 +5308,7 @@ module.exports = {
      "as": "কেৱল চামৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Bamboo and cane work is a major handicraft of Assam.",
     "as": "বাঁহ আৰু বেতৰ কাম অসমৰ এটা প্ৰধান হস্তশিল্প।"
@@ -5322,10 +5322,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "weavers",
-     "as": "তাঁতীসকল"
-    },
-    {
      "en": "miners",
      "as": "খনিকৰ"
     },
@@ -5334,11 +5330,15 @@ module.exports = {
      "as": "নাবিক"
     },
     {
+     "en": "weavers",
+     "as": "তাঁতীসকল"
+    },
+    {
      "en": "pilots",
      "as": "পাইলট"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The handloom industry mainly employs weavers.",
     "as": "তাঁতশাল উদ্যোগে মূলতঃ তাঁতীসকলক নিয়োগ কৰে।"
@@ -5352,10 +5352,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
      "en": "Kolkata",
      "as": "কলিকতা"
     },
@@ -5364,11 +5360,15 @@ module.exports = {
      "as": "কলম্বো"
     },
     {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
      "en": "Mombasa",
      "as": "মোম্বাচা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Guwahati Tea Auction Centre is among the largest in the world.",
     "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ বিশ্বৰ সৰ্ববৃহৎবোৰৰ এটা।"
@@ -5382,10 +5382,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "research on tribal welfare",
-     "as": "জনজাতি কল্যাণৰ গৱেষণা"
-    },
-    {
      "en": "flood control",
      "as": "বানপানী নিয়ন্ত্ৰণ"
     },
@@ -5396,9 +5392,13 @@ module.exports = {
     {
      "en": "oil exploration",
      "as": "তেল অন্বেষণ"
+    },
+    {
+     "en": "research on tribal welfare",
+     "as": "জনজাতি কল্যাণৰ গৱেষণা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It researches tribal and Scheduled Caste welfare.",
     "as": "ই জনজাতি আৰু অনুসূচিত জাতি কল্যাণৰ গৱেষণা কৰে।"
@@ -5442,10 +5442,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Regional Rural Bank",
-     "as": "আঞ্চলিক গ্ৰামীণ বেংক"
-    },
-    {
      "en": "Private Bank",
      "as": "ব্যক্তিগত বেংক"
     },
@@ -5454,11 +5450,15 @@ module.exports = {
      "as": "বিদেশী বেংক"
     },
     {
+     "en": "Regional Rural Bank",
+     "as": "আঞ্চলিক গ্ৰামীণ বেংক"
+    },
+    {
      "en": "Cooperative Bank",
      "as": "সহকাৰী বেংক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Assam Gramin Vikash Bank is a Regional Rural Bank.",
     "as": "অসম গ্ৰামীণ বিকাশ বেংক এটা আঞ্চলিক গ্ৰামীণ বেংক।"
@@ -5472,10 +5472,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rainfall and rivers",
-     "as": "বৰষুণ আৰু নদী"
-    },
-    {
      "en": "Canals only",
      "as": "কেৱল খাল"
     },
@@ -5486,9 +5482,13 @@ module.exports = {
     {
      "en": "Dams only",
      "as": "কেৱল বান্ধ"
+    },
+    {
+     "en": "Rainfall and rivers",
+     "as": "বৰষুণ আৰু নদী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Rainfall and rivers are the main sources of irrigation.",
     "as": "বৰষুণ আৰু নদী জলসিঞ্চনৰ মূল উৎস।"
@@ -5532,12 +5532,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Muga silk",
-     "as": "মুগা পাট"
-    },
-    {
      "en": "Basmati rice",
      "as": "বাছমতী চাউল"
+    },
+    {
+     "en": "Muga silk",
+     "as": "মুগা পাট"
     },
     {
      "en": "Darjeeling tea",
@@ -5548,7 +5548,7 @@ module.exports = {
      "as": "কাশ্মীৰ কেশৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Muga silk has a Geographical Indication tag.",
     "as": "মুগা পাটৰ ভৌগোলিক সূচক টেগ আছে।"
@@ -5562,12 +5562,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "agrarian",
-     "as": "কৃষিভিত্তিক"
-    },
-    {
      "en": "industrial",
      "as": "উদ্যোগিক"
+    },
+    {
+     "en": "agrarian",
+     "as": "কৃষিভিত্তিক"
     },
     {
      "en": "service-based only",
@@ -5578,7 +5578,7 @@ module.exports = {
      "as": "খননভিত্তিক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Assam's economy is largely agrarian.",
     "as": "অসমৰ অৰ্থনীতি বহুলাংশে কৃষিভিত্তিক।"
@@ -5622,10 +5622,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "agriculture and the Assamese New Year",
-     "as": "কৃষি আৰু অসমীয়া নতুন বছৰ"
-    },
-    {
      "en": "harvest end only",
      "as": "কেৱল শস্য চপোৱাৰ শেষ"
     },
@@ -5636,9 +5632,13 @@ module.exports = {
     {
      "en": "mining",
      "as": "খনন"
+    },
+    {
+     "en": "agriculture and the Assamese New Year",
+     "as": "কৃষি আৰু অসমীয়া নতুন বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Rongali Bihu marks the Assamese New Year and the agricultural season.",
     "as": "ৰঙালী বিহুৱে অসমীয়া নতুন বছৰ আৰু কৃষি কালক চিহ্নিত কৰে।"
@@ -5652,10 +5652,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "harvest season",
-     "as": "শস্য চপোৱাৰ কাল"
-    },
-    {
      "en": "monsoon season",
      "as": "বাৰিষা কাল"
     },
@@ -5664,11 +5660,15 @@ module.exports = {
      "as": "শীতকাল"
     },
     {
+     "en": "harvest season",
+     "as": "শস্য চপোৱাৰ কাল"
+    },
+    {
      "en": "summer season",
      "as": "গ্ৰীষ্ম কাল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Bhogali Bihu celebrates the end of the harvest season.",
     "as": "ভোগালী বিহুৱে শস্য চপোৱাৰ কালৰ শেষ উদযাপন কৰে।"
@@ -5682,10 +5682,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bihu",
-     "as": "বিহু"
-    },
-    {
      "en": "Pongal",
      "as": "পোংগল"
     },
@@ -5694,11 +5690,15 @@ module.exports = {
      "as": "ওণম"
     },
     {
+     "en": "Bihu",
+     "as": "বিহু"
+    },
+    {
      "en": "Baisakhi",
      "as": "বৈশাখী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Bihu is the main agricultural festival of Assam.",
     "as": "বিহু অসমৰ মূল কৃষি উৎসৱ।"
@@ -5712,12 +5712,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Water and forests",
-     "as": "পানী আৰু বনাঞ্চল"
-    },
-    {
      "en": "Gold",
      "as": "সোণ"
+    },
+    {
+     "en": "Water and forests",
+     "as": "পানী আৰু বনাঞ্চল"
     },
     {
      "en": "Diamonds",
@@ -5728,7 +5728,7 @@ module.exports = {
      "as": "ইউৰেনিয়াম"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Assam's economy depends heavily on water and forests.",
     "as": "অসমৰ অৰ্থনীতি পানী আৰু বনাঞ্চলৰ ওপৰত অত্যধিক নিৰ্ভৰশীল।"
@@ -5742,10 +5742,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Floods",
-     "as": "বানপানী"
-    },
-    {
      "en": "Drought only",
      "as": "কেৱল খৰাং"
     },
@@ -5754,11 +5750,15 @@ module.exports = {
      "as": "আগ্নেয়গিৰিৰ বিস্ফোৰণ"
     },
     {
+     "en": "Floods",
+     "as": "বানপানী"
+    },
+    {
      "en": "Earthquakes only",
      "as": "কেৱল ভূমিকম্প"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Floods are a major problem affecting Assam's agriculture.",
     "as": "বানপানী অসমৰ কৃষিক প্ৰভাৱিত কৰা এটা প্ৰধান সমস্যা।"
@@ -5772,12 +5772,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
      "en": "Dibrugarh",
      "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
     },
     {
      "en": "Silchar",
@@ -5788,7 +5788,7 @@ module.exports = {
      "as": "যোৰহাট"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Assam Don Bosco University is located near Guwahati.",
     "as": "অসম ডন বস্ক' বিশ্ববিদ্যালয় গুৱাহাটীৰ ওচৰত অৱস্থিত।"
@@ -5832,12 +5832,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
      "en": "Meghalaya",
      "as": "মেঘালয়"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
     },
     {
      "en": "Nagaland",
@@ -5848,7 +5848,7 @@ module.exports = {
      "as": "মণিপুৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Kopili Hydro Electric Project is located in Assam.",
     "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প অসমত অৱস্থিত।"
@@ -5892,10 +5892,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Poor infrastructure and connectivity",
-     "as": "দুৰ্বল আন্তঃগাঁথনি আৰু সংযোগ"
-    },
-    {
      "en": "Lack of raw materials",
      "as": "কেঁচা সামগ্ৰীৰ অভাৱ"
     },
@@ -5906,9 +5902,13 @@ module.exports = {
     {
      "en": "Excess capital",
      "as": "অতিরিক্ত পুঁজি"
+    },
+    {
+     "en": "Poor infrastructure and connectivity",
+     "as": "দুৰ্বল আন্তঃগাঁথনি আৰু সংযোগ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Poor infrastructure and connectivity are the main reasons.",
     "as": "দুৰ্বল আন্তঃগাঁথনি আৰু সংযোগ মূল কাৰণ।"
@@ -5922,10 +5922,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "APDCL and AEGCL",
-     "as": "এপিডিচিএল আৰু এজিচিএল"
-    },
-    {
      "en": "NTPC and NHPC",
      "as": "এনটিপিচি আৰু এনএইচপিচি"
     },
@@ -5936,9 +5932,13 @@ module.exports = {
     {
      "en": "SAIL and BHEL",
      "as": "ছেইল আৰু বিএইচইএল"
+    },
+    {
+     "en": "APDCL and AEGCL",
+     "as": "এপিডিচিএল আৰু এজিচিএল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It was reorganised into APDCL and AEGCL.",
     "as": "ইয়াক এপিডিচিএল আৰু এজিচিএল-ত পুনৰ্গঠন কৰা হৈছিল।"
@@ -5952,12 +5952,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "power distribution in Assam",
-     "as": "অসমত বিদ্যুৎ বিতৰণ"
-    },
-    {
      "en": "power generation only",
      "as": "কেৱল বিদ্যুৎ উৎপাদন"
+    },
+    {
+     "en": "power distribution in Assam",
+     "as": "অসমত বিদ্যুৎ বিতৰণ"
     },
     {
      "en": "coal mining",
@@ -5968,7 +5968,7 @@ module.exports = {
      "as": "তেল শোধন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "APDCL handles power distribution in Assam.",
     "as": "এপিডিচিএলে অসমত বিদ্যুৎ বিতৰণ কৰে।"
@@ -5982,10 +5982,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tea industry",
-     "as": "চাহ উদ্যোগ"
-    },
-    {
      "en": "Cement industry",
      "as": "চিমেণ্ট উদ্যোগ"
     },
@@ -5994,11 +5990,15 @@ module.exports = {
      "as": "চফ্টৱেৰ উদ্যোগ"
     },
     {
+     "en": "Tea industry",
+     "as": "চাহ উদ্যোগ"
+    },
+    {
      "en": "Automobile industry",
      "as": "অটোমোবাইল উদ্যোগ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The tea industry is the oldest industry of Assam.",
     "as": "চাহ উদ্যোগ অসমৰ আটাইতকৈ পুৰণি উদ্যোগ।"
@@ -6012,12 +6012,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "newspaper",
-     "as": "বাতৰি কাকত"
-    },
-    {
      "en": "bank",
      "as": "বেংক"
+    },
+    {
+     "en": "newspaper",
+     "as": "বাতৰি কাকত"
     },
     {
      "en": "university",
@@ -6028,7 +6028,7 @@ module.exports = {
      "as": "শোধনাগাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Assam Tribune is a newspaper.",
     "as": "অসম ট্ৰিবিউন এখন বাতৰি কাকত।"
@@ -6072,10 +6072,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "waterway and source of irrigation",
-     "as": "জলপথ আৰু জলসিঞ্চনৰ উৎস"
-    },
-    {
      "en": "railway line",
      "as": "ৰে'লপথ"
     },
@@ -6084,11 +6080,15 @@ module.exports = {
      "as": "বিমানপথ"
     },
     {
+     "en": "waterway and source of irrigation",
+     "as": "জলপথ আৰু জলসিঞ্চনৰ উৎস"
+    },
+    {
      "en": "mining site",
      "as": "খনন স্থল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Brahmaputra is important as a waterway and irrigation source.",
     "as": "ব্ৰহ্মপুত্ৰ জলপথ আৰু জলসিঞ্চনৰ উৎস হিচাপে গুৰুত্বপূৰ্ণ।"
@@ -6102,10 +6102,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Brahmaputra",
-     "as": "ব্ৰহ্মপুত্ৰ"
-    },
-    {
      "en": "Ganga",
      "as": "গঙ্গা"
     },
@@ -6114,11 +6110,15 @@ module.exports = {
      "as": "বৰাক"
     },
     {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
      "en": "Mahanadi",
      "as": "মহানদী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "National Waterway 2 runs along the Brahmaputra.",
     "as": "ৰাষ্ট্ৰীয় জলপথ ২ ব্ৰহ্মপুত্ৰৰ লগত চলি থাকে।"
@@ -6162,10 +6162,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nagaon",
-     "as": "নগাঁও"
-    },
-    {
      "en": "Dibrugarh",
      "as": "ডিব্ৰুগড়"
     },
@@ -6174,11 +6170,15 @@ module.exports = {
      "as": "যোৰহাট"
     },
     {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
      "en": "Cachar",
      "as": "কাছাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Nagaon is a major rice-producing district of Assam.",
     "as": "নগাঁও অসমৰ এটা প্ৰধান ধান উৎপাদনকাৰী জিলা।"
@@ -6192,12 +6192,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jute",
-     "as": "পাট"
-    },
-    {
      "en": "Wheat",
      "as": "ঘেঁহু"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
     },
     {
      "en": "Barley",
@@ -6208,7 +6208,7 @@ module.exports = {
      "as": "মাকৈ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Jute is a cash crop grown in Assam.",
     "as": "পাট অসমত উৎপাদন কৰা এটা নগদ শস্য।"
@@ -6222,10 +6222,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "workers",
-     "as": "শ্ৰমিক"
-    },
-    {
      "en": "engineers only",
      "as": "কেৱল অভিযন্তা"
     },
@@ -6236,9 +6232,13 @@ module.exports = {
     {
      "en": "pilots",
      "as": "পাইলট"
+    },
+    {
+     "en": "workers",
+     "as": "শ্ৰমিক"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The tea industry directly employs a large number of workers.",
     "as": "চাহ উদ্যোগে বহুসংখ্যক শ্ৰমিকক প্ৰত্যক্ষ নিয়োগ দিয়ে।"
@@ -6252,12 +6252,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "tea workers",
-     "as": "চাহ শ্ৰমিক"
-    },
-    {
      "en": "teachers",
      "as": "শিক্ষক"
+    },
+    {
+     "en": "tea workers",
+     "as": "চাহ শ্ৰমিক"
     },
     {
      "en": "doctors",
@@ -6268,7 +6268,7 @@ module.exports = {
      "as": "বেংকাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It is a union of tea workers.",
     "as": "ই চাহ শ্ৰমিকসকলৰ সংঘ।"
@@ -6282,12 +6282,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Leading contributor",
-     "as": "প্ৰধান অৱদানকাৰী"
-    },
-    {
      "en": "Negligible",
      "as": "নগণ্য"
+    },
+    {
+     "en": "Leading contributor",
+     "as": "প্ৰধান অৱদানকাৰী"
     },
     {
      "en": "Second only to Kerala",
@@ -6298,7 +6298,7 @@ module.exports = {
      "as": "শূন্য"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Assam is the leading contributor to India's tea exports.",
     "as": "অসম ভাৰতৰ চাহ ৰপ্তানিত প্ৰধান অৱদানকাৰী।"
@@ -6312,10 +6312,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tea",
-     "as": "চাহ"
-    },
-    {
      "en": "Coffee",
      "as": "কফি"
     },
@@ -6324,11 +6320,15 @@ module.exports = {
      "as": "ৰবৰ"
     },
     {
+     "en": "Tea",
+     "as": "চাহ"
+    },
+    {
      "en": "Coconut",
      "as": "নাৰিকল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Assam Valley is famous for tea cultivation.",
     "as": "অসম উপত্যকা চাহ খেতিৰ বাবে বিখ্যাত।"
@@ -6402,10 +6402,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "directly for other goods",
-     "as": "প্ৰত্যক্ষভাৱে অন্য সামগ্ৰীৰ বাবে"
-    },
-    {
      "en": "for money",
      "as": "মুদ্ৰাৰ বাবে"
     },
@@ -6414,11 +6410,15 @@ module.exports = {
      "as": "সোণৰ বাবে"
     },
     {
+     "en": "directly for other goods",
+     "as": "প্ৰত্যক্ষভাৱে অন্য সামগ্ৰীৰ বাবে"
+    },
+    {
      "en": "for services only",
      "as": "কেৱল সেৱাৰ বাবে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Barter is the direct exchange of goods.",
     "as": "বিনিময় হৈছে সামগ্ৰীৰ প্ৰত্যক্ষ বিনিময়।"
@@ -6432,12 +6432,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Scarcity of resources",
-     "as": "সম্পদৰ অভাৱ"
-    },
-    {
      "en": "Excess money",
      "as": "অতিরিক্ত মুদ্ৰা"
+    },
+    {
+     "en": "Scarcity of resources",
+     "as": "সম্পদৰ অভাৱ"
     },
     {
      "en": "Too many workers",
@@ -6448,7 +6448,7 @@ module.exports = {
      "as": "বেংকৰ অভাৱ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Scarcity of resources is the central problem.",
     "as": "সম্পদৰ অভাৱেই কেন্দ্ৰীয় সমস্যা।"
@@ -6462,10 +6462,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "falls",
-     "as": "হ্ৰাস পায়"
-    },
-    {
      "en": "rises",
      "as": "বাঢ়ে"
     },
@@ -6476,9 +6472,13 @@ module.exports = {
     {
      "en": "doubles",
      "as": "দুগুণ হয়"
+    },
+    {
+     "en": "falls",
+     "as": "হ্ৰাস পায়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "According to the law of demand, demand falls when price rises.",
     "as": "চাহিদাৰ নিয়ম অনুসৰি মূল্য বঢ়িলে চাহিদা হ্ৰাস পায়।"
@@ -6492,12 +6492,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "rises",
-     "as": "বাঢ়ে"
-    },
-    {
      "en": "falls",
      "as": "হ্ৰাস পায়"
+    },
+    {
+     "en": "rises",
+     "as": "বাঢ়ে"
     },
     {
      "en": "stays the same",
@@ -6508,7 +6508,7 @@ module.exports = {
      "as": "আধা হয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "According to the law of supply, supply rises when price rises.",
     "as": "যোগানৰ নিয়ম অনুসৰি মূল্য বঢ়িলে যোগান বাঢ়ে।"
@@ -6522,12 +6522,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "demand equals supply",
-     "as": "চাহিদা যোগানৰ সমান হয়"
-    },
-    {
      "en": "demand exceeds supply",
      "as": "চাহিদা যোগানতকৈ বেছি"
+    },
+    {
+     "en": "demand equals supply",
+     "as": "চাহিদা যোগানৰ সমান হয়"
     },
     {
      "en": "supply exceeds demand",
@@ -6538,7 +6538,7 @@ module.exports = {
      "as": "চাহিদা নাথাকে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Equilibrium price is where demand equals supply.",
     "as": "ভাৰসাম্য মূল্য হৈছে য'ত চাহিদা যোগানৰ সমান হয়।"
@@ -6552,10 +6552,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "normal goods",
-     "as": "সাধাৰণ সামগ্ৰী"
-    },
-    {
      "en": "inferior goods",
      "as": "নিকৃষ্ট সামগ্ৰী"
     },
@@ -6564,11 +6560,15 @@ module.exports = {
      "as": "গিফেন সামগ্ৰী"
     },
     {
+     "en": "normal goods",
+     "as": "সাধাৰণ সামগ্ৰী"
+    },
+    {
      "en": "public goods",
      "as": "ৰাজহুৱা সামগ্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Normal goods see demand rise with income.",
     "as": "সাধাৰণ সামগ্ৰীৰ চাহিদা আয়ৰ সৈতে বাঢ়ে।"
@@ -6582,10 +6582,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "inferior goods",
-     "as": "নিকৃষ্ট সামগ্ৰী"
-    },
-    {
      "en": "normal goods",
      "as": "সাধাৰণ সামগ্ৰী"
     },
@@ -6596,9 +6592,13 @@ module.exports = {
     {
      "en": "capital goods",
      "as": "মূলধনী সামগ্ৰী"
+    },
+    {
+     "en": "inferior goods",
+     "as": "নিকৃষ্ট সামগ্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Inferior goods see demand fall as income rises.",
     "as": "নিকৃষ্ট সামগ্ৰীৰ চাহিদা আয় বঢ়িলে কমে।"
@@ -6642,10 +6642,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Labour",
-     "as": "শ্ৰম"
-    },
-    {
      "en": "Money",
      "as": "মুদ্ৰা"
     },
@@ -6654,11 +6650,15 @@ module.exports = {
      "as": "মূল্য"
     },
     {
+     "en": "Labour",
+     "as": "শ্ৰম"
+    },
+    {
      "en": "Demand",
      "as": "চাহিদা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Labour is a factor of production.",
     "as": "শ্ৰম উৎপাদনৰ এটা কাৰক।"
@@ -6672,12 +6672,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "factors of production",
-     "as": "উৎপাদনৰ কাৰক"
-    },
-    {
      "en": "factors of demand",
      "as": "চাহিদাৰ কাৰক"
+    },
+    {
+     "en": "factors of production",
+     "as": "উৎপাদনৰ কাৰক"
     },
     {
      "en": "types of money",
@@ -6688,7 +6688,7 @@ module.exports = {
      "as": "কৰৰ ৰূপ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "They are the factors of production.",
     "as": "ইবোৰ উৎপাদনৰ কাৰক।"
@@ -6732,12 +6732,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "wages",
-     "as": "মজুৰি"
-    },
-    {
      "en": "rent",
      "as": "খাজনা"
+    },
+    {
+     "en": "wages",
+     "as": "মজুৰি"
     },
     {
      "en": "interest",
@@ -6748,7 +6748,7 @@ module.exports = {
      "as": "লাভ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The reward for labour is wages.",
     "as": "শ্ৰমৰ পুৰস্কাৰ মজুৰি।"
@@ -6792,12 +6792,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "profit",
-     "as": "লাভ"
-    },
-    {
      "en": "rent",
      "as": "খাজনা"
+    },
+    {
+     "en": "profit",
+     "as": "লাভ"
     },
     {
      "en": "wages",
@@ -6808,7 +6808,7 @@ module.exports = {
      "as": "সুত"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The reward for enterprise is profit.",
     "as": "উদ্যোগৰ পুৰস্কাৰ লাভ।"
@@ -6852,10 +6852,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "oligopoly",
-     "as": "অল্পচেটিয়া"
-    },
-    {
      "en": "monopoly",
      "as": "একচেটিয়া"
     },
@@ -6864,11 +6860,15 @@ module.exports = {
      "as": "পূৰ্ণ প্ৰতিযোগিতা"
     },
     {
+     "en": "oligopoly",
+     "as": "অল্পচেটিয়া"
+    },
+    {
      "en": "monopsony",
      "as": "ক্ৰয় একচেটিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A few large sellers form an oligopoly.",
     "as": "কেইজনমান বৃহৎ বিক্ৰেতাই অল্পচেটিয়া গঠন কৰে।"
@@ -6882,10 +6882,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "perfect competition",
-     "as": "পূৰ্ণ প্ৰতিযোগিতা"
-    },
-    {
      "en": "monopoly",
      "as": "একচেটিয়া"
     },
@@ -6894,11 +6890,15 @@ module.exports = {
      "as": "অল্পচেটিয়া"
     },
     {
+     "en": "perfect competition",
+     "as": "পূৰ্ণ প্ৰতিযোগিতা"
+    },
+    {
      "en": "monopolistic competition",
      "as": "একচেটিয়া প্ৰতিযোগিতা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "This describes perfect competition.",
     "as": "ই পূৰ্ণ প্ৰতিযোগিতা বৰ্ণনা কৰে।"
@@ -6912,10 +6912,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "buyer",
-     "as": "ক্ৰেতা"
-    },
-    {
      "en": "seller",
      "as": "বিক্ৰেতা"
     },
@@ -6924,11 +6920,15 @@ module.exports = {
      "as": "উৎপাদক"
     },
     {
+     "en": "buyer",
+     "as": "ক্ৰেতা"
+    },
+    {
      "en": "worker",
      "as": "শ্ৰমিক"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A monopsony has a single buyer.",
     "as": "ক্ৰয় একচেটিয়াত এজন মাত্ৰ ক্ৰেতা থাকে।"
@@ -6942,12 +6942,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Street lighting",
-     "as": "পথৰ পোহৰ"
-    },
-    {
      "en": "A car",
      "as": "এখন গাড়ী"
+    },
+    {
+     "en": "Street lighting",
+     "as": "পথৰ পোহৰ"
     },
     {
      "en": "A mobile phone",
@@ -6958,7 +6958,7 @@ module.exports = {
      "as": "এখন ঘৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Street lighting is a public good.",
     "as": "পথৰ পোহৰ এটা ৰাজহুৱা সামগ্ৰী।"
@@ -6972,10 +6972,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "non-rival and non-excludable",
-     "as": "অপ্ৰতিদ্বন্দ্বিতামূলক আৰু অপ্ৰত্যাখ্যানযোগ্য"
-    },
-    {
      "en": "rival and excludable",
      "as": "প্ৰতিদ্বন্দ্বিতামূলক আৰু প্ৰত্যাখ্যানযোগ্য"
     },
@@ -6986,9 +6982,13 @@ module.exports = {
     {
      "en": "always free",
      "as": "সদায় বিনামূলীয়া"
+    },
+    {
+     "en": "non-rival and non-excludable",
+     "as": "অপ্ৰতিদ্বন্দ্বিতামূলক আৰু অপ্ৰত্যাখ্যানযোগ্য"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Public goods are non-rival and non-excludable.",
     "as": "ৰাজহুৱা সামগ্ৰী অপ্ৰতিদ্বন্দ্বিতামূলক আৰু অপ্ৰত্যাখ্যানযোগ্য।"
@@ -7002,12 +7002,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Education",
-     "as": "শিক্ষা"
-    },
-    {
      "en": "Cigarettes",
      "as": "চিগাৰেট"
+    },
+    {
+     "en": "Education",
+     "as": "শিক্ষা"
     },
     {
      "en": "Alcohol",
@@ -7018,7 +7018,7 @@ module.exports = {
      "as": "জুৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Education is a merit good.",
     "as": "শিক্ষা এটা গুণসম্পন্ন সামগ্ৰী।"
@@ -7092,10 +7092,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Brundtland Report",
-     "as": "ব্ৰাণ্টলেণ্ড প্ৰতিবেদন"
-    },
-    {
      "en": "Malthus Report",
      "as": "মালথাছ প্ৰতিবেদন"
     },
@@ -7106,9 +7102,13 @@ module.exports = {
     {
      "en": "Adam Smith Report",
      "as": "এডাম স্মিথ প্ৰতিবেদন"
+    },
+    {
+     "en": "Brundtland Report",
+     "as": "ব্ৰাণ্টলেণ্ড প্ৰতিবেদন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Brundtland Report popularised sustainable development.",
     "as": "ব্ৰাণ্টলেণ্ড প্ৰতিবেদনে স্থায়ী উন্নয়ন জনপ্ৰিয় কৰিছিল।"
@@ -7122,10 +7122,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "skills and knowledge of people",
-     "as": "মানুহৰ দক্ষতা আৰু জ্ঞান"
-    },
-    {
      "en": "machines owned",
      "as": "মালিকানাধীন যন্ত্ৰ"
     },
@@ -7134,11 +7130,15 @@ module.exports = {
      "as": "মালিকানাধীন মাটি"
     },
     {
+     "en": "skills and knowledge of people",
+     "as": "মানুহৰ দক্ষতা আৰু জ্ঞান"
+    },
+    {
      "en": "money saved",
      "as": "সঞ্চিত ধন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Human capital refers to the skills and knowledge of people.",
     "as": "মানৱ পুঁজিয়ে মানুহৰ দক্ষতা আৰু জ্ঞানক ইংগিত কৰে।"
@@ -7152,12 +7152,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rise in per capita income",
-     "as": "মাথাপিছু আয়ৰ বৃদ্ধি"
-    },
-    {
      "en": "Rise in prices",
      "as": "মূল্যৰ বৃদ্ধি"
+    },
+    {
+     "en": "Rise in per capita income",
+     "as": "মাথাপিছু আয়ৰ বৃদ্ধি"
     },
     {
      "en": "Rise in unemployment",
@@ -7168,7 +7168,7 @@ module.exports = {
      "as": "সাক্ষৰতাৰ হ্ৰাস"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A rise in per capita income indicates economic development.",
     "as": "মাথাপিছু আয়ৰ বৃদ্ধিয়ে অৰ্থনৈতিক উন্নয়ন সূচায়।"
@@ -7212,12 +7212,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "income inequality",
-     "as": "আয়ৰ অসমতা"
-    },
-    {
      "en": "inflation",
      "as": "মুদ্ৰাস্ফীতি"
+    },
+    {
+     "en": "income inequality",
+     "as": "আয়ৰ অসমতা"
     },
     {
      "en": "unemployment",
@@ -7228,7 +7228,7 @@ module.exports = {
      "as": "বৃদ্ধি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Gini coefficient measures income inequality.",
     "as": "গিনি গুণাংকে আয়ৰ অসমতা জোখে।"
@@ -7242,10 +7242,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "income distribution",
-     "as": "আয়ৰ বিতৰণ"
-    },
-    {
      "en": "price levels",
      "as": "মূল্য স্তৰ"
     },
@@ -7254,11 +7250,15 @@ module.exports = {
      "as": "বেকাৰতাবৃত্তি"
     },
     {
+     "en": "income distribution",
+     "as": "আয়ৰ বিতৰণ"
+    },
+    {
      "en": "foreign trade",
      "as": "বৈদেশিক বাণিজ্য"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Lorenz curve shows income distribution.",
     "as": "লৰেঞ্জ ৰেখাই আয়ৰ বিতৰণ দেখুৱায়।"
@@ -7272,10 +7272,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Per capita income",
-     "as": "মাথাপিছু আয়"
-    },
-    {
      "en": "Trade deficit",
      "as": "বাণিজ্য ঘাটি"
     },
@@ -7286,9 +7282,13 @@ module.exports = {
     {
      "en": "Money supply",
      "as": "মুদ্ৰাৰ যোগান"
+    },
+    {
+     "en": "Per capita income",
+     "as": "মাথাপিছু আয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Per capita income directly measures the standard of living.",
     "as": "মাথাপিছু আয়ে জীৱনযাত্ৰাৰ মানদণ্ড প্ৰত্যক্ষভাৱে জোখে।"
@@ -7302,10 +7302,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "all willing and able persons get work",
-     "as": "সকলো ইচ্ছুক আৰু সক্ষম ব্যক্তিয়ে কাম পায়"
-    },
-    {
      "en": "everyone is employed",
      "as": "সকলোৱে নিয়োজিত"
     },
@@ -7316,9 +7312,13 @@ module.exports = {
     {
      "en": "only officials work",
      "as": "কেৱল বিষয়াসকলে কাম কৰে"
+    },
+    {
+     "en": "all willing and able persons get work",
+     "as": "সকলো ইচ্ছুক আৰু সক্ষম ব্যক্তিয়ে কাম পায়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Full employment means all willing and able persons get work.",
     "as": "পূৰ্ণ নিয়োগ মানে সকলো ইচ্ছুক আৰু সক্ষম ব্যক্তিয়ে কাম পায়।"
@@ -7332,12 +7332,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "downturns in the business cycle",
-     "as": "ব্যৱসায় চক্ৰৰ অৱনতি"
-    },
-    {
      "en": "lack of skills",
      "as": "দক্ষতাৰ অভাৱ"
+    },
+    {
+     "en": "downturns in the business cycle",
+     "as": "ব্যৱসায় চক্ৰৰ অৱনতি"
     },
     {
      "en": "seasonal changes",
@@ -7348,7 +7348,7 @@ module.exports = {
      "as": "প্ৰযুক্তিগত পৰিৱৰ্তন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Cyclical unemployment is caused by business cycle downturns.",
     "as": "চক্ৰীয় বেকাৰতাবৃত্তি ব্যৱসায় চক্ৰৰ অৱনতিৰ বাবে হয়।"
@@ -7392,10 +7392,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Eradicating extreme poverty",
-     "as": "চৰম দৰিদ্ৰতা নিৰ্মূল"
-    },
-    {
      "en": "Building railways",
      "as": "ৰে'লপথ নিৰ্মাণ"
     },
@@ -7406,9 +7402,13 @@ module.exports = {
     {
      "en": "Printing currency",
      "as": "মুদ্ৰা ছপা"
+    },
+    {
+     "en": "Eradicating extreme poverty",
+     "as": "চৰম দৰিদ্ৰতা নিৰ্মূল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Eradicating extreme poverty is a Millennium Development Goal.",
     "as": "চৰম দৰিদ্ৰতা নিৰ্মূল এটা সহস্ৰাব্দ উন্নয়ন লক্ষ্য।"
@@ -7452,12 +7452,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "17",
-     "as": "১৭"
-    },
-    {
      "en": "10",
      "as": "১০"
+    },
+    {
+     "en": "17",
+     "as": "১৭"
     },
     {
      "en": "8",
@@ -7468,7 +7468,7 @@ module.exports = {
      "as": "২০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "There are 17 Sustainable Development Goals.",
     "as": "১৭ টা স্থায়ী উন্নয়ন লক্ষ্য আছে।"
@@ -7482,12 +7482,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "all sections of society",
-     "as": "সমাজৰ সকলো শ্ৰেণী"
-    },
-    {
      "en": "only the rich",
      "as": "কেৱল ধনী"
+    },
+    {
+     "en": "all sections of society",
+     "as": "সমাজৰ সকলো শ্ৰেণী"
     },
     {
      "en": "only the poor",
@@ -7498,7 +7498,7 @@ module.exports = {
      "as": "কেৱল চহৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Inclusive growth benefits all sections of society.",
     "as": "অন্তৰ্ভুক্তিমূলক বৃদ্ধি সমাজৰ সকলো শ্ৰেণীক উপকাৰ কৰে।"
@@ -7512,10 +7512,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Prime Minister",
-     "as": "প্ৰধানমন্ত্ৰী"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -7526,9 +7522,13 @@ module.exports = {
     {
      "en": "RBI Governor",
      "as": "আৰবিআই গৱৰ্ণৰ"
+    },
+    {
+     "en": "Prime Minister",
+     "as": "প্ৰধানমন্ত্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Prime Minister chaired the Planning Commission.",
     "as": "প্ৰধানমন্ত্ৰীয়ে পৰিকল্পনা আয়োগৰ অধ্যক্ষতা কৰিছিল।"
@@ -7572,10 +7572,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Fifth Plan",
-     "as": "পঞ্চম পৰিকল্পনা"
-    },
-    {
      "en": "Fourth Plan",
      "as": "চতুৰ্থ পৰিকল্পনা"
     },
@@ -7586,9 +7582,13 @@ module.exports = {
     {
      "en": "Third Plan",
      "as": "তৃতীয় পৰিকল্পনা"
+    },
+    {
+     "en": "Fifth Plan",
+     "as": "পঞ্চম পৰিকল্পনা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Fifth Plan was terminated one year early in 1978.",
     "as": "পঞ্চম পৰিকল্পনা ১৯৭৮ চনত এবছৰ আগতে সমাপ্ত কৰা হৈছিল।"
@@ -7632,10 +7632,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jawaharlal Nehru",
-     "as": "জৱাহৰলাল নেহৰু"
-    },
-    {
      "en": "Rajiv Gandhi",
      "as": "ৰাজীৱ গান্ধী"
     },
@@ -7644,11 +7640,15 @@ module.exports = {
      "as": "ইন্দিৰা গান্ধী"
     },
     {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
      "en": "Morarji Desai",
      "as": "মোৰাৰজী দেশাই"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Jawaharlal Nehru presented the budget in 1958.",
     "as": "জৱাহৰলাল নেহৰুৱে ১৯৫৮ চনত বাজেট উপস্থাপন কৰিছিল।"
@@ -7662,10 +7662,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Morarji Desai",
-     "as": "মোৰাৰজী দেশাই"
-    },
-    {
      "en": "Manmohan Singh",
      "as": "মনমোহন সিং"
     },
@@ -7674,11 +7670,15 @@ module.exports = {
      "as": "প্ৰণৱ মুখাৰ্জী"
     },
     {
+     "en": "Morarji Desai",
+     "as": "মোৰাৰজী দেশাই"
+    },
+    {
      "en": "Yashwant Sinha",
      "as": "যশৱন্ত সিনহা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Morarji Desai presented the most Union Budgets.",
     "as": "মোৰাৰজী দেশাইৱে সৰ্বাধিকসংখ্যক সংঘ বাজেট উপস্থাপন কৰিছিল।"
@@ -7692,10 +7692,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2017",
-     "as": "২০১৭"
-    },
-    {
      "en": "2015",
      "as": "২০১৫"
     },
@@ -7704,11 +7700,15 @@ module.exports = {
      "as": "২০১৬"
     },
     {
+     "en": "2017",
+     "as": "২০১৭"
+    },
+    {
      "en": "2018",
      "as": "২০১৮"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Railway Budget was merged with the Union Budget in 2017.",
     "as": "ৰে'ল বাজেট ২০১৭ চনত সংঘ বাজেটৰ সৈতে একত্ৰিত কৰা হৈছিল।"
@@ -7722,10 +7722,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1966-1969",
-     "as": "১৯৬৬-১৯৬৯"
-    },
-    {
      "en": "1962-1965",
      "as": "১৯৬২-১৯৬৫"
     },
@@ -7734,11 +7730,15 @@ module.exports = {
      "as": "১৯৭৮-১৯৮০"
     },
     {
+     "en": "1966-1969",
+     "as": "১৯৬৬-১৯৬৯"
+    },
+    {
      "en": "1990-1992",
      "as": "১৯৯০-১৯৯২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The plan holiday occurred during 1966–1969.",
     "as": "পৰিকল্পনা বিৰতি ১৯৬৬–১৯৬৯ চনত ঘটিছিল।"
@@ -7752,10 +7752,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Oil and Natural Gas Corporation",
-     "as": "অয়েল এণ্ড নেচাৰেল গেছ কৰ্পোৰেশ্যন"
-    },
-    {
      "en": "Indian Railways",
      "as": "ভাৰতীয় ৰে'লপথ"
     },
@@ -7766,9 +7762,13 @@ module.exports = {
     {
      "en": "Reserve Bank of India",
      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+    },
+    {
+     "en": "Oil and Natural Gas Corporation",
+     "as": "অয়েল এণ্ড নেচাৰেল গেছ কৰ্পোৰেশ্যন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "ONGC is a Navratna public sector enterprise.",
     "as": "ONGC এটা নৱৰত্ন ৰাজহুৱা খণ্ডৰ উদ্যোগ।"
@@ -7812,10 +7812,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "public sector enterprises",
-     "as": "ৰাজহুৱা খণ্ডৰ উদ্যোগ"
-    },
-    {
      "en": "private banks",
      "as": "ব্যক্তিগত বেংক"
     },
@@ -7824,11 +7820,15 @@ module.exports = {
      "as": "সহকাৰী সমিতি"
     },
     {
+     "en": "public sector enterprises",
+     "as": "ৰাজহুৱা খণ্ডৰ উদ্যোগ"
+    },
+    {
      "en": "foreign firms",
      "as": "বিদেশী প্ৰতিষ্ঠান"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Navratna status is given to select PSUs.",
     "as": "নৱৰত্ন মৰ্যাদা বাছনি কৰা ৰাজহুৱা খণ্ডৰ উদ্যোগক দিয়া হয়।"
@@ -7842,10 +7842,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "highest civilian award",
-     "as": "সৰ্বোচ্চ অসামৰিক বঁটা"
-    },
-    {
      "en": "highest military award",
      "as": "সৰ্বোচ্চ সামৰিক বঁটা"
     },
@@ -7856,9 +7852,13 @@ module.exports = {
     {
      "en": "highest sports award",
      "as": "সৰ্বোচ্চ ক্ৰীড়া বঁটা"
+    },
+    {
+     "en": "highest civilian award",
+     "as": "সৰ্বোচ্চ অসামৰিক বঁটা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Bharat Ratna is India's highest civilian award.",
     "as": "ভাৰত ৰত্ন ভাৰতৰ সৰ্বোচ্চ অসামৰিক বঁটা।"
@@ -7872,10 +7872,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rajasthan",
-     "as": "ৰাজস্থান"
-    },
-    {
      "en": "Madhya Pradesh",
      "as": "মধ্য প্ৰদেশ"
     },
@@ -7886,9 +7882,13 @@ module.exports = {
     {
      "en": "Uttar Pradesh",
      "as": "উত্তৰ প্ৰদেশ"
+    },
+    {
+     "en": "Rajasthan",
+     "as": "ৰাজস্থান"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Rajasthan is the largest State by area.",
     "as": "ৰাজস্থান মাটিকালিৰ ভিত্তিত সৰ্ববৃহৎ ৰাজ্য।"
@@ -7902,10 +7902,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Uttar Pradesh",
-     "as": "উত্তৰ প্ৰদেশ"
-    },
-    {
      "en": "Maharashtra",
      "as": "মহাৰাষ্ট্ৰ"
     },
@@ -7914,11 +7910,15 @@ module.exports = {
      "as": "বিহাৰ"
     },
     {
+     "en": "Uttar Pradesh",
+     "as": "উত্তৰ প্ৰদেশ"
+    },
+    {
      "en": "West Bengal",
      "as": "পশ্চিমবঙ্গ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Uttar Pradesh has the highest population.",
     "as": "উত্তৰ প্ৰদেশত জনসংখ্যা সৰ্বাধিক।"
@@ -7932,10 +7932,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kerala",
-     "as": "কেৰালা"
-    },
-    {
      "en": "Goa",
      "as": "গোৱা"
     },
@@ -7944,11 +7940,15 @@ module.exports = {
      "as": "মিজোৰাম"
     },
     {
+     "en": "Kerala",
+     "as": "কেৰালা"
+    },
+    {
      "en": "Tripura",
      "as": "ত্ৰিপুৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Kerala is the most literate State of India.",
     "as": "কেৰালা ভাৰতৰ সৰ্বাধিক সাক্ষৰ ৰাজ্য।"
@@ -7962,10 +7962,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "72 percent",
-     "as": "৭২ শতাংশ"
-    },
-    {
      "en": "90 percent",
      "as": "৯০ শতাংশ"
     },
@@ -7976,9 +7972,13 @@ module.exports = {
     {
      "en": "95 percent",
      "as": "৯৫ শতাংশ"
+    },
+    {
+     "en": "72 percent",
+     "as": "৭২ শতাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Assam's literacy rate is around 72 percent.",
     "as": "অসমৰ সাক্ষৰতাৰ হাৰ প্ৰায় ৭২ শতাংশ।"
@@ -8022,10 +8022,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "labour and revenue organisation",
-     "as": "শ্ৰম আৰু ৰাজহ সংগঠন"
-    },
-    {
      "en": "military only",
      "as": "কেৱল সামৰিক"
     },
@@ -8036,9 +8032,13 @@ module.exports = {
     {
      "en": "religion only",
      "as": "কেৱল ধৰ্ম"
+    },
+    {
+     "en": "labour and revenue organisation",
+     "as": "শ্ৰম আৰু ৰাজহ সংগঠন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The paik system organised labour and revenue.",
     "as": "পাইক প্ৰণালীয়ে শ্ৰম আৰু ৰাজহ সংগঠিত কৰিছিল।"
@@ -8052,10 +8052,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Brahmaputra valley route",
-     "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ পথ"
-    },
-    {
      "en": "Silk Road only",
      "as": "কেৱল চিল্ক ৰ'ড"
     },
@@ -8064,11 +8060,15 @@ module.exports = {
      "as": "গ্ৰেণ্ড ট্ৰাংক ৰ'ড"
     },
     {
+     "en": "Brahmaputra valley route",
+     "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ পথ"
+    },
+    {
      "en": "Maritime route only",
      "as": "কেৱল সাগৰীয় পথ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Brahmaputra valley route was the main trade route.",
     "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ পথ মূল বাণিজ্য পথ আছিল।"
@@ -8082,12 +8082,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Silk and tea",
-     "as": "পাট আৰু চাহ"
-    },
-    {
      "en": "Gold",
      "as": "সোণ"
+    },
+    {
+     "en": "Silk and tea",
+     "as": "পাট আৰু চাহ"
     },
     {
      "en": "Diamonds",
@@ -8098,7 +8098,7 @@ module.exports = {
      "as": "লোহা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Silk and tea were famous exports.",
     "as": "পাট আৰু চাহ বিখ্যাত ৰপ্তানি আছিল।"
@@ -8112,10 +8112,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Central Asia and China",
-     "as": "মধ্য এছিয়া আৰু চীন"
-    },
-    {
      "en": "Africa only",
      "as": "কেৱল আফ্ৰিকা"
     },
@@ -8124,11 +8120,15 @@ module.exports = {
      "as": "আমেৰিকা"
     },
     {
+     "en": "Central Asia and China",
+     "as": "মধ্য এছিয়া আৰু চীন"
+    },
+    {
      "en": "Australia",
      "as": "অষ্ট্ৰেলিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Silk Route connected India with Central Asia and China.",
     "as": "চিল্ক ৰ'ডে ভাৰতক মধ্য এছিয়া আৰু চীনৰ সৈতে সংযোগ কৰিছিল।"
@@ -8142,10 +8142,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "State Bank of India",
-     "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া"
-    },
-    {
      "en": "Assam Cooperative Apex Bank",
      "as": "অসম সহকাৰী এপেক্স বেংক"
     },
@@ -8156,9 +8152,13 @@ module.exports = {
     {
      "en": "HDFC Bank",
      "as": "এইচডিএফচি বেংক"
+    },
+    {
+     "en": "State Bank of India",
+     "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The State Bank of India is the main public sector commercial bank.",
     "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া মূল ৰাজহুৱা খণ্ডৰ বাণিজ্যিক বেংক।"
@@ -8172,10 +8172,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "cooperative sector",
-     "as": "সহকাৰী খণ্ড"
-    },
-    {
      "en": "foreign sector",
      "as": "বিদেশী খণ্ড"
     },
@@ -8186,9 +8182,13 @@ module.exports = {
     {
      "en": "judiciary",
      "as": "ন্যায়পালিকা"
+    },
+    {
+     "en": "cooperative sector",
+     "as": "সহকাৰী খণ্ড"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It serves the cooperative sector.",
     "as": "ই সহকাৰী খণ্ডক সেৱা আগবঢ়ায়।"
@@ -8232,10 +8232,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
-     "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা"
-    },
-    {
      "en": "PMJDY",
      "as": "পিএমজেডিৱাই"
     },
@@ -8246,9 +8242,13 @@ module.exports = {
     {
      "en": "GST",
      "as": "জিএছটি"
+    },
+    {
+     "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+     "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "PMJJBY provides life insurance.",
     "as": "পিএমজেজেবিৱাইয়ে জীৱন বীমা প্ৰদান কৰে।"
@@ -8262,10 +8262,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pradhan Mantri Ujjwala Yojana",
-     "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা"
-    },
-    {
      "en": "PMJDY",
      "as": "পিএমজেডিৱাই"
     },
@@ -8276,9 +8272,13 @@ module.exports = {
     {
      "en": "GST",
      "as": "জিএছটি"
+    },
+    {
+     "en": "Pradhan Mantri Ujjwala Yojana",
+     "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "PM Ujjwala Yojana provides cooking gas connections.",
     "as": "পিএম উজ্জ্বলা যোজনাই ৰন্ধন গেছ সংযোগ প্ৰদান কৰে।"
@@ -8292,12 +8292,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Saubhagya Yojana",
-     "as": "সৌভাগ্য যোজনা"
-    },
-    {
      "en": "PMJDY",
      "as": "পিএমজেডিৱাই"
+    },
+    {
+     "en": "Saubhagya Yojana",
+     "as": "সৌভাগ্য যোজনা"
     },
     {
      "en": "MGNREGA",
@@ -8308,7 +8308,7 @@ module.exports = {
      "as": "উজ্জ্বলা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Saubhagya Yojana provides free electricity connections.",
     "as": "সৌভাগ্য যোজনাই বিনামূলীয়া বিদ্যুৎ সংযোগ প্ৰদান কৰে।"
@@ -8352,12 +8352,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "crop insurance",
-     "as": "শস্য বীমা"
-    },
-    {
      "en": "life insurance",
      "as": "জীৱন বীমা"
+    },
+    {
+     "en": "crop insurance",
+     "as": "শস্য বীমা"
     },
     {
      "en": "vehicle insurance",
@@ -8368,7 +8368,7 @@ module.exports = {
      "as": "স্বাস্থ্য বীমা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It is a crop insurance scheme.",
     "as": "ই এটা শস্য বীমা আঁচনি।"
@@ -8412,10 +8412,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "self-reliant India",
-     "as": "আত্মনিৰ্ভৰ ভাৰত"
-    },
-    {
      "en": "closed India",
      "as": "বন্ধ ভাৰত"
     },
@@ -8426,9 +8422,13 @@ module.exports = {
     {
      "en": "urban India",
      "as": "চহৰীয়া ভাৰত"
+    },
+    {
+     "en": "self-reliant India",
+     "as": "আত্মনিৰ্ভৰ ভাৰত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Atmanirbhar Bharat means a self-reliant India.",
     "as": "আত্মনিৰ্ভৰ ভাৰত মানে স্বাৱলম্বী ভাৰত।"
@@ -8442,12 +8442,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Service and informal sectors",
-     "as": "সেৱা আৰু অনানুষ্ঠানিক খণ্ড"
-    },
-    {
      "en": "Agriculture",
      "as": "কৃষি"
+    },
+    {
+     "en": "Service and informal sectors",
+     "as": "সেৱা আৰু অনানুষ্ঠানিক খণ্ড"
     },
     {
      "en": "Mining",
@@ -8458,7 +8458,7 @@ module.exports = {
      "as": "বনাঞ্চল"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The service and informal sectors were most affected.",
     "as": "সেৱা আৰু অনানুষ্ঠানিক খণ্ডত আটাইতকৈ বেছি প্ৰভাৱ পৰিছিল।"
@@ -8502,10 +8502,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bengaluru",
-     "as": "বেংগালুৰু"
-    },
-    {
      "en": "Hyderabad",
      "as": "হায়দৰাবাদ"
     },
@@ -8514,11 +8510,15 @@ module.exports = {
      "as": "পুনে"
     },
     {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    },
+    {
      "en": "Chennai",
      "as": "চেন্নাই"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Bengaluru is known as the Silicon Valley of India.",
     "as": "বেংগালুৰুক ভাৰতৰ চিলিকন ভেলী বুলি জনা যায়।"
@@ -8592,12 +8592,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Mumbai",
-     "as": "মুম্বাই"
-    },
-    {
      "en": "New Delhi",
      "as": "নতুন দিল্লী"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
     },
     {
      "en": "Chennai",
@@ -8608,7 +8608,7 @@ module.exports = {
      "as": "হায়দৰাবাদ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The NSE is located in Mumbai.",
     "as": "এনএছই মুম্বাইত অৱস্থিত।"
@@ -8622,12 +8622,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bombay Stock Exchange",
-     "as": "বম্বে ষ্টক এক্সচেঞ্জ"
-    },
-    {
      "en": "National Stock Exchange",
      "as": "ৰাষ্ট্ৰীয় ষ্টক এক্সচেঞ্জ"
+    },
+    {
+     "en": "Bombay Stock Exchange",
+     "as": "বম্বে ষ্টক এক্সচেঞ্জ"
     },
     {
      "en": "Reserve Bank of India",
@@ -8638,7 +8638,7 @@ module.exports = {
      "as": "ছেবি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Sensex is the index of the BSE.",
     "as": "চেনচেক্স বিএছইৰ সূচক।"
@@ -8682,10 +8682,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Consumer Price Index",
-     "as": "উপভোক্তা মূল্য সূচক"
-    },
-    {
      "en": "Sensex",
      "as": "চেনচেক্স"
     },
@@ -8694,11 +8690,15 @@ module.exports = {
      "as": "ৰেপ' হাৰ"
     },
     {
+     "en": "Consumer Price Index",
+     "as": "উপভোক্তা মূল্য সূচক"
+    },
+    {
      "en": "Exchange rate",
      "as": "বিনিময় হাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "CPI is used to measure inflation in India.",
     "as": "ভাৰতত মুদ্ৰাস্ফীতি জোখিবলৈ CPI ব্যৱহাৰ কৰা হয়।"
@@ -8712,10 +8712,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "purchasing power of money",
-     "as": "মুদ্ৰাৰ ক্ৰয় ক্ষমতা"
-    },
-    {
      "en": "supply of money",
      "as": "মুদ্ৰাৰ যোগান"
     },
@@ -8726,9 +8722,13 @@ module.exports = {
     {
      "en": "value of exports",
      "as": "ৰপ্তানিৰ মূল্য"
+    },
+    {
+     "en": "purchasing power of money",
+     "as": "মুদ্ৰাৰ ক্ৰয় ক্ষমতা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "High inflation reduces the purchasing power of money.",
     "as": "উচ্চ মুদ্ৰাস্ফীতি মুদ্ৰাৰ ক্ৰয় ক্ষমতা হ্ৰাস কৰে।"
@@ -8772,10 +8772,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "black money",
-     "as": "ক'লা ধন"
-    },
-    {
      "en": "inflation",
      "as": "মুদ্ৰাস্ফীতি"
     },
@@ -8784,11 +8780,15 @@ module.exports = {
      "as": "বেকাৰতাবৃত্তি"
     },
     {
+     "en": "black money",
+     "as": "ক'লা ধন"
+    },
+    {
      "en": "exports",
      "as": "ৰপ্তানি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Demonetisation aimed to curb black money.",
     "as": "নোট বাতিলৰ লক্ষ্য ক'লা ধন দমন কৰা আছিল।"
@@ -8832,10 +8832,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Income tax",
-     "as": "আয়কৰ"
-    },
-    {
      "en": "GST",
      "as": "জিএছটি"
     },
@@ -8846,9 +8842,13 @@ module.exports = {
     {
      "en": "Excise duty",
      "as": "আবকাৰী শুল্ক"
+    },
+    {
+     "en": "Income tax",
+     "as": "আয়কৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Income tax is a progressive tax as the rate rises with income.",
     "as": "আয়কৰ এটা প্ৰগতিশীল কৰ কাৰণ আয়ৰ সৈতে হাৰ বাঢ়ে।"
@@ -8862,12 +8862,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A flat tax on goods",
-     "as": "সামগ্ৰীৰ ওপৰত এক সমান কৰ"
-    },
-    {
      "en": "Income tax",
      "as": "আয়কৰ"
+    },
+    {
+     "en": "A flat tax on goods",
+     "as": "সামগ্ৰীৰ ওপৰত এক সমান কৰ"
     },
     {
      "en": "Corporate tax",
@@ -8878,7 +8878,7 @@ module.exports = {
      "as": "সম্পত্তি কৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A flat tax on goods is regressive as it hits the poor harder.",
     "as": "সামগ্ৰীৰ ওপৰত এক সমান কৰ প্ৰতিক্ৰমী কাৰণ ই দৰিদ্ৰক বেছি প্ৰভাৱিত কৰে।"
@@ -8892,10 +8892,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "5 years",
-     "as": "৫ বছৰ"
-    },
-    {
      "en": "3 years",
      "as": "৩ বছৰ"
     },
@@ -8904,11 +8900,15 @@ module.exports = {
      "as": "৪ বছৰ"
     },
     {
+     "en": "5 years",
+     "as": "৫ বছৰ"
+    },
+    {
      "en": "10 years",
      "as": "১০ বছৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Finance Commission is constituted every five years.",
     "as": "বিত্ত আয়োগ প্ৰতি পাঁচ বছৰত গঠন কৰা হয়।"
@@ -8922,10 +8922,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "tax revenues between the Union and States",
-     "as": "সংঘ আৰু ৰাজ্যৰ মাজত কৰ ৰাজহ"
-    },
-    {
      "en": "seats in Parliament",
      "as": "সংসদত আসন"
     },
@@ -8936,9 +8932,13 @@ module.exports = {
     {
      "en": "land",
      "as": "মাটি"
+    },
+    {
+     "en": "tax revenues between the Union and States",
+     "as": "সংঘ আৰু ৰাজ্যৰ মাজত কৰ ৰাজহ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It recommends the distribution of tax revenues.",
     "as": "ই কৰ ৰাজহৰ বিতৰণৰ পৰামৰ্শ দিয়ে।"
@@ -8952,10 +8952,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 280",
-     "as": "অনুচ্ছেদ ২৮০"
-    },
-    {
      "en": "Article 243I",
      "as": "অনুচ্ছেদ 243I"
     },
@@ -8966,9 +8962,13 @@ module.exports = {
     {
      "en": "Article 324",
      "as": "অনুচ্ছেদ ৩২৪"
+    },
+    {
+     "en": "Article 280",
+     "as": "অনুচ্ছেদ ২৮০"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Article 280 provides for the Finance Commission.",
     "as": "অনুচ্ছেদ ২৮০ বিত্ত আয়োগৰ ব্যৱস্থা কৰে।"
@@ -8982,10 +8982,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dividends from public sector enterprises",
-     "as": "ৰাজহুৱা খণ্ডৰ উদ্যোগৰ পৰা লভ্যাংশ"
-    },
-    {
      "en": "Fees",
      "as": "শুল্ক"
     },
@@ -8996,9 +8992,13 @@ module.exports = {
     {
      "en": "Grants",
      "as": "অনুদান"
+    },
+    {
+     "en": "Dividends from public sector enterprises",
+     "as": "ৰাজহুৱা খণ্ডৰ উদ্যোগৰ পৰা লভ্যাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Dividends from PSUs are a large non-tax revenue source.",
     "as": "ৰাজহুৱা খণ্ডৰ উদ্যোগৰ লভ্যাংশ এটা বৃহৎ অ-কৰ আয়ৰ উৎস।"
@@ -9012,12 +9012,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Borrowings",
-     "as": "ঋণ"
-    },
-    {
      "en": "Income tax",
      "as": "আয়কৰ"
+    },
+    {
+     "en": "Borrowings",
+     "as": "ঋণ"
     },
     {
      "en": "GST",
@@ -9028,7 +9028,7 @@ module.exports = {
      "as": "শুল্ক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Borrowings are capital receipts.",
     "as": "ঋণ মূলধনী প্ৰাপ্তি।"
@@ -9072,10 +9072,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Parliament",
-     "as": "সংসদ"
-    },
-    {
      "en": "President",
      "as": "ৰাষ্ট্ৰপতি"
     },
@@ -9084,11 +9080,15 @@ module.exports = {
      "as": "আৰবিআই"
     },
     {
+     "en": "Parliament",
+     "as": "সংসদ"
+    },
+    {
      "en": "Supreme Court",
      "as": "সৰ্বোচ্চ ন্যায়ালয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Parliament's approval is needed to withdraw from the Consolidated Fund.",
     "as": "সংহত নিধিৰ পৰা ধন উলিয়াবলৈ সংসদৰ অনুমোদন প্ৰয়োজন।"
@@ -9102,12 +9102,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "President",
-     "as": "ৰাষ্ট্ৰপতি"
-    },
-    {
      "en": "Prime Minister",
      "as": "প্ৰধানমন্ত্ৰী"
+    },
+    {
+     "en": "President",
+     "as": "ৰাষ্ট্ৰপতি"
     },
     {
      "en": "Finance Minister",
@@ -9118,7 +9118,7 @@ module.exports = {
      "as": "আৰবিআই"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Contingency Fund is at the disposal of the President.",
     "as": "আপদকালীন নিধি ৰাষ্ট্ৰপতিৰ অধীনত ৰখা হয়।"
@@ -9132,10 +9132,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "meet expenses until the budget is passed",
-     "as": "বাজেট পাছ নোহোৱালৈকে ব্যয় মেটাবলৈ"
-    },
-    {
      "en": "increase taxes",
      "as": "কৰ বঢ়াবলৈ"
     },
@@ -9146,9 +9142,13 @@ module.exports = {
     {
      "en": "dissolve Parliament",
      "as": "সংসদ ভংগ কৰিবলৈ"
+    },
+    {
+     "en": "meet expenses until the budget is passed",
+     "as": "বাজেট পাছ নোহোৱালৈকে ব্যয় মেটাবলৈ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A Vote on Account meets expenses until the budget is passed.",
     "as": "ভোট অন একাউণ্টে বাজেট পাছ নোহোৱালৈকে ব্যয় মেটায়।"
@@ -9162,12 +9162,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Building a new road",
-     "as": "নতুন পথ নিৰ্মাণ"
-    },
-    {
      "en": "Paying salaries",
      "as": "দৰমহা পৰিশোধ"
+    },
+    {
+     "en": "Building a new road",
+     "as": "নতুন পথ নিৰ্মাণ"
     },
     {
      "en": "Paying interest",
@@ -9178,7 +9178,7 @@ module.exports = {
      "as": "ভৰতুক পৰিশোধ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Building a new road is capital expenditure.",
     "as": "নতুন পথ নিৰ্মাণ মূলধনী ব্যয়।"
@@ -9222,10 +9222,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Four main slabs",
-     "as": "চাৰিটা মূল স্তৰ"
-    },
-    {
      "en": "Two main slabs",
      "as": "দুটা মূল স্তৰ"
     },
@@ -9234,11 +9230,15 @@ module.exports = {
      "as": "এটা স্তৰ"
     },
     {
+     "en": "Four main slabs",
+     "as": "চাৰিটা মূল স্তৰ"
+    },
+    {
      "en": "Ten slabs",
      "as": "দহটা স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "GST has four main slabs: 5, 12, 18 and 28 percent.",
     "as": "জিএছটিত চাৰিটা মূল স্তৰ: ৫, ১২, ১৮ আৰু ২৮ শতাংশ।"
@@ -9252,12 +9252,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Fresh fruits and vegetables",
-     "as": "সতেজ ফল আৰু পাচলি"
-    },
-    {
      "en": "Restaurant meals",
      "as": "ৰেস্তোৰাঁৰ আহাৰ"
+    },
+    {
+     "en": "Fresh fruits and vegetables",
+     "as": "সতেজ ফল আৰু পাচলি"
     },
     {
      "en": "Mobile phones",
@@ -9268,7 +9268,7 @@ module.exports = {
      "as": "গাড়ী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Fresh fruits and vegetables are largely exempt from GST.",
     "as": "সতেজ ফল আৰু পাচলি মূলতঃ জিএছটিৰ পৰা ৰেহাই।"
@@ -9282,12 +9282,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "28 percent",
-     "as": "২৮ শতাংশ"
-    },
-    {
      "en": "18 percent",
      "as": "১৮ শতাংশ"
+    },
+    {
+     "en": "28 percent",
+     "as": "২৮ শতাংশ"
     },
     {
      "en": "12 percent",
@@ -9298,7 +9298,7 @@ module.exports = {
      "as": "৫ শতাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The highest GST slab is 28 percent.",
     "as": "সৰ্বোচ্চ জিএছটি স্তৰ ২৮ শতাংশ।"
@@ -9312,12 +9312,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the IT backbone of GST",
-     "as": "জিএছটিৰ আইটি মেৰুদণ্ড"
-    },
-    {
      "en": "collecting income tax",
      "as": "আয়কৰ সংগ্ৰহ"
+    },
+    {
+     "en": "the IT backbone of GST",
+     "as": "জিএছটিৰ আইটি মেৰুদণ্ড"
     },
     {
      "en": "printing currency",
@@ -9328,7 +9328,7 @@ module.exports = {
      "as": "বেংক নিয়ন্ত্ৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "GSTN is the IT backbone of GST.",
     "as": "জিএছটিএন জিএছটিৰ আইটি মেৰুদণ্ড।"
@@ -9342,10 +9342,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "keeps government revenue unchanged",
-     "as": "চৰকাৰী ৰাজহ অপৰিৱৰ্তিত ৰাখে"
-    },
-    {
      "en": "reduces revenue",
      "as": "ৰাজহ হ্ৰাস কৰে"
     },
@@ -9354,11 +9350,15 @@ module.exports = {
      "as": "ৰাজহ বৃদ্ধি কৰে"
     },
     {
+     "en": "keeps government revenue unchanged",
+     "as": "চৰকাৰী ৰাজহ অপৰিৱৰ্তিত ৰাখে"
+    },
+    {
      "en": "removes all taxes",
      "as": "সকলো কৰ আঁতৰায়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A revenue-neutral rate keeps government revenue unchanged.",
     "as": "ৰাজহ-নিপেক্ষ হাৰে চৰকাৰী ৰাজহ অপৰিৱৰ্তিত ৰাখে।"
@@ -9372,12 +9372,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Low per capita income",
-     "as": "নিম্ন মাথাপিছু আয়"
-    },
-    {
      "en": "High per capita income",
      "as": "উচ্চ মাথাপিছু আয়"
+    },
+    {
+     "en": "Low per capita income",
+     "as": "নিম্ন মাথাপিছু আয়"
     },
     {
      "en": "Full employment",
@@ -9388,7 +9388,7 @@ module.exports = {
      "as": "শূন্য দৰিদ্ৰতা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Low per capita income is a feature of a developing economy.",
     "as": "নিম্ন মাথাপিছু আয় উন্নয়নশীল অৰ্থনীতিৰ এটা বৈশিষ্ট্য।"
@@ -9402,10 +9402,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Unequal distribution of income",
-     "as": "আয়ৰ অসম বিতৰণ"
-    },
-    {
      "en": "Equal distribution of income",
      "as": "আয়ৰ সমান বিতৰণ"
     },
@@ -9414,11 +9410,15 @@ module.exports = {
      "as": "শূন্য বেকাৰতাবৃত্তি"
     },
     {
+     "en": "Unequal distribution of income",
+     "as": "আয়ৰ অসম বিতৰণ"
+    },
+    {
      "en": "No agriculture",
      "as": "কৃষি নাই"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Unequal income distribution is a characteristic of the Indian economy.",
     "as": "আয়ৰ অসম বিতৰণ ভাৰতীয় অৰ্থনীতিৰ এটা বৈশিষ্ট্য।"
@@ -9432,10 +9432,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "large young working population",
-     "as": "বৃহৎ যুৱ কৰ্মশক্তিসম্পন্ন জনসংখ্যা"
-    },
-    {
      "en": "small population",
      "as": "ক্ষুদ্ৰ জনসংখ্যা"
     },
@@ -9446,9 +9442,13 @@ module.exports = {
     {
      "en": "urban population",
      "as": "চহৰীয়া জনসংখ্যা"
+    },
+    {
+     "en": "large young working population",
+     "as": "বৃহৎ যুৱ কৰ্মশক্তিসম্পন্ন জনসংখ্যা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The demographic dividend is the advantage of a large young workforce.",
     "as": "জনসংখ্যাগত লভ্যাংশ হৈছে বৃহৎ যুৱ কৰ্মশক্তিৰ সুবিধা।"
@@ -9552,12 +9552,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1971",
-     "as": "১৯৭১"
-    },
-    {
      "en": "1965",
      "as": "১৯৬৫"
+    },
+    {
+     "en": "1971",
+     "as": "১৯৭১"
     },
     {
      "en": "1980",
@@ -9568,7 +9568,7 @@ module.exports = {
      "as": "১৯৯০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The North Eastern Council was set up in 1971.",
     "as": "উত্তৰ-পূব পৰিষদ ১৯৭১ চনত গঠন কৰা হৈছিল।"
@@ -9582,10 +9582,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Arunachal Pradesh",
-     "as": "অৰুণাচল প্ৰদেশ"
-    },
-    {
      "en": "Assam",
      "as": "অসম"
     },
@@ -9596,9 +9592,13 @@ module.exports = {
     {
      "en": "Nagaland",
      "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Arunachal Pradesh is the largest State in the North East by area.",
     "as": "অৰুণাচল প্ৰদেশ মাটিকালিৰ ভিত্তিত উত্তৰ-পূবৰ সৰ্ববৃহৎ ৰাজ্য।"
@@ -9612,12 +9612,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
      "en": "Arunachal Pradesh",
      "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
     },
     {
      "en": "Manipur",
@@ -9628,7 +9628,7 @@ module.exports = {
      "as": "মেঘালয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Assam has the largest population in the North East.",
     "as": "উত্তৰ-পূবত অসমৰ জনসংখ্যা সৰ্বাধিক।"
@@ -9642,10 +9642,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Agriculture and allied activities",
-     "as": "কৃষি আৰু সম্পৰ্কিত কাৰ্যকলাপ"
-    },
-    {
      "en": "Mining only",
      "as": "কেৱল খনন"
     },
@@ -9656,9 +9652,13 @@ module.exports = {
     {
      "en": "Shipping",
      "as": "জাহাজ চলাচল"
+    },
+    {
+     "en": "Agriculture and allied activities",
+     "as": "কৃষি আৰু সম্পৰ্কিত কাৰ্যকলাপ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Agriculture and allied activities are the main livelihood source.",
     "as": "কৃষি আৰু সম্পৰ্কিত কাৰ্যকলাপ জীৱিকাৰ মূল উৎস।"
@@ -9672,10 +9672,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Poor connectivity",
-     "as": "দুৰ্বল সংযোগ"
-    },
-    {
      "en": "Excess rainfall only",
      "as": "কেৱল অত্যধিক বৰষুণ"
     },
@@ -9684,11 +9680,15 @@ module.exports = {
      "as": "অতিরিক্ত উদ্যোগ"
     },
     {
+     "en": "Poor connectivity",
+     "as": "দুৰ্বল সংযোগ"
+    },
+    {
      "en": "High population density",
      "as": "উচ্চ জনঘনত্ব"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Poor connectivity is a major challenge.",
     "as": "দুৰ্বল সংযোগ এটা প্ৰধান প্ৰত্যাহ্বান।"
@@ -9702,10 +9702,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tocklai Experimental Station",
-     "as": "টকলাই পৰীক্ষামূলক কেন্দ্ৰ"
-    },
-    {
      "en": "Assam Agricultural University",
      "as": "অসম কৃষি বিশ্ববিদ্যালয়"
     },
@@ -9714,11 +9710,15 @@ module.exports = {
      "as": "আইআইটি গুৱাহাটী"
     },
     {
+     "en": "Tocklai Experimental Station",
+     "as": "টকলাই পৰীক্ষামূলক কেন্দ্ৰ"
+    },
+    {
      "en": "Cotton College",
      "as": "কটন কলেজ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Tocklai in Jorhat is the largest tea research station.",
     "as": "যোৰহাটৰ টকলাই সৰ্ববৃহৎ চাহ গৱেষণা কেন্দ্ৰ।"
@@ -9732,12 +9732,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
-    },
-    {
      "en": "Dibrugarh",
      "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
     },
     {
      "en": "Guwahati",
@@ -9748,7 +9748,7 @@ module.exports = {
      "as": "শিলচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Tocklai is located in Jorhat.",
     "as": "টকলাই যোৰহাটত অৱস্থিত।"
@@ -9762,10 +9762,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
-    },
-    {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
     },
@@ -9774,11 +9770,15 @@ module.exports = {
      "as": "ডিব্ৰুগড়"
     },
     {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
      "en": "Nagaon",
      "as": "নগাঁও"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Assam Agricultural University is located at Jorhat.",
     "as": "অসম কৃষি বিশ্ববিদ্যালয় যোৰহাটত অৱস্থিত।"
@@ -9792,12 +9792,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tea",
-     "as": "চাহ"
-    },
-    {
      "en": "Rubber",
      "as": "ৰবৰ"
+    },
+    {
+     "en": "Tea",
+     "as": "চাহ"
     },
     {
      "en": "Coffee",
@@ -9808,7 +9808,7 @@ module.exports = {
      "as": "কপাহ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Tea is the main cash crop of the Barak Valley.",
     "as": "চাহ বৰাক উপত্যকাৰ মূল নগদ শস্য।"
@@ -9852,10 +9852,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "manage government-run tea gardens",
-     "as": "চৰকাৰী পৰিচালিত চাহ বাগান পৰিচালনা"
-    },
-    {
      "en": "fix tea prices only",
      "as": "কেৱল চাহ মূল্য নিৰ্ধাৰণ"
     },
@@ -9866,9 +9862,13 @@ module.exports = {
     {
      "en": "import tea",
      "as": "চাহ আমদানি"
+    },
+    {
+     "en": "manage government-run tea gardens",
+     "as": "চৰকাৰী পৰিচালিত চাহ বাগান পৰিচালনা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It manages government-run tea gardens.",
     "as": "ই চৰকাৰী পৰিচালিত চাহ বাগান পৰিচালনা কৰে।"
@@ -9882,10 +9882,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Natural gas",
-     "as": "প্ৰাকৃতিক গেছ"
-    },
-    {
      "en": "Mica",
      "as": "অভ্ৰ"
     },
@@ -9896,9 +9892,13 @@ module.exports = {
     {
      "en": "Copper",
      "as": "তাম"
+    },
+    {
+     "en": "Natural gas",
+     "as": "প্ৰাকৃতিক গেছ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Natural gas is found in abundance in Assam.",
     "as": "অসমত প্ৰাকৃতিক গেছ প্ৰচুৰ পৰিমাণে পোৱা যায়।"
@@ -9942,10 +9942,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Oil refining",
-     "as": "তেল শোধন"
-    },
-    {
      "en": "Tea",
      "as": "চাহ"
     },
@@ -9954,11 +9950,15 @@ module.exports = {
      "as": "চিমেণ্ট"
     },
     {
+     "en": "Oil refining",
+     "as": "তেল শোধন"
+    },
+    {
      "en": "Paper",
      "as": "কাগজ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Oil refining is the principal industry of Digboi.",
     "as": "তেল শোধন ডিগবৈৰ মূল উদ্যোগ।"
@@ -9972,12 +9972,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "natural resources",
-     "as": "প্ৰাকৃতিক সম্পদ"
-    },
-    {
      "en": "foreign aid",
      "as": "বিদেশী সাহায্য"
+    },
+    {
+     "en": "natural resources",
+     "as": "প্ৰাকৃতিক সম্পদ"
     },
     {
      "en": "imports",
@@ -9988,7 +9988,7 @@ module.exports = {
      "as": "কেৱল পৰ্যটন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Industrial growth is linked to natural resources.",
     "as": "উদ্যোগিক বৃদ্ধি প্ৰাকৃতিক সম্পদৰ সৈতে জড়িত।"
@@ -10034,12 +10034,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "all living and non-living things around us",
-     "as": "আমাৰ চাৰিওফালৰ সকলো জীৱ আৰু নিৰ্জীৱ বস্তু"
-    },
-    {
      "en": "only living things",
      "as": "কেৱল জীৱ"
+    },
+    {
+     "en": "all living and non-living things around us",
+     "as": "আমাৰ চাৰিওফালৰ সকলো জীৱ আৰু নিৰ্জীৱ বস্তু"
     },
     {
      "en": "only non-living things",
@@ -10050,7 +10050,7 @@ module.exports = {
      "as": "কেৱল মানুহ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The environment includes all living and non-living things.",
     "as": "পৰিৱেশত সকলো জীৱ আৰু নিৰ্জীৱ বস্তু অন্তৰ্ভুক্ত।"
@@ -10064,12 +10064,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "life exists",
-     "as": "জীৱন আছে"
-    },
-    {
      "en": "there is no life",
      "as": "জীৱন নাই"
+    },
+    {
+     "en": "life exists",
+     "as": "জীৱন আছে"
     },
     {
      "en": "only rocks exist",
@@ -10080,7 +10080,7 @@ module.exports = {
      "as": "কেৱল পানী আছে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The biosphere is where life exists.",
     "as": "জীৱমণ্ডল হৈছে য'ত জীৱন আছে।"
@@ -10094,10 +10094,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "air, water and soil",
-     "as": "বায়ু, পানী আৰু মাটি"
-    },
-    {
      "en": "plants",
      "as": "উদ্ভিদ"
     },
@@ -10108,9 +10104,13 @@ module.exports = {
     {
      "en": "microbes",
      "as": "অণুজীৱ"
+    },
+    {
+     "en": "air, water and soil",
+     "as": "বায়ু, পানী আৰু মাটি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The abiotic component includes air, water and soil.",
     "as": "অজৈৱিক উপাদানত বায়ু, পানী আৰু মাটি অন্তৰ্ভুক্ত।"
@@ -10124,12 +10124,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "plants, animals and microbes",
-     "as": "উদ্ভিদ, প্ৰাণী আৰু অণুজীৱ"
-    },
-    {
      "en": "air",
      "as": "বায়ু"
+    },
+    {
+     "en": "plants, animals and microbes",
+     "as": "উদ্ভিদ, প্ৰাণী আৰু অণুজীৱ"
     },
     {
      "en": "water",
@@ -10140,7 +10140,7 @@ module.exports = {
      "as": "মাটি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The biotic component includes living organisms.",
     "as": "জৈৱিক উপাদানত জীৱ অন্তৰ্ভুক্ত।"
@@ -10154,10 +10154,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "living organisms and their physical environment",
-     "as": "জীৱ আৰু তেওঁলোকৰ ভৌতিক পৰিৱেশ"
-    },
-    {
      "en": "only plants",
      "as": "কেৱল উদ্ভিদ"
     },
@@ -10168,9 +10164,13 @@ module.exports = {
     {
      "en": "only rocks",
      "as": "কেৱল শিল"
+    },
+    {
+     "en": "living organisms and their physical environment",
+     "as": "জীৱ আৰু তেওঁলোকৰ ভৌতিক পৰিৱেশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "An ecosystem includes organisms and their physical environment.",
     "as": "পৰিৱেশ তন্ত্ৰত জীৱ আৰু তেওঁলোকৰ ভৌতিক পৰিৱেশ অন্তৰ্ভুক্ত।"
@@ -10184,10 +10184,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A forest",
-     "as": "এখন বন"
-    },
-    {
      "en": "A city",
      "as": "এখন চহৰ"
     },
@@ -10198,9 +10194,13 @@ module.exports = {
     {
      "en": "A dam",
      "as": "এটা বান্ধ"
+    },
+    {
+     "en": "A forest",
+     "as": "এখন বন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A forest is a natural ecosystem.",
     "as": "বন এখন প্ৰাকৃতিক পৰিৱেশ তন্ত্ৰ।"
@@ -10214,10 +10214,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "A cropland",
-     "as": "এখন কৃষিভূমি"
-    },
-    {
      "en": "A forest",
      "as": "এখন বন"
     },
@@ -10228,9 +10224,13 @@ module.exports = {
     {
      "en": "An ocean",
      "as": "এখন মহাসাগৰ"
+    },
+    {
+     "en": "A cropland",
+     "as": "এখন কৃষিভূমি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A cropland is an artificial ecosystem.",
     "as": "কৃষিভূমি এখন কৃত্ৰিম পৰিৱেশ তন্ত্ৰ।"
@@ -10274,10 +10274,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "animals",
-     "as": "প্ৰাণী"
-    },
-    {
      "en": "green plants",
      "as": "সেউজ উদ্ভিদ"
     },
@@ -10286,11 +10282,15 @@ module.exports = {
      "as": "সূৰ্যৰ পোহৰ"
     },
     {
+     "en": "animals",
+     "as": "প্ৰাণী"
+    },
+    {
      "en": "water",
      "as": "পানী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Animals are the consumers.",
     "as": "প্ৰাণী ভোক্তা।"
@@ -10304,10 +10304,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "decomposers",
-     "as": "বিয়োজক"
-    },
-    {
      "en": "producers",
      "as": "উৎপাদক"
     },
@@ -10316,11 +10312,15 @@ module.exports = {
      "as": "ভোক্তা"
     },
     {
+     "en": "decomposers",
+     "as": "বিয়োজক"
+    },
+    {
      "en": "predators",
      "as": "শিকাৰী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Decomposers break down dead matter.",
     "as": "বিয়োজকে মৃত পদাৰ্থ ভাঙি পেলায়।"
@@ -10334,10 +10334,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "energy from one organism to another",
-     "as": "এটা জীৱৰ পৰা আন এটালৈ শক্তি"
-    },
-    {
      "en": "water",
      "as": "পানী"
     },
@@ -10348,9 +10344,13 @@ module.exports = {
     {
      "en": "oxygen",
      "as": "অক্সিজেন"
+    },
+    {
+     "en": "energy from one organism to another",
+     "as": "এটা জীৱৰ পৰা আন এটালৈ শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A food chain shows the transfer of energy.",
     "as": "খাদ্য শৃংখলে শক্তিৰ স্থানান্তৰ দেখুৱায়।"
@@ -10364,10 +10364,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "producers to consumers",
-     "as": "উৎপাদকৰ পৰা ভোক্তালৈ"
-    },
-    {
      "en": "consumers to producers",
      "as": "ভোক্তাৰ পৰা উৎপাদকলৈ"
     },
@@ -10378,9 +10374,13 @@ module.exports = {
     {
      "en": "soil to plants",
      "as": "মাটিৰ পৰা উদ্ভিদলৈ"
+    },
+    {
+     "en": "producers to consumers",
+     "as": "উৎপাদকৰ পৰা ভোক্তালৈ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Energy flows from producers to consumers.",
     "as": "শক্তি উৎপাদকৰ পৰা ভোক্তালৈ প্ৰবাহিত হয়।"
@@ -10394,10 +10394,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the sun",
-     "as": "সূৰ্য"
-    },
-    {
      "en": "the moon",
      "as": "চন্দ্ৰ"
     },
@@ -10408,9 +10404,13 @@ module.exports = {
     {
      "en": "the soil",
      "as": "মাটি"
+    },
+    {
+     "en": "the sun",
+     "as": "সূৰ্য"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The sun is the ultimate source of energy.",
     "as": "সূৰ্য শক্তিৰ চূড়ান্ত উৎস।"
@@ -10424,10 +10424,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lindeman",
-     "as": "লিণ্ডেমেন"
-    },
-    {
      "en": "Darwin",
      "as": "ডাৰউইন"
     },
@@ -10438,9 +10434,13 @@ module.exports = {
     {
      "en": "Tansley",
      "as": "টেনচলি"
+    },
+    {
+     "en": "Lindeman",
+     "as": "লিণ্ডেমেন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Lindeman gave the 10 percent law.",
     "as": "লিণ্ডেমেনে ১০ শতাংশ নিয়ম দিছিল।"
@@ -10454,10 +10454,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "interconnected food chains",
-     "as": "আন্তঃসংযুক্ত খাদ্য শৃংখল"
-    },
-    {
      "en": "a single food chain",
      "as": "এটা খাদ্য শৃংখল"
     },
@@ -10468,9 +10464,13 @@ module.exports = {
     {
      "en": "only consumers",
      "as": "কেৱল ভোক্তা"
+    },
+    {
+     "en": "interconnected food chains",
+     "as": "আন্তঃসংযুক্ত খাদ্য শৃংখল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A food web is made of interconnected food chains.",
     "as": "খাদ্য জাল আন্তঃসংযুক্ত খাদ্য শৃংখলেৰে গঠিত।"
@@ -10484,10 +10484,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "upright",
-     "as": "সোজা"
-    },
-    {
      "en": "inverted",
      "as": "ওলোটা"
     },
@@ -10496,11 +10492,15 @@ module.exports = {
      "as": "অনুভূমিক"
     },
     {
+     "en": "upright",
+     "as": "সোজা"
+    },
+    {
      "en": "circular",
      "as": "বৃত্তাকাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The pyramid of energy is always upright.",
     "as": "শক্তিৰ পিৰামিড সদায় সোজা।"
@@ -10514,12 +10514,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "living organisms in a region",
-     "as": "এখন অঞ্চলৰ জীৱ"
-    },
-    {
      "en": "rocks in a region",
      "as": "এখন অঞ্চলৰ শিল"
+    },
+    {
+     "en": "living organisms in a region",
+     "as": "এখন অঞ্চলৰ জীৱ"
     },
     {
      "en": "rivers in a region",
@@ -10530,7 +10530,7 @@ module.exports = {
      "as": "এখন অঞ্চলৰ পৰ্বত"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Biodiversity is the variety of living organisms.",
     "as": "জৈৱবিচিত্ৰতা হৈছে জীৱৰ বিচিত্ৰতা।"
@@ -10544,10 +10544,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "India",
-     "as": "ভাৰত"
-    },
-    {
      "en": "Japan",
      "as": "জাপান"
     },
@@ -10556,11 +10552,15 @@ module.exports = {
      "as": "জাৰ্মানী"
     },
     {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
      "en": "Egypt",
      "as": "ইজিপ্ত"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "India is one of the world's mega-diverse countries.",
     "as": "ভাৰত বিশ্বৰ মেগা-বিচিত্ৰ দেশবোৰৰ এটা।"
@@ -10574,10 +10574,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "high species richness under threat",
-     "as": "সংকটত থকা উচ্চ প্ৰজাতি সমৃদ্ধি"
-    },
-    {
      "en": "no species",
      "as": "প্ৰজাতি নাই"
     },
@@ -10588,9 +10584,13 @@ module.exports = {
     {
      "en": "only deserts",
      "as": "কেৱল মৰুভূমি"
+    },
+    {
+     "en": "high species richness under threat",
+     "as": "সংকটত থকা উচ্চ প্ৰজাতি সমৃদ্ধি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A biodiversity hotspot has high species richness under threat.",
     "as": "জৈৱবিচিত্ৰতাৰ হটস্পটত সংকটত থকা উচ্চ প্ৰজাতি সমৃদ্ধি থাকে।"
@@ -10604,10 +10604,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Western Ghats",
-     "as": "পশ্চিম ঘাট"
-    },
-    {
      "en": "Thar Desert",
      "as": "থৰ মৰুভূমি"
     },
@@ -10618,9 +10614,13 @@ module.exports = {
     {
      "en": "Gangetic Plain",
      "as": "গাঙ্গেয় সমভূমি"
+    },
+    {
+     "en": "Western Ghats",
+     "as": "পশ্চিম ঘাট"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Western Ghats is a biodiversity hotspot.",
     "as": "পশ্চিম ঘাট এটা জৈৱবিচিত্ৰতাৰ হটস্পট।"
@@ -10634,10 +10634,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Indo-Burma region",
-     "as": "ভাৰত-বাৰ্মা অঞ্চল"
-    },
-    {
      "en": "Thar Desert",
      "as": "থৰ মৰুভূমি"
     },
@@ -10648,9 +10644,13 @@ module.exports = {
     {
      "en": "Rann of Kutch",
      "as": "কচ্ছৰ ৰণ"
+    },
+    {
+     "en": "Indo-Burma region",
+     "as": "ভাৰত-বাৰ্মা অঞ্চল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Indo-Burma region is a biodiversity hotspot.",
     "as": "ভাৰত-বাৰ্মা অঞ্চল এটা জৈৱবিচিত্ৰতাৰ হটস্পট।"
@@ -10664,10 +10664,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Eastern Himalayas",
-     "as": "পূব হিমালয়"
-    },
-    {
      "en": "Western Ghats",
      "as": "পশ্চিম ঘাট"
     },
@@ -10678,9 +10674,13 @@ module.exports = {
     {
      "en": "Thar Desert",
      "as": "থৰ মৰুভূমি"
+    },
+    {
+     "en": "Eastern Himalayas",
+     "as": "পূব হিমালয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Eastern Himalayas are called the cradle of biodiversity.",
     "as": "পূব হিমালয়ক জৈৱবিচিত্ৰতাৰ দোলনা বুলি কোৱা হয়।"
@@ -10694,10 +10694,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "complete disappearance from the earth",
-     "as": "পৃথিৱীৰ পৰা সম্পূৰ্ণ অন্তৰ্ধান"
-    },
-    {
      "en": "increase in number",
      "as": "সংখ্যা বৃদ্ধি"
     },
@@ -10708,9 +10704,13 @@ module.exports = {
     {
      "en": "adaptation",
      "as": "অভিযোজন"
+    },
+    {
+     "en": "complete disappearance from the earth",
+     "as": "পৃথিৱীৰ পৰা সম্পূৰ্ণ অন্তৰ্ধান"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Extinction is the complete disappearance of a species.",
     "as": "বিলুপ্তি হৈছে প্ৰজাতিৰ সম্পূৰ্ণ অন্তৰ্ধান।"
@@ -10724,10 +10724,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Great Indian Bustard",
-     "as": "ভাৰতীয় গৰৈ"
-    },
-    {
      "en": "Cow",
      "as": "গৰু"
     },
@@ -10736,11 +10732,15 @@ module.exports = {
      "as": "কুকুৰ"
     },
     {
+     "en": "Great Indian Bustard",
+     "as": "ভাৰতীয় গৰৈ"
+    },
+    {
      "en": "Crow",
      "as": "কাউৰী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Great Indian Bustard is critically endangered.",
     "as": "ভাৰতীয় গৰৈ চৰম সংকটাপন্ন।"
@@ -10754,10 +10754,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kaziranga, Assam",
-     "as": "কাজিৰঙা, অসম"
-    },
-    {
      "en": "Gir, Gujarat",
      "as": "গিৰ, গুজৰাট"
     },
@@ -10766,11 +10762,15 @@ module.exports = {
      "as": "কানহা, মধ্য প্ৰদেশ"
     },
     {
+     "en": "Kaziranga, Assam",
+     "as": "কাজিৰঙা, অসম"
+    },
+    {
      "en": "Corbett, Uttarakhand",
      "as": "কorbেট, উত্তৰাখণ্ড"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The one-horned rhinoceros is mainly found in Kaziranga, Assam.",
     "as": "এশিঙীয়া গঁড় মূলতঃ অসমৰ কাজিৰঙাত পোৱা যায়।"
@@ -10934,12 +10934,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1986",
-     "as": "১৯৮৬"
-    },
-    {
      "en": "1972",
      "as": "১৯৭২"
+    },
+    {
+     "en": "1986",
+     "as": "১৯৮৬"
     },
     {
      "en": "1974",
@@ -10950,7 +10950,7 @@ module.exports = {
      "as": "১৯৯০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Environment Protection Act was enacted in 1986.",
     "as": "পৰিৱেশ সুৰক্ষা আইন ১৯৮৬ চনত বলৱৎ কৰা হৈছিল।"
@@ -10994,10 +10994,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1981",
-     "as": "১৯৮১"
-    },
-    {
      "en": "1974",
      "as": "১৯৭৪"
     },
@@ -11008,9 +11004,13 @@ module.exports = {
     {
      "en": "1990",
      "as": "১৯৯০"
+    },
+    {
+     "en": "1981",
+     "as": "১৯৮১"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Air Act was enacted in 1981.",
     "as": "বায়ু আইন ১৯৮১ চনত বলৱৎ কৰা হৈছিল।"
@@ -11024,10 +11024,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Central Pollution Control Board",
-     "as": "কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড"
-    },
-    {
      "en": "State Pollution Control Board",
      "as": "ৰাজ্য প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড"
     },
@@ -11036,11 +11032,15 @@ module.exports = {
      "as": "নীতি আয়োগ"
     },
     {
+     "en": "Central Pollution Control Board",
+     "as": "কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড"
+    },
+    {
      "en": "SEBI",
      "as": "ছেবি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Central Pollution Control Board is the apex body.",
     "as": "কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড শীৰ্ষ সংস্থা।"
@@ -11084,10 +11084,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Carbon monoxide",
-     "as": "কাৰ্বন মনোক্সাইড"
-    },
-    {
      "en": "Oxygen",
      "as": "অক্সিজেন"
     },
@@ -11096,11 +11092,15 @@ module.exports = {
      "as": "নাইট্ৰজেন"
     },
     {
+     "en": "Carbon monoxide",
+     "as": "কাৰ্বন মনোক্সাইড"
+    },
+    {
      "en": "Water vapour",
      "as": "জলীয় বাষ্প"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Carbon monoxide is a common air pollutant.",
     "as": "কাৰ্বন মনোক্সাইড এটা প্ৰচলিত বায়ু প্ৰদূষক।"
@@ -11114,10 +11114,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Carbon dioxide",
-     "as": "কাৰ্বন ডাইঅক্সাইড"
-    },
-    {
      "en": "Oxygen",
      "as": "অক্সিজেন"
     },
@@ -11128,9 +11124,13 @@ module.exports = {
     {
      "en": "Hydrogen",
      "as": "হাইড্ৰজেন"
+    },
+    {
+     "en": "Carbon dioxide",
+     "as": "কাৰ্বন ডাইঅক্সাইড"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Carbon dioxide is mainly responsible for global warming.",
     "as": "কাৰ্বন ডাইঅক্সাইড গোলকীয় উষ্ণতা বৃদ্ধিৰ বাবে মূলতঃ দায়ী।"
@@ -11144,10 +11144,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Methane",
-     "as": "মিথেন"
-    },
-    {
      "en": "Oxygen",
      "as": "অক্সিজেন"
     },
@@ -11158,9 +11154,13 @@ module.exports = {
     {
      "en": "Argon",
      "as": "আৰ্গন"
+    },
+    {
+     "en": "Methane",
+     "as": "মিথেন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Methane is a greenhouse gas.",
     "as": "মিথেন এটা গ্ৰীণহাউছ গেছ।"
@@ -11204,12 +11204,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "rise in sea levels",
-     "as": "সমুদ্ৰপৃষ্ঠৰ উচ্চতা বৃদ্ধি"
-    },
-    {
      "en": "fall in sea levels",
      "as": "সমুদ্ৰপৃষ্ঠৰ উচ্চতা হ্ৰাস"
+    },
+    {
+     "en": "rise in sea levels",
+     "as": "সমুদ্ৰপৃষ্ঠৰ উচ্চতা বৃদ্ধি"
     },
     {
      "en": "cooling of the earth",
@@ -11220,7 +11220,7 @@ module.exports = {
      "as": "বৰফ বৃদ্ধি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Global warming leads to a rise in sea levels.",
     "as": "গোলকীয় উষ্ণতা বৃদ্ধিৰ পৰিণতি সমুদ্ৰপৃষ্ঠৰ উচ্চতা বৃদ্ধি।"
@@ -11234,10 +11234,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "reduction of greenhouse gas emissions",
-     "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
-    },
-    {
      "en": "ozone protection only",
      "as": "কেৱল অ'জন সুৰক্ষা"
     },
@@ -11248,9 +11244,13 @@ module.exports = {
     {
      "en": "water conservation",
      "as": "জল সংৰক্ষণ"
+    },
+    {
+     "en": "reduction of greenhouse gas emissions",
+     "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Kyoto Protocol deals with reducing greenhouse gas emissions.",
     "as": "কিয়'ট' প্ৰ'ট'কলে গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাসৰ সৈতে কাম কৰে।"
@@ -11264,10 +11264,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2015",
-     "as": "২০১৫"
-    },
-    {
      "en": "2010",
      "as": "২০১০"
     },
@@ -11276,11 +11272,15 @@ module.exports = {
      "as": "২০০৫"
     },
     {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
      "en": "2020",
      "as": "২০২০"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Paris Agreement was adopted in 2015.",
     "as": "পেৰিছ চুক্তি ২০১৫ চনত গ্ৰহণ কৰা হৈছিল।"
@@ -11294,10 +11294,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "ultraviolet rays",
-     "as": "অতি-বেঙুনীয় ৰশ্মি"
-    },
-    {
      "en": "infrared rays",
      "as": "অৱ-ৰক্ত ৰশ্মি"
     },
@@ -11308,9 +11304,13 @@ module.exports = {
     {
      "en": "gamma rays",
      "as": "গামা ৰশ্মি"
+    },
+    {
+     "en": "ultraviolet rays",
+     "as": "অতি-বেঙুনীয় ৰশ্মি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The ozone layer protects us from ultraviolet rays.",
     "as": "অ'জন স্তৰে আমাক অতি-বেঙুনীয় ৰশ্মিৰ পৰা সুৰক্ষা দিয়ে।"
@@ -11324,10 +11324,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "chlorofluorocarbons",
-     "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বন"
-    },
-    {
      "en": "carbon dioxide",
      "as": "কাৰ্বন ডাইঅক্সাইড"
     },
@@ -11338,9 +11334,13 @@ module.exports = {
     {
      "en": "sulphur dioxide",
      "as": "ছালফাৰ ডাইঅক্সাইড"
+    },
+    {
+     "en": "chlorofluorocarbons",
+     "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Chlorofluorocarbons cause ozone depletion.",
     "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বনে অ'জন ক্ষয়ৰ সৃষ্টি কৰে।"
@@ -11354,10 +11354,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "ozone layer",
-     "as": "অ'জন স্তৰ"
-    },
-    {
      "en": "forests",
      "as": "বনাঞ্চল"
     },
@@ -11368,9 +11364,13 @@ module.exports = {
     {
      "en": "wildlife",
      "as": "বন্যপ্ৰাণী"
+    },
+    {
+     "en": "ozone layer",
+     "as": "অ'জন স্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Montreal Protocol protects the ozone layer.",
     "as": "মণ্ট্ৰিয়েল প্ৰ'ট'কলে অ'জন স্তৰ সুৰক্ষা কৰে।"
@@ -11414,10 +11414,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "5.6",
-     "as": "৫.৬"
-    },
-    {
      "en": "7",
      "as": "৭"
     },
@@ -11428,9 +11424,13 @@ module.exports = {
     {
      "en": "9",
      "as": "৯"
+    },
+    {
+     "en": "5.6",
+     "as": "৫.৬"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Acid rain has a pH of less than 5.6.",
     "as": "অম্ল বৰষুণৰ pH ৫.৬ তকৈ কম।"
@@ -11444,10 +11444,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "smoke and fog",
-     "as": "ধোঁৱা আৰু কুহুম"
-    },
-    {
      "en": "dust and rain",
      "as": "ধূলি আৰু বৰষুণ"
     },
@@ -11458,9 +11454,13 @@ module.exports = {
     {
      "en": "snow and fog",
      "as": "বৰফ আৰু কুহুম"
+    },
+    {
+     "en": "smoke and fog",
+     "as": "ধোঁৱা আৰু কুহুম"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Smog is a combination of smoke and fog.",
     "as": "ধোঁৱাকুহুম ধোঁৱা আৰু কুহুমৰ সংমিশ্ৰণ।"
@@ -11474,10 +11474,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1952",
-     "as": "১৯৫২"
-    },
-    {
      "en": "1942",
      "as": "১৯৪২"
     },
@@ -11486,11 +11482,15 @@ module.exports = {
      "as": "১৯৬২"
     },
     {
+     "en": "1952",
+     "as": "১৯৫২"
+    },
+    {
      "en": "1972",
      "as": "১৯৭২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Great Smog of London occurred in 1952.",
     "as": "লণ্ডনৰ মহান ধোঁৱাকুহুম ১৯৫২ চনত ঘটিছিল।"
@@ -11504,10 +11504,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1984",
-     "as": "১৯৮৪"
-    },
-    {
      "en": "1974",
      "as": "১৯৭৪"
     },
@@ -11518,9 +11514,13 @@ module.exports = {
     {
      "en": "1964",
      "as": "১৯৬৪"
+    },
+    {
+     "en": "1984",
+     "as": "১৯৮৪"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Bhopal Gas Tragedy occurred in 1984.",
     "as": "ভূপাল গেছ দুৰ্যোগ ১৯৮৪ চনত ঘটিছিল।"
@@ -11534,12 +11534,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "methyl isocyanate",
-     "as": "মিথাইল আইছ'চায়ানেট"
-    },
-    {
      "en": "carbon monoxide",
      "as": "কাৰ্বন মনোক্সাইড"
+    },
+    {
+     "en": "methyl isocyanate",
+     "as": "মিথাইল আইছ'চায়ানেট"
     },
     {
      "en": "ammonia",
@@ -11550,7 +11550,7 @@ module.exports = {
      "as": "ক্ল'ৰিন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Methyl isocyanate leaked in the Bhopal Gas Tragedy.",
     "as": "ভূপাল গেছ দুৰ্যোগত মিথাইল আইছ'চায়ানেট নিৰ্গত হৈছিল।"
@@ -11594,10 +11594,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Untreated sewage",
-     "as": "অপৰিশোধিত নৰ্দমা"
-    },
-    {
      "en": "Rainwater",
      "as": "বৰষুণৰ পানী"
     },
@@ -11606,11 +11602,15 @@ module.exports = {
      "as": "ভূগৰ্ভস্থ পানী"
     },
     {
+     "en": "Untreated sewage",
+     "as": "অপৰিশোধিত নৰ্দমা"
+    },
+    {
      "en": "Spring water",
      "as": "ভুমুকি পানী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Untreated sewage is the largest source of water pollution.",
     "as": "অপৰিশোধিত নৰ্দমা জল প্ৰদূষণৰ সৰ্ববৃহৎ উৎস।"
@@ -11624,12 +11624,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "organic pollution of water",
-     "as": "পানীৰ জৈৱিক প্ৰদূষণ"
-    },
-    {
      "en": "air quality",
      "as": "বায়ুৰ গুণাগুণ"
+    },
+    {
+     "en": "organic pollution of water",
+     "as": "পানীৰ জৈৱিক প্ৰদূষণ"
     },
     {
      "en": "soil fertility",
@@ -11640,7 +11640,7 @@ module.exports = {
      "as": "শব্দৰ মাত্ৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "BOD measures organic pollution of water.",
     "as": "BOD য়ে পানীৰ জৈৱিক প্ৰদূষণ জোখে।"
@@ -11654,10 +11654,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "high organic pollution",
-     "as": "উচ্চ জৈৱিক প্ৰদূষণ"
-    },
-    {
      "en": "low pollution",
      "as": "নিম্ন প্ৰদূষণ"
     },
@@ -11668,9 +11664,13 @@ module.exports = {
     {
      "en": "high oxygen",
      "as": "উচ্চ অক্সিজেন"
+    },
+    {
+     "en": "high organic pollution",
+     "as": "উচ্চ জৈৱিক প্ৰদূষণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "High BOD indicates high organic pollution.",
     "as": "উচ্চ BOD য়ে উচ্চ জৈৱিক প্ৰদূষণ সূচায়।"
@@ -11684,10 +11684,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "excess nutrients like nitrogen and phosphorus",
-     "as": "নাইট্ৰজেন আৰু ফছফৰাছৰ দৰে অতিৰিক্ত পুষ্টি"
-    },
-    {
      "en": "excess oxygen",
      "as": "অতিৰিক্ত অক্সিজেন"
     },
@@ -11696,11 +11692,15 @@ module.exports = {
      "as": "অতিৰিক্ত সূৰ্যৰ পোহৰ"
     },
     {
+     "en": "excess nutrients like nitrogen and phosphorus",
+     "as": "নাইট্ৰজেন আৰু ফছফৰাছৰ দৰে অতিৰিক্ত পুষ্টি"
+    },
+    {
      "en": "low temperature",
      "as": "নিম্ন উষ্ণতা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Eutrophication is caused by excess nutrients.",
     "as": "পুষ্টিসমৃদ্ধি অতিৰিক্ত পুষ্টিৰ বাবে হয়।"
@@ -11744,10 +11744,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "decibels",
-     "as": "ডেচিবেল"
-    },
-    {
      "en": "litres",
      "as": "লিটাৰ"
     },
@@ -11756,11 +11752,15 @@ module.exports = {
      "as": "গ্ৰাম"
     },
     {
+     "en": "decibels",
+     "as": "ডেচিবেল"
+    },
+    {
      "en": "degrees",
      "as": "ডিগ্ৰী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Noise pollution is measured in decibels.",
     "as": "শব্দ প্ৰদূষণ ডেচিবেলত জোখা হয়।"
@@ -11804,12 +11804,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Loudspeakers",
-     "as": "উচ্চ স্বৰযন্ত্ৰ"
-    },
-    {
      "en": "Trees",
      "as": "গছ"
+    },
+    {
+     "en": "Loudspeakers",
+     "as": "উচ্চ স্বৰযন্ত্ৰ"
     },
     {
      "en": "Birds",
@@ -11820,7 +11820,7 @@ module.exports = {
      "as": "বৰষুণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Loudspeakers are a source of noise pollution.",
     "as": "উচ্চ স্বৰযন্ত্ৰ শব্দ প্ৰদূষণৰ এটা উৎস।"
@@ -11834,10 +11834,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "deforestation and water runoff",
-     "as": "বন নিধন আৰু পানীৰ প্ৰবাহ"
-    },
-    {
      "en": "afforestation",
      "as": "বনৰোপণ"
     },
@@ -11846,11 +11842,15 @@ module.exports = {
      "as": "থামনি নিৰ্মাণ"
     },
     {
+     "en": "deforestation and water runoff",
+     "as": "বন নিধন আৰু পানীৰ প্ৰবাহ"
+    },
+    {
      "en": "crop rotation",
      "as": "শস্য পৰ্যায়ক্ৰমণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Soil erosion is mainly caused by deforestation and water runoff.",
     "as": "মাটি ক্ষয় মূলতঃ বন নিধন আৰু পানীৰ প্ৰবাহৰ বাবে হয়।"
@@ -11864,10 +11864,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "soil erosion and loss of biodiversity",
-     "as": "মাটি ক্ষয় আৰু জৈৱবিচিত্ৰতাৰ ক্ষতি"
-    },
-    {
      "en": "more rainfall",
      "as": "অধিক বৰষুণ"
     },
@@ -11876,11 +11872,15 @@ module.exports = {
      "as": "অধিক পৰিষ্কাৰ বায়ু"
     },
     {
+     "en": "soil erosion and loss of biodiversity",
+     "as": "মাটি ক্ষয় আৰু জৈৱবিচিত্ৰতাৰ ক্ষতি"
+    },
+    {
      "en": "increase in wildlife",
      "as": "বন্যপ্ৰাণী বৃদ্ধি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Deforestation leads to soil erosion and biodiversity loss.",
     "as": "বন নিধনৰ পৰিণতি মাটি ক্ষয় আৰু জৈৱবিচিত্ৰতাৰ ক্ষতি।"
@@ -11894,10 +11894,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "forests",
-     "as": "বনাঞ্চল"
-    },
-    {
      "en": "rivers",
      "as": "নদী"
     },
@@ -11908,9 +11904,13 @@ module.exports = {
     {
      "en": "mountains",
      "as": "পৰ্বত"
+    },
+    {
+     "en": "forests",
+     "as": "বনাঞ্চল"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Chipko Movement was related to forest protection.",
     "as": "চিপক' আন্দোলন বনাঞ্চল সুৰক্ষাৰ সৈতে জড়িত আছিল।"
@@ -11924,10 +11924,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1973",
-     "as": "১৯৭৩"
-    },
-    {
      "en": "1980",
      "as": "১৯৮০"
     },
@@ -11938,9 +11934,13 @@ module.exports = {
     {
      "en": "1990",
      "as": "১৯৯০"
+    },
+    {
+     "en": "1973",
+     "as": "১৯৭৩"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Chipko Movement began in 1973.",
     "as": "চিপক' আন্দোলন ১৯৭৩ চনত আৰম্ভ হৈছিল।"
@@ -11954,12 +11954,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sunderlal Bahuguna",
-     "as": "সুন্দৰলাল বহুগুণা"
-    },
-    {
      "en": "Medha Patkar",
      "as": "মেধা পাটকৰ"
+    },
+    {
+     "en": "Sunderlal Bahuguna",
+     "as": "সুন্দৰলাল বহুগুণা"
     },
     {
      "en": "Anna Hazare",
@@ -11970,7 +11970,7 @@ module.exports = {
      "as": "বন্দনা শিৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Sunderlal Bahuguna led the Chipko Movement.",
     "as": "সুন্দৰলাল বহুগুণাই চিপক' আন্দোলনৰ নেতৃত্ব দিছিল।"
@@ -11984,10 +11984,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Medha Patkar",
-     "as": "মেধা পাটকৰ"
-    },
-    {
      "en": "Sunderlal Bahuguna",
      "as": "সুন্দৰলাল বহুগুণা"
     },
@@ -11996,11 +11992,15 @@ module.exports = {
      "as": "অন্না হজাৰে"
     },
     {
+     "en": "Medha Patkar",
+     "as": "মেধা পাটকৰ"
+    },
+    {
      "en": "Vandana Shiva",
      "as": "বন্দনা শিৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Medha Patkar led the Narmada Bachao Andolan.",
     "as": "মেধা পাটকৰে নৰ্মদা বচাও আন্দোলনৰ নেতৃত্ব দিছিল।"
@@ -12014,10 +12014,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kerala",
-     "as": "কেৰালা"
-    },
-    {
      "en": "Assam",
      "as": "অসম"
     },
@@ -12028,9 +12024,13 @@ module.exports = {
     {
      "en": "Rajasthan",
      "as": "ৰাজস্থান"
+    },
+    {
+     "en": "Kerala",
+     "as": "কেৰালা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The Silent Valley is located in Kerala.",
     "as": "চাইলেণ্ট ভেলী কেৰালাত অৱস্থিত।"
@@ -12044,10 +12044,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Karnataka",
-     "as": "কৰ্ণাটক"
-    },
-    {
      "en": "Kerala",
      "as": "কেৰালা"
     },
@@ -12056,11 +12052,15 @@ module.exports = {
      "as": "অসম"
     },
     {
+     "en": "Karnataka",
+     "as": "কৰ্ণাটক"
+    },
+    {
      "en": "Gujarat",
      "as": "গুজৰাট"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Appiko Movement was launched in Karnataka.",
     "as": "অপিক' আন্দোলন কৰ্ণাটকত আৰম্ভ কৰা হৈছিল।"
@@ -12074,10 +12074,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "5 June",
-     "as": "৫ জুন"
-    },
-    {
      "en": "5 July",
      "as": "৫ জুলাই"
     },
@@ -12088,9 +12084,13 @@ module.exports = {
     {
      "en": "5 April",
      "as": "৫ এপ্ৰিল"
+    },
+    {
+     "en": "5 June",
+     "as": "৫ জুন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "World Environment Day is observed on 5 June.",
     "as": "বিশ্ব পৰিৱেশ দিৱস ৫ জুনত পালন কৰা হয়।"
@@ -12104,10 +12104,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "22 March",
-     "as": "২২ মাৰ্চ"
-    },
-    {
      "en": "22 April",
      "as": "২২ এপ্ৰিল"
     },
@@ -12118,9 +12114,13 @@ module.exports = {
     {
      "en": "22 June",
      "as": "২২ জুন"
+    },
+    {
+     "en": "22 March",
+     "as": "২২ মাৰ্চ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "World Water Day is observed on 22 March.",
     "as": "বিশ্ব জল দিৱস ২২ মাৰ্চত পালন কৰা হয়।"
@@ -12134,12 +12134,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "3 March",
-     "as": "৩ মাৰ্চ"
-    },
-    {
      "en": "3 April",
      "as": "৩ এপ্ৰিল"
+    },
+    {
+     "en": "3 March",
+     "as": "৩ মাৰ্চ"
     },
     {
      "en": "3 May",
@@ -12150,7 +12150,7 @@ module.exports = {
      "as": "৩ জুন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "World Wildlife Day is observed on 3 March.",
     "as": "বিশ্ব বন্যপ্ৰাণী দিৱস ৩ মাৰ্চত পালন কৰা হয়।"
@@ -12164,12 +12164,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "22 April",
-     "as": "২২ এপ্ৰিল"
-    },
-    {
      "en": "22 March",
      "as": "২২ মাৰ্চ"
+    },
+    {
+     "en": "22 April",
+     "as": "২২ এপ্ৰিল"
     },
     {
      "en": "22 May",
@@ -12180,7 +12180,7 @@ module.exports = {
      "as": "২২ জুন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Earth Day is observed on 22 April.",
     "as": "পৃথিৱী দিৱস ২২ এপ্ৰিলত পালন কৰা হয়।"
@@ -12224,12 +12224,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Deepor Beel",
-     "as": "দীপৰ বিল"
-    },
-    {
      "en": "Chilika Lake",
      "as": "চিলিকা হ্ৰদ"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
     },
     {
      "en": "Wular Lake",
@@ -12240,7 +12240,7 @@ module.exports = {
      "as": "সাম্বাৰ হ্ৰদ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Deepor Beel in Assam is a Ramsar site.",
     "as": "অসমৰ দীপৰ বিল এটা ৰামচাৰ স্থল।"
@@ -12254,12 +12254,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
      "en": "Dibrugarh",
      "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
     },
     {
      "en": "Silchar",
@@ -12270,7 +12270,7 @@ module.exports = {
      "as": "যোৰহাট"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Deepor Beel is located near Guwahati.",
     "as": "দীপৰ বিল গুৱাহাটীৰ ওচৰত অৱস্থিত।"
@@ -12314,10 +12314,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Manas National Park",
-     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
-    },
-    {
      "en": "Kaziranga",
      "as": "কাজিৰঙা"
     },
@@ -12326,11 +12322,15 @@ module.exports = {
      "as": "নামেৰি"
     },
     {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
      "en": "Dibru-Saikhowa",
      "as": "ডিব্ৰু-শৈখোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Manas National Park is famous for the golden langur.",
     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান সোণালী বান্দৰৰ বাবে বিখ্যাত।"
@@ -12344,12 +12344,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "World Heritage Site",
-     "as": "বিশ্ব ঐতিহ্য স্থল"
-    },
-    {
      "en": "Geopark",
      "as": "ভূউদ্যান"
+    },
+    {
+     "en": "World Heritage Site",
+     "as": "বিশ্ব ঐতিহ্য স্থল"
     },
     {
      "en": "Biosphere Reserve only",
@@ -12360,7 +12360,7 @@ module.exports = {
      "as": "ৰামচাৰ স্থল"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Manas is a UNESCO World Heritage Site.",
     "as": "মানস ইউনেস্ক'ৰ বিশ্ব ঐতিহ্য স্থল।"
@@ -12404,12 +12404,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sonitpur, Assam",
-     "as": "শোণিতপুৰ, অসম"
-    },
-    {
      "en": "Golaghat, Assam",
      "as": "গোলাঘাট, অসম"
+    },
+    {
+     "en": "Sonitpur, Assam",
+     "as": "শোণিতপুৰ, অসম"
     },
     {
      "en": "Cachar, Assam",
@@ -12420,7 +12420,7 @@ module.exports = {
      "as": "বৰপেটা, অসম"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Nameri National Park is located in Sonitpur district.",
     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান শোণিতপুৰ জিলাত অৱস্থিত।"
@@ -12434,12 +12434,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dibrugarh and Tinsukia",
-     "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
-    },
-    {
      "en": "Golaghat",
      "as": "গোলাঘাট"
+    },
+    {
+     "en": "Dibrugarh and Tinsukia",
+     "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
     },
     {
      "en": "Nagaon",
@@ -12450,7 +12450,7 @@ module.exports = {
      "as": "বৰপেটা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Dibru-Saikhowa is located in Dibrugarh and Tinsukia districts.",
     "as": "ডিব্ৰু-শৈখোৱা ডিব্ৰুগড় আৰু তিনিচুকীয়া জিলাত অৱস্থিত।"
@@ -12494,10 +12494,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Manas",
-     "as": "মানস"
-    },
-    {
      "en": "Kaziranga",
      "as": "কাজিৰঙা"
     },
@@ -12506,11 +12502,15 @@ module.exports = {
      "as": "নামেৰি"
     },
     {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
      "en": "Orang",
      "as": "ওৰাং"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Manas National Park is the largest in Assam by area.",
     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান মাটিকালিৰ ভিত্তিত অসমৰ সৰ্ববৃহৎ।"
@@ -12524,10 +12524,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Darrang and Sonitpur",
-     "as": "দৰং আৰু শোণিতপুৰ"
-    },
-    {
      "en": "Cachar",
      "as": "কাছাৰ"
     },
@@ -12536,11 +12532,15 @@ module.exports = {
      "as": "ডিব্ৰুগড়"
     },
     {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
      "en": "Barpeta",
      "as": "বৰপেটা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Orang National Park is located in Darrang and Sonitpur districts.",
     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান দৰং আৰু শোণিতপুৰ জিলাত অৱস্থিত।"
@@ -12554,10 +12554,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "one-horned rhinoceros",
-     "as": "এশিঙীয়া গঁড়"
-    },
-    {
      "en": "lion",
      "as": "সিংহ"
     },
@@ -12568,9 +12564,13 @@ module.exports = {
     {
      "en": "panda",
      "as": "পাণ্ডা"
+    },
+    {
+     "en": "one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Orang is famous for the one-horned rhinoceros.",
     "as": "ওৰাং এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
@@ -12584,12 +12584,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Orang",
-     "as": "ওৰাং"
-    },
-    {
      "en": "Manas",
      "as": "মানস"
+    },
+    {
+     "en": "Orang",
+     "as": "ওৰাং"
     },
     {
      "en": "Kaziranga",
@@ -12600,7 +12600,7 @@ module.exports = {
      "as": "নামেৰি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Orang is the smallest national park of Assam.",
     "as": "ওৰাং অসমৰ ক্ষুদ্ৰতম ৰাষ্ট্ৰীয় উদ্যান।"
@@ -12644,10 +12644,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nameri",
-     "as": "নামেৰি"
-    },
-    {
      "en": "Deepor Beel",
      "as": "দীপৰ বিল"
     },
@@ -12656,11 +12652,15 @@ module.exports = {
      "as": "শুৱালকুছি"
     },
     {
+     "en": "Nameri",
+     "as": "নামেৰি"
+    },
+    {
      "en": "Majuli",
      "as": "মাজুলী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Nameri is a tiger reserve in Assam.",
     "as": "নামেৰি অসমৰ এটা বাঘ সংৰক্ষিত বন।"
@@ -12674,10 +12674,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
      "en": "Gujarat",
      "as": "গুজৰাট"
     },
@@ -12686,11 +12682,15 @@ module.exports = {
      "as": "ৰাজস্থান"
     },
     {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
      "en": "Punjab",
      "as": "পঞ্জাৱ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The hoolock gibbon is found in Assam.",
     "as": "হলৌ বান্দৰ অসমত পোৱা যায়।"
@@ -12704,12 +12704,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hoolock gibbon",
-     "as": "হলৌ বান্দৰ"
-    },
-    {
      "en": "Chimpanzee",
      "as": "শিম্পাঞ্জি"
+    },
+    {
+     "en": "Hoolock gibbon",
+     "as": "হলৌ বান্দৰ"
     },
     {
      "en": "Gorilla",
@@ -12720,7 +12720,7 @@ module.exports = {
      "as": "অৰাংউটান"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The hoolock gibbon is the only ape found in India.",
     "as": "হলৌ বান্দৰ ভাৰতত পোৱা একমাত্ৰ ৱানৰ।"
@@ -12734,12 +12734,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hargila",
-     "as": "হৰগিলা"
-    },
-    {
      "en": "Bogakori",
      "as": "বগাকৰি"
+    },
+    {
+     "en": "Hargila",
+     "as": "হৰগিলা"
     },
     {
      "en": "Kadam",
@@ -12750,7 +12750,7 @@ module.exports = {
      "as": "বৰদৈ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Greater Adjutant Stork is locally known as Hargila.",
     "as": "বৰটোকোলাক স্থানীয়ভাৱে হৰগিলা বুলি জনা যায়।"
@@ -12764,10 +12764,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Purnima Devi Barman",
-     "as": "পূৰ্ণিমা দেৱী বৰ্মন"
-    },
-    {
      "en": "Medha Patkar",
      "as": "মেধা পাটকৰ"
     },
@@ -12776,11 +12772,15 @@ module.exports = {
      "as": "সুন্দৰলাল বহুগুণা"
     },
     {
+     "en": "Purnima Devi Barman",
+     "as": "পূৰ্ণিমা দেৱী বৰ্মন"
+    },
+    {
      "en": "Vandana Shiva",
      "as": "বন্দনা শিৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Purnima Devi Barman is associated with Hargila conservation.",
     "as": "পূৰ্ণিমা দেৱী বৰ্মন হৰগিলা সংৰক্ষণৰ সৈতে জড়িত।"
@@ -12824,10 +12824,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "One-horned rhinoceros",
-     "as": "এশিঙীয়া গঁড়"
-    },
-    {
      "en": "Tiger",
      "as": "বাঘ"
     },
@@ -12836,11 +12832,15 @@ module.exports = {
      "as": "হাতী"
     },
     {
+     "en": "One-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
      "en": "Lion",
      "as": "সিংহ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The one-horned rhinoceros is the State animal of Assam.",
     "as": "এশিঙীয়া গঁড় অসমৰ ৰাজ্য প্ৰাণী।"
@@ -12854,10 +12854,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hollong",
-     "as": "হলং"
-    },
-    {
      "en": "Banyan",
      "as": "বট"
     },
@@ -12868,9 +12864,13 @@ module.exports = {
     {
      "en": "Neem",
      "as": "নিম"
+    },
+    {
+     "en": "Hollong",
+     "as": "হলং"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Hollong is the State tree of Assam.",
     "as": "হলং অসমৰ ৰাজ্য বৃক্ষ।"
@@ -12884,12 +12884,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kopou Phul",
-     "as": "কপৌ ফুল"
-    },
-    {
      "en": "Lotus",
      "as": "পদুম"
+    },
+    {
+     "en": "Kopou Phul",
+     "as": "কপৌ ফুল"
     },
     {
      "en": "Rose",
@@ -12900,7 +12900,7 @@ module.exports = {
      "as": "সূৰ্যমুখী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Kopou Phul is the State flower of Assam.",
     "as": "কপৌ ফুল অসমৰ ৰাজ্য পুষ্প।"
@@ -12914,10 +12914,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hemis National Park",
-     "as": "হেমিছ ৰাষ্ট্ৰীয় উদ্যান"
-    },
-    {
      "en": "Kaziranga",
      "as": "কাজিৰঙা"
     },
@@ -12926,11 +12922,15 @@ module.exports = {
      "as": "কানহা"
     },
     {
+     "en": "Hemis National Park",
+     "as": "হেমিছ ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
      "en": "Gir",
      "as": "গিৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Hemis National Park is the largest in India by area.",
     "as": "হেমিছ ৰাষ্ট্ৰীয় উদ্যান মাটিকালিৰ ভিত্তিত ভাৰতৰ সৰ্ববৃহৎ।"
@@ -12944,12 +12944,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Asiatic lions",
-     "as": "এছিয়াটিক সিংহ"
-    },
-    {
      "en": "tigers",
      "as": "বাঘ"
+    },
+    {
+     "en": "Asiatic lions",
+     "as": "এছিয়াটিক সিংহ"
     },
     {
      "en": "rhinos",
@@ -12960,7 +12960,7 @@ module.exports = {
      "as": "হাতী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Gir National Park is famous for Asiatic lions.",
     "as": "গিৰ ৰাষ্ট্ৰীয় উদ্যান এছিয়াটিক সিংহৰ বাবে বিখ্যাত।"
@@ -13034,10 +13034,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "mangrove forest",
-     "as": "মেনগ্ৰ'ভ বন"
-    },
-    {
      "en": "rainforest",
      "as": "বৰ্ষাৰণ্য"
     },
@@ -13046,11 +13042,15 @@ module.exports = {
      "as": "মৰুভূমি"
     },
     {
+     "en": "mangrove forest",
+     "as": "মেনগ্ৰ'ভ বন"
+    },
+    {
      "en": "grassland",
      "as": "তৃণভূমি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Sundarbans is a mangrove forest.",
     "as": "সুন্দৰবন এটা মেনগ্ৰ'ভ বন।"
@@ -13094,10 +13094,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "snow leopard",
-     "as": "তুষাৰ চিতা"
-    },
-    {
      "en": "tiger",
      "as": "বাঘ"
     },
@@ -13106,11 +13102,15 @@ module.exports = {
      "as": "সিংহ"
     },
     {
+     "en": "snow leopard",
+     "as": "তুষাৰ চিতা"
+    },
+    {
      "en": "elephant",
      "as": "হাতী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Project Snow Leopard protects the snow leopard.",
     "as": "প্ৰজেক্ট স্ন' লেপাৰ্ডে তুষাৰ চিতা সুৰক্ষা কৰে।"
@@ -13124,12 +13124,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tiger",
-     "as": "বাঘ"
-    },
-    {
      "en": "Lion",
      "as": "সিংহ"
+    },
+    {
+     "en": "Tiger",
+     "as": "বাঘ"
     },
     {
      "en": "Elephant",
@@ -13140,7 +13140,7 @@ module.exports = {
      "as": "ময়ূৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The tiger is the national animal of India.",
     "as": "বাঘ ভাৰতৰ ৰাষ্ট্ৰীয় প্ৰাণী।"
@@ -13154,12 +13154,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Peacock",
-     "as": "ময়ূৰ"
-    },
-    {
      "en": "Parrot",
      "as": "ভাটৌ"
+    },
+    {
+     "en": "Peacock",
+     "as": "ময়ূৰ"
     },
     {
      "en": "Crane",
@@ -13170,7 +13170,7 @@ module.exports = {
      "as": "ৰাজহাঁহ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The peacock is the national bird of India.",
     "as": "ময়ূৰ ভাৰতৰ ৰাষ্ট্ৰীয় চৰাই।"
@@ -13214,10 +13214,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Lotus",
-     "as": "পদুম"
-    },
-    {
      "en": "Rose",
      "as": "গোলাপ"
     },
@@ -13226,11 +13222,15 @@ module.exports = {
      "as": "সূৰ্যমুখী"
     },
     {
+     "en": "Lotus",
+     "as": "পদুম"
+    },
+    {
      "en": "Marigold",
      "as": "গেণ্ডাফুল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The lotus is the national flower of India.",
     "as": "পদুম ভাৰতৰ ৰাষ্ট্ৰীয় পুষ্প।"
@@ -13244,12 +13244,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "clean up the river Ganga",
-     "as": "গঙ্গা নদী পৰিষ্কাৰ কৰা"
-    },
-    {
      "en": "build dams",
      "as": "বান্ধ নিৰ্মাণ"
+    },
+    {
+     "en": "clean up the river Ganga",
+     "as": "গঙ্গা নদী পৰিষ্কাৰ কৰা"
     },
     {
      "en": "irrigate fields",
@@ -13260,7 +13260,7 @@ module.exports = {
      "as": "বিদ্যুৎ উৎপাদন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Ganga Action Plan was launched to clean the river.",
     "as": "গঙ্গা কাৰ্য পৰিকল্পনা নদী পৰিষ্কাৰ কৰিবলৈ আৰম্ভ কৰা হৈছিল।"
@@ -13274,12 +13274,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2014",
-     "as": "২০১৪"
-    },
-    {
      "en": "2010",
      "as": "২০১০"
+    },
+    {
+     "en": "2014",
+     "as": "২০১৪"
     },
     {
      "en": "2008",
@@ -13290,7 +13290,7 @@ module.exports = {
      "as": "২০১৬"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Namami Gange was launched in 2014.",
     "as": "নমামি গঙ্গে ২০১৪ চনত আৰম্ভ কৰা হৈছিল।"
@@ -13394,10 +13394,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "environmental protection",
-     "as": "পৰিৱেশ সুৰক্ষা"
-    },
-    {
      "en": "income tax",
      "as": "আয়কৰ"
     },
@@ -13408,9 +13404,13 @@ module.exports = {
     {
      "en": "criminal cases",
      "as": "ফৌজদাৰী গোচৰ"
+    },
+    {
+     "en": "environmental protection",
+     "as": "পৰিৱেশ সুৰক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The NGT deals with environmental protection cases.",
     "as": "এনজিটিয়ে পৰিৱেশ সুৰক্ষাৰ গোচৰ চোৱা-চিতা কৰে।"
@@ -13424,10 +13424,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "the polluter bears the cost of pollution",
-     "as": "প্ৰদূষকে প্ৰদূষণৰ ব্যয় বহন কৰে"
-    },
-    {
      "en": "the government pays",
      "as": "চৰকাৰে পৰিশোধ কৰে"
     },
@@ -13436,11 +13432,15 @@ module.exports = {
      "as": "ৰাইজে পৰিশোধ কৰে"
     },
     {
+     "en": "the polluter bears the cost of pollution",
+     "as": "প্ৰদূষকে প্ৰদূষণৰ ব্যয় বহন কৰে"
+    },
+    {
      "en": "nobody pays",
      "as": "কোনেও পৰিশোধ নকৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The polluter pays principle makes the polluter bear the cost.",
     "as": "প্ৰদূষক পৰিশোধ নীতিয়ে প্ৰদূষকক ব্যয় বহন কৰায়।"
@@ -13454,10 +13454,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "before harm occurs",
-     "as": "ক্ষতি হোৱাৰ আগতে"
-    },
-    {
      "en": "after harm occurs",
      "as": "ক্ষতি হোৱাৰ পিছত"
     },
@@ -13468,9 +13464,13 @@ module.exports = {
     {
      "en": "never",
      "as": "কেতিয়াও নহয়"
+    },
+    {
+     "en": "before harm occurs",
+     "as": "ক্ষতি হোৱাৰ আগতে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The precautionary principle means acting before harm occurs.",
     "as": "সতৰ্কতা নীতি মানে ক্ষতি হোৱাৰ আগতে ব্যৱস্থা লোৱা।"
@@ -13484,10 +13484,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "environmental protection",
-     "as": "পৰিৱেশ সুৰক্ষা"
-    },
-    {
      "en": "deforestation",
      "as": "বন নিধন"
     },
@@ -13498,9 +13494,13 @@ module.exports = {
     {
      "en": "urbanisation",
      "as": "নগৰীকৰণ"
+    },
+    {
+     "en": "environmental protection",
+     "as": "পৰিৱেশ সুৰক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Sustainable development balances growth with environmental protection.",
     "as": "স্থায়ী উন্নয়নে বৃদ্ধিক পৰিৱেশ সুৰক্ষাৰ সৈতে ভাৰসাম্য ৰাখে।"
@@ -13514,10 +13514,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Solar energy",
-     "as": "সৌৰ শক্তি"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
     },
@@ -13526,11 +13522,15 @@ module.exports = {
      "as": "পেট্ৰ'লিয়াম"
     },
     {
+     "en": "Solar energy",
+     "as": "সৌৰ শক্তি"
+    },
+    {
      "en": "Natural gas",
      "as": "প্ৰাকৃতিক গেছ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Solar energy is a renewable source.",
     "as": "সৌৰ শক্তি এটা নবীকৰণযোগ্য উৎস।"
@@ -13544,10 +13544,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Coal",
-     "as": "কয়লা"
-    },
-    {
      "en": "Solar energy",
      "as": "সৌৰ শক্তি"
     },
@@ -13556,11 +13552,15 @@ module.exports = {
      "as": "বতাহ শক্তি"
     },
     {
+     "en": "Coal",
+     "as": "কয়লা"
+    },
+    {
      "en": "Hydel energy",
      "as": "জল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Coal is a non-renewable source of energy.",
     "as": "কয়লা এটা অনবীকৰণযোগ্য শক্তিৰ উৎস।"
@@ -13604,10 +13604,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "does not get exhausted",
-     "as": "শেষ নহয়"
-    },
-    {
      "en": "is expensive",
      "as": "ব্যয়বহুল"
     },
@@ -13616,11 +13612,15 @@ module.exports = {
      "as": "অধিক প্ৰদূষণ কৰে"
     },
     {
+     "en": "does not get exhausted",
+     "as": "শেষ নহয়"
+    },
+    {
      "en": "is hard to use",
      "as": "ব্যৱহাৰ কৰা কঠিন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Renewable energy does not get exhausted.",
     "as": "নবীকৰণযোগ্য শক্তি শেষ নহয়।"
@@ -13634,10 +13634,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Methane",
-     "as": "মিথেন"
-    },
-    {
      "en": "Oxygen",
      "as": "অক্সিজেন"
     },
@@ -13648,9 +13644,13 @@ module.exports = {
     {
      "en": "Hydrogen",
      "as": "হাইড্ৰজেন"
+    },
+    {
+     "en": "Methane",
+     "as": "মিথেন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Paddy fields emit methane.",
     "as": "ধাননিয়ে মিথেন নিৰ্গত কৰে।"
@@ -13694,10 +13694,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "net zero carbon emissions",
-     "as": "নিট শূন্য কাৰ্বন নিৰ্গমন"
-    },
-    {
      "en": "high emissions",
      "as": "উচ্চ নিৰ্গমন"
     },
@@ -13708,9 +13704,13 @@ module.exports = {
     {
      "en": "zero growth",
      "as": "শূন্য বৃদ্ধি"
+    },
+    {
+     "en": "net zero carbon emissions",
+     "as": "নিট শূন্য কাৰ্বন নিৰ্গমন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Carbon neutrality means net zero carbon emissions.",
     "as": "কাৰ্বন নিৰপেক্ষতা মানে নিট শূন্য কাৰ্বন নিৰ্গমন।"
@@ -13724,12 +13724,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Antarctica",
-     "as": "এণ্টাৰ্কটিকা"
-    },
-    {
      "en": "the Arctic",
      "as": "আৰ্কটিক"
+    },
+    {
+     "en": "Antarctica",
+     "as": "এণ্টাৰ্কটিকা"
     },
     {
      "en": "Africa",
@@ -13740,7 +13740,7 @@ module.exports = {
      "as": "এছিয়া"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The ozone hole is largest over Antarctica.",
     "as": "অ'জন ছিদ্ৰ এণ্টাৰ্কটিকাৰ ওপৰত আটাইতকৈ ডাঙৰ।"
@@ -13754,10 +13754,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nitrous oxide",
-     "as": "নাইট্ৰাছ অক্সাইড"
-    },
-    {
      "en": "Carbon monoxide",
      "as": "কাৰ্বন মনোক্সাইড"
     },
@@ -13768,9 +13764,13 @@ module.exports = {
     {
      "en": "Ozone",
      "as": "অ'জন"
+    },
+    {
+     "en": "Nitrous oxide",
+     "as": "নাইট্ৰাছ অক্সাইড"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Nitrous oxide is known as laughing gas.",
     "as": "নাইট্ৰাছ অক্সাইডক হাঁহিৰ গেছ বুলি জনা যায়।"
@@ -13904,10 +13904,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Vehicular emissions",
-     "as": "বাহনৰ নিৰ্গমন"
-    },
-    {
      "en": "Rain",
      "as": "বৰষুণ"
     },
@@ -13916,11 +13912,15 @@ module.exports = {
      "as": "গছ"
     },
     {
+     "en": "Vehicular emissions",
+     "as": "বাহনৰ নিৰ্গমন"
+    },
+    {
      "en": "Wind",
      "as": "বতাহ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Vehicular emissions are a major source of air pollution.",
     "as": "বাহনৰ নিৰ্গমন বায়ু প্ৰদূষণৰ এটা প্ৰধান উৎস।"
@@ -13934,10 +13934,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "air pollution",
-     "as": "বায়ু প্ৰদূষণ"
-    },
-    {
      "en": "water pollution",
      "as": "জল প্ৰদূষণ"
     },
@@ -13948,9 +13944,13 @@ module.exports = {
     {
      "en": "soil erosion",
      "as": "মাটি ক্ষয়"
+    },
+    {
+     "en": "air pollution",
+     "as": "বায়ু প্ৰদূষণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "CNG was promoted to reduce air pollution.",
     "as": "CNG বায়ু প্ৰদূষণ হ্ৰাস কৰিবলৈ প্ৰসাৰ কৰা হৈছিল।"
@@ -13964,10 +13964,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "vehicular pollution",
-     "as": "বাহন প্ৰদূষণ"
-    },
-    {
      "en": "industrial waste",
      "as": "উদ্যোগিক বৰ্জন"
     },
@@ -13976,11 +13972,15 @@ module.exports = {
      "as": "শব্দ"
     },
     {
+     "en": "vehicular pollution",
+     "as": "বাহন প্ৰদূষণ"
+    },
+    {
      "en": "sewage",
      "as": "নৰ্দমা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The odd-even scheme was introduced to control vehicular pollution.",
     "as": "অড-ইভেন আঁচনি বাহন প্ৰদূষণ নিয়ন্ত্ৰণ কৰিবলৈ প্ৰৱৰ্তন কৰা হৈছিল।"
@@ -13994,12 +13994,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Natural gas",
-     "as": "প্ৰাকৃতিক গেছ"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
+    },
+    {
+     "en": "Natural gas",
+     "as": "প্ৰাকৃতিক গেছ"
     },
     {
      "en": "Petroleum",
@@ -14010,7 +14010,7 @@ module.exports = {
      "as": "ডিজেল"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Natural gas is the cleanest fossil fuel.",
     "as": "প্ৰাকৃতিক গেছ আটাইতকৈ পৰিষ্কাৰ জীৱাশ্ম ইন্ধন।"
@@ -14024,10 +14024,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "thermal power plants",
-     "as": "তাপ বিদ্যুৎ কেন্দ্ৰ"
-    },
-    {
      "en": "nuclear plants",
      "as": "পাৰমাণৱিক কেন্দ্ৰ"
     },
@@ -14036,11 +14032,15 @@ module.exports = {
      "as": "জলবিদ্যুৎ কেন্দ্ৰ"
     },
     {
+     "en": "thermal power plants",
+     "as": "তাপ বিদ্যুৎ কেন্দ্ৰ"
+    },
+    {
      "en": "solar plants",
      "as": "সৌৰ কেন্দ্ৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Fly ash is produced by thermal power plants.",
     "as": "ফ্লাই এশ তাপ বিদ্যুৎ কেন্দ্ৰই উৎপাদন কৰে।"
@@ -14114,10 +14114,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Reduce, Reuse, Recycle",
-     "as": "হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ"
-    },
-    {
      "en": "Read, Run, Rest",
      "as": "পঢ়া, দৌৰা, জিৰণি"
     },
@@ -14126,11 +14122,15 @@ module.exports = {
      "as": "উঠা, দৌৰা, দৌড়"
     },
     {
+     "en": "Reduce, Reuse, Recycle",
+     "as": "হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ"
+    },
+    {
      "en": "Red, Rose, Rain",
      "as": "ৰঙা, গোলাপ, বৰষুণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The 3R principle stands for Reduce, Reuse, Recycle.",
     "as": "৩R নীতিয়ে হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ সূচায়।"
@@ -14174,10 +14174,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Used batteries",
-     "as": "ব্যৱহৃত বেটাৰী"
-    },
-    {
      "en": "Kitchen waste",
      "as": "ৰান্ধনিশালৰ বৰ্জন"
     },
@@ -14188,9 +14184,13 @@ module.exports = {
     {
      "en": "Paper",
      "as": "কাগজ"
+    },
+    {
+     "en": "Used batteries",
+     "as": "ব্যৱহৃত বেটাৰী"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Used batteries are hazardous waste.",
     "as": "ব্যৱহৃত বেটাৰী বিপদজনক বৰ্জন।"
@@ -14204,10 +14204,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "treated and disposed of safely",
-     "as": "সুৰক্ষিতভাৱে প্ৰক্ৰিয়াকৰণ আৰু বৰ্জন"
-    },
-    {
      "en": "thrown in open land",
      "as": "মুকলিকৈ পেলোৱা"
     },
@@ -14218,9 +14214,13 @@ module.exports = {
     {
      "en": "dumped in rivers",
      "as": "নদীত পেলোৱা"
+    },
+    {
+     "en": "treated and disposed of safely",
+     "as": "সুৰক্ষিতভাৱে প্ৰক্ৰিয়াকৰণ আৰু বৰ্জন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Hospital waste should be treated and disposed of safely.",
     "as": "চিকিৎসালয়ৰ বৰ্জন সুৰক্ষিতভাৱে প্ৰক্ৰিয়াকৰণ আৰু বৰ্জন কৰা উচিত।"
@@ -14234,12 +14234,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "hospitals and clinics",
-     "as": "চিকিৎসালয় আৰু ক্লিনিক"
-    },
-    {
      "en": "schools",
      "as": "বিদ্যালয়"
+    },
+    {
+     "en": "hospitals and clinics",
+     "as": "চিকিৎসালয় আৰু ক্লিনিক"
     },
     {
      "en": "banks",
@@ -14250,7 +14250,7 @@ module.exports = {
      "as": "কাৰ্যালয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Biomedical waste is generated by hospitals and clinics.",
     "as": "জৈৱ-চিকিৎসা বৰ্জন চিকিৎসালয় আৰু ক্লিনিকে উৎপাদন কৰে।"
@@ -14264,10 +14264,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "discarded computers and phones",
-     "as": "পেলাই দিয়া কম্পিউটাৰ আৰু ফোন"
-    },
-    {
      "en": "food waste",
      "as": "খাদ্য বৰ্জন"
     },
@@ -14276,11 +14272,15 @@ module.exports = {
      "as": "বাগিচাৰ বৰ্জন"
     },
     {
+     "en": "discarded computers and phones",
+     "as": "পেলাই দিয়া কম্পিউটাৰ আৰু ফোন"
+    },
+    {
      "en": "construction waste",
      "as": "নিৰ্মাণ বৰ্জন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "E-waste includes discarded computers and phones.",
     "as": "ই-বৰ্জনত পেলাই দিয়া কম্পিউটাৰ আৰু ফোন অন্তৰ্ভুক্ত।"
@@ -14294,12 +14294,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "increasing forest cover",
-     "as": "বনাঞ্চলৰ আৱৰণ বৃদ্ধি"
-    },
-    {
      "en": "building dams",
      "as": "বান্ধ নিৰ্মাণ"
+    },
+    {
+     "en": "increasing forest cover",
+     "as": "বনাঞ্চলৰ আৱৰণ বৃদ্ধি"
     },
     {
      "en": "mining",
@@ -14310,7 +14310,7 @@ module.exports = {
      "as": "নগৰীকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Green India Mission aims at increasing forest cover.",
     "as": "গ্ৰীণ ইণ্ডিয়া মিছনৰ লক্ষ্য বনাঞ্চলৰ আৱৰণ বৃদ্ধি।"
@@ -14324,10 +14324,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "planting trees on community land",
-     "as": "সম্প্ৰদায়িক মাটিত গছ ৰোপণ"
-    },
-    {
      "en": "cutting forests",
      "as": "বন কটা"
     },
@@ -14336,11 +14332,15 @@ module.exports = {
      "as": "খনন"
     },
     {
+     "en": "planting trees on community land",
+     "as": "সম্প্ৰদায়িক মাটিত গছ ৰোপণ"
+    },
+    {
      "en": "building roads",
      "as": "পথ নিৰ্মাণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Social forestry plants trees on community land.",
     "as": "সমাজ বনাঞ্চলে সম্প্ৰদায়িক মাটিত গছ ৰোপণ কৰে।"
@@ -14384,10 +14384,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "July",
-     "as": "জুলাই"
-    },
-    {
      "en": "June",
      "as": "জুন"
     },
@@ -14396,11 +14392,15 @@ module.exports = {
      "as": "আগষ্ট"
     },
     {
+     "en": "July",
+     "as": "জুলাই"
+    },
+    {
      "en": "September",
      "as": "ছেপ্তেম্বৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Van Mahotsav is celebrated in July.",
     "as": "বন মহোৎসৱ জুলাইত পালন কৰা হয়।"
@@ -14414,10 +14414,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Ministry of Jal Shakti",
-     "as": "জল শক্তি মন্ত্ৰালয়"
-    },
-    {
      "en": "Ministry of Finance",
      "as": "বিত্ত মন্ত্ৰালয়"
     },
@@ -14428,9 +14424,13 @@ module.exports = {
     {
      "en": "SEBI",
      "as": "ছেবি"
+    },
+    {
+     "en": "Ministry of Jal Shakti",
+     "as": "জল শক্তি মন্ত্ৰালয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It works under the Ministry of Jal Shakti.",
     "as": "ই জল শক্তি মন্ত্ৰালয়ৰ অধীনত কাম কৰে।"
@@ -14444,10 +14444,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "collecting and storing rainwater",
-     "as": "বৰষুণৰ পানী সংগ্ৰহ আৰু সঞ্চয়"
-    },
-    {
      "en": "wasting rainwater",
      "as": "বৰষুণৰ পানী নষ্ট কৰা"
     },
@@ -14458,9 +14454,13 @@ module.exports = {
     {
      "en": "draining water",
      "as": "পানী নিষ্কাশন"
+    },
+    {
+     "en": "collecting and storing rainwater",
+     "as": "বৰষুণৰ পানী সংগ্ৰহ আৰু সঞ্চয়"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Rainwater harvesting collects and stores rainwater.",
     "as": "বৰষুণৰ পানী সংগ্ৰহে বৰষুণৰ পানী সংগ্ৰহ আৰু সঞ্চয় কৰে।"
@@ -14474,10 +14474,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "recharge groundwater",
-     "as": "ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ"
-    },
-    {
      "en": "increase pollution",
      "as": "প্ৰদূষণ বৃদ্ধি"
     },
@@ -14488,9 +14484,13 @@ module.exports = {
     {
      "en": "flood rivers",
      "as": "নদীত বানপানী"
+    },
+    {
+     "en": "recharge groundwater",
+     "as": "ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It aims to recharge groundwater.",
     "as": "ই ভূগৰ্ভস্থ পানী পুনৰ্ভৰণৰ লক্ষ্য ৰাখে।"
@@ -14504,10 +14504,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "excessive extraction",
-     "as": "অত্যধিক নিষ্কাশন"
-    },
-    {
      "en": "rainwater harvesting",
      "as": "বৰষুণৰ পানী সংগ্ৰহ"
     },
@@ -14518,9 +14514,13 @@ module.exports = {
     {
      "en": "conservation",
      "as": "সংৰক্ষণ"
+    },
+    {
+     "en": "excessive extraction",
+     "as": "অত্যধিক নিষ্কাশন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Excessive extraction causes groundwater depletion.",
     "as": "অত্যধিক নিষ্কাশনে ভূগৰ্ভস্থ পানীৰ ক্ষয়ৰ সৃষ্টি কৰে।"
@@ -14534,10 +14534,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Terrace farming",
-     "as": "থামনি খেতি"
-    },
-    {
      "en": "Deforestation",
      "as": "বন নিধন"
     },
@@ -14546,11 +14542,15 @@ module.exports = {
      "as": "অত্যধিক চৰণ"
     },
     {
+     "en": "Terrace farming",
+     "as": "থামনি খেতি"
+    },
+    {
      "en": "Monocropping",
      "as": "একশস্য খেতি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Terrace farming conserves soil.",
     "as": "থামনি খেতিয়ে মাটি সংৰক্ষণ কৰে।"
@@ -14624,12 +14624,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fertile land turning into desert",
-     "as": "উৰ্বৰ মাটি মৰুভূমিলৈ পৰিণত হোৱা"
-    },
-    {
      "en": "desert turning green",
      "as": "মৰুভূমি সেউজ হোৱা"
+    },
+    {
+     "en": "fertile land turning into desert",
+     "as": "উৰ্বৰ মাটি মৰুভূমিলৈ পৰিণত হোৱা"
     },
     {
      "en": "building cities",
@@ -14640,7 +14640,7 @@ module.exports = {
      "as": "বন ৰোপণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Desertification is fertile land turning into desert.",
     "as": "মৰুভূমিকৰণ হৈছে উৰ্বৰ মাটি মৰুভূমিলৈ পৰিণত হোৱা।"
@@ -14654,10 +14654,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Methane",
-     "as": "মিথেন"
-    },
-    {
      "en": "Oxygen",
      "as": "অক্সিজেন"
     },
@@ -14668,9 +14664,13 @@ module.exports = {
     {
      "en": "Helium",
      "as": "হিলিয়াম"
+    },
+    {
+     "en": "Methane",
+     "as": "মিথেন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Livestock release methane.",
     "as": "পশুধনে মিথেন নিৰ্গত কৰে।"
@@ -14684,12 +14684,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "reducing the environmental impact of buildings",
-     "as": "ভৱনৰ পৰিৱেশিক প্ৰভাৱ হ্ৰাস"
-    },
-    {
      "en": "increasing energy use",
      "as": "শক্তি ব্যৱহাৰ বৃদ্ধি"
+    },
+    {
+     "en": "reducing the environmental impact of buildings",
+     "as": "ভৱনৰ পৰিৱেশিক প্ৰভাৱ হ্ৰাস"
     },
     {
      "en": "using more water",
@@ -14700,7 +14700,7 @@ module.exports = {
      "as": "গছ কটা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Green buildings reduce environmental impact.",
     "as": "সেউজ ভৱনে পৰিৱেশিক প্ৰভাৱ হ্ৰাস কৰে।"
@@ -14744,12 +14744,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "assess the impact of a project on the environment",
-     "as": "এটা প্ৰকল্পৰ পৰিৱেশত প্ৰভাৱ মূল্যাংকন"
-    },
-    {
      "en": "increase project cost",
      "as": "প্ৰকল্পৰ ব্যয় বৃদ্ধি"
+    },
+    {
+     "en": "assess the impact of a project on the environment",
+     "as": "এটা প্ৰকল্পৰ পৰিৱেশত প্ৰভাৱ মূল্যাংকন"
     },
     {
      "en": "delay projects",
@@ -14760,7 +14760,7 @@ module.exports = {
      "as": "লাভ হ্ৰাস"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "EIA assesses a project's environmental impact.",
     "as": "EIA য়ে এটা প্ৰকল্পৰ পৰিৱেশিক প্ৰভাৱ মূল্যাংকন কৰে।"
@@ -14774,12 +14774,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Using public transport",
-     "as": "ৰাজহুৱা পৰিবহন ব্যৱহাৰ"
-    },
-    {
      "en": "Using more private cars",
      "as": "অধিক ব্যক্তিগত গাড়ী ব্যৱহাৰ"
+    },
+    {
+     "en": "Using public transport",
+     "as": "ৰাজহুৱা পৰিবহন ব্যৱহাৰ"
     },
     {
      "en": "Burning more fuel",
@@ -14790,7 +14790,7 @@ module.exports = {
      "as": "ৰক্ষণাবেক্ষণ উপেক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Using public transport reduces air pollution.",
     "as": "ৰাজহুৱা পৰিবহন ব্যৱহাৰে বায়ু প্ৰদূষণ হ্ৰাস কৰে।"
@@ -14804,10 +14804,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Biogas",
-     "as": "বায়'গেছ"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
     },
@@ -14816,11 +14812,15 @@ module.exports = {
      "as": "পেট্ৰ'লিয়াম"
     },
     {
+     "en": "Biogas",
+     "as": "বায়'গেছ"
+    },
+    {
      "en": "Diesel",
      "as": "ডিজেল"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Biogas is a renewable energy source from organic matter.",
     "as": "বায়'গেছ জৈৱিক পদাৰ্থৰ পৰা এটা নবীকৰণযোগ্য শক্তিৰ উৎস।"
@@ -14834,12 +14834,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "solar energy",
-     "as": "সৌৰ শক্তি"
-    },
-    {
      "en": "coal energy",
      "as": "কয়লা শক্তি"
+    },
+    {
+     "en": "solar energy",
+     "as": "সৌৰ শক্তি"
     },
     {
      "en": "nuclear energy",
@@ -14850,7 +14850,7 @@ module.exports = {
      "as": "ডিজেল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It promotes solar energy.",
     "as": "ই সৌৰ শক্তি প্ৰসাৰ কৰে।"
@@ -14894,12 +14894,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "India",
-     "as": "ভাৰত"
-    },
-    {
      "en": "France",
      "as": "ফ্ৰান্স"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
     },
     {
      "en": "the USA",
@@ -14910,7 +14910,7 @@ module.exports = {
      "as": "চীন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The ISA is headquartered in India.",
     "as": "ISA ৰ মুখ্য কাৰ্যালয় ভাৰতত।"
@@ -14924,12 +14924,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Water vapour",
-     "as": "জলীয় বাষ্প"
-    },
-    {
      "en": "Carbon dioxide",
      "as": "কাৰ্বন ডাইঅক্সাইড"
+    },
+    {
+     "en": "Water vapour",
+     "as": "জলীয় বাষ্প"
     },
     {
      "en": "Methane",
@@ -14940,7 +14940,7 @@ module.exports = {
      "as": "অ'জন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Water vapour is the most abundant greenhouse gas.",
     "as": "জলীয় বাষ্প আটাইতকৈ প্ৰচুৰ গ্ৰীণহাউছ গেছ।"
@@ -14954,12 +14954,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2005",
-     "as": "২০০৫"
-    },
-    {
      "en": "1997",
      "as": "১৯৯৭"
+    },
+    {
+     "en": "2005",
+     "as": "২০০৫"
     },
     {
      "en": "2000",
@@ -14970,7 +14970,7 @@ module.exports = {
      "as": "২০১০"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Kyoto Protocol came into force in 2005.",
     "as": "কিয়'ট' প্ৰ'ট'কল ২০০৫ চনত কাৰ্যকৰী হৈছিল।"
@@ -15014,12 +15014,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1992",
-     "as": "১৯৯২"
-    },
-    {
      "en": "1982",
      "as": "১৯৮২"
+    },
+    {
+     "en": "1992",
+     "as": "১৯৯২"
     },
     {
      "en": "2002",
@@ -15030,7 +15030,7 @@ module.exports = {
      "as": "২০১২"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Rio Earth Summit was held in 1992.",
     "as": "ৰিঅ' পৃথিৱী সন্মিলন ১৯৯২ চনত অনুষ্ঠিত হৈছিল।"
@@ -15044,10 +15044,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "1972",
-     "as": "১৯৭২"
-    },
-    {
      "en": "1982",
      "as": "১৯৮২"
     },
@@ -15056,11 +15052,15 @@ module.exports = {
      "as": "১৯৯২"
     },
     {
+     "en": "1972",
+     "as": "১৯৭২"
+    },
+    {
      "en": "2002",
      "as": "২০০২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Stockholm Conference was held in 1972.",
     "as": "ষ্টকহল্ম সন্মিলন ১৯৭২ চনত অনুষ্ঠিত হৈছিল।"
@@ -15074,10 +15074,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nairobi",
-     "as": "নাইৰ'বি"
-    },
-    {
      "en": "Geneva",
      "as": "জেনেভা"
     },
@@ -15086,11 +15082,15 @@ module.exports = {
      "as": "নিউয়ৰ্ক"
     },
     {
+     "en": "Nairobi",
+     "as": "নাইৰ'বি"
+    },
+    {
      "en": "Paris",
      "as": "পেৰিছ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "UNEP is headquartered at Nairobi.",
     "as": "UNEP ৰ মুখ্য কাৰ্যালয় নাইৰ'বিত।"
@@ -15134,10 +15134,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "global warming",
-     "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
-    },
-    {
      "en": "global cooling",
      "as": "গোলকীয় শীতলীকৰণ"
     },
@@ -15146,11 +15142,15 @@ module.exports = {
      "as": "অ'জন ক্ষয়"
     },
     {
+     "en": "global warming",
+     "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
+    },
+    {
      "en": "acid rain",
      "as": "অম্ল বৰষুণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A rise in global temperature is global warming.",
     "as": "গোলকীয় উষ্ণতাৰ বৃদ্ধিক গোলকীয় উষ্ণতা বৃদ্ধি কোৱা হয়।"
@@ -15164,12 +15164,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "global warming",
-     "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
-    },
-    {
      "en": "ozone depletion",
      "as": "অ'জন ক্ষয়"
+    },
+    {
+     "en": "global warming",
+     "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
     },
     {
      "en": "acid rain",
@@ -15180,7 +15180,7 @@ module.exports = {
      "as": "বন নিধন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Melting glaciers result from global warming.",
     "as": "হিমবাহ গলি যোৱা গোলকীয় উষ্ণতা বৃদ্ধিৰ ফল।"
@@ -15194,10 +15194,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "More frequent floods",
-     "as": "অধিক সঘন বানপানী"
-    },
-    {
      "en": "Less rainfall",
      "as": "কম বৰষুণ"
     },
@@ -15206,11 +15202,15 @@ module.exports = {
      "as": "বানপানী নাই"
     },
     {
+     "en": "More frequent floods",
+     "as": "অধিক সঘন বানপানী"
+    },
+    {
      "en": "Freezing winters",
      "as": "হিমশীতল শীত"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "More frequent floods are a consequence of climate change in Assam.",
     "as": "অধিক সঘন বানপানী অসমত জলবায়ু পৰিৱৰ্তনৰ এটা পৰিণাম।"
@@ -15284,12 +15284,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rainwater harvesting",
-     "as": "বৰষুণৰ পানী সংগ্ৰহ"
-    },
-    {
      "en": "Leaving taps open",
      "as": "কল খোলা ৰখা"
+    },
+    {
+     "en": "Rainwater harvesting",
+     "as": "বৰষুণৰ পানী সংগ্ৰহ"
     },
     {
      "en": "Wasting water",
@@ -15300,7 +15300,7 @@ module.exports = {
      "as": "নদী প্ৰদূষণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Rainwater harvesting conserves water.",
     "as": "বৰষুণৰ পানী সংগ্ৰহে পানী সংৰক্ষণ কৰে।"
@@ -15314,10 +15314,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Segregating waste",
-     "as": "বৰ্জন পৃথকীকৰণ"
-    },
-    {
      "en": "Burning plastic",
      "as": "প্লাষ্টিক জ্বলোৱা"
     },
@@ -15328,9 +15324,13 @@ module.exports = {
     {
      "en": "Using excess water",
      "as": "অত্যধিক পানী ব্যৱহাৰ"
+    },
+    {
+     "en": "Segregating waste",
+     "as": "বৰ্জন পৃথকীকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Segregating waste is an eco-friendly practice.",
     "as": "বৰ্জন পৃথকীকৰণ এটা পৰিৱেশ-বান্ধৱী অভ্যাস।"
@@ -15344,10 +15344,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hydroelectric power",
-     "as": "জলবিদ্যুৎ শক্তি"
-    },
-    {
      "en": "Thermal power",
      "as": "তাপ শক্তি"
     },
@@ -15356,11 +15352,15 @@ module.exports = {
      "as": "পাৰমাণৱিক শক্তি"
     },
     {
+     "en": "Hydroelectric power",
+     "as": "জলবিদ্যুৎ শক্তি"
+    },
+    {
      "en": "Diesel power",
      "as": "ডিজেল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Hydroelectric power uses flowing water.",
     "as": "জলবিদ্যুৎ শক্তিয়ে প্ৰবাহিত পানী ব্যৱহাৰ কৰে।"
@@ -15404,10 +15404,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Soil and water pollution",
-     "as": "মাটি আৰু পানী প্ৰদূষণ"
-    },
-    {
      "en": "Cleaner crops",
      "as": "অধিক পৰিষ্কাৰ শস্য"
     },
@@ -15416,11 +15412,15 @@ module.exports = {
      "as": "অধিক বনাঞ্চল"
     },
     {
+     "en": "Soil and water pollution",
+     "as": "মাটি আৰু পানী প্ৰদূষণ"
+    },
+    {
      "en": "Less erosion",
      "as": "কম ক্ষয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Excessive pesticide use pollutes soil and water.",
     "as": "কীটনাশকৰ অত্যধিক ব্যৱহাৰে মাটি আৰু পানী প্ৰদূষিত কৰে।"
@@ -15434,12 +15434,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "chemical fertilizers and pesticides",
-     "as": "ৰাসায়নিক সাৰ আৰু কীটনাশক"
-    },
-    {
      "en": "compost",
      "as": "খতিয়ক সাৰ"
+    },
+    {
+     "en": "chemical fertilizers and pesticides",
+     "as": "ৰাসায়নিক সাৰ আৰু কীটনাশক"
     },
     {
      "en": "water",
@@ -15450,7 +15450,7 @@ module.exports = {
      "as": "সূৰ্যৰ পোহৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Organic farming avoids chemical fertilizers and pesticides.",
     "as": "জৈৱিক খেতিয়ে ৰাসায়নিক সাৰ আৰু কীটনাশক পৰিহাৰ কৰে।"
@@ -15464,12 +15464,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It protects soil health",
-     "as": "ই মাটিৰ স্বাস্থ্য সুৰক্ষা কৰে"
-    },
-    {
      "en": "It pollutes water",
      "as": "ই পানী প্ৰদূষিত কৰে"
+    },
+    {
+     "en": "It protects soil health",
+     "as": "ই মাটিৰ স্বাস্থ্য সুৰক্ষা কৰে"
     },
     {
      "en": "It kills soil organisms",
@@ -15480,7 +15480,7 @@ module.exports = {
      "as": "ই অধিক ৰাসায়নিক ব্যৱহাৰ কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Organic farming protects soil health.",
     "as": "জৈৱিক খেতিয়ে মাটিৰ স্বাস্থ্য সুৰক্ষা কৰে।"
@@ -15494,10 +15494,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "excessive use of chemicals",
-     "as": "ৰাসায়নিকৰ অত্যধিক ব্যৱহাৰ"
-    },
-    {
      "en": "less irrigation",
      "as": "কম জলসিঞ্চন"
     },
@@ -15508,9 +15504,13 @@ module.exports = {
     {
      "en": "less food",
      "as": "কম খাদ্য"
+    },
+    {
+     "en": "excessive use of chemicals",
+     "as": "ৰাসায়নিকৰ অত্যধিক ব্যৱহাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It caused excessive use of chemicals.",
     "as": "ই ৰাসায়নিকৰ অত্যধিক ব্যৱহাৰৰ সৃষ্টি কৰিছিল।"
@@ -15524,12 +15524,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Installing scrubbers and filters",
-     "as": "স্ক্ৰাবাৰ আৰু ফিল্টাৰ স্থাপন"
-    },
-    {
      "en": "Releasing smoke directly",
      "as": "ধোঁৱা প্ৰত্যক্ষভাৱে নিৰ্গত কৰা"
+    },
+    {
+     "en": "Installing scrubbers and filters",
+     "as": "স্ক্ৰাবাৰ আৰু ফিল্টাৰ স্থাপন"
     },
     {
      "en": "Using more coal",
@@ -15540,7 +15540,7 @@ module.exports = {
      "as": "নিৰ্গমন উপেক্ষা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Scrubbers and filters control industrial air pollution.",
     "as": "স্ক্ৰাবাৰ আৰু ফিল্টাৰে উদ্যোগিক বায়ু প্ৰদূষণ নিয়ন্ত্ৰণ কৰে।"
@@ -15554,10 +15554,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Using cloth bags",
-     "as": "কাপোৰৰ মোনা ব্যৱহাৰ"
-    },
-    {
      "en": "Using more plastic bags",
      "as": "অধিক প্লাষ্টিক মোনা ব্যৱহাৰ"
     },
@@ -15568,9 +15564,13 @@ module.exports = {
     {
      "en": "Throwing plastic in rivers",
      "as": "নদীত প্লাষ্টিক পেলোৱা"
+    },
+    {
+     "en": "Using cloth bags",
+     "as": "কাপোৰৰ মোনা ব্যৱহাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Using cloth bags reduces plastic pollution.",
     "as": "কাপোৰৰ মোনা ব্যৱহাৰে প্লাষ্টিক প্ৰদূষণ হ্ৰাস কৰে।"
@@ -15584,10 +15584,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "They prevent soil erosion",
-     "as": "সিয়ে মাটি ক্ষয় ৰোধ কৰে"
-    },
-    {
      "en": "They cause floods",
      "as": "সিয়ে বানপানীৰ সৃষ্টি কৰে"
     },
@@ -15596,11 +15592,15 @@ module.exports = {
      "as": "সিয়ে প্ৰদূষণ বঢ়ায়"
     },
     {
+     "en": "They prevent soil erosion",
+     "as": "সিয়ে মাটি ক্ষয় ৰোধ কৰে"
+    },
+    {
      "en": "They reduce rainfall",
      "as": "সিয়ে বৰষুণ হ্ৰাস কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Forests prevent soil erosion.",
     "as": "বনাঞ্চলে মাটি ক্ষয় ৰোধ কৰে।"
@@ -15614,10 +15614,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "hugging trees to save them",
-     "as": "গছ ৰক্ষা কৰিবলৈ গছ সাৱটি ধৰা"
-    },
-    {
      "en": "cutting trees",
      "as": "গছ কটা"
     },
@@ -15628,9 +15624,13 @@ module.exports = {
     {
      "en": "mining",
      "as": "খনন"
+    },
+    {
+     "en": "hugging trees to save them",
+     "as": "গছ ৰক্ষা কৰিবলৈ গছ সাৱটি ধৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Chipko means hugging trees to save them.",
     "as": "চিপক' মানে গছ ৰক্ষা কৰিবলৈ গছ সাৱটি ধৰা।"
@@ -15644,12 +15644,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Biogas",
-     "as": "বায়'গেছ"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
+    },
+    {
+     "en": "Biogas",
+     "as": "বায়'গেছ"
     },
     {
      "en": "Petroleum",
@@ -15660,7 +15660,7 @@ module.exports = {
      "as": "ডিজেল"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Biogas is used as a renewable energy source in rural Assam.",
     "as": "গ্ৰামীণ অসমত বায়'গেছ নবীকৰণযোগ্য শক্তিৰ উৎস হিচাপে ব্যৱহৃত হয়।"
@@ -15704,10 +15704,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Erosion and siltation",
-     "as": "ক্ষয় আৰু পলস সঞ্চয়"
-    },
-    {
      "en": "No water",
      "as": "পানী নাই"
     },
@@ -15716,11 +15712,15 @@ module.exports = {
      "as": "জমি যোৱা"
     },
     {
+     "en": "Erosion and siltation",
+     "as": "ক্ষয় আৰু পলস সঞ্চয়"
+    },
+    {
      "en": "Drying up",
      "as": "শুকাই যোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Erosion and siltation are major problems.",
     "as": "ক্ষয় আৰু পলস সঞ্চয় প্ৰধান সমস্যা।"
@@ -15734,12 +15734,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Deepor Beel",
-     "as": "দীপৰ বিল"
-    },
-    {
      "en": "Majuli",
      "as": "মাজুলী"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
     },
     {
      "en": "Umananda",
@@ -15750,7 +15750,7 @@ module.exports = {
      "as": "শুৱালকুছি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Deepor Beel is important for migratory birds.",
     "as": "দীপৰ বিল পৰিভ্ৰমী চৰাইৰ বাবে গুৰুত্বপূৰ্ণ।"
@@ -15854,10 +15854,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2020",
-     "as": "২০২০"
-    },
-    {
      "en": "2018",
      "as": "২০১৮"
     },
@@ -15866,11 +15862,15 @@ module.exports = {
      "as": "২০১৬"
     },
     {
+     "en": "2020",
+     "as": "২০২০"
+    },
+    {
      "en": "2022",
      "as": "২০২২"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "BS-VI norms were implemented in 2020.",
     "as": "বিএছ-VI নীতি ২০২০ চনত ৰূপায়ণ কৰা হৈছিল।"
@@ -15884,10 +15884,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Burning biomass for cooking",
-     "as": "ৰন্ধা-বঢ়াৰ বাবে জৈৱ ইন্ধন জ্বলোৱা"
-    },
-    {
      "en": "Using solar cookers",
      "as": "সৌৰ চুলা ব্যৱহাৰ"
     },
@@ -15898,9 +15894,13 @@ module.exports = {
     {
      "en": "Using LPG",
      "as": "এলপিজি ব্যৱহাৰ"
+    },
+    {
+     "en": "Burning biomass for cooking",
+     "as": "ৰন্ধা-বঢ়াৰ বাবে জৈৱ ইন্ধন জ্বলোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Burning biomass for cooking causes indoor air pollution.",
     "as": "ৰন্ধা-বঢ়াৰ বাবে জৈৱ ইন্ধন জ্বলোৱাই ঘৰুৱা বায়ু প্ৰদূষণৰ সৃষ্টি কৰে।"
@@ -16004,12 +16004,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Switching off unused lights",
-     "as": "অব্যৱহৃত পোহৰ নুমুওৱা"
-    },
-    {
      "en": "Keeping lights on",
      "as": "পোহৰ জ্বলাই ৰখা"
+    },
+    {
+     "en": "Switching off unused lights",
+     "as": "অব্যৱহৃত পোহৰ নুমুওৱা"
     },
     {
      "en": "Using old bulbs",
@@ -16020,7 +16020,7 @@ module.exports = {
      "as": "ফেন চলাই ৰখা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Switching off unused lights saves energy.",
     "as": "অব্যৱহৃত পোহৰ নুমুওৱাই শক্তি সঞ্চয় কৰে।"
@@ -16034,10 +16034,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Solar cooker",
-     "as": "সৌৰ চুলা"
-    },
-    {
      "en": "Coal stove",
      "as": "কয়লা চুলা"
     },
@@ -16046,11 +16042,15 @@ module.exports = {
      "as": "কেৰাচিন চুলা"
     },
     {
+     "en": "Solar cooker",
+     "as": "সৌৰ চুলা"
+    },
+    {
      "en": "Diesel generator",
      "as": "ডিজেল জেনেৰেটৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A solar cooker uses renewable energy.",
     "as": "সৌৰ চুলাই নবীকৰণযোগ্য শক্তি ব্যৱহাৰ কৰে।"
@@ -16064,10 +16064,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Untreated sewage and industrial waste",
-     "as": "অপৰিশোধিত নৰ্দমা আৰু উদ্যোগিক বৰ্জন"
-    },
-    {
      "en": "Rainwater",
      "as": "বৰষুণৰ পানী"
     },
@@ -16078,9 +16074,13 @@ module.exports = {
     {
      "en": "Boating",
      "as": "নাও চলোৱা"
+    },
+    {
+     "en": "Untreated sewage and industrial waste",
+     "as": "অপৰিশোধিত নৰ্দমা আৰু উদ্যোগিক বৰ্জন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Untreated sewage and industrial waste pollute rivers.",
     "as": "অপৰিশোধিত নৰ্দমা আৰু উদ্যোগিক বৰ্জনে নদী প্ৰদূষিত কৰে।"
@@ -16094,10 +16094,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "urban waste and encroachment",
-     "as": "চহৰীয়া বৰ্জন আৰু অধিগ্ৰহণ"
-    },
-    {
      "en": "afforestation",
      "as": "বনৰোপণ"
     },
@@ -16106,11 +16102,15 @@ module.exports = {
      "as": "বৰষুণৰ পানী"
     },
     {
+     "en": "urban waste and encroachment",
+     "as": "চহৰীয়া বৰ্জন আৰু অধিগ্ৰহণ"
+    },
+    {
      "en": "migratory birds",
      "as": "পৰিভ্ৰমী চৰাই"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Deepor Beel is threatened by urban waste and encroachment.",
     "as": "দীপৰ বিল চহৰীয়া বৰ্জন আৰু অধিগ্ৰহণৰ দ্বাৰা সংকটাপন্ন।"
@@ -16154,12 +16154,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tidal energy",
-     "as": "জোৱাৰ-ভাটা শক্তি"
-    },
-    {
      "en": "Coal energy",
      "as": "কয়লা শক্তি"
+    },
+    {
+     "en": "Tidal energy",
+     "as": "জোৱাৰ-ভাটা শক্তি"
     },
     {
      "en": "Nuclear energy",
@@ -16170,7 +16170,7 @@ module.exports = {
      "as": "ডিজেল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Tidal energy uses the tides.",
     "as": "জোৱাৰ-ভাটা শক্তিয়ে জোৱাৰ-ভাটা ব্যৱহাৰ কৰে।"
@@ -16184,10 +16184,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "stratosphere",
-     "as": "ষ্ট্ৰেট'স্ফিয়াৰ"
-    },
-    {
      "en": "troposphere",
      "as": "ট্ৰ'প'স্ফিয়াৰ"
     },
@@ -16196,11 +16192,15 @@ module.exports = {
      "as": "মেছ'স্ফিয়াৰ"
     },
     {
+     "en": "stratosphere",
+     "as": "ষ্ট্ৰেট'স্ফিয়াৰ"
+    },
+    {
      "en": "thermosphere",
      "as": "থাৰ্ম'স্ফিয়াৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The ozone layer is in the stratosphere.",
     "as": "অ'জন স্তৰ ষ্ট্ৰেট'স্ফিয়াৰত পোৱা যায়।"
@@ -16214,10 +16214,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Habitat destruction",
-     "as": "বাসস্থান ধ্বংস"
-    },
-    {
      "en": "Afforestation",
      "as": "বনৰোপণ"
     },
@@ -16228,9 +16224,13 @@ module.exports = {
     {
      "en": "Rainfall",
      "as": "বৰষুণ"
+    },
+    {
+     "en": "Habitat destruction",
+     "as": "বাসস্থান ধ্বংস"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Habitat destruction is a major cause of biodiversity loss.",
     "as": "বাসস্থান ধ্বংস জৈৱবিচিত্ৰতা হ্ৰাসৰ এটা প্ৰধান কাৰণ।"
@@ -16244,10 +16244,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Creating national parks",
-     "as": "ৰাষ্ট্ৰীয় উদ্যান সৃষ্টি"
-    },
-    {
      "en": "Deforestation",
      "as": "বন নিধন"
     },
@@ -16258,9 +16254,13 @@ module.exports = {
     {
      "en": "Habitat destruction",
      "as": "বাসস্থান ধ্বংস"
+    },
+    {
+     "en": "Creating national parks",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান সৃষ্টি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Creating national parks protects wildlife.",
     "as": "ৰাষ্ট্ৰীয় উদ্যান সৃষ্টিয়ে বন্যপ্ৰাণী সুৰক্ষা কৰে।"
@@ -16304,12 +16304,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "wild animals and plants",
-     "as": "বনৰীয়া প্ৰাণী আৰু উদ্ভিদ"
-    },
-    {
      "en": "only animals",
      "as": "কেৱল প্ৰাণী"
+    },
+    {
+     "en": "wild animals and plants",
+     "as": "বনৰীয়া প্ৰাণী আৰু উদ্ভিদ"
     },
     {
      "en": "only plants",
@@ -16320,7 +16320,7 @@ module.exports = {
      "as": "কেৱল চৰাই"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It protects wild animals and plants.",
     "as": "ই বনৰীয়া প্ৰাণী আৰু উদ্ভিদ সুৰক্ষা কৰে।"
@@ -16334,10 +16334,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hoolock gibbon",
-     "as": "হলৌ বান্দৰ"
-    },
-    {
      "en": "Cow",
      "as": "গৰু"
     },
@@ -16348,9 +16344,13 @@ module.exports = {
     {
      "en": "Hen",
      "as": "কুকুৰা"
+    },
+    {
+     "en": "Hoolock gibbon",
+     "as": "হলৌ বান্দৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The hoolock gibbon is a threatened species of Assam.",
     "as": "হলৌ বান্দৰ অসমৰ এটা সংকটাপন্ন প্ৰজাতি।"
@@ -16424,12 +16424,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "reduce pollution",
-     "as": "প্ৰদূষণ হ্ৰাস কৰা"
-    },
-    {
      "en": "increase pollution",
      "as": "প্ৰদূষণ বৃদ্ধি কৰা"
+    },
+    {
+     "en": "reduce pollution",
+     "as": "প্ৰদূষণ হ্ৰাস কৰা"
     },
     {
      "en": "expand the factory",
@@ -16440,7 +16440,7 @@ module.exports = {
      "as": "বৰ্জন সঞ্চয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A green belt reduces pollution.",
     "as": "সেউজ পটিয়ে প্ৰদূষণ হ্ৰাস কৰে।"
@@ -16454,10 +16454,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Forests",
-     "as": "বনাঞ্চল"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
     },
@@ -16466,11 +16462,15 @@ module.exports = {
      "as": "পেট্ৰ'লিয়াম"
     },
     {
+     "en": "Forests",
+     "as": "বনাঞ্চল"
+    },
+    {
      "en": "Natural gas",
      "as": "প্ৰাকৃতিক গেছ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Forests are a renewable resource.",
     "as": "বনাঞ্চল এক নবীকৰণযোগ্য সম্পদ।"
@@ -16484,10 +16484,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Petroleum",
-     "as": "পেট্ৰ'লিয়াম"
-    },
-    {
      "en": "Solar energy",
      "as": "সৌৰ শক্তি"
     },
@@ -16496,11 +16492,15 @@ module.exports = {
      "as": "বতাহ শক্তি"
     },
     {
+     "en": "Petroleum",
+     "as": "পেট্ৰ'লিয়াম"
+    },
+    {
      "en": "Water",
      "as": "পানী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Petroleum is a non-renewable resource.",
     "as": "পেট্ৰ'লিয়াম এক অনবীকৰণযোগ্য সম্পদ।"
@@ -16514,12 +16514,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "using them wisely and sustainably",
-     "as": "সেয়া বিজ্ঞতাৰে আৰু স্থায়ীভাৱে ব্যৱহাৰ কৰা"
-    },
-    {
      "en": "wasting them",
      "as": "সেয়া নষ্ট কৰা"
+    },
+    {
+     "en": "using them wisely and sustainably",
+     "as": "সেয়া বিজ্ঞতাৰে আৰু স্থায়ীভাৱে ব্যৱহাৰ কৰা"
     },
     {
      "en": "using them all at once",
@@ -16530,7 +16530,7 @@ module.exports = {
      "as": "সেয়া উপেক্ষা কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Conservation means using resources wisely and sustainably.",
     "as": "সংৰক্ষণ মানে সম্পদ বিজ্ঞতাৰে আৰু স্থায়ীভাৱে ব্যৱহাৰ কৰা।"
@@ -16544,12 +16544,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "live in harmony with nature",
-     "as": "প্ৰকৃতিৰ সৈতে সংগতি ৰাখি বাস কৰা উচিত"
-    },
-    {
      "en": "conquer nature",
      "as": "প্ৰকৃতিক জয় কৰা উচিত"
+    },
+    {
+     "en": "live in harmony with nature",
+     "as": "প্ৰকৃতিৰ সৈতে সংগতি ৰাখি বাস কৰা উচিত"
     },
     {
      "en": "exploit nature",
@@ -16560,7 +16560,7 @@ module.exports = {
      "as": "প্ৰকৃতি উপেক্ষা কৰা উচিত"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Environmental ethics says humans should live in harmony with nature.",
     "as": "পৰিৱেশ নীতিয়ে কয় যে মানুহে প্ৰকৃতিৰ সৈতে সংগতি ৰাখি বাস কৰা উচিত।"
@@ -16574,10 +16574,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2008",
-     "as": "২০০৮"
-    },
-    {
      "en": "2005",
      "as": "২০০৫"
     },
@@ -16588,9 +16584,13 @@ module.exports = {
     {
      "en": "2012",
      "as": "২০১২"
+    },
+    {
+     "en": "2008",
+     "as": "২০০৮"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It was launched in 2008.",
     "as": "ই ২০০৮ চনত আৰম্ভ কৰা হৈছিল।"
@@ -16604,10 +16604,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Eight",
-     "as": "আঠটা"
-    },
-    {
      "en": "Five",
      "as": "পাঁচটা"
     },
@@ -16618,9 +16614,13 @@ module.exports = {
     {
      "en": "Three",
      "as": "তিনিটা"
+    },
+    {
+     "en": "Eight",
+     "as": "আঠটা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "There are eight national missions.",
     "as": "আঠটা ৰাষ্ট্ৰীয় মিছন আছে।"
@@ -16634,10 +16634,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "National Solar Mission",
-     "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন"
-    },
-    {
      "en": "National Mining Mission",
      "as": "ৰাষ্ট্ৰীয় খনন মিছন"
     },
@@ -16648,9 +16644,13 @@ module.exports = {
     {
      "en": "National Defence Mission",
      "as": "ৰাষ্ট্ৰীয় প্ৰতিৰক্ষা মিছন"
+    },
+    {
+     "en": "National Solar Mission",
+     "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The National Solar Mission is one of the eight.",
     "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন আঠটাৰ এটা।"
@@ -16664,10 +16664,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "water conservation",
-     "as": "জল সংৰক্ষণ"
-    },
-    {
      "en": "building dams",
      "as": "বান্ধ নিৰ্মাণ"
     },
@@ -16676,11 +16672,15 @@ module.exports = {
      "as": "খনন"
     },
     {
+     "en": "water conservation",
+     "as": "জল সংৰক্ষণ"
+    },
+    {
      "en": "deforestation",
      "as": "বন নিধন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It aims at water conservation.",
     "as": "ই জল সংৰক্ষণৰ লক্ষ্য ৰাখে।"
@@ -16724,12 +16724,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "climate-resilient farming",
-     "as": "জলবায়ু-সহনশীল খেতি"
-    },
-    {
      "en": "more chemicals",
      "as": "অধিক ৰাসায়নিক"
+    },
+    {
+     "en": "climate-resilient farming",
+     "as": "জলবায়ু-সহনশীল খেতি"
     },
     {
      "en": "deforestation",
@@ -16740,7 +16740,7 @@ module.exports = {
      "as": "চহৰীয়া খেতি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It aims at climate-resilient farming.",
     "as": "ই জলবায়ু-সহনশীল খেতিৰ লক্ষ্য ৰাখে।"
@@ -16754,12 +16754,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "climate research",
-     "as": "জলবায়ু গৱেষণা"
-    },
-    {
      "en": "mining research",
      "as": "খনন গৱেষণা"
+    },
+    {
+     "en": "climate research",
+     "as": "জলবায়ু গৱেষণা"
     },
     {
      "en": "defence research",
@@ -16770,7 +16770,7 @@ module.exports = {
      "as": "মহাকাশ গৱেষণা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It focuses on climate research.",
     "as": "ই জলবায়ু গৱেষণাৰ ওপৰত গুৰুত্ব দিয়ে।"
@@ -16844,10 +16844,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "developing countries fight climate change",
-     "as": "উন্নয়নশীল দেশক জলবায়ু পৰিৱৰ্তনৰ বিৰুদ্ধে যুঁজিবলৈ"
-    },
-    {
      "en": "developed countries only",
      "as": "কেৱল উন্নত দেশ"
     },
@@ -16858,9 +16854,13 @@ module.exports = {
     {
      "en": "mining firms",
      "as": "খনন প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "developing countries fight climate change",
+     "as": "উন্নয়নশীল দেশক জলবায়ু পৰিৱৰ্তনৰ বিৰুদ্ধে যুঁজিবলৈ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It helps developing countries fight climate change.",
     "as": "ই উন্নয়নশীল দেশক জলবায়ু পৰিৱৰ্তনৰ বিৰুদ্ধে যুঁজিবলৈ সহায় কৰে।"
@@ -16874,10 +16874,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fair treatment of all in climate action",
-     "as": "জলবায়ু কাৰ্যত সকলোৰে ন্যায্য ব্যৱহাৰ"
-    },
-    {
      "en": "only rich countries benefit",
      "as": "কেৱল ধনী দেশ উপকৃত হয়"
     },
@@ -16888,9 +16884,13 @@ module.exports = {
     {
      "en": "stopping development",
      "as": "উন্নয়ন বন্ধ কৰা"
+    },
+    {
+     "en": "fair treatment of all in climate action",
+     "as": "জলবায়ু কাৰ্যত সকলোৰে ন্যায্য ব্যৱহাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Climate justice means fair treatment of all.",
     "as": "জলবায়ু ন্যায় মানে সকলোৰে ন্যায্য ব্যৱহাৰ।"
@@ -16904,10 +16904,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "environmental law",
-     "as": "পৰিৱেশ আইন"
-    },
-    {
      "en": "labour law",
      "as": "শ্ৰম আইন"
     },
@@ -16918,9 +16914,13 @@ module.exports = {
     {
      "en": "tax law",
      "as": "কৰ আইন"
+    },
+    {
+     "en": "environmental law",
+     "as": "পৰিৱেশ আইন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "They are part of India's environmental law.",
     "as": "ইবোৰ ভাৰতৰ পৰিৱেশ আইনৰ অংশ।"
@@ -16934,12 +16934,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in trust for the public",
-     "as": "ৰাইজৰ বাবে ন্যাস হিচাপে"
-    },
-    {
      "en": "for private profit",
      "as": "ব্যক্তিগত লাভৰ বাবে"
+    },
+    {
+     "en": "in trust for the public",
+     "as": "ৰাইজৰ বাবে ন্যাস হিচাপে"
     },
     {
      "en": "for foreign countries",
@@ -16950,7 +16950,7 @@ module.exports = {
      "as": "কেৱল খননৰ বাবে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The doctrine holds resources in trust for the public.",
     "as": "মতবাদে সম্পদ ৰাইজৰ বাবে ন্যাস হিচাপে ধাৰণ কৰে।"
@@ -16964,12 +16964,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Electrification of routes",
-     "as": "পথৰ বিদ্যুতীকৰণ"
-    },
-    {
      "en": "Diesel locomotives",
      "as": "ডিজেল ইঞ্জিন"
+    },
+    {
+     "en": "Electrification of routes",
+     "as": "পথৰ বিদ্যুতীকৰণ"
     },
     {
      "en": "Coal engines",
@@ -16980,7 +16980,7 @@ module.exports = {
      "as": "অধিক বন নিধন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Electrification is a green initiative.",
     "as": "বিদ্যুতীকৰণ এটা সেউজ পদক্ষেপ।"
@@ -16994,12 +16994,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Zero emissions",
-     "as": "শূন্য নিৰ্গমন"
-    },
-    {
      "en": "More pollution",
      "as": "অধিক প্ৰদূষণ"
+    },
+    {
+     "en": "Zero emissions",
+     "as": "শূন্য নিৰ্গমন"
     },
     {
      "en": "More fuel use",
@@ -17010,7 +17010,7 @@ module.exports = {
      "as": "অধিক শব্দ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Cycling produces zero emissions.",
     "as": "চাইকেল চলোৱাই শূন্য নিৰ্গমন উৎপাদন কৰে।"
@@ -17024,10 +17024,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "reduce greenhouse gas emissions",
-     "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
-    },
-    {
      "en": "increase emissions",
      "as": "নিৰ্গমন বৃদ্ধি"
     },
@@ -17038,9 +17034,13 @@ module.exports = {
     {
      "en": "increase mining",
      "as": "খনন বৃদ্ধি"
+    },
+    {
+     "en": "reduce greenhouse gas emissions",
+     "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Carbon trading aims to reduce greenhouse gas emissions.",
     "as": "কাৰ্বন বাণিজ্যৰ লক্ষ্য গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস।"
@@ -17114,10 +17114,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Rio Earth Summit",
-     "as": "ৰিঅ' পৃথিৱী সন্মিলন"
-    },
-    {
      "en": "Stockholm Conference",
      "as": "ষ্টকহল্ম সন্মিলন"
     },
@@ -17126,11 +17122,15 @@ module.exports = {
      "as": "কিয়'ট' সন্মিলন"
     },
     {
+     "en": "Rio Earth Summit",
+     "as": "ৰিঅ' পৃথিৱী সন্মিলন"
+    },
+    {
      "en": "Paris Conference",
      "as": "পেৰিছ সন্মিলন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The UNFCCC was adopted at the Rio Earth Summit.",
     "as": "UNFCCC ৰিঅ' পৃথিৱী সন্মিলনত গ্ৰহণ কৰা হৈছিল।"
@@ -17174,10 +17174,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absorbs more carbon than it releases",
-     "as": "নিৰ্গত কৰাতকৈ অধিক কাৰ্বন শোষণ কৰে"
-    },
-    {
      "en": "releases more carbon",
      "as": "অধিক কাৰ্বন নিৰ্গত কৰে"
     },
@@ -17186,11 +17182,15 @@ module.exports = {
      "as": "কাৰ্বন সঞ্চয় নকৰে"
     },
     {
+     "en": "absorbs more carbon than it releases",
+     "as": "নিৰ্গত কৰাতকৈ অধিক কাৰ্বন শোষণ কৰে"
+    },
+    {
      "en": "produces carbon",
      "as": "কাৰ্বন উৎপাদন কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "A carbon sink absorbs more carbon than it releases.",
     "as": "কাৰ্বন ছিংক নিৰ্গত কৰাতকৈ অধিক কাৰ্বন শোষণ কৰে।"
@@ -17204,10 +17204,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Forests",
-     "as": "বনাঞ্চল"
-    },
-    {
      "en": "Factories",
      "as": "কাৰখানা"
     },
@@ -17216,11 +17212,15 @@ module.exports = {
      "as": "বাহন"
     },
     {
+     "en": "Forests",
+     "as": "বনাঞ্চল"
+    },
+    {
      "en": "Power plants",
      "as": "বিদ্যুৎ কেন্দ্ৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Forests are natural carbon sinks.",
     "as": "বনাঞ্চল প্ৰাকৃতিক কাৰ্বন ছিংক।"
@@ -17234,12 +17234,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Methane",
-     "as": "মিথেন"
-    },
-    {
      "en": "Oxygen",
      "as": "অক্সিজেন"
+    },
+    {
+     "en": "Methane",
+     "as": "মিথেন"
     },
     {
      "en": "Nitrogen",
@@ -17250,7 +17250,7 @@ module.exports = {
      "as": "হিলিয়াম"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Methane has a high global warming potential.",
     "as": "মিথেনৰ উচ্চ গোলকীয় উষ্ণতা বৃদ্ধি সম্ভাৱনা আছে।"
@@ -17264,10 +17264,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "human activities",
-     "as": "মানৱ কাৰ্যকলাপ"
-    },
-    {
      "en": "volcanic eruptions",
      "as": "আগ্নেয়গিৰিৰ বিস্ফোৰণ"
     },
@@ -17276,11 +17272,15 @@ module.exports = {
      "as": "সৌৰ বিস্ফোৰণ"
     },
     {
+     "en": "human activities",
+     "as": "মানৱ কাৰ্যকলাপ"
+    },
+    {
      "en": "ocean currents",
      "as": "সাগৰীয় সোঁত"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Human activities cause the enhanced greenhouse effect.",
     "as": "মানৱ কাৰ্যকলাপে বৰ্ধিত গ্ৰীণহাউছ প্ৰভাৱৰ সৃষ্টি কৰে।"
@@ -17324,10 +17324,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "reflectivity of sunlight",
-     "as": "সূৰ্যৰ পোহৰৰ প্ৰতিফলন ক্ষমতা"
-    },
-    {
      "en": "absorption of heat",
      "as": "তাপ শোষণ"
     },
@@ -17336,11 +17332,15 @@ module.exports = {
      "as": "ঘূৰ্ণনৰ গতি"
     },
     {
+     "en": "reflectivity of sunlight",
+     "as": "সূৰ্যৰ পোহৰৰ প্ৰতিফলন ক্ষমতা"
+    },
+    {
      "en": "mass",
      "as": "ভৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Albedo is the reflectivity of sunlight.",
     "as": "এলবিড হৈছে সূৰ্যৰ পোহৰৰ প্ৰতিফলন ক্ষমতা।"
@@ -17384,12 +17384,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Wind energy",
-     "as": "বতাহ শক্তি"
-    },
-    {
      "en": "Coal power",
      "as": "কয়লা শক্তি"
+    },
+    {
+     "en": "Wind energy",
+     "as": "বতাহ শক্তি"
     },
     {
      "en": "Diesel power",
@@ -17400,7 +17400,7 @@ module.exports = {
      "as": "প্ৰাকৃতিক গেছ শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Wind energy emits no greenhouse gases during operation.",
     "as": "বতাহ শক্তিয়ে কাৰ্যকালত গ্ৰীণহাউছ গেছ নিৰ্গত নকৰে।"
@@ -17414,12 +17414,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "less energy for the same output",
-     "as": "একে উৎপাদনৰ বাবে কম শক্তি"
-    },
-    {
      "en": "more energy for the same output",
      "as": "একে উৎপাদনৰ বাবে অধিক শক্তি"
+    },
+    {
+     "en": "less energy for the same output",
+     "as": "একে উৎপাদনৰ বাবে কম শক্তি"
     },
     {
      "en": "no energy",
@@ -17430,7 +17430,7 @@ module.exports = {
      "as": "অধিক শক্তিৰ বাবে অধিক উৎপাদন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Energy efficiency means less energy for the same output.",
     "as": "শক্তি দক্ষতা মানে একে উৎপাদনৰ বাবে কম শক্তি।"
@@ -17444,10 +17444,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "use less electricity",
-     "as": "কম বিদ্যুৎ ব্যৱহাৰ কৰে"
-    },
-    {
      "en": "use more electricity",
      "as": "অধিক বিদ্যুৎ ব্যৱহাৰ কৰে"
     },
@@ -17456,11 +17452,15 @@ module.exports = {
      "as": "পেলাবলৈ সস্তা"
     },
     {
+     "en": "use less electricity",
+     "as": "কম বিদ্যুৎ ব্যৱহাৰ কৰে"
+    },
+    {
      "en": "produce more heat",
      "as": "অধিক তাপ উৎপাদন কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "LED bulbs use less electricity.",
     "as": "এলইডি বাল্বে কম বিদ্যুৎ ব্যৱহাৰ কৰে।"
@@ -17474,12 +17474,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "energy efficiency",
-     "as": "শক্তি দক্ষতা"
-    },
-    {
      "en": "energy waste",
      "as": "শক্তি অপচয়"
+    },
+    {
+     "en": "energy efficiency",
+     "as": "শক্তি দক্ষতা"
     },
     {
      "en": "mining",
@@ -17490,7 +17490,7 @@ module.exports = {
      "as": "বন নিধন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It promotes energy efficiency.",
     "as": "ই শক্তি দক্ষতা প্ৰসাৰ কৰে।"
@@ -17504,12 +17504,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "energy efficiency",
-     "as": "শক্তি দক্ষতা"
-    },
-    {
      "en": "price",
      "as": "মূল্য"
+    },
+    {
+     "en": "energy efficiency",
+     "as": "শক্তি দক্ষতা"
     },
     {
      "en": "weight",
@@ -17520,7 +17520,7 @@ module.exports = {
      "as": "আকাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The star rating indicates energy efficiency.",
     "as": "তৰা ৰেটিঙে শক্তি দক্ষতাৰ ইংগিত দিয়ে।"
@@ -17534,10 +17534,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Using energy-efficient appliances",
-     "as": "শক্তি-দক্ষ সঁজুলি ব্যৱহাৰ"
-    },
-    {
      "en": "Leaving appliances on",
      "as": "সঁজুলি চলাই ৰখা"
     },
@@ -17546,11 +17542,15 @@ module.exports = {
      "as": "বৰ্জন জ্বলোৱা"
     },
     {
+     "en": "Using energy-efficient appliances",
+     "as": "শক্তি-দক্ষ সঁজুলি ব্যৱহাৰ"
+    },
+    {
      "en": "Using more water",
      "as": "অধিক পানী ব্যৱহাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Energy-efficient appliances reduce the carbon footprint.",
     "as": "শক্তি-দক্ষ সঁজুলিয়ে কাৰ্বন ফুটপ্ৰিণ্ট হ্ৰাস কৰে।"
@@ -17564,12 +17564,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "falsely claiming to be eco-friendly",
-     "as": "মিছাকৈ পৰিৱেশ-বান্ধৱী বুলি দাবী কৰা"
-    },
-    {
      "en": "genuinely protecting the environment",
      "as": "প্ৰকৃততে পৰিৱেশ সুৰক্ষা"
+    },
+    {
+     "en": "falsely claiming to be eco-friendly",
+     "as": "মিছাকৈ পৰিৱেশ-বান্ধৱী বুলি দাবী কৰা"
     },
     {
      "en": "planting trees",
@@ -17580,7 +17580,7 @@ module.exports = {
      "as": "বৰ্জন পুনৰ্চক্ৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Greenwashing is falsely claiming to be eco-friendly.",
     "as": "গ্ৰীণৱাছিং হৈছে মিছাকৈ পৰিৱেশ-বান্ধৱী বুলি দাবী কৰা।"
@@ -17594,10 +17594,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "minimising waste by reusing materials",
-     "as": "সামগ্ৰী পুনৰ্ব্যৱহাৰ কৰি বৰ্জন ন্যূনতম কৰা"
-    },
-    {
      "en": "maximising waste",
      "as": "বৰ্জন সৰ্বাধিক কৰা"
     },
@@ -17608,9 +17604,13 @@ module.exports = {
     {
      "en": "ignoring recycling",
      "as": "পুনৰ্চক্ৰণ উপেক্ষা"
+    },
+    {
+     "en": "minimising waste by reusing materials",
+     "as": "সামগ্ৰী পুনৰ্ব্যৱহাৰ কৰি বৰ্জন ন্যূনতম কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "The circular economy minimises waste.",
     "as": "বৃত্তীয় অৰ্থনীতিয়ে বৰ্জন ন্যূনতম কৰে।"
@@ -17624,10 +17624,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "take, make, dispose",
-     "as": "লোৱা, বনোৱা, পেলোৱা"
-    },
-    {
      "en": "reduce, reuse, recycle",
      "as": "হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ"
     },
@@ -17638,9 +17634,13 @@ module.exports = {
     {
      "en": "save, invest, grow",
      "as": "সঞ্চয়, বিনিয়োগ, বৃদ্ধি"
+    },
+    {
+     "en": "take, make, dispose",
+     "as": "লোৱা, বনোৱা, পেলোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "A linear economy follows take, make, dispose.",
     "as": "ৰৈখিক অৰ্থনীতিয়ে লোৱা, বনোৱা, পেলোৱা অনুসৰণ কৰে।"
@@ -17654,10 +17654,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bamboo",
-     "as": "বাঁহ"
-    },
-    {
      "en": "Steel",
      "as": "ইস্পাত"
     },
@@ -17666,11 +17662,15 @@ module.exports = {
      "as": "চিমেণ্ট"
     },
     {
+     "en": "Bamboo",
+     "as": "বাঁহ"
+    },
+    {
      "en": "Aluminium",
      "as": "এলুমিনিয়াম"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Bamboo is a renewable building material.",
     "as": "বাঁহ এক নবীকৰণযোগ্য নিৰ্মাণ সামগ্ৰী।"
@@ -17744,10 +17744,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "North India",
-     "as": "উত্তৰ ভাৰত"
-    },
-    {
      "en": "South India",
      "as": "দক্ষিণ ভাৰত"
     },
@@ -17758,9 +17754,13 @@ module.exports = {
     {
      "en": "Coastal India",
      "as": "উপকূলীয় ভাৰত"
+    },
+    {
+     "en": "North India",
+     "as": "উত্তৰ ভাৰত"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Stubble burning is a major problem in North India.",
     "as": "নাঙল জ্বলোৱা উত্তৰ ভাৰতত এটা প্ৰধান সমস্যা।"
@@ -17774,10 +17774,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "cleanliness of cities",
-     "as": "চহৰৰ পৰিষ্কাৰতা"
-    },
-    {
      "en": "air quality",
      "as": "বায়ুৰ গুণাগুণ"
     },
@@ -17786,11 +17782,15 @@ module.exports = {
      "as": "পানীৰ গুণাগুণ"
     },
     {
+     "en": "cleanliness of cities",
+     "as": "চহৰৰ পৰিষ্কাৰতা"
+    },
+    {
      "en": "forest cover",
      "as": "বনাঞ্চলৰ আৱৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Swachh Survekshan surveys the cleanliness of cities.",
     "as": "স্বচ্ছ সৰ্বেক্ষণে চহৰৰ পৰিষ্কাৰতাৰ সমীক্ষা কৰে।"
@@ -17804,12 +17804,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Indore",
-     "as": "ইন্দোৰ"
-    },
-    {
      "en": "Guwahati",
      "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Indore",
+     "as": "ইন্দোৰ"
     },
     {
      "en": "Delhi",
@@ -17820,7 +17820,7 @@ module.exports = {
      "as": "মুম্বাই"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Indore has repeatedly topped the rankings.",
     "as": "ইন্দোৰে বাৰম্বাৰ ৰেংকিঙত শীৰ্ষস্থান লাভ কৰিছে।"
@@ -17834,10 +17834,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sanitary landfilling",
-     "as": "চেনিটেৰী লেণ্ডফিলিং"
-    },
-    {
      "en": "Open dumping",
      "as": "মুকলি পেলোৱা"
     },
@@ -17846,11 +17842,15 @@ module.exports = {
      "as": "মুকলিকৈ জ্বলোৱা"
     },
     {
+     "en": "Sanitary landfilling",
+     "as": "চেনিটেৰী লেণ্ডফিলিং"
+    },
+    {
      "en": "Dumping in rivers",
      "as": "নদীত পেলোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Sanitary landfilling is a proper method.",
     "as": "চেনিটেৰী লেণ্ডফিলিং এটা যথাযথ পদ্ধতি।"
@@ -17864,10 +17864,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Composting",
-     "as": "খতিয়কৰণ"
-    },
-    {
      "en": "Burning",
      "as": "জ্বলোৱা"
     },
@@ -17876,11 +17872,15 @@ module.exports = {
      "as": "নদীত পেলোৱা"
     },
     {
+     "en": "Composting",
+     "as": "খতিয়কৰণ"
+    },
+    {
      "en": "Burying in plastic",
      "as": "প্লাষ্টিকত পোতা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Composting manages organic kitchen waste.",
     "as": "খতিয়কৰণে ৰান্ধনিশালৰ জৈৱিক বৰ্জন পৰিচালনা কৰে।"
@@ -17894,10 +17894,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "earthworms",
-     "as": "কেঁচু"
-    },
-    {
      "en": "bees",
      "as": "মৌমাখি"
     },
@@ -17906,11 +17902,15 @@ module.exports = {
      "as": "মাছ"
     },
     {
+     "en": "earthworms",
+     "as": "কেঁচু"
+    },
+    {
      "en": "birds",
      "as": "চৰাই"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Vermicomposting uses earthworms.",
     "as": "কেঁচু-খতিয়কৰণে কেঁচু ব্যৱহাৰ কৰে।"
@@ -17924,12 +17924,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It produces organic manure",
-     "as": "ই জৈৱিক সাৰ উৎপাদন কৰে"
-    },
-    {
      "en": "It pollutes water",
      "as": "ই পানী প্ৰদূষিত কৰে"
+    },
+    {
+     "en": "It produces organic manure",
+     "as": "ই জৈৱিক সাৰ উৎপাদন কৰে"
     },
     {
      "en": "It increases waste",
@@ -17940,7 +17940,7 @@ module.exports = {
      "as": "ই মাটিৰ জীৱ মাৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Composting produces organic manure.",
     "as": "খতিয়কৰণে জৈৱিক সাৰ উৎপাদন কৰে।"
@@ -17954,10 +17954,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It saves raw materials",
-     "as": "ই কেঁচা সামগ্ৰী সঞ্চয় কৰে"
-    },
-    {
      "en": "It increases waste",
      "as": "ই বৰ্জন বৃদ্ধি কৰে"
     },
@@ -17968,9 +17964,13 @@ module.exports = {
     {
      "en": "It uses more energy",
      "as": "ই অধিক শক্তি ব্যৱহাৰ কৰে"
+    },
+    {
+     "en": "It saves raw materials",
+     "as": "ই কেঁচা সামগ্ৰী সঞ্চয় কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Recycling saves raw materials.",
     "as": "পুনৰ্চক্ৰণে কেঁচা সামগ্ৰী সঞ্চয় কৰে।"
@@ -17984,10 +17984,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Paper",
-     "as": "কাগজ"
-    },
-    {
      "en": "Plastic",
      "as": "প্লাষ্টিক"
     },
@@ -17998,9 +17994,13 @@ module.exports = {
     {
      "en": "Rubber",
      "as": "ৰবৰ"
+    },
+    {
+     "en": "Paper",
+     "as": "কাগজ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Paper is the most commonly recycled material.",
     "as": "কাগজ আটাইতকৈ বেছি পুনৰ্চক্ৰণ কৰা সামগ্ৰী।"
@@ -18014,10 +18014,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Treating sewage before release",
-     "as": "নৰ্দমা মুকলি কৰাৰ আগতে প্ৰক্ৰিয়াকৰণ"
-    },
-    {
      "en": "Releasing sewage untreated",
      "as": "নৰ্দমা অপৰিশোধিত মুকলি কৰা"
     },
@@ -18028,9 +18024,13 @@ module.exports = {
     {
      "en": "Using excess chemicals",
      "as": "অত্যধিক ৰাসায়নিক ব্যৱহাৰ"
+    },
+    {
+     "en": "Treating sewage before release",
+     "as": "নৰ্দমা মুকলি কৰাৰ আগতে প্ৰক্ৰিয়াকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Treating sewage before release reduces water pollution.",
     "as": "নৰ্দমা মুকলি কৰাৰ আগতে প্ৰক্ৰিয়াকৰণে জল প্ৰদূষণ হ্ৰাস কৰে।"
@@ -18044,10 +18044,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "clean wastewater before release",
-     "as": "মুকলি কৰাৰ আগতে বৰ্জিত পানী পৰিষ্কাৰ কৰে"
-    },
-    {
      "en": "increase pollution",
      "as": "প্ৰদূষণ বৃদ্ধি কৰে"
     },
@@ -18058,9 +18054,13 @@ module.exports = {
     {
      "en": "create waste",
      "as": "বৰ্জন সৃষ্টি কৰে"
+    },
+    {
+     "en": "clean wastewater before release",
+     "as": "মুকলি কৰাৰ আগতে বৰ্জিত পানী পৰিষ্কাৰ কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "They clean wastewater before release.",
     "as": "সিয়ে মুকলি কৰাৰ আগতে বৰ্জিত পানী পৰিষ্কাৰ কৰে।"
@@ -18074,10 +18074,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Discharge of hot water from power plants",
-     "as": "বিদ্যুৎ কেন্দ্ৰৰ পৰা গৰম পানী নিষ্কাশন"
-    },
-    {
      "en": "Rainfall",
      "as": "বৰষুণ"
     },
@@ -18088,9 +18084,13 @@ module.exports = {
     {
      "en": "Snow melt",
      "as": "বৰফ গলা পানী"
+    },
+    {
+     "en": "Discharge of hot water from power plants",
+     "as": "বিদ্যুৎ কেন্দ্ৰৰ পৰা গৰম পানী নিষ্কাশন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Hot water discharged from power plants causes thermal pollution.",
     "as": "বিদ্যুৎ কেন্দ্ৰৰ পৰা নিষ্কাশিত গৰম পানীয়ে তাপীয় প্ৰদূষণৰ সৃষ্টি কৰে।"
@@ -18104,12 +18104,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "dissolved oxygen",
-     "as": "দ্ৰবীভূত অক্সিজেন"
-    },
-    {
      "en": "water temperature",
      "as": "পানীৰ উষ্ণতা"
+    },
+    {
+     "en": "dissolved oxygen",
+     "as": "দ্ৰবীভূত অক্সিজেন"
     },
     {
      "en": "water volume",
@@ -18120,7 +18120,7 @@ module.exports = {
      "as": "পানীৰ লৱণতা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Thermal pollution reduces dissolved oxygen.",
     "as": "তাপীয় প্ৰদূষণে দ্ৰবীভূত অক্সিজেন হ্ৰাস কৰে।"
@@ -18194,12 +18194,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "cadmium",
-     "as": "কেডমিয়াম"
-    },
-    {
      "en": "mercury",
      "as": "পাৰা"
+    },
+    {
+     "en": "cadmium",
+     "as": "কেডমিয়াম"
     },
     {
      "en": "lead",
@@ -18210,7 +18210,7 @@ module.exports = {
      "as": "আৰ্ছেনিক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Itai-itai disease was caused by cadmium pollution.",
     "as": "ইটাই-ইটাই ৰোগ কেডমিয়াম প্ৰদূষণৰ বাবে হৈছিল।"
@@ -18254,12 +18254,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "West Bengal and Assam",
-     "as": "পশ্চিমবঙ্গ আৰু অসম"
-    },
-    {
      "en": "Kerala",
      "as": "কেৰালা"
+    },
+    {
+     "en": "West Bengal and Assam",
+     "as": "পশ্চিমবঙ্গ আৰু অসম"
     },
     {
      "en": "Rajasthan",
@@ -18270,7 +18270,7 @@ module.exports = {
      "as": "পঞ্জাৱ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Arsenic contamination is serious in West Bengal and Assam.",
     "as": "পশ্চিমবঙ্গ আৰু অসমত আৰ্ছেনিক দূষণ গুৰুতৰ।"
@@ -18314,12 +18314,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Cholera",
-     "as": "কলা"
-    },
-    {
      "en": "Malaria",
      "as": "মেলেৰিয়া"
+    },
+    {
+     "en": "Cholera",
+     "as": "কলা"
     },
     {
      "en": "Tuberculosis",
@@ -18330,7 +18330,7 @@ module.exports = {
      "as": "মধুমেহ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Cholera is a water-borne disease.",
     "as": "কলা এটা পানী-বাহিত ৰোগ।"
@@ -18374,10 +18374,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "respiratory diseases",
-     "as": "শ্বাস-প্ৰশ্বাসৰ ৰোগ"
-    },
-    {
      "en": "skin tanning only",
      "as": "কেৱল ছাল জহ যোৱা"
     },
@@ -18388,9 +18384,13 @@ module.exports = {
     {
      "en": "stronger lungs",
      "as": "শক্তিশালী ফেফাঁ"
+    },
+    {
+     "en": "respiratory diseases",
+     "as": "শ্বাস-প্ৰশ্বাসৰ ৰোগ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Air pollution can cause respiratory diseases.",
     "as": "বায়ু প্ৰদূষণে শ্বাস-প্ৰশ্বাসৰ ৰোগ কৰিব পাৰে।"
@@ -18404,12 +18404,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "hearing loss and stress",
-     "as": "শ্ৰৱণশক্তি হ্ৰাস আৰু মানসিক চাপ"
-    },
-    {
      "en": "better hearing",
      "as": "উন্নত শ্ৰৱণশক্তি"
+    },
+    {
+     "en": "hearing loss and stress",
+     "as": "শ্ৰৱণশক্তি হ্ৰাস আৰু মানসিক চাপ"
     },
     {
      "en": "improved sleep",
@@ -18420,7 +18420,7 @@ module.exports = {
      "as": "শক্তিশালী হৃদয়"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Noise pollution can cause hearing loss and stress.",
     "as": "শব্দ প্ৰদূষণে শ্ৰৱণশক্তি হ্ৰাস আৰু মানসিক চাপ কৰিব পাৰে।"
@@ -18434,10 +18434,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Using soundproof barriers",
-     "as": "শব্দৰোধী বেৰ ব্যৱহাৰ"
-    },
-    {
      "en": "Using louder horns",
      "as": "অধিক উচ্চ হৰ্ণ ব্যৱহাৰ"
     },
@@ -18448,9 +18444,13 @@ module.exports = {
     {
      "en": "Removing trees",
      "as": "গছ আঁতৰোৱা"
+    },
+    {
+     "en": "Using soundproof barriers",
+     "as": "শব্দৰোধী বেৰ ব্যৱহাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Soundproof barriers control noise pollution.",
     "as": "শব্দৰোধী বেৰে শব্দ প্ৰদূষণ নিয়ন্ত্ৰণ কৰে।"
@@ -18464,10 +18464,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "noise and air pollution",
-     "as": "শব্দ আৰু বায়ু প্ৰদূষণ"
-    },
-    {
      "en": "water pollution",
      "as": "জল প্ৰদূষণ"
     },
@@ -18478,9 +18474,13 @@ module.exports = {
     {
      "en": "rainfall",
      "as": "বৰষুণ"
+    },
+    {
+     "en": "noise and air pollution",
+     "as": "শব্দ আৰু বায়ু প্ৰদূষণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Trees along roads reduce noise and air pollution.",
     "as": "পথৰ দাঁতিত গছে শব্দ আৰু বায়ু প্ৰদূষণ হ্ৰাস কৰে।"
@@ -18584,10 +18584,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "minimising chemical pesticides",
-     "as": "ৰাসায়নিক কীটনাশক ন্যূনতম কৰা"
-    },
-    {
      "en": "maximising pesticides",
      "as": "কীটনাশক সৰ্বাধিক কৰা"
     },
@@ -18596,11 +18592,15 @@ module.exports = {
      "as": "সকলো শস্য আঁতৰোৱা"
     },
     {
+     "en": "minimising chemical pesticides",
+     "as": "ৰাসায়নিক কীটনাশক ন্যূনতম কৰা"
+    },
+    {
      "en": "burning fields",
      "as": "পথাৰ জ্বলোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "IPM minimises chemical pesticides.",
     "as": "IPM য়ে ৰাসায়নিক কীটনাশক ন্যূনতম কৰে।"
@@ -18674,10 +18674,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It is available only during the day",
-     "as": "ই কেৱল দিনৰ ভাগত উপলব্ধ"
-    },
-    {
      "en": "It pollutes heavily",
      "as": "ই অত্যধিক প্ৰদূষণ কৰে"
     },
@@ -18688,9 +18684,13 @@ module.exports = {
     {
      "en": "It needs coal",
      "as": "ই কয়লা লাগে"
+    },
+    {
+     "en": "It is available only during the day",
+     "as": "ই কেৱল দিনৰ ভাগত উপলব্ধ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Solar energy is available only during the day.",
     "as": "সৌৰ শক্তি কেৱল দিনৰ ভাগত উপলব্ধ।"
@@ -18704,10 +18704,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It produces no emissions",
-     "as": "ই কোনো নিৰ্গমন উৎপাদন নকৰে"
-    },
-    {
      "en": "It is non-renewable",
      "as": "ই অনবীকৰণযোগ্য"
     },
@@ -18718,9 +18714,13 @@ module.exports = {
     {
      "en": "It pollutes water",
      "as": "ই পানী প্ৰদূষিত কৰে"
+    },
+    {
+     "en": "It produces no emissions",
+     "as": "ই কোনো নিৰ্গমন উৎপাদন নকৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Wind energy produces no emissions.",
     "as": "বতাহ শক্তিয়ে কোনো নিৰ্গমন উৎপাদন নকৰে।"
@@ -18734,10 +18734,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It depends on wind speed",
-     "as": "ই বতাহৰ গতিবেগৰ ওপৰত নিৰ্ভৰশীল"
-    },
-    {
      "en": "It pollutes heavily",
      "as": "ই অত্যধিক প্ৰদূষণ কৰে"
     },
@@ -18746,11 +18742,15 @@ module.exports = {
      "as": "ই অনবীকৰণযোগ্য"
     },
     {
+     "en": "It depends on wind speed",
+     "as": "ই বতাহৰ গতিবেগৰ ওপৰত নিৰ্ভৰশীল"
+    },
+    {
      "en": "It needs coal",
      "as": "ই কয়লা লাগে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Wind energy depends on wind speed.",
     "as": "বতাহ শক্তি বতাহৰ গতিবেগৰ ওপৰত নিৰ্ভৰশীল।"
@@ -18764,12 +18764,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2019",
-     "as": "২০১৯"
-    },
-    {
      "en": "2015",
      "as": "২০১৫"
+    },
+    {
+     "en": "2019",
+     "as": "২০১৯"
     },
     {
      "en": "2017",
@@ -18780,7 +18780,7 @@ module.exports = {
      "as": "২০২১"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The National Clean Air Programme was launched in 2019.",
     "as": "ৰাষ্ট্ৰীয় পৰিষ্কাৰ বায়ু কাৰ্যসূচী ২০১৯ চনত আৰম্ভ কৰা হৈছিল।"
@@ -18794,12 +18794,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "20-30 percent by 2024",
-     "as": "২০২৪ লৈকে ২০-৩০ শতাংশ"
-    },
-    {
      "en": "50 percent by 2024",
      "as": "২০২৪ লৈকে ৫০ শতাংশ"
+    },
+    {
+     "en": "20-30 percent by 2024",
+     "as": "২০২৪ লৈকে ২০-৩০ শতাংশ"
     },
     {
      "en": "10 percent by 2024",
@@ -18810,7 +18810,7 @@ module.exports = {
      "as": "২০২৪ লৈকে ৯০ শতাংশ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "It aims to reduce particulate pollution by 20-30 percent by 2024.",
     "as": "ই ২০২৪ লৈকে কণিকাৰ প্ৰদূষণ ২০-৩০ শতাংশ হ্ৰাস কৰাৰ লক্ষ্য ৰাখে।"
@@ -18824,10 +18824,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Oil spills",
-     "as": "তেল নিৰ্গমন"
-    },
-    {
      "en": "Rainwater",
      "as": "বৰষুণৰ পানী"
     },
@@ -18838,9 +18834,13 @@ module.exports = {
     {
      "en": "Seaweed",
      "as": "সাগৰীয় শেলাই"
+    },
+    {
+     "en": "Oil spills",
+     "as": "তেল নিৰ্গমন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Oil spills cause marine pollution.",
     "as": "তেল নিৰ্গমনে সাগৰীয় প্ৰদূষণৰ সৃষ্টি কৰে।"
@@ -18884,10 +18884,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Microplastics entering the food chain",
-     "as": "ক্ষুদ্ৰ প্লাষ্টিক খাদ্য শৃংখলত প্ৰৱেশ"
-    },
-    {
      "en": "Cleaner water",
      "as": "অধিক পৰিষ্কাৰ পানী"
     },
@@ -18898,9 +18894,13 @@ module.exports = {
     {
      "en": "More oxygen",
      "as": "অধিক অক্সিজেন"
+    },
+    {
+     "en": "Microplastics entering the food chain",
+     "as": "ক্ষুদ্ৰ প্লাষ্টিক খাদ্য শৃংখলত প্ৰৱেশ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Microplastics enter the food chain.",
     "as": "ক্ষুদ্ৰ প্লাষ্টিক খাদ্য শৃংখলত প্ৰৱেশ কৰে।"
@@ -18914,12 +18914,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Reducing single-use plastics",
-     "as": "একবাৰ ব্যৱহাৰৰ প্লাষ্টিক হ্ৰাস"
-    },
-    {
      "en": "Throwing plastic in the sea",
      "as": "সাগৰত প্লাষ্টিক পেলোৱা"
+    },
+    {
+     "en": "Reducing single-use plastics",
+     "as": "একবাৰ ব্যৱহাৰৰ প্লাষ্টিক হ্ৰাস"
     },
     {
      "en": "Using more plastic",
@@ -18930,7 +18930,7 @@ module.exports = {
      "as": "সমুদ্ৰতীৰত প্লাষ্টিক জ্বলোৱা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Reducing single-use plastics helps.",
     "as": "একবাৰ ব্যৱহাৰৰ প্লাষ্টিক হ্ৰাস কৰিলে সহায় হয়।"
@@ -18974,12 +18974,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2022",
-     "as": "২০২২"
-    },
-    {
      "en": "2018",
      "as": "২০১৮"
+    },
+    {
+     "en": "2022",
+     "as": "২০২২"
     },
     {
      "en": "2020",
@@ -18990,7 +18990,7 @@ module.exports = {
      "as": "২০১৫"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "India banned identified single-use plastic items in 2022.",
     "as": "ভাৰতে ২০২২ চনত চিনাক্ত একবাৰ ব্যৱহাৰৰ প্লাষ্টিক সামগ্ৰী নিষিদ্ধ কৰিছিল।"
@@ -19004,10 +19004,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Cloth bags",
-     "as": "কাপোৰৰ মোনা"
-    },
-    {
      "en": "Polythene bags",
      "as": "পলিথিন মোনা"
     },
@@ -19016,11 +19012,15 @@ module.exports = {
      "as": "পিভিচি মোনা"
     },
     {
+     "en": "Cloth bags",
+     "as": "কাপোৰৰ মোনা"
+    },
+    {
      "en": "Nylon bags",
      "as": "নাইলন মোনা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Cloth bags are a biodegradable alternative.",
     "as": "কাপোৰৰ মোনা এটা জৈৱিক-বিয়োজনীয় বিকল্প।"
@@ -19034,10 +19034,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Forests",
-     "as": "বনাঞ্চল"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
     },
@@ -19046,11 +19042,15 @@ module.exports = {
      "as": "পেট্ৰ'লিয়াম"
     },
     {
+     "en": "Forests",
+     "as": "বনাঞ্চল"
+    },
+    {
      "en": "Natural gas",
      "as": "প্ৰাকৃতিক গেছ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Forests provide timber and are renewable.",
     "as": "বনাঞ্চলে কাঠ প্ৰদান কৰে আৰু নবীকৰণযোগ্য।"
@@ -19064,10 +19064,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "local communities and the forest department",
-     "as": "স্থানীয় সম্প্ৰদায় আৰু বন বিভাগ"
-    },
-    {
      "en": "only the forest department",
      "as": "কেৱল বন বিভাগ"
     },
@@ -19076,11 +19072,15 @@ module.exports = {
      "as": "কেৱল ব্যক্তিগত প্ৰতিষ্ঠান"
     },
     {
+     "en": "local communities and the forest department",
+     "as": "স্থানীয় সম্প্ৰদায় আৰু বন বিভাগ"
+    },
+    {
      "en": "only foreign agencies",
      "as": "কেৱল বিদেশী সংস্থা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "JFM involves local communities and the forest department.",
     "as": "JFM ত স্থানীয় সম্প্ৰদায় আৰু বন বিভাগ জড়িত।"
@@ -19094,10 +19094,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It protects forests with community support",
-     "as": "ই সম্প্ৰদায়ৰ সমৰ্থনত বনাঞ্চল সুৰক্ষা কৰে"
-    },
-    {
      "en": "It increases deforestation",
      "as": "ই বন নিধন বৃদ্ধি কৰে"
     },
@@ -19108,9 +19104,13 @@ module.exports = {
     {
      "en": "It ignores forests",
      "as": "ই বনাঞ্চল উপেক্ষা কৰে"
+    },
+    {
+     "en": "It protects forests with community support",
+     "as": "ই সম্প্ৰদায়ৰ সমৰ্থনত বনাঞ্চল সুৰক্ষা কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "JFM protects forests with community support.",
     "as": "JFM এ সম্প্ৰদায়ৰ সমৰ্থনত বনাঞ্চল সুৰক্ষা কৰে।"
@@ -19124,10 +19124,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "forest-dwelling communities",
-     "as": "বনবাসী সম্প্ৰদায়"
-    },
-    {
      "en": "industrialists",
      "as": "উদ্যোগপতি"
     },
@@ -19136,11 +19132,15 @@ module.exports = {
      "as": "বিদেশী প্ৰতিষ্ঠান"
     },
     {
+     "en": "forest-dwelling communities",
+     "as": "বনবাসী সম্প্ৰদায়"
+    },
+    {
      "en": "urban residents",
      "as": "চহৰীয়া বাসিন্দা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Forest Rights Act recognizes the rights of forest-dwelling communities.",
     "as": "বন অধিকাৰ আইনে বনবাসী সম্প্ৰদায়ৰ অধিকাৰ স্বীকৃতি দিয়ে।"
@@ -19154,10 +19154,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Building tanks and ponds",
-     "as": "পুখুৰী আৰু বিল নিৰ্মাণ"
-    },
-    {
      "en": "Wasting water",
      "as": "পানী নষ্ট কৰা"
     },
@@ -19168,9 +19164,13 @@ module.exports = {
     {
      "en": "Mining",
      "as": "খনন"
+    },
+    {
+     "en": "Building tanks and ponds",
+     "as": "পুখুৰী আৰু বিল নিৰ্মাণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Building tanks and ponds is a traditional method.",
     "as": "পুখুৰী আৰু বিল নিৰ্মাণ এটা পৰম্পৰাগত পদ্ধতি।"
@@ -19184,12 +19184,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
      "en": "Rajasthan",
      "as": "ৰাজস্থান"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
     },
     {
      "en": "Kerala",
@@ -19200,7 +19200,7 @@ module.exports = {
      "as": "পঞ্জাৱ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "They are traditional water structures of Assam.",
     "as": "ইবোৰ অসমৰ পৰম্পৰাগত জল সংৰচনা।"
@@ -19214,10 +19214,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Dong and canal irrigation",
-     "as": "দং আৰু খাল জলসিঞ্চন"
-    },
-    {
      "en": "Drip irrigation only",
      "as": "কেৱল টোপাল জলসিঞ্চন"
     },
@@ -19228,9 +19224,13 @@ module.exports = {
     {
      "en": "Furrow only",
      "as": "কেৱল খাৱৰীয়া"
+    },
+    {
+     "en": "Dong and canal irrigation",
+     "as": "দং আৰু খাল জলসিঞ্চন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Dong and canal irrigation are traditional methods in Assam.",
     "as": "দং আৰু খাল জলসিঞ্চন অসমৰ পৰম্পৰাগত পদ্ধতি।"
@@ -19244,10 +19244,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Drip irrigation",
-     "as": "টোপাল জলসিঞ্চন"
-    },
-    {
      "en": "Flood irrigation",
      "as": "বানপানী জলসিঞ্চন"
     },
@@ -19258,9 +19254,13 @@ module.exports = {
     {
      "en": "Overhead flooding",
      "as": "ওপৰৰ পৰা প্লাৱন"
+    },
+    {
+     "en": "Drip irrigation",
+     "as": "টোপাল জলসিঞ্চন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Drip irrigation saves water.",
     "as": "টোপাল জলসিঞ্চনে পানী সঞ্চয় কৰে।"
@@ -19274,10 +19274,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It saves water",
-     "as": "ই পানী সঞ্চয় কৰে"
-    },
-    {
      "en": "It wastes water",
      "as": "ই পানী নষ্ট কৰে"
     },
@@ -19286,11 +19282,15 @@ module.exports = {
      "as": "ই ক্ষয় বৃদ্ধি কৰে"
     },
     {
+     "en": "It saves water",
+     "as": "ই পানী সঞ্চয় কৰে"
+    },
+    {
      "en": "It harms crops",
      "as": "ই শস্যৰ ক্ষতি কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Drip irrigation saves water.",
     "as": "টোপাল জলসিঞ্চনে পানী সঞ্চয় কৰে।"
@@ -19334,10 +19334,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It maintains soil fertility",
-     "as": "ই মাটিৰ উৰ্বৰতা ৰাখে"
-    },
-    {
      "en": "It depletes soil",
      "as": "ই মাটি নিঃশেষ কৰে"
     },
@@ -19346,11 +19342,15 @@ module.exports = {
      "as": "ই কীট-পতংগ বৃদ্ধি কৰে"
     },
     {
+     "en": "It maintains soil fertility",
+     "as": "ই মাটিৰ উৰ্বৰতা ৰাখে"
+    },
+    {
      "en": "It causes erosion",
      "as": "ই ক্ষয়ৰ সৃষ্টি কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Crop rotation maintains soil fertility.",
     "as": "শস্য পৰ্যায়ক্ৰমণে মাটিৰ উৰ্বৰতা ৰাখে।"
@@ -19364,10 +19364,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Pulses",
-     "as": "ডাইল"
-    },
-    {
      "en": "Wheat",
      "as": "ঘেঁহু"
     },
@@ -19376,11 +19372,15 @@ module.exports = {
      "as": "ধান"
     },
     {
+     "en": "Pulses",
+     "as": "ডাইল"
+    },
+    {
      "en": "Maize",
      "as": "মাকৈ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Pulses fix nitrogen in the soil.",
     "as": "ডাইলে মাটিত নাইট্ৰজেন সংযোজন কৰে।"
@@ -19394,10 +19394,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "growing and ploughing green plants",
-     "as": "সেউজ উদ্ভিদ বঢ়াই হাল বোৱাৰ পৰা"
-    },
-    {
      "en": "burning coal",
      "as": "কয়লা জ্বলোৱাৰ পৰা"
     },
@@ -19406,11 +19402,15 @@ module.exports = {
      "as": "খননৰ পৰা"
     },
     {
+     "en": "growing and ploughing green plants",
+     "as": "সেউজ উদ্ভিদ বঢ়াই হাল বোৱাৰ পৰা"
+    },
+    {
      "en": "industrial waste",
      "as": "উদ্যোগিক বৰ্জনৰ পৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Green manure comes from green plants ploughed into the soil.",
     "as": "সেউজ সাৰ সেউজ উদ্ভিদ মাটিত হাল বোৱাৰ পৰা পোৱা যায়।"
@@ -19424,10 +19424,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Compost",
-     "as": "খতিয়ক সাৰ"
-    },
-    {
      "en": "Urea",
      "as": "ইউৰিয়া"
     },
@@ -19436,11 +19432,15 @@ module.exports = {
      "as": "ডিএপি"
     },
     {
+     "en": "Compost",
+     "as": "খতিয়ক সাৰ"
+    },
+    {
      "en": "Ammonium sulphate",
      "as": "এম'নিয়াম ছালফেট"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Compost is an organic fertilizer.",
     "as": "খতিয়ক সাৰ এটা জৈৱিক সাৰ।"
@@ -19454,10 +19454,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "soil and water pollution",
-     "as": "মাটি আৰু পানী প্ৰদূষণ"
-    },
-    {
      "en": "cleaner soil",
      "as": "অধিক পৰিষ্কাৰ মাটি"
     },
@@ -19466,11 +19462,15 @@ module.exports = {
      "as": "অধিক বনাঞ্চল"
     },
     {
+     "en": "soil and water pollution",
+     "as": "মাটি আৰু পানী প্ৰদূষণ"
+    },
+    {
      "en": "less erosion",
      "as": "কম ক্ষয়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Excessive chemical fertilizers pollute soil and water.",
     "as": "ৰাসায়নিক সাৰৰ অত্যধিক ব্যৱহাৰে মাটি আৰু পানী প্ৰদূষিত কৰে।"
@@ -19484,12 +19484,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Nitrous oxide",
-     "as": "নাইট্ৰাছ অক্সাইড"
-    },
-    {
      "en": "Oxygen",
      "as": "অক্সিজেন"
+    },
+    {
+     "en": "Nitrous oxide",
+     "as": "নাইট্ৰাছ অক্সাইড"
     },
     {
      "en": "Nitrogen",
@@ -19500,7 +19500,7 @@ module.exports = {
      "as": "হিলিয়াম"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Chemical fertilizers emit nitrous oxide.",
     "as": "ৰাসায়নিক সাৰে নাইট্ৰাছ অক্সাইড নিৰ্গত কৰে।"
@@ -19514,12 +19514,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Biogas",
-     "as": "বায়'গেছ"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
+    },
+    {
+     "en": "Biogas",
+     "as": "বায়'গেছ"
     },
     {
      "en": "Petroleum",
@@ -19530,7 +19530,7 @@ module.exports = {
      "as": "ডিজেল"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Biogas is produced from agricultural waste.",
     "as": "বায়'গেছ কৃষি বৰ্জনৰ পৰা উৎপাদিত হয়।"
@@ -19544,12 +19544,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "They provide clean fuel and manure",
-     "as": "সিয়ে পৰিষ্কাৰ ইন্ধন আৰু সাৰ প্ৰদান কৰে"
-    },
-    {
      "en": "They pollute the air",
      "as": "সিয়ে বায়ু প্ৰদূষিত কৰে"
+    },
+    {
+     "en": "They provide clean fuel and manure",
+     "as": "সিয়ে পৰিষ্কাৰ ইন্ধন আৰু সাৰ প্ৰদান কৰে"
     },
     {
      "en": "They need more coal",
@@ -19560,7 +19560,7 @@ module.exports = {
      "as": "সিয়ে বৰ্জন নষ্ট কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Biogas plants provide clean fuel and manure.",
     "as": "বায়'গেছ কেন্দ্ৰই পৰিষ্কাৰ ইন্ধন আৰু সাৰ প্ৰদান কৰে।"
@@ -19574,10 +19574,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Biomass energy",
-     "as": "জৈৱ-ভৰ শক্তি"
-    },
-    {
      "en": "Coal energy",
      "as": "কয়লা শক্তি"
     },
@@ -19586,11 +19582,15 @@ module.exports = {
      "as": "পাৰমাণৱিক শক্তি"
     },
     {
+     "en": "Biomass energy",
+     "as": "জৈৱ-ভৰ শক্তি"
+    },
+    {
      "en": "Diesel energy",
      "as": "ডিজেল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Biomass energy uses crop waste.",
     "as": "জৈৱ-ভৰ শক্তিয়ে শস্যৰ বৰ্জন ব্যৱহাৰ কৰে।"
@@ -19604,10 +19604,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Promoting electric vehicles",
-     "as": "বিদ্যুৎচালিত বাহন প্ৰসাৰ"
-    },
-    {
      "en": "Increasing diesel vehicles",
      "as": "ডিজেল বাহন বৃদ্ধি"
     },
@@ -19618,9 +19614,13 @@ module.exports = {
     {
      "en": "Removing trees",
      "as": "গছ আঁতৰোৱা"
+    },
+    {
+     "en": "Promoting electric vehicles",
+     "as": "বিদ্যুৎচালিত বাহন প্ৰসাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Electric vehicles reduce air pollution.",
     "as": "বিদ্যুৎচালিত বাহনে বায়ু প্ৰদূষণ হ্ৰাস কৰে।"
@@ -19664,10 +19664,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "environmentally friendly",
-     "as": "পৰিৱেশ-বান্ধৱী"
-    },
-    {
      "en": "highly polluting",
      "as": "অতি প্ৰদূষণকাৰী"
     },
@@ -19676,11 +19672,15 @@ module.exports = {
      "as": "শব্দকৰ"
     },
     {
+     "en": "environmentally friendly",
+     "as": "পৰিৱেশ-বান্ধৱী"
+    },
+    {
      "en": "fuel-intensive",
      "as": "ইন্ধন-নিবিড়"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Green mobility is environmentally friendly transport.",
     "as": "সেউজ গতিশীলতা পৰিৱেশ-বান্ধৱী পৰিবহন।"
@@ -19694,12 +19694,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Hydroelectric power",
-     "as": "জলবিদ্যুৎ শক্তি"
-    },
-    {
      "en": "Solar power only",
      "as": "কেৱল সৌৰ শক্তি"
+    },
+    {
+     "en": "Hydroelectric power",
+     "as": "জলবিদ্যুৎ শক্তি"
     },
     {
      "en": "Wind power only",
@@ -19710,7 +19710,7 @@ module.exports = {
      "as": "ভূ-তাপীয় শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Hydroelectric power is abundant due to heavy rainfall.",
     "as": "অতিৰিক্ত বৰষুণৰ বাবে জলবিদ্যুৎ শক্তি প্ৰচুৰ।"
@@ -19724,10 +19724,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "flood control and water resources",
-     "as": "বানপানী নিয়ন্ত্ৰণ আৰু জল সম্পদ"
-    },
-    {
      "en": "tea production",
      "as": "চাহ উৎপাদন"
     },
@@ -19736,11 +19732,15 @@ module.exports = {
      "as": "পাট উৎপাদন"
     },
     {
+     "en": "flood control and water resources",
+     "as": "বানপানী নিয়ন্ত্ৰণ আৰু জল সম্পদ"
+    },
+    {
      "en": "oil refining",
      "as": "তেল শোধন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Brahmaputra Board deals with flood control and water resources.",
     "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ডে বানপানী নিয়ন্ত্ৰণ আৰু জল সম্পদৰ সৈতে কাম কৰে।"
@@ -19754,12 +19754,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Displacement and habitat loss",
-     "as": "উচ্ছেদ আৰু বাসস্থানৰ ক্ষতি"
-    },
-    {
      "en": "More forests",
      "as": "অধিক বনাঞ্চল"
+    },
+    {
+     "en": "Displacement and habitat loss",
+     "as": "উচ্ছেদ আৰু বাসস্থানৰ ক্ষতি"
     },
     {
      "en": "Less flooding downstream",
@@ -19770,7 +19770,7 @@ module.exports = {
      "as": "অধিক পৰিষ্কাৰ নদী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Large dams cause displacement and habitat loss.",
     "as": "বৃহৎ বান্ধে উচ্ছেদ আৰু বাসস্থানৰ ক্ষতি কৰে।"
@@ -19784,12 +19784,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Narmada Bachao Andolan",
-     "as": "নৰ্মদা বচাও আন্দোলন"
-    },
-    {
      "en": "Chipko Movement",
      "as": "চিপক' আন্দোলন"
+    },
+    {
+     "en": "Narmada Bachao Andolan",
+     "as": "নৰ্মদা বচাও আন্দোলন"
     },
     {
      "en": "Appiko Movement",
@@ -19800,7 +19800,7 @@ module.exports = {
      "as": "চাইলেণ্ট ভেলী আন্দোলন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The Narmada Bachao Andolan opposed large dams.",
     "as": "নৰ্মদা বচাও আন্দোলনে বৃহৎ বান্ধৰ বিৰোধিতা কৰিছিল।"
@@ -19844,12 +19844,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Waste-to-energy",
-     "as": "বৰ্জন-পৰা-শক্তি"
-    },
-    {
      "en": "Coal power",
      "as": "কয়লা শক্তি"
+    },
+    {
+     "en": "Waste-to-energy",
+     "as": "বৰ্জন-পৰা-শক্তি"
     },
     {
      "en": "Nuclear power",
@@ -19860,7 +19860,7 @@ module.exports = {
      "as": "ডিজেল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Waste-to-energy uses organic waste.",
     "as": "বৰ্জন-পৰা-শক্তিয়ে জৈৱিক বৰ্জন ব্যৱহাৰ কৰে।"
@@ -19874,10 +19874,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "They reduce landfill waste",
-     "as": "সিয়ে লেণ্ডফিল বৰ্জন হ্ৰাস কৰে"
-    },
-    {
      "en": "They increase waste",
      "as": "সিয়ে বৰ্জন বৃদ্ধি কৰে"
     },
@@ -19888,9 +19884,13 @@ module.exports = {
     {
      "en": "They need more land",
      "as": "সিয়ে অধিক মাটি লাগে"
+    },
+    {
+     "en": "They reduce landfill waste",
+     "as": "সিয়ে লেণ্ডফিল বৰ্জন হ্ৰাস কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "They reduce landfill waste.",
     "as": "সিয়ে লেণ্ডফিল বৰ্জন হ্ৰাস কৰে।"
@@ -19904,10 +19904,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Promoting public transport and green spaces",
-     "as": "ৰাজহুৱা পৰিবহন আৰু সেউজ স্থান প্ৰসাৰ"
-    },
-    {
      "en": "Increasing private vehicles",
      "as": "ব্যক্তিগত বাহন বৃদ্ধি"
     },
@@ -19918,9 +19914,13 @@ module.exports = {
     {
      "en": "Building on wetlands",
      "as": "জলাহত নিৰ্মাণ"
+    },
+    {
+     "en": "Promoting public transport and green spaces",
+     "as": "ৰাজহুৱা পৰিবহন আৰু সেউজ স্থান প্ৰসাৰ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Public transport and green spaces make cities sustainable.",
     "as": "ৰাজহুৱা পৰিবহন আৰু সেউজ স্থানে চহৰ স্থায়ী কৰে।"
@@ -19934,10 +19934,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "They improve air quality",
-     "as": "সিয়ে বায়ুৰ গুণাগুণ উন্নত কৰে"
-    },
-    {
      "en": "They increase pollution",
      "as": "সিয়ে প্ৰদূষণ বৃদ্ধি কৰে"
     },
@@ -19948,9 +19944,13 @@ module.exports = {
     {
      "en": "They increase heat",
      "as": "সিয়ে তাপ বৃদ্ধি কৰে"
+    },
+    {
+     "en": "They improve air quality",
+     "as": "সিয়ে বায়ুৰ গুণাগুণ উন্নত কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Urban green spaces improve air quality.",
     "as": "চহৰীয়া সেউজ স্থানে বায়ুৰ গুণাগুণ উন্নত কৰে।"
@@ -19964,10 +19964,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "concrete surfaces and less vegetation",
-     "as": "কংক্ৰিটৰ পৃষ্ঠ আৰু কম উদ্ভিদ"
-    },
-    {
      "en": "more trees",
      "as": "অধিক গছ"
     },
@@ -19978,9 +19974,13 @@ module.exports = {
     {
      "en": "more forests",
      "as": "অধিক বনাঞ্চল"
+    },
+    {
+     "en": "concrete surfaces and less vegetation",
+     "as": "কংক্ৰিটৰ পৃষ্ঠ আৰু কম উদ্ভিদ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It is caused by concrete surfaces and less vegetation.",
     "as": "ই কংক্ৰিটৰ পৃষ্ঠ আৰু কম উদ্ভিদৰ বাবে হয়।"
@@ -19994,10 +19994,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "urban heat island effect",
-     "as": "চহৰীয়া তাপ দ্বীপ প্ৰভাৱ"
-    },
-    {
      "en": "rainfall",
      "as": "বৰষুণ"
     },
@@ -20006,11 +20002,15 @@ module.exports = {
      "as": "মাটিৰ উৰ্বৰতা"
     },
     {
+     "en": "urban heat island effect",
+     "as": "চহৰীয়া তাপ দ্বীপ প্ৰভাৱ"
+    },
+    {
      "en": "water table",
      "as": "ভূগৰ্ভস্থ জলস্তৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Trees reduce the urban heat island effect.",
     "as": "গছে চহৰীয়া তাপ দ্বীপ প্ৰভাৱ হ্ৰাস কৰে।"
@@ -20024,10 +20024,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Geothermal energy",
-     "as": "ভূ-তাপীয় শক্তি"
-    },
-    {
      "en": "Solar energy",
      "as": "সৌৰ শক্তি"
     },
@@ -20036,11 +20032,15 @@ module.exports = {
      "as": "বতাহ শক্তি"
     },
     {
+     "en": "Geothermal energy",
+     "as": "ভূ-তাপীয় শক্তি"
+    },
+    {
      "en": "Tidal energy",
      "as": "জোৱাৰ-ভাটা শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Geothermal energy does not depend on weather.",
     "as": "ভূ-তাপীয় শক্তি বতৰৰ ওপৰত নিৰ্ভৰশীল নহয়।"
@@ -20084,10 +20084,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Loss of forest cover",
-     "as": "বনাঞ্চলৰ আৱৰণৰ ক্ষতি"
-    },
-    {
      "en": "Increase in forests",
      "as": "বনাঞ্চল বৃদ্ধি"
     },
@@ -20096,11 +20092,15 @@ module.exports = {
      "as": "অধিক পৰিষ্কাৰ নদী"
     },
     {
+     "en": "Loss of forest cover",
+     "as": "বনাঞ্চলৰ আৱৰণৰ ক্ষতি"
+    },
+    {
      "en": "More wildlife",
      "as": "অধিক বন্যপ্ৰাণী"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Loss of forest cover indicates environmental degradation.",
     "as": "বনাঞ্চলৰ আৱৰণৰ ক্ষতিয়ে পৰিৱেশ অৱক্ষয় সূচায়।"
@@ -20114,10 +20114,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "forest cover",
-     "as": "বনাঞ্চলৰ আৱৰণ"
-    },
-    {
      "en": "air quality",
      "as": "বায়ুৰ গুণাগুণ"
     },
@@ -20128,9 +20124,13 @@ module.exports = {
     {
      "en": "wildlife count",
      "as": "বন্যপ্ৰাণীৰ সংখ্যা"
+    },
+    {
+     "en": "forest cover",
+     "as": "বনাঞ্চলৰ আৱৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "It publishes a report on forest cover.",
     "as": "ই বনাঞ্চলৰ আৱৰণৰ ওপৰত প্ৰতিবেদন প্ৰকাশ কৰে।"
@@ -20144,10 +20144,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Tropical moist deciduous forest",
-     "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন"
-    },
-    {
      "en": "Desert forest",
      "as": "মৰুভূমি বন"
     },
@@ -20158,9 +20154,13 @@ module.exports = {
     {
      "en": "Mangrove forest",
      "as": "মেনগ্ৰ'ভ বন"
+    },
+    {
+     "en": "Tropical moist deciduous forest",
+     "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Tropical moist deciduous forest is the largest forest type in Assam.",
     "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন অসমৰ সৰ্ববৃহৎ বনৰ প্ৰকাৰ।"
@@ -20174,12 +20174,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Illegal logging and encroachment",
-     "as": "অবৈধ কাঠ কটা আৰু অধিগ্ৰহণ"
-    },
-    {
      "en": "Afforestation",
      "as": "বনৰোপণ"
+    },
+    {
+     "en": "Illegal logging and encroachment",
+     "as": "অবৈধ কাঠ কটা আৰু অধিগ্ৰহণ"
     },
     {
      "en": "Conservation",
@@ -20190,7 +20190,7 @@ module.exports = {
      "as": "যুটীয়া বন ব্যৱস্থাপনা"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Illegal logging and encroachment degrade forests.",
     "as": "অবৈধ কাঠ কটা আৰু অধিগ্ৰহণে বনাঞ্চল অৱক্ষয় কৰে।"
@@ -20204,12 +20204,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It preserves biodiversity",
-     "as": "ই জৈৱবিচিত্ৰতা সংৰক্ষণ কৰে"
-    },
-    {
      "en": "It increases erosion",
      "as": "ই ক্ষয় বৃদ্ধি কৰে"
+    },
+    {
+     "en": "It preserves biodiversity",
+     "as": "ই জৈৱবিচিত্ৰতা সংৰক্ষণ কৰে"
     },
     {
      "en": "It reduces rainfall",
@@ -20220,7 +20220,7 @@ module.exports = {
      "as": "ই প্ৰদূষণ বৃদ্ধি কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Protecting forests preserves biodiversity.",
     "as": "বনাঞ্চল সুৰক্ষাই জৈৱবিচিত্ৰতা সংৰক্ষণ কৰে।"
@@ -20234,12 +20234,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Environmental education",
-     "as": "পৰিৱেশ শিক্ষা"
-    },
-    {
      "en": "Ignoring pollution",
      "as": "প্ৰদূষণ উপেক্ষা"
+    },
+    {
+     "en": "Environmental education",
+     "as": "পৰিৱেশ শিক্ষা"
     },
     {
      "en": "Wasting resources",
@@ -20250,7 +20250,7 @@ module.exports = {
      "as": "বন নিধন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Environmental education promotes awareness.",
     "as": "পৰিৱেশ শিক্ষাই সজাগতা প্ৰসাৰ কৰে।"
@@ -20264,10 +20264,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "promoting environmental awareness among students",
-     "as": "শিক্ষাৰ্থীসকলৰ মাজত পৰিৱেশ সজাগতা প্ৰসাৰ"
-    },
-    {
      "en": "promoting pollution",
      "as": "প্ৰদূষণ প্ৰসাৰ"
     },
@@ -20276,11 +20272,15 @@ module.exports = {
      "as": "গছ কটা"
     },
     {
+     "en": "promoting environmental awareness among students",
+     "as": "শিক্ষাৰ্থীসকলৰ মাজত পৰিৱেশ সজাগতা প্ৰসাৰ"
+    },
+    {
      "en": "wasting water",
      "as": "পানী নষ্ট কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Eco-clubs promote environmental awareness.",
     "as": "ইক'-ক্লাবে পৰিৱেশ সজাগতা প্ৰসাৰ কৰে।"
@@ -20324,10 +20324,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 51A(g)",
-     "as": "অনুচ্ছেদ 51A(g)"
-    },
-    {
      "en": "Article 51A(a)",
      "as": "অনুচ্ছেদ 51A(a)"
     },
@@ -20336,11 +20332,15 @@ module.exports = {
      "as": "অনুচ্ছেদ 51A(b)"
     },
     {
+     "en": "Article 51A(g)",
+     "as": "অনুচ্ছেদ 51A(g)"
+    },
+    {
      "en": "Article 51A(c)",
      "as": "অনুচ্ছেদ 51A(c)"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 51A(g) asks citizens to protect the environment.",
     "as": "অনুচ্ছেদ 51A(g) এ নাগৰিকক পৰিৱেশ সুৰক্ষা কৰিবলৈ কয়।"
@@ -20354,10 +20354,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 48A",
-     "as": "অনুচ্ছেদ ৪৮A"
-    },
-    {
      "en": "Article 51A",
      "as": "অনুচ্ছেদ 51A"
     },
@@ -20366,11 +20362,15 @@ module.exports = {
      "as": "অনুচ্ছেদ ৪৭"
     },
     {
+     "en": "Article 48A",
+     "as": "অনুচ্ছেদ ৪৮A"
+    },
+    {
      "en": "Article 40",
      "as": "অনুচ্ছেদ ৪০"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Article 48A directs the State to protect the environment.",
     "as": "অনুচ্ছেদ ৪৮A ৰাজ্যক পৰিৱেশ সুৰক্ষাৰ নিৰ্দেশ দিয়ে।"
@@ -20384,12 +20384,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "efficiently and without waste",
-     "as": "দক্ষতাৰে আৰু অপচয় নকৰি"
-    },
-    {
      "en": "wastefully",
      "as": "অপচয়কৈ"
+    },
+    {
+     "en": "efficiently and without waste",
+     "as": "দক্ষতাৰে আৰু অপচয় নকৰি"
     },
     {
      "en": "all at once",
@@ -20400,7 +20400,7 @@ module.exports = {
      "as": "সীমাহীনভাৱে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Sustainable consumption means efficient use without waste.",
     "as": "স্থায়ী ভোগ মানে অপচয় নকৰি দক্ষ ব্যৱহাৰ।"
@@ -20444,10 +20444,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Vellore Citizens Welfare Forum case",
-     "as": "ভেল্লোৰ নাগৰিক কল্যাণ মঞ্চ গোচৰ"
-    },
-    {
      "en": "Kesavananda Bharati case",
      "as": "কেশৱানন্দ ভাৰতী গোচৰ"
     },
@@ -20456,11 +20452,15 @@ module.exports = {
      "as": "গোলকনাথ গোচৰ"
     },
     {
+     "en": "Vellore Citizens Welfare Forum case",
+     "as": "ভেল্লোৰ নাগৰিক কল্যাণ মঞ্চ গোচৰ"
+    },
+    {
      "en": "Minerva Mills case",
      "as": "মিনাৰ্ভা মিলছ গোচৰ"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "The Vellore case highlighted the precautionary principle.",
     "as": "ভেল্লোৰ গোচৰে সতৰ্কতা নীতিত গুৰুত্ব দিছিল।"
@@ -20534,10 +20534,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "pollution",
-     "as": "প্ৰদূষণ"
-    },
-    {
      "en": "deforestation",
      "as": "বন নিধন"
     },
@@ -20548,9 +20544,13 @@ module.exports = {
     {
      "en": "salinity",
      "as": "লৱণতা"
+    },
+    {
+     "en": "pollution",
+     "as": "প্ৰদূষণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "They face severe pollution.",
     "as": "সিয়ে গুৰুতৰ প্ৰদূষণৰ সন্মুখীন হয়।"
@@ -20564,10 +20564,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Untreated industrial and domestic waste",
-     "as": "অপৰিশোধিত উদ্যোগিক আৰু ঘৰুৱা বৰ্জন"
-    },
-    {
      "en": "Rainwater",
      "as": "বৰষুণৰ পানী"
     },
@@ -20578,9 +20574,13 @@ module.exports = {
     {
      "en": "Boating",
      "as": "নাও চলোৱা"
+    },
+    {
+     "en": "Untreated industrial and domestic waste",
+     "as": "অপৰিশোধিত উদ্যোগিক আৰু ঘৰুৱা বৰ্জন"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Untreated waste is a major source of pollution.",
     "as": "অপৰিশোধিত বৰ্জন প্ৰদূষণৰ এটা প্ৰধান উৎস।"
@@ -20594,10 +20594,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "clean up the Ganga",
-     "as": "গঙ্গা পৰিষ্কাৰ কৰা"
-    },
-    {
      "en": "build dams",
      "as": "বান্ধ নিৰ্মাণ"
     },
@@ -20606,11 +20602,15 @@ module.exports = {
      "as": "প্ৰদূষণ বৃদ্ধি"
     },
     {
+     "en": "clean up the Ganga",
+     "as": "গঙ্গা পৰিষ্কাৰ কৰা"
+    },
+    {
      "en": "mine sand",
      "as": "বালি খনন"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "It was set up to clean up the Ganga.",
     "as": "ই গঙ্গা পৰিষ্কাৰ কৰিবলৈ গঠন কৰা হৈছিল।"
@@ -20624,10 +20624,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "They support biodiversity and recharge groundwater",
-     "as": "সিয়ে জৈৱবিচিত্ৰতা সমৰ্থন কৰে আৰু ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ কৰে"
-    },
-    {
      "en": "They increase floods",
      "as": "সিয়ে বানপানী বৃদ্ধি কৰে"
     },
@@ -20636,11 +20632,15 @@ module.exports = {
      "as": "সিয়ে বৰষুণ হ্ৰাস কৰে"
     },
     {
+     "en": "They support biodiversity and recharge groundwater",
+     "as": "সিয়ে জৈৱবিচিত্ৰতা সমৰ্থন কৰে আৰু ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ কৰে"
+    },
+    {
      "en": "They pollute water",
      "as": "সিয়ে পানী প্ৰদূষিত কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Wetlands support biodiversity and recharge groundwater.",
     "as": "জলাহে জৈৱবিচিত্ৰতা সমৰ্থন কৰে আৰু ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ কৰে।"
@@ -20654,12 +20654,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "2 February",
-     "as": "২ ফেব্ৰুৱাৰী"
-    },
-    {
      "en": "2 March",
      "as": "২ মাৰ্চ"
+    },
+    {
+     "en": "2 February",
+     "as": "২ ফেব্ৰুৱাৰী"
     },
     {
      "en": "2 April",
@@ -20670,7 +20670,7 @@ module.exports = {
      "as": "২ মে'"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "World Wetlands Day is observed on 2 February.",
     "as": "বিশ্ব জলাহ দিৱস ২ ফেব্ৰুৱাৰীত পালন কৰা হয়।"
@@ -20744,10 +20744,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "They support marine biodiversity",
-     "as": "সিয়ে সাগৰীয় জৈৱবিচিত্ৰতা সমৰ্থন কৰে"
-    },
-    {
      "en": "They cause pollution",
      "as": "সিয়ে প্ৰদূষণ কৰে"
     },
@@ -20756,11 +20752,15 @@ module.exports = {
      "as": "সিয়ে মাছ হ্ৰাস কৰে"
     },
     {
+     "en": "They support marine biodiversity",
+     "as": "সিয়ে সাগৰীয় জৈৱবিচিত্ৰতা সমৰ্থন কৰে"
+    },
+    {
      "en": "They increase erosion",
      "as": "সিয়ে ক্ষয় বৃদ্ধি কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Coral reefs support marine biodiversity.",
     "as": "প্ৰবাল প্ৰাচীৰে সাগৰীয় জৈৱবিচিত্ৰতা সমৰ্থন কৰে।"
@@ -20804,10 +20804,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Timber",
-     "as": "কাঠ"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
     },
@@ -20818,9 +20814,13 @@ module.exports = {
     {
      "en": "Natural gas",
      "as": "প্ৰাকৃতিক গেছ"
+    },
+    {
+     "en": "Timber",
+     "as": "কাঠ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Timber is a renewable resource.",
     "as": "কাঠ এক নবীকৰণযোগ্য সম্পদ।"
@@ -20864,10 +20864,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Bamboo",
-     "as": "বাঁহ"
-    },
-    {
      "en": "Coal",
      "as": "কয়লা"
     },
@@ -20878,9 +20874,13 @@ module.exports = {
     {
      "en": "Petroleum",
      "as": "পেট্ৰ'লিয়াম"
+    },
+    {
+     "en": "Bamboo",
+     "as": "বাঁহ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Bamboo is an important non-timber forest product.",
     "as": "বাঁহ এটা গুৰুত্বপূৰ্ণ অ-কাঠ বনজ সামগ্ৰী।"
@@ -20894,12 +20894,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sarpagandha",
-     "as": "সৰ্পগন্ধা"
-    },
-    {
      "en": "Tea",
      "as": "চাহ"
+    },
+    {
+     "en": "Sarpagandha",
+     "as": "সৰ্পগন্ধা"
     },
     {
      "en": "Rice",
@@ -20910,7 +20910,7 @@ module.exports = {
      "as": "ঘেঁহু"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Sarpagandha is a medicinal plant found in Assam's forests.",
     "as": "সৰ্পগন্ধা অসমৰ বনাঞ্চলত পোৱা এটা ঔষধি উদ্ভিদ।"
@@ -20924,10 +20924,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Buying only what is needed",
-     "as": "প্ৰয়োজনীয়খিনি কেৱল কিনা"
-    },
-    {
      "en": "Buying excess food",
      "as": "অতিরিক্ত খাদ্য কিনা"
     },
@@ -20936,11 +20932,15 @@ module.exports = {
      "as": "খাদ্য পেলোৱা"
     },
     {
+     "en": "Buying only what is needed",
+     "as": "প্ৰয়োজনীয়খিনি কেৱল কিনা"
+    },
+    {
      "en": "Wasting leftovers",
      "as": "অৱশিষ্ট নষ্ট কৰা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
     "en": "Buying only what is needed reduces food waste.",
     "as": "প্ৰয়োজনীয়খিনি কেৱল কিনিলে খাদ্য অপচয় হ্ৰাস হয়।"
@@ -20954,12 +20954,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It conserves resources and reduces emissions",
-     "as": "ই সম্পদ সংৰক্ষণ কৰে আৰু নিৰ্গমন হ্ৰাস কৰে"
-    },
-    {
      "en": "It increases emissions",
      "as": "ই নিৰ্গমন বৃদ্ধি কৰে"
+    },
+    {
+     "en": "It conserves resources and reduces emissions",
+     "as": "ই সম্পদ সংৰক্ষণ কৰে আৰু নিৰ্গমন হ্ৰাস কৰে"
     },
     {
      "en": "It wastes water",
@@ -20970,7 +20970,7 @@ module.exports = {
      "as": "ই প্ৰদূষণ বৃদ্ধি কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Reducing food waste conserves resources and reduces emissions.",
     "as": "খাদ্য অপচয় হ্ৰাসে সম্পদ সংৰক্ষণ কৰে আৰু নিৰ্গমন হ্ৰাস কৰে।"
@@ -21014,12 +21014,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "14 December",
-     "as": "১৪ ডিচেম্বৰ"
-    },
-    {
      "en": "14 January",
      "as": "১৪ জানুৱাৰী"
+    },
+    {
+     "en": "14 December",
+     "as": "১৪ ডিচেম্বৰ"
     },
     {
      "en": "14 March",
@@ -21030,7 +21030,7 @@ module.exports = {
      "as": "১৪ জুন"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Energy Conservation Day is observed on 14 December.",
     "as": "শক্তি সংৰক্ষণ দিৱস ১৪ ডিচেম্বৰত পালন কৰা হয়।"
@@ -21074,12 +21074,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Solar energy",
-     "as": "সৌৰ শক্তি"
-    },
-    {
      "en": "Coal energy",
      "as": "কয়লা শক্তি"
+    },
+    {
+     "en": "Solar energy",
+     "as": "সৌৰ শক্তি"
     },
     {
      "en": "Nuclear energy",
@@ -21090,7 +21090,7 @@ module.exports = {
      "as": "ডিজেল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "The National Solar Mission promotes solar energy.",
     "as": "ৰাষ্ট্ৰীয় সৌৰ মিছনে সৌৰ শক্তি প্ৰসাৰ কৰে।"
@@ -21104,10 +21104,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "They save electricity",
-     "as": "সিয়ে বিদ্যুৎ সঞ্চয় কৰে"
-    },
-    {
      "en": "They use more electricity",
      "as": "সিয়ে অধিক বিদ্যুৎ ব্যৱহাৰ কৰে"
     },
@@ -21118,9 +21114,13 @@ module.exports = {
     {
      "en": "They need coal",
      "as": "সিয়ে কয়লা লাগে"
+    },
+    {
+     "en": "They save electricity",
+     "as": "সিয়ে বিদ্যুৎ সঞ্চয় কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Solar water heaters save electricity.",
     "as": "সৌৰ জল-তাপকে বিদ্যুৎ সঞ্চয় কৰে।"
@@ -21134,12 +21134,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "GRIHA",
-     "as": "গ্ৰীহ"
-    },
-    {
      "en": "ISO 9001",
      "as": "আইএছঅ' ৯০০১"
+    },
+    {
+     "en": "GRIHA",
+     "as": "গ্ৰীহ"
     },
     {
      "en": "ISI",
@@ -21150,7 +21150,7 @@ module.exports = {
      "as": "এজিমাৰ্ক"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "GRIHA is a green building certification in India.",
     "as": "গ্ৰীহ ভাৰতত এটা সেউজ ভৱন প্ৰমাণপত্ৰ।"
@@ -21164,12 +21164,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Solar energy",
-     "as": "সৌৰ শক্তি"
-    },
-    {
      "en": "Coal energy",
      "as": "কয়লা শক্তি"
+    },
+    {
+     "en": "Solar energy",
+     "as": "সৌৰ শক্তি"
     },
     {
      "en": "Nuclear energy",
@@ -21180,7 +21180,7 @@ module.exports = {
      "as": "ডিজেল শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "Solar energy powers many street lights.",
     "as": "সৌৰ শক্তিয়ে বহু পথৰ পোহৰ চলায়।"
@@ -21284,10 +21284,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Wind energy",
-     "as": "বতাহ শক্তি"
-    },
-    {
      "en": "Coal energy",
      "as": "কয়লা শক্তি"
     },
@@ -21298,9 +21294,13 @@ module.exports = {
     {
      "en": "Diesel energy",
      "as": "ডিজেল শক্তি"
+    },
+    {
+     "en": "Wind energy",
+     "as": "বতাহ শক্তি"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
     "en": "Wind energy uses the movement of air.",
     "as": "বতাহ শক্তিয়ে বায়ুৰ গতিবিধি ব্যৱহাৰ কৰে।"
@@ -21314,12 +21314,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "It promotes sustainable growth and jobs",
-     "as": "ই স্থায়ী বৃদ্ধি আৰু কৰ্মসংস্থান প্ৰসাৰ কৰে"
-    },
-    {
      "en": "It increases pollution",
      "as": "ই প্ৰদূষণ বৃদ্ধি কৰে"
+    },
+    {
+     "en": "It promotes sustainable growth and jobs",
+     "as": "ই স্থায়ী বৃদ্ধি আৰু কৰ্মসংস্থান প্ৰসাৰ কৰে"
     },
     {
      "en": "It depletes resources",
@@ -21330,7 +21330,7 @@ module.exports = {
      "as": "ই স্বাস্থ্যৰ ক্ষতি কৰে"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
     "en": "A green economy promotes sustainable growth and jobs.",
     "as": "সেউজ অৰ্থনীতিয়ে স্থায়ী বৃদ্ধি আৰু কৰ্মসংস্থান প্ৰসাৰ কৰে।"

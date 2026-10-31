@@ -7,12 +7,12 @@
     },
     "options": [
       {
-        "en": "all living and non-living things around us",
-        "as": "আমাৰ চাৰিওফালৰ সকলো জীৱ আৰু নিৰ্জীৱ বস্তু"
-      },
-      {
         "en": "only living things",
         "as": "কেৱল জীৱ"
+      },
+      {
+        "en": "all living and non-living things around us",
+        "as": "আমাৰ চাৰিওফালৰ সকলো জীৱ আৰু নিৰ্জীৱ বস্তু"
       },
       {
         "en": "only non-living things",
@@ -23,7 +23,7 @@
         "as": "কেৱল মানুহ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The environment includes all living and non-living things.",
       "as": "পৰিৱেশত সকলো জীৱ আৰু নিৰ্জীৱ বস্তু অন্তৰ্ভুক্ত।"
@@ -37,12 +37,12 @@
     },
     "options": [
       {
-        "en": "life exists",
-        "as": "জীৱন আছে"
-      },
-      {
         "en": "there is no life",
         "as": "জীৱন নাই"
+      },
+      {
+        "en": "life exists",
+        "as": "জীৱন আছে"
       },
       {
         "en": "only rocks exist",
@@ -53,7 +53,7 @@
         "as": "কেৱল পানী আছে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The biosphere is where life exists.",
       "as": "জীৱমণ্ডল হৈছে য'ত জীৱন আছে।"
@@ -67,10 +67,6 @@
     },
     "options": [
       {
-        "en": "air, water and soil",
-        "as": "বায়ু, পানী আৰু মাটি"
-      },
-      {
         "en": "plants",
         "as": "উদ্ভিদ"
       },
@@ -81,9 +77,13 @@
       {
         "en": "microbes",
         "as": "অণুজীৱ"
+      },
+      {
+        "en": "air, water and soil",
+        "as": "বায়ু, পানী আৰু মাটি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The abiotic component includes air, water and soil.",
       "as": "অজৈৱিক উপাদানত বায়ু, পানী আৰু মাটি অন্তৰ্ভুক্ত।"
@@ -97,12 +97,12 @@
     },
     "options": [
       {
-        "en": "plants, animals and microbes",
-        "as": "উদ্ভিদ, প্ৰাণী আৰু অণুজীৱ"
-      },
-      {
         "en": "air",
         "as": "বায়ু"
+      },
+      {
+        "en": "plants, animals and microbes",
+        "as": "উদ্ভিদ, প্ৰাণী আৰু অণুজীৱ"
       },
       {
         "en": "water",
@@ -113,7 +113,7 @@
         "as": "মাটি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The biotic component includes living organisms.",
       "as": "জৈৱিক উপাদানত জীৱ অন্তৰ্ভুক্ত।"
@@ -127,10 +127,6 @@
     },
     "options": [
       {
-        "en": "living organisms and their physical environment",
-        "as": "জীৱ আৰু তেওঁলোকৰ ভৌতিক পৰিৱেশ"
-      },
-      {
         "en": "only plants",
         "as": "কেৱল উদ্ভিদ"
       },
@@ -141,9 +137,13 @@
       {
         "en": "only rocks",
         "as": "কেৱল শিল"
+      },
+      {
+        "en": "living organisms and their physical environment",
+        "as": "জীৱ আৰু তেওঁলোকৰ ভৌতিক পৰিৱেশ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "An ecosystem includes organisms and their physical environment.",
       "as": "পৰিৱেশ তন্ত্ৰত জীৱ আৰু তেওঁলোকৰ ভৌতিক পৰিৱেশ অন্তৰ্ভুক্ত।"
@@ -157,10 +157,6 @@
     },
     "options": [
       {
-        "en": "A forest",
-        "as": "এখন বন"
-      },
-      {
         "en": "A city",
         "as": "এখন চহৰ"
       },
@@ -171,9 +167,13 @@
       {
         "en": "A dam",
         "as": "এটা বান্ধ"
+      },
+      {
+        "en": "A forest",
+        "as": "এখন বন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A forest is a natural ecosystem.",
       "as": "বন এখন প্ৰাকৃতিক পৰিৱেশ তন্ত্ৰ।"
@@ -187,10 +187,6 @@
     },
     "options": [
       {
-        "en": "A cropland",
-        "as": "এখন কৃষিভূমি"
-      },
-      {
         "en": "A forest",
         "as": "এখন বন"
       },
@@ -201,9 +197,13 @@
       {
         "en": "An ocean",
         "as": "এখন মহাসাগৰ"
+      },
+      {
+        "en": "A cropland",
+        "as": "এখন কৃষিভূমি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A cropland is an artificial ecosystem.",
       "as": "কৃষিভূমি এখন কৃত্ৰিম পৰিৱেশ তন্ত্ৰ।"
@@ -247,10 +247,6 @@
     },
     "options": [
       {
-        "en": "animals",
-        "as": "প্ৰাণী"
-      },
-      {
         "en": "green plants",
         "as": "সেউজ উদ্ভিদ"
       },
@@ -259,11 +255,15 @@
         "as": "সূৰ্যৰ পোহৰ"
       },
       {
+        "en": "animals",
+        "as": "প্ৰাণী"
+      },
+      {
         "en": "water",
         "as": "পানী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Animals are the consumers.",
       "as": "প্ৰাণী ভোক্তা।"
@@ -277,10 +277,6 @@
     },
     "options": [
       {
-        "en": "decomposers",
-        "as": "বিয়োজক"
-      },
-      {
         "en": "producers",
         "as": "উৎপাদক"
       },
@@ -289,11 +285,15 @@
         "as": "ভোক্তা"
       },
       {
+        "en": "decomposers",
+        "as": "বিয়োজক"
+      },
+      {
         "en": "predators",
         "as": "শিকাৰী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Decomposers break down dead matter.",
       "as": "বিয়োজকে মৃত পদাৰ্থ ভাঙি পেলায়।"
@@ -307,10 +307,6 @@
     },
     "options": [
       {
-        "en": "energy from one organism to another",
-        "as": "এটা জীৱৰ পৰা আন এটালৈ শক্তি"
-      },
-      {
         "en": "water",
         "as": "পানী"
       },
@@ -321,9 +317,13 @@
       {
         "en": "oxygen",
         "as": "অক্সিজেন"
+      },
+      {
+        "en": "energy from one organism to another",
+        "as": "এটা জীৱৰ পৰা আন এটালৈ শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A food chain shows the transfer of energy.",
       "as": "খাদ্য শৃংখলে শক্তিৰ স্থানান্তৰ দেখুৱায়।"
@@ -337,10 +337,6 @@
     },
     "options": [
       {
-        "en": "producers to consumers",
-        "as": "উৎপাদকৰ পৰা ভোক্তালৈ"
-      },
-      {
         "en": "consumers to producers",
         "as": "ভোক্তাৰ পৰা উৎপাদকলৈ"
       },
@@ -351,9 +347,13 @@
       {
         "en": "soil to plants",
         "as": "মাটিৰ পৰা উদ্ভিদলৈ"
+      },
+      {
+        "en": "producers to consumers",
+        "as": "উৎপাদকৰ পৰা ভোক্তালৈ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Energy flows from producers to consumers.",
       "as": "শক্তি উৎপাদকৰ পৰা ভোক্তালৈ প্ৰবাহিত হয়।"
@@ -367,10 +367,6 @@
     },
     "options": [
       {
-        "en": "the sun",
-        "as": "সূৰ্য"
-      },
-      {
         "en": "the moon",
         "as": "চন্দ্ৰ"
       },
@@ -381,9 +377,13 @@
       {
         "en": "the soil",
         "as": "মাটি"
+      },
+      {
+        "en": "the sun",
+        "as": "সূৰ্য"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The sun is the ultimate source of energy.",
       "as": "সূৰ্য শক্তিৰ চূড়ান্ত উৎস।"
@@ -397,10 +397,6 @@
     },
     "options": [
       {
-        "en": "Lindeman",
-        "as": "লিণ্ডেমেন"
-      },
-      {
         "en": "Darwin",
         "as": "ডাৰউইন"
       },
@@ -411,9 +407,13 @@
       {
         "en": "Tansley",
         "as": "টেনচলি"
+      },
+      {
+        "en": "Lindeman",
+        "as": "লিণ্ডেমেন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Lindeman gave the 10 percent law.",
       "as": "লিণ্ডেমেনে ১০ শতাংশ নিয়ম দিছিল।"
@@ -427,10 +427,6 @@
     },
     "options": [
       {
-        "en": "interconnected food chains",
-        "as": "আন্তঃসংযুক্ত খাদ্য শৃংখল"
-      },
-      {
         "en": "a single food chain",
         "as": "এটা খাদ্য শৃংখল"
       },
@@ -441,9 +437,13 @@
       {
         "en": "only consumers",
         "as": "কেৱল ভোক্তা"
+      },
+      {
+        "en": "interconnected food chains",
+        "as": "আন্তঃসংযুক্ত খাদ্য শৃংখল"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A food web is made of interconnected food chains.",
       "as": "খাদ্য জাল আন্তঃসংযুক্ত খাদ্য শৃংখলেৰে গঠিত।"
@@ -457,10 +457,6 @@
     },
     "options": [
       {
-        "en": "upright",
-        "as": "সোজা"
-      },
-      {
         "en": "inverted",
         "as": "ওলোটা"
       },
@@ -469,11 +465,15 @@
         "as": "অনুভূমিক"
       },
       {
+        "en": "upright",
+        "as": "সোজা"
+      },
+      {
         "en": "circular",
         "as": "বৃত্তাকাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The pyramid of energy is always upright.",
       "as": "শক্তিৰ পিৰামিড সদায় সোজা।"
@@ -487,12 +487,12 @@
     },
     "options": [
       {
-        "en": "living organisms in a region",
-        "as": "এখন অঞ্চলৰ জীৱ"
-      },
-      {
         "en": "rocks in a region",
         "as": "এখন অঞ্চলৰ শিল"
+      },
+      {
+        "en": "living organisms in a region",
+        "as": "এখন অঞ্চলৰ জীৱ"
       },
       {
         "en": "rivers in a region",
@@ -503,7 +503,7 @@
         "as": "এখন অঞ্চলৰ পৰ্বত"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Biodiversity is the variety of living organisms.",
       "as": "জৈৱবিচিত্ৰতা হৈছে জীৱৰ বিচিত্ৰতা।"
@@ -517,10 +517,6 @@
     },
     "options": [
       {
-        "en": "India",
-        "as": "ভাৰত"
-      },
-      {
         "en": "Japan",
         "as": "জাপান"
       },
@@ -529,11 +525,15 @@
         "as": "জাৰ্মানী"
       },
       {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
         "en": "Egypt",
         "as": "ইজিপ্ত"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "India is one of the world's mega-diverse countries.",
       "as": "ভাৰত বিশ্বৰ মেগা-বিচিত্ৰ দেশবোৰৰ এটা।"
@@ -547,10 +547,6 @@
     },
     "options": [
       {
-        "en": "high species richness under threat",
-        "as": "সংকটত থকা উচ্চ প্ৰজাতি সমৃদ্ধি"
-      },
-      {
         "en": "no species",
         "as": "প্ৰজাতি নাই"
       },
@@ -561,9 +557,13 @@
       {
         "en": "only deserts",
         "as": "কেৱল মৰুভূমি"
+      },
+      {
+        "en": "high species richness under threat",
+        "as": "সংকটত থকা উচ্চ প্ৰজাতি সমৃদ্ধি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A biodiversity hotspot has high species richness under threat.",
       "as": "জৈৱবিচিত্ৰতাৰ হটস্পটত সংকটত থকা উচ্চ প্ৰজাতি সমৃদ্ধি থাকে।"
@@ -577,10 +577,6 @@
     },
     "options": [
       {
-        "en": "Western Ghats",
-        "as": "পশ্চিম ঘাট"
-      },
-      {
         "en": "Thar Desert",
         "as": "থৰ মৰুভূমি"
       },
@@ -591,9 +587,13 @@
       {
         "en": "Gangetic Plain",
         "as": "গাঙ্গেয় সমভূমি"
+      },
+      {
+        "en": "Western Ghats",
+        "as": "পশ্চিম ঘাট"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Western Ghats is a biodiversity hotspot.",
       "as": "পশ্চিম ঘাট এটা জৈৱবিচিত্ৰতাৰ হটস্পট।"
@@ -607,10 +607,6 @@
     },
     "options": [
       {
-        "en": "Indo-Burma region",
-        "as": "ভাৰত-বাৰ্মা অঞ্চল"
-      },
-      {
         "en": "Thar Desert",
         "as": "থৰ মৰুভূমি"
       },
@@ -621,9 +617,13 @@
       {
         "en": "Rann of Kutch",
         "as": "কচ্ছৰ ৰণ"
+      },
+      {
+        "en": "Indo-Burma region",
+        "as": "ভাৰত-বাৰ্মা অঞ্চল"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Indo-Burma region is a biodiversity hotspot.",
       "as": "ভাৰত-বাৰ্মা অঞ্চল এটা জৈৱবিচিত্ৰতাৰ হটস্পট।"
@@ -637,10 +637,6 @@
     },
     "options": [
       {
-        "en": "Eastern Himalayas",
-        "as": "পূব হিমালয়"
-      },
-      {
         "en": "Western Ghats",
         "as": "পশ্চিম ঘাট"
       },
@@ -651,9 +647,13 @@
       {
         "en": "Thar Desert",
         "as": "থৰ মৰুভূমি"
+      },
+      {
+        "en": "Eastern Himalayas",
+        "as": "পূব হিমালয়"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Eastern Himalayas are called the cradle of biodiversity.",
       "as": "পূব হিমালয়ক জৈৱবিচিত্ৰতাৰ দোলনা বুলি কোৱা হয়।"
@@ -667,10 +667,6 @@
     },
     "options": [
       {
-        "en": "complete disappearance from the earth",
-        "as": "পৃথিৱীৰ পৰা সম্পূৰ্ণ অন্তৰ্ধান"
-      },
-      {
         "en": "increase in number",
         "as": "সংখ্যা বৃদ্ধি"
       },
@@ -681,9 +677,13 @@
       {
         "en": "adaptation",
         "as": "অভিযোজন"
+      },
+      {
+        "en": "complete disappearance from the earth",
+        "as": "পৃথিৱীৰ পৰা সম্পূৰ্ণ অন্তৰ্ধান"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Extinction is the complete disappearance of a species.",
       "as": "বিলুপ্তি হৈছে প্ৰজাতিৰ সম্পূৰ্ণ অন্তৰ্ধান।"
@@ -697,10 +697,6 @@
     },
     "options": [
       {
-        "en": "Great Indian Bustard",
-        "as": "ভাৰতীয় গৰৈ"
-      },
-      {
         "en": "Cow",
         "as": "গৰু"
       },
@@ -709,11 +705,15 @@
         "as": "কুকুৰ"
       },
       {
+        "en": "Great Indian Bustard",
+        "as": "ভাৰতীয় গৰৈ"
+      },
+      {
         "en": "Crow",
         "as": "কাউৰী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Great Indian Bustard is critically endangered.",
       "as": "ভাৰতীয় গৰৈ চৰম সংকটাপন্ন।"
@@ -727,10 +727,6 @@
     },
     "options": [
       {
-        "en": "Kaziranga, Assam",
-        "as": "কাজিৰঙা, অসম"
-      },
-      {
         "en": "Gir, Gujarat",
         "as": "গিৰ, গুজৰাট"
       },
@@ -739,11 +735,15 @@
         "as": "কানহা, মধ্য প্ৰদেশ"
       },
       {
+        "en": "Kaziranga, Assam",
+        "as": "কাজিৰঙা, অসম"
+      },
+      {
         "en": "Corbett, Uttarakhand",
         "as": "কorbেট, উত্তৰাখণ্ড"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The one-horned rhinoceros is mainly found in Kaziranga, Assam.",
       "as": "এশিঙীয়া গঁড় মূলতঃ অসমৰ কাজিৰঙাত পোৱা যায়।"
@@ -907,12 +907,12 @@
     },
     "options": [
       {
-        "en": "1986",
-        "as": "১৯৮৬"
-      },
-      {
         "en": "1972",
         "as": "১৯৭২"
+      },
+      {
+        "en": "1986",
+        "as": "১৯৮৬"
       },
       {
         "en": "1974",
@@ -923,7 +923,7 @@
         "as": "১৯৯০"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The Environment Protection Act was enacted in 1986.",
       "as": "পৰিৱেশ সুৰক্ষা আইন ১৯৮৬ চনত বলৱৎ কৰা হৈছিল।"
@@ -967,10 +967,6 @@
     },
     "options": [
       {
-        "en": "1981",
-        "as": "১৯৮১"
-      },
-      {
         "en": "1974",
         "as": "১৯৭৪"
       },
@@ -981,9 +977,13 @@
       {
         "en": "1990",
         "as": "১৯৯০"
+      },
+      {
+        "en": "1981",
+        "as": "১৯৮১"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Air Act was enacted in 1981.",
       "as": "বায়ু আইন ১৯৮১ চনত বলৱৎ কৰা হৈছিল।"
@@ -997,10 +997,6 @@
     },
     "options": [
       {
-        "en": "Central Pollution Control Board",
-        "as": "কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড"
-      },
-      {
         "en": "State Pollution Control Board",
         "as": "ৰাজ্য প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড"
       },
@@ -1009,11 +1005,15 @@
         "as": "নীতি আয়োগ"
       },
       {
+        "en": "Central Pollution Control Board",
+        "as": "কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড"
+      },
+      {
         "en": "SEBI",
         "as": "ছেবি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Central Pollution Control Board is the apex body.",
       "as": "কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড শীৰ্ষ সংস্থা।"
@@ -1057,10 +1057,6 @@
     },
     "options": [
       {
-        "en": "Carbon monoxide",
-        "as": "কাৰ্বন মনোক্সাইড"
-      },
-      {
         "en": "Oxygen",
         "as": "অক্সিজেন"
       },
@@ -1069,11 +1065,15 @@
         "as": "নাইট্ৰজেন"
       },
       {
+        "en": "Carbon monoxide",
+        "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
         "en": "Water vapour",
         "as": "জলীয় বাষ্প"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Carbon monoxide is a common air pollutant.",
       "as": "কাৰ্বন মনোক্সাইড এটা প্ৰচলিত বায়ু প্ৰদূষক।"
@@ -1087,10 +1087,6 @@
     },
     "options": [
       {
-        "en": "Carbon dioxide",
-        "as": "কাৰ্বন ডাইঅক্সাইড"
-      },
-      {
         "en": "Oxygen",
         "as": "অক্সিজেন"
       },
@@ -1101,9 +1097,13 @@
       {
         "en": "Hydrogen",
         "as": "হাইড্ৰজেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাইঅক্সাইড"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Carbon dioxide is mainly responsible for global warming.",
       "as": "কাৰ্বন ডাইঅক্সাইড গোলকীয় উষ্ণতা বৃদ্ধিৰ বাবে মূলতঃ দায়ী।"
@@ -1117,10 +1117,6 @@
     },
     "options": [
       {
-        "en": "Methane",
-        "as": "মিথেন"
-      },
-      {
         "en": "Oxygen",
         "as": "অক্সিজেন"
       },
@@ -1131,9 +1127,13 @@
       {
         "en": "Argon",
         "as": "আৰ্গন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Methane is a greenhouse gas.",
       "as": "মিথেন এটা গ্ৰীণহাউছ গেছ।"
@@ -1177,12 +1177,12 @@
     },
     "options": [
       {
-        "en": "rise in sea levels",
-        "as": "সমুদ্ৰপৃষ্ঠৰ উচ্চতা বৃদ্ধি"
-      },
-      {
         "en": "fall in sea levels",
         "as": "সমুদ্ৰপৃষ্ঠৰ উচ্চতা হ্ৰাস"
+      },
+      {
+        "en": "rise in sea levels",
+        "as": "সমুদ্ৰপৃষ্ঠৰ উচ্চতা বৃদ্ধি"
       },
       {
         "en": "cooling of the earth",
@@ -1193,7 +1193,7 @@
         "as": "বৰফ বৃদ্ধি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Global warming leads to a rise in sea levels.",
       "as": "গোলকীয় উষ্ণতা বৃদ্ধিৰ পৰিণতি সমুদ্ৰপৃষ্ঠৰ উচ্চতা বৃদ্ধি।"
@@ -1207,10 +1207,6 @@
     },
     "options": [
       {
-        "en": "reduction of greenhouse gas emissions",
-        "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
-      },
-      {
         "en": "ozone protection only",
         "as": "কেৱল অ'জন সুৰক্ষা"
       },
@@ -1221,9 +1217,13 @@
       {
         "en": "water conservation",
         "as": "জল সংৰক্ষণ"
+      },
+      {
+        "en": "reduction of greenhouse gas emissions",
+        "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Kyoto Protocol deals with reducing greenhouse gas emissions.",
       "as": "কিয়'ট' প্ৰ'ট'কলে গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাসৰ সৈতে কাম কৰে।"
@@ -1237,10 +1237,6 @@
     },
     "options": [
       {
-        "en": "2015",
-        "as": "২০১৫"
-      },
-      {
         "en": "2010",
         "as": "২০১০"
       },
@@ -1249,11 +1245,15 @@
         "as": "২০০৫"
       },
       {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
         "en": "2020",
         "as": "২০২০"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Paris Agreement was adopted in 2015.",
       "as": "পেৰিছ চুক্তি ২০১৫ চনত গ্ৰহণ কৰা হৈছিল।"
@@ -1267,10 +1267,6 @@
     },
     "options": [
       {
-        "en": "ultraviolet rays",
-        "as": "অতি-বেঙুনীয় ৰশ্মি"
-      },
-      {
         "en": "infrared rays",
         "as": "অৱ-ৰক্ত ৰশ্মি"
       },
@@ -1281,9 +1277,13 @@
       {
         "en": "gamma rays",
         "as": "গামা ৰশ্মি"
+      },
+      {
+        "en": "ultraviolet rays",
+        "as": "অতি-বেঙুনীয় ৰশ্মি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The ozone layer protects us from ultraviolet rays.",
       "as": "অ'জন স্তৰে আমাক অতি-বেঙুনীয় ৰশ্মিৰ পৰা সুৰক্ষা দিয়ে।"
@@ -1297,10 +1297,6 @@
     },
     "options": [
       {
-        "en": "chlorofluorocarbons",
-        "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বন"
-      },
-      {
         "en": "carbon dioxide",
         "as": "কাৰ্বন ডাইঅক্সাইড"
       },
@@ -1311,9 +1307,13 @@
       {
         "en": "sulphur dioxide",
         "as": "ছালফাৰ ডাইঅক্সাইড"
+      },
+      {
+        "en": "chlorofluorocarbons",
+        "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Chlorofluorocarbons cause ozone depletion.",
       "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বনে অ'জন ক্ষয়ৰ সৃষ্টি কৰে।"
@@ -1327,10 +1327,6 @@
     },
     "options": [
       {
-        "en": "ozone layer",
-        "as": "অ'জন স্তৰ"
-      },
-      {
         "en": "forests",
         "as": "বনাঞ্চল"
       },
@@ -1341,9 +1337,13 @@
       {
         "en": "wildlife",
         "as": "বন্যপ্ৰাণী"
+      },
+      {
+        "en": "ozone layer",
+        "as": "অ'জন স্তৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Montreal Protocol protects the ozone layer.",
       "as": "মণ্ট্ৰিয়েল প্ৰ'ট'কলে অ'জন স্তৰ সুৰক্ষা কৰে।"
@@ -1387,10 +1387,6 @@
     },
     "options": [
       {
-        "en": "5.6",
-        "as": "৫.৬"
-      },
-      {
         "en": "7",
         "as": "৭"
       },
@@ -1401,9 +1397,13 @@
       {
         "en": "9",
         "as": "৯"
+      },
+      {
+        "en": "5.6",
+        "as": "৫.৬"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Acid rain has a pH of less than 5.6.",
       "as": "অম্ল বৰষুণৰ pH ৫.৬ তকৈ কম।"
@@ -1417,10 +1417,6 @@
     },
     "options": [
       {
-        "en": "smoke and fog",
-        "as": "ধোঁৱা আৰু কুহুম"
-      },
-      {
         "en": "dust and rain",
         "as": "ধূলি আৰু বৰষুণ"
       },
@@ -1431,9 +1427,13 @@
       {
         "en": "snow and fog",
         "as": "বৰফ আৰু কুহুম"
+      },
+      {
+        "en": "smoke and fog",
+        "as": "ধোঁৱা আৰু কুহুম"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Smog is a combination of smoke and fog.",
       "as": "ধোঁৱাকুহুম ধোঁৱা আৰু কুহুমৰ সংমিশ্ৰণ।"
@@ -1447,10 +1447,6 @@
     },
     "options": [
       {
-        "en": "1952",
-        "as": "১৯৫২"
-      },
-      {
         "en": "1942",
         "as": "১৯৪২"
       },
@@ -1459,11 +1455,15 @@
         "as": "১৯৬২"
       },
       {
+        "en": "1952",
+        "as": "১৯৫২"
+      },
+      {
         "en": "1972",
         "as": "১৯৭২"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Great Smog of London occurred in 1952.",
       "as": "লণ্ডনৰ মহান ধোঁৱাকুহুম ১৯৫২ চনত ঘটিছিল।"
@@ -1477,10 +1477,6 @@
     },
     "options": [
       {
-        "en": "1984",
-        "as": "১৯৮৪"
-      },
-      {
         "en": "1974",
         "as": "১৯৭৪"
       },
@@ -1491,9 +1487,13 @@
       {
         "en": "1964",
         "as": "১৯৬৪"
+      },
+      {
+        "en": "1984",
+        "as": "১৯৮৪"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Bhopal Gas Tragedy occurred in 1984.",
       "as": "ভূপাল গেছ দুৰ্যোগ ১৯৮৪ চনত ঘটিছিল।"
@@ -1507,12 +1507,12 @@
     },
     "options": [
       {
-        "en": "methyl isocyanate",
-        "as": "মিথাইল আইছ'চায়ানেট"
-      },
-      {
         "en": "carbon monoxide",
         "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
+        "en": "methyl isocyanate",
+        "as": "মিথাইল আইছ'চায়ানেট"
       },
       {
         "en": "ammonia",
@@ -1523,7 +1523,7 @@
         "as": "ক্ল'ৰিন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Methyl isocyanate leaked in the Bhopal Gas Tragedy.",
       "as": "ভূপাল গেছ দুৰ্যোগত মিথাইল আইছ'চায়ানেট নিৰ্গত হৈছিল।"
@@ -1567,10 +1567,6 @@
     },
     "options": [
       {
-        "en": "Untreated sewage",
-        "as": "অপৰিশোধিত নৰ্দমা"
-      },
-      {
         "en": "Rainwater",
         "as": "বৰষুণৰ পানী"
       },
@@ -1579,11 +1575,15 @@
         "as": "ভূগৰ্ভস্থ পানী"
       },
       {
+        "en": "Untreated sewage",
+        "as": "অপৰিশোধিত নৰ্দমা"
+      },
+      {
         "en": "Spring water",
         "as": "ভুমুকি পানী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Untreated sewage is the largest source of water pollution.",
       "as": "অপৰিশোধিত নৰ্দমা জল প্ৰদূষণৰ সৰ্ববৃহৎ উৎস।"
@@ -1597,12 +1597,12 @@
     },
     "options": [
       {
-        "en": "organic pollution of water",
-        "as": "পানীৰ জৈৱিক প্ৰদূষণ"
-      },
-      {
         "en": "air quality",
         "as": "বায়ুৰ গুণাগুণ"
+      },
+      {
+        "en": "organic pollution of water",
+        "as": "পানীৰ জৈৱিক প্ৰদূষণ"
       },
       {
         "en": "soil fertility",
@@ -1613,7 +1613,7 @@
         "as": "শব্দৰ মাত্ৰা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "BOD measures organic pollution of water.",
       "as": "BOD য়ে পানীৰ জৈৱিক প্ৰদূষণ জোখে।"
@@ -1627,10 +1627,6 @@
     },
     "options": [
       {
-        "en": "high organic pollution",
-        "as": "উচ্চ জৈৱিক প্ৰদূষণ"
-      },
-      {
         "en": "low pollution",
         "as": "নিম্ন প্ৰদূষণ"
       },
@@ -1641,9 +1637,13 @@
       {
         "en": "high oxygen",
         "as": "উচ্চ অক্সিজেন"
+      },
+      {
+        "en": "high organic pollution",
+        "as": "উচ্চ জৈৱিক প্ৰদূষণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "High BOD indicates high organic pollution.",
       "as": "উচ্চ BOD য়ে উচ্চ জৈৱিক প্ৰদূষণ সূচায়।"
@@ -1657,10 +1657,6 @@
     },
     "options": [
       {
-        "en": "excess nutrients like nitrogen and phosphorus",
-        "as": "নাইট্ৰজেন আৰু ফছফৰাছৰ দৰে অতিৰিক্ত পুষ্টি"
-      },
-      {
         "en": "excess oxygen",
         "as": "অতিৰিক্ত অক্সিজেন"
       },
@@ -1669,11 +1665,15 @@
         "as": "অতিৰিক্ত সূৰ্যৰ পোহৰ"
       },
       {
+        "en": "excess nutrients like nitrogen and phosphorus",
+        "as": "নাইট্ৰজেন আৰু ফছফৰাছৰ দৰে অতিৰিক্ত পুষ্টি"
+      },
+      {
         "en": "low temperature",
         "as": "নিম্ন উষ্ণতা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Eutrophication is caused by excess nutrients.",
       "as": "পুষ্টিসমৃদ্ধি অতিৰিক্ত পুষ্টিৰ বাবে হয়।"
@@ -1717,10 +1717,6 @@
     },
     "options": [
       {
-        "en": "decibels",
-        "as": "ডেচিবেল"
-      },
-      {
         "en": "litres",
         "as": "লিটাৰ"
       },
@@ -1729,11 +1725,15 @@
         "as": "গ্ৰাম"
       },
       {
+        "en": "decibels",
+        "as": "ডেচিবেল"
+      },
+      {
         "en": "degrees",
         "as": "ডিগ্ৰী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Noise pollution is measured in decibels.",
       "as": "শব্দ প্ৰদূষণ ডেচিবেলত জোখা হয়।"
@@ -1777,12 +1777,12 @@
     },
     "options": [
       {
-        "en": "Loudspeakers",
-        "as": "উচ্চ স্বৰযন্ত্ৰ"
-      },
-      {
         "en": "Trees",
         "as": "গছ"
+      },
+      {
+        "en": "Loudspeakers",
+        "as": "উচ্চ স্বৰযন্ত্ৰ"
       },
       {
         "en": "Birds",
@@ -1793,7 +1793,7 @@
         "as": "বৰষুণ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Loudspeakers are a source of noise pollution.",
       "as": "উচ্চ স্বৰযন্ত্ৰ শব্দ প্ৰদূষণৰ এটা উৎস।"
@@ -1807,10 +1807,6 @@
     },
     "options": [
       {
-        "en": "deforestation and water runoff",
-        "as": "বন নিধন আৰু পানীৰ প্ৰবাহ"
-      },
-      {
         "en": "afforestation",
         "as": "বনৰোপণ"
       },
@@ -1819,11 +1815,15 @@
         "as": "থামনি নিৰ্মাণ"
       },
       {
+        "en": "deforestation and water runoff",
+        "as": "বন নিধন আৰু পানীৰ প্ৰবাহ"
+      },
+      {
         "en": "crop rotation",
         "as": "শস্য পৰ্যায়ক্ৰমণ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Soil erosion is mainly caused by deforestation and water runoff.",
       "as": "মাটি ক্ষয় মূলতঃ বন নিধন আৰু পানীৰ প্ৰবাহৰ বাবে হয়।"
@@ -1837,10 +1837,6 @@
     },
     "options": [
       {
-        "en": "soil erosion and loss of biodiversity",
-        "as": "মাটি ক্ষয় আৰু জৈৱবিচিত্ৰতাৰ ক্ষতি"
-      },
-      {
         "en": "more rainfall",
         "as": "অধিক বৰষুণ"
       },
@@ -1849,11 +1845,15 @@
         "as": "অধিক পৰিষ্কাৰ বায়ু"
       },
       {
+        "en": "soil erosion and loss of biodiversity",
+        "as": "মাটি ক্ষয় আৰু জৈৱবিচিত্ৰতাৰ ক্ষতি"
+      },
+      {
         "en": "increase in wildlife",
         "as": "বন্যপ্ৰাণী বৃদ্ধি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Deforestation leads to soil erosion and biodiversity loss.",
       "as": "বন নিধনৰ পৰিণতি মাটি ক্ষয় আৰু জৈৱবিচিত্ৰতাৰ ক্ষতি।"
@@ -1867,10 +1867,6 @@
     },
     "options": [
       {
-        "en": "forests",
-        "as": "বনাঞ্চল"
-      },
-      {
         "en": "rivers",
         "as": "নদী"
       },
@@ -1881,9 +1877,13 @@
       {
         "en": "mountains",
         "as": "পৰ্বত"
+      },
+      {
+        "en": "forests",
+        "as": "বনাঞ্চল"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Chipko Movement was related to forest protection.",
       "as": "চিপক' আন্দোলন বনাঞ্চল সুৰক্ষাৰ সৈতে জড়িত আছিল।"
@@ -1897,10 +1897,6 @@
     },
     "options": [
       {
-        "en": "1973",
-        "as": "১৯৭৩"
-      },
-      {
         "en": "1980",
         "as": "১৯৮০"
       },
@@ -1911,9 +1907,13 @@
       {
         "en": "1990",
         "as": "১৯৯০"
+      },
+      {
+        "en": "1973",
+        "as": "১৯৭৩"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Chipko Movement began in 1973.",
       "as": "চিপক' আন্দোলন ১৯৭৩ চনত আৰম্ভ হৈছিল।"
@@ -1927,12 +1927,12 @@
     },
     "options": [
       {
-        "en": "Sunderlal Bahuguna",
-        "as": "সুন্দৰলাল বহুগুণা"
-      },
-      {
         "en": "Medha Patkar",
         "as": "মেধা পাটকৰ"
+      },
+      {
+        "en": "Sunderlal Bahuguna",
+        "as": "সুন্দৰলাল বহুগুণা"
       },
       {
         "en": "Anna Hazare",
@@ -1943,7 +1943,7 @@
         "as": "বন্দনা শিৱা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Sunderlal Bahuguna led the Chipko Movement.",
       "as": "সুন্দৰলাল বহুগুণাই চিপক' আন্দোলনৰ নেতৃত্ব দিছিল।"
@@ -1957,10 +1957,6 @@
     },
     "options": [
       {
-        "en": "Medha Patkar",
-        "as": "মেধা পাটকৰ"
-      },
-      {
         "en": "Sunderlal Bahuguna",
         "as": "সুন্দৰলাল বহুগুণা"
       },
@@ -1969,11 +1965,15 @@
         "as": "অন্না হজাৰে"
       },
       {
+        "en": "Medha Patkar",
+        "as": "মেধা পাটকৰ"
+      },
+      {
         "en": "Vandana Shiva",
         "as": "বন্দনা শিৱা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Medha Patkar led the Narmada Bachao Andolan.",
       "as": "মেধা পাটকৰে নৰ্মদা বচাও আন্দোলনৰ নেতৃত্ব দিছিল।"
@@ -1987,10 +1987,6 @@
     },
     "options": [
       {
-        "en": "Kerala",
-        "as": "কেৰালা"
-      },
-      {
         "en": "Assam",
         "as": "অসম"
       },
@@ -2001,9 +1997,13 @@
       {
         "en": "Rajasthan",
         "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The Silent Valley is located in Kerala.",
       "as": "চাইলেণ্ট ভেলী কেৰালাত অৱস্থিত।"
@@ -2017,10 +2017,6 @@
     },
     "options": [
       {
-        "en": "Karnataka",
-        "as": "কৰ্ণাটক"
-      },
-      {
         "en": "Kerala",
         "as": "কেৰালা"
       },
@@ -2029,11 +2025,15 @@
         "as": "অসম"
       },
       {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
         "en": "Gujarat",
         "as": "গুজৰাট"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Appiko Movement was launched in Karnataka.",
       "as": "অপিক' আন্দোলন কৰ্ণাটকত আৰম্ভ কৰা হৈছিল।"
@@ -2047,10 +2047,6 @@
     },
     "options": [
       {
-        "en": "5 June",
-        "as": "৫ জুন"
-      },
-      {
         "en": "5 July",
         "as": "৫ জুলাই"
       },
@@ -2061,9 +2057,13 @@
       {
         "en": "5 April",
         "as": "৫ এপ্ৰিল"
+      },
+      {
+        "en": "5 June",
+        "as": "৫ জুন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "World Environment Day is observed on 5 June.",
       "as": "বিশ্ব পৰিৱেশ দিৱস ৫ জুনত পালন কৰা হয়।"
@@ -2077,10 +2077,6 @@
     },
     "options": [
       {
-        "en": "22 March",
-        "as": "২২ মাৰ্চ"
-      },
-      {
         "en": "22 April",
         "as": "২২ এপ্ৰিল"
       },
@@ -2091,9 +2087,13 @@
       {
         "en": "22 June",
         "as": "২২ জুন"
+      },
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "World Water Day is observed on 22 March.",
       "as": "বিশ্ব জল দিৱস ২২ মাৰ্চত পালন কৰা হয়।"
@@ -2107,12 +2107,12 @@
     },
     "options": [
       {
-        "en": "3 March",
-        "as": "৩ মাৰ্চ"
-      },
-      {
         "en": "3 April",
         "as": "৩ এপ্ৰিল"
+      },
+      {
+        "en": "3 March",
+        "as": "৩ মাৰ্চ"
       },
       {
         "en": "3 May",
@@ -2123,7 +2123,7 @@
         "as": "৩ জুন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "World Wildlife Day is observed on 3 March.",
       "as": "বিশ্ব বন্যপ্ৰাণী দিৱস ৩ মাৰ্চত পালন কৰা হয়।"
@@ -2137,12 +2137,12 @@
     },
     "options": [
       {
-        "en": "22 April",
-        "as": "২২ এপ্ৰিল"
-      },
-      {
         "en": "22 March",
         "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
       },
       {
         "en": "22 May",
@@ -2153,7 +2153,7 @@
         "as": "২২ জুন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Earth Day is observed on 22 April.",
       "as": "পৃথিৱী দিৱস ২২ এপ্ৰিলত পালন কৰা হয়।"
@@ -2197,12 +2197,12 @@
     },
     "options": [
       {
-        "en": "Deepor Beel",
-        "as": "দীপৰ বিল"
-      },
-      {
         "en": "Chilika Lake",
         "as": "চিলিকা হ্ৰদ"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
       },
       {
         "en": "Wular Lake",
@@ -2213,7 +2213,7 @@
         "as": "সাম্বাৰ হ্ৰদ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Deepor Beel in Assam is a Ramsar site.",
       "as": "অসমৰ দীপৰ বিল এটা ৰামচাৰ স্থল।"
@@ -2227,12 +2227,12 @@
     },
     "options": [
       {
-        "en": "Guwahati",
-        "as": "গুৱাহাটী"
-      },
-      {
         "en": "Dibrugarh",
         "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
       },
       {
         "en": "Silchar",
@@ -2243,7 +2243,7 @@
         "as": "যোৰহাট"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Deepor Beel is located near Guwahati.",
       "as": "দীপৰ বিল গুৱাহাটীৰ ওচৰত অৱস্থিত।"
@@ -2287,10 +2287,6 @@
     },
     "options": [
       {
-        "en": "Manas National Park",
-        "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
-      },
-      {
         "en": "Kaziranga",
         "as": "কাজিৰঙা"
       },
@@ -2299,11 +2295,15 @@
         "as": "নামেৰি"
       },
       {
+        "en": "Manas National Park",
+        "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+      },
+      {
         "en": "Dibru-Saikhowa",
         "as": "ডিব্ৰু-শৈখোৱা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Manas National Park is famous for the golden langur.",
       "as": "মানস ৰাষ্ট্ৰীয় উদ্যান সোণালী বান্দৰৰ বাবে বিখ্যাত।"
@@ -2317,12 +2317,12 @@
     },
     "options": [
       {
-        "en": "World Heritage Site",
-        "as": "বিশ্ব ঐতিহ্য স্থল"
-      },
-      {
         "en": "Geopark",
         "as": "ভূউদ্যান"
+      },
+      {
+        "en": "World Heritage Site",
+        "as": "বিশ্ব ঐতিহ্য স্থল"
       },
       {
         "en": "Biosphere Reserve only",
@@ -2333,7 +2333,7 @@
         "as": "ৰামচাৰ স্থল"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Manas is a UNESCO World Heritage Site.",
       "as": "মানস ইউনেস্ক'ৰ বিশ্ব ঐতিহ্য স্থল।"
@@ -2377,12 +2377,12 @@
     },
     "options": [
       {
-        "en": "Sonitpur, Assam",
-        "as": "শোণিতপুৰ, অসম"
-      },
-      {
         "en": "Golaghat, Assam",
         "as": "গোলাঘাট, অসম"
+      },
+      {
+        "en": "Sonitpur, Assam",
+        "as": "শোণিতপুৰ, অসম"
       },
       {
         "en": "Cachar, Assam",
@@ -2393,7 +2393,7 @@
         "as": "বৰপেটা, অসম"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Nameri National Park is located in Sonitpur district.",
       "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান শোণিতপুৰ জিলাত অৱস্থিত।"
@@ -2407,12 +2407,12 @@
     },
     "options": [
       {
-        "en": "Dibrugarh and Tinsukia",
-        "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
-      },
-      {
         "en": "Golaghat",
         "as": "গোলাঘাট"
+      },
+      {
+        "en": "Dibrugarh and Tinsukia",
+        "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
       },
       {
         "en": "Nagaon",
@@ -2423,7 +2423,7 @@
         "as": "বৰপেটা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Dibru-Saikhowa is located in Dibrugarh and Tinsukia districts.",
       "as": "ডিব্ৰু-শৈখোৱা ডিব্ৰুগড় আৰু তিনিচুকীয়া জিলাত অৱস্থিত।"
@@ -2467,10 +2467,6 @@
     },
     "options": [
       {
-        "en": "Manas",
-        "as": "মানস"
-      },
-      {
         "en": "Kaziranga",
         "as": "কাজিৰঙা"
       },
@@ -2479,11 +2475,15 @@
         "as": "নামেৰি"
       },
       {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
         "en": "Orang",
         "as": "ওৰাং"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Manas National Park is the largest in Assam by area.",
       "as": "মানস ৰাষ্ট্ৰীয় উদ্যান মাটিকালিৰ ভিত্তিত অসমৰ সৰ্ববৃহৎ।"
@@ -2497,10 +2497,6 @@
     },
     "options": [
       {
-        "en": "Darrang and Sonitpur",
-        "as": "দৰং আৰু শোণিতপুৰ"
-      },
-      {
         "en": "Cachar",
         "as": "কাছাৰ"
       },
@@ -2509,11 +2505,15 @@
         "as": "ডিব্ৰুগড়"
       },
       {
+        "en": "Darrang and Sonitpur",
+        "as": "দৰং আৰু শোণিতপুৰ"
+      },
+      {
         "en": "Barpeta",
         "as": "বৰপেটা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Orang National Park is located in Darrang and Sonitpur districts.",
       "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান দৰং আৰু শোণিতপুৰ জিলাত অৱস্থিত।"
@@ -2527,10 +2527,6 @@
     },
     "options": [
       {
-        "en": "one-horned rhinoceros",
-        "as": "এশিঙীয়া গঁড়"
-      },
-      {
         "en": "lion",
         "as": "সিংহ"
       },
@@ -2541,9 +2537,13 @@
       {
         "en": "panda",
         "as": "পাণ্ডা"
+      },
+      {
+        "en": "one-horned rhinoceros",
+        "as": "এশিঙীয়া গঁড়"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Orang is famous for the one-horned rhinoceros.",
       "as": "ওৰাং এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
@@ -2557,12 +2557,12 @@
     },
     "options": [
       {
-        "en": "Orang",
-        "as": "ওৰাং"
-      },
-      {
         "en": "Manas",
         "as": "মানস"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
       },
       {
         "en": "Kaziranga",
@@ -2573,7 +2573,7 @@
         "as": "নামেৰি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Orang is the smallest national park of Assam.",
       "as": "ওৰাং অসমৰ ক্ষুদ্ৰতম ৰাষ্ট্ৰীয় উদ্যান।"
@@ -2617,10 +2617,6 @@
     },
     "options": [
       {
-        "en": "Nameri",
-        "as": "নামেৰি"
-      },
-      {
         "en": "Deepor Beel",
         "as": "দীপৰ বিল"
       },
@@ -2629,11 +2625,15 @@
         "as": "শুৱালকুছি"
       },
       {
+        "en": "Nameri",
+        "as": "নামেৰি"
+      },
+      {
         "en": "Majuli",
         "as": "মাজুলী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Nameri is a tiger reserve in Assam.",
       "as": "নামেৰি অসমৰ এটা বাঘ সংৰক্ষিত বন।"
@@ -2647,10 +2647,6 @@
     },
     "options": [
       {
-        "en": "Assam",
-        "as": "অসম"
-      },
-      {
         "en": "Gujarat",
         "as": "গুজৰাট"
       },
@@ -2659,11 +2655,15 @@
         "as": "ৰাজস্থান"
       },
       {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
         "en": "Punjab",
         "as": "পঞ্জাৱ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The hoolock gibbon is found in Assam.",
       "as": "হলৌ বান্দৰ অসমত পোৱা যায়।"
@@ -2677,12 +2677,12 @@
     },
     "options": [
       {
-        "en": "Hoolock gibbon",
-        "as": "হলৌ বান্দৰ"
-      },
-      {
         "en": "Chimpanzee",
         "as": "শিম্পাঞ্জি"
+      },
+      {
+        "en": "Hoolock gibbon",
+        "as": "হলৌ বান্দৰ"
       },
       {
         "en": "Gorilla",
@@ -2693,7 +2693,7 @@
         "as": "অৰাংউটান"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The hoolock gibbon is the only ape found in India.",
       "as": "হলৌ বান্দৰ ভাৰতত পোৱা একমাত্ৰ ৱানৰ।"
@@ -2707,12 +2707,12 @@
     },
     "options": [
       {
-        "en": "Hargila",
-        "as": "হৰগিলা"
-      },
-      {
         "en": "Bogakori",
         "as": "বগাকৰি"
+      },
+      {
+        "en": "Hargila",
+        "as": "হৰগিলা"
       },
       {
         "en": "Kadam",
@@ -2723,7 +2723,7 @@
         "as": "বৰদৈ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The Greater Adjutant Stork is locally known as Hargila.",
       "as": "বৰটোকোলাক স্থানীয়ভাৱে হৰগিলা বুলি জনা যায়।"
@@ -2737,10 +2737,6 @@
     },
     "options": [
       {
-        "en": "Purnima Devi Barman",
-        "as": "পূৰ্ণিমা দেৱী বৰ্মন"
-      },
-      {
         "en": "Medha Patkar",
         "as": "মেধা পাটকৰ"
       },
@@ -2749,11 +2745,15 @@
         "as": "সুন্দৰলাল বহুগুণা"
       },
       {
+        "en": "Purnima Devi Barman",
+        "as": "পূৰ্ণিমা দেৱী বৰ্মন"
+      },
+      {
         "en": "Vandana Shiva",
         "as": "বন্দনা শিৱা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Purnima Devi Barman is associated with Hargila conservation.",
       "as": "পূৰ্ণিমা দেৱী বৰ্মন হৰগিলা সংৰক্ষণৰ সৈতে জড়িত।"
@@ -2797,10 +2797,6 @@
     },
     "options": [
       {
-        "en": "One-horned rhinoceros",
-        "as": "এশিঙীয়া গঁড়"
-      },
-      {
         "en": "Tiger",
         "as": "বাঘ"
       },
@@ -2809,11 +2805,15 @@
         "as": "হাতী"
       },
       {
+        "en": "One-horned rhinoceros",
+        "as": "এশিঙীয়া গঁড়"
+      },
+      {
         "en": "Lion",
         "as": "সিংহ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The one-horned rhinoceros is the State animal of Assam.",
       "as": "এশিঙীয়া গঁড় অসমৰ ৰাজ্য প্ৰাণী।"
@@ -2827,10 +2827,6 @@
     },
     "options": [
       {
-        "en": "Hollong",
-        "as": "হলং"
-      },
-      {
         "en": "Banyan",
         "as": "বট"
       },
@@ -2841,9 +2837,13 @@
       {
         "en": "Neem",
         "as": "নিম"
+      },
+      {
+        "en": "Hollong",
+        "as": "হলং"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Hollong is the State tree of Assam.",
       "as": "হলং অসমৰ ৰাজ্য বৃক্ষ।"
@@ -2857,12 +2857,12 @@
     },
     "options": [
       {
-        "en": "Kopou Phul",
-        "as": "কপৌ ফুল"
-      },
-      {
         "en": "Lotus",
         "as": "পদুম"
+      },
+      {
+        "en": "Kopou Phul",
+        "as": "কপৌ ফুল"
       },
       {
         "en": "Rose",
@@ -2873,7 +2873,7 @@
         "as": "সূৰ্যমুখী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Kopou Phul is the State flower of Assam.",
       "as": "কপৌ ফুল অসমৰ ৰাজ্য পুষ্প।"
@@ -2887,10 +2887,6 @@
     },
     "options": [
       {
-        "en": "Hemis National Park",
-        "as": "হেমিছ ৰাষ্ট্ৰীয় উদ্যান"
-      },
-      {
         "en": "Kaziranga",
         "as": "কাজিৰঙা"
       },
@@ -2899,11 +2895,15 @@
         "as": "কানহা"
       },
       {
+        "en": "Hemis National Park",
+        "as": "হেমিছ ৰাষ্ট্ৰীয় উদ্যান"
+      },
+      {
         "en": "Gir",
         "as": "গিৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Hemis National Park is the largest in India by area.",
       "as": "হেমিছ ৰাষ্ট্ৰীয় উদ্যান মাটিকালিৰ ভিত্তিত ভাৰতৰ সৰ্ববৃহৎ।"
@@ -2917,12 +2917,12 @@
     },
     "options": [
       {
-        "en": "Asiatic lions",
-        "as": "এছিয়াটিক সিংহ"
-      },
-      {
         "en": "tigers",
         "as": "বাঘ"
+      },
+      {
+        "en": "Asiatic lions",
+        "as": "এছিয়াটিক সিংহ"
       },
       {
         "en": "rhinos",
@@ -2933,7 +2933,7 @@
         "as": "হাতী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Gir National Park is famous for Asiatic lions.",
       "as": "গিৰ ৰাষ্ট্ৰীয় উদ্যান এছিয়াটিক সিংহৰ বাবে বিখ্যাত।"
@@ -3007,10 +3007,6 @@
     },
     "options": [
       {
-        "en": "mangrove forest",
-        "as": "মেনগ্ৰ'ভ বন"
-      },
-      {
         "en": "rainforest",
         "as": "বৰ্ষাৰণ্য"
       },
@@ -3019,11 +3015,15 @@
         "as": "মৰুভূমি"
       },
       {
+        "en": "mangrove forest",
+        "as": "মেনগ্ৰ'ভ বন"
+      },
+      {
         "en": "grassland",
         "as": "তৃণভূমি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Sundarbans is a mangrove forest.",
       "as": "সুন্দৰবন এটা মেনগ্ৰ'ভ বন।"
@@ -3067,10 +3067,6 @@
     },
     "options": [
       {
-        "en": "snow leopard",
-        "as": "তুষাৰ চিতা"
-      },
-      {
         "en": "tiger",
         "as": "বাঘ"
       },
@@ -3079,11 +3075,15 @@
         "as": "সিংহ"
       },
       {
+        "en": "snow leopard",
+        "as": "তুষাৰ চিতা"
+      },
+      {
         "en": "elephant",
         "as": "হাতী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Project Snow Leopard protects the snow leopard.",
       "as": "প্ৰজেক্ট স্ন' লেপাৰ্ডে তুষাৰ চিতা সুৰক্ষা কৰে।"
@@ -3097,12 +3097,12 @@
     },
     "options": [
       {
-        "en": "Tiger",
-        "as": "বাঘ"
-      },
-      {
         "en": "Lion",
         "as": "সিংহ"
+      },
+      {
+        "en": "Tiger",
+        "as": "বাঘ"
       },
       {
         "en": "Elephant",
@@ -3113,7 +3113,7 @@
         "as": "ময়ূৰ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The tiger is the national animal of India.",
       "as": "বাঘ ভাৰতৰ ৰাষ্ট্ৰীয় প্ৰাণী।"
@@ -3127,12 +3127,12 @@
     },
     "options": [
       {
-        "en": "Peacock",
-        "as": "ময়ূৰ"
-      },
-      {
         "en": "Parrot",
         "as": "ভাটৌ"
+      },
+      {
+        "en": "Peacock",
+        "as": "ময়ূৰ"
       },
       {
         "en": "Crane",
@@ -3143,7 +3143,7 @@
         "as": "ৰাজহাঁহ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The peacock is the national bird of India.",
       "as": "ময়ূৰ ভাৰতৰ ৰাষ্ট্ৰীয় চৰাই।"
@@ -3187,10 +3187,6 @@
     },
     "options": [
       {
-        "en": "Lotus",
-        "as": "পদুম"
-      },
-      {
         "en": "Rose",
         "as": "গোলাপ"
       },
@@ -3199,11 +3195,15 @@
         "as": "সূৰ্যমুখী"
       },
       {
+        "en": "Lotus",
+        "as": "পদুম"
+      },
+      {
         "en": "Marigold",
         "as": "গেণ্ডাফুল"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The lotus is the national flower of India.",
       "as": "পদুম ভাৰতৰ ৰাষ্ট্ৰীয় পুষ্প।"
@@ -3217,12 +3217,12 @@
     },
     "options": [
       {
-        "en": "clean up the river Ganga",
-        "as": "গঙ্গা নদী পৰিষ্কাৰ কৰা"
-      },
-      {
         "en": "build dams",
         "as": "বান্ধ নিৰ্মাণ"
+      },
+      {
+        "en": "clean up the river Ganga",
+        "as": "গঙ্গা নদী পৰিষ্কাৰ কৰা"
       },
       {
         "en": "irrigate fields",
@@ -3233,7 +3233,7 @@
         "as": "বিদ্যুৎ উৎপাদন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The Ganga Action Plan was launched to clean the river.",
       "as": "গঙ্গা কাৰ্য পৰিকল্পনা নদী পৰিষ্কাৰ কৰিবলৈ আৰম্ভ কৰা হৈছিল।"
@@ -3247,12 +3247,12 @@
     },
     "options": [
       {
-        "en": "2014",
-        "as": "২০১৪"
-      },
-      {
         "en": "2010",
         "as": "২০১০"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
       },
       {
         "en": "2008",
@@ -3263,7 +3263,7 @@
         "as": "২০১৬"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Namami Gange was launched in 2014.",
       "as": "নমামি গঙ্গে ২০১৪ চনত আৰম্ভ কৰা হৈছিল।"
@@ -3367,10 +3367,6 @@
     },
     "options": [
       {
-        "en": "environmental protection",
-        "as": "পৰিৱেশ সুৰক্ষা"
-      },
-      {
         "en": "income tax",
         "as": "আয়কৰ"
       },
@@ -3381,9 +3377,13 @@
       {
         "en": "criminal cases",
         "as": "ফৌজদাৰী গোচৰ"
+      },
+      {
+        "en": "environmental protection",
+        "as": "পৰিৱেশ সুৰক্ষা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The NGT deals with environmental protection cases.",
       "as": "এনজিটিয়ে পৰিৱেশ সুৰক্ষাৰ গোচৰ চোৱা-চিতা কৰে।"
@@ -3397,10 +3397,6 @@
     },
     "options": [
       {
-        "en": "the polluter bears the cost of pollution",
-        "as": "প্ৰদূষকে প্ৰদূষণৰ ব্যয় বহন কৰে"
-      },
-      {
         "en": "the government pays",
         "as": "চৰকাৰে পৰিশোধ কৰে"
       },
@@ -3409,11 +3405,15 @@
         "as": "ৰাইজে পৰিশোধ কৰে"
       },
       {
+        "en": "the polluter bears the cost of pollution",
+        "as": "প্ৰদূষকে প্ৰদূষণৰ ব্যয় বহন কৰে"
+      },
+      {
         "en": "nobody pays",
         "as": "কোনেও পৰিশোধ নকৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The polluter pays principle makes the polluter bear the cost.",
       "as": "প্ৰদূষক পৰিশোধ নীতিয়ে প্ৰদূষকক ব্যয় বহন কৰায়।"
@@ -3427,10 +3427,6 @@
     },
     "options": [
       {
-        "en": "before harm occurs",
-        "as": "ক্ষতি হোৱাৰ আগতে"
-      },
-      {
         "en": "after harm occurs",
         "as": "ক্ষতি হোৱাৰ পিছত"
       },
@@ -3441,9 +3437,13 @@
       {
         "en": "never",
         "as": "কেতিয়াও নহয়"
+      },
+      {
+        "en": "before harm occurs",
+        "as": "ক্ষতি হোৱাৰ আগতে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The precautionary principle means acting before harm occurs.",
       "as": "সতৰ্কতা নীতি মানে ক্ষতি হোৱাৰ আগতে ব্যৱস্থা লোৱা।"
@@ -3457,10 +3457,6 @@
     },
     "options": [
       {
-        "en": "environmental protection",
-        "as": "পৰিৱেশ সুৰক্ষা"
-      },
-      {
         "en": "deforestation",
         "as": "বন নিধন"
       },
@@ -3471,9 +3467,13 @@
       {
         "en": "urbanisation",
         "as": "নগৰীকৰণ"
+      },
+      {
+        "en": "environmental protection",
+        "as": "পৰিৱেশ সুৰক্ষা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Sustainable development balances growth with environmental protection.",
       "as": "স্থায়ী উন্নয়নে বৃদ্ধিক পৰিৱেশ সুৰক্ষাৰ সৈতে ভাৰসাম্য ৰাখে।"
@@ -3487,10 +3487,6 @@
     },
     "options": [
       {
-        "en": "Solar energy",
-        "as": "সৌৰ শক্তি"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
       },
@@ -3499,11 +3495,15 @@
         "as": "পেট্ৰ'লিয়াম"
       },
       {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
+      },
+      {
         "en": "Natural gas",
         "as": "প্ৰাকৃতিক গেছ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Solar energy is a renewable source.",
       "as": "সৌৰ শক্তি এটা নবীকৰণযোগ্য উৎস।"
@@ -3517,10 +3517,6 @@
     },
     "options": [
       {
-        "en": "Coal",
-        "as": "কয়লা"
-      },
-      {
         "en": "Solar energy",
         "as": "সৌৰ শক্তি"
       },
@@ -3529,11 +3525,15 @@
         "as": "বতাহ শক্তি"
       },
       {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
         "en": "Hydel energy",
         "as": "জল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Coal is a non-renewable source of energy.",
       "as": "কয়লা এটা অনবীকৰণযোগ্য শক্তিৰ উৎস।"
@@ -3577,10 +3577,6 @@
     },
     "options": [
       {
-        "en": "does not get exhausted",
-        "as": "শেষ নহয়"
-      },
-      {
         "en": "is expensive",
         "as": "ব্যয়বহুল"
       },
@@ -3589,11 +3585,15 @@
         "as": "অধিক প্ৰদূষণ কৰে"
       },
       {
+        "en": "does not get exhausted",
+        "as": "শেষ নহয়"
+      },
+      {
         "en": "is hard to use",
         "as": "ব্যৱহাৰ কৰা কঠিন"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Renewable energy does not get exhausted.",
       "as": "নবীকৰণযোগ্য শক্তি শেষ নহয়।"
@@ -3607,10 +3607,6 @@
     },
     "options": [
       {
-        "en": "Methane",
-        "as": "মিথেন"
-      },
-      {
         "en": "Oxygen",
         "as": "অক্সিজেন"
       },
@@ -3621,9 +3617,13 @@
       {
         "en": "Hydrogen",
         "as": "হাইড্ৰজেন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Paddy fields emit methane.",
       "as": "ধাননিয়ে মিথেন নিৰ্গত কৰে।"
@@ -3667,10 +3667,6 @@
     },
     "options": [
       {
-        "en": "net zero carbon emissions",
-        "as": "নিট শূন্য কাৰ্বন নিৰ্গমন"
-      },
-      {
         "en": "high emissions",
         "as": "উচ্চ নিৰ্গমন"
       },
@@ -3681,9 +3677,13 @@
       {
         "en": "zero growth",
         "as": "শূন্য বৃদ্ধি"
+      },
+      {
+        "en": "net zero carbon emissions",
+        "as": "নিট শূন্য কাৰ্বন নিৰ্গমন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Carbon neutrality means net zero carbon emissions.",
       "as": "কাৰ্বন নিৰপেক্ষতা মানে নিট শূন্য কাৰ্বন নিৰ্গমন।"
@@ -3697,12 +3697,12 @@
     },
     "options": [
       {
-        "en": "Antarctica",
-        "as": "এণ্টাৰ্কটিকা"
-      },
-      {
         "en": "the Arctic",
         "as": "আৰ্কটিক"
+      },
+      {
+        "en": "Antarctica",
+        "as": "এণ্টাৰ্কটিকা"
       },
       {
         "en": "Africa",
@@ -3713,7 +3713,7 @@
         "as": "এছিয়া"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The ozone hole is largest over Antarctica.",
       "as": "অ'জন ছিদ্ৰ এণ্টাৰ্কটিকাৰ ওপৰত আটাইতকৈ ডাঙৰ।"
@@ -3727,10 +3727,6 @@
     },
     "options": [
       {
-        "en": "Nitrous oxide",
-        "as": "নাইট্ৰাছ অক্সাইড"
-      },
-      {
         "en": "Carbon monoxide",
         "as": "কাৰ্বন মনোক্সাইড"
       },
@@ -3741,9 +3737,13 @@
       {
         "en": "Ozone",
         "as": "অ'জন"
+      },
+      {
+        "en": "Nitrous oxide",
+        "as": "নাইট্ৰাছ অক্সাইড"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Nitrous oxide is known as laughing gas.",
       "as": "নাইট্ৰাছ অক্সাইডক হাঁহিৰ গেছ বুলি জনা যায়।"
@@ -3877,10 +3877,6 @@
     },
     "options": [
       {
-        "en": "Vehicular emissions",
-        "as": "বাহনৰ নিৰ্গমন"
-      },
-      {
         "en": "Rain",
         "as": "বৰষুণ"
       },
@@ -3889,11 +3885,15 @@
         "as": "গছ"
       },
       {
+        "en": "Vehicular emissions",
+        "as": "বাহনৰ নিৰ্গমন"
+      },
+      {
         "en": "Wind",
         "as": "বতাহ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Vehicular emissions are a major source of air pollution.",
       "as": "বাহনৰ নিৰ্গমন বায়ু প্ৰদূষণৰ এটা প্ৰধান উৎস।"
@@ -3907,10 +3907,6 @@
     },
     "options": [
       {
-        "en": "air pollution",
-        "as": "বায়ু প্ৰদূষণ"
-      },
-      {
         "en": "water pollution",
         "as": "জল প্ৰদূষণ"
       },
@@ -3921,9 +3917,13 @@
       {
         "en": "soil erosion",
         "as": "মাটি ক্ষয়"
+      },
+      {
+        "en": "air pollution",
+        "as": "বায়ু প্ৰদূষণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "CNG was promoted to reduce air pollution.",
       "as": "CNG বায়ু প্ৰদূষণ হ্ৰাস কৰিবলৈ প্ৰসাৰ কৰা হৈছিল।"
@@ -3937,10 +3937,6 @@
     },
     "options": [
       {
-        "en": "vehicular pollution",
-        "as": "বাহন প্ৰদূষণ"
-      },
-      {
         "en": "industrial waste",
         "as": "উদ্যোগিক বৰ্জন"
       },
@@ -3949,11 +3945,15 @@
         "as": "শব্দ"
       },
       {
+        "en": "vehicular pollution",
+        "as": "বাহন প্ৰদূষণ"
+      },
+      {
         "en": "sewage",
         "as": "নৰ্দমা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The odd-even scheme was introduced to control vehicular pollution.",
       "as": "অড-ইভেন আঁচনি বাহন প্ৰদূষণ নিয়ন্ত্ৰণ কৰিবলৈ প্ৰৱৰ্তন কৰা হৈছিল।"
@@ -3967,12 +3967,12 @@
     },
     "options": [
       {
-        "en": "Natural gas",
-        "as": "প্ৰাকৃতিক গেছ"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
+      },
+      {
+        "en": "Natural gas",
+        "as": "প্ৰাকৃতিক গেছ"
       },
       {
         "en": "Petroleum",
@@ -3983,7 +3983,7 @@
         "as": "ডিজেল"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Natural gas is the cleanest fossil fuel.",
       "as": "প্ৰাকৃতিক গেছ আটাইতকৈ পৰিষ্কাৰ জীৱাশ্ম ইন্ধন।"
@@ -3997,10 +3997,6 @@
     },
     "options": [
       {
-        "en": "thermal power plants",
-        "as": "তাপ বিদ্যুৎ কেন্দ্ৰ"
-      },
-      {
         "en": "nuclear plants",
         "as": "পাৰমাণৱিক কেন্দ্ৰ"
       },
@@ -4009,11 +4005,15 @@
         "as": "জলবিদ্যুৎ কেন্দ্ৰ"
       },
       {
+        "en": "thermal power plants",
+        "as": "তাপ বিদ্যুৎ কেন্দ্ৰ"
+      },
+      {
         "en": "solar plants",
         "as": "সৌৰ কেন্দ্ৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Fly ash is produced by thermal power plants.",
       "as": "ফ্লাই এশ তাপ বিদ্যুৎ কেন্দ্ৰই উৎপাদন কৰে।"
@@ -4087,10 +4087,6 @@
     },
     "options": [
       {
-        "en": "Reduce, Reuse, Recycle",
-        "as": "হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ"
-      },
-      {
         "en": "Read, Run, Rest",
         "as": "পঢ়া, দৌৰা, জিৰণি"
       },
@@ -4099,11 +4095,15 @@
         "as": "উঠা, দৌৰা, দৌড়"
       },
       {
+        "en": "Reduce, Reuse, Recycle",
+        "as": "হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ"
+      },
+      {
         "en": "Red, Rose, Rain",
         "as": "ৰঙা, গোলাপ, বৰষুণ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The 3R principle stands for Reduce, Reuse, Recycle.",
       "as": "৩R নীতিয়ে হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ সূচায়।"
@@ -4147,10 +4147,6 @@
     },
     "options": [
       {
-        "en": "Used batteries",
-        "as": "ব্যৱহৃত বেটাৰী"
-      },
-      {
         "en": "Kitchen waste",
         "as": "ৰান্ধনিশালৰ বৰ্জন"
       },
@@ -4161,9 +4157,13 @@
       {
         "en": "Paper",
         "as": "কাগজ"
+      },
+      {
+        "en": "Used batteries",
+        "as": "ব্যৱহৃত বেটাৰী"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Used batteries are hazardous waste.",
       "as": "ব্যৱহৃত বেটাৰী বিপদজনক বৰ্জন।"
@@ -4177,10 +4177,6 @@
     },
     "options": [
       {
-        "en": "treated and disposed of safely",
-        "as": "সুৰক্ষিতভাৱে প্ৰক্ৰিয়াকৰণ আৰু বৰ্জন"
-      },
-      {
         "en": "thrown in open land",
         "as": "মুকলিকৈ পেলোৱা"
       },
@@ -4191,9 +4187,13 @@
       {
         "en": "dumped in rivers",
         "as": "নদীত পেলোৱা"
+      },
+      {
+        "en": "treated and disposed of safely",
+        "as": "সুৰক্ষিতভাৱে প্ৰক্ৰিয়াকৰণ আৰু বৰ্জন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Hospital waste should be treated and disposed of safely.",
       "as": "চিকিৎসালয়ৰ বৰ্জন সুৰক্ষিতভাৱে প্ৰক্ৰিয়াকৰণ আৰু বৰ্জন কৰা উচিত।"
@@ -4207,12 +4207,12 @@
     },
     "options": [
       {
-        "en": "hospitals and clinics",
-        "as": "চিকিৎসালয় আৰু ক্লিনিক"
-      },
-      {
         "en": "schools",
         "as": "বিদ্যালয়"
+      },
+      {
+        "en": "hospitals and clinics",
+        "as": "চিকিৎসালয় আৰু ক্লিনিক"
       },
       {
         "en": "banks",
@@ -4223,7 +4223,7 @@
         "as": "কাৰ্যালয়"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Biomedical waste is generated by hospitals and clinics.",
       "as": "জৈৱ-চিকিৎসা বৰ্জন চিকিৎসালয় আৰু ক্লিনিকে উৎপাদন কৰে।"
@@ -4237,10 +4237,6 @@
     },
     "options": [
       {
-        "en": "discarded computers and phones",
-        "as": "পেলাই দিয়া কম্পিউটাৰ আৰু ফোন"
-      },
-      {
         "en": "food waste",
         "as": "খাদ্য বৰ্জন"
       },
@@ -4249,11 +4245,15 @@
         "as": "বাগিচাৰ বৰ্জন"
       },
       {
+        "en": "discarded computers and phones",
+        "as": "পেলাই দিয়া কম্পিউটাৰ আৰু ফোন"
+      },
+      {
         "en": "construction waste",
         "as": "নিৰ্মাণ বৰ্জন"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "E-waste includes discarded computers and phones.",
       "as": "ই-বৰ্জনত পেলাই দিয়া কম্পিউটাৰ আৰু ফোন অন্তৰ্ভুক্ত।"
@@ -4267,12 +4267,12 @@
     },
     "options": [
       {
-        "en": "increasing forest cover",
-        "as": "বনাঞ্চলৰ আৱৰণ বৃদ্ধি"
-      },
-      {
         "en": "building dams",
         "as": "বান্ধ নিৰ্মাণ"
+      },
+      {
+        "en": "increasing forest cover",
+        "as": "বনাঞ্চলৰ আৱৰণ বৃদ্ধি"
       },
       {
         "en": "mining",
@@ -4283,7 +4283,7 @@
         "as": "নগৰীকৰণ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The Green India Mission aims at increasing forest cover.",
       "as": "গ্ৰীণ ইণ্ডিয়া মিছনৰ লক্ষ্য বনাঞ্চলৰ আৱৰণ বৃদ্ধি।"
@@ -4297,10 +4297,6 @@
     },
     "options": [
       {
-        "en": "planting trees on community land",
-        "as": "সম্প্ৰদায়িক মাটিত গছ ৰোপণ"
-      },
-      {
         "en": "cutting forests",
         "as": "বন কটা"
       },
@@ -4309,11 +4305,15 @@
         "as": "খনন"
       },
       {
+        "en": "planting trees on community land",
+        "as": "সম্প্ৰদায়িক মাটিত গছ ৰোপণ"
+      },
+      {
         "en": "building roads",
         "as": "পথ নিৰ্মাণ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Social forestry plants trees on community land.",
       "as": "সমাজ বনাঞ্চলে সম্প্ৰদায়িক মাটিত গছ ৰোপণ কৰে।"
@@ -4357,10 +4357,6 @@
     },
     "options": [
       {
-        "en": "July",
-        "as": "জুলাই"
-      },
-      {
         "en": "June",
         "as": "জুন"
       },
@@ -4369,11 +4365,15 @@
         "as": "আগষ্ট"
       },
       {
+        "en": "July",
+        "as": "জুলাই"
+      },
+      {
         "en": "September",
         "as": "ছেপ্তেম্বৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Van Mahotsav is celebrated in July.",
       "as": "বন মহোৎসৱ জুলাইত পালন কৰা হয়।"
@@ -4387,10 +4387,6 @@
     },
     "options": [
       {
-        "en": "Ministry of Jal Shakti",
-        "as": "জল শক্তি মন্ত্ৰালয়"
-      },
-      {
         "en": "Ministry of Finance",
         "as": "বিত্ত মন্ত্ৰালয়"
       },
@@ -4401,9 +4397,13 @@
       {
         "en": "SEBI",
         "as": "ছেবি"
+      },
+      {
+        "en": "Ministry of Jal Shakti",
+        "as": "জল শক্তি মন্ত্ৰালয়"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "It works under the Ministry of Jal Shakti.",
       "as": "ই জল শক্তি মন্ত্ৰালয়ৰ অধীনত কাম কৰে।"
@@ -4417,10 +4417,6 @@
     },
     "options": [
       {
-        "en": "collecting and storing rainwater",
-        "as": "বৰষুণৰ পানী সংগ্ৰহ আৰু সঞ্চয়"
-      },
-      {
         "en": "wasting rainwater",
         "as": "বৰষুণৰ পানী নষ্ট কৰা"
       },
@@ -4431,9 +4427,13 @@
       {
         "en": "draining water",
         "as": "পানী নিষ্কাশন"
+      },
+      {
+        "en": "collecting and storing rainwater",
+        "as": "বৰষুণৰ পানী সংগ্ৰহ আৰু সঞ্চয়"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Rainwater harvesting collects and stores rainwater.",
       "as": "বৰষুণৰ পানী সংগ্ৰহে বৰষুণৰ পানী সংগ্ৰহ আৰু সঞ্চয় কৰে।"
@@ -4447,10 +4447,6 @@
     },
     "options": [
       {
-        "en": "recharge groundwater",
-        "as": "ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ"
-      },
-      {
         "en": "increase pollution",
         "as": "প্ৰদূষণ বৃদ্ধি"
       },
@@ -4461,9 +4457,13 @@
       {
         "en": "flood rivers",
         "as": "নদীত বানপানী"
+      },
+      {
+        "en": "recharge groundwater",
+        "as": "ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "It aims to recharge groundwater.",
       "as": "ই ভূগৰ্ভস্থ পানী পুনৰ্ভৰণৰ লক্ষ্য ৰাখে।"
@@ -4477,10 +4477,6 @@
     },
     "options": [
       {
-        "en": "excessive extraction",
-        "as": "অত্যধিক নিষ্কাশন"
-      },
-      {
         "en": "rainwater harvesting",
         "as": "বৰষুণৰ পানী সংগ্ৰহ"
       },
@@ -4491,9 +4487,13 @@
       {
         "en": "conservation",
         "as": "সংৰক্ষণ"
+      },
+      {
+        "en": "excessive extraction",
+        "as": "অত্যধিক নিষ্কাশন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Excessive extraction causes groundwater depletion.",
       "as": "অত্যধিক নিষ্কাশনে ভূগৰ্ভস্থ পানীৰ ক্ষয়ৰ সৃষ্টি কৰে।"
@@ -4507,10 +4507,6 @@
     },
     "options": [
       {
-        "en": "Terrace farming",
-        "as": "থামনি খেতি"
-      },
-      {
         "en": "Deforestation",
         "as": "বন নিধন"
       },
@@ -4519,11 +4515,15 @@
         "as": "অত্যধিক চৰণ"
       },
       {
+        "en": "Terrace farming",
+        "as": "থামনি খেতি"
+      },
+      {
         "en": "Monocropping",
         "as": "একশস্য খেতি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Terrace farming conserves soil.",
       "as": "থামনি খেতিয়ে মাটি সংৰক্ষণ কৰে।"
@@ -4597,12 +4597,12 @@
     },
     "options": [
       {
-        "en": "fertile land turning into desert",
-        "as": "উৰ্বৰ মাটি মৰুভূমিলৈ পৰিণত হোৱা"
-      },
-      {
         "en": "desert turning green",
         "as": "মৰুভূমি সেউজ হোৱা"
+      },
+      {
+        "en": "fertile land turning into desert",
+        "as": "উৰ্বৰ মাটি মৰুভূমিলৈ পৰিণত হোৱা"
       },
       {
         "en": "building cities",
@@ -4613,7 +4613,7 @@
         "as": "বন ৰোপণ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Desertification is fertile land turning into desert.",
       "as": "মৰুভূমিকৰণ হৈছে উৰ্বৰ মাটি মৰুভূমিলৈ পৰিণত হোৱা।"
@@ -4627,10 +4627,6 @@
     },
     "options": [
       {
-        "en": "Methane",
-        "as": "মিথেন"
-      },
-      {
         "en": "Oxygen",
         "as": "অক্সিজেন"
       },
@@ -4641,9 +4637,13 @@
       {
         "en": "Helium",
         "as": "হিলিয়াম"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Livestock release methane.",
       "as": "পশুধনে মিথেন নিৰ্গত কৰে।"
@@ -4657,12 +4657,12 @@
     },
     "options": [
       {
-        "en": "reducing the environmental impact of buildings",
-        "as": "ভৱনৰ পৰিৱেশিক প্ৰভাৱ হ্ৰাস"
-      },
-      {
         "en": "increasing energy use",
         "as": "শক্তি ব্যৱহাৰ বৃদ্ধি"
+      },
+      {
+        "en": "reducing the environmental impact of buildings",
+        "as": "ভৱনৰ পৰিৱেশিক প্ৰভাৱ হ্ৰাস"
       },
       {
         "en": "using more water",
@@ -4673,7 +4673,7 @@
         "as": "গছ কটা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Green buildings reduce environmental impact.",
       "as": "সেউজ ভৱনে পৰিৱেশিক প্ৰভাৱ হ্ৰাস কৰে।"
@@ -4717,12 +4717,12 @@
     },
     "options": [
       {
-        "en": "assess the impact of a project on the environment",
-        "as": "এটা প্ৰকল্পৰ পৰিৱেশত প্ৰভাৱ মূল্যাংকন"
-      },
-      {
         "en": "increase project cost",
         "as": "প্ৰকল্পৰ ব্যয় বৃদ্ধি"
+      },
+      {
+        "en": "assess the impact of a project on the environment",
+        "as": "এটা প্ৰকল্পৰ পৰিৱেশত প্ৰভাৱ মূল্যাংকন"
       },
       {
         "en": "delay projects",
@@ -4733,7 +4733,7 @@
         "as": "লাভ হ্ৰাস"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "EIA assesses a project's environmental impact.",
       "as": "EIA য়ে এটা প্ৰকল্পৰ পৰিৱেশিক প্ৰভাৱ মূল্যাংকন কৰে।"
@@ -4747,12 +4747,12 @@
     },
     "options": [
       {
-        "en": "Using public transport",
-        "as": "ৰাজহুৱা পৰিবহন ব্যৱহাৰ"
-      },
-      {
         "en": "Using more private cars",
         "as": "অধিক ব্যক্তিগত গাড়ী ব্যৱহাৰ"
+      },
+      {
+        "en": "Using public transport",
+        "as": "ৰাজহুৱা পৰিবহন ব্যৱহাৰ"
       },
       {
         "en": "Burning more fuel",
@@ -4763,7 +4763,7 @@
         "as": "ৰক্ষণাবেক্ষণ উপেক্ষা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Using public transport reduces air pollution.",
       "as": "ৰাজহুৱা পৰিবহন ব্যৱহাৰে বায়ু প্ৰদূষণ হ্ৰাস কৰে।"
@@ -4777,10 +4777,6 @@
     },
     "options": [
       {
-        "en": "Biogas",
-        "as": "বায়'গেছ"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
       },
@@ -4789,11 +4785,15 @@
         "as": "পেট্ৰ'লিয়াম"
       },
       {
+        "en": "Biogas",
+        "as": "বায়'গেছ"
+      },
+      {
         "en": "Diesel",
         "as": "ডিজেল"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Biogas is a renewable energy source from organic matter.",
       "as": "বায়'গেছ জৈৱিক পদাৰ্থৰ পৰা এটা নবীকৰণযোগ্য শক্তিৰ উৎস।"
@@ -4807,12 +4807,12 @@
     },
     "options": [
       {
-        "en": "solar energy",
-        "as": "সৌৰ শক্তি"
-      },
-      {
         "en": "coal energy",
         "as": "কয়লা শক্তি"
+      },
+      {
+        "en": "solar energy",
+        "as": "সৌৰ শক্তি"
       },
       {
         "en": "nuclear energy",
@@ -4823,7 +4823,7 @@
         "as": "ডিজেল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "It promotes solar energy.",
       "as": "ই সৌৰ শক্তি প্ৰসাৰ কৰে।"
@@ -4867,12 +4867,12 @@
     },
     "options": [
       {
-        "en": "India",
-        "as": "ভাৰত"
-      },
-      {
         "en": "France",
         "as": "ফ্ৰান্স"
+      },
+      {
+        "en": "India",
+        "as": "ভাৰত"
       },
       {
         "en": "the USA",
@@ -4883,7 +4883,7 @@
         "as": "চীন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The ISA is headquartered in India.",
       "as": "ISA ৰ মুখ্য কাৰ্যালয় ভাৰতত।"
@@ -4897,12 +4897,12 @@
     },
     "options": [
       {
-        "en": "Water vapour",
-        "as": "জলীয় বাষ্প"
-      },
-      {
         "en": "Carbon dioxide",
         "as": "কাৰ্বন ডাইঅক্সাইড"
+      },
+      {
+        "en": "Water vapour",
+        "as": "জলীয় বাষ্প"
       },
       {
         "en": "Methane",
@@ -4913,7 +4913,7 @@
         "as": "অ'জন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Water vapour is the most abundant greenhouse gas.",
       "as": "জলীয় বাষ্প আটাইতকৈ প্ৰচুৰ গ্ৰীণহাউছ গেছ।"
@@ -4927,12 +4927,12 @@
     },
     "options": [
       {
-        "en": "2005",
-        "as": "২০০৫"
-      },
-      {
         "en": "1997",
         "as": "১৯৯৭"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
       },
       {
         "en": "2000",
@@ -4943,7 +4943,7 @@
         "as": "২০১০"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The Kyoto Protocol came into force in 2005.",
       "as": "কিয়'ট' প্ৰ'ট'কল ২০০৫ চনত কাৰ্যকৰী হৈছিল।"
@@ -4987,12 +4987,12 @@
     },
     "options": [
       {
-        "en": "1992",
-        "as": "১৯৯২"
-      },
-      {
         "en": "1982",
         "as": "১৯৮২"
+      },
+      {
+        "en": "1992",
+        "as": "১৯৯২"
       },
       {
         "en": "2002",
@@ -5003,7 +5003,7 @@
         "as": "২০১২"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The Rio Earth Summit was held in 1992.",
       "as": "ৰিঅ' পৃথিৱী সন্মিলন ১৯৯২ চনত অনুষ্ঠিত হৈছিল।"
@@ -5017,10 +5017,6 @@
     },
     "options": [
       {
-        "en": "1972",
-        "as": "১৯৭২"
-      },
-      {
         "en": "1982",
         "as": "১৯৮২"
       },
@@ -5029,11 +5025,15 @@
         "as": "১৯৯২"
       },
       {
+        "en": "1972",
+        "as": "১৯৭২"
+      },
+      {
         "en": "2002",
         "as": "২০০২"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Stockholm Conference was held in 1972.",
       "as": "ষ্টকহল্ম সন্মিলন ১৯৭২ চনত অনুষ্ঠিত হৈছিল।"
@@ -5047,10 +5047,6 @@
     },
     "options": [
       {
-        "en": "Nairobi",
-        "as": "নাইৰ'বি"
-      },
-      {
         "en": "Geneva",
         "as": "জেনেভা"
       },
@@ -5059,11 +5055,15 @@
         "as": "নিউয়ৰ্ক"
       },
       {
+        "en": "Nairobi",
+        "as": "নাইৰ'বি"
+      },
+      {
         "en": "Paris",
         "as": "পেৰিছ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "UNEP is headquartered at Nairobi.",
       "as": "UNEP ৰ মুখ্য কাৰ্যালয় নাইৰ'বিত।"
@@ -5107,10 +5107,6 @@
     },
     "options": [
       {
-        "en": "global warming",
-        "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
-      },
-      {
         "en": "global cooling",
         "as": "গোলকীয় শীতলীকৰণ"
       },
@@ -5119,11 +5115,15 @@
         "as": "অ'জন ক্ষয়"
       },
       {
+        "en": "global warming",
+        "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
+      },
+      {
         "en": "acid rain",
         "as": "অম্ল বৰষুণ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A rise in global temperature is global warming.",
       "as": "গোলকীয় উষ্ণতাৰ বৃদ্ধিক গোলকীয় উষ্ণতা বৃদ্ধি কোৱা হয়।"
@@ -5137,12 +5137,12 @@
     },
     "options": [
       {
-        "en": "global warming",
-        "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
-      },
-      {
         "en": "ozone depletion",
         "as": "অ'জন ক্ষয়"
+      },
+      {
+        "en": "global warming",
+        "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
       },
       {
         "en": "acid rain",
@@ -5153,7 +5153,7 @@
         "as": "বন নিধন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Melting glaciers result from global warming.",
       "as": "হিমবাহ গলি যোৱা গোলকীয় উষ্ণতা বৃদ্ধিৰ ফল।"
@@ -5167,10 +5167,6 @@
     },
     "options": [
       {
-        "en": "More frequent floods",
-        "as": "অধিক সঘন বানপানী"
-      },
-      {
         "en": "Less rainfall",
         "as": "কম বৰষুণ"
       },
@@ -5179,11 +5175,15 @@
         "as": "বানপানী নাই"
       },
       {
+        "en": "More frequent floods",
+        "as": "অধিক সঘন বানপানী"
+      },
+      {
         "en": "Freezing winters",
         "as": "হিমশীতল শীত"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "More frequent floods are a consequence of climate change in Assam.",
       "as": "অধিক সঘন বানপানী অসমত জলবায়ু পৰিৱৰ্তনৰ এটা পৰিণাম।"
@@ -5257,12 +5257,12 @@
     },
     "options": [
       {
-        "en": "Rainwater harvesting",
-        "as": "বৰষুণৰ পানী সংগ্ৰহ"
-      },
-      {
         "en": "Leaving taps open",
         "as": "কল খোলা ৰখা"
+      },
+      {
+        "en": "Rainwater harvesting",
+        "as": "বৰষুণৰ পানী সংগ্ৰহ"
       },
       {
         "en": "Wasting water",
@@ -5273,7 +5273,7 @@
         "as": "নদী প্ৰদূষণ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Rainwater harvesting conserves water.",
       "as": "বৰষুণৰ পানী সংগ্ৰহে পানী সংৰক্ষণ কৰে।"
@@ -5287,10 +5287,6 @@
     },
     "options": [
       {
-        "en": "Segregating waste",
-        "as": "বৰ্জন পৃথকীকৰণ"
-      },
-      {
         "en": "Burning plastic",
         "as": "প্লাষ্টিক জ্বলোৱা"
       },
@@ -5301,9 +5297,13 @@
       {
         "en": "Using excess water",
         "as": "অত্যধিক পানী ব্যৱহাৰ"
+      },
+      {
+        "en": "Segregating waste",
+        "as": "বৰ্জন পৃথকীকৰণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Segregating waste is an eco-friendly practice.",
       "as": "বৰ্জন পৃথকীকৰণ এটা পৰিৱেশ-বান্ধৱী অভ্যাস।"
@@ -5317,10 +5317,6 @@
     },
     "options": [
       {
-        "en": "Hydroelectric power",
-        "as": "জলবিদ্যুৎ শক্তি"
-      },
-      {
         "en": "Thermal power",
         "as": "তাপ শক্তি"
       },
@@ -5329,11 +5325,15 @@
         "as": "পাৰমাণৱিক শক্তি"
       },
       {
+        "en": "Hydroelectric power",
+        "as": "জলবিদ্যুৎ শক্তি"
+      },
+      {
         "en": "Diesel power",
         "as": "ডিজেল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Hydroelectric power uses flowing water.",
       "as": "জলবিদ্যুৎ শক্তিয়ে প্ৰবাহিত পানী ব্যৱহাৰ কৰে।"
@@ -5377,10 +5377,6 @@
     },
     "options": [
       {
-        "en": "Soil and water pollution",
-        "as": "মাটি আৰু পানী প্ৰদূষণ"
-      },
-      {
         "en": "Cleaner crops",
         "as": "অধিক পৰিষ্কাৰ শস্য"
       },
@@ -5389,11 +5385,15 @@
         "as": "অধিক বনাঞ্চল"
       },
       {
+        "en": "Soil and water pollution",
+        "as": "মাটি আৰু পানী প্ৰদূষণ"
+      },
+      {
         "en": "Less erosion",
         "as": "কম ক্ষয়"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Excessive pesticide use pollutes soil and water.",
       "as": "কীটনাশকৰ অত্যধিক ব্যৱহাৰে মাটি আৰু পানী প্ৰদূষিত কৰে।"
@@ -5407,12 +5407,12 @@
     },
     "options": [
       {
-        "en": "chemical fertilizers and pesticides",
-        "as": "ৰাসায়নিক সাৰ আৰু কীটনাশক"
-      },
-      {
         "en": "compost",
         "as": "খতিয়ক সাৰ"
+      },
+      {
+        "en": "chemical fertilizers and pesticides",
+        "as": "ৰাসায়নিক সাৰ আৰু কীটনাশক"
       },
       {
         "en": "water",
@@ -5423,7 +5423,7 @@
         "as": "সূৰ্যৰ পোহৰ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Organic farming avoids chemical fertilizers and pesticides.",
       "as": "জৈৱিক খেতিয়ে ৰাসায়নিক সাৰ আৰু কীটনাশক পৰিহাৰ কৰে।"
@@ -5437,12 +5437,12 @@
     },
     "options": [
       {
-        "en": "It protects soil health",
-        "as": "ই মাটিৰ স্বাস্থ্য সুৰক্ষা কৰে"
-      },
-      {
         "en": "It pollutes water",
         "as": "ই পানী প্ৰদূষিত কৰে"
+      },
+      {
+        "en": "It protects soil health",
+        "as": "ই মাটিৰ স্বাস্থ্য সুৰক্ষা কৰে"
       },
       {
         "en": "It kills soil organisms",
@@ -5453,7 +5453,7 @@
         "as": "ই অধিক ৰাসায়নিক ব্যৱহাৰ কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Organic farming protects soil health.",
       "as": "জৈৱিক খেতিয়ে মাটিৰ স্বাস্থ্য সুৰক্ষা কৰে।"
@@ -5467,10 +5467,6 @@
     },
     "options": [
       {
-        "en": "excessive use of chemicals",
-        "as": "ৰাসায়নিকৰ অত্যধিক ব্যৱহাৰ"
-      },
-      {
         "en": "less irrigation",
         "as": "কম জলসিঞ্চন"
       },
@@ -5481,9 +5477,13 @@
       {
         "en": "less food",
         "as": "কম খাদ্য"
+      },
+      {
+        "en": "excessive use of chemicals",
+        "as": "ৰাসায়নিকৰ অত্যধিক ব্যৱহাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "It caused excessive use of chemicals.",
       "as": "ই ৰাসায়নিকৰ অত্যধিক ব্যৱহাৰৰ সৃষ্টি কৰিছিল।"
@@ -5497,12 +5497,12 @@
     },
     "options": [
       {
-        "en": "Installing scrubbers and filters",
-        "as": "স্ক্ৰাবাৰ আৰু ফিল্টাৰ স্থাপন"
-      },
-      {
         "en": "Releasing smoke directly",
         "as": "ধোঁৱা প্ৰত্যক্ষভাৱে নিৰ্গত কৰা"
+      },
+      {
+        "en": "Installing scrubbers and filters",
+        "as": "স্ক্ৰাবাৰ আৰু ফিল্টাৰ স্থাপন"
       },
       {
         "en": "Using more coal",
@@ -5513,7 +5513,7 @@
         "as": "নিৰ্গমন উপেক্ষা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Scrubbers and filters control industrial air pollution.",
       "as": "স্ক্ৰাবাৰ আৰু ফিল্টাৰে উদ্যোগিক বায়ু প্ৰদূষণ নিয়ন্ত্ৰণ কৰে।"
@@ -5527,10 +5527,6 @@
     },
     "options": [
       {
-        "en": "Using cloth bags",
-        "as": "কাপোৰৰ মোনা ব্যৱহাৰ"
-      },
-      {
         "en": "Using more plastic bags",
         "as": "অধিক প্লাষ্টিক মোনা ব্যৱহাৰ"
       },
@@ -5541,9 +5537,13 @@
       {
         "en": "Throwing plastic in rivers",
         "as": "নদীত প্লাষ্টিক পেলোৱা"
+      },
+      {
+        "en": "Using cloth bags",
+        "as": "কাপোৰৰ মোনা ব্যৱহাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Using cloth bags reduces plastic pollution.",
       "as": "কাপোৰৰ মোনা ব্যৱহাৰে প্লাষ্টিক প্ৰদূষণ হ্ৰাস কৰে।"
@@ -5557,10 +5557,6 @@
     },
     "options": [
       {
-        "en": "They prevent soil erosion",
-        "as": "সিয়ে মাটি ক্ষয় ৰোধ কৰে"
-      },
-      {
         "en": "They cause floods",
         "as": "সিয়ে বানপানীৰ সৃষ্টি কৰে"
       },
@@ -5569,11 +5565,15 @@
         "as": "সিয়ে প্ৰদূষণ বঢ়ায়"
       },
       {
+        "en": "They prevent soil erosion",
+        "as": "সিয়ে মাটি ক্ষয় ৰোধ কৰে"
+      },
+      {
         "en": "They reduce rainfall",
         "as": "সিয়ে বৰষুণ হ্ৰাস কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Forests prevent soil erosion.",
       "as": "বনাঞ্চলে মাটি ক্ষয় ৰোধ কৰে।"
@@ -5587,10 +5587,6 @@
     },
     "options": [
       {
-        "en": "hugging trees to save them",
-        "as": "গছ ৰক্ষা কৰিবলৈ গছ সাৱটি ধৰা"
-      },
-      {
         "en": "cutting trees",
         "as": "গছ কটা"
       },
@@ -5601,9 +5597,13 @@
       {
         "en": "mining",
         "as": "খনন"
+      },
+      {
+        "en": "hugging trees to save them",
+        "as": "গছ ৰক্ষা কৰিবলৈ গছ সাৱটি ধৰা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Chipko means hugging trees to save them.",
       "as": "চিপক' মানে গছ ৰক্ষা কৰিবলৈ গছ সাৱটি ধৰা।"
@@ -5617,12 +5617,12 @@
     },
     "options": [
       {
-        "en": "Biogas",
-        "as": "বায়'গেছ"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
+      },
+      {
+        "en": "Biogas",
+        "as": "বায়'গেছ"
       },
       {
         "en": "Petroleum",
@@ -5633,7 +5633,7 @@
         "as": "ডিজেল"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Biogas is used as a renewable energy source in rural Assam.",
       "as": "গ্ৰামীণ অসমত বায়'গেছ নবীকৰণযোগ্য শক্তিৰ উৎস হিচাপে ব্যৱহৃত হয়।"
@@ -5677,10 +5677,6 @@
     },
     "options": [
       {
-        "en": "Erosion and siltation",
-        "as": "ক্ষয় আৰু পলস সঞ্চয়"
-      },
-      {
         "en": "No water",
         "as": "পানী নাই"
       },
@@ -5689,11 +5685,15 @@
         "as": "জমি যোৱা"
       },
       {
+        "en": "Erosion and siltation",
+        "as": "ক্ষয় আৰু পলস সঞ্চয়"
+      },
+      {
         "en": "Drying up",
         "as": "শুকাই যোৱা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Erosion and siltation are major problems.",
       "as": "ক্ষয় আৰু পলস সঞ্চয় প্ৰধান সমস্যা।"
@@ -5707,12 +5707,12 @@
     },
     "options": [
       {
-        "en": "Deepor Beel",
-        "as": "দীপৰ বিল"
-      },
-      {
         "en": "Majuli",
         "as": "মাজুলী"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
       },
       {
         "en": "Umananda",
@@ -5723,7 +5723,7 @@
         "as": "শুৱালকুছি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Deepor Beel is important for migratory birds.",
       "as": "দীপৰ বিল পৰিভ্ৰমী চৰাইৰ বাবে গুৰুত্বপূৰ্ণ।"
@@ -5827,10 +5827,6 @@
     },
     "options": [
       {
-        "en": "2020",
-        "as": "২০২০"
-      },
-      {
         "en": "2018",
         "as": "২০১৮"
       },
@@ -5839,11 +5835,15 @@
         "as": "২০১৬"
       },
       {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
         "en": "2022",
         "as": "২০২২"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "BS-VI norms were implemented in 2020.",
       "as": "বিএছ-VI নীতি ২০২০ চনত ৰূপায়ণ কৰা হৈছিল।"
@@ -5857,10 +5857,6 @@
     },
     "options": [
       {
-        "en": "Burning biomass for cooking",
-        "as": "ৰন্ধা-বঢ়াৰ বাবে জৈৱ ইন্ধন জ্বলোৱা"
-      },
-      {
         "en": "Using solar cookers",
         "as": "সৌৰ চুলা ব্যৱহাৰ"
       },
@@ -5871,9 +5867,13 @@
       {
         "en": "Using LPG",
         "as": "এলপিজি ব্যৱহাৰ"
+      },
+      {
+        "en": "Burning biomass for cooking",
+        "as": "ৰন্ধা-বঢ়াৰ বাবে জৈৱ ইন্ধন জ্বলোৱা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Burning biomass for cooking causes indoor air pollution.",
       "as": "ৰন্ধা-বঢ়াৰ বাবে জৈৱ ইন্ধন জ্বলোৱাই ঘৰুৱা বায়ু প্ৰদূষণৰ সৃষ্টি কৰে।"
@@ -5977,12 +5977,12 @@
     },
     "options": [
       {
-        "en": "Switching off unused lights",
-        "as": "অব্যৱহৃত পোহৰ নুমুওৱা"
-      },
-      {
         "en": "Keeping lights on",
         "as": "পোহৰ জ্বলাই ৰখা"
+      },
+      {
+        "en": "Switching off unused lights",
+        "as": "অব্যৱহৃত পোহৰ নুমুওৱা"
       },
       {
         "en": "Using old bulbs",
@@ -5993,7 +5993,7 @@
         "as": "ফেন চলাই ৰখা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Switching off unused lights saves energy.",
       "as": "অব্যৱহৃত পোহৰ নুমুওৱাই শক্তি সঞ্চয় কৰে।"
@@ -6007,10 +6007,6 @@
     },
     "options": [
       {
-        "en": "Solar cooker",
-        "as": "সৌৰ চুলা"
-      },
-      {
         "en": "Coal stove",
         "as": "কয়লা চুলা"
       },
@@ -6019,11 +6015,15 @@
         "as": "কেৰাচিন চুলা"
       },
       {
+        "en": "Solar cooker",
+        "as": "সৌৰ চুলা"
+      },
+      {
         "en": "Diesel generator",
         "as": "ডিজেল জেনেৰেটৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A solar cooker uses renewable energy.",
       "as": "সৌৰ চুলাই নবীকৰণযোগ্য শক্তি ব্যৱহাৰ কৰে।"
@@ -6037,10 +6037,6 @@
     },
     "options": [
       {
-        "en": "Untreated sewage and industrial waste",
-        "as": "অপৰিশোধিত নৰ্দমা আৰু উদ্যোগিক বৰ্জন"
-      },
-      {
         "en": "Rainwater",
         "as": "বৰষুণৰ পানী"
       },
@@ -6051,9 +6047,13 @@
       {
         "en": "Boating",
         "as": "নাও চলোৱা"
+      },
+      {
+        "en": "Untreated sewage and industrial waste",
+        "as": "অপৰিশোধিত নৰ্দমা আৰু উদ্যোগিক বৰ্জন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Untreated sewage and industrial waste pollute rivers.",
       "as": "অপৰিশোধিত নৰ্দমা আৰু উদ্যোগিক বৰ্জনে নদী প্ৰদূষিত কৰে।"
@@ -6067,10 +6067,6 @@
     },
     "options": [
       {
-        "en": "urban waste and encroachment",
-        "as": "চহৰীয়া বৰ্জন আৰু অধিগ্ৰহণ"
-      },
-      {
         "en": "afforestation",
         "as": "বনৰোপণ"
       },
@@ -6079,11 +6075,15 @@
         "as": "বৰষুণৰ পানী"
       },
       {
+        "en": "urban waste and encroachment",
+        "as": "চহৰীয়া বৰ্জন আৰু অধিগ্ৰহণ"
+      },
+      {
         "en": "migratory birds",
         "as": "পৰিভ্ৰমী চৰাই"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Deepor Beel is threatened by urban waste and encroachment.",
       "as": "দীপৰ বিল চহৰীয়া বৰ্জন আৰু অধিগ্ৰহণৰ দ্বাৰা সংকটাপন্ন।"
@@ -6127,12 +6127,12 @@
     },
     "options": [
       {
-        "en": "Tidal energy",
-        "as": "জোৱাৰ-ভাটা শক্তি"
-      },
-      {
         "en": "Coal energy",
         "as": "কয়লা শক্তি"
+      },
+      {
+        "en": "Tidal energy",
+        "as": "জোৱাৰ-ভাটা শক্তি"
       },
       {
         "en": "Nuclear energy",
@@ -6143,7 +6143,7 @@
         "as": "ডিজেল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Tidal energy uses the tides.",
       "as": "জোৱাৰ-ভাটা শক্তিয়ে জোৱাৰ-ভাটা ব্যৱহাৰ কৰে।"
@@ -6157,10 +6157,6 @@
     },
     "options": [
       {
-        "en": "stratosphere",
-        "as": "ষ্ট্ৰেট'স্ফিয়াৰ"
-      },
-      {
         "en": "troposphere",
         "as": "ট্ৰ'প'স্ফিয়াৰ"
       },
@@ -6169,11 +6165,15 @@
         "as": "মেছ'স্ফিয়াৰ"
       },
       {
+        "en": "stratosphere",
+        "as": "ষ্ট্ৰেট'স্ফিয়াৰ"
+      },
+      {
         "en": "thermosphere",
         "as": "থাৰ্ম'স্ফিয়াৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The ozone layer is in the stratosphere.",
       "as": "অ'জন স্তৰ ষ্ট্ৰেট'স্ফিয়াৰত পোৱা যায়।"
@@ -6187,10 +6187,6 @@
     },
     "options": [
       {
-        "en": "Habitat destruction",
-        "as": "বাসস্থান ধ্বংস"
-      },
-      {
         "en": "Afforestation",
         "as": "বনৰোপণ"
       },
@@ -6201,9 +6197,13 @@
       {
         "en": "Rainfall",
         "as": "বৰষুণ"
+      },
+      {
+        "en": "Habitat destruction",
+        "as": "বাসস্থান ধ্বংস"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Habitat destruction is a major cause of biodiversity loss.",
       "as": "বাসস্থান ধ্বংস জৈৱবিচিত্ৰতা হ্ৰাসৰ এটা প্ৰধান কাৰণ।"
@@ -6217,10 +6217,6 @@
     },
     "options": [
       {
-        "en": "Creating national parks",
-        "as": "ৰাষ্ট্ৰীয় উদ্যান সৃষ্টি"
-      },
-      {
         "en": "Deforestation",
         "as": "বন নিধন"
       },
@@ -6231,9 +6227,13 @@
       {
         "en": "Habitat destruction",
         "as": "বাসস্থান ধ্বংস"
+      },
+      {
+        "en": "Creating national parks",
+        "as": "ৰাষ্ট্ৰীয় উদ্যান সৃষ্টি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Creating national parks protects wildlife.",
       "as": "ৰাষ্ট্ৰীয় উদ্যান সৃষ্টিয়ে বন্যপ্ৰাণী সুৰক্ষা কৰে।"
@@ -6277,12 +6277,12 @@
     },
     "options": [
       {
-        "en": "wild animals and plants",
-        "as": "বনৰীয়া প্ৰাণী আৰু উদ্ভিদ"
-      },
-      {
         "en": "only animals",
         "as": "কেৱল প্ৰাণী"
+      },
+      {
+        "en": "wild animals and plants",
+        "as": "বনৰীয়া প্ৰাণী আৰু উদ্ভিদ"
       },
       {
         "en": "only plants",
@@ -6293,7 +6293,7 @@
         "as": "কেৱল চৰাই"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "It protects wild animals and plants.",
       "as": "ই বনৰীয়া প্ৰাণী আৰু উদ্ভিদ সুৰক্ষা কৰে।"
@@ -6307,10 +6307,6 @@
     },
     "options": [
       {
-        "en": "Hoolock gibbon",
-        "as": "হলৌ বান্দৰ"
-      },
-      {
         "en": "Cow",
         "as": "গৰু"
       },
@@ -6321,9 +6317,13 @@
       {
         "en": "Hen",
         "as": "কুকুৰা"
+      },
+      {
+        "en": "Hoolock gibbon",
+        "as": "হলৌ বান্দৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The hoolock gibbon is a threatened species of Assam.",
       "as": "হলৌ বান্দৰ অসমৰ এটা সংকটাপন্ন প্ৰজাতি।"
@@ -6397,12 +6397,12 @@
     },
     "options": [
       {
-        "en": "reduce pollution",
-        "as": "প্ৰদূষণ হ্ৰাস কৰা"
-      },
-      {
         "en": "increase pollution",
         "as": "প্ৰদূষণ বৃদ্ধি কৰা"
+      },
+      {
+        "en": "reduce pollution",
+        "as": "প্ৰদূষণ হ্ৰাস কৰা"
       },
       {
         "en": "expand the factory",
@@ -6413,7 +6413,7 @@
         "as": "বৰ্জন সঞ্চয়"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A green belt reduces pollution.",
       "as": "সেউজ পটিয়ে প্ৰদূষণ হ্ৰাস কৰে।"
@@ -6427,10 +6427,6 @@
     },
     "options": [
       {
-        "en": "Forests",
-        "as": "বনাঞ্চল"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
       },
@@ -6439,11 +6435,15 @@
         "as": "পেট্ৰ'লিয়াম"
       },
       {
+        "en": "Forests",
+        "as": "বনাঞ্চল"
+      },
+      {
         "en": "Natural gas",
         "as": "প্ৰাকৃতিক গেছ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Forests are a renewable resource.",
       "as": "বনাঞ্চল এক নবীকৰণযোগ্য সম্পদ।"
@@ -6457,10 +6457,6 @@
     },
     "options": [
       {
-        "en": "Petroleum",
-        "as": "পেট্ৰ'লিয়াম"
-      },
-      {
         "en": "Solar energy",
         "as": "সৌৰ শক্তি"
       },
@@ -6469,11 +6465,15 @@
         "as": "বতাহ শক্তি"
       },
       {
+        "en": "Petroleum",
+        "as": "পেট্ৰ'লিয়াম"
+      },
+      {
         "en": "Water",
         "as": "পানী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Petroleum is a non-renewable resource.",
       "as": "পেট্ৰ'লিয়াম এক অনবীকৰণযোগ্য সম্পদ।"
@@ -6487,12 +6487,12 @@
     },
     "options": [
       {
-        "en": "using them wisely and sustainably",
-        "as": "সেয়া বিজ্ঞতাৰে আৰু স্থায়ীভাৱে ব্যৱহাৰ কৰা"
-      },
-      {
         "en": "wasting them",
         "as": "সেয়া নষ্ট কৰা"
+      },
+      {
+        "en": "using them wisely and sustainably",
+        "as": "সেয়া বিজ্ঞতাৰে আৰু স্থায়ীভাৱে ব্যৱহাৰ কৰা"
       },
       {
         "en": "using them all at once",
@@ -6503,7 +6503,7 @@
         "as": "সেয়া উপেক্ষা কৰা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Conservation means using resources wisely and sustainably.",
       "as": "সংৰক্ষণ মানে সম্পদ বিজ্ঞতাৰে আৰু স্থায়ীভাৱে ব্যৱহাৰ কৰা।"
@@ -6517,12 +6517,12 @@
     },
     "options": [
       {
-        "en": "live in harmony with nature",
-        "as": "প্ৰকৃতিৰ সৈতে সংগতি ৰাখি বাস কৰা উচিত"
-      },
-      {
         "en": "conquer nature",
         "as": "প্ৰকৃতিক জয় কৰা উচিত"
+      },
+      {
+        "en": "live in harmony with nature",
+        "as": "প্ৰকৃতিৰ সৈতে সংগতি ৰাখি বাস কৰা উচিত"
       },
       {
         "en": "exploit nature",
@@ -6533,7 +6533,7 @@
         "as": "প্ৰকৃতি উপেক্ষা কৰা উচিত"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Environmental ethics says humans should live in harmony with nature.",
       "as": "পৰিৱেশ নীতিয়ে কয় যে মানুহে প্ৰকৃতিৰ সৈতে সংগতি ৰাখি বাস কৰা উচিত।"
@@ -6547,10 +6547,6 @@
     },
     "options": [
       {
-        "en": "2008",
-        "as": "২০০৮"
-      },
-      {
         "en": "2005",
         "as": "২০০৫"
       },
@@ -6561,9 +6557,13 @@
       {
         "en": "2012",
         "as": "২০১২"
+      },
+      {
+        "en": "2008",
+        "as": "২০০৮"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "It was launched in 2008.",
       "as": "ই ২০০৮ চনত আৰম্ভ কৰা হৈছিল।"
@@ -6577,10 +6577,6 @@
     },
     "options": [
       {
-        "en": "Eight",
-        "as": "আঠটা"
-      },
-      {
         "en": "Five",
         "as": "পাঁচটা"
       },
@@ -6591,9 +6587,13 @@
       {
         "en": "Three",
         "as": "তিনিটা"
+      },
+      {
+        "en": "Eight",
+        "as": "আঠটা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "There are eight national missions.",
       "as": "আঠটা ৰাষ্ট্ৰীয় মিছন আছে।"
@@ -6607,10 +6607,6 @@
     },
     "options": [
       {
-        "en": "National Solar Mission",
-        "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন"
-      },
-      {
         "en": "National Mining Mission",
         "as": "ৰাষ্ট্ৰীয় খনন মিছন"
       },
@@ -6621,9 +6617,13 @@
       {
         "en": "National Defence Mission",
         "as": "ৰাষ্ট্ৰীয় প্ৰতিৰক্ষা মিছন"
+      },
+      {
+        "en": "National Solar Mission",
+        "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The National Solar Mission is one of the eight.",
       "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন আঠটাৰ এটা।"
@@ -6637,10 +6637,6 @@
     },
     "options": [
       {
-        "en": "water conservation",
-        "as": "জল সংৰক্ষণ"
-      },
-      {
         "en": "building dams",
         "as": "বান্ধ নিৰ্মাণ"
       },
@@ -6649,11 +6645,15 @@
         "as": "খনন"
       },
       {
+        "en": "water conservation",
+        "as": "জল সংৰক্ষণ"
+      },
+      {
         "en": "deforestation",
         "as": "বন নিধন"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "It aims at water conservation.",
       "as": "ই জল সংৰক্ষণৰ লক্ষ্য ৰাখে।"
@@ -6697,12 +6697,12 @@
     },
     "options": [
       {
-        "en": "climate-resilient farming",
-        "as": "জলবায়ু-সহনশীল খেতি"
-      },
-      {
         "en": "more chemicals",
         "as": "অধিক ৰাসায়নিক"
+      },
+      {
+        "en": "climate-resilient farming",
+        "as": "জলবায়ু-সহনশীল খেতি"
       },
       {
         "en": "deforestation",
@@ -6713,7 +6713,7 @@
         "as": "চহৰীয়া খেতি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "It aims at climate-resilient farming.",
       "as": "ই জলবায়ু-সহনশীল খেতিৰ লক্ষ্য ৰাখে।"
@@ -6727,12 +6727,12 @@
     },
     "options": [
       {
-        "en": "climate research",
-        "as": "জলবায়ু গৱেষণা"
-      },
-      {
         "en": "mining research",
         "as": "খনন গৱেষণা"
+      },
+      {
+        "en": "climate research",
+        "as": "জলবায়ু গৱেষণা"
       },
       {
         "en": "defence research",
@@ -6743,7 +6743,7 @@
         "as": "মহাকাশ গৱেষণা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "It focuses on climate research.",
       "as": "ই জলবায়ু গৱেষণাৰ ওপৰত গুৰুত্ব দিয়ে।"
@@ -6817,10 +6817,6 @@
     },
     "options": [
       {
-        "en": "developing countries fight climate change",
-        "as": "উন্নয়নশীল দেশক জলবায়ু পৰিৱৰ্তনৰ বিৰুদ্ধে যুঁজিবলৈ"
-      },
-      {
         "en": "developed countries only",
         "as": "কেৱল উন্নত দেশ"
       },
@@ -6831,9 +6827,13 @@
       {
         "en": "mining firms",
         "as": "খনন প্ৰতিষ্ঠান"
+      },
+      {
+        "en": "developing countries fight climate change",
+        "as": "উন্নয়নশীল দেশক জলবায়ু পৰিৱৰ্তনৰ বিৰুদ্ধে যুঁজিবলৈ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "It helps developing countries fight climate change.",
       "as": "ই উন্নয়নশীল দেশক জলবায়ু পৰিৱৰ্তনৰ বিৰুদ্ধে যুঁজিবলৈ সহায় কৰে।"
@@ -6847,10 +6847,6 @@
     },
     "options": [
       {
-        "en": "fair treatment of all in climate action",
-        "as": "জলবায়ু কাৰ্যত সকলোৰে ন্যায্য ব্যৱহাৰ"
-      },
-      {
         "en": "only rich countries benefit",
         "as": "কেৱল ধনী দেশ উপকৃত হয়"
       },
@@ -6861,9 +6857,13 @@
       {
         "en": "stopping development",
         "as": "উন্নয়ন বন্ধ কৰা"
+      },
+      {
+        "en": "fair treatment of all in climate action",
+        "as": "জলবায়ু কাৰ্যত সকলোৰে ন্যায্য ব্যৱহাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Climate justice means fair treatment of all.",
       "as": "জলবায়ু ন্যায় মানে সকলোৰে ন্যায্য ব্যৱহাৰ।"
@@ -6877,10 +6877,6 @@
     },
     "options": [
       {
-        "en": "environmental law",
-        "as": "পৰিৱেশ আইন"
-      },
-      {
         "en": "labour law",
         "as": "শ্ৰম আইন"
       },
@@ -6891,9 +6887,13 @@
       {
         "en": "tax law",
         "as": "কৰ আইন"
+      },
+      {
+        "en": "environmental law",
+        "as": "পৰিৱেশ আইন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "They are part of India's environmental law.",
       "as": "ইবোৰ ভাৰতৰ পৰিৱেশ আইনৰ অংশ।"
@@ -6907,12 +6907,12 @@
     },
     "options": [
       {
-        "en": "in trust for the public",
-        "as": "ৰাইজৰ বাবে ন্যাস হিচাপে"
-      },
-      {
         "en": "for private profit",
         "as": "ব্যক্তিগত লাভৰ বাবে"
+      },
+      {
+        "en": "in trust for the public",
+        "as": "ৰাইজৰ বাবে ন্যাস হিচাপে"
       },
       {
         "en": "for foreign countries",
@@ -6923,7 +6923,7 @@
         "as": "কেৱল খননৰ বাবে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The doctrine holds resources in trust for the public.",
       "as": "মতবাদে সম্পদ ৰাইজৰ বাবে ন্যাস হিচাপে ধাৰণ কৰে।"
@@ -6937,12 +6937,12 @@
     },
     "options": [
       {
-        "en": "Electrification of routes",
-        "as": "পথৰ বিদ্যুতীকৰণ"
-      },
-      {
         "en": "Diesel locomotives",
         "as": "ডিজেল ইঞ্জিন"
+      },
+      {
+        "en": "Electrification of routes",
+        "as": "পথৰ বিদ্যুতীকৰণ"
       },
       {
         "en": "Coal engines",
@@ -6953,7 +6953,7 @@
         "as": "অধিক বন নিধন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Electrification is a green initiative.",
       "as": "বিদ্যুতীকৰণ এটা সেউজ পদক্ষেপ।"
@@ -6967,12 +6967,12 @@
     },
     "options": [
       {
-        "en": "Zero emissions",
-        "as": "শূন্য নিৰ্গমন"
-      },
-      {
         "en": "More pollution",
         "as": "অধিক প্ৰদূষণ"
+      },
+      {
+        "en": "Zero emissions",
+        "as": "শূন্য নিৰ্গমন"
       },
       {
         "en": "More fuel use",
@@ -6983,7 +6983,7 @@
         "as": "অধিক শব্দ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Cycling produces zero emissions.",
       "as": "চাইকেল চলোৱাই শূন্য নিৰ্গমন উৎপাদন কৰে।"
@@ -6997,10 +6997,6 @@
     },
     "options": [
       {
-        "en": "reduce greenhouse gas emissions",
-        "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
-      },
-      {
         "en": "increase emissions",
         "as": "নিৰ্গমন বৃদ্ধি"
       },
@@ -7011,9 +7007,13 @@
       {
         "en": "increase mining",
         "as": "খনন বৃদ্ধি"
+      },
+      {
+        "en": "reduce greenhouse gas emissions",
+        "as": "গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Carbon trading aims to reduce greenhouse gas emissions.",
       "as": "কাৰ্বন বাণিজ্যৰ লক্ষ্য গ্ৰীণহাউছ গেছ নিৰ্গমন হ্ৰাস।"
@@ -7087,10 +7087,6 @@
     },
     "options": [
       {
-        "en": "Rio Earth Summit",
-        "as": "ৰিঅ' পৃথিৱী সন্মিলন"
-      },
-      {
         "en": "Stockholm Conference",
         "as": "ষ্টকহল্ম সন্মিলন"
       },
@@ -7099,11 +7095,15 @@
         "as": "কিয়'ট' সন্মিলন"
       },
       {
+        "en": "Rio Earth Summit",
+        "as": "ৰিঅ' পৃথিৱী সন্মিলন"
+      },
+      {
         "en": "Paris Conference",
         "as": "পেৰিছ সন্মিলন"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The UNFCCC was adopted at the Rio Earth Summit.",
       "as": "UNFCCC ৰিঅ' পৃথিৱী সন্মিলনত গ্ৰহণ কৰা হৈছিল।"
@@ -7147,10 +7147,6 @@
     },
     "options": [
       {
-        "en": "absorbs more carbon than it releases",
-        "as": "নিৰ্গত কৰাতকৈ অধিক কাৰ্বন শোষণ কৰে"
-      },
-      {
         "en": "releases more carbon",
         "as": "অধিক কাৰ্বন নিৰ্গত কৰে"
       },
@@ -7159,11 +7155,15 @@
         "as": "কাৰ্বন সঞ্চয় নকৰে"
       },
       {
+        "en": "absorbs more carbon than it releases",
+        "as": "নিৰ্গত কৰাতকৈ অধিক কাৰ্বন শোষণ কৰে"
+      },
+      {
         "en": "produces carbon",
         "as": "কাৰ্বন উৎপাদন কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "A carbon sink absorbs more carbon than it releases.",
       "as": "কাৰ্বন ছিংক নিৰ্গত কৰাতকৈ অধিক কাৰ্বন শোষণ কৰে।"
@@ -7177,10 +7177,6 @@
     },
     "options": [
       {
-        "en": "Forests",
-        "as": "বনাঞ্চল"
-      },
-      {
         "en": "Factories",
         "as": "কাৰখানা"
       },
@@ -7189,11 +7185,15 @@
         "as": "বাহন"
       },
       {
+        "en": "Forests",
+        "as": "বনাঞ্চল"
+      },
+      {
         "en": "Power plants",
         "as": "বিদ্যুৎ কেন্দ্ৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Forests are natural carbon sinks.",
       "as": "বনাঞ্চল প্ৰাকৃতিক কাৰ্বন ছিংক।"
@@ -7207,12 +7207,12 @@
     },
     "options": [
       {
-        "en": "Methane",
-        "as": "মিথেন"
-      },
-      {
         "en": "Oxygen",
         "as": "অক্সিজেন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
       },
       {
         "en": "Nitrogen",
@@ -7223,7 +7223,7 @@
         "as": "হিলিয়াম"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Methane has a high global warming potential.",
       "as": "মিথেনৰ উচ্চ গোলকীয় উষ্ণতা বৃদ্ধি সম্ভাৱনা আছে।"
@@ -7237,10 +7237,6 @@
     },
     "options": [
       {
-        "en": "human activities",
-        "as": "মানৱ কাৰ্যকলাপ"
-      },
-      {
         "en": "volcanic eruptions",
         "as": "আগ্নেয়গিৰিৰ বিস্ফোৰণ"
       },
@@ -7249,11 +7245,15 @@
         "as": "সৌৰ বিস্ফোৰণ"
       },
       {
+        "en": "human activities",
+        "as": "মানৱ কাৰ্যকলাপ"
+      },
+      {
         "en": "ocean currents",
         "as": "সাগৰীয় সোঁত"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Human activities cause the enhanced greenhouse effect.",
       "as": "মানৱ কাৰ্যকলাপে বৰ্ধিত গ্ৰীণহাউছ প্ৰভাৱৰ সৃষ্টি কৰে।"
@@ -7297,10 +7297,6 @@
     },
     "options": [
       {
-        "en": "reflectivity of sunlight",
-        "as": "সূৰ্যৰ পোহৰৰ প্ৰতিফলন ক্ষমতা"
-      },
-      {
         "en": "absorption of heat",
         "as": "তাপ শোষণ"
       },
@@ -7309,11 +7305,15 @@
         "as": "ঘূৰ্ণনৰ গতি"
       },
       {
+        "en": "reflectivity of sunlight",
+        "as": "সূৰ্যৰ পোহৰৰ প্ৰতিফলন ক্ষমতা"
+      },
+      {
         "en": "mass",
         "as": "ভৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Albedo is the reflectivity of sunlight.",
       "as": "এলবিড হৈছে সূৰ্যৰ পোহৰৰ প্ৰতিফলন ক্ষমতা।"
@@ -7357,12 +7357,12 @@
     },
     "options": [
       {
-        "en": "Wind energy",
-        "as": "বতাহ শক্তি"
-      },
-      {
         "en": "Coal power",
         "as": "কয়লা শক্তি"
+      },
+      {
+        "en": "Wind energy",
+        "as": "বতাহ শক্তি"
       },
       {
         "en": "Diesel power",
@@ -7373,7 +7373,7 @@
         "as": "প্ৰাকৃতিক গেছ শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Wind energy emits no greenhouse gases during operation.",
       "as": "বতাহ শক্তিয়ে কাৰ্যকালত গ্ৰীণহাউছ গেছ নিৰ্গত নকৰে।"
@@ -7387,12 +7387,12 @@
     },
     "options": [
       {
-        "en": "less energy for the same output",
-        "as": "একে উৎপাদনৰ বাবে কম শক্তি"
-      },
-      {
         "en": "more energy for the same output",
         "as": "একে উৎপাদনৰ বাবে অধিক শক্তি"
+      },
+      {
+        "en": "less energy for the same output",
+        "as": "একে উৎপাদনৰ বাবে কম শক্তি"
       },
       {
         "en": "no energy",
@@ -7403,7 +7403,7 @@
         "as": "অধিক শক্তিৰ বাবে অধিক উৎপাদন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Energy efficiency means less energy for the same output.",
       "as": "শক্তি দক্ষতা মানে একে উৎপাদনৰ বাবে কম শক্তি।"
@@ -7417,10 +7417,6 @@
     },
     "options": [
       {
-        "en": "use less electricity",
-        "as": "কম বিদ্যুৎ ব্যৱহাৰ কৰে"
-      },
-      {
         "en": "use more electricity",
         "as": "অধিক বিদ্যুৎ ব্যৱহাৰ কৰে"
       },
@@ -7429,11 +7425,15 @@
         "as": "পেলাবলৈ সস্তা"
       },
       {
+        "en": "use less electricity",
+        "as": "কম বিদ্যুৎ ব্যৱহাৰ কৰে"
+      },
+      {
         "en": "produce more heat",
         "as": "অধিক তাপ উৎপাদন কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "LED bulbs use less electricity.",
       "as": "এলইডি বাল্বে কম বিদ্যুৎ ব্যৱহাৰ কৰে।"
@@ -7447,12 +7447,12 @@
     },
     "options": [
       {
-        "en": "energy efficiency",
-        "as": "শক্তি দক্ষতা"
-      },
-      {
         "en": "energy waste",
         "as": "শক্তি অপচয়"
+      },
+      {
+        "en": "energy efficiency",
+        "as": "শক্তি দক্ষতা"
       },
       {
         "en": "mining",
@@ -7463,7 +7463,7 @@
         "as": "বন নিধন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "It promotes energy efficiency.",
       "as": "ই শক্তি দক্ষতা প্ৰসাৰ কৰে।"
@@ -7477,12 +7477,12 @@
     },
     "options": [
       {
-        "en": "energy efficiency",
-        "as": "শক্তি দক্ষতা"
-      },
-      {
         "en": "price",
         "as": "মূল্য"
+      },
+      {
+        "en": "energy efficiency",
+        "as": "শক্তি দক্ষতা"
       },
       {
         "en": "weight",
@@ -7493,7 +7493,7 @@
         "as": "আকাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The star rating indicates energy efficiency.",
       "as": "তৰা ৰেটিঙে শক্তি দক্ষতাৰ ইংগিত দিয়ে।"
@@ -7507,10 +7507,6 @@
     },
     "options": [
       {
-        "en": "Using energy-efficient appliances",
-        "as": "শক্তি-দক্ষ সঁজুলি ব্যৱহাৰ"
-      },
-      {
         "en": "Leaving appliances on",
         "as": "সঁজুলি চলাই ৰখা"
       },
@@ -7519,11 +7515,15 @@
         "as": "বৰ্জন জ্বলোৱা"
       },
       {
+        "en": "Using energy-efficient appliances",
+        "as": "শক্তি-দক্ষ সঁজুলি ব্যৱহাৰ"
+      },
+      {
         "en": "Using more water",
         "as": "অধিক পানী ব্যৱহাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Energy-efficient appliances reduce the carbon footprint.",
       "as": "শক্তি-দক্ষ সঁজুলিয়ে কাৰ্বন ফুটপ্ৰিণ্ট হ্ৰাস কৰে।"
@@ -7537,12 +7537,12 @@
     },
     "options": [
       {
-        "en": "falsely claiming to be eco-friendly",
-        "as": "মিছাকৈ পৰিৱেশ-বান্ধৱী বুলি দাবী কৰা"
-      },
-      {
         "en": "genuinely protecting the environment",
         "as": "প্ৰকৃততে পৰিৱেশ সুৰক্ষা"
+      },
+      {
+        "en": "falsely claiming to be eco-friendly",
+        "as": "মিছাকৈ পৰিৱেশ-বান্ধৱী বুলি দাবী কৰা"
       },
       {
         "en": "planting trees",
@@ -7553,7 +7553,7 @@
         "as": "বৰ্জন পুনৰ্চক্ৰণ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Greenwashing is falsely claiming to be eco-friendly.",
       "as": "গ্ৰীণৱাছিং হৈছে মিছাকৈ পৰিৱেশ-বান্ধৱী বুলি দাবী কৰা।"
@@ -7567,10 +7567,6 @@
     },
     "options": [
       {
-        "en": "minimising waste by reusing materials",
-        "as": "সামগ্ৰী পুনৰ্ব্যৱহাৰ কৰি বৰ্জন ন্যূনতম কৰা"
-      },
-      {
         "en": "maximising waste",
         "as": "বৰ্জন সৰ্বাধিক কৰা"
       },
@@ -7581,9 +7577,13 @@
       {
         "en": "ignoring recycling",
         "as": "পুনৰ্চক্ৰণ উপেক্ষা"
+      },
+      {
+        "en": "minimising waste by reusing materials",
+        "as": "সামগ্ৰী পুনৰ্ব্যৱহাৰ কৰি বৰ্জন ন্যূনতম কৰা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "The circular economy minimises waste.",
       "as": "বৃত্তীয় অৰ্থনীতিয়ে বৰ্জন ন্যূনতম কৰে।"
@@ -7597,10 +7597,6 @@
     },
     "options": [
       {
-        "en": "take, make, dispose",
-        "as": "লোৱা, বনোৱা, পেলোৱা"
-      },
-      {
         "en": "reduce, reuse, recycle",
         "as": "হ্ৰাস, পুনৰ্ব্যৱহাৰ, পুনৰ্চক্ৰণ"
       },
@@ -7611,9 +7607,13 @@
       {
         "en": "save, invest, grow",
         "as": "সঞ্চয়, বিনিয়োগ, বৃদ্ধি"
+      },
+      {
+        "en": "take, make, dispose",
+        "as": "লোৱা, বনোৱা, পেলোৱা"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "A linear economy follows take, make, dispose.",
       "as": "ৰৈখিক অৰ্থনীতিয়ে লোৱা, বনোৱা, পেলোৱা অনুসৰণ কৰে।"
@@ -7627,10 +7627,6 @@
     },
     "options": [
       {
-        "en": "Bamboo",
-        "as": "বাঁহ"
-      },
-      {
         "en": "Steel",
         "as": "ইস্পাত"
       },
@@ -7639,11 +7635,15 @@
         "as": "চিমেণ্ট"
       },
       {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      },
+      {
         "en": "Aluminium",
         "as": "এলুমিনিয়াম"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Bamboo is a renewable building material.",
       "as": "বাঁহ এক নবীকৰণযোগ্য নিৰ্মাণ সামগ্ৰী।"
@@ -7717,10 +7717,6 @@
     },
     "options": [
       {
-        "en": "North India",
-        "as": "উত্তৰ ভাৰত"
-      },
-      {
         "en": "South India",
         "as": "দক্ষিণ ভাৰত"
       },
@@ -7731,9 +7727,13 @@
       {
         "en": "Coastal India",
         "as": "উপকূলীয় ভাৰত"
+      },
+      {
+        "en": "North India",
+        "as": "উত্তৰ ভাৰত"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Stubble burning is a major problem in North India.",
       "as": "নাঙল জ্বলোৱা উত্তৰ ভাৰতত এটা প্ৰধান সমস্যা।"
@@ -7747,10 +7747,6 @@
     },
     "options": [
       {
-        "en": "cleanliness of cities",
-        "as": "চহৰৰ পৰিষ্কাৰতা"
-      },
-      {
         "en": "air quality",
         "as": "বায়ুৰ গুণাগুণ"
       },
@@ -7759,11 +7755,15 @@
         "as": "পানীৰ গুণাগুণ"
       },
       {
+        "en": "cleanliness of cities",
+        "as": "চহৰৰ পৰিষ্কাৰতা"
+      },
+      {
         "en": "forest cover",
         "as": "বনাঞ্চলৰ আৱৰণ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Swachh Survekshan surveys the cleanliness of cities.",
       "as": "স্বচ্ছ সৰ্বেক্ষণে চহৰৰ পৰিষ্কাৰতাৰ সমীক্ষা কৰে।"
@@ -7777,12 +7777,12 @@
     },
     "options": [
       {
-        "en": "Indore",
-        "as": "ইন্দোৰ"
-      },
-      {
         "en": "Guwahati",
         "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Indore",
+        "as": "ইন্দোৰ"
       },
       {
         "en": "Delhi",
@@ -7793,7 +7793,7 @@
         "as": "মুম্বাই"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Indore has repeatedly topped the rankings.",
       "as": "ইন্দোৰে বাৰম্বাৰ ৰেংকিঙত শীৰ্ষস্থান লাভ কৰিছে।"
@@ -7807,10 +7807,6 @@
     },
     "options": [
       {
-        "en": "Sanitary landfilling",
-        "as": "চেনিটেৰী লেণ্ডফিলিং"
-      },
-      {
         "en": "Open dumping",
         "as": "মুকলি পেলোৱা"
       },
@@ -7819,11 +7815,15 @@
         "as": "মুকলিকৈ জ্বলোৱা"
       },
       {
+        "en": "Sanitary landfilling",
+        "as": "চেনিটেৰী লেণ্ডফিলিং"
+      },
+      {
         "en": "Dumping in rivers",
         "as": "নদীত পেলোৱা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Sanitary landfilling is a proper method.",
       "as": "চেনিটেৰী লেণ্ডফিলিং এটা যথাযথ পদ্ধতি।"
@@ -7837,10 +7837,6 @@
     },
     "options": [
       {
-        "en": "Composting",
-        "as": "খতিয়কৰণ"
-      },
-      {
         "en": "Burning",
         "as": "জ্বলোৱা"
       },
@@ -7849,11 +7845,15 @@
         "as": "নদীত পেলোৱা"
       },
       {
+        "en": "Composting",
+        "as": "খতিয়কৰণ"
+      },
+      {
         "en": "Burying in plastic",
         "as": "প্লাষ্টিকত পোতা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Composting manages organic kitchen waste.",
       "as": "খতিয়কৰণে ৰান্ধনিশালৰ জৈৱিক বৰ্জন পৰিচালনা কৰে।"
@@ -7867,10 +7867,6 @@
     },
     "options": [
       {
-        "en": "earthworms",
-        "as": "কেঁচু"
-      },
-      {
         "en": "bees",
         "as": "মৌমাখি"
       },
@@ -7879,11 +7875,15 @@
         "as": "মাছ"
       },
       {
+        "en": "earthworms",
+        "as": "কেঁচু"
+      },
+      {
         "en": "birds",
         "as": "চৰাই"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Vermicomposting uses earthworms.",
       "as": "কেঁচু-খতিয়কৰণে কেঁচু ব্যৱহাৰ কৰে।"
@@ -7897,12 +7897,12 @@
     },
     "options": [
       {
-        "en": "It produces organic manure",
-        "as": "ই জৈৱিক সাৰ উৎপাদন কৰে"
-      },
-      {
         "en": "It pollutes water",
         "as": "ই পানী প্ৰদূষিত কৰে"
+      },
+      {
+        "en": "It produces organic manure",
+        "as": "ই জৈৱিক সাৰ উৎপাদন কৰে"
       },
       {
         "en": "It increases waste",
@@ -7913,7 +7913,7 @@
         "as": "ই মাটিৰ জীৱ মাৰে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Composting produces organic manure.",
       "as": "খতিয়কৰণে জৈৱিক সাৰ উৎপাদন কৰে।"
@@ -7927,10 +7927,6 @@
     },
     "options": [
       {
-        "en": "It saves raw materials",
-        "as": "ই কেঁচা সামগ্ৰী সঞ্চয় কৰে"
-      },
-      {
         "en": "It increases waste",
         "as": "ই বৰ্জন বৃদ্ধি কৰে"
       },
@@ -7941,9 +7937,13 @@
       {
         "en": "It uses more energy",
         "as": "ই অধিক শক্তি ব্যৱহাৰ কৰে"
+      },
+      {
+        "en": "It saves raw materials",
+        "as": "ই কেঁচা সামগ্ৰী সঞ্চয় কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Recycling saves raw materials.",
       "as": "পুনৰ্চক্ৰণে কেঁচা সামগ্ৰী সঞ্চয় কৰে।"
@@ -7957,10 +7957,6 @@
     },
     "options": [
       {
-        "en": "Paper",
-        "as": "কাগজ"
-      },
-      {
         "en": "Plastic",
         "as": "প্লাষ্টিক"
       },
@@ -7971,9 +7967,13 @@
       {
         "en": "Rubber",
         "as": "ৰবৰ"
+      },
+      {
+        "en": "Paper",
+        "as": "কাগজ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Paper is the most commonly recycled material.",
       "as": "কাগজ আটাইতকৈ বেছি পুনৰ্চক্ৰণ কৰা সামগ্ৰী।"
@@ -7987,10 +7987,6 @@
     },
     "options": [
       {
-        "en": "Treating sewage before release",
-        "as": "নৰ্দমা মুকলি কৰাৰ আগতে প্ৰক্ৰিয়াকৰণ"
-      },
-      {
         "en": "Releasing sewage untreated",
         "as": "নৰ্দমা অপৰিশোধিত মুকলি কৰা"
       },
@@ -8001,9 +7997,13 @@
       {
         "en": "Using excess chemicals",
         "as": "অত্যধিক ৰাসায়নিক ব্যৱহাৰ"
+      },
+      {
+        "en": "Treating sewage before release",
+        "as": "নৰ্দমা মুকলি কৰাৰ আগতে প্ৰক্ৰিয়াকৰণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Treating sewage before release reduces water pollution.",
       "as": "নৰ্দমা মুকলি কৰাৰ আগতে প্ৰক্ৰিয়াকৰণে জল প্ৰদূষণ হ্ৰাস কৰে।"
@@ -8017,10 +8017,6 @@
     },
     "options": [
       {
-        "en": "clean wastewater before release",
-        "as": "মুকলি কৰাৰ আগতে বৰ্জিত পানী পৰিষ্কাৰ কৰে"
-      },
-      {
         "en": "increase pollution",
         "as": "প্ৰদূষণ বৃদ্ধি কৰে"
       },
@@ -8031,9 +8027,13 @@
       {
         "en": "create waste",
         "as": "বৰ্জন সৃষ্টি কৰে"
+      },
+      {
+        "en": "clean wastewater before release",
+        "as": "মুকলি কৰাৰ আগতে বৰ্জিত পানী পৰিষ্কাৰ কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "They clean wastewater before release.",
       "as": "সিয়ে মুকলি কৰাৰ আগতে বৰ্জিত পানী পৰিষ্কাৰ কৰে।"
@@ -8047,10 +8047,6 @@
     },
     "options": [
       {
-        "en": "Discharge of hot water from power plants",
-        "as": "বিদ্যুৎ কেন্দ্ৰৰ পৰা গৰম পানী নিষ্কাশন"
-      },
-      {
         "en": "Rainfall",
         "as": "বৰষুণ"
       },
@@ -8061,9 +8057,13 @@
       {
         "en": "Snow melt",
         "as": "বৰফ গলা পানী"
+      },
+      {
+        "en": "Discharge of hot water from power plants",
+        "as": "বিদ্যুৎ কেন্দ্ৰৰ পৰা গৰম পানী নিষ্কাশন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Hot water discharged from power plants causes thermal pollution.",
       "as": "বিদ্যুৎ কেন্দ্ৰৰ পৰা নিষ্কাশিত গৰম পানীয়ে তাপীয় প্ৰদূষণৰ সৃষ্টি কৰে।"
@@ -8077,12 +8077,12 @@
     },
     "options": [
       {
-        "en": "dissolved oxygen",
-        "as": "দ্ৰবীভূত অক্সিজেন"
-      },
-      {
         "en": "water temperature",
         "as": "পানীৰ উষ্ণতা"
+      },
+      {
+        "en": "dissolved oxygen",
+        "as": "দ্ৰবীভূত অক্সিজেন"
       },
       {
         "en": "water volume",
@@ -8093,7 +8093,7 @@
         "as": "পানীৰ লৱণতা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Thermal pollution reduces dissolved oxygen.",
       "as": "তাপীয় প্ৰদূষণে দ্ৰবীভূত অক্সিজেন হ্ৰাস কৰে।"
@@ -8167,12 +8167,12 @@
     },
     "options": [
       {
-        "en": "cadmium",
-        "as": "কেডমিয়াম"
-      },
-      {
         "en": "mercury",
         "as": "পাৰা"
+      },
+      {
+        "en": "cadmium",
+        "as": "কেডমিয়াম"
       },
       {
         "en": "lead",
@@ -8183,7 +8183,7 @@
         "as": "আৰ্ছেনিক"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Itai-itai disease was caused by cadmium pollution.",
       "as": "ইটাই-ইটাই ৰোগ কেডমিয়াম প্ৰদূষণৰ বাবে হৈছিল।"
@@ -8227,12 +8227,12 @@
     },
     "options": [
       {
-        "en": "West Bengal and Assam",
-        "as": "পশ্চিমবঙ্গ আৰু অসম"
-      },
-      {
         "en": "Kerala",
         "as": "কেৰালা"
+      },
+      {
+        "en": "West Bengal and Assam",
+        "as": "পশ্চিমবঙ্গ আৰু অসম"
       },
       {
         "en": "Rajasthan",
@@ -8243,7 +8243,7 @@
         "as": "পঞ্জাৱ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Arsenic contamination is serious in West Bengal and Assam.",
       "as": "পশ্চিমবঙ্গ আৰু অসমত আৰ্ছেনিক দূষণ গুৰুতৰ।"
@@ -8287,12 +8287,12 @@
     },
     "options": [
       {
-        "en": "Cholera",
-        "as": "কলা"
-      },
-      {
         "en": "Malaria",
         "as": "মেলেৰিয়া"
+      },
+      {
+        "en": "Cholera",
+        "as": "কলা"
       },
       {
         "en": "Tuberculosis",
@@ -8303,7 +8303,7 @@
         "as": "মধুমেহ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Cholera is a water-borne disease.",
       "as": "কলা এটা পানী-বাহিত ৰোগ।"
@@ -8347,10 +8347,6 @@
     },
     "options": [
       {
-        "en": "respiratory diseases",
-        "as": "শ্বাস-প্ৰশ্বাসৰ ৰোগ"
-      },
-      {
         "en": "skin tanning only",
         "as": "কেৱল ছাল জহ যোৱা"
       },
@@ -8361,9 +8357,13 @@
       {
         "en": "stronger lungs",
         "as": "শক্তিশালী ফেফাঁ"
+      },
+      {
+        "en": "respiratory diseases",
+        "as": "শ্বাস-প্ৰশ্বাসৰ ৰোগ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Air pollution can cause respiratory diseases.",
       "as": "বায়ু প্ৰদূষণে শ্বাস-প্ৰশ্বাসৰ ৰোগ কৰিব পাৰে।"
@@ -8377,12 +8377,12 @@
     },
     "options": [
       {
-        "en": "hearing loss and stress",
-        "as": "শ্ৰৱণশক্তি হ্ৰাস আৰু মানসিক চাপ"
-      },
-      {
         "en": "better hearing",
         "as": "উন্নত শ্ৰৱণশক্তি"
+      },
+      {
+        "en": "hearing loss and stress",
+        "as": "শ্ৰৱণশক্তি হ্ৰাস আৰু মানসিক চাপ"
       },
       {
         "en": "improved sleep",
@@ -8393,7 +8393,7 @@
         "as": "শক্তিশালী হৃদয়"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Noise pollution can cause hearing loss and stress.",
       "as": "শব্দ প্ৰদূষণে শ্ৰৱণশক্তি হ্ৰাস আৰু মানসিক চাপ কৰিব পাৰে।"
@@ -8407,10 +8407,6 @@
     },
     "options": [
       {
-        "en": "Using soundproof barriers",
-        "as": "শব্দৰোধী বেৰ ব্যৱহাৰ"
-      },
-      {
         "en": "Using louder horns",
         "as": "অধিক উচ্চ হৰ্ণ ব্যৱহাৰ"
       },
@@ -8421,9 +8417,13 @@
       {
         "en": "Removing trees",
         "as": "গছ আঁতৰোৱা"
+      },
+      {
+        "en": "Using soundproof barriers",
+        "as": "শব্দৰোধী বেৰ ব্যৱহাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Soundproof barriers control noise pollution.",
       "as": "শব্দৰোধী বেৰে শব্দ প্ৰদূষণ নিয়ন্ত্ৰণ কৰে।"
@@ -8437,10 +8437,6 @@
     },
     "options": [
       {
-        "en": "noise and air pollution",
-        "as": "শব্দ আৰু বায়ু প্ৰদূষণ"
-      },
-      {
         "en": "water pollution",
         "as": "জল প্ৰদূষণ"
       },
@@ -8451,9 +8447,13 @@
       {
         "en": "rainfall",
         "as": "বৰষুণ"
+      },
+      {
+        "en": "noise and air pollution",
+        "as": "শব্দ আৰু বায়ু প্ৰদূষণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Trees along roads reduce noise and air pollution.",
       "as": "পথৰ দাঁতিত গছে শব্দ আৰু বায়ু প্ৰদূষণ হ্ৰাস কৰে।"
@@ -8557,10 +8557,6 @@
     },
     "options": [
       {
-        "en": "minimising chemical pesticides",
-        "as": "ৰাসায়নিক কীটনাশক ন্যূনতম কৰা"
-      },
-      {
         "en": "maximising pesticides",
         "as": "কীটনাশক সৰ্বাধিক কৰা"
       },
@@ -8569,11 +8565,15 @@
         "as": "সকলো শস্য আঁতৰোৱা"
       },
       {
+        "en": "minimising chemical pesticides",
+        "as": "ৰাসায়নিক কীটনাশক ন্যূনতম কৰা"
+      },
+      {
         "en": "burning fields",
         "as": "পথাৰ জ্বলোৱা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "IPM minimises chemical pesticides.",
       "as": "IPM য়ে ৰাসায়নিক কীটনাশক ন্যূনতম কৰে।"
@@ -8647,10 +8647,6 @@
     },
     "options": [
       {
-        "en": "It is available only during the day",
-        "as": "ই কেৱল দিনৰ ভাগত উপলব্ধ"
-      },
-      {
         "en": "It pollutes heavily",
         "as": "ই অত্যধিক প্ৰদূষণ কৰে"
       },
@@ -8661,9 +8657,13 @@
       {
         "en": "It needs coal",
         "as": "ই কয়লা লাগে"
+      },
+      {
+        "en": "It is available only during the day",
+        "as": "ই কেৱল দিনৰ ভাগত উপলব্ধ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Solar energy is available only during the day.",
       "as": "সৌৰ শক্তি কেৱল দিনৰ ভাগত উপলব্ধ।"
@@ -8677,10 +8677,6 @@
     },
     "options": [
       {
-        "en": "It produces no emissions",
-        "as": "ই কোনো নিৰ্গমন উৎপাদন নকৰে"
-      },
-      {
         "en": "It is non-renewable",
         "as": "ই অনবীকৰণযোগ্য"
       },
@@ -8691,9 +8687,13 @@
       {
         "en": "It pollutes water",
         "as": "ই পানী প্ৰদূষিত কৰে"
+      },
+      {
+        "en": "It produces no emissions",
+        "as": "ই কোনো নিৰ্গমন উৎপাদন নকৰে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Wind energy produces no emissions.",
       "as": "বতাহ শক্তিয়ে কোনো নিৰ্গমন উৎপাদন নকৰে।"
@@ -8707,10 +8707,6 @@
     },
     "options": [
       {
-        "en": "It depends on wind speed",
-        "as": "ই বতাহৰ গতিবেগৰ ওপৰত নিৰ্ভৰশীল"
-      },
-      {
         "en": "It pollutes heavily",
         "as": "ই অত্যধিক প্ৰদূষণ কৰে"
       },
@@ -8719,11 +8715,15 @@
         "as": "ই অনবীকৰণযোগ্য"
       },
       {
+        "en": "It depends on wind speed",
+        "as": "ই বতাহৰ গতিবেগৰ ওপৰত নিৰ্ভৰশীল"
+      },
+      {
         "en": "It needs coal",
         "as": "ই কয়লা লাগে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Wind energy depends on wind speed.",
       "as": "বতাহ শক্তি বতাহৰ গতিবেগৰ ওপৰত নিৰ্ভৰশীল।"
@@ -8737,12 +8737,12 @@
     },
     "options": [
       {
-        "en": "2019",
-        "as": "২০১৯"
-      },
-      {
         "en": "2015",
         "as": "২০১৫"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
       },
       {
         "en": "2017",
@@ -8753,7 +8753,7 @@
         "as": "২০২১"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The National Clean Air Programme was launched in 2019.",
       "as": "ৰাষ্ট্ৰীয় পৰিষ্কাৰ বায়ু কাৰ্যসূচী ২০১৯ চনত আৰম্ভ কৰা হৈছিল।"
@@ -8767,12 +8767,12 @@
     },
     "options": [
       {
-        "en": "20-30 percent by 2024",
-        "as": "২০২৪ লৈকে ২০-৩০ শতাংশ"
-      },
-      {
         "en": "50 percent by 2024",
         "as": "২০২৪ লৈকে ৫০ শতাংশ"
+      },
+      {
+        "en": "20-30 percent by 2024",
+        "as": "২০২৪ লৈকে ২০-৩০ শতাংশ"
       },
       {
         "en": "10 percent by 2024",
@@ -8783,7 +8783,7 @@
         "as": "২০২৪ লৈকে ৯০ শতাংশ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "It aims to reduce particulate pollution by 20-30 percent by 2024.",
       "as": "ই ২০২৪ লৈকে কণিকাৰ প্ৰদূষণ ২০-৩০ শতাংশ হ্ৰাস কৰাৰ লক্ষ্য ৰাখে।"
@@ -8797,10 +8797,6 @@
     },
     "options": [
       {
-        "en": "Oil spills",
-        "as": "তেল নিৰ্গমন"
-      },
-      {
         "en": "Rainwater",
         "as": "বৰষুণৰ পানী"
       },
@@ -8811,9 +8807,13 @@
       {
         "en": "Seaweed",
         "as": "সাগৰীয় শেলাই"
+      },
+      {
+        "en": "Oil spills",
+        "as": "তেল নিৰ্গমন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Oil spills cause marine pollution.",
       "as": "তেল নিৰ্গমনে সাগৰীয় প্ৰদূষণৰ সৃষ্টি কৰে।"
@@ -8857,10 +8857,6 @@
     },
     "options": [
       {
-        "en": "Microplastics entering the food chain",
-        "as": "ক্ষুদ্ৰ প্লাষ্টিক খাদ্য শৃংখলত প্ৰৱেশ"
-      },
-      {
         "en": "Cleaner water",
         "as": "অধিক পৰিষ্কাৰ পানী"
       },
@@ -8871,9 +8867,13 @@
       {
         "en": "More oxygen",
         "as": "অধিক অক্সিজেন"
+      },
+      {
+        "en": "Microplastics entering the food chain",
+        "as": "ক্ষুদ্ৰ প্লাষ্টিক খাদ্য শৃংখলত প্ৰৱেশ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Microplastics enter the food chain.",
       "as": "ক্ষুদ্ৰ প্লাষ্টিক খাদ্য শৃংখলত প্ৰৱেশ কৰে।"
@@ -8887,12 +8887,12 @@
     },
     "options": [
       {
-        "en": "Reducing single-use plastics",
-        "as": "একবাৰ ব্যৱহাৰৰ প্লাষ্টিক হ্ৰাস"
-      },
-      {
         "en": "Throwing plastic in the sea",
         "as": "সাগৰত প্লাষ্টিক পেলোৱা"
+      },
+      {
+        "en": "Reducing single-use plastics",
+        "as": "একবাৰ ব্যৱহাৰৰ প্লাষ্টিক হ্ৰাস"
       },
       {
         "en": "Using more plastic",
@@ -8903,7 +8903,7 @@
         "as": "সমুদ্ৰতীৰত প্লাষ্টিক জ্বলোৱা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Reducing single-use plastics helps.",
       "as": "একবাৰ ব্যৱহাৰৰ প্লাষ্টিক হ্ৰাস কৰিলে সহায় হয়।"
@@ -8947,12 +8947,12 @@
     },
     "options": [
       {
-        "en": "2022",
-        "as": "২০২২"
-      },
-      {
         "en": "2018",
         "as": "২০১৮"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
       },
       {
         "en": "2020",
@@ -8963,7 +8963,7 @@
         "as": "২০১৫"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "India banned identified single-use plastic items in 2022.",
       "as": "ভাৰতে ২০২২ চনত চিনাক্ত একবাৰ ব্যৱহাৰৰ প্লাষ্টিক সামগ্ৰী নিষিদ্ধ কৰিছিল।"
@@ -8977,10 +8977,6 @@
     },
     "options": [
       {
-        "en": "Cloth bags",
-        "as": "কাপোৰৰ মোনা"
-      },
-      {
         "en": "Polythene bags",
         "as": "পলিথিন মোনা"
       },
@@ -8989,11 +8985,15 @@
         "as": "পিভিচি মোনা"
       },
       {
+        "en": "Cloth bags",
+        "as": "কাপোৰৰ মোনা"
+      },
+      {
         "en": "Nylon bags",
         "as": "নাইলন মোনা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Cloth bags are a biodegradable alternative.",
       "as": "কাপোৰৰ মোনা এটা জৈৱিক-বিয়োজনীয় বিকল্প।"
@@ -9007,10 +9007,6 @@
     },
     "options": [
       {
-        "en": "Forests",
-        "as": "বনাঞ্চল"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
       },
@@ -9019,11 +9015,15 @@
         "as": "পেট্ৰ'লিয়াম"
       },
       {
+        "en": "Forests",
+        "as": "বনাঞ্চল"
+      },
+      {
         "en": "Natural gas",
         "as": "প্ৰাকৃতিক গেছ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Forests provide timber and are renewable.",
       "as": "বনাঞ্চলে কাঠ প্ৰদান কৰে আৰু নবীকৰণযোগ্য।"
@@ -9037,10 +9037,6 @@
     },
     "options": [
       {
-        "en": "local communities and the forest department",
-        "as": "স্থানীয় সম্প্ৰদায় আৰু বন বিভাগ"
-      },
-      {
         "en": "only the forest department",
         "as": "কেৱল বন বিভাগ"
       },
@@ -9049,11 +9045,15 @@
         "as": "কেৱল ব্যক্তিগত প্ৰতিষ্ঠান"
       },
       {
+        "en": "local communities and the forest department",
+        "as": "স্থানীয় সম্প্ৰদায় আৰু বন বিভাগ"
+      },
+      {
         "en": "only foreign agencies",
         "as": "কেৱল বিদেশী সংস্থা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "JFM involves local communities and the forest department.",
       "as": "JFM ত স্থানীয় সম্প্ৰদায় আৰু বন বিভাগ জড়িত।"
@@ -9067,10 +9067,6 @@
     },
     "options": [
       {
-        "en": "It protects forests with community support",
-        "as": "ই সম্প্ৰদায়ৰ সমৰ্থনত বনাঞ্চল সুৰক্ষা কৰে"
-      },
-      {
         "en": "It increases deforestation",
         "as": "ই বন নিধন বৃদ্ধি কৰে"
       },
@@ -9081,9 +9077,13 @@
       {
         "en": "It ignores forests",
         "as": "ই বনাঞ্চল উপেক্ষা কৰে"
+      },
+      {
+        "en": "It protects forests with community support",
+        "as": "ই সম্প্ৰদায়ৰ সমৰ্থনত বনাঞ্চল সুৰক্ষা কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "JFM protects forests with community support.",
       "as": "JFM এ সম্প্ৰদায়ৰ সমৰ্থনত বনাঞ্চল সুৰক্ষা কৰে।"
@@ -9097,10 +9097,6 @@
     },
     "options": [
       {
-        "en": "forest-dwelling communities",
-        "as": "বনবাসী সম্প্ৰদায়"
-      },
-      {
         "en": "industrialists",
         "as": "উদ্যোগপতি"
       },
@@ -9109,11 +9105,15 @@
         "as": "বিদেশী প্ৰতিষ্ঠান"
       },
       {
+        "en": "forest-dwelling communities",
+        "as": "বনবাসী সম্প্ৰদায়"
+      },
+      {
         "en": "urban residents",
         "as": "চহৰীয়া বাসিন্দা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Forest Rights Act recognizes the rights of forest-dwelling communities.",
       "as": "বন অধিকাৰ আইনে বনবাসী সম্প্ৰদায়ৰ অধিকাৰ স্বীকৃতি দিয়ে।"
@@ -9127,10 +9127,6 @@
     },
     "options": [
       {
-        "en": "Building tanks and ponds",
-        "as": "পুখুৰী আৰু বিল নিৰ্মাণ"
-      },
-      {
         "en": "Wasting water",
         "as": "পানী নষ্ট কৰা"
       },
@@ -9141,9 +9137,13 @@
       {
         "en": "Mining",
         "as": "খনন"
+      },
+      {
+        "en": "Building tanks and ponds",
+        "as": "পুখুৰী আৰু বিল নিৰ্মাণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Building tanks and ponds is a traditional method.",
       "as": "পুখুৰী আৰু বিল নিৰ্মাণ এটা পৰম্পৰাগত পদ্ধতি।"
@@ -9157,12 +9157,12 @@
     },
     "options": [
       {
-        "en": "Assam",
-        "as": "অসম"
-      },
-      {
         "en": "Rajasthan",
         "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
       },
       {
         "en": "Kerala",
@@ -9173,7 +9173,7 @@
         "as": "পঞ্জাৱ"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "They are traditional water structures of Assam.",
       "as": "ইবোৰ অসমৰ পৰম্পৰাগত জল সংৰচনা।"
@@ -9187,10 +9187,6 @@
     },
     "options": [
       {
-        "en": "Dong and canal irrigation",
-        "as": "দং আৰু খাল জলসিঞ্চন"
-      },
-      {
         "en": "Drip irrigation only",
         "as": "কেৱল টোপাল জলসিঞ্চন"
       },
@@ -9201,9 +9197,13 @@
       {
         "en": "Furrow only",
         "as": "কেৱল খাৱৰীয়া"
+      },
+      {
+        "en": "Dong and canal irrigation",
+        "as": "দং আৰু খাল জলসিঞ্চন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Dong and canal irrigation are traditional methods in Assam.",
       "as": "দং আৰু খাল জলসিঞ্চন অসমৰ পৰম্পৰাগত পদ্ধতি।"
@@ -9217,10 +9217,6 @@
     },
     "options": [
       {
-        "en": "Drip irrigation",
-        "as": "টোপাল জলসিঞ্চন"
-      },
-      {
         "en": "Flood irrigation",
         "as": "বানপানী জলসিঞ্চন"
       },
@@ -9231,9 +9227,13 @@
       {
         "en": "Overhead flooding",
         "as": "ওপৰৰ পৰা প্লাৱন"
+      },
+      {
+        "en": "Drip irrigation",
+        "as": "টোপাল জলসিঞ্চন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Drip irrigation saves water.",
       "as": "টোপাল জলসিঞ্চনে পানী সঞ্চয় কৰে।"
@@ -9247,10 +9247,6 @@
     },
     "options": [
       {
-        "en": "It saves water",
-        "as": "ই পানী সঞ্চয় কৰে"
-      },
-      {
         "en": "It wastes water",
         "as": "ই পানী নষ্ট কৰে"
       },
@@ -9259,11 +9255,15 @@
         "as": "ই ক্ষয় বৃদ্ধি কৰে"
       },
       {
+        "en": "It saves water",
+        "as": "ই পানী সঞ্চয় কৰে"
+      },
+      {
         "en": "It harms crops",
         "as": "ই শস্যৰ ক্ষতি কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Drip irrigation saves water.",
       "as": "টোপাল জলসিঞ্চনে পানী সঞ্চয় কৰে।"
@@ -9307,10 +9307,6 @@
     },
     "options": [
       {
-        "en": "It maintains soil fertility",
-        "as": "ই মাটিৰ উৰ্বৰতা ৰাখে"
-      },
-      {
         "en": "It depletes soil",
         "as": "ই মাটি নিঃশেষ কৰে"
       },
@@ -9319,11 +9315,15 @@
         "as": "ই কীট-পতংগ বৃদ্ধি কৰে"
       },
       {
+        "en": "It maintains soil fertility",
+        "as": "ই মাটিৰ উৰ্বৰতা ৰাখে"
+      },
+      {
         "en": "It causes erosion",
         "as": "ই ক্ষয়ৰ সৃষ্টি কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Crop rotation maintains soil fertility.",
       "as": "শস্য পৰ্যায়ক্ৰমণে মাটিৰ উৰ্বৰতা ৰাখে।"
@@ -9337,10 +9337,6 @@
     },
     "options": [
       {
-        "en": "Pulses",
-        "as": "ডাইল"
-      },
-      {
         "en": "Wheat",
         "as": "ঘেঁহু"
       },
@@ -9349,11 +9345,15 @@
         "as": "ধান"
       },
       {
+        "en": "Pulses",
+        "as": "ডাইল"
+      },
+      {
         "en": "Maize",
         "as": "মাকৈ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Pulses fix nitrogen in the soil.",
       "as": "ডাইলে মাটিত নাইট্ৰজেন সংযোজন কৰে।"
@@ -9367,10 +9367,6 @@
     },
     "options": [
       {
-        "en": "growing and ploughing green plants",
-        "as": "সেউজ উদ্ভিদ বঢ়াই হাল বোৱাৰ পৰা"
-      },
-      {
         "en": "burning coal",
         "as": "কয়লা জ্বলোৱাৰ পৰা"
       },
@@ -9379,11 +9375,15 @@
         "as": "খননৰ পৰা"
       },
       {
+        "en": "growing and ploughing green plants",
+        "as": "সেউজ উদ্ভিদ বঢ়াই হাল বোৱাৰ পৰা"
+      },
+      {
         "en": "industrial waste",
         "as": "উদ্যোগিক বৰ্জনৰ পৰা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Green manure comes from green plants ploughed into the soil.",
       "as": "সেউজ সাৰ সেউজ উদ্ভিদ মাটিত হাল বোৱাৰ পৰা পোৱা যায়।"
@@ -9397,10 +9397,6 @@
     },
     "options": [
       {
-        "en": "Compost",
-        "as": "খতিয়ক সাৰ"
-      },
-      {
         "en": "Urea",
         "as": "ইউৰিয়া"
       },
@@ -9409,11 +9405,15 @@
         "as": "ডিএপি"
       },
       {
+        "en": "Compost",
+        "as": "খতিয়ক সাৰ"
+      },
+      {
         "en": "Ammonium sulphate",
         "as": "এম'নিয়াম ছালফেট"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Compost is an organic fertilizer.",
       "as": "খতিয়ক সাৰ এটা জৈৱিক সাৰ।"
@@ -9427,10 +9427,6 @@
     },
     "options": [
       {
-        "en": "soil and water pollution",
-        "as": "মাটি আৰু পানী প্ৰদূষণ"
-      },
-      {
         "en": "cleaner soil",
         "as": "অধিক পৰিষ্কাৰ মাটি"
       },
@@ -9439,11 +9435,15 @@
         "as": "অধিক বনাঞ্চল"
       },
       {
+        "en": "soil and water pollution",
+        "as": "মাটি আৰু পানী প্ৰদূষণ"
+      },
+      {
         "en": "less erosion",
         "as": "কম ক্ষয়"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Excessive chemical fertilizers pollute soil and water.",
       "as": "ৰাসায়নিক সাৰৰ অত্যধিক ব্যৱহাৰে মাটি আৰু পানী প্ৰদূষিত কৰে।"
@@ -9457,12 +9457,12 @@
     },
     "options": [
       {
-        "en": "Nitrous oxide",
-        "as": "নাইট্ৰাছ অক্সাইড"
-      },
-      {
         "en": "Oxygen",
         "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrous oxide",
+        "as": "নাইট্ৰাছ অক্সাইড"
       },
       {
         "en": "Nitrogen",
@@ -9473,7 +9473,7 @@
         "as": "হিলিয়াম"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Chemical fertilizers emit nitrous oxide.",
       "as": "ৰাসায়নিক সাৰে নাইট্ৰাছ অক্সাইড নিৰ্গত কৰে।"
@@ -9487,12 +9487,12 @@
     },
     "options": [
       {
-        "en": "Biogas",
-        "as": "বায়'গেছ"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
+      },
+      {
+        "en": "Biogas",
+        "as": "বায়'গেছ"
       },
       {
         "en": "Petroleum",
@@ -9503,7 +9503,7 @@
         "as": "ডিজেল"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Biogas is produced from agricultural waste.",
       "as": "বায়'গেছ কৃষি বৰ্জনৰ পৰা উৎপাদিত হয়।"
@@ -9517,12 +9517,12 @@
     },
     "options": [
       {
-        "en": "They provide clean fuel and manure",
-        "as": "সিয়ে পৰিষ্কাৰ ইন্ধন আৰু সাৰ প্ৰদান কৰে"
-      },
-      {
         "en": "They pollute the air",
         "as": "সিয়ে বায়ু প্ৰদূষিত কৰে"
+      },
+      {
+        "en": "They provide clean fuel and manure",
+        "as": "সিয়ে পৰিষ্কাৰ ইন্ধন আৰু সাৰ প্ৰদান কৰে"
       },
       {
         "en": "They need more coal",
@@ -9533,7 +9533,7 @@
         "as": "সিয়ে বৰ্জন নষ্ট কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Biogas plants provide clean fuel and manure.",
       "as": "বায়'গেছ কেন্দ্ৰই পৰিষ্কাৰ ইন্ধন আৰু সাৰ প্ৰদান কৰে।"
@@ -9547,10 +9547,6 @@
     },
     "options": [
       {
-        "en": "Biomass energy",
-        "as": "জৈৱ-ভৰ শক্তি"
-      },
-      {
         "en": "Coal energy",
         "as": "কয়লা শক্তি"
       },
@@ -9559,11 +9555,15 @@
         "as": "পাৰমাণৱিক শক্তি"
       },
       {
+        "en": "Biomass energy",
+        "as": "জৈৱ-ভৰ শক্তি"
+      },
+      {
         "en": "Diesel energy",
         "as": "ডিজেল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Biomass energy uses crop waste.",
       "as": "জৈৱ-ভৰ শক্তিয়ে শস্যৰ বৰ্জন ব্যৱহাৰ কৰে।"
@@ -9577,10 +9577,6 @@
     },
     "options": [
       {
-        "en": "Promoting electric vehicles",
-        "as": "বিদ্যুৎচালিত বাহন প্ৰসাৰ"
-      },
-      {
         "en": "Increasing diesel vehicles",
         "as": "ডিজেল বাহন বৃদ্ধি"
       },
@@ -9591,9 +9587,13 @@
       {
         "en": "Removing trees",
         "as": "গছ আঁতৰোৱা"
+      },
+      {
+        "en": "Promoting electric vehicles",
+        "as": "বিদ্যুৎচালিত বাহন প্ৰসাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Electric vehicles reduce air pollution.",
       "as": "বিদ্যুৎচালিত বাহনে বায়ু প্ৰদূষণ হ্ৰাস কৰে।"
@@ -9637,10 +9637,6 @@
     },
     "options": [
       {
-        "en": "environmentally friendly",
-        "as": "পৰিৱেশ-বান্ধৱী"
-      },
-      {
         "en": "highly polluting",
         "as": "অতি প্ৰদূষণকাৰী"
       },
@@ -9649,11 +9645,15 @@
         "as": "শব্দকৰ"
       },
       {
+        "en": "environmentally friendly",
+        "as": "পৰিৱেশ-বান্ধৱী"
+      },
+      {
         "en": "fuel-intensive",
         "as": "ইন্ধন-নিবিড়"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Green mobility is environmentally friendly transport.",
       "as": "সেউজ গতিশীলতা পৰিৱেশ-বান্ধৱী পৰিবহন।"
@@ -9667,12 +9667,12 @@
     },
     "options": [
       {
-        "en": "Hydroelectric power",
-        "as": "জলবিদ্যুৎ শক্তি"
-      },
-      {
         "en": "Solar power only",
         "as": "কেৱল সৌৰ শক্তি"
+      },
+      {
+        "en": "Hydroelectric power",
+        "as": "জলবিদ্যুৎ শক্তি"
       },
       {
         "en": "Wind power only",
@@ -9683,7 +9683,7 @@
         "as": "ভূ-তাপীয় শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Hydroelectric power is abundant due to heavy rainfall.",
       "as": "অতিৰিক্ত বৰষুণৰ বাবে জলবিদ্যুৎ শক্তি প্ৰচুৰ।"
@@ -9697,10 +9697,6 @@
     },
     "options": [
       {
-        "en": "flood control and water resources",
-        "as": "বানপানী নিয়ন্ত্ৰণ আৰু জল সম্পদ"
-      },
-      {
         "en": "tea production",
         "as": "চাহ উৎপাদন"
       },
@@ -9709,11 +9705,15 @@
         "as": "পাট উৎপাদন"
       },
       {
+        "en": "flood control and water resources",
+        "as": "বানপানী নিয়ন্ত্ৰণ আৰু জল সম্পদ"
+      },
+      {
         "en": "oil refining",
         "as": "তেল শোধন"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Brahmaputra Board deals with flood control and water resources.",
       "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ডে বানপানী নিয়ন্ত্ৰণ আৰু জল সম্পদৰ সৈতে কাম কৰে।"
@@ -9727,12 +9727,12 @@
     },
     "options": [
       {
-        "en": "Displacement and habitat loss",
-        "as": "উচ্ছেদ আৰু বাসস্থানৰ ক্ষতি"
-      },
-      {
         "en": "More forests",
         "as": "অধিক বনাঞ্চল"
+      },
+      {
+        "en": "Displacement and habitat loss",
+        "as": "উচ্ছেদ আৰু বাসস্থানৰ ক্ষতি"
       },
       {
         "en": "Less flooding downstream",
@@ -9743,7 +9743,7 @@
         "as": "অধিক পৰিষ্কাৰ নদী"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Large dams cause displacement and habitat loss.",
       "as": "বৃহৎ বান্ধে উচ্ছেদ আৰু বাসস্থানৰ ক্ষতি কৰে।"
@@ -9757,12 +9757,12 @@
     },
     "options": [
       {
-        "en": "Narmada Bachao Andolan",
-        "as": "নৰ্মদা বচাও আন্দোলন"
-      },
-      {
         "en": "Chipko Movement",
         "as": "চিপক' আন্দোলন"
+      },
+      {
+        "en": "Narmada Bachao Andolan",
+        "as": "নৰ্মদা বচাও আন্দোলন"
       },
       {
         "en": "Appiko Movement",
@@ -9773,7 +9773,7 @@
         "as": "চাইলেণ্ট ভেলী আন্দোলন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The Narmada Bachao Andolan opposed large dams.",
       "as": "নৰ্মদা বচাও আন্দোলনে বৃহৎ বান্ধৰ বিৰোধিতা কৰিছিল।"
@@ -9817,12 +9817,12 @@
     },
     "options": [
       {
-        "en": "Waste-to-energy",
-        "as": "বৰ্জন-পৰা-শক্তি"
-      },
-      {
         "en": "Coal power",
         "as": "কয়লা শক্তি"
+      },
+      {
+        "en": "Waste-to-energy",
+        "as": "বৰ্জন-পৰা-শক্তি"
       },
       {
         "en": "Nuclear power",
@@ -9833,7 +9833,7 @@
         "as": "ডিজেল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Waste-to-energy uses organic waste.",
       "as": "বৰ্জন-পৰা-শক্তিয়ে জৈৱিক বৰ্জন ব্যৱহাৰ কৰে।"
@@ -9847,10 +9847,6 @@
     },
     "options": [
       {
-        "en": "They reduce landfill waste",
-        "as": "সিয়ে লেণ্ডফিল বৰ্জন হ্ৰাস কৰে"
-      },
-      {
         "en": "They increase waste",
         "as": "সিয়ে বৰ্জন বৃদ্ধি কৰে"
       },
@@ -9861,9 +9857,13 @@
       {
         "en": "They need more land",
         "as": "সিয়ে অধিক মাটি লাগে"
+      },
+      {
+        "en": "They reduce landfill waste",
+        "as": "সিয়ে লেণ্ডফিল বৰ্জন হ্ৰাস কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "They reduce landfill waste.",
       "as": "সিয়ে লেণ্ডফিল বৰ্জন হ্ৰাস কৰে।"
@@ -9877,10 +9877,6 @@
     },
     "options": [
       {
-        "en": "Promoting public transport and green spaces",
-        "as": "ৰাজহুৱা পৰিবহন আৰু সেউজ স্থান প্ৰসাৰ"
-      },
-      {
         "en": "Increasing private vehicles",
         "as": "ব্যক্তিগত বাহন বৃদ্ধি"
       },
@@ -9891,9 +9887,13 @@
       {
         "en": "Building on wetlands",
         "as": "জলাহত নিৰ্মাণ"
+      },
+      {
+        "en": "Promoting public transport and green spaces",
+        "as": "ৰাজহুৱা পৰিবহন আৰু সেউজ স্থান প্ৰসাৰ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Public transport and green spaces make cities sustainable.",
       "as": "ৰাজহুৱা পৰিবহন আৰু সেউজ স্থানে চহৰ স্থায়ী কৰে।"
@@ -9907,10 +9907,6 @@
     },
     "options": [
       {
-        "en": "They improve air quality",
-        "as": "সিয়ে বায়ুৰ গুণাগুণ উন্নত কৰে"
-      },
-      {
         "en": "They increase pollution",
         "as": "সিয়ে প্ৰদূষণ বৃদ্ধি কৰে"
       },
@@ -9921,9 +9917,13 @@
       {
         "en": "They increase heat",
         "as": "সিয়ে তাপ বৃদ্ধি কৰে"
+      },
+      {
+        "en": "They improve air quality",
+        "as": "সিয়ে বায়ুৰ গুণাগুণ উন্নত কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Urban green spaces improve air quality.",
       "as": "চহৰীয়া সেউজ স্থানে বায়ুৰ গুণাগুণ উন্নত কৰে।"
@@ -9937,10 +9937,6 @@
     },
     "options": [
       {
-        "en": "concrete surfaces and less vegetation",
-        "as": "কংক্ৰিটৰ পৃষ্ঠ আৰু কম উদ্ভিদ"
-      },
-      {
         "en": "more trees",
         "as": "অধিক গছ"
       },
@@ -9951,9 +9947,13 @@
       {
         "en": "more forests",
         "as": "অধিক বনাঞ্চল"
+      },
+      {
+        "en": "concrete surfaces and less vegetation",
+        "as": "কংক্ৰিটৰ পৃষ্ঠ আৰু কম উদ্ভিদ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "It is caused by concrete surfaces and less vegetation.",
       "as": "ই কংক্ৰিটৰ পৃষ্ঠ আৰু কম উদ্ভিদৰ বাবে হয়।"
@@ -9967,10 +9967,6 @@
     },
     "options": [
       {
-        "en": "urban heat island effect",
-        "as": "চহৰীয়া তাপ দ্বীপ প্ৰভাৱ"
-      },
-      {
         "en": "rainfall",
         "as": "বৰষুণ"
       },
@@ -9979,11 +9975,15 @@
         "as": "মাটিৰ উৰ্বৰতা"
       },
       {
+        "en": "urban heat island effect",
+        "as": "চহৰীয়া তাপ দ্বীপ প্ৰভাৱ"
+      },
+      {
         "en": "water table",
         "as": "ভূগৰ্ভস্থ জলস্তৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Trees reduce the urban heat island effect.",
       "as": "গছে চহৰীয়া তাপ দ্বীপ প্ৰভাৱ হ্ৰাস কৰে।"
@@ -9997,10 +9997,6 @@
     },
     "options": [
       {
-        "en": "Geothermal energy",
-        "as": "ভূ-তাপীয় শক্তি"
-      },
-      {
         "en": "Solar energy",
         "as": "সৌৰ শক্তি"
       },
@@ -10009,11 +10005,15 @@
         "as": "বতাহ শক্তি"
       },
       {
+        "en": "Geothermal energy",
+        "as": "ভূ-তাপীয় শক্তি"
+      },
+      {
         "en": "Tidal energy",
         "as": "জোৱাৰ-ভাটা শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Geothermal energy does not depend on weather.",
       "as": "ভূ-তাপীয় শক্তি বতৰৰ ওপৰত নিৰ্ভৰশীল নহয়।"
@@ -10057,10 +10057,6 @@
     },
     "options": [
       {
-        "en": "Loss of forest cover",
-        "as": "বনাঞ্চলৰ আৱৰণৰ ক্ষতি"
-      },
-      {
         "en": "Increase in forests",
         "as": "বনাঞ্চল বৃদ্ধি"
       },
@@ -10069,11 +10065,15 @@
         "as": "অধিক পৰিষ্কাৰ নদী"
       },
       {
+        "en": "Loss of forest cover",
+        "as": "বনাঞ্চলৰ আৱৰণৰ ক্ষতি"
+      },
+      {
         "en": "More wildlife",
         "as": "অধিক বন্যপ্ৰাণী"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Loss of forest cover indicates environmental degradation.",
       "as": "বনাঞ্চলৰ আৱৰণৰ ক্ষতিয়ে পৰিৱেশ অৱক্ষয় সূচায়।"
@@ -10087,10 +10087,6 @@
     },
     "options": [
       {
-        "en": "forest cover",
-        "as": "বনাঞ্চলৰ আৱৰণ"
-      },
-      {
         "en": "air quality",
         "as": "বায়ুৰ গুণাগুণ"
       },
@@ -10101,9 +10097,13 @@
       {
         "en": "wildlife count",
         "as": "বন্যপ্ৰাণীৰ সংখ্যা"
+      },
+      {
+        "en": "forest cover",
+        "as": "বনাঞ্চলৰ আৱৰণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "It publishes a report on forest cover.",
       "as": "ই বনাঞ্চলৰ আৱৰণৰ ওপৰত প্ৰতিবেদন প্ৰকাশ কৰে।"
@@ -10117,10 +10117,6 @@
     },
     "options": [
       {
-        "en": "Tropical moist deciduous forest",
-        "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন"
-      },
-      {
         "en": "Desert forest",
         "as": "মৰুভূমি বন"
       },
@@ -10131,9 +10127,13 @@
       {
         "en": "Mangrove forest",
         "as": "মেনগ্ৰ'ভ বন"
+      },
+      {
+        "en": "Tropical moist deciduous forest",
+        "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Tropical moist deciduous forest is the largest forest type in Assam.",
       "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন অসমৰ সৰ্ববৃহৎ বনৰ প্ৰকাৰ।"
@@ -10147,12 +10147,12 @@
     },
     "options": [
       {
-        "en": "Illegal logging and encroachment",
-        "as": "অবৈধ কাঠ কটা আৰু অধিগ্ৰহণ"
-      },
-      {
         "en": "Afforestation",
         "as": "বনৰোপণ"
+      },
+      {
+        "en": "Illegal logging and encroachment",
+        "as": "অবৈধ কাঠ কটা আৰু অধিগ্ৰহণ"
       },
       {
         "en": "Conservation",
@@ -10163,7 +10163,7 @@
         "as": "যুটীয়া বন ব্যৱস্থাপনা"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Illegal logging and encroachment degrade forests.",
       "as": "অবৈধ কাঠ কটা আৰু অধিগ্ৰহণে বনাঞ্চল অৱক্ষয় কৰে।"
@@ -10177,12 +10177,12 @@
     },
     "options": [
       {
-        "en": "It preserves biodiversity",
-        "as": "ই জৈৱবিচিত্ৰতা সংৰক্ষণ কৰে"
-      },
-      {
         "en": "It increases erosion",
         "as": "ই ক্ষয় বৃদ্ধি কৰে"
+      },
+      {
+        "en": "It preserves biodiversity",
+        "as": "ই জৈৱবিচিত্ৰতা সংৰক্ষণ কৰে"
       },
       {
         "en": "It reduces rainfall",
@@ -10193,7 +10193,7 @@
         "as": "ই প্ৰদূষণ বৃদ্ধি কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Protecting forests preserves biodiversity.",
       "as": "বনাঞ্চল সুৰক্ষাই জৈৱবিচিত্ৰতা সংৰক্ষণ কৰে।"
@@ -10207,12 +10207,12 @@
     },
     "options": [
       {
-        "en": "Environmental education",
-        "as": "পৰিৱেশ শিক্ষা"
-      },
-      {
         "en": "Ignoring pollution",
         "as": "প্ৰদূষণ উপেক্ষা"
+      },
+      {
+        "en": "Environmental education",
+        "as": "পৰিৱেশ শিক্ষা"
       },
       {
         "en": "Wasting resources",
@@ -10223,7 +10223,7 @@
         "as": "বন নিধন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Environmental education promotes awareness.",
       "as": "পৰিৱেশ শিক্ষাই সজাগতা প্ৰসাৰ কৰে।"
@@ -10237,10 +10237,6 @@
     },
     "options": [
       {
-        "en": "promoting environmental awareness among students",
-        "as": "শিক্ষাৰ্থীসকলৰ মাজত পৰিৱেশ সজাগতা প্ৰসাৰ"
-      },
-      {
         "en": "promoting pollution",
         "as": "প্ৰদূষণ প্ৰসাৰ"
       },
@@ -10249,11 +10245,15 @@
         "as": "গছ কটা"
       },
       {
+        "en": "promoting environmental awareness among students",
+        "as": "শিক্ষাৰ্থীসকলৰ মাজত পৰিৱেশ সজাগতা প্ৰসাৰ"
+      },
+      {
         "en": "wasting water",
         "as": "পানী নষ্ট কৰা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Eco-clubs promote environmental awareness.",
       "as": "ইক'-ক্লাবে পৰিৱেশ সজাগতা প্ৰসাৰ কৰে।"
@@ -10297,10 +10297,6 @@
     },
     "options": [
       {
-        "en": "Article 51A(g)",
-        "as": "অনুচ্ছেদ 51A(g)"
-      },
-      {
         "en": "Article 51A(a)",
         "as": "অনুচ্ছেদ 51A(a)"
       },
@@ -10309,11 +10305,15 @@
         "as": "অনুচ্ছেদ 51A(b)"
       },
       {
+        "en": "Article 51A(g)",
+        "as": "অনুচ্ছেদ 51A(g)"
+      },
+      {
         "en": "Article 51A(c)",
         "as": "অনুচ্ছেদ 51A(c)"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Article 51A(g) asks citizens to protect the environment.",
       "as": "অনুচ্ছেদ 51A(g) এ নাগৰিকক পৰিৱেশ সুৰক্ষা কৰিবলৈ কয়।"
@@ -10327,10 +10327,6 @@
     },
     "options": [
       {
-        "en": "Article 48A",
-        "as": "অনুচ্ছেদ ৪৮A"
-      },
-      {
         "en": "Article 51A",
         "as": "অনুচ্ছেদ 51A"
       },
@@ -10339,11 +10335,15 @@
         "as": "অনুচ্ছেদ ৪৭"
       },
       {
+        "en": "Article 48A",
+        "as": "অনুচ্ছেদ ৪৮A"
+      },
+      {
         "en": "Article 40",
         "as": "অনুচ্ছেদ ৪০"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Article 48A directs the State to protect the environment.",
       "as": "অনুচ্ছেদ ৪৮A ৰাজ্যক পৰিৱেশ সুৰক্ষাৰ নিৰ্দেশ দিয়ে।"
@@ -10357,12 +10357,12 @@
     },
     "options": [
       {
-        "en": "efficiently and without waste",
-        "as": "দক্ষতাৰে আৰু অপচয় নকৰি"
-      },
-      {
         "en": "wastefully",
         "as": "অপচয়কৈ"
+      },
+      {
+        "en": "efficiently and without waste",
+        "as": "দক্ষতাৰে আৰু অপচয় নকৰি"
       },
       {
         "en": "all at once",
@@ -10373,7 +10373,7 @@
         "as": "সীমাহীনভাৱে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Sustainable consumption means efficient use without waste.",
       "as": "স্থায়ী ভোগ মানে অপচয় নকৰি দক্ষ ব্যৱহাৰ।"
@@ -10417,10 +10417,6 @@
     },
     "options": [
       {
-        "en": "Vellore Citizens Welfare Forum case",
-        "as": "ভেল্লোৰ নাগৰিক কল্যাণ মঞ্চ গোচৰ"
-      },
-      {
         "en": "Kesavananda Bharati case",
         "as": "কেশৱানন্দ ভাৰতী গোচৰ"
       },
@@ -10429,11 +10425,15 @@
         "as": "গোলকনাথ গোচৰ"
       },
       {
+        "en": "Vellore Citizens Welfare Forum case",
+        "as": "ভেল্লোৰ নাগৰিক কল্যাণ মঞ্চ গোচৰ"
+      },
+      {
         "en": "Minerva Mills case",
         "as": "মিনাৰ্ভা মিলছ গোচৰ"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "The Vellore case highlighted the precautionary principle.",
       "as": "ভেল্লোৰ গোচৰে সতৰ্কতা নীতিত গুৰুত্ব দিছিল।"
@@ -10507,10 +10507,6 @@
     },
     "options": [
       {
-        "en": "pollution",
-        "as": "প্ৰদূষণ"
-      },
-      {
         "en": "deforestation",
         "as": "বন নিধন"
       },
@@ -10521,9 +10517,13 @@
       {
         "en": "salinity",
         "as": "লৱণতা"
+      },
+      {
+        "en": "pollution",
+        "as": "প্ৰদূষণ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "They face severe pollution.",
       "as": "সিয়ে গুৰুতৰ প্ৰদূষণৰ সন্মুখীন হয়।"
@@ -10537,10 +10537,6 @@
     },
     "options": [
       {
-        "en": "Untreated industrial and domestic waste",
-        "as": "অপৰিশোধিত উদ্যোগিক আৰু ঘৰুৱা বৰ্জন"
-      },
-      {
         "en": "Rainwater",
         "as": "বৰষুণৰ পানী"
       },
@@ -10551,9 +10547,13 @@
       {
         "en": "Boating",
         "as": "নাও চলোৱা"
+      },
+      {
+        "en": "Untreated industrial and domestic waste",
+        "as": "অপৰিশোধিত উদ্যোগিক আৰু ঘৰুৱা বৰ্জন"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Untreated waste is a major source of pollution.",
       "as": "অপৰিশোধিত বৰ্জন প্ৰদূষণৰ এটা প্ৰধান উৎস।"
@@ -10567,10 +10567,6 @@
     },
     "options": [
       {
-        "en": "clean up the Ganga",
-        "as": "গঙ্গা পৰিষ্কাৰ কৰা"
-      },
-      {
         "en": "build dams",
         "as": "বান্ধ নিৰ্মাণ"
       },
@@ -10579,11 +10575,15 @@
         "as": "প্ৰদূষণ বৃদ্ধি"
       },
       {
+        "en": "clean up the Ganga",
+        "as": "গঙ্গা পৰিষ্কাৰ কৰা"
+      },
+      {
         "en": "mine sand",
         "as": "বালি খনন"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "It was set up to clean up the Ganga.",
       "as": "ই গঙ্গা পৰিষ্কাৰ কৰিবলৈ গঠন কৰা হৈছিল।"
@@ -10597,10 +10597,6 @@
     },
     "options": [
       {
-        "en": "They support biodiversity and recharge groundwater",
-        "as": "সিয়ে জৈৱবিচিত্ৰতা সমৰ্থন কৰে আৰু ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ কৰে"
-      },
-      {
         "en": "They increase floods",
         "as": "সিয়ে বানপানী বৃদ্ধি কৰে"
       },
@@ -10609,11 +10605,15 @@
         "as": "সিয়ে বৰষুণ হ্ৰাস কৰে"
       },
       {
+        "en": "They support biodiversity and recharge groundwater",
+        "as": "সিয়ে জৈৱবিচিত্ৰতা সমৰ্থন কৰে আৰু ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ কৰে"
+      },
+      {
         "en": "They pollute water",
         "as": "সিয়ে পানী প্ৰদূষিত কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Wetlands support biodiversity and recharge groundwater.",
       "as": "জলাহে জৈৱবিচিত্ৰতা সমৰ্থন কৰে আৰু ভূগৰ্ভস্থ পানী পুনৰ্ভৰণ কৰে।"
@@ -10627,12 +10627,12 @@
     },
     "options": [
       {
-        "en": "2 February",
-        "as": "২ ফেব্ৰুৱাৰী"
-      },
-      {
         "en": "2 March",
         "as": "২ মাৰ্চ"
+      },
+      {
+        "en": "2 February",
+        "as": "২ ফেব্ৰুৱাৰী"
       },
       {
         "en": "2 April",
@@ -10643,7 +10643,7 @@
         "as": "২ মে'"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "World Wetlands Day is observed on 2 February.",
       "as": "বিশ্ব জলাহ দিৱস ২ ফেব্ৰুৱাৰীত পালন কৰা হয়।"
@@ -10717,10 +10717,6 @@
     },
     "options": [
       {
-        "en": "They support marine biodiversity",
-        "as": "সিয়ে সাগৰীয় জৈৱবিচিত্ৰতা সমৰ্থন কৰে"
-      },
-      {
         "en": "They cause pollution",
         "as": "সিয়ে প্ৰদূষণ কৰে"
       },
@@ -10729,11 +10725,15 @@
         "as": "সিয়ে মাছ হ্ৰাস কৰে"
       },
       {
+        "en": "They support marine biodiversity",
+        "as": "সিয়ে সাগৰীয় জৈৱবিচিত্ৰতা সমৰ্থন কৰে"
+      },
+      {
         "en": "They increase erosion",
         "as": "সিয়ে ক্ষয় বৃদ্ধি কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Coral reefs support marine biodiversity.",
       "as": "প্ৰবাল প্ৰাচীৰে সাগৰীয় জৈৱবিচিত্ৰতা সমৰ্থন কৰে।"
@@ -10777,10 +10777,6 @@
     },
     "options": [
       {
-        "en": "Timber",
-        "as": "কাঠ"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
       },
@@ -10791,9 +10787,13 @@
       {
         "en": "Natural gas",
         "as": "প্ৰাকৃতিক গেছ"
+      },
+      {
+        "en": "Timber",
+        "as": "কাঠ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Timber is a renewable resource.",
       "as": "কাঠ এক নবীকৰণযোগ্য সম্পদ।"
@@ -10837,10 +10837,6 @@
     },
     "options": [
       {
-        "en": "Bamboo",
-        "as": "বাঁহ"
-      },
-      {
         "en": "Coal",
         "as": "কয়লা"
       },
@@ -10851,9 +10847,13 @@
       {
         "en": "Petroleum",
         "as": "পেট্ৰ'লিয়াম"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Bamboo is an important non-timber forest product.",
       "as": "বাঁহ এটা গুৰুত্বপূৰ্ণ অ-কাঠ বনজ সামগ্ৰী।"
@@ -10867,12 +10867,12 @@
     },
     "options": [
       {
-        "en": "Sarpagandha",
-        "as": "সৰ্পগন্ধা"
-      },
-      {
         "en": "Tea",
         "as": "চাহ"
+      },
+      {
+        "en": "Sarpagandha",
+        "as": "সৰ্পগন্ধা"
       },
       {
         "en": "Rice",
@@ -10883,7 +10883,7 @@
         "as": "ঘেঁহু"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Sarpagandha is a medicinal plant found in Assam's forests.",
       "as": "সৰ্পগন্ধা অসমৰ বনাঞ্চলত পোৱা এটা ঔষধি উদ্ভিদ।"
@@ -10897,10 +10897,6 @@
     },
     "options": [
       {
-        "en": "Buying only what is needed",
-        "as": "প্ৰয়োজনীয়খিনি কেৱল কিনা"
-      },
-      {
         "en": "Buying excess food",
         "as": "অতিরিক্ত খাদ্য কিনা"
       },
@@ -10909,11 +10905,15 @@
         "as": "খাদ্য পেলোৱা"
       },
       {
+        "en": "Buying only what is needed",
+        "as": "প্ৰয়োজনীয়খিনি কেৱল কিনা"
+      },
+      {
         "en": "Wasting leftovers",
         "as": "অৱশিষ্ট নষ্ট কৰা"
       }
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": {
       "en": "Buying only what is needed reduces food waste.",
       "as": "প্ৰয়োজনীয়খিনি কেৱল কিনিলে খাদ্য অপচয় হ্ৰাস হয়।"
@@ -10927,12 +10927,12 @@
     },
     "options": [
       {
-        "en": "It conserves resources and reduces emissions",
-        "as": "ই সম্পদ সংৰক্ষণ কৰে আৰু নিৰ্গমন হ্ৰাস কৰে"
-      },
-      {
         "en": "It increases emissions",
         "as": "ই নিৰ্গমন বৃদ্ধি কৰে"
+      },
+      {
+        "en": "It conserves resources and reduces emissions",
+        "as": "ই সম্পদ সংৰক্ষণ কৰে আৰু নিৰ্গমন হ্ৰাস কৰে"
       },
       {
         "en": "It wastes water",
@@ -10943,7 +10943,7 @@
         "as": "ই প্ৰদূষণ বৃদ্ধি কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Reducing food waste conserves resources and reduces emissions.",
       "as": "খাদ্য অপচয় হ্ৰাসে সম্পদ সংৰক্ষণ কৰে আৰু নিৰ্গমন হ্ৰাস কৰে।"
@@ -10987,12 +10987,12 @@
     },
     "options": [
       {
-        "en": "14 December",
-        "as": "১৪ ডিচেম্বৰ"
-      },
-      {
         "en": "14 January",
         "as": "১৪ জানুৱাৰী"
+      },
+      {
+        "en": "14 December",
+        "as": "১৪ ডিচেম্বৰ"
       },
       {
         "en": "14 March",
@@ -11003,7 +11003,7 @@
         "as": "১৪ জুন"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Energy Conservation Day is observed on 14 December.",
       "as": "শক্তি সংৰক্ষণ দিৱস ১৪ ডিচেম্বৰত পালন কৰা হয়।"
@@ -11047,12 +11047,12 @@
     },
     "options": [
       {
-        "en": "Solar energy",
-        "as": "সৌৰ শক্তি"
-      },
-      {
         "en": "Coal energy",
         "as": "কয়লা শক্তি"
+      },
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
       },
       {
         "en": "Nuclear energy",
@@ -11063,7 +11063,7 @@
         "as": "ডিজেল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "The National Solar Mission promotes solar energy.",
       "as": "ৰাষ্ট্ৰীয় সৌৰ মিছনে সৌৰ শক্তি প্ৰসাৰ কৰে।"
@@ -11077,10 +11077,6 @@
     },
     "options": [
       {
-        "en": "They save electricity",
-        "as": "সিয়ে বিদ্যুৎ সঞ্চয় কৰে"
-      },
-      {
         "en": "They use more electricity",
         "as": "সিয়ে অধিক বিদ্যুৎ ব্যৱহাৰ কৰে"
       },
@@ -11091,9 +11087,13 @@
       {
         "en": "They need coal",
         "as": "সিয়ে কয়লা লাগে"
+      },
+      {
+        "en": "They save electricity",
+        "as": "সিয়ে বিদ্যুৎ সঞ্চয় কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Solar water heaters save electricity.",
       "as": "সৌৰ জল-তাপকে বিদ্যুৎ সঞ্চয় কৰে।"
@@ -11107,12 +11107,12 @@
     },
     "options": [
       {
-        "en": "GRIHA",
-        "as": "গ্ৰীহ"
-      },
-      {
         "en": "ISO 9001",
         "as": "আইএছঅ' ৯০০১"
+      },
+      {
+        "en": "GRIHA",
+        "as": "গ্ৰীহ"
       },
       {
         "en": "ISI",
@@ -11123,7 +11123,7 @@
         "as": "এজিমাৰ্ক"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "GRIHA is a green building certification in India.",
       "as": "গ্ৰীহ ভাৰতত এটা সেউজ ভৱন প্ৰমাণপত্ৰ।"
@@ -11137,12 +11137,12 @@
     },
     "options": [
       {
-        "en": "Solar energy",
-        "as": "সৌৰ শক্তি"
-      },
-      {
         "en": "Coal energy",
         "as": "কয়লা শক্তি"
+      },
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
       },
       {
         "en": "Nuclear energy",
@@ -11153,7 +11153,7 @@
         "as": "ডিজেল শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "Solar energy powers many street lights.",
       "as": "সৌৰ শক্তিয়ে বহু পথৰ পোহৰ চলায়।"
@@ -11257,10 +11257,6 @@
     },
     "options": [
       {
-        "en": "Wind energy",
-        "as": "বতাহ শক্তি"
-      },
-      {
         "en": "Coal energy",
         "as": "কয়লা শক্তি"
       },
@@ -11271,9 +11267,13 @@
       {
         "en": "Diesel energy",
         "as": "ডিজেল শক্তি"
+      },
+      {
+        "en": "Wind energy",
+        "as": "বতাহ শক্তি"
       }
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": {
       "en": "Wind energy uses the movement of air.",
       "as": "বতাহ শক্তিয়ে বায়ুৰ গতিবিধি ব্যৱহাৰ কৰে।"
@@ -11287,12 +11287,12 @@
     },
     "options": [
       {
-        "en": "It promotes sustainable growth and jobs",
-        "as": "ই স্থায়ী বৃদ্ধি আৰু কৰ্মসংস্থান প্ৰসাৰ কৰে"
-      },
-      {
         "en": "It increases pollution",
         "as": "ই প্ৰদূষণ বৃদ্ধি কৰে"
+      },
+      {
+        "en": "It promotes sustainable growth and jobs",
+        "as": "ই স্থায়ী বৃদ্ধি আৰু কৰ্মসংস্থান প্ৰসাৰ কৰে"
       },
       {
         "en": "It depletes resources",
@@ -11303,7 +11303,7 @@
         "as": "ই স্বাস্থ্যৰ ক্ষতি কৰে"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
       "en": "A green economy promotes sustainable growth and jobs.",
       "as": "সেউজ অৰ্থনীতিয়ে স্থায়ী বৃদ্ধি আৰু কৰ্মসংস্থান প্ৰসাৰ কৰে।"
