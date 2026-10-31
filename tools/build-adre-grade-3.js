@@ -426,10 +426,13 @@ for (const item of leaves) {
     jsonld: jsonld({ canonical: examCanonical, title, desc, crumbs }),
   });
   const cards = EXAM.sections.map((s) => `        <a class="sub-card reveal" data-exam-subcats href="${examPath}/${s.id}/" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;"><b style="color:var(--ink,#0f172a);">${esc(lang(s.title, "en"))}</b><span style="display:block; color:var(--ink-muted,#64748b); font-size:0.86rem;">${esc(lang(s.title, "as"))}</span></a>`).join("\n");
+  const bookTotal = leaves.reduce((a, l) => a + (QUESTIONS[l.leaf.id] || []).length, 0);
+  const bookTotalLabel = `${bookTotal.toLocaleString("en-IN")} questions available in this book &bull; ${bookTotal.toLocaleString("en-IN")} টা প্ৰশ্ন এই পুথিত উপলব্ধ`;
   const mainHTML = `    <div class="page-head">
       ${breadcrumbHTML(crumbs)}
       <h1>${esc(lang(EXAM.title, "en"))}</h1>
       <p class="page-desc">${esc(lang(EXAM.subtitle, "as"))} &bull; ${esc(lang(EXAM.title, "as"))}</p>
+      <p class="exam-book-total">${bookTotalLabel}</p>
     </div>
 
     <section class="section" data-exam-subcats style="padding-bottom:40px;">

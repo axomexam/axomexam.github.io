@@ -2182,6 +2182,13 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   color: var(--ink, #0f172a);
 }
 
+/* Total question count for the exam book, above the "What you will prepare" line */
+.exam-book-total {
+  margin: 14px 0 0; font-size: .92rem; font-weight: 700;
+  color: var(--ink-soft, #475569);
+}
+.exam-book-total[hidden] { display: none; }
+
 /* Search box on the exam library page */
 .exams-search-wrap {
   position: relative; max-width: 440px; margin: 14px auto 0;

@@ -4703,6 +4703,42 @@
     }));
   }
 
+  /* Total questions in one exam book, from the precomputed manifest when
+     available, otherwise by walking the book live. */
+  async function examBookQuestionCount(exam) {
+    if (!exam) return 0;
+    const precomputed = state.counts && state.counts.examSectionCounts;
+    if (precomputed) {
+      let sum = 0;
+      let seen = false;
+      Object.keys(precomputed).forEach((key) => {
+        const parts = key.split("/");
+        if (parts[0] !== exam.id) return;
+        if (parts.length !== 2) return;
+        const sec = (exam.sections || []).find((s) => s.id === parts[1]);
+        if (!sec || sec.type === "syllabus") return;
+        seen = true;
+        sum += Number(precomputed[key]) || 0;
+      });
+      if (seen) return sum;
+    }
+    const sections = (exam.sections || []).filter((s) => s.type !== "syllabus");
+    const counts = await Promise.all(
+      sections.map((s) => examSectionQuestionCount(exam.id, s).catch(() => 0))
+    );
+    return counts.reduce((a, b) => a + b, 0);
+  }
+
+  async function hydrateExamBookTotal(scope, exam) {
+    const el = scope && scope.querySelector(".exam-book-total");
+    if (!el) return;
+    const n = await examBookQuestionCount(exam);
+    if (!n) return;
+    const num = n.toLocaleString("en-IN");
+    el.textContent = `${num} ${t("exams.totalQuestions")}`;
+    el.hidden = false;
+  }
+
   /* Recompute the homepage hero counters (used live while counts load). */
   function updateHeroTotals() {
     const totalEl = $("#stat-total-questions");
@@ -4856,6 +4892,7 @@
           <div class="exam-cover-hero-info">
             <h1>${titleHTML}</h1>
             <p class="page-desc">${descHTML}</p>
+            <p class="exam-book-total" hidden></p>
             <p class="exams-choose">${t("exams.subjects")}</p>
           </div>
         </section>`
@@ -4863,6 +4900,7 @@
           <nav class="breadcrumb">${crumbHTML}</nav>
           <h1>${titleHTML}</h1>
           <p class="page-desc">${descHTML}</p>
+          <p class="exam-book-total" hidden></p>
           <p class="exams-choose">${t("exams.subjects")}</p>
         </div>`;
     main.innerHTML = `
@@ -4874,6 +4912,7 @@
       </section>`;
     observeReveals();
     hydrateExamCardCounts(main, exam);
+    hydrateExamBookTotal(main, exam);
   }
 
   /* Options list for an exam question — same 4-option view as the practice section. */

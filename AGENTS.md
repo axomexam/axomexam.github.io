@@ -168,11 +168,23 @@ After a content change, run the pipeline in this order and commit the result:
 ```
 node tools/build-adre-grade-3.js
 node tools/build-question-counts.js
+node tools/sync-exam-book-totals.js
 node tools/sync-home-hero-count.js
 node tools/inject-static-questions.js
 node tools/enrich-thin-pages.js
 node tools/extract-deep-articles.js
 ```
+
+`tools/sync-exam-book-totals.js` writes the book's total question count
+("14,932 questions available in this book") into each exam landing page,
+just above the "What you will prepare" heading. The number is the sum of that
+book's top-level `examSectionCounts` entries in `data/counts.json` (syllabus
+sections carry no questions), so it matches the runtime and stays correct
+when questions are added. The client-side render in `js/app.src.js`
+(`renderExamPage` → `hydrateExamBookTotal`) fills the same line from
+`counts.examSectionCounts` on the live page; the tool keeps the committed
+HTML — what crawlers and no-JS visitors see — in step. Run it right after
+`build-question-counts.js`.
 
 `tools/sync-home-hero-count.js` rewrites the homepage hero block in the
 committed root `index.html` so its question count matches the runtime
