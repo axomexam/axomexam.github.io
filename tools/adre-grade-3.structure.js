@@ -339,9 +339,10 @@ const SYLLABUS = {
    Kept short, factual and unique to the topic so no two pages repeat. */
 const NOTES = require("./adre-grade-3.notes.js");
 const HISTORY_NOTES = require("./adre-grade-3.history-notes.js");
+const ENGLISH_NOTES = require("./adre-grade-3.english-notes.js");
 
-/* History topics carry a longer study article than the base NOTES, so the
-   dedicated module wins wherever it defines a key. */
-const MERGED_NOTES = Object.assign({}, NOTES, HISTORY_NOTES);
+/* History and English topics carry a longer study article than the base NOTES,
+   so the dedicated modules win wherever they define a key. */
+const MERGED_NOTES = Object.assign({}, NOTES, HISTORY_NOTES, ENGLISH_NOTES);
 
 module.exports = { EXAM, SYLLABUS, NOTES: MERGED_NOTES };
