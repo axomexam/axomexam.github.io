@@ -229,6 +229,25 @@ field, a wrong option count, an out-of-range answer or a duplicate question
 text. Always regenerate after editing `tools/history-src/` — never edit the
 generated file by hand.
 
+### Grade III GK question banks
+
+The two "Assam's Culture & Literature" topics (`assam-folk-culture`,
+`assamese-literature`) keep their large banks in `tools/gk-src/`, one file per
+topic, in the same compact row shape as `tools/history-src/`:
+
+```js
+["question en", "question as",
+ ["o1 en","o1 as","o2 en","o2 as","o3 en","o3 as","o4 en","o4 as"],
+ correctIndex, "explanation en", "explanation as"]
+```
+
+Run `node tools/build-gk-questions.js` to expand them into
+`tools/adre-grade-3.questions.gk.js`, which `tools/adre-grade-3.questions.js`
+merges over its inline banks at the end (so the generated banks win for those
+topic ids). Regenerate after editing `tools/gk-src/` — never edit the generated
+file by hand. The generator rejects a row with a missing bilingual field, a
+wrong option count, an out-of-range answer or a duplicate question text.
+
 ### Grade III study-notes articles
 
 `tools/adre-grade-3.notes.js` holds the crawler-facing study article for every
