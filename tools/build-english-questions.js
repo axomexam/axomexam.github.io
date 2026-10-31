@@ -24,7 +24,13 @@ const SRC_DIR = path.join(__dirname, "english-src");
 const OUT = path.join(__dirname, "adre-grade-3.questions.english.js");
 
 const TOPICS = [
+  "articles-determiners",
+  "narration",
   "parts-of-speech",
+  "prepositions",
+  "subject-verb-agreement",
+  "tenses-rules",
+  "voice-change",
 ];
 
 /* Spread the correct answers evenly across A/B/C/D. The source banks are

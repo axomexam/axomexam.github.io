@@ -2,121 +2,1861 @@
   {
     "id": "subject-verb-agreement-001",
     "q": {
-      "en": "The box of apples — heavy.",
-      "as": "আপেলৰ বাকচটো —।"
+      "en": "Choose the correct verb: He ___ to school daily.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: He ___ to school daily."
     },
     "options": [
       {
-        "en": "are",
-        "as": "are"
+        "en": "go",
+        "as": "যায়"
       },
       {
-        "en": "is",
-        "as": "is"
+        "en": "goes",
+        "as": "যায় (goes)"
       },
       {
-        "en": "were",
-        "as": "were"
+        "en": "going",
+        "as": "যোৱা"
       },
       {
-        "en": "have",
-        "as": "have"
+        "en": "gone",
+        "as": "গৈছে"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "The true subject is box, so the singular verb is is correct.",
-      "as": "প্ৰকৃত কৰ্তা box, গতিকে একবচন ক্ৰিয়া is শুদ্ধ।"
+      "en": "A singular subject takes a singular verb: he goes.",
+      "as": "একবচন কৰ্তাই একবচন ক্ৰিয়া লয়: he goes।"
     }
   },
   {
     "id": "subject-verb-agreement-002",
     "q": {
-      "en": "Each of the boys — a book.",
-      "as": "ল'ৰাবোৰৰ প্ৰত্যেকৰ ওচৰত এখন কিতাপ —।"
+      "en": "Choose the correct verb: They ___ in a big house.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: They ___ in a big house."
     },
     "options": [
       {
-        "en": "have",
-        "as": "have"
+        "en": "lives",
+        "as": "বাস কৰে"
       },
       {
-        "en": "has",
-        "as": "has"
+        "en": "living",
+        "as": "বাস কৰি থকা"
       },
       {
-        "en": "are",
-        "as": "are"
+        "en": "is living",
+        "as": "বাস কৰি আছে"
       },
       {
-        "en": "were",
-        "as": "were"
+        "en": "live",
+        "as": "বাস কৰে (live)"
       }
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": {
-      "en": "Each takes a singular verb.",
-      "as": "Each এ একবচন ক্ৰিয়া লয়।"
+      "en": "A plural subject takes the plural verb: they live.",
+      "as": "বহুবচন কৰ্তাই বহুবচন ক্ৰিয়া লয়: they live।"
     }
   },
   {
     "id": "subject-verb-agreement-003",
     "q": {
-      "en": "Bread and butter — my breakfast.",
-      "as": "পাউৰুটী আৰু মাখন মোৰ ৰাতিপুৱাৰ আহাৰ —।"
+      "en": "Choose the correct verb: She ___ a beautiful song.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: She ___ a beautiful song."
     },
     "options": [
       {
-        "en": "are",
-        "as": "are"
+        "en": "sings",
+        "as": "গায় (sings)"
       },
       {
-        "en": "is",
-        "as": "is"
+        "en": "sing",
+        "as": "গায়"
       },
       {
-        "en": "were",
-        "as": "were"
+        "en": "singing",
+        "as": "গোৱা"
       },
       {
-        "en": "have",
-        "as": "have"
+        "en": "sung",
+        "as": "গোৱা (sung)"
       }
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": {
-      "en": "Bread and butter is treated as a single idea.",
-      "as": "Bread and butter ক এটা অখণ্ড ভাৱ হিচাপে গণ্য কৰা হয়।"
+      "en": "The singular subject she takes sings.",
+      "as": "একবচন কৰ্তা she য়ে sings লয়।"
     }
   },
   {
     "id": "subject-verb-agreement-004",
     "q": {
-      "en": "Neither of the two answers — correct.",
-      "as": "দুটা উত্তৰৰ এটাও — নহয়।"
+      "en": "Choose the correct verb: The boys ___ football well.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The boys ___ football well."
+    },
+    "options": [
+      {
+        "en": "plays",
+        "as": "খেলে"
+      },
+      {
+        "en": "play",
+        "as": "খেলে (play)"
+      },
+      {
+        "en": "is playing",
+        "as": "খেলি আছে"
+      },
+      {
+        "en": "has played",
+        "as": "খেলিছে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The plural subject the boys takes play.",
+      "as": "বহুবচন কৰ্তা the boys য়ে play লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-005",
+    "q": {
+      "en": "Choose the correct verb: The girl ___ her homework.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The girl ___ her homework."
+    },
+    "options": [
+      {
+        "en": "does",
+        "as": "কৰে (does)"
+      },
+      {
+        "en": "do",
+        "as": "কৰে"
+      },
+      {
+        "en": "doing",
+        "as": "কৰি"
+      },
+      {
+        "en": "done",
+        "as": "কৰা হৈছে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The singular subject the girl takes does.",
+      "as": "একবচন কৰ্তা the girl য়ে does লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-006",
+    "q": {
+      "en": "Choose the correct verb: Ram and Shyam ___ friends.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Ram and Shyam ___ friends."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two subjects joined by and take a plural verb: are.",
+      "as": "and ৰে জোৰা দুটা কৰ্তাই বহুবচন ক্ৰিয়া লয়: are।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-007",
+    "q": {
+      "en": "Choose the correct verb: Rice and dal ___ my favourite food.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Rice and dal ___ my favourite food."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two items treated as separate things take a plural verb.",
+      "as": "দুটা বস্তুক বেলেগ বেলেগ হিচাপে ললে বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-008",
+    "q": {
+      "en": "Choose the correct verb: Bread and butter ___ a good breakfast.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Bread and butter ___ a good breakfast."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bread and butter is one idea, so it takes a singular verb.",
+      "as": "Bread and butter এটা ভাব, গতিকে ই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-009",
+    "q": {
+      "en": "Choose the correct verb: The poet and scholar ___ dead.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The poet and scholar ___ dead."
     },
     "options": [
       {
         "en": "are",
-        "as": "are"
-      },
-      {
-        "en": "is",
-        "as": "is"
+        "as": "আছে"
       },
       {
         "en": "were",
-        "as": "were"
+        "as": "আছিল"
       },
       {
         "en": "have",
-        "as": "have"
+        "as": "আছে (have)"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "When the two nouns refer to the same person, the verb is singular.",
+      "as": "যেতিয়া দুটা বিশেষ্যই এজন লোকক বুজায়, ক্ৰিয়া একবচন হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-010",
+    "q": {
+      "en": "Choose the correct verb: The poet and the scholar ___ dead.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The poet and the scholar ___ dead."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With the repeated article, two different people are meant, so the verb is plural.",
+      "as": "article পুনৰাবৃত্তি হ'লে দুজন বেলেগ লোক বুজায়, গতিকে ক্ৰিয়া বহুবচন।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-011",
+    "q": {
+      "en": "Choose the correct verb: Each of the boys ___ a book.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Each of the boys ___ a book."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each takes a singular verb even before a plural noun.",
+      "as": "Each এ বহুবচন বিশেষ্যৰ আগতো একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-012",
+    "q": {
+      "en": "Choose the correct verb: Every student ___ present.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Every student ___ present."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every with a singular noun takes a singular verb.",
+      "as": "Every এ একবচন বিশেষ্যৰ সৈতে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-013",
+    "q": {
+      "en": "Choose the correct verb: Either of the answers ___ correct.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Either of the answers ___ correct."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Either takes a singular verb.",
+      "as": "Either য়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-014",
+    "q": {
+      "en": "Choose the correct verb: Neither of them ___ come.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Neither of them ___ come."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
       }
     ],
     "correct": 1,
     "explanation": {
       "en": "Neither takes a singular verb.",
-      "as": "Neither এ একবচন ক্ৰিয়া লয়।"
+      "as": "Neither য়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-015",
+    "q": {
+      "en": "Choose the correct verb: Either he or his brothers ___ coming.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Either he or his brothers ___ coming."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With either...or, the verb agrees with the nearer subject, brothers.",
+      "as": "either...or ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা brothers ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-016",
+    "q": {
+      "en": "Choose the correct verb: Neither the teacher nor the students ___ present.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Neither the teacher nor the students ___ present."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With neither...nor, the verb agrees with the nearer subject, students.",
+      "as": "neither...nor ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা students ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-017",
+    "q": {
+      "en": "Choose the correct verb: Neither the students nor the teacher ___ present.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Neither the students nor the teacher ___ present."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With neither...nor, the verb agrees with the nearer subject, teacher.",
+      "as": "neither...nor ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা teacher ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-018",
+    "q": {
+      "en": "Choose the correct verb: Either the boys or Ram ___ done it.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Either the boys or Ram ___ done it."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The verb agrees with the nearer subject, Ram, so has is used.",
+      "as": "ক্ৰিয়া নিকটৱৰ্তী কৰ্তা Ram ৰ সৈতে মিলে, গতিকে has লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-019",
+    "q": {
+      "en": "Choose the correct verb: The captain, with his players, ___ arrived.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The captain, with his players, ___ arrived."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With phrases like with, the verb agrees with the first subject, captain.",
+      "as": "with ৰ দৰে বাক্যাংশত ক্ৰিয়া প্ৰথম কৰ্তা captain ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-020",
+    "q": {
+      "en": "Choose the correct verb: He as well as his friends ___ coming.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: He as well as his friends ___ coming."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "As well as does not change the number of the first subject, he.",
+      "as": "As well as এ প্ৰথম কৰ্তা he ৰ সংখ্যা সলনি নকৰে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-021",
+    "q": {
+      "en": "Choose the correct verb: The teacher, along with the students, ___ in the hall.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The teacher, along with the students, ___ in the hall."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Along with does not affect the number of the subject teacher.",
+      "as": "Along with এ কৰ্তা teacher ৰ সংখ্যাক প্ৰভাৱিত নকৰে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-022",
+    "q": {
+      "en": "Choose the correct verb: The jury ___ divided in their opinion.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The jury ___ divided in their opinion."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When a collective noun's members act individually, the verb is plural.",
+      "as": "যেতিয়া সমষ্টিবাচক বিশেষ্যৰ সদস্যসকলে বেলেগে কাম কৰে, ক্ৰিয়া বহুবচন হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-023",
+    "q": {
+      "en": "Choose the correct verb: The committee ___ taken a decision.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The committee ___ taken a decision."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When a collective noun acts as one body, the verb is singular.",
+      "as": "যেতিয়া সমষ্টিবাচক বিশেষ্যই এটা গোট হিচাপে কাম কৰে, ক্ৰিয়া একবচন হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-024",
+    "q": {
+      "en": "Choose the correct verb: The team ___ playing well today.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The team ___ playing well today."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The team acting as a unit takes a singular verb.",
+      "as": "একক হিচাপে কাম কৰা team য়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-025",
+    "q": {
+      "en": "Choose the correct verb: Many a man ___ tried it.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Many a man ___ tried it."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Many a takes a singular noun and a singular verb.",
+      "as": "Many a য়ে একবচন বিশেষ্য আৰু একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-026",
+    "q": {
+      "en": "Choose the correct verb: More than one student ___ absent.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: More than one student ___ absent."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল (were)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "More than one takes a singular verb.",
+      "as": "More than one য়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-027",
+    "q": {
+      "en": "Choose the correct verb: A number of students ___ absent.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: A number of students ___ absent."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A number of takes a plural noun and a plural verb.",
+      "as": "A number of য়ে বহুবচন বিশেষ্য আৰু বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-028",
+    "q": {
+      "en": "Choose the correct verb: The number of students ___ small.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The number of students ___ small."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of takes a plural noun but a singular verb.",
+      "as": "The number of য়ে বহুবচন বিশেষ্য কিন্তু একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-029",
+    "q": {
+      "en": "Choose the correct verb: Ten kilometres ___ a long distance.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Ten kilometres ___ a long distance."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A distance taken as one unit takes a singular verb.",
+      "as": "একক হিচাপে লোৱা দূৰত্বই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-030",
+    "q": {
+      "en": "Choose the correct verb: Fifty rupees ___ not a big amount.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Fifty rupees ___ not a big amount."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A sum of money taken as one unit takes a singular verb.",
+      "as": "একক হিচাপে লোৱা ধনৰাশিয়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-031",
+    "q": {
+      "en": "Choose the correct verb: Mathematics ___ my favourite subject.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Mathematics ___ my favourite subject."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Names of subjects ending in -s take a singular verb.",
+      "as": "-s ত শেষ হোৱা বিষয়ৰ নামে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-032",
+    "q": {
+      "en": "Choose the correct verb: The news ___ very good.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The news ___ very good."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "News looks plural but is a singular noun.",
+      "as": "News বহুবচন যেন লাগে কিন্তু একবচন বিশেষ্য।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-033",
+    "q": {
+      "en": "Choose the correct verb: There ___ many books on the table.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: There ___ many books on the table."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With there, the verb agrees with the real subject books.",
+      "as": "there ৰ সৈতে ক্ৰিয়া প্ৰকৃত কৰ্তা books ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-034",
+    "q": {
+      "en": "Choose the correct verb: There ___ a book on the table.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: There ___ a book on the table."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With there, the verb agrees with the singular subject book.",
+      "as": "there ৰ সৈতে ক্ৰিয়া একবচন কৰ্তা book ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-035",
+    "q": {
+      "en": "Choose the correct verb: Here ___ the boys.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Here ___ the boys."
+    },
+    "options": [
+      {
+        "en": "comes",
+        "as": "আহে"
+      },
+      {
+        "en": "is coming",
+        "as": "আহি আছে"
+      },
+      {
+        "en": "come",
+        "as": "আহে (come)"
+      },
+      {
+        "en": "has come",
+        "as": "আহিছে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The real subject boys is plural, so come is used.",
+      "as": "প্ৰকৃত কৰ্তা boys বহুবচন, গতিকে come লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-036",
+    "q": {
+      "en": "Choose the correct verb: It is I who ___ done it.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: It is I who ___ done it."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The verb after who agrees with its antecedent I, so have is used.",
+      "as": "who ৰ পিছত ক্ৰিয়া তাৰ পূৰ্বৱৰ্তী শব্দ I ৰ সৈতে মিলে, গতিকে have লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-037",
+    "q": {
+      "en": "Choose the correct verb: He is one of those who ___ honest.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: He is one of those who ___ honest."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Who refers to those (plural), so are is used.",
+      "as": "Who য়ে those (বহুবচন) লৈ যায়, গতিকে are লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-038",
+    "q": {
+      "en": "Choose the correct verb: She is the girl who ___ won the prize.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: She is the girl who ___ won the prize."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Who refers to the singular girl, so has is used.",
+      "as": "Who য়ে একবচন girl লৈ যায়, গতিকে has লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-039",
+    "q": {
+      "en": "Choose the correct verb: Reading books ___ my hobby.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Reading books ___ my hobby."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A gerund subject takes a singular verb.",
+      "as": "ক্ৰিয়া-বিশেষ্য কৰ্তাই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-040",
+    "q": {
+      "en": "Choose the correct verb: Swimming and cycling ___ good exercise.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Swimming and cycling ___ good exercise."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Two gerunds joined by and take a plural verb.",
+      "as": "and ৰে জোৰা দুটা ক্ৰিয়া-বিশেষ্যই বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-041",
+    "q": {
+      "en": "Choose the correct verb: To err ___ human.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: To err ___ human."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An infinitive subject takes a singular verb.",
+      "as": "অসমাপিকা ক্ৰিয়া কৰ্তাই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-042",
+    "q": {
+      "en": "Choose the correct verb: My friend and I ___ going to the fair.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: My friend and I ___ going to the fair."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The subject is two people, so the plural verb are is used.",
+      "as": "কৰ্তা দুজন লোক, গতিকে বহুবচন ক্ৰিয়া are লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-043",
+    "q": {
+      "en": "Choose the correct verb: Neither he nor I ___ present.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Neither he nor I ___ present."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "am",
+        "as": "আছে (am)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With neither...nor, the verb agrees with the nearer subject I, so am is used.",
+      "as": "neither...nor ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা I ৰ সৈতে মিলে, গতিকে am লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-044",
+    "q": {
+      "en": "Choose the correct verb: The quality of the mangoes ___ good.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The quality of the mangoes ___ good."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The subject is quality, not mangoes, so the verb is singular.",
+      "as": "কৰ্তা quality, mangoes নহয়, গতিকে ক্ৰিয়া একবচন।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-045",
+    "q": {
+      "en": "Choose the correct verb: The list of items ___ long.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The list of items ___ long."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The subject is list, so the verb is singular.",
+      "as": "কৰ্তা list, গতিকে ক্ৰিয়া একবচন।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-046",
+    "q": {
+      "en": "Choose the correct verb: He and his brother ___ arrived.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: He and his brother ___ arrived."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two subjects joined by and take a plural verb.",
+      "as": "and ৰে জোৰা দুটা কৰ্তাই বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-047",
+    "q": {
+      "en": "Choose the correct verb: One of my friends ___ a doctor.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: One of my friends ___ a doctor."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The subject is one, so the verb is singular.",
+      "as": "কৰ্তা one, গতিকে ক্ৰিয়া একবচন।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-048",
+    "q": {
+      "en": "Choose the correct verb: None of the boys ___ present.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: None of the boys ___ present."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল (were)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "None of with a plural noun may take a plural verb, were.",
+      "as": "বহুবচন বিশেষ্যৰ সৈতে none of য়ে বহুবচন ক্ৰিয়া were ল'ব পাৰে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-049",
+    "q": {
+      "en": "Choose the correct verb: Each boy and each girl ___ given a prize.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Each boy and each girl ___ given a prize."
+    },
+    "options": [
+      {
+        "en": "was",
+        "as": "আছিল (was)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each...and each takes a singular verb.",
+      "as": "Each...and each য়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-050",
+    "q": {
+      "en": "Choose the correct verb: The police ___ investigating the case.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The police ___ investigating the case."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Police is always treated as plural.",
+      "as": "Police সদায় বহুবচন হিচাপে লোৱা হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-051",
+    "q": {
+      "en": "Choose the correct verb: Cattle ___ grazing in the field.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Cattle ___ grazing in the field."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cattle is a plural noun and takes a plural verb.",
+      "as": "Cattle এটা বহুবচন বিশেষ্য আৰু ই বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-052",
+    "q": {
+      "en": "Choose the correct verb: Physics ___ a difficult subject.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Physics ___ a difficult subject."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Physics, though ending in -s, is singular.",
+      "as": "Physics -s ত শেষ হ'লেও একবচন।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-053",
+    "q": {
+      "en": "Choose the correct verb: My trousers ___ torn.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: My trousers ___ torn."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Trousers has two parts and is always plural.",
+      "as": "Trousers ৰ দুটা অংশ থাকে আৰু সদায় বহুবচন।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-054",
+    "q": {
+      "en": "Choose the correct verb: The scissors ___ sharp.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The scissors ___ sharp."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Scissors has two parts and takes a plural verb.",
+      "as": "Scissors ৰ দুটা অংশ থাকে আৰু বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-055",
+    "q": {
+      "en": "Choose the correct verb: Twenty years ___ a long time.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Twenty years ___ a long time."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A period of time taken as one unit takes a singular verb.",
+      "as": "একক হিচাপে লোৱা সময়ছোৱাই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-056",
+    "q": {
+      "en": "Choose the correct verb: Neither of the two boys ___ done the work.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Neither of the two boys ___ done the work."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "have",
+        "as": "আছে"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither takes a singular verb.",
+      "as": "Neither য়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-057",
+    "q": {
+      "en": "Choose the correct verb: A great many students ___ present.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: A great many students ___ present."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে"
+      },
+      {
+        "en": "was",
+        "as": "আছিল"
+      },
+      {
+        "en": "has",
+        "as": "আছে (has)"
+      },
+      {
+        "en": "are",
+        "as": "আছে (are)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A great many takes a plural noun and a plural verb.",
+      "as": "A great many য়ে বহুবচন বিশেষ্য আৰু বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-058",
+    "q": {
+      "en": "Choose the correct verb: The furniture ___ new.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The furniture ___ new."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Furniture is an uncountable noun and takes a singular verb.",
+      "as": "Furniture এটা অগণনীয় বিশেষ্য আৰু একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-059",
+    "q": {
+      "en": "Choose the correct verb: His hair ___ grey.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: His hair ___ grey."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hair as a mass takes a singular verb.",
+      "as": "সমষ্টি হিচাপে hair য়ে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-060",
+    "q": {
+      "en": "Choose the correct verb: The scenery of the hills ___ beautiful.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: The scenery of the hills ___ beautiful."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The subject is scenery, an uncountable singular noun.",
+      "as": "কৰ্তা scenery, এটা অগণনীয় একবচন বিশেষ্য।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-061",
+    "q": {
+      "en": "Choose the correct verb: Either of the two roads ___ to the town.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Either of the two roads ___ to the town."
+    },
+    "options": [
+      {
+        "en": "leads",
+        "as": "লৈ যায় (leads)"
+      },
+      {
+        "en": "lead",
+        "as": "লৈ যায়"
+      },
+      {
+        "en": "are leading",
+        "as": "লৈ যাই আছে"
+      },
+      {
+        "en": "have led",
+        "as": "লৈ গৈছে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Either takes a singular verb, so leads is used.",
+      "as": "Either য়ে একবচন ক্ৰিয়া লয়, গতিকে leads লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-062",
+    "q": {
+      "en": "Choose the correct verb: Not only the students but also the teacher ___ happy.",
+      "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Not only the students but also the teacher ___ happy."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "আছে"
+      },
+      {
+        "en": "is",
+        "as": "আছে (is)"
+      },
+      {
+        "en": "were",
+        "as": "আছিল"
+      },
+      {
+        "en": "have",
+        "as": "আছে (have)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With not only...but also, the verb agrees with the nearer subject teacher.",
+      "as": "not only...but also ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা teacher ৰ সৈতে মিলে।"
     }
   }
 ]
