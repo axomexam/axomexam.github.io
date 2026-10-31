@@ -2,61 +2,1591 @@
   {
     "id": "statement-course-of-action-001",
     "q": {
-      "en": "Statement: The road near the school is often waterlogged during the rains. Course of action: Repair the drainage of that road.",
-      "as": "বিবৃতি: বৰষুণৰ সময়ত বিদ্যালয়ৰ কাষৰ ৰাস্তা সঘনাই পানীৰে ভৰি থাকে। কাৰ্যপন্থা: সেই ৰাস্তাৰ নলা-নৰ্দমা মেৰামতি কৰা।"
+      "en": "Problem: A large number of road accidents happen at a busy crossing every week.\nCourses of action: I. The traffic department should install a signal and speed-breakers there. II. The crossing should be closed permanently.",
+      "as": "সমস্যা: A large number of road accidents happen at a busy crossing every week.\nকাৰ্যপন্থা: I. The traffic department should install a signal and speed-breakers there. II. The crossing should be closed permanently."
     },
     "options": [
       {
-        "en": "The course of action is worth following",
-        "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য"
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
       },
       {
-        "en": "The course of action is not worth following",
-        "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য নহয়"
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
       },
       {
-        "en": "The course of action is irrelevant",
-        "as": "কাৰ্যপন্থাটো অসম্পৰ্কিত"
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
       },
       {
-        "en": "Cannot be decided",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "Repairing the drainage directly addresses the waterlogging and would solve it, so the action is worth following.",
-      "as": "নলা-নৰ্দমা মেৰামতিয়ে পানী জমা হোৱা সমস্যাটোক পোনপটীয়াকৈ সম্বোধন কৰি সমাধান কৰিব, গতিকে কাৰ্যপন্থাটো অনুসৰণযোগ্য।"
+      "en": "A signal and speed-breakers directly reduce accidents; closing the crossing creates new problems.",
+      "as": "সংকেত আৰু গতিবাধাই পোনপটীয়াকৈ দুৰ্ঘটনা কমায়; বন্ধ কৰিলে নতুন সমস্যা হয়।"
     }
   },
   {
     "id": "statement-course-of-action-002",
     "q": {
-      "en": "Statement: Many students fail mathematics every year. Course of action: The government should resign.",
-      "as": "বিবৃতি: প্ৰতি বছৰে বহু শিক্ষাৰ্থী গণিতত অনুত্তীৰ্ণ হয়। কাৰ্যপন্থা: চৰকাৰে পদত্যাগ কৰা উচিত।"
+      "en": "Problem: Many students in a village school fail mathematics every year.\nCourses of action: I. The school should arrange extra coaching in mathematics. II. The mathematics teacher should be dismissed at once.",
+      "as": "সমস্যা: Many students in a village school fail mathematics every year.\nকাৰ্যপন্থা: I. The school should arrange extra coaching in mathematics. II. The mathematics teacher should be dismissed at once."
     },
     "options": [
       {
-        "en": "The course of action is worth following",
-        "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য"
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
       },
       {
-        "en": "The course of action is not worth following",
-        "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য নহয়"
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
       },
       {
-        "en": "The course of action is relevant",
-        "as": "কাৰ্যপন্থাটো প্ৰাসংগিক"
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
       },
       {
-        "en": "Cannot be decided",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "The action is out of proportion to the problem and would not reduce the failures, so it is not worth following.",
-      "as": "কাৰ্যপন্থাটো সমস্যাৰ তুলনাত অত্যধিক আৰু অনুত্তীৰ্ণ কমাব নোৱাৰে, গতিকে অনুসৰণযোগ্য নহয়।"
+      "en": "Extra coaching addresses the failure; dismissal is harsh and not clearly linked.",
+      "as": "অতিৰিক্ত কোচিঙে ব্যৰ্থতা সমাধান কৰে; বৰ্খাস্ত বেছি কঠোৰ আৰু স্পষ্টভাৱে জড়িত নহয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-003",
+    "q": {
+      "en": "Problem: A city faces severe water shortage every summer.\nCourses of action: I. The authority should start rainwater harvesting and repair leaking pipes. II. Residents should be told to leave the city in summer.",
+      "as": "সমস্যা: A city faces severe water shortage every summer.\nকাৰ্যপন্থা: I. The authority should start rainwater harvesting and repair leaking pipes. II. Residents should be told to leave the city in summer."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Harvesting and repairs increase supply; asking residents to leave is impractical.",
+      "as": "বৰষুণৰ পানী সংগ্ৰহ আৰু মেৰামতিয়ে যোগান বঢ়ায়; বাসিন্দাক এৰি যাবলৈ কোৱা অসম্ভৱ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-004",
+    "q": {
+      "en": "Problem: Crime against women is rising in a district.\nCourses of action: I. The police should increase patrolling and start awareness drives. II. Women should be asked to stay indoors at night.",
+      "as": "সমস্যা: Crime against women is rising in a district.\nকাৰ্যপন্থা: I. The police should increase patrolling and start awareness drives. II. Women should be asked to stay indoors at night."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Patrolling and awareness tackle crime; restricting women's movement is unfair and does not stop crime.",
+      "as": "টহল আৰু সজাগতাই অপৰাধ সমাধান কৰে; মহিলাৰ চলাচল নিষিদ্ধ কৰা অন্যায় আৰু অপৰাধ বন্ধ নকৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-005",
+    "q": {
+      "en": "Problem: Many children in a slum area do not attend school.\nCourses of action: I. The government should open a nearby school and give free books. II. Parents who do not send children should be fined heavily.",
+      "as": "সমস্যা: Many children in a slum area do not attend school.\nকাৰ্যপন্থা: I. The government should open a nearby school and give free books. II. Parents who do not send children should be fined heavily."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A nearby school and free books remove real barriers; heavy fines hurt poor families.",
+      "as": "ওচৰৰ বিদ্যালয় আৰু বিনামূলীয়া কিতাপে প্ৰকৃত বাধা আঁতৰায়; ডাঙৰ জৰিমানাই দৰিদ্ৰ পৰিয়ালক আঘাত কৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-006",
+    "q": {
+      "en": "Problem: A factory is polluting a nearby river.\nCourses of action: I. The pollution board should inspect and order treatment of the waste. II. The factory should be shut down without any inquiry.",
+      "as": "সমস্যা: A factory is polluting a nearby river.\nকাৰ্যপন্থা: I. The pollution board should inspect and order treatment of the waste. II. The factory should be shut down without any inquiry."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inspection and waste treatment fix the cause; an immediate shutdown without inquiry is extreme.",
+      "as": "পৰিদৰ্শন আৰু বৰ্জ্য শোধনীয়ে কাৰণ সমাধান কৰে; অনুসন্ধান নকৰি বন্ধ কৰা অতি কঠোৰ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-007",
+    "q": {
+      "en": "Problem: Many commuters are injured while boarding crowded local trains.\nCourses of action: I. The railway should run more trains at peak hours. II. Commuters should be banned from travelling in peak hours.",
+      "as": "সমস্যা: Many commuters are injured while boarding crowded local trains.\nকাৰ্যপন্থা: I. The railway should run more trains at peak hours. II. Commuters should be banned from travelling in peak hours."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "More trains reduce crowding; banning travel is not workable.",
+      "as": "বেছি ট্ৰেইনে ভিৰ কমায়; ভ্ৰমণ নিষিদ্ধ কৰা কাৰ্যকৰ নহয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-008",
+    "q": {
+      "en": "Problem: An outbreak of dengue has been reported in a locality.\nCourses of action: I. The health department should spray insecticide and remove stagnant water. II. People should be asked to stop going to work.",
+      "as": "সমস্যা: An outbreak of dengue has been reported in a locality.\nকাৰ্যপন্থা: I. The health department should spray insecticide and remove stagnant water. II. People should be asked to stop going to work."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Spraying and removing stagnant water attack the mosquito; stopping work is unnecessary.",
+      "as": "ঔষধ ছটিওৱা আৰু জমা পানী আঁতৰোৱাই মশা নিয়ন্ত্ৰণ কৰে; কাম এৰাৰ প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-009",
+    "q": {
+      "en": "Problem: Airlines are losing money because of empty seats on some routes.\nCourses of action: I. The airline should study demand and adjust the schedule. II. The airline should increase ticket prices sharply.",
+      "as": "সমস্যা: Airlines are losing money because of empty seats on some routes.\nকাৰ্যপন্থা: I. The airline should study demand and adjust the schedule. II. The airline should increase ticket prices sharply."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Studying demand and adjusting the schedule is a rational fix; a sharp price rise would reduce demand further.",
+      "as": "চাহিদা অধ্যয়ন আৰু সময়সূচী সলনি কৰা যুক্তিসংগত; তীক্ষ্ণ দাম বৃদ্ধিয়ে চাহিদা আৰু কমাব।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-010",
+    "q": {
+      "en": "Problem: A large bank has reported many cases of online fraud.\nCourses of action: I. The bank should strengthen security and educate customers. II. Customers should stop using online banking entirely.",
+      "as": "সমস্যা: A large bank has reported many cases of online fraud.\nকাৰ্যপন্থা: I. The bank should strengthen security and educate customers. II. Customers should stop using online banking entirely."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Better security and awareness reduce fraud; abandoning online banking is impractical.",
+      "as": "উত্তম সুৰক্ষা আৰু সজাগতাই প্ৰৱঞ্চনা কমায়; অনলাইন বেংকিং এৰা অসম্ভৱ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-011",
+    "q": {
+      "en": "Problem: Farmers in a region are committing suicide due to debt.\nCourses of action: I. The government should give crop insurance and easy credit. II. Farmers should be told to change their profession.",
+      "as": "সমস্যা: Farmers in a region are committing suicide due to debt.\nকাৰ্যপন্থা: I. The government should give crop insurance and easy credit. II. Farmers should be told to change their profession."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Insurance and easy credit address the debt cause; asking farmers to change profession ignores the real issue.",
+      "as": "বীমা আৰু সহজ ঋণে ঋণৰ কাৰণ সমাধান কৰে; পেছা সলনিৰ পৰামৰ্শই প্ৰকৃত সমস্যা আওকাণ কৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-012",
+    "q": {
+      "en": "Problem: Roadside garbage is not collected for many days in a ward.\nCourses of action: I. The municipality should fix a daily collection schedule. II. Residents should burn the garbage themselves.",
+      "as": "সমস্যা: Roadside garbage is not collected for many days in a ward.\nকাৰ্যপন্থা: I. The municipality should fix a daily collection schedule. II. Residents should burn the garbage themselves."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A daily schedule solves the problem; burning garbage causes air pollution.",
+      "as": "দৈনিক সময়সূচীয়ে সমস্যা সমাধান কৰে; জ্বলোৱাই বায়ু প্ৰদূষণ কৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-013",
+    "q": {
+      "en": "Problem: Many patients wait long hours in a government hospital.\nCourses of action: I. The hospital should appoint more doctors and open more counters. II. Patients should be charged high fees for fast service.",
+      "as": "সমস্যা: Many patients wait long hours in a government hospital.\nকাৰ্যপন্থা: I. The hospital should appoint more doctors and open more counters. II. Patients should be charged high fees for fast service."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "More doctors and counters reduce waiting; high fees make care unaffordable.",
+      "as": "বেছি ডাক্তৰ আৰু কাউণ্টাৰে অপেক্ষা কমায়; উঁচু মাচুলে চিকিৎসা অসম্ভৱ কৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-014",
+    "q": {
+      "en": "Problem: Students are distracted by social media during study hours.\nCourses of action: I. Students should set fixed study hours and keep phones away. II. Social media should be banned for everyone.",
+      "as": "সমস্যা: Students are distracted by social media during study hours.\nকাৰ্যপন্থা: I. Students should set fixed study hours and keep phones away. II. Social media should be banned for everyone."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fixed hours and keeping phones away is practical; a blanket ban for all is too extreme.",
+      "as": "নিৰ্দিষ্ট সময় আৰু ফোন আঁতৰাই ৰখা ব্যৱহাৰিক; সৰ্বাৰ বাবে নিষিদ্ধি অতি কঠোৰ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-015",
+    "q": {
+      "en": "Problem: A bridge has developed cracks and traffic is heavy.\nCourses of action: I. The authority should divert traffic and repair the bridge at once. II. The bridge should be left as it is until next year.",
+      "as": "সমস্যা: A bridge has developed cracks and traffic is heavy.\nকাৰ্যপন্থা: I. The authority should divert traffic and repair the bridge at once. II. The bridge should be left as it is until next year."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Diversion and repair protect lives; ignoring the cracks risks collapse.",
+      "as": "পথ সলনি আৰু মেৰামতিয়ে জীৱন ৰক্ষা কৰে; আওকাণ কৰিলে ভাঙি পৰাৰ আশংকা।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-016",
+    "q": {
+      "en": "Problem: Unemployment is high among educated youth in a state.\nCourses of action: I. The state should start skill-training and encourage new industries. II. Youth should be told to accept any job at any wage.",
+      "as": "সমস্যা: Unemployment is high among educated youth in a state.\nকাৰ্যপন্থা: I. The state should start skill-training and encourage new industries. II. Youth should be told to accept any job at any wage."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Skills and industries create real jobs; forcing low wages does not solve unemployment.",
+      "as": "দক্ষতা আৰু উদ্যোগে প্ৰকৃত চাকৰি সৃষ্টি কৰে; কম দৰমহাত বাধ্য কৰিলে বেকাৰি দূৰ নহয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-017",
+    "q": {
+      "en": "Problem: Airlines report that passengers often lose their luggage.\nCourses of action: I. The airline should improve baggage tracking and compensate quickly. II. Passengers should be asked to carry no luggage.",
+      "as": "সমস্যা: Airlines report that passengers often lose their luggage.\nকাৰ্যপন্থা: I. The airline should improve baggage tracking and compensate quickly. II. Passengers should be asked to carry no luggage."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Better tracking and quick compensation address the loss; a no-luggage rule is absurd.",
+      "as": "উত্তম ট্ৰেকিং আৰু দ্ৰুত ক্ষতিপূৰণে ক্ষতি সমাধান কৰে; লগেজ নিনিয়াৰ নিয়ম অৰ্থহীন।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-018",
+    "q": {
+      "en": "Problem: Many trees in a city park are being cut illegally.\nCourses of action: I. The authority should post guards and punish the offenders. II. The park should be converted into a parking lot.",
+      "as": "সমস্যা: Many trees in a city park are being cut illegally.\nকাৰ্যপন্থা: I. The authority should post guards and punish the offenders. II. The park should be converted into a parking lot."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Guards and punishment stop illegal felling; converting the park destroys it further.",
+      "as": "পহৰা আৰু শাস্তিয়ে অবৈধ কটা বন্ধ কৰে; পাৰ্কিং লট কৰিলে পাৰ্ক নষ্ট হয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-019",
+    "q": {
+      "en": "Problem: There is frequent power failure in a town.\nCourses of action: I. The electricity board should upgrade the transmission lines. II. Residents should be asked to use candles only.",
+      "as": "সমস্যা: There is frequent power failure in a town.\nকাৰ্যপন্থা: I. The electricity board should upgrade the transmission lines. II. Residents should be asked to use candles only."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Upgrading lines fixes supply; candles are only a temporary substitute.",
+      "as": "লাইন উন্নত কৰিলে যোগান ঠিক হয়; মমবাতি কেৱল অস্থায়ী বিকল্প।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-020",
+    "q": {
+      "en": "Problem: A school bus met with an accident due to overloading.\nCourses of action: I. The transport department should check buses and limit seats. II. The school should stop all buses forever.",
+      "as": "সমস্যা: A school bus met with an accident due to overloading.\nকাৰ্যপন্থা: I. The transport department should check buses and limit seats. II. The school should stop all buses forever."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Checks and seat limits prevent overloading; stopping all buses harms students.",
+      "as": "পৰীক্ষা আৰু আসন সীমাই ওভাৰলোডিং ৰোধ কৰে; সকলো বাছ বন্ধ কৰিলে ছাত্ৰৰ ক্ষতি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-021",
+    "q": {
+      "en": "Problem: Many tourists complain about the lack of clean hotels in a hill town.\nCourses of action: I. The tourism department should rate hotels and enforce hygiene. II. Tourists should be told not to visit the town.",
+      "as": "সমস্যা: Many tourists complain about the lack of clean hotels in a hill town.\nকাৰ্যপন্থা: I. The tourism department should rate hotels and enforce hygiene. II. Tourists should be told not to visit the town."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rating and hygiene enforcement improve standards; discouraging tourists hurts the town.",
+      "as": "শ্ৰেণীবিভাগ আৰু পৰিষ্কাৰতা বলবৎ কৰিলে মান উন্নত হয়; পৰ্যটক নিবৃত্ত কৰিলে চহৰৰ ক্ষতি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-022",
+    "q": {
+      "en": "Problem: A large number of students fail to get admission due to a low cut-off.\nCourses of action: I. The college should increase seats in popular courses. II. The cut-off should be lowered for all without any plan.",
+      "as": "সমস্যা: A large number of students fail to get admission due to a low cut-off.\nকাৰ্যপন্থা: I. The college should increase seats in popular courses. II. The cut-off should be lowered for all without any plan."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "More seats meet demand in a planned way; lowering the cut-off blindly harms quality.",
+      "as": "বেছি আসনে পৰিকল্পিতভাৱে চাহিদা পূৰণ কৰে; অন্ধভাৱে কমালে গুণ নষ্ট হয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-023",
+    "q": {
+      "en": "Problem: People in a village are falling ill after drinking dirty water.\nCourses of action: I. The panchayat should supply clean water and test the source. II. Villagers should be told to drink less water.",
+      "as": "সমস্যা: People in a village are falling ill after drinking dirty water.\nকাৰ্যপন্থা: I. The panchayat should supply clean water and test the source. II. Villagers should be told to drink less water."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Clean water and testing remove the cause; asking people to drink less is harmful.",
+      "as": "পৰিষ্কাৰ পানী আৰু পৰীক্ষাই কাৰণ আঁতৰায়; কম পানী খাবলৈ কোৱা ক্ষতিকাৰক।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-024",
+    "q": {
+      "en": "Problem: Shoplifting is increasing in a supermarket.\nCourses of action: I. The store should install cameras and train staff. II. The store should close its doors to the public.",
+      "as": "সমস্যা: Shoplifting is increasing in a supermarket.\nকাৰ্যপন্থা: I. The store should install cameras and train staff. II. The store should close its doors to the public."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cameras and trained staff deter theft; closing the store ends the business.",
+      "as": "কেমেৰা আৰু প্ৰশিক্ষিত কৰ্মচাৰীয়ে চুৰি ৰোধ কৰে; দুৱাৰ বন্ধ কৰিলে ব্যৱসায় শেষ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-025",
+    "q": {
+      "en": "Problem: Many complaints are received about delayed pension payments.\nCourses of action: I. The department should computerise records and set a payment deadline. II. Pensioners should be asked to wait indefinitely.",
+      "as": "সমস্যা: Many complaints are received about delayed pension payments.\nকাৰ্যপন্থা: I. The department should computerise records and set a payment deadline. II. Pensioners should be asked to wait indefinitely."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Computerisation and a deadline speed up payment; asking people to wait does nothing.",
+      "as": "কম্পিউটাৰীকৰণ আৰু সময়সীমাই পেমেন্ট দ্ৰুত কৰে; অপেক্ষা কৰিবলৈ কোৱা একো নকৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-026",
+    "q": {
+      "en": "Problem: Frequent thefts of mobile phones occur in local buses.\nCourses of action: I. The bus operator should install CCTV and alert police. II. Passengers should be asked to leave phones at home.",
+      "as": "সমস্যা: Frequent thefts of mobile phones occur in local buses.\nকাৰ্যপন্থা: I. The bus operator should install CCTV and alert police. II. Passengers should be asked to leave phones at home."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CCTV and police action deter thieves; leaving phones at home is impractical.",
+      "as": "CCTV আৰু আৰক্ষীৰ ব্যৱস্থাই চোৰক ভয় খুৱায়; ফোন ঘৰত এৰাৰ পৰামৰ্শ অসম্ভৱ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-027",
+    "q": {
+      "en": "Problem: A coastal village is repeatedly hit by floods.\nCourses of action: I. The government should build embankments and an early-warning system. II. Villagers should be asked to move to another state.",
+      "as": "সমস্যা: A coastal village is repeatedly hit by floods.\nকাৰ্যপন্থা: I. The government should build embankments and an early-warning system. II. Villagers should be asked to move to another state."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Embankments and warnings protect lives and property; mass migration is not a solution.",
+      "as": "বান্ধ আৰু সতৰ্কবাণীয়ে জীৱন-সম্পত্তি ৰক্ষা কৰে; গণ প্ৰব্ৰজন সমাধান নহয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-028",
+    "q": {
+      "en": "Problem: Many workers in a factory complain of unsafe conditions.\nCourses of action: I. The factory should follow safety rules and provide training. II. Workers should be asked to accept the risk silently.",
+      "as": "সমস্যা: Many workers in a factory complain of unsafe conditions.\nকাৰ্যপন্থা: I. The factory should follow safety rules and provide training. II. Workers should be asked to accept the risk silently."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Safety rules and training protect workers; silent acceptance ignores the danger.",
+      "as": "সুৰক্ষা নিয়ম আৰু প্ৰশিক্ষণে কৰ্মীক ৰক্ষা কৰে; মনে মনে মনা বিপদ আওকাণ কৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-029",
+    "q": {
+      "en": "Problem: A college canteen is serving stale food.\nCourses of action: I. The college should inspect the canteen and fix hygiene rules. II. The canteen should be closed without any warning.",
+      "as": "সমস্যা: A college canteen is serving stale food.\nকাৰ্যপন্থা: I. The college should inspect the canteen and fix hygiene rules. II. The canteen should be closed without any warning."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Inspection and hygiene rules fix the problem; an abrupt closure without warning is extreme.",
+      "as": "পৰিদৰ্শন আৰু পৰিষ্কাৰতা নিয়মে সমস্যা সমাধান কৰে; সতৰ্কবাণী নোহোৱাকৈ বন্ধ কৰা অতি কঠোৰ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-030",
+    "q": {
+      "en": "Problem: Village roads become unusable during the monsoon.\nCourses of action: I. The panchayat should build proper drainage and repair the roads. II. Villagers should be asked not to travel in the monsoon.",
+      "as": "সমস্যা: Village roads become unusable during the monsoon.\nকাৰ্যপন্থা: I. The panchayat should build proper drainage and repair the roads. II. Villagers should be asked not to travel in the monsoon."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Drainage and repairs make roads usable; stopping travel is not a solution.",
+      "as": "নিকাশী আৰু মেৰামতিয়ে পথ ব্যৱহাৰযোগ্য কৰে; যাতায়াত বন্ধ কৰা সমাধান নহয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-031",
+    "q": {
+      "en": "Problem: A large number of fake medicines are sold in a market.\nCourses of action: I. The drug authority should raid shops and punish sellers. II. People should be asked to avoid all medicines.",
+      "as": "সমস্যা: A large number of fake medicines are sold in a market.\nকাৰ্যপন্থা: I. The drug authority should raid shops and punish sellers. II. People should be asked to avoid all medicines."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Raids and punishment stop fake medicine; avoiding all medicine harms health.",
+      "as": "অভিযান আৰু শাস্তিয়ে ভুৱা ঔষধ বন্ধ কৰে; সকলো ঔষধ এৰিলে স্বাস্থ্যৰ ক্ষতি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-032",
+    "q": {
+      "en": "Problem: There is heavy traffic congestion at a school gate every morning.\nCourses of action: I. The school should stagger timings and provide a drop-off zone. II. The school should be shifted far away.",
+      "as": "সমস্যা: There is heavy traffic congestion at a school gate every morning.\nকাৰ্যপন্থা: I. The school should stagger timings and provide a drop-off zone. II. The school should be shifted far away."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Staggered timings and a drop-off zone reduce congestion; shifting the school is impractical.",
+      "as": "ভিন্ন সময় আৰু নামিব লগা স্থানে ভিৰ কমায়; বিদ্যালয় আঁতৰ কৰা অসম্ভৱ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-033",
+    "q": {
+      "en": "Problem: A newspaper has published a false report about a person.\nCourses of action: I. The person should demand a correction and an apology. II. The person should stop reading all newspapers.",
+      "as": "সমস্যা: A newspaper has published a false report about a person.\nকাৰ্যপন্থা: I. The person should demand a correction and an apology. II. The person should stop reading all newspapers."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A correction and apology address the harm; boycotting all papers does nothing for the person.",
+      "as": "শুধৰণি আৰু ক্ষমা প্ৰাৰ্থনাই ক্ষতি সমাধান কৰে; সকলো বাতৰি এৰিলে একো নহয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-034",
+    "q": {
+      "en": "Problem: Many employees are stressed by long working hours.\nCourses of action: I. The company should set reasonable hours and offer counselling. II. Employees should be asked to resign if unhappy.",
+      "as": "সমস্যা: Many employees are stressed by long working hours.\nকাৰ্যপন্থা: I. The company should set reasonable hours and offer counselling. II. Employees should be asked to resign if unhappy."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reasonable hours and counselling reduce stress; asking people to resign is unfair.",
+      "as": "যুক্তিসংগত সময় আৰু পৰামৰ্শই চাপ কমায়; পদত্যাগৰ পৰামৰ্শ অন্যায়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-035",
+    "q": {
+      "en": "Problem: There is an outbreak of food poisoning at a wedding feast.\nCourses of action: I. The health team should test the food and treat the affected. II. All wedding feasts should be banned forever.",
+      "as": "সমস্যা: There is an outbreak of food poisoning at a wedding feast.\nকাৰ্যপন্থা: I. The health team should test the food and treat the affected. II. All wedding feasts should be banned forever."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing and treatment address the outbreak; banning all feasts is extreme.",
+      "as": "পৰীক্ষা আৰু চিকিৎসাই প্ৰাদুৰ্ভাৱ সমাধান কৰে; সকলো ভোজ নিষিদ্ধ কৰা অতি কঠোৰ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-036",
+    "q": {
+      "en": "Problem: Stray dogs are attacking people in a locality.\nCourses of action: I. The municipality should sterilise and shelter the dogs. II. The municipality should kill all stray dogs.",
+      "as": "সমস্যা: Stray dogs are attacking people in a locality.\nকাৰ্যপন্থা: I. The municipality should sterilise and shelter the dogs. II. The municipality should kill all stray dogs."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sterilisation and shelter manage the problem humanely; killing all dogs is cruel.",
+      "as": "বন্ধ্যাকৰণ আৰু আশ্ৰয়ে মানৱীয়ভাৱে সমস্যা সমাধান কৰে; হত্যা নিষ্ঠুৰ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-037",
+    "q": {
+      "en": "Problem: A public toilet in a market is very dirty.\nCourses of action: I. The municipality should clean it regularly and appoint a caretaker. II. The toilet should be demolished.",
+      "as": "সমস্যা: A public toilet in a market is very dirty.\nকাৰ্যপন্থা: I. The municipality should clean it regularly and appoint a caretaker. II. The toilet should be demolished."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Regular cleaning and a caretaker solve the problem; demolition removes a needed facility.",
+      "as": "নিয়মিত পৰিষ্কাৰ আৰু ৰক্ষকে সমস্যা সমাধান কৰে; ভাঙিলে প্ৰয়োজনীয় সুবিধা আঁতৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-038",
+    "q": {
+      "en": "Problem: There is a shortage of teachers in a government school.\nCourses of action: I. The department should recruit and post more teachers. II. The school should reduce its class hours.",
+      "as": "সমস্যা: There is a shortage of teachers in a government school.\nকাৰ্যপন্থা: I. The department should recruit and post more teachers. II. The school should reduce its class hours."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Recruiting teachers meets the shortage; reducing hours harms learning.",
+      "as": "শিক্ষক নিযুক্তিয়ে অভাৱ পূৰণ কৰে; সময় কমালে শিক্ষণৰ ক্ষতি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-039",
+    "q": {
+      "en": "Problem: A bus stand is very crowded and poorly managed.\nCourses of action: I. The authority should widen the stand and manage queues. II. The bus stand should be closed to all buses.",
+      "as": "সমস্যা: A bus stand is very crowded and poorly managed.\nকাৰ্যপন্থা: I. The authority should widen the stand and manage queues. II. The bus stand should be closed to all buses."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Widening and queue management ease crowding; closing the stand stops transport.",
+      "as": "প্ৰশস্ত আৰু শাৰী ব্যৱস্থাপনাই ভিৰ কমায়; বন্ধ কৰিলে পৰিবহণ বন্ধ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-040",
+    "q": {
+      "en": "Problem: A hospital is short of blood for emergency patients.\nCourses of action: I. The hospital should organise blood donation camps. II. The hospital should refuse emergency cases.",
+      "as": "সমস্যা: A hospital is short of blood for emergency patients.\nকাৰ্যপন্থা: I. The hospital should organise blood donation camps. II. The hospital should refuse emergency cases."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Donation camps meet the shortage; refusing patients is unethical.",
+      "as": "ৰক্তদান শিবিৰে অভাৱ পূৰণ কৰে; ৰোগী নাকচ কৰা অনৈতিক।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-041",
+    "q": {
+      "en": "Problem: Trees on a road are blocking the view at a turn.\nCourses of action: I. The authority should trim the branches at the turn. II. The authority should cut all trees on the road.",
+      "as": "সমস্যা: Trees on a road are blocking the view at a turn.\nকাৰ্যপন্থা: I. The authority should trim the branches at the turn. II. The authority should cut all trees on the road."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Trimming the turn fixes visibility; cutting all trees is excessive.",
+      "as": "মোড়ত ডাল কটাই দৃশ্য স্পষ্ট কৰে; সকলো গছ কটা অতি বেছি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-042",
+    "q": {
+      "en": "Problem: A village has no bank and people travel far for banking.\nCourses of action: I. The bank should open a branch or a business correspondent there. II. Villagers should stop using banks.",
+      "as": "সমস্যা: A village has no bank and people travel far for banking.\nকাৰ্যপন্থা: I. The bank should open a branch or a business correspondent there. II. Villagers should stop using banks."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A local branch or correspondent solves the distance; stopping banking is harmful.",
+      "as": "স্থানীয় শাখা বা প্ৰতিনিধিয়ে দূৰত্ব সমাধান কৰে; বেংক এৰা ক্ষতিকাৰক।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-043",
+    "q": {
+      "en": "Problem: Many students cannot afford costly reference books.\nCourses of action: I. The college should build a good lending library. II. Students should be told to give up studies.",
+      "as": "সমস্যা: Many students cannot afford costly reference books.\nকাৰ্যপন্থা: I. The college should build a good lending library. II. Students should be told to give up studies."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A lending library gives access; giving up studies is unacceptable.",
+      "as": "ধাৰ পুথিভঁৰালে প্ৰৱেশ দিয়ে; পঢ়া এৰা গ্ৰহণযোগ্য নহয়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-044",
+    "q": {
+      "en": "Problem: Street lights in a locality are not working for weeks.\nCourses of action: I. The municipality should repair the lights quickly. II. Residents should buy their own lights.",
+      "as": "সমস্যা: Street lights in a locality are not working for weeks.\nকাৰ্যপন্থা: I. The municipality should repair the lights quickly. II. Residents should buy their own lights."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Repairing street lights is the municipality's duty; shifting it to residents is unfair.",
+      "as": "পথৰ পোহৰ মেৰামত কৰা পৌৰসভাৰ কৰ্তব্য; বাসিন্দালৈ ঠেলি দিয়া অন্যায়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-045",
+    "q": {
+      "en": "Problem: A canteen serves food in unhygienic conditions.\nCourses of action: I. The management should enforce hygiene rules. II. The canteen should be shut for a year.",
+      "as": "সমস্যা: A canteen serves food in unhygienic conditions.\nকাৰ্যপন্থা: I. The management should enforce hygiene rules. II. The canteen should be shut for a year."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Enforcing hygiene fixes the problem; a long shutdown is disproportionate.",
+      "as": "পৰিষ্কাৰতা বলবৎ কৰিলে সমস্যা সমাধান হয়; দীঘল বন্ধ অতি বেছি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-046",
+    "q": {
+      "en": "Problem: Water pipelines in a town leak heavily.\nCourses of action: I. The authority should repair the pipes and audit losses. II. Residents should pay double for water.",
+      "as": "সমস্যা: Water pipelines in a town leak heavily.\nকাৰ্যপন্থা: I. The authority should repair the pipes and audit losses. II. Residents should pay double for water."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Repairs and auditing stop the loss; raising charges punishes residents for a system fault.",
+      "as": "মেৰামত আৰু নিৰীক্ষাই ক্ষতি বন্ধ কৰে; চাৰ্জ বঢ়ালে ব্যৱস্থাৰ দোষত বাসিন্দাক শাস্তি দিয়ে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-047",
+    "q": {
+      "en": "Problem: Many workers are injured due to old machinery.\nCourses of action: I. The factory should replace or service the machinery. II. Workers should be told to work carefully only.",
+      "as": "সমস্যা: Many workers are injured due to old machinery.\nকাৰ্যপন্থা: I. The factory should replace or service the machinery. II. Workers should be told to work carefully only."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Replacing or servicing machines removes the danger; care alone does not fix old equipment.",
+      "as": "যন্ত্ৰ সলনি বা চাৰ্ভিচিঙে বিপদ আঁতৰায়; কেৱল সাৱধানতাই পুৰণি যন্ত্ৰ ঠিক নকৰে।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-048",
+    "q": {
+      "en": "Problem: A school's playground is full of stones and pits.\nCourses of action: I. The school should level the ground and remove the stones. II. Sports should be stopped in the school.",
+      "as": "সমস্যা: A school's playground is full of stones and pits.\nকাৰ্যপন্থা: I. The school should level the ground and remove the stones. II. Sports should be stopped in the school."
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Levelling the ground makes play safe; stopping sports harms students.",
+      "as": "মাটি সমান কৰিলে খেল সুৰক্ষিত হয়; খেল বন্ধ কৰিলে ছাত্ৰৰ ক্ষতি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-049",
+    "q": {
+      "en": "Problem: Many students are injured while playing on hard grounds.\nCourses of action: I. The school should provide a soft play surface and supervision. II. Sports should be banned in the school.",
+      "as": "সমস্যা: Many students are injured while playing on hard grounds.\nকাৰ্যপন্থা: I. The school should provide a soft play surface and supervision. II. Sports should be banned in the school."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A soft surface and supervision prevent injury; banning sports harms students.",
+      "as": "নৰম পৃষ্ঠ আৰু তদাৰকীয়ে আঘাত ৰোধ কৰে; খেল নিষিদ্ধ কৰিলে ছাত্ৰৰ ক্ষতি।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-050",
+    "q": {
+      "en": "Problem: A village well has dried up in summer.\nCourses of action: I. The panchayat should deepen the well or dig a new one. II. Villagers should stop using water.",
+      "as": "সমস্যা: A village well has dried up in summer.\nকাৰ্যপন্থা: I. The panchayat should deepen the well or dig a new one. II. Villagers should stop using water."
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Deepening or digging a well restores supply; stopping water use is impossible.",
+      "as": "গভীৰ বা নতুন কুঁৱাই যোগান ঘূৰাই আনে; পানী ব্যৱহাৰ বন্ধ কৰা অসম্ভৱ।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-051",
+    "q": {
+      "en": "Problem: A bus route has frequent breakdowns of old buses.\nCourses of action: I. The operator should replace the old buses. II. The route should be closed for a month.",
+      "as": "সমস্যা: A bus route has frequent breakdowns of old buses.\nকাৰ্যপন্থা: I. The operator should replace the old buses. II. The route should be closed for a month."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Replacing buses fixes breakdowns; closing the route disrupts commuters.",
+      "as": "বাছ সলনি কৰিলে বেয়া হোৱা বন্ধ হয়; ৰুট বন্ধ কৰিলে যাত্ৰীৰ অসুবিধা।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-052",
+    "q": {
+      "en": "Problem: Many complaints of wrong billing are received by a power company.\nCourses of action: I. The company should audit meters and correct the bills. II. Customers should be told to pay anyway.",
+      "as": "সমস্যা: Many complaints of wrong billing are received by a power company.\nকাৰ্যপন্থা: I. The company should audit meters and correct the bills. II. Customers should be told to pay anyway."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Auditing meters fixes the errors; forcing payment is unfair.",
+      "as": "মিটাৰ নিৰীক্ষাই ভুল শুধৰায়; জোৰকৈ পেমেন্ট অন্যায়।"
+    }
+  },
+  {
+    "id": "statement-course-of-action-053",
+    "q": {
+      "en": "Problem: A park has no dustbins and is littered.\nCourses of action: I. The authority should install dustbins and clean regularly. II. The park should be closed to the public.",
+      "as": "সমস্যা: A park has no dustbins and is littered.\nকাৰ্যপন্থা: I. The authority should install dustbins and clean regularly. II. The park should be closed to the public."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dustbins and regular cleaning solve littering; closing the park removes a public good.",
+      "as": "ডাষ্টবিন আৰু নিয়মিত পৰিষ্কাৰে আৱৰ্জনা সমাধান কৰে; পাৰ্ক বন্ধ কৰিলে ৰাজহুৱা সুবিধা আঁতৰে।"
     }
   }
 ]

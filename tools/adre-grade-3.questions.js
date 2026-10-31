@@ -110042,8 +110042,218 @@ module.exports = {
   {
    "id": "seating-arrangement-001",
    "q": {
-    "en": "Five friends sit in a row facing north. A is at the extreme left. B is immediately to the right of A. Who is second from the left?",
-    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। A ৰ শাৰীখনৰ একেবাৰে বাওঁমূৰত। B ৰ A ৰ ঠিক সোঁফালে। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    "en": "Five friends sit in a row facing north. The order from left to right is E, D, B, A, C. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, B, A, C। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "E is written first in the order, so E is at the extreme left end.",
+    "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-002",
+   "q": {
+    "en": "In a row facing north the order from left to right is D, E, A, C, B. Who is second to the left of A?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, E, A, C, B। A ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Two places to the left of A is D.",
+    "as": "A ৰ বাওঁফালে দুটা ঠাইত D।"
+   }
+  },
+  {
+   "id": "seating-arrangement-003",
+   "q": {
+    "en": "In a row facing north the order from left to right is B, D, A, C, E. Who is second to the left of E?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, D, A, C, E। E ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Two places to the left of E is A.",
+    "as": "E ৰ বাওঁফালে দুটা ঠাইত A।"
+   }
+  },
+  {
+   "id": "seating-arrangement-004",
+   "q": {
+    "en": "In a row facing north the order from left to right is B, A, C, E, D. Who is immediately to the right of B?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, A, C, E, D। B ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A is immediately to the right of B in the given order.",
+    "as": "দিয়া ক্ৰমত A, B ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-005",
+   "q": {
+    "en": "In a row facing north the order from left to right is B, D, A, C, E. Who is second from the left?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, D, A, C, E। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting from the left, B is first and D is second.",
+    "as": "বাওঁফালৰ পৰা গণনা কৰিলে B প্ৰথম আৰু D দ্বিতীয়।"
+   }
+  },
+  {
+   "id": "seating-arrangement-006",
+   "q": {
+    "en": "In a row facing north the order from left to right is B, C, E, D, A. Who is second from the left?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, C, E, D, A। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Counting from the left, B is first and C is second.",
+    "as": "বাওঁফালৰ পৰা গণনা কৰিলে B প্ৰথম আৰু C দ্বিতীয়।"
+   }
+  },
+  {
+   "id": "seating-arrangement-007",
+   "q": {
+    "en": "In a row facing north the order from left to right is E, D, A, B, C. Who is immediately to the right of E?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, A, B, C। E ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "D is immediately to the right of E in the given order.",
+    "as": "দিয়া ক্ৰমত D, E ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-008",
+   "q": {
+    "en": "In a row facing north the order from left to right is D, B, E, C, A. Who is second from the left?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, B, E, C, A। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
    },
    "options": [
     {
@@ -110059,21 +110269,81 @@ module.exports = {
      "as": "C"
     },
     {
-     "en": "Cannot be determined",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "D",
+     "as": "D"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "A is at the extreme left and B is immediately to its right, so B is second from the left.",
-    "as": "A একেবাৰে বাওঁমূৰত আৰু B তাৰ ঠিক সোঁফালে, গতিকে B বাওঁফালৰ পৰা দ্বিতীয়।"
+    "en": "Counting from the left, D is first and B is second.",
+    "as": "বাওঁফালৰ পৰা গণনা কৰিলে D প্ৰথম আৰু B দ্বিতীয়।"
    }
   },
   {
-   "id": "seating-arrangement-002",
+   "id": "seating-arrangement-009",
    "q": {
-    "en": "Six people sit around a circular table facing the centre. If P is opposite Q, how many people sit between them on one side?",
-    "as": "ছজন মানুহে কেন্দ্ৰলৈ মুখ কৰি এটা বৃত্তাকাৰ মেজত বহে। P ৰ ঠিক বিৰুদ্ধে Q থাকিলে এফালে তেওঁলোকৰ মাজত কিমানজন বহে?"
+    "en": "Five friends sit in a row facing north. The order from left to right is B, C, A, E, D. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, C, A, E, D। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "B is written first in the order, so B is at the extreme left end.",
+    "as": "B ক্ৰমত প্ৰথম, গতিকে B একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-010",
+   "q": {
+    "en": "In a row facing north the order from left to right is C, B, E, D, A. Who is second from the left?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, B, E, D, A। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Counting from the left, C is first and B is second.",
+    "as": "বাওঁফালৰ পৰা গণনা কৰিলে C প্ৰথম আৰু B দ্বিতীয়।"
+   }
+  },
+  {
+   "id": "seating-arrangement-011",
+   "q": {
+    "en": "In a row facing north the order from left to right is D, A, B, E, C. How many people sit between C and D?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, A, B, E, C। C আৰু D ৰ মাজত কিমানজন বহে?"
    },
    "options": [
     {
@@ -110081,6 +110351,692 @@ module.exports = {
      "as": "১"
     },
     {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "C and D have 3 people between them.",
+    "as": "C আৰু D ৰ মাজত 3 জন আছে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-012",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is B, C, D, A, E. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, C, D, A, E। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "B is written first in the order, so B is at the extreme left end.",
+    "as": "B ক্ৰমত প্ৰথম, গতিকে B একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-013",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is A, D, B, C, E, F. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, B, C, E, F। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is written first in the order, so A is at the extreme left end.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-014",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is D, E, F, A, B, C. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, E, F, A, B, C। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "D is written first in the order, so D is at the extreme left end.",
+    "as": "D ক্ৰমত প্ৰথম, গতিকে D একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-015",
+   "q": {
+    "en": "In a row facing north the order from left to right is A, B, D, F, C, E. Who is immediately to the right of C?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, D, F, C, E। C ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "E is immediately to the right of C in the given order.",
+    "as": "দিয়া ক্ৰমত E, C ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-016",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is A, D, C, F, E, B. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, C, F, E, B। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is written first in the order, so A is at the extreme left end.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-017",
+   "q": {
+    "en": "In a row facing north the order from left to right is D, A, E, B, C, F. How many people sit between C and D?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, A, E, B, C, F। C আৰু D ৰ মাজত কিমানজন বহে?"
+   },
+   "options": [
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "C and D have 3 people between them.",
+    "as": "C আৰু D ৰ মাজত 3 জন আছে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-018",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is C, F, D, A, E, B. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, F, D, A, E, B। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "C is written first in the order, so C is at the extreme left end.",
+    "as": "C ক্ৰমত প্ৰথম, গতিকে C একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-019",
+   "q": {
+    "en": "In a row facing north the order from left to right is F, C, B, A, E, D. Who is second to the left of D?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম F, C, B, A, E, D। D ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Two places to the left of D is A.",
+    "as": "D ৰ বাওঁফালে দুটা ঠাইত A।"
+   }
+  },
+  {
+   "id": "seating-arrangement-020",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is E, F, B, A, D, C. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, F, B, A, D, C। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "E is written first in the order, so E is at the extreme left end.",
+    "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-021",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is E, D, A, C, B, F. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, A, C, B, F। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "E is written first in the order, so E is at the extreme left end.",
+    "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-022",
+   "q": {
+    "en": "In a row facing north the order from left to right is E, F, B, D, A, C. Who is immediately to the right of E?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, F, B, D, A, C। E ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "F is immediately to the right of E in the given order.",
+    "as": "দিয়া ক্ৰমত F, E ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-023",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is A, D, B, F, E, C. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, B, F, E, C। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A is written first in the order, so A is at the extreme left end.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-024",
+   "q": {
+    "en": "In a row facing north the order from left to right is A, D, E, C, B, F. Who is second to the left of F?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, E, C, B, F। F ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Two places to the left of F is C.",
+    "as": "F ৰ বাওঁফালে দুটা ঠাইত C।"
+   }
+  },
+  {
+   "id": "seating-arrangement-025",
+   "q": {
+    "en": "In a row facing north the order from left to right is C, E, A, D, B, F. Who is immediately to the right of C?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, E, A, D, B, F। C ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "E is immediately to the right of C in the given order.",
+    "as": "দিয়া ক্ৰমত E, C ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-026",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is E, D, C, A, F, B. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, C, A, F, B। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "E is written first in the order, so E is at the extreme left end.",
+    "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-027",
+   "q": {
+    "en": "In a row facing north the order from left to right is B, A, E, D, G, F, C. Who is immediately to the right of B?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, A, E, D, G, F, C। B ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A is immediately to the right of B in the given order.",
+    "as": "দিয়া ক্ৰমত A, B ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-028",
+   "q": {
+    "en": "In a row facing north the order from left to right is A, D, E, C, B, F, G. Who is second to the left of F?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, E, C, B, F, G। F ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Two places to the left of F is C.",
+    "as": "F ৰ বাওঁফালে দুটা ঠাইত C।"
+   }
+  },
+  {
+   "id": "seating-arrangement-029",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is F, E, A, D, C, G, B. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম F, E, A, D, C, G, B। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "F is written first in the order, so F is at the extreme left end.",
+    "as": "F ক্ৰমত প্ৰথম, গতিকে F একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-030",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is A, B, E, C, F, G, D. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, E, C, F, G, D। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A is written first in the order, so A is at the extreme left end.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-031",
+   "q": {
+    "en": "In a row facing north the order from left to right is G, F, B, D, E, C, A. Who is immediately to the right of E?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম G, F, B, D, E, C, A। E ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "C is immediately to the right of E in the given order.",
+    "as": "দিয়া ক্ৰমত C, E ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-032",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is B, E, D, A, G, C, F. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, E, D, A, G, C, F। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B is written first in the order, so B is at the extreme left end.",
+    "as": "B ক্ৰমত প্ৰথম, গতিকে B একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-033",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is A, B, D, C, E, G, F. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, D, C, E, G, F। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A is written first in the order, so A is at the extreme left end.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-034",
+   "q": {
+    "en": "In a row facing north the order from left to right is D, C, F, A, E, B, G. How many people sit between F and E?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, C, F, A, E, B, G। F আৰু E ৰ মাজত কিমানজন বহে?"
+   },
+   "options": [
+    {
      "en": "2",
      "as": "২"
     },
@@ -110091,12 +111047,1186 @@ module.exports = {
     {
      "en": "4",
      "as": "৪"
+    },
+    {
+     "en": "1",
+     "as": "১"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "F and E have 1 people between them.",
+    "as": "F আৰু E ৰ মাজত 1 জন আছে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-035",
+   "q": {
+    "en": "In a row facing north the order from left to right is G, F, D, E, A, B, C. Who is immediately to the right of B?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম G, F, D, E, A, B, C। B ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "C is immediately to the right of B in the given order.",
+    "as": "দিয়া ক্ৰমত C, B ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-036",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is A, B, C, E, G, F, D. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, C, E, G, F, D। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A is written first in the order, so A is at the extreme left end.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-037",
+   "q": {
+    "en": "In a row facing north the order from left to right is D, A, E, G, C, B, F. Who is immediately to the right of C?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, A, E, G, C, B, F। C ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "With six people in a circle, two people sit on each side between a pair who face each other.",
-    "as": "বৃত্তত ছজন মানুহ থাকিলে, এজনে আনজনৰ ঠিক বিৰুদ্ধে থাকিলে এফালে দুজনকৈ বহে।"
+    "en": "B is immediately to the right of C in the given order.",
+    "as": "দিয়া ক্ৰমত B, C ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-038",
+   "q": {
+    "en": "In a row facing north the order from left to right is C, B, E, G, A, D, F. Who is immediately to the right of C?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, B, E, G, A, D, F। C ৰ ঠিক সোঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "B is immediately to the right of C in the given order.",
+    "as": "দিয়া ক্ৰমত B, C ৰ ঠিক সোঁফালে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-039",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is A, B, D, G, C, E, F. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, D, G, C, E, F। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A is written first in the order, so A is at the extreme left end.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-040",
+   "q": {
+    "en": "Five friends sit in a row facing north. The order from left to right is C, G, D, F, B, E, A. Who is at the extreme left end?",
+    "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, G, D, F, B, E, A। একেবাৰে বাওঁমূৰত কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "C is written first in the order, so C is at the extreme left end.",
+    "as": "C ক্ৰমত প্ৰথম, গতিকে C একেবাৰে বাওঁমূৰত।"
+   }
+  },
+  {
+   "id": "seating-arrangement-041",
+   "q": {
+    "en": "In a row facing north the order from left to right is D, F, B, A, G, C, E. How many people sit between B and E?",
+    "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, F, B, A, G, C, E। B আৰু E ৰ মাজত কিমানজন বহে?"
+   },
+   "options": [
+    {
+     "en": "1",
+     "as": "১"
+    },
+    {
+     "en": "3",
+     "as": "৩"
+    },
+    {
+     "en": "4",
+     "as": "৪"
+    },
+    {
+     "en": "2",
+     "as": "২"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "B and E have 3 people between them.",
+    "as": "B আৰু E ৰ মাজত 3 জন আছে।"
+   }
+  },
+  {
+   "id": "seating-arrangement-042",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order E, A, D, C, F, B. Who is second to the left of E?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, A, D, C, F, B ক্ৰমত বহে। E ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Two places to the left of E (clockwise) is D.",
+    "as": "E ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) D।"
+   }
+  },
+  {
+   "id": "seating-arrangement-043",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order D, B, A, C, E, F. Who is second to the left of E?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, B, A, C, E, F ক্ৰমত বহে। E ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Two places to the left of E (clockwise) is D.",
+    "as": "E ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) D।"
+   }
+  },
+  {
+   "id": "seating-arrangement-044",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order B, C, A, E, F, D. Who sits opposite C?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, C, A, E, F, D ক্ৰমত বহে। C ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In a circle of 6, the person opposite is 3 places away, that is F.",
+    "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ F।"
+   }
+  },
+  {
+   "id": "seating-arrangement-045",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order D, B, E, A, F, C. Who is immediately to the left of E?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, B, E, A, F, C ক্ৰমত বহে। E ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is A.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ A।"
+   }
+  },
+  {
+   "id": "seating-arrangement-046",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order B, F, C, D, A, E. Who is immediately to the left of C?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, F, C, D, A, E ক্ৰমত বহে। C ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is D.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ D।"
+   }
+  },
+  {
+   "id": "seating-arrangement-047",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order E, F, A, B, C, D. Who is immediately to the left of E?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, F, A, B, C, D ক্ৰমত বহে। E ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is F.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ F।"
+   }
+  },
+  {
+   "id": "seating-arrangement-048",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order D, A, B, F, E, C. Who is immediately to the left of C?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, A, B, F, E, C ক্ৰমত বহে। C ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is D.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ D।"
+   }
+  },
+  {
+   "id": "seating-arrangement-049",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order D, E, F, C, A, B. Who sits opposite E?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, E, F, C, A, B ক্ৰমত বহে। E ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In a circle of 6, the person opposite is 3 places away, that is A.",
+    "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ A।"
+   }
+  },
+  {
+   "id": "seating-arrangement-050",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order B, D, C, E, A, F. Who is immediately to the left of B?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, D, C, E, A, F ক্ৰমত বহে। B ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is D.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ D।"
+   }
+  },
+  {
+   "id": "seating-arrangement-051",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order E, C, F, A, B, D. Who sits opposite E?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, C, F, A, B, D ক্ৰমত বহে। E ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In a circle of 6, the person opposite is 3 places away, that is A.",
+    "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ A।"
+   }
+  },
+  {
+   "id": "seating-arrangement-052",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order C, A, F, B, D, E. Who sits opposite A?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, A, F, B, D, E ক্ৰমত বহে। A ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In a circle of 6, the person opposite is 3 places away, that is D.",
+    "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ D।"
+   }
+  },
+  {
+   "id": "seating-arrangement-053",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order B, F, E, C, A, D. Who is immediately to the left of B?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, F, E, C, A, D ক্ৰমত বহে। B ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is F.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ F।"
+   }
+  },
+  {
+   "id": "seating-arrangement-054",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order D, F, B, A, E, C. Who is second to the left of B?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, F, B, A, E, C ক্ৰমত বহে। B ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Two places to the left of B (clockwise) is E.",
+    "as": "B ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) E।"
+   }
+  },
+  {
+   "id": "seating-arrangement-055",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order C, F, D, E, A, B. Who sits opposite F?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, F, D, E, A, B ক্ৰমত বহে। F ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "In a circle of 6, the person opposite is 3 places away, that is A.",
+    "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ A।"
+   }
+  },
+  {
+   "id": "seating-arrangement-056",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order B, F, C, D, E, A. Who sits opposite D?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, F, C, D, E, A ক্ৰমত বহে। D ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In a circle of 6, the person opposite is 3 places away, that is B.",
+    "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ B।"
+   }
+  },
+  {
+   "id": "seating-arrangement-057",
+   "q": {
+    "en": "6 friends sit around a circular table facing the centre, in clockwise order B, E, A, C, F, D. Who is immediately to the left of C?",
+    "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, A, C, F, D ক্ৰমত বহে। C ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is F.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ F।"
+   }
+  },
+  {
+   "id": "seating-arrangement-058",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order E, F, B, G, A, H, C, D. Who is immediately to the left of A?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, F, B, G, A, H, C, D ক্ৰমত বহে। A ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is H.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ H।"
+   }
+  },
+  {
+   "id": "seating-arrangement-059",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order C, F, H, B, A, D, G, E. Who is immediately to the left of F?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, F, H, B, A, D, G, E ক্ৰমত বহে। F ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is H.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ H।"
+   }
+  },
+  {
+   "id": "seating-arrangement-060",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order B, E, H, F, D, A, C, G. Who sits opposite H?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, H, F, D, A, C, G ক্ৰমত বহে। H ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In a circle of 8, the person opposite is 4 places away, that is C.",
+    "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ C।"
+   }
+  },
+  {
+   "id": "seating-arrangement-061",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order A, B, G, H, F, D, E, C. Who is second to the left of D?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত A, B, G, H, F, D, E, C ক্ৰমত বহে। D ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Two places to the left of D (clockwise) is C.",
+    "as": "D ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) C।"
+   }
+  },
+  {
+   "id": "seating-arrangement-062",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order C, G, A, D, F, E, H, B. Who is second to the left of D?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, G, A, D, F, E, H, B ক্ৰমত বহে। D ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Two places to the left of D (clockwise) is E.",
+    "as": "D ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) E।"
+   }
+  },
+  {
+   "id": "seating-arrangement-063",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order A, C, F, D, H, E, G, B. Who is second to the left of A?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত A, C, F, D, H, E, G, B ক্ৰমত বহে। A ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Two places to the left of A (clockwise) is F.",
+    "as": "A ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) F।"
+   }
+  },
+  {
+   "id": "seating-arrangement-064",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order F, D, H, E, B, A, G, C. Who sits opposite B?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত F, D, H, E, B, A, G, C ক্ৰমত বহে। B ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In a circle of 8, the person opposite is 4 places away, that is F.",
+    "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ F।"
+   }
+  },
+  {
+   "id": "seating-arrangement-065",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order G, F, A, H, B, C, D, E. Who sits opposite G?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত G, F, A, H, B, C, D, E ক্ৰমত বহে। G ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In a circle of 8, the person opposite is 4 places away, that is B.",
+    "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ B।"
+   }
+  },
+  {
+   "id": "seating-arrangement-066",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order B, E, H, C, F, G, D, A. Who sits opposite F?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, H, C, F, G, D, A ক্ৰমত বহে। F ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In a circle of 8, the person opposite is 4 places away, that is B.",
+    "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ B।"
+   }
+  },
+  {
+   "id": "seating-arrangement-067",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order C, H, F, D, G, A, B, E. Who sits opposite D?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, H, F, D, G, A, B, E ক্ৰমত বহে। D ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In a circle of 8, the person opposite is 4 places away, that is E.",
+    "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ E।"
+   }
+  },
+  {
+   "id": "seating-arrangement-068",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order B, A, G, H, F, E, D, C. Who is immediately to the left of G?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, A, G, H, F, E, D, C ক্ৰমত বহে। G ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "H",
+     "as": "H"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is H.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ H।"
+   }
+  },
+  {
+   "id": "seating-arrangement-069",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order D, A, C, G, H, F, B, E. Who is immediately to the left of F?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, A, C, G, H, F, B, E ক্ৰমত বহে। F ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is B.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ B।"
+   }
+  },
+  {
+   "id": "seating-arrangement-070",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order D, H, C, G, A, F, E, B. Who is second to the left of G?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, H, C, G, A, F, E, B ক্ৰমত বহে। G ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Two places to the left of G (clockwise) is F.",
+    "as": "G ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) F।"
+   }
+  },
+  {
+   "id": "seating-arrangement-071",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order B, E, F, A, G, C, D, H. Who is immediately to the left of B?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, F, A, G, C, D, H ক্ৰমত বহে। B ৰ ঠিক বাওঁফালে কোন?"
+   },
+   "options": [
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Facing the centre, the immediate left is the next place clockwise, which is E.",
+    "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ E।"
+   }
+  },
+  {
+   "id": "seating-arrangement-072",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order H, C, G, E, A, D, F, B. Who sits opposite E?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত H, C, G, E, A, D, F, B ক্ৰমত বহে। E ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "In a circle of 8, the person opposite is 4 places away, that is B.",
+    "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ B।"
+   }
+  },
+  {
+   "id": "seating-arrangement-073",
+   "q": {
+    "en": "8 friends sit around a circular table facing the centre, in clockwise order D, H, A, G, F, B, E, C. Who is second to the left of C?",
+    "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, H, A, G, F, B, E, C ক্ৰমত বহে। C ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "H",
+     "as": "H"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Two places to the left of C (clockwise) is H.",
+    "as": "C ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) H।"
    }
   }
  ],
@@ -110104,61 +112234,1891 @@ module.exports = {
   {
    "id": "complex-puzzles-001",
    "q": {
-    "en": "Five boxes are placed one above another. P is immediately above Q. Q is at the bottom. Who is at the top?",
-    "as": "পাঁচটা পেটিকা এটাৰ ওপৰত আনটো ৰখা হৈছে। P ৰ Q ৰ ঠিক ওপৰত। Q একেবাৰে তলত। ওপৰত কোন?"
+    "en": "4 people C, B, D, A live on different floors of a building, from bottom to top in the order C, B, D, A. Who lives on the top floor?",
+    "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, B, D, A। ওপৰ মহলাত কোন থাকে?"
    },
    "options": [
     {
-     "en": "P",
-     "as": "P"
+     "en": "D",
+     "as": "D"
     },
     {
-     "en": "Q",
-     "as": "Q"
+     "en": "A",
+     "as": "A"
     },
     {
-     "en": "Cannot be determined from the given clue",
-     "as": "দিয়া সূত্ৰৰ পৰা নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "B",
+     "as": "B"
     },
     {
-     "en": "The box just above P",
-     "as": "P ৰ ঠিক ওপৰৰ পেটিকাটো"
+     "en": "C",
+     "as": "C"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "The clue fixes only P and Q; the positions of the other three boxes are not given, so the top box cannot be determined.",
-    "as": "সূত্ৰই কেৱল P আৰু Q স্থিৰ কৰে; আন তিনিটা পেটিকাৰ অৱস্থান দিয়া নাই, গতিকে ওপৰৰ পেটিকাটো নিৰ্ণয় কৰিব নোৱাৰি।"
+    "en": "A is listed last (highest), so A lives on the top floor.",
+    "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
    }
   },
   {
    "id": "complex-puzzles-002",
    "q": {
-    "en": "In a row of seven boxes, R is in the exact middle. How many boxes are to its right?",
-    "as": "সাতটা পেটিকাৰ এটা শাৰীত R ঠিক মাজত। তাৰ সোঁফালে কিমানটা পেটিকা?"
+    "en": "4 people live on different floors, from bottom to top in the order C, D, B, A. Who lives immediately above B?",
+    "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, D, B, A। B ৰ ঠিক ওপৰত কোন থাকে?"
    },
    "options": [
     {
-     "en": "4",
-     "as": "৪"
+     "en": "B",
+     "as": "B"
     },
     {
-     "en": "2",
-     "as": "২"
+     "en": "A",
+     "as": "A"
     },
     {
-     "en": "6",
-     "as": "৬"
+     "en": "D",
+     "as": "D"
     },
     {
-     "en": "3",
-     "as": "৩"
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The floor just above B is occupied by A.",
+    "as": "B ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-003",
+   "q": {
+    "en": "4 people live on different floors, from bottom to top in the order A, D, B, C. Who lives on the ground floor?",
+    "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, D, B, C। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A is listed first (lowest), so A lives on the ground floor.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-004",
+   "q": {
+    "en": "4 people live on different floors, from bottom to top in the order D, A, B, C. Who lives on the ground floor?",
+    "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, A, B, C। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "D is listed first (lowest), so D lives on the ground floor.",
+    "as": "D ক্ৰমত প্ৰথম, গতিকে D তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-005",
+   "q": {
+    "en": "4 people live on different floors, from bottom to top in the order A, B, D, C. Who lives on the ground floor?",
+    "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, B, D, C। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "The middle position of seven is the fourth, which leaves three boxes on each side.",
-    "as": "সাতটাৰ মাজৰ স্থান চতুৰ্থ, যাৰ ফলত দুয়োফালে তিনিটাকৈ পেটিকা থাকে।"
+    "en": "A is listed first (lowest), so A lives on the ground floor.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-006",
+   "q": {
+    "en": "4 people D, A, B, C live on different floors of a building, from bottom to top in the order D, A, B, C. Who lives on the top floor?",
+    "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, A, B, C। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "C is listed last (highest), so C lives on the top floor.",
+    "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-007",
+   "q": {
+    "en": "4 people B, D, C, A live on different floors of a building, from bottom to top in the order B, D, C, A. Who lives on the top floor?",
+    "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম B, D, C, A। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is listed last (highest), so A lives on the top floor.",
+    "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-008",
+   "q": {
+    "en": "4 people live on different floors, from bottom to top in the order A, C, B, D. Who lives on the ground floor?",
+    "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, C, B, D। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is listed first (lowest), so A lives on the ground floor.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-009",
+   "q": {
+    "en": "4 people A, C, D, B live on different floors of a building, from bottom to top in the order A, C, D, B. Who lives on the top floor?",
+    "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, C, D, B। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B is listed last (highest), so B lives on the top floor.",
+    "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-010",
+   "q": {
+    "en": "4 people live on different floors, from bottom to top in the order B, C, D, A. Who lives immediately above D?",
+    "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম B, C, D, A। D ৰ ঠিক ওপৰত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The floor just above D is occupied by A.",
+    "as": "D ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-011",
+   "q": {
+    "en": "5 people A, B, E, D, C live on different floors of a building, from bottom to top in the order A, B, E, D, C. Who lives on the top floor?",
+    "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, B, E, D, C। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "C is listed last (highest), so C lives on the top floor.",
+    "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-012",
+   "q": {
+    "en": "5 people D, C, A, E, B live on different floors of a building, from bottom to top in the order D, C, A, E, B. Who lives on the top floor?",
+    "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, C, A, E, B। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B is listed last (highest), so B lives on the top floor.",
+    "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-013",
+   "q": {
+    "en": "5 people E, A, D, B, C live on different floors of a building, from bottom to top in the order E, A, D, B, C. Who lives on the top floor?",
+    "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, A, D, B, C। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "C is listed last (highest), so C lives on the top floor.",
+    "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-014",
+   "q": {
+    "en": "5 people live on different floors, from bottom to top in the order C, B, E, D, A. Who lives on the ground floor?",
+    "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, B, E, D, A। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "C is listed first (lowest), so C lives on the ground floor.",
+    "as": "C ক্ৰমত প্ৰথম, গতিকে C তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-015",
+   "q": {
+    "en": "5 people live on different floors, from bottom to top in the order A, B, C, D, E. Who lives on the ground floor?",
+    "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, B, C, D, E। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is listed first (lowest), so A lives on the ground floor.",
+    "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-016",
+   "q": {
+    "en": "5 people live on different floors, from bottom to top in the order C, A, D, E, B. Who lives on the ground floor?",
+    "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, A, D, E, B। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "C is listed first (lowest), so C lives on the ground floor.",
+    "as": "C ক্ৰমত প্ৰথম, গতিকে C তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-017",
+   "q": {
+    "en": "5 people live on different floors, from bottom to top in the order A, E, D, C, B. Who lives immediately above D?",
+    "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, E, D, C, B। D ৰ ঠিক ওপৰত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The floor just above D is occupied by C.",
+    "as": "D ৰ ঠিক ওপৰৰ মহলাত C থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-018",
+   "q": {
+    "en": "5 people D, B, C, A, E live on different floors of a building, from bottom to top in the order D, B, C, A, E. Who lives on the top floor?",
+    "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, B, C, A, E। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "E is listed last (highest), so E lives on the top floor.",
+    "as": "E ক্ৰমত শেষত, গতিকে E ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-019",
+   "q": {
+    "en": "5 people live on different floors, from bottom to top in the order C, D, E, B, A. Who lives on the ground floor?",
+    "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, D, E, B, A। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "C is listed first (lowest), so C lives on the ground floor.",
+    "as": "C ক্ৰমত প্ৰথম, গতিকে C তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-020",
+   "q": {
+    "en": "5 people D, C, E, B, A live on different floors of a building, from bottom to top in the order D, C, E, B, A. Who lives on the top floor?",
+    "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, C, E, B, A। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A is listed last (highest), so A lives on the top floor.",
+    "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-021",
+   "q": {
+    "en": "5 people E, A, C, B, D live on different floors of a building, from bottom to top in the order E, A, C, B, D. Who lives on the top floor?",
+    "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, A, C, B, D। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "D is listed last (highest), so D lives on the top floor.",
+    "as": "D ক্ৰমত শেষত, গতিকে D ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-022",
+   "q": {
+    "en": "6 people C, A, B, D, F, E live on different floors of a building, from bottom to top in the order C, A, B, D, F, E. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, A, B, D, F, E। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "E is listed last (highest), so E lives on the top floor.",
+    "as": "E ক্ৰমত শেষত, গতিকে E ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-023",
+   "q": {
+    "en": "6 people live on different floors, from bottom to top in the order E, C, F, B, A, D. Who lives on the ground floor?",
+    "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, C, F, B, A, D। তলৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "E is listed first (lowest), so E lives on the ground floor.",
+    "as": "E ক্ৰমত প্ৰথম, গতিকে E তলৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-024",
+   "q": {
+    "en": "6 people A, E, D, C, F, B live on different floors of a building, from bottom to top in the order A, E, D, C, F, B. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, E, D, C, F, B। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "B is listed last (highest), so B lives on the top floor.",
+    "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-025",
+   "q": {
+    "en": "6 people live on different floors, from bottom to top in the order C, A, D, B, E, F. Who lives immediately above A?",
+    "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, A, D, B, E, F। A ৰ ঠিক ওপৰত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The floor just above A is occupied by D.",
+    "as": "A ৰ ঠিক ওপৰৰ মহলাত D থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-026",
+   "q": {
+    "en": "6 people F, A, D, B, C, E live on different floors of a building, from bottom to top in the order F, A, D, B, C, E. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম F, A, D, B, C, E। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "E is listed last (highest), so E lives on the top floor.",
+    "as": "E ক্ৰমত শেষত, গতিকে E ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-027",
+   "q": {
+    "en": "6 people E, D, C, F, A, B live on different floors of a building, from bottom to top in the order E, D, C, F, A, B. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, D, C, F, A, B। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "B is listed last (highest), so B lives on the top floor.",
+    "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-028",
+   "q": {
+    "en": "6 people D, B, E, F, C, A live on different floors of a building, from bottom to top in the order D, B, E, F, C, A. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, B, E, F, C, A। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A is listed last (highest), so A lives on the top floor.",
+    "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-029",
+   "q": {
+    "en": "6 people D, E, B, F, A, C live on different floors of a building, from bottom to top in the order D, E, B, F, A, C. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, E, B, F, A, C। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "C is listed last (highest), so C lives on the top floor.",
+    "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-030",
+   "q": {
+    "en": "6 people live on different floors, from bottom to top in the order F, D, A, C, E, B. Who lives immediately above D?",
+    "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম F, D, A, C, E, B। D ৰ ঠিক ওপৰত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The floor just above D is occupied by A.",
+    "as": "D ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-031",
+   "q": {
+    "en": "6 people F, B, A, E, C, D live on different floors of a building, from bottom to top in the order F, B, A, E, C, D. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম F, B, A, E, C, D। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "D is listed last (highest), so D lives on the top floor.",
+    "as": "D ক্ৰমত শেষত, গতিকে D ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-032",
+   "q": {
+    "en": "6 people B, E, A, D, C, F live on different floors of a building, from bottom to top in the order B, E, A, D, C, F. Who lives on the top floor?",
+    "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম B, E, A, D, C, F। ওপৰ মহলাত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "F",
+     "as": "F"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "F is listed last (highest), so F lives on the top floor.",
+    "as": "F ক্ৰমত শেষত, গতিকে F ওপৰ মহলাত থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-033",
+   "q": {
+    "en": "6 people live on different floors, from bottom to top in the order C, F, B, A, D, E. Who lives immediately above B?",
+    "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, F, B, A, D, E। B ৰ ঠিক ওপৰত কোন থাকে?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The floor just above B is occupied by A.",
+    "as": "B ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-034",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is A on Friday, C on Tuesday, D on Thursday, B on Wednesday, E on Monday, so A visits on Friday. On which day does A visit?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Friday, C ক Tuesday, D ক Thursday, B ক Wednesday, E ক Monday, অৰ্থাৎ A ক Friday তাৰিখে যায়। A ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Friday",
+     "as": "শুক্ৰবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The list says A visits on Friday.",
+    "as": "তালিকাত A ক Friday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-035",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is A on Thursday, C on Monday, B on Tuesday, D on Wednesday, so A visits on Thursday. On which day does A visit?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Thursday, C ক Monday, B ক Tuesday, D ক Wednesday, অৰ্থাৎ A ক Thursday তাৰিখে যায়। A ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says A visits on Thursday.",
+    "as": "তালিকাত A ক Thursday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-036",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, B on Wednesday, A on Thursday, C on Friday, E on Monday. Who visits on Wednesday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, B ক Wednesday, A ক Thursday, C ক Friday, E ক Monday। Wednesday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says B visits on Wednesday.",
+    "as": "তালিকাত B ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-037",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is C on Thursday, A on Monday, B on Wednesday, E on Tuesday, D on Friday, so B visits on Wednesday. On which day does B visit?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Thursday, A ক Monday, B ক Wednesday, E ক Tuesday, D ক Friday, অৰ্থাৎ B ক Wednesday তাৰিখে যায়। B ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The list says B visits on Wednesday.",
+    "as": "তালিকাত B ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-038",
+   "q": {
+    "en": "6 friends visit a library on 6 different days. The order of visits is E on Tuesday, F on Saturday, A on Wednesday, B on Monday, D on Thursday, C on Friday, so A visits on Wednesday. On which day does A visit?",
+    "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Tuesday, F ক Saturday, A ক Wednesday, B ক Monday, D ক Thursday, C ক Friday, অৰ্থাৎ A ক Wednesday তাৰিখে যায়। A ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The list says A visits on Wednesday.",
+    "as": "তালিকাত A ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-039",
+   "q": {
+    "en": "6 friends visit a library on 6 different days. The order of visits is D on Saturday, B on Tuesday, E on Friday, A on Monday, F on Thursday, C on Wednesday, so E visits on Friday. On which day does E visit?",
+    "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Saturday, B ক Tuesday, E ক Friday, A ক Monday, F ক Thursday, C ক Wednesday, অৰ্থাৎ E ক Friday তাৰিখে যায়। E ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Friday",
+     "as": "শুক্ৰবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The list says E visits on Friday.",
+    "as": "তালিকাত E ক Friday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-040",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is A on Monday, D on Tuesday, B on Thursday, C on Wednesday. Who visits on Monday?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Monday, D ক Tuesday, B ক Thursday, C ক Wednesday। Monday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says A visits on Monday.",
+    "as": "তালিকাত A ক Monday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-041",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is C on Tuesday, D on Wednesday, B on Thursday, A on Monday. Who visits on Thursday?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Tuesday, D ক Wednesday, B ক Thursday, A ক Monday। Thursday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says B visits on Thursday.",
+    "as": "তালিকাত B ক Thursday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-042",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is C on Wednesday, A on Tuesday, B on Thursday, D on Monday. Who visits on Tuesday?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Wednesday, A ক Tuesday, B ক Thursday, D ক Monday। Tuesday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The list says A visits on Tuesday.",
+    "as": "তালিকাত A ক Tuesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-043",
+   "q": {
+    "en": "6 friends visit a library on 6 different days. The order of visits is C on Friday, E on Wednesday, A on Saturday, B on Monday, D on Thursday, F on Tuesday. Who visits on Thursday?",
+    "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Friday, E ক Wednesday, A ক Saturday, B ক Monday, D ক Thursday, F ক Tuesday। Thursday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The list says D visits on Thursday.",
+    "as": "তালিকাত D ক Thursday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-044",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is C on Friday, A on Tuesday, D on Wednesday, B on Thursday, E on Monday. Who visits on Wednesday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Friday, A ক Tuesday, D ক Wednesday, B ক Thursday, E ক Monday। Wednesday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says D visits on Wednesday.",
+    "as": "তালিকাত D ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-045",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, E on Monday, A on Thursday, C on Friday, B on Wednesday. Who visits on Monday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, E ক Monday, A ক Thursday, C ক Friday, B ক Wednesday। Monday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "E",
+     "as": "E"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The list says E visits on Monday.",
+    "as": "তালিকাত E ক Monday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-046",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is B on Friday, D on Monday, E on Thursday, C on Wednesday, A on Tuesday, so A visits on Tuesday. On which day does A visit?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Friday, D ক Monday, E ক Thursday, C ক Wednesday, A ক Tuesday, অৰ্থাৎ A ক Tuesday তাৰিখে যায়। A ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says A visits on Tuesday.",
+    "as": "তালিকাত A ক Tuesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-047",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is A on Thursday, B on Monday, E on Friday, C on Tuesday, D on Wednesday. Who visits on Tuesday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Thursday, B ক Monday, E ক Friday, C ক Tuesday, D ক Wednesday। Tuesday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says C visits on Tuesday.",
+    "as": "তালিকাত C ক Tuesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-048",
+   "q": {
+    "en": "6 friends visit a library on 6 different days. The order of visits is C on Saturday, B on Monday, A on Wednesday, F on Friday, E on Thursday, D on Tuesday. Who visits on Saturday?",
+    "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Saturday, B ক Monday, A ক Wednesday, F ক Friday, E ক Thursday, D ক Tuesday। Saturday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says C visits on Saturday.",
+    "as": "তালিকাত C ক Saturday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-049",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, B on Wednesday, A on Friday, C on Thursday, E on Monday, so C visits on Thursday. On which day does C visit?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, B ক Wednesday, A ক Friday, C ক Thursday, E ক Monday, অৰ্থাৎ C ক Thursday তাৰিখে যায়। C ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says C visits on Thursday.",
+    "as": "তালিকাত C ক Thursday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-050",
+   "q": {
+    "en": "6 friends visit a library on 6 different days. The order of visits is F on Thursday, D on Friday, E on Monday, C on Wednesday, A on Tuesday, B on Saturday. Who visits on Saturday?",
+    "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম F ক Thursday, D ক Friday, E ক Monday, C ক Wednesday, A ক Tuesday, B ক Saturday। Saturday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says B visits on Saturday.",
+    "as": "তালিকাত B ক Saturday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-051",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is B on Monday, A on Tuesday, D on Thursday, C on Wednesday, so B visits on Monday. On which day does B visit?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Monday, A ক Tuesday, D ক Thursday, C ক Wednesday, অৰ্থাৎ B ক Monday তাৰিখে যায়। B ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The list says B visits on Monday.",
+    "as": "তালিকাত B ক Monday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-052",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is E on Monday, D on Thursday, B on Tuesday, A on Friday, C on Wednesday. Who visits on Monday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Monday, D ক Thursday, B ক Tuesday, A ক Friday, C ক Wednesday। Monday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "E",
+     "as": "E"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The list says E visits on Monday.",
+    "as": "তালিকাত E ক Monday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-053",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is A on Tuesday, D on Wednesday, C on Thursday, B on Monday. Who visits on Wednesday?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Tuesday, D ক Wednesday, C ক Thursday, B ক Monday। Wednesday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The list says D visits on Wednesday.",
+    "as": "তালিকাত D ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-054",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, E on Friday, C on Monday, A on Wednesday, B on Thursday. Who visits on Thursday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, E ক Friday, C ক Monday, A ক Wednesday, B ক Thursday। Thursday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The list says B visits on Thursday.",
+    "as": "তালিকাত B ক Thursday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-055",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is A on Monday, D on Thursday, C on Friday, E on Wednesday, B on Tuesday. Who visits on Friday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Monday, D ক Thursday, C ক Friday, E ক Wednesday, B ক Tuesday। Friday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says C visits on Friday.",
+    "as": "তালিকাত C ক Friday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-056",
+   "q": {
+    "en": "6 friends visit a library on 6 different days. The order of visits is B on Wednesday, F on Tuesday, C on Friday, A on Thursday, E on Saturday, D on Monday, so D visits on Monday. On which day does D visit?",
+    "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Wednesday, F ক Tuesday, C ক Friday, A ক Thursday, E ক Saturday, D ক Monday, অৰ্থাৎ D ক Monday তাৰিখে যায়। D ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says D visits on Monday.",
+    "as": "তালিকাত D ক Monday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-057",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is E on Friday, C on Monday, D on Thursday, A on Tuesday, B on Wednesday, so D visits on Thursday. On which day does D visit?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Friday, C ক Monday, D ক Thursday, A ক Tuesday, B ক Wednesday, অৰ্থাৎ D ক Thursday তাৰিখে যায়। D ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says D visits on Thursday.",
+    "as": "তালিকাত D ক Thursday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-058",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is A on Tuesday, C on Wednesday, D on Monday, B on Thursday, so A visits on Tuesday. On which day does A visit?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Tuesday, C ক Wednesday, D ক Monday, B ক Thursday, অৰ্থাৎ A ক Tuesday তাৰিখে যায়। A ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says A visits on Tuesday.",
+    "as": "তালিকাত A ক Tuesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-059",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is D on Thursday, A on Monday, C on Wednesday, B on Tuesday, so C visits on Wednesday. On which day does C visit?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Thursday, A ক Monday, C ক Wednesday, B ক Tuesday, অৰ্থাৎ C ক Wednesday তাৰিখে যায়। C ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The list says C visits on Wednesday.",
+    "as": "তালিকাত C ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-060",
+   "q": {
+    "en": "4 friends visit a library on 4 different days. The order of visits is B on Wednesday, C on Tuesday, A on Monday, D on Thursday, so B visits on Wednesday. On which day does B visit?",
+    "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Wednesday, C ক Tuesday, A ক Monday, D ক Thursday, অৰ্থাৎ B ক Wednesday তাৰিখে যায়। B ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The list says B visits on Wednesday.",
+    "as": "তালিকাত B ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-061",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is C on Wednesday, A on Tuesday, B on Monday, D on Friday, E on Thursday. Who visits on Wednesday?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Wednesday, A ক Tuesday, B ক Monday, D ক Friday, E ক Thursday। Wednesday তাৰিখে কোন যায়?"
+   },
+   "options": [
+    {
+     "en": "D",
+     "as": "D"
+    },
+    {
+     "en": "A",
+     "as": "A"
+    },
+    {
+     "en": "C",
+     "as": "C"
+    },
+    {
+     "en": "B",
+     "as": "B"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The list says C visits on Wednesday.",
+    "as": "তালিকাত C ক Wednesday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-062",
+   "q": {
+    "en": "6 friends visit a library on 6 different days. The order of visits is B on Tuesday, E on Monday, F on Thursday, C on Saturday, A on Friday, D on Wednesday, so C visits on Saturday. On which day does C visit?",
+    "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Tuesday, E ক Monday, F ক Thursday, C ক Saturday, A ক Friday, D ক Wednesday, অৰ্থাৎ C ক Saturday তাৰিখে যায়। C ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Saturday",
+     "as": "শনিবাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The list says C visits on Saturday.",
+    "as": "তালিকাত C ক Saturday তাৰিখে যায় বুলি আছে।"
+   }
+  },
+  {
+   "id": "complex-puzzles-063",
+   "q": {
+    "en": "5 friends visit a library on 5 different days. The order of visits is E on Wednesday, A on Thursday, D on Tuesday, B on Friday, C on Monday, so A visits on Thursday. On which day does A visit?",
+    "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Wednesday, A ক Thursday, D ক Tuesday, B ক Friday, C ক Monday, অৰ্থাৎ A ক Thursday তাৰিখে যায়। A ক কোন দিনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Tuesday",
+     "as": "মঙ্গলবাৰ"
+    },
+    {
+     "en": "Wednesday",
+     "as": "বুধবাৰ"
+    },
+    {
+     "en": "Monday",
+     "as": "সোমবাৰ"
+    },
+    {
+     "en": "Thursday",
+     "as": "বৃহস্পতিবাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The list says A visits on Thursday.",
+    "as": "তালিকাত A ক Thursday তাৰিখে যায় বুলি আছে।"
    }
   }
  ],
@@ -110166,38 +114126,368 @@ module.exports = {
   {
    "id": "inequality-001",
    "q": {
-    "en": "If A > B and B > C, which conclusion is definitely true?",
-    "as": "যদি A > B আৰু B > C, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+    "en": "If P > Q Q = R R >= S, which conclusion is definitely true?",
+    "as": "যদি P > Q Q = R R >= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
    },
    "options": [
     {
-     "en": "A > C",
-     "as": "A > C"
+     "en": "P > S",
+     "as": "P > S"
     },
     {
-     "en": "C > A",
-     "as": "C > A"
+     "en": "P ≤ S",
+     "as": "P ≤ S"
     },
     {
-     "en": "A = C",
-     "as": "A = C"
+     "en": "P = S",
+     "as": "P = S"
     },
     {
-     "en": "Cannot be decided",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "P < S",
+     "as": "P < S"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The two relations form one chain A > B > C, so A is greater than C.",
-    "as": "দুয়োটা সম্পৰ্কই A > B > C শিকলি গঠন কৰে, গতিকে A ৰ C তকৈ ডাঙৰ।"
+    "en": "The chain P > Q Q = R R >= S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q = R R >= S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
    }
   },
   {
    "id": "inequality-002",
    "q": {
-    "en": "If P ≥ Q and Q > R, which conclusion is definitely true?",
-    "as": "যদি P ≥ Q আৰু Q > R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+    "en": "If P < Q Q <= R R <= S, which conclusion is definitely true?",
+    "as": "যদি P < Q Q <= R R <= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P < Q Q <= R R <= S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q <= R R <= S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-003",
+   "q": {
+    "en": "If P = Q Q < R R < S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q < R R < S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P = Q Q < R R < S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q < R R < S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-004",
+   "q": {
+    "en": "If P > Q Q > R, which conclusion is definitely true?",
+    "as": "যদি P > Q Q > R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P > Q Q > R always gives P > R, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q > R এ সদায় P > R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-005",
+   "q": {
+    "en": "If P = Q Q = R R > S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q = R R > S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P = Q Q = R R > S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q = R R > S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-006",
+   "q": {
+    "en": "If P > Q Q = R R > S, which conclusion is definitely true?",
+    "as": "যদি P > Q Q = R R > S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P > Q Q = R R > S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q = R R > S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-007",
+   "q": {
+    "en": "If P < Q Q <= R R = S, which conclusion is definitely true?",
+    "as": "যদি P < Q Q <= R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P < Q Q <= R R = S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q <= R R = S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-008",
+   "q": {
+    "en": "If P < Q Q = R, which conclusion is definitely true?",
+    "as": "যদি P < Q Q = R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P < Q Q = R always gives P < R, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q = R এ সদায় P < R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-009",
+   "q": {
+    "en": "If P >= Q Q >= R, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q >= R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P >= Q Q >= R always gives P ≥ R, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q >= R এ সদায় P ≥ R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-010",
+   "q": {
+    "en": "If P > Q Q >= R R = S, which conclusion is definitely true?",
+    "as": "যদি P > Q Q >= R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P > Q Q >= R R = S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q >= R R = S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-011",
+   "q": {
+    "en": "If P <= Q Q <= R, which conclusion is definitely true?",
+    "as": "যদি P <= Q Q <= R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P <= Q Q <= R always gives P ≤ R, while the other relations are not forced.",
+    "as": "শিকলি P <= Q Q <= R এ সদায় P ≤ R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-012",
+   "q": {
+    "en": "If P < Q Q = R R = S, which conclusion is definitely true?",
+    "as": "যদি P < Q Q = R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P < Q Q = R R = S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q = R R = S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-013",
+   "q": {
+    "en": "If P >= Q Q > R, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q > R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
    },
    "options": [
     {
@@ -110209,8 +114499,398 @@ module.exports = {
      "as": "P > R"
     },
     {
-     "en": "R > P",
-     "as": "R > P"
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P >= Q Q > R always gives P > R, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q > R এ সদায় P > R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-014",
+   "q": {
+    "en": "If P >= Q Q = R, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q = R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P >= Q Q = R always gives P ≥ R, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q = R এ সদায় P ≥ R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-015",
+   "q": {
+    "en": "If P <= Q Q < R, which conclusion is definitely true?",
+    "as": "যদি P <= Q Q < R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    },
+    {
+     "en": "P = R",
+     "as": "P = R"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P <= Q Q < R always gives P < R, while the other relations are not forced.",
+    "as": "শিকলি P <= Q Q < R এ সদায় P < R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-016",
+   "q": {
+    "en": "If P >= Q Q > R R = S, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q > R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P >= Q Q > R R = S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q > R R = S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-017",
+   "q": {
+    "en": "If P = Q Q <= R R <= S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q <= R R <= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P = Q Q <= R R <= S always gives P ≤ S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q <= R R <= S এ সদায় P ≤ S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-018",
+   "q": {
+    "en": "If P = Q Q < R, which conclusion is definitely true?",
+    "as": "যদি P = Q Q < R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P = Q Q < R always gives P < R, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q < R এ সদায় P < R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-019",
+   "q": {
+    "en": "If P >= Q Q = R R >= S, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q = R R >= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P >= Q Q = R R >= S always gives P ≥ S, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q = R R >= S এ সদায় P ≥ S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-020",
+   "q": {
+    "en": "If P = Q Q <= R R = S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q <= R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P = Q Q <= R R = S always gives P ≤ S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q <= R R = S এ সদায় P ≤ S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-021",
+   "q": {
+    "en": "If P <= Q Q = R R <= S, which conclusion is definitely true?",
+    "as": "যদি P <= Q Q = R R <= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P <= Q Q = R R <= S always gives P ≤ S, while the other relations are not forced.",
+    "as": "শিকলি P <= Q Q = R R <= S এ সদায় P ≤ S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-022",
+   "q": {
+    "en": "If P <= Q Q < R R = S, which conclusion is definitely true?",
+    "as": "যদি P <= Q Q < R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P <= Q Q < R R = S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P <= Q Q < R R = S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-023",
+   "q": {
+    "en": "If P > Q Q >= R, which conclusion is definitely true?",
+    "as": "যদি P > Q Q >= R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    },
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P > Q Q >= R always gives P > R, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q >= R এ সদায় P > R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-024",
+   "q": {
+    "en": "If P < Q Q < R R <= S, which conclusion is definitely true?",
+    "as": "যদি P < Q Q < R R <= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P < Q Q < R R <= S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q < R R <= S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-025",
+   "q": {
+    "en": "If P > Q Q >= R R > S, which conclusion is definitely true?",
+    "as": "যদি P > Q Q >= R R > S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P > Q Q >= R R > S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q >= R R > S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-026",
+   "q": {
+    "en": "If P = Q Q >= R, which conclusion is definitely true?",
+    "as": "যদি P = Q Q >= R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
     },
     {
      "en": "P < R",
@@ -110219,8 +114899,818 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "P is at least Q and Q is greater than R, so P is greater than R.",
-    "as": "P ৰ Q তকৈ কম নহয় আৰু Q ৰ R তকৈ ডাঙৰ, গতিকে P ৰ R তকৈ ডাঙৰ।"
+    "en": "The chain P = Q Q >= R always gives P ≥ R, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q >= R এ সদায় P ≥ R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-027",
+   "q": {
+    "en": "If P = Q Q = R R >= S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q = R R >= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P = Q Q = R R >= S always gives P ≥ S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q = R R >= S এ সদায় P ≥ S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-028",
+   "q": {
+    "en": "If P < Q Q < R, which conclusion is definitely true?",
+    "as": "যদি P < Q Q < R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    },
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P < Q Q < R always gives P < R, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q < R এ সদায় P < R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-029",
+   "q": {
+    "en": "If P <= Q Q = R, which conclusion is definitely true?",
+    "as": "যদি P <= Q Q = R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P <= Q Q = R always gives P ≤ R, while the other relations are not forced.",
+    "as": "শিকলি P <= Q Q = R এ সদায় P ≤ R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-030",
+   "q": {
+    "en": "If P < Q Q = R R <= S, which conclusion is definitely true?",
+    "as": "যদি P < Q Q = R R <= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P < Q Q = R R <= S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q = R R <= S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-031",
+   "q": {
+    "en": "If P < Q Q <= R, which conclusion is definitely true?",
+    "as": "যদি P < Q Q <= R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P ≥ R",
+     "as": "P ≥ R"
+    },
+    {
+     "en": "P = R",
+     "as": "P = R"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P < Q Q <= R always gives P < R, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q <= R এ সদায় P < R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-032",
+   "q": {
+    "en": "If P = Q Q > R R > S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q > R R > S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P = Q Q > R R > S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q > R R > S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-033",
+   "q": {
+    "en": "If P > Q Q = R R = S, which conclusion is definitely true?",
+    "as": "যদি P > Q Q = R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P > Q Q = R R = S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q = R R = S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-034",
+   "q": {
+    "en": "If P > Q Q = R, which conclusion is definitely true?",
+    "as": "যদি P > Q Q = R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P > Q Q = R always gives P > R, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q = R এ সদায় P > R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-035",
+   "q": {
+    "en": "If P = Q Q <= R, which conclusion is definitely true?",
+    "as": "যদি P = Q Q <= R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P = Q Q <= R always gives P ≤ R, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q <= R এ সদায় P ≤ R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-036",
+   "q": {
+    "en": "If P = Q Q > R, which conclusion is definitely true?",
+    "as": "যদি P = Q Q > R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P ≤ R",
+     "as": "P ≤ R"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P = Q Q > R always gives P > R, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q > R এ সদায় P > R দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-037",
+   "q": {
+    "en": "If P = Q Q >= R R = S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q >= R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P = Q Q >= R R = S always gives P ≥ S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q >= R R = S এ সদায় P ≥ S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-038",
+   "q": {
+    "en": "If P > Q Q >= R R >= S, which conclusion is definitely true?",
+    "as": "যদি P > Q Q >= R R >= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P > Q Q >= R R >= S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q >= R R >= S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-039",
+   "q": {
+    "en": "If P < Q Q < R R = S, which conclusion is definitely true?",
+    "as": "যদি P < Q Q < R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P < Q Q < R R = S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q < R R = S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-040",
+   "q": {
+    "en": "If P = Q Q < R R = S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q < R R = S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P = Q Q < R R = S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q < R R = S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-041",
+   "q": {
+    "en": "If P >= Q Q >= R R >= S, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q >= R R >= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P >= Q Q >= R R >= S always gives P ≥ S, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q >= R R >= S এ সদায় P ≥ S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-042",
+   "q": {
+    "en": "If P <= Q Q < R R <= S, which conclusion is definitely true?",
+    "as": "যদি P <= Q Q < R R <= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P <= Q Q < R R <= S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P <= Q Q < R R <= S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-043",
+   "q": {
+    "en": "If P >= Q Q >= R R > S, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q >= R R > S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P >= Q Q >= R R > S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q >= R R > S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-044",
+   "q": {
+    "en": "If P = Q Q = R R < S, which conclusion is definitely true?",
+    "as": "যদি P = Q Q = R R < S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The chain P = Q Q = R R < S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P = Q Q = R R < S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-045",
+   "q": {
+    "en": "If P < Q Q <= R R < S, which conclusion is definitely true?",
+    "as": "যদি P < Q Q <= R R < S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P ≥ S",
+     "as": "P ≥ S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The chain P < Q Q <= R R < S always gives P < S, while the other relations are not forced.",
+    "as": "শিকলি P < Q Q <= R R < S এ সদায় P < S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-046",
+   "q": {
+    "en": "If P >= Q Q > R R > S, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q > R R > S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The chain P >= Q Q > R R > S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q > R R > S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-047",
+   "q": {
+    "en": "If P >= Q Q = R R > S, which conclusion is definitely true?",
+    "as": "যদি P >= Q Q = R R > S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P >= Q Q = R R > S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P >= Q Q = R R > S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-048",
+   "q": {
+    "en": "If P > Q Q > R R >= S, which conclusion is definitely true?",
+    "as": "যদি P > Q Q > R R >= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P ≤ S",
+     "as": "P ≤ S"
+    },
+    {
+     "en": "P > S",
+     "as": "P > S"
+    },
+    {
+     "en": "P < S",
+     "as": "P < S"
+    },
+    {
+     "en": "P = S",
+     "as": "P = S"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The chain P > Q Q > R R >= S always gives P > S, while the other relations are not forced.",
+    "as": "শিকলি P > Q Q > R R >= S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+   }
+  },
+  {
+   "id": "inequality-049",
+   "q": {
+    "en": "If A > B and B > C, which conclusion is definitely true?",
+    "as": "যদি A > B আৰু B > C, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "A = C",
+     "as": "A = C"
+    },
+    {
+     "en": "C > A",
+     "as": "C > A"
+    },
+    {
+     "en": "A < C",
+     "as": "A < C"
+    },
+    {
+     "en": "A > C",
+     "as": "A > C"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The two relations form one chain A > B > C, so A is greater than C.",
+    "as": "দুয়োটা সম্পৰ্কই A > B > C শিকলি গঠন কৰে, গতিকে A ৰ C তকৈ ডাঙৰ।"
+   }
+  },
+  {
+   "id": "inequality-050",
+   "q": {
+    "en": "If P ≥ Q and Q > R, which conclusion is definitely true?",
+    "as": "যদি P ≥ Q আৰু Q > R, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "P = R",
+     "as": "P = R"
+    },
+    {
+     "en": "P < R",
+     "as": "P < R"
+    },
+    {
+     "en": "R > P",
+     "as": "R > P"
+    },
+    {
+     "en": "P > R",
+     "as": "P > R"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "P is at least Q and Q is greater than R, so P must be greater than R.",
+    "as": "P অন্তত Q আৰু Q ৰ R তকৈ ডাঙৰ, গতিকে P ৰ R তকৈ ডাঙৰ হ'বই।"
+   }
+  },
+  {
+   "id": "inequality-051",
+   "q": {
+    "en": "If X = Y and Y > Z, which conclusion is definitely true?",
+    "as": "যদি X = Y আৰু Y > Z, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "X > Z",
+     "as": "X > Z"
+    },
+    {
+     "en": "X = Z",
+     "as": "X = Z"
+    },
+    {
+     "en": "X < Z",
+     "as": "X < Z"
+    },
+    {
+     "en": "Z > X",
+     "as": "Z > X"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "X equals Y and Y is greater than Z, so X is greater than Z.",
+    "as": "X ৰ Y ৰ সমান আৰু Y ৰ Z তকৈ ডাঙৰ, গতিকে X ৰ Z তকৈ ডাঙৰ।"
+   }
+  },
+  {
+   "id": "inequality-052",
+   "q": {
+    "en": "If M ≤ N and N ≤ O, which conclusion is definitely true?",
+    "as": "যদি M ≤ N আৰু N ≤ O, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "M > O",
+     "as": "M > O"
+    },
+    {
+     "en": "M = O",
+     "as": "M = O"
+    },
+    {
+     "en": "M ≤ O",
+     "as": "M ≤ O"
+    },
+    {
+     "en": "O < M",
+     "as": "O < M"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Both relations point the same way, so M is at most O.",
+    "as": "দুয়োটা সম্পৰ্ক একে দিশত, গতিকে M বেছি হ'লেও O ৰ সমান।"
+   }
+  },
+  {
+   "id": "inequality-053",
+   "q": {
+    "en": "If A > B = C > D, which conclusion is definitely true?",
+    "as": "যদি A > B = C > D, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+   },
+   "options": [
+    {
+     "en": "A < D",
+     "as": "A < D"
+    },
+    {
+     "en": "A = D",
+     "as": "A = D"
+    },
+    {
+     "en": "A > D",
+     "as": "A > D"
+    },
+    {
+     "en": "D > A",
+     "as": "D > A"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A is greater than B, B equals C and C is greater than D, so A > D.",
+    "as": "A ৰ B তকৈ ডাঙৰ, B ৰ C ৰ সমান আৰু C ৰ D তকৈ ডাঙৰ, গতিকে A > D।"
    }
   }
  ],
@@ -110228,61 +115718,1531 @@ module.exports = {
   {
    "id": "statement-conclusions-001",
    "q": {
-    "en": "Statement: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses fade quickly. II. All flowers are roses.",
-    "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান ফুল সোনকালে শুকায়। সিদ্ধান্ত: I. কিছুমান গোলাপ সোনকালে শুকায়। II. সকলো ফুল গোলাপ।"
+    "en": "Statement: All roses are flowers. All flowers are plants.\nConclusions: I. All roses are plants. II. All plants are roses.",
+    "as": "বিবৃতি: All roses are flowers. All flowers are plants.\nসিদ্ধান্ত: I. All roses are plants. II. All plants are roses."
    },
    "options": [
     {
-     "en": "Only I follows",
-     "as": "কেৱল I ওলায়"
-    },
-    {
-     "en": "Only II follows",
-     "as": "কেৱল II ওলায়"
-    },
-    {
      "en": "Neither I nor II follows",
-     "as": "I বা II এটাও নোলায়"
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
     },
     {
      "en": "Both I and II follow",
-     "as": "I আৰু II দুয়োটা ওলায়"
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The flowers that fade quickly need not be roses, and 'all roses are flowers' does not mean all flowers are roses, so neither conclusion follows.",
-    "as": "সোনকালে শুকোৱা ফুলবোৰ গোলাপ নহ'বও পাৰে, আৰু 'সকলো গোলাপ ফুল' মানে সকলো ফুল গোলাপ নহয়, গতিকে এটাও সিদ্ধান্ত নোলায়।"
+    "en": "Roses are inside flowers and flowers inside plants, so I follows; II reverses the relation.",
+    "as": "গোলাপ ফুলৰ ভিতৰত আৰু ফুল উদ্ভিদৰ ভিতৰত, গতিকে I ওলায়; II সম্পৰ্ক ওলোটাই।"
    }
   },
   {
    "id": "statement-conclusions-002",
    "q": {
-    "en": "Statement: Some pens are books. Conclusions: I. Some books are pens. II. All books are pens.",
-    "as": "বিবৃতি: কিছুমান কলম কিতাপ। সিদ্ধান্ত: I. কিছুমান কিতাপ কলম। II. সকলো কিতাপ কলম।"
+    "en": "Statement: All men are mortal. Socrates is a man.\nConclusions: I. Socrates is mortal. II. All mortals are men.",
+    "as": "বিবৃতি: All men are mortal. Socrates is a man.\nসিদ্ধান্ত: I. Socrates is mortal. II. All mortals are men."
    },
    "options": [
     {
-     "en": "Only II follows",
-     "as": "কেৱল II ওলায়"
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
     },
     {
-     "en": "Both follow",
-     "as": "দুয়োটা ওলায়"
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
     },
     {
-     "en": "Neither follows",
-     "as": "এটাও নোলায়"
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
     },
     {
-     "en": "Only I follows",
-     "as": "কেৱল I ওলায়"
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Some pens are books' means the two groups overlap, so some books are pens; but 'some' does not prove 'all'.",
-    "as": "'কিছুমান কলম কিতাপ' মানে দুটা দল ওপৰাওপৰ, গতিকে কিছুমান কিতাপ কলম; কিন্তু 'কিছুমান'এ 'সকলো' প্ৰমাণ নকৰে।"
+    "en": "Socrates is a man and all men are mortal, so I follows; II reverses the relation.",
+    "as": "চক্ৰেটিছ মানুহ আৰু সকলো মানুহ মৰণশীল, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "statement-conclusions-003",
+   "q": {
+    "en": "Statement: Some cats are black. Some black things are dogs.\nConclusions: I. Some cats are dogs. II. Some dogs are black.",
+    "as": "বিবৃতি: Some cats are black. Some black things are dogs.\nসিদ্ধান্ত: I. Some cats are dogs. II. Some dogs are black."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The overlap of cats and dogs is not certain, but some black things are dogs means II.",
+    "as": "মেকুৰী আৰু কুকুৰৰ ওপৰাওপৰ নিশ্চিত নহয়, কিন্তু কিছুমান ক’লা বস্তু কুকুৰ, গতিকে II ওলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-004",
+   "q": {
+    "en": "Statement: No man is perfect. All kings are men.\nConclusions: I. No king is perfect. II. All perfect beings are kings.",
+    "as": "বিবৃতি: No man is perfect. All kings are men.\nসিদ্ধান্ত: I. No king is perfect. II. All perfect beings are kings."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kings are men and no man is perfect, so I follows; II does not.",
+    "as": "ৰজাসকল মানুহ আৰু কোনো মানুহ নিখুঁত নহয়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-005",
+   "q": {
+    "en": "Statement: Some pens are books. All books are papers.\nConclusions: I. Some pens are papers. II. All papers are pens.",
+    "as": "বিবৃতি: Some pens are books. All books are papers.\nসিদ্ধান্ত: I. Some pens are papers. II. All papers are pens."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The pens that are books are also papers, so I follows; II does not.",
+    "as": "যিবোৰ কলম কিতাপ সেয়া কাগজো, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-006",
+   "q": {
+    "en": "Statement: All students are honest. Some honest people are rich.\nConclusions: I. Some students are rich. II. All honest people are students.",
+    "as": "বিবৃতি: All students are honest. Some honest people are rich.\nসিদ্ধান্ত: I. Some students are rich. II. All honest people are students."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The rich honest people need not be students, so neither conclusion follows.",
+    "as": "ধনী সৎ লোকসকল ছাত্ৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-007",
+   "q": {
+    "en": "Statement: Some doctors are women. All women are mothers.\nConclusions: I. Some doctors are mothers. II. All mothers are doctors.",
+    "as": "বিবৃতি: Some doctors are women. All women are mothers.\nসিদ্ধান্ত: I. Some doctors are mothers. II. All mothers are doctors."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The women who are doctors are also mothers, so I follows; II does not.",
+    "as": "যিবোৰ মহিলা ডাক্তৰ সেয়া মাকো, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-008",
+   "q": {
+    "en": "Statement: All squares are rectangles. All rectangles are quadrilaterals.\nConclusions: I. All squares are quadrilaterals. II. All quadrilaterals are squares.",
+    "as": "বিবৃতি: All squares are rectangles. All rectangles are quadrilaterals.\nসিদ্ধান্ত: I. All squares are quadrilaterals. II. All quadrilaterals are squares."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Squares lie inside rectangles inside quadrilaterals, so I follows; II does not.",
+    "as": "বৰ্গ আয়তক্ষেত্ৰৰ ভিতৰত আৰু আয়তক্ষেত্ৰ চতুৰ্ভুজৰ ভিতৰত, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-009",
+   "q": {
+    "en": "Statement: No fish is a bird. Some birds are parrots.\nConclusions: I. Some parrots are not fish. II. No parrot is a fish.",
+    "as": "বিবৃতি: No fish is a bird. Some birds are parrots.\nসিদ্ধান্ত: I. Some parrots are not fish. II. No parrot is a fish."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Parrots are birds and no bird is a fish, so I follows; II overstates it.",
+    "as": "ভাটৌ চৰাই আৰু কোনো চৰাই মাছ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-010",
+   "q": {
+    "en": "Statement: All metals conduct electricity. Copper is a metal.\nConclusions: I. Copper conducts electricity. II. All conductors are metals.",
+    "as": "বিবৃতি: All metals conduct electricity. Copper is a metal.\nসিদ্ধান্ত: I. Copper conducts electricity. II. All conductors are metals."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Copper is a metal and all metals conduct, so I follows; II reverses the relation.",
+    "as": "তাম এটা ধাতু আৰু সকলো ধাতু পৰিবাহী, গতিকে I ওলায়; II ওলোটাই।"
+   }
+  },
+  {
+   "id": "statement-conclusions-011",
+   "q": {
+    "en": "Statement: Some books are novels. All novels are stories.\nConclusions: I. Some books are stories. II. All stories are books.",
+    "as": "বিবৃতি: Some books are novels. All novels are stories.\nসিদ্ধান্ত: I. Some books are stories. II. All stories are books."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The books that are novels are also stories, so I follows; II does not.",
+    "as": "যিবোৰ কিতাপ উপন্যাস সেয়া কাহিনীও, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-012",
+   "q": {
+    "en": "Statement: All teachers are graduates. Some graduates are researchers.\nConclusions: I. Some teachers are researchers. II. All graduates are teachers.",
+    "as": "বিবৃতি: All teachers are graduates. Some graduates are researchers.\nসিদ্ধান্ত: I. Some teachers are researchers. II. All graduates are teachers."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The researchers need not be teachers, so neither conclusion follows.",
+    "as": "গৱেষকসকল শিক্ষক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-013",
+   "q": {
+    "en": "Statement: No cow is a dog. Some dogs are pets.\nConclusions: I. Some pets are not cows. II. No pet is a cow.",
+    "as": "বিবৃতি: No cow is a dog. Some dogs are pets.\nসিদ্ধান্ত: I. Some pets are not cows. II. No pet is a cow."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A pet that is a dog is not a cow, so I follows; II overstates it.",
+    "as": "কুকুৰ যি পোহনীয়া জন্তু সেয়া গৰু নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-014",
+   "q": {
+    "en": "Statement: All cars are vehicles. All vehicles have wheels.\nConclusions: I. All cars have wheels. II. All vehicles are cars.",
+    "as": "বিবৃতি: All cars are vehicles. All vehicles have wheels.\nসিদ্ধান্ত: I. All cars have wheels. II. All vehicles are cars."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Cars are vehicles and vehicles have wheels, so I follows; II does not.",
+    "as": "গাড়ী বাহন আৰু বাহনৰ চকা থাকে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-015",
+   "q": {
+    "en": "Statement: Some mangoes are sweet. All sweet things are liked.\nConclusions: I. Some mangoes are liked. II. All liked things are sweet.",
+    "as": "বিবৃতি: Some mangoes are sweet. All sweet things are liked.\nসিদ্ধান্ত: I. Some mangoes are liked. II. All liked things are sweet."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The mangoes that are sweet are liked, so I follows; II does not.",
+    "as": "যিবোৰ আম মিঠা সেয়া পছন্দৰ, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-016",
+   "q": {
+    "en": "Statement: All poets are dreamers. Some dreamers are rich.\nConclusions: I. Some poets are rich. II. All dreamers are poets.",
+    "as": "বিবৃতি: All poets are dreamers. Some dreamers are rich.\nসিদ্ধান্ত: I. Some poets are rich. II. All dreamers are poets."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rich dreamers need not be poets, so neither conclusion follows.",
+    "as": "ধনী সপোনদৰ্শীসকল কবি নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-017",
+   "q": {
+    "en": "Statement: No tree is a stone. All stones are heavy.\nConclusions: I. No tree is heavy. II. Some heavy things are stones.",
+    "as": "বিবৃতি: No tree is a stone. All stones are heavy.\nসিদ্ধান্ত: I. No tree is heavy. II. Some heavy things are stones."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Stones are heavy, so some heavy things are stones; trees may still be heavy.",
+    "as": "শিল গধুৰ, গতিকে কিছুমান গধুৰ বস্তু শিল; গছো গধুৰ হ'ব পাৰে।"
+   }
+  },
+  {
+   "id": "statement-conclusions-018",
+   "q": {
+    "en": "Statement: All doctors are educated. All educated are respected.\nConclusions: I. All doctors are respected. II. All respected are doctors.",
+    "as": "বিবৃতি: All doctors are educated. All educated are respected.\nসিদ্ধান্ত: I. All doctors are respected. II. All respected are doctors."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Doctors are educated and educated are respected, so I follows; II does not.",
+    "as": "ডাক্তৰ শিক্ষিত আৰু শিক্ষিত সন্মানিত, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-019",
+   "q": {
+    "en": "Statement: Some birds cannot fly. All penguins are birds.\nConclusions: I. All penguins cannot fly. II. Some penguins may not fly.",
+    "as": "বিবৃতি: Some birds cannot fly. All penguins are birds.\nসিদ্ধান্ত: I. All penguins cannot fly. II. Some penguins may not fly."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "We only know that some birds cannot fly, so only the possibility in II is safe.",
+    "as": "আমি কেৱল জানোঁ কিছুমান চৰাই উৰিব নোৱাৰে, গতিকে II ৰ সম্ভাৱনাহে নিৰাপদ।"
+   }
+  },
+  {
+   "id": "statement-conclusions-020",
+   "q": {
+    "en": "Statement: All gold is metal. No metal is cheap.\nConclusions: I. No gold is cheap. II. All cheap things are gold.",
+    "as": "বিবৃতি: All gold is metal. No metal is cheap.\nসিদ্ধান্ত: I. No gold is cheap. II. All cheap things are gold."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gold is metal and no metal is cheap, so I follows; II does not.",
+    "as": "সোণ ধাতু আৰু কোনো ধাতু সস্তা নহয়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-021",
+   "q": {
+    "en": "Statement: Some students play chess. All chess players are patient.\nConclusions: I. Some students are patient. II. All patient people play chess.",
+    "as": "বিবৃতি: Some students play chess. All chess players are patient.\nসিদ্ধান্ত: I. Some students are patient. II. All patient people play chess."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The students who play chess are patient, so I follows; II does not.",
+    "as": "যিবোৰ ছাত্ৰ দবা খেলে সেয়া ধৈৰ্যশীল, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-022",
+   "q": {
+    "en": "Statement: No reptile is a mammal. All snakes are reptiles.\nConclusions: I. No snake is a mammal. II. All mammals are snakes.",
+    "as": "বিবৃতি: No reptile is a mammal. All snakes are reptiles.\nসিদ্ধান্ত: I. No snake is a mammal. II. All mammals are snakes."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Snakes are reptiles and no reptile is a mammal, so I follows; II does not.",
+    "as": "সাপ সৰীসৃপ আৰু কোনো সৰীসৃপ স্তন্যপায়ী নহয়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-023",
+   "q": {
+    "en": "Statement: All singers are artists. Some artists are dancers.\nConclusions: I. Some singers are dancers. II. Some dancers are artists.",
+    "as": "বিবৃতি: All singers are artists. Some artists are dancers.\nসিদ্ধান্ত: I. Some singers are dancers. II. Some dancers are artists."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dancers who are artists are certain, but they need not be singers.",
+    "as": "নৃত্যশিল্পী যি শিল্পী সেয়া নিশ্চিত, কিন্তু তেওঁলোক গায়ক নহ'বও পাৰে।"
+   }
+  },
+  {
+   "id": "statement-conclusions-024",
+   "q": {
+    "en": "Statement: All lakes are water bodies. Some water bodies are salty.\nConclusions: I. Some lakes are salty. II. All salty things are lakes.",
+    "as": "বিবৃতি: All lakes are water bodies. Some water bodies are salty.\nসিদ্ধান্ত: I. Some lakes are salty. II. All salty things are lakes."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Salty water bodies need not be lakes, so neither conclusion follows.",
+    "as": "নিমখীয়া জলাশয় বিল নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-025",
+   "q": {
+    "en": "Statement: Every rose has thorns. This flower has thorns.\nConclusions: I. This flower is a rose. II. Some roses have thorns.",
+    "as": "বিবৃতি: Every rose has thorns. This flower has thorns.\nসিদ্ধান্ত: I. This flower is a rose. II. Some roses have thorns."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Having thorns does not make it a rose, but II is directly given.",
+    "as": "কাঁইট থাকিলেই গোলাপ নহয়, কিন্তু II পোনপটীয়াকৈ দিয়া আছে।"
+   }
+  },
+  {
+   "id": "statement-conclusions-026",
+   "q": {
+    "en": "Statement: All honest men are respected. Some respected men are wealthy.\nConclusions: I. Some honest men are wealthy. II. All wealthy men are honest.",
+    "as": "বিবৃতি: All honest men are respected. Some respected men are wealthy.\nসিদ্ধান্ত: I. Some honest men are wealthy. II. All wealthy men are honest."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Wealthy respected men need not be honest, so neither conclusion follows.",
+    "as": "ধনী সন্মানিত লোকসকল সৎ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-027",
+   "q": {
+    "en": "Statement: No student is lazy. Some lazy people are clever.\nConclusions: I. Some clever people are not students. II. No clever person is a student.",
+    "as": "বিবৃতি: No student is lazy. Some lazy people are clever.\nসিদ্ধান্ত: I. Some clever people are not students. II. No clever person is a student."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A clever lazy person is not a student, so I follows; II overstates it.",
+    "as": "চতুৰ অলস ব্যক্তি ছাত্ৰ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-028",
+   "q": {
+    "en": "Statement: All chairs are furniture. All furniture is costly.\nConclusions: I. All chairs are costly. II. All costly things are chairs.",
+    "as": "বিবৃতি: All chairs are furniture. All furniture is costly.\nসিদ্ধান্ত: I. All chairs are costly. II. All costly things are chairs."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chairs are furniture and furniture is costly, so I follows; II does not.",
+    "as": "চকী আচবাব আৰু আচবাব দামী, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-029",
+   "q": {
+    "en": "Statement: Some rivers are long. All long things are tiring to cross.\nConclusions: I. Some rivers are tiring to cross. II. All tiring things are rivers.",
+    "as": "বিবৃতি: Some rivers are long. All long things are tiring to cross.\nসিদ্ধান্ত: I. Some rivers are tiring to cross. II. All tiring things are rivers."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The rivers that are long are tiring to cross, so I follows; II does not.",
+    "as": "যিবোৰ নদী দীঘল সেয়া পাৰ হ'বলৈ কষ্টকৰ, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-030",
+   "q": {
+    "en": "Statement: No bird is a fish. Some fish are colourful.\nConclusions: I. Some colourful things are not birds. II. No colourful thing is a bird.",
+    "as": "বিবৃতি: No bird is a fish. Some fish are colourful.\nসিদ্ধান্ত: I. Some colourful things are not birds. II. No colourful thing is a bird."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A colourful fish is not a bird, so I follows; II overstates it.",
+    "as": "ৰঙীন মাছ চৰাই নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-031",
+   "q": {
+    "en": "Statement: All engineers are graduates. All graduates are literate.\nConclusions: I. All engineers are literate. II. All literate people are engineers.",
+    "as": "বিবৃতি: All engineers are graduates. All graduates are literate.\nসিদ্ধান্ত: I. All engineers are literate. II. All literate people are engineers."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Engineers are graduates and graduates are literate, so I follows; II does not.",
+    "as": "ইঞ্জিনিয়াৰ স্নাতক আৰু স্নাতক সাক্ষৰ, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-032",
+   "q": {
+    "en": "Statement: Some teachers are strict. All strict people are feared.\nConclusions: I. Some teachers are feared. II. All feared people are teachers.",
+    "as": "বিবৃতি: Some teachers are strict. All strict people are feared.\nসিদ্ধান্ত: I. Some teachers are feared. II. All feared people are teachers."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The teachers who are strict are feared, so I follows; II does not.",
+    "as": "যিবোৰ শিক্ষক কঠোৰ সেয়া ভয়ৰ পাত্র, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-033",
+   "q": {
+    "en": "Statement: All planets revolve. Earth is a planet.\nConclusions: I. Earth revolves. II. All revolving things are planets.",
+    "as": "বিবৃতি: All planets revolve. Earth is a planet.\nসিদ্ধান্ত: I. Earth revolves. II. All revolving things are planets."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Earth is a planet and all planets revolve, so I follows; II does not.",
+    "as": "পৃথিৱী এটা গ্ৰহ আৰু সকলো গ্ৰহ ঘূৰে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-034",
+   "q": {
+    "en": "Statement: No pen is a pencil. All pencils are wooden.\nConclusions: I. No pen is wooden. II. Some wooden things are pencils.",
+    "as": "বিবৃতি: No pen is a pencil. All pencils are wooden.\nসিদ্ধান্ত: I. No pen is wooden. II. Some wooden things are pencils."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pencils are wooden, so II follows; pens may also be wooden.",
+    "as": "পেঞ্চিল কাঠৰ, গতিকে II ওলায়; কলমো কাঠৰ হ'ব পাৰে।"
+   }
+  },
+  {
+   "id": "statement-conclusions-035",
+   "q": {
+    "en": "Statement: All athletes are fit. Some fit people are doctors.\nConclusions: I. Some athletes are doctors. II. All doctors are athletes.",
+    "as": "বিবৃতি: All athletes are fit. Some fit people are doctors.\nসিদ্ধান্ত: I. Some athletes are doctors. II. All doctors are athletes."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Fit doctors need not be athletes, so neither conclusion follows.",
+    "as": "ফিট ডাক্তৰসকল খেলুৱৈ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-036",
+   "q": {
+    "en": "Statement: Every triangle has three sides. This shape has three sides.\nConclusions: I. This shape is a triangle. II. Some triangles have three sides.",
+    "as": "বিবৃতি: Every triangle has three sides. This shape has three sides.\nসিদ্ধান্ত: I. This shape is a triangle. II. Some triangles have three sides."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Three sides does not prove it is a triangle, but II is directly given.",
+    "as": "তিনিটা বাহু থাকিলেই ত্ৰিভুজ নহয়, কিন্তু II পোনপটীয়াকৈ দিয়া আছে।"
+   }
+  },
+  {
+   "id": "statement-conclusions-037",
+   "q": {
+    "en": "Statement: All doors are wooden. Some wooden things are costly.\nConclusions: I. Some doors are costly. II. All costly things are doors.",
+    "as": "বিবৃতি: All doors are wooden. Some wooden things are costly.\nসিদ্ধান্ত: I. Some doors are costly. II. All costly things are doors."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Costly wooden things need not be doors, so neither conclusion follows.",
+    "as": "দামী কাঠৰ বস্তু দুৱাৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-038",
+   "q": {
+    "en": "Statement: All judges are lawyers. Some lawyers are rich.\nConclusions: I. Some judges are rich. II. All rich persons are lawyers.",
+    "as": "বিবৃতি: All judges are lawyers. Some lawyers are rich.\nসিদ্ধান্ত: I. Some judges are rich. II. All rich persons are lawyers."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rich lawyers need not be judges, so neither conclusion follows.",
+    "as": "ধনী অধিবক্তা বিচাৰক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-039",
+   "q": {
+    "en": "Statement: No insect is a mammal. A bee is an insect.\nConclusions: I. A bee is not a mammal. II. All mammals are bees.",
+    "as": "বিবৃতি: No insect is a mammal. A bee is an insect.\nসিদ্ধান্ত: I. A bee is not a mammal. II. All mammals are bees."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A bee is an insect and no insect is a mammal, so I follows; II does not.",
+    "as": "মৌমাখি এটা পতংগ আৰু কোনো পতংগ স্তন্যপায়ী নহয়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-040",
+   "q": {
+    "en": "Statement: All rivers flow. Some flowing things are wide.\nConclusions: I. Some rivers are wide. II. All wide things are rivers.",
+    "as": "বিবৃতি: All rivers flow. Some flowing things are wide.\nসিদ্ধান্ত: I. Some rivers are wide. II. All wide things are rivers."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Wide flowing things need not be rivers, so neither conclusion follows.",
+    "as": "প্ৰশস্ত প্ৰবাহিত বস্তু নদী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-041",
+   "q": {
+    "en": "Statement: All cups are containers. All containers hold things.\nConclusions: I. All cups hold things. II. All things that hold are cups.",
+    "as": "বিবৃতি: All cups are containers. All containers hold things.\nসিদ্ধান্ত: I. All cups hold things. II. All things that hold are cups."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cups are containers and containers hold, so I follows; II does not.",
+    "as": "কাপ পাত্ৰ আৰু পাত্ৰে ধৰি ৰাখে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-042",
+   "q": {
+    "en": "Statement: Some pens are red. All red things are bright.\nConclusions: I. Some pens are bright. II. All bright things are pens.",
+    "as": "বিবৃতি: Some pens are red. All red things are bright.\nসিদ্ধান্ত: I. Some pens are bright. II. All bright things are pens."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The pens that are red are bright, so I follows; II does not.",
+    "as": "যিবোৰ কলম ৰঙা সেয়া উজ্জ্বল, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-043",
+   "q": {
+    "en": "Statement: No student is dishonest. Some dishonest people are clever.\nConclusions: I. Some clever people are not students. II. No clever person is a student.",
+    "as": "বিবৃতি: No student is dishonest. Some dishonest people are clever.\nসিদ্ধান্ত: I. Some clever people are not students. II. No clever person is a student."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A clever dishonest person is not a student, so I follows; II overstates it.",
+    "as": "চতুৰ অসৎ ব্যক্তি ছাত্ৰ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-044",
+   "q": {
+    "en": "Statement: All lamps give light. Some lamps are costly.\nConclusions: I. Some costly things give light. II. All things that give light are lamps.",
+    "as": "বিবৃতি: All lamps give light. Some lamps are costly.\nসিদ্ধান্ত: I. Some costly things give light. II. All things that give light are lamps."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Costly lamps give light, so I follows; II does not.",
+    "as": "দামী চাকিয়ে পোহৰ দিয়ে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-045",
+   "q": {
+    "en": "Statement: All flowers need water. Some plants are flowers.\nConclusions: I. Some plants need water. II. All plants are flowers.",
+    "as": "বিবৃতি: All flowers need water. Some plants are flowers.\nসিদ্ধান্ত: I. Some plants need water. II. All plants are flowers."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The plants that are flowers need water, so I follows; II does not.",
+    "as": "যিবোৰ গছ ফুল সেয়া পানী লাগে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-046",
+   "q": {
+    "en": "Statement: Every citizen has rights. Some citizens pay tax.\nConclusions: I. Some people who pay tax have rights. II. All who pay tax are citizens.",
+    "as": "বিবৃতি: Every citizen has rights. Some citizens pay tax.\nসিদ্ধান্ত: I. Some people who pay tax have rights. II. All who pay tax are citizens."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Tax-paying citizens have rights, so I follows; II does not.",
+    "as": "কৰ দিয়া নাগৰিকৰ অধিকাৰ আছে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-047",
+   "q": {
+    "en": "Statement: All metals are hard. Some hard things are costly.\nConclusions: I. Some metals are costly. II. All costly things are metals.",
+    "as": "বিবৃতি: All metals are hard. Some hard things are costly.\nসিদ্ধান্ত: I. Some metals are costly. II. All costly things are metals."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Costly hard things need not be metals, so neither conclusion follows.",
+    "as": "দামী কঠিন বস্তু ধাতু নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-048",
+   "q": {
+    "en": "Statement: No tiger is a herbivore. Some herbivores are large.\nConclusions: I. Some large animals are not tigers. II. No large animal is a tiger.",
+    "as": "বিবৃতি: No tiger is a herbivore. Some herbivores are large.\nসিদ্ধান্ত: I. Some large animals are not tigers. II. No large animal is a tiger."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A large herbivore is not a tiger, so I follows; II overstates it.",
+    "as": "ডাঙৰ তৃণভোজী জন্তু বাঘ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-049",
+   "q": {
+    "en": "Statement: All clocks show time. Some clocks are digital.\nConclusions: I. Some digital things show time. II. All things that show time are clocks.",
+    "as": "বিবৃতি: All clocks show time. Some clocks are digital.\nসিদ্ধান্ত: I. Some digital things show time. II. All things that show time are clocks."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Digital clocks show time, so I follows; II does not.",
+    "as": "ডিজিটেল ঘড়ীয়ে সময় দেখুৱায়, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-050",
+   "q": {
+    "en": "Statement: Some villages have schools. All schools have teachers.\nConclusions: I. Some villages have teachers. II. All villages have teachers.",
+    "as": "বিবৃতি: Some villages have schools. All schools have teachers.\nসিদ্ধান্ত: I. Some villages have teachers. II. All villages have teachers."
+   },
+   "options": [
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The villages with schools have teachers, so I follows; II does not.",
+    "as": "বিদ্যালয় থকা গাঁৱত শিক্ষক আছে, গতিকে I ওলায়; II নোলায়।"
+   }
+  },
+  {
+   "id": "statement-conclusions-051",
+   "q": {
+    "en": "Statement: All windows are made of glass. Some glass things break easily.\nConclusions: I. Some windows break easily. II. All things that break easily are windows.",
+    "as": "বিবৃতি: All windows are made of glass. Some glass things break easily.\nসিদ্ধান্ত: I. Some windows break easily. II. All things that break easily are windows."
+   },
+   "options": [
+    {
+     "en": "Only conclusion I follows",
+     "as": "কেৱল সিদ্ধান্ত I ওলায়"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only conclusion II follows",
+     "as": "কেৱল সিদ্ধান্ত II ওলায়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Breakable glass things need not be windows, so neither follows.",
+    "as": "ভঙা-সৰা কাচৰ বস্তু খিৰিকী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
    }
   }
  ],
@@ -110290,61 +117250,1501 @@ module.exports = {
   {
    "id": "statement-assumptions-001",
    "q": {
-    "en": "Statement: Please use the footbridge to cross the road. Assumption: People can use the footbridge.",
-    "as": "বিবৃতি: ৰাস্তা পাৰ হ'বলৈ অনুগ্ৰহ কৰি খোজ-সেতু ব্যৱহাৰ কৰক। অনুমান: মানুহে খোজ-সেতু ব্যৱহাৰ কৰিব পাৰে।"
+    "en": "Statement: The school has decided to hold extra classes on Sundays for weak students.\nAssumptions: I. Weak students need extra help. II. Sunday is a holiday for the school.",
+    "as": "বিবৃতি: The school has decided to hold extra classes on Sundays for weak students.\nঅনুমান: I. Weak students need extra help. II. Sunday is a holiday for the school."
    },
    "options": [
     {
-     "en": "The assumption is implicit",
-     "as": "অনুমানটো লুকুৱাই আছে"
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
     },
     {
-     "en": "The assumption is not implicit",
-     "as": "অনুমানটো লুকুৱাই নাই"
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
     },
     {
-     "en": "The statement is false",
-     "as": "বিবৃতিটো অসঁচা"
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
     },
     {
-     "en": "Cannot be decided",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The request makes sense only if people can use the footbridge, so the assumption is implicit.",
-    "as": "খোজ-সেতু মানুহে ব্যৱহাৰ কৰিব পাৰিলেহে অনুৰোধটোৰ অৰ্থ আছে, গতিকে অনুমানটো লুকুৱাই আছে।"
+    "en": "The decision to help weak students assumes they need extra help; whether Sunday is a holiday is not assumed.",
+    "as": "দুৰ্বল ছাত্ৰক সহায় কৰাৰ সিদ্ধান্তত তেওঁলোকৰ অতিৰিক্ত সহায়ৰ প্ৰয়োজন বুলি ধৰা হয়; দেওবাৰ বন্ধৰ কথা ধৰা নহয়।"
    }
   },
   {
    "id": "statement-assumptions-002",
    "q": {
-    "en": "Statement: Join the evening batch to improve your English. Assumption: An evening batch is available.",
-    "as": "বিবৃতি: আপোনাৰ ইংৰাজী উন্নত কৰিবলৈ সন্ধিয়াৰ বেট্চত যোগ দিয়ক। অনুমান: সন্ধিয়াৰ এটা বেট্চ উপলব্ধ।"
+    "en": "Statement: The company has started a free bus service for its employees.\nAssumptions: I. Employees need transport to reach the office. II. All employees own cars.",
+    "as": "বিবৃতি: The company has started a free bus service for its employees.\nঅনুমান: I. Employees need transport to reach the office. II. All employees own cars."
    },
    "options": [
     {
-     "en": "The assumption is not implicit",
-     "as": "অনুমানটো লুকুৱাই নাই"
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
     },
     {
-     "en": "The assumption is implicit",
-     "as": "অনুমানটো লুকুৱাই আছে"
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
     },
     {
-     "en": "The statement is false",
-     "as": "বিবৃতিটো অসঁচা"
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
     },
     {
-     "en": "Cannot be decided",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A bus service makes sense only if employees need transport; it does not assume they own cars.",
+    "as": "বাছ সেৱা তেতিয়াহে অৰ্থপূৰ্ণ যদি কৰ্মচাৰীৰ পৰিবহণৰ প্ৰয়োজন; তেওঁলোকৰ গাড়ী আছে বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-003",
+   "q": {
+    "en": "Statement: Please use the lift instead of the stairs during the fire drill.\nAssumptions: I. The lift is working during the drill. II. The stairs may be unsafe or crowded.",
+    "as": "বিবৃতি: Please use the lift instead of the stairs during the fire drill.\nঅনুমান: I. The lift is working during the drill. II. The stairs may be unsafe or crowded."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Advising the lift implies the stairs are less suitable; a fire drill normally stops the lift, so I is not assumed.",
+    "as": "লিফট ব্যৱহাৰৰ পৰামৰ্শই সিঁড়ি কম উপযুক্ত বুলি বুজায়; অগ্নি মহৰাত লিফট বন্ধ থাকে, গতিকে I ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-004",
+   "q": {
+    "en": "Statement: The government has banned the sale of loose cigarettes.\nAssumptions: I. Loose cigarettes are harmful. II. Packed cigarettes are safe.",
+    "as": "বিবৃতি: The government has banned the sale of loose cigarettes.\nঅনুমান: I. Loose cigarettes are harmful. II. Packed cigarettes are safe."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A ban assumes harm from loose cigarettes; it does not declare packed ones safe.",
+    "as": "নিষিদ্ধাই ঢিলা চিগাৰেটৰ ক্ষতিকাৰকতা ধৰি লয়; ই পেকেট চিগাৰেট নিৰাপদ বুলি নকয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-005",
+   "q": {
+    "en": "Statement: Advertisement: Buy this soap for a fair complexion.\nAssumptions: I. People want a fair complexion. II. This soap makes everyone fair.",
+    "as": "বিবৃতি: Advertisement: Buy this soap for a fair complexion.\nঅনুমান: I. People want a fair complexion. II. This soap makes everyone fair."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The advertisement targets a wish for fair skin; it does not guarantee the result for everyone.",
+    "as": "বিজ্ঞাপনে উজ্জ্বল ৰঙৰ ইচ্ছাক লক্ষ্য কৰে; ই সৰ্বাৰ বাবে ফলাফলৰ নিশ্চয়তা নিদিয়ে।"
+   }
+  },
+  {
+   "id": "statement-assumptions-006",
+   "q": {
+    "en": "Statement: Do not drink water from this well; it is contaminated.\nAssumptions: I. Contaminated water is unsafe to drink. II. The well can never be cleaned.",
+    "as": "বিবৃতি: Do not drink water from this well; it is contaminated.\nঅনুমান: I. Contaminated water is unsafe to drink. II. The well can never be cleaned."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The warning assumes contaminated water is unsafe; it says nothing about cleaning the well.",
+    "as": "সতৰ্কবাণীয়ে দূষিত পানী অসুৰক্ষিত বুলি ধৰি লয়; ই কুঁৱা পৰিষ্কাৰৰ কথা নকয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-007",
+   "q": {
+    "en": "Statement: The manager asked the staff to attend the meeting at 10 a.m. sharp.\nAssumptions: I. The staff can reach the venue by 10 a.m. II. The meeting will finish by 10 a.m.",
+    "as": "বিবৃতি: The manager asked the staff to attend the meeting at 10 a.m. sharp.\nঅনুমান: I. The staff can reach the venue by 10 a.m. II. The meeting will finish by 10 a.m."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Fixing a time assumes the staff can be present then; it does not say when the meeting ends.",
+    "as": "সময় নিৰ্ধাৰণে কৰ্মচাৰীয়ে সেই সময়ত উপস্থিত থাকিব পাৰিব বুলি ধৰি লয়; ই শেষৰ সময় নকয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-008",
+   "q": {
+    "en": "Statement: Apply sunscreen before going out in the sun.\nAssumptions: I. Sun exposure can harm the skin. II. Sunscreen is expensive.",
+    "as": "বিবৃতি: Apply sunscreen before going out in the sun.\nঅনুমান: I. Sun exposure can harm the skin. II. Sunscreen is expensive."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "Asking someone to join the evening batch assumes that such a batch exists, so the assumption is implicit.",
-    "as": "সন্ধিয়াৰ বেট্চত যোগ দিবলৈ কোৱাটোৱে এনে এটা বেট্চ আছে বুলি ধৰি লয়, গতিকে অনুমানটো লুকুৱাই আছে।"
+    "en": "The advice assumes sun exposure may harm the skin; cost is not assumed.",
+    "as": "পৰামৰ্শই ৰ'দে ছালৰ ক্ষতি কৰিব পাৰে বুলি ধৰি লয়; দামৰ কথা ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-009",
+   "q": {
+    "en": "Statement: The library has extended its opening hours till 9 p.m. during exams.\nAssumptions: I. Students study late during exams. II. All students live near the library.",
+    "as": "বিবৃতি: The library has extended its opening hours till 9 p.m. during exams.\nঅনুমান: I. Students study late during exams. II. All students live near the library."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Extending hours assumes late study during exams; residence is not assumed.",
+    "as": "সময় বঢ়োৱাই পৰীক্ষাৰ সময়ত দেৰিলৈকে পঢ়া ধৰি লয়; বাসস্থান ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-010",
+   "q": {
+    "en": "Statement: Keep medicines out of the reach of children.\nAssumptions: I. Children may eat medicines by mistake. II. Medicines are always sweet.",
+    "as": "বিবৃতি: Keep medicines out of the reach of children.\nঅনুমান: I. Children may eat medicines by mistake. II. Medicines are always sweet."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The warning assumes children may take medicines by mistake; taste is not assumed.",
+    "as": "সতৰ্কবাণীয়ে শিশুৱে ভুলতে ঔষধ খাব পাৰে বুলি ধৰি লয়; সোৱাদ ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-011",
+   "q": {
+    "en": "Statement: The traffic police have put up speed-limit signs near the school.\nAssumptions: I. Vehicles may drive fast near the school. II. All drivers obey every sign.",
+    "as": "বিবৃতি: The traffic police have put up speed-limit signs near the school.\nঅনুমান: I. Vehicles may drive fast near the school. II. All drivers obey every sign."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A speed limit is needed because vehicles may drive fast; obedience is hoped for, not assumed.",
+    "as": "গতিসীমা তেতিয়াহে প্ৰয়োজন যদি বাহন দ্ৰুত চলিব পাৰে; মানি চলা আশা, ধাৰণা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-012",
+   "q": {
+    "en": "Statement: Wear a helmet while riding a two-wheeler.\nAssumptions: I. A helmet can reduce injury in an accident. II. Accidents never happen.",
+    "as": "বিবৃতি: Wear a helmet while riding a two-wheeler.\nঅনুমান: I. A helmet can reduce injury in an accident. II. Accidents never happen."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The advice assumes helmets reduce injury; it certainly does not assume accidents never happen.",
+    "as": "পৰামৰ্শই হেলমেটে আঘাত কমায় বুলি ধৰি লয়; দুৰ্ঘটনা নহয় বুলি ধৰাই নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-013",
+   "q": {
+    "en": "Statement: The bank has asked customers to update their mobile numbers.\nAssumptions: I. Customers can be contacted on mobile. II. All customers have smartphones.",
+    "as": "বিবৃতি: The bank has asked customers to update their mobile numbers.\nঅনুমান: I. Customers can be contacted on mobile. II. All customers have smartphones."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Updating a number assumes customers can be reached on mobile; a smartphone is not required.",
+    "as": "নম্বৰ আপডেট কৰিবলৈ কোৱাই গ্ৰাহকক ম'বাইলত যোগাযোগ কৰিব পৰা ধৰি লয়; স্মাৰ্টফোন প্ৰয়োজন নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-014",
+   "q": {
+    "en": "Statement: The college has introduced an online application process.\nAssumptions: I. Applicants have internet access. II. Applicants cannot fill paper forms.",
+    "as": "বিবৃতি: The college has introduced an online application process.\nঅনুমান: I. Applicants have internet access. II. Applicants cannot fill paper forms."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "An online process assumes internet access; it does not say paper forms are impossible.",
+    "as": "অনলাইন প্ৰক্ৰিয়াই ইণ্টাৰনেট প্ৰৱেশ ধৰি লয়; কাগজৰ ফৰ্ম অসম্ভৱ বুলি নকয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-015",
+   "q": {
+    "en": "Statement: The doctor advised the patient to reduce salt in his food.\nAssumptions: I. Excess salt can worsen the patient's condition. II. The patient cooks his own food.",
+    "as": "বিবৃতি: The doctor advised the patient to reduce salt in his food.\nঅনুমান: I. Excess salt can worsen the patient's condition. II. The patient cooks his own food."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The advice assumes salt affects the condition; who cooks is not assumed.",
+    "as": "পৰামৰ্শই নিমখে অৱস্থা বেয়া কৰিব পাৰে বুলি ধৰি লয়; ৰন্ধা-বঢ়াৰ কথা ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-016",
+   "q": {
+    "en": "Statement: The government is planting trees along the highway.\nAssumptions: I. Trees reduce dust and noise near roads. II. Trees stop all accidents.",
+    "as": "বিবৃতি: The government is planting trees along the highway.\nঅনুমান: I. Trees reduce dust and noise near roads. II. Trees stop all accidents."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Planting along a highway assumes trees reduce dust and noise; it does not claim to stop accidents.",
+    "as": "পথৰ কাষত ৰোপণে গছ-গছনিয়ে ধূলি আৰু শব্দ কমায় বুলি ধৰি লয়; দুৰ্ঘটনা বন্ধৰ দাবী নকৰে।"
+   }
+  },
+  {
+   "id": "statement-assumptions-017",
+   "q": {
+    "en": "Statement: Please switch off the lights when you leave the room.\nAssumptions: I. The person may leave the room. II. The room has no windows.",
+    "as": "বিবৃতি: Please switch off the lights when you leave the room.\nঅনুমান: I. The person may leave the room. II. The room has no windows."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The request assumes the person may leave; windows are irrelevant.",
+    "as": "অনুৰোধে ব্যক্তিজনে ৰুম এৰিব পাৰে বুলি ধৰি লয়; খিৰিকীৰ প্ৰাসংগিকতা নাই।"
+   }
+  },
+  {
+   "id": "statement-assumptions-018",
+   "q": {
+    "en": "Statement: The shop offers a discount on bulk purchases.\nAssumptions: I. Some buyers purchase in bulk. II. All buyers purchase in bulk.",
+    "as": "বিবৃতি: The shop offers a discount on bulk purchases.\nঅনুমান: I. Some buyers purchase in bulk. II. All buyers purchase in bulk."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A bulk discount assumes at least some buyers purchase in bulk, not all.",
+    "as": "বাল্ক ৰেহাইয়ে অন্ততঃ কিছুমান ক্ৰেতাই বাল্কত কিনে বুলি ধৰি লয়, সকলোৱে নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-019",
+   "q": {
+    "en": "Statement: Carry an umbrella; it may rain this evening.\nAssumptions: I. Rain is possible this evening. II. It will certainly rain.",
+    "as": "বিবৃতি: Carry an umbrella; it may rain this evening.\nঅনুমান: I. Rain is possible this evening. II. It will certainly rain."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The advice assumes rain is possible; it does not claim rain is certain.",
+    "as": "পৰামৰ্শই বৰষুণ সম্ভৱ বুলি ধৰি লয়; নিশ্চিত বুলি দাবী নকৰে।"
+   }
+  },
+  {
+   "id": "statement-assumptions-020",
+   "q": {
+    "en": "Statement: The examiner warned candidates against using unfair means.\nAssumptions: I. Some candidates may try unfair means. II. All candidates cheat.",
+    "as": "বিবৃতি: The examiner warned candidates against using unfair means.\nঅনুমান: I. Some candidates may try unfair means. II. All candidates cheat."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A warning is needed because some may cheat; it does not assume all cheat.",
+    "as": "সতৰ্কবাণী তেতিয়াহে প্ৰয়োজন যদি কিছুমানে প্ৰৱঞ্চনা কৰিব পাৰে; সকলোৱে কৰে বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-021",
+   "q": {
+    "en": "Statement: The municipality has started a door-to-door garbage collection.\nAssumptions: I. Residents will hand over their garbage. II. Residents enjoy collecting garbage.",
+    "as": "বিবৃতি: The municipality has started a door-to-door garbage collection.\nঅনুমান: I. Residents will hand over their garbage. II. Residents enjoy collecting garbage."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Door-to-door collection assumes residents will cooperate; nobody assumes they enjoy it.",
+    "as": "ঘৰে ঘৰে সংগ্ৰহই বাসিন্দাসকলে সহযোগ কৰিব বুলি ধৰি লয়; কোনেও ভাল পায় বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-022",
+   "q": {
+    "en": "Statement: The airline asked passengers to reach the airport two hours early.\nAssumptions: I. Security checks take time. II. The flight will leave early.",
+    "as": "বিবৃতি: The airline asked passengers to reach the airport two hours early.\nঅনুমান: I. Security checks take time. II. The flight will leave early."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Arriving early assumes checks take time; the flight time is unchanged.",
+    "as": "সোনকালে যোৱাই পৰীক্ষাত সময় লাগে বুলি ধৰি লয়; উৰণৰ সময় সলনি নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-023",
+   "q": {
+    "en": "Statement: Eat fresh fruit every day to stay healthy.\nAssumptions: I. Fresh fruit contributes to health. II. Fruit is cheaper than medicine.",
+    "as": "বিবৃতি: Eat fresh fruit every day to stay healthy.\nঅনুমান: I. Fresh fruit contributes to health. II. Fruit is cheaper than medicine."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The advice assumes fruit helps health; cost is not assumed.",
+    "as": "পৰামৰ্শই ফল স্বাস্থ্যৰ বাবে সহায়ক বুলি ধৰি লয়; দামৰ কথা ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-024",
+   "q": {
+    "en": "Statement: The school sent a notice to parents about the annual day.\nAssumptions: I. Parents are interested in the event. II. All parents will attend.",
+    "as": "বিবৃতি: The school sent a notice to parents about the annual day.\nঅনুমান: I. Parents are interested in the event. II. All parents will attend."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A notice assumes some interest; attendance is not assumed.",
+    "as": "জাননীয়ে কিছু আগ্ৰহ ধৰি লয়; উপস্থিতি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-025",
+   "q": {
+    "en": "Statement: The team practised daily before the final match.\nAssumptions: I. Practice improves performance. II. The team will surely win.",
+    "as": "বিবৃতি: The team practised daily before the final match.\nঅনুমান: I. Practice improves performance. II. The team will surely win."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Daily practice assumes practice helps; victory is not certain.",
+    "as": "দৈনিক অনুশীলনে অনুশীলন সহায়ক বুলি ধৰি লয়; বিজয় নিশ্চিত নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-026",
+   "q": {
+    "en": "Statement: Install an anti-virus program on your computer.\nAssumptions: I. A computer can be infected by viruses. II. Anti-virus programs are free.",
+    "as": "বিবৃতি: Install an anti-virus program on your computer.\nঅনুমান: I. A computer can be infected by viruses. II. Anti-virus programs are free."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The advice assumes infection is possible; cost is not assumed.",
+    "as": "পৰামৰ্শই সংক্ৰমণ সম্ভৱ বুলি ধৰি লয়; দামৰ কথা ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-027",
+   "q": {
+    "en": "Statement: The company hired more staff for the festival season.\nAssumptions: I. Demand rises during the festival season. II. The staff will work without pay.",
+    "as": "বিবৃতি: The company hired more staff for the festival season.\nঅনুমান: I. Demand rises during the festival season. II. The staff will work without pay."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Extra hiring assumes higher demand; unpaid work is never assumed.",
+    "as": "অতিৰিক্ত নিযুক্তিয়ে বেছি চাহিদা ধৰি লয়; বিনা দৰমহাৰ কাম কেতিয়াও ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-028",
+   "q": {
+    "en": "Statement: The farmer used organic manure for his crop.\nAssumptions: I. Organic manure can help the crop grow. II. Chemical fertiliser is banned.",
+    "as": "বিবৃতি: The farmer used organic manure for his crop.\nঅনুমান: I. Organic manure can help the crop grow. II. Chemical fertiliser is banned."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Using organic manure assumes it helps growth; no ban is assumed.",
+    "as": "জৈৱ সাৰ ব্যৱহাৰে ই বৃদ্ধিত সহায় কৰে বুলি ধৰি লয়; নিষিদ্ধৰ কথা ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-029",
+   "q": {
+    "en": "Statement: The city has banned honking near hospitals.\nAssumptions: I. Honking disturbs patients. II. Vehicles make no other noise.",
+    "as": "বিবৃতি: The city has banned honking near hospitals.\nঅনুমান: I. Honking disturbs patients. II. Vehicles make no other noise."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The ban assumes honking disturbs patients; other noise is not excluded.",
+    "as": "নিষিদ্ধাই হৰ্ণই ৰোগীক আমনি কৰে বুলি ধৰি লয়; আন শব্দ বাদ দিয়া নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-030",
+   "q": {
+    "en": "Statement: Read the instructions before using the machine.\nAssumptions: I. Incorrect use can cause harm. II. The machine is very cheap.",
+    "as": "বিবৃতি: Read the instructions before using the machine.\nঅনুমান: I. Incorrect use can cause harm. II. The machine is very cheap."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The instruction assumes wrong use is risky; price is not assumed.",
+    "as": "নিৰ্দেশনাই ভুল ব্যৱহাৰ বিপদজনক বুলি ধৰি লয়; দাম ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-031",
+   "q": {
+    "en": "Statement: The government announced a subsidy for farmers.\nAssumptions: I. Farmers need financial support. II. All farmers are poor.",
+    "as": "বিবৃতি: The government announced a subsidy for farmers.\nঅনুমান: I. Farmers need financial support. II. All farmers are poor."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A subsidy assumes farmers need support; it does not assume all are poor.",
+    "as": "ভৰ্তুকিয়ে কৃষকৰ সহায়ৰ প্ৰয়োজন ধৰি লয়; সকলো দৰিদ্ৰ বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-032",
+   "q": {
+    "en": "Statement: The teacher gave extra practice sheets to the class.\nAssumptions: I. Practice helps students learn. II. The class has no textbook.",
+    "as": "বিবৃতি: The teacher gave extra practice sheets to the class.\nঅনুমান: I. Practice helps students learn. II. The class has no textbook."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Practice sheets assume practice helps; no textbook is not implied.",
+    "as": "অনুশীলন পত্ৰই অনুশীলন সহায়ক বুলি ধৰি লয়; পাঠ্যপুথি নথকা বুজোৱা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-033",
+   "q": {
+    "en": "Statement: Save money for a rainy day.\nAssumptions: I. Difficult times may come. II. It will certainly rain tomorrow.",
+    "as": "বিবৃতি: Save money for a rainy day.\nঅনুমান: I. Difficult times may come. II. It will certainly rain tomorrow."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The saying assumes hard times may come; literal rain is not meant.",
+    "as": "উক্তিটোৱে কষ্টৰ সময় আহিব পাৰে বুলি ধৰি লয়; আক্ষৰিক বৰষুণ নুবুজায়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-034",
+   "q": {
+    "en": "Statement: The hotel displays a notice: 'Right of admission reserved'.\nAssumptions: I. The hotel may refuse some guests. II. The hotel has no rooms.",
+    "as": "বিবৃতি: The hotel displays a notice: 'Right of admission reserved'.\nঅনুমান: I. The hotel may refuse some guests. II. The hotel has no rooms."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The notice assumes the hotel may refuse admission; it does not say rooms are unavailable.",
+    "as": "জাননীয়ে হোটেলে কিছু অতিথি নাকচ কৰিব পাৰে বুলি ধৰি লয়; ৰুম নাই বুলি নকয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-035",
+   "q": {
+    "en": "Statement: Wash your hands before eating.\nAssumptions: I. Hands may carry germs. II. Soap is always available.",
+    "as": "বিবৃতি: Wash your hands before eating.\nঅনুমান: I. Hands may carry germs. II. Soap is always available."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The advice assumes hands may carry germs; soap supply is not assumed.",
+    "as": "পৰামৰ্শই হাতত জীৱাণু থাকিব পাৰে বুলি ধৰি লয়; চাবোন উপলব্ধ বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-036",
+   "q": {
+    "en": "Statement: The school has asked students to wear shoes during the monsoon.\nAssumptions: I. Shoes protect the feet from mud and water. II. All students own shoes.",
+    "as": "বিবৃতি: The school has asked students to wear shoes during the monsoon.\nঅনুমান: I. Shoes protect the feet from mud and water. II. All students own shoes."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The request assumes shoes protect feet in the monsoon; ownership is not assumed.",
+    "as": "অনুৰোধই বৰষুণত জোতাৰে ভৰি ৰক্ষা পায় বুলি ধৰি লয়; মালিকীস্বত্ব ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-037",
+   "q": {
+    "en": "Statement: The doctor asked the patient to take the medicine after meals.\nAssumptions: I. Taking medicine after food is better for the patient. II. The patient always eats on time.",
+    "as": "বিবৃতি: The doctor asked the patient to take the medicine after meals.\nঅনুমান: I. Taking medicine after food is better for the patient. II. The patient always eats on time."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The instruction assumes after-meal timing helps; punctuality is not assumed.",
+    "as": "নিৰ্দেশই আহাৰৰ পিছত ঔষধ ভাল বুলি ধৰি লয়; সময়পালন ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-038",
+   "q": {
+    "en": "Statement: The company asked employees to attend a training programme.\nAssumptions: I. Training will improve employees' skills. II. All employees are new.",
+    "as": "বিবৃতি: The company asked employees to attend a training programme.\nঅনুমান: I. Training will improve employees' skills. II. All employees are new."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A training programme assumes it improves skills; it does not assume all are new.",
+    "as": "প্ৰশিক্ষণ কাৰ্যসূচীয়ে দক্ষতা বঢ়ায় বুলি ধৰি লয়; সকলো নতুন বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-039",
+   "q": {
+    "en": "Statement: The government advised farmers to use drip irrigation.\nAssumptions: I. Drip irrigation saves water. II. All farmers are rich.",
+    "as": "বিবৃতি: The government advised farmers to use drip irrigation.\nঅনুমান: I. Drip irrigation saves water. II. All farmers are rich."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The advice assumes drip irrigation saves water; wealth is not assumed.",
+    "as": "পৰামৰ্শই ড্ৰিপ জলসিঞ্চনে পানী সঞ্চয় কৰে বুলি ধৰি লয়; ধনী বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-040",
+   "q": {
+    "en": "Statement: Please keep your seat belt fastened during the flight.\nAssumptions: I. A seat belt can protect during sudden movement. II. The flight will crash.",
+    "as": "বিবৃতি: Please keep your seat belt fastened during the flight.\nঅনুমান: I. A seat belt can protect during sudden movement. II. The flight will crash."
+   },
+   "options": [
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The instruction assumes seat belts protect; it does not predict a crash.",
+    "as": "নিৰ্দেশই ছিটবেল্টে সুৰক্ষা দিয়ে বুলি ধৰি লয়; দুৰ্ঘটনাৰ ভৱিষ্যদ্বাণী নকৰে।"
+   }
+  },
+  {
+   "id": "statement-assumptions-041",
+   "q": {
+    "en": "Statement: The library asked readers to keep silence.\nAssumptions: I. Noise disturbs other readers. II. The library has no books.",
+    "as": "বিবৃতি: The library asked readers to keep silence.\nঅনুমান: I. Noise disturbs other readers. II. The library has no books."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A silence request assumes noise disturbs others; books are not in question.",
+    "as": "নীৰৱতাৰ অনুৰোধই শব্দই আনক আমনি কৰে বুলি ধৰি লয়; কিতাপৰ প্ৰশ্ন নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-042",
+   "q": {
+    "en": "Statement: The bank asked customers to use the ATM for small withdrawals.\nAssumptions: I. The ATM can handle small withdrawals. II. The bank has no staff.",
+    "as": "বিবৃতি: The bank asked customers to use the ATM for small withdrawals.\nঅনুমান: I. The ATM can handle small withdrawals. II. The bank has no staff."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The request assumes the ATM can serve small withdrawals; staff shortage is not assumed.",
+    "as": "অনুৰোধই ATM এ সৰু উলিওৱা কৰিব পাৰে বুলি ধৰি লয়; কৰ্মচাৰীৰ অভাৱ ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-043",
+   "q": {
+    "en": "Statement: The teacher asked the class to submit the project by Friday.\nAssumptions: I. The students can complete the project by Friday. II. The project is very easy.",
+    "as": "বিবৃতি: The teacher asked the class to submit the project by Friday.\nঅনুমান: I. The students can complete the project by Friday. II. The project is very easy."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A deadline assumes the work can be finished in time; difficulty is not assumed.",
+    "as": "সময়সীমাই সময়মতে কাম শেষ হ'ব বুলি ধৰি লয়; সহজতা ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-044",
+   "q": {
+    "en": "Statement: The city advised residents to compost kitchen waste.\nAssumptions: I. Composting reduces garbage. II. All residents have gardens.",
+    "as": "বিবৃতি: The city advised residents to compost kitchen waste.\nঅনুমান: I. Composting reduces garbage. II. All residents have gardens."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The advice assumes composting cuts garbage; gardens are not required.",
+    "as": "পৰামৰ্শই কম্পোষ্টে আৱৰ্জনা কমায় বুলি ধৰি লয়; বাগিচাৰ প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "statement-assumptions-045",
+   "q": {
+    "en": "Statement: The store offered a warranty on the television.\nAssumptions: I. The television may develop a fault. II. All televisions are faulty.",
+    "as": "বিবৃতি: The store offered a warranty on the television.\nঅনুমান: I. The television may develop a fault. II. All televisions are faulty."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A warranty assumes a fault is possible, not certain.",
+    "as": "ৱাৰেণ্টিয়ে ত্ৰুটি সম্ভৱ বুলি ধৰি লয়, নিশ্চিত নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-046",
+   "q": {
+    "en": "Statement: The government has started a scheme to give free textbooks to poor students.\nAssumptions: I. Poor students cannot buy textbooks. II. All students are poor.",
+    "as": "বিবৃতি: The government has started a scheme to give free textbooks to poor students.\nঅনুমান: I. Poor students cannot buy textbooks. II. All students are poor."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A free-textbook scheme assumes some students cannot buy books; not all are poor.",
+    "as": "বিনামূলীয়া পাঠ্যপুথি আঁচনিয়ে কিছুমান ছাত্ৰই কিনিব নোৱাৰে বুলি ধৰি লয়; সকলো দৰিদ্ৰ নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-047",
+   "q": {
+    "en": "Statement: The police have set up a help desk at the railway station.\nAssumptions: I. Passengers may need help at the station. II. All passengers are travellers in trouble.",
+    "as": "বিবৃতি: The police have set up a help desk at the railway station.\nঅনুমান: I. Passengers may need help at the station. II. All passengers are travellers in trouble."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A help desk assumes passengers may need help; it does not assume all are in trouble.",
+    "as": "সহায় ডেস্কই যাত্ৰীৰ সহায়ৰ প্ৰয়োজন হ'ব পাৰে বুলি ধৰি লয়; সকলো সমস্যাত বুলি ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-048",
+   "q": {
+    "en": "Statement: The company has asked staff to wear identity cards.\nAssumptions: I. Identity cards help identify staff. II. All visitors carry identity cards.",
+    "as": "বিবৃতি: The company has asked staff to wear identity cards.\nঅনুমান: I. Identity cards help identify staff. II. All visitors carry identity cards."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The rule assumes cards help identify staff; visitors are not covered.",
+    "as": "নিয়মে কাৰ্ডে কৰ্মীক চিনাক্ত কৰে বুলি ধৰি লয়; দৰ্শনাৰ্থী সামৰি লোৱা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-049",
+   "q": {
+    "en": "Statement: The school has started a parent-teacher meeting every month.\nAssumptions: I. Parents and teachers should discuss students' progress. II. All parents live near the school.",
+    "as": "বিবৃতি: The school has started a parent-teacher meeting every month.\nঅনুমান: I. Parents and teachers should discuss students' progress. II. All parents live near the school."
+   },
+   "options": [
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Monthly meetings assume discussion helps progress; proximity is not assumed.",
+    "as": "মাহেকীয়া সভাই আলোচনাই উন্নতিত সহায় কৰে বুলি ধৰি লয়; ওচৰত থকা ধৰা নহয়।"
+   }
+  },
+  {
+   "id": "statement-assumptions-050",
+   "q": {
+    "en": "Statement: The hospital has started a 24-hour emergency ward.\nAssumptions: I. Emergencies can happen at any time. II. All patients need emergency care.",
+    "as": "বিবৃতি: The hospital has started a 24-hour emergency ward.\nঅনুমান: I. Emergencies can happen at any time. II. All patients need emergency care."
+   },
+   "options": [
+    {
+     "en": "Assumption I is implicit",
+     "as": "অনুমান I অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Neither I nor II is implicit",
+     "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+    },
+    {
+     "en": "Assumption II is implicit",
+     "as": "অনুমান II অন্তৰ্নিহিত"
+    },
+    {
+     "en": "Both I and II are implicit",
+     "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A 24-hour ward assumes emergencies can occur anytime; not all need it.",
+    "as": "২৪ ঘণ্টীয়া ৱাৰ্ডে যিকোনো সময়ত জৰুৰী অৱস্থা হ'ব পাৰে বুলি ধৰি লয়; সকলোৰে প্ৰয়োজন বুলি নহয়।"
    }
   }
  ],
@@ -110352,61 +118752,1591 @@ module.exports = {
   {
    "id": "statement-arguments-001",
    "q": {
-    "en": "Statement: Should the use of plastic bags be banned? Argument: Yes, because plastic bags pollute the environment.",
-    "as": "বিবৃতি: প্লাষ্টিকৰ মোনা ব্যৱহাৰ নিষিদ্ধ কৰা উচিত নে? যুক্তি: হয়, কাৰণ প্লাষ্টিকৰ মোনাই পৰিৱেশ প্ৰদূষিত কৰে।"
+    "en": "Statement: Should all schools teach computer coding from class six?\nArguments: I. Yes, coding builds logical thinking useful in every career. II. No, because I did not learn coding at school.",
+    "as": "বিবৃতি: Should all schools teach computer coding from class six?\nযুক্তি: I. Yes, coding builds logical thinking useful in every career. II. No, because I did not learn coding at school."
    },
    "options": [
     {
-     "en": "The argument is weak",
-     "as": "যুক্তিটো দুৰ্বল"
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
     },
     {
-     "en": "The argument is irrelevant",
-     "as": "যুক্তিটো অসম্পৰ্কিত"
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
     },
     {
-     "en": "The argument is strong",
-     "as": "যুক্তিটো শক্তিশালী"
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
     },
     {
-     "en": "Cannot be decided",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
-    "en": "The argument is directly related to the statement and rests on a real environmental fact, so it is strong.",
-    "as": "যুক্তিটো বিবৃতিৰ সৈতে পোনপটীয়াকৈ জড়িত আৰু এটা প্ৰকৃত পৰিৱেশ তথ্যত ভিত্তি কৰি, গতিকে সেয়া শক্তিশালী।"
+    "en": "Argument I gives a general benefit; argument II is only a personal opinion.",
+    "as": "যুক্তি I এ সাধাৰণ উপকাৰ দেখুৱায়; যুক্তি II কেৱল ব্যক্তিগত মত।"
    }
   },
   {
    "id": "statement-arguments-002",
    "q": {
-    "en": "Statement: Should school children be given homework? Argument: No, because I never liked homework.",
-    "as": "বিবৃতি: স্কুলৰ শিশুক ঘৰুৱা কাম দিয়া উচিত নে? যুক্তি: নহয়, কাৰণ মই কেতিয়াও ঘৰুৱা কাম ভাল নাপাইছিলোঁ।"
+    "en": "Statement: Should mobile phones be banned in classrooms?\nArguments: I. Yes, they distract students from lessons. II. No, because phones are costly.",
+    "as": "বিবৃতি: Should mobile phones be banned in classrooms?\nযুক্তি: I. Yes, they distract students from lessons. II. No, because phones are costly."
    },
    "options": [
     {
-     "en": "The argument is strong",
-     "as": "যুক্তিটো শক্তিশালী"
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
     },
     {
-     "en": "The argument is relevant",
-     "as": "যুক্তিটো প্ৰাসংগিক"
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
     },
     {
-     "en": "Cannot be decided",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
     },
     {
-     "en": "The argument is weak",
-     "as": "যুক্তিটো দুৰ্বল"
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Distraction is directly about learning; cost is irrelevant to classroom use.",
+    "as": "মনোযোগ হেৰুওৱা পোনপটীয়াকৈ শিক্ষণৰ লগত জড়িত; দাম শ্ৰেণীকোঠাৰ ব্যৱহাৰৰ লগত অপ্ৰাসংগিক।"
+   }
+  },
+  {
+   "id": "statement-arguments-003",
+   "q": {
+    "en": "Statement: Should the government raise the legal age for driving?\nArguments: I. Yes, younger drivers have more accidents. II. No, because my cousin drives well.",
+    "as": "বিবৃতি: Should the government raise the legal age for driving?\nযুক্তি: I. Yes, younger drivers have more accidents. II. No, because my cousin drives well."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Accident data is a sound general reason; a single example is not.",
+    "as": "দুৰ্ঘটনাৰ তথ্য এটা সবল সাধাৰণ কাৰণ; এটা উদাহৰণে নহয়।"
+   }
+  },
+  {
+   "id": "statement-arguments-004",
+   "q": {
+    "en": "Statement: Should plastic bags be banned completely?\nArguments: I. Yes, they harm the environment for centuries. II. No, because plastic is cheap to make.",
+    "as": "বিবৃতি: Should plastic bags be banned completely?\nযুক্তি: I. Yes, they harm the environment for centuries. II. No, because plastic is cheap to make."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Long-term harm is a strong public reason; cheapness does not outweigh it.",
+    "as": "দীৰ্ঘম্যাদী ক্ষতি এটা সবল ৰাজহুৱা কাৰণ; সস্তাই তাক নুঢাকি।"
+   }
+  },
+  {
+   "id": "statement-arguments-005",
+   "q": {
+    "en": "Statement: Should students be given homework every day?\nArguments: I. Yes, regular practice strengthens learning. II. No, because homework is boring.",
+    "as": "বিবৃতি: Should students be given homework every day?\nযুক্তি: I. Yes, regular practice strengthens learning. II. No, because homework is boring."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Practice benefits learning; boredom is a weak personal feeling.",
+    "as": "অনুশীলনে শিক্ষণত উপকাৰ কৰে; আমনি এটা দুৰ্বল ব্যক্তিগত অনুভৱ।"
+   }
+  },
+  {
+   "id": "statement-arguments-006",
+   "q": {
+    "en": "Statement: Should the city build more public parks?\nArguments: I. Yes, parks give people space to exercise and relax. II. No, because parks need gardeners.",
+    "as": "বিবৃতি: Should the city build more public parks?\nযুক্তি: I. Yes, parks give people space to exercise and relax. II. No, because parks need gardeners."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Public benefit is strong; staffing is a manageable detail, not a reason to refuse.",
+    "as": "ৰাজহুৱা উপকাৰ সবল; কৰ্মচাৰী এটা সামৰি ল'ব পৰা দিশ, অস্বীকাৰৰ কাৰণ নহয়।"
+   }
+  },
+  {
+   "id": "statement-arguments-007",
+   "q": {
+    "en": "Statement: Should examinations be replaced by continuous assessment?\nArguments: I. Yes, continuous assessment reduces exam stress and gives a fuller picture. II. No, because exams are traditional.",
+    "as": "বিবৃতি: Should examinations be replaced by continuous assessment?\nযুক্তি: I. Yes, continuous assessment reduces exam stress and gives a fuller picture. II. No, because exams are traditional."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Reduced stress and better measurement are real reasons; tradition alone is weak.",
+    "as": "হ্ৰাস পোৱা চাপ আৰু ভাল মূল্যায়ন প্ৰকৃত কাৰণ; পৰম্পৰাই অকলে দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-008",
+   "q": {
+    "en": "Statement: Should voting be made compulsory?\nArguments: I. Yes, it would increase public participation in democracy. II. No, because queues are long.",
+    "as": "বিবৃতি: Should voting be made compulsory?\nযুক্তি: I. Yes, it would increase public participation in democracy. II. No, because queues are long."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Participation is a fundamental democratic value; queue length is minor.",
+    "as": "অংশগ্ৰহণ এটা মৌলিক গণতান্ত্ৰিক মূল্য; শাৰীৰ দীঘ সৰু কথা।"
+   }
+  },
+  {
+   "id": "statement-arguments-009",
+   "q": {
+    "en": "Statement: Should junk food be banned in school canteens?\nArguments: I. Yes, it protects children's health. II. No, because children like the taste.",
+    "as": "বিবৃতি: Should junk food be banned in school canteens?\nযুক্তি: I. Yes, it protects children's health. II. No, because children like the taste."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Health protection is strong; taste alone is weak.",
+    "as": "স্বাস্থ্য সুৰক্ষা সবল; কেৱল সোৱাদ দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-010",
+   "q": {
+    "en": "Statement: Should free Wi-Fi be provided in all villages?\nArguments: I. Yes, it improves access to education and services. II. No, because some people misuse it.",
+    "as": "বিবৃতি: Should free Wi-Fi be provided in all villages?\nযুক্তি: I. Yes, it improves access to education and services. II. No, because some people misuse it."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Wider access is a strong benefit; possible misuse does not outweigh it.",
+    "as": "বিস্তৃত প্ৰৱেশ এটা সবল উপকাৰ; সম্ভাব্য দুষ্ট ব্যৱহাৰে তাক নুঢাকি।"
+   }
+  },
+  {
+   "id": "statement-arguments-011",
+   "q": {
+    "en": "Statement: Should the retirement age be increased?\nArguments: I. Yes, people now live and stay healthy longer. II. No, because I want to retire early.",
+    "as": "বিবৃতি: Should the retirement age be increased?\nযুক্তি: I. Yes, people now live and stay healthy longer. II. No, because I want to retire early."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Longer healthy life is a general reason; personal wish is weak.",
+    "as": "দীঘলীয়া সুস্থ জীৱন এটা সাধাৰণ কাৰণ; ব্যক্তিগত ইচ্ছা দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-012",
+   "q": {
+    "en": "Statement: Should animals be used for medical research?\nArguments: I. Yes, it has helped cure many human diseases. II. No, because animals are cute.",
+    "as": "বিবৃতি: Should animals be used for medical research?\nযুক্তি: I. Yes, it has helped cure many human diseases. II. No, because animals are cute."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "A personal dislike is not a sound reason and does not address the merits, so the argument is weak.",
-    "as": "ব্যক্তিগত অনিচ্ছা এটা সুস্থ কাৰণ নহয় আৰু গুণাগুণ সম্বোধন নকৰে, গতিকে যুক্তিটো দুৰ্বল।"
+    "en": "Cures are a strong benefit; cuteness is an emotional, weak reason.",
+    "as": "নিরাময় এটা সবল উপকাৰ; মৰম লগা ভাব এটা আৱেগিক, দুৰ্বল কাৰণ।"
+   }
+  },
+  {
+   "id": "statement-arguments-013",
+   "q": {
+    "en": "Statement: Should the government provide free laptops to students?\nArguments: I. Yes, it bridges the digital divide in education. II. No, because laptops break easily.",
+    "as": "বিবৃতি: Should the government provide free laptops to students?\nযুক্তি: I. Yes, it bridges the digital divide in education. II. No, because laptops break easily."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bridging a divide is a strong reason; breakage is a maintenance detail.",
+    "as": "ব্যৱধান দূৰ কৰা সবল কাৰণ; ভাঙি যোৱা ৰক্ষণাবেক্ষণৰ কথা।"
+   }
+  },
+  {
+   "id": "statement-arguments-014",
+   "q": {
+    "en": "Statement: Should smoking be banned in all public places?\nArguments: I. Yes, second-hand smoke harms non-smokers. II. No, because smokers enjoy it.",
+    "as": "বিবৃতি: Should smoking be banned in all public places?\nযুক্তি: I. Yes, second-hand smoke harms non-smokers. II. No, because smokers enjoy it."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Protecting others' health is strong; enjoyment is a weak personal reason.",
+    "as": "আনৰ স্বাস্থ্য ৰক্ষা সবল; আমোদ এটা দুৰ্বল ব্যক্তিগত কাৰণ।"
+   }
+  },
+  {
+   "id": "statement-arguments-015",
+   "q": {
+    "en": "Statement: Should school uniforms be abolished?\nArguments: I. Yes, uniforms can be costly for poor families. II. No, because uniforms look neat.",
+    "as": "বিবৃতি: Should school uniforms be abolished?\nযুক্তি: I. Yes, uniforms can be costly for poor families. II. No, because uniforms look neat."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Cost burden on the poor is a strong social reason; neatness is weak.",
+    "as": "দৰিদ্ৰৰ ওপৰত খৰচৰ বোজা সবল সামাজিক কাৰণ; পৰিপাটিত্ব দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-016",
+   "q": {
+    "en": "Statement: Should there be a complete ban on firecrackers?\nArguments: I. Yes, they cause air and noise pollution. II. No, because I like the sound.",
+    "as": "বিবৃতি: Should there be a complete ban on firecrackers?\nযুক্তি: I. Yes, they cause air and noise pollution. II. No, because I like the sound."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pollution is a strong public reason; personal liking is weak.",
+    "as": "প্ৰদূষণ এটা সবল ৰাজহুৱা কাৰণ; ব্যক্তিগত ভাল লগা দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-017",
+   "q": {
+    "en": "Statement: Should the minimum wage be raised?\nArguments: I. Yes, workers cannot meet basic needs at the present wage. II. No, because employers want more profit.",
+    "as": "বিবৃতি: Should the minimum wage be raised?\nযুক্তি: I. Yes, workers cannot meet basic needs at the present wage. II. No, because employers want more profit."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Meeting basic needs is a strong reason; profit wish is weak and self-interested.",
+    "as": "মৌলিক প্ৰয়োজন পূৰণ সবল কাৰণ; লাভৰ ইচ্ছা দুৰ্বল আৰু স্বাৰ্থপৰ।"
+   }
+  },
+  {
+   "id": "statement-arguments-018",
+   "q": {
+    "en": "Statement: Should school children be given free midday meals?\nArguments: I. Yes, it improves nutrition and attendance. II. No, because cooking is difficult.",
+    "as": "বিবৃতি: Should school children be given free midday meals?\nযুক্তি: I. Yes, it improves nutrition and attendance. II. No, because cooking is difficult."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Better nutrition and attendance are strong; cooking difficulty is a manageable detail.",
+    "as": "ভাল পুষ্টি আৰু উপস্থিতি সবল; ৰন্ধাৰ অসুবিধা সামৰি ল'ব পৰা কথা।"
+   }
+  },
+  {
+   "id": "statement-arguments-019",
+   "q": {
+    "en": "Statement: Should the use of loudspeakers at night be restricted?\nArguments: I. Yes, loud noise disturbs sleep and health. II. No, because loudspeakers are fun.",
+    "as": "বিবৃতি: Should the use of loudspeakers at night be restricted?\nযুক্তি: I. Yes, loud noise disturbs sleep and health. II. No, because loudspeakers are fun."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sleep and health are strong; fun is weak.",
+    "as": "টোপনি আৰু স্বাস্থ্য সবল; আমোদ দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-020",
+   "q": {
+    "en": "Statement: Should the government build more dams on rivers?\nArguments: I. Yes, dams provide irrigation and electricity. II. No, because I live far from rivers.",
+    "as": "বিবৃতি: Should the government build more dams on rivers?\nযুক্তি: I. Yes, dams provide irrigation and electricity. II. No, because I live far from rivers."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Irrigation and power are strong benefits; personal distance is irrelevant.",
+    "as": "জলসিঞ্চন আৰু বিদ্যুৎ সবল উপকাৰ; ব্যক্তিগত দূৰত্ব অপ্ৰাসংগিক।"
+   }
+  },
+  {
+   "id": "statement-arguments-021",
+   "q": {
+    "en": "Statement: Should children be allowed to choose their own subjects?\nArguments: I. Yes, interest leads to better learning. II. No, because parents know best always.",
+    "as": "বিবৃতি: Should children be allowed to choose their own subjects?\nযুক্তি: I. Yes, interest leads to better learning. II. No, because parents know best always."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Interest improving learning is strong; 'always' is an overstatement.",
+    "as": "আগ্ৰহে শিক্ষণ উন্নত কৰে সবল; 'সদায়' এটা অত্যুক্তি।"
+   }
+  },
+  {
+   "id": "statement-arguments-022",
+   "q": {
+    "en": "Statement: Should the state provide unemployment allowance?\nArguments: I. Yes, it supports job-seekers during the search. II. No, because some may misuse it.",
+    "as": "বিবৃতি: Should the state provide unemployment allowance?\nযুক্তি: I. Yes, it supports job-seekers during the search. II. No, because some may misuse it."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Support during job search is strong; possible misuse does not outweigh it.",
+    "as": "চাকৰি সন্ধানৰ সময়ত সহায় সবল; সম্ভাব্য দুষ্ট ব্যৱহাৰে তাক নুঢাকি।"
+   }
+  },
+  {
+   "id": "statement-arguments-023",
+   "q": {
+    "en": "Statement: Should single-use plastics be replaced by cloth bags?\nArguments: I. Yes, cloth bags reduce long-term waste. II. No, because cloth bags cost more.",
+    "as": "বিবৃতি: Should single-use plastics be replaced by cloth bags?\nযুক্তি: I. Yes, cloth bags reduce long-term waste. II. No, because cloth bags cost more."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Reduced waste is strong; a slightly higher initial cost is minor.",
+    "as": "কম আৱৰ্জনা সবল; কিছু বেছি প্ৰাৰম্ভিক খৰচ সৰু কথা।"
+   }
+  },
+  {
+   "id": "statement-arguments-024",
+   "q": {
+    "en": "Statement: Should every student learn a musical instrument?\nArguments: I. Yes, music improves concentration and creativity. II. No, because not everyone likes music.",
+    "as": "বিবৃতি: Should every student learn a musical instrument?\nযুক্তি: I. Yes, music improves concentration and creativity. II. No, because not everyone likes music."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Improved concentration and creativity are strong; dislike is weak.",
+    "as": "উন্নত মনোযোগ আৰু সৃষ্টিশীলতা সবল; অপছন্দ দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-025",
+   "q": {
+    "en": "Statement: Should the government ban the sale of tobacco near schools?\nArguments: I. Yes, it protects young students from addiction. II. No, because sellers lose income.",
+    "as": "বিবৃতি: Should the government ban the sale of tobacco near schools?\nযুক্তি: I. Yes, it protects young students from addiction. II. No, because sellers lose income."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Protecting children from addiction is strong; seller income is weak against it.",
+    "as": "শিশুক আসক্তিৰ পৰা ৰক্ষা সবল; বিক্ৰেতাৰ আয় তাৰ আগত দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-026",
+   "q": {
+    "en": "Statement: Should there be a fixed limit on the number of vehicles per family?\nArguments: I. Yes, it would reduce traffic and pollution. II. No, because my family has three cars.",
+    "as": "বিবৃতি: Should there be a fixed limit on the number of vehicles per family?\nযুক্তি: I. Yes, it would reduce traffic and pollution. II. No, because my family has three cars."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Less traffic and pollution is strong; a personal example is weak.",
+    "as": "কম যান-বাহন আৰু প্ৰদূষণ সবল; ব্যক্তিগত উদাহৰণ দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-027",
+   "q": {
+    "en": "Statement: Should the school day start later in the morning?\nArguments: I. Yes, teenagers need more morning sleep for health. II. No, because I like early mornings.",
+    "as": "বিবৃতি: Should the school day start later in the morning?\nযুক্তি: I. Yes, teenagers need more morning sleep for health. II. No, because I like early mornings."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Health needs of teenagers are strong; personal preference is weak.",
+    "as": "কিশোৰৰ স্বাস্থ্যৰ প্ৰয়োজন সবল; ব্যক্তিগত পছন্দ দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-028",
+   "q": {
+    "en": "Statement: Should exams test only objective questions?\nArguments: I. Yes, objective questions are quick and unbiased to mark. II. No, because essays look nice.",
+    "as": "বিবৃতি: Should exams test only objective questions?\nযুক্তি: I. Yes, objective questions are quick and unbiased to mark. II. No, because essays look nice."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Quick and unbiased marking is strong; appearance is weak.",
+    "as": "দ্ৰুত আৰু পক্ষপাতহীন মূল্যাংকন সবল; চেহেৰা দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-029",
+   "q": {
+    "en": "Statement: Should the government give tax breaks to small businesses?\nArguments: I. Yes, it helps them grow and create jobs. II. No, because big businesses pay tax.",
+    "as": "বিবৃতি: Should the government give tax breaks to small businesses?\nযুক্তি: I. Yes, it helps them grow and create jobs. II. No, because big businesses pay tax."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Growth and jobs are strong; a comparison with big business is irrelevant.",
+    "as": "বৃদ্ধি আৰু চাকৰি সবল; ডাঙৰ ব্যৱসায়ৰ লগত তুলনা অপ্ৰাসংগিক।"
+   }
+  },
+  {
+   "id": "statement-arguments-030",
+   "q": {
+    "en": "Statement: Should there be a ban on loud horns in residential areas?\nArguments: I. Yes, noise pollution harms residents' health. II. No, because horns warn of danger.",
+    "as": "বিবৃতি: Should there be a ban on loud horns in residential areas?\nযুক্তি: I. Yes, noise pollution harms residents' health. II. No, because horns warn of danger."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Warning of danger is a strong safety reason; a total ban would remove it, so I is weak.",
+    "as": "বিপদৰ সতৰ্কবাণী এটা সবল সুৰক্ষা কাৰণ; সম্পূৰ্ণ নিষিদ্ধই তাক হৰণ কৰে, গতিকে I দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-031",
+   "q": {
+    "en": "Statement: Should children below ten be allowed social media?\nArguments: I. Yes, they can learn new things online. II. No, young children are not mature enough to use it safely.",
+    "as": "বিবৃতি: Should children below ten be allowed social media?\nযুক্তি: I. Yes, they can learn new things online. II. No, young children are not mature enough to use it safely."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Immaturity and safety is a strong reason; learning online does not require social media.",
+    "as": "অপৰিপক্বতা আৰু সুৰক্ষা সবল কাৰণ; অনলাইন শিক্ষণৰ বাবে ছ'চিয়েল মিডিয়া লাগে নালাগে।"
+   }
+  },
+  {
+   "id": "statement-arguments-032",
+   "q": {
+    "en": "Statement: Should plastic water bottles be banned in offices?\nArguments: I. Yes, reusable bottles cut plastic waste. II. No, because plastic bottles are handy.",
+    "as": "বিবৃতি: Should plastic water bottles be banned in offices?\nযুক্তি: I. Yes, reusable bottles cut plastic waste. II. No, because plastic bottles are handy."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Cutting waste is strong; convenience is weak against environmental harm.",
+    "as": "আৱৰ্জনা কমোৱা সবল; সুবিধাই পৰিৱেশৰ ক্ষতিৰ আগত দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-033",
+   "q": {
+    "en": "Statement: Should the school provide free transport in rural areas?\nArguments: I. Yes, many students walk long distances to study. II. No, because buses need fuel.",
+    "as": "বিবৃতি: Should the school provide free transport in rural areas?\nযুক্তি: I. Yes, many students walk long distances to study. II. No, because buses need fuel."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Long walking distances harming attendance is strong; fuel is a manageable detail.",
+    "as": "দীঘল দূৰত্ব খোজ কাঢ়ি অহাই উপস্থিতিৰ ক্ষতি কৰা সবল; ইন্ধন সামৰি ল'ব পৰা কথা।"
+   }
+  },
+  {
+   "id": "statement-arguments-034",
+   "q": {
+    "en": "Statement: Should the government regulate the price of essential medicines?\nArguments: I. Yes, poor patients cannot afford costly medicine. II. No, because companies want profit.",
+    "as": "বিবৃতি: Should the government regulate the price of essential medicines?\nযুক্তি: I. Yes, poor patients cannot afford costly medicine. II. No, because companies want profit."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Affordability for the poor is strong; company profit wish is weak.",
+    "as": "দৰিদ্ৰৰ ক্ৰয়ক্ষমতা সবল; কোম্পানীৰ লাভৰ ইচ্ছা দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-035",
+   "q": {
+    "en": "Statement: Should fireworks be allowed only in open grounds?\nArguments: I. Yes, it reduces the risk of fire in crowded areas. II. No, because open grounds are far.",
+    "as": "বিবৃতি: Should fireworks be allowed only in open grounds?\nযুক্তি: I. Yes, it reduces the risk of fire in crowded areas. II. No, because open grounds are far."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Fire risk reduction is strong; distance is a minor inconvenience.",
+    "as": "অগ্নিৰ আশংকা হ্ৰাস সবল; দূৰত্ব এটা সৰু অসুবিধা।"
+   }
+  },
+  {
+   "id": "statement-arguments-036",
+   "q": {
+    "en": "Statement: Should all government offices switch to paperless work?\nArguments: I. Yes, it saves paper and speeds up files. II. No, because paper feels official.",
+    "as": "বিবৃতি: Should all government offices switch to paperless work?\nযুক্তি: I. Yes, it saves paper and speeds up files. II. No, because paper feels official."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Saving paper and speed are strong; a feeling is weak.",
+    "as": "কাগজ সঞ্চয় আৰু গতি সবল; এটা অনুভৱ দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-037",
+   "q": {
+    "en": "Statement: Should school students be taught financial literacy?\nArguments: I. Yes, it helps them manage money wisely as adults. II. No, because money is not a school subject.",
+    "as": "বিবৃতি: Should school students be taught financial literacy?\nযুক্তি: I. Yes, it helps them manage money wisely as adults. II. No, because money is not a school subject."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Wise money management is strong; 'not a subject' is not a reason.",
+    "as": "বুজিৰে ধন পৰিচালনা সবল; 'বিষয় নহয়' কাৰণ নহয়।"
+   }
+  },
+  {
+   "id": "statement-arguments-038",
+   "q": {
+    "en": "Statement: Should the use of private vehicles be taxed more?\nArguments: I. Yes, it encourages public transport and cuts pollution. II. No, because I love driving.",
+    "as": "বিবৃতি: Should the use of private vehicles be taxed more?\nযুক্তি: I. Yes, it encourages public transport and cuts pollution. II. No, because I love driving."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Less pollution and more public transport is strong; personal love is weak.",
+    "as": "কম প্ৰদূষণ আৰু বেছি ৰাজহুৱা পৰিবহণ সবল; ব্যক্তিগত প্ৰেম দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-039",
+   "q": {
+    "en": "Statement: Should the government make rainwater harvesting compulsory for new buildings?\nArguments: I. Yes, it reduces dependence on scarce water. II. No, because it costs builders money.",
+    "as": "বিবৃতি: Should the government make rainwater harvesting compulsory for new buildings?\nযুক্তি: I. Yes, it reduces dependence on scarce water. II. No, because it costs builders money."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Water security is a strong public reason; a builder's cost is weak against it.",
+    "as": "পানীৰ সুৰক্ষা এটা সবল ৰাজহুৱা কাৰণ; নিৰ্মাতাৰ খৰচ তাৰ আগত দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-040",
+   "q": {
+    "en": "Statement: Should school students be given homework on holidays?\nArguments: I. Yes, it keeps them in touch with studies. II. No, because holidays are for rest.",
+    "as": "বিবৃতি: Should school students be given homework on holidays?\nযুক্তি: I. Yes, it keeps them in touch with studies. II. No, because holidays are for rest."
+   },
+   "options": [
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rest is essential for health and is a strong reason; light revision does not outweigh it.",
+    "as": "বিশ্ৰাম স্বাস্থ্যৰ বাবে আৱশ্যক আৰু সবল কাৰণ; লঘু পুনৰাবৃত্তিয়ে তাক নুঢাকি।"
+   }
+  },
+  {
+   "id": "statement-arguments-041",
+   "q": {
+    "en": "Statement: Should the government increase spending on public health?\nArguments: I. Yes, better health improves productivity. II. No, because defence needs money too.",
+    "as": "বিবৃতি: Should the government increase spending on public health?\nযুক্তি: I. Yes, better health improves productivity. II. No, because defence needs money too."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Health improving productivity is a strong reason; competing needs is not a reason against.",
+    "as": "স্বাস্থ্যই উৎপাদনশীলতা বঢ়োৱা সবল কাৰণ; প্ৰতিযোগী প্ৰয়োজন বিৰোধৰ কাৰণ নহয়।"
+   }
+  },
+  {
+   "id": "statement-arguments-042",
+   "q": {
+    "en": "Statement: Should mobile phones be allowed in examination halls?\nArguments: I. Yes, students can check answers. II. No, it makes cheating possible.",
+    "as": "বিবৃতি: Should mobile phones be allowed in examination halls?\nযুক্তি: I. Yes, students can check answers. II. No, it makes cheating possible."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Preventing cheating is a strong reason; argument I supports cheating, so it is invalid.",
+    "as": "প্ৰৱঞ্চনা ৰোধ সবল কাৰণ; যুক্তি I এ প্ৰৱঞ্চনাক সমৰ্থন কৰে, গতিকে অবৈধ।"
+   }
+  },
+  {
+   "id": "statement-arguments-043",
+   "q": {
+    "en": "Statement: Should the state ban single-use cutlery in restaurants?\nArguments: I. Yes, it reduces plastic waste. II. No, because customers find it convenient.",
+    "as": "বিবৃতি: Should the state ban single-use cutlery in restaurants?\nযুক্তি: I. Yes, it reduces plastic waste. II. No, because customers find it convenient."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Reducing waste is strong; convenience is weak against environmental harm.",
+    "as": "আৱৰ্জনা কমোৱা সবল; সুবিধাই পৰিৱেশৰ ক্ষতিৰ আগত দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-044",
+   "q": {
+    "en": "Statement: Should every village have a public library?\nArguments: I. Yes, it spreads knowledge and reading habit. II. No, because books are costly.",
+    "as": "বিবৃতি: Should every village have a public library?\nযুক্তি: I. Yes, it spreads knowledge and reading habit. II. No, because books are costly."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Spreading knowledge is strong; book cost is a manageable detail.",
+    "as": "জ্ঞান বিলোৱা সবল; কিতাপৰ দাম সামৰি ল'ব পৰা কথা।"
+   }
+  },
+  {
+   "id": "statement-arguments-045",
+   "q": {
+    "en": "Statement: Should the government provide free spectacles to poor students?\nArguments: I. Yes, poor eyesight harms learning. II. No, because spectacles can break.",
+    "as": "বিবৃতি: Should the government provide free spectacles to poor students?\nযুক্তি: I. Yes, poor eyesight harms learning. II. No, because spectacles can break."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Poor eyesight harming learning is strong; breakage is a minor detail.",
+    "as": "দুৰ্বল দৃষ্টিয়ে শিক্ষণৰ ক্ষতি কৰা সবল; ভাঙি যোৱা সৰু কথা।"
+   }
+  },
+  {
+   "id": "statement-arguments-046",
+   "q": {
+    "en": "Statement: Should loud music be banned in public transport?\nArguments: I. Yes, it disturbs other passengers. II. No, because some passengers enjoy it.",
+    "as": "বিবৃতি: Should loud music be banned in public transport?\nযুক্তি: I. Yes, it disturbs other passengers. II. No, because some passengers enjoy it."
+   },
+   "options": [
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Disturbing others is strong; some enjoying it does not justify the disturbance.",
+    "as": "আনক আমনি কৰা সবল; কিছুমানে ভাল পোৱাই আমনি ন্যায্য নকৰে।"
+   }
+  },
+  {
+   "id": "statement-arguments-047",
+   "q": {
+    "en": "Statement: Should the government give interest-free loans to farmers?\nArguments: I. Yes, it saves them from debt traps. II. No, because banks need profit.",
+    "as": "বিবৃতি: Should the government give interest-free loans to farmers?\nযুক্তি: I. Yes, it saves them from debt traps. II. No, because banks need profit."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Avoiding debt traps is strong; bank profit is weak against farmers' distress.",
+    "as": "ঋণৰ ফান্দৰ পৰা ৰক্ষা সবল; বেংকৰ লাভ কৃষকৰ দুখৰ আগত দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-048",
+   "q": {
+    "en": "Statement: Should children be given pocket money?\nArguments: I. Yes, it teaches them to manage money. II. No, because they may spend it all.",
+    "as": "বিবৃতি: Should children be given pocket money?\nযুক্তি: I. Yes, it teaches them to manage money. II. No, because they may spend it all."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Learning money management is strong; possible overspending is a weak worry.",
+    "as": "ধন পৰিচালনা শিকা সবল; সম্ভাব্য অপচয় এটা দুৰ্বল চিন্তা।"
+   }
+  },
+  {
+   "id": "statement-arguments-049",
+   "q": {
+    "en": "Statement: Should the government ban plastic bags below 50 microns?\nArguments: I. Yes, thin plastic is easily littered and harms animals. II. No, because thin bags are cheap.",
+    "as": "বিবৃতি: Should the government ban plastic bags below 50 microns?\nযুক্তি: I. Yes, thin plastic is easily littered and harms animals. II. No, because thin bags are cheap."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Environmental harm is a strong reason; cheapness is weak against it.",
+    "as": "পৰিৱেশৰ ক্ষতি সবল কাৰণ; সস্তাই তাক আগত দুৰ্বল।"
+   }
+  },
+  {
+   "id": "statement-arguments-050",
+   "q": {
+    "en": "Statement: Should physical education be a compulsory school subject?\nArguments: I. Yes, it improves fitness and discipline. II. No, because it takes time from studies.",
+    "as": "বিবৃতি: Should physical education be a compulsory school subject?\nযুক্তি: I. Yes, it improves fitness and discipline. II. No, because it takes time from studies."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Fitness and discipline are strong benefits; time can be managed.",
+    "as": "সুস্থতা আৰু শৃংখলা সবল উপকাৰ; সময় সামৰি ল'ব পৰা যায়।"
+   }
+  },
+  {
+   "id": "statement-arguments-051",
+   "q": {
+    "en": "Statement: Should the government build more old-age homes?\nArguments: I. Yes, some elderly people need care and shelter. II. No, because families should always manage.",
+    "as": "বিবৃতি: Should the government build more old-age homes?\nযুক্তি: I. Yes, some elderly people need care and shelter. II. No, because families should always manage."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Care and shelter for the needy elderly is strong; an 'always' claim is unrealistic.",
+    "as": "অসহায় বৃদ্ধৰ যতন আৰু আশ্ৰয় সবল; 'সদায়' দাবী অবাস্তৱ।"
+   }
+  },
+  {
+   "id": "statement-arguments-052",
+   "q": {
+    "en": "Statement: Should the government provide free internet to students?\nArguments: I. Yes, it helps online learning. II. No, because students may misuse it.",
+    "as": "বিবৃতি: Should the government provide free internet to students?\nযুক্তি: I. Yes, it helps online learning. II. No, because students may misuse it."
+   },
+   "options": [
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Online learning access is strong; possible misuse does not outweigh it.",
+    "as": "অনলাইন শিক্ষাৰ প্ৰৱেশ সবল; সম্ভাব্য দুষ্ট ব্যৱহাৰে তাক নুঢাকি।"
+   }
+  },
+  {
+   "id": "statement-arguments-053",
+   "q": {
+    "en": "Statement: Should the sale of loose oil be banned?\nArguments: I. Yes, loose oil is often adulterated. II. No, because packed oil is costly.",
+    "as": "বিবৃতি: Should the sale of loose oil be banned?\nযুক্তি: I. Yes, loose oil is often adulterated. II. No, because packed oil is costly."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II is strong",
+     "as": "I বা II কোনোটোৱেই সবল নহয়"
+    },
+    {
+     "en": "Both I and II are strong",
+     "as": "I আৰু II দুয়োটা সবল"
+    },
+    {
+     "en": "Only argument II is strong",
+     "as": "কেৱল যুক্তি II সবল"
+    },
+    {
+     "en": "Only argument I is strong",
+     "as": "কেৱল যুক্তি I সবল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Preventing adulteration protects health and is strong; cost is weak against safety.",
+    "as": "ভেজাল ৰোধে স্বাস্থ্য ৰক্ষা কৰে আৰু সবল; দাম সুৰক্ষাৰ আগত দুৰ্বল।"
    }
   }
  ],
@@ -110414,61 +120344,1591 @@ module.exports = {
   {
    "id": "statement-course-of-action-001",
    "q": {
-    "en": "Statement: The road near the school is often waterlogged during the rains. Course of action: Repair the drainage of that road.",
-    "as": "বিবৃতি: বৰষুণৰ সময়ত বিদ্যালয়ৰ কাষৰ ৰাস্তা সঘনাই পানীৰে ভৰি থাকে। কাৰ্যপন্থা: সেই ৰাস্তাৰ নলা-নৰ্দমা মেৰামতি কৰা।"
+    "en": "Problem: A large number of road accidents happen at a busy crossing every week.\nCourses of action: I. The traffic department should install a signal and speed-breakers there. II. The crossing should be closed permanently.",
+    "as": "সমস্যা: A large number of road accidents happen at a busy crossing every week.\nকাৰ্যপন্থা: I. The traffic department should install a signal and speed-breakers there. II. The crossing should be closed permanently."
    },
    "options": [
     {
-     "en": "The course of action is worth following",
-     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য"
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
     },
     {
-     "en": "The course of action is not worth following",
-     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য নহয়"
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
     },
     {
-     "en": "The course of action is irrelevant",
-     "as": "কাৰ্যপন্থাটো অসম্পৰ্কিত"
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
     },
     {
-     "en": "Cannot be decided",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Repairing the drainage directly addresses the waterlogging and would solve it, so the action is worth following.",
-    "as": "নলা-নৰ্দমা মেৰামতিয়ে পানী জমা হোৱা সমস্যাটোক পোনপটীয়াকৈ সম্বোধন কৰি সমাধান কৰিব, গতিকে কাৰ্যপন্থাটো অনুসৰণযোগ্য।"
+    "en": "A signal and speed-breakers directly reduce accidents; closing the crossing creates new problems.",
+    "as": "সংকেত আৰু গতিবাধাই পোনপটীয়াকৈ দুৰ্ঘটনা কমায়; বন্ধ কৰিলে নতুন সমস্যা হয়।"
    }
   },
   {
    "id": "statement-course-of-action-002",
    "q": {
-    "en": "Statement: Many students fail mathematics every year. Course of action: The government should resign.",
-    "as": "বিবৃতি: প্ৰতি বছৰে বহু শিক্ষাৰ্থী গণিতত অনুত্তীৰ্ণ হয়। কাৰ্যপন্থা: চৰকাৰে পদত্যাগ কৰা উচিত।"
+    "en": "Problem: Many students in a village school fail mathematics every year.\nCourses of action: I. The school should arrange extra coaching in mathematics. II. The mathematics teacher should be dismissed at once.",
+    "as": "সমস্যা: Many students in a village school fail mathematics every year.\nকাৰ্যপন্থা: I. The school should arrange extra coaching in mathematics. II. The mathematics teacher should be dismissed at once."
    },
    "options": [
     {
-     "en": "The course of action is worth following",
-     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য"
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
     },
     {
-     "en": "The course of action is not worth following",
-     "as": "কাৰ্যপন্থাটো অনুসৰণযোগ্য নহয়"
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
     },
     {
-     "en": "The course of action is relevant",
-     "as": "কাৰ্যপন্থাটো প্ৰাসংগিক"
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
     },
     {
-     "en": "Cannot be decided",
-     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The action is out of proportion to the problem and would not reduce the failures, so it is not worth following.",
-    "as": "কাৰ্যপন্থাটো সমস্যাৰ তুলনাত অত্যধিক আৰু অনুত্তীৰ্ণ কমাব নোৱাৰে, গতিকে অনুসৰণযোগ্য নহয়।"
+    "en": "Extra coaching addresses the failure; dismissal is harsh and not clearly linked.",
+    "as": "অতিৰিক্ত কোচিঙে ব্যৰ্থতা সমাধান কৰে; বৰ্খাস্ত বেছি কঠোৰ আৰু স্পষ্টভাৱে জড়িত নহয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-003",
+   "q": {
+    "en": "Problem: A city faces severe water shortage every summer.\nCourses of action: I. The authority should start rainwater harvesting and repair leaking pipes. II. Residents should be told to leave the city in summer.",
+    "as": "সমস্যা: A city faces severe water shortage every summer.\nকাৰ্যপন্থা: I. The authority should start rainwater harvesting and repair leaking pipes. II. Residents should be told to leave the city in summer."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Harvesting and repairs increase supply; asking residents to leave is impractical.",
+    "as": "বৰষুণৰ পানী সংগ্ৰহ আৰু মেৰামতিয়ে যোগান বঢ়ায়; বাসিন্দাক এৰি যাবলৈ কোৱা অসম্ভৱ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-004",
+   "q": {
+    "en": "Problem: Crime against women is rising in a district.\nCourses of action: I. The police should increase patrolling and start awareness drives. II. Women should be asked to stay indoors at night.",
+    "as": "সমস্যা: Crime against women is rising in a district.\nকাৰ্যপন্থা: I. The police should increase patrolling and start awareness drives. II. Women should be asked to stay indoors at night."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Patrolling and awareness tackle crime; restricting women's movement is unfair and does not stop crime.",
+    "as": "টহল আৰু সজাগতাই অপৰাধ সমাধান কৰে; মহিলাৰ চলাচল নিষিদ্ধ কৰা অন্যায় আৰু অপৰাধ বন্ধ নকৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-005",
+   "q": {
+    "en": "Problem: Many children in a slum area do not attend school.\nCourses of action: I. The government should open a nearby school and give free books. II. Parents who do not send children should be fined heavily.",
+    "as": "সমস্যা: Many children in a slum area do not attend school.\nকাৰ্যপন্থা: I. The government should open a nearby school and give free books. II. Parents who do not send children should be fined heavily."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A nearby school and free books remove real barriers; heavy fines hurt poor families.",
+    "as": "ওচৰৰ বিদ্যালয় আৰু বিনামূলীয়া কিতাপে প্ৰকৃত বাধা আঁতৰায়; ডাঙৰ জৰিমানাই দৰিদ্ৰ পৰিয়ালক আঘাত কৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-006",
+   "q": {
+    "en": "Problem: A factory is polluting a nearby river.\nCourses of action: I. The pollution board should inspect and order treatment of the waste. II. The factory should be shut down without any inquiry.",
+    "as": "সমস্যা: A factory is polluting a nearby river.\nকাৰ্যপন্থা: I. The pollution board should inspect and order treatment of the waste. II. The factory should be shut down without any inquiry."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Inspection and waste treatment fix the cause; an immediate shutdown without inquiry is extreme.",
+    "as": "পৰিদৰ্শন আৰু বৰ্জ্য শোধনীয়ে কাৰণ সমাধান কৰে; অনুসন্ধান নকৰি বন্ধ কৰা অতি কঠোৰ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-007",
+   "q": {
+    "en": "Problem: Many commuters are injured while boarding crowded local trains.\nCourses of action: I. The railway should run more trains at peak hours. II. Commuters should be banned from travelling in peak hours.",
+    "as": "সমস্যা: Many commuters are injured while boarding crowded local trains.\nকাৰ্যপন্থা: I. The railway should run more trains at peak hours. II. Commuters should be banned from travelling in peak hours."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "More trains reduce crowding; banning travel is not workable.",
+    "as": "বেছি ট্ৰেইনে ভিৰ কমায়; ভ্ৰমণ নিষিদ্ধ কৰা কাৰ্যকৰ নহয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-008",
+   "q": {
+    "en": "Problem: An outbreak of dengue has been reported in a locality.\nCourses of action: I. The health department should spray insecticide and remove stagnant water. II. People should be asked to stop going to work.",
+    "as": "সমস্যা: An outbreak of dengue has been reported in a locality.\nকাৰ্যপন্থা: I. The health department should spray insecticide and remove stagnant water. II. People should be asked to stop going to work."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Spraying and removing stagnant water attack the mosquito; stopping work is unnecessary.",
+    "as": "ঔষধ ছটিওৱা আৰু জমা পানী আঁতৰোৱাই মশা নিয়ন্ত্ৰণ কৰে; কাম এৰাৰ প্ৰয়োজন নাই।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-009",
+   "q": {
+    "en": "Problem: Airlines are losing money because of empty seats on some routes.\nCourses of action: I. The airline should study demand and adjust the schedule. II. The airline should increase ticket prices sharply.",
+    "as": "সমস্যা: Airlines are losing money because of empty seats on some routes.\nকাৰ্যপন্থা: I. The airline should study demand and adjust the schedule. II. The airline should increase ticket prices sharply."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Studying demand and adjusting the schedule is a rational fix; a sharp price rise would reduce demand further.",
+    "as": "চাহিদা অধ্যয়ন আৰু সময়সূচী সলনি কৰা যুক্তিসংগত; তীক্ষ্ণ দাম বৃদ্ধিয়ে চাহিদা আৰু কমাব।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-010",
+   "q": {
+    "en": "Problem: A large bank has reported many cases of online fraud.\nCourses of action: I. The bank should strengthen security and educate customers. II. Customers should stop using online banking entirely.",
+    "as": "সমস্যা: A large bank has reported many cases of online fraud.\nকাৰ্যপন্থা: I. The bank should strengthen security and educate customers. II. Customers should stop using online banking entirely."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Better security and awareness reduce fraud; abandoning online banking is impractical.",
+    "as": "উত্তম সুৰক্ষা আৰু সজাগতাই প্ৰৱঞ্চনা কমায়; অনলাইন বেংকিং এৰা অসম্ভৱ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-011",
+   "q": {
+    "en": "Problem: Farmers in a region are committing suicide due to debt.\nCourses of action: I. The government should give crop insurance and easy credit. II. Farmers should be told to change their profession.",
+    "as": "সমস্যা: Farmers in a region are committing suicide due to debt.\nকাৰ্যপন্থা: I. The government should give crop insurance and easy credit. II. Farmers should be told to change their profession."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Insurance and easy credit address the debt cause; asking farmers to change profession ignores the real issue.",
+    "as": "বীমা আৰু সহজ ঋণে ঋণৰ কাৰণ সমাধান কৰে; পেছা সলনিৰ পৰামৰ্শই প্ৰকৃত সমস্যা আওকাণ কৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-012",
+   "q": {
+    "en": "Problem: Roadside garbage is not collected for many days in a ward.\nCourses of action: I. The municipality should fix a daily collection schedule. II. Residents should burn the garbage themselves.",
+    "as": "সমস্যা: Roadside garbage is not collected for many days in a ward.\nকাৰ্যপন্থা: I. The municipality should fix a daily collection schedule. II. Residents should burn the garbage themselves."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A daily schedule solves the problem; burning garbage causes air pollution.",
+    "as": "দৈনিক সময়সূচীয়ে সমস্যা সমাধান কৰে; জ্বলোৱাই বায়ু প্ৰদূষণ কৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-013",
+   "q": {
+    "en": "Problem: Many patients wait long hours in a government hospital.\nCourses of action: I. The hospital should appoint more doctors and open more counters. II. Patients should be charged high fees for fast service.",
+    "as": "সমস্যা: Many patients wait long hours in a government hospital.\nকাৰ্যপন্থা: I. The hospital should appoint more doctors and open more counters. II. Patients should be charged high fees for fast service."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "More doctors and counters reduce waiting; high fees make care unaffordable.",
+    "as": "বেছি ডাক্তৰ আৰু কাউণ্টাৰে অপেক্ষা কমায়; উঁচু মাচুলে চিকিৎসা অসম্ভৱ কৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-014",
+   "q": {
+    "en": "Problem: Students are distracted by social media during study hours.\nCourses of action: I. Students should set fixed study hours and keep phones away. II. Social media should be banned for everyone.",
+    "as": "সমস্যা: Students are distracted by social media during study hours.\nকাৰ্যপন্থা: I. Students should set fixed study hours and keep phones away. II. Social media should be banned for everyone."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Fixed hours and keeping phones away is practical; a blanket ban for all is too extreme.",
+    "as": "নিৰ্দিষ্ট সময় আৰু ফোন আঁতৰাই ৰখা ব্যৱহাৰিক; সৰ্বাৰ বাবে নিষিদ্ধি অতি কঠোৰ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-015",
+   "q": {
+    "en": "Problem: A bridge has developed cracks and traffic is heavy.\nCourses of action: I. The authority should divert traffic and repair the bridge at once. II. The bridge should be left as it is until next year.",
+    "as": "সমস্যা: A bridge has developed cracks and traffic is heavy.\nকাৰ্যপন্থা: I. The authority should divert traffic and repair the bridge at once. II. The bridge should be left as it is until next year."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Diversion and repair protect lives; ignoring the cracks risks collapse.",
+    "as": "পথ সলনি আৰু মেৰামতিয়ে জীৱন ৰক্ষা কৰে; আওকাণ কৰিলে ভাঙি পৰাৰ আশংকা।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-016",
+   "q": {
+    "en": "Problem: Unemployment is high among educated youth in a state.\nCourses of action: I. The state should start skill-training and encourage new industries. II. Youth should be told to accept any job at any wage.",
+    "as": "সমস্যা: Unemployment is high among educated youth in a state.\nকাৰ্যপন্থা: I. The state should start skill-training and encourage new industries. II. Youth should be told to accept any job at any wage."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Skills and industries create real jobs; forcing low wages does not solve unemployment.",
+    "as": "দক্ষতা আৰু উদ্যোগে প্ৰকৃত চাকৰি সৃষ্টি কৰে; কম দৰমহাত বাধ্য কৰিলে বেকাৰি দূৰ নহয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-017",
+   "q": {
+    "en": "Problem: Airlines report that passengers often lose their luggage.\nCourses of action: I. The airline should improve baggage tracking and compensate quickly. II. Passengers should be asked to carry no luggage.",
+    "as": "সমস্যা: Airlines report that passengers often lose their luggage.\nকাৰ্যপন্থা: I. The airline should improve baggage tracking and compensate quickly. II. Passengers should be asked to carry no luggage."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Better tracking and quick compensation address the loss; a no-luggage rule is absurd.",
+    "as": "উত্তম ট্ৰেকিং আৰু দ্ৰুত ক্ষতিপূৰণে ক্ষতি সমাধান কৰে; লগেজ নিনিয়াৰ নিয়ম অৰ্থহীন।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-018",
+   "q": {
+    "en": "Problem: Many trees in a city park are being cut illegally.\nCourses of action: I. The authority should post guards and punish the offenders. II. The park should be converted into a parking lot.",
+    "as": "সমস্যা: Many trees in a city park are being cut illegally.\nকাৰ্যপন্থা: I. The authority should post guards and punish the offenders. II. The park should be converted into a parking lot."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Guards and punishment stop illegal felling; converting the park destroys it further.",
+    "as": "পহৰা আৰু শাস্তিয়ে অবৈধ কটা বন্ধ কৰে; পাৰ্কিং লট কৰিলে পাৰ্ক নষ্ট হয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-019",
+   "q": {
+    "en": "Problem: There is frequent power failure in a town.\nCourses of action: I. The electricity board should upgrade the transmission lines. II. Residents should be asked to use candles only.",
+    "as": "সমস্যা: There is frequent power failure in a town.\nকাৰ্যপন্থা: I. The electricity board should upgrade the transmission lines. II. Residents should be asked to use candles only."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Upgrading lines fixes supply; candles are only a temporary substitute.",
+    "as": "লাইন উন্নত কৰিলে যোগান ঠিক হয়; মমবাতি কেৱল অস্থায়ী বিকল্প।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-020",
+   "q": {
+    "en": "Problem: A school bus met with an accident due to overloading.\nCourses of action: I. The transport department should check buses and limit seats. II. The school should stop all buses forever.",
+    "as": "সমস্যা: A school bus met with an accident due to overloading.\nকাৰ্যপন্থা: I. The transport department should check buses and limit seats. II. The school should stop all buses forever."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Checks and seat limits prevent overloading; stopping all buses harms students.",
+    "as": "পৰীক্ষা আৰু আসন সীমাই ওভাৰলোডিং ৰোধ কৰে; সকলো বাছ বন্ধ কৰিলে ছাত্ৰৰ ক্ষতি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-021",
+   "q": {
+    "en": "Problem: Many tourists complain about the lack of clean hotels in a hill town.\nCourses of action: I. The tourism department should rate hotels and enforce hygiene. II. Tourists should be told not to visit the town.",
+    "as": "সমস্যা: Many tourists complain about the lack of clean hotels in a hill town.\nকাৰ্যপন্থা: I. The tourism department should rate hotels and enforce hygiene. II. Tourists should be told not to visit the town."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rating and hygiene enforcement improve standards; discouraging tourists hurts the town.",
+    "as": "শ্ৰেণীবিভাগ আৰু পৰিষ্কাৰতা বলবৎ কৰিলে মান উন্নত হয়; পৰ্যটক নিবৃত্ত কৰিলে চহৰৰ ক্ষতি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-022",
+   "q": {
+    "en": "Problem: A large number of students fail to get admission due to a low cut-off.\nCourses of action: I. The college should increase seats in popular courses. II. The cut-off should be lowered for all without any plan.",
+    "as": "সমস্যা: A large number of students fail to get admission due to a low cut-off.\nকাৰ্যপন্থা: I. The college should increase seats in popular courses. II. The cut-off should be lowered for all without any plan."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "More seats meet demand in a planned way; lowering the cut-off blindly harms quality.",
+    "as": "বেছি আসনে পৰিকল্পিতভাৱে চাহিদা পূৰণ কৰে; অন্ধভাৱে কমালে গুণ নষ্ট হয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-023",
+   "q": {
+    "en": "Problem: People in a village are falling ill after drinking dirty water.\nCourses of action: I. The panchayat should supply clean water and test the source. II. Villagers should be told to drink less water.",
+    "as": "সমস্যা: People in a village are falling ill after drinking dirty water.\nকাৰ্যপন্থা: I. The panchayat should supply clean water and test the source. II. Villagers should be told to drink less water."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Clean water and testing remove the cause; asking people to drink less is harmful.",
+    "as": "পৰিষ্কাৰ পানী আৰু পৰীক্ষাই কাৰণ আঁতৰায়; কম পানী খাবলৈ কোৱা ক্ষতিকাৰক।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-024",
+   "q": {
+    "en": "Problem: Shoplifting is increasing in a supermarket.\nCourses of action: I. The store should install cameras and train staff. II. The store should close its doors to the public.",
+    "as": "সমস্যা: Shoplifting is increasing in a supermarket.\nকাৰ্যপন্থা: I. The store should install cameras and train staff. II. The store should close its doors to the public."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cameras and trained staff deter theft; closing the store ends the business.",
+    "as": "কেমেৰা আৰু প্ৰশিক্ষিত কৰ্মচাৰীয়ে চুৰি ৰোধ কৰে; দুৱাৰ বন্ধ কৰিলে ব্যৱসায় শেষ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-025",
+   "q": {
+    "en": "Problem: Many complaints are received about delayed pension payments.\nCourses of action: I. The department should computerise records and set a payment deadline. II. Pensioners should be asked to wait indefinitely.",
+    "as": "সমস্যা: Many complaints are received about delayed pension payments.\nকাৰ্যপন্থা: I. The department should computerise records and set a payment deadline. II. Pensioners should be asked to wait indefinitely."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Computerisation and a deadline speed up payment; asking people to wait does nothing.",
+    "as": "কম্পিউটাৰীকৰণ আৰু সময়সীমাই পেমেন্ট দ্ৰুত কৰে; অপেক্ষা কৰিবলৈ কোৱা একো নকৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-026",
+   "q": {
+    "en": "Problem: Frequent thefts of mobile phones occur in local buses.\nCourses of action: I. The bus operator should install CCTV and alert police. II. Passengers should be asked to leave phones at home.",
+    "as": "সমস্যা: Frequent thefts of mobile phones occur in local buses.\nকাৰ্যপন্থা: I. The bus operator should install CCTV and alert police. II. Passengers should be asked to leave phones at home."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "CCTV and police action deter thieves; leaving phones at home is impractical.",
+    "as": "CCTV আৰু আৰক্ষীৰ ব্যৱস্থাই চোৰক ভয় খুৱায়; ফোন ঘৰত এৰাৰ পৰামৰ্শ অসম্ভৱ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-027",
+   "q": {
+    "en": "Problem: A coastal village is repeatedly hit by floods.\nCourses of action: I. The government should build embankments and an early-warning system. II. Villagers should be asked to move to another state.",
+    "as": "সমস্যা: A coastal village is repeatedly hit by floods.\nকাৰ্যপন্থা: I. The government should build embankments and an early-warning system. II. Villagers should be asked to move to another state."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Embankments and warnings protect lives and property; mass migration is not a solution.",
+    "as": "বান্ধ আৰু সতৰ্কবাণীয়ে জীৱন-সম্পত্তি ৰক্ষা কৰে; গণ প্ৰব্ৰজন সমাধান নহয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-028",
+   "q": {
+    "en": "Problem: Many workers in a factory complain of unsafe conditions.\nCourses of action: I. The factory should follow safety rules and provide training. II. Workers should be asked to accept the risk silently.",
+    "as": "সমস্যা: Many workers in a factory complain of unsafe conditions.\nকাৰ্যপন্থা: I. The factory should follow safety rules and provide training. II. Workers should be asked to accept the risk silently."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Safety rules and training protect workers; silent acceptance ignores the danger.",
+    "as": "সুৰক্ষা নিয়ম আৰু প্ৰশিক্ষণে কৰ্মীক ৰক্ষা কৰে; মনে মনে মনা বিপদ আওকাণ কৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-029",
+   "q": {
+    "en": "Problem: A college canteen is serving stale food.\nCourses of action: I. The college should inspect the canteen and fix hygiene rules. II. The canteen should be closed without any warning.",
+    "as": "সমস্যা: A college canteen is serving stale food.\nকাৰ্যপন্থা: I. The college should inspect the canteen and fix hygiene rules. II. The canteen should be closed without any warning."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Inspection and hygiene rules fix the problem; an abrupt closure without warning is extreme.",
+    "as": "পৰিদৰ্শন আৰু পৰিষ্কাৰতা নিয়মে সমস্যা সমাধান কৰে; সতৰ্কবাণী নোহোৱাকৈ বন্ধ কৰা অতি কঠোৰ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-030",
+   "q": {
+    "en": "Problem: Village roads become unusable during the monsoon.\nCourses of action: I. The panchayat should build proper drainage and repair the roads. II. Villagers should be asked not to travel in the monsoon.",
+    "as": "সমস্যা: Village roads become unusable during the monsoon.\nকাৰ্যপন্থা: I. The panchayat should build proper drainage and repair the roads. II. Villagers should be asked not to travel in the monsoon."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Drainage and repairs make roads usable; stopping travel is not a solution.",
+    "as": "নিকাশী আৰু মেৰামতিয়ে পথ ব্যৱহাৰযোগ্য কৰে; যাতায়াত বন্ধ কৰা সমাধান নহয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-031",
+   "q": {
+    "en": "Problem: A large number of fake medicines are sold in a market.\nCourses of action: I. The drug authority should raid shops and punish sellers. II. People should be asked to avoid all medicines.",
+    "as": "সমস্যা: A large number of fake medicines are sold in a market.\nকাৰ্যপন্থা: I. The drug authority should raid shops and punish sellers. II. People should be asked to avoid all medicines."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Raids and punishment stop fake medicine; avoiding all medicine harms health.",
+    "as": "অভিযান আৰু শাস্তিয়ে ভুৱা ঔষধ বন্ধ কৰে; সকলো ঔষধ এৰিলে স্বাস্থ্যৰ ক্ষতি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-032",
+   "q": {
+    "en": "Problem: There is heavy traffic congestion at a school gate every morning.\nCourses of action: I. The school should stagger timings and provide a drop-off zone. II. The school should be shifted far away.",
+    "as": "সমস্যা: There is heavy traffic congestion at a school gate every morning.\nকাৰ্যপন্থা: I. The school should stagger timings and provide a drop-off zone. II. The school should be shifted far away."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Staggered timings and a drop-off zone reduce congestion; shifting the school is impractical.",
+    "as": "ভিন্ন সময় আৰু নামিব লগা স্থানে ভিৰ কমায়; বিদ্যালয় আঁতৰ কৰা অসম্ভৱ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-033",
+   "q": {
+    "en": "Problem: A newspaper has published a false report about a person.\nCourses of action: I. The person should demand a correction and an apology. II. The person should stop reading all newspapers.",
+    "as": "সমস্যা: A newspaper has published a false report about a person.\nকাৰ্যপন্থা: I. The person should demand a correction and an apology. II. The person should stop reading all newspapers."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A correction and apology address the harm; boycotting all papers does nothing for the person.",
+    "as": "শুধৰণি আৰু ক্ষমা প্ৰাৰ্থনাই ক্ষতি সমাধান কৰে; সকলো বাতৰি এৰিলে একো নহয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-034",
+   "q": {
+    "en": "Problem: Many employees are stressed by long working hours.\nCourses of action: I. The company should set reasonable hours and offer counselling. II. Employees should be asked to resign if unhappy.",
+    "as": "সমস্যা: Many employees are stressed by long working hours.\nকাৰ্যপন্থা: I. The company should set reasonable hours and offer counselling. II. Employees should be asked to resign if unhappy."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Reasonable hours and counselling reduce stress; asking people to resign is unfair.",
+    "as": "যুক্তিসংগত সময় আৰু পৰামৰ্শই চাপ কমায়; পদত্যাগৰ পৰামৰ্শ অন্যায়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-035",
+   "q": {
+    "en": "Problem: There is an outbreak of food poisoning at a wedding feast.\nCourses of action: I. The health team should test the food and treat the affected. II. All wedding feasts should be banned forever.",
+    "as": "সমস্যা: There is an outbreak of food poisoning at a wedding feast.\nকাৰ্যপন্থা: I. The health team should test the food and treat the affected. II. All wedding feasts should be banned forever."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Testing and treatment address the outbreak; banning all feasts is extreme.",
+    "as": "পৰীক্ষা আৰু চিকিৎসাই প্ৰাদুৰ্ভাৱ সমাধান কৰে; সকলো ভোজ নিষিদ্ধ কৰা অতি কঠোৰ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-036",
+   "q": {
+    "en": "Problem: Stray dogs are attacking people in a locality.\nCourses of action: I. The municipality should sterilise and shelter the dogs. II. The municipality should kill all stray dogs.",
+    "as": "সমস্যা: Stray dogs are attacking people in a locality.\nকাৰ্যপন্থা: I. The municipality should sterilise and shelter the dogs. II. The municipality should kill all stray dogs."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sterilisation and shelter manage the problem humanely; killing all dogs is cruel.",
+    "as": "বন্ধ্যাকৰণ আৰু আশ্ৰয়ে মানৱীয়ভাৱে সমস্যা সমাধান কৰে; হত্যা নিষ্ঠুৰ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-037",
+   "q": {
+    "en": "Problem: A public toilet in a market is very dirty.\nCourses of action: I. The municipality should clean it regularly and appoint a caretaker. II. The toilet should be demolished.",
+    "as": "সমস্যা: A public toilet in a market is very dirty.\nকাৰ্যপন্থা: I. The municipality should clean it regularly and appoint a caretaker. II. The toilet should be demolished."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Regular cleaning and a caretaker solve the problem; demolition removes a needed facility.",
+    "as": "নিয়মিত পৰিষ্কাৰ আৰু ৰক্ষকে সমস্যা সমাধান কৰে; ভাঙিলে প্ৰয়োজনীয় সুবিধা আঁতৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-038",
+   "q": {
+    "en": "Problem: There is a shortage of teachers in a government school.\nCourses of action: I. The department should recruit and post more teachers. II. The school should reduce its class hours.",
+    "as": "সমস্যা: There is a shortage of teachers in a government school.\nকাৰ্যপন্থা: I. The department should recruit and post more teachers. II. The school should reduce its class hours."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Recruiting teachers meets the shortage; reducing hours harms learning.",
+    "as": "শিক্ষক নিযুক্তিয়ে অভাৱ পূৰণ কৰে; সময় কমালে শিক্ষণৰ ক্ষতি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-039",
+   "q": {
+    "en": "Problem: A bus stand is very crowded and poorly managed.\nCourses of action: I. The authority should widen the stand and manage queues. II. The bus stand should be closed to all buses.",
+    "as": "সমস্যা: A bus stand is very crowded and poorly managed.\nকাৰ্যপন্থা: I. The authority should widen the stand and manage queues. II. The bus stand should be closed to all buses."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Widening and queue management ease crowding; closing the stand stops transport.",
+    "as": "প্ৰশস্ত আৰু শাৰী ব্যৱস্থাপনাই ভিৰ কমায়; বন্ধ কৰিলে পৰিবহণ বন্ধ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-040",
+   "q": {
+    "en": "Problem: A hospital is short of blood for emergency patients.\nCourses of action: I. The hospital should organise blood donation camps. II. The hospital should refuse emergency cases.",
+    "as": "সমস্যা: A hospital is short of blood for emergency patients.\nকাৰ্যপন্থা: I. The hospital should organise blood donation camps. II. The hospital should refuse emergency cases."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Donation camps meet the shortage; refusing patients is unethical.",
+    "as": "ৰক্তদান শিবিৰে অভাৱ পূৰণ কৰে; ৰোগী নাকচ কৰা অনৈতিক।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-041",
+   "q": {
+    "en": "Problem: Trees on a road are blocking the view at a turn.\nCourses of action: I. The authority should trim the branches at the turn. II. The authority should cut all trees on the road.",
+    "as": "সমস্যা: Trees on a road are blocking the view at a turn.\nকাৰ্যপন্থা: I. The authority should trim the branches at the turn. II. The authority should cut all trees on the road."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Trimming the turn fixes visibility; cutting all trees is excessive.",
+    "as": "মোড়ত ডাল কটাই দৃশ্য স্পষ্ট কৰে; সকলো গছ কটা অতি বেছি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-042",
+   "q": {
+    "en": "Problem: A village has no bank and people travel far for banking.\nCourses of action: I. The bank should open a branch or a business correspondent there. II. Villagers should stop using banks.",
+    "as": "সমস্যা: A village has no bank and people travel far for banking.\nকাৰ্যপন্থা: I. The bank should open a branch or a business correspondent there. II. Villagers should stop using banks."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A local branch or correspondent solves the distance; stopping banking is harmful.",
+    "as": "স্থানীয় শাখা বা প্ৰতিনিধিয়ে দূৰত্ব সমাধান কৰে; বেংক এৰা ক্ষতিকাৰক।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-043",
+   "q": {
+    "en": "Problem: Many students cannot afford costly reference books.\nCourses of action: I. The college should build a good lending library. II. Students should be told to give up studies.",
+    "as": "সমস্যা: Many students cannot afford costly reference books.\nকাৰ্যপন্থা: I. The college should build a good lending library. II. Students should be told to give up studies."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A lending library gives access; giving up studies is unacceptable.",
+    "as": "ধাৰ পুথিভঁৰালে প্ৰৱেশ দিয়ে; পঢ়া এৰা গ্ৰহণযোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-044",
+   "q": {
+    "en": "Problem: Street lights in a locality are not working for weeks.\nCourses of action: I. The municipality should repair the lights quickly. II. Residents should buy their own lights.",
+    "as": "সমস্যা: Street lights in a locality are not working for weeks.\nকাৰ্যপন্থা: I. The municipality should repair the lights quickly. II. Residents should buy their own lights."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Repairing street lights is the municipality's duty; shifting it to residents is unfair.",
+    "as": "পথৰ পোহৰ মেৰামত কৰা পৌৰসভাৰ কৰ্তব্য; বাসিন্দালৈ ঠেলি দিয়া অন্যায়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-045",
+   "q": {
+    "en": "Problem: A canteen serves food in unhygienic conditions.\nCourses of action: I. The management should enforce hygiene rules. II. The canteen should be shut for a year.",
+    "as": "সমস্যা: A canteen serves food in unhygienic conditions.\nকাৰ্যপন্থা: I. The management should enforce hygiene rules. II. The canteen should be shut for a year."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Enforcing hygiene fixes the problem; a long shutdown is disproportionate.",
+    "as": "পৰিষ্কাৰতা বলবৎ কৰিলে সমস্যা সমাধান হয়; দীঘল বন্ধ অতি বেছি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-046",
+   "q": {
+    "en": "Problem: Water pipelines in a town leak heavily.\nCourses of action: I. The authority should repair the pipes and audit losses. II. Residents should pay double for water.",
+    "as": "সমস্যা: Water pipelines in a town leak heavily.\nকাৰ্যপন্থা: I. The authority should repair the pipes and audit losses. II. Residents should pay double for water."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Repairs and auditing stop the loss; raising charges punishes residents for a system fault.",
+    "as": "মেৰামত আৰু নিৰীক্ষাই ক্ষতি বন্ধ কৰে; চাৰ্জ বঢ়ালে ব্যৱস্থাৰ দোষত বাসিন্দাক শাস্তি দিয়ে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-047",
+   "q": {
+    "en": "Problem: Many workers are injured due to old machinery.\nCourses of action: I. The factory should replace or service the machinery. II. Workers should be told to work carefully only.",
+    "as": "সমস্যা: Many workers are injured due to old machinery.\nকাৰ্যপন্থা: I. The factory should replace or service the machinery. II. Workers should be told to work carefully only."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Replacing or servicing machines removes the danger; care alone does not fix old equipment.",
+    "as": "যন্ত্ৰ সলনি বা চাৰ্ভিচিঙে বিপদ আঁতৰায়; কেৱল সাৱধানতাই পুৰণি যন্ত্ৰ ঠিক নকৰে।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-048",
+   "q": {
+    "en": "Problem: A school's playground is full of stones and pits.\nCourses of action: I. The school should level the ground and remove the stones. II. Sports should be stopped in the school.",
+    "as": "সমস্যা: A school's playground is full of stones and pits.\nকাৰ্যপন্থা: I. The school should level the ground and remove the stones. II. Sports should be stopped in the school."
+   },
+   "options": [
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Levelling the ground makes play safe; stopping sports harms students.",
+    "as": "মাটি সমান কৰিলে খেল সুৰক্ষিত হয়; খেল বন্ধ কৰিলে ছাত্ৰৰ ক্ষতি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-049",
+   "q": {
+    "en": "Problem: Many students are injured while playing on hard grounds.\nCourses of action: I. The school should provide a soft play surface and supervision. II. Sports should be banned in the school.",
+    "as": "সমস্যা: Many students are injured while playing on hard grounds.\nকাৰ্যপন্থা: I. The school should provide a soft play surface and supervision. II. Sports should be banned in the school."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A soft surface and supervision prevent injury; banning sports harms students.",
+    "as": "নৰম পৃষ্ঠ আৰু তদাৰকীয়ে আঘাত ৰোধ কৰে; খেল নিষিদ্ধ কৰিলে ছাত্ৰৰ ক্ষতি।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-050",
+   "q": {
+    "en": "Problem: A village well has dried up in summer.\nCourses of action: I. The panchayat should deepen the well or dig a new one. II. Villagers should stop using water.",
+    "as": "সমস্যা: A village well has dried up in summer.\nকাৰ্যপন্থা: I. The panchayat should deepen the well or dig a new one. II. Villagers should stop using water."
+   },
+   "options": [
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepening or digging a well restores supply; stopping water use is impossible.",
+    "as": "গভীৰ বা নতুন কুঁৱাই যোগান ঘূৰাই আনে; পানী ব্যৱহাৰ বন্ধ কৰা অসম্ভৱ।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-051",
+   "q": {
+    "en": "Problem: A bus route has frequent breakdowns of old buses.\nCourses of action: I. The operator should replace the old buses. II. The route should be closed for a month.",
+    "as": "সমস্যা: A bus route has frequent breakdowns of old buses.\nকাৰ্যপন্থা: I. The operator should replace the old buses. II. The route should be closed for a month."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Replacing buses fixes breakdowns; closing the route disrupts commuters.",
+    "as": "বাছ সলনি কৰিলে বেয়া হোৱা বন্ধ হয়; ৰুট বন্ধ কৰিলে যাত্ৰীৰ অসুবিধা।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-052",
+   "q": {
+    "en": "Problem: Many complaints of wrong billing are received by a power company.\nCourses of action: I. The company should audit meters and correct the bills. II. Customers should be told to pay anyway.",
+    "as": "সমস্যা: Many complaints of wrong billing are received by a power company.\nকাৰ্যপন্থা: I. The company should audit meters and correct the bills. II. Customers should be told to pay anyway."
+   },
+   "options": [
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Auditing meters fixes the errors; forcing payment is unfair.",
+    "as": "মিটাৰ নিৰীক্ষাই ভুল শুধৰায়; জোৰকৈ পেমেন্ট অন্যায়।"
+   }
+  },
+  {
+   "id": "statement-course-of-action-053",
+   "q": {
+    "en": "Problem: A park has no dustbins and is littered.\nCourses of action: I. The authority should install dustbins and clean regularly. II. The park should be closed to the public.",
+    "as": "সমস্যা: A park has no dustbins and is littered.\nকাৰ্যপন্থা: I. The authority should install dustbins and clean regularly. II. The park should be closed to the public."
+   },
+   "options": [
+    {
+     "en": "Neither I nor II follows",
+     "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+    },
+    {
+     "en": "Only course of action I follows",
+     "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Only course of action II follows",
+     "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+    },
+    {
+     "en": "Both I and II follow",
+     "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dustbins and regular cleaning solve littering; closing the park removes a public good.",
+    "as": "ডাষ্টবিন আৰু নিয়মিত পৰিষ্কাৰে আৱৰ্জনা সমাধান কৰে; পাৰ্ক বন্ধ কৰিলে ৰাজহুৱা সুবিধা আঁতৰে।"
    }
   }
  ],
@@ -110476,61 +121936,1621 @@ module.exports = {
   {
    "id": "cause-effect-001",
    "q": {
-    "en": "I. Heavy rain fell in the district. II. The river overflowed its banks. Which is correct?",
-    "as": "I. জিলাখনত ধুমুহা বৰষুণ হ'ল। II. নদী পাৰ উপচি পৰিল। কোনটো শুদ্ধ?"
+    "en": "Statement I: The heavy rain continued for three days.\nStatement II: The river overflowed its banks.",
+    "as": "বিবৃতি I: The heavy rain continued for three days.\nবিবৃতি II: The river overflowed its banks."
    },
    "options": [
     {
-     "en": "II is the cause and I is the effect",
-     "as": "II কাৰণ আৰু I ফলাফল"
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
     },
     {
-     "en": "Both are effects of a common cause",
-     "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
     },
     {
-     "en": "I is the cause and II is the effect",
-     "as": "I কাৰণ আৰু II ফলাফল"
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
     },
     {
-     "en": "Both are independent",
-     "as": "দুয়োটা স্বাধীন"
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "The river overflowed because of the heavy rain, so the rain is the cause and the overflow is the effect.",
-    "as": "ধুমুহা বৰষুণৰ বাবেই নদী উপচিল, গতিকে বৰষুণ কাৰণ আৰু উপচি পৰাটো ফলাফল।"
+    "en": "Continuous rain raises the river level, so the flood is the effect.",
+    "as": "অবিৰত বৰষুণে নদীৰ পানী বঢ়ায়, গতিকে বান্ধ ইয়াৰ ফলাফল।"
    }
   },
   {
    "id": "cause-effect-002",
    "q": {
-    "en": "I. The price of vegetables rose. II. Heavy rain damaged the crops. Which is correct?",
-    "as": "I. পাচলিৰ দাম বাঢ়িল। II. ধুমুহা বৰষুণে শস্য নষ্ট কৰিলে। কোনটো শুদ্ধ?"
+    "en": "Statement I: The price of petrol increased sharply.\nStatement II: People started using public buses more.",
+    "as": "বিবৃতি I: The price of petrol increased sharply.\nবিবৃতি II: People started using public buses more."
    },
    "options": [
     {
-     "en": "I is the cause and II is the effect",
-     "as": "I কাৰণ আৰু II ফলাফল"
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
     },
     {
-     "en": "Both are independent",
-     "as": "দুয়োটা স্বাধীন"
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
     },
     {
-     "en": "Both are effects of a common cause",
-     "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
     },
     {
-     "en": "II is the cause and I is the effect",
-     "as": "II কাৰণ আৰু I ফলাফল"
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Costlier petrol makes people shift to buses, so II is the effect.",
+    "as": "মহঙা পেট্ৰলে লোকে বাছলৈ সলনি কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-003",
+   "q": {
+    "en": "Statement I: A new factory opened in the town.\nStatement II: Many young people found jobs.",
+    "as": "বিবৃতি I: A new factory opened in the town.\nবিবৃতি II: Many young people found jobs."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A new factory creates jobs, so the employment is the effect.",
+    "as": "নতুন কাৰখানাই চাকৰি সৃষ্টি কৰে, গতিকে নিয়োগ ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-004",
+   "q": {
+    "en": "Statement I: The teacher explained the topic clearly.\nStatement II: Students scored better in the test.",
+    "as": "বিবৃতি I: The teacher explained the topic clearly.\nবিবৃতি II: Students scored better in the test."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Clear teaching improves scores, so II is the effect.",
+    "as": "স্পষ্ট শিক্ষণে নম্বৰ বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-005",
+   "q": {
+    "en": "Statement I: The power supply failed for six hours.\nStatement II: The factory could not finish its order.",
+    "as": "বিবৃতি I: The power supply failed for six hours.\nবিবৃতি II: The factory could not finish its order."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Without power the factory stops, so the delay is the effect.",
+    "as": "বিদ্যুৎ নোহোৱাকৈ কাৰখানা বন্ধ, গতিকে পলম ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-006",
+   "q": {
+    "en": "Statement I: The government banned smoking in public places.\nStatement II: Cases of lung disease in the city fell.",
+    "as": "বিবৃতি I: The government banned smoking in public places.\nবিবৃতি II: Cases of lung disease in the city fell."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "Crop damage reduced the supply and pushed the price up, so II is the cause and I is the effect.",
-    "as": "শস্য নষ্ট হোৱাৰ ফলত যোগান কমি দাম বাঢ়িল, গতিকে II কাৰণ আৰু I ফলাফল।"
+    "en": "Less smoking reduces lung disease, so II is the effect.",
+    "as": "কম ধূমপানে ফোঁচফোঁচ ৰোগ কমায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-007",
+   "q": {
+    "en": "Statement I: The roads were dug up for repairs.\nStatement II: Traffic moved very slowly that week.",
+    "as": "বিবৃতি I: The roads were dug up for repairs.\nবিবৃতি II: Traffic moved very slowly that week."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dug-up roads slow traffic, so II is the effect.",
+    "as": "খন্দা পথে যান-বাহন লেহেম কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-008",
+   "q": {
+    "en": "Statement I: The team practised hard for months.\nStatement II: The team won the championship.",
+    "as": "বিবৃতি I: The team practised hard for months.\nবিবৃতি II: The team won the championship."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Practice improves performance, so the victory is the effect.",
+    "as": "অনুশীলনে ক্ৰীড়া-নৈপুণ্য বঢ়ায়, গতিকে বিজয় ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-009",
+   "q": {
+    "en": "Statement I: The price of vegetables doubled.\nStatement II: Many families reduced their vegetable purchases.",
+    "as": "বিবৃতি I: The price of vegetables doubled.\nবিবৃতি II: Many families reduced their vegetable purchases."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Higher prices reduce buying, so II is the effect.",
+    "as": "বেছি দামে ক্ৰয় কমায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-010",
+   "q": {
+    "en": "Statement I: A new dam was built upstream.\nStatement II: The downstream village received less water.",
+    "as": "বিবৃতি I: A new dam was built upstream.\nবিবৃতি II: The downstream village received less water."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A dam stores water upstream, so less flows downstream; II is the effect.",
+    "as": "বান্ধে ওপৰত পানী ৰাখে, গতিকে তলত কম যায়; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-011",
+   "q": {
+    "en": "Statement I: The company raised the salary of its staff.\nStatement II: Employee satisfaction increased.",
+    "as": "বিবৃতি I: The company raised the salary of its staff.\nবিবৃতি II: Employee satisfaction increased."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Better pay raises satisfaction, so II is the effect.",
+    "as": "ভাল দৰমহাই সন্তুষ্টি বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-012",
+   "q": {
+    "en": "Statement I: The city planted thousands of trees.\nStatement II: The air quality improved.",
+    "as": "বিবৃতি I: The city planted thousands of trees.\nবিবৃতি II: The air quality improved."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Trees clean the air, so the improvement is the effect.",
+    "as": "গছে বায়ু পৰিষ্কাৰ কৰে, গতিকে উন্নতি ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-013",
+   "q": {
+    "en": "Statement I: The government reduced the tax on electric cars.\nStatement II: Sales of electric cars rose.",
+    "as": "বিবৃতি I: The government reduced the tax on electric cars.\nবিবৃতি II: Sales of electric cars rose."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lower tax lowers the price, so sales rise; II is the effect.",
+    "as": "কম কৰে দাম কমায়, গতিকে বিক্ৰী বাঢ়ে; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-014",
+   "q": {
+    "en": "Statement I: A famous actor visited the town.\nStatement II: A large crowd gathered at the square.",
+    "as": "বিবৃতি I: A famous actor visited the town.\nবিবৃতি II: A large crowd gathered at the square."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A celebrity attracts a crowd, so II is the effect.",
+    "as": "চেলিব্ৰিটিয়ে ভিৰ আকৰ্ষণ কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-015",
+   "q": {
+    "en": "Statement I: The school introduced a free lunch scheme.\nStatement II: Attendance in the school increased.",
+    "as": "বিবৃতি I: The school introduced a free lunch scheme.\nবিবৃতি II: Attendance in the school increased."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Free lunch draws children to school, so II is the effect.",
+    "as": "বিনামূলীয়া আহাৰে শিশুক স্কুললৈ আনে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-016",
+   "q": {
+    "en": "Statement I: The mobile network was down for a day.\nStatement II: Online payments could not be made.",
+    "as": "বিবৃতি I: The mobile network was down for a day.\nবিবৃতি II: Online payments could not be made."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Without the network, online payments fail; II is the effect.",
+    "as": "নেটৱৰ্ক নোহোৱাকৈ অনলাইন পেমেন্ট নহয়; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-017",
+   "q": {
+    "en": "Statement I: The bank reduced its interest rate.\nStatement II: More people took home loans.",
+    "as": "বিবৃতি I: The bank reduced its interest rate.\nবিবৃতি II: More people took home loans."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Cheaper loans increase borrowing, so II is the effect.",
+    "as": "সস্তা ঋণে ধাৰ বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-018",
+   "q": {
+    "en": "Statement I: A terrible drought hit the region.\nStatement II: Crop production fell sharply.",
+    "as": "বিবৃতি I: A terrible drought hit the region.\nবিবৃতি II: Crop production fell sharply."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Drought reduces crops, so the fall is the effect.",
+    "as": "খৰাংয়ে শস্য কমায়, গতিকে হ্ৰাস ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-019",
+   "q": {
+    "en": "Statement I: The cinema hall cut ticket prices.\nStatement II: More people came to watch films.",
+    "as": "বিবৃতি I: The cinema hall cut ticket prices.\nবিবৃতি II: More people came to watch films."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Cheaper tickets attract viewers, so II is the effect.",
+    "as": "সস্তা টিকেটে দৰ্শক আকৰ্ষণ কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-020",
+   "q": {
+    "en": "Statement I: The town got a new flyover.\nStatement II: Journey time across the town dropped.",
+    "as": "বিবৃতি I: The town got a new flyover.\nবিবৃতি II: Journey time across the town dropped."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A flyover speeds up travel, so II is the effect.",
+    "as": "উৰণসেতুৱে যাত্ৰা দ্ৰুত কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-021",
+   "q": {
+    "en": "Statement I: The company launched a big advertising campaign.\nStatement II: Its sales went up.",
+    "as": "বিবৃতি I: The company launched a big advertising campaign.\nবিবৃতি II: Its sales went up."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Advertising raises sales, so II is the effect.",
+    "as": "বিজ্ঞাপনে বিক্ৰী বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-022",
+   "q": {
+    "en": "Statement I: The hospital got new equipment.\nStatement II: More patients were treated successfully.",
+    "as": "বিবৃতি I: The hospital got new equipment.\nবিবৃতি II: More patients were treated successfully."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Better equipment improves treatment, so II is the effect.",
+    "as": "উত্তম সঁজুলিয়ে চিকিৎসা উন্নত কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-023",
+   "q": {
+    "en": "Statement I: The state built a new highway.\nStatement II: Trade with nearby towns grew.",
+    "as": "বিবৃতি I: The state built a new highway.\nবিবৃতি II: Trade with nearby towns grew."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A highway improves trade, so the growth is the effect.",
+    "as": "মহাপথে বাণিজ্য বঢ়ায়, গতিকে বৃদ্ধি ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-024",
+   "q": {
+    "en": "Statement I: The price of gold rose sharply.\nStatement II: People sold their old gold ornaments.",
+    "as": "বিবৃতি I: The price of gold rose sharply.\nবিবৃতি II: People sold their old gold ornaments."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A higher price encourages selling, so II is the effect.",
+    "as": "বেছি দামে বিক্ৰী উৎসাহিত কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-025",
+   "q": {
+    "en": "Statement I: The government announced a holiday.\nStatement II: Offices and schools stayed closed.",
+    "as": "বিবৃতি I: The government announced a holiday.\nবিবৃতি II: Offices and schools stayed closed."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A holiday closes offices and schools, so II is the effect.",
+    "as": "বন্ধে কাৰ্যালয় আৰু বিদ্যালয় বন্ধ কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-026",
+   "q": {
+    "en": "Statement I: A big storm damaged the power lines.\nStatement II: Many villages had no electricity.",
+    "as": "বিবৃতি I: A big storm damaged the power lines.\nবিবৃতি II: Many villages had no electricity."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Damaged lines cut supply, so II is the effect.",
+    "as": "ক্ষতিগ্ৰস্ত লাইনে যোগান বন্ধ কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-027",
+   "q": {
+    "en": "Statement I: The teacher was absent for a week.\nStatement II: The students could not complete the syllabus.",
+    "as": "বিবৃতি I: The teacher was absent for a week.\nবিবৃতি II: The students could not complete the syllabus."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Without the teacher, the syllabus stalls; II is the effect.",
+    "as": "শিক্ষক নোহোৱাকৈ পাঠ্যক্ৰম ৰয়; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-028",
+   "q": {
+    "en": "Statement I: The shop gave a festive discount.\nStatement II: Customers bought in large numbers.",
+    "as": "বিবৃতি I: The shop gave a festive discount.\nবিবৃতি II: Customers bought in large numbers."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A discount increases buying, so II is the effect.",
+    "as": "ৰেহাইয়ে ক্ৰয় বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-029",
+   "q": {
+    "en": "Statement I: The railway started a new express train.\nStatement II: Passengers preferred it over the bus.",
+    "as": "বিবৃতি I: The railway started a new express train.\nবিবৃতি II: Passengers preferred it over the bus."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A faster train attracts passengers, so II is the effect.",
+    "as": "দ্ৰুত ট্ৰেইনে যাত্ৰী আকৰ্ষণ কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-030",
+   "q": {
+    "en": "Statement I: The farmer used high-yield seeds.\nStatement II: His harvest increased.",
+    "as": "বিবৃতি I: The farmer used high-yield seeds.\nবিবৃতি II: His harvest increased."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Better seeds raise yield, so the increase is the effect.",
+    "as": "উত্তম বীজে উৎপাদন বঢ়ায়, গতিকে বৃদ্ধি ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-031",
+   "q": {
+    "en": "Statement I: The doctor advised daily exercise.\nStatement II: The patient's health improved.",
+    "as": "বিবৃতি I: The doctor advised daily exercise.\nবিবৃতি II: The patient's health improved."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Exercise improves health, so II is the effect.",
+    "as": "ব্যায়ামে স্বাস্থ্য উন্নত কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-032",
+   "q": {
+    "en": "Statement I: The college raised its admission fee.\nStatement II: Fewer students applied.",
+    "as": "বিবৃতি I: The college raised its admission fee.\nবিবৃতি II: Fewer students applied."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A higher fee reduces applications, so II is the effect.",
+    "as": "বেছি মাচুলে আবেদন কমায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-033",
+   "q": {
+    "en": "Statement I: The city introduced a metro train.\nStatement II: Road traffic decreased.",
+    "as": "বিবৃতি I: The city introduced a metro train.\nবিবৃতি II: Road traffic decreased."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A metro shifts people off roads, so II is the effect.",
+    "as": "মেট্ৰ'ই লোক পথৰ পৰা আঁতৰায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-034",
+   "q": {
+    "en": "Statement I: The government gave a subsidy on fertiliser.\nStatement II: Farmers bought more fertiliser.",
+    "as": "বিবৃতি I: The government gave a subsidy on fertiliser.\nবিবৃতি II: Farmers bought more fertiliser."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A subsidy lowers the price, so buying rises; II is the effect.",
+    "as": "ভৰ্তুকিয়ে দাম কমায়, গতিকে ক্ৰয় বাঢ়ে; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-035",
+   "q": {
+    "en": "Statement I: The team's captain was injured.\nStatement II: The team performed poorly.",
+    "as": "বিবৃতি I: The team's captain was injured.\nবিবৃতি II: The team performed poorly."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Losing the captain weakens the team, so II is the effect.",
+    "as": "অধিনায়ক হেৰুৱাই দল দুৰ্বল হয়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-036",
+   "q": {
+    "en": "Statement I: The government banned plastic carry bags.\nStatement II: People switched to cloth bags.",
+    "as": "বিবৃতি I: The government banned plastic carry bags.\nবিবৃতি II: People switched to cloth bags."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A ban forces a switch to alternatives; II is the effect.",
+    "as": "নিষিদ্ধাই বিকল্পলৈ বাধ্য কৰে; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-037",
+   "q": {
+    "en": "Statement I: A new university was set up in the district.\nStatement II: More local students enrolled in higher studies.",
+    "as": "বিবৃতি I: A new university was set up in the district.\nবিবৃতি II: More local students enrolled in higher studies."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A local university increases enrolment, so II is the effect.",
+    "as": "স্থানীয় বিশ্ববিদ্যালয়ে নামভৰ্তি বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-038",
+   "q": {
+    "en": "Statement I: The river was polluted by industrial waste.\nStatement II: Fish in the river died.",
+    "as": "বিবৃতি I: The river was polluted by industrial waste.\nবিবৃতি II: Fish in the river died."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pollution kills fish, so the deaths are the effect.",
+    "as": "প্ৰদূষণে মাছ মাৰে, গতিকে মৃত্যু ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-039",
+   "q": {
+    "en": "Statement I: The government announced a new pension scheme.\nStatement II: Elderly people felt more secure.",
+    "as": "বিবৃতি I: The government announced a new pension scheme.\nবিবৃতি II: Elderly people felt more secure."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A pension gives security, so II is the effect.",
+    "as": "পেঞ্চনে সুৰক্ষা দিয়ে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-040",
+   "q": {
+    "en": "Statement I: The government opened a new medical college.\nStatement II: More doctors became available in the region.",
+    "as": "বিবৃতি I: The government opened a new medical college.\nবিবৃতি II: More doctors became available in the region."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A medical college produces more doctors, so II is the effect.",
+    "as": "চিকিৎসা মহাবিদ্যালয়ে বেছি ডাক্তৰ সৃষ্টি কৰে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-041",
+   "q": {
+    "en": "Statement I: The city banned diesel vehicles in the centre.\nStatement II: Air quality in the centre improved.",
+    "as": "বিবৃতি I: The city banned diesel vehicles in the centre.\nবিবৃতি II: Air quality in the centre improved."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Fewer diesel vehicles reduce pollution, so II is the effect.",
+    "as": "কম ডিজেল বাহনে প্ৰদূষণ কমায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-042",
+   "q": {
+    "en": "Statement I: A new flyover was opened to traffic.\nStatement II: Congestion at the junction eased.",
+    "as": "বিবৃতি I: A new flyover was opened to traffic.\nবিবৃতি II: Congestion at the junction eased."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A flyover diverts traffic, so the easing is the effect.",
+    "as": "উৰণসেতুৱে যান-বাহন ঘূৰায়, গতিকে হ্ৰাস ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-043",
+   "q": {
+    "en": "Statement I: The company gave a festival bonus.\nStatement II: Employees spent more on shopping.",
+    "as": "বিবৃতি I: The company gave a festival bonus.\nবিবৃতি II: Employees spent more on shopping."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Extra money raises spending, so II is the effect.",
+    "as": "অতিৰিক্ত ধনে খৰচ বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-044",
+   "q": {
+    "en": "Statement I: The state started a free ambulance service.\nStatement II: Fewer patients died on the way to hospital.",
+    "as": "বিবৃতি I: The state started a free ambulance service.\nবিবৃতি II: Fewer patients died on the way to hospital."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Quick transport saves lives, so the fall in deaths is the effect.",
+    "as": "দ্ৰুত পৰিবহণে জীৱন ৰক্ষা কৰে, গতিকে মৃত্যু হ্ৰাস ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-045",
+   "q": {
+    "en": "Statement I: A big fire broke out in a market.\nStatement II: Shopkeepers suffered heavy losses.",
+    "as": "বিবৃতি I: A big fire broke out in a market.\nবিবৃতি II: Shopkeepers suffered heavy losses."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Fire destroys goods, so the losses are the effect.",
+    "as": "জুইয়ে সামগ্ৰী ধ্বংস কৰে, গতিকে লোকচান ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-046",
+   "q": {
+    "en": "Statement I: The government raised the import duty on electronics.\nStatement II: Prices of electronics went up.",
+    "as": "বিবৃতি I: The government raised the import duty on electronics.\nবিবৃতি II: Prices of electronics went up."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Higher duty raises prices, so II is the effect.",
+    "as": "বেছি কৰে দাম বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-047",
+   "q": {
+    "en": "Statement I: The school introduced smart classes.\nStatement II: Students understood lessons better.",
+    "as": "বিবৃতি I: The school introduced smart classes.\nবিবৃতি II: Students understood lessons better."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Visual teaching improves understanding, so II is the effect.",
+    "as": "দৃশ্যমান শিক্ষণে বুজা বঢ়ায়, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-048",
+   "q": {
+    "en": "Statement I: The municipality started a cleanliness drive.\nStatement II: The spread of disease slowed down.",
+    "as": "বিবৃতি I: The municipality started a cleanliness drive.\nবিবৃতি II: The spread of disease slowed down."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Cleanliness reduces disease, so the slowdown is the effect.",
+    "as": "পৰিষ্কাৰতাই ৰোগ কমায়, গতিকে হ্ৰাস ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-049",
+   "q": {
+    "en": "Statement I: The bank launched a mobile app.\nStatement II: Customers stopped visiting branches often.",
+    "as": "বিবৃতি I: The bank launched a mobile app.\nবিবৃতি II: Customers stopped visiting branches often."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "An app lets people bank from home, so fewer visits is the effect.",
+    "as": "এপে ঘৰৰ পৰাই বেংকিং কৰায়, গতিকে কম ভ্ৰমণ ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-050",
+   "q": {
+    "en": "Statement I: The government started a mid-day meal scheme.\nStatement II: School attendance in villages improved.",
+    "as": "বিবৃতি I: The government started a mid-day meal scheme.\nবিবৃতি II: School attendance in villages improved."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Free meals attract children to school, so II is the effect.",
+    "as": "বিনামূলীয়া আহাৰে শিশুক স্কুললৈ আনে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-051",
+   "q": {
+    "en": "Statement I: The city widened a busy road.\nStatement II: Traffic jams on that road reduced.",
+    "as": "বিবৃতি I: The city widened a busy road.\nবিবৃতি II: Traffic jams on that road reduced."
+   },
+   "options": [
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A wider road carries more vehicles, so jams reduce; II is the effect.",
+    "as": "প্ৰশস্ত পথে বেছি বাহন ধৰে, গতিকে জ্যাম কমে; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-052",
+   "q": {
+    "en": "Statement I: The state gave a subsidy on solar panels.\nStatement II: More homes installed solar panels.",
+    "as": "বিবৃতি I: The state gave a subsidy on solar panels.\nবিবৃতি II: More homes installed solar panels."
+   },
+   "options": [
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A subsidy lowers cost, so installations rise; II is the effect.",
+    "as": "ভৰ্তুকিয়ে খৰচ কমায়, গতিকে স্থাপন বাঢ়ে; II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-053",
+   "q": {
+    "en": "Statement I: A new hospital opened in the district.\nStatement II: Pressure on the old hospital reduced.",
+    "as": "বিবৃতি I: A new hospital opened in the district.\nবিবৃতি II: Pressure on the old hospital reduced."
+   },
+   "options": [
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A new hospital shares the load, so II is the effect.",
+    "as": "নতুন চিকিৎসালয়ে ভাৰ ভাগে, গতিকে II ফলাফল।"
+   }
+  },
+  {
+   "id": "cause-effect-054",
+   "q": {
+    "en": "Statement I: The government banned fishing in the breeding season.\nStatement II: Fish numbers increased next year.",
+    "as": "বিবৃতি I: The government banned fishing in the breeding season.\nবিবৃতি II: Fish numbers increased next year."
+   },
+   "options": [
+    {
+     "en": "Both statements are effects of a common cause",
+     "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+    },
+    {
+     "en": "Both statements are independent causes",
+     "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+    },
+    {
+     "en": "Statement II is the cause and I is its effect",
+     "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+    },
+    {
+     "en": "Statement I is the cause and II is its effect",
+     "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Protecting breeding raises fish numbers, so II is the effect.",
+    "as": "প্ৰজনন ৰক্ষাই মাছ বঢ়ায়, গতিকে II ফলাফল।"
    }
   }
  ],
@@ -110538,8 +123558,668 @@ module.exports = {
   {
    "id": "assertion-reason-001",
    "q": {
-    "en": "A: Water boils at 100 degrees Celsius at sea level. R: Boiling point depends on atmospheric pressure.",
-    "as": "A: সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰী চেলচিয়াছত উতলে। R: উতলাংক বায়ুমণ্ডলীয় চাপৰ ওপৰত নিৰ্ভৰ কৰে।"
+    "en": "Assertion (A): Water boils at 100 degrees Celsius at sea level.\nReason (R): Boiling point depends on atmospheric pressure.",
+    "as": "দাবী (A): Water boils at 100 degrees Celsius at sea level.\nকাৰণ (R): Boiling point depends on atmospheric pressure."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The dependence of boiling point on pressure is exactly why water boils at 100 degrees at sea level.",
+    "as": "উতলাংক চাপৰ ওপৰত নিৰ্ভৰশীলতাৰ বাবেই সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰীত উতলে।"
+   }
+  },
+  {
+   "id": "assertion-reason-002",
+   "q": {
+    "en": "Assertion (A): The sun rises in the east.\nReason (R): The earth rotates from west to east.",
+    "as": "দাবী (A): The sun rises in the east.\nকাৰণ (R): The earth rotates from west to east."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "West-to-east rotation makes the sun appear to rise in the east.",
+    "as": "পশ্চিমৰ পৰা পূৱলৈ ঘূৰণৰ বাবে সূৰ্য পূৱত উদয় হয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-003",
+   "q": {
+    "en": "Assertion (A): Iron rusts in moist air.\nReason (R): Rusting is oxidation in the presence of moisture.",
+    "as": "দাবী (A): Iron rusts in moist air.\nকাৰণ (R): Rusting is oxidation in the presence of moisture."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Oxidation with moisture is exactly the process of rusting.",
+    "as": "জলীয় বাষ্পৰ সৈতে জাৰণেই মামৰে ধৰাৰ প্ৰক্ৰিয়া।"
+   }
+  },
+  {
+   "id": "assertion-reason-004",
+   "q": {
+    "en": "Assertion (A): Ice floats on water.\nReason (R): Ice is less dense than water.",
+    "as": "দাবী (A): Ice floats on water.\nকাৰণ (R): Ice is less dense than water."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Lower density than water is the reason ice floats.",
+    "as": "পানীতকৈ কম ঘনত্বই বৰফ ভাহি থকাৰ কাৰণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-005",
+   "q": {
+    "en": "Assertion (A): A lunar eclipse occurs when the earth comes between the sun and the moon.\nReason (R): The earth casts its shadow on the moon.",
+    "as": "দাবী (A): A lunar eclipse occurs when the earth comes between the sun and the moon.\nকাৰণ (R): The earth casts its shadow on the moon."
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The earth's shadow falling on the moon is exactly the eclipse.",
+    "as": "পৃথিৱীৰ ছাঁ চন্দ্ৰত পৰাটোৱেই গ্ৰহণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-006",
+   "q": {
+    "en": "Assertion (A): We see lightning before we hear thunder.\nReason (R): Light travels faster than sound.",
+    "as": "দাবী (A): We see lightning before we hear thunder.\nকাৰণ (R): Light travels faster than sound."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Light's greater speed is why lightning is seen first.",
+    "as": "পোহৰৰ বেছি গতিয়েই বিজুলী আগতে দেখা কাৰণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-007",
+   "q": {
+    "en": "Assertion (A): A rainbow is seen after rain.\nReason (R): Water droplets split sunlight into colours.",
+    "as": "দাবী (A): A rainbow is seen after rain.\nকাৰণ (R): Water droplets split sunlight into colours."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Droplets splitting sunlight is the cause of the rainbow.",
+    "as": "পানীৰ টোপালে সূৰ্যৰ পোহৰ ভাঙিয়েই ৰামধেনু হয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-008",
+   "q": {
+    "en": "Assertion (A): The sky appears blue.\nReason (R): Blue light is scattered more than other colours.",
+    "as": "দাবী (A): The sky appears blue.\nকাৰণ (R): Blue light is scattered more than other colours."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Greater scattering of blue light is why the sky looks blue.",
+    "as": "নীলা পোহৰৰ বেছি বিক্ষেপণেই আকাশ নীলা দেখা কাৰণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-009",
+   "q": {
+    "en": "Assertion (A): A needle sinks in water but a ship floats.\nReason (R): A ship displaces a large volume of water.",
+    "as": "দাবী (A): A needle sinks in water but a ship floats.\nকাৰণ (R): A ship displaces a large volume of water."
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Displacing more water gives more upthrust, so the ship floats.",
+    "as": "বেছি পানী অপসাৰণে বেছি ঊৰ্ধমুখী বল দিয়ে, গতিকে জাহাজ ভাহে।"
+   }
+  },
+  {
+   "id": "assertion-reason-010",
+   "q": {
+    "en": "Assertion (A): Land breeze blows at night.\nReason (R): The land cools faster than the sea at night.",
+    "as": "দাবী (A): Land breeze blows at night.\nকাৰণ (R): The land cools faster than the sea at night."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Faster cooling of land sets up the land breeze.",
+    "as": "মাটি সোনকালে ঠাণ্ডা হোৱাৰ বাবেই স্থল বতাহ বলে।"
+   }
+  },
+  {
+   "id": "assertion-reason-011",
+   "q": {
+    "en": "Assertion (A): Camels can live for days without water.\nReason (R): Camels store fat in their humps.",
+    "as": "দাবী (A): Camels can live for days without water.\nকাৰণ (R): Camels store fat in their humps."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The hump stores fat, but the ability to go without water is due to other adaptations, so R does not explain A.",
+    "as": "কুঁজত চৰ্বি জমা হয়, কিন্তু পানী নোহোৱাকৈ থকাৰ ক্ষমতা আন অভিযোজনৰ বাবে, গতিকে R এ A ব্যাখ্যা নকৰে।"
+   }
+  },
+  {
+   "id": "assertion-reason-012",
+   "q": {
+    "en": "Assertion (A): Deserts are hot during the day and cold at night.\nReason (R): Deserts have little vegetation.",
+    "as": "দাবী (A): Deserts are hot during the day and cold at night.\nকাৰণ (R): Deserts have little vegetation."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Both are true, but the day-night difference is due to dry air and sand, not vegetation.",
+    "as": "দুয়োটা সঁচা, কিন্তু দিন-ৰাতিৰ পাৰ্থক্য শুকান বায়ু আৰু বালিৰ বাবে, গছ-গছনিৰ বাবে নহয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-013",
+   "q": {
+    "en": "Assertion (A): Diamond is very hard.\nReason (R): Diamond is a form of carbon.",
+    "as": "দাবী (A): Diamond is very hard.\nকাৰণ (R): Diamond is a form of carbon."
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Both are true, but being carbon does not explain hardness; the crystal structure does.",
+    "as": "দুয়োটা সঁচা, কিন্তু কাৰ্বন হোৱাই কঠিনতা ব্যাখ্যা নকৰে; স্ফটিক গঠনে কৰে।"
+   }
+  },
+  {
+   "id": "assertion-reason-014",
+   "q": {
+    "en": "Assertion (A): The moon has no atmosphere.\nReason (R): The moon revolves around the earth.",
+    "as": "দাবী (A): The moon has no atmosphere.\nকাৰণ (R): The moon revolves around the earth."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Both are true, but the lack of atmosphere is due to low gravity, not revolution.",
+    "as": "দুয়োটা সঁচা, কিন্তু বায়ুমণ্ডল নথকাটো কম মাধ্যাকৰ্ষণৰ বাবে, পৰিভ্ৰমণৰ বাবে নহয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-015",
+   "q": {
+    "en": "Assertion (A): Fish die when taken out of water.\nReason (R): Fish breathe through gills.",
+    "as": "দাবী (A): Fish die when taken out of water.\nকাৰণ (R): Fish breathe through gills."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Gills take oxygen from water, so out of water the fish cannot breathe.",
+    "as": "ফুলে পানীৰ পৰা অক্সিজেন লয়, গতিকে পানীৰ বাহিৰত শ্বাস ল'ব নোৱাৰে।"
+   }
+  },
+  {
+   "id": "assertion-reason-016",
+   "q": {
+    "en": "Assertion (A): Sound cannot travel in a vacuum.\nReason (R): Sound needs a medium to travel.",
+    "as": "দাবী (A): Sound cannot travel in a vacuum.\nকাৰণ (R): Sound needs a medium to travel."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Needing a medium is why sound cannot travel in a vacuum.",
+    "as": "মাধ্যমৰ প্ৰয়োজনীয়তাই বায়ুশূন্য স্থানত শব্দ যাব নোৱাৰাৰ কাৰণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-017",
+   "q": {
+    "en": "Assertion (A): We wear woollen clothes in winter.\nReason (R): Wool is a poor conductor of heat.",
+    "as": "দাবী (A): We wear woollen clothes in winter.\nকাৰণ (R): Wool is a poor conductor of heat."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Wool trapping body heat is why it keeps us warm.",
+    "as": "ঊণে শৰীৰৰ উষ্ণতা ৰখাই আমাক গৰম ৰাখে।"
+   }
+  },
+  {
+   "id": "assertion-reason-018",
+   "q": {
+    "en": "Assertion (A): A pencil appears bent in a glass of water.\nReason (R): Light bends when it passes from water to air.",
+    "as": "দাবী (A): A pencil appears bent in a glass of water.\nকাৰণ (R): Light bends when it passes from water to air."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Refraction of light is why the pencil looks bent.",
+    "as": "পোহৰৰ প্ৰতিসৰণেই পেঞ্চিল বেঁকা দেখা কাৰণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-019",
+   "q": {
+    "en": "Assertion (A): The sun appears red at sunrise.\nReason (R): Light travels a longer distance through the atmosphere at sunrise.",
+    "as": "দাবী (A): The sun appears red at sunrise.\nকাৰণ (R): Light travels a longer distance through the atmosphere at sunrise."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The longer path scatters blue light away, leaving red.",
+    "as": "দীঘল পথে নীলা পোহৰ বিক্ষেপিত কৰিয়েই ৰঙা ৰয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-020",
+   "q": {
+    "en": "Assertion (A): A car needs a minimum speed to climb a steep hill.\nReason (R): The engine must overcome gravity.",
+    "as": "দাবী (A): A car needs a minimum speed to climb a steep hill.\nকাৰণ (R): The engine must overcome gravity."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Overcoming gravity is why speed and power are needed.",
+    "as": "মাধ্যাকৰ্ষণ জয় কৰিবলৈয়েই গতি আৰু শক্তি লাগে।"
+   }
+  },
+  {
+   "id": "assertion-reason-021",
+   "q": {
+    "en": "Assertion (A): Plants look green.\nReason (R): Chlorophyll absorbs red and blue light and reflects green.",
+    "as": "দাবী (A): Plants look green.\nকাৰণ (R): Chlorophyll absorbs red and blue light and reflects green."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Reflecting green light is why plants look green.",
+    "as": "সেউজীয়া পোহৰ প্ৰতিফলিত কৰিয়েই গছ-গছনি সেউজীয়া দেখা যায়।"
+   }
+  },
+  {
+   "id": "assertion-reason-022",
+   "q": {
+    "en": "Assertion (A): Bells are made of metal.\nReason (R): Metals are sonorous.",
+    "as": "দাবী (A): Bells are made of metal.\nকাৰণ (R): Metals are sonorous."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The sonorous property of metals is why bells ring.",
+    "as": "ধাতুৰ নাদযুক্ত গুণৰ বাবেই ঘণ্টা বাজে।"
+   }
+  },
+  {
+   "id": "assertion-reason-023",
+   "q": {
+    "en": "Assertion (A): Aeroplanes have a streamlined shape.\nReason (R): Air resistance slows moving objects.",
+    "as": "দাবী (A): Aeroplanes have a streamlined shape.\nকাৰণ (R): Air resistance slows moving objects."
    },
    "options": [
     {
@@ -110561,15 +124241,465 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "The reason, that boiling point depends on pressure, is exactly why water boils at 100 degrees at sea level.",
-    "as": "উতলাংক চাপৰ ওপৰত নিৰ্ভৰ কৰে বুলি কাৰণটোৱেই সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰীত উতলাৰ কাৰণ।"
+    "en": "Reducing air resistance is why the shape is streamlined.",
+    "as": "বায়ুৰ বাধা কমাবলৈয়েই আকৃতি মসৃণ কৰা হয়।"
    }
   },
   {
-   "id": "assertion-reason-002",
+   "id": "assertion-reason-024",
    "q": {
-    "en": "A: The sun rises in the east. R: The earth rotates from west to east.",
-    "as": "A: সূৰ্য্য পূৱত উদয় হয়। R: পৃথিৱী পশ্চিমৰ পৰা পূৱলৈ ঘূৰে।"
+    "en": "Assertion (A): A clinical thermometer has a kink.\nReason (R): The kink stops mercury from falling back on its own.",
+    "as": "দাবী (A): A clinical thermometer has a kink.\nকাৰণ (R): The kink stops mercury from falling back on its own."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The kink holding the reading is its exact purpose.",
+    "as": "বাঁকটোৱে পঢ়া ধৰি ৰখাই ইয়াৰ প্ৰকৃত উদ্দেশ্য।"
+   }
+  },
+  {
+   "id": "assertion-reason-025",
+   "q": {
+    "en": "Assertion (A): The moon shines at night.\nReason (R): The moon reflects sunlight.",
+    "as": "দাবী (A): The moon shines at night.\nকাৰণ (R): The moon reflects sunlight."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Reflecting sunlight is why the moon appears bright.",
+    "as": "সূৰ্যৰ পোহৰ প্ৰতিফলিত কৰিয়েই চন্দ্ৰ উজ্জ্বল দেখা যায়।"
+   }
+  },
+  {
+   "id": "assertion-reason-026",
+   "q": {
+    "en": "Assertion (A): A fire extinguisher is kept in buildings.\nReason (R): Water and sand can put out fire.",
+    "as": "দাবী (A): A fire extinguisher is kept in buildings.\nকাৰণ (R): Water and sand can put out fire."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Both are true, but extinguishers use foam or gas; R gives only general methods.",
+    "as": "দুয়োটা সঁচা, কিন্তু অগ্নিনিৰ্বাপকে ফেন বা গেছ ব্যৱহাৰ কৰে; R এ কেৱল সাধাৰণ পদ্ধতি দিয়ে।"
+   }
+  },
+  {
+   "id": "assertion-reason-027",
+   "q": {
+    "en": "Assertion (A): Bats fly at night without hitting objects.\nReason (R): Bats use echoes to find their way.",
+    "as": "দাবী (A): Bats fly at night without hitting objects.\nকাৰণ (R): Bats use echoes to find their way."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Echo-location is exactly how bats avoid obstacles.",
+    "as": "প্ৰতিধ্বনিৰ দ্বাৰা পথ বিচৰাই বাদুলীয়ে বাধা এৰাই চলে।"
+   }
+  },
+  {
+   "id": "assertion-reason-028",
+   "q": {
+    "en": "Assertion (A): A camel has long eyelashes.\nReason (R): Long eyelashes protect the eyes from sand.",
+    "as": "দাবী (A): A camel has long eyelashes.\nকাৰণ (R): Long eyelashes protect the eyes from sand."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sand protection is the purpose of the long lashes.",
+    "as": "বালিৰ পৰা চকু ৰক্ষাই দীঘল চকুপতাৰ উদ্দেশ্য।"
+   }
+  },
+  {
+   "id": "assertion-reason-029",
+   "q": {
+    "en": "Assertion (A): A cactus has spines.\nReason (R): Spines reduce water loss.",
+    "as": "দাবী (A): A cactus has spines.\nকাৰণ (R): Spines reduce water loss."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Reducing water loss is why the cactus has spines instead of leaves.",
+    "as": "পানীৰ ক্ষতি কমোৱাৰ বাবেই কেকটাছত পাতৰ ঠাইত কাঁইট থাকে।"
+   }
+  },
+  {
+   "id": "assertion-reason-030",
+   "q": {
+    "en": "Assertion (A): Polar bears have thick fur.\nReason (R): Thick fur keeps the body warm.",
+    "as": "দাবী (A): Polar bears have thick fur.\nকাৰণ (R): Thick fur keeps the body warm."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Warmth from thick fur is why polar bears survive the cold.",
+    "as": "ডাঠ নোমে শৰীৰ গৰম ৰখাই মেৰু ভালুক ঠাণ্ডাত জীয়াই থাকে।"
+   }
+  },
+  {
+   "id": "assertion-reason-031",
+   "q": {
+    "en": "Assertion (A): A rocket can move in space.\nReason (R): A rocket carries its own oxidiser.",
+    "as": "দাবী (A): A rocket can move in space.\nকাৰণ (R): A rocket carries its own oxidiser."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Carrying its own oxidiser lets the rocket burn fuel without air.",
+    "as": "নিজৰ অক্সিডাইজাৰ কঢ়িয়াই ৰকেটে বায়ু নোহোৱাকৈও ইন্ধন জ্বলাব পাৰে।"
+   }
+  },
+  {
+   "id": "assertion-reason-032",
+   "q": {
+    "en": "Assertion (A): The earth is called the blue planet.\nReason (R): Most of the earth's surface is covered with water.",
+    "as": "দাবী (A): The earth is called the blue planet.\nকাৰণ (R): Most of the earth's surface is covered with water."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Water covering most of the surface gives the blue colour.",
+    "as": "বেছিভাগ পৃষ্ঠ পানীৰে আবৃত হোৱাই নীলা ৰং দিয়ে।"
+   }
+  },
+  {
+   "id": "assertion-reason-033",
+   "q": {
+    "en": "Assertion (A): We use a fuse in electric circuits.\nReason (R): A fuse melts and breaks the circuit when current is too high.",
+    "as": "দাবী (A): We use a fuse in electric circuits.\nকাৰণ (R): A fuse melts and breaks the circuit when current is too high."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Melting to break the circuit is exactly the purpose of a fuse.",
+    "as": "অতি বেছি প্ৰৱাহত গলি বৰ্তনী ভাঙাই ফিউজৰ প্ৰকৃত উদ্দেশ্য।"
+   }
+  },
+  {
+   "id": "assertion-reason-034",
+   "q": {
+    "en": "Assertion (A): The handle of a pressure cooker is made of plastic.\nReason (R): Plastic is a poor conductor of heat.",
+    "as": "দাবী (A): The handle of a pressure cooker is made of plastic.\nকাৰণ (R): Plastic is a poor conductor of heat."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Poor heat conduction is why the handle stays cool.",
+    "as": "তাপৰ দুৰ্বল পৰিবাহী গুণৰ বাবেই হেণ্ডেল ঠাণ্ডা থাকে।"
+   }
+  },
+  {
+   "id": "assertion-reason-035",
+   "q": {
+    "en": "Assertion (A): A boat floats on water.\nReason (R): The boat is hollow and displaces water.",
+    "as": "দাবী (A): A boat floats on water.\nকাৰণ (R): The boat is hollow and displaces water."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Displacing water gives upthrust, so the boat floats.",
+    "as": "পানী অপসাৰণে ঊৰ্ধমুখী বল দিয়ে, গতিকে নাও ভাহে।"
+   }
+  },
+  {
+   "id": "assertion-reason-036",
+   "q": {
+    "en": "Assertion (A): We perspire in hot weather.\nReason (R): Sweat evaporates and cools the body.",
+    "as": "দাবী (A): We perspire in hot weather.\nকাৰণ (R): Sweat evaporates and cools the body."
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Evaporative cooling is why sweating lowers body temperature.",
+    "as": "বাষ্পীভৱনৰ শীতলতাই শৰীৰৰ উষ্ণতা কমায়।"
+   }
+  },
+  {
+   "id": "assertion-reason-037",
+   "q": {
+    "en": "Assertion (A): An electric bulb gets hot when it glows.\nReason (R): Part of the electric energy becomes heat.",
+    "as": "দাবী (A): An electric bulb gets hot when it glows.\nকাৰণ (R): Part of the electric energy becomes heat."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Energy turning into heat is why the bulb warms up.",
+    "as": "শক্তি তাপত পৰিণত হোৱাৰ বাবেই বাল্ব গৰম হয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-038",
+   "q": {
+    "en": "Assertion (A): A mirror shows our face.\nReason (R): Light is reflected by the mirror.",
+    "as": "দাবী (A): A mirror shows our face.\nকাৰণ (R): Light is reflected by the mirror."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Reflection of light is why we see our face.",
+    "as": "পোহৰৰ প্ৰতিফলনৰ বাবেই আমি মুখ দেখোঁ।"
+   }
+  },
+  {
+   "id": "assertion-reason-039",
+   "q": {
+    "en": "Assertion (A): Ice melts when salt is added.\nReason (R): Salt lowers the freezing point of water.",
+    "as": "দাবী (A): Ice melts when salt is added.\nকাৰণ (R): Salt lowers the freezing point of water."
    },
    "options": [
     {
@@ -110591,8 +124721,338 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "The earth's west-to-east rotation is the reason the sun appears to rise in the east.",
-    "as": "পৃথিৱীৰ পশ্চিমৰ পৰা পূৱলৈ ঘূৰ্ণনেই সূৰ্য্য পূৱত উদয় হোৱা যেন লগাৰ কাৰণ।"
+    "en": "A lower freezing point is why the ice melts.",
+    "as": "হিমাংক কমাৰ বাবেই বৰফ গলে।"
+   }
+  },
+  {
+   "id": "assertion-reason-040",
+   "q": {
+    "en": "Assertion (A): Tea becomes cold when milk is added.\nReason (R): Adding milk lowers the temperature of the mixture.",
+    "as": "দাবী (A): Tea becomes cold when milk is added.\nকাৰণ (R): Adding milk lowers the temperature of the mixture."
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Both are true, but the cooling is due to heat transfer to the cooler milk; the wording of R is incomplete.",
+    "as": "দুয়োটা সঁচা, কিন্তু শীতলতা ঠাণ্ডা গাখীৰলৈ তাপ যোৱাৰ বাবে; R ৰ শব্দ অসম্পূৰ্ণ।"
+   }
+  },
+  {
+   "id": "assertion-reason-041",
+   "q": {
+    "en": "Assertion (A): A thermometer is used to measure temperature.\nReason (R): Mercury expands with a rise in temperature.",
+    "as": "দাবী (A): A thermometer is used to measure temperature.\nকাৰণ (R): Mercury expands with a rise in temperature."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Expansion of mercury with heat is why it measures temperature.",
+    "as": "তাপত পাৰাৰ বিস্তাৰেই উষ্ণতা মাপে।"
+   }
+  },
+  {
+   "id": "assertion-reason-042",
+   "q": {
+    "en": "Assertion (A): Sound is heard louder near the source.\nReason (R): Sound spreads in all directions and weakens with distance.",
+    "as": "দাবী (A): Sound is heard louder near the source.\nকাৰণ (R): Sound spreads in all directions and weakens with distance."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Spreading and weakening with distance is why it is louder near the source.",
+    "as": "চাৰিওফালে বিয়পি দূৰত্বৰ সৈতে দুৰ্বল হোৱাৰ বাবেই ওচৰত জোৰে শুনা যায়।"
+   }
+  },
+  {
+   "id": "assertion-reason-043",
+   "q": {
+    "en": "Assertion (A): A bar magnet attracts iron nails.\nReason (R): Like poles repel and unlike poles attract.",
+    "as": "দাবী (A): A bar magnet attracts iron nails.\nকাৰণ (R): Like poles repel and unlike poles attract."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Both are true, but attraction of iron is magnetic induction, not pole interaction.",
+    "as": "দুয়োটা সঁচা, কিন্তু লো আকৰ্ষণ চুম্বকীয় প্ৰৰোচন, মেৰুৰ ক্ৰিয়া নহয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-044",
+   "q": {
+    "en": "Assertion (A): Water in a glass cools when ice is added.\nReason (R): Ice absorbs heat from the water.",
+    "as": "দাবী (A): Water in a glass cools when ice is added.\nকাৰণ (R): Ice absorbs heat from the water."
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Heat absorption by ice is why the water cools.",
+    "as": "বৰফে তাপ শোষণ কৰাৰ বাবেই পানী ঠাণ্ডা হয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-045",
+   "q": {
+    "en": "Assertion (A): A prism splits white light into colours.\nReason (R): Different colours bend by different amounts.",
+    "as": "দাবী (A): A prism splits white light into colours.\nকাৰণ (R): Different colours bend by different amounts."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Different bending of colours is why the prism splits light.",
+    "as": "ৰঙে বেলেগ বেলেগ মাত্ৰাত বেঁকা হোৱাৰ বাবেই প্ৰিজমে পোহৰ ভাঙে।"
+   }
+  },
+  {
+   "id": "assertion-reason-046",
+   "q": {
+    "en": "Assertion (A): We cannot hear sound on the moon.\nReason (R): The moon has no atmosphere.",
+    "as": "দাবী (A): We cannot hear sound on the moon.\nকাৰণ (R): The moon has no atmosphere."
+   },
+   "options": [
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "No atmosphere means no medium, so sound cannot travel.",
+    "as": "বায়ুমণ্ডল নথকা মানে মাধ্যম নাই, গতিকে শব্দ যাব নোৱাৰে।"
+   }
+  },
+  {
+   "id": "assertion-reason-047",
+   "q": {
+    "en": "Assertion (A): A magnet loses its magnetism when heated.\nReason (R): Heat disturbs the alignment of magnetic domains.",
+    "as": "দাবী (A): A magnet loses its magnetism when heated.\nকাৰণ (R): Heat disturbs the alignment of magnetic domains."
+   },
+   "options": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Domain disorder from heat is why magnetism is lost.",
+    "as": "তাপত ডমেইন বিশৃংখল হোৱাৰ বাবেই চুম্বকত্ব নাইকিয়া হয়।"
+   }
+  },
+  {
+   "id": "assertion-reason-048",
+   "q": {
+    "en": "Assertion (A): A spring balance measures weight.\nReason (R): Weight is the force of gravity on a body.",
+    "as": "দাবী (A): A spring balance measures weight.\nকাৰণ (R): Weight is the force of gravity on a body."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Gravitational force being weight is why a spring balance measures it.",
+    "as": "মাধ্যাকৰ্ষণ বলেই ওজন, গতিকে স্প্ৰিং বেলেন্সে মাপে।"
+   }
+  },
+  {
+   "id": "assertion-reason-049",
+   "q": {
+    "en": "Assertion (A): Clothes dry faster on a windy day.\nReason (R): Wind carries away water vapour from the cloth.",
+    "as": "দাবী (A): Clothes dry faster on a windy day.\nকাৰণ (R): Wind carries away water vapour from the cloth."
+   },
+   "options": [
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    },
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Removing vapour speeds evaporation, so R explains A.",
+    "as": "বাষ্প আঁতৰালে বাষ্পীভৱন দ্ৰুত হয়, গতিকে R এ A ব্যাখ্যা কৰে।"
+   }
+  },
+  {
+   "id": "assertion-reason-050",
+   "q": {
+    "en": "Assertion (A): A submarine can travel under water.\nReason (R): It has a strong hull and ballast tanks.",
+    "as": "দাবী (A): A submarine can travel under water.\nকাৰণ (R): It has a strong hull and ballast tanks."
+   },
+   "options": [
+    {
+     "en": "Both are true but R does not explain A",
+     "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+    },
+    {
+     "en": "A is true but R is false",
+     "as": "A সঁচা কিন্তু R অসঁচা"
+    },
+    {
+     "en": "Both A and R are true and R explains A",
+     "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+    },
+    {
+     "en": "A is false but R is true",
+     "as": "A অসঁচা কিন্তু R সঁচা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A strong hull and ballast tanks are exactly what allow under-water travel.",
+    "as": "বলিষ্ঠ হাল আৰু বেলাষ্ট টেংকেই পানীৰ তলত চলাৰ কাৰণ।"
    }
   }
  ],
@@ -110600,8 +125060,158 @@ module.exports = {
   {
    "id": "decision-making-001",
    "q": {
-    "en": "A candidate must be at least 18 years old and have passed class 12. Rina is 19 and has passed class 12. Does she qualify?",
-    "as": "প্ৰাৰ্থীৰ বয়স অন্ততঃ 18 বছৰ হ'ব লাগে আৰু দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হ'ব লাগে। ৰিনাৰ বয়স 19 আৰু তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ। তেওঁ যোগ্য নে?"
+    "en": "A candidate must have a valid driving licence, fluency in Assamese, a diploma in computer applications. Rina has a diploma in computer applications. Rina has a valid driving licence. Rina is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, অসমীয়াত সাৱলীলতা, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা থাকিব লাগে। ৰিনা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। ৰিনা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। ৰিনা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-002",
+   "q": {
+    "en": "A candidate must have two years of work experience, a minimum age of 21 years, at least 60 per cent marks. Bina is 22 years old. Bina scored 70 per cent marks. Bina has 2 years of experience.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ দুই বছৰৰ কামৰ অভিজ্ঞতা, অন্তত 21 বছৰ বয়স, অন্তত 60 শতাংশ নম্বৰ থাকিব লাগে। বীণা ৰ বয়স 22 বছৰ। বীণা এ 70 শতাংশ নম্বৰ পাইছে। বীণা ৰ 2 বছৰৰ অভিজ্ঞতা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bina meets all the given conditions, so she qualifies.",
+    "as": "বীণা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-003",
+   "q": {
+    "en": "A candidate must have a diploma in computer applications, a degree in science, a minimum age of 21 years. Nita is 20 years old. Nita has a diploma in computer applications. Nita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, বিজ্ঞানৰ ডিগ্ৰী, অন্তত 21 বছৰ বয়স থাকিব লাগে। নীতা ৰ বয়স 20 বছৰ। নীতা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। নীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nita does not satisfy the condition of a minimum age of 21 years, so she does not qualify.",
+    "as": "নীতা এ অন্তত 21 বছৰ বয়স ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-004",
+   "q": {
+    "en": "A candidate must have a minimum age of 18 years, a valid driving licence. Raja is 20 years old. Raja has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 18 বছৰ বয়স, বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ থাকিব লাগে। ৰাজা ৰ বয়স 20 বছৰ। ৰাজা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-005",
+   "q": {
+    "en": "A candidate must have a valid driving licence, at least 60 per cent marks. Sita scored 55 per cent marks. Sita has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, অন্তত 60 শতাংশ নম্বৰ থাকিব লাগে। সীতা এ 55 শতাংশ নম্বৰ পাইছে। সীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sita does not satisfy the condition of at least 60 per cent marks, so she does not qualify.",
+    "as": "সীতা এ অন্তত 60 শতাংশ নম্বৰ ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-006",
+   "q": {
+    "en": "A candidate must have at least 60 per cent marks, a height of at least 160 cm. Nita scored 60 per cent marks. Nita is 162 cm tall.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 60 শতাংশ নম্বৰ, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। নীতা এ 60 শতাংশ নম্বৰ পাইছে। নীতা ৰ উচ্চতা 162 চে.মি.।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
    },
    "options": [
     {
@@ -110623,21 +125233,557 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "She meets both conditions: age 19 is at least 18, and she has passed class 12.",
-    "as": "তেওঁ দুয়োটা চৰ্ত পূৰণ কৰে: বয়স 19 অন্ততঃ 18, আৰু তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ।"
+    "en": "Nita meets all the given conditions, so she qualifies.",
+    "as": "নীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
    }
   },
   {
-   "id": "decision-making-002",
+   "id": "decision-making-007",
    "q": {
-    "en": "A candidate must be at least 18 years old and have passed class 12. Rahim is 20 and has passed class 10. Does he qualify?",
-    "as": "প্ৰাৰ্থীৰ বয়স অন্ততঃ 18 বছৰ হ'ব লাগে আৰু দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হ'ব লাগে। ৰাহিমৰ বয়স 20 আৰু তেওঁ দশম শ্ৰেণী উত্তীৰ্ণ। তেওঁ যোগ্য নে?"
+    "en": "A candidate must have a degree in science, a minimum age of 18 years. Bina is 18 years old. Bina has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, অন্তত 18 বছৰ বয়স থাকিব লাগে। বীণা ৰ বয়স 18 বছৰ। বীণা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bina meets all the given conditions, so she qualifies.",
+    "as": "বীণা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-008",
+   "q": {
+    "en": "A candidate must have fluency in Assamese, a degree in science, a minimum age of 21 years. Rahim is 21 years old. Rahim has a degree in science. Rahim is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অসমীয়াত সাৱলীলতা, বিজ্ঞানৰ ডিগ্ৰী, অন্তত 21 বছৰ বয়স থাকিব লাগে। ৰহিম ৰ বয়স 21 বছৰ। ৰহিম ৰ বিজ্ঞানৰ ডিগ্ৰী আছে। ৰহিম অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rahim meets all the given conditions, so he qualifies.",
+    "as": "ৰহিম এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-009",
+   "q": {
+    "en": "A candidate must have fluency in Assamese, a minimum age of 18 years. Mira is 18 years old. Mira is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অসমীয়াত সাৱলীলতা, অন্তত 18 বছৰ বয়স থাকিব লাগে। মীৰা ৰ বয়স 18 বছৰ। মীৰা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mira does not satisfy the condition of fluency in Assamese, so she does not qualify.",
+    "as": "মীৰা এ অসমীয়াত সাৱলীলতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-010",
+   "q": {
+    "en": "A candidate must have a height of at least 160 cm, a diploma in computer applications. Bina is 170 cm tall. Bina has a diploma in computer applications.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 160 চে.মি. উচ্চতা, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা থাকিব লাগে। বীণা ৰ উচ্চতা 170 চে.মি.। বীণা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bina meets all the given conditions, so she qualifies.",
+    "as": "বীণা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-011",
+   "q": {
+    "en": "A candidate must have a valid driving licence, fluency in Assamese, two years of work experience. Rahim has 5 years of experience. Rahim has a valid driving licence. Rahim is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, অসমীয়াত সাৱলীলতা, দুই বছৰৰ কামৰ অভিজ্ঞতা থাকিব লাগে। ৰহিম ৰ 5 বছৰৰ অভিজ্ঞতা আছে। ৰহিম ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। ৰহিম অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
    },
    "options": [
     {
      "en": "Yes, he qualifies",
      "as": "হয়, তেওঁ যোগ্য"
     },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rahim does not satisfy the condition of a valid driving licence, so he does not qualify.",
+    "as": "ৰহিম এ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-012",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, a minimum age of 18 years. Rina is 21 years old.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, অন্তত 18 বছৰ বয়স থাকিব লাগে। ৰিনা ৰ বয়স 21 বছৰ।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-013",
+   "q": {
+    "en": "A candidate must have a valid driving licence, a minimum age of 18 years. Rina is 18 years old. Rina has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, অন্তত 18 বছৰ বয়স থাকিব লাগে। ৰিনা ৰ বয়স 18 বছৰ। ৰিনা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-014",
+   "q": {
+    "en": "A candidate must have two years of work experience, a minimum age of 18 years, a diploma in computer applications. Nita is 19 years old. Nita has 5 years of experience. Nita has a diploma in computer applications.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ দুই বছৰৰ কামৰ অভিজ্ঞতা, অন্তত 18 বছৰ বয়স, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা থাকিব লাগে। নীতা ৰ বয়স 19 বছৰ। নীতা ৰ 5 বছৰৰ অভিজ্ঞতা আছে। নীতা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nita meets all the given conditions, so she qualifies.",
+    "as": "নীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-015",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, fluency in Assamese. Rahim is 23 years old. Rahim is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, অসমীয়াত সাৱলীলতা থাকিব লাগে। ৰহিম ৰ বয়স 23 বছৰ। ৰহিম অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rahim does not satisfy the condition of fluency in Assamese, so he does not qualify.",
+    "as": "ৰহিম এ অসমীয়াত সাৱলীলতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-016",
+   "q": {
+    "en": "A candidate must have a valid driving licence, a degree in science. Nita has a valid driving licence. Nita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, বিজ্ঞানৰ ডিগ্ৰী থাকিব লাগে। নীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। নীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nita meets all the given conditions, so she qualifies.",
+    "as": "নীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-017",
+   "q": {
+    "en": "A candidate must have a degree in science, a valid driving licence, a height of at least 160 cm. Sita is 170 cm tall. Sita has a valid driving licence. Sita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। সীতা ৰ উচ্চতা 170 চে.মি.। সীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। সীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sita meets all the given conditions, so she qualifies.",
+    "as": "সীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-018",
+   "q": {
+    "en": "A candidate must have Indian citizenship, fluency in Assamese. Rahim is an Indian citizen. Rahim is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ ভাৰতীয় নাগৰিকত্ব, অসমীয়াত সাৱলীলতা থাকিব লাগে। ৰহিম ভাৰতীয় নাগৰিক। ৰহিম অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rahim meets all the given conditions, so he qualifies.",
+    "as": "ৰহিম এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-019",
+   "q": {
+    "en": "A candidate must have a degree in science, two years of work experience. Anil has 1 years of experience. Anil has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, দুই বছৰৰ কামৰ অভিজ্ঞতা থাকিব লাগে। অনিল ৰ 1 বছৰৰ অভিজ্ঞতা আছে। অনিল ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Anil does not satisfy the condition of two years of work experience, so he does not qualify.",
+    "as": "অনিল এ দুই বছৰৰ কামৰ অভিজ্ঞতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-020",
+   "q": {
+    "en": "A candidate must have Indian citizenship, two years of work experience. Rahim has 1 years of experience. Rahim is an Indian citizen.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ ভাৰতীয় নাগৰিকত্ব, দুই বছৰৰ কামৰ অভিজ্ঞতা থাকিব লাগে। ৰহিম ৰ 1 বছৰৰ অভিজ্ঞতা আছে। ৰহিম ভাৰতীয় নাগৰিক।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rahim does not satisfy the condition of two years of work experience, so he does not qualify.",
+    "as": "ৰহিম এ দুই বছৰৰ কামৰ অভিজ্ঞতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-021",
+   "q": {
+    "en": "A candidate must have two years of work experience, at least 60 per cent marks. Rahim scored 70 per cent marks. Rahim has 5 years of experience.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ দুই বছৰৰ কামৰ অভিজ্ঞতা, অন্তত 60 শতাংশ নম্বৰ থাকিব লাগে। ৰহিম এ 70 শতাংশ নম্বৰ পাইছে। ৰহিম ৰ 5 বছৰৰ অভিজ্ঞতা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rahim meets all the given conditions, so he qualifies.",
+    "as": "ৰহিম এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-022",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, at least 60 per cent marks, fluency in Assamese. Raja is 22 years old. Raja scored 80 per cent marks. Raja is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, অন্তত 60 শতাংশ নম্বৰ, অসমীয়াত সাৱলীলতা থাকিব লাগে। ৰাজা ৰ বয়স 22 বছৰ। ৰাজা এ 80 শতাংশ নম্বৰ পাইছে। ৰাজা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-023",
+   "q": {
+    "en": "A candidate must have a diploma in computer applications, a minimum age of 18 years. Rahim is 19 years old. Rahim has a diploma in computer applications.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, অন্তত 18 বছৰ বয়স থাকিব লাগে। ৰহিম ৰ বয়স 19 বছৰ। ৰহিম ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rahim meets all the given conditions, so he qualifies.",
+    "as": "ৰহিম এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-024",
+   "q": {
+    "en": "A candidate must have a diploma in computer applications, a valid driving licence, a height of at least 160 cm. Nita is 162 cm tall. Nita has a diploma in computer applications. Nita has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। নীতা ৰ উচ্চতা 162 চে.মি.। নীতা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। নীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nita meets all the given conditions, so she qualifies.",
+    "as": "নীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-025",
+   "q": {
+    "en": "A candidate must have a valid driving licence, fluency in Assamese, a degree in science. Raja has a valid driving licence. Raja has a degree in science. Raja is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, অসমীয়াত সাৱলীলতা, বিজ্ঞানৰ ডিগ্ৰী থাকিব লাগে। ৰাজা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। ৰাজা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে। ৰাজা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
     {
      "en": "No, he is too young",
      "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
@@ -110649,12 +125795,1366 @@ module.exports = {
     {
      "en": "No, he has not passed class 12",
      "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "Although he is old enough, he has passed only class 10, so the education condition is not met.",
-    "as": "তেওঁ বয়সত যোগ্য যদিও কেৱল দশম শ্ৰেণী উত্তীৰ্ণ, গতিকে শিক্ষাৰ চৰ্ত পূৰণ হোৱা নাই।"
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-026",
+   "q": {
+    "en": "A candidate must have a diploma in computer applications, a minimum age of 21 years, a degree in science. Anil is 21 years old. Anil has a diploma in computer applications. Anil has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, অন্তত 21 বছৰ বয়স, বিজ্ঞানৰ ডিগ্ৰী থাকিব লাগে। অনিল ৰ বয়স 21 বছৰ। অনিল ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। অনিল ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Anil does not satisfy the condition of a diploma in computer applications, so he does not qualify.",
+    "as": "অনিল এ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-027",
+   "q": {
+    "en": "A candidate must have a degree in science, a minimum age of 18 years. Bina is 16 years old. Bina has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, অন্তত 18 বছৰ বয়স থাকিব লাগে। বীণা ৰ বয়স 16 বছৰ। বীণা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bina does not satisfy the condition of a minimum age of 18 years, so she does not qualify.",
+    "as": "বীণা এ অন্তত 18 বছৰ বয়স ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-028",
+   "q": {
+    "en": "A candidate must have a valid driving licence, a diploma in computer applications, fluency in Assamese. Rina has a diploma in computer applications. Rina has a valid driving licence. Rina is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, অসমীয়াত সাৱলীলতা থাকিব লাগে। ৰিনা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। ৰিনা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। ৰিনা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rina does not satisfy the condition of a valid driving licence, so she does not qualify.",
+    "as": "ৰিনা এ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-029",
+   "q": {
+    "en": "A candidate must have Indian citizenship, two years of work experience, at least 60 per cent marks. Raja scored 70 per cent marks. Raja has 5 years of experience. Raja is an Indian citizen.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ ভাৰতীয় নাগৰিকত্ব, দুই বছৰৰ কামৰ অভিজ্ঞতা, অন্তত 60 শতাংশ নম্বৰ থাকিব লাগে। ৰাজা এ 70 শতাংশ নম্বৰ পাইছে। ৰাজা ৰ 5 বছৰৰ অভিজ্ঞতা আছে। ৰাজা ভাৰতীয় নাগৰিক।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raja does not satisfy the condition of Indian citizenship, so he does not qualify.",
+    "as": "ৰাজা এ ভাৰতীয় নাগৰিকত্ব ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-030",
+   "q": {
+    "en": "A candidate must have two years of work experience, a diploma in computer applications, Indian citizenship. Bina has 3 years of experience. Bina has a diploma in computer applications. Bina is an Indian citizen.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ দুই বছৰৰ কামৰ অভিজ্ঞতা, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, ভাৰতীয় নাগৰিকত্ব থাকিব লাগে। বীণা ৰ 3 বছৰৰ অভিজ্ঞতা আছে। বীণা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। বীণা ভাৰতীয় নাগৰিক।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bina meets all the given conditions, so she qualifies.",
+    "as": "বীণা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-031",
+   "q": {
+    "en": "A candidate must have Indian citizenship, two years of work experience, a minimum age of 18 years. Rahim is 18 years old. Rahim has 5 years of experience. Rahim is an Indian citizen.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ ভাৰতীয় নাগৰিকত্ব, দুই বছৰৰ কামৰ অভিজ্ঞতা, অন্তত 18 বছৰ বয়স থাকিব লাগে। ৰহিম ৰ বয়স 18 বছৰ। ৰহিম ৰ 5 বছৰৰ অভিজ্ঞতা আছে। ৰহিম ভাৰতীয় নাগৰিক।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rahim meets all the given conditions, so he qualifies.",
+    "as": "ৰহিম এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-032",
+   "q": {
+    "en": "A candidate must have a degree in science, Indian citizenship, fluency in Assamese. Anil is an Indian citizen. Anil has a degree in science. Anil is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, ভাৰতীয় নাগৰিকত্ব, অসমীয়াত সাৱলীলতা থাকিব লাগে। অনিল ভাৰতীয় নাগৰিক। অনিল ৰ বিজ্ঞানৰ ডিগ্ৰী আছে। অনিল অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Anil meets all the given conditions, so he qualifies.",
+    "as": "অনিল এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-033",
+   "q": {
+    "en": "A candidate must have a valid driving licence, two years of work experience. Rahim has 3 years of experience. Rahim has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, দুই বছৰৰ কামৰ অভিজ্ঞতা থাকিব লাগে। ৰহিম ৰ 3 বছৰৰ অভিজ্ঞতা আছে। ৰহিম ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rahim meets all the given conditions, so he qualifies.",
+    "as": "ৰহিম এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-034",
+   "q": {
+    "en": "A candidate must have at least 60 per cent marks, a minimum age of 21 years, a valid driving licence. Sita is 21 years old. Sita scored 60 per cent marks. Sita has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 60 শতাংশ নম্বৰ, অন্তত 21 বছৰ বয়স, বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ থাকিব লাগে। সীতা ৰ বয়স 21 বছৰ। সীতা এ 60 শতাংশ নম্বৰ পাইছে। সীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sita meets all the given conditions, so she qualifies.",
+    "as": "সীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-035",
+   "q": {
+    "en": "A candidate must have a degree in science, a minimum age of 21 years. Sita is 20 years old. Sita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, অন্তত 21 বছৰ বয়স থাকিব লাগে। সীতা ৰ বয়স 20 বছৰ। সীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sita does not satisfy the condition of a minimum age of 21 years, so she does not qualify.",
+    "as": "সীতা এ অন্তত 21 বছৰ বয়স ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-036",
+   "q": {
+    "en": "A candidate must have a valid driving licence, two years of work experience, a minimum age of 21 years. Nita is 23 years old. Nita has 3 years of experience. Nita has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, দুই বছৰৰ কামৰ অভিজ্ঞতা, অন্তত 21 বছৰ বয়স থাকিব লাগে। নীতা ৰ বয়স 23 বছৰ। নীতা ৰ 3 বছৰৰ অভিজ্ঞতা আছে। নীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nita meets all the given conditions, so she qualifies.",
+    "as": "নীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-037",
+   "q": {
+    "en": "A candidate must have fluency in Assamese, Indian citizenship, a height of at least 160 cm. Anil is 160 cm tall. Anil is an Indian citizen. Anil is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অসমীয়াত সাৱলীলতা, ভাৰতীয় নাগৰিকত্ব, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। অনিল ৰ উচ্চতা 160 চে.মি.। অনিল ভাৰতীয় নাগৰিক। অনিল অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Anil meets all the given conditions, so he qualifies.",
+    "as": "অনিল এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-038",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, two years of work experience. Nita is 20 years old. Nita has 2 years of experience.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, দুই বছৰৰ কামৰ অভিজ্ঞতা থাকিব লাগে। নীতা ৰ বয়স 20 বছৰ। নীতা ৰ 2 বছৰৰ অভিজ্ঞতা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nita does not satisfy the condition of a minimum age of 21 years, so she does not qualify.",
+    "as": "নীতা এ অন্তত 21 বছৰ বয়স ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-039",
+   "q": {
+    "en": "A candidate must have Indian citizenship, a diploma in computer applications, a minimum age of 21 years. Anil is 22 years old. Anil has a diploma in computer applications. Anil is an Indian citizen.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ ভাৰতীয় নাগৰিকত্ব, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, অন্তত 21 বছৰ বয়স থাকিব লাগে। অনিল ৰ বয়স 22 বছৰ। অনিল ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। অনিল ভাৰতীয় নাগৰিক।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Anil does not satisfy the condition of Indian citizenship, so he does not qualify.",
+    "as": "অনিল এ ভাৰতীয় নাগৰিকত্ব ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-040",
+   "q": {
+    "en": "A candidate must have fluency in Assamese, Indian citizenship, a minimum age of 21 years. Nita is 21 years old. Nita is an Indian citizen. Nita is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অসমীয়াত সাৱলীলতা, ভাৰতীয় নাগৰিকত্ব, অন্তত 21 বছৰ বয়স থাকিব লাগে। নীতা ৰ বয়স 21 বছৰ। নীতা ভাৰতীয় নাগৰিক। নীতা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nita meets all the given conditions, so she qualifies.",
+    "as": "নীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-041",
+   "q": {
+    "en": "A candidate must have at least 60 per cent marks, a diploma in computer applications, a valid driving licence. Rina scored 80 per cent marks. Rina has a diploma in computer applications. Rina has a valid driving licence.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 60 শতাংশ নম্বৰ, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ থাকিব লাগে। ৰিনা এ 80 শতাংশ নম্বৰ পাইছে। ৰিনা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। ৰিনা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-042",
+   "q": {
+    "en": "A candidate must have a degree in science, a diploma in computer applications, a valid driving licence. Sita has a diploma in computer applications. Sita has a valid driving licence. Sita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ থাকিব লাগে। সীতা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। সীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। সীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sita meets all the given conditions, so she qualifies.",
+    "as": "সীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-043",
+   "q": {
+    "en": "A candidate must have a minimum age of 18 years, fluency in Assamese. Rahim is 18 years old. Rahim is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 18 বছৰ বয়স, অসমীয়াত সাৱলীলতা থাকিব লাগে। ৰহিম ৰ বয়স 18 বছৰ। ৰহিম অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rahim does not satisfy the condition of fluency in Assamese, so he does not qualify.",
+    "as": "ৰহিম এ অসমীয়াত সাৱলীলতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-044",
+   "q": {
+    "en": "A candidate must have two years of work experience, a height of at least 160 cm. Rina is 160 cm tall. Rina has 5 years of experience.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ দুই বছৰৰ কামৰ অভিজ্ঞতা, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। ৰিনা ৰ উচ্চতা 160 চে.মি.। ৰিনা ৰ 5 বছৰৰ অভিজ্ঞতা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-045",
+   "q": {
+    "en": "A candidate must have a valid driving licence, a degree in science, at least 60 per cent marks. Rahim scored 60 per cent marks. Rahim has a valid driving licence. Rahim has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ, বিজ্ঞানৰ ডিগ্ৰী, অন্তত 60 শতাংশ নম্বৰ থাকিব লাগে। ৰহিম এ 60 শতাংশ নম্বৰ পাইছে। ৰহিম ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। ৰহিম ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rahim meets all the given conditions, so he qualifies.",
+    "as": "ৰহিম এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-046",
+   "q": {
+    "en": "A candidate must have a degree in science, a diploma in computer applications, a minimum age of 18 years. Rina is 18 years old. Rina has a diploma in computer applications. Rina has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, অন্তত 18 বছৰ বয়স থাকিব লাগে। ৰিনা ৰ বয়স 18 বছৰ। ৰিনা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। ৰিনা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-047",
+   "q": {
+    "en": "A candidate must have Indian citizenship, fluency in Assamese, a diploma in computer applications. Raja has a diploma in computer applications. Raja is an Indian citizen. Raja is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ ভাৰতীয় নাগৰিকত্ব, অসমীয়াত সাৱলীলতা, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা থাকিব লাগে। ৰাজা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। ৰাজা ভাৰতীয় নাগৰিক। ৰাজা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raja does not satisfy the condition of Indian citizenship, so he does not qualify.",
+    "as": "ৰাজা এ ভাৰতীয় নাগৰিকত্ব ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-048",
+   "q": {
+    "en": "A candidate must have a diploma in computer applications, two years of work experience. Rina has 3 years of experience. Rina has a diploma in computer applications.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, দুই বছৰৰ কামৰ অভিজ্ঞতা থাকিব লাগে। ৰিনা ৰ 3 বছৰৰ অভিজ্ঞতা আছে। ৰিনা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-049",
+   "q": {
+    "en": "A candidate must have a degree in science, a minimum age of 21 years. Bina is 21 years old. Bina has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, অন্তত 21 বছৰ বয়স থাকিব লাগে। বীণা ৰ বয়স 21 বছৰ। বীণা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bina does not satisfy the condition of a degree in science, so she does not qualify.",
+    "as": "বীণা এ বিজ্ঞানৰ ডিগ্ৰী ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-050",
+   "q": {
+    "en": "A candidate must have a degree in science, a minimum age of 21 years, a height of at least 160 cm. Rina is 21 years old. Rina is 159 cm tall. Rina has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, অন্তত 21 বছৰ বয়স, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। ৰিনা ৰ বয়স 21 বছৰ। ৰিনা ৰ উচ্চতা 159 চে.মি.। ৰিনা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rina does not satisfy the condition of a height of at least 160 cm, so she does not qualify.",
+    "as": "ৰিনা এ অন্তত 160 চে.মি. উচ্চতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-051",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, a degree in science, a minimum age of 18 years. Mira is 17 years old. Mira has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, বিজ্ঞানৰ ডিগ্ৰী, অন্তত 18 বছৰ বয়স থাকিব লাগে। মীৰা ৰ বয়স 17 বছৰ। মীৰা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mira does not satisfy the condition of a minimum age of 21 years, so she does not qualify.",
+    "as": "মীৰা এ অন্তত 21 বছৰ বয়স ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-052",
+   "q": {
+    "en": "A candidate must have fluency in Assamese, a height of at least 160 cm. Raja is 160 cm tall. Raja is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অসমীয়াত সাৱলীলতা, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। ৰাজা ৰ উচ্চতা 160 চে.মি.। ৰাজা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-053",
+   "q": {
+    "en": "A candidate must have a diploma in computer applications, a degree in science, a height of at least 160 cm. Sita is 170 cm tall. Sita has a diploma in computer applications. Sita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, বিজ্ঞানৰ ডিগ্ৰী, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। সীতা ৰ উচ্চতা 170 চে.মি.। সীতা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। সীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sita does not satisfy the condition of a diploma in computer applications, so she does not qualify.",
+    "as": "সীতা এ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-054",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, fluency in Assamese. Rahim is 22 years old. Rahim is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, অসমীয়াত সাৱলীলতা থাকিব লাগে। ৰহিম ৰ বয়স 22 বছৰ। ৰহিম অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he does not qualify",
+     "as": "No, he does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rahim does not satisfy the condition of fluency in Assamese, so he does not qualify.",
+    "as": "ৰহিম এ অসমীয়াত সাৱলীলতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-055",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, at least 60 per cent marks. Nita is 23 years old. Nita scored 80 per cent marks.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, অন্তত 60 শতাংশ নম্বৰ থাকিব লাগে। নীতা ৰ বয়স 23 বছৰ। নীতা এ 80 শতাংশ নম্বৰ পাইছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nita meets all the given conditions, so she qualifies.",
+    "as": "নীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-056",
+   "q": {
+    "en": "A candidate must have a height of at least 160 cm, fluency in Assamese. Raja is 170 cm tall. Raja is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 160 চে.মি. উচ্চতা, অসমীয়াত সাৱলীলতা থাকিব লাগে। ৰাজা ৰ উচ্চতা 170 চে.মি.। ৰাজা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-057",
+   "q": {
+    "en": "A candidate must have a height of at least 160 cm, fluency in Assamese, Indian citizenship. Rina is 155 cm tall. Rina is an Indian citizen. Rina is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 160 চে.মি. উচ্চতা, অসমীয়াত সাৱলীলতা, ভাৰতীয় নাগৰিকত্ব থাকিব লাগে। ৰিনা ৰ উচ্চতা 155 চে.মি.। ৰিনা ভাৰতীয় নাগৰিক। ৰিনা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rina does not satisfy the condition of a height of at least 160 cm, so she does not qualify.",
+    "as": "ৰিনা এ অন্তত 160 চে.মি. উচ্চতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-058",
+   "q": {
+    "en": "A candidate must have Indian citizenship, a valid driving licence. Sita has a valid driving licence. Sita is an Indian citizen.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ ভাৰতীয় নাগৰিকত্ব, বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ থাকিব লাগে। সীতা ৰ বৈধ ড্ৰাইভিং অনুজ্ঞাপত্ৰ আছে। সীতা ভাৰতীয় নাগৰিক।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sita meets all the given conditions, so she qualifies.",
+    "as": "সীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-059",
+   "q": {
+    "en": "A candidate must have a minimum age of 18 years, fluency in Assamese, a diploma in computer applications. Bina is 19 years old. Bina has a diploma in computer applications. Bina is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 18 বছৰ বয়স, অসমীয়াত সাৱলীলতা, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা থাকিব লাগে। বীণা ৰ বয়স 19 বছৰ। বীণা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। বীণা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bina does not satisfy the condition of fluency in Assamese, so she does not qualify.",
+    "as": "বীণা এ অসমীয়াত সাৱলীলতা ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-060",
+   "q": {
+    "en": "A candidate must have at least 60 per cent marks, a minimum age of 18 years, a diploma in computer applications. Rina is 19 years old. Rina scored 80 per cent marks. Rina has a diploma in computer applications.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 60 শতাংশ নম্বৰ, অন্তত 18 বছৰ বয়স, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা থাকিব লাগে। ৰিনা ৰ বয়স 19 বছৰ। ৰিনা এ 80 শতাংশ নম্বৰ পাইছে। ৰিনা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rina meets all the given conditions, so she qualifies.",
+    "as": "ৰিনা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-061",
+   "q": {
+    "en": "A candidate must have a minimum age of 18 years, two years of work experience. Raja is 19 years old. Raja has 3 years of experience.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 18 বছৰ বয়স, দুই বছৰৰ কামৰ অভিজ্ঞতা থাকিব লাগে। ৰাজা ৰ বয়স 19 বছৰ। ৰাজা ৰ 3 বছৰৰ অভিজ্ঞতা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-062",
+   "q": {
+    "en": "A candidate must have at least 60 per cent marks, a minimum age of 21 years. Nita is 22 years old. Nita scored 59 per cent marks.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 60 শতাংশ নম্বৰ, অন্তত 21 বছৰ বয়স থাকিব লাগে। নীতা ৰ বয়স 22 বছৰ। নীতা এ 59 শতাংশ নম্বৰ পাইছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nita does not satisfy the condition of at least 60 per cent marks, so she does not qualify.",
+    "as": "নীতা এ অন্তত 60 শতাংশ নম্বৰ ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-063",
+   "q": {
+    "en": "A candidate must have a degree in science, a diploma in computer applications, a height of at least 160 cm. Sita is 160 cm tall. Sita has a diploma in computer applications. Sita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা, অন্তত 160 চে.মি. উচ্চতা থাকিব লাগে। সীতা ৰ উচ্চতা 160 চে.মি.। সীতা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে। সীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sita meets all the given conditions, so she qualifies.",
+    "as": "সীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-064",
+   "q": {
+    "en": "A candidate must have fluency in Assamese, a degree in science. Raja has a degree in science. Raja is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অসমীয়াত সাৱলীলতা, বিজ্ঞানৰ ডিগ্ৰী থাকিব লাগে। ৰাজা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে। ৰাজা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-065",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, a degree in science, a minimum age of 18 years. Sita is 20 years old. Sita has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, বিজ্ঞানৰ ডিগ্ৰী, অন্তত 18 বছৰ বয়স থাকিব লাগে। সীতা ৰ বয়স 20 বছৰ। সীতা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she does not qualify",
+     "as": "No, she does not qualify"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Only one condition is needed",
+     "as": "Only one condition is needed"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sita does not satisfy the condition of a minimum age of 21 years, so she does not qualify.",
+    "as": "সীতা এ অন্তত 21 বছৰ বয়স ৰ চৰ্ত পূৰণ নকৰে, গতিকে তেওঁ যোগ্য নহয়।"
+   }
+  },
+  {
+   "id": "decision-making-066",
+   "q": {
+    "en": "A candidate must have at least 60 per cent marks, a minimum age of 18 years. Mira is 20 years old. Mira scored 65 per cent marks.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 60 শতাংশ নম্বৰ, অন্তত 18 বছৰ বয়স থাকিব লাগে। মীৰা ৰ বয়স 20 বছৰ। মীৰা এ 65 শতাংশ নম্বৰ পাইছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Mira meets all the given conditions, so she qualifies.",
+    "as": "মীৰা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-067",
+   "q": {
+    "en": "A candidate must have a height of at least 160 cm, a minimum age of 18 years. Anil is 18 years old. Anil is 162 cm tall.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 160 চে.মি. উচ্চতা, অন্তত 18 বছৰ বয়স থাকিব লাগে। অনিল ৰ বয়স 18 বছৰ। অনিল ৰ উচ্চতা 162 চে.মি.।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Anil meets all the given conditions, so he qualifies.",
+    "as": "অনিল এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-068",
+   "q": {
+    "en": "A candidate must have a minimum age of 21 years, fluency in Assamese. Bina is 22 years old. Bina is fluent in Assamese.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ অন্তত 21 বছৰ বয়স, অসমীয়াত সাৱলীলতা থাকিব লাগে। বীণা ৰ বয়স 22 বছৰ। বীণা অসমীয়াত সাৱলীল।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bina meets all the given conditions, so she qualifies.",
+    "as": "বীণা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-069",
+   "q": {
+    "en": "A candidate must have two years of work experience, a diploma in computer applications. Sita has 5 years of experience. Sita has a diploma in computer applications.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ দুই বছৰৰ কামৰ অভিজ্ঞতা, কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা থাকিব লাগে। সীতা ৰ 5 বছৰৰ অভিজ্ঞতা আছে। সীতা ৰ কম্পিউটাৰ এপ্লিকেশ্যনত ডিপ্লমা আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "No, she is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "Yes, she qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "No, she has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sita meets all the given conditions, so she qualifies.",
+    "as": "সীতা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
+   }
+  },
+  {
+   "id": "decision-making-070",
+   "q": {
+    "en": "A candidate must have a degree in science, at least 60 per cent marks. Raja scored 65 per cent marks. Raja has a degree in science.\nWhich decision is correct?",
+    "as": "প্ৰাৰ্থীৰ বিজ্ঞানৰ ডিগ্ৰী, অন্তত 60 শতাংশ নম্বৰ থাকিব লাগে। ৰাজা এ 65 শতাংশ নম্বৰ পাইছে। ৰাজা ৰ বিজ্ঞানৰ ডিগ্ৰী আছে।\nকোনটো সিদ্ধান্ত শুদ্ধ?"
+   },
+   "options": [
+    {
+     "en": "Cannot be decided",
+     "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+     "en": "Yes, he qualifies",
+     "as": "হয়, তেওঁ যোগ্য"
+    },
+    {
+     "en": "No, he is too young",
+     "as": "নহয়, তেওঁ অতি কম বয়সীয়া"
+    },
+    {
+     "en": "No, he has not passed class 12",
+     "as": "নহয়, তেওঁ দ্বাদশ শ্ৰেণী উত্তীৰ্ণ হোৱা নাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Raja meets all the given conditions, so he qualifies.",
+    "as": "ৰাজা এ দিয়া সকলো চৰ্ত পূৰণ কৰে, গতিকে তেওঁ যোগ্য।"
    }
   }
  ],
@@ -110662,61 +127162,1501 @@ module.exports = {
   {
    "id": "drawing-inferences-001",
    "q": {
-    "en": "Passage: All the windows in the hall were shut, yet the floor was wet. Inference:",
-    "as": "অনুচ্ছেদ: হলটোৰ সকলো খিৰিকী বন্ধ আছিল, তথাপি মজিয়া তিতা আছিল। সিদ্ধান্ত:"
+    "en": "Passage: All the windows in the hall were shut, yet the floor was wet.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: All the windows in the hall were shut, yet the floor was wet.\nকোনটো সিদ্ধান্ত ওলায়?"
    },
    "options": [
     {
+     "en": "The windows were open",
+     "as": "The windows were open"
+    },
+    {
      "en": "Water came from a source inside the hall",
-     "as": "পানী হলটোৰ ভিতৰৰ পৰা আহিছিল"
+     "as": "Water came from a source inside the hall"
     },
     {
      "en": "It rained heavily outside",
-     "as": "বাহিৰত ধুমুহা বৰষুণ হৈছিল"
-    },
-    {
-     "en": "The windows were open",
-     "as": "খিৰিকীবোৰ খোলা আছিল"
+     "as": "It rained heavily outside"
     },
     {
      "en": "The floor was dry",
-     "as": "মজিয়া শুকান আছিল"
+     "as": "The floor was dry"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "With every window shut, the water on the floor must have come from inside; the other options contradict the passage.",
-    "as": "সকলো খিৰিকী বন্ধ থকাৰ পৰিপ্ৰেক্ষিতত মজিয়াৰ পানী ভিতৰৰ পৰা অহা হ'ব; আনবোৰ বিকল্পই অনুচ্ছেদৰ লগত বিৰোধ কৰে।"
+    "en": "With every window shut, the water on the floor must have come from inside.",
+    "as": "সকলো খিৰিকী বন্ধ থকাৰ পৰিপ্ৰেক্ষিতত মজিয়াৰ পানী ভিতৰৰ পৰা অহা হ'ব।"
    }
   },
   {
    "id": "drawing-inferences-002",
    "q": {
-    "en": "Passage: Every student in the class passed, but only one student scored full marks. Inference:",
-    "as": "অনুচ্ছেদ: শ্ৰেণীৰ প্ৰতিজন শিক্ষাৰ্থী উত্তীৰ্ণ হ'ল, কিন্তু কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছিল। সিদ্ধান্ত:"
+    "en": "Passage: Every student in the class passed, but only one student scored full marks.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: Every student in the class passed, but only one student scored full marks.\nকোনটো সিদ্ধান্ত ওলায়?"
    },
    "options": [
     {
-     "en": "No student got full marks",
-     "as": "কোনো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+     "en": "Most students scored less than full marks",
+     "as": "Most students scored less than full marks"
     },
     {
-     "en": "At least one student did not get full marks",
-     "as": "অন্ততঃ এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+     "en": "The class did not pass",
+     "as": "The class did not pass"
     },
     {
-     "en": "All students got full marks",
-     "as": "সকলো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছে"
+     "en": "No student scored full marks",
+     "as": "No student scored full marks"
     },
     {
-     "en": "The class was empty",
-     "as": "শ্ৰেণী খালী আছিল"
+     "en": "All students scored full marks",
+     "as": "All students scored full marks"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "If only one scored full marks, the rest must have scored less.",
+    "as": "কেৱল এজনে পূৰ্ণ নম্বৰ পোৱা মানে বাকীবোৰে কম নম্বৰ পাইছে।"
+   }
+  },
+  {
+   "id": "drawing-inferences-003",
+   "q": {
+    "en": "Passage: The shop was open, but the lights were off and the door was locked from outside.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The shop was open, but the lights were off and the door was locked from outside.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The shop was empty of goods",
+     "as": "The shop was empty of goods"
+    },
+    {
+     "en": "The shopkeeper was not inside the shop",
+     "as": "The shopkeeper was not inside the shop"
+    },
+    {
+     "en": "The shop had no electricity",
+     "as": "The shop had no electricity"
+    },
+    {
+     "en": "The shop was closed permanently",
+     "as": "The shop was closed permanently"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "Since only one student scored full marks and the class has more than one student, at least one student did not.",
-    "as": "কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱাৰ পিছত আৰু শ্ৰেণীত এজনতকৈ অধিক থকাৰ পিছত, অন্ততঃ এজনে পোৱা নাই।"
+    "en": "A door locked from outside with lights off suggests nobody was inside.",
+    "as": "বাহিৰৰ পৰা বন্ধ দুৱাৰ আৰু নুমুৱা পোহৰে ভিতৰত কোনো নাই বুলি সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-004",
+   "q": {
+    "en": "Passage: Ravi reached the station at 9:05, but the train had already left at 9:00.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: Ravi reached the station at 9:05, but the train had already left at 9:00.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Ravi was late for the train",
+     "as": "Ravi was late for the train"
+    },
+    {
+     "en": "The train was late",
+     "as": "The train was late"
+    },
+    {
+     "en": "The station was closed",
+     "as": "The station was closed"
+    },
+    {
+     "en": "Ravi missed the bus",
+     "as": "Ravi missed the bus"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Reaching after the departure time means Ravi was late.",
+    "as": "যাত্ৰা কৰাৰ পিছত পোৱা মানে ৰবি দেৰি হৈছিল।"
+   }
+  },
+  {
+   "id": "drawing-inferences-005",
+   "q": {
+    "en": "Passage: The plant was watered daily, but it withered within a week.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The plant was watered daily, but it withered within a week.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The plant was never watered",
+     "as": "The plant was never watered"
+    },
+    {
+     "en": "The plant was kept in the sun",
+     "as": "The plant was kept in the sun"
+    },
+    {
+     "en": "Water alone was not enough for the plant",
+     "as": "Water alone was not enough for the plant"
+    },
+    {
+     "en": "The plant was too big",
+     "as": "The plant was too big"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Daily watering rules out lack of water, so something else was wrong.",
+    "as": "দৈনিক পানী দিয়া মানে পানীৰ অভাৱ নাই, গতিকে আন কিবা সমস্যা আছিল।"
+   }
+  },
+  {
+   "id": "drawing-inferences-006",
+   "q": {
+    "en": "Passage: The road was dry in the morning, but by evening it was covered with leaves.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The road was dry in the morning, but by evening it was covered with leaves.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "It rained during the day",
+     "as": "It rained during the day"
+    },
+    {
+     "en": "Someone watered the road",
+     "as": "Someone watered the road"
+    },
+    {
+     "en": "The road was dug up",
+     "as": "The road was dug up"
+    },
+    {
+     "en": "A strong wind blew during the day",
+     "as": "A strong wind blew during the day"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dry road plus fallen leaves points to wind.",
+    "as": "শুকান পথ আৰু সৰা পাত একেলগে বতাহলৈ ইংগিত দিয়ে।"
+   }
+  },
+  {
+   "id": "drawing-inferences-007",
+   "q": {
+    "en": "Passage: All the guests arrived before noon, yet the lunch was served at 3 p.m.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: All the guests arrived before noon, yet the lunch was served at 3 p.m.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The lunch was cancelled",
+     "as": "The lunch was cancelled"
+    },
+    {
+     "en": "The guests arrived late",
+     "as": "The guests arrived late"
+    },
+    {
+     "en": "There was a delay in preparing the food",
+     "as": "There was a delay in preparing the food"
+    },
+    {
+     "en": "The guests did not eat",
+     "as": "The guests did not eat"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Guests arrived early but food came late, so preparation was delayed.",
+    "as": "অতিথি সোনকালে আহিল কিন্তু খাদ্য দেৰিকৈ, গতিকে প্ৰস্তুতি পলম হৈছিল।"
+   }
+  },
+  {
+   "id": "drawing-inferences-008",
+   "q": {
+    "en": "Passage: Amit's shop sells only vegetables, but today he sold a large number of fruits.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: Amit's shop sells only vegetables, but today he sold a large number of fruits.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Amit's shop was closed",
+     "as": "Amit's shop was closed"
+    },
+    {
+     "en": "Amit has started selling fruits as well",
+     "as": "Amit has started selling fruits as well"
+    },
+    {
+     "en": "Amit sold only fruits today",
+     "as": "Amit sold only fruits today"
+    },
+    {
+     "en": "Amit has stopped selling vegetables",
+     "as": "Amit has stopped selling vegetables"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Selling fruits today shows an addition, not a replacement.",
+    "as": "আজি ফল বিক্ৰী কৰা মানে সংযোজন, প্ৰতিস্থাপন নহয়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-009",
+   "q": {
+    "en": "Passage: The bus was full, but every passenger had a seat.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The bus was full, but every passenger had a seat.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The bus had no seats",
+     "as": "The bus had no seats"
+    },
+    {
+     "en": "The bus was empty",
+     "as": "The bus was empty"
+    },
+    {
+     "en": "Some passengers stood",
+     "as": "Some passengers stood"
+    },
+    {
+     "en": "The bus had as many seats as passengers",
+     "as": "The bus had as many seats as passengers"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Full with everyone seated means seats matched passengers.",
+    "as": "সকলো বহি থকা অৱস্থাত ভৰ্তি মানে আসন আৰু যাত্ৰীৰ সংখ্যা সমান।"
+   }
+  },
+  {
+   "id": "drawing-inferences-010",
+   "q": {
+    "en": "Passage: Meera studied for six hours daily, yet her marks did not improve.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: Meera studied for six hours daily, yet her marks did not improve.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Her study method may not have been effective",
+     "as": "Her study method may not have been effective"
+    },
+    {
+     "en": "Meera did not write the exam",
+     "as": "Meera did not write the exam"
+    },
+    {
+     "en": "Meera did not study at all",
+     "as": "Meera did not study at all"
+    },
+    {
+     "en": "Meera studied only one day",
+     "as": "Meera studied only one day"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Long study hours without improvement points to method, not effort.",
+    "as": "দীঘল সময় পঢ়িও উন্নতি নোহোৱাই পদ্ধতিলৈ ইংগিত দিয়ে, পৰিশ্ৰমলৈ নহয়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-011",
+   "q": {
+    "en": "Passage: The village had many wells, but people walked two kilometres for water.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The village had many wells, but people walked two kilometres for water.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The people disliked wells",
+     "as": "The people disliked wells"
+    },
+    {
+     "en": "The wells had dried up or were unusable",
+     "as": "The wells had dried up or were unusable"
+    },
+    {
+     "en": "The village had piped water",
+     "as": "The village had piped water"
+    },
+    {
+     "en": "The village had no wells",
+     "as": "The village had no wells"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Many wells plus long walks means the wells were not usable.",
+    "as": "বহু কুঁৱা আৰু দীঘল খোজ একেলগে কুঁৱা অকৰ্মণ্য বুলি সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-012",
+   "q": {
+    "en": "Passage: The team practised in the morning, but the match was held at night.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The team practised in the morning, but the match was held at night.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The team did not practise",
+     "as": "The team did not practise"
+    },
+    {
+     "en": "The team practised at night",
+     "as": "The team practised at night"
+    },
+    {
+     "en": "The match was cancelled",
+     "as": "The match was cancelled"
+    },
+    {
+     "en": "The practice time differed from the match time",
+     "as": "The practice time differed from the match time"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Morning practice and a night match simply differ in timing.",
+    "as": "ৰাতিপুৱা অনুশীলন আৰু ৰাতি খেল কেৱল সময়ৰ পাৰ্থক্য।"
+   }
+  },
+  {
+   "id": "drawing-inferences-013",
+   "q": {
+    "en": "Passage: The teacher praised Rohan, but Rohan had not spoken in class.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The teacher praised Rohan, but Rohan had not spoken in class.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Rohan was absent",
+     "as": "Rohan was absent"
+    },
+    {
+     "en": "Rohan spoke a lot in class",
+     "as": "Rohan spoke a lot in class"
+    },
+    {
+     "en": "Rohan may have done good work outside class",
+     "as": "Rohan may have done good work outside class"
+    },
+    {
+     "en": "Rohan was punished",
+     "as": "Rohan was punished"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Praise without class participation suggests good work elsewhere.",
+    "as": "শ্ৰেণীত নোকোৱাকৈ প্ৰশংসা মানে আন ঠাইত ভাল কাম কৰিছে।"
+   }
+  },
+  {
+   "id": "drawing-inferences-014",
+   "q": {
+    "en": "Passage: The lights in the office were on all night, but no one was seen inside.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The lights in the office were on all night, but no one was seen inside.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The office was robbed",
+     "as": "The office was robbed"
+    },
+    {
+     "en": "Someone may have forgotten to switch off the lights",
+     "as": "Someone may have forgotten to switch off the lights"
+    },
+    {
+     "en": "The office was closed",
+     "as": "The office was closed"
+    },
+    {
+     "en": "The office had no lights",
+     "as": "The office had no lights"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Lights on with nobody around suggests they were left on.",
+    "as": "পোহৰ জ্বলি থকা আৰু কোনো নথকাই নুমুৱাবলৈ পাহৰা সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-015",
+   "q": {
+    "en": "Passage: The market was crowded, but the shops had few goods on display.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The market was crowded, but the shops had few goods on display.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The shops were closed",
+     "as": "The shops were closed"
+    },
+    {
+     "en": "There were no customers",
+     "as": "There were no customers"
+    },
+    {
+     "en": "The market was empty",
+     "as": "The market was empty"
+    },
+    {
+     "en": "The goods may have been sold out",
+     "as": "The goods may have been sold out"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Crowds with empty shelves point to goods being sold out.",
+    "as": "ভিৰ আৰু ৰিক্ত তাক একেলগে সামগ্ৰী বিক্ৰী হোৱা সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-016",
+   "q": {
+    "en": "Passage: Rita took an umbrella, but it did not rain.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: Rita took an umbrella, but it did not rain.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "It rained heavily",
+     "as": "It rained heavily"
+    },
+    {
+     "en": "Rita lost her umbrella",
+     "as": "Rita lost her umbrella"
+    },
+    {
+     "en": "Rita expected rain",
+     "as": "Rita expected rain"
+    },
+    {
+     "en": "Rita got wet",
+     "as": "Rita got wet"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Carrying an umbrella shows an expectation of rain.",
+    "as": "ছাতি লৈ যোৱাই বৰষুণৰ আশা দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-017",
+   "q": {
+    "en": "Passage: The library was silent, but a book had fallen on the floor.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The library was silent, but a book had fallen on the floor.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The book was stolen",
+     "as": "The book was stolen"
+    },
+    {
+     "en": "The library was closed",
+     "as": "The library was closed"
+    },
+    {
+     "en": "The book fell without anyone noticing",
+     "as": "The book fell without anyone noticing"
+    },
+    {
+     "en": "Someone shouted in the library",
+     "as": "Someone shouted in the library"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Silence with a fallen book means it was not noticed.",
+    "as": "নীৰৱতা আৰু পৰা কিতাপ মানে কাকো মন কৰা নাই।"
+   }
+  },
+  {
+   "id": "drawing-inferences-018",
+   "q": {
+    "en": "Passage: The train was on time, but the passengers were still waiting.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The train was on time, but the passengers were still waiting.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The train was cancelled",
+     "as": "The train was cancelled"
+    },
+    {
+     "en": "The passengers were waiting for a different train",
+     "as": "The passengers were waiting for a different train"
+    },
+    {
+     "en": "The train was late",
+     "as": "The train was late"
+    },
+    {
+     "en": "The passengers had no tickets",
+     "as": "The passengers had no tickets"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "An on-time train with waiting passengers suggests they awaited another train.",
+    "as": "সময়মতে অহা ৰে'ল আৰু অপেক্ষাৰত যাত্ৰীয়ে আন ৰে'ললৈ অপেক্ষা সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-019",
+   "q": {
+    "en": "Passage: The field was green, but the farmer had not sown any seed.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The field was green, but the farmer had not sown any seed.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The field was ploughed only",
+     "as": "The field was ploughed only"
+    },
+    {
+     "en": "The farmer sowed seeds",
+     "as": "The farmer sowed seeds"
+    },
+    {
+     "en": "The grass grew on its own",
+     "as": "The grass grew on its own"
+    },
+    {
+     "en": "The field was dry",
+     "as": "The field was dry"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Green without sowing means natural growth.",
+    "as": "নাবনাকৈ সেউজীয়া মানে প্ৰাকৃতিকভাৱে গজা।"
+   }
+  },
+  {
+   "id": "drawing-inferences-020",
+   "q": {
+    "en": "Passage: The children were laughing, but the teacher was not present.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The children were laughing, but the teacher was not present.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The children were studying",
+     "as": "The children were studying"
+    },
+    {
+     "en": "The children were sad",
+     "as": "The children were sad"
+    },
+    {
+     "en": "The teacher was laughing",
+     "as": "The teacher was laughing"
+    },
+    {
+     "en": "The children were enjoying their free time",
+     "as": "The children were enjoying their free time"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Laughter without the teacher shows free-time enjoyment.",
+    "as": "শিক্ষক নথকা অৱস্থাত হাঁহিয়ে অবসৰৰ আনন্দ দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-021",
+   "q": {
+    "en": "Passage: The road sign said 'Hospital ahead', but no building was visible.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The road sign said 'Hospital ahead', but no building was visible.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The hospital was closed",
+     "as": "The hospital was closed"
+    },
+    {
+     "en": "There was no road",
+     "as": "There was no road"
+    },
+    {
+     "en": "The sign was wrong",
+     "as": "The sign was wrong"
+    },
+    {
+     "en": "The hospital may be further ahead",
+     "as": "The hospital may be further ahead"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A sign can point to a place beyond the view.",
+    "as": "চিনে দৃষ্টিৰ বাহিৰৰ ঠাইলৈ ইংগিত দিব পাৰে।"
+   }
+  },
+  {
+   "id": "drawing-inferences-022",
+   "q": {
+    "en": "Passage: The festival was celebrated, but no fireworks were used.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The festival was celebrated, but no fireworks were used.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The festival was cancelled",
+     "as": "The festival was cancelled"
+    },
+    {
+     "en": "The festival was postponed",
+     "as": "The festival was postponed"
+    },
+    {
+     "en": "The celebration was without fireworks",
+     "as": "The celebration was without fireworks"
+    },
+    {
+     "en": "There were no people",
+     "as": "There were no people"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A celebration without fireworks is still a celebration.",
+    "as": "আতচবাজী নোহোৱাকৈও উৎসৱ হয়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-023",
+   "q": {
+    "en": "Passage: The well was deep, but the bucket touched the water easily.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The well was deep, but the bucket touched the water easily.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The well was shallow",
+     "as": "The well was shallow"
+    },
+    {
+     "en": "The water level in the well was high",
+     "as": "The water level in the well was high"
+    },
+    {
+     "en": "The bucket was very long",
+     "as": "The bucket was very long"
+    },
+    {
+     "en": "The well was dry",
+     "as": "The well was dry"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Touching water easily means the level was high.",
+    "as": "সহজে পানীত লাগা মানে পানীৰ স্তৰ ওখ আছিল।"
+   }
+  },
+  {
+   "id": "drawing-inferences-024",
+   "q": {
+    "en": "Passage: The school bell rang, but the students did not leave the classroom.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The school bell rang, but the students did not leave the classroom.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The bell may not have been the closing bell",
+     "as": "The bell may not have been the closing bell"
+    },
+    {
+     "en": "The school was closed",
+     "as": "The school was closed"
+    },
+    {
+     "en": "The students were absent",
+     "as": "The students were absent"
+    },
+    {
+     "en": "The students did not hear the bell",
+     "as": "The students did not hear the bell"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Staying in class after a bell suggests it was not the closing bell.",
+    "as": "ঘণ্টা বজাৰ পিছতো শ্ৰেণীত থকাই ছুটীৰ ঘণ্টা নহয় বুলি সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-025",
+   "q": {
+    "en": "Passage: The river was wide, but the bridge was narrow.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The river was wide, but the bridge was narrow.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The river was dry",
+     "as": "The river was dry"
+    },
+    {
+     "en": "The river was narrow",
+     "as": "The river was narrow"
+    },
+    {
+     "en": "The bridge was closed",
+     "as": "The bridge was closed"
+    },
+    {
+     "en": "Crossing the bridge may take time",
+     "as": "Crossing the bridge may take time"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A narrow bridge across a wide river slows crossing.",
+    "as": "ওখ নদীৰ ওপৰত সৰু দলঙে পাৰ হ'বলৈ সময় লয়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-026",
+   "q": {
+    "en": "Passage: The shopkeeper smiled, but he refused to give a discount.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The shopkeeper smiled, but he refused to give a discount.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "He was angry",
+     "as": "He was angry"
+    },
+    {
+     "en": "He gave a discount",
+     "as": "He gave a discount"
+    },
+    {
+     "en": "He closed the shop",
+     "as": "He closed the shop"
+    },
+    {
+     "en": "His smile did not mean he would reduce the price",
+     "as": "His smile did not mean he would reduce the price"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A smile and a refusal show the two are separate.",
+    "as": "হাঁহি আৰু অস্বীকাৰে দুয়োটা বেলেগ বুলি দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-027",
+   "q": {
+    "en": "Passage: The fan was running, but the room felt hot.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The fan was running, but the room felt hot.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The fan was switched off",
+     "as": "The fan was switched off"
+    },
+    {
+     "en": "There was no fan",
+     "as": "There was no fan"
+    },
+    {
+     "en": "The fan alone could not cool the room",
+     "as": "The fan alone could not cool the room"
+    },
+    {
+     "en": "The room was cold",
+     "as": "The room was cold"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A running fan with a hot room means it was not enough.",
+    "as": "চলি থকা ফেন আৰু গৰম ৰুম মানে সেয়া যথেষ্ট নাছিল।"
+   }
+  },
+  {
+   "id": "drawing-inferences-028",
+   "q": {
+    "en": "Passage: The exam was easy, but many students failed.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The exam was easy, but many students failed.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "No student passed",
+     "as": "No student passed"
+    },
+    {
+     "en": "The students were not well prepared",
+     "as": "The students were not well prepared"
+    },
+    {
+     "en": "The exam was cancelled",
+     "as": "The exam was cancelled"
+    },
+    {
+     "en": "The exam was difficult",
+     "as": "The exam was difficult"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "An easy exam with many failures points to poor preparation.",
+    "as": "সহজ পৰীক্ষাত বহু ব্যৰ্থতাই দুৰ্বল প্ৰস্তুতি সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-029",
+   "q": {
+    "en": "Passage: The gate was open, but the guard stopped the visitor.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The gate was open, but the guard stopped the visitor.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The gate was locked",
+     "as": "The gate was locked"
+    },
+    {
+     "en": "An open gate does not always mean free entry",
+     "as": "An open gate does not always mean free entry"
+    },
+    {
+     "en": "The guard was absent",
+     "as": "The guard was absent"
+    },
+    {
+     "en": "The visitor entered",
+     "as": "The visitor entered"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "An open gate with a stop shows entry is not automatic.",
+    "as": "খোলা দুৱাৰ আৰু বাধাই প্ৰৱেশ স্বয়ংক্ৰিয় নহয় বুলি দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-030",
+   "q": {
+    "en": "Passage: The lake was calm, but the fishermen did not go out.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The lake was calm, but the fishermen did not go out.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The fishermen were absent",
+     "as": "The fishermen were absent"
+    },
+    {
+     "en": "The lake was rough",
+     "as": "The lake was rough"
+    },
+    {
+     "en": "There may have been another reason not to go",
+     "as": "There may have been another reason not to go"
+    },
+    {
+     "en": "The lake was dry",
+     "as": "The lake was dry"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Calm water with no fishing suggests a different reason.",
+    "as": "শান্ত পানী আৰু মাছমৰীয়া নোযোৱাই আন কাৰণ সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-031",
+   "q": {
+    "en": "Passage: The clock showed 5 o'clock, but the sun was still high.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The clock showed 5 o'clock, but the sun was still high.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "It was night",
+     "as": "It was night"
+    },
+    {
+     "en": "The clock was fast",
+     "as": "The clock was fast"
+    },
+    {
+     "en": "The clock may have been slow",
+     "as": "The clock may have been slow"
+    },
+    {
+     "en": "The sun was setting",
+     "as": "The sun was setting"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A high sun at 5 o'clock suggests the clock was behind.",
+    "as": "৫ বজাতো ওখ সূৰ্যই ঘড়ী পিছ পৰা সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-032",
+   "q": {
+    "en": "Passage: The garden had many flowers, but no bees were seen.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The garden had many flowers, but no bees were seen.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The flowers were artificial",
+     "as": "The flowers were artificial"
+    },
+    {
+     "en": "There were no flowers",
+     "as": "There were no flowers"
+    },
+    {
+     "en": "The garden was closed",
+     "as": "The garden was closed"
+    },
+    {
+     "en": "The bees may have gone elsewhere that day",
+     "as": "The bees may have gone elsewhere that day"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Flowers without bees simply suggests the bees were elsewhere.",
+    "as": "ফুল আৰু মৌমাখি নথকাই মৌমাখি আন ঠাইত বুলি সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-033",
+   "q": {
+    "en": "Passage: The letter was posted on Monday, but it reached on Friday.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The letter was posted on Monday, but it reached on Friday.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The postal delivery took several days",
+     "as": "The postal delivery took several days"
+    },
+    {
+     "en": "The letter reached on Monday",
+     "as": "The letter reached on Monday"
+    },
+    {
+     "en": "The letter was lost",
+     "as": "The letter was lost"
+    },
+    {
+     "en": "The letter was not posted",
+     "as": "The letter was not posted"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Monday to Friday shows a delivery delay.",
+    "as": "সোমবাৰৰ পৰা শুক্ৰবাৰলৈকে ডাকৰ পলম দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-034",
+   "q": {
+    "en": "Passage: The water in the pot was hot, but the fire was out.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The water in the pot was hot, but the fire was out.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The pot was cold",
+     "as": "The pot was cold"
+    },
+    {
+     "en": "The fire was burning",
+     "as": "The fire was burning"
+    },
+    {
+     "en": "The water was heated earlier",
+     "as": "The water was heated earlier"
+    },
+    {
+     "en": "There was no water",
+     "as": "There was no water"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Hot water with no fire means it was heated before.",
+    "as": "গৰম পানী আৰু জুই নথকাই আগতে গৰম কৰা সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-035",
+   "q": {
+    "en": "Passage: The road was busy, but no vehicle was moving.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The road was busy, but no vehicle was moving.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The vehicles were fast",
+     "as": "The vehicles were fast"
+    },
+    {
+     "en": "The road was empty",
+     "as": "The road was empty"
+    },
+    {
+     "en": "There may have been a traffic block",
+     "as": "There may have been a traffic block"
+    },
+    {
+     "en": "The road was closed for repair",
+     "as": "The road was closed for repair"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Many vehicles standing still suggests a block.",
+    "as": "বহু বাহন থমকি থকাই বাধা সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-036",
+   "q": {
+    "en": "Passage: The fruit looked ripe, but it tasted sour.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The fruit looked ripe, but it tasted sour.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "Appearance does not always match taste",
+     "as": "Appearance does not always match taste"
+    },
+    {
+     "en": "The fruit was rotten",
+     "as": "The fruit was rotten"
+    },
+    {
+     "en": "The fruit was sweet",
+     "as": "The fruit was sweet"
+    },
+    {
+     "en": "The fruit was unripe",
+     "as": "The fruit was unripe"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A ripe look with a sour taste shows the two can differ.",
+    "as": "পকা দেখাত কেঁচা সোৱাদে দুয়ো বেলেগ হ'ব পাৰে বুলি দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-037",
+   "q": {
+    "en": "Passage: The team had strong players, but it lost the match.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The team had strong players, but it lost the match.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The team had no players",
+     "as": "The team had no players"
+    },
+    {
+     "en": "The match was not held",
+     "as": "The match was not held"
+    },
+    {
+     "en": "The team won",
+     "as": "The team won"
+    },
+    {
+     "en": "Strong players alone do not guarantee a win",
+     "as": "Strong players alone do not guarantee a win"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Losing with strong players shows team-work matters too.",
+    "as": "শক্তিশালী খেলুৱৈ থকাৰ পিছতো হৰাই দলগত কামো গুৰুত্বপূৰ্ণ বুলি দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-038",
+   "q": {
+    "en": "Passage: The shop was new, but it had many customers.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The shop was new, but it had many customers.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The shop was closed",
+     "as": "The shop was closed"
+    },
+    {
+     "en": "The shop had no goods",
+     "as": "The shop had no goods"
+    },
+    {
+     "en": "The shop was old",
+     "as": "The shop was old"
+    },
+    {
+     "en": "A new shop can still attract many customers",
+     "as": "A new shop can still attract many customers"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A new shop with many customers shows quality attracts.",
+    "as": "নতুন দোকান আৰু বহু গ্ৰাহকে গুণে আকৰ্ষণ কৰে বুলি দেখুৱায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-039",
+   "q": {
+    "en": "Passage: The mountain was high, but the climbers reached the top quickly.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The mountain was high, but the climbers reached the top quickly.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The mountain was closed",
+     "as": "The mountain was closed"
+    },
+    {
+     "en": "The mountain was low",
+     "as": "The mountain was low"
+    },
+    {
+     "en": "The climbers were well trained",
+     "as": "The climbers were well trained"
+    },
+    {
+     "en": "The climbers stopped halfway",
+     "as": "The climbers stopped halfway"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "A quick climb of a high mountain points to good training.",
+    "as": "ওখ পৰ্বত দ্ৰুত আৰোহণে ভাল প্ৰশিক্ষণ সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-040",
+   "q": {
+    "en": "Passage: The cake was small, but it was enough for all the guests.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The cake was small, but it was enough for all the guests.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The cake was not eaten",
+     "as": "The cake was not eaten"
+    },
+    {
+     "en": "Each guest received only a small piece",
+     "as": "Each guest received only a small piece"
+    },
+    {
+     "en": "There were no guests",
+     "as": "There were no guests"
+    },
+    {
+     "en": "The cake was large",
+     "as": "The cake was large"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A small cake shared among all means small portions.",
+    "as": "সৰু কেক সকলোৰে মাজত ভগোৱা মানে সৰু অংশ।"
+   }
+  },
+  {
+   "id": "drawing-inferences-041",
+   "q": {
+    "en": "Passage: The shop opened at 9 a.m., but by 9:15 the shelves were empty.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The shop opened at 9 a.m., but by 9:15 the shelves were empty.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The shop had no shelves",
+     "as": "The shop had no shelves"
+    },
+    {
+     "en": "Goods were sold very quickly",
+     "as": "Goods were sold very quickly"
+    },
+    {
+     "en": "The shop was closed",
+     "as": "The shop was closed"
+    },
+    {
+     "en": "There were no customers",
+     "as": "There were no customers"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Empty shelves soon after opening suggest fast sales.",
+    "as": "মুকলিৰ লগে লগে ৰিক্ত তাকে দ্ৰুত বিক্ৰী সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-042",
+   "q": {
+    "en": "Passage: The garden was full of flowers, yet no fragrance could be felt.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The garden was full of flowers, yet no fragrance could be felt.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The garden was closed",
+     "as": "The garden was closed"
+    },
+    {
+     "en": "The flowers may have had little scent",
+     "as": "The flowers may have had little scent"
+    },
+    {
+     "en": "There were no flowers",
+     "as": "There were no flowers"
+    },
+    {
+     "en": "The flowers were artificial",
+     "as": "The flowers were artificial"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Flowers without fragrance suggest they had little scent.",
+    "as": "সুগন্ধি নথকা ফুলে কম গোন্ধ সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-043",
+   "q": {
+    "en": "Passage: The road was wet, but the sky was clear and bright.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The road was wet, but the sky was clear and bright.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The road was wet for a reason other than rain",
+     "as": "The road was wet for a reason other than rain"
+    },
+    {
+     "en": "It was raining",
+     "as": "It was raining"
+    },
+    {
+     "en": "It was night",
+     "as": "It was night"
+    },
+    {
+     "en": "The road was dry",
+     "as": "The road was dry"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "A clear sky with a wet road rules out rain.",
+    "as": "পৰিষ্কাৰ আকাশ আৰু তিতা পথে বৰষুণক অস্বীকাৰ কৰে।"
+   }
+  },
+  {
+   "id": "drawing-inferences-044",
+   "q": {
+    "en": "Passage: The team won the match, but the players looked unhappy.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The team won the match, but the players looked unhappy.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The players did not play",
+     "as": "The players did not play"
+    },
+    {
+     "en": "The team lost",
+     "as": "The team lost"
+    },
+    {
+     "en": "The match was cancelled",
+     "as": "The match was cancelled"
+    },
+    {
+     "en": "The players may have been unhappy about something else",
+     "as": "The players may have been unhappy about something else"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "A win with unhappy players suggests another cause.",
+    "as": "জয়ী দল আৰু অসন্তুষ্ট খেলুৱৈয়ে আন কাৰণ সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-045",
+   "q": {
+    "en": "Passage: The temple was crowded, but no priest was seen.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The temple was crowded, but no priest was seen.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "There were no visitors",
+     "as": "There were no visitors"
+    },
+    {
+     "en": "The temple was closed",
+     "as": "The temple was closed"
+    },
+    {
+     "en": "The priest may have been away",
+     "as": "The priest may have been away"
+    },
+    {
+     "en": "The temple had no idol",
+     "as": "The temple had no idol"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Crowds without the priest suggest he was absent.",
+    "as": "ভিৰ আৰু পুৰোহিত নথকাই তেওঁ অনুপস্থিত বুলি সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-046",
+   "q": {
+    "en": "Passage: The fruit basket was full, but all the fruits were sour.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The fruit basket was full, but all the fruits were sour.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The fruits were sweet",
+     "as": "The fruits were sweet"
+    },
+    {
+     "en": "The basket was empty",
+     "as": "The basket was empty"
+    },
+    {
+     "en": "The fruits were not yet ripe",
+     "as": "The fruits were not yet ripe"
+    },
+    {
+     "en": "The fruits were rotten",
+     "as": "The fruits were rotten"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sour fruit usually means unripe fruit.",
+    "as": "টেঙা ফলে সাধাৰণতে কেঁচা ফল সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-047",
+   "q": {
+    "en": "Passage: The letter had no stamp, yet it reached the destination.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The letter had no stamp, yet it reached the destination.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "There was no address",
+     "as": "There was no address"
+    },
+    {
+     "en": "Someone paid the postage on delivery",
+     "as": "Someone paid the postage on delivery"
+    },
+    {
+     "en": "The letter was returned",
+     "as": "The letter was returned"
+    },
+    {
+     "en": "The letter was not sent",
+     "as": "The letter was not sent"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "A delivered unstamped letter means postage was paid another way.",
+    "as": "মোহৰ নথকা চিঠি পালে মানে আন উপায়ে ডাক মাচুল দিয়া হৈছে।"
+   }
+  },
+  {
+   "id": "drawing-inferences-048",
+   "q": {
+    "en": "Passage: The pond was full in summer, but dry in winter.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The pond was full in summer, but dry in winter.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "The water level changed with the season",
+     "as": "The water level changed with the season"
+    },
+    {
+     "en": "The pond was always full",
+     "as": "The pond was always full"
+    },
+    {
+     "en": "The pond had no water in summer",
+     "as": "The pond had no water in summer"
+    },
+    {
+     "en": "The pond was always dry",
+     "as": "The pond was always dry"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Full in summer and dry in winter shows seasonal change.",
+    "as": "গ্ৰীষ্মত ভৰা আৰু শীতত শুকানই ঋতুভিত্তিক সলনি সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-049",
+   "q": {
+    "en": "Passage: The clock struck twelve, but it was bright daylight.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The clock struck twelve, but it was bright daylight.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "It was midnight",
+     "as": "It was midnight"
+    },
+    {
+     "en": "The clock may have been wrong",
+     "as": "The clock may have been wrong"
+    },
+    {
+     "en": "The sun had set",
+     "as": "The sun had set"
+    },
+    {
+     "en": "The clock was correct",
+     "as": "The clock was correct"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bright daylight at twelve suggests the clock was wrong.",
+    "as": "দিনৰ ১২ বজাত উজ্জ্বল পোহৰে ঘড়ী ভুল সূচায়।"
+   }
+  },
+  {
+   "id": "drawing-inferences-050",
+   "q": {
+    "en": "Passage: The dog barked loudly, but no stranger was at the gate.\nWhich inference follows?",
+    "as": "অনুচ্ছেদ: The dog barked loudly, but no stranger was at the gate.\nকোনটো সিদ্ধান্ত ওলায়?"
+   },
+   "options": [
+    {
+     "en": "There was a stranger",
+     "as": "There was a stranger"
+    },
+    {
+     "en": "The dog may have barked at something else",
+     "as": "The dog may have barked at something else"
+    },
+    {
+     "en": "The gate was open",
+     "as": "The gate was open"
+    },
+    {
+     "en": "The dog was silent",
+     "as": "The dog was silent"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Barking without a stranger suggests another trigger.",
+    "as": "অপৰিচিত নোহোৱাকৈ ভুকুৱাই আন কাৰণ সূচায়।"
    }
   }
  ],

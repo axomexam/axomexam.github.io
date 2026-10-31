@@ -2,8 +2,218 @@
   {
     "id": "seating-arrangement-001",
     "q": {
-      "en": "Five friends sit in a row facing north. A is at the extreme left. B is immediately to the right of A. Who is second from the left?",
-      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। A ৰ শাৰীখনৰ একেবাৰে বাওঁমূৰত। B ৰ A ৰ ঠিক সোঁফালে। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+      "en": "Five friends sit in a row facing north. The order from left to right is E, D, B, A, C. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, B, A, C। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "E is written first in the order, so E is at the extreme left end.",
+      "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-002",
+    "q": {
+      "en": "In a row facing north the order from left to right is D, E, A, C, B. Who is second to the left of A?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, E, A, C, B। A ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two places to the left of A is D.",
+      "as": "A ৰ বাওঁফালে দুটা ঠাইত D।"
+    }
+  },
+  {
+    "id": "seating-arrangement-003",
+    "q": {
+      "en": "In a row facing north the order from left to right is B, D, A, C, E. Who is second to the left of E?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, D, A, C, E। E ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Two places to the left of E is A.",
+      "as": "E ৰ বাওঁফালে দুটা ঠাইত A।"
+    }
+  },
+  {
+    "id": "seating-arrangement-004",
+    "q": {
+      "en": "In a row facing north the order from left to right is B, A, C, E, D. Who is immediately to the right of B?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, A, C, E, D। B ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is immediately to the right of B in the given order.",
+      "as": "দিয়া ক্ৰমত A, B ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-005",
+    "q": {
+      "en": "In a row facing north the order from left to right is B, D, A, C, E. Who is second from the left?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, D, A, C, E। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting from the left, B is first and D is second.",
+      "as": "বাওঁফালৰ পৰা গণনা কৰিলে B প্ৰথম আৰু D দ্বিতীয়।"
+    }
+  },
+  {
+    "id": "seating-arrangement-006",
+    "q": {
+      "en": "In a row facing north the order from left to right is B, C, E, D, A. Who is second from the left?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, C, E, D, A। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting from the left, B is first and C is second.",
+      "as": "বাওঁফালৰ পৰা গণনা কৰিলে B প্ৰথম আৰু C দ্বিতীয়।"
+    }
+  },
+  {
+    "id": "seating-arrangement-007",
+    "q": {
+      "en": "In a row facing north the order from left to right is E, D, A, B, C. Who is immediately to the right of E?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, A, B, C। E ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D is immediately to the right of E in the given order.",
+      "as": "দিয়া ক্ৰমত D, E ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-008",
+    "q": {
+      "en": "In a row facing north the order from left to right is D, B, E, C, A. Who is second from the left?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, B, E, C, A। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
     },
     "options": [
       {
@@ -19,27 +229,773 @@
         "as": "C"
       },
       {
-        "en": "Cannot be determined",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "D",
+        "as": "D"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "A is at the extreme left and B is immediately to its right, so B is second from the left.",
-      "as": "A একেবাৰে বাওঁমূৰত আৰু B তাৰ ঠিক সোঁফালে, গতিকে B বাওঁফালৰ পৰা দ্বিতীয়।"
+      "en": "Counting from the left, D is first and B is second.",
+      "as": "বাওঁফালৰ পৰা গণনা কৰিলে D প্ৰথম আৰু B দ্বিতীয়।"
     }
   },
   {
-    "id": "seating-arrangement-002",
+    "id": "seating-arrangement-009",
     "q": {
-      "en": "Six people sit around a circular table facing the centre. If P is opposite Q, how many people sit between them on one side?",
-      "as": "ছজন মানুহে কেন্দ্ৰলৈ মুখ কৰি এটা বৃত্তাকাৰ মেজত বহে। P ৰ ঠিক বিৰুদ্ধে Q থাকিলে এফালে তেওঁলোকৰ মাজত কিমানজন বহে?"
+      "en": "Five friends sit in a row facing north. The order from left to right is B, C, A, E, D. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, C, A, E, D। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B is written first in the order, so B is at the extreme left end.",
+      "as": "B ক্ৰমত প্ৰথম, গতিকে B একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-010",
+    "q": {
+      "en": "In a row facing north the order from left to right is C, B, E, D, A. Who is second from the left?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, B, E, D, A। বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Counting from the left, C is first and B is second.",
+      "as": "বাওঁফালৰ পৰা গণনা কৰিলে C প্ৰথম আৰু B দ্বিতীয়।"
+    }
+  },
+  {
+    "id": "seating-arrangement-011",
+    "q": {
+      "en": "In a row facing north the order from left to right is D, A, B, E, C. How many people sit between C and D?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, A, B, E, C। C আৰু D ৰ মাজত কিমানজন বহে?"
     },
     "options": [
       {
         "en": "1",
         "as": "১"
       },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C and D have 3 people between them.",
+      "as": "C আৰু D ৰ মাজত 3 জন আছে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-012",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is B, C, D, A, E. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, C, D, A, E। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B is written first in the order, so B is at the extreme left end.",
+      "as": "B ক্ৰমত প্ৰথম, গতিকে B একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-013",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is A, D, B, C, E, F. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, B, C, E, F। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is written first in the order, so A is at the extreme left end.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-014",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is D, E, F, A, B, C. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, E, F, A, B, C। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D is written first in the order, so D is at the extreme left end.",
+      "as": "D ক্ৰমত প্ৰথম, গতিকে D একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-015",
+    "q": {
+      "en": "In a row facing north the order from left to right is A, B, D, F, C, E. Who is immediately to the right of C?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, D, F, C, E। C ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "E is immediately to the right of C in the given order.",
+      "as": "দিয়া ক্ৰমত E, C ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-016",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is A, D, C, F, E, B. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, C, F, E, B। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is written first in the order, so A is at the extreme left end.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-017",
+    "q": {
+      "en": "In a row facing north the order from left to right is D, A, E, B, C, F. How many people sit between C and D?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, A, E, B, C, F। C আৰু D ৰ মাজত কিমানজন বহে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C and D have 3 people between them.",
+      "as": "C আৰু D ৰ মাজত 3 জন আছে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-018",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is C, F, D, A, E, B. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, F, D, A, E, B। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C is written first in the order, so C is at the extreme left end.",
+      "as": "C ক্ৰমত প্ৰথম, গতিকে C একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-019",
+    "q": {
+      "en": "In a row facing north the order from left to right is F, C, B, A, E, D. Who is second to the left of D?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম F, C, B, A, E, D। D ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two places to the left of D is A.",
+      "as": "D ৰ বাওঁফালে দুটা ঠাইত A।"
+    }
+  },
+  {
+    "id": "seating-arrangement-020",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is E, F, B, A, D, C. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, F, B, A, D, C। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "E is written first in the order, so E is at the extreme left end.",
+      "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-021",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is E, D, A, C, B, F. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, A, C, B, F। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "E is written first in the order, so E is at the extreme left end.",
+      "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-022",
+    "q": {
+      "en": "In a row facing north the order from left to right is E, F, B, D, A, C. Who is immediately to the right of E?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, F, B, D, A, C। E ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "F is immediately to the right of E in the given order.",
+      "as": "দিয়া ক্ৰমত F, E ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-023",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is A, D, B, F, E, C. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, B, F, E, C। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is written first in the order, so A is at the extreme left end.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-024",
+    "q": {
+      "en": "In a row facing north the order from left to right is A, D, E, C, B, F. Who is second to the left of F?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, E, C, B, F। F ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two places to the left of F is C.",
+      "as": "F ৰ বাওঁফালে দুটা ঠাইত C।"
+    }
+  },
+  {
+    "id": "seating-arrangement-025",
+    "q": {
+      "en": "In a row facing north the order from left to right is C, E, A, D, B, F. Who is immediately to the right of C?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, E, A, D, B, F। C ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "E is immediately to the right of C in the given order.",
+      "as": "দিয়া ক্ৰমত E, C ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-026",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is E, D, C, A, F, B. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম E, D, C, A, F, B। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "E is written first in the order, so E is at the extreme left end.",
+      "as": "E ক্ৰমত প্ৰথম, গতিকে E একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-027",
+    "q": {
+      "en": "In a row facing north the order from left to right is B, A, E, D, G, F, C. Who is immediately to the right of B?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, A, E, D, G, F, C। B ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is immediately to the right of B in the given order.",
+      "as": "দিয়া ক্ৰমত A, B ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-028",
+    "q": {
+      "en": "In a row facing north the order from left to right is A, D, E, C, B, F, G. Who is second to the left of F?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, D, E, C, B, F, G। F ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two places to the left of F is C.",
+      "as": "F ৰ বাওঁফালে দুটা ঠাইত C।"
+    }
+  },
+  {
+    "id": "seating-arrangement-029",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is F, E, A, D, C, G, B. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম F, E, A, D, C, G, B। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "F is written first in the order, so F is at the extreme left end.",
+      "as": "F ক্ৰমত প্ৰথম, গতিকে F একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-030",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is A, B, E, C, F, G, D. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, E, C, F, G, D। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is written first in the order, so A is at the extreme left end.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-031",
+    "q": {
+      "en": "In a row facing north the order from left to right is G, F, B, D, E, C, A. Who is immediately to the right of E?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম G, F, B, D, E, C, A। E ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C is immediately to the right of E in the given order.",
+      "as": "দিয়া ক্ৰমত C, E ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-032",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is B, E, D, A, G, C, F. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম B, E, D, A, G, C, F। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B is written first in the order, so B is at the extreme left end.",
+      "as": "B ক্ৰমত প্ৰথম, গতিকে B একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-033",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is A, B, D, C, E, G, F. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, D, C, E, G, F। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is written first in the order, so A is at the extreme left end.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-034",
+    "q": {
+      "en": "In a row facing north the order from left to right is D, C, F, A, E, B, G. How many people sit between F and E?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, C, F, A, E, B, G। F আৰু E ৰ মাজত কিমানজন বহে?"
+    },
+    "options": [
       {
         "en": "2",
         "as": "২"
@@ -51,12 +1007,1186 @@
       {
         "en": "4",
         "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "F and E have 1 people between them.",
+      "as": "F আৰু E ৰ মাজত 1 জন আছে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-035",
+    "q": {
+      "en": "In a row facing north the order from left to right is G, F, D, E, A, B, C. Who is immediately to the right of B?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম G, F, D, E, A, B, C। B ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C is immediately to the right of B in the given order.",
+      "as": "দিয়া ক্ৰমত C, B ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-036",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is A, B, C, E, G, F, D. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, C, E, G, F, D। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is written first in the order, so A is at the extreme left end.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-037",
+    "q": {
+      "en": "In a row facing north the order from left to right is D, A, E, G, C, B, F. Who is immediately to the right of C?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, A, E, G, C, B, F। C ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "With six people in a circle, two people sit on each side between a pair who face each other.",
-      "as": "বৃত্তত ছজন মানুহ থাকিলে, এজনে আনজনৰ ঠিক বিৰুদ্ধে থাকিলে এফালে দুজনকৈ বহে।"
+      "en": "B is immediately to the right of C in the given order.",
+      "as": "দিয়া ক্ৰমত B, C ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-038",
+    "q": {
+      "en": "In a row facing north the order from left to right is C, B, E, G, A, D, F. Who is immediately to the right of C?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, B, E, G, A, D, F। C ৰ ঠিক সোঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B is immediately to the right of C in the given order.",
+      "as": "দিয়া ক্ৰমত B, C ৰ ঠিক সোঁফালে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-039",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is A, B, D, G, C, E, F. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম A, B, D, G, C, E, F। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is written first in the order, so A is at the extreme left end.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-040",
+    "q": {
+      "en": "Five friends sit in a row facing north. The order from left to right is C, G, D, F, B, E, A. Who is at the extreme left end?",
+      "as": "পাঁচজন বন্ধুৱে উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম C, G, D, F, B, E, A। একেবাৰে বাওঁমূৰত কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C is written first in the order, so C is at the extreme left end.",
+      "as": "C ক্ৰমত প্ৰথম, গতিকে C একেবাৰে বাওঁমূৰত।"
+    }
+  },
+  {
+    "id": "seating-arrangement-041",
+    "q": {
+      "en": "In a row facing north the order from left to right is D, F, B, A, G, C, E. How many people sit between B and E?",
+      "as": "উত্তৰলৈ মুখ কৰি এটা শাৰীত বাওঁফালৰ পৰা সোঁফাললৈ ক্ৰম D, F, B, A, G, C, E। B আৰু E ৰ মাজত কিমানজন বহে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B and E have 3 people between them.",
+      "as": "B আৰু E ৰ মাজত 3 জন আছে।"
+    }
+  },
+  {
+    "id": "seating-arrangement-042",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order E, A, D, C, F, B. Who is second to the left of E?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, A, D, C, F, B ক্ৰমত বহে। E ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two places to the left of E (clockwise) is D.",
+      "as": "E ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) D।"
+    }
+  },
+  {
+    "id": "seating-arrangement-043",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order D, B, A, C, E, F. Who is second to the left of E?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, B, A, C, E, F ক্ৰমত বহে। E ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Two places to the left of E (clockwise) is D.",
+      "as": "E ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) D।"
+    }
+  },
+  {
+    "id": "seating-arrangement-044",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order B, C, A, E, F, D. Who sits opposite C?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, C, A, E, F, D ক্ৰমত বহে। C ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In a circle of 6, the person opposite is 3 places away, that is F.",
+      "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ F।"
+    }
+  },
+  {
+    "id": "seating-arrangement-045",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order D, B, E, A, F, C. Who is immediately to the left of E?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, B, E, A, F, C ক্ৰমত বহে। E ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is A.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ A।"
+    }
+  },
+  {
+    "id": "seating-arrangement-046",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order B, F, C, D, A, E. Who is immediately to the left of C?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, F, C, D, A, E ক্ৰমত বহে। C ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is D.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ D।"
+    }
+  },
+  {
+    "id": "seating-arrangement-047",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order E, F, A, B, C, D. Who is immediately to the left of E?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, F, A, B, C, D ক্ৰমত বহে। E ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is F.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ F।"
+    }
+  },
+  {
+    "id": "seating-arrangement-048",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order D, A, B, F, E, C. Who is immediately to the left of C?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, A, B, F, E, C ক্ৰমত বহে। C ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is D.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ D।"
+    }
+  },
+  {
+    "id": "seating-arrangement-049",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order D, E, F, C, A, B. Who sits opposite E?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, E, F, C, A, B ক্ৰমত বহে। E ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 6, the person opposite is 3 places away, that is A.",
+      "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ A।"
+    }
+  },
+  {
+    "id": "seating-arrangement-050",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order B, D, C, E, A, F. Who is immediately to the left of B?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, D, C, E, A, F ক্ৰমত বহে। B ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is D.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ D।"
+    }
+  },
+  {
+    "id": "seating-arrangement-051",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order E, C, F, A, B, D. Who sits opposite E?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, C, F, A, B, D ক্ৰমত বহে। E ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In a circle of 6, the person opposite is 3 places away, that is A.",
+      "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ A।"
+    }
+  },
+  {
+    "id": "seating-arrangement-052",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order C, A, F, B, D, E. Who sits opposite A?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, A, F, B, D, E ক্ৰমত বহে। A ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 6, the person opposite is 3 places away, that is D.",
+      "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ D।"
+    }
+  },
+  {
+    "id": "seating-arrangement-053",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order B, F, E, C, A, D. Who is immediately to the left of B?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, F, E, C, A, D ক্ৰমত বহে। B ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is F.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ F।"
+    }
+  },
+  {
+    "id": "seating-arrangement-054",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order D, F, B, A, E, C. Who is second to the left of B?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, F, B, A, E, C ক্ৰমত বহে। B ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two places to the left of B (clockwise) is E.",
+      "as": "B ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) E।"
+    }
+  },
+  {
+    "id": "seating-arrangement-055",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order C, F, D, E, A, B. Who sits opposite F?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, F, D, E, A, B ক্ৰমত বহে। F ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In a circle of 6, the person opposite is 3 places away, that is A.",
+      "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ A।"
+    }
+  },
+  {
+    "id": "seating-arrangement-056",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order B, F, C, D, E, A. Who sits opposite D?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, F, C, D, E, A ক্ৰমত বহে। D ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 6, the person opposite is 3 places away, that is B.",
+      "as": "6 ৰ বৃত্তত বিৰুদ্ধজন 3 ঠাই আঁতৰত, অৰ্থাৎ B।"
+    }
+  },
+  {
+    "id": "seating-arrangement-057",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre, in clockwise order B, E, A, C, F, D. Who is immediately to the left of C?",
+      "as": "6 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, A, C, F, D ক্ৰমত বহে। C ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is F.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ F।"
+    }
+  },
+  {
+    "id": "seating-arrangement-058",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order E, F, B, G, A, H, C, D. Who is immediately to the left of A?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত E, F, B, G, A, H, C, D ক্ৰমত বহে। A ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is H.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ H।"
+    }
+  },
+  {
+    "id": "seating-arrangement-059",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order C, F, H, B, A, D, G, E. Who is immediately to the left of F?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, F, H, B, A, D, G, E ক্ৰমত বহে। F ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is H.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ H।"
+    }
+  },
+  {
+    "id": "seating-arrangement-060",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order B, E, H, F, D, A, C, G. Who sits opposite H?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, H, F, D, A, C, G ক্ৰমত বহে। H ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 8, the person opposite is 4 places away, that is C.",
+      "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ C।"
+    }
+  },
+  {
+    "id": "seating-arrangement-061",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order A, B, G, H, F, D, E, C. Who is second to the left of D?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত A, B, G, H, F, D, E, C ক্ৰমত বহে। D ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two places to the left of D (clockwise) is C.",
+      "as": "D ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) C।"
+    }
+  },
+  {
+    "id": "seating-arrangement-062",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order C, G, A, D, F, E, H, B. Who is second to the left of D?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, G, A, D, F, E, H, B ক্ৰমত বহে। D ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two places to the left of D (clockwise) is E.",
+      "as": "D ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) E।"
+    }
+  },
+  {
+    "id": "seating-arrangement-063",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order A, C, F, D, H, E, G, B. Who is second to the left of A?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত A, C, F, D, H, E, G, B ক্ৰমত বহে। A ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two places to the left of A (clockwise) is F.",
+      "as": "A ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) F।"
+    }
+  },
+  {
+    "id": "seating-arrangement-064",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order F, D, H, E, B, A, G, C. Who sits opposite B?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত F, D, H, E, B, A, G, C ক্ৰমত বহে। B ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 8, the person opposite is 4 places away, that is F.",
+      "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ F।"
+    }
+  },
+  {
+    "id": "seating-arrangement-065",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order G, F, A, H, B, C, D, E. Who sits opposite G?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত G, F, A, H, B, C, D, E ক্ৰমত বহে। G ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In a circle of 8, the person opposite is 4 places away, that is B.",
+      "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ B।"
+    }
+  },
+  {
+    "id": "seating-arrangement-066",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order B, E, H, C, F, G, D, A. Who sits opposite F?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, H, C, F, G, D, A ক্ৰমত বহে। F ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In a circle of 8, the person opposite is 4 places away, that is B.",
+      "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ B।"
+    }
+  },
+  {
+    "id": "seating-arrangement-067",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order C, H, F, D, G, A, B, E. Who sits opposite D?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত C, H, F, D, G, A, B, E ক্ৰমত বহে। D ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 8, the person opposite is 4 places away, that is E.",
+      "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ E।"
+    }
+  },
+  {
+    "id": "seating-arrangement-068",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order B, A, G, H, F, E, D, C. Who is immediately to the left of G?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, A, G, H, F, E, D, C ক্ৰমত বহে। G ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is H.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ H।"
+    }
+  },
+  {
+    "id": "seating-arrangement-069",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order D, A, C, G, H, F, B, E. Who is immediately to the left of F?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, A, C, G, H, F, B, E ক্ৰমত বহে। F ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is B.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ B।"
+    }
+  },
+  {
+    "id": "seating-arrangement-070",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order D, H, C, G, A, F, E, B. Who is second to the left of G?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, H, C, G, A, F, E, B ক্ৰমত বহে। G ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Two places to the left of G (clockwise) is F.",
+      "as": "G ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) F।"
+    }
+  },
+  {
+    "id": "seating-arrangement-071",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order B, E, F, A, G, C, D, H. Who is immediately to the left of B?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত B, E, F, A, G, C, D, H ক্ৰমত বহে। B ৰ ঠিক বাওঁফালে কোন?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Facing the centre, the immediate left is the next place clockwise, which is E.",
+      "as": "কেন্দ্ৰলৈ মুখ কৰি, ঠিক বাওঁফালে হৈছে ঘড়ীৰ কাঁটাৰ দিশত পৰৱৰ্তী ঠাই, অৰ্থাৎ E।"
+    }
+  },
+  {
+    "id": "seating-arrangement-072",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order H, C, G, E, A, D, F, B. Who sits opposite E?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত H, C, G, E, A, D, F, B ক্ৰমত বহে। E ৰ ঠিক বিৰুদ্ধে কোন বহে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 8, the person opposite is 4 places away, that is B.",
+      "as": "8 ৰ বৃত্তত বিৰুদ্ধজন 4 ঠাই আঁতৰত, অৰ্থাৎ B।"
+    }
+  },
+  {
+    "id": "seating-arrangement-073",
+    "q": {
+      "en": "8 friends sit around a circular table facing the centre, in clockwise order D, H, A, G, F, B, E, C. Who is second to the left of C?",
+      "as": "8 জন বন্ধুৱে কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ মেজত ঘড়ীৰ কাঁটাৰ দিশত D, H, A, G, F, B, E, C ক্ৰমত বহে। C ৰ বাওঁফালৰ পৰা দ্বিতীয়জন কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two places to the left of C (clockwise) is H.",
+      "as": "C ৰ বাওঁফালে দুটা ঠাইত (ঘড়ীৰ কাঁটাৰ দিশত) H।"
     }
   }
 ]

@@ -2,8 +2,668 @@
   {
     "id": "assertion-reason-001",
     "q": {
-      "en": "A: Water boils at 100 degrees Celsius at sea level. R: Boiling point depends on atmospheric pressure.",
-      "as": "A: সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰী চেলচিয়াছত উতলে। R: উতলাংক বায়ুমণ্ডলীয় চাপৰ ওপৰত নিৰ্ভৰ কৰে।"
+      "en": "Assertion (A): Water boils at 100 degrees Celsius at sea level.\nReason (R): Boiling point depends on atmospheric pressure.",
+      "as": "দাবী (A): Water boils at 100 degrees Celsius at sea level.\nকাৰণ (R): Boiling point depends on atmospheric pressure."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The dependence of boiling point on pressure is exactly why water boils at 100 degrees at sea level.",
+      "as": "উতলাংক চাপৰ ওপৰত নিৰ্ভৰশীলতাৰ বাবেই সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰীত উতলে।"
+    }
+  },
+  {
+    "id": "assertion-reason-002",
+    "q": {
+      "en": "Assertion (A): The sun rises in the east.\nReason (R): The earth rotates from west to east.",
+      "as": "দাবী (A): The sun rises in the east.\nকাৰণ (R): The earth rotates from west to east."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "West-to-east rotation makes the sun appear to rise in the east.",
+      "as": "পশ্চিমৰ পৰা পূৱলৈ ঘূৰণৰ বাবে সূৰ্য পূৱত উদয় হয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-003",
+    "q": {
+      "en": "Assertion (A): Iron rusts in moist air.\nReason (R): Rusting is oxidation in the presence of moisture.",
+      "as": "দাবী (A): Iron rusts in moist air.\nকাৰণ (R): Rusting is oxidation in the presence of moisture."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Oxidation with moisture is exactly the process of rusting.",
+      "as": "জলীয় বাষ্পৰ সৈতে জাৰণেই মামৰে ধৰাৰ প্ৰক্ৰিয়া।"
+    }
+  },
+  {
+    "id": "assertion-reason-004",
+    "q": {
+      "en": "Assertion (A): Ice floats on water.\nReason (R): Ice is less dense than water.",
+      "as": "দাবী (A): Ice floats on water.\nকাৰণ (R): Ice is less dense than water."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lower density than water is the reason ice floats.",
+      "as": "পানীতকৈ কম ঘনত্বই বৰফ ভাহি থকাৰ কাৰণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-005",
+    "q": {
+      "en": "Assertion (A): A lunar eclipse occurs when the earth comes between the sun and the moon.\nReason (R): The earth casts its shadow on the moon.",
+      "as": "দাবী (A): A lunar eclipse occurs when the earth comes between the sun and the moon.\nকাৰণ (R): The earth casts its shadow on the moon."
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The earth's shadow falling on the moon is exactly the eclipse.",
+      "as": "পৃথিৱীৰ ছাঁ চন্দ্ৰত পৰাটোৱেই গ্ৰহণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-006",
+    "q": {
+      "en": "Assertion (A): We see lightning before we hear thunder.\nReason (R): Light travels faster than sound.",
+      "as": "দাবী (A): We see lightning before we hear thunder.\nকাৰণ (R): Light travels faster than sound."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Light's greater speed is why lightning is seen first.",
+      "as": "পোহৰৰ বেছি গতিয়েই বিজুলী আগতে দেখা কাৰণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-007",
+    "q": {
+      "en": "Assertion (A): A rainbow is seen after rain.\nReason (R): Water droplets split sunlight into colours.",
+      "as": "দাবী (A): A rainbow is seen after rain.\nকাৰণ (R): Water droplets split sunlight into colours."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Droplets splitting sunlight is the cause of the rainbow.",
+      "as": "পানীৰ টোপালে সূৰ্যৰ পোহৰ ভাঙিয়েই ৰামধেনু হয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-008",
+    "q": {
+      "en": "Assertion (A): The sky appears blue.\nReason (R): Blue light is scattered more than other colours.",
+      "as": "দাবী (A): The sky appears blue.\nকাৰণ (R): Blue light is scattered more than other colours."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Greater scattering of blue light is why the sky looks blue.",
+      "as": "নীলা পোহৰৰ বেছি বিক্ষেপণেই আকাশ নীলা দেখা কাৰণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-009",
+    "q": {
+      "en": "Assertion (A): A needle sinks in water but a ship floats.\nReason (R): A ship displaces a large volume of water.",
+      "as": "দাবী (A): A needle sinks in water but a ship floats.\nকাৰণ (R): A ship displaces a large volume of water."
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Displacing more water gives more upthrust, so the ship floats.",
+      "as": "বেছি পানী অপসাৰণে বেছি ঊৰ্ধমুখী বল দিয়ে, গতিকে জাহাজ ভাহে।"
+    }
+  },
+  {
+    "id": "assertion-reason-010",
+    "q": {
+      "en": "Assertion (A): Land breeze blows at night.\nReason (R): The land cools faster than the sea at night.",
+      "as": "দাবী (A): Land breeze blows at night.\nকাৰণ (R): The land cools faster than the sea at night."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Faster cooling of land sets up the land breeze.",
+      "as": "মাটি সোনকালে ঠাণ্ডা হোৱাৰ বাবেই স্থল বতাহ বলে।"
+    }
+  },
+  {
+    "id": "assertion-reason-011",
+    "q": {
+      "en": "Assertion (A): Camels can live for days without water.\nReason (R): Camels store fat in their humps.",
+      "as": "দাবী (A): Camels can live for days without water.\nকাৰণ (R): Camels store fat in their humps."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The hump stores fat, but the ability to go without water is due to other adaptations, so R does not explain A.",
+      "as": "কুঁজত চৰ্বি জমা হয়, কিন্তু পানী নোহোৱাকৈ থকাৰ ক্ষমতা আন অভিযোজনৰ বাবে, গতিকে R এ A ব্যাখ্যা নকৰে।"
+    }
+  },
+  {
+    "id": "assertion-reason-012",
+    "q": {
+      "en": "Assertion (A): Deserts are hot during the day and cold at night.\nReason (R): Deserts have little vegetation.",
+      "as": "দাবী (A): Deserts are hot during the day and cold at night.\nকাৰণ (R): Deserts have little vegetation."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both are true, but the day-night difference is due to dry air and sand, not vegetation.",
+      "as": "দুয়োটা সঁচা, কিন্তু দিন-ৰাতিৰ পাৰ্থক্য শুকান বায়ু আৰু বালিৰ বাবে, গছ-গছনিৰ বাবে নহয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-013",
+    "q": {
+      "en": "Assertion (A): Diamond is very hard.\nReason (R): Diamond is a form of carbon.",
+      "as": "দাবী (A): Diamond is very hard.\nকাৰণ (R): Diamond is a form of carbon."
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both are true, but being carbon does not explain hardness; the crystal structure does.",
+      "as": "দুয়োটা সঁচা, কিন্তু কাৰ্বন হোৱাই কঠিনতা ব্যাখ্যা নকৰে; স্ফটিক গঠনে কৰে।"
+    }
+  },
+  {
+    "id": "assertion-reason-014",
+    "q": {
+      "en": "Assertion (A): The moon has no atmosphere.\nReason (R): The moon revolves around the earth.",
+      "as": "দাবী (A): The moon has no atmosphere.\nকাৰণ (R): The moon revolves around the earth."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both are true, but the lack of atmosphere is due to low gravity, not revolution.",
+      "as": "দুয়োটা সঁচা, কিন্তু বায়ুমণ্ডল নথকাটো কম মাধ্যাকৰ্ষণৰ বাবে, পৰিভ্ৰমণৰ বাবে নহয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-015",
+    "q": {
+      "en": "Assertion (A): Fish die when taken out of water.\nReason (R): Fish breathe through gills.",
+      "as": "দাবী (A): Fish die when taken out of water.\nকাৰণ (R): Fish breathe through gills."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Gills take oxygen from water, so out of water the fish cannot breathe.",
+      "as": "ফুলে পানীৰ পৰা অক্সিজেন লয়, গতিকে পানীৰ বাহিৰত শ্বাস ল'ব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "assertion-reason-016",
+    "q": {
+      "en": "Assertion (A): Sound cannot travel in a vacuum.\nReason (R): Sound needs a medium to travel.",
+      "as": "দাবী (A): Sound cannot travel in a vacuum.\nকাৰণ (R): Sound needs a medium to travel."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Needing a medium is why sound cannot travel in a vacuum.",
+      "as": "মাধ্যমৰ প্ৰয়োজনীয়তাই বায়ুশূন্য স্থানত শব্দ যাব নোৱাৰাৰ কাৰণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-017",
+    "q": {
+      "en": "Assertion (A): We wear woollen clothes in winter.\nReason (R): Wool is a poor conductor of heat.",
+      "as": "দাবী (A): We wear woollen clothes in winter.\nকাৰণ (R): Wool is a poor conductor of heat."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Wool trapping body heat is why it keeps us warm.",
+      "as": "ঊণে শৰীৰৰ উষ্ণতা ৰখাই আমাক গৰম ৰাখে।"
+    }
+  },
+  {
+    "id": "assertion-reason-018",
+    "q": {
+      "en": "Assertion (A): A pencil appears bent in a glass of water.\nReason (R): Light bends when it passes from water to air.",
+      "as": "দাবী (A): A pencil appears bent in a glass of water.\nকাৰণ (R): Light bends when it passes from water to air."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Refraction of light is why the pencil looks bent.",
+      "as": "পোহৰৰ প্ৰতিসৰণেই পেঞ্চিল বেঁকা দেখা কাৰণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-019",
+    "q": {
+      "en": "Assertion (A): The sun appears red at sunrise.\nReason (R): Light travels a longer distance through the atmosphere at sunrise.",
+      "as": "দাবী (A): The sun appears red at sunrise.\nকাৰণ (R): Light travels a longer distance through the atmosphere at sunrise."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The longer path scatters blue light away, leaving red.",
+      "as": "দীঘল পথে নীলা পোহৰ বিক্ষেপিত কৰিয়েই ৰঙা ৰয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-020",
+    "q": {
+      "en": "Assertion (A): A car needs a minimum speed to climb a steep hill.\nReason (R): The engine must overcome gravity.",
+      "as": "দাবী (A): A car needs a minimum speed to climb a steep hill.\nকাৰণ (R): The engine must overcome gravity."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Overcoming gravity is why speed and power are needed.",
+      "as": "মাধ্যাকৰ্ষণ জয় কৰিবলৈয়েই গতি আৰু শক্তি লাগে।"
+    }
+  },
+  {
+    "id": "assertion-reason-021",
+    "q": {
+      "en": "Assertion (A): Plants look green.\nReason (R): Chlorophyll absorbs red and blue light and reflects green.",
+      "as": "দাবী (A): Plants look green.\nকাৰণ (R): Chlorophyll absorbs red and blue light and reflects green."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reflecting green light is why plants look green.",
+      "as": "সেউজীয়া পোহৰ প্ৰতিফলিত কৰিয়েই গছ-গছনি সেউজীয়া দেখা যায়।"
+    }
+  },
+  {
+    "id": "assertion-reason-022",
+    "q": {
+      "en": "Assertion (A): Bells are made of metal.\nReason (R): Metals are sonorous.",
+      "as": "দাবী (A): Bells are made of metal.\nকাৰণ (R): Metals are sonorous."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sonorous property of metals is why bells ring.",
+      "as": "ধাতুৰ নাদযুক্ত গুণৰ বাবেই ঘণ্টা বাজে।"
+    }
+  },
+  {
+    "id": "assertion-reason-023",
+    "q": {
+      "en": "Assertion (A): Aeroplanes have a streamlined shape.\nReason (R): Air resistance slows moving objects.",
+      "as": "দাবী (A): Aeroplanes have a streamlined shape.\nকাৰণ (R): Air resistance slows moving objects."
     },
     "options": [
       {
@@ -25,15 +685,465 @@
     ],
     "correct": 0,
     "explanation": {
-      "en": "The reason, that boiling point depends on pressure, is exactly why water boils at 100 degrees at sea level.",
-      "as": "উতলাংক চাপৰ ওপৰত নিৰ্ভৰ কৰে বুলি কাৰণটোৱেই সাগৰ পৃষ্ঠত পানী 100 ডিগ্ৰীত উতলাৰ কাৰণ।"
+      "en": "Reducing air resistance is why the shape is streamlined.",
+      "as": "বায়ুৰ বাধা কমাবলৈয়েই আকৃতি মসৃণ কৰা হয়।"
     }
   },
   {
-    "id": "assertion-reason-002",
+    "id": "assertion-reason-024",
     "q": {
-      "en": "A: The sun rises in the east. R: The earth rotates from west to east.",
-      "as": "A: সূৰ্য্য পূৱত উদয় হয়। R: পৃথিৱী পশ্চিমৰ পৰা পূৱলৈ ঘূৰে।"
+      "en": "Assertion (A): A clinical thermometer has a kink.\nReason (R): The kink stops mercury from falling back on its own.",
+      "as": "দাবী (A): A clinical thermometer has a kink.\nকাৰণ (R): The kink stops mercury from falling back on its own."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The kink holding the reading is its exact purpose.",
+      "as": "বাঁকটোৱে পঢ়া ধৰি ৰখাই ইয়াৰ প্ৰকৃত উদ্দেশ্য।"
+    }
+  },
+  {
+    "id": "assertion-reason-025",
+    "q": {
+      "en": "Assertion (A): The moon shines at night.\nReason (R): The moon reflects sunlight.",
+      "as": "দাবী (A): The moon shines at night.\nকাৰণ (R): The moon reflects sunlight."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Reflecting sunlight is why the moon appears bright.",
+      "as": "সূৰ্যৰ পোহৰ প্ৰতিফলিত কৰিয়েই চন্দ্ৰ উজ্জ্বল দেখা যায়।"
+    }
+  },
+  {
+    "id": "assertion-reason-026",
+    "q": {
+      "en": "Assertion (A): A fire extinguisher is kept in buildings.\nReason (R): Water and sand can put out fire.",
+      "as": "দাবী (A): A fire extinguisher is kept in buildings.\nকাৰণ (R): Water and sand can put out fire."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both are true, but extinguishers use foam or gas; R gives only general methods.",
+      "as": "দুয়োটা সঁচা, কিন্তু অগ্নিনিৰ্বাপকে ফেন বা গেছ ব্যৱহাৰ কৰে; R এ কেৱল সাধাৰণ পদ্ধতি দিয়ে।"
+    }
+  },
+  {
+    "id": "assertion-reason-027",
+    "q": {
+      "en": "Assertion (A): Bats fly at night without hitting objects.\nReason (R): Bats use echoes to find their way.",
+      "as": "দাবী (A): Bats fly at night without hitting objects.\nকাৰণ (R): Bats use echoes to find their way."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Echo-location is exactly how bats avoid obstacles.",
+      "as": "প্ৰতিধ্বনিৰ দ্বাৰা পথ বিচৰাই বাদুলীয়ে বাধা এৰাই চলে।"
+    }
+  },
+  {
+    "id": "assertion-reason-028",
+    "q": {
+      "en": "Assertion (A): A camel has long eyelashes.\nReason (R): Long eyelashes protect the eyes from sand.",
+      "as": "দাবী (A): A camel has long eyelashes.\nকাৰণ (R): Long eyelashes protect the eyes from sand."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sand protection is the purpose of the long lashes.",
+      "as": "বালিৰ পৰা চকু ৰক্ষাই দীঘল চকুপতাৰ উদ্দেশ্য।"
+    }
+  },
+  {
+    "id": "assertion-reason-029",
+    "q": {
+      "en": "Assertion (A): A cactus has spines.\nReason (R): Spines reduce water loss.",
+      "as": "দাবী (A): A cactus has spines.\nকাৰণ (R): Spines reduce water loss."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reducing water loss is why the cactus has spines instead of leaves.",
+      "as": "পানীৰ ক্ষতি কমোৱাৰ বাবেই কেকটাছত পাতৰ ঠাইত কাঁইট থাকে।"
+    }
+  },
+  {
+    "id": "assertion-reason-030",
+    "q": {
+      "en": "Assertion (A): Polar bears have thick fur.\nReason (R): Thick fur keeps the body warm.",
+      "as": "দাবী (A): Polar bears have thick fur.\nকাৰণ (R): Thick fur keeps the body warm."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Warmth from thick fur is why polar bears survive the cold.",
+      "as": "ডাঠ নোমে শৰীৰ গৰম ৰখাই মেৰু ভালুক ঠাণ্ডাত জীয়াই থাকে।"
+    }
+  },
+  {
+    "id": "assertion-reason-031",
+    "q": {
+      "en": "Assertion (A): A rocket can move in space.\nReason (R): A rocket carries its own oxidiser.",
+      "as": "দাবী (A): A rocket can move in space.\nকাৰণ (R): A rocket carries its own oxidiser."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Carrying its own oxidiser lets the rocket burn fuel without air.",
+      "as": "নিজৰ অক্সিডাইজাৰ কঢ়িয়াই ৰকেটে বায়ু নোহোৱাকৈও ইন্ধন জ্বলাব পাৰে।"
+    }
+  },
+  {
+    "id": "assertion-reason-032",
+    "q": {
+      "en": "Assertion (A): The earth is called the blue planet.\nReason (R): Most of the earth's surface is covered with water.",
+      "as": "দাবী (A): The earth is called the blue planet.\nকাৰণ (R): Most of the earth's surface is covered with water."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Water covering most of the surface gives the blue colour.",
+      "as": "বেছিভাগ পৃষ্ঠ পানীৰে আবৃত হোৱাই নীলা ৰং দিয়ে।"
+    }
+  },
+  {
+    "id": "assertion-reason-033",
+    "q": {
+      "en": "Assertion (A): We use a fuse in electric circuits.\nReason (R): A fuse melts and breaks the circuit when current is too high.",
+      "as": "দাবী (A): We use a fuse in electric circuits.\nকাৰণ (R): A fuse melts and breaks the circuit when current is too high."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Melting to break the circuit is exactly the purpose of a fuse.",
+      "as": "অতি বেছি প্ৰৱাহত গলি বৰ্তনী ভাঙাই ফিউজৰ প্ৰকৃত উদ্দেশ্য।"
+    }
+  },
+  {
+    "id": "assertion-reason-034",
+    "q": {
+      "en": "Assertion (A): The handle of a pressure cooker is made of plastic.\nReason (R): Plastic is a poor conductor of heat.",
+      "as": "দাবী (A): The handle of a pressure cooker is made of plastic.\nকাৰণ (R): Plastic is a poor conductor of heat."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Poor heat conduction is why the handle stays cool.",
+      "as": "তাপৰ দুৰ্বল পৰিবাহী গুণৰ বাবেই হেণ্ডেল ঠাণ্ডা থাকে।"
+    }
+  },
+  {
+    "id": "assertion-reason-035",
+    "q": {
+      "en": "Assertion (A): A boat floats on water.\nReason (R): The boat is hollow and displaces water.",
+      "as": "দাবী (A): A boat floats on water.\nকাৰণ (R): The boat is hollow and displaces water."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Displacing water gives upthrust, so the boat floats.",
+      "as": "পানী অপসাৰণে ঊৰ্ধমুখী বল দিয়ে, গতিকে নাও ভাহে।"
+    }
+  },
+  {
+    "id": "assertion-reason-036",
+    "q": {
+      "en": "Assertion (A): We perspire in hot weather.\nReason (R): Sweat evaporates and cools the body.",
+      "as": "দাবী (A): We perspire in hot weather.\nকাৰণ (R): Sweat evaporates and cools the body."
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Evaporative cooling is why sweating lowers body temperature.",
+      "as": "বাষ্পীভৱনৰ শীতলতাই শৰীৰৰ উষ্ণতা কমায়।"
+    }
+  },
+  {
+    "id": "assertion-reason-037",
+    "q": {
+      "en": "Assertion (A): An electric bulb gets hot when it glows.\nReason (R): Part of the electric energy becomes heat.",
+      "as": "দাবী (A): An electric bulb gets hot when it glows.\nকাৰণ (R): Part of the electric energy becomes heat."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Energy turning into heat is why the bulb warms up.",
+      "as": "শক্তি তাপত পৰিণত হোৱাৰ বাবেই বাল্ব গৰম হয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-038",
+    "q": {
+      "en": "Assertion (A): A mirror shows our face.\nReason (R): Light is reflected by the mirror.",
+      "as": "দাবী (A): A mirror shows our face.\nকাৰণ (R): Light is reflected by the mirror."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Reflection of light is why we see our face.",
+      "as": "পোহৰৰ প্ৰতিফলনৰ বাবেই আমি মুখ দেখোঁ।"
+    }
+  },
+  {
+    "id": "assertion-reason-039",
+    "q": {
+      "en": "Assertion (A): Ice melts when salt is added.\nReason (R): Salt lowers the freezing point of water.",
+      "as": "দাবী (A): Ice melts when salt is added.\nকাৰণ (R): Salt lowers the freezing point of water."
     },
     "options": [
       {
@@ -55,8 +1165,338 @@
     ],
     "correct": 1,
     "explanation": {
-      "en": "The earth's west-to-east rotation is the reason the sun appears to rise in the east.",
-      "as": "পৃথিৱীৰ পশ্চিমৰ পৰা পূৱলৈ ঘূৰ্ণনেই সূৰ্য্য পূৱত উদয় হোৱা যেন লগাৰ কাৰণ।"
+      "en": "A lower freezing point is why the ice melts.",
+      "as": "হিমাংক কমাৰ বাবেই বৰফ গলে।"
+    }
+  },
+  {
+    "id": "assertion-reason-040",
+    "q": {
+      "en": "Assertion (A): Tea becomes cold when milk is added.\nReason (R): Adding milk lowers the temperature of the mixture.",
+      "as": "দাবী (A): Tea becomes cold when milk is added.\nকাৰণ (R): Adding milk lowers the temperature of the mixture."
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Both are true, but the cooling is due to heat transfer to the cooler milk; the wording of R is incomplete.",
+      "as": "দুয়োটা সঁচা, কিন্তু শীতলতা ঠাণ্ডা গাখীৰলৈ তাপ যোৱাৰ বাবে; R ৰ শব্দ অসম্পূৰ্ণ।"
+    }
+  },
+  {
+    "id": "assertion-reason-041",
+    "q": {
+      "en": "Assertion (A): A thermometer is used to measure temperature.\nReason (R): Mercury expands with a rise in temperature.",
+      "as": "দাবী (A): A thermometer is used to measure temperature.\nকাৰণ (R): Mercury expands with a rise in temperature."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Expansion of mercury with heat is why it measures temperature.",
+      "as": "তাপত পাৰাৰ বিস্তাৰেই উষ্ণতা মাপে।"
+    }
+  },
+  {
+    "id": "assertion-reason-042",
+    "q": {
+      "en": "Assertion (A): Sound is heard louder near the source.\nReason (R): Sound spreads in all directions and weakens with distance.",
+      "as": "দাবী (A): Sound is heard louder near the source.\nকাৰণ (R): Sound spreads in all directions and weakens with distance."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Spreading and weakening with distance is why it is louder near the source.",
+      "as": "চাৰিওফালে বিয়পি দূৰত্বৰ সৈতে দুৰ্বল হোৱাৰ বাবেই ওচৰত জোৰে শুনা যায়।"
+    }
+  },
+  {
+    "id": "assertion-reason-043",
+    "q": {
+      "en": "Assertion (A): A bar magnet attracts iron nails.\nReason (R): Like poles repel and unlike poles attract.",
+      "as": "দাবী (A): A bar magnet attracts iron nails.\nকাৰণ (R): Like poles repel and unlike poles attract."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both are true, but attraction of iron is magnetic induction, not pole interaction.",
+      "as": "দুয়োটা সঁচা, কিন্তু লো আকৰ্ষণ চুম্বকীয় প্ৰৰোচন, মেৰুৰ ক্ৰিয়া নহয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-044",
+    "q": {
+      "en": "Assertion (A): Water in a glass cools when ice is added.\nReason (R): Ice absorbs heat from the water.",
+      "as": "দাবী (A): Water in a glass cools when ice is added.\nকাৰণ (R): Ice absorbs heat from the water."
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Heat absorption by ice is why the water cools.",
+      "as": "বৰফে তাপ শোষণ কৰাৰ বাবেই পানী ঠাণ্ডা হয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-045",
+    "q": {
+      "en": "Assertion (A): A prism splits white light into colours.\nReason (R): Different colours bend by different amounts.",
+      "as": "দাবী (A): A prism splits white light into colours.\nকাৰণ (R): Different colours bend by different amounts."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Different bending of colours is why the prism splits light.",
+      "as": "ৰঙে বেলেগ বেলেগ মাত্ৰাত বেঁকা হোৱাৰ বাবেই প্ৰিজমে পোহৰ ভাঙে।"
+    }
+  },
+  {
+    "id": "assertion-reason-046",
+    "q": {
+      "en": "Assertion (A): We cannot hear sound on the moon.\nReason (R): The moon has no atmosphere.",
+      "as": "দাবী (A): We cannot hear sound on the moon.\nকাৰণ (R): The moon has no atmosphere."
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "No atmosphere means no medium, so sound cannot travel.",
+      "as": "বায়ুমণ্ডল নথকা মানে মাধ্যম নাই, গতিকে শব্দ যাব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "assertion-reason-047",
+    "q": {
+      "en": "Assertion (A): A magnet loses its magnetism when heated.\nReason (R): Heat disturbs the alignment of magnetic domains.",
+      "as": "দাবী (A): A magnet loses its magnetism when heated.\nকাৰণ (R): Heat disturbs the alignment of magnetic domains."
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Domain disorder from heat is why magnetism is lost.",
+      "as": "তাপত ডমেইন বিশৃংখল হোৱাৰ বাবেই চুম্বকত্ব নাইকিয়া হয়।"
+    }
+  },
+  {
+    "id": "assertion-reason-048",
+    "q": {
+      "en": "Assertion (A): A spring balance measures weight.\nReason (R): Weight is the force of gravity on a body.",
+      "as": "দাবী (A): A spring balance measures weight.\nকাৰণ (R): Weight is the force of gravity on a body."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Gravitational force being weight is why a spring balance measures it.",
+      "as": "মাধ্যাকৰ্ষণ বলেই ওজন, গতিকে স্প্ৰিং বেলেন্সে মাপে।"
+    }
+  },
+  {
+    "id": "assertion-reason-049",
+    "q": {
+      "en": "Assertion (A): Clothes dry faster on a windy day.\nReason (R): Wind carries away water vapour from the cloth.",
+      "as": "দাবী (A): Clothes dry faster on a windy day.\nকাৰণ (R): Wind carries away water vapour from the cloth."
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      },
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Removing vapour speeds evaporation, so R explains A.",
+      "as": "বাষ্প আঁতৰালে বাষ্পীভৱন দ্ৰুত হয়, গতিকে R এ A ব্যাখ্যা কৰে।"
+    }
+  },
+  {
+    "id": "assertion-reason-050",
+    "q": {
+      "en": "Assertion (A): A submarine can travel under water.\nReason (R): It has a strong hull and ballast tanks.",
+      "as": "দাবী (A): A submarine can travel under water.\nকাৰণ (R): It has a strong hull and ballast tanks."
+    },
+    "options": [
+      {
+        "en": "Both are true but R does not explain A",
+        "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সঁচা কিন্তু R অসঁচা"
+      },
+      {
+        "en": "Both A and R are true and R explains A",
+        "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসঁচা কিন্তু R সঁচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A strong hull and ballast tanks are exactly what allow under-water travel.",
+      "as": "বলিষ্ঠ হাল আৰু বেলাষ্ট টেংকেই পানীৰ তলত চলাৰ কাৰণ।"
     }
   }
 ]

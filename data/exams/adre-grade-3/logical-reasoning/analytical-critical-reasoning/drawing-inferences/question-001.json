@@ -2,61 +2,1501 @@
   {
     "id": "drawing-inferences-001",
     "q": {
-      "en": "Passage: All the windows in the hall were shut, yet the floor was wet. Inference:",
-      "as": "অনুচ্ছেদ: হলটোৰ সকলো খিৰিকী বন্ধ আছিল, তথাপি মজিয়া তিতা আছিল। সিদ্ধান্ত:"
+      "en": "Passage: All the windows in the hall were shut, yet the floor was wet.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: All the windows in the hall were shut, yet the floor was wet.\nকোনটো সিদ্ধান্ত ওলায়?"
     },
     "options": [
       {
+        "en": "The windows were open",
+        "as": "The windows were open"
+      },
+      {
         "en": "Water came from a source inside the hall",
-        "as": "পানী হলটোৰ ভিতৰৰ পৰা আহিছিল"
+        "as": "Water came from a source inside the hall"
       },
       {
         "en": "It rained heavily outside",
-        "as": "বাহিৰত ধুমুহা বৰষুণ হৈছিল"
-      },
-      {
-        "en": "The windows were open",
-        "as": "খিৰিকীবোৰ খোলা আছিল"
+        "as": "It rained heavily outside"
       },
       {
         "en": "The floor was dry",
-        "as": "মজিয়া শুকান আছিল"
+        "as": "The floor was dry"
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": {
-      "en": "With every window shut, the water on the floor must have come from inside; the other options contradict the passage.",
-      "as": "সকলো খিৰিকী বন্ধ থকাৰ পৰিপ্ৰেক্ষিতত মজিয়াৰ পানী ভিতৰৰ পৰা অহা হ'ব; আনবোৰ বিকল্পই অনুচ্ছেদৰ লগত বিৰোধ কৰে।"
+      "en": "With every window shut, the water on the floor must have come from inside.",
+      "as": "সকলো খিৰিকী বন্ধ থকাৰ পৰিপ্ৰেক্ষিতত মজিয়াৰ পানী ভিতৰৰ পৰা অহা হ'ব।"
     }
   },
   {
     "id": "drawing-inferences-002",
     "q": {
-      "en": "Passage: Every student in the class passed, but only one student scored full marks. Inference:",
-      "as": "অনুচ্ছেদ: শ্ৰেণীৰ প্ৰতিজন শিক্ষাৰ্থী উত্তীৰ্ণ হ'ল, কিন্তু কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছিল। সিদ্ধান্ত:"
+      "en": "Passage: Every student in the class passed, but only one student scored full marks.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: Every student in the class passed, but only one student scored full marks.\nকোনটো সিদ্ধান্ত ওলায়?"
     },
     "options": [
       {
-        "en": "No student got full marks",
-        "as": "কোনো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+        "en": "Most students scored less than full marks",
+        "as": "Most students scored less than full marks"
       },
       {
-        "en": "At least one student did not get full marks",
-        "as": "অন্ততঃ এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱা নাই"
+        "en": "The class did not pass",
+        "as": "The class did not pass"
       },
       {
-        "en": "All students got full marks",
-        "as": "সকলো শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পাইছে"
+        "en": "No student scored full marks",
+        "as": "No student scored full marks"
       },
       {
-        "en": "The class was empty",
-        "as": "শ্ৰেণী খালী আছিল"
+        "en": "All students scored full marks",
+        "as": "All students scored full marks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "If only one scored full marks, the rest must have scored less.",
+      "as": "কেৱল এজনে পূৰ্ণ নম্বৰ পোৱা মানে বাকীবোৰে কম নম্বৰ পাইছে।"
+    }
+  },
+  {
+    "id": "drawing-inferences-003",
+    "q": {
+      "en": "Passage: The shop was open, but the lights were off and the door was locked from outside.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The shop was open, but the lights were off and the door was locked from outside.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The shop was empty of goods",
+        "as": "The shop was empty of goods"
+      },
+      {
+        "en": "The shopkeeper was not inside the shop",
+        "as": "The shopkeeper was not inside the shop"
+      },
+      {
+        "en": "The shop had no electricity",
+        "as": "The shop had no electricity"
+      },
+      {
+        "en": "The shop was closed permanently",
+        "as": "The shop was closed permanently"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "Since only one student scored full marks and the class has more than one student, at least one student did not.",
-      "as": "কেৱল এজন শিক্ষাৰ্থীয়ে সম্পূৰ্ণ নম্বৰ পোৱাৰ পিছত আৰু শ্ৰেণীত এজনতকৈ অধিক থকাৰ পিছত, অন্ততঃ এজনে পোৱা নাই।"
+      "en": "A door locked from outside with lights off suggests nobody was inside.",
+      "as": "বাহিৰৰ পৰা বন্ধ দুৱাৰ আৰু নুমুৱা পোহৰে ভিতৰত কোনো নাই বুলি সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-004",
+    "q": {
+      "en": "Passage: Ravi reached the station at 9:05, but the train had already left at 9:00.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: Ravi reached the station at 9:05, but the train had already left at 9:00.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Ravi was late for the train",
+        "as": "Ravi was late for the train"
+      },
+      {
+        "en": "The train was late",
+        "as": "The train was late"
+      },
+      {
+        "en": "The station was closed",
+        "as": "The station was closed"
+      },
+      {
+        "en": "Ravi missed the bus",
+        "as": "Ravi missed the bus"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reaching after the departure time means Ravi was late.",
+      "as": "যাত্ৰা কৰাৰ পিছত পোৱা মানে ৰবি দেৰি হৈছিল।"
+    }
+  },
+  {
+    "id": "drawing-inferences-005",
+    "q": {
+      "en": "Passage: The plant was watered daily, but it withered within a week.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The plant was watered daily, but it withered within a week.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The plant was never watered",
+        "as": "The plant was never watered"
+      },
+      {
+        "en": "The plant was kept in the sun",
+        "as": "The plant was kept in the sun"
+      },
+      {
+        "en": "Water alone was not enough for the plant",
+        "as": "Water alone was not enough for the plant"
+      },
+      {
+        "en": "The plant was too big",
+        "as": "The plant was too big"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Daily watering rules out lack of water, so something else was wrong.",
+      "as": "দৈনিক পানী দিয়া মানে পানীৰ অভাৱ নাই, গতিকে আন কিবা সমস্যা আছিল।"
+    }
+  },
+  {
+    "id": "drawing-inferences-006",
+    "q": {
+      "en": "Passage: The road was dry in the morning, but by evening it was covered with leaves.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The road was dry in the morning, but by evening it was covered with leaves.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "It rained during the day",
+        "as": "It rained during the day"
+      },
+      {
+        "en": "Someone watered the road",
+        "as": "Someone watered the road"
+      },
+      {
+        "en": "The road was dug up",
+        "as": "The road was dug up"
+      },
+      {
+        "en": "A strong wind blew during the day",
+        "as": "A strong wind blew during the day"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dry road plus fallen leaves points to wind.",
+      "as": "শুকান পথ আৰু সৰা পাত একেলগে বতাহলৈ ইংগিত দিয়ে।"
+    }
+  },
+  {
+    "id": "drawing-inferences-007",
+    "q": {
+      "en": "Passage: All the guests arrived before noon, yet the lunch was served at 3 p.m.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: All the guests arrived before noon, yet the lunch was served at 3 p.m.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The lunch was cancelled",
+        "as": "The lunch was cancelled"
+      },
+      {
+        "en": "The guests arrived late",
+        "as": "The guests arrived late"
+      },
+      {
+        "en": "There was a delay in preparing the food",
+        "as": "There was a delay in preparing the food"
+      },
+      {
+        "en": "The guests did not eat",
+        "as": "The guests did not eat"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guests arrived early but food came late, so preparation was delayed.",
+      "as": "অতিথি সোনকালে আহিল কিন্তু খাদ্য দেৰিকৈ, গতিকে প্ৰস্তুতি পলম হৈছিল।"
+    }
+  },
+  {
+    "id": "drawing-inferences-008",
+    "q": {
+      "en": "Passage: Amit's shop sells only vegetables, but today he sold a large number of fruits.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: Amit's shop sells only vegetables, but today he sold a large number of fruits.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Amit's shop was closed",
+        "as": "Amit's shop was closed"
+      },
+      {
+        "en": "Amit has started selling fruits as well",
+        "as": "Amit has started selling fruits as well"
+      },
+      {
+        "en": "Amit sold only fruits today",
+        "as": "Amit sold only fruits today"
+      },
+      {
+        "en": "Amit has stopped selling vegetables",
+        "as": "Amit has stopped selling vegetables"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Selling fruits today shows an addition, not a replacement.",
+      "as": "আজি ফল বিক্ৰী কৰা মানে সংযোজন, প্ৰতিস্থাপন নহয়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-009",
+    "q": {
+      "en": "Passage: The bus was full, but every passenger had a seat.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The bus was full, but every passenger had a seat.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The bus had no seats",
+        "as": "The bus had no seats"
+      },
+      {
+        "en": "The bus was empty",
+        "as": "The bus was empty"
+      },
+      {
+        "en": "Some passengers stood",
+        "as": "Some passengers stood"
+      },
+      {
+        "en": "The bus had as many seats as passengers",
+        "as": "The bus had as many seats as passengers"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Full with everyone seated means seats matched passengers.",
+      "as": "সকলো বহি থকা অৱস্থাত ভৰ্তি মানে আসন আৰু যাত্ৰীৰ সংখ্যা সমান।"
+    }
+  },
+  {
+    "id": "drawing-inferences-010",
+    "q": {
+      "en": "Passage: Meera studied for six hours daily, yet her marks did not improve.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: Meera studied for six hours daily, yet her marks did not improve.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Her study method may not have been effective",
+        "as": "Her study method may not have been effective"
+      },
+      {
+        "en": "Meera did not write the exam",
+        "as": "Meera did not write the exam"
+      },
+      {
+        "en": "Meera did not study at all",
+        "as": "Meera did not study at all"
+      },
+      {
+        "en": "Meera studied only one day",
+        "as": "Meera studied only one day"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Long study hours without improvement points to method, not effort.",
+      "as": "দীঘল সময় পঢ়িও উন্নতি নোহোৱাই পদ্ধতিলৈ ইংগিত দিয়ে, পৰিশ্ৰমলৈ নহয়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-011",
+    "q": {
+      "en": "Passage: The village had many wells, but people walked two kilometres for water.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The village had many wells, but people walked two kilometres for water.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The people disliked wells",
+        "as": "The people disliked wells"
+      },
+      {
+        "en": "The wells had dried up or were unusable",
+        "as": "The wells had dried up or were unusable"
+      },
+      {
+        "en": "The village had piped water",
+        "as": "The village had piped water"
+      },
+      {
+        "en": "The village had no wells",
+        "as": "The village had no wells"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Many wells plus long walks means the wells were not usable.",
+      "as": "বহু কুঁৱা আৰু দীঘল খোজ একেলগে কুঁৱা অকৰ্মণ্য বুলি সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-012",
+    "q": {
+      "en": "Passage: The team practised in the morning, but the match was held at night.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The team practised in the morning, but the match was held at night.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The team did not practise",
+        "as": "The team did not practise"
+      },
+      {
+        "en": "The team practised at night",
+        "as": "The team practised at night"
+      },
+      {
+        "en": "The match was cancelled",
+        "as": "The match was cancelled"
+      },
+      {
+        "en": "The practice time differed from the match time",
+        "as": "The practice time differed from the match time"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Morning practice and a night match simply differ in timing.",
+      "as": "ৰাতিপুৱা অনুশীলন আৰু ৰাতি খেল কেৱল সময়ৰ পাৰ্থক্য।"
+    }
+  },
+  {
+    "id": "drawing-inferences-013",
+    "q": {
+      "en": "Passage: The teacher praised Rohan, but Rohan had not spoken in class.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The teacher praised Rohan, but Rohan had not spoken in class.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Rohan was absent",
+        "as": "Rohan was absent"
+      },
+      {
+        "en": "Rohan spoke a lot in class",
+        "as": "Rohan spoke a lot in class"
+      },
+      {
+        "en": "Rohan may have done good work outside class",
+        "as": "Rohan may have done good work outside class"
+      },
+      {
+        "en": "Rohan was punished",
+        "as": "Rohan was punished"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Praise without class participation suggests good work elsewhere.",
+      "as": "শ্ৰেণীত নোকোৱাকৈ প্ৰশংসা মানে আন ঠাইত ভাল কাম কৰিছে।"
+    }
+  },
+  {
+    "id": "drawing-inferences-014",
+    "q": {
+      "en": "Passage: The lights in the office were on all night, but no one was seen inside.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The lights in the office were on all night, but no one was seen inside.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The office was robbed",
+        "as": "The office was robbed"
+      },
+      {
+        "en": "Someone may have forgotten to switch off the lights",
+        "as": "Someone may have forgotten to switch off the lights"
+      },
+      {
+        "en": "The office was closed",
+        "as": "The office was closed"
+      },
+      {
+        "en": "The office had no lights",
+        "as": "The office had no lights"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lights on with nobody around suggests they were left on.",
+      "as": "পোহৰ জ্বলি থকা আৰু কোনো নথকাই নুমুৱাবলৈ পাহৰা সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-015",
+    "q": {
+      "en": "Passage: The market was crowded, but the shops had few goods on display.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The market was crowded, but the shops had few goods on display.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The shops were closed",
+        "as": "The shops were closed"
+      },
+      {
+        "en": "There were no customers",
+        "as": "There were no customers"
+      },
+      {
+        "en": "The market was empty",
+        "as": "The market was empty"
+      },
+      {
+        "en": "The goods may have been sold out",
+        "as": "The goods may have been sold out"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Crowds with empty shelves point to goods being sold out.",
+      "as": "ভিৰ আৰু ৰিক্ত তাক একেলগে সামগ্ৰী বিক্ৰী হোৱা সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-016",
+    "q": {
+      "en": "Passage: Rita took an umbrella, but it did not rain.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: Rita took an umbrella, but it did not rain.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "It rained heavily",
+        "as": "It rained heavily"
+      },
+      {
+        "en": "Rita lost her umbrella",
+        "as": "Rita lost her umbrella"
+      },
+      {
+        "en": "Rita expected rain",
+        "as": "Rita expected rain"
+      },
+      {
+        "en": "Rita got wet",
+        "as": "Rita got wet"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Carrying an umbrella shows an expectation of rain.",
+      "as": "ছাতি লৈ যোৱাই বৰষুণৰ আশা দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-017",
+    "q": {
+      "en": "Passage: The library was silent, but a book had fallen on the floor.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The library was silent, but a book had fallen on the floor.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The book was stolen",
+        "as": "The book was stolen"
+      },
+      {
+        "en": "The library was closed",
+        "as": "The library was closed"
+      },
+      {
+        "en": "The book fell without anyone noticing",
+        "as": "The book fell without anyone noticing"
+      },
+      {
+        "en": "Someone shouted in the library",
+        "as": "Someone shouted in the library"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Silence with a fallen book means it was not noticed.",
+      "as": "নীৰৱতা আৰু পৰা কিতাপ মানে কাকো মন কৰা নাই।"
+    }
+  },
+  {
+    "id": "drawing-inferences-018",
+    "q": {
+      "en": "Passage: The train was on time, but the passengers were still waiting.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The train was on time, but the passengers were still waiting.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The train was cancelled",
+        "as": "The train was cancelled"
+      },
+      {
+        "en": "The passengers were waiting for a different train",
+        "as": "The passengers were waiting for a different train"
+      },
+      {
+        "en": "The train was late",
+        "as": "The train was late"
+      },
+      {
+        "en": "The passengers had no tickets",
+        "as": "The passengers had no tickets"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An on-time train with waiting passengers suggests they awaited another train.",
+      "as": "সময়মতে অহা ৰে'ল আৰু অপেক্ষাৰত যাত্ৰীয়ে আন ৰে'ললৈ অপেক্ষা সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-019",
+    "q": {
+      "en": "Passage: The field was green, but the farmer had not sown any seed.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The field was green, but the farmer had not sown any seed.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The field was ploughed only",
+        "as": "The field was ploughed only"
+      },
+      {
+        "en": "The farmer sowed seeds",
+        "as": "The farmer sowed seeds"
+      },
+      {
+        "en": "The grass grew on its own",
+        "as": "The grass grew on its own"
+      },
+      {
+        "en": "The field was dry",
+        "as": "The field was dry"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Green without sowing means natural growth.",
+      "as": "নাবনাকৈ সেউজীয়া মানে প্ৰাকৃতিকভাৱে গজা।"
+    }
+  },
+  {
+    "id": "drawing-inferences-020",
+    "q": {
+      "en": "Passage: The children were laughing, but the teacher was not present.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The children were laughing, but the teacher was not present.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The children were studying",
+        "as": "The children were studying"
+      },
+      {
+        "en": "The children were sad",
+        "as": "The children were sad"
+      },
+      {
+        "en": "The teacher was laughing",
+        "as": "The teacher was laughing"
+      },
+      {
+        "en": "The children were enjoying their free time",
+        "as": "The children were enjoying their free time"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Laughter without the teacher shows free-time enjoyment.",
+      "as": "শিক্ষক নথকা অৱস্থাত হাঁহিয়ে অবসৰৰ আনন্দ দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-021",
+    "q": {
+      "en": "Passage: The road sign said 'Hospital ahead', but no building was visible.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The road sign said 'Hospital ahead', but no building was visible.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The hospital was closed",
+        "as": "The hospital was closed"
+      },
+      {
+        "en": "There was no road",
+        "as": "There was no road"
+      },
+      {
+        "en": "The sign was wrong",
+        "as": "The sign was wrong"
+      },
+      {
+        "en": "The hospital may be further ahead",
+        "as": "The hospital may be further ahead"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A sign can point to a place beyond the view.",
+      "as": "চিনে দৃষ্টিৰ বাহিৰৰ ঠাইলৈ ইংগিত দিব পাৰে।"
+    }
+  },
+  {
+    "id": "drawing-inferences-022",
+    "q": {
+      "en": "Passage: The festival was celebrated, but no fireworks were used.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The festival was celebrated, but no fireworks were used.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The festival was cancelled",
+        "as": "The festival was cancelled"
+      },
+      {
+        "en": "The festival was postponed",
+        "as": "The festival was postponed"
+      },
+      {
+        "en": "The celebration was without fireworks",
+        "as": "The celebration was without fireworks"
+      },
+      {
+        "en": "There were no people",
+        "as": "There were no people"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A celebration without fireworks is still a celebration.",
+      "as": "আতচবাজী নোহোৱাকৈও উৎসৱ হয়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-023",
+    "q": {
+      "en": "Passage: The well was deep, but the bucket touched the water easily.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The well was deep, but the bucket touched the water easily.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The well was shallow",
+        "as": "The well was shallow"
+      },
+      {
+        "en": "The water level in the well was high",
+        "as": "The water level in the well was high"
+      },
+      {
+        "en": "The bucket was very long",
+        "as": "The bucket was very long"
+      },
+      {
+        "en": "The well was dry",
+        "as": "The well was dry"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Touching water easily means the level was high.",
+      "as": "সহজে পানীত লাগা মানে পানীৰ স্তৰ ওখ আছিল।"
+    }
+  },
+  {
+    "id": "drawing-inferences-024",
+    "q": {
+      "en": "Passage: The school bell rang, but the students did not leave the classroom.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The school bell rang, but the students did not leave the classroom.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The bell may not have been the closing bell",
+        "as": "The bell may not have been the closing bell"
+      },
+      {
+        "en": "The school was closed",
+        "as": "The school was closed"
+      },
+      {
+        "en": "The students were absent",
+        "as": "The students were absent"
+      },
+      {
+        "en": "The students did not hear the bell",
+        "as": "The students did not hear the bell"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Staying in class after a bell suggests it was not the closing bell.",
+      "as": "ঘণ্টা বজাৰ পিছতো শ্ৰেণীত থকাই ছুটীৰ ঘণ্টা নহয় বুলি সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-025",
+    "q": {
+      "en": "Passage: The river was wide, but the bridge was narrow.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The river was wide, but the bridge was narrow.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The river was dry",
+        "as": "The river was dry"
+      },
+      {
+        "en": "The river was narrow",
+        "as": "The river was narrow"
+      },
+      {
+        "en": "The bridge was closed",
+        "as": "The bridge was closed"
+      },
+      {
+        "en": "Crossing the bridge may take time",
+        "as": "Crossing the bridge may take time"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A narrow bridge across a wide river slows crossing.",
+      "as": "ওখ নদীৰ ওপৰত সৰু দলঙে পাৰ হ'বলৈ সময় লয়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-026",
+    "q": {
+      "en": "Passage: The shopkeeper smiled, but he refused to give a discount.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The shopkeeper smiled, but he refused to give a discount.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "He was angry",
+        "as": "He was angry"
+      },
+      {
+        "en": "He gave a discount",
+        "as": "He gave a discount"
+      },
+      {
+        "en": "He closed the shop",
+        "as": "He closed the shop"
+      },
+      {
+        "en": "His smile did not mean he would reduce the price",
+        "as": "His smile did not mean he would reduce the price"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A smile and a refusal show the two are separate.",
+      "as": "হাঁহি আৰু অস্বীকাৰে দুয়োটা বেলেগ বুলি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-027",
+    "q": {
+      "en": "Passage: The fan was running, but the room felt hot.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The fan was running, but the room felt hot.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The fan was switched off",
+        "as": "The fan was switched off"
+      },
+      {
+        "en": "There was no fan",
+        "as": "There was no fan"
+      },
+      {
+        "en": "The fan alone could not cool the room",
+        "as": "The fan alone could not cool the room"
+      },
+      {
+        "en": "The room was cold",
+        "as": "The room was cold"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A running fan with a hot room means it was not enough.",
+      "as": "চলি থকা ফেন আৰু গৰম ৰুম মানে সেয়া যথেষ্ট নাছিল।"
+    }
+  },
+  {
+    "id": "drawing-inferences-028",
+    "q": {
+      "en": "Passage: The exam was easy, but many students failed.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The exam was easy, but many students failed.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "No student passed",
+        "as": "No student passed"
+      },
+      {
+        "en": "The students were not well prepared",
+        "as": "The students were not well prepared"
+      },
+      {
+        "en": "The exam was cancelled",
+        "as": "The exam was cancelled"
+      },
+      {
+        "en": "The exam was difficult",
+        "as": "The exam was difficult"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An easy exam with many failures points to poor preparation.",
+      "as": "সহজ পৰীক্ষাত বহু ব্যৰ্থতাই দুৰ্বল প্ৰস্তুতি সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-029",
+    "q": {
+      "en": "Passage: The gate was open, but the guard stopped the visitor.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The gate was open, but the guard stopped the visitor.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The gate was locked",
+        "as": "The gate was locked"
+      },
+      {
+        "en": "An open gate does not always mean free entry",
+        "as": "An open gate does not always mean free entry"
+      },
+      {
+        "en": "The guard was absent",
+        "as": "The guard was absent"
+      },
+      {
+        "en": "The visitor entered",
+        "as": "The visitor entered"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An open gate with a stop shows entry is not automatic.",
+      "as": "খোলা দুৱাৰ আৰু বাধাই প্ৰৱেশ স্বয়ংক্ৰিয় নহয় বুলি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-030",
+    "q": {
+      "en": "Passage: The lake was calm, but the fishermen did not go out.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The lake was calm, but the fishermen did not go out.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The fishermen were absent",
+        "as": "The fishermen were absent"
+      },
+      {
+        "en": "The lake was rough",
+        "as": "The lake was rough"
+      },
+      {
+        "en": "There may have been another reason not to go",
+        "as": "There may have been another reason not to go"
+      },
+      {
+        "en": "The lake was dry",
+        "as": "The lake was dry"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Calm water with no fishing suggests a different reason.",
+      "as": "শান্ত পানী আৰু মাছমৰীয়া নোযোৱাই আন কাৰণ সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-031",
+    "q": {
+      "en": "Passage: The clock showed 5 o'clock, but the sun was still high.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The clock showed 5 o'clock, but the sun was still high.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "It was night",
+        "as": "It was night"
+      },
+      {
+        "en": "The clock was fast",
+        "as": "The clock was fast"
+      },
+      {
+        "en": "The clock may have been slow",
+        "as": "The clock may have been slow"
+      },
+      {
+        "en": "The sun was setting",
+        "as": "The sun was setting"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A high sun at 5 o'clock suggests the clock was behind.",
+      "as": "৫ বজাতো ওখ সূৰ্যই ঘড়ী পিছ পৰা সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-032",
+    "q": {
+      "en": "Passage: The garden had many flowers, but no bees were seen.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The garden had many flowers, but no bees were seen.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The flowers were artificial",
+        "as": "The flowers were artificial"
+      },
+      {
+        "en": "There were no flowers",
+        "as": "There were no flowers"
+      },
+      {
+        "en": "The garden was closed",
+        "as": "The garden was closed"
+      },
+      {
+        "en": "The bees may have gone elsewhere that day",
+        "as": "The bees may have gone elsewhere that day"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Flowers without bees simply suggests the bees were elsewhere.",
+      "as": "ফুল আৰু মৌমাখি নথকাই মৌমাখি আন ঠাইত বুলি সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-033",
+    "q": {
+      "en": "Passage: The letter was posted on Monday, but it reached on Friday.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The letter was posted on Monday, but it reached on Friday.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The postal delivery took several days",
+        "as": "The postal delivery took several days"
+      },
+      {
+        "en": "The letter reached on Monday",
+        "as": "The letter reached on Monday"
+      },
+      {
+        "en": "The letter was lost",
+        "as": "The letter was lost"
+      },
+      {
+        "en": "The letter was not posted",
+        "as": "The letter was not posted"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Monday to Friday shows a delivery delay.",
+      "as": "সোমবাৰৰ পৰা শুক্ৰবাৰলৈকে ডাকৰ পলম দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-034",
+    "q": {
+      "en": "Passage: The water in the pot was hot, but the fire was out.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The water in the pot was hot, but the fire was out.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The pot was cold",
+        "as": "The pot was cold"
+      },
+      {
+        "en": "The fire was burning",
+        "as": "The fire was burning"
+      },
+      {
+        "en": "The water was heated earlier",
+        "as": "The water was heated earlier"
+      },
+      {
+        "en": "There was no water",
+        "as": "There was no water"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hot water with no fire means it was heated before.",
+      "as": "গৰম পানী আৰু জুই নথকাই আগতে গৰম কৰা সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-035",
+    "q": {
+      "en": "Passage: The road was busy, but no vehicle was moving.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The road was busy, but no vehicle was moving.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The vehicles were fast",
+        "as": "The vehicles were fast"
+      },
+      {
+        "en": "The road was empty",
+        "as": "The road was empty"
+      },
+      {
+        "en": "There may have been a traffic block",
+        "as": "There may have been a traffic block"
+      },
+      {
+        "en": "The road was closed for repair",
+        "as": "The road was closed for repair"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Many vehicles standing still suggests a block.",
+      "as": "বহু বাহন থমকি থকাই বাধা সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-036",
+    "q": {
+      "en": "Passage: The fruit looked ripe, but it tasted sour.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The fruit looked ripe, but it tasted sour.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "Appearance does not always match taste",
+        "as": "Appearance does not always match taste"
+      },
+      {
+        "en": "The fruit was rotten",
+        "as": "The fruit was rotten"
+      },
+      {
+        "en": "The fruit was sweet",
+        "as": "The fruit was sweet"
+      },
+      {
+        "en": "The fruit was unripe",
+        "as": "The fruit was unripe"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A ripe look with a sour taste shows the two can differ.",
+      "as": "পকা দেখাত কেঁচা সোৱাদে দুয়ো বেলেগ হ'ব পাৰে বুলি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-037",
+    "q": {
+      "en": "Passage: The team had strong players, but it lost the match.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The team had strong players, but it lost the match.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The team had no players",
+        "as": "The team had no players"
+      },
+      {
+        "en": "The match was not held",
+        "as": "The match was not held"
+      },
+      {
+        "en": "The team won",
+        "as": "The team won"
+      },
+      {
+        "en": "Strong players alone do not guarantee a win",
+        "as": "Strong players alone do not guarantee a win"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Losing with strong players shows team-work matters too.",
+      "as": "শক্তিশালী খেলুৱৈ থকাৰ পিছতো হৰাই দলগত কামো গুৰুত্বপূৰ্ণ বুলি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-038",
+    "q": {
+      "en": "Passage: The shop was new, but it had many customers.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The shop was new, but it had many customers.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The shop was closed",
+        "as": "The shop was closed"
+      },
+      {
+        "en": "The shop had no goods",
+        "as": "The shop had no goods"
+      },
+      {
+        "en": "The shop was old",
+        "as": "The shop was old"
+      },
+      {
+        "en": "A new shop can still attract many customers",
+        "as": "A new shop can still attract many customers"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A new shop with many customers shows quality attracts.",
+      "as": "নতুন দোকান আৰু বহু গ্ৰাহকে গুণে আকৰ্ষণ কৰে বুলি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-039",
+    "q": {
+      "en": "Passage: The mountain was high, but the climbers reached the top quickly.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The mountain was high, but the climbers reached the top quickly.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The mountain was closed",
+        "as": "The mountain was closed"
+      },
+      {
+        "en": "The mountain was low",
+        "as": "The mountain was low"
+      },
+      {
+        "en": "The climbers were well trained",
+        "as": "The climbers were well trained"
+      },
+      {
+        "en": "The climbers stopped halfway",
+        "as": "The climbers stopped halfway"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A quick climb of a high mountain points to good training.",
+      "as": "ওখ পৰ্বত দ্ৰুত আৰোহণে ভাল প্ৰশিক্ষণ সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-040",
+    "q": {
+      "en": "Passage: The cake was small, but it was enough for all the guests.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The cake was small, but it was enough for all the guests.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The cake was not eaten",
+        "as": "The cake was not eaten"
+      },
+      {
+        "en": "Each guest received only a small piece",
+        "as": "Each guest received only a small piece"
+      },
+      {
+        "en": "There were no guests",
+        "as": "There were no guests"
+      },
+      {
+        "en": "The cake was large",
+        "as": "The cake was large"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A small cake shared among all means small portions.",
+      "as": "সৰু কেক সকলোৰে মাজত ভগোৱা মানে সৰু অংশ।"
+    }
+  },
+  {
+    "id": "drawing-inferences-041",
+    "q": {
+      "en": "Passage: The shop opened at 9 a.m., but by 9:15 the shelves were empty.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The shop opened at 9 a.m., but by 9:15 the shelves were empty.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The shop had no shelves",
+        "as": "The shop had no shelves"
+      },
+      {
+        "en": "Goods were sold very quickly",
+        "as": "Goods were sold very quickly"
+      },
+      {
+        "en": "The shop was closed",
+        "as": "The shop was closed"
+      },
+      {
+        "en": "There were no customers",
+        "as": "There were no customers"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Empty shelves soon after opening suggest fast sales.",
+      "as": "মুকলিৰ লগে লগে ৰিক্ত তাকে দ্ৰুত বিক্ৰী সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-042",
+    "q": {
+      "en": "Passage: The garden was full of flowers, yet no fragrance could be felt.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The garden was full of flowers, yet no fragrance could be felt.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The garden was closed",
+        "as": "The garden was closed"
+      },
+      {
+        "en": "The flowers may have had little scent",
+        "as": "The flowers may have had little scent"
+      },
+      {
+        "en": "There were no flowers",
+        "as": "There were no flowers"
+      },
+      {
+        "en": "The flowers were artificial",
+        "as": "The flowers were artificial"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Flowers without fragrance suggest they had little scent.",
+      "as": "সুগন্ধি নথকা ফুলে কম গোন্ধ সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-043",
+    "q": {
+      "en": "Passage: The road was wet, but the sky was clear and bright.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The road was wet, but the sky was clear and bright.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The road was wet for a reason other than rain",
+        "as": "The road was wet for a reason other than rain"
+      },
+      {
+        "en": "It was raining",
+        "as": "It was raining"
+      },
+      {
+        "en": "It was night",
+        "as": "It was night"
+      },
+      {
+        "en": "The road was dry",
+        "as": "The road was dry"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A clear sky with a wet road rules out rain.",
+      "as": "পৰিষ্কাৰ আকাশ আৰু তিতা পথে বৰষুণক অস্বীকাৰ কৰে।"
+    }
+  },
+  {
+    "id": "drawing-inferences-044",
+    "q": {
+      "en": "Passage: The team won the match, but the players looked unhappy.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The team won the match, but the players looked unhappy.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The players did not play",
+        "as": "The players did not play"
+      },
+      {
+        "en": "The team lost",
+        "as": "The team lost"
+      },
+      {
+        "en": "The match was cancelled",
+        "as": "The match was cancelled"
+      },
+      {
+        "en": "The players may have been unhappy about something else",
+        "as": "The players may have been unhappy about something else"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A win with unhappy players suggests another cause.",
+      "as": "জয়ী দল আৰু অসন্তুষ্ট খেলুৱৈয়ে আন কাৰণ সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-045",
+    "q": {
+      "en": "Passage: The temple was crowded, but no priest was seen.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The temple was crowded, but no priest was seen.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "There were no visitors",
+        "as": "There were no visitors"
+      },
+      {
+        "en": "The temple was closed",
+        "as": "The temple was closed"
+      },
+      {
+        "en": "The priest may have been away",
+        "as": "The priest may have been away"
+      },
+      {
+        "en": "The temple had no idol",
+        "as": "The temple had no idol"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Crowds without the priest suggest he was absent.",
+      "as": "ভিৰ আৰু পুৰোহিত নথকাই তেওঁ অনুপস্থিত বুলি সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-046",
+    "q": {
+      "en": "Passage: The fruit basket was full, but all the fruits were sour.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The fruit basket was full, but all the fruits were sour.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The fruits were sweet",
+        "as": "The fruits were sweet"
+      },
+      {
+        "en": "The basket was empty",
+        "as": "The basket was empty"
+      },
+      {
+        "en": "The fruits were not yet ripe",
+        "as": "The fruits were not yet ripe"
+      },
+      {
+        "en": "The fruits were rotten",
+        "as": "The fruits were rotten"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sour fruit usually means unripe fruit.",
+      "as": "টেঙা ফলে সাধাৰণতে কেঁচা ফল সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-047",
+    "q": {
+      "en": "Passage: The letter had no stamp, yet it reached the destination.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The letter had no stamp, yet it reached the destination.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "There was no address",
+        "as": "There was no address"
+      },
+      {
+        "en": "Someone paid the postage on delivery",
+        "as": "Someone paid the postage on delivery"
+      },
+      {
+        "en": "The letter was returned",
+        "as": "The letter was returned"
+      },
+      {
+        "en": "The letter was not sent",
+        "as": "The letter was not sent"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A delivered unstamped letter means postage was paid another way.",
+      "as": "মোহৰ নথকা চিঠি পালে মানে আন উপায়ে ডাক মাচুল দিয়া হৈছে।"
+    }
+  },
+  {
+    "id": "drawing-inferences-048",
+    "q": {
+      "en": "Passage: The pond was full in summer, but dry in winter.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The pond was full in summer, but dry in winter.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "The water level changed with the season",
+        "as": "The water level changed with the season"
+      },
+      {
+        "en": "The pond was always full",
+        "as": "The pond was always full"
+      },
+      {
+        "en": "The pond had no water in summer",
+        "as": "The pond had no water in summer"
+      },
+      {
+        "en": "The pond was always dry",
+        "as": "The pond was always dry"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Full in summer and dry in winter shows seasonal change.",
+      "as": "গ্ৰীষ্মত ভৰা আৰু শীতত শুকানই ঋতুভিত্তিক সলনি সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-049",
+    "q": {
+      "en": "Passage: The clock struck twelve, but it was bright daylight.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The clock struck twelve, but it was bright daylight.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "It was midnight",
+        "as": "It was midnight"
+      },
+      {
+        "en": "The clock may have been wrong",
+        "as": "The clock may have been wrong"
+      },
+      {
+        "en": "The sun had set",
+        "as": "The sun had set"
+      },
+      {
+        "en": "The clock was correct",
+        "as": "The clock was correct"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bright daylight at twelve suggests the clock was wrong.",
+      "as": "দিনৰ ১২ বজাত উজ্জ্বল পোহৰে ঘড়ী ভুল সূচায়।"
+    }
+  },
+  {
+    "id": "drawing-inferences-050",
+    "q": {
+      "en": "Passage: The dog barked loudly, but no stranger was at the gate.\nWhich inference follows?",
+      "as": "অনুচ্ছেদ: The dog barked loudly, but no stranger was at the gate.\nকোনটো সিদ্ধান্ত ওলায়?"
+    },
+    "options": [
+      {
+        "en": "There was a stranger",
+        "as": "There was a stranger"
+      },
+      {
+        "en": "The dog may have barked at something else",
+        "as": "The dog may have barked at something else"
+      },
+      {
+        "en": "The gate was open",
+        "as": "The gate was open"
+      },
+      {
+        "en": "The dog was silent",
+        "as": "The dog was silent"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Barking without a stranger suggests another trigger.",
+      "as": "অপৰিচিত নোহোৱাকৈ ভুকুৱাই আন কাৰণ সূচায়।"
     }
   }
 ]

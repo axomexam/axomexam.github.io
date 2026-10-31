@@ -2,61 +2,1891 @@
   {
     "id": "complex-puzzles-001",
     "q": {
-      "en": "Five boxes are placed one above another. P is immediately above Q. Q is at the bottom. Who is at the top?",
-      "as": "পাঁচটা পেটিকা এটাৰ ওপৰত আনটো ৰখা হৈছে। P ৰ Q ৰ ঠিক ওপৰত। Q একেবাৰে তলত। ওপৰত কোন?"
+      "en": "4 people C, B, D, A live on different floors of a building, from bottom to top in the order C, B, D, A. Who lives on the top floor?",
+      "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, B, D, A। ওপৰ মহলাত কোন থাকে?"
     },
     "options": [
       {
-        "en": "P",
-        "as": "P"
+        "en": "D",
+        "as": "D"
       },
       {
-        "en": "Q",
-        "as": "Q"
+        "en": "A",
+        "as": "A"
       },
       {
-        "en": "Cannot be determined from the given clue",
-        "as": "দিয়া সূত্ৰৰ পৰা নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "B",
+        "as": "B"
       },
       {
-        "en": "The box just above P",
-        "as": "P ৰ ঠিক ওপৰৰ পেটিকাটো"
+        "en": "C",
+        "as": "C"
       }
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "en": "The clue fixes only P and Q; the positions of the other three boxes are not given, so the top box cannot be determined.",
-      "as": "সূত্ৰই কেৱল P আৰু Q স্থিৰ কৰে; আন তিনিটা পেটিকাৰ অৱস্থান দিয়া নাই, গতিকে ওপৰৰ পেটিকাটো নিৰ্ণয় কৰিব নোৱাৰি।"
+      "en": "A is listed last (highest), so A lives on the top floor.",
+      "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
     }
   },
   {
     "id": "complex-puzzles-002",
     "q": {
-      "en": "In a row of seven boxes, R is in the exact middle. How many boxes are to its right?",
-      "as": "সাতটা পেটিকাৰ এটা শাৰীত R ঠিক মাজত। তাৰ সোঁফালে কিমানটা পেটিকা?"
+      "en": "4 people live on different floors, from bottom to top in the order C, D, B, A. Who lives immediately above B?",
+      "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, D, B, A। B ৰ ঠিক ওপৰত কোন থাকে?"
     },
     "options": [
       {
-        "en": "4",
-        "as": "৪"
+        "en": "B",
+        "as": "B"
       },
       {
-        "en": "2",
-        "as": "২"
+        "en": "A",
+        "as": "A"
       },
       {
-        "en": "6",
-        "as": "৬"
+        "en": "D",
+        "as": "D"
       },
       {
-        "en": "3",
-        "as": "৩"
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The floor just above B is occupied by A.",
+      "as": "B ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-003",
+    "q": {
+      "en": "4 people live on different floors, from bottom to top in the order A, D, B, C. Who lives on the ground floor?",
+      "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, D, B, C। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is listed first (lowest), so A lives on the ground floor.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-004",
+    "q": {
+      "en": "4 people live on different floors, from bottom to top in the order D, A, B, C. Who lives on the ground floor?",
+      "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, A, B, C। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D is listed first (lowest), so D lives on the ground floor.",
+      "as": "D ক্ৰমত প্ৰথম, গতিকে D তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-005",
+    "q": {
+      "en": "4 people live on different floors, from bottom to top in the order A, B, D, C. Who lives on the ground floor?",
+      "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, B, D, C। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "The middle position of seven is the fourth, which leaves three boxes on each side.",
-      "as": "সাতটাৰ মাজৰ স্থান চতুৰ্থ, যাৰ ফলত দুয়োফালে তিনিটাকৈ পেটিকা থাকে।"
+      "en": "A is listed first (lowest), so A lives on the ground floor.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-006",
+    "q": {
+      "en": "4 people D, A, B, C live on different floors of a building, from bottom to top in the order D, A, B, C. Who lives on the top floor?",
+      "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, A, B, C। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C is listed last (highest), so C lives on the top floor.",
+      "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-007",
+    "q": {
+      "en": "4 people B, D, C, A live on different floors of a building, from bottom to top in the order B, D, C, A. Who lives on the top floor?",
+      "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম B, D, C, A। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is listed last (highest), so A lives on the top floor.",
+      "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-008",
+    "q": {
+      "en": "4 people live on different floors, from bottom to top in the order A, C, B, D. Who lives on the ground floor?",
+      "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, C, B, D। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is listed first (lowest), so A lives on the ground floor.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-009",
+    "q": {
+      "en": "4 people A, C, D, B live on different floors of a building, from bottom to top in the order A, C, D, B. Who lives on the top floor?",
+      "as": "4 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, C, D, B। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B is listed last (highest), so B lives on the top floor.",
+      "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-010",
+    "q": {
+      "en": "4 people live on different floors, from bottom to top in the order B, C, D, A. Who lives immediately above D?",
+      "as": "4 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম B, C, D, A। D ৰ ঠিক ওপৰত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The floor just above D is occupied by A.",
+      "as": "D ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-011",
+    "q": {
+      "en": "5 people A, B, E, D, C live on different floors of a building, from bottom to top in the order A, B, E, D, C. Who lives on the top floor?",
+      "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, B, E, D, C। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C is listed last (highest), so C lives on the top floor.",
+      "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-012",
+    "q": {
+      "en": "5 people D, C, A, E, B live on different floors of a building, from bottom to top in the order D, C, A, E, B. Who lives on the top floor?",
+      "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, C, A, E, B। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B is listed last (highest), so B lives on the top floor.",
+      "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-013",
+    "q": {
+      "en": "5 people E, A, D, B, C live on different floors of a building, from bottom to top in the order E, A, D, B, C. Who lives on the top floor?",
+      "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, A, D, B, C। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C is listed last (highest), so C lives on the top floor.",
+      "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-014",
+    "q": {
+      "en": "5 people live on different floors, from bottom to top in the order C, B, E, D, A. Who lives on the ground floor?",
+      "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, B, E, D, A। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C is listed first (lowest), so C lives on the ground floor.",
+      "as": "C ক্ৰমত প্ৰথম, গতিকে C তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-015",
+    "q": {
+      "en": "5 people live on different floors, from bottom to top in the order A, B, C, D, E. Who lives on the ground floor?",
+      "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, B, C, D, E। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is listed first (lowest), so A lives on the ground floor.",
+      "as": "A ক্ৰমত প্ৰথম, গতিকে A তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-016",
+    "q": {
+      "en": "5 people live on different floors, from bottom to top in the order C, A, D, E, B. Who lives on the ground floor?",
+      "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, A, D, E, B। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C is listed first (lowest), so C lives on the ground floor.",
+      "as": "C ক্ৰমত প্ৰথম, গতিকে C তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-017",
+    "q": {
+      "en": "5 people live on different floors, from bottom to top in the order A, E, D, C, B. Who lives immediately above D?",
+      "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, E, D, C, B। D ৰ ঠিক ওপৰত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The floor just above D is occupied by C.",
+      "as": "D ৰ ঠিক ওপৰৰ মহলাত C থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-018",
+    "q": {
+      "en": "5 people D, B, C, A, E live on different floors of a building, from bottom to top in the order D, B, C, A, E. Who lives on the top floor?",
+      "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, B, C, A, E। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "E is listed last (highest), so E lives on the top floor.",
+      "as": "E ক্ৰমত শেষত, গতিকে E ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-019",
+    "q": {
+      "en": "5 people live on different floors, from bottom to top in the order C, D, E, B, A. Who lives on the ground floor?",
+      "as": "5 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, D, E, B, A। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C is listed first (lowest), so C lives on the ground floor.",
+      "as": "C ক্ৰমত প্ৰথম, গতিকে C তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-020",
+    "q": {
+      "en": "5 people D, C, E, B, A live on different floors of a building, from bottom to top in the order D, C, E, B, A. Who lives on the top floor?",
+      "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, C, E, B, A। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is listed last (highest), so A lives on the top floor.",
+      "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-021",
+    "q": {
+      "en": "5 people E, A, C, B, D live on different floors of a building, from bottom to top in the order E, A, C, B, D. Who lives on the top floor?",
+      "as": "5 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, A, C, B, D। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "D is listed last (highest), so D lives on the top floor.",
+      "as": "D ক্ৰমত শেষত, গতিকে D ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-022",
+    "q": {
+      "en": "6 people C, A, B, D, F, E live on different floors of a building, from bottom to top in the order C, A, B, D, F, E. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, A, B, D, F, E। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "E is listed last (highest), so E lives on the top floor.",
+      "as": "E ক্ৰমত শেষত, গতিকে E ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-023",
+    "q": {
+      "en": "6 people live on different floors, from bottom to top in the order E, C, F, B, A, D. Who lives on the ground floor?",
+      "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, C, F, B, A, D। তলৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "E is listed first (lowest), so E lives on the ground floor.",
+      "as": "E ক্ৰমত প্ৰথম, গতিকে E তলৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-024",
+    "q": {
+      "en": "6 people A, E, D, C, F, B live on different floors of a building, from bottom to top in the order A, E, D, C, F, B. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম A, E, D, C, F, B। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B is listed last (highest), so B lives on the top floor.",
+      "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-025",
+    "q": {
+      "en": "6 people live on different floors, from bottom to top in the order C, A, D, B, E, F. Who lives immediately above A?",
+      "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, A, D, B, E, F। A ৰ ঠিক ওপৰত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The floor just above A is occupied by D.",
+      "as": "A ৰ ঠিক ওপৰৰ মহলাত D থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-026",
+    "q": {
+      "en": "6 people F, A, D, B, C, E live on different floors of a building, from bottom to top in the order F, A, D, B, C, E. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম F, A, D, B, C, E। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "E is listed last (highest), so E lives on the top floor.",
+      "as": "E ক্ৰমত শেষত, গতিকে E ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-027",
+    "q": {
+      "en": "6 people E, D, C, F, A, B live on different floors of a building, from bottom to top in the order E, D, C, F, A, B. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম E, D, C, F, A, B। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B is listed last (highest), so B lives on the top floor.",
+      "as": "B ক্ৰমত শেষত, গতিকে B ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-028",
+    "q": {
+      "en": "6 people D, B, E, F, C, A live on different floors of a building, from bottom to top in the order D, B, E, F, C, A. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, B, E, F, C, A। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is listed last (highest), so A lives on the top floor.",
+      "as": "A ক্ৰমত শেষত, গতিকে A ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-029",
+    "q": {
+      "en": "6 people D, E, B, F, A, C live on different floors of a building, from bottom to top in the order D, E, B, F, A, C. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম D, E, B, F, A, C। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "C is listed last (highest), so C lives on the top floor.",
+      "as": "C ক্ৰমত শেষত, গতিকে C ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-030",
+    "q": {
+      "en": "6 people live on different floors, from bottom to top in the order F, D, A, C, E, B. Who lives immediately above D?",
+      "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম F, D, A, C, E, B। D ৰ ঠিক ওপৰত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The floor just above D is occupied by A.",
+      "as": "D ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-031",
+    "q": {
+      "en": "6 people F, B, A, E, C, D live on different floors of a building, from bottom to top in the order F, B, A, E, C, D. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম F, B, A, E, C, D। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "D is listed last (highest), so D lives on the top floor.",
+      "as": "D ক্ৰমত শেষত, গতিকে D ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-032",
+    "q": {
+      "en": "6 people B, E, A, D, C, F live on different floors of a building, from bottom to top in the order B, E, A, D, C, F. Who lives on the top floor?",
+      "as": "6 জন মানুহে এটা ভৱনৰ বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম B, E, A, D, C, F। ওপৰ মহলাত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "F is listed last (highest), so F lives on the top floor.",
+      "as": "F ক্ৰমত শেষত, গতিকে F ওপৰ মহলাত থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-033",
+    "q": {
+      "en": "6 people live on different floors, from bottom to top in the order C, F, B, A, D, E. Who lives immediately above B?",
+      "as": "6 জন মানুহে বেলেগ বেলেগ মহলাত থাকে, তলৰ পৰা ওপৰলৈ ক্ৰম C, F, B, A, D, E। B ৰ ঠিক ওপৰত কোন থাকে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The floor just above B is occupied by A.",
+      "as": "B ৰ ঠিক ওপৰৰ মহলাত A থাকে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-034",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is A on Friday, C on Tuesday, D on Thursday, B on Wednesday, E on Monday, so A visits on Friday. On which day does A visit?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Friday, C ক Tuesday, D ক Thursday, B ক Wednesday, E ক Monday, অৰ্থাৎ A ক Friday তাৰিখে যায়। A ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "শুক্ৰবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The list says A visits on Friday.",
+      "as": "তালিকাত A ক Friday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-035",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is A on Thursday, C on Monday, B on Tuesday, D on Wednesday, so A visits on Thursday. On which day does A visit?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Thursday, C ক Monday, B ক Tuesday, D ক Wednesday, অৰ্থাৎ A ক Thursday তাৰিখে যায়। A ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says A visits on Thursday.",
+      "as": "তালিকাত A ক Thursday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-036",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, B on Wednesday, A on Thursday, C on Friday, E on Monday. Who visits on Wednesday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, B ক Wednesday, A ক Thursday, C ক Friday, E ক Monday। Wednesday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says B visits on Wednesday.",
+      "as": "তালিকাত B ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-037",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is C on Thursday, A on Monday, B on Wednesday, E on Tuesday, D on Friday, so B visits on Wednesday. On which day does B visit?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Thursday, A ক Monday, B ক Wednesday, E ক Tuesday, D ক Friday, অৰ্থাৎ B ক Wednesday তাৰিখে যায়। B ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The list says B visits on Wednesday.",
+      "as": "তালিকাত B ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-038",
+    "q": {
+      "en": "6 friends visit a library on 6 different days. The order of visits is E on Tuesday, F on Saturday, A on Wednesday, B on Monday, D on Thursday, C on Friday, so A visits on Wednesday. On which day does A visit?",
+      "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Tuesday, F ক Saturday, A ক Wednesday, B ক Monday, D ক Thursday, C ক Friday, অৰ্থাৎ A ক Wednesday তাৰিখে যায়। A ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The list says A visits on Wednesday.",
+      "as": "তালিকাত A ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-039",
+    "q": {
+      "en": "6 friends visit a library on 6 different days. The order of visits is D on Saturday, B on Tuesday, E on Friday, A on Monday, F on Thursday, C on Wednesday, so E visits on Friday. On which day does E visit?",
+      "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Saturday, B ক Tuesday, E ক Friday, A ক Monday, F ক Thursday, C ক Wednesday, অৰ্থাৎ E ক Friday তাৰিখে যায়। E ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুক্ৰবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The list says E visits on Friday.",
+      "as": "তালিকাত E ক Friday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-040",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is A on Monday, D on Tuesday, B on Thursday, C on Wednesday. Who visits on Monday?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Monday, D ক Tuesday, B ক Thursday, C ক Wednesday। Monday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says A visits on Monday.",
+      "as": "তালিকাত A ক Monday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-041",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is C on Tuesday, D on Wednesday, B on Thursday, A on Monday. Who visits on Thursday?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Tuesday, D ক Wednesday, B ক Thursday, A ক Monday। Thursday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says B visits on Thursday.",
+      "as": "তালিকাত B ক Thursday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-042",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is C on Wednesday, A on Tuesday, B on Thursday, D on Monday. Who visits on Tuesday?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Wednesday, A ক Tuesday, B ক Thursday, D ক Monday। Tuesday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The list says A visits on Tuesday.",
+      "as": "তালিকাত A ক Tuesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-043",
+    "q": {
+      "en": "6 friends visit a library on 6 different days. The order of visits is C on Friday, E on Wednesday, A on Saturday, B on Monday, D on Thursday, F on Tuesday. Who visits on Thursday?",
+      "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Friday, E ক Wednesday, A ক Saturday, B ক Monday, D ক Thursday, F ক Tuesday। Thursday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The list says D visits on Thursday.",
+      "as": "তালিকাত D ক Thursday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-044",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is C on Friday, A on Tuesday, D on Wednesday, B on Thursday, E on Monday. Who visits on Wednesday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Friday, A ক Tuesday, D ক Wednesday, B ক Thursday, E ক Monday। Wednesday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says D visits on Wednesday.",
+      "as": "তালিকাত D ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-045",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, E on Monday, A on Thursday, C on Friday, B on Wednesday. Who visits on Monday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, E ক Monday, A ক Thursday, C ক Friday, B ক Wednesday। Monday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The list says E visits on Monday.",
+      "as": "তালিকাত E ক Monday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-046",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is B on Friday, D on Monday, E on Thursday, C on Wednesday, A on Tuesday, so A visits on Tuesday. On which day does A visit?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Friday, D ক Monday, E ক Thursday, C ক Wednesday, A ক Tuesday, অৰ্থাৎ A ক Tuesday তাৰিখে যায়। A ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says A visits on Tuesday.",
+      "as": "তালিকাত A ক Tuesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-047",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is A on Thursday, B on Monday, E on Friday, C on Tuesday, D on Wednesday. Who visits on Tuesday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Thursday, B ক Monday, E ক Friday, C ক Tuesday, D ক Wednesday। Tuesday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says C visits on Tuesday.",
+      "as": "তালিকাত C ক Tuesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-048",
+    "q": {
+      "en": "6 friends visit a library on 6 different days. The order of visits is C on Saturday, B on Monday, A on Wednesday, F on Friday, E on Thursday, D on Tuesday. Who visits on Saturday?",
+      "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Saturday, B ক Monday, A ক Wednesday, F ক Friday, E ক Thursday, D ক Tuesday। Saturday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says C visits on Saturday.",
+      "as": "তালিকাত C ক Saturday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-049",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, B on Wednesday, A on Friday, C on Thursday, E on Monday, so C visits on Thursday. On which day does C visit?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, B ক Wednesday, A ক Friday, C ক Thursday, E ক Monday, অৰ্থাৎ C ক Thursday তাৰিখে যায়। C ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says C visits on Thursday.",
+      "as": "তালিকাত C ক Thursday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-050",
+    "q": {
+      "en": "6 friends visit a library on 6 different days. The order of visits is F on Thursday, D on Friday, E on Monday, C on Wednesday, A on Tuesday, B on Saturday. Who visits on Saturday?",
+      "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম F ক Thursday, D ক Friday, E ক Monday, C ক Wednesday, A ক Tuesday, B ক Saturday। Saturday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says B visits on Saturday.",
+      "as": "তালিকাত B ক Saturday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-051",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is B on Monday, A on Tuesday, D on Thursday, C on Wednesday, so B visits on Monday. On which day does B visit?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Monday, A ক Tuesday, D ক Thursday, C ক Wednesday, অৰ্থাৎ B ক Monday তাৰিখে যায়। B ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The list says B visits on Monday.",
+      "as": "তালিকাত B ক Monday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-052",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is E on Monday, D on Thursday, B on Tuesday, A on Friday, C on Wednesday. Who visits on Monday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Monday, D ক Thursday, B ক Tuesday, A ক Friday, C ক Wednesday। Monday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The list says E visits on Monday.",
+      "as": "তালিকাত E ক Monday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-053",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is A on Tuesday, D on Wednesday, C on Thursday, B on Monday. Who visits on Wednesday?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Tuesday, D ক Wednesday, C ক Thursday, B ক Monday। Wednesday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The list says D visits on Wednesday.",
+      "as": "তালিকাত D ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-054",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is D on Tuesday, E on Friday, C on Monday, A on Wednesday, B on Thursday. Who visits on Thursday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Tuesday, E ক Friday, C ক Monday, A ক Wednesday, B ক Thursday। Thursday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The list says B visits on Thursday.",
+      "as": "তালিকাত B ক Thursday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-055",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is A on Monday, D on Thursday, C on Friday, E on Wednesday, B on Tuesday. Who visits on Friday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Monday, D ক Thursday, C ক Friday, E ক Wednesday, B ক Tuesday। Friday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says C visits on Friday.",
+      "as": "তালিকাত C ক Friday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-056",
+    "q": {
+      "en": "6 friends visit a library on 6 different days. The order of visits is B on Wednesday, F on Tuesday, C on Friday, A on Thursday, E on Saturday, D on Monday, so D visits on Monday. On which day does D visit?",
+      "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Wednesday, F ক Tuesday, C ক Friday, A ক Thursday, E ক Saturday, D ক Monday, অৰ্থাৎ D ক Monday তাৰিখে যায়। D ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says D visits on Monday.",
+      "as": "তালিকাত D ক Monday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-057",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is E on Friday, C on Monday, D on Thursday, A on Tuesday, B on Wednesday, so D visits on Thursday. On which day does D visit?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Friday, C ক Monday, D ক Thursday, A ক Tuesday, B ক Wednesday, অৰ্থাৎ D ক Thursday তাৰিখে যায়। D ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says D visits on Thursday.",
+      "as": "তালিকাত D ক Thursday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-058",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is A on Tuesday, C on Wednesday, D on Monday, B on Thursday, so A visits on Tuesday. On which day does A visit?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম A ক Tuesday, C ক Wednesday, D ক Monday, B ক Thursday, অৰ্থাৎ A ক Tuesday তাৰিখে যায়। A ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says A visits on Tuesday.",
+      "as": "তালিকাত A ক Tuesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-059",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is D on Thursday, A on Monday, C on Wednesday, B on Tuesday, so C visits on Wednesday. On which day does C visit?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম D ক Thursday, A ক Monday, C ক Wednesday, B ক Tuesday, অৰ্থাৎ C ক Wednesday তাৰিখে যায়। C ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The list says C visits on Wednesday.",
+      "as": "তালিকাত C ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-060",
+    "q": {
+      "en": "4 friends visit a library on 4 different days. The order of visits is B on Wednesday, C on Tuesday, A on Monday, D on Thursday, so B visits on Wednesday. On which day does B visit?",
+      "as": "4 জন বন্ধুৱে 4 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Wednesday, C ক Tuesday, A ক Monday, D ক Thursday, অৰ্থাৎ B ক Wednesday তাৰিখে যায়। B ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The list says B visits on Wednesday.",
+      "as": "তালিকাত B ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-061",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is C on Wednesday, A on Tuesday, B on Monday, D on Friday, E on Thursday. Who visits on Wednesday?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম C ক Wednesday, A ক Tuesday, B ক Monday, D ক Friday, E ক Thursday। Wednesday তাৰিখে কোন যায়?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The list says C visits on Wednesday.",
+      "as": "তালিকাত C ক Wednesday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-062",
+    "q": {
+      "en": "6 friends visit a library on 6 different days. The order of visits is B on Tuesday, E on Monday, F on Thursday, C on Saturday, A on Friday, D on Wednesday, so C visits on Saturday. On which day does C visit?",
+      "as": "6 জন বন্ধুৱে 6 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম B ক Tuesday, E ক Monday, F ক Thursday, C ক Saturday, A ক Friday, D ক Wednesday, অৰ্থাৎ C ক Saturday তাৰিখে যায়। C ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The list says C visits on Saturday.",
+      "as": "তালিকাত C ক Saturday তাৰিখে যায় বুলি আছে।"
+    }
+  },
+  {
+    "id": "complex-puzzles-063",
+    "q": {
+      "en": "5 friends visit a library on 5 different days. The order of visits is E on Wednesday, A on Thursday, D on Tuesday, B on Friday, C on Monday, so A visits on Thursday. On which day does A visit?",
+      "as": "5 জন বন্ধুৱে 5 টা বেলেগ দিনত পুথিভঁৰাললৈ যায়। ভ্ৰমণৰ ক্ৰম E ক Wednesday, A ক Thursday, D ক Tuesday, B ক Friday, C ক Monday, অৰ্থাৎ A ক Thursday তাৰিখে যায়। A ক কোন দিনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The list says A visits on Thursday.",
+      "as": "তালিকাত A ক Thursday তাৰিখে যায় বুলি আছে।"
     }
   }
 ]

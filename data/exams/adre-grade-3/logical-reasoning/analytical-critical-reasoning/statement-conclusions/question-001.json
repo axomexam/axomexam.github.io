@@ -2,61 +2,1531 @@
   {
     "id": "statement-conclusions-001",
     "q": {
-      "en": "Statement: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses fade quickly. II. All flowers are roses.",
-      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান ফুল সোনকালে শুকায়। সিদ্ধান্ত: I. কিছুমান গোলাপ সোনকালে শুকায়। II. সকলো ফুল গোলাপ।"
+      "en": "Statement: All roses are flowers. All flowers are plants.\nConclusions: I. All roses are plants. II. All plants are roses.",
+      "as": "বিবৃতি: All roses are flowers. All flowers are plants.\nসিদ্ধান্ত: I. All roses are plants. II. All plants are roses."
     },
     "options": [
       {
-        "en": "Only I follows",
-        "as": "কেৱল I ওলায়"
-      },
-      {
-        "en": "Only II follows",
-        "as": "কেৱল II ওলায়"
-      },
-      {
         "en": "Neither I nor II follows",
-        "as": "I বা II এটাও নোলায়"
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
       },
       {
         "en": "Both I and II follow",
-        "as": "I আৰু II দুয়োটা ওলায়"
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
       }
     ],
     "correct": 2,
     "explanation": {
-      "en": "The flowers that fade quickly need not be roses, and 'all roses are flowers' does not mean all flowers are roses, so neither conclusion follows.",
-      "as": "সোনকালে শুকোৱা ফুলবোৰ গোলাপ নহ'বও পাৰে, আৰু 'সকলো গোলাপ ফুল' মানে সকলো ফুল গোলাপ নহয়, গতিকে এটাও সিদ্ধান্ত নোলায়।"
+      "en": "Roses are inside flowers and flowers inside plants, so I follows; II reverses the relation.",
+      "as": "গোলাপ ফুলৰ ভিতৰত আৰু ফুল উদ্ভিদৰ ভিতৰত, গতিকে I ওলায়; II সম্পৰ্ক ওলোটাই।"
     }
   },
   {
     "id": "statement-conclusions-002",
     "q": {
-      "en": "Statement: Some pens are books. Conclusions: I. Some books are pens. II. All books are pens.",
-      "as": "বিবৃতি: কিছুমান কলম কিতাপ। সিদ্ধান্ত: I. কিছুমান কিতাপ কলম। II. সকলো কিতাপ কলম।"
+      "en": "Statement: All men are mortal. Socrates is a man.\nConclusions: I. Socrates is mortal. II. All mortals are men.",
+      "as": "বিবৃতি: All men are mortal. Socrates is a man.\nসিদ্ধান্ত: I. Socrates is mortal. II. All mortals are men."
     },
     "options": [
       {
-        "en": "Only II follows",
-        "as": "কেৱল II ওলায়"
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
       },
       {
-        "en": "Both follow",
-        "as": "দুয়োটা ওলায়"
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
       },
       {
-        "en": "Neither follows",
-        "as": "এটাও নোলায়"
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
       },
       {
-        "en": "Only I follows",
-        "as": "কেৱল I ওলায়"
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "'Some pens are books' means the two groups overlap, so some books are pens; but 'some' does not prove 'all'.",
-      "as": "'কিছুমান কলম কিতাপ' মানে দুটা দল ওপৰাওপৰ, গতিকে কিছুমান কিতাপ কলম; কিন্তু 'কিছুমান'এ 'সকলো' প্ৰমাণ নকৰে।"
+      "en": "Socrates is a man and all men are mortal, so I follows; II reverses the relation.",
+      "as": "চক্ৰেটিছ মানুহ আৰু সকলো মানুহ মৰণশীল, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "statement-conclusions-003",
+    "q": {
+      "en": "Statement: Some cats are black. Some black things are dogs.\nConclusions: I. Some cats are dogs. II. Some dogs are black.",
+      "as": "বিবৃতি: Some cats are black. Some black things are dogs.\nসিদ্ধান্ত: I. Some cats are dogs. II. Some dogs are black."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The overlap of cats and dogs is not certain, but some black things are dogs means II.",
+      "as": "মেকুৰী আৰু কুকুৰৰ ওপৰাওপৰ নিশ্চিত নহয়, কিন্তু কিছুমান ক’লা বস্তু কুকুৰ, গতিকে II ওলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-004",
+    "q": {
+      "en": "Statement: No man is perfect. All kings are men.\nConclusions: I. No king is perfect. II. All perfect beings are kings.",
+      "as": "বিবৃতি: No man is perfect. All kings are men.\nসিদ্ধান্ত: I. No king is perfect. II. All perfect beings are kings."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kings are men and no man is perfect, so I follows; II does not.",
+      "as": "ৰজাসকল মানুহ আৰু কোনো মানুহ নিখুঁত নহয়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-005",
+    "q": {
+      "en": "Statement: Some pens are books. All books are papers.\nConclusions: I. Some pens are papers. II. All papers are pens.",
+      "as": "বিবৃতি: Some pens are books. All books are papers.\nসিদ্ধান্ত: I. Some pens are papers. II. All papers are pens."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The pens that are books are also papers, so I follows; II does not.",
+      "as": "যিবোৰ কলম কিতাপ সেয়া কাগজো, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-006",
+    "q": {
+      "en": "Statement: All students are honest. Some honest people are rich.\nConclusions: I. Some students are rich. II. All honest people are students.",
+      "as": "বিবৃতি: All students are honest. Some honest people are rich.\nসিদ্ধান্ত: I. Some students are rich. II. All honest people are students."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The rich honest people need not be students, so neither conclusion follows.",
+      "as": "ধনী সৎ লোকসকল ছাত্ৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-007",
+    "q": {
+      "en": "Statement: Some doctors are women. All women are mothers.\nConclusions: I. Some doctors are mothers. II. All mothers are doctors.",
+      "as": "বিবৃতি: Some doctors are women. All women are mothers.\nসিদ্ধান্ত: I. Some doctors are mothers. II. All mothers are doctors."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The women who are doctors are also mothers, so I follows; II does not.",
+      "as": "যিবোৰ মহিলা ডাক্তৰ সেয়া মাকো, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-008",
+    "q": {
+      "en": "Statement: All squares are rectangles. All rectangles are quadrilaterals.\nConclusions: I. All squares are quadrilaterals. II. All quadrilaterals are squares.",
+      "as": "বিবৃতি: All squares are rectangles. All rectangles are quadrilaterals.\nসিদ্ধান্ত: I. All squares are quadrilaterals. II. All quadrilaterals are squares."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Squares lie inside rectangles inside quadrilaterals, so I follows; II does not.",
+      "as": "বৰ্গ আয়তক্ষেত্ৰৰ ভিতৰত আৰু আয়তক্ষেত্ৰ চতুৰ্ভুজৰ ভিতৰত, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-009",
+    "q": {
+      "en": "Statement: No fish is a bird. Some birds are parrots.\nConclusions: I. Some parrots are not fish. II. No parrot is a fish.",
+      "as": "বিবৃতি: No fish is a bird. Some birds are parrots.\nসিদ্ধান্ত: I. Some parrots are not fish. II. No parrot is a fish."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Parrots are birds and no bird is a fish, so I follows; II overstates it.",
+      "as": "ভাটৌ চৰাই আৰু কোনো চৰাই মাছ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-010",
+    "q": {
+      "en": "Statement: All metals conduct electricity. Copper is a metal.\nConclusions: I. Copper conducts electricity. II. All conductors are metals.",
+      "as": "বিবৃতি: All metals conduct electricity. Copper is a metal.\nসিদ্ধান্ত: I. Copper conducts electricity. II. All conductors are metals."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Copper is a metal and all metals conduct, so I follows; II reverses the relation.",
+      "as": "তাম এটা ধাতু আৰু সকলো ধাতু পৰিবাহী, গতিকে I ওলায়; II ওলোটাই।"
+    }
+  },
+  {
+    "id": "statement-conclusions-011",
+    "q": {
+      "en": "Statement: Some books are novels. All novels are stories.\nConclusions: I. Some books are stories. II. All stories are books.",
+      "as": "বিবৃতি: Some books are novels. All novels are stories.\nসিদ্ধান্ত: I. Some books are stories. II. All stories are books."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The books that are novels are also stories, so I follows; II does not.",
+      "as": "যিবোৰ কিতাপ উপন্যাস সেয়া কাহিনীও, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-012",
+    "q": {
+      "en": "Statement: All teachers are graduates. Some graduates are researchers.\nConclusions: I. Some teachers are researchers. II. All graduates are teachers.",
+      "as": "বিবৃতি: All teachers are graduates. Some graduates are researchers.\nসিদ্ধান্ত: I. Some teachers are researchers. II. All graduates are teachers."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The researchers need not be teachers, so neither conclusion follows.",
+      "as": "গৱেষকসকল শিক্ষক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-013",
+    "q": {
+      "en": "Statement: No cow is a dog. Some dogs are pets.\nConclusions: I. Some pets are not cows. II. No pet is a cow.",
+      "as": "বিবৃতি: No cow is a dog. Some dogs are pets.\nসিদ্ধান্ত: I. Some pets are not cows. II. No pet is a cow."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A pet that is a dog is not a cow, so I follows; II overstates it.",
+      "as": "কুকুৰ যি পোহনীয়া জন্তু সেয়া গৰু নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-014",
+    "q": {
+      "en": "Statement: All cars are vehicles. All vehicles have wheels.\nConclusions: I. All cars have wheels. II. All vehicles are cars.",
+      "as": "বিবৃতি: All cars are vehicles. All vehicles have wheels.\nসিদ্ধান্ত: I. All cars have wheels. II. All vehicles are cars."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cars are vehicles and vehicles have wheels, so I follows; II does not.",
+      "as": "গাড়ী বাহন আৰু বাহনৰ চকা থাকে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-015",
+    "q": {
+      "en": "Statement: Some mangoes are sweet. All sweet things are liked.\nConclusions: I. Some mangoes are liked. II. All liked things are sweet.",
+      "as": "বিবৃতি: Some mangoes are sweet. All sweet things are liked.\nসিদ্ধান্ত: I. Some mangoes are liked. II. All liked things are sweet."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The mangoes that are sweet are liked, so I follows; II does not.",
+      "as": "যিবোৰ আম মিঠা সেয়া পছন্দৰ, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-016",
+    "q": {
+      "en": "Statement: All poets are dreamers. Some dreamers are rich.\nConclusions: I. Some poets are rich. II. All dreamers are poets.",
+      "as": "বিবৃতি: All poets are dreamers. Some dreamers are rich.\nসিদ্ধান্ত: I. Some poets are rich. II. All dreamers are poets."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rich dreamers need not be poets, so neither conclusion follows.",
+      "as": "ধনী সপোনদৰ্শীসকল কবি নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-017",
+    "q": {
+      "en": "Statement: No tree is a stone. All stones are heavy.\nConclusions: I. No tree is heavy. II. Some heavy things are stones.",
+      "as": "বিবৃতি: No tree is a stone. All stones are heavy.\nসিদ্ধান্ত: I. No tree is heavy. II. Some heavy things are stones."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Stones are heavy, so some heavy things are stones; trees may still be heavy.",
+      "as": "শিল গধুৰ, গতিকে কিছুমান গধুৰ বস্তু শিল; গছো গধুৰ হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "statement-conclusions-018",
+    "q": {
+      "en": "Statement: All doctors are educated. All educated are respected.\nConclusions: I. All doctors are respected. II. All respected are doctors.",
+      "as": "বিবৃতি: All doctors are educated. All educated are respected.\nসিদ্ধান্ত: I. All doctors are respected. II. All respected are doctors."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Doctors are educated and educated are respected, so I follows; II does not.",
+      "as": "ডাক্তৰ শিক্ষিত আৰু শিক্ষিত সন্মানিত, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-019",
+    "q": {
+      "en": "Statement: Some birds cannot fly. All penguins are birds.\nConclusions: I. All penguins cannot fly. II. Some penguins may not fly.",
+      "as": "বিবৃতি: Some birds cannot fly. All penguins are birds.\nসিদ্ধান্ত: I. All penguins cannot fly. II. Some penguins may not fly."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "We only know that some birds cannot fly, so only the possibility in II is safe.",
+      "as": "আমি কেৱল জানোঁ কিছুমান চৰাই উৰিব নোৱাৰে, গতিকে II ৰ সম্ভাৱনাহে নিৰাপদ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-020",
+    "q": {
+      "en": "Statement: All gold is metal. No metal is cheap.\nConclusions: I. No gold is cheap. II. All cheap things are gold.",
+      "as": "বিবৃতি: All gold is metal. No metal is cheap.\nসিদ্ধান্ত: I. No gold is cheap. II. All cheap things are gold."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gold is metal and no metal is cheap, so I follows; II does not.",
+      "as": "সোণ ধাতু আৰু কোনো ধাতু সস্তা নহয়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-021",
+    "q": {
+      "en": "Statement: Some students play chess. All chess players are patient.\nConclusions: I. Some students are patient. II. All patient people play chess.",
+      "as": "বিবৃতি: Some students play chess. All chess players are patient.\nসিদ্ধান্ত: I. Some students are patient. II. All patient people play chess."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The students who play chess are patient, so I follows; II does not.",
+      "as": "যিবোৰ ছাত্ৰ দবা খেলে সেয়া ধৈৰ্যশীল, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-022",
+    "q": {
+      "en": "Statement: No reptile is a mammal. All snakes are reptiles.\nConclusions: I. No snake is a mammal. II. All mammals are snakes.",
+      "as": "বিবৃতি: No reptile is a mammal. All snakes are reptiles.\nসিদ্ধান্ত: I. No snake is a mammal. II. All mammals are snakes."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Snakes are reptiles and no reptile is a mammal, so I follows; II does not.",
+      "as": "সাপ সৰীসৃপ আৰু কোনো সৰীসৃপ স্তন্যপায়ী নহয়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-023",
+    "q": {
+      "en": "Statement: All singers are artists. Some artists are dancers.\nConclusions: I. Some singers are dancers. II. Some dancers are artists.",
+      "as": "বিবৃতি: All singers are artists. Some artists are dancers.\nসিদ্ধান্ত: I. Some singers are dancers. II. Some dancers are artists."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dancers who are artists are certain, but they need not be singers.",
+      "as": "নৃত্যশিল্পী যি শিল্পী সেয়া নিশ্চিত, কিন্তু তেওঁলোক গায়ক নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "statement-conclusions-024",
+    "q": {
+      "en": "Statement: All lakes are water bodies. Some water bodies are salty.\nConclusions: I. Some lakes are salty. II. All salty things are lakes.",
+      "as": "বিবৃতি: All lakes are water bodies. Some water bodies are salty.\nসিদ্ধান্ত: I. Some lakes are salty. II. All salty things are lakes."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Salty water bodies need not be lakes, so neither conclusion follows.",
+      "as": "নিমখীয়া জলাশয় বিল নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-025",
+    "q": {
+      "en": "Statement: Every rose has thorns. This flower has thorns.\nConclusions: I. This flower is a rose. II. Some roses have thorns.",
+      "as": "বিবৃতি: Every rose has thorns. This flower has thorns.\nসিদ্ধান্ত: I. This flower is a rose. II. Some roses have thorns."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Having thorns does not make it a rose, but II is directly given.",
+      "as": "কাঁইট থাকিলেই গোলাপ নহয়, কিন্তু II পোনপটীয়াকৈ দিয়া আছে।"
+    }
+  },
+  {
+    "id": "statement-conclusions-026",
+    "q": {
+      "en": "Statement: All honest men are respected. Some respected men are wealthy.\nConclusions: I. Some honest men are wealthy. II. All wealthy men are honest.",
+      "as": "বিবৃতি: All honest men are respected. Some respected men are wealthy.\nসিদ্ধান্ত: I. Some honest men are wealthy. II. All wealthy men are honest."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Wealthy respected men need not be honest, so neither conclusion follows.",
+      "as": "ধনী সন্মানিত লোকসকল সৎ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-027",
+    "q": {
+      "en": "Statement: No student is lazy. Some lazy people are clever.\nConclusions: I. Some clever people are not students. II. No clever person is a student.",
+      "as": "বিবৃতি: No student is lazy. Some lazy people are clever.\nসিদ্ধান্ত: I. Some clever people are not students. II. No clever person is a student."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A clever lazy person is not a student, so I follows; II overstates it.",
+      "as": "চতুৰ অলস ব্যক্তি ছাত্ৰ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-028",
+    "q": {
+      "en": "Statement: All chairs are furniture. All furniture is costly.\nConclusions: I. All chairs are costly. II. All costly things are chairs.",
+      "as": "বিবৃতি: All chairs are furniture. All furniture is costly.\nসিদ্ধান্ত: I. All chairs are costly. II. All costly things are chairs."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Chairs are furniture and furniture is costly, so I follows; II does not.",
+      "as": "চকী আচবাব আৰু আচবাব দামী, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-029",
+    "q": {
+      "en": "Statement: Some rivers are long. All long things are tiring to cross.\nConclusions: I. Some rivers are tiring to cross. II. All tiring things are rivers.",
+      "as": "বিবৃতি: Some rivers are long. All long things are tiring to cross.\nসিদ্ধান্ত: I. Some rivers are tiring to cross. II. All tiring things are rivers."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The rivers that are long are tiring to cross, so I follows; II does not.",
+      "as": "যিবোৰ নদী দীঘল সেয়া পাৰ হ'বলৈ কষ্টকৰ, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-030",
+    "q": {
+      "en": "Statement: No bird is a fish. Some fish are colourful.\nConclusions: I. Some colourful things are not birds. II. No colourful thing is a bird.",
+      "as": "বিবৃতি: No bird is a fish. Some fish are colourful.\nসিদ্ধান্ত: I. Some colourful things are not birds. II. No colourful thing is a bird."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A colourful fish is not a bird, so I follows; II overstates it.",
+      "as": "ৰঙীন মাছ চৰাই নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-031",
+    "q": {
+      "en": "Statement: All engineers are graduates. All graduates are literate.\nConclusions: I. All engineers are literate. II. All literate people are engineers.",
+      "as": "বিবৃতি: All engineers are graduates. All graduates are literate.\nসিদ্ধান্ত: I. All engineers are literate. II. All literate people are engineers."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Engineers are graduates and graduates are literate, so I follows; II does not.",
+      "as": "ইঞ্জিনিয়াৰ স্নাতক আৰু স্নাতক সাক্ষৰ, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-032",
+    "q": {
+      "en": "Statement: Some teachers are strict. All strict people are feared.\nConclusions: I. Some teachers are feared. II. All feared people are teachers.",
+      "as": "বিবৃতি: Some teachers are strict. All strict people are feared.\nসিদ্ধান্ত: I. Some teachers are feared. II. All feared people are teachers."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The teachers who are strict are feared, so I follows; II does not.",
+      "as": "যিবোৰ শিক্ষক কঠোৰ সেয়া ভয়ৰ পাত্র, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-033",
+    "q": {
+      "en": "Statement: All planets revolve. Earth is a planet.\nConclusions: I. Earth revolves. II. All revolving things are planets.",
+      "as": "বিবৃতি: All planets revolve. Earth is a planet.\nসিদ্ধান্ত: I. Earth revolves. II. All revolving things are planets."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Earth is a planet and all planets revolve, so I follows; II does not.",
+      "as": "পৃথিৱী এটা গ্ৰহ আৰু সকলো গ্ৰহ ঘূৰে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-034",
+    "q": {
+      "en": "Statement: No pen is a pencil. All pencils are wooden.\nConclusions: I. No pen is wooden. II. Some wooden things are pencils.",
+      "as": "বিবৃতি: No pen is a pencil. All pencils are wooden.\nসিদ্ধান্ত: I. No pen is wooden. II. Some wooden things are pencils."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Pencils are wooden, so II follows; pens may also be wooden.",
+      "as": "পেঞ্চিল কাঠৰ, গতিকে II ওলায়; কলমো কাঠৰ হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "statement-conclusions-035",
+    "q": {
+      "en": "Statement: All athletes are fit. Some fit people are doctors.\nConclusions: I. Some athletes are doctors. II. All doctors are athletes.",
+      "as": "বিবৃতি: All athletes are fit. Some fit people are doctors.\nসিদ্ধান্ত: I. Some athletes are doctors. II. All doctors are athletes."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fit doctors need not be athletes, so neither conclusion follows.",
+      "as": "ফিট ডাক্তৰসকল খেলুৱৈ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-036",
+    "q": {
+      "en": "Statement: Every triangle has three sides. This shape has three sides.\nConclusions: I. This shape is a triangle. II. Some triangles have three sides.",
+      "as": "বিবৃতি: Every triangle has three sides. This shape has three sides.\nসিদ্ধান্ত: I. This shape is a triangle. II. Some triangles have three sides."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Three sides does not prove it is a triangle, but II is directly given.",
+      "as": "তিনিটা বাহু থাকিলেই ত্ৰিভুজ নহয়, কিন্তু II পোনপটীয়াকৈ দিয়া আছে।"
+    }
+  },
+  {
+    "id": "statement-conclusions-037",
+    "q": {
+      "en": "Statement: All doors are wooden. Some wooden things are costly.\nConclusions: I. Some doors are costly. II. All costly things are doors.",
+      "as": "বিবৃতি: All doors are wooden. Some wooden things are costly.\nসিদ্ধান্ত: I. Some doors are costly. II. All costly things are doors."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Costly wooden things need not be doors, so neither conclusion follows.",
+      "as": "দামী কাঠৰ বস্তু দুৱাৰ নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-038",
+    "q": {
+      "en": "Statement: All judges are lawyers. Some lawyers are rich.\nConclusions: I. Some judges are rich. II. All rich persons are lawyers.",
+      "as": "বিবৃতি: All judges are lawyers. Some lawyers are rich.\nসিদ্ধান্ত: I. Some judges are rich. II. All rich persons are lawyers."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rich lawyers need not be judges, so neither conclusion follows.",
+      "as": "ধনী অধিবক্তা বিচাৰক নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-039",
+    "q": {
+      "en": "Statement: No insect is a mammal. A bee is an insect.\nConclusions: I. A bee is not a mammal. II. All mammals are bees.",
+      "as": "বিবৃতি: No insect is a mammal. A bee is an insect.\nসিদ্ধান্ত: I. A bee is not a mammal. II. All mammals are bees."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A bee is an insect and no insect is a mammal, so I follows; II does not.",
+      "as": "মৌমাখি এটা পতংগ আৰু কোনো পতংগ স্তন্যপায়ী নহয়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-040",
+    "q": {
+      "en": "Statement: All rivers flow. Some flowing things are wide.\nConclusions: I. Some rivers are wide. II. All wide things are rivers.",
+      "as": "বিবৃতি: All rivers flow. Some flowing things are wide.\nসিদ্ধান্ত: I. Some rivers are wide. II. All wide things are rivers."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Wide flowing things need not be rivers, so neither conclusion follows.",
+      "as": "প্ৰশস্ত প্ৰবাহিত বস্তু নদী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-041",
+    "q": {
+      "en": "Statement: All cups are containers. All containers hold things.\nConclusions: I. All cups hold things. II. All things that hold are cups.",
+      "as": "বিবৃতি: All cups are containers. All containers hold things.\nসিদ্ধান্ত: I. All cups hold things. II. All things that hold are cups."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cups are containers and containers hold, so I follows; II does not.",
+      "as": "কাপ পাত্ৰ আৰু পাত্ৰে ধৰি ৰাখে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-042",
+    "q": {
+      "en": "Statement: Some pens are red. All red things are bright.\nConclusions: I. Some pens are bright. II. All bright things are pens.",
+      "as": "বিবৃতি: Some pens are red. All red things are bright.\nসিদ্ধান্ত: I. Some pens are bright. II. All bright things are pens."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The pens that are red are bright, so I follows; II does not.",
+      "as": "যিবোৰ কলম ৰঙা সেয়া উজ্জ্বল, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-043",
+    "q": {
+      "en": "Statement: No student is dishonest. Some dishonest people are clever.\nConclusions: I. Some clever people are not students. II. No clever person is a student.",
+      "as": "বিবৃতি: No student is dishonest. Some dishonest people are clever.\nসিদ্ধান্ত: I. Some clever people are not students. II. No clever person is a student."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A clever dishonest person is not a student, so I follows; II overstates it.",
+      "as": "চতুৰ অসৎ ব্যক্তি ছাত্ৰ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-044",
+    "q": {
+      "en": "Statement: All lamps give light. Some lamps are costly.\nConclusions: I. Some costly things give light. II. All things that give light are lamps.",
+      "as": "বিবৃতি: All lamps give light. Some lamps are costly.\nসিদ্ধান্ত: I. Some costly things give light. II. All things that give light are lamps."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Costly lamps give light, so I follows; II does not.",
+      "as": "দামী চাকিয়ে পোহৰ দিয়ে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-045",
+    "q": {
+      "en": "Statement: All flowers need water. Some plants are flowers.\nConclusions: I. Some plants need water. II. All plants are flowers.",
+      "as": "বিবৃতি: All flowers need water. Some plants are flowers.\nসিদ্ধান্ত: I. Some plants need water. II. All plants are flowers."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The plants that are flowers need water, so I follows; II does not.",
+      "as": "যিবোৰ গছ ফুল সেয়া পানী লাগে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-046",
+    "q": {
+      "en": "Statement: Every citizen has rights. Some citizens pay tax.\nConclusions: I. Some people who pay tax have rights. II. All who pay tax are citizens.",
+      "as": "বিবৃতি: Every citizen has rights. Some citizens pay tax.\nসিদ্ধান্ত: I. Some people who pay tax have rights. II. All who pay tax are citizens."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tax-paying citizens have rights, so I follows; II does not.",
+      "as": "কৰ দিয়া নাগৰিকৰ অধিকাৰ আছে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-047",
+    "q": {
+      "en": "Statement: All metals are hard. Some hard things are costly.\nConclusions: I. Some metals are costly. II. All costly things are metals.",
+      "as": "বিবৃতি: All metals are hard. Some hard things are costly.\nসিদ্ধান্ত: I. Some metals are costly. II. All costly things are metals."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Costly hard things need not be metals, so neither conclusion follows.",
+      "as": "দামী কঠিন বস্তু ধাতু নহ'বও পাৰে, গতিকে এটাও নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-048",
+    "q": {
+      "en": "Statement: No tiger is a herbivore. Some herbivores are large.\nConclusions: I. Some large animals are not tigers. II. No large animal is a tiger.",
+      "as": "বিবৃতি: No tiger is a herbivore. Some herbivores are large.\nসিদ্ধান্ত: I. Some large animals are not tigers. II. No large animal is a tiger."
+    },
+    "options": [
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A large herbivore is not a tiger, so I follows; II overstates it.",
+      "as": "ডাঙৰ তৃণভোজী জন্তু বাঘ নহয়, গতিকে I ওলায়; II বেছি কয়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-049",
+    "q": {
+      "en": "Statement: All clocks show time. Some clocks are digital.\nConclusions: I. Some digital things show time. II. All things that show time are clocks.",
+      "as": "বিবৃতি: All clocks show time. Some clocks are digital.\nসিদ্ধান্ত: I. Some digital things show time. II. All things that show time are clocks."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Digital clocks show time, so I follows; II does not.",
+      "as": "ডিজিটেল ঘড়ীয়ে সময় দেখুৱায়, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-050",
+    "q": {
+      "en": "Statement: Some villages have schools. All schools have teachers.\nConclusions: I. Some villages have teachers. II. All villages have teachers.",
+      "as": "বিবৃতি: Some villages have schools. All schools have teachers.\nসিদ্ধান্ত: I. Some villages have teachers. II. All villages have teachers."
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The villages with schools have teachers, so I follows; II does not.",
+      "as": "বিদ্যালয় থকা গাঁৱত শিক্ষক আছে, গতিকে I ওলায়; II নোলায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-051",
+    "q": {
+      "en": "Statement: All windows are made of glass. Some glass things break easily.\nConclusions: I. Some windows break easily. II. All things that break easily are windows.",
+      "as": "বিবৃতি: All windows are made of glass. Some glass things break easily.\nসিদ্ধান্ত: I. Some windows break easily. II. All things that break easily are windows."
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I ওলায়"
+      },
+      {
+        "en": "Neither I nor II follows",
+        "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II ওলায়"
+      },
+      {
+        "en": "Both I and II follow",
+        "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Breakable glass things need not be windows, so neither follows.",
+      "as": "ভঙা-সৰা কাচৰ বস্তু খিৰিকী নহ'বও পাৰে, গতিকে এটাও নোলায়।"
     }
   }
 ]

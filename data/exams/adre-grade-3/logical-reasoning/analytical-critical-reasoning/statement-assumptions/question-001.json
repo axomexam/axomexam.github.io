@@ -2,61 +2,1501 @@
   {
     "id": "statement-assumptions-001",
     "q": {
-      "en": "Statement: Please use the footbridge to cross the road. Assumption: People can use the footbridge.",
-      "as": "বিবৃতি: ৰাস্তা পাৰ হ'বলৈ অনুগ্ৰহ কৰি খোজ-সেতু ব্যৱহাৰ কৰক। অনুমান: মানুহে খোজ-সেতু ব্যৱহাৰ কৰিব পাৰে।"
+      "en": "Statement: The school has decided to hold extra classes on Sundays for weak students.\nAssumptions: I. Weak students need extra help. II. Sunday is a holiday for the school.",
+      "as": "বিবৃতি: The school has decided to hold extra classes on Sundays for weak students.\nঅনুমান: I. Weak students need extra help. II. Sunday is a holiday for the school."
     },
     "options": [
       {
-        "en": "The assumption is implicit",
-        "as": "অনুমানটো লুকুৱাই আছে"
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
       },
       {
-        "en": "The assumption is not implicit",
-        "as": "অনুমানটো লুকুৱাই নাই"
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
       },
       {
-        "en": "The statement is false",
-        "as": "বিবৃতিটো অসঁচা"
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
       },
       {
-        "en": "Cannot be decided",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
       }
     ],
     "correct": 0,
     "explanation": {
-      "en": "The request makes sense only if people can use the footbridge, so the assumption is implicit.",
-      "as": "খোজ-সেতু মানুহে ব্যৱহাৰ কৰিব পাৰিলেহে অনুৰোধটোৰ অৰ্থ আছে, গতিকে অনুমানটো লুকুৱাই আছে।"
+      "en": "The decision to help weak students assumes they need extra help; whether Sunday is a holiday is not assumed.",
+      "as": "দুৰ্বল ছাত্ৰক সহায় কৰাৰ সিদ্ধান্তত তেওঁলোকৰ অতিৰিক্ত সহায়ৰ প্ৰয়োজন বুলি ধৰা হয়; দেওবাৰ বন্ধৰ কথা ধৰা নহয়।"
     }
   },
   {
     "id": "statement-assumptions-002",
     "q": {
-      "en": "Statement: Join the evening batch to improve your English. Assumption: An evening batch is available.",
-      "as": "বিবৃতি: আপোনাৰ ইংৰাজী উন্নত কৰিবলৈ সন্ধিয়াৰ বেট্চত যোগ দিয়ক। অনুমান: সন্ধিয়াৰ এটা বেট্চ উপলব্ধ।"
+      "en": "Statement: The company has started a free bus service for its employees.\nAssumptions: I. Employees need transport to reach the office. II. All employees own cars.",
+      "as": "বিবৃতি: The company has started a free bus service for its employees.\nঅনুমান: I. Employees need transport to reach the office. II. All employees own cars."
     },
     "options": [
       {
-        "en": "The assumption is not implicit",
-        "as": "অনুমানটো লুকুৱাই নাই"
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
       },
       {
-        "en": "The assumption is implicit",
-        "as": "অনুমানটো লুকুৱাই আছে"
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
       },
       {
-        "en": "The statement is false",
-        "as": "বিবৃতিটো অসঁচা"
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
       },
       {
-        "en": "Cannot be decided",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A bus service makes sense only if employees need transport; it does not assume they own cars.",
+      "as": "বাছ সেৱা তেতিয়াহে অৰ্থপূৰ্ণ যদি কৰ্মচাৰীৰ পৰিবহণৰ প্ৰয়োজন; তেওঁলোকৰ গাড়ী আছে বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-003",
+    "q": {
+      "en": "Statement: Please use the lift instead of the stairs during the fire drill.\nAssumptions: I. The lift is working during the drill. II. The stairs may be unsafe or crowded.",
+      "as": "বিবৃতি: Please use the lift instead of the stairs during the fire drill.\nঅনুমান: I. The lift is working during the drill. II. The stairs may be unsafe or crowded."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Advising the lift implies the stairs are less suitable; a fire drill normally stops the lift, so I is not assumed.",
+      "as": "লিফট ব্যৱহাৰৰ পৰামৰ্শই সিঁড়ি কম উপযুক্ত বুলি বুজায়; অগ্নি মহৰাত লিফট বন্ধ থাকে, গতিকে I ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-004",
+    "q": {
+      "en": "Statement: The government has banned the sale of loose cigarettes.\nAssumptions: I. Loose cigarettes are harmful. II. Packed cigarettes are safe.",
+      "as": "বিবৃতি: The government has banned the sale of loose cigarettes.\nঅনুমান: I. Loose cigarettes are harmful. II. Packed cigarettes are safe."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A ban assumes harm from loose cigarettes; it does not declare packed ones safe.",
+      "as": "নিষিদ্ধাই ঢিলা চিগাৰেটৰ ক্ষতিকাৰকতা ধৰি লয়; ই পেকেট চিগাৰেট নিৰাপদ বুলি নকয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-005",
+    "q": {
+      "en": "Statement: Advertisement: Buy this soap for a fair complexion.\nAssumptions: I. People want a fair complexion. II. This soap makes everyone fair.",
+      "as": "বিবৃতি: Advertisement: Buy this soap for a fair complexion.\nঅনুমান: I. People want a fair complexion. II. This soap makes everyone fair."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The advertisement targets a wish for fair skin; it does not guarantee the result for everyone.",
+      "as": "বিজ্ঞাপনে উজ্জ্বল ৰঙৰ ইচ্ছাক লক্ষ্য কৰে; ই সৰ্বাৰ বাবে ফলাফলৰ নিশ্চয়তা নিদিয়ে।"
+    }
+  },
+  {
+    "id": "statement-assumptions-006",
+    "q": {
+      "en": "Statement: Do not drink water from this well; it is contaminated.\nAssumptions: I. Contaminated water is unsafe to drink. II. The well can never be cleaned.",
+      "as": "বিবৃতি: Do not drink water from this well; it is contaminated.\nঅনুমান: I. Contaminated water is unsafe to drink. II. The well can never be cleaned."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The warning assumes contaminated water is unsafe; it says nothing about cleaning the well.",
+      "as": "সতৰ্কবাণীয়ে দূষিত পানী অসুৰক্ষিত বুলি ধৰি লয়; ই কুঁৱা পৰিষ্কাৰৰ কথা নকয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-007",
+    "q": {
+      "en": "Statement: The manager asked the staff to attend the meeting at 10 a.m. sharp.\nAssumptions: I. The staff can reach the venue by 10 a.m. II. The meeting will finish by 10 a.m.",
+      "as": "বিবৃতি: The manager asked the staff to attend the meeting at 10 a.m. sharp.\nঅনুমান: I. The staff can reach the venue by 10 a.m. II. The meeting will finish by 10 a.m."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fixing a time assumes the staff can be present then; it does not say when the meeting ends.",
+      "as": "সময় নিৰ্ধাৰণে কৰ্মচাৰীয়ে সেই সময়ত উপস্থিত থাকিব পাৰিব বুলি ধৰি লয়; ই শেষৰ সময় নকয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-008",
+    "q": {
+      "en": "Statement: Apply sunscreen before going out in the sun.\nAssumptions: I. Sun exposure can harm the skin. II. Sunscreen is expensive.",
+      "as": "বিবৃতি: Apply sunscreen before going out in the sun.\nঅনুমান: I. Sun exposure can harm the skin. II. Sunscreen is expensive."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
       }
     ],
     "correct": 1,
     "explanation": {
-      "en": "Asking someone to join the evening batch assumes that such a batch exists, so the assumption is implicit.",
-      "as": "সন্ধিয়াৰ বেট্চত যোগ দিবলৈ কোৱাটোৱে এনে এটা বেট্চ আছে বুলি ধৰি লয়, গতিকে অনুমানটো লুকুৱাই আছে।"
+      "en": "The advice assumes sun exposure may harm the skin; cost is not assumed.",
+      "as": "পৰামৰ্শই ৰ'দে ছালৰ ক্ষতি কৰিব পাৰে বুলি ধৰি লয়; দামৰ কথা ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-009",
+    "q": {
+      "en": "Statement: The library has extended its opening hours till 9 p.m. during exams.\nAssumptions: I. Students study late during exams. II. All students live near the library.",
+      "as": "বিবৃতি: The library has extended its opening hours till 9 p.m. during exams.\nঅনুমান: I. Students study late during exams. II. All students live near the library."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Extending hours assumes late study during exams; residence is not assumed.",
+      "as": "সময় বঢ়োৱাই পৰীক্ষাৰ সময়ত দেৰিলৈকে পঢ়া ধৰি লয়; বাসস্থান ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-010",
+    "q": {
+      "en": "Statement: Keep medicines out of the reach of children.\nAssumptions: I. Children may eat medicines by mistake. II. Medicines are always sweet.",
+      "as": "বিবৃতি: Keep medicines out of the reach of children.\nঅনুমান: I. Children may eat medicines by mistake. II. Medicines are always sweet."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The warning assumes children may take medicines by mistake; taste is not assumed.",
+      "as": "সতৰ্কবাণীয়ে শিশুৱে ভুলতে ঔষধ খাব পাৰে বুলি ধৰি লয়; সোৱাদ ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-011",
+    "q": {
+      "en": "Statement: The traffic police have put up speed-limit signs near the school.\nAssumptions: I. Vehicles may drive fast near the school. II. All drivers obey every sign.",
+      "as": "বিবৃতি: The traffic police have put up speed-limit signs near the school.\nঅনুমান: I. Vehicles may drive fast near the school. II. All drivers obey every sign."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A speed limit is needed because vehicles may drive fast; obedience is hoped for, not assumed.",
+      "as": "গতিসীমা তেতিয়াহে প্ৰয়োজন যদি বাহন দ্ৰুত চলিব পাৰে; মানি চলা আশা, ধাৰণা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-012",
+    "q": {
+      "en": "Statement: Wear a helmet while riding a two-wheeler.\nAssumptions: I. A helmet can reduce injury in an accident. II. Accidents never happen.",
+      "as": "বিবৃতি: Wear a helmet while riding a two-wheeler.\nঅনুমান: I. A helmet can reduce injury in an accident. II. Accidents never happen."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The advice assumes helmets reduce injury; it certainly does not assume accidents never happen.",
+      "as": "পৰামৰ্শই হেলমেটে আঘাত কমায় বুলি ধৰি লয়; দুৰ্ঘটনা নহয় বুলি ধৰাই নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-013",
+    "q": {
+      "en": "Statement: The bank has asked customers to update their mobile numbers.\nAssumptions: I. Customers can be contacted on mobile. II. All customers have smartphones.",
+      "as": "বিবৃতি: The bank has asked customers to update their mobile numbers.\nঅনুমান: I. Customers can be contacted on mobile. II. All customers have smartphones."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Updating a number assumes customers can be reached on mobile; a smartphone is not required.",
+      "as": "নম্বৰ আপডেট কৰিবলৈ কোৱাই গ্ৰাহকক ম'বাইলত যোগাযোগ কৰিব পৰা ধৰি লয়; স্মাৰ্টফোন প্ৰয়োজন নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-014",
+    "q": {
+      "en": "Statement: The college has introduced an online application process.\nAssumptions: I. Applicants have internet access. II. Applicants cannot fill paper forms.",
+      "as": "বিবৃতি: The college has introduced an online application process.\nঅনুমান: I. Applicants have internet access. II. Applicants cannot fill paper forms."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An online process assumes internet access; it does not say paper forms are impossible.",
+      "as": "অনলাইন প্ৰক্ৰিয়াই ইণ্টাৰনেট প্ৰৱেশ ধৰি লয়; কাগজৰ ফৰ্ম অসম্ভৱ বুলি নকয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-015",
+    "q": {
+      "en": "Statement: The doctor advised the patient to reduce salt in his food.\nAssumptions: I. Excess salt can worsen the patient's condition. II. The patient cooks his own food.",
+      "as": "বিবৃতি: The doctor advised the patient to reduce salt in his food.\nঅনুমান: I. Excess salt can worsen the patient's condition. II. The patient cooks his own food."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The advice assumes salt affects the condition; who cooks is not assumed.",
+      "as": "পৰামৰ্শই নিমখে অৱস্থা বেয়া কৰিব পাৰে বুলি ধৰি লয়; ৰন্ধা-বঢ়াৰ কথা ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-016",
+    "q": {
+      "en": "Statement: The government is planting trees along the highway.\nAssumptions: I. Trees reduce dust and noise near roads. II. Trees stop all accidents.",
+      "as": "বিবৃতি: The government is planting trees along the highway.\nঅনুমান: I. Trees reduce dust and noise near roads. II. Trees stop all accidents."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Planting along a highway assumes trees reduce dust and noise; it does not claim to stop accidents.",
+      "as": "পথৰ কাষত ৰোপণে গছ-গছনিয়ে ধূলি আৰু শব্দ কমায় বুলি ধৰি লয়; দুৰ্ঘটনা বন্ধৰ দাবী নকৰে।"
+    }
+  },
+  {
+    "id": "statement-assumptions-017",
+    "q": {
+      "en": "Statement: Please switch off the lights when you leave the room.\nAssumptions: I. The person may leave the room. II. The room has no windows.",
+      "as": "বিবৃতি: Please switch off the lights when you leave the room.\nঅনুমান: I. The person may leave the room. II. The room has no windows."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The request assumes the person may leave; windows are irrelevant.",
+      "as": "অনুৰোধে ব্যক্তিজনে ৰুম এৰিব পাৰে বুলি ধৰি লয়; খিৰিকীৰ প্ৰাসংগিকতা নাই।"
+    }
+  },
+  {
+    "id": "statement-assumptions-018",
+    "q": {
+      "en": "Statement: The shop offers a discount on bulk purchases.\nAssumptions: I. Some buyers purchase in bulk. II. All buyers purchase in bulk.",
+      "as": "বিবৃতি: The shop offers a discount on bulk purchases.\nঅনুমান: I. Some buyers purchase in bulk. II. All buyers purchase in bulk."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A bulk discount assumes at least some buyers purchase in bulk, not all.",
+      "as": "বাল্ক ৰেহাইয়ে অন্ততঃ কিছুমান ক্ৰেতাই বাল্কত কিনে বুলি ধৰি লয়, সকলোৱে নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-019",
+    "q": {
+      "en": "Statement: Carry an umbrella; it may rain this evening.\nAssumptions: I. Rain is possible this evening. II. It will certainly rain.",
+      "as": "বিবৃতি: Carry an umbrella; it may rain this evening.\nঅনুমান: I. Rain is possible this evening. II. It will certainly rain."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The advice assumes rain is possible; it does not claim rain is certain.",
+      "as": "পৰামৰ্শই বৰষুণ সম্ভৱ বুলি ধৰি লয়; নিশ্চিত বুলি দাবী নকৰে।"
+    }
+  },
+  {
+    "id": "statement-assumptions-020",
+    "q": {
+      "en": "Statement: The examiner warned candidates against using unfair means.\nAssumptions: I. Some candidates may try unfair means. II. All candidates cheat.",
+      "as": "বিবৃতি: The examiner warned candidates against using unfair means.\nঅনুমান: I. Some candidates may try unfair means. II. All candidates cheat."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A warning is needed because some may cheat; it does not assume all cheat.",
+      "as": "সতৰ্কবাণী তেতিয়াহে প্ৰয়োজন যদি কিছুমানে প্ৰৱঞ্চনা কৰিব পাৰে; সকলোৱে কৰে বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-021",
+    "q": {
+      "en": "Statement: The municipality has started a door-to-door garbage collection.\nAssumptions: I. Residents will hand over their garbage. II. Residents enjoy collecting garbage.",
+      "as": "বিবৃতি: The municipality has started a door-to-door garbage collection.\nঅনুমান: I. Residents will hand over their garbage. II. Residents enjoy collecting garbage."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Door-to-door collection assumes residents will cooperate; nobody assumes they enjoy it.",
+      "as": "ঘৰে ঘৰে সংগ্ৰহই বাসিন্দাসকলে সহযোগ কৰিব বুলি ধৰি লয়; কোনেও ভাল পায় বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-022",
+    "q": {
+      "en": "Statement: The airline asked passengers to reach the airport two hours early.\nAssumptions: I. Security checks take time. II. The flight will leave early.",
+      "as": "বিবৃতি: The airline asked passengers to reach the airport two hours early.\nঅনুমান: I. Security checks take time. II. The flight will leave early."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arriving early assumes checks take time; the flight time is unchanged.",
+      "as": "সোনকালে যোৱাই পৰীক্ষাত সময় লাগে বুলি ধৰি লয়; উৰণৰ সময় সলনি নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-023",
+    "q": {
+      "en": "Statement: Eat fresh fruit every day to stay healthy.\nAssumptions: I. Fresh fruit contributes to health. II. Fruit is cheaper than medicine.",
+      "as": "বিবৃতি: Eat fresh fruit every day to stay healthy.\nঅনুমান: I. Fresh fruit contributes to health. II. Fruit is cheaper than medicine."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The advice assumes fruit helps health; cost is not assumed.",
+      "as": "পৰামৰ্শই ফল স্বাস্থ্যৰ বাবে সহায়ক বুলি ধৰি লয়; দামৰ কথা ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-024",
+    "q": {
+      "en": "Statement: The school sent a notice to parents about the annual day.\nAssumptions: I. Parents are interested in the event. II. All parents will attend.",
+      "as": "বিবৃতি: The school sent a notice to parents about the annual day.\nঅনুমান: I. Parents are interested in the event. II. All parents will attend."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A notice assumes some interest; attendance is not assumed.",
+      "as": "জাননীয়ে কিছু আগ্ৰহ ধৰি লয়; উপস্থিতি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-025",
+    "q": {
+      "en": "Statement: The team practised daily before the final match.\nAssumptions: I. Practice improves performance. II. The team will surely win.",
+      "as": "বিবৃতি: The team practised daily before the final match.\nঅনুমান: I. Practice improves performance. II. The team will surely win."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Daily practice assumes practice helps; victory is not certain.",
+      "as": "দৈনিক অনুশীলনে অনুশীলন সহায়ক বুলি ধৰি লয়; বিজয় নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-026",
+    "q": {
+      "en": "Statement: Install an anti-virus program on your computer.\nAssumptions: I. A computer can be infected by viruses. II. Anti-virus programs are free.",
+      "as": "বিবৃতি: Install an anti-virus program on your computer.\nঅনুমান: I. A computer can be infected by viruses. II. Anti-virus programs are free."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The advice assumes infection is possible; cost is not assumed.",
+      "as": "পৰামৰ্শই সংক্ৰমণ সম্ভৱ বুলি ধৰি লয়; দামৰ কথা ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-027",
+    "q": {
+      "en": "Statement: The company hired more staff for the festival season.\nAssumptions: I. Demand rises during the festival season. II. The staff will work without pay.",
+      "as": "বিবৃতি: The company hired more staff for the festival season.\nঅনুমান: I. Demand rises during the festival season. II. The staff will work without pay."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Extra hiring assumes higher demand; unpaid work is never assumed.",
+      "as": "অতিৰিক্ত নিযুক্তিয়ে বেছি চাহিদা ধৰি লয়; বিনা দৰমহাৰ কাম কেতিয়াও ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-028",
+    "q": {
+      "en": "Statement: The farmer used organic manure for his crop.\nAssumptions: I. Organic manure can help the crop grow. II. Chemical fertiliser is banned.",
+      "as": "বিবৃতি: The farmer used organic manure for his crop.\nঅনুমান: I. Organic manure can help the crop grow. II. Chemical fertiliser is banned."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using organic manure assumes it helps growth; no ban is assumed.",
+      "as": "জৈৱ সাৰ ব্যৱহাৰে ই বৃদ্ধিত সহায় কৰে বুলি ধৰি লয়; নিষিদ্ধৰ কথা ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-029",
+    "q": {
+      "en": "Statement: The city has banned honking near hospitals.\nAssumptions: I. Honking disturbs patients. II. Vehicles make no other noise.",
+      "as": "বিবৃতি: The city has banned honking near hospitals.\nঅনুমান: I. Honking disturbs patients. II. Vehicles make no other noise."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The ban assumes honking disturbs patients; other noise is not excluded.",
+      "as": "নিষিদ্ধাই হৰ্ণই ৰোগীক আমনি কৰে বুলি ধৰি লয়; আন শব্দ বাদ দিয়া নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-030",
+    "q": {
+      "en": "Statement: Read the instructions before using the machine.\nAssumptions: I. Incorrect use can cause harm. II. The machine is very cheap.",
+      "as": "বিবৃতি: Read the instructions before using the machine.\nঅনুমান: I. Incorrect use can cause harm. II. The machine is very cheap."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The instruction assumes wrong use is risky; price is not assumed.",
+      "as": "নিৰ্দেশনাই ভুল ব্যৱহাৰ বিপদজনক বুলি ধৰি লয়; দাম ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-031",
+    "q": {
+      "en": "Statement: The government announced a subsidy for farmers.\nAssumptions: I. Farmers need financial support. II. All farmers are poor.",
+      "as": "বিবৃতি: The government announced a subsidy for farmers.\nঅনুমান: I. Farmers need financial support. II. All farmers are poor."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A subsidy assumes farmers need support; it does not assume all are poor.",
+      "as": "ভৰ্তুকিয়ে কৃষকৰ সহায়ৰ প্ৰয়োজন ধৰি লয়; সকলো দৰিদ্ৰ বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-032",
+    "q": {
+      "en": "Statement: The teacher gave extra practice sheets to the class.\nAssumptions: I. Practice helps students learn. II. The class has no textbook.",
+      "as": "বিবৃতি: The teacher gave extra practice sheets to the class.\nঅনুমান: I. Practice helps students learn. II. The class has no textbook."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Practice sheets assume practice helps; no textbook is not implied.",
+      "as": "অনুশীলন পত্ৰই অনুশীলন সহায়ক বুলি ধৰি লয়; পাঠ্যপুথি নথকা বুজোৱা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-033",
+    "q": {
+      "en": "Statement: Save money for a rainy day.\nAssumptions: I. Difficult times may come. II. It will certainly rain tomorrow.",
+      "as": "বিবৃতি: Save money for a rainy day.\nঅনুমান: I. Difficult times may come. II. It will certainly rain tomorrow."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The saying assumes hard times may come; literal rain is not meant.",
+      "as": "উক্তিটোৱে কষ্টৰ সময় আহিব পাৰে বুলি ধৰি লয়; আক্ষৰিক বৰষুণ নুবুজায়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-034",
+    "q": {
+      "en": "Statement: The hotel displays a notice: 'Right of admission reserved'.\nAssumptions: I. The hotel may refuse some guests. II. The hotel has no rooms.",
+      "as": "বিবৃতি: The hotel displays a notice: 'Right of admission reserved'.\nঅনুমান: I. The hotel may refuse some guests. II. The hotel has no rooms."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The notice assumes the hotel may refuse admission; it does not say rooms are unavailable.",
+      "as": "জাননীয়ে হোটেলে কিছু অতিথি নাকচ কৰিব পাৰে বুলি ধৰি লয়; ৰুম নাই বুলি নকয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-035",
+    "q": {
+      "en": "Statement: Wash your hands before eating.\nAssumptions: I. Hands may carry germs. II. Soap is always available.",
+      "as": "বিবৃতি: Wash your hands before eating.\nঅনুমান: I. Hands may carry germs. II. Soap is always available."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The advice assumes hands may carry germs; soap supply is not assumed.",
+      "as": "পৰামৰ্শই হাতত জীৱাণু থাকিব পাৰে বুলি ধৰি লয়; চাবোন উপলব্ধ বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-036",
+    "q": {
+      "en": "Statement: The school has asked students to wear shoes during the monsoon.\nAssumptions: I. Shoes protect the feet from mud and water. II. All students own shoes.",
+      "as": "বিবৃতি: The school has asked students to wear shoes during the monsoon.\nঅনুমান: I. Shoes protect the feet from mud and water. II. All students own shoes."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The request assumes shoes protect feet in the monsoon; ownership is not assumed.",
+      "as": "অনুৰোধই বৰষুণত জোতাৰে ভৰি ৰক্ষা পায় বুলি ধৰি লয়; মালিকীস্বত্ব ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-037",
+    "q": {
+      "en": "Statement: The doctor asked the patient to take the medicine after meals.\nAssumptions: I. Taking medicine after food is better for the patient. II. The patient always eats on time.",
+      "as": "বিবৃতি: The doctor asked the patient to take the medicine after meals.\nঅনুমান: I. Taking medicine after food is better for the patient. II. The patient always eats on time."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The instruction assumes after-meal timing helps; punctuality is not assumed.",
+      "as": "নিৰ্দেশই আহাৰৰ পিছত ঔষধ ভাল বুলি ধৰি লয়; সময়পালন ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-038",
+    "q": {
+      "en": "Statement: The company asked employees to attend a training programme.\nAssumptions: I. Training will improve employees' skills. II. All employees are new.",
+      "as": "বিবৃতি: The company asked employees to attend a training programme.\nঅনুমান: I. Training will improve employees' skills. II. All employees are new."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A training programme assumes it improves skills; it does not assume all are new.",
+      "as": "প্ৰশিক্ষণ কাৰ্যসূচীয়ে দক্ষতা বঢ়ায় বুলি ধৰি লয়; সকলো নতুন বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-039",
+    "q": {
+      "en": "Statement: The government advised farmers to use drip irrigation.\nAssumptions: I. Drip irrigation saves water. II. All farmers are rich.",
+      "as": "বিবৃতি: The government advised farmers to use drip irrigation.\nঅনুমান: I. Drip irrigation saves water. II. All farmers are rich."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The advice assumes drip irrigation saves water; wealth is not assumed.",
+      "as": "পৰামৰ্শই ড্ৰিপ জলসিঞ্চনে পানী সঞ্চয় কৰে বুলি ধৰি লয়; ধনী বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-040",
+    "q": {
+      "en": "Statement: Please keep your seat belt fastened during the flight.\nAssumptions: I. A seat belt can protect during sudden movement. II. The flight will crash.",
+      "as": "বিবৃতি: Please keep your seat belt fastened during the flight.\nঅনুমান: I. A seat belt can protect during sudden movement. II. The flight will crash."
+    },
+    "options": [
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The instruction assumes seat belts protect; it does not predict a crash.",
+      "as": "নিৰ্দেশই ছিটবেল্টে সুৰক্ষা দিয়ে বুলি ধৰি লয়; দুৰ্ঘটনাৰ ভৱিষ্যদ্বাণী নকৰে।"
+    }
+  },
+  {
+    "id": "statement-assumptions-041",
+    "q": {
+      "en": "Statement: The library asked readers to keep silence.\nAssumptions: I. Noise disturbs other readers. II. The library has no books.",
+      "as": "বিবৃতি: The library asked readers to keep silence.\nঅনুমান: I. Noise disturbs other readers. II. The library has no books."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A silence request assumes noise disturbs others; books are not in question.",
+      "as": "নীৰৱতাৰ অনুৰোধই শব্দই আনক আমনি কৰে বুলি ধৰি লয়; কিতাপৰ প্ৰশ্ন নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-042",
+    "q": {
+      "en": "Statement: The bank asked customers to use the ATM for small withdrawals.\nAssumptions: I. The ATM can handle small withdrawals. II. The bank has no staff.",
+      "as": "বিবৃতি: The bank asked customers to use the ATM for small withdrawals.\nঅনুমান: I. The ATM can handle small withdrawals. II. The bank has no staff."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The request assumes the ATM can serve small withdrawals; staff shortage is not assumed.",
+      "as": "অনুৰোধই ATM এ সৰু উলিওৱা কৰিব পাৰে বুলি ধৰি লয়; কৰ্মচাৰীৰ অভাৱ ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-043",
+    "q": {
+      "en": "Statement: The teacher asked the class to submit the project by Friday.\nAssumptions: I. The students can complete the project by Friday. II. The project is very easy.",
+      "as": "বিবৃতি: The teacher asked the class to submit the project by Friday.\nঅনুমান: I. The students can complete the project by Friday. II. The project is very easy."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A deadline assumes the work can be finished in time; difficulty is not assumed.",
+      "as": "সময়সীমাই সময়মতে কাম শেষ হ'ব বুলি ধৰি লয়; সহজতা ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-044",
+    "q": {
+      "en": "Statement: The city advised residents to compost kitchen waste.\nAssumptions: I. Composting reduces garbage. II. All residents have gardens.",
+      "as": "বিবৃতি: The city advised residents to compost kitchen waste.\nঅনুমান: I. Composting reduces garbage. II. All residents have gardens."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The advice assumes composting cuts garbage; gardens are not required.",
+      "as": "পৰামৰ্শই কম্পোষ্টে আৱৰ্জনা কমায় বুলি ধৰি লয়; বাগিচাৰ প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "statement-assumptions-045",
+    "q": {
+      "en": "Statement: The store offered a warranty on the television.\nAssumptions: I. The television may develop a fault. II. All televisions are faulty.",
+      "as": "বিবৃতি: The store offered a warranty on the television.\nঅনুমান: I. The television may develop a fault. II. All televisions are faulty."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A warranty assumes a fault is possible, not certain.",
+      "as": "ৱাৰেণ্টিয়ে ত্ৰুটি সম্ভৱ বুলি ধৰি লয়, নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-046",
+    "q": {
+      "en": "Statement: The government has started a scheme to give free textbooks to poor students.\nAssumptions: I. Poor students cannot buy textbooks. II. All students are poor.",
+      "as": "বিবৃতি: The government has started a scheme to give free textbooks to poor students.\nঅনুমান: I. Poor students cannot buy textbooks. II. All students are poor."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A free-textbook scheme assumes some students cannot buy books; not all are poor.",
+      "as": "বিনামূলীয়া পাঠ্যপুথি আঁচনিয়ে কিছুমান ছাত্ৰই কিনিব নোৱাৰে বুলি ধৰি লয়; সকলো দৰিদ্ৰ নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-047",
+    "q": {
+      "en": "Statement: The police have set up a help desk at the railway station.\nAssumptions: I. Passengers may need help at the station. II. All passengers are travellers in trouble.",
+      "as": "বিবৃতি: The police have set up a help desk at the railway station.\nঅনুমান: I. Passengers may need help at the station. II. All passengers are travellers in trouble."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A help desk assumes passengers may need help; it does not assume all are in trouble.",
+      "as": "সহায় ডেস্কই যাত্ৰীৰ সহায়ৰ প্ৰয়োজন হ'ব পাৰে বুলি ধৰি লয়; সকলো সমস্যাত বুলি ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-048",
+    "q": {
+      "en": "Statement: The company has asked staff to wear identity cards.\nAssumptions: I. Identity cards help identify staff. II. All visitors carry identity cards.",
+      "as": "বিবৃতি: The company has asked staff to wear identity cards.\nঅনুমান: I. Identity cards help identify staff. II. All visitors carry identity cards."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The rule assumes cards help identify staff; visitors are not covered.",
+      "as": "নিয়মে কাৰ্ডে কৰ্মীক চিনাক্ত কৰে বুলি ধৰি লয়; দৰ্শনাৰ্থী সামৰি লোৱা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-049",
+    "q": {
+      "en": "Statement: The school has started a parent-teacher meeting every month.\nAssumptions: I. Parents and teachers should discuss students' progress. II. All parents live near the school.",
+      "as": "বিবৃতি: The school has started a parent-teacher meeting every month.\nঅনুমান: I. Parents and teachers should discuss students' progress. II. All parents live near the school."
+    },
+    "options": [
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Monthly meetings assume discussion helps progress; proximity is not assumed.",
+      "as": "মাহেকীয়া সভাই আলোচনাই উন্নতিত সহায় কৰে বুলি ধৰি লয়; ওচৰত থকা ধৰা নহয়।"
+    }
+  },
+  {
+    "id": "statement-assumptions-050",
+    "q": {
+      "en": "Statement: The hospital has started a 24-hour emergency ward.\nAssumptions: I. Emergencies can happen at any time. II. All patients need emergency care.",
+      "as": "বিবৃতি: The hospital has started a 24-hour emergency ward.\nঅনুমান: I. Emergencies can happen at any time. II. All patients need emergency care."
+    },
+    "options": [
+      {
+        "en": "Assumption I is implicit",
+        "as": "অনুমান I অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Neither I nor II is implicit",
+        "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Assumption II is implicit",
+        "as": "অনুমান II অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Both I and II are implicit",
+        "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A 24-hour ward assumes emergencies can occur anytime; not all need it.",
+      "as": "২৪ ঘণ্টীয়া ৱাৰ্ডে যিকোনো সময়ত জৰুৰী অৱস্থা হ'ব পাৰে বুলি ধৰি লয়; সকলোৰে প্ৰয়োজন বুলি নহয়।"
     }
   }
 ]

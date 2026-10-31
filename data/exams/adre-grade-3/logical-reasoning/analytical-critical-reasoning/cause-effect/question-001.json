@@ -2,61 +2,1621 @@
   {
     "id": "cause-effect-001",
     "q": {
-      "en": "I. Heavy rain fell in the district. II. The river overflowed its banks. Which is correct?",
-      "as": "I. জিলাখনত ধুমুহা বৰষুণ হ'ল। II. নদী পাৰ উপচি পৰিল। কোনটো শুদ্ধ?"
+      "en": "Statement I: The heavy rain continued for three days.\nStatement II: The river overflowed its banks.",
+      "as": "বিবৃতি I: The heavy rain continued for three days.\nবিবৃতি II: The river overflowed its banks."
     },
     "options": [
       {
-        "en": "II is the cause and I is the effect",
-        "as": "II কাৰণ আৰু I ফলাফল"
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
       },
       {
-        "en": "Both are effects of a common cause",
-        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
       },
       {
-        "en": "I is the cause and II is the effect",
-        "as": "I কাৰণ আৰু II ফলাফল"
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
       },
       {
-        "en": "Both are independent",
-        "as": "দুয়োটা স্বাধীন"
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
       }
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": {
-      "en": "The river overflowed because of the heavy rain, so the rain is the cause and the overflow is the effect.",
-      "as": "ধুমুহা বৰষুণৰ বাবেই নদী উপচিল, গতিকে বৰষুণ কাৰণ আৰু উপচি পৰাটো ফলাফল।"
+      "en": "Continuous rain raises the river level, so the flood is the effect.",
+      "as": "অবিৰত বৰষুণে নদীৰ পানী বঢ়ায়, গতিকে বান্ধ ইয়াৰ ফলাফল।"
     }
   },
   {
     "id": "cause-effect-002",
     "q": {
-      "en": "I. The price of vegetables rose. II. Heavy rain damaged the crops. Which is correct?",
-      "as": "I. পাচলিৰ দাম বাঢ়িল। II. ধুমুহা বৰষুণে শস্য নষ্ট কৰিলে। কোনটো শুদ্ধ?"
+      "en": "Statement I: The price of petrol increased sharply.\nStatement II: People started using public buses more.",
+      "as": "বিবৃতি I: The price of petrol increased sharply.\nবিবৃতি II: People started using public buses more."
     },
     "options": [
       {
-        "en": "I is the cause and II is the effect",
-        "as": "I কাৰণ আৰু II ফলাফল"
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
       },
       {
-        "en": "Both are independent",
-        "as": "দুয়োটা স্বাধীন"
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
       },
       {
-        "en": "Both are effects of a common cause",
-        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফলাফল"
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
       },
       {
-        "en": "II is the cause and I is the effect",
-        "as": "II কাৰণ আৰু I ফলাফল"
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Costlier petrol makes people shift to buses, so II is the effect.",
+      "as": "মহঙা পেট্ৰলে লোকে বাছলৈ সলনি কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-003",
+    "q": {
+      "en": "Statement I: A new factory opened in the town.\nStatement II: Many young people found jobs.",
+      "as": "বিবৃতি I: A new factory opened in the town.\nবিবৃতি II: Many young people found jobs."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A new factory creates jobs, so the employment is the effect.",
+      "as": "নতুন কাৰখানাই চাকৰি সৃষ্টি কৰে, গতিকে নিয়োগ ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-004",
+    "q": {
+      "en": "Statement I: The teacher explained the topic clearly.\nStatement II: Students scored better in the test.",
+      "as": "বিবৃতি I: The teacher explained the topic clearly.\nবিবৃতি II: Students scored better in the test."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Clear teaching improves scores, so II is the effect.",
+      "as": "স্পষ্ট শিক্ষণে নম্বৰ বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-005",
+    "q": {
+      "en": "Statement I: The power supply failed for six hours.\nStatement II: The factory could not finish its order.",
+      "as": "বিবৃতি I: The power supply failed for six hours.\nবিবৃতি II: The factory could not finish its order."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Without power the factory stops, so the delay is the effect.",
+      "as": "বিদ্যুৎ নোহোৱাকৈ কাৰখানা বন্ধ, গতিকে পলম ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-006",
+    "q": {
+      "en": "Statement I: The government banned smoking in public places.\nStatement II: Cases of lung disease in the city fell.",
+      "as": "বিবৃতি I: The government banned smoking in public places.\nবিবৃতি II: Cases of lung disease in the city fell."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "Crop damage reduced the supply and pushed the price up, so II is the cause and I is the effect.",
-      "as": "শস্য নষ্ট হোৱাৰ ফলত যোগান কমি দাম বাঢ়িল, গতিকে II কাৰণ আৰু I ফলাফল।"
+      "en": "Less smoking reduces lung disease, so II is the effect.",
+      "as": "কম ধূমপানে ফোঁচফোঁচ ৰোগ কমায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-007",
+    "q": {
+      "en": "Statement I: The roads were dug up for repairs.\nStatement II: Traffic moved very slowly that week.",
+      "as": "বিবৃতি I: The roads were dug up for repairs.\nবিবৃতি II: Traffic moved very slowly that week."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dug-up roads slow traffic, so II is the effect.",
+      "as": "খন্দা পথে যান-বাহন লেহেম কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-008",
+    "q": {
+      "en": "Statement I: The team practised hard for months.\nStatement II: The team won the championship.",
+      "as": "বিবৃতি I: The team practised hard for months.\nবিবৃতি II: The team won the championship."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Practice improves performance, so the victory is the effect.",
+      "as": "অনুশীলনে ক্ৰীড়া-নৈপুণ্য বঢ়ায়, গতিকে বিজয় ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-009",
+    "q": {
+      "en": "Statement I: The price of vegetables doubled.\nStatement II: Many families reduced their vegetable purchases.",
+      "as": "বিবৃতি I: The price of vegetables doubled.\nবিবৃতি II: Many families reduced their vegetable purchases."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Higher prices reduce buying, so II is the effect.",
+      "as": "বেছি দামে ক্ৰয় কমায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-010",
+    "q": {
+      "en": "Statement I: A new dam was built upstream.\nStatement II: The downstream village received less water.",
+      "as": "বিবৃতি I: A new dam was built upstream.\nবিবৃতি II: The downstream village received less water."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A dam stores water upstream, so less flows downstream; II is the effect.",
+      "as": "বান্ধে ওপৰত পানী ৰাখে, গতিকে তলত কম যায়; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-011",
+    "q": {
+      "en": "Statement I: The company raised the salary of its staff.\nStatement II: Employee satisfaction increased.",
+      "as": "বিবৃতি I: The company raised the salary of its staff.\nবিবৃতি II: Employee satisfaction increased."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Better pay raises satisfaction, so II is the effect.",
+      "as": "ভাল দৰমহাই সন্তুষ্টি বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-012",
+    "q": {
+      "en": "Statement I: The city planted thousands of trees.\nStatement II: The air quality improved.",
+      "as": "বিবৃতি I: The city planted thousands of trees.\nবিবৃতি II: The air quality improved."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Trees clean the air, so the improvement is the effect.",
+      "as": "গছে বায়ু পৰিষ্কাৰ কৰে, গতিকে উন্নতি ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-013",
+    "q": {
+      "en": "Statement I: The government reduced the tax on electric cars.\nStatement II: Sales of electric cars rose.",
+      "as": "বিবৃতি I: The government reduced the tax on electric cars.\nবিবৃতি II: Sales of electric cars rose."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Lower tax lowers the price, so sales rise; II is the effect.",
+      "as": "কম কৰে দাম কমায়, গতিকে বিক্ৰী বাঢ়ে; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-014",
+    "q": {
+      "en": "Statement I: A famous actor visited the town.\nStatement II: A large crowd gathered at the square.",
+      "as": "বিবৃতি I: A famous actor visited the town.\nবিবৃতি II: A large crowd gathered at the square."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A celebrity attracts a crowd, so II is the effect.",
+      "as": "চেলিব্ৰিটিয়ে ভিৰ আকৰ্ষণ কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-015",
+    "q": {
+      "en": "Statement I: The school introduced a free lunch scheme.\nStatement II: Attendance in the school increased.",
+      "as": "বিবৃতি I: The school introduced a free lunch scheme.\nবিবৃতি II: Attendance in the school increased."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Free lunch draws children to school, so II is the effect.",
+      "as": "বিনামূলীয়া আহাৰে শিশুক স্কুললৈ আনে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-016",
+    "q": {
+      "en": "Statement I: The mobile network was down for a day.\nStatement II: Online payments could not be made.",
+      "as": "বিবৃতি I: The mobile network was down for a day.\nবিবৃতি II: Online payments could not be made."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Without the network, online payments fail; II is the effect.",
+      "as": "নেটৱৰ্ক নোহোৱাকৈ অনলাইন পেমেন্ট নহয়; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-017",
+    "q": {
+      "en": "Statement I: The bank reduced its interest rate.\nStatement II: More people took home loans.",
+      "as": "বিবৃতি I: The bank reduced its interest rate.\nবিবৃতি II: More people took home loans."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cheaper loans increase borrowing, so II is the effect.",
+      "as": "সস্তা ঋণে ধাৰ বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-018",
+    "q": {
+      "en": "Statement I: A terrible drought hit the region.\nStatement II: Crop production fell sharply.",
+      "as": "বিবৃতি I: A terrible drought hit the region.\nবিবৃতি II: Crop production fell sharply."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Drought reduces crops, so the fall is the effect.",
+      "as": "খৰাংয়ে শস্য কমায়, গতিকে হ্ৰাস ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-019",
+    "q": {
+      "en": "Statement I: The cinema hall cut ticket prices.\nStatement II: More people came to watch films.",
+      "as": "বিবৃতি I: The cinema hall cut ticket prices.\nবিবৃতি II: More people came to watch films."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cheaper tickets attract viewers, so II is the effect.",
+      "as": "সস্তা টিকেটে দৰ্শক আকৰ্ষণ কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-020",
+    "q": {
+      "en": "Statement I: The town got a new flyover.\nStatement II: Journey time across the town dropped.",
+      "as": "বিবৃতি I: The town got a new flyover.\nবিবৃতি II: Journey time across the town dropped."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A flyover speeds up travel, so II is the effect.",
+      "as": "উৰণসেতুৱে যাত্ৰা দ্ৰুত কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-021",
+    "q": {
+      "en": "Statement I: The company launched a big advertising campaign.\nStatement II: Its sales went up.",
+      "as": "বিবৃতি I: The company launched a big advertising campaign.\nবিবৃতি II: Its sales went up."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Advertising raises sales, so II is the effect.",
+      "as": "বিজ্ঞাপনে বিক্ৰী বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-022",
+    "q": {
+      "en": "Statement I: The hospital got new equipment.\nStatement II: More patients were treated successfully.",
+      "as": "বিবৃতি I: The hospital got new equipment.\nবিবৃতি II: More patients were treated successfully."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Better equipment improves treatment, so II is the effect.",
+      "as": "উত্তম সঁজুলিয়ে চিকিৎসা উন্নত কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-023",
+    "q": {
+      "en": "Statement I: The state built a new highway.\nStatement II: Trade with nearby towns grew.",
+      "as": "বিবৃতি I: The state built a new highway.\nবিবৃতি II: Trade with nearby towns grew."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A highway improves trade, so the growth is the effect.",
+      "as": "মহাপথে বাণিজ্য বঢ়ায়, গতিকে বৃদ্ধি ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-024",
+    "q": {
+      "en": "Statement I: The price of gold rose sharply.\nStatement II: People sold their old gold ornaments.",
+      "as": "বিবৃতি I: The price of gold rose sharply.\nবিবৃতি II: People sold their old gold ornaments."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A higher price encourages selling, so II is the effect.",
+      "as": "বেছি দামে বিক্ৰী উৎসাহিত কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-025",
+    "q": {
+      "en": "Statement I: The government announced a holiday.\nStatement II: Offices and schools stayed closed.",
+      "as": "বিবৃতি I: The government announced a holiday.\nবিবৃতি II: Offices and schools stayed closed."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A holiday closes offices and schools, so II is the effect.",
+      "as": "বন্ধে কাৰ্যালয় আৰু বিদ্যালয় বন্ধ কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-026",
+    "q": {
+      "en": "Statement I: A big storm damaged the power lines.\nStatement II: Many villages had no electricity.",
+      "as": "বিবৃতি I: A big storm damaged the power lines.\nবিবৃতি II: Many villages had no electricity."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Damaged lines cut supply, so II is the effect.",
+      "as": "ক্ষতিগ্ৰস্ত লাইনে যোগান বন্ধ কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-027",
+    "q": {
+      "en": "Statement I: The teacher was absent for a week.\nStatement II: The students could not complete the syllabus.",
+      "as": "বিবৃতি I: The teacher was absent for a week.\nবিবৃতি II: The students could not complete the syllabus."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Without the teacher, the syllabus stalls; II is the effect.",
+      "as": "শিক্ষক নোহোৱাকৈ পাঠ্যক্ৰম ৰয়; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-028",
+    "q": {
+      "en": "Statement I: The shop gave a festive discount.\nStatement II: Customers bought in large numbers.",
+      "as": "বিবৃতি I: The shop gave a festive discount.\nবিবৃতি II: Customers bought in large numbers."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A discount increases buying, so II is the effect.",
+      "as": "ৰেহাইয়ে ক্ৰয় বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-029",
+    "q": {
+      "en": "Statement I: The railway started a new express train.\nStatement II: Passengers preferred it over the bus.",
+      "as": "বিবৃতি I: The railway started a new express train.\nবিবৃতি II: Passengers preferred it over the bus."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A faster train attracts passengers, so II is the effect.",
+      "as": "দ্ৰুত ট্ৰেইনে যাত্ৰী আকৰ্ষণ কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-030",
+    "q": {
+      "en": "Statement I: The farmer used high-yield seeds.\nStatement II: His harvest increased.",
+      "as": "বিবৃতি I: The farmer used high-yield seeds.\nবিবৃতি II: His harvest increased."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Better seeds raise yield, so the increase is the effect.",
+      "as": "উত্তম বীজে উৎপাদন বঢ়ায়, গতিকে বৃদ্ধি ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-031",
+    "q": {
+      "en": "Statement I: The doctor advised daily exercise.\nStatement II: The patient's health improved.",
+      "as": "বিবৃতি I: The doctor advised daily exercise.\nবিবৃতি II: The patient's health improved."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exercise improves health, so II is the effect.",
+      "as": "ব্যায়ামে স্বাস্থ্য উন্নত কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-032",
+    "q": {
+      "en": "Statement I: The college raised its admission fee.\nStatement II: Fewer students applied.",
+      "as": "বিবৃতি I: The college raised its admission fee.\nবিবৃতি II: Fewer students applied."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A higher fee reduces applications, so II is the effect.",
+      "as": "বেছি মাচুলে আবেদন কমায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-033",
+    "q": {
+      "en": "Statement I: The city introduced a metro train.\nStatement II: Road traffic decreased.",
+      "as": "বিবৃতি I: The city introduced a metro train.\nবিবৃতি II: Road traffic decreased."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A metro shifts people off roads, so II is the effect.",
+      "as": "মেট্ৰ'ই লোক পথৰ পৰা আঁতৰায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-034",
+    "q": {
+      "en": "Statement I: The government gave a subsidy on fertiliser.\nStatement II: Farmers bought more fertiliser.",
+      "as": "বিবৃতি I: The government gave a subsidy on fertiliser.\nবিবৃতি II: Farmers bought more fertiliser."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A subsidy lowers the price, so buying rises; II is the effect.",
+      "as": "ভৰ্তুকিয়ে দাম কমায়, গতিকে ক্ৰয় বাঢ়ে; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-035",
+    "q": {
+      "en": "Statement I: The team's captain was injured.\nStatement II: The team performed poorly.",
+      "as": "বিবৃতি I: The team's captain was injured.\nবিবৃতি II: The team performed poorly."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Losing the captain weakens the team, so II is the effect.",
+      "as": "অধিনায়ক হেৰুৱাই দল দুৰ্বল হয়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-036",
+    "q": {
+      "en": "Statement I: The government banned plastic carry bags.\nStatement II: People switched to cloth bags.",
+      "as": "বিবৃতি I: The government banned plastic carry bags.\nবিবৃতি II: People switched to cloth bags."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A ban forces a switch to alternatives; II is the effect.",
+      "as": "নিষিদ্ধাই বিকল্পলৈ বাধ্য কৰে; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-037",
+    "q": {
+      "en": "Statement I: A new university was set up in the district.\nStatement II: More local students enrolled in higher studies.",
+      "as": "বিবৃতি I: A new university was set up in the district.\nবিবৃতি II: More local students enrolled in higher studies."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A local university increases enrolment, so II is the effect.",
+      "as": "স্থানীয় বিশ্ববিদ্যালয়ে নামভৰ্তি বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-038",
+    "q": {
+      "en": "Statement I: The river was polluted by industrial waste.\nStatement II: Fish in the river died.",
+      "as": "বিবৃতি I: The river was polluted by industrial waste.\nবিবৃতি II: Fish in the river died."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pollution kills fish, so the deaths are the effect.",
+      "as": "প্ৰদূষণে মাছ মাৰে, গতিকে মৃত্যু ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-039",
+    "q": {
+      "en": "Statement I: The government announced a new pension scheme.\nStatement II: Elderly people felt more secure.",
+      "as": "বিবৃতি I: The government announced a new pension scheme.\nবিবৃতি II: Elderly people felt more secure."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A pension gives security, so II is the effect.",
+      "as": "পেঞ্চনে সুৰক্ষা দিয়ে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-040",
+    "q": {
+      "en": "Statement I: The government opened a new medical college.\nStatement II: More doctors became available in the region.",
+      "as": "বিবৃতি I: The government opened a new medical college.\nবিবৃতি II: More doctors became available in the region."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A medical college produces more doctors, so II is the effect.",
+      "as": "চিকিৎসা মহাবিদ্যালয়ে বেছি ডাক্তৰ সৃষ্টি কৰে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-041",
+    "q": {
+      "en": "Statement I: The city banned diesel vehicles in the centre.\nStatement II: Air quality in the centre improved.",
+      "as": "বিবৃতি I: The city banned diesel vehicles in the centre.\nবিবৃতি II: Air quality in the centre improved."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fewer diesel vehicles reduce pollution, so II is the effect.",
+      "as": "কম ডিজেল বাহনে প্ৰদূষণ কমায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-042",
+    "q": {
+      "en": "Statement I: A new flyover was opened to traffic.\nStatement II: Congestion at the junction eased.",
+      "as": "বিবৃতি I: A new flyover was opened to traffic.\nবিবৃতি II: Congestion at the junction eased."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A flyover diverts traffic, so the easing is the effect.",
+      "as": "উৰণসেতুৱে যান-বাহন ঘূৰায়, গতিকে হ্ৰাস ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-043",
+    "q": {
+      "en": "Statement I: The company gave a festival bonus.\nStatement II: Employees spent more on shopping.",
+      "as": "বিবৃতি I: The company gave a festival bonus.\nবিবৃতি II: Employees spent more on shopping."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Extra money raises spending, so II is the effect.",
+      "as": "অতিৰিক্ত ধনে খৰচ বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-044",
+    "q": {
+      "en": "Statement I: The state started a free ambulance service.\nStatement II: Fewer patients died on the way to hospital.",
+      "as": "বিবৃতি I: The state started a free ambulance service.\nবিবৃতি II: Fewer patients died on the way to hospital."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Quick transport saves lives, so the fall in deaths is the effect.",
+      "as": "দ্ৰুত পৰিবহণে জীৱন ৰক্ষা কৰে, গতিকে মৃত্যু হ্ৰাস ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-045",
+    "q": {
+      "en": "Statement I: A big fire broke out in a market.\nStatement II: Shopkeepers suffered heavy losses.",
+      "as": "বিবৃতি I: A big fire broke out in a market.\nবিবৃতি II: Shopkeepers suffered heavy losses."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fire destroys goods, so the losses are the effect.",
+      "as": "জুইয়ে সামগ্ৰী ধ্বংস কৰে, গতিকে লোকচান ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-046",
+    "q": {
+      "en": "Statement I: The government raised the import duty on electronics.\nStatement II: Prices of electronics went up.",
+      "as": "বিবৃতি I: The government raised the import duty on electronics.\nবিবৃতি II: Prices of electronics went up."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Higher duty raises prices, so II is the effect.",
+      "as": "বেছি কৰে দাম বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-047",
+    "q": {
+      "en": "Statement I: The school introduced smart classes.\nStatement II: Students understood lessons better.",
+      "as": "বিবৃতি I: The school introduced smart classes.\nবিবৃতি II: Students understood lessons better."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Visual teaching improves understanding, so II is the effect.",
+      "as": "দৃশ্যমান শিক্ষণে বুজা বঢ়ায়, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-048",
+    "q": {
+      "en": "Statement I: The municipality started a cleanliness drive.\nStatement II: The spread of disease slowed down.",
+      "as": "বিবৃতি I: The municipality started a cleanliness drive.\nবিবৃতি II: The spread of disease slowed down."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cleanliness reduces disease, so the slowdown is the effect.",
+      "as": "পৰিষ্কাৰতাই ৰোগ কমায়, গতিকে হ্ৰাস ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-049",
+    "q": {
+      "en": "Statement I: The bank launched a mobile app.\nStatement II: Customers stopped visiting branches often.",
+      "as": "বিবৃতি I: The bank launched a mobile app.\nবিবৃতি II: Customers stopped visiting branches often."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An app lets people bank from home, so fewer visits is the effect.",
+      "as": "এপে ঘৰৰ পৰাই বেংকিং কৰায়, গতিকে কম ভ্ৰমণ ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-050",
+    "q": {
+      "en": "Statement I: The government started a mid-day meal scheme.\nStatement II: School attendance in villages improved.",
+      "as": "বিবৃতি I: The government started a mid-day meal scheme.\nবিবৃতি II: School attendance in villages improved."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Free meals attract children to school, so II is the effect.",
+      "as": "বিনামূলীয়া আহাৰে শিশুক স্কুললৈ আনে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-051",
+    "q": {
+      "en": "Statement I: The city widened a busy road.\nStatement II: Traffic jams on that road reduced.",
+      "as": "বিবৃতি I: The city widened a busy road.\nবিবৃতি II: Traffic jams on that road reduced."
+    },
+    "options": [
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A wider road carries more vehicles, so jams reduce; II is the effect.",
+      "as": "প্ৰশস্ত পথে বেছি বাহন ধৰে, গতিকে জ্যাম কমে; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-052",
+    "q": {
+      "en": "Statement I: The state gave a subsidy on solar panels.\nStatement II: More homes installed solar panels.",
+      "as": "বিবৃতি I: The state gave a subsidy on solar panels.\nবিবৃতি II: More homes installed solar panels."
+    },
+    "options": [
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A subsidy lowers cost, so installations rise; II is the effect.",
+      "as": "ভৰ্তুকিয়ে খৰচ কমায়, গতিকে স্থাপন বাঢ়ে; II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-053",
+    "q": {
+      "en": "Statement I: A new hospital opened in the district.\nStatement II: Pressure on the old hospital reduced.",
+      "as": "বিবৃতি I: A new hospital opened in the district.\nবিবৃতি II: Pressure on the old hospital reduced."
+    },
+    "options": [
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A new hospital shares the load, so II is the effect.",
+      "as": "নতুন চিকিৎসালয়ে ভাৰ ভাগে, গতিকে II ফলাফল।"
+    }
+  },
+  {
+    "id": "cause-effect-054",
+    "q": {
+      "en": "Statement I: The government banned fishing in the breeding season.\nStatement II: Fish numbers increased next year.",
+      "as": "বিবৃতি I: The government banned fishing in the breeding season.\nবিবৃতি II: Fish numbers increased next year."
+    },
+    "options": [
+      {
+        "en": "Both statements are effects of a common cause",
+        "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+      },
+      {
+        "en": "Both statements are independent causes",
+        "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+      },
+      {
+        "en": "Statement II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+      },
+      {
+        "en": "Statement I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Protecting breeding raises fish numbers, so II is the effect.",
+      "as": "প্ৰজনন ৰক্ষাই মাছ বঢ়ায়, গতিকে II ফলাফল।"
     }
   }
 ]

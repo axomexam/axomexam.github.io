@@ -2,61 +2,1591 @@
   {
     "id": "statement-arguments-001",
     "q": {
-      "en": "Statement: Should the use of plastic bags be banned? Argument: Yes, because plastic bags pollute the environment.",
-      "as": "বিবৃতি: প্লাষ্টিকৰ মোনা ব্যৱহাৰ নিষিদ্ধ কৰা উচিত নে? যুক্তি: হয়, কাৰণ প্লাষ্টিকৰ মোনাই পৰিৱেশ প্ৰদূষিত কৰে।"
+      "en": "Statement: Should all schools teach computer coding from class six?\nArguments: I. Yes, coding builds logical thinking useful in every career. II. No, because I did not learn coding at school.",
+      "as": "বিবৃতি: Should all schools teach computer coding from class six?\nযুক্তি: I. Yes, coding builds logical thinking useful in every career. II. No, because I did not learn coding at school."
     },
     "options": [
       {
-        "en": "The argument is weak",
-        "as": "যুক্তিটো দুৰ্বল"
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
       },
       {
-        "en": "The argument is irrelevant",
-        "as": "যুক্তিটো অসম্পৰ্কিত"
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
       },
       {
-        "en": "The argument is strong",
-        "as": "যুক্তিটো শক্তিশালী"
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
       },
       {
-        "en": "Cannot be decided",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": {
-      "en": "The argument is directly related to the statement and rests on a real environmental fact, so it is strong.",
-      "as": "যুক্তিটো বিবৃতিৰ সৈতে পোনপটীয়াকৈ জড়িত আৰু এটা প্ৰকৃত পৰিৱেশ তথ্যত ভিত্তি কৰি, গতিকে সেয়া শক্তিশালী।"
+      "en": "Argument I gives a general benefit; argument II is only a personal opinion.",
+      "as": "যুক্তি I এ সাধাৰণ উপকাৰ দেখুৱায়; যুক্তি II কেৱল ব্যক্তিগত মত।"
     }
   },
   {
     "id": "statement-arguments-002",
     "q": {
-      "en": "Statement: Should school children be given homework? Argument: No, because I never liked homework.",
-      "as": "বিবৃতি: স্কুলৰ শিশুক ঘৰুৱা কাম দিয়া উচিত নে? যুক্তি: নহয়, কাৰণ মই কেতিয়াও ঘৰুৱা কাম ভাল নাপাইছিলোঁ।"
+      "en": "Statement: Should mobile phones be banned in classrooms?\nArguments: I. Yes, they distract students from lessons. II. No, because phones are costly.",
+      "as": "বিবৃতি: Should mobile phones be banned in classrooms?\nযুক্তি: I. Yes, they distract students from lessons. II. No, because phones are costly."
     },
     "options": [
       {
-        "en": "The argument is strong",
-        "as": "যুক্তিটো শক্তিশালী"
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
       },
       {
-        "en": "The argument is relevant",
-        "as": "যুক্তিটো প্ৰাসংগিক"
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
       },
       {
-        "en": "Cannot be decided",
-        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
       },
       {
-        "en": "The argument is weak",
-        "as": "যুক্তিটো দুৰ্বল"
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distraction is directly about learning; cost is irrelevant to classroom use.",
+      "as": "মনোযোগ হেৰুওৱা পোনপটীয়াকৈ শিক্ষণৰ লগত জড়িত; দাম শ্ৰেণীকোঠাৰ ব্যৱহাৰৰ লগত অপ্ৰাসংগিক।"
+    }
+  },
+  {
+    "id": "statement-arguments-003",
+    "q": {
+      "en": "Statement: Should the government raise the legal age for driving?\nArguments: I. Yes, younger drivers have more accidents. II. No, because my cousin drives well.",
+      "as": "বিবৃতি: Should the government raise the legal age for driving?\nযুক্তি: I. Yes, younger drivers have more accidents. II. No, because my cousin drives well."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Accident data is a sound general reason; a single example is not.",
+      "as": "দুৰ্ঘটনাৰ তথ্য এটা সবল সাধাৰণ কাৰণ; এটা উদাহৰণে নহয়।"
+    }
+  },
+  {
+    "id": "statement-arguments-004",
+    "q": {
+      "en": "Statement: Should plastic bags be banned completely?\nArguments: I. Yes, they harm the environment for centuries. II. No, because plastic is cheap to make.",
+      "as": "বিবৃতি: Should plastic bags be banned completely?\nযুক্তি: I. Yes, they harm the environment for centuries. II. No, because plastic is cheap to make."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Long-term harm is a strong public reason; cheapness does not outweigh it.",
+      "as": "দীৰ্ঘম্যাদী ক্ষতি এটা সবল ৰাজহুৱা কাৰণ; সস্তাই তাক নুঢাকি।"
+    }
+  },
+  {
+    "id": "statement-arguments-005",
+    "q": {
+      "en": "Statement: Should students be given homework every day?\nArguments: I. Yes, regular practice strengthens learning. II. No, because homework is boring.",
+      "as": "বিবৃতি: Should students be given homework every day?\nযুক্তি: I. Yes, regular practice strengthens learning. II. No, because homework is boring."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Practice benefits learning; boredom is a weak personal feeling.",
+      "as": "অনুশীলনে শিক্ষণত উপকাৰ কৰে; আমনি এটা দুৰ্বল ব্যক্তিগত অনুভৱ।"
+    }
+  },
+  {
+    "id": "statement-arguments-006",
+    "q": {
+      "en": "Statement: Should the city build more public parks?\nArguments: I. Yes, parks give people space to exercise and relax. II. No, because parks need gardeners.",
+      "as": "বিবৃতি: Should the city build more public parks?\nযুক্তি: I. Yes, parks give people space to exercise and relax. II. No, because parks need gardeners."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Public benefit is strong; staffing is a manageable detail, not a reason to refuse.",
+      "as": "ৰাজহুৱা উপকাৰ সবল; কৰ্মচাৰী এটা সামৰি ল'ব পৰা দিশ, অস্বীকাৰৰ কাৰণ নহয়।"
+    }
+  },
+  {
+    "id": "statement-arguments-007",
+    "q": {
+      "en": "Statement: Should examinations be replaced by continuous assessment?\nArguments: I. Yes, continuous assessment reduces exam stress and gives a fuller picture. II. No, because exams are traditional.",
+      "as": "বিবৃতি: Should examinations be replaced by continuous assessment?\nযুক্তি: I. Yes, continuous assessment reduces exam stress and gives a fuller picture. II. No, because exams are traditional."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reduced stress and better measurement are real reasons; tradition alone is weak.",
+      "as": "হ্ৰাস পোৱা চাপ আৰু ভাল মূল্যায়ন প্ৰকৃত কাৰণ; পৰম্পৰাই অকলে দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-008",
+    "q": {
+      "en": "Statement: Should voting be made compulsory?\nArguments: I. Yes, it would increase public participation in democracy. II. No, because queues are long.",
+      "as": "বিবৃতি: Should voting be made compulsory?\nযুক্তি: I. Yes, it would increase public participation in democracy. II. No, because queues are long."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Participation is a fundamental democratic value; queue length is minor.",
+      "as": "অংশগ্ৰহণ এটা মৌলিক গণতান্ত্ৰিক মূল্য; শাৰীৰ দীঘ সৰু কথা।"
+    }
+  },
+  {
+    "id": "statement-arguments-009",
+    "q": {
+      "en": "Statement: Should junk food be banned in school canteens?\nArguments: I. Yes, it protects children's health. II. No, because children like the taste.",
+      "as": "বিবৃতি: Should junk food be banned in school canteens?\nযুক্তি: I. Yes, it protects children's health. II. No, because children like the taste."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Health protection is strong; taste alone is weak.",
+      "as": "স্বাস্থ্য সুৰক্ষা সবল; কেৱল সোৱাদ দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-010",
+    "q": {
+      "en": "Statement: Should free Wi-Fi be provided in all villages?\nArguments: I. Yes, it improves access to education and services. II. No, because some people misuse it.",
+      "as": "বিবৃতি: Should free Wi-Fi be provided in all villages?\nযুক্তি: I. Yes, it improves access to education and services. II. No, because some people misuse it."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Wider access is a strong benefit; possible misuse does not outweigh it.",
+      "as": "বিস্তৃত প্ৰৱেশ এটা সবল উপকাৰ; সম্ভাব্য দুষ্ট ব্যৱহাৰে তাক নুঢাকি।"
+    }
+  },
+  {
+    "id": "statement-arguments-011",
+    "q": {
+      "en": "Statement: Should the retirement age be increased?\nArguments: I. Yes, people now live and stay healthy longer. II. No, because I want to retire early.",
+      "as": "বিবৃতি: Should the retirement age be increased?\nযুক্তি: I. Yes, people now live and stay healthy longer. II. No, because I want to retire early."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Longer healthy life is a general reason; personal wish is weak.",
+      "as": "দীঘলীয়া সুস্থ জীৱন এটা সাধাৰণ কাৰণ; ব্যক্তিগত ইচ্ছা দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-012",
+    "q": {
+      "en": "Statement: Should animals be used for medical research?\nArguments: I. Yes, it has helped cure many human diseases. II. No, because animals are cute.",
+      "as": "বিবৃতি: Should animals be used for medical research?\nযুক্তি: I. Yes, it has helped cure many human diseases. II. No, because animals are cute."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
       }
     ],
     "correct": 3,
     "explanation": {
-      "en": "A personal dislike is not a sound reason and does not address the merits, so the argument is weak.",
-      "as": "ব্যক্তিগত অনিচ্ছা এটা সুস্থ কাৰণ নহয় আৰু গুণাগুণ সম্বোধন নকৰে, গতিকে যুক্তিটো দুৰ্বল।"
+      "en": "Cures are a strong benefit; cuteness is an emotional, weak reason.",
+      "as": "নিরাময় এটা সবল উপকাৰ; মৰম লগা ভাব এটা আৱেগিক, দুৰ্বল কাৰণ।"
+    }
+  },
+  {
+    "id": "statement-arguments-013",
+    "q": {
+      "en": "Statement: Should the government provide free laptops to students?\nArguments: I. Yes, it bridges the digital divide in education. II. No, because laptops break easily.",
+      "as": "বিবৃতি: Should the government provide free laptops to students?\nযুক্তি: I. Yes, it bridges the digital divide in education. II. No, because laptops break easily."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bridging a divide is a strong reason; breakage is a maintenance detail.",
+      "as": "ব্যৱধান দূৰ কৰা সবল কাৰণ; ভাঙি যোৱা ৰক্ষণাবেক্ষণৰ কথা।"
+    }
+  },
+  {
+    "id": "statement-arguments-014",
+    "q": {
+      "en": "Statement: Should smoking be banned in all public places?\nArguments: I. Yes, second-hand smoke harms non-smokers. II. No, because smokers enjoy it.",
+      "as": "বিবৃতি: Should smoking be banned in all public places?\nযুক্তি: I. Yes, second-hand smoke harms non-smokers. II. No, because smokers enjoy it."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Protecting others' health is strong; enjoyment is a weak personal reason.",
+      "as": "আনৰ স্বাস্থ্য ৰক্ষা সবল; আমোদ এটা দুৰ্বল ব্যক্তিগত কাৰণ।"
+    }
+  },
+  {
+    "id": "statement-arguments-015",
+    "q": {
+      "en": "Statement: Should school uniforms be abolished?\nArguments: I. Yes, uniforms can be costly for poor families. II. No, because uniforms look neat.",
+      "as": "বিবৃতি: Should school uniforms be abolished?\nযুক্তি: I. Yes, uniforms can be costly for poor families. II. No, because uniforms look neat."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cost burden on the poor is a strong social reason; neatness is weak.",
+      "as": "দৰিদ্ৰৰ ওপৰত খৰচৰ বোজা সবল সামাজিক কাৰণ; পৰিপাটিত্ব দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-016",
+    "q": {
+      "en": "Statement: Should there be a complete ban on firecrackers?\nArguments: I. Yes, they cause air and noise pollution. II. No, because I like the sound.",
+      "as": "বিবৃতি: Should there be a complete ban on firecrackers?\nযুক্তি: I. Yes, they cause air and noise pollution. II. No, because I like the sound."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pollution is a strong public reason; personal liking is weak.",
+      "as": "প্ৰদূষণ এটা সবল ৰাজহুৱা কাৰণ; ব্যক্তিগত ভাল লগা দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-017",
+    "q": {
+      "en": "Statement: Should the minimum wage be raised?\nArguments: I. Yes, workers cannot meet basic needs at the present wage. II. No, because employers want more profit.",
+      "as": "বিবৃতি: Should the minimum wage be raised?\nযুক্তি: I. Yes, workers cannot meet basic needs at the present wage. II. No, because employers want more profit."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Meeting basic needs is a strong reason; profit wish is weak and self-interested.",
+      "as": "মৌলিক প্ৰয়োজন পূৰণ সবল কাৰণ; লাভৰ ইচ্ছা দুৰ্বল আৰু স্বাৰ্থপৰ।"
+    }
+  },
+  {
+    "id": "statement-arguments-018",
+    "q": {
+      "en": "Statement: Should school children be given free midday meals?\nArguments: I. Yes, it improves nutrition and attendance. II. No, because cooking is difficult.",
+      "as": "বিবৃতি: Should school children be given free midday meals?\nযুক্তি: I. Yes, it improves nutrition and attendance. II. No, because cooking is difficult."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Better nutrition and attendance are strong; cooking difficulty is a manageable detail.",
+      "as": "ভাল পুষ্টি আৰু উপস্থিতি সবল; ৰন্ধাৰ অসুবিধা সামৰি ল'ব পৰা কথা।"
+    }
+  },
+  {
+    "id": "statement-arguments-019",
+    "q": {
+      "en": "Statement: Should the use of loudspeakers at night be restricted?\nArguments: I. Yes, loud noise disturbs sleep and health. II. No, because loudspeakers are fun.",
+      "as": "বিবৃতি: Should the use of loudspeakers at night be restricted?\nযুক্তি: I. Yes, loud noise disturbs sleep and health. II. No, because loudspeakers are fun."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sleep and health are strong; fun is weak.",
+      "as": "টোপনি আৰু স্বাস্থ্য সবল; আমোদ দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-020",
+    "q": {
+      "en": "Statement: Should the government build more dams on rivers?\nArguments: I. Yes, dams provide irrigation and electricity. II. No, because I live far from rivers.",
+      "as": "বিবৃতি: Should the government build more dams on rivers?\nযুক্তি: I. Yes, dams provide irrigation and electricity. II. No, because I live far from rivers."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Irrigation and power are strong benefits; personal distance is irrelevant.",
+      "as": "জলসিঞ্চন আৰু বিদ্যুৎ সবল উপকাৰ; ব্যক্তিগত দূৰত্ব অপ্ৰাসংগিক।"
+    }
+  },
+  {
+    "id": "statement-arguments-021",
+    "q": {
+      "en": "Statement: Should children be allowed to choose their own subjects?\nArguments: I. Yes, interest leads to better learning. II. No, because parents know best always.",
+      "as": "বিবৃতি: Should children be allowed to choose their own subjects?\nযুক্তি: I. Yes, interest leads to better learning. II. No, because parents know best always."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Interest improving learning is strong; 'always' is an overstatement.",
+      "as": "আগ্ৰহে শিক্ষণ উন্নত কৰে সবল; 'সদায়' এটা অত্যুক্তি।"
+    }
+  },
+  {
+    "id": "statement-arguments-022",
+    "q": {
+      "en": "Statement: Should the state provide unemployment allowance?\nArguments: I. Yes, it supports job-seekers during the search. II. No, because some may misuse it.",
+      "as": "বিবৃতি: Should the state provide unemployment allowance?\nযুক্তি: I. Yes, it supports job-seekers during the search. II. No, because some may misuse it."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Support during job search is strong; possible misuse does not outweigh it.",
+      "as": "চাকৰি সন্ধানৰ সময়ত সহায় সবল; সম্ভাব্য দুষ্ট ব্যৱহাৰে তাক নুঢাকি।"
+    }
+  },
+  {
+    "id": "statement-arguments-023",
+    "q": {
+      "en": "Statement: Should single-use plastics be replaced by cloth bags?\nArguments: I. Yes, cloth bags reduce long-term waste. II. No, because cloth bags cost more.",
+      "as": "বিবৃতি: Should single-use plastics be replaced by cloth bags?\nযুক্তি: I. Yes, cloth bags reduce long-term waste. II. No, because cloth bags cost more."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reduced waste is strong; a slightly higher initial cost is minor.",
+      "as": "কম আৱৰ্জনা সবল; কিছু বেছি প্ৰাৰম্ভিক খৰচ সৰু কথা।"
+    }
+  },
+  {
+    "id": "statement-arguments-024",
+    "q": {
+      "en": "Statement: Should every student learn a musical instrument?\nArguments: I. Yes, music improves concentration and creativity. II. No, because not everyone likes music.",
+      "as": "বিবৃতি: Should every student learn a musical instrument?\nযুক্তি: I. Yes, music improves concentration and creativity. II. No, because not everyone likes music."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Improved concentration and creativity are strong; dislike is weak.",
+      "as": "উন্নত মনোযোগ আৰু সৃষ্টিশীলতা সবল; অপছন্দ দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-025",
+    "q": {
+      "en": "Statement: Should the government ban the sale of tobacco near schools?\nArguments: I. Yes, it protects young students from addiction. II. No, because sellers lose income.",
+      "as": "বিবৃতি: Should the government ban the sale of tobacco near schools?\nযুক্তি: I. Yes, it protects young students from addiction. II. No, because sellers lose income."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Protecting children from addiction is strong; seller income is weak against it.",
+      "as": "শিশুক আসক্তিৰ পৰা ৰক্ষা সবল; বিক্ৰেতাৰ আয় তাৰ আগত দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-026",
+    "q": {
+      "en": "Statement: Should there be a fixed limit on the number of vehicles per family?\nArguments: I. Yes, it would reduce traffic and pollution. II. No, because my family has three cars.",
+      "as": "বিবৃতি: Should there be a fixed limit on the number of vehicles per family?\nযুক্তি: I. Yes, it would reduce traffic and pollution. II. No, because my family has three cars."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Less traffic and pollution is strong; a personal example is weak.",
+      "as": "কম যান-বাহন আৰু প্ৰদূষণ সবল; ব্যক্তিগত উদাহৰণ দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-027",
+    "q": {
+      "en": "Statement: Should the school day start later in the morning?\nArguments: I. Yes, teenagers need more morning sleep for health. II. No, because I like early mornings.",
+      "as": "বিবৃতি: Should the school day start later in the morning?\nযুক্তি: I. Yes, teenagers need more morning sleep for health. II. No, because I like early mornings."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Health needs of teenagers are strong; personal preference is weak.",
+      "as": "কিশোৰৰ স্বাস্থ্যৰ প্ৰয়োজন সবল; ব্যক্তিগত পছন্দ দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-028",
+    "q": {
+      "en": "Statement: Should exams test only objective questions?\nArguments: I. Yes, objective questions are quick and unbiased to mark. II. No, because essays look nice.",
+      "as": "বিবৃতি: Should exams test only objective questions?\nযুক্তি: I. Yes, objective questions are quick and unbiased to mark. II. No, because essays look nice."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Quick and unbiased marking is strong; appearance is weak.",
+      "as": "দ্ৰুত আৰু পক্ষপাতহীন মূল্যাংকন সবল; চেহেৰা দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-029",
+    "q": {
+      "en": "Statement: Should the government give tax breaks to small businesses?\nArguments: I. Yes, it helps them grow and create jobs. II. No, because big businesses pay tax.",
+      "as": "বিবৃতি: Should the government give tax breaks to small businesses?\nযুক্তি: I. Yes, it helps them grow and create jobs. II. No, because big businesses pay tax."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Growth and jobs are strong; a comparison with big business is irrelevant.",
+      "as": "বৃদ্ধি আৰু চাকৰি সবল; ডাঙৰ ব্যৱসায়ৰ লগত তুলনা অপ্ৰাসংগিক।"
+    }
+  },
+  {
+    "id": "statement-arguments-030",
+    "q": {
+      "en": "Statement: Should there be a ban on loud horns in residential areas?\nArguments: I. Yes, noise pollution harms residents' health. II. No, because horns warn of danger.",
+      "as": "বিবৃতি: Should there be a ban on loud horns in residential areas?\nযুক্তি: I. Yes, noise pollution harms residents' health. II. No, because horns warn of danger."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Warning of danger is a strong safety reason; a total ban would remove it, so I is weak.",
+      "as": "বিপদৰ সতৰ্কবাণী এটা সবল সুৰক্ষা কাৰণ; সম্পূৰ্ণ নিষিদ্ধই তাক হৰণ কৰে, গতিকে I দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-031",
+    "q": {
+      "en": "Statement: Should children below ten be allowed social media?\nArguments: I. Yes, they can learn new things online. II. No, young children are not mature enough to use it safely.",
+      "as": "বিবৃতি: Should children below ten be allowed social media?\nযুক্তি: I. Yes, they can learn new things online. II. No, young children are not mature enough to use it safely."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Immaturity and safety is a strong reason; learning online does not require social media.",
+      "as": "অপৰিপক্বতা আৰু সুৰক্ষা সবল কাৰণ; অনলাইন শিক্ষণৰ বাবে ছ'চিয়েল মিডিয়া লাগে নালাগে।"
+    }
+  },
+  {
+    "id": "statement-arguments-032",
+    "q": {
+      "en": "Statement: Should plastic water bottles be banned in offices?\nArguments: I. Yes, reusable bottles cut plastic waste. II. No, because plastic bottles are handy.",
+      "as": "বিবৃতি: Should plastic water bottles be banned in offices?\nযুক্তি: I. Yes, reusable bottles cut plastic waste. II. No, because plastic bottles are handy."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cutting waste is strong; convenience is weak against environmental harm.",
+      "as": "আৱৰ্জনা কমোৱা সবল; সুবিধাই পৰিৱেশৰ ক্ষতিৰ আগত দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-033",
+    "q": {
+      "en": "Statement: Should the school provide free transport in rural areas?\nArguments: I. Yes, many students walk long distances to study. II. No, because buses need fuel.",
+      "as": "বিবৃতি: Should the school provide free transport in rural areas?\nযুক্তি: I. Yes, many students walk long distances to study. II. No, because buses need fuel."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Long walking distances harming attendance is strong; fuel is a manageable detail.",
+      "as": "দীঘল দূৰত্ব খোজ কাঢ়ি অহাই উপস্থিতিৰ ক্ষতি কৰা সবল; ইন্ধন সামৰি ল'ব পৰা কথা।"
+    }
+  },
+  {
+    "id": "statement-arguments-034",
+    "q": {
+      "en": "Statement: Should the government regulate the price of essential medicines?\nArguments: I. Yes, poor patients cannot afford costly medicine. II. No, because companies want profit.",
+      "as": "বিবৃতি: Should the government regulate the price of essential medicines?\nযুক্তি: I. Yes, poor patients cannot afford costly medicine. II. No, because companies want profit."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Affordability for the poor is strong; company profit wish is weak.",
+      "as": "দৰিদ্ৰৰ ক্ৰয়ক্ষমতা সবল; কোম্পানীৰ লাভৰ ইচ্ছা দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-035",
+    "q": {
+      "en": "Statement: Should fireworks be allowed only in open grounds?\nArguments: I. Yes, it reduces the risk of fire in crowded areas. II. No, because open grounds are far.",
+      "as": "বিবৃতি: Should fireworks be allowed only in open grounds?\nযুক্তি: I. Yes, it reduces the risk of fire in crowded areas. II. No, because open grounds are far."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fire risk reduction is strong; distance is a minor inconvenience.",
+      "as": "অগ্নিৰ আশংকা হ্ৰাস সবল; দূৰত্ব এটা সৰু অসুবিধা।"
+    }
+  },
+  {
+    "id": "statement-arguments-036",
+    "q": {
+      "en": "Statement: Should all government offices switch to paperless work?\nArguments: I. Yes, it saves paper and speeds up files. II. No, because paper feels official.",
+      "as": "বিবৃতি: Should all government offices switch to paperless work?\nযুক্তি: I. Yes, it saves paper and speeds up files. II. No, because paper feels official."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Saving paper and speed are strong; a feeling is weak.",
+      "as": "কাগজ সঞ্চয় আৰু গতি সবল; এটা অনুভৱ দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-037",
+    "q": {
+      "en": "Statement: Should school students be taught financial literacy?\nArguments: I. Yes, it helps them manage money wisely as adults. II. No, because money is not a school subject.",
+      "as": "বিবৃতি: Should school students be taught financial literacy?\nযুক্তি: I. Yes, it helps them manage money wisely as adults. II. No, because money is not a school subject."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Wise money management is strong; 'not a subject' is not a reason.",
+      "as": "বুজিৰে ধন পৰিচালনা সবল; 'বিষয় নহয়' কাৰণ নহয়।"
+    }
+  },
+  {
+    "id": "statement-arguments-038",
+    "q": {
+      "en": "Statement: Should the use of private vehicles be taxed more?\nArguments: I. Yes, it encourages public transport and cuts pollution. II. No, because I love driving.",
+      "as": "বিবৃতি: Should the use of private vehicles be taxed more?\nযুক্তি: I. Yes, it encourages public transport and cuts pollution. II. No, because I love driving."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Less pollution and more public transport is strong; personal love is weak.",
+      "as": "কম প্ৰদূষণ আৰু বেছি ৰাজহুৱা পৰিবহণ সবল; ব্যক্তিগত প্ৰেম দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-039",
+    "q": {
+      "en": "Statement: Should the government make rainwater harvesting compulsory for new buildings?\nArguments: I. Yes, it reduces dependence on scarce water. II. No, because it costs builders money.",
+      "as": "বিবৃতি: Should the government make rainwater harvesting compulsory for new buildings?\nযুক্তি: I. Yes, it reduces dependence on scarce water. II. No, because it costs builders money."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Water security is a strong public reason; a builder's cost is weak against it.",
+      "as": "পানীৰ সুৰক্ষা এটা সবল ৰাজহুৱা কাৰণ; নিৰ্মাতাৰ খৰচ তাৰ আগত দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-040",
+    "q": {
+      "en": "Statement: Should school students be given homework on holidays?\nArguments: I. Yes, it keeps them in touch with studies. II. No, because holidays are for rest.",
+      "as": "বিবৃতি: Should school students be given homework on holidays?\nযুক্তি: I. Yes, it keeps them in touch with studies. II. No, because holidays are for rest."
+    },
+    "options": [
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rest is essential for health and is a strong reason; light revision does not outweigh it.",
+      "as": "বিশ্ৰাম স্বাস্থ্যৰ বাবে আৱশ্যক আৰু সবল কাৰণ; লঘু পুনৰাবৃত্তিয়ে তাক নুঢাকি।"
+    }
+  },
+  {
+    "id": "statement-arguments-041",
+    "q": {
+      "en": "Statement: Should the government increase spending on public health?\nArguments: I. Yes, better health improves productivity. II. No, because defence needs money too.",
+      "as": "বিবৃতি: Should the government increase spending on public health?\nযুক্তি: I. Yes, better health improves productivity. II. No, because defence needs money too."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Health improving productivity is a strong reason; competing needs is not a reason against.",
+      "as": "স্বাস্থ্যই উৎপাদনশীলতা বঢ়োৱা সবল কাৰণ; প্ৰতিযোগী প্ৰয়োজন বিৰোধৰ কাৰণ নহয়।"
+    }
+  },
+  {
+    "id": "statement-arguments-042",
+    "q": {
+      "en": "Statement: Should mobile phones be allowed in examination halls?\nArguments: I. Yes, students can check answers. II. No, it makes cheating possible.",
+      "as": "বিবৃতি: Should mobile phones be allowed in examination halls?\nযুক্তি: I. Yes, students can check answers. II. No, it makes cheating possible."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Preventing cheating is a strong reason; argument I supports cheating, so it is invalid.",
+      "as": "প্ৰৱঞ্চনা ৰোধ সবল কাৰণ; যুক্তি I এ প্ৰৱঞ্চনাক সমৰ্থন কৰে, গতিকে অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-arguments-043",
+    "q": {
+      "en": "Statement: Should the state ban single-use cutlery in restaurants?\nArguments: I. Yes, it reduces plastic waste. II. No, because customers find it convenient.",
+      "as": "বিবৃতি: Should the state ban single-use cutlery in restaurants?\nযুক্তি: I. Yes, it reduces plastic waste. II. No, because customers find it convenient."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reducing waste is strong; convenience is weak against environmental harm.",
+      "as": "আৱৰ্জনা কমোৱা সবল; সুবিধাই পৰিৱেশৰ ক্ষতিৰ আগত দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-044",
+    "q": {
+      "en": "Statement: Should every village have a public library?\nArguments: I. Yes, it spreads knowledge and reading habit. II. No, because books are costly.",
+      "as": "বিবৃতি: Should every village have a public library?\nযুক্তি: I. Yes, it spreads knowledge and reading habit. II. No, because books are costly."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Spreading knowledge is strong; book cost is a manageable detail.",
+      "as": "জ্ঞান বিলোৱা সবল; কিতাপৰ দাম সামৰি ল'ব পৰা কথা।"
+    }
+  },
+  {
+    "id": "statement-arguments-045",
+    "q": {
+      "en": "Statement: Should the government provide free spectacles to poor students?\nArguments: I. Yes, poor eyesight harms learning. II. No, because spectacles can break.",
+      "as": "বিবৃতি: Should the government provide free spectacles to poor students?\nযুক্তি: I. Yes, poor eyesight harms learning. II. No, because spectacles can break."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Poor eyesight harming learning is strong; breakage is a minor detail.",
+      "as": "দুৰ্বল দৃষ্টিয়ে শিক্ষণৰ ক্ষতি কৰা সবল; ভাঙি যোৱা সৰু কথা।"
+    }
+  },
+  {
+    "id": "statement-arguments-046",
+    "q": {
+      "en": "Statement: Should loud music be banned in public transport?\nArguments: I. Yes, it disturbs other passengers. II. No, because some passengers enjoy it.",
+      "as": "বিবৃতি: Should loud music be banned in public transport?\nযুক্তি: I. Yes, it disturbs other passengers. II. No, because some passengers enjoy it."
+    },
+    "options": [
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Disturbing others is strong; some enjoying it does not justify the disturbance.",
+      "as": "আনক আমনি কৰা সবল; কিছুমানে ভাল পোৱাই আমনি ন্যায্য নকৰে।"
+    }
+  },
+  {
+    "id": "statement-arguments-047",
+    "q": {
+      "en": "Statement: Should the government give interest-free loans to farmers?\nArguments: I. Yes, it saves them from debt traps. II. No, because banks need profit.",
+      "as": "বিবৃতি: Should the government give interest-free loans to farmers?\nযুক্তি: I. Yes, it saves them from debt traps. II. No, because banks need profit."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Avoiding debt traps is strong; bank profit is weak against farmers' distress.",
+      "as": "ঋণৰ ফান্দৰ পৰা ৰক্ষা সবল; বেংকৰ লাভ কৃষকৰ দুখৰ আগত দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-048",
+    "q": {
+      "en": "Statement: Should children be given pocket money?\nArguments: I. Yes, it teaches them to manage money. II. No, because they may spend it all.",
+      "as": "বিবৃতি: Should children be given pocket money?\nযুক্তি: I. Yes, it teaches them to manage money. II. No, because they may spend it all."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Learning money management is strong; possible overspending is a weak worry.",
+      "as": "ধন পৰিচালনা শিকা সবল; সম্ভাব্য অপচয় এটা দুৰ্বল চিন্তা।"
+    }
+  },
+  {
+    "id": "statement-arguments-049",
+    "q": {
+      "en": "Statement: Should the government ban plastic bags below 50 microns?\nArguments: I. Yes, thin plastic is easily littered and harms animals. II. No, because thin bags are cheap.",
+      "as": "বিবৃতি: Should the government ban plastic bags below 50 microns?\nযুক্তি: I. Yes, thin plastic is easily littered and harms animals. II. No, because thin bags are cheap."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Environmental harm is a strong reason; cheapness is weak against it.",
+      "as": "পৰিৱেশৰ ক্ষতি সবল কাৰণ; সস্তাই তাক আগত দুৰ্বল।"
+    }
+  },
+  {
+    "id": "statement-arguments-050",
+    "q": {
+      "en": "Statement: Should physical education be a compulsory school subject?\nArguments: I. Yes, it improves fitness and discipline. II. No, because it takes time from studies.",
+      "as": "বিবৃতি: Should physical education be a compulsory school subject?\nযুক্তি: I. Yes, it improves fitness and discipline. II. No, because it takes time from studies."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fitness and discipline are strong benefits; time can be managed.",
+      "as": "সুস্থতা আৰু শৃংখলা সবল উপকাৰ; সময় সামৰি ল'ব পৰা যায়।"
+    }
+  },
+  {
+    "id": "statement-arguments-051",
+    "q": {
+      "en": "Statement: Should the government build more old-age homes?\nArguments: I. Yes, some elderly people need care and shelter. II. No, because families should always manage.",
+      "as": "বিবৃতি: Should the government build more old-age homes?\nযুক্তি: I. Yes, some elderly people need care and shelter. II. No, because families should always manage."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Care and shelter for the needy elderly is strong; an 'always' claim is unrealistic.",
+      "as": "অসহায় বৃদ্ধৰ যতন আৰু আশ্ৰয় সবল; 'সদায়' দাবী অবাস্তৱ।"
+    }
+  },
+  {
+    "id": "statement-arguments-052",
+    "q": {
+      "en": "Statement: Should the government provide free internet to students?\nArguments: I. Yes, it helps online learning. II. No, because students may misuse it.",
+      "as": "বিবৃতি: Should the government provide free internet to students?\nযুক্তি: I. Yes, it helps online learning. II. No, because students may misuse it."
+    },
+    "options": [
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Online learning access is strong; possible misuse does not outweigh it.",
+      "as": "অনলাইন শিক্ষাৰ প্ৰৱেশ সবল; সম্ভাব্য দুষ্ট ব্যৱহাৰে তাক নুঢাকি।"
+    }
+  },
+  {
+    "id": "statement-arguments-053",
+    "q": {
+      "en": "Statement: Should the sale of loose oil be banned?\nArguments: I. Yes, loose oil is often adulterated. II. No, because packed oil is costly.",
+      "as": "বিবৃতি: Should the sale of loose oil be banned?\nযুক্তি: I. Yes, loose oil is often adulterated. II. No, because packed oil is costly."
+    },
+    "options": [
+      {
+        "en": "Neither I nor II is strong",
+        "as": "I বা II কোনোটোৱেই সবল নহয়"
+      },
+      {
+        "en": "Both I and II are strong",
+        "as": "I আৰু II দুয়োটা সবল"
+      },
+      {
+        "en": "Only argument II is strong",
+        "as": "কেৱল যুক্তি II সবল"
+      },
+      {
+        "en": "Only argument I is strong",
+        "as": "কেৱল যুক্তি I সবল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Preventing adulteration protects health and is strong; cost is weak against safety.",
+      "as": "ভেজাল ৰোধে স্বাস্থ্য ৰক্ষা কৰে আৰু সবল; দাম সুৰক্ষাৰ আগত দুৰ্বল।"
     }
   }
 ]
