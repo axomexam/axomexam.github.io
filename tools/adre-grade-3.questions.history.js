@@ -63014,5 +63014,10507 @@ module.exports = {
     "as": "জাতীয় চেতনাৰ বিকাশ ভাৰতীয় নৱজাগৰণৰ এটা বৈশিষ্ট্য আছিল।"
    }
   }
+ ],
+ "world-history": [
+  {
+   "id": "world-history-001",
+   "q": {
+    "en": "Which river valley was the site of the Egyptian civilisation?",
+    "as": "মিচৰৰ সভ্যতা কোন নদী উপত্যকাত অৱস্থিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Nile",
+     "as": "নীল"
+    },
+    {
+     "en": "The Tigris",
+     "as": "টাইগ্ৰিছ"
+    },
+    {
+     "en": "The Indus",
+     "as": "সিন্ধু"
+    },
+    {
+     "en": "The Yellow River",
+     "as": "হালধীয়া নদী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Egyptian civilisation grew in the Nile river valley.",
+    "as": "মিচৰৰ সভ্যতা নীল নদী উপত্যকাত বিকশিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-002",
+   "q": {
+    "en": "Which river valley was the site of the Mesopotamian civilisation?",
+    "as": "মেছ'পটেমিয়াৰ সভ্যতা কোন নদী উপত্যকাত অৱস্থিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Tigris and Euphrates",
+     "as": "টাইগ্ৰিছ আৰু ইউফ্ৰেটিছ"
+    },
+    {
+     "en": "The Nile",
+     "as": "নীল"
+    },
+    {
+     "en": "The Indus",
+     "as": "সিন্ধু"
+    },
+    {
+     "en": "The Ganges",
+     "as": "গঙ্গা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mesopotamian civilisation grew between the Tigris and Euphrates rivers.",
+    "as": "মেছ'পটেমিয়াৰ সভ্যতা টাইগ্ৰিছ আৰু ইউফ্ৰেটিছ নদীৰ মাজত বিকশিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-003",
+   "q": {
+    "en": "Which river valley was the site of the Chinese civilisation?",
+    "as": "চীনা সভ্যতা কোন নদী উপত্যকাত অৱস্থিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Yellow River",
+     "as": "হালধীয়া নদী"
+    },
+    {
+     "en": "The Nile",
+     "as": "নীল"
+    },
+    {
+     "en": "The Indus",
+     "as": "সিন্ধু"
+    },
+    {
+     "en": "The Tigris",
+     "as": "টাইগ্ৰিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chinese civilisation grew in the Yellow River valley.",
+    "as": "চীনা সভ্যতা হালধীয়া নদী উপত্যকাত বিকশিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-004",
+   "q": {
+    "en": "Which river valley was the site of the Indus Valley civilisation?",
+    "as": "সিন্ধু উপত্যকা সভ্যতা কোন নদী উপত্যকাত অৱস্থিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indus",
+     "as": "সিন্ধু"
+    },
+    {
+     "en": "The Nile",
+     "as": "নীল"
+    },
+    {
+     "en": "The Tigris",
+     "as": "টাইগ্ৰিছ"
+    },
+    {
+     "en": "The Yellow River",
+     "as": "হালধীয়া নদী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indus Valley civilisation grew in the Indus river valley.",
+    "as": "সিন্ধু উপত্যকা সভ্যতা সিন্ধু নদী উপত্যকাত বিকশিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-005",
+   "q": {
+    "en": "Which ancient civilisation built the pyramids?",
+    "as": "কোন প্ৰাচীন সভ্যতাই পিৰামিড নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Mesopotamian civilisation",
+     "as": "মেছ'পটেমিয়াৰ সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Indus Valley civilisation",
+     "as": "সিন্ধু উপত্যকা সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Egyptian civilisation built the pyramids.",
+    "as": "মিচৰৰ সভ্যতাই পিৰামিড নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-006",
+   "q": {
+    "en": "Which ancient civilisation developed cuneiform writing?",
+    "as": "কোন প্ৰাচীন সভ্যতাই কীলকাকৃতি লিপি বিকশিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Sumerian civilisation",
+     "as": "চুমেৰীয় সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sumerian civilisation developed cuneiform writing.",
+    "as": "চুমেৰীয় সভ্যতাই কীলকাকৃতি লিপি বিকশিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-007",
+   "q": {
+    "en": "Which ancient civilisation developed hieroglyphic writing?",
+    "as": "কোন প্ৰাচীন সভ্যতাই চিত্ৰলিপি বিকশিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Sumerian civilisation",
+     "as": "চুমেৰীয় সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Egyptian civilisation developed hieroglyphic writing.",
+    "as": "মিচৰৰ সভ্যতাই চিত্ৰলিপি বিকশিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-008",
+   "q": {
+    "en": "Which ancient civilisation built the Great Wall?",
+    "as": "কোন প্ৰাচীন সভ্যতাই মহাপ্ৰাচীৰ নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chinese civilisation built the Great Wall of China.",
+    "as": "চীনা সভ্যতাই চীনৰ মহাপ্ৰাচীৰ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-009",
+   "q": {
+    "en": "Which ancient civilisation is known for the Hanging Gardens?",
+    "as": "কোন প্ৰাচীন সভ্যতা ঝুলন্ত উদ্যানৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Babylonian civilisation",
+     "as": "বেবিলনীয় সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Hanging Gardens were in Babylon.",
+    "as": "ঝুলন্ত উদ্যানসমূহ বেবিলনত আছিল।"
+   }
+  },
+  {
+   "id": "world-history-010",
+   "q": {
+    "en": "Who was the king who built the Hanging Gardens of Babylon?",
+    "as": "বেবিলনৰ ঝুলন্ত উদ্যান কোন ৰজাই নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nebuchadnezzar II",
+     "as": "নেবুকাডনেজাৰ দ্বিতীয়"
+    },
+    {
+     "en": "Hammurabi",
+     "as": "হাম্মুৰাবি"
+    },
+    {
+     "en": "Ramses II",
+     "as": "ৰামচিছ দ্বিতীয়"
+    },
+    {
+     "en": "Cyrus",
+     "as": "চাইৰাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nebuchadnezzar II is associated with the Hanging Gardens of Babylon.",
+    "as": "নেবুকাডনেজাৰ দ্বিতীয় বেবিলনৰ ঝুলন্ত উদ্যানৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "world-history-011",
+   "q": {
+    "en": "Who gave the first code of laws?",
+    "as": "প্ৰথম আইন সংহিতা কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hammurabi",
+     "as": "হাম্মুৰাবি"
+    },
+    {
+     "en": "Nebuchadnezzar",
+     "as": "নেবুকাডনেজাৰ"
+    },
+    {
+     "en": "Ramses",
+     "as": "ৰামচিছ"
+    },
+    {
+     "en": "Cyrus",
+     "as": "চাইৰাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hammurabi of Babylon gave one of the first written codes of law.",
+    "as": "বেবিলনৰ হাম্মুৰাবিয়ে প্ৰথম লিখিত আইন সংহিতাৰ এটা দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-012",
+   "q": {
+    "en": "Which ancient civilisation built the city of Mohenjo-daro?",
+    "as": "মোহেঞ্জোদাৰো চহৰ কোন প্ৰাচীন সভ্যতাই নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indus Valley civilisation",
+     "as": "সিন্ধু উপত্যকা সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Mesopotamian civilisation",
+     "as": "মেছ'পটেমিয়াৰ সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mohenjo-daro was a city of the Indus Valley civilisation.",
+    "as": "মোহেঞ্জোদাৰো সিন্ধু উপত্যকা সভ্যতাৰ এটা চহৰ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-013",
+   "q": {
+    "en": "Which ancient civilisation built the city of Harappa?",
+    "as": "হৰপ্পা চহৰ কোন প্ৰাচীন সভ্যতাই নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indus Valley civilisation",
+     "as": "সিন্ধু উপত্যকা সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Mesopotamian civilisation",
+     "as": "মেছ'পটেমিয়াৰ সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Harappa was a city of the Indus Valley civilisation.",
+    "as": "হৰপ্পা সিন্ধু উপত্যকা সভ্যতাৰ এটা চহৰ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-014",
+   "q": {
+    "en": "Which ancient civilisation used the Great Bath?",
+    "as": "কোন প্ৰাচীন সভ্যতাই মহাস্নানাগাৰ ব্যৱহাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Indus Valley civilisation",
+     "as": "সিন্ধু উপত্যকা সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Great Bath was a feature of the Indus Valley civilisation.",
+    "as": "মহাস্নানাগাৰ সিন্ধু উপত্যকা সভ্যতাৰ এটা বৈশিষ্ট্য আছিল।"
+   }
+  },
+  {
+   "id": "world-history-015",
+   "q": {
+    "en": "Who was the Greek philosopher who taught Alexander the Great?",
+    "as": "আলেকজেণ্ডাৰ দ্য গ্ৰেটক শিক্ষা দিয়া গ্ৰীক দাৰ্শনিক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    },
+    {
+     "en": "Socrates",
+     "as": "ছক্ৰেটিছ"
+    },
+    {
+     "en": "Plato",
+     "as": "প্লেটো"
+    },
+    {
+     "en": "Pythagoras",
+     "as": "পাইথাগৰাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aristotle taught Alexander the Great.",
+    "as": "এৰিষ্ট'টলে আলেকজেণ্ডাৰ দ্য গ্ৰেটক শিক্ষা দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-016",
+   "q": {
+    "en": "Who was the teacher of Plato?",
+    "as": "প্লেটোৰ শিক্ষক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Socrates",
+     "as": "ছক্ৰেটিছ"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    },
+    {
+     "en": "Pythagoras",
+     "as": "পাইথাগৰাছ"
+    },
+    {
+     "en": "Herodotus",
+     "as": "হেৰ'ড'টাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Socrates was the teacher of Plato.",
+    "as": "ছক্ৰেটিছ প্লেটোৰ শিক্ষক আছিল।"
+   }
+  },
+  {
+   "id": "world-history-017",
+   "q": {
+    "en": "Who was the student of Socrates?",
+    "as": "ছক্ৰেটিছৰ ছাত্ৰ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Plato",
+     "as": "প্লেটো"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    },
+    {
+     "en": "Herodotus",
+     "as": "হেৰ'ড'টাছ"
+    },
+    {
+     "en": "Homer",
+     "as": "হোমাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Plato was the student of Socrates.",
+    "as": "প্লেটো ছক্ৰেটিছৰ ছাত্ৰ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-018",
+   "q": {
+    "en": "Who wrote the epic 'Iliad'?",
+    "as": "মহাকাব্য 'ইলিয়াড' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Homer",
+     "as": "হোমাৰ"
+    },
+    {
+     "en": "Virgil",
+     "as": "ভাৰ্জিল"
+    },
+    {
+     "en": "Herodotus",
+     "as": "হেৰ'ড'টাছ"
+    },
+    {
+     "en": "Sophocles",
+     "as": "ছফ'ক্লিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Homer wrote the epic Iliad.",
+    "as": "হোমাৰে ইলিয়াড মহাকাব্য লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-019",
+   "q": {
+    "en": "Who wrote the epic 'Odyssey'?",
+    "as": "মহাকাব্য 'অডিচি' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Homer",
+     "as": "হোমাৰ"
+    },
+    {
+     "en": "Virgil",
+     "as": "ভাৰ্জিল"
+    },
+    {
+     "en": "Herodotus",
+     "as": "হেৰ'ড'টাছ"
+    },
+    {
+     "en": "Sophocles",
+     "as": "ছফ'ক্লিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Homer wrote the epic Odyssey.",
+    "as": "হোমাৰে অডিচি মহাকাব্য লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-020",
+   "q": {
+    "en": "Who is known as the 'Father of History'?",
+    "as": "কাক 'ইতিহাসৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Herodotus",
+     "as": "হেৰ'ড'টাছ"
+    },
+    {
+     "en": "Homer",
+     "as": "হোমাৰ"
+    },
+    {
+     "en": "Thucydides",
+     "as": "থুচিডাইডিছ"
+    },
+    {
+     "en": "Plato",
+     "as": "প্লেটো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Herodotus is known as the Father of History.",
+    "as": "হেৰ'ড'টাছক ইতিহাসৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-021",
+   "q": {
+    "en": "Who was the king of Macedon who conquered much of the ancient world?",
+    "as": "প্ৰাচীন বিশ্বৰ বহুখিনি জয় কৰা মেচিডনৰ ৰজা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Alexander the Great",
+     "as": "আলেকজেণ্ডাৰ দ্য গ্ৰেট"
+    },
+    {
+     "en": "Philip II",
+     "as": "ফিলিপ দ্বিতীয়"
+    },
+    {
+     "en": "Julius Caesar",
+     "as": "জুলিয়াছ চিজাৰ"
+    },
+    {
+     "en": "Darius",
+     "as": "ডেৰিয়াছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alexander the Great of Macedon conquered much of the ancient world.",
+    "as": "মেচিডনৰ আলেকজেণ্ডাৰ দ্য গ্ৰেটে প্ৰাচীন বিশ্বৰ বহুখিনি জয় কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-022",
+   "q": {
+    "en": "Which empire did Alexander the Great defeat in Persia?",
+    "as": "আলেকজেণ্ডাৰ দ্য গ্ৰেটে পাৰস্যত কোন সাম্ৰাজ্য পৰাস্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Achaemenid Empire",
+     "as": "আকিমেনিড সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mauryan Empire",
+     "as": "মৌৰ্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Gupta Empire",
+     "as": "গুপ্ত সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alexander the Great defeated the Achaemenid Empire of Persia.",
+    "as": "আলেকজেণ্ডাৰ দ্য গ্ৰেটে পাৰস্যৰ আকিমেনিড সাম্ৰাজ্য পৰাস্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-023",
+   "q": {
+    "en": "Who founded the Achaemenid Empire of Persia?",
+    "as": "পাৰস্যৰ আকিমেনিড সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Cyrus the Great",
+     "as": "চাইৰাছ দ্য গ্ৰেট"
+    },
+    {
+     "en": "Darius I",
+     "as": "ডেৰিয়াছ প্ৰথম"
+    },
+    {
+     "en": "Xerxes",
+     "as": "জাৰ্কচিছ"
+    },
+    {
+     "en": "Alexander",
+     "as": "আলেকজেণ্ডাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cyrus the Great founded the Achaemenid Empire of Persia.",
+    "as": "চাইৰাছ দ্য গ্ৰেটে পাৰস্যৰ আকিমেনিড সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-024",
+   "q": {
+    "en": "Who founded the Mauryan Empire in India?",
+    "as": "ভাৰতত মৌৰ্য সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chandragupta Maurya",
+     "as": "চন্দ্ৰগুপ্ত মৌৰ্য"
+    },
+    {
+     "en": "Ashoka",
+     "as": "অশোক"
+    },
+    {
+     "en": "Bindusara",
+     "as": "বিন্দুসাৰ"
+    },
+    {
+     "en": "Samudragupta",
+     "as": "সমুদ্ৰগুপ্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chandragupta Maurya founded the Mauryan Empire in India.",
+    "as": "চন্দ্ৰগুপ্ত মৌৰ্যই ভাৰতত মৌৰ্য সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-025",
+   "q": {
+    "en": "Who was the Greek ambassador to the Mauryan court?",
+    "as": "মৌৰ্য ৰাজদৰবাৰৰ গ্ৰীক ৰাষ্ট্ৰদূত কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Megasthenes",
+     "as": "মেগাস্থেনিছ"
+    },
+    {
+     "en": "Herodotus",
+     "as": "হেৰ'ড'টাছ"
+    },
+    {
+     "en": "Alexander",
+     "as": "আলেকজেণ্ডাৰ"
+    },
+    {
+     "en": "Seleucus",
+     "as": "চেলিউকাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Megasthenes was the Greek ambassador to the Mauryan court.",
+    "as": "মেগাস্থেনিছ মৌৰ্য ৰাজদৰবাৰৰ গ্ৰীক ৰাষ্ট্ৰদূত আছিল।"
+   }
+  },
+  {
+   "id": "world-history-026",
+   "q": {
+    "en": "Who was the Mauryan emperor who embraced Buddhism?",
+    "as": "বৌদ্ধ ধৰ্ম গ্ৰহণ কৰা মৌৰ্য সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ashoka",
+     "as": "অশোক"
+    },
+    {
+     "en": "Chandragupta Maurya",
+     "as": "চন্দ্ৰগুপ্ত মৌৰ্য"
+    },
+    {
+     "en": "Bindusara",
+     "as": "বিন্দুসাৰ"
+    },
+    {
+     "en": "Samudragupta",
+     "as": "সমুদ্ৰগুপ্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ashoka embraced Buddhism after the Kalinga war.",
+    "as": "অশোকে কলিংগ যুদ্ধৰ পিছত বৌদ্ধ ধৰ্ম গ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-027",
+   "q": {
+    "en": "Who founded the Gupta Empire?",
+    "as": "গুপ্ত সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sri Gupta",
+     "as": "শ্ৰীগুপ্ত"
+    },
+    {
+     "en": "Chandragupta I",
+     "as": "চন্দ্ৰগুপ্ত প্ৰথম"
+    },
+    {
+     "en": "Samudragupta",
+     "as": "সমুদ্ৰগুপ্ত"
+    },
+    {
+     "en": "Ashoka",
+     "as": "অশোক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sri Gupta founded the Gupta Empire.",
+    "as": "শ্ৰীগুপ্তই গুপ্ত সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-028",
+   "q": {
+    "en": "Who is known as the 'Napoleon of India'?",
+    "as": "কাক 'ভাৰতৰ নেপোলিয়ন' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Samudragupta",
+     "as": "সমুদ্ৰগুপ্ত"
+    },
+    {
+     "en": "Ashoka",
+     "as": "অশোক"
+    },
+    {
+     "en": "Chandragupta Maurya",
+     "as": "চন্দ্ৰগুপ্ত মৌৰ্য"
+    },
+    {
+     "en": "Harsha",
+     "as": "হৰ্ষ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Samudragupta is known as the Napoleon of India.",
+    "as": "সমুদ্ৰগুপ্তক ভাৰতৰ নেপোলিয়ন বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-029",
+   "q": {
+    "en": "Who wrote the play 'Abhijnanashakuntalam'?",
+    "as": "নাটক 'অভিজ্ঞানশকুন্তলম' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Kalidasa",
+     "as": "কালিদাস"
+    },
+    {
+     "en": "Banabhatta",
+     "as": "বাণভট্ট"
+    },
+    {
+     "en": "Vishakhadatta",
+     "as": "বিশাখদত্ত"
+    },
+    {
+     "en": "Bhasa",
+     "as": "ভাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kalidasa wrote the play Abhijnanashakuntalam.",
+    "as": "কালিদাসে অভিজ্ঞানশকুন্তলম নাটক লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-030",
+   "q": {
+    "en": "Who was the founder of the Roman Republic?",
+    "as": "ৰোমান প্ৰজাতন্ত্ৰৰ প্ৰতিষ্ঠাপক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Lucius Junius Brutus",
+     "as": "লুচিয়াছ জুনিয়াছ ব্ৰুটাছ"
+    },
+    {
+     "en": "Julius Caesar",
+     "as": "জুলিয়াছ চিজাৰ"
+    },
+    {
+     "en": "Augustus",
+     "as": "আগাষ্টাছ"
+    },
+    {
+     "en": "Romulus",
+     "as": "ৰমুলাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lucius Junius Brutus founded the Roman Republic.",
+    "as": "লুচিয়াছ জুনিয়াছ ব্ৰুটাছে ৰোমান প্ৰজাতন্ত্ৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-031",
+   "q": {
+    "en": "Who was the first Roman emperor?",
+    "as": "প্ৰথম ৰোমান সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Augustus",
+     "as": "আগাষ্টাছ"
+    },
+    {
+     "en": "Julius Caesar",
+     "as": "জুলিয়াছ চিজাৰ"
+    },
+    {
+     "en": "Nero",
+     "as": "নেৰো"
+    },
+    {
+     "en": "Constantine",
+     "as": "কনষ্টেণ্টাইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Augustus was the first Roman emperor.",
+    "as": "আগাষ্টাছ প্ৰথম ৰোমান সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "world-history-032",
+   "q": {
+    "en": "Who was the Roman general assassinated in 44 BCE?",
+    "as": "৪৪ খ্ৰীষ্টপূৰ্বত হত্যা কৰা ৰোমান সেনাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Julius Caesar",
+     "as": "জুলিয়াছ চিজাৰ"
+    },
+    {
+     "en": "Augustus",
+     "as": "আগাষ্টাছ"
+    },
+    {
+     "en": "Pompey",
+     "as": "পম্পেই"
+    },
+    {
+     "en": "Mark Antony",
+     "as": "মাৰ্ক এণ্টনি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Julius Caesar was assassinated in 44 BCE.",
+    "as": "জুলিয়াছ চিজাৰ ৪৪ খ্ৰীষ্টপূৰ্বত হত্যা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-033",
+   "q": {
+    "en": "Which city was destroyed by the eruption of Mount Vesuvius?",
+    "as": "মাউণ্ট ভেছুভিয়াছৰ অগ্ন্যুৎপাতত কোন চহৰ ধ্বংস হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Pompeii",
+     "as": "পম্পেই"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Carthage",
+     "as": "কাৰ্থেজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pompeii was destroyed by the eruption of Mount Vesuvius.",
+    "as": "পম্পেই মাউণ্ট ভেছুভিয়াছৰ অগ্ন্যুৎপাতত ধ্বংস হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-034",
+   "q": {
+    "en": "Who was the first Christian Roman emperor?",
+    "as": "প্ৰথম খ্ৰীষ্টান ৰোমান সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Constantine",
+     "as": "কনষ্টেণ্টাইন"
+    },
+    {
+     "en": "Nero",
+     "as": "নেৰো"
+    },
+    {
+     "en": "Augustus",
+     "as": "আগাষ্টাছ"
+    },
+    {
+     "en": "Julius Caesar",
+     "as": "জুলিয়াছ চিজাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Constantine was the first Christian Roman emperor.",
+    "as": "কনষ্টেণ্টাইন প্ৰথম খ্ৰীষ্টান ৰোমান সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "world-history-035",
+   "q": {
+    "en": "Which city was the capital of the Eastern Roman Empire?",
+    "as": "পূব ৰোমান সাম্ৰাজ্যৰ ৰাজধানী কোন চহৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Constantinople",
+     "as": "কনষ্টেণ্টিন'পল"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Alexandria",
+     "as": "আলেকজেণ্ড্ৰিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Constantinople was the capital of the Eastern Roman Empire.",
+    "as": "কনষ্টেণ্টিন'পল পূব ৰোমান সাম্ৰাজ্যৰ ৰাজধানী আছিল।"
+   }
+  },
+  {
+   "id": "world-history-036",
+   "q": {
+    "en": "Which empire was also known as the Byzantine Empire?",
+    "as": "কোন সাম্ৰাজ্য বাইজেণ্টাইন সাম্ৰাজ্য হিচাপেও জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Eastern Roman Empire",
+     "as": "পূব ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Western Roman Empire",
+     "as": "পশ্চিম ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Ottoman Empire",
+     "as": "অট্টোমান সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Eastern Roman Empire was also known as the Byzantine Empire.",
+    "as": "পূব ৰোমান সাম্ৰাজ্য বাইজেণ্টাইন সাম্ৰাজ্য হিচাপেও জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-037",
+   "q": {
+    "en": "Who was the Carthaginian general who crossed the Alps?",
+    "as": "আল্পছ পাৰ হৈ যোৱা কাৰ্থেজৰ সেনাপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Hannibal",
+     "as": "হানিবাল"
+    },
+    {
+     "en": "Scipio",
+     "as": "চিপিঅ'"
+    },
+    {
+     "en": "Julius Caesar",
+     "as": "জুলিয়াছ চিজাৰ"
+    },
+    {
+     "en": "Alexander",
+     "as": "আলেকজেণ্ডাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hannibal, the Carthaginian general, crossed the Alps.",
+    "as": "হানিবাল, কাৰ্থেজৰ সেনাপতি, আল্পছ পাৰ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-038",
+   "q": {
+    "en": "Which wars were fought between Rome and Carthage?",
+    "as": "ৰোম আৰু কাৰ্থেজৰ মাজত কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Punic Wars",
+     "as": "পিউনিক যুদ্ধ"
+    },
+    {
+     "en": "The Persian Wars",
+     "as": "পাৰস্য যুদ্ধ"
+    },
+    {
+     "en": "The Peloponnesian Wars",
+     "as": "পেল'পনেছিয়ান যুদ্ধ"
+    },
+    {
+     "en": "The Napoleonic Wars",
+     "as": "নেপোলিয়নিক যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Punic Wars were fought between Rome and Carthage.",
+    "as": "পিউনিক যুদ্ধ ৰোম আৰু কাৰ্থেজৰ মাজত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-039",
+   "q": {
+    "en": "Which wars were fought between Greece and Persia?",
+    "as": "গ্ৰীছ আৰু পাৰস্যৰ মাজত কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Persian Wars",
+     "as": "পাৰস্য যুদ্ধ"
+    },
+    {
+     "en": "The Punic Wars",
+     "as": "পিউনিক যুদ্ধ"
+    },
+    {
+     "en": "The Peloponnesian Wars",
+     "as": "পেল'পনেছিয়ান যুদ্ধ"
+    },
+    {
+     "en": "The Napoleonic Wars",
+     "as": "নেপোলিয়নিক যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Persian Wars were fought between Greece and Persia.",
+    "as": "পাৰস্য যুদ্ধ গ্ৰীছ আৰু পাৰস্যৰ মাজত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-040",
+   "q": {
+    "en": "Which wars were fought between Athens and Sparta?",
+    "as": "এথেন্স আৰু স্পাৰ্টাৰ মাজত কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Peloponnesian Wars",
+     "as": "পেল'পনেছিয়ান যুদ্ধ"
+    },
+    {
+     "en": "The Persian Wars",
+     "as": "পাৰস্য যুদ্ধ"
+    },
+    {
+     "en": "The Punic Wars",
+     "as": "পিউনিক যুদ্ধ"
+    },
+    {
+     "en": "The Napoleonic Wars",
+     "as": "নেপোলিয়নিক যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Peloponnesian Wars were fought between Athens and Sparta.",
+    "as": "পেল'পনেছিয়ান যুদ্ধ এথেন্স আৰু স্পাৰ্টাৰ মাজত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-041",
+   "q": {
+    "en": "Which ancient city is known as the birthplace of democracy?",
+    "as": "কোন প্ৰাচীন চহৰ গণতন্ত্ৰৰ জন্মস্থান হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Sparta",
+     "as": "স্পাৰ্টা"
+    },
+    {
+     "en": "Carthage",
+     "as": "কাৰ্থেজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Athens is known as the birthplace of democracy.",
+    "as": "এথেন্স গণতন্ত্ৰৰ জন্মস্থান হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-042",
+   "q": {
+    "en": "Which ancient city is known as the birthplace of the Olympic Games?",
+    "as": "কোন প্ৰাচীন চহৰ অলিম্পিক ক্ৰীড়াৰ জন্মস্থান হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Olympia",
+     "as": "অলিম্পিয়া"
+    },
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Sparta",
+     "as": "স্পাৰ্টা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Olympia is known as the birthplace of the Olympic Games.",
+    "as": "অলিম্পিয়া অলিম্পিক ক্ৰীড়াৰ জন্মস্থান হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-043",
+   "q": {
+    "en": "Who was the Greek mathematician known for the theorem on right triangles?",
+    "as": "সমকোণী ত্ৰিভুজৰ উপপাদ্যৰ বাবে জনা গ্ৰীক গণিতজ্ঞ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Pythagoras",
+     "as": "পাইথাগৰাছ"
+    },
+    {
+     "en": "Euclid",
+     "as": "ইউক্লিড"
+    },
+    {
+     "en": "Archimedes",
+     "as": "আৰ্কিমিডিছ"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pythagoras is known for the theorem on right triangles.",
+    "as": "পাইথাগৰাছ সমকোণী ত্ৰিভুজৰ উপপাদ্যৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-044",
+   "q": {
+    "en": "Who is known as the 'Father of Geometry'?",
+    "as": "কাক 'জ্যামিতিৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Euclid",
+     "as": "ইউক্লিড"
+    },
+    {
+     "en": "Pythagoras",
+     "as": "পাইথাগৰাছ"
+    },
+    {
+     "en": "Archimedes",
+     "as": "আৰ্কিমিডিছ"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Euclid is known as the Father of Geometry.",
+    "as": "ইউক্লিডক জ্যামিতিৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-045",
+   "q": {
+    "en": "Who was the Greek scientist who discovered the principle of buoyancy?",
+    "as": "প্লাৱন নীতি আৱিষ্কাৰ কৰা গ্ৰীক বিজ্ঞানী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Archimedes",
+     "as": "আৰ্কিমিডিছ"
+    },
+    {
+     "en": "Euclid",
+     "as": "ইউক্লিড"
+    },
+    {
+     "en": "Pythagoras",
+     "as": "পাইথাগৰাছ"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Archimedes discovered the principle of buoyancy.",
+    "as": "আৰ্কিমিডিছে প্লাৱন নীতি আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-046",
+   "q": {
+    "en": "Which ancient wonder was a statue at Rhodes?",
+    "as": "কোন প্ৰাচীন আশ্চৰ্য ৰ'ডছত এটা মূৰ্তি আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Colossus of Rhodes",
+     "as": "ৰ'ডছৰ কলছাছ"
+    },
+    {
+     "en": "The Hanging Gardens",
+     "as": "ঝুলন্ত উদ্যান"
+    },
+    {
+     "en": "The Pyramids",
+     "as": "পিৰামিড"
+    },
+    {
+     "en": "The Lighthouse of Alexandria",
+     "as": "আলেকজেণ্ড্ৰিয়াৰ পোহৰ ঘৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Colossus of Rhodes was a giant statue at Rhodes.",
+    "as": "ৰ'ডছৰ কলছাছ ৰ'ডছত এটা বিশাল মূৰ্তি আছিল।"
+   }
+  },
+  {
+   "id": "world-history-047",
+   "q": {
+    "en": "Which ancient wonder was a lighthouse at Alexandria?",
+    "as": "কোন প্ৰাচীন আশ্চৰ্য আলেকজেণ্ড্ৰিয়াত এটা পোহৰ ঘৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Lighthouse of Alexandria",
+     "as": "আলেকজেণ্ড্ৰিয়াৰ পোহৰ ঘৰ"
+    },
+    {
+     "en": "The Colossus of Rhodes",
+     "as": "ৰ'ডছৰ কলছাছ"
+    },
+    {
+     "en": "The Hanging Gardens",
+     "as": "ঝুলন্ত উদ্যান"
+    },
+    {
+     "en": "The Pyramids",
+     "as": "পিৰামিড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Lighthouse of Alexandria was one of the seven wonders of the ancient world.",
+    "as": "আলেকজেণ্ড্ৰিয়াৰ পোহৰ ঘৰ প্ৰাচীন বিশ্বৰ সাতটা আশ্চৰ্যৰ এটা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-048",
+   "q": {
+    "en": "How many wonders were there in the ancient world?",
+    "as": "প্ৰাচীন বিশ্বত কিমানটা আশ্চৰ্য আছিল?"
+   },
+   "options": [
+    {
+     "en": "Seven",
+     "as": "সাত"
+    },
+    {
+     "en": "Five",
+     "as": "পাঁচ"
+    },
+    {
+     "en": "Ten",
+     "as": "দহ"
+    },
+    {
+     "en": "Twelve",
+     "as": "বাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "There were seven wonders of the ancient world.",
+    "as": "প্ৰাচীন বিশ্বত সাতটা আশ্চৰ্য আছিল।"
+   }
+  },
+  {
+   "id": "world-history-049",
+   "q": {
+    "en": "Which ancient civilisation developed the first alphabet?",
+    "as": "কোন প্ৰাচীন সভ্যতাই প্ৰথম বৰ্ণমালা বিকশিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Phoenician civilisation",
+     "as": "ফিনিচিয়ান সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Phoenician civilisation developed one of the first alphabets.",
+    "as": "ফিনিচিয়ান সভ্যতাই প্ৰথম বৰ্ণমালাৰ এটা বিকশিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-050",
+   "q": {
+    "en": "Which people were the first to use iron widely?",
+    "as": "কোন লোকসকলে প্ৰথমে লো ব্যাপকভাৱে ব্যৱহাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Hittites",
+     "as": "হিট্টাইটসকল"
+    },
+    {
+     "en": "The Egyptians",
+     "as": "মিচৰীয়াসকল"
+    },
+    {
+     "en": "The Chinese",
+     "as": "চীনা"
+    },
+    {
+     "en": "The Romans",
+     "as": "ৰোমান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Hittites were among the first to use iron widely.",
+    "as": "হিট্টাইটসকল প্ৰথমে লো ব্যাপকভাৱে ব্যৱহাৰ কৰাসকলৰ ভিতৰত আছিল।"
+   }
+  },
+  {
+   "id": "world-history-051",
+   "q": {
+    "en": "Which ancient civilisation invented the wheel?",
+    "as": "কোন প্ৰাচীন সভ্যতাই চকা আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Mesopotamian civilisation",
+     "as": "মেছ'পটেমিয়াৰ সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The wheel was invented in Mesopotamia.",
+    "as": "চকা মেছ'পটেমিয়াত আৱিষ্কাৰ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-052",
+   "q": {
+    "en": "Which ancient civilisation invented paper?",
+    "as": "কোন প্ৰাচীন সভ্যতাই কাগজ আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chinese civilisation invented paper.",
+    "as": "চীনা সভ্যতাই কাগজ আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-053",
+   "q": {
+    "en": "Which ancient civilisation invented gunpowder?",
+    "as": "কোন প্ৰাচীন সভ্যতাই বাৰুদ আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chinese civilisation invented gunpowder.",
+    "as": "চীনা সভ্যতাই বাৰুদ আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-054",
+   "q": {
+    "en": "Which ancient civilisation invented the printing press?",
+    "as": "কোন সভ্যতাই ছপা যন্ত্ৰ আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Chinese civilisation",
+     "as": "চীনা সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chinese civilisation invented printing.",
+    "as": "চীনা সভ্যতাই ছপা কাম আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-055",
+   "q": {
+    "en": "Who invented the movable type printing press in Europe?",
+    "as": "ইউৰোপত চলনশীল ছপা যন্ত্ৰ কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Johannes Gutenberg",
+     "as": "জ'হানেছ গুটেনবাৰ্গ"
+    },
+    {
+     "en": "Leonardo da Vinci",
+     "as": "লিঅ'নাৰ্ড' দা ভিঞ্চি"
+    },
+    {
+     "en": "Galileo",
+     "as": "গেলিলিঅ'"
+    },
+    {
+     "en": "Copernicus",
+     "as": "ক'পাৰনিকাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Johannes Gutenberg invented the movable type printing press in Europe.",
+    "as": "জ'হানেছ গুটেনবাৰ্গে ইউৰোপত চলনশীল ছপা যন্ত্ৰ আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-056",
+   "q": {
+    "en": "Which religion was founded by Jesus Christ?",
+    "as": "যীশু খ্ৰীষ্টই কোন ধৰ্ম প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Christianity",
+     "as": "খ্ৰীষ্টান ধৰ্ম"
+    },
+    {
+     "en": "Islam",
+     "as": "ইছলাম"
+    },
+    {
+     "en": "Buddhism",
+     "as": "বৌদ্ধ ধৰ্ম"
+    },
+    {
+     "en": "Judaism",
+     "as": "ইহুদী ধৰ্ম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Christianity was founded by Jesus Christ.",
+    "as": "খ্ৰীষ্টান ধৰ্ম যীশু খ্ৰীষ্টই প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-057",
+   "q": {
+    "en": "Which religion was founded by Prophet Muhammad?",
+    "as": "প্ৰফেট মুহম্মদে কোন ধৰ্ম প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Islam",
+     "as": "ইছলাম"
+    },
+    {
+     "en": "Christianity",
+     "as": "খ্ৰীষ্টান ধৰ্ম"
+    },
+    {
+     "en": "Buddhism",
+     "as": "বৌদ্ধ ধৰ্ম"
+    },
+    {
+     "en": "Hinduism",
+     "as": "হিন্দু ধৰ্ম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Islam was founded by Prophet Muhammad.",
+    "as": "ইছলাম ধৰ্ম প্ৰফেট মুহম্মদে প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-058",
+   "q": {
+    "en": "Which religion was founded by Gautama Buddha?",
+    "as": "গৌতম বুদ্ধই কোন ধৰ্ম প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Buddhism",
+     "as": "বৌদ্ধ ধৰ্ম"
+    },
+    {
+     "en": "Jainism",
+     "as": "জৈন ধৰ্ম"
+    },
+    {
+     "en": "Islam",
+     "as": "ইছলাম"
+    },
+    {
+     "en": "Christianity",
+     "as": "খ্ৰীষ্টান ধৰ্ম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Buddhism was founded by Gautama Buddha.",
+    "as": "বৌদ্ধ ধৰ্ম গৌতম বুদ্ধই প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-059",
+   "q": {
+    "en": "Which religion was founded by Mahavira?",
+    "as": "মহাবীৰে কোন ধৰ্ম প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Jainism",
+     "as": "জৈন ধৰ্ম"
+    },
+    {
+     "en": "Buddhism",
+     "as": "বৌদ্ধ ধৰ্ম"
+    },
+    {
+     "en": "Islam",
+     "as": "ইছলাম"
+    },
+    {
+     "en": "Christianity",
+     "as": "খ্ৰীষ্টান ধৰ্ম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jainism was founded by Mahavira.",
+    "as": "জৈন ধৰ্ম মহাবীৰে প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-060",
+   "q": {
+    "en": "Where was Gautama Buddha born?",
+    "as": "গৌতম বুদ্ধ ক'ত জন্মগ্ৰহণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Lumbini",
+     "as": "লুম্বিনী"
+    },
+    {
+     "en": "Bodh Gaya",
+     "as": "বোধ গয়া"
+    },
+    {
+     "en": "Sarnath",
+     "as": "সাৰনাথ"
+    },
+    {
+     "en": "Kushinagar",
+     "as": "কুশীনগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gautama Buddha was born at Lumbini.",
+    "as": "গৌতম বুদ্ধ লুম্বিনীত জন্মগ্ৰহণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-061",
+   "q": {
+    "en": "Where did Gautama Buddha attain enlightenment?",
+    "as": "গৌতম বুদ্ধই ক'ত বোধি লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bodh Gaya",
+     "as": "বোধ গয়া"
+    },
+    {
+     "en": "Lumbini",
+     "as": "লুম্বিনী"
+    },
+    {
+     "en": "Sarnath",
+     "as": "সাৰনাথ"
+    },
+    {
+     "en": "Kushinagar",
+     "as": "কুশীনগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gautama Buddha attained enlightenment at Bodh Gaya.",
+    "as": "গৌতম বুদ্ধই বোধ গয়াত বোধি লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-062",
+   "q": {
+    "en": "Where did Gautama Buddha deliver his first sermon?",
+    "as": "গৌতম বুদ্ধই ক'ত তেওঁৰ প্ৰথম ধৰ্মোপদেশ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sarnath",
+     "as": "সাৰনাথ"
+    },
+    {
+     "en": "Lumbini",
+     "as": "লুম্বিনী"
+    },
+    {
+     "en": "Bodh Gaya",
+     "as": "বোধ গয়া"
+    },
+    {
+     "en": "Kushinagar",
+     "as": "কুশীনগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gautama Buddha delivered his first sermon at Sarnath.",
+    "as": "গৌতম বুদ্ধই সাৰনাথত তেওঁৰ প্ৰথম ধৰ্মোপদেশ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-063",
+   "q": {
+    "en": "Where did Gautama Buddha attain Mahaparinirvana?",
+    "as": "গৌতম বুদ্ধই ক'ত মহাপৰিনিৰ্বাণ লাভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Kushinagar",
+     "as": "কুশীনগৰ"
+    },
+    {
+     "en": "Lumbini",
+     "as": "লুম্বিনী"
+    },
+    {
+     "en": "Bodh Gaya",
+     "as": "বোধ গয়া"
+    },
+    {
+     "en": "Sarnath",
+     "as": "সাৰনাথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gautama Buddha attained Mahaparinirvana at Kushinagar.",
+    "as": "গৌতম বুদ্ধই কুশীনগৰত মহাপৰিনিৰ্বাণ লাভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-064",
+   "q": {
+    "en": "Which Mauryan emperor sent Buddhist missionaries abroad?",
+    "as": "কোন মৌৰ্য সম্ৰাটে বিদেশলৈ বৌদ্ধ ধৰ্ম প্ৰচাৰক পঠিয়াইছিল?"
+   },
+   "options": [
+    {
+     "en": "Ashoka",
+     "as": "অশোক"
+    },
+    {
+     "en": "Chandragupta Maurya",
+     "as": "চন্দ্ৰগুপ্ত মৌৰ্য"
+    },
+    {
+     "en": "Bindusara",
+     "as": "বিন্দুসাৰ"
+    },
+    {
+     "en": "Samudragupta",
+     "as": "সমুদ্ৰগুপ্ত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ashoka sent Buddhist missionaries abroad.",
+    "as": "অশোকে বিদেশলৈ বৌদ্ধ ধৰ্ম প্ৰচাৰক পঠিয়াইছিল।"
+   }
+  },
+  {
+   "id": "world-history-065",
+   "q": {
+    "en": "Which Greek king sent Megasthenes to India?",
+    "as": "কোন গ্ৰীক ৰজাই মেগাস্থেনিছক ভাৰতলৈ পঠিয়াইছিল?"
+   },
+   "options": [
+    {
+     "en": "Seleucus Nicator",
+     "as": "চেলিউকাছ নিকেটৰ"
+    },
+    {
+     "en": "Alexander",
+     "as": "আলেকজেণ্ডাৰ"
+    },
+    {
+     "en": "Philip",
+     "as": "ফিলিপ"
+    },
+    {
+     "en": "Darius",
+     "as": "ডেৰিয়াছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Seleucus Nicator sent Megasthenes to India.",
+    "as": "চেলিউকাছ নিকেটৰে মেগাস্থেনিছক ভাৰতলৈ পঠিয়াইছিল।"
+   }
+  },
+  {
+   "id": "world-history-066",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Ur?",
+    "as": "কোন প্ৰাচীন সভ্যতা উৰ চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Sumerian civilisation",
+     "as": "চুমেৰীয় সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Ur was part of the Sumerian civilisation.",
+    "as": "উৰ চহৰ চুমেৰীয় সভ্যতাৰ অংশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-067",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Thebes?",
+    "as": "কোন প্ৰাচীন সভ্যতা থিবছ চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Sumerian civilisation",
+     "as": "চুমেৰীয় সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Thebes was part of the Egyptian civilisation.",
+    "as": "থিবছ চহৰ মিচৰৰ সভ্যতাৰ অংশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-068",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Sparta?",
+    "as": "কোন প্ৰাচীন সভ্যতা স্পাৰ্টা চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Sumerian civilisation",
+     "as": "চুমেৰীয় সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Sparta was part of the Greek civilisation.",
+    "as": "স্পাৰ্টা চহৰ গ্ৰীক সভ্যতাৰ অংশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-069",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Carthage?",
+    "as": "কোন প্ৰাচীন সভ্যতা কাৰ্থেজ চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Phoenician civilisation",
+     "as": "ফিনিচিয়ান সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Carthage was founded by the Phoenicians.",
+    "as": "কাৰ্থেজ চহৰ ফিনিচিয়ানসকলে প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-070",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Babylon?",
+    "as": "কোন প্ৰাচীন সভ্যতা বেবিলন চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Mesopotamian civilisation",
+     "as": "মেছ'পটেমিয়াৰ সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Babylon was part of the Mesopotamian civilisation.",
+    "as": "বেবিলন চহৰ মেছ'পটেমিয়াৰ সভ্যতাৰ অংশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-071",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Athens?",
+    "as": "কোন প্ৰাচীন সভ্যতা এথেন্স চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Mesopotamian civilisation",
+     "as": "মেছ'পটেমিয়াৰ সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Athens was part of the Greek civilisation.",
+    "as": "এথেন্স চহৰ গ্ৰীক সভ্যতাৰ অংশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-072",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Rome?",
+    "as": "কোন প্ৰাচীন সভ্যতা ৰোম চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Mesopotamian civilisation",
+     "as": "মেছ'পটেমিয়াৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The city of Rome was the centre of the Roman civilisation.",
+    "as": "ৰোম চহৰ ৰোমান সভ্যতাৰ কেন্দ্ৰ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-073",
+   "q": {
+    "en": "Which ancient civilisation is associated with the city of Nineveh?",
+    "as": "কোন প্ৰাচীন সভ্যতা নিনেভেহ চহৰৰ লগত জড়িত?"
+   },
+   "options": [
+    {
+     "en": "The Assyrian civilisation",
+     "as": "এছিৰিয়ান সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nineveh was the capital of the Assyrian Empire.",
+    "as": "নিনেভেহ এছিৰিয়ান সাম্ৰাজ্যৰ ৰাজধানী আছিল।"
+   }
+  },
+  {
+   "id": "world-history-074",
+   "q": {
+    "en": "Which ancient civilisation is known for its library at Nineveh?",
+    "as": "কোন প্ৰাচীন সভ্যতা নিনেভেহৰ পুথিভঁৰালৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Assyrian civilisation",
+     "as": "এছিৰিয়ান সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Assyrian civilisation is known for the library at Nineveh.",
+    "as": "এছিৰিয়ান সভ্যতা নিনেভেহৰ পুথিভঁৰালৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-075",
+   "q": {
+    "en": "Which ancient empire was the largest of its time under Ashoka's grandfather?",
+    "as": "অশোকৰ ককাকৰ অধীনত তেওঁৰ সময়ৰ আটাইতকৈ ডাঙৰ প্ৰাচীন সাম্ৰাজ্য কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Mauryan Empire",
+     "as": "মৌৰ্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Gupta Empire",
+     "as": "গুপ্ত সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mauryan Empire was the largest of its time under Chandragupta Maurya.",
+    "as": "চন্দ্ৰগুপ্ত মৌৰ্যৰ অধীনত মৌৰ্য সাম্ৰাজ্য তেওঁৰ সময়ৰ আটাইতকৈ ডাঙৰ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-076",
+   "q": {
+    "en": "Which ancient empire was founded by Cyrus the Great?",
+    "as": "চাইৰাছ দ্য গ্ৰেটে কোন প্ৰাচীন সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mauryan Empire",
+     "as": "মৌৰ্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Greek Empire",
+     "as": "গ্ৰীক সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cyrus the Great founded the Persian Empire.",
+    "as": "চাইৰাছ দ্য গ্ৰেটে পাৰস্য সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-077",
+   "q": {
+    "en": "Which ancient empire was founded by Alexander the Great?",
+    "as": "আলেকজেণ্ডাৰ দ্য গ্ৰেটে কোন প্ৰাচীন সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Macedonian Empire",
+     "as": "মেচিডনীয় সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mauryan Empire",
+     "as": "মৌৰ্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alexander the Great founded the Macedonian Empire.",
+    "as": "আলেকজেণ্ডাৰ দ্য গ্ৰেটে মেচিডনীয় সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-078",
+   "q": {
+    "en": "Which ancient empire was founded by Romulus?",
+    "as": "ৰমুলাছে কোন প্ৰাচীন সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Roman Kingdom",
+     "as": "ৰোমান ৰাজ্য"
+    },
+    {
+     "en": "The Roman Republic",
+     "as": "ৰোমান প্ৰজাতন্ত্ৰ"
+    },
+    {
+     "en": "The Greek Empire",
+     "as": "গ্ৰীক সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Romulus founded the Roman Kingdom.",
+    "as": "ৰমুলাছে ৰোমান ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-079",
+   "q": {
+    "en": "Which ancient civilisation is known for the concept of 'zero'?",
+    "as": "কোন প্ৰাচীন সভ্যতা 'শূন্য'ৰ ধাৰণাৰ বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Indian civilisation",
+     "as": "ভাৰতীয় সভ্যতা"
+    },
+    {
+     "en": "The Egyptian civilisation",
+     "as": "মিচৰৰ সভ্যতা"
+    },
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman civilisation",
+     "as": "ৰোমান সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Indian civilisation developed the concept of zero.",
+    "as": "ভাৰতীয় সভ্যতাই শূন্যৰ ধাৰণা বিকশিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-080",
+   "q": {
+    "en": "Who is credited with the invention of the decimal system?",
+    "as": "দশমিক ব্যৱস্থাৰ আৱিষ্কাৰৰ কৃতিত্ব কাক দিয়া হয়?"
+   },
+   "options": [
+    {
+     "en": "Ancient Indian mathematicians",
+     "as": "প্ৰাচীন ভাৰতীয় গণিতজ্ঞসকল"
+    },
+    {
+     "en": "Ancient Greek mathematicians",
+     "as": "প্ৰাচীন গ্ৰীক গণিতজ্ঞসকল"
+    },
+    {
+     "en": "Ancient Roman mathematicians",
+     "as": "প্ৰাচীন ৰোমান গণিতজ্ঞসকল"
+    },
+    {
+     "en": "Ancient Egyptian mathematicians",
+     "as": "প্ৰাচীন মিচৰীয় গণিতজ্ঞসকল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ancient Indian mathematicians are credited with the decimal system.",
+    "as": "দশমিক ব্যৱস্থাৰ কৃতিত্ব প্ৰাচীন ভাৰতীয় গণিতজ্ঞসকলক দিয়া হয়।"
+   }
+  },
+  {
+   "id": "world-history-081",
+   "q": {
+    "en": "Who wrote the ancient Indian treatise 'Arthashastra'?",
+    "as": "প্ৰাচীন ভাৰতীয় গ্ৰন্থ 'অৰ্থশাস্ত্ৰ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Kautilya",
+     "as": "কৌটিল্য"
+    },
+    {
+     "en": "Kalidasa",
+     "as": "কালিদাস"
+    },
+    {
+     "en": "Panini",
+     "as": "পাণিনি"
+    },
+    {
+     "en": "Aryabhata",
+     "as": "আৰ্যভট্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kautilya wrote the Arthashastra.",
+    "as": "কৌটিল্যই অৰ্থশাস্ত্ৰ লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-082",
+   "q": {
+    "en": "Who wrote the ancient Indian treatise on grammar?",
+    "as": "ব্যাকৰণৰ প্ৰাচীন ভাৰতীয় গ্ৰন্থ কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Panini",
+     "as": "পাণিনি"
+    },
+    {
+     "en": "Kautilya",
+     "as": "কৌটিল্য"
+    },
+    {
+     "en": "Kalidasa",
+     "as": "কালিদাস"
+    },
+    {
+     "en": "Aryabhata",
+     "as": "আৰ্যভট্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Panini wrote the ancient Indian treatise on grammar, the Ashtadhyayi.",
+    "as": "পাণিনিয়ে ব্যাকৰণৰ প্ৰাচীন ভাৰতীয় গ্ৰন্থ, অষ্টাধ্যায়ী, লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-083",
+   "q": {
+    "en": "Who was the ancient Indian astronomer who proposed that the earth rotates on its axis?",
+    "as": "পৃথিৱী নিজ অক্ষত ঘূৰে বুলি প্ৰস্তাৱ দিয়া প্ৰাচীন ভাৰতীয় জ্যোতিৰ্বিজ্ঞানী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Aryabhata",
+     "as": "আৰ্যভট্ট"
+    },
+    {
+     "en": "Varahamihira",
+     "as": "বৰাহমিহিৰ"
+    },
+    {
+     "en": "Brahmagupta",
+     "as": "ব্ৰহ্মগুপ্ত"
+    },
+    {
+     "en": "Bhaskara",
+     "as": "ভাস্কৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aryabhata proposed that the earth rotates on its axis.",
+    "as": "আৰ্যভট্টই প্ৰস্তাৱ দিছিল যে পৃথিৱী নিজ অক্ষত ঘূৰে।"
+   }
+  },
+  {
+   "id": "world-history-084",
+   "q": {
+    "en": "Who was the ancient Greek astronomer who proposed the heliocentric model?",
+    "as": "সূৰ্যকেন্দ্ৰিক আৰ্হি প্ৰস্তাৱ দিয়া প্ৰাচীন গ্ৰীক জ্যোতিৰ্বিজ্ঞানী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Aristarchus",
+     "as": "এৰিষ্টাৰ্কাছ"
+    },
+    {
+     "en": "Ptolemy",
+     "as": "টলেমী"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    },
+    {
+     "en": "Hipparchus",
+     "as": "হিপাৰ্কাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aristarchus proposed an early heliocentric model.",
+    "as": "এৰিষ্টাৰ্কাছে এটা প্ৰাৰম্ভিক সূৰ্যকেন্দ্ৰিক আৰ্হি প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-085",
+   "q": {
+    "en": "Who was the ancient Greek astronomer whose model placed the earth at the centre?",
+    "as": "যাৰ আৰ্হিত পৃথিৱী কেন্দ্ৰত আছিল সেই প্ৰাচীন গ্ৰীক জ্যোতিৰ্বিজ্ঞানী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ptolemy",
+     "as": "টলেমী"
+    },
+    {
+     "en": "Aristarchus",
+     "as": "এৰিষ্টাৰ্কাছ"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    },
+    {
+     "en": "Hipparchus",
+     "as": "হিপাৰ্কাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ptolemy's model placed the earth at the centre of the universe.",
+    "as": "টলেমীৰ আৰ্হিত পৃথিৱী বিশ্বব্ৰহ্মাণ্ডৰ কেন্দ্ৰত আছিল।"
+   }
+  },
+  {
+   "id": "world-history-086",
+   "q": {
+    "en": "Which ancient Greek physician is known as the 'Father of Medicine'?",
+    "as": "কোন প্ৰাচীন গ্ৰীক চিকিৎসকক 'চিকিৎসা বিজ্ঞানৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Hippocrates",
+     "as": "হিপ'ক্ৰেটিছ"
+    },
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    },
+    {
+     "en": "Galen",
+     "as": "গেলেন"
+    },
+    {
+     "en": "Pythagoras",
+     "as": "পাইথাগৰাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hippocrates is known as the Father of Medicine.",
+    "as": "হিপ'ক্ৰেটিছক চিকিৎসা বিজ্ঞানৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-087",
+   "q": {
+    "en": "Which ancient Greek city-state was known for its military training?",
+    "as": "কোন প্ৰাচীন গ্ৰীক নগৰ ৰাজ্য ইয়াৰ সামৰিক প্ৰশিক্ষণৰ বাবে জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Sparta",
+     "as": "স্পাৰ্টা"
+    },
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Thebes",
+     "as": "থিবছ"
+    },
+    {
+     "en": "Corinth",
+     "as": "কৰিন্থ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sparta was known for its military training.",
+    "as": "স্পাৰ্টা ইয়াৰ সামৰিক প্ৰশিক্ষণৰ বাবে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-088",
+   "q": {
+    "en": "Which ancient Greek city-state was known for its philosophy and democracy?",
+    "as": "কোন প্ৰাচীন গ্ৰীক নগৰ ৰাজ্য ইয়াৰ দৰ্শন আৰু গণতন্ত্ৰৰ বাবে জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Sparta",
+     "as": "স্পাৰ্টা"
+    },
+    {
+     "en": "Thebes",
+     "as": "থিবছ"
+    },
+    {
+     "en": "Corinth",
+     "as": "কৰিন্থ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Athens was known for its philosophy and democracy.",
+    "as": "এথেন্স ইয়াৰ দৰ্শন আৰু গণতন্ত্ৰৰ বাবে জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-089",
+   "q": {
+    "en": "Who was the Roman orator and statesman famous for his speeches?",
+    "as": "তেওঁৰ ভাষণৰ বাবে বিখ্যাত ৰোমান বক্তা আৰু ৰাজনীতিবিদ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Cicero",
+     "as": "চিচেৰ'"
+    },
+    {
+     "en": "Julius Caesar",
+     "as": "জুলিয়াছ চিজাৰ"
+    },
+    {
+     "en": "Augustus",
+     "as": "আগাষ্টাছ"
+    },
+    {
+     "en": "Seneca",
+     "as": "চেনেকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cicero was the Roman orator and statesman famous for his speeches.",
+    "as": "চিচেৰ' তেওঁৰ ভাষণৰ বাবে বিখ্যাত ৰোমান বক্তা আৰু ৰাজনীতিবিদ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-090",
+   "q": {
+    "en": "In which year did Prophet Muhammad migrate to Medina?",
+    "as": "প্ৰফেট মুহম্মদ কিমান চনত মদিনালৈ প্ৰব্ৰজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "622 CE",
+     "as": "৬২২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "610 CE",
+     "as": "৬১০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "632 CE",
+     "as": "৬৩২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "750 CE",
+     "as": "৭৫০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Prophet Muhammad migrated to Medina in 622 CE, the start of the Hijri era.",
+    "as": "প্ৰফেট মুহম্মদ ৬২২ খ্ৰীষ্টাব্দত মদিনালৈ প্ৰব্ৰজন কৰিছিল, হিজৰী যুগৰ আৰম্ভণি।"
+   }
+  },
+  {
+   "id": "world-history-091",
+   "q": {
+    "en": "Which era begins with the migration of Prophet Muhammad to Medina?",
+    "as": "প্ৰফেট মুহম্মদৰ মদিনালৈ প্ৰব্ৰজনৰ সৈতে কোন যুগ আৰম্ভ হয়?"
+   },
+   "options": [
+    {
+     "en": "The Hijri era",
+     "as": "হিজৰী যুগ"
+    },
+    {
+     "en": "The Christian era",
+     "as": "খ্ৰীষ্টীয় যুগ"
+    },
+    {
+     "en": "The Vikram era",
+     "as": "বিক্ৰম যুগ"
+    },
+    {
+     "en": "The Saka era",
+     "as": "শক যুগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Hijri era begins with the migration of Prophet Muhammad to Medina.",
+    "as": "হিজৰী যুগ প্ৰফেট মুহম্মদৰ মদিনালৈ প্ৰব্ৰজনৰ সৈতে আৰম্ভ হয়।"
+   }
+  },
+  {
+   "id": "world-history-092",
+   "q": {
+    "en": "Which city is the holiest in Islam?",
+    "as": "ইছলামত কোন চহৰ আটাইতকৈ পবিত্ৰ?"
+   },
+   "options": [
+    {
+     "en": "Mecca",
+     "as": "মক্কা"
+    },
+    {
+     "en": "Medina",
+     "as": "মদিনা"
+    },
+    {
+     "en": "Jerusalem",
+     "as": "জেৰুজালেম"
+    },
+    {
+     "en": "Baghdad",
+     "as": "বাগদাদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mecca is the holiest city in Islam.",
+    "as": "মক্কা ইছলামত আটাইতকৈ পবিত্ৰ চহৰ।"
+   }
+  },
+  {
+   "id": "world-history-093",
+   "q": {
+    "en": "Which empire was founded by the Ottoman Turks?",
+    "as": "অট্টোমান তুৰ্কসকলে কোন সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Ottoman Empire",
+     "as": "অট্টোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mongol Empire",
+     "as": "মংগোল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mughal Empire",
+     "as": "মোগল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ottoman Turks founded the Ottoman Empire.",
+    "as": "অট্টোমান তুৰ্কসকলে অট্টোমান সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-094",
+   "q": {
+    "en": "In which year did the Ottomans capture Constantinople?",
+    "as": "অট্টোমানসকলে কিমান চনত কনষ্টেণ্টিন'পল দখল কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1453 CE",
+     "as": "১৪৫৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1492 CE",
+     "as": "১৪৯২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1299 CE",
+     "as": "১২৯৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1206 CE",
+     "as": "১২০৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ottomans captured Constantinople in 1453 CE.",
+    "as": "অট্টোমানসকলে ১৪৫৩ খ্ৰীষ্টাব্দত কনষ্টেণ্টিন'পল দখল কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-095",
+   "q": {
+    "en": "Which empire was founded by Genghis Khan?",
+    "as": "চেংগিজ খানে কোন সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Mongol Empire",
+     "as": "মংগোল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Ottoman Empire",
+     "as": "অট্টোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mughal Empire",
+     "as": "মোগল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Genghis Khan founded the Mongol Empire.",
+    "as": "চেংগিজ খানে মংগোল সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-096",
+   "q": {
+    "en": "Which empire was founded by Babur's ancestors in Central Asia?",
+    "as": "মধ্য এছিয়াত বাবৰৰ পূৰ্বপুৰুষসকলে কোন সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Timurid Empire",
+     "as": "তৈমুৰীয় সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Ottoman Empire",
+     "as": "অট্টোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mongol Empire",
+     "as": "মংগোল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Babur's ancestors founded the Timurid Empire in Central Asia.",
+    "as": "বাবৰৰ পূৰ্বপুৰুষসকলে মধ্য এছিয়াত তৈমুৰীয় সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-097",
+   "q": {
+    "en": "Who founded the Timurid Empire?",
+    "as": "তৈমুৰীয় সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Timur",
+     "as": "তৈমুৰ"
+    },
+    {
+     "en": "Genghis Khan",
+     "as": "চেংগিজ খান"
+    },
+    {
+     "en": "Babur",
+     "as": "বাবৰ"
+    },
+    {
+     "en": "Akbar",
+     "as": "আকবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Timur founded the Timurid Empire.",
+    "as": "তৈমুৰে তৈমুৰীয় সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-098",
+   "q": {
+    "en": "Which wars were fought between Christians and Muslims over the Holy Land?",
+    "as": "পবিত্ৰ ভূমিৰ বাবে খ্ৰীষ্টান আৰু মুছলমানসকলৰ মাজত কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Crusades",
+     "as": "ক্ৰুছেড"
+    },
+    {
+     "en": "The Punic Wars",
+     "as": "পিউনিক যুদ্ধ"
+    },
+    {
+     "en": "The Persian Wars",
+     "as": "পাৰস্য যুদ্ধ"
+    },
+    {
+     "en": "The Napoleonic Wars",
+     "as": "নেপোলিয়নিক যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Crusades were fought between Christians and Muslims over the Holy Land.",
+    "as": "পবিত্ৰ ভূমিৰ বাবে খ্ৰীষ্টান আৰু মুছলমানসকলৰ মাজত ক্ৰুছেড হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-099",
+   "q": {
+    "en": "Which city was the goal of the Crusades?",
+    "as": "ক্ৰুছেডৰ লক্ষ্য কোন চহৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Jerusalem",
+     "as": "জেৰুজালেম"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Constantinople",
+     "as": "কনষ্টেণ্টিন'পল"
+    },
+    {
+     "en": "Cairo",
+     "as": "কাইৰ'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jerusalem was the goal of the Crusades.",
+    "as": "জেৰুজালেম ক্ৰুছেডৰ লক্ষ্য আছিল।"
+   }
+  },
+  {
+   "id": "world-history-100",
+   "q": {
+    "en": "In which century did the Renaissance begin in Europe?",
+    "as": "ইউৰোপত নৱজাগৰণ কিমান শতিকাত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The 14th century",
+     "as": "চতুৰ্দশ শতিকাত"
+    },
+    {
+     "en": "The 10th century",
+     "as": "দশম শতিকাত"
+    },
+    {
+     "en": "The 18th century",
+     "as": "অষ্টাদশ শতিকাত"
+    },
+    {
+     "en": "The 20th century",
+     "as": "বিংশ শতিকাত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Renaissance began in Europe in the 14th century.",
+    "as": "ইউৰোপত নৱজাগৰণ চতুৰ্দশ শতিকাত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-101",
+   "q": {
+    "en": "In which country did the Renaissance begin?",
+    "as": "নৱজাগৰণ কোন দেশত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Italy",
+     "as": "ইটালী"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Germany",
+     "as": "জাৰ্মানী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Renaissance began in Italy.",
+    "as": "নৱজাগৰণ ইটালীত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-102",
+   "q": {
+    "en": "Which city is considered the birthplace of the Renaissance?",
+    "as": "কোন চহৰ নৱজাগৰণৰ জন্মস্থান হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Florence",
+     "as": "ফ্লৰেঞ্চ"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Venice",
+     "as": "ভেনিছ"
+    },
+    {
+     "en": "Milan",
+     "as": "মিলান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Florence is considered the birthplace of the Renaissance.",
+    "as": "ফ্লৰেঞ্চ নৱজাগৰণৰ জন্মস্থান হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "world-history-103",
+   "q": {
+    "en": "Who painted the 'Mona Lisa'?",
+    "as": "'মোনা লিজা' কোনে অঁকা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Leonardo da Vinci",
+     "as": "লিঅ'নাৰ্ড' দা ভিঞ্চি"
+    },
+    {
+     "en": "Michelangelo",
+     "as": "মাইকেলএঞ্জেল'"
+    },
+    {
+     "en": "Raphael",
+     "as": "ৰাফেল"
+    },
+    {
+     "en": "Donatello",
+     "as": "ড'নাটেল'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Leonardo da Vinci painted the Mona Lisa.",
+    "as": "লিঅ'নাৰ্ড' দা ভিঞ্চিয়ে মোনা লিজা অঁকা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-104",
+   "q": {
+    "en": "Who painted the ceiling of the Sistine Chapel?",
+    "as": "ছিষ্টাইন চেপেলৰ চিলিং কোনে অঁকা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Michelangelo",
+     "as": "মাইকেলএঞ্জেল'"
+    },
+    {
+     "en": "Leonardo da Vinci",
+     "as": "লিঅ'নাৰ্ড' দা ভিঞ্চি"
+    },
+    {
+     "en": "Raphael",
+     "as": "ৰাফেল"
+    },
+    {
+     "en": "Donatello",
+     "as": "ড'নাটেল'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Michelangelo painted the ceiling of the Sistine Chapel.",
+    "as": "মাইকেলএঞ্জেল'ই ছিষ্টাইন চেপেলৰ চিলিং অঁকা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-105",
+   "q": {
+    "en": "Who wrote the play 'Romeo and Juliet'?",
+    "as": "নাটক 'ৰোমিঅ' এণ্ড জুলিয়েট' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "William Shakespeare",
+     "as": "উইলিয়াম শেক্সপিয়াৰ"
+    },
+    {
+     "en": "Christopher Marlowe",
+     "as": "ক্ৰিষ্টোফাৰ মাৰ্লো"
+    },
+    {
+     "en": "Ben Jonson",
+     "as": "বেঞ্জনছন"
+    },
+    {
+     "en": "John Milton",
+     "as": "জন মিল্টন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "William Shakespeare wrote the play Romeo and Juliet.",
+    "as": "উইলিয়াম শেক্সপিয়াৰে ৰোমিঅ' এণ্ড জুলিয়েট নাটক লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-106",
+   "q": {
+    "en": "Who wrote the play 'Hamlet'?",
+    "as": "নাটক 'হেমলেট' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "William Shakespeare",
+     "as": "উইলিয়াম শেক্সপিয়াৰ"
+    },
+    {
+     "en": "Christopher Marlowe",
+     "as": "ক্ৰিষ্টোফাৰ মাৰ্লো"
+    },
+    {
+     "en": "Ben Jonson",
+     "as": "বেঞ্জনছন"
+    },
+    {
+     "en": "John Milton",
+     "as": "জন মিল্টন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "William Shakespeare wrote the play Hamlet.",
+    "as": "উইলিয়াম শেক্সপিয়াৰে হেমলেট নাটক লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-107",
+   "q": {
+    "en": "Who wrote the epic 'Paradise Lost'?",
+    "as": "মহাকাব্য 'পেৰাডাইছ লষ্ট' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "John Milton",
+     "as": "জন মিল্টন"
+    },
+    {
+     "en": "William Shakespeare",
+     "as": "উইলিয়াম শেক্সপিয়াৰ"
+    },
+    {
+     "en": "Dante",
+     "as": "ডাণ্টে"
+    },
+    {
+     "en": "Petrarch",
+     "as": "পেট্ৰাৰ্ক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "John Milton wrote the epic Paradise Lost.",
+    "as": "জন মিল্টনে পেৰাডাইছ লষ্ট মহাকাব্য লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-108",
+   "q": {
+    "en": "Who wrote the 'Divine Comedy'?",
+    "as": "'ডিভাইন কমেডি' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Dante",
+     "as": "ডাণ্টে"
+    },
+    {
+     "en": "Petrarch",
+     "as": "পেট্ৰাৰ্ক"
+    },
+    {
+     "en": "Boccaccio",
+     "as": "বকাচিঅ'"
+    },
+    {
+     "en": "Machiavelli",
+     "as": "মেকিয়াভেলি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dante wrote the Divine Comedy.",
+    "as": "ডাণ্টেই ডিভাইন কমেডি লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-109",
+   "q": {
+    "en": "Who wrote 'The Prince'?",
+    "as": "'দ্য প্ৰিন্স' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Niccolo Machiavelli",
+     "as": "নিক'ল' মেকিয়াভেলি"
+    },
+    {
+     "en": "Dante",
+     "as": "ডাণ্টে"
+    },
+    {
+     "en": "Petrarch",
+     "as": "পেট্ৰাৰ্ক"
+    },
+    {
+     "en": "Erasmus",
+     "as": "এৰাছমাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Niccolo Machiavelli wrote The Prince.",
+    "as": "নিক'ল' মেকিয়াভেলিয়ে দ্য প্ৰিন্স লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-110",
+   "q": {
+    "en": "Who wrote 'In Praise of Folly'?",
+    "as": "'ইন প্ৰেইজ অৱ ফলি' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Erasmus",
+     "as": "এৰাছমাছ"
+    },
+    {
+     "en": "Machiavelli",
+     "as": "মেকিয়াভেলি"
+    },
+    {
+     "en": "Dante",
+     "as": "ডাণ্টে"
+    },
+    {
+     "en": "Luther",
+     "as": "লুথাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Erasmus wrote In Praise of Folly.",
+    "as": "এৰাছমাছে ইন প্ৰেইজ অৱ ফলি লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-111",
+   "q": {
+    "en": "Who started the Protestant Reformation?",
+    "as": "প্ৰটেষ্টেণ্ট সংস্কাৰ আন্দোলন কোনে আৰম্ভ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Martin Luther",
+     "as": "মাৰ্টিন লুথাৰ"
+    },
+    {
+     "en": "John Calvin",
+     "as": "জন কেলভিন"
+    },
+    {
+     "en": "Henry VIII",
+     "as": "হেনৰী অষ্টম"
+    },
+    {
+     "en": "Erasmus",
+     "as": "এৰাছমাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Martin Luther started the Protestant Reformation.",
+    "as": "মাৰ্টিন লুথাৰে প্ৰটেষ্টেণ্ট সংস্কাৰ আন্দোলন আৰম্ভ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-112",
+   "q": {
+    "en": "In which year did Martin Luther publish his Ninety-five Theses?",
+    "as": "মাৰ্টিন লুথাৰে কিমান চনত তেওঁৰ পঞ্চান্নব্বৈ থিছিছ প্ৰকাশ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1517 CE",
+     "as": "১৫১৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1492 CE",
+     "as": "১৪৯২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1453 CE",
+     "as": "১৪৫৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1600 CE",
+     "as": "১৬০০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Martin Luther published his Ninety-five Theses in 1517 CE.",
+    "as": "মাৰ্টিন লুথাৰে ১৫১৭ খ্ৰীষ্টাব্দত তেওঁৰ পঞ্চান্নব্বৈ থিছিছ প্ৰকাশ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-113",
+   "q": {
+    "en": "Who founded the Calvinist branch of Protestantism?",
+    "as": "প্ৰটেষ্টেণ্ট ধৰ্মৰ কেলভিনিষ্ট শাখা কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "John Calvin",
+     "as": "জন কেলভিন"
+    },
+    {
+     "en": "Martin Luther",
+     "as": "মাৰ্টিন লুথাৰ"
+    },
+    {
+     "en": "Henry VIII",
+     "as": "হেনৰী অষ্টম"
+    },
+    {
+     "en": "Erasmus",
+     "as": "এৰাছমাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "John Calvin founded the Calvinist branch of Protestantism.",
+    "as": "জন কেলভিনে প্ৰটেষ্টেণ্ট ধৰ্মৰ কেলভিনিষ্ট শাখা প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-114",
+   "q": {
+    "en": "Which king founded the Church of England?",
+    "as": "ইংলেণ্ডৰ চাৰ্চ কোন ৰজাই প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Henry VIII",
+     "as": "হেনৰী অষ্টম"
+    },
+    {
+     "en": "Charles I",
+     "as": "চাৰ্লছ প্ৰথম"
+    },
+    {
+     "en": "James I",
+     "as": "জেমছ প্ৰথম"
+    },
+    {
+     "en": "Edward VI",
+     "as": "এডৱাৰ্ড ষষ্ঠ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Henry VIII founded the Church of England.",
+    "as": "হেনৰী অষ্টমে ইংলেণ্ডৰ চাৰ্চ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-115",
+   "q": {
+    "en": "Who led the Portuguese exploration of the sea route to India?",
+    "as": "ভাৰতলৈ সাগৰীয় পথৰ পৰ্তুগীজ অভিযানৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Vasco da Gama",
+     "as": "ভাস্ক' দা গামা"
+    },
+    {
+     "en": "Christopher Columbus",
+     "as": "ক্ৰিষ্টোফাৰ কলম্বাছ"
+    },
+    {
+     "en": "Ferdinand Magellan",
+     "as": "ফাৰ্ডিনাণ্ড মেজেলান"
+    },
+    {
+     "en": "James Cook",
+     "as": "জেমছ কুক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Vasco da Gama led the Portuguese exploration of the sea route to India.",
+    "as": "ভাস্ক' দা গামাই ভাৰতলৈ সাগৰীয় পথৰ পৰ্তুগীজ অভিযানৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-116",
+   "q": {
+    "en": "In which year did Vasco da Gama reach India?",
+    "as": "ভাস্ক' দা গামা কিমান চনত ভাৰতত উপনীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1498 CE",
+     "as": "১৪৯৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1492 CE",
+     "as": "১৪৯২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1453 CE",
+     "as": "১৪৫৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1600 CE",
+     "as": "১৬০০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Vasco da Gama reached India in 1498 CE.",
+    "as": "ভাস্ক' দা গামা ১৪৯৮ খ্ৰীষ্টাব্দত ভাৰতত উপনীত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-117",
+   "q": {
+    "en": "Who discovered the sea route to America?",
+    "as": "আমেৰিকালৈ সাগৰীয় পথ কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Christopher Columbus",
+     "as": "ক্ৰিষ্টোফাৰ কলম্বাছ"
+    },
+    {
+     "en": "Vasco da Gama",
+     "as": "ভাস্ক' দা গামা"
+    },
+    {
+     "en": "Ferdinand Magellan",
+     "as": "ফাৰ্ডিনাণ্ড মেজেলান"
+    },
+    {
+     "en": "James Cook",
+     "as": "জেমছ কুক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Christopher Columbus discovered the sea route to America.",
+    "as": "ক্ৰিষ্টোফাৰ কলম্বাছে আমেৰিকালৈ সাগৰীয় পথ আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-118",
+   "q": {
+    "en": "In which year did Christopher Columbus reach America?",
+    "as": "ক্ৰিষ্টোফাৰ কলম্বাছ কিমান চনত আমেৰিকা উপনীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1492 CE",
+     "as": "১৪৯২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1498 CE",
+     "as": "১৪৯৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1453 CE",
+     "as": "১৪৫৩ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1517 CE",
+     "as": "১৫১৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Christopher Columbus reached America in 1492 CE.",
+    "as": "ক্ৰিষ্টোফাৰ কলম্বাছ ১৪৯২ খ্ৰীষ্টাব্দত আমেৰিকা উপনীত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-119",
+   "q": {
+    "en": "Who first circumnavigated the globe?",
+    "as": "পৃথিৱীৰ চাৰিওফালে প্ৰথমে কোনে পৰিভ্ৰমণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ferdinand Magellan's expedition",
+     "as": "ফাৰ্ডিনাণ্ড মেজেলানৰ অভিযান"
+    },
+    {
+     "en": "Christopher Columbus",
+     "as": "ক্ৰিষ্টোফাৰ কলম্বাছ"
+    },
+    {
+     "en": "Vasco da Gama",
+     "as": "ভাস্ক' দা গামা"
+    },
+    {
+     "en": "James Cook",
+     "as": "জেমছ কুক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ferdinand Magellan's expedition first circumnavigated the globe.",
+    "as": "ফাৰ্ডিনাণ্ড মেজেলানৰ অভিযানে পৃথিৱীৰ চাৰিওফালে প্ৰথমে পৰিভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-120",
+   "q": {
+    "en": "Which European power first established a sea empire in the East?",
+    "as": "পূবত প্ৰথমে কোন ইউৰোপীয় শক্তিয়ে সাগৰীয় সাম্ৰাজ্য স্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Portugal",
+     "as": "পৰ্তুগাল"
+    },
+    {
+     "en": "Spain",
+     "as": "স্পেইন"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Netherlands",
+     "as": "নেডাৰলেণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Portugal first established a sea empire in the East.",
+    "as": "পৰ্তুগালে পূবত প্ৰথমে সাগৰীয় সাম্ৰাজ্য স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-121",
+   "q": {
+    "en": "Which European power established the East India Company in 1600?",
+    "as": "১৬০০ চনত কোন ইউৰোপীয় শক্তিয়ে ইষ্ট ইণ্ডিয়া কোম্পানী স্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Portugal",
+     "as": "পৰ্তুগাল"
+    },
+    {
+     "en": "Spain",
+     "as": "স্পেইন"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "England established the East India Company in 1600.",
+    "as": "ইংলেণ্ডে ১৬০০ চনত ইষ্ট ইণ্ডিয়া কোম্পানী স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-122",
+   "q": {
+    "en": "Which European power established the Dutch East India Company?",
+    "as": "কোন ইউৰোপীয় শক্তিয়ে ডাচ ইষ্ট ইণ্ডিয়া কোম্পানী স্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Netherlands",
+     "as": "নেডাৰলেণ্ড"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Portugal",
+     "as": "পৰ্তুগাল"
+    },
+    {
+     "en": "Spain",
+     "as": "স্পেইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Netherlands established the Dutch East India Company.",
+    "as": "নেডাৰলেণ্ডে ডাচ ইষ্ট ইণ্ডিয়া কোম্পানী স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-123",
+   "q": {
+    "en": "Which country did the French establish an East India Company in?",
+    "as": "ফৰাচীসকলে কোন দেশত ইষ্ট ইণ্ডিয়া কোম্পানী স্থাপন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Portugal",
+     "as": "পৰ্তুগাল"
+    },
+    {
+     "en": "Spain",
+     "as": "স্পেইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The French established their own East India Company.",
+    "as": "ফৰাচীসকলে তেওঁলোকৰ নিজৰ ইষ্ট ইণ্ডিয়া কোম্পানী স্থাপন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-124",
+   "q": {
+    "en": "Who was the Aztec emperor defeated by the Spanish?",
+    "as": "স্পেনীয়সকলে পৰাস্ত কৰা আজটেক সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Montezuma II",
+     "as": "মণ্টেজুমা দ্বিতীয়"
+    },
+    {
+     "en": "Atahualpa",
+     "as": "আতাহুৱালপা"
+    },
+    {
+     "en": "Huayna Capac",
+     "as": "হুৱাইনা কাপাক"
+    },
+    {
+     "en": "Cuauhtemoc",
+     "as": "কুৱাউটেমক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Montezuma II was the Aztec emperor defeated by the Spanish.",
+    "as": "মণ্টেজুমা দ্বিতীয় স্পেনীয়সকলে পৰাস্ত কৰা আজটেক সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "world-history-125",
+   "q": {
+    "en": "Who was the Inca emperor defeated by the Spanish?",
+    "as": "স্পেনীয়সকলে পৰাস্ত কৰা ইনকা সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Atahualpa",
+     "as": "আতাহুৱালপা"
+    },
+    {
+     "en": "Montezuma II",
+     "as": "মণ্টেজুমা দ্বিতীয়"
+    },
+    {
+     "en": "Huayna Capac",
+     "as": "হুৱাইনা কাপাক"
+    },
+    {
+     "en": "Cuauhtemoc",
+     "as": "কুৱাউটেমক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Atahualpa was the Inca emperor defeated by the Spanish.",
+    "as": "আতাহুৱালপা স্পেনীয়সকলে পৰাস্ত কৰা ইনকা সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "world-history-126",
+   "q": {
+    "en": "Who led the Spanish conquest of the Aztec Empire?",
+    "as": "আজটেক সাম্ৰাজ্যৰ স্পেনীয় বিজয়ৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Hernan Cortes",
+     "as": "হাৰ্নান কৰ্টেছ"
+    },
+    {
+     "en": "Francisco Pizarro",
+     "as": "ফ্ৰান্সিছক' পিজাৰ'"
+    },
+    {
+     "en": "Christopher Columbus",
+     "as": "ক্ৰিষ্টোফাৰ কলম্বাছ"
+    },
+    {
+     "en": "Magellan",
+     "as": "মেজেলান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hernan Cortes led the Spanish conquest of the Aztec Empire.",
+    "as": "হাৰ্নান কৰ্টেছে আজটেক সাম্ৰাজ্যৰ স্পেনীয় বিজয়ৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-127",
+   "q": {
+    "en": "Who led the Spanish conquest of the Inca Empire?",
+    "as": "ইনকা সাম্ৰাজ্যৰ স্পেনীয় বিজয়ৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Francisco Pizarro",
+     "as": "ফ্ৰান্সিছক' পিজাৰ'"
+    },
+    {
+     "en": "Hernan Cortes",
+     "as": "হাৰ্নান কৰ্টেছ"
+    },
+    {
+     "en": "Christopher Columbus",
+     "as": "ক্ৰিষ্টোফাৰ কলম্বাছ"
+    },
+    {
+     "en": "Magellan",
+     "as": "মেজেলান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Francisco Pizarro led the Spanish conquest of the Inca Empire.",
+    "as": "ফ্ৰান্সিছক' পিজাৰ'ই ইনকা সাম্ৰাজ্যৰ স্পেনীয় বিজয়ৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-128",
+   "q": {
+    "en": "Which ancient American civilisation built Machu Picchu?",
+    "as": "কোন প্ৰাচীন আমেৰিকান সভ্যতাই মাচু পিচু নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Inca civilisation",
+     "as": "ইনকা সভ্যতা"
+    },
+    {
+     "en": "The Aztec civilisation",
+     "as": "আজটেক সভ্যতা"
+    },
+    {
+     "en": "The Maya civilisation",
+     "as": "মায়া সভ্যতা"
+    },
+    {
+     "en": "The Olmec civilisation",
+     "as": "অলমেক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Inca civilisation built Machu Picchu.",
+    "as": "ইনকা সভ্যতাই মাচু পিচু নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-129",
+   "q": {
+    "en": "Which ancient American civilisation built Chichen Itza?",
+    "as": "কোন প্ৰাচীন আমেৰিকান সভ্যতাই চিচেন ইৎজা নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Maya civilisation",
+     "as": "মায়া সভ্যতা"
+    },
+    {
+     "en": "The Inca civilisation",
+     "as": "ইনকা সভ্যতা"
+    },
+    {
+     "en": "The Aztec civilisation",
+     "as": "আজটেক সভ্যতা"
+    },
+    {
+     "en": "The Olmec civilisation",
+     "as": "অলমেক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Maya civilisation built Chichen Itza.",
+    "as": "মায়া সভ্যতাই চিচেন ইৎজা নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-130",
+   "q": {
+    "en": "Which ancient American civilisation built Tenochtitlan?",
+    "as": "কোন প্ৰাচীন আমেৰিকান সভ্যতাই টেন'চটিট্লান নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Aztec civilisation",
+     "as": "আজটেক সভ্যতা"
+    },
+    {
+     "en": "The Maya civilisation",
+     "as": "মায়া সভ্যতা"
+    },
+    {
+     "en": "The Inca civilisation",
+     "as": "ইনকা সভ্যতা"
+    },
+    {
+     "en": "The Olmec civilisation",
+     "as": "অলমেক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Aztec civilisation built Tenochtitlan.",
+    "as": "আজটেক সভ্যতাই টেন'চটিট্লান নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-131",
+   "q": {
+    "en": "Which ancient American civilisation is known for its calendar?",
+    "as": "কোন প্ৰাচীন আমেৰিকান সভ্যতা ইয়াৰ পঞ্জিকা বাবে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Maya civilisation",
+     "as": "মায়া সভ্যতা"
+    },
+    {
+     "en": "The Inca civilisation",
+     "as": "ইনকা সভ্যতা"
+    },
+    {
+     "en": "The Aztec civilisation",
+     "as": "আজটেক সভ্যতা"
+    },
+    {
+     "en": "The Olmec civilisation",
+     "as": "অলমেক সভ্যতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Maya civilisation is known for its calendar.",
+    "as": "মায়া সভ্যতা ইয়াৰ পঞ্জিকা বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-132",
+   "q": {
+    "en": "Which ocean did Magellan's expedition cross to reach Asia?",
+    "as": "মেজেলানৰ অভিযানে এছিয়া পাবলৈ কোন মহাসাগৰ পাৰ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Pacific Ocean",
+     "as": "প্ৰশান্ত মহাসাগৰ"
+    },
+    {
+     "en": "The Atlantic Ocean",
+     "as": "আটলাণ্টিক মহাসাগৰ"
+    },
+    {
+     "en": "The Indian Ocean",
+     "as": "ভাৰত মহাসাগৰ"
+    },
+    {
+     "en": "The Arctic Ocean",
+     "as": "উত্তৰ মহাসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Magellan's expedition crossed the Pacific Ocean to reach Asia.",
+    "as": "মেজেলানৰ অভিযানে এছিয়া পাবলৈ প্ৰশান্ত মহাসাগৰ পাৰ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-133",
+   "q": {
+    "en": "Which explorer is associated with the discovery of Australia?",
+    "as": "অষ্ট্ৰেলিয়াৰ আৱিষ্কাৰৰ লগত কোন অভিযাত্ৰী জড়িত?"
+   },
+   "options": [
+    {
+     "en": "James Cook",
+     "as": "জেমছ কুক"
+    },
+    {
+     "en": "Vasco da Gama",
+     "as": "ভাস্ক' দা গামা"
+    },
+    {
+     "en": "Magellan",
+     "as": "মেজেলান"
+    },
+    {
+     "en": "Columbus",
+     "as": "কলম্বাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "James Cook is associated with the discovery of Australia.",
+    "as": "জেমছ কুক অষ্ট্ৰেলিয়াৰ আৱিষ্কাৰৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "world-history-134",
+   "q": {
+    "en": "Which explorer is associated with the discovery of the Cape of Good Hope route?",
+    "as": "কেপ অৱ গুড হ'প পথৰ আৱিষ্কাৰৰ লগত কোন অভিযাত্ৰী জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bartholomew Dias",
+     "as": "বাৰ্থ'লমিউ ডায়াছ"
+    },
+    {
+     "en": "Vasco da Gama",
+     "as": "ভাস্ক' দা গামা"
+    },
+    {
+     "en": "Magellan",
+     "as": "মেজেলান"
+    },
+    {
+     "en": "Columbus",
+     "as": "কলম্বাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bartholomew Dias is associated with the discovery of the Cape of Good Hope route.",
+    "as": "বাৰ্থ'লমিউ ডায়াছ কেপ অৱ গুড হ'প পথৰ আৱিষ্কাৰৰ লগত জড়িত।"
+   }
+  },
+  {
+   "id": "world-history-135",
+   "q": {
+    "en": "Which Portuguese explorer reached the Cape of Good Hope?",
+    "as": "কোন পৰ্তুগীজ অভিযাত্ৰীয়ে কেপ অৱ গুড হ'পত উপনীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Bartholomew Dias",
+     "as": "বাৰ্থ'লমিউ ডায়াছ"
+    },
+    {
+     "en": "Vasco da Gama",
+     "as": "ভাস্ক' দা গামা"
+    },
+    {
+     "en": "Magellan",
+     "as": "মেজেলান"
+    },
+    {
+     "en": "Columbus",
+     "as": "কলম্বাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bartholomew Dias reached the Cape of Good Hope.",
+    "as": "বাৰ্থ'লমিউ ডায়াছে কেপ অৱ গুড হ'পত উপনীত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-136",
+   "q": {
+    "en": "Which country sponsored Christopher Columbus's voyage?",
+    "as": "ক্ৰিষ্টোফাৰ কলম্বাছৰ সমুদ্ৰ যাত্ৰা কোন দেশে পৃষ্ঠপোষকতা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Spain",
+     "as": "স্পেইন"
+    },
+    {
+     "en": "Portugal",
+     "as": "পৰ্তুগাল"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Italy",
+     "as": "ইটালী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Spain sponsored Christopher Columbus's voyage.",
+    "as": "স্পেইনে ক্ৰিষ্টোফাৰ কলম্বাছৰ সমুদ্ৰ যাত্ৰা পৃষ্ঠপোষকতা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-137",
+   "q": {
+    "en": "Which country sponsored Vasco da Gama's voyage?",
+    "as": "ভাস্ক' দা গামাৰ সমুদ্ৰ যাত্ৰা কোন দেশে পৃষ্ঠপোষকতা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Portugal",
+     "as": "পৰ্তুগাল"
+    },
+    {
+     "en": "Spain",
+     "as": "স্পেইন"
+    },
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "Italy",
+     "as": "ইটালী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Portugal sponsored Vasco da Gama's voyage.",
+    "as": "পৰ্তুগালে ভাস্ক' দা গামাৰ সমুদ্ৰ যাত্ৰা পৃষ্ঠপোষকতা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-138",
+   "q": {
+    "en": "Which treaty divided the newly discovered lands between Spain and Portugal?",
+    "as": "নতুন আৱিষ্কৃত ভূমি স্পেইন আৰু পৰ্তুগালৰ মাজত কোন সন্ধিয়ে বিভাজন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Treaty of Tordesillas",
+     "as": "টৰ্ডেচিলাছৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Versailles",
+     "as": "ভাৰ্চাইৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Utrecht",
+     "as": "উট্ৰেখটৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Paris",
+     "as": "পেৰিছৰ সন্ধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Treaty of Tordesillas divided the newly discovered lands between Spain and Portugal.",
+    "as": "টৰ্ডেচিলাছৰ সন্ধিয়ে নতুন আৱিষ্কৃত ভূমি স্পেইন আৰু পৰ্তুগালৰ মাজত বিভাজন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-139",
+   "q": {
+    "en": "Who invented the telescope for astronomical use?",
+    "as": "জ্যোতিৰ্বিজ্ঞানৰ বাবে দূৰবীক্ষণ যন্ত্ৰ কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Galileo Galilei",
+     "as": "গেলিলিঅ' গেলিলেই"
+    },
+    {
+     "en": "Copernicus",
+     "as": "ক'পাৰনিকাছ"
+    },
+    {
+     "en": "Newton",
+     "as": "নিউটন"
+    },
+    {
+     "en": "Kepler",
+     "as": "কেপলাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Galileo Galilei invented the telescope for astronomical use.",
+    "as": "গেলিলিঅ' গেলিলেই জ্যোতিৰ্বিজ্ঞানৰ বাবে দূৰবীক্ষণ যন্ত্ৰ আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-140",
+   "q": {
+    "en": "Who proposed the heliocentric theory of the solar system?",
+    "as": "সৌৰজগতৰ সূৰ্যকেন্দ্ৰিক তত্ত্ব কোনে প্ৰস্তাৱ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nicolaus Copernicus",
+     "as": "নিক'লাছ ক'পাৰনিকাছ"
+    },
+    {
+     "en": "Galileo",
+     "as": "গেলিলিঅ'"
+    },
+    {
+     "en": "Newton",
+     "as": "নিউটন"
+    },
+    {
+     "en": "Kepler",
+     "as": "কেপলাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nicolaus Copernicus proposed the heliocentric theory of the solar system.",
+    "as": "নিক'লাছ ক'পাৰনিকাছে সৌৰজগতৰ সূৰ্যকেন্দ্ৰিক তত্ত্ব প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-141",
+   "q": {
+    "en": "Who discovered the laws of planetary motion?",
+    "as": "গ্ৰহৰ গতিৰ নিয়ম কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Johannes Kepler",
+     "as": "জ'হানেছ কেপলাৰ"
+    },
+    {
+     "en": "Copernicus",
+     "as": "ক'পাৰনিকাছ"
+    },
+    {
+     "en": "Galileo",
+     "as": "গেলিলিঅ'"
+    },
+    {
+     "en": "Newton",
+     "as": "নিউটন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Johannes Kepler discovered the laws of planetary motion.",
+    "as": "জ'হানেছ কেপলাৰে গ্ৰহৰ গতিৰ নিয়ম আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-142",
+   "q": {
+    "en": "Who formulated the law of universal gravitation?",
+    "as": "সৰ্বজনীন মাধ্যাকৰ্ষণৰ নিয়ম কোনে প্ৰতিপাদন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Isaac Newton",
+     "as": "আইজাক নিউটন"
+    },
+    {
+     "en": "Galileo",
+     "as": "গেলিলিঅ'"
+    },
+    {
+     "en": "Kepler",
+     "as": "কেপলাৰ"
+    },
+    {
+     "en": "Copernicus",
+     "as": "ক'পাৰনিকাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Isaac Newton formulated the law of universal gravitation.",
+    "as": "আইজাক নিউটনে সৰ্বজনীন মাধ্যাকৰ্ষণৰ নিয়ম প্ৰতিপাদন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-143",
+   "q": {
+    "en": "Who discovered the circulation of blood?",
+    "as": "তেজৰ সংচলন কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "William Harvey",
+     "as": "উইলিয়াম হাৰ্ভে"
+    },
+    {
+     "en": "Hippocrates",
+     "as": "হিপ'ক্ৰেটিছ"
+    },
+    {
+     "en": "Galen",
+     "as": "গেলেন"
+    },
+    {
+     "en": "Pasteur",
+     "as": "পাষ্টুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "William Harvey discovered the circulation of blood.",
+    "as": "উইলিয়াম হাৰ্ভেই তেজৰ সংচলন আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-144",
+   "q": {
+    "en": "Who invented the steam engine?",
+    "as": "ভাপ ইঞ্জিন কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "James Watt",
+     "as": "জেমছ ৱাট"
+    },
+    {
+     "en": "Thomas Newcomen",
+     "as": "থমাছ নিউকমেন"
+    },
+    {
+     "en": "George Stephenson",
+     "as": "জৰ্জ ষ্টিফেনছন"
+    },
+    {
+     "en": "Robert Fulton",
+     "as": "ৰবাৰ্ট ফাল্টন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "James Watt improved and developed the steam engine.",
+    "as": "জেমছ ৱাটে ভাপ ইঞ্জিন উন্নত আৰু বিকশিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-145",
+   "q": {
+    "en": "Who built the first practical steam locomotive?",
+    "as": "প্ৰথম ব্যৱহাৰযোগ্য ভাপ ৰেল ইঞ্জিন কোনে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "George Stephenson",
+     "as": "জৰ্জ ষ্টিফেনছন"
+    },
+    {
+     "en": "James Watt",
+     "as": "জেমছ ৱাট"
+    },
+    {
+     "en": "Thomas Newcomen",
+     "as": "থমাছ নিউকমেন"
+    },
+    {
+     "en": "Robert Fulton",
+     "as": "ৰবাৰ্ট ফাল্টন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "George Stephenson built the first practical steam locomotive.",
+    "as": "জৰ্জ ষ্টিফেনছনে প্ৰথম ব্যৱহাৰযোগ্য ভাপ ৰেল ইঞ্জিন নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-146",
+   "q": {
+    "en": "In which country did the Industrial Revolution begin?",
+    "as": "শিল্প বিপ্লৱ কোন দেশত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "England",
+     "as": "ইংলেণ্ড"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    },
+    {
+     "en": "Germany",
+     "as": "জাৰ্মানী"
+    },
+    {
+     "en": "America",
+     "as": "আমেৰিকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Industrial Revolution began in England.",
+    "as": "শিল্প বিপ্লৱ ইংলেণ্ডত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-147",
+   "q": {
+    "en": "In which century did the Industrial Revolution begin?",
+    "as": "শিল্প বিপ্লৱ কিমান শতিকাত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The 18th century",
+     "as": "অষ্টাদশ শতিকাত"
+    },
+    {
+     "en": "The 15th century",
+     "as": "পঞ্চদশ শতিকাত"
+    },
+    {
+     "en": "The 20th century",
+     "as": "বিংশ শতিকাত"
+    },
+    {
+     "en": "The 12th century",
+     "as": "দ্বাদশ শতিকাত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Industrial Revolution began in the 18th century.",
+    "as": "শিল্প বিপ্লৱ অষ্টাদশ শতিকাত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-148",
+   "q": {
+    "en": "Which industry was the first to be industrialised?",
+    "as": "কোন উদ্যোগ প্ৰথমে শিল্পায়িত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The textile industry",
+     "as": "বস্ত্ৰ উদ্যোগ"
+    },
+    {
+     "en": "The iron industry",
+     "as": "লো উদ্যোগ"
+    },
+    {
+     "en": "The coal industry",
+     "as": "কয়লা উদ্যোগ"
+    },
+    {
+     "en": "The shipping industry",
+     "as": "জাহাজ উদ্যোগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The textile industry was the first to be industrialised.",
+    "as": "বস্ত্ৰ উদ্যোগ প্ৰথমে শিল্পায়িত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-149",
+   "q": {
+    "en": "Who invented the spinning jenny?",
+    "as": "স্পিনিং জেনি কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "James Hargreaves",
+     "as": "জেমছ হাৰ্গ্ৰিভছ"
+    },
+    {
+     "en": "Richard Arkwright",
+     "as": "ৰিচাৰ্ড আৰ্কৰাইট"
+    },
+    {
+     "en": "Samuel Crompton",
+     "as": "ছেমুৱেল ক্ৰম্পটন"
+    },
+    {
+     "en": "James Watt",
+     "as": "জেমছ ৱাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "James Hargreaves invented the spinning jenny.",
+    "as": "জেমছ হাৰ্গ্ৰিভছে স্পিনিং জেনি আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-150",
+   "q": {
+    "en": "Who invented the cotton gin?",
+    "as": "কটন জিন কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Eli Whitney",
+     "as": "এলি হুইটনি"
+    },
+    {
+     "en": "James Hargreaves",
+     "as": "জেমছ হাৰ্গ্ৰিভছ"
+    },
+    {
+     "en": "Richard Arkwright",
+     "as": "ৰিচাৰ্ড আৰ্কৰাইট"
+    },
+    {
+     "en": "Samuel Crompton",
+     "as": "ছেমুৱেল ক্ৰম্পটন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Eli Whitney invented the cotton gin.",
+    "as": "এলি হুইটনিয়ে কটন জিন আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-151",
+   "q": {
+    "en": "Who invented the telephone?",
+    "as": "টেলিফোন কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alexander Graham Bell",
+     "as": "আলেকজেণ্ডাৰ গ্ৰাহাম বেল"
+    },
+    {
+     "en": "Thomas Edison",
+     "as": "থমাছ এডিছন"
+    },
+    {
+     "en": "Marconi",
+     "as": "মাৰ্ক'নী"
+    },
+    {
+     "en": "Nikola Tesla",
+     "as": "নিক'লা টেছলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alexander Graham Bell invented the telephone.",
+    "as": "আলেকজেণ্ডাৰ গ্ৰাহাম বেলে টেলিফোন আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-152",
+   "q": {
+    "en": "Who invented the electric bulb?",
+    "as": "বিদ্যুৎ বাল্ব কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Thomas Edison",
+     "as": "থমাছ এডিছন"
+    },
+    {
+     "en": "Alexander Graham Bell",
+     "as": "আলেকজেণ্ডাৰ গ্ৰাহাম বেল"
+    },
+    {
+     "en": "Marconi",
+     "as": "মাৰ্ক'নী"
+    },
+    {
+     "en": "Nikola Tesla",
+     "as": "নিক'লা টেছলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Thomas Edison invented the electric bulb.",
+    "as": "থমাছ এডিছনে বিদ্যুৎ বাল্ব আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-153",
+   "q": {
+    "en": "Who invented the radio?",
+    "as": "ৰেডিঅ' কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Guglielmo Marconi",
+     "as": "গুলিয়েলম' মাৰ্ক'নী"
+    },
+    {
+     "en": "Thomas Edison",
+     "as": "থমাছ এডিছন"
+    },
+    {
+     "en": "Alexander Graham Bell",
+     "as": "আলেকজেণ্ডাৰ গ্ৰাহাম বেল"
+    },
+    {
+     "en": "Nikola Tesla",
+     "as": "নিক'লা টেছলা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guglielmo Marconi invented the radio.",
+    "as": "গুলিয়েলম' মাৰ্ক'নীয়ে ৰেডিঅ' আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-154",
+   "q": {
+    "en": "Who invented the aeroplane?",
+    "as": "বিমান কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Wright brothers",
+     "as": "ৰাইট ভাতৃদ্বয়"
+    },
+    {
+     "en": "Thomas Edison",
+     "as": "থমাছ এডিছন"
+    },
+    {
+     "en": "Alexander Graham Bell",
+     "as": "আলেকজেণ্ডাৰ গ্ৰাহাম বেল"
+    },
+    {
+     "en": "Marconi",
+     "as": "মাৰ্ক'নী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Wright brothers invented the aeroplane.",
+    "as": "ৰাইট ভাতৃদ্বয়ে বিমান আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-155",
+   "q": {
+    "en": "Who discovered penicillin?",
+    "as": "পেনিচিলিন কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Alexander Fleming",
+     "as": "আলেকজেণ্ডাৰ ফ্লেমিং"
+    },
+    {
+     "en": "Louis Pasteur",
+     "as": "লুই পাষ্টুৰ"
+    },
+    {
+     "en": "Robert Koch",
+     "as": "ৰবাৰ্ট কখ"
+    },
+    {
+     "en": "Edward Jenner",
+     "as": "এডৱাৰ্ড জেনাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alexander Fleming discovered penicillin.",
+    "as": "আলেকজেণ্ডাৰ ফ্লেমিঙে পেনিচিলিন আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-156",
+   "q": {
+    "en": "Who discovered the vaccine for smallpox?",
+    "as": "চিঠি ৰোগৰ টিকা কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Edward Jenner",
+     "as": "এডৱাৰ্ড জেনাৰ"
+    },
+    {
+     "en": "Louis Pasteur",
+     "as": "লুই পাষ্টুৰ"
+    },
+    {
+     "en": "Robert Koch",
+     "as": "ৰবাৰ্ট কখ"
+    },
+    {
+     "en": "Alexander Fleming",
+     "as": "আলেকজেণ্ডাৰ ফ্লেমিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Edward Jenner discovered the vaccine for smallpox.",
+    "as": "এডৱাৰ্ড জেনাৰে চিঠি ৰোগৰ টিকা আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-157",
+   "q": {
+    "en": "Who discovered the germ theory of disease?",
+    "as": "ৰোগৰ জীৱাণু তত্ত্ব কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Louis Pasteur",
+     "as": "লুই পাষ্টুৰ"
+    },
+    {
+     "en": "Edward Jenner",
+     "as": "এডৱাৰ্ড জেনাৰ"
+    },
+    {
+     "en": "Alexander Fleming",
+     "as": "আলেকজেণ্ডাৰ ফ্লেমিং"
+    },
+    {
+     "en": "Robert Koch",
+     "as": "ৰবাৰ্ট কখ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Louis Pasteur discovered the germ theory of disease.",
+    "as": "লুই পাষ্টুৰে ৰোগৰ জীৱাণু তত্ত্ব আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-158",
+   "q": {
+    "en": "Who discovered the theory of evolution by natural selection?",
+    "as": "প্ৰাকৃতিক নিৰ্বাচনৰ জৰিয়তে বিবৰ্তনৰ তত্ত্ব কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Charles Darwin",
+     "as": "চাৰ্লছ ডাৰউইন"
+    },
+    {
+     "en": "Gregor Mendel",
+     "as": "গ্ৰেগৰ মেণ্ডেল"
+    },
+    {
+     "en": "Louis Pasteur",
+     "as": "লুই পাষ্টুৰ"
+    },
+    {
+     "en": "Isaac Newton",
+     "as": "আইজাক নিউটন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Charles Darwin discovered the theory of evolution by natural selection.",
+    "as": "চাৰ্লছ ডাৰউইনে প্ৰাকৃতিক নিৰ্বাচনৰ জৰিয়তে বিবৰ্তনৰ তত্ত্ব আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-159",
+   "q": {
+    "en": "Who is known as the 'Father of Genetics'?",
+    "as": "কাক 'বংশগতি বিজ্ঞানৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Gregor Mendel",
+     "as": "গ্ৰেগৰ মেণ্ডেল"
+    },
+    {
+     "en": "Charles Darwin",
+     "as": "চাৰ্লছ ডাৰউইন"
+    },
+    {
+     "en": "Louis Pasteur",
+     "as": "লুই পাষ্টুৰ"
+    },
+    {
+     "en": "Robert Koch",
+     "as": "ৰবাৰ্ট কখ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gregor Mendel is known as the Father of Genetics.",
+    "as": "গ্ৰেগৰ মেণ্ডেলক বংশগতি বিজ্ঞানৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-160",
+   "q": {
+    "en": "Who is known as the 'Father of Modern Chemistry'?",
+    "as": "কাক 'আধুনিক ৰসায়ন বিজ্ঞানৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Antoine Lavoisier",
+     "as": "আণ্টন লাভ'চিয়াৰ"
+    },
+    {
+     "en": "John Dalton",
+     "as": "জন ডালটন"
+    },
+    {
+     "en": "Dmitri Mendeleev",
+     "as": "দিমিত্ৰি মেণ্ডেলিভ"
+    },
+    {
+     "en": "Robert Boyle",
+     "as": "ৰবাৰ্ট বয়েল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Antoine Lavoisier is known as the Father of Modern Chemistry.",
+    "as": "আণ্টন লাভ'চিয়াৰক আধুনিক ৰসায়ন বিজ্ঞানৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-161",
+   "q": {
+    "en": "Who created the periodic table of elements?",
+    "as": "মৌলৰ পৰ্যাবৃত্ত তালিকা কোনে সৃষ্টি কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Dmitri Mendeleev",
+     "as": "দিমিত্ৰি মেণ্ডেলিভ"
+    },
+    {
+     "en": "Antoine Lavoisier",
+     "as": "আণ্টন লাভ'চিয়াৰ"
+    },
+    {
+     "en": "John Dalton",
+     "as": "জন ডালটন"
+    },
+    {
+     "en": "Robert Boyle",
+     "as": "ৰবাৰ্ট বয়েল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dmitri Mendeleev created the periodic table of elements.",
+    "as": "দিমিত্ৰি মেণ্ডেলিভে মৌলৰ পৰ্যাবৃত্ত তালিকা সৃষ্টি কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-162",
+   "q": {
+    "en": "Who proposed the atomic theory of matter?",
+    "as": "পদাৰ্থৰ পাৰমাণৱিক তত্ত্ব কোনে প্ৰস্তাৱ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "John Dalton",
+     "as": "জন ডালটন"
+    },
+    {
+     "en": "Antoine Lavoisier",
+     "as": "আণ্টন লাভ'চিয়াৰ"
+    },
+    {
+     "en": "Dmitri Mendeleev",
+     "as": "দিমিত্ৰি মেণ্ডেলিভ"
+    },
+    {
+     "en": "Robert Boyle",
+     "as": "ৰবাৰ্ট বয়েল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "John Dalton proposed the atomic theory of matter.",
+    "as": "জন ডালটনে পদাৰ্থৰ পাৰমাণৱিক তত্ত্ব প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-163",
+   "q": {
+    "en": "Who discovered radium?",
+    "as": "ৰেডিয়াম কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Marie Curie",
+     "as": "মেৰী কুৰী"
+    },
+    {
+     "en": "Albert Einstein",
+     "as": "আলবাৰ্ট আইনষ্টাইন"
+    },
+    {
+     "en": "Niels Bohr",
+     "as": "নিলছ ব'ৰ"
+    },
+    {
+     "en": "Ernest Rutherford",
+     "as": "আৰ্নেষ্ট ৰাদাৰফৰ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Marie Curie discovered radium.",
+    "as": "মেৰী কুৰীয়ে ৰেডিয়াম আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-164",
+   "q": {
+    "en": "Who proposed the theory of relativity?",
+    "as": "আপেক্ষিকতাবাদৰ তত্ত্ব কোনে প্ৰস্তাৱ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Albert Einstein",
+     "as": "আলবাৰ্ট আইনষ্টাইন"
+    },
+    {
+     "en": "Isaac Newton",
+     "as": "আইজাক নিউটন"
+    },
+    {
+     "en": "Niels Bohr",
+     "as": "নিলছ ব'ৰ"
+    },
+    {
+     "en": "Galileo",
+     "as": "গেলিলিঅ'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Albert Einstein proposed the theory of relativity.",
+    "as": "আলবাৰ্ট আইনষ্টাইনে আপেক্ষিকতাবাদৰ তত্ত্ব প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-165",
+   "q": {
+    "en": "Who proposed the model of the atom with a nucleus?",
+    "as": "নিউক্লিয়াছসহ পৰমাণুৰ আৰ্হি কোনে প্ৰস্তাৱ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ernest Rutherford",
+     "as": "আৰ্নেষ্ট ৰাদাৰফৰ্ড"
+    },
+    {
+     "en": "Niels Bohr",
+     "as": "নিলছ ব'ৰ"
+    },
+    {
+     "en": "John Dalton",
+     "as": "জন ডালটন"
+    },
+    {
+     "en": "J. J. Thomson",
+     "as": "জে. জে. থমছন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ernest Rutherford proposed the model of the atom with a nucleus.",
+    "as": "আৰ্নেষ্ট ৰাদাৰফৰ্ডে নিউক্লিয়াছসহ পৰমাণুৰ আৰ্হি প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-166",
+   "q": {
+    "en": "Who proposed the quantum theory of the atom?",
+    "as": "পৰমাণুৰ কোৱাণ্টাম তত্ত্ব কোনে প্ৰস্তাৱ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Niels Bohr",
+     "as": "নিলছ ব'ৰ"
+    },
+    {
+     "en": "Ernest Rutherford",
+     "as": "আৰ্নেষ্ট ৰাদাৰফৰ্ড"
+    },
+    {
+     "en": "John Dalton",
+     "as": "জন ডালটন"
+    },
+    {
+     "en": "Albert Einstein",
+     "as": "আলবাৰ্ট আইনষ্টাইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Niels Bohr proposed the quantum theory of the atom.",
+    "as": "নিলছ ব'ৰে পৰমাণুৰ কোৱাণ্টাম তত্ত্ব প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-167",
+   "q": {
+    "en": "Who discovered the neutron?",
+    "as": "নিউট্ৰন কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "James Chadwick",
+     "as": "জেমছ চেডৱিক"
+    },
+    {
+     "en": "Ernest Rutherford",
+     "as": "আৰ্নেষ্ট ৰাদাৰফৰ্ড"
+    },
+    {
+     "en": "Niels Bohr",
+     "as": "নিলছ ব'ৰ"
+    },
+    {
+     "en": "J. J. Thomson",
+     "as": "জে. জে. থমছন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "James Chadwick discovered the neutron.",
+    "as": "জেমছ চেডৱিকে নিউট্ৰন আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-168",
+   "q": {
+    "en": "Who discovered the electron?",
+    "as": "ইলেকট্ৰন কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "J. J. Thomson",
+     "as": "জে. জে. থমছন"
+    },
+    {
+     "en": "Ernest Rutherford",
+     "as": "আৰ্নেষ্ট ৰাদাৰফৰ্ড"
+    },
+    {
+     "en": "James Chadwick",
+     "as": "জেমছ চেডৱিক"
+    },
+    {
+     "en": "Niels Bohr",
+     "as": "নিলছ ব'ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "J. J. Thomson discovered the electron.",
+    "as": "জে. জে. থমছনে ইলেকট্ৰন আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-169",
+   "q": {
+    "en": "Who discovered radioactivity?",
+    "as": "তেজস্ক্ৰিয়তা কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Henri Becquerel",
+     "as": "হেনৰী বেকৰেল"
+    },
+    {
+     "en": "Marie Curie",
+     "as": "মেৰী কুৰী"
+    },
+    {
+     "en": "Ernest Rutherford",
+     "as": "আৰ্নেষ্ট ৰাদাৰফৰ্ড"
+    },
+    {
+     "en": "Albert Einstein",
+     "as": "আলবাৰ্ট আইনষ্টাইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Henri Becquerel discovered radioactivity.",
+    "as": "হেনৰী বেকৰেলে তেজস্ক্ৰিয়তা আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-170",
+   "q": {
+    "en": "Who was the first woman to win a Nobel Prize?",
+    "as": "নোবেল বঁটা জয় কৰা প্ৰথম মহিলা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Marie Curie",
+     "as": "মেৰী কুৰী"
+    },
+    {
+     "en": "Rosalind Franklin",
+     "as": "ৰ'জালিণ্ড ফ্ৰেংকলিন"
+    },
+    {
+     "en": "Dorothy Hodgkin",
+     "as": "ডৰথী হজকিন"
+    },
+    {
+     "en": "Ada Lovelace",
+     "as": "এডা লাভলেছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Marie Curie was the first woman to win a Nobel Prize.",
+    "as": "মেৰী কুৰী নোবেল বঁটা জয় কৰা প্ৰথম মহিলা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-171",
+   "q": {
+    "en": "Who was the first woman to win a Nobel Prize in two different sciences?",
+    "as": "দুটা ভিন্ন বিজ্ঞানত নোবেল বঁটা জয় কৰা প্ৰথম মহিলা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Marie Curie",
+     "as": "মেৰী কুৰী"
+    },
+    {
+     "en": "Rosalind Franklin",
+     "as": "ৰ'জালিণ্ড ফ্ৰেংকলিন"
+    },
+    {
+     "en": "Dorothy Hodgkin",
+     "as": "ডৰথী হজকিন"
+    },
+    {
+     "en": "Ada Lovelace",
+     "as": "এডা লাভলেছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Marie Curie was the first woman to win a Nobel Prize in two different sciences.",
+    "as": "মেৰী কুৰী দুটা ভিন্ন বিজ্ঞানত নোবেল বঁটা জয় কৰা প্ৰথম মহিলা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-172",
+   "q": {
+    "en": "Who is known as the 'Father of the Computer'?",
+    "as": "কাক 'কম্পিউটাৰৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Charles Babbage",
+     "as": "চাৰ্লছ বেবেজ"
+    },
+    {
+     "en": "Alan Turing",
+     "as": "এলান টুৰিং"
+    },
+    {
+     "en": "John von Neumann",
+     "as": "জন ভন নিউমেন"
+    },
+    {
+     "en": "Bill Gates",
+     "as": "বিল গেটছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Charles Babbage is known as the Father of the Computer.",
+    "as": "চাৰ্লছ বেবেজক কম্পিউটাৰৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-173",
+   "q": {
+    "en": "Who is known as the 'Father of Computer Science'?",
+    "as": "কাক 'কম্পিউটাৰ বিজ্ঞানৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Alan Turing",
+     "as": "এলান টুৰিং"
+    },
+    {
+     "en": "Charles Babbage",
+     "as": "চাৰ্লছ বেবেজ"
+    },
+    {
+     "en": "John von Neumann",
+     "as": "জন ভন নিউমেন"
+    },
+    {
+     "en": "Bill Gates",
+     "as": "বিল গেটছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Alan Turing is known as the Father of Computer Science.",
+    "as": "এলান টুৰিংক কম্পিউটাৰ বিজ্ঞানৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-174",
+   "q": {
+    "en": "Who invented the World Wide Web?",
+    "as": "ৱৰ্ল্ড ৱাইড ৱেব কোনে আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Tim Berners-Lee",
+     "as": "টিম বাৰ্নাৰ্ছ-লী"
+    },
+    {
+     "en": "Bill Gates",
+     "as": "বিল গেটছ"
+    },
+    {
+     "en": "Steve Jobs",
+     "as": "ষ্টিভ জবছ"
+    },
+    {
+     "en": "Alan Turing",
+     "as": "এলান টুৰিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tim Berners-Lee invented the World Wide Web.",
+    "as": "টিম বাৰ্নাৰ্ছ-লীয়ে ৱৰ্ল্ড ৱাইড ৱেব আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-175",
+   "q": {
+    "en": "Who co-founded Apple Inc.?",
+    "as": "এপল ইনকৰ্পৰেটেড কোনে সহ-প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Steve Jobs and Steve Wozniak",
+     "as": "ষ্টিভ জবছ আৰু ষ্টিভ ৱজনিয়াক"
+    },
+    {
+     "en": "Bill Gates",
+     "as": "বিল গেটছ"
+    },
+    {
+     "en": "Tim Berners-Lee",
+     "as": "টিম বাৰ্নাৰ্ছ-লী"
+    },
+    {
+     "en": "Alan Turing",
+     "as": "এলান টুৰিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Steve Jobs and Steve Wozniak co-founded Apple Inc.",
+    "as": "ষ্টিভ জবছ আৰু ষ্টিভ ৱজনিয়াকে এপল ইনকৰ্পৰেটেড সহ-প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-176",
+   "q": {
+    "en": "Who co-founded Microsoft?",
+    "as": "মাইক্ৰ'ছফ্ট কোনে সহ-প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Bill Gates and Paul Allen",
+     "as": "বিল গেটছ আৰু পল এলেন"
+    },
+    {
+     "en": "Steve Jobs",
+     "as": "ষ্টিভ জবছ"
+    },
+    {
+     "en": "Tim Berners-Lee",
+     "as": "টিম বাৰ্নছ-লী"
+    },
+    {
+     "en": "Alan Turing",
+     "as": "এলান টুৰিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bill Gates and Paul Allen co-founded Microsoft.",
+    "as": "বিল গেটছ আৰু পল এলেনে মাইক্ৰ'ছফ্ট সহ-প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-177",
+   "q": {
+    "en": "In which year did the American Declaration of Independence take place?",
+    "as": "আমেৰিকান স্বাধীনতা ঘোষণা কিমান চনত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1776 CE",
+     "as": "১৭৭৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1789 CE",
+     "as": "১৭৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1774 CE",
+     "as": "১৭৭৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1783 CE",
+     "as": "১৭৮৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The American Declaration of Independence took place in 1776 CE.",
+    "as": "আমেৰিকান স্বাধীনতা ঘোষণা ১৭৭৬ খ্ৰীষ্টাব্দত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-178",
+   "q": {
+    "en": "Who wrote the American Declaration of Independence?",
+    "as": "আমেৰিকান স্বাধীনতা ঘোষণা কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Thomas Jefferson",
+     "as": "থমাছ জেফাৰছন"
+    },
+    {
+     "en": "George Washington",
+     "as": "জৰ্জ ৱাশ্বিংটন"
+    },
+    {
+     "en": "Benjamin Franklin",
+     "as": "বেঞ্জামিন ফ্ৰাংকলিন"
+    },
+    {
+     "en": "Abraham Lincoln",
+     "as": "আব্ৰাহাম লিংকন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Thomas Jefferson wrote the American Declaration of Independence.",
+    "as": "থমাছ জেফাৰছনে আমেৰিকান স্বাধীনতা ঘোষণা লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-179",
+   "q": {
+    "en": "Who was the first President of the United States?",
+    "as": "যুক্তৰাষ্ট্ৰৰ প্ৰথম ৰাষ্ট্ৰপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "George Washington",
+     "as": "জৰ্জ ৱাশ্বিংটন"
+    },
+    {
+     "en": "Thomas Jefferson",
+     "as": "থমাছ জেফাৰছন"
+    },
+    {
+     "en": "Abraham Lincoln",
+     "as": "আব্ৰাহাম লিংকন"
+    },
+    {
+     "en": "John Adams",
+     "as": "জন এডামছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "George Washington was the first President of the United States.",
+    "as": "জৰ্জ ৱাশ্বিংটন যুক্তৰাষ্ট্ৰৰ প্ৰথম ৰাষ্ট্ৰপতি আছিল।"
+   }
+  },
+  {
+   "id": "world-history-180",
+   "q": {
+    "en": "Who was the American President during the Civil War?",
+    "as": "আমেৰিকান গৃহযুদ্ধৰ সময়ত ৰাষ্ট্ৰপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Abraham Lincoln",
+     "as": "আব্ৰাহাম লিংকন"
+    },
+    {
+     "en": "George Washington",
+     "as": "জৰ্জ ৱাশ্বিংটন"
+    },
+    {
+     "en": "Thomas Jefferson",
+     "as": "থমাছ জেফাৰছন"
+    },
+    {
+     "en": "Ulysses Grant",
+     "as": "ইউলিছেছ গ্ৰাণ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Abraham Lincoln was the American President during the Civil War.",
+    "as": "আব্ৰাহাম লিংকন আমেৰিকান গৃহযুদ্ধৰ সময়ত ৰাষ্ট্ৰপতি আছিল।"
+   }
+  },
+  {
+   "id": "world-history-181",
+   "q": {
+    "en": "Who abolished slavery in the United States?",
+    "as": "যুক্তৰাষ্ট্ৰত দাসত্ব কোনে বিলুপ্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Abraham Lincoln",
+     "as": "আব্ৰাহাম লিংকন"
+    },
+    {
+     "en": "George Washington",
+     "as": "জৰ্জ ৱাশ্বিংটন"
+    },
+    {
+     "en": "Thomas Jefferson",
+     "as": "থমাছ জেফাৰছন"
+    },
+    {
+     "en": "Ulysses Grant",
+     "as": "ইউলিছেছ গ্ৰাণ্ট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Abraham Lincoln abolished slavery in the United States.",
+    "as": "আব্ৰাহাম লিংকনে যুক্তৰাষ্ট্ৰত দাসত্ব বিলুপ্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-182",
+   "q": {
+    "en": "In which year did the French Revolution begin?",
+    "as": "ফৰাচী বিপ্লৱ কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1789 CE",
+     "as": "১৭৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1776 CE",
+     "as": "১৭৭৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1799 CE",
+     "as": "১৭৯৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1815 CE",
+     "as": "১৮১৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The French Revolution began in 1789 CE.",
+    "as": "ফৰাচী বিপ্লৱ ১৭৮৯ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-183",
+   "q": {
+    "en": "Which event marked the beginning of the French Revolution?",
+    "as": "কোন ঘটনাই ফৰাচী বিপ্লৱৰ আৰম্ভণি চিহ্নিত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The storming of the Bastille",
+     "as": "বাষ্টিল দখল"
+    },
+    {
+     "en": "The execution of Louis XVI",
+     "as": "লুই ষোড়শৰ মৃত্যুদণ্ড"
+    },
+    {
+     "en": "The Tennis Court Oath",
+     "as": "টেনিছ কোৰ্ট শপত"
+    },
+    {
+     "en": "The Reign of Terror",
+     "as": "আতংকৰ ৰাজত্ব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The storming of the Bastille marked the beginning of the French Revolution.",
+    "as": "বাষ্টিল দখলে ফৰাচী বিপ্লৱৰ আৰম্ভণি চিহ্নিত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-184",
+   "q": {
+    "en": "On which date was the Bastille stormed?",
+    "as": "কোন তাৰিখে বাষ্টিল দখল কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "14 July 1789",
+     "as": "১৪ জুলাই ১৭৮৯"
+    },
+    {
+     "en": "4 July 1776",
+     "as": "৪ জুলাই ১৭৭৬"
+    },
+    {
+     "en": "26 August 1789",
+     "as": "২৬ আগষ্ট ১৭৮৯"
+    },
+    {
+     "en": "9 November 1799",
+     "as": "৯ নৱেম্বৰ ১৭৯৯"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bastille was stormed on 14 July 1789.",
+    "as": "১৪ জুলাই ১৭৮৯ তাৰিখে বাষ্টিল দখল কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-185",
+   "q": {
+    "en": "Who was the French king during the French Revolution?",
+    "as": "ফৰাচী বিপ্লৱৰ সময়ত ফৰাচী ৰজা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Louis XVI",
+     "as": "লুই ষোড়শ"
+    },
+    {
+     "en": "Louis XIV",
+     "as": "লুই চতুৰ্দশ"
+    },
+    {
+     "en": "Napoleon",
+     "as": "নেপোলিয়ন"
+    },
+    {
+     "en": "Charles X",
+     "as": "চাৰ্লছ দশম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Louis XVI was the French king during the French Revolution.",
+    "as": "লুই ষোড়শ ফৰাচী বিপ্লৱৰ সময়ত ফৰাচী ৰজা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-186",
+   "q": {
+    "en": "Who was the leader of the Reign of Terror in France?",
+    "as": "ফ্ৰান্সত আতংকৰ ৰাজত্বৰ নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Robespierre",
+     "as": "ৰবেছপিয়াৰ"
+    },
+    {
+     "en": "Napoleon",
+     "as": "নেপোলিয়ন"
+    },
+    {
+     "en": "Danton",
+     "as": "ডাণ্টন"
+    },
+    {
+     "en": "Marat",
+     "as": "মাৰাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Robespierre was the leader of the Reign of Terror in France.",
+    "as": "ৰবেছপিয়াৰ ফ্ৰান্সত আতংকৰ ৰাজত্বৰ নেতা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-187",
+   "q": {
+    "en": "Who became the emperor of France after the Revolution?",
+    "as": "বিপ্লৱৰ পিছত ফ্ৰান্সৰ সম্ৰাট কোন হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Napoleon Bonaparte",
+     "as": "নেপোলিয়ন ব'নাৰ্পাৰ্ট"
+    },
+    {
+     "en": "Louis XVI",
+     "as": "লুই ষোড়শ"
+    },
+    {
+     "en": "Robespierre",
+     "as": "ৰবেছপিয়াৰ"
+    },
+    {
+     "en": "Louis XVIII",
+     "as": "লুই অষ্টাদশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Napoleon Bonaparte became the emperor of France after the Revolution.",
+    "as": "নেপোলিয়ন ব'নাৰ্পাৰ্ট বিপ্লৱৰ পিছত ফ্ৰান্সৰ সম্ৰাট হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-188",
+   "q": {
+    "en": "In which year was Napoleon defeated at Waterloo?",
+    "as": "নেপোলিয়ন কিমান চনত ৱাটাৰলুত পৰাস্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1815 CE",
+     "as": "১৮১৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1789 CE",
+     "as": "১৭৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1799 CE",
+     "as": "১৭৯৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1821 CE",
+     "as": "১৮২১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Napoleon was defeated at Waterloo in 1815 CE.",
+    "as": "নেপোলিয়ন ১৮১৫ খ্ৰীষ্টাব্দত ৱাটাৰলুত পৰাস্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-189",
+   "q": {
+    "en": "Where was Napoleon finally defeated?",
+    "as": "নেপোলিয়ন শেষত ক'ত পৰাস্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Waterloo",
+     "as": "ৱাটাৰলু"
+    },
+    {
+     "en": "Leipzig",
+     "as": "লাইপজিগ"
+    },
+    {
+     "en": "Trafalgar",
+     "as": "ট্ৰাফালগাৰ"
+    },
+    {
+     "en": "Austerlitz",
+     "as": "অষ্টাৰলিটজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Napoleon was finally defeated at Waterloo.",
+    "as": "নেপোলিয়ন শেষত ৱাটাৰলুত পৰাস্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-190",
+   "q": {
+    "en": "Which European countries fought the Napoleonic Wars?",
+    "as": "কোন ইউৰোপীয় দেশসমূহে নেপোলিয়নিক যুদ্ধত যুঁজিছিল?"
+   },
+   "options": [
+    {
+     "en": "Britain and its allies against France",
+     "as": "ব্ৰিটেইন আৰু ইয়াৰ মিত্ৰ দেশসমূহ ফ্ৰান্সৰ বিৰুদ্ধে"
+    },
+    {
+     "en": "Germany against Italy",
+     "as": "জাৰ্মানী ইটালীৰ বিৰুদ্ধে"
+    },
+    {
+     "en": "Russia against America",
+     "as": "ৰাছিয়া আমেৰিকাৰ বিৰুদ্ধে"
+    },
+    {
+     "en": "Spain against Portugal",
+     "as": "স্পেইন পৰ্তুগালৰ বিৰুদ্ধে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Britain and its allies fought France in the Napoleonic Wars.",
+    "as": "ব্ৰিটেইন আৰু ইয়াৰ মিত্ৰ দেশসমূহে নেপোলিয়নিক যুদ্ধত ফ্ৰান্সৰ বিৰুদ্ধে যুঁজিছিল।"
+   }
+  },
+  {
+   "id": "world-history-191",
+   "q": {
+    "en": "In which year did the First World War begin?",
+    "as": "প্ৰথম বিশ্বযুদ্ধ কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1914 CE",
+     "as": "১৯১৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1918 CE",
+     "as": "১৯১৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1939 CE",
+     "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The First World War began in 1914 CE.",
+    "as": "প্ৰথম বিশ্বযুদ্ধ ১৯১৪ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-192",
+   "q": {
+    "en": "In which year did the First World War end?",
+    "as": "প্ৰথম বিশ্বযুদ্ধ কিমান চনত অন্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1918 CE",
+     "as": "১৯১৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1914 CE",
+     "as": "১৯১৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The First World War ended in 1918 CE.",
+    "as": "প্ৰথম বিশ্বযুদ্ধ ১৯১৮ খ্ৰীষ্টাব্দত অন্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-193",
+   "q": {
+    "en": "Which event triggered the First World War?",
+    "as": "কোন ঘটনাই প্ৰথম বিশ্বযুদ্ধৰ সূত্ৰপাত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The assassination of Archduke Franz Ferdinand",
+     "as": "আৰ্চডিউক ফ্ৰাঞ্জ ফাৰ্ডিনাণ্ডৰ হত্যা"
+    },
+    {
+     "en": "The sinking of the Titanic",
+     "as": "টাইটানিকৰ ডুবন"
+    },
+    {
+     "en": "The Russian Revolution",
+     "as": "ৰাছিয়ান বিপ্লৱ"
+    },
+    {
+     "en": "The invasion of Poland",
+     "as": "পোলেণ্ড আক্ৰমণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The assassination of Archduke Franz Ferdinand triggered the First World War.",
+    "as": "আৰ্চডিউক ফ্ৰাঞ্জ ফাৰ্ডিনাণ্ডৰ হত্যাই প্ৰথম বিশ্বযুদ্ধৰ সূত্ৰপাত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-194",
+   "q": {
+    "en": "Which treaty ended the First World War?",
+    "as": "কোন সন্ধিয়ে প্ৰথম বিশ্বযুদ্ধ অন্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Treaty of Versailles",
+     "as": "ভাৰ্চাইৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Tordesillas",
+     "as": "টৰ্ডেচিলাছৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Utrecht",
+     "as": "উট্ৰেখটৰ সন্ধি"
+    },
+    {
+     "en": "The Treaty of Paris",
+     "as": "পেৰিছৰ সন্ধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Treaty of Versailles ended the First World War.",
+    "as": "ভাৰ্চাইৰ সন্ধিয়ে প্ৰথম বিশ্বযুদ্ধ অন্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-195",
+   "q": {
+    "en": "In which year was the Treaty of Versailles signed?",
+    "as": "ভাৰ্চাইৰ সন্ধি কিমান চনত স্বাক্ষৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1918 CE",
+     "as": "১৯১৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1914 CE",
+     "as": "১৯১৪ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Treaty of Versailles was signed in 1919 CE.",
+    "as": "ভাৰ্চাইৰ সন্ধি ১৯১৯ খ্ৰীষ্টাব্দত স্বাক্ষৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-196",
+   "q": {
+    "en": "Which organisation was founded after the First World War to maintain peace?",
+    "as": "প্ৰথম বিশ্বযুদ্ধৰ পিছত শান্তি ৰক্ষাৰ বাবে কোন সংগঠন প্ৰতিষ্ঠা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The League of Nations",
+     "as": "ৰাষ্ট্ৰসংঘ (লীগ অৱ নেশ্যনছ)"
+    },
+    {
+     "en": "The United Nations",
+     "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ"
+    },
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "The European Union",
+     "as": "ইউৰোপীয় সংঘ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The League of Nations was founded after the First World War.",
+    "as": "প্ৰথম বিশ্বযুদ্ধৰ পিছত লীগ অৱ নেশ্যনছ প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-197",
+   "q": {
+    "en": "In which year did the Russian Revolution take place?",
+    "as": "ৰাছিয়ান বিপ্লৱ কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1917 CE",
+     "as": "১৯১৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1905 CE",
+     "as": "১৯০৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1914 CE",
+     "as": "১৯১৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1921 CE",
+     "as": "১৯২১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Russian Revolution took place in 1917 CE.",
+    "as": "ৰাছিয়ান বিপ্লৱ ১৯১৭ খ্ৰীষ্টাব্দত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-198",
+   "q": {
+    "en": "Who led the Bolshevik Revolution in Russia?",
+    "as": "ৰাছিয়াত বলশেৱিক বিপ্লৱৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Vladimir Lenin",
+     "as": "ভ্লাডিমিৰ লেনিন"
+    },
+    {
+     "en": "Karl Marx",
+     "as": "কাৰ্ল মাৰ্ক্স"
+    },
+    {
+     "en": "Joseph Stalin",
+     "as": "জোচেফ ষ্টালিন"
+    },
+    {
+     "en": "Leon Trotsky",
+     "as": "লিঅ'ন ট্ৰটস্কি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Vladimir Lenin led the Bolshevik Revolution in Russia.",
+    "as": "ভ্লাডিমিৰ লেনিনে ৰাছিয়াত বলশেৱিক বিপ্লৱৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-199",
+   "q": {
+    "en": "Who wrote the 'Communist Manifesto'?",
+    "as": "'কমিউনিষ্ট মেনিফেষ্ট'' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Karl Marx and Friedrich Engels",
+     "as": "কাৰ্ল মাৰ্ক্স আৰু ফ্ৰিডৰিখ এঙ্গেলছ"
+    },
+    {
+     "en": "Vladimir Lenin",
+     "as": "ভ্লাডিমিৰ লেনিন"
+    },
+    {
+     "en": "Joseph Stalin",
+     "as": "জোচেফ ষ্টালিন"
+    },
+    {
+     "en": "Leon Trotsky",
+     "as": "লিঅ'ন ট্ৰটস্কি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Karl Marx and Friedrich Engels wrote the Communist Manifesto.",
+    "as": "কাৰ্ল মাৰ্ক্স আৰু ফ্ৰিডৰিখ এঙ্গেলছে কমিউনিষ্ট মেনিফেষ্ট' লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-200",
+   "q": {
+    "en": "In which year did the Second World War begin?",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধ কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1939 CE",
+     "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1914 CE",
+     "as": "১৯১৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1941 CE",
+     "as": "১৯৪১ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Second World War began in 1939 CE.",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধ ১৯৩৯ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-201",
+   "q": {
+    "en": "In which year did the Second World War end?",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধ কিমান চনত অন্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1939 CE",
+     "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1944 CE",
+     "as": "১৯৪৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1946 CE",
+     "as": "১৯৪৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Second World War ended in 1945 CE.",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধ ১৯৪৫ খ্ৰীষ্টাব্দত অন্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-202",
+   "q": {
+    "en": "Which event triggered the Second World War?",
+    "as": "কোন ঘটনাই দ্বিতীয় বিশ্বযুদ্ধৰ সূত্ৰপাত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The German invasion of Poland",
+     "as": "জাৰ্মানীৰ পোলেণ্ড আক্ৰমণ"
+    },
+    {
+     "en": "The assassination of Archduke Franz Ferdinand",
+     "as": "আৰ্চডিউক ফ্ৰাঞ্জ ফাৰ্ডিনাণ্ডৰ হত্যা"
+    },
+    {
+     "en": "The sinking of the Titanic",
+     "as": "টাইটানিকৰ ডুবন"
+    },
+    {
+     "en": "The Russian Revolution",
+     "as": "ৰাছিয়ান বিপ্লৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The German invasion of Poland triggered the Second World War.",
+    "as": "জাৰ্মানীৰ পোলেণ্ড আক্ৰমণে দ্বিতীয় বিশ্বযুদ্ধৰ সূত্ৰপাত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-203",
+   "q": {
+    "en": "Who was the leader of Nazi Germany?",
+    "as": "নাজী জাৰ্মানীৰ নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Adolf Hitler",
+     "as": "এডলফ হিটলাৰ"
+    },
+    {
+     "en": "Benito Mussolini",
+     "as": "বিনিট' মুছ'লিনি"
+    },
+    {
+     "en": "Joseph Stalin",
+     "as": "জোচেফ ষ্টালিন"
+    },
+    {
+     "en": "Winston Churchill",
+     "as": "উইনষ্টন চাৰ্চিল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Adolf Hitler was the leader of Nazi Germany.",
+    "as": "এডলফ হিটলাৰ নাজী জাৰ্মানীৰ নেতা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-204",
+   "q": {
+    "en": "Who was the Prime Minister of Britain during the Second World War?",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধৰ সময়ত ব্ৰিটেইনৰ প্ৰধানমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Winston Churchill",
+     "as": "উইনষ্টন চাৰ্চিল"
+    },
+    {
+     "en": "Neville Chamberlain",
+     "as": "নেভিল চেম্বাৰলেইন"
+    },
+    {
+     "en": "Clement Attlee",
+     "as": "ক্লেমেণ্ট এটলি"
+    },
+    {
+     "en": "Ramsay MacDonald",
+     "as": "ৰেমচে মেকডনাল্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Winston Churchill was the Prime Minister of Britain during the Second World War.",
+    "as": "উইনষ্টন চাৰ্চিল দ্বিতীয় বিশ্বযুদ্ধৰ সময়ত ব্ৰিটেইনৰ প্ৰধানমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "world-history-205",
+   "q": {
+    "en": "Which Japanese cities were hit by atomic bombs?",
+    "as": "কোন জাপানী চহৰত পাৰমাণৱিক বোমা নিক্ষেপ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiroshima and Nagasaki",
+     "as": "হিৰ'শ্বিমা আৰু নাগাছাকি"
+    },
+    {
+     "en": "Tokyo and Osaka",
+     "as": "টকিঅ' আৰু ওছাকা"
+    },
+    {
+     "en": "Kyoto and Kobe",
+     "as": "কিয়'ট' আৰু কোবে"
+    },
+    {
+     "en": "Nagoya and Sapporo",
+     "as": "নাগয়া আৰু চাপৰ'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiroshima and Nagasaki were hit by atomic bombs in 1945.",
+    "as": "১৯৪৫ চনত হিৰ'শ্বিমা আৰু নাগাছাকিত পাৰমাণৱিক বোমা নিক্ষেপ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-206",
+   "q": {
+    "en": "In which year were the atomic bombs dropped on Japan?",
+    "as": "জাপানত কিমান চনত পাৰমাণৱিক বোমা নিক্ষেপ কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1939 CE",
+     "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1941 CE",
+     "as": "১৯৪১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The atomic bombs were dropped on Japan in 1945 CE.",
+    "as": "জাপানত ১৯৪৫ খ্ৰীষ্টাব্দত পাৰমাণৱিক বোমা নিক্ষেপ কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-207",
+   "q": {
+    "en": "Which organisation was founded after the Second World War?",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধৰ পিছত কোন সংগঠন প্ৰতিষ্ঠা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The United Nations",
+     "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ"
+    },
+    {
+     "en": "The League of Nations",
+     "as": "লীগ অৱ নেশ্যনছ"
+    },
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "The European Union",
+     "as": "ইউৰোপীয় সংঘ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The United Nations was founded after the Second World War.",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধৰ পিছত সংযুক্ত ৰাষ্ট্ৰসংঘ প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-208",
+   "q": {
+    "en": "In which year was the United Nations founded?",
+    "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ কিমান চনত প্ৰতিষ্ঠা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1947 CE",
+     "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1950 CE",
+     "as": "১৯৫০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The United Nations was founded in 1945 CE.",
+    "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ ১৯৪৫ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-209",
+   "q": {
+    "en": "Where is the headquarters of the United Nations?",
+    "as": "সংযুক্ত ৰাষ্ট্ৰসংঘৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "New York",
+     "as": "নিউয়ৰ্ক"
+    },
+    {
+     "en": "Geneva",
+     "as": "জেনেভা"
+    },
+    {
+     "en": "Paris",
+     "as": "পেৰিছ"
+    },
+    {
+     "en": "London",
+     "as": "লণ্ডন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The headquarters of the United Nations is at New York.",
+    "as": "সংযুক্ত ৰাষ্ট্ৰসংঘৰ মুখ্য কাৰ্যালয় নিউয়ৰ্কত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "world-history-210",
+   "q": {
+    "en": "Who was the first Secretary-General of the United Nations?",
+    "as": "সংযুক্ত ৰাষ্ট্ৰসংঘৰ প্ৰথম মহাসচিব কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Trygve Lie",
+     "as": "ট্ৰিগভ লী"
+    },
+    {
+     "en": "Dag Hammarskjold",
+     "as": "ডাগ হামাৰশ্ব'ল্ড"
+    },
+    {
+     "en": "U Thant",
+     "as": "ইউ থাণ্ট"
+    },
+    {
+     "en": "Kurt Waldheim",
+     "as": "কাৰ্ট ৱালধেইম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Trygve Lie was the first Secretary-General of the United Nations.",
+    "as": "ট্ৰিগভ লী সংযুক্ত ৰাষ্ট্ৰসংঘৰ প্ৰথম মহাসচিব আছিল।"
+   }
+  },
+  {
+   "id": "world-history-211",
+   "q": {
+    "en": "Which war was fought between the United States and the Soviet Union without direct combat?",
+    "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ আৰু ছোভিয়েট সংঘৰ মাজত প্ৰত্যক্ষ যুদ্ধ নোহোৱাকৈ কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Cold War",
+     "as": "শীতল যুদ্ধ"
+    },
+    {
+     "en": "The First World War",
+     "as": "প্ৰথম বিশ্বযুদ্ধ"
+    },
+    {
+     "en": "The Second World War",
+     "as": "দ্বিতীয় বিশ্বযুদ্ধ"
+    },
+    {
+     "en": "The Korean War",
+     "as": "কোৰিয়া যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Cold War was fought between the United States and the Soviet Union without direct combat.",
+    "as": "শীতল যুদ্ধ সংযুক্ত ৰাষ্ট্ৰ আৰু ছোভিয়েট সংঘৰ মাজত প্ৰত্যক্ষ যুদ্ধ নোহোৱাকৈ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-212",
+   "q": {
+    "en": "Which wall divided a German city during the Cold War?",
+    "as": "শীতল যুদ্ধৰ সময়ত কোন প্ৰাচীয়ে এখন জাৰ্মান চহৰ বিভক্ত কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Berlin Wall",
+     "as": "বাৰ্লিন প্ৰাচীৰ"
+    },
+    {
+     "en": "The Great Wall",
+     "as": "মহাপ্ৰাচীৰ"
+    },
+    {
+     "en": "The Iron Curtain",
+     "as": "লৌহ পৰ্দা"
+    },
+    {
+     "en": "The Maginot Line",
+     "as": "মেজিন'ট ৰেখা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Berlin Wall divided the German city of Berlin during the Cold War.",
+    "as": "শীতল যুদ্ধৰ সময়ত বাৰ্লিন প্ৰাচীৰে জাৰ্মান চহৰ বাৰ্লিন বিভক্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-213",
+   "q": {
+    "en": "In which year did the Berlin Wall fall?",
+    "as": "বাৰ্লিন প্ৰাচীৰ কিমান চনত পৰি গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1989 CE",
+     "as": "১৯৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1991 CE",
+     "as": "১৯৯১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1990 CE",
+     "as": "১৯৯০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Berlin Wall fell in 1989 CE.",
+    "as": "বাৰ্লিন প্ৰাচীৰ ১৯৮৯ খ্ৰীষ্টাব্দত পৰি গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-214",
+   "q": {
+    "en": "In which year did the Soviet Union disintegrate?",
+    "as": "ছোভিয়েট সংঘ কিমান চনত বিভাজিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1991 CE",
+     "as": "১৯৯১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1989 CE",
+     "as": "১৯৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1993 CE",
+     "as": "১৯৯৩ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Soviet Union disintegrated in 1991 CE.",
+    "as": "ছোভিয়েট সংঘ ১৯৯১ খ্ৰীষ্টাব্দত বিভাজিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-215",
+   "q": {
+    "en": "Who was the leader of the Soviet Union during its disintegration?",
+    "as": "ছোভিয়েট সংঘৰ বিভাজনৰ সময়ত ইয়াৰ নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Mikhail Gorbachev",
+     "as": "মিখাইল গৰ্বাচেভ"
+    },
+    {
+     "en": "Joseph Stalin",
+     "as": "জোচেফ ষ্টালিন"
+    },
+    {
+     "en": "Vladimir Lenin",
+     "as": "ভ্লাডিমিৰ লেনিন"
+    },
+    {
+     "en": "Nikita Khrushchev",
+     "as": "নিকিটা খ্ৰুশ্চেভ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mikhail Gorbachev was the leader of the Soviet Union during its disintegration.",
+    "as": "মিখাইল গৰ্বাচেভ ছোভিয়েট সংঘৰ বিভাজনৰ সময়ত ইয়াৰ নেতা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-216",
+   "q": {
+    "en": "Who was the first man to walk on the moon?",
+    "as": "চন্দ্ৰত খোজ কঢ়া প্ৰথম মানুহ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Neil Armstrong",
+     "as": "নীল আৰ্মষ্ট্ৰং"
+    },
+    {
+     "en": "Buzz Aldrin",
+     "as": "বাজ এলড্ৰিন"
+    },
+    {
+     "en": "Yuri Gagarin",
+     "as": "য়ুৰি গাগাৰিন"
+    },
+    {
+     "en": "John Glenn",
+     "as": "জন গ্লেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Neil Armstrong was the first man to walk on the moon.",
+    "as": "নীল আৰ্মষ্ট্ৰং চন্দ্ৰত খোজ কঢ়া প্ৰথম মানুহ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-217",
+   "q": {
+    "en": "In which year did man first land on the moon?",
+    "as": "মানুহে প্ৰথমে কিমান চনত চন্দ্ৰত অৱতৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "1969 CE",
+     "as": "১৯৬৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1961 CE",
+     "as": "১৯৬১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1972 CE",
+     "as": "১৯৭২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1957 CE",
+     "as": "১৯৫৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Man first landed on the moon in 1969 CE.",
+    "as": "মানুহে প্ৰথমে ১৯৬৯ খ্ৰীষ্টাব্দত চন্দ্ৰত অৱতৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-218",
+   "q": {
+    "en": "Who was the first man in space?",
+    "as": "মহাকাশত প্ৰথম মানুহ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Yuri Gagarin",
+     "as": "য়ুৰি গাগাৰিন"
+    },
+    {
+     "en": "Neil Armstrong",
+     "as": "নীল আৰ্মষ্ট্ৰং"
+    },
+    {
+     "en": "Buzz Aldrin",
+     "as": "বাজ এলড্ৰিন"
+    },
+    {
+     "en": "John Glenn",
+     "as": "জন গ্লেন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Yuri Gagarin was the first man in space.",
+    "as": "য়ুৰি গাগাৰিন মহাকাশত প্ৰথম মানুহ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-219",
+   "q": {
+    "en": "In which year did the first man go into space?",
+    "as": "প্ৰথম মানুহ কিমান চনত মহাকাশলৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1961 CE",
+     "as": "১৯৬১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1969 CE",
+     "as": "১৯৬৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1957 CE",
+     "as": "১৯৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1972 CE",
+     "as": "১৯৭২ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The first man went into space in 1961 CE.",
+    "as": "প্ৰথম মানুহ ১৯৬১ খ্ৰীষ্টাব্দত মহাকাশলৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-220",
+   "q": {
+    "en": "Which country launched the first artificial satellite?",
+    "as": "প্ৰথম কৃত্ৰিম উপগ্ৰহ কোন দেশে উৎক্ষেপণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Soviet Union",
+     "as": "ছোভিয়েট সংঘ"
+    },
+    {
+     "en": "The United States",
+     "as": "সংযুক্ত ৰাষ্ট্ৰ"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Soviet Union launched the first artificial satellite, Sputnik.",
+    "as": "ছোভিয়েট সংঘে প্ৰথম কৃত্ৰিম উপগ্ৰহ, স্পুটনিক, উৎক্ষেপণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-221",
+   "q": {
+    "en": "What was the name of the first artificial satellite?",
+    "as": "প্ৰথম কৃত্ৰিম উপগ্ৰহৰ নাম কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "Sputnik",
+     "as": "স্পুটনিক"
+    },
+    {
+     "en": "Apollo",
+     "as": "এপল'"
+    },
+    {
+     "en": "Vostok",
+     "as": "ভষ্টক"
+    },
+    {
+     "en": "Explorer",
+     "as": "এক্সপ্ল'ৰাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sputnik was the name of the first artificial satellite.",
+    "as": "স্পুটনিক প্ৰথম কৃত্ৰিম উপগ্ৰহৰ নাম আছিল।"
+   }
+  },
+  {
+   "id": "world-history-222",
+   "q": {
+    "en": "In which year did the French Revolution end with Napoleon's rise?",
+    "as": "নেপোলিয়নৰ উত্থানৰ সৈতে ফৰাচী বিপ্লৱ কিমান চনত অন্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1799 CE",
+     "as": "১৭৯৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1789 CE",
+     "as": "১৭৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1815 CE",
+     "as": "১৮১৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1776 CE",
+     "as": "১৭৭৬ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The French Revolution ended with Napoleon's rise in 1799 CE.",
+    "as": "নেপোলিয়নৰ উত্থানৰ সৈতে ফৰাচী বিপ্লৱ ১৭৯৯ খ্ৰীষ্টাব্দত অন্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-223",
+   "q": {
+    "en": "Who was the leader of the unification of Italy?",
+    "as": "ইটালীৰ একীকৰণৰ নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Giuseppe Garibaldi",
+     "as": "জিউচেপ্পে গেৰিবাল্ডি"
+    },
+    {
+     "en": "Otto von Bismarck",
+     "as": "অট' ভন বিছমাৰ্ক"
+    },
+    {
+     "en": "Napoleon III",
+     "as": "নেপোলিয়ন তৃতীয়"
+    },
+    {
+     "en": "Metternich",
+     "as": "মেটাৰনিক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Giuseppe Garibaldi was a leader of the unification of Italy.",
+    "as": "জিউচেপ্পে গেৰিবাল্ডি ইটালীৰ একীকৰণৰ এজন নেতা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-224",
+   "q": {
+    "en": "Who was the leader of the unification of Germany?",
+    "as": "জাৰ্মানীৰ একীকৰণৰ নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Otto von Bismarck",
+     "as": "অট' ভন বিছমাৰ্ক"
+    },
+    {
+     "en": "Giuseppe Garibaldi",
+     "as": "জিউচেপ্পে গেৰিবাল্ডি"
+    },
+    {
+     "en": "Napoleon III",
+     "as": "নেপোলিয়ন তৃতীয়"
+    },
+    {
+     "en": "Kaiser Wilhelm I",
+     "as": "কাইজাৰ উইলহেলম প্ৰথম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Otto von Bismarck was the leader of the unification of Germany.",
+    "as": "অট' ভন বিছমাৰ্ক জাৰ্মানীৰ একীকৰণৰ নেতা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-225",
+   "q": {
+    "en": "Who was known as the 'Iron Chancellor'?",
+    "as": "কাক 'লৌহ চাঞ্চেলৰ' বুলি জনা গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Otto von Bismarck",
+     "as": "অট' ভন বিছমাৰ্ক"
+    },
+    {
+     "en": "Giuseppe Garibaldi",
+     "as": "জিউচেপ্পে গেৰিবাল্ডি"
+    },
+    {
+     "en": "Metternich",
+     "as": "মেটাৰনিক"
+    },
+    {
+     "en": "Napoleon III",
+     "as": "নেপোলিয়ন তৃতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Otto von Bismarck was known as the Iron Chancellor.",
+    "as": "অট' ভন বিছমাৰ্কক লৌহ চাঞ্চেলৰ বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-226",
+   "q": {
+    "en": "Who was the first Chancellor of the German Empire?",
+    "as": "জাৰ্মান সাম্ৰাজ্যৰ প্ৰথম চাঞ্চেলৰ কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Otto von Bismarck",
+     "as": "অট' ভন বিছমাৰ্ক"
+    },
+    {
+     "en": "Kaiser Wilhelm I",
+     "as": "কাইজাৰ উইলহেলম প্ৰথম"
+    },
+    {
+     "en": "Adolf Hitler",
+     "as": "এডলফ হিটলাৰ"
+    },
+    {
+     "en": "Metternich",
+     "as": "মেটাৰনিক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Otto von Bismarck was the first Chancellor of the German Empire.",
+    "as": "অট' ভন বিছমাৰ্ক জাৰ্মান সাম্ৰাজ্যৰ প্ৰথম চাঞ্চেলৰ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-227",
+   "q": {
+    "en": "Who was the first emperor of united Germany?",
+    "as": "সংযুক্ত জাৰ্মানীৰ প্ৰথম সম্ৰাট কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Kaiser Wilhelm I",
+     "as": "কাইজাৰ উইলহেলম প্ৰথম"
+    },
+    {
+     "en": "Otto von Bismarck",
+     "as": "অট' ভন বিছমাৰ্ক"
+    },
+    {
+     "en": "Kaiser Wilhelm II",
+     "as": "কাইজাৰ উইলহেলম দ্বিতীয়"
+    },
+    {
+     "en": "Adolf Hitler",
+     "as": "এডলফ হিটলাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaiser Wilhelm I was the first emperor of united Germany.",
+    "as": "কাইজাৰ উইলহেলম প্ৰথম সংযুক্ত জাৰ্মানীৰ প্ৰথম সম্ৰাট আছিল।"
+   }
+  },
+  {
+   "id": "world-history-228",
+   "q": {
+    "en": "Who was the first king of united Italy?",
+    "as": "সংযুক্ত ইটালীৰ প্ৰথম ৰজা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Victor Emmanuel II",
+     "as": "ভিক্টৰ এম্মানুৱেল দ্বিতীয়"
+    },
+    {
+     "en": "Giuseppe Garibaldi",
+     "as": "জিউচেপ্পে গেৰিবাল্ডি"
+    },
+    {
+     "en": "Cavour",
+     "as": "কেভ'ৰ"
+    },
+    {
+     "en": "Mazzini",
+     "as": "মাজিনি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Victor Emmanuel II was the first king of united Italy.",
+    "as": "ভিক্টৰ এম্মানুৱেল দ্বিতীয় সংযুক্ত ইটালীৰ প্ৰথম ৰজা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-229",
+   "q": {
+    "en": "Who founded the Young Italy movement?",
+    "as": "ইয়ং ইটালী আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Giuseppe Mazzini",
+     "as": "জিউচেপ্পে মাজিনি"
+    },
+    {
+     "en": "Giuseppe Garibaldi",
+     "as": "জিউচেপ্পে গেৰিবাল্ডি"
+    },
+    {
+     "en": "Cavour",
+     "as": "কেভ'ৰ"
+    },
+    {
+     "en": "Victor Emmanuel II",
+     "as": "ভিক্টৰ এম্মানুৱেল দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Giuseppe Mazzini founded the Young Italy movement.",
+    "as": "জিউচেপ্পে মাজিনিয়ে ইয়ং ইটালী আন্দোলন প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-230",
+   "q": {
+    "en": "Who was the chief minister who helped unify Italy?",
+    "as": "ইটালী একীকৰণত সহায় কৰা প্ৰধানমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Count Cavour",
+     "as": "কাউণ্ট কেভ'ৰ"
+    },
+    {
+     "en": "Giuseppe Garibaldi",
+     "as": "জিউচেপ্পে গেৰিবাল্ডি"
+    },
+    {
+     "en": "Giuseppe Mazzini",
+     "as": "জিউচেপ্পে মাজিনি"
+    },
+    {
+     "en": "Victor Emmanuel II",
+     "as": "ভিক্টৰ এম্মানুৱেল দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Count Cavour was the chief minister who helped unify Italy.",
+    "as": "কাউণ্ট কেভ'ৰ ইটালী একীকৰণত সহায় কৰা প্ৰধানমন্ত্ৰী আছিল।"
+   }
+  },
+  {
+   "id": "world-history-231",
+   "q": {
+    "en": "Which revolution led to the independence of Latin American countries?",
+    "as": "কোন বিপ্লৱে লেটিন আমেৰিকান দেশসমূহৰ স্বাধীনতালৈ লৈ গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Latin American wars of independence",
+     "as": "লেটিন আমেৰিকান স্বাধীনতা যুদ্ধ"
+    },
+    {
+     "en": "The French Revolution",
+     "as": "ফৰাচী বিপ্লৱ"
+    },
+    {
+     "en": "The Russian Revolution",
+     "as": "ৰাছিয়ান বিপ্লৱ"
+    },
+    {
+     "en": "The Industrial Revolution",
+     "as": "শিল্প বিপ্লৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Latin American wars of independence led to the independence of Latin American countries.",
+    "as": "লেটিন আমেৰিকান স্বাধীনতা যুদ্ধই লেটিন আমেৰিকান দেশসমূহৰ স্বাধীনতালৈ লৈ গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-232",
+   "q": {
+    "en": "Who liberated much of South America from Spanish rule?",
+    "as": "স্পেনীয় শাসনৰ পৰা দক্ষিণ আমেৰিকাৰ বহুখিনি মুক্ত কৰিছিল কেৱে?"
+   },
+   "options": [
+    {
+     "en": "Simon Bolivar",
+     "as": "চিমন বলিভাৰ"
+    },
+    {
+     "en": "Jose de San Martin",
+     "as": "জ'চে দে ছান মাৰ্টিন"
+    },
+    {
+     "en": "Napoleon",
+     "as": "নেপোলিয়ন"
+    },
+    {
+     "en": "George Washington",
+     "as": "জৰ্জ ৱাশ্বিংটন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Simon Bolivar liberated much of South America from Spanish rule.",
+    "as": "চিমন বলিভাৰে স্পেনীয় শাসনৰ পৰা দক্ষিণ আমেৰিকাৰ বহুখিনি মুক্ত কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-233",
+   "q": {
+    "en": "Who is known as the 'Liberator' of South America?",
+    "as": "দক্ষিণ আমেৰিকাৰ 'মুক্তিদাতা' কাক বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Simon Bolivar",
+     "as": "চিমন বলিভাৰ"
+    },
+    {
+     "en": "Jose de San Martin",
+     "as": "জ'চে দে ছান মাৰ্টিন"
+    },
+    {
+     "en": "Napoleon",
+     "as": "নেপোলিয়ন"
+    },
+    {
+     "en": "Garibaldi",
+     "as": "গেৰিবাল্ডি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Simon Bolivar is known as the Liberator of South America.",
+    "as": "চিমন বলিভাৰক দক্ষিণ আমেৰিকাৰ মুক্তিদাতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-234",
+   "q": {
+    "en": "Which country was the first to grant women the right to vote?",
+    "as": "মহিলাসকলক ভোটাধিকাৰ দিয়া প্ৰথম দেশ কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "New Zealand",
+     "as": "নিউজিলেণ্ড"
+    },
+    {
+     "en": "United States",
+     "as": "সংযুক্ত ৰাষ্ট্ৰ"
+    },
+    {
+     "en": "Britain",
+     "as": "ব্ৰিটেইন"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "New Zealand was the first country to grant women the right to vote.",
+    "as": "নিউজিলেণ্ড মহিলাসকলক ভোটাধিকাৰ দিয়া প্ৰথম দেশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-235",
+   "q": {
+    "en": "Who was the leader of the women's suffrage movement in Britain?",
+    "as": "ব্ৰিটেইনত মহিলা ভোটাধিকাৰ আন্দোলনৰ নেতা কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Emmeline Pankhurst",
+     "as": "এমেলিন পাংখাৰ্ষ্ট"
+    },
+    {
+     "en": "Marie Curie",
+     "as": "মেৰী কুৰী"
+    },
+    {
+     "en": "Queen Victoria",
+     "as": "ৰাণী ভিক্টোৰিয়া"
+    },
+    {
+     "en": "Florence Nightingale",
+     "as": "ফ্লৰেন্স নাইটিংগেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Emmeline Pankhurst was a leader of the women's suffrage movement in Britain.",
+    "as": "এমেলিন পাংখাৰ্ষ্ট ব্ৰিটেইনত মহিলা ভোটাধিকাৰ আন্দোলনৰ এগৰাকী নেতা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-236",
+   "q": {
+    "en": "Who is known as the founder of modern nursing?",
+    "as": "আধুনিক নাৰ্চিংৰ প্ৰতিষ্ঠাপক কাক বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Florence Nightingale",
+     "as": "ফ্লৰেন্স নাইটিংগেল"
+    },
+    {
+     "en": "Marie Curie",
+     "as": "মেৰী কুৰী"
+    },
+    {
+     "en": "Emmeline Pankhurst",
+     "as": "এমেলিন পাংখাৰ্ষ্ট"
+    },
+    {
+     "en": "Queen Victoria",
+     "as": "ৰাণী ভিক্টোৰিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Florence Nightingale is known as the founder of modern nursing.",
+    "as": "ফ্লৰেন্স নাইটিংগেলক আধুনিক নাৰ্চিংৰ প্ৰতিষ্ঠাপক বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-237",
+   "q": {
+    "en": "Who was the longest-reigning British monarch?",
+    "as": "সৰ্বাধিক দিন শাসন কৰা ব্ৰিটিছ ৰাজশাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Queen Elizabeth II",
+     "as": "ৰাণী এলিজাবেথ দ্বিতীয়"
+    },
+    {
+     "en": "Queen Victoria",
+     "as": "ৰাণী ভিক্টোৰিয়া"
+    },
+    {
+     "en": "King George VI",
+     "as": "ৰজা জৰ্জ ষষ্ঠ"
+    },
+    {
+     "en": "King Edward VII",
+     "as": "ৰজা এডৱাৰ্ড সপ্তম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Queen Elizabeth II was the longest-reigning British monarch.",
+    "as": "ৰাণী এলিজাবেথ দ্বিতীয় সৰ্বাধিক দিন শাসন কৰা ব্ৰিটিছ ৰাজশাসক আছিল।"
+   }
+  },
+  {
+   "id": "world-history-238",
+   "q": {
+    "en": "Who was the British monarch during the Second World War?",
+    "as": "দ্বিতীয় বিশ্বযুদ্ধৰ সময়ত ব্ৰিটিছ ৰাজশাসক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "King George VI",
+     "as": "ৰজা জৰ্জ ষষ্ঠ"
+    },
+    {
+     "en": "Queen Victoria",
+     "as": "ৰাণী ভিক্টোৰিয়া"
+    },
+    {
+     "en": "King Edward VIII",
+     "as": "ৰজা এডৱাৰ্ড অষ্টম"
+    },
+    {
+     "en": "Queen Elizabeth II",
+     "as": "ৰাণী এলিজাবেথ দ্বিতীয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "King George VI was the British monarch during the Second World War.",
+    "as": "ৰজা জৰ্জ ষষ্ঠ দ্বিতীয় বিশ্বযুদ্ধৰ সময়ত ব্ৰিটিছ ৰাজশাসক আছিল।"
+   }
+  },
+  {
+   "id": "world-history-239",
+   "q": {
+    "en": "Which country was ruled by the Tokugawa shogunate?",
+    "as": "টোকুগাৱা চোগুনেটে কোন দেশ শাসন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Japan",
+     "as": "জাপান"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "Korea",
+     "as": "কোৰিয়া"
+    },
+    {
+     "en": "Vietnam",
+     "as": "ভিয়েটনাম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Japan was ruled by the Tokugawa shogunate.",
+    "as": "জাপান টোকুগাৱা চোগুনেটে শাসন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-240",
+   "q": {
+    "en": "Which revolution modernised Japan in the 19th century?",
+    "as": "১৯ শতিকাত কোন বিপ্লৱে জাপানক আধুনিকীকৰণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Meiji Restoration",
+     "as": "মেইজি পুনৰুদ্ধাৰ"
+    },
+    {
+     "en": "The French Revolution",
+     "as": "ফৰাচী বিপ্লৱ"
+    },
+    {
+     "en": "The Russian Revolution",
+     "as": "ৰাছিয়ান বিপ্লৱ"
+    },
+    {
+     "en": "The Chinese Revolution",
+     "as": "চীনা বিপ্লৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Meiji Restoration modernised Japan in the 19th century.",
+    "as": "মেইজি পুনৰুদ্ধাৰে ১৯ শতিকাত জাপানক আধুনিকীকৰণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-241",
+   "q": {
+    "en": "In which year did the Meiji Restoration take place?",
+    "as": "মেইজি পুনৰুদ্ধাৰ কিমান চনত সংঘটিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1868 CE",
+     "as": "১৮৬৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1885 CE",
+     "as": "১৮৮৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1900 CE",
+     "as": "১৯০০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Meiji Restoration took place in 1868 CE.",
+    "as": "মেইজি পুনৰুদ্ধাৰ ১৮৬৮ খ্ৰীষ্টাব্দত সংঘটিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-242",
+   "q": {
+    "en": "Which Chinese dynasty was overthrown in 1912?",
+    "as": "১৯১২ চনত কোন চীনা ৰাজবংশ উৎখাত কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Qing dynasty",
+     "as": "চিং ৰাজবংশ"
+    },
+    {
+     "en": "The Ming dynasty",
+     "as": "মিং ৰাজবংশ"
+    },
+    {
+     "en": "The Han dynasty",
+     "as": "হান ৰাজবংশ"
+    },
+    {
+     "en": "The Tang dynasty",
+     "as": "টাং ৰাজবংশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Qing dynasty was overthrown in 1912.",
+    "as": "১৯১২ চনত চিং ৰাজবংশ উৎখাত কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-243",
+   "q": {
+    "en": "Who founded the Republic of China?",
+    "as": "চীন গণৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Sun Yat-sen",
+     "as": "চুন য়াত-ছেন"
+    },
+    {
+     "en": "Mao Zedong",
+     "as": "মাও চে-তুং"
+    },
+    {
+     "en": "Chiang Kai-shek",
+     "as": "চিয়াং কাই-শ্বেক"
+    },
+    {
+     "en": "Confucius",
+     "as": "কনফুছিয়াছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sun Yat-sen founded the Republic of China.",
+    "as": "চুন য়াত-ছেনে চীন গণৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-244",
+   "q": {
+    "en": "Who led the Chinese Communist Revolution?",
+    "as": "চীনা কমিউনিষ্ট বিপ্লৱৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mao Zedong",
+     "as": "মাও চে-তুং"
+    },
+    {
+     "en": "Sun Yat-sen",
+     "as": "চুন য়াত-ছেন"
+    },
+    {
+     "en": "Chiang Kai-shek",
+     "as": "চিয়াং কাই-শ্বেক"
+    },
+    {
+     "en": "Deng Xiaoping",
+     "as": "তেং চিয়াও-পিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mao Zedong led the Chinese Communist Revolution.",
+    "as": "মাও চে-তুঙে চীনা কমিউনিষ্ট বিপ্লৱৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-245",
+   "q": {
+    "en": "In which year was the People's Republic of China founded?",
+    "as": "চীন গণৰাজ্য (পিপলছ ৰিপাব্লিক) কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1949 CE",
+     "as": "১৯৪৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1912 CE",
+     "as": "১৯১২ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1950 CE",
+     "as": "১৯৫০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The People's Republic of China was founded in 1949 CE.",
+    "as": "চীন গণৰাজ্য ১৯৪৯ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-246",
+   "q": {
+    "en": "Who led the Indian independence movement against British rule?",
+    "as": "ব্ৰিটিছ শাসনৰ বিৰুদ্ধে ভাৰতীয় স্বাধীনতা আন্দোলনৰ নেতৃত্ব কোনে দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Mahatma Gandhi",
+     "as": "মহাত্মা গান্ধী"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "as": "সুভাষ চন্দ্ৰ বসু"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "as": "জৱাহৰলাল নেহৰু"
+    },
+    {
+     "en": "Sardar Patel",
+     "as": "ছৰ্দাৰ পেটেল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mahatma Gandhi led the Indian independence movement against British rule.",
+    "as": "মহাত্মা গান্ধীয়ে ব্ৰিটিছ শাসনৰ বিৰুদ্ধে ভাৰতীয় স্বাধীনতা আন্দোলনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-247",
+   "q": {
+    "en": "Which African leader led the anti-apartheid movement?",
+    "as": "কোন আফ্ৰিকান নেতাই বৰ্ণবৈষম্য বিৰোধী আন্দোলনৰ নেতৃত্ব দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Nelson Mandela",
+     "as": "নেলছন মেণ্ডেলা"
+    },
+    {
+     "en": "Kwame Nkrumah",
+     "as": "কোৱামে ন্ক্ৰুমা"
+    },
+    {
+     "en": "Julius Nyerere",
+     "as": "জুলিয়াছ নাইৰেৰে"
+    },
+    {
+     "en": "Jomo Kenyatta",
+     "as": "জ'ম' কেনিয়াটা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nelson Mandela led the anti-apartheid movement in South Africa.",
+    "as": "নেলছন মেণ্ডেলাই দক্ষিণ আফ্ৰিকাত বৰ্ণবৈষম্য বিৰোধী আন্দোলনৰ নেতৃত্ব দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-248",
+   "q": {
+    "en": "In which year did Nelson Mandela become President of South Africa?",
+    "as": "নেলছন মেণ্ডেলা কিমান চনত দক্ষিণ আফ্ৰিকাৰ ৰাষ্ট্ৰপতি হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1994 CE",
+     "as": "১৯৯৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1990 CE",
+     "as": "১৯৯০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1989 CE",
+     "as": "১৯৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2000 CE",
+     "as": "২০০০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nelson Mandela became President of South Africa in 1994 CE.",
+    "as": "নেলছন মেণ্ডেলা ১৯৯৪ খ্ৰীষ্টাব্দত দক্ষিণ আফ্ৰিকাৰ ৰাষ্ট্ৰপতি হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-249",
+   "q": {
+    "en": "Which country was the first to industrialise in Asia?",
+    "as": "এছিয়াত প্ৰথমে কোন দেশে শিল্পায়ন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Japan",
+     "as": "জাপান"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
+     "en": "Korea",
+     "as": "কোৰিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Japan was the first country to industrialise in Asia.",
+    "as": "জাপান এছিয়াত প্ৰথমে শিল্পায়ন কৰা দেশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-250",
+   "q": {
+    "en": "Which war was fought between North and South Korea?",
+    "as": "উত্তৰ আৰু দক্ষিণ কোৰিয়াৰ মাজত কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Korean War",
+     "as": "কোৰিয়া যুদ্ধ"
+    },
+    {
+     "en": "The Vietnam War",
+     "as": "ভিয়েটনাম যুদ্ধ"
+    },
+    {
+     "en": "The Cold War",
+     "as": "শীতল যুদ্ধ"
+    },
+    {
+     "en": "The Chinese Civil War",
+     "as": "চীনা গৃহযুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Korean War was fought between North and South Korea.",
+    "as": "কোৰিয়া যুদ্ধ উত্তৰ আৰু দক্ষিণ কোৰিয়াৰ মাজত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-251",
+   "q": {
+    "en": "In which decade was the Korean War fought?",
+    "as": "কোৰিয়া যুদ্ধ কোন দশকত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The 1950s",
+     "as": "১৯৫০ৰ দশকত"
+    },
+    {
+     "en": "The 1940s",
+     "as": "১৯৪০ৰ দশকত"
+    },
+    {
+     "en": "The 1960s",
+     "as": "১৯৬০ৰ দশকত"
+    },
+    {
+     "en": "The 1970s",
+     "as": "১৯৭০ৰ দশকত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Korean War was fought in the 1950s.",
+    "as": "কোৰিয়া যুদ্ধ ১৯৫০ৰ দশকত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-252",
+   "q": {
+    "en": "Which war was fought between North and South Vietnam?",
+    "as": "উত্তৰ আৰু দক্ষিণ ভিয়েটনামৰ মাজত কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The Vietnam War",
+     "as": "ভিয়েটনাম যুদ্ধ"
+    },
+    {
+     "en": "The Korean War",
+     "as": "কোৰিয়া যুদ্ধ"
+    },
+    {
+     "en": "The Cold War",
+     "as": "শীতল যুদ্ধ"
+    },
+    {
+     "en": "The Chinese Civil War",
+     "as": "চীনা গৃহযুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Vietnam War was fought between North and South Vietnam.",
+    "as": "ভিয়েটনাম যুদ্ধ উত্তৰ আৰু দক্ষিণ ভিয়েটনামৰ মাজত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-253",
+   "q": {
+    "en": "Which organisation was founded to promote European unity?",
+    "as": "ইউৰোপীয় ঐক্য প্ৰসাৰৰ বাবে কোন সংগঠন প্ৰতিষ্ঠা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The European Union",
+     "as": "ইউৰোপীয় সংঘ"
+    },
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "The United Nations",
+     "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ"
+    },
+    {
+     "en": "The League of Nations",
+     "as": "লীগ অৱ নেশ্যনছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The European Union was founded to promote European unity.",
+    "as": "ইউৰোপীয় ঐক্য প্ৰসাৰৰ বাবে ইউৰোপীয় সংঘ প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-254",
+   "q": {
+    "en": "Which military alliance was formed during the Cold War?",
+    "as": "শীতল যুদ্ধৰ সময়ত কোন সামৰিক মিত্ৰজোঁট গঠন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "The United Nations",
+     "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ"
+    },
+    {
+     "en": "The European Union",
+     "as": "ইউৰোপীয় সংঘ"
+    },
+    {
+     "en": "The League of Nations",
+     "as": "লীগ অৱ নেশ্যনছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "NATO was formed during the Cold War.",
+    "as": "শীতল যুদ্ধৰ সময়ত নেট' গঠন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-255",
+   "q": {
+    "en": "Which military alliance was formed by the Soviet bloc?",
+    "as": "ছোভিয়েট গোটে কোন সামৰিক মিত্ৰজোঁট গঠন কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Warsaw Pact",
+     "as": "ৱাৰ্ছ' চুক্তি"
+    },
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "The United Nations",
+     "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ"
+    },
+    {
+     "en": "The European Union",
+     "as": "ইউৰোপীয় সংঘ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Warsaw Pact was formed by the Soviet bloc.",
+    "as": "ছোভিয়েট গোটে ৱাৰ্ছ' চুক্তি গঠন কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-256",
+   "q": {
+    "en": "Which organisation works for world health?",
+    "as": "বিশ্ব স্বাস্থ্যৰ বাবে কোন সংগঠনে কাম কৰে?"
+   },
+   "options": [
+    {
+     "en": "The World Health Organization",
+     "as": "বিশ্ব স্বাস্থ্য সংস্থা"
+    },
+    {
+     "en": "UNESCO",
+     "as": "ইউনেস্ক'"
+    },
+    {
+     "en": "UNICEF",
+     "as": "ইউনিচেফ"
+    },
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The World Health Organization works for world health.",
+    "as": "বিশ্ব স্বাস্থ্য সংস্থাই বিশ্ব স্বাস্থ্যৰ বাবে কাম কৰে।"
+   }
+  },
+  {
+   "id": "world-history-257",
+   "q": {
+    "en": "Which organisation works for children's welfare?",
+    "as": "শিশু কল্যাণৰ বাবে কোন সংগঠনে কাম কৰে?"
+   },
+   "options": [
+    {
+     "en": "UNICEF",
+     "as": "ইউনিচেফ"
+    },
+    {
+     "en": "The World Health Organization",
+     "as": "বিশ্ব স্বাস্থ্য সংস্থা"
+    },
+    {
+     "en": "UNESCO",
+     "as": "ইউনেস্ক'"
+    },
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "UNICEF works for children's welfare.",
+    "as": "ইউনিচেফে শিশু কল্যাণৰ বাবে কাম কৰে।"
+   }
+  },
+  {
+   "id": "world-history-258",
+   "q": {
+    "en": "Which organisation works for education, science and culture?",
+    "as": "শিক্ষা, বিজ্ঞান আৰু সংস্কৃতিৰ বাবে কোন সংগঠনে কাম কৰে?"
+   },
+   "options": [
+    {
+     "en": "UNESCO",
+     "as": "ইউনেস্ক'"
+    },
+    {
+     "en": "UNICEF",
+     "as": "ইউনিচেফ"
+    },
+    {
+     "en": "The World Health Organization",
+     "as": "বিশ্ব স্বাস্থ্য সংস্থা"
+    },
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "UNESCO works for education, science and culture.",
+    "as": "ইউনেস্ক'ই শিক্ষা, বিজ্ঞান আৰু সংস্কৃতিৰ বাবে কাম কৰে।"
+   }
+  },
+  {
+   "id": "world-history-259",
+   "q": {
+    "en": "Which organisation provides financial assistance to countries?",
+    "as": "দেশসমূহক আৰ্থিক সহায় প্ৰদান কৰে কোন সংগঠনে?"
+   },
+   "options": [
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    },
+    {
+     "en": "UNESCO",
+     "as": "ইউনেস্ক'"
+    },
+    {
+     "en": "UNICEF",
+     "as": "ইউনিচেফ"
+    },
+    {
+     "en": "The World Health Organization",
+     "as": "বিশ্ব স্বাস্থ্য সংস্থা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The World Bank provides financial assistance to countries.",
+    "as": "বিশ্ব বেংকে দেশসমূহক আৰ্থিক সহায় প্ৰদান কৰে।"
+   }
+  },
+  {
+   "id": "world-history-260",
+   "q": {
+    "en": "Which organisation settles international trade disputes?",
+    "as": "আন্তৰ্জাতিক বাণিজ্য বিবাদ নিষ্পত্তি কৰে কোন সংগঠনে?"
+   },
+   "options": [
+    {
+     "en": "The World Trade Organization",
+     "as": "বিশ্ব বাণিজ্য সংস্থা"
+    },
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    },
+    {
+     "en": "UNESCO",
+     "as": "ইউনেস্ক'"
+    },
+    {
+     "en": "The United Nations",
+     "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The World Trade Organization settles international trade disputes.",
+    "as": "বিশ্ব বাণিজ্য সংস্থাই আন্তৰ্জাতিক বাণিজ্য বিবাদ নিষ্পত্তি কৰে।"
+   }
+  },
+  {
+   "id": "world-history-261",
+   "q": {
+    "en": "In which year was the World Trade Organization founded?",
+    "as": "বিশ্ব বাণিজ্য সংস্থা কিমান চনত প্ৰতিষ্ঠা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1995 CE",
+     "as": "১৯৯৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1989 CE",
+     "as": "১৯৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "2000 CE",
+     "as": "২০০০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The World Trade Organization was founded in 1995 CE.",
+    "as": "বিশ্ব বাণিজ্য সংস্থা ১৯৯৫ খ্ৰীষ্টাব্দত প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-262",
+   "q": {
+    "en": "Which organisation was founded to protect human rights?",
+    "as": "মানৱ অধিকাৰ সুৰক্ষাৰ বাবে কোন সংগঠন প্ৰতিষ্ঠা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Amnesty International",
+     "as": "এম্নেষ্টি ইণ্টাৰনেশ্যনেল"
+    },
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    },
+    {
+     "en": "OPEC",
+     "as": "অ'পেক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amnesty International was founded to protect human rights.",
+    "as": "মানৱ অধিকাৰ সুৰক্ষাৰ বাবে এম্নেষ্টি ইণ্টাৰনেশ্যনেল প্ৰতিষ্ঠা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-263",
+   "q": {
+    "en": "Which organisation of oil-producing countries controls oil prices?",
+    "as": "তেল উৎপাদনকাৰী দেশসমূহৰ কোন সংগঠনে তেলৰ মূল্য নিয়ন্ত্ৰণ কৰে?"
+   },
+   "options": [
+    {
+     "en": "OPEC",
+     "as": "অ'পেক"
+    },
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "UNESCO",
+     "as": "ইউনেস্ক'"
+    },
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "OPEC is the organisation of oil-producing countries.",
+    "as": "অ'পেক তেল উৎপাদনকাৰী দেশসমূহৰ সংগঠন।"
+   }
+  },
+  {
+   "id": "world-history-264",
+   "q": {
+    "en": "Which international court is at The Hague?",
+    "as": "কোন আন্তৰ্জাতিক ন্যায়ালয় দ্য হেগত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "The International Court of Justice",
+     "as": "আন্তৰ্জাতিক ন্যায়ালয়"
+    },
+    {
+     "en": "The Supreme Court",
+     "as": "উচ্চতম ন্যায়ালয়"
+    },
+    {
+     "en": "The High Court",
+     "as": "উচ্চ ন্যায়ালয়"
+    },
+    {
+     "en": "The Federal Court",
+     "as": "সংঘীয় ন্যায়ালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The International Court of Justice is at The Hague.",
+    "as": "আন্তৰ্জাতিক ন্যায়ালয় দ্য হেগত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "world-history-265",
+   "q": {
+    "en": "Which treaty established the International Criminal Court?",
+    "as": "কোন সন্ধিয়ে আন্তৰ্জাতিক অপৰাধ ন্যায়ালয় প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Rome Statute",
+     "as": "ৰোম সংবিধি"
+    },
+    {
+     "en": "The Treaty of Versailles",
+     "as": "ভাৰ্চাইৰ সন্ধি"
+    },
+    {
+     "en": "The Geneva Convention",
+     "as": "জেনেভা সন্মিলন"
+    },
+    {
+     "en": "The Treaty of Paris",
+     "as": "পেৰিছৰ সন্ধি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Rome Statute established the International Criminal Court.",
+    "as": "ৰোম সংবিধিয়ে আন্তৰ্জাতিক অপৰাধ ন্যায়ালয় প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-266",
+   "q": {
+    "en": "Which organisation replaced the League of Nations?",
+    "as": "লীগ অৱ নেশ্যনছৰ ঠাই লৈ কোন সংগঠন আহিছিল?"
+   },
+   "options": [
+    {
+     "en": "The United Nations",
+     "as": "সংযুক্ত ৰাষ্ট্ৰসংঘ"
+    },
+    {
+     "en": "NATO",
+     "as": "নেট'"
+    },
+    {
+     "en": "The European Union",
+     "as": "ইউৰোপীয় সংঘ"
+    },
+    {
+     "en": "The World Bank",
+     "as": "বিশ্ব বেংক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The United Nations replaced the League of Nations.",
+    "as": "লীগ অৱ নেশ্যনছৰ ঠাই লৈ সংযুক্ত ৰাষ্ট্ৰসংঘ আহিছিল।"
+   }
+  },
+  {
+   "id": "world-history-267",
+   "q": {
+    "en": "How many permanent members are there in the UN Security Council?",
+    "as": "ৰাষ্ট্ৰসংঘ নিৰাপত্তা পৰিষদত কিমানটা স্থায়ী সদস্য আছে?"
+   },
+   "options": [
+    {
+     "en": "Five",
+     "as": "পাঁচ"
+    },
+    {
+     "en": "Ten",
+     "as": "দহ"
+    },
+    {
+     "en": "Fifteen",
+     "as": "পোন্ধৰ"
+    },
+    {
+     "en": "Twenty",
+     "as": "বিশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "There are five permanent members in the UN Security Council.",
+    "as": "ৰাষ্ট্ৰসংঘ নিৰাপত্তা পৰিষদত পাঁচটা স্থায়ী সদস্য আছে।"
+   }
+  },
+  {
+   "id": "world-history-268",
+   "q": {
+    "en": "Which countries are the permanent members of the UN Security Council?",
+    "as": "ৰাষ্ট্ৰসংঘ নিৰাপত্তা পৰিষদৰ স্থায়ী সদস্য কোন দেশসমূহ?"
+   },
+   "options": [
+    {
+     "en": "The USA, UK, France, Russia and China",
+     "as": "আমেৰিকা, ব্ৰিটেইন, ফ্ৰান্স, ৰাছিয়া আৰু চীন"
+    },
+    {
+     "en": "India, Brazil, Germany and Japan",
+     "as": "ভাৰত, ব্ৰাজিল, জাৰ্মানী আৰু জাপান"
+    },
+    {
+     "en": "The USA, India, China and Russia",
+     "as": "আমেৰিকা, ভাৰত, চীন আৰু ৰাছিয়া"
+    },
+    {
+     "en": "The UK, France, India and Japan",
+     "as": "ব্ৰিটেইন, ফ্ৰান্স, ভাৰত আৰু জাপান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The permanent members of the UN Security Council are the USA, UK, France, Russia and China.",
+    "as": "ৰাষ্ট্ৰসংঘ নিৰাপত্তা পৰিষদৰ স্থায়ী সদস্যসকল আমেৰিকা, ব্ৰিটেইন, ফ্ৰান্স, ৰাছিয়া আৰু চীন।"
+   }
+  },
+  {
+   "id": "world-history-269",
+   "q": {
+    "en": "In which year was the Universal Declaration of Human Rights adopted?",
+    "as": "মানৱ অধিকাৰৰ সৰ্বজনীন ঘোষণাপত্ৰ কিমান চনত গৃহীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1948 CE",
+     "as": "১৯৪৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1945 CE",
+     "as": "১৯৪৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1950 CE",
+     "as": "১৯৫০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1960 CE",
+     "as": "১৯৬০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Universal Declaration of Human Rights was adopted in 1948 CE.",
+    "as": "মানৱ অধিকাৰৰ সৰ্বজনীন ঘোষণাপত্ৰ ১৯৪৮ খ্ৰীষ্টাব্দত গৃহীত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-270",
+   "q": {
+    "en": "In which year did the First World War end with an armistice?",
+    "as": "প্ৰথম বিশ্বযুদ্ধ কিমান চনত যুদ্ধবিৰতিৰে অন্ত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1918 CE",
+     "as": "১৯১৮ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1919 CE",
+     "as": "১৯১৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1917 CE",
+     "as": "১৯১৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The First World War ended with an armistice in 1918 CE.",
+    "as": "প্ৰথম বিশ্বযুদ্ধ ১৯১৮ খ্ৰীষ্টাব্দত যুদ্ধবিৰতিৰে অন্ত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-271",
+   "q": {
+    "en": "On which date is Armistice Day observed?",
+    "as": "কোন তাৰিখে যুদ্ধবিৰতি দিৱস পালন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "11 November",
+     "as": "১১ নৱেম্বৰ"
+    },
+    {
+     "en": "11 December",
+     "as": "১১ ডিচেম্বৰ"
+    },
+    {
+     "en": "1 November",
+     "as": "১ নৱেম্বৰ"
+    },
+    {
+     "en": "11 October",
+     "as": "১১ অক্টোবৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Armistice Day is observed on 11 November.",
+    "as": "যুদ্ধবিৰতি দিৱস ১১ নৱেম্বৰ তাৰিখে পালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "world-history-272",
+   "q": {
+    "en": "Which war is also known as the Great War?",
+    "as": "কোন যুদ্ধক মহাযুদ্ধ হিচাপেও জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The First World War",
+     "as": "প্ৰথম বিশ্বযুদ্ধ"
+    },
+    {
+     "en": "The Second World War",
+     "as": "দ্বিতীয় বিশ্বযুদ্ধ"
+    },
+    {
+     "en": "The Cold War",
+     "as": "শীতল যুদ্ধ"
+    },
+    {
+     "en": "The Crimean War",
+     "as": "ক্ৰিমিয়া যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The First World War is also known as the Great War.",
+    "as": "প্ৰথম বিশ্বযুদ্ধক মহাযুদ্ধ হিচাপেও জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-273",
+   "q": {
+    "en": "Which country was divided into East and West during the Cold War?",
+    "as": "শীতল যুদ্ধৰ সময়ত কোন দেশ পূব আৰু পশ্চিমত বিভক্ত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Germany",
+     "as": "জাৰ্মানী"
+    },
+    {
+     "en": "Korea",
+     "as": "কোৰিয়া"
+    },
+    {
+     "en": "Vietnam",
+     "as": "ভিয়েটনাম"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Germany was divided into East and West during the Cold War.",
+    "as": "শীতল যুদ্ধৰ সময়ত জাৰ্মানী পূব আৰু পশ্চিমত বিভক্ত আছিল।"
+   }
+  },
+  {
+   "id": "world-history-274",
+   "q": {
+    "en": "In which year was Germany reunified?",
+    "as": "জাৰ্মানী কিমান চনত পুনৰ একত্ৰিত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1990 CE",
+     "as": "১৯৯০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1989 CE",
+     "as": "১৯৮৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1991 CE",
+     "as": "১৯৯১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1985 CE",
+     "as": "১৯৮৫ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Germany was reunified in 1990 CE.",
+    "as": "জাৰ্মানী ১৯৯০ খ্ৰীষ্টাব্দত পুনৰ একত্ৰিত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-275",
+   "q": {
+    "en": "Who was the first President of the United States of America?",
+    "as": "আমেৰিকা যুক্তৰাষ্ট্ৰৰ প্ৰথম ৰাষ্ট্ৰপতি কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "George Washington",
+     "as": "জৰ্জ ৱাশ্বিংটন"
+    },
+    {
+     "en": "Thomas Jefferson",
+     "as": "থমাছ জেফাৰছন"
+    },
+    {
+     "en": "Abraham Lincoln",
+     "as": "আব্ৰাহাম লিংকন"
+    },
+    {
+     "en": "John Adams",
+     "as": "জন এডামছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "George Washington was the first President of the United States of America.",
+    "as": "জৰ্জ ৱাশ্বিংটন আমেৰিকা যুক্তৰাষ্ট্ৰৰ প্ৰথম ৰাষ্ট্ৰপতি আছিল।"
+   }
+  },
+  {
+   "id": "world-history-276",
+   "q": {
+    "en": "Who wrote 'Das Kapital'?",
+    "as": "'ডাস কেপিটাল' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Karl Marx",
+     "as": "কাৰ্ল মাৰ্ক্স"
+    },
+    {
+     "en": "Friedrich Engels",
+     "as": "ফ্ৰিডৰিখ এঙ্গেলছ"
+    },
+    {
+     "en": "Vladimir Lenin",
+     "as": "ভ্লাডিমিৰ লেনিন"
+    },
+    {
+     "en": "Adam Smith",
+     "as": "এডাম স্মিথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Karl Marx wrote Das Kapital.",
+    "as": "কাৰ্ল মাৰ্ক্সে ডাস কেপিটাল লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-277",
+   "q": {
+    "en": "Who wrote 'The Wealth of Nations'?",
+    "as": "'দ্য ৱেল্থ অৱ নেশ্যনছ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Adam Smith",
+     "as": "এডাম স্মিথ"
+    },
+    {
+     "en": "Karl Marx",
+     "as": "কাৰ্ল মাৰ্ক্স"
+    },
+    {
+     "en": "David Ricardo",
+     "as": "ডেভিড ৰিকাৰ্ড'"
+    },
+    {
+     "en": "John Keynes",
+     "as": "জন কেইনছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Adam Smith wrote The Wealth of Nations.",
+    "as": "এডাম স্মিথে দ্য ৱেল্থ অৱ নেশ্যনছ লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-278",
+   "q": {
+    "en": "Who is known as the 'Father of Economics'?",
+    "as": "কাক 'অৰ্থনীতিৰ পিতা' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Adam Smith",
+     "as": "এডাম স্মিথ"
+    },
+    {
+     "en": "Karl Marx",
+     "as": "কাৰ্ল মাৰ্ক্স"
+    },
+    {
+     "en": "David Ricardo",
+     "as": "ডেভিড ৰিকাৰ্ড'"
+    },
+    {
+     "en": "John Keynes",
+     "as": "জন কেইনছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Adam Smith is known as the Father of Economics.",
+    "as": "এডাম স্মিথক অৰ্থনীতিৰ পিতা বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-279",
+   "q": {
+    "en": "Who proposed the theory of surplus value?",
+    "as": "অতিপ্ৰাপ্তি মূল্যৰ তত্ত্ব কোনে প্ৰস্তাৱ দিছিল?"
+   },
+   "options": [
+    {
+     "en": "Karl Marx",
+     "as": "কাৰ্ল মাৰ্ক্স"
+    },
+    {
+     "en": "Adam Smith",
+     "as": "এডাম স্মিথ"
+    },
+    {
+     "en": "David Ricardo",
+     "as": "ডেভিড ৰিকাৰ্ড'"
+    },
+    {
+     "en": "John Keynes",
+     "as": "জন কেইনছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Karl Marx proposed the theory of surplus value.",
+    "as": "কাৰ্ল মাৰ্ক্সে অতিপ্ৰাপ্তি মূল্যৰ তত্ত্ব প্ৰস্তাৱ দিছিল।"
+   }
+  },
+  {
+   "id": "world-history-280",
+   "q": {
+    "en": "Which economic system advocates collective ownership of production?",
+    "as": "কোন অৰ্থনৈতিক ব্যৱস্থাই উৎপাদনৰ সমবায় মালিকীৰ সমৰ্থন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Socialism",
+     "as": "সমাজবাদ"
+    },
+    {
+     "en": "Capitalism",
+     "as": "পুঁজিবাদ"
+    },
+    {
+     "en": "Feudalism",
+     "as": "সামন্তবাদ"
+    },
+    {
+     "en": "Mercantilism",
+     "as": "বাণিজ্যবাদ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Socialism advocates collective ownership of production.",
+    "as": "সমাজবাদে উৎপাদনৰ সমবায় মালিকীৰ সমৰ্থন কৰে।"
+   }
+  },
+  {
+   "id": "world-history-281",
+   "q": {
+    "en": "Which economic system is based on private ownership?",
+    "as": "কোন অৰ্থনৈতিক ব্যৱস্থা ব্যক্তিগত মালিকীৰ ওপৰত আধাৰিত?"
+   },
+   "options": [
+    {
+     "en": "Capitalism",
+     "as": "পুঁজিবাদ"
+    },
+    {
+     "en": "Socialism",
+     "as": "সমাজবাদ"
+    },
+    {
+     "en": "Feudalism",
+     "as": "সামন্তবাদ"
+    },
+    {
+     "en": "Communism",
+     "as": "কমিউনিজম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Capitalism is based on private ownership.",
+    "as": "পুঁজিবাদ ব্যক্তিগত মালিকীৰ ওপৰত আধাৰিত।"
+   }
+  },
+  {
+   "id": "world-history-282",
+   "q": {
+    "en": "Which system prevailed in medieval Europe?",
+    "as": "মধ্যযুগীয় ইউৰোপত কোন ব্যৱস্থা প্ৰচলিত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Feudalism",
+     "as": "সামন্তবাদ"
+    },
+    {
+     "en": "Capitalism",
+     "as": "পুঁজিবাদ"
+    },
+    {
+     "en": "Socialism",
+     "as": "সমাজবাদ"
+    },
+    {
+     "en": "Communism",
+     "as": "কমিউনিজম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Feudalism prevailed in medieval Europe.",
+    "as": "মধ্যযুগীয় ইউৰোপত সামন্তবাদ প্ৰচলিত আছিল।"
+   }
+  },
+  {
+   "id": "world-history-283",
+   "q": {
+    "en": "Who were the knights in medieval Europe?",
+    "as": "মধ্যযুগীয় ইউৰোপত নাইটসকল কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Armoured warriors who served lords",
+     "as": "অভিজাতসকলক সেৱা কৰা সাঁজোৱা যোদ্ধা"
+    },
+    {
+     "en": "Peasant farmers",
+     "as": "কৃষক খেতিয়ক"
+    },
+    {
+     "en": "Merchants",
+     "as": "ব্যৱসায়ী"
+    },
+    {
+     "en": "Priests",
+     "as": "পুৰোহিত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Knights were armoured warriors who served lords in medieval Europe.",
+    "as": "নাইটসকল মধ্যযুগীয় ইউৰোপত অভিজাতসকলক সেৱা কৰা সাঁজোৱা যোদ্ধা আছিল।"
+   }
+  },
+  {
+   "id": "world-history-284",
+   "q": {
+    "en": "What was the Black Death?",
+    "as": "ক'লা মৃত্যু কি আছিল?"
+   },
+   "options": [
+    {
+     "en": "A deadly plague in medieval Europe",
+     "as": "মধ্যযুগীয় ইউৰোপত এটা মাৰাত্মক মহামাৰী"
+    },
+    {
+     "en": "A war in medieval Europe",
+     "as": "মধ্যযুগীয় ইউৰোপত এটা যুদ্ধ"
+    },
+    {
+     "en": "A famine in medieval Europe",
+     "as": "মধ্যযুগীয় ইউৰোপত এটা দুৰ্ভিক্ষ"
+    },
+    {
+     "en": "A flood in medieval Europe",
+     "as": "মধ্যযুগীয় ইউৰোপত এটা বানপানী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Black Death was a deadly plague in medieval Europe.",
+    "as": "ক'লা মৃত্যু মধ্যযুগীয় ইউৰোপত এটা মাৰাত্মক মহামাৰী আছিল।"
+   }
+  },
+  {
+   "id": "world-history-285",
+   "q": {
+    "en": "Which ocean lies between Europe and America?",
+    "as": "ইউৰোপ আৰু আমেৰিকাৰ মাজত কোন মহাসাগৰ অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "The Atlantic Ocean",
+     "as": "আটলাণ্টিক মহাসাগৰ"
+    },
+    {
+     "en": "The Pacific Ocean",
+     "as": "প্ৰশান্ত মহাসাগৰ"
+    },
+    {
+     "en": "The Indian Ocean",
+     "as": "ভাৰত মহাসাগৰ"
+    },
+    {
+     "en": "The Arctic Ocean",
+     "as": "উত্তৰ মহাসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Atlantic Ocean lies between Europe and America.",
+    "as": "ইউৰোপ আৰু আমেৰিকাৰ মাজত আটলাণ্টিক মহাসাগৰ অৱস্থিত।"
+   }
+  },
+  {
+   "id": "world-history-286",
+   "q": {
+    "en": "Which canal connects the Mediterranean Sea and the Red Sea?",
+    "as": "কোন খালে ভূমধ্যসাগৰ আৰু ৰঙা সাগৰ সংযোগ কৰে?"
+   },
+   "options": [
+    {
+     "en": "The Suez Canal",
+     "as": "চুৱেজ খাল"
+    },
+    {
+     "en": "The Panama Canal",
+     "as": "পানামা খাল"
+    },
+    {
+     "en": "The Kiel Canal",
+     "as": "কিল খাল"
+    },
+    {
+     "en": "The Grand Canal",
+     "as": "মহাখাল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Suez Canal connects the Mediterranean Sea and the Red Sea.",
+    "as": "চুৱেজ খালে ভূমধ্যসাগৰ আৰু ৰঙা সাগৰ সংযোগ কৰে।"
+   }
+  },
+  {
+   "id": "world-history-287",
+   "q": {
+    "en": "In which year was the Suez Canal opened?",
+    "as": "চুৱেজ খাল কিমান চনত মুকলি কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1869 CE",
+     "as": "১৮৬৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1859 CE",
+     "as": "১৮৫৯ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1875 CE",
+     "as": "১৮৭৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1900 CE",
+     "as": "১৯০০ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Suez Canal was opened in 1869 CE.",
+    "as": "চুৱেজ খাল ১৮৬৯ খ্ৰীষ্টাব্দত মুকলি কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-288",
+   "q": {
+    "en": "Which canal connects the Atlantic and Pacific Oceans?",
+    "as": "কোন খালে আটলাণ্টিক আৰু প্ৰশান্ত মহাসাগৰ সংযোগ কৰে?"
+   },
+   "options": [
+    {
+     "en": "The Panama Canal",
+     "as": "পানামা খাল"
+    },
+    {
+     "en": "The Suez Canal",
+     "as": "চুৱেজ খাল"
+    },
+    {
+     "en": "The Kiel Canal",
+     "as": "কিল খাল"
+    },
+    {
+     "en": "The Grand Canal",
+     "as": "মহাখাল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Panama Canal connects the Atlantic and Pacific Oceans.",
+    "as": "পানামা খালে আটলাণ্টিক আৰু প্ৰশান্ত মহাসাগৰ সংযোগ কৰে।"
+   }
+  },
+  {
+   "id": "world-history-289",
+   "q": {
+    "en": "In which year was the Panama Canal opened?",
+    "as": "পানামা খাল কিমান চনত মুকলি কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1914 CE",
+     "as": "১৯১৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1904 CE",
+     "as": "১৯০৪ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1920 CE",
+     "as": "১৯২০ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1899 CE",
+     "as": "১৮৯৯ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Panama Canal was opened in 1914 CE.",
+    "as": "পানামা খাল ১৯১৪ খ্ৰীষ্টাব্দত মুকলি কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-290",
+   "q": {
+    "en": "Which strait separates Asia from North America?",
+    "as": "কোন জলডুংগীয়ে এছিয়া আৰু উত্তৰ আমেৰিকা বিভক্ত কৰে?"
+   },
+   "options": [
+    {
+     "en": "The Bering Strait",
+     "as": "বেৰিং জলডুংগী"
+    },
+    {
+     "en": "The Palk Strait",
+     "as": "পাল্ক জলডুংগী"
+    },
+    {
+     "en": "The Strait of Gibraltar",
+     "as": "জিব্ৰাল্টৰ জলডুংগী"
+    },
+    {
+     "en": "The Bosphorus",
+     "as": "বচফৰাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bering Strait separates Asia from North America.",
+    "as": "বেৰিং জলডুংগীয়ে এছিয়া আৰু উত্তৰ আমেৰিকা বিভক্ত কৰে।"
+   }
+  },
+  {
+   "id": "world-history-291",
+   "q": {
+    "en": "Which strait separates Europe from Africa?",
+    "as": "কোন জলডুংগীয়ে ইউৰোপ আৰু আফ্ৰিকা বিভক্ত কৰে?"
+   },
+   "options": [
+    {
+     "en": "The Strait of Gibraltar",
+     "as": "জিব্ৰাল্টৰ জলডুংগী"
+    },
+    {
+     "en": "The Bering Strait",
+     "as": "বেৰিং জলডুংগী"
+    },
+    {
+     "en": "The Palk Strait",
+     "as": "পাল্ক জলডুংগী"
+    },
+    {
+     "en": "The Bosphorus",
+     "as": "বচফৰাছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Strait of Gibraltar separates Europe from Africa.",
+    "as": "জিব্ৰাল্টৰ জলডুংগীয়ে ইউৰোপ আৰু আফ্ৰিকা বিভক্ত কৰে।"
+   }
+  },
+  {
+   "id": "world-history-292",
+   "q": {
+    "en": "Who first reached the North Pole?",
+    "as": "উত্তৰ মেৰুত প্ৰথমে কোনে উপনীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Robert Peary",
+     "as": "ৰবাৰ্ট পিৰি"
+    },
+    {
+     "en": "Roald Amundsen",
+     "as": "ৰ'আল্ড আমুণ্ডছেন"
+    },
+    {
+     "en": "James Cook",
+     "as": "জেমছ কুক"
+    },
+    {
+     "en": "Ferdinand Magellan",
+     "as": "ফাৰ্ডিনাণ্ড মেজেলান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Robert Peary is credited with first reaching the North Pole.",
+    "as": "উত্তৰ মেৰুত প্ৰথমে উপনীত হোৱাৰ কৃতিত্ব ৰবাৰ্ট পিৰিক দিয়া হয়।"
+   }
+  },
+  {
+   "id": "world-history-293",
+   "q": {
+    "en": "Who first reached the South Pole?",
+    "as": "দক্ষিণ মেৰুত প্ৰথমে কোনে উপনীত হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Roald Amundsen",
+     "as": "ৰ'আল্ড আমুণ্ডছেন"
+    },
+    {
+     "en": "Robert Scott",
+     "as": "ৰবাৰ্ট স্কট"
+    },
+    {
+     "en": "Robert Peary",
+     "as": "ৰবাৰ্ট পিৰি"
+    },
+    {
+     "en": "James Cook",
+     "as": "জেমছ কুক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Roald Amundsen first reached the South Pole.",
+    "as": "ৰ'আল্ড আমুণ্ডছেনে প্ৰথমে দক্ষিণ মেৰুত উপনীত হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-294",
+   "q": {
+    "en": "Which continent was discovered last by Europeans?",
+    "as": "ইউৰোপীয়সকলে শেষত কোন মহাদেশ আৱিষ্কাৰ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Antarctica",
+     "as": "এণ্টাৰ্কটিকা"
+    },
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
+    },
+    {
+     "en": "Africa",
+     "as": "আফ্ৰিকা"
+    },
+    {
+     "en": "America",
+     "as": "আমেৰিকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Antarctica was discovered last by Europeans.",
+    "as": "ইউৰোপীয়সকলে শেষত এণ্টাৰ্কটিকা আৱিষ্কাৰ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-295",
+   "q": {
+    "en": "Which continent is known as the 'Dark Continent'?",
+    "as": "কোন মহাদেশক 'অন্ধকাৰ মহাদেশ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Africa",
+     "as": "আফ্ৰিকা"
+    },
+    {
+     "en": "Asia",
+     "as": "এছিয়া"
+    },
+    {
+     "en": "Europe",
+     "as": "ইউৰোপ"
+    },
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Africa was historically known as the Dark Continent.",
+    "as": "আফ্ৰিকাক ঐতিহাসিকভাৱে অন্ধকাৰ মহাদেশ বুলি জনা গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-296",
+   "q": {
+    "en": "Which ancient Greek philosopher was the tutor of Alexander?",
+    "as": "কোন প্ৰাচীন গ্ৰীক দাৰ্শনিক আলেকজেণ্ডাৰৰ শিক্ষক আছিল?"
+   },
+   "options": [
+    {
+     "en": "Aristotle",
+     "as": "এৰিষ্ট'টল"
+    },
+    {
+     "en": "Socrates",
+     "as": "ছক্ৰেটিছ"
+    },
+    {
+     "en": "Plato",
+     "as": "প্লেটো"
+    },
+    {
+     "en": "Diogenes",
+     "as": "ডায়'জিনিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Aristotle was the tutor of Alexander.",
+    "as": "এৰিষ্ট'টল আলেকজেণ্ডাৰৰ শিক্ষক আছিল।"
+   }
+  },
+  {
+   "id": "world-history-297",
+   "q": {
+    "en": "Who founded the Mauryan dynasty's capital at Pataliputra?",
+    "as": "মৌৰ্য বংশৰ ৰাজধানী পাটলিপুত্ৰ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Chandragupta Maurya",
+     "as": "চন্দ্ৰগুপ্ত মৌৰ্য"
+    },
+    {
+     "en": "Ashoka",
+     "as": "অশোক"
+    },
+    {
+     "en": "Bindusara",
+     "as": "বিন্দুসাৰ"
+    },
+    {
+     "en": "Bimbisara",
+     "as": "বিম্বিসাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chandragupta Maurya founded the capital at Pataliputra.",
+    "as": "চন্দ্ৰগুপ্ত মৌৰ্যই পাটলিপুত্ৰত ৰাজধানী প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-298",
+   "q": {
+    "en": "Which Indian ruler is known for the Kalinga war?",
+    "as": "কলিংগ যুদ্ধৰ বাবে কোন ভাৰতীয় শাসক জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Ashoka",
+     "as": "অশোক"
+    },
+    {
+     "en": "Chandragupta Maurya",
+     "as": "চন্দ্ৰগুপ্ত মৌৰ্য"
+    },
+    {
+     "en": "Samudragupta",
+     "as": "সমুদ্ৰগুপ্ত"
+    },
+    {
+     "en": "Harsha",
+     "as": "হৰ্ষ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ashoka is known for the Kalinga war.",
+    "as": "অশোক কলিংগ যুদ্ধৰ বাবে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-299",
+   "q": {
+    "en": "Who wrote the ancient Indian epic 'Ramayana'?",
+    "as": "প্ৰাচীন ভাৰতীয় মহাকাব্য 'ৰামায়ণ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Valmiki",
+     "as": "ৱাল্মীকি"
+    },
+    {
+     "en": "Ved Vyasa",
+     "as": "বেদ ব্যাস"
+    },
+    {
+     "en": "Kalidasa",
+     "as": "কালিদাস"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Valmiki wrote the ancient Indian epic Ramayana.",
+    "as": "ৱাল্মীকিয়ে প্ৰাচীন ভাৰতীয় মহাকাব্য ৰামায়ণ লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-300",
+   "q": {
+    "en": "Who wrote the ancient Indian epic 'Mahabharata'?",
+    "as": "প্ৰাচীন ভাৰতীয় মহাকাব্য 'মহাভাৰত' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Ved Vyasa",
+     "as": "বেদ ব্যাস"
+    },
+    {
+     "en": "Valmiki",
+     "as": "ৱাল্মীকি"
+    },
+    {
+     "en": "Kalidasa",
+     "as": "কালিদাস"
+    },
+    {
+     "en": "Tulsidas",
+     "as": "তুলসীদাস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ved Vyasa wrote the ancient Indian epic Mahabharata.",
+    "as": "বেদ ব্যাসে প্ৰাচীন ভাৰতীয় মহাকাব্য মহাভাৰত লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-301",
+   "q": {
+    "en": "Which ancient Indian university was famous for learning?",
+    "as": "কোন প্ৰাচীন ভাৰতীয় বিশ্ববিদ্যালয় শিক্ষাৰ বাবে বিখ্যাত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Nalanda",
+     "as": "নালন্দা"
+    },
+    {
+     "en": "Taxila",
+     "as": "তক্ষশীলা"
+    },
+    {
+     "en": "Vikramshila",
+     "as": "ৱিক্ৰমশিলা"
+    },
+    {
+     "en": "Kanchipuram",
+     "as": "কাঞ্চীপুৰম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nalanda was a famous ancient Indian university.",
+    "as": "নালন্দা এটা বিখ্যাত প্ৰাচীন ভাৰতীয় বিশ্ববিদ্যালয় আছিল।"
+   }
+  },
+  {
+   "id": "world-history-302",
+   "q": {
+    "en": "Which ancient Indian university was famous in the north-west?",
+    "as": "উত্তৰ-পশ্চিমত কোন প্ৰাচীন ভাৰতীয় বিশ্ববিদ্যালয় বিখ্যাত আছিল?"
+   },
+   "options": [
+    {
+     "en": "Taxila",
+     "as": "তক্ষশীলা"
+    },
+    {
+     "en": "Nalanda",
+     "as": "নালন্দা"
+    },
+    {
+     "en": "Vikramshila",
+     "as": "ৱিক্ৰমশিলা"
+    },
+    {
+     "en": "Kanchipuram",
+     "as": "কাঞ্চীপুৰম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Taxila was a famous ancient Indian university in the north-west.",
+    "as": "তক্ষশীলা উত্তৰ-পশ্চিমত এটা বিখ্যাত প্ৰাচীন ভাৰতীয় বিশ্ববিদ্যালয় আছিল।"
+   }
+  },
+  {
+   "id": "world-history-303",
+   "q": {
+    "en": "Who was the Chinese traveller who visited India during Harsha's reign?",
+    "as": "হৰ্ষৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰা চীনা পৰিব্ৰাজক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Hiuen Tsang",
+     "as": "হিউৱেন চাং"
+    },
+    {
+     "en": "Fa-Hien",
+     "as": "ফা-হিয়েন"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Megasthenes",
+     "as": "মেগাস্থেনিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hiuen Tsang visited India during Harsha's reign.",
+    "as": "হিউৱেন চাং হৰ্ষৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-304",
+   "q": {
+    "en": "Who was the Chinese traveller who visited India during the Gupta period?",
+    "as": "গুপ্ত কালত ভাৰত ভ্ৰমণ কৰা চীনা পৰিব্ৰাজক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Fa-Hien",
+     "as": "ফা-হিয়েন"
+    },
+    {
+     "en": "Hiuen Tsang",
+     "as": "হিউৱেন চাং"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Megasthenes",
+     "as": "মেগাস্থেনিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Fa-Hien visited India during the Gupta period.",
+    "as": "ফা-হিয়েন গুপ্ত কালত ভাৰত ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-305",
+   "q": {
+    "en": "Who was the Chinese traveller who visited India during Chandragupta II's reign?",
+    "as": "চন্দ্ৰগুপ্ত দ্বিতীয়ৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰা চীনা পৰিব্ৰাজক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Fa-Hien",
+     "as": "ফা-হিয়েন"
+    },
+    {
+     "en": "Hiuen Tsang",
+     "as": "হিউৱেন চাং"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Fa-Hien visited India during Chandragupta II's reign.",
+    "as": "ফা-হিয়েন চন্দ্ৰগুপ্ত দ্বিতীয়ৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-306",
+   "q": {
+    "en": "Who wrote the 'Kitab-ul-Hind'?",
+    "as": "'কিতাব-উল-হিন্দ' কোনে লিখিছিল?"
+   },
+   "options": [
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Megasthenes",
+     "as": "মেগাস্থেনিছ"
+    },
+    {
+     "en": "Hiuen Tsang",
+     "as": "হিউৱেন চাং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Al-Biruni wrote the Kitab-ul-Hind.",
+    "as": "আল-বীৰুনীয়ে কিতাব-উল-হিন্দ লিখিছিল।"
+   }
+  },
+  {
+   "id": "world-history-307",
+   "q": {
+    "en": "Who was the Arab traveller who visited India in the 14th century?",
+    "as": "১৪ শতিকাত ভাৰত ভ্ৰমণ কৰা আৰব পৰিব্ৰাজক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Megasthenes",
+     "as": "মেগাস্থেনিছ"
+    },
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ibn Battuta, an Arab traveller, visited India in the 14th century.",
+    "as": "ইবনে বতুতা, এজন আৰব পৰিব্ৰাজক, ১৪ শতিকাত ভাৰত ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-308",
+   "q": {
+    "en": "Who was the Italian traveller who visited India in the 13th century?",
+    "as": "১৩ শতিকাত ভাৰত ভ্ৰমণ কৰা ইটালীয় পৰিব্ৰাজক কোন আছিল?"
+   },
+   "options": [
+    {
+     "en": "Marco Polo",
+     "as": "মাৰ্কো পোলো"
+    },
+    {
+     "en": "Ibn Battuta",
+     "as": "ইবনে বতুতা"
+    },
+    {
+     "en": "Al-Biruni",
+     "as": "আল-বীৰুনী"
+    },
+    {
+     "en": "Megasthenes",
+     "as": "মেগাস্থেনিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Marco Polo, an Italian traveller, visited India in the 13th century.",
+    "as": "মাৰ্কো পোলো, এজন ইটালীয় পৰিব্ৰাজক, ১৩ শতিকাত ভাৰত ভ্ৰমণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-309",
+   "q": {
+    "en": "Which Indian empire was known as the 'Golden Age' of India?",
+    "as": "কোন ভাৰতীয় সাম্ৰাজ্যক ভাৰতৰ 'সোণালী যুগ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "The Gupta Empire",
+     "as": "গুপ্ত সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mauryan Empire",
+     "as": "মৌৰ্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mughal Empire",
+     "as": "মোগল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Chola Empire",
+     "as": "চোল সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gupta Empire is known as the Golden Age of India.",
+    "as": "গুপ্ত সাম্ৰাজ্য ভাৰতৰ সোণালী যুগ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-310",
+   "q": {
+    "en": "Which Indian empire built the Brihadeeswarar Temple?",
+    "as": "কোন ভাৰতীয় সাম্ৰাজ্যই বৃহদীশ্বৰ মন্দিৰ নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Chola Empire",
+     "as": "চোল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Gupta Empire",
+     "as": "গুপ্ত সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mauryan Empire",
+     "as": "মৌৰ্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mughal Empire",
+     "as": "মোগল সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Chola Empire built the Brihadeeswarar Temple.",
+    "as": "চোল সাম্ৰাজ্যই বৃহদীশ্বৰ মন্দিৰ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-311",
+   "q": {
+    "en": "Who built the Brihadeeswarar Temple?",
+    "as": "বৃহদীশ্বৰ মন্দিৰ কোনে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Raja Raja Chola I",
+     "as": "ৰাজ ৰাজ চোল প্ৰথম"
+    },
+    {
+     "en": "Rajendra Chola I",
+     "as": "ৰাজেন্দ্ৰ চোল প্ৰথম"
+    },
+    {
+     "en": "Kulothunga Chola",
+     "as": "কুলোথুংগ চোল"
+    },
+    {
+     "en": "Karikala Chola",
+     "as": "কৰিকাল চোল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raja Raja Chola I built the Brihadeeswarar Temple.",
+    "as": "ৰাজ ৰাজ চোল প্ৰথমে বৃহদীশ্বৰ মন্দিৰ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-312",
+   "q": {
+    "en": "Which Indian empire built the Konark Sun Temple?",
+    "as": "কোন ভাৰতীয় সাম্ৰাজ্যই কোণাৰ্ক সূৰ্য মন্দিৰ নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Eastern Ganga dynasty",
+     "as": "পূব গঙ্গা বংশ"
+    },
+    {
+     "en": "The Chola Empire",
+     "as": "চোল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Gupta Empire",
+     "as": "গুপ্ত সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mughal Empire",
+     "as": "মোগল সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Eastern Ganga dynasty built the Konark Sun Temple.",
+    "as": "পূব গঙ্গা বংশই কোণাৰ্ক সূৰ্য মন্দিৰ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-313",
+   "q": {
+    "en": "Which Indian monument is a symbol of love?",
+    "as": "কোন ভাৰতীয় স্মৃতিস্তম্ভ প্ৰেমৰ প্ৰতীক?"
+   },
+   "options": [
+    {
+     "en": "The Taj Mahal",
+     "as": "তাজমহল"
+    },
+    {
+     "en": "The Qutub Minar",
+     "as": "কুতুব মিনাৰ"
+    },
+    {
+     "en": "The Red Fort",
+     "as": "লাল কিলা"
+    },
+    {
+     "en": "The India Gate",
+     "as": "ইণ্ডিয়া গেট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Taj Mahal is a symbol of love.",
+    "as": "তাজমহল প্ৰেমৰ প্ৰতীক।"
+   }
+  },
+  {
+   "id": "world-history-314",
+   "q": {
+    "en": "Which Indian city is known as the 'City of Palaces'?",
+    "as": "কোন ভাৰতীয় চহৰ 'প্ৰাসাদৰ চহৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Kolkata",
+     "as": "কলিকতা"
+    },
+    {
+     "en": "Jaipur",
+     "as": "জয়পুৰ"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Agra",
+     "as": "আগ্ৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kolkata is known as the City of Palaces.",
+    "as": "কলিকতাক প্ৰাসাদৰ চহৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-315",
+   "q": {
+    "en": "Which Indian city is known as the 'Pink City'?",
+    "as": "কোন ভাৰতীয় চহৰ 'গোলাপী চহৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jaipur",
+     "as": "জয়পুৰ"
+    },
+    {
+     "en": "Kolkata",
+     "as": "কলিকতা"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Agra",
+     "as": "আগ্ৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jaipur is known as the Pink City.",
+    "as": "জয়পুৰক গোলাপী চহৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-316",
+   "q": {
+    "en": "Which Indian city is known as the 'City of Lakes'?",
+    "as": "কোন ভাৰতীয় চহৰ 'হ্ৰদৰ চহৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Udaipur",
+     "as": "উদয়পুৰ"
+    },
+    {
+     "en": "Jaipur",
+     "as": "জয়পুৰ"
+    },
+    {
+     "en": "Kolkata",
+     "as": "কলিকতা"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Udaipur is known as the City of Lakes.",
+    "as": "উদয়পুৰক হ্ৰদৰ চহৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-317",
+   "q": {
+    "en": "Which Indian city is known as the 'Silicon Valley of India'?",
+    "as": "কোন ভাৰতীয় চহৰ 'ভাৰতৰ চিলিকন ভেলী' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Bengaluru",
+     "as": "বেংগালুৰু"
+    },
+    {
+     "en": "Hyderabad",
+     "as": "হায়দৰাবাদ"
+    },
+    {
+     "en": "Pune",
+     "as": "পুনে"
+    },
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bengaluru is known as the Silicon Valley of India.",
+    "as": "বেংগালুৰুক ভাৰতৰ চিলিকন ভেলী হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-318",
+   "q": {
+    "en": "Which Indian city is known as the 'Manchester of India'?",
+    "as": "কোন ভাৰতীয় চহৰ 'ভাৰতৰ মাঞ্চেষ্টাৰ' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Ahmedabad",
+     "as": "আহমেদাবাদ"
+    },
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Kanpur",
+     "as": "কানপুৰ"
+    },
+    {
+     "en": "Surat",
+     "as": "চুৰাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Ahmedabad is known as the Manchester of India.",
+    "as": "আহমেদাবাদক ভাৰতৰ মাঞ্চেষ্টাৰ হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-319",
+   "q": {
+    "en": "Which Indian city is known as the 'Financial Capital of India'?",
+    "as": "কোন ভাৰতীয় চহৰ 'ভাৰতৰ বিত্তীয় ৰাজধানী' হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Mumbai",
+     "as": "মুম্বাই"
+    },
+    {
+     "en": "Delhi",
+     "as": "দিল্লী"
+    },
+    {
+     "en": "Kolkata",
+     "as": "কলিকতা"
+    },
+    {
+     "en": "Chennai",
+     "as": "চেন্নাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mumbai is known as the Financial Capital of India.",
+    "as": "মুম্বাইক ভাৰতৰ বিত্তীয় ৰাজধানী হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-320",
+   "q": {
+    "en": "Which Indian state is the largest by area?",
+    "as": "মাটিকালিৰে আটাইতকৈ ডাঙৰ ভাৰতীয় ৰাজ্য কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Rajasthan",
+     "as": "ৰাজস্থান"
+    },
+    {
+     "en": "Madhya Pradesh",
+     "as": "মধ্য প্ৰদেশ"
+    },
+    {
+     "en": "Maharashtra",
+     "as": "মহাৰাষ্ট্ৰ"
+    },
+    {
+     "en": "Uttar Pradesh",
+     "as": "উত্তৰ প্ৰদেশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rajasthan is the largest Indian state by area.",
+    "as": "ৰাজস্থান মাটিকালিৰে আটাইতকৈ ডাঙৰ ভাৰতীয় ৰাজ্য।"
+   }
+  },
+  {
+   "id": "world-history-321",
+   "q": {
+    "en": "Which Indian state is the largest by population?",
+    "as": "জনসংখ্যাৰে আটাইতকৈ ডাঙৰ ভাৰতীয় ৰাজ্য কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Uttar Pradesh",
+     "as": "উত্তৰ প্ৰদেশ"
+    },
+    {
+     "en": "Maharashtra",
+     "as": "মহাৰাষ্ট্ৰ"
+    },
+    {
+     "en": "Bihar",
+     "as": "বিহাৰ"
+    },
+    {
+     "en": "West Bengal",
+     "as": "পশ্চিম বংগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Uttar Pradesh is the largest Indian state by population.",
+    "as": "উত্তৰ প্ৰদেশ জনসংখ্যাৰে আটাইতকৈ ডাঙৰ ভাৰতীয় ৰাজ্য।"
+   }
+  },
+  {
+   "id": "world-history-322",
+   "q": {
+    "en": "Which is the longest river in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ দীঘল নদী কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Nile",
+     "as": "নীল"
+    },
+    {
+     "en": "The Amazon",
+     "as": "আমাজন"
+    },
+    {
+     "en": "The Yangtze",
+     "as": "ইয়াংচি"
+    },
+    {
+     "en": "The Mississippi",
+     "as": "মিচিচিপি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nile is the longest river in the world.",
+    "as": "নীল বিশ্বৰ আটাইতকৈ দীঘল নদী।"
+   }
+  },
+  {
+   "id": "world-history-323",
+   "q": {
+    "en": "Which is the largest ocean in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ মহাসাগৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Pacific Ocean",
+     "as": "প্ৰশান্ত মহাসাগৰ"
+    },
+    {
+     "en": "The Atlantic Ocean",
+     "as": "আটলাণ্টিক মহাসাগৰ"
+    },
+    {
+     "en": "The Indian Ocean",
+     "as": "ভাৰত মহাসাগৰ"
+    },
+    {
+     "en": "The Arctic Ocean",
+     "as": "উত্তৰ মহাসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Pacific Ocean is the largest ocean in the world.",
+    "as": "প্ৰশান্ত মহাসাগৰ বিশ্বৰ আটাইতকৈ ডাঙৰ মহাসাগৰ।"
+   }
+  },
+  {
+   "id": "world-history-324",
+   "q": {
+    "en": "Which is the largest continent in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ মহাদেশ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Asia",
+     "as": "এছিয়া"
+    },
+    {
+     "en": "Africa",
+     "as": "আফ্ৰিকা"
+    },
+    {
+     "en": "North America",
+     "as": "উত্তৰ আমেৰিকা"
+    },
+    {
+     "en": "Europe",
+     "as": "ইউৰোপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Asia is the largest continent in the world.",
+    "as": "এছিয়া বিশ্বৰ আটাইতকৈ ডাঙৰ মহাদেশ।"
+   }
+  },
+  {
+   "id": "world-history-325",
+   "q": {
+    "en": "Which is the smallest continent in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ সৰু মহাদেশ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Australia",
+     "as": "অষ্ট্ৰেলিয়া"
+    },
+    {
+     "en": "Europe",
+     "as": "ইউৰোপ"
+    },
+    {
+     "en": "Antarctica",
+     "as": "এণ্টাৰ্কটিকা"
+    },
+    {
+     "en": "South America",
+     "as": "দক্ষিণ আমেৰিকা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Australia is the smallest continent in the world.",
+    "as": "অষ্ট্ৰেলিয়া বিশ্বৰ আটাইতকৈ সৰু মহাদেশ।"
+   }
+  },
+  {
+   "id": "world-history-326",
+   "q": {
+    "en": "Which is the highest mountain in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ উচ্চ পৰ্বত কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Mount Everest",
+     "as": "মাউণ্ট এভাৰেষ্ট"
+    },
+    {
+     "en": "K2",
+     "as": "কে-২"
+    },
+    {
+     "en": "Kanchenjunga",
+     "as": "কাঞ্চনজঙ্ঘা"
+    },
+    {
+     "en": "Makalu",
+     "as": "মাকালু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mount Everest is the highest mountain in the world.",
+    "as": "মাউণ্ট এভাৰেষ্ট বিশ্বৰ আটাইতকৈ উচ্চ পৰ্বত।"
+   }
+  },
+  {
+   "id": "world-history-327",
+   "q": {
+    "en": "Which is the largest desert in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ মৰুভূমি কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Sahara",
+     "as": "চাহাৰা"
+    },
+    {
+     "en": "The Gobi",
+     "as": "গ'বি"
+    },
+    {
+     "en": "The Thar",
+     "as": "থৰ"
+    },
+    {
+     "en": "The Kalahari",
+     "as": "কালাহাৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sahara is the largest hot desert in the world.",
+    "as": "চাহাৰা বিশ্বৰ আটাইতকৈ ডাঙৰ উষ্ণ মৰুভূমি।"
+   }
+  },
+  {
+   "id": "world-history-328",
+   "q": {
+    "en": "Which country has the largest population in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ বেছি জনসংখ্যা কোন দেশৰ?"
+   },
+   "options": [
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "United States",
+     "as": "সংযুক্ত ৰাষ্ট্ৰ"
+    },
+    {
+     "en": "Indonesia",
+     "as": "ইণ্ডোনেছিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "India has the largest population in the world.",
+    "as": "ভাৰতৰ বিশ্বৰ আটাইতকৈ বেছি জনসংখ্যা আছে।"
+   }
+  },
+  {
+   "id": "world-history-329",
+   "q": {
+    "en": "Which country is the largest by area in the world?",
+    "as": "মাটিকালিৰে বিশ্বৰ আটাইতকৈ ডাঙৰ দেশ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Russia",
+     "as": "ৰাছিয়া"
+    },
+    {
+     "en": "Canada",
+     "as": "কানাডা"
+    },
+    {
+     "en": "China",
+     "as": "চীন"
+    },
+    {
+     "en": "United States",
+     "as": "সংযুক্ত ৰাষ্ট্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Russia is the largest country by area in the world.",
+    "as": "ৰাছিয়া মাটিকালিৰে বিশ্বৰ আটাইতকৈ ডাঙৰ দেশ।"
+   }
+  },
+  {
+   "id": "world-history-330",
+   "q": {
+    "en": "Which is the smallest country in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ সৰু দেশ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "Vatican City",
+     "as": "ভেটিকান চিটি"
+    },
+    {
+     "en": "Monaco",
+     "as": "ম'নাক'"
+    },
+    {
+     "en": "San Marino",
+     "as": "ছান মেৰিন'"
+    },
+    {
+     "en": "Nauru",
+     "as": "নাউৰু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Vatican City is the smallest country in the world.",
+    "as": "ভেটিকান চিটি বিশ্বৰ আটাইতকৈ সৰু দেশ।"
+   }
+  },
+  {
+   "id": "world-history-331",
+   "q": {
+    "en": "Which is the longest wall in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ দীঘল প্ৰাচীৰ কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Great Wall of China",
+     "as": "চীনৰ মহাপ্ৰাচীৰ"
+    },
+    {
+     "en": "The Berlin Wall",
+     "as": "বাৰ্লিন প্ৰাচীৰ"
+    },
+    {
+     "en": "Hadrian's Wall",
+     "as": "হেড্ৰিয়ানৰ প্ৰাচীৰ"
+    },
+    {
+     "en": "The Maginot Line",
+     "as": "মেজিন'ট ৰেখা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Great Wall of China is the longest wall in the world.",
+    "as": "চীনৰ মহাপ্ৰাচীৰ বিশ্বৰ আটাইতকৈ দীঘল প্ৰাচীৰ।"
+   }
+  },
+  {
+   "id": "world-history-332",
+   "q": {
+    "en": "Which is the largest pyramid in the world?",
+    "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ পিৰামিড কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Great Pyramid of Giza",
+     "as": "গিজাৰ মহা পিৰামিড"
+    },
+    {
+     "en": "The Pyramid of Khafre",
+     "as": "খাফ্ৰেৰ পিৰামিড"
+    },
+    {
+     "en": "The Pyramid of Menkaure",
+     "as": "মেনকাউৰেৰ পিৰামিড"
+    },
+    {
+     "en": "The Pyramid of the Sun",
+     "as": "সূৰ্য পিৰামিড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Great Pyramid of Giza is the largest pyramid in the world.",
+    "as": "গিজাৰ মহা পিৰামিড বিশ্বৰ আটাইতকৈ ডাঙৰ পিৰামিড।"
+   }
+  },
+  {
+   "id": "world-history-333",
+   "q": {
+    "en": "Who built the Great Pyramid of Giza?",
+    "as": "গিজাৰ মহা পিৰামিড কোনে নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "Pharaoh Khufu",
+     "as": "ফেৰাও খুফু"
+    },
+    {
+     "en": "Pharaoh Khafre",
+     "as": "ফেৰাও খাফ্ৰে"
+    },
+    {
+     "en": "Pharaoh Menkaure",
+     "as": "ফেৰাও মেনকাউৰে"
+    },
+    {
+     "en": "Pharaoh Ramses",
+     "as": "ফেৰাও ৰামচিছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pharaoh Khufu built the Great Pyramid of Giza.",
+    "as": "ফেৰাও খুফুৱে গিজাৰ মহা পিৰামিড নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-334",
+   "q": {
+    "en": "Which is the oldest of the Seven Wonders of the Ancient World still standing?",
+    "as": "প্ৰাচীন বিশ্বৰ সাতটা আশ্চৰ্যৰ ভিতৰত এতিয়াও থকা আটাইতকৈ পুৰণি কোনটো?"
+   },
+   "options": [
+    {
+     "en": "The Great Pyramid of Giza",
+     "as": "গিজাৰ মহা পিৰামিড"
+    },
+    {
+     "en": "The Hanging Gardens",
+     "as": "ঝুলন্ত উদ্যান"
+    },
+    {
+     "en": "The Colossus of Rhodes",
+     "as": "ৰ'ডছৰ কলছাছ"
+    },
+    {
+     "en": "The Lighthouse of Alexandria",
+     "as": "আলেকজেণ্ড্ৰিয়াৰ পোহৰ ঘৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Great Pyramid of Giza is the oldest wonder still standing.",
+    "as": "গিজাৰ মহা পিৰামিড এতিয়াও থকা আটাইতকৈ পুৰণি আশ্চৰ্য।"
+   }
+  },
+  {
+   "id": "world-history-335",
+   "q": {
+    "en": "Which civilisation built Stonehenge?",
+    "as": "ষ্ট'নহেঞ্জ কোন সভ্যতাই নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The ancient Britons",
+     "as": "প্ৰাচীন ব্ৰিটনসকল"
+    },
+    {
+     "en": "The Romans",
+     "as": "ৰোমান"
+    },
+    {
+     "en": "The Greeks",
+     "as": "গ্ৰীক"
+    },
+    {
+     "en": "The Egyptians",
+     "as": "মিচৰীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Stonehenge was built by the ancient Britons.",
+    "as": "ষ্ট'নহেঞ্জ প্ৰাচীন ব্ৰিটনসকলে নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-336",
+   "q": {
+    "en": "Which civilisation built the city of Petra?",
+    "as": "পেট্ৰা চহৰ কোন সভ্যতাই নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Nabataeans",
+     "as": "নাবাটিয়ানসকল"
+    },
+    {
+     "en": "The Romans",
+     "as": "ৰোমান"
+    },
+    {
+     "en": "The Greeks",
+     "as": "গ্ৰীক"
+    },
+    {
+     "en": "The Egyptians",
+     "as": "মিচৰীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nabataeans built the city of Petra.",
+    "as": "নাবাটিয়ানসকলে পেট্ৰা চহৰ নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-337",
+   "q": {
+    "en": "Which empire built the Colosseum?",
+    "as": "কলছিয়াম কোন সাম্ৰাজ্যই নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Greek Empire",
+     "as": "গ্ৰীক সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Egyptian Empire",
+     "as": "মিচৰ সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Roman Empire built the Colosseum.",
+    "as": "ৰোমান সাম্ৰাজ্যই কলছিয়াম নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-338",
+   "q": {
+    "en": "Which empire built the Parthenon?",
+    "as": "পাৰ্থেনন কোন সাম্ৰাজ্যই নিৰ্মাণ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Greek civilisation",
+     "as": "গ্ৰীক সভ্যতা"
+    },
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Persian Empire",
+     "as": "পাৰস্য সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Egyptian Empire",
+     "as": "মিচৰ সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Parthenon was built by the Greek civilisation.",
+    "as": "পাৰ্থেনন গ্ৰীক সভ্যতাই নিৰ্মাণ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-339",
+   "q": {
+    "en": "Which ancient city was buried by volcanic ash?",
+    "as": "কোন প্ৰাচীন চহৰ আগ্নেয় ছাঁইৰ তলত পোত গৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Pompeii",
+     "as": "পম্পেই"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Carthage",
+     "as": "কাৰ্থেজ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pompeii was buried by volcanic ash.",
+    "as": "পম্পেই আগ্নেয় ছাঁইৰ তলত পোত গৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-340",
+   "q": {
+    "en": "Which city was the capital of the Byzantine Empire?",
+    "as": "বাইজেণ্টাইন সাম্ৰাজ্যৰ ৰাজধানী কোন চহৰ আছিল?"
+   },
+   "options": [
+    {
+     "en": "Constantinople",
+     "as": "কনষ্টেণ্টিন'পল"
+    },
+    {
+     "en": "Rome",
+     "as": "ৰোম"
+    },
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Alexandria",
+     "as": "আলেকজেণ্ড্ৰিয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Constantinople was the capital of the Byzantine Empire.",
+    "as": "কনষ্টেণ্টিন'পল বাইজেণ্টাইন সাম্ৰাজ্যৰ ৰাজধানী আছিল।"
+   }
+  },
+  {
+   "id": "world-history-341",
+   "q": {
+    "en": "What is the modern name of Constantinople?",
+    "as": "কনষ্টেণ্টিন'পলৰ আধুনিক নাম কি?"
+   },
+   "options": [
+    {
+     "en": "Istanbul",
+     "as": "ইস্তাম্বুল"
+    },
+    {
+     "en": "Ankara",
+     "as": "আঙ্কাৰা"
+    },
+    {
+     "en": "Athens",
+     "as": "এথেন্স"
+    },
+    {
+     "en": "Cairo",
+     "as": "কাইৰ'"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The modern name of Constantinople is Istanbul.",
+    "as": "কনষ্টেণ্টিন'পলৰ আধুনিক নাম ইস্তাম্বুল।"
+   }
+  },
+  {
+   "id": "world-history-342",
+   "q": {
+    "en": "Which empire was the largest contiguous land empire in history?",
+    "as": "ইতিহাসত আটাইতকৈ ডাঙৰ সংলগ্ন ভূমি সাম্ৰাজ্য কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The Mongol Empire",
+     "as": "মংগোল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The British Empire",
+     "as": "ব্ৰিটিছ সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Russian Empire",
+     "as": "ৰাছিয়ান সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Mongol Empire was the largest contiguous land empire in history.",
+    "as": "মংগোল সাম্ৰাজ্য ইতিহাসত আটাইতকৈ ডাঙৰ সংলগ্ন ভূমি সাম্ৰাজ্য আছিল।"
+   }
+  },
+  {
+   "id": "world-history-343",
+   "q": {
+    "en": "Which empire was the largest in history?",
+    "as": "ইতিহাসত আটাইতকৈ ডাঙৰ সাম্ৰাজ্য কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The British Empire",
+     "as": "ব্ৰিটিছ সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Mongol Empire",
+     "as": "মংগোল সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Roman Empire",
+     "as": "ৰোমান সাম্ৰাজ্য"
+    },
+    {
+     "en": "The Russian Empire",
+     "as": "ৰাছিয়ান সাম্ৰাজ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The British Empire was the largest empire in history.",
+    "as": "ব্ৰিটিছ সাম্ৰাজ্য ইতিহাসত আটাইতকৈ ডাঙৰ সাম্ৰাজ্য আছিল।"
+   }
+  },
+  {
+   "id": "world-history-344",
+   "q": {
+    "en": "Which country was the first to have a written constitution?",
+    "as": "লিখিত সংবিধান থকা প্ৰথম দেশ কোনটো আছিল?"
+   },
+   "options": [
+    {
+     "en": "The United States",
+     "as": "সংযুক্ত ৰাষ্ট্ৰ"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    },
+    {
+     "en": "Britain",
+     "as": "ব্ৰিটেইন"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The United States was the first country to have a written constitution.",
+    "as": "সংযুক্ত ৰাষ্ট্ৰ লিখিত সংবিধান থকা প্ৰথম দেশ আছিল।"
+   }
+  },
+  {
+   "id": "world-history-345",
+   "q": {
+    "en": "Which revolution first established a republic in modern Europe?",
+    "as": "আধুনিক ইউৰোপত প্ৰথমে কোন বিপ্লৱে প্ৰজাতন্ত্ৰ প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The French Revolution",
+     "as": "ফৰাচী বিপ্লৱ"
+    },
+    {
+     "en": "The Russian Revolution",
+     "as": "ৰাছিয়ান বিপ্লৱ"
+    },
+    {
+     "en": "The Industrial Revolution",
+     "as": "শিল্প বিপ্লৱ"
+    },
+    {
+     "en": "The American Revolution",
+     "as": "আমেৰিকান বিপ্লৱ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The French Revolution first established a republic in modern Europe.",
+    "as": "ফৰাচী বিপ্লৱে আধুনিক ইউৰোপত প্ৰথমে প্ৰজাতন্ত্ৰ প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-346",
+   "q": {
+    "en": "Which document declared that all men are created equal?",
+    "as": "কোন দস্তাবেজে ঘোষণা কৰিছিল যে সকলো মানুহ সমানভাৱে সৃষ্টি হৈছে?"
+   },
+   "options": [
+    {
+     "en": "The American Declaration of Independence",
+     "as": "আমেৰিকান স্বাধীনতা ঘোষণা"
+    },
+    {
+     "en": "The Communist Manifesto",
+     "as": "কমিউনিষ্ট মেনিফেষ্ট'"
+    },
+    {
+     "en": "The Magna Carta",
+     "as": "মেগনা কাৰ্টা"
+    },
+    {
+     "en": "The Bill of Rights",
+     "as": "বিল অৱ ৰাইটছ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The American Declaration of Independence declared that all men are created equal.",
+    "as": "আমেৰিকান স্বাধীনতা ঘোষণাই ঘোষণা কৰিছিল যে সকলো মানুহ সমানভাৱে সৃষ্টি হৈছে।"
+   }
+  },
+  {
+   "id": "world-history-347",
+   "q": {
+    "en": "Which document limited the power of the English king in 1215?",
+    "as": "১২১৫ চনত কোন দস্তাবেজে ইংৰাজ ৰজাৰ ক্ষমতা সীমাবদ্ধ কৰিছিল?"
+   },
+   "options": [
+    {
+     "en": "The Magna Carta",
+     "as": "মেগনা কাৰ্টা"
+    },
+    {
+     "en": "The Bill of Rights",
+     "as": "বিল অৱ ৰাইটছ"
+    },
+    {
+     "en": "The Petition of Right",
+     "as": "পিটিচন অৱ ৰাইট"
+    },
+    {
+     "en": "The Habeas Corpus Act",
+     "as": "হেবিয়াছ কৰ্পাছ আইন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Magna Carta limited the power of the English king in 1215.",
+    "as": "মেগনা কাৰ্টাই ১২১৫ চনত ইংৰাজ ৰজাৰ ক্ষমতা সীমাবদ্ধ কৰিছিল।"
+   }
+  },
+  {
+   "id": "world-history-348",
+   "q": {
+    "en": "Which country's parliament is known as the 'Mother of Parliaments'?",
+    "as": "কোন দেশৰ সংসদক 'সংসদৰ মাতৃ' বুলি জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Britain",
+     "as": "ব্ৰিটেইন"
+    },
+    {
+     "en": "The United States",
+     "as": "সংযুক্ত ৰাষ্ট্ৰ"
+    },
+    {
+     "en": "France",
+     "as": "ফ্ৰান্স"
+    },
+    {
+     "en": "India",
+     "as": "ভাৰত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Britain's parliament is known as the Mother of Parliaments.",
+    "as": "ব্ৰিটেইনৰ সংসদক সংসদৰ মাতৃ বুলি জনা যায়।"
+   }
+  },
+  {
+   "id": "world-history-349",
+   "q": {
+    "en": "Which war was fought between Britain and its American colonies?",
+    "as": "ব্ৰিটেইন আৰু ইয়াৰ আমেৰিকান উপনিবেশসমূহৰ মাজত কোন যুদ্ধ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "The American War of Independence",
+     "as": "আমেৰিকান স্বাধীনতা যুদ্ধ"
+    },
+    {
+     "en": "The American Civil War",
+     "as": "আমেৰিকান গৃহযুদ্ধ"
+    },
+    {
+     "en": "The War of 1812",
+     "as": "১৮১২ চনৰ যুদ্ধ"
+    },
+    {
+     "en": "The Seven Years' War",
+     "as": "সাত বছৰৰ যুদ্ধ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The American War of Independence was fought between Britain and its American colonies.",
+    "as": "ব্ৰিটেইন আৰু ইয়াৰ আমেৰিকান উপনিবেশসমূহৰ মাজত আমেৰিকান স্বাধীনতা যুদ্ধ হৈছিল।"
+   }
+  },
+  {
+   "id": "world-history-350",
+   "q": {
+    "en": "In which year did the American Civil War begin?",
+    "as": "আমেৰিকান গৃহযুদ্ধ কিমান চনত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1861 CE",
+     "as": "১৮৬১ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1865 CE",
+     "as": "১৮৬৫ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1776 CE",
+     "as": "১৭৭৬ খ্ৰীষ্টাব্দ"
+    },
+    {
+     "en": "1857 CE",
+     "as": "১৮৫৭ খ্ৰীষ্টাব্দ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The American Civil War began in 1861 CE.",
+    "as": "আমেৰিকান গৃহযুদ্ধ ১৮৬১ খ্ৰীষ্টাব্দত আৰম্ভ হৈছিল।"
+   }
+  }
  ]
 };
