@@ -23,7 +23,7 @@ const path = require("path");
 const SRC_DIR = path.join(__dirname, "gk-src");
 const OUT = path.join(__dirname, "adre-grade-3.questions.gk.js");
 
-const TOPICS = ["assam-folk-culture", "assamese-literature"];
+const TOPICS = ["assam-folk-culture", "assamese-literature", "assam-national-parks", "brahmaputra-barak", "assam-natural-resources"];
 
 function expand(topic, rows) {
   const seen = new Set();

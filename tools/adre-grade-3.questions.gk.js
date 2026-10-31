@@ -16566,5 +16566,24311 @@ module.exports = {
     "as": "চৈয়দ আব্দুল মালিকে প্ৰিয়তমাৰ সন্ধান আৰু ধন্য নদী লিখিছিল।"
    }
   }
+ ],
+ "assam-national-parks": [
+  {
+   "id": "assam-national-parks-001",
+   "q": {
+    "en": "In which district is Kaziranga National Park located?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat and Nagaon",
+     "as": "গোলাঘাট আৰু নগাঁও"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Morigaon",
+     "as": "মৰিগাঁও"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga National Park is located in Golaghat and Nagaon.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান গোলাঘাট আৰু নগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-002",
+   "q": {
+    "en": "Which districts of Assam does Kaziranga National Park span?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Golaghat and Nagaon",
+     "as": "গোলাঘাট আৰু নগাঁও"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Morigaon",
+     "as": "মৰিগাঁও"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kaziranga National Park spans Golaghat and Nagaon.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান গোলাঘাট আৰু নগাঁও জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-003",
+   "q": {
+    "en": "Kaziranga National Park is best known for which of the following?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its rainforest",
+     "as": "ইয়াৰ বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "the hoolock gibbon",
+     "as": "হলৌ গিবন"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "the pygmy hog",
+     "as": "পিগমি হগ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Kaziranga National Park is known for the one-horned rhinoceros.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-004",
+   "q": {
+    "en": "Kaziranga National Park is also noted for which of the following?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its grassland habitat",
+     "as": "ইয়াৰ তৃণভূমি"
+    },
+    {
+     "en": "its wetland habitat",
+     "as": "ইয়াৰ জলাশয়"
+    },
+    {
+     "en": "its primates",
+     "as": "ইয়াৰ প্ৰাইমেট"
+    },
+    {
+     "en": "wild water buffalo",
+     "as": "বনৰীয়া ম'হ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kaziranga National Park is also noted for wild water buffalo.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান বনৰীয়া ম'হৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-005",
+   "q": {
+    "en": "When was Kaziranga National Park notified?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1974",
+     "as": "1974"
+    },
+    {
+     "en": "1990",
+     "as": "1990"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga National Park was notified in 1974.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান 1974 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-006",
+   "q": {
+    "en": "Kaziranga National Park is a ___ of Assam.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kaziranga National Park is a national park of Assam.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-007",
+   "q": {
+    "en": "Which protected area of Assam is located in Golaghat and Nagaon?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল গোলাঘাট আৰু নগাঁও জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Deepor Beel Wildlife Sanctuary",
+     "as": "দীপৰ বিল অভয়াৰণ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Kaziranga National Park is located in Golaghat and Nagaon.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান গোলাঘাট আৰু নগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-008",
+   "q": {
+    "en": "Which protected area of Assam is known for the one-horned rhinoceros?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল এশিঙীয়া গঁড়ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Deepor Beel Wildlife Sanctuary",
+     "as": "দীপৰ বিল অভয়াৰণ্য"
+    },
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kaziranga National Park is known for the one-horned rhinoceros.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান এশিঙীয়া গঁড়ৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-009",
+   "q": {
+    "en": "Kaziranga National Park is associated with which river?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    },
+    {
+     "en": "Dihing",
+     "as": "দিহিং"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kaziranga National Park is associated with the Brahmaputra river.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰ নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-010",
+   "q": {
+    "en": "Which protected area of Assam lies along the Brahmaputra river?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ব্ৰহ্মপুত্ৰ নদীৰ কাষত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kaziranga National Park lies along the Brahmaputra river.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰ নদীৰ কাষত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-011",
+   "q": {
+    "en": "Is Kaziranga National Park a national park of Assam?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমৰ ৰাষ্ট্ৰীয় উদ্যান হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a national park",
+     "as": "হয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a wildlife sanctuary",
+     "as": "নহয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Yes, Kaziranga National Park is a national park of Assam.",
+    "as": "হয়, কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-012",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Kaziranga National Park located?",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kaziranga National Park is on the south bank of the Brahmaputra.",
+    "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-013",
+   "q": {
+    "en": "In which district is Manas National Park located?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Chirang and Baksa",
+     "as": "চিৰাং আৰু বাক্সা"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park is located in Chirang and Baksa.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান চিৰাং আৰু বাক্সা জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-014",
+   "q": {
+    "en": "Which districts of Assam does Manas National Park span?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Chirang and Baksa",
+     "as": "চিৰাং আৰু বাক্সা"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Manas National Park spans Chirang and Baksa.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান চিৰাং আৰু বাক্সা জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-015",
+   "q": {
+    "en": "Manas National Park is best known for which of the following?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its hilly forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "the pygmy hog",
+     "as": "পিগমি হগ"
+    },
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Manas National Park is known for the pygmy hog.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান পিগমি হগৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-016",
+   "q": {
+    "en": "Manas National Park is also noted for which of the following?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hot water springs",
+     "as": "ইয়াৰ উষ্ণ পানীৰ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "its Ramsar status",
+     "as": "ইয়াৰ ৰামছাৰ মৰ্যাদা"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Manas National Park is also noted for the golden langur.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান সোণালী বান্দৰৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-017",
+   "q": {
+    "en": "In which year was Manas National Park established?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1990",
+     "as": "1990"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1987",
+     "as": "1987"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park was established in 1990.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান 1990 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-018",
+   "q": {
+    "en": "When was Manas National Park notified?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1987",
+     "as": "1987"
+    },
+    {
+     "en": "1990",
+     "as": "1990"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Manas National Park was notified in 1990.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান 1990 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-019",
+   "q": {
+    "en": "Manas National Park is a ___ of Assam.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Manas National Park is a national park of Assam.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-020",
+   "q": {
+    "en": "Which protected area of Assam is located in Chirang and Baksa?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল চিৰাং আৰু বাক্সা জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+     "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Manas National Park is located in Chirang and Baksa.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান চিৰাং আৰু বাক্সা জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-021",
+   "q": {
+    "en": "Which protected area of Assam is known for the pygmy hog?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল পিগমি হগৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+     "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park is known for the pygmy hog.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান পিগমি হগৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-022",
+   "q": {
+    "en": "Manas National Park is associated with which river?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Manas National Park is associated with the Manas river.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান মানস নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-023",
+   "q": {
+    "en": "Which protected area of Assam lies along the Manas river?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল মানস নদীৰ কাষত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Laokhowa Wildlife Sanctuary",
+     "as": "লাওখোৱা অভয়াৰণ্য"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Manas National Park lies along the Manas river.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান মানস নদীৰ কাষত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-024",
+   "q": {
+    "en": "Is Manas National Park a national park of Assam?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান অসমৰ ৰাষ্ট্ৰীয় উদ্যান হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a wildlife sanctuary",
+     "as": "নহয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "Yes, it is a national park",
+     "as": "হয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Manas National Park is a national park of Assam.",
+    "as": "হয়, মানস ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-025",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Manas National Park located?",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas National Park is on the north bank of the Brahmaputra.",
+    "as": "মানস ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-026",
+   "q": {
+    "en": "In which district is Nameri National Park located?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nameri National Park is located in Sonitpur.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-027",
+   "q": {
+    "en": "Which districts of Assam does Nameri National Park span?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nameri National Park spans Sonitpur.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান শোণিতপুৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-028",
+   "q": {
+    "en": "Nameri National Park is best known for which of the following?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "feral horses",
+     "as": "বনৰীয়া ঘোঁৰা"
+    },
+    {
+     "en": "its forests and wildlife",
+     "as": "ইয়াৰ বনাঞ্চল আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "the hoolock gibbon",
+     "as": "হলৌ গিবন"
+    },
+    {
+     "en": "elephants and tigers",
+     "as": "হাতী আৰু বাঘ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nameri National Park is known for elephants and tigers.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান হাতী আৰু বাঘৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-029",
+   "q": {
+    "en": "Nameri National Park is also noted for which of the following?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    },
+    {
+     "en": "its primate diversity",
+     "as": "ইয়াৰ প্ৰাইমেট বৈচিত্ৰ্য"
+    },
+    {
+     "en": "its hill forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nameri National Park is also noted for its birdlife.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান ইয়াৰ চৰাইৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-030",
+   "q": {
+    "en": "In which year was Nameri National Park established?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1974",
+     "as": "1974"
+    },
+    {
+     "en": "1996",
+     "as": "1996"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nameri National Park was established in 1998.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান 1998 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-031",
+   "q": {
+    "en": "When was Nameri National Park notified?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1996",
+     "as": "1996"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1974",
+     "as": "1974"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nameri National Park was notified in 1998.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান 1998 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-032",
+   "q": {
+    "en": "Nameri National Park is a ___ of Assam.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nameri National Park is a national park of Assam.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-033",
+   "q": {
+    "en": "Which protected area of Assam is located in Sonitpur?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল শোণিতপুৰ জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nambor Wildlife Sanctuary",
+     "as": "নামবৰ অভয়াৰণ্য"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nameri National Park is located in Sonitpur.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-034",
+   "q": {
+    "en": "Which protected area of Assam is known for elephants and tigers?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল হাতী আৰু বাঘৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Nambor Wildlife Sanctuary",
+     "as": "নামবৰ অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nameri National Park is known for elephants and tigers.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান হাতী আৰু বাঘৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-035",
+   "q": {
+    "en": "Nameri National Park is associated with which river?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nameri National Park is associated with the Jia Bharali river.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান জিয়া ভৰলী নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-036",
+   "q": {
+    "en": "Which protected area of Assam lies along the Jia Bharali river?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল জিয়া ভৰলী নদীৰ কাষত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Pobitora Wildlife Sanctuary",
+     "as": "পবিতৰা অভয়াৰণ্য"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nameri National Park lies along the Jia Bharali river.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান জিয়া ভৰলী নদীৰ কাষত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-037",
+   "q": {
+    "en": "Is Nameri National Park a national park of Assam?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান অসমৰ ৰাষ্ট্ৰীয় উদ্যান হয়নে?"
+   },
+   "options": [
+    {
+     "en": "Yes, it is a national park",
+     "as": "হয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a wildlife sanctuary",
+     "as": "নহয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Yes, Nameri National Park is a national park of Assam.",
+    "as": "হয়, নামেৰি ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-038",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Nameri National Park located?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nameri National Park is on the north bank of the Brahmaputra.",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-039",
+   "q": {
+    "en": "In which district is Orang National Park located?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Orang National Park is located in Darrang and Sonitpur.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান দৰং আৰু শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-040",
+   "q": {
+    "en": "Which districts of Assam does Orang National Park span?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Orang National Park spans Darrang and Sonitpur.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান দৰং আৰু শোণিতপুৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-041",
+   "q": {
+    "en": "Orang National Park is best known for which of the following?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "its rainforest",
+     "as": "ইয়াৰ বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "its grasslands and rhinoceros",
+     "as": "ইয়াৰ তৃণভূমি আৰু গঁড়"
+    },
+    {
+     "en": "its forests and wildlife",
+     "as": "ইয়াৰ বনাঞ্চল আৰু বন্যপ্ৰাণী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orang National Park is known for the one-horned rhinoceros.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-042",
+   "q": {
+    "en": "Orang National Park is also noted for which of the following?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hot water springs",
+     "as": "ইয়াৰ উষ্ণ পানীৰ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "the Bengal florican",
+     "as": "বেংগল ফ্ল'ৰিকান"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Orang National Park is also noted for the Bengal florican.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান বেংগল ফ্ল'ৰিকানৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-043",
+   "q": {
+    "en": "In which year was Orang National Park established?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Orang National Park was established in 1999.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান 1999 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-044",
+   "q": {
+    "en": "When was Orang National Park notified?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Orang National Park was notified in 1999.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান 1999 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-045",
+   "q": {
+    "en": "Orang National Park is a ___ of Assam.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orang National Park is a national park of Assam.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-046",
+   "q": {
+    "en": "Which protected area of Assam is located in Darrang and Sonitpur?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল দৰং আৰু শোণিতপুৰ জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Kaziranga National Park",
+     "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Bordoibam-Bilmukh Wildlife Sanctuary",
+     "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য"
+    },
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Orang National Park is located in Darrang and Sonitpur.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান দৰং আৰু শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-047",
+   "q": {
+    "en": "Orang National Park is associated with which river?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    },
+    {
+     "en": "Dihing",
+     "as": "দিহিং"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Orang National Park is associated with the Brahmaputra river.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰ নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-048",
+   "q": {
+    "en": "Is Orang National Park a national park of Assam?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান অসমৰ ৰাষ্ট্ৰীয় উদ্যান হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a wildlife sanctuary",
+     "as": "নহয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "Yes, it is a national park",
+     "as": "হয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Orang National Park is a national park of Assam.",
+    "as": "হয়, ওৰাং ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-049",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Orang National Park located?",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Orang National Park is on the north bank of the Brahmaputra.",
+    "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-050",
+   "q": {
+    "en": "In which district is Dibru-Saikhowa National Park located?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Golaghat and Karbi Anglong",
+     "as": "গোলাঘাট আৰু কাৰ্বি আংলং"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is located in Tinsukia and Dibrugarh.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান তিনিচুকীয়া আৰু ডিব্ৰুগড় জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-051",
+   "q": {
+    "en": "Which districts of Assam does Dibru-Saikhowa National Park span?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Golaghat and Karbi Anglong",
+     "as": "গোলাঘাট আৰু কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park spans Tinsukia and Dibrugarh.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান তিনিচুকীয়া আৰু ডিব্ৰুগড় জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-052",
+   "q": {
+    "en": "Dibru-Saikhowa National Park is best known for which of the following?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "elephants",
+     "as": "হাতী"
+    },
+    {
+     "en": "its grasslands and rhinoceros",
+     "as": "ইয়াৰ তৃণভূমি আৰু গঁড়"
+    },
+    {
+     "en": "the pygmy hog",
+     "as": "পিগমি হগ"
+    },
+    {
+     "en": "feral horses",
+     "as": "বনৰীয়া ঘোঁৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is known for feral horses.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান বনৰীয়া ঘোঁৰাৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-053",
+   "q": {
+    "en": "Dibru-Saikhowa National Park is also noted for which of the following?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its riverine islands",
+     "as": "ইয়াৰ নদীদ্বীপ"
+    },
+    {
+     "en": "its hill forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    },
+    {
+     "en": "its wetland habitat",
+     "as": "ইয়াৰ জলাশয়"
+    },
+    {
+     "en": "its Ramsar status",
+     "as": "ইয়াৰ ৰামছাৰ মৰ্যাদা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is also noted for its riverine islands.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান ইয়াৰ নদীদ্বীপৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-054",
+   "q": {
+    "en": "In which year was Dibru-Saikhowa National Park established?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1995",
+     "as": "1995"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park was established in 1999.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান 1999 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-055",
+   "q": {
+    "en": "When was Dibru-Saikhowa National Park notified?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1995",
+     "as": "1995"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park was notified in 1999.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান 1999 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-056",
+   "q": {
+    "en": "Dibru-Saikhowa National Park is a ___ of Assam.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is a national park of Assam.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-057",
+   "q": {
+    "en": "Which protected area of Assam is located in Tinsukia and Dibrugarh?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল তিনিচুকীয়া আৰু ডিব্ৰুগড় জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Borail Wildlife Sanctuary",
+     "as": "বৰাইল অভয়াৰণ্য"
+    },
+    {
+     "en": "Garampani Wildlife Sanctuary",
+     "as": "গৰমপানী অভয়াৰণ্য"
+    },
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is located in Tinsukia and Dibrugarh.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান তিনিচুকীয়া আৰু ডিব্ৰুগড় জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-058",
+   "q": {
+    "en": "Which protected area of Assam is known for feral horses?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল বনৰীয়া ঘোঁৰাৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Borail Wildlife Sanctuary",
+     "as": "বৰাইল অভয়াৰণ্য"
+    },
+    {
+     "en": "Garampani Wildlife Sanctuary",
+     "as": "গৰমপানী অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is known for feral horses.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান বনৰীয়া ঘোঁৰাৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-059",
+   "q": {
+    "en": "Dibru-Saikhowa National Park is associated with which river?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Dihing",
+     "as": "দিহিং"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is associated with the Brahmaputra river.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰ নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-060",
+   "q": {
+    "en": "Is Dibru-Saikhowa National Park a national park of Assam?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান অসমৰ ৰাষ্ট্ৰীয় উদ্যান হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a wildlife sanctuary",
+     "as": "নহয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "Yes, it is a national park",
+     "as": "হয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Dibru-Saikhowa National Park is a national park of Assam.",
+    "as": "হয়, ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-061",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Dibru-Saikhowa National Park located?",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dibru-Saikhowa National Park is on the north bank of the Brahmaputra.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-062",
+   "q": {
+    "en": "In which district is Dehing Patkai National Park located?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dehing Patkai National Park is located in Tinsukia and Dibrugarh.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান তিনিচুকীয়া আৰু ডিব্ৰুগড় জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-063",
+   "q": {
+    "en": "Which districts of Assam does Dehing Patkai National Park span?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dehing Patkai National Park spans Tinsukia and Dibrugarh.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান তিনিচুকীয়া আৰু ডিব্ৰুগড় জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-064",
+   "q": {
+    "en": "Dehing Patkai National Park is best known for which of the following?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "elephants and tigers",
+     "as": "হাতী আৰু বাঘ"
+    },
+    {
+     "en": "migratory birds",
+     "as": "পৰিভ্ৰমী চৰাই"
+    },
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    },
+    {
+     "en": "its rainforest",
+     "as": "ইয়াৰ বৰ্ষাৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dehing Patkai National Park is known for its rainforest.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান ইয়াৰ বৰ্ষাৰণ্যৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-065",
+   "q": {
+    "en": "Dehing Patkai National Park is also noted for which of the following?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "the hoolock gibbon",
+     "as": "হলৌ গিবন"
+    },
+    {
+     "en": "its elephant population",
+     "as": "ইয়াৰ হাতী"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    },
+    {
+     "en": "its dense forests",
+     "as": "ইয়াৰ ঘন বনাঞ্চল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dehing Patkai National Park is also noted for the hoolock gibbon.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান হলৌ গিবনৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-066",
+   "q": {
+    "en": "In which year was Dehing Patkai National Park established?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1966",
+     "as": "1966"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1989",
+     "as": "1989"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dehing Patkai National Park was established in 2004.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান 2004 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-067",
+   "q": {
+    "en": "When was Dehing Patkai National Park notified?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1989",
+     "as": "1989"
+    },
+    {
+     "en": "1966",
+     "as": "1966"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dehing Patkai National Park was notified in 2004.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান 2004 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-068",
+   "q": {
+    "en": "Dehing Patkai National Park is a ___ of Assam.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dehing Patkai National Park is a national park of Assam.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-069",
+   "q": {
+    "en": "Which protected area of Assam is known for its rainforest?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ বৰ্ষাৰণ্যৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Laokhowa Wildlife Sanctuary",
+     "as": "লাওখোৱা অভয়াৰণ্য"
+    },
+    {
+     "en": "Gibbon Wildlife Sanctuary",
+     "as": "গিবন অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dehing Patkai National Park is known for its rainforest.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান ইয়াৰ বৰ্ষাৰণ্যৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-070",
+   "q": {
+    "en": "Dehing Patkai National Park is associated with which river?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    },
+    {
+     "en": "Dihing",
+     "as": "দিহিং"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dehing Patkai National Park is associated with the Dihing river.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান দিহিং নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-071",
+   "q": {
+    "en": "Which protected area of Assam lies along the Dihing river?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল দিহিং নদীৰ কাষত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Laokhowa Wildlife Sanctuary",
+     "as": "লাওখোৱা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dehing Patkai National Park lies along the Dihing river.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান দিহিং নদীৰ কাষত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-072",
+   "q": {
+    "en": "Is Dehing Patkai National Park a national park of Assam?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান অসমৰ ৰাষ্ট্ৰীয় উদ্যান হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a wildlife sanctuary",
+     "as": "নহয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a national park",
+     "as": "হয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Dehing Patkai National Park is a national park of Assam.",
+    "as": "হয়, দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-073",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Dehing Patkai National Park located?",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dehing Patkai National Park is on the north bank of the Brahmaputra.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-074",
+   "q": {
+    "en": "In which district is Raimona National Park located?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Raimona National Park is located in Kokrajhar.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কোকৰাঝাৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-075",
+   "q": {
+    "en": "Which districts of Assam does Raimona National Park span?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Raimona National Park spans Kokrajhar.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কোকৰাঝাৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-076",
+   "q": {
+    "en": "Raimona National Park is best known for which of the following?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "migratory birds",
+     "as": "পৰিভ্ৰমী চৰাই"
+    },
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raimona National Park is known for the golden langur.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান সোণালী বান্দৰৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-077",
+   "q": {
+    "en": "Raimona National Park is also noted for which of the following?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its elephant corridor",
+     "as": "ইয়াৰ হাতী কৰিডৰ"
+    },
+    {
+     "en": "its hot water springs",
+     "as": "ইয়াৰ উষ্ণ পানীৰ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "its rhino habitat",
+     "as": "ইয়াৰ গঁড়ৰ বাসস্থান"
+    },
+    {
+     "en": "its wetland habitat",
+     "as": "ইয়াৰ জলাশয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raimona National Park is also noted for its elephant corridor.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান ইয়াৰ হাতী কৰিডৰৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-078",
+   "q": {
+    "en": "In which year was Raimona National Park established?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Raimona National Park was established in 2021.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান 2021 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-079",
+   "q": {
+    "en": "When was Raimona National Park notified?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Raimona National Park was notified in 2021.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান 2021 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-080",
+   "q": {
+    "en": "Raimona National Park is a ___ of Assam.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raimona National Park is a national park of Assam.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-081",
+   "q": {
+    "en": "Which protected area of Assam is located in Kokrajhar?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল কোকৰাঝাৰ জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Bordoibam-Bilmukh Wildlife Sanctuary",
+     "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Raimona National Park is located in Kokrajhar.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কোকৰাঝাৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-082",
+   "q": {
+    "en": "Which protected area of Assam is known for the golden langur?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল সোণালী বান্দৰৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Bordoibam-Bilmukh Wildlife Sanctuary",
+     "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Raimona National Park is known for the golden langur.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান সোণালী বান্দৰৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-083",
+   "q": {
+    "en": "Raimona National Park is associated with which river?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Raimona National Park is associated with the Sankosh river.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান শোণকোষ নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-084",
+   "q": {
+    "en": "Which protected area of Assam lies along the Sankosh river?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল শোণকোষ নদীৰ কাষত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Pobitora Wildlife Sanctuary",
+     "as": "পবিতৰা অভয়াৰণ্য"
+    },
+    {
+     "en": "Laokhowa Wildlife Sanctuary",
+     "as": "লাওখোৱা অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Raimona National Park lies along the Sankosh river.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান শোণকোষ নদীৰ কাষত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-085",
+   "q": {
+    "en": "Is Raimona National Park a national park of Assam?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান অসমৰ ৰাষ্ট্ৰীয় উদ্যান হয়নে?"
+   },
+   "options": [
+    {
+     "en": "Yes, it is a national park",
+     "as": "হয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a wildlife sanctuary",
+     "as": "নহয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Yes, Raimona National Park is a national park of Assam.",
+    "as": "হয়, ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান অসমৰ এটা ৰাষ্ট্ৰীয় উদ্যান।"
+   }
+  },
+  {
+   "id": "assam-national-parks-086",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Raimona National Park located?",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Raimona National Park is on the north bank of the Brahmaputra.",
+    "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-087",
+   "q": {
+    "en": "In which district is Pobitora Wildlife Sanctuary located?",
+    "as": "পবিতৰা অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Morigaon",
+     "as": "মৰিগাঁও"
+    },
+    {
+     "en": "Chirang and Baksa",
+     "as": "চিৰাং আৰু বাক্সা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary is located in Morigaon.",
+    "as": "পবিতৰা অভয়াৰণ্য মৰিগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-088",
+   "q": {
+    "en": "Which districts of Assam does Pobitora Wildlife Sanctuary span?",
+    "as": "পবিতৰা অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Chirang and Baksa",
+     "as": "চিৰাং আৰু বাক্সা"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Morigaon",
+     "as": "মৰিগাঁও"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary spans Morigaon.",
+    "as": "পবিতৰা অভয়াৰণ্য মৰিগাঁও জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-089",
+   "q": {
+    "en": "Pobitora Wildlife Sanctuary is best known for which of the following?",
+    "as": "পবিতৰা অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "migratory birds",
+     "as": "পৰিভ্ৰমী চৰাই"
+    },
+    {
+     "en": "its grasslands and rhinoceros",
+     "as": "ইয়াৰ তৃণভূমি আৰু গঁড়"
+    },
+    {
+     "en": "the pygmy hog",
+     "as": "পিগমি হগ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary is known for the one-horned rhinoceros.",
+    "as": "পবিতৰা অভয়াৰণ্য এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-090",
+   "q": {
+    "en": "Pobitora Wildlife Sanctuary is also noted for which of the following?",
+    "as": "পবিতৰা অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    },
+    {
+     "en": "the highest rhino density",
+     "as": "সৰ্বাধিক গঁড়ৰ ঘনত্ব"
+    },
+    {
+     "en": "wild water buffalo",
+     "as": "বনৰীয়া ম'হ"
+    },
+    {
+     "en": "its rhino habitat",
+     "as": "ইয়াৰ গঁড়ৰ বাসস্থান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary is also noted for the highest rhino density.",
+    "as": "পবিতৰা অভয়াৰণ্য সৰ্বাধিক গঁড়ৰ ঘনত্বৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-091",
+   "q": {
+    "en": "In which year was Pobitora Wildlife Sanctuary established?",
+    "as": "পবিতৰা অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1987",
+     "as": "1987"
+    },
+    {
+     "en": "1996",
+     "as": "1996"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary was established in 1987.",
+    "as": "পবিতৰা অভয়াৰণ্য 1987 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-092",
+   "q": {
+    "en": "When was Pobitora Wildlife Sanctuary notified?",
+    "as": "পবিতৰা অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1996",
+     "as": "1996"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1987",
+     "as": "1987"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary was notified in 1987.",
+    "as": "পবিতৰা অভয়াৰণ্য 1987 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-093",
+   "q": {
+    "en": "Pobitora Wildlife Sanctuary is a ___ of Assam.",
+    "as": "পবিতৰা অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "পবিতৰা অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-094",
+   "q": {
+    "en": "Which protected area of Assam is located in Morigaon?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল মৰিগাঁও জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Pobitora Wildlife Sanctuary",
+     "as": "পবিতৰা অভয়াৰণ্য"
+    },
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Laokhowa Wildlife Sanctuary",
+     "as": "লাওখোৱা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary is located in Morigaon.",
+    "as": "পবিতৰা অভয়াৰণ্য মৰিগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-095",
+   "q": {
+    "en": "Pobitora Wildlife Sanctuary is associated with which river?",
+    "as": "পবিতৰা অভয়াৰণ্য কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Dihing",
+     "as": "দিহিং"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary is associated with the Brahmaputra river.",
+    "as": "পবিতৰা অভয়াৰণ্য ব্ৰহ্মপুত্ৰ নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-096",
+   "q": {
+    "en": "Is Pobitora Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "পবিতৰা অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Pobitora Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, পবিতৰা অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-097",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Pobitora Wildlife Sanctuary located?",
+    "as": "পবিতৰা অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Pobitora Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "পবিতৰা অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-098",
+   "q": {
+    "en": "In which district is Chakrashila Wildlife Sanctuary located?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary is located in Kokrajhar and Dhubri.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য কোকৰাঝাৰ আৰু ধুবুৰী জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-099",
+   "q": {
+    "en": "Which districts of Assam does Chakrashila Wildlife Sanctuary span?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary spans Kokrajhar and Dhubri.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য কোকৰাঝাৰ আৰু ধুবুৰী জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-100",
+   "q": {
+    "en": "Chakrashila Wildlife Sanctuary is best known for which of the following?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    },
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    },
+    {
+     "en": "its grasslands and rhinoceros",
+     "as": "ইয়াৰ তৃণভূমি আৰু গঁড়"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary is known for the golden langur.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য সোণালী বান্দৰৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-101",
+   "q": {
+    "en": "Chakrashila Wildlife Sanctuary is also noted for which of the following?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its golden langur population",
+     "as": "ইয়াৰ সোণালী বান্দৰ"
+    },
+    {
+     "en": "its hot water springs",
+     "as": "ইয়াৰ উষ্ণ পানীৰ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "its hispid hare",
+     "as": "ইয়াৰ হিস্পিড হেৰ"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary is also noted for its golden langur population.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য ইয়াৰ সোণালী বান্দৰৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-102",
+   "q": {
+    "en": "In which year was Chakrashila Wildlife Sanctuary established?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "1966",
+     "as": "1966"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary was established in 1966.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য 1966 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-103",
+   "q": {
+    "en": "When was Chakrashila Wildlife Sanctuary notified?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "1966",
+     "as": "1966"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary was notified in 1966.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য 1966 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-104",
+   "q": {
+    "en": "Chakrashila Wildlife Sanctuary is a ___ of Assam.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-105",
+   "q": {
+    "en": "Which protected area of Assam is located in Kokrajhar and Dhubri?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল কোকৰাঝাৰ আৰু ধুবুৰী জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    },
+    {
+     "en": "Gibbon Wildlife Sanctuary",
+     "as": "গিবন অভয়াৰণ্য"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dibru-Saikhowa National Park",
+     "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary is located in Kokrajhar and Dhubri.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য কোকৰাঝাৰ আৰু ধুবুৰী জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-106",
+   "q": {
+    "en": "Is Chakrashila Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Yes, Chakrashila Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, চক্ৰশিলা অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-107",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Chakrashila Wildlife Sanctuary located?",
+    "as": "চক্ৰশিলা অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Chakrashila Wildlife Sanctuary is on the north bank of the Brahmaputra.",
+    "as": "চক্ৰশিলা অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-108",
+   "q": {
+    "en": "In which district is Gibbon Wildlife Sanctuary located?",
+    "as": "গিবন অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary is located in Jorhat.",
+    "as": "গিবন অভয়াৰণ্য যোৰহাট জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-109",
+   "q": {
+    "en": "Which districts of Assam does Gibbon Wildlife Sanctuary span?",
+    "as": "গিবন অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary spans Jorhat.",
+    "as": "গিবন অভয়াৰণ্য যোৰহাট জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-110",
+   "q": {
+    "en": "Gibbon Wildlife Sanctuary is best known for which of the following?",
+    "as": "গিবন অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its hills and forests",
+     "as": "ইয়াৰ পাহাৰ আৰু বনাঞ্চল"
+    },
+    {
+     "en": "the hoolock gibbon",
+     "as": "হলৌ গিবন"
+    },
+    {
+     "en": "the pygmy hog",
+     "as": "পিগমি হগ"
+    },
+    {
+     "en": "its rainforest",
+     "as": "ইয়াৰ বৰ্ষাৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary is known for the hoolock gibbon.",
+    "as": "গিবন অভয়াৰণ্য হলৌ গিবনৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-111",
+   "q": {
+    "en": "Gibbon Wildlife Sanctuary is also noted for which of the following?",
+    "as": "গিবন অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hot water springs",
+     "as": "ইয়াৰ উষ্ণ পানীৰ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "its wetland habitat",
+     "as": "ইয়াৰ জলাশয়"
+    },
+    {
+     "en": "its primate diversity",
+     "as": "ইয়াৰ প্ৰাইমেট বৈচিত্ৰ্য"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary is also noted for its primate diversity.",
+    "as": "গিবন অভয়াৰণ্য ইয়াৰ প্ৰাইমেট বৈচিত্ৰ্যৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-112",
+   "q": {
+    "en": "In which year was Gibbon Wildlife Sanctuary established?",
+    "as": "গিবন অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1995",
+     "as": "1995"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary was established in 1997.",
+    "as": "গিবন অভয়াৰণ্য 1997 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-113",
+   "q": {
+    "en": "When was Gibbon Wildlife Sanctuary notified?",
+    "as": "গিবন অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1995",
+     "as": "1995"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary was notified in 1997.",
+    "as": "গিবন অভয়াৰণ্য 1997 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-114",
+   "q": {
+    "en": "Gibbon Wildlife Sanctuary is a ___ of Assam.",
+    "as": "গিবন অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "গিবন অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-115",
+   "q": {
+    "en": "Which protected area of Assam is located in Jorhat?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল যোৰহাট জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Gibbon Wildlife Sanctuary",
+     "as": "গিবন অভয়াৰণ্য"
+    },
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary is located in Jorhat.",
+    "as": "গিবন অভয়াৰণ্য যোৰহাট জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-116",
+   "q": {
+    "en": "Which protected area of Assam is known for the hoolock gibbon?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল হলৌ গিবনৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Manas National Park",
+     "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Gibbon Wildlife Sanctuary",
+     "as": "গিবন অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary is known for the hoolock gibbon.",
+    "as": "গিবন অভয়াৰণ্য হলৌ গিবনৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-117",
+   "q": {
+    "en": "Is Gibbon Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "গিবন অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Yes, Gibbon Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, গিবন অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-118",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Gibbon Wildlife Sanctuary located?",
+    "as": "গিবন অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Gibbon Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "গিবন অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-119",
+   "q": {
+    "en": "In which district is Deepor Beel Wildlife Sanctuary located?",
+    "as": "দীপৰ বিল অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary is located in Kamrup Metropolitan.",
+    "as": "দীপৰ বিল অভয়াৰণ্য কামৰূপ মহানগৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-120",
+   "q": {
+    "en": "Which districts of Assam does Deepor Beel Wildlife Sanctuary span?",
+    "as": "দীপৰ বিল অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary spans Kamrup Metropolitan.",
+    "as": "দীপৰ বিল অভয়াৰণ্য কামৰূপ মহানগৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-121",
+   "q": {
+    "en": "Deepor Beel Wildlife Sanctuary is best known for which of the following?",
+    "as": "দীপৰ বিল অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    },
+    {
+     "en": "its rainforest",
+     "as": "ইয়াৰ বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "its rich forest cover",
+     "as": "ইয়াৰ সমৃদ্ধ বনাঞ্চল"
+    },
+    {
+     "en": "its hot springs",
+     "as": "ইয়াৰ উষ্ণ প্ৰস্ৰৱন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary is known for its wetland birds.",
+    "as": "দীপৰ বিল অভয়াৰণ্য ইয়াৰ জলচৰ চৰাইৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-122",
+   "q": {
+    "en": "Deepor Beel Wildlife Sanctuary is also noted for which of the following?",
+    "as": "দীপৰ বিল অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "the Bengal florican",
+     "as": "বেংগল ফ্ল'ৰিকান"
+    },
+    {
+     "en": "its Ramsar status",
+     "as": "ইয়াৰ ৰামছাৰ মৰ্যাদা"
+    },
+    {
+     "en": "its hispid hare",
+     "as": "ইয়াৰ হিস্পিড হেৰ"
+    },
+    {
+     "en": "its primate diversity",
+     "as": "ইয়াৰ প্ৰাইমেট বৈচিত্ৰ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary is also noted for its Ramsar status.",
+    "as": "দীপৰ বিল অভয়াৰণ্য ইয়াৰ ৰামছাৰ মৰ্যাদাৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-123",
+   "q": {
+    "en": "In which year was Deepor Beel Wildlife Sanctuary established?",
+    "as": "দীপৰ বিল অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "1974",
+     "as": "1974"
+    },
+    {
+     "en": "1989",
+     "as": "1989"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary was established in 1989.",
+    "as": "দীপৰ বিল অভয়াৰণ্য 1989 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-124",
+   "q": {
+    "en": "When was Deepor Beel Wildlife Sanctuary notified?",
+    "as": "দীপৰ বিল অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2003",
+     "as": "2003"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "1974",
+     "as": "1974"
+    },
+    {
+     "en": "1989",
+     "as": "1989"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary was notified in 1989.",
+    "as": "দীপৰ বিল অভয়াৰণ্য 1989 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-125",
+   "q": {
+    "en": "Deepor Beel Wildlife Sanctuary is a ___ of Assam.",
+    "as": "দীপৰ বিল অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "দীপৰ বিল অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-126",
+   "q": {
+    "en": "Which protected area of Assam is located in Kamrup Metropolitan?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল কামৰূপ মহানগৰ জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Amchang Wildlife Sanctuary",
+     "as": "আমচাং অভয়াৰণ্য"
+    },
+    {
+     "en": "Deepor Beel Wildlife Sanctuary",
+     "as": "দীপৰ বিল অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    },
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary is located in Kamrup Metropolitan.",
+    "as": "দীপৰ বিল অভয়াৰণ্য কামৰূপ মহানগৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-127",
+   "q": {
+    "en": "Which protected area of Assam is known for its wetland birds?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ জলচৰ চৰাইৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    },
+    {
+     "en": "Amchang Wildlife Sanctuary",
+     "as": "আমচাং অভয়াৰণ্য"
+    },
+    {
+     "en": "Deepor Beel Wildlife Sanctuary",
+     "as": "দীপৰ বিল অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary is known for its wetland birds.",
+    "as": "দীপৰ বিল অভয়াৰণ্য ইয়াৰ জলচৰ চৰাইৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-128",
+   "q": {
+    "en": "Is Deepor Beel Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "দীপৰ বিল অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Deepor Beel Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, দীপৰ বিল অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-129",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Deepor Beel Wildlife Sanctuary located?",
+    "as": "দীপৰ বিল অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepor Beel Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "দীপৰ বিল অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-130",
+   "q": {
+    "en": "In which district is Panidihing Wildlife Sanctuary located?",
+    "as": "পানীদিহিং অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Chirang and Baksa",
+     "as": "চিৰাং আৰু বাক্সা"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary is located in Sivasagar.",
+    "as": "পানীদিহিং অভয়াৰণ্য শিৱসাগৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-131",
+   "q": {
+    "en": "Which districts of Assam does Panidihing Wildlife Sanctuary span?",
+    "as": "পানীদিহিং অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Chirang and Baksa",
+     "as": "চিৰাং আৰু বাক্সা"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary spans Sivasagar.",
+    "as": "পানীদিহিং অভয়াৰণ্য শিৱসাগৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-132",
+   "q": {
+    "en": "Panidihing Wildlife Sanctuary is best known for which of the following?",
+    "as": "পানীদিহিং অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "migratory birds",
+     "as": "পৰিভ্ৰমী চৰাই"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary is known for migratory birds.",
+    "as": "পানীদিহিং অভয়াৰণ্য পৰিভ্ৰমী চৰাইৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-133",
+   "q": {
+    "en": "Panidihing Wildlife Sanctuary is also noted for which of the following?",
+    "as": "পানীদিহিং অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    },
+    {
+     "en": "its forest habitat",
+     "as": "ইয়াৰ বনাঞ্চল"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    },
+    {
+     "en": "its grassland habitat",
+     "as": "ইয়াৰ তৃণভূমি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary is also noted for its birdlife.",
+    "as": "পানীদিহিং অভয়াৰণ্য ইয়াৰ চৰাইৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-134",
+   "q": {
+    "en": "In which year was Panidihing Wildlife Sanctuary established?",
+    "as": "পানীদিহিং অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1974",
+     "as": "1974"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary was established in 1999.",
+    "as": "পানীদিহিং অভয়াৰণ্য 1999 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-135",
+   "q": {
+    "en": "When was Panidihing Wildlife Sanctuary notified?",
+    "as": "পানীদিহিং অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "1974",
+     "as": "1974"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary was notified in 1999.",
+    "as": "পানীদিহিং অভয়াৰণ্য 1999 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-136",
+   "q": {
+    "en": "Panidihing Wildlife Sanctuary is a ___ of Assam.",
+    "as": "পানীদিহিং অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "পানীদিহিং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-137",
+   "q": {
+    "en": "Which protected area of Assam is located in Sivasagar?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল শিৱসাগৰ জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Panidihing Wildlife Sanctuary",
+     "as": "পানীদিহিং অভয়াৰণ্য"
+    },
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary is located in Sivasagar.",
+    "as": "পানীদিহিং অভয়াৰণ্য শিৱসাগৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-138",
+   "q": {
+    "en": "Which protected area of Assam is known for migratory birds?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল পৰিভ্ৰমী চৰাইৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Panidihing Wildlife Sanctuary",
+     "as": "পানীদিহিং অভয়াৰণ্য"
+    },
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary is known for migratory birds.",
+    "as": "পানীদিহিং অভয়াৰণ্য পৰিভ্ৰমী চৰাইৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-139",
+   "q": {
+    "en": "Is Panidihing Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "পানীদিহিং অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Yes, Panidihing Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, পানীদিহিং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-140",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Panidihing Wildlife Sanctuary located?",
+    "as": "পানীদিহিং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Panidihing Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "পানীদিহিং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-141",
+   "q": {
+    "en": "In which district is Burachapori Wildlife Sanctuary located?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary is located in Sonitpur.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-142",
+   "q": {
+    "en": "Which districts of Assam does Burachapori Wildlife Sanctuary span?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary spans Sonitpur.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য শোণিতপুৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-143",
+   "q": {
+    "en": "Burachapori Wildlife Sanctuary is best known for which of the following?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    },
+    {
+     "en": "its grasslands and rhinoceros",
+     "as": "ইয়াৰ তৃণভূমি আৰু গঁড়"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary is known for its grasslands and rhinoceros.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য ইয়াৰ তৃণভূমি আৰু গঁড়ৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-144",
+   "q": {
+    "en": "Burachapori Wildlife Sanctuary is also noted for which of the following?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hill wildlife",
+     "as": "ইয়াৰ পাহাৰীয়া বন্যপ্ৰাণী"
+    },
+    {
+     "en": "its elephant population",
+     "as": "ইয়াৰ হাতী"
+    },
+    {
+     "en": "its Ramsar status",
+     "as": "ইয়াৰ ৰামছাৰ মৰ্যাদা"
+    },
+    {
+     "en": "its grassland habitat",
+     "as": "ইয়াৰ তৃণভূমি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary is also noted for its grassland habitat.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য ইয়াৰ তৃণভূমিৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-145",
+   "q": {
+    "en": "In which year was Burachapori Wildlife Sanctuary established?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1995",
+     "as": "1995"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary was established in 1995.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য 1995 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-146",
+   "q": {
+    "en": "When was Burachapori Wildlife Sanctuary notified?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1995",
+     "as": "1995"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary was notified in 1995.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য 1995 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-147",
+   "q": {
+    "en": "Burachapori Wildlife Sanctuary is a ___ of Assam.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-148",
+   "q": {
+    "en": "Which protected area of Assam is known for its grasslands and rhinoceros?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ তৃণভূমি আৰু গঁড়ৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Borail Wildlife Sanctuary",
+     "as": "বৰাইল অভয়াৰণ্য"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+     "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য"
+    },
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary is known for its grasslands and rhinoceros.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য ইয়াৰ তৃণভূমি আৰু গঁড়ৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-149",
+   "q": {
+    "en": "Burachapori Wildlife Sanctuary is associated with which river?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    },
+    {
+     "en": "Dihing",
+     "as": "দিহিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary is associated with the Brahmaputra river.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য ব্ৰহ্মপুত্ৰ নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-150",
+   "q": {
+    "en": "Is Burachapori Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Yes, Burachapori Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, বুঢ়াচাপৰি অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-151",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Burachapori Wildlife Sanctuary located?",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Burachapori Wildlife Sanctuary is on the north bank of the Brahmaputra.",
+    "as": "বুঢ়াচাপৰি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-152",
+   "q": {
+    "en": "In which district is Sonai-Rupai Wildlife Sanctuary located?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is located in Sonitpur.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য শোণিতপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-153",
+   "q": {
+    "en": "Which districts of Assam does Sonai-Rupai Wildlife Sanctuary span?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary spans Sonitpur.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য শোণিতপুৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-154",
+   "q": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is best known for which of the following?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "feral horses",
+     "as": "বনৰীয়া ঘোঁৰা"
+    },
+    {
+     "en": "elephants",
+     "as": "হাতী"
+    },
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    },
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is known for elephants.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য হাতীৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-155",
+   "q": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is also noted for which of the following?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "the hoolock gibbon",
+     "as": "হলৌ গিবন"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    },
+    {
+     "en": "its elephant population",
+     "as": "ইয়াৰ হাতী"
+    },
+    {
+     "en": "its grassland habitat",
+     "as": "ইয়াৰ তৃণভূমি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is also noted for its elephant population.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য ইয়াৰ হাতীৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-156",
+   "q": {
+    "en": "In which year was Sonai-Rupai Wildlife Sanctuary established?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary was established in 1998.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য 1998 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-157",
+   "q": {
+    "en": "When was Sonai-Rupai Wildlife Sanctuary notified?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary was notified in 1998.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য 1998 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-158",
+   "q": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is a ___ of Assam.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-159",
+   "q": {
+    "en": "Which protected area of Assam is known for elephants?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল হাতীৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Deepor Beel Wildlife Sanctuary",
+     "as": "দীপৰ বিল অভয়াৰণ্য"
+    },
+    {
+     "en": "Nambor Wildlife Sanctuary",
+     "as": "নামবৰ অভয়াৰণ্য"
+    },
+    {
+     "en": "Sonai-Rupai Wildlife Sanctuary",
+     "as": "চোনাই-ৰূপাই অভয়াৰণ্য"
+    },
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is known for elephants.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য হাতীৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-160",
+   "q": {
+    "en": "Is Sonai-Rupai Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Sonai-Rupai Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, চোনাই-ৰূপাই অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-161",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Sonai-Rupai Wildlife Sanctuary located?",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sonai-Rupai Wildlife Sanctuary is on the north bank of the Brahmaputra.",
+    "as": "চোনাই-ৰূপাই অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-162",
+   "q": {
+    "en": "In which district is Laokhowa Wildlife Sanctuary located?",
+    "as": "লাওখোৱা অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Dhemaji and Lakhimpur",
+     "as": "ধেমাজি আৰু লখিমপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary is located in Nagaon.",
+    "as": "লাওখোৱা অভয়াৰণ্য নগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-163",
+   "q": {
+    "en": "Which districts of Assam does Laokhowa Wildlife Sanctuary span?",
+    "as": "লাওখোৱা অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Dhemaji and Lakhimpur",
+     "as": "ধেমাজি আৰু লখিমপুৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary spans Nagaon.",
+    "as": "লাওখোৱা অভয়াৰণ্য নগাঁও জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-164",
+   "q": {
+    "en": "Laokhowa Wildlife Sanctuary is best known for which of the following?",
+    "as": "লাওখোৱা অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "elephants",
+     "as": "হাতী"
+    },
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    },
+    {
+     "en": "its hilly forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary is known for the one-horned rhinoceros.",
+    "as": "লাওখোৱা অভয়াৰণ্য এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-165",
+   "q": {
+    "en": "Laokhowa Wildlife Sanctuary is also noted for which of the following?",
+    "as": "লাওখোৱা অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its rhino habitat",
+     "as": "ইয়াৰ গঁড়ৰ বাসস্থান"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    },
+    {
+     "en": "its riverine islands",
+     "as": "ইয়াৰ নদীদ্বীপ"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary is also noted for its rhino habitat.",
+    "as": "লাওখোৱা অভয়াৰণ্য ইয়াৰ গঁড়ৰ বাসস্থানৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-166",
+   "q": {
+    "en": "In which year was Laokhowa Wildlife Sanctuary established?",
+    "as": "লাওখোৱা অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary was established in 1972.",
+    "as": "লাওখোৱা অভয়াৰণ্য 1972 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-167",
+   "q": {
+    "en": "When was Laokhowa Wildlife Sanctuary notified?",
+    "as": "লাওখোৱা অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary was notified in 1972.",
+    "as": "লাওখোৱা অভয়াৰণ্য 1972 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-168",
+   "q": {
+    "en": "Laokhowa Wildlife Sanctuary is a ___ of Assam.",
+    "as": "লাওখোৱা অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "লাওখোৱা অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-169",
+   "q": {
+    "en": "Which protected area of Assam is located in Nagaon?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল নগাঁও জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Laokhowa Wildlife Sanctuary",
+     "as": "লাওখোৱা অভয়াৰণ্য"
+    },
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    },
+    {
+     "en": "Panidihing Wildlife Sanctuary",
+     "as": "পানীদিহিং অভয়াৰণ্য"
+    },
+    {
+     "en": "Garampani Wildlife Sanctuary",
+     "as": "গৰমপানী অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary is located in Nagaon.",
+    "as": "লাওখোৱা অভয়াৰণ্য নগাঁও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-170",
+   "q": {
+    "en": "Laokhowa Wildlife Sanctuary is associated with which river?",
+    "as": "লাওখোৱা অভয়াৰণ্য কোন নদীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    },
+    {
+     "en": "Dihing",
+     "as": "দিহিং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary is associated with the Brahmaputra river.",
+    "as": "লাওখোৱা অভয়াৰণ্য ব্ৰহ্মপুত্ৰ নদীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-171",
+   "q": {
+    "en": "Is Laokhowa Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "লাওখোৱা অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Yes, Laokhowa Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, লাওখোৱা অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-172",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Laokhowa Wildlife Sanctuary located?",
+    "as": "লাওখোৱা অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Laokhowa Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "লাওখোৱা অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-173",
+   "q": {
+    "en": "In which district is Nambor Wildlife Sanctuary located?",
+    "as": "নামবৰ অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat and Karbi Anglong",
+     "as": "গোলাঘাট আৰু কাৰ্বি আংলং"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary is located in Golaghat and Karbi Anglong.",
+    "as": "নামবৰ অভয়াৰণ্য গোলাঘাট আৰু কাৰ্বি আংলং জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-174",
+   "q": {
+    "en": "Which districts of Assam does Nambor Wildlife Sanctuary span?",
+    "as": "নামবৰ অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Golaghat and Karbi Anglong",
+     "as": "গোলাঘাট আৰু কাৰ্বি আংলং"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary spans Golaghat and Karbi Anglong.",
+    "as": "নামবৰ অভয়াৰণ্য গোলাঘাট আৰু কাৰ্বি আংলং জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-175",
+   "q": {
+    "en": "Nambor Wildlife Sanctuary is best known for which of the following?",
+    "as": "নামবৰ অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its forests and wildlife",
+     "as": "ইয়াৰ বনাঞ্চল আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "its hills and forests",
+     "as": "ইয়াৰ পাহাৰ আৰু বনাঞ্চল"
+    },
+    {
+     "en": "its rich forest cover",
+     "as": "ইয়াৰ সমৃদ্ধ বনাঞ্চল"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary is known for its rich forest cover.",
+    "as": "নামবৰ অভয়াৰণ্য ইয়াৰ সমৃদ্ধ বনাঞ্চলৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-176",
+   "q": {
+    "en": "Nambor Wildlife Sanctuary is also noted for which of the following?",
+    "as": "নামবৰ অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its forest habitat",
+     "as": "ইয়াৰ বনাঞ্চল"
+    },
+    {
+     "en": "the Bengal florican",
+     "as": "বেংগল ফ্ল'ৰিকান"
+    },
+    {
+     "en": "its Ramsar status",
+     "as": "ইয়াৰ ৰামছাৰ মৰ্যাদা"
+    },
+    {
+     "en": "its dense forests",
+     "as": "ইয়াৰ ঘন বনাঞ্চল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary is also noted for its dense forests.",
+    "as": "নামবৰ অভয়াৰণ্য ইয়াৰ ঘন বনাঞ্চলৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-177",
+   "q": {
+    "en": "In which year was Nambor Wildlife Sanctuary established?",
+    "as": "নামবৰ অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary was established in 1998.",
+    "as": "নামবৰ অভয়াৰণ্য 1998 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-178",
+   "q": {
+    "en": "When was Nambor Wildlife Sanctuary notified?",
+    "as": "নামবৰ অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary was notified in 1998.",
+    "as": "নামবৰ অভয়াৰণ্য 1998 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-179",
+   "q": {
+    "en": "Nambor Wildlife Sanctuary is a ___ of Assam.",
+    "as": "নামবৰ অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "নামবৰ অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-180",
+   "q": {
+    "en": "Which protected area of Assam is located in Golaghat and Karbi Anglong?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল গোলাঘাট আৰু কাৰ্বি আংলং জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Pobitora Wildlife Sanctuary",
+     "as": "পবিতৰা অভয়াৰণ্য"
+    },
+    {
+     "en": "Nambor Wildlife Sanctuary",
+     "as": "নামবৰ অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary is located in Golaghat and Karbi Anglong.",
+    "as": "নামবৰ অভয়াৰণ্য গোলাঘাট আৰু কাৰ্বি আংলং জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-181",
+   "q": {
+    "en": "Which protected area of Assam is known for its rich forest cover?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ সমৃদ্ধ বনাঞ্চলৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Nambor Wildlife Sanctuary",
+     "as": "নামবৰ অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Pobitora Wildlife Sanctuary",
+     "as": "পবিতৰা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary is known for its rich forest cover.",
+    "as": "নামবৰ অভয়াৰণ্য ইয়াৰ সমৃদ্ধ বনাঞ্চলৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-182",
+   "q": {
+    "en": "Is Nambor Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "নামবৰ অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Yes, Nambor Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, নামবৰ অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-183",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Nambor Wildlife Sanctuary located?",
+    "as": "নামবৰ অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nambor Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "নামবৰ অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-184",
+   "q": {
+    "en": "In which district is Nambor-Doigrung Wildlife Sanctuary located?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Dhemaji and Lakhimpur",
+     "as": "ধেমাজি আৰু লখিমপুৰ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is located in Golaghat.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য গোলাঘাট জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-185",
+   "q": {
+    "en": "Which districts of Assam does Nambor-Doigrung Wildlife Sanctuary span?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Dhemaji and Lakhimpur",
+     "as": "ধেমাজি আৰু লখিমপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary spans Golaghat.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য গোলাঘাট জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-186",
+   "q": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is best known for which of the following?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "the pygmy hog",
+     "as": "পিগমি হগ"
+    },
+    {
+     "en": "its forests and wildlife",
+     "as": "ইয়াৰ বনাঞ্চল আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "its primates and birds",
+     "as": "ইয়াৰ প্ৰাইমেট আৰু চৰাই"
+    },
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is known for its forests and wildlife.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য ইয়াৰ বনাঞ্চল আৰু বন্যপ্ৰাণীৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-187",
+   "q": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is also noted for which of the following?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hill wildlife",
+     "as": "ইয়াৰ পাহাৰীয়া বন্যপ্ৰাণী"
+    },
+    {
+     "en": "its hilly terrain",
+     "as": "ইয়াৰ পাহাৰীয়া ভূ-প্ৰকৃতি"
+    },
+    {
+     "en": "its forest habitat",
+     "as": "ইয়াৰ বনাঞ্চল"
+    },
+    {
+     "en": "its hill forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is also noted for its forest habitat.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য ইয়াৰ বনাঞ্চলৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-188",
+   "q": {
+    "en": "In which year was Nambor-Doigrung Wildlife Sanctuary established?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1990",
+     "as": "1990"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1966",
+     "as": "1966"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary was established in 2003.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য 2003 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-189",
+   "q": {
+    "en": "When was Nambor-Doigrung Wildlife Sanctuary notified?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2003",
+     "as": "2003"
+    },
+    {
+     "en": "1990",
+     "as": "1990"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1966",
+     "as": "1966"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary was notified in 2003.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য 2003 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-190",
+   "q": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is a ___ of Assam.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-191",
+   "q": {
+    "en": "Which protected area of Assam is located in Golaghat?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল গোলাঘাট জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Amchang Wildlife Sanctuary",
+     "as": "আমচাং অভয়াৰণ্য"
+    },
+    {
+     "en": "Nambor-Doigrung Wildlife Sanctuary",
+     "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is located in Golaghat.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য গোলাঘাট জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-192",
+   "q": {
+    "en": "Which protected area of Assam is known for its forests and wildlife?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ বনাঞ্চল আৰু বন্যপ্ৰাণীৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Amchang Wildlife Sanctuary",
+     "as": "আমচাং অভয়াৰণ্য"
+    },
+    {
+     "en": "Nambor-Doigrung Wildlife Sanctuary",
+     "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is known for its forests and wildlife.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য ইয়াৰ বনাঞ্চল আৰু বন্যপ্ৰাণীৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-193",
+   "q": {
+    "en": "Is Nambor-Doigrung Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Yes, Nambor-Doigrung Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, নামবৰ-দৈগ্ৰুং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-194",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Nambor-Doigrung Wildlife Sanctuary located?",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nambor-Doigrung Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "নামবৰ-দৈগ্ৰুং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-195",
+   "q": {
+    "en": "In which district is East Karbi Anglong Wildlife Sanctuary located?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is located in Karbi Anglong.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য কাৰ্বি আংলং জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-196",
+   "q": {
+    "en": "Which districts of Assam does East Karbi Anglong Wildlife Sanctuary span?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Darrang and Sonitpur",
+     "as": "দৰং আৰু শোণিতপুৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary spans Karbi Anglong.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য কাৰ্বি আংলং জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-197",
+   "q": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is best known for which of the following?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its hills and forests",
+     "as": "ইয়াৰ পাহাৰ আৰু বনাঞ্চল"
+    },
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    },
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is known for its hills and forests.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য ইয়াৰ পাহাৰ আৰু বনাঞ্চলৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-198",
+   "q": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is also noted for which of the following?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its primates",
+     "as": "ইয়াৰ প্ৰাইমেট"
+    },
+    {
+     "en": "its hill forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    },
+    {
+     "en": "its hispid hare",
+     "as": "ইয়াৰ হিস্পিড হেৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is also noted for its hill forests.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য ইয়াৰ পাহাৰীয়া বনাঞ্চলৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-199",
+   "q": {
+    "en": "In which year was East Karbi Anglong Wildlife Sanctuary established?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1966",
+     "as": "1966"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary was established in 2000.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য 2000 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-200",
+   "q": {
+    "en": "When was East Karbi Anglong Wildlife Sanctuary notified?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1966",
+     "as": "1966"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary was notified in 2000.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য 2000 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-201",
+   "q": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is a ___ of Assam.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-202",
+   "q": {
+    "en": "Which protected area of Assam is located in Karbi Anglong?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল কাৰ্বি আংলং জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+     "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is located in Karbi Anglong.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য কাৰ্বি আংলং জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-203",
+   "q": {
+    "en": "Which protected area of Assam is known for its hills and forests?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ পাহাৰ আৰু বনাঞ্চলৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+     "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য"
+    },
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Burachapori Wildlife Sanctuary",
+     "as": "বুঢ়াচাপৰি অভয়াৰণ্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is known for its hills and forests.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য ইয়াৰ পাহাৰ আৰু বনাঞ্চলৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-204",
+   "q": {
+    "en": "Is East Karbi Anglong Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, East Karbi Anglong Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, পূব কাৰ্বি আংলং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-205",
+   "q": {
+    "en": "On which bank of the Brahmaputra is East Karbi Anglong Wildlife Sanctuary located?",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "East Karbi Anglong Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-206",
+   "q": {
+    "en": "In which district is Marat Longri Wildlife Sanctuary located?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary is located in Karbi Anglong.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য কাৰ্বি আংলং জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-207",
+   "q": {
+    "en": "Which districts of Assam does Marat Longri Wildlife Sanctuary span?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary spans Karbi Anglong.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য কাৰ্বি আংলং জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-208",
+   "q": {
+    "en": "Marat Longri Wildlife Sanctuary is best known for which of the following?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its grasslands and rhinoceros",
+     "as": "ইয়াৰ তৃণভূমি আৰু গঁড়"
+    },
+    {
+     "en": "elephants and tigers",
+     "as": "হাতী আৰু বাঘ"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary is known for its hills and wildlife.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণীৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-209",
+   "q": {
+    "en": "Marat Longri Wildlife Sanctuary is also noted for which of the following?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hill wildlife",
+     "as": "ইয়াৰ পাহাৰীয়া বন্যপ্ৰাণী"
+    },
+    {
+     "en": "its primates",
+     "as": "ইয়াৰ প্ৰাইমেট"
+    },
+    {
+     "en": "its primate diversity",
+     "as": "ইয়াৰ প্ৰাইমেট বৈচিত্ৰ্য"
+    },
+    {
+     "en": "its hilly terrain",
+     "as": "ইয়াৰ পাহাৰীয়া ভূ-প্ৰকৃতি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary is also noted for its hill wildlife.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য ইয়াৰ পাহাৰীয়া বন্যপ্ৰাণীৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-210",
+   "q": {
+    "en": "In which year was Marat Longri Wildlife Sanctuary established?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "2021",
+     "as": "2021"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary was established in 2003.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য 2003 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-211",
+   "q": {
+    "en": "When was Marat Longri Wildlife Sanctuary notified?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2021",
+     "as": "2021"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary was notified in 2003.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য 2003 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-212",
+   "q": {
+    "en": "Marat Longri Wildlife Sanctuary is a ___ of Assam.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-213",
+   "q": {
+    "en": "Which protected area of Assam is known for its hills and wildlife?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণীৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Pobitora Wildlife Sanctuary",
+     "as": "পবিতৰা অভয়াৰণ্য"
+    },
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    },
+    {
+     "en": "Orang National Park",
+     "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary is known for its hills and wildlife.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণীৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-214",
+   "q": {
+    "en": "Is Marat Longri Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Yes, Marat Longri Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, মাৰাট লংৰি অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-215",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Marat Longri Wildlife Sanctuary located?",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Marat Longri Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "মাৰাট লংৰি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-216",
+   "q": {
+    "en": "In which district is Garampani Wildlife Sanctuary located?",
+    "as": "গৰমপানী অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary is located in Karbi Anglong.",
+    "as": "গৰমপানী অভয়াৰণ্য কাৰ্বি আংলং জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-217",
+   "q": {
+    "en": "Which districts of Assam does Garampani Wildlife Sanctuary span?",
+    "as": "গৰমপানী অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Kokrajhar and Dhubri",
+     "as": "কোকৰাঝাৰ আৰু ধুবুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary spans Karbi Anglong.",
+    "as": "গৰমপানী অভয়াৰণ্য কাৰ্বি আংলং জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-218",
+   "q": {
+    "en": "Garampani Wildlife Sanctuary is best known for which of the following?",
+    "as": "গৰমপানী অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "migratory birds",
+     "as": "পৰিভ্ৰমী চৰাই"
+    },
+    {
+     "en": "its hot springs",
+     "as": "ইয়াৰ উষ্ণ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "elephants and tigers",
+     "as": "হাতী আৰু বাঘ"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary is known for its hot springs.",
+    "as": "গৰমপানী অভয়াৰণ্য ইয়াৰ উষ্ণ প্ৰস্ৰৱনৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-219",
+   "q": {
+    "en": "Garampani Wildlife Sanctuary is also noted for which of the following?",
+    "as": "গৰমপানী অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    },
+    {
+     "en": "its hot water springs",
+     "as": "ইয়াৰ উষ্ণ পানীৰ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "its elephant corridor",
+     "as": "ইয়াৰ হাতী কৰিডৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary is also noted for its hot water springs.",
+    "as": "গৰমপানী অভয়াৰণ্য ইয়াৰ উষ্ণ পানীৰ প্ৰস্ৰৱনৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-220",
+   "q": {
+    "en": "In which year was Garampani Wildlife Sanctuary established?",
+    "as": "গৰমপানী অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1989",
+     "as": "1989"
+    },
+    {
+     "en": "1987",
+     "as": "1987"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1952",
+     "as": "1952"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary was established in 1952.",
+    "as": "গৰমপানী অভয়াৰণ্য 1952 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-221",
+   "q": {
+    "en": "When was Garampani Wildlife Sanctuary notified?",
+    "as": "গৰমপানী অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1952",
+     "as": "1952"
+    },
+    {
+     "en": "1989",
+     "as": "1989"
+    },
+    {
+     "en": "1987",
+     "as": "1987"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary was notified in 1952.",
+    "as": "গৰমপানী অভয়াৰণ্য 1952 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-222",
+   "q": {
+    "en": "Garampani Wildlife Sanctuary is a ___ of Assam.",
+    "as": "গৰমপানী অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "গৰমপানী অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-223",
+   "q": {
+    "en": "Which protected area of Assam is known for its hot springs?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ উষ্ণ প্ৰস্ৰৱনৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Garampani Wildlife Sanctuary",
+     "as": "গৰমপানী অভয়াৰণ্য"
+    },
+    {
+     "en": "Nameri National Park",
+     "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary is known for its hot springs.",
+    "as": "গৰমপানী অভয়াৰণ্য ইয়াৰ উষ্ণ প্ৰস্ৰৱনৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-224",
+   "q": {
+    "en": "Is Garampani Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "গৰমপানী অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Garampani Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, গৰমপানী অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-225",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Garampani Wildlife Sanctuary located?",
+    "as": "গৰমপানী অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Garampani Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "গৰমপানী অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-226",
+   "q": {
+    "en": "In which district is Borail Wildlife Sanctuary located?",
+    "as": "বৰাইল অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary is located in Cachar and Dima Hasao.",
+    "as": "বৰাইল অভয়াৰণ্য কাছাৰ আৰু ডিমা হাছাও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-227",
+   "q": {
+    "en": "Which districts of Assam does Borail Wildlife Sanctuary span?",
+    "as": "বৰাইল অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary spans Cachar and Dima Hasao.",
+    "as": "বৰাইল অভয়াৰণ্য কাছাৰ আৰু ডিমা হাছাও জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-228",
+   "q": {
+    "en": "Borail Wildlife Sanctuary is best known for which of the following?",
+    "as": "বৰাইল অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "elephants and tigers",
+     "as": "হাতী আৰু বাঘ"
+    },
+    {
+     "en": "its hilly forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary is known for its hilly forests.",
+    "as": "বৰাইল অভয়াৰণ্য ইয়াৰ পাহাৰীয়া বনাঞ্চলৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-229",
+   "q": {
+    "en": "Borail Wildlife Sanctuary is also noted for which of the following?",
+    "as": "বৰাইল অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hilly terrain",
+     "as": "ইয়াৰ পাহাৰীয়া ভূ-প্ৰকৃতি"
+    },
+    {
+     "en": "its elephant population",
+     "as": "ইয়াৰ হাতী"
+    },
+    {
+     "en": "its golden langur population",
+     "as": "ইয়াৰ সোণালী বান্দৰ"
+    },
+    {
+     "en": "its wetland habitat",
+     "as": "ইয়াৰ জলাশয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary is also noted for its hilly terrain.",
+    "as": "বৰাইল অভয়াৰণ্য ইয়াৰ পাহাৰীয়া ভূ-প্ৰকৃতিৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-230",
+   "q": {
+    "en": "In which year was Borail Wildlife Sanctuary established?",
+    "as": "বৰাইল অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1995",
+     "as": "1995"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1997",
+     "as": "1997"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary was established in 2004.",
+    "as": "বৰাইল অভয়াৰণ্য 2004 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-231",
+   "q": {
+    "en": "When was Borail Wildlife Sanctuary notified?",
+    "as": "বৰাইল অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1997",
+     "as": "1997"
+    },
+    {
+     "en": "1995",
+     "as": "1995"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary was notified in 2004.",
+    "as": "বৰাইল অভয়াৰণ্য 2004 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-232",
+   "q": {
+    "en": "Borail Wildlife Sanctuary is a ___ of Assam.",
+    "as": "বৰাইল অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "বৰাইল অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-233",
+   "q": {
+    "en": "Which protected area of Assam is located in Cachar and Dima Hasao?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল কাছাৰ আৰু ডিমা হাছাও জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Borail Wildlife Sanctuary",
+     "as": "বৰাইল অভয়াৰণ্য"
+    },
+    {
+     "en": "Sonai-Rupai Wildlife Sanctuary",
+     "as": "চোনাই-ৰূপাই অভয়াৰণ্য"
+    },
+    {
+     "en": "Panidihing Wildlife Sanctuary",
+     "as": "পানীদিহিং অভয়াৰণ্য"
+    },
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary is located in Cachar and Dima Hasao.",
+    "as": "বৰাইল অভয়াৰণ্য কাছাৰ আৰু ডিমা হাছাও জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-234",
+   "q": {
+    "en": "Which protected area of Assam is known for its hilly forests?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ পাহাৰীয়া বনাঞ্চলৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Borail Wildlife Sanctuary",
+     "as": "বৰাইল অভয়াৰণ্য"
+    },
+    {
+     "en": "Sonai-Rupai Wildlife Sanctuary",
+     "as": "চোনাই-ৰূপাই অভয়াৰণ্য"
+    },
+    {
+     "en": "Panidihing Wildlife Sanctuary",
+     "as": "পানীদিহিং অভয়াৰণ্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary is known for its hilly forests.",
+    "as": "বৰাইল অভয়াৰণ্য ইয়াৰ পাহাৰীয়া বনাঞ্চলৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-235",
+   "q": {
+    "en": "Is Borail Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "বৰাইল অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Yes, Borail Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, বৰাইল অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-236",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Borail Wildlife Sanctuary located?",
+    "as": "বৰাইল অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Borail Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "বৰাইল অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-237",
+   "q": {
+    "en": "In which district is Amchang Wildlife Sanctuary located?",
+    "as": "আমচাং অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary is located in Kamrup Metropolitan.",
+    "as": "আমচাং অভয়াৰণ্য কামৰূপ মহানগৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-238",
+   "q": {
+    "en": "Which districts of Assam does Amchang Wildlife Sanctuary span?",
+    "as": "আমচাং অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Cachar and Dima Hasao",
+     "as": "কাছাৰ আৰু ডিমা হাছাও"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary spans Kamrup Metropolitan.",
+    "as": "আমচাং অভয়াৰণ্য কামৰূপ মহানগৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-239",
+   "q": {
+    "en": "Amchang Wildlife Sanctuary is best known for which of the following?",
+    "as": "আমচাং অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "feral horses",
+     "as": "বনৰীয়া ঘোঁৰা"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    },
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary is known for its hills and wildlife.",
+    "as": "আমচাং অভয়াৰণ্য ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণীৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-240",
+   "q": {
+    "en": "Amchang Wildlife Sanctuary is also noted for which of the following?",
+    "as": "আমচাং অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its hispid hare",
+     "as": "ইয়াৰ হিস্পিড হেৰ"
+    },
+    {
+     "en": "its golden langur population",
+     "as": "ইয়াৰ সোণালী বান্দৰ"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    },
+    {
+     "en": "its proximity to Guwahati",
+     "as": "গুৱাহাটীৰ নিকটতা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary is also noted for its proximity to Guwahati.",
+    "as": "আমচাং অভয়াৰণ্য গুৱাহাটীৰ নিকটতাৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-241",
+   "q": {
+    "en": "In which year was Amchang Wildlife Sanctuary established?",
+    "as": "আমচাং অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1987",
+     "as": "1987"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary was established in 2004.",
+    "as": "আমচাং অভয়াৰণ্য 2004 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-242",
+   "q": {
+    "en": "When was Amchang Wildlife Sanctuary notified?",
+    "as": "আমচাং অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1987",
+     "as": "1987"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1972",
+     "as": "1972"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary was notified in 2004.",
+    "as": "আমচাং অভয়াৰণ্য 2004 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-243",
+   "q": {
+    "en": "Amchang Wildlife Sanctuary is a ___ of Assam.",
+    "as": "আমচাং অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "আমচাং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-244",
+   "q": {
+    "en": "Is Amchang Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "আমচাং অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Amchang Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, আমচাং অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-245",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Amchang Wildlife Sanctuary located?",
+    "as": "আমচাং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Amchang Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+    "as": "আমচাং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-246",
+   "q": {
+    "en": "In which district is Bherjan-Borajan-Padumoni Wildlife Sanctuary located?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is located in Tinsukia.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য তিনিচুকীয়া জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-247",
+   "q": {
+    "en": "Which districts of Assam does Bherjan-Borajan-Padumoni Wildlife Sanctuary span?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary spans Tinsukia.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য তিনিচুকীয়া জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-248",
+   "q": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is best known for which of the following?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its hot springs",
+     "as": "ইয়াৰ উষ্ণ প্ৰস্ৰৱন"
+    },
+    {
+     "en": "the golden langur",
+     "as": "সোণালী বান্দৰ"
+    },
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    },
+    {
+     "en": "its primates and birds",
+     "as": "ইয়াৰ প্ৰাইমেট আৰু চৰাই"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is known for its primates and birds.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য ইয়াৰ প্ৰাইমেট আৰু চৰাইৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-249",
+   "q": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is also noted for which of the following?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "its primates",
+     "as": "ইয়াৰ প্ৰাইমেট"
+    },
+    {
+     "en": "the hoolock gibbon",
+     "as": "হলৌ গিবন"
+    },
+    {
+     "en": "its hilly terrain",
+     "as": "ইয়াৰ পাহাৰীয়া ভূ-প্ৰকৃতি"
+    },
+    {
+     "en": "wild water buffalo",
+     "as": "বনৰীয়া ম'হ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is also noted for its primates.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য ইয়াৰ প্ৰাইমেটৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-250",
+   "q": {
+    "en": "In which year was Bherjan-Borajan-Padumoni Wildlife Sanctuary established?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1996",
+     "as": "1996"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary was established in 1999.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য 1999 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-251",
+   "q": {
+    "en": "When was Bherjan-Borajan-Padumoni Wildlife Sanctuary notified?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "2000",
+     "as": "2000"
+    },
+    {
+     "en": "1999",
+     "as": "1999"
+    },
+    {
+     "en": "1996",
+     "as": "1996"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary was notified in 1999.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য 1999 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-252",
+   "q": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is a ___ of Assam.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-253",
+   "q": {
+    "en": "Which protected area of Assam is located in Tinsukia?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল তিনিচুকীয়া জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+     "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Sonai-Rupai Wildlife Sanctuary",
+     "as": "চোনাই-ৰূপাই অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is located in Tinsukia.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য তিনিচুকীয়া জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-254",
+   "q": {
+    "en": "Which protected area of Assam is known for its primates and birds?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ইয়াৰ প্ৰাইমেট আৰু চৰাইৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Sonai-Rupai Wildlife Sanctuary",
+     "as": "চোনাই-ৰূপাই অভয়াৰণ্য"
+    },
+    {
+     "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary",
+     "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is known for its primates and birds.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য ইয়াৰ প্ৰাইমেট আৰু চৰাইৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-255",
+   "q": {
+    "en": "Is Bherjan-Borajan-Padumoni Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Yes, Bherjan-Borajan-Padumoni Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-256",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Bherjan-Borajan-Padumoni Wildlife Sanctuary located?",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is on the north bank of the Brahmaputra.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-257",
+   "q": {
+    "en": "In which district is Bornadi Wildlife Sanctuary located?",
+    "as": "বৰনদী অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary is located in Darrang and Udalguri.",
+    "as": "বৰনদী অভয়াৰণ্য দৰং আৰু ওদালগুৰি জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-258",
+   "q": {
+    "en": "Which districts of Assam does Bornadi Wildlife Sanctuary span?",
+    "as": "বৰনদী অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Darrang and Udalguri",
+     "as": "দৰং আৰু ওদালগুৰি"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary spans Darrang and Udalguri.",
+    "as": "বৰনদী অভয়াৰণ্য দৰং আৰু ওদালগুৰি জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-259",
+   "q": {
+    "en": "Bornadi Wildlife Sanctuary is best known for which of the following?",
+    "as": "বৰনদী অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its hilly forests",
+     "as": "ইয়াৰ পাহাৰীয়া বনাঞ্চল"
+    },
+    {
+     "en": "its hills and wildlife",
+     "as": "ইয়াৰ পাহাৰ আৰু বন্যপ্ৰাণী"
+    },
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    },
+    {
+     "en": "the pygmy hog",
+     "as": "পিগমি হগ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary is known for the hispid hare.",
+    "as": "বৰনদী অভয়াৰণ্য হিস্পিড হেৰৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-260",
+   "q": {
+    "en": "Bornadi Wildlife Sanctuary is also noted for which of the following?",
+    "as": "বৰনদী অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "the Bengal florican",
+     "as": "বেংগল ফ্ল'ৰিকান"
+    },
+    {
+     "en": "its primate diversity",
+     "as": "ইয়াৰ প্ৰাইমেট বৈচিত্ৰ্য"
+    },
+    {
+     "en": "its grassland habitat",
+     "as": "ইয়াৰ তৃণভূমি"
+    },
+    {
+     "en": "its hispid hare",
+     "as": "ইয়াৰ হিস্পিড হেৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary is also noted for its hispid hare.",
+    "as": "বৰনদী অভয়াৰণ্য ইয়াৰ হিস্পিড হেৰৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-261",
+   "q": {
+    "en": "In which year was Bornadi Wildlife Sanctuary established?",
+    "as": "বৰনদী অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "1987",
+     "as": "1987"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary was established in 1980.",
+    "as": "বৰনদী অভয়াৰণ্য 1980 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-262",
+   "q": {
+    "en": "When was Bornadi Wildlife Sanctuary notified?",
+    "as": "বৰনদী অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1987",
+     "as": "1987"
+    },
+    {
+     "en": "1980",
+     "as": "1980"
+    },
+    {
+     "en": "2003",
+     "as": "2003"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary was notified in 1980.",
+    "as": "বৰনদী অভয়াৰণ্য 1980 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-263",
+   "q": {
+    "en": "Bornadi Wildlife Sanctuary is a ___ of Assam.",
+    "as": "বৰনদী অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    },
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "বৰনদী অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-264",
+   "q": {
+    "en": "Which protected area of Assam is located in Darrang and Udalguri?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল দৰং আৰু ওদালগুৰি জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    },
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary is located in Darrang and Udalguri.",
+    "as": "বৰনদী অভয়াৰণ্য দৰং আৰু ওদালগুৰি জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-265",
+   "q": {
+    "en": "Which protected area of Assam is known for the hispid hare?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল হিস্পিড হেৰৰ বাবে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Bornadi Wildlife Sanctuary",
+     "as": "বৰনদী অভয়াৰণ্য"
+    },
+    {
+     "en": "Marat Longri Wildlife Sanctuary",
+     "as": "মাৰাট লংৰি অভয়াৰণ্য"
+    },
+    {
+     "en": "Chakrashila Wildlife Sanctuary",
+     "as": "চক্ৰশিলা অভয়াৰণ্য"
+    },
+    {
+     "en": "East Karbi Anglong Wildlife Sanctuary",
+     "as": "পূব কাৰ্বি আংলং অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary is known for the hispid hare.",
+    "as": "বৰনদী অভয়াৰণ্য হিস্পিড হেৰৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-266",
+   "q": {
+    "en": "Is Bornadi Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "বৰনদী অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Yes, Bornadi Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, বৰনদী অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-267",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Bornadi Wildlife Sanctuary located?",
+    "as": "বৰনদী অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bornadi Wildlife Sanctuary is on the north bank of the Brahmaputra.",
+    "as": "বৰনদী অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-268",
+   "q": {
+    "en": "In which district is Bordoibam-Bilmukh Wildlife Sanctuary located?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Dhemaji and Lakhimpur",
+     "as": "ধেমাজি আৰু লখিমপুৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is located in Dhemaji and Lakhimpur.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ধেমাজি আৰু লখিমপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-269",
+   "q": {
+    "en": "Which districts of Assam does Bordoibam-Bilmukh Wildlife Sanctuary span?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য অসমৰ কোন জিলাসমূহত বিস্তৃত?"
+   },
+   "options": [
+    {
+     "en": "Dhemaji and Lakhimpur",
+     "as": "ধেমাজি আৰু লখিমপুৰ"
+    },
+    {
+     "en": "Tinsukia and Dibrugarh",
+     "as": "তিনিচুকীয়া আৰু ডিব্ৰুগড়"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary spans Dhemaji and Lakhimpur.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ধেমাজি আৰু লখিমপুৰ জিলাত বিস্তৃত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-270",
+   "q": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is best known for which of the following?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য কিসেৰ বাবে সৰ্বাধিক বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "its hills and forests",
+     "as": "ইয়াৰ পাহাৰ আৰু বনাঞ্চল"
+    },
+    {
+     "en": "its wetland birds",
+     "as": "ইয়াৰ জলচৰ চৰাই"
+    },
+    {
+     "en": "the one-horned rhinoceros",
+     "as": "এশিঙীয়া গঁড়"
+    },
+    {
+     "en": "the hispid hare",
+     "as": "হিস্পিড হেৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is known for its wetland birds.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ইয়াৰ জলচৰ চৰাইৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-271",
+   "q": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is also noted for which of the following?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য আন কিসেৰ বাবেও পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "the Bengal florican",
+     "as": "বেংগল ফ্ল'ৰিকান"
+    },
+    {
+     "en": "the highest rhino density",
+     "as": "সৰ্বাধিক গঁড়ৰ ঘনত্ব"
+    },
+    {
+     "en": "its wetland habitat",
+     "as": "ইয়াৰ জলাশয়"
+    },
+    {
+     "en": "its birdlife",
+     "as": "ইয়াৰ চৰাই"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is also noted for its wetland habitat.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ইয়াৰ জলাশয়ৰ বাবেও পৰিচিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-272",
+   "q": {
+    "en": "In which year was Bordoibam-Bilmukh Wildlife Sanctuary established?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1990",
+     "as": "1990"
+    },
+    {
+     "en": "1996",
+     "as": "1996"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary was established in 1996.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য 1996 চনত প্ৰতিষ্ঠা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-273",
+   "q": {
+    "en": "When was Bordoibam-Bilmukh Wildlife Sanctuary notified?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য কেতিয়া ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1996",
+     "as": "1996"
+    },
+    {
+     "en": "1998",
+     "as": "1998"
+    },
+    {
+     "en": "2004",
+     "as": "2004"
+    },
+    {
+     "en": "1990",
+     "as": "1990"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary was notified in 1996.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য 1996 চনত ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-national-parks-274",
+   "q": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is a ___ of Assam.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য অসমৰ এটা ___।"
+   },
+   "options": [
+    {
+     "en": "national park",
+     "as": "ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "wildlife sanctuary",
+     "as": "অভয়াৰণ্য"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বন"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-275",
+   "q": {
+    "en": "Which protected area of Assam is located in Dhemaji and Lakhimpur?",
+    "as": "অসমৰ কোন সংৰক্ষিত অঞ্চল ধেমাজি আৰু লখিমপুৰ জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Garampani Wildlife Sanctuary",
+     "as": "গৰমপানী অভয়াৰণ্য"
+    },
+    {
+     "en": "Dehing Patkai National Park",
+     "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Bordoibam-Bilmukh Wildlife Sanctuary",
+     "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য"
+    },
+    {
+     "en": "Raimona National Park",
+     "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is located in Dhemaji and Lakhimpur.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ধেমাজি আৰু লখিমপুৰ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-national-parks-276",
+   "q": {
+    "en": "Is Bordoibam-Bilmukh Wildlife Sanctuary a wildlife sanctuary of Assam?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+   },
+   "options": [
+    {
+     "en": "No, it is a reserve forest",
+     "as": "নহয়, ই এটা সংৰক্ষিত বন"
+    },
+    {
+     "en": "No, it is a biosphere reserve",
+     "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "No, it is a national park",
+     "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+    },
+    {
+     "en": "Yes, it is a wildlife sanctuary",
+     "as": "হয়, ই এটা অভয়াৰণ্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Yes, Bordoibam-Bilmukh Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+    "as": "হয়, বৰদৈবাম-বিলমুখ অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-national-parks-277",
+   "q": {
+    "en": "On which bank of the Brahmaputra is Bordoibam-Bilmukh Wildlife Sanctuary located?",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "central",
+     "as": "মধ্য"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bordoibam-Bilmukh Wildlife Sanctuary is on the north bank of the Brahmaputra.",
+    "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+   }
+  }
+ ],
+ "brahmaputra-barak": [
+  {
+   "id": "brahmaputra-barak-001",
+   "q": {
+    "en": "Which region is the source of the Subansiri river?",
+    "as": "সোৱণশিৰি নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Subansiri river has its source in Tibet.",
+    "as": "সোৱণশিৰি নদীৰ উৎস তিব্বত অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-002",
+   "q": {
+    "en": "The Subansiri river originates in which area?",
+    "as": "সোৱণশিৰি নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Subansiri originates in Tibet.",
+    "as": "সোৱণশিৰি তিব্বত অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-003",
+   "q": {
+    "en": "The Subansiri river is a tributary of which river?",
+    "as": "সোৱণশিৰি নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Subansiri is a tributary of the Brahmaputra.",
+    "as": "সোৱণশিৰি ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-004",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Subansiri river join it?",
+    "as": "সোৱণশিৰি নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Subansiri joins the Brahmaputra on its north bank.",
+    "as": "সোৱণশিৰি ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-005",
+   "q": {
+    "en": "Which district is the Subansiri river mainly associated with?",
+    "as": "সোৱণশিৰি নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Biswanath",
+     "as": "বিশ্বনাথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Subansiri river is mainly associated with Lakhimpur district.",
+    "as": "সোৱণশিৰি নদী মূলতঃ লখিমপুৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-006",
+   "q": {
+    "en": "Which of these rivers flows through Lakhimpur district?",
+    "as": "তলৰ কোন নদী লখিমপুৰ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Noa Dihing",
+     "as": "নয়া দিহিং"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Dikhow",
+     "as": "দিখৌ"
+    },
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Subansiri river flows through Lakhimpur district.",
+    "as": "সোৱণশিৰি নদী লখিমপুৰ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-007",
+   "q": {
+    "en": "Which region is the source of the Jia Bharali river?",
+    "as": "জিয়া ভৰলী নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Jia Bharali river has its source in Arunachal Pradesh.",
+    "as": "জিয়া ভৰলী নদীৰ উৎস অৰুণাচল প্ৰদেশ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-008",
+   "q": {
+    "en": "The Jia Bharali river originates in which area?",
+    "as": "জিয়া ভৰলী নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Jia Bharali originates in Arunachal Pradesh.",
+    "as": "জিয়া ভৰলী অৰুণাচল প্ৰদেশ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-009",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Jia Bharali river join it?",
+    "as": "জিয়া ভৰলী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jia Bharali joins the Brahmaputra on its north bank.",
+    "as": "জিয়া ভৰলী ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-010",
+   "q": {
+    "en": "Which district is the Jia Bharali river mainly associated with?",
+    "as": "জিয়া ভৰলী নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jia Bharali river is mainly associated with Sonitpur district.",
+    "as": "জিয়া ভৰলী নদী মূলতঃ শোণিতপুৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-011",
+   "q": {
+    "en": "Which of these rivers flows through Sonitpur district?",
+    "as": "তলৰ কোন নদী শোণিতপুৰ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Dudhnoi",
+     "as": "দুধনৈ"
+    },
+    {
+     "en": "Ranganadi",
+     "as": "ৰঙানদী"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    },
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Jia Bharali river flows through Sonitpur district.",
+    "as": "জিয়া ভৰলী নদী শোণিতপুৰ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-012",
+   "q": {
+    "en": "Which region is the source of the Manas river?",
+    "as": "মানস নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Manas river has its source in Bhutan.",
+    "as": "মানস নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-013",
+   "q": {
+    "en": "The Manas river originates in which area?",
+    "as": "মানস নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Manas originates in Bhutan.",
+    "as": "মানস ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-014",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Manas river join it?",
+    "as": "মানস নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Manas joins the Brahmaputra on its north bank.",
+    "as": "মানস ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-015",
+   "q": {
+    "en": "Which district is the Manas river mainly associated with?",
+    "as": "মানস নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Manas river is mainly associated with Chirang district.",
+    "as": "মানস নদী মূলতঃ চিৰাং জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-016",
+   "q": {
+    "en": "Which of these rivers flows through Chirang district?",
+    "as": "তলৰ কোন নদী চিৰাং জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Pagladiya",
+     "as": "পাগলাদিয়া"
+    },
+    {
+     "en": "Borgang",
+     "as": "বৰগাং"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Manas river flows through Chirang district.",
+    "as": "মানস নদী চিৰাং জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-017",
+   "q": {
+    "en": "Which region is the source of the Sankosh river?",
+    "as": "শোণকোষ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sankosh river has its source in Bhutan.",
+    "as": "শোণকোষ নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-018",
+   "q": {
+    "en": "The Sankosh river originates in which area?",
+    "as": "শোণকোষ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Sankosh originates in Bhutan.",
+    "as": "শোণকোষ ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-019",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Sankosh river join it?",
+    "as": "শোণকোষ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Sankosh joins the Brahmaputra on its north bank.",
+    "as": "শোণকোষ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-020",
+   "q": {
+    "en": "Which district is the Sankosh river mainly associated with?",
+    "as": "শোণকোষ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    },
+    {
+     "en": "Baksa",
+     "as": "বাক্সা"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Sankosh river is mainly associated with Dhubri district.",
+    "as": "শোণকোষ নদী মূলতঃ ধুবুৰী জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-021",
+   "q": {
+    "en": "Which of these rivers flows through Dhubri district?",
+    "as": "তলৰ কোন নদী ধুবুৰী জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Sankosh",
+     "as": "শোণকোষ"
+    },
+    {
+     "en": "Singla",
+     "as": "ছিংলা"
+    },
+    {
+     "en": "Burhi Dihing",
+     "as": "বুঢ়ী দিহিং"
+    },
+    {
+     "en": "Saralbhanga",
+     "as": "সৰলভাঙা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sankosh river flows through Dhubri district.",
+    "as": "শোণকোষ নদী ধুবুৰী জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-022",
+   "q": {
+    "en": "Which region is the source of the Puthimari river?",
+    "as": "পুথিমাৰি নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Puthimari river has its source in Bhutan.",
+    "as": "পুথিমাৰি নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-023",
+   "q": {
+    "en": "The Puthimari river originates in which area?",
+    "as": "পুথিমাৰি নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Puthimari originates in Bhutan.",
+    "as": "পুথিমাৰি ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-024",
+   "q": {
+    "en": "The Puthimari river is a tributary of which river?",
+    "as": "পুথিমাৰি নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Puthimari is a tributary of the Brahmaputra.",
+    "as": "পুথিমাৰি ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-025",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Puthimari river join it?",
+    "as": "পুথিমাৰি নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Puthimari joins the Brahmaputra on its north bank.",
+    "as": "পুথিমাৰি ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-026",
+   "q": {
+    "en": "Which district is the Puthimari river mainly associated with?",
+    "as": "পুথিমাৰি নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Puthimari river is mainly associated with Kamrup district.",
+    "as": "পুথিমাৰি নদী মূলতঃ কামৰূপ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-027",
+   "q": {
+    "en": "Which of these rivers flows through Kamrup district?",
+    "as": "তলৰ কোন নদী কামৰূপ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Pagladiya",
+     "as": "পাগলাদিয়া"
+    },
+    {
+     "en": "Bhogdoi",
+     "as": "ভোগদৈ"
+    },
+    {
+     "en": "Puthimari",
+     "as": "পুথিমাৰি"
+    },
+    {
+     "en": "Noa Dihing",
+     "as": "নয়া দিহিং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Puthimari river flows through Kamrup district.",
+    "as": "পুথিমাৰি নদী কামৰূপ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-028",
+   "q": {
+    "en": "Which region is the source of the Pagladiya river?",
+    "as": "পাগলাদিয়া নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Pagladiya river has its source in Bhutan.",
+    "as": "পাগলাদিয়া নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-029",
+   "q": {
+    "en": "The Pagladiya river originates in which area?",
+    "as": "পাগলাদিয়া নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Pagladiya originates in Bhutan.",
+    "as": "পাগলাদিয়া ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-030",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Pagladiya river join it?",
+    "as": "পাগলাদিয়া নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Pagladiya joins the Brahmaputra on its north bank.",
+    "as": "পাগলাদিয়া ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-031",
+   "q": {
+    "en": "Which district is the Pagladiya river mainly associated with?",
+    "as": "পাগলাদিয়া নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Pagladiya river is mainly associated with Nalbari district.",
+    "as": "পাগলাদিয়া নদী মূলতঃ নলবাৰী জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-032",
+   "q": {
+    "en": "Which of these rivers flows through Nalbari district?",
+    "as": "তলৰ কোন নদী নলবাৰী জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Bhogdoi",
+     "as": "ভোগদৈ"
+    },
+    {
+     "en": "Jinari",
+     "as": "জিনাৰী"
+    },
+    {
+     "en": "Beki",
+     "as": "বেকী"
+    },
+    {
+     "en": "Pagladiya",
+     "as": "পাগলাদিয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Pagladiya river flows through Nalbari district.",
+    "as": "পাগলাদিয়া নদী নলবাৰী জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-033",
+   "q": {
+    "en": "Which region is the source of the Champamati river?",
+    "as": "চাম্পামতি নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Champamati river has its source in Bhutan.",
+    "as": "চাম্পামতি নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-034",
+   "q": {
+    "en": "The Champamati river originates in which area?",
+    "as": "চাম্পামতি নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Champamati originates in Bhutan.",
+    "as": "চাম্পামতি ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-035",
+   "q": {
+    "en": "The Champamati river is a tributary of which river?",
+    "as": "চাম্পামতি নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Champamati is a tributary of the Brahmaputra.",
+    "as": "চাম্পামতি ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-036",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Champamati river join it?",
+    "as": "চাম্পামতি নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Champamati joins the Brahmaputra on its north bank.",
+    "as": "চাম্পামতি ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-037",
+   "q": {
+    "en": "Which district is the Champamati river mainly associated with?",
+    "as": "চাম্পামতি নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Baksa",
+     "as": "বাক্সা"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Champamati river is mainly associated with Baksa district.",
+    "as": "চাম্পামতি নদী মূলতঃ বাক্সা জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-038",
+   "q": {
+    "en": "Which of these rivers flows through Baksa district?",
+    "as": "তলৰ কোন নদী বাক্সা জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Bhogdoi",
+     "as": "ভোগদৈ"
+    },
+    {
+     "en": "Champamati",
+     "as": "চাম্পামতি"
+    },
+    {
+     "en": "Saralbhanga",
+     "as": "সৰলভাঙা"
+    },
+    {
+     "en": "Katakhal",
+     "as": "কটাখাল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Champamati river flows through Baksa district.",
+    "as": "চাম্পামতি নদী বাক্সা জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-039",
+   "q": {
+    "en": "Which region is the source of the Ranganadi river?",
+    "as": "ৰঙানদী নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Ranganadi river has its source in Arunachal Pradesh.",
+    "as": "ৰঙানদী নদীৰ উৎস অৰুণাচল প্ৰদেশ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-040",
+   "q": {
+    "en": "The Ranganadi river originates in which area?",
+    "as": "ৰঙানদী নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Ranganadi originates in Arunachal Pradesh.",
+    "as": "ৰঙানদী অৰুণাচল প্ৰদেশ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-041",
+   "q": {
+    "en": "The Ranganadi river is a tributary of which river?",
+    "as": "ৰঙানদী নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Ranganadi is a tributary of the Brahmaputra.",
+    "as": "ৰঙানদী ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-042",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Ranganadi river join it?",
+    "as": "ৰঙানদী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Ranganadi joins the Brahmaputra on its north bank.",
+    "as": "ৰঙানদী ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-043",
+   "q": {
+    "en": "Which district is the Ranganadi river mainly associated with?",
+    "as": "ৰঙানদী নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Ranganadi river is mainly associated with Lakhimpur district.",
+    "as": "ৰঙানদী নদী মূলতঃ লখিমপুৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-044",
+   "q": {
+    "en": "Which region is the source of the Dikrong river?",
+    "as": "দিক্ৰং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dikrong river has its source in Arunachal Pradesh.",
+    "as": "দিক্ৰং নদীৰ উৎস অৰুণাচল প্ৰদেশ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-045",
+   "q": {
+    "en": "The Dikrong river originates in which area?",
+    "as": "দিক্ৰং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dikrong originates in Arunachal Pradesh.",
+    "as": "দিক্ৰং অৰুণাচল প্ৰদেশ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-046",
+   "q": {
+    "en": "The Dikrong river is a tributary of which river?",
+    "as": "দিক্ৰং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dikrong is a tributary of the Brahmaputra.",
+    "as": "দিক্ৰং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-047",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Dikrong river join it?",
+    "as": "দিক্ৰং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Dikrong joins the Brahmaputra on its north bank.",
+    "as": "দিক্ৰং ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-048",
+   "q": {
+    "en": "Which district is the Dikrong river mainly associated with?",
+    "as": "দিক্ৰং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dikrong river is mainly associated with Sonitpur district.",
+    "as": "দিক্ৰং নদী মূলতঃ শোণিতপুৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-049",
+   "q": {
+    "en": "Which region is the source of the Beki river?",
+    "as": "বেকী নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Beki river has its source in Bhutan.",
+    "as": "বেকী নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-050",
+   "q": {
+    "en": "The Beki river originates in which area?",
+    "as": "বেকী নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Beki originates in Bhutan.",
+    "as": "বেকী ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-051",
+   "q": {
+    "en": "The Beki river is a tributary of which river?",
+    "as": "বেকী নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Beki is a tributary of the Brahmaputra.",
+    "as": "বেকী ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-052",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Beki river join it?",
+    "as": "বেকী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Beki joins the Brahmaputra on its north bank.",
+    "as": "বেকী ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-053",
+   "q": {
+    "en": "Which district is the Beki river mainly associated with?",
+    "as": "বেকী নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Baksa",
+     "as": "বাক্সা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Beki river is mainly associated with Barpeta district.",
+    "as": "বেকী নদী মূলতঃ বৰপেটা জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-054",
+   "q": {
+    "en": "Which of these rivers flows through Barpeta district?",
+    "as": "তলৰ কোন নদী বৰপেটা জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Noa Dihing",
+     "as": "নয়া দিহিং"
+    },
+    {
+     "en": "Beki",
+     "as": "বেকী"
+    },
+    {
+     "en": "Dudhnoi",
+     "as": "দুধনৈ"
+    },
+    {
+     "en": "Pagladiya",
+     "as": "পাগলাদিয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Beki river flows through Barpeta district.",
+    "as": "বেকী নদী বৰপেটা জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-055",
+   "q": {
+    "en": "Which region is the source of the Aie river?",
+    "as": "আই নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Aie river has its source in Bhutan.",
+    "as": "আই নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-056",
+   "q": {
+    "en": "The Aie river originates in which area?",
+    "as": "আই নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Aie originates in Bhutan.",
+    "as": "আই ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-057",
+   "q": {
+    "en": "The Aie river is a tributary of which river?",
+    "as": "আই নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Aie is a tributary of the Brahmaputra.",
+    "as": "আই ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-058",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Aie river join it?",
+    "as": "আই নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Aie joins the Brahmaputra on its north bank.",
+    "as": "আই ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-059",
+   "q": {
+    "en": "Which district is the Aie river mainly associated with?",
+    "as": "আই নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Aie river is mainly associated with Bongaigaon district.",
+    "as": "আই নদী মূলতঃ বঙাইগাঁও জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-060",
+   "q": {
+    "en": "Which of these rivers flows through Bongaigaon district?",
+    "as": "তলৰ কোন নদী বঙাইগাঁও জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Jaldhaka",
+     "as": "জলঢাকা"
+    },
+    {
+     "en": "Gaurang",
+     "as": "গৌৰাং"
+    },
+    {
+     "en": "Tirap",
+     "as": "তিৰাপ"
+    },
+    {
+     "en": "Aie",
+     "as": "আই"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Aie river flows through Bongaigaon district.",
+    "as": "আই নদী বঙাইগাঁও জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-061",
+   "q": {
+    "en": "Which region is the source of the Dhansiri river?",
+    "as": "ধনশিৰি নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dhansiri river has its source in Nagaland.",
+    "as": "ধনশিৰি নদীৰ উৎস নাগালেণ্ড অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-062",
+   "q": {
+    "en": "The Dhansiri river originates in which area?",
+    "as": "ধনশিৰি নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dhansiri originates in Nagaland.",
+    "as": "ধনশিৰি নাগালেণ্ড অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-063",
+   "q": {
+    "en": "The Dhansiri river is a tributary of which river?",
+    "as": "ধনশিৰি নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Dhansiri is a tributary of the Brahmaputra.",
+    "as": "ধনশিৰি ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-064",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Dhansiri river join it?",
+    "as": "ধনশিৰি নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dhansiri joins the Brahmaputra on its south bank.",
+    "as": "ধনশিৰি ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-065",
+   "q": {
+    "en": "Which district is the Dhansiri river mainly associated with?",
+    "as": "ধনশিৰি নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dhansiri river is mainly associated with Golaghat district.",
+    "as": "ধনশিৰি নদী মূলতঃ গোলাঘাট জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-066",
+   "q": {
+    "en": "Which of these rivers flows through Golaghat district?",
+    "as": "তলৰ কোন নদী গোলাঘাট জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Kulsi",
+     "as": "কুলশী"
+    },
+    {
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
+    },
+    {
+     "en": "Buroi",
+     "as": "বুৰৈ"
+    },
+    {
+     "en": "Bharalu",
+     "as": "ভৰলু"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dhansiri river flows through Golaghat district.",
+    "as": "ধনশিৰি নদী গোলাঘাট জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-067",
+   "q": {
+    "en": "Which region is the source of the Kopili river?",
+    "as": "কপিলী নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Kopili river has its source in Meghalaya.",
+    "as": "কপিলী নদীৰ উৎস মেঘালয় অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-068",
+   "q": {
+    "en": "The Kopili river originates in which area?",
+    "as": "কপিলী নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Kopili originates in Meghalaya.",
+    "as": "কপিলী মেঘালয় অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-069",
+   "q": {
+    "en": "The Kopili river is a tributary of which river?",
+    "as": "কপিলী নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Kopili is a tributary of the Brahmaputra.",
+    "as": "কপিলী ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-070",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Kopili river join it?",
+    "as": "কপিলী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Kopili joins the Brahmaputra on its south bank.",
+    "as": "কপিলী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-071",
+   "q": {
+    "en": "Which district is the Kopili river mainly associated with?",
+    "as": "কপিলী নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Kopili river is mainly associated with Nagaon district.",
+    "as": "কপিলী নদী মূলতঃ নগাঁও জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-072",
+   "q": {
+    "en": "Which of these rivers flows through Nagaon district?",
+    "as": "তলৰ কোন নদী নগাঁও জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Dikhow",
+     "as": "দিখৌ"
+    },
+    {
+     "en": "Tipkai",
+     "as": "টিপকাই"
+    },
+    {
+     "en": "Harang",
+     "as": "হাৰাং"
+    },
+    {
+     "en": "Kopili",
+     "as": "কপিলী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Kopili river flows through Nagaon district.",
+    "as": "কপিলী নদী নগাঁও জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-073",
+   "q": {
+    "en": "Which region is the source of the Kolong river?",
+    "as": "কলং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Kolong river has its source in Karbi Anglong.",
+    "as": "কলং নদীৰ উৎস কাৰ্বি আংলং অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-074",
+   "q": {
+    "en": "The Kolong river originates in which area?",
+    "as": "কলং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Kolong originates in Karbi Anglong.",
+    "as": "কলং কাৰ্বি আংলং অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-075",
+   "q": {
+    "en": "The Kolong river is a tributary of which river?",
+    "as": "কলং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Kolong is a tributary of the Brahmaputra.",
+    "as": "কলং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-076",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Kolong river join it?",
+    "as": "কলং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Kolong joins the Brahmaputra on its south bank.",
+    "as": "কলং ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-077",
+   "q": {
+    "en": "Which district is the Kolong river mainly associated with?",
+    "as": "কলং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Kolong river is mainly associated with Nagaon district.",
+    "as": "কলং নদী মূলতঃ নগাঁও জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-078",
+   "q": {
+    "en": "Which region is the source of the Bhogdoi river?",
+    "as": "ভোগদৈ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Bhogdoi river has its source in Nagaland.",
+    "as": "ভোগদৈ নদীৰ উৎস নাগালেণ্ড অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-079",
+   "q": {
+    "en": "The Bhogdoi river originates in which area?",
+    "as": "ভোগদৈ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Bhogdoi originates in Nagaland.",
+    "as": "ভোগদৈ নাগালেণ্ড অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-080",
+   "q": {
+    "en": "The Bhogdoi river is a tributary of which river?",
+    "as": "ভোগদৈ নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Bhogdoi is a tributary of the Brahmaputra.",
+    "as": "ভোগদৈ ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-081",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Bhogdoi river join it?",
+    "as": "ভোগদৈ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhogdoi joins the Brahmaputra on its south bank.",
+    "as": "ভোগদৈ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-082",
+   "q": {
+    "en": "Which district is the Bhogdoi river mainly associated with?",
+    "as": "ভোগদৈ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Bhogdoi river is mainly associated with Jorhat district.",
+    "as": "ভোগদৈ নদী মূলতঃ যোৰহাট জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-083",
+   "q": {
+    "en": "Which of these rivers flows through Jorhat district?",
+    "as": "তলৰ কোন নদী যোৰহাট জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Aie",
+     "as": "আই"
+    },
+    {
+     "en": "Noa Dihing",
+     "as": "নয়া দিহিং"
+    },
+    {
+     "en": "Bhogdoi",
+     "as": "ভোগদৈ"
+    },
+    {
+     "en": "Dudhnoi",
+     "as": "দুধনৈ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Bhogdoi river flows through Jorhat district.",
+    "as": "ভোগদৈ নদী যোৰহাট জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-084",
+   "q": {
+    "en": "Which region is the source of the Dikhow river?",
+    "as": "দিখৌ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dikhow river has its source in Nagaland.",
+    "as": "দিখৌ নদীৰ উৎস নাগালেণ্ড অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-085",
+   "q": {
+    "en": "The Dikhow river originates in which area?",
+    "as": "দিখৌ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dikhow originates in Nagaland.",
+    "as": "দিখৌ নাগালেণ্ড অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-086",
+   "q": {
+    "en": "The Dikhow river is a tributary of which river?",
+    "as": "দিখৌ নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dikhow is a tributary of the Brahmaputra.",
+    "as": "দিখৌ ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-087",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Dikhow river join it?",
+    "as": "দিখৌ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Dikhow joins the Brahmaputra on its south bank.",
+    "as": "দিখৌ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-088",
+   "q": {
+    "en": "Which district is the Dikhow river mainly associated with?",
+    "as": "দিখৌ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Biswanath",
+     "as": "বিশ্বনাথ"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dikhow river is mainly associated with Sivasagar district.",
+    "as": "দিখৌ নদী মূলতঃ শিৱসাগৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-089",
+   "q": {
+    "en": "Which of these rivers flows through Sivasagar district?",
+    "as": "তলৰ কোন নদী শিৱসাগৰ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Dikhow",
+     "as": "দিখৌ"
+    },
+    {
+     "en": "Tirap",
+     "as": "তিৰাপ"
+    },
+    {
+     "en": "Jaldhaka",
+     "as": "জলঢাকা"
+    },
+    {
+     "en": "Burhi Dihing",
+     "as": "বুঢ়ী দিহিং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dikhow river flows through Sivasagar district.",
+    "as": "দিখৌ নদী শিৱসাগৰ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-090",
+   "q": {
+    "en": "Which region is the source of the Krishnai river?",
+    "as": "কৃষ্ণাই নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Krishnai river has its source in Meghalaya.",
+    "as": "কৃষ্ণাই নদীৰ উৎস মেঘালয় অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-091",
+   "q": {
+    "en": "The Krishnai river originates in which area?",
+    "as": "কৃষ্ণাই নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Krishnai originates in Meghalaya.",
+    "as": "কৃষ্ণাই মেঘালয় অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-092",
+   "q": {
+    "en": "The Krishnai river is a tributary of which river?",
+    "as": "কৃষ্ণাই নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Krishnai is a tributary of the Brahmaputra.",
+    "as": "কৃষ্ণাই ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-093",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Krishnai river join it?",
+    "as": "কৃষ্ণাই নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Krishnai joins the Brahmaputra on its south bank.",
+    "as": "কৃষ্ণাই ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-094",
+   "q": {
+    "en": "Which district is the Krishnai river mainly associated with?",
+    "as": "কৃষ্ণাই নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Biswanath",
+     "as": "বিশ্বনাথ"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Krishnai river is mainly associated with Goalpara district.",
+    "as": "কৃষ্ণাই নদী মূলতঃ গোৱালপাৰা জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-095",
+   "q": {
+    "en": "Which of these rivers flows through Goalpara district?",
+    "as": "তলৰ কোন নদী গোৱালপাৰা জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Jinari",
+     "as": "জিনাৰী"
+    },
+    {
+     "en": "Pagladiya",
+     "as": "পাগলাদিয়া"
+    },
+    {
+     "en": "Krishnai",
+     "as": "কৃষ্ণাই"
+    },
+    {
+     "en": "Singla",
+     "as": "ছিংলা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Krishnai river flows through Goalpara district.",
+    "as": "কৃষ্ণাই নদী গোৱালপাৰা জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-096",
+   "q": {
+    "en": "Which region is the source of the Dudhnoi river?",
+    "as": "দুধনৈ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dudhnoi river has its source in Meghalaya.",
+    "as": "দুধনৈ নদীৰ উৎস মেঘালয় অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-097",
+   "q": {
+    "en": "The Dudhnoi river originates in which area?",
+    "as": "দুধনৈ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dudhnoi originates in Meghalaya.",
+    "as": "দুধনৈ মেঘালয় অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-098",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Dudhnoi river join it?",
+    "as": "দুধনৈ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dudhnoi joins the Brahmaputra on its south bank.",
+    "as": "দুধনৈ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-099",
+   "q": {
+    "en": "Which district is the Dudhnoi river mainly associated with?",
+    "as": "দুধনৈ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Dudhnoi river is mainly associated with Goalpara district.",
+    "as": "দুধনৈ নদী মূলতঃ গোৱালপাৰা জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-100",
+   "q": {
+    "en": "Which region is the source of the Bharalu river?",
+    "as": "ভৰলু নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Bharalu river has its source in Meghalaya.",
+    "as": "ভৰলু নদীৰ উৎস মেঘালয় অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-101",
+   "q": {
+    "en": "The Bharalu river originates in which area?",
+    "as": "ভৰলু নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bharalu originates in Meghalaya.",
+    "as": "ভৰলু মেঘালয় অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-102",
+   "q": {
+    "en": "The Bharalu river is a tributary of which river?",
+    "as": "ভৰলু নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Bharalu is a tributary of the Brahmaputra.",
+    "as": "ভৰলু ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-103",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Bharalu river join it?",
+    "as": "ভৰলু নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Bharalu joins the Brahmaputra on its south bank.",
+    "as": "ভৰলু ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-104",
+   "q": {
+    "en": "Which district is the Bharalu river mainly associated with?",
+    "as": "ভৰলু নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Bharalu river is mainly associated with Kamrup Metropolitan district.",
+    "as": "ভৰলু নদী মূলতঃ কামৰূপ মহানগৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-105",
+   "q": {
+    "en": "Which of these rivers flows through Kamrup Metropolitan district?",
+    "as": "তলৰ কোন নদী কামৰূপ মহানগৰ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Bharalu",
+     "as": "ভৰলু"
+    },
+    {
+     "en": "Noa Dihing",
+     "as": "নয়া দিহিং"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bharalu river flows through Kamrup Metropolitan district.",
+    "as": "ভৰলু নদী কামৰূপ মহানগৰ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-106",
+   "q": {
+    "en": "Which region is the source of the Burhi Dihing river?",
+    "as": "বুঢ়ী দিহিং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Burhi Dihing river has its source in Patkai hills.",
+    "as": "বুঢ়ী দিহিং নদীৰ উৎস পাটকাই পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-107",
+   "q": {
+    "en": "The Burhi Dihing river originates in which area?",
+    "as": "বুঢ়ী দিহিং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Burhi Dihing originates in Patkai hills.",
+    "as": "বুঢ়ী দিহিং পাটকাই পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-108",
+   "q": {
+    "en": "The Burhi Dihing river is a tributary of which river?",
+    "as": "বুঢ়ী দিহিং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Burhi Dihing is a tributary of the Brahmaputra.",
+    "as": "বুঢ়ী দিহিং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-109",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Burhi Dihing river join it?",
+    "as": "বুঢ়ী দিহিং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Burhi Dihing joins the Brahmaputra on its south bank.",
+    "as": "বুঢ়ী দিহিং ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-110",
+   "q": {
+    "en": "Which district is the Burhi Dihing river mainly associated with?",
+    "as": "বুঢ়ী দিহিং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Burhi Dihing river is mainly associated with Dibrugarh district.",
+    "as": "বুঢ়ী দিহিং নদী মূলতঃ ডিব্ৰুগড় জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-111",
+   "q": {
+    "en": "Which of these rivers flows through Dibrugarh district?",
+    "as": "তলৰ কোন নদী ডিব্ৰুগড় জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Madhura",
+     "as": "মধুৰা"
+    },
+    {
+     "en": "Nona",
+     "as": "নোনা"
+    },
+    {
+     "en": "Burhi Dihing",
+     "as": "বুঢ়ী দিহিং"
+    },
+    {
+     "en": "Jiri",
+     "as": "জিৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Burhi Dihing river flows through Dibrugarh district.",
+    "as": "বুঢ়ী দিহিং নদী ডিব্ৰুগড় জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-112",
+   "q": {
+    "en": "Which region is the source of the Disang river?",
+    "as": "দিচাং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Disang river has its source in Patkai hills.",
+    "as": "দিচাং নদীৰ উৎস পাটকাই পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-113",
+   "q": {
+    "en": "The Disang river originates in which area?",
+    "as": "দিচাং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Disang originates in Patkai hills.",
+    "as": "দিচাং পাটকাই পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-114",
+   "q": {
+    "en": "The Disang river is a tributary of which river?",
+    "as": "দিচাং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Disang is a tributary of the Brahmaputra.",
+    "as": "দিচাং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-115",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Disang river join it?",
+    "as": "দিচাং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Disang joins the Brahmaputra on its south bank.",
+    "as": "দিচাং ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-116",
+   "q": {
+    "en": "Which district is the Disang river mainly associated with?",
+    "as": "দিচাং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Disang river is mainly associated with Sivasagar district.",
+    "as": "দিচাং নদী মূলতঃ শিৱসাগৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-117",
+   "q": {
+    "en": "Which region is the source of the Jhanji river?",
+    "as": "জাঞ্জি নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jhanji river has its source in Nagaland.",
+    "as": "জাঞ্জি নদীৰ উৎস নাগালেণ্ড অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-118",
+   "q": {
+    "en": "The Jhanji river originates in which area?",
+    "as": "জাঞ্জি নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jhanji originates in Nagaland.",
+    "as": "জাঞ্জি নাগালেণ্ড অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-119",
+   "q": {
+    "en": "The Jhanji river is a tributary of which river?",
+    "as": "জাঞ্জি নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Jhanji is a tributary of the Brahmaputra.",
+    "as": "জাঞ্জি ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-120",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Jhanji river join it?",
+    "as": "জাঞ্জি নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Jhanji joins the Brahmaputra on its south bank.",
+    "as": "জাঞ্জি ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-121",
+   "q": {
+    "en": "Which district is the Jhanji river mainly associated with?",
+    "as": "জাঞ্জি নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jhanji river is mainly associated with Sivasagar district.",
+    "as": "জাঞ্জি নদী মূলতঃ শিৱসাগৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-122",
+   "q": {
+    "en": "Which region is the source of the Sonai river?",
+    "as": "চোনাই নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Sonai river has its source in Barail hills.",
+    "as": "চোনাই নদীৰ উৎস বৰাইল পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-123",
+   "q": {
+    "en": "The Sonai river originates in which area?",
+    "as": "চোনাই নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Sonai originates in Barail hills.",
+    "as": "চোনাই বৰাইল পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-124",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Sonai river join it?",
+    "as": "চোনাই নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Sonai joins the Brahmaputra on its south bank.",
+    "as": "চোনাই ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-125",
+   "q": {
+    "en": "Which district is the Sonai river mainly associated with?",
+    "as": "চোনাই নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Sonai river is mainly associated with Cachar district.",
+    "as": "চোনাই নদী মূলতঃ কাছাৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-126",
+   "q": {
+    "en": "Which of these rivers flows through Cachar district?",
+    "as": "তলৰ কোন নদী কাছাৰ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Beki",
+     "as": "বেকী"
+    },
+    {
+     "en": "Sonai",
+     "as": "চোনাই"
+    },
+    {
+     "en": "Tipkai",
+     "as": "টিপকাই"
+    },
+    {
+     "en": "Buroi",
+     "as": "বুৰৈ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Sonai river flows through Cachar district.",
+    "as": "চোনাই নদী কাছাৰ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-127",
+   "q": {
+    "en": "Which region is the source of the Katakhal river?",
+    "as": "কটাখাল নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Katakhal river has its source in Barail hills.",
+    "as": "কটাখাল নদীৰ উৎস বৰাইল পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-128",
+   "q": {
+    "en": "The Katakhal river originates in which area?",
+    "as": "কটাখাল নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Katakhal originates in Barail hills.",
+    "as": "কটাখাল বৰাইল পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-129",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Katakhal river join it?",
+    "as": "কটাখাল নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Katakhal joins the Brahmaputra on its south bank.",
+    "as": "কটাখাল ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-130",
+   "q": {
+    "en": "Which district is the Katakhal river mainly associated with?",
+    "as": "কটাখাল নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Katakhal river is mainly associated with Hailakandi district.",
+    "as": "কটাখাল নদী মূলতঃ হাইলাকান্দি জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-131",
+   "q": {
+    "en": "Which of these rivers flows through Hailakandi district?",
+    "as": "তলৰ কোন নদী হাইলাকান্দি জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Digaru",
+     "as": "দিগাৰু"
+    },
+    {
+     "en": "Kolong",
+     "as": "কলং"
+    },
+    {
+     "en": "Katakhal",
+     "as": "কটাখাল"
+    },
+    {
+     "en": "Dikhow",
+     "as": "দিখৌ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Katakhal river flows through Hailakandi district.",
+    "as": "কটাখাল নদী হাইলাকান্দি জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-132",
+   "q": {
+    "en": "Which region is the source of the Rukni river?",
+    "as": "ৰুক্মিণী নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Rukni river has its source in Barail hills.",
+    "as": "ৰুক্মিণী নদীৰ উৎস বৰাইল পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-133",
+   "q": {
+    "en": "The Rukni river originates in which area?",
+    "as": "ৰুক্মিণী নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Rukni originates in Barail hills.",
+    "as": "ৰুক্মিণী বৰাইল পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-134",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Rukni river join it?",
+    "as": "ৰুক্মিণী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Rukni joins the Brahmaputra on its south bank.",
+    "as": "ৰুক্মিণী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-135",
+   "q": {
+    "en": "Which district is the Rukni river mainly associated with?",
+    "as": "ৰুক্মিণী নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Rukni river is mainly associated with Cachar district.",
+    "as": "ৰুক্মিণী নদী মূলতঃ কাছাৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-136",
+   "q": {
+    "en": "Which region is the source of the Jiri river?",
+    "as": "জিৰি নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Jiri river has its source in Barail hills.",
+    "as": "জিৰি নদীৰ উৎস বৰাইল পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-137",
+   "q": {
+    "en": "The Jiri river originates in which area?",
+    "as": "জিৰি নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jiri originates in Barail hills.",
+    "as": "জিৰি বৰাইল পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-138",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Jiri river join it?",
+    "as": "জিৰি নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jiri joins the Brahmaputra on its south bank.",
+    "as": "জিৰি ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-139",
+   "q": {
+    "en": "Which district is the Jiri river mainly associated with?",
+    "as": "জিৰি নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Jiri river is mainly associated with Cachar district.",
+    "as": "জিৰি নদী মূলতঃ কাছাৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-140",
+   "q": {
+    "en": "Which region is the source of the Longai river?",
+    "as": "লংগাই নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Longai river has its source in Tripura.",
+    "as": "লংগাই নদীৰ উৎস ত্ৰিপুৰা অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-141",
+   "q": {
+    "en": "The Longai river originates in which area?",
+    "as": "লংগাই নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Longai originates in Tripura.",
+    "as": "লংগাই ত্ৰিপুৰা অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-142",
+   "q": {
+    "en": "The Longai river is a tributary of which river?",
+    "as": "লংগাই নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Longai is a tributary of the Barak.",
+    "as": "লংগাই বৰাক নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-143",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Longai river join it?",
+    "as": "লংগাই নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Longai joins the Brahmaputra on its south bank.",
+    "as": "লংগাই ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-144",
+   "q": {
+    "en": "Which district is the Longai river mainly associated with?",
+    "as": "লংগাই নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Longai river is mainly associated with Karimganj district.",
+    "as": "লংগাই নদী মূলতঃ কৰিমগঞ্জ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-145",
+   "q": {
+    "en": "Which of these rivers flows through Karimganj district?",
+    "as": "তলৰ কোন নদী কৰিমগঞ্জ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Longai",
+     "as": "লংগাই"
+    },
+    {
+     "en": "Bhogdoi",
+     "as": "ভোগদৈ"
+    },
+    {
+     "en": "Champamati",
+     "as": "চাম্পামতি"
+    },
+    {
+     "en": "Borgang",
+     "as": "বৰগাং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Longai river flows through Karimganj district.",
+    "as": "লংগাই নদী কৰিমগঞ্জ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-146",
+   "q": {
+    "en": "Which region is the source of the Madhura river?",
+    "as": "মধুৰা নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Madhura river has its source in Tripura.",
+    "as": "মধুৰা নদীৰ উৎস ত্ৰিপুৰা অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-147",
+   "q": {
+    "en": "The Madhura river originates in which area?",
+    "as": "মধুৰা নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Madhura originates in Tripura.",
+    "as": "মধুৰা ত্ৰিপুৰা অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-148",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Madhura river join it?",
+    "as": "মধুৰা নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Madhura joins the Brahmaputra on its south bank.",
+    "as": "মধুৰা ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-149",
+   "q": {
+    "en": "Which district is the Madhura river mainly associated with?",
+    "as": "মধুৰা নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Madhura river is mainly associated with Karimganj district.",
+    "as": "মধুৰা নদী মূলতঃ কৰিমগঞ্জ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-150",
+   "q": {
+    "en": "Which region is the source of the Singla river?",
+    "as": "ছিংলা নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Singla river has its source in Barail hills.",
+    "as": "ছিংলা নদীৰ উৎস বৰাইল পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-151",
+   "q": {
+    "en": "The Singla river originates in which area?",
+    "as": "ছিংলা নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Singla originates in Barail hills.",
+    "as": "ছিংলা বৰাইল পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-152",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Singla river join it?",
+    "as": "ছিংলা নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Singla joins the Brahmaputra on its south bank.",
+    "as": "ছিংলা ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-153",
+   "q": {
+    "en": "Which district is the Singla river mainly associated with?",
+    "as": "ছিংলা নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    },
+    {
+     "en": "Biswanath",
+     "as": "বিশ্বনাথ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Singla river is mainly associated with Karimganj district.",
+    "as": "ছিংলা নদী মূলতঃ কৰিমগঞ্জ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-154",
+   "q": {
+    "en": "Which region is the source of the Dhansiri (Barak) river?",
+    "as": "ধনশিৰি (বৰাক) নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dhansiri (Barak) river has its source in Nagaland.",
+    "as": "ধনশিৰি (বৰাক) নদীৰ উৎস নাগালেণ্ড অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-155",
+   "q": {
+    "en": "The Dhansiri (Barak) river originates in which area?",
+    "as": "ধনশিৰি (বৰাক) নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Dhansiri (Barak) originates in Nagaland.",
+    "as": "ধনশিৰি (বৰাক) নাগালেণ্ড অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-156",
+   "q": {
+    "en": "The Dhansiri (Barak) river is a tributary of which river?",
+    "as": "ধনশিৰি (বৰাক) নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dhansiri (Barak) is a tributary of the Barak.",
+    "as": "ধনশিৰি (বৰাক) বৰাক নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-157",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Dhansiri (Barak) river join it?",
+    "as": "ধনশিৰি (বৰাক) নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dhansiri (Barak) joins the Brahmaputra on its south bank.",
+    "as": "ধনশিৰি (বৰাক) ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-158",
+   "q": {
+    "en": "Which district is the Dhansiri (Barak) river mainly associated with?",
+    "as": "ধনশিৰি (বৰাক) নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dhansiri (Barak) river is mainly associated with Cachar district.",
+    "as": "ধনশিৰি (বৰাক) নদী মূলতঃ কাছাৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-159",
+   "q": {
+    "en": "Which region is the source of the Saralbhanga river?",
+    "as": "সৰলভাঙা নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Saralbhanga river has its source in Bhutan.",
+    "as": "সৰলভাঙা নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-160",
+   "q": {
+    "en": "The Saralbhanga river originates in which area?",
+    "as": "সৰলভাঙা নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Saralbhanga originates in Bhutan.",
+    "as": "সৰলভাঙা ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-161",
+   "q": {
+    "en": "The Saralbhanga river is a tributary of which river?",
+    "as": "সৰলভাঙা নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Saralbhanga is a tributary of the Brahmaputra.",
+    "as": "সৰলভাঙা ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-162",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Saralbhanga river join it?",
+    "as": "সৰলভাঙা নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Saralbhanga joins the Brahmaputra on its north bank.",
+    "as": "সৰলভাঙা ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-163",
+   "q": {
+    "en": "Which district is the Saralbhanga river mainly associated with?",
+    "as": "সৰলভাঙা নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Saralbhanga river is mainly associated with Kokrajhar district.",
+    "as": "সৰলভাঙা নদী মূলতঃ কোকৰাঝাৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-164",
+   "q": {
+    "en": "Which of these rivers flows through Kokrajhar district?",
+    "as": "তলৰ কোন নদী কোকৰাঝাৰ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Namdang",
+     "as": "নামদাং"
+    },
+    {
+     "en": "Madhura",
+     "as": "মধুৰা"
+    },
+    {
+     "en": "Krishnai",
+     "as": "কৃষ্ণাই"
+    },
+    {
+     "en": "Saralbhanga",
+     "as": "সৰলভাঙা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Saralbhanga river flows through Kokrajhar district.",
+    "as": "সৰলভাঙা নদী কোকৰাঝাৰ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-165",
+   "q": {
+    "en": "Which region is the source of the Gaurang river?",
+    "as": "গৌৰাং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gaurang river has its source in Bhutan.",
+    "as": "গৌৰাং নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-166",
+   "q": {
+    "en": "The Gaurang river originates in which area?",
+    "as": "গৌৰাং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Gaurang originates in Bhutan.",
+    "as": "গৌৰাং ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-167",
+   "q": {
+    "en": "The Gaurang river is a tributary of which river?",
+    "as": "গৌৰাং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Gaurang is a tributary of the Brahmaputra.",
+    "as": "গৌৰাং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-168",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Gaurang river join it?",
+    "as": "গৌৰাং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Gaurang joins the Brahmaputra on its north bank.",
+    "as": "গৌৰাং ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-169",
+   "q": {
+    "en": "Which district is the Gaurang river mainly associated with?",
+    "as": "গৌৰাং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Gaurang river is mainly associated with Chirang district.",
+    "as": "গৌৰাং নদী মূলতঃ চিৰাং জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-170",
+   "q": {
+    "en": "Which region is the source of the Tipkai river?",
+    "as": "টিপকাই নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Tipkai river has its source in Bhutan.",
+    "as": "টিপকাই নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-171",
+   "q": {
+    "en": "The Tipkai river originates in which area?",
+    "as": "টিপকাই নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Tipkai originates in Bhutan.",
+    "as": "টিপকাই ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-172",
+   "q": {
+    "en": "The Tipkai river is a tributary of which river?",
+    "as": "টিপকাই নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Tipkai is a tributary of the Brahmaputra.",
+    "as": "টিপকাই ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-173",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Tipkai river join it?",
+    "as": "টিপকাই নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tipkai joins the Brahmaputra on its north bank.",
+    "as": "টিপকাই ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-174",
+   "q": {
+    "en": "Which district is the Tipkai river mainly associated with?",
+    "as": "টিপকাই নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Tipkai river is mainly associated with Kokrajhar district.",
+    "as": "টিপকাই নদী মূলতঃ কোকৰাঝাৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-175",
+   "q": {
+    "en": "Which region is the source of the Jaldhaka river?",
+    "as": "জলঢাকা নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Jaldhaka river has its source in Bhutan.",
+    "as": "জলঢাকা নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-176",
+   "q": {
+    "en": "The Jaldhaka river originates in which area?",
+    "as": "জলঢাকা নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Jaldhaka originates in Bhutan.",
+    "as": "জলঢাকা ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-177",
+   "q": {
+    "en": "The Jaldhaka river is a tributary of which river?",
+    "as": "জলঢাকা নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jaldhaka is a tributary of the Brahmaputra.",
+    "as": "জলঢাকা ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-178",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Jaldhaka river join it?",
+    "as": "জলঢাকা নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jaldhaka joins the Brahmaputra on its north bank.",
+    "as": "জলঢাকা ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-179",
+   "q": {
+    "en": "Which district is the Jaldhaka river mainly associated with?",
+    "as": "জলঢাকা নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Jaldhaka river is mainly associated with Dhubri district.",
+    "as": "জলঢাকা নদী মূলতঃ ধুবুৰী জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-180",
+   "q": {
+    "en": "Which region is the source of the Dudhkumar river?",
+    "as": "দুধকুমাৰ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dudhkumar river has its source in Bhutan.",
+    "as": "দুধকুমাৰ নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-181",
+   "q": {
+    "en": "The Dudhkumar river originates in which area?",
+    "as": "দুধকুমাৰ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dudhkumar originates in Bhutan.",
+    "as": "দুধকুমাৰ ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-182",
+   "q": {
+    "en": "The Dudhkumar river is a tributary of which river?",
+    "as": "দুধকুমাৰ নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "ব্ৰহ্মপুত্ৰ",
+     "as": "Brahmaputra"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Dudhkumar is a tributary of the ব্ৰহ্মপুত্ৰ.",
+    "as": "দুধকুমাৰ Brahmaputra নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-183",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Dudhkumar river join it?",
+    "as": "দুধকুমাৰ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Dudhkumar joins the Brahmaputra on its north bank.",
+    "as": "দুধকুমাৰ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-184",
+   "q": {
+    "en": "Which district is the Dudhkumar river mainly associated with?",
+    "as": "দুধকুমাৰ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dudhkumar river is mainly associated with Dhubri district.",
+    "as": "দুধকুমাৰ নদী মূলতঃ ধুবুৰী জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-185",
+   "q": {
+    "en": "Which region is the source of the Buroi river?",
+    "as": "বুৰৈ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Buroi river has its source in Arunachal Pradesh.",
+    "as": "বুৰৈ নদীৰ উৎস অৰুণাচল প্ৰদেশ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-186",
+   "q": {
+    "en": "The Buroi river originates in which area?",
+    "as": "বুৰৈ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Buroi originates in Arunachal Pradesh.",
+    "as": "বুৰৈ অৰুণাচল প্ৰদেশ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-187",
+   "q": {
+    "en": "The Buroi river is a tributary of which river?",
+    "as": "বুৰৈ নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Buroi is a tributary of the Brahmaputra.",
+    "as": "বুৰৈ ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-188",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Buroi river join it?",
+    "as": "বুৰৈ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Buroi joins the Brahmaputra on its north bank.",
+    "as": "বুৰৈ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-189",
+   "q": {
+    "en": "Which district is the Buroi river mainly associated with?",
+    "as": "বুৰৈ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Biswanath",
+     "as": "বিশ্বনাথ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Baksa",
+     "as": "বাক্সা"
+    },
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Buroi river is mainly associated with Biswanath district.",
+    "as": "বুৰৈ নদী মূলতঃ বিশ্বনাথ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-190",
+   "q": {
+    "en": "Which of these rivers flows through Biswanath district?",
+    "as": "তলৰ কোন নদী বিশ্বনাথ জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Gaurang",
+     "as": "গৌৰাং"
+    },
+    {
+     "en": "Buroi",
+     "as": "বুৰৈ"
+    },
+    {
+     "en": "Burhi Dihing",
+     "as": "বুঢ়ী দিহিং"
+    },
+    {
+     "en": "Noa Dihing",
+     "as": "নয়া দিহিং"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Buroi river flows through Biswanath district.",
+    "as": "বুৰৈ নদী বিশ্বনাথ জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-191",
+   "q": {
+    "en": "Which region is the source of the Borgang river?",
+    "as": "বৰগাং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Borgang river has its source in Arunachal Pradesh.",
+    "as": "বৰগাং নদীৰ উৎস অৰুণাচল প্ৰদেশ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-192",
+   "q": {
+    "en": "The Borgang river originates in which area?",
+    "as": "বৰগাং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Borgang originates in Arunachal Pradesh.",
+    "as": "বৰগাং অৰুণাচল প্ৰদেশ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-193",
+   "q": {
+    "en": "The Borgang river is a tributary of which river?",
+    "as": "বৰগাং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Borgang is a tributary of the Brahmaputra.",
+    "as": "বৰগাং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-194",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Borgang river join it?",
+    "as": "বৰগাং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Borgang joins the Brahmaputra on its north bank.",
+    "as": "বৰগাং ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-195",
+   "q": {
+    "en": "Which district is the Borgang river mainly associated with?",
+    "as": "বৰগাং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Biswanath",
+     "as": "বিশ্বনাথ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Borgang river is mainly associated with Biswanath district.",
+    "as": "বৰগাং নদী মূলতঃ বিশ্বনাথ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-196",
+   "q": {
+    "en": "Which region is the source of the Nona river?",
+    "as": "নোনা নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Nona river has its source in Bhutan.",
+    "as": "নোনা নদীৰ উৎস ভূটান অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-197",
+   "q": {
+    "en": "The Nona river originates in which area?",
+    "as": "নোনা নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nona originates in Bhutan.",
+    "as": "নোনা ভূটান অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-198",
+   "q": {
+    "en": "The Nona river is a tributary of which river?",
+    "as": "নোনা নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Nona is a tributary of the Brahmaputra.",
+    "as": "নোনা ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-199",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Nona river join it?",
+    "as": "নোনা নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Nona joins the Brahmaputra on its north bank.",
+    "as": "নোনা ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-200",
+   "q": {
+    "en": "Which district is the Nona river mainly associated with?",
+    "as": "নোনা নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Nalbari",
+     "as": "নলবাৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Nona river is mainly associated with Nalbari district.",
+    "as": "নোনা নদী মূলতঃ নলবাৰী জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-201",
+   "q": {
+    "en": "Which region is the source of the Kulsi river?",
+    "as": "কুলশী নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Kulsi river has its source in Meghalaya.",
+    "as": "কুলশী নদীৰ উৎস মেঘালয় অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-202",
+   "q": {
+    "en": "The Kulsi river originates in which area?",
+    "as": "কুলশী নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Kulsi originates in Meghalaya.",
+    "as": "কুলশী মেঘালয় অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-203",
+   "q": {
+    "en": "The Kulsi river is a tributary of which river?",
+    "as": "কুলশী নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Kulsi is a tributary of the Brahmaputra.",
+    "as": "কুলশী ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-204",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Kulsi river join it?",
+    "as": "কুলশী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Kulsi joins the Brahmaputra on its south bank.",
+    "as": "কুলশী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-205",
+   "q": {
+    "en": "Which district is the Kulsi river mainly associated with?",
+    "as": "কুলশী নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Kulsi river is mainly associated with Kamrup district.",
+    "as": "কুলশী নদী মূলতঃ কামৰূপ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-206",
+   "q": {
+    "en": "Which region is the source of the Jinari river?",
+    "as": "জিনাৰী নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jinari river has its source in Meghalaya.",
+    "as": "জিনাৰী নদীৰ উৎস মেঘালয় অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-207",
+   "q": {
+    "en": "The Jinari river originates in which area?",
+    "as": "জিনাৰী নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Jinari originates in Meghalaya.",
+    "as": "জিনাৰী মেঘালয় অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-208",
+   "q": {
+    "en": "The Jinari river is a tributary of which river?",
+    "as": "জিনাৰী নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Jinari is a tributary of the Brahmaputra.",
+    "as": "জিনাৰী ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-209",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Jinari river join it?",
+    "as": "জিনাৰী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Jinari joins the Brahmaputra on its south bank.",
+    "as": "জিনাৰী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-210",
+   "q": {
+    "en": "Which district is the Jinari river mainly associated with?",
+    "as": "জিনাৰী নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Goalpara",
+     "as": "গোৱালপাৰা"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jinari river is mainly associated with Goalpara district.",
+    "as": "জিনাৰী নদী মূলতঃ গোৱালপাৰা জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-211",
+   "q": {
+    "en": "Which region is the source of the Nanoi river?",
+    "as": "ননৈ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Nanoi river has its source in Meghalaya.",
+    "as": "ননৈ নদীৰ উৎস মেঘালয় অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-212",
+   "q": {
+    "en": "The Nanoi river originates in which area?",
+    "as": "ননৈ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Barail hills",
+     "as": "বৰাইল পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Nanoi originates in Meghalaya.",
+    "as": "ননৈ মেঘালয় অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-213",
+   "q": {
+    "en": "The Nanoi river is a tributary of which river?",
+    "as": "ননৈ নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Nanoi is a tributary of the Brahmaputra.",
+    "as": "ননৈ ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-214",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Nanoi river join it?",
+    "as": "ননৈ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Nanoi joins the Brahmaputra on its south bank.",
+    "as": "ননৈ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-215",
+   "q": {
+    "en": "Which district is the Nanoi river mainly associated with?",
+    "as": "ননৈ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Nanoi river is mainly associated with Kamrup district.",
+    "as": "ননৈ নদী মূলতঃ কামৰূপ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-216",
+   "q": {
+    "en": "Which region is the source of the Harang river?",
+    "as": "হাৰাং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Harang river has its source in Karbi Anglong.",
+    "as": "হাৰাং নদীৰ উৎস কাৰ্বি আংলং অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-217",
+   "q": {
+    "en": "The Harang river originates in which area?",
+    "as": "হাৰাং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Harang originates in Karbi Anglong.",
+    "as": "হাৰাং কাৰ্বি আংলং অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-218",
+   "q": {
+    "en": "The Harang river is a tributary of which river?",
+    "as": "হাৰাং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Harang is a tributary of the Brahmaputra.",
+    "as": "হাৰাং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-219",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Harang river join it?",
+    "as": "হাৰাং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Harang joins the Brahmaputra on its south bank.",
+    "as": "হাৰাং ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-220",
+   "q": {
+    "en": "Which district is the Harang river mainly associated with?",
+    "as": "হাৰাং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Biswanath",
+     "as": "বিশ্বনাথ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Harang river is mainly associated with Nagaon district.",
+    "as": "হাৰাং নদী মূলতঃ নগাঁও জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-221",
+   "q": {
+    "en": "Which region is the source of the Digaru river?",
+    "as": "দিগাৰু নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Digaru river has its source in Karbi Anglong.",
+    "as": "দিগাৰু নদীৰ উৎস কাৰ্বি আংলং অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-222",
+   "q": {
+    "en": "The Digaru river originates in which area?",
+    "as": "দিগাৰু নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Digaru originates in Karbi Anglong.",
+    "as": "দিগাৰু কাৰ্বি আংলং অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-223",
+   "q": {
+    "en": "The Digaru river is a tributary of which river?",
+    "as": "দিগাৰু নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Digaru is a tributary of the Brahmaputra.",
+    "as": "দিগাৰু ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-224",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Digaru river join it?",
+    "as": "দিগাৰু নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Digaru joins the Brahmaputra on its south bank.",
+    "as": "দিগাৰু ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-225",
+   "q": {
+    "en": "Which district is the Digaru river mainly associated with?",
+    "as": "দিগাৰু নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Digaru river is mainly associated with Nagaon district.",
+    "as": "দিগাৰু নদী মূলতঃ নগাঁও জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-226",
+   "q": {
+    "en": "Which region is the source of the Noa Dihing river?",
+    "as": "নয়া দিহিং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Noa Dihing river has its source in Patkai hills.",
+    "as": "নয়া দিহিং নদীৰ উৎস পাটকাই পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-227",
+   "q": {
+    "en": "The Noa Dihing river originates in which area?",
+    "as": "নয়া দিহিং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Noa Dihing originates in Patkai hills.",
+    "as": "নয়া দিহিং পাটকাই পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-228",
+   "q": {
+    "en": "The Noa Dihing river is a tributary of which river?",
+    "as": "নয়া দিহিং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Noa Dihing is a tributary of the Brahmaputra.",
+    "as": "নয়া দিহিং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-229",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Noa Dihing river join it?",
+    "as": "নয়া দিহিং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Noa Dihing joins the Brahmaputra on its north bank.",
+    "as": "নয়া দিহিং ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-230",
+   "q": {
+    "en": "Which district is the Noa Dihing river mainly associated with?",
+    "as": "নয়া দিহিং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Kokrajhar",
+     "as": "কোকৰাঝাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Noa Dihing river is mainly associated with Tinsukia district.",
+    "as": "নয়া দিহিং নদী মূলতঃ তিনিচুকীয়া জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-231",
+   "q": {
+    "en": "Which of these rivers flows through Tinsukia district?",
+    "as": "তলৰ কোন নদী তিনিচুকীয়া জিলাৰ মাজেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Kolong",
+     "as": "কলং"
+    },
+    {
+     "en": "Longai",
+     "as": "লংগাই"
+    },
+    {
+     "en": "Noa Dihing",
+     "as": "নয়া দিহিং"
+    },
+    {
+     "en": "Dudhnoi",
+     "as": "দুধনৈ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Noa Dihing river flows through Tinsukia district.",
+    "as": "নয়া দিহিং নদী তিনিচুকীয়া জিলাৰ মাজেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-232",
+   "q": {
+    "en": "Which region is the source of the Namdang river?",
+    "as": "নামদাং নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Arunachal Pradesh",
+     "as": "অৰুণাচল প্ৰদেশ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Namdang river has its source in Patkai hills.",
+    "as": "নামদাং নদীৰ উৎস পাটকাই পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-233",
+   "q": {
+    "en": "The Namdang river originates in which area?",
+    "as": "নামদাং নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Namdang originates in Patkai hills.",
+    "as": "নামদাং পাটকাই পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-234",
+   "q": {
+    "en": "The Namdang river is a tributary of which river?",
+    "as": "নামদাং নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Namdang is a tributary of the Brahmaputra.",
+    "as": "নামদাং ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-235",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Namdang river join it?",
+    "as": "নামদাং নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Namdang joins the Brahmaputra on its north bank.",
+    "as": "নামদাং ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-236",
+   "q": {
+    "en": "Which district is the Namdang river mainly associated with?",
+    "as": "নামদাং নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Namdang river is mainly associated with Tinsukia district.",
+    "as": "নামদাং নদী মূলতঃ তিনিচুকীয়া জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-237",
+   "q": {
+    "en": "Which region is the source of the Tirap river?",
+    "as": "তিৰাপ নদীৰ উৎস কোন অঞ্চল?"
+   },
+   "options": [
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tirap river has its source in Patkai hills.",
+    "as": "তিৰাপ নদীৰ উৎস পাটকাই পাহাৰ অঞ্চলত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-238",
+   "q": {
+    "en": "The Tirap river originates in which area?",
+    "as": "তিৰাপ নদী কোন অঞ্চলত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Tibet",
+     "as": "তিব্বত"
+    },
+    {
+     "en": "Patkai hills",
+     "as": "পাটকাই পাহাৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Tripura",
+     "as": "ত্ৰিপুৰা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Tirap originates in Patkai hills.",
+    "as": "তিৰাপ পাটকাই পাহাৰ অঞ্চলত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-239",
+   "q": {
+    "en": "The Tirap river is a tributary of which river?",
+    "as": "তিৰাপ নদী কোন নদীৰ উপনৈ?"
+   },
+   "options": [
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Tirap is a tributary of the Brahmaputra.",
+    "as": "তিৰাপ ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-240",
+   "q": {
+    "en": "On which bank of the Brahmaputra does the Tirap river join it?",
+    "as": "তিৰাপ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+   },
+   "options": [
+    {
+     "en": "south",
+     "as": "দক্ষিণ"
+    },
+    {
+     "en": "east",
+     "as": "পূব"
+    },
+    {
+     "en": "west",
+     "as": "পশ্চিম"
+    },
+    {
+     "en": "north",
+     "as": "উত্তৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Tirap joins the Brahmaputra on its north bank.",
+    "as": "তিৰাপ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-241",
+   "q": {
+    "en": "Which district is the Tirap river mainly associated with?",
+    "as": "তিৰাপ নদী মূলতঃ কোন জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Tirap river is mainly associated with Tinsukia district.",
+    "as": "তিৰাপ নদী মূলতঃ তিনিচুকীয়া জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-242",
+   "q": {
+    "en": "In Tibet, the Brahmaputra is known by which name?",
+    "as": "তিব্বতত ব্ৰহ্মপুত্ৰক কোন নামেৰে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Luit",
+     "as": "লুইত"
+    },
+    {
+     "en": "Tsangpo",
+     "as": "ছাংপো"
+    },
+    {
+     "en": "Dihang",
+     "as": "দিহাং"
+    },
+    {
+     "en": "Jamuna",
+     "as": "যমুনা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Brahmaputra is called Tsangpo in Tibet.",
+    "as": "তিব্বতত ব্ৰহ্মপুত্ৰক ছাংপো বোলা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-243",
+   "q": {
+    "en": "In Arunachal Pradesh, the Brahmaputra is known by which name?",
+    "as": "অৰুণাচল প্ৰদেশত ব্ৰহ্মপুত্ৰক কোন নামেৰে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Luit",
+     "as": "লুইত"
+    },
+    {
+     "en": "Tsangpo",
+     "as": "ছাংপো"
+    },
+    {
+     "en": "Dihang",
+     "as": "দিহাং"
+    },
+    {
+     "en": "Jamuna",
+     "as": "যমুনা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "In Arunachal Pradesh the Brahmaputra is called the Dihang (Siang).",
+    "as": "অৰুণাচল প্ৰদেশত ব্ৰহ্মপুত্ৰক দিহাং (সিয়াং) বোলা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-244",
+   "q": {
+    "en": "In Bangladesh, the Brahmaputra is known by which name?",
+    "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰক কোন নামেৰে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Tsangpo",
+     "as": "ছাংপো"
+    },
+    {
+     "en": "Surma",
+     "as": "ছুৰমা"
+    },
+    {
+     "en": "Dihang",
+     "as": "দিহাং"
+    },
+    {
+     "en": "Jamuna",
+     "as": "যমুনা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In Bangladesh the Brahmaputra is known as the Jamuna.",
+    "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰক যমুনা বোলা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-245",
+   "q": {
+    "en": "Which glacier is regarded as the source of the Brahmaputra?",
+    "as": "কোন হিমবাহক ব্ৰহ্মপুত্ৰৰ উৎস হিচাপে গণ্য কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Angsi Glacier",
+     "as": "আংচি হিমবাহ"
+    },
+    {
+     "en": "Siachen Glacier",
+     "as": "ছিয়াচেন হিমবাহ"
+    },
+    {
+     "en": "Gangotri Glacier",
+     "as": "গংগোত্ৰী হিমবাহ"
+    },
+    {
+     "en": "Yamunotri Glacier",
+     "as": "যমুনোত্ৰী হিমবাহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Brahmaputra rises from the Angsi Glacier in Tibet.",
+    "as": "ব্ৰহ্মপুত্ৰ তিব্বতৰ আংচি হিমবাহৰ পৰা উৎপন্ন হৈছে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-246",
+   "q": {
+    "en": "The Brahmaputra enters the Assam plain near which town?",
+    "as": "ব্ৰহ্মপুত্ৰ অসমৰ সমভূমিত কোন নগৰৰ ওচৰত প্ৰৱেশ কৰে?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Sadiya",
+     "as": "শদিয়া"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Brahmaputra enters the Assam plain near Sadiya.",
+    "as": "ব্ৰহ্মপুত্ৰ শদিয়াৰ ওচৰত অসমৰ সমভূমিত প্ৰৱেশ কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-247",
+   "q": {
+    "en": "Near which place does the Brahmaputra leave Assam?",
+    "as": "কোন ঠাইৰ ওচৰত ব্ৰহ্মপুত্ৰ অসম এৰি যায়?"
+   },
+   "options": [
+    {
+     "en": "Jogighopa",
+     "as": "জগীঘোপা"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Sadiya",
+     "as": "শদিয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Brahmaputra leaves Assam near Dhubri.",
+    "as": "ব্ৰহ্মপুত্ৰ ধুবুৰীৰ ওচৰত অসম এৰি যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-248",
+   "q": {
+    "en": "The Brahmaputra flows through the Assam valley in which direction?",
+    "as": "ব্ৰহ্মপুত্ৰ অসম উপত্যকাত কোন দিশেৰে বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "North to south",
+     "as": "উত্তৰৰ পৰা দক্ষিণলৈ"
+    },
+    {
+     "en": "West to east",
+     "as": "পশ্চিমৰ পৰা পূবলৈ"
+    },
+    {
+     "en": "South to north",
+     "as": "দক্ষিণৰ পৰা উত্তৰলৈ"
+    },
+    {
+     "en": "East to west",
+     "as": "পূবৰ পৰা পশ্চিমলৈ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Brahmaputra flows east to west through the Assam valley.",
+    "as": "ব্ৰহ্মপুত্ৰ অসম উপত্যকাত পূবৰ পৰা পশ্চিমলৈ বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-249",
+   "q": {
+    "en": "The Brahmaputra is formed near Sadiya by the confluence of which rivers?",
+    "as": "শদিয়াৰ ওচৰত কোন নদীবোৰৰ সংগমত ব্ৰহ্মপুত্ৰ গঠিত হয়?"
+   },
+   "options": [
+    {
+     "en": "Dihang, Dibang and Lohit",
+     "as": "দিহাং, ডিবাং আৰু লোহিত"
+    },
+    {
+     "en": "Lohit, Kopili and Dhansiri",
+     "as": "লোহিত, কপিলী আৰু ধনশিৰি"
+    },
+    {
+     "en": "Dihang, Subansiri and Manas",
+     "as": "দিহাং, সোৱণশিৰি আৰু মানস"
+    },
+    {
+     "en": "Barak, Sonai and Katakhal",
+     "as": "বৰাক, চোনাই আৰু কটাখাল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Dihang, Dibang and Lohit meet near Sadiya to form the Brahmaputra.",
+    "as": "দিহাং, ডিবাং আৰু লোহিতে শদিয়াৰ ওচৰত মিলি ব্ৰহ্মপুত্ৰ গঠন কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-250",
+   "q": {
+    "en": "National Waterway 2 lies on which river?",
+    "as": "ৰাষ্ট্ৰীয় জলপথ ২ কোন নদীত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Godavari",
+     "as": "গোদাবৰী"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Ganga",
+     "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "National Waterway 2 is on the Brahmaputra.",
+    "as": "ৰাষ্ট্ৰীয় জলপথ ২ ব্ৰহ্মপুত্ৰত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-251",
+   "q": {
+    "en": "Which two places does National Waterway 2 connect?",
+    "as": "ৰাষ্ট্ৰীয় জলপথ ২ এ কোন দুখন ঠাই সংযোগ কৰে?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh and Tezpur",
+     "as": "ডিব্ৰুগড় আৰু তেজপুৰ"
+    },
+    {
+     "en": "Silchar and Karimganj",
+     "as": "শিলচৰ আৰু কৰিমগঞ্জ"
+    },
+    {
+     "en": "Sadiya and Dhubri",
+     "as": "শদিয়া আৰু ধুবুৰী"
+    },
+    {
+     "en": "Guwahati and Silchar",
+     "as": "গুৱাহাটী আৰু শিলচৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "NW-2 connects Sadiya with Dhubri on the Brahmaputra.",
+    "as": "ৰাষ্ট্ৰীয় জলপথ ২ এ ব্ৰহ্মপুত্ৰত শদিয়াৰ সৈতে ধুবুৰী সংযোগ কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-252",
+   "q": {
+    "en": "Which island is known as the largest river island in the world?",
+    "as": "কোন দ্বীপক বিশ্বৰ আটাইতকৈ ডাঙৰ নদীদ্বীপ হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Bhupen Hazarika island",
+     "as": "ভূপেন হাজৰিকা দ্বীপ"
+    },
+    {
+     "en": "Peacock Island",
+     "as": "ময়ূৰ দ্বীপ"
+    },
+    {
+     "en": "Umananda",
+     "as": "উমানন্দ"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Majuli is regarded as the largest river island in the world.",
+    "as": "মাজুলীক বিশ্বৰ আটাইতকৈ ডাঙৰ নদীদ্বীপ হিচাপে গণ্য কৰা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-253",
+   "q": {
+    "en": "Which river island of the Brahmaputra is also called Peacock Island?",
+    "as": "ব্ৰহ্মপুত্ৰৰ কোন নদীদ্বীপক ময়ূৰ দ্বীপ বুলিও কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Umananda",
+     "as": "উমানন্দ"
+    },
+    {
+     "en": "Baleswar",
+     "as": "বালেশ্বৰ"
+    },
+    {
+     "en": "Majuli",
+     "as": "মাজুলী"
+    },
+    {
+     "en": "Umati",
+     "as": "উমটি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Umananda island at Guwahati is also called Peacock Island.",
+    "as": "গুৱাহাটীৰ উমানন্দ দ্বীপক ময়ূৰ দ্বীপ বুলিও কোৱা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-254",
+   "q": {
+    "en": "The Brahmaputra Board was set up in which year?",
+    "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড কিমান চনত গঠন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "1974",
+     "as": "১৯৭৪"
+    },
+    {
+     "en": "1980",
+     "as": "১৯৮০"
+    },
+    {
+     "en": "2003",
+     "as": "২০০৩"
+    },
+    {
+     "en": "1990",
+     "as": "১৯৯০"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Brahmaputra Board was established in 1980.",
+    "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড ১৯৮০ চনত গঠন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-255",
+   "q": {
+    "en": "Where is the headquarters of the Brahmaputra Board located?",
+    "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ডৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Brahmaputra Board is headquartered at Guwahati.",
+    "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ডৰ মুখ্য কাৰ্যালয় গুৱাহাটীত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-256",
+   "q": {
+    "en": "Which endangered aquatic animal is the national aquatic animal of India and found in the Brahmaputra?",
+    "as": "কোন বিপন্ন জলজ প্ৰাণী ভাৰতৰ ৰাষ্ট্ৰীয় জলজ প্ৰাণী আৰু ব্ৰহ্মপুত্ৰত পোৱা যায়?"
+   },
+   "options": [
+    {
+     "en": "Gharial",
+     "as": "ঘঁৰিয়াল"
+    },
+    {
+     "en": "Dugong",
+     "as": "ডুগং"
+    },
+    {
+     "en": "Olive ridley turtle",
+     "as": "অলিভ ৰিডলী কাছ"
+    },
+    {
+     "en": "Ganges river dolphin",
+     "as": "গংগা নদী ডলফিন"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Ganges river dolphin is the national aquatic animal and lives in the Brahmaputra.",
+    "as": "গংগা নদী ডলফিন ৰাষ্ট্ৰীয় জলজ প্ৰাণী আৰু ব্ৰহ্মপুত্ৰত বাস কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-257",
+   "q": {
+    "en": "By which local Assamese name is the Brahmaputra affectionately known?",
+    "as": "ব্ৰহ্মপুত্ৰক কোন স্থানীয় অসমীয়া নামেৰে মৰমেৰে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Luit",
+     "as": "লুইত"
+    },
+    {
+     "en": "Tsangpo",
+     "as": "ছাংপো"
+    },
+    {
+     "en": "Siang",
+     "as": "সিয়াং"
+    },
+    {
+     "en": "Jamuna",
+     "as": "যমুনা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Brahmaputra is affectionately called Luit in Assamese.",
+    "as": "ব্ৰহ্মপুত্ৰক অসমীয়াত মৰমেৰে লুইত বোলা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-258",
+   "q": {
+    "en": "The Brahmaputra valley is flanked by hills on how many sides?",
+    "as": "ব্ৰহ্মপুত্ৰ উপত্যকা কিমান ফালে পাহাৰেৰে আগুৰি আছে?"
+   },
+   "options": [
+    {
+     "en": "Two sides",
+     "as": "দুই ফালে"
+    },
+    {
+     "en": "Three sides",
+     "as": "তিনি ফালে"
+    },
+    {
+     "en": "Four sides",
+     "as": "চাৰি ফালে"
+    },
+    {
+     "en": "One side",
+     "as": "এক ফালে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Brahmaputra valley is surrounded by hills on three sides.",
+    "as": "ব্ৰহ্মপুত্ৰ উপত্যকা তিনি ফালে পাহাৰেৰে আগুৰি আছে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-259",
+   "q": {
+    "en": "Which is the main city on the bank of the Barak river?",
+    "as": "বৰাক নদীৰ পাৰত অৱস্থিত প্ৰধান চহৰ কোন?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Silchar is the main city on the Barak river.",
+    "as": "শিলচৰ বৰাক নদীৰ পাৰত অৱস্থিত প্ৰধান চহৰ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-260",
+   "q": {
+    "en": "In Bangladesh, the Barak river is mainly known as which river?",
+    "as": "বাংলাদেশত বৰাক নদীক মূলতঃ কোন নদী হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Jamuna",
+     "as": "যমুনা"
+    },
+    {
+     "en": "Padma",
+     "as": "পদ্মা"
+    },
+    {
+     "en": "Meghna",
+     "as": "মেঘনা"
+    },
+    {
+     "en": "Surma",
+     "as": "ছুৰমা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "In Bangladesh the Barak is mainly known as the Surma.",
+    "as": "বাংলাদেশত বৰাকক মূলতঃ ছুৰমা হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-261",
+   "q": {
+    "en": "Which National Waterway is on the Barak river?",
+    "as": "বৰাক নদীত কোন ৰাষ্ট্ৰীয় জলপথ অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "NW-16",
+     "as": "জলপথ ১৬"
+    },
+    {
+     "en": "NW-2",
+     "as": "জলপথ ২"
+    },
+    {
+     "en": "NW-1",
+     "as": "জলপথ ১"
+    },
+    {
+     "en": "NW-6",
+     "as": "জলপথ ৬"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "National Waterway 16 is on the Barak river.",
+    "as": "ৰাষ্ট্ৰীয় জলপথ ১৬ বৰাক নদীত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-262",
+   "q": {
+    "en": "Which is the largest wetland of the Barak valley?",
+    "as": "বৰাক উপত্যকাৰ আটাইতকৈ ডাঙৰ জলাশয় কোন?"
+   },
+   "options": [
+    {
+     "en": "Chandubi",
+     "as": "চান্দুবি"
+    },
+    {
+     "en": "Sonbeel",
+     "as": "ছনবিল"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sonbeel is the largest wetland of the Barak valley.",
+    "as": "ছনবিল বৰাক উপত্যকাৰ আটাইতকৈ ডাঙৰ জলাশয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-263",
+   "q": {
+    "en": "Which district is Sonbeel, a large wetland, located in?",
+    "as": "বৃহৎ জলাশয় ছনবিল কোন জিলাত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dhubri",
+     "as": "ধুবুৰী"
+    },
+    {
+     "en": "Cachar",
+     "as": "কাছাৰ"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sonbeel is located in Karimganj district.",
+    "as": "ছনবিল কৰিমগঞ্জ জিলাত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-264",
+   "q": {
+    "en": "The Manas river forms part of the boundary between India and which country?",
+    "as": "মানস নদীয়ে ভাৰত আৰু কোন দেশৰ মাজৰ সীমাৰ অংশ গঠন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Myanmar",
+     "as": "ম্যানমাৰ"
+    },
+    {
+     "en": "Bangladesh",
+     "as": "বাংলাদেশ"
+    },
+    {
+     "en": "Nepal",
+     "as": "নেপাল"
+    },
+    {
+     "en": "Bhutan",
+     "as": "ভূটান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Manas river forms part of the India-Bhutan boundary.",
+    "as": "মানস নদীয়ে ভাৰত-ভূটান সীমাৰ অংশ গঠন কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-265",
+   "q": {
+    "en": "Which city is located on the bank of the Brahmaputra and is called the Gateway to North East India?",
+    "as": "কোন চহৰ ব্ৰহ্মপুত্ৰৰ পাৰত অৱস্থিত আৰু উত্তৰ-পূব ভাৰতৰ প্ৰৱেশদ্বাৰ বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    },
+    {
+     "en": "Silchar",
+     "as": "শিলচৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati, on the Brahmaputra, is called the Gateway to North East India.",
+    "as": "ব্ৰহ্মপুত্ৰৰ পাৰত অৱস্থিত গুৱাহাটীক উত্তৰ-পূব ভাৰতৰ প্ৰৱেশদ্বাৰ বোলা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-266",
+   "q": {
+    "en": "Which bridge is the first rail-cum-road bridge over the Brahmaputra?",
+    "as": "ব্ৰহ্মপুত্ৰৰ ওপৰত প্ৰথম ৰে'ল-সহ-পথ দলং কোন?"
+   },
+   "options": [
+    {
+     "en": "Kolia Bhomora Setu",
+     "as": "কলিয়া ভোমোৰা সেতু"
+    },
+    {
+     "en": "Saraighat Bridge",
+     "as": "শৰাইঘাট দলং"
+    },
+    {
+     "en": "Bogibeel Bridge",
+     "as": "বগীবিল দলং"
+    },
+    {
+     "en": "Naranarayan Setu",
+     "as": "নাৰায়ণ সেতু"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Saraighat Bridge at Guwahati was the first rail-cum-road bridge over the Brahmaputra.",
+    "as": "গুৱাহাটীৰ শৰাইঘাট দলং ব্ৰহ্মপুত্ৰৰ ওপৰত প্ৰথম ৰে'ল-সহ-পথ দলং আছিল।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-267",
+   "q": {
+    "en": "In which year was Majuli declared a district of Assam?",
+    "as": "মাজুলীক কিমান চনত অসমৰ জিলা হিচাপে ঘোষণা কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "2015",
+     "as": "২০১৫"
+    },
+    {
+     "en": "2011",
+     "as": "২০১১"
+    },
+    {
+     "en": "2016",
+     "as": "২০১৬"
+    },
+    {
+     "en": "2018",
+     "as": "২০১৮"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Majuli was declared a district in 2016.",
+    "as": "মাজুলীক ২০১৬ চনত জিলা হিচাপে ঘোষণা কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-268",
+   "q": {
+    "en": "Which river is famous for causing rapid bank erosion in Assam?",
+    "as": "কোন নদী অসমত দ্ৰুত পাৰ ভাঙনৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Kopili",
+     "as": "কপিলী"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Brahmaputra is notorious for rapid bank erosion.",
+    "as": "ব্ৰহ্মপুত্ৰ দ্ৰুত পাৰ ভাঙনৰ বাবে কুখ্যাত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-269",
+   "q": {
+    "en": "Which natural disaster is the Brahmaputra best known for causing in Assam?",
+    "as": "ব্ৰহ্মপুত্ৰ অসমত কোন প্ৰাকৃতিক দুৰ্যোগৰ বাবে সৰ্বাধিক পৰিচিত?"
+   },
+   "options": [
+    {
+     "en": "Floods",
+     "as": "বানপানী"
+    },
+    {
+     "en": "Droughts",
+     "as": "খৰাং"
+    },
+    {
+     "en": "Avalanches",
+     "as": "হিমপ্ৰপাত"
+    },
+    {
+     "en": "Cyclones",
+     "as": "ঘূৰ্ণীবতাহ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Brahmaputra causes severe annual floods in Assam.",
+    "as": "ব্ৰহ্মপুত্ৰে অসমত প্ৰতি বছৰে তীব্ৰ বানপানীৰ সৃষ্টি কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-270",
+   "q": {
+    "en": "Which river flows through the Nameri National Park?",
+    "as": "নামেৰি ৰাষ্ট্ৰীয় উদ্যানৰ মাজেৰে কোন নদী বৈ যায়?"
+   },
+   "options": [
+    {
+     "en": "Kolong",
+     "as": "কলং"
+    },
+    {
+     "en": "Jia Bharali",
+     "as": "জিয়া ভৰলী"
+    },
+    {
+     "en": "Kopili",
+     "as": "কপিলী"
+    },
+    {
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Jia Bharali flows along the Nameri National Park.",
+    "as": "জিয়া ভৰলী নামেৰি ৰাষ্ট্ৰীয় উদ্যানৰ কাষেৰে বৈ যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-271",
+   "q": {
+    "en": "Which river is called the 'Sorrow of Assam'?",
+    "as": "কোন নদীক 'অসমৰ দুখ' বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Kopili",
+     "as": "কপিলী"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Brahmaputra is called the Sorrow of Assam for its floods.",
+    "as": "প্লাৱনৰ বাবে ব্ৰহ্মপুত্ৰক অসমৰ দুখ বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-272",
+   "q": {
+    "en": "The Barak river is a part of which major river system?",
+    "as": "বৰাক নদী কোন প্ৰধান নদী ব্যৱস্থাৰ অংশ?"
+   },
+   "options": [
+    {
+     "en": "Ganga river system",
+     "as": "গংগা নদী ব্যৱস্থা"
+    },
+    {
+     "en": "Godavari river system",
+     "as": "গোদাবৰী নদী ব্যৱস্থা"
+    },
+    {
+     "en": "Brahmaputra river system",
+     "as": "ব্ৰহ্মপুত্ৰ নদী ব্যৱস্থা"
+    },
+    {
+     "en": "Meghna river system",
+     "as": "মেঘনা নদী ব্যৱস্থা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Barak is part of the Meghna river system.",
+    "as": "বৰাক মেঘনা নদী ব্যৱস্থাৰ অংশ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-273",
+   "q": {
+    "en": "Which is the main river of the Barak valley system?",
+    "as": "বৰাক উপত্যকা ব্যৱস্থাৰ প্ৰধান নদী কোন?"
+   },
+   "options": [
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Sonai",
+     "as": "চোনাই"
+    },
+    {
+     "en": "Katakhal",
+     "as": "কটাখাল"
+    },
+    {
+     "en": "Jiri",
+     "as": "জিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Barak is the main river of the Barak valley system.",
+    "as": "বৰাক বৰাক উপত্যকা ব্যৱস্থাৰ প্ৰধান নদী।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-274",
+   "q": {
+    "en": "Which hill range lies between the Brahmaputra and the Barak valleys?",
+    "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকাৰ মাজত কোন পাহাৰশ্ৰেণী অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Patkai Range",
+     "as": "পাটকাই শ্ৰেণী"
+    },
+    {
+     "en": "Barail Range",
+     "as": "বৰাইল শ্ৰেণী"
+    },
+    {
+     "en": "Khasi Hills",
+     "as": "খাছী পাহাৰ"
+    },
+    {
+     "en": "Mikir Hills",
+     "as": "মিকিৰ পাহাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Barail Range lies between the two valleys.",
+    "as": "বৰাইল শ্ৰেণী দুয়ো উপত্যকাৰ মাজত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-275",
+   "q": {
+    "en": "Which is the principal east-west national highway of Assam?",
+    "as": "অসমৰ প্ৰধান পূব-পশ্চিম ৰাষ্ট্ৰীয় ঘাইপথ কোন?"
+   },
+   "options": [
+    {
+     "en": "NH-37",
+     "as": "এন এইচ-৩৭"
+    },
+    {
+     "en": "NH-6",
+     "as": "এন এইচ-৬"
+    },
+    {
+     "en": "NH-27",
+     "as": "এন এইচ-২৭"
+    },
+    {
+     "en": "NH-15",
+     "as": "এন এইচ-১৫"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "NH-27 is the principal east-west highway of Assam.",
+    "as": "এন এইচ-২৭ অসমৰ প্ৰধান পূব-পশ্চিম ঘাইপথ।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-276",
+   "q": {
+    "en": "Which is the main river that causes floods in the Barak valley?",
+    "as": "বৰাক উপত্যকাত বানপানীৰ বাবে দায়ী প্ৰধান নদী কোন?"
+   },
+   "options": [
+    {
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
+    },
+    {
+     "en": "Kopili",
+     "as": "কপিলী"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Barak causes floods in the Barak valley.",
+    "as": "বৰাকে বৰাক উপত্যকাত বানপানীৰ সৃষ্টি কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-277",
+   "q": {
+    "en": "Which river forms the boundary between Assam and Meghalaya in part?",
+    "as": "কোন নদীয়ে অসম আৰু মেঘালয়ৰ মাজৰ সীমাৰ অংশ গঠন কৰে?"
+   },
+   "options": [
+    {
+     "en": "Bhogdoi",
+     "as": "ভোগদৈ"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhogdoi forms part of the Assam-Meghalaya boundary.",
+    "as": "ভোগদৈয়ে অসম-মেঘালয় সীমাৰ অংশ গঠন কৰে।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-278",
+   "q": {
+    "en": "The Barak river originates in which state?",
+    "as": "বৰাক নদী কোন ৰাজ্যত উৎপন্ন হয়?"
+   },
+   "options": [
+    {
+     "en": "Nagaland",
+     "as": "নাগালেণ্ড"
+    },
+    {
+     "en": "Manipur",
+     "as": "মণিপুৰ"
+    },
+    {
+     "en": "Meghalaya",
+     "as": "মেঘালয়"
+    },
+    {
+     "en": "Mizoram",
+     "as": "মিজোৰাম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Barak river originates in Manipur.",
+    "as": "বৰাক নদী মণিপুৰত উৎপন্ন হয়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-279",
+   "q": {
+    "en": "Which river is also known as the 'Sorrow of the Barak valley'?",
+    "as": "কোন নদীক 'বৰাক উপত্যকাৰ দুখ' বুলিও জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Kopili",
+     "as": "কপিলী"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
+    },
+    {
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "The Barak is also known as the sorrow of the Barak valley for its floods.",
+    "as": "বানপানীৰ বাবে বৰাকক বৰাক উপত্যকাৰ দুখ বুলিও জনা যায়।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-280",
+   "q": {
+    "en": "Which river is associated with the Sivasagar district?",
+    "as": "শিৱসাগৰ জিলাৰ সৈতে কোন নদী জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Kopili",
+     "as": "কপিলী"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    },
+    {
+     "en": "Dikhow",
+     "as": "দিখৌ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "The Dikhow river is associated with Sivasagar district.",
+    "as": "দিখৌ নদী শিৱসাগৰ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "brahmaputra-barak-281",
+   "q": {
+    "en": "Which river is associated with the Jorhat district?",
+    "as": "যোৰহাট জিলাৰ সৈতে কোন নদী জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bhogdoi",
+     "as": "ভোগদৈ"
+    },
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Dikhow",
+     "as": "দিখৌ"
+    },
+    {
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Bhogdoi river is associated with Jorhat district.",
+    "as": "ভোগদৈ নদী যোৰহাট জিলাৰ সৈতে জড়িত।"
+   }
+  }
+ ],
+ "assam-natural-resources": [
+  {
+   "id": "assam-natural-resources-001",
+   "q": {
+    "en": "Tocklai Tea Research Institute in Assam is known as what?",
+    "as": "অসমত টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tea research institute",
+     "as": "চাহ গৱেষণা প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "Ramsar wetland",
+     "as": "ৰামছাৰ জলাশয়"
+    },
+    {
+     "en": "power utility",
+     "as": "বিদ্যুৎ প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tocklai Tea Research Institute is a tea research institute in Assam.",
+    "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান অসমত এটা চাহ গৱেষণা প্ৰতিষ্ঠান।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-002",
+   "q": {
+    "en": "Tocklai Tea Research Institute in Assam is located at which place?",
+    "as": "অসমত টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Lepetkata",
+     "as": "লেপেটকটা"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tocklai Tea Research Institute is located at Jorhat.",
+    "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান যোৰহাট ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-003",
+   "q": {
+    "en": "Tocklai Tea Research Institute in Assam is notable because of which of the following?",
+    "as": "অসমত টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is the Assam Gas Cracker Project",
+     "as": "ই অসম গেছ ক্ৰেকাৰ প্ৰকল্প"
+    },
+    {
+     "en": "it is a paper mill of Assam",
+     "as": "ই অসমৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is the oldest tea research station in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ"
+    },
+    {
+     "en": "it is a fine white silk of Assam",
+     "as": "ই অসমৰ এক মিহি বগা ৰেচম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Tocklai Tea Research Institute is notable because it is the oldest tea research station in the world.",
+    "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান উল্লেখযোগ্য কাৰণ ই বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-004",
+   "q": {
+    "en": "Guwahati Tea Auction Centre in Assam is known as what?",
+    "as": "অসমত গুৱাহাটী চাহ নিলাম কেন্দ্ৰ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "mulberry silk",
+     "as": "নুনি ৰেচম"
+    },
+    {
+     "en": "timber tree",
+     "as": "কাঠৰ গছ"
+    },
+    {
+     "en": "tea auction centre",
+     "as": "চাহ নিলাম কেন্দ্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Guwahati Tea Auction Centre is a tea auction centre in Assam.",
+    "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ অসমত এটা চাহ নিলাম কেন্দ্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-005",
+   "q": {
+    "en": "Guwahati Tea Auction Centre in Assam is located at which place?",
+    "as": "অসমত গুৱাহাটী চাহ নিলাম কেন্দ্ৰ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Shillong",
+     "as": "শিলং"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati Tea Auction Centre is located at Guwahati.",
+    "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ গুৱাহাটী ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-006",
+   "q": {
+    "en": "Guwahati Tea Auction Centre in Assam is notable because of which of the following?",
+    "as": "অসমত গুৱাহাটী চাহ নিলাম কেন্দ্ৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is used in perfumes and incense",
+     "as": "ই সুগন্ধি আৰু ধূপত ব্যৱহাৰ কৰা হয়"
+    },
+    {
+     "en": "it is one of the largest tea auction centres in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ ডাঙৰ চাহ নিলাম কেন্দ্ৰসমূহৰ এটা"
+    },
+    {
+     "en": "it is also called ahimsa silk",
+     "as": "ই অহিংসা ৰেচম নামেৰেও জনাজাত"
+    },
+    {
+     "en": "it is a cash crop of Assam",
+     "as": "ই অসমৰ এটা নগদ শস্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Guwahati Tea Auction Centre is notable because it is one of the largest tea auction centres in the world.",
+    "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ উল্লেখযোগ্য কাৰণ ই বিশ্বৰ আটাইতকৈ ডাঙৰ চাহ নিলাম কেন্দ্ৰসমূহৰ এটা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-007",
+   "q": {
+    "en": "Assam Tea Corporation in Assam is known as what?",
+    "as": "অসমত অসম চাহ নিগম কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tea research institute",
+     "as": "চাহ গৱেষণা প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "power corporation",
+     "as": "বিদ্যুৎ নিগম"
+    },
+    {
+     "en": "tea corporation",
+     "as": "চাহ নিগম"
+    },
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Tea Corporation is a tea corporation in Assam.",
+    "as": "অসম চাহ নিগম অসমত এটা চাহ নিগম।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-008",
+   "q": {
+    "en": "Assam Tea Corporation in Assam is located at which place?",
+    "as": "অসমত অসম চাহ নিগম কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Bodoland",
+     "as": "বড়োলেণ্ড"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Tea Corporation is located at Guwahati.",
+    "as": "অসম চাহ নিগম গুৱাহাটী ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-009",
+   "q": {
+    "en": "Assam Tea Corporation in Assam is notable because of which of the following?",
+    "as": "অসমত অসম চাহ নিগম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it manages the state's tea gardens",
+     "as": "ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে"
+    },
+    {
+     "en": "it is a specialty rice variety of Assam",
+     "as": "ই অসমৰ এটা বিশেষ চাউল জাত"
+    },
+    {
+     "en": "it is called the Amazon of the East",
+     "as": "ই পূবৰ আমাজন নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a hydroelectric project on the Kopili",
+     "as": "ই কপিলীত এটা জলবিদ্যুৎ প্ৰকল্প"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam Tea Corporation is notable because it manages the state's tea gardens.",
+    "as": "অসম চাহ নিগম উল্লেখযোগ্য কাৰণ ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-010",
+   "q": {
+    "en": "Dibrugarh in Assam is known as what?",
+    "as": "অসমত ডিব্ৰুগড় কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    },
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    },
+    {
+     "en": "tea producing district",
+     "as": "চাহ উৎপাদক জিলা"
+    },
+    {
+     "en": "mulberry silk",
+     "as": "নুনি ৰেচম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dibrugarh is a tea town in Assam.",
+    "as": "ডিব্ৰুগড় অসমত এটা চাহ নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-011",
+   "q": {
+    "en": "Dibrugarh in Assam is located at which place?",
+    "as": "অসমত ডিব্ৰুগড় কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dibrugarh is located at Dibrugarh.",
+    "as": "ডিব্ৰুগড় ডিব্ৰুগড় ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-012",
+   "q": {
+    "en": "Dibrugarh in Assam is notable because of which of the following?",
+    "as": "অসমত ডিব্ৰুগড় তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a refinery of Assam",
+     "as": "ই অসমৰ এটা শোধনাগাৰ"
+    },
+    {
+     "en": "it is rich in limestone and coal",
+     "as": "ই চূণশিল আৰু কয়লাত সমৃদ্ধ"
+    },
+    {
+     "en": "it is a North Eastern power corporation",
+     "as": "ই এটা উত্তৰ-পূব বিদ্যুৎ নিগম"
+    },
+    {
+     "en": "it is called the Tea City of India",
+     "as": "ই ভাৰতৰ চাহ নগৰী নামেৰে জনাজাত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dibrugarh is notable because it is called the Tea City of India.",
+    "as": "ডিব্ৰুগড় উল্লেখযোগ্য কাৰণ ই ভাৰতৰ চাহ নগৰী নামেৰে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-013",
+   "q": {
+    "en": "Sonitpur in Assam is known as what?",
+    "as": "অসমত শোণিতপুৰ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tea producing district",
+     "as": "চাহ উৎপাদক জিলা"
+    },
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বনাঞ্চল"
+    },
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    },
+    {
+     "en": "handwoven textile",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sonitpur is a tea producing district in Assam.",
+    "as": "শোণিতপুৰ অসমত এটা চাহ উৎপাদক জিলা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-014",
+   "q": {
+    "en": "Sonitpur in Assam is located at which place?",
+    "as": "অসমত শোণিতপুৰ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sonitpur is located at Sonitpur.",
+    "as": "শোণিতপুৰ শোণিতপুৰ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-015",
+   "q": {
+    "en": "Sonitpur in Assam is notable because of which of the following?",
+    "as": "অসমত শোণিতপুৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a cash crop of Assam",
+     "as": "ই অসমৰ এটা নগদ শস্য"
+    },
+    {
+     "en": "it is unique to Assam and golden in colour",
+     "as": "ই অসমৰ বাবে অনন্য আৰু সোণালী ৰঙৰ"
+    },
+    {
+     "en": "it is one of the largest tea producing districts of Assam",
+     "as": "ই অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা"
+    },
+    {
+     "en": "it is an important fibre crop of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান আঁহ শস্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sonitpur is notable because it is one of the largest tea producing districts of Assam.",
+    "as": "শোণিতপুৰ উল্লেখযোগ্য কাৰণ ই অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-016",
+   "q": {
+    "en": "Jorhat in Assam is known as what?",
+    "as": "অসমত যোৰহাট কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "fertiliser plant",
+     "as": "সাৰ কাৰখানা"
+    },
+    {
+     "en": "tea producing district",
+     "as": "চাহ উৎপাদক জিলা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Jorhat is a tea producing district in Assam.",
+    "as": "যোৰহাট অসমত এটা চাহ উৎপাদক জিলা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-017",
+   "q": {
+    "en": "Jorhat in Assam is located at which place?",
+    "as": "অসমত যোৰহাট কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Shillong",
+     "as": "শিলং"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jorhat is located at Jorhat.",
+    "as": "যোৰহাট যোৰহাট ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-018",
+   "q": {
+    "en": "Jorhat in Assam is notable because of which of the following?",
+    "as": "অসমত যোৰহাট তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it has the oldest oil refinery in India",
+     "as": "ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে"
+    },
+    {
+     "en": "it hosts the Tocklai Tea Research Institute",
+     "as": "ই টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ আয়োজক"
+    },
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it hosts a fertiliser plant of Assam",
+     "as": "ই অসমৰ এটা সাৰ কাৰখানা আছে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Jorhat is notable because it hosts the Tocklai Tea Research Institute.",
+    "as": "যোৰহাট উল্লেখযোগ্য কাৰণ ই টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ আয়োজক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-019",
+   "q": {
+    "en": "Muga silk in Assam is known as what?",
+    "as": "অসমত মুগা ৰেচম কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "forest product",
+     "as": "বনজ সামগ্ৰী"
+    },
+    {
+     "en": "golden silk",
+     "as": "সোণালী ৰেচম"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Muga silk is a golden silk in Assam.",
+    "as": "মুগা ৰেচম অসমত এটা সোণালী ৰেচম।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-020",
+   "q": {
+    "en": "Muga silk in Assam is located at which place?",
+    "as": "অসমত মুগা ৰেচম কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Muga silk is located at Assam.",
+    "as": "মুগা ৰেচম অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-021",
+   "q": {
+    "en": "Muga silk in Assam is notable because of which of the following?",
+    "as": "অসমত মুগা ৰেচম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is unique to Assam and golden in colour",
+     "as": "ই অসমৰ বাবে অনন্য আৰু সোণালী ৰঙৰ"
+    },
+    {
+     "en": "it is a hydroelectric project of Assam",
+     "as": "ই অসমৰ এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is one of the largest tea producing districts of Assam",
+     "as": "ই অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা"
+    },
+    {
+     "en": "it is the oldest tea research station in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muga silk is notable because it is unique to Assam and golden in colour.",
+    "as": "মুগা ৰেচম উল্লেখযোগ্য কাৰণ ই অসমৰ বাবে অনন্য আৰু সোণালী ৰঙৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-022",
+   "q": {
+    "en": "Pat silk in Assam is known as what?",
+    "as": "অসমত পাট ৰেচম কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "wetland",
+     "as": "জলাশয়"
+    },
+    {
+     "en": "mulberry silk",
+     "as": "নুনি ৰেচম"
+    },
+    {
+     "en": "oilfield",
+     "as": "তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pat silk is a mulberry silk in Assam.",
+    "as": "পাট ৰেচম অসমত এটা নুনি ৰেচম।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-023",
+   "q": {
+    "en": "Pat silk in Assam is located at which place?",
+    "as": "অসমত পাট ৰেচম কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Pat silk is located at Assam.",
+    "as": "পাট ৰেচম অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-024",
+   "q": {
+    "en": "Pat silk in Assam is notable because of which of the following?",
+    "as": "অসমত পাট ৰেচম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a hydroelectric project on the Kopili",
+     "as": "ই কপিলীত এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is widely grown in Assam",
+     "as": "ই অসমত বহুলভাৱে খেতি কৰা হয়"
+    },
+    {
+     "en": "it is a cement plant of Assam",
+     "as": "ই অসমৰ এটা চিমেণ্ট কাৰখানা"
+    },
+    {
+     "en": "it is a fine white silk of Assam",
+     "as": "ই অসমৰ এক মিহি বগা ৰেচম"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Pat silk is notable because it is a fine white silk of Assam.",
+    "as": "পাট ৰেচম উল্লেখযোগ্য কাৰণ ই অসমৰ এক মিহি বগা ৰেচম।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-025",
+   "q": {
+    "en": "Eri silk in Assam is known as what?",
+    "as": "অসমত এৰী ৰেচম কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "non-violent silk",
+     "as": "অহিংস ৰেচম"
+    },
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    },
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Eri silk is a non-violent silk in Assam.",
+    "as": "এৰী ৰেচম অসমত এটা অহিংস ৰেচম।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-026",
+   "q": {
+    "en": "Eri silk in Assam is located at which place?",
+    "as": "অসমত এৰী ৰেচম কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Panchgram",
+     "as": "পঞ্চগ্ৰাম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Eri silk is located at Assam.",
+    "as": "এৰী ৰেচম অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-027",
+   "q": {
+    "en": "Eri silk in Assam is notable because of which of the following?",
+    "as": "অসমত এৰী ৰেচম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Manchester of Assam",
+     "as": "ই অসমৰ মাঞ্চেষ্টাৰ নামেৰে জনাজাত"
+    },
+    {
+     "en": "it protects the hoolock gibbon",
+     "as": "ই হলৌ গিবনক সুৰক্ষা দিয়ে"
+    },
+    {
+     "en": "it is also called ahimsa silk",
+     "as": "ই অহিংসা ৰেচম নামেৰেও জনাজাত"
+    },
+    {
+     "en": "it distributes natural gas in Assam",
+     "as": "ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Eri silk is notable because it is also called ahimsa silk.",
+    "as": "এৰী ৰেচম উল্লেখযোগ্য কাৰণ ই অহিংসা ৰেচম নামেৰেও জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-028",
+   "q": {
+    "en": "Sualkuchi in Assam is known as what?",
+    "as": "অসমত শুৱালকুছি কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    },
+    {
+     "en": "gas cracker project",
+     "as": "গেছ ক্ৰেকাৰ প্ৰকল্প"
+    },
+    {
+     "en": "silk weaving town",
+     "as": "ৰেচম বোৱা নগৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sualkuchi is a silk weaving town in Assam.",
+    "as": "শুৱালকুছি অসমত এটা ৰেচম বোৱা নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-029",
+   "q": {
+    "en": "Sualkuchi in Assam is located at which place?",
+    "as": "অসমত শুৱালকুছি কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Shillong",
+     "as": "শিলং"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sualkuchi is located at Kamrup.",
+    "as": "শুৱালকুছি কামৰূপ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-030",
+   "q": {
+    "en": "Sualkuchi in Assam is notable because of which of the following?",
+    "as": "অসমত শুৱালকুছি তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a well known coalfield of Assam",
+     "as": "ই অসমৰ এটা সুপৰিচিত কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "it is called the Manchester of Assam",
+     "as": "ই অসমৰ মাঞ্চেষ্টাৰ নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is used in perfumes and incense",
+     "as": "ই সুগন্ধি আৰু ধূপত ব্যৱহাৰ কৰা হয়"
+    },
+    {
+     "en": "it is a major timber tree of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কাঠৰ গছ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sualkuchi is notable because it is called the Manchester of Assam.",
+    "as": "শুৱালকুছি উল্লেখযোগ্য কাৰণ ই অসমৰ মাঞ্চেষ্টাৰ নামেৰে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-031",
+   "q": {
+    "en": "Bodo Dokhona in Assam is known as what?",
+    "as": "অসমত বড়ো দখনা কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    },
+    {
+     "en": "handwoven textile",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bodo Dokhona is a handwoven textile in Assam.",
+    "as": "বড়ো দখনা অসমত এটা হাতে বোৱা বস্ত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-032",
+   "q": {
+    "en": "Bodo Dokhona in Assam is located at which place?",
+    "as": "অসমত বড়ো দখনা কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Bodoland",
+     "as": "বড়োলেণ্ড"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bodo Dokhona is located at Bodoland.",
+    "as": "বড়ো দখনা বড়োলেণ্ড ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-033",
+   "q": {
+    "en": "Bodo Dokhona in Assam is notable because of which of the following?",
+    "as": "অসমত বড়ো দখনা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a traditional Bodo garment",
+     "as": "ই এটা পৰম্পৰাগত বড়ো পোছাক"
+    },
+    {
+     "en": "it distributes natural gas in Assam",
+     "as": "ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে"
+    },
+    {
+     "en": "it is the headquarters of Oil India Limited",
+     "as": "ই অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয়"
+    },
+    {
+     "en": "it is an aromatic rice variety of Assam",
+     "as": "ই অসমৰ এটা সুগন্ধি চাউল জাত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bodo Dokhona is notable because it is a traditional Bodo garment.",
+    "as": "বড়ো দখনা উল্লেখযোগ্য কাৰণ ই এটা পৰম্পৰাগত বড়ো পোছাক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-034",
+   "q": {
+    "en": "Gamosa in Assam is known as what?",
+    "as": "অসমত গামোচা কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tea auction centre",
+     "as": "চাহ নিলাম কেন্দ্ৰ"
+    },
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "mulberry silk",
+     "as": "নুনি ৰেচম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Gamosa is a handwoven cloth in Assam.",
+    "as": "গামোচা অসমত এটা হাতে বোৱা বস্ত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-035",
+   "q": {
+    "en": "Gamosa in Assam is located at which place?",
+    "as": "অসমত গামোচা কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Gamosa is located at Assam.",
+    "as": "গামোচা অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-036",
+   "q": {
+    "en": "Gamosa in Assam is notable because of which of the following?",
+    "as": "অসমত গামোচা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a major coalfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "it is a major timber tree of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কাঠৰ গছ"
+    },
+    {
+     "en": "it is rich in coal and limestone",
+     "as": "ই কয়লা আৰু চূণশিলত সমৃদ্ধ"
+    },
+    {
+     "en": "it is a symbol of Assamese respect",
+     "as": "ই অসমীয়া সন্মানৰ প্ৰতীক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Gamosa is notable because it is a symbol of Assamese respect.",
+    "as": "গামোচা উল্লেখযোগ্য কাৰণ ই অসমীয়া সন্মানৰ প্ৰতীক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-037",
+   "q": {
+    "en": "Digboi in Assam is known as what?",
+    "as": "অসমত ডিগবয় কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    },
+    {
+     "en": "cash crop",
+     "as": "নগদ শস্য"
+    },
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Digboi is a oil town in Assam.",
+    "as": "ডিগবয় অসমত এটা তেল নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-038",
+   "q": {
+    "en": "Digboi in Assam is located at which place?",
+    "as": "অসমত ডিগবয় কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Digboi is located at Tinsukia.",
+    "as": "ডিগবয় তিনিচুকীয়া ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-039",
+   "q": {
+    "en": "Digboi in Assam is notable because of which of the following?",
+    "as": "অসমত ডিগবয় তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Manchester of Assam",
+     "as": "ই অসমৰ মাঞ্চেষ্টাৰ নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is the oldest tea research station in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ"
+    },
+    {
+     "en": "it has the oldest oil refinery in India",
+     "as": "ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে"
+    },
+    {
+     "en": "it is unique to Assam and golden in colour",
+     "as": "ই অসমৰ বাবে অনন্য আৰু সোণালী ৰঙৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Digboi is notable because it has the oldest oil refinery in India.",
+    "as": "ডিগবয় উল্লেখযোগ্য কাৰণ ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-040",
+   "q": {
+    "en": "Naharkatia in Assam is known as what?",
+    "as": "অসমত নাহৰকটীয়া কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "aromatic rice",
+     "as": "সুগন্ধি চাউল"
+    },
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    },
+    {
+     "en": "staple crop",
+     "as": "মূল খাদ্য শস্য"
+    },
+    {
+     "en": "oilfield",
+     "as": "তেলক্ষেত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Naharkatia is a oilfield in Assam.",
+    "as": "নাহৰকটীয়া অসমত এটা তেলক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-041",
+   "q": {
+    "en": "Naharkatia in Assam is located at which place?",
+    "as": "অসমত নাহৰকটীয়া কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Naharkatia is located at Dibrugarh.",
+    "as": "নাহৰকটীয়া ডিব্ৰুগড় ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-042",
+   "q": {
+    "en": "Naharkatia in Assam is notable because of which of the following?",
+    "as": "অসমত নাহৰকটীয়া তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a large wetland of the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা বৃহৎ জলাশয়"
+    },
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it is a traditional Bodo garment",
+     "as": "ই এটা পৰম্পৰাগত বড়ো পোছাক"
+    },
+    {
+     "en": "it hosts the Tocklai Tea Research Institute",
+     "as": "ই টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ আয়োজক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Naharkatia is notable because it is a major oilfield of Assam.",
+    "as": "নাহৰকটীয়া উল্লেখযোগ্য কাৰণ ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-043",
+   "q": {
+    "en": "Duliajan in Assam is known as what?",
+    "as": "অসমত ডুলিয়াজান কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    },
+    {
+     "en": "non-violent silk",
+     "as": "অহিংস ৰেচম"
+    },
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "coal town",
+     "as": "কয়লা নগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Duliajan is a oil town in Assam.",
+    "as": "ডুলিয়াজান অসমত এটা তেল নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-044",
+   "q": {
+    "en": "Duliajan in Assam is located at which place?",
+    "as": "অসমত ডুলিয়াজান কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Duliajan is located at Dibrugarh.",
+    "as": "ডুলিয়াজান ডিব্ৰুগড় ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-045",
+   "q": {
+    "en": "Duliajan in Assam is notable because of which of the following?",
+    "as": "অসমত ডুলিয়াজান তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is the headquarters of Oil India Limited",
+     "as": "ই অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয়"
+    },
+    {
+     "en": "it is a dense forest area of Assam",
+     "as": "ই অসমৰ এটা ঘন বনাঞ্চল"
+    },
+    {
+     "en": "it is the principal food crop of Assam",
+     "as": "ই অসমৰ প্ৰধান খাদ্য শস্য"
+    },
+    {
+     "en": "it manages the state's tea gardens",
+     "as": "ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Duliajan is notable because it is the headquarters of Oil India Limited.",
+    "as": "ডুলিয়াজান উল্লেখযোগ্য কাৰণ ই অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-046",
+   "q": {
+    "en": "Numaligarh Refinery in Assam is known as what?",
+    "as": "অসমত নুমলীগড় শোধনাগাৰ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "timber tree",
+     "as": "কাঠৰ গছ"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    },
+    {
+     "en": "fertiliser plant",
+     "as": "সাৰ কাৰখানা"
+    },
+    {
+     "en": "specialty rice",
+     "as": "বিশেষ চাউল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Numaligarh Refinery is a oil refinery in Assam.",
+    "as": "নুমলীগড় শোধনাগাৰ অসমত এটা তেল শোধনাগাৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-047",
+   "q": {
+    "en": "Numaligarh Refinery in Assam is located at which place?",
+    "as": "অসমত নুমলীগড় শোধনাগাৰ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Numaligarh Refinery is located at Golaghat.",
+    "as": "নুমলীগড় শোধনাগাৰ গোলাঘাট ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-048",
+   "q": {
+    "en": "Numaligarh Refinery in Assam is notable because of which of the following?",
+    "as": "অসমত নুমলীগড় শোধনাগাৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is one of the largest tea producing districts of Assam",
+     "as": "ই অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা"
+    },
+    {
+     "en": "it is a specialty rice variety of Assam",
+     "as": "ই অসমৰ এটা বিশেষ চাউল জাত"
+    },
+    {
+     "en": "it is the principal food crop of Assam",
+     "as": "ই অসমৰ প্ৰধান খাদ্য শস্য"
+    },
+    {
+     "en": "it is a major refinery of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান শোধনাগাৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Numaligarh Refinery is notable because it is a major refinery of Assam.",
+    "as": "নুমলীগড় শোধনাগাৰ উল্লেখযোগ্য কাৰণ ই অসমৰ এটা প্ৰধান শোধনাগাৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-049",
+   "q": {
+    "en": "Bongaigaon Refinery in Assam is known as what?",
+    "as": "অসমত বঙাইগাঁও শোধনাগাৰ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    },
+    {
+     "en": "natural lake",
+     "as": "প্ৰাকৃতিক হ্ৰদ"
+    },
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    },
+    {
+     "en": "cement plant",
+     "as": "চিমেণ্ট কাৰখানা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bongaigaon Refinery is a oil refinery in Assam.",
+    "as": "বঙাইগাঁও শোধনাগাৰ অসমত এটা তেল শোধনাগাৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-050",
+   "q": {
+    "en": "Bongaigaon Refinery in Assam is located at which place?",
+    "as": "অসমত বঙাইগাঁও শোধনাগাৰ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bongaigaon Refinery is located at Bongaigaon.",
+    "as": "বঙাইগাঁও শোধনাগাৰ বঙাইগাঁও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-051",
+   "q": {
+    "en": "Bongaigaon Refinery in Assam is notable because of which of the following?",
+    "as": "অসমত বঙাইগাঁও শোধনাগাৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it manages the state's tea gardens",
+     "as": "ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে"
+    },
+    {
+     "en": "it is a paper mill in the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is a refinery of Assam",
+     "as": "ই অসমৰ এটা শোধনাগাৰ"
+    },
+    {
+     "en": "it is rich in coal and limestone",
+     "as": "ই কয়লা আৰু চূণশিলত সমৃদ্ধ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Bongaigaon Refinery is notable because it is a refinery of Assam.",
+    "as": "বঙাইগাঁও শোধনাগাৰ উল্লেখযোগ্য কাৰণ ই অসমৰ এটা শোধনাগাৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-052",
+   "q": {
+    "en": "Namrup in Assam is known as what?",
+    "as": "অসমত নামৰূপ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "staple crop",
+     "as": "মূল খাদ্য শস্য"
+    },
+    {
+     "en": "power utility",
+     "as": "বিদ্যুৎ প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "mulberry silk",
+     "as": "নুনি ৰেচম"
+    },
+    {
+     "en": "fertiliser plant",
+     "as": "সাৰ কাৰখানা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Namrup is a fertiliser plant in Assam.",
+    "as": "নামৰূপ অসমত এটা সাৰ কাৰখানা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-053",
+   "q": {
+    "en": "Namrup in Assam is located at which place?",
+    "as": "অসমত নামৰূপ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Namrup is located at Dibrugarh.",
+    "as": "নামৰূপ ডিব্ৰুগড় ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-054",
+   "q": {
+    "en": "Namrup in Assam is notable because of which of the following?",
+    "as": "অসমত নামৰূপ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it manages the state's tea gardens",
+     "as": "ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে"
+    },
+    {
+     "en": "it hosts a fertiliser plant of Assam",
+     "as": "ই অসমৰ এটা সাৰ কাৰখানা আছে"
+    },
+    {
+     "en": "it is a major timber tree of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কাঠৰ গছ"
+    },
+    {
+     "en": "it hosts the Tocklai Tea Research Institute",
+     "as": "ই টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ আয়োজক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Namrup is notable because it hosts a fertiliser plant of Assam.",
+    "as": "নামৰূপ উল্লেখযোগ্য কাৰণ ই অসমৰ এটা সাৰ কাৰখানা আছে।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-055",
+   "q": {
+    "en": "BCPL in Assam is known as what?",
+    "as": "অসমত বিচিপিএল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "non-violent silk",
+     "as": "অহিংস ৰেচম"
+    },
+    {
+     "en": "Ramsar wetland",
+     "as": "ৰামছাৰ জলাশয়"
+    },
+    {
+     "en": "gas cracker project",
+     "as": "গেছ ক্ৰেকাৰ প্ৰকল্প"
+    },
+    {
+     "en": "coal town",
+     "as": "কয়লা নগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "BCPL is a gas cracker project in Assam.",
+    "as": "বিচিপিএল অসমত এটা গেছ ক্ৰেকাৰ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-056",
+   "q": {
+    "en": "BCPL in Assam is located at which place?",
+    "as": "অসমত বিচিপিএল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Lepetkata",
+     "as": "লেপেটকটা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "BCPL is located at Lepetkata.",
+    "as": "বিচিপিএল লেপেটকটা ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-057",
+   "q": {
+    "en": "BCPL in Assam is notable because of which of the following?",
+    "as": "অসমত বিচিপিএল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is the Assam Gas Cracker Project",
+     "as": "ই অসম গেছ ক্ৰেকাৰ প্ৰকল্প"
+    },
+    {
+     "en": "it is also called ahimsa silk",
+     "as": "ই অহিংসা ৰেচম নামেৰেও জনাজাত"
+    },
+    {
+     "en": "it is the headquarters of Oil India Limited",
+     "as": "ই অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয়"
+    },
+    {
+     "en": "it is known for its cement plant and hydro project",
+     "as": "ই ইয়াৰ চিমেণ্ট কাৰখানা আৰু জলবিদ্যুৎ প্ৰকল্পৰ বাবে জনাজাত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "BCPL is notable because it is the Assam Gas Cracker Project.",
+    "as": "বিচিপিএল উল্লেখযোগ্য কাৰণ ই অসম গেছ ক্ৰেকাৰ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-058",
+   "q": {
+    "en": "Assam Gas Company in Assam is known as what?",
+    "as": "অসমত অসম গেছ কোম্পানী কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "coal town",
+     "as": "কয়লা নগৰ"
+    },
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assam Gas Company is a gas distribution in Assam.",
+    "as": "অসম গেছ কোম্পানী অসমত এটা গেছ বিতৰণ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-059",
+   "q": {
+    "en": "Assam Gas Company in Assam is located at which place?",
+    "as": "অসমত অসম গেছ কোম্পানী কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Gas Company is located at Assam.",
+    "as": "অসম গেছ কোম্পানী অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-060",
+   "q": {
+    "en": "Assam Gas Company in Assam is notable because of which of the following?",
+    "as": "অসমত অসম গেছ কোম্পানী তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a cash crop of Assam",
+     "as": "ই অসমৰ এটা নগদ শস্য"
+    },
+    {
+     "en": "it is known for its cement plant and hydro project",
+     "as": "ই ইয়াৰ চিমেণ্ট কাৰখানা আৰু জলবিদ্যুৎ প্ৰকল্পৰ বাবে জনাজাত"
+    },
+    {
+     "en": "it is one of the largest tea producing districts of Assam",
+     "as": "ই অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা"
+    },
+    {
+     "en": "it distributes natural gas in Assam",
+     "as": "ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Gas Company is notable because it distributes natural gas in Assam.",
+    "as": "অসম গেছ কোম্পানী উল্লেখযোগ্য কাৰণ ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-061",
+   "q": {
+    "en": "Margherita in Assam is known as what?",
+    "as": "অসমত মাৰ্ঘেৰিটা কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "power utility",
+     "as": "বিদ্যুৎ প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "forest product",
+     "as": "বনজ সামগ্ৰী"
+    },
+    {
+     "en": "cement plant",
+     "as": "চিমেণ্ট কাৰখানা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Margherita is a coalfield in Assam.",
+    "as": "মাৰ্ঘেৰিটা অসমত এটা কয়লাক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-062",
+   "q": {
+    "en": "Margherita in Assam is located at which place?",
+    "as": "অসমত মাৰ্ঘেৰিটা কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Margherita is located at Tinsukia.",
+    "as": "মাৰ্ঘেৰিটা তিনিচুকীয়া ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-063",
+   "q": {
+    "en": "Margherita in Assam is notable because of which of the following?",
+    "as": "অসমত মাৰ্ঘেৰিটা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it has the oldest oil refinery in India",
+     "as": "ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে"
+    },
+    {
+     "en": "it distributes power in Assam",
+     "as": "ই অসমত বিদ্যুৎ বিতৰণ কৰে"
+    },
+    {
+     "en": "it is a major coalfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "it distributes natural gas in Assam",
+     "as": "ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Margherita is notable because it is a major coalfield of Assam.",
+    "as": "মাৰ্ঘেৰিটা উল্লেখযোগ্য কাৰণ ই অসমৰ এটা প্ৰধান কয়লাক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-064",
+   "q": {
+    "en": "Makum in Assam is known as what?",
+    "as": "অসমত মাকুম কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "plantation crop",
+     "as": "বাগান শস্য"
+    },
+    {
+     "en": "natural lake",
+     "as": "প্ৰাকৃতিক হ্ৰদ"
+    },
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Makum is a coalfield in Assam.",
+    "as": "মাকুম অসমত এটা কয়লাক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-065",
+   "q": {
+    "en": "Makum in Assam is located at which place?",
+    "as": "অসমত মাকুম কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Bodoland",
+     "as": "বড়োলেণ্ড"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Makum is located at Tinsukia.",
+    "as": "মাকুম তিনিচুকীয়া ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-066",
+   "q": {
+    "en": "Makum in Assam is notable because of which of the following?",
+    "as": "অসমত মাকুম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is rich in coal and limestone",
+     "as": "ই কয়লা আৰু চূণশিলত সমৃদ্ধ"
+    },
+    {
+     "en": "it is a well known coalfield of Assam",
+     "as": "ই অসমৰ এটা সুপৰিচিত কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "it is associated with coal mining",
+     "as": "ই কয়লা খননৰ সৈতে জড়িত"
+    },
+    {
+     "en": "it is a cement plant of Assam",
+     "as": "ই অসমৰ এটা চিমেণ্ট কাৰখানা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Makum is notable because it is a well known coalfield of Assam.",
+    "as": "মাকুম উল্লেখযোগ্য কাৰণ ই অসমৰ এটা সুপৰিচিত কয়লাক্ষেত্ৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-067",
+   "q": {
+    "en": "Umrangso in Assam is known as what?",
+    "as": "অসমত উমৰাংছু কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "specialty rice",
+     "as": "বিশেষ চাউল"
+    },
+    {
+     "en": "coal town",
+     "as": "কয়লা নগৰ"
+    },
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "timber tree",
+     "as": "কাঠৰ গছ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Umrangso is a industrial town in Assam.",
+    "as": "উমৰাংছু অসমত এটা শিল্প নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-068",
+   "q": {
+    "en": "Umrangso in Assam is located at which place?",
+    "as": "অসমত উমৰাংছু কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Umrangso is located at Dima Hasao.",
+    "as": "উমৰাংছু ডিমা হাছাও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-069",
+   "q": {
+    "en": "Umrangso in Assam is notable because of which of the following?",
+    "as": "অসমত উমৰাংছু তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is known for its cement plant and hydro project",
+     "as": "ই ইয়াৰ চিমেণ্ট কাৰখানা আৰু জলবিদ্যুৎ প্ৰকল্পৰ বাবে জনাজাত"
+    },
+    {
+     "en": "it is unique to Assam and golden in colour",
+     "as": "ই অসমৰ বাবে অনন্য আৰু সোণালী ৰঙৰ"
+    },
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it is a large wetland of the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা বৃহৎ জলাশয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Umrangso is notable because it is known for its cement plant and hydro project.",
+    "as": "উমৰাংছু উল্লেখযোগ্য কাৰণ ই ইয়াৰ চিমেণ্ট কাৰখানা আৰু জলবিদ্যুৎ প্ৰকল্পৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-070",
+   "q": {
+    "en": "Ledo in Assam is known as what?",
+    "as": "অসমত লিডু কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tea corporation",
+     "as": "চাহ নিগম"
+    },
+    {
+     "en": "coal town",
+     "as": "কয়লা নগৰ"
+    },
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Ledo is a coal town in Assam.",
+    "as": "লিডু অসমত এটা কয়লা নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-071",
+   "q": {
+    "en": "Ledo in Assam is located at which place?",
+    "as": "অসমত লিডু কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Bodoland",
+     "as": "বড়োলেণ্ড"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ledo is located at Tinsukia.",
+    "as": "লিডু তিনিচুকীয়া ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-072",
+   "q": {
+    "en": "Ledo in Assam is notable because of which of the following?",
+    "as": "অসমত লিডু তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it manages the state's tea gardens",
+     "as": "ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে"
+    },
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it is a fine white silk of Assam",
+     "as": "ই অসমৰ এক মিহি বগা ৰেচম"
+    },
+    {
+     "en": "it is associated with coal mining",
+     "as": "ই কয়লা খননৰ সৈতে জড়িত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Ledo is notable because it is associated with coal mining.",
+    "as": "লিডু উল্লেখযোগ্য কাৰণ ই কয়লা খননৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-073",
+   "q": {
+    "en": "Karbi Anglong in Assam is known as what?",
+    "as": "অসমত কাৰ্বি আংলং কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    },
+    {
+     "en": "power utility",
+     "as": "বিদ্যুৎ প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Karbi Anglong is a mineral rich district in Assam.",
+    "as": "কাৰ্বি আংলং অসমত এটা খনিজ সমৃদ্ধ জিলা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-074",
+   "q": {
+    "en": "Karbi Anglong in Assam is located at which place?",
+    "as": "অসমত কাৰ্বি আংলং কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Panchgram",
+     "as": "পঞ্চগ্ৰাম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Karbi Anglong is located at Karbi Anglong.",
+    "as": "কাৰ্বি আংলং কাৰ্বি আংলং ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-075",
+   "q": {
+    "en": "Karbi Anglong in Assam is notable because of which of the following?",
+    "as": "অসমত কাৰ্বি আংলং তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a large wetland of the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা বৃহৎ জলাশয়"
+    },
+    {
+     "en": "it is a Ramsar site near Guwahati",
+     "as": "ই গুৱাহাটীৰ ওচৰত এটা ৰামছাৰ স্থান"
+    },
+    {
+     "en": "it is rich in coal and limestone",
+     "as": "ই কয়লা আৰু চূণশিলত সমৃদ্ধ"
+    },
+    {
+     "en": "it has the oldest oil refinery in India",
+     "as": "ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Karbi Anglong is notable because it is rich in coal and limestone.",
+    "as": "কাৰ্বি আংলং উল্লেখযোগ্য কাৰণ ই কয়লা আৰু চূণশিলত সমৃদ্ধ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-076",
+   "q": {
+    "en": "Dima Hasao in Assam is known as what?",
+    "as": "অসমত ডিমা হাছাও কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "timber tree",
+     "as": "কাঠৰ গছ"
+    },
+    {
+     "en": "gas cracker project",
+     "as": "গেছ ক্ৰেকাৰ প্ৰকল্প"
+    },
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dima Hasao is a mineral rich district in Assam.",
+    "as": "ডিমা হাছাও অসমত এটা খনিজ সমৃদ্ধ জিলা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-077",
+   "q": {
+    "en": "Dima Hasao in Assam is located at which place?",
+    "as": "অসমত ডিমা হাছাও কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dima Hasao is located at Dima Hasao.",
+    "as": "ডিমা হাছাও ডিমা হাছাও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-078",
+   "q": {
+    "en": "Dima Hasao in Assam is notable because of which of the following?",
+    "as": "অসমত ডিমা হাছাও তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it distributes natural gas in Assam",
+     "as": "ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে"
+    },
+    {
+     "en": "it is rich in limestone and coal",
+     "as": "ই চূণশিল আৰু কয়লাত সমৃদ্ধ"
+    },
+    {
+     "en": "it is a large wetland of the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা বৃহৎ জলাশয়"
+    },
+    {
+     "en": "it has the oldest oil refinery in India",
+     "as": "ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Dima Hasao is notable because it is rich in limestone and coal.",
+    "as": "ডিমা হাছাও উল্লেখযোগ্য কাৰণ ই চূণশিল আৰু কয়লাত সমৃদ্ধ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-079",
+   "q": {
+    "en": "Umrangso cement plant in Assam is known as what?",
+    "as": "অসমত উমৰাংছু চিমেণ্ট কাৰখানা কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "forest product",
+     "as": "বনজ সামগ্ৰী"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    },
+    {
+     "en": "cement plant",
+     "as": "চিমেণ্ট কাৰখানা"
+    },
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Umrangso cement plant is a cement plant in Assam.",
+    "as": "উমৰাংছু চিমেণ্ট কাৰখানা অসমত এটা চিমেণ্ট কাৰখানা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-080",
+   "q": {
+    "en": "Umrangso cement plant in Assam is located at which place?",
+    "as": "অসমত উমৰাংছু চিমেণ্ট কাৰখানা কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Umrangso cement plant is located at Dima Hasao.",
+    "as": "উমৰাংছু চিমেণ্ট কাৰখানা ডিমা হাছাও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-081",
+   "q": {
+    "en": "Umrangso cement plant in Assam is notable because of which of the following?",
+    "as": "অসমত উমৰাংছু চিমেণ্ট কাৰখানা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a cement plant of Assam",
+     "as": "ই অসমৰ এটা চিমেণ্ট কাৰখানা"
+    },
+    {
+     "en": "it hosts the Tocklai Tea Research Institute",
+     "as": "ই টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ আয়োজক"
+    },
+    {
+     "en": "it distributes power in Assam",
+     "as": "ই অসমত বিদ্যুৎ বিতৰণ কৰে"
+    },
+    {
+     "en": "it is one of the largest tea producing districts of Assam",
+     "as": "ই অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Umrangso cement plant is notable because it is a cement plant of Assam.",
+    "as": "উমৰাংছু চিমেণ্ট কাৰখানা উল্লেখযোগ্য কাৰণ ই অসমৰ এটা চিমেণ্ট কাৰখানা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-082",
+   "q": {
+    "en": "Nagaon Paper Mill in Assam is known as what?",
+    "as": "অসমত নগাঁও কাগজ কল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "cement plant",
+     "as": "চিমেণ্ট কাৰখানা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nagaon Paper Mill is a paper mill in Assam.",
+    "as": "নগাঁও কাগজ কল অসমত এটা কাগজ কল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-083",
+   "q": {
+    "en": "Nagaon Paper Mill in Assam is located at which place?",
+    "as": "অসমত নগাঁও কাগজ কল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nagaon Paper Mill is located at Jagiroad.",
+    "as": "নগাঁও কাগজ কল জাগীৰোড ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-084",
+   "q": {
+    "en": "Nagaon Paper Mill in Assam is notable because of which of the following?",
+    "as": "অসমত নগাঁও কাগজ কল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is the principal commercial crop of Assam",
+     "as": "ই অসমৰ প্ৰধান ব্যৱসায়িক শস্য"
+    },
+    {
+     "en": "it manages the state's tea gardens",
+     "as": "ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে"
+    },
+    {
+     "en": "it is called the Tea City of India",
+     "as": "ই ভাৰতৰ চাহ নগৰী নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a paper mill of Assam",
+     "as": "ই অসমৰ এটা কাগজ কল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Nagaon Paper Mill is notable because it is a paper mill of Assam.",
+    "as": "নগাঁও কাগজ কল উল্লেখযোগ্য কাৰণ ই অসমৰ এটা কাগজ কল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-085",
+   "q": {
+    "en": "Cachar Paper Mill in Assam is known as what?",
+    "as": "অসমত কাছাৰ কাগজ কল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    },
+    {
+     "en": "non-violent silk",
+     "as": "অহিংস ৰেচম"
+    },
+    {
+     "en": "Ramsar wetland",
+     "as": "ৰামছাৰ জলাশয়"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Cachar Paper Mill is a paper mill in Assam.",
+    "as": "কাছাৰ কাগজ কল অসমত এটা কাগজ কল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-086",
+   "q": {
+    "en": "Cachar Paper Mill in Assam is located at which place?",
+    "as": "অসমত কাছাৰ কাগজ কল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Panchgram",
+     "as": "পঞ্চগ্ৰাম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Cachar Paper Mill is located at Panchgram.",
+    "as": "কাছাৰ কাগজ কল পঞ্চগ্ৰাম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-087",
+   "q": {
+    "en": "Cachar Paper Mill in Assam is notable because of which of the following?",
+    "as": "অসমত কাছাৰ কাগজ কল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it protects the hoolock gibbon",
+     "as": "ই হলৌ গিবনক সুৰক্ষা দিয়ে"
+    },
+    {
+     "en": "it is a major timber tree of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কাঠৰ গছ"
+    },
+    {
+     "en": "it is a paper mill in the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is an important fibre crop of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান আঁহ শস্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Cachar Paper Mill is notable because it is a paper mill in the Barak valley.",
+    "as": "কাছাৰ কাগজ কল উল্লেখযোগ্য কাৰণ ই বৰাক উপত্যকাৰ এটা কাগজ কল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-088",
+   "q": {
+    "en": "Hollongapar Gibbon Sanctuary in Assam is known as what?",
+    "as": "অসমত হলৌপাৰ গিবন অভয়াৰণ্য কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "timber tree",
+     "as": "কাঠৰ গছ"
+    },
+    {
+     "en": "forest reserve",
+     "as": "বন সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Hollongapar Gibbon Sanctuary is a forest reserve in Assam.",
+    "as": "হলৌপাৰ গিবন অভয়াৰণ্য অসমত এটা বন সংৰক্ষিত অঞ্চল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-089",
+   "q": {
+    "en": "Hollongapar Gibbon Sanctuary in Assam is located at which place?",
+    "as": "অসমত হলৌপাৰ গিবন অভয়াৰণ্য কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Hollongapar Gibbon Sanctuary is located at Jorhat.",
+    "as": "হলৌপাৰ গিবন অভয়াৰণ্য যোৰহাট ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-090",
+   "q": {
+    "en": "Hollongapar Gibbon Sanctuary in Assam is notable because of which of the following?",
+    "as": "অসমত হলৌপাৰ গিবন অভয়াৰণ্য তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a biosphere reserve of Assam",
+     "as": "ই অসমৰ এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "it protects the hoolock gibbon",
+     "as": "ই হলৌ গিবনক সুৰক্ষা দিয়ে"
+    },
+    {
+     "en": "it is widely grown in Assam",
+     "as": "ই অসমত বহুলভাৱে খেতি কৰা হয়"
+    },
+    {
+     "en": "it hosts the Tocklai Tea Research Institute",
+     "as": "ই টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ আয়োজক"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Hollongapar Gibbon Sanctuary is notable because it protects the hoolock gibbon.",
+    "as": "হলৌপাৰ গিবন অভয়াৰণ্য উল্লেখযোগ্য কাৰণ ই হলৌ গিবনক সুৰক্ষা দিয়ে।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-091",
+   "q": {
+    "en": "Dehing Patkai in Assam is known as what?",
+    "as": "অসমত দিহিং পাটকাই কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "fertiliser plant",
+     "as": "সাৰ কাৰখানা"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "rainforest",
+     "as": "বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "silk weaving town",
+     "as": "ৰেচম বোৱা নগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dehing Patkai is a rainforest in Assam.",
+    "as": "দিহিং পাটকাই অসমত এটা বৰ্ষাৰণ্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-092",
+   "q": {
+    "en": "Dehing Patkai in Assam is located at which place?",
+    "as": "অসমত দিহিং পাটকাই কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dehing Patkai is located at Dibrugarh.",
+    "as": "দিহিং পাটকাই ডিব্ৰুগড় ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-093",
+   "q": {
+    "en": "Dehing Patkai in Assam is notable because of which of the following?",
+    "as": "অসমত দিহিং পাটকাই তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Amazon of the East",
+     "as": "ই পূবৰ আমাজন নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a specialty rice variety of Assam",
+     "as": "ই অসমৰ এটা বিশেষ চাউল জাত"
+    },
+    {
+     "en": "it is the principal commercial crop of Assam",
+     "as": "ই অসমৰ প্ৰধান ব্যৱসায়িক শস্য"
+    },
+    {
+     "en": "it is a historic tank of Assam",
+     "as": "ই অসমৰ এটা ঐতিহাসিক পুখুৰী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Dehing Patkai is notable because it is called the Amazon of the East.",
+    "as": "দিহিং পাটকাই উল্লেখযোগ্য কাৰণ ই পূবৰ আমাজন নামেৰে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-094",
+   "q": {
+    "en": "Manas Biosphere Reserve in Assam is known as what?",
+    "as": "অসমত মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "non-violent silk",
+     "as": "অহিংস ৰেচম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Manas Biosphere Reserve is a biosphere reserve in Assam.",
+    "as": "মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল অসমত এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-095",
+   "q": {
+    "en": "Manas Biosphere Reserve in Assam is located at which place?",
+    "as": "অসমত মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Panchgram",
+     "as": "পঞ্চগ্ৰাম"
+    },
+    {
+     "en": "Chirang",
+     "as": "চিৰাং"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Manas Biosphere Reserve is located at Chirang.",
+    "as": "মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল চিৰাং ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-096",
+   "q": {
+    "en": "Manas Biosphere Reserve in Assam is notable because of which of the following?",
+    "as": "অসমত মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Manchester of Assam",
+     "as": "ই অসমৰ মাঞ্চেষ্টাৰ নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it manages the state's tea gardens",
+     "as": "ই ৰাজ্যৰ চাহ বাগিচাসমূহ পৰিচালনা কৰে"
+    },
+    {
+     "en": "it is a biosphere reserve of Assam",
+     "as": "ই অসমৰ এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Manas Biosphere Reserve is notable because it is a biosphere reserve of Assam.",
+    "as": "মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল উল্লেখযোগ্য কাৰণ ই অসমৰ এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-097",
+   "q": {
+    "en": "Nambor forest in Assam is known as what?",
+    "as": "অসমত নামবৰ বনাঞ্চল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বনাঞ্চল"
+    },
+    {
+     "en": "tea producing district",
+     "as": "চাহ উৎপাদক জিলা"
+    },
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    },
+    {
+     "en": "wetland",
+     "as": "জলাশয়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nambor forest is a reserve forest in Assam.",
+    "as": "নামবৰ বনাঞ্চল অসমত এটা সংৰক্ষিত বনাঞ্চল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-098",
+   "q": {
+    "en": "Nambor forest in Assam is located at which place?",
+    "as": "অসমত নামবৰ বনাঞ্চল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Bodoland",
+     "as": "বড়োলেণ্ড"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nambor forest is located at Golaghat.",
+    "as": "নামবৰ বনাঞ্চল গোলাঘাট ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-099",
+   "q": {
+    "en": "Nambor forest in Assam is notable because of which of the following?",
+    "as": "অসমত নামবৰ বনাঞ্চল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it distributes natural gas in Assam",
+     "as": "ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে"
+    },
+    {
+     "en": "it is a symbol of Assamese respect",
+     "as": "ই অসমীয়া সন্মানৰ প্ৰতীক"
+    },
+    {
+     "en": "it is a dense forest area of Assam",
+     "as": "ই অসমৰ এটা ঘন বনাঞ্চল"
+    },
+    {
+     "en": "it is the oldest tea research station in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nambor forest is notable because it is a dense forest area of Assam.",
+    "as": "নামবৰ বনাঞ্চল উল্লেখযোগ্য কাৰণ ই অসমৰ এটা ঘন বনাঞ্চল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-100",
+   "q": {
+    "en": "Agarwood in Assam is known as what?",
+    "as": "অসমত অগৰু কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "fibre crop",
+     "as": "আঁহ শস্য"
+    },
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    },
+    {
+     "en": "forest product",
+     "as": "বনজ সামগ্ৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Agarwood is a forest product in Assam.",
+    "as": "অগৰু অসমত এটা বনজ সামগ্ৰী।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-101",
+   "q": {
+    "en": "Agarwood in Assam is located at which place?",
+    "as": "অসমত অগৰু কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Agarwood is located at Assam.",
+    "as": "অগৰু অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-102",
+   "q": {
+    "en": "Agarwood in Assam is notable because of which of the following?",
+    "as": "অসমত অগৰু তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a historic tank of Assam",
+     "as": "ই অসমৰ এটা ঐতিহাসিক পুখুৰী"
+    },
+    {
+     "en": "it is used in perfumes and incense",
+     "as": "ই সুগন্ধি আৰু ধূপত ব্যৱহাৰ কৰা হয়"
+    },
+    {
+     "en": "it is the principal food crop of Assam",
+     "as": "ই অসমৰ প্ৰধান খাদ্য শস্য"
+    },
+    {
+     "en": "it is unique to Assam and golden in colour",
+     "as": "ই অসমৰ বাবে অনন্য আৰু সোণালী ৰঙৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Agarwood is notable because it is used in perfumes and incense.",
+    "as": "অগৰু উল্লেখযোগ্য কাৰণ ই সুগন্ধি আৰু ধূপত ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-103",
+   "q": {
+    "en": "Sal tree in Assam is known as what?",
+    "as": "অসমত শাল গছ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "natural lake",
+     "as": "প্ৰাকৃতিক হ্ৰদ"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "timber tree",
+     "as": "কাঠৰ গছ"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sal tree is a timber tree in Assam.",
+    "as": "শাল গছ অসমত এটা কাঠৰ গছ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-104",
+   "q": {
+    "en": "Sal tree in Assam is located at which place?",
+    "as": "অসমত শাল গছ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sal tree is located at Assam.",
+    "as": "শাল গছ অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-105",
+   "q": {
+    "en": "Sal tree in Assam is notable because of which of the following?",
+    "as": "অসমত শাল গছ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a major timber tree of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কাঠৰ গছ"
+    },
+    {
+     "en": "it is a traditional Bodo garment",
+     "as": "ই এটা পৰম্পৰাগত বড়ো পোছাক"
+    },
+    {
+     "en": "it was formed by an earthquake",
+     "as": "ই ভূমিকম্পৰ দ্বাৰা গঠিত হৈছিল"
+    },
+    {
+     "en": "it is called the Amazon of the East",
+     "as": "ই পূবৰ আমাজন নামেৰে জনাজাত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sal tree is notable because it is a major timber tree of Assam.",
+    "as": "শাল গছ উল্লেখযোগ্য কাৰণ ই অসমৰ এটা প্ৰধান কাঠৰ গছ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-106",
+   "q": {
+    "en": "Rice in Assam is known as what?",
+    "as": "অসমত ধান কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "fibre crop",
+     "as": "আঁহ শস্য"
+    },
+    {
+     "en": "staple crop",
+     "as": "মূল খাদ্য শস্য"
+    },
+    {
+     "en": "oilfield",
+     "as": "তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rice is a staple crop in Assam.",
+    "as": "ধান অসমত এটা মূল খাদ্য শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-107",
+   "q": {
+    "en": "Rice in Assam is located at which place?",
+    "as": "অসমত ধান কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rice is located at Assam.",
+    "as": "ধান অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-108",
+   "q": {
+    "en": "Rice in Assam is notable because of which of the following?",
+    "as": "অসমত ধান তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a North Eastern power corporation",
+     "as": "ই এটা উত্তৰ-পূব বিদ্যুৎ নিগম"
+    },
+    {
+     "en": "it is a historic tank of Assam",
+     "as": "ই অসমৰ এটা ঐতিহাসিক পুখুৰী"
+    },
+    {
+     "en": "it is rich in limestone and coal",
+     "as": "ই চূণশিল আৰু কয়লাত সমৃদ্ধ"
+    },
+    {
+     "en": "it is the principal food crop of Assam",
+     "as": "ই অসমৰ প্ৰধান খাদ্য শস্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rice is notable because it is the principal food crop of Assam.",
+    "as": "ধান উল্লেখযোগ্য কাৰণ ই অসমৰ প্ৰধান খাদ্য শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-109",
+   "q": {
+    "en": "Tea in Assam is known as what?",
+    "as": "অসমত চাহ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "commercial crop",
+     "as": "ব্যৱসায়িক শস্য"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tea is a commercial crop in Assam.",
+    "as": "চাহ অসমত এটা ব্যৱসায়িক শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-110",
+   "q": {
+    "en": "Tea in Assam is located at which place?",
+    "as": "অসমত চাহ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tea is located at Assam.",
+    "as": "চাহ অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-111",
+   "q": {
+    "en": "Tea in Assam is notable because of which of the following?",
+    "as": "অসমত চাহ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is the oldest tea research station in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ"
+    },
+    {
+     "en": "it is the Assam Gas Cracker Project",
+     "as": "ই অসম গেছ ক্ৰেকাৰ প্ৰকল্প"
+    },
+    {
+     "en": "it is the principal commercial crop of Assam",
+     "as": "ই অসমৰ প্ৰধান ব্যৱসায়িক শস্য"
+    },
+    {
+     "en": "it is a cash crop of Assam",
+     "as": "ই অসমৰ এটা নগদ শস্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Tea is notable because it is the principal commercial crop of Assam.",
+    "as": "চাহ উল্লেখযোগ্য কাৰণ ই অসমৰ প্ৰধান ব্যৱসায়িক শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-112",
+   "q": {
+    "en": "Jute in Assam is known as what?",
+    "as": "অসমত পাট কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "rainforest",
+     "as": "বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "fibre crop",
+     "as": "আঁহ শস্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Jute is a fibre crop in Assam.",
+    "as": "পাট অসমত এটা আঁহ শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-113",
+   "q": {
+    "en": "Jute in Assam is located at which place?",
+    "as": "অসমত পাট কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Jute is located at Assam.",
+    "as": "পাট অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-114",
+   "q": {
+    "en": "Jute in Assam is notable because of which of the following?",
+    "as": "অসমত পাট তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it is an important fibre crop of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান আঁহ শস্য"
+    },
+    {
+     "en": "it is a hydroelectric project of Assam",
+     "as": "ই অসমৰ এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is a dense forest area of Assam",
+     "as": "ই অসমৰ এটা ঘন বনাঞ্চল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Jute is notable because it is an important fibre crop of Assam.",
+    "as": "পাট উল্লেখযোগ্য কাৰণ ই অসমৰ এটা প্ৰধান আঁহ শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-115",
+   "q": {
+    "en": "Mustard in Assam is known as what?",
+    "as": "অসমত সৰিয়হ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "coal town",
+     "as": "কয়লা নগৰ"
+    },
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "oilseed crop",
+     "as": "তেলজাত শস্য"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Mustard is a oilseed crop in Assam.",
+    "as": "সৰিয়হ অসমত এটা তেলজাত শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-116",
+   "q": {
+    "en": "Mustard in Assam is located at which place?",
+    "as": "অসমত সৰিয়হ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mustard is located at Assam.",
+    "as": "সৰিয়হ অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-117",
+   "q": {
+    "en": "Mustard in Assam is notable because of which of the following?",
+    "as": "অসমত সৰিয়হ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a major oilseed crop of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলজাত শস্য"
+    },
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it is a paper mill in the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is called the Manchester of Assam",
+     "as": "ই অসমৰ মাঞ্চেষ্টাৰ নামেৰে জনাজাত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Mustard is notable because it is a major oilseed crop of Assam.",
+    "as": "সৰিয়হ উল্লেখযোগ্য কাৰণ ই অসমৰ এটা প্ৰধান তেলজাত শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-118",
+   "q": {
+    "en": "Sugarcane in Assam is known as what?",
+    "as": "অসমত কুঁহিয়াৰ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "wetland",
+     "as": "জলাশয়"
+    },
+    {
+     "en": "cash crop",
+     "as": "নগদ শস্য"
+    },
+    {
+     "en": "commercial crop",
+     "as": "ব্যৱসায়িক শস্য"
+    },
+    {
+     "en": "golden silk",
+     "as": "সোণালী ৰেচম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sugarcane is a cash crop in Assam.",
+    "as": "কুঁহিয়াৰ অসমত এটা নগদ শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-119",
+   "q": {
+    "en": "Sugarcane in Assam is located at which place?",
+    "as": "অসমত কুঁহিয়াৰ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Shillong",
+     "as": "শিলং"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sugarcane is located at Assam.",
+    "as": "কুঁহিয়াৰ অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-120",
+   "q": {
+    "en": "Sugarcane in Assam is notable because of which of the following?",
+    "as": "অসমত কুঁহিয়াৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a hydroelectric project on the Kopili",
+     "as": "ই কপিলীত এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is a dense forest area of Assam",
+     "as": "ই অসমৰ এটা ঘন বনাঞ্চল"
+    },
+    {
+     "en": "it is a symbol of Assamese respect",
+     "as": "ই অসমীয়া সন্মানৰ প্ৰতীক"
+    },
+    {
+     "en": "it is a cash crop of Assam",
+     "as": "ই অসমৰ এটা নগদ শস্য"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sugarcane is notable because it is a cash crop of Assam.",
+    "as": "কুঁহিয়াৰ উল্লেখযোগ্য কাৰণ ই অসমৰ এটা নগদ শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-121",
+   "q": {
+    "en": "Areca nut in Assam is known as what?",
+    "as": "অসমত তামোল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "plantation crop",
+     "as": "বাগান শস্য"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "oilseed crop",
+     "as": "তেলজাত শস্য"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Areca nut is a plantation crop in Assam.",
+    "as": "তামোল অসমত এটা বাগান শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-122",
+   "q": {
+    "en": "Areca nut in Assam is located at which place?",
+    "as": "অসমত তামোল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Areca nut is located at Assam.",
+    "as": "তামোল অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-123",
+   "q": {
+    "en": "Areca nut in Assam is notable because of which of the following?",
+    "as": "অসমত তামোল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it is associated with coal mining",
+     "as": "ই কয়লা খননৰ সৈতে জড়িত"
+    },
+    {
+     "en": "it is widely grown in Assam",
+     "as": "ই অসমত বহুলভাৱে খেতি কৰা হয়"
+    },
+    {
+     "en": "it is a well known coalfield of Assam",
+     "as": "ই অসমৰ এটা সুপৰিচিত কয়লাক্ষেত্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Areca nut is notable because it is widely grown in Assam.",
+    "as": "তামোল উল্লেখযোগ্য কাৰণ ই অসমত বহুলভাৱে খেতি কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-124",
+   "q": {
+    "en": "Black rice in Assam is known as what?",
+    "as": "অসমত ক'লা চাউল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "wetland",
+     "as": "জলাশয়"
+    },
+    {
+     "en": "commercial crop",
+     "as": "ব্যৱসায়িক শস্য"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "specialty rice",
+     "as": "বিশেষ চাউল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Black rice is a specialty rice in Assam.",
+    "as": "ক'লা চাউল অসমত এটা বিশেষ চাউল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-125",
+   "q": {
+    "en": "Black rice in Assam is located at which place?",
+    "as": "অসমত ক'লা চাউল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Black rice is located at Assam.",
+    "as": "ক'লা চাউল অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-126",
+   "q": {
+    "en": "Black rice in Assam is notable because of which of the following?",
+    "as": "অসমত ক'লা চাউল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is an aromatic rice variety of Assam",
+     "as": "ই অসমৰ এটা সুগন্ধি চাউল জাত"
+    },
+    {
+     "en": "it is a specialty rice variety of Assam",
+     "as": "ই অসমৰ এটা বিশেষ চাউল জাত"
+    },
+    {
+     "en": "it is a symbol of Assamese respect",
+     "as": "ই অসমীয়া সন্মানৰ প্ৰতীক"
+    },
+    {
+     "en": "it is rich in limestone and coal",
+     "as": "ই চূণশিল আৰু কয়লাত সমৃদ্ধ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Black rice is notable because it is a specialty rice variety of Assam.",
+    "as": "ক'লা চাউল উল্লেখযোগ্য কাৰণ ই অসমৰ এটা বিশেষ চাউল জাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-127",
+   "q": {
+    "en": "Joha rice in Assam is known as what?",
+    "as": "অসমত জহা চাউল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    },
+    {
+     "en": "Ramsar wetland",
+     "as": "ৰামছাৰ জলাশয়"
+    },
+    {
+     "en": "aromatic rice",
+     "as": "সুগন্ধি চাউল"
+    },
+    {
+     "en": "cement plant",
+     "as": "চিমেণ্ট কাৰখানা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Joha rice is a aromatic rice in Assam.",
+    "as": "জহা চাউল অসমত এটা সুগন্ধি চাউল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-128",
+   "q": {
+    "en": "Joha rice in Assam is located at which place?",
+    "as": "অসমত জহা চাউল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Lepetkata",
+     "as": "লেপেটকটা"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Joha rice is located at Assam.",
+    "as": "জহা চাউল অসম ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-129",
+   "q": {
+    "en": "Joha rice in Assam is notable because of which of the following?",
+    "as": "অসমত জহা চাউল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is an aromatic rice variety of Assam",
+     "as": "ই অসমৰ এটা সুগন্ধি চাউল জাত"
+    },
+    {
+     "en": "it is a paper mill in the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is a Ramsar site near Guwahati",
+     "as": "ই গুৱাহাটীৰ ওচৰত এটা ৰামছাৰ স্থান"
+    },
+    {
+     "en": "it is a hydroelectric project of Assam",
+     "as": "ই অসমৰ এটা জলবিদ্যুৎ প্ৰকল্প"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Joha rice is notable because it is an aromatic rice variety of Assam.",
+    "as": "জহা চাউল উল্লেখযোগ্য কাৰণ ই অসমৰ এটা সুগন্ধি চাউল জাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-130",
+   "q": {
+    "en": "Kopili Hydro Electric Project in Assam is known as what?",
+    "as": "অসমত কপিলী জলবিদ্যুৎ প্ৰকল্প কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "mulberry silk",
+     "as": "নুনি ৰেচম"
+    },
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "natural lake",
+     "as": "প্ৰাকৃতিক হ্ৰদ"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Kopili Hydro Electric Project is a hydroelectric project in Assam.",
+    "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প অসমত এটা জলবিদ্যুৎ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-131",
+   "q": {
+    "en": "Kopili Hydro Electric Project in Assam is located at which place?",
+    "as": "অসমত কপিলী জলবিদ্যুৎ প্ৰকল্প কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Kopili Hydro Electric Project is located at Dima Hasao.",
+    "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প ডিমা হাছাও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-132",
+   "q": {
+    "en": "Kopili Hydro Electric Project in Assam is notable because of which of the following?",
+    "as": "অসমত কপিলী জলবিদ্যুৎ প্ৰকল্প তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Manchester of Assam",
+     "as": "ই অসমৰ মাঞ্চেষ্টাৰ নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a historic tank of Assam",
+     "as": "ই অসমৰ এটা ঐতিহাসিক পুখুৰী"
+    },
+    {
+     "en": "it is known for its cement plant and hydro project",
+     "as": "ই ইয়াৰ চিমেণ্ট কাৰখানা আৰু জলবিদ্যুৎ প্ৰকল্পৰ বাবে জনাজাত"
+    },
+    {
+     "en": "it is a hydroelectric project on the Kopili",
+     "as": "ই কপিলীত এটা জলবিদ্যুৎ প্ৰকল্প"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Kopili Hydro Electric Project is notable because it is a hydroelectric project on the Kopili.",
+    "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প উল্লেখযোগ্য কাৰণ ই কপিলীত এটা জলবিদ্যুৎ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-133",
+   "q": {
+    "en": "Lower Subansiri Hydroelectric Project in Assam is known as what?",
+    "as": "অসমত নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "forest product",
+     "as": "বনজ সামগ্ৰী"
+    },
+    {
+     "en": "forest reserve",
+     "as": "বন সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lower Subansiri Hydroelectric Project is a hydroelectric project in Assam.",
+    "as": "নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প অসমত এটা জলবিদ্যুৎ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-134",
+   "q": {
+    "en": "Lower Subansiri Hydroelectric Project in Assam is located at which place?",
+    "as": "অসমত নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Lakhimpur",
+     "as": "লখিমপুৰ"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Lepetkata",
+     "as": "লেপেটকটা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Lower Subansiri Hydroelectric Project is located at Lakhimpur.",
+    "as": "নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প লখিমপুৰ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-135",
+   "q": {
+    "en": "Lower Subansiri Hydroelectric Project in Assam is notable because of which of the following?",
+    "as": "অসমত নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a hydroelectric project of Assam",
+     "as": "ই অসমৰ এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is a historic tank of Assam",
+     "as": "ই অসমৰ এটা ঐতিহাসিক পুখুৰী"
+    },
+    {
+     "en": "it is a large hydroelectric project on the Subansiri",
+     "as": "ই সোৱণশিৰিত এটা বৃহৎ জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it has the oldest oil refinery in India",
+     "as": "ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lower Subansiri Hydroelectric Project is notable because it is a large hydroelectric project on the Subansiri.",
+    "as": "নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প উল্লেখযোগ্য কাৰণ ই সোৱণশিৰিত এটা বৃহৎ জলবিদ্যুৎ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-136",
+   "q": {
+    "en": "Karbi Langpi Hydro Electric Project in Assam is known as what?",
+    "as": "অসমত কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "timber tree",
+     "as": "কাঠৰ গছ"
+    },
+    {
+     "en": "rainforest",
+     "as": "বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "tea producing district",
+     "as": "চাহ উৎপাদক জিলা"
+    },
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Karbi Langpi Hydro Electric Project is a hydroelectric project in Assam.",
+    "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প অসমত এটা জলবিদ্যুৎ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-137",
+   "q": {
+    "en": "Karbi Langpi Hydro Electric Project in Assam is located at which place?",
+    "as": "অসমত কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Karbi Langpi Hydro Electric Project is located at Karbi Anglong.",
+    "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প কাৰ্বি আংলং ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-138",
+   "q": {
+    "en": "Karbi Langpi Hydro Electric Project in Assam is notable because of which of the following?",
+    "as": "অসমত কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Amazon of the East",
+     "as": "ই পূবৰ আমাজন নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a hydroelectric project of Assam",
+     "as": "ই অসমৰ এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is a traditional Bodo garment",
+     "as": "ই এটা পৰম্পৰাগত বড়ো পোছাক"
+    },
+    {
+     "en": "it is the oldest tea research station in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Karbi Langpi Hydro Electric Project is notable because it is a hydroelectric project of Assam.",
+    "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প উল্লেখযোগ্য কাৰণ ই অসমৰ এটা জলবিদ্যুৎ প্ৰকল্প।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-139",
+   "q": {
+    "en": "NEEPCO in Assam is known as what?",
+    "as": "অসমত নীপকো কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "reserve forest",
+     "as": "সংৰক্ষিত বনাঞ্চল"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "power corporation",
+     "as": "বিদ্যুৎ নিগম"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "NEEPCO is a power corporation in Assam.",
+    "as": "নীপকো অসমত এটা বিদ্যুৎ নিগম।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-140",
+   "q": {
+    "en": "NEEPCO in Assam is located at which place?",
+    "as": "অসমত নীপকো কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Shillong",
+     "as": "শিলং"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "NEEPCO is located at Shillong.",
+    "as": "নীপকো শিলং ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-141",
+   "q": {
+    "en": "NEEPCO in Assam is notable because of which of the following?",
+    "as": "অসমত নীপকো তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a North Eastern power corporation",
+     "as": "ই এটা উত্তৰ-পূব বিদ্যুৎ নিগম"
+    },
+    {
+     "en": "it is a major oilseed crop of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলজাত শস্য"
+    },
+    {
+     "en": "it is widely grown in Assam",
+     "as": "ই অসমত বহুলভাৱে খেতি কৰা হয়"
+    },
+    {
+     "en": "it is a cement plant of Assam",
+     "as": "ই অসমৰ এটা চিমেণ্ট কাৰখানা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "NEEPCO is notable because it is a North Eastern power corporation.",
+    "as": "নীপকো উল্লেখযোগ্য কাৰণ ই এটা উত্তৰ-পূব বিদ্যুৎ নিগম।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-142",
+   "q": {
+    "en": "Assam Power Distribution Company in Assam is known as what?",
+    "as": "অসমত অসম বিদ্যুৎ বিতৰণ কোম্পানী কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "power utility",
+     "as": "বিদ্যুৎ প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "oil refinery",
+     "as": "তেল শোধনাগাৰ"
+    },
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assam Power Distribution Company is a power utility in Assam.",
+    "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী অসমত এটা বিদ্যুৎ প্ৰতিষ্ঠান।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-143",
+   "q": {
+    "en": "Assam Power Distribution Company in Assam is located at which place?",
+    "as": "অসমত অসম বিদ্যুৎ বিতৰণ কোম্পানী কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Shillong",
+     "as": "শিলং"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Power Distribution Company is located at Guwahati.",
+    "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী গুৱাহাটী ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-144",
+   "q": {
+    "en": "Assam Power Distribution Company in Assam is notable because of which of the following?",
+    "as": "অসমত অসম বিদ্যুৎ বিতৰণ কোম্পানী তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it has the oldest oil refinery in India",
+     "as": "ই ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে"
+    },
+    {
+     "en": "it is an aromatic rice variety of Assam",
+     "as": "ই অসমৰ এটা সুগন্ধি চাউল জাত"
+    },
+    {
+     "en": "it is widely grown in Assam",
+     "as": "ই অসমত বহুলভাৱে খেতি কৰা হয়"
+    },
+    {
+     "en": "it distributes power in Assam",
+     "as": "ই অসমত বিদ্যুৎ বিতৰণ কৰে"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Power Distribution Company is notable because it distributes power in Assam.",
+    "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী উল্লেখযোগ্য কাৰণ ই অসমত বিদ্যুৎ বিতৰণ কৰে।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-145",
+   "q": {
+    "en": "Deepor Beel in Assam is known as what?",
+    "as": "অসমত দীপৰ বিল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Ramsar wetland",
+     "as": "ৰামছাৰ জলাশয়"
+    },
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    },
+    {
+     "en": "mineral rich district",
+     "as": "খনিজ সমৃদ্ধ জিলা"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Deepor Beel is a Ramsar wetland in Assam.",
+    "as": "দীপৰ বিল অসমত এটা ৰামছাৰ জলাশয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-146",
+   "q": {
+    "en": "Deepor Beel in Assam is located at which place?",
+    "as": "অসমত দীপৰ বিল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Lepetkata",
+     "as": "লেপেটকটা"
+    },
+    {
+     "en": "Kamrup Metropolitan",
+     "as": "কামৰূপ মহানগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Deepor Beel is located at Kamrup Metropolitan.",
+    "as": "দীপৰ বিল কামৰূপ মহানগৰ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-147",
+   "q": {
+    "en": "Deepor Beel in Assam is notable because of which of the following?",
+    "as": "অসমত দীপৰ বিল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is the principal commercial crop of Assam",
+     "as": "ই অসমৰ প্ৰধান ব্যৱসায়িক শস্য"
+    },
+    {
+     "en": "it is a major oilfield of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ"
+    },
+    {
+     "en": "it is a Ramsar site near Guwahati",
+     "as": "ই গুৱাহাটীৰ ওচৰত এটা ৰামছাৰ স্থান"
+    },
+    {
+     "en": "it is the Assam Gas Cracker Project",
+     "as": "ই অসম গেছ ক্ৰেকাৰ প্ৰকল্প"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Deepor Beel is notable because it is a Ramsar site near Guwahati.",
+    "as": "দীপৰ বিল উল্লেখযোগ্য কাৰণ ই গুৱাহাটীৰ ওচৰত এটা ৰামছাৰ স্থান।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-148",
+   "q": {
+    "en": "Sonbeel in Assam is known as what?",
+    "as": "অসমত ছনবিল কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "Ramsar wetland",
+     "as": "ৰামছাৰ জলাশয়"
+    },
+    {
+     "en": "cash crop",
+     "as": "নগদ শস্য"
+    },
+    {
+     "en": "fibre crop",
+     "as": "আঁহ শস্য"
+    },
+    {
+     "en": "wetland",
+     "as": "জলাশয়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sonbeel is a wetland in Assam.",
+    "as": "ছনবিল অসমত এটা জলাশয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-149",
+   "q": {
+    "en": "Sonbeel in Assam is located at which place?",
+    "as": "অসমত ছনবিল কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Karimganj",
+     "as": "কৰিমগঞ্জ"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sonbeel is located at Karimganj.",
+    "as": "ছনবিল কৰিমগঞ্জ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-150",
+   "q": {
+    "en": "Sonbeel in Assam is notable because of which of the following?",
+    "as": "অসমত ছনবিল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Amazon of the East",
+     "as": "ই পূবৰ আমাজন নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a large wetland of the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা বৃহৎ জলাশয়"
+    },
+    {
+     "en": "it is an important fibre crop of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান আঁহ শস্য"
+    },
+    {
+     "en": "it is a historic tank built by the Ahoms",
+     "as": "ই আহোমসকলে নিৰ্মাণ কৰা এটা ঐতিহাসিক পুখুৰী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sonbeel is notable because it is a large wetland of the Barak valley.",
+    "as": "ছনবিল উল্লেখযোগ্য কাৰণ ই বৰাক উপত্যকাৰ এটা বৃহৎ জলাশয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-151",
+   "q": {
+    "en": "Chandubi Lake in Assam is known as what?",
+    "as": "অসমত চান্দুবি হ্ৰদ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    },
+    {
+     "en": "fertiliser plant",
+     "as": "সাৰ কাৰখানা"
+    },
+    {
+     "en": "natural lake",
+     "as": "প্ৰাকৃতিক হ্ৰদ"
+    },
+    {
+     "en": "wetland",
+     "as": "জলাশয়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Chandubi Lake is a natural lake in Assam.",
+    "as": "চান্দুবি হ্ৰদ অসমত এটা প্ৰাকৃতিক হ্ৰদ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-152",
+   "q": {
+    "en": "Chandubi Lake in Assam is located at which place?",
+    "as": "অসমত চান্দুবি হ্ৰদ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Lepetkata",
+     "as": "লেপেটকটা"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Chandubi Lake is located at Kamrup.",
+    "as": "চান্দুবি হ্ৰদ কামৰূপ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-153",
+   "q": {
+    "en": "Chandubi Lake in Assam is notable because of which of the following?",
+    "as": "অসমত চান্দুবি হ্ৰদ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it was formed by an earthquake",
+     "as": "ই ভূমিকম্পৰ দ্বাৰা গঠিত হৈছিল"
+    },
+    {
+     "en": "it is a major timber tree of Assam",
+     "as": "ই অসমৰ এটা প্ৰধান কাঠৰ গছ"
+    },
+    {
+     "en": "it is a refinery of Assam",
+     "as": "ই অসমৰ এটা শোধনাগাৰ"
+    },
+    {
+     "en": "it hosts the Tocklai Tea Research Institute",
+     "as": "ই টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ আয়োজক"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Chandubi Lake is notable because it was formed by an earthquake.",
+    "as": "চান্দুবি হ্ৰদ উল্লেখযোগ্য কাৰণ ই ভূমিকম্পৰ দ্বাৰা গঠিত হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-154",
+   "q": {
+    "en": "Rudrasagar in Assam is known as what?",
+    "as": "অসমত ৰুদ্ৰসাগৰ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    },
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    },
+    {
+     "en": "forest product",
+     "as": "বনজ সামগ্ৰী"
+    },
+    {
+     "en": "tea research institute",
+     "as": "চাহ গৱেষণা প্ৰতিষ্ঠান"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Rudrasagar is a tank in Assam.",
+    "as": "ৰুদ্ৰসাগৰ অসমত এটা পুখুৰী।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-155",
+   "q": {
+    "en": "Rudrasagar in Assam is located at which place?",
+    "as": "অসমত ৰুদ্ৰসাগৰ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rudrasagar is located at Sivasagar.",
+    "as": "ৰুদ্ৰসাগৰ শিৱসাগৰ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-156",
+   "q": {
+    "en": "Rudrasagar in Assam is notable because of which of the following?",
+    "as": "অসমত ৰুদ্ৰসাগৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a hydroelectric project on the Kopili",
+     "as": "ই কপিলীত এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is a dense forest area of Assam",
+     "as": "ই অসমৰ এটা ঘন বনাঞ্চল"
+    },
+    {
+     "en": "it is a paper mill in the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is a historic tank of Assam",
+     "as": "ই অসমৰ এটা ঐতিহাসিক পুখুৰী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Rudrasagar is notable because it is a historic tank of Assam.",
+    "as": "ৰুদ্ৰসাগৰ উল্লেখযোগ্য কাৰণ ই অসমৰ এটা ঐতিহাসিক পুখুৰী।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-157",
+   "q": {
+    "en": "Sivasagar tank in Assam is known as what?",
+    "as": "অসমত শিৱসাগৰ পুখুৰী কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    },
+    {
+     "en": "fertiliser plant",
+     "as": "সাৰ কাৰখানা"
+    },
+    {
+     "en": "handwoven cloth",
+     "as": "হাতে বোৱা বস্ত্ৰ"
+    },
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sivasagar tank is a tank in Assam.",
+    "as": "শিৱসাগৰ পুখুৰী অসমত এটা পুখুৰী।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-158",
+   "q": {
+    "en": "Sivasagar tank in Assam is located at which place?",
+    "as": "অসমত শিৱসাগৰ পুখুৰী কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Lepetkata",
+     "as": "লেপেটকটা"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sivasagar tank is located at Sivasagar.",
+    "as": "শিৱসাগৰ পুখুৰী শিৱসাগৰ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-159",
+   "q": {
+    "en": "Sivasagar tank in Assam is notable because of which of the following?",
+    "as": "অসমত শিৱসাগৰ পুখুৰী তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Tea City of India",
+     "as": "ই ভাৰতৰ চাহ নগৰী নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is a paper mill in the Barak valley",
+     "as": "ই বৰাক উপত্যকাৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is a historic tank built by the Ahoms",
+     "as": "ই আহোমসকলে নিৰ্মাণ কৰা এটা ঐতিহাসিক পুখুৰী"
+    },
+    {
+     "en": "it is rich in limestone and coal",
+     "as": "ই চূণশিল আৰু কয়লাত সমৃদ্ধ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sivasagar tank is notable because it is a historic tank built by the Ahoms.",
+    "as": "শিৱসাগৰ পুখুৰী উল্লেখযোগ্য কাৰণ ই আহোমসকলে নিৰ্মাণ কৰা এটা ঐতিহাসিক পুখুৰী।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-160",
+   "q": {
+    "en": "Sonari in Assam is known as what?",
+    "as": "অসমত শোণাৰি কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "gas distribution",
+     "as": "গেছ বিতৰণ"
+    },
+    {
+     "en": "forest reserve",
+     "as": "বন সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sonari is a tea town in Assam.",
+    "as": "শোণাৰি অসমত এটা চাহ নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-161",
+   "q": {
+    "en": "Sonari in Assam is located at which place?",
+    "as": "অসমত শোণাৰি কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Charaideo",
+     "as": "চৰাইদেউ"
+    },
+    {
+     "en": "Bodoland",
+     "as": "বড়োলেণ্ড"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sonari is located at Charaideo.",
+    "as": "শোণাৰি চৰাইদেউ ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-162",
+   "q": {
+    "en": "Sonari in Assam is notable because of which of the following?",
+    "as": "অসমত শোণাৰি তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it protects the hoolock gibbon",
+     "as": "ই হলৌ গিবনক সুৰক্ষা দিয়ে"
+    },
+    {
+     "en": "it is a tea growing area of Assam",
+     "as": "ই অসমৰ এটা চাহ খেতি অঞ্চল"
+    },
+    {
+     "en": "it is a Ramsar site near Guwahati",
+     "as": "ই গুৱাহাটীৰ ওচৰত এটা ৰামছাৰ স্থান"
+    },
+    {
+     "en": "it is the principal food crop of Assam",
+     "as": "ই অসমৰ প্ৰধান খাদ্য শস্য"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Sonari is notable because it is a tea growing area of Assam.",
+    "as": "শোণাৰি উল্লেখযোগ্য কাৰণ ই অসমৰ এটা চাহ খেতি অঞ্চল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-163",
+   "q": {
+    "en": "Moran in Assam is known as what?",
+    "as": "অসমত মৰাণ কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "agricultural district",
+     "as": "কৃষি জিলা"
+    },
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "coal town",
+     "as": "কয়লা নগৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Moran is a oil town in Assam.",
+    "as": "মৰাণ অসমত এটা তেল নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-164",
+   "q": {
+    "en": "Moran in Assam is located at which place?",
+    "as": "অসমত মৰাণ কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Moran is located at Dibrugarh.",
+    "as": "মৰাণ ডিব্ৰুগড় ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-165",
+   "q": {
+    "en": "Moran in Assam is notable because of which of the following?",
+    "as": "অসমত মৰাণ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is associated with oil exploration",
+     "as": "ই তেল অন্বেষণৰ সৈতে জড়িত"
+    },
+    {
+     "en": "it is a paper mill of Assam",
+     "as": "ই অসমৰ এটা কাগজ কল"
+    },
+    {
+     "en": "it is a historic tank built by the Ahoms",
+     "as": "ই আহোমসকলে নিৰ্মাণ কৰা এটা ঐতিহাসিক পুখুৰী"
+    },
+    {
+     "en": "it is one of the largest tea producing districts of Assam",
+     "as": "ই অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Moran is notable because it is associated with oil exploration.",
+    "as": "মৰাণ উল্লেখযোগ্য কাৰণ ই তেল অন্বেষণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-166",
+   "q": {
+    "en": "Barpeta in Assam is known as what?",
+    "as": "অসমত বৰপেটা কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "specialty rice",
+     "as": "বিশেষ চাউল"
+    },
+    {
+     "en": "agricultural district",
+     "as": "কৃষি জিলা"
+    },
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Barpeta is a agricultural district in Assam.",
+    "as": "বৰপেটা অসমত এটা কৃষি জিলা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-167",
+   "q": {
+    "en": "Barpeta in Assam is located at which place?",
+    "as": "অসমত বৰপেটা কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Barpeta is located at Barpeta.",
+    "as": "বৰপেটা বৰপেটা ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-168",
+   "q": {
+    "en": "Barpeta in Assam is notable because of which of the following?",
+    "as": "অসমত বৰপেটা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is called the Rice Bowl of Assam",
+     "as": "ই অসমৰ ধানৰ ভঁৰাল নামেৰে জনাজাত"
+    },
+    {
+     "en": "it hosts a fertiliser plant of Assam",
+     "as": "ই অসমৰ এটা সাৰ কাৰখানা আছে"
+    },
+    {
+     "en": "it is known for its cement plant and hydro project",
+     "as": "ই ইয়াৰ চিমেণ্ট কাৰখানা আৰু জলবিদ্যুৎ প্ৰকল্পৰ বাবে জনাজাত"
+    },
+    {
+     "en": "it is known for its rice and bell metal",
+     "as": "ই ধান আৰু কাঁহৰ বাবে জনাজাত"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Barpeta is notable because it is known for its rice and bell metal.",
+    "as": "বৰপেটা উল্লেখযোগ্য কাৰণ ই ধান আৰু কাঁহৰ বাবে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-169",
+   "q": {
+    "en": "Nagaon in Assam is known as what?",
+    "as": "অসমত নগাঁও কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "agricultural district",
+     "as": "কৃষি জিলা"
+    },
+    {
+     "en": "tea research institute",
+     "as": "চাহ গৱেষণা প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "tea town",
+     "as": "চাহ নগৰ"
+    },
+    {
+     "en": "coalfield",
+     "as": "কয়লাক্ষেত্ৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nagaon is a agricultural district in Assam.",
+    "as": "নগাঁও অসমত এটা কৃষি জিলা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-170",
+   "q": {
+    "en": "Nagaon in Assam is located at which place?",
+    "as": "অসমত নগাঁও কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nagaon is located at Nagaon.",
+    "as": "নগাঁও নগাঁও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-171",
+   "q": {
+    "en": "Nagaon in Assam is notable because of which of the following?",
+    "as": "অসমত নগাঁও তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is one of the largest tea auction centres in the world",
+     "as": "ই বিশ্বৰ আটাইতকৈ ডাঙৰ চাহ নিলাম কেন্দ্ৰসমূহৰ এটা"
+    },
+    {
+     "en": "it is a hydroelectric project of Assam",
+     "as": "ই অসমৰ এটা জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "it is called the Rice Bowl of Assam",
+     "as": "ই অসমৰ ধানৰ ভঁৰাল নামেৰে জনাজাত"
+    },
+    {
+     "en": "it is the principal food crop of Assam",
+     "as": "ই অসমৰ প্ৰধান খাদ্য শস্য"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Nagaon is notable because it is called the Rice Bowl of Assam.",
+    "as": "নগাঁও উল্লেখযোগ্য কাৰণ ই অসমৰ ধানৰ ভঁৰাল নামেৰে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-172",
+   "q": {
+    "en": "Bongaigaon in Assam is known as what?",
+    "as": "অসমত বঙাইগাঁও কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "rainforest",
+     "as": "বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "golden silk",
+     "as": "সোণালী ৰেচম"
+    },
+    {
+     "en": "tea producing district",
+     "as": "চাহ উৎপাদক জিলা"
+    },
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Bongaigaon is a industrial town in Assam.",
+    "as": "বঙাইগাঁও অসমত এটা শিল্প নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-173",
+   "q": {
+    "en": "Bongaigaon in Assam is located at which place?",
+    "as": "অসমত বঙাইগাঁও কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Kamrup",
+     "as": "কামৰূপ"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bongaigaon is located at Bongaigaon.",
+    "as": "বঙাইগাঁও বঙাইগাঁও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-174",
+   "q": {
+    "en": "Bongaigaon in Assam is notable because of which of the following?",
+    "as": "অসমত বঙাইগাঁও তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it hosts the Nagaon Paper Mill",
+     "as": "ই নগাঁও কাগজ কলৰ আয়োজক"
+    },
+    {
+     "en": "it has a petroleum refinery",
+     "as": "ই এটা পেট্ৰ'লিয়াম শোধনাগাৰ আছে"
+    },
+    {
+     "en": "it is a traditional Bodo garment",
+     "as": "ই এটা পৰম্পৰাগত বড়ো পোছাক"
+    },
+    {
+     "en": "it distributes power in Assam",
+     "as": "ই অসমত বিদ্যুৎ বিতৰণ কৰে"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Bongaigaon is notable because it has a petroleum refinery.",
+    "as": "বঙাইগাঁও উল্লেখযোগ্য কাৰণ ই এটা পেট্ৰ'লিয়াম শোধনাগাৰ আছে।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-175",
+   "q": {
+    "en": "Lepetkata in Assam is known as what?",
+    "as": "অসমত লেপেটকটা কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "oil town",
+     "as": "তেল নগৰ"
+    },
+    {
+     "en": "rainforest",
+     "as": "বৰ্ষাৰণ্য"
+    },
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "natural lake",
+     "as": "প্ৰাকৃতিক হ্ৰদ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Lepetkata is a industrial town in Assam.",
+    "as": "লেপেটকটা অসমত এটা শিল্প নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-176",
+   "q": {
+    "en": "Lepetkata in Assam is located at which place?",
+    "as": "অসমত লেপেটকটা কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Lepetkata is located at Dibrugarh.",
+    "as": "লেপেটকটা ডিব্ৰুগড় ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-177",
+   "q": {
+    "en": "Lepetkata in Assam is notable because of which of the following?",
+    "as": "অসমত লেপেটকটা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it hosts the Assam Gas Cracker Project",
+     "as": "ই অসম গেছ ক্ৰেকাৰ প্ৰকল্পৰ আয়োজক"
+    },
+    {
+     "en": "it was formed by an earthquake",
+     "as": "ই ভূমিকম্পৰ দ্বাৰা গঠিত হৈছিল"
+    },
+    {
+     "en": "it is rich in limestone and coal",
+     "as": "ই চূণশিল আৰু কয়লাত সমৃদ্ধ"
+    },
+    {
+     "en": "it is a Ramsar site near Guwahati",
+     "as": "ই গুৱাহাটীৰ ওচৰত এটা ৰামছাৰ স্থান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Lepetkata is notable because it hosts the Assam Gas Cracker Project.",
+    "as": "লেপেটকটা উল্লেখযোগ্য কাৰণ ই অসম গেছ ক্ৰেকাৰ প্ৰকল্পৰ আয়োজক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-178",
+   "q": {
+    "en": "Jagiroad in Assam is known as what?",
+    "as": "অসমত জাগীৰোড কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "tank",
+     "as": "পুখুৰী"
+    },
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "paper mill",
+     "as": "কাগজ কল"
+    },
+    {
+     "en": "biosphere reserve",
+     "as": "জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Jagiroad is a industrial town in Assam.",
+    "as": "জাগীৰোড অসমত এটা শিল্প নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-179",
+   "q": {
+    "en": "Jagiroad in Assam is located at which place?",
+    "as": "অসমত জাগীৰোড কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Charaideo",
+     "as": "চৰাইদেউ"
+    },
+    {
+     "en": "Morigaon",
+     "as": "মৰিগাঁও"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Jagiroad is located at Morigaon.",
+    "as": "জাগীৰোড মৰিগাঁও ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-180",
+   "q": {
+    "en": "Jagiroad in Assam is notable because of which of the following?",
+    "as": "অসমত জাগীৰোড তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a well known coalfield of Assam",
+     "as": "ই অসমৰ এটা সুপৰিচিত কয়লাক্ষেত্ৰ"
+    },
+    {
+     "en": "it hosts a fertiliser plant of Assam",
+     "as": "ই অসমৰ এটা সাৰ কাৰখানা আছে"
+    },
+    {
+     "en": "it is a specialty rice variety of Assam",
+     "as": "ই অসমৰ এটা বিশেষ চাউল জাত"
+    },
+    {
+     "en": "it hosts the Nagaon Paper Mill",
+     "as": "ই নগাঁও কাগজ কলৰ আয়োজক"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Jagiroad is notable because it hosts the Nagaon Paper Mill.",
+    "as": "জাগীৰোড উল্লেখযোগ্য কাৰণ ই নগাঁও কাগজ কলৰ আয়োজক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-181",
+   "q": {
+    "en": "Panchgram in Assam is known as what?",
+    "as": "অসমত পঞ্চগ্ৰাম কি হিচাপে জনা যায়?"
+   },
+   "options": [
+    {
+     "en": "industrial town",
+     "as": "শিল্প নগৰ"
+    },
+    {
+     "en": "power utility",
+     "as": "বিদ্যুৎ প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "fertiliser plant",
+     "as": "সাৰ কাৰখানা"
+    },
+    {
+     "en": "hydroelectric project",
+     "as": "জলবিদ্যুৎ প্ৰকল্প"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Panchgram is a industrial town in Assam.",
+    "as": "পঞ্চগ্ৰাম অসমত এটা শিল্প নগৰ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-182",
+   "q": {
+    "en": "Panchgram in Assam is located at which place?",
+    "as": "অসমত পঞ্চগ্ৰাম কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Hailakandi",
+     "as": "হাইলাকান্দি"
+    },
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Panchgram is located at Hailakandi.",
+    "as": "পঞ্চগ্ৰাম হাইলাকান্দি ত অৱস্থিত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-183",
+   "q": {
+    "en": "Panchgram in Assam is notable because of which of the following?",
+    "as": "অসমত পঞ্চগ্ৰাম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
+   },
+   "options": [
+    {
+     "en": "it is a historic tank of Assam",
+     "as": "ই অসমৰ এটা ঐতিহাসিক পুখুৰী"
+    },
+    {
+     "en": "it is the principal food crop of Assam",
+     "as": "ই অসমৰ প্ৰধান খাদ্য শস্য"
+    },
+    {
+     "en": "it hosts the Cachar Paper Mill",
+     "as": "ই কাছাৰ কাগজ কলৰ আয়োজক"
+    },
+    {
+     "en": "it distributes natural gas in Assam",
+     "as": "ই অসমত প্ৰাকৃতিক গেছ বিতৰণ কৰে"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Panchgram is notable because it hosts the Cachar Paper Mill.",
+    "as": "পঞ্চগ্ৰাম উল্লেখযোগ্য কাৰণ ই কাছাৰ কাগজ কলৰ আয়োজক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-184",
+   "q": {
+    "en": "Which place in Assam is associated with tea research institute?",
+    "as": "অসমত কোন ঠাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Panchgram",
+     "as": "পঞ্চগ্ৰাম"
+    },
+    {
+     "en": "Ledo",
+     "as": "লিডু"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
+    },
+    {
+     "en": "Tocklai Tea Research Institute",
+     "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Tocklai Tea Research Institute is associated with tea research institute.",
+    "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান চাহ গৱেষণা প্ৰতিষ্ঠানৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-185",
+   "q": {
+    "en": "Which place in Assam is associated with tea auction centre?",
+    "as": "অসমত কোন ঠাই চাহ নিলাম কেন্দ্ৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati Tea Auction Centre",
+     "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ"
+    },
+    {
+     "en": "Namrup",
+     "as": "নামৰূপ"
+    },
+    {
+     "en": "Assam Power Distribution Company",
+     "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী"
+    },
+    {
+     "en": "Makum",
+     "as": "মাকুম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Guwahati Tea Auction Centre is associated with tea auction centre.",
+    "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ চাহ নিলাম কেন্দ্ৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-186",
+   "q": {
+    "en": "Which place in Assam is associated with tea corporation?",
+    "as": "অসমত কোন ঠাই চাহ নিগমৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Assam Gas Company",
+     "as": "অসম গেছ কোম্পানী"
+    },
+    {
+     "en": "Assam Tea Corporation",
+     "as": "অসম চাহ নিগম"
+    },
+    {
+     "en": "BCPL",
+     "as": "বিচিপিএল"
+    },
+    {
+     "en": "Moran",
+     "as": "মৰাণ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Assam Tea Corporation is associated with tea corporation.",
+    "as": "অসম চাহ নিগম চাহ নিগমৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-187",
+   "q": {
+    "en": "Which place in Assam is associated with tea town?",
+    "as": "অসমত কোন ঠাই চাহ নগৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Agarwood",
+     "as": "অগৰু"
+    },
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dibrugarh is associated with tea town.",
+    "as": "ডিব্ৰুগড় চাহ নগৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-188",
+   "q": {
+    "en": "Which place in Assam is associated with tea producing district?",
+    "as": "অসমত কোন ঠাই চাহ উৎপাদক জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sugarcane",
+     "as": "কুঁহিয়াৰ"
+    },
+    {
+     "en": "NEEPCO",
+     "as": "নীপকো"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sonitpur is associated with tea producing district.",
+    "as": "শোণিতপুৰ চাহ উৎপাদক জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-189",
+   "q": {
+    "en": "Which place in Assam is associated with golden silk?",
+    "as": "অসমত কোন ঠাই সোণালী ৰেচমৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Muga silk",
+     "as": "মুগা ৰেচম"
+    },
+    {
+     "en": "Cachar Paper Mill",
+     "as": "কাছাৰ কাগজ কল"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
+    },
+    {
+     "en": "BCPL",
+     "as": "বিচিপিএল"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muga silk is associated with golden silk.",
+    "as": "মুগা ৰেচম সোণালী ৰেচমৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-190",
+   "q": {
+    "en": "Which place in Assam is associated with mulberry silk?",
+    "as": "অসমত কোন ঠাই নুনি ৰেচমৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    },
+    {
+     "en": "Pat silk",
+     "as": "পাট ৰেচম"
+    },
+    {
+     "en": "Moran",
+     "as": "মৰাণ"
+    },
+    {
+     "en": "Karbi Langpi Hydro Electric Project",
+     "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Pat silk is associated with mulberry silk.",
+    "as": "পাট ৰেচম নুনি ৰেচমৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-191",
+   "q": {
+    "en": "Which place in Assam is associated with non-violent silk?",
+    "as": "অসমত কোন ঠাই অহিংস ৰেচমৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Ledo",
+     "as": "লিডু"
+    },
+    {
+     "en": "Numaligarh Refinery",
+     "as": "নুমলীগড় শোধনাগাৰ"
+    },
+    {
+     "en": "Eri silk",
+     "as": "এৰী ৰেচম"
+    },
+    {
+     "en": "Assam Gas Company",
+     "as": "অসম গেছ কোম্পানী"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Eri silk is associated with non-violent silk.",
+    "as": "এৰী ৰেচম অহিংস ৰেচমৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-192",
+   "q": {
+    "en": "Which place in Assam is associated with silk weaving town?",
+    "as": "অসমত কোন ঠাই ৰেচম বোৱা নগৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Jute",
+     "as": "পাট"
+    },
+    {
+     "en": "Kopili Hydro Electric Project",
+     "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "Muga silk",
+     "as": "মুগা ৰেচম"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sualkuchi is associated with silk weaving town.",
+    "as": "শুৱালকুছি ৰেচম বোৱা নগৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-193",
+   "q": {
+    "en": "Which place in Assam is associated with handwoven textile?",
+    "as": "অসমত কোন ঠাই হাতে বোৱা বস্ত্ৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bodo Dokhona",
+     "as": "বড়ো দখনা"
+    },
+    {
+     "en": "Sonbeel",
+     "as": "ছনবিল"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
+    },
+    {
+     "en": "Naharkatia",
+     "as": "নাহৰকটীয়া"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Bodo Dokhona is associated with handwoven textile.",
+    "as": "বড়ো দখনা হাতে বোৱা বস্ত্ৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-194",
+   "q": {
+    "en": "Which place in Assam is associated with handwoven cloth?",
+    "as": "অসমত কোন ঠাই হাতে বোৱা বস্ত্ৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "BCPL",
+     "as": "বিচিপিএল"
+    },
+    {
+     "en": "Guwahati Tea Auction Centre",
+     "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Gamosa is associated with handwoven cloth.",
+    "as": "গামোচা হাতে বোৱা বস্ত্ৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-195",
+   "q": {
+    "en": "Which place in Assam is associated with oil town?",
+    "as": "অসমত কোন ঠাই তেল নগৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Naharkatia",
+     "as": "নাহৰকটীয়া"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Digboi is associated with oil town.",
+    "as": "ডিগবয় তেল নগৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-196",
+   "q": {
+    "en": "Which place in Assam is associated with oilfield?",
+    "as": "অসমত কোন ঠাই তেলক্ষেত্ৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Cachar Paper Mill",
+     "as": "কাছাৰ কাগজ কল"
+    },
+    {
+     "en": "Namrup",
+     "as": "নামৰূপ"
+    },
+    {
+     "en": "Assam Power Distribution Company",
+     "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী"
+    },
+    {
+     "en": "Naharkatia",
+     "as": "নাহৰকটীয়া"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Naharkatia is associated with oilfield.",
+    "as": "নাহৰকটীয়া তেলক্ষেত্ৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-197",
+   "q": {
+    "en": "Which place in Assam is associated with oil refinery?",
+    "as": "অসমত কোন ঠাই তেল শোধনাগাৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Numaligarh Refinery",
+     "as": "নুমলীগড় শোধনাগাৰ"
+    },
+    {
+     "en": "Bongaigaon Refinery",
+     "as": "বঙাইগাঁও শোধনাগাৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Umrangso",
+     "as": "উমৰাংছু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Numaligarh Refinery is associated with oil refinery.",
+    "as": "নুমলীগড় শোধনাগাৰ তেল শোধনাগাৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-198",
+   "q": {
+    "en": "Which place in Assam is associated with fertiliser plant?",
+    "as": "অসমত কোন ঠাই সাৰ কাৰখানাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Namrup",
+     "as": "নামৰূপ"
+    },
+    {
+     "en": "Bongaigaon Refinery",
+     "as": "বঙাইগাঁও শোধনাগাৰ"
+    },
+    {
+     "en": "Black rice",
+     "as": "ক'লা চাউল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Namrup is associated with fertiliser plant.",
+    "as": "নামৰূপ সাৰ কাৰখানাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-199",
+   "q": {
+    "en": "Which place in Assam is associated with gas cracker project?",
+    "as": "অসমত কোন ঠাই গেছ ক্ৰেকাৰ প্ৰকল্পৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Moran",
+     "as": "মৰাণ"
+    },
+    {
+     "en": "Karbi Langpi Hydro Electric Project",
+     "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "BCPL",
+     "as": "বিচিপিএল"
+    },
+    {
+     "en": "Margherita",
+     "as": "মাৰ্ঘেৰিটা"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "BCPL is associated with gas cracker project.",
+    "as": "বিচিপিএল গেছ ক্ৰেকাৰ প্ৰকল্পৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-200",
+   "q": {
+    "en": "Which place in Assam is associated with gas distribution?",
+    "as": "অসমত কোন ঠাই গেছ বিতৰণৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Dehing Patkai",
+     "as": "দিহিং পাটকাই"
+    },
+    {
+     "en": "Umrangso",
+     "as": "উমৰাংছু"
+    },
+    {
+     "en": "Bongaigaon Refinery",
+     "as": "বঙাইগাঁও শোধনাগাৰ"
+    },
+    {
+     "en": "Assam Gas Company",
+     "as": "অসম গেছ কোম্পানী"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Assam Gas Company is associated with gas distribution.",
+    "as": "অসম গেছ কোম্পানী গেছ বিতৰণৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-201",
+   "q": {
+    "en": "Which place in Assam is associated with coalfield?",
+    "as": "অসমত কোন ঠাই কয়লাক্ষেত্ৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Margherita",
+     "as": "মাৰ্ঘেৰিটা"
+    },
+    {
+     "en": "Sivasagar tank",
+     "as": "শিৱসাগৰ পুখুৰী"
+    },
+    {
+     "en": "Assam Tea Corporation",
+     "as": "অসম চাহ নিগম"
+    },
+    {
+     "en": "Duliajan",
+     "as": "ডুলিয়াজান"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Margherita is associated with coalfield.",
+    "as": "মাৰ্ঘেৰিটা কয়লাক্ষেত্ৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-202",
+   "q": {
+    "en": "Which place in Assam is associated with industrial town?",
+    "as": "অসমত কোন ঠাই শিল্প নগৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Namrup",
+     "as": "নামৰূপ"
+    },
+    {
+     "en": "Umrangso",
+     "as": "উমৰাংছু"
+    },
+    {
+     "en": "BCPL",
+     "as": "বিচিপিএল"
+    },
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Umrangso is associated with industrial town.",
+    "as": "উমৰাংছু শিল্প নগৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-203",
+   "q": {
+    "en": "Which place in Assam is associated with coal town?",
+    "as": "অসমত কোন ঠাই কয়লা নগৰৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Cachar Paper Mill",
+     "as": "কাছাৰ কাগজ কল"
+    },
+    {
+     "en": "Bodo Dokhona",
+     "as": "বড়ো দখনা"
+    },
+    {
+     "en": "Ledo",
+     "as": "লিডু"
+    },
+    {
+     "en": "NEEPCO",
+     "as": "নীপকো"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Ledo is associated with coal town.",
+    "as": "লিডু কয়লা নগৰৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-204",
+   "q": {
+    "en": "Which place in Assam is associated with mineral rich district?",
+    "as": "অসমত কোন ঠাই খনিজ সমৃদ্ধ জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Black rice",
+     "as": "ক'লা চাউল"
+    },
+    {
+     "en": "Areca nut",
+     "as": "তামোল"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Karbi Anglong is associated with mineral rich district.",
+    "as": "কাৰ্বি আংলং খনিজ সমৃদ্ধ জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-205",
+   "q": {
+    "en": "Which place in Assam is associated with cement plant?",
+    "as": "অসমত কোন ঠাই চিমেণ্ট কাৰখানাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Umrangso cement plant",
+     "as": "উমৰাংছু চিমেণ্ট কাৰখানা"
+    },
+    {
+     "en": "Pat silk",
+     "as": "পাট ৰেচম"
+    },
+    {
+     "en": "Karbi Langpi Hydro Electric Project",
+     "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "Ledo",
+     "as": "লিডু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Umrangso cement plant is associated with cement plant.",
+    "as": "উমৰাংছু চিমেণ্ট কাৰখানা চিমেণ্ট কাৰখানাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-206",
+   "q": {
+    "en": "Which place in Assam is associated with paper mill?",
+    "as": "অসমত কোন ঠাই কাগজ কলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Pat silk",
+     "as": "পাট ৰেচম"
+    },
+    {
+     "en": "Nagaon Paper Mill",
+     "as": "নগাঁও কাগজ কল"
+    },
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nagaon Paper Mill is associated with paper mill.",
+    "as": "নগাঁও কাগজ কল কাগজ কলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-207",
+   "q": {
+    "en": "Which place in Assam is associated with forest reserve?",
+    "as": "অসমত কোন ঠাই বন সংৰক্ষিত অঞ্চলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Areca nut",
+     "as": "তামোল"
+    },
+    {
+     "en": "Assam Power Distribution Company",
+     "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী"
+    },
+    {
+     "en": "Hollongapar Gibbon Sanctuary",
+     "as": "হলৌপাৰ গিবন অভয়াৰণ্য"
+    },
+    {
+     "en": "Karbi Langpi Hydro Electric Project",
+     "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Hollongapar Gibbon Sanctuary is associated with forest reserve.",
+    "as": "হলৌপাৰ গিবন অভয়াৰণ্য বন সংৰক্ষিত অঞ্চলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-208",
+   "q": {
+    "en": "Which place in Assam is associated with rainforest?",
+    "as": "অসমত কোন ঠাই বৰ্ষাৰণ্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Umrangso cement plant",
+     "as": "উমৰাংছু চিমেণ্ট কাৰখানা"
+    },
+    {
+     "en": "Areca nut",
+     "as": "তামোল"
+    },
+    {
+     "en": "Dehing Patkai",
+     "as": "দিহিং পাটকাই"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dehing Patkai is associated with rainforest.",
+    "as": "দিহিং পাটকাই বৰ্ষাৰণ্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-209",
+   "q": {
+    "en": "Which place in Assam is associated with biosphere reserve?",
+    "as": "অসমত কোন ঠাই জীৱমণ্ডল সংৰক্ষিত অঞ্চলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Manas Biosphere Reserve",
+     "as": "মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    },
+    {
+     "en": "Muga silk",
+     "as": "মুগা ৰেচম"
+    },
+    {
+     "en": "Sivasagar tank",
+     "as": "শিৱসাগৰ পুখুৰী"
+    },
+    {
+     "en": "Mustard",
+     "as": "সৰিয়হ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Manas Biosphere Reserve is associated with biosphere reserve.",
+    "as": "মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল জীৱমণ্ডল সংৰক্ষিত অঞ্চলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-210",
+   "q": {
+    "en": "Which place in Assam is associated with reserve forest?",
+    "as": "অসমত কোন ঠাই সংৰক্ষিত বনাঞ্চলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sal tree",
+     "as": "শাল গছ"
+    },
+    {
+     "en": "Nambor forest",
+     "as": "নামবৰ বনাঞ্চল"
+    },
+    {
+     "en": "Umrangso cement plant",
+     "as": "উমৰাংছু চিমেণ্ট কাৰখানা"
+    },
+    {
+     "en": "Manas Biosphere Reserve",
+     "as": "মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Nambor forest is associated with reserve forest.",
+    "as": "নামবৰ বনাঞ্চল সংৰক্ষিত বনাঞ্চলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-211",
+   "q": {
+    "en": "Which place in Assam is associated with forest product?",
+    "as": "অসমত কোন ঠাই বনজ সামগ্ৰীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Bongaigaon",
+     "as": "বঙাইগাঁও"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    },
+    {
+     "en": "Agarwood",
+     "as": "অগৰু"
+    },
+    {
+     "en": "Joha rice",
+     "as": "জহা চাউল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Agarwood is associated with forest product.",
+    "as": "অগৰু বনজ সামগ্ৰীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-212",
+   "q": {
+    "en": "Which place in Assam is associated with timber tree?",
+    "as": "অসমত কোন ঠাই কাঠৰ গছৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Umrangso",
+     "as": "উমৰাংছু"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Sal tree",
+     "as": "শাল গছ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sal tree is associated with timber tree.",
+    "as": "শাল গছ কাঠৰ গছৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-213",
+   "q": {
+    "en": "Which place in Assam is associated with staple crop?",
+    "as": "অসমত কোন ঠাই মূল খাদ্য শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Rice",
+     "as": "ধান"
+    },
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    },
+    {
+     "en": "Joha rice",
+     "as": "জহা চাউল"
+    },
+    {
+     "en": "Hollongapar Gibbon Sanctuary",
+     "as": "হলৌপাৰ গিবন অভয়াৰণ্য"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Rice is associated with staple crop.",
+    "as": "ধান মূল খাদ্য শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-214",
+   "q": {
+    "en": "Which place in Assam is associated with commercial crop?",
+    "as": "অসমত কোন ঠাই ব্যৱসায়িক শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Agarwood",
+     "as": "অগৰু"
+    },
+    {
+     "en": "Tea",
+     "as": "চাহ"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    },
+    {
+     "en": "Sal tree",
+     "as": "শাল গছ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tea is associated with commercial crop.",
+    "as": "চাহ ব্যৱসায়িক শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-215",
+   "q": {
+    "en": "Which place in Assam is associated with fibre crop?",
+    "as": "অসমত কোন ঠাই আঁহ শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Assam Power Distribution Company",
+     "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী"
+    },
+    {
+     "en": "Umrangso cement plant",
+     "as": "উমৰাংছু চিমেণ্ট কাৰখানা"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
+    },
+    {
+     "en": "Sonari",
+     "as": "শোণাৰি"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Jute is associated with fibre crop.",
+    "as": "পাট আঁহ শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-216",
+   "q": {
+    "en": "Which place in Assam is associated with oilseed crop?",
+    "as": "অসমত কোন ঠাই তেলজাত শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Panchgram",
+     "as": "পঞ্চগ্ৰাম"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    },
+    {
+     "en": "Eri silk",
+     "as": "এৰী ৰেচম"
+    },
+    {
+     "en": "Mustard",
+     "as": "সৰিয়হ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Mustard is associated with oilseed crop.",
+    "as": "সৰিয়হ তেলজাত শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-217",
+   "q": {
+    "en": "Which place in Assam is associated with cash crop?",
+    "as": "অসমত কোন ঠাই নগদ শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sugarcane",
+     "as": "কুঁহিয়াৰ"
+    },
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Makum",
+     "as": "মাকুম"
+    },
+    {
+     "en": "Pat silk",
+     "as": "পাট ৰেচম"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sugarcane is associated with cash crop.",
+    "as": "কুঁহিয়াৰ নগদ শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-218",
+   "q": {
+    "en": "Which place in Assam is associated with plantation crop?",
+    "as": "অসমত কোন ঠাই বাগান শস্যৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Muga silk",
+     "as": "মুগা ৰেচম"
+    },
+    {
+     "en": "Areca nut",
+     "as": "তামোল"
+    },
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    },
+    {
+     "en": "Cachar Paper Mill",
+     "as": "কাছাৰ কাগজ কল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Areca nut is associated with plantation crop.",
+    "as": "তামোল বাগান শস্যৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-219",
+   "q": {
+    "en": "Which place in Assam is associated with specialty rice?",
+    "as": "অসমত কোন ঠাই বিশেষ চাউলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sugarcane",
+     "as": "কুঁহিয়াৰ"
+    },
+    {
+     "en": "Namrup",
+     "as": "নামৰূপ"
+    },
+    {
+     "en": "Black rice",
+     "as": "ক'লা চাউল"
+    },
+    {
+     "en": "Duliajan",
+     "as": "ডুলিয়াজান"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Black rice is associated with specialty rice.",
+    "as": "ক'লা চাউল বিশেষ চাউলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-220",
+   "q": {
+    "en": "Which place in Assam is associated with aromatic rice?",
+    "as": "অসমত কোন ঠাই সুগন্ধি চাউলৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Assam Power Distribution Company",
+     "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী"
+    },
+    {
+     "en": "Cachar Paper Mill",
+     "as": "কাছাৰ কাগজ কল"
+    },
+    {
+     "en": "Sonbeel",
+     "as": "ছনবিল"
+    },
+    {
+     "en": "Joha rice",
+     "as": "জহা চাউল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Joha rice is associated with aromatic rice.",
+    "as": "জহা চাউল সুগন্ধি চাউলৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-221",
+   "q": {
+    "en": "Which place in Assam is associated with hydroelectric project?",
+    "as": "অসমত কোন ঠাই জলবিদ্যুৎ প্ৰকল্পৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Kopili Hydro Electric Project",
+     "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প"
+    },
+    {
+     "en": "Dehing Patkai",
+     "as": "দিহিং পাটকাই"
+    },
+    {
+     "en": "Margherita",
+     "as": "মাৰ্ঘেৰিটা"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Kopili Hydro Electric Project is associated with hydroelectric project.",
+    "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প জলবিদ্যুৎ প্ৰকল্পৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-222",
+   "q": {
+    "en": "Which place in Assam is associated with power corporation?",
+    "as": "অসমত কোন ঠাই বিদ্যুৎ নিগমৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    },
+    {
+     "en": "NEEPCO",
+     "as": "নীপকো"
+    },
+    {
+     "en": "Sal tree",
+     "as": "শাল গছ"
+    },
+    {
+     "en": "Numaligarh Refinery",
+     "as": "নুমলীগড় শোধনাগাৰ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "NEEPCO is associated with power corporation.",
+    "as": "নীপকো বিদ্যুৎ নিগমৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-223",
+   "q": {
+    "en": "Which place in Assam is associated with power utility?",
+    "as": "অসমত কোন ঠাই বিদ্যুৎ প্ৰতিষ্ঠানৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Ledo",
+     "as": "লিডু"
+    },
+    {
+     "en": "Nambor forest",
+     "as": "নামবৰ বনাঞ্চল"
+    },
+    {
+     "en": "Assam Power Distribution Company",
+     "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী"
+    },
+    {
+     "en": "Guwahati Tea Auction Centre",
+     "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Assam Power Distribution Company is associated with power utility.",
+    "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী বিদ্যুৎ প্ৰতিষ্ঠানৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-224",
+   "q": {
+    "en": "Which place in Assam is associated with Ramsar wetland?",
+    "as": "অসমত কোন ঠাই ৰামছাৰ জলাশয়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Gamosa",
+     "as": "গামোচা"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "NEEPCO",
+     "as": "নীপকো"
+    },
+    {
+     "en": "Deepor Beel",
+     "as": "দীপৰ বিল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Deepor Beel is associated with Ramsar wetland.",
+    "as": "দীপৰ বিল ৰামছাৰ জলাশয়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-225",
+   "q": {
+    "en": "Which place in Assam is associated with wetland?",
+    "as": "অসমত কোন ঠাই জলাশয়ৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Sonbeel",
+     "as": "ছনবিল"
+    },
+    {
+     "en": "Panchgram",
+     "as": "পঞ্চগ্ৰাম"
+    },
+    {
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
+    },
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sonbeel is associated with wetland.",
+    "as": "ছনবিল জলাশয়ৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-226",
+   "q": {
+    "en": "Which place in Assam is associated with natural lake?",
+    "as": "অসমত কোন ঠাই প্ৰাকৃতিক হ্ৰদৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Dima Hasao",
+     "as": "ডিমা হাছাও"
+    },
+    {
+     "en": "Chandubi Lake",
+     "as": "চান্দুবি হ্ৰদ"
+    },
+    {
+     "en": "Tocklai Tea Research Institute",
+     "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান"
+    },
+    {
+     "en": "Sonbeel",
+     "as": "ছনবিল"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Chandubi Lake is associated with natural lake.",
+    "as": "চান্দুবি হ্ৰদ প্ৰাকৃতিক হ্ৰদৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-227",
+   "q": {
+    "en": "Which place in Assam is associated with tank?",
+    "as": "অসমত কোন ঠাই পুখুৰীৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Jagiroad",
+     "as": "জাগীৰোড"
+    },
+    {
+     "en": "BCPL",
+     "as": "বিচিপিএল"
+    },
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    },
+    {
+     "en": "Bongaigaon Refinery",
+     "as": "বঙাইগাঁও শোধনাগাৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rudrasagar is associated with tank.",
+    "as": "ৰুদ্ৰসাগৰ পুখুৰীৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-228",
+   "q": {
+    "en": "Which place in Assam is associated with agricultural district?",
+    "as": "অসমত কোন ঠাই কৃষি জিলাৰ সৈতে জড়িত?"
+   },
+   "options": [
+    {
+     "en": "Rudrasagar",
+     "as": "ৰুদ্ৰসাগৰ"
+    },
+    {
+     "en": "Assam Power Distribution Company",
+     "as": "অসম বিদ্যুৎ বিতৰণ কোম্পানী"
+    },
+    {
+     "en": "Muga silk",
+     "as": "মুগা ৰেচম"
+    },
+    {
+     "en": "Barpeta",
+     "as": "বৰপেটা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Barpeta is associated with agricultural district.",
+    "as": "বৰপেটা কৃষি জিলাৰ সৈতে জড়িত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-229",
+   "q": {
+    "en": "Assam is the largest producer of which crop in India?",
+    "as": "ভাৰতত অসম কোন শস্যৰ আটাইতকৈ ডাঙৰ উৎপাদক?"
+   },
+   "options": [
+    {
+     "en": "Tea",
+     "as": "চাহ"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
+    },
+    {
+     "en": "Rice",
+     "as": "ধান"
+    },
+    {
+     "en": "Wheat",
+     "as": "ঘেঁহু"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam is the largest producer of tea in India.",
+    "as": "ভাৰতত অসম চাহৰ আটাইতকৈ ডাঙৰ উৎপাদক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-230",
+   "q": {
+    "en": "The headquarters of Oil India Limited is located at which place?",
+    "as": "অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় কোন ঠাইত অৱস্থিত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Duliajan",
+     "as": "ডুলিয়াজান"
+    },
+    {
+     "en": "Naharkatia",
+     "as": "নাহৰকটীয়া"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Oil India Limited is headquartered at Duliajan.",
+    "as": "অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় ডুলিয়াজানত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-231",
+   "q": {
+    "en": "Where was India's first oil well drilled?",
+    "as": "ভাৰতৰ প্ৰথম তেল কূপ ক'ত খনন কৰা হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Naharkatia",
+     "as": "নাহৰকটীয়া"
+    },
+    {
+     "en": "Duliajan",
+     "as": "ডুলিয়াজান"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Moran",
+     "as": "মৰাণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "India's first oil well was drilled at Digboi in Assam.",
+    "as": "ভাৰতৰ প্ৰথম তেল কূপ অসমৰ ডিগবয়ত খনন কৰা হৈছিল।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-232",
+   "q": {
+    "en": "Which mineral is mined at Makum in Assam?",
+    "as": "অসমৰ মাকুমত কোন খনিজ খনন কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Iron ore",
+     "as": "লো-আকৰ"
+    },
+    {
+     "en": "Limestone",
+     "as": "চূণশিল"
+    },
+    {
+     "en": "Petroleum",
+     "as": "পেট্ৰ'লিয়াম"
+    },
+    {
+     "en": "Coal",
+     "as": "কয়লা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Coal is mined at Makum in Assam.",
+    "as": "অসমৰ মাকুমত কয়লা খনন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-233",
+   "q": {
+    "en": "Which silk of Assam is known as the golden silk?",
+    "as": "অসমৰ কোন ৰেচম সোণালী ৰেচম হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Muga",
+     "as": "মুগা"
+    },
+    {
+     "en": "Tasar",
+     "as": "তচৰ"
+    },
+    {
+     "en": "Eri",
+     "as": "এৰী"
+    },
+    {
+     "en": "Pat",
+     "as": "পাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Muga silk of Assam is known as the golden silk.",
+    "as": "অসমৰ মুগা ৰেচম সোণালী ৰেচম হিচাপে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-234",
+   "q": {
+    "en": "Which silk of Assam is also called ahimsa silk?",
+    "as": "অসমৰ কোন ৰেচম অহিংসা ৰেচম নামেৰেও জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Tasar",
+     "as": "তচৰ"
+    },
+    {
+     "en": "Eri",
+     "as": "এৰী"
+    },
+    {
+     "en": "Muga",
+     "as": "মুগা"
+    },
+    {
+     "en": "Pat",
+     "as": "পাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Eri silk is also called ahimsa silk.",
+    "as": "এৰী ৰেচম অহিংসা ৰেচম নামেৰেও জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-235",
+   "q": {
+    "en": "Which town of Assam is known as the Manchester of Assam?",
+    "as": "অসমৰ কোন নগৰ অসমৰ মাঞ্চেষ্টাৰ হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Sualkuchi is called the Manchester of Assam for its silk weaving.",
+    "as": "শুৱালকুছিক ৰেচম বোৱাৰ বাবে অসমৰ মাঞ্চেষ্টাৰ বোলা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-236",
+   "q": {
+    "en": "Which town of Assam is known as the Tea City of India?",
+    "as": "অসমৰ কোন নগৰ ভাৰতৰ চাহ নগৰী হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Tezpur",
+     "as": "তেজপুৰ"
+    },
+    {
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Dibrugarh is called the Tea City of India.",
+    "as": "ডিব্ৰুগড়ক ভাৰতৰ চাহ নগৰী বোলা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-237",
+   "q": {
+    "en": "Which town of Assam is known as the Silk City?",
+    "as": "অসমৰ কোন নগৰ ৰেচম নগৰী হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Sualkuchi is known as the Silk City.",
+    "as": "শুৱালকুছি ৰেচম নগৰী হিচাপে জনাজাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-238",
+   "q": {
+    "en": "Which town of Assam is known as the Oil City?",
+    "as": "অসমৰ কোন নগৰ তেল নগৰী হিচাপে জনাজাত?"
+   },
+   "options": [
+    {
+     "en": "Guwahati",
+     "as": "গুৱাহাটী"
+    },
+    {
+     "en": "Digboi",
+     "as": "ডিগবয়"
+    },
+    {
+     "en": "Duliajan",
+     "as": "ডুলিয়াজান"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Digboi is known as the Oil City of Assam.",
+    "as": "ডিগবয়ক অসমৰ তেল নগৰী হিচাপে জনা যায়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-239",
+   "q": {
+    "en": "Which rainforest of Assam is called the Amazon of the East?",
+    "as": "অসমৰ কোন বৰ্ষাৰণ্যক পূবৰ আমাজন বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Manas",
+     "as": "মানস"
+    },
+    {
+     "en": "Nameri",
+     "as": "নামেৰি"
+    },
+    {
+     "en": "Dehing Patkai",
+     "as": "দিহিং পাটকাই"
+    },
+    {
+     "en": "Borail",
+     "as": "বৰাইল"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Dehing Patkai is called the Amazon of the East.",
+    "as": "দিহিং পাটকাইক পূবৰ আমাজন বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-240",
+   "q": {
+    "en": "Which is the principal commercial tree crop of Assam?",
+    "as": "অসমৰ প্ৰধান ব্যৱসায়িক গছ শস্য কোন?"
+   },
+   "options": [
+    {
+     "en": "Coffee",
+     "as": "কফি"
+    },
+    {
+     "en": "Rubber",
+     "as": "ৰবৰ"
+    },
+    {
+     "en": "Coconut",
+     "as": "নাৰিকল"
+    },
+    {
+     "en": "Tea",
+     "as": "চাহ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Tea is the principal commercial tree crop of Assam.",
+    "as": "চাহ অসমৰ প্ৰধান ব্যৱসায়িক গছ শস্য।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-241",
+   "q": {
+    "en": "Which state is the largest producer of tea in India?",
+    "as": "ভাৰতত কোন ৰাজ্য চাহৰ আটাইতকৈ ডাঙৰ উৎপাদক?"
+   },
+   "options": [
+    {
+     "en": "Assam",
+     "as": "অসম"
+    },
+    {
+     "en": "Tamil Nadu",
+     "as": "তামিলনাডু"
+    },
+    {
+     "en": "West Bengal",
+     "as": "পশ্চিমবংগ"
+    },
+    {
+     "en": "Kerala",
+     "as": "কেৰালা"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Assam is the largest producer of tea in India.",
+    "as": "অসম ভাৰতত চাহৰ আটাইতকৈ ডাঙৰ উৎপাদক।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-242",
+   "q": {
+    "en": "Which crop is the main source of cash income for many farmers of Assam?",
+    "as": "অসমৰ বহু কৃষকৰ বাবে নগদ আয়ৰ প্ৰধান উৎস কোন শস্য?"
+   },
+   "options": [
+    {
+     "en": "Rice",
+     "as": "ধান"
+    },
+    {
+     "en": "Tea",
+     "as": "চাহ"
+    },
+    {
+     "en": "Maize",
+     "as": "মাকৈ"
+    },
+    {
+     "en": "Jute",
+     "as": "পাট"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Tea is the main source of cash income for many farmers of Assam.",
+    "as": "চাহ অসমৰ বহু কৃষকৰ নগদ আয়ৰ প্ৰধান উৎস।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-243",
+   "q": {
+    "en": "Which natural resource is used as raw material in the Namrup fertiliser plant?",
+    "as": "নামৰূপ সাৰ কাৰখানাত কোন প্ৰাকৃতিক সম্পদ কেঁচামাল হিচাপে ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Limestone",
+     "as": "চূণশিল"
+    },
+    {
+     "en": "Coal",
+     "as": "কয়লা"
+    },
+    {
+     "en": "Natural gas",
+     "as": "প্ৰাকৃতিক গেছ"
+    },
+    {
+     "en": "Petroleum",
+     "as": "পেট্ৰ'লিয়াম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Natural gas is used at the Namrup fertiliser plant.",
+    "as": "নামৰূপ সাৰ কাৰখানাত প্ৰাকৃতিক গেছ ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-244",
+   "q": {
+    "en": "Which mineral found in Assam is used in the cement industry?",
+    "as": "অসমত পোৱা কোন খনিজ চিমেণ্ট উদ্যোগত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Coal",
+     "as": "কয়লা"
+    },
+    {
+     "en": "Natural gas",
+     "as": "প্ৰাকৃতিক গেছ"
+    },
+    {
+     "en": "Petroleum",
+     "as": "পেট্ৰ'লিয়াম"
+    },
+    {
+     "en": "Limestone",
+     "as": "চূণশিল"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Limestone is used in the cement industry.",
+    "as": "চূণশিল চিমেণ্ট উদ্যোগত ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-245",
+   "q": {
+    "en": "Which district is known as the Rice Bowl of Assam?",
+    "as": "কোন জিলাক অসমৰ ধানৰ ভঁৰাল বুলি কোৱা হয়?"
+   },
+   "options": [
+    {
+     "en": "Nagaon",
+     "as": "নগাঁও"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Nagaon is known as the Rice Bowl of Assam.",
+    "as": "নগাঁওক অসমৰ ধানৰ ভঁৰাল বুলি কোৱা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-246",
+   "q": {
+    "en": "Which research institute in Assam is famous for tea research?",
+    "as": "অসমৰ কোন গৱেষণা প্ৰতিষ্ঠান চাহ গৱেষণাৰ বাবে বিখ্যাত?"
+   },
+   "options": [
+    {
+     "en": "Gauhati University",
+     "as": "গুৱাহাটী বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "Tocklai",
+     "as": "টকলাই"
+    },
+    {
+     "en": "Assam University",
+     "as": "অসম বিশ্ববিদ্যালয়"
+    },
+    {
+     "en": "IIT Guwahati",
+     "as": "আই আই টি গুৱাহাটী"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The Tocklai Tea Research Institute is famous for tea research.",
+    "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান চাহ গৱেষণাৰ বাবে বিখ্যাত।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-247",
+   "q": {
+    "en": "Which is the principal mineral resource of Assam?",
+    "as": "অসমৰ প্ৰধান খনিজ সম্পদ কোন?"
+   },
+   "options": [
+    {
+     "en": "Silver",
+     "as": "ৰূপ"
+    },
+    {
+     "en": "Iron ore",
+     "as": "লো-আকৰ"
+    },
+    {
+     "en": "Petroleum",
+     "as": "পেট্ৰ'লিয়াম"
+    },
+    {
+     "en": "Gold",
+     "as": "সোণ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Petroleum is the principal mineral resource of Assam.",
+    "as": "পেট্ৰ'লিয়াম অসমৰ প্ৰধান খনিজ সম্পদ।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-248",
+   "q": {
+    "en": "Which is the largest tea producing district of Assam?",
+    "as": "অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলা কোন?"
+   },
+   "options": [
+    {
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
+    },
+    {
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
+    },
+    {
+     "en": "Jorhat",
+     "as": "যোৰহাট"
+    },
+    {
+     "en": "Sonitpur",
+     "as": "শোণিতপুৰ"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Sonitpur is one of the largest tea producing districts of Assam.",
+    "as": "শোণিতপুৰ অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-249",
+   "q": {
+    "en": "Which forest product of Assam is used in perfume and incense?",
+    "as": "অসমৰ কোন বনজ সামগ্ৰী সুগন্ধি আৰু ধূপত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Agarwood",
+     "as": "অগৰু"
+    },
+    {
+     "en": "Bamboo",
+     "as": "বাঁহ"
+    },
+    {
+     "en": "Sal",
+     "as": "শাল"
+    },
+    {
+     "en": "Cane",
+     "as": "বেত"
+    }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Agarwood is used in perfume and incense.",
+    "as": "অগৰু সুগন্ধি আৰু ধূপত ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-250",
+   "q": {
+    "en": "Which natural resource of Assam is used for silk production?",
+    "as": "অসমৰ কোন প্ৰাকৃতিক সম্পদ ৰেচম উৎপাদনত ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Jute",
+     "as": "পাট"
+    },
+    {
+     "en": "Silkworm",
+     "as": "ৰেচম পোক"
+    },
+    {
+     "en": "Wool",
+     "as": "ঊণ"
+    },
+    {
+     "en": "Cotton",
+     "as": "কপাহ"
+    }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Silkworms are reared for silk production in Assam.",
+    "as": "অসমত ৰেচম উৎপাদনৰ বাবে ৰেচম পোক প্ৰতিপালন কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-251",
+   "q": {
+    "en": "Which resource is used for generating hydroelectricity in Assam?",
+    "as": "অসমত জলবিদ্যুৎ উৎপাদনৰ বাবে কোন সম্পদ ব্যৱহাৰ কৰা হয়?"
+   },
+   "options": [
+    {
+     "en": "Natural gas",
+     "as": "প্ৰাকৃতিক গেছ"
+    },
+    {
+     "en": "Coal",
+     "as": "কয়লা"
+    },
+    {
+     "en": "Rivers",
+     "as": "নদী"
+    },
+    {
+     "en": "Petroleum",
+     "as": "পেট্ৰ'লিয়াম"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Rivers are used for hydroelectricity in Assam.",
+    "as": "অসমত জলবিদ্যুৎৰ বাবে নদী ব্যৱহাৰ কৰা হয়।"
+   }
+  },
+  {
+   "id": "assam-natural-resources-252",
+   "q": {
+    "en": "Which mineral resource is found in abundance in Karbi Anglong and Dima Hasao?",
+    "as": "কাৰ্বি আংলং আৰু ডিমা হাছাওত কোন খনিজ সম্পদ প্ৰচুৰ পৰিমাণে পোৱা যায়?"
+   },
+   "options": [
+    {
+     "en": "Iron ore and gold",
+     "as": "লো-আকৰ আৰু সোণ"
+    },
+    {
+     "en": "Uranium and mica",
+     "as": "ইউৰেনিয়াম আৰু অভ্ৰক"
+    },
+    {
+     "en": "Silver and copper",
+     "as": "ৰূপ আৰু তাম"
+    },
+    {
+     "en": "Limestone and coal",
+     "as": "চূণশিল আৰু কয়লা"
+    }
+   ],
+   "correct": 3,
+   "explanation": {
+    "en": "Karbi Anglong and Dima Hasao are rich in limestone and coal.",
+    "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও চূণশিল আৰু কয়লাত সমৃদ্ধ।"
+   }
+  }
  ]
 };
