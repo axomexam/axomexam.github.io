@@ -15,6 +15,146 @@
      }
    ============================================================ */
 module.exports = {
+ "assam-history-ancient": [
+  {
+   "id": "assam-history-ancient-001",
+   "q": {
+    "en": "The earliest rulers of Pragjyotisha are associated with which mythological dynasty?",
+    "as": "প্ৰাগজ্যোতিষৰ আটাইতকৈ প্ৰাচীন শাসকসকল কোন পৌৰাণিক বংশৰ লগত জড়িত?"
+   },
+   "options": [
+    { "en": "Naraka (Bhauma) dynasty", "as": "নাৰক (ভৌম) বংশ" },
+    { "en": "Varman dynasty", "as": "বৰ্মন বংশ" },
+    { "en": "Pala dynasty", "as": "পাল বংশ" },
+    { "en": "Ahom dynasty", "as": "আহোম বংশ" }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "Tradition traces the earliest rulers of Pragjyotisha to the Naraka (Bhauma) dynasty, whose founder Narakasura is said to have been killed by Krishna.",
+    "as": "পৰম্পৰা অনুসৰি প্ৰাগজ্যোতিষৰ আটাইতকৈ প্ৰাচীন শাসকসকল নাৰক (ভৌম) বংশৰ, যাৰ প্ৰতিষ্ঠাপক নৰকাসুৰক কৃষ্ণই বধ কৰিছিল বুলি কোৱা হয়।"
+   }
+  }
+ ],
+ "assam-history-medieval": [
+  {
+   "id": "assam-history-medieval-001",
+   "q": {
+    "en": "Which medieval kingdom of Assam was founded by Viswa Singha?",
+    "as": "অসমৰ কোন মধ্যযুগীয় ৰাজ্য বিশ্ব সিংহই প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    { "en": "Chutiya kingdom", "as": "চুতীয়া ৰাজ্য" },
+    { "en": "Kachari kingdom", "as": "কছাৰী ৰাজ্য" },
+    { "en": "Koch kingdom", "as": "কোচ ৰাজ্য" },
+    { "en": "Jaintia kingdom", "as": "জয়ন্তীয়া ৰাজ্য" }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Viswa Singha founded the Koch kingdom in the early sixteenth century; his son Naranarayan extended it across a large part of the Brahmaputra valley.",
+    "as": "বিশ্ব সিংহই ষোড়শ শতিকাৰ আৰম্ভণিতে কোচ ৰাজ্য প্ৰতিষ্ঠা কৰিছিল; তেওঁৰ পুত্ৰ নৰনাৰায়ণে ইয়াক ব্ৰহ্মপুত্ৰ উপত্যকাৰ বিশাল অঞ্চললৈ বিস্তাৰ কৰিছিল।"
+   }
+  }
+ ],
+ "assam-history-modern": [
+  {
+   "id": "assam-history-modern-001",
+   "q": {
+    "en": "Who was the first Chief Minister of Assam after independence?",
+    "as": "স্বাধীনতাৰ পিছত অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?"
+   },
+   "options": [
+    { "en": "Bishnuram Medhi", "as": "বিষ্ণুৰাম মেধি" },
+    { "en": "Gopinath Bordoloi", "as": "গোপীনাথ বৰদলৈ" },
+    { "en": "Sarat Chandra Sinha", "as": "সৰৎ চন্দ্ৰ সিংহ" },
+    { "en": "Bimala Prasad Chaliha", "as": "বিমলা প্ৰসাদ চলিহা" }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "Gopinath Bordoloi became the first Chief Minister of Assam after independence and was later awarded the Bharat Ratna.",
+    "as": "গোপীনাথ বৰদলৈ স্বাধীনতাৰ পিছত অসমৰ প্ৰথম মুখ্যমন্ত্ৰী হৈছিল আৰু পিছত তেওঁক ভাৰতৰত্ন প্ৰদান কৰা হয়।"
+   }
+  }
+ ],
+ "indian-history-ancient": [
+  {
+   "id": "indian-history-ancient-001",
+   "q": {
+    "en": "The Harappan Civilisation is also known by which other name?",
+    "as": "হাৰাপ্পা সভ্যতাক আন কোন নামেৰে জনা যায়?"
+   },
+   "options": [
+    { "en": "Indus Valley Civilisation", "as": "সিন্ধু উপত্যকা সভ্যতা" },
+    { "en": "Vedic Civilisation", "as": "বৈদিক সভ্যতা" },
+    { "en": "Mauryan Civilisation", "as": "মৌৰ্য সভ্যতা" },
+    { "en": "Gupta Civilisation", "as": "গুপ্ত সভ্যতা" }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Harappan Civilisation is also called the Indus Valley Civilisation because its settlements grew along the Indus and its tributaries.",
+    "as": "হাৰাপ্পা সভ্যতাক সিন্ধু উপত্যকা সভ্যতাও কোৱা হয়, কাৰণ ইয়াৰ জনবসতিবোৰ সিন্ধু নদী আৰু ইয়াৰ উপনৈৰ কাষত গঢ়ি উঠিছিল।"
+   }
+  }
+ ],
+ "indian-history-medieval": [
+  {
+   "id": "indian-history-medieval-001",
+   "q": {
+    "en": "Who founded the Mughal Empire in India?",
+    "as": "ভাৰতত মোগল সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+   },
+   "options": [
+    { "en": "Akbar", "as": "আকবৰ" },
+    { "en": "Sher Shah Suri", "as": "শেৰ শাহ চুৰী" },
+    { "en": "Babur", "as": "বাবৰ" },
+    { "en": "Aurangzeb", "as": "আওৰংজেৱ" }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Babur founded the Mughal Empire in India after his victory at the First Battle of Panipat in 1526.",
+    "as": "১৫২৬ চনত পানীপতৰ প্ৰথম যুদ্ধত জয়লাভৰ পিছত বাবৰে ভাৰতত মোগল সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।"
+   }
+  }
+ ],
+ "indian-history-modern": [
+  {
+   "id": "indian-history-modern-001",
+   "q": {
+    "en": "In which year was the Battle of Plassey fought?",
+    "as": "পলাশীৰ যুদ্ধ কোন বছৰত হৈছিল?"
+   },
+   "options": [
+    { "en": "1757", "as": "১৭৫৭" },
+    { "en": "1764", "as": "১৭৬৪" },
+    { "en": "1857", "as": "১৮৫৭" },
+    { "en": "1947", "as": "১৯৪৭" }
+   ],
+   "correct": 0,
+   "explanation": {
+    "en": "The Battle of Plassey was fought in 1757, and Robert Clive's victory laid the foundation of British rule in Bengal.",
+    "as": "পলাশীৰ যুদ্ধ ১৭৫৭ চনত হৈছিল, আৰু ৰবাৰ্ট ক্লাইভৰ জয়লাভে বংগত ব্ৰিটিছ শাসনৰ ভেটি স্থাপন কৰিছিল।"
+   }
+  }
+ ],
+ "world-history": [
+  {
+   "id": "world-history-001",
+   "q": {
+    "en": "In which year did the First World War begin?",
+    "as": "প্ৰথম বিশ্বযুদ্ধ কোন বছৰত আৰম্ভ হৈছিল?"
+   },
+   "options": [
+    { "en": "1912", "as": "১৯১২" },
+    { "en": "1914", "as": "১৯১৪" },
+    { "en": "1918", "as": "১৯১৮" },
+    { "en": "1939", "as": "১৯৩৯" }
+   ],
+   "correct": 1,
+   "explanation": {
+    "en": "The First World War began in 1914 and ended in 1918.",
+    "as": "প্ৰথম বিশ্বযুদ্ধ ১৯১৪ চনত আৰম্ভ হৈ ১৯১৮ চনত শেষ হৈছিল।"
+   }
+  }
+ ],
  "ahom-koch-kingdoms": [
   {
    "id": "ahom-koch-kingdoms-001",

@@ -162,6 +162,19 @@ book. Question *text*, however, must not repeat across books: check the other
 book's question text before adding entries, or the two books will look like
 one padded bank.
 
+### Grade III History section
+
+The Grade III book keeps its history questions in a dedicated `history`
+section (id `history`) that sits directly after `elementary-mathematics`. It
+has three sub-categories: `assam-history` and `indian-history`, each with
+`…-ancient`, `…-medieval` and `…-modern` leaves, and a flat `world-history`
+leaf with no children. Because history now lives only here, the duplicate
+history topics were removed from the other sections: the GK section's
+`assam-history-culture` group keeps only `assam-folk-culture` and
+`assamese-literature` (it is titled "Assam's Culture & Literature"), and
+Social Studies no longer carries `indian-history`. Do not re-add a history
+topic to another section or the book will show two copies of it.
+
 ### Grade III study-notes articles
 
 `tools/adre-grade-3.notes.js` holds the crawler-facing study article for every

@@ -709,7 +709,7 @@ ${articleFor("as")}
     const examEn = lang(EXAM.title, "en");
     const examAs = lang(EXAM.title, "as");
     const href = `${examPath}/`;
-    const label = `${examEn} — Syllabus, Mathematics, English, Reasoning, Assam History-Geography-Culture, GK & Current Affairs`;
+    const label = `${examEn} — Syllabus, Mathematics, History, English, Reasoning, Assam GK & Current Affairs`;
     const qaSecs = EXAM.sections.filter((s) => s.type !== "syllabus");
     const total = leaves.reduce((a, l) => a + (QUESTIONS[l.leaf.id] || []).length, 0);
     let touched = false;

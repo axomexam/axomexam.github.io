@@ -73,6 +73,13 @@ data/exams/adre-grade-3/
 | General Mathematics | Trigonometry | `elementary-mathematics/trigonometry` |
 | General Mathematics | Statistics | `elementary-mathematics/statistics` |
 | General Mathematics | Data Interpretation | `elementary-mathematics/data-interpretation` |
+| History | Assam History → Ancient Assam | `history/assam-history/assam-history-ancient` |
+| History | Assam History → Medieval Assam | `history/assam-history/assam-history-medieval` |
+| History | Assam History → Modern Assam | `history/assam-history/assam-history-modern` |
+| History | Indian History → Ancient India | `history/indian-history/indian-history-ancient` |
+| History | Indian History → Medieval India | `history/indian-history/indian-history-medieval` |
+| History | Indian History → Modern India | `history/indian-history/indian-history-modern` |
+| History | World History | `history/world-history` |
 | General English | Grammar → Parts of Speech | `general-english/grammar/parts-of-speech` |
 | General English | Grammar → Articles | `general-english/grammar/articles-determiners` |
 | General English | Grammar → Prepositions | `general-english/grammar/prepositions` |
@@ -86,12 +93,8 @@ data/exams/adre-grade-3/
 | General English | Vocabulary → Spotting Errors | `general-english/vocabulary/error-detection` |
 | General English | Vocabulary → Fill in the Blanks | `general-english/vocabulary/fill-in-the-blanks` |
 | General English | Vocabulary → Sentence Rearrangement | `general-english/vocabulary/sentence-rearrangement` |
-| General Knowledge & Assam GK | Assam's History & Culture → Ancient Assam | `general-knowledge-assam-gk/assam-history-culture/ancient-assam` |
-| General Knowledge & Assam GK | Assam's History & Culture → Ahom Era & Koch Kingdom | `general-knowledge-assam-gk/assam-history-culture/ahom-koch-kingdoms` |
-| General Knowledge & Assam GK | Assam's History & Culture → Yandabo Treaty & British Rule | `general-knowledge-assam-gk/assam-history-culture/yandabo-british-rule` |
-| General Knowledge & Assam GK | Assam's History & Culture → Assam in the Freedom Struggle | `general-knowledge-assam-gk/assam-history-culture/assam-freedom-struggle` |
-| General Knowledge & Assam GK | Assam's History & Culture → Folk Culture, Bihu & Satriya | `general-knowledge-assam-gk/assam-history-culture/assam-folk-culture` |
-| General Knowledge & Assam GK | Assam's History & Culture → Assamese Literature | `general-knowledge-assam-gk/assam-history-culture/assamese-literature` |
+| General Knowledge & Assam GK | Assam's Culture & Literature → Folk Culture, Bihu & Satriya | `general-knowledge-assam-gk/assam-history-culture/assam-folk-culture` |
+| General Knowledge & Assam GK | Assam's Culture & Literature → Assamese Literature | `general-knowledge-assam-gk/assam-history-culture/assamese-literature` |
 | General Knowledge & Assam GK | Assam's Geography → Brahmaputra & Barak Rivers | `general-knowledge-assam-gk/assam-geography/brahmaputra-barak` |
 | General Knowledge & Assam GK | Assam's Geography → National Parks & Sanctuaries | `general-knowledge-assam-gk/assam-geography/assam-national-parks` |
 | General Knowledge & Assam GK | Assam's Geography → Natural Resources | `general-knowledge-assam-gk/assam-geography/assam-natural-resources` |
@@ -140,7 +143,6 @@ data/exams/adre-grade-3/
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Figure Matrix | `logical-reasoning/non-verbal-reasoning/figure-matrix` |
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Rule Detection | `logical-reasoning/non-verbal-reasoning/rule-detection` |
 | Reasoning & Mental Ability | Non-Verbal Reasoning → Shape Construction & Grouping | `logical-reasoning/non-verbal-reasoning/shape-construction-grouping` |
-| Social Studies | Indian History | `social-studies/indian-history` |
 | Social Studies | Political Science & Constitution → Constitution, Preamble, Rights & Duties | `social-studies/polity-constitution/constitution-preamble-rights` |
 | Social Studies | Political Science & Constitution → President, PM, Governor & CM | `social-studies/polity-constitution/president-pm-governor-cm` |
 | Social Studies | Political Science & Constitution → Panchayati Raj System | `social-studies/polity-constitution/panchayati-raj` |

@@ -969,6 +969,111 @@ module.exports = {
       a: { en: "The numbers on the opposite faces of a standard die always add up to seven.", as: "সাধাৰণ পাশাৰ বিপৰীত পৃষ্ঠৰ সংখ্যাৰ যোগফল সদায় সাত।" } }
   ]
 },
+"assam-history-ancient": {
+  h2: { en: "Ancient Assam", as: "প্ৰাচীন অসম" },
+  p: {
+    en: ["Ancient Assam appears in the epics and the Puranas under two names: Pragjyotisha, the 'city of eastern astrology', and Kamarupa, the kingdom that grew around it. Tradition places the earliest rulers in the mythological Naraka (Bhauma) dynasty, whose founder Narakasura is said to have been killed by Krishna and whose son Bhagadatta fought for the Kauravas in the Mahabharata war.", "The first fully historical ruling family is the Varman dynasty. Its greatest king, Bhaskarvarman, was a contemporary of Harshavardhana, and the Chinese pilgrim Hiuen Tsang visited Kamarupa during his reign. After the Varmans came the Salastambha (Mlechchha) dynasty and then the Pala dynasty, whose last king was overthrown in the twelfth century. The Nidhanpur copper-plate inscription is the most famous record of the period."],
+    as: ["প্ৰাচীন অসম মহাকাব্য আৰু পুৰাণত দুটা নামেৰে পোৱা যায়: প্ৰাগজ্যোতিষ, অৰ্থাৎ 'পূৱৰ জ্যোতিষ নগৰী', আৰু কামৰূপ, ইয়াৰ আশে-পাশে গঢ়ি উঠা ৰাজ্য। পৰম্পৰাই আটাইতকৈ প্ৰাচীন শাসকসকলক পৌৰাণিক নাৰক (ভৌম) বংশত ৰাখে, যাৰ প্ৰতিষ্ঠাপক নৰকাসুৰক কৃষ্ণই বধ কৰিছিল বুলি কোৱা হয় আৰু যাৰ পুত্ৰ ভগদত্তই মহাভাৰত যুদ্ধত কৌৰৱৰ হৈ যুঁজিছিল।", "ঐতিহাসিকভাৱে প্ৰমাণিত প্ৰথম ৰাজবংশ হৈছে বৰ্মন বংশ। ইয়াৰ শ্ৰেষ্ঠ ৰজা ভাস্কৰ বৰ্মন হৰ্ষবৰ্ধনৰ সমসাময়িক আছিল, আৰু তেওঁৰ ৰাজত্বকালত চীনা পৰ্যটক হিউৱেন ছাঙে কামৰূপ ভ্ৰমণ কৰিছিল। বৰ্মনৰ পিছত শালস্তম্ভ (ম্লেচ্ছ) বংশ আৰু তাৰ পিছত পাল বংশ আহিছিল, যাৰ শেষ ৰজাক দ্বাদশ শতিকাত উৎখাত কৰা হৈছিল। নিধনপুৰ তাম্ৰলিপি এই কালৰ আটাইতকৈ বিখ্যাত লিপি।"]
+  },
+  list: {
+    en: ["Pragjyotisha was the ancient name of the region; Kamarupa was the kingdom.", "The Varman dynasty was the first historical ruling family of Assam.", "Bhaskarvarman was a contemporary of Harshavardhana.", "Hiuen Tsang visited Kamarupa during Bhaskarvarman's reign.", "The Salastambha and Pala dynasties followed the Varmans.", "The Nidhanpur copper plate is a famous Varman-era record."],
+    as: ["প্ৰাগজ্যোতিষ আছিল অঞ্চলটোৰ প্ৰাচীন নাম; কামৰূপ আছিল ৰাজ্য।", "বৰ্মন বংশ আছিল অসমৰ প্ৰথম ঐতিহাসিক শাসক পৰিয়াল।", "ভাস্কৰ বৰ্মন হৰ্ষবৰ্ধনৰ সমসাময়িক আছিল।", "ভাস্কৰ বৰ্মনৰ ৰাজত্বকালত হিউৱেন ছাঙে কামৰূপ ভ্ৰমণ কৰিছিল।", "বৰ্মনৰ পিছত শালস্তম্ভ আৰু পাল বংশ আহিছিল।", "নিধনপুৰ তাম্ৰলিপি বৰ্মন যুগৰ বিখ্যাত লিপি।"]
+  },
+  faqs: [
+    { q: { en: "Which was the first historical dynasty of ancient Assam?", as: "প্ৰাচীন অসমৰ প্ৰথম ঐতিহাসিক ৰাজবংশ কোন আছিল?" },
+      a: { en: "The Varman dynasty was the first fully historical ruling family of ancient Assam; the earlier Naraka (Bhauma) rulers belong to tradition and the epics.", as: "বৰ্মন বংশ আছিল প্ৰাচীন অসমৰ প্ৰথম সম্পূৰ্ণ ঐতিহাসিক শাসক পৰিয়াল; ইয়াৰ আগৰ নাৰক (ভৌম) শাসকসকল পৰম্পৰা আৰু মহাকাব্যৰ।" } }
+  ]
+},
+"assam-history-medieval": {
+  h2: { en: "Medieval Assam", as: "মধ্যযুগীয় অসম" },
+  p: {
+    en: ["The medieval period of Assam begins with the arrival of the Ahoms, who entered the Brahmaputra valley under Sukapha in 1228 and ruled for nearly six hundred years. Their long contest with the Mughals produced the famous Battle of Saraighat in 1671, where the Ahom general Lachit Borphukan defeated a far larger Mughal army. Alongside the Ahoms, the Koch, Chutiya, Kachari and Jaintia kingdoms shaped the political map of the region.", "The Koch kingdom rose under Viswa Singha and expanded greatly under his son Naranarayan. The medieval age also saw the Vaishnavite movement of Srimanta Sankardeva, the Moamoria rebellion and the Burmese invasions, which ended with the Treaty of Yandabo in 1826 and the beginning of British rule."],
+    as: ["অসমৰ মধ্যযুগ আৰম্ভ হয় আহোমসকলৰ আগমনৰ পৰা, যিসকলে ১২২৮ চনত চুকাফাৰ নেতৃত্বত ব্ৰহ্মপুত্ৰ উপত্যকাত প্ৰৱেশ কৰি প্ৰায় ছশ বছৰ শাসন কৰিছিল। মোগলৰ সৈতে তেওঁলোকৰ দীঘলীয়া সংঘাতৰ পৰাই ১৬৭১ চনৰ বিখ্যাত শৰাইঘাটৰ যুদ্ধ হয়, য'ত আহোম সেনাপতি লাচিত বৰফুকনে বহু ডাঙৰ মোগল সেনাক পৰাস্ত কৰিছিল। আহোমৰ লগতে কোচ, চুতীয়া, কছাৰী আৰু জয়ন্তীয়া ৰাজ্যই অঞ্চলটোৰ ৰাজনৈতিক মানচিত্ৰ গঢ়িছিল।", "কোচ ৰাজ্য বিশ্ব সিংহৰ অধীনত উঠি আহিছিল আৰু তেওঁৰ পুত্ৰ নৰনাৰায়ণৰ দিনত বহু বিস্তাৰ লাভ কৰিছিল। মধ্যযুগত শ্ৰীমন্ত শংকৰদেৱৰ বৈষ্ণৱ আন্দোলন, মোৱামৰীয়া বিদ্ৰোহ আৰু বৰ্মী আক্ৰমণো দেখা গৈছিল, যি ১৮২৬ চনৰ য়াণ্ডাবু সন্ধি আৰু ব্ৰিটিছ শাসনৰ আৰম্ভণিৰে শেষ হৈছিল।"]
+  },
+  list: {
+    en: ["Sukapha founded the Ahom kingdom in 1228.", "The Battle of Saraighat was fought in 1671.", "Lachit Borphukan commanded the Ahom army at Saraighat.", "Viswa Singha founded the Koch kingdom.", "The Treaty of Yandabo was signed in 1826.", "Srimanta Sankardeva led the Vaishnavite movement in Assam."],
+    as: ["চুকাফাই ১২২৮ চনত আহোম ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।", "শৰাইঘাটৰ যুদ্ধ ১৬৭১ চনত হৈছিল।", "শৰাইঘাটত লাচিত বৰফুকনে আহোম সেনাৰ নেতৃত্ব দিছিল।", "বিশ্ব সিংহই কোচ ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।", "য়াণ্ডাবু সন্ধি ১৮২৬ চনত স্বাক্ষৰিত হৈছিল।", "শ্ৰীমন্ত শংকৰদেৱে অসমত বৈষ্ণৱ আন্দোলনৰ নেতৃত্ব দিছিল।"]
+  },
+  faqs: [
+    { q: { en: "Which battle is regarded as the greatest Ahom victory over the Mughals?", as: "মোগলৰ ওপৰত আহোমৰ আটাইতকৈ ডাঙৰ জয় বুলি কোন যুদ্ধক গণ্য কৰা হয়?" },
+      a: { en: "The Battle of Saraighat in 1671, led by Lachit Borphukan, is regarded as the greatest Ahom victory over the Mughals.", as: "১৬৭১ চনৰ শৰাইঘাটৰ যুদ্ধ, লাচিত বৰফুকনৰ নেতৃত্বত, মোগলৰ ওপৰত আহোমৰ আটাইতকৈ ডাঙৰ জয় বুলি গণ্য কৰা হয়।" } }
+  ]
+},
+"assam-history-modern": {
+  h2: { en: "Modern Assam", as: "আধুনিক অসম" },
+  p: {
+    en: ["Modern Assam begins with British annexation after the Treaty of Yandabo in 1826. The British introduced large-scale tea cultivation, and the province was first attached to Bengal and later made a separate Chief Commissioner's province in 1874. The growth of English education produced a new middle class and, with it, early political organisations such as the Assam Association.", "Assam took an active part in the freedom struggle. Maniram Dewan was hanged in 1858 for his role in the revolt, and Kanaklata Barua was shot dead in 1942 while leading the Quit India procession at Gohpur. After independence Gopinath Bordoloi became the first Chief Minister, and later decades saw the Assam Movement and the Assam Accord of 1985."],
+    as: ["আধুনিক অসম আৰম্ভ হয় ১৮২৬ চনৰ য়াণ্ডাবু সন্ধিৰ পিছত ব্ৰিটিছ দখলৰ পৰা। ব্ৰিটিছে বৃহৎ পৰিমাণে চাহ খেতি আৰম্ভ কৰিছিল, আৰু প্ৰদেশখন প্ৰথমে বংগৰ লগত সংযুক্ত আছিল আৰু পিছত ১৮৭৪ চনত সুকীয়া মুখ্য আয়ুক্তৰ প্ৰদেশ হৈছিল। ইংৰাজী শিক্ষাৰ প্ৰসাৰে এটা নতুন মধ্যবিত্ত শ্ৰেণী আৰু তাৰ লগে লগে অসম এছ'চিয়েচনৰ দৰে প্ৰাৰম্ভিক ৰাজনৈতিক সংগঠন সৃষ্টি কৰিছিল।", "স্বাধীনতা সংগ্ৰামত অসমে সক্ৰিয়ভাৱে অংশ লৈছিল। বিদ্ৰোহত অংশ লোৱাৰ বাবে ১৮৫৮ চনত মণিৰাম দেৱানক ফাঁচি দিয়া হৈছিল, আৰু ১৯৪২ চনত গহপুৰত ভাৰত ছাড়ো আন্দোলনৰ শোভাযাত্ৰাৰ নেতৃত্ব দি থকা অৱস্থাত কনকলতা বৰুৱাক গুলিয়াই হত্যা কৰা হৈছিল। স্বাধীনতাৰ পিছত গোপীনাথ বৰদলৈ প্ৰথম মুখ্যমন্ত্ৰী হৈছিল, আৰু পিছৰ দশকত অসম আন্দোলন আৰু ১৯৮৫ চনৰ অসম চুক্তি দেখা গৈছিল।"]
+  },
+  list: {
+    en: ["British rule in Assam began after the Treaty of Yandabo in 1826.", "Maniram Dewan was hanged in 1858.", "Kanaklata Barua was martyred during the Quit India Movement.", "The Assam Association was an early political organisation of the province.", "Gopinath Bordoloi was the first Chief Minister of Assam.", "The Assam Accord was signed in 1985."],
+    as: ["১৮২৬ চনৰ য়াণ্ডাবু সন্ধিৰ পিছত অসমত ব্ৰিটিছ শাসন আৰম্ভ হৈছিল।", "মণিৰাম দেৱানক ১৮৫৮ চনত ফাঁচি দিয়া হৈছিল।", "ভাৰত ছাড়ো আন্দোলনত কনকলতা বৰুৱা শ্বহীদ হৈছিল।", "অসম এছ'চিয়েচন প্ৰদেশখনৰ এটা প্ৰাৰম্ভিক ৰাজনৈতিক সংগঠন আছিল।", "গোপীনাথ বৰদলৈ অসমৰ প্ৰথম মুখ্যমন্ত্ৰী আছিল।", "অসম চুক্তি ১৯৮৫ চনত স্বাক্ষৰিত হৈছিল।"]
+  },
+  faqs: [
+    { q: { en: "When did British rule begin in Assam?", as: "অসমত ব্ৰিটিছ শাসন কেতিয়া আৰম্ভ হৈছিল?" },
+      a: { en: "British rule in Assam began after the Treaty of Yandabo in 1826, and the province was made a separate Chief Commissioner's province in 1874.", as: "অসমত ব্ৰিটিছ শাসন ১৮২৬ চনৰ য়াণ্ডাবু সন্ধিৰ পিছত আৰম্ভ হৈছিল, আৰু প্ৰদেশখন ১৮৭৪ চনত সুকীয়া মুখ্য আয়ুক্তৰ প্ৰদেশ কৰা হৈছিল।" } }
+  ]
+},
+"indian-history-ancient": {
+  h2: { en: "Ancient India", as: "প্ৰাচীন ভাৰত" },
+  p: {
+    en: ["Ancient Indian history begins with the Indus Valley (Harappan) Civilisation, famous for its planned cities, drainage and seals. It is followed by the Vedic age, which gave the region the Vedas, the early social order and the Sanskrit language. The sixth century BCE saw the rise of the mahajanapadas and of Buddhism and Jainism.", "The first great empire of India was the Mauryan empire, founded by Chandragupta Maurya and carried to its height by Ashoka, whose edicts spread the message of dhamma. After a period of fragmentation the Gupta empire brought a golden age of art, science and literature, with Kalidasa, Aryabhata and the Ajanta paintings belonging to this era."],
+    as: ["প্ৰাচীন ভাৰতৰ ইতিহাস আৰম্ভ হয় সিন্ধু উপত্যকা (হাৰাপ্পা) সভ্যতাৰ পৰা, যি ইয়াৰ পৰিকল্পিত নগৰ, নিষ্কাশন ব্যৱস্থা আৰু মোহৰৰ বাবে বিখ্যাত। ইয়াৰ পিছত বৈদিক যুগ আহে, যিয়ে এই অঞ্চলক বেদ, প্ৰাৰম্ভিক সামাজিক ব্যৱস্থা আৰু সংস্কৃত ভাষা দিছিল। খ্ৰীষ্টপূৰ্ব ষষ্ঠ শতিকাত মহাজনপদ আৰু বৌদ্ধ আৰু জৈন ধৰ্মৰ উত্থান ঘটিছিল।", "ভাৰতৰ প্ৰথম বৃহৎ সাম্ৰাজ্য আছিল মৌৰ্য সাম্ৰাজ্য, যাৰ প্ৰতিষ্ঠাপক চন্দ্ৰগুপ্ত মৌৰ্য আৰু যাক অশোকে শিখৰলৈ লৈ গৈছিল; তেওঁৰ শিলালিপিয়ে ধম্মৰ বাণী প্ৰচাৰ কৰিছিল। কিছু সময়ৰ বিভাজনৰ পিছত গুপ্ত সাম্ৰাজ্যই কলা, বিজ্ঞান আৰু সাহিত্যৰ এটা স্বৰ্ণযুগ আনি দিছিল, য'ত কালিদাস, আৰ্যভট্ট আৰু অজন্তাৰ চিত্ৰ এই কালৰ।"]
+  },
+  list: {
+    en: ["The Harappan Civilisation is also called the Indus Valley Civilisation.", "The Vedic age gave India the Vedas and Sanskrit literature.", "Chandragupta Maurya founded the Mauryan empire.", "Ashoka's edicts spread the message of dhamma.", "The Gupta period is called the golden age of India."],
+    as: ["হাৰাপ্পা সভ্যতাক সিন্ধু উপত্যকা সভ্যতাও কোৱা হয়।", "বৈদিক যুগে ভাৰতক বেদ আৰু সংস্কৃত সাহিত্য দিছিল।", "চন্দ্ৰগুপ্ত মৌৰ্যই মৌৰ্য সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।", "অশোকৰ শিলালিপিয়ে ধম্মৰ বাণী প্ৰচাৰ কৰিছিল।", "গুপ্ত কালক ভাৰতৰ স্বৰ্ণযুগ বোলা হয়।"]
+  },
+  faqs: [
+    { q: { en: "Which period of ancient India is called the golden age?", as: "প্ৰাচীন ভাৰতৰ কোন কালক স্বৰ্ণযুগ বোলা হয়?" },
+      a: { en: "The Gupta period is called the golden age of ancient India because of its achievements in art, science and literature.", as: "কলা, বিজ্ঞান আৰু সাহিত্যৰ কৃতিত্বৰ বাবে গুপ্ত কালক প্ৰাচীন ভাৰতৰ স্বৰ্ণযুগ বোলা হয়।" } }
+  ]
+},
+"indian-history-medieval": {
+  h2: { en: "Medieval India", as: "মধ্যযুগীয় ভাৰত" },
+  p: {
+    en: ["Medieval India begins with the Delhi Sultanate, a succession of dynasties — the Slave, Khilji, Tughlaq, Sayyid and Lodi — that ruled from Delhi between the thirteenth and the sixteenth centuries. In the south, the Vijayanagara empire was a great centre of art and trade during the same period.", "The Mughal empire was founded by Babur after the First Battle of Panipat in 1526 and reached its height under Akbar, who followed a policy of religious tolerance. After Aurangzeb the empire declined, and the rise of the Marathas under Shivaji and the arrival of European trading companies prepared the ground for the modern period."],
+    as: ["মধ্যযুগীয় ভাৰত আৰম্ভ হয় দিল্লী সুলতানীৰ পৰা, যি ক্ৰমে দাস, খিলজী, তুঘলক, চৈয়দ আৰু লোদী বংশৰ দ্বাৰা তেৰৰ পৰা ষোড়শ শতিকালৈ দিল্লীৰ পৰা শাসন কৰিছিল। দক্ষিণত, একে সময়তে বিজয়নগৰ সাম্ৰাজ্য কলা আৰু বাণিজ্যৰ এটা ডাঙৰ কেন্দ্ৰ আছিল।", "মোগল সাম্ৰাজ্য ১৫২৬ চনত পানীপতৰ প্ৰথম যুদ্ধৰ পিছত বাবৰে প্ৰতিষ্ঠা কৰিছিল আৰু আকবৰৰ দিনত শিখৰত উপনীত হৈছিল, যি ধৰ্ম সহিষ্ণুতাৰ নীতি অনুসৰণ কৰিছিল। আওৰংজেৱৰ পিছত সাম্ৰাজ্যৰ অৱনতি ঘটিছিল, আৰু শিৱাজীৰ নেতৃত্বত মাৰাঠাসকলৰ উত্থান আৰু ইউৰোপীয় বাণিজ্য কোম্পানীৰ আগমনে আধুনিক কালৰ ভেটি প্ৰস্তুত কৰিছিল।"]
+  },
+  list: {
+    en: ["The Delhi Sultanate ruled from the thirteenth to the sixteenth century.", "The Vijayanagara empire was a great southern kingdom.", "Babur founded the Mughal empire in 1526.", "Akbar followed a policy of religious tolerance.", "Shivaji founded the Maratha power."],
+    as: ["দিল্লী সুলতানীয়ে তেৰৰ পৰা ষোড়শ শতিকালৈ শাসন কৰিছিল।", "বিজয়নগৰ সাম্ৰাজ্য এটা ডাঙৰ দক্ষিণৰ ৰাজ্য আছিল।", "বাবৰে ১৫২৬ চনত মোগল সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।", "আকবৰে ধৰ্ম সহিষ্ণুতাৰ নীতি অনুসৰণ কৰিছিল।", "শিৱাজীয়ে মাৰাঠা শক্তি প্ৰতিষ্ঠা কৰিছিল।"]
+  },
+  faqs: [
+    { q: { en: "Who founded the Mughal empire in India and when?", as: "ভাৰতত মোগল সাম্ৰাজ্য কোনে আৰু কেতিয়া প্ৰতিষ্ঠা কৰিছিল?" },
+      a: { en: "Babur founded the Mughal empire in India in 1526 after winning the First Battle of Panipat.", as: "বাবৰে ১৫২৬ চনত পানীপতৰ প্ৰথম যুদ্ধত জয়লাভ কৰি ভাৰতত মোগল সাম্ৰাজ্য প্ৰতিষ্ঠা কৰিছিল।" } }
+  ]
+},
+"indian-history-modern": {
+  h2: { en: "Modern India", as: "আধুনিক ভাৰত" },
+  p: {
+    en: ["Modern Indian history begins with the coming of the European trading companies and the growth of British power. The Battle of Plassey in 1757 gave the East India Company control of Bengal, and by the middle of the nineteenth century almost the whole subcontinent was under British rule. The Revolt of 1857 was the first major challenge to that rule.", "The Indian National Congress was founded in 1885 and became the main platform of the freedom movement. Under Mahatma Gandhi the Non-Cooperation Movement, the Civil Disobedience Movement and the Quit India Movement of 1942 followed one after another. India became independent on 15 August 1947."],
+    as: ["আধুনিক ভাৰতৰ ইতিহাস আৰম্ভ হয় ইউৰোপীয় বাণিজ্য কোম্পানীৰ আগমন আৰু ব্ৰিটিছ শক্তিৰ বৃদ্ধিৰ পৰা। ১৭৫৭ চনৰ পলাশীৰ যুদ্ধই ইষ্ট ইণ্ডিয়া কোম্পানীক বংগৰ নিয়ন্ত্ৰণ দিছিল, আৰু ঊনবিংশ শতিকাৰ মাজলৈকে প্ৰায় গোটেই উপমহাদেশ ব্ৰিটিছ শাসনৰ অধীনত আছিল। ১৮৫৭ চনৰ বিদ্ৰোহ সেই শাসনৰ প্ৰথম প্ৰধান প্ৰত্যাহ্বান আছিল।", "ভাৰতীয় জাতীয় কংগ্ৰেছ ১৮৮৫ চনত প্ৰতিষ্ঠা হৈছিল আৰু স্বাধীনতা আন্দোলনৰ প্ৰধান মঞ্চ হৈ পৰিছিল। মহাত্মা গান্ধীৰ নেতৃত্বত অসহযোগ আন্দোলন, আইন অমান্য আন্দোলন আৰু ১৯৪২ চনৰ ভাৰত ছাড়ো আন্দোলন ক্ৰমে সংঘটিত হৈছিল। ভাৰত ১৯৪৭ চনৰ ১৫ আগষ্টত স্বাধীন হৈছিল।"]
+  },
+  list: {
+    en: ["The Battle of Plassey was fought in 1757.", "The Revolt of 1857 was the first major uprising.", "The Indian National Congress was founded in 1885.", "Mahatma Gandhi led the Non-Cooperation and Civil Disobedience movements.", "The Quit India Movement was launched in 1942.", "India became independent on 15 August 1947."],
+    as: ["পলাশীৰ যুদ্ধ ১৭৫৭ চনত হৈছিল।", "১৮৫৭ চনৰ বিদ্ৰোহ প্ৰথম প্ৰধান বিদ্ৰোহ আছিল।", "ভাৰতীয় জাতীয় কংগ্ৰেছ ১৮৮৫ চনত প্ৰতিষ্ঠা হৈছিল।", "মহাত্মা গান্ধীয়ে অসহযোগ আৰু আইন অমান্য আন্দোলনৰ নেতৃত্ব দিছিল।", "ভাৰত ছাড়ো আন্দোলন ১৯৪২ চনত আৰম্ভ হৈছিল।", "ভাৰত ১৯৪৭ চনৰ ১৫ আগষ্টত স্বাধীন হৈছিল।"]
+  },
+  faqs: [
+    { q: { en: "Which event is seen as the start of British political power in India?", as: "ভাৰতত ব্ৰিটিছ ৰাজনৈতিক শক্তিৰ আৰম্ভণি বুলি কোন ঘটনাক গণ্য কৰা হয়?" },
+      a: { en: "The Battle of Plassey in 1757 is seen as the beginning of British political power in India, as it gave the East India Company control of Bengal.", as: "১৭৫৭ চনৰ পলাশীৰ যুদ্ধক ভাৰতত ব্ৰিটিছ ৰাজনৈতিক শক্তিৰ আৰম্ভণি বুলি গণ্য কৰা হয়, কাৰণ ই ইষ্ট ইণ্ডিয়া কোম্পানীক বংগৰ নিয়ন্ত্ৰণ দিছিল।" } }
+  ]
+},
+"world-history": {
+  h2: { en: "World History", as: "বিশ্বৰ ইতিহাস" },
+  p: {
+    en: ["World history in competitive examinations usually concentrates on a few turning points. The American Revolution of 1776 and the French Revolution of 1789 ended the old idea of the divine right of kings and spread the ideals of liberty and equality. The Industrial Revolution, which began in Britain in the eighteenth century, changed production, transport and society across the world.", "The two World Wars dominate the modern period. The First World War was fought from 1914 to 1918, and the Second World War from 1939 to 1945. The Second World War ended with the founding of the United Nations in 1945, and the Russian Revolution of 1917 gave the world its first socialist state."],
+    as: ["প্ৰতিযোগিতামূলক পৰীক্ষাত বিশ্বৰ ইতিহাস সাধাৰণতে কেইটামান নিৰ্ণায়ক মোড়ৰ ওপৰত কেন্দ্ৰিত। ১৭৭৬ চনৰ আমেৰিকান বিপ্লৱ আৰু ১৭৮৯ চনৰ ফৰাচী বিপ্লৱে ৰজাৰ ঐশ্বৰিক অধিকাৰৰ পুৰণি ধাৰণাৰ অন্ত পেলাইছিল আৰু স্বাধীনতা আৰু সমতাৰ আদৰ্শ বিয়পাইছিল। অষ্টাদশ শতিকাত ব্ৰিটেইনত আৰম্ভ হোৱা শিল্প বিপ্লৱে সমগ্ৰ বিশ্বতে উৎপাদন, পৰিবহণ আৰু সমাজ সলনি কৰিছিল।", "আধুনিক কালত দুখন বিশ্বযুদ্ধে প্ৰাধান্য লাভ কৰিছে। প্ৰথম বিশ্বযুদ্ধ ১৯১৪ ৰ পৰা ১৯১৮ লৈ আৰু দ্বিতীয় বিশ্বযুদ্ধ ১৯৩৯ ৰ পৰা ১৯৪৫ লৈ চলিছিল। দ্বিতীয় বিশ্বযুদ্ধ ১৯৪৫ চনত ৰাষ্ট্ৰসংঘৰ প্ৰতিষ্ঠাৰে শেষ হৈছিল, আৰু ১৯১৭ চনৰ ৰাছিয়ান বিপ্লৱে বিশ্বক প্ৰথম সমাজবাদী ৰাষ্ট্ৰ দিছিল।"]
+  },
+  list: {
+    en: ["The American Revolution took place in 1776.", "The French Revolution began in 1789.", "The First World War was fought from 1914 to 1918.", "The Second World War was fought from 1939 to 1945.", "The United Nations was founded in 1945.", "The Russian Revolution took place in 1917."],
+    as: ["আমেৰিকান বিপ্লৱ ১৭৭৬ চনত সংঘটিত হৈছিল।", "ফৰাচী বিপ্লৱ ১৭৮৯ চনত আৰম্ভ হৈছিল।", "প্ৰথম বিশ্বযুদ্ধ ১৯১৪ ৰ পৰা ১৯১৮ লৈ চলিছিল।", "দ্বিতীয় বিশ্বযুদ্ধ ১৯৩৯ ৰ পৰা ১৯৪৫ লৈ চলিছিল।", "ৰাষ্ট্ৰসংঘ ১৯৪৫ চনত প্ৰতিষ্ঠা হৈছিল।", "ৰাছিয়ান বিপ্লৱ ১৯১৭ চনত সংঘটিত হৈছিল।"]
+  },
+  faqs: [
+    { q: { en: "In which year was the United Nations founded?", as: "ৰাষ্ট্ৰসংঘ কোন বছৰত প্ৰতিষ্ঠা হৈছিল?" },
+      a: { en: "The United Nations was founded in 1945, at the end of the Second World War.", as: "দ্বিতীয় বিশ্বযুদ্ধৰ শেষত ১৯৪৫ চনত ৰাষ্ট্ৰসংঘ প্ৰতিষ্ঠা হৈছিল।" } }
+  ]
+},
 "indian-history": {
   h2: { en: "Indian History", as: "ভাৰতৰ ইতিহাস" },
   p: {

@@ -477,6 +477,54 @@
           ]
         },
         {
+          "id": "history",
+          "type": "qa",
+          "color": "#b45309",
+          "title": { "en": "History", "as": "ইতিহাস (History)" },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": { "en": "Assam History", "as": "অসমৰ ইতিহাস (Assam History)" },
+              "subcategories": [
+                {
+                  "id": "assam-history-ancient",
+                  "title": { "en": "Ancient Assam", "as": "প্ৰাচীন অসম (Ancient Assam) — বৰ্মন, শালস্তম্ভ আৰু পাল বংশ।" }
+                },
+                {
+                  "id": "assam-history-medieval",
+                  "title": { "en": "Medieval Assam", "as": "মধ্যযুগীয় অসম (Medieval Assam) — আহোম যুগ, কোচ ৰাজ্য আৰু য়াণ্ডাবু সন্ধি।" }
+                },
+                {
+                  "id": "assam-history-modern",
+                  "title": { "en": "Modern Assam", "as": "আধুনিক অসম (Modern Assam) — ব্ৰিটিছ শাসন, স্বাধীনতা সংগ্ৰাম আৰু আধুনিক অসম।" }
+                }
+              ]
+            },
+            {
+              "id": "indian-history",
+              "title": { "en": "Indian History", "as": "ভাৰতৰ ইতিহাস (Indian History)" },
+              "subcategories": [
+                {
+                  "id": "indian-history-ancient",
+                  "title": { "en": "Ancient India", "as": "প্ৰাচীন ভাৰত (Ancient India) — সিন্ধু সভ্যতা, বৈদিক যুগ, মৌৰ্য আৰু গুপ্ত সাম্ৰাজ্য।" }
+                },
+                {
+                  "id": "indian-history-medieval",
+                  "title": { "en": "Medieval India", "as": "মধ্যযুগীয় ভাৰত (Medieval India) — দিল্লী সুলতানী, মোগল সাম্ৰাজ্য আৰু মাৰাঠা।" }
+                },
+                {
+                  "id": "indian-history-modern",
+                  "title": { "en": "Modern India", "as": "আধুনিক ভাৰত (Modern India) — ব্ৰিটিছ শাসন আৰু স্বাধীনতা আন্দোলন।" }
+                }
+              ]
+            },
+            {
+              "id": "world-history",
+              "title": { "en": "World History", "as": "বিশ্বৰ ইতিহাস (World History) — বিশ্বৰ প্ৰধান ঐতিহাসিক ঘটনাৱলী।" }
+            }
+          ]
+        },
+        {
           "id": "general-english",
           "type": "qa",
           "color": "#0d9488",
@@ -556,27 +604,8 @@
           "subcategories": [
             {
               "id": "assam-history-culture",
-              "title": { "en": "Assam's History & Culture", "as": "অসমৰ বুৰঞ্জী আৰু সংস্কৃতি" },
+              "title": { "en": "Assam's Culture & Literature", "as": "অসমৰ সংস্কৃতি আৰু সাহিত্য" },
               "subcategories": [
-                {
-                  "id": "ancient-assam",
-                  "title": { "en": "Ancient Assam", "as": "প্ৰাচীন অসম — বৰ্মন, শালস্তম্ভ আৰু পাল বংশ।" }
-                },
-                {
-                  "id": "ahom-koch-kingdoms",
-                  "title": { "en": "Ahom Era & Koch Kingdom", "as": "আহোম যুগ আৰু কোচ ৰাজ্য।" }
-                },
-                {
-                  "id": "yandabo-british-rule",
-                  "title": { "en": "Yandabo Treaty & British Rule", "as": "য়াণ্ডাবু সন্ধি আৰু ব্ৰিটিছ শাসনৰ আৰম্ভণি।" }
-                },
-                {
-                  "id": "assam-freedom-struggle",
-                  "title": {
-                    "en": "Assam in the Freedom Struggle",
-                    "as": "স্বাধীনতা সংগ্ৰামত অসমৰ ভূমিকা আৰু শ্বহীদসকল — মণিৰাম দেৱান, কনকলতা বৰুৱা, কুশল কোঁৱৰ আদি।"
-                  }
-                },
                 {
                   "id": "assam-folk-culture",
                   "title": { "en": "Folk Culture, Bihu & Satriya", "as": "অসমৰ লোক-সংস্কৃতি, বিহু, উৎসৱ-পাৰ্বণ, সত্ৰীয়া সংস্কৃতি।" }
@@ -831,10 +860,6 @@
           "color": "#d97706",
           "title": { "en": "Social Studies", "as": "সামাজিক বিজ্ঞান (Social Studies)" },
           "subcategories": [
-            {
-              "id": "indian-history",
-              "title": { "en": "Indian History", "as": "ভাৰতৰ ইতিহাস — প্ৰাচীন, মধ্যযুগ আৰু আধুনিক ভাৰতৰ স্বাধীনতা আন্দোলনৰ মূল পৰিঘটনা।" }
-            },
             {
               "id": "polity-constitution",
               "title": { "en": "Political Science & Constitution", "as": "ৰাজনীতি বিজ্ঞান আৰু সংবিধান" },
