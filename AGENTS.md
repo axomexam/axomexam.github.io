@@ -48,6 +48,31 @@ git push origin HEAD:main
 - `scripts/` and `tools/` contain one-shot content generators. Most are
   idempotent and accept `--check` to report without writing.
 
+## Theme contract — light and dark
+
+`css/style.src.css` is the only editable stylesheet; `css/style.css` is the
+minified output. Run `node scripts/minify-assets.js` then
+`node scripts/stamp-assets.js` after editing, or the committed HTML keeps
+pointing at a stale `?v=` hash.
+
+The theme is selected by `data-theme="dark"` on `<html>`, restored from
+`localStorage["axomexam-theme"]`. Every colour used in dark mode must come
+from a custom property that is **defined in both** the `:root` (light) and
+`[data-theme="dark"]` blocks. Two failure modes to watch for:
+
+- `js/app.js` emits inline styles that reference properties by name, e.g.
+  `background:var(--card-bg,#fff)`. If the property is missing from
+  `style.src.css` the `#fff` fallback wins and the surface stays white while
+  the inherited text colour is the dark theme's near-white — unreadable. Add
+  the property to both blocks rather than relying on the fallback.
+- A rule that hardcodes a light `background` with no `[data-theme="dark"]`
+  override. Unstyled `input`/`select`/`textarea` are the same problem, since
+  they fall back to the UA white fill; the global dark override covers those.
+
+Deliberately exempt: the offscreen PDF-export container
+(`#dynamic-pdf-export-container`) and `.report-card`/`.rc-challenge` inside
+the share card, which are white-on-dark by design and must not be re-tinted.
+
 ## Language model — two separate toggles
 
 There are **two** language controls and they must not be confused.
