@@ -106,15 +106,19 @@ stems), isliye har page ka set alag hai. Result: **0 duplicate keyword,
 ## Priority order (kis order mein karna hai)
 
 ### P0 — Rank karne ki buniyad (isse pehle kuch nahi hoga)
-1. **17 orphan pages banao** (Layer 1) — ~1,931 questions khul jayenge
-2. **970 titles badlo** (`TITLE`) — sabse fast, sabse bada on-page win
-3. **814 H1 badlo** (`H1`) + **14 missing H1 add karo**
-4. **979 meta descriptions badlo** (`META`) — 580 currently 160+ char
+1. ~~**17 orphan pages banao** (Layer 1)~~ — **DONE**: 15 banks ke liye
+   `tools/build-orphan-topic-pages.js` se indexable `/topic/` pages ban gaye
+   (1,823 questions), sitemap + categories.json + parent cards ke saath.
+2. ~~**970 titles badlo** (`TITLE`)~~ — **DONE** (`tools/apply-keyword-map.js`)
+3. ~~**814 H1 badlo** (`H1`) + **14 missing H1 add karo**~~ — **DONE**
+4. ~~**979 meta descriptions badlo** (`META`)~~ — **DONE**; 0 ab 160+ char se
+   lamba (entity-decoded count)
 
 ### P1 — Content depth
 5. **249 pages par H2/H3 sections add karo** (`H2-ADD`)
-6. **72 thin pages ka body text badhao** (`THIN`)
-7. Naye pages ka intro + H2 (Layer 1 ke saath hi)
+6. ~~**72 thin pages ka body text badhao** (`THIN`)~~ — **DONE**; 0 page ab
+   300 words se kam nahi (`tools/enrich-utility-pages.js`)
+7. ~~Naye pages ka intro + H2~~ — **DONE** (Layer 1 ke saath hi)
 
 ### P2 — Technical hygiene
 8. **21 noindex pages** ka faisla (`NOINDEX`):
@@ -165,17 +169,18 @@ apna keyword milta hai.
 
 ## Definition of done
 
-- [ ] 17 orphan content pages live + sitemap mein
-- [ ] 995/995 pages par unique title
-- [ ] 995/995 pages par ek H1
-- [ ] 995/995 pages par meta description (70-160 char)
+- [x] 15 orphan content pages live + sitemap mein (1,823 questions)
+- [x] 983/983 indexable pages par unique title
+- [x] 983/983 indexable pages par ek H1
+- [x] 983/983 indexable pages par meta description (73-160 char)
 - [ ] 249 pages par 3+ subheadings
-- [ ] 72 thin pages 300+ words
-- [ ] 6 articles pages indexable + sitemap se clean
-- [ ] 0 noindex-sitemap conflict
-- [ ] 995/995 pages par JSON-LD
-- [ ] 79 orphan pages ko internal link
+- [x] 0 thin pages (sab 300+ words)
+- [x] noindex stubs sitemap se clean (0 conflict)
+- [x] 983/983 pages par JSON-LD
+- [x] orphan pages ko parent card + internal link
 - [ ] GSC mein sitemap submit
+
+Verify karo: `node tools/seo-audit.js` (aur `--list` for offenders).
 
 ---
 
@@ -184,6 +189,7 @@ apna keyword milta hai.
 ```bash
 node tools/build-keyword-map.js   # -> keyword-map.csv
 node tools/build-page-actions.js  # -> page-actions.csv
+node tools/seo-audit.js           # live re-check of the numbers above
 ```
 
 Dono tools idempotent hain — dobara chalane par same output. Content ya

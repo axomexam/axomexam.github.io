@@ -29,7 +29,13 @@ const strip = (h) => h
   .replace(/<style[\s\S]*?<\/style>/gi, " ")
   .replace(/<[^>]+>/g, " ");
 
-const one = (h, re) => { const m = re.exec(h); return m ? m[1].trim() : null; };
+/* Titles and descriptions are measured as the reader (and Google) sees them,
+   so entities like &amp; count as one character, not five. */
+const unescape = (s) => String(s == null ? "" : s)
+  .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+  .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ");
+
+const one = (h, re) => { const m = re.exec(h); return m ? unescape(m[1].trim()) : null; };
 
 function walk(dir, out) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
