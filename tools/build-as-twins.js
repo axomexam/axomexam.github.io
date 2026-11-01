@@ -649,41 +649,39 @@ function assameseFirst(html) {
   return out + html.slice(pos);
 }
 
-/* Put the `data-axo-lang="as"` sibling panel before its `en` twin inside the
-   two blocks that ship both. CSS hides one of the pair, so the reader never
-   sees the swap; only the crawler reading the served HTML does. */
+/* Stable-partition the language panels of a section so the Assamese one comes
+   first. CSS hides one of the pair, so the reader never sees the swap; only the
+   crawler reading the served HTML does. The closing tag sits inside the last
+   panel, so it is split off first; otherwise reordering would strand the other
+   panel outside the section. */
+function reorderPanels(html, sectionRe, panelRe) {
+  return html.replace(sectionRe, (block) => {
+    const close = block.lastIndexOf("</section>");
+    if (close < 0) return block;
+    const body = block.slice(0, close);
+    const tail = block.slice(close);
+    const parts = body.split(panelRe);
+    if (parts.length < 3) return block;
+    const panels = parts.slice(1);
+    const asIdx = panels.findIndex((p) => /data-axo-lang="as"/.test(p));
+    const enIdx = panels.findIndex((p) => /data-axo-lang="en"/.test(p));
+    if (asIdx < 0 || enIdx < 0 || asIdx < enIdx) return block;
+    const [asP] = panels.splice(asIdx, 1);
+    panels.splice(enIdx, 0, asP);
+    return parts[0] + panels.join("") + tail;
+  });
+}
+
 function assamesePanelFirst(html) {
-  /* extra-content: <article en> then <article as> */
-  html = html.replace(
+  html = reorderPanels(
+    html,
     /(<section class="section axo-extra-content"[\s\S]*?<\/section>)/,
-    (block) => {
-      const parts = block.split(/(?=<article\b[^>]*data-axo-lang=)/);
-      if (parts.length < 3) return block;
-      const head = parts[0];
-      const panels = parts.slice(1);
-      const asIdx = panels.findIndex((p) => /data-axo-lang="as"/.test(p));
-      const enIdx = panels.findIndex((p) => /data-axo-lang="en"/.test(p));
-      if (asIdx < 0 || enIdx < 0 || asIdx < enIdx) return block;
-      const [asP] = panels.splice(asIdx, 1);
-      panels.splice(enIdx, 0, asP);
-      return head + panels.join("");
-    }
+    /(?=<article\b[^>]*data-axo-lang=)/
   );
-  /* editorial credit: <div en> then <div as> */
-  html = html.replace(
+  html = reorderPanels(
+    html,
     /(<section class="section" data-axo-editorial-credit="1"[\s\S]*?<\/section>)/,
-    (block) => {
-      const parts = block.split(/(?=<div\b[^>]*data-axo-lang=)/);
-      if (parts.length < 3) return block;
-      const head = parts[0];
-      const panels = parts.slice(1);
-      const asIdx = panels.findIndex((p) => /data-axo-lang="as"/.test(p));
-      const enIdx = panels.findIndex((p) => /data-axo-lang="en"/.test(p));
-      if (asIdx < 0 || enIdx < 0 || asIdx < enIdx) return block;
-      const [asP] = panels.splice(asIdx, 1);
-      panels.splice(enIdx, 0, asP);
-      return head + panels.join("");
-    }
+    /(?=<div\b[^>]*data-axo-lang=)/
   );
   return html;
 }
