@@ -151,6 +151,26 @@ function pageStems(html) {
   return stems;
 }
 
+/* A question stem is "Which of the following is the capital of Assam?" — the
+   n-grams that run across its grammar ("in assam", "of the following") are
+   fragments, not things anyone types into Google. Drop any phrase that starts
+   or ends on a function word, and any single-word fragment too short to be a
+   real term. */
+const FUNCTION_WORDS = new Set(("a an the and or but of for to in on at by with from as is are was were be been " +
+  "which what who whom whose where when why how this that these those it its their his her your our " +
+  "not no nor if then than so such very more most much many any all each both few other another " +
+  "into onto over under above below up down out off about after before during between among " +
+  "can could will would shall should may might must do does did done have has had " +
+  "following statement statements given correct incorrect true false above below option options").split(" "));
+
+function isRealPhrase(phrase) {
+  const w = phrase.split(" ");
+  if (w.length < 2) return false;
+  if (FUNCTION_WORDS.has(w[0]) || FUNCTION_WORDS.has(w[w.length - 1])) return false;
+  if (w.some((x) => FUNCTION_WORDS.has(x) && x.length <= 2)) return false;
+  return true;
+}
+
 function bigramsAndTrigrams(stems) {
   const counts = new Map();
   for (const s of stems) {
@@ -158,6 +178,7 @@ function bigramsAndTrigrams(stems) {
     for (let n = 2; n <= 3; n++) {
       for (let i = 0; i + n <= words.length; i++) {
         const phrase = words.slice(i, i + n).join(" ");
+        if (!isRealPhrase(phrase)) continue;
         counts.set(phrase, (counts.get(phrase) || 0) + 1);
       }
     }
@@ -310,7 +331,9 @@ function curatedPhrases(tags) {
 
 function buildRow(rel, mined, isRedirect) {
   const segs = rel.replace(/\/index\.html$/, "").split("/").filter(Boolean);
-  const section = segs[0] || "home";
+  /* The site root is the single file "index.html" (no directory), so its only
+     segment is the filename — treat it as the home section. */
+  const section = segs.length === 0 || segs[0] === "index.html" ? "home" : segs[0];
   let slug = segs[segs.length - 1] || "home";
   /* "read", "all", "list" are structural verbs, not topics — the page is
      about its parent (e.g. /category/articles/computer/read/ is Computer
@@ -440,6 +463,14 @@ function buildRow(rel, mined, isRedirect) {
     meta = `Download free ${label ? label.toLowerCase() + " " : ""}PDF notes and read the e-book online for Assam competitive exams. Bilingual, no sign-up.`;
     h1 = `${label ? label + " " : ""}PDF Notes & E-Book`;
     h2 = ["What's Inside", "How to Read", "FAQs"];
+  } else if (section === "home") {
+    /* The homepage is the one page whose primary keyword should not be its own
+       H1 sentence — nobody searches that string. Target the head terms the
+       site actually competes for. */
+    secondary = []; longtail = [];
+    primary = "assam competitive exam practice questions";
+    title = ""; meta = ""; h1 = ""; h2 = [];
+    secondary = ["adre question bank", "apsc practice questions", "assam police gk", "assam exam pdf notes"];
   } else {
     secondary = []; longtail = [];
     primary = tl; title = ""; meta = ""; h1 = ""; h2 = [];
@@ -447,14 +478,32 @@ function buildRow(rel, mined, isRedirect) {
 
   return {
     path: rel, section, topic, primary_kw: primary,
-    secondary_kw: secondary.join(", "), longtail_kw: longtail.join(", "),
+    secondary_kw: secondary.map(cleanKeyword).join(", "),
+    longtail_kw: longtail.map(cleanKeyword).join(", "),
     content_terms: mined.join(", "), suggested_title: title,
     suggested_meta: meta, suggested_h1: h1, suggested_h2: h2.join(" | "),
   };
 }
 
+/* A keyword is one phrase. Curated tags and topic titles can contain a comma
+   or a bracketed list ("Ahom Administration (Paik, Khel, Posha)"), which would
+   split the keywords meta into bogus entries. Strip the punctuation and the
+   bracketed aside, keep the phrase itself. */
+function cleanKeyword(s) {
+  return String(s)
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/[",;|]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 const rows = pages.map((rel) => buildRow(rel, topContentTerms(rel, 8), pageRedirect[rel]));
-for (const r of rows) r.indexable = pageIndexable[r.path];
+for (const r of rows) {
+  r.indexable = pageIndexable[r.path];
+  if (r.primary_kw) r.primary_kw = cleanKeyword(r.primary_kw);
+  if (r.secondary_kw) r.secondary_kw = r.secondary_kw.split(", ").map(cleanKeyword).filter(Boolean).join(", ");
+  if (r.longtail_kw) r.longtail_kw = r.longtail_kw.split(", ").map(cleanKeyword).filter(Boolean).join(", ");
+}
 
 /* utility pages keep their committed title / description / H1 */
 function curTag(html, tag) {
@@ -465,6 +514,8 @@ for (const r of rows) {
   if (r.suggested_title) continue;
   /* Redirect stubs keep their own "moved" title and get no keyword work. */
   if (pageRedirect[r.path]) continue;
+  /* The homepage has a keyword set of its own (see the home branch). */
+  if (r.section === "home") continue;
   const html = fs.readFileSync(path.join(ROOT, r.path), "utf8");
   r.suggested_title = curTag(html, "title");
   r.suggested_h1 = curTag(html, "h1");
@@ -473,6 +524,47 @@ for (const r of rows) {
   // a utility page's primary keyword comes from its own title, not the filename
   const own = r.suggested_h1 || r.suggested_title.split("|")[0];
   if (own) r.primary_kw = own.toLowerCase().replace(/[^\w\s&+-]/g, "").replace(/\s+/g, " ").trim();
+}
+
+/* Hub and label pages (exams/, mock-test/, category/, previous-year/,
+   current-affairs/, ebooks/) have no question stems of their own, so TF-IDF
+   has nothing to mine and they would carry a single keyword. Derive a few
+   natural search variants from the primary keyword instead — the phrases a
+   student would actually type ("adre grade iv mcq", "railway rrb ntpc
+   questions"). Capped so no page carries more than five. */
+const VARIANT_SECTIONS = new Set(["home", "exams", "mock-test", "category", "previous-year", "current-affairs", "ebooks", "topic"]);
+
+function deriveVariants(r) {
+  let base = r.primary_kw;
+  for (const cut of [" previous year question paper", " pdf notes", " exam question bank", " questions with answers", " questions category", " questions", " mock test", " e-book"]) {
+    if (base.endsWith(cut)) { base = base.slice(0, -cut.length); break; }
+  }
+  const out = [];
+  if (/^syllabus for /.test(base)) {
+    const who = base.replace(/^syllabus for /, "");
+    out.push(`syllabus for ${who}`, `${who} syllabus`, `${who} exam pattern`);
+  } else if (/ for /.test(base)) {
+    const left = base.replace(/ for .*$/, "");
+    const right = base.replace(/^.*? for /, "");
+    out.push(`${left} mcq`, `${left} questions for ${right}`, `${left} practice set`);
+  } else {
+    out.push(`${base} mcq`, `${base} quiz`, `${base} practice questions`);
+  }
+  return out.map((s) => s.replace(/\s+/g, " ").trim()).filter((s) => s.length >= 8 && s.length <= 60);
+}
+
+for (const r of rows) {
+  if (!r.primary_kw || !VARIANT_SECTIONS.has(r.section)) continue;
+  const cur = [r.primary_kw, ...r.secondary_kw.split(", ").filter(Boolean)];
+  const have = new Set(cur.map((s) => s.toLowerCase()));
+  const add = [];
+  for (const v of deriveVariants(r)) {
+    if (have.size >= 5) break;
+    if (have.has(v.toLowerCase())) continue;
+    add.push(v);
+    have.add(v.toLowerCase());
+  }
+  if (add.length) r.secondary_kw = [r.secondary_kw, add.join(", ")].filter(Boolean).join(", ");
 }
 
 /* fit titles <=60 and metas <=160 without cutting mid-word */

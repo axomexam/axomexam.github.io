@@ -141,7 +141,13 @@ for (const r of rows) {
     if (h) html = h;
   }
   if (r.primary_kw) {
-    const kw = [r.primary_kw, r.secondary_kw].filter(Boolean).join(", ");
+    const kws = [r.primary_kw, r.secondary_kw].filter(Boolean)
+      .join(", ")
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean)
+      .slice(0, 10);
+    const kw = kws.join(", ");
     const tag = `<meta name="keywords" content="${escapeAttr(kw)}" />`;
     if (hasMeta(html, ['name="keywords"'])) {
       html = replaceMetaContent(html, ['name="keywords"'], kw);
