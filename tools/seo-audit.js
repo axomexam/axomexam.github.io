@@ -21,7 +21,9 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const JSON_OUT = process.argv.includes("--json");
 const LIST = process.argv.includes("--list");
-const SKIP = new Set([".git", "dist", "tools", "scripts", "data", "js", "css", "node_modules", "images", "app", "as"]);
+const INCLUDE_AS = process.argv.includes("--as");
+const SKIP = new Set([".git", "dist", "tools", "scripts", "data", "js", "css", "node_modules", "images", "app"]);
+if (!INCLUDE_AS) SKIP.add("as");
 const LIST_CAP = 25;
 
 const strip = (h) => h
@@ -73,8 +75,9 @@ for (const dir of pages) {
   const extra = (h.match(/<section[^>]*data-axo-extra="1"[\s\S]*?<\/section>/gi) || []).join(" ");
   const words = strip((mainM ? mainM[0] : h) + " " + extra).split(/\s+/).filter(Boolean).length;
   const ld = /application\/ld\+json/.test(h);
+  const hlAs = one(h, /<link rel="alternate" hreflang="as" href="([^"]*)"/i);
 
-  const rec = { url, noindex, title, desc, canonical, h1, words, ld };
+  const rec = { url, noindex, title, desc, canonical, h1, words, ld, hreflangAs: hlAs };
   rows.push(rec);
 
   if (!noindex) {
@@ -85,6 +88,35 @@ for (const dir of pages) {
 }
 
 const indexable = rows.filter((r) => !r.noindex);
+
+/* Assamese-twin pairing audit (only meaningful with --as). Every /as/ page
+   must be self-canonical and must carry an hreflang pair back to its English
+   counterpart, and every English page with a twin must point at it. */
+let twinReport = null;
+if (INCLUDE_AS) {
+  const asRows = rows.filter((r) => r.url.startsWith("/as/"));
+  const enByUrl = new Map(rows.filter((r) => !r.url.startsWith("/as/")).map((r) => [r.url, r]));
+  const badCanon = [];
+  const badHreflang = [];
+  const asNoHreflang = [];
+  for (const r of asRows) {
+    const enURL = r.url.replace(/^\/as\//, "/");
+    if (r.canonical && !r.canonical.endsWith(r.url)) badCanon.push(r.url);
+    if (!r.canonical) badCanon.push(r.url);
+    const en = enByUrl.get(enURL);
+    if (!en || !en.hreflangAs) { asNoHreflang.push(r.url); continue; }
+    if (en.hreflangAs !== r.canonical) badHreflang.push(r.url);
+  }
+  const enWithTwin = rows.filter((r) => !r.url.startsWith("/as/") && r.hreflangAs);
+  twinReport = {
+    asPages: asRows.length,
+    enWithTwin: enWithTwin.length,
+    asBadCanonical: badCanon.length,
+    asNoHreflang: asNoHreflang.length,
+    asBadHreflang: badHreflang.length,
+  };
+}
+
 const groups = (m) => [...m.entries()].filter(([, v]) => v.length > 1);
 
 const noH1 = indexable.filter((r) => !r.h1);
@@ -126,6 +158,7 @@ const report = {
   descLen: stat(dLen),
   wordLen: stat(wLen),
   over1000w: indexable.filter((r) => r.words > 1000).length,
+  twin: twinReport,
 };
 
 if (JSON_OUT) { console.log(JSON.stringify(report, null, 2)); process.exit(0); }
@@ -150,6 +183,15 @@ console.log(`  title len        : min ${report.titleLen.min} / max ${report.titl
 console.log(`  desc len         : min ${report.descLen.min} / max ${report.descLen.max} / avg ${report.descLen.avg}`);
 console.log(`  words            : min ${report.wordLen.min} / max ${report.wordLen.max} / avg ${report.wordLen.avg}`);
 console.log(`  pages >1000w     : ${report.over1000w}`);
+if (report.twin) {
+  const t = report.twin;
+  console.log("  --- Assamese twins (/as/) ---");
+  console.log(`  /as/ pages       : ${t.asPages}`);
+  console.log(`  EN with twin     : ${t.enWithTwin}`);
+  console.log(`  as bad canonical : ${t.asBadCanonical}`);
+  console.log(`  as no hreflang   : ${t.asNoHreflang}`);
+  console.log(`  as bad hreflang  : ${t.asBadHreflang}`);
+}
 
 if (LIST) {
   const show = (label, arr, get) => {

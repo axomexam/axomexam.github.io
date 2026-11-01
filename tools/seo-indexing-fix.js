@@ -173,6 +173,23 @@ function buildSitemap() {
   }
 
   kept.sort((a, b) => a.loc.localeCompare(b.loc));
+
+  /* Every indexable English page that has an Assamese twin also gets the
+     /as/ URL in the sitemap, so Google can discover and index it. The twin
+     lives at as/<rel>/index.html and is self-canonical. Skip any /as/ URL
+     already present so re-runs stay idempotent. */
+  const present = new Set(kept.map((u) => u.loc));
+  for (const u of kept.slice()) {
+    const rel = u.loc.slice(BASE.length).replace(/^\//, "").replace(/\/$/, "");
+    if (rel.startsWith("as/")) continue;
+    const loc = `${BASE}/as/${rel}/`;
+    if (present.has(loc)) continue;
+    if (!fs.existsSync(path.join(ROOT, "as", rel, "index.html"))) continue;
+    kept.push({ loc, lastmod: u.lastmod });
+    present.add(loc);
+  }
+  kept.sort((a, b) => a.loc.localeCompare(b.loc));
+
   const body = kept
     .map(
       (u) =>
