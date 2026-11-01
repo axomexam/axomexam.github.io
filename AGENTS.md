@@ -160,9 +160,16 @@ Run order after a content change:
 
 ```bash
 node tools/build-as-twins.js        # regenerate /as/ twins + hreflang
-node tools/seo-indexing-fix.js      # adds the /as/ URLs to sitemap.xml
+node tools/seo-indexing-fix.js      # adds the /as/ URLs + sitemap hreflang
 node tools/seo-audit.js --as        # verify (EN + AS + twin pairing)
 ```
+
+`tools/seo-indexing-fix.js` also writes the `xhtml:link` alternates into every
+sitemap entry. Google reads hreflang from the page head and from the sitemap,
+so both carry the same en/as/x-default trio; each twin advertises the same set
+so the clusters stay reciprocal. The `<urlset>` therefore declares the
+`xhtml` namespace. Verify a change with `tools/seo-audit.js`, which compares
+the head block against the sitemap entry for every URL.
 
 `tools/enhance-meta.js` and `tools/enrich-thin-pages.js` are twin-safe: they
 add a page-level WebPage node without disturbing the Assamese head.

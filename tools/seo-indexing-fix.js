@@ -191,17 +191,39 @@ function buildSitemap() {
   }
   kept.sort((a, b) => a.loc.localeCompare(b.loc));
 
+  /* Language alternates. Google reads hreflang from the page <head> and from
+     the sitemap; both are recommended, and the sitemap gives it the whole
+     en/as pairing in one fetch. Each twin advertises the same trio so the
+     declarations stay reciprocal. */
+  const locs = new Set(kept.map((u) => u.loc));
+  const url = (rel) => `${BASE}/${rel}${rel ? "/" : ""}`;
+  const alternates = (loc) => {
+    const rel = loc.slice(BASE.length).replace(/^\//, "").replace(/\/$/, "");
+    const isAs = rel === "as" || rel.startsWith("as/");
+    const enRel = isAs ? rel.slice(3).replace(/^\//, "") : rel;
+    const en = url(enRel);
+    const as = url(`as/${enRel}`.replace(/\/$/, ""));
+    if (!locs.has(en) || !locs.has(as)) return "";
+    return (
+      `\n    <xhtml:link rel="alternate" hreflang="en" href="${en}"/>` +
+      `\n    <xhtml:link rel="alternate" hreflang="as" href="${as}"/>` +
+      `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${en}"/>`
+    );
+  };
+
   const body = kept
     .map(
       (u) =>
         `  <url>\n    <loc>${u.loc}</loc>` +
         (u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : "") +
+        alternates(u.loc) +
         `\n  </url>`
     )
     .join("\n");
   const out =
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" ` +
+    `xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +
     body +
     `\n</urlset>\n`;
   return { out, kept: kept.length, dropped, total: blocks.length };

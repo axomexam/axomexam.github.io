@@ -134,13 +134,42 @@ const wLen = indexable.map((r) => r.words);
 const stat = (a) => ({ min: Math.min(...a), max: Math.max(...a), avg: Math.round(a.reduce((x, y) => x + y, 0) / a.length) });
 
 let sitemapUrls = 0;
+let sitemapAltMismatch = 0;
+let sitemapAltMissing = 0;
 try {
-  sitemapUrls = (fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8").match(/<loc>/g) || []).length;
+  const smXml = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8");
+  sitemapUrls = (smXml.match(/<loc>/g) || []).length;
+  /* The sitemap alternates and the page head must agree; a drift here is
+     invisible in the HTML audit but breaks the language cluster for Google. */
+  const headAlt = new Map();
+  for (const r of rows) {
+    const h = fs.readFileSync(path.join(ROOT, r.url.replace(/^\//, ""), "index.html"), "utf8");
+    const alts = {};
+    const re = /<link rel="alternate" hreflang="(en|as|x-default)" href="([^"]*)"/gi;
+    let m;
+    while ((m = re.exec(h))) alts[m[1]] = m[2];
+    if (Object.keys(alts).length) headAlt.set(r.url, alts);
+  }
+  for (const block of smXml.match(/<url>[\s\S]*?<\/url>/g) || []) {
+    const loc = (/<loc>([^<]+)<\/loc>/.exec(block) || [])[1];
+    if (!loc) continue;
+    const path = loc.replace(/^https?:\/\/[^/]+/, "");
+    const smAlt = {};
+    const re = /hreflang="(en|as|x-default)" href="([^"]*)"/gi;
+    let m;
+    while ((m = re.exec(block))) smAlt[m[1]] = m[2];
+    const head = headAlt.get(path);
+    if (!head) continue;
+    if (!Object.keys(smAlt).length) sitemapAltMissing++;
+    else if (JSON.stringify(smAlt) !== JSON.stringify(head)) sitemapAltMismatch++;
+  }
 } catch (e) {}
 
 const report = {
   pages: rows.length,
   sitemapUrls,
+  sitemapAltMismatch,
+  sitemapAltMissing,
   indexable: indexable.length,
   noindex: rows.length - indexable.length,
   noH1: noH1.length,
@@ -166,6 +195,8 @@ if (JSON_OUT) { console.log(JSON.stringify(report, null, 2)); process.exit(0); }
 console.log("SEO audit — axomexam.in");
 console.log(`  pages            : ${report.pages}`);
 console.log(`  sitemap urls     : ${report.sitemapUrls}`);
+console.log(`  sitemap alt drift: ${report.sitemapAltMismatch}`);
+console.log(`  sitemap alt miss : ${report.sitemapAltMissing}`);
 console.log(`  indexable        : ${report.indexable}`);
 console.log(`  noindex          : ${report.noindex}`);
 console.log(`  missing H1       : ${report.noH1}`);
