@@ -15,7 +15,16 @@
   --bg: #ffffff;
   --bg-soft: #f8fafc;
   --bg-tint: #eef2ff;
+  --bg-subtle: #f1f5f9;
   --line: #e2e8f0;
+  /* Surfaces and text shades that the inline styles emitted by js/app.js
+     reference. They must exist here, otherwise `var(--card-bg, #fff)` falls
+     back to a hard white card and dark mode shows near-white text on it. */
+  --card: #ffffff;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --ink-muted: #64748b;
+  --primary-soft: #eff6ff;
   --card-shadow: 0 1px 2px rgba(15, 23, 42, .06), 0 8px 24px -12px rgba(15, 23, 42, .12);
   --card-shadow-hover: 0 2px 4px rgba(15, 23, 42, .08), 0 16px 40px -16px rgba(79, 70, 229, .28);
   --radius: 14px;
@@ -1133,7 +1142,7 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 
 .quiz-flash { margin-top: 20px; padding: 16px; border-radius: 12px; background: var(--bg-tint); }
 .quiz-flash .flash-q { font-size: .88rem; color: var(--ink-soft); }
-.quiz-reveal-answer { margin-top: 14px; padding: 14px 16px; border-radius: 12px; background: #fff; border: 1px solid var(--line); display: none; }
+.quiz-reveal-answer { margin-top: 14px; padding: 14px 16px; border-radius: 12px; background: var(--card-bg, #fff); border: 1px solid var(--line); display: none; }
 .quiz-reveal-answer .a-label { font-size: .7rem; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; color: var(--accent-2); }
 .quiz-reveal-answer .a-body { margin-top: 6px; font-size: .95rem; line-height: 1.65; color: var(--ink-soft); }
 .quiz-flash-actions { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
@@ -1462,6 +1471,9 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   --bg-subtle: #16203a;
   --border: #2b3a55;
   --line: #1e293b;
+  --card: #0f172a;
+  --card-bg: #0f172a;
+  --primary-soft: #1e293b;
   --card-shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.6);
   --card-shadow-hover: 0 2px 4px rgba(0,0,0,.5), 0 18px 44px -18px rgba(129,140,248,.4);
 }
@@ -1549,6 +1561,27 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 [data-theme="dark"] .mt-tile-meta { background: color-mix(in srgb, var(--c, var(--primary)) 22%, #0f172a); }
 [data-theme="dark"] .submit-panel input:focus,
 [data-theme="dark"] .submit-panel textarea:focus { background: var(--bg); }
+
+/* White/light buttons and feedback panels keep their light background in
+   dark mode, which left light text (or the light --primary-dark label) on a
+   white fill. Re-tint them onto the dark surfaces. */
+[data-theme="dark"] .btn-primary { background: var(--primary); color: #0b1120; }
+[data-theme="dark"] .btn-primary:hover { background: var(--primary-light); }
+[data-theme="dark"] .quiz-feedback.good { background: color-mix(in srgb, #059669 20%, var(--bg-soft)); color: #6ee7b7; }
+[data-theme="dark"] .quiz-feedback.bad { background: color-mix(in srgb, #dc2626 18%, var(--bg-soft)); color: #fca5a5; }
+[data-theme="dark"] .btn-self-good { background: color-mix(in srgb, #059669 18%, var(--bg-soft)); border-color: color-mix(in srgb, #059669 40%, var(--line)); color: #6ee7b7; }
+[data-theme="dark"] .btn-self-bad { background: color-mix(in srgb, #dc2626 16%, var(--bg-soft)); border-color: color-mix(in srgb, #dc2626 40%, var(--line)); color: #fca5a5; }
+[data-theme="dark"] .quiz-quit:hover { background: color-mix(in srgb, #dc2626 16%, var(--bg-soft)); border-color: color-mix(in srgb, #dc2626 40%, var(--line)); }
+[data-theme="dark"] .rv-badge { background: var(--bg-tint); color: var(--ink-soft); }
+[data-theme="dark"] .review-item .rv-badge.good { background: color-mix(in srgb, #059669 20%, var(--bg-soft)); color: #6ee7b7; }
+[data-theme="dark"] .review-item .rv-badge.bad { background: color-mix(in srgb, #dc2626 18%, var(--bg-soft)); color: #fca5a5; }
+[data-theme="dark"] .dl-ico { background: color-mix(in srgb, #dc2626 16%, var(--bg-soft)); }
+
+/* Form controls that only set a border inline fall back to the UA's white
+   fill and black text, which glares against the dark page. */
+[data-theme="dark"] input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+[data-theme="dark"] select,
+[data-theme="dark"] textarea { background: var(--bg-soft); color: var(--ink); border-color: var(--border); }
 
 /* Footer and toast must remain dark in dark mode */
 [data-theme="dark"] .site-footer { background: #020617; }
