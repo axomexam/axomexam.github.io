@@ -182,7 +182,8 @@ function buildSitemap() {
   for (const u of kept.slice()) {
     const rel = u.loc.slice(BASE.length).replace(/^\//, "").replace(/\/$/, "");
     if (rel.startsWith("as/")) continue;
-    const loc = `${BASE}/as/${rel}/`;
+    /* The home page has no path, so its twin is /as/ — not /as//. */
+    const loc = rel === "" ? `${BASE}/as/` : `${BASE}/as/${rel}/`;
     if (present.has(loc)) continue;
     if (!fs.existsSync(path.join(ROOT, "as", rel, "index.html"))) continue;
     kept.push({ loc, lastmod: u.lastmod });
