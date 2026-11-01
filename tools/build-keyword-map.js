@@ -266,11 +266,16 @@ const displayMap = displayNames();
 const pages = walk(ROOT, []).sort();
 
 const pageTerms = {};
+const pageIndexable = {};
+const pageRedirect = {};
 const df = new Map();
 for (const rel of pages) {
   const html = fs.readFileSync(path.join(ROOT, rel), "utf8");
   const counts = bigramsAndTrigrams(pageStems(html));
   pageTerms[rel] = counts;
+  const robots = (html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i) || [])[1] || "";
+  pageIndexable[rel] = !/noindex/i.test(robots);
+  pageRedirect[rel] = /http-equiv="refresh"/i.test(html);
   for (const term of counts.keys()) df.set(term, (df.get(term) || 0) + 1);
 }
 const N = pages.length;
@@ -303,17 +308,32 @@ function curatedPhrases(tags) {
     .map((t) => t.replace(/-/g, " "));
 }
 
-function buildRow(rel, mined) {
+function buildRow(rel, mined, isRedirect) {
   const segs = rel.replace(/\/index\.html$/, "").split("/").filter(Boolean);
   const section = segs[0] || "home";
-  const slug = segs[segs.length - 1] || "home";
+  let slug = segs[segs.length - 1] || "home";
+  /* "read", "all", "list" are structural verbs, not topics — the page is
+     about its parent (e.g. /category/articles/computer/read/ is Computer
+     Awareness, not "Read"). */
+  const GENERIC = new Set(["read", "all", "list", "more", "view", "index"]);
+  const isReadView = GENERIC.has(slug) && segs.length >= 2;
+  if (isReadView) slug = segs[segs.length - 2];
   const topic = displayMap[slug] || titleCase(slug);
   const tl = topic.toLowerCase();
   let primary, title, meta, h1, h2, secondary, longtail;
 
   // A section's own root page (e.g. /exams/, /ebooks/) is a hand-written hub
-  // whose title already describes it; keep the committed copy.
+  // whose title already describes it; keep the committed copy. Redirect stubs
+  // (meta refresh to a canonical URL) keep their "This page has moved" title
+  // too — their job is to bounce the crawler, not to rank.
   if (segs.length === 1 && section !== "home") {
+    return {
+      path: rel, section, topic, primary_kw: "", secondary_kw: "",
+      longtail_kw: "", content_terms: mined.join(", "),
+      suggested_title: "", suggested_meta: "", suggested_h1: "", suggested_h2: "",
+    };
+  }
+  if (isRedirect) {
     return {
       path: rel, section, topic, primary_kw: "", secondary_kw: "",
       longtail_kw: "", content_terms: mined.join(", "),
@@ -368,7 +388,7 @@ function buildRow(rel, mined) {
     secondary = mined.slice(0, 4);
     longtail = mined.slice(4, 7);
     primary = setNum ? `${subject.toLowerCase()} mock test set ${setNum}` : `${subject.toLowerCase()} mock test`;
-    title = setNum ? `${subject} Mock Test Set ${setNum} (Free, 25 Questions)` : `${subject} Mock Test (Free, 25 Questions)`;
+    title = setNum ? `${subject} Mock Test Set ${setNum} — ADRE, APSC` : `${subject} Mock Test — ADRE, APSC`;
     meta = `Take free timed ${subject.toLowerCase()} mock test${setNum ? ` set ${setNum}` : ""} with 25 bilingual questions, instant scoring and answers. Practice for ADRE, APSC and Assam Police.`;
     h1 = setNum ? `${subject} Mock Test — Set ${setNum}` : `${subject} Mock Test`;
     h2 = [`Topics Covered${setNum ? ` in Set ${setNum}` : ""}`, "How to Attempt", "Answer Key & Explanations", "More Sets"];
@@ -376,9 +396,19 @@ function buildRow(rel, mined) {
     secondary = mined.slice(0, 4);
     longtail = mined.slice(4, 7);
     primary = `${tl} questions${segs.length <= 2 ? " category" : ""}`;
-    title = segs.length <= 2 ? `${topic} Questions with Answers for ADRE & APSC (Category)` : `${topic} Questions with Answers for ADRE & APSC`;
+    /* The root hub (/category/gk/) keeps the exam list; leaf pages stay short
+       so a parent qualifier can be appended without hitting 60 chars. */
+    if (segs.length <= 2) {
+      title = topic === "Articles"
+        ? "Study Articles & Notes for Assam Competitive Exams"
+        : `${topic} Questions with Answers — ADRE, APSC`;
+    } else {
+      title = `${topic} Questions with Answers for ADRE, APSC`;
+    }
     meta = `Free ${tl} questions with explained answers for ADRE, APSC, Assam Police and other Assam competitive exams. Bilingual, no sign-up.`;
-    h1 = `${topic} Questions with Answers`;
+    h1 = isReadView
+      ? `${topic} — Study Notes & Articles`
+      : `${topic} Questions with Answers`;
     h2 = ["Topics Covered", "Practice Questions", ...secondary.map(titleCase), "FAQs"];
   } else if (section === "previous-year") {
     const label = segs.slice(1).map(titleCase).join(" ");
@@ -389,12 +419,18 @@ function buildRow(rel, mined) {
     h1 = `${label ? label + " " : ""}Previous Year Question Papers`;
     h2 = ["Year-wise Papers", "Solved Answers", "Exam Pattern", "FAQs"];
   } else if (section === "current-affairs") {
-    const label = segs.slice(1).map(titleCase).join(" ");
+    /* The slug may or may not already end in "current-affairs" (State Current
+       Affairs vs National Affairs), so strip it, then only re-append when the
+       base does not already say "affairs" — otherwise the label reads
+       "National Affairs Current Affairs". */
+    const base = segs.slice(1).map(titleCase).join(" ").replace(/\s*Current Affairs$/i, "").trim();
+    const suffix = /\baffairs\b/i.test(base) ? "" : " Current Affairs";
+    const label = `${base}${suffix}`.trim();
     secondary = []; longtail = [];
-    primary = `${label ? label.toLowerCase() + " " : ""}current affairs`;
-    title = `${label ? label + " " : ""}Current Affairs Q&A | axomexam`;
-    meta = `Free ${label ? label.toLowerCase() + " " : ""}current affairs questions with explained answers in Assamese and English — updated regularly.`;
-    h1 = `${label ? label + " " : ""}Current Affairs`;
+    primary = `${label.toLowerCase()} questions`;
+    title = `${label} Q&A for ADRE, APSC`;
+    meta = `Free ${label.toLowerCase()} questions with explained answers in Assamese and English for ADRE, APSC and Assam Police.`;
+    h1 = label;
     h2 = ["Latest Updates", "Practice Questions", "FAQs"];
   } else if (section === "ebooks") {
     const label = segs.slice(1).map(titleCase).join(" ");
@@ -417,7 +453,8 @@ function buildRow(rel, mined) {
   };
 }
 
-const rows = pages.map((rel) => buildRow(rel, topContentTerms(rel, 8)));
+const rows = pages.map((rel) => buildRow(rel, topContentTerms(rel, 8), pageRedirect[rel]));
+for (const r of rows) r.indexable = pageIndexable[r.path];
 
 /* utility pages keep their committed title / description / H1 */
 function curTag(html, tag) {
@@ -426,6 +463,8 @@ function curTag(html, tag) {
 }
 for (const r of rows) {
   if (r.suggested_title) continue;
+  /* Redirect stubs keep their own "moved" title and get no keyword work. */
+  if (pageRedirect[r.path]) continue;
   const html = fs.readFileSync(path.join(ROOT, r.path), "utf8");
   r.suggested_title = curTag(html, "title");
   r.suggested_h1 = curTag(html, "h1");
@@ -439,12 +478,20 @@ for (const r of rows) {
 /* fit titles <=60 and metas <=160 without cutting mid-word */
 function fitTitle(s, limit = 60) {
   if (s.length <= limit) return s;
-  for (const cut of [" & Assam Police", ", APSC & Assam Police", ", APSC"]) {
+  for (const cut of [" & Assam Police", ", APSC & Assam Police", " Questions with Answers", ", APSC"]) {
     if (s.includes(cut) && s.replace(cut, "").length <= limit) return s.replace(cut, "");
+  }
+  /* Keep exam context on a long topic name by shortening the exam list rather
+     than dropping it entirely. */
+  if (s.includes(" — ADRE, APSC") && s.replace(" — ADRE, APSC", " — ADRE").length <= limit) {
+    return s.replace(" — ADRE, APSC", " — ADRE");
   }
   if (s.includes(" — ") && s.split(" — ")[0].length <= limit) return s.split(" — ")[0];
   const t = s.slice(0, limit);
-  return t.slice(0, t.lastIndexOf(" ")).replace(/[ —,&|:;]+$/, "");
+  return t
+    .slice(0, t.lastIndexOf(" "))
+    .replace(/[ —,&|:;]+$/, "")
+    .replace(/\s+(with|and|for|of|the|in|to|on|by|vs|a|an|&)$/i, "");
 }
 function fitMeta(s, limit = 160) {
   if (s.length <= limit) return s;
@@ -457,42 +504,63 @@ for (const r of rows) {
   if (r.suggested_meta) r.suggested_meta = fitMeta(r.suggested_meta);
 }
 
-/* dedupe: every primary keyword and title becomes unique */
+/* A short, human-readable scope for a page taken from its parent segment,
+   used only to break a keyword/title/meta tie with another page. Returns ""
+   when the page has no distinct parent, or the parent is already implied by
+   the topic (e.g. /category/computer/ under "Computer Awareness"). */
+function parentQualifier(r) {
+  const segs = r.path.replace(/\/index\.html$/, "").split("/").filter(Boolean);
+  const SKIP = new Set(["read", "all", "list", "more", "view", "index"]);
+  const mid = segs.slice(1, -1).filter((s) => !SKIP.has(s));
+  if (!mid.length) return "";
+  const tl = r.topic.toLowerCase();
+  const redundant = (s) => titleCase(s).toLowerCase().split(/\s+/).every((w) => tl.includes(w));
+  const keep = mid.filter((s) => !redundant(s));
+  if (!keep.length) return "";
+  return titleCase(keep[keep.length - 1]).replace(/\bSec\b/, "").trim();
+}
+
+/* dedupe: every primary keyword and title becomes unique *among the pages
+   Google is allowed to index*. A noindex stub is expected to repeat the
+   indexable page it duplicates (that is what a redirect page is), so it must
+   not force the indexable page to take a worse title. */
 function dedupe(key, makeSuffix) {
   const groups = new Map();
   for (const r of rows) {
-    if (!r[key]) continue;
+    if (!r[key] || !r.indexable) continue;
     if (!groups.has(r[key])) groups.set(r[key], []);
     groups.get(r[key]).push(r);
   }
   for (const [val, grp] of groups) {
     if (grp.length < 2) continue;
     for (const r of grp) {
-      const segs = r.path.replace(/\/index\.html$/, "").split("/").filter(Boolean);
-      const q = segs.length >= 2 ? titleCase(segs[segs.length - 2]) : "";
+      const q = parentQualifier(r);
       if (q) r[key] = makeSuffix(val, q, r);
     }
   }
 }
 dedupe("primary_kw", (v, q) => `${v} ${q.toLowerCase()}`);
-dedupe("suggested_title", (v, q) => {
+dedupe("suggested_title", (v, q, r) => {
   const base = v.includes(" — ") ? v.split(" — ")[0] : v;
-  let cand = `${base} (${q})`;
-  if (cand.length > 60) cand = `${base.slice(0, 60 - q.length - 4).replace(/\s+$/, "")} (${q})`;
-  return cand;
+  const short = base.replace(/ Questions with Answers$/, " Questions").replace(/ MCQs$/, "");
+  for (const cand of [`${base} — ${q}`, `${short} — ${q}`, `${short} (${q})`, `${r.topic} — ${q}`, `${r.topic} (${q})`]) {
+    if (cand.length <= 60) return cand;
+  }
+  return r.topic;
 });
 /* Two pages can share a topic name under different parents (e.g. "Analogy"
    under both logical-reasoning and verbal-reasoning). Qualify the description
-   so no two pages carry the same meta either. */
+   with the page's own scope so no two pages carry the same meta. */
 dedupe("suggested_meta", (v, q, r) => {
-  const ql = q.toLowerCase();
-  const cand = v.replace(/\.(\s*)$/, ` in ${ql}.$1`);
-  if (!v.includes(ql) && cand.length <= 160) return cand;
-  const short = `Free ${r.topic.toLowerCase()} questions in ${ql} with answers and explanations for Assam competitive exams.`;
-  if (short.length <= 160) return short;
-  const tiny = `Free ${r.topic.toLowerCase()} questions for ${ql} — Assam competitive exams.`;
-  return tiny.length <= 160 ? tiny : v;
+  if (v.toLowerCase().includes(q.toLowerCase())) return v;
+  const prefixed = `${q} practice: ${v.charAt(0).toLowerCase()}${v.slice(1)}`;
+  if (prefixed.length <= 160) return prefixed;
+  const short = `${q} practice: free ${r.topic.toLowerCase()} questions with answers for Assam competitive exams.`;
+  return short.length <= 160 ? short : v;
 });
+/* Same-topic pages under different parents (e.g. Assam vs India folk dances)
+   get a scope suffix on the H1 too, so the visible heading differs. */
+dedupe("suggested_h1", (v, q) => `${v} (${q})`);
 
 function naturalCase(s) {
   const parts = s.split(" ");

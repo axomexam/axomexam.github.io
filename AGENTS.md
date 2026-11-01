@@ -119,6 +119,62 @@ All three are idempotent; run with `--check` first.
   without that marker is treated as hand-written and is never overwritten.
   Idempotent; `--check` reports drift instead of writing.
 
+## SEO analysis tools
+
+Read-only with respect to page HTML — they produce reports, they do not edit
+pages. Both are idempotent; re-running yields byte-identical CSVs.
+
+- `tools/build-keyword-map.js` → `keyword-map.csv` (995 rows). One target
+  keyword set per page, built from two sources in priority order:
+  1. the hand-written bilingual `tags` array already present in 238
+     `data/content/**/*.json` topic files, used as the secondary keywords
+     because a human chose them for that topic;
+  2. TF-IDF terms mined from the other 752 pages' own `<main>` question
+     stems (`qa-item` blocks), with a noise gate that drops stopwords,
+     bare numbers, leading articles and weak phrase endings.
+  Emits `primary_kw` / `secondary_kw` / `longtail_kw` / `content_terms` plus a
+  ready `suggested_title` (≤60 chars), `suggested_meta` (≤160), `suggested_h1`
+  and `suggested_h2`. A dedupe pass makes keywords, titles and metas unique
+  site-wide; where two pages share a topic name under different parents it
+  appends the parent segment. The only remaining duplicate is the genuine
+  `privacy/` vs `privacy-policy/` page pair. Section-root hub pages
+  (`exams/index.html`, `ebooks/index.html`, …) are left alone — their
+  committed titles are hand-written and already describe them.
+- `tools/build-page-actions.js` → `page-actions.csv` (995 rows). Reads each
+  committed page and emits the task flags: `TITLE`, `META`, `H1`,
+  `H1-MISSING`, `H2-ADD`, `THIN` (<300 words), `NOINDEX`, `SCHEMA`, `OK`.
+  Headings are counted inside `<main>` plus the prerendered
+  `data-axo-extra="1"` prose block only — nav/footer headings do not count,
+  otherwise a page with no real sub-headings looks fine. `H2-ADD` fires when
+  the content scope has fewer than 3 `h2`+`h3` headings combined.
+- `tools/apply-keyword-map.js` — writes the keyword map into the committed
+  pages. For each row it rewrites, in the page's existing markup, only
+  `<title>`, `<meta name="description">`, the matching `og:`/`twitter:`
+  title+description, the first `<h1>`, and `<meta name="keywords">` (inserted
+  if absent). Canonical, robots, JSON-LD, links, body text and attribute order
+  are left byte-identical. Run `build-keyword-map.js` first. `--check` reports
+  drift without writing; it is idempotent, so a second run reports 0 changes.
+  Two categories of page are deliberately skipped: section-root hubs
+  (`exams/index.html`, …) and redirect stubs (`http-equiv="refresh"`), which
+  keep their own "This page has moved" title. Dedupe of keywords/titles/metas
+  is scoped to *indexable* pages only — a noindex stub is expected to repeat
+  the indexable page it duplicates, so it never forces that page to take a
+  worse title.
+
+Regenerate after any content change:
+
+```bash
+node tools/build-keyword-map.js    # -> keyword-map.csv
+node tools/apply-keyword-map.js    # write titles/metas/H1s into the pages
+node tools/build-page-actions.js   # -> page-actions.csv (reads final pages)
+```
+
+`SEO-AUDIT.md` holds the findings, `SEO-ACTION-PLAN.md` the work order.
+`seo-audit.csv` is the raw per-page current-state scan. Known numbers when
+these were written: 665 titles carry no exam context, 580 metas exceed 160
+chars, 72 pages are under 300 words, 21 are noindex, and 17
+`data/content/**` files (~1,931 questions) have no `/topic/` page at all.
+
 ## Reading progress bar
 
 `js/app.src.js` keeps one shared scroll-progress strip (`#ebk-progress`, styled
@@ -173,7 +229,17 @@ node tools/sync-home-hero-count.js
 node tools/inject-static-questions.js
 node tools/enrich-thin-pages.js
 node tools/extract-deep-articles.js
+node tools/build-keyword-map.js
+node tools/apply-keyword-map.js
+node tools/build-page-actions.js
 ```
+
+The last three are the SEO pass. `build-keyword-map.js` mines the freshly
+built pages into `keyword-map.csv`, `apply-keyword-map.js` writes the titles,
+metas, H1s and keywords back into those pages, and `build-page-actions.js`
+re-scans the result into `page-actions.csv`. Keep them last so the keyword data
+reflects the pages just built. `apply-keyword-map.js` is idempotent — running
+it twice in a row leaves the tree unchanged.
 
 `tools/sync-exam-book-totals.js` writes the book's total question count
 ("14,932 questions available in this book") into each exam landing page,
