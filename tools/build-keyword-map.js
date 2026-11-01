@@ -42,7 +42,11 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const OUT = path.join(ROOT, "keyword-map.csv");
-const SKIP_DIRS = new Set([".git", "node_modules", "dist", ".github", "_preview", "tools"]);
+/* "as" holds the Assamese twins of the /topic/ pages. They carry their own
+   hand-written Assamese title, description and keywords, so the English
+   keyword pass must not touch them — stripping the Assamese text out of the
+   title would leave an empty keyword. */
+const SKIP_DIRS = new Set([".git", "node_modules", "dist", ".github", "_preview", "tools", "as"]);
 
 /* ---------- generic helpers ---------- */
 
@@ -329,6 +333,76 @@ function curatedPhrases(tags) {
     .map((t) => t.replace(/-/g, " "));
 }
 
+/* Top-level utility pages whose committed title is under 30 characters. */
+const UTILITY_TITLES = {
+  "about/index.html": {
+    primary_kw: "about axomexam",
+    title: "About axomexam — Free Bilingual Exam Prep for Assam",
+    meta: "About axomexam.in — an independent, free bilingual study platform for ADRE, APSC, Assam Police, SSC and Railway exams. Learn how our question banks and notes are built.",
+    h1: "About axomexam",
+  },
+  "contact/index.html": {
+    primary_kw: "contact axomexam",
+    title: "Contact axomexam — Report Errors & Request Topics",
+    meta: "Contact axomexam.in — report a wrong answer, request a topic, contribute questions or ask for help with ADRE, APSC, Assam Police, SSC and Railway exam preparation.",
+    h1: "Contact axomexam",
+  },
+  "privacy/index.html": {
+    primary_kw: "axomexam privacy policy",
+    title: "Privacy Policy — How axomexam Handles Your Data",
+    meta: "Privacy Policy for axomexam.in — what data is collected on this free competitive exam preparation site for Assam, how cookies and analytics work, and how to opt out.",
+    h1: "Privacy Policy",
+  },
+  "terms/index.html": {
+    primary_kw: "axomexam terms of use",
+    title: "Terms & Conditions — Using axomexam Study Material",
+    meta: "Terms & Conditions for axomexam.in — how the free bilingual study material for Assam competitive exams may be used, printed, shared and reused.",
+    h1: "Terms & Conditions",
+  },
+  "disclaimer/index.html": {
+    primary_kw: "axomexam disclaimer",
+    title: "Disclaimer — axomexam Is Not an Official Exam Website",
+    meta: "Disclaimer for axomexam.in — this independent study site is not affiliated with the Government of Assam, APSC or SLPRB, and its practice questions are not official papers.",
+    h1: "Disclaimer",
+  },
+  "submit/index.html": {
+    primary_kw: "submit questions to axomexam",
+    title: "Submit Q&A — Contribute Questions to axomexam",
+    meta: "Submit Q&A for axomexam.in — send practice questions with answers for ADRE, APSC, Assam Police, SSC and Railway exams. Reviewed submissions are added to the question bank.",
+    h1: "Submit Q&A",
+  },
+  "categories/index.html": {
+    primary_kw: "all practice categories",
+    title: "All Practice Categories — GK, Maths, Reasoning & More",
+    meta: "Browse all practice categories on axomexam — GK, Mathematics, Science, Reasoning, English, Computer and more, with free bilingual questions and answers for Assam exams.",
+    h1: "All Practice Categories",
+  },
+  "ebooks/index.html": {
+    primary_kw: "free exam e-books",
+    title: "Free E-Book Library — Bilingual Notes for Assam Exams",
+    meta: "Read free bilingual (English & Assamese) topic-wise e-books for ADRE 2.0, Assam Police, APSC, SSC and Railway — Assam History, Indian History, Art & Culture and more.",
+    h1: "Free E-Book Library",
+  },
+  "editorial-team/index.html": {
+    primary_kw: "axomexam editorial team",
+    title: "Editorial Team — Who Writes and Checks axomexam",
+    meta: "The axomexam Editorial Team: who plans, writes, fact-checks and reviews the bilingual study material published on axomexam.in for Assam competitive examinations.",
+    h1: "Editorial Team",
+  },
+  "editorial-policy/index.html": {
+    primary_kw: "axomexam editorial policy",
+    title: "Editorial Policy — How axomexam Content Is Checked",
+    meta: "How axomexam.in plans, writes, fact-checks, reviews and corrects its bilingual study material for Assam competitive examinations, and how to report an error.",
+    h1: "Editorial Policy",
+  },
+  "exams/index.html": {
+    primary_kw: "assam exam books",
+    title: "Your Exams — Free Question Banks for Assam Exams",
+    meta: "Choose your exam and read its syllabus, subject-wise bilingual books and practice questions for ADRE, APSC, Assam Police, SSC and Railway — all free, no sign-up.",
+    h1: "Your Exams",
+  },
+};
+
 function buildRow(rel, mined, isRedirect) {
   const segs = rel.replace(/\/index\.html$/, "").split("/").filter(Boolean);
   /* The site root is the single file "index.html" (no directory), so its only
@@ -345,11 +419,20 @@ function buildRow(rel, mined, isRedirect) {
   const tl = topic.toLowerCase();
   let primary, title, meta, h1, h2, secondary, longtail;
 
-  // A section's own root page (e.g. /exams/, /ebooks/) is a hand-written hub
-  // whose title already describes it; keep the committed copy. Redirect stubs
-  // (meta refresh to a canonical URL) keep their "This page has moved" title
-  // too — their job is to bounce the crawler, not to rank.
+  /* A section's own root page (e.g. /exams/, /ebooks/) is a hand-written hub.
+     Most already describe themselves and are left alone, but a handful carry a
+     title under 30 characters, which is too thin for a search snippet, so they
+     get an explicit target here. */
   if (segs.length === 1 && section !== "home") {
+    const fix = UTILITY_TITLES[rel];
+    if (fix) {
+      return {
+        path: rel, section, topic, primary_kw: fix.primary_kw, secondary_kw: "",
+        longtail_kw: "", content_terms: mined.join(", "),
+        suggested_title: fix.title, suggested_meta: fix.meta,
+        suggested_h1: fix.h1, suggested_h2: "",
+      };
+    }
     return {
       path: rel, section, topic, primary_kw: "", secondary_kw: "",
       longtail_kw: "", content_terms: mined.join(", "),
@@ -383,21 +466,22 @@ function buildRow(rel, mined, isRedirect) {
     if (segs.length <= 2) {
       // exam root book page
       primary = `${examLower} exam question bank`;
-      title = `${examName} Exam`;
+      title = `${examName} Exam — Free Practice Questions | axomexam`;
       meta = `Prepare for ${examName} with free bilingual practice questions, syllabus and previous papers. All subjects, exam-pattern, no sign-up.`;
       h1 = `${examName} Exam Preparation`;
       h2 = ["Syllabus Coverage", "Practice Questions", "Previous Year Papers", "FAQs"];
     } else if (segs.length === 3) {
       // subject/section hub
       primary = `${secName.toLowerCase()} for ${examLower}`;
-      title = `${secName} for ${examName}`;
+      title = `${secName} for ${examName} — Free Questions | axomexam`;
       meta = `Practise ${secName.toLowerCase()} for ${examName} — free bilingual questions with answers and explanations, exam-pattern.`;
       h1 = `${secName} for ${examName}`;
       h2 = ["Syllabus Coverage", "Practice Questions", "Important Formulas", "FAQs"];
     } else {
       // leaf topic inside an exam
       primary = `${tl} questions for ${examLower}`;
-      title = `${topic} MCQs — ${examName}`;
+      const withAnswers = `${topic} MCQs with Answers — ${examName}`;
+      title = withAnswers.length <= 60 ? withAnswers : `${topic} MCQs — ${examName}`;
       meta = `Practise ${tl} MCQs with answers and explanations for ${examName}. Free bilingual practice, exam-pattern questions, no sign-up.`;
       h1 = `${topic} Questions for ${examName}`;
       h2 = ["Syllabus Coverage", "Practice Questions", "Important Formulas", ...secondary.map(titleCase), "FAQs"];
@@ -411,7 +495,9 @@ function buildRow(rel, mined, isRedirect) {
     secondary = mined.slice(0, 4);
     longtail = mined.slice(4, 7);
     primary = setNum ? `${subject.toLowerCase()} mock test set ${setNum}` : `${subject.toLowerCase()} mock test`;
-    title = setNum ? `${subject} Mock Test Set ${setNum} — ADRE, APSC` : `${subject} Mock Test — ADRE, APSC`;
+    title = setNum
+      ? `${subject} Mock Test Set ${setNum} — ADRE, APSC, Assam Police`
+      : `${subject} Mock Test — ADRE, APSC, Assam Police`;
     meta = `Take free timed ${subject.toLowerCase()} mock test${setNum ? ` set ${setNum}` : ""} with 25 bilingual questions, instant scoring and answers. Practice for ADRE, APSC and Assam Police.`;
     h1 = setNum ? `${subject} Mock Test — Set ${setNum}` : `${subject} Mock Test`;
     h2 = [`Topics Covered${setNum ? ` in Set ${setNum}` : ""}`, "How to Attempt", "Answer Key & Explanations", "More Sets"];
@@ -602,6 +688,12 @@ for (const r of rows) {
    the topic (e.g. /category/computer/ under "Computer Awareness"). */
 function parentQualifier(r) {
   const segs = r.path.replace(/\/index\.html$/, "").split("/").filter(Boolean);
+  /* Exam pages share topic ids across books ("Ratio Proportion" exists in
+     Grade III and Grade IV), so the section name does not tell them apart.
+     The exam book name does, and it is what a searcher types. */
+  if (segs[0] === "exams" && segs[1]) {
+    return examMap[segs[1]] || titleCase(segs[1]);
+  }
   const SKIP = new Set(["read", "all", "list", "more", "view", "index"]);
   const mid = segs.slice(1, -1).filter((s) => !SKIP.has(s));
   if (!mid.length) return "";

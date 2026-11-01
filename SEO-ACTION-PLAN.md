@@ -117,18 +117,24 @@ stems), isliye har page ka set alag hai. Result: **0 duplicate keyword,
 ### P1 — Content depth
 5. **249 pages par H2/H3 sections add karo** (`H2-ADD`)
 6. ~~**72 thin pages ka body text badhao** (`THIN`)~~ — **DONE**; 0 page ab
-   300 words se kam nahi (`tools/enrich-utility-pages.js`)
+   300 words se kam nahi (`tools/enrich-utility-pages.js` +
+   `tools/enrich-thin-pages.js`). Thin page ka minimum ab 303 words hai.
 7. ~~Naye pages ka intro + H2~~ — **DONE** (Layer 1 ke saath hi)
+7a. ~~**26 chhote titles (<30 char)** theek karo~~ — **DONE**. Title generator
+   (`build-keyword-map.js`) ab exam book ka naam qualifier ki tarah use karta
+   hai, isliye Grade III/IV ke same-topic pages ab duplicate nahi hain; 11
+   hand-written utility pages (`about/`, `contact/`, `terms/`, `exams/`, ...)
+   ke liye explicit target titles add kiye. Title length ab min 34 / avg 51.
 
 ### P2 — Technical hygiene
-8. **21 noindex pages** ka faisla (`NOINDEX`):
-   - `privacy-policy/` → noindex **sahi hai**, chhodo (search/ aur 404.html already OK)
-   - `category/articles/*` (6 pages) → inhe **index** karo, aur **sitemap se
-     hatao** (ye 6 sitemap ke saath conflict mein hain)
-   - `exams/assam-police/logical-reasoning/*` (6) → index karo (real content)
-   - `category/computer/*` (6) → index karo (real content)
-   - `topic/english/grammar-vocab/tenses/` → index karo
-   - `previous-year/guwahati-hc/2024/` → index karo (real content)
+8. **24 noindex pages** ka faisla (`NOINDEX`) — **RESOLVED**. Har noindex page
+   ek live page ka duplicate hai (canonical ek indexable URL par jata hai), aur
+   koi bhi noindex page sitemap mein nahi hai. Sirf teen exceptions bachi hain,
+   teeno deliberate: `trending/` (144-word hub, canonical khud par),
+   `topic/trending/assam-gk-special/` aur `topic/english/grammar-vocab/tenses/`
+   — ye `/trending/` aur `/topic/english/grammar/tenses/` ke purane URL hain
+   jo `tools/seo-indexing-fix.js` ke NOINDEX list mein hain. `privacy-policy/`
+   aur `search/` intentionally noindex hain.
 9. **1 page par JSON-LD add karo** (`SCHEMA`)
 10. **79 orphan pages** ko category pages se link karo (internal links)
 
@@ -170,13 +176,14 @@ apna keyword milta hai.
 ## Definition of done
 
 - [x] 15 orphan content pages live + sitemap mein (1,823 questions)
-- [x] 983/983 indexable pages par unique title
-- [x] 983/983 indexable pages par ek H1
-- [x] 983/983 indexable pages par meta description (73-160 char)
+- [x] 981/981 indexable pages par unique title
+- [x] 981/981 indexable pages par ek H1
+- [x] 981/981 indexable pages par meta description (93-160 char)
 - [ ] 249 pages par 3+ subheadings
-- [x] 0 thin pages (sab 300+ words)
-- [x] noindex stubs sitemap se clean (0 conflict)
-- [x] 983/983 pages par JSON-LD
+- [x] 0 thin pages (sab 300+ words; min 303)
+- [x] 0 chhote titles (<30 char), 0 duplicate titles/H1/descriptions
+- [x] 981 sitemap URLs = 981 indexable pages (0 conflict, 0 missing)
+- [x] 981/981 pages par JSON-LD
 - [x] orphan pages ko parent card + internal link
 - [ ] GSC mein sitemap submit
 

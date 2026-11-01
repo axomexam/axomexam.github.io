@@ -54,6 +54,33 @@ function panel(inner) {
   );
 }
 
+/* A short FAQ written from the page's own data. Answers carry the real names
+   and counts for that page, so no two utility pages share a question set. */
+function faqHTML(pairs) {
+  const rows = pairs
+    .map(([q, a]) => `        <h3 style="color:var(--ink,#0f172a); margin-top:18px;">${esc(q)}</h3>\n        <p>${a}</p>`)
+    .join("\n");
+  return `        <h2 style="color:var(--ink,#0f172a); margin-top:26px;">Frequently asked questions</h2>\n` + rows;
+}
+
+/* Word count of the visible text inside <main>. A character count is not a
+   useful gate: a page built from link cards can run past 1,800 characters
+   while holding well under 300 words, which is the thin-content threshold
+   tools/seo-audit.js applies. */
+function mainWordCount(html) {
+  const m = /<main[^>]*>([\s\S]*?)<\/main>/.exec(html);
+  if (!m) return null;
+  const t = m[1]
+    .replace(/<script[\s\S]*?<\/script>/g, "")
+    .replace(/<style[\s\S]*?<\/style>/g, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&[a-z#0-9]+;/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return t ? t.split(" ").length : 0;
+}
+const THIN_WORDS = 300;
+
 function mainTextLength(html) {
   const m = /<main[^>]*>([\s\S]*?)<\/main>/.exec(html);
   if (!m) return null;
@@ -92,7 +119,15 @@ function categoriesBlock() {
       `          <li>Use the language toggle to read the same question in Assamese or English.</li>\n` +
       `        </ul>\n` +
       `        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">How the practice sets work</h3>\n` +
-      `        <p>Each topic page holds a full question bank, not a fixed quiz. Answers and explanations are shown with the question, so the same page works for a first reading and for later revision. Once a topic feels comfortable, move to the mock-test section to attempt mixed sets under time pressure.</p>`
+      `        <p>Each topic page holds a full question bank, not a fixed quiz. Answers and explanations are shown with the question, so the same page works for a first reading and for later revision. Once a topic feels comfortable, move to the mock-test section to attempt mixed sets under time pressure.</p>\n` +
+      faqHTML([
+        ["How is the material organised?",
+         `The practice library is grouped into ${Object.keys(byCat).length} categories. A category opens into topics, and a topic opens into the questions themselves. The exam books follow the same idea but start from the exam rather than the subject.`],
+        ["Which category should I start with?",
+         `Start with the category that carries the most weight in your exam. The list above shows the live question count per category, so the biggest groups are easy to spot.`],
+        ["Are the questions and answers free?",
+         "Yes. Every category, topic and question on axomexam is free to read, in Assamese and English, with no sign-up."],
+      ])
   );
 }
 
@@ -165,7 +200,15 @@ function disclaimerBlock() {
       `          <li>Content is checked against standard reference material before publication.</li>\n` +
       `          <li>Errors can still slip through; corrections can be sent through the Submit page.</li>\n` +
       `          <li>Using the material is at your own discretion.</li>\n` +
-      `        </ul>`
+      `        </ul>\n` +
+      faqHTML([
+        ["Is axomexam an official government website?",
+         "No. axomexam is an independent study site. It is not run by, connected to, or endorsed by the Government of Assam, APSC, SLPRB or any recruitment board."],
+        ["Are the practice questions official question papers?",
+         "No. They are written for practice and are not official papers. For anything authoritative, always check the official notification or gazette."],
+        ["What should I do if I find a mistake?",
+         "Send the page link and the correction through the Submit page. Reported corrections are checked against standard reference material and applied once confirmed."],
+      ])
   );
 }
 
@@ -189,7 +232,15 @@ function termsBlock() {
       `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n` +
       `          <li>The site is supported by advertising, which keeps the material free.</li>\n` +
       `          <li>Links to other websites are provided for convenience; their content is not controlled by axomexam.</li>\n` +
-      `        </ul>`
+      `        </ul>\n` +
+      faqHTML([
+        ["Do I have to pay to use axomexam?",
+         "No. The practice questions, notes, mock tests and PDFs are free. The site is supported by advertising, which is what keeps the material free."],
+        ["Can I reuse the content on my own site or app?",
+         "You may read, print and save pages for your own exam preparation. Republishing or selling the content needs written permission first."],
+        ["Do I need an account?",
+         "No account is needed for any part of the site. There is nothing to sign up for and no login."],
+      ])
   );
 }
 
@@ -213,7 +264,15 @@ function downloadsBlock() {
       `        <ul style="margin:8px 0 0 20px; line-height:1.9;">\n` +
       `          <li>Solved past papers arranged by exam and year.</li>\n` +
       `          <li>Useful for understanding the pattern and the weightage of each section.</li>\n` +
-      `        </ul>`
+      `        </ul>\n` +
+      faqHTML([
+        ["Is there a charge or a sign-up for the downloads?",
+         "No. Every file on this page is free and downloads without an account."],
+        ["Are the notes available in Assamese?",
+         "Yes. The notes, e-books and solved papers are written in both Assamese and English, so you can revise in either language."],
+        ["Can I print the PDFs?",
+         "Yes. The study notes and papers are laid out to print cleanly so you can carry them offline."],
+      ])
   );
 }
 
@@ -236,11 +295,8 @@ function main() {
     let html = original;
     if (/name="robots" content="noindex/.test(html)) continue;
 
-    const before = mainTextLength(html);
-    /* The threshold is in words, not characters: a page under ~300 words is
-       thin by Google's own yardstick, so it needs the block even when its
-       markup-heavy <main> already runs past 800 characters. */
-    if (before === null || before >= 1500) continue;
+    const before = mainWordCount(html);
+    if (before === null || before >= THIN_WORDS) continue;
 
     const block = build();
     if (MARK_RE.test(html)) html = html.replace(MARK_RE, block);
@@ -255,7 +311,7 @@ function main() {
     if (html === original) continue;
 
     written++;
-    report.push(`  ${String(before).padStart(4)} -> ${String(mainTextLength(html)).padStart(5)}  ${rel}`);
+    report.push(`  ${String(before).padStart(4)}w -> ${String(mainWordCount(html)).padStart(4)}w  ${rel}`);
     if (!CHECK) fs.writeFileSync(full, html, "utf8");
   }
 

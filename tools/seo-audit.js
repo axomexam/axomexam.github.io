@@ -65,7 +65,13 @@ for (const dir of pages) {
   const desc = one(h, /<meta name="description" content="([^"]*)"/i);
   const canonical = one(h, /<link rel="canonical" href="([^"]*)"/i);
   const h1 = one(h, /<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  const words = strip(h).split(/\s+/).filter(Boolean).length;
+  /* Word count is scoped to <main> (plus any prerendered data-axo-extra prose
+     block), matching tools/build-page-actions.js. Counting the whole file
+     would include the shared nav and footer, which every page has and which
+     therefore say nothing about whether the page is thin. */
+  const mainM = /<main[\s\S]*?<\/main>/i.exec(h);
+  const extra = (h.match(/<section[^>]*data-axo-extra="1"[\s\S]*?<\/section>/gi) || []).join(" ");
+  const words = strip((mainM ? mainM[0] : h) + " " + extra).split(/\s+/).filter(Boolean).length;
   const ld = /application\/ld\+json/.test(h);
 
   const rec = { url, noindex, title, desc, canonical, h1, words, ld };
