@@ -48,18 +48,43 @@ git push origin HEAD:main
 - `scripts/` and `tools/` contain one-shot content generators. Most are
   idempotent and accept `--check` to report without writing.
 
-## Language model
+## Language model — two separate toggles
 
-Both languages live in the same document and the same URL. The toggle is
-client-side, driven by the custom `data-axo-lang="en|as"` attribute plus
-`body[data-lang]` / `body[data-ui-lang]`. `css/style.css` keys all show/hide
-behaviour on `data-axo-lang`, never on the `lang` attribute. So adding or
-changing `lang="..."` is safe for layout.
+There are **two** language controls and they must not be confused.
 
-There is no hreflang and there should not be one: there are no separate URLs
-per language. `lang="en"` on `<html>`, `lang` on the per-language blocks,
-`inLanguage: [en, as]` in the JSON-LD, and `og:locale`/`og:locale:alternate`
-carry the bilingual signal.
+1. **Universal header toggle** (`data-glang`). Switches the *interface* language
+   only. Instant, client-side, **never changes the URL and never reloads**.
+   Restored from `localStorage` on load (default `en`).
+
+2. **Content toggle** (`data-lang`, `data-ebklang`, `data-exlang`, `data-calang`).
+   Switches the *content* language and is URL-driven: the Assamese twin of
+   `/topic/...` lives at `/as/topic/...`. `js/app.src.js` derives the content
+   language from the path alone (`isAssamesePath()`), strips the `as/` segment
+   before routing, and `counterpartUrl()` computes the twin URL. One global
+   capture-phase listener (`initContentLangSwitch`, selector
+   `[data-lang],[data-ebklang],[data-exlang],[data-calang]`) handles all of
+   them; the older per-renderer in-place handlers are dead code kept as a
+   fallback.
+
+   **The content toggle only reloads when the counterpart actually exists.**
+   It checks for `link[rel="alternate"][hreflang="<target>"]` in the head. A
+   page with no twin keeps the original in-place behaviour, so the partial
+   `/as/` rollout never navigates a visitor to a 404.
+
+`data-mocklang` (mock-test internal language) is deliberately **not** in the
+content-toggle selector and must stay out.
+
+The toggle show/hide is keyed on `data-axo-lang` plus `body[data-lang]` /
+`body[data-ui-lang]` in `css/style.css`, never on the `lang` attribute, so
+adding or changing `lang="..."` is safe for layout.
+
+`/as/` twins carry their own `lang="as"`, self-referential canonical, and
+Assamese title/meta. Every twinned page emits three hreflang links on **both**
+sides (`en`, `as`, `x-default`). `tools/build-bilingual-page.js <rel-path>
+"<as title>" "<as meta>" "<as h1>"` creates one twin from its English page and
+adds the hreflang pairing to the English side. Only a handful of twins exist so
+far; the rest of the site is still single-URL, so most pages carry no hreflang
+and that is expected until the rollout completes.
 
 ## Gotcha: do not run tools/latest-schema.js
 

@@ -1175,11 +1175,26 @@
   /* ================= Routing ================= */
   function parsePath() {
     let p = window.location.pathname.replace(/^\/|\/$/g, "");
+    /* Assamese pages live under /as/; strip it so the router sees exactly the
+       same segments as the English counterpart. */
+    p = p.replace(/^as(?:\/|$)/, "");
     if (window.location.search && window.location.search.startsWith("?/")) {
       p = window.location.search.slice(2).replace(/~and~/g, "&");
       window.history.replaceState(null, null, "/" + p);
     }
     return p.split("/").filter(Boolean);
+  }
+
+  /* True when the page currently open is the Assamese variant (/as/...). */
+  function isAssamesePath() {
+    return /^\/as(\/|$)/.test(window.location.pathname);
+  }
+
+  /* The other-language URL for the page currently open. */
+  function counterpartUrl() {
+    const p = window.location.pathname;
+    const m = p.match(/^\/as(\/.*)?$/);
+    return m ? (m[1] || "/") : "/as" + p;
   }
 
   function currentPath() {
@@ -1565,7 +1580,7 @@
       disarmMockBackGuard();
     }
 
-    state.lang = isEnglishContent(segs) ? "en" : "as";
+    state.lang = isAssamesePath() ? "as" : "en";
     document.body.setAttribute("data-lang", state.lang);
 
     if (segs.length === 0) return renderHome(main);
@@ -7680,6 +7695,35 @@
     });
   }
 
+  /* ================= Content Language Switch (URL-driven) ================= */
+  /* The in-page language buttons (topic / articles / e-books / exams /
+     current-affairs) reload into the counterpart URL, so each language gets
+     its own addressable page. The universal header toggle (data-glang) is
+     deliberately excluded here - it keeps its instant, no-reload UI behaviour
+     and only ever changes the interface language. */
+  function initContentLangSwitch() {
+    const SEL = "[data-lang],[data-ebklang],[data-exlang],[data-calang]";
+    document.addEventListener("click", (e) => {
+      const btn = e.target.closest(SEL);
+      if (!btn || btn.tagName !== "BUTTON") return;
+      const want =
+        btn.getAttribute("data-lang") ||
+        btn.getAttribute("data-ebklang") ||
+        btn.getAttribute("data-exlang") ||
+        btn.getAttribute("data-calang");
+      if (want !== "en" && want !== "as") return;
+      const onAs = isAssamesePath();
+      if ((want === "as" && onAs) || (want === "en" && !onAs)) return;
+      /* Only reload when this page actually has a counterpart in that
+         language. Pages without one keep their original in-place switch, so
+         a partial /as/ rollout never sends a visitor to a 404. */
+      if (!document.querySelector(`link[rel="alternate"][hreflang="${want}"]`)) return;
+      e.preventDefault();
+      e.stopPropagation();
+      window.location.href = counterpartUrl() + window.location.search + window.location.hash;
+    }, true);
+  }
+
   /* ================= Global Link Handler ================= */
   function bindLinkInterception() {
     document.addEventListener("click", (e) => {
@@ -7721,6 +7765,10 @@
   /* ================= Boot ================= */
   async function boot() {
     const pre = $("#preloader");
+    /* Content language comes from the URL, so set it before the first paint
+       to avoid a flash of the wrong language. UI language is restored from
+       localStorage (or defaults to English) and never forced by the URL. */
+    state.lang = isAssamesePath() ? "as" : "en";
     
     try {
       const savedUiLang = localStorage.getItem("axomexam-ui-lang");
@@ -7758,6 +7806,7 @@
       buildMobileNav();
       bindSearch();
       initGlobalLangToggle();
+      initContentLangSwitch();
       bindLinkInterception();
 
       window.addEventListener("popstate", () => {
