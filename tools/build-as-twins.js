@@ -304,6 +304,30 @@ const EXAM_LIST_AS = "ADRE, APSC, অসম আৰক্ষী";
 const CAT_SUFFIX = "প্ৰশ্ন | ADRE, APSC";
 const TOPIC_SUFFIX = "প্ৰশ্নোত্তৰ | ADRE";
 
+/* Assamese question words appended to the keyword set. Search engines treat
+   the two scripts as separate queries, so a page reachable by an Assamese
+   query needs Assamese terms in its keywords, not the English ones. */
+const KW_AS = ["প্ৰশ্ন উত্তৰ", "MCQ", "কুইজ", "অনুশীলন প্ৰশ্ন", "অসম"];
+const KW_AS_TAIL = "বিনামূলীয়া প্ৰশ্ন";
+
+/* Build the Assamese keyword list for a page: its own Assamese name plus the
+   generic question words, deduped and length-capped. */
+function keywordsAs(name) {
+  const base = String(name || "")
+    .replace(/\s*—\s*[\s\S]*$/, "")
+    .replace(/[।.]\s*$/, "")
+    .trim();
+  const out = [];
+  const seen = new Set();
+  for (const t of [base, ...KW_AS.map((w) => `${base} ${w}`), KW_AS_TAIL]) {
+    const v = t.trim();
+    if (!v || seen.has(v)) continue;
+    seen.add(v);
+    out.push(v);
+  }
+  return out.join(", ");
+}
+
 /* Assamese text runs longer than English for the same idea, and some data
    titles are whole descriptive phrases, so trim to a search-snippet-friendly
    length at a word boundary. */
@@ -406,7 +430,11 @@ function headFor(rel) {
     const shortName = (() => {
       const base = name.split(/\s*—\s*/)[0].replace(/[।.]\s*$/, "").trim() || name;
       const par = /\(([^)]*)\)/.exec(name);
-      return par ? `${base} (${par[1]})` : base;
+      /* `base` is the text before the em-dash, so it usually still carries
+         the trailing "(...)" that `par` matched; appending it again would
+         produce "Name (X) (X)". */
+      if (!par || base.endsWith(`(${par[1]})`)) return base;
+      return `${base} (${par[1]})`;
     })();
     if (name) {
       if (segs.length === 2) {
@@ -552,6 +580,98 @@ function setMeta(html, matches, value) {
   return html;
 }
 
+/* Stable-partition the direct children of every `.qa-item` so the Assamese
+   sibling of each English/Assamese pair comes first. The pairs carry a plain
+   `lang` attribute (not `data-axo-lang`), so both halves stay visible; only
+   the reading order changes, which is what a crawler sees first on /as/. */
+function assameseFirst(html) {
+  const OPEN = '<div class="qa-item"';
+  let out = "";
+  let pos = 0;
+  for (;;) {
+    const at = html.indexOf(OPEN, pos);
+    if (at < 0) break;
+    const openEnd = html.indexOf(">", at) + 1;
+    /* Balanced scan for the qa-item's own closing tag; a lazy regex would
+       stop at the nested options wrapper, which also ends in `</div></div>`. */
+    const re = /<div\b|<\/div>/g;
+    re.lastIndex = openEnd;
+    let depth = 1;
+    let end = -1;
+    let m;
+    while ((m = re.exec(html))) {
+      depth += m[0] === "<div" ? 1 : -1;
+      if (depth === 0) { end = m.index + 6; break; }
+    }
+    if (end < 0) break;
+    const item = html.slice(at, end);
+    const head = openEnd - at;
+    const inner = item.slice(head, item.length - 6);
+    const kids = [];
+    let d = 0, start = -1;
+    re.lastIndex = 0;
+    while ((m = re.exec(inner))) {
+      if (m[0] === "<div") {
+        if (d === 0) start = m.index;
+        d++;
+      } else {
+        d--;
+        if (d === 0) kids.push(inner.slice(start, m.index + 6));
+      }
+    }
+    for (let i = 0; i < kids.length - 1; i++) {
+      if (/^<div lang="en"/.test(kids[i]) && /^<div lang="as"/.test(kids[i + 1])) {
+        const tmp = kids[i];
+        kids[i] = kids[i + 1];
+        kids[i + 1] = tmp;
+        i++;
+      }
+    }
+    out += html.slice(pos, at) + item.slice(0, head) + kids.join("") + "</div>";
+    pos = end;
+  }
+  return out + html.slice(pos);
+}
+
+/* Put the `data-axo-lang="as"` sibling panel before its `en` twin inside the
+   two blocks that ship both. CSS hides one of the pair, so the reader never
+   sees the swap; only the crawler reading the served HTML does. */
+function assamesePanelFirst(html) {
+  /* extra-content: <article en> then <article as> */
+  html = html.replace(
+    /(<section class="section axo-extra-content"[\s\S]*?<\/section>)/,
+    (block) => {
+      const parts = block.split(/(?=<article\b[^>]*data-axo-lang=)/);
+      if (parts.length < 3) return block;
+      const head = parts[0];
+      const panels = parts.slice(1);
+      const asIdx = panels.findIndex((p) => /data-axo-lang="as"/.test(p));
+      const enIdx = panels.findIndex((p) => /data-axo-lang="en"/.test(p));
+      if (asIdx < 0 || enIdx < 0 || asIdx < enIdx) return block;
+      const [asP] = panels.splice(asIdx, 1);
+      panels.splice(enIdx, 0, asP);
+      return head + panels.join("");
+    }
+  );
+  /* editorial credit: <div en> then <div as> */
+  html = html.replace(
+    /(<section class="section" data-axo-editorial-credit="1"[\s\S]*?<\/section>)/,
+    (block) => {
+      const parts = block.split(/(?=<div\b[^>]*data-axo-lang=)/);
+      if (parts.length < 3) return block;
+      const head = parts[0];
+      const panels = parts.slice(1);
+      const asIdx = panels.findIndex((p) => /data-axo-lang="as"/.test(p));
+      const enIdx = panels.findIndex((p) => /data-axo-lang="en"/.test(p));
+      if (asIdx < 0 || enIdx < 0 || asIdx < enIdx) return block;
+      const [asP] = panels.splice(asIdx, 1);
+      panels.splice(enIdx, 0, asP);
+      return head + panels.join("");
+    }
+  );
+  return html;
+}
+
 function buildTwin(enHTML, rel, head) {
   const asURL = `${BASE}/as/${rel ? rel + "/" : ""}`;
 
@@ -585,8 +705,24 @@ function buildTwin(enHTML, rel, head) {
   out = setMeta(out, ['property="og:locale"'], "as_IN");
   out = setMeta(out, ['property="og:locale:alternate"'], "en_IN");
 
+  /* Assamese keywords. The English page's `keywords` list is a list of
+     English queries; on the Assamese twin it would advertise the wrong
+     language, so replace it with the Assamese name plus the generic
+     Assamese question words. */
+  out = setMeta(out, ['name="keywords"'], keywordsAs(head.h1 || head.title));
+
   /* Assamese H1 */
   out = out.replace(/(<h1[^>]*>)[\s\S]*?(<\/h1>)/, `$1${escAttr(head.h1)}$2`);
+
+  /* The twin is the Assamese page, so its schema must not claim English.
+     `inLanguage` is `["en","as"]` on every English page (the site is
+     bilingual), but a `/as/` page is Assamese-primary. */
+  out = out.replace(/"inLanguage":\s*\[\s*"en"\s*,\s*"as"\s*\]/g, '"inLanguage":["as"]');
+  out = out.replace(/"inLanguage":\s*"en"/g, '"inLanguage":"as"');
+
+  /* Lead with Assamese: put the Assamese half of every bilingual pair first
+     in the served HTML so a crawler reads Assamese before English. */
+  out = assamesePanelFirst(assameseFirst(out));
 
   return out;
 }

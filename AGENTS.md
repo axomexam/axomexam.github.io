@@ -102,14 +102,25 @@ What a twin changes relative to its English page:
 - `<body data-lang="as">` so the Assamese content renders from the static
   HTML, before and without JS (`css/style.css` keys visibility on it, and the
   runtime sets the same value from the URL).
-- Assamese `<title>`, `description`, `og:`/`twitter:` title+description,
-  `og:locale` = `as_IN` with `en_IN` alternate, and the first `<h1>`.
+- Assamese `<title>`, `description`, `keywords`, `og:`/`twitter:`
+  title+description, `og:locale` = `as_IN` with `en_IN` alternate, and the
+  first `<h1>`. The keywords list is rebuilt from the Assamese name (via
+  `keywordsAs`) so the twin advertises Assamese queries, not the English
+  list it inherited.
+- JSON-LD `inLanguage` becomes `["as"]`. Every English page ships
+  `["en","as"]` (it serves both languages on one URL); a `/as/` twin is
+  Assamese-primary, so leaving the English value there mis-signals it.
+- Bilingual pairs inside `<main>` are reordered Assamese-first
+  (`assameseFirst`), as are the `data-axo-lang` extra-content and
+  editorial-credit panels (`assamesePanelFirst`). Both halves stay in the
+  DOM and CSS hides one per `body[data-lang]`, so a reader sees no change —
+  but a crawler now reads Assamese before English on the Assamese URL.
 - Internal `href="/…"` and JSON-LD `https://axomexam.in/…` links are rewritten
   to the matching `/as/` page **only when that twin exists**, so a link never
   lands on a 404 and the SPA stays in Assamese.
 - The three hreflang links, added on both sides.
 
-Everything else — CSS, scripts, body markup, `data-axo-lang` blocks — is the
+Everything else — CSS, scripts and the remaining body markup — is the
 English page verbatim, so the runtime (`isAssamesePath()`) renders the same
 route with the Assamese content it already ships.
 
