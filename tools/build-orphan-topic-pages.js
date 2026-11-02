@@ -160,12 +160,12 @@ function qaItemHTML(q, n) {
   }
   if (q.options.length) {
     const opts = q.options.map((o, i) =>
-      `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(o.en)}${o.as ? ` <span lang="as" style="color:#64748b;">${escapeHtml(o.as)}</span>` : ""}</div>`
+      `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(o.en)}${o.as && o.as !== o.en ? ` <span lang="as" style="color:#64748b;">${escapeHtml(o.as)}</span>` : ""}</div>`
     ).join("");
     parts.push(`<div style="margin-top:8px; color:#334155;">${opts}</div>`);
   }
   parts.push(`<div lang="en" style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(q.a.en)}</span></div>`);
-  if (q.a.as) parts.push(`<div lang="as" style="color:#64748b; font-size:0.9rem;">${escapeHtml(q.a.as)}</div>`);
+  if (q.a.as && q.a.as !== q.a.en) parts.push(`<div lang="as" style="color:#64748b; font-size:0.9rem;">${escapeHtml(q.a.as)}</div>`);
   if (q.ex.en) parts.push(`<div lang="en" style="margin-top:6px; font-size:0.9rem; color:#64748b;"><strong>Explanation:</strong> ${escapeHtml(q.ex.en)}</div>`);
   if (q.ex.as) parts.push(`<div lang="as" style="font-size:0.9rem; color:#64748b;">${escapeHtml(q.ex.as)}</div>`);
   return `<div class="qa-item" style="margin-bottom:22px;">${parts.join("")}</div>`;

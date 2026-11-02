@@ -187,7 +187,7 @@ function qaItemHTML(q, n) {
           `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(
             o.en
           )}${
-            o.as
+            o.as && o.as !== o.en
               ? ` <span lang="as" style="color:#64748b;">${escapeHtml(o.as)}</span>`
               : ""
           }</div>`
@@ -200,7 +200,7 @@ function qaItemHTML(q, n) {
       q.a.en
     )}</span></div>`
   );
-  if (q.a.as) {
+  if (q.a.as && q.a.as !== q.a.en) {
     parts.push(
       `<div lang="as" style="color:#64748b; font-size:0.9rem;">${escapeHtml(q.a.as)}</div>`
     );
@@ -343,7 +343,7 @@ function examItemHTML(q, n) {
           `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(
             o.en
           )}${
-            o.as
+            o.as && o.as !== o.en
               ? ` <span lang="as" style="color:#64748b;">${escapeHtml(o.as)}</span>`
               : ""
           }</div>`
@@ -358,7 +358,7 @@ function examItemHTML(q, n) {
       )}</span></div>`
     );
   }
-  if (q.a.as) {
+  if (q.a.as && q.a.as !== q.a.en) {
     parts.push(`<div lang="as" style="color:#64748b; font-size:0.9rem;">${escapeHtml(q.a.as)}</div>`);
   }
   if (q.ex.en) {

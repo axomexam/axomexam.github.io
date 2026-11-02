@@ -181,7 +181,7 @@ function qaItemHTML(q, n) {
         const en = loc(o);
         const as = o && o.as ? o.as : "";
         return `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(en)}${
-          as ? ` <span lang="as" style="color:#64748b;">${escapeHtml(as)}</span>` : ""
+          as && as !== en ? ` <span lang="as" style="color:#64748b;">${escapeHtml(as)}</span>` : ""
         }</div>`;
       })
       .join("");
@@ -193,7 +193,7 @@ function qaItemHTML(q, n) {
   parts.push(
     `<div lang="en" style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(ansEn)}</span></div>`
   );
-  if (ansAs) {
+  if (ansAs && ansAs !== ansEn) {
     parts.push(`<div lang="as" style="color:#64748b; font-size:0.9rem;">${escapeHtml(ansAs)}</div>`);
   }
   const ex = q.explanation || {};
