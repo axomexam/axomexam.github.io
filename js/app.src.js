@@ -202,6 +202,17 @@
     return obj[l] || obj.en || obj.as || "";
   }
 
+  /* Menu chrome follows the interface language, not the content language:
+     an /as/ page renders Assamese content but keeps the header, dropdown and
+     mobile menu in English until the visitor flips the header EN/অসমীয়া
+     toggle. Content strings keep using localized(). */
+  function navName(obj) {
+    if (obj == null) return "";
+    if (typeof obj === "string") return obj;
+    const l = state.uiLang || "en";
+    return obj[l] || obj.en || obj.as || "";
+  }
+
   /* Practice cards show the English and Assamese names together, the same
      way the exam-book cards do. English is the primary label; the Assamese
      name is rendered underneath and only when it differs from the English. */
@@ -1025,7 +1036,7 @@
     return `
       <li class="${hasKids ? "has-drop" : ""}">
         <a class="nav-link ${isActive ? "active" : ""}" href="/category/${item.id}">
-          <span>${escapeHtml(localized(item.name))}</span>
+          <span>${escapeHtml(navName(item.name))}</span>
           ${hasKids ? '<span class="caret"></span>' : ""}
         </a>
         ${hasKids ? renderDesktopDrop(item, activePath) : ""}
@@ -1042,19 +1053,19 @@
             return `
               <div class="has-drop">
                 <a href="/category/${item.id}/${sub.id}">
-                  <span>${escapeHtml(localized(sub.name))}</span><span class="d-caret"></span>
+                  <span>${escapeHtml(navName(sub.name))}</span><span class="d-caret"></span>
                 </a>
                 <div class="dropdown">
                   ${grand.map((sec) => `
                     <a href="/category/${item.id}/${sub.id}/${sec.id}">
-                      <span>${escapeHtml(localized(sec.name))}</span>
+                      <span>${escapeHtml(navName(sec.name))}</span>
                     </a>`).join("")}
                 </div>
               </div>`;
           }
           const isLeaf = !(sub.topics && sub.topics.length);
           const href = isLeaf ? `/topic/${item.id}/${sub.id}` : `/category/${item.id}/${sub.id}`;
-          return `<a href="${href}">${escapeHtml(localized(sub.name))}</a>`;
+          return `<a href="${href}">${escapeHtml(navName(sub.name))}</a>`;
         }).join("")}
       </div>`;
   }
@@ -1089,7 +1100,7 @@
 
     const links = rest.map((c) => {
       const on = root === c.id;
-      return `<a class="${on ? "active" : ""}" href="/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
+      return `<a class="${on ? "active" : ""}" href="/category/${c.id}">${escapeHtml(navName(c.name))}</a>`;
     });
 
     /* E-Books and Your Exams sit directly below the Articles link inside "More ▸" */
@@ -1114,7 +1125,7 @@
     const extraLinks = [
       ["/previous-year", t("nav.previousYear")],
       ["/submit", t("nav.submit")],
-      ["/contact", "Contact Us"],
+      ["/contact", t("nav.contact")],
       ["/download-app", t("nav.downloadApp")]
     ].map(([href, label]) => {
       const on = root === href.replace(/^\//, "");
@@ -1155,7 +1166,7 @@
         <li>
           <div class="m-row">
             <a class="m-item ${activePath.split("/")[0] === cat.id ? "active" : ""}" href="/category/${cat.id}">
-              ${escapeHtml(localized(cat.name))}
+              ${escapeHtml(navName(cat.name))}
             </a>
             ${kids.length ? `<button class="m-toggle" data-toggle data-target="${cat.id}" aria-label="toggle"><span class="caret"></span></button>` : ""}
           </div>
@@ -1164,16 +1175,16 @@
             if (grand && grand.length) {
               return `
                 <div class="m-row">
-                  <a class="m-item" href="/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>
+                  <a class="m-item" href="/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(navName(sub.name))}</span></a>
                   <button class="m-toggle" data-toggle data-target="${cat.id}-${sub.id}" aria-label="toggle"><span class="caret"></span></button>
                 </div>
                 <div class="m-sub m-nested" id="msub-${cat.id}-${sub.id}">
-                  ${grand.map((sec) => `<a href="/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.87rem; color:var(--ink-soft,#475569);">${escapeHtml(localized(sec.name))}</span></a>`).join("")}
+                  ${grand.map((sec) => `<a href="/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.87rem; color:var(--ink-soft,#475569);">${escapeHtml(navName(sec.name))}</span></a>`).join("")}
                 </div>`;
             }
             const isLeaf = !(sub.topics && sub.topics.length);
             const href = isLeaf ? `/topic/${cat.id}/${sub.id}` : `/category/${cat.id}/${sub.id}`;
-            return `<a href="${href}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>`;
+            return `<a href="${href}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(navName(sub.name))}</span></a>`;
           }).join("")}</div>` : ""}
         </li>`;
     });
@@ -1224,7 +1235,7 @@
       <li class="m-contact" style="margin-top:6px;margin-bottom:8px;">
         <a class="m-item ${activePath === "contact" ? "active" : ""}" href="/contact" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Contact Us
+          ${escapeHtml(t("nav.contact"))}
         </a>
       </li>`;
 
