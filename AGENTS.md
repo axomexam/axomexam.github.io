@@ -241,6 +241,20 @@ All three are idempotent; run with `--check` first.
   `build-orphan-topic-pages.js`, `inject-static-questions.js`) now skip the
   duplicate at source, so a rebuild cannot reintroduce it. Idempotent;
   `--check` reports drift instead of writing.
+- `tools/fix-editorial-sources.js` - repairs the English `Sources:` line in
+  the editorial-credit block. Several builders reuse that block verbatim from
+  the math reference page (`topic/math/arithmetic/boats-and-streams`), which
+  hard-codes `standard mathematics reference material`, so 814 generated pages
+  on other subjects claimed a math source. The tool derives the subject from
+  the page path and writes the canonical line already used by the matching
+  `topic/` pages (see `tools/lib/editorial-sources.js` for the table). Only the
+  Sources value changes. Idempotent; `--check` reports drift instead of
+  writing. The three builders (`build-mock-set-pages.js`,
+  `build-orphan-topic-pages.js`, `build-adre-grade-3.js`) now call
+  `applySourcesLine()`/`sourcesLine()` at build time, so a rebuild cannot
+  reintroduce the wrong line. Do NOT run those builders to fix a Sources line:
+  they regenerate from a stale shell and would also revert newer
+  title/description/keywords on the same pages. Use the fix tool instead.
 
 ## SEO analysis tools
 
