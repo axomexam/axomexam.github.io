@@ -2,13 +2,16 @@
 /**
  * fix-editorial-sources.js
  *
- * Repairs the English "Sources:" line inside the editorial-credit block of
- * every generated page. Several builders copy that block verbatim from the
- * math reference page (topic/math/arithmetic/boats-and-streams), so pages on
- * other subjects ended up claiming "standard mathematics reference material".
+ * Repairs the English "Sources:" line inside the editorial-credit block.
+ * Several builders copy that block verbatim from the math reference page
+ * (topic/math/arithmetic/boats-and-streams), which hard-codes "standard
+ * mathematics reference material", so pages on other subjects claimed a math
+ * source.
  *
- * The subject is derived from the page path and the line is rewritten to the
- * canonical wording already used by the matching topic/ pages.
+ * The rewrite is deliberately conservative: a page is only touched when the
+ * subject its current line names appears nowhere in its own path. A page that
+ * already says "science" under a ".../general-science/" path is left alone,
+ * and a generic line (no subject) is never rewritten.
  *
  * Usage:
  *   node tools/fix-editorial-sources.js --check   # report only
@@ -18,54 +21,31 @@
 
 const fs = require("fs");
 const path = require("path");
+const { sourcesLine, TOKEN_SUBJECT, SOURCES } = require("./lib/editorial-sources");
 
 const ROOT = path.resolve(__dirname, "..");
 const CHECK = process.argv.includes("--check");
 
-/* Canonical Sources line per subject (taken from the existing topic/ pages). */
-const SUBJECT_SOURCES = {
-  math: "Official exam syllabus and standard mathematics reference material",
-  reasoning: "Official exam syllabus and standard reasoning reference material",
-  science: "NCERT and standard science reference material and online resources",
-  english: "standard English grammar and vocabulary reference material and online resources",
-  computer: "standard computer-awareness reference material and online resources",
-  gk: "publicly available online resources and standard reference material",
-};
+const GENERIC_SECTIONS = new Set([
+  "ebooks", "download", "previous-year", "about", "editorial-team",
+  "editorial-policy", "contact", "privacy", "privacy-policy", "search",
+  "submit", "terms",
+]);
 
-/* Any line the generator may have written; all are replaced by the canonical one. */
-const KNOWN_SOURCES = [
-  "Official exam syllabus and standard mathematics reference material",
-  "Official exam syllabus and standard reasoning reference material",
-  "Official exam syllabus and standard reference material",
-  "NCERT and standard science reference material and online resources",
-  "standard English grammar and vocabulary reference material and online resources",
-  "standard computer-awareness reference material and online resources",
-  "publicly available online resources and standard reference material",
-  "publicly available official question papers and online resources",
-];
-
-/* Page sections that are not tied to a single school subject. */
-const GENERIC_SECTIONS = new Set(["ebooks", "download", "previous-year", "about", "editorial-team", "editorial-policy", "contact", "privacy", "privacy-policy", "search", "submit", "terms"]);
-
-const SUBJECT_TOKENS = {
-  math: ["math", "arithmetic", "mensuration", "percentage", "average", "ratio", "proportion", "profit", "loss", "interest", "simplification", "number-system", "statistics", "data-interpretation", "partnership", "pipes", "boats", "ages", "trigonometry", "geometry", "lcm", "hcf"],
-  reasoning: ["reasoning", "logic", "logical", "analogy", "series", "venn", "blood", "direction", "odd-one", "classification", "non-verbal", "verbal", "analytical", "critical"],
-  science: ["science", "physics", "chemistry", "biology"],
-  english: ["english", "grammar", "vocabulary", "vocab", "tenses", "narration", "articles", "preposition", "sentence", "parts-of-speech", "synonym", "antonym", "idiom"],
-  computer: ["computer", "ms-office", "comp-fundamentals", "awareness"],
-  gk: ["gk", "general-knowledge", "history", "geography", "polity", "economy", "economics", "current-affairs", "static", "culture", "environment", "literature", "art"],
-};
-
-/* Longest tokens first so "general-english" resolves before "english" alone. */
-function subjectFor(rel) {
-  const segs = rel.split(path.sep).filter((s) => s && s !== "as" && s !== "index.html");
-  const core = segs.filter((s) => !["category", "topic", "mock-test", "exams", "articles"].includes(s));
-  const joined = core.join(" ").toLowerCase();
-  if (GENERIC_SECTIONS.has(segs[0])) return null;
-  for (const subject of ["computer", "science", "english", "reasoning", "math", "gk"]) {
-    if (SUBJECT_TOKENS[subject].some((t) => joined.includes(t))) return subject;
-  }
+/* Which subject does a line name? null = generic, never rewritten. */
+function subjectOfLine(line) {
+  const l = line.toLowerCase();
+  if (l.includes("mathematics")) return "math";
+  if (l.includes("reasoning")) return "reasoning";
+  if (l.includes("science")) return "science";
+  if (l.includes("english")) return "english";
+  if (l.includes("computer-awareness")) return "computer";
+  if (l.includes("online resources") || l.includes("question papers")) return "gk";
   return null;
+}
+
+function tokens(rel) {
+  return rel.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
 }
 
 function walk(dir, out) {
@@ -79,55 +59,48 @@ function walk(dir, out) {
 }
 
 function main() {
-  const files = walk(ROOT, []);
   let scanned = 0;
   let changed = 0;
   let skipped = 0;
   const bySubject = {};
   const examples = [];
 
-  for (const file of files) {
+  for (const file of walk(ROOT, [])) {
     const html = fs.readFileSync(file, "utf8");
     const m = html.match(/<strong>Sources:<\/strong>\s*([^<]*)/);
     if (!m) continue;
     scanned += 1;
-    const current = m[1].replace(/\s+/g, " ").trim();
     const rel = path.relative(ROOT, file);
-    const subject = subjectFor(rel);
+    const current = m[1].replace(/\s+/g, " ").trim();
 
-    if (!subject) {
-      if (!KNOWN_SOURCES.includes(current)) {
-        console.warn(`  ? unknown line on ${rel}: "${current}"`);
-      }
-      skipped += 1;
-      continue;
-    }
-    const wanted = SUBJECT_SOURCES[subject];
-    if (current === wanted) continue;
+    const segs = rel.split(path.sep).filter((s) => s && s !== "as");
+    if (GENERIC_SECTIONS.has(segs[0])) { skipped += 1; continue; }
+    if (/http-equiv="refresh"/i.test(html)) { skipped += 1; continue; }
 
-    const next = html.replace(
-      /(<strong>Sources:<\/strong>\s*)[^<]*/,
-      `$1${wanted}`
-    );
+    const named = subjectOfLine(current);
+    if (named === null) { skipped += 1; continue; }
+
+    /* Already plausible: the named subject shows up somewhere in the path. */
+    const pathHas = tokens(rel).some((t) => TOKEN_SUBJECT[t] === named);
+    if (pathHas) { skipped += 1; continue; }
+
+    const wanted = sourcesLine(rel);
+    if (current === wanted) { skipped += 1; continue; }
+
+    const subject = Object.entries(SOURCES).find(([, v]) => v === wanted)[0];
     bySubject[subject] = (bySubject[subject] || 0) + 1;
-    if (examples.length < 8) examples.push({ rel, from: current, to: wanted });
-    if (!CHECK) fs.writeFileSync(file, next);
+    if (examples.length < 10) examples.push({ rel, from: current, to: wanted });
+    if (!CHECK) fs.writeFileSync(file, html.replace(/(<strong>Sources:<\/strong>\s*)[^<]*/, `$1${wanted}`));
     changed += 1;
   }
 
   console.log(`scanned (pages with a Sources line): ${scanned}`);
   console.log(`fixed: ${changed}${CHECK ? " (check mode, nothing written)" : ""}`);
-  console.log(`left alone (generic section or already correct): ${skipped}`);
-  for (const [subject, n] of Object.entries(bySubject)) {
-    console.log(`  ${subject}: ${n}`);
-  }
+  console.log(`left alone: ${skipped}`);
+  for (const [subject, n] of Object.entries(bySubject)) console.log(`  -> ${subject}: ${n}`);
   if (examples.length) {
     console.log("\nexamples:");
-    for (const e of examples) {
-      console.log(`  ${e.rel}`);
-      console.log(`    from: ${e.from}`);
-      console.log(`    to  : ${e.to}`);
-    }
+    for (const e of examples) console.log(`  ${e.rel}\n    from: ${e.from}\n    to  : ${e.to}`);
   }
 }
 
