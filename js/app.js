@@ -244,7 +244,8 @@
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg></span>
             <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া ই-বুক":"Free eBooks"}</b><span>${u.uiLang==="as"?"যিকোনো সময়ত অনলাইন পঢ়ক":"Read online, anytime"}</span></span>
           </a>
-          <a class="feat-card reveal" href="/exams" style="--fc:#8b5cf6">
+          <a class="feat-card feat-new reveal" href="/exams" style="--fc:#8b5cf6">
+            <span class="feat-new-badge"><span class="fnb-dot"></span>${u.uiLang==="as"?"নতুন":"NEW"}</span>
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
             <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া পৰীক্ষা-বহী":"Free Exam Books"}</b><span>${u.uiLang==="as"?"পৰীক্ষা-ভিত্তিক প্ৰস্তুতি":"Exam-wise preparation"}</span></span>
           </a>
@@ -279,6 +280,12 @@
           .feat-card:hover::after { left: 145%; }
           .feat-card:active { transform: translateY(-2px) scale(.99); }
           .feat-ico { flex: 0 0 auto; width: 50px; height: 50px; border-radius: 15px; display: grid; place-items: center; color: #fff; background: linear-gradient(145deg, color-mix(in srgb, var(--fc) 82%, #fff), var(--fc) 52%, color-mix(in srgb, var(--fc) 68%, #000)); box-shadow: 0 12px 24px -12px color-mix(in srgb, var(--fc) 90%, transparent), inset 0 1px 0 rgba(255, 255, 255, .4); transition: transform .28s cubic-bezier(.22, .61, .36, 1), box-shadow .28s; }
+          .feat-new-badge { position: absolute; top: 8px; right: 8px; z-index: 2; display: inline-flex; align-items: center; gap: 5px; padding: 3px 8px 3px 7px; border-radius: 999px; font-size: .58rem; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; color: #fff; background: linear-gradient(120deg, #ff4d6d, #f43f5e 46%, #d90429); box-shadow: 0 6px 16px -6px rgba(217, 4, 41, .85), inset 0 1px 0 rgba(255, 255, 255, .45); animation: fnbPulse 1.9s ease-in-out infinite; }
+          .feat-new-badge .fnb-dot { width: 5px; height: 5px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 0 rgba(255, 255, 255, .75); animation: fnbDot 1.9s ease-out infinite; }
+          .feat-card:hover .feat-new-badge { animation-play-state: paused; transform: scale(1.06); }
+          @keyframes fnbPulse { 0%, 100% { box-shadow: 0 6px 16px -6px rgba(217, 4, 41, .85), inset 0 1px 0 rgba(255, 255, 255, .45), 0 0 0 0 rgba(244, 63, 94, .5); } 50% { box-shadow: 0 8px 20px -6px rgba(217, 4, 41, .95), inset 0 1px 0 rgba(255, 255, 255, .55), 0 0 0 6px rgba(244, 63, 94, 0); } }
+          @keyframes fnbDot { 0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, .8); } 70%, 100% { box-shadow: 0 0 0 5px rgba(255, 255, 255, 0); } }
+          @media (prefers-reduced-motion: reduce) { .feat-new-badge, .feat-new-badge .fnb-dot { animation: none; } }
           .feat-card:hover .feat-ico { transform: scale(1.07) rotate(-4deg); box-shadow: 0 16px 30px -12px color-mix(in srgb, var(--fc) 95%, transparent), inset 0 1px 0 rgba(255, 255, 255, .5); }
           .feat-ico svg { width: 23px; height: 23px; }
           .feat-ico-app { position: relative; overflow: hidden; border-radius: 14px; background: linear-gradient(150deg, #4ade80, #22c55e 42%, #15803d); box-shadow: 0 12px 24px -12px rgba(22, 163, 74, .95), inset 0 1px 0 rgba(255, 255, 255, .55), inset 0 -8px 16px -8px rgba(0, 0, 0, .28); }
