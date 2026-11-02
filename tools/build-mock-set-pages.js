@@ -42,6 +42,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { applySourcesLine } = require("./lib/editorial-sources");
 
 const ROOT = path.resolve(__dirname, "..");
 const CHECK = process.argv.includes("--check");
@@ -493,7 +494,7 @@ function creditHTML(cat, sub, set) {
     /<strong>শেহতীয়া আপডেট:<\/strong>\s*[^<]*/,
     `<strong>শেহতীয়া আপডেট:</strong> ${fmtDate(dates.modified, MONTHS_AS)}`
   );
-  return out;
+  return applySourcesLine(out, cat.id);
 }
 
 function buildSetPage(cat, sub, set) {
@@ -589,11 +590,14 @@ function buildSubPage(cat, subId, sets) {
   </main>`;
 
   const relBlock = relatedLinksBlock(cat, subId, subName, sets);
-  const credit = shell.credit.replace(
-    /<p style="margin:0 0 12px;">[\s\S]*?<\/p>/,
-    `<p style="margin:0 0 12px;">${escapeHtml(
-      `The ${subName} mock test sets on this page are written for the ${catName} section of Assam recruitment examinations. Each set is timed like the real paper, graded instantly, and followed by bilingual explanations so you can see exactly where marks were lost.`
-    )}</p>`
+  const credit = applySourcesLine(
+    shell.credit.replace(
+      /<p style="margin:0 0 12px;">[\s\S]*?<\/p>/,
+      `<p style="margin:0 0 12px;">${escapeHtml(
+        `The ${subName} mock test sets on this page are written for the ${catName} section of Assam recruitment examinations. Each set is timed like the real paper, graded instantly, and followed by bilingual explanations so you can see exactly where marks were lost.`
+      )}</p>`
+    ),
+    cat.id
   );
 
   return normaliseLinks(

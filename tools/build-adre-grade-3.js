@@ -28,6 +28,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { sourcesLine } = require("./lib/editorial-sources");
 
 const ROOT = path.resolve(__dirname, "..");
 const DRY = process.argv.includes("--dry-run");
@@ -315,11 +316,11 @@ ${opts.extraHTML || ""}
 ${CHROME.footer}${guard}`;
 }
 
-function editorialBlock(secTitle) {
+function editorialBlock(secTitle, subject) {
   return `  <section class="section" data-axo-editorial-credit="1" style="padding-top:2px; padding-bottom:22px;">
           <div lang="en" data-axo-lang="en" class="info-panel" style="max-width:900px; margin:0 auto; background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:16px; padding:20px 22px; line-height:1.8; color:var(--ink-soft,#475569); text-align:left;">
             <p style="margin:0 0 12px;">${esc(lang(secTitle, "en"))} for the ADRE 3.0 Grade III examination. The questions and explanations follow the patterns used in recent Assam recruitment papers, and each topic is written so that the method can be reproduced in the examination hall.</p>
-            <div class="editorial-meta"><span class="editorial-meta-item"><strong>Author:</strong> <a href="/editorial-team/#axomexam-team">axomexam team</a></span><span class="editorial-meta-item"><strong>Reviewed by:</strong> <a href="/editorial-team/">Axomexam Editorial Team</a></span><span class="editorial-meta-item"><strong>Sources:</strong> Official exam syllabus and standard reference material</span><span class="editorial-meta-item"><strong>Published:</strong> 29 October 2026</span><span class="editorial-meta-item"><strong>Last updated:</strong> 29 October 2026</span><span class="editorial-meta-item"><a href="/editorial-policy/">How we review</a></span></div>
+            <div class="editorial-meta"><span class="editorial-meta-item"><strong>Author:</strong> <a href="/editorial-team/#axomexam-team">axomexam team</a></span><span class="editorial-meta-item"><strong>Reviewed by:</strong> <a href="/editorial-team/">Axomexam Editorial Team</a></span><span class="editorial-meta-item"><strong>Sources:</strong> ${sourcesLine(subject)}</span><span class="editorial-meta-item"><strong>Published:</strong> 29 October 2026</span><span class="editorial-meta-item"><strong>Last updated:</strong> 29 October 2026</span><span class="editorial-meta-item"><a href="/editorial-policy/">How we review</a></span></div>
           </div>
 <div lang="as" data-axo-lang="as" class="info-panel" style="max-width:900px; margin:0 auto; background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:16px; padding:20px 22px; line-height:1.8; color:var(--ink-soft,#475569); text-align:left;">
 <p style="margin:0 0 12px;">ADRE 3.0 গ্ৰেড III পৰীক্ষাৰ ${esc(lang(secTitle, "as"))}। প্ৰশ্ন আৰু ব্যাখ্যাবোৰ শেহতীয়া অসম নিয়োগ পত্ৰত ব্যৱহৃত আৰ্হি অনুসৰি প্ৰস্তুত, আৰু প্ৰতিটো অধ্যায় এনে ধৰণে লিখা হৈছে যাতে পৰীক্ষা কক্ষত পদ্ধতিটো পুনৰ উলিয়াব পাৰি।</p>
@@ -441,7 +442,7 @@ for (const item of leaves) {
 ${cards}
       </div>
     </section>`;
-  write(`exams/${EXAM.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(EXAM.title) + "\n" }));
+  write(`exams/${EXAM.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(EXAM.title, "gk") + "\n" }));
 }
 
 /* ---------------- section pages ---------------- */
@@ -480,7 +481,7 @@ for (const sec of EXAM.sections) {
 ${cards}
       </div>
     </section>`;
-  write(`exams/${EXAM.id}/${sec.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(sec.title) + "\n" }));
+  write(`exams/${EXAM.id}/${sec.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(sec.title, sec.id) + "\n" }));
 }
 
 /* ---------------- sub-category (group) pages ----------------
@@ -523,7 +524,7 @@ for (const sec of EXAM.sections) {
 ${cards}
       </div>
     </section>`;
-    write(`exams/${EXAM.id}/${sec.id}/${sub.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(sec.title) + "\n" }));
+    write(`exams/${EXAM.id}/${sec.id}/${sub.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(sec.title, sec.id) + "\n" }));
   }
 }
 
@@ -567,8 +568,8 @@ ${article.en}
 ${article.as}
       </article>
     </section>
-` + editorialBlock(item.sec.title) + "\n"
-    : editorialBlock(item.sec.title) + "\n";
+` + editorialBlock(item.sec.title, item.sec.id) + "\n"
+    : editorialBlock(item.sec.title, item.sec.id) + "\n";
   write(`exams/${EXAM.id}/${parts.join("/")}/index.html`, pageShell({ head, mainHTML, extraHTML: extra }));
 }
 
@@ -697,7 +698,7 @@ ${articleFor("as")}
       </article>
       <div style="margin-top:18px; text-align:center;"><a class="btn btn-outline btn-sm" href="${examPath}/">Back to ${esc(lang(EXAM.title, "en"))}</a></div>
     </section>`;
-  write(`exams/${EXAM.id}/${sec.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(SYLLABUS.title) + "\n" }));
+  write(`exams/${EXAM.id}/${sec.id}/index.html`, pageShell({ head, mainHTML, extraHTML: editorialBlock(SYLLABUS.title, "gk") + "\n" }));
 }
 
 

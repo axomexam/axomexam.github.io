@@ -33,6 +33,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { applySourcesLine } = require("./lib/editorial-sources");
 
 const ROOT = path.resolve(__dirname, "..");
 const CHECK = process.argv.includes("--check");
@@ -537,11 +538,14 @@ function buildPage(spec, qs) {
     </div>
   </section>`;
 
-  const credit = shell.credit.replace(
-    /<p style="margin:0 0 12px;">[\s\S]*?<\/p>/,
-    `<p style="margin:0 0 12px;">${escapeHtml(
-      `${spec.h1} is a scoring area in almost every Assam recruitment examination. The questions on this page are arranged to be read quickly and revised often, and each one is followed by the answer and a plain-language explanation. Facts are checked against standard reference material and publicly available sources.`
-    )}</p>`
+  const credit = applySourcesLine(
+    shell.credit.replace(
+      /<p style="margin:0 0 12px;">[\s\S]*?<\/p>/,
+      `<p style="margin:0 0 12px;">${escapeHtml(
+        `${spec.h1} is a scoring area in almost every Assam recruitment examination. The questions on this page are arranged to be read quickly and revised often, and each one is followed by the answer and a plain-language explanation. Facts are checked against standard reference material and publicly available sources.`
+      )}</p>`
+    ),
+    spec.route
   ).replace(/(Published:<\/strong>|Last updated:<\/strong>)\s*[^<]*/g, (m, label) => `${label} ${dEn}`)
    .replace(/(প্ৰকাশিত:<\/strong>|শেহতীয়া আপডেট:<\/strong>)\s*[^<]*/g, (m, label) => `${label} ${dAs}`);
 
