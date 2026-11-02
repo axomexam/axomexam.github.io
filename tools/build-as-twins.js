@@ -40,9 +40,12 @@
 
 const fs = require("fs");
 const path = require("path");
+const { createTranslator } = require("./lib/as-hub-strings");
 
 const ROOT = process.cwd();
 const BASE = "https://axomexam.in";
+
+const { translateFragment } = createTranslator(ROOT);
 
 const argv = process.argv.slice(2);
 const CHECK = argv.includes("--check");
@@ -739,7 +742,22 @@ function buildTwin(enHTML, rel, head) {
      in the served HTML so a crawler reads Assamese before English. */
   out = assamesePanelFirst(assameseFirst(out));
 
+  /* Translate the visible body prose. The English page's <main> is copied
+     verbatim above, so without this an /as/ page would serve an English body
+     under lang="as" — a duplicate of its English twin. */
+  out = translateMain(out);
+
   return out;
+}
+
+/* Rewrite the visible text inside <main> to Assamese using the shared tables
+   in data/i18n. Idempotent: runs that already hold Assamese are left alone. */
+function translateMain(html) {
+  const m = /<main\b[^>]*>([\s\S]*?)<\/main>/.exec(html);
+  if (!m) return html;
+  const bodyStart = m.index + m[0].indexOf(">") + 1;
+  const bodyEnd = m.index + m[0].length - "</main>".length;
+  return html.slice(0, bodyStart) + translateFragment(m[1]) + html.slice(bodyEnd);
 }
 
 /* Add the hreflang trio right after the canonical, replacing any previous

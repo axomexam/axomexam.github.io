@@ -26,7 +26,7 @@ const ROOT = path.resolve(__dirname, "..");
 const CHECK = process.argv.includes("--check");
 const SITE = "https://axomexam.in";
 const SKIP_DIRS = new Set([".git", "node_modules", "dist", ".github"]);
-const FAQ_HEADING = /<h[1-6][^>]*>\s*Frequently Asked Questions\s*<\/h[1-6]>/i;
+const FAQ_HEADING = /<h[1-6][^>]*>\s*(?:Frequently Asked Questions|সঘনাই সোধা প্ৰশ্ন)\s*<\/h[1-6]>/i;
 
 const NAMED_ENTITIES = {
   amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ",
@@ -97,12 +97,20 @@ function pairKey(item) {
   return `${item.q.toLowerCase()}\u0000${item.a.toLowerCase()}`;
 }
 
+function isAssamesePath(file) {
+  const rel = path.relative(ROOT, file).replace(/\\/g, "/");
+  return rel === "as" || rel.startsWith("as/");
+}
+
 function countPairs(files) {
   const counts = new Map();
   for (const file of files) {
     const html = fs.readFileSync(file, "utf8");
     for (const item of collectFaq(html)) {
-      const k = pairKey(item);
+      /* Count within a language, not across the pair: an /as/ twin repeats the
+         English page's questions on purpose, so a site-wide count would treat
+         every translated pair as boilerplate and drop it. */
+      const k = (isAssamesePath(file) ? "as\u0000" : "en\u0000") + pairKey(item);
       counts.set(k, (counts.get(k) || 0) + 1);
     }
   }
@@ -120,10 +128,14 @@ function processFile(file, counts, stats) {
     stats.noFaq++;
     return;
   }
-  const keep = faq.filter((it) => (counts.get(pairKey(it)) || 0) <= 1);
+  const keep = faq.filter((it) => (counts.get((isAssamesePath(file) ? "as\u0000" : "en\u0000") + pairKey(it)) || 0) <= 1);
   stats.excluded += faq.length - keep.length;
 
   const url = getCanonical(html, file);
+  /* The FAQ text is taken from the page, so the node must declare the page's
+     own language; an /as/ page carries Assamese Q&A and must not advertise
+     itself as English. */
+  const isAs = isAssamesePath(file);
   const faqNode = keep.length
     ? {
         "@type": "FAQPage",
@@ -131,7 +143,7 @@ function processFile(file, counts, stats) {
         url,
         name: "Frequently Asked Questions",
         isPartOf: { "@id": `${SITE}/#website` },
-        inLanguage: ["en", "as"],
+        inLanguage: isAs ? "as" : "en",
         mainEntity: keep.map((item) => ({
           "@type": "Question",
           name: item.q,

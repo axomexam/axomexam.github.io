@@ -139,7 +139,28 @@ function updateAppSource() {
     console.log("  warning: DEEP_CONTENT marker not found in " + rel + " (skipped)");
     return false;
   }
-  const after = before.replace(re, block);
+  let after = before.replace(re, block);
+
+  /* The Assamese twin needs the same block in Assamese; keep it in a separate
+     generated region so the English one stays byte-identical. */
+  const asFile = path.join(ROOT, "data", "i18n", "deep-content-as.json");
+  if (fs.existsSync(asFile)) {
+    const asData = JSON.parse(fs.readFileSync(asFile, "utf8"));
+    const asBlock =
+      "/* ==== BEGIN GENERATED DEEP CONTENT AS (scripts/build-deep-content.js) ==== */\n" +
+      "  const DEEP_CONTENT_AS = " + JSON.stringify(asData) + ";\n" +
+      "  /* ==== END GENERATED DEEP CONTENT AS ==== */";
+    const asRe = /\/\* ==== BEGIN GENERATED DEEP CONTENT AS \(scripts\/build-deep-content\.js\) ==== \*\/[\s\S]*?\/\* ==== END GENERATED DEEP CONTENT AS ==== \*\//;
+    if (asRe.test(after)) {
+      after = after.replace(asRe, asBlock);
+    } else {
+      after = after.replace(
+        /(\/\* ==== END GENERATED DEEP CONTENT ==== \*\/)/,
+        "$1\n\n  " + asBlock
+      );
+    }
+  }
+
   if (before === after) return false;
   if (!CHECK) fs.writeFileSync(file, after, "utf8");
   console.log("  updated " + rel);
