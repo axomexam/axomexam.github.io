@@ -845,7 +845,7 @@ function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, 
         <span data-i18n="tab.search">Search</span>
       </a>
       <button class="tab-item" id="tab-menu" data-tab="menu" type="button">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16"/><path d="M4 12h16"/><path d="M4 20h16"/></svg>
         <span data-i18n="tab.menu">Menu</span>
       </button>
     </nav>

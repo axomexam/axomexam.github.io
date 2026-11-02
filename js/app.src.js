@@ -1160,13 +1160,33 @@
       mobileCats.splice(mobileCats.findIndex((c) => c.id === "computer"), 0, art);
     }
 
+    const segs = parsePath();
+    const svgWrap = (inner) =>
+      `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
+    /* catIconHTML already returns its own <span class="cat-svg"><svg>…</svg></span>.
+       Wrapping that in another <svg> makes the parser close the outer element at
+       the nested <span>, leaving an empty 18px-tall <svg> that pushes the real
+       glyph off-centre. Only bare path markup (quick tiles, "more" links) needs
+       the wrapper, so skip it when the value is already a complete element. */
+    const iconTile = (inner, color) =>
+      `<span class="m-ico" style="--mc:${color}">${/^\s*<(?:svg|span)\b/i.test(inner) ? inner : svgWrap(inner)}</span>`;
+    const isActive = (href) => {
+      const h = href.replace(/^\//, "").replace(/\/$/, "");
+      if (h === "mock-test") return segs[0] === "mock-test";
+      return activePath === h || activePath.split("/")[0] === h;
+    };
+
     const catParts = mobileCats.map((cat) => {
       const kids = cat.subcategories || cat.sections || [];
       return `
-        <li>
+        <li class="m-cat">
           <div class="m-row">
             <a class="m-item ${activePath.split("/")[0] === cat.id ? "active" : ""}" href="/category/${cat.id}">
-              ${escapeHtml(navName(cat.name))}
+              ${iconTile(catIconHTML(cat.id), catColor(cat.id))}
+              <span class="m-txt">
+                <b>${escapeHtml(navName(cat.name))}</b>
+                <small>${countTopics(cat)} ${escapeHtml(t("cat.topics"))}</small>
+              </span>
             </a>
             ${kids.length ? `<button class="m-toggle" data-toggle data-target="${cat.id}" aria-label="toggle"><span class="caret"></span></button>` : ""}
           </div>
@@ -1174,82 +1194,62 @@
             const grand = sub.sections;
             if (grand && grand.length) {
               return `
-                <div class="m-row">
-                  <a class="m-item" href="/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(navName(sub.name))}</span></a>
-                  <button class="m-toggle" data-toggle data-target="${cat.id}-${sub.id}" aria-label="toggle"><span class="caret"></span></button>
+                <div class="m-row m-sub-row">
+                  <a class="m-sub-link" href="/category/${cat.id}/${sub.id}">${escapeHtml(navName(sub.name))}</a>
+                  <button class="m-toggle m-toggle-sm" data-toggle data-target="${cat.id}-${sub.id}" aria-label="toggle"><span class="caret"></span></button>
                 </div>
                 <div class="m-sub m-nested" id="msub-${cat.id}-${sub.id}">
-                  ${grand.map((sec) => `<a href="/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.87rem; color:var(--ink-soft,#475569);">${escapeHtml(navName(sec.name))}</span></a>`).join("")}
+                  ${grand.map((sec) => `<a class="m-sub-link" href="/category/${cat.id}/${sub.id}/${sec.id}">${escapeHtml(navName(sec.name))}</a>`).join("")}
                 </div>`;
             }
             const isLeaf = !(sub.topics && sub.topics.length);
             const href = isLeaf ? `/topic/${cat.id}/${sub.id}` : `/category/${cat.id}/${sub.id}`;
-            return `<a href="${href}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(navName(sub.name))}</span></a>`;
+            return `<a class="m-sub-link" href="${href}">${escapeHtml(navName(sub.name))}</a>`;
           }).join("")}</div>` : ""}
         </li>`;
     });
 
-    const mBtnStyle = `display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:12px;background:var(--bg-subtle,#f8fafc);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);box-shadow:0 1px 3px rgba(0,0,0,0.03);`;
+    /* Quick tiles — the destinations an aspirant reaches for first, as
+       colour-tinted cards instead of a plain text list. */
+    const tiles = [
+      { href: "/mock-test", key: "nav.mock", color: "#0ea5e9", svg: `<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/>` },
+      { href: "/ebooks", key: "nav.ebooks", color: "#f59e0b", svg: `<path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/>` },
+      { href: "/exams", key: "nav.exams", color: "#8b5cf6", svg: `<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>`, isNew: true },
+      { href: "/downloads", key: "nav.downloads", color: "#0d9488", svg: `<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/>` },
+    ];
+    const tileParts = tiles.map((it) => `
+      <a class="m-tile ${isActive(it.href) ? "active" : ""}" href="${it.href}" style="--mc:${it.color}">
+        ${it.isNew ? `<span class="m-new">${state.uiLang === "as" ? "নতুন" : "NEW"}</span>` : ""}
+        ${iconTile(it.svg, it.color)}
+        <b>${escapeHtml(t(it.key))}</b>
+      </a>`);
 
-    const ebookItem = `
-      <li class="m-ebook" style="margin-top:8px;">
-        <a class="m-item ${activePath === "ebooks" ? "active" : ""}" href="/ebooks" style="${mBtnStyle}">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
-          ${escapeHtml(t("nav.ebooks"))}
-        </a>
+    /* Secondary links, as a compact two-column grid. */
+    const moreItems = [
+      { href: "/previous-year", key: "nav.previousYear", color: "#10b981", svg: `<path d="M9 12h6"/><path d="M9 16h4"/><path d="M7 3v3"/><path d="M17 3v3"/><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/>` },
+      { href: "/download-app", key: "nav.downloadApp", color: "#16a34a", svg: `<rect x="7" y="2" width="10" height="20" rx="2.2"/><path d="M12 7v7"/><path d="m9.5 11.5 2.5 2.5 2.5-2.5"/>` },
+      { href: "/submit", key: "nav.submit", color: "#e11d48", svg: `<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>` },
+      { href: "/contact", label: state.uiLang === "as" ? "যোগাযোগ" : "Contact Us", color: "#64748b", svg: `<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>` },
+    ];
+    const moreParts = moreItems.map((it) => `
+      <a class="m-more ${isActive(it.href) ? "active" : ""}" href="${it.href}" style="--mc:${it.color}">
+        ${iconTile(it.svg, it.color)}
+        <span>${escapeHtml(it.label || t(it.key))}</span>
+      </a>`);
+
+    nav.innerHTML = `
+      <li class="m-block">
+        <p class="m-label">${escapeHtml(t("nav.quickStart"))}</p>
+        <div class="m-tiles">${tileParts.join("")}</div>
+      </li>
+      <li class="m-block">
+        <p class="m-label">${escapeHtml(t("nav.categories"))}</p>
+        <ul class="m-cats">${catParts.join("")}</ul>
+      </li>
+      <li class="m-block">
+        <p class="m-label">${escapeHtml(t("mmenu.extra"))}</p>
+        <div class="m-more-grid">${moreParts.join("")}</div>
       </li>`;
-
-    const examItem = `
-      <li class="m-exam" style="margin-top:8px;">
-        <a class="m-item ${activePath === "exams" ? "active" : ""}" href="/exams" style="${mBtnStyle}">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-          ${escapeHtml(t("nav.exams"))}
-        </a>
-      </li>`;
-
-    const downloadItem = `
-      <li class="m-download" style="margin-top:8px;">
-        <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="/downloads" style="${mBtnStyle}">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
-          ${escapeHtml(t("nav.downloads"))}
-        </a>
-      </li>`;
-
-    const prevYearItem = `
-      <li class="m-py" style="margin-top:6px;">
-        <a class="m-item ${activePath === "previous-year" ? "active" : ""}" href="/previous-year" style="${mBtnStyle}">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6"/><path d="M9 16h4"/><path d="M7 3v3"/><path d="M17 3v3"/><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>
-          ${escapeHtml(t("nav.previousYear"))}
-        </a>
-      </li>`;
-
-    const submitItem = `
-      <li class="m-submit" style="margin-top:6px;">
-        <a class="m-item ${activePath === "submit" ? "active" : ""}" href="/submit" style="${mBtnStyle}">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-          ${escapeHtml(t("nav.submit"))}
-        </a>
-      </li>`;
-
-    const contactItem = `
-      <li class="m-contact" style="margin-top:6px;margin-bottom:8px;">
-        <a class="m-item ${activePath === "contact" ? "active" : ""}" href="/contact" style="${mBtnStyle}">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          ${escapeHtml(t("nav.contact"))}
-        </a>
-      </li>`;
-
-    const downloadAppItem = `
-      <li class="m-download-app" style="margin-bottom:8px;">
-        <a class="m-item ${activePath === "download-app" ? "active" : ""}" href="/download-app" style="${mBtnStyle}">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2.2"/><path d="M12 7v7"/><path d="m9.5 11.5 2.5 2.5 2.5-2.5"/></svg>
-          ${escapeHtml(t("nav.downloadApp"))}
-        </a>
-      </li>`;
-
-    catParts.push(examItem, ebookItem, downloadAppItem, downloadItem, prevYearItem, submitItem, contactItem);
-
-    nav.innerHTML = catParts.join("");
 
     $$("[data-toggle]", nav).forEach((btn) => {
       btn.addEventListener("click", (e) => {

@@ -280,15 +280,6 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 .mobile-menu-head .m-theme-toggle { margin-left: auto; }
 .mobile-menu-head .m-close { margin-left: 0; }
 
-/* Previous year questions item in the mobile menu */
-.mobile-nav .m-py a.m-item {
-  display: flex; align-items: center; gap: 10px;
-  margin: 10px 0 2px; padding: 13px 14px; border-radius: 12px;
-  background: var(--bg-tint); color: var(--ink);
-  font-weight: 700; border: 1px solid var(--line);
-}
-.mobile-nav .m-py a.m-item svg { width: 18px; height: 18px; color: var(--primary); }
-
 /* ============================================================
    Navigation (desktop)
    ============================================================ */
@@ -364,32 +355,137 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 .m-close:hover { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
 .m-close svg { width: 18px; height: 18px; }
 
-.mobile-nav { padding: 0 14px 24px; }
-.mobile-nav > li { border-bottom: 1px solid var(--line); }
-.mobile-nav .m-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-.mobile-nav a.m-item { flex: 1; display: block; padding: 13px 6px; font-weight: 600; font-size: .95rem; color: var(--ink); }
-.mobile-nav .m-item.active { color: var(--primary); }
-.mobile-nav .m-download a.m-item {
-  display: flex; align-items: center; gap: 10px;
-  margin: 10px 0 4px; padding: 13px 14px; border-radius: 12px;
-  background: var(--grad); color: #fff; font-weight: 700;
-  box-shadow: 0 8px 18px -8px rgba(79, 70, 229, .5);
+/* ----- Mobile menu: body ----- */
+.mobile-nav { margin: 0; padding: 4px 14px 30px; list-style: none; }
+.m-block { list-style: none; padding: 0; margin: 0 0 4px; }
+.m-block + .m-block { margin-top: 18px; }
+.m-label {
+  margin: 0 0 9px; padding-left: 3px;
+  font-size: .68rem; font-weight: 800; letter-spacing: .9px;
+  text-transform: uppercase; color: var(--ink-faint);
 }
-.mobile-nav .m-download a.m-item svg { width: 18px; height: 18px; }
-.m-toggle { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 8px; color: var(--ink-faint); transition: var(--transition); }
-.m-toggle:hover { background: var(--bg-tint); }
-.m-toggle .caret { width: 9px; height: 9px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform var(--transition); }
+.mobile-nav ul.m-cats { list-style: none; margin: 0; padding: 0; }
+
+/* Quick Start tiles */
+.m-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+.m-tile {
+  position: relative; display: flex; flex-direction: column; gap: 7px;
+  padding: 13px 12px 12px; border-radius: 14px;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--mc) 13%, var(--bg)) 0%, var(--bg) 78%);
+  border: 1px solid color-mix(in srgb, var(--mc) 26%, var(--line));
+  box-shadow: 0 3px 12px -8px color-mix(in srgb, var(--mc) 55%, transparent);
+  color: var(--ink); transition: var(--transition);
+}
+.m-tile:active { transform: scale(.975); }
+.m-tile b { font-size: .84rem; font-weight: 700; line-height: 1.25; }
+.m-tile.active {
+  border-color: color-mix(in srgb, var(--mc) 60%, var(--line));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--mc) 26%, transparent);
+}
+.m-new {
+  position: absolute; top: 9px; right: 9px;
+  padding: 2px 7px; border-radius: 999px;
+  background: linear-gradient(120deg, #ff4d6d, #f43f5e 60%, #e11d48);
+  color: #fff; font-size: .57rem; font-weight: 800; letter-spacing: .5px;
+  box-shadow: 0 0 0 0 rgba(244, 63, 94, .6);
+  animation: mNewPulse 1.9s ease-out infinite;
+}
+@keyframes mNewPulse {
+  0% { box-shadow: 0 0 0 0 rgba(244, 63, 94, .55); }
+  70% { box-shadow: 0 0 0 7px rgba(244, 63, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(244, 63, 94, 0); }
+}
+
+/* Shared icon chip */
+.m-ico {
+  /* Flex centring keeps the glyph centred whether it arrives as a bare <svg>
+     or wrapped in a .cat-svg span; a grid box left the wrapped variant sitting
+     on the tile's baseline. */
+  display: flex; align-items: center; justify-content: center; flex: 0 0 auto;
+  width: 34px; height: 34px; border-radius: 10px;
+  background: color-mix(in srgb, var(--mc, var(--primary)) 15%, var(--bg));
+  color: var(--mc, var(--primary));
+  border: 1px solid color-mix(in srgb, var(--mc, var(--primary)) 22%, transparent);
+}
+.m-ico svg { width: 18px; height: 18px; }
+/* The category glyphs arrive wrapped in .cat-svg; make the wrapper shrink-wrap
+   and centre its icon, otherwise its inherited line box is taller than the
+   glyph and the icon ends up above the tile centre. */
+.m-ico .cat-svg { display: flex; align-items: center; justify-content: center; }
+.m-ico .cat-svg svg { width: 18px; height: 18px; }
+
+/* Category rows */
+.m-cat { list-style: none; border-bottom: 1px solid var(--line); }
+.m-cat:last-child { border-bottom: 0; }
+.mobile-nav .m-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.mobile-nav a.m-item {
+  flex: 1; display: flex; align-items: center; gap: 11px;
+  min-width: 0; padding: 11px 4px; font-weight: 600; font-size: .95rem; color: var(--ink);
+}
+.mobile-nav .m-txt { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.mobile-nav .m-txt b { font-weight: 700; font-size: .93rem; }
+.mobile-nav .m-txt small { font-size: .71rem; font-weight: 600; color: var(--ink-faint); }
+.mobile-nav .m-item.active .m-txt b { color: var(--primary); }
+.mobile-nav .m-item.active .m-ico {
+  background: var(--grad); color: #fff; border-color: transparent;
+  box-shadow: 0 5px 14px -6px rgba(79, 70, 229, .7);
+}
+.mobile-nav .m-item.active .m-txt small { color: var(--primary); }
+
+.m-toggle {
+  width: 36px; height: 36px; flex: 0 0 auto; display: grid; place-items: center;
+  border-radius: 10px; color: var(--ink-faint);
+  background: var(--bg-soft); border: 1px solid var(--line);
+  transition: var(--transition);
+}
+.m-toggle:hover { background: var(--bg-tint); color: var(--primary); }
+.m-toggle.open { background: var(--bg-tint); color: var(--primary); border-color: color-mix(in srgb, var(--primary) 35%, var(--line)); }
+.m-toggle .caret {
+  width: 8px; height: 8px;
+  border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-2px); transition: transform var(--transition);
+}
 .m-toggle.open .caret { transform: rotate(225deg) translateY(0); }
-.m-sub { display: none; padding: 0 0 10px 16px; border-left: 2px solid var(--line); margin-left: 8px; }
+.m-toggle-sm { width: 28px; height: 28px; border: 0; background: transparent; }
+
+/* Category sub-lists */
+.m-sub {
+  display: none; margin: 0 0 10px; padding: 4px 0 2px 14px;
+  border-left: 2px solid color-mix(in srgb, var(--primary) 28%, var(--line));
+}
 .m-sub.open { display: block; }
-.m-sub a { display: block; padding: 9px 8px; font-size: .88rem; font-weight: 500; color: #000; }
-.m-sub a:hover { color: var(--primary); }
-.m-sub a.m-sub-link { font-weight: 600; color: var(--ink); }
-.m-sub a.m-sub-link.active { color: var(--primary); }
-.m-nested { padding-left: 14px; }
-.m-menu-label {
-  padding: 18px 8px 6px; margin-top: 6px; border-top: 1px solid var(--line);
-  font-size: .7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .8px; color: var(--ink-faint);
+.m-sub a.m-sub-link {
+  display: block; padding: 8px 10px; margin: 1px 0; border-radius: 9px;
+  font-size: .87rem; font-weight: 600; color: var(--ink-soft);
+  transition: var(--transition);
+}
+.m-sub a.m-sub-link:hover { background: var(--bg-tint); color: var(--primary); }
+.m-sub a.m-sub-link.active { background: var(--bg-tint); color: var(--primary); font-weight: 700; }
+.m-sub-row { align-items: center; }
+.m-sub-row > a.m-sub-link { flex: 1; }
+.m-nested { margin-left: 6px; }
+
+/* "More" links grid */
+.m-more-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.m-more {
+  display: flex; align-items: center; gap: 9px; min-width: 0;
+  padding: 10px 11px; border-radius: 12px;
+  background: var(--bg-soft); border: 1px solid var(--line);
+  color: var(--ink); font-size: .82rem; font-weight: 700;
+  transition: var(--transition);
+}
+.m-more:active { transform: scale(.975); }
+.m-more span:not(.m-ico) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.m-more .m-ico { width: 29px; height: 29px; border-radius: 9px; }
+.m-more .m-ico svg { width: 15px; height: 15px; }
+.m-more.active {
+  border-color: color-mix(in srgb, var(--mc) 55%, var(--line));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--mc) 20%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .m-new { animation: none; }
+  .m-tile, .m-more, .m-toggle { transition: none; }
 }
 
 /* ============================================================
@@ -891,6 +987,9 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
   padding: 7px 2px 6px; border-radius: 12px;
   font-size: .66rem; font-weight: 700; color: var(--ink-faint);
+  /* Buttons do not inherit the body line-height, so the "Menu" tab (the only
+     <button> here) sat ~2px lower than the four <a> tabs. Pin it explicitly. */
+  line-height: 1.6;
   transition: color var(--transition), background var(--transition), transform .12s ease, box-shadow var(--transition);
   min-width: 0; position: relative;
 }
@@ -1490,6 +1589,14 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 [data-theme="dark"] .sp-empty-ico.is-warn { background: rgba(239, 68, 68, .14); }
 [data-theme="dark"] .dropdown { background: var(--bg-soft); }
 [data-theme="dark"] .mobile-menu { background: var(--bg); }
+[data-theme="dark"] .m-tile {
+  background: linear-gradient(160deg, color-mix(in srgb, var(--mc) 22%, var(--bg)) 0%, var(--bg) 78%);
+  border-color: color-mix(in srgb, var(--mc) 34%, var(--line));
+}
+[data-theme="dark"] .m-more { background: var(--bg-soft); }
+[data-theme="dark"] .m-ico { background: color-mix(in srgb, var(--mc, var(--primary)) 22%, var(--bg)); }
+[data-theme="dark"] .m-toggle { background: var(--bg-soft); }
+[data-theme="dark"] .m-toggle.open { background: var(--bg-tint); }
 [data-theme="dark"] .tabbar { background: var(--bg); }
 [data-theme="dark"] .qa-card,
 [data-theme="dark"] .info-panel,

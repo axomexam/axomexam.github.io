@@ -668,6 +668,36 @@ There is no test suite. Verify with scripts that diff the working tree against
 Never change a URL, a canonical target, or `sitemap.xml` as a side effect of
 a content fix.
 
+### Icon alignment invariants
+
+Three icon traps have already caused visible misalignment; keep these in mind
+before editing icon containers or the tile builders in `js/app.src.js`.
+
+- `iconTile(inner, color)` must not wrap `inner` when it is already a complete
+  element. `catIconHTML()` returns `<span class="cat-svg"><svg>…</svg></span>`,
+  and `svgWrap()` wraps a value in another `<svg>`. Nesting a `<span>` inside an
+  `<svg>` makes the parser close the outer element early, leaving an empty
+  18px-tall `<svg>` in front of the real icon, which pushes the glyph up and to
+  the right (offX ≈ +12px, offY ≈ −3.5px). The guard is
+  `/^\s*<(?:svg|span)\b/i.test(inner) ? inner : svgWrap(inner)`. A bare `<` test
+  is wrong: it also matches the quick-tile path markup (`<circle`, `<path`) and
+  drops their wrapper entirely.
+- `.m-ico` (mobile-menu icon chip) must centre its glyph with
+  `display: flex; align-items: center; justify-content: center`. A grid box
+  (`place-items: center`) looks identical for a bare `<svg>`, but the category
+  rows wrap their glyph in `<span class="cat-svg">`, and a grid box leaves that
+  wrapper on the text baseline — the icon then sits at the tile bottom
+  (measured gap 20.5px above / 0px below instead of 8/8). `.cat-svg` itself must
+  also shrink-wrap (`display: flex; …`), otherwise its inherited line box is
+  taller than the glyph and the icon floats above centre.
+- Every id in `data/categories.json` needs an entry in `CATEGORY_ICON_SVG`
+  (`js/config.src.js`). A missing entry falls back to the plain text field
+  (`"A"` for `articles`), which renders invisibly inside an `<svg>` because a
+  bare text node is not drawn without `<text>`, leaving a blank tile.
+- The bottom tab bar mixes four `<a>` tabs with one `<button>` ("Menu").
+  Buttons do not inherit the body `line-height`, so `.tab-item` pins
+  `line-height: 1.6` to keep all five icons on the same row.
+
 ## Assamese (/as/) twin build order
 
 The `/as/` tree is generated, not hand-edited. Run the steps in this order;
