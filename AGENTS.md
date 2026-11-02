@@ -656,9 +656,26 @@ node tools/build-as-twins.js            # copies English pages into /as/ and rew
 node tools/add-as-hub-content.js        # Assamese hub body copy
 node tools/inject-as-static-pages.js    # Assamese static pages (about, contact, ...)
 node tools/translate-deep-content.js    # Assamese deep-content blocks on the 10 category hubs
+node tools/dedupe-as-twins.js           # drop the English copy from bilingual /as/ pages
 node scripts/inject-faq-schema.js       # re-run last: the twins now hold Assamese FAQ text
 node scripts/minify-assets.js && node scripts/stamp-assets.js
 ```
+
+`tools/dedupe-as-twins.js` must run after the twins are built and after every
+generator that writes both languages into one page, because it is what removes
+the English half from the Assamese URL. It covers four shapes:
+
+- `/as/ebooks/<id>/` — drops the `lang="en"` book wrapper (`class="ebk-chapters"`).
+- `/as/category/articles/<cat>/read/` — rebuilds the `<article>` Q&A list from
+  `data/content/articles/<cat>.json` using the Assamese fields only.
+- `/as/exams/<exam>/syllabus/` — keeps only the Assamese half of the panel.
+- every other `/as/` page with a deep-article panel — drops the
+  `<article lang="en" data-axo-lang="en" class="info-panel">` sibling.
+
+It only writes under `/as/`, only when the page still carries real Assamese text
+after the edit, and it is idempotent (`--check` reports drift without writing).
+Without it, the `/as/` twin serves the English body and is a near-duplicate of
+its English counterpart.
 
 `js/app.src.js` selects `DEEP_CONTENT_AS` over `DEEP_CONTENT` when
 `state.lang === "as"`, so the pre-rendered Assamese HTML and the runtime agree.
