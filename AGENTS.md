@@ -643,3 +643,27 @@ There is no test suite. Verify with scripts that diff the working tree against
 
 Never change a URL, a canonical target, or `sitemap.xml` as a side effect of
 a content fix.
+
+## Assamese (/as/) twin build order
+
+The `/as/` tree is generated, not hand-edited. Run the steps in this order;
+each one is idempotent, and running them out of order leaves stale copies:
+
+```
+node scripts/build-deep-content.js      # regenerates DEEP_CONTENT / DEEP_CONTENT_AS in js/app.src.js
+node scripts/inject-faq-schema.js       # FAQPage nodes from the visible FAQ (English pages)
+node tools/build-as-twins.js            # copies English pages into /as/ and rewrites the head
+node tools/add-as-hub-content.js        # Assamese hub body copy
+node tools/inject-as-static-pages.js    # Assamese static pages (about, contact, ...)
+node tools/translate-deep-content.js    # Assamese deep-content blocks on the 10 category hubs
+node scripts/inject-faq-schema.js       # re-run last: the twins now hold Assamese FAQ text
+node scripts/minify-assets.js && node scripts/stamp-assets.js
+```
+
+`js/app.src.js` selects `DEEP_CONTENT_AS` over `DEEP_CONTENT` when
+`state.lang === "as"`, so the pre-rendered Assamese HTML and the runtime agree.
+`scripts/inject-faq-schema.js` must run after the twins are built: it reads the
+visible FAQ, so an `/as/` page that is still English at that point gets an
+English FAQPage node. It declares `inLanguage` from the page path and counts
+boilerplate per language, so a translated twin is not dropped as a duplicate of
+its English counterpart.
