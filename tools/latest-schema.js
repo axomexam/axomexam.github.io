@@ -33,6 +33,33 @@ const SITE_NAME = "axomexam";
 const DRY = process.argv.includes("--dry-run");
 const ORG_ID = BASE + "/#organization";
 const SITE_ID = BASE + "/#website";
+const FOUNDER_ID = BASE + "/editorial-team/#bapon-barmon";
+/* The founder is a Person, not the Organization: the site is run by a named
+   individual, and an Organization cannot be its own founder. */
+const FOUNDER = {
+  "@type": "Person",
+  "@id": FOUNDER_ID,
+  name: "Bapon Barmon",
+  jobTitle: "Founder and Editor-in-Chief",
+  description: "Graduate (History Honours)",
+  url: FOUNDER_ID,
+  sameAs: ["https://t.me/bapon_barmon"],
+};
+/* Named team members. Profile URLs point at the English team page so the same
+   Person entities are referenced from every page, not just the Assamese ones. */
+const EMPLOYEES = [
+  { name: "Harsh Barman", jobTitle: "Team Manager", description: "M.A. in History", anchor: "harsh-barman" },
+  { name: "Abhik Roy", jobTitle: "Team Member", description: "MBA", anchor: "abhik-roy" },
+  { name: "Gautam Das", jobTitle: "Team Member", description: "B.Sc.", anchor: "gautam-das" },
+].map((e) => ({
+  "@type": "Person",
+  "@id": `${BASE}/editorial-team/#${e.anchor}`,
+  name: e.name,
+  jobTitle: e.jobTitle,
+  description: e.description,
+  url: `${BASE}/editorial-team/#${e.anchor}`,
+  worksFor: { "@id": ORG_ID },
+}));
 
 const SKIP_DIRS = new Set([".git", "dist", "js", "css", "data", "tools", "node_modules", "images", "app"]);
 
@@ -309,6 +336,13 @@ function organizationNode() {
       "Free bilingual (Assamese and English) mock tests, previous year papers and PDF notes for ADRE 2.0 & 3.0, APSC, Assam Police, DHS, SSC and Railway.",
     logo: { "@type": "ImageObject", url: BASE + "/og-image.png", width: 1200, height: 630 },
     sameAs: ["https://github.com/axomexam/axomexam.github.io"],
+    founder: FOUNDER,
+    employee: EMPLOYEES,
+    foundingDate: "2026",
+    publishingPrinciples: BASE + "/editorial-policy/",
+    correctionsPolicy: BASE + "/updates/",
+    ethicsPolicy: BASE + "/editorial-policy/",
+    email: "contact@axomexam.in",
     areaServed: { "@type": "Country", name: "India" },
     knowsAbout: [
       "Assam Direct Recruitment Examination (ADRE)",
@@ -327,6 +361,28 @@ function organizationNode() {
       contactType: "customer support",
       url: BASE + "/contact/",
     },
+  };
+}
+
+/* Profile page node for the founder. Uses the canonical @id so the reference
+   from the Organization node resolves to the same entity. */
+function founderNode(url) {
+  return {
+    "@type": "Person",
+    "@id": FOUNDER_ID,
+    name: FOUNDER.name,
+    jobTitle: FOUNDER.jobTitle,
+    description: FOUNDER.description,
+    url: FOUNDER_ID,
+    sameAs: FOUNDER.sameAs,
+    mainEntityOfPage: { "@id": url + "#webpage" },
+    worksFor: { "@id": ORG_ID },
+    knowsAbout: [
+      "Assam Direct Recruitment Examination (ADRE)",
+      "Assam Public Service Commission (APSC)",
+      "Assam Police / SLPRB",
+      "Assam History",
+    ],
   };
 }
 
@@ -519,6 +575,9 @@ function buildGraph(html, rel) {
 
     graph.unshift(pageNode({ url, type: pageType, title, description, image, mainId, breadcrumbId, updated }));
     if (bc.length) graph.push(breadcrumbNode(url, bc));
+    /* The editorial team page is the profile page the founder's @id points at,
+       so the Person entity is declared here and not only on the home page. */
+    if (/\/(as\/)?editorial-team\/$/.test(url)) graph.push(founderNode(url), ...EMPLOYEES);
   }
 
   return { "@context": "https://schema.org", "@graph": graph.filter(Boolean) };
