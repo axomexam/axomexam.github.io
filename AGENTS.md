@@ -176,9 +176,27 @@ add a page-level WebPage node without disturbing the Assamese head.
 
 ## Gotcha: do not run tools/latest-schema.js
 
-`tools/latest-schema.js` is stale. Running it deletes the FAQPage node from
-every page (593 -> 0) and rewrites `sitemap.xml` and the nav. It was reverted
-once already. Use the targeted tools below instead.
+`tools/latest-schema.js` was stale and destructive: running it deleted the
+FAQPage node from every page (593 -> 0) and rewrote `sitemap.xml` and the nav.
+It has since been repaired for the cases below, but still treat it with care.
+
+Fixed in the founder-attribution work (Nov 2026):
+
+- it now preserves an existing `FAQPage` node instead of dropping it, so
+  re-running no longer wipes the injector's work.
+- `/as/` is classified as a home page, so its `Organization` and `WebSite`
+  nodes survive a rebuild.
+- the `Organization` node carries `founder` (Person "Bapon Barmon") and
+  `employee`, and is emitted on the editorial team pages too.
+
+Still true: the checked-in HTML is ahead of the generator in places (titles and
+some nodes were edited by hand). Running it over the whole tree produces a huge
+unrelated diff. To change a few pages, copy those files plus
+`tools/latest-schema.js` into a throwaway `git worktree` of HEAD, run it there,
+and copy only the files you meant to change back.
+
+Never `require('./tools/latest-schema.js')` from another script: it runs the
+full rewrite on load.
 
 ## Crawler-facing tools
 
@@ -393,6 +411,32 @@ The site ships a static block outside `<main id="app">` on most pages. That is
 deliberate: `renderRoute()` replaces `#app` on load and navigation, so content
 placed *inside* `<main>` is destroyed for real visitors and never seen. The
 static block is the crawler/no-JS copy. Do not move it inside `<main>`.
+
+## AdSense trust signals (audited Nov 2026)
+
+The 22 Oct 2026 rejection was "low-value content". The trust layer now in place:
+
+- **Publisher identity.** The `Organization` node (`https://axomexam.in/#organization`)
+  has `founder` (Person "Bapon Barmon", `@id`
+  `https://axomexam.in/editorial-team/#bapon-barmon`) and `employee`, plus
+  `publishingPrinciples`, `correctionsPolicy`, `ethicsPolicy` and `email`. The
+  founder's `@id` resolves to a visible card on both editorial-team pages.
+  Topic-page bylines stay "axomexam team" on purpose; only the founder is a
+  named person.
+- **Privacy policy.** The canonical, indexable page is `/privacy/` (13 sections,
+  ~1300 words, linked from the footer). `/privacy-policy/` is a `noindex`
+  duplicate whose canonical points at `/privacy/`. Do not "fix" the duplicate
+  by editing it: the real page is `/privacy/`.
+- **Changelog.** `/updates/` is the dated record that signals ongoing curation;
+  add an entry for any substantive change and keep `/as/updates/` in step.
+- **Content is genuinely unique.** Exam pages average ~4500 words and ~6%
+  pairwise similarity; topic pages run 6000-8800 words. Thin pages are the
+  redirect stubs under `exams/assam-police/logical-reasoning/`, which are
+  `noindex` and carry no ad unit on purpose.
+
+When resubmitting, the fix must be live and crawlable first: verify with a
+Googlebot user agent that the page returns 200, has real words in the static
+block, and is not `noindex`.
 
 ## Exam books
 
