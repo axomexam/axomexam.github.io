@@ -259,6 +259,9 @@ function extractUpdated(html) {
 
 function pageKind(route) {
   if (route === "/") return "home";
+  /* The Assamese landing page is a home page too, so it keeps the Organization
+     and WebSite nodes instead of losing them on the next schema rebuild. */
+  if (route === "/as") return "home";
   const seg = route.replace(/^\/+/, "").split("/");
   switch (seg[0]) {
     case "category":
@@ -576,8 +579,10 @@ function buildGraph(html, rel) {
     graph.unshift(pageNode({ url, type: pageType, title, description, image, mainId, breadcrumbId, updated }));
     if (bc.length) graph.push(breadcrumbNode(url, bc));
     /* The editorial team page is the profile page the founder's @id points at,
-       so the Person entity is declared here and not only on the home page. */
-    if (/\/(as\/)?editorial-team\/$/.test(url)) graph.push(founderNode(url), ...EMPLOYEES);
+       so the Person entity is declared here and not only on the home page.
+       The Organization node is repeated so the page resolves #organization
+       locally instead of only from the home page. */
+    if (/\/(as\/)?editorial-team\/$/.test(url)) graph.push(organizationNode(), founderNode(url), ...EMPLOYEES);
   }
 
   return { "@context": "https://schema.org", "@graph": graph.filter(Boolean) };
