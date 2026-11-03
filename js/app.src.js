@@ -845,6 +845,80 @@
       if (k) el.setAttribute("aria-label", t(k));
     });
     renderDynamicFooter();
+    refreshWhatsappChat();
+  }
+
+  /* ================= WhatsApp "Chat with us" button =================
+     A right-edge tab that stays hidden until the visitor scrolls the footer
+     into view, then slides in. It lives directly on <body> because
+     renderRoute() replaces the whole #app subtree on every navigation and
+     would otherwise destroy it. The label follows the interface language,
+     so applyStaticI18n() refreshes it whenever the header toggle flips. */
+  let waChatEl = null;
+  let waFooterObserver = null;
+  let waChatSuppressed = false;
+
+  function whatsappChatUrl() {
+    const cfg = (typeof CONFIG !== "undefined" && CONFIG.WHATSAPP) || {};
+    /* wa.me expects digits only: country code followed by the number. */
+    const phone = String(cfg.PHONE || "").replace(/[^\d]/g, "");
+    if (!phone) return "";
+    const msg = t("wa.prefill") || cfg.MESSAGE || "";
+    return "https://wa.me/" + phone + (msg ? "?text=" + encodeURIComponent(msg) : "");
+  }
+
+  function buildWhatsappChat() {
+    if (waChatEl) return waChatEl;
+    const href = whatsappChatUrl();
+    if (!href) return null;
+    const el = document.createElement("a");
+    el.id = "wa-chat";
+    el.className = "wa-chat";
+    el.href = href;
+    el.target = "_blank";
+    el.rel = "noopener noreferrer";
+    el.setAttribute("aria-label", t("wa.chatHint"));
+    el.innerHTML = `<span class="wa-chat-ico" aria-hidden="true">${svgWhatsapp()}</span><span class="wa-chat-text" data-wa-text>${escapeHtml(t("wa.chat"))}</span>`;
+    document.body.appendChild(el);
+    waChatEl = el;
+    return el;
+  }
+
+  function refreshWhatsappChat() {
+    if (!waChatEl) return;
+    const href = whatsappChatUrl();
+    if (href) waChatEl.href = href;
+    waChatEl.setAttribute("aria-label", t("wa.chatHint"));
+    const label = waChatEl.querySelector("[data-wa-text]");
+    if (label) label.textContent = t("wa.chat");
+  }
+
+  function syncWhatsappChatVisibility() {
+    if (!waChatEl) return;
+    waChatEl.classList.toggle("is-hidden", waChatSuppressed);
+  }
+
+  /* Hidden while a mock test is running so a stray tap cannot interrupt it. */
+  function setWhatsappChatSuppressed(on) {
+    waChatSuppressed = !!on;
+    syncWhatsappChatVisibility();
+  }
+
+  function initWhatsappChat() {
+    const el = buildWhatsappChat();
+    if (!el) return;
+    const footer = $("footer.site-footer") || $("footer");
+    if (waFooterObserver) { waFooterObserver.disconnect(); waFooterObserver = null; }
+    if (!("IntersectionObserver" in window) || !footer) {
+      /* No observer support: show it rather than losing the contact path. */
+      el.classList.add("is-visible");
+      return;
+    }
+    waFooterObserver = new IntersectionObserver((entries) => {
+      entries.forEach((en) => el.classList.toggle("is-visible", en.isIntersecting));
+    }, { threshold: 0, rootMargin: "0px 0px -10% 0px" });
+    waFooterObserver.observe(footer);
+    syncWhatsappChatVisibility();
   }
 
   /* Global UI Language Toggle */
@@ -1670,6 +1744,7 @@
       state.mock = null;
       disarmMockBackGuard();
     }
+    if (segs[0] !== "mock-test") setWhatsappChatSuppressed(false);
 
     state.lang = isAssamesePath() ? "as" : "en";
     document.body.setAttribute("data-lang", state.lang);
@@ -3236,7 +3311,7 @@
           <p>${isAs ? "যদি আপুনি বিশ্বাস কৰে যে axomexam.in ৰ কোনো সামগ্ৰীয়ে আপোনাৰ কপিৰাইট উলংঘা কৰিছে, পৃষ্ঠাৰ লিংক আৰু মালিকীস্বত্বৰ প্ৰমাণসহ আমালৈ ইমেইল কৰক। আমি অনুৰোধ পৰ্যালোচনা কৰি প্ৰয়োজন হ'লে সামগ্ৰী আঁতৰাব। আমি বৌদ্ধিক সম্পত্তিক সন্মান কৰোঁ আৰু বৈধ টেকডাউন অনুৰোধসমূহ তৎক্ষণাত পালন কৰোঁ।" : "If you believe any material on axomexam.in infringes your copyright, email us with the page link and proof of ownership. We will review the request and remove the material if required. We respect intellectual property and act on valid takedown requests promptly."}</p>
 
           <h2>${isAs ? "সাধাৰণ প্ৰশ্ন" : "Common Questions"}</h2>
-          <p>${isAs ? "<strong>ফোন নম্বৰ বা লাইভ চেট আছে নেকি?</strong> নাই। মঞ্চখন বিনামূলীয়া আৰু সমল-কেন্দ্ৰিত ৰাখিবলৈ সহায় সম্পূৰ্ণৰূপে ইমেইলৰ জৰিয়তে কৰা হয়।" : "<strong>Is there a phone number or live chat?</strong> No. To keep the platform free and focused on content, support is handled by email only."}</p>
+          <p>${isAs ? "<strong>ফোন নম্বৰ বা লাইভ চেট আছে নেকি?</strong> ফোন নম্বৰ নাই। প্ৰতিটো পৃষ্ঠাৰ তলত থকা \"আমাৰ সৈতে কথা পাতক\" বুটাম ব্যৱহাৰ কৰি WhatsAppত আমাৰ সৈতে যোগাযোগ কৰিব পাৰে, অথবা সবিশেষ বা কপিৰাইট সম্পৰ্কীয় অনুসন্ধানৰ বাবে ইমেইল কৰিব পাৰে।" : "<strong>Is there a phone number or live chat?</strong> There is no phone line. You can reach us on WhatsApp using the \"Chat with us\" button at the bottom of every page, or by email for detailed or copyright-related queries."}</p>
           <p>${isAs ? "<strong>মই অধ্যয়ন পৰিকল্পনা বিচাৰিব পাৰোঁ নেকি?</strong> হয়। আপুনি যি পৰীক্ষাৰ বাবে প্ৰস্তুতি চলাইছে আৰু পৰীক্ষাৰ তাৰিখ কওক, আমি আপোনাক আটাইতকৈ প্ৰাসংগিক শিতান আৰু অধ্যয়নৰ পৰামৰ্শিত ক্ৰমলৈ নিৰ্দেশ কৰিম।" : "<strong>Can I request a study plan?</strong> Yes. Tell us the exam you are preparing for and the date of the exam, and we will point you to the most relevant sections and a suggested order of study."}</p>
           <p>${isAs ? "<strong>আপোনালোকে মোৰ তথ্য শ্বেয়াৰ বা বিক্ৰী কৰে নেকি?</strong> কেতিয়াও নহয়। আপোনাৰ ইমেইল কেৱল আপোনাৰ অনুসন্ধানৰ উত্তৰ দিবলৈ ব্যৱহাৰ কৰা হয়, আমাৰ <a href=\"/privacy/\">গোপনীয়তা নীতি</a>ত ব্যাখ্যা কৰাৰ দৰে।" : "<strong>Do you share or sell my details?</strong> Never. Your email is used only to reply to your query, as explained in our <a href=\"/privacy/\">Privacy Policy</a>."}</p>
           <p>${isAs ? "<strong>মই ছাইটলৈ প্ৰশ্ন আগবঢ়াব পাৰোঁ নেকি?</strong> হয়। চাৰিটা বিকল্প আৰু এটা চুটি ব্যাখ্যাসহ পঠিয়াওক, আমাৰ দলে প্ৰকাশৰ আগতে পৰ্যালোচনা কৰিব।" : "<strong>Can I contribute questions to the site?</strong> Yes. Send them with four options and a short explanation, and our team will review them before publishing."}</p>
@@ -6122,6 +6197,7 @@
     disarmMockBackGuard();
     stopMockTimer();
     state.mock = null;
+    setWhatsappChatSuppressed(false);
     if (history.state && history.state.axoMockGuard) {
       history.back();
       return;
@@ -7046,6 +7122,8 @@
     const m = state.mock;
     const q = m.pool[m.idx];
     if (!q) return renderMockResults();
+    /* Keep the floating WhatsApp tab out of the way while a test is running. */
+    setWhatsappChatSuppressed(true);
     const main = $("#app");
     const answered = m.answers[m.idx] !== undefined;
     const keys = ["A", "B", "C", "D", "E"];
@@ -7241,6 +7319,7 @@
     const m = state.mock;
     stopMockTimer();
     disarmMockBackGuard();
+    setWhatsappChatSuppressed(false);
     if (!m) return;
 
     let correct = 0, wrong = 0, skipped = 0;
@@ -7880,6 +7959,7 @@
     document.body.setAttribute("data-ui-lang", state.uiLang);
     applyStaticI18n();
     initAppPrompt();
+    initWhatsappChat();
 
     /* Fetch boot data in parallel (was sequential) to shorten time-to-render. */
     const [categoriesData, countsData, trendingData] = await Promise.all([

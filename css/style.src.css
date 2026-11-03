@@ -973,6 +973,94 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .toast.show { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
 
 /* ============================================================
+   WhatsApp "Chat with us" button
+   Right-edge tab that stays off-screen until the footer scrolls into
+   view, then slides in from the right. Created by js/app.js
+   (initWhatsappChat) and appended to <body>, so it survives SPA
+   navigations. The glyph sits in a white disc so it stays centred and
+   legible against the green pill.
+   ============================================================ */
+.wa-chat {
+  position: fixed;
+  right: 0;
+  bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+  z-index: 570;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 16px 10px 12px;
+  border-radius: 99px 0 0 99px;
+  background: linear-gradient(135deg, #25d366 0%, #1ebe5d 100%);
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .2px;
+  white-space: nowrap;
+  text-decoration: none;
+  box-shadow: 0 12px 30px -10px rgba(18, 140, 71, .65), 0 2px 6px rgba(15, 23, 42, .18);
+  /* Parked fully off the right edge; slides in when the footer is in view. */
+  transform: translateX(105%);
+  transition: transform .34s cubic-bezier(.4, 0, .2, 1), box-shadow .24s ease, filter .24s ease;
+}
+.wa-chat.is-visible { transform: translateX(0); }
+.wa-chat.is-hidden { display: none; }
+.wa-chat:hover,
+.wa-chat:focus-visible {
+  filter: brightness(1.06);
+  box-shadow: 0 16px 38px -10px rgba(18, 140, 71, .8), 0 2px 8px rgba(15, 23, 42, .22);
+}
+.wa-chat:focus-visible { outline: 3px solid rgba(37, 211, 102, .55); outline-offset: 2px; }
+.wa-chat-text { line-height: 1.1; }
+
+/* White disc holds the glyph; grid + an explicit svg box centre it exactly. */
+.wa-chat-ico {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 30px; height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: #1ebe5d;
+  overflow: visible;
+}
+.wa-chat-ico svg { display: block; width: 17px; height: 17px; }
+
+/* Ring pulse draws the eye once the tab is on screen. The ring grows to 1.5x
+   so it stays inside the pill's own height rather than spilling onto the page. */
+.wa-chat.is-visible .wa-chat-ico::after {
+  content: ""; position: absolute; inset: 0; margin: auto;
+  width: 30px; height: 30px; border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, .85); animation: waPulse 2.2s ease-out infinite;
+}
+@keyframes waPulse {
+  0% { transform: scale(1); opacity: .75; }
+  70% { transform: scale(1.5); opacity: 0; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-chat { transition: none; }
+  .wa-chat.is-visible .wa-chat-ico::after { animation: none; display: none; }
+}
+
+/* Mobile: sit above the app-download promo (which rests ~142px up) and clear
+   the fixed bottom tab bar. */
+@media (max-width: 900px) {
+  .wa-chat {
+    bottom: calc(150px + env(safe-area-inset-bottom, 0px));
+    padding: 8px 14px 8px 10px;
+    font-size: .84rem;
+  }
+}
+@media (max-width: 420px) {
+  .wa-chat { padding: 7px 12px 7px 9px; gap: 8px; font-size: .8rem; }
+  .wa-chat-ico { width: 27px; height: 27px; }
+  .wa-chat-ico svg { width: 15px; height: 15px; }
+  .wa-chat.is-visible .wa-chat-ico::after { width: 27px; height: 27px; }
+}
+
+/* ============================================================
    Mobile App Tab Bar (lives inside the sticky header)
    ============================================================ */
 .tabbar {

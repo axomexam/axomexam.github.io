@@ -364,6 +364,29 @@ wired on the e-book reader, free-practice topic pages, article/study-guide
 pages, current-affairs category pages and exam chapter pages. Short picker
 pages intentionally have no bar.
 
+## Floating WhatsApp "Chat with us" tab
+
+`initWhatsappChat()` in `js/app.src.js` builds one `<a id="wa-chat">` and
+appends it to `<body>` — never inside `<main id="app">`, because
+`renderRoute()` replaces that subtree and would destroy it. Number and default
+message live in `CONFIG.WHATSAPP` (`js/config.src.js`); the label and the
+pre-filled text come from `wa.chat` / `wa.chatHint` / `wa.prefill` in
+`js/i18n.src.js`, so `applyStaticI18n()` refreshes them on a language toggle.
+
+Visibility is an `IntersectionObserver` on `footer.site-footer`: the tab is
+parked off the right edge (`transform: translateX(105%)`) and slides in when
+the footer enters the viewport. If the observer is missing, the tab is shown
+rather than dropping the contact path. `setWhatsappChatSuppressed(true)` hides
+it while a mock test runs (`renderMockQuiz`) and `false` restores it on
+`leaveMockTest`, `renderMockResults`, and any route change leaving
+`/mock-test`.
+
+Two layout constraints to keep in mind when editing `.wa-chat`: on mobile it
+sits at `bottom: 150px` so it clears the fixed tab bar *and* the app-download
+promo, whose top edge rests at 142px above the viewport bottom; and the pulse
+ring grows to `scale(1.5)`, which keeps its 45px diameter inside the pill's own
+50px height instead of spilling onto the page.
+
 ## Answering "why is my content invisible to AdSense"
 
 The site ships a static block outside `<main id="app">` on most pages. That is

@@ -110,6 +110,17 @@ const CONFIG = {
   /* Search result limit */
   SEARCH_LIMIT: 20,
 
+  /* WhatsApp "Chat with us" button.
+     PHONE is the international number without "+", spaces or dashes, which is
+     the format wa.me expects (country code followed by the number). The button
+     stays hidden until the visitor scrolls near the footer, then slides in from
+     the right edge. MESSAGE is only a fallback; the visible text comes from the
+     localised "wa.prefill" string in i18n.js. */
+  WHATSAPP: {
+    PHONE: "919957585953",
+    MESSAGE: "Hello axomexam! I have a question about the study material.",
+  },
+
   /* Mock test settings */
   MOCK: {
     /* Seconds allowed per question before auto-submit */
