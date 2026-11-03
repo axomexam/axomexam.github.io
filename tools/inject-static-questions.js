@@ -49,6 +49,21 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
+/* Figures are inline <svg> authored by the site owner, not end users. They
+   must stay raw HTML in the served page: the runtime does the same
+   (js/app.src.js sanitizeMedia), and escaping them would show the markup as
+   text. Strip the same active bits as a safety net. */
+function media(s) {
+  if (typeof s !== "string") return "";
+  return s
+    .replace(/<\s*script[\s\S]*?<\s*\/\s*script\s*>/gi, "")
+    .replace(/<\s*script[\s\S]*$/gi, "")
+    .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
+    .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "")
+    .replace(/\son[a-z]+\s*=\s*[^\s>]+/gi, "")
+    .replace(/javascript\s*:/gi, "");
+}
+
 /* Decode entities and collapse whitespace so an already-correct block is
    recognised even when the previous writer encoded it differently
    (&#39; vs ', newlines between tags, and so on). */
@@ -97,13 +112,15 @@ function normalizeQuestion(q) {
     for (let i = 0; i < Math.max(en.length, as.length); i++) {
       const oEn = pickEn(en[i]) || (typeof en[i] === "string" ? en[i] : "");
       const oAs = pickAs(as[i]) || (typeof as[i] === "string" ? as[i] : "");
-      if (oEn || oAs) options.push({ en: oEn, as: oAs });
+      if (oEn || oAs) options.push({ en: oEn, as: oAs, fig: "", letter: "" });
     }
   } else if (Array.isArray(raw)) {
     for (const o of raw) {
       const oEn = pickEn(o);
       const oAs = pickAs(o);
-      if (oEn || oAs) options.push({ en: oEn, as: oAs });
+      const oFig = o && typeof o === "object" && typeof o.fig === "string" ? o.fig : "";
+      const oLet = o && typeof o === "object" && typeof o.option === "string" ? o.option : "";
+      if (oEn || oAs || oFig) options.push({ en: oEn, as: oAs, fig: oFig, letter: oLet });
     }
   }
 
@@ -112,6 +129,8 @@ function normalizeQuestion(q) {
     a: { en: aEn, as: aAs },
     options,
     ex: { en: pickEn(q.explanation), as: pickAs(q.explanation) },
+    fig: typeof q.fig === "string" ? q.fig : "",
+    table: q.table || null,
   };
 }
 
@@ -180,21 +199,9 @@ function qaItemHTML(q, n) {
       )}</div>`
     );
   }
-  if (q.options && q.options.length) {
-    const opts = q.options
-      .map(
-        (o, i) =>
-          `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(
-            o.en
-          )}${
-            o.as && o.as !== o.en
-              ? ` <span lang="as" style="color:#64748b;">${escapeHtml(o.as)}</span>`
-              : ""
-          }</div>`
-      )
-      .join("");
-    parts.push(`<div style="margin-top:8px; color:#334155;">${opts}</div>`);
-  }
+  if (q.fig) parts.push(`<div class="nv-media">${media(q.fig)}</div>`);
+  const optsHTML = examOptionsHTML(q);
+  if (optsHTML) parts.push(optsHTML);
   parts.push(
     `<div lang="en" style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(
       q.a.en
@@ -258,15 +265,20 @@ function normalizeExamQuestion(q) {
   const qEn = pickEn(q.q);
   if (!qEn) return null;
   const options = Array.isArray(q.options)
-    ? q.options.map((o) => ({ en: pickEn(o), as: pickAs(o) })).filter((o) => o.en)
+    ? q.options.map((o) => ({
+        en: pickEn(o),
+        as: pickAs(o),
+        fig: o && typeof o === "object" && typeof o.fig === "string" ? o.fig : "",
+        letter: o && typeof o === "object" && typeof o.option === "string" ? o.option : "",
+      }))
     : [];
 
   let aEn = "";
   let aAs = "";
   const correct = Number.isInteger(q.correct) ? q.correct : -1;
   if (correct >= 0 && options[correct]) {
-    const letter = String.fromCharCode(65 + correct);
-    aEn = `${letter}) ${options[correct].en}`;
+    const letter = options[correct].letter || String.fromCharCode(65 + correct);
+    aEn = options[correct].en ? `${letter}) ${options[correct].en}` : `${letter})`;
     aAs = options[correct].as ? `${letter}) ${options[correct].as}` : "";
   } else {
     aEn = pickEn(q.answer) || (typeof q.answer === "string" ? q.answer : "");
@@ -278,6 +290,8 @@ function normalizeExamQuestion(q) {
     options,
     a: { en: aEn, as: aAs },
     ex: { en: pickEn(q.explanation), as: pickAs(q.explanation) },
+    fig: typeof q.fig === "string" ? q.fig : "",
+    table: q.table || null,
   };
 }
 
@@ -323,6 +337,39 @@ function indexExamContent() {
   return map;
 }
 
+/* Option list for a question. When any option carries a figure the choices are
+   rendered as a labelled grid, matching the runtime figureOptionsHTML(); the
+   figures are part of the question, so a page without them is meaningless. */
+function examOptionsHTML(q) {
+  if (!q.options.length) return "";
+  const hasFig = q.options.some((o) => o.fig);
+  if (hasFig) {
+    const items = q.options
+      .map((o, i) => {
+        const letter = o.letter || String.fromCharCode(65 + i);
+        const cap = o.en ? `<div class="nv-fig-cap">${escapeHtml(o.en)}</div>` : "";
+        return `<div class="nv-fig-item"><div class="nv-fig-key">(${escapeHtml(
+          letter
+        )})</div><div class="nv-fig-box">${o.fig ? media(o.fig) : escapeHtml(o.en)}</div>${cap}</div>`;
+      })
+      .join("");
+    return `<div class="nv-fig-grid nv-fig-grid-compact" style="margin-top:10px;">${items}</div>`;
+  }
+  const opts = q.options
+    .map(
+      (o, i) =>
+        `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(
+          o.en
+        )}${
+          o.as && o.as !== o.en
+            ? ` <span lang="as" style="color:#64748b;">${escapeHtml(o.as)}</span>`
+            : ""
+        }</div>`
+    )
+    .join("");
+  return `<div style="margin-top:8px; color:#334155;">${opts}</div>`;
+}
+
 function examItemHTML(q, n) {
   const parts = [
     `<div lang="en" style="font-weight:800; font-size:1.02rem; line-height:1.5; margin-bottom:6px;">Q${n}. ${escapeHtml(
@@ -336,21 +383,9 @@ function examItemHTML(q, n) {
       )}</div>`
     );
   }
-  if (q.options.length) {
-    const opts = q.options
-      .map(
-        (o, i) =>
-          `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${escapeHtml(
-            o.en
-          )}${
-            o.as && o.as !== o.en
-              ? ` <span lang="as" style="color:#64748b;">${escapeHtml(o.as)}</span>`
-              : ""
-          }</div>`
-      )
-      .join("");
-    parts.push(`<div style="margin-top:8px; color:#334155;">${opts}</div>`);
-  }
+  if (q.fig) parts.push(`<div class="nv-media">${media(q.fig)}</div>`);
+  const optsHTML = examOptionsHTML(q);
+  if (optsHTML) parts.push(optsHTML);
   if (q.a.en) {
     parts.push(
       `<div lang="en" style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(

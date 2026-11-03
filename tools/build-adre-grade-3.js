@@ -250,14 +250,19 @@ function breadcrumbHTML(crumbs) {
 /* ---------------- question rendering ---------------- */
 function normalize(q) {
   const options = Array.isArray(q.options)
-    ? q.options.map((o) => ({ en: lang(o, "en"), as: lang(o, "as") })).filter((o) => o.en)
+    ? q.options.map((o) => ({
+        en: lang(o, "en"),
+        as: lang(o, "as"),
+        fig: o && typeof o === "object" && typeof o.fig === "string" ? o.fig : "",
+        letter: o && typeof o === "object" && typeof o.option === "string" ? o.option : "",
+      }))
     : [];
   const correct = Number.isInteger(q.correct) ? q.correct : -1;
   let aEn = "";
   let aAs = "";
   if (correct >= 0 && options[correct]) {
-    const letter = String.fromCharCode(65 + correct);
-    aEn = `${letter}) ${options[correct].en}`;
+    const letter = options[correct].letter || String.fromCharCode(65 + correct);
+    aEn = options[correct].en ? `${letter}) ${options[correct].en}` : `${letter})`;
     aAs = options[correct].as ? `${letter}) ${options[correct].as}` : "";
   }
   return {
@@ -265,7 +270,48 @@ function normalize(q) {
     options,
     a: { en: aEn, as: aAs },
     ex: { en: lang(q.explanation, "en"), as: lang(q.explanation, "as") },
+    fig: typeof q.fig === "string" ? q.fig : "",
   };
+}
+
+/* Figures are inline <svg> authored by the site owner, so they stay raw HTML;
+   strip only the active bits, exactly like the runtime (js/app.src.js). */
+function media(s) {
+  if (typeof s !== "string") return "";
+  return s
+    .replace(/<\s*script[\s\S]*?<\s*\/\s*script\s*>/gi, "")
+    .replace(/<\s*script[\s\S]*$/gi, "")
+    .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
+    .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "")
+    .replace(/\son[a-z]+\s*=\s*[^\s>]+/gi, "")
+    .replace(/javascript\s*:/gi, "");
+}
+
+/* Picture/shape choices become a labelled grid, like the runtime
+   figureOptionsHTML(); a figure question without its figures is meaningless. */
+function optionsHTML(q) {
+  if (!q.options.length) return "";
+  if (q.options.some((o) => o.fig)) {
+    const items = q.options
+      .map((o, i) => {
+        const letter = o.letter || String.fromCharCode(65 + i);
+        const cap = o.en ? `<div class="nv-fig-cap">${esc(o.en)}</div>` : "";
+        return `<div class="nv-fig-item"><div class="nv-fig-key">(${esc(
+          letter
+        )})</div><div class="nv-fig-box">${o.fig ? media(o.fig) : esc(o.en)}</div>${cap}</div>`;
+      })
+      .join("");
+    return `<div class="nv-fig-grid nv-fig-grid-compact" style="margin-top:10px;">${items}</div>`;
+  }
+  const opts = q.options
+    .map(
+      (o, i) =>
+        `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${esc(o.en)}${
+          o.as && o.as !== o.en ? ` <span lang="as" style="color:#64748b;">${esc(o.as)}</span>` : ""
+        }</div>`
+    )
+    .join("");
+  return `<div style="margin-top:8px; color:#334155;">${opts}</div>`;
 }
 
 function qaItemHTML(q, n) {
@@ -273,12 +319,9 @@ function qaItemHTML(q, n) {
     `<div lang="en" style="font-weight:800; font-size:1.02rem; line-height:1.5; margin-bottom:6px;">Q${n}. ${esc(q.q.en)}</div>`,
   ];
   if (q.q.as) parts.push(`<div lang="as" style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:8px;">${esc(q.q.as)}</div>`);
-  if (q.options.length) {
-    const opts = q.options
-      .map((o, i) => `<div lang="en" style="margin:2px 0;">(${String.fromCharCode(65 + i)}) ${esc(o.en)}${o.as && o.as !== o.en ? ` <span lang="as" style="color:#64748b;">${esc(o.as)}</span>` : ""}</div>`)
-      .join("");
-    parts.push(`<div style="margin-top:8px; color:#334155;">${opts}</div>`);
-  }
+  if (q.fig) parts.push(`<div class="nv-media">${media(q.fig)}</div>`);
+  const opts = optionsHTML(q);
+  if (opts) parts.push(opts);
   if (q.a.en) parts.push(`<div lang="en" style="margin-top:8px;"><strong>Answer:</strong> <span>${esc(q.a.en)}</span></div>`);
   if (q.a.as && q.a.as !== q.a.en) parts.push(`<div lang="as" style="color:#64748b; font-size:0.9rem;">${esc(q.a.as)}</div>`);
   if (q.ex.en) parts.push(`<div lang="en" style="margin-top:6px; font-size:0.9rem; color:#64748b;"><strong>Explanation:</strong> ${esc(q.ex.en)}</div>`);
