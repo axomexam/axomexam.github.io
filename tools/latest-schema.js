@@ -594,9 +594,33 @@ function graphIfItemList(graph, url, title, children, setMain) {
   setMain(url + "#itemlist");
 }
 
+/* Keep the FAQPage node that scripts/inject-faq-schema.js derives from the
+   visible FAQ. Rebuilding the graph from page metadata would drop it, and the
+   FAQ markup is on the page, so dropping it would be a regression. */
+function existingFaqNode(html) {
+  const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+  let m;
+  while ((m = re.exec(html))) {
+    let data;
+    try {
+      data = JSON.parse(m[1]);
+    } catch {
+      continue;
+    }
+    for (const node of data["@graph"] || [data]) {
+      if (node && node["@type"] === "FAQPage") return node;
+    }
+  }
+  return null;
+}
+
 function transform(html, rel) {
   const graph = buildGraph(html, rel);
   if (!graph) return { html, changed: false, kind: "skip" };
+  const faq = existingFaqNode(html);
+  if (faq && !graph["@graph"].some((n) => n && n["@type"] === "FAQPage")) {
+    graph["@graph"].push(faq);
+  }
   const stripped = html.replace(/[ \t]*<script type="application\/ld\+json">[\s\S]*?<\/script>\r?\n?/g, "");
   if (!stripped.includes("</head>")) return { html, changed: false, kind: "skip" };
   const json = JSON.stringify(graph).replace(/</g, "\\u003c");
