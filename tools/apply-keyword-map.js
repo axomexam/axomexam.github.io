@@ -15,7 +15,6 @@
  *   <meta name="twitter:title">  -> suggested_title
  *   <meta name="twitter:description"> -> suggested_meta
  *   <h1>…</h1> (first one)       -> suggested_h1
- *   <meta name="keywords">       -> primary + secondary (added if absent)
  *
  * Nothing else changes: canonical, robots, JSON-LD, links, body text and
  * attribute order all stay byte-identical. Run tools/build-keyword-map.js
@@ -140,24 +139,9 @@ for (const r of rows) {
     const h = replaceElementText(html, /<(h1)[\s>]/i, escapeAttr(r.suggested_h1));
     if (h) html = h;
   }
-  if (r.primary_kw) {
-    const kws = [r.primary_kw, r.secondary_kw].filter(Boolean)
-      .join(", ")
-      .split(",")
-      .map((s) => s.trim())
-      .filter(Boolean)
-      .slice(0, 10);
-    const kw = kws.join(", ");
-    const tag = `<meta name="keywords" content="${escapeAttr(kw)}" />`;
-    if (hasMeta(html, ['name="keywords"'])) {
-      html = replaceMetaContent(html, ['name="keywords"'], kw);
-    } else if (hasMeta(html, ['name="description"'])) {
-      html = html.replace(/(<meta name="description"[^>]*>)/i, `$1\n  ${tag}`);
-    } else {
-      html = insertAfterTitle(html, tag);
-    }
-  }
-
+  /* Meta keywords are not written: Google ignores the tag and the AdSense
+     low-value review flagged the keyword-stuffed variants. The keyword map
+     still drives title/H1/description. */
   if (html !== before) {
     changed++;
     changedPaths.push(r.path);

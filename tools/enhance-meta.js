@@ -14,7 +14,7 @@
      pages in place and never touches <body> content.
 
    What it adds to every indexable page (idempotent):
-     - <meta name="keywords" lang="as"> where Assamese tags exist
+     - <meta name="keywords"> is stripped where present (Google ignores it)
      - <meta property="og:locale:alternate" content="as_IN">
      - a WebPage JSON-LD node with inLanguage: ["en", "as"]
      - duplicate JSON-LD blocks (e.g. two identical FAQPage) removed
@@ -330,7 +330,6 @@ function enhance(html, rel) {
   if (!canonical) return { html, changed: false }; // skip 404/redirect stubs without canonical
   const url = canonical.endsWith("/") ? canonical : canonical + "/";
   const title = decodeHtml(getAttr(html, /<title>([\s\S]*?)<\/title>/));
-  const { tags } = assameseFor(route, canonical);
 
   let out = html;
   let changed = false;
@@ -339,21 +338,13 @@ function enhance(html, rel) {
   //    language-tagged description is flagged by Bing as a SEO error and
   //    ignored by crawlers, so it is removed instead of inserted.
 
-  // 2. Assamese keywords meta
-  if (tags) {
-    const asKwRe = /<meta name="keywords" lang="as" content="[^"]*"\s*\/?>/;
-    const asKwTag = `<meta name="keywords" lang="as" content="${escapeHtml(tags)}" />`;
-    if (asKwRe.test(out)) {
-      const next = out.replace(asKwRe, asKwTag);
-      if (next !== out) changed = true;
-      out = next;
-    } else {
-      const m = out.match(/<meta name="keywords" content="[^"]*"\s*\/?>/);
-      if (m) {
-        out = out.replace(m[0], m[0] + "\n  " + asKwTag);
-        changed = true;
-      }
-    }
+  // 2. Meta keywords are not emitted. Google ignores the tag and the AdSense
+  //    low-value review flagged the keyword-stuffed variants, so every
+  //    `keywords` meta the page still carries is removed here.
+  const withoutKw = out.replace(/[ \t]*<meta name="keywords"[^>]*>\s*\n?/g, "");
+  if (withoutKw !== out) {
+    out = withoutKw;
+    changed = true;
   }
 
   // 3. og:locale:alternate

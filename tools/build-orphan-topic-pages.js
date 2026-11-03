@@ -12,7 +12,7 @@
  * For each orphan spec below it writes topic/<route>/index.html, copying the
  * shared header/footer shell from a committed topic page and filling in:
  *
- *   - unique <title>, meta description, keywords, canonical, OG/Twitter tags
+ *   - unique <title>, meta description, canonical, OG/Twitter tags
  *   - WebPage + Quiz + BreadcrumbList + FAQPage JSON-LD
  *   - <main id="app"> with the breadcrumb, H1 and the full bilingual question
  *     list (every question in both languages, like tools/inject-static-questions.js)
@@ -93,8 +93,6 @@ function setHead(preLD, seo) {
   let out = preLD;
   out = out.replace(/<meta name="description" content="[^"]*" \/>/,
     `<meta name="description" content="${escapeHtml(seo.desc)}" />`);
-  out = out.replace(/<meta name="keywords" content="[^"]*" \/>/,
-    `<meta name="keywords" content="${escapeHtml(seo.keywords)}" />`);
   out = out.replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(seo.title)}</title>`);
   out = out.replace(/<link rel="canonical" href="[^"]*" \/>/,
     `<link rel="canonical" href="${seo.url}" />`);
@@ -190,7 +188,6 @@ const SPECS = [
     h1: "Ancient Assam History — 300 Practice Questions with Answers",
     h1As: "প্ৰাচীন অসমৰ ইতিহাস",
     nameAs: "প্ৰাচীন অসমৰ ইতিহাস",
-    keywords: "ancient assam history questions, kamarupa, varman dynasty, pragjyotisha, adre gk",
     parent: "category/gk/assam-history/ancient-assam-sec",
     parentItem: { name: "Ancient Assam History (Kamarupa)", url: `${BASE}/topic/gk/assam-history/ancient-assam-sec/ancient-assam/` },
     intro: "Ancient Assam is the period before the Ahom kingdom, covering Pragjyotisha and Kamarupa and the dynasties that ruled the Brahmaputra valley. The questions here cover the sources of ancient history, the Varman and Salastambha dynasties, the religion, administration and culture of early Assam.",
@@ -213,7 +210,6 @@ const SPECS = [
     h1: "Medieval Assam History — 300 Practice Questions with Answers",
     h1As: "মধ্যযুগীয় অসমৰ ইতিহাস",
     nameAs: "মধ্যযুগীয় অসমৰ ইতিহাস",
-    keywords: "medieval assam history questions, ahom kingdom, sukaphaa, saraighat, koch dynasty, adre gk",
     parent: "category/gk/assam-history/medieval-assam-sec",
     parentItem: { name: "Medieval Assam History (Ahom Period)", url: `${BASE}/topic/gk/assam-history/medieval-assam-sec/medieval-assam/` },
     intro: "Medieval Assam is the age of the Ahom kingdom and its neighbours, the Koch, Kachari and Chutiya kingdoms. The Ahoms ruled the Brahmaputra valley for about six hundred years and shaped the political, social and cultural life of Assam.",
@@ -236,7 +232,6 @@ const SPECS = [
     h1: "Modern Assam History — 300 Practice Questions with Answers",
     h1As: "আধুনিক অসমৰ ইতিহাস",
     nameAs: "আধুনিক অসমৰ ইতিহাস",
-    keywords: "modern assam history questions, treaty of yandabo, british assam, assam movement, adre gk",
     parent: "category/gk/assam-history/modern-assam-sec",
     parentItem: { name: "Modern Assam History (British Period)", url: `${BASE}/topic/gk/assam-history/modern-assam-sec/modern-assam/` },
     intro: "Modern Assam begins with the end of Ahom rule and the arrival of British power, and runs through the freedom movement to the formation of the modern state. The questions here cover the Anglo-Burmese wars, British administration, the national movement in Assam and the movements that shaped present-day Assam.",
@@ -259,7 +254,6 @@ const SPECS = [
     h1: "Ancient Indian History — 350 Practice Questions with Answers",
     h1As: "প্ৰাচীন ভাৰতীয় ইতিহাস",
     nameAs: "প্ৰাচীন ভাৰতীয় ইতিহাস",
-    keywords: "ancient indian history questions, indus valley, vedic age, maurya, gupta, adre gk",
     parent: "category/gk/indian-history/ancient-indian-history-sec",
     parentItem: { name: "Ancient Indian History", url: `${BASE}/topic/gk/indian-history/ancient-indian-history-sec/ancient-india/` },
     intro: "Ancient Indian history covers the period from prehistory to about the eighth century CE. The questions here range from the Indus Valley Civilisation and the Vedic age to the Mauryas, the Guptas and the rise of Buddhism and Jainism.",
@@ -282,7 +276,6 @@ const SPECS = [
     h1: "Medieval Indian History — 350 Practice Questions with Answers",
     h1As: "মধ্যযুগীয় ভাৰতীয় ইতিহাস",
     nameAs: "মধ্যযুগীয় ভাৰতীয় ইতিহাস",
-    keywords: "medieval indian history questions, delhi sultanate, mughal empire, vijayanagara, bhakti movement, adre gk",
     parent: "category/gk/indian-history/medieval-indian-history-sec",
     parentItem: { name: "Medieval Indian History", url: `${BASE}/topic/gk/indian-history/medieval-indian-history-sec/medieval-india/` },
     intro: "Medieval Indian history runs from about the eighth to the eighteenth century and covers the Delhi Sultanate, the Mughal empire, the Vijayanagara and Bahmani kingdoms, and the Bhakti and Sufi movements.",
@@ -305,7 +298,6 @@ const SPECS = [
     h1: "Solar System & Universe Questions with Answers",
     h1As: "সৌৰজগত আৰু মহাবিশ্ব",
     nameAs: "সৌৰজগত আৰু মহাবিশ্ব",
-    keywords: "solar system questions, universe questions, planets, astronomy gk, adre gk",
     parent: "category/gk/geography/astronomical-geography-sec",
     parentItem: { name: "Solar System & Universe", url: `${BASE}/topic/gk/geography/astronomical-geography-sec/solar-system/` },
     intro: "This topic covers the universe, the solar system and the earth in space. The questions here range from the Big Bang and galaxies to the planets, the sun, the moon, eclipses, tides and space missions.",
@@ -328,7 +320,6 @@ const SPECS = [
     h1: "National Parks & Wildlife Sanctuaries of Assam",
     h1As: "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য",
     nameAs: "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য",
-    keywords: "national parks of assam, kaziranga, manas, wildlife sanctuaries assam, adre gk",
     parent: "category/gk/geography/assam-geography-sec",
     parentItem: { name: "National Parks & Wildlife Sanctuaries of Assam", url: `${BASE}/topic/gk/geography/assam-geography-sec/national-parks/` },
     intro: "Assam has a remarkable network of national parks and wildlife sanctuaries. The questions here cover their location, area, the species they protect and the year they were established.",
@@ -351,7 +342,6 @@ const SPECS = [
     h1: "Brahmaputra River Questions with Answers",
     h1As: "ব্ৰহ্মপুত্ৰ নদী",
     nameAs: "ব্ৰহ্মপুত্ৰ নদী",
-    keywords: "brahmaputra river questions, majuli, tributaries brahmaputra, assam rivers, adre gk",
     parent: "category/gk/geography/assam-geography-sec",
     parentItem: { name: "Brahmaputra River", url: `${BASE}/topic/gk/geography/assam-geography-sec/brahmaputra-river/` },
     intro: "The Brahmaputra is the lifeline of Assam. The questions here cover its source and course, its tributaries, the islands in its bed, its floods and its role in the economy and culture of the state.",
@@ -374,7 +364,6 @@ const SPECS = [
     h1: "Human Body Questions with Answers",
     h1As: "মানৱ শৰীৰ",
     nameAs: "মানৱ শৰীৰ",
-    keywords: "human body questions, human physiology gk, organs, blood, science gk assam",
     parent: "category/science/biology",
     parentItem: { name: "Human Body", url: `${BASE}/topic/science/biology/human-body/` },
     intro: "The human body is a standard part of the General Science paper in Assam recruitment examinations. The questions here cover the organs, systems, blood, bones and everyday physiology facts.",
@@ -397,7 +386,6 @@ const SPECS = [
     h1: "Indian Freedom Struggle Questions with Answers",
     h1As: "ভাৰতীয় স্বাধীনতা সংগ্ৰাম",
     nameAs: "ভাৰতীয় স্বাধীনতা সংগ্ৰাম",
-    keywords: "indian freedom struggle questions, indian national congress, quit india, adre gk",
     parent: "category/gk/indian-history/modern-indian-history-sec",
     parentItem: { name: "Indian Freedom Struggle", url: `${BASE}/topic/gk/indian-history/modern-indian-history-sec/freedom-struggle/` },
     intro: "The Indian freedom struggle is a core part of the modern Indian history section. The questions here cover the founding of the Indian National Congress, the Gandhian movements and the events that led to independence.",
@@ -420,7 +408,6 @@ const SPECS = [
     h1: "Bihu Festival Questions with Answers",
     h1As: "বিহু উৎসৱ",
     nameAs: "বিহু উৎসৱ",
-    keywords: "bihu festival questions, rongali bihu, bihu dance, assam culture, adre gk",
     parent: "category/gk/art-culture/assam-art-culture-sec",
     parentItem: { name: "Bihu Festival", url: `${BASE}/topic/gk/art-culture/assam-art-culture-sec/bihu-festival/` },
     intro: "Bihu is the national festival of Assam and one of the most frequently asked topics in the Art and Culture section. The questions here cover the three Bihus, their timing, the Bihu dance and the folk songs that go with it.",
@@ -514,7 +501,7 @@ function buildPage(spec, qs) {
   const url = `${BASE}/topic/${spec.route}/`;
   const shell = shellParts();
   const head = setHead(shell.preLD, {
-    title: spec.title, desc: spec.desc, keywords: spec.keywords, url,
+    title: spec.title, desc: spec.desc, url,
   });
   const ld = jsonld(spec, qs, url, spec.desc);
   const main = `<main id="app" class="container main">

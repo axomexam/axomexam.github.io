@@ -516,7 +516,6 @@ function shellHTML({ route, title, description, descriptionAs, canonical, keywor
     inLanguage: ["en", "as"],
     isPartOf: { "@type": "WebSite", "@id": BASE + "/#website", url: BASE + "/", name: SITE_NAME },
   }).replace(/</g, "\\u003c");
-  const allKeywords = keywordsAs ? [keywords, keywordsAs].filter(Boolean).join(", ") : keywords;
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -524,8 +523,6 @@ function shellHTML({ route, title, description, descriptionAs, canonical, keywor
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="${ogDesc}" />
   <meta name="robots" content="${robotsContent}" />
-  ${allKeywords ? `<meta name="keywords" content="${escapeHtml(allKeywords)}" />` : ""}
-  ${keywordsAs ? `<meta name="keywords" lang="as" content="${escapeHtml(keywordsAs)}" />` : ""}
   <meta name="theme-color" content="#4f46e5" />
   <title>${ogTitle}</title>
 

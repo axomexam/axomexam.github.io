@@ -307,34 +307,6 @@ const EXAM_LIST_AS = "ADRE, APSC, অসম আৰক্ষী";
 const CAT_SUFFIX = "প্ৰশ্ন | ADRE, APSC";
 const TOPIC_SUFFIX = "প্ৰশ্নোত্তৰ | ADRE";
 
-/* Assamese question words appended to the keyword set. Search engines treat
-   the two scripts as separate queries, so a page reachable by an Assamese
-   query needs Assamese terms in its keywords, not the English ones. */
-const KW_AS = ["প্ৰশ্ন উত্তৰ", "MCQ", "কুইজ", "অনুশীলন প্ৰশ্ন", "অসম"];
-const KW_AS_TAIL = "বিনামূলীয়া প্ৰশ্ন";
-
-/* Build the Assamese keyword list for a page: its own Assamese name plus the
-   generic question words, deduped and length-capped. */
-function keywordsAs(name) {
-  const base = String(name || "")
-    .replace(/\s*—\s*[\s\S]*$/, "")
-    .replace(/[।.]\s*$/, "")
-    /* The meta content is a comma-separated list, so a comma inside the page
-       name ("Time, Speed & Distance") would split into phantom keywords. */
-    .replace(/,/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  const out = [];
-  const seen = new Set();
-  for (const t of [base, ...KW_AS.map((w) => `${base} ${w}`), KW_AS_TAIL]) {
-    const v = t.trim();
-    if (!v || seen.has(v)) continue;
-    seen.add(v);
-    out.push(v);
-  }
-  return out.join(", ");
-}
-
 /* Assamese text runs longer than English for the same idea, and some data
    titles are whole descriptive phrases, so trim to a search-snippet-friendly
    length at a word boundary. */
@@ -587,18 +559,6 @@ function setMeta(html, matches, value) {
   return html;
 }
 
-/* Some English pages ship two `keywords` metas: the English list plus a
-   `lang="as"` variant. Once `setMeta` writes the same Assamese value into
-   both, the twin would carry a duplicate tag, so keep only the first. */
-function dedupeKeywords(html) {
-  let seen = false;
-  return html.replace(/[ \t]*<meta name="keywords"[^>]*>\s*\n?/g, (tag) => {
-    if (seen) return "";
-    seen = true;
-    return tag;
-  });
-}
-
 /* Stable-partition the direct children of every `.qa-item` so the Assamese
    sibling of each English/Assamese pair comes first. The pairs carry a plain
    `lang` attribute (not `data-axo-lang`), so both halves stay visible; only
@@ -722,12 +682,10 @@ function buildTwin(enHTML, rel, head) {
   out = setMeta(out, ['property="og:locale"'], "as_IN");
   out = setMeta(out, ['property="og:locale:alternate"'], "en_IN");
 
-  /* Assamese keywords. The English page's `keywords` list is a list of
-     English queries; on the Assamese twin it would advertise the wrong
-     language, so replace it with the Assamese name plus the generic
-     Assamese question words. */
-  out = setMeta(out, ['name="keywords"'], keywordsAs(head.h1 || head.title));
-  out = dedupeKeywords(out);
+  /* Any `keywords` meta the English page still carries is dropped: the meta
+     keyword tag is ignored by Google and was flagged in the AdSense
+     low-value review, so no page keeps one. */
+  out = out.replace(/[ \t]*<meta name="keywords"[^>]*>\s*\n?/g, "");
 
   /* Assamese H1 */
   out = out.replace(/(<h1[^>]*>)[\s\S]*?(<\/h1>)/, `$1${escAttr(head.h1)}$2`);
