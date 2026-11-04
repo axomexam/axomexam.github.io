@@ -371,6 +371,28 @@ have since closed those: re-check with `tools/seo-audit.js`.
   cards already in `<main>`. The walk skips `dist/`, `as/`, assets and the six
   pages `enrich-utility-pages.js` owns. Marker-guarded and idempotent; run it
   after the builders and before the keyword pass.
+- `tools/enrich-hub-study.js` — the deeper pass over the *indexable hub pages*
+  that `enrich-thin-pages.js` grew to ~300 words but that still fall under the
+  500-word bar AdSense reads for "low-value content". It is data-model driven
+  rather than link-card driven: it reads the same `data/**` files the runtime
+  does and writes a per-family study block (category root/sub, exam
+  page/section/sub, mock-test cat/sub/section, previous-year root/exam/paper,
+  topic, current-affairs). Blocks carry real question counts, worked sample
+  questions, subject-matched book notes and a short FAQ, all bilingual. The
+  gate is a 500-word count of the text inside `<main>`.
+  - Pages it owns are marked `data-axo-study="1"` (a pure marker: no CSS or JS
+    reads it, so the block stays visible to crawlers and no-JS visitors). The
+    marker is the idempotency guard.
+  - English-style subjects (`english/grammar`, `english/vocabulary`,
+    `english/grammar-vocab`) keep their topics as separate `/topic/` pages with
+    no section tree in `categories.json`. `englishTopics()` resolves the real
+    leaf banks from `data/content/**` and `englishSubjectBlock()` lists them, so
+    those hubs are built from genuine topic data instead of a link card alone.
+  - Where a page has no structured model at all (SSC/Railway/DHS previous-year
+    papers, `computer/ms-office`), `examStudyNotes()` falls back to the
+    general-studies book notes so the page still carries subject material.
+  - Idempotent: a second run rewrites 0 pages. Run it after the builders and
+    `enrich-thin-pages.js`, then rebuild the Assamese twins.
 
 ## Reading progress bar
 
@@ -433,6 +455,12 @@ The 22 Oct 2026 rejection was "low-value content". The trust layer now in place:
   pairwise similarity; topic pages run 6000-8800 words. Thin pages are the
   redirect stubs under `exams/assam-police/logical-reasoning/`, which are
   `noindex` and carry no ad unit on purpose.
+- **No thin indexable page (Nov 2026 follow-up).** After the rejection the
+  whole indexable tree was swept: `tools/enrich-hub-study.js` grew the 111
+  remaining sub-500-word hub pages to 500-2600 words of real bilingual
+  content, and the Assamese twins were rebuilt so `/as/` is thick too.
+  `node tools/seo-audit.js` now reports `thin (<300w): 0` and `words: min 304`
+  across 1005 pages. Any new hub page must clear 500 words before it ships.
 
 When resubmitting, the fix must be live and crawlable first: verify with a
 Googlebot user agent that the page returns 200, has real words in the static
