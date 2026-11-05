@@ -712,6 +712,9 @@
         <h2>শুদ্ধতা আৰু সংশোধন</h2>
         <p>আমি প্ৰতিটো তথ্য সঠিক ৰাখিবলৈ চেষ্টা কৰোঁ, কিন্তু পৰীক্ষাৰ আৰ্হি, পাঠ্যক্ৰমৰ বিৱৰণ আৰু চৰকাৰী জাননী সলনি হ'ব পাৰে। axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা, চৰকাৰী প'ৰ্টেল নহয় — তাৰিখ, যোগ্যতা আৰু পৰীক্ষাৰ আৰ্হি সদায় চৰকাৰী জাননীৰ পৰা নিশ্চিত কৰক। আপুনি কিবা ভুল বা ভাঙা লিংক পালে পৃষ্ঠাৰ লিংক আৰু সঠিক তথ্যসহ আমালৈ লিখক, আমি যাচাই কৰি সংশোধন কৰিম। সংশোধন আৰু অৱদান কেতিয়াও কোনো বাণিজ্যিক উদ্দেশ্যত ব্যৱহাৰ কৰা নহয়।</p>
 
+        <h2>axomexam কাৰ দ্বাৰা পৰিচালিত</h2>
+        <p>axomexam.in প্ৰতিষ্ঠা আৰু সম্পাদনা কৰে <strong>axomexam সম্পাদকীয় দলে</strong>। সম্পাদকীয় দলত আছে <strong>হৰ্ষ বৰ্মন</strong> (দল পৰিচালক, ইতিহাসত M.A.), <strong>অভিক ৰয়</strong> (দল সদস্য, MBA) আৰু <strong>গৌতম দাস</strong> (দল সদস্য, B.Sc.)। তেওঁলোকৰ ভূমিকা আৰু পৰ্যালোচনাৰ কাৰ্যপ্ৰবাহ <a href="/editorial-team/">সম্পাদকীয় দল পৃষ্ঠা</a>ত বৰ্ণনা কৰা হৈছে।</p>
+
         <h2>এই ছাইট কাৰ বাবে</h2>
         <p>এই সামগ্ৰী ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণী, অসম আৰক্ষী উপ-পৰিদৰ্শক আৰু কনিষ্টবল, APSC, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, বন বিভাগ, DHS আৰু DME, লগতে SSC CGL, CHSL আৰু GD, আৰু RRB NTPC আৰু Group D ৰ দৰে কেন্দ্ৰীয় পৰীক্ষাৰ প্ৰাৰ্থীসকলৰ বাবে ডিজাইন কৰা হৈছে। আপুনি আৰম্ভণিৰ পৰা শিকিছে নে চূড়ান্ত পুনৰাবৃত্তি কৰিছে, বিষয়ভিত্তিক গাঁথনিয়ে আপোনাক নিজৰ গতিত অধ্যয়ন কৰিবলৈ দিয়ে।</p>
 
@@ -1316,6 +1319,27 @@
       `):t==="updates"?(n=a?"সমল হালনাগাদ":"Content Updates",s=a?"axomexam.in ৰ অধ্যয়ন সামগ্ৰীত কৰা সংশোধন, পাঠ্যক্ৰমৰ হালনাগাদ, নতুন শিতান আৰু সম্পাদকীয় পৰিৱৰ্তনৰ তাৰিখসহ ৰেকৰ্ড।":"A dated record of corrections, syllabus updates, new sections and editorial changes made to axomexam.in study material.",i=a?`
         <p>এই পৃষ্ঠাই অধ্যয়ন সামগ্ৰী আৰু ছাইট পৰিচালনাৰ পদ্ধতিত কৰা উল্লেখযোগ্য পৰিৱৰ্তন লিপিবদ্ধ কৰে। সৰু বানান সংশোধন তালিকাভুক্ত নকৰা হয়, কিন্তু পাঠ্যক্ৰমৰ পৰিৱৰ্তন, নতুন শিতান, উত্তৰৰ সংশোধন আৰু নীতিৰ পৰিৱৰ্তন লিপিবদ্ধ কৰা হয়। নতুন ভুক্তি প্ৰথমে দেখুওৱা হয়।</p>
 
+        <h2>৫ নৱেম্বৰ ২০২৬ &mdash; এঘাৰখন বিষয় পৃষ্ঠাত অসমীয়া টোকা</h2>
+        <ul>
+          <li>কেৱল ইংৰাজী প্ৰবন্ধ থকা এঘাৰখন বিষয় পৃষ্ঠাত অসমীয়া অধ্যয়ন টোকা যোগ কৰা হৈছে, যাতে প্ৰতিখন পৃষ্ঠা আৰু তাৰ অসমীয়া সংস্কৰণত দুয়োটা ভাষাৰ সমল থাকে।</li>
+          <li>সেই অসমীয়া টোকা লিখা build ধাপটোও যোগ কৰা হৈছে, যাতে ভৱিষ্যতে পুনৰ নিৰ্মাণ কৰিলেও সেয়া হেৰাই নাযায়।</li>
+        </ul>
+
+        <h2>৪ নৱেম্বৰ ২০২৬ &mdash; প্ৰতিখন সূচী পৃষ্ঠাত অধ্যয়ন সামগ্ৰী যোগ</h2>
+        <ul>
+          <li>শ্ৰেণী, পৰীক্ষা, মক-টেষ্ট, পূৰ্বৰ বছৰৰ প্ৰশ্ন আৰু বিষয় সূচী পৃষ্ঠাসমূহক চমু লিংক-তালিকাৰ পৰা বিষয়ভিত্তিক পৰিসৰ, জীৱন্ত প্ৰশ্নসংখ্যা, সমাধান কৰা নমুনা প্ৰশ্ন আৰু পুনৰালোচনা টোকাসহ সম্পূৰ্ণ অধ্যয়ন পৃষ্ঠালৈ বৃদ্ধি কৰা হৈছে।</li>
+          <li>একেই পৃষ্ঠাসমূহত অসমীয়া আৰু ইংৰাজী দুয়োটা ভাষাত চমু সঘনাই সোধা প্ৰশ্ন শিতান যোগ কৰা হৈছে।</li>
+          <li>এই পৃষ্ঠাসমূহৰ অসমীয়া সংস্কৰণ পুনৰ নিৰ্মাণ কৰা হৈছে যাতে দুয়োটা ভাষাই একে সামগ্ৰী বহন কৰে।</li>
+        </ul>
+
+        <h2>৩ নৱেম্বৰ ২০২৬ &mdash; প্ৰতিষ্ঠাপকৰ পৰিচয় আৰু সম্পাদকীয় স্বচ্ছতা</h2>
+        <ul>
+          <li>প্ৰতিষ্ঠাপক আৰু মুখ্য সম্পাদক বপন বৰ্মনক সম্পাদকীয় দল পৃষ্ঠাত দৃশ্যমান পৰিচয় আৰু ৰাজহুৱা যোগাযোগ লিংকসহ যোগ কৰা হৈছে।</li>
+          <li>প্ৰতিষ্ঠাপকক ছাইটৰ Organization structured data ত এজন ব্যক্তি হিচাপে লিপিবদ্ধ কৰা হৈছে আৰু তেওঁৰ পৰিচয় পৃষ্ঠাৰ সৈতে সংযোগ কৰা হৈছে, যাতে ছাইট এজন নামযুক্ত আৰু দায়বদ্ধ প্ৰকাশকৰ নামত চলিব পাৰে।</li>
+          <li>সম্পাদকীয় নীতি, সংশোধন নীতি আৰু প্ৰকাশকৰ যোগাযোগৰ তথ্য Organization structured data ত প্ৰকাশ কৰা হৈছে, যাতে সন্ধান ইঞ্জিনে ছাইটৰ দায়িত্ব কাৰ ওপৰত আছে সেয়া যাচাই কৰিব পাৰে।</li>
+        </ul>
+
+
         <h2>২৩ অক্টোবৰ ২০২৬ &mdash; সম্পাদকীয় গুণগত পৰ্যালোচনা</h2>
         <ul>
           <li>লেখক পৰিচয়, উৎসৰ টোকা আৰু শেষ হালনাগাদৰ তাৰিখকে ধৰি প্ৰতিটো বিষয় পৃষ্ঠাৰ সম্পাদকীয় উপস্থাপন পৰ্যালোচনা কৰা হৈছে।</li>
@@ -1343,9 +1367,30 @@
         <h2>হালনাগাদ কেনেদৰে লিপিবদ্ধ কৰা হয়</h2>
         <p>কোনো পৃষ্ঠা সংশোধন কৰিলে তাৰ শেষ হালনাগাদৰ তাৰিখ সলনি হয়, আৰু পাঠকে শিকা বা নিৰ্ভৰ কৰা তথ্যত প্ৰভাৱ পৰিলে পৰিৱৰ্তনৰ সাৰাংশ ইয়াত দিয়া হয়। পৰীক্ষাৰ জাননী, পাঠ্যক্ৰমৰ পৰিৱৰ্তন আৰু উত্তৰৰ সংশোধন সদায় লিপিবদ্ধ কৰা হয়। নতুন সামগ্ৰী <a href="/feed.xml">RSS ফীড</a>ৰ জৰিয়তে অনুসৰণ কৰিব পাৰে বা <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ৰ জৰিয়তে প্ৰয়োজনীয় সংশোধন জনাব পাৰে।</p>
 
-        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ৫ নৱেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       `:`
         <p>This page records substantive changes to the study material and to the way the site is run. Small spelling fixes are not listed, but syllabus changes, new sections, corrections to answers and policy changes are. The newest entries appear first.</p>
+
+        <h2>5 November 2026 &mdash; Assamese notes on eleven topic pages</h2>
+        <ul>
+          <li>Added Assamese study notes to eleven topic pages that carried only the English article, so each page and its Assamese version now show content in both languages.</li>
+          <li>Added the build step that writes those Assamese notes, so a future rebuild cannot drop them again.</li>
+        </ul>
+
+        <h2>4 November 2026 &mdash; Study content added to every index page</h2>
+        <ul>
+          <li>Expanded the category, exam, mock-test, previous-year and topic index pages from short link lists into full study pages with topic-wise coverage, live question counts, worked sample questions and revision notes.</li>
+          <li>Added a short frequently-asked-questions section to the same pages, written in both English and Assamese.</li>
+          <li>Rebuilt the Assamese versions of those pages so the two languages carry the same content.</li>
+        </ul>
+
+        <h2>3 November 2026 &mdash; Founder attribution and editorial transparency</h2>
+        <ul>
+          <li>Added the founder and editor-in-chief, Bapon Barmon, to the editorial team page with a visible profile and a public contact link.</li>
+          <li>Recorded the founder in the site&#39;s Organization structured data as a Person, linked to the founder&#39;s profile page, so that the site is attributed to a named and accountable publisher.</li>
+          <li>Published the editorial policy, corrections policy and publisher contact details in the Organization structured data so that search engines can verify who is responsible for the site.</li>
+        </ul>
+
 
         <h2>23 October 2026 &mdash; Editorial quality review</h2>
         <ul>
@@ -1374,7 +1419,7 @@
         <h2>How updates are recorded</h2>
         <p>When a page is corrected, its last-updated date changes and the change is summarised here if it affects what a reader learns or relies on. Exam notifications, syllabus changes and corrections to answers are always recorded. You can follow new material through the <a href="/feed.xml">RSS feed</a> or report a needed correction through the <a href="/contact/">contact page</a>.</p>
 
-        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 5 November 2026 &middot; Publisher: axomexam.in</p>
       `):i=`<p>${r(`page.${t}.p1`)}</p>`,["editorial-policy","editorial-team","sources","updates"].includes(t)&&(i+=`
         <p class="axo-editorial-links" style="margin-top:26px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); line-height:2;">
           <strong>Axomexam Editorial:</strong>

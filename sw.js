@@ -15,7 +15,7 @@
    assets by scripts/stamp-assets.js, so it only changes (and only then
    purges the old cache) when an asset's bytes actually change.
    ============================================================ */
-const CACHE_VERSION = "1193cfd4";
+const CACHE_VERSION = "3e4116f2";
 const CACHE_NAME = "axomexam-static-" + CACHE_VERSION;
 
 /* Warm the cache on install with the current asset versions. */
@@ -24,7 +24,7 @@ const PRECACHE = [
   "/js/config.js?v=912d2501",
   "/js/i18n.js?v=60c94cbb",
   "/js/api.js?v=3176a18e",
-  "/js/app.js?v=8b7b06c1",
+  "/js/app.js?v=c000c74d",
   "/app/axomexam-icon.png",
 ];
 
