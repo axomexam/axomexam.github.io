@@ -2907,6 +2907,27 @@ a.axo-editorial-link,
 a.axo-editorial-link:hover,
 .editorial-meta a:hover { color: #1d4ed8; }
 
+/* Contact addresses in page content: bold and highlighted so a reader can spot
+   them at a glance. Not used in the footer, where .footer-contact and
+   .fbb-contact already colour the address. */
+a.axo-email {
+  font-weight: 700;
+  color: #1d4ed8;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  padding: 1px 7px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+a.axo-email:hover { color: #1e3a8a; background: #dbeafe; text-decoration: none; }
+[data-theme="dark"] a.axo-email {
+  color: #93c5fd;
+  background: rgba(59, 130, 246, .16);
+  border-color: rgba(59, 130, 246, .42);
+}
+[data-theme="dark"] a.axo-email:hover { color: #bfdbfe; background: rgba(59, 130, 246, .28); }
+
 /* Footer: these links look exactly like every other footer link */
 .site-footer a.axo-editorial-link {
   color: inherit;

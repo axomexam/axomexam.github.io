@@ -94,6 +94,23 @@ Deliberately exempt: the offscreen PDF-export container
 (`#dynamic-pdf-export-container`) and `.report-card`/`.rc-challenge` inside
 the share card, which are white-on-dark by design and must not be re-tinted.
 
+### Contact addresses — `a.axo-email`
+
+Every `contact@axomexam.in` / `support@axomexam.in` link in page content
+carries `class="axo-email"`, which makes it bold and gives it a tinted chip so
+a reader can spot the address. The rule lives in `css/style.src.css` and has a
+`[data-theme="dark"]` variant, so both themes are readable.
+
+The two footer anchors (`.footer-contact`, `.fbb-contact`) are deliberately
+left without the class — the footer already colours them, and a chip there
+looks wrong. Keep it that way: `tools/inject-as-static-pages.js` and
+`tools/prerender.js` write the footer from templates, and the class must not be
+added to those two lines.
+
+The three source files that emit these links are `js/app.src.js` (the legal /
+editorial panels), `tools/prerender.js` (the `/about` and `/contact` bodies)
+and the served HTML. Add the class in all three, or a rebuild drops it.
+
 ## Language model — two separate toggles
 
 There are **two** language controls and they must not be confused.
