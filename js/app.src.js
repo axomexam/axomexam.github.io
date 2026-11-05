@@ -191,6 +191,20 @@
     return key;
   }
 
+  /* Content-language variant of t(): follows the URL-derived content
+     language rather than the interface toggle, so `/as/` pages render
+     Assamese page headings and body copy while the header chrome stays
+     in the visitor's chosen interface language. Falls back to English. */
+  function tc(key) {
+    if (typeof I18N !== "undefined") {
+      const l = state.lang || "en";
+      const langObj = I18N[l];
+      if (langObj && langObj[key]) return langObj[key];
+      if (I18N.en && I18N.en[key]) return I18N.en[key];
+    }
+    return key;
+  }
+
   /* Content strings (category/topic/exam names, descriptions, body prose)
      follow the URL-derived content language, not the interface toggle.
      The header toggle switches chrome only; `/as/` pages must render
@@ -2811,60 +2825,304 @@
       `;
     } else if (key === "privacy" || key === "privacy-policy") {
       title = isAs ? "গোপনীয়তা নীতি" : "Privacy Policy";
+      desc = isAs ? "axomexam.in এ আপোনাৰ তথ্য কেনেকৈ সংগ্ৰহ, ব্যৱহাৰ আৰু সুৰক্ষিত কৰা হয়, কুকিজ, Google AdSense বিজ্ঞাপন আৰু আপোনাৰ অধিকাৰসমূহ।" : "How axomexam.in collects, uses and protects information, how cookies and Google AdSense advertising work, and the choices and rights you have.";
       content = isAs ? `
-        <p><strong>axomexam.in</strong> ত আপোনাৰ ব্যক্তিগত তথ্যৰ সুৰক্ষা আৰু গোপনীয়তা ৰক্ষা কৰাটো আমাৰ অন্যতম অগ্ৰাধিকাৰ। এই নথিয়ে আমি কি তথ্য সংগ্ৰহ কৰোঁ আৰু সেয়া কেনেদৰে ব্যৱহাৰ কৰোঁ তাৰ স্পষ্ট বিৱৰণ দিয়ে।</p>
-        <h3>১. আমি সংগ্ৰহ কৰা তথ্যসমূহ</h3>
-        <p>আমি আমাৰ ব্যৱহাৰকাৰীৰ পৰা কোনো গোপনীয় ব্যক্তিগত তথ্য (যেনে বেংক বিৱৰণ, পাছৱৰ্ড আদি) সংগ্ৰহ নকৰোঁ। ব্যৱহাৰকাৰীয়ে যেতিয়া Contact বা Submit ফৰ্ম ব্যৱহাৰ কৰে, তেতিয়া কেৱল নাম আৰু ইমেইল ঠিকনাহে প্ৰয়োজন সাপেক্ষে সংগ্ৰহ কৰা হয়।</p>
-        <h3>২. ল'গ ফাইল আৰু এনালিটিক্স</h3>
-        <p>আন সকলো ষ্টেণ্ডাৰ্ড ৱেবছাইটৰ দৰে, axomexam.in এ ছাইটৰ কাৰ্যক্ষমতা আৰু ব্যৱহাৰকাৰীৰ অভিজ্ঞতা উন্নত কৰিবলৈ ল’গ ফাইল ব্যৱহাৰ কৰে (যেনে IP ঠিকনা, ব্ৰাউজাৰৰ প্ৰকাৰ, পৃষ্ঠা পৰিদৰ্শনৰ সময়)। এইবোৰ কোনো ব্যক্তিবিশেষৰ পৰিচয়ৰ সৈতে সংযুক্ত নহয়।</p>
-        <h3>৩. গুগল ডাবল-ক্লিক DART কুকিজ আৰু বিজ্ঞাপন</h3>
-        <p>Google আমাৰ ৱেবছাইটৰ এজন অন্যতম তৃতীয় পক্ষৰ বিজ্ঞাপনদাতা। Google-এ ব্যৱহাৰকাৰীৰ পূৰ্বৰ ইণ্টাৰনেট কাৰ্যকলাপৰ ওপৰত ভিত্তি কৰি প্ৰাসংগিক বিজ্ঞাপন প্ৰদৰ্শন কৰিবলৈ DART কুকিজ ব্যৱহাৰ কৰিব পাৰে। ব্যৱহাৰকাৰীয়ে Google Privacy & Terms পৃষ্ঠালৈ গৈ এই বিজ্ঞাপন ব্যক্তিগতকৰণ নিয়ন্ত্ৰণ কৰিব পাৰে।</p>
-        <h3>৪. নীতিৰ সন্মতি</h3>
-        <p>আমাৰ ৱেবছাইট ব্যৱহাৰ কৰাৰ জৰিয়তে আপুনি আমাৰ গোপনীয়তা নীতিৰ চৰ্তসমূহত সন্মতি প্ৰকাশ কৰা বুলি গণ্য কৰা হ'ব।</p>
+        <p>এই গোপনীয়তা নীতিয়ে ব্যাখ্যা কৰে যে আপুনি <strong>axomexam.in</strong> পৰিদৰ্শন বা ব্যৱহাৰ কৰোঁতে — আমাৰ ৱেবছাইট, অধ্যয়ন সামগ্ৰী, মক টেষ্ট, ই-বুক, ডাউনল'ডযোগ্য PDF টোকা আৰু আমাৰ Android এপ ব্যৱহাৰ কৰোঁতে — আমি কেনেকৈ তথ্য সংগ্ৰহ, ব্যৱহাৰ, সংৰক্ষণ আৰু ভাগ-বাটোৱাৰা কৰোঁ। ই আপোনাৰ ওচৰত থকা বিকল্পসমূহো ব্যাখ্যা কৰে।</p>
+        <p>axomexam.in ব্যৱহাৰ কৰিলে আপুনি এই গোপনীয়তা নীতিত সন্মতি জনোৱা বুলি ধৰা হয়। কোনো অংশত সন্মত নহ'লে অনুগ্ৰহ কৰি ৱেবছাইট ব্যৱহাৰ নকৰিব।</p>
+
+        <h3>১. আমি সংগ্ৰহ কৰা তথ্য</h3>
+        <p><strong>১.১ আপুনি আমাক দিয়া তথ্য।</strong> প্ৰায় সকলো অধ্যয়ন সামগ্ৰী একাউণ্ট নাখুলাকৈ পঢ়িব, অনুশীলন কৰিব আৰু ডাউনল'ড কৰিব পাৰি। সমল পাবলৈ আমি নাম, ঠিকনা, জন্ম তাৰিখ বা পেমেন্ট তথ্য নিবিচাৰোঁ। আপুনি স্বইচ্ছাৰে দিয়া তথ্যহে সংগ্ৰহ কৰা হয় — যোগাযোগ ফৰ্ম বা ইমেইলত নাম, ইমেইল আৰু বাৰ্তা; প্ৰশ্ন আগবঢ়োৱা ফৰ্মত দিয়া নাম, ইমেইল আৰু প্ৰশ্ন; আৰু কপিৰাইট বা টেকডাউন অনুৰোধৰ সপক্ষে দিয়া তথ্য।</p>
+        <p><strong>১.২ স্বয়ংক্ৰিয়ভাৱে সংগ্ৰহ কৰা তথ্য।</strong> বেছিভাগ ৱেবছাইটৰ দৰেই আমি আৰু আমাৰ তৃতীয় পক্ষৰ সেৱা প্ৰদানকাৰীয়ে কিছু কাৰিকৰী তথ্য স্বয়ংক্ৰিয়ভাৱে লিপিবদ্ধ কৰোঁ — IP ঠিকনা, ব্ৰাউজাৰৰ প্ৰকাৰ আৰু সংস্কৰণ, ডিভাইচ আৰু অপাৰেটিং চিষ্টেম, ভাষা, পৰিদৰ্শিত পৃষ্ঠা, পৰিদৰ্শনৰ তাৰিখ আৰু সময়, ব্যয় কৰা সময় আৰু প্ৰেৰণকাৰী লিংক। এই তথ্য সামগ্ৰিকভাৱে সুৰক্ষা, ত্ৰুটি-সমাধান, কাৰ্যক্ষমতা আৰু ব্যৱহাৰ বিশ্লেষণৰ বাবে ব্যৱহাৰ কৰা হয় আৰু ই আপোনাক পোনপটীয়াকৈ চিনাক্ত নকৰে।</p>
+        <p><strong>১.৩ আপোনাৰ ডিভাইচত সংৰক্ষিত পছন্দ।</strong> আপুনি বাছনি কৰা ভাষা (ইংৰাজী বা অসমীয়া) আৰু লাইট বা ডাৰ্ক থীম মনত ৰাখিবলৈ আমি ব্ৰাউজাৰৰ লোকেল ষ্ট'ৰেজ ব্যৱহাৰ কৰোঁ। এই সেটিংসমূহ আপোনাৰ ডিভাইচতে থাকে আৰু আপোনাক চিনাক্ত কৰিবলৈ ব্যৱহাৰ নহয়।</p>
+
+        <h3>২. কুকিজ আৰু একেধৰণৰ প্ৰযুক্তি</h3>
+        <p>কুকিজ হৈছে ৱেবছাইটে আপোনাৰ ডিভাইচত ৰখা সৰু টেক্সট ফাইল। আমি আৰু আমাৰ তৃতীয় পক্ষৰ অংশীদাৰসকলে তলত দিয়া উদ্দেশ্যত কুকি, ৱেব বিকন, পিক্সেল আৰু একেধৰণৰ প্ৰযুক্তি ব্যৱহাৰ কৰোঁ।</p>
+        <ul>
+          <li><strong>অত্যাৱশ্যকীয় / পছন্দ কুকি:</strong> ছাইট কাৰ্যক্ষম ৰাখিবলৈ আৰু আপোনাৰ থীম আৰু ভাষাৰ বাছনি মনত ৰাখিবলৈ।</li>
+          <li><strong>এনালিটিক্স কুকি:</strong> দৰ্শকে ছাইট কেনেকৈ ব্যৱহাৰ কৰে বুজি সমল আৰু গতি উন্নত কৰিবলৈ।</li>
+          <li><strong>বিজ্ঞাপন কুকি:</strong> Google আৰু অন্য বিজ্ঞাপন অংশীদাৰসকলে বিজ্ঞাপন দেখুৱাব আৰু জোখ ল'বলৈ, লগতে ব্যক্তিগতকৃত বিজ্ঞাপনৰ বাবেও।</li>
+        </ul>
+        <p>ব্ৰাউজাৰৰ সেটিঙৰ জৰিয়তে আপুনি কুকি নিয়ন্ত্ৰণ বা মচিব পাৰে। কুকি অক্ষম কৰিলে ৱেবছাইটৰ কিছুমান অংশ (যেনে থীম আৰু ভাষাৰ স্মৃতি) ইচ্ছামতে কাম নকৰিব পাৰে।</p>
+
+        <h3>৩. Google AdSense আৰু তৃতীয় পক্ষৰ বিজ্ঞাপন</h3>
+        <p>অধ্যয়ন সামগ্ৰী বিনামূলীয়া ৰাখিবলৈ axomexam.in বিজ্ঞাপনেৰে চলি থাকে। আমি <strong>Google AdSense</strong> ব্যৱহাৰ কৰোঁ আৰু অন্য তৃতীয় পক্ষৰ বিজ্ঞাপন নেটৱৰ্কৰ সৈতেও কাম কৰিব পাৰোঁ।</p>
+        <ul>
+          <li>তৃতীয় পক্ষৰ বিক্ৰেতা, <strong>Google সহ</strong>, এই ৱেবছাইট আৰু/বা ইণ্টাৰনেটৰ অন্য ৱেবছাইটলৈ আপোনাৰ আগৰ ভ্ৰমণৰ ভিত্তিত বিজ্ঞাপন দেখুৱাবলৈ কুকি ব্যৱহাৰ কৰে।</li>
+          <li>Google এ বিজ্ঞাপন কুকি (যেনে <strong>DoubleClick DART কুকি</strong>) ব্যৱহাৰ কৰি আপোনালৈ প্ৰাসংগিক বিজ্ঞাপন দেখুৱাব পাৰে।</li>
+          <li>আপোনাৰ অঞ্চল আৰু সন্মতিৰ ওপৰত নিৰ্ভৰ কৰি Google এ <strong>ব্যক্তিগতকৃত</strong> বা <strong>অ-ব্যক্তিগতকৃত</strong> বিজ্ঞাপন দেখুৱাব পাৰে। অ-ব্যক্তিগতকৃত বিজ্ঞাপন পৃষ্ঠাৰ সমলৰ ওপৰত আধাৰিত, আপোনাৰ আগৰ আচৰণৰ ওপৰত নহয়।</li>
+          <li>তৃতীয় পক্ষৰ বিজ্ঞাপন নেটৱৰ্কে তেওঁলোকৰ নিজা কুকি বা একেধৰণৰ প্ৰযুক্তিৰ জৰিয়তে তথ্য সংগ্ৰহ কৰিব পাৰে, আৰু সেই তথ্যৰ ব্যৱহাৰ তেওঁলোকৰ নিজা গোপনীয়তা নীতিয়ে নিয়ন্ত্ৰণ কৰে।</li>
+        </ul>
+        <p><strong>ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থকাৰ উপায়:</strong></p>
+        <ul>
+          <li>Google এ কৰা ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থাকিবলৈ <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener nofollow">Google Ads Settings</a> লৈ যাওক।</li>
+          <li>কিছুমান তৃতীয় পক্ষৰ বিক্ৰেতাৰ কুকি ব্যৱহাৰৰ পৰা আঁতৰি থাকিবলৈ <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener nofollow">www.aboutads.info</a> লৈ যাওক।</li>
+          <li>ইউৰোপীয় অৰ্থনৈতিক অঞ্চল, যুক্তৰাজ্য বা ছুইজাৰলেণ্ডত থাকিলে <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener nofollow">www.youronlinechoices.eu</a> লৈ গৈ বিজ্ঞাপনৰ পছন্দ নিয়ন্ত্ৰণ কৰক।</li>
+          <li>Google এ তেওঁৰ সেৱা ব্যৱহাৰ কৰা ছাইটৰ পৰা তথ্য কেনেকৈ ব্যৱহাৰ কৰে জানিবলৈ <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener nofollow">policies.google.com/technologies/ads</a> চাওক।</li>
+        </ul>
+        <p>ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থকাৰ অৰ্থ এইটো নহয় যে আপুনি বিজ্ঞাপন নেদেখিব; ইয়াৰ অৰ্থ হ'ল আপুনি দেখা বিজ্ঞাপনবোৰ আপোনাৰ আগ্ৰহৰ সৈতে কম প্ৰাসংগিক হ'ব পাৰে।</p>
+
+        <h3>৪. আমি তথ্য কেনেকৈ ব্যৱহাৰ কৰোঁ</h3>
+        <ul>
+          <li>ৱেবছাইট, সমল আৰু এপ পৰিচালনা, ৰক্ষণাবেক্ষণ আৰু উন্নত কৰিবলৈ।</li>
+          <li>আপোনাৰ প্ৰশ্ন, সংশোধন, অৱদান আৰু টেকডাউন অনুৰোধৰ উত্তৰ দিবলৈ।</li>
+          <li>মঞ্চখন বিনামূলীয়া ৰখা বিজ্ঞাপন দেখুৱাব আৰু জোখ ল'বলৈ।</li>
+          <li>সুৰক্ষা ঘটনা, অপব্যৱহাৰ, স্পাম আৰু কাৰিকৰী ত্ৰুটি নিৰীক্ষণ কৰিবলৈ।</li>
+          <li>কোন বিষয় আৰু সুবিধা আটাইতকৈ উপযোগী বুজি নতুন সমলৰ পৰিকল্পনা কৰিবলৈ।</li>
+          <li>প্ৰযোজ্য আইনী দায়িত্ব পালন কৰিবলৈ।</li>
+        </ul>
+
+        <h3>৫. তথ্য ভাগ-বাটোৱাৰা আৰু প্ৰকাশ</h3>
+        <p>আমি আপোনাৰ ব্যক্তিগত তথ্য বিক্ৰী নকৰোঁ। কেৱল তলত দিয়া সীমিত অৱস্থাতহে তথ্য ভাগ কৰিব পাৰোঁ:</p>
+        <ul>
+          <li><strong>সেৱা প্ৰদানকাৰী আৰু বিজ্ঞাপন অংশীদাৰ:</strong> যেনে Google AdSense, হোষ্টিং, এনালিটিক্স আৰু ইমেইল প্ৰদানকাৰী, যিসকলে আমাৰ হৈ তথ্য প্ৰক্ৰিয়া কৰে।</li>
+          <li><strong>আইনী প্ৰয়োজন:</strong> আইন, নিয়ম বা বলবৎ চৰকাৰী অনুৰোধ মানিবলৈ তথ্য প্ৰকাশ কৰিবলগীয়া হ'লে।</li>
+          <li><strong>অধিকাৰ সুৰক্ষা:</strong> আমাৰ অধিকাৰ, ব্যৱহাৰকাৰী বা ৰাইজৰ সুৰক্ষা, বা জালিয়াতি আৰু সুৰক্ষা বিষয়ৰ তদন্তৰ বাবে প্ৰয়োজন হ'লে।</li>
+          <li><strong>ব্যৱসায় হস্তান্তৰ:</strong> ৱেবছাইট বা ইয়াৰ সম্পদ হস্তান্তৰ বা একত্ৰীকৰণ হ'লে তথ্য সেই লেনদেনৰ অংশ হিচাপে হস্তান্তৰ হ'ব পাৰে।</li>
+        </ul>
+
+        <h3>৬. তথ্য সংৰক্ষণ</h3>
+        <p>যোগাযোগ আৰু অৱদানৰ বাৰ্তা কেৱল উত্তৰ দি সমাধান কৰিবলৈ যিমান প্ৰয়োজন তিমান সময় ৰাখোঁ, তাৰ পিছত ৰেকৰ্ড ৰাখিবলৈ এক যুক্তিসংগত সময়লৈ। স্বয়ংক্ৰিয়ভাৱে সংগ্ৰহ কৰা কাৰিকৰী আৰু এনালিটিক্স তথ্য এই নীতিত উল্লেখ কৰা উদ্দেশ্যৰ বাবে যিমান প্ৰয়োজন তিমান সময় সামগ্ৰিক ৰূপত সংৰক্ষণ কৰা হয়। বিজ্ঞাপন অংশীদাৰসকলে তেওঁলোকৰ নিজা নীতি অনুসৰি তথ্য সংৰক্ষণ কৰে।</p>
+
+        <h3>৭. তথ্য সুৰক্ষা</h3>
+        <p>তথ্য সুৰক্ষিত ৰাখিবলৈ আমি যুক্তিসংগত কাৰিকৰী আৰু সাংগঠনিক ব্যৱস্থা লওঁ, য'ত ৱেবছাইট HTTPS ৰ জৰিয়তে পৰিৱেশন কৰাও অন্তৰ্ভুক্ত। তথাপিও ইণ্টাৰনেটত প্ৰেৰণ বা ইলেক্ট্ৰনিক সংৰক্ষণৰ কোনো পদ্ধতিয়েই সম্পূৰ্ণ নিৰাপদ নহয়, আৰু আমি সম্পূৰ্ণ নিৰাপত্তাৰ নিশ্চয়তা দিব নোৱাৰোঁ।</p>
+
+        <h3>৮. আপোনাৰ অধিকাৰ আৰু বিকল্প</h3>
+        <p>আপোনাৰ অৱস্থানৰ ওপৰত নিৰ্ভৰ কৰি আপোনাৰ তলত দিয়া অধিকাৰ থাকিব পাৰে:</p>
+        <ul>
+          <li>আমাৰ ওচৰত থকা আপোনাৰ ব্যক্তিগত তথ্য চাবলৈ অনুৰোধ কৰা।</li>
+          <li>আপোনাৰ ব্যক্তিগত তথ্য শুধৰোৱা বা মচিবলৈ অনুৰোধ কৰা।</li>
+          <li>কিছুমান প্ৰক্ৰিয়াৰ বিৰোধিতা বা সীমাবদ্ধতা, আৰু সন্মতিভিত্তিক প্ৰক্ৰিয়াৰ সন্মতি প্ৰত্যাহাৰ।</li>
+          <li>ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থকা (ধাৰা ৩ চাওক)।</li>
+          <li>আপোনাৰ স্থানীয় তথ্য সুৰক্ষা কৰ্তৃপক্ষৰ ওচৰত অভিযোগ কৰা।</li>
+        </ul>
+        <p>এই অধিকাৰসমূহ ব্যৱহাৰ কৰিবলৈ <a href="mailto:contact@axomexam.in">contact@axomexam.in</a> লৈ ইমেইল কৰক। আমি যুক্তিসংগত সময়ৰ ভিতৰত উত্তৰ দিম আৰু আপোনাৰ অনুৰোধ যাচাই কৰিবলগীয়া হ'ব পাৰে।</p>
+
+        <h3>৯. শিশুৰ গোপনীয়তা</h3>
+        <p>axomexam.in প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰাৰ্থীসকলৰ বাবে। আমি ১৩ বছৰৰ তলৰ (বা আপোনাৰ দেশত প্ৰযোজ্য ন্যূনতম বয়সৰ তলৰ) শিশুৰ পৰা সজ্ঞানে ব্যক্তিগত তথ্য সংগ্ৰহ নকৰোঁ। অভিভাৱকে এনে তথ্য দিয়া হৈছে বুলি ভাবিলে আমাক জনাওক, আমি মচি দিম।</p>
+
+        <h3>১০. তৃতীয় পক্ষৰ লিংক</h3>
+        <p>কিছুমান পৃষ্ঠাই চৰকাৰী নিয়োগ প'ৰ্টেল, এপ ষ্ট'ৰ বা প্ৰসংগ উৎসৰ দৰে বাহ্যিক ৱেবছাইটলৈ লিংক দিয়ে। সেই ৱেবছাইটসমূহৰ গোপনীয়তা পদ্ধতি বা সমলৰ বাবে আমি দায়বদ্ধ নহয়, আৰু ব্যৱহাৰ কৰাৰ আগতে তেওঁলোকৰ গোপনীয়তা নীতি পঢ়িবলৈ পৰামৰ্শ দিওঁ।</p>
+
+        <h3>১১. আন্তৰ্জাতিক তথ্য স্থানান্তৰ</h3>
+        <p>Google সহ আমাৰ সেৱা প্ৰদানকাৰীসকলে আপোনাৰ দেশৰ বাহিৰে অন্য দেশত তথ্য প্ৰক্ৰিয়া আৰু সংৰক্ষণ কৰিব পাৰে। প্ৰয়োজন হ'লে এনে স্থানান্তৰ তেওঁলোকৰ নিজা গোপনীয়তা নীতিত বৰ্ণনা কৰা উপযুক্ত সুৰক্ষাৰে কৰা হয়।</p>
+
+        <h3>১২. এই নীতিত পৰিৱৰ্তন</h3>
+        <p>আমাৰ পদ্ধতি, প্ৰযুক্তি বা আইনী প্ৰয়োজনৰ পৰিৱৰ্তন প্ৰতিফলিত কৰিবলৈ আমি সময়ে সময়ে এই নীতি হালনাগাদ কৰিব পাৰোঁ। শেহতীয়া সংস্কৰণ সদায় এই পৃষ্ঠাত উপলব্ধ থাকিব আৰু তলৰ "শেষ হালনাগাদ" তাৰিখ সংশোধন কৰা হ'ব। পৰিৱৰ্তনৰ পিছত ৱেবছাইট ব্যৱহাৰ কৰি থাকিলে আপুনি হালনাগাদ নীতিত সন্মতি জনোৱা বুলি ধৰা হ'ব।</p>
+
+        <h3>১৩. আমাৰ সৈতে যোগাযোগ</h3>
+        <p>এই গোপনীয়তা নীতি বা আপোনাৰ তথ্যৰ বিষয়ে কোনো প্ৰশ্ন, চিন্তা বা অনুৰোধ থাকিলে যোগাযোগ কৰক:</p>
+        <ul>
+          <li><strong>ইমেইল:</strong> <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></li>
+          <li><strong>যোগাযোগ পৃষ্ঠা:</strong> <a href="/contact/">axomexam.in/contact</a></li>
+        </ul>
+        <p style="margin-top:20px; padding-top:14px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
-        <p>At <strong>axomexam.in</strong> (accessible via https://axomexam.in), the privacy of our visitors is of paramount importance. This document outlines the types of personal and analytical information received and collected by our platform.</p>
-        <h3>1. Information Collection and Handling</h3>
-        <p>We do not mandate personal account creation or collect sensitive personal identification details. Information submitted via contact or feedback forms (such as Name and Email) is used strictly to respond to user inquiries.</p>
-        <h3>2. Log Files & Standard Analytics</h3>
-        <p>Like standard web portals, axomexam.in utilizes standard log files. The data inside includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date/time stamps, referring/exit pages, and click metrics. This data is non-personally identifiable and used purely for site maintenance.</p>
-        <h3>3. Google AdSense & Third-Party Cookies</h3>
-        <p>Google, as a third-party vendor, uses cookies to serve contextual advertisements on our site. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visits to axomexam.in and other sites across the web. You can opt out of personalized advertising by visiting Google Ad Settings.</p>
-        <h3>4. Consent</h3>
-        <p>By using our website, you hereby consent to our Privacy Policy and agree to all its operational terms.</p>
+        <p>This Privacy Policy explains how <strong>axomexam.in</strong> ("we", "us", "our") collects, uses, stores and shares information when you visit or use our website, study material, mock tests, e-books, downloadable PDF notes and our Android app. It also describes the choices you have and how you can control the information connected with your use of the platform.</p>
+        <p>By accessing or using axomexam.in you agree to this Privacy Policy. If you do not agree with any part of it, please do not use the website.</p>
+
+        <h3>1. Information We Collect</h3>
+        <p><strong>1.1 Information you give us.</strong> You can read, practise and download almost all study material without creating an account. We do not ask for your name, address, date of birth or payment details to access content. Personal information is collected only when you choose to provide it: your name, email address, subject and message through the contact form or email; any name, email and questions you submit through the Submit Q&amp;A form; and the details you provide to support a copyright or takedown request.</p>
+        <p><strong>1.2 Information collected automatically.</strong> Like most websites, when you visit axomexam.in our servers and third-party service providers automatically record certain technical information, including IP address, browser type and version, device type and operating system, language, the pages you visit, the date and time of your visit, the time spent and the referring page or link. This information is used in aggregate for security, troubleshooting, performance and usage analysis and does not directly identify you.</p>
+        <p><strong>1.3 Preferences stored on your device.</strong> We use your browser's local storage to remember choices such as your selected language (English or Assamese) and light or dark theme. These settings stay on your device and are not used to identify you.</p>
+
+        <h3>2. Cookies and Similar Technologies</h3>
+        <p>Cookies are small text files placed on your device by a website. We and our third-party partners use cookies, web beacons, pixels and similar technologies for the purposes described below.</p>
+        <ul>
+          <li><strong>Strictly necessary / preference cookies:</strong> to keep the site working and remember your theme and language choices.</li>
+          <li><strong>Analytics cookies:</strong> to understand how visitors use the site so that we can improve content and speed.</li>
+          <li><strong>Advertising cookies:</strong> set by Google and other advertising partners to display and measure advertisements, including personalised advertising.</li>
+        </ul>
+        <p>You can control or delete cookies through your browser settings. If you disable cookies, some parts of the website (for example theme and language memory) may not work as intended.</p>
+
+        <h3>3. Google AdSense and Third-Party Advertising</h3>
+        <p>axomexam.in is supported by advertising so that the study material can remain free. We use <strong>Google AdSense</strong> and may also work with other third-party advertising networks and vendors.</p>
+        <ul>
+          <li>Third-party vendors, <strong>including Google</strong>, use cookies to serve ads based on your prior visits to this website and/or other websites on the internet.</li>
+          <li>Google's use of advertising cookies (including the <strong>DoubleClick DART cookie</strong>) enables Google and its partners to serve ads to you based on your visit to our site and/or other sites on the internet.</li>
+          <li>Depending on your region and consent choices, Google may serve either <strong>personalised</strong> or <strong>non-personalised</strong> ads. Non-personalised ads are based on the content of the page rather than your past behaviour.</li>
+          <li>Third-party ad networks may collect information directly through their own cookies, web beacons or similar technologies, and their handling of that information is governed by their own privacy policies, not ours.</li>
+        </ul>
+        <p><strong>How to opt out of personalised advertising:</strong></p>
+        <ul>
+          <li>Visit <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener nofollow">Google Ads Settings</a> to opt out of personalised advertising by Google.</li>
+          <li>Visit <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener nofollow">www.aboutads.info</a> to opt out of some third-party vendors' use of cookies for personalised advertising.</li>
+          <li>If you are in the European Economic Area, the United Kingdom or Switzerland, visit <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener nofollow">www.youronlinechoices.eu</a> to manage your advertising preferences.</li>
+          <li>Learn more about how Google uses information from sites that use its services at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener nofollow">policies.google.com/technologies/ads</a>.</li>
+        </ul>
+        <p>Opting out of personalised advertising does not mean you will stop seeing ads; it means the ads you see may be less relevant to your interests.</p>
+
+        <h3>4. How We Use Information</h3>
+        <ul>
+          <li>To operate, maintain and improve the website, content and app.</li>
+          <li>To respond to your queries, corrections, contributions and takedown requests.</li>
+          <li>To display and measure advertising that keeps the platform free.</li>
+          <li>To monitor for security incidents, abuse, spam and technical errors.</li>
+          <li>To understand which subjects and features are most useful and to plan new content.</li>
+          <li>To comply with applicable legal obligations.</li>
+        </ul>
+
+        <h3>5. Sharing and Disclosure of Information</h3>
+        <p>We do not sell your personal information. We may share information only in the following limited situations:</p>
+        <ul>
+          <li><strong>Service providers and advertising partners:</strong> such as Google AdSense, hosting, analytics and email providers, who process information on our behalf or as independent controllers under their own policies.</li>
+          <li><strong>Legal requirements:</strong> where we are required to disclose information to comply with a law, regulation, legal process or enforceable government request.</li>
+          <li><strong>Protection of rights:</strong> where disclosure is necessary to protect our rights, the safety of users or the public, or to investigate fraud or security issues.</li>
+          <li><strong>Business transfer:</strong> if the website or its assets are transferred or merged, information may be transferred as part of that transaction.</li>
+        </ul>
+
+        <h3>6. Data Retention</h3>
+        <p>We keep contact and contribution messages only for as long as needed to respond to and resolve them, and then for a reasonable period for record-keeping. Automatically collected technical and analytics data is retained in aggregate form for as long as necessary for the purposes described in this policy. Advertising partners retain data according to their own retention policies.</p>
+
+        <h3>7. Data Security</h3>
+        <p>We take reasonable technical and organisational measures to protect information, including serving the website over HTTPS. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
+
+        <h3>8. Your Rights and Choices</h3>
+        <p>Depending on your location, you may have the right to:</p>
+        <ul>
+          <li>Request access to the personal information we hold about you.</li>
+          <li>Request correction or deletion of your personal information.</li>
+          <li>Object to or restrict certain processing, and withdraw consent where processing is based on consent.</li>
+          <li>Opt out of personalised advertising (see section 3).</li>
+          <li>Lodge a complaint with your local data protection authority.</li>
+        </ul>
+        <p>To exercise any of these rights, email us at <a href="mailto:contact@axomexam.in">contact@axomexam.in</a>. We will respond within a reasonable period and may need to verify your request.</p>
+
+        <h3>9. Children's Privacy</h3>
+        <p>axomexam.in is intended for candidates preparing for competitive examinations. We do not knowingly collect personal information from children under 13 (or the minimum age applicable in your country). If a parent or guardian believes that a child has provided personal information, please contact us and we will delete it.</p>
+
+        <h3>10. Third-Party Links</h3>
+        <p>Some pages link to external websites such as official recruitment portals, app stores or reference sources. We are not responsible for the privacy practices or content of those websites, and we encourage you to read their privacy policies before using them.</p>
+
+        <h3>11. International Data Transfers</h3>
+        <p>Our service providers, including Google, may process and store information in countries other than your own. Where required, such transfers are carried out using appropriate safeguards as described in the providers' own privacy policies.</p>
+
+        <h3>12. Changes to This Privacy Policy</h3>
+        <p>We may update this policy from time to time to reflect changes in our practices, technology or legal requirements. The latest version will always be available on this page, and the "Last updated" date below will be revised. Continued use of the website after changes means you accept the updated policy.</p>
+
+        <h3>13. Contact Us</h3>
+        <p>If you have any questions, concerns or requests about this Privacy Policy or your information, please contact us:</p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></li>
+          <li><strong>Contact page:</strong> <a href="/contact/">axomexam.in/contact</a></li>
+        </ul>
+        <p style="margin-top:20px; padding-top:14px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
       `;
     } else if (key === "terms") {
       title = isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions";
+      desc = isAs ? "axomexam.in ৰ ৱেবছাইট, অধ্যয়ন টোকা, মক টেষ্ট আৰু ডাউনল'ডসমূহ ব্যৱহাৰ কৰাৰ নিয়ম আৰু চৰ্তসমূহ।" : "The rules and conditions for using the axomexam.in website, study notes, mock tests and downloads.";
       content = isAs ? `
-        <p><strong>axomexam.in</strong> লৈ স্বাগতম। এই ৱেবছাইটটো ব্যৱহাৰ কৰাৰ ক্ষেত্ৰত তলত উল্লেখ কৰা নীতি আৰু চৰ্তসমূহ প্ৰযোজ্য হ'ব:</p>
-        <h3>১. বৌদ্ধিক সম্পত্তি আৰু ব্যৱহাৰৰ নিয়ম</h3>
-        <p>axomexam.in ত প্ৰকাশিত সকলো পাঠ্যক্ৰম, প্ৰশ্নোত্তৰ, মক টেষ্ট আৰু PDF সমল কেৱল ছাত্ৰ-ছাত্ৰী আৰু পৰীক্ষাৰ্থীৰ ব্যক্তিগত শিক্ষাৰ বাবেহে অনুমোদিত। আমাৰ অনুমতি অবিহনে কোনো সমল ব্যৱসায়িক স্বাৰ্থত পুনৰ প্ৰকাশ, বিক্ৰী বা অনৈতিকভাৱে ব্যৱহাৰ কৰা নিষিদ্ধ।</p>
-        <h3>২. তথ্যৰ শুদ্ধতা আৰু সীমাবদ্ধতা</h3>
-        <p>আমি সকলো প্ৰশ্ন আৰু উত্তৰ নিৰ্ভুলভাৱে যুগুত কৰিবলৈ যথাসম্ভৱ চেষ্টা কৰোঁ। তথাপিও কোনো তথ্যৰ অনিচ্ছাকৃত ত্ৰুটিৰ বাবে হোৱা শৈক্ষিক বা আনুসংগিক ক্ষতিৰ বাবে ৱেবছাইট প্ৰশাসক আইনগতভাৱে দায়বদ্ধ নহ’ব।</p>
-        <h3>৩. বাহ্যিক লিংক</h3>
-        <p>আমাৰ ৱেবছাইটত তৃতীয় পক্ষৰ লিংক (যেনে চৰকাৰী জাননী, অফিচিয়েল পৰীক্ষা প’ৰ্টেল আদি) থাকিব পাৰে। সেই বাহ্যিক ৱেবছাইটসমূহৰ সমল বা নীতিৰ বাবে আমি দায়বদ্ধ নহওঁ।</p>
+        <p>এই ৱেবছাইটত প্ৰৱেশ কৰি ব্ৰাউজ কৰিলে আপুনি তলত উল্লেখ কৰা নীতি আৰু চৰ্তসমূহ মানি লোৱা বুলি ধৰা হয়। এই চৰ্তসমূহে আপুনি সামগ্ৰীৰ সৈতে কি কৰিব পাৰে, ছাইটে কি নিশ্চয়তা দিয়ে আৰু কি নিদিয়ে, আৰু বিজ্ঞাপন তথা বাহ্যিক লিংকৰ সৈতে সম্পৰ্ক কেনেকুৱা তাক ব্যাখ্যা কৰে।</p>
+
+        <h3>১. সামগ্ৰীৰ ব্যৱহাৰ</h3>
+        <ul>
+          <li>অনুশীলন প্ৰশ্ন, টোকা আৰু মক টেষ্ট নিজৰ পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে পঢ়িব আৰু ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া।</li>
+          <li>ব্যক্তিগত অধ্যয়নৰ বাবে আপুনি পৃষ্ঠা ছপা বা সংৰক্ষণ কৰিব পাৰে।</li>
+          <li>লিখিত অনুমতি অবিহনে সমল অন্য ৱেবছাইট বা এপত পুনৰ প্ৰকাশ কৰা বা বিক্ৰী কৰা নিষিদ্ধ।</li>
+          <li>সমলৰ কোনো অংশ পুনৰ লিখি বা সম্পাদনা কৰি নিজৰ নামত প্ৰকাশ কৰা নিষিদ্ধ।</li>
+        </ul>
+
+        <h3>২. তথ্যৰ শুদ্ধতা আৰু দায়বদ্ধতা</h3>
+        <ul>
+          <li>উত্তৰ আৰু ব্যাখ্যা শুদ্ধ ৰাখিবলৈ প্ৰতিটো প্ৰচেষ্টা কৰা হয়, তথাপিও ত্ৰুটি থাকিব পাৰে।</li>
+          <li>সামগ্ৰী সাধাৰণ প্ৰস্তুতিৰ বাবে দিয়া হয়, ই কোনো চৰকাৰী প্ৰশ্নকাকত নহয়।</li>
+          <li>কোনো প্ৰামাণিক তথ্যৰ বাবে সদায় চৰকাৰী জাননী বা গেজেটৰ ওপৰত নিৰ্ভৰ কৰক।</li>
+          <li>সামগ্ৰীৰ ওপৰত ভিত্তি কৰি লোৱা যিকোনো সিদ্ধান্ত আপোনাৰ নিজা বিবেচনাধীন।</li>
+        </ul>
+
+        <h3>৩. বিজ্ঞাপন আৰু বাহ্যিক লিংক</h3>
+        <ul>
+          <li>ছাইটখন বিজ্ঞাপনেৰে চলি থাকে, যিয়ে অধ্যয়ন সামগ্ৰী বিনামূলীয়া ৰাখে।</li>
+          <li>বিজ্ঞাপন আৰু সম্পাদকীয় সিদ্ধান্ত সম্পূৰ্ণ পৃথক; কোনো বিজ্ঞাপনদাতাক সমলত স্থান দিয়া নহয়।</li>
+          <li>অন্য ৱেবছাইটলৈ লিংক কেৱল সুবিধাৰ বাবে দিয়া হয়; তেওঁলোকৰ সমল বা নীতি axomexam ৰ নিয়ন্ত্ৰণত নাই।</li>
+        </ul>
+
+        <h3>৪. প্ৰায়ে সোধা প্ৰশ্ন</h3>
+        <p><strong>axomexam ব্যৱহাৰ কৰিবলৈ মই পইচা দিব লাগিব নেকি?</strong> নালাগে। অনুশীলন প্ৰশ্ন, টোকা, মক টেষ্ট আৰু PDF বিনামূলীয়া। ছাইটখন বিজ্ঞাপনেৰে চলি থাকে, যিয়ে সামগ্ৰী বিনামূলীয়া ৰাখে।</p>
+        <p><strong>মই মোৰ নিজা ছাইট বা এপত সমল পুনৰ ব্যৱহাৰ কৰিব পাৰিম নেকি?</strong> নিজৰ পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে আপুনি পৃষ্ঠা পঢ়িব, ছপা কৰিব আৰু সংৰক্ষণ কৰিব পাৰে। সমল পুনৰ প্ৰকাশ বা বিক্ৰী কৰিবলৈ প্ৰথমে লিখিত অনুমতি লাগে।</p>
+        <p><strong>একাউণ্ট লাগে নেকি?</strong> ছাইটৰ কোনো অংশৰ বাবেই একাউণ্ট নালাগে। ছাইন আপ বা লগইন কৰিবলৈ একো নাই।</p>
+        <p><strong>ভুল পালে মই কি কৰিম?</strong> পৃষ্ঠাৰ লিংক আৰু সংশোধন <a href="/submit/">প্ৰশ্ন আগবঢ়াওক</a> পৃষ্ঠাৰ জৰিয়তে পঠিয়াওক। সংশোধনসমূহ যাচাই কৰি নিশ্চিত হ'লে প্ৰয়োগ কৰা হয়।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
-        <p>Welcome to <strong>axomexam.in</strong>. By accessing and browsing this website, you accept and agree to comply with the following Terms and Conditions.</p>
-        <h3>1. Content Usage & Intellectual Property</h3>
-        <p>All materials, structured questions, study notes, and downloadable assets published on axomexam.in are intended strictly for educational, personal, and non-commercial usage. Redistribution, commercial reproduction, or resale without written permission is strictly prohibited.</p>
-        <h3>2. Accuracy & Limitation of Liability</h3>
-        <p>While our editorial team endeavors to ensure absolute factual correctness across all subjects, study materials are provided on an 'as-is' basis. axomexam.in does not warrant the completeness or absolute infallibility of contents for official evaluation criteria.</p>
-        <h3>3. External Hyperlinks</h3>
-        <p>Our pages may occasionally contain links to official external sites or reference sources. We hold no responsibility for the content, privacy guidelines, or accuracy of third-party platforms.</p>
+        <p>By accessing and browsing <strong>axomexam.in</strong>, you accept and agree to the following Terms and Conditions. These terms explain what you may do with the material and what the site does and does not promise.</p>
+
+        <h3>1. Content Usage</h3>
+        <ul>
+          <li>Practice questions, notes and mock tests are free to read and use for your own exam preparation.</li>
+          <li>You may print or save pages for personal study.</li>
+          <li>Republishing the content on another website or app, or selling it, is not allowed without written permission.</li>
+        </ul>
+
+        <h3>2. Accuracy &amp; Liability</h3>
+        <ul>
+          <li>Every effort is made to keep answers and explanations correct, but errors can still occur.</li>
+          <li>The material is provided for general preparation and is not an official question paper.</li>
+          <li>For anything authoritative, always rely on the official notification or gazette.</li>
+        </ul>
+
+        <h3>3. Advertising and Links</h3>
+        <ul>
+          <li>The site is supported by advertising, which keeps the material free.</li>
+          <li>Links to other websites are provided for convenience; their content is not controlled by axomexam.</li>
+        </ul>
+
+        <h3>4. Frequently Asked Questions</h3>
+        <p><strong>Do I have to pay to use axomexam?</strong> No. The practice questions, notes, mock tests and PDFs are free. The site is supported by advertising, which is what keeps the material free.</p>
+        <p><strong>Can I reuse the content on my own site or app?</strong> You may read, print and save pages for your own exam preparation. Republishing or selling the content needs written permission first.</p>
+        <p><strong>Do I need an account?</strong> No account is needed for any part of the site. There is nothing to sign up for and no login.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
       `;
     } else if (key === "disclaimer") {
-      title = isAs ? "দাবীত্যাগ (Disclaimer)" : "Disclaimer";
+      title = isAs ? "দায়মুক্তি" : "Disclaimer";
+      desc = isAs ? "axomexam.in ৰ সীমা, চৰকাৰী সংস্থাৰ সৈতে সম্পৰ্কহীনতা আৰু অধ্যয়ন সামগ্ৰী ব্যৱহাৰৰ চৰ্তসমূহ।" : "The scope of axomexam.in, its non-affiliation with government bodies, and the terms on which its study material is used.";
       content = isAs ? `
-        <p><strong>https://axomexam.in</strong> ত প্ৰকাশিত সকলো তথ্য কেৱল সাধাৰণ শিক্ষা আৰু জ্ঞান আহৰণৰ উদ্দেশ্যতহে আগবঢ়োৱা হৈছে।</p>
+        <p><strong>https://axomexam.in</strong> ত প্ৰকাশিত সকলো সমল আৰু প্ৰশ্ন-সংগ্ৰহ সৎ বিশ্বাসেৰে আৰু কেৱল সাধাৰণ শিক্ষা, একাডেমিক আৰু প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতিৰ উদ্দেশ্যত প্ৰকাশ কৰা হৈছে। তলৰ দায়মুক্তিয়ে ইয়াত প্ৰকাশিত সামগ্ৰীৰ সীমা স্পষ্ট কৰে।</p>
+
         <h3>১. চৰকাৰী সংস্থাৰ সৈতে সম্পৰ্কহীনতা</h3>
-        <p>axomexam.in কোনো চৰকাৰী সংস্থা, অসম লোকসেৱা আয়োগ (APSC), বা কোনো পৰীক্ষা পৰিচালনা কৰা চৰকাৰী নিগমৰ অফিচিয়েল ৱেবছাইট নহয়। ই এক স্বতন্ত্ৰ শিক্ষামূলক প’ৰ্টেল। অফিচিয়েল জাননীৰ বাবে পৰীক্ষাৰ্থীসকলক সদায় চৰকাৰী গেজেট বা অফিচিয়েল প’ৰ্টেল অনুসৰণ কৰিবলৈ পৰামৰ্শ দিয়া হয়।</p>
-        <h3>২. পেছাদাৰী পৰামৰ্শ নহয়</h3>
-        <p>আমাৰ ৱেবছাইটত উপলব্ধ সমলসমূহ পৰীক্ষাৰ্থীৰ অনুশীলনৰ সহায়ৰ বাবেহে তৈয়াৰ কৰা হৈছে। ইয়াৰ ওপৰত ভিত্তি কৰি লোৱা যিকোনো সিদ্ধান্ত আপোনাৰ নিজা বিবেচনাধীন।</p>
+        <p>axomexam.in এক স্বতন্ত্ৰ ব্যক্তিগত শিক্ষামূলক ৱেবছাইট। ই অসম চৰকাৰ, APSC, SLPRB, ৰাজ্যিক নিয়োগ পৰিষদ বা কোনো চৰকাৰী পৰীক্ষা সংস্থাৰ সৈতে সংযুক্ত, পৃষ্ঠপোষিত বা অনুমোদিত <strong>নহয়</strong>। পৰীক্ষাৰ্থীসকলে সদায় চৰকাৰী নিয়োগ গেজেটৰ সৈতে মিলাই পৰীক্ষা কৰিব লাগে।</p>
+
+        <h3>২. শিক্ষামূলক ব্যৱহাৰ</h3>
+        <ul>
+          <li>অনুশীলন প্ৰশ্ন আৰু টোকা কেৱল সাধাৰণ পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে প্ৰকাশ কৰা হয়।</li>
+          <li>এইবোৰ চৰকাৰী প্ৰশ্নকাকত নহয় আৰু পৰীক্ষাত অহাৰ কোনো নিশ্চয়তা নাই।</li>
+          <li>পৰীক্ষাৰ ধৰণ বা পাঠ্যক্ৰম সলনি হ'লে পুৰণি তথ্য ভুল হ'ব পাৰে।</li>
+          <li>কোনো প্ৰামাণিক তথ্যৰ বাবে সদায় চৰকাৰী জাননী বা গেজেট চাওক।</li>
+        </ul>
+
+        <h3>৩. তথ্যৰ শুদ্ধতা আৰু সীমাবদ্ধতা</h3>
+        <ul>
+          <li>প্ৰকাশৰ আগতে সমল মানক প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰা হয়।</li>
+          <li>তথাপিও ত্ৰুটি থাকিব পাৰে; সংশোধন <a href="/submit/">প্ৰশ্ন আগবঢ়াওক</a> পৃষ্ঠাৰ জৰিয়তে পঠিয়াব পাৰে।</li>
+          <li>অধ্যয়ন সামগ্ৰী আৰু মক অনুশীলনৰ ব্যৱহাৰ আপোনাৰ নিজা বিবেচনাধীন।</li>
+        </ul>
+
+        <h3>৪. প্ৰায়ে সোধা প্ৰশ্ন</h3>
+        <p><strong>axomexam এখন চৰকাৰী ৱেবছাইট নেকি?</strong> নহয়। axomexam এখন স্বতন্ত্ৰ অধ্যয়ন ছাইট। ই অসম চৰকাৰ, APSC, SLPRB বা কোনো নিয়োগ পৰিষদৰ সৈতে সংযুক্ত বা অনুমোদিত নহয়।</p>
+        <p><strong>অনুশীলন প্ৰশ্নবোৰ চৰকাৰী প্ৰশ্নকাকত নেকি?</strong> নহয়। এইবোৰ অনুশীলনৰ বাবে লিখা আৰু চৰকাৰী প্ৰশ্নকাকত নহয়। প্ৰামাণিক তথ্যৰ বাবে সদায় চৰকাৰী জাননী বা গেজেট চাওক।</p>
+        <p><strong>ভুল পালে মই কি কৰিম?</strong> পৃষ্ঠাৰ লিংক আৰু সংশোধন <a href="/submit/">প্ৰশ্ন আগবঢ়াওক</a> পৃষ্ঠাৰ জৰিয়তে পঠিয়াওক। জনোৱা সংশোধনসমূহ মানক প্ৰসংগৰ সৈতে মিলাই যাচাই কৰি নিশ্চিত হ'লে প্ৰয়োগ কৰা হয়।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
-        <p>All content and question banks on <strong>https://axomexam.in</strong> are published in good faith and solely for general educational, academic, and competitive examination preparation purposes.</p>
+        <p>All content and question banks on <strong>https://axomexam.in</strong> are published in good faith and solely for general educational and competitive examination preparation purposes.</p>
+
         <h3>1. Non-Affiliation with Government Authorities</h3>
-        <p>axomexam.in is an independent private educational website. It is NOT affiliated with, sponsored by, or endorsed by the Government of Assam, APSC, SLPRB, State Recruitment Boards, or any governmental testing agency. Candidates must always cross-reference with official state recruitment gazettes.</p>
-        <h3>2. Educational Warranties</h3>
-        <p>We make no absolute warranties regarding test pattern guarantees or exam success outcomes. Use of study resources and mock practices is at the user's sole discretion.</p>
+        <p>axomexam.in is an independent private educational website. It is <strong>NOT</strong> affiliated with, sponsored by, or endorsed by the Government of Assam, APSC, SLPRB, State Recruitment Boards, or any governmental testing agency. Candidates must always cross-reference with official state recruitment gazettes.</p>
+
+        <h3>2. Educational Use</h3>
+        <ul>
+          <li>Practice questions and notes are published for general exam preparation only.</li>
+          <li>They are not official question papers and carry no guarantee of appearing in an exam.</li>
+          <li>For anything authoritative, always check the official notification or gazette.</li>
+          <li>Use of the study material and mock practice is at your own discretion.</li>
+        </ul>
+
+        <h3>3. Frequently Asked Questions</h3>
+        <p><strong>Is axomexam an official government website?</strong> No. axomexam is an independent study site. It is not run by, connected to, or endorsed by the Government of Assam, APSC, SLPRB or any recruitment board.</p>
+        <p><strong>Are the practice questions official question papers?</strong> No. They are written for practice and are not official papers. For anything authoritative, always check the official notification or gazette.</p>
+        <p><strong>What should I do if I find a mistake?</strong> Send the page link and the correction through the <a href="/submit/">Submit Q&amp;A</a> page. Reported corrections are checked against standard reference material and applied once confirmed.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
       `;
     } else if (key === "editorial-policy") {
       title = isAs ? "সম্পাদকীয় নীতি" : "Editorial Policy";
@@ -4080,25 +4338,26 @@
 
   /* ================= Downloads page ================= */
   async function renderDownloadsPage(main) {
+    const isAs = state.lang === "as";
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     let files = [];
     try { files = await API.listDownloads(); } catch (err) {}
 
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.downloads.title")}</span></nav>
-        <h1>${t("page.downloads.title")}</h1>
-        <p class="page-desc">${escapeHtml(t("page.downloads.desc"))}</p>
+        <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${tc("page.downloads.title")}</span></nav>
+        <h1>${tc("page.downloads.title")}</h1>
+        <p class="page-desc">${escapeHtml(tc("page.downloads.desc"))}</p>
       </div>
 
       <section class="section" style="padding-bottom:28px;">
         <div class="section-head" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:14px;">
           <div>
-            <h2>Topic-wise Q&A PDF Notes</h2>
-            <p class="sec-sub">Download complete bilingual questions & answers for each topic in PDF format.</p>
+            <h2>${isAs ? "বিষয়ভিত্তিক প্ৰশ্ন-উত্তৰ PDF টোকা" : "Topic-wise Q&A PDF Notes"}</h2>
+            <p class="sec-sub">${isAs ? "প্ৰতিটো বিষয়ৰ সম্পূৰ্ণ দ্বিভাষিক প্ৰশ্ন আৰু উত্তৰ PDF ৰূপত ডাউনলোড কৰক।" : "Download complete bilingual questions & answers for each topic in PDF format."}</p>
           </div>
           <div style="width:100%; max-width:320px; margin:0 auto; position:relative;">
-            <input type="search" id="dl-search-input" placeholder="Search PDF by topic name..." autocomplete="off" spellcheck="false"
+            <input type="search" id="dl-search-input" placeholder="${isAs ? "বিষয়ৰ নামেৰে PDF সন্ধান কৰক..." : "Search PDF by topic name..."}" autocomplete="off" spellcheck="false"
                    style="width:100%; padding:9px 12px 9px 36px; border-radius:20px; border:1px solid var(--border,#cbd5e1); background:var(--bg,#ffffff); color:var(--ink,#0f172a); font-size:0.85rem; outline:none; box-sizing:border-box; box-shadow:0 1px 3px rgba(0,0,0,0.05);" />
             <svg style="position:absolute; left:12px; top:50%; transform:translateY(-50%); width:15px; height:15px; color:var(--ink-soft,#64748b);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
           </div>
@@ -4112,26 +4371,26 @@
               </span>
               <span class="dl-meta">
                 <b>${escapeHtml(localized(rec.title))}</b>
-                <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • <span id="dl-count-${rec.path.replace(/\//g, '-')}">${rec.nQuestions || 0}</span> ${rec.cat.id === "study-guides" ? "Chapters" : "Questions"}</span>
+                <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • <span id="dl-count-${rec.path.replace(/\//g, '-')}">${rec.nQuestions || 0}</span> ${rec.cat.id === "study-guides" ? (isAs ? "অধ্যায়" : "Chapters") : (isAs ? "প্ৰশ্ন" : "Questions")}</span>
               </span>
-              <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button" style="text-transform:none;">Download</button>
+              <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button" style="text-transform:none;">${isAs ? "ডাউনলোড" : "Download"}</button>
             </div>
           `).join("")}
         </div>
-        <div id="dl-no-match" class="qa-empty" style="display:none; padding:30px 10px;"><p>No matching PDF topic found.</p></div>
+        <div id="dl-no-match" class="qa-empty" style="display:none; padding:30px 10px;"><p>${isAs ? "মিল থকা PDF বিষয় পোৱা নগ'ল।" : "No matching PDF topic found."}</p></div>
       </section>
 
       <section class="section" style="padding-bottom:44px; border-top:1px solid var(--border,#e2e8f0); padding-top:30px;">
-        <div class="section-head"><div><h2>Special E-Books & Hand-written Notes</h2><p class="sec-sub">Direct official PDFs and curated study materials.</p></div></div>
+        <div class="section-head"><div><h2>${isAs ? "বিশেষ ই-বুক আৰু হাতে লিখা টোকা" : "Special E-Books & Hand-written Notes"}</h2><p class="sec-sub">${isAs ? "প্ৰত্যক্ষ চৰকাৰী PDF আৰু নিৰ্বাচিত অধ্যয়ন সামগ্ৰী।" : "Direct official PDFs and curated study materials."}</p></div></div>
         ${files.length ? `
           <div class="dl-list">
             ${files.map(f => `
               <div class="dl-item">
                 <span class="dl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></span>
-                <span class="dl-meta"><b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b><span>PDF Document</span></span>
-                <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener" style="text-transform:none;">Download</a>
+                <span class="dl-meta"><b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b><span>${isAs ? "PDF দস্তাবেজ" : "PDF Document"}</span></span>
+                <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener" style="text-transform:none;">${isAs ? "ডাউনলোড" : "Download"}</a>
               </div>`).join("")}
-          </div>` : `<div class="info-panel"><p>No extra manual PDF uploaded yet.</p></div>`}
+          </div>` : `<div class="info-panel"><p>${isAs ? "এতিয়ালৈ কোনো অতিৰিক্ত PDF আপলোড কৰা নাই।" : "No extra manual PDF uploaded yet."}</p></div>`}
       </section>`;
 
     $$(".topic-pdf-btn", main).forEach(btn => {
@@ -5595,7 +5854,15 @@
 
   /* ================= Download App (APK) ================= */
   function renderDownloadAppPage(main) {
-    const features = [
+    const isAs = state.lang === "as";
+    const features = isAs ? [
+      ["সকলো মক টেষ্ট", "অধ্যায়ভিত্তিক সময়সীমাযুক্ত মক টেষ্ট, তাৎক্ষণিক স্ক'ৰ আৰু পৰ্যালোচনাৰ সৈতে — প্ৰকৃত পৰীক্ষাৰ দৰেই।"],
+      ["দ্বিভাষিক প্ৰশ্ন-উত্তৰ অনুশীলন", "ইংৰাজী আৰু অসমীয়া দুয়োটা ভাষাত প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা।"],
+      ["য'ত-ত'ত ই-বুক", "এপৰ ভিতৰতে প্ৰতিটো বিষয়ৰ ই-বুক পঢ়ক — অসমৰ ইতিহাস, ৰাজনীতি, ভূগোল আৰু অধিক।"],
+      ["পূৰ্ববৰ্তী বছৰৰ প্ৰশ্নপত্ৰ", "পৰীক্ষা আৰু বছৰ অনুসৰি সজোৱা সমাধানসহ পূৰ্ববৰ্তী প্ৰশ্নপত্ৰ।"],
+      ["PDF টোকা আৰু ডাউনল'ড", "অধ্যয়ন সামগ্ৰী সংৰক্ষণ কৰি অফলাইন পুনৰীক্ষণৰ বাবে সাজু ৰাখক।"],
+      ["হালধীয়া আৰু দ্ৰুত", "সম্পূৰ্ণ axomexam অভিজ্ঞতা এক সৰু ১.৩২ MB এপত।"]
+    ] : [
       ["All Mock Tests", "Timed chapter-wise mock tests with instant score and review, exactly like the real exam."],
       ["Bilingual Q&A Practice", "Practice questions, answers and explanations in both English and Assamese."],
       ["E-Books On the Go", "Read every subject e-book right inside the app — Assam History, Polity, Geography and more."],
@@ -5610,7 +5877,13 @@
           <p>${text}</p>
         </div>`).join("");
 
-    const faqs = [
+    const faqs = isAs ? [
+      ["axomexam এপ বিনামূলীয়া নেকি?", "হয়। এপটো ১০০% বিনামূলীয়া, কোনো ছাইন-আপ, চাবোন বা লুকুৱা শুল্ক নাই।"],
+      ["ইয়াক Google Play Store ত কিয় নাই?", "প্ৰতিজন প্ৰাৰ্থীৰ বাবে বিনামূলীয়া ৰাখিবলৈ আমি এপটো প্ৰত্যক্ষ APK ডাউনল'ড হিচাপে বিতৰণ কৰোঁ। পিছত Play Store ত মুকলি কৰিব পাৰি।"],
+      ["ইণ্টাৰনেট সংযোগ লাগে নেকি?", "হয়। অধ্যয়ন সামগ্ৰী, মক টেষ্ট আৰু টোকা অনলাইনত ল'ড হয়, গতিকে সক্ৰিয় সংযোগ প্ৰয়োজন।"],
+      ["ইনষ্টল কৰা নিৰাপদ নেকি?", "হয়। এইটো আমাৰ নিজা চৰকাৰী বিল্ড। সুৰক্ষাৰ বাবে কেৱল এই পৃষ্ঠাৰ পৰা (axomexam.in) ডাউনল'ড কৰক।"],
+      ["কোনবোৰ Android সংস্কৰণ সমৰ্থিত?", "এপটো শেহতীয়া Android System WebView থকা আধুনিক Android ফোনত কাম কৰে।"]
+    ] : [
       ["Is the axomexam app free?", "Yes. The app is 100% free with no sign-up, subscription or hidden charges."],
       ["Why is it not on the Google Play Store?", "We distribute the app as a direct APK download so it stays free for every aspirant. A Play Store release may come later."],
       ["Do I need an internet connection?", "Yes. Study content, mock tests and notes are loaded online, so an active connection is required."],
@@ -5625,9 +5898,9 @@
 
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><span>Download App</span></nav>
-        <h1>Download the axomexam App</h1>
-        <p class="page-desc">Get the axomexam Android app — all mock tests, bilingual Q&amp;A practice, e-books and previous year papers in one lightweight app. Free, no sign-up.</p>
+        <nav class="breadcrumb"><a href="/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${isAs ? "এপ ডাউনলোড" : "Download App"}</span></nav>
+        <h1>${isAs ? "axomexam এপ ডাউনলোড কৰক" : "Download the axomexam App"}</h1>
+        <p class="page-desc">${isAs ? "axomexam Android এপ লাভ কৰক — সকলো মক টেষ্ট, দ্বিভাষিক প্ৰশ্ন-উত্তৰ অনুশীলন, ই-বুক আৰু পূৰ্ববৰ্তী বছৰৰ প্ৰশ্নপত্ৰ এক হালধীয়া এপত। বিনামূলীয়া, ছাইন-আপ নালাগে।" : "Get the axomexam Android app — all mock tests, bilingual Q&amp;A practice, e-books and previous year papers in one lightweight app. Free, no sign-up."}</p>
       </div>
 
       <section class="section appdl-hero">
@@ -5635,58 +5908,61 @@
           <img class="appdl-logo" src="/app/axomexam-icon.png" alt="axomexam app logo" width="104" height="104" />
           <div class="appdl-body">
             <h2 class="appdl-title">axomexam — Exam Prep App</h2>
-            <p class="appdl-tag">Assam competitive exam preparation, now on your phone.</p>
+            <p class="appdl-tag">${isAs ? "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি, এতিয়া আপোনাৰ ফোনত।" : "Assam competitive exam preparation, now on your phone."}</p>
             <ul class="appdl-meta">
-              <li><b>Version</b> 2.1</li>
-              <li><b>Size</b> 1.32 MB</li>
-              <li><b>Updated</b> 17 Oct 2026</li>
-              <li><b>Format</b> APK</li>
-              <li><b>Package</b> in.axomexam.app</li>
-              <li><b>Price</b> Free</li>
+              <li><b>${isAs ? "সংস্কৰণ" : "Version"}</b> 2.1</li>
+              <li><b>${isAs ? "আকাৰ" : "Size"}</b> 1.32 MB</li>
+              <li><b>${isAs ? "আপডেট" : "Updated"}</b> ${isAs ? "১৭ অক্টোবৰ ২০২৬" : "17 Oct 2026"}</li>
+              <li><b>${isAs ? "ফৰ্মেট" : "Format"}</b> APK</li>
+              <li><b>${isAs ? "পেকেজ" : "Package"}</b> in.axomexam.app</li>
+              <li><b>${isAs ? "মূল্য" : "Price"}</b> ${isAs ? "বিনামূলীয়া" : "Free"}</li>
             </ul>
             <div class="appdl-actions">
-              <a class="btn btn-accent appdl-download" href="/app/axomexam-v2.1.apk" download>Download APK (1.32 MB)</a>
-              <a class="btn btn-outline" href="#install">How to install</a>
+              <a class="btn btn-accent appdl-download" href="/app/axomexam-v2.1.apk" download>${isAs ? "APK ডাউনলোড কৰক (1.32 MB)" : "Download APK (1.32 MB)"}</a>
+              <a class="btn btn-outline" href="#install">${isAs ? "কেনেকৈ ইনষ্টল কৰিব" : "How to install"}</a>
             </div>
-            <p class="appdl-note">Direct download · No sign-up · 100% free</p>
+            <p class="appdl-note">${isAs ? "প্ৰত্যক্ষ ডাউনল'ড · ছাইন-আপ নালাগে · ১০০% বিনামূলীয়া" : "Direct download · No sign-up · 100% free"}</p>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <h2 class="appdl-section-title">What's inside the app</h2>
+        <h2 class="appdl-section-title">${isAs ? "এপৰ ভিতৰত কি আছে" : "What's inside the app"}</h2>
         <div class="appdl-grid">${feats}</div>
       </section>
 
       <section class="section" id="install">
-        <h2 class="appdl-section-title">How to install the APK</h2>
+        <h2 class="appdl-section-title">${isAs ? "APK কেনেকৈ ইনষ্টল কৰিব" : "How to install the APK"}</h2>
         <ol class="appdl-steps">
-          <li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v2.1.apk</code> will be saved to your phone.</li>
+          ${isAs ? `<li><b>APK ডাউনলোড কৰক।</b> ওপৰৰ ডাউনলোড বুটামত টিপক। <code>axomexam-v2.1.apk</code> ফাইলটো আপোনাৰ ফোনত সংৰক্ষিত হ'ব।</li>
+          <li><b>ইনষ্টলৰ অনুমতি দিয়ক।</b> Android এ বাধা দিলে, Settings খুলি আপোনাৰ ব্ৰাউজাৰৰ বাবে “Install unknown apps” (বা “Unknown sources”) সক্ৰিয় কৰক।</li>
+          <li><b>এপটো ইনষ্টল কৰক।</b> ডাউনল'ড কৰা ফাইলটো Downloads বা জাননীৰ পৰা খুলি <b>Install</b> টিপক।</li>
+          <li><b>খুলি শিকা আৰম্ভ কৰক।</b> আপোনাৰ এপ ড্ৰয়াৰৰ পৰা <b>axomexam</b> আৰম্ভ কৰি অনুশীলন আৰম্ভ কৰক।</li>` : `<li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v2.1.apk</code> will be saved to your phone.</li>
           <li><b>Allow the install.</b> If Android blocks it, open Settings and enable “Install unknown apps” (or “Unknown sources”) for your browser.</li>
           <li><b>Install the app.</b> Open the downloaded file from Downloads or the notification, then tap <b>Install</b>.</li>
-          <li><b>Open and start learning.</b> Launch <b>axomexam</b> from your app drawer and begin practising.</li>
+          <li><b>Open and start learning.</b> Launch <b>axomexam</b> from your app drawer and begin practising.</li>`}
         </ol>
       </section>
 
       <section class="section">
-        <h2 class="appdl-section-title">System requirements</h2>
+        <h2 class="appdl-section-title">${isAs ? "ছিষ্টেমৰ প্ৰয়োজনীয়তা" : "System requirements"}</h2>
         <ul class="appdl-meta">
-          <li><b>Platform</b> Android</li>
-          <li><b>App version</b> 2.1</li>
-          <li><b>File size</b> 1.32 MB</li>
-          <li><b>Internet</b> Required</li>
-          <li><b>Price</b> Free</li>
+          <li><b>${isAs ? "প্লেটফৰ্ম" : "Platform"}</b> Android</li>
+          <li><b>${isAs ? "এপ সংস্কৰণ" : "App version"}</b> 2.1</li>
+          <li><b>${isAs ? "ফাইলৰ আকাৰ" : "File size"}</b> 1.32 MB</li>
+          <li><b>${isAs ? "ইণ্টাৰনেট" : "Internet"}</b> ${isAs ? "প্ৰয়োজন" : "Required"}</li>
+          <li><b>${isAs ? "মূল্য" : "Price"}</b> ${isAs ? "বিনামূলীয়া" : "Free"}</li>
         </ul>
       </section>
 
       <section class="section">
-        <h2 class="appdl-section-title">Frequently asked questions</h2>
+        <h2 class="appdl-section-title">${isAs ? "প্ৰায়ে সোধা প্ৰশ্ন" : "Frequently asked questions"}</h2>
         <div class="appdl-faqs">${faqHTML}</div>
       </section>
 
       <section class="section">
         <div class="appdl-safety">
-          <b>Safety &amp; disclaimer:</b> For your security, download the app only from this official page (axomexam.in). axomexam is NOT an official app of APSC, Assam Police, SSC, Railway, ADRE or any government body. All exam names and trademarks belong to their respective owners. This is an independent study aid.
+          ${isAs ? `<b>সুৰক্ষা আৰু দায়মুক্তি:</b> আপোনাৰ সুৰক্ষাৰ বাবে কেৱল এই চৰকাৰী পৃষ্ঠাৰ পৰা (axomexam.in) এপটো ডাউনল'ড কৰক। axomexam APSC, অসম আৰক্ষী, SSC, ৰে'লৱে, ADRE বা কোনো চৰকাৰী সংস্থাৰ চৰকাৰী এপ <b>নহয়</b>। সকলো পৰীক্ষাৰ নাম আৰু ট্ৰেডমাৰ্ক তেওঁলোকৰ নিজৰ মালিকৰ। এইটো এক স্বতন্ত্ৰ অধ্যয়ন সহায়ক।` : `<b>Safety &amp; disclaimer:</b> For your security, download the app only from this official page (axomexam.in). axomexam is NOT an official app of APSC, Assam Police, SSC, Railway, ADRE or any government body. All exam names and trademarks belong to their respective owners. This is an independent study aid.`}
         </div>
       </section>`;
     const dlLink = main.querySelector(".appdl-download");
@@ -5883,16 +6159,64 @@
 
   /* ================= Submit Q&A page ================= */
   function renderSubmitPage(main) {
+    const isAs = state.lang === "as";
     main.innerHTML = `
       <div class="success-modal-overlay" id="successPopup" style="position:fixed;inset:0;background:rgba(15,23,42,0.65);backdrop-filter:blur(5px);display:none;place-items:center;z-index:99999;opacity:0;transition:opacity 0.2s ease;">
         <div class="success-modal-card" style="background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:24px;padding:30px 24px;width:82%;max-width:300px;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.35);border:1px solid var(--line,#e2e8f0);">
           <div class="tick-circle" style="width:68px;height:68px;background:#10b981;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 24px -4px rgba(16,185,129,0.5);">
             <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:36px;height:36px;"><polyline points="20 6 9 17 4 12"></polyline></svg>
           </div>
-          <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:var(--ink,#0f172a);margin-bottom:4px;">Sent Successfully!</h3>
-          <p id="pop-desc" style="font-size:0.84rem;color:var(--ink-soft,#64748b);font-weight:600;">Your message has been received.</p>
+          <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:var(--ink,#0f172a);margin-bottom:4px;">${isAs ? "সফলতাৰে প্ৰেৰণ হ'ল!" : "Sent Successfully!"}</h3>
+          <p id="pop-desc" style="font-size:0.84rem;color:var(--ink-soft,#64748b);font-weight:600;">${isAs ? "আপোনাৰ বাৰ্তা লাভ কৰা হৈছে।" : "Your message has been received."}</p>
         </div>
       </div>
+
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${isAs ? "প্ৰশ্ন আগবঢ়াওক" : "Submit Q&A"}</span></nav>
+        <h1>${isAs ? "প্ৰশ্ন আগবঢ়াওক" : "Submit Q&A"}</h1>
+      </div>
+
+      <section class="section axo-main-content" data-axo-main-content="1" style="padding-bottom:24px;">
+        <div class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.8; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;">
+          ${isAs ? `<h2 style="margin-top:0; color:var(--ink,#0f172a);">axomexam লৈ প্ৰশ্ন আগবঢ়াওক</h2>
+          <p>axomexam এ পঢ়ুৱৈসকলে পঠিওৱা অনুশীলন প্ৰশ্ন গ্ৰহণ কৰে, সেই অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাসমূহৰ বাবে যিবোৰ ইয়াৰ পৰিসৰত আছে। প্ৰকাশৰ আগতে জমা দিয়া প্ৰশ্ন পৰ্যালোচনা কৰা হয়, গতিকে প্ৰশ্ন-সংগ্ৰহত একে মানদণ্ড বজাই ৰখা হয় আৰু প্ৰতিটো প্ৰকাশিত প্ৰশ্নৰ সৈতে উত্তৰ আৰু এটা ব্যাখ্যা থাকে।</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">কি পঠিয়াব</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>প্ৰশ্নৰ লিখনি, অনুগ্ৰহ কৰি অসমীয়া সংস্কৰণটো লগত ৰাখি।</li>
+            <li>চাৰিটা বিকল্প, শুদ্ধ বিকল্পটো স্পষ্টভাৱে চিহ্নিত কৰি।</li>
+            <li>কিয় সেই বিকল্পটো শুদ্ধ তাৰ এটা চুটি ব্যাখ্যা।</li>
+            <li>প্ৰশ্নটো যি পৰীক্ষা আৰু বিষয়ৰ, তাৰ নাম।</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">ইয়াৰ পিছত কি হয়</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>মানক প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই জমা দিয়া প্ৰশ্নৰ শুদ্ধতা পৰীক্ষা কৰা হয়।</li>
+            <li>গ্ৰহণ কৰা প্ৰশ্নসমূহ মিল থকা বিষয় বা পৰীক্ষাৰ শিতানত যোগ কৰা হয়।</li>
+            <li>শুধৰণিৰ প্ৰয়োজন থকা প্ৰশ্ন এটা টোকাসহ ঘূৰাই দিয়া হয়।</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">এটা ভাল প্ৰশ্ন লিখা</h3>
+          <p>এটা উপযোগী অনুশীলন প্ৰশ্নই এটা স্পষ্ট তথ্য বা এটা স্পষ্ট পদক্ষেপ পৰীক্ষা কৰে, আৰু ভুল বিকল্পসমূহ স্পষ্টভাৱে ভুল নহৈ যুক্তিসংগত হোৱা উচিত। এটা তথ্যত সংখ্যা, তাৰিখ বা নাম থাকিলে, পঠিওৱাৰ আগতে মানক প্ৰসংগৰ সৈতে মিলাই চাওক, আৰু কোনটো প্ৰসংগ ব্যৱহাৰ কৰিলে তাক কওক। দুয়োটা ভাষাত লিখা একে প্ৰশ্ন বিশেষভাৱে স্বাগতম, কাৰণ ইয়াক অসমীয়া আৰু ইংৰাজী পৃষ্ঠাত একেলগে প্ৰকাশ কৰিব পাৰি।</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">সংশোধন</h3>
+          <p>প্ৰকাশিত প্ৰশ্নত ভুল দেখা পাইলে, পৃষ্ঠাৰ লিংক আৰু সংশোধন যোগাযোগ ফৰ্মৰ জৰিয়তে পঠিয়াওক। সংশোধনসমূহ নতুন প্ৰশ্নৰ দৰেই পৰীক্ষা কৰা হয় আৰু সাধাৰণতে কেইদিনমানৰ ভিতৰত প্ৰয়োগ কৰা হয়।</p>` : `<h2 style="margin-top:0; color:var(--ink,#0f172a);">Contributing questions to axomexam</h2>
+          <p>axomexam accepts reader-submitted practice questions for the Assam competitive exams it covers. A submission is reviewed before it is published, so the question bank keeps a consistent standard and every published question carries an answer and an explanation.</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">What to send</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>The question text, ideally with the Assamese version alongside it.</li>
+            <li>Four options with the correct one clearly marked.</li>
+            <li>A short explanation of why that option is correct.</li>
+            <li>The exam and subject the question belongs to.</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">What happens next</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>The submission is checked for accuracy against standard reference material.</li>
+            <li>Accepted questions are added to the matching topic or exam section.</li>
+            <li>Questions that need correction are returned with a note.</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Writing a good question</h3>
+          <p>A useful practice question tests one clear fact or one clear step, and the wrong options should be plausible rather than obviously wrong. Where a fact has a number, a date or a name, check it against a standard reference before sending it, and say which reference you used. The same question written in both languages is especially welcome, because it can be published to the Assamese and English versions of the page together.</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Corrections</h3>
+          <p>If you spot a mistake in a published question, send the page link and the correction through the contact form. Corrections are checked the same way as new questions and are usually applied within a few days.</p>`}
+        </div>
+      </section>
 
       <div class="form-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 12px 36px -8px rgba(15,23,42,0.08));padding:30px 24px;display:flex;flex-direction:column;box-sizing:border-box;">
         <div class="form-header" style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:22px;gap:12px;">
@@ -5975,7 +6299,7 @@
       }
     };
 
-    let currentFormLang = "en";
+    let currentFormLang = state.lang === "as" ? "as" : "en";
     let correctCaptcha = 0;
 
     function generateCaptcha() {
@@ -6021,6 +6345,7 @@
     $("#btn-en").addEventListener("click", () => updateFormLanguage("en"));
     $("#btn-as").addEventListener("click", () => updateFormLanguage("as"));
     $("#btn-refresh-captcha").addEventListener("click", generateCaptcha);
+    updateFormLanguage(currentFormLang);
 
     $("#qaForm").addEventListener("submit", async function(e) {
       e.preventDefault();

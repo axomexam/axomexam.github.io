@@ -272,62 +272,7 @@
 <details data-axo-faq="1"><summary>SQL ৰ full form কি আৰু ইয়াৰ কাম কি?</summary><p style="margin:8px 0 0;">SQL ৰ full form structured query language; database ত তথ্য সৃষ্টি, পঢ়া, আপডেট আৰু মচিবলৈ ই ব্যৱহৃত হয়।</p></details>
 <details data-axo-faq="1"><summary>কাম undo আৰু redo কৰিবলৈ কোন চাবি ব্যৱহৃত হয়?</summary><p style="margin:8px 0 0;">Ctrl+Z য়ে শেষ কাম undo কৰে আৰু Ctrl+Y য়ে redo কৰে।</p></details></article>
     </div>
-  <article lang="en" data-axo-lang="en" class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.85; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;"><h2>DBMS, Number Systems and Keyboard Shortcuts</h2>
-<p>This chapter bundles three separate skills that a single recruitment paper often tests together: the vocabulary of databases, conversions between the binary, octal, decimal and hexadecimal number systems, and the everyday keyboard shortcuts of a Windows computer. Each item is a single hard fact, so once the fact is fixed in memory the question takes only seconds. Below is the fact list, the conversion method I actually use under time pressure, and the places where candidates most often slip.</p>
-<h3>Database Vocabulary You Must Know</h3>
-<ul>
-<li><strong>Data:</strong> raw facts and figures that carry little meaning on their own.</li>
-<li><strong>Database:</strong> related data stored in an organised way so it can be searched and updated quickly.</li>
-<li><strong>DBMS:</strong> the software that creates and runs a database; MySQL, Oracle, SQL Server and MS Access are common examples.</li>
-<li><strong>RDBMS:</strong> a DBMS that keeps data in tables joined by keys.</li>
-<li><strong>Table:</strong> rows and columns holding data about one subject.</li>
-<li><strong>Record:</strong> one complete row, describing a single entity.</li>
-<li><strong>Field:</strong> one column, holding a single attribute of every record.</li>
-<li><strong>Primary key:</strong> the field that uniquely identifies a row; it can never be blank or repeated.</li>
-<li><strong>Foreign key:</strong> a field that points to the primary key of another table and joins the two.</li>
-<li><strong>SQL:</strong> structured query language, the standard language for creating, reading, updating and deleting data.</li>
-<li><strong>Query:</strong> a request for data from a database.</li>
-<li><strong>Normalisation:</strong> reorganising tables so that repetition and inconsistency are reduced.</li>
-<li><strong>Number system:</strong> a way of writing numbers using a fixed set of digits, called its base.</li>
-<li><strong>Bit:</strong> one binary digit, 0 or 1, the smallest unit of data.</li>
-<li><strong>Byte:</strong> a group of eight bits, enough to hold one character.</li>
-</ul>
-<h3>Rules That Decide Most Answers</h3>
-<ul>
-<li>A database is the data; a DBMS is the software that manages it. Never treat the two as the same thing.</li>
-<li>Only the primary key must be unique. A foreign key may repeat and may be empty.</li>
-<li>SQL's working statements are SELECT to read, INSERT to add, UPDATE to change and DELETE to remove, with CREATE and DROP to make or delete a table.</li>
-<li>The bases are 10 for decimal, 2 for binary, 8 for octal and 16 for hexadecimal.</li>
-<li>Octal is a shorthand for binary in groups of three bits; hexadecimal groups four bits.</li>
-<li>In hexadecimal the letters A to F stand for the values 10 to 15.</li>
-<li>Computer memory climbs in powers of 1024, not 1000: 8 bits = 1 byte, 1024 bytes = 1 KB, 1024 KB = 1 MB, 1024 MB = 1 GB and 1024 GB = 1 TB.</li>
-</ul>
-<h3>How the Four Number Systems Differ</h3>
-<p>A number system takes its name from its base, the count of distinct digits it uses. Decimal runs 0 to 9 on ten digits. Binary uses only 0 and 1. Octal uses 0 to 7 on eight digits. Hexadecimal uses sixteen symbols: 0 to 9 followed by A, B, C, D, E and F for the values ten through fifteen. Because eight, sixteen and two are all powers of two, octal and hexadecimal are compact ways of writing long binary strings, which is why memory addresses are usually shown in hexadecimal. Within any number the leftmost digit carries the largest place value and is called the most significant digit; the rightmost is the least significant.</p>
-<h3>Converting by Hand: Worked Examples</h3>
-<p>Decimal to binary: divide by two, note each remainder, then read the remainders from bottom to top. Take 13. 13 divided by 2 is 6 remainder 1, 6 divided by 2 is 3 remainder 0, 3 divided by 2 is 1 remainder 1, and 1 divided by 2 is 0 remainder 1. Read upwards and 13 becomes 1101.</p>
-<p>Binary to decimal: add the place values wherever the digit is 1. The places, right to left, are 1, 2, 4, 8, 16 and so on. For 1101 that is 8 + 4 + 0 + 1, which is 13 and checks the first example.</p>
-<p>Binary to octal and hexadecimal: split the bits into groups. Grouping 1101 in threes from the right gives 1 and 101, so the octal form is 15. Grouping the same bits in fours gives 1101, so the hexadecimal form is D. A four-bit group is a nibble, half a byte.</p>
-<h3>Memory Sizes and the 1024 Ladder</h3>
-<p>A bit holds a single 0 or 1. Eight bits make a byte, which stores one character. From there every step multiplies by 1024: 1024 bytes make a kilobyte, 1024 KB a megabyte, 1024 MB a gigabyte, 1024 GB a terabyte and 1024 TB a petabyte. Questions usually ask how many bytes sit in a kilobyte or how many bits in a byte, and the answers are 1024 and 8.</p>
-<h3>Shortcuts Worth Memorising</h3>
-<p>Ctrl+C copies, Ctrl+X cuts, Ctrl+V pastes, Ctrl+Z undoes and Ctrl+Y redoes. Ctrl+A selects everything, Ctrl+S saves, Ctrl+P prints, Ctrl+F finds, and Ctrl+B, Ctrl+I and Ctrl+U apply bold, italics and underline. Alt+F4 closes the active window, Alt+Tab switches between open windows, and F5 refreshes the current page or window. A handy pairing: Z for undo sits just left of Y for redo.</p>
-<h3>Where Candidates Lose Marks</h3>
-<ul>
-<li>Reading the decimal-to-binary remainders top to bottom instead of bottom to top.</li>
-<li>Treating a foreign key as unique, when only the primary key is.</li>
-<li>Writing 1000 for memory units; computer memory uses 1024.</li>
-<li>Forgetting that octal groups bits in threes and hexadecimal in fours.</li>
-<li>Swapping Ctrl+Z for undo and Ctrl+Y for redo.</li>
-</ul>
-<h3>A Two-Week Revision Plan</h3>
-<p>Draw one table of the four number systems with their base and digit set, and one ladder from bit to petabyte marked 1024 at every step. Spend the first week converting ten decimal numbers to binary and back each day, reading the remainders aloud so the order becomes automatic. Keep a running list of every conversion, definition or shortcut you get wrong and re-test yourself on that list every third day. In the final week revise only the two tables and the error list; that is enough to hold the chapter.</p>
-<h3>Frequently Asked Questions</h3>
-<details data-axo-faq="1"><summary>What is a primary key?</summary><p style="margin:8px 0 0;">A primary key is a field that uniquely identifies each record of a table and cannot be left empty.</p></details>
-<details data-axo-faq="1"><summary>What is the binary form of the decimal number 10?</summary><p style="margin:8px 0 0;">Dividing 10 repeatedly by two gives the remainders 0, 1, 0 and 1, so 10 is written as 1010 in binary.</p></details>
-<details data-axo-faq="1"><summary>How many bytes are there in one kilobyte?</summary><p style="margin:8px 0 0;">There are 1024 bytes in one kilobyte, because computer memory grows in steps of 1024 rather than 1000.</p></details>
-<details data-axo-faq="1"><summary>What does SQL stand for and what is it used for?</summary><p style="margin:8px 0 0;">SQL stands for structured query language; it is used to create, read, update and delete data in a database.</p></details>
-<details data-axo-faq="1"><summary>Which keys undo and redo an action?</summary><p style="margin:8px 0 0;">Ctrl+Z undoes the last action and Ctrl+Y redoes it.</p></details></article>
+
       </section>
 
 <section class="section" data-axo-editorial-credit="1" style="padding-top:2px; padding-bottom:22px;">
@@ -402,6 +347,6 @@
   <script src="/js/config.js?v=912d2501" defer></script>
   <script src="/js/i18n.js?v=60c94cbb" defer></script>
   <script src="/js/api.js?v=3176a18e" defer></script>
-  <script src="/js/app.js?v=caedf0a4" defer></script>
+  <script src="/js/app.js?v=8b7b06c1" defer></script>
 </body>
 </html>

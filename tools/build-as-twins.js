@@ -41,11 +41,13 @@
 const fs = require("fs");
 const path = require("path");
 const { createTranslator } = require("./lib/as-hub-strings");
+const { createPageDescTranslator, pageDescSpan } = require("./lib/as-page-desc");
 
 const ROOT = process.cwd();
 const BASE = "https://axomexam.in";
 
 const { translateFragment } = createTranslator(ROOT);
+const pageDescFor = createPageDescTranslator(ROOT);
 
 const argv = process.argv.slice(2);
 const CHECK = argv.includes("--check");
@@ -705,7 +707,26 @@ function buildTwin(enHTML, rel, head) {
      under lang="as" — a duplicate of its English twin. */
   out = translateMain(out);
 
+  /* The visible page-desc comes from English data in prerender.js, so the
+     shared tables above do not cover it. Replace it with the Assamese copy
+     from data/ when one exists. */
+  out = translatePageDesc(out, rel);
+
   return out;
+}
+
+/* Swap the <p class="page-desc"> for the Assamese sentence when data/ has one.
+   Left untouched when it is already Assamese (idempotent) or when no Assamese
+   copy exists for this route. */
+function translatePageDesc(html, rel) {
+  const next = pageDescFor(rel);
+  if (!next) return html;
+  const span = pageDescSpan(html);
+  if (!span) return html;
+  const current = html.slice(span.inner, span.end).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  if (/[\u0980-\u09FF]/.test(current)) return html;
+  const esc = next.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return html.slice(0, span.inner) + esc + html.slice(span.end - "</p>".length);
 }
 
 /* Rewrite the visible text inside <main> to Assamese using the shared tables

@@ -198,43 +198,106 @@
 
   <!-- ===== Main Content Area ===== -->
   <main id="app" class="container main">
-    <noscript>
-      <p class="nojs-title"><strong>axomexam - Assam Competitive Exam Preparation Portal</strong></p>
-      <p>APSC, অসম আৰক্ষী, ADRE, SSC আৰু ৰে'লৱে পৰীক্ষাৰ বাবে বিনামূলীয়া দ্বিভাষিক (অসমীয়া আৰু ইংৰাজী) মক টেষ্ট, বিগত বছৰৰ সমাধান কৰা প্ৰশ্নকাকত আৰু PDF অধ্যয়ন টোকা।</p>
-    </noscript>
+
+<div class="success-modal-overlay" id="successPopup" style="position:fixed;inset:0;background:rgba(15,23,42,0.65);backdrop-filter:blur(5px);display:none;place-items:center;z-index:99999;opacity:0;transition:opacity 0.2s ease;">
+        <div class="success-modal-card" style="background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:24px;padding:30px 24px;width:82%;max-width:300px;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.35);border:1px solid var(--line,#e2e8f0);">
+          <div class="tick-circle" style="width:68px;height:68px;background:#10b981;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 24px -4px rgba(16,185,129,0.5);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:36px;height:36px;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:var(--ink,#0f172a);margin-bottom:4px;">সফলতাৰে প্ৰেৰণ হ'ল!</h3>
+          <p id="pop-desc" style="font-size:0.84rem;color:var(--ink-soft,#64748b);font-weight:600;">আপোনাৰ বাৰ্তা লাভ কৰা হৈছে।</p>
+        </div>
+      </div>
 
       <div class="page-head">
-        <nav class="breadcrumb"><a href="/as/">গৃহপৃষ্ঠা</a><span class="bc-sep">/</span><span>Submit Q&amp;A</span></nav>
+        <nav class="breadcrumb"><a href="/">গৃহপৃষ্ঠা</a><span class="bc-sep">/</span><span>প্ৰশ্ন আগবঢ়াওক</span></nav>
         <h1>প্ৰশ্ন আগবঢ়াওক</h1>
-        
-      </div><section class="section" style="padding-bottom:40px;">
-      <div style="max-width:840px; margin:0 auto; line-height:1.8; color:#334155;"><p>Want to contribute questions to <strong>axomexam.in</strong>?</p><p>Use the form below to submit a question with its answer. Reviewed submissions are added to our question bank for students preparing for APSC, ADRE, Assam Police, SSC and Railway exams.</p></div>
-    </section>
-  
-<section class="section axo-main-content" data-axo-main-content="1" style="padding-bottom:48px;">
-      <div class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.8; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;">
-        <h2 style="margin-top:0; color:var(--ink,#0f172a);">Contributing questions to axomexam</h2>
-        <p>axomexam accepts reader-submitted practice questions for the Assam competitive exams it covers. A submission is reviewed before it is published, so the question bank keeps a consistent standard and every published question carries an answer and an explanation.</p>
-        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">What to send</h3>
-        <ul style="margin:8px 0 0 20px; line-height:1.9;">
-          <li>The question text, ideally with the Assamese version alongside it.</li>
-          <li>Four options with the correct one clearly marked.</li>
-          <li>A short explanation of why that option is correct.</li>
-          <li>The exam and subject the question belongs to.</li>
-        </ul>
-        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">What happens next</h3>
-        <ul style="margin:8px 0 0 20px; line-height:1.9;">
-          <li>The submission is checked for accuracy against standard reference material.</li>
-          <li>Accepted questions are added to the matching topic or exam section.</li>
-          <li>Questions that need correction are returned with a note.</li>
-        </ul>
-        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Writing a good question</h3>
-        <p>A useful practice question tests one clear fact or one clear step, and the wrong options should be plausible rather than obviously wrong. Where a fact has a number, a date or a name, check it against a standard reference before sending it, and say which reference you used. The same question written in both languages is especially welcome, because it can be published to the Assamese and English versions of the page together.</p>
-        <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Corrections</h3>
-        <p>If you spot a mistake in a published question, send the page link and the correction through the contact form. Corrections are checked the same way as new questions and are usually applied within a few days.</p>
       </div>
-    </section>
-  </main>
+
+      <section class="section axo-main-content" data-axo-main-content="1" style="padding-bottom:24px;">
+        <div class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.8; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;">
+          <h2 style="margin-top:0; color:var(--ink,#0f172a);">axomexam লৈ প্ৰশ্ন আগবঢ়াওক</h2>
+          <p>axomexam এ পঢ়ুৱৈসকলে পঠিওৱা অনুশীলন প্ৰশ্ন গ্ৰহণ কৰে, সেই অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাসমূহৰ বাবে যিবোৰ ইয়াৰ পৰিসৰত আছে। প্ৰকাশৰ আগতে জমা দিয়া প্ৰশ্ন পৰ্যালোচনা কৰা হয়, গতিকে প্ৰশ্ন-সংগ্ৰহত একে মানদণ্ড বজাই ৰখা হয় আৰু প্ৰতিটো প্ৰকাশিত প্ৰশ্নৰ সৈতে উত্তৰ আৰু এটা ব্যাখ্যা থাকে।</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">কি পঠিয়াব</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>প্ৰশ্নৰ লিখনি, অনুগ্ৰহ কৰি অসমীয়া সংস্কৰণটো লগত ৰাখি।</li>
+            <li>চাৰিটা বিকল্প, শুদ্ধ বিকল্পটো স্পষ্টভাৱে চিহ্নিত কৰি।</li>
+            <li>কিয় সেই বিকল্পটো শুদ্ধ তাৰ এটা চুটি ব্যাখ্যা।</li>
+            <li>প্ৰশ্নটো যি পৰীক্ষা আৰু বিষয়ৰ, তাৰ নাম।</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">ইয়াৰ পিছত কি হয়</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>মানক প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই জমা দিয়া প্ৰশ্নৰ শুদ্ধতা পৰীক্ষা কৰা হয়।</li>
+            <li>গ্ৰহণ কৰা প্ৰশ্নসমূহ মিল থকা বিষয় বা পৰীক্ষাৰ শিতানত যোগ কৰা হয়।</li>
+            <li>শুধৰণিৰ প্ৰয়োজন থকা প্ৰশ্ন এটা টোকাসহ ঘূৰাই দিয়া হয়।</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">এটা ভাল প্ৰশ্ন লিখা</h3>
+          <p>এটা উপযোগী অনুশীলন প্ৰশ্নই এটা স্পষ্ট তথ্য বা এটা স্পষ্ট পদক্ষেপ পৰীক্ষা কৰে, আৰু ভুল বিকল্পসমূহ স্পষ্টভাৱে ভুল নহৈ যুক্তিসংগত হোৱা উচিত। এটা তথ্যত সংখ্যা, তাৰিখ বা নাম থাকিলে, পঠিওৱাৰ আগতে মানক প্ৰসংগৰ সৈতে মিলাই চাওক, আৰু কোনটো প্ৰসংগ ব্যৱহাৰ কৰিলে তাক কওক। দুয়োটা ভাষাত লিখা একে প্ৰশ্ন বিশেষভাৱে স্বাগতম, কাৰণ ইয়াক অসমীয়া আৰু ইংৰাজী পৃষ্ঠাত একেলগে প্ৰকাশ কৰিব পাৰি।</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">সংশোধন</h3>
+          <p>প্ৰকাশিত প্ৰশ্নত ভুল দেখা পাইলে, পৃষ্ঠাৰ লিংক আৰু সংশোধন যোগাযোগ ফৰ্মৰ জৰিয়তে পঠিয়াওক। সংশোধনসমূহ নতুন প্ৰশ্নৰ দৰেই পৰীক্ষা কৰা হয় আৰু সাধাৰণতে কেইদিনমানৰ ভিতৰত প্ৰয়োগ কৰা হয়।</p>
+        </div>
+      </section>
+
+      <div class="form-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 12px 36px -8px rgba(15,23,42,0.08));padding:30px 24px;display:flex;flex-direction:column;box-sizing:border-box;">
+        <div class="form-header" style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:22px;gap:12px;">
+          <div class="lang-toggle" style="display:inline-flex;background:var(--bg-soft,#f1f5f9);border:1px solid var(--line,#e2e8f0);border-radius:99px;padding:3px;">
+            <button type="button" class="lang-btn active" id="btn-en" style="border:none;background:#2563eb;color:#ffffff;padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">EN</button>
+            <button type="button" class="lang-btn" id="btn-as" style="border:none;background:transparent;color:var(--ink-soft,#64748b);padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">অসমীয়া</button>
+          </div>
+          <div class="form-title" style="text-align:center;width:100%;">
+            <h2 id="txt-title" style="font-size:1.35rem;font-weight:800;color:var(--ink,#0f172a);letter-spacing:-0.4px;">Submit Q&A Note</h2>
+            <p id="txt-desc" style="margin-top:4px;font-size:0.84rem;color:var(--ink-soft,#64748b);">Contribute notes or feedback for aspirants.</p>
+          </div>
+        </div>
+
+        <form id="qaForm" class="form-body" style="display:flex;flex-direction:column;gap:14px;">
+          <input type="hidden" name="apiKey" value="sf_304846a9720d7354070bd57c">
+          <input type="hidden" name="replyTo" value="support@axomexam.in">
+          <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="field">
+            <label id="lbl-name" for="name" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Rahul Borah" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
+          </div>
+          <div class="field">
+            <label id="lbl-email" for="email" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
+          </div>
+          <div class="field">
+            <label id="lbl-topic" for="subject" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Subject / Topic (Optional)</label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Assam History, Science" style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
+          </div>
+          <div class="field">
+            <label id="lbl-question" for="question" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Question (Optional)</label>
+            <textarea id="question" name="question" rows="2" placeholder="Type the question here..." style="width:100%;min-height:55px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
+          </div>
+          <div class="field">
+            <label id="lbl-answer" for="answer" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Answer / Message (Optional)</label>
+            <textarea id="answer" name="answer" rows="3" placeholder="Provide complete answer, steps or message..." style="width:100%;min-height:90px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
+          </div>
+
+          <div class="captcha-container" style="background:var(--bg-soft,#f8fafc);border:1.5px solid var(--line,#e2e8f0);border-radius:12px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px;">
+            <div class="captcha-left" style="display:flex;align-items:center;gap:8px;">
+              <span class="captcha-label" id="lbl-captcha" style="font-size:0.8rem;font-weight:700;color:var(--ink-soft,#64748b);">Security:</span>
+              <div class="captcha-badge-wrap" style="display:inline-flex;align-items:center;gap:4px;background:var(--bg,#ffffff);padding:3px 6px 3px 8px;border-radius:8px;border:1px solid var(--line,#cbd5e1);">
+                <span class="captcha-math" id="math-expression" style="font-size:0.92rem;font-weight:800;color:#2563eb;user-select:none;">2 + 3 = ?</span>
+                <button type="button" class="captcha-refresh-btn" id="btn-refresh-captcha" title="Change Captcha" style="border:none;background:transparent;color:var(--ink-faint,#94a3b8);width:24px;height:24px;display:grid;place-items:center;cursor:pointer;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/></svg>
+                </button>
+              </div>
+            </div>
+            <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border:1.5px solid var(--line,#cbd5e1);border-radius:8px;outline:none;-moz-appearance:textfield;">
+          </div>
+
+          <button type="submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;border:none;background:#2563eb !important;color:#ffffff !important;box-shadow:0 6px 16px -4px rgba(37,99,235,0.45);transition:all 0.2s ease;">
+            <span id="txt-btn">Submit</span>
+          </button>
+
+          <div id="form-error" class="error-msg" style="padding:10px 12px;border-radius:12px;font-size:0.84rem;font-weight:600;display:none;text-align:center;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;"></div>
+        </form>
+      </div>
+
+    </main>
 <!-- ===== Footer ===== -->
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -295,7 +358,7 @@
   <script src="/js/config.js?v=912d2501" defer></script>
   <script src="/js/i18n.js?v=60c94cbb" defer></script>
   <script src="/js/api.js?v=3176a18e" defer></script>
-  <script src="/js/app.js?v=caedf0a4" defer></script>
+  <script src="/js/app.js?v=8b7b06c1" defer></script>
   <script data-axo-guard="1">(function(){var s=document.querySelector('section[data-axo-extra="1"]');if(!s)return;var want=s.getAttribute('data-axo-path')||"/";function n(p){if(!p)return "/";if(p.length>1&&p.charAt(p.length-1)!=="/")p+="/";return p;}function u(){s.style.display=(n(location.pathname)===n(want))?"":"none";}window.addEventListener("popstate",u);var a=document.getElementById("app");if(a&&window.MutationObserver){new MutationObserver(u).observe(a,{childList:true});}u();})();</script>
 </body>
 </html>

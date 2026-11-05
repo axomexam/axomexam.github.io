@@ -207,39 +207,86 @@ function dedupeSyllabus(abs) {
   return write(abs, next);
 }
 
-/* ---------- pass 4: topic / exam deep-article panel ---------- */
+/* ---------- pass 4: deep-article extra-content panel ---------- */
 
-/* The deep-article injector writes a bilingual <article> pair into every topic
-   and exam page:
-     <article lang="as" data-axo-lang="as" class="info-panel"> …Assamese… </article>
-     <article lang="en" data-axo-lang="en" class="info-panel"> …English…  </article>
+/* The deep-article injector writes a bilingual panel pair into a
+   <section data-axo-extra="1"> block that follows `</main>` on every topic and
+   exam page:
+     <article|div lang="as" data-axo-lang="as" class="info-panel"> …Assamese…
+     <article|div lang="en" data-axo-lang="en" class="info-panel"> …English…
    The Assamese twin copied both, so it served the full English article too.
-   Drop the English panel, keeping the Assamese one. */
-const DEEP_AS_OPEN = '<article lang="as" data-axo-lang="as" class="info-panel"';
-const DEEP_EN_OPEN = '<article lang="en" data-axo-lang="en" class="info-panel"';
+   Drop the English panel, keeping the Assamese one. The wrapper is a <div> on
+   most pages and an <article> on a few, so match either.
 
+   The <section data-axo-editorial-credit="1"> block also holds a lang pair,
+   but those panels follow the *interface* language toggle, so both halves must
+   stay in the DOM and are never touched here. */
+const DEEP_AS_OPEN = /<(article|div)\b[^>]*data-axo-lang="as"[^>]*class="info-panel"/g;
+const DEEP_EN_OPEN = /<(article|div)\b[^>]*data-axo-lang="en"[^>]*class="info-panel"/g;
+const EXTRA_OPEN = /<section\b[^>]*data-axo-extra="1"[^>]*>/;
+
+/* [start,end) of the extra-content section, found by balancing <section>. */
+function extraSection(html) {
+  const m = EXTRA_OPEN.exec(html);
+  if (!m) return null;
+  const tagRe = /<section\b[^>]*>|<\/section>/g;
+  tagRe.lastIndex = m.index + m[0].length;
+  let depth = 1;
+  let t;
+  while ((t = tagRe.exec(html))) {
+    if (t[0].slice(0, 2) === "</") {
+      depth--;
+      if (depth === 0) return { start: m.index, end: tagRe.lastIndex };
+    } else depth++;
+  }
+  return null;
+}
+
+/* Spans of the info-panel elements of one language inside `html`. */
+function panelSpans(html, re) {
+  const out = [];
+  re.lastIndex = 0;
+  let m;
+  while ((m = re.exec(html))) {
+    const close = `</${m[1]}>`;
+    const j = html.indexOf(close, m.index);
+    if (j === -1) continue;
+    out.push({ start: m.index, end: j + close.length });
+  }
+  return out;
+}
+
+/* Question banks interleave Assamese option values into an otherwise English
+   panel via inline <span lang="as"> nodes, and a few source articles carry a
+   stray Assamese bullet. Neither makes the panel translated, so content is
+   never used to decide. Inside the extra section the injector always writes the
+   Assamese panel first, then the English one; if an Assamese panel is present
+   the English sibling is redundant. */
 function dedupeDeepPanel(abs) {
-  const html = fs.readFileSync(abs, "utf8");
-  const i = html.indexOf(DEEP_EN_OPEN);
-  if (i === -1) return "clean";
-  const j = html.indexOf("</article>", i);
-  if (j === -1) return "skip";
-  const end = j + "</article>".length;
+  let html = fs.readFileSync(abs, "utf8");
+  let changed = false;
 
-  const english = html.slice(i, end);
-  if (HAS_ASSAMESE.test(english)) return "skip";
+  for (;;) {
+    const sec = extraSection(html);
+    if (!sec) break;
+    const body = html.slice(sec.start, sec.end);
 
-  const asIdx = html.indexOf(DEEP_AS_OPEN);
-  if (asIdx === -1) return "skip";
-  const asClose = html.indexOf("</article>", asIdx);
-  if (asClose === -1 || !HAS_ASSAMESE.test(html.slice(asIdx, asClose))) return "skip";
+    const as = panelSpans(body, DEEP_AS_OPEN)[0];
+    if (!as || !HAS_ASSAMESE.test(body.slice(as.start, as.end))) break;
 
-  /* Take the leading newline/indentation with the block so the file keeps its
-     shape. */
-  let start = i;
-  while (start > 0 && (html[start - 1] === " " || html[start - 1] === "\n")) start--;
+    const en = panelSpans(body, DEEP_EN_OPEN)[0];
+    if (!en) break;
 
-  return write(abs, html.slice(0, start) + "\n" + html.slice(end));
+    /* Take the leading newline/indentation with the block so the file keeps
+       its shape. */
+    let start = sec.start + en.start;
+    while (start > 0 && (html[start - 1] === " " || html[start - 1] === "\n")) start--;
+    html = html.slice(0, start) + "\n" + html.slice(sec.start + en.end);
+    changed = true;
+  }
+
+  if (!changed) return "clean";
+  return write(abs, html);
 }
 
 /* ---------- drivers ---------- */
