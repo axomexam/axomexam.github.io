@@ -37,6 +37,27 @@ git merge-base --is-ancestor origin/main HEAD || { echo BLOCKED; exit 1; }
 git push origin HEAD:main
 ```
 
+## Gotcha: hand-edited pages that a tool regenerates
+
+`tools/inject-as-static-pages.js` rewrites the Assamese body of the legal and
+editorial pages (`about`, `privacy`, `terms`, `disclaimer`,
+`editorial-policy`, `editorial-team`, `sources`, `updates`) from the
+`isAs ? \`...\`` branch in `js/app.src.js`. That branch is the source of truth
+for those pages.
+
+`/updates/` and `/about/` have been hand-edited in the served HTML several
+times (the English `/updates/` page carries entries that were never added to
+`js/app.src.js`). Running the injector then silently drops the hand-added
+text from the `/as/` twin. If you edit one of those pages by hand, add the
+same content to `js/app.src.js` in the same commit, or the next injector run
+loses it.
+
+The same trap applies to any commit that stages the whole tree: a stale
+`/as/` page already sitting dirty in the working tree gets published even
+though the change you intended was elsewhere. Run
+`git status` before `git add -A` and check that every modified file is one you
+meant to touch.
+
 ## Architecture
 
 - `js/app.src.js` is the client-side router and renderer. It replaces the
