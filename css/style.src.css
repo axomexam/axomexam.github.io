@@ -32,6 +32,9 @@
   --font-en: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-as: "Noto Sans Bengali", "Inter", sans-serif;
   --header-h: 64px;
+  /* One height for every round control in the header (language pill, theme
+     toggle, notification bell) so the row stays on a single visual line. */
+  --hdr-ctl: 42px;
   --grad: linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #22d3ee 130%);
   --transition: .22s cubic-bezier(.4, 0, .2, 1);
 }
@@ -260,7 +263,7 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 /* ----- Theme toggle (dark mode) ----- */
 .theme-toggle {
   display: grid; place-items: center;
-  width: 42px; height: 42px; flex-shrink: 0;
+  width: var(--hdr-ctl); height: var(--hdr-ctl); flex-shrink: 0;
   border-radius: 10px; border: 1px solid var(--line); background: var(--bg);
   color: var(--ink-soft); transition: all var(--transition);
 }
@@ -273,12 +276,89 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 
 /* Theme toggle inside the mobile menu head (opposite of the brand) */
 .m-theme-toggle {
-  width: 38px; height: 38px; border-radius: 10px;
+  width: var(--hdr-ctl); height: var(--hdr-ctl); border-radius: 10px;
   border: 1px solid var(--line); background: var(--bg-soft);
 }
 .m-theme-toggle svg { width: 17px; height: 17px; }
 .mobile-menu-head .m-theme-toggle { margin-left: auto; }
 .mobile-menu-head .m-close { margin-left: 0; }
+
+/* ----- Universal language toggle (header pill) ----- */
+.desktop-lang-toggle {
+  display: inline-flex; align-items: center; flex-shrink: 0;
+  gap: 2px; padding: 3px; height: var(--hdr-ctl);
+  border: 1px solid var(--line); border-radius: 12px;
+  background: var(--bg-subtle);
+}
+.glang-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 44px; height: 100%; padding: 0 10px;
+  border: none; border-radius: 9px; background: transparent;
+  color: var(--ink-soft); font-size: .8rem; font-weight: 700;
+  line-height: 1; white-space: nowrap; cursor: pointer;
+  transition: all var(--transition);
+}
+.glang-btn:hover { color: var(--primary); }
+.glang-btn.active { background: var(--grad); color: #fff; }
+
+/* ----- Notifications (header bell) ----- */
+.notif-wrap { position: relative; display: inline-flex; flex-shrink: 0; }
+.notif-toggle {
+  position: relative;
+  display: grid; place-items: center;
+  width: var(--hdr-ctl); height: var(--hdr-ctl); flex-shrink: 0;
+  border-radius: 10px; border: 1px solid var(--line); background: var(--bg);
+  color: var(--ink-soft); transition: all var(--transition);
+}
+.notif-toggle:hover,
+.notif-toggle[aria-expanded="true"] { border-color: var(--primary); color: var(--primary); background: var(--bg-tint); }
+.notif-toggle svg { width: 19px; height: 19px; }
+.notif-badge {
+  position: absolute; top: -5px; right: -5px;
+  min-width: 18px; height: 18px; padding: 0 4px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 99px; background: #ef4444; color: #fff;
+  font-size: .66rem; font-weight: 800; line-height: 1;
+  border: 2px solid var(--bg);
+  box-shadow: 0 3px 8px -3px rgba(239, 68, 68, .9);
+}
+.notif-badge[hidden] { display: none; }
+.notif-panel {
+  position: absolute; top: calc(100% + 10px); right: 0; z-index: 420;
+  width: min(300px, calc(100vw - 32px));
+  background: var(--bg-subtle); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 24px 55px -18px rgba(15, 23, 42, .38), 0 4px 14px -6px rgba(15, 23, 42, .18);
+  overflow: hidden;
+}
+[data-theme="dark"] .notif-panel {
+  border-color: var(--border);
+  box-shadow: 0 26px 60px -20px rgba(0, 0, 0, .8), 0 4px 16px -6px rgba(0, 0, 0, .55);
+}
+.notif-panel[hidden] { display: none; }
+.notif-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.notif-head b { font-size: .82rem; font-weight: 800; }
+.notif-head-right { display: inline-flex; align-items: center; gap: 7px; }
+.notif-head .notif-count { font-size: .66rem; font-weight: 800; padding: 3px 8px; border-radius: 99px; background: var(--bg); color: var(--primary); border: 1px solid var(--line); }
+.notif-mark-all {
+  font-size: .66rem; font-weight: 800; padding: 4px 9px; border-radius: 99px;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink-soft);
+  cursor: pointer; white-space: nowrap; transition: all var(--transition);
+}
+.notif-mark-all:hover { border-color: var(--primary); color: var(--primary); }
+.notif-mark-all[hidden] { display: none; }
+.notif-list { max-height: min(52vh, 300px); overflow-y: auto; }
+.notif-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; border-bottom: 1px solid var(--line); transition: background var(--transition); }
+.notif-item:last-child { border-bottom: none; }
+.notif-item:hover { background: rgba(15, 23, 42, .05); }
+[data-theme="dark"] .notif-item:hover { background: rgba(255, 255, 255, .05); }
+.notif-num { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 7px; display: grid; place-items: center; background: var(--grad); color: #fff; font-size: .68rem; font-weight: 800; }
+.notif-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.notif-body b { font-size: .82rem; font-weight: 700; color: var(--ink); }
+.notif-body span { font-size: .73rem; color: var(--ink-faint); }
+/* Read items dim down so the unread ones stay prominent. */
+.notif-item.is-read .notif-num { background: var(--bg-tint); color: var(--ink-faint); }
+.notif-item.is-read .notif-body b { font-weight: 600; color: var(--ink-soft); }
+.notif-foot { padding: 9px 12px; text-align: center; font-size: .72rem; color: var(--ink-faint); border-top: 1px solid var(--line); }
 
 /* ============================================================
    Navigation (desktop)
@@ -2512,6 +2592,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
    desktop layout/behaviour stays exactly the same.
    ============================================================ */
 @media (max-width: 900px) {
+  /* Slightly smaller round controls so the top bar breathes on phones. */
+  :root { --hdr-ctl: 38px; }
 
   /* Smoother taps, no grey flash */
   html { -webkit-tap-highlight-color: transparent; }
@@ -2545,10 +2627,12 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
     justify-content: flex-end;
   }
   .header-inner .search-wrap { display: none; }
-  .header-inner .theme-toggle { flex: 0 0 auto; width: 38px; height: 38px; border-radius: 11px; }
+  .header-inner .theme-toggle,
+  .header-inner .notif-toggle { flex: 0 0 auto; border-radius: 11px; }
+  .notif-panel { position: fixed; top: calc(60px + env(safe-area-inset-top, 0px)); right: 12px; left: 12px; width: auto; }
 
   /* Universal language toggle lives in the top bar on mobile */
-  .desktop-lang-toggle { display: inline-flex !important; margin-right: 0 !important; }
+  .desktop-lang-toggle { display: inline-flex; }
 
   /* Full-width, easy-to-tap search results under the top bar */
   .search-results {
@@ -2705,20 +2789,28 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 
 /* Small phones only */
 @media (max-width: 420px) {
+  /* Four controls have to share the top bar with the brand on a narrow
+     phone, so the round controls and the language pill go one step down. */
+  :root { --hdr-ctl: 34px; }
+  .header-inner { gap: 6px; }
+  .header-inner .header-center { gap: 6px; }
+  .header-inner .brand-text { font-size: 1.02rem; }
+  .desktop-lang-toggle { padding: 2px; gap: 2px; }
+  .glang-btn { min-width: 34px; padding: 0 6px; font-size: .7rem; }
   .hero-stats .stat span { font-size: .64rem; }
   .hero-actions .btn { padding: 10px 6px; font-size: .8rem; }
-  .header-inner .brand-text { font-size: 1.06rem; }
-  .header-inner { gap: 8px; }
   .tab-item { font-size: .6rem; }
   .tab-item svg { width: 20px; height: 20px; }
 }
 
 /* Tiny phones: keep brand + theme on one line, never hide the brand name */
 @media (max-width: 360px) {
-  .header-inner { gap: 6px; }
-  .header-inner .brand { gap: 6px; }
+  .header-inner { gap: 5px; }
+  .header-inner .header-center { gap: 5px; }
+  .header-inner .brand { gap: 5px; }
   .header-inner .brand-mark { width: 28px; height: 28px; border-radius: 9px; font-size: .92rem; }
-  .header-inner .brand-text { display: inline; font-size: .98rem; letter-spacing: -.3px; }
+  .header-inner .brand-text { display: inline; font-size: .94rem; letter-spacing: -.3px; }
+  .glang-btn { min-width: 30px; padding: 0 5px; font-size: .66rem; }
   .header-inner #master-search { padding-left: 30px; }
   .header-inner .search-wrap .search-icon { left: 9px; }
 }

@@ -860,6 +860,7 @@
     });
     renderDynamicFooter();
     refreshWhatsappChat();
+    renderNotifications();
   }
 
   /* ================= WhatsApp "Chat with us" button =================
@@ -941,10 +942,9 @@
     if (deskTheme && !document.querySelector(".desktop-lang-toggle")) {
       const dWrap = document.createElement("div");
       dWrap.className = "desktop-lang-toggle";
-      dWrap.style.cssText = "display:inline-flex;align-items:center;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border,#e2e8f0);border-radius:20px;padding:2px;margin-right:8px;";
       dWrap.innerHTML = `
-        <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en" style="border:none;background:${state.uiLang === "en" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "en" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;">EN</button>
-        <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as" style="border:none;background:${state.uiLang === "as" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "as" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;">অসমীয়া</button>
+        <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en">EN</button>
+        <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as">অসমীয়া</button>
       `;
       deskTheme.insertAdjacentElement("beforebegin", dWrap);
     }
@@ -959,10 +959,7 @@
         try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) {}
         
         $$(".glang-btn").forEach((b) => {
-          const isAct = b.dataset.glang === state.uiLang;
-          b.classList.toggle("active", isAct);
-          b.style.background = isAct ? "var(--primary,#0ea5e9)" : "transparent";
-          b.style.color = isAct ? "#fff" : "var(--ink-soft,#64748b)";
+          b.classList.toggle("active", b.dataset.glang === state.uiLang);
         });
 
         applyStaticI18n();
@@ -8328,6 +8325,7 @@
     document.body.setAttribute("data-lang", state.lang);
     document.body.setAttribute("data-ui-lang", state.uiLang);
     applyStaticI18n();
+    initNotifications();
     initAppPrompt();
     initWhatsappChat();
 
@@ -8502,8 +8500,206 @@
 
     $$(".theme-toggle").forEach((btn) => {
       btn.innerHTML = iconHtml;
-      btn.style.cssText = "display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:10px; border:1px solid var(--border,#e2e8f0); background:var(--bg-subtle,#f8fafc); color:var(--ink,#0f172a); cursor:pointer; padding:0; outline:none; transition:all 0.2s ease;";
     });
+  }
+
+  /* ================= Header notifications =================
+     A bell button sits directly after the dark-mode toggle in the header
+     (desktop bar and mobile top bar share the same .header-center, so one
+     insertion point covers both). The list is short and curated, so it is
+     rendered from this array; the labels follow the universal (interface)
+     language toggle through applyStaticI18n(). */
+  const NOTIFICATIONS = [
+    {
+      title: { en: "ADRE 3.0 Grade III exam book is live", as: "ADRE 3.0 তৃতীয় শ্ৰেণীৰ পৰীক্ষা-বহী উপলব্ধ" },
+      desc: { en: "Complete syllabus, chapter notes and bilingual practice sets.", as: "সম্পূৰ্ণ পাঠ্যক্ৰম, অধ্যায় টোকা আৰু দ্বিভাষিক অনুশীলন সংহতি।" },
+      href: "/exams/adre-grade-3/",
+    },
+    {
+      title: { en: "ADRE 3.0 Grade IV exam book is live", as: "ADRE 3.0 চতুৰ্থ শ্ৰেণীৰ পৰীক্ষা-বহী উপলব্ধ" },
+      desc: { en: "Subject-wise questions with answers and explanations.", as: "উত্তৰ আৰু ব্যাখ্যাৰ সৈতে বিষয়ভিত্তিক প্ৰশ্ন।" },
+      href: "/exams/adre-grade-4/",
+    },
+    {
+      title: { en: "Assam Police exam book is live", as: "অসম আৰক্ষী পৰীক্ষা-বহী উপলব্ধ" },
+      desc: { en: "Constable (AB & UB) syllabus, notes and practice sets.", as: "কনিষ্টবল (AB আৰু UB) পাঠ্যক্ৰম, টোকা আৰু অনুশীলন সংহতি।" },
+      href: "/exams/assam-police/",
+    },
+  ];
+
+  const NOTIF_STRINGS = {
+    label: { en: "Notifications", as: "জাননী" },
+    count: { en: (n) => `${n} new`, as: (n) => `${n} টা নতুন` },
+    allRead: { en: "You're all caught up", as: "সকলো পঢ়া হৈছে" },
+    markAll: { en: "Mark all read", as: "সকলো পঢ়া বুলি চিহ্নিত কৰক" },
+    foot: { en: "Tap a notification to open it", as: "খুলিবলৈ এটা জাননীত টিপক" },
+  };
+
+  /* Read state is per-browser, keyed by href so it survives a reorder. */
+  const NOTIF_READ_KEY = "axomexam-notif-read";
+  let notifRead = null;
+
+  function notifReadSet() {
+    if (notifRead) return notifRead;
+    try {
+      const raw = JSON.parse(localStorage.getItem(NOTIF_READ_KEY) || "[]");
+      notifRead = new Set(Array.isArray(raw) ? raw : []);
+    } catch (e) {
+      notifRead = new Set();
+    }
+    return notifRead;
+  }
+
+  function notifSaveRead() {
+    try { localStorage.setItem(NOTIF_READ_KEY, JSON.stringify([...notifReadSet()])); } catch (e) {}
+  }
+
+  function notifUnreadCount() {
+    const read = notifReadSet();
+    return NOTIFICATIONS.filter((n) => !read.has(n.href)).length;
+  }
+
+  function notifMarkRead(href) {
+    const read = notifReadSet();
+    if (read.has(href)) return false;
+    read.add(href);
+    notifSaveRead();
+    renderNotifications();
+    return true;
+  }
+
+  function notifMarkAllRead() {
+    const read = notifReadSet();
+    let changed = false;
+    NOTIFICATIONS.forEach((n) => { if (!read.has(n.href)) { read.add(n.href); changed = true; } });
+    if (changed) { notifSaveRead(); renderNotifications(); }
+  }
+
+  function notifString(key) {
+    const l = state.uiLang || "en";
+    const entry = NOTIF_STRINGS[key];
+    if (!entry) return "";
+    const v = entry[l] || entry.en;
+    return typeof v === "function" ? v(notifUnreadCount()) : v;
+  }
+
+  function notificationText(obj) {
+    const l = state.uiLang || "en";
+    return (obj && (obj[l] || obj.en)) || "";
+  }
+
+  function renderNotifications() {
+    const list = document.getElementById("notif-list");
+    if (!list) return;
+
+    const label = notifString("label");
+    const toggle = document.getElementById("notif-toggle");
+    if (toggle) {
+      toggle.setAttribute("aria-label", label);
+      toggle.setAttribute("title", label);
+    }
+
+    const read = notifReadSet();
+    const unread = notifUnreadCount();
+
+    const badge = document.getElementById("notif-badge");
+    if (badge) {
+      badge.textContent = String(unread);
+      badge.hidden = unread === 0;
+    }
+
+    const count = document.getElementById("notif-count");
+    if (count) count.textContent = unread ? notifString("count") : notifString("allRead");
+
+    const markAll = document.getElementById("notif-mark-all");
+    if (markAll) {
+      markAll.textContent = notifString("markAll");
+      markAll.hidden = unread === 0;
+    }
+
+    const head = document.getElementById("notif-head-title");
+    if (head) head.textContent = label;
+    const foot = document.getElementById("notif-foot");
+    if (foot) foot.textContent = notifString("foot");
+
+    list.innerHTML = NOTIFICATIONS.map((n, i) => `
+      <a class="notif-item${read.has(n.href) ? " is-read" : ""}" href="${n.href}" data-href="${n.href}">
+        <span class="notif-num">${i + 1}</span>
+        <span class="notif-body"><b>${escapeHtml(notificationText(n.title))}</b><span>${escapeHtml(notificationText(n.desc))}</span></span>
+      </a>`).join("");
+  }
+
+  function initNotifications() {
+    const themeBtn = document.querySelector(".header-center .theme-toggle");
+    if (!themeBtn || document.getElementById("notif-wrap")) return;
+
+    const wrap = document.createElement("div");
+    wrap.className = "notif-wrap";
+    wrap.id = "notif-wrap";
+    wrap.innerHTML = `
+      <button class="notif-toggle" id="notif-toggle" type="button" aria-expanded="false" aria-controls="notif-panel" aria-haspopup="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        <span class="notif-badge" id="notif-badge"></span>
+      </button>
+      <div class="notif-panel" id="notif-panel" hidden>
+        <div class="notif-head">
+          <b id="notif-head-title"></b>
+          <span class="notif-head-right">
+            <button class="notif-mark-all" id="notif-mark-all" type="button"></button>
+            <span class="notif-count" id="notif-count"></span>
+          </span>
+        </div>
+        <div class="notif-list" id="notif-list"></div>
+        <div class="notif-foot" id="notif-foot"></div>
+      </div>`;
+    themeBtn.insertAdjacentElement("afterend", wrap);
+
+    const toggle = wrap.querySelector("#notif-toggle");
+    const panel = wrap.querySelector("#notif-panel");
+    const list = wrap.querySelector("#notif-list");
+    const markAll = wrap.querySelector("#notif-mark-all");
+
+    const close = () => {
+      panel.hidden = true;
+      toggle.setAttribute("aria-expanded", "false");
+    };
+    const open = () => {
+      panel.hidden = false;
+      toggle.setAttribute("aria-expanded", "true");
+    };
+
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (panel.hidden) open(); else close();
+    });
+
+    /* Mark the tapped item read, then let the link navigate as usual. */
+    list.addEventListener("click", (e) => {
+      const item = e.target.closest(".notif-item");
+      if (!item) return;
+      if (item.dataset.href) notifMarkRead(item.dataset.href);
+      close();
+    });
+
+    markAll.addEventListener("click", (e) => {
+      e.stopPropagation();
+      notifMarkAllRead();
+    });
+
+    document.addEventListener("click", (e) => {
+      if (panel.hidden) return;
+      if (!wrap.contains(e.target)) close();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !panel.hidden) close();
+    });
+
+    /* The panel lives in the header (outside #app), so nothing tears it down
+       when the SPA swaps the page; close it on history navigation too. */
+    window.addEventListener("popstate", close);
+
+    renderNotifications();
   }
 
   /* ================= Mobile App Download Prompt ================= */
