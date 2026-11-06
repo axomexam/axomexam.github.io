@@ -69,6 +69,11 @@
   <!-- Fixed Absolute CSS Path -->
   <link rel="stylesheet" href="/css/style.css?v=a8afe7ef" />
 
+  <!-- The .reveal animation starts at opacity:0 and app.js switches it on.
+       Without this fallback a crawler or a no-JS visitor reads an almost
+       empty homepage, which is what makes it look thin next to /contact/. -->
+  <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+
   <!-- GitHub Pages / Netlify Clean URL Single Page App Redirection Handler -->
   <script>
     (function() {
@@ -347,6 +352,51 @@
     </a></div>
       </section>
 
+      <section class="section start-sec">
+        <div class="section-head reveal">
+          <div>
+            <h2>Start Your Assam Exam Preparation</h2>
+            <p class="sec-sub">New to axomexam? Here is how the study library is organised and where to begin</p>
+          </div>
+        </div>
+        <div class="start-grid">
+          <div class="start-card reveal">
+            <span class="start-num">1</span>
+            <b>Pick your exam</b>
+            <p>Choose the recruitment you are targeting — ADRE 3.0 Grade III or Grade IV, APSC CCE, Assam Police AB and UB or SI, DHS and DME, Guwahati High Court, SSC or Railway — and follow the syllabus-wise subject list for that paper.</p>
+            <a href="/exams/">Browse exams and syllabus →</a>
+          </div>
+          <div class="start-card reveal">
+            <span class="start-num">2</span>
+            <b>Study topic by topic</b>
+            <p>The question bank is organised by subject and sub-topic: Assam General Knowledge, History, Geography, Polity, Mathematics, General Science, Reasoning, General English and Computer Awareness. Each topic page carries the notes, the questions and a worked explanation for every answer.</p>
+            <a href="/categories/">See all subjects →</a>
+          </div>
+          <div class="start-card reveal">
+            <span class="start-num">3</span>
+            <b>Attempt timed mock tests</b>
+            <p>Every mock test runs on a live countdown and follows the real paper pattern, with instant results and an answer review. Attempt a set, read the explanations for the questions you miss, then re-attempt it after a few days.</p>
+            <a href="/mock-test/">Take a mock test →</a>
+          </div>
+          <div class="start-card reveal">
+            <span class="start-num">4</span>
+            <b>Revise with PDF notes</b>
+            <p>Download the printable PDF notes, e-books and previous year solved papers so you can revise offline. Everything on axomexam.in is free, bilingual and needs no account or login.</p>
+            <a href="/downloads/">Get PDF notes →</a>
+          </div>
+        </div>
+        <style>
+          .start-sec .start-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(238px,1fr)); gap:16px; }
+          .start-card { display:flex; flex-direction:column; gap:9px; padding:20px; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:var(--radius,14px); box-shadow:var(--card-shadow,0 1px 2px rgba(15,23,42,.06),0 8px 24px -12px rgba(15,23,42,.12)); transition:transform .22s cubic-bezier(.4,0,.2,1), box-shadow .22s, border-color .22s; }
+          .start-card:hover { transform:translateY(-4px); box-shadow:var(--card-shadow-hover,0 2px 4px rgba(15,23,42,.08),0 16px 40px -16px rgba(79,70,229,.28)); border-color:var(--primary,#4f46e5); }
+          .start-num { width:34px; height:34px; flex:0 0 auto; display:grid; place-items:center; border-radius:10px; font-weight:800; font-size:.95rem; color:#fff; background:var(--grad,linear-gradient(135deg,#4f46e5,#7c3aed 55%,#22d3ee 130%)); }
+          .start-card b { font-size:1rem; letter-spacing:-.2px; color:var(--ink,#0f172a); }
+          .start-card p { margin:0; font-size:.88rem; line-height:1.65; color:var(--ink-soft,#475569); }
+          .start-card a { margin-top:auto; font-size:.86rem; font-weight:700; color:var(--primary,#4f46e5); }
+          .start-card a:hover { text-decoration:underline; }
+        </style>
+      </section>
+
       <section class="section" style="padding-bottom:40px;">
         <div class="section-head reveal">
           <div>
@@ -498,6 +548,6 @@
   <script src="/js/config.js?v=912d2501" defer></script>
   <script src="/js/i18n.js?v=60c94cbb" defer></script>
   <script src="/js/api.js?v=3176a18e" defer></script>
-  <script src="/js/app.js?v=66b08ac8" defer></script>
+  <script src="/js/app.js?v=21ca2707" defer></script>
 </body>
 </html>

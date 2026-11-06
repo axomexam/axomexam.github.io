@@ -1970,6 +1970,67 @@
         </div>
       </section>
 
+      <section class="section start-sec">
+        <div class="section-head reveal">
+          <div>
+            <h2>${state.uiLang === "as" ? "অসম পৰীক্ষাৰ প্ৰস্তুতি আৰম্ভ কৰক" : "Start Your Assam Exam Preparation"}</h2>
+            <p class="sec-sub">${state.uiLang === "as" ? "axomexam ত নতুন? অধ্যয়ন পুথিভঁৰাল কেনেকৈ সজোৱা হৈছে আৰু ক'ৰপৰা আৰম্ভ কৰিব, তলত চাওক" : "New to axomexam? Here is how the study library is organised and where to begin"}</p>
+          </div>
+        </div>
+        <div class="start-grid">
+          ${[
+            {
+              href: "/exams/",
+              t: state.uiLang === "as" ? "আপোনাৰ পৰীক্ষা বাছনি কৰক" : "Pick your exam",
+              d: state.uiLang === "as"
+                ? "আপুনি যি নিযুক্তিৰ বাবে প্ৰস্তুতি লৈছে সেইটো বাছনি কৰক — ADRE 3.0 গ্ৰেড III বা IV, APSC CCE, অসম আৰক্ষী AB আৰু UB বা SI, DHS আৰু DME, গুৱাহাটী উচ্চ ন্যায়ালয়, SSC বা ৰে'লৱে — আৰু সেই পত্ৰখনৰ পাঠ্যক্ৰম অনুসৰি বিষয়ৰ তালিকা অনুসৰণ কৰক।"
+                : "Choose the recruitment you are targeting — ADRE 3.0 Grade III or Grade IV, APSC CCE, Assam Police AB and UB or SI, DHS and DME, Guwahati High Court, SSC or Railway — and follow the syllabus-wise subject list for that paper.",
+              cta: state.uiLang === "as" ? "পৰীক্ষা আৰু পাঠ্যক্ৰম চাওক &rarr;" : "Browse exams and syllabus →",
+            },
+            {
+              href: "/categories/",
+              t: state.uiLang === "as" ? "বিষয়ভিত্তিক অধ্যয়ন কৰক" : "Study topic by topic",
+              d: state.uiLang === "as"
+                ? "প্ৰশ্নভঁৰাল বিষয় আৰু উপ-বিষয় অনুসৰি সজোৱা হৈছে: অসম সাধাৰণ জ্ঞান, ইতিহাস, ভূগোল, ৰাজনীতি, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ। প্ৰতিটো বিষয়ৰ পৃষ্ঠাত টোকা, প্ৰশ্ন আৰু প্ৰতিটো উত্তৰৰ ব্যাখ্যা আছে।"
+                : "The question bank is organised by subject and sub-topic: Assam General Knowledge, History, Geography, Polity, Mathematics, General Science, Reasoning, General English and Computer Awareness. Each topic page carries the notes, the questions and a worked explanation for every answer.",
+              cta: state.uiLang === "as" ? "সকলো বিষয় চাওক &rarr;" : "See all subjects →",
+            },
+            {
+              href: "/mock-test/",
+              t: state.uiLang === "as" ? "সময়বদ্ধ মক টেষ্ট দিয়ক" : "Attempt timed mock tests",
+              d: state.uiLang === "as"
+                ? "প্ৰতিটো মক টেষ্ট এটা লাইভ কাউণ্টডাউনত চলে আৰু প্ৰকৃত প্ৰশ্নপত্ৰৰ আৰ্হি অনুসৰণ কৰে, তাৎক্ষণিক ফলাফল আৰু উত্তৰ পৰ্যালোচনাৰ সৈতে। এটা ছেট দিয়ক, হেৰুওৱা প্ৰশ্নৰ ব্যাখ্যা পঢ়ক, তাৰ পিছত কেইদিনমানৰ পিছত পুনৰ চেষ্টা কৰক।"
+                : "Every mock test runs on a live countdown and follows the real paper pattern, with instant results and an answer review. Attempt a set, read the explanations for the questions you miss, then re-attempt it after a few days.",
+              cta: state.uiLang === "as" ? "মক টেষ্ট দিয়ক &rarr;" : "Take a mock test →",
+            },
+            {
+              href: "/downloads/",
+              t: state.uiLang === "as" ? "PDF টোকাৰে পুনৰাবৃত্তি কৰক" : "Revise with PDF notes",
+              d: state.uiLang === "as"
+                ? "প্ৰিণ্ট কৰিব পৰা PDF টোকা, ই-বুক আৰু পূৰ্ববৰ্তী বছৰৰ সমাধান কৰা প্ৰশ্নপত্ৰ ডাউনলোড কৰক যাতে আপুনি অফলাইনত পুনৰাবৃত্তি কৰিব পাৰে। axomexam.in ত সকলো বিনামূলীয়া, দ্বিভাষিক আৰু একাউণ্ট বা লগইনৰ প্ৰয়োজন নাই।"
+                : "Download the printable PDF notes, e-books and previous year solved papers so you can revise offline. Everything on axomexam.in is free, bilingual and needs no account or login.",
+              cta: state.uiLang === "as" ? "PDF টোকা লওক &rarr;" : "Get PDF notes →",
+            },
+          ].map((c, i) => `
+          <div class="start-card reveal" data-delay="${i * 60}">
+            <span class="start-num">${i + 1}</span>
+            <b>${c.t}</b>
+            <p>${c.d}</p>
+            <a href="${c.href}">${c.cta}</a>
+          </div>`).join("")}
+        </div>
+        <style>
+          .start-sec .start-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(238px,1fr)); gap:16px; }
+          .start-card { display:flex; flex-direction:column; gap:9px; padding:20px; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:var(--radius,14px); box-shadow:var(--card-shadow,0 1px 2px rgba(15,23,42,.06), 0 8px 24px -12px rgba(15,23,42,.12)); transition:transform .22s cubic-bezier(.4,0,.2,1), box-shadow .22s, border-color .22s; }
+          .start-card:hover { transform:translateY(-4px); box-shadow:var(--card-shadow-hover,0 2px 4px rgba(15,23,42,.08), 0 16px 40px -16px rgba(79,70,229,.28)); border-color:var(--primary,#4f46e5); }
+          .start-num { width:34px; height:34px; flex:0 0 auto; display:grid; place-items:center; border-radius:10px; font-weight:800; font-size:.95rem; color:#fff; background:var(--grad,linear-gradient(135deg,#4f46e5,#7c3aed 55%,#22d3ee 130%)); }
+          .start-card b { font-size:1rem; letter-spacing:-.2px; color:var(--ink,#0f172a); }
+          .start-card p { margin:0; font-size:.88rem; line-height:1.65; color:var(--ink-soft,#475569); }
+          .start-card a { margin-top:auto; font-size:.86rem; font-weight:700; color:var(--primary,#4f46e5); }
+          .start-card a:hover { text-decoration:underline; }
+        </style>
+      </section>
+
       <section class="section" style="padding-bottom:40px;">
         <div class="section-head reveal">
           <div>
