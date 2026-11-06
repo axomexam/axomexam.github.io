@@ -1471,7 +1471,7 @@
         title = "Download Free PDF Notes | axomexam";
       } else if (segs[0] === "download-app") {
         title = "Download axomexam App (APK) | axomexam";
-        desc = "Download the free axomexam Android app (APK, v2.1) — mock tests, bilingual Q&A practice, e-books and previous year papers for ADRE, APSC, Assam Police, SSC & Railway exams.";
+        desc = "Download the free axomexam Android app (APK, v2.6) — mock tests, bilingual Q&A practice, e-books and previous year papers for ADRE, APSC, Assam Police, SSC & Railway exams.";
       } else if (segs[0] === "ebooks") {
         title = segs[1] ? "Read E-Book Online | axomexam" : "E-Books Library | axomexam";
         desc = "Free online e-books for Assam competitive exams (ADRE, APSC, Assam Police) — Assam History, Indian History, Art & Culture, Polity, Economy and Geography. Read online in English and Assamese, no PDF download.";
@@ -1880,7 +1880,7 @@
           </a>
           <a class="feat-card feat-app reveal" href="/download-app/" style="--fc:#16a34a">
             <span class="feat-ico feat-ico-app"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v7"/><path d="m9 7 3 3 3-3"/><path d="M4 15.5c2.5-1.3 5.5-1.3 8 0 2.5-1.3 5.5-1.3 8 0"/><path d="M4 19c2.5-1.3 5.5-1.3 8 0 2.5-1.3 5.5-1.3 8 0"/></svg></span>
-            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া এপ ডাউনলোড কৰক" : "Download Free App"}</b><span>${state.uiLang === "as" ? "এণ্ড্ৰইড APK • v2.1" : "Android APK • v2.1"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া এপ ডাউনলোড কৰক" : "Download Free App"}</b><span>${state.uiLang === "as" ? "এণ্ড্ৰইড APK • v2.6" : "Android APK • v2.6"}</span></span>
           </a>
         </div>
         <style>
@@ -5964,14 +5964,14 @@
       ["য'ত-ত'ত ই-বুক", "এপৰ ভিতৰতে প্ৰতিটো বিষয়ৰ ই-বুক পঢ়ক — অসমৰ ইতিহাস, ৰাজনীতি, ভূগোল আৰু অধিক।"],
       ["পূৰ্ববৰ্তী বছৰৰ প্ৰশ্নপত্ৰ", "পৰীক্ষা আৰু বছৰ অনুসৰি সজোৱা সমাধানসহ পূৰ্ববৰ্তী প্ৰশ্নপত্ৰ।"],
       ["PDF টোকা আৰু ডাউনল'ড", "অধ্যয়ন সামগ্ৰী সংৰক্ষণ কৰি অফলাইন পুনৰীক্ষণৰ বাবে সাজু ৰাখক।"],
-      ["হালধীয়া আৰু দ্ৰুত", "সম্পূৰ্ণ axomexam অভিজ্ঞতা এক সৰু ১.৩২ MB এপত।"]
+      ["হালধীয়া আৰু দ্ৰুত", "সম্পূৰ্ণ axomexam অভিজ্ঞতা এক সৰু ১.৬৮ MB এপত।"]
     ] : [
       ["All Mock Tests", "Timed chapter-wise mock tests with instant score and review, exactly like the real exam."],
       ["Bilingual Q&A Practice", "Practice questions, answers and explanations in both English and Assamese."],
       ["E-Books On the Go", "Read every subject e-book right inside the app — Assam History, Polity, Geography and more."],
       ["Previous Year Papers", "Solved past papers organised by exam and year for focused revision."],
       ["PDF Notes & Downloads", "Save study material and keep it ready for offline revision."],
-      ["Lightweight & Fast", "The complete axomexam experience in a compact 1.32 MB app."]
+      ["Lightweight & Fast", "The complete axomexam experience in a compact 1.68 MB app."]
     ];
     const feats = features.map(([title, text]) => `
         <div class="appdl-feature">
@@ -6013,15 +6013,15 @@
             <h2 class="appdl-title">axomexam — Exam Prep App</h2>
             <p class="appdl-tag">${isAs ? "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি, এতিয়া আপোনাৰ ফোনত।" : "Assam competitive exam preparation, now on your phone."}</p>
             <ul class="appdl-meta">
-              <li><b>${isAs ? "সংস্কৰণ" : "Version"}</b> 2.1</li>
-              <li><b>${isAs ? "আকাৰ" : "Size"}</b> 1.32 MB</li>
-              <li><b>${isAs ? "আপডেট" : "Updated"}</b> ${isAs ? "১৭ অক্টোবৰ ২০২৬" : "17 Oct 2026"}</li>
+              <li><b>${isAs ? "সংস্কৰণ" : "Version"}</b> 2.6</li>
+              <li><b>${isAs ? "আকাৰ" : "Size"}</b> 1.68 MB</li>
+              <li><b>${isAs ? "আপডেট" : "Updated"}</b> ${isAs ? "৬ নৱেম্বৰ ২০২৬" : "6 Nov 2026"}</li>
               <li><b>${isAs ? "ফৰ্মেট" : "Format"}</b> APK</li>
               <li><b>${isAs ? "পেকেজ" : "Package"}</b> in.axomexam.app</li>
               <li><b>${isAs ? "মূল্য" : "Price"}</b> ${isAs ? "বিনামূলীয়া" : "Free"}</li>
             </ul>
             <div class="appdl-actions">
-              <a class="btn btn-accent appdl-download" href="/app/axomexam-v2.1.apk" download>${isAs ? "APK ডাউনলোড কৰক (1.32 MB)" : "Download APK (1.32 MB)"}</a>
+              <a class="btn btn-accent appdl-download" href="/app/axomexam-v2.6.apk" download>${isAs ? "APK ডাউনলোড কৰক (1.68 MB)" : "Download APK (1.68 MB)"}</a>
               <a class="btn btn-outline" href="#install">${isAs ? "কেনেকৈ ইনষ্টল কৰিব" : "How to install"}</a>
             </div>
             <p class="appdl-note">${isAs ? "প্ৰত্যক্ষ ডাউনল'ড · ছাইন-আপ নালাগে · ১০০% বিনামূলীয়া" : "Direct download · No sign-up · 100% free"}</p>
@@ -6037,10 +6037,10 @@
       <section class="section" id="install">
         <h2 class="appdl-section-title">${isAs ? "APK কেনেকৈ ইনষ্টল কৰিব" : "How to install the APK"}</h2>
         <ol class="appdl-steps">
-          ${isAs ? `<li><b>APK ডাউনলোড কৰক।</b> ওপৰৰ ডাউনলোড বুটামত টিপক। <code>axomexam-v2.1.apk</code> ফাইলটো আপোনাৰ ফোনত সংৰক্ষিত হ'ব।</li>
+          ${isAs ? `<li><b>APK ডাউনলোড কৰক।</b> ওপৰৰ ডাউনলোড বুটামত টিপক। <code>axomexam-v2.6.apk</code> ফাইলটো আপোনাৰ ফোনত সংৰক্ষিত হ'ব।</li>
           <li><b>ইনষ্টলৰ অনুমতি দিয়ক।</b> Android এ বাধা দিলে, Settings খুলি আপোনাৰ ব্ৰাউজাৰৰ বাবে “Install unknown apps” (বা “Unknown sources”) সক্ৰিয় কৰক।</li>
           <li><b>এপটো ইনষ্টল কৰক।</b> ডাউনল'ড কৰা ফাইলটো Downloads বা জাননীৰ পৰা খুলি <b>Install</b> টিপক।</li>
-          <li><b>খুলি শিকা আৰম্ভ কৰক।</b> আপোনাৰ এপ ড্ৰয়াৰৰ পৰা <b>axomexam</b> আৰম্ভ কৰি অনুশীলন আৰম্ভ কৰক।</li>` : `<li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v2.1.apk</code> will be saved to your phone.</li>
+          <li><b>খুলি শিকা আৰম্ভ কৰক।</b> আপোনাৰ এপ ড্ৰয়াৰৰ পৰা <b>axomexam</b> আৰম্ভ কৰি অনুশীলন আৰম্ভ কৰক।</li>` : `<li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v2.6.apk</code> will be saved to your phone.</li>
           <li><b>Allow the install.</b> If Android blocks it, open Settings and enable “Install unknown apps” (or “Unknown sources”) for your browser.</li>
           <li><b>Install the app.</b> Open the downloaded file from Downloads or the notification, then tap <b>Install</b>.</li>
           <li><b>Open and start learning.</b> Launch <b>axomexam</b> from your app drawer and begin practising.</li>`}
@@ -6051,8 +6051,8 @@
         <h2 class="appdl-section-title">${isAs ? "ছিষ্টেমৰ প্ৰয়োজনীয়তা" : "System requirements"}</h2>
         <ul class="appdl-meta">
           <li><b>${isAs ? "প্লেটফৰ্ম" : "Platform"}</b> Android</li>
-          <li><b>${isAs ? "এপ সংস্কৰণ" : "App version"}</b> 2.1</li>
-          <li><b>${isAs ? "ফাইলৰ আকাৰ" : "File size"}</b> 1.32 MB</li>
+          <li><b>${isAs ? "এপ সংস্কৰণ" : "App version"}</b> 2.6</li>
+          <li><b>${isAs ? "ফাইলৰ আকাৰ" : "File size"}</b> 1.68 MB</li>
           <li><b>${isAs ? "ইণ্টাৰনেট" : "Internet"}</b> ${isAs ? "প্ৰয়োজন" : "Required"}</li>
           <li><b>${isAs ? "মূল্য" : "Price"}</b> ${isAs ? "বিনামূলীয়া" : "Free"}</li>
         </ul>
@@ -8571,6 +8571,11 @@
      rendered from this array; the labels follow the universal (interface)
      language toggle through applyStaticI18n(). */
   const NOTIFICATIONS = [
+    {
+      title: { en: "New app version 2.6 available — update now", as: "এপৰ নতুন সংস্কৰণ 2.6 উপলব্ধ — এতিয়াই আপডেট কৰক" },
+      desc: { en: "Floating bottom bar, blue footer, faster loading and bug fixes. Tap to download the latest APK.", as: "ফ্ল'টিং তলৰ বাৰ, নীলা ফুটাৰ, দ্ৰুত লোডিং আৰু বাগ ফিক্স। শেহতীয়া APK ডাউনল'ড কৰিবলৈ টিপক।" },
+      href: "/download-app/",
+    },
     {
       title: { en: "ADRE 3.0 Grade III exam book is live", as: "ADRE 3.0 তৃতীয় শ্ৰেণীৰ পৰীক্ষা-বহী উপলব্ধ" },
       desc: { en: "Complete syllabus, chapter notes and bilingual practice sets.", as: "সম্পূৰ্ণ পাঠ্যক্ৰম, অধ্যায় টোকা আৰু দ্বিভাষিক অনুশীলন সংহতি।" },

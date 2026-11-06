@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+      <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+          android:id="@+id/swipe"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <in.axomexam.app.AppWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+      </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+      <ProgressBar
+          android:id="@+id/progress"
+          style="?android:attr/progressBarStyleHorizontal"
+          android:layout_width="match_parent"
+          android:layout_height="3dp"
+          android:layout_gravity="top"
+          android:max="100"
+          android:progressDrawable="@drawable/progress_bar"
+          android:visibility="gone" />
+
+      <!-- loading overlay -->
+      <LinearLayout
+          android:id="@+id/loading"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/bg"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:indeterminateTint="@color/brand" />
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/loading_connecting"
+            android:textColor="@color/ink_soft"
+            android:textSize="13.5sp" />
+      </LinearLayout>
+
+      <!-- offline overlay -->
+      <LinearLayout
+          android:id="@+id/offline"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/bg"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:padding="32dp"
+          android:visibility="gone">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:contentDescription="@string/offline_title"
+            android:src="@drawable/ic_offline" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/offline_title"
+            android:textColor="@color/ink"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/offline_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="@string/offline_msg"
+            android:textColor="@color/ink_soft"
+            android:textSize="13.5sp" />
+
+        <Button
+            android:id="@+id/offline_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_primary"
+            android:minWidth="150dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:text="@string/offline_retry"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14.5sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/scroll_top"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_gravity="bottom|end"
+          android:layout_marginEnd="14dp"
+          android:layout_marginBottom="16dp"
+          android:background="@drawable/card_bg"
+          android:contentDescription="@string/scroll_top"
+          android:elevation="4dp"
+          android:padding="9dp"
+          android:src="@drawable/ic_arrow_up"
+          android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- bottom navigation: a floating rounded bar -->
+    <LinearLayout
+        android:id="@+id/bottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/nav_bar_bg"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        android:paddingStart="6dp"
+        android:paddingTop="7dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="7dp">
+      <LinearLayout android:id="@+id/nav_menu" style="@style/NavItem">
+        <ImageView android:id="@+id/iv_menu" android:layout_width="23dp" android:layout_height="23dp"
+            android:layout_marginTop="4dp" android:contentDescription="@string/nav_menu"
+            android:src="@drawable/ic_menu" />
+        <TextView android:id="@+id/tv_menu" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" android:text="@string/nav_menu" android:textSize="10sp" />
+      </LinearLayout>
+      <LinearLayout android:id="@+id/nav_mock" style="@style/NavItem">
+        <ImageView android:id="@+id/iv_mock" android:layout_width="23dp" android:layout_height="23dp"
+            android:layout_marginTop="4dp" android:contentDescription="@string/nav_mock"
+            android:src="@drawable/ic_mock" />
+        <TextView android:id="@+id/tv_mock" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" android:text="@string/nav_mock" android:textSize="10sp" />
+      </LinearLayout>
+      <LinearLayout android:id="@+id/nav_home" style="@style/NavItem">
+        <ImageView android:id="@+id/iv_home" android:layout_width="29dp" android:layout_height="29dp"
+            android:layout_marginTop="3dp" android:contentDescription="@string/nav_home"
+            android:src="@drawable/ic_home" />
+        <TextView android:id="@+id/tv_home" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="1dp" android:text="@string/nav_home" android:textSize="10.5sp" />
+      </LinearLayout>
+      <LinearLayout android:id="@+id/nav_practice" style="@style/NavItem">
+        <ImageView android:id="@+id/iv_practice" android:layout_width="23dp" android:layout_height="23dp"
+            android:layout_marginTop="4dp" android:contentDescription="@string/nav_practice"
+            android:src="@drawable/ic_practice" />
+        <TextView android:id="@+id/tv_practice" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" android:text="@string/nav_practice" android:textSize="10sp" />
+      </LinearLayout>
+      <LinearLayout android:id="@+id/nav_search" style="@style/NavItem">
+        <ImageView android:id="@+id/iv_search" android:layout_width="23dp" android:layout_height="23dp"
+            android:layout_marginTop="4dp" android:contentDescription="@string/nav_search"
+            android:src="@drawable/ic_search" />
+        <TextView android:id="@+id/tv_search" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" android:text="@string/nav_search" android:textSize="10sp" />
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+
+  <!-- drawer -->
+  <FrameLayout
+      android:id="@+id/drawer_overlay"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone">
+
+    <View
+        android:id="@+id/drawer_scrim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/scrim" />
+
+    <LinearLayout
+        android:id="@+id/drawer_panel"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/drawer_bg"
+        android:elevation="12dp"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/card_hero"
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:padding="16dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:contentDescription="@string/cd_logo"
+            android:src="@mipmap/ic_launcher_fg" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/app_name"
+              android:textColor="#FFFFFF"
+              android:textSize="16sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/drawer_tag"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:maxLines="1"
+              android:text="@string/app_tagline"
+              android:textColor="#E9E5FF"
+              android:textSize="11sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/drawer_close"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:contentDescription="@string/drawer_close"
+            android:padding="7dp"
+            android:src="@drawable/ic_close" />
+      </LinearLayout>
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/drawer_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="6dp"
+            android:paddingBottom="18dp" />
+      </ScrollView>
+
+      <TextView
+          android:id="@+id/drawer_version"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="14dp"
+          android:textColor="@color/ink_soft"
+          android:textSize="11sp" />
+    </LinearLayout>
+  </FrameLayout>
+
+  <!-- onboarding: guide, features, terms -->
+  <FrameLayout
+      android:id="@+id/onboard"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/splash_screen"
+      android:visibility="gone">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:padding="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/card_bg"
+            android:elevation="10dp"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+          <LinearLayout
+              android:id="@+id/ob_dots"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginBottom="16dp"
+              android:orientation="horizontal" />
+
+          <ImageView
+              android:id="@+id/ob_icon"
+              android:layout_width="64dp"
+              android:layout_height="64dp"
+              android:layout_gravity="center_horizontal"
+              android:background="@drawable/feature_tile"
+              android:contentDescription="@string/cd_logo"
+              android:padding="15dp"
+              android:src="@drawable/ic_star" />
+
+          <TextView
+              android:id="@+id/ob_title"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="14dp"
+              android:gravity="center"
+              android:textColor="@color/ink"
+              android:textSize="20sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/ob_body"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="6dp"
+              android:gravity="center"
+              android:textColor="@color/ink_soft"
+              android:textSize="13.5sp" />
+
+          <LinearLayout
+              android:id="@+id/ob_content"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="14dp"
+              android:orientation="vertical" />
+
+          <LinearLayout
+              android:id="@+id/ob_actions"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:orientation="vertical" />
+        </LinearLayout>
+      </LinearLayout>
+    </ScrollView>
+  </FrameLayout>
+</FrameLayout>

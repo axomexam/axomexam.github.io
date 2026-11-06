@@ -1,2 +1,12 @@
 dist/
 _preview/
+
+# Android build output and secrets — never publish these.
+# axomexam-release.jks is the app signing key; leaking it would let
+# anyone publish an update to in.axomexam.app under our identity.
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.jks
+*.keystore
