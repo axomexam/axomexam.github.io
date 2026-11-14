@@ -116,6 +116,45 @@ Mediapartners-Google and `*` before pushing.
 `/data/mock-test/*.json` at runtime and the previous-year pages link
 `/data/**/*.pdf`.
 
+## Session record — Nov 2026 RRB NTPC exam book (Coming Soon)
+
+- **Added** the Railway RRB NTPC (CBT-1 & CBT-2) exam book to `Your Exams`,
+  registered with `status: "coming-soon"` so `/exams/` keeps the Coming Soon
+  chip while the tree is published. Source of truth:
+  `tools/rrb-ntpc.structure.js`; questions: `tools/rrb-ntpc.questions.js`;
+  generator: `tools/build-rrb-ntpc.js` (idempotent — re-runs write nothing).
+- **Tree** (87 leaf topics + syllabus): General Awareness (General Science
+  → Biology/Physics/Chemistry; History → Ancient/Medieval/Modern; Geography
+  → Indian/World; Polity → Constitution/Governance; Economy → Indian/Assam;
+  Static GK & Basics of Computers; Current Affairs → 6 groups), Mathematics
+  (32 serial-wise topics) and General Intelligence & Reasoning (Verbal,
+  Analytical & Logical, Non-Verbal). Every leaf carries **one** bilingual
+  (English + Assamese) sample MCQ with answer and explanation, to be expanded
+  later by dropping more `question-NNN.json` files.
+- **The app router supports at most two levels under a section**
+  (`/exams/<exam>/<sec>/<sub>/<child>`), so grouped subjects were flattened
+  to that depth while keeping every topic — e.g. the request's
+  "General Awareness → General Science → Biology" is
+  `general-awareness/general-science/biology`.
+- **`data/counts.json` is deliberately unchanged**: `tools/build-question-counts.js`
+  counts only `status: "available"` exams, so a coming-soon book adds no
+  `examsTotal`. Do not "fix" the missing count.
+- **Only the `/exams/` listing needs the entry** — coming-soon books (like
+  `railway`, `ssc`, `apsc`) have no prerendered `exams/<id>/` pages; those
+  pages are generated only for available books. The SPA renders the tree from
+  `data/exams/<id>/…` at runtime.
+- **Verified** by serving the repo locally and flipping the book to
+  `available` in a scratch copy (reverted before commit): `/exams/rrb-ntpc`,
+  `/exams/rrb-ntpc/syllabus`, the section, grouped sub-category and leaf
+  question pages all render, with the bilingual question and its Assamese
+  toggle. The temporary `EXAM_BOOKS_READY` / `status` test edits were reverted;
+  `js/app.js` and `js/app.src.js` are untouched.
+- **Note for the owner.** `exams.syllabus` is used as the syllabus section's
+  eyebrow label (`js/app.src.js` ~line 5894) but has no i18n key, so it prints
+  the raw string `exams.syllabus`. This predates this change (ADRE Grade III's
+  syllabus page shows the same) and was left alone to avoid an unrequested UI
+  edit.
+
 ## Session record — Nov 2026 internal-file exposure fix
 
 What was done, so the next agent does not redo or undo it:
