@@ -1,0 +1,32 @@
+[
+  {
+    "id": "syllogism-001",
+    "q": {
+      "en": "All roses are flowers. Some flowers fade quickly. Therefore:",
+      "as": "সকলো গোলাপ ফুল। কিছু ফুল সোনকালে শুকাই যায়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some roses may fade quickly",
+        "as": "কিছু গোলাপ সোনকালে শুকাই যাব পাৰে"
+      },
+      {
+        "en": "All roses fade quickly",
+        "as": "সকলো গোলাপ সোনকালে শুকায়"
+      },
+      {
+        "en": "No rose fades",
+        "as": "কোনো গোলাপ নুশুকায়"
+      },
+      {
+        "en": "All flowers are roses",
+        "as": "সকলো ফুল গোলাপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Some roses may fade quickly is the only conclusion that possibly follows.",
+      "as": "কিছু গোলাপ সোনকালে শুকাই যাব পাৰে — এইটোৱে সম্ভৱপৰ সিদ্ধান্ত।"
+    }
+  }
+]

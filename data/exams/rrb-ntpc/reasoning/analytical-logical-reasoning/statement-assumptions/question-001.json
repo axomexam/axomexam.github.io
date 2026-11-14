@@ -1,0 +1,32 @@
+[
+  {
+    "id": "statement-assumptions-001",
+    "q": {
+      "en": "Statement: 'Please use the lift.' Assumption: A lift exists in the building.",
+      "as": "বিবৃতি: 'অনুগ্ৰহ কৰি লিফ্ট ব্যৱহাৰ কৰক।' ধাৰণা: ভৱনত এটা লিফ্ট আছে।"
+    },
+    "options": [
+      {
+        "en": "Assumption is implicit",
+        "as": "ধাৰণাটো অন্তৰ্নিহিত"
+      },
+      {
+        "en": "Assumption is not implicit",
+        "as": "ধাৰণাটো অন্তৰ্নিহিত নহয়"
+      },
+      {
+        "en": "Cannot say",
+        "as": "ক'ব নোৱাৰি"
+      },
+      {
+        "en": "None",
+        "as": "একো নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The request implies a lift is available to use.",
+      "as": "অনুৰোধে বুজায় যে ব্যৱহাৰ কৰিবলৈ এটা লিফ্ট উপলব্ধ।"
+    }
+  }
+]

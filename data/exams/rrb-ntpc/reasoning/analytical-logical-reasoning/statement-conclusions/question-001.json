@@ -1,0 +1,32 @@
+[
+  {
+    "id": "statement-conclusions-001",
+    "q": {
+      "en": "Statement: All students are honest. Conclusion: Some honest persons are students.",
+      "as": "বিবৃতি: সকলো ছাত্ৰ সৎ। সিদ্ধান্ত: কিছু সৎ ব্যক্তি ছাত্ৰ।"
+    },
+    "options": [
+      {
+        "en": "Conclusion follows",
+        "as": "সিদ্ধান্ত সত্য"
+      },
+      {
+        "en": "Conclusion does not follow",
+        "as": "সিদ্ধান্ত অসত্য"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "None",
+        "as": "একো নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "If all students are honest, then at least some honest persons are students.",
+      "as": "সকলো ছাত্ৰ সৎ হ'লে অন্ততঃ কিছু সৎ ব্যক্তি ছাত্ৰ।"
+    }
+  }
+]

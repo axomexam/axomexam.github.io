@@ -2327,6 +2327,462 @@
       "icon": "Rly",
       "status": "coming-soon",
       "sections": []
+    },
+    {
+      "id": "rrb-ntpc",
+      "title": { "en": "RRB NTPC", "as": "RRB NTPC" },
+      "subtitle": { "en": "Railway Non-Technical Popular Categories — CBT-1 & CBT-2", "as": "ৰে'লৱে অ-কাৰিকৰী জনপ্ৰিয় শ্ৰেণী — CBT-1 আৰু CBT-2" },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/railway-cover.webp",
+      "logo": "/images/exams/railway-logo.webp",
+      "logoAlt": { "en": "Indian Railways official logo", "as": "ভাৰতীয় ৰে'লৱেৰ চৰকাৰী ল'গ'" },
+      "coverAlt": { "en": "Indian Railways RRB NTPC Recruitment Exam — book front cover", "as": "ভাৰতীয় ৰে'লৱে RRB NTPC নিযুক্তি পৰীক্ষা — কিতাপৰ বেটুপাত" },
+      "color": "#0ea5e9",
+      "icon": "NTPC",
+      "status": "coming-soon",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": { "en": "Syllabus", "as": "পাঠ্যক্ৰম" }
+        },
+        {
+          "id": "general-awareness",
+          "type": "qa",
+          "color": "#2563eb",
+          "title": { "en": "General Awareness", "as": "সাধাৰণ জ্ঞান" },
+          "subcategories": [
+            {
+              "id": "general-science",
+              "title": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" },
+              "subcategories": [
+                {
+                  "id": "biology",
+                  "title": { "en": "Biology", "as": "জীৱবিজ্ঞান" }
+                },
+                {
+                  "id": "physics",
+                  "title": { "en": "Physics", "as": "পদাৰ্থবিজ্ঞান" }
+                },
+                {
+                  "id": "chemistry",
+                  "title": { "en": "Chemistry", "as": "ৰসায়নবিজ্ঞান" }
+                }
+              ]
+            },
+            {
+              "id": "history",
+              "title": { "en": "History (General Studies)", "as": "ইতিহাস (সাধাৰণ অধ্যয়ন)" },
+              "subcategories": [
+                {
+                  "id": "ancient-history",
+                  "title": { "en": "Ancient History", "as": "প্ৰাচীন ইতিহাস" }
+                },
+                {
+                  "id": "medieval-history",
+                  "title": { "en": "Medieval History", "as": "মধ্যযুগৰ ইতিহাস" }
+                },
+                {
+                  "id": "modern-history",
+                  "title": { "en": "Modern History", "as": "আধুনিক ইতিহাস" }
+                }
+              ]
+            },
+            {
+              "id": "geography",
+              "title": { "en": "Geography (General Studies)", "as": "ভূগোল (সাধাৰণ অধ্যয়ন)" },
+              "subcategories": [
+                {
+                  "id": "indian-geography",
+                  "title": { "en": "Indian Geography", "as": "ভাৰতৰ ভূগোল" }
+                },
+                {
+                  "id": "world-geography",
+                  "title": { "en": "World Geography", "as": "বিশ্বৰ ভূগোল" }
+                }
+              ]
+            },
+            {
+              "id": "polity",
+              "title": { "en": "Polity (General Studies)", "as": "ৰাজনীতি (সাধাৰণ অধ্যয়ন)" },
+              "subcategories": [
+                {
+                  "id": "constitution",
+                  "title": { "en": "Constitution & Fundamental Rights", "as": "সংবিধান আৰু মৌলিক অধিকাৰ" }
+                },
+                {
+                  "id": "governance",
+                  "title": { "en": "Union & State Governance", "as": "কেন্দ্ৰ আৰু ৰাজ্য শাসন" }
+                }
+              ]
+            },
+            {
+              "id": "economy",
+              "title": { "en": "Economy (General Studies)", "as": "অৰ্থনীতি (সাধাৰণ অধ্যয়ন)" },
+              "subcategories": [
+                {
+                  "id": "indian-economy",
+                  "title": { "en": "Indian Economy", "as": "ভাৰতৰ অৰ্থনীতি" }
+                },
+                {
+                  "id": "assam-economy",
+                  "title": { "en": "Assam Economy", "as": "অসমৰ অৰ্থনীতি" }
+                }
+              ]
+            },
+            {
+              "id": "static-gk-computers",
+              "title": { "en": "Static GK & Basics of Computers", "as": "স্থিৰ সাধাৰণ জ্ঞান আৰু কম্পিউটাৰৰ মৌলিক কথা" },
+              "subcategories": [
+                {
+                  "id": "art-culture",
+                  "title": { "en": "Art & Culture", "as": "কলা আৰু সংস্কৃতি" }
+                },
+                {
+                  "id": "organizations-institutions",
+                  "title": { "en": "Organizations & Institutions", "as": "সংগঠন আৰু প্ৰতিষ্ঠান" }
+                },
+                {
+                  "id": "space-defence",
+                  "title": { "en": "Space & Defence", "as": "মহাকাশ আৰু প্ৰতিৰক্ষা" }
+                },
+                {
+                  "id": "miscellaneous-static-gk",
+                  "title": { "en": "Miscellaneous Static GK", "as": "বিবিধ স্থিৰ সাধাৰণ জ্ঞান" }
+                },
+                {
+                  "id": "basic-computers",
+                  "title": { "en": "Basics of Computers", "as": "কম্পিউটাৰৰ মৌলিক কথা" }
+                }
+              ]
+            },
+            {
+              "id": "current-affairs",
+              "title": { "en": "Current Affairs (Last 10–12 Months)", "as": "সাম্প্ৰতিক ঘটনা (শেষ ১০–১২ মাহ)" },
+              "subcategories": [
+                {
+                  "id": "national-international-news",
+                  "title": { "en": "National & International News", "as": "ৰাষ্ট্ৰীয় আৰু আন্তৰ্জাতিক বাতৰি" }
+                },
+                {
+                  "id": "appointments-obituaries",
+                  "title": { "en": "Appointments & Obituaries", "as": "নিয়োগ আৰু মৃত্যু-বাতৰি" }
+                },
+                {
+                  "id": "government-schemes-initiatives",
+                  "title": { "en": "Government Schemes & Initiatives", "as": "চৰকাৰী আঁচনি আৰু পদক্ষেপ" }
+                },
+                {
+                  "id": "sports",
+                  "title": { "en": "Sports", "as": "ক্ৰীড়া" }
+                },
+                {
+                  "id": "awards-books-indexes",
+                  "title": { "en": "Awards, Books & Indexes", "as": "বঁটা, কিতাপ আৰু সূচক" }
+                },
+                {
+                  "id": "science-tech-environment",
+                  "title": { "en": "Science, Tech & Environment", "as": "বিজ্ঞান, প্ৰযুক্তি আৰু পৰিৱেশ" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": { "en": "Mathematics", "as": "গণিত" },
+          "subcategories": [
+            {
+              "id": "number-system",
+              "title": { "en": "Number System", "as": "সংখ্যা পদ্ধতি" }
+            },
+            {
+              "id": "simplification-bodmas",
+              "title": { "en": "Simplification & BODMAS", "as": "সৰলীকৰণ আৰু BODMAS" }
+            },
+            {
+              "id": "decimals-fractions",
+              "title": { "en": "Decimals & Fractions", "as": "দশমিক আৰু ভগ্নাংশ" }
+            },
+            {
+              "id": "surds-indices",
+              "title": { "en": "Surds & Indices", "as": "কৰণী আৰু সূচক" }
+            },
+            {
+              "id": "square-cube-root",
+              "title": { "en": "Square Root & Cube Root", "as": "বৰ্গমূল আৰু ঘনমূল" }
+            },
+            {
+              "id": "lcm-hcf",
+              "title": { "en": "LCM & HCF", "as": "ল.সা.গু. আৰু গ.সা.গু." }
+            },
+            {
+              "id": "percentage",
+              "title": { "en": "Percentage", "as": "শতাংশ" }
+            },
+            {
+              "id": "ratio-proportion",
+              "title": { "en": "Ratio & Proportion", "as": "অনুপাত আৰু সমানুপাত" }
+            },
+            {
+              "id": "partnership",
+              "title": { "en": "Partnership", "as": "অংশীদাৰিত্ব" }
+            },
+            {
+              "id": "average",
+              "title": { "en": "Average", "as": "গড়" }
+            },
+            {
+              "id": "problems-on-ages",
+              "title": { "en": "Problems on Ages", "as": "বয়সৰ সমস্যা" }
+            },
+            {
+              "id": "mixture-alligation",
+              "title": { "en": "Mixture & Alligation", "as": "মিশ্ৰণ আৰু সংযোগ" }
+            },
+            {
+              "id": "profit-loss-discount",
+              "title": { "en": "Profit, Loss & Discount", "as": "লাভ, লোকচান আৰু ৰেহাই" }
+            },
+            {
+              "id": "simple-interest",
+              "title": { "en": "Simple Interest (SI)", "as": "সৰল সুত (SI)" }
+            },
+            {
+              "id": "compound-interest",
+              "title": { "en": "Compound Interest (CI)", "as": "চক্ৰবৃদ্ধি সুত (CI)" }
+            },
+            {
+              "id": "time-work",
+              "title": { "en": "Time & Work", "as": "সময় আৰু কাৰ্য" }
+            },
+            {
+              "id": "work-wages",
+              "title": { "en": "Work & Wages", "as": "কাৰ্য আৰু মজুৰি" }
+            },
+            {
+              "id": "pipes-cisterns",
+              "title": { "en": "Pipes & Cisterns", "as": "নল আৰু চৌবাচ্চা" }
+            },
+            {
+              "id": "time-speed-distance",
+              "title": { "en": "Time, Speed & Distance", "as": "সময়, গতি আৰু দূৰত্ব" }
+            },
+            {
+              "id": "problems-on-trains",
+              "title": { "en": "Problems on Trains", "as": "ৰে'লগাড়ীৰ সমস্যা" }
+            },
+            {
+              "id": "boats-streams",
+              "title": { "en": "Boats & Streams", "as": "নাও আৰু সোঁত" }
+            },
+            {
+              "id": "race-circular-track",
+              "title": { "en": "Race & Circular Track", "as": "দৌৰ আৰু বৃত্তাকাৰ পথ" }
+            },
+            {
+              "id": "elementary-algebra",
+              "title": { "en": "Elementary Algebra", "as": "প্ৰাথমিক বীজগণিত" }
+            },
+            {
+              "id": "quadratic-linear-equations",
+              "title": { "en": "Quadratic & Linear Equations", "as": "দ্বিঘাত আৰু ৰৈখিক সমীকৰণ" }
+            },
+            {
+              "id": "mensuration-2d",
+              "title": { "en": "Mensuration 2D (Area & Perimeter)", "as": "পৰিমিতি ২D (কালি আৰু পৰিসীমা)" }
+            },
+            {
+              "id": "mensuration-3d",
+              "title": { "en": "Mensuration 3D (Volume & Surface Area)", "as": "পৰিমিতি ৩D (আয়তন আৰু পৃষ্ঠকালি)" }
+            },
+            {
+              "id": "geometry",
+              "title": { "en": "Geometry (Lines, Angles, Triangles, Circles)", "as": "জ্যামিতি (ৰেখা, কোণ, ত্ৰিভুজ, বৃত্ত)" }
+            },
+            {
+              "id": "coordinate-geometry",
+              "title": { "en": "Coordinate Geometry (Basic)", "as": "স্থানাংক জ্যামিতি (মৌলিক)" }
+            },
+            {
+              "id": "trigonometry",
+              "title": { "en": "Trigonometry", "as": "ত্ৰিকোণমিতি" }
+            },
+            {
+              "id": "height-distance",
+              "title": { "en": "Height & Distance", "as": "উচ্চতা আৰু দূৰত্ব" }
+            },
+            {
+              "id": "statistics",
+              "title": { "en": "Statistics (Mean, Median, Mode, SD)", "as": "পৰিসংখ্যা (মাধ্য, মধ্যমা, বহুলক, SD)" }
+            },
+            {
+              "id": "data-interpretation",
+              "title": { "en": "Data Interpretation (Table, Bar, Pie, Line Graph)", "as": "তথ্য বিশ্লেষণ (তালিকা, দণ্ড, পাই, ৰেখা লেখ)" }
+            }
+          ]
+        },
+        {
+          "id": "reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": { "en": "General Intelligence & Reasoning", "as": "সাধাৰণ বুদ্ধি আৰু যুক্তিতৰ্ক" },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": { "en": "Verbal Reasoning", "as": "ভাষিক যুক্তিতৰ্ক" },
+              "subcategories": [
+                {
+                  "id": "analogy",
+                  "title": { "en": "Analogy (Number, Letter & Word-based)", "as": "সাদৃশ্য (সংখ্যা, আখৰ আৰু শব্দভিত্তিক)" }
+                },
+                {
+                  "id": "classification-odd-one-out",
+                  "title": { "en": "Classification / Odd One Out", "as": "শ্ৰেণীবিভাজন / আঁতৰ বস্তু" }
+                },
+                {
+                  "id": "number-series",
+                  "title": { "en": "Number Series (Missing & Wrong Number)", "as": "সংখ্যা শৃংখলা (অনুপস্থিত আৰু ভুল সংখ্যা)" }
+                },
+                {
+                  "id": "alphabet-series",
+                  "title": { "en": "Alphabet Series & Alphanumeric Series", "as": "আখৰ শৃংখলা আৰু আখৰ-সংখ্যা শৃংখলা" }
+                },
+                {
+                  "id": "coding-decoding",
+                  "title": { "en": "Coding-Decoding", "as": "সংকেতীকৰণ-অৱসংকেতীকৰণ" }
+                },
+                {
+                  "id": "blood-relations",
+                  "title": { "en": "Blood Relations", "as": "ৰক্তসম্পৰ্ক" }
+                },
+                {
+                  "id": "direction-distance",
+                  "title": { "en": "Direction & Distance", "as": "দিশ আৰু দূৰত্ব" }
+                },
+                {
+                  "id": "order-ranking",
+                  "title": { "en": "Order & Ranking", "as": "ক্ৰম আৰু স্থান" }
+                },
+                {
+                  "id": "sitting-arrangement",
+                  "title": { "en": "Sitting Arrangement", "as": "বহাৰ বিন্যাস" }
+                },
+                {
+                  "id": "puzzles",
+                  "title": { "en": "Puzzles", "as": "ধাঁধা" }
+                },
+                {
+                  "id": "mathematical-operations",
+                  "title": { "en": "Mathematical Operations", "as": "গাণিতিক ক্ৰিয়া" }
+                },
+                {
+                  "id": "inequality",
+                  "title": { "en": "Inequality", "as": "অসমতা" }
+                },
+                {
+                  "id": "alphabet-test",
+                  "title": { "en": "Alphabet Test & Word Formation", "as": "আখৰ পৰীক্ষা আৰু শব্দ গঠন" }
+                },
+                {
+                  "id": "logical-sequence-words",
+                  "title": { "en": "Logical Sequence of Words & Dictionary Order", "as": "শব্দৰ যুক্তিসঙ্গত ক্ৰম আৰু অভিধান ক্ৰম" }
+                },
+                {
+                  "id": "clock-calendar",
+                  "title": { "en": "Clock & Calendar", "as": "ঘড়ী আৰু পাঁজি" }
+                },
+                {
+                  "id": "input-output",
+                  "title": { "en": "Input-Output (Machine Input)", "as": "ইনপুট-আউটপুট (মেচিন ইনপুট)" }
+                }
+              ]
+            },
+            {
+              "id": "analytical-logical-reasoning",
+              "title": { "en": "Analytical & Logical Reasoning", "as": "বিশ্লেষণাত্মক আৰু যুক্তিভিত্তিক যুক্তিতৰ্ক" },
+              "subcategories": [
+                {
+                  "id": "syllogism",
+                  "title": { "en": "Syllogism", "as": "ন্যাস" }
+                },
+                {
+                  "id": "venn-diagrams",
+                  "title": { "en": "Venn Diagrams", "as": "ভেন চিত্ৰ" }
+                },
+                {
+                  "id": "statement-conclusions",
+                  "title": { "en": "Statement & Conclusions", "as": "বিবৃতি আৰু সিদ্ধান্ত" }
+                },
+                {
+                  "id": "statement-assumptions",
+                  "title": { "en": "Statement & Assumptions", "as": "বিবৃতি আৰু ধাৰণা" }
+                },
+                {
+                  "id": "statement-arguments",
+                  "title": { "en": "Statement & Arguments", "as": "বিবৃতি আৰু যুক্তি" }
+                },
+                {
+                  "id": "statement-course-of-action",
+                  "title": { "en": "Statement & Courses of Action", "as": "বিবৃতি আৰু কাৰ্যপন্থা" }
+                },
+                {
+                  "id": "cause-effect",
+                  "title": { "en": "Cause & Effect", "as": "কাৰণ আৰু ফল" }
+                },
+                {
+                  "id": "assertion-reason",
+                  "title": { "en": "Assertion & Reason", "as": "দাবী আৰু কাৰণ" }
+                },
+                {
+                  "id": "decision-making-data-sufficiency",
+                  "title": { "en": "Decision Making & Data Sufficiency", "as": "সিদ্ধান্ত গ্ৰহণ আৰু তথ্য পৰ্যাপ্ততা" }
+                }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": { "en": "Non-Verbal Reasoning", "as": "চিত্ৰভিত্তিক যুক্তিতৰ্ক" },
+              "subcategories": [
+                {
+                  "id": "counting-figures",
+                  "title": { "en": "Counting of Figures", "as": "চিত্ৰ গণনা" }
+                },
+                {
+                  "id": "mirror-water-image",
+                  "title": { "en": "Mirror Image & Water Image", "as": "দাপোণৰ প্ৰতিবিম্ব আৰু পানীৰ প্ৰতিবিম্ব" }
+                },
+                {
+                  "id": "paper-cutting-folding",
+                  "title": { "en": "Paper Cutting & Folding", "as": "কাগজ কটা আৰু ভাঁজ" }
+                },
+                {
+                  "id": "embedded-figures",
+                  "title": { "en": "Embedded / Hidden Figures", "as": "সংযোজিত / লুকাই থকা চিত্ৰ" }
+                },
+                {
+                  "id": "pattern-completion",
+                  "title": { "en": "Completion of Incomplete Pattern", "as": "অসম্পূৰ্ণ আৰ্হি সম্পূৰ্ণ কৰা" }
+                },
+                {
+                  "id": "figure-series",
+                  "title": { "en": "Figure Series & Analogy", "as": "চিত্ৰ শৃংখলা আৰু সাদৃশ্য" }
+                },
+                {
+                  "id": "cube-dice",
+                  "title": { "en": "Cube & Dice", "as": "ঘনক আৰু লুডু" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
