@@ -1,0 +1,1397 @@
+[
+  {
+    "id": "pattern-completion-001",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-002",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-003",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"53.0\" y1=\"37.0\" x2=\"35.4\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"21.0,37.0 35.4,26.1 35.4,47.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-004",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><line x1=\"25.7\" y1=\"48.3\" x2=\"38.1\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"48.3,25.7 45.8,43.6 30.4,28.2\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><line x1=\"25.7\" y1=\"48.3\" x2=\"38.1\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"48.3,25.7 45.8,43.6 30.4,28.2\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"25.7\" y1=\"48.3\" x2=\"38.1\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"48.3,25.7 45.8,43.6 30.4,28.2\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"53.0\" y1=\"37.0\" x2=\"35.4\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"21.0,37.0 35.4,26.1 35.4,47.9\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-005",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-006",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-007",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"11.0,37.0 52.6,13.6 52.6,60.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-008",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><ellipse cx=\"37\" cy=\"37\" rx=\"28\" ry=\"17\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><ellipse cx=\"37\" cy=\"37\" rx=\"28\" ry=\"17\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"61.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><ellipse cx=\"37\" cy=\"37\" rx=\"28\" ry=\"17\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><ellipse cx=\"37\" cy=\"37\" rx=\"28\" ry=\"17\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><ellipse cx=\"37\" cy=\"37\" rx=\"28\" ry=\"17\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><ellipse cx=\"37\" cy=\"37\" rx=\"28\" ry=\"17\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-009",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The three figures repeat in the same order in every row; the missing cell follows the same order.",
+      "as": "তিনিওখন চিত্ৰ প্ৰতিটো শাৰীত একে ক্ৰমত পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে ক্ৰম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-010",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figures repeat along the diagonals; the missing cell follows the same diagonal pattern.",
+      "as": "চিত্ৰবোৰ কৰ্ণ বৰাবৰ একে ধৰণে পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে কৰ্ণ ধৰণ অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-011",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figures repeat along the diagonals; the missing cell follows the same diagonal pattern.",
+      "as": "চিত্ৰবোৰ কৰ্ণ বৰাবৰ একে ধৰণে পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে কৰ্ণ ধৰণ অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-012",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"11.0,37.0 52.6,13.6 52.6,60.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figures repeat along the diagonals; the missing cell follows the same diagonal pattern.",
+      "as": "চিত্ৰবোৰ কৰ্ণ বৰাবৰ একে ধৰণে পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে কৰ্ণ ধৰণ অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-013",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figures repeat along the diagonals; the missing cell follows the same diagonal pattern.",
+      "as": "চিত্ৰবোৰ কৰ্ণ বৰাবৰ একে ধৰণে পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে কৰ্ণ ধৰণ অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-014",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-015",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-016",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"53.0\" y1=\"37.0\" x2=\"35.4\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"21.0,37.0 35.4,26.1 35.4,47.9\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-017",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-018",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"11.0,37.0 52.6,13.6 52.6,60.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-019",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each row shows the same figure; the missing cell must match its row.",
+      "as": "প্ৰতিটো শাৰীত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ শাৰীৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-020",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each row shows the same figure; the missing cell must match its row.",
+      "as": "প্ৰতিটো শাৰীত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ শাৰীৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-021",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each row shows the same figure; the missing cell must match its row.",
+      "as": "প্ৰতিটো শাৰীত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ শাৰীৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-022",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"63.0,37.0 21.4,13.6 21.4,60.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"11.0,37.0 52.6,13.6 52.6,60.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each row shows the same figure; the missing cell must match its row.",
+      "as": "প্ৰতিটো শাৰীত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ শাৰীৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-023",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figures alternate like a checkerboard; the missing cell follows the same alternating pattern.",
+      "as": "চিত্ৰবোৰ দবা-বোৰ্ডৰ দৰে পাল-পালকৈ সলনি হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-024",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figures alternate like a checkerboard; the missing cell follows the same alternating pattern.",
+      "as": "চিত্ৰবোৰ দবা-বোৰ্ডৰ দৰে পাল-পালকৈ সলনি হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-025",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figures alternate like a checkerboard; the missing cell follows the same alternating pattern.",
+      "as": "চিত্ৰবোৰ দবা-বোৰ্ডৰ দৰে পাল-পালকৈ সলনি হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-026",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"53.0\" y1=\"37.0\" x2=\"35.4\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"21.0,37.0 35.4,26.1 35.4,47.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figures alternate like a checkerboard; the missing cell follows the same alternating pattern.",
+      "as": "চিত্ৰবোৰ দবা-বোৰ্ডৰ দৰে পাল-পালকৈ সলনি হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-027",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of dots increases by one in each column; the missing cell must have the correct count.",
+      "as": "প্ৰতিটো স্তম্ভত বিন্দুৰ সংখ্যা এটা কৰি বৃদ্ধি পায়; অনুপস্থিত খালী ঠাইত শুদ্ধ সংখ্যক বিন্দু থাকিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-028",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"23.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"23.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"23.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The number of dots increases by one in each column; the missing cell must have the correct count.",
+      "as": "প্ৰতিটো স্তম্ভত বিন্দুৰ সংখ্যা এটা কৰি বৃদ্ধি পায়; অনুপস্থিত খালী ঠাইত শুদ্ধ সংখ্যক বিন্দু থাকিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-029",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of dots increases by one in each column; the missing cell must have the correct count.",
+      "as": "প্ৰতিটো স্তম্ভত বিন্দুৰ সংখ্যা এটা কৰি বৃদ্ধি পায়; অনুপস্থিত খালী ঠাইত শুদ্ধ সংখ্যক বিন্দু থাকিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-030",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The number of sides increases by one in each column; the missing cell must have the correct polygon.",
+      "as": "প্ৰতিটো স্তম্ভত বাহুৰ সংখ্যা এটা কৰি বৃদ্ধি পায়; অনুপস্থিত খালী ঠাইত শুদ্ধ বহুভুজ থাকিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-031",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of sides increases by one in each column; the missing cell must have the correct polygon.",
+      "as": "প্ৰতিটো স্তম্ভত বাহুৰ সংখ্যা এটা কৰি বৃদ্ধি পায়; অনুপস্থিত খালী ঠাইত শুদ্ধ বহুভুজ থাকিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-032",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23\" cy=\"37\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"39.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"23\" cy=\"37\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"39.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23\" cy=\"37\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"39.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"24.0,16.0 5.1,49.6 42.9,49.6\" fill=\"#334155\"/><polygon points=\"51.0,58.0 32.1,24.4 69.9,24.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23\" cy=\"37\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"39.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In every row the third figure is made by combining the first two figures; the missing cell follows the same rule.",
+      "as": "প্ৰতিটো শাৰীত তৃতীয় চিত্ৰখন প্ৰথম দুখন চিত্ৰ লগ লগাই তৈয়াৰ হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-033",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"24.0,16.0 5.1,49.6 42.9,49.6\" fill=\"#334155\"/><polygon points=\"51.0,58.0 32.1,24.4 69.9,24.4\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,11.0 13.6,52.6 60.4,52.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,63.0 13.6,21.4 60.4,21.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"24.0,16.0 5.1,49.6 42.9,49.6\" fill=\"#334155\"/><polygon points=\"51.0,58.0 32.1,24.4 69.9,24.4\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23\" cy=\"37\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"39.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"24.0,16.0 5.1,49.6 42.9,49.6\" fill=\"#334155\"/><polygon points=\"51.0,58.0 32.1,24.4 69.9,24.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In every row the third figure is made by combining the first two figures; the missing cell follows the same rule.",
+      "as": "প্ৰতিটো শাৰীত তৃতীয় চিত্ৰখন প্ৰথম দুখন চিত্ৰ লগ লগাই তৈয়াৰ হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-034",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In every row the third figure is made by combining the first two figures; the missing cell follows the same rule.",
+      "as": "প্ৰতিটো শাৰীত তৃতীয় চিত্ৰখন প্ৰথম দুখন চিত্ৰ লগ লগাই তৈয়াৰ হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-035",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><line x1=\"24.0\" y1=\"48.0\" x2=\"24.0\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"24.0,26.0 31.5,35.9 16.5,35.9\" fill=\"#334155\"/><line x1=\"40.0\" y1=\"37.0\" x2=\"52.1\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"62.0,37.0 52.1,44.5 52.1,29.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><line x1=\"24.0\" y1=\"48.0\" x2=\"24.0\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"24.0,26.0 31.5,35.9 16.5,35.9\" fill=\"#334155\"/><line x1=\"40.0\" y1=\"37.0\" x2=\"52.1\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"62.0,37.0 52.1,44.5 52.1,29.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><line x1=\"24.0\" y1=\"48.0\" x2=\"24.0\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"24.0,26.0 31.5,35.9 16.5,35.9\" fill=\"#334155\"/><line x1=\"40.0\" y1=\"37.0\" x2=\"52.1\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"62.0,37.0 52.1,44.5 52.1,29.5\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23\" cy=\"37\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"39.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In every row the third figure is made by combining the first two figures; the missing cell follows the same rule.",
+      "as": "প্ৰতিটো শাৰীত তৃতীয় চিত্ৰখন প্ৰথম দুখন চিত্ৰ লগ লগাই তৈয়াৰ হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-036",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-037",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-038",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"16\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"25\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"33\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"16\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"33\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"16\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"25\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"33\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"25\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"16\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"33\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-039",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><rect x=\"24.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"18.0\" y=\"18.0\" width=\"38\" height=\"38\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><rect x=\"13.0\" y=\"13.0\" width=\"48\" height=\"48\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><rect x=\"24.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"18.0\" y=\"18.0\" width=\"38\" height=\"38\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><rect x=\"24.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"18.0\" y=\"18.0\" width=\"38\" height=\"38\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><rect x=\"13.0\" y=\"13.0\" width=\"48\" height=\"48\" rx=\"3\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"18.0\" y=\"18.0\" width=\"38\" height=\"38\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"13.0\" y=\"13.0\" width=\"48\" height=\"48\" rx=\"3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"24.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each column shows the same figure; the missing cell must match its column.",
+      "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-040",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figures repeat along the diagonals; the missing cell follows the same diagonal pattern.",
+      "as": "চিত্ৰবোৰ কৰ্ণ বৰাবৰ একে ধৰণে পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে কৰ্ণ ধৰণ অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-041",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"23.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"23.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"23.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of dots increases by one in each column; the missing cell must have the correct count.",
+      "as": "প্ৰতিটো স্তম্ভত বিন্দুৰ সংখ্যা এটা কৰি বৃদ্ধি পায়; অনুপস্থিত খালী ঠাইত শুদ্ধ সংখ্যক বিন্দু থাকিব লাগিব।"
+    }
+  },
+  {
+    "id": "pattern-completion-042",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><line x1=\"25.7\" y1=\"48.3\" x2=\"38.1\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"48.3,25.7 45.8,43.6 30.4,28.2\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"61.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><line x1=\"25.7\" y1=\"48.3\" x2=\"38.1\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"48.3,25.7 45.8,43.6 30.4,28.2\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><line x1=\"25.7\" y1=\"48.3\" x2=\"38.1\" y2=\"35.9\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"48.3,25.7 45.8,43.6 30.4,28.2\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"53.0\" y1=\"37.0\" x2=\"35.4\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"21.0,37.0 35.4,26.1 35.4,47.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figures repeat along the diagonals; the missing cell follows the same diagonal pattern.",
+      "as": "চিত্ৰবোৰ কৰ্ণ বৰাবৰ একে ধৰণে পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে কৰ্ণ ধৰণ অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-043",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><line x1=\"53.0\" y1=\"37.0\" x2=\"35.4\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"21.0,37.0 35.4,26.1 35.4,47.9\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"21.0\" y1=\"37.0\" x2=\"38.6\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"53.0,37.0 38.6,47.9 38.6,26.1\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"21.0\" x2=\"37.0\" y2=\"38.6\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,53.0 26.1,38.6 47.9,38.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"37.0\" y1=\"53.0\" x2=\"37.0\" y2=\"35.4\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"37.0,21.0 47.9,35.4 26.1,35.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><line x1=\"53.0\" y1=\"37.0\" x2=\"35.4\" y2=\"37.0\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"21.0,37.0 35.4,26.1 35.4,47.9\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figures repeat along the diagonals; the missing cell follows the same diagonal pattern.",
+      "as": "চিত্ৰবোৰ কৰ্ণ বৰাবৰ একে ধৰণে পুনৰাবৃত্তি হয়; অনুপস্থিত খালী ঠাইও একে কৰ্ণ ধৰণ অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-044",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"37\" cy=\"24\" r=\"12\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"26.0\" y=\"40.0\" width=\"22\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"24\" r=\"12\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"26.0\" y=\"40.0\" width=\"22\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"219.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"24\" r=\"12\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"26.0\" y=\"40.0\" width=\"22\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23\" cy=\"37\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"39.0\" y=\"24.0\" width=\"26\" height=\"26\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In every row the third figure is made by combining the first two figures; the missing cell follows the same rule.",
+      "as": "প্ৰতিটো শাৰীত তৃতীয় চিত্ৰখন প্ৰথম দুখন চিত্ৰ লগ লগাই তৈয়াৰ হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "pattern-completion-045",
+    "q": {
+      "en": "Study the pattern and choose the figure that completes the missing cell.",
+      "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></g></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,23.5 60.4,50.5 37.0,64.0 13.6,50.5 13.6,23.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each row shows the same figure; the missing cell must match its row.",
+      "as": "প্ৰতিটো শাৰীত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ শাৰীৰ সৈতে মিলিব লাগিব।"
+    }
+  }
+]

@@ -1,0 +1,3055 @@
+{
+  "setNumber": 3,
+  "title": "Full Paper Set 3",
+  "exam": "dhs-dme",
+  "blueprint": {
+    "durationMinutes": 120,
+    "totalMarks": 100,
+    "marksPerQuestion": 1,
+    "negativeMarking": 0,
+    "sections": [
+      {
+        "id": "general-knowledge",
+        "questions": 32,
+        "label": {
+          "en": "General Knowledge (Assam & India)",
+          "as": "সাধাৰণ জ্ঞান (অসম আৰু ভাৰত)"
+        }
+      },
+      {
+        "id": "elementary-mathematics",
+        "questions": 22,
+        "label": {
+          "en": "Elementary Mathematics",
+          "as": "প্ৰাথমিক গণিত"
+        }
+      },
+      {
+        "id": "logical-reasoning",
+        "questions": 17,
+        "label": {
+          "en": "Reasoning & Mental Ability",
+          "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+        }
+      },
+      {
+        "id": "general-english",
+        "questions": 17,
+        "label": {
+          "en": "General English",
+          "as": "সাধাৰণ ইংৰাজী"
+        }
+      },
+      {
+        "id": "computer-knowledge",
+        "questions": 12,
+        "label": {
+          "en": "Computer Knowledge",
+          "as": "কম্পিউটাৰ জ্ঞান"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "advanced-math-041",
+      "q": {
+        "en": "The value of log 1 is:",
+        "as": "log 1 ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "∞",
+          "as": "∞"
+        },
+        {
+          "en": "−1",
+          "as": "−1"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "log 1 = 0 for any base.",
+        "as": "যিকোনো ভিত্তিৰ বাবে log 1 = 0।"
+      }
+    },
+    {
+      "id": "vocabulary-059",
+      "q": {
+        "en": "Choose the synonym of 'hostile':",
+        "as": "'hostile' ৰ সমাৰ্থক শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "friendly",
+          "as": "বন্ধুত্বপূৰ্ণ"
+        },
+        {
+          "en": "kind",
+          "as": "দয়ালু"
+        },
+        {
+          "en": "unfriendly",
+          "as": "অমিত্ৰভাৱাপন্ন"
+        },
+        {
+          "en": "polite",
+          "as": "ভদ্ৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Unfriendly' is a synonym of 'hostile'.",
+        "as": "'unfriendly' হৈছে 'hostile' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "id": "advanced-math-039",
+      "q": {
+        "en": "The derivative of eˣ with respect to x is:",
+        "as": "x ৰ সাপেক্ষে eˣ ৰ অৱকলজ কি?"
+      },
+      "options": [
+        {
+          "en": "eˣ",
+          "as": "eˣ"
+        },
+        {
+          "en": "x eˣ",
+          "as": "x eˣ"
+        },
+        {
+          "en": "eˣ/x",
+          "as": "eˣ/x"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d/dx (eˣ) = eˣ.",
+        "as": "d/dx (eˣ) = eˣ।"
+      }
+    },
+    {
+      "id": "geography-006",
+      "q": {
+        "en": "The Jia Bharali river flows through which national park of Assam?",
+        "as": "জীয়া ভৰলী নদী অসমৰ কোনখন ৰাষ্ট্ৰীয় উদ্যানৰ মাজেৰে বৈ গৈছে?"
+      },
+      "options": [
+        {
+          "en": "Manas National Park",
+          "as": "মানস ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Orang National Park",
+          "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Kaziranga National Park",
+          "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Nameri National Park",
+          "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Jia Bharali river flows through Nameri National Park in Assam.",
+        "as": "জীয়া ভৰলী নদী অসমৰ নামেৰি ৰাষ্ট্ৰীয় উদ্যানৰ মাজেৰে বৈ গৈছে।"
+      }
+    },
+    {
+      "id": "computer-fundamentals-030",
+      "q": {
+        "en": "The full form of RAM is?",
+        "as": "RAM-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Rapid Access Memory",
+          "as": "ৰেপিড এক্সেছ মেম’ৰী"
+        },
+        {
+          "en": "Read Access Memory",
+          "as": "ৰিড এক্সেছ মেম’ৰী"
+        },
+        {
+          "en": "Random Access Memory",
+          "as": "ৰেনডম এক্সেছ মেম’ৰী"
+        },
+        {
+          "en": "Random Available Memory",
+          "as": "ৰেনডম এভেইলেবল মেম’ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "RAM stands for Random Access Memory, where data can be read and written randomly.",
+        "as": "RAM ৰ সম্পূৰ্ণ ৰূপ Random Access Memory, য'ত তথ্য যিকোনো ক্ৰমত পঢ়া আৰু লিখা যায়।"
+      }
+    },
+    {
+      "id": "geography-025",
+      "q": {
+        "en": "Which Bihu is also known as Rongali Bihu?",
+        "as": "কোন বিহুক ৰঙালী বিহু বুলিও জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Bohag Bihu",
+          "as": "ব'হাগ বিহু"
+        },
+        {
+          "en": "Magh Bihu",
+          "as": "মাঘ বিহু"
+        },
+        {
+          "en": "Kati Bihu",
+          "as": "কাতি বিহু"
+        },
+        {
+          "en": "None of these",
+          "as": "এইবোৰৰ এটাও নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bohag Bihu is also known as Rongali Bihu, the festival of joy.",
+        "as": "ব'হাগ বিহুক ৰঙালী বিহু বুলিও জনা যায়, যি আনন্দৰ উৎসৱ।"
+      }
+    },
+    {
+      "id": "economics-005",
+      "q": {
+        "en": "The GST Council, the apex decision-making body on GST, is chaired by whom?",
+        "as": "GST ৰ শীৰ্ষ সিদ্ধান্তগ্ৰহণ সংস্থা GST পৰিষদৰ অধ্যক্ষ কোন?"
+      },
+      "options": [
+        {
+          "en": "The Chief Economic Adviser",
+          "as": "মুখ্য অৰ্থনৈতিক উপদেষ্টা"
+        },
+        {
+          "en": "The RBI Governor",
+          "as": "RBI গৱৰ্ণৰ"
+        },
+        {
+          "en": "The Union Finance Minister",
+          "as": "কেন্দ্ৰীয় অৰ্থমন্ত্ৰী"
+        },
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The GST Council is chaired by the Union Finance Minister and includes state finance ministers as members.",
+        "as": "জিএছটি পৰিষদৰ অধ্যক্ষতা কেন্দ্ৰীয় বিত্তমন্ত্ৰীয়ে কৰে আৰু ৰাজ্যৰ বিত্তমন্ত্ৰীসকল ইয়াৰ সদস্য।"
+      }
+    },
+    {
+      "id": "assam-literature-010",
+      "q": {
+        "en": "Who translated the Ramayana into Assamese as 'Saptakanda Ramayana'?",
+        "as": "'সপ্তকাণ্ড ৰামায়ণ' নামেৰে অসমীয়ালৈ ৰামায়ণ অনুবাদ কৰিছিল কোনে?"
+      },
+      "options": [
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Ananta Kandali",
+          "as": "অনন্ত কন্দলী"
+        },
+        {
+          "en": "Madhava Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Sankardev",
+          "as": "শংকৰদেৱ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Madhava Kandali translated the Ramayana into Assamese as the 'Saptakanda Ramayana' in the 14th century.",
+        "as": "মাধৱ কন্দলীয়ে ১৪শ শতিকাত ৰামায়ণক 'সপ্তকাণ্ড ৰামায়ণ' হিচাপে অসমীয়ালৈ অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "id": "geography-053",
+      "q": {
+        "en": "The river Kopili, a major tributary of the Brahmaputra, rises in which state?",
+        "as": "ব্ৰহ্মপুত্ৰৰ প্ৰধান উপনদী কপিলী নদী কোন ৰাজ্যত উৎপত্তি হয়?"
+      },
+      "options": [
+        {
+          "en": "Nagaland",
+          "as": "নাগালেণ্ড"
+        },
+        {
+          "en": "Arunachal Pradesh",
+          "as": "অৰুণাচল প্ৰদেশ"
+        },
+        {
+          "en": "Mizoram",
+          "as": "মিজোৰাম"
+        },
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The river Kopili, a major tributary of the Brahmaputra, rises in Meghalaya.",
+        "as": "ব্ৰহ্মপুত্ৰৰ এটা প্ৰধান উপনদী কপিলী নদী মেঘালয়ত উৎপন্ন হয়।"
+      }
+    },
+    {
+      "id": "arithmetic-027",
+      "q": {
+        "en": "The compound interest on 1000 at 10% per annum for 2 years is:",
+        "as": "1000 টকাৰ ওপৰত বছৰি 10% হাৰে 2 বছৰৰ চক্ৰবৃদ্ধি সুত কিমান?"
+      },
+      "options": [
+        {
+          "en": "210",
+          "as": "210"
+        },
+        {
+          "en": "200",
+          "as": "200"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        },
+        {
+          "en": "121",
+          "as": "121"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Amount = 1000 × (1.1)² = 1210, so CI = 210.",
+        "as": "মুঠ ধন = 1000 × (1.1)² = 1210, গতিকে চক্ৰবৃদ্ধি সুত = 210।"
+      }
+    },
+    {
+      "id": "analytical-critical-reasoning-036",
+      "q": {
+        "en": "Road accidents are increasing in a town. Which course of action is most appropriate?",
+        "as": "এখন চহৰত পথ দুৰ্ঘটনা বাঢ়িছে। সবাতোকৈ উপযুক্ত পদক্ষেপ কি?"
+      },
+      "options": [
+        {
+          "en": "Enforce speed limits and improve signage",
+          "as": "গতিৰ সীমা কঠোৰভাৱে পালন কৰাওক আৰু পথৰ চিন উন্নত কৰক"
+        },
+        {
+          "en": "Ban all vehicles",
+          "as": "সকলো বাহন নিষেধ কৰক"
+        },
+        {
+          "en": "Increase speed limits",
+          "as": "গতিৰ সীমা বঢ়াওক"
+        },
+        {
+          "en": "Remove road signs",
+          "as": "পথৰ চিন আঁতৰাওক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Strict speed limits and better signage directly address accident causes.",
+        "as": "কঠোৰ গতি সীমা আৰু উন্নত চিনে দুৰ্ঘটনাৰ কাৰণ প্ৰত্যক্ষভাৱে সমাধান কৰে।"
+      }
+    },
+    {
+      "id": "grammar-048",
+      "q": {
+        "en": "If I were you, I ___ accept the offer.",
+        "as": "যদি মই তোমাৰ ঠাইত থাকিলোহেঁতেন, মই প্ৰস্তাৱটো ___ গ্ৰহণ কৰিলোহেঁতেন।"
+      },
+      "options": [
+        {
+          "en": "will",
+          "as": "will"
+        },
+        {
+          "en": "would",
+          "as": "would"
+        },
+        {
+          "en": "can",
+          "as": "can"
+        },
+        {
+          "en": "shall",
+          "as": "shall"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The second conditional uses 'would' plus the base verb in the main clause.",
+        "as": "second conditional ত main clause ত 'would' আৰু verb ৰ base form ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "advanced-math-074",
+      "q": {
+        "en": "Two supplementary angles add up to:",
+        "as": "দুটা সম্পূৰক কোণৰ যোগফল কিমান?"
+      },
+      "options": [
+        {
+          "en": "90°",
+          "as": "90°"
+        },
+        {
+          "en": "180°",
+          "as": "180°"
+        },
+        {
+          "en": "360°",
+          "as": "360°"
+        },
+        {
+          "en": "45°",
+          "as": "45°"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Two supplementary angles add up to 180°.",
+        "as": "দুটা সম্পূৰক কোণৰ যোগফল 180°।"
+      }
+    },
+    {
+      "id": "assam-history-016",
+      "q": {
+        "en": "Who was the first Chief Minister of independent Assam?",
+        "as": "স্বাধীন অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Bishnuram Medhi",
+          "as": "বিষ্ণুৰাম মেধি"
+        },
+        {
+          "en": "Sir Muhammad Saadulla",
+          "as": "চাৰ মহম্মদ ছাদুল্লা"
+        },
+        {
+          "en": "Bimala Prasad Chaliha",
+          "as": "বিমলা প্ৰসাদ চলিহা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Gopinath Bordoloi was the first Chief Minister of independent Assam.",
+        "as": "গোপীনাথ বৰদলৈ স্বাধীন অসমৰ প্ৰথম মুখ্যমন্ত্ৰী আছিল।"
+      }
+    },
+    {
+      "id": "vocabulary-009",
+      "q": {
+        "en": "'Once in a blue moon' means:",
+        "as": "'Once in a blue moon' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Very often",
+          "as": "সঘনাই"
+        },
+        {
+          "en": "Every month",
+          "as": "প্ৰতিমাহে"
+        },
+        {
+          "en": "Never",
+          "as": "কেতিয়াও নহয়"
+        },
+        {
+          "en": "Very rarely",
+          "as": "অতি কদাচিৎ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Once in a blue moon' means very rarely.",
+        "as": "'once in a blue moon' মানে কেতিয়াবা বিৰলভাৱে।"
+      }
+    },
+    {
+      "id": "computer-fundamentals-077",
+      "q": {
+        "en": "WAN stands for?",
+        "as": "WAN-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Wide Area Network",
+          "as": "ৱাইড এৰিয়া নেটৱৰ্ক"
+        },
+        {
+          "en": "Wide Access Node",
+          "as": "ৱাইড এক্সেছ ন’ড"
+        },
+        {
+          "en": "Wired Area Network",
+          "as": "ৱায়াৰ্ড এৰিয়া নেটৱৰ্ক"
+        },
+        {
+          "en": "Web Area Network",
+          "as": "ৱেব এৰিয়া নেটৱৰ্ক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "WAN stands for Wide Area Network. It covers a very large geographical area such as a country or the world.",
+        "as": "WAN ৰ সম্পূৰ্ণ ৰূপ Wide Area Network। ই দেশ বা বিশ্বৰ দৰে বিশাল ভৌগোলিক এলেকা সামৰি লয়।"
+      }
+    },
+    {
+      "id": "ms-office-011",
+      "q": {
+        "en": "Which feature shows only the rows that meet a condition?",
+        "as": "কেৱল চৰ্ত পূৰণ কৰা শাৰী দেখুওৱা সুবিধা কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Sort",
+          "as": "চৰ্ট"
+        },
+        {
+          "en": "Format",
+          "as": "ফৰ্মেট"
+        },
+        {
+          "en": "Merge",
+          "as": "মাৰ্জ"
+        },
+        {
+          "en": "Filter",
+          "as": "ফিল্টাৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Filter shows only the rows that meet a given condition.",
+        "as": "Filter য়ে কেৱল নিৰ্দিষ্ট চৰ্ত পূৰণ কৰা শাৰীবোৰ দেখুৱায়।"
+      }
+    },
+    {
+      "id": "computer-fundamentals-049",
+      "q": {
+        "en": "Which language is used for styling web pages?",
+        "as": "ৱেব পৃষ্ঠা styling কৰিবলৈ কোন ভাষা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "CSS",
+          "as": "CSS"
+        },
+        {
+          "en": "HTML",
+          "as": "HTML"
+        },
+        {
+          "en": "Java",
+          "as": "Java"
+        },
+        {
+          "en": "SQL",
+          "as": "SQL"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "CSS (Cascading Style Sheets) is used to control the layout and appearance of web pages.",
+        "as": "CSS (Cascading Style Sheets) ব্যৱহাৰ কৰি ৱেব পৃষ্ঠাৰ বিন্যাস আৰু ৰূপ নিয়ন্ত্ৰণ কৰা হয়।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-015",
+      "q": {
+        "en": "The sum of the deviations of observations from their arithmetic mean is always:",
+        "as": "পাটিগাণিতিক গড়ৰ পৰা পৰ্যবেক্ষণবোৰৰ বিচ্যুতিৰ যোগফল সদায়:"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "Equal to the mean",
+          "as": "গড়ৰ সমান"
+        },
+        {
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "en": "Positive",
+          "as": "ধনাত্মক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The arithmetic mean is the balance point of the data, so the sum of deviations of observations from the mean is always zero.",
+        "as": "পাটিগাণিতিক গড় হৈছে তথ্যৰ ভাৰসাম্য বিন্দু, সেয়ে গড়ৰ পৰা পৰ্যবেক্ষণবোৰৰ বিচ্যুতিৰ যোগফল সদায় শূন্য হয়।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-022",
+      "q": {
+        "en": "If the mean of x, x + 2 and x + 4 is 12, then x is:",
+        "as": "যদি x, x + 2 আৰু x + 4 ৰ গড় 12 হয়, তেন্তে x ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mean = (x + x+2 + x+4)/3 = 12, so 3x + 6 = 36, giving 3x = 30 and x = 10.",
+        "as": "গড় = (x + x+2 + x+4)/3 = 12, সেয়ে 3x + 6 = 36, অৰ্থাৎ 3x = 30 আৰু x = 10।"
+      }
+    },
+    {
+      "id": "grammar-001",
+      "q": {
+        "en": "He is ___ honest man.",
+        "as": "তেওঁ ___ সৎ মানুহ।"
+      },
+      "options": [
+        {
+          "en": "a",
+          "as": "a"
+        },
+        {
+          "en": "an",
+          "as": "an"
+        },
+        {
+          "en": "the",
+          "as": "the"
+        },
+        {
+          "en": "no article",
+          "as": "প্ৰবন্ধ নাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Honest' begins with a vowel sound, so 'an' is used.",
+        "as": "'honest' ৰ উচ্চাৰণ স্বৰবৰ্ণৰ ধ্বনিৰে আৰম্ভ হয়, সেয়ে 'an' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-004",
+      "q": {
+        "en": "The range of 15, 22, 8, 30 and 18 is:",
+        "as": "15, 22, 8, 30 আৰু 18 ৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        {
+          "en": "18",
+          "as": "18"
+        },
+        {
+          "en": "30",
+          "as": "30"
+        },
+        {
+          "en": "22",
+          "as": "22"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Range = maximum - minimum = 30 - 8 = 22.",
+        "as": "পৰিসৰ = সৰ্বাধিক - সৰ্বনিম্ন = 30 - 8 = 22।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-041",
+      "q": {
+        "en": "Which of these shapes can tessellate a plane by itself?",
+        "as": "তলৰ কোনটোৱে নিজে সমতলখন ঢাকিব পাৰে?"
+      },
+      "options": [
+        {
+          "en": "Circle",
+          "as": "বৃত্ত"
+        },
+        {
+          "en": "Regular pentagon",
+          "as": "নিয়মিত পঞ্চভুজ"
+        },
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        },
+        {
+          "en": "Regular octagon",
+          "as": "নিয়মিত অষ্টভুজ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Squares fit edge to edge without gaps, so they tile a plane.",
+        "as": "বৰ্গবোৰ কাষে কাষে ফাঁক নোহোৱাকৈ লাগে, সেয়ে সিহঁতে সমতল ঢাকিব পাৰে।"
+      }
+    },
+    {
+      "id": "grammar-002",
+      "q": {
+        "en": "___ Ganga is a holy river.",
+        "as": "___ গংগা এখন পবিত্ৰ নদী।"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "An",
+          "as": "An"
+        },
+        {
+          "en": "The",
+          "as": "The"
+        },
+        {
+          "en": "No article",
+          "as": "প্ৰবন্ধ নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'The' is used before the names of rivers.",
+        "as": "নদীৰ নামৰ আগত 'The' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "ms-office-018",
+      "q": {
+        "en": "Which of the following is a spreadsheet application?",
+        "as": "তলৰ কোনটো স্প্ৰেডশ্বীট এপ্লিকেচন?"
+      },
+      "options": [
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Outlook",
+          "as": "MS Outlook"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "MS Excel is a spreadsheet application used for calculations and data analysis.",
+        "as": "MS Excel এটা স্প্ৰেডশ্বীট এপ্লিকেশ্যন যি গণনা আৰু তথ্য বিশ্লেষণৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-065",
+      "q": {
+        "en": "Mean deviation is least when taken from the:",
+        "as": "কিহৰ পৰা ল'লে গড় বিচ্যুতি সৰ্বনিম্ন হয়?"
+      },
+      "options": [
+        {
+          "en": "Mean",
+          "as": "গড়"
+        },
+        {
+          "en": "Mode",
+          "as": "প্ৰচলক"
+        },
+        {
+          "en": "Median",
+          "as": "মধ্যমা"
+        },
+        {
+          "en": "Origin",
+          "as": "মূলবিন্দু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mean deviation is minimum when measured from the median, since the median minimises the sum of absolute deviations.",
+        "as": "মধ্যমাৰ পৰা জুখিলে গড় বিচ্যুতি সৰ্বনিম্ন হয়, কাৰণ মধ্যমাই নিৰপেক্ষ বিচ্যুতিৰ যোগফল ন্যূনতম কৰে।"
+      }
+    },
+    {
+      "id": "advanced-math-010",
+      "q": {
+        "en": "The degree of the polynomial 5x³ + 2x² − 7x + 1 is:",
+        "as": "5x³ + 2x² − 7x + 1 বহুপদটোৰ ঘাত কিমান?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The degree is the highest power of x, which is 3.",
+        "as": "বহুপদটোৰ ঘাত x ৰ সৰ্বোচ্চ ঘাত, অৰ্থাৎ 3।"
+      }
+    },
+    {
+      "id": "vocabulary-057",
+      "q": {
+        "en": "A person who speaks many languages is a:",
+        "as": "বহু ভাষা কোৱা ব্যক্তিক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Linguist",
+          "as": "ভাষাবিদ"
+        },
+        {
+          "en": "Polyglot",
+          "as": "বহুভাষী"
+        },
+        {
+          "en": "Orator",
+          "as": "বক্তা"
+        },
+        {
+          "en": "Interpreter",
+          "as": "দোভাষী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A person who speaks many languages is a polyglot.",
+        "as": "বহু ভাষা কোৱা ব্যক্তিক polyglot বোলা হয়।"
+      }
+    },
+    {
+      "id": "computer-fundamentals-069",
+      "q": {
+        "en": "HTML is used to?",
+        "as": "HTML কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Create databases only",
+          "as": "কেৱল ডেটাবেছ তৈয়াৰ"
+        },
+        {
+          "en": "Compile C programs",
+          "as": "C প্ৰগ্ৰাম ক’ম্পাইল"
+        },
+        {
+          "en": "Create web pages",
+          "as": "ৱেব পৃষ্ঠা তৈয়াৰ"
+        },
+        {
+          "en": "Scan photographs",
+          "as": "ফটো স্কেন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "HTML (HyperText Markup Language) is used to create and structure web pages.",
+        "as": "HTML ৱেবপৃষ্ঠা সাজিবলৈ আৰু গঠন দিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-035",
+      "q": {
+        "en": "In the series 5, 10, 20, 40, ?, the next number is?",
+        "as": "৫, ১০, ২০, ৪০, ? শ্ৰেণীত পৰৱৰ্তী সংখ্যা কি?"
+      },
+      "options": [
+        {
+          "en": "60",
+          "as": "৬০"
+        },
+        {
+          "en": "70",
+          "as": "৭০"
+        },
+        {
+          "en": "80",
+          "as": "৮০"
+        },
+        {
+          "en": "100",
+          "as": "১০০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each number is double the previous one, so 40 x 2 = 80.",
+        "as": "প্ৰতিটো সংখ্যা আগৰটোৰ দুগুণ, সেয়ে ৪০ × ২ = ৮০।"
+      }
+    },
+    {
+      "id": "art-culture-034",
+      "q": {
+        "en": "The 'Tanjore painting', a famous Indian art form, originated in which state?",
+        "as": "ভাৰতৰ বিখ্যাত শিল্পৰূপ 'তাঞ্জোৰ চিত্ৰকলা' কোন ৰাজ্যত উৎপত্তি হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Tamil Nadu",
+          "as": "তামিলনাডু"
+        },
+        {
+          "en": "Odisha",
+          "as": "ওড়িশা"
+        },
+        {
+          "en": "West Bengal",
+          "as": "পশ্চিম বংগ"
+        },
+        {
+          "en": "Rajasthan",
+          "as": "ৰাজস্থান"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Tanjore painting originated in Tamil Nadu.",
+        "as": "তাঞ্জোৰ চিত্ৰকলা তামিলনাডুত উৎপত্তি হৈছিল।"
+      }
+    },
+    {
+      "id": "polity-022",
+      "q": {
+        "en": "The Constituent Assembly of India was constituted in which year?",
+        "as": "ভাৰতৰ গণপরিষদ কোন বছৰত গঠন কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1945",
+          "as": "১৯৪৫"
+        },
+        {
+          "en": "1946",
+          "as": "১৯৪৬"
+        },
+        {
+          "en": "1947",
+          "as": "১৯৪৭"
+        },
+        {
+          "en": "1948",
+          "as": "১৯৪৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Constituent Assembly was constituted in 1946 under the Cabinet Mission Plan.",
+        "as": "কেবিনেট মিছন প্লেনৰ অধীনত ১৯৪৬ চনত গণপরিষদ গঠন কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-045",
+      "q": {
+        "en": "Which is the odd one: rectangle, square, parallelogram, triangle?",
+        "as": "কোনটো বেলেগ: আয়ত, বৰ্গ, সমান্তৰালভুজ, ত্ৰিভুজ?"
+      },
+      "options": [
+        {
+          "en": "Rectangle",
+          "as": "আয়ত"
+        },
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        },
+        {
+          "en": "Parallelogram",
+          "as": "সমান্তৰালভুজ"
+        },
+        {
+          "en": "Triangle",
+          "as": "ত্ৰিভুজ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Rectangle, square and parallelogram are four-sided figures, while a triangle has three sides.",
+        "as": "আয়ত, বৰ্গ আৰু সমান্তৰালভুজ চাৰিবাহুযুক্ত; ত্ৰিভুজৰ তিনিটা বাহু।"
+      }
+    },
+    {
+      "id": "vocabulary-017",
+      "q": {
+        "en": "A government by the people is called:",
+        "as": "জনগণৰ দ্বাৰা চলা চৰকাৰক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Monarchy",
+          "as": "ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "Democracy",
+          "as": "গণতন্ত্ৰ"
+        },
+        {
+          "en": "Autocracy",
+          "as": "স্বৈৰতন্ত্ৰ"
+        },
+        {
+          "en": "Oligarchy",
+          "as": "অলিগাৰ্কি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Government by the people is called democracy.",
+        "as": "জনসাধাৰণৰ দ্বাৰা পৰিচালিত চৰকাৰক democracy বোলা হয়।"
+      }
+    },
+    {
+      "id": "indian-history-035",
+      "q": {
+        "en": "Madhavdev, the great Vaishnavite saint of Assam, was a disciple of whom?",
+        "as": "অসমৰ মহান বৈষ্ণৱ সন্ত মাধৱদেৱ কাৰ শিষ্য আছিল?"
+      },
+      "options": [
+        {
+          "en": "Srimanta Sankardeva",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Rama Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Ananta Kandali",
+          "as": "অনন্ত কন্দলি"
+        },
+        {
+          "en": "Harideva",
+          "as": "হৰিদেৱ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Madhavdev was a disciple of Srimanta Sankardeva.",
+        "as": "মাধৱদেৱ শ্ৰীমন্ত শংকৰদেৱৰ শিষ্য আছিল।"
+      }
+    },
+    {
+      "id": "vocabulary-004",
+      "q": {
+        "en": "The idiom 'a blessing in disguise' means:",
+        "as": "'a blessing in disguise' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "A hidden danger",
+          "as": "লুকাই থকা বিপদ"
+        },
+        {
+          "en": "Something good that seemed bad at first",
+          "as": "প্ৰথমে বেয়া যেন লগা ভাল কথা"
+        },
+        {
+          "en": "A false friend",
+          "as": "মিছা বন্ধু"
+        },
+        {
+          "en": "A secret gift",
+          "as": "গোপন উপহাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'A blessing in disguise' means something good that seemed bad at first.",
+        "as": "'a blessing in disguise' মানে প্ৰথমে বেয়া যেন লাগি পিছত ভাল হোৱা বস্তু।"
+      }
+    },
+    {
+      "id": "ms-office-033",
+      "q": {
+        "en": "Which symbol must every Excel formula begin with?",
+        "as": "প্ৰতিটো Excel সূত্ৰ কোন চিহ্নৰে আৰম্ভ হ'ব লাগে?"
+      },
+      "options": [
+        {
+          "en": "+",
+          "as": "+"
+        },
+        {
+          "en": "#",
+          "as": "#"
+        },
+        {
+          "en": "@",
+          "as": "@"
+        },
+        {
+          "en": "=",
+          "as": "="
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Every Excel formula begins with an equals sign (=).",
+        "as": "প্ৰতিটো Excel সূত্ৰ সমান চিহ্ন (=) ৰে আৰম্ভ হয়।"
+      }
+    },
+    {
+      "id": "arithmetic-044",
+      "q": {
+        "en": "In a 30 L mixture of milk and water in the ratio 4 : 1, the quantity of milk is:",
+        "as": "4 : 1 অনুপাতত থকা 30 লিটাৰ গাখীৰ-পানীৰ মিশ্ৰণত গাখীৰৰ পৰিমাণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "24 L",
+          "as": "24 লিটাৰ"
+        },
+        {
+          "en": "6 L",
+          "as": "6 লিটাৰ"
+        },
+        {
+          "en": "20 L",
+          "as": "20 লিটাৰ"
+        },
+        {
+          "en": "25 L",
+          "as": "25 লিটাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Milk = (4/5) × 30 = 24 L.",
+        "as": "গাখীৰ = (4/5) × 30 = 24 লিটাৰ।"
+      }
+    },
+    {
+      "id": "ms-office-036",
+      "q": {
+        "en": "Which chart is best for comparing values across categories?",
+        "as": "শ্ৰেণী অনুসৰি মান তুলনা কৰিবলৈ কোন চাৰ্ট উত্তম?"
+      },
+      "options": [
+        {
+          "en": "Doughnut chart",
+          "as": "ড'নাট চাৰ্ট"
+        },
+        {
+          "en": "Radar chart",
+          "as": "ৰাডাৰ চাৰ্ট"
+        },
+        {
+          "en": "Column chart",
+          "as": "কলাম চাৰ্ট"
+        },
+        {
+          "en": "Pie chart",
+          "as": "পাই চাৰ্ট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A column chart is best for comparing values across categories.",
+        "as": "শ্ৰেণী অনুসৰি মান তুলনা কৰিবলৈ কলাম চাৰ্ট আটাইতকৈ উপযুক্ত।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-056",
+      "q": {
+        "en": "Fish is to Water as Bird is to?",
+        "as": "মাছৰ লগত পানী যেনে, চৰাইৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Air",
+          "as": "বায়ু"
+        },
+        {
+          "en": "Nest",
+          "as": "বাহ"
+        },
+        {
+          "en": "Wing",
+          "as": "ডেউকা"
+        },
+        {
+          "en": "Tree",
+          "as": "গছ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A fish lives in water; similarly a bird lives in air. The relationship is 'animal and its habitat'.",
+        "as": "মাছে পানীত বাস কৰে; একেদৰে চৰাইে বায়ুত বাস কৰে। সম্পৰ্কটো হ'ল 'প্ৰাণী আৰু তাৰ বাসস্থান'।"
+      }
+    },
+    {
+      "id": "advanced-math-031",
+      "q": {
+        "en": "The slope of the line y = 2x + 3 is:",
+        "as": "y = 2x + 3 ৰেখাৰ ঢাল কিমান?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        },
+        {
+          "en": "−2",
+          "as": "−2"
+        },
+        {
+          "en": "1/2",
+          "as": "1/2"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Comparing with y = mx + c, the slope m = 2.",
+        "as": "y = mx + c ৰ সৈতে তুলনা কৰি ঢাল m = 2।"
+      }
+    },
+    {
+      "id": "computer-fundamentals-072",
+      "q": {
+        "en": "The @ symbol is used in?",
+        "as": "@ চিহ্ন ক’ত ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Postal address only",
+          "as": "কেৱল ডাক ঠিকনা"
+        },
+        {
+          "en": "Printer settings only",
+          "as": "কেৱল প্ৰিণ্টাৰ ছেটিং"
+        },
+        {
+          "en": "RAM chips",
+          "as": "RAM চিপ"
+        },
+        {
+          "en": "Email address",
+          "as": "ইমেইল ঠিকনা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The @ symbol is used in an email address to separate the user name from the domain name.",
+        "as": "ইমেইল ঠিকনাত @ চিহ্নই ব্যৱহাৰকাৰীৰ নাম আৰু ডমেইন নাম পৃথক কৰে।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-074",
+      "q": {
+        "en": "Arrange in dictionary order: BAT, BALL, BELL, BOLD. Which comes second?",
+        "as": "শব্দকোষৰ ক্ৰমত: BAT, BALL, BELL, BOLD। দ্বিতীয় কোনটো?"
+      },
+      "options": [
+        {
+          "en": "BALL",
+          "as": "BALL"
+        },
+        {
+          "en": "BELL",
+          "as": "BELL"
+        },
+        {
+          "en": "BOLD",
+          "as": "BOLD"
+        },
+        {
+          "en": "BAT",
+          "as": "BAT"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Dictionary order is BALL, BAT, BELL, BOLD, so the word that comes second is BAT.",
+        "as": "শব্দকোষৰ ক্ৰম হ'ল BALL, BAT, BELL, BOLD, সেয়ে দ্বিতীয় শব্দটো হ'ল BAT।"
+      }
+    },
+    {
+      "id": "economics-039",
+      "q": {
+        "en": "The principal source of power for Assam's tea factories earlier was?",
+        "as": "অসমৰ চাহ কাৰখানাৰ বাবে আগতে প্ৰধান শক্তিৰ উৎস কি আছিল?"
+      },
+      "options": [
+        {
+          "en": "Coal",
+          "as": "কয়লা"
+        },
+        {
+          "en": "Nuclear power",
+          "as": "পাৰমাণৱিক শক্তি"
+        },
+        {
+          "en": "Wind power",
+          "as": "বতাহ শক্তি"
+        },
+        {
+          "en": "Solar power",
+          "as": "সৌৰ শক্তি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Coal was the principal source of power for Assam's tea factories in the early period.",
+        "as": "প্ৰাৰম্ভিক কালত অসমৰ চাহ কাৰখানাৰ বাবে কয়লা প্ৰধান শক্তিৰ উৎস আছিল।"
+      }
+    },
+    {
+      "id": "grammar-045",
+      "q": {
+        "en": "Change into indirect speech: She said, 'Where are you going?'",
+        "as": "পৰোক্ষ উক্তিলৈ ৰূপান্তৰ কৰক: She said, 'Where are you going?'"
+      },
+      "options": [
+        {
+          "en": "She asked where I was going.",
+          "as": "She asked where I was going."
+        },
+        {
+          "en": "She asked where was I going.",
+          "as": "She asked where was I going."
+        },
+        {
+          "en": "She said where I was going.",
+          "as": "She said where I was going."
+        },
+        {
+          "en": "She asked where I am going.",
+          "as": "She asked where I am going."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A wh-question in indirect speech uses statement word order: 'where I was going'.",
+        "as": "পৰোক্ষ উক্তিত wh-question এ statement ৰ word order লয়: 'where I was going'।"
+      }
+    },
+    {
+      "id": "advanced-math-017",
+      "q": {
+        "en": "If the product of the roots of x² − 6x + k = 0 is 8, then k is:",
+        "as": "যদি x² − 6x + k = 0 ৰ মূল দুটাৰ গুণফল 8 হয়, তেন্তে k ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "−8",
+          "as": "−8"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Product of roots = c/a = k/1 = k, so k = 8.",
+        "as": "মূলৰ গুণফল = k/1 = k, গতিকে k = 8।"
+      }
+    },
+    {
+      "id": "arithmetic-036",
+      "q": {
+        "en": "If a sum triples in 20 years at simple interest, the rate percent is:",
+        "as": "যদি সৰল সুতত এটা ধন 20 বছৰত তিনিগুণ হয়, সুতৰ হাৰ কিমান?"
+      },
+      "options": [
+        {
+          "en": "10%",
+          "as": "10%"
+        },
+        {
+          "en": "15%",
+          "as": "15%"
+        },
+        {
+          "en": "5%",
+          "as": "5%"
+        },
+        {
+          "en": "20%",
+          "as": "20%"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = 2P in 20 years, so R = 200/20 = 10%.",
+        "as": "20 বছৰত সুত = 2 × মূলধন, গতিকে হাৰ = 200/20 = 10%।"
+      }
+    },
+    {
+      "id": "assam-literature-015",
+      "q": {
+        "en": "Who is known as 'Natasurjya' of Assamese theatre?",
+        "as": "অসমীয়া নাট্যজগতৰ 'নাটসূৰ্য' বুলি কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Brajanath Sarma",
+          "as": "ব্ৰজনাথ শৰ্মা"
+        },
+        {
+          "en": "Phani Sarma",
+          "as": "ফণী শৰ্মা"
+        },
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Phani Sarma is known as 'Natasurjya' for his contributions to Assamese theatre and acting.",
+        "as": "অসমীয়া ৰঙ্গমঞ্চ আৰু অভিনয়লৈ অৱদানৰ বাবে ফণী শৰ্মাক 'নটসূৰ্য' বুলি জনা যায়।"
+      }
+    },
+    {
+      "id": "computer-fundamentals-061",
+      "q": {
+        "en": "The shortcut Ctrl + Z is used to?",
+        "as": "Ctrl + Z শ্বৰ্টকাট কিৰ বাবে?"
+      },
+      "options": [
+        {
+          "en": "Redo",
+          "as": "ৰিডু"
+        },
+        {
+          "en": "Undo",
+          "as": "আনডু"
+        },
+        {
+          "en": "Save",
+          "as": "ছেভ"
+        },
+        {
+          "en": "Copy",
+          "as": "কপি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ctrl + Z is the shortcut used to undo the last action.",
+        "as": "Ctrl + Z শেহতীয়া কাৰ্য বাতিল (undo) কৰাৰ শৰ্টকাট।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-019",
+      "q": {
+        "en": "For the data 3, 5, 7, 9, 11, the mean is:",
+        "as": "3, 5, 7, 9, 11 তথ্যৰ গড় কি?"
+      },
+      "options": [
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Mean = (3+5+7+9+11)/5 = 35/5 = 7.",
+        "as": "গড় = (3+5+7+9+11)/5 = 35/5 = 7।"
+      }
+    },
+    {
+      "id": "assam-literature-038",
+      "q": {
+        "en": "Who wrote the novel 'Chakratirtha'?",
+        "as": "'চক্ৰতীৰ্থ' উপন্যাসখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Rajani Kanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Chakratirtha' is a novel by Birendra Kumar Bhattacharyya.",
+        "as": "'চক্ৰতীৰ্থ' বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যৰ এক উপন্যাস।"
+      }
+    },
+    {
+      "id": "arithmetic-060",
+      "q": {
+        "en": "If 20% of x is 50, then x is:",
+        "as": "যদি x ৰ 20% হৈছে 50, তেন্তে x কিমান?"
+      },
+      "options": [
+        {
+          "en": "200",
+          "as": "200"
+        },
+        {
+          "en": "250",
+          "as": "250"
+        },
+        {
+          "en": "150",
+          "as": "150"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "20% of x = 50, so x = 50 × 100/20 = 250.",
+        "as": "x ৰ 20% = 50, গতিকে x = 50 × 100/20 = 250।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-034",
+      "q": {
+        "en": "If 15th August 2023 was Tuesday, what day was 15th August 2024?",
+        "as": "যদি ১৫ আগষ্ট ২০২৩ মঙ্গলবাৰ আছিল, তেন্তে ১৫ আগষ্ট ২০২৪ কোনবাৰ আছিল?"
+      },
+      "options": [
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Thursday",
+          "as": "বৃহস্পতিবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        },
+        {
+          "en": "Tuesday",
+          "as": "মঙ্গলবাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The year 2024 is a leap year, so the period contains 366 days; 366 divided by 7 leaves 2, moving the day two ahead of Tuesday, which is Thursday.",
+        "as": "২০২৪ অধিবৰ্ষ, সেয়ে এই সময়ছোৱাত ৩৬৬ দিন; ৩৬৬-ক ৭-ৰে হৰণ কৰিলে ২ বাকী থাকে; মঙ্গলবাৰৰ পৰা দুই দিন আগবঢ়ালে বৃহস্পতিবাৰ হয়।"
+      }
+    },
+    {
+      "id": "art-culture-052",
+      "q": {
+        "en": "The multi-storied Ahom monument at Sivasagar, having secret underground tunnels, is known as what?",
+        "as": "ভূগৰ্ভস্থ গুপ্ত সুৰংগ থকা শিৱসাগৰৰ বহুতল আহোম স্মৃতিসৌধটো কি নামেৰে জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Rangnath Dol",
+          "as": "ৰংনাথ দ'ল"
+        },
+        {
+          "en": "Gargaon Palace",
+          "as": "গড়গাঁও ৰাজপ্ৰসাদ"
+        },
+        {
+          "en": "Rang Ghar",
+          "as": "ৰংঘৰ"
+        },
+        {
+          "en": "Talatal Ghar",
+          "as": "তালাতল ঘৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Talatal Ghar is known for its secret underground tunnels.",
+        "as": "তলাতল ঘৰ ইয়াৰ গোপন ভূগৰ্ভস্থ সুৰংগৰ বাবে জনাজাত।"
+      }
+    },
+    {
+      "id": "economics-018",
+      "q": {
+        "en": "GNP is equal to which of the following?",
+        "as": "GNP তলৰ কোনটোৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "NNP + Indirect taxes",
+          "as": "NNP + পৰোক্ষ কৰ"
+        },
+        {
+          "en": "GDP - Depreciation",
+          "as": "GDP - অৱচয়"
+        },
+        {
+          "en": "GDP + Net factor income from abroad",
+          "as": "GDP + বিদেশৰ পৰা নিকা উপাদান আয়"
+        },
+        {
+          "en": "GDP - Net factor income from abroad",
+          "as": "GDP - বিদেশৰ পৰা নিকা উপাদান আয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "GNP equals GDP plus net factor income from abroad.",
+        "as": "GNP = GDP + বিদেশৰ পৰা নিট উপাৰ্জন (net factor income from abroad)।"
+      }
+    },
+    {
+      "id": "indian-history-073",
+      "q": {
+        "en": "Sir Thomas Roe, the English ambassador, came to the court of which Mughal emperor in 1615?",
+        "as": "১৬১৫ চনত ইংৰাজ ৰাষ্ট্ৰদূত ছাৰ টমাছ ৰো কোনজন মোগল সম্ৰাটৰ ৰাজসভালৈ আহিছিল?"
+      },
+      "options": [
+        {
+          "en": "Jahangir",
+          "as": "জাহাংগীৰ"
+        },
+        {
+          "en": "Shah Jahan",
+          "as": "শাহজাহান"
+        },
+        {
+          "en": "Akbar",
+          "as": "আকবৰ"
+        },
+        {
+          "en": "Aurangzeb",
+          "as": "আওৰাংজেৱ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sir Thomas Roe, the English ambassador, came to the court of Mughal emperor Jahangir in 1615.",
+        "as": "ইংৰাজ ৰাষ্ট্ৰদূত ছাৰ থমাছ ৰ' ১৬১৫ চনত মোগল সম্ৰাট জাহাঙ্গীৰৰ দৰবাৰলৈ আহিছিল।"
+      }
+    },
+    {
+      "id": "art-culture-008",
+      "q": {
+        "en": "Which animal is the state animal of Assam?",
+        "as": "অসমৰ ৰাজ্যিক পশু কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Bengal tiger",
+          "as": "বঙাল বাঘ"
+        },
+        {
+          "en": "Wild buffalo",
+          "as": "বনৰীয়া ম'হ"
+        },
+        {
+          "en": "One-horned rhinoceros",
+          "as": "একশৃংগ গঁড়"
+        },
+        {
+          "en": "Asian elephant",
+          "as": "এছিয় হাতী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The one-horned rhinoceros is the state animal of Assam.",
+        "as": "এশিঙীয়া গঁড় অসমৰ ৰাজ্যিক পশু।"
+      }
+    },
+    {
+      "id": "vocabulary-006",
+      "q": {
+        "en": "Choose the synonym of 'diligent':",
+        "as": "'diligent' ৰ সমাৰ্থক শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "lazy",
+          "as": "অলস"
+        },
+        {
+          "en": "hardworking",
+          "as": "পৰিশ্ৰমী"
+        },
+        {
+          "en": "careless",
+          "as": "অসাৱধান"
+        },
+        {
+          "en": "idle",
+          "as": "নিষ্ক্ৰিয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Hardworking' is a synonym of 'diligent'.",
+        "as": "'hardworking' হৈছে 'diligent' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-038",
+      "q": {
+        "en": "A line graph shows values 100, 120, 140 and 160. The average is:",
+        "as": "এটা ৰেখা গ্ৰাফে 100, 120, 140 আৰু 160 মান দেখুৱায়। গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "130",
+          "as": "130"
+        },
+        {
+          "en": "120",
+          "as": "120"
+        },
+        {
+          "en": "140",
+          "as": "140"
+        },
+        {
+          "en": "135",
+          "as": "135"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Average = (100+120+140+160)/4 = 520/4 = 130.",
+        "as": "গড় = (100+120+140+160)/4 = 520/4 = 130।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-012",
+      "q": {
+        "en": "The weighted average of 40 and 60 with weights 2 and 3 respectively is:",
+        "as": "2 আৰু 3 ওজনৰ সৈতে 40 আৰু 60 ৰ ওজনযুক্ত গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "50",
+          "as": "50"
+        },
+        {
+          "en": "48",
+          "as": "48"
+        },
+        {
+          "en": "54",
+          "as": "54"
+        },
+        {
+          "en": "52",
+          "as": "52"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Weighted average = (w1x1 + w2x2)/(w1+w2) = (2x40 + 3x60)/(2+3) = (80+180)/5 = 260/5 = 52.",
+        "as": "ওজনযুক্ত গড় = (w1x1 + w2x2)/(w1+w2) = (2x40 + 3x60)/(2+3) = (80+180)/5 = 260/5 = 52।"
+      }
+    },
+    {
+      "id": "economics-016",
+      "q": {
+        "en": "The Union Budget of India is presented by whom?",
+        "as": "ভাৰতৰ কেন্দ্ৰীয় বাজেট কোনে উপস্থাপন কৰে?"
+      },
+      "options": [
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The RBI Governor",
+          "as": "RBI গৱৰ্ণৰ"
+        },
+        {
+          "en": "The Finance Minister",
+          "as": "অৰ্থমন্ত্ৰী"
+        },
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Union Budget of India is presented by the Finance Minister in Parliament.",
+        "as": "ভাৰতৰ কেন্দ্ৰীয় বাজেট বিত্তমন্ত্ৰীয়ে সংসদত উপস্থাপন কৰে।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-029",
+      "q": {
+        "en": "If CAT is coded as 3-1-20, then DOG is coded as?",
+        "as": "যদি CAT-ক ৩-১-২০ কোড কৰা হয়, তেন্তে DOG-ৰ কোড কি?"
+      },
+      "options": [
+        {
+          "en": "4-15-7",
+          "as": "৪-১৫-৭"
+        },
+        {
+          "en": "4-14-7",
+          "as": "৪-১৪-৭"
+        },
+        {
+          "en": "3-15-7",
+          "as": "৩-১৫-৭"
+        },
+        {
+          "en": "4-15-6",
+          "as": "৪-১৫-৬"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "D=4, O=15 and G=7, so DOG is coded as 4-15-7.",
+        "as": "D=৪, O=১৫ আৰু G=৭; সেয়ে DOG-ৰ কোড ৪-১৫-৭।"
+      }
+    },
+    {
+      "id": "analytical-critical-reasoning-070",
+      "q": {
+        "en": "Only citizens may vote. Rina is a citizen. We can conclude?",
+        "as": "কেৱল নাগৰিকে ভোট দিব পাৰে। ৰীণা নাগৰিক। আমি ক’ব পাৰোঁ?"
+      },
+      "options": [
+        {
+          "en": "Rina cannot vote",
+          "as": "ৰীণাই ভোট দিব নোৱাৰে"
+        },
+        {
+          "en": "Rina has already voted",
+          "as": "ৰীণাই ইতিমধ্যে ভোট দিছে"
+        },
+        {
+          "en": "Rina is an officer",
+          "as": "ৰীণা বিষয়া"
+        },
+        {
+          "en": "Rina is allowed to vote, if other legal conditions are met",
+          "as": "আন আইনী চৰ্ত থাকিলে ৰীণাই ভোট দিব পাৰে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Being a citizen is necessary; Rina may vote if other legal conditions are met.",
+        "as": "নাগৰিক হোৱা আৱশ্যক; আন আইনী চৰ্ত পূৰ হ'লে ৰীণাই ভোট দিব পাৰে।"
+      }
+    },
+    {
+      "id": "polity-012",
+      "q": {
+        "en": "The impeachment motion against the President can be initiated only in -",
+        "as": "ৰাষ্ট্ৰপতিৰ বিৰুদ্ধে অভিযোগ (ইমপিচমেণ্ট) প্ৰস্তাৱ ক'ত উত্থাপন কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Only Lok Sabha",
+          "as": "কেৱল লোকসভাত"
+        },
+        {
+          "en": "Only Rajya Sabha",
+          "as": "কেৱল ৰাজ্যসভাত"
+        },
+        {
+          "en": "Either House of Parliament",
+          "as": "সংসদৰ যিকোনো এখন সদনত"
+        },
+        {
+          "en": "The Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়ত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The impeachment motion against the President can be initiated in either House of Parliament under Article 61.",
+        "as": "অনুচ্ছেদ ৬১ অনুসৰি ৰাষ্ট্ৰপতিৰ বিৰুদ্ধে অভিশংসন প্ৰস্তাৱ সংসদৰ যিকোনো এখন সদনত উত্থাপন কৰিব পাৰি।"
+      }
+    },
+    {
+      "id": "indian-history-045",
+      "q": {
+        "en": "The Ahom ruler Suhungmung is also known by which title?",
+        "as": "আহোম শাসক চুহুংমুং আন কোন উপাধিৰে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Swarganarayan",
+          "as": "স্বৰ্গনাৰায়ণ"
+        },
+        {
+          "en": "Borphukan",
+          "as": "বৰফুকন"
+        },
+        {
+          "en": "Rupkonwar",
+          "as": "ৰূপকোঁৱৰ"
+        },
+        {
+          "en": "Mahapurush",
+          "as": "মহাপুৰুষ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Suhungmung assumed the title 'Swarganarayan' after the Hindu fashion.",
+        "as": "চুহুংমুঙে হিন্দু ৰীতি অনুসৰি 'স্বৰ্গনাৰায়ণ' উপাধি গ্ৰহণ কৰিছিল।"
+      }
+    },
+    {
+      "id": "geography-054",
+      "q": {
+        "en": "The famous Jog Falls are formed on which river?",
+        "as": "বিখ্যাত জগ জলপ্ৰপাত কোন নদীত গঠিত?"
+      },
+      "options": [
+        {
+          "en": "Tungabhadra",
+          "as": "তুঙ্গভদ্ৰা"
+        },
+        {
+          "en": "Kaveri",
+          "as": "কাবেৰী"
+        },
+        {
+          "en": "Sharavati",
+          "as": "শৰাৱতী"
+        },
+        {
+          "en": "Godavari",
+          "as": "গোদাবৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The famous Jog Falls are formed on the Sharavati river in Karnataka.",
+        "as": "বিখ্যাত জোগ জলপ্ৰপাত কৰ্ণাটকৰ শৰাৱতী নদীত সৃষ্টি হৈছে।"
+      }
+    },
+    {
+      "id": "polity-077",
+      "q": {
+        "en": "Which writ compels a public authority to perform its legal duty?",
+        "as": "কোনটো ৰিটে কোনো চৰকাৰী বিষয়াক আইনী দায়িত্ব পালন কৰিবলৈ বাধ্য কৰে?"
+      },
+      "options": [
+        {
+          "en": "Quo Warranto",
+          "as": "কো ৱাৰেণ্টো"
+        },
+        {
+          "en": "Habeas Corpus",
+          "as": "হেবিয়াছ ক'ৰ্পাছ"
+        },
+        {
+          "en": "Certiorari",
+          "as": "চাৰ্চিঅ'ৰেৰি"
+        },
+        {
+          "en": "Mandamus",
+          "as": "মেণ্ডামাছ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The writ of mandamus compels a public authority to perform its legal duty.",
+        "as": "মেণ্ডামাছ ৰিটে কোনো ৰাজহুৱা কৰ্তৃপক্ষক তাৰ আইনী কৰ্তব্য পালন কৰিবলৈ বাধ্য কৰে।"
+      }
+    },
+    {
+      "id": "ms-office-055",
+      "q": {
+        "en": "In Excel, columns are labelled with?",
+        "as": "Excel-ত স্তম্ভবোৰ কিৰে লেবেল কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Colors",
+          "as": "ৰং"
+        },
+        {
+          "en": "Numbers",
+          "as": "সংখ্যা"
+        },
+        {
+          "en": "Letters",
+          "as": "আখৰ"
+        },
+        {
+          "en": "Symbols",
+          "as": "চিহ্ন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "In Excel, columns are labelled with letters (A, B, C ...).",
+        "as": "Excel ত স্তম্ভবোৰ (columns) আখৰেৰে (A, B, C ...) লেবেল কৰা হয়।"
+      }
+    },
+    {
+      "id": "economics-052",
+      "q": {
+        "en": "The rate at which the RBI lends short-term funds to commercial banks is called?",
+        "as": "RBIয়ে বাণিজ্যিক বেংকসমূহক স্বল্পম্যাদী ঋণ দিয়া সুদৰ হাৰক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Reverse repo rate",
+          "as": "ৰিভাৰ্ছ ৰেপ' ৰেট"
+        },
+        {
+          "en": "Bank rate",
+          "as": "বেংক ৰেট"
+        },
+        {
+          "en": "Repo rate",
+          "as": "ৰেপ' ৰেট"
+        },
+        {
+          "en": "Base rate",
+          "as": "বেচ ৰেট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The repo rate is the rate at which the RBI lends short-term funds to commercial banks.",
+        "as": "ৰেপ' ৰেট হ'ল সেই হাৰ, যি হাৰত RBI-এ বাণিজ্যিক বেংকবোৰক স্বল্পকালীন ঋণ দিয়ে।"
+      }
+    },
+    {
+      "id": "assam-literature-028",
+      "q": {
+        "en": "Who is known as the 'Bihogi Kabi' of Assamese literature?",
+        "as": "অসমীয়া সাহিত্যৰ 'বিহগী কবি' বুলি কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Nabakanta Barua",
+          "as": "নৱকান্ত বৰুৱা"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Raghunath Choudhary",
+          "as": "ৰঘুনাথ চৌধুৰী"
+        },
+        {
+          "en": "Nilamani Phukan",
+          "as": "নীলমণি ফুকন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Raghunath Choudhary is called the 'Bihogi Kabi' for his nature poetry centred on birds.",
+        "as": "পক্ষী-কেন্দ্ৰিক প্ৰকৃতি-কবিতাৰ বাবে ৰঘুনাথ চৌধুৰীক 'বিহগী কবি' বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "id": "arithmetic-078",
+      "q": {
+        "en": "The simple interest on a sum for 4 years at 8% per annum is Rs. 640. The principal is:",
+        "as": "এটা ধনৰ 4 বছৰৰ বাবে বাৰ্ষিক 8% হাৰত সৰল সুত 640 টকা। মূলধন কিমান?"
+      },
+      "options": [
+        {
+          "en": "Rs. 2500",
+          "as": "2500 টকা"
+        },
+        {
+          "en": "Rs. 1800",
+          "as": "1800 টকা"
+        },
+        {
+          "en": "Rs. 2000",
+          "as": "2000 টকা"
+        },
+        {
+          "en": "Rs. 1600",
+          "as": "1600 টকা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "P = (SI × 100)/(R × T) = (640 × 100)/(8 × 4) = Rs. 2000.",
+        "as": "P = (SI × 100)/(R × T) = (640 × 100)/(8 × 4) = টকা 2000।"
+      }
+    },
+    {
+      "id": "vocabulary-023",
+      "q": {
+        "en": "'To smell a rat' means:",
+        "as": "'To smell a rat' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To smell a dead rat",
+          "as": "মৃত নিগনিৰ গোন্ধ পোৱা"
+        },
+        {
+          "en": "To suspect something wrong",
+          "as": "কিবা ভুল আছে বুলি সন্দেহ কৰা"
+        },
+        {
+          "en": "To catch a rat",
+          "as": "নিগনি ধৰা"
+        },
+        {
+          "en": "To clean the house",
+          "as": "ঘৰ পৰিষ্কাৰ কৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'To smell a rat' means to suspect something wrong.",
+        "as": "'to smell a rat' মানে কিবা ভুল হোৱাৰ সন্দেহ কৰা।"
+      }
+    },
+    {
+      "id": "vocabulary-030",
+      "q": {
+        "en": "The idiom 'to cry over spilt milk' means:",
+        "as": "'to cry over spilt milk' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To waste milk",
+          "as": "গাখীৰ নষ্ট কৰা"
+        },
+        {
+          "en": "To clean a mess",
+          "as": "অপৰিষ্কাৰ পৰিষ্কাৰ কৰা"
+        },
+        {
+          "en": "To regret something that cannot be changed",
+          "as": "অপৰিৱৰ্তনীয় কিবা বাবে অনুতাপ কৰা"
+        },
+        {
+          "en": "To cry loudly",
+          "as": "জোৰকৈ কন্দা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To cry over spilt milk' means to regret what cannot be undone.",
+        "as": "'to cry over spilt milk' মানে যি ঘূৰাই পোৱা নাযায় তাৰ বাবে অনুতাপ কৰা।"
+      }
+    },
+    {
+      "id": "art-culture-016",
+      "q": {
+        "en": "Odissi, one of the oldest classical dances of India, originated in which state?",
+        "as": "ভাৰতৰ পুৰণি শাস্ত্ৰীয় নৃত্য ওডিছি কোন ৰাজ্যত উৎপত্তি হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Jharkhand",
+          "as": "ঝাড়খণ্ড"
+        },
+        {
+          "en": "Odisha",
+          "as": "ওড়িশা"
+        },
+        {
+          "en": "Bihar",
+          "as": "বিহাৰ"
+        },
+        {
+          "en": "West Bengal",
+          "as": "পশ্চিম বংগ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Odissi originated in Odisha.",
+        "as": "ওডিছি ওড়িশাত উৎপত্তি হৈছিল।"
+      }
+    },
+    {
+      "id": "statistics-and-data-interpretation-074",
+      "q": {
+        "en": "In a frequency distribution, the class 10–20 has frequency 8. The class width is:",
+        "as": "কম্পাঙ্ক বণ্টনত 10–20 শ্ৰেণীৰ কম্পাঙ্ক 8। শ্ৰেণী প্ৰস্থ কিমান?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "20",
+          "as": "20"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Class width = upper limit - lower limit = 20 - 10 = 10. The frequency (8) does not affect the width.",
+        "as": "শ্ৰেণী প্ৰস্থ = উচ্চ সীমা - নিম্ন সীমা = 20 - 10 = 10। কম্পাঙ্ক (8)এ প্ৰস্থত প্ৰভাৱ নেপেলায়।"
+      }
+    },
+    {
+      "id": "advanced-math-026",
+      "q": {
+        "en": "The distance between the points (0, 0) and (3, 4) is:",
+        "as": "(0, 0) আৰু (3, 4) বিন্দু দুটাৰ মাজৰ দূৰত্ব কিমান?"
+      },
+      "options": [
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d = √(3² + 4²) = √25 = 5.",
+        "as": "d = √(3² + 4²) = √25 = 5।"
+      }
+    },
+    {
+      "id": "ms-office-002",
+      "q": {
+        "en": "What is the default slide orientation in PowerPoint?",
+        "as": "PowerPoint-ত স্লাইডৰ ডিফল্ট অভিমুখ কি?"
+      },
+      "options": [
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        },
+        {
+          "en": "Custom",
+          "as": "কাষ্টম"
+        },
+        {
+          "en": "Portrait",
+          "as": "পৰ্ট্ৰেট"
+        },
+        {
+          "en": "Landscape",
+          "as": "লেণ্ডস্কেপ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The default slide orientation in PowerPoint is Landscape.",
+        "as": "PowerPoint ত স্লাইডৰ ডিফ'ল্ট অভিমুখ হৈছে Landscape (অনুভূমিক)।"
+      }
+    },
+    {
+      "id": "analytical-critical-reasoning-079",
+      "q": {
+        "en": "Cause: A new flyover opened in the city. Likely effect?",
+        "as": "কাৰণ: চহৰত নতুন ফ্লাইঅ’ভাৰ খুলিল। সম্ভাৱ্য প্ৰভাৱ?"
+      },
+      "options": [
+        {
+          "en": "Traffic congestion on that route may reduce",
+          "as": "সেই পথৰ যানজঁট কমতি হ’ব পাৰে"
+        },
+        {
+          "en": "All cars vanish",
+          "as": "সকলো গাড়ী নোহোৱা হয়"
+        },
+        {
+          "en": "Rivers change direction",
+          "as": "নদীয়ে দিশ সলায়"
+        },
+        {
+          "en": "Schools stop teaching",
+          "as": "বিদ্যালয়ে পঢ়োৱা বন্ধ কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A new flyover is likely to reduce traffic congestion on that route.",
+        "as": "নতুন ফ্লাইঅ'ভাৰে সেই পথৰ যানজঁট কমাব পাৰে।"
+      }
+    },
+    {
+      "id": "advanced-math-046",
+      "q": {
+        "en": "The derivative of ln x with respect to x is:",
+        "as": "x ৰ সাপেক্ষে ln x ৰ অৱকলজ কি?"
+      },
+      "options": [
+        {
+          "en": "1/x",
+          "as": "1/x"
+        },
+        {
+          "en": "x",
+          "as": "x"
+        },
+        {
+          "en": "ln x",
+          "as": "ln x"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d/dx (ln x) = 1/x.",
+        "as": "d/dx (ln x) = 1/x।"
+      }
+    },
+    {
+      "id": "vocabulary-078",
+      "q": {
+        "en": "A place where bees are kept is an:",
+        "as": "মৌমাখি ৰখা স্থানক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Aviary",
+          "as": "পক্ষীশালা"
+        },
+        {
+          "en": "Apiary",
+          "as": "মৌঘৰ"
+        },
+        {
+          "en": "Aquarium",
+          "as": "মীনালয়"
+        },
+        {
+          "en": "Granary",
+          "as": "শস্যভঁৰাল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A place where bees are kept is an apiary.",
+        "as": "মৌমাখি ৰখা ঠাইক apiary বোলা হয়।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-009",
+      "q": {
+        "en": "If 15th August 2024 was Thursday, then 16th August 2024 was?",
+        "as": "যদি ১৫ আগষ্ট ২০২৪ বৃহস্পতিবাৰ আছিল, তেন্তে ১৬ আগষ্ট ২০২৪ কোনবাৰ আছিল?"
+      },
+      "options": [
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        },
+        {
+          "en": "Saturday",
+          "as": "শনিবাৰ"
+        },
+        {
+          "en": "Sunday",
+          "as": "দেওবাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The day immediately after Thursday is Friday, so 16 August 2024 was Friday.",
+        "as": "বৃহস্পতিবাৰৰ ঠিক পিছদিনা শুক্ৰবাৰ; সেয়ে ১৬ আগষ্ট ২০২৪ শুক্ৰবাৰ আছিল।"
+      }
+    },
+    {
+      "id": "assam-history-057",
+      "q": {
+        "en": "The Kamakhya temple was rebuilt in the 16th century under which Koch king?",
+        "as": "ষোড়শ শতিকাত কোনজন কোচ ৰজাৰ দিনত কামাখ্যা মন্দিৰ পুনৰ নিৰ্মাণ কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Naranarayan",
+          "as": "নৰনাৰায়ণ"
+        },
+        {
+          "en": "Raghudeva",
+          "as": "ৰঘুদেৱ"
+        },
+        {
+          "en": "Parikshit Narayan",
+          "as": "পৰীক্ষিত নাৰায়ণ"
+        },
+        {
+          "en": "Biswa Singha",
+          "as": "বিশ্ব সিংহ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Kamakhya temple was rebuilt in the 16th century under the Koch king Naranarayan.",
+        "as": "ষোড়শ শতিকাত কোচ ৰজা নৰনাৰায়ণৰ অধীনত কামাখ্যা মন্দিৰ পুনৰ্নিৰ্মাণ কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "indian-history-051",
+      "q": {
+        "en": "The Third Buddhist Council was held at Pataliputra under the patronage of which ruler?",
+        "as": "তৃতীয় বৌদ্ধ সংগীতি পাটলিপুত্ৰত কোন শাসকৰ পৃষ্ঠপোষকতাত অনুষ্ঠিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Harsha",
+          "as": "হৰ্ষ"
+        },
+        {
+          "en": "Kanishka",
+          "as": "কনিষ্ক"
+        },
+        {
+          "en": "Ashoka",
+          "as": "অশোক"
+        },
+        {
+          "en": "Ajatashatru",
+          "as": "অজাতশত্ৰু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Third Buddhist Council was held at Pataliputra under the patronage of Ashoka.",
+        "as": "তৃতীয় বৌদ্ধ সংগীতি অশোকৰ পৃষ্ঠপোষকতাত পাটলিপুত্ৰত অনুষ্ঠিত হৈছিল।"
+      }
+    },
+    {
+      "id": "analytical-critical-reasoning-073",
+      "q": {
+        "en": "Shop sales fell after a new highway opened far from the market. Best inference?",
+        "as": "বজাৰৰ পৰা দূৰত নতুন ৰাজপথ খোলাৰ পিছত দোকানৰ বিক্ৰী কমিল। শ্ৰেষ্ঠ অনুমান?"
+      },
+      "options": [
+        {
+          "en": "Goods became illegal",
+          "as": "সামগ্ৰী অবৈধ হ’ল"
+        },
+        {
+          "en": "People stopped eating",
+          "as": "মানুহে খোৱা এৰিলে"
+        },
+        {
+          "en": "Money was abolished",
+          "as": "ধন বাতিল হ’ল"
+        },
+        {
+          "en": "Traffic and customers may have shifted away",
+          "as": "ট্ৰাফিক আৰু গ্ৰাহক আঁতৰি যাব পাৰে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The best inference is that traffic and customers may have shifted to the new highway.",
+        "as": "শ্ৰেষ্ঠ অনুমান হ'ল ট্ৰাফিক আৰু গ্ৰাহক নতুন ৰাজপথলৈ আঁতৰি যাব পাৰে।"
+      }
+    },
+    {
+      "id": "arithmetic-042",
+      "q": {
+        "en": "The compound interest on 1000 at 10% per annum for 3 years is:",
+        "as": "1000 টকাৰ ওপৰত বছৰি 10% হাৰে 3 বছৰৰ চক্ৰবৃদ্ধি সুত কিমান?"
+      },
+      "options": [
+        {
+          "en": "331",
+          "as": "331"
+        },
+        {
+          "en": "300",
+          "as": "300"
+        },
+        {
+          "en": "310",
+          "as": "310"
+        },
+        {
+          "en": "321",
+          "as": "321"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Amount = 1000 × (1.1)³ = 1331, so CI = 331.",
+        "as": "মুঠ ধন = 1000 × (1.1)³ = 1331, গতিকে চক্ৰবৃদ্ধি সুত = 331।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-005",
+      "q": {
+        "en": "How many vertices does a cube have?",
+        "as": "এটা ঘনকৰ কিমান শীৰ্ষবিন্দু থাকে?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A cube has 8 vertices, one at each of its eight corners.",
+        "as": "ঘনকৰ ৮টা শীৰ্ষবিন্দু থাকে, ইয়াৰ আঠটা কোণৰ প্ৰতিটোত এটা।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-050",
+      "q": {
+        "en": "Bird is to Fly as Fish is to?",
+        "as": "চৰাইৰ লগত উৰা যেনে, মাছৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Swim",
+          "as": "সাঁতোৰা"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Jump",
+          "as": "জাঁপ মৰা"
+        },
+        {
+          "en": "Breathe",
+          "as": "উশাহ লোৱা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A bird moves by flying and a fish moves by swimming, so the answer is Swim.",
+        "as": "চৰাই উৰি গতি কৰে আৰু মাছে সাঁতোৰি গতি কৰে; সেয়ে উত্তৰ 'সাঁতোৰা'।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-052",
+      "q": {
+        "en": "Find the odd one: Lion, Tiger, Leopard, Cow",
+        "as": "বেলেগটো বাছক: সিংহ, বাঘ, চিতাবাঘ, গৰু"
+      },
+      "options": [
+        {
+          "en": "Cow",
+          "as": "গৰু"
+        },
+        {
+          "en": "Lion",
+          "as": "সিংহ"
+        },
+        {
+          "en": "Tiger",
+          "as": "বাঘ"
+        },
+        {
+          "en": "Leopard",
+          "as": "চিতাবাঘ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Lion, tiger and leopard are wild flesh-eating animals, whereas the cow is a domesticated herbivore, so the cow is the odd one.",
+        "as": "সিংহ, বাঘ আৰু চিতাবাঘ হ'ল বনৰীয়া মাংসভোজী প্ৰাণী, আনহাতে গৰু হ'ল পোহনীয়া তৃণভোজী প্ৰাণী, সেয়ে গৰু বেলেগ।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-030",
+      "q": {
+        "en": "My sister's son is my?",
+        "as": "মোৰ ভনীৰ পুত্ৰ মোৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Son",
+          "as": "পুত্ৰ"
+        },
+        {
+          "en": "Nephew",
+          "as": "ভাগিনা"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুৰাত ভাই"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The son of one's sister is one's nephew, so the answer is Nephew.",
+        "as": "ভনীৰ পুত্ৰ হৈছে ভাগিনা; সেয়ে উত্তৰ 'ভাগিনা'।"
+      }
+    },
+    {
+      "id": "grammar-009",
+      "q": {
+        "en": "The girl ___ I met yesterday is a doctor.",
+        "as": "যি ছোৱালীক মই কালি লগ পাইছিলোঁ তেওঁ এগৰাকী চিকিৎসক।"
+      },
+      "options": [
+        {
+          "en": "who",
+          "as": "who"
+        },
+        {
+          "en": "whom",
+          "as": "whom"
+        },
+        {
+          "en": "which",
+          "as": "which"
+        },
+        {
+          "en": "what",
+          "as": "what"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Whom' is used as the object of a verb or preposition.",
+        "as": "ক্ৰিয়া বা পূৰ্বসৰ্গৰ object হিচাপে 'whom' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "geography-026",
+      "q": {
+        "en": "Which Bihu is also known as Bhogali Bihu?",
+        "as": "কোন বিহুক ভোগালী বিহু বুলিও জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Magh Bihu",
+          "as": "মাঘ বিহু"
+        },
+        {
+          "en": "Bohag Bihu",
+          "as": "ব'হাগ বিহু"
+        },
+        {
+          "en": "Kati Bihu",
+          "as": "কাতি বিহু"
+        },
+        {
+          "en": "None of these",
+          "as": "এইবোৰৰ এটাও নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Magh Bihu is also known as Bhogali Bihu, the harvest festival.",
+        "as": "মাঘ বিহুক ভোগালী বিহু বুলিও জনা যায়, যি শস্য চপোৱাৰ উৎসৱ।"
+      }
+    },
+    {
+      "id": "geography-047",
+      "q": {
+        "en": "Which is the largest producer of jute in India?",
+        "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ পাট উৎপাদক ৰাজ্য কোনখন?"
+      },
+      "options": [
+        {
+          "en": "West Bengal",
+          "as": "পশ্চিম বংগ"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Bihar",
+          "as": "বিহাৰ"
+        },
+        {
+          "en": "Odisha",
+          "as": "ওড়িশা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "West Bengal is the largest producer of jute in India.",
+        "as": "পশ্চিম বংগ ভাৰতৰ সৰ্বাধিক পাট উৎপাদনকাৰী ৰাজ্য।"
+      }
+    },
+    {
+      "id": "grammar-038",
+      "q": {
+        "en": "He is different ___ his brother.",
+        "as": "তেওঁ তেওঁৰ ভাইৰ পৰা পৃথক।"
+      },
+      "options": [
+        {
+          "en": "than",
+          "as": "than"
+        },
+        {
+          "en": "to",
+          "as": "to"
+        },
+        {
+          "en": "with",
+          "as": "with"
+        },
+        {
+          "en": "from",
+          "as": "from"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The correct preposition after 'different' is 'from'.",
+        "as": "'different' ৰ পিছত শুদ্ধ preposition হৈছে 'from'।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-006",
+      "q": {
+        "en": "Pen is to Write as Knife is to?",
+        "as": "কলমৰ লগত লিখা যেনে, ছুৰীৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Cut",
+          "as": "কটা"
+        },
+        {
+          "en": "Sharp",
+          "as": "ধাৰাল"
+        },
+        {
+          "en": "Steel",
+          "as": "ইস্পাত"
+        },
+        {
+          "en": "Kitchen",
+          "as": "ৰান্ধনিশাল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A pen is a tool used for writing, and a knife is a tool used for cutting, so the tool-function relation gives Cut.",
+        "as": "কলম লিখাৰ সঁজুলি আৰু ছুৰী কটাৰ সঁজুলি; সেয়ে সঁজুলি-কাৰ্যৰ সম্পৰ্কমতে 'কটা' শুদ্ধ।"
+      }
+    },
+    {
+      "id": "vocabulary-070",
+      "q": {
+        "en": "'To hit the nail on the head' means:",
+        "as": "'To hit the nail on the head' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To hurt someone",
+          "as": "কাকোবা আঘাত কৰা"
+        },
+        {
+          "en": "To do the right thing exactly",
+          "as": "ঠিক কথাটো কৰা"
+        },
+        {
+          "en": "To work with a hammer",
+          "as": "ঘাণেৰে কাম কৰা"
+        },
+        {
+          "en": "To make a mistake",
+          "as": "ভুল কৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'To hit the nail on the head' means to do the right thing exactly.",
+        "as": "'to hit the nail on the head' মানে একেবাৰে শুদ্ধ কাম কৰা।"
+      }
+    },
+    {
+      "id": "art-culture-006",
+      "q": {
+        "en": "The world's largest river island, famous for its Sattras, is located in which state?",
+        "as": "বিশ্বৰ বৃহত্তম নদীদ্বীপ, যি সত্ৰৰ বাবে প্ৰসিদ্ধ, কোন ৰাজ্যত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        },
+        {
+          "en": "West Bengal",
+          "as": "পশ্চিম বংগ"
+        },
+        {
+          "en": "Arunachal Pradesh",
+          "as": "অৰুণাচল প্ৰদেশ"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The world's largest river island, Majuli, is located in Assam.",
+        "as": "বিশ্বৰ সৰ্ববৃহৎ নদীদ্বীপ মাজুলী অসমত অৱস্থিত।"
+      }
+    },
+    {
+      "id": "art-culture-066",
+      "q": {
+        "en": "The Ajanta Caves, famous for ancient Buddhist paintings, are located in which state?",
+        "as": "পুৰণি বৌদ্ধ চিত্ৰকলাৰ বাবে বিখ্যাত অজন্তা গুহা কোন ৰাজ্যত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Rajasthan",
+          "as": "ৰাজস্থান"
+        },
+        {
+          "en": "Madhya Pradesh",
+          "as": "মধ্যপ্ৰদেশ"
+        },
+        {
+          "en": "Maharashtra",
+          "as": "মহাৰাষ্ট্ৰ"
+        },
+        {
+          "en": "Gujarat",
+          "as": "গুজৰাট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Ajanta Caves are located in Maharashtra.",
+        "as": "অজন্তা গুহা মহাৰাষ্ট্ৰত অৱস্থিত।"
+      }
+    },
+    {
+      "id": "vocabulary-053",
+      "q": {
+        "en": "'To break the ice' means:",
+        "as": "'To break the ice' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To start a conversation",
+          "as": "কথা-বতৰা আৰম্ভ কৰা"
+        },
+        {
+          "en": "To freeze water",
+          "as": "পানী জমা কৰা"
+        },
+        {
+          "en": "To fight",
+          "as": "যুঁজ কৰা"
+        },
+        {
+          "en": "To stop talking",
+          "as": "কথা বন্ধ কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'To break the ice' means to start a conversation.",
+        "as": "'to break the ice' মানে কথা-বতৰা আৰম্ভ কৰা।"
+      }
+    },
+    {
+      "id": "polity-004",
+      "q": {
+        "en": "What is the retirement age of a High Court judge in India?",
+        "as": "ভাৰতৰ উচ্চ ন্যায়ালয়ৰ ন্যায়াধীশৰ অৱসৰ বয়স কিমান?"
+      },
+      "options": [
+        {
+          "en": "65 years",
+          "as": "৬৫ বছৰ"
+        },
+        {
+          "en": "58 years",
+          "as": "৫৮ বছৰ"
+        },
+        {
+          "en": "60 years",
+          "as": "৬০ বছৰ"
+        },
+        {
+          "en": "62 years",
+          "as": "৬২ বছৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A High Court judge retires at the age of 62 years.",
+        "as": "উচ্চ ন্যায়ালয়ৰ ন্যায়াধীশ ৬২ বছৰ বয়সত অৱসৰ গ্ৰহণ কৰে।"
+      }
+    },
+    {
+      "id": "economics-029",
+      "q": {
+        "en": "Which district of Assam is known for the weaving industry?",
+        "as": "অসমৰ কোন জিলা বয়ন শিল্পৰ বাবে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Nagaon (Sualkuchi)",
+          "as": "নগাঁও (সুৱালকুছি)"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Karimganj",
+          "as": "কৰিমগঞ্জ"
+        },
+        {
+          "en": "Barpeta",
+          "as": "বৰপেটা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sualkuchi in Nagaon district is known as the 'Manchester of Assam' for its weaving industry.",
+        "as": "নগাঁও জিলাৰ সুৱালকুছিক তেওঁলোকৰ বয়ন শিল্পৰ বাবে 'অসমৰ মাঞ্চেষ্টাৰ' বুলি জনা যায়।"
+      }
+    }
+  ]
+}

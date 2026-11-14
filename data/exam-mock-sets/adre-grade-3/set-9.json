@@ -1,0 +1,4575 @@
+{
+  "setNumber": 9,
+  "title": "Full Paper Set 9",
+  "exam": "adre-grade-3",
+  "blueprint": {
+    "durationMinutes": 180,
+    "totalMarks": 150,
+    "marksPerQuestion": 1,
+    "negativeMarking": 0.25,
+    "sections": [
+      {
+        "id": "general-knowledge-assam-gk",
+        "questions": 40,
+        "label": {
+          "en": "Assam's General Knowledge, History, Geography & Current Affairs",
+          "as": "অসমৰ সাধাৰণ জ্ঞান, ইতিহাস, ভূগোল আৰু সাম্প্ৰতিক ঘটনা"
+        }
+      },
+      {
+        "id": "history",
+        "questions": 25,
+        "label": {
+          "en": "India's History, Polity & Science",
+          "as": "ভাৰতৰ ইতিহাস, ৰাজনীতি আৰু বিজ্ঞান"
+        }
+      },
+      {
+        "id": "social-studies",
+        "questions": 20,
+        "label": {
+          "en": "Social Studies & Reading Comprehension",
+          "as": "সমাজ বিজ্ঞান আৰু পঢ়ন বোধগম্যতা"
+        }
+      },
+      {
+        "id": "elementary-mathematics",
+        "questions": 30,
+        "label": {
+          "en": "Elementary Mathematics",
+          "as": "প্ৰাথমিক গণিত"
+        }
+      },
+      {
+        "id": "logical-reasoning",
+        "questions": 20,
+        "label": {
+          "en": "Mental Ability & Reasoning",
+          "as": "মানসিক দক্ষতা আৰু তৰ্কশক্তি"
+        }
+      },
+      {
+        "id": "general-english",
+        "questions": 15,
+        "label": {
+          "en": "General English",
+          "as": "সাধাৰণ ইংৰাজী"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "india-rivers-mountains-states-367",
+      "q": {
+        "en": "The Mahi river finally drains into which water body?",
+        "as": "মাহী নদী শেষত কোন জলাশয়ত পৰে?"
+      },
+      "options": [
+        {
+          "en": "Damodar",
+          "as": "দামোদৰ"
+        },
+        {
+          "en": "Ghaghara",
+          "as": "ঘাঘৰা"
+        },
+        {
+          "en": "Arabian Sea",
+          "as": "আৰৱ সাগৰ"
+        },
+        {
+          "en": "Chambal",
+          "as": "চম্বল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Mahi drains into the Arabian Sea.",
+        "as": "মাহী আৰৱ সাগৰত পৰে।"
+      }
+    },
+    {
+      "id": "counting-figures-055",
+      "q": {
+        "en": "How many rectangles are there in the given figure?",
+        "as": "দিয়া চিত্ৰখনত কিমানটা আয়ত আছে?"
+      },
+      "options": [
+        {
+          "en": "224",
+          "as": "২২৪"
+        },
+        {
+          "en": "225",
+          "as": "২২৫"
+        },
+        {
+          "en": "226",
+          "as": "২২৬"
+        },
+        {
+          "en": "223",
+          "as": "২২৩"
+        }
+      ],
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 140\" width=\"170\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"166\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><line x1=\"25\" y1=\"20\" x2=\"175\" y2=\"20\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"45\" x2=\"175\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"70\" x2=\"175\" y2=\"70\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"95\" x2=\"175\" y2=\"95\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"120\" x2=\"175\" y2=\"120\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"145\" x2=\"175\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"145\" stroke=\"#334155\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+      "explanation": {
+        "en": "The number of rectangles in an m x n grid is C(m+1,2) x C(n+1,2); here it is 225.",
+        "as": "m x n জালিকাত আয়তৰ সংখ্যা C(m+1,2) x C(n+1,2); ইয়াত 225।"
+      }
+    },
+    {
+      "id": "assam-folk-culture-254",
+      "q": {
+        "en": "Which Assamese manuscript illustration tradition is associated with the Sattras?",
+        "as": "কোন অসমীয়া পুথি-চিত্ৰ অলংকৰণ পৰম্পৰা সত্ৰৰ সৈতে জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Mughal miniature",
+          "as": "মোগল ক্ষুদ্ৰচিত্ৰ"
+        },
+        {
+          "en": "Sattriya manuscript painting",
+          "as": "সত্ৰীয়া পুথি-চিত্ৰ"
+        },
+        {
+          "en": "Pahari miniature",
+          "as": "পাহাৰী ক্ষুদ্ৰচিত্ৰ"
+        },
+        {
+          "en": "Company painting",
+          "as": "কোম্পানী চিত্ৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sattriya manuscript painting is associated with the Sattras.",
+        "as": "সত্ৰীয়া পুথি-চিত্ৰ সত্ৰৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "id": "assam-history-ancient-345",
+      "q": {
+        "en": "Which ancient Kamarupa king is credited with the earliest known mention of Assamese society?",
+        "as": "অসমীয়া সমাজৰ আটাইতকৈ প্ৰাচীন জনা উল্লেখৰ কৃতিত্ব কোন প্ৰাচীন কামৰূপ ৰজাৰ?"
+      },
+      "options": [
+        {
+          "en": "Pushyavarman",
+          "as": "পুষ্যভৰ্মন"
+        },
+        {
+          "en": "Brahmapala",
+          "as": "ব্ৰহ্মপাল"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মন"
+        },
+        {
+          "en": "Sandhya",
+          "as": "সন্ধ্যা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The blended society of ancient Kamarupa is the root of Assamese social traditions.",
+        "as": "প্ৰাচীন কামৰূপৰ মিশ্ৰিত সমাজ অসমীয়া সামাজিক পৰম্পৰাৰ মূল।"
+      }
+    },
+    {
+      "id": "assam-history-medieval-323",
+      "q": {
+        "en": "Which of the following was a major Ahom disadvantage in the Mughal wars?",
+        "as": "মোগল যুদ্ধত এটা প্ৰধান আহোম অসুবিধা তলৰ কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "Too many soldiers",
+          "as": "অতি বেছি সৈনিক"
+        },
+        {
+          "en": "No knowledge of the terrain",
+          "as": "ভূ-প্ৰকৃতিৰ জ্ঞান নাই"
+        },
+        {
+          "en": "Fewer resources and modern weapons",
+          "as": "কম সম্পদ আৰু আধুনিক অস্ত্ৰ"
+        },
+        {
+          "en": "No river navy",
+          "as": "নদী-নৌবাহিনী নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Ahoms had fewer resources and less modern weaponry than the Mughals.",
+        "as": "আহোমসকলৰ মোগলতকৈ কম সম্পদ আৰু কম আধুনিক অস্ত্ৰ আছিল।"
+      }
+    },
+    {
+      "id": "assam-national-parks-277",
+      "q": {
+        "en": "On which bank of the Brahmaputra is Bordoibam-Bilmukh Wildlife Sanctuary located?",
+        "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "north",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "west",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "central",
+          "as": "মধ্য"
+        },
+        {
+          "en": "east",
+          "as": "পূব"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bordoibam-Bilmukh Wildlife Sanctuary is on the north bank of the Brahmaputra.",
+        "as": "বৰদৈবাম-বিলমুখ অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+      }
+    },
+    {
+      "id": "indian-history-modern-294",
+      "q": {
+        "en": "What new system was introduced at the centre by the Government of India Act 1935?",
+        "as": "১৯৩৫ চনৰ ভাৰত শাসন আইনে কেন্দ্ৰত কি নতুন ব্যৱস্থা প্ৰৱৰ্তন কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "The introduction of dyarchy in the provinces",
+          "as": "প্ৰদেশসমূহত দ্বৈত শাসনৰ প্ৰৱৰ্তন"
+        },
+        {
+          "en": "The abolition of dyarchy in the provinces",
+          "as": "প্ৰদেশসমূহত দ্বৈত শাসনৰ বিলুপ্তি"
+        },
+        {
+          "en": "The end of the legislature",
+          "as": "বিধানমণ্ডলৰ অন্ত"
+        },
+        {
+          "en": "The end of elections",
+          "as": "নিৰ্বাচনৰ অন্ত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The abolition of dyarchy in the provinces was a feature of the Government of India Act 1935.",
+        "as": "প্ৰদেশসমূহত দ্বৈত শাসনৰ বিলুপ্তি ১৯৩৫ চনৰ ভাৰত শাসন আইনৰ এটা বৈশিষ্ট্য আছিল।"
+      }
+    },
+    {
+      "id": "ratio-proportion-064",
+      "q": {
+        "en": "If the ratio of the sides of two squares is 2 : 3, the ratio of their areas is —",
+        "as": "দুটা বৰ্গৰ বাহুৰ অনুপাত 2 : 3 হ'লে সিহঁতৰ কালিৰ অনুপাত —"
+      },
+      "options": [
+        {
+          "en": "2 : 3",
+          "as": "২ : ৩"
+        },
+        {
+          "en": "4 : 9",
+          "as": "৪ : ৯"
+        },
+        {
+          "en": "8 : 27",
+          "as": "৮ : ২৭"
+        },
+        {
+          "en": "16 : 81",
+          "as": "১৬ : ৮১"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The ratio of areas is the square of the ratio of sides: 4 : 9.",
+        "as": "কালিৰ অনুপাত বাহুৰ অনুপাতৰ বৰ্গ: 4 : 9।"
+      }
+    },
+    {
+      "id": "assam-india-current-affairs-218",
+      "q": {
+        "en": "Where did India host the first SCO Civilisational Dialogue Forum announcement take place?",
+        "as": "ভাৰতে প্ৰথম এছচিঅ' সভ্যতা সংলাপ মঞ্চৰ ঘোষণা ক'ত কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "New Delhi, India",
+          "as": "নতুন দিল্লী, ভাৰত"
+        },
+        {
+          "en": "Tianjin, China",
+          "as": "টিয়াঞ্জিন, চীন"
+        },
+        {
+          "en": "Moscow, Russia",
+          "as": "মস্কো, ৰাছিয়া"
+        },
+        {
+          "en": "Dushanbe, Tajikistan",
+          "as": "দুশানবে, তাজিকিস্তান"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The announcement was made at the SCO meeting in Dushanbe, Tajikistan.",
+        "as": "ঘোষণাটো তাজিকিস্তানৰ দুশানবেত এছচিঅ' বৈঠকত কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "time-work-058",
+      "q": {
+        "en": "A can do a work in 6 days and B in 12 days. They work together for 2 days; the work remaining is —",
+        "as": "A এটা কাম 6 দিনত আৰু B 12 দিনত কৰিব পাৰে। সিহঁতে 2 দিন একেলগে কাম কৰিলে বাকী থকা কাম —"
+      },
+      "options": [
+        {
+          "en": "1/2",
+          "as": "১/২"
+        },
+        {
+          "en": "1/3",
+          "as": "১/৩"
+        },
+        {
+          "en": "2/3",
+          "as": "২/৩"
+        },
+        {
+          "en": "3/4",
+          "as": "৩/৪"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In 2 days they do 2 x (1/6 + 1/12) = 2 x 1/4 = 1/2, so 1/2 remains.",
+        "as": "2 দিনত সিহঁতে 2 x (1/6 + 1/12) = 2 x 1/4 = 1/2 কৰে, গতিকে 1/2 বাকী থাকে।"
+      }
+    },
+    {
+      "id": "indian-history-medieval-349",
+      "q": {
+        "en": "Which medieval Indian kingdom was ruled by the Kakatiya dynasty?",
+        "as": "কাকতীয় বংশই কোন মধ্যযুগীয় ভাৰতীয় ৰাজ্য শাসন কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Bengal",
+          "as": "বংগ"
+        },
+        {
+          "en": "Warangal",
+          "as": "ৱাৰাংগল"
+        },
+        {
+          "en": "Gujarat",
+          "as": "গুজৰাট"
+        },
+        {
+          "en": "Malwa",
+          "as": "মালৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Kakatiya dynasty ruled Warangal in the Deccan.",
+        "as": "কাকতীয় বংশই দাক্ষিণাত্যৰ ৱাৰাংগল শাসন কৰিছিল।"
+      }
+    },
+    {
+      "id": "fill-in-the-blanks-254",
+      "q": {
+        "en": "Fill in the blank: She is afraid ___ making mistakes.",
+        "as": "তাই ভুল কৰিবলৈ ভয় কৰে।"
+      },
+      "options": [
+        {
+          "en": "from",
+          "as": "from"
+        },
+        {
+          "en": "of",
+          "as": "of"
+        },
+        {
+          "en": "to",
+          "as": "to"
+        },
+        {
+          "en": "with",
+          "as": "with"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct word is 'of'.",
+        "as": "শুদ্ধ শব্দটো হৈছে 'of'।"
+      }
+    },
+    {
+      "id": "partnership-058",
+      "q": {
+        "en": "A invests Rs 5000 for the whole year and B joins after 6 months with Rs 10000. The yearly profit is Rs 8000. Find the share of B.",
+        "as": "A এ গোটেই বছৰ Rs 5000 বিনিয়োগ কৰে আৰু B এ ৬ মাহৰ পিছত Rs 10000 লগাই। বছৰৰ লাভ Rs 8000। B ৰ ভাগ উলিয়াওক।"
+      },
+      "options": [
+        {
+          "en": "Rs 2000",
+          "as": "২০০০ টকা"
+        },
+        {
+          "en": "Rs 5000",
+          "as": "৫০০০ টকা"
+        },
+        {
+          "en": "Rs 6000",
+          "as": "৬০০০ টকা"
+        },
+        {
+          "en": "Rs 4000",
+          "as": "৪০০০ টকা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A : B = 5000 x 12 : 10000 x 6 = 1 : 1, so B gets 8000 x 1/2 = Rs 4000.",
+        "as": "A : B = 5000 x 12 : 10000 x 6 = 1 : 1, গতিকে B ৰ ভাগ = 8000 x 1/2 = Rs 4000।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-248",
+      "q": {
+        "en": "The Sustainable Development Goals were adopted by the United Nations in —",
+        "as": "ৰাষ্ট্ৰসংঘই স্থায়ী উন্নয়ন লক্ষ্য কেতিয়া গ্ৰহণ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "2015",
+          "as": "২০১৫"
+        },
+        {
+          "en": "2000",
+          "as": "২০০০"
+        },
+        {
+          "en": "2010",
+          "as": "২০১০"
+        },
+        {
+          "en": "2020",
+          "as": "২০২০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The SDGs were adopted in 2015.",
+        "as": "SDG বোৰ ২০১৫ চনত গ্ৰহণ কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "assamese-literature-278",
+      "q": {
+        "en": "Which Assamese writer is known for the short-story collection 'Ashanta Electron' and 'Golam'?",
+        "as": "কোন অসমীয়া লেখক চুটি গল্প-সংকলন 'অশান্ত ইলেক্ট্ৰন' আৰু 'গোলাম'ৰ বাবে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Mahim Bora",
+          "as": "মহিম বৰা"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        },
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Homen Borgohain",
+          "as": "হোমেন বৰগোহাঞি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Saurabh Kumar Chaliha wrote Ashanta Electron and Golam.",
+        "as": "সৌৰভ কুমাৰ চলিহাই অশান্ত ইলেক্ট্ৰন আৰু গোলাম লিখিছিল।"
+      }
+    },
+    {
+      "id": "average-061",
+      "q": {
+        "en": "The average of 9 numbers is 12. If the average of the first five is 10, the average of the last four is —",
+        "as": "9 টা সংখ্যাৰ গড় 12। প্ৰথম পাঁচটাৰ গড় 10 হ'লে শেষৰ চাৰিটাৰ গড় —"
+      },
+      "options": [
+        {
+          "en": "14.5",
+          "as": "১৪.৫"
+        },
+        {
+          "en": "14",
+          "as": "১৪"
+        },
+        {
+          "en": "13",
+          "as": "১৩"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Total = 108 and the first five sum to 50, so the rest average 58 / 4 = 14.5.",
+        "as": "মুঠ = 108 আৰু প্ৰথম পাঁচটাৰ সমষ্টি 50, গতিকে বাকীবোৰৰ গড় 58 / 4 = 14.5।"
+      }
+    },
+    {
+      "id": "assertion-reason-042",
+      "q": {
+        "en": "Assertion (A): Sound is heard louder near the source.\nReason (R): Sound spreads in all directions and weakens with distance.",
+        "as": "দাবী (A): Sound is heard louder near the source.\nকাৰণ (R): Sound spreads in all directions and weakens with distance."
+      },
+      "options": [
+        {
+          "en": "Both are true but R does not explain A",
+          "as": "দুয়োটা সঁচা কিন্তু R এ A ব্যাখ্যা নকৰে"
+        },
+        {
+          "en": "Both A and R are true and R explains A",
+          "as": "A আৰু R দুয়োটা সঁচা আৰু R এ A ব্যাখ্যা কৰে"
+        },
+        {
+          "en": "A is true but R is false",
+          "as": "A সঁচা কিন্তু R অসঁচা"
+        },
+        {
+          "en": "A is false but R is true",
+          "as": "A অসঁচা কিন্তু R সঁচা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Spreading and weakening with distance is why it is louder near the source.",
+        "as": "চাৰিওফালে বিয়পি দূৰত্বৰ সৈতে দুৰ্বল হোৱাৰ বাবেই ওচৰত জোৰে শুনা যায়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-292",
+      "q": {
+        "en": "'Demonetisation' in India in 2016 involved the withdrawal of —",
+        "as": "২০১৬ চনত ভাৰতত 'নোট বাতিল'ত কাৰ প্ৰত্যাহাৰ জড়িত আছিল?"
+      },
+      "options": [
+        {
+          "en": "500 and 1000 rupee notes",
+          "as": "৫০০ আৰু ১০০০ টকীয়া নোট"
+        },
+        {
+          "en": "100 rupee notes",
+          "as": "১০০ টকীয়া নোট"
+        },
+        {
+          "en": "2000 rupee notes",
+          "as": "২০০০ টকীয়া নোট"
+        },
+        {
+          "en": "50 rupee notes",
+          "as": "৫০ টকীয়া নোট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Demonetisation in 2016 withdrew 500 and 1000 rupee notes.",
+        "as": "২০১৬ চনৰ নোট বাতিলে ৫০০ আৰু ১০০০ টকীয়া নোট প্ৰত্যাহাৰ কৰিছিল।"
+      }
+    },
+    {
+      "id": "data-interpretation-054",
+      "q": {
+        "en": "A student scored 55, 60, 65, 50, 58 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+        "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 55, 60, 65, 50, 58 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+      },
+      "options": [
+        {
+          "en": "288%",
+          "as": "২৮৮%"
+        },
+        {
+          "en": "57.6%",
+          "as": "৫৭.৬%"
+        },
+        {
+          "en": "50%",
+          "as": "৫০%"
+        },
+        {
+          "en": "62.6%",
+          "as": "৬২.৬%"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Percentage = (288 / 500) x 100 = 57.6%.",
+        "as": "শতাংশ = (288 / 500) x 100 = 57.6%।"
+      }
+    },
+    {
+      "id": "brahmaputra-barak-265",
+      "q": {
+        "en": "Which city is located on the bank of the Brahmaputra and is called the Gateway to North East India?",
+        "as": "কোন চহৰ ব্ৰহ্মপুত্ৰৰ পাৰত অৱস্থিত আৰু উত্তৰ-পূব ভাৰতৰ প্ৰৱেশদ্বাৰ বুলি কোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Tezpur",
+          "as": "তেজপুৰ"
+        },
+        {
+          "en": "Silchar",
+          "as": "শিলচৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Guwahati, on the Brahmaputra, is called the Gateway to North East India.",
+        "as": "ব্ৰহ্মপুত্ৰৰ পাৰত অৱস্থিত গুৱাহাটীক উত্তৰ-পূব ভাৰতৰ প্ৰৱেশদ্বাৰ বোলা হয়।"
+      }
+    },
+    {
+      "id": "assam-folk-culture-223",
+      "q": {
+        "en": "Which Assamese festival is celebrated with the traditional sport of egg fighting?",
+        "as": "কোন অসমীয়া উৎসৱ পৰম্পৰাগত কণী যুঁজৰ খেলৰ সৈতে পালন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Raas",
+          "as": "ৰাস"
+        },
+        {
+          "en": "Bohag Bihu",
+          "as": "ব'হাগ বিহু"
+        },
+        {
+          "en": "Magh Bihu",
+          "as": "মাঘ বিহু"
+        },
+        {
+          "en": "Kati Bihu",
+          "as": "কাতি বিহু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Egg fighting is a traditional Magh Bihu sport.",
+        "as": "কণী যুঁজ মাঘ বিহুৰ এটা পৰম্পৰাগত খেল।"
+      }
+    },
+    {
+      "id": "assam-history-medieval-327",
+      "q": {
+        "en": "Which of the following was a major cause of the Moamoria rebellion's success?",
+        "as": "মোৱামৰীয়া বিদ্ৰোহৰ সফলতাৰ এটা প্ৰধান কাৰণ তলৰ কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "Widespread discontent and the weakening of Ahom authority",
+          "as": "ব্যাপক অসন্তুষ্টি আৰু আহোম কৰ্তৃত্বৰ দুৰ্বলতা"
+        },
+        {
+          "en": "Foreign support",
+          "as": "বিদেশী সমৰ্থন"
+        },
+        {
+          "en": "Modern weapons",
+          "as": "আধুনিক অস্ত্ৰ"
+        },
+        {
+          "en": "Naval power",
+          "as": "নৌশক্তি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Widespread discontent and the weakening of Ahom authority led to the initial success of the Moamoria rebellion.",
+        "as": "ব্যাপক অসন্তুষ্টি আৰু আহোম কৰ্তৃত্বৰ দুৰ্বলতাই মোৱামৰীয়া বিদ্ৰোহৰ প্ৰাৰম্ভিক সফলতা আনিছিল।"
+      }
+    },
+    {
+      "id": "awards-honours-287",
+      "q": {
+        "en": "Which of the following is the disaster management award of India?",
+        "as": "তলৰ কোনটো ভাৰতৰ দুৰ্যোগ ব্যৱস্থাপনা বঁটা?"
+      },
+      "options": [
+        {
+          "en": "Indira Gandhi Peace Prize",
+          "as": "ইন্দিৰা গান্ধী শান্তি বঁটা"
+        },
+        {
+          "en": "Yudh Seva Medal",
+          "as": "যুদ্ধ সেৱা মেডেল"
+        },
+        {
+          "en": "Subhash Chandra Bose Aapda Prabandhan Puraskar",
+          "as": "সুভাষ চন্দ্ৰ বসু আপদ প্ৰবন্ধন পুৰস্কাৰ"
+        },
+        {
+          "en": "Filmfare Award",
+          "as": "ফিল্মফেয়াৰ বঁটা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Subhash Chandra Bose Aapda Prabandhan Puraskar is the disaster management award of India.",
+        "as": "সুভাষ চন্দ্ৰ বসু আপদ প্ৰবন্ধন পুৰস্কাৰ ভাৰতৰ দুৰ্যোগ ব্যৱস্থাপনা বঁটা।"
+      }
+    },
+    {
+      "id": "india-rivers-mountains-states-340",
+      "q": {
+        "en": "The Amaravati river finally drains into which water body?",
+        "as": "অমৰাৱতী নদী শেষত কোন জলাশয়ত পৰে?"
+      },
+      "options": [
+        {
+          "en": "Indus",
+          "as": "সিন্ধু"
+        },
+        {
+          "en": "Chambal",
+          "as": "চম্বল"
+        },
+        {
+          "en": "Ghaghara",
+          "as": "ঘাঘৰা"
+        },
+        {
+          "en": "Kaveri",
+          "as": "কাবেৰী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Amaravati drains into the Kaveri.",
+        "as": "অমৰাৱতী কাবেৰীত পৰে।"
+      }
+    },
+    {
+      "id": "number-alphabet-series-080",
+      "q": {
+        "en": "Find the wrong term in the series: D, G, J, M, O",
+        "as": "শৃংখলাটোত ভুল পদটো বিচাৰক: D, G, J, M, O"
+      },
+      "options": [
+        {
+          "en": "D",
+          "as": "D"
+        },
+        {
+          "en": "J",
+          "as": "J"
+        },
+        {
+          "en": "G",
+          "as": "G"
+        },
+        {
+          "en": "O",
+          "as": "O"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The letters move three steps forward; O is wrong and should be P.",
+        "as": "আখৰবোৰ তিনিখোজ আগলৈ যায়; O ভুল, ইয়াৰ ঠাইত P হ'ব লাগে।"
+      }
+    },
+    {
+      "id": "assam-history-modern-269",
+      "q": {
+        "en": "Which Assamese leader was a prominent Congress Chief Minister in the 1950s and 1960s?",
+        "as": "১৯৫০ আৰু ১৯৬০ৰ দশকত এজন বিশিষ্ট কংগ্ৰেছ মুখ্যমন্ত্ৰী কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Bimala Prasad Chaliha",
+          "as": "বিমলা প্ৰসাদ চলিহা"
+        },
+        {
+          "en": "Prafulla Kumar Mahanta",
+          "as": "প্ৰফুল্ল কুমাৰ মহন্ত"
+        },
+        {
+          "en": "Hiteswar Saikia",
+          "as": "হিতেশ্বৰ শইকীয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bimala Prasad Chaliha was a prominent Congress Chief Minister of Assam in the 1950s and 1960s.",
+        "as": "বিমলা প্ৰসাদ চলিহা ১৯৫০ আৰু ১৯৬০ৰ দশকত অসমৰ এজন বিশিষ্ট কংগ্ৰেছ মুখ্যমন্ত্ৰী আছিল।"
+      }
+    },
+    {
+      "id": "assam-history-medieval-309",
+      "q": {
+        "en": "Which of the following was a major Ahom source of historical information?",
+        "as": "আহোমৰ ঐতিহাসিক তথ্যৰ এটা প্ৰধান উৎস তলৰ কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "Foreign newspapers",
+          "as": "বিদেশী বাতৰি কাকত"
+        },
+        {
+          "en": "Coins only",
+          "as": "কেৱল মুদ্ৰা"
+        },
+        {
+          "en": "The Buranjis",
+          "as": "বুৰঞ্জীসমূহ"
+        },
+        {
+          "en": "Stone tools",
+          "as": "শিলৰ সঁজুলি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Buranjis, royal chronicles, are the major source of Ahom history.",
+        "as": "বুৰঞ্জীসমূহ, ৰাজকীয় ইতিহাস, আহোম ইতিহাসৰ প্ৰধান উৎস।"
+      }
+    },
+    {
+      "id": "indian-geography-320",
+      "q": {
+        "en": "Which state of India receives the highest rainfall?",
+        "as": "কোন ভাৰতীয় ৰাজ্যই আটাইতকৈ বেছি বৰষুণ পায়?"
+      },
+      "options": [
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "West Bengal",
+          "as": "পশ্চিমবংগ"
+        },
+        {
+          "en": "Kerala",
+          "as": "কেৰালা"
+        },
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Meghalaya receives the highest rainfall in India.",
+        "as": "মেঘালয়ই ভাৰতত আটাইতকৈ বেছি বৰষুণ পায়।"
+      }
+    },
+    {
+      "id": "assam-natural-resources-250",
+      "q": {
+        "en": "Which natural resource of Assam is used for silk production?",
+        "as": "অসমৰ কোন প্ৰাকৃতিক সম্পদ ৰেচম উৎপাদনত ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Jute",
+          "as": "পাট"
+        },
+        {
+          "en": "Silkworm",
+          "as": "ৰেচম পোক"
+        },
+        {
+          "en": "Wool",
+          "as": "ঊণ"
+        },
+        {
+          "en": "Cotton",
+          "as": "কপাহ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Silkworms are reared for silk production in Assam.",
+        "as": "অসমত ৰেচম উৎপাদনৰ বাবে ৰেচম পোক প্ৰতিপালন কৰা হয়।"
+      }
+    },
+    {
+      "id": "indian-history-modern-320",
+      "q": {
+        "en": "In which year was Subhas Chandra Bose first elected Congress president?",
+        "as": "সুভাষ চন্দ্ৰ বসু প্ৰথমে কিমান চনত কংগ্ৰেছ সভাপতি নিৰ্বাচিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1939 CE",
+          "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1938 CE",
+          "as": "১৯৩৮ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1937 CE",
+          "as": "১৯৩৭ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1940 CE",
+          "as": "১৯৪০ খ্ৰীষ্টাব্দ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Subhas Chandra Bose was first elected Congress president in 1938.",
+        "as": "সুভাষ চন্দ্ৰ বসু প্ৰথমে ১৯৩৮ চনত কংগ্ৰেছ সভাপতি নিৰ্বাচিত হৈছিল।"
+      }
+    },
+    {
+      "id": "error-detection-300",
+      "q": {
+        "en": "Find the error in the sentence: She is the older of the two sisters.",
+        "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is the older of the two sisters."
+      },
+      "options": [
+        {
+          "en": "sisters",
+          "as": "sisters"
+        },
+        {
+          "en": "She",
+          "as": "She"
+        },
+        {
+          "en": "is",
+          "as": "is"
+        },
+        {
+          "en": "older",
+          "as": "older"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'older' is wrong here; it should be 'elder'. 'Elder' is used for family relations.",
+        "as": "ইয়াত 'older' ভুল; 'elder' হোৱা উচিত। পৰিয়ালৰ সম্পৰ্কৰ বাবে 'elder' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "important-days-dates-369",
+      "q": {
+        "en": "Good Governance Day is observed to mark which of the following?",
+        "as": "সুশাসন দিৱস কিসৰ স্মৃতিত পালন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Atal Bihari Vajpayee",
+          "as": "অটল বিহাৰী বাজপেয়ী"
+        },
+        {
+          "en": "the Ramsar Convention",
+          "as": "ৰামছাৰ সন্মিলন"
+        },
+        {
+          "en": "Major Dhyan Chand",
+          "as": "মেজৰ ধ্যানচান্দ"
+        },
+        {
+          "en": "the founding of the Election Commission of India",
+          "as": "ভাৰতৰ নিৰ্বাচন আয়োগৰ প্ৰতিষ্ঠা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Good Governance Day marks Atal Bihari Vajpayee.",
+        "as": "সুশাসন দিৱস অটল বিহাৰী বাজপেয়ীৰ স্মৃতিত পালন কৰা হয়।"
+      }
+    },
+    {
+      "id": "geometry-129",
+      "q": {
+        "en": "A quadrilateral whose opposite sides are parallel and equal is a ?",
+        "as": "যি চতুৰ্ভুজৰ বিপৰীত বাহু সমান্তৰাল আৰু সমান সেয়া ?"
+      },
+      "options": [
+        {
+          "en": "parallelogram",
+          "as": "parallelogram"
+        },
+        {
+          "en": "trapezium",
+          "as": "trapezium"
+        },
+        {
+          "en": "rhombus",
+          "as": "rhombus"
+        },
+        {
+          "en": "kite",
+          "as": "kite"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A parallelogram has both pairs of opposite sides parallel and equal.",
+        "as": "সমান্তৰালকৰ্ণৰ দুয়োযোৰ বিপৰীত বাহু সমান্তৰাল আৰু সমান।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-323",
+      "q": {
+        "en": "Which is a major challenge to the economy of the North East?",
+        "as": "উত্তৰ-পূবৰ অৰ্থনীতিৰ এটা প্ৰধান প্ৰত্যাহ্বান কি?"
+      },
+      "options": [
+        {
+          "en": "Excess rainfall only",
+          "as": "কেৱল অত্যধিক বৰষুণ"
+        },
+        {
+          "en": "Excess industry",
+          "as": "অতিরিক্ত উদ্যোগ"
+        },
+        {
+          "en": "Poor connectivity",
+          "as": "দুৰ্বল সংযোগ"
+        },
+        {
+          "en": "High population density",
+          "as": "উচ্চ জনঘনত্ব"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Poor connectivity is a major challenge.",
+        "as": "দুৰ্বল সংযোগ এটা প্ৰধান প্ৰত্যাহ্বান।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-315",
+      "q": {
+        "en": "The 'demographic dividend' refers to the advantage of a —",
+        "as": "'জনসংখ্যাগত লভ্যাংশ'এ কাৰ সুবিধালৈ ইংগিত কৰে?"
+      },
+      "options": [
+        {
+          "en": "small population",
+          "as": "ক্ষুদ্ৰ জনসংখ্যা"
+        },
+        {
+          "en": "aging population",
+          "as": "বৃদ্ধ জনসংখ্যা"
+        },
+        {
+          "en": "urban population",
+          "as": "চহৰীয়া জনসংখ্যা"
+        },
+        {
+          "en": "large young working population",
+          "as": "বৃহৎ যুৱ কৰ্মশক্তিসম্পন্ন জনসংখ্যা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The demographic dividend is the advantage of a large young workforce.",
+        "as": "জনসংখ্যাগত লভ্যাংশ হৈছে বৃহৎ যুৱ কৰ্মশক্তিৰ সুবিধা।"
+      }
+    },
+    {
+      "id": "mensuration-2d-138",
+      "q": {
+        "en": "The radius of a circle is 56 cm. Its circumference (pi = 22/7) is —",
+        "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 56 ছেমি। পৰিধি (pi = 22/7) —"
+      },
+      "options": [
+        {
+          "en": "9856 cm",
+          "as": "৯৮৫৬ ছেমি"
+        },
+        {
+          "en": "352 cm",
+          "as": "৩৫২ ছেমি"
+        },
+        {
+          "en": "704 cm",
+          "as": "৭০৪ ছেমি"
+        },
+        {
+          "en": "363 cm",
+          "as": "৩৬৩ ছেমি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Circumference = 2 pi r = 2 x (22/7) x 56 = 352 cm.",
+        "as": "পৰিধি = 2 pi r = 2 x (22/7) x 56 = 352 ছেমি।"
+      }
+    },
+    {
+      "id": "data-sufficiency-050",
+      "q": {
+        "en": "Question: What is the total number of runs scored by the team? Statement I: The team scored 250 in the first innings. Statement II: The team scored 300 in the second innings. Which statement is sufficient to answer the question?",
+        "as": "প্ৰশ্ন: What is the total number of runs scored by the team? বিবৃতি I: The team scored 250 in the first innings. বিবৃতি II: The team scored 300 in the second innings. প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি যথেষ্ট?"
+      },
+      "options": [
+        {
+          "en": "Neither statement is sufficient",
+          "as": "এটাও বিবৃতি যথেষ্ট নহয়"
+        },
+        {
+          "en": "Statement I alone is sufficient",
+          "as": "কেৱল বিবৃতি I যথেষ্ট"
+        },
+        {
+          "en": "Statement II alone is sufficient",
+          "as": "কেৱল বিবৃতি II যথেষ্ট"
+        },
+        {
+          "en": "Both statements together are sufficient",
+          "as": "দুয়োটা বিবৃতি একেলগে যথেষ্ট"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "I gives the first innings and II gives the second; together the total is 550.",
+        "as": "I এ প্ৰথম ইনিংছ আৰু II এ দ্বিতীয় দিয়ে; একেলগে মুঠ 550।"
+      }
+    },
+    {
+      "id": "shape-construction-grouping-070",
+      "q": {
+        "en": "How many small triangles are needed to build a bigger triangle of side 3?",
+        "as": "বাহু 3 ৰ ডাঙৰ ত্ৰিভুজ বনাবলৈ কিমানটা সৰু ত্ৰিভুজ লাগে?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A triangle of side 3 holds 9 unit triangles.",
+        "as": "বাহু 3 ৰ ত্ৰিভুজত 9 টা একক ত্ৰিভুজ থাকে।"
+      }
+    },
+    {
+      "id": "government-schemes-268",
+      "q": {
+        "en": "Who are the main beneficiaries of National Apprenticeship Promotion Scheme?",
+        "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+      },
+      "options": [
+        {
+          "en": "tourists and tourism workers",
+          "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+        },
+        {
+          "en": "apprentices",
+          "as": "শিক্ষানবিশ"
+        },
+        {
+          "en": "school students",
+          "as": "বিদ্যালয়ৰ শিক্ষাৰ্থী"
+        },
+        {
+          "en": "infrastructure sectors",
+          "as": "আন্তঃগাঁথনি খণ্ড"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The main beneficiaries of National Apprenticeship Promotion Scheme are apprentices.",
+        "as": "ৰাষ্ট্ৰীয় শিক্ষানবিশ প্ৰচাৰ আঁচনিৰ প্ৰধান উপকাৰী শিক্ষানবিশ।"
+      }
+    },
+    {
+      "id": "assam-history-ancient-339",
+      "q": {
+        "en": "Which ancient Kamarupa king is credited with the earliest known mention of Assamese sculpture?",
+        "as": "অসমীয়া ভাস্কৰ্যৰ আটাইতকৈ প্ৰাচীন জনা উল্লেখৰ কৃতিত্ব কোন প্ৰাচীন কামৰূপ ৰজাৰ?"
+      },
+      "options": [
+        {
+          "en": "Tyagasimha",
+          "as": "ত্যাগসিংহ"
+        },
+        {
+          "en": "Pushyavarman",
+          "as": "পুষ্যভৰ্মন"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মন"
+        },
+        {
+          "en": "Brahmapala",
+          "as": "ব্ৰহ্মপাল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Stone and bronze sculpture of the Mlechchha-Pala period is the root of Assamese sculptural traditions.",
+        "as": "ম্লেচ্ছ-পাল কালৰ শিল আৰু ব্ৰঞ্জৰ ভাস্কৰ্য অসমীয়া ভাস্কৰ্য পৰম্পৰাৰ মূল।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-333",
+      "q": {
+        "en": "Assam's industrial growth is closely linked to its —",
+        "as": "অসমৰ উদ্যোগিক বৃদ্ধি ইয়াৰ সৈতে ঘনিষ্ঠভাৱে জড়িত —"
+      },
+      "options": [
+        {
+          "en": "foreign aid",
+          "as": "বিদেশী সাহায্য"
+        },
+        {
+          "en": "natural resources",
+          "as": "প্ৰাকৃতিক সম্পদ"
+        },
+        {
+          "en": "imports",
+          "as": "আমদানি"
+        },
+        {
+          "en": "tourism only",
+          "as": "কেৱল পৰ্যটন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Industrial growth is linked to natural resources.",
+        "as": "উদ্যোগিক বৃদ্ধি প্ৰাকৃতিক সম্পদৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "id": "assam-national-parks-250",
+      "q": {
+        "en": "In which year was Bherjan-Borajan-Padumoni Wildlife Sanctuary established?",
+        "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য কিমান চনত প্ৰতিষ্ঠা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "2000",
+          "as": "2000"
+        },
+        {
+          "en": "1999",
+          "as": "1999"
+        },
+        {
+          "en": "1996",
+          "as": "1996"
+        },
+        {
+          "en": "1998",
+          "as": "1998"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary was established in 1999.",
+        "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য 1999 চনত প্ৰতিষ্ঠা হৈছিল।"
+      }
+    },
+    {
+      "id": "assam-history-modern-298",
+      "q": {
+        "en": "Which Assamese city is known for the Assam Agricultural University and Tocklai?",
+        "as": "অসম কৃষি বিশ্ববিদ্যালয় আৰু টকলাইৰ বাবে কোন অসমীয়া চহৰ জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Silchar",
+          "as": "শিলচৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Jorhat is known for the Assam Agricultural University and the Tocklai Tea Research Institute.",
+        "as": "যোৰহাট অসম কৃষি বিশ্ববিদ্যালয় আৰু টকলাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ বাবে জনা যায়।"
+      }
+    },
+    {
+      "id": "brahmaputra-barak-275",
+      "q": {
+        "en": "Which is the principal east-west national highway of Assam?",
+        "as": "অসমৰ প্ৰধান পূব-পশ্চিম ৰাষ্ট্ৰীয় ঘাইপথ কোন?"
+      },
+      "options": [
+        {
+          "en": "NH-37",
+          "as": "এন এইচ-৩৭"
+        },
+        {
+          "en": "NH-6",
+          "as": "এন এইচ-৬"
+        },
+        {
+          "en": "NH-27",
+          "as": "এন এইচ-২৭"
+        },
+        {
+          "en": "NH-15",
+          "as": "এন এইচ-১৫"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "NH-27 is the principal east-west highway of Assam.",
+        "as": "এন এইচ-২৭ অসমৰ প্ৰধান পূব-পশ্চিম ঘাইপথ।"
+      }
+    },
+    {
+      "id": "percentage-068",
+      "q": {
+        "en": "If 40% of the students in a school are girls and there are 480 girls, the number of boys is —",
+        "as": "এখন বিদ্যালয়ৰ 40% ছাত্ৰী আৰু 480 জনী ছোৱালী থাকিলে ল'ৰাৰ সংখ্যা —"
+      },
+      "options": [
+        {
+          "en": "600",
+          "as": "৬০০"
+        },
+        {
+          "en": "680",
+          "as": "৬৮০"
+        },
+        {
+          "en": "750",
+          "as": "৭৫০"
+        },
+        {
+          "en": "720",
+          "as": "৭২০"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Total = 1,200 and boys = 60% = 720.",
+        "as": "মুঠ = 1,200 আৰু ল'ৰা = 60% = 720।"
+      }
+    },
+    {
+      "id": "sentence-rearrangement-252",
+      "q": {
+        "en": "Arrange the parts to form a meaningful sentence: (1) early in the morning (2) The farmer (3) milked (4) the cow.",
+        "as": "অৰ্থপূৰ্ণ বাক্য গঠন কৰিবলৈ অংশবোৰ সজাওক: (1) ৰাতিপুৱা সোনকালে (2) কৃষকে (3) দুধিলে (4) গৰুটোক।"
+      },
+      "options": [
+        {
+          "en": "1-2-3-4",
+          "as": "১-২-৩-৪"
+        },
+        {
+          "en": "2-3-4-1",
+          "as": "২-৩-৪-১"
+        },
+        {
+          "en": "4-1-2-3",
+          "as": "৪-১-২-৩"
+        },
+        {
+          "en": "3-4-1-2",
+          "as": "৩-৪-১-২"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct sentence is 'The farmer milked the cow early in the morning.', i.e. 2-3-4-1.",
+        "as": "শুদ্ধ বাক্য হ'ল 'The farmer milked the cow early in the morning.', অৰ্থাৎ ২-৩-৪-১।"
+      }
+    },
+    {
+      "id": "statistics-105",
+      "q": {
+        "en": "The average of 1 items each worth 20 and 3 items each worth 60 is —",
+        "as": "1 টা 20 মূল্যৰ আৰু 3 টা 60 মূল্যৰ বস্তুৰ গড় —"
+      },
+      "options": [
+        {
+          "en": "50",
+          "as": "৫০"
+        },
+        {
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "en": "80",
+          "as": "৮০"
+        },
+        {
+          "en": "60",
+          "as": "৬০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Weighted average = (1 x 20 + 3 x 60) / (1 + 3) = 50.",
+        "as": "ভাৰিত গড় = (1 x 20 + 3 x 60) / (1 + 3) = 50।"
+      }
+    },
+    {
+      "id": "indian-history-medieval-328",
+      "q": {
+        "en": "Which medieval Indian temple city is a UNESCO World Heritage Site?",
+        "as": "কোন মধ্যযুগীয় ভাৰতীয় মন্দিৰ চহৰ ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ?"
+      },
+      "options": [
+        {
+          "en": "Delhi",
+          "as": "দিল্লী"
+        },
+        {
+          "en": "Hampi",
+          "as": "হাম্পি"
+        },
+        {
+          "en": "Agra",
+          "as": "আগ্ৰা"
+        },
+        {
+          "en": "Lahore",
+          "as": "লাহোৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Hampi is a UNESCO World Heritage Site.",
+        "as": "হাম্পি এটা ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ।"
+      }
+    },
+    {
+      "id": "indian-history-modern-319",
+      "q": {
+        "en": "In which year did Subhas Chandra Bose resign as Congress president?",
+        "as": "সুভাষ চন্দ্ৰ বসুৱে কিমান চনত কংগ্ৰেছ সভাপতিৰ পদৰ পৰা পদত্যাগ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "1938 CE",
+          "as": "১৯৩৮ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1940 CE",
+          "as": "১৯৪০ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1942 CE",
+          "as": "১৯৪২ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1939 CE",
+          "as": "১৯৩৯ খ্ৰীষ্টাব্দ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Subhas Chandra Bose resigned as Congress president in 1939.",
+        "as": "সুভাষ চন্দ্ৰ বসুৱে ১৯৩৯ চনত কংগ্ৰেছ সভাপতিৰ পদৰ পৰা পদত্যাগ কৰিছিল।"
+      }
+    },
+    {
+      "id": "figure-analogy-067",
+      "q": {
+        "en": "In the figure analogy A : B :: C : ?, A is related to B in a certain way. Choose the figure that replaces the question mark.",
+        "as": "চিত্ৰৰ সাদৃশ্য A : B :: C : ? ত A ৰ লগত B এটা নিৰ্দিষ্ট সম্পৰ্কত আছে। প্ৰশ্নবোধক চিহ্নৰ ঠাইত থব লগা চিত্ৰটো বাছক।"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><line x1=\"44.697\" y1=\"55.303\" x2=\"71.213\" y2=\"28.787\" stroke=\"#334155\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><polygon points=\"71.213,28.787 68.257,41.387 58.613,31.743\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"0.6\" stroke-linejoin=\"round\"/></g></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><line x1=\"44.697\" y1=\"44.697\" x2=\"71.213\" y2=\"71.213\" stroke=\"#334155\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><polygon points=\"71.213,71.213 58.613,68.257 68.257,58.613\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"0.6\" stroke-linejoin=\"round\"/></g></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><line x1=\"50\" y1=\"57.5\" x2=\"50\" y2=\"20\" stroke=\"#334155\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><polygon points=\"50,20 56.82,31 43.18,31\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"0.6\" stroke-linejoin=\"round\"/></g></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.1)\"><line x1=\"55.303\" y1=\"55.303\" x2=\"28.787\" y2=\"28.787\" stroke=\"#334155\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><polygon points=\"28.787,28.787 41.387,31.743 31.743,41.387\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"0.6\" stroke-linejoin=\"round\"/></g></svg>"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 352 236\" width=\"352\" height=\"236\"><rect x=\"1\" y=\"1\" width=\"350\" height=\"234\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><line x1=\"50\" y1=\"57.5\" x2=\"50\" y2=\"20\" stroke=\"#334155\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><polygon points=\"50,20 56.82,31 43.18,31\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"0.6\" stroke-linejoin=\"round\"/></g><text x=\"176\" y=\"73\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">:</text><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><line x1=\"44.697\" y1=\"55.303\" x2=\"71.213\" y2=\"28.787\" stroke=\"#334155\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><polygon points=\"71.213,28.787 68.257,41.387 58.613,31.743\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"0.6\" stroke-linejoin=\"round\"/></g><rect x=\"10\" y=\"126\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,126)\"><line x1=\"50\" y1=\"57.5\" x2=\"50\" y2=\"20\" stroke=\"#334155\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><polygon points=\"50,20 56.82,31 43.18,31\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"0.6\" stroke-linejoin=\"round\"/></g><text x=\"176\" y=\"189\" font-size=\"34\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">:</text><text x=\"292\" y=\"192\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+      "explanation": {
+        "en": "The arrow turns 45 degrees clockwise between the first two figures, so the answer turns the same way.",
+        "as": "প্ৰথম দুটা চিত্ৰৰ মাজত তীৰখন 45 ডিগ্ৰী ঘড়ীৰ দিশত ঘূৰে, গতিকে উত্তৰো একেই দিশে ঘূৰে।"
+      }
+    },
+    {
+      "id": "indian-geography-306",
+      "q": {
+        "en": "Which is the largest island of India in the Arabian Sea?",
+        "as": "আৰৱ সাগৰত ভাৰতৰ আটাইতকৈ ডাঙৰ দ্বীপ কোন?"
+      },
+      "options": [
+        {
+          "en": "Kavaratti",
+          "as": "কাভাৰত্তী"
+        },
+        {
+          "en": "Lakshadweep",
+          "as": "লাক্ষাদ্বীপ"
+        },
+        {
+          "en": "Minicoy",
+          "as": "মিনিকয়"
+        },
+        {
+          "en": "Bangaram",
+          "as": "বাংগাৰম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Lakshadweep is the largest island group of India in the Arabian Sea.",
+        "as": "লাক্ষাদ্বীপ আৰৱ সাগৰত ভাৰতৰ আটাইতকৈ ডাঙৰ দ্বীপপুঞ্জ।"
+      }
+    },
+    {
+      "id": "venn-diagrams-053",
+      "q": {
+        "en": "In a survey of 120, 70 read English and 60 read Hindi. If 30 read both, how many read only English?",
+        "as": "১২০ জনৰ সমীক্ষাত ৭০ জনে ইংৰাজী আৰু ৬০ জনে হিন্দী পঢ়ে। ৩০ জনে দুয়োটা পঢ়ে। কেৱল ইংৰাজী কিমানজনে পঢ়ে?"
+      },
+      "options": [
+        {
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "en": "20",
+          "as": "২০"
+        },
+        {
+          "en": "50",
+          "as": "৫০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Only English = 70 − 30 = 40.",
+        "as": "কেৱল ইংৰাজী = 70 − 30 = 40।"
+      }
+    },
+    {
+      "id": "subject-verb-agreement-061",
+      "q": {
+        "en": "Choose the correct verb: Either of the two roads ___ to the town.",
+        "as": "শুদ্ধ ক্ৰিয়া বাছনি কৰা: Either of the two roads ___ to the town."
+      },
+      "options": [
+        {
+          "en": "leads",
+          "as": "লৈ যায় (leads)"
+        },
+        {
+          "en": "lead",
+          "as": "লৈ যায়"
+        },
+        {
+          "en": "are leading",
+          "as": "লৈ যাই আছে"
+        },
+        {
+          "en": "have led",
+          "as": "লৈ গৈছে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Either takes a singular verb, so leads is used.",
+        "as": "Either য়ে একবচন ক্ৰিয়া লয়, গতিকে leads লয়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-283",
+      "q": {
+        "en": "Which is the largest component of India's service sector exports?",
+        "as": "ভাৰতৰ সেৱা খণ্ডৰ ৰপ্তানিত আটাইতকৈ বৃহৎ উপাদান কি?"
+      },
+      "options": [
+        {
+          "en": "Software and IT services",
+          "as": "চফ্টৱেৰ আৰু আইটি সেৱা"
+        },
+        {
+          "en": "Tourism",
+          "as": "পৰ্যটন"
+        },
+        {
+          "en": "Banking",
+          "as": "বেংকিং"
+        },
+        {
+          "en": "Shipping",
+          "as": "জাহাজ চলাচল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Software and IT services dominate India's service exports.",
+        "as": "চফ্টৱেৰ আৰু আইটি সেৱাই ভাৰতৰ সেৱা ৰপ্তানিৰ প্ৰাধান্য লাভ কৰিছে।"
+      }
+    },
+    {
+      "id": "awards-honours-282",
+      "q": {
+        "en": "Subhash Chandra Bose Aapda Prabandhan Puraskar is which award of India?",
+        "as": "সুভাষ চন্দ্ৰ বসু আপদ প্ৰবন্ধন পুৰস্কাৰ ভাৰতৰ কোন বঁটা?"
+      },
+      "options": [
+        {
+          "en": "adventure award",
+          "as": "অভিযান বঁটা"
+        },
+        {
+          "en": "disaster management award",
+          "as": "দুৰ্যোগ ব্যৱস্থাপনা বঁটা"
+        },
+        {
+          "en": "national film award",
+          "as": "ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটা"
+        },
+        {
+          "en": "literary award",
+          "as": "সাহিত্য বঁটা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Subhash Chandra Bose Aapda Prabandhan Puraskar is the disaster management award of India.",
+        "as": "সুভাষ চন্দ্ৰ বসু আপদ প্ৰবন্ধন পুৰস্কাৰ ভাৰতৰ দুৰ্যোগ ব্যৱস্থাপনা বঁটা।"
+      }
+    },
+    {
+      "id": "clock-calendar-044",
+      "q": {
+        "en": "How many times does a clock's minute hand rotate in 12 hours?",
+        "as": "১২ ঘণ্টাত মিনিটৰ কাঁটা কিমানবাৰ ঘূৰে?"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The minute hand makes one full rotation each hour, so 12 in 12 hours.",
+        "as": "মিনিটৰ কাঁটা প্ৰতি ঘণ্টাত এপাক, গতিকে ১২ ঘণ্টাত ১২ পাক।"
+      }
+    },
+    {
+      "id": "profit-loss-059",
+      "q": {
+        "en": "The profit per cent when the cost price of 8 articles equals the selling price of 10 articles is —",
+        "as": "8 টা সামগ্ৰীৰ ক্ৰয় মূল্য 10 টা সামগ্ৰীৰ বিক্ৰয় মূল্যৰ সমান হ'লে শতকৰা —"
+      },
+      "options": [
+        {
+          "en": "20% profit",
+          "as": "২০% লাভ"
+        },
+        {
+          "en": "25% profit",
+          "as": "২৫% লাভ"
+        },
+        {
+          "en": "25% loss",
+          "as": "২৫% লোকচান"
+        },
+        {
+          "en": "20% loss",
+          "as": "২০% লোকচান"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "SP < CP, so there is a loss of (10 - 8)/10 x 100 = 20%.",
+        "as": "বিক্ৰয় মূল্য < ক্ৰয় মূল্য, গতিকে (10 - 8)/10 x 100 = 20% লোকচান।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-313",
+      "q": {
+        "en": "Which of the following is a feature of a developing economy like India?",
+        "as": "তলৰ কোনটো ভাৰতৰ দৰে এখন উন্নয়নশীল অৰ্থনীতিৰ বৈশিষ্ট্য?"
+      },
+      "options": [
+        {
+          "en": "High per capita income",
+          "as": "উচ্চ মাথাপিছু আয়"
+        },
+        {
+          "en": "Low per capita income",
+          "as": "নিম্ন মাথাপিছু আয়"
+        },
+        {
+          "en": "Full employment",
+          "as": "পূৰ্ণ নিয়োগ"
+        },
+        {
+          "en": "Zero poverty",
+          "as": "শূন্য দৰিদ্ৰতা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Low per capita income is a feature of a developing economy.",
+        "as": "নিম্ন মাথাপিছু আয় উন্নয়নশীল অৰ্থনীতিৰ এটা বৈশিষ্ট্য।"
+      }
+    },
+    {
+      "id": "government-schemes-244",
+      "q": {
+        "en": "Who are the main beneficiaries of Pradhan Mantri Krishi Sinchayee Yojana?",
+        "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনাৰ প্ৰধান উপকাৰী কোন?"
+      },
+      "options": [
+        {
+          "en": "girl children",
+          "as": "কন্যা শিশু"
+        },
+        {
+          "en": "youth",
+          "as": "যুৱক-যুৱতী"
+        },
+        {
+          "en": "farmers in water-stressed areas",
+          "as": "জলসংকটীয় অঞ্চলৰ কৃষক"
+        },
+        {
+          "en": "farmers",
+          "as": "কৃষক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The main beneficiaries of Pradhan Mantri Krishi Sinchayee Yojana are farmers.",
+        "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চয়ী যোজনাৰ প্ৰধান উপকাৰী কৃষক।"
+      }
+    },
+    {
+      "id": "prepositions-059",
+      "q": {
+        "en": "Choose the correct preposition: He is ___ the habit of smoking.",
+        "as": "শুদ্ধ অনুসৰ্গ বাছনি কৰা: He is ___ the habit of smoking."
+      },
+      "options": [
+        {
+          "en": "on",
+          "as": "ওপৰত"
+        },
+        {
+          "en": "at",
+          "as": "ত (at)"
+        },
+        {
+          "en": "in",
+          "as": "ত"
+        },
+        {
+          "en": "of",
+          "as": "ৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "In the habit of is the fixed expression.",
+        "as": "In the habit of এটা নিৰ্দিষ্ট বাক্যাংশ।"
+      }
+    },
+    {
+      "id": "indian-history-medieval-282",
+      "q": {
+        "en": "Which Mughal emperor granted trading rights to the English East India Company?",
+        "as": "কোন মোগল সম্ৰাটে ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানীক বাণিজ্য অধিকাৰ প্ৰদান কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Akbar",
+          "as": "আকবৰ"
+        },
+        {
+          "en": "Shah Jahan",
+          "as": "শাহজাহান"
+        },
+        {
+          "en": "Jahangir",
+          "as": "জাহাঙ্গীৰ"
+        },
+        {
+          "en": "Aurangzeb",
+          "as": "আওৰাংজেব"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Jahangir granted trading rights to the English East India Company.",
+        "as": "জাহাঙ্গীৰে ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানীক বাণিজ্য অধিকাৰ প্ৰদান কৰিছিল।"
+      }
+    },
+    {
+      "id": "indian-geography-296",
+      "q": {
+        "en": "Which is the largest steel plant of India in the private sector?",
+        "as": "ব্যক্তিগত খণ্ডত ভাৰতৰ আটাইতকৈ ডাঙৰ ইস্পাত কাৰখানা কোন?"
+      },
+      "options": [
+        {
+          "en": "Rourkela",
+          "as": "ৰাউৰকেলা"
+        },
+        {
+          "en": "Bhilai",
+          "as": "ভিলাই"
+        },
+        {
+          "en": "Bokaro",
+          "as": "বোকাৰো"
+        },
+        {
+          "en": "Jamshedpur (TISCO)",
+          "as": "জামছেদপুৰ (টিছকো)"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "TISCO at Jamshedpur is the largest private sector steel plant of India.",
+        "as": "জামছেদপুৰৰ টিছকো ভাৰতৰ আটাইতকৈ ডাঙৰ ব্যক্তিগত খণ্ডৰ ইস্পাত কাৰখানা।"
+      }
+    },
+    {
+      "id": "sports-292",
+      "q": {
+        "en": "The BWF World Championships is a competition in which sport?",
+        "as": "বিডব্লিউএফ বিশ্ব চেম্পিয়নশ্বিপ কোন খেলৰ এটা প্ৰতিযোগিতা?"
+      },
+      "options": [
+        {
+          "en": "boxing",
+          "as": "বক্সিং"
+        },
+        {
+          "en": "hockey",
+          "as": "হকী"
+        },
+        {
+          "en": "football",
+          "as": "ফুটবল"
+        },
+        {
+          "en": "badminton",
+          "as": "বেডমিণ্টন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The BWF World Championships is a competition in badminton.",
+        "as": "বিডব্লিউএফ বিশ্ব চেম্পিয়নশ্বিপ বেডমিণ্টনৰ এটা প্ৰতিযোগিতা।"
+      }
+    },
+    {
+      "id": "india-rivers-mountains-states-349",
+      "q": {
+        "en": "The Pennar river finally drains into which water body?",
+        "as": "পেন্নাৰ নদী শেষত কোন জলাশয়ত পৰে?"
+      },
+      "options": [
+        {
+          "en": "Bay of Bengal",
+          "as": "বংগোপসাগৰ"
+        },
+        {
+          "en": "Damodar",
+          "as": "দামোদৰ"
+        },
+        {
+          "en": "Kaveri",
+          "as": "কাবেৰী"
+        },
+        {
+          "en": "Mahanadi",
+          "as": "মহানদী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Pennar drains into the Bay of Bengal.",
+        "as": "পেন্নাৰ বংগোপসাগৰত পৰে।"
+      }
+    },
+    {
+      "id": "brahmaputra-barak-249",
+      "q": {
+        "en": "The Brahmaputra is formed near Sadiya by the confluence of which rivers?",
+        "as": "শদিয়াৰ ওচৰত কোন নদীবোৰৰ সংগমত ব্ৰহ্মপুত্ৰ গঠিত হয়?"
+      },
+      "options": [
+        {
+          "en": "Dihang, Dibang and Lohit",
+          "as": "দিহাং, ডিবাং আৰু লোহিত"
+        },
+        {
+          "en": "Lohit, Kopili and Dhansiri",
+          "as": "লোহিত, কপিলী আৰু ধনশিৰি"
+        },
+        {
+          "en": "Dihang, Subansiri and Manas",
+          "as": "দিহাং, সোৱণশিৰি আৰু মানস"
+        },
+        {
+          "en": "Barak, Sonai and Katakhal",
+          "as": "বৰাক, চোনাই আৰু কটাখাল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Dihang, Dibang and Lohit meet near Sadiya to form the Brahmaputra.",
+        "as": "দিহাং, ডিবাং আৰু লোহিতে শদিয়াৰ ওচৰত মিলি ব্ৰহ্মপুত্ৰ গঠন কৰে।"
+      }
+    },
+    {
+      "id": "boats-and-streams-072",
+      "q": {
+        "en": "A boat covers 45 km downstream and 45 km upstream. Its downstream speed is 20 km/h and upstream speed is 10 km/h. The total time taken is —",
+        "as": "এখন নাৱে সোঁতৰ দিশত 45 km আৰু বিপৰীত দিশত 45 km যায়। সোঁতৰ দিশত গতি 20 km/h আৰু বিপৰীত গতি 10 km/h। মুঠ সময় —"
+      },
+      "options": [
+        {
+          "en": "2 hours",
+          "as": "২ ঘণ্টা"
+        },
+        {
+          "en": "4 hours",
+          "as": "৪ ঘণ্টা"
+        },
+        {
+          "en": "7 hours",
+          "as": "৭ ঘণ্টা"
+        },
+        {
+          "en": "6 hours",
+          "as": "৬ ঘণ্টা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Time downstream = 45 / 20 = 2 h and upstream = 45 / 10 = 4 h, so the total is 6 hours.",
+        "as": "সোঁতৰ দিশত সময় = 45 / 20 = 2 ঘণ্টা আৰু বিপৰীত = 45 / 10 = 4 ঘণ্টা, মুঠ 6 ঘণ্টা।"
+      }
+    },
+    {
+      "id": "awards-honours-286",
+      "q": {
+        "en": "Which statement about the Subhash Chandra Bose Aapda Prabandhan Puraskar is correct?",
+        "as": "সুভাষ চন্দ্ৰ বসু আপদ প্ৰবন্ধন পুৰস্কাৰ ৰ বিষয়ে কোনটো বক্তব্য শুদ্ধ?"
+      },
+      "options": [
+        {
+          "en": "it is given to outstanding coaches",
+          "as": "ই অসাধাৰণ প্ৰশিক্ষকসকলক দিয়া হয়"
+        },
+        {
+          "en": "it is given for disaster management work",
+          "as": "ই দুৰ্যোগ ব্যৱস্থাপনাৰ কামৰ বাবে দিয়া হয়"
+        },
+        {
+          "en": "it is a gallantry award of the Indian Navy",
+          "as": "ই ভাৰতীয় নৌসেনাৰ এটা বীৰত্ব বঁটা"
+        },
+        {
+          "en": "it is given for distinguished service",
+          "as": "ই বিশিষ্ট সেৱাৰ বাবে দিয়া হয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Subhash Chandra Bose Aapda Prabandhan Puraskar: it is given for disaster management work.",
+        "as": "সুভাষ চন্দ্ৰ বসু আপদ প্ৰবন্ধন পুৰস্কাৰ: ই দুৰ্যোগ ব্যৱস্থাপনাৰ কামৰ বাবে দিয়া হয়।"
+      }
+    },
+    {
+      "id": "indian-history-ancient-315",
+      "q": {
+        "en": "Who was the ruler of Kannauj who reunited much of North India after the Guptas?",
+        "as": "গুপ্তসকলৰ পিছত উত্তৰ ভাৰতৰ বহু অংশ পুনৰ একত্ৰিত কৰা কনৌজৰ শাসক কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Ashoka",
+          "as": "অশোক"
+        },
+        {
+          "en": "Kanishka",
+          "as": "কনিষ্ক"
+        },
+        {
+          "en": "Harshavardhana",
+          "as": "হৰ্ষবৰ্ধন"
+        },
+        {
+          "en": "Samudragupta",
+          "as": "সমুদ্ৰগুপ্ত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Harshavardhana reunited much of North India after the decline of the Guptas.",
+        "as": "গুপ্তসকলৰ অৱনতিৰ পিছত হৰ্ষবৰ্ধনে উত্তৰ ভাৰতৰ বহু অংশ পুনৰ একত্ৰিত কৰিছিল।"
+      }
+    },
+    {
+      "id": "assam-india-current-affairs-259",
+      "q": {
+        "en": "Which Indian museum was the only one in the 2026 world's 100 best museums list?",
+        "as": "২০২৬ চনৰ বিশ্বৰ ১০০ শ্ৰেষ্ঠ সংগ্ৰহালয় তালিকাত কোন ভাৰতীয় সংগ্ৰহালয় একমাত্ৰ আছিল?"
+      },
+      "options": [
+        {
+          "en": "Salar Jung Museum",
+          "as": "ছালাৰ জঙ সংগ্ৰহালয়"
+        },
+        {
+          "en": "Bihar Museum",
+          "as": "বিহাৰ সংগ্ৰহালয়"
+        },
+        {
+          "en": "Indian Museum",
+          "as": "ভাৰতীয় সংগ্ৰহালয়"
+        },
+        {
+          "en": "National Museum",
+          "as": "ৰাষ্ট্ৰীয় সংগ্ৰহালয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Bihar Museum was the only Indian museum in the 2026 list.",
+        "as": "বিহাৰ সংগ্ৰহালয় ২০২৬ তালিকাত একমাত্ৰ ভাৰতীয় সংগ্ৰহালয় আছিল।"
+      }
+    },
+    {
+      "id": "indian-history-medieval-284",
+      "q": {
+        "en": "Which European traveller wrote about Mughal India in the 17th century?",
+        "as": "১৭ শতিকাত কোন ইউৰোপীয় পৰিব্ৰাজকে মোগল ভাৰতৰ বিষয়ে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Ibn Battuta",
+          "as": "ইবনে বতুতা"
+        },
+        {
+          "en": "Al-Biruni",
+          "as": "আল-বীৰুনী"
+        },
+        {
+          "en": "Marco Polo",
+          "as": "মাৰ্কো পোলো"
+        },
+        {
+          "en": "Francois Bernier",
+          "as": "ফ্ৰাঙ্কোৱা বাৰ্নিয়াৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Francois Bernier, a French traveller, wrote about Mughal India.",
+        "as": "ফ্ৰাঙ্কোৱা বাৰ্নিয়াৰ, এজন ফৰাচী পৰিব্ৰাজক, মোগল ভাৰতৰ বিষয়ে লিখিছিল।"
+      }
+    },
+    {
+      "id": "assam-national-parks-255",
+      "q": {
+        "en": "Is Bherjan-Borajan-Padumoni Wildlife Sanctuary a wildlife sanctuary of Assam?",
+        "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য অসমৰ অভয়াৰণ্য হয়নে?"
+      },
+      "options": [
+        {
+          "en": "No, it is a biosphere reserve",
+          "as": "নহয়, ই এটা জীৱমণ্ডল সংৰক্ষিত অঞ্চল"
+        },
+        {
+          "en": "No, it is a reserve forest",
+          "as": "নহয়, ই এটা সংৰক্ষিত বন"
+        },
+        {
+          "en": "Yes, it is a wildlife sanctuary",
+          "as": "হয়, ই এটা অভয়াৰণ্য"
+        },
+        {
+          "en": "No, it is a national park",
+          "as": "নহয়, ই এটা ৰাষ্ট্ৰীয় উদ্যান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Yes, Bherjan-Borajan-Padumoni Wildlife Sanctuary is a wildlife sanctuary of Assam.",
+        "as": "হয়, ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য অসমৰ এটা অভয়াৰণ্য।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-300",
+      "q": {
+        "en": "Which is the largest source of non-tax revenue for the Union Government?",
+        "as": "সংঘ চৰকাৰৰ অ-কৰ আয়ৰ সৰ্ববৃহৎ উৎস কি?"
+      },
+      "options": [
+        {
+          "en": "Fees",
+          "as": "শুল্ক"
+        },
+        {
+          "en": "Fines",
+          "as": "জৰিমনা"
+        },
+        {
+          "en": "Grants",
+          "as": "অনুদান"
+        },
+        {
+          "en": "Dividends from public sector enterprises",
+          "as": "ৰাজহুৱা খণ্ডৰ উদ্যোগৰ পৰা লভ্যাংশ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Dividends from PSUs are a large non-tax revenue source.",
+        "as": "ৰাজহুৱা খণ্ডৰ উদ্যোগৰ লভ্যাংশ এটা বৃহৎ অ-কৰ আয়ৰ উৎস।"
+      }
+    },
+    {
+      "id": "important-days-dates-326",
+      "q": {
+        "en": "When is International Day of Persons with Disabilities celebrated in India?",
+        "as": "ভাৰতত আন্তৰ্জাতিক প্ৰতিবন্ধী ব্যক্তি দিৱস কেতিয়া পালন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "1 July",
+          "as": "১ জুলাই"
+        },
+        {
+          "en": "3 December",
+          "as": "৩ ডিচেম্বৰ"
+        },
+        {
+          "en": "24 April",
+          "as": "২৪ এপ্ৰিল"
+        },
+        {
+          "en": "14 December",
+          "as": "১৪ ডিচেম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "International Day of Persons with Disabilities is celebrated on 3 December.",
+        "as": "আন্তৰ্জাতিক প্ৰতিবন্ধী ব্যক্তি দিৱস ৩ ডিচেম্বৰ তাৰিখে পালন কৰা হয়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-304",
+      "q": {
+        "en": "The 'Contingency Fund of India' is placed at the disposal of the —",
+        "as": "'ভাৰতৰ আপদকালীন নিধি' কাৰ অধীনত ৰখা হয়?"
+      },
+      "options": [
+        {
+          "en": "Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "Finance Minister",
+          "as": "বিত্ত মন্ত্ৰী"
+        },
+        {
+          "en": "RBI",
+          "as": "আৰবিআই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Contingency Fund is at the disposal of the President.",
+        "as": "আপদকালীন নিধি ৰাষ্ট্ৰপতিৰ অধীনত ৰখা হয়।"
+      }
+    },
+    {
+      "id": "assam-history-modern-305",
+      "q": {
+        "en": "Which Assamese community is known for the 'Ali-Ai-Ligang' festival?",
+        "as": "কোন অসমীয়া সমাজ 'আলি-আই-লৃগাং' উৎসৱৰ বাবে জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "The Mishing community",
+          "as": "মিচিং সমাজ"
+        },
+        {
+          "en": "The Bodo community",
+          "as": "বড়ো সমাজ"
+        },
+        {
+          "en": "The Rabha community",
+          "as": "ৰাভা সমাজ"
+        },
+        {
+          "en": "The Karbi community",
+          "as": "কাৰ্বি সমাজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Mishing community of Assam celebrates the Ali-Ai-Ligang festival.",
+        "as": "অসমৰ মিচিং সমাজে আলি-আই-লৃগাং উৎসৱ উদযাপন কৰে।"
+      }
+    },
+    {
+      "id": "cause-effect-054",
+      "q": {
+        "en": "Statement I: The government banned fishing in the breeding season.\nStatement II: Fish numbers increased next year.",
+        "as": "বিবৃতি I: The government banned fishing in the breeding season.\nবিবৃতি II: Fish numbers increased next year."
+      },
+      "options": [
+        {
+          "en": "Both statements are effects of a common cause",
+          "as": "দুয়োটা বিবৃতিয়েই এটা সাধাৰণ কাৰণৰ ফলাফল"
+        },
+        {
+          "en": "Both statements are independent causes",
+          "as": "দুয়োটা বিবৃতিয়েই স্বাধীন কাৰণ"
+        },
+        {
+          "en": "Statement II is the cause and I is its effect",
+          "as": "II কাৰণ আৰু I ইয়াৰ ফলাফল"
+        },
+        {
+          "en": "Statement I is the cause and II is its effect",
+          "as": "I কাৰণ আৰু II ইয়াৰ ফলাফল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Protecting breeding raises fish numbers, so II is the effect.",
+        "as": "প্ৰজনন ৰক্ষাই মাছ বঢ়ায়, গতিকে II ফলাফল।"
+      }
+    },
+    {
+      "id": "problems-on-ages-060",
+      "q": {
+        "en": "The present age of a man is 4 times his son's age. After 10 years the sum of their ages will be 80. The son's present age is —",
+        "as": "এজন মানুহৰ বৰ্তমান বয়স তেওঁৰ পুত্ৰৰ বয়সৰ 4 গুণ। 10 বছৰৰ পিছত সিহঁতৰ বয়সৰ যোগফল 80 হ'ব। পুত্ৰৰ বৰ্তমান বয়স —"
+      },
+      "options": [
+        {
+          "en": "12 years",
+          "as": "১২ বছৰ"
+        },
+        {
+          "en": "10 years",
+          "as": "১০ বছৰ"
+        },
+        {
+          "en": "14 years",
+          "as": "১৪ বছৰ"
+        },
+        {
+          "en": "16 years",
+          "as": "১৬ বছৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Present sum = 60, so 5x = 60 and x = 12.",
+        "as": "বৰ্তমান যোগফল = 60, গতিকে 5x = 60 আৰু x = 12।"
+      }
+    },
+    {
+      "id": "assam-folk-culture-268",
+      "q": {
+        "en": "Which Assamese traditional garment is a small scarf worn by Bodo women?",
+        "as": "কোন অসমীয়া পৰম্পৰাগত পোছাক বড়ো মহিলাসকলে পিন্ধা সৰু স্কাৰ্ফ?"
+      },
+      "options": [
+        {
+          "en": "Mekhela",
+          "as": "মেখেলা"
+        },
+        {
+          "en": "Gamosa",
+          "as": "গামোচা"
+        },
+        {
+          "en": "Chador",
+          "as": "চাদৰ"
+        },
+        {
+          "en": "Riha",
+          "as": "ৰিহা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Riha is the small scarf worn by Bodo women with the Dokhona.",
+        "as": "ৰিহা দখনাৰ সৈতে বড়ো মহিলাসকলে পিন্ধা সৰু স্কাৰ্ফ।"
+      }
+    },
+    {
+      "id": "narration-071",
+      "q": {
+        "en": "Change into indirect speech: She said, \"I may not come today.\"",
+        "as": "পৰোক্ষ উক্তি কৰা: She said, \"I may not come today.\""
+      },
+      "options": [
+        {
+          "en": "She said that she may not come today.",
+          "as": "তাই ক'লে যে তাই আজি নাহিবও পাৰে।"
+        },
+        {
+          "en": "She said that she might not come today.",
+          "as": "তাই ক'লে যে তাই আজি নাহিবও পাৰে (today)।"
+        },
+        {
+          "en": "She said that she might not come that day.",
+          "as": "তাই ক'লে যে তাই সেইদিনা নাহিবও পাৰে।"
+        },
+        {
+          "en": "She said that I might not come that day.",
+          "as": "তাই ক'লে যে মই সেইদিনা নাহিবও পাৰোঁ।"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "May becomes might and today becomes that day.",
+        "as": "May ৰ ৰূপ might আৰু today ৰ ৰূপ that day হয়।"
+      }
+    },
+    {
+      "id": "sports-242",
+      "q": {
+        "en": "Rajyavardhan Singh Rathore is best known for which of the following?",
+        "as": "ৰাজ্যৱৰ্ধন সিং ৰাথোৰ তলৰ কোনটোৰ বাবে সৰ্বাধিক জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "her Olympic weightlifting medal",
+          "as": "তেওঁৰ অলিম্পিক ভাৰউত্তোলন পদক"
+        },
+        {
+          "en": "India's first individual Olympic silver",
+          "as": "ভাৰতৰ প্ৰথম ব্যক্তিগত অলিম্পিক ৰূপ"
+        },
+        {
+          "en": "his goal-scoring for India",
+          "as": "ভাৰতৰ বাবে তেওঁৰ গ'ল দিয়া"
+        },
+        {
+          "en": "his world titles in billiards and snooker",
+          "as": "বিলিয়াৰ্ডছ আৰু স্নুকাৰত তেওঁৰ বিশ্ব খিতাপ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Rajyavardhan Singh Rathore is known for India's first individual Olympic silver.",
+        "as": "ৰাজ্যৱৰ্ধন সিং ৰাথোৰ ভাৰতৰ প্ৰথম ব্যক্তিগত অলিম্পিক ৰূপৰ বাবে জনাজাত।"
+      }
+    },
+    {
+      "id": "pipes-and-cisterns-066",
+      "q": {
+        "en": "A leak empties a full tank in 20 hours. With the inlet pipe filling the tank in 10 hours and the leak open, the tank fills in —",
+        "as": "এটা চুৰিয়ে পূৰ্ণ চৌবাচ্চা ২০ ঘণ্টাত ৰিক্ত কৰে। অন্তৰ্গামী নলে ১০ ঘণ্টাত ভৰ্তি কৰে; চুৰি খোলা থাকিলে চৌবাচ্চা —"
+      },
+      "options": [
+        {
+          "en": "10 hours",
+          "as": "১০ ঘণ্টা"
+        },
+        {
+          "en": "15 hours",
+          "as": "১৫ ঘণ্টা"
+        },
+        {
+          "en": "30 hours",
+          "as": "৩০ ঘণ্টা"
+        },
+        {
+          "en": "20 hours",
+          "as": "২০ ঘণ্টা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Net rate = 1/10 - 1/20 = 1/20, so the tank fills in 20 hours.",
+        "as": "নিকা হাৰ = 1/10 - 1/20 = 1/20, গতিকে চৌবাচ্চা ২০ ঘণ্টাত ভৰ্তি হয়।"
+      }
+    },
+    {
+      "id": "input-output-machine-047",
+      "q": {
+        "en": "Input: 38, 82, 64, 27, 76. Step I arranges the numbers in ascending order. What is the sum of the first two numbers in Step I?",
+        "as": "ইনপুট: 38, 82, 64, 27, 76। স্তৰ I এ সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমত সজায়। স্তৰ I ত প্ৰথম দুটা সংখ্যাৰ যোগফল কিমান?"
+      },
+      "options": [
+        {
+          "en": "102",
+          "as": "102"
+        },
+        {
+          "en": "91",
+          "as": "91"
+        },
+        {
+          "en": "66",
+          "as": "66"
+        },
+        {
+          "en": "65",
+          "as": "65"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Ascending order is 27, 38, 64, 76, 82, so the first two are 27 and 38, summing to 65.",
+        "as": "ঊৰ্ধ্বক্ৰম 27, 38, 64, 76, 82, গতিকে প্ৰথম দুটা 27 আৰু 38, যোগফল 65।"
+      }
+    },
+    {
+      "id": "world-history-305",
+      "q": {
+        "en": "Who was the Chinese traveller who visited India during Chandragupta II's reign?",
+        "as": "চন্দ্ৰগুপ্ত দ্বিতীয়ৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰা চীনা পৰিব্ৰাজক কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Fa-Hien",
+          "as": "ফা-হিয়েন"
+        },
+        {
+          "en": "Hiuen Tsang",
+          "as": "হিউৱেন চাং"
+        },
+        {
+          "en": "Ibn Battuta",
+          "as": "ইবনে বতুতা"
+        },
+        {
+          "en": "Al-Biruni",
+          "as": "আল-বীৰুনী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Fa-Hien visited India during Chandragupta II's reign.",
+        "as": "ফা-হিয়েন চন্দ্ৰগুপ্ত দ্বিতীয়ৰ ৰাজত্বকালত ভাৰত ভ্ৰমণ কৰিছিল।"
+      }
+    },
+    {
+      "id": "assam-history-ancient-329",
+      "q": {
+        "en": "Which ancient Kamarupa king is credited with the earliest known mention of the Assamese language?",
+        "as": "অসমীয়া ভাষাৰ আটাইতকৈ প্ৰাচীন জনা উল্লেখৰ কৃতিত্ব কোন প্ৰাচীন কামৰূপ ৰজাৰ?"
+      },
+      "options": [
+        {
+          "en": "Brahmapala",
+          "as": "ব্ৰহ্মপাল"
+        },
+        {
+          "en": "Pushyavarman",
+          "as": "পুষ্যভৰ্মন"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মন"
+        },
+        {
+          "en": "Sandhya",
+          "as": "সন্ধ্যা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Kamarupi Prakrit of the Kamarupa period is the earliest form of the Assamese language.",
+        "as": "কামৰূপ কালৰ কামৰূপী প্ৰাকৃত অসমীয়া ভাষাৰ আটাইতকৈ প্ৰাচীন ৰূপ।"
+      }
+    },
+    {
+      "id": "statement-conclusions-049",
+      "q": {
+        "en": "Statement: All clocks show time. Some clocks are digital.\nConclusions: I. Some digital things show time. II. All things that show time are clocks.",
+        "as": "বিবৃতি: All clocks show time. Some clocks are digital.\nসিদ্ধান্ত: I. Some digital things show time. II. All things that show time are clocks."
+      },
+      "options": [
+        {
+          "en": "Neither I nor II follows",
+          "as": "I বা II কোনোটোৱেই গ্ৰহণযোগ্য নহয়"
+        },
+        {
+          "en": "Only conclusion II follows",
+          "as": "কেৱল সিদ্ধান্ত II ওলায়"
+        },
+        {
+          "en": "Only conclusion I follows",
+          "as": "কেৱল সিদ্ধান্ত I ওলায়"
+        },
+        {
+          "en": "Both I and II follow",
+          "as": "I আৰু II দুয়োটা গ্ৰহণযোগ্য"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Digital clocks show time, so I follows; II does not.",
+        "as": "ডিজিটেল ঘড়ীয়ে সময় দেখুৱায়, গতিকে I ওলায়; II নোলায়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-260",
+      "q": {
+        "en": "Which is the largest public sector undertaking of India by revenue?",
+        "as": "আয়ৰ ভিত্তিত ভাৰতৰ সৰ্ববৃহৎ ৰাজহুৱা খণ্ডৰ উদ্যোগ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Indian Oil Corporation",
+          "as": "ইণ্ডিয়ান অয়েল কৰ্পোৰেশ্যন"
+        },
+        {
+          "en": "BHEL",
+          "as": "বিএইচইএল"
+        },
+        {
+          "en": "SAIL",
+          "as": "ছেইল"
+        },
+        {
+          "en": "GAIL",
+          "as": "গেইল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Indian Oil Corporation is among the largest PSUs by revenue.",
+        "as": "ইণ্ডিয়ান অয়েল কৰ্পোৰেশ্যন আয়ৰ ভিত্তিত সৰ্ববৃহৎ ৰাজহুৱা খণ্ডৰ উদ্যোগৰ এটা।"
+      }
+    },
+    {
+      "id": "voice-change-057",
+      "q": {
+        "en": "Change to active: He was given a prize by the headmaster.",
+        "as": "সকৰ্মবাচ্যলৈ সলনি কৰা: He was given a prize by the headmaster."
+      },
+      "options": [
+        {
+          "en": "The headmaster gave him a prize.",
+          "as": "প্ৰধান শিক্ষকে তেওঁক এটা পুৰস্কাৰ দিছিল।"
+        },
+        {
+          "en": "The headmaster gives him a prize.",
+          "as": "প্ৰধান শিক্ষকে তেওঁক এটা পুৰস্কাৰ দিয়ে।"
+        },
+        {
+          "en": "The headmaster is giving him a prize.",
+          "as": "প্ৰধান শিক্ষকে তেওঁক এটা পুৰস্কাৰ দি আছে।"
+        },
+        {
+          "en": "The headmaster has given him a prize.",
+          "as": "প্ৰধান শিক্ষকে তেওঁক এটা পুৰস্কাৰ দিছে।"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Was given shows past simple, so the active is gave.",
+        "as": "Was given য়ে অতীত সাধাৰণ দেখুৱায়, গতিকে সকৰ্মবাচ্য gave।"
+      }
+    },
+    {
+      "id": "sports-290",
+      "q": {
+        "en": "The Sultan Azlan Shah Cup is a competition in which sport?",
+        "as": "চুলতান আজলান শ্বাহ কাপ কোন খেলৰ এটা প্ৰতিযোগিতা?"
+      },
+      "options": [
+        {
+          "en": "cricket",
+          "as": "ক্ৰিকেট"
+        },
+        {
+          "en": "hockey",
+          "as": "হকী"
+        },
+        {
+          "en": "football",
+          "as": "ফুটবল"
+        },
+        {
+          "en": "tennis",
+          "as": "টেনিছ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Sultan Azlan Shah Cup is a competition in hockey.",
+        "as": "চুলতান আজলান শ্বাহ কাপ হকীৰ এটা প্ৰতিযোগিতা।"
+      }
+    },
+    {
+      "id": "assamese-literature-247",
+      "q": {
+        "en": "Which Assamese writer received the Sahitya Akademi Award for the novel 'Jangam'?",
+        "as": "কোন অসমীয়া লেখকে 'জংগম' উপন্যাসৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Syed Abdul Malik",
+          "as": "চৈয়দ আব্দুল মালিক"
+        },
+        {
+          "en": "Mahim Bora",
+          "as": "মহিম বৰা"
+        },
+        {
+          "en": "Homen Borgohain",
+          "as": "হোমেন বৰগোহাঞি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mahim Bora won the Sahitya Akademi Award for Jangam.",
+        "as": "মহিম বৰাই জংগমৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+      }
+    },
+    {
+      "id": "surds-and-indices-075",
+      "q": {
+        "en": "sqrt(7) x sqrt(28) = ?",
+        "as": "sqrt(7) x sqrt(28) = ?"
+      },
+      "options": [
+        {
+          "en": "196",
+          "as": "১৯৬"
+        },
+        {
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "en": "14",
+          "as": "১৪"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "sqrt(a) x sqrt(b) = sqrt(ab), so sqrt(7 x 28) = sqrt(196) = 14.",
+        "as": "sqrt(a) x sqrt(b) = sqrt(ab), গতিকে sqrt(7 x 28) = sqrt(196) = 14।"
+      }
+    },
+    {
+      "id": "assam-national-parks-245",
+      "q": {
+        "en": "On which bank of the Brahmaputra is Amchang Wildlife Sanctuary located?",
+        "as": "আমচাং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "south",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "east",
+          "as": "পূব"
+        },
+        {
+          "en": "central",
+          "as": "মধ্য"
+        },
+        {
+          "en": "west",
+          "as": "পশ্চিম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Amchang Wildlife Sanctuary is on the south bank of the Brahmaputra.",
+        "as": "আমচাং অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-240",
+      "q": {
+        "en": "Economic growth differs from economic development because development also includes —",
+        "as": "অৰ্থনৈতিক বৃদ্ধি অৰ্থনৈতিক উন্নয়নতকৈ পৃথক কাৰণ উন্নয়নত কি অন্তৰ্ভুক্ত?"
+      },
+      "options": [
+        {
+          "en": "qualitative and social improvements",
+          "as": "গুণগত আৰু সামাজিক উন্নতি"
+        },
+        {
+          "en": "only higher output",
+          "as": "কেৱল অধিক উৎপাদন"
+        },
+        {
+          "en": "only higher prices",
+          "as": "কেৱল অধিক মূল্য"
+        },
+        {
+          "en": "only more money",
+          "as": "কেৱল অধিক মুদ্ৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Development includes qualitative and social improvements.",
+        "as": "উন্নয়নত গুণগত আৰু সামাজিক উন্নতি অন্তৰ্ভুক্ত।"
+      }
+    },
+    {
+      "id": "figure-classification-163",
+      "q": {
+        "en": "Which of the numbered figures is different from the others?",
+        "as": "নম্বৰ দিয়া চিত্ৰবোৰৰ ভিতৰত কোনটো আনবোৰতকৈ বেলেগ?"
+      },
+      "options": [
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 468 120\" width=\"468\" height=\"120\"><rect x=\"1\" y=\"1\" width=\"466\" height=\"118\" rx=\"12\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(10,10)\"><polygon points=\"50,24 74.727,41.966 65.282,71.034 34.718,71.034 25.273,41.966\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"126\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(126,10)\"><polygon points=\"50,24 74.727,41.966 65.282,71.034 34.718,71.034 25.273,41.966\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"242\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(242,10)\"><polygon points=\"50,24 72.517,37 72.517,63 50,76 27.483,63 27.483,37\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g><rect x=\"358\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.4\"/><g transform=\"translate(358,10)\"><polygon points=\"50,24 74.727,41.966 65.282,71.034 34.718,71.034 25.273,41.966\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/></g></svg>",
+      "explanation": {
+        "en": "Figure 3 has a different number of sides from the other three, so it is different.",
+        "as": "3 নম্বৰ চিত্ৰটোৰ বাহুৰ সংখ্যা আন তিনিটাতকৈ বেলেগ, গতিকে ই বেলেগ।"
+      }
+    },
+    {
+      "id": "pipes-and-cisterns-067",
+      "q": {
+        "en": "Three pipes can fill a tank in 6, 12 and 4 hours. Working together they fill it in —",
+        "as": "তিনিটা নলে চৌবাচ্চা ৬, ১২ আৰু ৪ ঘণ্টাত ভৰ্তি কৰে। একেলগে কাম কৰিলে —"
+      },
+      "options": [
+        {
+          "en": "2 hours",
+          "as": "২ ঘণ্টা"
+        },
+        {
+          "en": "4 hours",
+          "as": "৪ ঘণ্টা"
+        },
+        {
+          "en": "6 hours",
+          "as": "৬ ঘণ্টা"
+        },
+        {
+          "en": "3 hours",
+          "as": "৩ ঘণ্টা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/6 + 1/12 + 1/4 = 2/12 + 1/12 + 3/12 = 6/12 = 1/2, so 2 hours.",
+        "as": "1/6 + 1/12 + 1/4 = 2/12 + 1/12 + 3/12 = 6/12 = 1/2, গতিকে ২ ঘণ্টা।"
+      }
+    },
+    {
+      "id": "indian-history-ancient-350",
+      "q": {
+        "en": "What linguistic development marked the post-Gupta period?",
+        "as": "গুপ্তোত্তৰ কালত কোন ভাষিক পৰিৱৰ্তন ঘটিছিল?"
+      },
+      "options": [
+        {
+          "en": "The decline of regional languages",
+          "as": "আঞ্চলিক ভাষাৰ অৱনতি"
+        },
+        {
+          "en": "The end of Sanskrit",
+          "as": "সংস্কৃতৰ অন্ত"
+        },
+        {
+          "en": "The end of religion",
+          "as": "ধৰ্মৰ অন্ত"
+        },
+        {
+          "en": "The growth of regional languages and literatures",
+          "as": "আঞ্চলিক ভাষা আৰু সাহিত্যৰ বিকাশ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The post-Gupta period saw the growth of regional languages and literatures.",
+        "as": "গুপ্তোত্তৰ কালত আঞ্চলিক ভাষা আৰু সাহিত্যৰ বিকাশ ঘটিছিল।"
+      }
+    },
+    {
+      "id": "world-history-334",
+      "q": {
+        "en": "Which is the oldest of the Seven Wonders of the Ancient World still standing?",
+        "as": "প্ৰাচীন বিশ্বৰ সাতটা আশ্চৰ্যৰ ভিতৰত এতিয়াও থকা আটাইতকৈ পুৰণি কোনটো?"
+      },
+      "options": [
+        {
+          "en": "The Hanging Gardens",
+          "as": "ঝুলন্ত উদ্যান"
+        },
+        {
+          "en": "The Colossus of Rhodes",
+          "as": "ৰ'ডছৰ কলছাছ"
+        },
+        {
+          "en": "The Great Pyramid of Giza",
+          "as": "গিজাৰ মহা পিৰামিড"
+        },
+        {
+          "en": "The Lighthouse of Alexandria",
+          "as": "আলেকজেণ্ড্ৰিয়াৰ পোহৰ ঘৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Great Pyramid of Giza is the oldest wonder still standing.",
+        "as": "গিজাৰ মহা পিৰামিড এতিয়াও থকা আটাইতকৈ পুৰণি আশ্চৰ্য।"
+      }
+    },
+    {
+      "id": "inequality-048",
+      "q": {
+        "en": "If P > Q Q > R R >= S, which conclusion is definitely true?",
+        "as": "যদি P > Q Q > R R >= S, কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সঁচা?"
+      },
+      "options": [
+        {
+          "en": "P ≤ S",
+          "as": "P ≤ S"
+        },
+        {
+          "en": "P > S",
+          "as": "P > S"
+        },
+        {
+          "en": "P < S",
+          "as": "P < S"
+        },
+        {
+          "en": "P = S",
+          "as": "P = S"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The chain P > Q Q > R R >= S always gives P > S, while the other relations are not forced.",
+        "as": "শিকলি P > Q Q > R R >= S এ সদায় P > S দিয়ে, কিন্তু আন সম্পৰ্কবোৰ বাধ্যতামূলক নহয়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-285",
+      "q": {
+        "en": "Which city of India is known as the 'Financial Capital of India'?",
+        "as": "ভাৰতৰ কোন চহৰক 'ভাৰতৰ বিত্তীয় ৰাজধানী' বুলি জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Mumbai",
+          "as": "মুম্বাই"
+        },
+        {
+          "en": "New Delhi",
+          "as": "নতুন দিল্লী"
+        },
+        {
+          "en": "Kolkata",
+          "as": "কলিকতা"
+        },
+        {
+          "en": "Chennai",
+          "as": "চেন্নাই"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mumbai is called the Financial Capital of India.",
+        "as": "মুম্বাইক ভাৰতৰ বিত্তীয় ৰাজধানী বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "id": "paper-folding-cutting-075",
+      "q": {
+        "en": "A square paper is folded as shown and a hole is punched through it. Which pattern appears when the paper is fully unfolded?",
+        "as": "বৰ্গাকৃতি কাগজ দেখুওৱাৰ দৰে ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজ সম্পূৰ্ণ মেলি দিলে কোনটো আৰ্হি দেখা যাব?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 150\" width=\"150\" height=\"150\"><rect x=\"1\" y=\"1\" width=\"148\" height=\"148\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.5)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 186 186\" width=\"186\" height=\"186\"><rect x=\"2\" y=\"2\" width=\"182\" height=\"182\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"18\" y=\"18\" width=\"150\" height=\"150\" fill=\"#f1f5f9\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"43\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"88\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"98\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"143\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg></g></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 150\" width=\"150\" height=\"150\"><rect x=\"1\" y=\"1\" width=\"148\" height=\"148\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.5)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 186 186\" width=\"186\" height=\"186\"><rect x=\"2\" y=\"2\" width=\"182\" height=\"182\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"18\" y=\"18\" width=\"150\" height=\"150\" fill=\"#f1f5f9\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"88\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"88\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg></g></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 150\" width=\"150\" height=\"150\"><rect x=\"1\" y=\"1\" width=\"148\" height=\"148\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.5)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 186 186\" width=\"186\" height=\"186\"><rect x=\"2\" y=\"2\" width=\"182\" height=\"182\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"18\" y=\"18\" width=\"150\" height=\"150\" fill=\"#f1f5f9\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"88\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"143\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg></g></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 150\" width=\"150\" height=\"150\"><rect x=\"1\" y=\"1\" width=\"148\" height=\"148\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><g transform=\"scale(1.5)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 186 186\" width=\"186\" height=\"186\"><rect x=\"2\" y=\"2\" width=\"182\" height=\"182\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"18\" y=\"18\" width=\"150\" height=\"150\" fill=\"#f1f5f9\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"88\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"143\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"88\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"143\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg></g></svg>"
+        }
+      ],
+      "correct": 3,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 186 186\" width=\"186\" height=\"186\"><rect x=\"2\" y=\"2\" width=\"182\" height=\"182\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1.4\"/><rect x=\"18\" y=\"18\" width=\"150\" height=\"150\" fill=\"#f1f5f9\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"93\" y1=\"18\" x2=\"93\" y2=\"168\" stroke=\"#94a3b8\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><circle cx=\"96\" cy=\"88\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"143\" r=\"6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+      "explanation": {
+        "en": "Each of the two punches is doubled across the vertical fold, so the unfolded paper shows four holes.",
+        "as": "দুটা ফুটা প্ৰতিটো উলম্ব ভাঁজৰ সিটোফালে দুগুণ হয়, গতিকে মেলা কাগজত চাৰিটা ফুটা দেখা যায়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-318",
+      "q": {
+        "en": "Which programme aims at the development of the North East region?",
+        "as": "কোন কাৰ্যসূচীয়ে উত্তৰ-পূব অঞ্চলৰ উন্নয়নৰ লক্ষ্য ৰাখে?"
+      },
+      "options": [
+        {
+          "en": "North East Council",
+          "as": "উত্তৰ-পূব পৰিষদ"
+        },
+        {
+          "en": "NITI Aayog",
+          "as": "নীতি আয়োগ"
+        },
+        {
+          "en": "SEBI",
+          "as": "ছেবি"
+        },
+        {
+          "en": "GST Council",
+          "as": "জিএছটি পৰিষদ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The North East Council works for the region's development.",
+        "as": "উত্তৰ-পূব পৰিষদে অঞ্চলটোৰ উন্নয়নৰ বাবে কাম কৰে।"
+      }
+    },
+    {
+      "id": "simplification-fractions-062",
+      "q": {
+        "en": "Simplify: 48 ÷ (2 x 3) + 4",
+        "as": "সৰল কৰক: 48 ÷ (2 x 3) + 4"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "28",
+          "as": "২৮"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "48 / 6 = 8, then 8 + 4 = 12.",
+        "as": "48 / 6 = 8, তাৰপিছত 8 + 4 = 12।"
+      }
+    },
+    {
+      "id": "world-history-319",
+      "q": {
+        "en": "Which Indian city is known as the 'Financial Capital of India'?",
+        "as": "কোন ভাৰতীয় চহৰ 'ভাৰতৰ বিত্তীয় ৰাজধানী' হিচাপে জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Delhi",
+          "as": "দিল্লী"
+        },
+        {
+          "en": "Kolkata",
+          "as": "কলিকতা"
+        },
+        {
+          "en": "Chennai",
+          "as": "চেন্নাই"
+        },
+        {
+          "en": "Mumbai",
+          "as": "মুম্বাই"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Mumbai is known as the Financial Capital of India.",
+        "as": "মুম্বাইক ভাৰতৰ বিত্তীয় ৰাজধানী হিচাপে জনা যায়।"
+      }
+    },
+    {
+      "id": "blood-relations-054",
+      "q": {
+        "en": "In a family, the father is a doctor and their son's wife is a lawyer. How is the lawyer related to the doctor?",
+        "as": "এটা পৰিয়ালত দেউতা ডাক্তৰ আৰু তেওঁলোকৰ পুত্ৰৰ পত্নী অধিবক্তা। অধিবক্তাগৰাকী ডাক্তৰৰ কি হয়?"
+      },
+      "options": [
+        {
+          "en": "Niece",
+          "as": "ভতিজী/ভাগিনী"
+        },
+        {
+          "en": "Daughter",
+          "as": "জীয়েক"
+        },
+        {
+          "en": "Daughter-in-law",
+          "as": "বোৱাৰী"
+        },
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The lawyer is the wife of the doctor's son, so she is his daughter-in-law.",
+        "as": "অধিবক্তাগৰাকী ডাক্তৰৰ পুত্ৰৰ পত্নী, গতিকে তেওঁ ডাক্তৰৰ বোৱাৰী।"
+      }
+    },
+    {
+      "id": "coding-decoding-052",
+      "q": {
+        "en": "If a word is coded by the number of its letters, what is the code of SCHOOL?",
+        "as": "যদি এটা শব্দৰ সংকেত তাৰ আখৰৰ সংখ্যাৰে কৰা হয়, SCHOOL ৰ সংকেত কিমান?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SCHOOL has 6 letters, so its code is 6.",
+        "as": "SCHOOL ত 6 টা আখৰ আছে, গতিকে সংকেত 6।"
+      }
+    },
+    {
+      "id": "assam-history-medieval-348",
+      "q": {
+        "en": "Which of the following was a major feature of the Ahom kingdom's relations with the British?",
+        "as": "ব্ৰিটিছৰ সৈতে আহোম ৰাজ্যৰ সম্পৰ্কৰ এটা প্ৰধান বৈশিষ্ট্য তলৰ কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "Initial alliance, later annexation",
+          "as": "প্ৰাৰম্ভিক মিত্ৰতা, পিছত অধিকৰণ"
+        },
+        {
+          "en": "Permanent alliance",
+          "as": "স্থায়ী মিত্ৰতা"
+        },
+        {
+          "en": "No contact",
+          "as": "কোনো যোগাযোগ নাই"
+        },
+        {
+          "en": "Immediate conquest",
+          "as": "তৎক্ষণাৎ বিজয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Ahoms initially allied with the British, who later annexed Assam.",
+        "as": "আহোমসকলে প্ৰথমে ব্ৰিটিছৰ সৈতে মিত্ৰতা কৰিছিল, যিসকলে পিছত অসম অধিকৰণ কৰিছিল।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-274",
+      "q": {
+        "en": "Which scheme provides accident insurance to bank account holders in India?",
+        "as": "ভাৰতত বেংক একাউণ্টধাৰীক কোন আঁচনিয়ে দুৰ্ঘটনা বীমা প্ৰদান কৰে?"
+      },
+      "options": [
+        {
+          "en": "Pradhan Mantri Suraksha Bima Yojana",
+          "as": "প্ৰধানমন্ত্ৰী সূৰক্ষা বীমা যোজনা"
+        },
+        {
+          "en": "PMJDY",
+          "as": "পিএমজেডিৱাই"
+        },
+        {
+          "en": "MGNREGA",
+          "as": "এমজিএনআৰইজিএ"
+        },
+        {
+          "en": "GST",
+          "as": "জিএছটি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "PMSBY provides accident insurance.",
+        "as": "পিএমএছবিৱাইয়ে দুৰ্ঘটনা বীমা প্ৰদান কৰে।"
+      }
+    },
+    {
+      "id": "tenses-rules-079",
+      "q": {
+        "en": "Choose the correct form: The children ___ in the park every Sunday.",
+        "as": "শুদ্ধ ৰূপ বাছনি কৰা: The children ___ in the park every Sunday."
+      },
+      "options": [
+        {
+          "en": "plays",
+          "as": "খেলে"
+        },
+        {
+          "en": "play",
+          "as": "খেলে (play)"
+        },
+        {
+          "en": "played",
+          "as": "খেলিছিল"
+        },
+        {
+          "en": "are playing",
+          "as": "খেলি আছে"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Every Sunday with a plural subject takes the simple present play.",
+        "as": "প্ৰতি দেওবাৰ বহুবচন কৰ্তাৰ সৈতে সাধাৰণ বৰ্তমান play লয়।"
+      }
+    },
+    {
+      "id": "percentage-069",
+      "q": {
+        "en": "The percentage of pure gold in 22-carat gold (out of 24) is approximately —",
+        "as": "22 কেৰেট সোণত বিশুদ্ধ সোণৰ শতাংশ (24 ৰ ভিতৰত) প্ৰায় —"
+      },
+      "options": [
+        {
+          "en": "88%",
+          "as": "৮৮%"
+        },
+        {
+          "en": "91.67%",
+          "as": "৯১.৬৭%"
+        },
+        {
+          "en": "90%",
+          "as": "৯০%"
+        },
+        {
+          "en": "95%",
+          "as": "৯৫%"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "22 / 24 x 100 = 91.67%.",
+        "as": "22 / 24 x 100 = 91.67%।"
+      }
+    },
+    {
+      "id": "statement-assumptions-046",
+      "q": {
+        "en": "Statement: The government has started a scheme to give free textbooks to poor students.\nAssumptions: I. Poor students cannot buy textbooks. II. All students are poor.",
+        "as": "বিবৃতি: The government has started a scheme to give free textbooks to poor students.\nঅনুমান: I. Poor students cannot buy textbooks. II. All students are poor."
+      },
+      "options": [
+        {
+          "en": "Neither I nor II is implicit",
+          "as": "I বা II কোনোটোৱেই অন্তৰ্নিহিত নহয়"
+        },
+        {
+          "en": "Assumption I is implicit",
+          "as": "অনুমান I অন্তৰ্নিহিত"
+        },
+        {
+          "en": "Assumption II is implicit",
+          "as": "অনুমান II অন্তৰ্নিহিত"
+        },
+        {
+          "en": "Both I and II are implicit",
+          "as": "I আৰু II দুয়োটা অন্তৰ্নিহিত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A free-textbook scheme assumes some students cannot buy books; not all are poor.",
+        "as": "বিনামূলীয়া পাঠ্যপুথি আঁচনিয়ে কিছুমান ছাত্ৰই কিনিব নোৱাৰে বুলি ধৰি লয়; সকলো দৰিদ্ৰ নহয়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-308",
+      "q": {
+        "en": "The Goods and Services Tax has how many main slabs in India?",
+        "as": "ভাৰতত সামগ্ৰী আৰু সেৱা কৰৰ কিমানটা মূল স্তৰ আছে?"
+      },
+      "options": [
+        {
+          "en": "Two main slabs",
+          "as": "দুটা মূল স্তৰ"
+        },
+        {
+          "en": "One slab",
+          "as": "এটা স্তৰ"
+        },
+        {
+          "en": "Four main slabs",
+          "as": "চাৰিটা মূল স্তৰ"
+        },
+        {
+          "en": "Ten slabs",
+          "as": "দহটা স্তৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "GST has four main slabs: 5, 12, 18 and 28 percent.",
+        "as": "জিএছটিত চাৰিটা মূল স্তৰ: ৫, ১২, ১৮ আৰু ২৮ শতাংশ।"
+      }
+    },
+    {
+      "id": "idioms-phrases-319",
+      "q": {
+        "en": "The idiom 'put all eggs in one basket' means —",
+        "as": "'put all eggs in one basket' বাক্যৰীতিটোৰ অৰ্থ —"
+      },
+      "options": [
+        {
+          "en": "to be involved in many things",
+          "as": "বহু কামত জড়িত থকা"
+        },
+        {
+          "en": "to be very busy",
+          "as": "অতি ব্যস্ত থকা"
+        },
+        {
+          "en": "to risk everything on one thing",
+          "as": "সকলো আশা এটা বস্তুত ৰখা"
+        },
+        {
+          "en": "to act unfairly",
+          "as": "অন্যায়ভাৱে ব্যৱহাৰ কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'put all eggs in one basket' means to risk everything on one thing.",
+        "as": "'put all eggs in one basket' ৰ অৰ্থ হৈছে সকলো আশা এটা বস্তুত ৰখা।"
+      }
+    },
+    {
+      "id": "basic-mensuration-054",
+      "q": {
+        "en": "The area of a rectangle is 96 sq m and its length is 12 m. Its perimeter is —",
+        "as": "এটা আয়তৰ কালি 96 বৰ্গমিটাৰ আৰু দীঘ 12 মিটাৰ। ইয়াৰ পৰিসীমা —"
+      },
+      "options": [
+        {
+          "en": "36 m",
+          "as": "৩৬ m"
+        },
+        {
+          "en": "44 m",
+          "as": "৪৪ m"
+        },
+        {
+          "en": "40 m",
+          "as": "৪০ m"
+        },
+        {
+          "en": "48 m",
+          "as": "৪৮ m"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Breadth = 8 m, so perimeter = 2(12 + 8) = 40 m.",
+        "as": "প্ৰস্থ = 8 m, গতিকে পৰিসীমা = 2(12 + 8) = 40 m।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-301",
+      "q": {
+        "en": "Which of the following is a capital receipt of the government?",
+        "as": "তলৰ কোনটো চৰকাৰৰ মূলধনী প্ৰাপ্তি?"
+      },
+      "options": [
+        {
+          "en": "Income tax",
+          "as": "আয়কৰ"
+        },
+        {
+          "en": "Borrowings",
+          "as": "ঋণ"
+        },
+        {
+          "en": "GST",
+          "as": "জিএছটি"
+        },
+        {
+          "en": "Fees",
+          "as": "শুল্ক"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Borrowings are capital receipts.",
+        "as": "ঋণ মূলধনী প্ৰাপ্তি।"
+      }
+    },
+    {
+      "id": "ratio-proportion-058",
+      "q": {
+        "en": "The ratio of the number of 5-rupee coins to 2-rupee coins is 4 : 7. If there are 44 five-rupee coins, the number of 2-rupee coins is —",
+        "as": "5 টকীয়া মুদ্ৰা আৰু 2 টকীয়া মুদ্ৰাৰ অনুপাত 4 : 7। 44 টা 5 টকীয়া মুদ্ৰা থাকিলে 2 টকীয়া মুদ্ৰাৰ সংখ্যা —"
+      },
+      "options": [
+        {
+          "en": "77",
+          "as": "৭৭"
+        },
+        {
+          "en": "70",
+          "as": "৭০"
+        },
+        {
+          "en": "66",
+          "as": "৬৬"
+        },
+        {
+          "en": "84",
+          "as": "৮৪"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Each part = 11, so 2-rupee coins = 7 x 11 = 77.",
+        "as": "প্ৰতিটো অংশ = 11, গতিকে 2 টকীয়া মুদ্ৰা = 7 x 11 = 77।"
+      }
+    },
+    {
+      "id": "number-system-067",
+      "q": {
+        "en": "The number of multiples of 4 between 10 and 50 is —",
+        "as": "10 আৰু 50 ৰ মাজত 4 ৰ গুণিতকৰ সংখ্যা —"
+      },
+      "options": [
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "11",
+          "as": "১১"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "They run from 12 to 48, giving 10 numbers.",
+        "as": "সেইবোৰ 12 ৰ পৰা 48 লৈকে, মুঠ 10 টা।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-282",
+      "q": {
+        "en": "Which sector was most affected by the COVID-19 lockdown in India?",
+        "as": "ভাৰতত ক'ভিড-১৯ লকডাউনে কাৰ ওপৰত আটাইতকৈ বেছি প্ৰভাৱ পেলাইছিল?"
+      },
+      "options": [
+        {
+          "en": "Agriculture",
+          "as": "কৃষি"
+        },
+        {
+          "en": "Service and informal sectors",
+          "as": "সেৱা আৰু অনানুষ্ঠানিক খণ্ড"
+        },
+        {
+          "en": "Mining",
+          "as": "খনন"
+        },
+        {
+          "en": "Forestry",
+          "as": "বনাঞ্চল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The service and informal sectors were most affected.",
+        "as": "সেৱা আৰু অনানুষ্ঠানিক খণ্ডত আটাইতকৈ বেছি প্ৰভাৱ পৰিছিল।"
+      }
+    },
+    {
+      "id": "algebra-065",
+      "q": {
+        "en": "If 1x + 1y = 7 and 4x + 2y = 26, then x = ?",
+        "as": "যদি 1x + 1y = 7 আৰু 4x + 2y = 26 হয়, তেন্তে x = ?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Solving the two equations together gives x = 6 and y = 1.",
+        "as": "দুয়োটা সমীকৰণ একেলগে সমাধান কৰিলে x = 6 আৰু y = 1 পোৱা যায়।"
+      }
+    },
+    {
+      "id": "direction-distance-043",
+      "q": {
+        "en": "A man walks 10 km towards the south and then 24 km towards the west. How far is he from the starting point?",
+        "as": "এজনে দক্ষিণলৈ 10 km আৰু তাৰ পিছত পশ্চিমলৈ 24 km খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+      },
+      "options": [
+        {
+          "en": "24 km",
+          "as": "২৪ km"
+        },
+        {
+          "en": "34 km",
+          "as": "৩৪ km"
+        },
+        {
+          "en": "26 km",
+          "as": "২৬ km"
+        },
+        {
+          "en": "28 km",
+          "as": "২৮ km"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The displacement is the hypotenuse of 10 and 24, which is 26 km.",
+        "as": "সৰণ 10 আৰু 24 ৰ কৰ্ণ, অৰ্থাৎ 26 km।"
+      }
+    },
+    {
+      "id": "tenses-rules-071",
+      "q": {
+        "en": "Choose the correct form: We ___ for the result since morning.",
+        "as": "শুদ্ধ ৰূপ বাছনি কৰা: We ___ for the result since morning."
+      },
+      "options": [
+        {
+          "en": "have been waiting",
+          "as": "অপেক্ষা কৰি আছোঁ"
+        },
+        {
+          "en": "wait",
+          "as": "অপেক্ষা কৰে"
+        },
+        {
+          "en": "waited",
+          "as": "অপেক্ষা কৰিছিল"
+        },
+        {
+          "en": "are waiting",
+          "as": "অপেক্ষা কৰি আছে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Since morning with a continuing action takes have been waiting.",
+        "as": "since morning য়ে চলি থকা ক্ৰিয়াৰ সৈতে have been waiting লয়।"
+      }
+    },
+    {
+      "id": "assamese-literature-273",
+      "q": {
+        "en": "Which Assamese writer is known for the novel 'Mrityunjay' and 'Iyaruingam'?",
+        "as": "কোন অসমীয়া লেখক 'মৃত্যুঞ্জয়' আৰু 'ইয়াৰুইংগম' উপন্যাসৰ বাবে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Syed Abdul Malik",
+          "as": "চৈয়দ আব্দুল মালিক"
+        },
+        {
+          "en": "Homen Borgohain",
+          "as": "হোমেন বৰগোহাঞি"
+        },
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Birendra Kumar Bhattacharyya wrote Mrityunjay and Iyaruingam.",
+        "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই মৃত্যুঞ্জয় আৰু ইয়াৰুইংগম লিখিছিল।"
+      }
+    },
+    {
+      "id": "parts-of-speech-317",
+      "q": {
+        "en": "In 'she is neither rich nor proud', the correlative pair is —",
+        "as": "'she is neither rich nor proud' ত সম্পৰ্কবাচক যুগলটো কি?"
+      },
+      "options": [
+        {
+          "en": "either...or",
+          "as": "either...or"
+        },
+        {
+          "en": "neither...nor",
+          "as": "neither...nor"
+        },
+        {
+          "en": "both...and",
+          "as": "both...and"
+        },
+        {
+          "en": "not only...but also",
+          "as": "not only...but also"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Neither...nor joins the two qualities in the negative.",
+        "as": "Neither...nor এ ঋণাত্মকভাৱে দুটা গুণ জোৰে।"
+      }
+    },
+    {
+      "id": "geometry-107",
+      "q": {
+        "en": "The radius of a circle is 6 cm. Its circumference (pi = 22/7) is —",
+        "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 6 ছেমি। পৰিধি (pi = 22/7) —"
+      },
+      "options": [
+        {
+          "en": "113.14 cm",
+          "as": "১১৩.১৪ ছেমি"
+        },
+        {
+          "en": "75.42 cm",
+          "as": "৭৫.৪২ ছেমি"
+        },
+        {
+          "en": "37.71 cm",
+          "as": "৩৭.৭১ ছেমি"
+        },
+        {
+          "en": "48.71 cm",
+          "as": "৪৮.৭১ ছেমি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Circumference = 2 pi r = 2 x (22/7) x 6 = 37.71 cm.",
+        "as": "পৰিধি = 2 pi r = 2 x (22/7) x 6 = 37.71 ছেমি।"
+      }
+    },
+    {
+      "id": "time-speed-distance-053",
+      "q": {
+        "en": "A man covers a distance of 120 km at 40 km/h. If he increases his speed by 20 km/h, the time saved is —",
+        "as": "এজন মানুহে 120 কিমি 40 কিমি/ঘণ্টা বেগত অতিক্ৰম কৰে। গতি 20 কিমি/ঘণ্টা বঢ়ালে ৰাহি হোৱা সময় —"
+      },
+      "options": [
+        {
+          "en": "1 hour",
+          "as": "১ ঘণ্টা"
+        },
+        {
+          "en": "45 minutes",
+          "as": "৪৫ মিনিট"
+        },
+        {
+          "en": "30 minutes",
+          "as": "৩০ মিনিট"
+        },
+        {
+          "en": "1.5 hours",
+          "as": "১.৫ ঘণ্টা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Old time 3 hours and new time 2 hours, so 1 hour is saved.",
+        "as": "পুৰণি সময় 3 ঘণ্টা আৰু নতুন সময় 2 ঘণ্টা, গতিকে 1 ঘণ্টা ৰাহি হয়।"
+      }
+    },
+    {
+      "id": "mensuration-3d-120",
+      "q": {
+        "en": "A cylinder has radius 70 cm and height 3 cm. Its curved surface area (pi = 22/7) is —",
+        "as": "এটা চুঙাৰ ব্যাসাৰ্ধ 70 ছেমি আৰু উচ্চতা 3 ছেমি। বক্ৰ পৃষ্ঠকালি (pi = 22/7) —"
+      },
+      "options": [
+        {
+          "en": "46200 sq cm",
+          "as": "৪৬২০০ বৰ্গ ছেমি"
+        },
+        {
+          "en": "2640 sq cm",
+          "as": "২৬৪০ বৰ্গ ছেমি"
+        },
+        {
+          "en": "1342 sq cm",
+          "as": "১৩৪২ বৰ্গ ছেমি"
+        },
+        {
+          "en": "1320 sq cm",
+          "as": "১৩২০ বৰ্গ ছেমি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Curved surface area = 2 pi r h = 2 x (22/7) x 70 x 3 = 1320 sq cm.",
+        "as": "বক্ৰ পৃষ্ঠকালি = 2 pi r h = 2 x (22/7) x 70 x 3 = 1320 বৰ্গ ছেমি।"
+      }
+    },
+    {
+      "id": "simple-compound-interest-057",
+      "q": {
+        "en": "The amount on 800 at 5% per annum for 3 years under simple interest is —",
+        "as": "বছৰি 5% হাৰত 800 ৰ 3 বছৰৰ সৰল সুতৰ মুঠ ধন —"
+      },
+      "options": [
+        {
+          "en": "900",
+          "as": "৯০০"
+        },
+        {
+          "en": "910",
+          "as": "৯১০"
+        },
+        {
+          "en": "920",
+          "as": "৯২০"
+        },
+        {
+          "en": "930",
+          "as": "৯৩০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "SI = 120, so amount = 920.",
+        "as": "সৰল সুত = 120, গতিকে মুঠ ধন = 920।"
+      }
+    },
+    {
+      "id": "assam-natural-resources-242",
+      "q": {
+        "en": "Which crop is the main source of cash income for many farmers of Assam?",
+        "as": "অসমৰ বহু কৃষকৰ বাবে নগদ আয়ৰ প্ৰধান উৎস কোন শস্য?"
+      },
+      "options": [
+        {
+          "en": "Rice",
+          "as": "ধান"
+        },
+        {
+          "en": "Tea",
+          "as": "চাহ"
+        },
+        {
+          "en": "Maize",
+          "as": "মাকৈ"
+        },
+        {
+          "en": "Jute",
+          "as": "পাট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Tea is the main source of cash income for many farmers of Assam.",
+        "as": "চাহ অসমৰ বহু কৃষকৰ নগদ আয়ৰ প্ৰধান উৎস।"
+      }
+    },
+    {
+      "id": "indian-history-ancient-297",
+      "q": {
+        "en": "Which of the following was a feature of Sangam-era administration?",
+        "as": "তলৰ কোনটো সংগম-কালৰ প্ৰশাসনৰ এটা বৈশিষ্ট্য আছিল?"
+      },
+      "options": [
+        {
+          "en": "A republic",
+          "as": "এখন গণৰাজ্য"
+        },
+        {
+          "en": "A hereditary monarchy with local assemblies",
+          "as": "স্থানীয় সভাৰ সৈতে এক বংশানুক্ৰমিক ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "A theocracy",
+          "as": "এখন ধৰ্মতন্ত্ৰ"
+        },
+        {
+          "en": "A democracy",
+          "as": "এখন গণতন্ত্ৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sangam-era administration was a hereditary monarchy with local assemblies.",
+        "as": "সংগম-কালৰ প্ৰশাসন স্থানীয় সভাৰ সৈতে এক বংশানুক্ৰমিক ৰাজতন্ত্ৰ আছিল।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-321",
+      "q": {
+        "en": "Which State of the North East has the largest population?",
+        "as": "উত্তৰ-পূবৰ কোন ৰাজ্যত জনসংখ্যা সৰ্বাধিক?"
+      },
+      "options": [
+        {
+          "en": "Arunachal Pradesh",
+          "as": "অৰুণাচল প্ৰদেশ"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Manipur",
+          "as": "মণিপুৰ"
+        },
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam has the largest population in the North East.",
+        "as": "উত্তৰ-পূবত অসমৰ জনসংখ্যা সৰ্বাধিক।"
+      }
+    },
+    {
+      "id": "indian-history-ancient-335",
+      "q": {
+        "en": "Which dynasty ruled the Deccan after the Chalukyas of Badami?",
+        "as": "বদামীৰ চালুক্যসকলৰ পিছত দাক্ষিণাত্যত কোন বংশে শাসন কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "The Cholas",
+          "as": "চোল"
+        },
+        {
+          "en": "The Pandyas",
+          "as": "পাণ্ড্য"
+        },
+        {
+          "en": "The Pallavas",
+          "as": "পল্লৱ"
+        },
+        {
+          "en": "The Rashtrakutas",
+          "as": "ৰাষ্ট্ৰকূট"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Rashtrakutas ruled the Deccan after the Chalukyas of Badami.",
+        "as": "বদামীৰ চালুক্যসকলৰ পিছত ৰাষ্ট্ৰকূটসকলে দাক্ষিণাত্যত শাসন কৰিছিল।"
+      }
+    },
+    {
+      "id": "mixture-and-alligation-063",
+      "q": {
+        "en": "Two ingredients at Rs 30/kg and Rs 40/kg are mixed in the ratio 2 : 3. The mean price per kg is —",
+        "as": "Rs 30/কেজি আৰু Rs 40/কেজিৰ দুটা উপাদান 2 : 3 অনুপাতত মিহলালে প্ৰতি কেজিৰ গড় দাম —"
+      },
+      "options": [
+        {
+          "en": "Rs 36",
+          "as": "৩৬ টকা"
+        },
+        {
+          "en": "Rs 34",
+          "as": "৩৪ টকা"
+        },
+        {
+          "en": "Rs 35",
+          "as": "৩৫ টকা"
+        },
+        {
+          "en": "Rs 38",
+          "as": "৩৮ টকা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = (30 x 2 + 40 x 3)/5 = 180/5 = Rs 36.",
+        "as": "গড় = (30 x 2 + 40 x 3)/5 = 180/5 = Rs 36।"
+      }
+    },
+    {
+      "id": "one-word-substitution-332",
+      "q": {
+        "en": "A traditional story about gods and heroes is called —",
+        "as": "দেৱতা আৰু বীৰৰ পৰম্পৰাগত কাহিনী বোলা হয় —"
+      },
+      "options": [
+        {
+          "en": "sanctuary",
+          "as": "আশ্ৰয়স্থল"
+        },
+        {
+          "en": "soliloquy",
+          "as": "আত্মগত ভাষণ"
+        },
+        {
+          "en": "myth",
+          "as": "পুৰাণ-কথা"
+        },
+        {
+          "en": "sonnet",
+          "as": "ছনেট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The correct one-word substitution is 'myth'.",
+        "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'myth' (পুৰাণ-কথা)।"
+      }
+    },
+    {
+      "id": "synonyms-377",
+      "q": {
+        "en": "Choose the synonym of 'superficial'.",
+        "as": "'superficial' ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "profound",
+          "as": "গভীৰ"
+        },
+        {
+          "en": "shallow",
+          "as": "উপৰি"
+        },
+        {
+          "en": "vice",
+          "as": "দুৰ্গুণ"
+        },
+        {
+          "en": "deep",
+          "as": "গভীৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'shallow' is a synonym of 'superficial'; both words have nearly the same meaning.",
+        "as": "'shallow' (উপৰি) হৈছে 'superficial' (পৃষ্ঠীয়) ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "id": "assam-natural-resources-235",
+      "q": {
+        "en": "Which town of Assam is known as the Manchester of Assam?",
+        "as": "অসমৰ কোন নগৰ অসমৰ মাঞ্চেষ্টাৰ হিচাপে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Sualkuchi",
+          "as": "শুৱালকুছি"
+        },
+        {
+          "en": "Tezpur",
+          "as": "তেজপুৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Sualkuchi is called the Manchester of Assam for its silk weaving.",
+        "as": "শুৱালকুছিক ৰেচম বোৱাৰ বাবে অসমৰ মাঞ্চেষ্টাৰ বোলা হয়।"
+      }
+    },
+    {
+      "id": "time-speed-distance-062",
+      "q": {
+        "en": "A boat travels 36 km downstream in 4 hours. If the boat speed in still water is 7 km/h, the stream speed is —",
+        "as": "এখন নাওৱে 4 ঘণ্টাত 36 কিমি সোঁতেৰে যায়। স্থিৰ পানীত নাওৱৰ গতি 7 কিমি/ঘণ্টা হ'লে সোঁতৰ গতি —"
+      },
+      "options": [
+        {
+          "en": "2 km/h",
+          "as": "২ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "1 km/h",
+          "as": "১ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "3 km/h",
+          "as": "৩ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "4 km/h",
+          "as": "৪ কিমি/ঘণ্টা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Downstream = 9, so stream = 9 - 7 = 2 km/h.",
+        "as": "সোঁতেৰে = 9, গতিকে সোঁত = 9 - 7 = 2 কিমি/ঘণ্টা।"
+      }
+    },
+    {
+      "id": "ranking-order-052",
+      "q": {
+        "en": "Five students stand in a line by height. If the shortest is at the left, who is 3rd from the left if the order from shortest to tallest is E, D, C, B, A?",
+        "as": "উচ্চতা অনুসৰি পাঁচজন ছাত্ৰ শাৰীত থিয় হয়। আটাইতকৈ চাপৰ বাওঁফালে থাকিলে, চাপৰৰ পৰা ওখলৈ ক্ৰম E, D, C, B, A হ'লে বাওঁৰ পৰা ৩য় কোন?"
+      },
+      "options": [
+        {
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "E",
+          "as": "E"
+        },
+        {
+          "en": "D",
+          "as": "D"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Counting from the shortest, the third is C.",
+        "as": "আটাইতকৈ চাপৰৰ পৰা গণিলে তৃতীয়জন C।"
+      }
+    },
+    {
+      "id": "important-days-dates-361",
+      "q": {
+        "en": "When is National Consumer Day celebrated in India?",
+        "as": "ভাৰতত ৰাষ্ট্ৰীয় উপভোক্তা দিৱস কেতিয়া পালন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "24 December",
+          "as": "২৪ ডিচেম্বৰ"
+        },
+        {
+          "en": "15 January",
+          "as": "১৫ জানুৱাৰী"
+        },
+        {
+          "en": "4 February",
+          "as": "৪ ফেব্ৰুৱাৰী"
+        },
+        {
+          "en": "1 December",
+          "as": "১ ডিচেম্বৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "National Consumer Day is celebrated on 24 December.",
+        "as": "ৰাষ্ট্ৰীয় উপভোক্তা দিৱস ২৪ ডিচেম্বৰ তাৰিখে পালন কৰা হয়।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-322",
+      "q": {
+        "en": "Which is the main source of livelihood in the North East?",
+        "as": "উত্তৰ-পূবত জীৱিকাৰ মূল উৎস কি?"
+      },
+      "options": [
+        {
+          "en": "Mining only",
+          "as": "কেৱল খনন"
+        },
+        {
+          "en": "Software only",
+          "as": "কেৱল চফ্টৱেৰ"
+        },
+        {
+          "en": "Shipping",
+          "as": "জাহাজ চলাচল"
+        },
+        {
+          "en": "Agriculture and allied activities",
+          "as": "কৃষি আৰু সম্পৰ্কিত কাৰ্যকলাপ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Agriculture and allied activities are the main livelihood source.",
+        "as": "কৃষি আৰু সম্পৰ্কিত কাৰ্যকলাপ জীৱিকাৰ মূল উৎস।"
+      }
+    },
+    {
+      "id": "word-formation-dictionary-053",
+      "q": {
+        "en": "Arrange in alphabetical order: Tale, Tile, Tole, Toll. Which word is second?",
+        "as": "বৰ্ণমালাৰ ক্ৰমত সজাওক: Tale, Tile, Tole, Toll। দ্বিতীয় শব্দ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Tole",
+          "as": "Tole"
+        },
+        {
+          "en": "Tile",
+          "as": "Tile"
+        },
+        {
+          "en": "Toll",
+          "as": "Toll"
+        },
+        {
+          "en": "Tale",
+          "as": "Tale"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "In alphabetical order the words are Tale, Tile, Tole, Toll, so the second is Tile.",
+        "as": "বৰ্ণমালাৰ ক্ৰমত শব্দবোৰ Tale, Tile, Tole, Toll, গতিকে দ্বিতীয় Tile।"
+      }
+    },
+    {
+      "id": "sports-310",
+      "q": {
+        "en": "In which year did India win the Cricket World Cup under M. S. Dhoni?",
+        "as": "এম এছ ধোনীৰ নেতৃত্বত ভাৰতে কিমান চনত ক্ৰিকেট বিশ্বকাপ জয় কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "2003",
+          "as": "২০০৩"
+        },
+        {
+          "en": "2011",
+          "as": "২০১১"
+        },
+        {
+          "en": "2007",
+          "as": "২০০৭"
+        },
+        {
+          "en": "2015",
+          "as": "২০১৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "India won the 2011 World Cup under M. S. Dhoni.",
+        "as": "এম এছ ধোনীৰ নেতৃত্বত ভাৰতে ২০১১ বিশ্বকাপ জয় কৰিছিল।"
+      }
+    },
+    {
+      "id": "articles-determiners-059",
+      "q": {
+        "en": "Choose the correct determiner: We have ___ time left before the train leaves.",
+        "as": "শুদ্ধ determiner বাছনি কৰা: We have ___ time left before the train leaves."
+      },
+      "options": [
+        {
+          "en": "a few",
+          "as": "a few"
+        },
+        {
+          "en": "many",
+          "as": "many"
+        },
+        {
+          "en": "a little",
+          "as": "a little"
+        },
+        {
+          "en": "few",
+          "as": "few"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A little is used with the uncountable noun time, meaning some.",
+        "as": "A little অগণনীয় বিশেষ্য time ৰ সৈতে ব্যৱহাৰ হয়, অৰ্থাৎ কিছু।"
+      }
+    },
+    {
+      "id": "trigonometry-071",
+      "q": {
+        "en": "A vertical pole stands on level ground. From a point on the ground the angle of elevation of the top is 45 degrees and the distance of the point from the foot is 36 m. The height of the pole is —",
+        "as": "সমতল ভূমিত এটা খুটি থিয় হৈ আছে। ভূমিত এটা বিন্দুৰ পৰা শিখৰৰ উন্নতি কোণ 45 ডিগ্ৰী আৰু বিন্দুৰ পৰা খুটিৰ গুৰিলৈ দূৰত্ব 36 মিটাৰ। খুটিৰ উচ্চতা —"
+      },
+      "options": [
+        {
+          "en": "72 m",
+          "as": "72 m"
+        },
+        {
+          "en": "18 m",
+          "as": "18 m"
+        },
+        {
+          "en": "36 m",
+          "as": "36 m"
+        },
+        {
+          "en": "41 m",
+          "as": "41 m"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "At 45 degrees the height equals the horizontal distance, so the pole is 36 m high.",
+        "as": "45 ডিগ্ৰীত উচ্চতা অনুভূমিক দূৰত্বৰ সমান, গতিকে খুটি 36 মিটাৰ ওখ।"
+      }
+    },
+    {
+      "id": "assamese-literature-248",
+      "q": {
+        "en": "Which Assamese writer received the Sahitya Akademi Award for the collection 'Ashanta Electron'?",
+        "as": "কোন অসমীয়া লেখকে 'অশান্ত ইলেক্ট্ৰন'ৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Homen Borgohain",
+          "as": "হোমেন বৰগোহাঞি"
+        },
+        {
+          "en": "Mahim Bora",
+          "as": "মহিম বৰা"
+        },
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Saurabh Kumar Chaliha won the Sahitya Akademi Award for Ashanta Electron.",
+        "as": "সৌৰভ কুমাৰ চলিহাই অশান্ত ইলেক্ট্ৰনৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+      }
+    },
+    {
+      "id": "important-days-dates-339",
+      "q": {
+        "en": "Human Rights Day is observed to mark which of the following?",
+        "as": "মানৱ অধিকাৰ দিৱস কিসৰ স্মৃতিত পালন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "the house sparrow",
+          "as": "ঘৰচিৰিকা"
+        },
+        {
+          "en": "P. C. Mahalanobis",
+          "as": "পি চি মহালানবিছ"
+        },
+        {
+          "en": "human rights",
+          "as": "মানৱ অধিকাৰ"
+        },
+        {
+          "en": "Atal Bihari Vajpayee",
+          "as": "অটল বিহাৰী বাজপেয়ী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Human Rights Day marks human rights.",
+        "as": "মানৱ অধিকাৰ দিৱস মানৱ অধিকাৰৰ স্মৃতিত পালন কৰা হয়।"
+      }
+    },
+    {
+      "id": "antonyms-435",
+      "q": {
+        "en": "Choose the antonym of 'wonderful'.",
+        "as": "'wonderful' ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "ordinary",
+          "as": "সাধাৰণ"
+        },
+        {
+          "en": "criticise",
+          "as": "সমালোচনা কৰা"
+        },
+        {
+          "en": "unbelievable",
+          "as": "অবিশ্বাস্য"
+        },
+        {
+          "en": "create",
+          "as": "সৃষ্টি কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'ordinary' is an antonym of 'wonderful'; it has the opposite meaning.",
+        "as": "'ordinary' (সাধাৰণ) হৈছে 'wonderful' (আচৰিত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+      }
+    },
+    {
+      "id": "indian-assam-economy-303",
+      "q": {
+        "en": "Money can be withdrawn from the Consolidated Fund of India only with the approval of the —",
+        "as": "সংসদৰ অনুমোদন অবিহনে ভাৰতৰ সংহত নিধিৰ পৰা ধন উলিয়াব নোৱাৰি —"
+      },
+      "options": [
+        {
+          "en": "President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "RBI",
+          "as": "আৰবিআই"
+        },
+        {
+          "en": "Parliament",
+          "as": "সংসদ"
+        },
+        {
+          "en": "Supreme Court",
+          "as": "সৰ্বোচ্চ ন্যায়ালয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Parliament's approval is needed to withdraw from the Consolidated Fund.",
+        "as": "সংহত নিধিৰ পৰা ধন উলিয়াবলৈ সংসদৰ অনুমোদন প্ৰয়োজন।"
+      }
+    },
+    {
+      "id": "data-interpretation-060",
+      "q": {
+        "en": "A student scored 95, 88, 92, 84, 90 in Maths, English, Science, Social Science, Assamese (each out of 100). His overall percentage is —",
+        "as": "এজন ছাত্ৰই Maths, English, Science, Social Science, Assamese ত ক্ৰমে 95, 88, 92, 84, 90 নম্বৰ পাইছিল (প্ৰতিটো 100 ৰ ভিতৰত)। তেওঁৰ মুঠ শতাংশ —"
+      },
+      "options": [
+        {
+          "en": "449%",
+          "as": "৪৪৯%"
+        },
+        {
+          "en": "50%",
+          "as": "৫০%"
+        },
+        {
+          "en": "94.8%",
+          "as": "৯৪.৮%"
+        },
+        {
+          "en": "89.8%",
+          "as": "৮৯.৮%"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Percentage = (449 / 500) x 100 = 89.8%.",
+        "as": "শতাংশ = (449 / 500) x 100 = 89.8%।"
+      }
+    },
+    {
+      "id": "assam-india-current-affairs-199",
+      "q": {
+        "en": "Who became the new Chairman of the Insurance Regulatory and Development Authority of India?",
+        "as": "ভাৰতৰ বীমা নিয়ন্ত্ৰণ আৰু উন্নয়ন কৰ্তৃপক্ষৰ নতুন অধ্যক্ষ কোন হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Ajay Seth",
+          "as": "অজয় শেঠ"
+        },
+        {
+          "en": "T. S. Vijayan",
+          "as": "টি এছ বিজয়ন"
+        },
+        {
+          "en": "Debashish Panda",
+          "as": "দেৱাশিষ পাণ্ডা"
+        },
+        {
+          "en": "Subhash Chandra Khuntia",
+          "as": "সুভাষ চন্দ্ৰ খুন্তিয়া"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ajay Seth is associated with IRDAI leadership in 2026.",
+        "as": "অজয় শেঠ ২০২৬ চনত আইআৰডিএআই নেতৃত্বৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "id": "government-schemes-296",
+      "q": {
+        "en": "Who are the main beneficiaries of Assam Skill Development Mission?",
+        "as": "অসম দক্ষতা উন্নয়ন মিছনৰ প্ৰধান উপকাৰী কোন?"
+      },
+      "options": [
+        {
+          "en": "youth of Assam",
+          "as": "অসমৰ যুৱক-যুৱতী"
+        },
+        {
+          "en": "tourists and tourism workers",
+          "as": "পৰ্যটক আৰু পৰ্যটন কৰ্মী"
+        },
+        {
+          "en": "poor patients",
+          "as": "দৰিদ্ৰ ৰোগী"
+        },
+        {
+          "en": "women of poor households",
+          "as": "দৰিদ্ৰ পৰিয়ালৰ মহিলা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The main beneficiaries of Assam Skill Development Mission are youth of Assam.",
+        "as": "অসম দক্ষতা উন্নয়ন মিছনৰ প্ৰধান উপকাৰী অসমৰ যুৱক-যুৱতী।"
+      }
+    },
+    {
+      "id": "lcm-hcf-053",
+      "q": {
+        "en": "The smallest number that is divisible by 5, 10 and 15 is —",
+        "as": "5, 10 আৰু 15 ৰে বিভাজ্য আটাইতকৈ সৰু সংখ্যা —"
+      },
+      "options": [
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "150",
+          "as": "১৫০"
+        },
+        {
+          "en": "45",
+          "as": "৪৫"
+        },
+        {
+          "en": "30",
+          "as": "৩০"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "LCM of 5, 10 and 15 is 30.",
+        "as": "5, 10 আৰু 15 ৰ ল.সা.গু. 30।"
+      }
+    },
+    {
+      "id": "world-history-302",
+      "q": {
+        "en": "Which ancient Indian university was famous in the north-west?",
+        "as": "উত্তৰ-পশ্চিমত কোন প্ৰাচীন ভাৰতীয় বিশ্ববিদ্যালয় বিখ্যাত আছিল?"
+      },
+      "options": [
+        {
+          "en": "Nalanda",
+          "as": "নালন্দা"
+        },
+        {
+          "en": "Vikramshila",
+          "as": "ৱিক্ৰমশিলা"
+        },
+        {
+          "en": "Taxila",
+          "as": "তক্ষশীলা"
+        },
+        {
+          "en": "Kanchipuram",
+          "as": "কাঞ্চীপুৰম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Taxila was a famous ancient Indian university in the north-west.",
+        "as": "তক্ষশীলা উত্তৰ-পশ্চিমত এটা বিখ্যাত প্ৰাচীন ভাৰতীয় বিশ্ববিদ্যালয় আছিল।"
+      }
+    }
+  ]
+}

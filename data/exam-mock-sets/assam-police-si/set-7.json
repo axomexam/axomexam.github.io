@@ -1,0 +1,3092 @@
+{
+  "setNumber": 7,
+  "title": "Full Paper Set 7",
+  "exam": "assam-police-si",
+  "blueprint": {
+    "durationMinutes": 180,
+    "totalMarks": 100,
+    "marksPerQuestion": 1,
+    "negativeMarking": 0.5,
+    "sections": [
+      {
+        "id": "logical-reasoning",
+        "questions": 20,
+        "label": {
+          "en": "Part I: Logical Reasoning & Mental Ability",
+          "as": "অংশ I: তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+        }
+      },
+      {
+        "id": "elementary-mathematics",
+        "questions": 15,
+        "label": {
+          "en": "Part I: Aptitude & Basic Mathematics",
+          "as": "অংশ I: যোগ্যতা আৰু প্ৰাথমিক গণিত"
+        }
+      },
+      {
+        "id": "general-knowledge-science-current-affairs",
+        "questions": 35,
+        "label": {
+          "en": "Part II: General Knowledge, Science & Current Affairs",
+          "as": "অংশ II: সাধাৰণ জ্ঞান, বিজ্ঞান আৰু সাম্প্ৰতিক ঘটনা"
+        }
+      },
+      {
+        "id": "assam-history-geography-culture",
+        "questions": 30,
+        "label": {
+          "en": "Part III: History, Geography & Culture of Assam and India",
+          "as": "অংশ III: অসম আৰু ভাৰতৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "simple-compound-interest-004",
+      "q": {
+        "en": "Find the amount on Rs 6000 at 10% per annum simple interest for 2 years.",
+        "as": "বছৰি ১০% সৰল সূত হাৰত ২ বছৰৰ বাবে ৬০০০ টকাৰ মুঠ ৰাশি নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "Rs 7200",
+          "as": "৭২০০ টকা"
+        },
+        {
+          "en": "Rs 6800",
+          "as": "৬৮০০ টকা"
+        },
+        {
+          "en": "Rs 7000",
+          "as": "৭০০০ টকা"
+        },
+        {
+          "en": "Rs 7500",
+          "as": "৭৫০০ টকা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = (6000 × 10 × 2)/100 = 1200; Amount = 6000 + 1200 = Rs 7200.",
+        "as": "সৰল সূত = (৬০০০ × ১০ × ২)/১০০ = ১২০০; মুঠ ৰাশি = ৬০০০ + ১২০০ = ৭২০০ টকা।"
+      }
+    },
+    {
+      "id": "simple-compound-interest-010",
+      "q": {
+        "en": "Find the compound interest on Rs 8000 at 20% per annum for 1 year, compounded half-yearly.",
+        "as": "বছৰি ২০% হাৰত ষাণ্মাসিক চক্ৰবৃদ্ধি হিচাপে ১ বছৰৰ বাবে ৮০০০ টকাৰ যৌগিক সূত নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "Rs 1500",
+          "as": "১৫০০ টকা"
+        },
+        {
+          "en": "Rs 1600",
+          "as": "১৬০০ টকা"
+        },
+        {
+          "en": "Rs 1650",
+          "as": "১৬৫০ টকা"
+        },
+        {
+          "en": "Rs 1680",
+          "as": "১৬৮০ টকা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Half-yearly rate = 10%, periods = 2; A = 8000(1.1)² = 9680; CI = 9680 - 8000 = Rs 1680.",
+        "as": "ষাণ্মাসিক হাৰ = ১০%, কাল = ২; ৰাশি = ৮০০০(১.১)^২ = ৯৬৮০; যৌগিক সূত = ৯৬৮০ − ৮০০০ = ১৬৮০ টকা।"
+      }
+    },
+    {
+      "id": "current-affairs-119",
+      "q": {
+        "en": "Which Indian state is the largest producer of jute?",
+        "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ পাট উৎপাদনকাৰী ৰাজ্য কোনখন?"
+      },
+      "options": [
+        {
+          "en": "Bihar",
+          "as": "বিহাৰ"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Odisha",
+          "as": "ওড়িশা"
+        },
+        {
+          "en": "West Bengal",
+          "as": "পশ্চিম বংগ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "West Bengal is the largest producer of jute in India.",
+        "as": "পশ্চিম বংগ ভাৰতৰ আটাইতকৈ ডাঙৰ পাট উৎপাদনকাৰী ৰাজ্য।"
+      }
+    },
+    {
+      "id": "assam-geography-193",
+      "q": {
+        "en": "Which river of Assam is famous for causing rapid bank erosion?",
+        "as": "অসমৰ কোন নদী দ্ৰুত পাৰ ক্ষয়ৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        {
+          "en": "Brahmaputra",
+          "as": "ব্ৰহ্মপুত্ৰ"
+        },
+        {
+          "en": "Barak",
+          "as": "বৰাক"
+        },
+        {
+          "en": "Jiri",
+          "as": "জিৰি"
+        },
+        {
+          "en": "Dhansiri",
+          "as": "ধনশিৰি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Brahmaputra causes severe bank erosion in Assam.",
+        "as": "ব্ৰহ্মপুত্ৰই অসমত তীব্ৰ পাৰ ক্ষয় ঘটায়।"
+      }
+    },
+    {
+      "id": "ratio-proportion-004",
+      "q": {
+        "en": "Find the duplicate ratio of 3 : 4.",
+        "as": "৩ : ৪ ৰ বৰ্গ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "6 : 8",
+          "as": "৬ : ৮"
+        },
+        {
+          "en": "9 : 16",
+          "as": "৯ : ১৬"
+        },
+        {
+          "en": "16 : 9",
+          "as": "১৬ : ৯"
+        },
+        {
+          "en": "3 : 8",
+          "as": "৩ : ৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Duplicate ratio of a : b is a squared : b squared = 3 squared : 4 squared = 9 : 16.",
+        "as": "a : b ৰ বৰ্গ অনুপাত = a² : b² = ৩² : ৪² = ৯ : ১৬।"
+      }
+    },
+    {
+      "id": "assam-history-143",
+      "q": {
+        "en": "Who was a leading campaigner for the restoration of the Assamese language?",
+        "as": "অসমীয়া ভাষা পুনৰ প্ৰতিষ্ঠাৰ বাবে কোন প্ৰধান সংগ্ৰামী আছিল?"
+      },
+      "options": [
+        {
+          "en": "Bishnuram Medhi",
+          "as": "বিষ্ণুৰাম মেধি"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        },
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Anandaram Dhekial Phukan championed the Assamese language.",
+        "as": "আনন্দৰাম ঢেকিয়াল ফুকনে অসমীয়া ভাষাৰ হৈ যুক্তি দিছিল।"
+      }
+    },
+    {
+      "id": "indian-history-polity-economy-193",
+      "q": {
+        "en": "The voting age was reduced from 21 to 18 by which amendment?",
+        "as": "কোন সংশোধনীয়ে ভোটদানৰ বয়স ২১ৰপৰা ১৮ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "52nd Amendment",
+          "as": "৫২সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "42nd Amendment",
+          "as": "৪২সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "44th Amendment",
+          "as": "৪৪সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "61st Amendment",
+          "as": "৬১সংখ্যক সংশোধনী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The 61st Amendment (1988) reduced the voting age to 18.",
+        "as": "৬১সংখ্যক সংশোধনীয়ে (১৯৮৮) ভোটদানৰ বয়স ১৮ কৰিছিল।"
+      }
+    },
+    {
+      "id": "general-science-technology-163",
+      "q": {
+        "en": "Which of the following subatomic particles carries no charge?",
+        "as": "তলৰ কোনটো উপপাৰমাণৱিক কণিকাৰ কোনো আধান নাই?"
+      },
+      "options": [
+        {
+          "en": "Neutron",
+          "as": "নিউট্ৰন"
+        },
+        {
+          "en": "Proton",
+          "as": "প্ৰ’টন"
+        },
+        {
+          "en": "Electron",
+          "as": "ইলেক্ট্ৰন"
+        },
+        {
+          "en": "Ion",
+          "as": "আয়ন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A neutron is electrically neutral and carries no charge.",
+        "as": "নিউট্ৰন বিদ্যুৎগতভাৱে প্ৰশম, ইয়াৰ কোনো আধান নাই।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-039",
+      "q": {
+        "en": "A cube is painted on all its faces and then cut into 8 × 8 × 8 small cubes. How many small cubes have exactly 3 faces painted?",
+        "as": "এটা ঘনকৰ আটাইবোৰ পৃষ্ঠত ৰং লগাই তাৰ পিছত 8 × 8 × 8 টা সৰু ঘনকত কটা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক 3টা পৃষ্ঠত ৰং লগা আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">8</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">48</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">72</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">96</text></svg>"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"297\" height=\"270\"><rect x=\"2\" y=\"2\" width=\"216\" height=\"196\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"110.0,100.0 162.0,70.0 110.0,40.0 58.0,70.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 58.0,70.0 58.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 162.0,70.0 162.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"116.5\" y1=\"96.2\" x2=\"64.5\" y2=\"66.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"103.5\" y1=\"96.2\" x2=\"155.5\" y2=\"66.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"123.0\" y1=\"92.5\" x2=\"71.0\" y2=\"62.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"97.0\" y1=\"92.5\" x2=\"149.0\" y2=\"62.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"129.5\" y1=\"88.8\" x2=\"77.5\" y2=\"58.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"90.5\" y1=\"88.8\" x2=\"142.5\" y2=\"58.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"84.0\" y2=\"55.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"136.0\" y2=\"55.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"142.5\" y1=\"81.2\" x2=\"90.5\" y2=\"51.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"77.5\" y1=\"81.2\" x2=\"129.5\" y2=\"51.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"149.0\" y1=\"77.5\" x2=\"97.0\" y2=\"47.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"71.0\" y1=\"77.5\" x2=\"123.0\" y2=\"47.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"155.5\" y1=\"73.8\" x2=\"103.5\" y2=\"43.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"64.5\" y1=\"73.8\" x2=\"116.5\" y2=\"43.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"103.5\" y1=\"96.2\" x2=\"103.5\" y2=\"156.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"107.5\" x2=\"58.0\" y2=\"77.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"97.0\" y1=\"92.5\" x2=\"97.0\" y2=\"152.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"115.0\" x2=\"58.0\" y2=\"85.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"90.5\" y1=\"88.8\" x2=\"90.5\" y2=\"148.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"122.5\" x2=\"58.0\" y2=\"92.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"84.0\" y2=\"145.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"58.0\" y2=\"100.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"77.5\" y1=\"81.2\" x2=\"77.5\" y2=\"141.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"137.5\" x2=\"58.0\" y2=\"107.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"71.0\" y1=\"77.5\" x2=\"71.0\" y2=\"137.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"145.0\" x2=\"58.0\" y2=\"115.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"64.5\" y1=\"73.8\" x2=\"64.5\" y2=\"133.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"152.5\" x2=\"58.0\" y2=\"122.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"116.5\" y1=\"96.2\" x2=\"116.5\" y2=\"156.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"107.5\" x2=\"162.0\" y2=\"77.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"123.0\" y1=\"92.5\" x2=\"123.0\" y2=\"152.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"115.0\" x2=\"162.0\" y2=\"85.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"129.5\" y1=\"88.8\" x2=\"129.5\" y2=\"148.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"122.5\" x2=\"162.0\" y2=\"92.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"136.0\" y2=\"145.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"162.0\" y2=\"100.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"142.5\" y1=\"81.2\" x2=\"142.5\" y2=\"141.2\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"137.5\" x2=\"162.0\" y2=\"107.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"149.0\" y1=\"77.5\" x2=\"149.0\" y2=\"137.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"145.0\" x2=\"162.0\" y2=\"115.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"155.5\" y1=\"73.8\" x2=\"155.5\" y2=\"133.8\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"152.5\" x2=\"162.0\" y2=\"122.5\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/></svg>",
+      "explanation": {
+        "en": "The 8 corner cubes have 3 painted faces, the edge cubes have 2 [12 × (8 − 2) = 72], the face-centre cubes have 1 [6 × (8 − 2)² = 216] and the inner cubes have none [(8 − 2)³ = 216]. Here exactly 3 painted face(s) gives 8 cubes.",
+        "as": "৮টা চুকৰ ঘনকত ৩টা পৃষ্ঠত ৰং থাকে, ধাৰৰ ঘনকত ২টা, পৃষ্ঠৰ মাজৰ ঘনকত ১টা আৰু ভিতৰৰ ঘনকত এটাও নাথাকে। ইয়াত ঠিক 3টা পৃষ্ঠত ৰং থকা ঘনকৰ সংখ্যা 8।"
+      }
+    },
+    {
+      "id": "current-affairs-107",
+      "q": {
+        "en": "Which Assamese city is known for the 'Kamakhya Temple'?",
+        "as": "কোনখন অসমীয়া চহৰ 'কামাখ্যা মন্দিৰ'ৰ বাবে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Tezpur",
+          "as": "তেজপুৰ"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Kamakhya Temple is located in Guwahati, Assam.",
+        "as": "কামাখ্যা মন্দিৰ অসমৰ গুৱাহাটীত অৱস্থিত।"
+      }
+    },
+    {
+      "id": "assam-culture-070",
+      "q": {
+        "en": "Which place in Assam is famous for bell metal and brass industry?",
+        "as": "অসমৰ কোন স্থান কাঁহ আৰু পিতল উদ্যোগৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        {
+          "en": "Sarthebari",
+          "as": "সৰ্থেবাৰী"
+        },
+        {
+          "en": "Sualkuchi",
+          "as": "শুৱালকুছি"
+        },
+        {
+          "en": "Majuli",
+          "as": "মাজুলী"
+        },
+        {
+          "en": "Asharikandi",
+          "as": "আশাৰীকান্দি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sarthebari in Barpeta district is famous for the bell metal and brass industry.",
+        "as": "বৰপেটা জিলাৰ সৰ্থেবাৰী কাঁহ-পিতল উদ্যোগৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "id": "current-affairs-117",
+      "q": {
+        "en": "Which Assamese festival is celebrated in the month of Kati?",
+        "as": "কাতি মাহত কোনটো অসমীয়া উৎসৱ উদযাপন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Bohag Bihu",
+          "as": "বহাগ বিহু"
+        },
+        {
+          "en": "Kati Bihu",
+          "as": "কাতি বিহু"
+        },
+        {
+          "en": "Magh Bihu",
+          "as": "মাঘ বিহু"
+        },
+        {
+          "en": "Bhogali Bihu",
+          "as": "ভোগালী বিহু"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Kati Bihu is celebrated in the Assamese month of Kati (October-November).",
+        "as": "কাতি বিহু অসমীয়া কাতি মাহত (অক্টোবৰ-নৱেম্বৰ) উদযাপন কৰা হয়।"
+      }
+    },
+    {
+      "id": "current-affairs-135",
+      "q": {
+        "en": "Which is the highest mountain peak in Assam?",
+        "as": "অসমৰ আটাইতকৈ ওখ পৰ্বত শিখৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Barail",
+          "as": "বৰাইল"
+        },
+        {
+          "en": "Kollong",
+          "as": "কলং"
+        },
+        {
+          "en": "Hempeupet",
+          "as": "হেম্পিউপেট"
+        },
+        {
+          "en": "Singhason",
+          "as": "সিংহাসন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Hempeupet is the highest peak in Assam, located in Karbi Anglong.",
+        "as": "হেম্পিউপেট অসমৰ আটাইতকৈ ওখ শিখৰ, কাৰ্বি আংলঙত অৱস্থিত।"
+      }
+    },
+    {
+      "id": "assam-culture-108",
+      "q": {
+        "en": "The Bagurumba dance is performed by women of which community?",
+        "as": "বাগৰুম্বা নৃত্য কোন সম্প্ৰদায়ৰ মহিলাই পৰিৱেশন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Rabha",
+          "as": "ৰাভা"
+        },
+        {
+          "en": "Mising",
+          "as": "মিচিং"
+        },
+        {
+          "en": "Karbi",
+          "as": "কাৰ্বি"
+        },
+        {
+          "en": "Bodo",
+          "as": "বড়ো"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bagurumba is performed by Bodo women.",
+        "as": "বাগৰুম্বা বড়ো মহিলাই পৰিৱেশন কৰে।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-016",
+      "q": {
+        "en": "Two different positions of the same dice are shown. Which colour is opposite to Red?",
+        "as": "একে পাশাৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। Red ৰ বিপৰীত দিশত কোনটো ৰং থাকে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#dc2626\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Red</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#f97316\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Orange</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#2563eb\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Blue</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#7c3aed\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Purple</text></svg>"
+        }
+      ],
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 118\" width=\"322\" height=\"165\"><rect x=\"2\" y=\"2\" width=\"226\" height=\"114\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"60.0,50.0 92.9,31.0 60.0,12.0 27.1,31.0\" fill=\"#dc2626\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 27.1,31.0 27.1,69.0 60.0,88.0\" fill=\"#facc15\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 92.9,31.0 92.9,69.0 60.0,88.0\" fill=\"#7c3aed\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><text x=\"60\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">1</text><polygon points=\"170.0,50.0 202.9,31.0 170.0,12.0 137.1,31.0\" fill=\"#f97316\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 137.1,31.0 137.1,69.0 170.0,88.0\" fill=\"#dc2626\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 202.9,31.0 202.9,69.0 170.0,88.0\" fill=\"#16a34a\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><text x=\"170\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">2</text></svg>",
+      "explanation": {
+        "en": "In the positions shown, Red appears together with Green, Orange, Purple, Yellow. The only colour never seen with Red is Blue, so Blue is opposite to Red.",
+        "as": "দেখুওৱা অৱস্থানবোৰত Red ৰ সৈতে Green, Orange, Purple, Yellow দেখা যায়। Red ৰ সৈতে কেতিয়াও নেদেখা একমাত্ৰ ৰংটো Blue, গতিকে Red ৰ বিপৰীত ফালে Blue থাকে।"
+      }
+    },
+    {
+      "id": "assam-history-190",
+      "q": {
+        "en": "Which Assamese social reformer worked for women's education and rights?",
+        "as": "কোন অসমীয়া সমাজ সংস্কাৰকে নাৰী শিক্ষা আৰু অধিকাৰৰ বাবে কাম কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Joymoti Kunwari",
+          "as": "জয়মতী কুঁৱৰী"
+        },
+        {
+          "en": "Chandraprabha Saikiani",
+          "as": "চন্দ্ৰপ্ৰভা শইকীয়ানী"
+        },
+        {
+          "en": "Phuleswari",
+          "as": "ফুলেশ্বৰী"
+        },
+        {
+          "en": "Mula Gabharu",
+          "as": "মুলা গাভৰু"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Chandraprabha Saikiani championed women's education and rights.",
+        "as": "চন্দ্ৰপ্ৰভা শইকীয়ানীয়ে নাৰী শিক্ষা আৰু অধিকাৰৰ হৈ কাম কৰিছিল।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-149",
+      "q": {
+        "en": "How many times do the hands of a clock make a right angle in a day?",
+        "as": "এদিনত ঘড়ীৰ কাঁটা দুটাই কিমানবাৰ সমকোণ (৯০°) সৃষ্টি কৰে?"
+      },
+      "options": [
+        {
+          "en": "44",
+          "as": "৪৪"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "48",
+          "as": "৪৮"
+        },
+        {
+          "en": "22",
+          "as": "২২"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The hands are at right angles 22 times in 12 hours, so 44 times in a day.",
+        "as": "১২ ঘণ্টাত কাঁটা ২২ বাৰ সমকোণত থাকে, গতিকে এদিনত ৪৪ বাৰ।"
+      }
+    },
+    {
+      "id": "static-gk-187",
+      "q": {
+        "en": "The capital of Gujarat is —",
+        "as": "গুজৰাটৰ ৰাজধানী কি —"
+      },
+      "options": [
+        {
+          "en": "Ahmedabad",
+          "as": "আহমেদাবাদ"
+        },
+        {
+          "en": "Gandhinagar",
+          "as": "গান্ধীনগৰ"
+        },
+        {
+          "en": "Surat",
+          "as": "ছুৰাট"
+        },
+        {
+          "en": "Vadodara",
+          "as": "ভাডোদৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The capital of Gujarat is Gandhinagar.",
+        "as": "গুজৰাটৰ ৰাজধানী গান্ধীনগৰ।"
+      }
+    },
+    {
+      "id": "indian-polity-constitution-007",
+      "q": {
+        "en": "Which Article of the Constitution declares India a 'Union of States'?",
+        "as": "সংবিধানৰ কোনটো অনুচ্ছেদে ভাৰতক 'ৰাজ্যসমূহৰ সংঘ' বুলি ঘোষণা কৰিছে?"
+      },
+      "options": [
+        {
+          "en": "Article 1",
+          "as": "অনুচ্ছেদ ১"
+        },
+        {
+          "en": "Article 2",
+          "as": "অনুচ্ছেদ ২"
+        },
+        {
+          "en": "Article 3",
+          "as": "অনুচ্ছেদ ৩"
+        },
+        {
+          "en": "Article 4",
+          "as": "অনুচ্ছেদ ৪"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Article 1 declares that India, that is Bharat, shall be a Union of States.",
+        "as": "অনুচ্ছেদ ১য়ে ঘোষণা কৰে যে ভাৰত, অৰ্থাৎ ভাৰতবৰ্ষ, ৰাজ্যসমূহৰ সংঘ হ'ব।"
+      }
+    },
+    {
+      "id": "assam-geography-127",
+      "q": {
+        "en": "What was the sex ratio of Assam according to the 2011 Census?",
+        "as": "২০১১ চনৰ জনগণনা অনুসৰি অসমৰ লিংগ অনুপাত কিমান আছিল?"
+      },
+      "options": [
+        {
+          "en": "1000 females per 1000 males",
+          "as": "১০০০ পুৰুষত ১০০০ মহিলা"
+        },
+        {
+          "en": "958 females per 1000 males",
+          "as": "১০০০ পুৰুষত ৯৫৮ মহিলা"
+        },
+        {
+          "en": "900 females per 1000 males",
+          "as": "১০০০ পুৰুষত ৯০০ মহিলা"
+        },
+        {
+          "en": "940 females per 1000 males",
+          "as": "১০০০ পুৰুষত ৯৪০ মহিলা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam's sex ratio in 2011 was 958 females per 1000 males.",
+        "as": "২০১১ চনত অসমৰ লিংগ অনুপাত ১০০০ পুৰুষত ৯৫৮ মহিলা আছিল।"
+      }
+    },
+    {
+      "id": "time-speed-distance-005",
+      "q": {
+        "en": "The speed of a boat in still water is 10 km/h and the speed of the stream is 2 km/h. Find the downstream speed.",
+        "as": "স্থিৰ পানীত এখন নাৱৰ গতিবেগ ১০ কিমি/ঘণ্টা আৰু সোঁতৰ গতিবেগ ২ কিমি/ঘণ্টা। সোঁতৰ অনুকূল গতিবেগ নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "8 km/h",
+          "as": "৮ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "12 km/h",
+          "as": "১২ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "10 km/h",
+          "as": "১০ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "14 km/h",
+          "as": "১৪ কিমি/ঘণ্টা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Downstream speed = boat speed + stream speed = 10 + 2 = 12 km/h.",
+        "as": "সোঁতৰ অনুকূল গতিবেগ = নাৱৰ গতিবেগ + সোঁতৰ গতিবেগ = ১০ + ২ = ১২ কিমি/ঘণ্টা।"
+      }
+    },
+    {
+      "id": "time-speed-distance-006",
+      "q": {
+        "en": "The speed of a boat in still water is 12 km/h and the speed of the stream is 3 km/h. Find the upstream speed.",
+        "as": "স্থিৰ পানীত এখন নাৱৰ গতিবেগ ১২ কিমি/ঘণ্টা আৰু সোঁতৰ গতিবেগ ৩ কিমি/ঘণ্টা। সোঁতৰ প্ৰতিকূল গতিবেগ নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "9 km/h",
+          "as": "৯ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "12 km/h",
+          "as": "১২ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "15 km/h",
+          "as": "১৫ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "6 km/h",
+          "as": "৬ কিমি/ঘণ্টা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Upstream speed = boat speed - stream speed = 12 - 3 = 9 km/h.",
+        "as": "সোঁতৰ প্ৰতিকূল গতিবেগ = নাৱৰ গতিবেগ - সোঁতৰ গতিবেগ = ১২ - ৩ = ৯ কিমি/ঘণ্টা।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-135",
+      "q": {
+        "en": "What is the angle between the hour hand and the minute hand of a clock at 7:10?",
+        "as": "৭:১০ বজাত ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "185°",
+          "as": "১৮৫°"
+        },
+        {
+          "en": "155°",
+          "as": "১৫৫°"
+        },
+        {
+          "en": "170°",
+          "as": "১৭০°"
+        },
+        {
+          "en": "125°",
+          "as": "১২৫°"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "At 7:10, the hour hand is at 215° and the minute hand at 60°; the angle is 155°.",
+        "as": "৭:১০ বজাত ঘণ্টাৰ কাঁটা ২১৫° আৰু মিনিটৰ কাঁটা ৬০° ত থাকে; কোণ = ১৫৫°।"
+      }
+    },
+    {
+      "id": "indian-history-national-movement-069",
+      "q": {
+        "en": "Who was the first woman President of the Indian National Congress?",
+        "as": "ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম মহিলা সভাপতি কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Sarojini Naidu",
+          "as": "সৰোজিনী নাইডু"
+        },
+        {
+          "en": "Annie Besant",
+          "as": "এনি বেছাণ্ট"
+        },
+        {
+          "en": "Indira Gandhi",
+          "as": "ইন্দিৰা গান্ধী"
+        },
+        {
+          "en": "Vijaya Lakshmi Pandit",
+          "as": "বিজয়া লক্ষ্মী পণ্ডিত"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sarojini Naidu was the first Indian woman President of the Indian National Congress.",
+        "as": "সৰোজিনী নাইডু ভাৰতীয় জাতীয় কংগ্ৰেছৰ প্ৰথম ভাৰতীয় মহিলা সভাপতি আছিল।"
+      }
+    },
+    {
+      "id": "assam-history-194",
+      "q": {
+        "en": "Which freedom fighter from Assam became the President of India?",
+        "as": "অসমৰ কোন স্বাধীনতা সংগ্ৰামী ভাৰতৰ ৰাষ্ট্ৰপতি হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Bishnuram Medhi",
+          "as": "বিষ্ণুৰাম মেধি"
+        },
+        {
+          "en": "Fakhruddin Ali Ahmed",
+          "as": "ফখৰুদ্দিন আলী আহমেদ"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Tarun Ram Phukan",
+          "as": "তৰুণ ৰাম ফুকন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Fakhruddin Ali Ahmed served as the President of India.",
+        "as": "ফখৰুদ্দিন আলী আহমেদ ভাৰতৰ ৰাষ্ট্ৰপতি হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+      }
+    },
+    {
+      "id": "current-affairs-116",
+      "q": {
+        "en": "Which Assamese reformer established the 'Satras'?",
+        "as": "কোন অসমীয়া সংস্কাৰকে 'সত্ৰ' প্ৰতিষ্ঠা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Damodardeva",
+          "as": "দামোদৰদেৱ"
+        },
+        {
+          "en": "Srimanta Sankardeva",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Harideva",
+          "as": "হৰিদেৱ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Srimanta Sankardeva established the Satra institutions of Assam.",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে অসমৰ সত্ৰ প্ৰতিষ্ঠানসমূহ প্ৰতিষ্ঠা কৰিছিল।"
+      }
+    },
+    {
+      "id": "current-affairs-074",
+      "q": {
+        "en": "The 'Kaziranga National Park' was declared a UNESCO World Heritage Site in which year?",
+        "as": "'কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান' কোন বছৰত ইউনেস্কো বিশ্ব ঐতিহ্য স্থান হিচাপে ঘোষিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1974",
+          "as": "১৯৭৪"
+        },
+        {
+          "en": "1990",
+          "as": "১৯৯০"
+        },
+        {
+          "en": "2000",
+          "as": "২০০০"
+        },
+        {
+          "en": "1985",
+          "as": "১৯৮৫"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Kaziranga National Park was declared a UNESCO World Heritage Site in 1985.",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ১৯৮৫ চনত ইউনেস্কো বিশ্ব ঐতিহ্য স্থান হিচাপে ঘোষিত হৈছিল।"
+      }
+    },
+    {
+      "id": "assam-culture-075",
+      "q": {
+        "en": "The traditional Assamese women's attire 'Mekhela Chador' is made of which fabric?",
+        "as": "পৰম্পৰাগত অসমীয়া মহিলাৰ পোছাক 'মেখেলা চাদৰ' কোন কাপোৰৰ পৰা তৈয়াৰ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Silk",
+          "as": "ৰেচম"
+        },
+        {
+          "en": "Leather",
+          "as": "চামৰা"
+        },
+        {
+          "en": "Jute",
+          "as": "পাট"
+        },
+        {
+          "en": "Wool",
+          "as": "ঊণ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mekhela Chador is traditionally woven from silk.",
+        "as": "মেখেলা চাদৰ পৰম্পৰাগতভাৱে ৰেচমৰ পৰা বোৱা হয়।"
+      }
+    },
+    {
+      "id": "current-affairs-092",
+      "q": {
+        "en": "Which organisation publishes the Economic Survey of India?",
+        "as": "ভাৰতৰ অৰ্থনৈতিক সমীক্ষা কোনে প্ৰকাশ কৰে?"
+      },
+      "options": [
+        {
+          "en": "RBI",
+          "as": "আৰবিআই"
+        },
+        {
+          "en": "NITI Aayog",
+          "as": "নীতি আয়োগ"
+        },
+        {
+          "en": "Ministry of Finance",
+          "as": "বিত্ত মন্ত্ৰালয়"
+        },
+        {
+          "en": "SEBI",
+          "as": "চেবি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Economic Survey is prepared by the Ministry of Finance and presented before the Union Budget.",
+        "as": "অৰ্থনৈতিক সমীক্ষা বিত্ত মন্ত্ৰালয়ে প্ৰস্তুত কৰে আৰু কেন্দ্ৰীয় বাজেটৰ আগত উপস্থাপন কৰে।"
+      }
+    },
+    {
+      "id": "indian-polity-constitution-008",
+      "q": {
+        "en": "How many subjects are listed in the Union List?",
+        "as": "সংঘ তালিকাত কিমানটা বিষয় আছে?"
+      },
+      "options": [
+        {
+          "en": "97",
+          "as": "৯৭"
+        },
+        {
+          "en": "66",
+          "as": "৬৬"
+        },
+        {
+          "en": "47",
+          "as": "৪৭"
+        },
+        {
+          "en": "100",
+          "as": "১০০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Union List originally had 97 subjects (now 100).",
+        "as": "সংঘ তালিকাত আৰম্ভণিতে ৯৭টা বিষয় আছিল (বৰ্তমান ১০০)।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-020",
+      "q": {
+        "en": "A cube is painted on all its faces and then cut into 3 × 3 × 3 small cubes. How many small cubes have exactly 2 faces painted?",
+        "as": "এটা ঘনকৰ আটাইবোৰ পৃষ্ঠত ৰং লগাই তাৰ পিছত 3 × 3 × 3 টা সৰু ঘনকত কটা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক 2টা পৃষ্ঠত ৰং লগা আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">12</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">4</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">1</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">20</text></svg>"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"297\" height=\"270\"><rect x=\"2\" y=\"2\" width=\"216\" height=\"196\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"110.0,100.0 162.0,70.0 110.0,40.0 58.0,70.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 58.0,70.0 58.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 162.0,70.0 162.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"127.3\" y1=\"90.0\" x2=\"75.4\" y2=\"60.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"92.7\" y1=\"90.0\" x2=\"144.6\" y2=\"60.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"144.6\" y1=\"80.0\" x2=\"92.7\" y2=\"50.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"75.4\" y1=\"80.0\" x2=\"127.3\" y2=\"50.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"92.7\" y1=\"90.0\" x2=\"92.7\" y2=\"150.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"120.0\" x2=\"58.0\" y2=\"90.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"75.4\" y1=\"80.0\" x2=\"75.4\" y2=\"140.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"140.0\" x2=\"58.0\" y2=\"110.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"127.3\" y1=\"90.0\" x2=\"127.3\" y2=\"150.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"120.0\" x2=\"162.0\" y2=\"90.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"144.6\" y1=\"80.0\" x2=\"144.6\" y2=\"140.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"140.0\" x2=\"162.0\" y2=\"110.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/></svg>",
+      "explanation": {
+        "en": "The 8 corner cubes have 3 painted faces, the edge cubes have 2 [12 × (3 − 2) = 12], the face-centre cubes have 1 [6 × (3 − 2)² = 6] and the inner cubes have none [(3 − 2)³ = 1]. Here exactly 2 painted face(s) gives 12 cubes.",
+        "as": "৮টা চুকৰ ঘনকত ৩টা পৃষ্ঠত ৰং থাকে, ধাৰৰ ঘনকত ২টা, পৃষ্ঠৰ মাজৰ ঘনকত ১টা আৰু ভিতৰৰ ঘনকত এটাও নাথাকে। ইয়াত ঠিক 2টা পৃষ্ঠত ৰং থকা ঘনকৰ সংখ্যা 12।"
+      }
+    },
+    {
+      "id": "indian-polity-constitution-020",
+      "q": {
+        "en": "Under which Article can the President impose President's Rule in a State?",
+        "as": "ৰাষ্ট্ৰপতিয়ে এটা ৰাজ্যত ৰাষ্ট্ৰপতি শাসন বলৱৎ কৰিব পৰা অনুচ্ছেদ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Article 352",
+          "as": "অনুচ্ছেদ ৩৫২"
+        },
+        {
+          "en": "Article 356",
+          "as": "অনুচ্ছেদ ৩৫৬"
+        },
+        {
+          "en": "Article 360",
+          "as": "অনুচ্ছেদ ৩৬০"
+        },
+        {
+          "en": "Article 370",
+          "as": "অনুচ্ছেদ ৩৭০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Under Article 356, the President can impose President's Rule in a State if constitutional machinery fails.",
+        "as": "অনুচ্ছেদ ৩৫৬ৰ অধীনত সাংবিধানিক যন্ত্ৰব্যস্থা বিফল হ'লে ৰাষ্ট্ৰপতিয়ে ৰাজ্যত ৰাষ্ট্ৰপতি শাসন বলৱৎ কৰিব পাৰে।"
+      }
+    },
+    {
+      "id": "general-science-technology-165",
+      "q": {
+        "en": "The maximum number of electrons that the first shell of an atom can hold is?",
+        "as": "পৰমাণুৰ প্ৰথম কক্ষত সৰ্বাধিক কিমানটা ইলেক্ট্ৰন থাকিব পাৰে?"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The first shell of an atom can hold a maximum of 2 electrons.",
+        "as": "পৰমাণুৰ প্ৰথম কক্ষত সৰ্বাধিক ২ টা ইলেক্ট্ৰন থাকিব পাৰে।"
+      }
+    },
+    {
+      "id": "assam-culture-069",
+      "q": {
+        "en": "The 'Xorai' is a traditional Assamese vessel used for what?",
+        "as": "চৰাই অসমৰ পৰম্পৰাগত পাত্ৰ কি কামত ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Offering betel nut and showing respect",
+          "as": "চুপাৰি আগবঢ়াই সন্মান জনোৱা"
+        },
+        {
+          "en": "Carrying water",
+          "as": "পানী কঢ়িওৱা"
+        },
+        {
+          "en": "Cooking rice",
+          "as": "চাউল ৰন্ধা"
+        },
+        {
+          "en": "Storing grain",
+          "as": "ধান ভঁৰাল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Xorai is a bell-metal stand used to offer betel nut and show respect.",
+        "as": "চৰাই কাঁহৰ পাত্ৰ যি চুপাৰি আগবঢ়াই সন্মান জনাবলৈ ব্যৱহাৰ কৰা হয়।"
+      }
+    },
+    {
+      "id": "current-affairs-127",
+      "q": {
+        "en": "Which is the largest planet in the solar system?",
+        "as": "সৌৰজগতৰ আটাইতকৈ ডাঙৰ গ্ৰহ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Saturn",
+          "as": "শনি"
+        },
+        {
+          "en": "Jupiter",
+          "as": "বৃহস্পতি"
+        },
+        {
+          "en": "Neptune",
+          "as": "নেপচুন"
+        },
+        {
+          "en": "Earth",
+          "as": "পৃথিৱী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Jupiter is the largest planet in the solar system.",
+        "as": "বৃহস্পতি সৌৰজগতৰ আটাইতকৈ ডাঙৰ গ্ৰহ।"
+      }
+    },
+    {
+      "id": "current-affairs-103",
+      "q": {
+        "en": "Which Assamese dance is performed by the Bodo community?",
+        "as": "কোন অসমীয়া নৃত্য বড়ো জনগোষ্ঠীয়ে পৰিবেশন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Bihu",
+          "as": "বিহু"
+        },
+        {
+          "en": "Sattriya",
+          "as": "সত্ৰীয়া"
+        },
+        {
+          "en": "Jhumur",
+          "as": "ঝুমুৰ"
+        },
+        {
+          "en": "Bagurumba",
+          "as": "বাগৰুম্বা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bagurumba is a traditional folk dance of the Bodo community of Assam.",
+        "as": "বাগৰুম্বা অসমৰ বড়ো জনগোষ্ঠীৰ পৰম্পৰাগত লোকনৃত্য।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-047",
+      "q": {
+        "en": "A cube is painted on all its faces and then cut into 6 × 6 × 6 small cubes. How many small cubes have at least 1 face painted?",
+        "as": "এটা ঘনকৰ আটাইবোৰ পৃষ্ঠত ৰং লগাই তাৰ পিছত 6 × 6 × 6 টা সৰু ঘনকত কটা হ'ল। কিমানটা সৰু ঘনকৰ অতি কমেও 1টা পৃষ্ঠত ৰং লগা আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">152</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">72</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">48</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">8</text></svg>"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"297\" height=\"270\"><rect x=\"2\" y=\"2\" width=\"216\" height=\"196\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"110.0,100.0 162.0,70.0 110.0,40.0 58.0,70.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 58.0,70.0 58.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 162.0,70.0 162.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"118.7\" y1=\"95.0\" x2=\"66.7\" y2=\"65.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"101.3\" y1=\"95.0\" x2=\"153.3\" y2=\"65.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"127.3\" y1=\"90.0\" x2=\"75.4\" y2=\"60.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"92.7\" y1=\"90.0\" x2=\"144.6\" y2=\"60.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"84.0\" y2=\"55.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"136.0\" y2=\"55.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"144.6\" y1=\"80.0\" x2=\"92.7\" y2=\"50.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"75.4\" y1=\"80.0\" x2=\"127.3\" y2=\"50.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"153.3\" y1=\"75.0\" x2=\"101.3\" y2=\"45.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"66.7\" y1=\"75.0\" x2=\"118.7\" y2=\"45.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"101.3\" y1=\"95.0\" x2=\"101.3\" y2=\"155.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"110.0\" x2=\"58.0\" y2=\"80.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"92.7\" y1=\"90.0\" x2=\"92.7\" y2=\"150.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"120.0\" x2=\"58.0\" y2=\"90.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"84.0\" y2=\"145.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"58.0\" y2=\"100.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"75.4\" y1=\"80.0\" x2=\"75.4\" y2=\"140.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"140.0\" x2=\"58.0\" y2=\"110.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"66.7\" y1=\"75.0\" x2=\"66.7\" y2=\"135.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"150.0\" x2=\"58.0\" y2=\"120.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"118.7\" y1=\"95.0\" x2=\"118.7\" y2=\"155.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"110.0\" x2=\"162.0\" y2=\"80.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"127.3\" y1=\"90.0\" x2=\"127.3\" y2=\"150.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"120.0\" x2=\"162.0\" y2=\"90.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"136.0\" y2=\"145.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"162.0\" y2=\"100.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"144.6\" y1=\"80.0\" x2=\"144.6\" y2=\"140.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"140.0\" x2=\"162.0\" y2=\"110.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"153.3\" y1=\"75.0\" x2=\"153.3\" y2=\"135.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"150.0\" x2=\"162.0\" y2=\"120.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/></svg>",
+      "explanation": {
+        "en": "Cubes with at least 1 painted face(s) are counted by adding the corner, edge and face-centre cubes (as required): the total here is 152.",
+        "as": "অতি কমেও 1টা পৃষ্ঠত ৰং থকা ঘনকবোৰ চুক, ধাৰ আৰু পৃষ্ঠৰ ঘনক যোগ কৰি গণনা কৰা হয়; ইয়াত মুঠ 152টা।"
+      }
+    },
+    {
+      "id": "current-affairs-122",
+      "q": {
+        "en": "Which is the largest tribe of Assam by population?",
+        "as": "জনসংখ্যাৰ ফালৰ পৰা অসমৰ আটাইতকৈ ডাঙৰ জনজাতি কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Mishing",
+          "as": "মিচিং"
+        },
+        {
+          "en": "Karbi",
+          "as": "কাৰ্বি"
+        },
+        {
+          "en": "Rabha",
+          "as": "ৰাভা"
+        },
+        {
+          "en": "Bodo",
+          "as": "বড়ো"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Bodo community is the largest tribal group in Assam by population.",
+        "as": "জনসংখ্যাৰ ফালৰ পৰা বড়ো জনগোষ্ঠী অসমৰ আটাইতকৈ ডাঙৰ জনজাতি গোট।"
+      }
+    },
+    {
+      "id": "assam-history-138",
+      "q": {
+        "en": "Who was the first Assamese to establish tea gardens as an entrepreneur?",
+        "as": "উদ্যোগী হিচাপে চাহ বাগিচা স্থাপন কৰা প্ৰথম অসমীয়া কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Tarun Ram Phukan",
+          "as": "তৰুণ ৰাম ফুকন"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        },
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Maniram Dewan was the first Assamese tea planter.",
+        "as": "মণিৰাম দেৱান প্ৰথম অসমীয়া চাহ খেতিয়ক আছিল।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-056",
+      "q": {
+        "en": "A cube is painted red on one pair of opposite faces, green on the second pair and blue on the third pair. It is cut into 4 × 4 × 4 small cubes. How many small cubes have only one colour on them?",
+        "as": "এটা ঘনকৰ এক যোৰ বিপৰীত পৃষ্ঠত ৰঙা, দ্বিতীয় যোৰত সেউজীয়া আৰু তৃতীয় যোৰত নীলা ৰং লগাই 4 × 4 × 4 টা সৰু ঘনকত কটা হ'ল। কিমানটা সৰু ঘনকত মাত্ৰ এটা ৰং থাকে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">24</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">16</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">8</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">96</text></svg>"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"297\" height=\"270\"><rect x=\"2\" y=\"2\" width=\"216\" height=\"196\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"110.0,100.0 162.0,70.0 110.0,40.0 58.0,70.0\" fill=\"#dc2626\" stroke=\"#1e293b\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 58.0,70.0 58.0,130.0 110.0,160.0\" fill=\"#16a34a\" stroke=\"#1e293b\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 162.0,70.0 162.0,130.0 110.0,160.0\" fill=\"#2563eb\" stroke=\"#1e293b\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"123.0\" y1=\"92.5\" x2=\"71.0\" y2=\"62.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"97.0\" y1=\"92.5\" x2=\"149.0\" y2=\"62.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"84.0\" y2=\"55.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"136.0\" y2=\"55.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"149.0\" y1=\"77.5\" x2=\"97.0\" y2=\"47.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"71.0\" y1=\"77.5\" x2=\"123.0\" y2=\"47.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"97.0\" y1=\"92.5\" x2=\"97.0\" y2=\"152.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"115.0\" x2=\"58.0\" y2=\"85.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"84.0\" y2=\"145.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"58.0\" y2=\"100.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"71.0\" y1=\"77.5\" x2=\"71.0\" y2=\"137.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"145.0\" x2=\"58.0\" y2=\"115.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"123.0\" y1=\"92.5\" x2=\"123.0\" y2=\"152.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"115.0\" x2=\"162.0\" y2=\"85.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"136.0\" y2=\"145.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"162.0\" y2=\"100.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"149.0\" y1=\"77.5\" x2=\"149.0\" y2=\"137.5\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"145.0\" x2=\"162.0\" y2=\"115.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/></svg>",
+      "explanation": {
+        "en": "The face-centre cubes have only one painted face (one colour). There are 6 faces, each with (4 − 2)² such cubes, so 6 × (4 − 2)² = 24.",
+        "as": "পৃষ্ঠৰ মাজৰ ঘনকবোৰত মাত্ৰ এটা ৰঙীন পৃষ্ঠ থাকে (এটা ৰং)। ৬টা পৃষ্ঠ, প্ৰতিটোত (4 − 2)² টা, গতিকে 6 × (4 − 2)² = 24।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-030",
+      "q": {
+        "en": "A cube is painted on all its faces and then cut into 5 × 5 × 5 small cubes. How many small cubes have exactly 0 faces painted?",
+        "as": "এটা ঘনকৰ আটাইবোৰ পৃষ্ঠত ৰং লগাই তাৰ পিছত 5 × 5 × 5 টা সৰু ঘনকত কটা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক 0টা পৃষ্ঠত ৰং লগা আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">36</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">48</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">27</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">8</text></svg>"
+        }
+      ],
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"297\" height=\"270\"><rect x=\"2\" y=\"2\" width=\"216\" height=\"196\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"110.0,100.0 162.0,70.0 110.0,40.0 58.0,70.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 58.0,70.0 58.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 162.0,70.0 162.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"120.4\" y1=\"94.0\" x2=\"68.4\" y2=\"64.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"99.6\" y1=\"94.0\" x2=\"151.6\" y2=\"64.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"130.8\" y1=\"88.0\" x2=\"78.8\" y2=\"58.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"89.2\" y1=\"88.0\" x2=\"141.2\" y2=\"58.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"141.2\" y1=\"82.0\" x2=\"89.2\" y2=\"52.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"78.8\" y1=\"82.0\" x2=\"130.8\" y2=\"52.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"151.6\" y1=\"76.0\" x2=\"99.6\" y2=\"46.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"68.4\" y1=\"76.0\" x2=\"120.4\" y2=\"46.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"99.6\" y1=\"94.0\" x2=\"99.6\" y2=\"154.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"58.0\" y2=\"82.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"89.2\" y1=\"88.0\" x2=\"89.2\" y2=\"148.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"124.0\" x2=\"58.0\" y2=\"94.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"78.8\" y1=\"82.0\" x2=\"78.8\" y2=\"142.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"136.0\" x2=\"58.0\" y2=\"106.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"68.4\" y1=\"76.0\" x2=\"68.4\" y2=\"136.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"148.0\" x2=\"58.0\" y2=\"118.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"120.4\" y1=\"94.0\" x2=\"120.4\" y2=\"154.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"162.0\" y2=\"82.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"130.8\" y1=\"88.0\" x2=\"130.8\" y2=\"148.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"124.0\" x2=\"162.0\" y2=\"94.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"141.2\" y1=\"82.0\" x2=\"141.2\" y2=\"142.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"136.0\" x2=\"162.0\" y2=\"106.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"151.6\" y1=\"76.0\" x2=\"151.6\" y2=\"136.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"148.0\" x2=\"162.0\" y2=\"118.0\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/></svg>",
+      "explanation": {
+        "en": "The 8 corner cubes have 3 painted faces, the edge cubes have 2 [12 × (5 − 2) = 36], the face-centre cubes have 1 [6 × (5 − 2)² = 54] and the inner cubes have none [(5 − 2)³ = 27]. Here exactly 0 painted face(s) gives 27 cubes.",
+        "as": "৮টা চুকৰ ঘনকত ৩টা পৃষ্ঠত ৰং থাকে, ধাৰৰ ঘনকত ২টা, পৃষ্ঠৰ মাজৰ ঘনকত ১টা আৰু ভিতৰৰ ঘনকত এটাও নাথাকে। ইয়াত ঠিক 0টা পৃষ্ঠত ৰং থকা ঘনকৰ সংখ্যা 27।"
+      }
+    },
+    {
+      "id": "assam-geography-130",
+      "q": {
+        "en": "The headquarters of the Karbi Anglong Autonomous Council is at which place?",
+        "as": "কাৰ্বি আংলং স্বায়ত্তশাসিত পৰিষদৰ সদৰ ঠাই কোনখন?"
+      },
+      "options": [
+        {
+          "en": "Diphu",
+          "as": "ডিফু"
+        },
+        {
+          "en": "Kokrajhar",
+          "as": "কোকৰাঝাৰ"
+        },
+        {
+          "en": "Haflong",
+          "as": "হাফলং"
+        },
+        {
+          "en": "Hamren",
+          "as": "হামৰেণ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Karbi Anglong Autonomous Council is headquartered at Diphu.",
+        "as": "কাৰ্বি আংলং স্বায়ত্তশাসিত পৰিষদৰ সদৰ ঠাই ডিফু।"
+      }
+    },
+    {
+      "id": "time-work-014",
+      "q": {
+        "en": "Pipe A can fill a tank in 20 minutes and pipe B in 30 minutes. Both are opened for 6 minutes, then A is closed. In how many more minutes will B fill the remaining tank?",
+        "as": "পাইপ A-এ এটা টেংকী ২০ মিনিটত আৰু পাইপ B-এ ৩০ মিনিটত ভৰ্তি কৰে। দুয়োটা ৬ মিনিট খোলাৰ পিছত A বন্ধ কৰা হয়। বাকী টেংকীটো B-এ আৰু কিমান মিনিটত ভৰ্তি কৰিব?"
+      },
+      "options": [
+        {
+          "en": "12 minutes",
+          "as": "১২ মিনিট"
+        },
+        {
+          "en": "15 minutes",
+          "as": "১৫ মিনিট"
+        },
+        {
+          "en": "18 minutes",
+          "as": "১৮ মিনিট"
+        },
+        {
+          "en": "20 minutes",
+          "as": "২০ মিনিট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Combined rate = 1/20 + 1/30 = 1/12. In 6 min = 6/12 = 1/2, left = 1/2. B's rate = 1/30, so time = (1/2)/(1/30) = 15 minutes.",
+        "as": "একেলগে হাৰ = ১/২০ + ১/৩০ = ১/১২। ৬ মিনিটত = ৬/১২ = ১/২, বাকী = ১/২। B-ৰ হাৰ = ১/৩০, সেয়ে সময় = (১/২)/(১/৩০) = ১৫ মিনিট।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-089",
+      "q": {
+        "en": "Pointing to a boy, a girl said, 'He is the son of the only son of my grandfather.' How is the boy related to the girl?",
+        "as": "এজন ল'ৰালৈ আঙুলিয়াই এজনী ছোৱালীয়ে ক'লে, 'তেওঁ মোৰ ককাৰ একমাত্ৰ পুত্ৰৰ পুত্ৰ।' ল'ৰাটো ছোৱালীজনীৰ কি সম্পৰ্কীয়?"
+      },
+      "options": [
+        {
+          "en": "Father",
+          "as": "দেউতা"
+        },
+        {
+          "en": "Uncle",
+          "as": "খুড়া"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুড়তু"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The only son of the girl's grandfather is her father; his son is her brother.",
+        "as": "ছোৱালীজনীৰ ককাৰ একমাত্ৰ পুত্ৰ তাইৰ দেউতা; তেওঁৰ পুত্ৰ তাইৰ ভাই।"
+      }
+    },
+    {
+      "id": "lcm-hcf-015",
+      "q": {
+        "en": "Three traffic lights change after every 48, 72 and 108 seconds. If they change together at a certain time, after how much time will they next change together?",
+        "as": "তিনিটা ট্ৰেফিক লাইট ক্ৰমে ৪৮, ৭২ আৰু ১০৮ ছেকেণ্ডৰ পিছত সলনি হয়। যদি সিহঁত এটা নিৰ্দিষ্ট সময়ত একেলগে সলনি হয়, তেন্তে কিমান সময়ৰ পিছত পুনৰ একেলগে সলনি হ'ব?"
+      },
+      "options": [
+        {
+          "en": "360 seconds",
+          "as": "৩৬০ ছেকেণ্ড"
+        },
+        {
+          "en": "420 seconds",
+          "as": "৪২০ ছেকেণ্ড"
+        },
+        {
+          "en": "432 seconds",
+          "as": "৪৩২ ছেকেণ্ড"
+        },
+        {
+          "en": "480 seconds",
+          "as": "৪৮০ ছেকেণ্ড"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "LCM(48,72,108) = 432 seconds = 7 minutes 12 seconds.",
+        "as": "ল.সা.গু.(৪৮,৭২,১০৮) = ৪৩২ ছেকেণ্ড = ৭ মিনিট ১২ ছেকেণ্ড।"
+      }
+    },
+    {
+      "id": "current-affairs-125",
+      "q": {
+        "en": "Which Indian state is the largest producer of coffee?",
+        "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ কফি উৎপাদনকাৰী ৰাজ্য কোনখন?"
+      },
+      "options": [
+        {
+          "en": "Karnataka",
+          "as": "কৰ্ণাটক"
+        },
+        {
+          "en": "Kerala",
+          "as": "কেৰালা"
+        },
+        {
+          "en": "Tamil Nadu",
+          "as": "তামিলনাডু"
+        },
+        {
+          "en": "Andhra Pradesh",
+          "as": "অন্ধ্ৰ প্ৰদেশ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Karnataka is the largest producer of coffee in India.",
+        "as": "কৰ্ণাটক ভাৰতৰ আটাইতকৈ ডাঙৰ কফি উৎপাদনকাৰী ৰাজ্য।"
+      }
+    },
+    {
+      "id": "percentage-016",
+      "q": {
+        "en": "Find the value of 5% of 5% of 1000.",
+        "as": "১০০০ ৰ ৫% ৰ ৫% ৰ মান নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "en": "2.5",
+          "as": "২.৫"
+        },
+        {
+          "en": "0.25",
+          "as": "০.২৫"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "5% of 1000 = 50. Then 5% of 50 = 2.5.",
+        "as": "১০০০ ৰ ৫% = ৫০। তাৰ পিছত ৫০ ৰ ৫% = ২.৫।"
+      }
+    },
+    {
+      "id": "current-affairs-114",
+      "q": {
+        "en": "Deepor Beel is located in which district of Assam?",
+        "as": "দীপৰ বিল অসমৰ কোনখন জিলাত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Nagaon",
+          "as": "নগাঁও"
+        },
+        {
+          "en": "Morigaon",
+          "as": "মৰিগাঁও"
+        },
+        {
+          "en": "Kamrup Metropolitan",
+          "as": "কামৰূপ মহানগৰ"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Deepor Beel is a Ramsar site located in Kamrup Metropolitan district near Guwahati.",
+        "as": "দীপৰ বিল গুৱাহাটীৰ ওচৰৰ কামৰূপ মহানগৰ জিলাত অৱস্থিত এখন ৰামছাৰ স্থান।"
+      }
+    },
+    {
+      "id": "assam-geography-153",
+      "q": {
+        "en": "Which is the most populous state of North-East India?",
+        "as": "জনসংখ্যাৰে উত্তৰ-পূৱ ভাৰতৰ আটাইতকৈ জনবহুল ৰাজ্য কোনখন?"
+      },
+      "options": [
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Manipur",
+          "as": "মণিপুৰ"
+        },
+        {
+          "en": "Arunachal Pradesh",
+          "as": "অৰুণাচল প্ৰদেশ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam is the most populous state of the North-East.",
+        "as": "জনসংখ্যাৰে অসম উত্তৰ-পূৱৰ আটাইতকৈ জনবহুল ৰাজ্য।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-107",
+      "q": {
+        "en": "Pointing to a girl, a boy said, 'She is the daughter of my mother.' How is the girl related to the boy?",
+        "as": "এজনী ছোৱালীলৈ আঙুলিয়াই এজন ল'ৰাই ক'লে, 'তেওঁ মোৰ মাকৰ জীয়ৰী।' ছোৱালীজনী ল'ৰাটোৰ কি সম্পৰ্কীয়?"
+      },
+      "options": [
+        {
+          "en": "Mother",
+          "as": "মাক"
+        },
+        {
+          "en": "Aunt",
+          "as": "মাহী"
+        },
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুড়তু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The daughter of one's mother is one's sister.",
+        "as": "মাকৰ জীয়ৰী হৈছে ভগ্নী।"
+      }
+    },
+    {
+      "id": "assam-history-132",
+      "q": {
+        "en": "By the Treaty of Yandabo, Assam came under the control of which power?",
+        "as": "য়াণ্ডাবুৰৰ সন্ধি অনুসৰি অসম কোন শক্তিৰ অধীনলৈ আহিছিল?"
+      },
+      "options": [
+        {
+          "en": "The Mughals",
+          "as": "মোগল"
+        },
+        {
+          "en": "The Chinese",
+          "as": "চীনা"
+        },
+        {
+          "en": "The British",
+          "as": "ব্ৰিটিছ"
+        },
+        {
+          "en": "The Burmese",
+          "as": "বাৰ্মী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "By the Treaty of Yandabo, Assam passed to the British.",
+        "as": "য়াণ্ডাবুৰৰ সন্ধি অনুসৰি অসম ব্ৰিটিছৰ অধীনলৈ যায়।"
+      }
+    },
+    {
+      "id": "assam-geography-192",
+      "q": {
+        "en": "Which natural hazard besides floods commonly affects Assam?",
+        "as": "বানপানীৰ বাহিৰেও কোন প্ৰাকৃতিক দুৰ্যোগে অসমক সঘনাই প্ৰভাৱিত কৰে?"
+      },
+      "options": [
+        {
+          "en": "Blizzards",
+          "as": "বৰফৰ ধুমুহা"
+        },
+        {
+          "en": "Earthquakes",
+          "as": "ভূমিকম্প"
+        },
+        {
+          "en": "Volcanic eruptions",
+          "as": "আগ্নেয়গিৰি উদ্গিৰণ"
+        },
+        {
+          "en": "Tsunamis",
+          "as": "চুনামি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam is highly prone to earthquakes along with floods.",
+        "as": "অসম বানপানীৰ লগতে ভূমিকম্পৰ প্ৰতিও অতি সংবেদনশীল।"
+      }
+    },
+    {
+      "id": "indian-history-national-movement-058",
+      "q": {
+        "en": "The Poona Pact (1932) was signed between Mahatma Gandhi and whom?",
+        "as": "পুনা চুক্তি (১৯৩২) মহাত্মা গান্ধী আৰু কাৰ মাজত স্বাক্ষৰিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "B. R. Ambedkar",
+          "as": "বি. আৰ. আম্বেদকাৰ"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "Muhammad Ali Jinnah",
+          "as": "মহম্মদ আলী জিন্না"
+        },
+        {
+          "en": "Subhas Chandra Bose",
+          "as": "সুভাষ চন্দ্ৰ বসু"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Poona Pact (1932) was signed between Mahatma Gandhi and B. R. Ambedkar.",
+        "as": "পুনা চুক্তি (১৯৩২) মহাত্মা গান্ধী আৰু বি. আৰ. আম্বেদকাৰৰ মাজত স্বাক্ষৰিত হৈছিল।"
+      }
+    },
+    {
+      "id": "indian-history-national-movement-052",
+      "q": {
+        "en": "Mahatma Gandhi returned to India from South Africa in which year?",
+        "as": "মহাত্মা গান্ধী দক্ষিণ আফ্ৰিকাৰ পৰা কোন বছৰত ভাৰতলৈ উভতি আহিছিল?"
+      },
+      "options": [
+        {
+          "en": "1915",
+          "as": "১৯১৫"
+        },
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        },
+        {
+          "en": "1920",
+          "as": "১৯২০"
+        },
+        {
+          "en": "1930",
+          "as": "১৯৩০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mahatma Gandhi returned to India from South Africa on 9 January 1915.",
+        "as": "মহাত্মা গান্ধী ১৯১৫ চনৰ ৯ জানুৱাৰীত দক্ষিণ আফ্ৰিকাৰ পৰা ভাৰতলৈ উভতি আহিছিল।"
+      }
+    },
+    {
+      "id": "indian-world-geography-003",
+      "q": {
+        "en": "How many National Parks are there in Assam at present?",
+        "as": "বৰ্তমান অসমত কিমানখন ৰাষ্ট্ৰীয় উদ্যান আছে?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Assam currently has 7 National Parks.",
+        "as": "অসমত বৰ্তমান ৭খন ৰাষ্ট্ৰীয় উদ্যান আছে।"
+      }
+    },
+    {
+      "id": "assam-culture-104",
+      "q": {
+        "en": "The Deori community is mainly found in which part of Assam?",
+        "as": "দেউৰী সম্প্ৰদায় মূলতঃ অসমৰ কোন অংশত পোৱা যায়?"
+      },
+      "options": [
+        {
+          "en": "Upper Assam",
+          "as": "উজনি অসম"
+        },
+        {
+          "en": "Karbi Anglong",
+          "as": "কাৰ্বি আংলং"
+        },
+        {
+          "en": "Barak Valley",
+          "as": "বৰাক উপত্যকা"
+        },
+        {
+          "en": "Lower Assam",
+          "as": "নামনি অসম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Deori community is mainly found in Upper Assam.",
+        "as": "দেউৰী সম্প্ৰদায় মূলতঃ উজনি অসমত পোৱা যায়।"
+      }
+    },
+    {
+      "id": "time-speed-distance-019",
+      "q": {
+        "en": "The downstream speed of a boat is 15 km/h and the upstream speed is 9 km/h. Find the speed of the boat in still water.",
+        "as": "এখন নাৱৰ সোঁতৰ অনুকূল গতিবেগ ১৫ কিমি/ঘণ্টা আৰু প্ৰতিকূল গতিবেগ ৯ কিমি/ঘণ্টা। স্থিৰ পানীত নাৱৰ গতিবেগ নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "10 km/h",
+          "as": "১০ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "11 km/h",
+          "as": "১১ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "13 km/h",
+          "as": "১৩ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "12 km/h",
+          "as": "১২ কিমি/ঘণ্টা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Boat speed = (downstream + upstream)/2 = (15 + 9)/2 = 12 km/h.",
+        "as": "নাৱৰ গতিবেগ = (অনুকূল + প্ৰতিকূল)/২ = (১৫ + ৯)/২ = ১২ কিমি/ঘণ্টা।"
+      }
+    },
+    {
+      "id": "profit-loss-007",
+      "q": {
+        "en": "A shopkeeper marks his goods 40% above the cost price and allows a discount of 25%. Find his profit percent.",
+        "as": "এজন দোকানীয়ে নিজৰ সামগ্ৰী ক্ৰয় মূল্যতকৈ ৪০% বেছি চিহ্নিত কৰে আৰু ২৫% ৰেহাই দিয়ে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "10%",
+          "as": "১০%"
+        },
+        {
+          "en": "15%",
+          "as": "১৫%"
+        },
+        {
+          "en": "5%",
+          "as": "৫%"
+        },
+        {
+          "en": "No profit no loss",
+          "as": "কোনো লাভ বা লোকচান নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Let CP = 100, so MP = 140. SP = 140 × 75/100 = 105. Profit% = (105 - 100)/100 × 100 = 5%.",
+        "as": "ধৰা হওক ক্ৰয় মূল্য = ১০০, গতিকে চিহ্নিত মূল্য = ১৪০। বিক্ৰয় মূল্য = ১৪০ × ৭৫/১০০ = ১০৫। লাভ% = (১০৫ - ১০০)/১০০ × ১০০ = ৫%।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-061",
+      "q": {
+        "en": "A cube is painted red on one pair of opposite faces, green on the second pair and blue on the third pair. It is cut into 6 × 6 × 6 small cubes. How many small cubes have exactly two colours on them?",
+        "as": "এটা ঘনকৰ এক যোৰ বিপৰীত পৃষ্ঠত ৰঙা, দ্বিতীয় যোৰত সেউজীয়া আৰু তৃতীয় যোৰত নীলা ৰং লগাই 6 × 6 × 6 টা সৰু ঘনকত কটা হ'ল। কিমানটা সৰু ঘনকত ঠিক দুটা ৰং থাকে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">16</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">64</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">48</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">96</text></svg>"
+        }
+      ],
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"297\" height=\"270\"><rect x=\"2\" y=\"2\" width=\"216\" height=\"196\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"110.0,100.0 162.0,70.0 110.0,40.0 58.0,70.0\" fill=\"#dc2626\" stroke=\"#1e293b\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 58.0,70.0 58.0,130.0 110.0,160.0\" fill=\"#16a34a\" stroke=\"#1e293b\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 162.0,70.0 162.0,130.0 110.0,160.0\" fill=\"#2563eb\" stroke=\"#1e293b\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"118.7\" y1=\"95.0\" x2=\"66.7\" y2=\"65.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"101.3\" y1=\"95.0\" x2=\"153.3\" y2=\"65.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"127.3\" y1=\"90.0\" x2=\"75.4\" y2=\"60.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"92.7\" y1=\"90.0\" x2=\"144.6\" y2=\"60.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"84.0\" y2=\"55.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"136.0\" y2=\"55.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"144.6\" y1=\"80.0\" x2=\"92.7\" y2=\"50.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"75.4\" y1=\"80.0\" x2=\"127.3\" y2=\"50.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"153.3\" y1=\"75.0\" x2=\"101.3\" y2=\"45.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"66.7\" y1=\"75.0\" x2=\"118.7\" y2=\"45.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"101.3\" y1=\"95.0\" x2=\"101.3\" y2=\"155.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"110.0\" x2=\"58.0\" y2=\"80.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"92.7\" y1=\"90.0\" x2=\"92.7\" y2=\"150.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"120.0\" x2=\"58.0\" y2=\"90.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"84.0\" y1=\"85.0\" x2=\"84.0\" y2=\"145.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"58.0\" y2=\"100.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"75.4\" y1=\"80.0\" x2=\"75.4\" y2=\"140.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"140.0\" x2=\"58.0\" y2=\"110.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"66.7\" y1=\"75.0\" x2=\"66.7\" y2=\"135.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"150.0\" x2=\"58.0\" y2=\"120.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"118.7\" y1=\"95.0\" x2=\"118.7\" y2=\"155.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"110.0\" x2=\"162.0\" y2=\"80.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"127.3\" y1=\"90.0\" x2=\"127.3\" y2=\"150.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"120.0\" x2=\"162.0\" y2=\"90.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"136.0\" y1=\"85.0\" x2=\"136.0\" y2=\"145.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"130.0\" x2=\"162.0\" y2=\"100.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"144.6\" y1=\"80.0\" x2=\"144.6\" y2=\"140.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"140.0\" x2=\"162.0\" y2=\"110.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"153.3\" y1=\"75.0\" x2=\"153.3\" y2=\"135.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"150.0\" x2=\"162.0\" y2=\"120.0\" stroke=\"#1e293b\" stroke-width=\"0.9\" opacity=\"0.8\"/></svg>",
+      "explanation": {
+        "en": "Only the edge cubes (not the corners) carry exactly two colours. Each of the 12 edges gives (6 − 2) cubes, so 12 × (6 − 2) = 48.",
+        "as": "কেৱল ধাৰৰ ঘনকবোৰত (চুক নহয়) ঠিক দুটা ৰং থাকে। ১২টা ধাৰৰ প্ৰতিটোত (6 − 2) টা ঘনক, গতিকে 12 × (6 − 2) = 48।"
+      }
+    },
+    {
+      "id": "static-gk-172",
+      "q": {
+        "en": "The currency of the Czech Republic is —",
+        "as": "চেক গণৰাজ্যৰ মুদ্ৰা কি —"
+      },
+      "options": [
+        {
+          "en": "Leu",
+          "as": "লিউ"
+        },
+        {
+          "en": "Forint",
+          "as": "ফৰিণ্ট"
+        },
+        {
+          "en": "Koruna",
+          "as": "ক'ৰুনা"
+        },
+        {
+          "en": "Zloty",
+          "as": "জ্লটি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The currency of the Czech Republic is the Koruna.",
+        "as": "চেক গণৰাজ্যৰ মুদ্ৰা ক'ৰুনা।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-003",
+      "q": {
+        "en": "Three different positions of the same dice are shown. Which number is opposite to 6?",
+        "as": "একে পাশাৰ তিনিটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 6 ৰ বিপৰীত দিশত কোনটো সংখ্যা থাকে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">5</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">3</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">2</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">1</text></svg>"
+        }
+      ],
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 118\" width=\"475\" height=\"165\"><rect x=\"2\" y=\"2\" width=\"336\" height=\"114\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"60.0,50.0 92.9,31.0 60.0,12.0 27.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 27.1,31.0 27.1,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 92.9,31.0 92.9,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"52.1\" cy=\"35.6\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"44.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"75.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"67.9\" cy=\"26.4\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"84.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"60\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">1</text><polygon points=\"170.0,50.0 202.9,31.0 170.0,12.0 137.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 137.1,31.0 137.1,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 202.9,31.0 202.9,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"170.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"185.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"170.0\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"154.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"170.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"161.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"145.6\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"161.4\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"145.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"178.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"178.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"178.6\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"194.4\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"194.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"194.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"170\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">2</text><polygon points=\"280.0,50.0 312.9,31.0 280.0,12.0 247.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"280.0,50.0 247.1,31.0 247.1,69.0 280.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"280.0,50.0 312.9,31.0 312.9,69.0 280.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"280.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"280.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"271.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"271.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"271.4\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"255.6\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"255.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"255.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"296.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><text x=\"280\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">3</text></svg>",
+      "explanation": {
+        "en": "In the positions shown, 6 appears together with 1, 2, 4, 5. The only number never seen with 6 is 3, so 3 is opposite to 6.",
+        "as": "দেখুওৱা অৱস্থানবোৰত 6 ৰ সৈতে 1, 2, 4, 5 দেখা যায়। 6 ৰ সৈতে কেতিয়াও নেদেখা একমাত্ৰ সংখ্যাটো 3, গতিকে 6 ৰ বিপৰীত ফালে 3 থাকে।"
+      }
+    },
+    {
+      "id": "assam-geography-189",
+      "q": {
+        "en": "Which of these is a natural lake of Assam?",
+        "as": "তলৰ কোনটো অসমৰ প্ৰাকৃতিক হ্ৰদ?"
+      },
+      "options": [
+        {
+          "en": "Rang Ghar pond",
+          "as": "ৰংঘৰ পুখুৰী"
+        },
+        {
+          "en": "Joysagar tank",
+          "as": "জয়সাগৰ পুখুৰী"
+        },
+        {
+          "en": "Chandubi",
+          "as": "চান্দুবি"
+        },
+        {
+          "en": "Sivasagar tank",
+          "as": "শিৱসাগৰ পুখুৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Chandubi is a natural lake, while the Sivasagar tanks are man-made.",
+        "as": "চান্দুবি এটা প্ৰাকৃতিক হ্ৰদ, আনহাতে শিৱসাগৰৰ পুখুৰীসমূহ মানৱ নিৰ্মিত।"
+      }
+    },
+    {
+      "id": "profit-loss-011",
+      "q": {
+        "en": "A dishonest dealer sells his goods at a profit of 10% and also uses a weight of 900 g instead of 1 kg. Find his total profit percent.",
+        "as": "এজন অসাধু ব্যৱসায়ীয়ে নিজৰ সামগ্ৰী ১০% লাভত বিক্ৰী কৰে আৰু লগতে ১ কিলোগ্ৰামৰ সলনি ৯০০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "20%",
+          "as": "২০%"
+        },
+        {
+          "en": "10%",
+          "as": "১০%"
+        },
+        {
+          "en": "22.22%",
+          "as": "২২.২২%"
+        },
+        {
+          "en": "25%",
+          "as": "২৫%"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Taking 1000 g cost = Rs 100, cost of 900 g = Rs 90. He charges for 1000 g with 10% profit, so SP = Rs 110. Profit% = (110 - 90)/90 × 100 = 22.22%.",
+        "as": "১০০০ গ্ৰামৰ ক্ৰয় মূল্য = ১০০ টকা ধৰি, ৯০০ গ্ৰামৰ ক্ৰয় মূল্য = ৯০ টকা। তেওঁ ১০০০ গ্ৰামৰ দামত ১০% লাভেৰে লয়, গতিকে বিক্ৰয় মূল্য = ১১০ টকা। লাভ% = (১১০ - ৯০)/৯০ × ১০০ = ২২.২২%।"
+      }
+    },
+    {
+      "id": "assam-geography-186",
+      "q": {
+        "en": "Which two divisions together form the Barak valley?",
+        "as": "কোন দুখন বিভাগে একেলগে বৰাক উপত্যকা গঠন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Goalpara and Dhubri",
+          "as": "গোৱালপাৰা আৰু ধুবুৰী"
+        },
+        {
+          "en": "Cachar and Karimganj-Hailakandi",
+          "as": "কাছাৰ আৰু কৰিমগঞ্জ-হাইলাকান্দি"
+        },
+        {
+          "en": "Nagaon and Morigaon",
+          "as": "নগাঁও আৰু মৰিগাঁও"
+        },
+        {
+          "en": "Dibrugarh and Tinsukia",
+          "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Barak valley consists of Cachar, Karimganj and Hailakandi.",
+        "as": "বৰাক উপত্যকা কাছাৰ, কৰিমগঞ্জ আৰু হাইলাকান্দিৰে গঠিত।"
+      }
+    },
+    {
+      "id": "static-gk-186",
+      "q": {
+        "en": "The capital of Rajasthan is —",
+        "as": "ৰাজস্থানৰ ৰাজধানী কি —"
+      },
+      "options": [
+        {
+          "en": "Jodhpur",
+          "as": "যোধপুৰ"
+        },
+        {
+          "en": "Jaipur",
+          "as": "জয়পুৰ"
+        },
+        {
+          "en": "Udaipur",
+          "as": "উদয়পুৰ"
+        },
+        {
+          "en": "Ajmer",
+          "as": "আজমেৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The capital of Rajasthan is Jaipur.",
+        "as": "ৰাজস্থানৰ ৰাজধানী জয়পুৰ।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-145",
+      "q": {
+        "en": "At what time between 6 and 7 o'clock will the hands of a clock be together?",
+        "as": "৬ আৰু ৭ বজাৰ মাজত ঘড়ীৰ দুয়ো কাঁটা কেতিয়া একেলগে থাকিব?"
+      },
+      "options": [
+        {
+          "en": "6:32",
+          "as": "৬:৩২"
+        },
+        {
+          "en": "6:31",
+          "as": "৬:৩১"
+        },
+        {
+          "en": "6:33",
+          "as": "৬:৩৩"
+        },
+        {
+          "en": "6:32 8/11",
+          "as": "৬:৩২ ৮/১১"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The hands coincide at 60H/11 minutes past H; for H = 6 this is 32 8/11 minutes past 6.",
+        "as": "কাঁটা দুটা H ৰ পিছত 60H/11 মিনিটত লগ লাগে; H = ৬ ৰ বাবে ই ৬ বজাৰ ৩২ ৮/১১ মিনিট।"
+      }
+    },
+    {
+      "id": "lcm-hcf-001",
+      "q": {
+        "en": "Find the LCM of 12 and 18.",
+        "as": "১২ আৰু ১৮ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "32",
+          "as": "৩২"
+        },
+        {
+          "en": "36",
+          "as": "৩৬"
+        },
+        {
+          "en": "72",
+          "as": "৭২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36.",
+        "as": "১২ = ২² × ৩ আৰু ১৮ = ২ × ৩²। ল.সা.গু. = ২² × ৩² = ৩৬।"
+      }
+    },
+    {
+      "id": "lcm-hcf-003",
+      "q": {
+        "en": "Three bells ring at intervals of 6, 8 and 12 minutes. If they start ringing together, after how many minutes will they ring together again?",
+        "as": "তিনিটা ঘণ্টা ক্ৰমে ৬, ৮ আৰু ১২ মিনিটৰ অন্তৰালত বাজে। যদি সিহঁত একেলগে বাজিবলৈ আৰম্ভ কৰে, কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "36",
+          "as": "৩৬"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "LCM of 6, 8 and 12 = 24. So they ring together every 24 minutes.",
+        "as": "৬, ৮ আৰু ১২ ৰ ল.সা.গু. = ২৪। সেয়ে সিহঁত প্ৰতি ২৪ মিনিটৰ মূৰে মূৰে একেলগে বাজে।"
+      }
+    },
+    {
+      "id": "current-affairs-130",
+      "q": {
+        "en": "Which Indian state has the largest coastline in the country?",
+        "as": "ভাৰতৰ কোনখন ৰাজ্যত দেশৰ আটাইতকৈ দীঘল উপকূলীয় ৰেখা আছে?"
+      },
+      "options": [
+        {
+          "en": "Gujarat",
+          "as": "গুজৰাট"
+        },
+        {
+          "en": "Tamil Nadu",
+          "as": "তামিলনাডু"
+        },
+        {
+          "en": "Andhra Pradesh",
+          "as": "অন্ধ্ৰ প্ৰদেশ"
+        },
+        {
+          "en": "Maharashtra",
+          "as": "মহাৰাষ্ট্ৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Gujarat has the longest coastline in India.",
+        "as": "ভাৰতত গুজৰাটৰ আটাইতকৈ দীঘল উপকূলীয় ৰেখা আছে।"
+      }
+    },
+    {
+      "id": "assam-history-168",
+      "q": {
+        "en": "During the 1857 revolt, sepoys mutinied at which two Assam towns?",
+        "as": "১৮৫৭ চনৰ বিদ্ৰোহত কোন দুই অসম নগৰত চিপাহীসকলে বিদ্ৰোহ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Jorhat and Sivasagar",
+          "as": "যোৰহাট আৰু শিৱসাগৰ"
+        },
+        {
+          "en": "Silchar and Cachar",
+          "as": "শিলচৰ আৰু কাছাৰ"
+        },
+        {
+          "en": "Guwahati and Tezpur",
+          "as": "গুৱাহাটী আৰু তেজপুৰ"
+        },
+        {
+          "en": "Dibrugarh and Golaghat",
+          "as": "ডিব্ৰুগড় আৰু গোলাঘাট"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Sepoy mutinies occurred at Dibrugarh and Golaghat.",
+        "as": "ডিব্ৰুগড় আৰু গোলাঘাটত চিপাহী বিদ্ৰোহ সংঘটিত হৈছিল।"
+      }
+    },
+    {
+      "id": "assam-geography-198",
+      "q": {
+        "en": "Which district of Assam has the longest international border with Bangladesh?",
+        "as": "অসমৰ কোন জিলাৰ বাংলাদেশৰ সৈতে আটাইতকৈ দীঘল আন্তঃৰাষ্ট্ৰীয় সীমা আছে?"
+      },
+      "options": [
+        {
+          "en": "Dhubri",
+          "as": "ধুবুৰী"
+        },
+        {
+          "en": "Goalpara",
+          "as": "গোৱালপাৰা"
+        },
+        {
+          "en": "Cachar",
+          "as": "কাছাৰ"
+        },
+        {
+          "en": "Karimganj",
+          "as": "কৰিমগঞ্জ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Dhubri shares a long international border with Bangladesh.",
+        "as": "ধুবুৰীয়ে বাংলাদেশৰ সৈতে দীঘল আন্তঃৰাষ্ট্ৰীয় সীমা ভাগ কৰে।"
+      }
+    },
+    {
+      "id": "assam-culture-058",
+      "q": {
+        "en": "The Bihu dance is performed by which group of people traditionally?",
+        "as": "বিহু নৃত্য পৰম্পৰাগতভাৱে কোনসকলে পৰিৱেশন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Only men",
+          "as": "কেৱল পুৰুষ"
+        },
+        {
+          "en": "Only women",
+          "as": "কেৱল মহিলা"
+        },
+        {
+          "en": "Only children",
+          "as": "কেৱল শিশু"
+        },
+        {
+          "en": "Young men and women",
+          "as": "যুৱক-যুৱতী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bihu dance is performed by young men and women together.",
+        "as": "বিহু নৃত্য যুৱক-যুৱতীয়ে একেলগে পৰিৱেশন কৰে।"
+      }
+    },
+    {
+      "id": "assam-history-174",
+      "q": {
+        "en": "Patharughat is often described as the 'Jallianwala Bagh' of which state?",
+        "as": "পাথৰুঘাটক প্ৰায়ে কোন ৰাজ্যৰ 'জালিয়ানৱালা বাগ' বুলি বৰ্ণনা কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Bengal",
+          "as": "বংগ"
+        },
+        {
+          "en": "Punjab",
+          "as": "পাঞ্জাৱ"
+        },
+        {
+          "en": "Bihar",
+          "as": "বিহাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Patharughat is called the Jallianwala Bagh of Assam.",
+        "as": "পাথৰুঘাটক অসমৰ জালিয়ানৱালা বাগ বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "id": "current-affairs-136",
+      "q": {
+        "en": "Which day is celebrated as Assam Police Day?",
+        "as": "অসম আৰক্ষী দিৱস হিচাপে কোনটো দিন পালন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "2 October",
+          "as": "২ অক্টোবৰ"
+        },
+        {
+          "en": "1 April",
+          "as": "১ এপ্ৰিল"
+        },
+        {
+          "en": "15 August",
+          "as": "১৫ আগষ্ট"
+        },
+        {
+          "en": "26 January",
+          "as": "২৬ জানুৱাৰী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam Police Day is observed on 1 April, marking the formation of the Assam Police.",
+        "as": "অসম আৰক্ষী গঠনৰ স্মৰণত ১ এপ্ৰিলত অসম আৰক্ষী দিৱস পালন কৰা হয়।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-188",
+      "q": {
+        "en": "If A=26, B=25, ..., Z=1 is used and TUB is coded as 6-5-24, then VAN is coded as —",
+        "as": "যদি A=২৬, B=২৫, ..., Z=১ ব্যৱহাৰ কৰি TUB ক ৬-৫-২৪ হিচাপে ক'ড কৰা হয়, তেন্তে VAN ক ক'ড কৰা হ'ব —"
+      },
+      "options": [
+        {
+          "en": "3-25-12",
+          "as": "৩-২৫-১২"
+        },
+        {
+          "en": "6-25-12",
+          "as": "৬-২৫-১২"
+        },
+        {
+          "en": "5-25-12",
+          "as": "৫-২৫-১২"
+        },
+        {
+          "en": "4-25-12",
+          "as": "৪-২৫-১২"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The reverse alphabet position is used: V=4, A=25, N=12.",
+        "as": "ওলোটা বৰ্ণমালা স্থান ব্যৱহাৰ কৰা হয়: V=৪, A=২৫, N=১২।"
+      }
+    },
+    {
+      "id": "current-affairs-102",
+      "q": {
+        "en": "Which Indian state is known as the 'Land of Festivals'?",
+        "as": "কোনখন ভাৰতীয় ৰাজ্যক 'উৎসৱৰ দেশ' বুলি কোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Nagaland",
+          "as": "নাগালেণ্ড"
+        },
+        {
+          "en": "Manipur",
+          "as": "মণিপুৰ"
+        },
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Assam is often called the Land of Festivals due to its numerous celebrations like Bihu.",
+        "as": "বিহুৰ দৰে অসংখ্য উৎসৱৰ বাবে অসমক প্ৰায়ে উৎসৱৰ দেশ বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "id": "indian-history-polity-economy-187",
+      "q": {
+        "en": "The 74th Constitutional Amendment is related to —",
+        "as": "৭৪সংখ্যক সাংবিধানিক সংশোধনী কিৰ সৈতে জড়িত —"
+      },
+      "options": [
+        {
+          "en": "Panchayats",
+          "as": "পঞ্চায়ত"
+        },
+        {
+          "en": "GST",
+          "as": "জিএছটি"
+        },
+        {
+          "en": "Municipalities",
+          "as": "পৌৰসভা"
+        },
+        {
+          "en": "Education",
+          "as": "শিক্ষা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The 74th Amendment is related to Municipalities.",
+        "as": "৭৪সংখ্যক সংশোধনী পৌৰসভাৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "id": "current-affairs-121",
+      "q": {
+        "en": "Which is the second official language of Assam?",
+        "as": "অসমৰ দ্বিতীয় চৰকাৰী ভাষা কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Bengali",
+          "as": "বাংলা"
+        },
+        {
+          "en": "Hindi",
+          "as": "হিন্দী"
+        },
+        {
+          "en": "Mishing",
+          "as": "মিচিং"
+        },
+        {
+          "en": "Bodo",
+          "as": "বড়ো"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bodo was declared an associate official language of Assam.",
+        "as": "বড়োক অসমৰ সহযোগী চৰকাৰী ভাষা হিচাপে ঘোষণা কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-099",
+      "q": {
+        "en": "Pointing to a woman, a man said, 'She is the mother of my father's only son.' How is she related to him?",
+        "as": "এগৰাকী মহিলালৈ আঙুলিয়াই এজনে ক'লে, 'তেওঁ মোৰ দেউতাৰ একমাত্ৰ পুত্ৰৰ মাক।' তেওঁ সেই মানুহজনৰ কি সম্পৰ্কীয়?"
+      },
+      "options": [
+        {
+          "en": "Mother",
+          "as": "মাক"
+        },
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        },
+        {
+          "en": "Aunt",
+          "as": "খুড়ী"
+        },
+        {
+          "en": "Wife",
+          "as": "পত্নী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The man's father's only son is the man himself; his mother is the man's mother.",
+        "as": "মানুহজনৰ দেউতাৰ একমাত্ৰ পুত্ৰ মানুহজন নিজেই; তেওঁৰ মাক তেওঁৰ মাক।"
+      }
+    },
+    {
+      "id": "assam-history-115",
+      "q": {
+        "en": "Which Chutia official is said to have betrayed the Chutia king to the Ahoms?",
+        "as": "কোন চুতীয়া বিষয়াই চুতীয়া ৰজাক আহোমৰ হাতত বিশ্বাসঘাতকতা কৰিছিল বুলি কোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Kancheng Barpatra Gohain",
+          "as": "কাঞ্চেং বৰপাত্ৰ গোহাঁয়"
+        },
+        {
+          "en": "Laluk Sola",
+          "as": "লালুক শলা"
+        },
+        {
+          "en": "Momai Tamuli Borbarua",
+          "as": "মোমাই তামুলী বৰবৰুৱা"
+        },
+        {
+          "en": "Chilarai",
+          "as": "চিলাৰায়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kancheng Barpatra Gohain helped the Ahoms against the Chutias.",
+        "as": "কাঞ্চেং বৰপাত্ৰ গোহাঁয়ে চুতীয়াৰ বিৰুদ্ধে আহোমসকলক সহায় কৰিছিল।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-184",
+      "q": {
+        "en": "If JAR is coded as 10-1-18, then KEY is coded as —",
+        "as": "যদি JAR ক ১০-১-১৮ হিচাপে ক'ড কৰা হয়, তেন্তে KEY ক ক'ড কৰা হ'ব —"
+      },
+      "options": [
+        {
+          "en": "12-5-25",
+          "as": "১২-৫-২৫"
+        },
+        {
+          "en": "11-5-25",
+          "as": "১১-৫-২৫"
+        },
+        {
+          "en": "10-5-25",
+          "as": "১০-৫-২৫"
+        },
+        {
+          "en": "13-5-25",
+          "as": "১৩-৫-২৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Each letter is replaced by its alphabet position: K=11, E=5, Y=25.",
+        "as": "প্ৰতিটো আখৰক ইয়াৰ বৰ্ণমালা স্থানৰে সলনি কৰা হয়: K=১১, E=৫, Y=২৫।"
+      }
+    },
+    {
+      "id": "assam-geography-173",
+      "q": {
+        "en": "Which type of forest covers most of the plains of Assam?",
+        "as": "অসমৰ বেছিভাগ সমভূমি কোন ধৰণৰ বনে আৱৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "Tropical moist deciduous",
+          "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী"
+        },
+        {
+          "en": "Mangrove",
+          "as": "মেংগ্ৰ'ভ"
+        },
+        {
+          "en": "Thorn",
+          "as": "কণ্টকময়"
+        },
+        {
+          "en": "Alpine",
+          "as": "আলপাইন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Tropical moist deciduous forests are common in the Assam plains.",
+        "as": "অসমৰ সমভূমিত ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন সাধাৰণ।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-164",
+      "q": {
+        "en": "On what day of the week did 26 January 2024 fall?",
+        "as": "২৬ জানুৱাৰী ২০২৪ কি বাৰত পৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Saturday",
+          "as": "শনিবাৰ"
+        },
+        {
+          "en": "Sunday",
+          "as": "দেওবাৰ"
+        },
+        {
+          "en": "Monday",
+          "as": "সোমবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "26 January 2024 fell on a Friday.",
+        "as": "২৬ জানুৱাৰী ২০২৪ শুক্ৰবাৰ আছিল।"
+      }
+    },
+    {
+      "id": "static-gk-139",
+      "q": {
+        "en": "The currency of Saudi Arabia is —",
+        "as": "ছৌদি আৰবৰ মুদ্ৰা কি —"
+      },
+      "options": [
+        {
+          "en": "Rial",
+          "as": "ৰিয়েল"
+        },
+        {
+          "en": "Dinar",
+          "as": "দিনাৰ"
+        },
+        {
+          "en": "Dirham",
+          "as": "দিৰহাম"
+        },
+        {
+          "en": "Riyal",
+          "as": "ৰিয়াল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The currency of Saudi Arabia is the Riyal.",
+        "as": "ছৌদি আৰবৰ মুদ্ৰা ৰিয়াল।"
+      }
+    },
+    {
+      "id": "indian-history-national-movement-053",
+      "q": {
+        "en": "Gandhi's first Satyagraha in India was launched at which place?",
+        "as": "ভাৰতত গান্ধীৰ প্ৰথম সত্যাগ্ৰহ কোন ঠাইত আৰম্ভ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Champaran",
+          "as": "চম্পাৰণ"
+        },
+        {
+          "en": "Kheda",
+          "as": "খেদা"
+        },
+        {
+          "en": "Ahmedabad",
+          "as": "আহমেদাবাদ"
+        },
+        {
+          "en": "Bardoli",
+          "as": "বাৰদোলি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Gandhi's first Satyagraha in India was launched at Champaran (Bihar) in 1917.",
+        "as": "ভাৰতত গান্ধীৰ প্ৰথম সত্যাগ্ৰহ ১৯১৭ চনত চম্পাৰণত (বিহাৰ) আৰম্ভ হৈছিল।"
+      }
+    },
+    {
+      "id": "number-system-009",
+      "q": {
+        "en": "Simplify: 3/4 + 1/2",
+        "as": "সৰল কৰা: 3/4 + 1/2"
+      },
+      "options": [
+        {
+          "en": "1/2",
+          "as": "1/2"
+        },
+        {
+          "en": "5/4",
+          "as": "5/4"
+        },
+        {
+          "en": "4/6",
+          "as": "4/6"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "LCM of 4 and 2 is 4; 3/4 + 2/4 = 5/4.",
+        "as": "4 আৰু 2 ৰ LCM 4; 3/4 + 2/4 = 5/4।"
+      }
+    },
+    {
+      "id": "assam-history-181",
+      "q": {
+        "en": "Kanaklata Barua was shot dead while hoisting the national flag at which place?",
+        "as": "কনকলতা বৰুৱাক কোন স্থানত ৰাষ্ট্ৰীয় পতাকা উত্তোলন কৰি থাকোঁতে গুলীয়াই হত্যা কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Jorhat jail",
+          "as": "যোৰহাট কাৰাগাৰ"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Gohpur police station",
+          "as": "গহপুৰ আৰক্ষী থানা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Kanaklata was shot at the Gohpur police station in 1942.",
+        "as": "কনকলতাক ১৯৪২ চনত গহপুৰ আৰক্ষী থানাত গুলীয়াই হত্যা কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "assam-geography-083",
+      "q": {
+        "en": "Which rice crop of Assam is sown in low-lying areas and harvested in summer?",
+        "as": "অসমৰ কোন ধান শস্য নীচ অঞ্চলত সিঁচি গ্ৰীষ্মকালত চপোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Boro",
+          "as": "বৰো"
+        },
+        {
+          "en": "Ahu",
+          "as": "আহু"
+        },
+        {
+          "en": "Bao",
+          "as": "বাও"
+        },
+        {
+          "en": "Sali",
+          "as": "শালি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Boro rice is grown in low-lying fields.",
+        "as": "বৰো ধান নীচ পথাৰত জন্মোৱা হয়।"
+      }
+    },
+    {
+      "id": "indian-history-polity-economy-188",
+      "q": {
+        "en": "Panchayati Raj was first introduced in which state?",
+        "as": "পঞ্চায়তী ৰাজ প্ৰথমে কোন ৰাজ্যত প্ৰৱৰ্তন কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Rajasthan",
+          "as": "ৰাজস্থান"
+        },
+        {
+          "en": "Gujarat",
+          "as": "গুজৰাট"
+        },
+        {
+          "en": "Maharashtra",
+          "as": "মহাৰাষ্ট্ৰ"
+        },
+        {
+          "en": "Kerala",
+          "as": "কেৰালা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Panchayati Raj was first introduced in Rajasthan in 1959.",
+        "as": "১৯৫৯ চনত ৰাজস্থানত পঞ্চায়তী ৰাজ প্ৰথমে প্ৰৱৰ্তন কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "time-speed-distance-011",
+      "q": {
+        "en": "A train 250 m long, running at 90 km/h, crosses a platform 350 m long. Find the time taken.",
+        "as": "২৫০ মিটাৰ দীঘল এখন ৰেল ৯০ কিমি/ঘণ্টা গতিবেগেৰে গৈ ৩৫০ মিটাৰ দীঘল এখন প্লেটফৰ্ম অতিক্ৰম কৰে। লগা সময় নিৰ্ণয় কৰা।"
+      },
+      "options": [
+        {
+          "en": "20 seconds",
+          "as": "২০ ছেকেণ্ড"
+        },
+        {
+          "en": "28 seconds",
+          "as": "২৮ ছেকেণ্ড"
+        },
+        {
+          "en": "30 seconds",
+          "as": "৩০ ছেকেণ্ড"
+        },
+        {
+          "en": "24 seconds",
+          "as": "২৪ ছেকেণ্ড"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "90 km/h = 25 m/s. Total distance = 250 + 350 = 600 m. Time = 600/25 = 24 seconds.",
+        "as": "৯০ কিমি/ঘণ্টা = ২৫ মিটাৰ/ছেকেণ্ড। মুঠ দূৰত্ব = ২৫০ + ৩৫০ = ৬০০ মিটাৰ। সময় = ৬০০/২৫ = ২৪ ছেকেণ্ড।"
+      }
+    },
+    {
+      "id": "current-affairs-124",
+      "q": {
+        "en": "Which Indian city is known as the 'City of Joy'?",
+        "as": "কোনখন ভাৰতীয় চহৰক 'আনন্দৰ চহৰ' বুলি কোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Mumbai",
+          "as": "মুম্বাই"
+        },
+        {
+          "en": "Delhi",
+          "as": "দিল্লী"
+        },
+        {
+          "en": "Kolkata",
+          "as": "কলকাতা"
+        },
+        {
+          "en": "Chennai",
+          "as": "চেন্নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Kolkata is known as the City of Joy.",
+        "as": "কলকাতাক আনন্দৰ চহৰ বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-176",
+      "q": {
+        "en": "If 1 January 2024 is a Monday, what day is 31 December 2024?",
+        "as": "যদি ১ জানুৱাৰী ২০২৪ সোমবাৰ হয়, তেন্তে ৩১ ডিচেম্বৰ ২০২৪ কি বাৰ?"
+      },
+      "options": [
+        {
+          "en": "Sunday",
+          "as": "দেওবাৰ"
+        },
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Tuesday",
+          "as": "মঙ্গলবাৰ"
+        },
+        {
+          "en": "Monday",
+          "as": "সোমবাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "2024 is a leap year with 366 days (2 odd days), so 31 December is one day after Monday, that is Tuesday.",
+        "as": "২০২৪ যুগ্মবৰ্ষ, ৩৬৬ দিন (২ অযুগ্ম দিন), গতিকে ৩১ ডিচেম্বৰ সোমবাৰৰ এদিন পিছত, অৰ্থাৎ মঙ্গলবাৰ।"
+      }
+    },
+    {
+      "id": "assam-culture-060",
+      "q": {
+        "en": "Which musical instrument is central to Vaishnavite devotional music of Assam?",
+        "as": "অসমৰ বৈষ্ণৱ ভক্তিমূলক সংগীতৰ কেন্দ্ৰীয় বাদ্যযন্ত্ৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Dhol",
+          "as": "ঢোল"
+        },
+        {
+          "en": "Khol",
+          "as": "খোল"
+        },
+        {
+          "en": "Pepa",
+          "as": "পেঁপা"
+        },
+        {
+          "en": "Gogona",
+          "as": "গগনা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Khol is central to Vaishnavite devotional music in Assam.",
+        "as": "খোল অসমৰ বৈষ্ণৱ ভক্তিমূলক সংগীতৰ কেন্দ্ৰীয় বাদ্যযন্ত্ৰ।"
+      }
+    },
+    {
+      "id": "assam-culture-097",
+      "q": {
+        "en": "The Mising community is also known by which name?",
+        "as": "মিচিং সম্প্ৰদায়ক আন কোন নামেৰে জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Kachari",
+          "as": "কছাৰী"
+        },
+        {
+          "en": "Lalung",
+          "as": "লালুং"
+        },
+        {
+          "en": "Miri",
+          "as": "মিৰি"
+        },
+        {
+          "en": "Mech",
+          "as": "মেছ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Mising community is also known as Miri.",
+        "as": "মিচিং সম্প্ৰদায়ক মিৰি বুলিও জনা যায়।"
+      }
+    },
+    {
+      "id": "assam-history-130",
+      "q": {
+        "en": "The period of Burmese occupation of Assam is often remembered as what?",
+        "as": "অসমত বাৰ্মী দখলৰ কালছোৱাক প্ৰায়ে কি বুলি স্মৰণ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "A reign of terror",
+          "as": "সন্ত্ৰাসৰ ৰাজত্ব"
+        },
+        {
+          "en": "An era of reforms",
+          "as": "সংস্কাৰৰ যুগ"
+        },
+        {
+          "en": "A golden age",
+          "as": "সোণালী যুগ"
+        },
+        {
+          "en": "A time of peace",
+          "as": "শান্তিৰ সময়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Burmese occupation is remembered for its atrocities.",
+        "as": "বাৰ্মী দখলকাল ইয়াৰ নিষ্ঠুৰতাৰ বাবে স্মৰণীয়।"
+      }
+    },
+    {
+      "id": "verbal-reasoning-153",
+      "q": {
+        "en": "What is the mirror image of the time 5:40 on a clock?",
+        "as": "ঘড়ীত ৫:৪০ সময়ৰ দাপোনৰ প্ৰতিবিম্ব কিমান হ'ব?"
+      },
+      "options": [
+        {
+          "en": "8:40",
+          "as": "৮:৪০"
+        },
+        {
+          "en": "6:40",
+          "as": "৬:৪০"
+        },
+        {
+          "en": "6:20",
+          "as": "৬:২০"
+        },
+        {
+          "en": "7:20",
+          "as": "৭:২০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mirror time = 11:60 − given time, so the mirror image of 5:40 is 6:20.",
+        "as": "দাপোনৰ সময় = ১১:৬০ − দিয়া সময়, গতিকে ৫:৪০ ৰ দাপোনৰ প্ৰতিবিম্ব ৬:২০।"
+      }
+    },
+    {
+      "id": "non-verbal-reasoning-065",
+      "q": {
+        "en": "A net of a cube is shown. When the net is folded into a cube, which letter will be opposite to E?",
+        "as": "এটা ঘনকৰ নেট দেখুওৱা হৈছে। নেটটো ভাঁজ কৰি ঘনক বনালে E ৰ বিপৰীত ফালে কোনটো আখৰ থাকিব?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.92\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">E</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.92\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">D</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.92\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">C</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.92\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">F</text></svg>"
+        }
+      ],
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 208 162\" width=\"312\" height=\"243\"><rect x=\"2\" y=\"2\" width=\"204\" height=\"158\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"58\" y=\"12\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"42.0\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">D</text><rect x=\"12\" y=\"58\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"35.0\" y=\"88.0\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">F</text><rect x=\"58\" y=\"58\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"88.0\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">A</text><rect x=\"104\" y=\"58\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"127.0\" y=\"88.0\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">C</text><rect x=\"104\" y=\"104\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"127.0\" y=\"134.0\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">E</text><rect x=\"150\" y=\"104\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"173.0\" y=\"134.0\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">B</text></svg>",
+      "explanation": {
+        "en": "On folding the net, the square E and the square D come to lie on opposite faces of the cube, so D is opposite to E.",
+        "as": "নেটটো ভাঁজ কৰিলে E বৰ্গ আৰু D বৰ্গ ঘনকৰ বিপৰীত পৃষ্ঠত পৰে, গতিকে E ৰ বিপৰীত ফালে D থাকে।"
+      }
+    },
+    {
+      "id": "assam-culture-106",
+      "q": {
+        "en": "The 'Dokhona' is the traditional dress of the women of which community?",
+        "as": "ডখনা কোন সম্প্ৰদায়ৰ মহিলাৰ পৰম্পৰাগত পোছাক?"
+      },
+      "options": [
+        {
+          "en": "Rabha",
+          "as": "ৰাভা"
+        },
+        {
+          "en": "Bodo",
+          "as": "বড়ো"
+        },
+        {
+          "en": "Mising",
+          "as": "মিচিং"
+        },
+        {
+          "en": "Karbi",
+          "as": "কাৰ্বি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Dokhona is the traditional dress of Bodo women.",
+        "as": "ডখনা বড়ো মহিলাৰ পৰম্পৰাগত পোছাক।"
+      }
+    },
+    {
+      "id": "assam-culture-086",
+      "q": {
+        "en": "Who wrote the Assamese folk-tale collection 'Burhi Aair Sadhu'?",
+        "as": "অসমীয়া লোককথা সংকলন 'বুঢ়ী আইৰ সাধু' কে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+        },
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Rajanikanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Lakshminath Bezbaroa wrote Burhi Aair Sadhu.",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱাই বুঢ়ী আইৰ সাধু লিখিছিল।"
+      }
+    },
+    {
+      "id": "general-science-technology-193",
+      "q": {
+        "en": "Which of the following non-metals conducts electricity?",
+        "as": "তলৰ কোনটো অধাতুৱে বিদ্যুৎ পৰিবাহ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Graphite",
+          "as": "গ্ৰেফাইট"
+        },
+        {
+          "en": "Sulphur",
+          "as": "ছালফাৰ"
+        },
+        {
+          "en": "Iodine",
+          "as": "আয়’ডিন"
+        },
+        {
+          "en": "Phosphorus",
+          "as": "ফছফৰাছ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Graphite is a non-metal that is a good conductor of electricity.",
+        "as": "গ্ৰেফাইট এটা অধাতু যি বিদ্যুতৰ ভাল পৰিবাহক।"
+      }
+    }
+  ]
+}

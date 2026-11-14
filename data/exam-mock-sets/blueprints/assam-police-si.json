@@ -1,0 +1,44 @@
+{
+  "exam": "assam-police-si",
+  "totalQuestions": 100,
+  "durationMinutes": 180,
+  "totalMarks": 100,
+  "marksPerQuestion": 1,
+  "negativeMarking": 0.5,
+  "difficultyMix": { "easy": 45, "moderate": 35, "difficult": 20 },
+  "sets": 10,
+  "sections": [
+    {
+      "id": "logical-reasoning",
+      "questions": 20,
+      "label": {
+        "en": "Part I: Logical Reasoning & Mental Ability",
+        "as": "অংশ I: তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+      }
+    },
+    {
+      "id": "elementary-mathematics",
+      "questions": 15,
+      "label": {
+        "en": "Part I: Aptitude & Basic Mathematics",
+        "as": "অংশ I: যোগ্যতা আৰু প্ৰাথমিক গণিত"
+      }
+    },
+    {
+      "id": "general-knowledge-science-current-affairs",
+      "questions": 35,
+      "label": {
+        "en": "Part II: General Knowledge, Science & Current Affairs",
+        "as": "অংশ II: সাধাৰণ জ্ঞান, বিজ্ঞান আৰু সাম্প্ৰতিক ঘটনা"
+      }
+    },
+    {
+      "id": "assam-history-geography-culture",
+      "questions": 30,
+      "label": {
+        "en": "Part III: History, Geography & Culture of Assam and India",
+        "as": "অংশ III: অসম আৰু ভাৰতৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি"
+      }
+    }
+  ]
+}

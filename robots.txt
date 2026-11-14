@@ -1,0 +1,89 @@
+# ============================================================
+# robots.txt for axomexam.in
+# Optimized for Google Search, AdSense, AI search and fast crawling
+# ============================================================
+
+# Build tooling and internal notes are not content, so they are kept out of
+# the index. /data/ is deliberately NOT blocked: the SPA fetches
+# /data/mock-test/*.json at runtime and the previous-year pages link
+# /data/**/*.pdf, so both must stay crawlable.
+#
+# The named group below repeats the same Disallow list on purpose. In
+# robots.txt a group that names a user-agent replaces the "*" group
+# entirely, so a named group carrying only "Allow: /" would silently
+# re-open every path blocked for "*" - including for Googlebot.
+
+# --- all other crawlers -------------------------------------
+User-agent: *
+Allow: /
+Disallow: /dist/
+Disallow: /tools/
+Disallow: /scripts/
+Disallow: /android/
+Disallow: /AGENTS
+Disallow: /SEO-AUDIT
+Disallow: /SEO-ACTION-PLAN
+Disallow: /keyword-map.csv
+Disallow: /page-actions.csv
+Disallow: /seo-audit.csv
+Disallow: /js/app.src.js
+Disallow: /js/api.src.js
+Disallow: /js/config.src.js
+Disallow: /js/i18n.src.js
+Disallow: /_headers
+Disallow: /_redirects
+
+# --- search engines and AI crawlers we explicitly welcome ----
+# Same rules as "*"; named here so the permission is explicit.
+User-agent: Mediapartners-Google
+User-agent: Googlebot
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-Image
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Google-Extended
+User-agent: Google-CloudVertexBot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: CCBot
+User-agent: cohere-ai
+User-agent: MistralAI-User
+User-agent: Amazonbot
+User-agent: FacebookBot
+User-agent: meta-externalagent
+User-agent: Bytespider
+User-agent: YouBot
+User-agent: DuckAssistBot
+User-agent: Diffbot
+User-agent: AI2Bot
+User-agent: AI2Bot-Dolma
+User-agent: Timpibot
+User-agent: PanguBot
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+Allow: /
+Disallow: /dist/
+Disallow: /tools/
+Disallow: /scripts/
+Disallow: /android/
+Disallow: /AGENTS
+Disallow: /SEO-AUDIT
+Disallow: /SEO-ACTION-PLAN
+Disallow: /keyword-map.csv
+Disallow: /page-actions.csv
+Disallow: /seo-audit.csv
+Disallow: /js/app.src.js
+Disallow: /js/api.src.js
+Disallow: /js/config.src.js
+Disallow: /js/i18n.src.js
+Disallow: /_headers
+Disallow: /_redirects
+
+# Sitemap Location
+Sitemap: https://axomexam.in/sitemap.xml

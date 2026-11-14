@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "advanced-math-001",
+    "q": {
+      "en": "If x + 1/x = 3, then the value of x² + 1/x² is:",
+      "as": "যদি x + 1/x = 3 হয়, তেন্তে x² + 1/x² ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "7"
+      },
+      {
+        "en": "9",
+        "as": "9"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "11",
+        "as": "11"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x² + 1/x² = (x + 1/x)² − 2 = 3² − 2 = 7.",
+      "as": "x² + 1/x² = (x + 1/x)² − 2 = 3² − 2 = 7।"
+    }
+  },
+  {
+    "id": "advanced-math-002",
+    "q": {
+      "en": "The roots of the equation x² − 5x + 6 = 0 are:",
+      "as": "x² − 5x + 6 = 0 সমীকৰণৰ মূল দুটা কি?"
+    },
+    "options": [
+      {
+        "en": "1 and 6",
+        "as": "1 আৰু 6"
+      },
+      {
+        "en": "2 and 3",
+        "as": "2 আৰু 3"
+      },
+      {
+        "en": "−2 and −3",
+        "as": "−2 আৰু −3"
+      },
+      {
+        "en": "5 and 1",
+        "as": "5 আৰু 1"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x² − 5x + 6 = (x − 2)(x − 3), so the roots are 2 and 3.",
+      "as": "x² − 5x + 6 = (x − 2)(x − 3), গতিকে মূল দুটা 2 আৰু 3।"
+    }
+  },
+  {
+    "id": "advanced-math-003",
+    "q": {
+      "en": "If a + b + c = 0, then a³ + b³ + c³ is equal to:",
+      "as": "যদি a + b + c = 0 হয়, তেন্তে a³ + b³ + c³ ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "abc",
+        "as": "abc"
+      },
+      {
+        "en": "3abc",
+        "as": "3abc"
+      },
+      {
+        "en": "2abc",
+        "as": "2abc"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca); since a + b + c = 0, we get a³ + b³ + c³ = 3abc.",
+      "as": "a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) সূত্ৰ ব্যৱহাৰ কৰি, a + b + c = 0 হোৱাত a³ + b³ + c³ = 3abc।"
+    }
+  },
+  {
+    "id": "advanced-math-004",
+    "q": {
+      "en": "The quadratic equation whose roots are 2 and 5 is:",
+      "as": "যি দ্বিঘাত সমীকৰণৰ মূল 2 আৰু 5, সেই সমীকৰণটো কি?"
+    },
+    "options": [
+      {
+        "en": "x² − 7x + 10 = 0",
+        "as": "x² − 7x + 10 = 0"
+      },
+      {
+        "en": "x² + 7x + 10 = 0",
+        "as": "x² + 7x + 10 = 0"
+      },
+      {
+        "en": "x² − 7x − 10 = 0",
+        "as": "x² − 7x − 10 = 0"
+      },
+      {
+        "en": "x² − 10x + 7 = 0",
+        "as": "x² − 10x + 7 = 0"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum of roots = 7 and product = 10, so the equation is x² − 7x + 10 = 0.",
+      "as": "মূলৰ যোগফল 7 আৰু গুণফল 10, গতিকে সমীকৰণ x² − 7x + 10 = 0।"
+    }
+  },
+  {
+    "id": "advanced-math-005",
+    "q": {
+      "en": "If 2x + 3y = 12 and 3x + 2y = 13, then x + y is:",
+      "as": "যদি 2x + 3y = 12 আৰু 3x + 2y = 13 হয়, তেন্তে x + y ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Adding the two equations: 5x + 5y = 25, hence x + y = 5.",
+      "as": "দুয়োটা সমীকৰণ যোগ কৰি: 5x + 5y = 25, গতিকে x + y = 5।"
+    }
+  },
+  {
+    "id": "advanced-math-006",
+    "q": {
+      "en": "The value of (a + b)² − (a − b)² is:",
+      "as": "(a + b)² − (a − b)² ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "2ab",
+        "as": "2ab"
+      },
+      {
+        "en": "4ab",
+        "as": "4ab"
+      },
+      {
+        "en": "a² − b²",
+        "as": "a² − b²"
+      },
+      {
+        "en": "0",
+        "as": "0"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a + b)² − (a − b)² = 4ab.",
+      "as": "(a + b)² − (a − b)² = 4ab।"
+    }
+  },
+  {
+    "id": "advanced-math-007",
+    "q": {
+      "en": "If α and β are the roots of x² − 7x + 12 = 0, then α + β is:",
+      "as": "যদি x² − 7x + 12 = 0 ৰ মূল α আৰু β হয়, তেন্তে α + β ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "12"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "−7",
+        "as": "−7"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For x² − 7x + 12 = 0, the sum of roots α + β = −(−7)/1 = 7.",
+      "as": "x² − 7x + 12 = 0 ৰ বাবে মূলৰ যোগফল α + β = 7।"
+    }
+  },
+  {
+    "id": "advanced-math-008",
+    "q": {
+      "en": "The remainder when x³ − 2x² + 3x − 4 is divided by (x − 1) is:",
+      "as": "x³ − 2x² + 3x − 4 ক (x − 1) ৰে ভাগ কৰিলে অৱশেষ কিমান?"
+    },
+    "options": [
+      {
+        "en": "−2",
+        "as": "−2"
+      },
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "−1",
+        "as": "−1"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "By the remainder theorem, put x = 1: 1 − 2 + 3 − 4 = −2.",
+      "as": "ভাগশেষ উপপাদ্য অনুসৰি x = 1 বহুৱাই: 1 − 2 + 3 − 4 = −2।"
+    }
+  },
+  {
+    "id": "advanced-math-009",
+    "q": {
+      "en": "If x = 2 + √3, then the value of x + 1/x is:",
+      "as": "যদি x = 2 + √3 হয়, তেন্তে x + 1/x ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "2√3",
+        "as": "2√3"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "√3",
+        "as": "√3"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Since x = 2 + √3, 1/x = 2 − √3, so x + 1/x = 4.",
+      "as": "x = 2 + √3 হোৱাত 1/x = 2 − √3, গতিকে x + 1/x = 4।"
+    }
+  },
+  {
+    "id": "advanced-math-010",
+    "q": {
+      "en": "The degree of the polynomial 5x³ + 2x² − 7x + 1 is:",
+      "as": "5x³ + 2x² − 7x + 1 বহুপদটোৰ ঘাত কিমান?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "3",
+        "as": "3"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The degree is the highest power of x, which is 3.",
+      "as": "বহুপদটোৰ ঘাত x ৰ সৰ্বোচ্চ ঘাত, অৰ্থাৎ 3।"
+    }
+  },
+  {
+    "id": "advanced-math-011",
+    "q": {
+      "en": "The discriminant of x² − 4x + 4 = 0 is:",
+      "as": "x² − 4x + 4 = 0 ৰ ডিস্ক্ৰিমিনেণ্ট কিমান?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "0",
+        "as": "0"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Discriminant D = b² − 4ac = (−4)² − 4(1)(4) = 16 − 16 = 0.",
+      "as": "নিৰ্ণায়ক D = b² − 4ac = (−4)² − 4(1)(4) = 16 − 16 = 0।"
+    }
+  },
+  {
+    "id": "advanced-math-012",
+    "q": {
+      "en": "If one root of x² − 8x + k = 0 is 2, then k is:",
+      "as": "যদি x² − 8x + k = 0 ৰ এটা মূল 2 হয়, তেন্তে k ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "8"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "10",
+        "as": "10"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Put x = 2: 4 − 16 + k = 0, so k = 12.",
+      "as": "x = 2 বহুৱাই: 4 − 16 + k = 0, গতিকে k = 12।"
+    }
+  },
+  {
+    "id": "advanced-math-013",
+    "q": {
+      "en": "If 2ˣ = 32, then x is:",
+      "as": "যদি 2ˣ = 32 হয়, তেন্তে x ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "32 = 2⁵, so x = 5.",
+      "as": "32 = 2⁵, গতিকে x = 5।"
+    }
+  },
+  {
+    "id": "advanced-math-014",
+    "q": {
+      "en": "If x + y = 10 and xy = 21, then x² + y² is:",
+      "as": "যদি x + y = 10 আৰু xy = 21 হয়, তেন্তে x² + y² ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "58"
+      },
+      {
+        "en": "100",
+        "as": "100"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      },
+      {
+        "en": "79",
+        "as": "79"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x² + y² = (x + y)² − 2xy = 100 − 42 = 58.",
+      "as": "x² + y² = (x + y)² − 2xy = 100 − 42 = 58।"
+    }
+  },
+  {
+    "id": "advanced-math-015",
+    "q": {
+      "en": "The factorization of x² − 9 is:",
+      "as": "x² − 9 ৰ উৎপাদক বিশ্লেষণ কি?"
+    },
+    "options": [
+      {
+        "en": "(x − 9)(x + 1)",
+        "as": "(x − 9)(x + 1)"
+      },
+      {
+        "en": "(x − 3)(x + 3)",
+        "as": "(x − 3)(x + 3)"
+      },
+      {
+        "en": "(x − 3)²",
+        "as": "(x − 3)²"
+      },
+      {
+        "en": "(x + 9)(x − 1)",
+        "as": "(x + 9)(x − 1)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using a² − b² = (a − b)(a + b), x² − 9 = (x − 3)(x + 3).",
+      "as": "a² − b² = (a − b)(a + b) সূত্ৰৰপৰা x² − 9 = (x − 3)(x + 3)।"
+    }
+  },
+  {
+    "id": "advanced-math-016",
+    "q": {
+      "en": "The expansion of (a + b)³ is:",
+      "as": "(a + b)³ ৰ সম্প্ৰসাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "a³ + b³",
+        "as": "a³ + b³"
+      },
+      {
+        "en": "a³ + b³ + 3ab",
+        "as": "a³ + b³ + 3ab"
+      },
+      {
+        "en": "a³ + b³ + 3ab(a + b)",
+        "as": "a³ + b³ + 3ab(a + b)"
+      },
+      {
+        "en": "a³ − b³ + 3ab(a − b)",
+        "as": "a³ − b³ + 3ab(a − b)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a + b)³ = a³ + b³ + 3ab(a + b).",
+      "as": "(a + b)³ = a³ + b³ + 3ab(a + b)।"
+    }
+  },
+  {
+    "id": "advanced-math-017",
+    "q": {
+      "en": "If the product of the roots of x² − 6x + k = 0 is 8, then k is:",
+      "as": "যদি x² − 6x + k = 0 ৰ মূল দুটাৰ গুণফল 8 হয়, তেন্তে k ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "−8",
+        "as": "−8"
+      },
+      {
+        "en": "14",
+        "as": "14"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Product of roots = c/a = k/1 = k, so k = 8.",
+      "as": "মূলৰ গুণফল = k/1 = k, গতিকে k = 8।"
+    }
+  },
+  {
+    "id": "advanced-math-018",
+    "q": {
+      "en": "The graph of a linear equation in two variables is a:",
+      "as": "দুটা চলকৰ ৰৈখিক সমীকৰণৰ লেখখন কি?"
+    },
+    "options": [
+      {
+        "en": "Circle",
+        "as": "বৃত্ত"
+      },
+      {
+        "en": "Straight line",
+        "as": "সৰলৰেখা"
+      },
+      {
+        "en": "Parabola",
+        "as": "পৰাবৃত্ত"
+      },
+      {
+        "en": "Point",
+        "as": "বিন্দু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The graph of a linear equation in two variables is always a straight line.",
+      "as": "দুটা চলকৰ ৰৈখিক সমীকৰণৰ লেখ সদায় এডাল সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "advanced-math-019",
+    "q": {
+      "en": "If x − y = 3 and xy = 10, then x³ − y³ is:",
+      "as": "যদি x − y = 3 আৰু xy = 10 হয়, তেন্তে x³ − y³ ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "27"
+      },
+      {
+        "en": "117",
+        "as": "117"
+      },
+      {
+        "en": "90",
+        "as": "90"
+      },
+      {
+        "en": "63",
+        "as": "63"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x³ − y³ = (x − y)³ + 3xy(x − y) = 27 + 3 × 10 × 3 = 117.",
+      "as": "x³ − y³ = (x − y)³ + 3xy(x − y) = 27 + 3 × 10 × 3 = 117।"
+    }
+  },
+  {
+    "id": "advanced-math-020",
+    "q": {
+      "en": "The zero of the polynomial p(x) = 2x − 8 is:",
+      "as": "p(x) = 2x − 8 বহুপদটোৰ শূন্য কি?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "8"
+      },
+      {
+        "en": "−4",
+        "as": "−4"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2x − 8 = 0 gives x = 4.",
+      "as": "2x − 8 = 0 ৰপৰা x = 4।"
+    }
+  },
+  {
+    "id": "advanced-math-021",
+    "q": {
+      "en": "If a : b = 3 : 4, then (3a + 2b) : (4a + 3b) is:",
+      "as": "যদি a : b = 3 : 4 হয়, তেন্তে (3a + 2b) : (4a + 3b) কি?"
+    },
+    "options": [
+      {
+        "en": "17 : 24",
+        "as": "17 : 24"
+      },
+      {
+        "en": "3 : 4",
+        "as": "3 : 4"
+      },
+      {
+        "en": "5 : 7",
+        "as": "5 : 7"
+      },
+      {
+        "en": "8 : 9",
+        "as": "8 : 9"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Put a = 3, b = 4: (3a + 2b) : (4a + 3b) = (9 + 8) : (12 + 12) = 17 : 24.",
+      "as": "a = 3, b = 4 বহুৱাই: (3a + 2b) : (4a + 3b) = (9 + 8) : (12 + 12) = 17 : 24।"
+    }
+  },
+  {
+    "id": "advanced-math-022",
+    "q": {
+      "en": "The nature of roots of x² + 4x + 5 = 0 is:",
+      "as": "x² + 4x + 5 = 0 ৰ মূল দুটাৰ প্ৰকৃতি কি?"
+    },
+    "options": [
+      {
+        "en": "Real and equal",
+        "as": "বাস্তৱ আৰু সমান"
+      },
+      {
+        "en": "Real and unequal",
+        "as": "বাস্তৱ আৰু অসমান"
+      },
+      {
+        "en": "Not real",
+        "as": "বাস্তৱ নহয়"
+      },
+      {
+        "en": "Rational and equal",
+        "as": "পৰিমেয় আৰু সমান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D = 4² − 4(1)(5) = −4 < 0, so the roots are not real.",
+      "as": "D = 4² − 4(1)(5) = −4 < 0, গতিকে মূলবোৰ অবাস্তৱ।"
+    }
+  },
+  {
+    "id": "advanced-math-023",
+    "q": {
+      "en": "If 3ˣ⁺¹ = 81, then x is:",
+      "as": "যদি 3ˣ⁺¹ = 81 হয়, তেন্তে x ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "3",
+        "as": "3"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "81 = 3⁴, so x + 1 = 4 and x = 3.",
+      "as": "81 = 3⁴, গতিকে x + 1 = 4 আৰু x = 3।"
+    }
+  },
+  {
+    "id": "advanced-math-024",
+    "q": {
+      "en": "The value of (x + 4)(x − 4) is:",
+      "as": "(x + 4)(x − 4) ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "x² − 16",
+        "as": "x² − 16"
+      },
+      {
+        "en": "x² + 16",
+        "as": "x² + 16"
+      },
+      {
+        "en": "x² − 8x + 16",
+        "as": "x² − 8x + 16"
+      },
+      {
+        "en": "x² − 8",
+        "as": "x² − 8"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(x + 4)(x − 4) = x² − 16.",
+      "as": "(x + 4)(x − 4) = x² − 16।"
+    }
+  },
+  {
+    "id": "advanced-math-025",
+    "q": {
+      "en": "If the sum and product of the roots of a quadratic equation are 5 and 6 respectively, the equation is:",
+      "as": "যদি এটা দ্বিঘাত সমীকৰণৰ মূল দুটাৰ যোগফল 5 আৰু গুণফল 6 হয়, সমীকৰণটো কি?"
+    },
+    "options": [
+      {
+        "en": "x² + 5x + 6 = 0",
+        "as": "x² + 5x + 6 = 0"
+      },
+      {
+        "en": "x² − 5x + 6 = 0",
+        "as": "x² − 5x + 6 = 0"
+      },
+      {
+        "en": "x² − 5x − 6 = 0",
+        "as": "x² − 5x − 6 = 0"
+      },
+      {
+        "en": "x² + 6x + 5 = 0",
+        "as": "x² + 6x + 5 = 0"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The equation is x² − (sum)x + product = 0, i.e. x² − 5x + 6 = 0.",
+      "as": "সমীকৰণ x² − (যোগফল)x + গুণফল = 0, অৰ্থাৎ x² − 5x + 6 = 0।"
+    }
+  },
+  {
+    "id": "advanced-math-026",
+    "q": {
+      "en": "The distance between the points (0, 0) and (3, 4) is:",
+      "as": "(0, 0) আৰু (3, 4) বিন্দু দুটাৰ মাজৰ দূৰত্ব কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "d = √(3² + 4²) = √25 = 5.",
+      "as": "d = √(3² + 4²) = √25 = 5।"
+    }
+  },
+  {
+    "id": "advanced-math-027",
+    "q": {
+      "en": "The slope of the line through (1, 2) and (3, 6) is:",
+      "as": "(1, 2) আৰু (3, 6) ৰ মাজেৰে যোৱা ৰেখাৰ ঢাল কিমান?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "1/2",
+        "as": "1/2"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "−2",
+        "as": "−2"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slope = (6 − 2)/(3 − 1) = 4/2 = 2.",
+      "as": "ঢাল = (6 − 2)/(3 − 1) = 4/2 = 2।"
+    }
+  },
+  {
+    "id": "advanced-math-028",
+    "q": {
+      "en": "The midpoint of the segment joining (2, 4) and (6, 8) is:",
+      "as": "(2, 4) আৰু (6, 8) যোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু কি?"
+    },
+    "options": [
+      {
+        "en": "(4, 6)",
+        "as": "(4, 6)"
+      },
+      {
+        "en": "(8, 12)",
+        "as": "(8, 12)"
+      },
+      {
+        "en": "(2, 2)",
+        "as": "(2, 2)"
+      },
+      {
+        "en": "(3, 3)",
+        "as": "(3, 3)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Midpoint = ((2 + 6)/2, (4 + 8)/2) = (4, 6).",
+      "as": "মধ্যবিন্দু = ((2 + 6)/2, (4 + 8)/2) = (4, 6)।"
+    }
+  },
+  {
+    "id": "advanced-math-029",
+    "q": {
+      "en": "The equation of the x-axis is:",
+      "as": "x-অক্ষৰ সমীকৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "y = 0",
+        "as": "y = 0"
+      },
+      {
+        "en": "x = 0",
+        "as": "x = 0"
+      },
+      {
+        "en": "x = y",
+        "as": "x = y"
+      },
+      {
+        "en": "y = 1",
+        "as": "y = 1"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every point on the x-axis has y = 0.",
+      "as": "x-অক্ষৰ প্ৰতিটো বিন্দুৰ y = 0।"
+    }
+  },
+  {
+    "id": "advanced-math-030",
+    "q": {
+      "en": "The distance of the point (3, 4) from the origin is:",
+      "as": "মূলবিন্দুৰপৰা (3, 4) বিন্দুৰ দূৰত্ব কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "d = √(3² + 4²) = 5.",
+      "as": "d = √(3² + 4²) = 5।"
+    }
+  },
+  {
+    "id": "advanced-math-031",
+    "q": {
+      "en": "The slope of the line y = 2x + 3 is:",
+      "as": "y = 2x + 3 ৰেখাৰ ঢাল কিমান?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "3",
+        "as": "3"
+      },
+      {
+        "en": "−2",
+        "as": "−2"
+      },
+      {
+        "en": "1/2",
+        "as": "1/2"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Comparing with y = mx + c, the slope m = 2.",
+      "as": "y = mx + c ৰ সৈতে তুলনা কৰি ঢাল m = 2।"
+    }
+  },
+  {
+    "id": "advanced-math-032",
+    "q": {
+      "en": "The value of log₁₀ 100 is:",
+      "as": "log₁₀ 100 ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "10",
+        "as": "10"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "100",
+        "as": "100"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Since 10² = 100, log₁₀ 100 = 2.",
+      "as": "10² = 100 হোৱাত log₁₀ 100 = 2।"
+    }
+  },
+  {
+    "id": "advanced-math-033",
+    "q": {
+      "en": "The value of log₂ 8 is:",
+      "as": "log₂ 8 ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "3"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Since 2³ = 8, log₂ 8 = 3.",
+      "as": "2³ = 8 হোৱাত log₂ 8 = 3।"
+    }
+  },
+  {
+    "id": "advanced-math-034",
+    "q": {
+      "en": "The derivative of x² with respect to x is:",
+      "as": "x ৰ সাপেক্ষে x² ৰ অৱকলজ কি?"
+    },
+    "options": [
+      {
+        "en": "2x",
+        "as": "2x"
+      },
+      {
+        "en": "x",
+        "as": "x"
+      },
+      {
+        "en": "x²",
+        "as": "x²"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "d/dx (x²) = 2x.",
+      "as": "d/dx (x²) = 2x।"
+    }
+  },
+  {
+    "id": "advanced-math-035",
+    "q": {
+      "en": "The derivative of sin x with respect to x is:",
+      "as": "x ৰ সাপেক্ষে sin x ৰ অৱকলজ কি?"
+    },
+    "options": [
+      {
+        "en": "cos x",
+        "as": "cos x"
+      },
+      {
+        "en": "−cos x",
+        "as": "−cos x"
+      },
+      {
+        "en": "sin x",
+        "as": "sin x"
+      },
+      {
+        "en": "−sin x",
+        "as": "−sin x"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "d/dx (sin x) = cos x.",
+      "as": "d/dx (sin x) = cos x।"
+    }
+  },
+  {
+    "id": "advanced-math-036",
+    "q": {
+      "en": "The integral ∫ x dx is:",
+      "as": "সমাকল ∫ x dx ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "x²/2 + C",
+        "as": "x²/2 + C"
+      },
+      {
+        "en": "x² + C",
+        "as": "x² + C"
+      },
+      {
+        "en": "2x + C",
+        "as": "2x + C"
+      },
+      {
+        "en": "x + C",
+        "as": "x + C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "∫ x dx = x²/2 + C.",
+      "as": "∫ x dx = x²/2 + C।"
+    }
+  },
+  {
+    "id": "advanced-math-037",
+    "q": {
+      "en": "The integral ∫ dx is:",
+      "as": "সমাকল ∫ dx ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "x + C",
+        "as": "x + C"
+      },
+      {
+        "en": "1 + C",
+        "as": "1 + C"
+      },
+      {
+        "en": "x² + C",
+        "as": "x² + C"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "∫ dx = x + C.",
+      "as": "∫ dx = x + C।"
+    }
+  },
+  {
+    "id": "advanced-math-038",
+    "q": {
+      "en": "The value of lim (x→1) (x² − 1)/(x − 1) is:",
+      "as": "lim (x→1) (x² − 1)/(x − 1) ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "Does not exist",
+        "as": "অস্তিত্ব নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(x² − 1)/(x − 1) = x + 1 for x ≠ 1, so the limit is 2.",
+      "as": "x ≠ 1 ৰ বাবে (x² − 1)/(x − 1) = x + 1, গতিকে সীমা 2।"
+    }
+  },
+  {
+    "id": "advanced-math-039",
+    "q": {
+      "en": "The derivative of eˣ with respect to x is:",
+      "as": "x ৰ সাপেক্ষে eˣ ৰ অৱকলজ কি?"
+    },
+    "options": [
+      {
+        "en": "eˣ",
+        "as": "eˣ"
+      },
+      {
+        "en": "x eˣ",
+        "as": "x eˣ"
+      },
+      {
+        "en": "eˣ/x",
+        "as": "eˣ/x"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "d/dx (eˣ) = eˣ.",
+      "as": "d/dx (eˣ) = eˣ।"
+    }
+  },
+  {
+    "id": "advanced-math-040",
+    "q": {
+      "en": "log a + log b is equal to:",
+      "as": "log a + log b ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "log(ab)",
+        "as": "log(ab)"
+      },
+      {
+        "en": "log(a + b)",
+        "as": "log(a + b)"
+      },
+      {
+        "en": "log(a/b)",
+        "as": "log(a/b)"
+      },
+      {
+        "en": "log a × log b",
+        "as": "log a × log b"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "By the product rule, log a + log b = log(ab).",
+      "as": "গুণন নিয়ম অনুসৰি log a + log b = log(ab)।"
+    }
+  },
+  {
+    "id": "advanced-math-041",
+    "q": {
+      "en": "The value of log 1 is:",
+      "as": "log 1 ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "∞",
+        "as": "∞"
+      },
+      {
+        "en": "−1",
+        "as": "−1"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "log 1 = 0 for any base.",
+      "as": "যিকোনো ভিত্তিৰ বাবে log 1 = 0।"
+    }
+  },
+  {
+    "id": "advanced-math-042",
+    "q": {
+      "en": "The derivative of a constant is:",
+      "as": "এটা ধ্ৰুৱকৰ অৱকলজ কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "the constant itself",
+        "as": "ধ্ৰুৱকটো নিজেই"
+      },
+      {
+        "en": "undefined",
+        "as": "অনিৰ্ধাৰিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The derivative of any constant is 0.",
+      "as": "যিকোনো ধ্ৰুৱকৰ অৱকলজ 0।"
+    }
+  },
+  {
+    "id": "advanced-math-043",
+    "q": {
+      "en": "The value of ∫₁² x dx is:",
+      "as": "∫₁² x dx ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "3/2",
+        "as": "3/2"
+      },
+      {
+        "en": "1/2",
+        "as": "1/2"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "3",
+        "as": "3"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "∫₁² x dx = [x²/2]₁² = 4/2 − 1/2 = 3/2.",
+      "as": "∫₁² x dx = [x²/2]₁² = 4/2 − 1/2 = 3/2।"
+    }
+  },
+  {
+    "id": "advanced-math-044",
+    "q": {
+      "en": "The slope of the line 2x + 3y = 6 is:",
+      "as": "2x + 3y = 6 ৰেখাৰ ঢাল কিমান?"
+    },
+    "options": [
+      {
+        "en": "−2/3",
+        "as": "−2/3"
+      },
+      {
+        "en": "2/3",
+        "as": "2/3"
+      },
+      {
+        "en": "3/2",
+        "as": "3/2"
+      },
+      {
+        "en": "−3/2",
+        "as": "−3/2"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "y = (6 − 2x)/3 = −(2/3)x + 2, so slope = −2/3.",
+      "as": "y = (6 − 2x)/3 = −(2/3)x + 2, গতিকে ঢাল = −2/3।"
+    }
+  },
+  {
+    "id": "advanced-math-045",
+    "q": {
+      "en": "The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is:",
+      "as": "(0, 0), (4, 0) আৰু (0, 3) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি কিমান?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      },
+      {
+        "en": "7",
+        "as": "7"
+      },
+      {
+        "en": "3",
+        "as": "3"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = (1/2) × base × height = (1/2) × 4 × 3 = 6.",
+      "as": "কালি = (1/2) × ভূমি × উচ্চতা = (1/2) × 4 × 3 = 6।"
+    }
+  },
+  {
+    "id": "advanced-math-046",
+    "q": {
+      "en": "The derivative of ln x with respect to x is:",
+      "as": "x ৰ সাপেক্ষে ln x ৰ অৱকলজ কি?"
+    },
+    "options": [
+      {
+        "en": "1/x",
+        "as": "1/x"
+      },
+      {
+        "en": "x",
+        "as": "x"
+      },
+      {
+        "en": "ln x",
+        "as": "ln x"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "d/dx (ln x) = 1/x.",
+      "as": "d/dx (ln x) = 1/x।"
+    }
+  },
+  {
+    "id": "advanced-math-047",
+    "q": {
+      "en": "The value of logₐ 1 (for a > 0, a ≠ 1) is:",
+      "as": "logₐ 1 ৰ মান কি (a > 0, a ≠ 1)?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "∞",
+        "as": "∞"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Since a⁰ = 1, logₐ 1 = 0.",
+      "as": "a⁰ = 1 হোৱাত logₐ 1 = 0।"
+    }
+  },
+  {
+    "id": "advanced-math-048",
+    "q": {
+      "en": "The equation of the line with slope 2 and y-intercept 3 is:",
+      "as": "ঢাল 2 আৰু y-ছেদ 3 থকা ৰেখাৰ সমীকৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "y = 2x + 3",
+        "as": "y = 2x + 3"
+      },
+      {
+        "en": "y = 3x + 2",
+        "as": "y = 3x + 2"
+      },
+      {
+        "en": "y = 2x − 3",
+        "as": "y = 2x − 3"
+      },
+      {
+        "en": "y = −2x + 3",
+        "as": "y = −2x + 3"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using y = mx + c with m = 2, c = 3, we get y = 2x + 3.",
+      "as": "y = mx + c ৰ সূত্ৰত m = 2, c = 3 বহুৱাই y = 2x + 3 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "advanced-math-049",
+    "q": {
+      "en": "The integral ∫ cos x dx is:",
+      "as": "সমাকল ∫ cos x dx ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "sin x + C",
+        "as": "sin x + C"
+      },
+      {
+        "en": "−sin x + C",
+        "as": "−sin x + C"
+      },
+      {
+        "en": "cos x + C",
+        "as": "cos x + C"
+      },
+      {
+        "en": "−cos x + C",
+        "as": "−cos x + C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "∫ cos x dx = sin x + C.",
+      "as": "∫ cos x dx = sin x + C।"
+    }
+  },
+  {
+    "id": "advanced-math-050",
+    "q": {
+      "en": "The value of lim (x→∞) 1/x is:",
+      "as": "lim (x→∞) 1/x ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "∞",
+        "as": "∞"
+      },
+      {
+        "en": "undefined",
+        "as": "অনিৰ্ধাৰিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "As x grows large, 1/x approaches 0.",
+      "as": "x ডাঙৰ হোৱাৰ লগে লগে 1/x শূন্যৰ ফালে আগবাঢ়ে।"
+    }
+  },
+  {
+    "id": "advanced-math-051",
+    "q": {
+      "en": "The sum of the interior angles of a triangle is:",
+      "as": "এটা ত্ৰিভুজৰ অন্তঃকোণৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "90°"
+      },
+      {
+        "en": "180°",
+        "as": "180°"
+      },
+      {
+        "en": "270°",
+        "as": "270°"
+      },
+      {
+        "en": "360°",
+        "as": "360°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The sum of the interior angles of a triangle is 180°.",
+      "as": "ত্ৰিভুজৰ অন্তঃকোণসমূহৰ যোগফল 180°।"
+    }
+  },
+  {
+    "id": "advanced-math-052",
+    "q": {
+      "en": "In a right-angled triangle, the side opposite to the right angle is called:",
+      "as": "সমকোণী ত্ৰিভুজত সমকোণৰ বিপৰীত বাহুক কি বোলে?"
+    },
+    "options": [
+      {
+        "en": "Altitude",
+        "as": "উচ্চতা"
+      },
+      {
+        "en": "Base",
+        "as": "ভূমি"
+      },
+      {
+        "en": "Hypotenuse",
+        "as": "অতিভুজ"
+      },
+      {
+        "en": "Median",
+        "as": "মধ্যমা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In a right-angled triangle, the side opposite the right angle is the hypotenuse.",
+      "as": "সমকোণী ত্ৰিভুজত সমকোণৰ বিপৰীত বাহুক কৰ্ণ (hypotenuse) বোলে।"
+    }
+  },
+  {
+    "id": "advanced-math-053",
+    "q": {
+      "en": "If the sides of a triangle are 3 cm, 4 cm and 5 cm, it is a:",
+      "as": "যদি এটা ত্ৰিভুজৰ বাহু 3 ছেমি, 4 ছেমি আৰু 5 ছেমি হয়, তেন্তে ই কি ত্ৰিভুজ?"
+    },
+    "options": [
+      {
+        "en": "Equilateral triangle",
+        "as": "সমবাহু ত্ৰিভুজ"
+      },
+      {
+        "en": "Obtuse-angled triangle",
+        "as": "স্থূলকোণী ত্ৰিভুজ"
+      },
+      {
+        "en": "Right-angled triangle",
+        "as": "সমকোণী ত্ৰিভুজ"
+      },
+      {
+        "en": "Isosceles triangle",
+        "as": "সমদ্বিবাহু ত্ৰিভুজ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3² + 4² = 9 + 16 = 25 = 5², so by the converse of the Pythagoras theorem it is a right-angled triangle.",
+      "as": "3² + 4² = 9 + 16 = 25 = 5², গতিকে পাইথাগোৰাছ উপপাদ্যৰ বিপৰীতৰপৰা ই সমকোণী ত্ৰিভুজ।"
+    }
+  },
+  {
+    "id": "advanced-math-054",
+    "q": {
+      "en": "The number of sides of a regular hexagon is:",
+      "as": "এটা সমবাহু ষড়ভুজৰ বাহুৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "5"
+      },
+      {
+        "en": "8",
+        "as": "8"
+      },
+      {
+        "en": "4",
+        "as": "4"
+      },
+      {
+        "en": "6",
+        "as": "6"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A regular hexagon has 6 sides.",
+      "as": "সুষম ষট্ভুজৰ 6 টা বাহু থাকে।"
+    }
+  },
+  {
+    "id": "advanced-math-055",
+    "q": {
+      "en": "Each interior angle of a regular hexagon is:",
+      "as": "এটা সমবাহু ষড়ভুজৰ প্ৰতিটো অন্তঃকোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "108°",
+        "as": "108°"
+      },
+      {
+        "en": "120°",
+        "as": "120°"
+      },
+      {
+        "en": "135°",
+        "as": "135°"
+      },
+      {
+        "en": "150°",
+        "as": "150°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each interior angle of a regular polygon = (n − 2) × 180°/n = (6 − 2) × 180°/6 = 120°.",
+      "as": "সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ = (n − 2) × 180°/n = (6 − 2) × 180°/6 = 120°।"
+    }
+  },
+  {
+    "id": "advanced-math-056",
+    "q": {
+      "en": "The angle in a semicircle is:",
+      "as": "অৰ্ধবৃত্তৰ অন্তঃস্থ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "60°"
+      },
+      {
+        "en": "45°",
+        "as": "45°"
+      },
+      {
+        "en": "90°",
+        "as": "90°"
+      },
+      {
+        "en": "180°",
+        "as": "180°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The angle in a semicircle is a right angle (90°) by Thales' theorem.",
+      "as": "থেলিছৰ উপপাদ্য অনুসৰি অৰ্ধবৃত্তত অংকিত কোণ 90° (সমকোণ)।"
+    }
+  },
+  {
+    "id": "advanced-math-057",
+    "q": {
+      "en": "Two complementary angles add up to:",
+      "as": "দুটা পূৰক কোণৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "90°"
+      },
+      {
+        "en": "180°",
+        "as": "180°"
+      },
+      {
+        "en": "360°",
+        "as": "360°"
+      },
+      {
+        "en": "270°",
+        "as": "270°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Two complementary angles add up to 90°.",
+      "as": "দুটা পৰিপূৰক কোণৰ যোগফল 90°।"
+    }
+  },
+  {
+    "id": "advanced-math-058",
+    "q": {
+      "en": "If two angles of a triangle are 50° and 70°, the third angle is:",
+      "as": "যদি এটা ত্ৰিভুজৰ দুটা কোণ 50° আৰু 70° হয়, তৃতীয় কোণটো কিমান?"
+    },
+    "options": [
+      {
+        "en": "40°",
+        "as": "40°"
+      },
+      {
+        "en": "60°",
+        "as": "60°"
+      },
+      {
+        "en": "80°",
+        "as": "80°"
+      },
+      {
+        "en": "70°",
+        "as": "70°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Third angle = 180° − 50° − 70° = 60°.",
+      "as": "তৃতীয় কোণ = 180° − 50° − 70° = 60°।"
+    }
+  },
+  {
+    "id": "advanced-math-059",
+    "q": {
+      "en": "The diagonals of a rhombus:",
+      "as": "এটা ৰম্বাছৰ কৰ্ণ দুটা:"
+    },
+    "options": [
+      {
+        "en": "Are equal",
+        "as": "সমান"
+      },
+      {
+        "en": "Bisect each other at right angles",
+        "as": "ইজনে সিজনক সমকোণত সমদ্বিখণ্ডিত কৰে"
+      },
+      {
+        "en": "Are parallel",
+        "as": "সমান্তৰাল"
+      },
+      {
+        "en": "Are unequal and do not bisect",
+        "as": "অসমান আৰু সমদ্বিখণ্ডিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The diagonals of a rhombus bisect each other at right angles.",
+      "as": "ৰম্বাছৰ কৰ্ণ দুডালে পৰস্পৰক সমকোণত দ্বিখণ্ডিত কৰে।"
+    }
+  },
+  {
+    "id": "advanced-math-060",
+    "q": {
+      "en": "The number of radii that can be drawn in a circle is:",
+      "as": "এটা বৃত্তত অংকন কৰিব পৰা ব্যাসাৰ্ধৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "Infinite",
+        "as": "অসীম"
+      },
+      {
+        "en": "100",
+        "as": "100"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An infinite number of radii can be drawn in a circle.",
+      "as": "বৃত্তত অসীম সংখ্যক ব্যাসাৰ্ধ আঁকিব পাৰি।"
+    }
+  },
+  {
+    "id": "advanced-math-061",
+    "q": {
+      "en": "A tangent to a circle is perpendicular to the radius at the:",
+      "as": "বৃত্তৰ স্পৰ্শকটো স্পৰ্শ বিন্দুত ব্যাসাৰ্ধৰ লগত কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Centre",
+        "as": "কেন্দ্ৰ"
+      },
+      {
+        "en": "Point of contact",
+        "as": "স্পৰ্শ বিন্দু"
+      },
+      {
+        "en": "Chord",
+        "as": "জ্যা"
+      },
+      {
+        "en": "Diameter",
+        "as": "ব্যাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A tangent is perpendicular to the radius at the point of contact.",
+      "as": "স্পৰ্শক স্পৰ্শবিন্দুত ব্যাসাৰ্ধৰ লম্ব।"
+    }
+  },
+  {
+    "id": "advanced-math-062",
+    "q": {
+      "en": "The Pythagoras theorem is applicable to:",
+      "as": "পিথাগোৰাছ উপপাদ্য প্ৰযোজ্য হয়:"
+    },
+    "options": [
+      {
+        "en": "All triangles",
+        "as": "সকলো ত্ৰিভুজত"
+      },
+      {
+        "en": "Equilateral triangles only",
+        "as": "কেৱল সমবাহু ত্ৰিভুজত"
+      },
+      {
+        "en": "Right-angled triangles only",
+        "as": "কেৱল সমকোণী ত্ৰিভুজত"
+      },
+      {
+        "en": "Isosceles triangles only",
+        "as": "কেৱল সমদ্বিবাহু ত্ৰিভুজত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Pythagoras theorem applies only to right-angled triangles.",
+      "as": "পাইথাগোৰাছ উপপাদ্য কেৱল সমকোণী ত্ৰিভুজত প্ৰযোজ্য।"
+    }
+  },
+  {
+    "id": "advanced-math-063",
+    "q": {
+      "en": "If the hypotenuse of a right triangle is 13 cm and one side is 5 cm, the other side is:",
+      "as": "যদি সমকোণী ত্ৰিভুজৰ অতিভুজ 13 ছেমি আৰু এটা বাহু 5 ছেমি হয়, আন বাহুটো কিমান?"
+    },
+    "options": [
+      {
+        "en": "8 cm",
+        "as": "8 ছেমি"
+      },
+      {
+        "en": "12 cm",
+        "as": "12 ছেমি"
+      },
+      {
+        "en": "10 cm",
+        "as": "10 ছেমি"
+      },
+      {
+        "en": "9 cm",
+        "as": "9 ছেমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Other side = √(13² − 5²) = √(169 − 25) = √144 = 12 cm.",
+      "as": "অন্য বাহু = √(13² − 5²) = √(169 − 25) = √144 = 12 ছে.মি.।"
+    }
+  },
+  {
+    "id": "advanced-math-064",
+    "q": {
+      "en": "The sum of opposite angles of a cyclic quadrilateral is:",
+      "as": "বৃত্তস্থ চতুৰ্ভুজৰ বিপৰীত কোণৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "90°"
+      },
+      {
+        "en": "270°",
+        "as": "270°"
+      },
+      {
+        "en": "180°",
+        "as": "180°"
+      },
+      {
+        "en": "360°",
+        "as": "360°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sum of opposite angles of a cyclic quadrilateral is 180°.",
+      "as": "চক্ৰীয় চতুৰ্ভুজৰ বিপৰীত কোণসমূহৰ যোগফল 180°।"
+    }
+  },
+  {
+    "id": "advanced-math-065",
+    "q": {
+      "en": "The centroid of a triangle divides each median in the ratio:",
+      "as": "ত্ৰিভুজৰ কেন্দ্ৰক বিন্দুৱে প্ৰতিটো মধ্যমাক কি অনুপাতত ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "1 : 1",
+        "as": "1 : 1"
+      },
+      {
+        "en": "2 : 1",
+        "as": "2 : 1"
+      },
+      {
+        "en": "3 : 1",
+        "as": "3 : 1"
+      },
+      {
+        "en": "3 : 2",
+        "as": "3 : 2"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The centroid divides each median in the ratio 2 : 1.",
+      "as": "ভৰকেন্দ্ৰই প্ৰতিটো মধ্যমাক 2 : 1 অনুপাতত বিভক্ত কৰে।"
+    }
+  },
+  {
+    "id": "advanced-math-066",
+    "q": {
+      "en": "In similar triangles, corresponding sides are:",
+      "as": "সদৃশ ত্ৰিভুজত সংগতিপূৰ্ণ বাহুবোৰ:"
+    },
+    "options": [
+      {
+        "en": "Equal",
+        "as": "সমান"
+      },
+      {
+        "en": "Proportional",
+        "as": "সমানুপাতিক"
+      },
+      {
+        "en": "Perpendicular",
+        "as": "লম্ব"
+      },
+      {
+        "en": "Parallel always",
+        "as": "সদায় সমান্তৰাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In similar triangles, corresponding sides are proportional.",
+      "as": "সদৃশ ত্ৰিভুজত অনুৰূপ বাহুবোৰ সমানুপাতিক।"
+    }
+  },
+  {
+    "id": "advanced-math-067",
+    "q": {
+      "en": "The exterior angle of a triangle is equal to the sum of:",
+      "as": "ত্ৰিভুজৰ বাহ্যিক কোণ সমান হয়:"
+    },
+    "options": [
+      {
+        "en": "All interior angles",
+        "as": "সকলো অন্তঃকোণৰ যোগফলৰ"
+      },
+      {
+        "en": "The two opposite interior angles",
+        "as": "দুটা বিপৰীত অন্তঃকোণৰ যোগফলৰ"
+      },
+      {
+        "en": "The adjacent interior angle",
+        "as": "সংলগ্ন অন্তঃকোণৰ"
+      },
+      {
+        "en": "Half of the opposite angle",
+        "as": "বিপৰীত কোণৰ আধাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An exterior angle of a triangle equals the sum of the two opposite interior angles.",
+      "as": "ত্ৰিভুজৰ বাহ্যিক কোণ ইয়াৰ দুটা বিপৰীত অন্তঃকোণৰ যোগফলৰ সমান।"
+    }
+  },
+  {
+    "id": "advanced-math-068",
+    "q": {
+      "en": "The longest chord of a circle is its:",
+      "as": "বৃত্তৰ সৰ্বদীঘল জ্যা কি?"
+    },
+    "options": [
+      {
+        "en": "Radius",
+        "as": "ব্যাসাৰ্ধ"
+      },
+      {
+        "en": "Tangent",
+        "as": "স্পৰ্শক"
+      },
+      {
+        "en": "Diameter",
+        "as": "ব্যাস"
+      },
+      {
+        "en": "Arc",
+        "as": "চাপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The longest chord of a circle is its diameter.",
+      "as": "বৃত্তৰ আটাইতকৈ দীঘল জ্যা হৈছে ব্যাস।"
+    }
+  },
+  {
+    "id": "advanced-math-069",
+    "q": {
+      "en": "If two circles touch internally, the distance between their centres is:",
+      "as": "যদি দুটা বৃত্ত আভ্যন্তৰিকভাৱে স্পৰ্শ কৰে, কেন্দ্ৰ দুটাৰ দূৰত্ব কিমান?"
+    },
+    "options": [
+      {
+        "en": "Sum of radii",
+        "as": "ব্যাসাৰ্ধৰ যোগফল"
+      },
+      {
+        "en": "Difference of radii",
+        "as": "ব্যাসাৰ্ধৰ পাৰ্থক্য"
+      },
+      {
+        "en": "Product of radii",
+        "as": "ব্যাসাৰ্ধৰ গুণফল"
+      },
+      {
+        "en": "Zero",
+        "as": "শূন্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "If two circles touch internally, the distance between their centres equals the difference of their radii.",
+      "as": "দুটা বৃত্ত অন্তঃস্পৰ্শী হ'লে তেওঁলোকৰ কেন্দ্ৰৰ দূৰত্ব ব্যাসাৰ্ধ দুটাৰ অন্তৰৰ সমান।"
+    }
+  },
+  {
+    "id": "advanced-math-070",
+    "q": {
+      "en": "The number of triangles that can be formed by joining 6 points on a circle is:",
+      "as": "বৃত্তৰ ওপৰত থকা 6 টা বিন্দু সংযোগ কৰি কেইটা ত্ৰিভুজ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "15"
+      },
+      {
+        "en": "20",
+        "as": "20"
+      },
+      {
+        "en": "10",
+        "as": "10"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number of triangles = ⁶C₃ = 6!/(3! × 3!) = 20.",
+      "as": "ত্ৰিভুজৰ সংখ্যা = ⁶C₃ = 6!/(3! × 3!) = 20।"
+    }
+  },
+  {
+    "id": "advanced-math-071",
+    "q": {
+      "en": "In an equilateral triangle of side 6 cm, the height is:",
+      "as": "6 ছেমি বাহুৰ সমবাহু ত্ৰিভুজৰ উচ্চতা কিমান?"
+    },
+    "options": [
+      {
+        "en": "3√3 cm",
+        "as": "3√3 ছেমি"
+      },
+      {
+        "en": "6√3 cm",
+        "as": "6√3 ছেমি"
+      },
+      {
+        "en": "2√3 cm",
+        "as": "2√3 ছেমি"
+      },
+      {
+        "en": "4√3 cm",
+        "as": "4√3 ছেমি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Height of an equilateral triangle = (√3/2) × side = (√3/2) × 6 = 3√3 cm.",
+      "as": "সমবাহু ত্ৰিভুজৰ উচ্চতা = (√3/2) × বাহু = (√3/2) × 6 = 3√3 ছে.মি.।"
+    }
+  },
+  {
+    "id": "advanced-math-072",
+    "q": {
+      "en": "The area of a parallelogram with base 10 cm and height 6 cm is:",
+      "as": "10 ছেমি ভূমি আৰু 6 ছেমি উচ্চতাৰ সামান্তৰিকৰ ক্ষেত্ৰফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "16 cm²",
+        "as": "16 ছেমি²"
+      },
+      {
+        "en": "32 cm²",
+        "as": "32 ছেমি²"
+      },
+      {
+        "en": "60 cm²",
+        "as": "60 ছেমি²"
+      },
+      {
+        "en": "30 cm²",
+        "as": "30 ছেমি²"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area of a parallelogram = base × height = 10 × 6 = 60 cm².",
+      "as": "সামান্তৰিকৰ কালি = ভূমি × উচ্চতা = 10 × 6 = 60 ছে.মি.²।"
+    }
+  },
+  {
+    "id": "advanced-math-073",
+    "q": {
+      "en": "If the diagonals of a rhombus are 8 cm and 6 cm, its area is:",
+      "as": "যদি ৰম্বাছৰ কৰ্ণ 8 ছেমি আৰু 6 ছেমি হয়, ক্ষেত্ৰফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "48 cm²",
+        "as": "48 ছেমি²"
+      },
+      {
+        "en": "24 cm²",
+        "as": "24 ছেমি²"
+      },
+      {
+        "en": "14 cm²",
+        "as": "14 ছেমি²"
+      },
+      {
+        "en": "36 cm²",
+        "as": "36 ছেমি²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 8 × 6 = 24 cm².",
+      "as": "ৰম্বাছৰ কালি = ½ × d₁ × d₂ = ½ × 8 × 6 = 24 ছে.মি.²।"
+    }
+  },
+  {
+    "id": "advanced-math-074",
+    "q": {
+      "en": "Two supplementary angles add up to:",
+      "as": "দুটা সম্পূৰক কোণৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "90°"
+      },
+      {
+        "en": "180°",
+        "as": "180°"
+      },
+      {
+        "en": "360°",
+        "as": "360°"
+      },
+      {
+        "en": "45°",
+        "as": "45°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two supplementary angles add up to 180°.",
+      "as": "দুটা সম্পূৰক কোণৰ যোগফল 180°।"
+    }
+  },
+  {
+    "id": "advanced-math-075",
+    "q": {
+      "en": "The point of intersection of the altitudes of a triangle is called:",
+      "as": "ত্ৰিভুজৰ উচ্চতাবোৰৰ ছেদবিন্দুক কি বোলে?"
+    },
+    "options": [
+      {
+        "en": "Centroid",
+        "as": "কেন্দ্ৰক"
+      },
+      {
+        "en": "Incentre",
+        "as": "অন্তঃকেন্দ্ৰ"
+      },
+      {
+        "en": "Circumcentre",
+        "as": "পৰিবৃত্ত কেন্দ্ৰ"
+      },
+      {
+        "en": "Orthocentre",
+        "as": "লম্বকেন্দ্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The point of intersection of the altitudes of a triangle is called the orthocentre.",
+      "as": "ত্ৰিভুজৰ উচ্চতাসমূহৰ ছেদবিন্দুক লম্বকেন্দ্ৰ (orthocentre) বোলে।"
+    }
+  },
+  {
+    "id": "advanced-math-076",
+    "q": {
+      "en": "The value of sin 90° is:",
+      "as": "sin 90° ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "1/2",
+        "as": "1/2"
+      },
+      {
+        "en": "√3/2",
+        "as": "√3/2"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sin 90° = 1.",
+      "as": "sin 90° = 1।"
+    }
+  },
+  {
+    "id": "advanced-math-077",
+    "q": {
+      "en": "The value of cos 0° is:",
+      "as": "cos 0° ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "1/2",
+        "as": "1/2"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "√3/2",
+        "as": "√3/2"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cos 0° = 1.",
+      "as": "cos 0° = 1।"
+    }
+  },
+  {
+    "id": "advanced-math-078",
+    "q": {
+      "en": "The value of tan 45° is:",
+      "as": "tan 45° ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "√3",
+        "as": "√3"
+      },
+      {
+        "en": "1/√3",
+        "as": "1/√3"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan 45° = 1.",
+      "as": "tan 45° = 1।"
+    }
+  },
+  {
+    "id": "advanced-math-079",
+    "q": {
+      "en": "sin²θ + cos²θ is equal to:",
+      "as": "sin²θ + cos²θ ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "0"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "2",
+        "as": "2"
+      },
+      {
+        "en": "sin 2θ",
+        "as": "sin 2θ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sin²θ + cos²θ = 1, the fundamental trigonometric identity.",
+      "as": "sin²θ + cos²θ = 1, এয়া মূল ত্ৰিকোণমিতিক অভেদ।"
+    }
+  },
+  {
+    "id": "advanced-math-080",
+    "q": {
+      "en": "The value of sin 30° is:",
+      "as": "sin 30° ৰ মান কি?"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "1/2"
+      },
+      {
+        "en": "√3/2",
+        "as": "√3/2"
+      },
+      {
+        "en": "1",
+        "as": "1"
+      },
+      {
+        "en": "0",
+        "as": "0"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "sin 30° = 1/2.",
+      "as": "sin 30° = 1/2।"
+    }
+  }
+]

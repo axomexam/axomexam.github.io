@@ -1,0 +1,597 @@
+{
+  "_comment": "Assamese wording for the hub-page prose that tools/enrich-thin-pages.js and the runtime write in English. Keys under \"exact\" are the whole English string; \"regex\" entries translate the templated ones (a page name is substituted back). Used by tools/add-as-hub-content.js so an /as/ twin carries an Assamese body instead of a copy of the English one.",
+  "exact": {
+    "Frequently Asked Questions": "সঘনাই সোধা প্ৰশ্ন",
+    "Frequently asked questions": "সঘনাই সোধা প্ৰশ্ন",
+    "What is covered here": "ইয়াত কি কি সামৰি লোৱা হৈছে",
+    "What this page collects": "এই পৃষ্ঠাত কি সংগ্ৰহ কৰা হৈছে",
+    "How to use it": "কেনেকৈ ব্যৱহাৰ কৰিব",
+    "Common mistakes to avoid": "সাধাৰণ ভুলসমূহ এৰি চলক",
+    "Pages in this section": "এই শিতানৰ পৃষ্ঠাসমূহ",
+    "Previous Year": "বিগত বছৰ",
+    "Previous Year Question Papers": "বিগত বছৰৰ প্ৰশ্নকাকত",
+    "Download Question Paper": "প্ৰশ্নকাকত ডাউনলোড কৰক",
+    "Download PDF": "PDF ডাউনলোড কৰক",
+    "Take Mock Test": "মক টেষ্ট দিয়ক",
+    "Last updated:": "শেহতীয়া হালনাগাদ:",
+    "Practice": "অনুশীলন",
+    "Home": "গৃহপৃষ্ঠা",
+    "Choose a year to download previous year question papers.": "বিগত বছৰৰ প্ৰশ্নকাকত ডাউনলোড কৰিবলৈ এটা বছৰ বাছনি কৰক।",
+    "Choose a section to browse previous year question papers.": "বিগত বছৰৰ প্ৰশ্নকাকত চাবলৈ এটা শিতান বাছনি কৰক।",
+    "Choose a topic below to begin your timed mock test.": "সময়বদ্ধ মক টেষ্ট আৰম্ভ কৰিবলৈ তলৰ পৰা এটা বিষয় বাছনি কৰক।",
+    "Choose a set below to begin your timed mock test.": "সময়বদ্ধ মক টেষ্ট আৰম্ভ কৰিবলৈ তলৰ পৰা এটা ছেট বাছনি কৰক।",
+    "0 topics available. Choose a topic to start the timed test.": "০ টা বিষয় উপলব্ধ। সময়বদ্ধ টেষ্ট আৰম্ভ কৰিবলৈ এটা বিষয় বাছনি কৰক।",
+    "Read the topic notes once, then attempt the related questions to test your recall.": "প্ৰথমে বিষয়ৰ টোকা এবাৰ পঢ়ক, তাৰ পিছত সম্পৰ্কিত প্ৰশ্ন সমাধান কৰি নিজৰ স্মৃতি পৰীক্ষা কৰক।",
+    "Mark the facts you keep forgetting and revise them in short, repeated sessions.": "যি তথ্যবোৰ বাৰে বাৰে পাহৰি যাই সেইবোৰ চিহ্নিত কৰি চুটি চুটি অধিবেশনত পুনৰালোচনা কৰক।",
+    "Practise in both languages so you can recognise the same fact in Assamese and English.": "দুয়োটা ভাষাত অনুশীলন কৰক, যাতে একেখিনি তথ্য অসমীয়া আৰু ইংৰাজী দুয়োতে চিনি পায়।",
+    "Review the explanations even for questions you answered correctly to strengthen retention.": "শুদ্ধ উত্তৰ দিয়া প্ৰশ্নৰো ব্যাখ্যা পঢ়ক, যাতে মনত ৰখাৰ শক্তি বাঢ়ে।",
+    "Revise the basic formulas and concepts of this section before you begin practising.": "অনুশীলন আৰম্ভ কৰাৰ আগতে এই শিতানৰ মূল সূত্ৰ আৰু ধাৰণাসমূহ পুনৰালোচনা কৰক।",
+    "Attempt the questions under a timer so that you get used to the speed expected on exam day.": "ঘড়ী লগাই প্ৰশ্ন সমাধান কৰক, যাতে পৰীক্ষাৰ দিনা প্ৰয়োজনীয় গতিত অভ্যস্ত হয়।",
+    "Read the explanation for every wrong answer and note down exactly why you missed it.": "প্ৰতিটো ভুল উত্তৰৰ ব্যাখ্যা পঢ়ক আৰু কিয় ভুল কৰিছিল সেইটো টুকি লওক।",
+    "Return to the same sets after a few days and check whether your accuracy has improved.": "কেইদিনমানৰ পিছত একেখিনি ছেটলৈ ঘূৰি আহি নিজৰ শুদ্ধতা বাঢ়িছে নে নাই পৰীক্ষা কৰক।",
+    "Open the entry that matches the topic you are revising.": "আপুনি পুনৰালোচনা কৰি থকা বিষয়ৰ সৈতে মিলা প্ৰৱেশিকা খোলক।",
+    "Work through the questions and read the explanation for any answer you miss.": "প্ৰশ্নসমূহ সমাধান কৰক আৰু ভুল কৰা যিকোনো উত্তৰৰ ব্যাখ্যা পঢ়ক।",
+    "Switch between Assamese and English to reinforce the same fact in both languages.": "অসমীয়া আৰু ইংৰাজীৰ মাজত সলনি কৰি একেখিনি তথ্য দুয়ো ভাষাত দৃঢ় কৰক।",
+    "Yes. Every mock test, question bank, explanation and PDF note on axomexam.in is completely free. There is no login, subscription or hidden charge.": "হয়। axomexam.in ৰ প্ৰতিটো মক টেষ্ট, প্ৰশ্ন-সংগ্ৰহ, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া। কোনো লগইন, চাবস্ক্ৰিপচন বা গুপুত মাচুল নাই।",
+    "Yes. Questions and explanations are bilingual. You can switch between Assamese and English while reading so the same concept is reinforced in both languages.": "হয়। প্ৰশ্ন আৰু ব্যাখ্যা দ্বিভাষিক। পঢ়ি থাকোঁতে অসমীয়া আৰু ইংৰাজীৰ মাজত সলনি কৰিব পাৰে, যাৰ ফলত একেখিনি ধাৰণা দুয়ো ভাষাত দৃঢ় হয়।",
+    "Yes. Every practice set, explanation and PDF note on axomexam.in is completely free. There is no login, subscription or hidden charge.": "হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া। কোনো লগইন, চাবস্ক্ৰিপচন বা গুপুত মাচুল নাই।",
+    "Mock Test": "মক টেষ্ট",
+    "Previous Year Questions": "বিগত বছৰৰ প্ৰশ্ন",
+    "About axomexam": "axomexam সম্পৰ্কে",
+    "Who we are, how our study material is prepared, and how we keep it free and accurate for every Assam exam aspirant.": "আমি কোন, আমাৰ অধ্যয়ন সামগ্ৰী কেনেদৰে প্ৰস্তুত কৰা হয়, আৰু অসমৰ প্ৰতিজন পৰীক্ষাৰ্থীৰ বাবে ইয়াক কেনেদৰে বিনামূলীয়া আৰু নিৰ্ভুল ৰখা হয়।",
+    "Privacy Policy": "গোপনীয়তা নীতি",
+    "Terms & Conditions": "নীতি আৰু চৰ্তসমূহ",
+    "Disclaimer": "দাবীত্যাগ (Disclaimer)",
+    "Editorial Policy": "সম্পাদকীয় নীতি",
+    "How axomexam.in plans, writes, fact-checks, reviews and corrects its bilingual study material for Assam competitive examinations.": "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে axomexam.in ৰ দ্বিভাষিক অধ্যয়ন সামগ্ৰী কেনেদৰে পৰিকল্পনা, লিখন, তথ্য-যাচাই, পৰ্যালোচনা আৰু সংশোধন কৰা হয়।",
+    "Editorial Team": "সম্পাদকীয় দল",
+    "The Axomexam Editorial Team: who plans, writes, fact-checks and reviews the bilingual study material published on axomexam.in.": "axomexam সম্পাদকীয় দল: axomexam.in ত প্ৰকাশিত দ্বিভাষিক অধ্যয়ন সামগ্ৰী কেৱে পৰিকল্পনা, লিখন, তথ্য-যাচাই আৰু পৰ্যালোচনা কৰে।",
+    "Official Sources & References": "চৰকাৰী উৎস আৰু তথ্যসূত্ৰ",
+    "Official exam portals, notification checks and reference material used to prepare and verify study content on axomexam.in.": "axomexam.in ৰ অধ্যয়ন সামগ্ৰী প্ৰস্তুত আৰু যাচাই কৰিবলৈ ব্যৱহৃত চৰকাৰী পৰীক্ষা প'ৰ্টেল, জাননী যাচাই আৰু প্ৰসংগ সামগ্ৰী।",
+    "Content Updates": "সমল হালনাগাদ",
+    "A dated record of corrections, syllabus updates, new sections and editorial changes made to axomexam.in study material.": "axomexam.in ৰ অধ্যয়ন সামগ্ৰীত কৰা সংশোধন, পাঠ্যক্ৰমৰ হালনাগাদ, নতুন শিতান আৰু সম্পাদকীয় পৰিৱৰ্তনৰ তাৰিখসহ ৰেকৰ্ড।",
+    "Official Sources": "চৰকাৰী উৎস",
+    "axomexam.in": "axomexam.in",
+    "is an independent, free study platform for candidates preparing for government recruitment examinations in Assam and for central examinations that are popular in the state. It began as a small collection of bilingual practice questions and has grown into a structured library that covers General Knowledge, Mathematics, General Science, Reasoning Ability, General English and Computer Awareness — with every question, answer and explanation available in both English and Assamese.": "হৈছে অসমৰ চৰকাৰী নিযুক্তি পৰীক্ষা আৰু ৰাজ্যখনত জনপ্ৰিয় কেন্দ্ৰীয় পৰীক্ষাসমূহৰ বাবে প্ৰস্তুতি চলাই থকা প্ৰাৰ্থীসকলৰ বাবে এখন স্বতন্ত্ৰ, বিনামূলীয়া অধ্যয়ন মঞ্চ। ই দ্বিভাষিক অনুশীলন প্ৰশ্নৰ এখন সৰু সংগ্ৰহ হিচাপে আৰম্ভ হৈছিল আৰু এতিয়া সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ সজাগতা সামৰি এটা সংগঠিত লাইব্ৰেৰী হৈ পৰিছে — য'ত প্ৰতিটো প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা ইংৰাজী আৰু অসমীয়া দুয়োটা ভাষাত উপলব্ধ।",
+    "Our Mission": "আমাৰ লক্ষ্য",
+    "We believe that a candidate studying in a small town should have access to the same quality of practice material as a candidate in a city coaching centre — without paying a fee and without creating an account. Every part of axomexam.in is free to read, practise and download, and language is never a barrier to preparation.": "আমাৰ বিশ্বাস যে সৰু চহৰত পঢ়া এজন প্ৰাৰ্থীয়ে চহৰৰ কোচিং কেন্দ্ৰৰ প্ৰাৰ্থীৰ দৰেই একে মানৰ অনুশীলন সমল পোৱা উচিত — কোনো মাচুল নিদিয়াকৈ আৰু একাউণ্ট নখুলাকৈ। axomexam.in ৰ প্ৰতিটো অংশ পঢ়া, অনুশীলন কৰা আৰু ডাউনল'ড কৰা বিনামূলীয়া, আৰু ভাষা কেতিয়াও প্ৰস্তুতিৰ বাধা নহয়।",
+    "What We Offer": "আমি কি আগবঢ়াওঁ",
+    "Topic-wise question banks": "বিষয়ভিত্তিক প্ৰশ্ন-সংগ্ৰহ:",
+    "in General Knowledge, Mathematics, General Science, Reasoning and English, each with answers and, wherever needed, step-by-step working.": "সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি আৰু ইংৰাজীত, প্ৰতিটোৰ উত্তৰ আৰু প্ৰয়োজনত ধাপে ধাপে সমাধানসহ।",
+    "Timed mock tests": "সময় নিৰ্ধাৰিত মক টেষ্ট:",
+    "that follow the real paper pattern, with a live countdown, instant results and answer review.": "প্ৰকৃত প্ৰশ্নকাকতৰ আৰ্হি অনুসৰি, লাইভ কাউণ্টডাউন, তৎক্ষণাত ফলাফল আৰু উত্তৰ পুনৰীক্ষণসহ।",
+    "Previous year solved papers": "বিগত বৰ্ষৰ সমাধান কৰা প্ৰশ্নকাকত:",
+    "for exams such as SSC, Railway, Assam Police, Guwahati High Court, DHS and DME.": "SSC, ৰে'লৱে, অসম আৰক্ষী, গুৱাহাটী উচ্চ ন্যায়ালয়, DHS আৰু DME আদি পৰীক্ষাৰ বাবে।",
+    "E-books and PDF notes": "ই-বুক আৰু PDF নোট:",
+    "for revision, covering Assam History, Indian Polity, Geography, Economy, Art and Culture, and more.": "পুনৰাবৃত্তিৰ বাবে, অসমৰ ইতিহাস, ভাৰতীয় ৰাজনীতি, ভূগোল, অৰ্থনীতি, কলা আৰু সংস্কৃতি আদি সামৰি।",
+    "A free Android app": "এখন বিনামূলীয়া Android এপ:",
+    "so practice material can be used offline on the go.": "যাতে অনুশীলন সামগ্ৰী য'ত-ত'ৱে অফলাইনত ব্যৱহাৰ কৰিব পাৰি।",
+    "How Our Content Is Prepared": "আমাৰ সমল কেনেদৰে প্ৰস্তুত কৰা হয়",
+    "Each subject is first divided into sections and topics that follow the official syllabus of the relevant examination. Questions are then added topic by topic and checked for factual accuracy, spelling and clarity. Explanations are written in plain language so that a candidate who answered a question incorrectly can understand the concept instead of simply memorising the answer. Facts are cross-checked against official notifications, standard reference books and publicly available government sources before publishing.": "প্ৰতিটো বিষয় প্ৰথমে সংশ্লিষ্ট পৰীক্ষাৰ চৰকাৰী পাঠ্যক্ৰম অনুসৰি শিতান আৰু বিষয়ত ভাগ কৰা হয়। তাৰ পিছত বিষয় অনুসৰি প্ৰশ্ন যোগ কৰি সত্যতা, বানান আৰু স্পষ্টতা পৰীক্ষা কৰা হয়। যি প্ৰাৰ্থীয়ে এটা প্ৰশ্ন ভুল কৰিছে তেওঁ উত্তৰটো মুখস্থ নকৰি ধাৰণাটো বুজি পোৱাৰ বাবে সহজ ভাষাত ব্যাখ্যা লিখা হয়। প্ৰকাশৰ আগতে তথ্যসমূহ চৰকাৰী জাননী, মানক প্ৰসংগ পুথি আৰু ৰাজহুৱাভাৱে উপলব্ধ চৰকাৰী উৎসৰ সৈতে মিলাই পৰীক্ষা কৰা হয়।",
+    "Editorial Standards": "সম্পাদকীয় মান",
+    "All material is prepared and reviewed by the axomexam editorial team, which works only on study content for this platform. We do not accept payment for including any exam, coaching institute or product, and sponsored material is never published as study content. Pages are reviewed periodically and updated whenever a syllabus, exam pattern or fact changes.": "সকলো সামগ্ৰী axomexam সম্পাদকীয় দলৰ দ্বাৰা প্ৰস্তুত আৰু পৰ্যালোচনা কৰা হয়, যিয়ে কেৱল এই মঞ্চৰ অধ্যয়ন সমলত কাম কৰে। কোনো পৰীক্ষা, কোচিং প্ৰতিষ্ঠান বা সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বাবে আমি ধন লোৱা নাই, আৰু পৃষ্ঠপোষকতা কৰা সামগ্ৰী কেতিয়াও অধ্যয়ন সমল হিচাপে প্ৰকাশ নকৰা হয়। পাঠ্যক্ৰম, পৰীক্ষাৰ আৰ্হি বা তথ্য সলনি হ'লে পৃষ্ঠাসমূহ নিয়মীয়াকৈ পৰ্যালোচনা আৰু হালনাগাদ কৰা হয়।",
+    "Accuracy and Corrections": "শুদ্ধতা আৰু সংশোধন",
+    "We try to keep every fact correct, but examination patterns, syllabus details and official notifications can change. axomexam.in is an independent study aid and not a government portal — always confirm dates, eligibility and exam patterns from the official notification. If you find an error or a broken link, write to us with the page link and the correct information, and we will verify it and make the correction. Corrections and contributions are never used for any commercial purpose.": "আমি প্ৰতিটো তথ্য সঠিক ৰাখিবলৈ চেষ্টা কৰোঁ, কিন্তু পৰীক্ষাৰ আৰ্হি, পাঠ্যক্ৰমৰ বিৱৰণ আৰু চৰকাৰী জাননী সলনি হ'ব পাৰে। axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা, চৰকাৰী প'ৰ্টেল নহয় — তাৰিখ, যোগ্যতা আৰু পৰীক্ষাৰ আৰ্হি সদায় চৰকাৰী জাননীৰ পৰা নিশ্চিত কৰক। আপুনি কিবা ভুল বা ভাঙা লিংক পালে পৃষ্ঠাৰ লিংক আৰু সঠিক তথ্যসহ আমালৈ লিখক, আমি যাচাই কৰি সংশোধন কৰিম। সংশোধন আৰু অৱদান কেতিয়াও কোনো বাণিজ্যিক উদ্দেশ্যত ব্যৱহাৰ কৰা নহয়।",
+    "Who This Site Is For": "এই ছাইট কাৰ বাবে",
+    "The material is designed for aspirants of ADRE Grade III and IV, Assam Police Sub-Inspector and Constable, APSC, Panchayat and Rural Development, Forest Department, DHS and DME, and for central exams such as SSC CGL, CHSL and GD, and RRB NTPC and Group D. Whether you are starting from the basics or doing a final revision, the topic-wise structure lets you study at your own pace.": "এই সামগ্ৰী ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণী, অসম আৰক্ষী উপ-পৰিদৰ্শক আৰু কনিষ্টবল, APSC, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, বন বিভাগ, DHS আৰু DME, লগতে SSC CGL, CHSL আৰু GD, আৰু RRB NTPC আৰু Group D ৰ দৰে কেন্দ্ৰীয় পৰীক্ষাৰ প্ৰাৰ্থীসকলৰ বাবে ডিজাইন কৰা হৈছে। আপুনি আৰম্ভণিৰ পৰা শিকিছে নে চূড়ান্ত পুনৰাবৃত্তি কৰিছে, বিষয়ভিত্তিক গাঁথনিয়ে আপোনাক নিজৰ গতিত অধ্যয়ন কৰিবলৈ দিয়ে।",
+    "Contact Us": "যোগাযোগ কৰক",
+    "Questions, corrections and suggestions are always welcome. Email": "প্ৰশ্ন, সংশোধন আৰু পৰামৰ্শ সদায় স্বাগতম।",
+    "contact@axomexam.in": "contact@axomexam.in",
+    "or use our": "লৈ ইমেইল কৰক বা আমাৰ",
+    "contact page": "যোগাযোগ পৃষ্ঠা",
+    ". We usually reply within two to three working days.": "ব্যৱহাৰ কৰক। আমি সাধাৰণতে দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিওঁ।",
+    "20 September 2026 &middot; Publisher: axomexam.in": "২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in",
+    "<p>At <strong>axomexam.in</strong> (accessible via https://axomexam.in), the privacy of our visitors is of paramount importance. This document outlines the types of personal and analytical information received and collected by our platform.</p>\n        <h3>1. Information Collection and Handling</h3>\n        <p>We do not mandate personal account creation or collect sensitive personal identification details. Information submitted via contact or feedback forms (such as Name and Email) is used strictly to respond to user inquiries.</p>\n        <h3>2. Log Files & Standard Analytics</h3>\n        <p>Like standard web portals, axomexam.in utilizes standard log files. The data inside includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date/time stamps, referring/exit pages, and click metrics. This data is non-personally identifiable and used purely for site maintenance.</p>\n        <h3>3. Google AdSense & Third-Party Cookies</h3>\n        <p>Google, as a third-party vendor, uses cookies to serve contextual advertisements on our site. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visits to axomexam.in and other sites across the web. You can opt out of personalized advertising by visiting Google Ad Settings.</p>\n        <h3>4. Consent</h3>\n        <p>By using our website, you hereby consent to our Privacy Policy and agree to all its operational terms.</p>": "<p><strong>axomexam.in</strong> ত আপোনাৰ ব্যক্তিগত তথ্যৰ সুৰক্ষা আৰু গোপনীয়তা ৰক্ষা কৰাটো আমাৰ অন্যতম অগ্ৰাধিকাৰ। এই নথিয়ে আমি কি তথ্য সংগ্ৰহ কৰোঁ আৰু সেয়া কেনেদৰে ব্যৱহাৰ কৰোঁ তাৰ স্পষ্ট বিৱৰণ দিয়ে।</p>\n        <h3>১. আমি সংগ্ৰহ কৰা তথ্যসমূহ</h3>\n        <p>আমি আমাৰ ব্যৱহাৰকাৰীৰ পৰা কোনো গোপনীয় ব্যক্তিগত তথ্য (যেনে বেংক বিৱৰণ, পাছৱৰ্ড আদি) সংগ্ৰহ নকৰোঁ। ব্যৱহাৰকাৰীয়ে যেতিয়া Contact বা Submit ফৰ্ম ব্যৱহাৰ কৰে, তেতিয়া কেৱল নাম আৰু ইমেইল ঠিকনাহে প্ৰয়োজন সাপেক্ষে সংগ্ৰহ কৰা হয়।</p>\n        <h3>২. ল'গ ফাইল আৰু এনালিটিক্স</h3>\n        <p>আন সকলো ষ্টেণ্ডাৰ্ড ৱেবছাইটৰ দৰে, axomexam.in এ ছাইটৰ কাৰ্যক্ষমতা আৰু ব্যৱহাৰকাৰীৰ অভিজ্ঞতা উন্নত কৰিবলৈ ল’গ ফাইল ব্যৱহাৰ কৰে (যেনে IP ঠিকনা, ব্ৰাউজাৰৰ প্ৰকাৰ, পৃষ্ঠা পৰিদৰ্শনৰ সময়)। এইবোৰ কোনো ব্যক্তিবিশেষৰ পৰিচয়ৰ সৈতে সংযুক্ত নহয়।</p>\n        <h3>৩. গুগল ডাবল-ক্লিক DART কুকিজ আৰু বিজ্ঞাপন</h3>\n        <p>Google আমাৰ ৱেবছাইটৰ এজন অন্যতম তৃতীয় পক্ষৰ বিজ্ঞাপনদাতা। Google-এ ব্যৱহাৰকাৰীৰ পূৰ্বৰ ইণ্টাৰনেট কাৰ্যকলাপৰ ওপৰত ভিত্তি কৰি প্ৰাসংগিক বিজ্ঞাপন প্ৰদৰ্শন কৰিবলৈ DART কুকিজ ব্যৱহাৰ কৰিব পাৰে। ব্যৱহাৰকাৰীয়ে Google Privacy & Terms পৃষ্ঠালৈ গৈ এই বিজ্ঞাপন ব্যক্তিগতকৰণ নিয়ন্ত্ৰণ কৰিব পাৰে।</p>\n        <h3>৪. নীতিৰ সন্মতি</h3>\n        <p>আমাৰ ৱেবছাইট ব্যৱহাৰ কৰাৰ জৰিয়তে আপুনি আমাৰ গোপনীয়তা নীতিৰ চৰ্তসমূহত সন্মতি প্ৰকাশ কৰা বুলি গণ্য কৰা হ'ব।</p>",
+    "<p>Welcome to <strong>axomexam.in</strong>. By accessing and browsing this website, you accept and agree to comply with the following Terms and Conditions.</p>\n        <h3>1. Content Usage & Intellectual Property</h3>\n        <p>All materials, structured questions, study notes, and downloadable assets published on axomexam.in are intended strictly for educational, personal, and non-commercial usage. Redistribution, commercial reproduction, or resale without written permission is strictly prohibited.</p>\n        <h3>2. Accuracy & Limitation of Liability</h3>\n        <p>While our editorial team endeavors to ensure absolute factual correctness across all subjects, study materials are provided on an 'as-is' basis. axomexam.in does not warrant the completeness or absolute infallibility of contents for official evaluation criteria.</p>\n        <h3>3. External Hyperlinks</h3>\n        <p>Our pages may occasionally contain links to official external sites or reference sources. We hold no responsibility for the content, privacy guidelines, or accuracy of third-party platforms.</p>": "<p><strong>axomexam.in</strong> লৈ স্বাগতম। এই ৱেবছাইটটো ব্যৱহাৰ কৰাৰ ক্ষেত্ৰত তলত উল্লেখ কৰা নীতি আৰু চৰ্তসমূহ প্ৰযোজ্য হ'ব:</p>\n        <h3>১. বৌদ্ধিক সম্পত্তি আৰু ব্যৱহাৰৰ নিয়ম</h3>\n        <p>axomexam.in ত প্ৰকাশিত সকলো পাঠ্যক্ৰম, প্ৰশ্নোত্তৰ, মক টেষ্ট আৰু PDF সমল কেৱল ছাত্ৰ-ছাত্ৰী আৰু পৰীক্ষাৰ্থীৰ ব্যক্তিগত শিক্ষাৰ বাবেহে অনুমোদিত। আমাৰ অনুমতি অবিহনে কোনো সমল ব্যৱসায়িক স্বাৰ্থত পুনৰ প্ৰকাশ, বিক্ৰী বা অনৈতিকভাৱে ব্যৱহাৰ কৰা নিষিদ্ধ।</p>\n        <h3>২. তথ্যৰ শুদ্ধতা আৰু সীমাবদ্ধতা</h3>\n        <p>আমি সকলো প্ৰশ্ন আৰু উত্তৰ নিৰ্ভুলভাৱে যুগুত কৰিবলৈ যথাসম্ভৱ চেষ্টা কৰোঁ। তথাপিও কোনো তথ্যৰ অনিচ্ছাকৃত ত্ৰুটিৰ বাবে হোৱা শৈক্ষিক বা আনুসংগিক ক্ষতিৰ বাবে ৱেবছাইট প্ৰশাসক আইনগতভাৱে দায়বদ্ধ নহ’ব।</p>\n        <h3>৩. বাহ্যিক লিংক</h3>\n        <p>আমাৰ ৱেবছাইটত তৃতীয় পক্ষৰ লিংক (যেনে চৰকাৰী জাননী, অফিচিয়েল পৰীক্ষা প’ৰ্টেল আদি) থাকিব পাৰে। সেই বাহ্যিক ৱেবছাইটসমূহৰ সমল বা নীতিৰ বাবে আমি দায়বদ্ধ নহওঁ।</p>",
+    "<p>All content and question banks on <strong>https://axomexam.in</strong> are published in good faith and solely for general educational, academic, and competitive examination preparation purposes.</p>\n        <h3>1. Non-Affiliation with Government Authorities</h3>\n        <p>axomexam.in is an independent private educational website. It is NOT affiliated with, sponsored by, or endorsed by the Government of Assam, APSC, SLPRB, State Recruitment Boards, or any governmental testing agency. Candidates must always cross-reference with official state recruitment gazettes.</p>\n        <h3>2. Educational Warranties</h3>\n        <p>We make no absolute warranties regarding test pattern guarantees or exam success outcomes. Use of study resources and mock practices is at the user's sole discretion.</p>": "<p><strong>https://axomexam.in</strong> ত প্ৰকাশিত সকলো তথ্য কেৱল সাধাৰণ শিক্ষা আৰু জ্ঞান আহৰণৰ উদ্দেশ্যতহে আগবঢ়োৱা হৈছে।</p>\n        <h3>১. চৰকাৰী সংস্থাৰ সৈতে সম্পৰ্কহীনতা</h3>\n        <p>axomexam.in কোনো চৰকাৰী সংস্থা, অসম লোকসেৱা আয়োগ (APSC), বা কোনো পৰীক্ষা পৰিচালনা কৰা চৰকাৰী নিগমৰ অফিচিয়েল ৱেবছাইট নহয়। ই এক স্বতন্ত্ৰ শিক্ষামূলক প’ৰ্টেল। অফিচিয়েল জাননীৰ বাবে পৰীক্ষাৰ্থীসকলক সদায় চৰকাৰী গেজেট বা অফিচিয়েল প’ৰ্টেল অনুসৰণ কৰিবলৈ পৰামৰ্শ দিয়া হয়।</p>\n        <h3>২. পেছাদাৰী পৰামৰ্শ নহয়</h3>\n        <p>আমাৰ ৱেবছাইটত উপলব্ধ সমলসমূহ পৰীক্ষাৰ্থীৰ অনুশীলনৰ সহায়ৰ বাবেহে তৈয়াৰ কৰা হৈছে। ইয়াৰ ওপৰত ভিত্তি কৰি লোৱা যিকোনো সিদ্ধান্ত আপোনাৰ নিজা বিবেচনাধীন।</p>",
+    "publishes free bilingual study material for Assam state recruitment examinations and for central examinations that are popular in Assam. This page explains who prepares that material, how it is checked, which sources are used, how errors are corrected, and how advertising is kept separate from editorial decisions. It applies to every question bank, mock test, previous year paper, e-book, PDF note and article published on this website.": "এ অসম ৰাজ্যিক নিযুক্তি পৰীক্ষা আৰু অসমত জনপ্ৰিয় কেন্দ্ৰীয় পৰীক্ষাসমূহৰ বাবে বিনামূলীয়া দ্বিভাষিক অধ্যয়ন সামগ্ৰী প্ৰকাশ কৰে। এই পৃষ্ঠাই ব্যাখ্যা কৰে যে সামগ্ৰী কেৱে প্ৰস্তুত কৰে, কেনেদৰে পৰীক্ষা কৰা হয়, কি উৎস ব্যৱহাৰ কৰা হয়, ভুল কেনেদৰে সংশোধন কৰা হয়, আৰু বিজ্ঞাপনক সম্পাদকীয় সিদ্ধান্তৰ পৰা কেনেদৰে পৃথক ৰখা হয়। এই নীতি এই ৱেবছাইটত প্ৰকাশিত প্ৰতিটো প্ৰশ্ন-সংগ্ৰহ, মক টেষ্ট, বিগত বৰ্ষৰ প্ৰশ্নকাকত, ই-বুক, PDF নোট আৰু প্ৰবন্ধৰ ক্ষেত্ৰত প্ৰযোজ্য।",
+    "Who prepares the content": "সামগ্ৰী কেৱে প্ৰস্তুত কৰে",
+    "Content is planned and reviewed by the": "সামগ্ৰী",
+    "Axomexam Editorial Team": "axomexam সম্পাদকীয় দল",
+    ", which works only on study material for this platform. Every page is checked by a subject reviewer and, for Assamese text, by a language reviewer before it is published. We do not accept payment from coaching institutes, publishers or exam portals in exchange for including their material, and no sponsored page is presented as study content.": "এ পৰিকল্পনা আৰু পৰ্যালোচনা কৰে, যিয়ে কেৱল এই মঞ্চৰ অধ্যয়ন সামগ্ৰীত কাম কৰে। প্ৰকাশৰ আগতে প্ৰতিটো পৃষ্ঠা এজন বিষয়-পৰ্যালোচকে আৰু অসমীয়া পাঠৰ বাবে এজন ভাষা-পৰ্যালোচকে পৰীক্ষা কৰে। কোনো কোচিং প্ৰতিষ্ঠান, প্ৰকাশক বা পৰীক্ষা প'ৰ্টেলৰ সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বিনিময়ত আমি ধন লোৱা নাই, আৰু কোনো পৃষ্ঠপোষকতা কৰা পৃষ্ঠাক অধ্যয়ন সামগ্ৰী হিচাপে উপস্থাপন কৰা নহয়।",
+    "How a page is created": "এখন পৃষ্ঠা কেনেদৰে সৃষ্টি কৰা হয়",
+    "Syllabus mapping.": "পাঠ্যক্ৰমৰ মিল।",
+    "Each section is first matched to the official syllabus or notification of the examination it supports, so that the topics on the page are the topics that the paper actually tests.": "প্ৰতিটো শিতান প্ৰথমে সংশ্লিষ্ট পৰীক্ষাৰ চৰকাৰী পাঠ্যক্ৰম বা জাননীৰ সৈতে মিলাই লোৱা হয়, যাতে পৃষ্ঠাত থকা বিষয়বোৰ প্ৰকৃততে প্ৰশ্নকাকতত অহা বিষয় হয়।",
+    "Drafting.": "খচৰা প্ৰস্তুত।",
+    "Questions, answers and explanations are written in plain language. Wherever a numerical or reasoning question needs working, the steps are shown instead of only the final answer. English and Assamese versions are prepared together so that the two versions cover the same material.": "প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা সহজ ভাষাত লিখা হয়। সংখ্যাগত বা যুক্তিৰ প্ৰশ্নত কেৱল চূড়ান্ত উত্তৰ নহয়, কামৰ ধাপবোৰো দেখুওৱা হয়। ইংৰাজী আৰু অসমীয়া সংস্কৰণ একেলগে প্ৰস্তুত কৰা হয় যাতে দুয়োটা সংস্কৰণে একে সামগ্ৰী সামৰি লয়।",
+    "Fact-checking.": "তথ্য-যাচাই।",
+    "Facts, dates, names and numerical answers are cross-checked against official notifications and government portals, public previous year question papers, and standard school or reference material. A statement that cannot be verified is not published as fact.": "তথ্য, তাৰিখ, নাম আৰু সংখ্যাগত উত্তৰ চৰকাৰী জাননী আৰু চৰকাৰী প'ৰ্টেল, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত, আৰু মানক বিদ্যালয় বা প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰা হয়। যি তথ্য যাচাই কৰিব নোৱাৰি, তাক সত্য হিচাপে প্ৰকাশ কৰা নহয়।",
+    "Language review.": "ভাষা পৰ্যালোচনা।",
+    "The Assamese version is read for correct terminology, spelling and natural usage, not merely translated word for word. Technical terms are kept in the form used in Assamese exam papers.": "অসমীয়া সংস্কৰণ শুদ্ধ পাৰিভাষিক শব্দ, বানান আৰু স্বাভাৱিক প্ৰয়োগৰ বাবে পঢ়া হয়, কেৱল শব্দে শব্দে অনুবাদ নহয়। কাৰিকৰী শব্দবোৰ অসমীয়া প্ৰশ্নকাকতত ব্যৱহৃত ৰূপতেই ৰখা হয়।",
+    "Publishing and review.": "প্ৰকাশ আৰু পুনৰ পৰ্যালোচনা।",
+    "Each page carries a published date and a last-updated date. Content is reviewed again when a syllabus, exam pattern or official notification changes.": "প্ৰতিটো পৃষ্ঠাত প্ৰকাশৰ তাৰিখ আৰু শেষ হালনাগাদৰ তাৰিখ থাকে। পাঠ্যক্ৰম, পৰীক্ষাৰ আৰ্হি বা চৰকাৰী জাননী সলনি হ'লে সামগ্ৰী পুনৰ পৰ্যালোচনা কৰা হয়।",
+    "Sources we use": "আমি ব্যৱহাৰ কৰা উৎস",
+    "We rely on primary and publicly available material: official recruitment notifications and corrigenda, official exam portals, public previous year question papers, and standard school-level textbooks. A list of the official portals we monitor is maintained on the": "আমি প্ৰাথমিক আৰু ৰাজহুৱাভাৱে উপলব্ধ সামগ্ৰীৰ ওপৰত নিৰ্ভৰ কৰোঁ: চৰকাৰী নিযুক্তি জাননী আৰু সংশোধনী, চৰকাৰী পৰীক্ষা প'ৰ্টেল, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত, আৰু মানক বিদ্যালয়-স্তৰৰ পাঠ্যপুথি। আমি অনুসৰণ কৰা চৰকাৰী প'ৰ্টেলৰ তালিকা",
+    "official sources page": "চৰকাৰী উৎস পৃষ্ঠা",
+    "We do not reproduce chapters, question banks or explanatory text from commercial books. Where a topic is commonly explained in a particular way, we write our own explanation and check it against the syllabus and public material. References to third-party publications are not used as a substitute for our own verification.": "আমি বাণিজ্যিক পুথিৰ অধ্যায়, প্ৰশ্ন-সংগ্ৰহ বা ব্যাখ্যামূলক পাঠ পুনৰুত্পাদন নকৰোঁ। যি বিষয় সাধাৰণতে এটা নিৰ্দিষ্ট ধৰণে ব্যাখ্যা কৰা হয়, আমি নিজৰ ব্যাখ্যা লিখি পাঠ্যক্ৰম আৰু ৰাজহুৱা সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰোঁ। তৃতীয় পক্ষৰ প্ৰকাশনৰ উল্লেখ আমাৰ নিজৰ যাচাইৰ বিকল্প নহয়।",
+    "Use of AI-assisted tools": "AI সহায়ক সঁজুলিৰ ব্যৱহাৰ",
+    "Like many modern publishers, we use software, including AI language tools, to help draft, format and translate text. These tools are used as drafting aids only. Every published page is reviewed by a person before it goes live, facts are checked against the sources described above, and the editorial team is responsible for what is published. We do not auto-publish unreviewed machine output, and we do not use AI tools to invent exam notifications, dates or results.": "অন্যান্য আধুনিক প্ৰকাশকৰ দৰেই আমি পাঠ খচৰা, সজ্জিত কৰা আৰু অনুবাদ কৰাত সহায় কৰিবলৈ ছফ্টৱেৰ, যাৰ ভিতৰত AI ভাষা সঁজুলিও আছে, ব্যৱহাৰ কৰোঁ। এই সঁজুলিবোৰ কেৱল খচৰা সহায়ক হিচাপেহে ব্যৱহাৰ কৰা হয়। প্ৰতিটো প্ৰকাশিত পৃষ্ঠা লাইভ হোৱাৰ আগতে এজন ব্যক্তিয়ে পৰ্যালোচনা কৰে, তথ্য ওপৰত বৰ্ণনা কৰা উৎসৰ সৈতে যাচাই কৰা হয়, আৰু প্ৰকাশিত সমলৰ দায়িত্ব সম্পাদকীয় দলৰ। আমি পৰ্যালোচনা নকৰা যন্ত্ৰ-আউটপুট স্বয়ংক্ৰিয়ভাৱে প্ৰকাশ নকৰোঁ, আৰু পৰীক্ষাৰ জাননী, তাৰিখ বা ফলাফল সৃষ্টি কৰিবলৈ AI সঁজুলি ব্যৱহাৰ নকৰোঁ।",
+    "Accuracy, corrections and updates": "শুদ্ধতা, সংশোধন আৰু হালনাগাদ",
+    "Examination details change often. If you find a wrong answer, an outdated fact, a broken link or a translation error, write to": "পৰীক্ষাৰ বিৱৰণ সঘনাই সলনি হয়। যদি আপুনি ভুল উত্তৰ, পুৰণি তথ্য, ভাঙা লিংক বা অনুবাদৰ ভুল পায়, তেন্তে পৃষ্ঠাৰ ঠিকনা আৰু শুদ্ধ তথ্যসহ",
+    "with the page address and the correct information. We verify every report against a source before changing a page, and we aim to reply within two to three working days. Corrections are made on the live page and the last-updated date is changed. A record of major changes is kept on the": "লৈ লিখক। আমি প্ৰতিটো অভিযোগ উৎসৰ সৈতে যাচাই কৰি পৃষ্ঠা সলনি কৰোঁ, আৰু দুই-তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিবলৈ চেষ্টা কৰোঁ। সংশোধন লাইভ পৃষ্ঠাত কৰা হয় আৰু শেষ হালনাগাদৰ তাৰিখ সলনি কৰা হয়। প্ৰধান পৰিৱৰ্তনৰ ৰেকৰ্ড",
+    "content updates page": "সমল হালনাগাদ পৃষ্ঠা",
+    "axomexam.in is an independent study aid. It is not a government portal and does not represent any recruitment board. Always confirm eligibility, dates and the exam pattern from the official notification before applying.": "axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা। ই চৰকাৰী প'ৰ্টেল নহয় আৰু কোনো নিযুক্তি ব'ৰ্ডক প্ৰতিনিধিত্ব নকৰে। আবেদন কৰাৰ আগতে যোগ্যতা, তাৰিখ আৰু পৰীক্ষাৰ আৰ্হি চৰকাৰী জাননীৰ পৰা সদায় নিশ্চিত কৰক।",
+    "Advertising and editorial independence": "বিজ্ঞাপন আৰু সম্পাদকীয় স্বাধীনতা",
+    "The website is free to use and is supported by advertising. Advertising is served by third-party networks and is clearly distinguishable from editorial content. Advertisers do not review, approve or influence study material, and the presence of an advertisement is not an endorsement of the advertised product.": "ৱেবছাইটটো ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া আৰু বিজ্ঞাপনৰ দ্বাৰা সমৰ্থিত। বিজ্ঞাপন তৃতীয় পক্ষৰ নেটৱৰ্কে পৰিবেশন কৰে আৰু সম্পাদকীয় সমলৰ পৰা স্পষ্টভাৱে পৃথক থাকে। বিজ্ঞাপনদাতাই অধ্যয়ন সামগ্ৰী পৰ্যালোচনা, অনুমোদন বা প্ৰভাৱিত নকৰে, আৰু বিজ্ঞাপনৰ উপস্থিতি বিজ্ঞাপিত সামগ্ৰীৰ অনুমোদন নহয়।",
+    "We do not place advertising on error pages, redirect pages, search results or other screens that contain no study content. Pages that carry advertising contain the full topic material described above, not a summary written only to host ads.": "আমি ভুল পৃষ্ঠা, ৰিডাইৰেক্ট পৃষ্ঠা, সন্ধান ফলাফল বা অধ্যয়ন সামগ্ৰী নথকা অন্য স্ক্ৰীনত বিজ্ঞাপন নৰখোঁ। বিজ্ঞাপন থকা পৃষ্ঠাত ওপৰত বৰ্ণনা কৰা সম্পূৰ্ণ বিষয়বস্তু থাকে, কেৱল বিজ্ঞাপন দেখুওৱাৰ বাবে লিখা সাৰাংশ নহয়।",
+    "Contact": "যোগাযোগ",
+    "Questions about this policy, correction requests and contributions can be sent to": "এই নীতিৰ বিষয়ে প্ৰশ্ন, সংশোধনৰ অনুৰোধ আৰু অৱদান",
+    "or through the": "লৈ বা",
+    "23 October 2026 &middot; Publisher: axomexam.in": "২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in",
+    "Every page on axomexam.in is produced and checked by the Axomexam Editorial Team. The team is small and works only on study material for this platform. This page explains the roles involved, the review workflow, and the standards every contributor agrees to follow.": "axomexam.in ৰ প্ৰতিটো পৃষ্ঠা axomexam সম্পাদকীয় দলে প্ৰস্তুত আৰু পৰীক্ষা কৰে। দলটো সৰু আৰু কেৱল এই মঞ্চৰ অধ্যয়ন সামগ্ৰীত কাম কৰে। এই পৃষ্ঠাই জড়িত ভূমিকা, পৰ্যালোচনাৰ কাৰ্যপ্ৰবাহ, আৰু প্ৰতিজন অৱদানকাৰীয়ে মানি চলিবলগীয়া মানদণ্ড ব্যাখ্যা কৰে।",
+    "Roles in the editorial team": "সম্পাদকীয় দলৰ ভূমিকা",
+    "Content planning and syllabus mapping.": "সমল পৰিকল্পনা আৰু পাঠ্যক্ৰমৰ মিল।",
+    "Tracks official notifications and syllabi, decides which topics belong to which exam section, and retires material that is no longer part of the syllabus.": "চৰকাৰী জাননী আৰু পাঠ্যক্ৰম অনুসৰণ কৰে, কোন বিষয় কোন পৰীক্ষাৰ শিতানত পৰে নিৰ্ধাৰণ কৰে, আৰু পাঠ্যক্ৰমৰ পৰা বাদ পৰা সামগ্ৰী আঁতৰায়।",
+    "Subject writers.": "বিষয় লেখক।",
+    "Prepare questions, answers and step-by-step explanations in General Knowledge, Mathematics, General Science, Reasoning, General English, Computer Awareness and current affairs.": "সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী, কম্পিউটাৰ সজাগতা আৰু চলিত ঘটনাৱলীত প্ৰশ্ন, উত্তৰ আৰু ধাপে ধাপে ব্যাখ্যা প্ৰস্তুত কৰে।",
+    "Assamese language reviewer.": "অসমীয়া ভাষা পৰ্যালোচক।",
+    "Checks the Assamese version for correct terminology, spelling and natural usage, and makes sure it matches the English version in scope.": "অসমীয়া সংস্কৰণৰ শুদ্ধ পাৰিভাষিক শব্দ, বানান আৰু স্বাভাৱিক প্ৰয়োগ পৰীক্ষা কৰে, আৰু ইয়াৰ পৰিসৰ ইংৰাজী সংস্কৰণৰ সৈতে মিলে নে নাই নিশ্চিত কৰে।",
+    "Fact-check and quality review.": "তথ্য-যাচাই আৰু গুণগত পৰ্যালোচনা।",
+    "Verifies facts, dates, names and numerical answers against official notifications, public question papers and standard reference material before publishing.": "প্ৰকাশৰ আগতে তথ্য, তাৰিখ, নাম আৰু সংখ্যাগত উত্তৰ চৰকাৰী জাননী, ৰাজহুৱা প্ৰশ্নকাকত আৰু মানক প্ৰসংগ সামগ্ৰীৰ সৈতে যাচাই কৰে।",
+    "Technical review.": "কাৰিকৰী পৰ্যালোচনা।",
+    "Checks page structure, mobile readability, search, downloadable files and accessibility of the published page.": "পৃষ্ঠাৰ গাঁথনি, ম'বাইলত পঢ়নক্ষমতা, সন্ধান, ডাউনল'ডযোগ্য ফাইল আৰু প্ৰকাশিত পৃষ্ঠাৰ অভিগম্যতা পৰীক্ষা কৰে।",
+    "How a page is reviewed": "এখন পৃষ্ঠা কেনেদৰে পৰ্যালোচনা কৰা হয়",
+    "The topic is matched to the official syllabus or notification.": "বিষয়টো চৰকাৰী পাঠ্যক্ৰম বা জাননীৰ সৈতে মিলাই লোৱা হয়।",
+    "A draft is written in English and Assamese with answers and explanations.": "উত্তৰ আৰু ব্যাখ্যাসহ ইংৰাজী আৰু অসমীয়াত খচৰা লিখা হয়।",
+    "A second reviewer checks the facts and the working of every numerical or reasoning question.": "দ্বিতীয় এজন পৰ্যালোচকে তথ্য আৰু প্ৰতিটো সংখ্যাগত বা যুক্তিৰ প্ৰশ্নৰ কাম পৰীক্ষা কৰে।",
+    "The Assamese text is reviewed for language quality.": "অসমীয়া পাঠৰ ভাষাৰ গুণ পৰ্যালোচনা কৰা হয়।",
+    "The page is published with a published date and a last-updated date, and is revisited when the exam pattern changes.": "প্ৰকাশৰ তাৰিখ আৰু শেষ হালনাগাদৰ তাৰিখসহ পৃষ্ঠা প্ৰকাশ কৰা হয়, আৰু পৰীক্ষাৰ আৰ্হি সলনি হ'লে পুনৰ পৰ্যালোচনা কৰা হয়।",
+    "The full process, including our policy on AI-assisted drafting, is described in the": "AI সহায়ক খচৰাৰ নীতিকে ধৰি সম্পূৰ্ণ প্ৰক্ৰিয়া",
+    "editorial policy": "সম্পাদকীয় নীতি",
+    "Standards every contributor follows": "প্ৰতিজন অৱদানকাৰীয়ে মানি চলা মানদণ্ড",
+    "Write original explanations; do not copy text, questions or notes from commercial books or other websites.": "মৌলিক ব্যাখ্যা লিখক; বাণিজ্যিক পুথি বা অন্য ৱেবছাইটৰ পাঠ, প্ৰশ্ন বা নোট কপি নকৰিব।",
+    "Check facts against official or public sources and do not present an unverified claim as fact.": "তথ্য চৰকাৰী বা ৰাজহুৱা উৎসৰ সৈতে যাচাই কৰক আৰু অযাচিত দাবীক সত্য হিচাপে উপস্থাপন নকৰিব।",
+    "Show the working for numerical and reasoning questions, not only the answer.": "সংখ্যাগত আৰু যুক্তিৰ প্ৰশ্নত কেৱল উত্তৰ নহয়, কামৰ ধাপো দেখুওৱাক।",
+    "Keep the English and Assamese versions equivalent in coverage and difficulty.": "ইংৰাজী আৰু অসমীয়া সংস্কৰণৰ পৰিসৰ আৰু কাঠিন্য সমান ৰাখক।",
+    "Correct reported errors promptly and record the change.": "জনোৱা ভুলসমূহ সময়মতে সংশোধন কৰক আৰু পৰিৱৰ্তন লিপিবদ্ধ কৰক।",
+    "Keep advertising and editorial decisions separate.": "বিজ্ঞাপন আৰু সম্পাদকীয় সিদ্ধান্ত পৃথক ৰাখক।",
+    "Independence and funding": "স্বাধীনতা আৰু পুঁজি",
+    "axomexam.in is independently run and free to use. It is funded by advertising and does not accept payment for including any exam, coaching institute, book or product in its study material. Team members do not publish sponsored material as editorial content.": "axomexam.in স্বাধীনভাৱে পৰিচালিত আৰু ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া। ই বিজ্ঞাপনৰ দ্বাৰা পুঁজিৰ যোগান ধৰে আৰু নিজৰ অধ্যয়ন সামগ্ৰীত কোনো পৰীক্ষা, কোচিং প্ৰতিষ্ঠান, পুথি বা সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বাবে ধন লোৱা নাই। দলৰ সদস্যসকলে পৃষ্ঠপোষকতা কৰা সামগ্ৰী সম্পাদকীয় সমল হিচাপে প্ৰকাশ নকৰে।",
+    "Contributions and corrections": "অৱদান আৰু সংশোধন",
+    "Teachers, subject experts and candidates who spot an error are welcome to write to": "শিক্ষক, বিষয় বিশেষজ্ঞ আৰু ভুল ধৰা পেলোৱা পৰীক্ষাৰ্থীসকলক",
+    ". Please include the page address and the source for the correction so that it can be verified quickly. You can also use the": "লৈ লিখিবলৈ আমন্ত্ৰণ জনাইছোঁ। সোনকালে যাচাই কৰিব পৰাকৈ পৃষ্ঠাৰ ঠিকনা আৰু সংশোধনৰ উৎস অন্তৰ্ভুক্ত কৰিব। আপুনি",
+    "Study material is only useful if it matches the official examination. This page lists the official portals we monitor and explains how a notification is verified before it affects the content on axomexam.in. We are an independent website and are not connected to any of these organisations.": "অধ্যয়ন সামগ্ৰী তেতিয়াহে উপযোগী হয় যেতিয়া ই চৰকাৰী পৰীক্ষাৰ সৈতে মিলে। এই পৃষ্ঠাই আমি অনুসৰণ কৰা চৰকাৰী প'ৰ্টেলৰ তালিকা দিয়ে আৰু axomexam.in ৰ সমলত প্ৰভাৱ পেলোৱাৰ আগতে এখন জাননী কেনেদৰে যাচাই কৰা হয় তাক ব্যাখ্যা কৰে। আমি এখন স্বতন্ত্ৰ ৱেবছাইট আৰু এই কোনো সংস্থাৰ সৈতে সংযুক্ত নহয়।",
+    "Official exam portals": "চৰকাৰী পৰীক্ষা প'ৰ্টেল",
+    "Exam body": "পৰীক্ষা সংস্থা",
+    "What to check there": "তাত কি চাব",
+    "Official portal": "চৰকাৰী প'ৰ্টেল",
+    "SLPRB Assam": "SLPRB অসম",
+    "Assam Police constable and sub-inspector notifications, syllabus, admit cards and results": "অসম আৰক্ষী কনিষ্টবল আৰু উপ-পৰিদৰ্শকৰ জাননী, পাঠ্যক্ৰম, প্ৰৱেশপত্ৰ আৰু ফলাফল",
+    "slprbassam.in": "slprbassam.in",
+    "SLRC Assam": "SLRC অসম",
+    "ADRE Grade III and Grade IV notifications, exam pattern and results": "ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণীৰ জাননী, পৰীক্ষাৰ আৰ্হি আৰু ফলাফল",
+    "slrcassam.in": "slrcassam.in",
+    "APSC": "APSC",
+    "Combined Competitive Examination and other commission examinations": "সংযুক্ত প্ৰতিযোগিতামূলক পৰীক্ষা আৰু আয়োগৰ অন্যান্য পৰীক্ষা",
+    "apsc.nic.in": "apsc.nic.in",
+    "Staff Selection Commission": "কৰ্মচাৰী নিৰ্বাচন আয়োগ",
+    "CGL, CHSL, GD, MTS and other central notifications and answer keys": "CGL, CHSL, GD, MTS আৰু অন্যান্য কেন্দ্ৰীয় জাননী আৰু উত্তৰ-কুঞ্জিকা",
+    "ssc.gov.in": "ssc.gov.in",
+    "Indian Railways": "ভাৰতীয় ৰে'লৱে",
+    "RRB NTPC, Group D, ALP and other railway recruitment notices": "RRB NTPC, Group D, ALP আৰু অন্যান্য ৰে'লৱে নিযুক্তি জাননী",
+    "indianrailways.gov.in": "indianrailways.gov.in",
+    "Gauhati High Court": "গুৱাহাটী উচ্চ ন্যায়ালয়",
+    "Grade III and Grade IV recruitment notices and results": "তৃতীয় আৰু চতুৰ্থ শ্ৰেণীৰ নিযুক্তি জাননী আৰু ফলাফল",
+    "ghconline.gov.in": "ghconline.gov.in",
+    "How a notification is verified": "এখন জাননী কেনেদৰে যাচাই কৰা হয়",
+    "We open the notice on the official portal of the recruiting body, not on a coaching or news website.": "আমি জাননীখন নিযুক্তি সংস্থাৰ চৰকাৰী প'ৰ্টেলত খোলোঁ, কোনো কোচিং বা বাতৰি ৱেবছাইটত নহয়।",
+    "We check the advertisement number, the post, the number of vacancies and the last date against the PDF published by the recruiting body.": "বিজ্ঞাপন নম্বৰ, পদ, খালী পদৰ সংখ্যা আৰু শেষ তাৰিখ নিযুক্তি সংস্থাই প্ৰকাশ কৰা PDF ৰ সৈতে মিলাই পৰীক্ষা কৰোঁ।",
+    "We check whether a corrigendum or extension notice has been issued after the first advertisement.": "প্ৰথম বিজ্ঞাপনৰ পিছত কোনো সংশোধনী বা সময় বঢ়োৱা জাননী জাৰি হৈছে নেকি পৰীক্ষা কৰোঁ।",
+    "We update the relevant page only after the details match the official document.": "বিৱৰণ চৰকাৰী নথিপত্ৰৰ সৈতে মিলাৰ পিছতহে সংশ্লিষ্ট পৃষ্ঠা হালনাগাদ কৰোঁ।",
+    "Where the official information is unclear, the page says so instead of filling the gap with a guess.": "চৰকাৰী তথ্য অস্পষ্ট হ'লে অনুমানেৰে পূৰণ নকৰি পৃষ্ঠাত সেই কথা উল্লেখ কৰোঁ।",
+    "Reference material": "প্ৰসংগ সামগ্ৰী",
+    "Besides official notifications, our explanations are checked against standard school-level textbooks, public previous year question papers and widely accepted subject references. Questions and explanations are written in our own words. We do not reproduce chapters from commercial books, and the mention of any book elsewhere on the site is not a claim that its text has been copied.": "চৰকাৰী জাননীৰ উপৰিও আমাৰ ব্যাখ্যা মানক বিদ্যালয়-স্তৰৰ পাঠ্যপুথি, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত আৰু বহুলভাৱে স্বীকৃত বিষয়-প্ৰসংগৰ সৈতে যাচাই কৰা হয়। প্ৰশ্ন আৰু ব্যাখ্যা আমাৰ নিজৰ শব্দত লিখা হয়। আমি বাণিজ্যিক পুথিৰ অধ্যায় পুনৰুত্পাদন নকৰোঁ, আৰু ছাইটৰ অন্য ঠাইত কোনো পুথিৰ উল্লেখ কৰাৰ অৰ্থ ইয়াৰ পাঠ কপি কৰা বুলি দাবী নহয়।",
+    "Reporting a source problem": "উৎসৰ সমস্যা জনোৱা",
+    "If a link is broken, a notification has changed or a page cites a source incorrectly, write to": "যদি কোনো লিংক ভাঙি গৈছে, জাননী সলনি হৈছে বা কোনো পৃষ্ঠাই উৎস ভুলকৈ উল্লেখ কৰিছে, তেন্তে পৃষ্ঠাৰ ঠিকনাসহ",
+    "with the page address. See the": "লৈ লিখক। সংশোধন কেনেদৰে কৰা হয়, সেই বিষয়ে",
+    "for how corrections are handled.": "ত চাওক।",
+    "This page records substantive changes to the study material and to the way the site is run. Small spelling fixes are not listed, but syllabus changes, new sections, corrections to answers and policy changes are. The newest entries appear first.": "এই পৃষ্ঠাই অধ্যয়ন সামগ্ৰী আৰু ছাইট পৰিচালনাৰ পদ্ধতিত কৰা উল্লেখযোগ্য পৰিৱৰ্তন লিপিবদ্ধ কৰে। সৰু বানান সংশোধন তালিকাভুক্ত নকৰা হয়, কিন্তু পাঠ্যক্ৰমৰ পৰিৱৰ্তন, নতুন শিতান, উত্তৰৰ সংশোধন আৰু নীতিৰ পৰিৱৰ্তন লিপিবদ্ধ কৰা হয়। নতুন ভুক্তি প্ৰথমে দেখুওৱা হয়।",
+    "23 October 2026 &mdash; Editorial quality review": "২৩ অক্টোবৰ ২০২৬ &mdash; সম্পাদকীয় গুণগত পৰ্যালোচনা",
+    "Reviewed the editorial presentation of every topic page, including author attribution, source notes and last-updated dates.": "লেখক পৰিচয়, উৎসৰ টোকা আৰু শেষ হালনাগাদৰ তাৰিখকে ধৰি প্ৰতিটো বিষয় পৃষ্ঠাৰ সম্পাদকীয় উপস্থাপন পৰ্যালোচনা কৰা হৈছে।",
+    "Removed keyword meta tags that were not used by search engines and did not help readers.": "সন্ধান ইঞ্জিনে ব্যৱহাৰ নকৰা আৰু পাঠকক সহায় নকৰা keyword meta টেগ আঁতৰোৱা হৈছে।",
+    "Replaced references to commercial reference books with official syllabus and public-source references, and rewrote the affected sentences in our own words.": "বাণিজ্যিক প্ৰসংগ পুথিৰ উল্লেখ চৰকাৰী পাঠ্যক্ৰম আৰু ৰাজহুৱা উৎসৰ উল্লেখেৰে সলনি কৰা হৈছে, আৰু প্ৰভাৱিত বাক্যবোৰ নিজৰ শব্দত পুনৰ লিখা হৈছে।",
+    "Added this changelog, the": "এই পৰিৱৰ্তন-তালিকা,",
+    ", the": ",",
+    "editorial team": "সম্পাদকীয় দল",
+    "page and the": "পৃষ্ঠা আৰু",
+    "official sources": "চৰকাৰী উৎস",
+    "page.": "পৃষ্ঠা যোগ কৰা হৈছে।",
+    "Removed advertising from error pages, redirect pages, search pages and other screens without study content.": "ভুল পৃষ্ঠা, ৰিডাইৰেক্ট পৃষ্ঠা, সন্ধান পৃষ্ঠা আৰু অধ্যয়ন সামগ্ৰী নথকা অন্য স্ক্ৰীনৰ পৰা বিজ্ঞাপন আঁতৰোৱা হৈছে।",
+    "22 October 2026 &mdash; Duplicate description fix": "২২ অক্টোবৰ ২০২৬ &mdash; নকল বিৱৰণৰ সংশোধন",
+    "Removed a duplicate meta description tag that had been flagged during a search-engine site scan.": "সন্ধান ইঞ্জিনৰ ছাইট স্কেনত ধৰা পৰা এখন নকল meta description টেগ আঁতৰোৱা হৈছে।",
+    "2 October 2026 &mdash; Current affairs update": "২ অক্টোবৰ ২০২৬ &mdash; চলিত ঘটনাৱলীৰ হালনাগাদ",
+    "Updated the current affairs sections, including economy and banking, environment and ecology, summits and conferences, rankings and reports, and obituaries.": "অৰ্থনীতি আৰু বেংকিং, পৰিৱেশ আৰু পৰিৱেশ বিজ্ঞান, শীৰ্ষ সন্মিলন, ৰেংকিং আৰু প্ৰতিবেদন, আৰু মৃতকৰ্মকে ধৰি চলিত ঘটনাৱলীৰ শিতানসমূহ হালনাগাদ কৰা হৈছে।",
+    "18 September 2026 &mdash; Site published": "১৮ ছেপ্তেম্বৰ ২০২৬ &mdash; ছাইট প্ৰকাশ",
+    "Published the topic-wise bilingual question banks, mock tests, previous year papers and PDF notes for Assam competitive examinations.": "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে বিষয়ভিত্তিক দ্বিভাষিক প্ৰশ্ন-সংগ্ৰহ, মক টেষ্ট, বিগত বৰ্ষৰ প্ৰশ্নকাকত আৰু PDF নোট প্ৰকাশ কৰা হৈছে।",
+    "How updates are recorded": "হালনাগাদ কেনেদৰে লিপিবদ্ধ কৰা হয়",
+    "When a page is corrected, its last-updated date changes and the change is summarised here if it affects what a reader learns or relies on. Exam notifications, syllabus changes and corrections to answers are always recorded. You can follow new material through the": "কোনো পৃষ্ঠা সংশোধন কৰিলে তাৰ শেষ হালনাগাদৰ তাৰিখ সলনি হয়, আৰু পাঠকে শিকা বা নিৰ্ভৰ কৰা তথ্যত প্ৰভাৱ পৰিলে পৰিৱৰ্তনৰ সাৰাংশ ইয়াত দিয়া হয়। পৰীক্ষাৰ জাননী, পাঠ্যক্ৰমৰ পৰিৱৰ্তন আৰু উত্তৰৰ সংশোধন সদায় লিপিবদ্ধ কৰা হয়। নতুন সামগ্ৰী",
+    "RSS feed": "RSS ফীড",
+    "or report a needed correction through the": "ৰ জৰিয়তে অনুসৰণ কৰিব পাৰে বা",
+    "Free bilingual (Assamese & English) mock tests, previous year solved question papers, and PDF study notes for APSC, Assam Police, ADRE, SSC, and Railway exams.": "APSC, অসম আৰক্ষী, ADRE, SSC আৰু ৰে'লৱে পৰীক্ষাৰ বাবে বিনামূলীয়া দ্বিভাষিক (অসমীয়া আৰু ইংৰাজী) মক টেষ্ট, বিগত বছৰৰ সমাধান কৰা প্ৰশ্নকাকত আৰু PDF অধ্যয়ন টোকা।",
+    "Features": "বৈশিষ্ট্যসমূহ",
+    "Quick ways to start your preparation": "আপোনাৰ প্ৰস্তুতি আৰম্ভ কৰাৰ দ্ৰুত উপায়",
+    "Free Practicing": "বিনামূলীয়া অনুশীলন",
+    "Practice Q&amp;A by subject": "বিষয় অনুসৰি প্ৰশ্ন-উত্তৰ অনুশীলন",
+    "Timed exam-pattern tests": "সময়বদ্ধ পৰীক্ষাৰ আৰ্হিৰ টেষ্ট",
+    "Free eBooks": "বিনামূলীয়া ই-বুক",
+    "Read online, anytime": "যিকোনো সময়তে অনলাইনত পঢ়ক",
+    "Free Exam Books": "বিনামূলীয়া পৰীক্ষাৰ কিতাপ",
+    "Exam-wise preparation": "পৰীক্ষা-ভিত্তিক প্ৰস্তুতি",
+    "Solved past papers": "সমাধান কৰা বিগত বছৰৰ প্ৰশ্নকাকত",
+    "Free Detailed Articles": "বিনামূলীয়া বিশদ প্ৰবন্ধ",
+    "Study articles": "অধ্যয়ন প্ৰবন্ধ",
+    "Free PDF Notes": "বিনামূলীয়া PDF টোকা",
+    "Printable PDF notes": "প্ৰিণ্ট কৰিব পৰা PDF টোকা",
+    "Free Current Affairs": "বিনামূলীয়া চলিত ঘটনাৱলী",
+    "Download Free App": "বিনামূলীয়া এপ ডাউনলোড কৰক",
+    "Browse Categories": "শ্ৰেণীবোৰ চাওক",
+    "Practice by subject": "বিষয় অনুসৰি অনুশীলন",
+    "Trending Topics": "ট্ৰেণ্ডিং বিষয়",
+    "Assam Exam Preparation at Your Fingertips": "আঙুলিৰ মূৰত অসম পৰীক্ষাৰ প্ৰস্তুতি",
+    "Free mock tests, previous year papers &amp; study notes for every Assam competitive exam": "প্ৰতিটো অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে বিনামূলীয়া মক টেষ্ট, বিগত বছৰৰ প্ৰশ্নকাকত আৰু অধ্যয়ন টোকা",
+    "Everything you need to know about practising on axomexam": "axomexam ত অনুশীলনৰ বিষয়ে আপুনি জনা প্ৰয়োজনীয় সকলো",
+    "Read More": "আৰু পঢ়ক",
+    "Questions": "প্ৰশ্ন",
+    "Topics": "বিষয়",
+    "PDFs": "PDF",
+    "Practice thousands of questions for Assam competitive exams and download printable PDF notes in both Assamese and English — for ADRE 3.0, APSC, Assam Police, SSC, Railway &amp; more.": "অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে হাজাৰ হাজাৰ প্ৰশ্ন অনুশীলন কৰক আৰু অসমীয়া তথা ইংৰাজী দুয়ো ভাষাত প্ৰিণ্ট কৰিব পৰা PDF টোকা ডাউনলোড কৰক — ADRE 3.0, APSC, অসম আৰক্ষী, SSC, ৰে'লৱে আৰু অধিকৰ বাবে।",
+    "Is axomexam free to use?": "axomexam বিনামূলীয়াকৈ ব্যৱহাৰ কৰিব পাৰি নেকি?",
+    "Yes. axomexam is completely free. All mock tests, previous year solved papers and PDF notes are available without registration or payment.": "হয়। axomexam সম্পূৰ্ণ বিনামূলীয়া। প্ৰতিটো মক টেষ্ট, বিগত বছৰৰ সমাধান কৰা প্ৰশ্নকাকত আৰু PDF টোকা কোনো পঞ্জীয়ন বা মাচুল নিদিয়াকৈ উপলব্ধ।",
+    "Which exams does axomexam cover?": "axomexam ত কোনবোৰ পৰীক্ষা সামৰি লোৱা হৈছে?",
+    "axomexam covers Assam state exams such as ADRE (Assam Direct Recruitment Examination), APSC, Assam Police / SLPRB, DHS and DME/DTE, as well as central exams including SSC (CGL, CHSL, GD) and Railway (RRB NTPC, Group D).": "axomexam ত ADRE (অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা), APSC, অসম আৰক্ষী / SLPRB, DHS আৰু DME/DTE ৰ দৰে অসম ৰাজ্যিক পৰীক্ষাৰ লগতে SSC (CGL, CHSL, GD) আৰু ৰে'লৱে (RRB NTPC, Group D) ৰ দৰে কেন্দ্ৰীয় পৰীক্ষাও সামৰি লোৱা হৈছে।",
+    "Are the questions available in Assamese as well as English?": "প্ৰশ্নসমূহ অসমীয়া আৰু ইংৰাজী দুয়ো ভাষাত উপলব্ধ নেকি?",
+    "Yes. Every question, answer and explanation on axomexam is bilingual, so you can practise in both Assamese and English.": "হয়। axomexam ৰ প্ৰতিটো প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা দ্বিভাষিক, গতিকে আপুনি অসমীয়া আৰু ইংৰাজী দুয়ো ভাষাত অনুশীলন কৰিব পাৰে।",
+    "Does axomexam provide timed mock tests?": "axomexam এ সময়বদ্ধ মক টেষ্ট আগবঢ়ায় নেকি?",
+    "Yes. axomexam mock tests run on a live timer and follow the real exam pattern, with instant results and answer explanations.": "হয়। axomexam ৰ মক টেষ্ট লাইভ টাইমাৰত চলে আৰু প্ৰকৃত পৰীক্ষাৰ আৰ্হি অনুসৰণ কৰে, লগতে তৎক্ষণাৎ ফলাফল আৰু উত্তৰৰ ব্যাখ্যা দিয়ে।",
+    "Can I download PDF notes and previous year papers?": "মই PDF টোকা আৰু বিগত বছৰৰ প্ৰশ্নকাকত ডাউনলোড কৰিব পাৰিম নেকি?",
+    "Yes. PDF study notes, e-books and previous year solved papers can be downloaded for offline practice.": "হয়। PDF অধ্যয়ন টোকা, ই-বুক আৰু বিগত বছৰৰ সমাধান কৰা প্ৰশ্নকাকত অফলাইন অনুশীলনৰ বাবে ডাউনলোড কৰিব পাৰি।",
+    "Do I need an account to practise on axomexam?": "axomexam ত অনুশীলন কৰিবলৈ একাউণ্টৰ প্ৰয়োজন নেকি?",
+    "No. You can start practising mock tests and questions immediately without creating an account.": "নাই। একাউণ্ট নখুলাকৈয়ে আপুনি তৎক্ষণাত মক টেষ্ট আৰু প্ৰশ্ন অনুশীলন আৰম্ভ কৰিব পাৰে।",
+    "What is the syllabus for the Assam Police written exam?": "অসম আৰক্ষীৰ লিখিত পৰীক্ষাৰ পাঠ্যক্ৰম কি?",
+    "The Assam Police (SLPRB) written paper generally covers Elementary Mathematics, General English, Logical Reasoning and Mental Ability, Assam's History, Geography and Culture, and General Knowledge and Current Affairs. The syllabus can change with each notification, so check the official advertisement. axomexam has a free Assam Police syllabus page and bilingual practice sets for every section.": "অসম আৰক্ষী (SLPRB) ৰ লিখিত প্ৰশ্নকাকতত সাধাৰণতে প্ৰাথমিক গণিত, সাধাৰণ ইংৰাজী, যুক্তি আৰু মানসিক ক্ষমতা, অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি, আৰু সাধাৰণ জ্ঞান তথা চলিত ঘটনাৱলী সামৰি লোৱা হয়। প্ৰতিটো জাননীৰ লগে লগে পাঠ্যক্ৰম সলনি হ'ব পাৰে, গতিকে চৰকাৰী বিজ্ঞাপন চাওক। axomexam ত বিনামূলীয়া অসম আৰক্ষী পাঠ্যক্ৰম পৃষ্ঠা আৰু প্ৰতিটো শিতানৰ বাবে দ্বিভাষিক অনুশীলন ছেট আছে।",
+    "What is the exam pattern of ADRE 3.0 Grade IV?": "ADRE 3.0 গ্ৰেড IV ৰ পৰীক্ষাৰ আৰ্হি কি?",
+    "The ADRE 3.0 Grade IV examination is an objective (OMR-based) multiple-choice paper held bilingually in Assamese and English. It usually has sections on General Mathematics, General English, General Knowledge and Assam GK, Reasoning and Mental Ability, and Social Studies, followed by a document verification stage. See the ADRE syllabus page for the complete pattern.": "ADRE 3.0 গ্ৰেড IV পৰীক্ষা এটা বস্তুনিষ্ঠ (OMR-ভিত্তিক) বহু-বিকল্প প্ৰশ্নকাকত, যি অসমীয়া আৰু ইংৰাজী দুয়ো ভাষাত অনুষ্ঠিত হয়। ইয়াত সাধাৰণতে সাধাৰণ গণিত, সাধাৰণ ইংৰাজী, সাধাৰণ জ্ঞান আৰু অসম GK, যুক্তি আৰু মানসিক ক্ষমতা, আৰু সমাজ বিজ্ঞানৰ শিতান থাকে, তাৰ পিছত নথি যাচাইৰ পৰ্যায়। সম্পূৰ্ণ আৰ্হিৰ বাবে ADRE পাঠ্যক্ৰম পৃষ্ঠা চাওক।",
+    "What is the eligibility for ADRE and Assam Police exams?": "ADRE আৰু অসম আৰক্ষী পৰীক্ষাৰ যোগ্যতা কি?",
+    "Eligibility such as the age limit, minimum educational qualification and age relaxation for reserved categories is fixed by SLRC Assam for ADRE and by SLPRB for Assam Police in each official notification. Always confirm the exact criteria from the latest official advertisement before applying.": "বয়সৰ সীমা, নূন্যতম শিক্ষাগত যোগ্যতা আৰু সংৰক্ষিত শ্ৰেণীৰ বাবে বয়সৰ শিথিলতাৰ দৰে যোগ্যতা ADRE ৰ বাবে SLRC অসম আৰু অসম আৰক্ষীৰ বাবে SLPRB এ প্ৰতিটো চৰকাৰী জাননীত নিৰ্ধাৰণ কৰে। আবেদন কৰাৰ আগতে সদায় শেহতীয়া চৰকাৰী বিজ্ঞাপনৰ পৰা সঠিক চৰ্ত নিশ্চিত কৰক।",
+    "What is the exam pattern of the APSC CCE?": "APSC CCE ৰ পৰীক্ষাৰ আৰ্হি কি?",
+    "The APSC Combined Competitive Examination (CCE) is held in three stages: a Preliminary examination with objective papers, a Main written (descriptive) examination, and a Personality Test (interview). The exact papers and syllabus are set by the Assam Public Service Commission in its notification. axomexam's General Studies, reasoning, mathematics and English question banks help you build the foundation for both the Prelims and Mains.": "APSC সংযুক্ত প্ৰতিযোগিতামূলক পৰীক্ষা (CCE) তিনিটা পৰ্যায়ত অনুষ্ঠিত হয়: বস্তুনিষ্ঠ প্ৰশ্নকাকতৰ সৈতে প্ৰাৰম্ভিক পৰীক্ষা, মূল লিখিত (বৰ্ণনাত্মক) পৰীক্ষা, আৰু ব্যক্তিত্ব পৰীক্ষা (সাক্ষাৎকাৰ)। সঠিক প্ৰশ্নকাকত আৰু পাঠ্যক্ৰম অসম ৰাজহুৱা সেৱা আয়োগে তাৰ জাননীত নিৰ্ধাৰণ কৰে। axomexam ৰ সাধাৰণ অধ্যয়ন, যুক্তি, গণিত আৰু ইংৰাজীৰ প্ৰশ্ন-সংগ্ৰহে আপোনাক প্ৰাৰম্ভিক আৰু মূল — দুয়োটাৰে ভেটি গঢ়িবলৈ সহায় কৰে।",
+    "Assam's premier bilingual competitive exam preparation portal. Free study notes, mock tests and previous papers.": "অসমৰ সৰ্ববৃহৎ দ্বিভাষিক প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি মঞ্চ। ADRE, অসম আৰক্ষী, APSC আদি পৰীক্ষাৰ বিনামূলীয়া সমল।",
+    "Contact:": "যোগাযোগ:",
+    "Quick Links": "দ্ৰুত লিংক",
+    "Previous Papers": "বিগত বৰ্ষৰ প্ৰশ্ন",
+    "Download App": "এপ ডাউনলোড",
+    "Submit Q&A": "প্ৰশ্ন প্ৰেৰণ কৰক",
+    "Legal & Info": "আইনী নীতি",
+    "About Us": "আমাৰ বিষয়ে",
+    "Contact us :": "যোগাযোগ কৰক :",
+    "No articles have been added here yet.": "এতিয়ালৈকে ইয়াত কোনো প্ৰবন্ধ যোগ কৰা হোৱা নাই।",
+    "Go Back": "পিছলৈ যাওক",
+    "Read Articles • Reading Only": "প্ৰবন্ধ পঢ়া • পঢ়া-মাত্ৰ",
+    "Complete In-Depth Study Guide": "সম্পূৰ্ণ অধ্যয়ন নিৰ্দেশিকা (Theory Guide)",
+    "Report a wrong answer, request a topic, contribute questions, or ask for help with your exam preparation.": "ভুল উত্তৰ জনাওক, নতুন বিষয় বিচাৰক, প্ৰশ্ন আগবঢ়াওক, বা পৰীক্ষাৰ প্ৰস্তুতিত সহায় বিচাৰক।",
+    "We read every message we receive and use the feedback to improve the question banks, notes and mock tests on axomexam.in. Whether you want to report a wrong answer, suggest a new topic, contribute questions or ask about study material, this page explains the best way to reach us.": "আমি লাভ কৰা প্ৰতিটো বাৰ্তা পঢ়োঁ আৰু সেই প্ৰতিক্ৰিয়া axomexam.in ৰ প্ৰশ্ন-সংগ্ৰহ, নোট আৰু মক টেষ্ট উন্নত কৰিবলৈ ব্যৱহাৰ কৰোঁ। আপুনি এটা ভুল উত্তৰ জনাব, নতুন এটা বিষয়ৰ পৰামৰ্শ দিব, প্ৰশ্ন আগবঢ়াব বা অধ্যয়ন সামগ্ৰীৰ বিষয়ে সোধা-পোছা কৰিব বিচাৰে নে নাই — এই পৃষ্ঠাই আমাৰ সৈতে যোগাযোগ কৰাৰ আটাইতকৈ ভাল উপায় ব্যাখ্যা কৰে।",
+    "Email Support": "ইমেইল সহায়",
+    "The fastest way to contact us is by email at": "যোগাযোগৰ আটাইতকৈ দ্ৰুত উপায় হ'ল",
+    ". Please write from a valid email address so that we can reply. We usually respond within": "লৈ ইমেইল। আমাক উত্তৰ দিবলৈ অনুগ্ৰহ কৰি এটা বৈধ ইমেইল ঠিকনাৰ পৰা লিখক। আমি সাধাৰণতে",
+    "two to three working days": "দুৰৰ পৰা তিনি কৰ্মদিৱসৰ",
+    "Send us a message": "আমাক এটা বাৰ্তা পঠিয়াওক",
+    "Your name": "আপোনাৰ নাম",
+    "Your email": "আপোনাৰ ইমেইল",
+    "Subject": "বিষয়",
+    "Message": "বাৰ্তা",
+    "Send message": "বাৰ্তা পঠিয়াওক",
+    "This opens your email app with the details filled in. If it does not open, simply email us directly at": "ই আপোনাৰ ইমেইল এপটো তথ্য ভৰাই খুলিব। যদি নুখুলে, তেন্তে পোনপটীয়াকৈ",
+    "What to Include in Your Message": "আপোনাৰ বাৰ্তাত কি অন্তৰ্ভুক্ত কৰিব",
+    "For a content correction:": "সমল সংশোধনৰ বাবে:",
+    "For a broken link or download problem:": "ভাঙা লিংক বা ডাউনল'ড সমস্যাৰ বাবে:",
+    "For a new topic request:": "নতুন বিষয় অনুৰোধৰ বাবে:",
+    "For contributing questions:": "প্ৰশ্ন আগবঢ়োৱাৰ বাবে:",
+    "Response Time": "উত্তৰৰ সময়",
+    "We aim to reply to every genuine message within two to three working days. Messages are handled in the order they arrive, and content corrections that include a verifiable source are usually processed first.": "আমি প্ৰতিটো প্ৰামাণিক বাৰ্তাৰ উত্তৰ দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত দিবলৈ চেষ্টা কৰোঁ। বাৰ্তাসমূহ অহা ক্ৰমত পৰিচালনা কৰা হয়, আৰু যাচাইযোগ্য উৎসসহ সমল সংশোধনসমূহ সাধাৰণতে আগতে প্ৰক্ৰিয়া কৰা হয়।",
+    "Report Copyright Content": "কপিৰাইট সমল জনাওক",
+    "If you believe any material on axomexam.in infringes your copyright, email us with the page link and proof of ownership. We will review the request and remove the material if required. We respect intellectual property and act on valid takedown requests promptly.": "যদি আপুনি বিশ্বাস কৰে যে axomexam.in ৰ কোনো সামগ্ৰীয়ে আপোনাৰ কপিৰাইট উলংঘা কৰিছে, পৃষ্ঠাৰ লিংক আৰু মালিকীস্বত্বৰ প্ৰমাণসহ আমালৈ ইমেইল কৰক। আমি অনুৰোধ পৰ্যালোচনা কৰি প্ৰয়োজন হ'লে সামগ্ৰী আঁতৰাব। আমি বৌদ্ধিক সম্পত্তিক সন্মান কৰোঁ আৰু বৈধ টেকডাউন অনুৰোধসমূহ তৎক্ষণাত পালন কৰোঁ।",
+    "Common Questions": "সাধাৰণ প্ৰশ্ন",
+    "Is there a phone number or live chat?": "ফোন নম্বৰ বা লাইভ চেট আছে নেকি?",
+    "Can I request a study plan?": "মই অধ্যয়ন পৰিকল্পনা বিচাৰিব পাৰোঁ নেকি?",
+    "Do you share or sell my details?": "আপোনালোকে মোৰ তথ্য শ্বেয়াৰ বা বিক্ৰী কৰে নেকি?",
+    "Never. Your email is used only to reply to your query, as explained in our": "কেতিয়াও নহয়। আপোনাৰ ইমেইল কেৱল আপোনাৰ অনুসন্ধানৰ উত্তৰ দিবলৈ ব্যৱহাৰ কৰা হয়, আমাৰ",
+    "Can I contribute questions to the site?": "মই ছাইটলৈ প্ৰশ্ন আগবঢ়াব পাৰোঁ নেকি?",
+    "20 September 2026": "২০ ছেপ্তেম্বৰ ২০২৬",
+    "Publisher:": "প্ৰকাশক:",
+    "What you can practise on axomexam": "axomexam ত আপুনি কি অনুশীলন কৰিব পাৰে",
+    "axomexam groups its practice material into broad categories. Each category opens into topics and then sub-topics, and every question is written in both Assamese and English with four options, the correct answer and a short explanation.": "axomexam এ ইয়াৰ অনুশীলন সামগ্ৰী বহল শ্ৰেণীত ভাগ কৰিছে। প্ৰতিটো শ্ৰেণী বিষয়ত আৰু তাৰ পিছত উপ-বিষয়ত খুলে, আৰু প্ৰতিটো প্ৰশ্ন অসমীয়া আৰু ইংৰাজী দুয়োটা ভাষাত চাৰিটা বিকল্প, শুদ্ধ উত্তৰ আৰু এটা চুটি ব্যাখ্যাৰ সৈতে লিখা হয়।",
+    "The two largest groups are General Knowledge and Reasoning Ability, because those carry the most weight in the Assam recruitment papers. General Knowledge covers Assam history, geography, culture, polity, economics and literature alongside Indian and world sections. Reasoning Ability covers verbal, non-verbal and analytical reasoning, which is where most candidates lose easy marks.": "দুটা আটাইতকৈ ডাঙৰ শ্ৰেণী হ'ল সাধাৰণ জ্ঞান আৰু যুক্তি আৰু মানসিক ক্ষমতা, কাৰণ অসমৰ নিয়োগ প্ৰশ্নকাকতত এইবোৰৰ গুৰুত্ব আটাইতকৈ বেছি। সাধাৰণ জ্ঞানে ভাৰতীয় আৰু বিশ্বৰ শিতানৰ লগতে অসমৰ ইতিহাস, ভূগোল, সংস্কৃতি, ৰাজনীতি, অৰ্থনীতি আৰু সাহিত্য সামৰি লয়। যুক্তি আৰু মানসিক ক্ষমতাই মৌখিক, অ-মৌখিক আৰু বিশ্লেষণাত্মক যুক্তি সামৰি লয়, য'ত বেছিভাগ প্ৰাৰ্থীয়ে সহজ নম্বৰ হেৰুৱায়।",
+    "Questions per category": "প্ৰতি শ্ৰেণীত প্ৰশ্ন",
+    "Where to begin": "ক'ৰ পৰা আৰম্ভ কৰিব",
+    "Open the category that matches your exam syllabus first.": "প্ৰথমে আপোনাৰ পৰীক্ষাৰ পাঠ্যক্ৰমৰ সৈতে মিলা শ্ৰেণীটো খোলক।",
+    "Work topic by topic rather than jumping between categories.": "শ্ৰেণীসমূহৰ মাজত জঁপিয়াই নুফুৰি এটা এটা বিষয় কৰক।",
+    "Use the language toggle to read the same question in Assamese or English.": "একে প্ৰশ্ন অসমীয়া বা ইংৰাজীত পঢ়িবলৈ ভাষাৰ টগল ব্যৱহাৰ কৰক।",
+    "How the practice sets work": "অনুশীলন ছেটসমূহে কেনেকৈ কাম কৰে",
+    "Each topic page holds a full question bank, not a fixed quiz. Answers and explanations are shown with the question, so the same page works for a first reading and for later revision. Once a topic feels comfortable, move to the mock-test section to attempt mixed sets under time pressure.": "প্ৰতিটো বিষয় পৃষ্ঠাত এটা স্থিৰ কুইজ নহয়, এটা সম্পূৰ্ণ প্ৰশ্ন-সংগ্ৰহ থাকে। উত্তৰ আৰু ব্যাখ্যা প্ৰশ্নৰ সৈতে দেখুওৱা হয়, গতিকে একেই পৃষ্ঠা প্ৰথম পঠন আৰু পিছৰ পুনৰালোচনাৰ বাবে কাম কৰে। এটা বিষয় সহজ লাগিলে, সময়ৰ চাপত মিশ্ৰিত ছেট চেষ্টা কৰিবলৈ মক টেষ্ট শিতানলৈ যাওক।",
+    "How is the material organised?": "সমল কেনেকৈ সজোৱা হৈছে?",
+    "Which category should I start with?": "মই কোনটো শ্ৰেণীৰ পৰা আৰম্ভ কৰিব লাগে?",
+    "Are the questions and answers free?": "প্ৰশ্ন আৰু উত্তৰ বিনামূলীয়া নেকি?",
+    "Yes. Every category, topic and question on axomexam is free to read, in Assamese and English, with no sign-up.": "হয়। axomexam ৰ প্ৰতিটো শ্ৰেণী, বিষয় আৰু প্ৰশ্ন অসমীয়া আৰু ইংৰাজীত বিনামূলীয়াকৈ পঢ়িব পাৰি, ছাইন-আপ নালাগে।",
+    "Start Your Assam Exam Preparation": "অসম পৰীক্ষাৰ প্ৰস্তুতি আৰম্ভ কৰক",
+    "New to axomexam? Here is how the study library is organised and where to begin": "axomexam ত নতুন? অধ্যয়ন পুথিভঁৰাল কেনেকৈ সজোৱা হৈছে আৰু ক'ৰপৰা আৰম্ভ কৰিব, তলত চাওক",
+    "Pick your exam": "আপোনাৰ পৰীক্ষা বাছনি কৰক",
+    "Choose the recruitment you are targeting — ADRE 3.0 Grade III or Grade IV, APSC CCE, Assam Police AB and UB or SI, DHS and DME, Guwahati High Court, SSC or Railway — and follow the syllabus-wise subject list for that paper.": "আপুনি যি নিযুক্তিৰ বাবে প্ৰস্তুতি লৈছে সেইটো বাছনি কৰক — ADRE 3.0 গ্ৰেড III বা IV, APSC CCE, অসম আৰক্ষী AB আৰু UB বা SI, DHS আৰু DME, গুৱাহাটী উচ্চ ন্যায়ালয়, SSC বা ৰে'লৱে — আৰু সেই পত্ৰখনৰ পাঠ্যক্ৰম অনুসৰি বিষয়ৰ তালিকা অনুসৰণ কৰক।",
+    "Browse exams and syllabus →": "পৰীক্ষা আৰু পাঠ্যক্ৰম চাওক →",
+    "Study topic by topic": "বিষয়ভিত্তিক অধ্যয়ন কৰক",
+    "The question bank is organised by subject and sub-topic: Assam General Knowledge, History, Geography, Polity, Mathematics, General Science, Reasoning, General English and Computer Awareness. Each topic page carries the notes, the questions and a worked explanation for every answer.": "প্ৰশ্নভঁৰাল বিষয় আৰু উপ-বিষয় অনুসৰি সজোৱা হৈছে: অসম সাধাৰণ জ্ঞান, ইতিহাস, ভূগোল, ৰাজনীতি, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ। প্ৰতিটো বিষয়ৰ পৃষ্ঠাত টোকা, প্ৰশ্ন আৰু প্ৰতিটো উত্তৰৰ ব্যাখ্যা আছে।",
+    "See all subjects →": "সকলো বিষয় চাওক →",
+    "Attempt timed mock tests": "সময়বদ্ধ মক টেষ্ট দিয়ক",
+    "Every mock test runs on a live countdown and follows the real paper pattern, with instant results and an answer review. Attempt a set, read the explanations for the questions you miss, then re-attempt it after a few days.": "প্ৰতিটো মক টেষ্ট এটা লাইভ কাউণ্টডাউনত চলে আৰু প্ৰকৃত প্ৰশ্নপত্ৰৰ আৰ্হি অনুসৰণ কৰে, তাৎক্ষণিক ফলাফল আৰু উত্তৰ পৰ্যালোচনাৰ সৈতে। এটা ছেট দিয়ক, হেৰুওৱা প্ৰশ্নৰ ব্যাখ্যা পঢ়ক, তাৰ পিছত কেইদিনমানৰ পিছত পুনৰ চেষ্টা কৰক।",
+    "Take a mock test →": "মক টেষ্ট দিয়ক →",
+    "Revise with PDF notes": "PDF টোকাৰে পুনৰাবৃত্তি কৰক",
+    "Download the printable PDF notes, e-books and previous year solved papers so you can revise offline. Everything on axomexam.in is free, bilingual and needs no account or login.": "প্ৰিণ্ট কৰিব পৰা PDF টোকা, ই-বুক আৰু পূৰ্ববৰ্তী বছৰৰ সমাধান কৰা প্ৰশ্নপত্ৰ ডাউনলোড কৰক যাতে আপুনি অফলাইনত পুনৰাবৃত্তি কৰিব পাৰে। axomexam.in ত সকলো বিনামূলীয়া, দ্বিভাষিক আৰু একাউণ্ট বা লগইনৰ প্ৰয়োজন নাই।",
+    "Get PDF notes →": "PDF টোকা লওক →",
+    "Contact axomexam": "axomexam ৰ সৈতে যোগাযোগ কৰক",
+    "Report a wrong answer, request a new topic, contribute questions or ask for help with your ADRE, APSC, Assam Police, SSC or Railway preparation. Email support@axomexam.in and we usually reply within two to three working days.": "ভুল উত্তৰ জনাওক, নতুন বিষয় অনুৰোধ কৰক, প্ৰশ্ন আগবঢ়াওক বা আপোনাৰ ADRE, APSC, অসম আৰক্ষী, SSC বা ৰে'লৱে প্ৰস্তুতিত সহায় বিচাৰক। support@axomexam.in লৈ ইমেইল কৰক, আমি সাধাৰণতে দুৰৰ পৰা তিনি কৰ্মদিনৰ ভিতৰত উত্তৰ দিওঁ।",
+    "Choose your exam": "আপোনাৰ পৰীক্ষা বাছনি কৰক",
+    "Open an exam to start its timed mock test.": "সময়বদ্ধ মক টেষ্ট আৰম্ভ কৰিবলৈ এটা পৰীক্ষা খোলক।",
+    "Coming Soon": "শীঘ্ৰে আহি আছে",
+    "Start test": "টেষ্ট আৰম্ভ কৰক",
+    "Every Assam recruitment exam has its own separate mock test. Pick an exam to begin.": "অসমৰ প্ৰতিটো নিযুক্তি পৰীক্ষাৰ বাবে সুকীয়া মক টেষ্ট আছে। আৰম্ভ কৰিবলৈ এটা পৰীক্ষা বাছনি কৰক।",
+    "Practise a full timed mock test built from the exact paper of your exam. Every Assam recruitment exam — Assam Police, ADRE Grade III, ADRE Grade IV, DHS & DME, APSC and Assam TET — has its own separate mock tests.": "আপোনাৰ পৰীক্ষাৰ প্ৰকৃত প্ৰশ্নকাকত অনুসৰি সজা সম্পূৰ্ণ সময়বদ্ধ মক টেষ্ট অনুশীলন কৰক। অসমৰ প্ৰতিটো নিযুক্তি পৰীক্ষা — অসম আৰক্ষী, ADRE গ্ৰেড III, ADRE গ্ৰেড IV, DHS আৰু DME, APSC আৰু অসম TET — ৰ বাবে সুকীয়া মক টেষ্ট আছে।",
+    "Exam-wise Mock Test": "পৰীক্ষা-ভিত্তিক মক টেষ্ট",
+    "Full papers": "সম্পূৰ্ণ পত্ৰ",
+    "Questions / set": "প্ৰশ্ন / ছেট",
+    "Languages": "ভাষা",
+    "Mode": "ধৰণ",
+    "Timed": "সময়বদ্ধ",
+    "100-question full paper": "১০০ প্ৰশ্নৰ সম্পূৰ্ণ পত্ৰ",
+    "Live": "উপলব্ধ",
+    "Each set is a full 100-question paper that mixes every subject of this exam — exactly like the real test. Pick a set to begin.": "প্ৰতিটো ছেট ১০০ প্ৰশ্নৰ সম্পূৰ্ণ পত্ৰ, যত এই পৰীক্ষাৰ প্ৰতিটো বিষয় মিলাই দিয়া হৈছে — প্ৰকৃত পৰীক্ষাৰ দৰেই। আৰম্ভ কৰিবলৈ এটা ছেট বাছনি কৰক।"
+  },
+  "regex": [
+    {
+      "re": "^(.+?) Mock Test - Overview$",
+      "to": "$1 মক টেষ্ট — পৰিচয়"
+    },
+    {
+      "re": "^(.+?) Mock Test$",
+      "to": "$1 মক টেষ্ট"
+    },
+    {
+      "re": "^Yes\\. (.+?) is free to use on axomexam\\.in — there is no login, subscription or hidden charge\\. (?:All ([\\d,]+) questions come with worked explanations, and you can re-attempt the set as often as you like\\.|Every question comes with a worked explanation, and you can re-attempt the set as often as you like\\.)$",
+      "to": "হয়। $1 axomexam.in ত বিনামূলীয়াকৈ ব্যৱহাৰ কৰিব পাৰি — কোনো লগইন, চাবস্ক্ৰিপচন বা গুপুত মাচুল নাই। প্ৰতিটো প্ৰশ্নৰ সৈতে কাম কৰা ব্যাখ্যা আছে, আৰু আপুনি ছেটটো যিমান ইচ্ছা পুনৰ চেষ্টা কৰিব পাৰে।"
+    },
+    {
+      "re": "^There is no payment involved in (.+?)\\. (?:The complete set of ([\\d,]+) questions|The complete set) and its step-by-step explanations are open to every visitor, so you can practise without creating an account or paying a fee\\.$",
+      "to": "$1 ত কোনো ধৰণৰ মাচুল নাই। সম্পূৰ্ণ প্ৰশ্ন-সংগ্ৰহ আৰু তাৰ ধাপে ধাপে ব্যাখ্যা প্ৰতিজন দৰ্শনাৰ্থীৰ বাবে মুকলি, গতিকে একাউণ্ট নখুলাকৈ বা মাচুল নিদিয়াকৈয়ে অনুশীলন কৰিব পাৰি।"
+    },
+    {
+      "re": "^(.+?) is completely free\\. You can read (all (?:[\\d,]+|the) questions) and their explanations on axomexam\\.in with no registration or charge, which makes it easy to revise the same set more than once\\.$",
+      "to": "$1 সম্পূৰ্ণ বিনামূলীয়া। আপুনি axomexam.in ত $2 আৰু তাৰ ব্যাখ্যা কোনো পঞ্জীয়ন বা মাচুল নিদিয়াকৈ পঢ়িব পাৰে, যাৰ ফলত একেখিনি ছেট বাৰে বাৰে পুনৰালোচনা কৰা সহজ হয়।"
+    },
+    {
+      "re": "^Yes\\. (.+?) is bilingual: the question, every option and the full explanation are given in both Assamese and English, so you can read the problem in one language and the solution in the other\\.$",
+      "to": "হয়। $1 দ্বিভাষিক: প্ৰশ্ন, প্ৰতিটো বিকল্প আৰু সম্পূৰ্ণ ব্যাখ্যা অসমীয়া আৰু ইংৰাজী দুয়ো ভাষাত দিয়া হৈছে, গতিকে আপুনি এটা ভাষাত সমস্যা পঢ়ি আনটো ভাষাত সমাধান পঢ়িব পাৰে।"
+    },
+    {
+      "re": "^Every item in (.+?) appears in Assamese and English\\. (?:That covers all ([\\d,]+) questions,|That covers the full set,) including the options and explanations, so the same idea is reinforced in whichever language you find easier\\.$",
+      "to": "$1 ৰ প্ৰতিটো বস্তু অসমীয়া আৰু ইংৰাজীত আছে। ইয়াৰ ভিতৰত বিকল্প আৰু ব্যাখ্যাও সামৰি লোৱা হৈছে, যাৰ ফলত আপুনি সহজ বুলি ভবা ভাষাতেই একেখিনি ধাৰণা দৃঢ় হয়।"
+    },
+    {
+      "re": "^Yes — the content is fully bilingual\\. You can switch between Assamese and English at any point while working through (.+?), which helps when a term is clearer in one language than the other\\.$",
+      "to": "হয় — সমল সম্পূৰ্ণ দ্বিভাষিক। $1 কৰি থাকোঁতে যিকোনো সময়তে অসমীয়া আৰু ইংৰাজীৰ মাজত সলনি কৰিব পাৰে, যি এটা ভাষাত শব্দটো বেছি স্পষ্ট হ'লে সহায়ক হয়।"
+    },
+    {
+      "re": "^(.+?) currently contains (?:([\\d,]+) practice questions|a growing set of practice questions), each with a worked explanation\\. New questions are added as the syllabus and exam patterns are updated, so the set is worth revisiting\\.$",
+      "to": "$1 ত এতিয়া ক্ৰমে বাঢ়ি থকা অনুশীলন প্ৰশ্ন আছে, প্ৰতিটোৰ সৈতে কাম কৰা ব্যাখ্যা। পাঠ্যক্ৰম আৰু পৰীক্ষাৰ আৰ্হি সলনি হোৱাৰ লগে লগে নতুন প্ৰশ্ন যোগ হয়, গতিকে ছেটটো পুনৰ চোৱাৰ যোগ্য।"
+    },
+    {
+      "re": "^At present (.+?) has (?:([\\d,]+) questions|several questions)\\. They are arranged for practice and revision — attempt them once, study the explanations, then re-attempt after a few days to check what you remember\\.$",
+      "to": "এতিয়া $1 ত কেইবাটাও প্ৰশ্ন আছে। সেইবোৰ অনুশীলন আৰু পুনৰালোচনাৰ বাবে সজোৱা — এবাৰ চেষ্টা কৰক, ব্যাখ্যা পঢ়ক, তাৰ পিছত কেইদিনমানৰ পিছত পুনৰ চেষ্টা কৰি কিমান মনত আছে পৰীক্ষা কৰক।"
+    },
+    {
+      "re": "^The (.+?) set is expanded over time, so the number of questions keeps growing\\. At the moment you can work through (?:about ([\\d,]+) questions|the questions) here with full answers\\.$",
+      "to": "$1 ৰ ছেট সময়ৰ লগে লগে বৃদ্ধি পায়, গতিকে প্ৰশ্নৰ সংখ্যা ক্ৰমে বাঢ়ি থাকে। এই মুহূৰ্তত আপুনি ইয়াত সম্পূৰ্ণ উত্তৰসহ প্ৰশ্নসমূহ সমাধান কৰিব পাৰে।"
+    },
+    {
+      "re": "^(.+?) is aligned with the (.+?) syllabus\\. The questions follow the pattern these papers use, so the practice carries over directly to the exam hall\\.$",
+      "to": "$1 $2 পাঠ্যক্ৰমৰ সৈতে সংগতিপূৰ্ণ। প্ৰশ্নবোৰে এই প্ৰশ্নকাকতসমূহৰ আৰ্হি অনুসৰণ কৰে, গতিকে অনুশীলনৰ ফল পোনপটীয়াকৈ পৰীক্ষা-কক্ষত কামত আহে।"
+    },
+    {
+      "re": "^It is useful for (.+?)\\. The coverage mirrors the topics and question styles that appear in these recruitment exams, which makes it a good fit for both first-time preparation and revision\\.$",
+      "to": "এইটো $1 ৰ বাবে উপযোগী। ইয়াৰ পৰিসৰে এই নিয়োগ পৰীক্ষাসমূহত অহা বিষয় আৰু প্ৰশ্নৰ ধৰণ প্ৰতিফলিত কৰে, গতিকে প্ৰথমবাৰৰ প্ৰস্তুতি আৰু পুনৰালোচনা দুয়োটাৰ বাবে উপযুক্ত।"
+    },
+    {
+      "re": "^Candidates preparing for (.+?) will find (.+?) relevant, because the content is built around the way these papers frame their questions\\.$",
+      "to": "$1 ৰ প্ৰস্তুতি লোৱা প্ৰাৰ্থীসকলে $2 ক প্ৰাসংগিক বুলি পাব, কাৰণ সমল এই প্ৰশ্নকাকতসমূহে প্ৰশ্ন সজোৱাৰ ধৰণৰ ওপৰত আধাৰিত।"
+    },
+    {
+      "re": "^To prepare (.+?), start with the topic notes on this page and then attempt (?:the ([\\d,]+) questions|the questions) in timed blocks\\. Review every explanation, note the fact or rule you missed, and re-attempt the set after a few days to confirm the improvement\\.$",
+      "to": "$1 ৰ প্ৰস্তুতিৰ বাবে এই পৃষ্ঠাৰ বিষয়-টোকাৰে আৰম্ভ কৰি তাৰ পিছত সময়বদ্ধ ভাগত প্ৰশ্নসমূহ সমাধান কৰক। প্ৰতিটো ব্যাখ্যা পঢ়ক, পাহৰি যোৱা তথ্য বা নিয়ম টুকি লওক, আৰু কেইদিনমানৰ পিছত পুনৰ চেষ্টা কৰি উন্নতি নিশ্চিত কৰক।"
+    },
+    {
+      "re": "^Work through (.+?) steadily: read the concept first, solve a set of questions with a timer, and then study the explanations for the ones you got wrong\\. Regular short sessions and error review matter more than long, occasional study\\.$",
+      "to": "$1 ধাৰাবাহিকভাৱে কৰক: প্ৰথমে ধাৰণাটো পঢ়ক, ঘড়ী লগাই এটা ছেট প্ৰশ্ন সমাধান কৰক, আৰু তাৰ পিছত ভুল কৰা প্ৰশ্নবোৰৰ ব্যাখ্যা পঢ়ক। নিয়মীয়া চুটি অধিবেশন আৰু ভুল পুনৰীক্ষণ দীঘলীয়া কিন্তু বিৰল অধ্যয়নতকৈ বেছি ফলদায়ক।"
+    },
+    {
+      "re": "^Prepare (.+?) by pairing the notes with practice\\. Finish a topic, attempt its questions under time pressure, and log the mistakes you repeat — that log becomes your most useful revision material in the final week\\.$",
+      "to": "$1 ৰ প্ৰস্তুতিৰ বাবে টোকাৰ সৈতে অনুশীলন মিলাওক। এটা বিষয় শেষ কৰি সময়ৰ চাপত তাৰ প্ৰশ্ন সমাধান কৰক, আৰু বাৰে বাৰে কৰা ভুলবোৰ টুকি ৰাখক — শেষ সপ্তাহত সেই টোকাই আপোনাৰ আটাইতকৈ উপযোগী পুনৰালোচনা সামগ্ৰী হ'ব।"
+    },
+    {
+      "re": "^This page brings together (?:([\\d,]+) )?practice questions for (.+?), with explanations to help you understand each answer\\. Use the notes above to revise the concept before you attempt the set\\.$",
+      "to": "এই পৃষ্ঠাত $2 ৰ বাবে অনুশীলন প্ৰশ্ন একত্ৰিত কৰা হৈছে, প্ৰতিটো উত্তৰ বুজিবলৈ ব্যাখ্যাসহ। ছেটটো সমাধান কৰাৰ আগতে ওপৰৰ টোকাৰ পৰা ধাৰণাটো পুনৰালোচনা কৰক।"
+    },
+    {
+      "re": "^How should I prepare (.+)\\?$",
+      "to": "$1 কেনেকৈ প্ৰস্তুতি ল'ব লাগে?"
+    },
+    {
+      "re": "^How many questions does (.+?) include\\?$",
+      "to": "$1 ত কিমানটা প্ৰশ্ন আছে?"
+    },
+    {
+      "re": "^How much material does (.+?) include\\?$",
+      "to": "$1 ত কিমান সমল আছে?"
+    },
+    {
+      "re": "^What does (.+) cover\\?$",
+      "to": "$1 ত কি কি সামৰি লোৱা হৈছে?"
+    },
+    {
+      "re": "^(.+) - General Knowledge$",
+      "to": "$1 - সাধাৰণ জ্ঞান"
+    },
+    {
+      "re": "^How to prepare (.+)$",
+      "to": "কেনেকৈ প্ৰস্তুতি ল'ব: $1"
+    },
+    {
+      "re": "^How much material is available for (.+)\\?$",
+      "to": "$1 ৰ বাবে কিমান সমল উপলব্ধ?"
+    },
+    {
+      "re": "^Is (.+) available for free on axomexam\\?$",
+      "to": "$1 axomexam ত বিনামূলীয়া নেকি?"
+    },
+    {
+      "re": "^Can I study (.+) in Assamese as well as English\\?$",
+      "to": "$1 অসমীয়া আৰু ইংৰাজী দুয়ো ভাষাত পঢ়িব পাৰিম নেকি?"
+    },
+    {
+      "re": "^This section currently offers (\\d+) topics with around ([\\d,]+) questions and is updated regularly as new questions are added\\.$",
+      "to": "এই শিতানত এতিয়া $1 টা বিষয় আৰু প্ৰায় $2 টা প্ৰশ্ন আছে, নতুন প্ৰশ্ন যোগ হোৱাৰ লগে লগে নিয়মীয়াকৈ হালনাগাদ কৰা হয়।"
+    },
+    {
+      "re": "^This section currently offers (\\d+) topics and is updated regularly as new questions are added\\.$",
+      "to": "এই শিতানত এতিয়া $1 টা বিষয় আছে, নতুন প্ৰশ্ন যোগ হোৱাৰ লগে লগে নিয়মীয়াকৈ হালনাগাদ কৰা হয়।"
+    },
+    {
+      "re": "^(.+) - Overview$",
+      "to": "$1 — পৰিচয়"
+    },
+    {
+      "re": "^(.+) - topics and practice questions$",
+      "to": "$1 — বিষয় আৰু অনুশীলন প্ৰশ্ন"
+    },
+    {
+      "re": "^(.+) - practice questions and revision$",
+      "to": "$1 — অনুশীলন প্ৰশ্ন আৰু পুনৰালোচনা"
+    },
+    {
+      "re": "^(.+) preparation for Assam exams$",
+      "to": "অসমৰ পৰীক্ষাৰ বাবে $1 ৰ প্ৰস্তুতি"
+    },
+    {
+      "re": "^About the (.+) question bank$",
+      "to": "$1 প্ৰশ্ন-সংগ্ৰহৰ বিষয়ে"
+    },
+    {
+      "re": "^(.+) for (.+) — what this section covers$",
+      "to": "$2 ৰ বাবে $1 — এই শিতানত কি কি আছে"
+    },
+    {
+      "re": "^(\\d+) Topics$",
+      "to": "$1 টা বিষয়"
+    },
+    {
+      "re": "^(\\d+) Questions$",
+      "to": "$1 টা প্ৰশ্ন"
+    },
+    {
+      "re": "^(\\d+) topics$",
+      "to": "$1 টা বিষয়"
+    },
+    {
+      "re": "^(\\d+) questions$",
+      "to": "$1 টা প্ৰশ্ন"
+    },
+    {
+      "re": "^Is (.+) free to use on axomexam\\?$",
+      "to": "$1 axomexam ত বিনামূলীয়াকৈ ব্যৱহাৰ কৰিব পাৰি নেকি?"
+    },
+    {
+      "re": "^Are the (.+) questions available in Assamese and English\\?$",
+      "to": "$1 ৰ প্ৰশ্নসমূহ অসমীয়া আৰু ইংৰাজীত উপলব্ধ নেকি?"
+    },
+    {
+      "re": "^Which exams is (.+) useful for\\?$",
+      "to": "$1 কোনবোৰ পৰীক্ষাৰ বাবে উপযোগী?"
+    },
+    {
+      "re": "^How many (.+) are there for (.+)\\?$",
+      "to": "$2 ৰ বাবে কিমান $1 আছে?"
+    },
+    {
+      "re": "^Which subjects are covered in (.+)\\?$",
+      "to": "$1 ত কোনবোৰ বিষয় সামৰি লোৱা হৈছে?"
+    },
+    {
+      "re": "^Is the (.+) material free\\?$",
+      "to": "$1 ৰ সমল বিনামূলীয়া নেকি?"
+    },
+    {
+      "re": "^What is covered under (.+)\\?$",
+      "to": "$1 ৰ অধীনত কি কি আছে?"
+    },
+    {
+      "re": "^How should I revise (.+)\\?$",
+      "to": "$1 কেনেকৈ পুনৰালোচনা কৰিব লাগে?"
+    },
+    {
+      "re": "^How many questions are under (.+)\\?$",
+      "to": "$1 ৰ অধীনত কিমানটা প্ৰশ্ন আছে?"
+    },
+    {
+      "re": "^Which topics are inside (.+)\\?$",
+      "to": "$1 ৰ ভিতৰত কোনবোৰ বিষয় আছে?"
+    },
+    {
+      "re": "^Do these questions come with explanations\\?$",
+      "to": "এই প্ৰশ্নসমূহৰ সৈতে ব্যাখ্যা আছে নেকি?"
+    },
+    {
+      "re": "^Exam-wise practice on axomexam$",
+      "to": "axomexam ত পৰীক্ষা-ভিত্তিক অনুশীলন"
+    },
+    {
+      "re": "^Exams covered$",
+      "to": "সামৰি লোৱা পৰীক্ষাসমূহ"
+    },
+    {
+      "re": "^How to use this section$",
+      "to": "এই শিতান কেনেকৈ ব্যৱহাৰ কৰিব"
+    },
+    {
+      "re": "^How to prepare$",
+      "to": "কেনেকৈ প্ৰস্তুতি ল'ব"
+    },
+    {
+      "re": "^Subjects in this exam$",
+      "to": "এই পৰীক্ষাৰ বিষয়সমূহ"
+    },
+    {
+      "re": "^(.+) is part of the free study material on axomexam\\.in for Assam and central government recruitment examinations\\. The topics on this page are arranged in a logical study order so that you can build the concept first and then test yourself with the linked question sets\\.$",
+      "to": "$1 axomexam.in ৰ বিনামূলীয়া অধ্যয়ন সামগ্ৰীৰ অংশ, যি অসম আৰু কেন্দ্ৰীয় চৰকাৰৰ নিয়োগ পৰীক্ষাৰ বাবে প্ৰস্তুত কৰা হৈছে। এই পৃষ্ঠাৰ বিষয়বোৰ যুক্তিসংগত অধ্যয়ন ক্ৰমত সজোৱা হৈছে, যাতে আপুনি প্ৰথমে ধাৰণা গঢ়ি তাৰ পিছত সংযুক্ত প্ৰশ্ন-সংগ্ৰহৰ জৰিয়তে নিজকে পৰীক্ষা কৰিব পাৰে।"
+    },
+    {
+      "re": "^([a-z-]+) — ([\\d,]+) questions\\.$",
+      "to": "$1 — $2 টা প্ৰশ্ন।"
+    },
+    {
+      "re": "^The practice library is grouped into ([\\d]+) categories\\. A category opens into topics, and a topic opens into the questions themselves\\. The exam books follow the same idea but start from the exam rather than the subject\\.$",
+      "to": "অনুশীলন পুথিভঁৰাল $1 টা শ্ৰেণীত সজোৱা হৈছে। এটা শ্ৰেণী বিষয়ত খুলে, আৰু এটা বিষয় প্ৰশ্নসমূহত খুলে। পৰীক্ষা কিতাপে একেই ধাৰণা অনুসৰণ কৰে কিন্তু বিষয়ৰ পৰিৱৰ্তে পৰীক্ষাৰ পৰা আৰম্ভ কৰে।"
+    },
+    {
+      "re": "^Start with the category that carries the most weight in your exam\\. The list above shows the live question count per category, so the biggest groups are easy to spot\\.$",
+      "to": "আপোনাৰ পৰীক্ষাত আটাইতকৈ বেছি গুৰুত্ব থকা শ্ৰেণীটোৰ পৰা আৰম্ভ কৰক। ওপৰৰ তালিকাই প্ৰতি শ্ৰেণীৰ চলিত প্ৰশ্নৰ সংখ্যা দেখুৱায়, গতিকে আটাইতকৈ ডাঙৰ গোটসমূহ সহজে চিনি পোৱা যায়।"
+    },
+    {
+      "re": "^(\\d+) subjects$",
+      "to": "$1 টা বিষয়"
+    },
+    {
+      "re": "^(\\d+)-question full paper$",
+      "to": "$1 প্ৰশ্নৰ সম্পূৰ্ণ পত্ৰ"
+    },
+    {
+      "re": "^(\\d+)-question full paper × (\\d+) sets$",
+      "to": "$1 প্ৰশ্নৰ সম্পূৰ্ণ পত্ৰ × $2 ছেট"
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "setNumber": 1,
+  "title": "Set 1",
+  "subject": "Advanced Mathematics",
+  "questions": [
+    {
+      "q": {
+        "en": "If x + 1/x = 3, then the value of x² + 1/x² is:",
+        "as": "যদি x + 1/x = 3 হয়, তেন্তে x² + 1/x² ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "x² + 1/x² = (x + 1/x)² − 2 = 3² − 2 = 7.",
+        "as": "x² + 1/x² = (x + 1/x)² − 2 = 3² − 2 = 7।"
+      }
+    },
+    {
+      "q": {
+        "en": "The roots of the equation x² − 5x + 6 = 0 are:",
+        "as": "x² − 5x + 6 = 0 সমীকৰণৰ মূল দুটা কি?"
+      },
+      "options": [
+        {
+          "en": "1 and 6",
+          "as": "1 আৰু 6"
+        },
+        {
+          "en": "2 and 3",
+          "as": "2 আৰু 3"
+        },
+        {
+          "en": "−2 and −3",
+          "as": "−2 আৰু −3"
+        },
+        {
+          "en": "5 and 1",
+          "as": "5 আৰু 1"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "x² − 5x + 6 = (x − 2)(x − 3), so the roots are 2 and 3.",
+        "as": "x² − 5x + 6 = (x − 2)(x − 3), গতিকে মূল দুটা 2 আৰু 3।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a + b + c = 0, then a³ + b³ + c³ is equal to:",
+        "as": "যদি a + b + c = 0 হয়, তেন্তে a³ + b³ + c³ ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "en": "abc",
+          "as": "abc"
+        },
+        {
+          "en": "3abc",
+          "as": "3abc"
+        },
+        {
+          "en": "2abc",
+          "as": "2abc"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Using a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca); since a + b + c = 0, we get a³ + b³ + c³ = 3abc.",
+        "as": "a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) সূত্ৰ ব্যৱহাৰ কৰি, a + b + c = 0 হোৱাত a³ + b³ + c³ = 3abc।"
+      }
+    },
+    {
+      "q": {
+        "en": "The quadratic equation whose roots are 2 and 5 is:",
+        "as": "যি দ্বিঘাত সমীকৰণৰ মূল 2 আৰু 5, সেই সমীকৰণটো কি?"
+      },
+      "options": [
+        {
+          "en": "x² − 7x + 10 = 0",
+          "as": "x² − 7x + 10 = 0"
+        },
+        {
+          "en": "x² + 7x + 10 = 0",
+          "as": "x² + 7x + 10 = 0"
+        },
+        {
+          "en": "x² − 7x − 10 = 0",
+          "as": "x² − 7x − 10 = 0"
+        },
+        {
+          "en": "x² − 10x + 7 = 0",
+          "as": "x² − 10x + 7 = 0"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum of roots = 7 and product = 10, so the equation is x² − 7x + 10 = 0.",
+        "as": "মূলৰ যোগফল 7 আৰু গুণফল 10, গতিকে সমীকৰণ x² − 7x + 10 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 2x + 3y = 12 and 3x + 2y = 13, then x + y is:",
+        "as": "যদি 2x + 3y = 12 আৰু 3x + 2y = 13 হয়, তেন্তে x + y ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Adding the two equations: 5x + 5y = 25, hence x + y = 5.",
+        "as": "দুয়োটা সমীকৰণ যোগ কৰি: 5x + 5y = 25, গতিকে x + y = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of (a + b)² − (a − b)² is:",
+        "as": "(a + b)² − (a − b)² ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "2ab",
+          "as": "2ab"
+        },
+        {
+          "en": "4ab",
+          "as": "4ab"
+        },
+        {
+          "en": "a² − b²",
+          "as": "a² − b²"
+        },
+        {
+          "en": "0",
+          "as": "0"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "(a + b)² − (a − b)² = 4ab.",
+        "as": "(a + b)² − (a − b)² = 4ab।"
+      }
+    },
+    {
+      "q": {
+        "en": "If α and β are the roots of x² − 7x + 12 = 0, then α + β is:",
+        "as": "যদি x² − 7x + 12 = 0 ৰ মূল α আৰু β হয়, তেন্তে α + β ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "−7",
+          "as": "−7"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "For x² − 7x + 12 = 0, the sum of roots α + β = −(−7)/1 = 7.",
+        "as": "x² − 7x + 12 = 0 ৰ বাবে মূলৰ যোগফল α + β = 7।"
+      }
+    },
+    {
+      "q": {
+        "en": "The remainder when x³ − 2x² + 3x − 4 is divided by (x − 1) is:",
+        "as": "x³ − 2x² + 3x − 4 ক (x − 1) ৰে ভাগ কৰিলে অৱশেষ কিমান?"
+      },
+      "options": [
+        {
+          "en": "−2",
+          "as": "−2"
+        },
+        {
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "−1",
+          "as": "−1"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "By the remainder theorem, put x = 1: 1 − 2 + 3 − 4 = −2.",
+        "as": "ভাগশেষ উপপাদ্য অনুসৰি x = 1 বহুৱাই: 1 − 2 + 3 − 4 = −2।"
+      }
+    },
+    {
+      "q": {
+        "en": "If x = 2 + √3, then the value of x + 1/x is:",
+        "as": "যদি x = 2 + √3 হয়, তেন্তে x + 1/x ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "2√3",
+          "as": "2√3"
+        },
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "√3",
+          "as": "√3"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Since x = 2 + √3, 1/x = 2 − √3, so x + 1/x = 4.",
+        "as": "x = 2 + √3 হোৱাত 1/x = 2 − √3, গতিকে x + 1/x = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The degree of the polynomial 5x³ + 2x² − 7x + 1 is:",
+        "as": "5x³ + 2x² − 7x + 1 বহুপদটোৰ ঘাত কিমান?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The degree is the highest power of x, which is 3.",
+        "as": "বহুপদটোৰ ঘাত x ৰ সৰ্বোচ্চ ঘাত, অৰ্থাৎ 3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The discriminant of x² − 4x + 4 = 0 is:",
+        "as": "x² − 4x + 4 = 0 ৰ ডিস্ক্ৰিমিনেণ্ট কিমান?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "0",
+          "as": "0"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Discriminant D = b² − 4ac = (−4)² − 4(1)(4) = 16 − 16 = 0.",
+        "as": "নিৰ্ণায়ক D = b² − 4ac = (−4)² − 4(1)(4) = 16 − 16 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "If one root of x² − 8x + k = 0 is 2, then k is:",
+        "as": "যদি x² − 8x + k = 0 ৰ এটা মূল 2 হয়, তেন্তে k ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Put x = 2: 4 − 16 + k = 0, so k = 12.",
+        "as": "x = 2 বহুৱাই: 4 − 16 + k = 0, গতিকে k = 12।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 2ˣ = 32, then x is:",
+        "as": "যদি 2ˣ = 32 হয়, তেন্তে x ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "32 = 2⁵, so x = 5.",
+        "as": "32 = 2⁵, গতিকে x = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "If x + y = 10 and xy = 21, then x² + y² is:",
+        "as": "যদি x + y = 10 আৰু xy = 21 হয়, তেন্তে x² + y² ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "58",
+          "as": "58"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        },
+        {
+          "en": "42",
+          "as": "42"
+        },
+        {
+          "en": "79",
+          "as": "79"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "x² + y² = (x + y)² − 2xy = 100 − 42 = 58.",
+        "as": "x² + y² = (x + y)² − 2xy = 100 − 42 = 58।"
+      }
+    },
+    {
+      "q": {
+        "en": "The factorization of x² − 9 is:",
+        "as": "x² − 9 ৰ উৎপাদক বিশ্লেষণ কি?"
+      },
+      "options": [
+        {
+          "en": "(x − 9)(x + 1)",
+          "as": "(x − 9)(x + 1)"
+        },
+        {
+          "en": "(x − 3)(x + 3)",
+          "as": "(x − 3)(x + 3)"
+        },
+        {
+          "en": "(x − 3)²",
+          "as": "(x − 3)²"
+        },
+        {
+          "en": "(x + 9)(x − 1)",
+          "as": "(x + 9)(x − 1)"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Using a² − b² = (a − b)(a + b), x² − 9 = (x − 3)(x + 3).",
+        "as": "a² − b² = (a − b)(a + b) সূত্ৰৰপৰা x² − 9 = (x − 3)(x + 3)।"
+      }
+    },
+    {
+      "q": {
+        "en": "The expansion of (a + b)³ is:",
+        "as": "(a + b)³ ৰ সম্প্ৰসাৰণ কি?"
+      },
+      "options": [
+        {
+          "en": "a³ + b³",
+          "as": "a³ + b³"
+        },
+        {
+          "en": "a³ + b³ + 3ab",
+          "as": "a³ + b³ + 3ab"
+        },
+        {
+          "en": "a³ + b³ + 3ab(a + b)",
+          "as": "a³ + b³ + 3ab(a + b)"
+        },
+        {
+          "en": "a³ − b³ + 3ab(a − b)",
+          "as": "a³ − b³ + 3ab(a − b)"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "(a + b)³ = a³ + b³ + 3ab(a + b).",
+        "as": "(a + b)³ = a³ + b³ + 3ab(a + b)।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the product of the roots of x² − 6x + k = 0 is 8, then k is:",
+        "as": "যদি x² − 6x + k = 0 ৰ মূল দুটাৰ গুণফল 8 হয়, তেন্তে k ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "−8",
+          "as": "−8"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Product of roots = c/a = k/1 = k, so k = 8.",
+        "as": "মূলৰ গুণফল = k/1 = k, গতিকে k = 8।"
+      }
+    },
+    {
+      "q": {
+        "en": "The graph of a linear equation in two variables is a:",
+        "as": "দুটা চলকৰ ৰৈখিক সমীকৰণৰ লেখখন কি?"
+      },
+      "options": [
+        {
+          "en": "Circle",
+          "as": "বৃত্ত"
+        },
+        {
+          "en": "Straight line",
+          "as": "সৰলৰেখা"
+        },
+        {
+          "en": "Parabola",
+          "as": "পৰাবৃত্ত"
+        },
+        {
+          "en": "Point",
+          "as": "বিন্দু"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The graph of a linear equation in two variables is always a straight line.",
+        "as": "দুটা চলকৰ ৰৈখিক সমীকৰণৰ লেখ সদায় এডাল সৰলৰেখা।"
+      }
+    },
+    {
+      "q": {
+        "en": "If x − y = 3 and xy = 10, then x³ − y³ is:",
+        "as": "যদি x − y = 3 আৰু xy = 10 হয়, তেন্তে x³ − y³ ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "27",
+          "as": "27"
+        },
+        {
+          "en": "117",
+          "as": "117"
+        },
+        {
+          "en": "90",
+          "as": "90"
+        },
+        {
+          "en": "63",
+          "as": "63"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "x³ − y³ = (x − y)³ + 3xy(x − y) = 27 + 3 × 10 × 3 = 117.",
+        "as": "x³ − y³ = (x − y)³ + 3xy(x − y) = 27 + 3 × 10 × 3 = 117।"
+      }
+    },
+    {
+      "q": {
+        "en": "The zero of the polynomial p(x) = 2x − 8 is:",
+        "as": "p(x) = 2x − 8 বহুপদটোৰ শূন্য কি?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "−4",
+          "as": "−4"
+        },
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "2x − 8 = 0 gives x = 4.",
+        "as": "2x − 8 = 0 ৰপৰা x = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a : b = 3 : 4, then (3a + 2b) : (4a + 3b) is:",
+        "as": "যদি a : b = 3 : 4 হয়, তেন্তে (3a + 2b) : (4a + 3b) কি?"
+      },
+      "options": [
+        {
+          "en": "17 : 24",
+          "as": "17 : 24"
+        },
+        {
+          "en": "3 : 4",
+          "as": "3 : 4"
+        },
+        {
+          "en": "5 : 7",
+          "as": "5 : 7"
+        },
+        {
+          "en": "8 : 9",
+          "as": "8 : 9"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Put a = 3, b = 4: (3a + 2b) : (4a + 3b) = (9 + 8) : (12 + 12) = 17 : 24.",
+        "as": "a = 3, b = 4 বহুৱাই: (3a + 2b) : (4a + 3b) = (9 + 8) : (12 + 12) = 17 : 24।"
+      }
+    },
+    {
+      "q": {
+        "en": "The nature of roots of x² + 4x + 5 = 0 is:",
+        "as": "x² + 4x + 5 = 0 ৰ মূল দুটাৰ প্ৰকৃতি কি?"
+      },
+      "options": [
+        {
+          "en": "Real and equal",
+          "as": "বাস্তৱ আৰু সমান"
+        },
+        {
+          "en": "Real and unequal",
+          "as": "বাস্তৱ আৰু অসমান"
+        },
+        {
+          "en": "Not real",
+          "as": "বাস্তৱ নহয়"
+        },
+        {
+          "en": "Rational and equal",
+          "as": "পৰিমেয় আৰু সমান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "D = 4² − 4(1)(5) = −4 < 0, so the roots are not real.",
+        "as": "D = 4² − 4(1)(5) = −4 < 0, গতিকে মূলবোৰ অবাস্তৱ।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 3ˣ⁺¹ = 81, then x is:",
+        "as": "যদি 3ˣ⁺¹ = 81 হয়, তেন্তে x ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "81 = 3⁴, so x + 1 = 4 and x = 3.",
+        "as": "81 = 3⁴, গতিকে x + 1 = 4 আৰু x = 3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of (x + 4)(x − 4) is:",
+        "as": "(x + 4)(x − 4) ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "x² − 16",
+          "as": "x² − 16"
+        },
+        {
+          "en": "x² + 16",
+          "as": "x² + 16"
+        },
+        {
+          "en": "x² − 8x + 16",
+          "as": "x² − 8x + 16"
+        },
+        {
+          "en": "x² − 8",
+          "as": "x² − 8"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "(x + 4)(x − 4) = x² − 16.",
+        "as": "(x + 4)(x − 4) = x² − 16।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the sum and product of the roots of a quadratic equation are 5 and 6 respectively, the equation is:",
+        "as": "যদি এটা দ্বিঘাত সমীকৰণৰ মূল দুটাৰ যোগফল 5 আৰু গুণফল 6 হয়, সমীকৰণটো কি?"
+      },
+      "options": [
+        {
+          "en": "x² + 5x + 6 = 0",
+          "as": "x² + 5x + 6 = 0"
+        },
+        {
+          "en": "x² − 5x + 6 = 0",
+          "as": "x² − 5x + 6 = 0"
+        },
+        {
+          "en": "x² − 5x − 6 = 0",
+          "as": "x² − 5x − 6 = 0"
+        },
+        {
+          "en": "x² + 6x + 5 = 0",
+          "as": "x² + 6x + 5 = 0"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The equation is x² − (sum)x + product = 0, i.e. x² − 5x + 6 = 0.",
+        "as": "সমীকৰণ x² − (যোগফল)x + গুণফল = 0, অৰ্থাৎ x² − 5x + 6 = 0।"
+      }
+    }
+  ]
+}

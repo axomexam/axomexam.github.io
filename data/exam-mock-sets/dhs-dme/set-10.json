@@ -1,0 +1,3055 @@
+{
+  "setNumber": 10,
+  "title": "Full Paper Set 10",
+  "exam": "dhs-dme",
+  "blueprint": {
+    "durationMinutes": 120,
+    "totalMarks": 100,
+    "marksPerQuestion": 1,
+    "negativeMarking": 0,
+    "sections": [
+      {
+        "id": "general-knowledge",
+        "questions": 32,
+        "label": {
+          "en": "General Knowledge (Assam & India)",
+          "as": "সাধাৰণ জ্ঞান (অসম আৰু ভাৰত)"
+        }
+      },
+      {
+        "id": "elementary-mathematics",
+        "questions": 22,
+        "label": {
+          "en": "Elementary Mathematics",
+          "as": "প্ৰাথমিক গণিত"
+        }
+      },
+      {
+        "id": "logical-reasoning",
+        "questions": 17,
+        "label": {
+          "en": "Reasoning & Mental Ability",
+          "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+        }
+      },
+      {
+        "id": "general-english",
+        "questions": 17,
+        "label": {
+          "en": "General English",
+          "as": "সাধাৰণ ইংৰাজী"
+        }
+      },
+      {
+        "id": "computer-knowledge",
+        "questions": 12,
+        "label": {
+          "en": "Computer Knowledge",
+          "as": "কম্পিউটাৰ জ্ঞান"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "computer-knowledge-x019",
+      "q": {
+        "en": "What is the primary function of an operating system?",
+        "as": "অপাৰেটিং চিষ্টেমৰ প্ৰধান কাৰ্য কি?"
+      },
+      "options": [
+        {
+          "en": "Designing web pages",
+          "as": "ৱেব পেজ ডিজাইন কৰা"
+        },
+        {
+          "en": "Editing photographs",
+          "as": "ফটোগ্ৰাফ এডিট কৰা"
+        },
+        {
+          "en": "Sending emails",
+          "as": "ইমেইল পঠিওৱা"
+        },
+        {
+          "en": "Managing hardware and software resources",
+          "as": "হাৰ্ডৱেৰ আৰু ছফ্টৱেৰ সম্পদ পৰিচালনা কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "An operating system manages the hardware and software resources of a computer.",
+        "as": "অপাৰেটিং চিষ্টেমে কম্পিউটাৰৰ হাৰ্ডৱেৰ আৰু ছফ্টৱেৰ সম্পদ পৰিচালনা কৰে।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x004",
+      "q": {
+        "en": "Find the missing term: 5, 10, 20, 40, ...",
+        "as": "অনুপস্থিত পদটো নিৰ্ণয় কৰক: ৫, ১০, ২০, ৪০, ..."
+      },
+      "options": [
+        {
+          "en": "80",
+          "as": "৮০"
+        },
+        {
+          "en": "70",
+          "as": "৭০"
+        },
+        {
+          "en": "60",
+          "as": "৬০"
+        },
+        {
+          "en": "100",
+          "as": "১০০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Each term doubles, so the next is 80.",
+        "as": "প্ৰতিটো পদ দুগুণ হয়, সেয়ে পৰৱৰ্তী ৮০।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x008",
+      "q": {
+        "en": "The price of an item falls from Rs 1200 to Rs 900. What is the percentage decrease?",
+        "as": "এটা সামগ্ৰীৰ মূল্য ১২০০ টকাৰ পৰা ৯০০ টকালৈ কমে। শতকৰা হ্ৰাস কিমান?"
+      },
+      "options": [
+        {
+          "en": "20 per cent",
+          "as": "২০ শতাংশ"
+        },
+        {
+          "en": "25 per cent",
+          "as": "২৫ শতাংশ"
+        },
+        {
+          "en": "30 per cent",
+          "as": "৩০ শতাংশ"
+        },
+        {
+          "en": "33 per cent",
+          "as": "৩৩ শতাংশ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Decrease = 300, so percentage decrease = 300/1200 x 100 = 25 per cent.",
+        "as": "হ্ৰাস = ৩০০, সেয়ে শতকৰা হ্ৰাস = ৩০০/১২০০ x ১০০ = ২৫ শতাংশ।"
+      }
+    },
+    {
+      "id": "general-knowledge-x009",
+      "q": {
+        "en": "A money bill can be introduced only in which House?",
+        "as": "ধন বিধেয়ক কেৱল কোনখন সদনত উত্থাপন কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Rajya Sabha",
+          "as": "ৰাজ্যসভা"
+        },
+        {
+          "en": "A joint sitting",
+          "as": "যুটীয়া বৈঠক"
+        },
+        {
+          "en": "Lok Sabha",
+          "as": "লোকসভা"
+        },
+        {
+          "en": "Either House",
+          "as": "যিকোনো এখন সদন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A money bill can be introduced only in the Lok Sabha.",
+        "as": "ধন বিধেয়ক কেৱল লোকসভাত উত্থাপন কৰিব পাৰি।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x092",
+      "q": {
+        "en": "If 12 pencils cost Rs 96, what will 20 pencils cost?",
+        "as": "১২ টা পেঞ্চিলৰ মূল্য ৯৬ টকা হ'লে ২০ টা পেঞ্চিলৰ মূল্য কিমান?"
+      },
+      "options": [
+        {
+          "en": "Rs 180",
+          "as": "১৮০ টকা"
+        },
+        {
+          "en": "Rs 170",
+          "as": "১৭০ টকা"
+        },
+        {
+          "en": "Rs 160",
+          "as": "১৬০ টকা"
+        },
+        {
+          "en": "Rs 150",
+          "as": "১৫০ টকা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each pencil is Rs 8, so 20 cost Rs 160.",
+        "as": "প্ৰতিটো পেঞ্চিল ৮ টকা, সেয়ে ২০ টাৰ মূল্য ১৬০ টকা।"
+      }
+    },
+    {
+      "id": "general-knowledge-x108",
+      "q": {
+        "en": "Which organ pumps blood throughout the human body?",
+        "as": "কোন অংগই মানৱ শৰীৰত তেজ প্ৰৱাহিত কৰে?"
+      },
+      "options": [
+        {
+          "en": "Liver",
+          "as": "যকৃত"
+        },
+        {
+          "en": "Kidney",
+          "as": "বৃক্ক"
+        },
+        {
+          "en": "Lungs",
+          "as": "হাওঁফাওঁ"
+        },
+        {
+          "en": "Heart",
+          "as": "হৃদয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The heart pumps blood throughout the body.",
+        "as": "হৃদয়ে শৰীৰত তেজ প্ৰৱাহিত কৰে।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x046",
+      "q": {
+        "en": "A man goes 4 km south, then turns left and walks 3 km. Which direction is he facing now?",
+        "as": "এজনে ৪ কিমি দক্ষিণে গৈ বাওঁফালে ঘূৰি ৩ কিমি খোজ কাঢ়ে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Facing south, a left turn faces him east.",
+        "as": "দক্ষিণমুখী হৈ বাওঁফালে ঘূৰিলে তেওঁ পূবমুখী হয়।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x094",
+      "q": {
+        "en": "A number increased by 15 gives 55. What is the number?",
+        "as": "এটা সংখ্যা ১৫ বঢ়ালে ৫৫ হয়। সংখ্যাটো কিমান?"
+      },
+      "options": [
+        {
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "en": "45",
+          "as": "৪৫"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The number is 55 - 15 = 40.",
+        "as": "সংখ্যাটো ৫৫ - ১৫ = ৪০।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x061",
+      "q": {
+        "en": "The perimeter of a square is 48 cm. What is its area?",
+        "as": "এটা বৰ্গৰ পৰিসীমা ৪৮ ছেমি। ইয়াৰ কালি কিমান?"
+      },
+      "options": [
+        {
+          "en": "144 square cm",
+          "as": "১৪৪ বৰ্গ ছেমি"
+        },
+        {
+          "en": "156 square cm",
+          "as": "১৫৬ বৰ্গ ছেমি"
+        },
+        {
+          "en": "128 square cm",
+          "as": "১২৮ বৰ্গ ছেমি"
+        },
+        {
+          "en": "196 square cm",
+          "as": "১৯৬ বৰ্গ ছেমি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Side = 12 cm, so area = 144 square cm.",
+        "as": "বাহু = ১২ ছেমি, সেয়ে কালি = ১৪৪ বৰ্গ ছেমি।"
+      }
+    },
+    {
+      "id": "general-knowledge-x103",
+      "q": {
+        "en": "Which Assamese city is famous for oil refining?",
+        "as": "অসমৰ কোন চহৰখন তেল শোধনৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        {
+          "en": "Nagaon",
+          "as": "নগাঁও"
+        },
+        {
+          "en": "Goalpara",
+          "as": "গোৱালপাৰা"
+        },
+        {
+          "en": "Digboi",
+          "as": "ডিগবৈ"
+        },
+        {
+          "en": "Tezpur",
+          "as": "তেজপুৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Digboi is home to one of the oldest oil refineries in India.",
+        "as": "ডিগবৈ ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰবোৰৰ এখনৰ স্থান।"
+      }
+    },
+    {
+      "id": "general-english-x082",
+      "q": {
+        "en": "Choose the word nearest in meaning to 'reluctant'.",
+        "as": "'reluctant' ৰ অৰ্থৰ ওচৰৰ শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Eager",
+          "as": "আগ্ৰহী"
+        },
+        {
+          "en": "Happy",
+          "as": "আনন্দিত"
+        },
+        {
+          "en": "Unwilling",
+          "as": "অনিচ্ছুক"
+        },
+        {
+          "en": "Ready",
+          "as": "সাজু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Reluctant' means unwilling and hesitant.",
+        "as": "'reluctant' ৰ অৰ্থ অনিচ্ছুক আৰু দ্বিধাগ্ৰস্ত।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x010",
+      "q": {
+        "en": "Two numbers are 20 per cent and 50 per cent more than a third number. What is the ratio of the first to the second?",
+        "as": "দুটা সংখ্যা তৃতীয় এটা সংখ্যাতকৈ ক্ৰমে ২০ শতাংশ আৰু ৫০ শতাংশ বেছি। প্ৰথম আৰু দ্বিতীয়ৰ অনুপাত কিমান?"
+      },
+      "options": [
+        {
+          "en": "4 : 5",
+          "as": "৪ : ৫"
+        },
+        {
+          "en": "3 : 5",
+          "as": "৩ : ৫"
+        },
+        {
+          "en": "5 : 4",
+          "as": "৫ : ৪"
+        },
+        {
+          "en": "2 : 5",
+          "as": "২ : ৫"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The numbers are 1.20x and 1.50x, so the ratio is 120 : 150 = 4 : 5.",
+        "as": "সংখ্যাদুটা ১.২০x আৰু ১.৫০x, সেয়ে অনুপাত ১২০ : ১৫০ = ৪ : ৫।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x034",
+      "q": {
+        "en": "In MS Word, which feature checks spelling and grammar?",
+        "as": "এম.এছ. ৱৰ্ডত কোন বৈশিষ্ট্যই বানান আৰু ব্যাকৰণ পৰীক্ষা কৰে?"
+      },
+      "options": [
+        {
+          "en": "Word count",
+          "as": "শব্দ গণনা"
+        },
+        {
+          "en": "Mail merge",
+          "as": "মেইল মাৰ্জ"
+        },
+        {
+          "en": "Track changes",
+          "as": "পৰিৱৰ্তন ট্ৰেক"
+        },
+        {
+          "en": "Spelling and Grammar check",
+          "as": "বানান আৰু ব্যাকৰণ পৰীক্ষা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Spelling and Grammar check verifies spelling and grammar.",
+        "as": "বানান আৰু ব্যাকৰণ পৰীক্ষাই বানান আৰু ব্যাকৰণ পৰীক্ষা কৰে।"
+      }
+    },
+    {
+      "id": "general-english-x016",
+      "q": {
+        "en": "Which word is the opposite of 'victory'?",
+        "as": "'victory' ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Success",
+          "as": "সফলতা"
+        },
+        {
+          "en": "Triumph",
+          "as": "বিজয়"
+        },
+        {
+          "en": "Defeat",
+          "as": "পৰাজয়"
+        },
+        {
+          "en": "Win",
+          "as": "জয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Victory' means winning, so its antonym is 'defeat'.",
+        "as": "'Victory' ৰ অৰ্থ জয়, সেয়ে ইয়াৰ বিপৰীত 'defeat'।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x029",
+      "q": {
+        "en": "If 'sky' is called 'sea', 'sea' is called 'land', and 'land' is called 'water', where do fish live?",
+        "as": "'sky' ক 'sea', 'sea' ক 'land' আৰু 'land' ক 'water' বোলা হ'লে মাছে ক'ত বাস কৰে?"
+      },
+      "options": [
+        {
+          "en": "Water",
+          "as": "water"
+        },
+        {
+          "en": "Sea",
+          "as": "sea"
+        },
+        {
+          "en": "Land",
+          "as": "land"
+        },
+        {
+          "en": "Sky",
+          "as": "sky"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Fish live in the sea, and here 'sea' is called 'land'.",
+        "as": "মাছে sea ত বাস কৰে, আৰু ইয়াত 'sea' ক 'land' বোলা হয়।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x066",
+      "q": {
+        "en": "Which of the following best describes software?",
+        "as": "তলৰ কোনটোৱে ছফ্টৱেৰক সৰ্বোত্তমভাৱে বৰ্ণনা কৰে?"
+      },
+      "options": [
+        {
+          "en": "A type of cable",
+          "as": "এবিধ কেবল"
+        },
+        {
+          "en": "The physical parts of a computer",
+          "as": "কম্পিউটাৰৰ ভৌতিক অংশ"
+        },
+        {
+          "en": "A set of instructions that tells a computer what to do",
+          "as": "কম্পিউটাৰক কি কৰিব লাগে কোৱা নিৰ্দেশনাৰ সংহতি"
+        },
+        {
+          "en": "A storage medium",
+          "as": "এটা সঞ্চয় মাধ্যম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Software is a set of instructions that tells a computer what to do.",
+        "as": "ছফ্টৱেৰ হ'ল কম্পিউটাৰক কি কৰিব লাগে কোৱা নিৰ্দেশনাৰ সংহতি।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x016",
+      "q": {
+        "en": "A map has a scale of 1 cm to 5 km. Two towns are 7 cm apart on the map. What is the actual distance?",
+        "as": "এখন মেপৰ মাপ ১ ছেমি = ৫ কিমি। মেপত দুখন নগৰৰ দূৰত্ব ৭ ছেমি। প্ৰকৃত দূৰত্ব কিমান?"
+      },
+      "options": [
+        {
+          "en": "35 km",
+          "as": "৩৫ কিমি"
+        },
+        {
+          "en": "30 km",
+          "as": "৩০ কিমি"
+        },
+        {
+          "en": "25 km",
+          "as": "২৫ কিমি"
+        },
+        {
+          "en": "40 km",
+          "as": "৪০ কিমি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "7 x 5 = 35 km.",
+        "as": "৭ x ৫ = ৩৫ কিমি।"
+      }
+    },
+    {
+      "id": "general-knowledge-x056",
+      "q": {
+        "en": "Which Mughal ruler commissioned the building of the Taj Mahal?",
+        "as": "কোন মোগল শাসকে তাজমহল নিৰ্মাণৰ আদেশ দিছিল?"
+      },
+      "options": [
+        {
+          "en": "Jahangir",
+          "as": "জাহাঙ্গীৰ"
+        },
+        {
+          "en": "Aurangzeb",
+          "as": "ঔৰংজেৱ"
+        },
+        {
+          "en": "Akbar",
+          "as": "আকবৰ"
+        },
+        {
+          "en": "Shah Jahan",
+          "as": "শাহজাহান"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Taj Mahal was built by the Mughal emperor Shah Jahan.",
+        "as": "তাজমহল মোগল সম্ৰাট শাহজাহানে নিৰ্মাণ কৰিছিল।"
+      }
+    },
+    {
+      "id": "general-english-x092",
+      "q": {
+        "en": "Choose the correct word: He did not ____ to the party.",
+        "as": "শুদ্ধ শব্দ বাছনি কৰক: He did not ____ to the party."
+      },
+      "options": [
+        {
+          "en": "coming",
+          "as": "আহি"
+        },
+        {
+          "en": "comes",
+          "as": "আহে"
+        },
+        {
+          "en": "came",
+          "as": "আহিছিল"
+        },
+        {
+          "en": "come",
+          "as": "আহ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "After 'did not', the base form of the verb is used.",
+        "as": "'did not' ৰ পিছত ক্ৰিয়াৰ মূল ৰূপ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "general-knowledge-x140",
+      "q": {
+        "en": "Name the smallest continent of the world.",
+        "as": "বিশ্বৰ আটাইতকৈ সৰু মহাদেশৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Europe",
+          "as": "ইউৰোপ"
+        },
+        {
+          "en": "South America",
+          "as": "দক্ষিণ আমেৰিকা"
+        },
+        {
+          "en": "Australia",
+          "as": "অষ্ট্ৰেলিয়া"
+        },
+        {
+          "en": "Antarctica",
+          "as": "এণ্টাৰ্কটিকা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Australia is the smallest continent in the world.",
+        "as": "অষ্ট্ৰেলিয়া বিশ্বৰ আটাইতকৈ সৰু মহাদেশ।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x001",
+      "q": {
+        "en": "What does CPU stand for in computing?",
+        "as": "কম্পিউটাৰত CPU ৰ পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Central Processing Unit",
+          "as": "চেণ্ট্ৰেল প্ৰচেছিং ইউনিট"
+        },
+        {
+          "en": "Control Processing Unit",
+          "as": "কণ্ট্ৰ'ল প্ৰচেছিং ইউনিট"
+        },
+        {
+          "en": "Central Program Unit",
+          "as": "চেণ্ট্ৰেল প্ৰ'গ্ৰাম ইউনিট"
+        },
+        {
+          "en": "Computer Personal Unit",
+          "as": "কম্পিউটাৰ পাৰ্চনেল ইউনিট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "CPU stands for Central Processing Unit.",
+        "as": "CPU ৰ অৰ্থ চেণ্ট্ৰেল প্ৰচেছিং ইউনিট।"
+      }
+    },
+    {
+      "id": "general-english-x081",
+      "q": {
+        "en": "Fill in the blank: She has a good command ____ English.",
+        "as": "খালী ঠাই পূৰণ কৰক: She has a good command ____ English."
+      },
+      "options": [
+        {
+          "en": "in",
+          "as": "in"
+        },
+        {
+          "en": "on",
+          "as": "on"
+        },
+        {
+          "en": "at",
+          "as": "at"
+        },
+        {
+          "en": "of",
+          "as": "of"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Command of' is the correct collocation.",
+        "as": "'command of' শুদ্ধ সংযোগ।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x018",
+      "q": {
+        "en": "Which is the odd one: Assam, Kerala, Guwahati, Bihar?",
+        "as": "অদ্ভুতটো কোনটো: অসম, কেৰালা, গুৱাহাটী, বিহাৰ?"
+      },
+      "options": [
+        {
+          "en": "Bihar",
+          "as": "বিহাৰ"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Kerala",
+          "as": "কেৰালা"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Guwahati is a city while the others are states.",
+        "as": "গুৱাহাটী এখন নগৰ, আনবোৰ ৰাজ্য।"
+      }
+    },
+    {
+      "id": "general-english-x093",
+      "q": {
+        "en": "Fill in the blank: The book ____ on the table is mine.",
+        "as": "খালী ঠাই পূৰণ কৰক: The book ____ on the table is mine."
+      },
+      "options": [
+        {
+          "en": "lie",
+          "as": "পৰা"
+        },
+        {
+          "en": "laying",
+          "as": "ৰখা"
+        },
+        {
+          "en": "lied",
+          "as": "মিছা কোৱা"
+        },
+        {
+          "en": "lying",
+          "as": "পৰি থকা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Lying' means being in a resting position.",
+        "as": "'lying' ৰ অৰ্থ পৰি থকা অৱস্থাত থকা।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x077",
+      "q": {
+        "en": "If a clock shows 9:00, what is the angle between the hands?",
+        "as": "এটা ঘড়ীত ৯:০০ বাজিছে, কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "60 degrees",
+          "as": "৬০ ডিগ্ৰী"
+        },
+        {
+          "en": "180 degrees",
+          "as": "১৮০ ডিগ্ৰী"
+        },
+        {
+          "en": "90 degrees",
+          "as": "৯০ ডিগ্ৰী"
+        },
+        {
+          "en": "45 degrees",
+          "as": "৪৫ ডিগ্ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each hour mark is 30 degrees, so 3 x 30 = 90 degrees.",
+        "as": "প্ৰতি ঘণ্টা চিহ্ন ৩০ ডিগ্ৰী, সেয়ে ৩ x ৩০ = ৯০ ডিগ্ৰী।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x009",
+      "q": {
+        "en": "In an examination, 35 per cent of candidates failed and 650 passed. How many candidates appeared?",
+        "as": "এখন পৰীক্ষাত ৩৫ শতাংশ প্ৰাৰ্থী অনুত্তীৰ্ণ হ'ল আৰু ৬৫০ জন উত্তীৰ্ণ হ'ল। মুঠ কিমান প্ৰাৰ্থীয়ে পৰীক্ষা দিছিল?"
+      },
+      "options": [
+        {
+          "en": "950",
+          "as": "৯৫০"
+        },
+        {
+          "en": "1100",
+          "as": "১১০০"
+        },
+        {
+          "en": "1000",
+          "as": "১০০০"
+        },
+        {
+          "en": "1200",
+          "as": "১২০০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Pass percentage is 65, and 650/0.65 = 1000.",
+        "as": "উত্তীৰ্ণৰ শতকৰা হাৰ ৬৫, আৰু ৬৫০/০.৬৫ = ১০০০।"
+      }
+    },
+    {
+      "id": "general-english-x098",
+      "q": {
+        "en": "Choose the sentence that uses 'prefer' correctly.",
+        "as": "শুদ্ধ বাক্যটো বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "I prefer coffee more than tea.",
+          "as": "I prefer coffee more than tea."
+        },
+        {
+          "en": "I prefer coffee than tea.",
+          "as": "I prefer coffee than tea."
+        },
+        {
+          "en": "I prefer coffee over than tea.",
+          "as": "I prefer coffee over than tea."
+        },
+        {
+          "en": "I prefer coffee to tea.",
+          "as": "I prefer coffee to tea."
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Prefer' takes 'to' and not 'than'.",
+        "as": "'prefer' ৰ সৈতে 'than' নহয় 'to' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x026",
+      "q": {
+        "en": "In MS Word, which shortcut is used to save a document?",
+        "as": "এম.এছ. ৱৰ্ডত দস্তাবেজ সঞ্চয় কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + S saves the document.",
+        "as": "Ctrl + S য়ে দস্তাবেজ সঞ্চয় কৰে।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x020",
+      "q": {
+        "en": "Which key combination is commonly used to copy in Windows?",
+        "as": "ৱিণ্ড'জত কপি কৰিবলৈ সাধাৰণতে কোন কীবৰ্ড সংযোগ ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + C is used to copy.",
+        "as": "কপি কৰিবলৈ Ctrl + C ব্যৱহাৰ কৰা হয়।"
+      }
+    },
+    {
+      "id": "general-knowledge-x130",
+      "q": {
+        "en": "Which country holds the world's largest population?",
+        "as": "বিশ্বৰ আটাইতকৈ বেছি জনসংখ্যা কোনখন দেশত আছে?"
+      },
+      "options": [
+        {
+          "en": "Indonesia",
+          "as": "ইণ্ডোনেছিয়া"
+        },
+        {
+          "en": "India",
+          "as": "ভাৰত"
+        },
+        {
+          "en": "China",
+          "as": "চীন"
+        },
+        {
+          "en": "United States",
+          "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "India has the largest population in the world.",
+        "as": "ভাৰতৰ বিশ্বত আটাইতকৈ বেছি জনসংখ্যা আছে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x123",
+      "q": {
+        "en": "Which mountain pass connects Assam with Bhutan?",
+        "as": "কোন পৰ্বতীয়া গিৰিপথে অসমক ভূটানৰ সৈতে সংযোগ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Nathu La",
+          "as": "নাথু লা"
+        },
+        {
+          "en": "Shipki La",
+          "as": "শিপকি লা"
+        },
+        {
+          "en": "Bomdi La",
+          "as": "বমডি লা"
+        },
+        {
+          "en": "Jelep La",
+          "as": "জেলেপ লা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Jelep La pass connects Assam with Bhutan.",
+        "as": "জেলেপ লা গিৰিপথে অসমক ভূটানৰ সৈতে সংযোগ কৰে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x092",
+      "q": {
+        "en": "Which planet carries the name 'Red Planet'?",
+        "as": "কোন গ্ৰহই 'ৰঙা গ্ৰহ' নাম বহন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Venus",
+          "as": "শুক্ৰ"
+        },
+        {
+          "en": "Mercury",
+          "as": "বুধ"
+        },
+        {
+          "en": "Mars",
+          "as": "মঙ্গল"
+        },
+        {
+          "en": "Jupiter",
+          "as": "বৃহস্পতি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mars is known as the Red Planet because of its reddish surface.",
+        "as": "ৰঙচুৱা পৃষ্ঠৰ বাবে মঙ্গলক ৰঙা গ্ৰহ বুলি জনা যায়।"
+      }
+    },
+    {
+      "id": "general-knowledge-x008",
+      "q": {
+        "en": "Which Ahom general led the army at the Battle of Saraighat?",
+        "as": "সৰাইঘাটৰ যুদ্ধত কোন আহোম সেনাপতিয়ে সৈন্যৰ নেতৃত্ব দিছিল?"
+      },
+      "options": [
+        {
+          "en": "Momai Tamuli Borbarua",
+          "as": "মোমাই তামুলী বৰবৰুৱা"
+        },
+        {
+          "en": "Lachit Borphukan",
+          "as": "লাচিত বৰফুকন"
+        },
+        {
+          "en": "Atan Buragohain",
+          "as": "আতন বুঢ়াগোহাঁই"
+        },
+        {
+          "en": "Piyoli Phukan",
+          "as": "পিয়লি ফুকন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Lachit Borphukan commanded the Ahom forces at Saraighat.",
+        "as": "লাচিত বৰফুকনে সৰাইঘাটত আহোম সৈন্যৰ নেতৃত্ব দিছিল।"
+      }
+    },
+    {
+      "id": "general-english-x023",
+      "q": {
+        "en": "Pick the antonym of 'abundant'.",
+        "as": "'abundant' ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Ample",
+          "as": "পৰ্যাপ্ত"
+        },
+        {
+          "en": "Plenty",
+          "as": "প্ৰচুৰ"
+        },
+        {
+          "en": "Rich",
+          "as": "সমৃদ্ধ"
+        },
+        {
+          "en": "Scarce",
+          "as": "দুৰ্লভ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Abundant' means plentiful, so its antonym is 'scarce'.",
+        "as": "'Abundant' ৰ অৰ্থ প্ৰচুৰ, সেয়ে ইয়াৰ বিপৰীত 'scarce'।"
+      }
+    },
+    {
+      "id": "general-knowledge-x014",
+      "q": {
+        "en": "In which year did the British annex Assam under the Treaty of Yandabo?",
+        "as": "য়াণ্ডাবু সন্ধিৰ অধীনত ব্ৰিটিছে কোন বছৰত অসম দখল কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "1830",
+          "as": "১৮৩০"
+        },
+        {
+          "en": "1826",
+          "as": "১৮২৬"
+        },
+        {
+          "en": "1824",
+          "as": "১৮২৪"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam was annexed by the British in 1826 after the Treaty of Yandabo.",
+        "as": "য়াণ্ডাবু সন্ধিৰ পিছত ১৮২৬ চনত ব্ৰিটিছে অসম দখল কৰিছিল।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x048",
+      "q": {
+        "en": "If North becomes East, East becomes South, and so on, what does South-West become?",
+        "as": "যদি উত্তৰ পূব হয়, পূব দক্ষিণ হয়, আদি, তেন্তে দক্ষিণ-পশ্চিম কি হয়?"
+      },
+      "options": [
+        {
+          "en": "South-West",
+          "as": "দক্ষিণ-পশ্চিম"
+        },
+        {
+          "en": "South-East",
+          "as": "দক্ষিণ-পূব"
+        },
+        {
+          "en": "North-East",
+          "as": "উত্তৰ-পূব"
+        },
+        {
+          "en": "North-West",
+          "as": "উত্তৰ-পশ্চিম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Each direction rotates 90 degrees clockwise, so South-West becomes North-West.",
+        "as": "প্ৰতিটো দিশ ৯০ ডিগ্ৰী ঘড়ীৰ কাঁটাৰ দিশত ঘূৰে, সেয়ে দক্ষিণ-পশ্চিম উত্তৰ-পশ্চিম হয়।"
+      }
+    },
+    {
+      "id": "general-knowledge-x134",
+      "q": {
+        "en": "Where are the headquarters of the International Monetary Fund located?",
+        "as": "আন্তৰ্জাতিক মুদ্ৰা নিধিৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "London",
+          "as": "লণ্ডন"
+        },
+        {
+          "en": "New York",
+          "as": "নিউয়ৰ্ক"
+        },
+        {
+          "en": "Geneva",
+          "as": "জেনেভা"
+        },
+        {
+          "en": "Washington DC",
+          "as": "ৱাশিংটন ডিচি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The IMF headquarters is in Washington DC.",
+        "as": "আইএমএফৰ মুখ্য কাৰ্যালয় ৱাশিংটন ডিচিত।"
+      }
+    },
+    {
+      "id": "general-english-x037",
+      "q": {
+        "en": "Choose the correct form: He has ____ his homework already.",
+        "as": "শুদ্ধ ৰূপ বাছনি কৰক: He has ____ his homework already."
+      },
+      "options": [
+        {
+          "en": "finish",
+          "as": "finish"
+        },
+        {
+          "en": "finished",
+          "as": "finished"
+        },
+        {
+          "en": "finishes",
+          "as": "finishes"
+        },
+        {
+          "en": "finishing",
+          "as": "finishing"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The present perfect takes the past participle 'finished'.",
+        "as": "বৰ্তমান পূৰ্ণ কালত অতীত কৃদন্ত 'finished' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "general-english-x060",
+      "q": {
+        "en": "Choose the correct word: He is the ____ of the two brothers.",
+        "as": "শুদ্ধ শব্দ বাছনি কৰক: He is the ____ of the two brothers."
+      },
+      "options": [
+        {
+          "en": "more tall",
+          "as": "more tall"
+        },
+        {
+          "en": "tallest",
+          "as": "tallest"
+        },
+        {
+          "en": "tall",
+          "as": "tall"
+        },
+        {
+          "en": "taller",
+          "as": "taller"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Between two people, the comparative 'taller' is used.",
+        "as": "দুজনৰ মাজত তুলনাত্মক 'taller' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x015",
+      "q": {
+        "en": "If 5 men earn Rs 1500 in 6 days, how much will 8 men earn in 10 days at the same rate?",
+        "as": "৫ জন মানুহে ৬ দিনত ১৫০০ টকা উপাৰ্জন কৰে। একে হাৰত ৮ জনে ১০ দিনত কিমান উপাৰ্জন কৰিব?"
+      },
+      "options": [
+        {
+          "en": "Rs 3600",
+          "as": "৩৬০০ টকা"
+        },
+        {
+          "en": "Rs 4500",
+          "as": "৪৫০০ টকা"
+        },
+        {
+          "en": "Rs 4200",
+          "as": "৪২০০ টকা"
+        },
+        {
+          "en": "Rs 4000",
+          "as": "৪০০০ টকা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Per man per day = 1500/(5x6) = 50, so 8x10x50 = Rs 4000.",
+        "as": "জন-দিন প্ৰতি = ১৫০০/(৫x৬) = ৫০, সেয়ে ৮x১০x৫০ = ৪০০০ টকা।"
+      }
+    },
+    {
+      "id": "general-knowledge-x029",
+      "q": {
+        "en": "In which year did the Quit India Movement begin?",
+        "as": "ভাৰত এৰা আন্দোলন কোন বছৰত আৰম্ভ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1930",
+          "as": "১৯৩০"
+        },
+        {
+          "en": "1942",
+          "as": "১৯৪২"
+        },
+        {
+          "en": "1919",
+          "as": "১৯১৯"
+        },
+        {
+          "en": "1920",
+          "as": "১৯২০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Quit India Movement was launched in August 1942.",
+        "as": "ভাৰত এৰা আন্দোলন ১৯৪২ চনৰ আগষ্টত আৰম্ভ হৈছিল।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x074",
+      "q": {
+        "en": "The range of the data 12, 5, 18, 9, 25, 3 is what?",
+        "as": "১২, ৫, ১৮, ৯, ২৫, ৩ তথ্যৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        {
+          "en": "22",
+          "as": "২২"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "en": "20",
+          "as": "২০"
+        },
+        {
+          "en": "25",
+          "as": "২৫"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range = 25 - 3 = 22.",
+        "as": "পৰিসৰ = ২৫ - ৩ = ২২।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x067",
+      "q": {
+        "en": "Which of these is an example of a spreadsheet formula?",
+        "as": "এইবোৰৰ কোনটো স্প্ৰেডশ্বীট ফৰ্মুলাৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "=A1+B1",
+          "as": "=A1+B1"
+        },
+        {
+          "en": "#A1+B1",
+          "as": "#A1+B1"
+        },
+        {
+          "en": "&A1+B1",
+          "as": "&A1+B1"
+        },
+        {
+          "en": "@A1+B1",
+          "as": "@A1+B1"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A spreadsheet formula begins with an equals sign, as in =A1+B1.",
+        "as": "স্প্ৰেডশ্বীট ফৰ্মুলা সমান চিহ্নৰে আৰম্ভ হয়, যেনে =A1+B1।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x076",
+      "q": {
+        "en": "In a span of 12 hours, how many times do a clock's hands overlap?",
+        "as": "১২ ঘণ্টাৰ সময়ছোৱাত ঘড়ীৰ কাঁটা কিমানবাৰ ওপৰত পৰে?"
+      },
+      "options": [
+        {
+          "en": "Eleven",
+          "as": "এঘাৰবাৰ"
+        },
+        {
+          "en": "Twelve",
+          "as": "বাৰবাৰ"
+        },
+        {
+          "en": "Ten",
+          "as": "দহবাৰ"
+        },
+        {
+          "en": "Twenty-four",
+          "as": "চৌবিশবাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The hands overlap eleven times in twelve hours.",
+        "as": "১২ ঘণ্টাত কাঁটাদুটা এঘাৰবাৰ ওপৰত পৰে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x048",
+      "q": {
+        "en": "Which Indian city carries the name 'City of Lakes'?",
+        "as": "কোন ভাৰতীয় চহৰে 'হ্ৰদৰ চহৰ' নাম বহন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Bhopal",
+          "as": "ভূপাল"
+        },
+        {
+          "en": "Udaipur",
+          "as": "উদয়পুৰ"
+        },
+        {
+          "en": "Jaipur",
+          "as": "জয়পুৰ"
+        },
+        {
+          "en": "Srinagar",
+          "as": "শ্ৰীনগৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Udaipur is known as the City of Lakes.",
+        "as": "উদয়পুৰক হ্ৰদৰ চহৰ বুলি জনা যায়।"
+      }
+    },
+    {
+      "id": "general-knowledge-x055",
+      "q": {
+        "en": "Which state has the longest coastline in India?",
+        "as": "ভাৰতৰ কোন ৰাজ্যৰ উপকূলীয় ৰেখা আটাইতকৈ দীঘল?"
+      },
+      "options": [
+        {
+          "en": "Tamil Nadu",
+          "as": "তামিলনাডু"
+        },
+        {
+          "en": "Kerala",
+          "as": "কেৰালা"
+        },
+        {
+          "en": "Gujarat",
+          "as": "গুজৰাট"
+        },
+        {
+          "en": "Andhra Pradesh",
+          "as": "অন্ধ্ৰপ্ৰদেশ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Gujarat has the longest coastline among Indian states.",
+        "as": "ভাৰতীয় ৰাজ্যসমূহৰ ভিতৰত গুজৰাটৰ উপকূলীয় ৰেখা আটাইতকৈ দীঘল।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x085",
+      "q": {
+        "en": "A clock shows 12:00. What is the angle between the hands?",
+        "as": "এটা ঘড়ীত ১২:০০ বাজিছে। কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "0 degrees",
+          "as": "০ ডিগ্ৰী"
+        },
+        {
+          "en": "30 degrees",
+          "as": "৩০ ডিগ্ৰী"
+        },
+        {
+          "en": "180 degrees",
+          "as": "১৮০ ডিগ্ৰী"
+        },
+        {
+          "en": "90 degrees",
+          "as": "৯০ ডিগ্ৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "At 12:00 both hands coincide, so the angle is 0 degrees.",
+        "as": "১২:০০ বজাত দুয়ো কাঁটা একে ঠাইত, সেয়ে কোণ ০ ডিগ্ৰী।"
+      }
+    },
+    {
+      "id": "general-knowledge-x017",
+      "q": {
+        "en": "Panchayati Raj was given constitutional status by which amendment?",
+        "as": "কোন সংশোধনীয়ে পঞ্চায়তী ৰাজক সাংবিধানিক মৰ্যাদা দিছে?"
+      },
+      "options": [
+        {
+          "en": "42nd Amendment",
+          "as": "৪২ সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "73rd Amendment",
+          "as": "৭৩ সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "61st Amendment",
+          "as": "৬১ সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "86th Amendment",
+          "as": "৮৬ সংখ্যক সংশোধনী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The 73rd Amendment gave constitutional status to Panchayati Raj.",
+        "as": "৭৩ সংখ্যক সংশোধনীয়ে পঞ্চায়তী ৰাজক সাংবিধানিক মৰ্যাদা দিয়ে।"
+      }
+    },
+    {
+      "id": "general-english-x022",
+      "q": {
+        "en": "Choose the antonym of 'ancient history' in the sense of 'long ago'.",
+        "as": "'অনেক আগৰ' অৰ্থত 'ancient' ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Primitive",
+          "as": "প্ৰাচীন"
+        },
+        {
+          "en": "Venerable",
+          "as": "শ্ৰদ্ধেয়"
+        },
+        {
+          "en": "Recent",
+          "as": "শেহতীয়া"
+        },
+        {
+          "en": "Antique",
+          "as": "পুৰাতন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Recent' is the opposite of 'ancient' when referring to time.",
+        "as": "সময় সূচাবলৈ 'Recent' 'ancient' ৰ বিপৰীত।"
+      }
+    },
+    {
+      "id": "general-knowledge-x043",
+      "q": {
+        "en": "The Jallianwala Bagh massacre took place in which city?",
+        "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ড কোন চহৰত সংঘটিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Lahore",
+          "as": "লাহোৰ"
+        },
+        {
+          "en": "Amritsar",
+          "as": "অমৃতসৰ"
+        },
+        {
+          "en": "Kanpur",
+          "as": "কানপুৰ"
+        },
+        {
+          "en": "Delhi",
+          "as": "দিল্লী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Jallianwala Bagh massacre took place at Amritsar in 1919.",
+        "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ড ১৯১৯ চনত অমৃতসৰত সংঘটিত হৈছিল।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x077",
+      "q": {
+        "en": "If the mean of 8 observations is 25 and a ninth observation of 34 is added, what is the new mean?",
+        "as": "৮ টা পৰ্যবেক্ষণৰ গড় ২৫ আৰু ৩৪ মানৰ নৱম এটা পৰ্যবেক্ষণ যোগ কৰিলে নতুন গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "25.5",
+          "as": "২৫.৫"
+        },
+        {
+          "en": "27",
+          "as": "২৭"
+        },
+        {
+          "en": "28",
+          "as": "২৮"
+        },
+        {
+          "en": "26",
+          "as": "২৬"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "New mean = (200+34)/9 = 26.",
+        "as": "নতুন গড় = (২০০+৩৪)/৯ = ২৬।"
+      }
+    },
+    {
+      "id": "general-knowledge-x025",
+      "q": {
+        "en": "In which year did the Battle of Plassey take place?",
+        "as": "পলাশীৰ যুদ্ধ কোন বছৰত সংঘটিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1761",
+          "as": "১৭৬১"
+        },
+        {
+          "en": "1857",
+          "as": "১৮৫৭"
+        },
+        {
+          "en": "1757",
+          "as": "১৭৫৭"
+        },
+        {
+          "en": "1764",
+          "as": "১৭৬৪"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Battle of Plassey was fought in 1757.",
+        "as": "পলাশীৰ যুদ্ধ ১৭৫৭ চনত হৈছিল।"
+      }
+    },
+    {
+      "id": "general-knowledge-x115",
+      "q": {
+        "en": "Which river is called the lifeline of Assam?",
+        "as": "কোন নদীক অসমৰ জীৱন-ৰেখা বুলি কোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Barak",
+          "as": "বৰাক"
+        },
+        {
+          "en": "Brahmaputra",
+          "as": "ব্ৰহ্মপুত্ৰ"
+        },
+        {
+          "en": "Subansiri",
+          "as": "সুবনসিৰি"
+        },
+        {
+          "en": "Dhansiri",
+          "as": "ধনসিৰি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Brahmaputra is regarded as the lifeline of Assam.",
+        "as": "ব্ৰহ্মপুত্ৰক অসমৰ জীৱন-ৰেখা বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "id": "general-english-x048",
+      "q": {
+        "en": "Fill in the blank: She speaks English ____ than her brother.",
+        "as": "খালী ঠাই পূৰণ কৰক: She speaks English ____ than her brother."
+      },
+      "options": [
+        {
+          "en": "best",
+          "as": "best"
+        },
+        {
+          "en": "good",
+          "as": "good"
+        },
+        {
+          "en": "better",
+          "as": "better"
+        },
+        {
+          "en": "well",
+          "as": "well"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The comparative degree of 'well' is 'better'.",
+        "as": "'well' ৰ তুলনাত্মক ৰূপ 'better'।"
+      }
+    },
+    {
+      "id": "general-knowledge-x091",
+      "q": {
+        "en": "How many years apart are the Olympic Games held?",
+        "as": "অলিম্পিক ক্ৰীড়া কিমান বছৰৰ মূৰে মূৰে অনুষ্ঠিত হয়?"
+      },
+      "options": [
+        {
+          "en": "Five years",
+          "as": "পাঁচ বছৰ"
+        },
+        {
+          "en": "Two years",
+          "as": "দুই বছৰ"
+        },
+        {
+          "en": "Four years",
+          "as": "চাৰি বছৰ"
+        },
+        {
+          "en": "Three years",
+          "as": "তিনি বছৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Summer Olympic Games are held every four years.",
+        "as": "গ্ৰীষ্মকালীন অলিম্পিক ক্ৰীড়া প্ৰতি চাৰি বছৰত অনুষ্ঠিত হয়।"
+      }
+    },
+    {
+      "id": "general-english-x064",
+      "q": {
+        "en": "Choose the correctly formed question.",
+        "as": "শুদ্ধভাৱে গঠিত প্ৰশ্নটো বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Why did you not come yesterday?",
+          "as": "Why did you not come yesterday?"
+        },
+        {
+          "en": "Why you did not come yesterday?",
+          "as": "Why you did not come yesterday?"
+        },
+        {
+          "en": "Why did not you come yesterday?",
+          "as": "Why did not you come yesterday?"
+        },
+        {
+          "en": "Why you not came yesterday?",
+          "as": "Why you not came yesterday?"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In a wh-question the auxiliary follows the question word and precedes the subject.",
+        "as": "wh-প্ৰশ্নত সহায়ক ক্ৰিয়া প্ৰশ্নবোধক শব্দৰ পিছত আৰু কৰ্তাৰ আগত আহে।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x098",
+      "q": {
+        "en": "The perimeter of a rectangle is 60 cm and its length is 20 cm. What is its breadth?",
+        "as": "এটা আয়তৰ পৰিসীমা ৬০ ছেমি আৰু দীঘ ২০ ছেমি। ইয়াৰ প্ৰস্থ কিমান?"
+      },
+      "options": [
+        {
+          "en": "12 cm",
+          "as": "১২ ছেমি"
+        },
+        {
+          "en": "15 cm",
+          "as": "১৫ ছেমি"
+        },
+        {
+          "en": "10 cm",
+          "as": "১০ ছেমি"
+        },
+        {
+          "en": "8 cm",
+          "as": "৮ ছেমি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Length + breadth = 30, so breadth = 10 cm.",
+        "as": "দীঘ + প্ৰস্থ = ৩০, সেয়ে প্ৰস্থ = ১০ ছেমি।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x030",
+      "q": {
+        "en": "In MS Excel, what is a cell reference like A1 called?",
+        "as": "এম.এছ. এক্সেলত A1 ৰ দৰে এটা চেল সন্দৰ্ভক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Formula bar",
+          "as": "ফৰ্মুলা বাৰ"
+        },
+        {
+          "en": "Absolute name",
+          "as": "চিৰস্থায়ী নাম"
+        },
+        {
+          "en": "Named range",
+          "as": "নামাকৰণ পৰিসৰ"
+        },
+        {
+          "en": "Relative reference",
+          "as": "সম্বন্ধীয় সন্দৰ্ভ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A1 is a relative reference by default.",
+        "as": "A1 সাধাৰণতে এটা সম্বন্ধীয় সন্দৰ্ভ।"
+      }
+    },
+    {
+      "id": "general-knowledge-x119",
+      "q": {
+        "en": "Which Assamese city carries the name 'Tea City of India'?",
+        "as": "কোন অসমীয়া চহৰে 'ভাৰতৰ চাহ নগৰী' নাম বহন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Silchar",
+          "as": "শিলচৰ"
+        },
+        {
+          "en": "Bongaigaon",
+          "as": "বঙাইগাঁও"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Dibrugarh is known as the Tea City of India.",
+        "as": "ডিব্ৰুগড়ক ভাৰতৰ চাহ নগৰী বুলি জনা যায়।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x055",
+      "q": {
+        "en": "What is the value of 15 per cent of 15 per cent of 1500?",
+        "as": "১৫০০ ৰ ১৫ শতাংশৰ ১৫ শতাংশ কিমান?"
+      },
+      "options": [
+        {
+          "en": "33.75",
+          "as": "৩৩.৭৫"
+        },
+        {
+          "en": "22.5",
+          "as": "২২.৫"
+        },
+        {
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "en": "37.5",
+          "as": "৩৭.৫"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "0.15 x 0.15 x 1500 = 33.75.",
+        "as": "০.১৫ x ০.১৫ x ১৫০০ = ৩৩.৭৫।"
+      }
+    },
+    {
+      "id": "general-knowledge-x036",
+      "q": {
+        "en": "Which tea garden of Assam is famous for producing the finest tea?",
+        "as": "অসমৰ কোন চাহ বাগিচাখন উৎকৃষ্ট চাহ উৎপাদনৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        {
+          "en": "Sangsua Tea Estate",
+          "as": "ছাংসুৱা চাহ বাগান"
+        },
+        {
+          "en": "Halmari Tea Estate",
+          "as": "হালমাৰি চাহ বাগান"
+        },
+        {
+          "en": "Mangalam Tea Estate",
+          "as": "মংগলম চাহ বাগান"
+        },
+        {
+          "en": "Jamguri Tea Estate",
+          "as": "জামগুৰি চাহ বাগান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mangalam Tea Estate in Sonitpur is famous for producing fine tea.",
+        "as": "শোণিতপুৰৰ মংগলম চাহ বাগান উৎকৃষ্ট চাহ উৎপাদনৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "id": "general-english-x046",
+      "q": {
+        "en": "Choose the correctly punctuated sentence.",
+        "as": "শুদ্ধ যতি-চিহ্নযুক্ত বাক্যটো বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Where, are you going Ravi.",
+          "as": "Where, are you going Ravi."
+        },
+        {
+          "en": "Where are you going Ravi?",
+          "as": "Where are you going Ravi?"
+        },
+        {
+          "en": "Where are you going, Ravi?",
+          "as": "Where are you going, Ravi?"
+        },
+        {
+          "en": "Where are you going? Ravi",
+          "as": "Where are you going? Ravi"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The name in direct address is set off by a comma, and a question ends with a question mark.",
+        "as": "সম্বোধনত নাম কমাৰে পৃথক কৰা হয়, আৰু প্ৰশ্নবোধক বাক্য প্ৰশ্নবোধক চিহ্নৰে শেষ হয়।"
+      }
+    },
+    {
+      "id": "general-english-x005",
+      "q": {
+        "en": "Choose the word closest in meaning to 'fragile'.",
+        "as": "'fragile' ৰ অৰ্থৰ আটাইতকৈ ওচৰৰ শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Rough",
+          "as": "খহটা"
+        },
+        {
+          "en": "Strong",
+          "as": "শক্তিশালী"
+        },
+        {
+          "en": "Delicate",
+          "as": "নাজুক"
+        },
+        {
+          "en": "Heavy",
+          "as": "গধুৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Fragile' means easily broken, that is delicate.",
+        "as": "'Fragile' ৰ অৰ্থ সহজে ভাঙি যোৱা, অৰ্থাৎ delicate।"
+      }
+    },
+    {
+      "id": "general-knowledge-x030",
+      "q": {
+        "en": "The 'Sadou Asom Lekhika Samaroh Samiti' is an organisation of whom?",
+        "as": "'সদৌ অসম লেখিকা সমাৰোহ সমিতি' কাৰ সংগঠন?"
+      },
+      "options": [
+        {
+          "en": "Tea garden workers",
+          "as": "চাহ বাগিচা শ্ৰমিক"
+        },
+        {
+          "en": "Farmers",
+          "as": "কৃষক"
+        },
+        {
+          "en": "Weavers",
+          "as": "বয়নকাৰী"
+        },
+        {
+          "en": "Women writers",
+          "as": "মহিলা সাহিত্যিক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Sadou Asom Lekhika Samaroh Samiti is an association of women writers.",
+        "as": "সদৌ অসম লেখিকা সমাৰোহ সমিতি মহিলা সাহিত্যিকৰ সংগঠন।"
+      }
+    },
+    {
+      "id": "general-knowledge-x113",
+      "q": {
+        "en": "By area, which district of Assam is the largest?",
+        "as": "কালি অনুসৰি অসমৰ আটাইতকৈ ডাঙৰ জিলা কোনখন?"
+      },
+      "options": [
+        {
+          "en": "Nagaon",
+          "as": "নগাঁও"
+        },
+        {
+          "en": "Cachar",
+          "as": "কাছাৰ"
+        },
+        {
+          "en": "Sonitpur",
+          "as": "শোণিতপুৰ"
+        },
+        {
+          "en": "Karbi Anglong",
+          "as": "কাৰ্বি আংলং"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Karbi Anglong is the largest district of Assam by area.",
+        "as": "কালি অনুসৰি কাৰ্বি আংলং অসমৰ আটাইতকৈ ডাঙৰ জিলা।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x033",
+      "q": {
+        "en": "Pointing to a photograph, a man says, 'She is the daughter of my grandfather's only son.' How is she related to him?",
+        "as": "এখন ফটো দেখুৱাই এজনে কয়, 'তেওঁ মোৰ ককাৰ একমাত্ৰ পুত্ৰৰ জীয়েক।' তেওঁ এজনৰ লগত কেনে সম্পৰ্কীয়?"
+      },
+      "options": [
+        {
+          "en": "Aunt",
+          "as": "পেহী"
+        },
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুড়ী-জীয়েক"
+        },
+        {
+          "en": "Niece",
+          "as": "ভতিজী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The grandfather's only son is his father, so she is his sister.",
+        "as": "ককাৰ একমাত্ৰ পুত্ৰ তেওঁৰ পিতৃ, সেয়ে তেওঁ তেওঁৰ ভনী।"
+      }
+    },
+    {
+      "id": "general-knowledge-x013",
+      "q": {
+        "en": "The Governor of a state is appointed by whom?",
+        "as": "ৰাজ্যপালক কোনে নিয়োগ কৰে?"
+      },
+      "options": [
+        {
+          "en": "The Chief Justice",
+          "as": "প্ৰধান বিচাৰপতিয়ে"
+        },
+        {
+          "en": "The Chief Minister",
+          "as": "মুখ্যমন্ত্ৰীয়ে"
+        },
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰীয়ে"
+        },
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতিয়ে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The President appoints the Governor of a state.",
+        "as": "ৰাষ্ট্ৰপতিয়ে ৰাজ্যপালক নিয়োগ কৰে।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x052",
+      "q": {
+        "en": "What is the smallest number divisible by 4, 6 and 8?",
+        "as": "৪, ৬ আৰু ৮ ৰে বিভাজ্য আটাইতকৈ সৰু সংখ্যা কোনটো?"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "48",
+          "as": "৪৮"
+        },
+        {
+          "en": "36",
+          "as": "৩৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The LCM of 4, 6 and 8 is 24.",
+        "as": "৪, ৬ আৰু ৮ ৰ ল.সা.গু. ২৪।"
+      }
+    },
+    {
+      "id": "general-knowledge-x033",
+      "q": {
+        "en": "The book 'Discovery of India' was written by whom?",
+        "as": "'ভাৰতৰ আৱিষ্কাৰ' পুথিখন কে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "S. Radhakrishnan",
+          "as": "এছ. ৰাধাকৃষ্ণণ"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Jawaharlal Nehru wrote 'The Discovery of India'.",
+        "as": "জৱাহৰলাল নেহৰুৱে 'ভাৰতৰ আৱিষ্কাৰ' লিখিছিল।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x101",
+      "q": {
+        "en": "The average of the numbers 5, 10, 15, 20 and 25 is what?",
+        "as": "৫, ১০, ১৫, ২০ আৰু ২৫ সংখ্যাৰ গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "12.5",
+          "as": "১২.৫"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "20",
+          "as": "২০"
+        },
+        {
+          "en": "17.5",
+          "as": "১৭.৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sum = 75, and 75/5 = 15.",
+        "as": "যোগফল = ৭৫, আৰু ৭৫/৫ = ১৫।"
+      }
+    },
+    {
+      "id": "general-knowledge-x061",
+      "q": {
+        "en": "By area, which Indian state is the largest?",
+        "as": "কালি অনুসৰি ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+      },
+      "options": [
+        {
+          "en": "Madhya Pradesh",
+          "as": "মধ্য প্ৰদেশ"
+        },
+        {
+          "en": "Uttar Pradesh",
+          "as": "উত্তৰ প্ৰদেশ"
+        },
+        {
+          "en": "Rajasthan",
+          "as": "ৰাজস্থান"
+        },
+        {
+          "en": "Maharashtra",
+          "as": "মহাৰাষ্ট্ৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Rajasthan is the largest Indian state by area.",
+        "as": "কালি অনুসৰি ৰাজস্থান ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x081",
+      "q": {
+        "en": "The mean of 7 numbers is 13. What is their total?",
+        "as": "৭ টা সংখ্যাৰ গড় ১৩। মুঠ যোগফল কিমান?"
+      },
+      "options": [
+        {
+          "en": "91",
+          "as": "৯১"
+        },
+        {
+          "en": "98",
+          "as": "৯৮"
+        },
+        {
+          "en": "84",
+          "as": "৮৪"
+        },
+        {
+          "en": "78",
+          "as": "৭৮"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Total = 7 x 13 = 91.",
+        "as": "মুঠ = ৭ x ১৩ = ৯১।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x043",
+      "q": {
+        "en": "A train 150 metres long crosses a pole in 15 seconds. What is its speed?",
+        "as": "১৫০ মিটাৰ দীঘল এখন ৰেলগাড়ীয়ে এটা খুঁটা ১৫ ছেকেণ্ডত অতিক্ৰম কৰে। ইয়াৰ গতি কিমান?"
+      },
+      "options": [
+        {
+          "en": "40 km/h",
+          "as": "৪০ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "45 km/h",
+          "as": "৪৫ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "30 km/h",
+          "as": "৩০ কিমি/ঘণ্টা"
+        },
+        {
+          "en": "36 km/h",
+          "as": "৩৬ কিমি/ঘণ্টা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Speed = 150/15 = 10 m/s = 36 km/h.",
+        "as": "গতি = ১৫০/১৫ = ১০ মি/ছে = ৩৬ কিমি/ঘণ্টা।"
+      }
+    },
+    {
+      "id": "general-knowledge-x003",
+      "q": {
+        "en": "Which article of the Constitution provides for the office of the Comptroller and Auditor General?",
+        "as": "সংবিধানৰ কোন অনুচ্ছেদে নিয়ন্ত্ৰক আৰু মহাহিসাব-পৰীক্ষকৰ পদৰ ব্যৱস্থা কৰে?"
+      },
+      "options": [
+        {
+          "en": "Article 324",
+          "as": "অনুচ্ছেদ ৩২৪"
+        },
+        {
+          "en": "Article 76",
+          "as": "অনুচ্ছেদ ৭৬"
+        },
+        {
+          "en": "Article 148",
+          "as": "অনুচ্ছেদ ১৪৮"
+        },
+        {
+          "en": "Article 315",
+          "as": "অনুচ্ছেদ ৩১৫"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Article 148 establishes the Comptroller and Auditor General of India.",
+        "as": "অনুচ্ছেদ ১৪৮ য়ে ভাৰতৰ নিয়ন্ত্ৰক আৰু মহাহিসাব-পৰীক্ষকৰ পদ স্থাপন কৰে।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x010",
+      "q": {
+        "en": "What is the full form of USB?",
+        "as": "USB ৰ পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Universal Serial Bus",
+          "as": "ইউনিভাৰ্ছেল ছিৰিয়েল বাছ"
+        },
+        {
+          "en": "United Serial Bus",
+          "as": "ইউনাইটেড ছিৰিয়েল বাছ"
+        },
+        {
+          "en": "Universal System Bus",
+          "as": "ইউনিভাৰ্ছেল চিষ্টেম বাছ"
+        },
+        {
+          "en": "Universal Serial Base",
+          "as": "ইউনিভাৰ্ছেল ছিৰিয়েল বেছ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "USB stands for Universal Serial Bus.",
+        "as": "USB ৰ অৰ্থ ইউনিভাৰ্ছেল ছিৰিয়েল বাছ।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x014",
+      "q": {
+        "en": "Which of these is an example of system software?",
+        "as": "তলৰ কোনটো চিষ্টেম ছফ্টৱেৰ?"
+      },
+      "options": [
+        {
+          "en": "Photo editor",
+          "as": "ফটো এডিটৰ"
+        },
+        {
+          "en": "Spreadsheet",
+          "as": "স্প্ৰেডশ্বীট"
+        },
+        {
+          "en": "Word processor",
+          "as": "ৱৰ্ড প্ৰচেছৰ"
+        },
+        {
+          "en": "Operating system",
+          "as": "অপাৰেটিং চিষ্টেম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "An operating system is system software.",
+        "as": "অপাৰেটিং চিষ্টেম চিষ্টেম ছফ্টৱেৰ।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x072",
+      "q": {
+        "en": "Which word can be formed from the letters of the word 'EDUCATION'?",
+        "as": "'EDUCATION' শব্দটোৰ আখৰবোৰৰ পৰা কোনটো শব্দ গঠন কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "RAIN",
+          "as": "RAIN"
+        },
+        {
+          "en": "TABLE",
+          "as": "TABLE"
+        },
+        {
+          "en": "ACT",
+          "as": "ACT"
+        },
+        {
+          "en": "SUGAR",
+          "as": "SUGAR"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A, C and T all appear in EDUCATION, while the other options need letters that are absent.",
+        "as": "A, C আৰু T আটাইবোৰ EDUCATION ত আছে, আন বিকল্পত নথকা আখৰ লাগে।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x083",
+      "q": {
+        "en": "What is the difference between the compound interest and simple interest on Rs 8000 for 2 years at 10 per cent per annum?",
+        "as": "৮০০০ টকাৰ ২ বছৰত বছৰি ১০ শতাংশ হাৰত চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য কিমান?"
+      },
+      "options": [
+        {
+          "en": "Rs 100",
+          "as": "১০০ টকা"
+        },
+        {
+          "en": "Rs 120",
+          "as": "১২০ টকা"
+        },
+        {
+          "en": "Rs 80",
+          "as": "৮০ টকা"
+        },
+        {
+          "en": "Rs 60",
+          "as": "৬০ টকা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Difference = 8000 x (10/100)^2 = Rs 80.",
+        "as": "পাৰ্থক্য = ৮০০০ x (১০/১০০)^২ = ৮০ টকা।"
+      }
+    },
+    {
+      "id": "general-knowledge-x160",
+      "q": {
+        "en": "Which of these is the currency of the United Kingdom?",
+        "as": "এইবোৰৰ কোনটো যুক্তৰাজ্যৰ মুদ্ৰা?"
+      },
+      "options": [
+        {
+          "en": "Euro",
+          "as": "ইউৰ'"
+        },
+        {
+          "en": "Franc",
+          "as": "ফ্ৰাঙ্ক"
+        },
+        {
+          "en": "Dollar",
+          "as": "ডলাৰ"
+        },
+        {
+          "en": "Pound sterling",
+          "as": "পাউণ্ড ষ্টাৰ্লিং"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The currency of the United Kingdom is the pound sterling.",
+        "as": "যুক্তৰাজ্যৰ মুদ্ৰা পাউণ্ড ষ্টাৰ্লিং।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x021",
+      "q": {
+        "en": "The average age of 12 students is 15 years. When the teacher's age is included, the average becomes 16 years. What is the teacher's age?",
+        "as": "১২ জন ছাত্ৰৰ গড় বয়স ১৫ বছৰ। শিক্ষকৰ বয়স ধৰিলে গড় ১৬ বছৰ হয়। শিক্ষকৰ বয়স কিমান?"
+      },
+      "options": [
+        {
+          "en": "32 years",
+          "as": "৩২ বছৰ"
+        },
+        {
+          "en": "28 years",
+          "as": "২৮ বছৰ"
+        },
+        {
+          "en": "30 years",
+          "as": "৩০ বছৰ"
+        },
+        {
+          "en": "27 years",
+          "as": "২৭ বছৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "New sum = 13 x 16 = 208, old sum = 12 x 15 = 180, so the teacher is 28.",
+        "as": "নতুন যোগফল = ১৩ x ১৬ = ২০৮, পুৰণি যোগফল = ১২ x ১৫ = ১৮০, সেয়ে শিক্ষক ২৮ বছৰ।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x032",
+      "q": {
+        "en": "If DELHI is coded as CDKGH, how is MUMBAI coded?",
+        "as": "DELHI ক CDKGH সংকেত কৰিলে MUMBAI কেনেকৈ হব?"
+      },
+      "options": [
+        {
+          "en": "LTMAZH",
+          "as": "LTMAZH"
+        },
+        {
+          "en": "LTLAZG",
+          "as": "LTLAZG"
+        },
+        {
+          "en": "LSLAZH",
+          "as": "LSLAZH"
+        },
+        {
+          "en": "LTLAZH",
+          "as": "LTLAZH"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Each letter is shifted one place backward.",
+        "as": "প্ৰতিটো আখৰ এঘৰ পিছলৈ যায়।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x066",
+      "q": {
+        "en": "What is the volume of a cube of side 5 cm?",
+        "as": "৫ ছেমি বাহুৰ এটা ঘনকৰ আয়তন কিমান?"
+      },
+      "options": [
+        {
+          "en": "100 cubic cm",
+          "as": "১০০ ঘন ছেমি"
+        },
+        {
+          "en": "125 cubic cm",
+          "as": "১২৫ ঘন ছেমি"
+        },
+        {
+          "en": "25 cubic cm",
+          "as": "২৫ ঘন ছেমি"
+        },
+        {
+          "en": "150 cubic cm",
+          "as": "১৫০ ঘন ছেমি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Volume = 5^3 = 125 cubic cm.",
+        "as": "আয়তন = ৫^৩ = ১২৫ ঘন ছেমি।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x039",
+      "q": {
+        "en": "If A + B means A is the mother of B, and A - B means A is the sister of B, what does P + Q - R mean?",
+        "as": "A + B মানে A, B ৰ মাতৃ, আৰু A - B মানে A, B ৰ ভনী হ'লে P + Q - R ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "P is the mother of R",
+          "as": "P, R ৰ মাতৃ"
+        },
+        {
+          "en": "P is the sister of R",
+          "as": "P, R ৰ ভনী"
+        },
+        {
+          "en": "P is the aunt of R",
+          "as": "P, R ৰ পেহী"
+        },
+        {
+          "en": "P is the grandmother of R",
+          "as": "P, R ৰ আইতা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "P is Q's mother and Q is R's sister, so P is R's mother too.",
+        "as": "P, Q ৰ মাতৃ আৰু Q, R ৰ ভনী, সেয়ে Pও R ৰ মাতৃ।"
+      }
+    },
+    {
+      "id": "general-knowledge-x077",
+      "q": {
+        "en": "Which tax was replaced by the Goods and Services Tax in India?",
+        "as": "ভাৰতত কোন কৰক সামগ্ৰী আৰু সেৱা কৰে প্ৰতিস্থাপন কৰিছে?"
+      },
+      "options": [
+        {
+          "en": "Property tax",
+          "as": "সম্পত্তি কৰ"
+        },
+        {
+          "en": "Corporate tax",
+          "as": "কৰ্পৰেট কৰ"
+        },
+        {
+          "en": "Indirect taxes such as excise and service tax",
+          "as": "উৎপাদন শুল্ক আৰু সেৱা কৰৰ দৰে পৰোক্ষ কৰ"
+        },
+        {
+          "en": "Income tax",
+          "as": "আয় কৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "GST subsumed many indirect taxes like excise duty and service tax.",
+        "as": "জিএছটিয়ে উৎপাদন শুল্ক আৰু সেৱা কৰৰ দৰে বহু পৰোক্ষ কৰ অন্তৰ্ভুক্ত কৰিছে।"
+      }
+    },
+    {
+      "id": "general-english-x097",
+      "q": {
+        "en": "Fill in the blank: The teacher made him ____ the poem.",
+        "as": "খালী ঠাই পূৰণ কৰক: The teacher made him ____ the poem."
+      },
+      "options": [
+        {
+          "en": "reciting",
+          "as": "আবৃত্তি কৰি"
+        },
+        {
+          "en": "to recite",
+          "as": "আবৃত্তি কৰিবলৈ"
+        },
+        {
+          "en": "recite",
+          "as": "আবৃত্তি কৰা"
+        },
+        {
+          "en": "recited",
+          "as": "আবৃত্তি কৰিছিল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "After 'make', the bare infinitive is used.",
+        "as": "'make' ৰ পিছত নগ্ন অনিৰ্দিষ্ট ক্ৰিয়া ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x056",
+      "q": {
+        "en": "Some doctors are women. All women are mothers. Which conclusion follows?",
+        "as": "কিছুমান ডাক্তৰ মহিলা। আটাইবোৰ মহিলা মাতৃ। কোন সিদ্ধান্ত ওলায়?"
+      },
+      "options": [
+        {
+          "en": "No doctor is a mother",
+          "as": "কোনো ডাক্তৰ মাতৃ নহয়"
+        },
+        {
+          "en": "All mothers are doctors",
+          "as": "আটাইবোৰ মাতৃ ডাক্তৰ"
+        },
+        {
+          "en": "Some doctors are mothers",
+          "as": "কিছুমান ডাক্তৰ মাতৃ"
+        },
+        {
+          "en": "All doctors are mothers",
+          "as": "আটাইবোৰ ডাক্তৰ মাতৃ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The women who are doctors are also mothers, so some doctors are mothers.",
+        "as": "যিবোৰ মহিলা ডাক্তৰ তেওঁলোক মাতৃও, সেয়ে কিছুমান ডাক্তৰ মাতৃ।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x089",
+      "q": {
+        "en": "If the simple interest on a sum for 5 years at 6 per cent is Rs 900, what is the sum?",
+        "as": "৫ বছৰত ৬ শতাংশ হাৰত এখন ধনৰ সৰল সুত ৯০০ টকা হ'লে ধনখন কিমান?"
+      },
+      "options": [
+        {
+          "en": "Rs 3000",
+          "as": "৩০০০ টকা"
+        },
+        {
+          "en": "Rs 2000",
+          "as": "২০০০ টকা"
+        },
+        {
+          "en": "Rs 3500",
+          "as": "৩৫০০ টকা"
+        },
+        {
+          "en": "Rs 2500",
+          "as": "২৫০০ টকা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Principal = 900 x 100/(6 x 5) = Rs 3000.",
+        "as": "মূলধন = ৯০০ x ১০০/(৬ x ৫) = ৩০০০ টকা।"
+      }
+    },
+    {
+      "id": "general-knowledge-x075",
+      "q": {
+        "en": "In which year was the Reserve Bank of India established?",
+        "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক কোন বছৰত স্থাপিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1947",
+          "as": "১৯৪৭"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        },
+        {
+          "en": "1949",
+          "as": "১৯৪৯"
+        },
+        {
+          "en": "1935",
+          "as": "১৯৩৫"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Reserve Bank of India was established in 1935.",
+        "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক ১৯৩৫ চনত স্থাপিত হৈছিল।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x041",
+      "q": {
+        "en": "Introducing a man, a woman said, 'His wife is the only daughter of my mother.' How is the woman related to the man?",
+        "as": "এজন মানুহৰ পৰিচয় দি এগৰাকী মহিলাই ক'লে, 'তেওঁৰ পত্নী মোৰ মাকৰ একমাত্ৰ জীয়েক।' মহিলাগৰাকী মানুহজনৰ লগত কেনে সম্পৰ্কীয়?"
+      },
+      "options": [
+        {
+          "en": "Mother-in-law",
+          "as": "শাহু"
+        },
+        {
+          "en": "Aunt",
+          "as": "পেহী"
+        },
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "en": "Mother",
+          "as": "মাতৃ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The man's wife is the woman's sister, so the woman is his mother-in-law.",
+        "as": "মানুহজনৰ পত্নী মহিলাগৰাকীৰ ভনী, সেয়ে মহিলাগৰাকী তেওঁৰ শাহু।"
+      }
+    },
+    {
+      "id": "general-knowledge-x069",
+      "q": {
+        "en": "Which body decides the repo rate in India?",
+        "as": "ভাৰতত ৰেপো হাৰ কোনে নিৰ্ধাৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Ministry of Finance",
+          "as": "বিত্ত মন্ত্ৰালয়"
+        },
+        {
+          "en": "Reserve Bank of India",
+          "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+        },
+        {
+          "en": "SEBI",
+          "as": "চেবি"
+        },
+        {
+          "en": "NITI Aayog",
+          "as": "নীতি আয়োগ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Monetary Policy Committee of the RBI decides the repo rate.",
+        "as": "ৰিজাৰ্ভ বেংকৰ মুদ্ৰা নীতি সমিতিয়ে ৰেপো হাৰ নিৰ্ধাৰণ কৰে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x068",
+      "q": {
+        "en": "In which city is the United Nations headquartered?",
+        "as": "ৰাষ্ট্ৰসংঘৰ মুখ্য কাৰ্যালয় কোন চহৰত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "New York",
+          "as": "নিউয়ৰ্ক"
+        },
+        {
+          "en": "Vienna",
+          "as": "ভিয়েনা"
+        },
+        {
+          "en": "Paris",
+          "as": "পেৰিছ"
+        },
+        {
+          "en": "Geneva",
+          "as": "জেনেভা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The United Nations headquarters is in New York.",
+        "as": "ৰাষ্ট্ৰসংঘৰ মুখ্য কাৰ্যালয় নিউয়ৰ্কত অৱস্থিত।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x094",
+      "q": {
+        "en": "P, Q, R, S sit around a table in that order. Who sits opposite P?",
+        "as": "P, Q, R, S তেওঁলোকৰ ক্ৰমত এখন মেজৰ চাৰিওফালে বহে। P ৰ বিপৰীতে কোন বহে?"
+      },
+      "options": [
+        {
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In a four-person circular arrangement, the person two places away sits opposite, so R.",
+        "as": "চাৰিজনীয়া বৃত্তীয় বিন্যাসত দুটা স্থান আঁতৰৰ জনে বিপৰীতে বহে, সেয়ে R।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x018",
+      "q": {
+        "en": "Which of these is a command-line operating system interface?",
+        "as": "এইবোৰৰ কোনটো কামাণ্ড-লাইন অপাৰেটিং চিষ্টেম ইণ্টাৰফেচ?"
+      },
+      "options": [
+        {
+          "en": "Windows 11",
+          "as": "ৱিণ্ড'জ ১১"
+        },
+        {
+          "en": "MS-DOS",
+          "as": "এম.এছ.-ডছ"
+        },
+        {
+          "en": "macOS Finder",
+          "as": "মেকঅ'এছ ফাইণ্ডাৰ"
+        },
+        {
+          "en": "Ubuntu Desktop",
+          "as": "উবুন্টু ডেস্কটপ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "MS-DOS is a command-line interface.",
+        "as": "এম.এছ.-ডছ এটা কামাণ্ড-লাইন ইণ্টাৰফেচ।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x051",
+      "q": {
+        "en": "What is the greatest number that divides 36 and 60 exactly?",
+        "as": "৩৬ আৰু ৬০ ক নিখুঁতভাৱে বিভাজন কৰা আটাইতকৈ ডাঙৰ সংখ্যা কোনটো?"
+      },
+      "options": [
+        {
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The HCF of 36 and 60 is 12.",
+        "as": "৩৬ আৰু ৬০ ৰ গ.সা.গু. ১২।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x066",
+      "q": {
+        "en": "In a row of 20 students, Rina is 7th from the left. What is her position from the right?",
+        "as": "২০ জন ছাত্ৰৰ শাৰীত ৰিনা বাওঁফালৰ পৰা ৭ম। সোঁফালৰ পৰা তাইৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "14th",
+          "as": "১৪তম"
+        },
+        {
+          "en": "12th",
+          "as": "১২তম"
+        },
+        {
+          "en": "15th",
+          "as": "১৫তম"
+        },
+        {
+          "en": "13th",
+          "as": "১৩তম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Position from the right = 20 - 7 + 1 = 14.",
+        "as": "সোঁফালৰ পৰা স্থান = ২০ - ৭ + ১ = ১৪।"
+      }
+    },
+    {
+      "id": "elementary-mathematics-x028",
+      "q": {
+        "en": "Find the average of all even numbers between 1 and 21.",
+        "as": "১ আৰু ২১ ৰ মাজৰ আটাইবোৰ যুগ্ম সংখ্যাৰ গড় নিৰ্ণয় কৰক।"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "13",
+          "as": "১৩"
+        },
+        {
+          "en": "11",
+          "as": "১১"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The even numbers 2 to 20 have an average of 11.",
+        "as": "২ ৰ পৰা ২০ লৈকে যুগ্ম সংখ্যাৰ গড় ১১।"
+      }
+    },
+    {
+      "id": "general-english-x059",
+      "q": {
+        "en": "Fill in the blank: Hardly had he arrived ____ the meeting began.",
+        "as": "খালী ঠাই পূৰণ কৰক: Hardly had he arrived ____ the meeting began."
+      },
+      "options": [
+        {
+          "en": "than",
+          "as": "than"
+        },
+        {
+          "en": "when",
+          "as": "when"
+        },
+        {
+          "en": "then",
+          "as": "then"
+        },
+        {
+          "en": "that",
+          "as": "that"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Hardly ... when' is the correct pair.",
+        "as": "'hardly ... when' শুদ্ধ যোৰ।"
+      }
+    },
+    {
+      "id": "computer-knowledge-x033",
+      "q": {
+        "en": "Which software is a database management system?",
+        "as": "কোন ছফ্টৱেৰ এটা ডাটাবেছ মেনেজমেণ্ট চিষ্টেম?"
+      },
+      "options": [
+        {
+          "en": "MS Excel",
+          "as": "এম.এছ. এক্সেল"
+        },
+        {
+          "en": "MS Access",
+          "as": "এম.এছ. এক্সেছ"
+        },
+        {
+          "en": "MS Word",
+          "as": "এম.এছ. ৱৰ্ড"
+        },
+        {
+          "en": "MS Paint",
+          "as": "এম.এছ. পেইণ্ট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "MS Access is a database management system.",
+        "as": "এম.এছ. এক্সেছ এটা ডাটাবেছ মেনেজমেণ্ট চিষ্টেম।"
+      }
+    },
+    {
+      "id": "general-english-x009",
+      "q": {
+        "en": "Pick the synonym of 'valiant'.",
+        "as": "'valiant' ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Calm",
+          "as": "শান্ত"
+        },
+        {
+          "en": "Timid",
+          "as": "ভয়াতুৰ"
+        },
+        {
+          "en": "Weak",
+          "as": "দুৰ্বল"
+        },
+        {
+          "en": "Brave",
+          "as": "সাহসী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Valiant' means showing courage, that is brave.",
+        "as": "'Valiant' ৰ অৰ্থ সাহস দেখুওৱা, অৰ্থাৎ brave।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x067",
+      "q": {
+        "en": "If 5 books cost Rs 250, what do 8 books cost?",
+        "as": "৫ টা কিতাপৰ মূল্য ২৫০ টকা হ'লে ৮ টা কিতাপৰ মূল্য কিমান?"
+      },
+      "options": [
+        {
+          "en": "Rs 420",
+          "as": "৪২০ টকা"
+        },
+        {
+          "en": "Rs 380",
+          "as": "৩৮০ টকা"
+        },
+        {
+          "en": "Rs 400",
+          "as": "৪০০ টকা"
+        },
+        {
+          "en": "Rs 360",
+          "as": "৩৬০ টকা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each book is Rs 50, so 8 cost Rs 400.",
+        "as": "প্ৰতিখন কিতাপ ৫০ টকা, সেয়ে ৮ খনৰ মূল্য ৪০০ টকা।"
+      }
+    }
+  ]
+}

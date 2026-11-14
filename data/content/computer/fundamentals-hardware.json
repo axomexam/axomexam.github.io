@@ -1,0 +1,2297 @@
+{
+  "id": 1,
+  "title": {
+    "en": "Computer Fundamentals & Hardware",
+    "as": "কম্পিউটাৰ মৌলিক জ্ঞান আৰু হাৰ্ডৱেৰ"
+  },
+  "description": {
+    "en": "Questions on computer basics, generations, CPU, memory, input/output devices and storage for Assam competitive exams.",
+    "as": "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে কম্পিউটাৰ মৌলিক জ্ঞান, প্ৰজন্ম, CPU, মেমৰি, ইনপুট/আউটপুট ডিভাইচ আৰু ষ্ট'ৰেজ সম্পৰ্কীয় প্ৰশ্ন।"
+  },
+  "tags": [
+    "computer-fundamentals",
+    "hardware",
+    "assam",
+    "apsc",
+    "computer"
+  ],
+  "questions": [
+    {
+      "q": {
+        "en": "Who is called the 'Father of the Computer'?",
+        "as": "'কম্পিউটাৰৰ পিতৃ' বুলি কাক কোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Charles Babbage",
+          "as": "Charles Babbage"
+        },
+        {
+          "en": "Alan Turing",
+          "as": "Alan Turing"
+        },
+        {
+          "en": "John von Neumann",
+          "as": "John von Neumann"
+        },
+        {
+          "en": "Bill Gates",
+          "as": "Bill Gates"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Charles Babbage designed the Analytical Engine and is called the Father of the Computer.",
+        "as": "Charles Babbage য়ে Analytical Engine ৰ নক্সা প্ৰস্তুত কৰিছিল আৰু তেওঁক কম্পিউটাৰৰ পিতৃ বোলা হয়।"
+      },
+      "explanation": {
+        "en": "Charles Babbage designed the Difference Engine and the Analytical Engine, the first designs having the basic parts of a modern computer, so he is called the Father of the Computer.",
+        "as": "Charles Babbage য়ে Difference Engine আৰু Analytical Engine বনাইছিল, যি আধুনিক কম্পিউটাৰৰ মৌলিক অংশ থকা প্ৰথম আৰ্হি, সেয়ে তেওঁক কম্পিউটাৰৰ পিতা বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which was the first fully electronic general-purpose computer?",
+        "as": "প্ৰথম সম্পূৰ্ণ ইলেকট্রনিক সাধাৰণ উদ্দেশ্যৰ কম্পিউটাৰ কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "ENIAC",
+          "as": "ENIAC"
+        },
+        {
+          "en": "UNIVAC",
+          "as": "UNIVAC"
+        },
+        {
+          "en": "IBM PC",
+          "as": "IBM PC"
+        },
+        {
+          "en": "Altair 8800",
+          "as": "Altair 8800"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "ENIAC (1946) is considered the first fully electronic general-purpose computer.",
+        "as": "ENIAC (1946) কে প্ৰথম সম্পূৰ্ণ ইলেকট্রনিক সাধাৰণ উদ্দেশ্যৰ কম্পিউটাৰ বুলি গণ্য কৰা হয়।"
+      },
+      "explanation": {
+        "en": "ENIAC (Electronic Numerical Integrator And Computer), completed in 1946, is regarded as the first fully electronic general-purpose computer. UNIVAC came later.",
+        "as": "ENIAC (Electronic Numerical Integrator And Computer), ১৯৪৬ চনত সম্পূৰ্ণ হোৱা, প্ৰথম সম্পূৰ্ণ ইলেক্ট্ৰনিক general-purpose কম্পিউটাৰ হিচাপে গণ্য কৰা হয়। UNIVAC ইয়াৰ পিছত আহিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which electronic component was used in the first generation of computers?",
+        "as": "প্ৰথম প্ৰজন্মৰ কম্পিউটাৰত কোনটো ইলেকট্রনিক উপাদান ব্যৱহাৰ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Vacuum tubes",
+          "as": "Vacuum tubes"
+        },
+        {
+          "en": "Transistors",
+          "as": "Transistors"
+        },
+        {
+          "en": "Integrated circuits",
+          "as": "Integrated circuits"
+        },
+        {
+          "en": "Microprocessors",
+          "as": "Microprocessors"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "First generation computers (1940s-50s) used vacuum tubes.",
+        "as": "প্ৰথম প্ৰজন্মৰ কম্পিউটাৰত (1940-50) vacuum tube ব্যৱহাৰ হৈছিল।"
+      },
+      "explanation": {
+        "en": "First generation computers (roughly 1940-1956) used vacuum tubes, which were large, produced much heat and consumed a lot of power.",
+        "as": "প্ৰথম প্ৰজন্মৰ কম্পিউটাৰে (প্ৰায় ১৯৪০-১৯৫৬) vacuum tube ব্যৱহাৰ কৰিছিল, যিবোৰ ডাঙৰ আছিল, অধিক তাপ উৎপন্ন কৰিছিল আৰু বহু বিদ্যুৎ খৰচ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which component is used in the third generation of computers?",
+        "as": "তৃতীয় প্ৰজন্মৰ কম্পিউটাৰত কোনটো উপাদান ব্যৱহাৰ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Integrated circuits (ICs)",
+          "as": "Integrated circuits (ICs)"
+        },
+        {
+          "en": "Vacuum tubes",
+          "as": "Vacuum tubes"
+        },
+        {
+          "en": "Transistors",
+          "as": "Transistors"
+        },
+        {
+          "en": "Artificial intelligence chips",
+          "as": "Artificial intelligence chips"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Third generation computers used Integrated Circuits (ICs).",
+        "as": "তৃতীয় প্ৰজন্মৰ কম্পিউটাৰত Integrated Circuit (IC) ব্যৱহাৰ হৈছিল।"
+      },
+      "explanation": {
+        "en": "Third generation computers (1960s) used Integrated Circuits (ICs), in which many transistors are placed on a single silicon chip, making computers smaller and more reliable.",
+        "as": "তৃতীয় প্ৰজন্মৰ কম্পিউটাৰে (১৯৬০ দশক) Integrated Circuit (IC) ব্যৱহাৰ কৰিছিল, য'ত বহু transistor এটা silicon chip ত ৰখা হয়, ফলত কম্পিউটাৰ সৰু আৰু বেছি নিৰ্ভৰযোগ্য হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A computer that processes both analog and digital data is called a ___ computer.",
+        "as": "এনেলগ আৰু ডিজিটাল দুয়ো ধৰণৰ তথ্য প্ৰক্ৰিয়া কৰা কম্পিউটাৰক ___ কম্পিউটাৰ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Hybrid",
+          "as": "Hybrid"
+        },
+        {
+          "en": "Analog",
+          "as": "Analog"
+        },
+        {
+          "en": "Digital",
+          "as": "Digital"
+        },
+        {
+          "en": "Super",
+          "as": "Super"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Hybrid computers handle both analog and digital data, e.g., in hospitals.",
+        "as": "Hybrid কম্পিউটাৰে এনেলগ আৰু ডিজিটাল দুয়ো তথ্য সামলে, যেনে হাস্পতালত।"
+      },
+      "explanation": {
+        "en": "A hybrid computer combines the features of both analog and digital computers, for example the machines used to monitor patients in hospitals.",
+        "as": "Hybrid কম্পিউটাৰে analog আৰু digital দুয়োটাৰে বৈশিষ্ট্য একত্ৰিত কৰে, যেনে চিকিৎসালয়ত ৰোগী নিৰীক্ষণ কৰা যন্ত্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which type of computer is the fastest and most expensive?",
+        "as": "কোনটো কম্পিউটাৰ আটাইতকৈ বেগী আৰু ব্যয়বহুল?"
+      },
+      "options": [
+        {
+          "en": "Supercomputer",
+          "as": "Supercomputer"
+        },
+        {
+          "en": "Mainframe computer",
+          "as": "Mainframe computer"
+        },
+        {
+          "en": "Microcomputer",
+          "as": "Microcomputer"
+        },
+        {
+          "en": "Mini computer",
+          "as": "Mini computer"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Supercomputers are the fastest, most powerful and most expensive computers.",
+        "as": "Supercomputer আটাইতকৈ বেগী, শক্তিশালী আৰু ব্যয়বহুল কম্পিউটাৰ।"
+      },
+      "explanation": {
+        "en": "Supercomputers are the fastest and most powerful computers, used for weather forecasting, scientific simulation and space research; they are also the most expensive.",
+        "as": "Supercomputer হৈছে আটাইতকৈ দ্ৰুত আৰু শক্তিশালী কম্পিউটাৰ, বতৰৰ আগতীয়া জাননী, বৈজ্ঞানিক simulation আৰু মহাকাশ গৱেষণাত ব্যৱহৃত; ইহঁত আটাইতকৈ ব্যয়বহুল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of CPU is:",
+        "as": "CPU ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Central Processing Unit",
+          "as": "Central Processing Unit"
+        },
+        {
+          "en": "Computer Personal Unit",
+          "as": "Computer Personal Unit"
+        },
+        {
+          "en": "Central Program Unit",
+          "as": "Central Program Unit"
+        },
+        {
+          "en": "Control Processing Unit",
+          "as": "Control Processing Unit"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "CPU stands for Central Processing Unit, the brain of the computer.",
+        "as": "CPU মানে Central Processing Unit, কম্পিউটাৰৰ মগজু।"
+      },
+      "explanation": {
+        "en": "CPU stands for Central Processing Unit. It is called the brain of the computer and executes all instructions.",
+        "as": "CPU ৰ অৰ্থ Central Processing Unit। ইয়াক কম্পিউটাৰৰ মগজু বোলে আৰু ই সকলো instruction কাৰ্যকৰী কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which part of the CPU performs calculations and logical operations?",
+        "as": "CPU ৰ কোন অংশই গণনা আৰু যুক্তিগত কাৰ্য কৰে?"
+      },
+      "options": [
+        {
+          "en": "ALU",
+          "as": "ALU"
+        },
+        {
+          "en": "CU",
+          "as": "CU"
+        },
+        {
+          "en": "Registers",
+          "as": "Registers"
+        },
+        {
+          "en": "Cache",
+          "as": "Cache"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Arithmetic and Logic Unit (ALU) performs all calculations and logical comparisons.",
+        "as": "Arithmetic and Logic Unit (ALU) য়ে সকলো গণনা আৰু যুক্তিগত তুলনা কৰে।"
+      },
+      "explanation": {
+        "en": "The Arithmetic and Logic Unit (ALU), a part of the CPU, carries out arithmetic operations (+, -, x, /) and logical comparisons (>, <, =).",
+        "as": "CPU ৰ এটা অংশ Arithmetic and Logic Unit (ALU) য়ে গাণিতিক ক্ৰিয়া (+, -, x, /) আৰু যুক্তিগত তুলনা (>, <, =) সম্পন্ন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which unit of the CPU directs and coordinates the operations of the computer?",
+        "as": "CPU ৰ কোনটো এককে কম্পিউটাৰৰ কাৰ্য পৰিচালনা আৰু সমন্বয় কৰে?"
+      },
+      "options": [
+        {
+          "en": "Control Unit",
+          "as": "Control Unit"
+        },
+        {
+          "en": "Arithmetic Unit",
+          "as": "Arithmetic Unit"
+        },
+        {
+          "en": "Memory Unit",
+          "as": "Memory Unit"
+        },
+        {
+          "en": "Input Unit",
+          "as": "Input Unit"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Control Unit (CU) directs and coordinates all operations of the computer.",
+        "as": "Control Unit (CU) য়ে কম্পিউটাৰৰ সকলো কাৰ্য পৰিচালনা আৰু সমন্বয় কৰে।"
+      },
+      "explanation": {
+        "en": "The Control Unit (CU) fetches instructions, decodes them and directs the other units to carry them out, coordinating the whole computer.",
+        "as": "Control Unit (CU) য়ে instruction আনয়ন আৰু decode কৰি আন অংশক ইয়াৰ কাৰ্যকৰী কৰিবলৈ নিৰ্দেশ দিয়ে, গোটেই কম্পিউটাৰ সমন্বয় কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an input device?",
+        "as": "তলৰ কোনটো এটা ইনপুট ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "Keyboard",
+          "as": "Keyboard"
+        },
+        {
+          "en": "Monitor",
+          "as": "Monitor"
+        },
+        {
+          "en": "Printer",
+          "as": "Printer"
+        },
+        {
+          "en": "Speaker",
+          "as": "Speaker"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A keyboard sends data into the computer, so it is an input device.",
+        "as": "কীবোর্ডে তথ্য কম্পিউটাৰলৈ পঠায়, গতিকে ই ইনপুট ডিভাইচ।"
+      },
+      "explanation": {
+        "en": "A keyboard is an input device because it sends typed data and commands into the computer. Monitor, printer and speaker are output devices.",
+        "as": "Keyboard এটা input device কাৰণ ই টাইপ কৰা তথ্য আৰু আদেশ কম্পিউটাৰলৈ পঠিয়ায়। Monitor, printer আৰু speaker output device।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an output device?",
+        "as": "তলৰ কোনটো এটা আউটপুট ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "Monitor",
+          "as": "Monitor"
+        },
+        {
+          "en": "Scanner",
+          "as": "Scanner"
+        },
+        {
+          "en": "Mouse",
+          "as": "Mouse"
+        },
+        {
+          "en": "Joystick",
+          "as": "Joystick"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A monitor displays the output of the computer to the user.",
+        "as": "মনিটৰে কম্পিউটাৰৰ আউটপুট ব্যৱহাৰকাৰীক দেখুৱায়।"
+      },
+      "explanation": {
+        "en": "A monitor displays processed results, so it is an output device. Scanner, mouse and joystick are input devices.",
+        "as": "Monitor য়ে প্ৰক্ৰিয়াকৃত ফলাফল দেখুৱায়, সেয়ে ই output device। Scanner, mouse আৰু joystick input device।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device is used to read characters printed in magnetic ink on bank cheques?",
+        "as": "বেংক চেকত মেগনেটিক ইনকত ছপা আখৰ পঢ়িবলৈ কোন ডিভাইচ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "MICR",
+          "as": "MICR"
+        },
+        {
+          "en": "OCR",
+          "as": "OCR"
+        },
+        {
+          "en": "OMR",
+          "as": "OMR"
+        },
+        {
+          "en": "Barcode reader",
+          "as": "Barcode reader"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MICR (Magnetic Ink Character Recognition) reads characters printed in magnetic ink, used in banks.",
+        "as": "MICR (Magnetic Ink Character Recognition) য়ে মেগনেটিক ইনকৰ আখৰ পঢ়ে, বেংকত ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "MICR (Magnetic Ink Character Recognition) reads characters printed with magnetic ink, and is used to process bank cheques quickly and securely.",
+        "as": "MICR (Magnetic Ink Character Recognition) য়ে চুম্বকীয় চিয়াহীৰে ছপা আখৰ পঢ়ে, আৰু বেংকৰ চেক দ্ৰুত আৰু সুৰক্ষিতভাৱে প্ৰক্ৰিয়া কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "OMR is used to check ___",
+        "as": "OMR ___ পৰীক্ষা কৰিবলৈ ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Objective answer sheets",
+          "as": "Objective উত্তৰপত্ৰ"
+        },
+        {
+          "en": "Cheque signatures",
+          "as": "চেকৰ ছহী"
+        },
+        {
+          "en": "Bar codes",
+          "as": "Bar code"
+        },
+        {
+          "en": "Magnetic tapes",
+          "as": "Magnetic tape"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "OMR (Optical Mark Reader) reads pencil marks on objective answer sheets.",
+        "as": "OMR (Optical Mark Reader) য়ে objective উত্তৰপত্ৰৰ পেঞ্চিল দাগ পঢ়ে।"
+      },
+      "explanation": {
+        "en": "OMR (Optical Mark Recognition) detects pencil or pen marks made in specific positions, so it is used to evaluate objective (MCQ) answer sheets.",
+        "as": "OMR (Optical Mark Recognition) য়ে নিৰ্দিষ্ট স্থানত পেঞ্চিল বা কলমেৰে দিয়া চিন চিনাক্ত কৰে, সেয়ে objective (MCQ) উত্তৰ পত্ৰ মূল্যায়নত ব্যৱহৃত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device converts printed text into editable digital text using light?",
+        "as": "কোন ডিভাইচে পোহৰ ব্যৱহাৰ কৰি ছপা পাঠক সম্পাদনাযোগ্য ডিজিটেল পাঠলৈ ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "OCR",
+          "as": "OCR"
+        },
+        {
+          "en": "OMR",
+          "as": "OMR"
+        },
+        {
+          "en": "MICR",
+          "as": "MICR"
+        },
+        {
+          "en": "Light pen",
+          "as": "Light pen"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "OCR (Optical Character Recognition) converts printed or handwritten text into editable digital text.",
+        "as": "OCR (Optical Character Recognition) য়ে ছপা বা হাতে লিখা পাঠক সম্পাদনাযোগ্য ডিজিটেল পাঠলৈ ৰূপান্তৰ কৰে।"
+      },
+      "explanation": {
+        "en": "OCR (Optical Character Recognition) uses light to scan printed or handwritten text and converts it into editable digital text that a computer can process.",
+        "as": "OCR (Optical Character Recognition) য়ে পোহৰ ব্যৱহাৰ কৰি ছপা বা হাতে লিখা text স্কেন কৰি সম্পাদনযোগ্য ডিজিটেল text লৈ ৰূপান্তৰ কৰে, যি কম্পিউটাৰে প্ৰক্ৰিয়া কৰিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which pointing device is commonly used in laptop computers in place of a mouse?",
+        "as": "লেপটপত মাউছৰ ঠাইত সাধাৰণতে কোনটো পয়েন্টিং ডিভাইচ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Touchpad",
+          "as": "Touchpad"
+        },
+        {
+          "en": "Joystick",
+          "as": "Joystick"
+        },
+        {
+          "en": "Light pen",
+          "as": "Light pen"
+        },
+        {
+          "en": "Digitizer",
+          "as": "Digitizer"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A touchpad is a built-in pointing device on laptops, used in place of a mouse.",
+        "as": "Touchpad হৈছে লেপটপত থকা পয়েন্টিং ডিভাইচ, মাউছৰ ঠাইত ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "A touchpad is a flat, built-in pointing device found below the keyboard of laptops; moving a finger on it moves the cursor in place of a mouse.",
+        "as": "Touchpad হৈছে laptop ৰ keyboard ৰ তলত থকা সমতল, অন্তৰ্নিৰ্মিত pointing device; ইয়াত আঙুলি ঘঁহিলে mouse ৰ ঠাইত cursor লৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A trackball is a ___ device.",
+        "as": "Trackball এটা ___ ডিভাইচ।"
+      },
+      "options": [
+        {
+          "en": "Pointing",
+          "as": "Pointing"
+        },
+        {
+          "en": "Printing",
+          "as": "Printing"
+        },
+        {
+          "en": "Scanning",
+          "as": "Scanning"
+        },
+        {
+          "en": "Storage",
+          "as": "Storage"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A trackball is a pointing device like an upside-down mouse.",
+        "as": "Trackball হৈছে ওলোটাই থোৱা মাউছৰ দৰে পয়েন্টিং ডিভাইচ।"
+      },
+      "explanation": {
+        "en": "A trackball is a pointing device that works like an upside-down mouse, where the ball is moved by hand while the device stays fixed.",
+        "as": "Trackball এটা pointing device, যি ওলোটা mouse ৰ দৰে কাম কৰে, য'ত যন্ত্ৰ স্থিৰ থাকি হাতেৰে বলটো ঘূৰাই cursor লৰোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which input device is used to play games by controlling movement?",
+        "as": "খেলত গতিবিধি নিয়ন্ত্ৰণ কৰিবলৈ কোন ইনপুট ডিভাইচ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Joystick",
+          "as": "Joystick"
+        },
+        {
+          "en": "Scanner",
+          "as": "Scanner"
+        },
+        {
+          "en": "Digitizer",
+          "as": "Digitizer"
+        },
+        {
+          "en": "Plotter",
+          "as": "Plotter"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A joystick is an input device mainly used for gaming control.",
+        "as": "Joystick হৈছে খেল নিয়ন্ত্ৰণৰ বাবে ব্যৱহৃত ইনপুট ডিভাইচ।"
+      },
+      "explanation": {
+        "en": "A joystick is an input device with a movable lever, mainly used to control movement and actions in computer games.",
+        "as": "Joystick হৈছে গতি কৰিব পৰা লিভাৰ থকা এটা input device, মূলতঃ কম্পিউটাৰ খেলত গতি আৰু কাৰ্য নিয়ন্ত্ৰণত ব্যৱহৃত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is the 'brain' of the computer?",
+        "as": "এইবোৰৰ ভিতৰত কোনটো কম্পিউটাৰৰ 'মগজু'?"
+      },
+      "options": [
+        {
+          "en": "CPU",
+          "as": "CPU"
+        },
+        {
+          "en": "Hard disk",
+          "as": "Hard disk"
+        },
+        {
+          "en": "Monitor",
+          "as": "Monitor"
+        },
+        {
+          "en": "UPS",
+          "as": "UPS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The CPU is called the brain of the computer because it controls all operations.",
+        "as": "CPU ক কম্পিউটাৰৰ মগজু বোলা হয় কাৰণ ই সকলো কাৰ্য নিয়ন্ত্ৰণ কৰে।"
+      },
+      "explanation": {
+        "en": "The CPU is called the brain of the computer because it processes data and controls every other part, though the actual work is divided between its ALU and CU.",
+        "as": "CPU ক কম্পিউটাৰৰ মগজু বোলা হয় কাৰণ ই তথ্য প্ৰক্ৰিয়া কৰে আৰু অন্য প্ৰতিটো অংশ নিয়ন্ত্ৰণ কৰে, যদিও প্ৰকৃত কাম ইয়াৰ ALU আৰু CU য়ে কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "RAM is also known as ___ memory.",
+        "as": "RAM ক ___ মেম'ৰী বুলিও জনা যায়।"
+      },
+      "options": [
+        {
+          "en": "Volatile",
+          "as": "Volatile"
+        },
+        {
+          "en": "Non-volatile",
+          "as": "Non-volatile"
+        },
+        {
+          "en": "Permanent",
+          "as": "Permanent"
+        },
+        {
+          "en": "Secondary",
+          "as": "Secondary"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "RAM is volatile memory because its data is lost when power is switched off.",
+        "as": "RAM volatile মেম'ৰী কাৰণ বিদ্যুৎ বন্ধ হ'লে ইয়াৰ তথ্য নাইকিয়া হয়।"
+      },
+      "explanation": {
+        "en": "RAM (Random Access Memory) is volatile: whatever is stored in it is lost when the power is switched off, which is why files must be saved to disk.",
+        "as": "RAM (Random Access Memory) volatile: বিদ্যুৎ বন্ধ হ'লে ইয়াত থকা সকলো হেৰায়, সেয়ে ফাইল disk ত save কৰিব লাগে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which memory is non-volatile and stores the computer's permanent instructions (BIOS)?",
+        "as": "কোন মেম'ৰী non-volatile আৰু কম্পিউটাৰৰ স্থায়ী নিৰ্দেশ (BIOS) ৰখে?"
+      },
+      "options": [
+        {
+          "en": "ROM",
+          "as": "ROM"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Cache",
+          "as": "Cache"
+        },
+        {
+          "en": "Register",
+          "as": "Register"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "ROM (Read Only Memory) is non-volatile and holds permanent instructions like the BIOS.",
+        "as": "ROM (Read Only Memory) non-volatile আৰু BIOS ৰ দৰে স্থায়ী নিৰ্দেশ ৰখে।"
+      },
+      "explanation": {
+        "en": "ROM (Read Only Memory) is non-volatile memory that keeps its contents even when power is off. It stores permanent instructions such as the BIOS that start the computer.",
+        "as": "ROM (Read Only Memory) হৈছে non-volatile memory, বিদ্যুৎ বন্ধ হ'লেও ইয়াৰ content থাকে। ই BIOS ৰ দৰে স্থায়ী instruction সংৰক্ষণ কৰে, যিয়ে কম্পিউটাৰ আৰম্ভ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these can be erased and reprogrammed with UV light?",
+        "as": "কোনটো UV পোহৰেৰে মচি পুনৰ লিখিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "EPROM",
+          "as": "EPROM"
+        },
+        {
+          "en": "PROM",
+          "as": "PROM"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        },
+        {
+          "en": "DRAM",
+          "as": "DRAM"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "EPROM (Erasable Programmable ROM) can be erased with ultraviolet light.",
+        "as": "EPROM (Erasable Programmable ROM) ultraviolet পোহৰেৰে মচিব পাৰি।"
+      },
+      "explanation": {
+        "en": "EPROM (Erasable Programmable ROM) can be erased by exposing the chip to ultraviolet (UV) light through a quartz window and then reprogrammed.",
+        "as": "EPROM (Erasable Programmable ROM) ক quartz window ৰ জৰিয়তে ultraviolet (UV) পোহৰ দি মচি পুনৰ program কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which type of memory is the fastest in a computer?",
+        "as": "কম্পিউটাৰত কোনটো মেম'ৰী আটাইতকৈ বেগী?"
+      },
+      "options": [
+        {
+          "en": "Register",
+          "as": "Register"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Hard disk",
+          "as": "Hard disk"
+        },
+        {
+          "en": "DVD",
+          "as": "DVD"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "CPU registers are the fastest memory in a computer.",
+        "as": "CPU ৰ register কম্পিউটাৰৰ আটাইতকৈ বেগী মেম'ৰী।"
+      },
+      "explanation": {
+        "en": "Registers are very small, extremely fast storage locations inside the CPU, so their access time is the shortest of all memory types.",
+        "as": "Register হৈছে CPU ৰ ভিতৰত থকা অতি সৰু, অতি দ্ৰুত সংৰক্ষণ স্থান, সেয়ে সকলো memory ৰ ভিতৰত ইয়াৰ access time আটাইতকৈ কম।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a non-volatile storage device?",
+        "as": "তলৰ কোনটো non-volatile ষ্ট'ৰেজ ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "Hard disk",
+          "as": "Hard disk"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Cache memory",
+          "as": "Cache memory"
+        },
+        {
+          "en": "Register",
+          "as": "Register"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A hard disk keeps data permanently even when power is off, so it is non-volatile.",
+        "as": "Hard disk য়ে বিদ্যুৎ বন্ধ হ'লেও তথ্য স্থায়ীভাৱে ৰাখে, গতিকে ই non-volatile।"
+      },
+      "explanation": {
+        "en": "A hard disk stores data magnetically and keeps it permanently even when the power is off, so it is a non-volatile secondary storage device.",
+        "as": "Hard disk য়ে তথ্য চুম্বকীয়ভাৱে সংৰক্ষণ কৰে আৰু বিদ্যুৎ বন্ধ হ'লেও স্থায়ীভাৱে ৰাখে, সেয়ে ই non-volatile secondary storage device।"
+      }
+    },
+    {
+      "q": {
+        "en": "The smallest unit of data in a computer is:",
+        "as": "কম্পিউটাৰত তথ্যৰ আটাইতকৈ সৰু একক কি?"
+      },
+      "options": [
+        {
+          "en": "Bit",
+          "as": "Bit"
+        },
+        {
+          "en": "Byte",
+          "as": "Byte"
+        },
+        {
+          "en": "Nibble",
+          "as": "Nibble"
+        },
+        {
+          "en": "Word",
+          "as": "Word"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A bit (0 or 1) is the smallest unit of data in a computer.",
+        "as": "Bit (0 বা 1) কম্পিউটাৰত তথ্যৰ আটাইতকৈ সৰু একক।"
+      },
+      "explanation": {
+        "en": "A bit (binary digit) is either 0 or 1 and is the smallest unit of data. A byte is made of 8 bits.",
+        "as": "Bit (binary digit) হৈছে ০ বা ১ আৰু ই তথ্যৰ আটাইতকৈ সৰু একক। এটা byte ৮ bit ৰে গঠিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many bits make one byte?",
+        "as": "এটা byte ত কিমানটা bit থাকে?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "32",
+          "as": "32"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1 byte = 8 bits.",
+        "as": "1 byte = 8 bits।"
+      },
+      "explanation": {
+        "en": "One byte is formed by grouping 8 bits together, and it is the standard unit for representing one character.",
+        "as": "এটা byte ৮ bit একত্ৰিত কৰি গঠিত হয়, আৰু ই এটা আখৰ সূচাবলৈ মানক একক।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many bytes make 1 Kilobyte (KB)?",
+        "as": "1 Kilobyte (KB) ত কিমান byte হয়?"
+      },
+      "options": [
+        {
+          "en": "1024 bytes",
+          "as": "1024 bytes"
+        },
+        {
+          "en": "1000 bytes",
+          "as": "1000 bytes"
+        },
+        {
+          "en": "512 bytes",
+          "as": "512 bytes"
+        },
+        {
+          "en": "2048 bytes",
+          "as": "2048 bytes"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1 KB = 1024 bytes (2^10).",
+        "as": "1 KB = 1024 bytes (2^10)।"
+      },
+      "explanation": {
+        "en": "1 KB = 2 to the power 10 = 1024 bytes. Computers use powers of 2 because they work in binary.",
+        "as": "১ KB = ২ৰ ঘাত ১০ = ১০২৪ byte। কম্পিউটাৰে binary ত কাম কৰে বাবে ২ৰ ঘাত ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 MB is equal to how many KB?",
+        "as": "1 MB কিমান KB ৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "1024 KB",
+          "as": "1024 KB"
+        },
+        {
+          "en": "1000 KB",
+          "as": "1000 KB"
+        },
+        {
+          "en": "2048 KB",
+          "as": "2048 KB"
+        },
+        {
+          "en": "512 KB",
+          "as": "512 KB"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1 MB = 1024 KB.",
+        "as": "1 MB = 1024 KB।"
+      },
+      "explanation": {
+        "en": "1 MB (Megabyte) = 1024 KB. Similarly 1 GB = 1024 MB and 1 TB = 1024 GB.",
+        "as": "১ MB (Megabyte) = ১০২৪ KB। একেদৰে ১ GB = ১০২৪ MB আৰু ১ TB = ১০২৪ GB।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is in the correct order of increasing size?",
+        "as": "তলৰ কোনটো আকাৰ বৃদ্ধিৰ শুদ্ধ ক্ৰমত আছে?"
+      },
+      "options": [
+        {
+          "en": "KB < MB < GB < TB",
+          "as": "KB < MB < GB < TB"
+        },
+        {
+          "en": "MB < KB < GB < TB",
+          "as": "MB < KB < GB < TB"
+        },
+        {
+          "en": "GB < MB < KB < TB",
+          "as": "GB < MB < KB < TB"
+        },
+        {
+          "en": "TB < GB < MB < KB",
+          "as": "TB < GB < MB < KB"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The correct increasing order is KB < MB < GB < TB.",
+        "as": "আকাৰ বৃদ্ধিৰ শুদ্ধ ক্ৰম: KB < MB < GB < TB।"
+      },
+      "explanation": {
+        "en": "The correct increasing order of storage units is Kilobyte, Megabyte, Gigabyte and Terabyte, where each step is 1024 times the previous one.",
+        "as": "সংৰক্ষণ এককৰ শুদ্ধ বৰ্ধমান ক্ৰম হৈছে Kilobyte, Megabyte, Gigabyte আৰু Terabyte, য'ত প্ৰতিটো স্তৰ আগৰটোৰ ১০২৪ গুণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which printer prints characters by striking pins on an inked ribbon?",
+        "as": "কোন printer য়ে ink ribbon ত পিন মাৰি আখৰ ছপে?"
+      },
+      "options": [
+        {
+          "en": "Dot matrix printer",
+          "as": "Dot matrix printer"
+        },
+        {
+          "en": "Laser printer",
+          "as": "Laser printer"
+        },
+        {
+          "en": "Inkjet printer",
+          "as": "Inkjet printer"
+        },
+        {
+          "en": "Thermal printer",
+          "as": "Thermal printer"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A dot matrix printer is an impact printer that strikes pins on an inked ribbon.",
+        "as": "Dot matrix printer হৈছে impact printer, ই ink ribbon ত পিন মাৰি ছপে।"
+      },
+      "explanation": {
+        "en": "A dot matrix printer is an impact printer: it strikes pins against an inked ribbon to form characters on paper, making it noisy but cheap.",
+        "as": "Dot matrix printer এটা impact printer: ই inked ribbon ৰ বিৰুদ্ধে pin মাৰি কাগজত আখৰ গঢ়ে, সেয়ে ই শব্দ কৰে কিন্তু সস্তা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which printer uses a laser beam and toner powder for high-quality printing?",
+        "as": "কোন printer য়ে উচ্চ মানৰ ছাপাৰ বাবে laser beam আৰু toner ব্যৱহাৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Laser printer",
+          "as": "Laser printer"
+        },
+        {
+          "en": "Dot matrix printer",
+          "as": "Dot matrix printer"
+        },
+        {
+          "en": "Daisy wheel printer",
+          "as": "Daisy wheel printer"
+        },
+        {
+          "en": "Chain printer",
+          "as": "Chain printer"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A laser printer uses laser light and toner powder; it is fast and of high quality.",
+        "as": "Laser printer য়ে laser পোহৰ আৰু toner ব্যৱহাৰ কৰে; ই বেগী আৰু উচ্চ মানৰ।"
+      },
+      "explanation": {
+        "en": "A laser printer uses a laser beam to draw the image on a photosensitive drum and fuses toner powder onto the paper, giving fast, high-quality printing.",
+        "as": "Laser printer য়ে photosensitive drum ত ছবি আঁকিবলৈ laser beam ব্যৱহাৰ কৰি toner powder কাগজত গলাই লগায়, ফলত দ্ৰুত আৰু উচ্চ মানৰ print হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a non-impact printer?",
+        "as": "তলৰ কোনটো non-impact printer?"
+      },
+      "options": [
+        {
+          "en": "Inkjet printer",
+          "as": "Inkjet printer"
+        },
+        {
+          "en": "Dot matrix printer",
+          "as": "Dot matrix printer"
+        },
+        {
+          "en": "Daisy wheel printer",
+          "as": "Daisy wheel printer"
+        },
+        {
+          "en": "Chain printer",
+          "as": "Chain printer"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Inkjet printers spray ink and do not strike the paper, so they are non-impact printers.",
+        "as": "Inkjet printer য়ে ink ছিটায় আৰু কাগজত নামাৰে, গতিকে ই non-impact printer।"
+      },
+      "explanation": {
+        "en": "An inkjet printer is a non-impact printer: it sprays tiny drops of ink onto the paper without touching it, so it is quiet and can print in colour.",
+        "as": "Inkjet printer এটা non-impact printer: ই কাগজত নুচুই সুক্ষ্ম চিয়াহীৰ টোপাল ছটিয়ায়, সেয়ে ই শান্ত আৰু ৰঙীন print কৰিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which output device is used to draw large engineering designs and maps?",
+        "as": "ডাঙৰ ইঞ্জিনিয়াৰিং নক্সা আৰু মানচিত্ৰ আঁকিবলৈ কোন আউটপুট ডিভাইচ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Plotter",
+          "as": "Plotter"
+        },
+        {
+          "en": "Scanner",
+          "as": "Scanner"
+        },
+        {
+          "en": "Webcam",
+          "as": "Webcam"
+        },
+        {
+          "en": "Barcode reader",
+          "as": "Barcode reader"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A plotter draws high-quality graphics like maps, charts and engineering designs.",
+        "as": "Plotter য়ে মানচিত্ৰ, চাৰ্ট আৰু ইঞ্জিনিয়াৰিং নক্সাৰ দৰে উচ্চ মানৰ ছবি আঁকে।"
+      },
+      "explanation": {
+        "en": "A plotter is an output device that draws continuous lines with pens to produce large, accurate graphics such as engineering drawings, maps and charts.",
+        "as": "Plotter এটা output device, যিয়ে pen ৰে অবিৰত ৰেখা আঁকি engineering design, মানচিত্ৰ আৰু chart ৰ দৰে ডাঙৰ, সঠিক graphics প্ৰস্তুত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which memory is used between the CPU and RAM to speed up processing?",
+        "as": "প্ৰক্ৰিয়াকৰণ বেগাবলৈ CPU আৰু RAM ৰ মাজত কোন মেম'ৰী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Cache memory",
+          "as": "Cache memory"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        },
+        {
+          "en": "Virtual memory",
+          "as": "Virtual memory"
+        },
+        {
+          "en": "Secondary memory",
+          "as": "Secondary memory"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Cache memory sits between the CPU and RAM to provide high-speed data access.",
+        "as": "Cache memory CPU আৰু RAM ৰ মাজত থাকি বেগী তথ্য উপলব্ধি কৰায়।"
+      },
+      "explanation": {
+        "en": "Cache memory is a small, very fast memory placed between the CPU and RAM. It stores frequently used data and instructions to reduce waiting time.",
+        "as": "Cache memory হৈছে CPU আৰু RAM ৰ মাজত ৰখা সৰু, অতি দ্ৰুত memory। ই বাৰে বাৰে ব্যৱহৃত তথ্য আৰু instruction সংৰক্ষণ কৰি অপেক্ষাৰ সময় কমায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software starts the computer and loads the operating system during booting?",
+        "as": "বুটিংৰ সময়ত কম্পিউটাৰ আৰম্ভ কৰি অপাৰেটিং ছিষ্টেম ল'ড কৰা ছফ্টৱেৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "BIOS",
+          "as": "BIOS"
+        },
+        {
+          "en": "Driver",
+          "as": "Driver"
+        },
+        {
+          "en": "Antivirus",
+          "as": "Antivirus"
+        },
+        {
+          "en": "Compiler",
+          "as": "Compiler"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "BIOS (Basic Input Output System) runs first and loads the operating system during booting.",
+        "as": "BIOS (Basic Input Output System) প্ৰথমে চলি বুটিংত অপাৰেটিং ছিষ্টেম ল'ড কৰে।"
+      },
+      "explanation": {
+        "en": "BIOS (Basic Input Output System) is firmware stored in ROM that runs when the computer is switched on, tests the hardware and loads the operating system.",
+        "as": "BIOS (Basic Input Output System) হৈছে ROM ত সংৰক্ষিত firmware, যি কম্পিউটাৰ অন কৰিলে চলে, hardware পৰীক্ষা কৰে আৰু operating system লোড কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of POST is:",
+        "as": "POST ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Power On Self Test",
+          "as": "Power On Self Test"
+        },
+        {
+          "en": "Power Of System Test",
+          "as": "Power Of System Test"
+        },
+        {
+          "en": "Program On Self Test",
+          "as": "Program On Self Test"
+        },
+        {
+          "en": "Processor On System Test",
+          "as": "Processor On System Test"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "POST (Power On Self Test) checks the hardware when the computer is switched on.",
+        "as": "POST (Power On Self Test) য়ে কম্পিউটাৰ অন কৰিলে হাৰ্ডৱেৰ পৰীক্ষা কৰে।"
+      },
+      "explanation": {
+        "en": "POST stands for Power On Self Test. It is run by the BIOS at startup to check that the CPU, memory, keyboard and other essential hardware are working.",
+        "as": "POST ৰ অৰ্থ Power On Self Test। BIOS য়ে আৰম্ভণিতে ইয়াক চলাই CPU, memory, keyboard আৰু অন্যান্য প্ৰয়োজনীয় hardware ঠিক আছে নে নাই পৰীক্ষা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The main circuit board of a computer is called the ___",
+        "as": "কম্পিউটাৰৰ মূল চাৰ্কিট বোর্ডক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Motherboard",
+          "as": "Motherboard"
+        },
+        {
+          "en": "Hard disk",
+          "as": "Hard disk"
+        },
+        {
+          "en": "Power supply",
+          "as": "Power supply"
+        },
+        {
+          "en": "Sound card",
+          "as": "Sound card"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The motherboard is the main circuit board that connects all parts of the computer.",
+        "as": "Motherboard হৈছে মূল চাৰ্কিট বোর্ড যিয়ে কম্পিউটাৰৰ সকলো অংশ সংযোগ কৰে।"
+      },
+      "explanation": {
+        "en": "The motherboard is the main printed circuit board that holds and connects the CPU, RAM, storage and expansion cards, allowing them to communicate.",
+        "as": "Motherboard হৈছে মূল printed circuit board, যিয়ে CPU, RAM, storage আৰু expansion card ধাৰণ আৰু সংযোগ কৰি সিহঁতৰ মাজত যোগাযোগ সম্ভৱ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which storage device has no moving parts and is faster than a hard disk?",
+        "as": "কোন ষ্ট'ৰেজ ডিভাইচৰ কোনো চলন্ত অংশ নাই আৰু ই hard disk তকৈ বেগী?"
+      },
+      "options": [
+        {
+          "en": "SSD",
+          "as": "SSD"
+        },
+        {
+          "en": "HDD",
+          "as": "HDD"
+        },
+        {
+          "en": "Floppy disk",
+          "as": "Floppy disk"
+        },
+        {
+          "en": "CD-ROM",
+          "as": "CD-ROM"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SSD (Solid State Drive) uses flash memory, has no moving parts and is faster than HDD.",
+        "as": "SSD (Solid State Drive) য়ে flash memory ব্যৱহাৰ কৰে, কোনো চলন্ত অংশ নাই আৰু HDD তকৈ বেগী।"
+      },
+      "explanation": {
+        "en": "An SSD (Solid State Drive) uses flash memory chips and has no moving parts, so it is faster, quieter and more shock-resistant than a hard disk.",
+        "as": "SSD (Solid State Drive) য়ে flash memory chip ব্যৱহাৰ কৰে আৰু ইয়াত গতি কৰা অংশ নাই, সেয়ে ই hard disk তকৈ দ্ৰুত, শান্ত আৰু আঘাত সহনশীল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a secondary storage device?",
+        "as": "তলৰ কোনটো secondary ষ্ট'ৰেজ ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "DVD",
+          "as": "DVD"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Cache",
+          "as": "Cache"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "DVD is a secondary storage device used to store data permanently outside the CPU.",
+        "as": "DVD হৈছে secondary ষ্ট'ৰেজ ডিভাইচ, CPU ৰ বাহিৰত স্থায়ীভাৱে তথ্য ৰাখে।"
+      },
+      "explanation": {
+        "en": "A DVD is a secondary storage device that stores data permanently on an optical disc, outside the CPU. RAM, cache and ROM are primary memory.",
+        "as": "DVD এটা secondary storage device, যিয়ে optical disc ত তথ্য স্থায়ীভাৱে, CPU ৰ বাহিৰত সংৰক্ষণ কৰে। RAM, cache আৰু ROM primary memory।"
+      }
+    },
+    {
+      "q": {
+        "en": "A pen drive is also known as a ___",
+        "as": "Pen drive ক আন এটা নামেৰে ___ বুলিও কোৱা হয়।"
+      },
+      "options": [
+        {
+          "en": "USB flash drive",
+          "as": "USB flash drive"
+        },
+        {
+          "en": "Hard drive",
+          "as": "Hard drive"
+        },
+        {
+          "en": "Optical drive",
+          "as": "Optical drive"
+        },
+        {
+          "en": "RAM stick",
+          "as": "RAM stick"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A pen drive is commonly called a USB flash drive.",
+        "as": "Pen drive ক সাধাৰণতে USB flash drive বুলি কোৱা হয়।"
+      },
+      "explanation": {
+        "en": "A pen drive is a small portable storage device also called a USB flash drive. It uses flash memory and connects through a USB port.",
+        "as": "Pen drive হৈছে সৰু, বহনযোগ্য সংৰক্ষণ যন্ত্ৰ, যাক USB flash drive বুলিও কোৱা হয়। ই flash memory ব্যৱহাৰ কৰে আৰু USB port ৰ জৰিয়তে সংযোগ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which port is commonly used to connect a pen drive to a computer?",
+        "as": "কম্পিউটাৰত pen drive সংযোগ কৰিবলৈ সাধাৰণতে কোন প'র্ট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "USB port",
+          "as": "USB port"
+        },
+        {
+          "en": "VGA port",
+          "as": "VGA port"
+        },
+        {
+          "en": "HDMI port",
+          "as": "HDMI port"
+        },
+        {
+          "en": "Parallel port",
+          "as": "Parallel port"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "USB (Universal Serial Bus) ports are used to connect pen drives and other devices.",
+        "as": "USB (Universal Serial Bus) প'র্ট pen drive আদি সংযোগৰ বাবে ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "USB (Universal Serial Bus) is the standard port for connecting pen drives, keyboards, mice, printers and many other peripherals.",
+        "as": "USB (Universal Serial Bus) হৈছে pen drive, keyboard, mouse, printer আৰু অন্য বহু peripheral সংযোগ কৰাৰ মানক port।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device protects a computer from sudden power failure?",
+        "as": "কোন ডিভাইচে হঠাৎ বিদ্যুৎ বিচ্ছিন্নতাৰ পৰা কম্পিউটাৰক ৰক্ষা কৰে?"
+      },
+      "options": [
+        {
+          "en": "UPS",
+          "as": "UPS"
+        },
+        {
+          "en": "CPU",
+          "as": "CPU"
+        },
+        {
+          "en": "Modem",
+          "as": "Modem"
+        },
+        {
+          "en": "Router",
+          "as": "Router"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "UPS (Uninterruptible Power Supply) provides power during a power cut.",
+        "as": "UPS (Uninterruptible Power Supply) য়ে বিদ্যুৎ গ'লেও শক্তি যোগায়।"
+      },
+      "explanation": {
+        "en": "A UPS (Uninterruptible Power Supply) contains a battery that supplies power immediately during a power cut, protecting the computer from data loss and sudden shutdown.",
+        "as": "UPS (Uninterruptible Power Supply) ত battery থাকে, যি বিদ্যুৎ বিচ্ছিন্ন হ'লে তৎক্ষণাত শক্তি যোগায়, ফলত data loss আৰু হঠাতে বন্ধ হোৱাৰ পৰা সুৰক্ষা মেলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which technology converts sound into electrical signals for input?",
+        "as": "কোন প্রযুক্তিয়ে শব্দক বৈদ্যুতিক সংকেতলৈ ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Microphone",
+          "as": "Microphone"
+        },
+        {
+          "en": "Speaker",
+          "as": "Speaker"
+        },
+        {
+          "en": "Plotter",
+          "as": "Plotter"
+        },
+        {
+          "en": "Projector",
+          "as": "Projector"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A microphone is an input device that converts sound into electrical signals.",
+        "as": "Microphone হৈছে ইনপুট ডিভাইচ, ই শব্দক বৈদ্যুতিক সংকেতলৈ ৰূপান্তৰ কৰে।"
+      },
+      "explanation": {
+        "en": "A microphone is an input device that converts sound waves into electrical (digital) signals that the computer can record or process.",
+        "as": "Microphone এটা input device, যিয়ে শব্দ তৰংগক কম্পিউটাৰে ৰেকৰ্ড বা প্ৰক্ৰিয়া কৰিব পৰা বৈদ্যুতিক (ডিজিটেল) signal লৈ ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device displays the output of a computer on a big screen for many people?",
+        "as": "কোন ডিভাইচে বহু লোকক দেখুৱাবলৈ কম্পিউটাৰৰ আউটপুট ডাঙৰ পৰ্দাত দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "Projector",
+          "as": "Projector"
+        },
+        {
+          "en": "Plotter",
+          "as": "Plotter"
+        },
+        {
+          "en": "Scanner",
+          "as": "Scanner"
+        },
+        {
+          "en": "Joystick",
+          "as": "Joystick"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A projector projects the computer screen onto a big display for presentations.",
+        "as": "Projector য়ে কম্পিউটাৰৰ স্ক্রিন presentation ৰ বাবে ডাঙৰ পৰ্দাত দেখুৱায়।"
+      },
+      "explanation": {
+        "en": "A projector is an output device that throws the computer's display onto a large screen or wall so that a big audience can see it.",
+        "as": "Projector এটা output device, যিয়ে কম্পিউটাৰৰ display ক ডাঙৰ পৰ্দা বা বেৰত প্ৰক্ষেপ কৰে, যাতে বহু দৰ্শকে দেখিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first calculating machine invented by Blaise Pascal was called ___",
+        "as": "Blaise Pascal য়ে আৱিষ্কাৰ কৰা প্ৰথম গণনা যন্ত্ৰটোক ___ বোলা হৈছিল।"
+      },
+      "options": [
+        {
+          "en": "Pascaline",
+          "as": "Pascaline"
+        },
+        {
+          "en": "Analytical Engine",
+          "as": "Analytical Engine"
+        },
+        {
+          "en": "Difference Engine",
+          "as": "Difference Engine"
+        },
+        {
+          "en": "Abacus",
+          "as": "Abacus"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Blaise Pascal invented the Pascaline, an early mechanical calculator, in 1642.",
+        "as": "Blaise Pascal য়ে 1642 চনত Pascaline নামৰ প্ৰাথমিক যান্ত্রিক কেলকুলেটৰ আৱিষ্কাৰ কৰিছিল।"
+      },
+      "explanation": {
+        "en": "Blaise Pascal invented the Pascaline in 1642, a mechanical calculator that could add and subtract, making it one of the earliest calculating machines.",
+        "as": "Blaise Pascal য়ে ১৬৪২ চনত Pascaline বনাইছিল, এটা যান্ত্ৰিক calculator যিয়ে যোগ-বিয়োগ কৰিব পাৰিছিল, সেয়ে ই প্ৰাৰম্ভিক গণনা যন্ত্ৰৰ এটা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device was used for counting before modern computers?",
+        "as": "আধুনিক কম্পিউটাৰৰ আগত গণনাৰ বাবে কোন ডিভাইচ ব্যৱহাৰ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Abacus",
+          "as": "Abacus"
+        },
+        {
+          "en": "Pascaline",
+          "as": "Pascaline"
+        },
+        {
+          "en": "Tabulating machine",
+          "as": "Tabulating machine"
+        },
+        {
+          "en": "Difference engine",
+          "as": "Difference engine"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The abacus is the earliest known counting device, developed around 3000 BC.",
+        "as": "Abacus হৈছে আটাইতকৈ পুৰণি গণনা ডিভাইচ, প্ৰায় 3000 খ্রীষ্টপূর্বত বিকশিত হৈছিল।"
+      },
+      "explanation": {
+        "en": "The abacus, developed around 3000 BC, is the earliest known counting device. It uses beads sliding on rods to perform arithmetic.",
+        "as": "প্ৰায় ৩০০০ খ্ৰীষ্টপূৰ্বত বিকশিত abacus আটাইতকৈ পুৰণি জনাজাত গণনা যন্ত্ৰ। ই দণ্ডত সৰুৱা গুটিৰে গাণিতিক ক্ৰিয়া কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which generation of computers used transistors?",
+        "as": "কোন প্ৰজন্মৰ কম্পিউটাৰত transistor ব্যৱহাৰ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Second generation",
+          "as": "দ্বিতীয় প্ৰজন্ম"
+        },
+        {
+          "en": "First generation",
+          "as": "প্ৰথম প্ৰজন্ম"
+        },
+        {
+          "en": "Fourth generation",
+          "as": "চতুর্থ প্ৰজন্ম"
+        },
+        {
+          "en": "Fifth generation",
+          "as": "পঞ্চম প্ৰজন্ম"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Second generation computers (1950s-60s) used transistors.",
+        "as": "দ্বিতীয় প্ৰজন্মৰ কম্পিউটাৰত (1950-60) transistor ব্যৱহাৰ হৈছিল।"
+      },
+      "explanation": {
+        "en": "Second generation computers (late 1950s to 1960s) replaced vacuum tubes with transistors, becoming smaller, faster and more reliable.",
+        "as": "দ্বিতীয় প্ৰজন্মৰ কম্পিউটাৰে (১৯৫০ ৰ শেষৰ পৰা ১৯৬০ দশক) vacuum tube ৰ ঠাইত transistor ব্যৱহাৰ কৰিলে, ফলত সৰু, দ্ৰুত আৰু বেছি নিৰ্ভৰযোগ্য হ'ল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which generation of computers uses artificial intelligence (AI)?",
+        "as": "কোন প্ৰজন্মৰ কম্পিউটাৰত কৃত্রিম বুদ্ধিমত্তা (AI) ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Fifth generation",
+          "as": "পঞ্চম প্ৰজন্ম"
+        },
+        {
+          "en": "Third generation",
+          "as": "তৃতীয় প্ৰজন্ম"
+        },
+        {
+          "en": "First generation",
+          "as": "প্ৰথম প্ৰজন্ম"
+        },
+        {
+          "en": "Second generation",
+          "as": "দ্বিতীয় প্ৰজন্ম"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Fifth generation computers aim to use artificial intelligence and parallel processing.",
+        "as": "পঞ্চম প্ৰজন্মৰ কম্পিউটাৰত কৃত্রিম বুদ্ধিমত্তা আৰু সমান্তৰাল প্ৰক্ৰিয়াকৰণ ব্যৱহাৰৰ লক্ষ্য।"
+      },
+      "explanation": {
+        "en": "Fifth generation computers aim to use artificial intelligence, natural language and parallel processing, moving beyond simple number crunching.",
+        "as": "পঞ্চম প্ৰজন্মৰ কম্পিউটাৰে কৃত্ৰিম বুদ্ধিমত্তা, প্ৰাকৃতিক ভাষা আৰু parallel processing ব্যৱহাৰ কৰাৰ লক্ষ্য ৰাখে, কেৱল সংখ্যা গণনাৰ বাহিৰলৈ গৈ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The microprocessor was introduced in which generation of computers?",
+        "as": "Microprocessor কোন প্ৰজন্মৰ কম্পিউটাৰত আৰম্ভ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Fourth generation",
+          "as": "চতুর্থ প্ৰজন্ম"
+        },
+        {
+          "en": "First generation",
+          "as": "প্ৰথম প্ৰজন্ম"
+        },
+        {
+          "en": "Third generation",
+          "as": "তৃতীয় প্ৰজন্ম"
+        },
+        {
+          "en": "Second generation",
+          "as": "দ্বিতীয় প্ৰজন্ম"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The microprocessor (e.g., Intel 4004) was introduced in the fourth generation.",
+        "as": "Microprocessor (যেনে Intel 4004) চতুর্থ প্ৰজন্মত আৰম্ভ হৈছিল।"
+      },
+      "explanation": {
+        "en": "The fourth generation (1971 onwards) introduced the microprocessor, where the entire CPU is built on a single VLSI chip.",
+        "as": "চতুৰ্থ প্ৰজন্মই (১৯৭১ ৰ পৰা) microprocessor আনিলে, য'ত গোটেই CPU এটা VLSI chip ত নিৰ্মিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which company invented the first microprocessor Intel 4004?",
+        "as": "Intel 4004 প্ৰথম microprocessor কোন কোম্পানীয়ে আৱিষ্কাৰ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Intel",
+          "as": "Intel"
+        },
+        {
+          "en": "IBM",
+          "as": "IBM"
+        },
+        {
+          "en": "Microsoft",
+          "as": "Microsoft"
+        },
+        {
+          "en": "Apple",
+          "as": "Apple"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Intel released the first microprocessor, the Intel 4004, in 1971.",
+        "as": "Intel য়ে 1971 চনত প্ৰথম microprocessor Intel 4004 মুক্তি দিছিল।"
+      },
+      "explanation": {
+        "en": "Intel released the 4004 in 1971 as the world's first commercially available microprocessor, a single chip containing a complete CPU.",
+        "as": "Intel য়ে ১৯৭১ চনত 4004 মুকলি কৰিছিল, যি পৃথিৱীৰ প্ৰথম বাণিজ্যিকভাৱে উপলব্ধ microprocessor, এটা সম্পূৰ্ণ CPU থকা এটা chip।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which company developed the first version of the Windows operating system?",
+        "as": "Windows অপাৰেটিং ছিষ্টেমৰ প্ৰথম সংস্কৰণ কোন কোম্পানীয়ে বনাইছিল?"
+      },
+      "options": [
+        {
+          "en": "Microsoft",
+          "as": "Microsoft"
+        },
+        {
+          "en": "Apple",
+          "as": "Apple"
+        },
+        {
+          "en": "IBM",
+          "as": "IBM"
+        },
+        {
+          "en": "Google",
+          "as": "Google"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Microsoft developed Windows; the first version was released in 1985.",
+        "as": "Microsoft য়ে Windows বনাইছিল; প্ৰথম সংস্কৰণ 1985 চনত ওলাইছিল।"
+      },
+      "explanation": {
+        "en": "Microsoft developed Windows; the first version, Windows 1.0, was released in 1985 as a graphical extension over MS-DOS.",
+        "as": "Microsoft য়ে Windows বিকশিত কৰিছিল; প্ৰথম সংস্কৰণ Windows 1.0 ১৯৮৫ চনত MS-DOS ৰ ওপৰত graphical extension হিচাপে মুকলি হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key is used to type numbers and symbols in the upper part of the keyboard?",
+        "as": "কীবোর্ডৰ ওপৰ অংশৰ সংখ্যা আৰু চিহ্ন লিখিবলৈ কোন key ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Shift",
+          "as": "Shift"
+        },
+        {
+          "en": "Ctrl",
+          "as": "Ctrl"
+        },
+        {
+          "en": "Alt",
+          "as": "Alt"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Shift key types the upper symbols/characters on keys.",
+        "as": "Shift key য়ে key ৰ ওপৰ অংশৰ চিহ্ন/আখৰ লিখে।"
+      },
+      "explanation": {
+        "en": "The Shift key, when held with another key, types the upper character or symbol printed on that key, for example Shift + 1 gives '!'.",
+        "as": "Shift key আন এটা key সৈতে চাপি ধৰিলে সেই key ত ছপা ওপৰৰ আখৰ বা symbol টাইপ হয়, যেনে Shift + 1 এ '!' দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which mouse operation is used to open a file or program?",
+        "as": "ফাইল বা প্রোগ্রাম খোলিবলৈ মাউছৰ কোনটো কাৰ্য ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Double-click",
+          "as": "Double-click"
+        },
+        {
+          "en": "Single click",
+          "as": "Single click"
+        },
+        {
+          "en": "Right click",
+          "as": "Right click"
+        },
+        {
+          "en": "Drag and drop",
+          "as": "Drag and drop"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A double-click opens a file or program on the desktop.",
+        "as": "Double-click এডেস্কটপত file বা program খোলে।"
+      },
+      "explanation": {
+        "en": "A double-click (two quick clicks of the primary mouse button) is used to open a file, folder or program from the desktop.",
+        "as": "Double-click (primary mouse button দুবাৰ দ্ৰুতভাৱে টিপা) য়ে desktop ৰ পৰা ফাইল, ফোল্ডাৰ বা program খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A CPU with multiple cores is called a ___ processor.",
+        "as": "একাধিক core থকা CPU ক ___ processor বোলে।"
+      },
+      "options": [
+        {
+          "en": "Multi-core",
+          "as": "Multi-core"
+        },
+        {
+          "en": "Single-core",
+          "as": "Single-core"
+        },
+        {
+          "en": "Analog",
+          "as": "Analog"
+        },
+        {
+          "en": "Hybrid",
+          "as": "Hybrid"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A processor having more than one core is called a multi-core processor.",
+        "as": "একাধিক core থকা processor ক multi-core processor বোলে।"
+      },
+      "explanation": {
+        "en": "A multi-core processor has two or more independent cores in a single chip, so it can execute several tasks or threads at the same time.",
+        "as": "Multi-core processor এটা chip ত দুটা বা অধিক স্বতন্ত্ৰ core থাকে, সেয়ে ই একে সময়তে কেইবাটাও কাম বা thread চলাব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which unit measures the speed of the CPU clock?",
+        "as": "CPU clock ৰ বেগ কোন এককত জোখা হয়?"
+      },
+      "options": [
+        {
+          "en": "Hertz (GHz)",
+          "as": "Hertz (GHz)"
+        },
+        {
+          "en": "Bytes",
+          "as": "Bytes"
+        },
+        {
+          "en": "Bits per second",
+          "as": "Bits per second"
+        },
+        {
+          "en": "DPI",
+          "as": "DPI"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "CPU clock speed is measured in Hertz, typically Gigahertz (GHz).",
+        "as": "CPU clock বেগ Hertz ত জোখা হয়, সাধাৰণতে Gigahertz (GHz)।"
+      },
+      "explanation": {
+        "en": "CPU clock speed is measured in Hertz; modern processors run at gigahertz (GHz), meaning billions of cycles per second.",
+        "as": "CPU clock গতি Hertz ত মাপা হয়; আধুনিক processor গিগাহাৰ্টজ (GHz) ত চলে, অৰ্থাৎ প্ৰতি ছেকেণ্ডত কোটি কোটি cycle।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of LCD is:",
+        "as": "LCD ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Liquid Crystal Display",
+          "as": "Liquid Crystal Display"
+        },
+        {
+          "en": "Light Crystal Display",
+          "as": "Light Crystal Display"
+        },
+        {
+          "en": "Liquid Cathode Display",
+          "as": "Liquid Cathode Display"
+        },
+        {
+          "en": "Liquid Crystal Diode",
+          "as": "Liquid Crystal Diode"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "LCD stands for Liquid Crystal Display.",
+        "as": "LCD ৰ অৰ্থ Liquid Crystal Display।"
+      },
+      "explanation": {
+        "en": "LCD stands for Liquid Crystal Display. It uses liquid crystals whose optical properties change with voltage to produce images.",
+        "as": "LCD ৰ অৰ্থ Liquid Crystal Display। ই liquid crystal ব্যৱহাৰ কৰে, যি voltage সৈতে optical ধৰ্ম সলনি কৰি ছবি সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an example of an impact printer?",
+        "as": "তলৰ কোনটো impact printer ৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "Dot matrix printer",
+          "as": "Dot matrix printer"
+        },
+        {
+          "en": "Laser printer",
+          "as": "Laser printer"
+        },
+        {
+          "en": "Inkjet printer",
+          "as": "Inkjet printer"
+        },
+        {
+          "en": "Thermal printer",
+          "as": "Thermal printer"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Impact printers strike the paper; dot matrix and daisy wheel are impact printers.",
+        "as": "Impact printer য়ে কাগজত মাৰে; dot matrix আৰু daisy wheel impact printer।"
+      },
+      "explanation": {
+        "en": "Impact printers physically strike the paper through an inked ribbon. Dot matrix and daisy wheel printers are impact printers, while laser, inkjet and thermal printers are non-impact.",
+        "as": "Impact printer য়ে inked ribbon ৰ মাজেৰে কাগজত শাৰীৰিকভাৱে আঘাত কৰে। Dot matrix আৰু daisy wheel printer impact, আনহাতে laser, inkjet আৰু thermal printer non-impact।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is NOT a hardware component of a computer?",
+        "as": "এইবোৰৰ কোনটো কম্পিউটাৰৰ হাৰ্ডৱেৰ অংশ নহয়?"
+      },
+      "options": [
+        {
+          "en": "Microsoft Word",
+          "as": "Microsoft Word"
+        },
+        {
+          "en": "Keyboard",
+          "as": "Keyboard"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Motherboard",
+          "as": "Motherboard"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Microsoft Word is software, not hardware.",
+        "as": "Microsoft Word হৈছে ছফ্টৱেৰ, হাৰ্ডৱেৰ নহয়।"
+      },
+      "explanation": {
+        "en": "Microsoft Word is application software, whereas keyboard, RAM and motherboard are physical hardware components. Software is a set of instructions, not a physical part.",
+        "as": "Microsoft Word এটা application software, আনহাতে keyboard, RAM আৰু motherboard ভৌত hardware অংশ। Software হৈছে instruction ৰ সমষ্টি, ভৌত অংশ নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which input device is used to capture photographs or video into a computer?",
+        "as": "কম্পিউটাৰত ফটো বা ভিডিও ল'বলৈ কোন ইনপুট ডিভাইচ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Webcam",
+          "as": "Webcam"
+        },
+        {
+          "en": "Plotter",
+          "as": "Plotter"
+        },
+        {
+          "en": "Speaker",
+          "as": "Speaker"
+        },
+        {
+          "en": "Projector",
+          "as": "Projector"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A webcam captures photographs or video and sends them to the computer.",
+        "as": "Webcam য়ে ফটো বা ভিডিও লৈ কম্পিউটাৰলৈ পঠায়।"
+      },
+      "explanation": {
+        "en": "A webcam is an input device with a small digital camera that captures still photos or video and sends them to the computer.",
+        "as": "Webcam এটা input device, য'ত সৰু digital camera থাকে যি স্থিৰ ছবি বা video ধৰি কম্পিউটাৰলৈ পঠিয়ায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Data and instructions given to a computer are known as ___",
+        "as": "কম্পিউটাৰলৈ দিয়া তথ্য আৰু নিৰ্দেশক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Input",
+          "as": "Input"
+        },
+        {
+          "en": "Output",
+          "as": "Output"
+        },
+        {
+          "en": "Processing",
+          "as": "Processing"
+        },
+        {
+          "en": "Storage",
+          "as": "Storage"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Input is the data and instructions given to the computer for processing.",
+        "as": "Input হৈছে প্ৰক্ৰিয়াকৰণৰ বাবে কম্পিউটাৰলৈ দিয়া তথ্য আৰু নিৰ্দেশ।"
+      },
+      "explanation": {
+        "en": "Input is the raw data and instructions supplied to a computer through input devices such as the keyboard, mouse or scanner.",
+        "as": "Input হৈছে কম্পিউটাৰলৈ keyboard, mouse বা scanner ৰ দৰে input device ৰ জৰিয়তে যোগান ধৰা কেঁচা তথ্য আৰু instruction।"
+      }
+    },
+    {
+      "q": {
+        "en": "The result produced by a computer is called ___",
+        "as": "কম্পিউটাৰে উৎপন্ন কৰা ফলাফলক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Output",
+          "as": "Output"
+        },
+        {
+          "en": "Input",
+          "as": "Input"
+        },
+        {
+          "en": "Program",
+          "as": "Program"
+        },
+        {
+          "en": "Hardware",
+          "as": "Hardware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Output is the processed result produced by the computer.",
+        "as": "Output হৈছে কম্পিউটাৰে প্ৰক্ৰিয়া কৰি উৎপন্ন কৰা ফলাফল।"
+      },
+      "explanation": {
+        "en": "Output is the meaningful result produced after the computer processes the input, shown on a monitor, printed or played through speakers.",
+        "as": "Output হৈছে কম্পিউটাৰে input প্ৰক্ৰিয়া কৰাৰ পিছত উৎপাদিত অৰ্থপূৰ্ণ ফলাফল, যি monitor ত দেখুওৱা, print কৰা বা speaker যোগে শুনা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which characteristic of a computer means it does not get tired while working?",
+        "as": "কম্পিউটাৰৰ কোনটো বৈশিষ্ট্যই বুজায় যে কাম কৰি ই ক্লান্ত নহয়?"
+      },
+      "options": [
+        {
+          "en": "Diligence",
+          "as": "Diligence"
+        },
+        {
+          "en": "Speed",
+          "as": "Speed"
+        },
+        {
+          "en": "Accuracy",
+          "as": "Accuracy"
+        },
+        {
+          "en": "Versatility",
+          "as": "Versatility"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Diligence means the computer can work for hours without getting tired or losing concentration.",
+        "as": "Diligence অৰ্থাৎ কম্পিউটাৰে ঘন্টাৰ পিছত ঘন্টা ক্লান্ত নহৈ কাম কৰিব পাৰে।"
+      },
+      "explanation": {
+        "en": "Diligence means a computer can work continuously for long hours without getting tired, bored or losing concentration, unlike a human.",
+        "as": "Diligence মানে কম্পিউটাৰে মানুহৰ দৰে ভাগৰ, আমনি বা মনোযোগ হেৰুওৱাকৈ দীঘলীয়া সময় ধৰি অবিৰতভাৱে কাম কৰিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is known as the 'temporary memory' of a computer?",
+        "as": "কম্পিউটাৰৰ 'অস্থায়ী মেম'ৰী' বুলি কোনটো জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        },
+        {
+          "en": "Hard disk",
+          "as": "Hard disk"
+        },
+        {
+          "en": "DVD",
+          "as": "DVD"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "RAM temporarily stores data while the computer is running and loses it when power is off.",
+        "as": "RAM য়ে কম্পিউটাৰ চলি থকা সময়ত তথ্য সাময়িকভাৱে ৰাখে আৰু বিদ্যুৎ বন্ধ হ'লে মচি যায়।"
+      },
+      "explanation": {
+        "en": "RAM is called temporary (volatile) memory because it holds data only while the computer is running and loses everything when the power is switched off.",
+        "as": "RAM ক অস্থায়ী (volatile) memory বোলে কাৰণ ই কম্পিউটাৰ চলি থকাৰ সময়তহে তথ্য ৰাখে আৰু বিদ্যুৎ বন্ধ হ'লে সকলো হেৰায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process of loading the operating system into RAM when the computer starts is called ___",
+        "as": "কম্পিউটাৰ আৰম্ভ হ'লে RAM ত অপাৰেটিং ছিষ্টেম ল'ড কৰা প্রক্রিয়াক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Booting",
+          "as": "Booting"
+        },
+        {
+          "en": "Formatting",
+          "as": "Formatting"
+        },
+        {
+          "en": "Compiling",
+          "as": "Compiling"
+        },
+        {
+          "en": "Scanning",
+          "as": "Scanning"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Booting is the process of loading the OS into memory when the computer is switched on.",
+        "as": "Booting হৈছে কম্পিউটাৰ অন হ'লে OS memory ত ল'ড কৰা প্রক্রিয়া।"
+      },
+      "explanation": {
+        "en": "Booting is the startup process in which the BIOS performs POST and then loads the operating system from storage into RAM.",
+        "as": "Booting হৈছে আৰম্ভণি প্ৰক্ৰিয়া, য'ত BIOS য়ে POST কৰি storage ৰ পৰা operating system ক RAM লৈ লোড কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which port connects a monitor to the computer for display?",
+        "as": "মনিটৰক কম্পিউটাৰত সংযোগ কৰা প'র্ট কোনটো?"
+      },
+      "options": [
+        {
+          "en": "VGA port",
+          "as": "VGA port"
+        },
+        {
+          "en": "USB port",
+          "as": "USB port"
+        },
+        {
+          "en": "Ethernet port",
+          "as": "Ethernet port"
+        },
+        {
+          "en": "Audio jack",
+          "as": "Audio jack"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A VGA or HDMI port connects the monitor to the computer for display.",
+        "as": "VGA বা HDMI প'র্ট য়ে মনিটৰক কম্পিউটাৰত সংযোগ কৰে।"
+      },
+      "explanation": {
+        "en": "A VGA or HDMI port carries the video signal from the computer to the monitor. USB connects peripherals and Ethernet connects a network cable.",
+        "as": "VGA বা HDMI port য়ে কম্পিউটাৰৰ পৰা monitor লৈ video signal নিয়ে। USB য়ে peripheral সংযোগ কৰে আৰু Ethernet য়ে network cable সংযোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device converts digital data from a computer into sound that humans can hear?",
+        "as": "কম্পিউটাৰৰ ডিজিটেল তথ্যক মানুহে শুনিব পৰা শব্দলৈ ৰূপান্তৰ কৰা ডিভাইচ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Speaker",
+          "as": "Speaker"
+        },
+        {
+          "en": "Microphone",
+          "as": "Microphone"
+        },
+        {
+          "en": "Headset input",
+          "as": "Headset input"
+        },
+        {
+          "en": "Webcam",
+          "as": "Webcam"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Speakers convert digital signals into sound as an output device.",
+        "as": "Speaker য়ে ডিজিটেল সংকেতক শব্দলৈ ৰূপান্তৰ কৰে, ই আউটপুট ডিভাইচ।"
+      },
+      "explanation": {
+        "en": "A speaker is an output device that converts digital audio signals from the computer into sound waves that humans can hear.",
+        "as": "Speaker এটা output device, যিয়ে কম্পিউটাৰৰ digital audio signal ক মানুহে শুনিব পৰা শব্দ তৰংগলৈ ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does '1 nibble' represent in binary terms?",
+        "as": "বাইনারিত '1 nibble' য়ে কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "4 bits",
+          "as": "4 bits"
+        },
+        {
+          "en": "8 bits",
+          "as": "8 bits"
+        },
+        {
+          "en": "16 bits",
+          "as": "16 bits"
+        },
+        {
+          "en": "2 bits",
+          "as": "2 bits"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A nibble is a group of 4 bits.",
+        "as": "Nibble হৈছে 4 bits ৰ গোট।"
+      },
+      "explanation": {
+        "en": "One nibble equals 4 bits, which is half of a byte. It can represent 16 different values (2 to the power 4).",
+        "as": "এটা nibble ৪ bit ৰ সমান, যি এটা byte ৰ আধা। ই ১৬ টা ভিন্ন মান সূচাব পাৰে (২ৰ ঘাত ৪)।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these stores the BIOS settings of a computer?",
+        "as": "এইবোৰৰ কোনটোৱে কম্পিউটাৰৰ BIOS ছেটিংছ ৰাখে?"
+      },
+      "options": [
+        {
+          "en": "CMOS battery-backed memory",
+          "as": "CMOS battery-backed memory"
+        },
+        {
+          "en": "Cache memory",
+          "as": "Cache memory"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Register",
+          "as": "Register"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "BIOS settings are kept in CMOS memory powered by a small battery.",
+        "as": "BIOS ছেটিংছ এখন সৰু বেটাৰিৰ দ্বাৰা চলা CMOS memory ত ৰখা হয়।"
+      },
+      "explanation": {
+        "en": "BIOS settings such as the system time and boot order are stored in CMOS memory, which is kept alive by a small battery on the motherboard.",
+        "as": "System সময় আৰু boot order ৰ দৰে BIOS setting CMOS memory ত সংৰক্ষিত থাকে, যাক motherboard ৰ সৰু battery এ সক্ৰিয় ৰাখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a soft copy output device?",
+        "as": "তলৰ কোনটো soft copy আউটপুট ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "Monitor",
+          "as": "Monitor"
+        },
+        {
+          "en": "Printer",
+          "as": "Printer"
+        },
+        {
+          "en": "Plotter",
+          "as": "Plotter"
+        },
+        {
+          "en": "Photocopier",
+          "as": "Photocopier"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A monitor gives soft copy output on the screen; printers and plotters give hard copy.",
+        "as": "মনিটৰে স্ক্রিনত soft copy দিয়ে; printer আৰু plotter য়ে hard copy দিয়ে।"
+      },
+      "explanation": {
+        "en": "A monitor produces soft copy output because the result is displayed on screen and can be changed or deleted. Printers and plotters produce hard copy on paper.",
+        "as": "Monitor য়ে soft copy output দিয়ে কাৰণ ফলাফল পৰ্দাত দেখুওৱা হয় আৰু সলনি বা মচিব পাৰি। Printer আৰু plotter য়ে কাগজত hard copy দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which type of memory loses data very fast and is used for temporary high-speed access by the CPU?",
+        "as": "কোন মেম'ৰীয়ে ডেটা সোনকালে হেৰুৱায় আৰু CPU ৰ উচ্চ-বেগী অস্থায়ী উপলব্ধিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "SRAM (cache)",
+          "as": "SRAM (cache)"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        },
+        {
+          "en": "Hard disk",
+          "as": "Hard disk"
+        },
+        {
+          "en": "Flash memory",
+          "as": "Flash memory"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SRAM is fast static RAM used as cache; it is volatile like all RAM.",
+        "as": "SRAM হৈছে বেগী static RAM, cache হিচাপে ব্যৱহাৰ হয়; RAM ৰ দৰে ই volatile।"
+      },
+      "explanation": {
+        "en": "SRAM (Static RAM) is very fast and is used as cache memory, but being RAM it is volatile and loses its contents when power is removed.",
+        "as": "SRAM (Static RAM) অতি দ্ৰুত আৰু cache memory হিচাপে ব্যৱহৃত হয়, কিন্তু RAM হোৱাৰ বাবে ই volatile আৰু বিদ্যুৎ গ'লে content হেৰায়।"
+      }
+    }
+  ]
+}

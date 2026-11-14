@@ -1,0 +1,60 @@
+{
+  "exam": "adre-grade-3",
+  "sets": 10,
+  "totalQuestions": 150,
+  "durationMinutes": 180,
+  "totalMarks": 150,
+  "marksPerQuestion": 1,
+  "negativeMarking": 0.25,
+  "difficultyMix": { "easy": 50, "moderate": 35, "difficult": 15 },
+  "sections": [
+    {
+      "id": "general-knowledge-assam-gk",
+      "questions": 40,
+      "label": {
+        "en": "Assam's General Knowledge, History, Geography & Current Affairs",
+        "as": "অসমৰ সাধাৰণ জ্ঞান, ইতিহাস, ভূগোল আৰু সাম্প্ৰতিক ঘটনা"
+      }
+    },
+    {
+      "id": "history",
+      "questions": 25,
+      "label": {
+        "en": "India's History, Polity & Science",
+        "as": "ভাৰতৰ ইতিহাস, ৰাজনীতি আৰু বিজ্ঞান"
+      }
+    },
+    {
+      "id": "social-studies",
+      "questions": 20,
+      "label": {
+        "en": "Social Studies & Reading Comprehension",
+        "as": "সমাজ বিজ্ঞান আৰু পঢ়ন বোধগম্যতা"
+      }
+    },
+    {
+      "id": "elementary-mathematics",
+      "questions": 30,
+      "label": {
+        "en": "Elementary Mathematics",
+        "as": "প্ৰাথমিক গণিত"
+      }
+    },
+    {
+      "id": "logical-reasoning",
+      "questions": 20,
+      "label": {
+        "en": "Mental Ability & Reasoning",
+        "as": "মানসিক দক্ষতা আৰু তৰ্কশক্তি"
+      }
+    },
+    {
+      "id": "general-english",
+      "questions": 15,
+      "label": {
+        "en": "General English",
+        "as": "সাধাৰণ ইংৰাজী"
+      }
+    }
+  ]
+}

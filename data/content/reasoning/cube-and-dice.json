@@ -1,0 +1,798 @@
+{
+ "id": "cube-and-dice",
+ "title": {
+  "en": "Cube and Dice",
+  "as": "ঘনক আৰু পাশা"
+ },
+ "description": {
+  "en": "Cube and dice reasoning questions: find opposite and adjacent faces of a die from its different positions and from folded cube nets. Figure-based practice with bilingual questions for Assam competitive exams.",
+  "as": "ঘনক আৰু পাশা যুক্তি পৰীক্ষণ প্ৰশ্ন: পাশাৰ বেলেগ বেলেগ অৱস্থান আৰু ভাঁজ কৰা ঘনকৰ খোলা চিত্ৰৰ পৰা বিপৰীত আৰু সংলগ্ন পৃষ্ঠ নিৰ্ণয় কৰা। অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে চিত্ৰ-ভিত্তিক দ্বিভাষিক অনুশীলন।"
+ },
+ "tags": [
+  "reasoning",
+  "spatial-reasoning",
+  "cube-and-dice",
+  "dice",
+  "cube",
+  "visual-reasoning",
+  "assam-exam"
+ ],
+ "pdf": null,
+ "questions": [
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Three different positions of the same dice are shown below. Which number is opposite to the number 6?",
+    "as": "একেটা পাশাৰ তিনিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 6 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 504 138\" width=\"504\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The numbers 2, 3, 4, 5 appear together with 6, so they are adjacent to 6. The face opposite to 6 can never be shown with 6. As all four adjacent faces are shown and the number 1 is missing, the number opposite to 6 is 1.",
+    "as": "2, 3, 4, 5 সংখ্যাবোৰ 6 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 6 ৰ সংলগ্ন। 6 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 6 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 1 সংখ্যাটো অনুপস্থিত, সেয়ে 6 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 1।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Two different positions of the same dice are shown below. Which number is opposite to the number 2?",
+    "as": "একেটা পাশাৰ দুটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 2 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 336 138\" width=\"336\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The numbers 1, 4, 5, 6 appear together with 2, so they are adjacent to 2. The face opposite to 2 can never be shown with 2. As all four adjacent faces are shown and the number 3 is missing, the number opposite to 2 is 3.",
+    "as": "1, 4, 5, 6 সংখ্যাবোৰ 2 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 2 ৰ সংলগ্ন। 2 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 2 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 3 সংখ্যাটো অনুপস্থিত, সেয়ে 2 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 3।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Four different positions of the same dice are shown below. Which number is opposite to the number 1?",
+    "as": "একেটা পাশাৰ চাৰিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 672 138\" width=\"672\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><g transform=\"translate(504,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text><text x=\"579\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iv)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The numbers 3, 4, 5, 6 appear together with 1, so they are adjacent to 1. The face opposite to 1 can never be shown with 1. As all four adjacent faces are shown and the number 2 is missing, the number opposite to 1 is 2.",
+    "as": "3, 4, 5, 6 সংখ্যাবোৰ 1 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 1 ৰ সংলগ্ন। 1 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 1 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 2 সংখ্যাটো অনুপস্থিত, সেয়ে 1 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 2।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Three different positions of the same dice are shown below. Which number is opposite to the number 5?",
+    "as": "একেটা পাশাৰ তিনিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 5 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 504 138\" width=\"504\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The numbers 1, 3, 4, 6 appear together with 5, so they are adjacent to 5. The face opposite to 5 can never be shown with 5. As all four adjacent faces are shown and the number 2 is missing, the number opposite to 5 is 2.",
+    "as": "1, 3, 4, 6 সংখ্যাবোৰ 5 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 5 ৰ সংলগ্ন। 5 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 5 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 2 সংখ্যাটো অনুপস্থিত, সেয়ে 5 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 2।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Two different positions of the same dice are shown below. Which number is opposite to the number 1?",
+    "as": "একেটা পাশাৰ দুটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 336 138\" width=\"336\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The numbers 2, 4, 5, 6 appear together with 1, so they are adjacent to 1. The face opposite to 1 can never be shown with 1. As all four adjacent faces are shown and the number 3 is missing, the number opposite to 1 is 3.",
+    "as": "2, 4, 5, 6 সংখ্যাবোৰ 1 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 1 ৰ সংলগ্ন। 1 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 1 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 3 সংখ্যাটো অনুপস্থিত, সেয়ে 1 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 3।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Four different positions of the same dice are shown below. Which number is opposite to the number 2?",
+    "as": "একেটা পাশাৰ চাৰিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 2 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 672 138\" width=\"672\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg></g><g transform=\"translate(504,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text><text x=\"579\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iv)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The numbers 1, 3, 5, 6 appear together with 2, so they are adjacent to 2. The face opposite to 2 can never be shown with 2. As all four adjacent faces are shown and the number 4 is missing, the number opposite to 2 is 4.",
+    "as": "1, 3, 5, 6 সংখ্যাবোৰ 2 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 2 ৰ সংলগ্ন। 2 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 2 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 4 সংখ্যাটো অনুপস্থিত, সেয়ে 2 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 4।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Three different positions of the same dice are shown below. Which number is opposite to the number 3?",
+    "as": "একেটা পাশাৰ তিনিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 3 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 504 138\" width=\"504\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The numbers 1, 2, 5, 6 appear together with 3, so they are adjacent to 3. The face opposite to 3 can never be shown with 3. As all four adjacent faces are shown and the number 4 is missing, the number opposite to 3 is 4.",
+    "as": "1, 2, 5, 6 সংখ্যাবোৰ 3 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 3 ৰ সংলগ্ন। 3 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 3 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 4 সংখ্যাটো অনুপস্থিত, সেয়ে 3 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 4।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Two different positions of the same dice are shown below. Which number is opposite to the number 4?",
+    "as": "একেটা পাশাৰ দুটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 4 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 336 138\" width=\"336\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The numbers 2, 3, 5, 6 appear together with 4, so they are adjacent to 4. The face opposite to 4 can never be shown with 4. As all four adjacent faces are shown and the number 1 is missing, the number opposite to 4 is 1.",
+    "as": "2, 3, 5, 6 সংখ্যাবোৰ 4 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 4 ৰ সংলগ্ন। 4 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 4 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 1 সংখ্যাটো অনুপস্থিত, সেয়ে 4 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 1।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Three different positions of the same dice are shown below. Which number is opposite to the number 6?",
+    "as": "একেটা পাশাৰ তিনিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 6 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 504 138\" width=\"504\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The numbers 2, 3, 4, 5 appear together with 6, so they are adjacent to 6. The face opposite to 6 can never be shown with 6. As all four adjacent faces are shown and the number 1 is missing, the number opposite to 6 is 1.",
+    "as": "2, 3, 4, 5 সংখ্যাবোৰ 6 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 6 ৰ সংলগ্ন। 6 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 6 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 1 সংখ্যাটো অনুপস্থিত, সেয়ে 6 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 1।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Four different positions of the same dice are shown below. Which number is opposite to the number 1?",
+    "as": "একেটা পাশাৰ চাৰিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 672 138\" width=\"672\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg></g><g transform=\"translate(504,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text><text x=\"579\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iv)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The numbers 2, 3, 4, 5 appear together with 1, so they are adjacent to 1. The face opposite to 1 can never be shown with 1. As all four adjacent faces are shown and the number 6 is missing, the number opposite to 1 is 6.",
+    "as": "2, 3, 4, 5 সংখ্যাবোৰ 1 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 1 ৰ সংলগ্ন। 1 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 1 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 6 সংখ্যাটো অনুপস্থিত, সেয়ে 1 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 6।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Two different positions of the same dice are shown below. Which number is opposite to the number 6?",
+    "as": "একেটা পাশাৰ দুটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 6 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 336 138\" width=\"336\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The numbers 1, 2, 4, 5 appear together with 6, so they are adjacent to 6. The face opposite to 6 can never be shown with 6. As all four adjacent faces are shown and the number 3 is missing, the number opposite to 6 is 3.",
+    "as": "1, 2, 4, 5 সংখ্যাবোৰ 6 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 6 ৰ সংলগ্ন। 6 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 6 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 3 সংখ্যাটো অনুপস্থিত, সেয়ে 6 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 3।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Three different positions of the same dice are shown below. Which number is opposite to the number 6?",
+    "as": "একেটা পাশাৰ তিনিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 6 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 504 138\" width=\"504\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The numbers 1, 2, 4, 5 appear together with 6, so they are adjacent to 6. The face opposite to 6 can never be shown with 6. As all four adjacent faces are shown and the number 3 is missing, the number opposite to 6 is 3.",
+    "as": "1, 2, 4, 5 সংখ্যাবোৰ 6 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 6 ৰ সংলগ্ন। 6 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 6 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 3 সংখ্যাটো অনুপস্থিত, সেয়ে 6 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 3।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Four different positions of the same dice are shown below. Which number is opposite to the number 2?",
+    "as": "একেটা পাশাৰ চাৰিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 2 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 672 138\" width=\"672\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg></g><g transform=\"translate(504,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text><text x=\"579\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iv)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The numbers 1, 3, 4, 6 appear together with 2, so they are adjacent to 2. The face opposite to 2 can never be shown with 2. As all four adjacent faces are shown and the number 5 is missing, the number opposite to 2 is 5.",
+    "as": "1, 3, 4, 6 সংখ্যাবোৰ 2 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 2 ৰ সংলগ্ন। 2 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 2 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 5 সংখ্যাটো অনুপস্থিত, সেয়ে 2 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 5।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Two different positions of the same dice are shown below. Which number is opposite to the number 1?",
+    "as": "একেটা পাশাৰ দুটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 336 138\" width=\"336\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The numbers 2, 4, 5, 6 appear together with 1, so they are adjacent to 1. The face opposite to 1 can never be shown with 1. As all four adjacent faces are shown and the number 3 is missing, the number opposite to 1 is 3.",
+    "as": "2, 4, 5, 6 সংখ্যাবোৰ 1 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 1 ৰ সংলগ্ন। 1 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 1 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 3 সংখ্যাটো অনুপস্থিত, সেয়ে 1 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 3।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Three different positions of the same dice are shown below. Which number is opposite to the number 1?",
+    "as": "একেটা পাশাৰ তিনিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 504 138\" width=\"504\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The numbers 2, 4, 5, 6 appear together with 1, so they are adjacent to 1. The face opposite to 1 can never be shown with 1. As all four adjacent faces are shown and the number 3 is missing, the number opposite to 1 is 3.",
+    "as": "2, 4, 5, 6 সংখ্যাবোৰ 1 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 1 ৰ সংলগ্ন। 1 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 1 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 3 সংখ্যাটো অনুপস্থিত, সেয়ে 1 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 3।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Two different positions of the same dice are shown below. Which number is opposite to the number 6?",
+    "as": "একেটা পাশাৰ দুটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 6 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 336 138\" width=\"336\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The numbers 2, 3, 4, 5 appear together with 6, so they are adjacent to 6. The face opposite to 6 can never be shown with 6. As all four adjacent faces are shown and the number 1 is missing, the number opposite to 6 is 1.",
+    "as": "2, 3, 4, 5 সংখ্যাবোৰ 6 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 6 ৰ সংলগ্ন। 6 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 6 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 1 সংখ্যাটো অনুপস্থিত, সেয়ে 6 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 1।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "Four different positions of the same dice are shown below. Which number is opposite to the number 6?",
+    "as": "একেটা পাশাৰ চাৰিটা বেলেগ অৱস্থান তলত দেখুওৱা হৈছে। 6 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 672 138\" width=\"672\" height=\"138\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(0,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg></g><g transform=\"translate(168,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg></g><g transform=\"translate(336,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg></g><g transform=\"translate(504,0)\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 168 138\" width=\"168\" height=\"138\" role=\"img\" aria-hidden=\"true\"><polygon points=\"44,42 60,24 124,24 108,42\" fill=\"#e0e7ff\" stroke=\"#4f46e5\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"44,42 108,42 108,112 44,112\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polygon points=\"108,42 124,24 124,94 108,112\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"84\" y=\"40\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><text x=\"76\" y=\"82\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><text x=\"116\" y=\"72\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg></g><text x=\"75\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(i)</text><text x=\"243\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(ii)</text><text x=\"411\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iii)</text><text x=\"579\" y=\"130\" font-size=\"15\" font-weight=\"600\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">(iv)</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The numbers 1, 2, 3, 4 appear together with 6, so they are adjacent to 6. The face opposite to 6 can never be shown with 6. As all four adjacent faces are shown and the number 5 is missing, the number opposite to 6 is 5.",
+    "as": "1, 2, 3, 4 সংখ্যাবোৰ 6 ৰ লগত একেলগে দেখা গৈছে, সেয়ে এইবোৰ 6 ৰ সংলগ্ন। 6 ৰ বিপৰীত পৃষ্ঠ কেতিয়াও 6 ৰ লগত দেখা দিব নোৱাৰে। সংলগ্ন চাৰিওটা পৃষ্ঠ দেখুওৱা হৈছে আৰু 5 সংখ্যাটো অনুপস্থিত, সেয়ে 6 ৰ বিপৰীত পৃষ্ঠত সংখ্যাটো হ'ব 5।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 1?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 1 and the face carrying 6 come on opposite sides. Therefore the number opposite to 1 is 6.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 1 থকা পৃষ্ঠ আৰু 6 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 1 ৰ বিপৰীত পৃষ্ঠত 6 থাকিব।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 2?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 2 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 2 and the face carrying 6 come on opposite sides. Therefore the number opposite to 2 is 6.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 2 থকা পৃষ্ঠ আৰু 6 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 2 ৰ বিপৰীত পৃষ্ঠত 6 থাকিব।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 1?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 1 and the face carrying 6 come on opposite sides. Therefore the number opposite to 1 is 6.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 1 থকা পৃষ্ঠ আৰু 6 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 1 ৰ বিপৰীত পৃষ্ঠত 6 থাকিব।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 3?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 3 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 3 and the face carrying 5 come on opposite sides. Therefore the number opposite to 3 is 5.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 3 থকা পৃষ্ঠ আৰু 5 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 3 ৰ বিপৰীত পৃষ্ঠত 5 থাকিব।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 1?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 1 and the face carrying 6 come on opposite sides. Therefore the number opposite to 1 is 6.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 1 থকা পৃষ্ঠ আৰু 6 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 1 ৰ বিপৰীত পৃষ্ঠত 6 থাকিব।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 4?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 4 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 4 and the face carrying 6 come on opposite sides. Therefore the number opposite to 4 is 6.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 4 থকা পৃষ্ঠ আৰু 6 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 4 ৰ বিপৰীত পৃষ্ঠত 6 থাকিব।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 1?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 1 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 1 and the face carrying 6 come on opposite sides. Therefore the number opposite to 1 is 6.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 1 থকা পৃষ্ঠ আৰু 6 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 1 ৰ বিপৰীত পৃষ্ঠত 6 থাকিব।"
+   }
+  },
+  {
+   "type": "cube_dice",
+   "q": {
+    "en": "The sheet shown below is folded to form a cube. Which number will lie on the face opposite to the number 5?",
+    "as": "তলত দিয়া চিত্ৰখন ভাঁজ কৰি এটা ঘনক বনোৱা হয়। 5 সংখ্যাটোৰ বিপৰীত পৃষ্ঠত কোনটো সংখ্যা থাকিব?"
+   },
+   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 228 184\" width=\"228\" height=\"184\" role=\"img\" aria-hidden=\"true\"><rect x=\"26\" y=\"-18\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"4\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text><rect x=\"26\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6</text><rect x=\"26\" y=\"70\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"48\" y=\"92\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5</text><rect x=\"-18\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"4\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text><rect x=\"70\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"92\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text><rect x=\"114\" y=\"26\" width=\"44\" height=\"44\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"136\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>",
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">2</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"54\" height=\"54\" rx=\"8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"30\" y=\"30\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">1</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "When the sheet is folded into a cube, the face carrying 5 and the face carrying 3 come on opposite sides. Therefore the number opposite to 5 is 3.",
+    "as": "চিত্ৰখন ভাঁজ কৰি ঘনকটো বনালে 5 থকা পৃষ্ঠ আৰু 3 থকা পৃষ্ঠ দুটা পৰস্পৰ বিপৰীত ফালে পৰে। গতিকে 5 ৰ বিপৰীত পৃষ্ঠত 3 থাকিব।"
+   }
+  }
+ ]
+}

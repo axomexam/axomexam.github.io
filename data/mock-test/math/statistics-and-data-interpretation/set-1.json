@@ -1,0 +1,732 @@
+{
+  "setNumber": 1,
+  "title": "Set 1",
+  "subject": "Statistics and Data Interpretation",
+  "questions": [
+    {
+      "q": {
+        "en": "The arithmetic mean of 10, 20, 30, 40 and 50 is:",
+        "as": "10, 20, 30, 40 আৰু 50 ৰ পাটিগাণিতিক গড় কি?"
+      },
+      "options": [
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "35",
+          "as": "35"
+        },
+        {
+          "en": "30",
+          "as": "30"
+        },
+        {
+          "en": "40",
+          "as": "40"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Arithmetic mean = sum of observations / number of observations = (10+20+30+40+50)/5 = 150/5 = 30.",
+        "as": "পাটিগাণিতিক গড় = পৰ্যবেক্ষণৰ যোগফল / পৰ্যবেক্ষণৰ সংখ্যা = (10+20+30+40+50)/5 = 150/5 = 30।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of 4, 7, 9, 12 and 15 is:",
+        "as": "4, 7, 9, 12 আৰু 15 ৰ মধ্যমা কি?"
+      },
+      "options": [
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The data is already in ascending order and n = 5 (odd), so median = ((n+1)/2)th term = 3rd term = 9.",
+        "as": "তথ্য উৰ্দ্ধক্ৰমত আছে আৰু n = 5 (অযুগ্ম), সেয়ে মধ্যমা = ((n+1)/2)তম পদ = তৃতীয় পদ = 9।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mode of 5, 6, 6, 7, 8, 6 and 9 is:",
+        "as": "5, 6, 6, 7, 8, 6 আৰু 9 ৰ প্ৰচলক কি?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mode is the most frequently occurring value. Here 6 appears three times, more than any other value, so mode = 6.",
+        "as": "প্ৰচলক হৈছে সৰ্বাধিকবাৰ ঘটা মান। ইয়াত 6 তিনিবাৰ ঘটিছে, আন যিকোনো মানতকৈ বেছি, সেয়ে প্ৰচলক = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of 15, 22, 8, 30 and 18 is:",
+        "as": "15, 22, 8, 30 আৰু 18 ৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        {
+          "en": "18",
+          "as": "18"
+        },
+        {
+          "en": "30",
+          "as": "30"
+        },
+        {
+          "en": "22",
+          "as": "22"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Range = maximum - minimum = 30 - 8 = 22.",
+        "as": "পৰিসৰ = সৰ্বাধিক - সৰ্বনিম্ন = 30 - 8 = 22।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of the first 5 odd numbers is:",
+        "as": "প্ৰথম 5 টা অযুগ্ম সংখ্যাৰ গড় কি?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The first 5 odd numbers are 1, 3, 5, 7, 9. Their mean = (1+3+5+7+9)/5 = 25/5 = 5.",
+        "as": "প্ৰথম 5 টা অযুগ্ম সংখ্যা হ'ল 1, 3, 5, 7, 9। সিহঁতৰ গড় = (1+3+5+7+9)/5 = 25/5 = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the mean of 4 numbers is 15, their sum is:",
+        "as": "যদি 4 টা সংখ্যাৰ গড় 15 হয়, সিহঁতৰ যোগফল কিমান?"
+      },
+      "options": [
+        {
+          "en": "45",
+          "as": "45"
+        },
+        {
+          "en": "60",
+          "as": "60"
+        },
+        {
+          "en": "30",
+          "as": "30"
+        },
+        {
+          "en": "19",
+          "as": "19"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Mean = sum/number, so sum = mean x number = 15 x 4 = 60.",
+        "as": "গড় = যোগফল/সংখ্যা, সেয়ে যোগফল = গড় x সংখ্যা = 15 x 4 = 60।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of 2, 5, 8 and 11 is:",
+        "as": "2, 5, 8 আৰু 11 ৰ মধ্যমা কি?"
+      },
+      "options": [
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "6.5",
+          "as": "6.5"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "n = 4 (even), so median = average of the 2nd and 3rd terms = (5+8)/2 = 6.5.",
+        "as": "n = 4 (যুগ্ম), সেয়ে মধ্যমা = দ্বিতীয় আৰু তৃতীয় পদৰ গড় = (5+8)/2 = 6.5।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 8, 12, 16, 20 and x is 16. The value of x is:",
+        "as": "8, 12, 16, 20 আৰু x ৰ গড় 16। x ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "20",
+          "as": "20"
+        },
+        {
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "en": "18",
+          "as": "18"
+        },
+        {
+          "en": "22",
+          "as": "22"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Mean = 16, so total = 16 x 5 = 80. Sum of the four known numbers = 8+12+16+20 = 56, hence x = 80 - 56 = 24.",
+        "as": "গড় = 16, সেয়ে মুঠ = 16 x 5 = 80। জনা চাৰিটা সংখ্যাৰ যোগফল = 8+12+16+20 = 56, সেয়ে x = 80 - 56 = 24।"
+      }
+    },
+    {
+      "q": {
+        "en": "A batsman scores 40, 50, 60, 70 and 80 runs in 5 innings. His average is:",
+        "as": "এজন বেটছমেনে 5 ইনিংছত 40, 50, 60, 70 আৰু 80 ৰাণ কৰে। তেওঁৰ গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "50",
+          "as": "50"
+        },
+        {
+          "en": "55",
+          "as": "55"
+        },
+        {
+          "en": "65",
+          "as": "65"
+        },
+        {
+          "en": "60",
+          "as": "60"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Average = (40+50+60+70+80)/5 = 300/5 = 60 runs.",
+        "as": "গড় = (40+50+60+70+80)/5 = 300/5 = 60 ৰাণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average marks of 20 students is 60 and of 30 students is 80. The combined average is:",
+        "as": "20 জন ছাত্ৰৰ গড় নম্বৰ 60 আৰু 30 জনৰ গড় নম্বৰ 80। সংযুক্ত গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "70",
+          "as": "70"
+        },
+        {
+          "en": "68",
+          "as": "68"
+        },
+        {
+          "en": "72",
+          "as": "72"
+        },
+        {
+          "en": "75",
+          "as": "75"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Combined average = (n1x1 + n2x2)/(n1+n2) = (20x60 + 30x80)/50 = (1200+2400)/50 = 3600/50 = 72.",
+        "as": "সংযুক্ত গড় = (n1x1 + n2x2)/(n1+n2) = (20x60 + 30x80)/50 = (1200+2400)/50 = 3600/50 = 72।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 5 numbers is 20. If one number 30 is excluded, the new average is:",
+        "as": "5 টা সংখ্যাৰ গড় 20। যদি 30 সংখ্যাটো বাদ দিয়া হয়, নতুন গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "18",
+          "as": "18"
+        },
+        {
+          "en": "17.5",
+          "as": "17.5"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Total of 5 numbers = 20 x 5 = 100. After excluding 30, sum = 100 - 30 = 70 and count = 4, so new average = 70/4 = 17.5.",
+        "as": "5 টা সংখ্যাৰ মুঠ = 20 x 5 = 100। 30 বাদ দিলে যোগফল = 100 - 30 = 70 আৰু সংখ্যা = 4, সেয়ে নতুন গড় = 70/4 = 17.5।"
+      }
+    },
+    {
+      "q": {
+        "en": "The geometric mean of 9 and 16 is:",
+        "as": "9 আৰু 16 ৰ গুণোত্তৰ গড় কি?"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "12.5",
+          "as": "12.5"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "13",
+          "as": "13"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Geometric mean of two numbers = sqrt(a x b) = sqrt(9 x 16) = sqrt(144) = 12.",
+        "as": "দুটা সংখ্যাৰ গুণোত্তৰ গড় = sqrt(a x b) = sqrt(9 x 16) = sqrt(144) = 12।"
+      }
+    },
+    {
+      "q": {
+        "en": "The harmonic mean of 3 and 6 is:",
+        "as": "3 আৰু 6 ৰ সমঞ্জন গড় কি?"
+      },
+      "options": [
+        {
+          "en": "4.5",
+          "as": "4.5"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "3.5",
+          "as": "3.5"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Harmonic mean of two numbers = 2ab/(a+b) = (2 x 3 x 6)/(3+6) = 36/9 = 4.",
+        "as": "দুটা সংখ্যাৰ সমঞ্জন গড় = 2ab/(a+b) = (2 x 3 x 6)/(3+6) = 36/9 = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The weighted average of 40 and 60 with weights 2 and 3 respectively is:",
+        "as": "2 আৰু 3 ওজনৰ সৈতে 40 আৰু 60 ৰ ওজনযুক্ত গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "50",
+          "as": "50"
+        },
+        {
+          "en": "48",
+          "as": "48"
+        },
+        {
+          "en": "54",
+          "as": "54"
+        },
+        {
+          "en": "52",
+          "as": "52"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Weighted average = (w1x1 + w2x2)/(w1+w2) = (2x40 + 3x60)/(2+3) = (80+180)/5 = 260/5 = 52.",
+        "as": "ওজনযুক্ত গড় = (w1x1 + w2x2)/(w1+w2) = (2x40 + 3x60)/(2+3) = (80+180)/5 = 260/5 = 52।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 6, 8, 10, 12 and 14 is:",
+        "as": "6, 8, 10, 12 আৰু 14 ৰ গড় কি?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mean = (6+8+10+12+14)/5 = 50/5 = 10.",
+        "as": "গড় = (6+8+10+12+14)/5 = 50/5 = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "If each observation of a data set is increased by 5, the mean:",
+        "as": "যদি তথ্যসমূহৰ প্ৰতিটো মান 5 বৃদ্ধি কৰা হয়, গড়:"
+      },
+      "options": [
+        {
+          "en": "Remains the same",
+          "as": "একে থাকে"
+        },
+        {
+          "en": "Decreases by 5",
+          "as": "5 হ্ৰাস হয়"
+        },
+        {
+          "en": "Becomes 5 times",
+          "as": "5 গুণ হয়"
+        },
+        {
+          "en": "Increases by 5",
+          "as": "5 বৃদ্ধি হয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Adding a constant c to every observation increases the mean by the same constant c. Adding 5 therefore increases the mean by 5.",
+        "as": "প্ৰতিটো পৰ্যবেক্ষণত ধ্ৰুৱক c যোগ কৰিলে গড়ও c ৰ সমান বৃদ্ধি পায়। সেয়ে 5 যোগ কৰিলে গড় 5 বৃদ্ধি হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The sum of the deviations of observations from their arithmetic mean is always:",
+        "as": "পাটিগাণিতিক গড়ৰ পৰা পৰ্যবেক্ষণবোৰৰ বিচ্যুতিৰ যোগফল সদায়:"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "Equal to the mean",
+          "as": "গড়ৰ সমান"
+        },
+        {
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "en": "Positive",
+          "as": "ধনাত্মক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The arithmetic mean is the balance point of the data, so the sum of deviations of observations from the mean is always zero.",
+        "as": "পাটিগাণিতিক গড় হৈছে তথ্যৰ ভাৰসাম্য বিন্দু, সেয়ে গড়ৰ পৰা পৰ্যবেক্ষণবোৰৰ বিচ্যুতিৰ যোগফল সদায় শূন্য হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 15 numbers is 18. If 3 is added to each number, the new average is:",
+        "as": "15 টা সংখ্যাৰ গড় 18। যদি প্ৰতিটো সংখ্যাত 3 যোগ কৰা হয়, নতুন গড় কিমান?"
+      },
+      "options": [
+        {
+          "en": "18",
+          "as": "18"
+        },
+        {
+          "en": "21",
+          "as": "21"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        },
+        {
+          "en": "24",
+          "as": "24"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Adding a constant 3 to each of the 15 numbers increases the mean by 3, so the new average = 18 + 3 = 21.",
+        "as": "15 টা সংখ্যাৰ প্ৰতিটোত 3 যোগ কৰিলে গড় 3 বৃদ্ধি পায়, সেয়ে নতুন গড় = 18 + 3 = 21।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mid-value of the class interval 20–30 is:",
+        "as": "20–30 শ্ৰেণী ব্যৱধানৰ মধ্যমান কি?"
+      },
+      "options": [
+        {
+          "en": "20",
+          "as": "20"
+        },
+        {
+          "en": "30",
+          "as": "30"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Mid-value of a class interval = (lower limit + upper limit)/2 = (20+30)/2 = 25.",
+        "as": "শ্ৰেণী ব্যৱধানৰ মধ্যমান = (নিম্ন সীমা + উৰ্ধ সীমা)/2 = (20+30)/2 = 25।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which measure of central tendency is affected most by extreme values?",
+        "as": "কেন্দ্ৰীয় প্ৰৱণতাৰ কোনটো জোখ চৰম মানৰ দ্বাৰা সৰ্বাধিক প্ৰভাৱিত হয়?"
+      },
+      "options": [
+        {
+          "en": "Median",
+          "as": "মধ্যমা"
+        },
+        {
+          "en": "Mode",
+          "as": "প্ৰচলক"
+        },
+        {
+          "en": "Mean",
+          "as": "গড়"
+        },
+        {
+          "en": "Range",
+          "as": "পৰিসৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The mean uses every observation in its calculation, so it is affected most by extreme values; the median and mode are more resistant.",
+        "as": "গড়ে গণনাত প্ৰতিটো পৰ্যবেক্ষণ ব্যৱহাৰ কৰে, সেয়ে চৰম মানৰ দ্বাৰা ই সৰ্বাধিক প্ৰভাৱিত হয়; মধ্যমা আৰু প্ৰচলক তুলনামূলকভাৱে কম প্ৰভাৱিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "For the data 3, 5, 7, 9, 11, the mean is:",
+        "as": "3, 5, 7, 9, 11 তথ্যৰ গড় কি?"
+      },
+      "options": [
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Mean = (3+5+7+9+11)/5 = 35/5 = 7.",
+        "as": "গড় = (3+5+7+9+11)/5 = 35/5 = 7।"
+      }
+    },
+    {
+      "q": {
+        "en": "A student scored 45, 55 and 65 in three tests. What should be the score in the fourth test to get an average of 60?",
+        "as": "এজন ছাত্ৰই তিনিটা পৰীক্ষাত 45, 55 আৰু 65 নম্বৰ পায়। গড় 60 পাবলৈ চতুৰ্থ পৰীক্ষাত কিমান নম্বৰ লাগে?"
+      },
+      "options": [
+        {
+          "en": "70",
+          "as": "70"
+        },
+        {
+          "en": "80",
+          "as": "80"
+        },
+        {
+          "en": "75",
+          "as": "75"
+        },
+        {
+          "en": "65",
+          "as": "65"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "For an average of 60 in 4 tests, total required = 60 x 4 = 240. Current total = 45+55+65 = 165, so fourth test score = 240 - 165 = 75.",
+        "as": "4 টা পৰীক্ষাত গড় 60 পাবলৈ প্ৰয়োজনীয় মুঠ = 60 x 4 = 240। বৰ্তমান মুঠ = 45+55+65 = 165, সেয়ে চতুৰ্থ পৰীক্ষাৰ নম্বৰ = 240 - 165 = 75।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 2.5, 3.5, 4.5, 5.5 and 6.5 is:",
+        "as": "2.5, 3.5, 4.5, 5.5 আৰু 6.5 ৰ গড় কি?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "4.5",
+          "as": "4.5"
+        },
+        {
+          "en": "5.5",
+          "as": "5.5"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mean = (2.5+3.5+4.5+5.5+6.5)/5 = 22.5/5 = 4.5.",
+        "as": "গড় = (2.5+3.5+4.5+5.5+6.5)/5 = 22.5/5 = 4.5।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the mean of x, x + 2 and x + 4 is 12, then x is:",
+        "as": "যদি x, x + 2 আৰু x + 4 ৰ গড় 12 হয়, তেন্তে x ৰ মান কি?"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mean = (x + x+2 + x+4)/3 = 12, so 3x + 6 = 36, giving 3x = 30 and x = 10.",
+        "as": "গড় = (x + x+2 + x+4)/3 = 12, সেয়ে 3x + 6 = 36, অৰ্থাৎ 3x = 30 আৰু x = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of the first 9 natural numbers is:",
+        "as": "প্ৰথম 9 টা স্বাভাৱিক সংখ্যাৰ মধ্যমা কি?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The first 9 natural numbers are 1 to 9. With n = 9 (odd), median = 5th term = 5.",
+        "as": "প্ৰথম 9 টা স্বাভাৱিক সংখ্যা 1 ৰ পৰা 9 লৈকে। n = 9 (অযুগ্ম), সেয়ে মধ্যমা = পঞ্চম পদ = 5।"
+      }
+    }
+  ]
+}

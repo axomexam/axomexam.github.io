@@ -1,0 +1,2235 @@
+#!/usr/bin/env node
+/* ============================================================
+   axomexam — tools/prerender.js
+   Static prerenderer (SSG) for Google / Bing indexing.
+
+   Why:
+     The site is a client-side SPA. Every route is rendered by
+     JavaScript, so Googlebot sees an empty shell (or a GitHub
+     Pages 404) for deep links like /topic/gk/... and the single
+     hardcoded <link rel="canonical"> made every page look like
+     the homepage. Result: deep pages never get indexed.
+
+   What it does:
+     For EVERY route of the app it generates a real static
+     index.html containing:
+       - unique <title>, <meta name="description">,
+         <link rel="canonical">, Open Graph + JSON-LD
+       - the full page content embedded in <main id="app">
+     The same CSS/JS still loads, so when a human visits the
+     page the SPA boots and renders the identical UI.
+
+   Usage:
+     node tools/prerender.js
+     Output is written to ./dist (ready to deploy).
+
+   No third-party dependencies. Node 14+.
+   ============================================================ */
+
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = path.resolve(__dirname, "..");
+const SRC_DATA = path.join(ROOT, "data");
+const OUT = path.join(ROOT, "dist");
+
+const BASE = "https://axomexam.in";
+const SITE_NAME = "axomexam";
+const SITE_TAGLINE =
+  "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
+const VERSION = "20260914a";
+const OG_ALT =
+  "axomexam - Assam Exam Preparation - Mock Tests, Previous Papers & PDF Notes";
+
+/* Exam-name keyword mentions (used across Mathematics SEO pages). */
+const EXAM_TITLE = "APSC, ADRE 2.0, Assam Police, SSC & Railway";
+const EXAM_SENTENCE = "APSC, ADRE 2.0, Assam Police, SSC and Railway exams in Assam";
+const isMathCat = (cat) => cat && cat.id === "math";
+
+/* ================= helpers ================= */
+
+function escapeHtml(str) {
+  return String(str == null ? "" : str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function loc(obj) {
+  if (obj == null) return "";
+  if (typeof obj === "string") return obj;
+  return obj.en || obj.as || "";
+}
+
+function locAs(obj) {
+  if (obj == null) return "";
+  if (typeof obj === "object" && !Array.isArray(obj)) return obj.as || obj.en || "";
+  return "";
+}
+
+/* ================= visual media (figures, shapes, data tables) =================
+   Mirrors js/app.js media support so figure-based reasoning questions
+   (image analogy, image classification, venn diagrams, data-table puzzles)
+   are also rendered in the static/SEO pages. */
+function sanitizeMedia(html) {
+  if (html == null) return "";
+  return String(html)
+    .replace(/<\s*script[\s\S]*?<\s*\/\s*script\s*>/gi, "")
+    .replace(/<\s*script[\s\S]*$/gi, "")
+    .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
+    .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "")
+    .replace(/\son[a-z]+\s*=\s*[^\s>]+/gi, "")
+    .replace(/javascript\s*:/gi, "");
+}
+
+function tableHTML(tbl) {
+  if (!tbl) return "";
+  const obj = tbl && typeof tbl === "object" && !Array.isArray(tbl) ? tbl : { rows: tbl };
+  const head = Array.isArray(obj.head) ? obj.head : (Array.isArray(obj.headers) ? obj.headers : []);
+  const rows = Array.isArray(obj.rows) ? obj.rows : [];
+  if (!head.length && !rows.length) return "";
+  const cell = (v) => (v === undefined || v === null ? "" : escapeHtml(loc(v)));
+  const cap = obj.caption ? `<div class="nv-table-cap">${escapeHtml(loc(obj.caption))}</div>` : "";
+  return `
+    <div class="nv-table-wrap" style="margin:10px 0;">${cap}
+      <table class="nv-table" style="border-collapse:collapse; width:100%; font-size:0.9rem; margin:6px 0;">
+        ${head.length ? `<thead><tr>${head.map((h) => `<th style="border:1px solid #cbd5e1; background:#f1f5f9; padding:6px 10px; text-align:left;">${cell(h)}</th>`).join("")}</tr></thead>` : ""}
+        <tbody>${rows.map((r) => `<tr>${(Array.isArray(r) ? r : []).map((td) => `<td style="border:1px solid #e2e8f0; padding:6px 10px; text-align:left;">${cell(td)}</td>`).join("")}</tr>`).join("")}</tbody>
+      </table>
+    </div>`;
+}
+
+function questionMediaHTML(q) {
+  if (!q) return "";
+  const parts = [];
+  if (q.fig) parts.push(`<div class="nv-media" style="margin:8px 0;">${sanitizeMedia(q.fig)}</div>`);
+  if (q.table) parts.push(tableHTML(q.table));
+  return parts.join("");
+}
+
+function figOptionsList(q) {
+  if (!q || !Array.isArray(q.options)) return null;
+  if (!q.options.some((o) => o && typeof o === "object" && o.fig)) return null;
+  return q.options.map((o, i) => {
+    const letters = "ABCDEFGHIJ";
+    const letter = o && typeof o === "object" && o.option ? String(o.option) : letters[i] || "";
+    if (!o || typeof o !== "object") return { letter, fig: "", text: String(o || "") };
+    return { letter, fig: sanitizeMedia(o.fig || ""), text: loc(o) || "" };
+  });
+}
+
+function figOptionsHTML(q) {
+  const fops = figOptionsList(q);
+  if (!fops) return "";
+  return `
+    <div class="nv-fig-grid" style="display:flex; flex-wrap:wrap; gap:14px; margin:10px 0;">
+      ${fops.map((o) => `
+        <div class="nv-fig-item" style="display:flex; flex-direction:column; align-items:center; gap:4px;">
+          <div style="font-weight:800; color:#4f46e5; font-size:0.85rem;">(${o.letter})</div>
+          <div class="nv-fig-box" style="border:1px solid #e2e8f0; background:#f8fafc; border-radius:10px; padding:8px; display:flex; align-items:center; justify-content:center; min-width:88px; min-height:88px;">${o.fig || (o.text ? `<span>${escapeHtml(o.text)}</span>` : "")}</div>
+          ${o.fig && o.text ? `<div class="nv-fig-cap" style="font-size:0.8rem; color:#475569;">${escapeHtml(o.text)}</div>` : ""}
+        </div>`).join("")}
+    </div>`;
+}
+
+/* Convert multiline bullet-list description text into semantic HTML
+   (matches the SPA's expandable "Read More" page-desc rendering). */
+function descHTML(desc) {
+  const lines = String(desc || "")
+    .split("\n")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (lines.length <= 1) return escapeHtml(desc || "");
+  let html = "";
+  let inList = false;
+  for (const line of lines) {
+    const m = line.match(/^[•\-*]\s*(.*)$/);
+    if (m) {
+      if (!inList) { html += "<ul>"; inList = true; }
+      html += "<li>" + escapeHtml(m[1]) + "</li>";
+    } else {
+      if (inList) { html += "</ul>"; inList = false; }
+      html += "<p>" + escapeHtml(line) + "</p>";
+    }
+  }
+  if (inList) html += "</ul>";
+  return html;
+}
+
+function readJSON(p) {
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch (e) {
+    return null;
+  }
+}
+
+function writeFile(relPath, content) {
+  const abs = path.join(OUT, relPath);
+  fs.mkdirSync(path.dirname(abs), { recursive: true });
+  fs.writeFileSync(abs, content, "utf8");
+}
+
+function ensureCleanDir() {
+  fs.rmSync(OUT, { recursive: true, force: true });
+  fs.mkdirSync(OUT, { recursive: true });
+}
+
+/* ================= data loading ================= */
+
+const CATEGORIES_DATA = readJSON(path.join(SRC_DATA, "categories.json"));
+const RAW_CATS = (CATEGORIES_DATA && CATEGORIES_DATA.categories) || [];
+
+/* Build a topic-id -> file map per category (files may be flat or nested). */
+const contentFiles = {};
+(function walk(dir, catId, files) {
+  let entries = [];
+  try {
+    entries = fs.readdirSync(dir, { withFileTypes: true });
+  } catch (e) {
+    return;
+  }
+  for (const e of entries) {
+    const full = path.join(dir, e.name);
+    if (e.isDirectory()) walk(full, catId, files);
+    else if (e.name.endsWith(".json")) {
+      const id = e.name.replace(/\.json$/, "");
+      if (!files[id]) files[id] = full;
+    }
+  }
+})(path.join(SRC_DATA, "content"), null, ({}));
+
+function contentFilesForCategory(catId) {
+  const map = {};
+  const base = path.join(SRC_DATA, "content", catId);
+  try {
+    for (const e of fs.readdirSync(base, { withFileTypes: true })) {
+      const full = path.join(base, e.name);
+      if (e.isDirectory()) {
+        for (const f of fs.readdirSync(full)) {
+          if (f.endsWith(".json")) {
+            const id = f.replace(/\.json$/, "");
+            if (!map[id]) map[id] = path.join(full, f);
+          }
+        }
+      } else if (e.name.endsWith(".json")) {
+        const id = e.name.replace(/\.json$/, "");
+        if (!map[id]) map[id] = full;
+      }
+    }
+  } catch (e) {}
+  return map;
+}
+
+/* Content files come in two shapes:
+     1) canonical bilingual: { title:{en,as}, description:{en,as}, tags:[...],
+        questions:[{ q:{en,as}, a:{en,as}, ... }] }
+     2) legacy flat: { title:"...", questions:[{ question_en, question_as,
+        answer_en, answer_as }] }
+   Normalise both into the canonical shape so every topic renders its
+   questions (and bilingual metadata) regardless of file age. */
+function normalizeQuestion(q) {
+  if (!q || typeof q !== "object") return q;
+  const pickEn = (v) => {
+    if (typeof v === "string") return v.trim() ? v : "";
+    if (v && typeof v === "object" && typeof v.en === "string") return v.en;
+    return "";
+  };
+  const pickAs = (v) => {
+    if (v && typeof v === "object" && typeof v.as === "string") return v.as;
+    return "";
+  };
+  const asString = (v) => (typeof v === "string" ? v : "");
+  const out = Object.assign({}, q);
+  out.q = {
+    en: pickEn(q.q) || asString(q.question_en),
+    as: pickAs(q.q) || asString(q.question_as),
+  };
+  out.a = {
+    en: pickEn(q.a) || asString(q.answer_en) || asString(q.answer),
+    as: pickAs(q.a) || asString(q.answer_as),
+  };
+  return out;
+}
+
+function normalizeTopicContent(data) {
+  if (!data || typeof data !== "object") return data;
+  const out = Object.assign({}, data);
+  if (Array.isArray(data.questions)) out.questions = data.questions.map(normalizeQuestion);
+  if (out.title == null && data.name != null) out.title = data.name;
+  return out;
+}
+
+function readTopicContent(catId, topicId) {
+  const map = contentFilesForCategory(catId);
+  if (map[topicId]) return normalizeTopicContent(readJSON(map[topicId]));
+  return null;
+}
+
+/* Trending topics */
+const trendingTopics = [];
+try {
+  for (const f of fs.readdirSync(path.join(SRC_DATA, "trending-topics"))) {
+    if (f.endsWith(".json")) {
+      const d = readJSON(path.join(SRC_DATA, "trending-topics", f));
+      if (d && d.id) trendingTopics.push(d);
+    }
+  }
+} catch (e) {}
+
+/* Load CONFIG from js/config.js (a plain JS file, not JSON) */
+const vm = require("vm");
+function loadConfig() {
+  try {
+    const src = fs.readFileSync(path.join(ROOT, "js", "config.js"), "utf8");
+    const sandbox = {};
+    vm.createContext(sandbox);
+    const config = vm.runInContext(src + "\n; CONFIG;", sandbox);
+    return config || {};
+  } catch (e) {
+    return {};
+  }
+}
+const CONFIG = loadConfig();
+const FALLBACK_PYEAR = (CONFIG.FALLBACK && CONFIG.FALLBACK.PYEAR) || {};
+const PYEAR_EXAMS =
+  (CONFIG.PYEAR_EXAMS || []).map((ex) => ({ id: ex.id, name: ex.name }));
+
+/* Downloads */
+const DOWNLOADS = (CONFIG.FALLBACK && CONFIG.FALLBACK.DOWNLOADS) || [];
+
+/* Legacy routes that changed and are now 404s.
+   Each one is emitted as a noindex redirect stub so the old (possibly
+   still-indexed) URL forwards to its current location instead of returning
+   a hard 404. Kept out of the sitemap on purpose. */
+const LEGACY_REDIRECTS = {
+  "/previous-year/guwahati-hc/2024": "/previous-year/guwahati-hc/2026/",
+};
+
+/* ================= E-Books (read-only online readers) ================= */
+
+function ebkColor(book) {
+  const c = book && book.color;
+  return /^#[0-9a-fA-F]{3,8}$/.test(c || "") ? c : "#4f46e5";
+}
+
+function ebkLang(obj, lang) {
+  if (obj == null) return "";
+  if (typeof obj === "string") return obj;
+  const l = lang || "en";
+  if (obj[l] && String(obj[l]).trim()) return obj[l];
+  return obj.en || obj.as || "";
+}
+
+function formatMath(str) {
+  if (str == null) return "";
+  let s = String(str);
+  const hasLatex = /\$[^$]+\$|\\\([^\\]+\\\)/.test(s);
+  if (!hasLatex) {
+    s = escapeHtml(s);
+    s = s.replace(/sqrt\(([^)]+)\)/gi, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
+    s = s.replace(/√\(([^)]+)\)/g, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
+    s = s.replace(/\^{([^}]+)}/g, '<sup>$1</sup>');
+    s = s.replace(/\^([\-\+]?[0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sup>$1</sup>');
+    s = s.replace(/_{([^}]+)}/g, '<sub>$1</sub>');
+    s = s.replace(/_([0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sub>$1</sub>');
+    s = s.replace(/\+\/-/g, '&plusmn;');
+    s = s.replace(/&lt;=/g, '&le;').replace(/&gt;=/g, '&ge;');
+  }
+  return s;
+}
+
+function ebkContentHTML(text) {
+  if (text == null) return "";
+  const lines = String(text).split("\n");
+  let html = "";
+  let listOpen = false;
+  const closeList = () => { if (listOpen) { html += "</ul>"; listOpen = false; } };
+  lines.forEach((raw) => {
+    const line = (raw || "").trim();
+    if (!line) { closeList(); return; }
+    const bullet = line.match(/^[-•*]\s+(.*)$/);
+    if (bullet) {
+      if (!listOpen) { html += '<ul class="ebk-list">'; listOpen = true; }
+      html += `<li>${formatMath(bullet[1])}</li>`;
+    } else {
+      closeList();
+      html += `<p class="ebk-para">${formatMath(line)}</p>`;
+    }
+  });
+  closeList();
+  return html;
+}
+
+/* Localised "Contents" heading, matching js/i18n.js ebooks.toc. */
+const EBK_TOC_LABEL = { en: "Contents", as: "বিষয়-সূচী" };
+
+function ebkReaderBodyHTML(book, lang, idPrefix) {
+  const chapters = book.chapters || [];
+  const prefix = String(idPrefix || "ebk-ch").replace(/[^A-Za-z0-9_-]/g, "");
+  const tocLabel = EBK_TOC_LABEL[lang] || EBK_TOC_LABEL.en;
+  const toc = chapters.map((c, i) => `
+      <a class="ebk-toc-item" href="#${prefix}-${i}">
+        <span class="ebk-toc-no">${i + 1}</span>
+        <span>${escapeHtml(ebkLang(c.title, lang))}</span>
+      </a>`).join("");
+  const list = chapters.map((c, i) => `
+      <section class="ebk-chapter" id="${prefix}-${i}">
+        <h3 class="ebk-ch-title"><span class="ebk-ch-no">${i + 1}</span>${escapeHtml(ebkLang(c.title, lang))}</h3>
+        <div class="ebk-ch-body">${ebkContentHTML(ebkLang(c.content, lang))}</div>
+      </section>`).join("");
+  return `
+      ${chapters.length > 1 ? `<nav class="ebk-toc" aria-label="${tocLabel}"><h4>${tocLabel}</h4>${toc}</nav>` : ""}
+      <div class="ebk-chapters">${list}</div>`;
+}
+
+/* Both languages. This block lives INSIDE <main id="app">, which the runtime
+   replaces on load, so it is the crawler / no-JS copy — the same convention
+   topic, exam and current-affairs pages use: each language sits in its own
+   lang="…" wrapper and BOTH are rendered, so Googlebot indexes the full
+   bilingual book. No data-axo-lang here: css/style.css hides
+   [data-axo-lang=as] until body[data-lang=as], which would make the Assamese
+   text invisible to crawlers. */
+function ebkBilingualBodyHTML(book) {
+  return ["en", "as"].map((lang) =>
+    `<div lang="${lang}">${ebkReaderBodyHTML(book, lang, lang === "en" ? "ebk-ch" : "ebk-ch-as")}</div>`
+  ).join("");
+}
+
+const EBOOKS = [];
+try {
+  for (const f of fs.readdirSync(path.join(ROOT, "data", "books"))) {
+    if (!f.endsWith(".json")) continue;
+    const d = readJSON(path.join(ROOT, "data", "books", f));
+    if (d && d.id && d.title && (d.chapters || []).length) EBOOKS.push(d);
+  }
+} catch (e) {}
+EBOOKS.sort((a, b) =>
+  ebkLang(a.title, "en").localeCompare(ebkLang(b.title, "en")));
+
+/* ================= build the route tree (mirrors app.js normalize) ================= */
+
+const categories = [];
+const topicMap = {}; // path -> rec
+const topicIndex = [];
+
+function pushTopic(topic, cat, sub, section) {
+  const segs = [cat.id, sub ? sub.id : "", section ? section.id : ""]
+    .filter(Boolean)
+    .concat([topic.id]);
+  const p = segs.join("/");
+  const rec = {
+    path: p,
+    cat, sub, section, topic,
+    title: topic.title || topic.name,
+    desc: topic.description,
+    tags: topic.tags || [],
+    nQuestions: (topic.questions || []).length,
+    pdf: topic.pdf || null,
+    popularity: Number(topic.popularity) || 0,
+  };
+  topicMap[p] = rec;
+  topicIndex.push(rec);
+}
+
+for (const cat of RAW_CATS) {
+  cat.name = cat.name || { en: cat.id, as: cat.id };
+  cat.description = cat.description || {};
+  const subs = cat.subcategories || [];
+  if (subs.length) {
+    for (const sub of subs) {
+      sub.name = sub.name || { en: sub.id, as: sub.id };
+      const secs = sub.sections || [];
+      if (secs.length) {
+        for (const sec of secs) {
+          sec.name = sec.name || { en: sec.id, as: sec.id };
+          for (const tp of sec.topics || []) pushTopic(tp, cat, sub, sec);
+        }
+      } else if ((sub.topics || []).length) {
+        for (const tp of sub.topics || []) pushTopic(tp, cat, sub, null);
+      } else {
+        /* Leaf sub-category with no topics of its own still gets a page and a
+           topic-index record, exactly as the runtime walk in js/app.src.js. */
+        const p = [cat.id, sub.id].join("/");
+        const rec = {
+          path: p, cat, sub, section: null, topic: sub,
+          title: sub.name, desc: sub.description, tags: [],
+          nQuestions: 0, pdf: null, popularity: Number(sub.popularity) || 0,
+        };
+        topicMap[p] = rec;
+        topicIndex.push(rec);
+      }
+    }
+  } else {
+    const secs = cat.sections || [];
+    if (secs.length) {
+      for (const sec of secs) {
+        sec.name = sec.name || { en: sec.id, as: sec.id };
+        for (const tp of sec.topics || []) pushTopic(tp, cat, null, sec);
+      }
+    } else {
+      for (const tp of cat.topics || []) pushTopic(tp, cat, null, null);
+    }
+  }
+  categories.push(cat);
+}
+
+const trendingCat = {
+  id: "trending",
+  name: { en: "Trending Topics", as: "জনপ্ৰিয় বিষয়সমূহ" },
+  color: "#f97316",
+};
+for (const tp of trendingTopics) {
+  const p = `trending/${tp.id}`;
+  topicMap[p] = {
+    path: p, cat: trendingCat, sub: null, section: null, topic: tp,
+    title: tp.title || tp.name, desc: tp.description,
+    tags: tp.tags || [], nQuestions: (tp.questions || []).length,
+    pdf: tp.pdf || null, popularity: Number(tp.popularity) || 0, extra: true,
+  };
+  topicIndex.push(topicMap[p]);
+}
+
+/* ================= page shell ================= */
+
+function shellHTML({ route, title, description, descriptionAs, canonical, keywords, keywordsAs, ogImageAlt, robots, body }) {
+  const rawCanonical = canonical || BASE + route;
+  /* GitHub Pages serves directory routes with a trailing slash and 301s the
+     slash-less variant, so the canonical must match the final URL. */
+  const canonicalUrl = rawCanonical.endsWith("/") ? rawCanonical : rawCanonical + "/";
+  const robotsContent = robots || "index, follow";
+  const ogTitle = escapeHtml(title);
+  const ogDesc = escapeHtml(description);
+  /* Page-level node: tells Google/Bing (and AI crawlers) the page is
+     bilingual. hreflang is intentionally NOT used here because every page
+     serves both languages on one URL; on a single URL hreflang would just
+     point back to itself and be ignored, so the correct signals are
+     <html lang>, og:locale:alternate and schema inLanguage. */
+  const webpageJSONLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": canonicalUrl + "#webpage",
+    url: canonicalUrl,
+    name: title,
+    inLanguage: ["en", "as"],
+    isPartOf: { "@type": "WebSite", "@id": BASE + "/#website", url: BASE + "/", name: SITE_NAME },
+  }).replace(/</g, "\\u003c");
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="${ogDesc}" />
+  <meta name="robots" content="${robotsContent}" />
+  <meta name="theme-color" content="#4f46e5" />
+  <title>${ogTitle}</title>
+
+  <!-- Canonical URL (unique per page) -->
+  <link rel="canonical" href="${canonicalUrl}" />
+
+  <!-- Bilingual page graph (English + Assamese) -->
+  <script type="application/ld+json">${webpageJSONLD}</script>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="${SITE_NAME}" />
+  <meta property="og:title" content="${ogTitle}" />
+  <meta property="og:description" content="${ogDesc}" />
+  <meta property="og:url" content="${canonicalUrl}" />
+
+  <meta property="og:image" content="${BASE}/og-image.png" />
+
+  <meta property="og:image:width" content="1200" />
+
+  <meta property="og:image:height" content="630" />
+
+  <meta property="og:image:alt" content="${escapeHtml(ogImageAlt || OG_ALT)}" />
+
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:locale:alternate" content="as_IN" />
+
+
+  <meta name="twitter:image" content="${BASE}/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="${ogTitle}" />
+  <meta name="twitter:description" content="${ogDesc}" />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Serif+Bengali:wght@500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Serif+Bengali:wght@500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Serif+Bengali:wght@500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" /></noscript>
+
+  <!-- Fixed Absolute CSS Path -->
+  <link rel="stylesheet" href="/css/style.css?v=${VERSION}" />
+
+  <!-- GitHub Pages / Netlify Clean URL Single Page App Redirection Handler -->
+  <script>
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+
+  <!-- Google AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4574824794620382" crossorigin="anonymous"></script>
+
+  <!-- KaTeX Math & Formula Rendering Engine -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" /></noscript>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Robust Zero-Blank-Page PDF Rendering Engines -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("axomexam-theme");
+        if (t === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      } catch (e) { }
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div id="preloader" aria-hidden="true">
+    <div class="loader-logo">axomexam</div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand" aria-label="axomexam home">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">axomexam.in</span>
+      </a>
+
+      <!-- Master Search + theme toggle (desktop) -->
+      <div class="header-center">
+        <div class="search-wrap" role="search">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="master-search" type="search" autocomplete="off" spellcheck="false"
+                 placeholder="Search questions, topics, keywords..." aria-label="Search" />
+          <div id="search-results" class="search-results" hidden></div>
+        </div>
+
+        <!-- Theme toggle (desktop) -->
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+        </button>
+      </div>
+
+      <!-- Hamburger -->
+      <button id="hamburger" class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="main-nav" aria-label="Primary navigation">
+      <div class="container nav-inner">
+        <ul class="nav-list" id="nav-list"></ul>
+      </div>
+    </nav>
+
+    <!-- Mobile App Tab Bar (in header, mobile only) -->
+    <nav class="tabbar" id="tabbar" aria-label="App navigation">
+      <a href="/" class="tab-item" data-tab="home">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+        <span data-i18n="tab.home">Home</span>
+      </a>
+      <a href="/mock-test" class="tab-item" data-tab="mock">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
+        <span data-i18n="tab.mock">Mock Test</span>
+      </a>
+      <a href="/categories" class="tab-item" data-tab="categories">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+        <span data-i18n="tab.categories">Practice</span>
+      </a>
+      <a href="/search" class="tab-item" id="tab-search" data-tab="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <span data-i18n="tab.search">Search</span>
+      </a>
+      <button class="tab-item" id="tab-menu" data-tab="menu" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16"/><path d="M4 12h16"/><path d="M4 20h16"/></svg>
+        <span data-i18n="tab.menu">Menu</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== Mobile Menu ===== -->
+  <div id="mobile-menu" class="mobile-menu" hidden>
+    <div class="mobile-menu-head">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">axomexam</span>
+      <button class="theme-toggle m-theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+      </button>
+      <button id="mobile-close" class="m-close" type="button" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+    <ul class="mobile-nav" id="mobile-nav"></ul>
+  </div>
+  <div id="mobile-backdrop" class="mobile-backdrop" hidden></div>
+
+  <!-- ===== Main Content Area ===== -->
+  <main id="app" class="container main">
+    <noscript>
+      <p class="nojs-title"><strong>axomexam - Assam Competitive Exam Preparation Portal</strong></p>
+      <p>Free bilingual (Assamese & English) mock tests, previous year solved question papers, and PDF study notes for APSC, Assam Police, ADRE, SSC, and Railway exams.</p>
+    </noscript>
+${body}
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">axomexam</span>
+        <p id="footer-tagline" class="footer-tagline">Comprehensive Preparation Portal for Assam Competitive Exams</p>
+        <p class="footer-contact">Contact: <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4 data-i18n="footer.exam">Exams</h4>
+          <ul>
+            <li><a href="/previous-year/ssc/">SSC</a></li>
+            <li><a href="/previous-year/railway/">Railway</a></li>
+            <li><a href="/previous-year/assam-police/">Assam Police</a></li>
+            <li><a href="/previous-year/guwahati-hc/">Guwahati High Court</a></li>
+            <li><a href="/previous-year/dhs-dme/">DHS / DME</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.quick">Quick Links</h4>
+          <ul>
+            <li><a href="/" data-i18n="footer.home">Home</a></li>
+            <li><a href="/category/articles" data-i18n="nav.articles">Articles</a></li>
+            <li><a href="/mock-test" data-i18n="nav.mock">Mock Test</a></li>
+            <li><a href="/previous-year">Previous Papers</a></li>
+            <li><a href="/ebooks" data-i18n="nav.ebooks">E-Books</a></li>
+            <li><a href="/downloads" data-i18n="nav.downloads">Downloads</a></li>
+            <li><a href="/download-app" data-i18n="nav.downloadApp">Download App</a></li>
+            <li><a href="/submit" data-i18n="nav.submit">Submit Q&A</a></li>
+            <li><a href="/trending" data-i18n="footer.trending">Trending Topics</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Legal & Info</h4>
+          <ul>
+            <li><a href="/about" data-i18n="footer.about">About Us</a></li>
+            <li><a href="/contact" data-i18n="footer.contact">Contact Us</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms & Conditions</a></li>
+            <li><a href="/disclaimer">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <div class="footer-bottom-bar">
+        <span class="fbb-made">Made for Assam Competitive Aspirants</span>
+        <span class="fbb-contact">Contact us : <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></span>
+        <span class="fbb-copy">&copy; 2026 <strong>axomexam.in</strong>. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Fixed Absolute JS Paths -->
+  <script src="/js/config.js?v=${VERSION}"></script>
+  <script src="/js/i18n.js?v=${VERSION}"></script>
+  <script src="/js/api.js?v=${VERSION}"></script>
+  <script src="/js/app.js?v=${VERSION}"></script>
+</body>
+</html>
+`;
+}
+
+function pageHead(breadcrumb, h1, desc) {
+  return `
+      <div class="page-head">
+        <nav class="breadcrumb">${breadcrumb}</nav>
+        <h1>${escapeHtml(h1)}</h1>
+        ${desc ? `<p class="page-desc">${descHTML(desc)}</p>` : ""}
+      </div>`;
+}
+
+function breadcrumbHTML(items) {
+  return items
+    .map((it, i) => {
+      const link =
+        i === items.length - 1
+          ? `<span>${escapeHtml(it.label)}</span>`
+          : `<a href="${it.href}">${escapeHtml(it.label)}</a>`;
+      return (i ? `<span class="bc-sep">/</span>` : "") + link;
+    })
+    .join("");
+}
+
+function faqJSONLD(rec) {
+  const content = readTopicContent(rec.cat.id, rec.topic.id) || {};
+  const qs = (content.questions || rec.topic.questions || []).slice(0, 25);
+  const faqs = qs
+    .filter((q) => q && (q.q || q.question))
+    .map((q) => {
+      const qText = q.q && q.q.en ? q.q.en : q.q || q.question;
+      const aText =
+        (q.a && q.a.en ? q.a.en : q.a) || (q.answer && q.answer.en ? q.answer.en : q.answer) || "";
+      if (!aText) return null;
+      return { "@type": "Question", name: String(qText), acceptedAnswer: { "@type": "Answer", text: String(aText) } };
+    })
+    .filter(Boolean);
+  return faqs.length
+    ? `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs })}</script>`
+    : "";
+}
+
+function breadcrumbJSONLD(items) {
+  const list = items
+    .filter((it) => it.href)
+    .map((it, i) => {
+      const item = {
+        "@type": "ListItem",
+        position: i + 1,
+        name: it.label,
+      };
+      if (it.href) item.item = it.href.startsWith("http") ? it.href : BASE + it.href;
+      return item;
+    });
+  return `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: list,
+  })}</script>`;
+}
+
+/* ================= content renderers ================= */
+
+function topicQuestionsHTML(rec) {
+  const content = readTopicContent(rec.cat.id, rec.topic.id) || {};
+  const qs = content.questions || rec.topic.questions || [];
+  if (!qs.length) return "";
+  const rows = qs
+    .map((q, i) => {
+      const qEn = q.q && q.q.en ? q.q.en : q.q;
+      const qAs = q.q && q.q.as;
+      const aEn =
+        (q.a && q.a.en) || (q.answer && q.answer.en) || (typeof q.a === "string" && q.a) || "";
+      const aAs = (q.a && q.a.as) || (q.answer && q.answer.as);
+      const figOpts = figOptionsHTML(q);
+      const options = Array.isArray(q.options) ? q.options : null;
+      return `<div class="qa-item" id="q${i + 1}" style="margin-bottom:22px;">
+        <div lang="en" style="font-weight:800; font-size:1.02rem; line-height:1.5; margin-bottom:6px;">Q${i + 1}. ${escapeHtml(String(qEn))}</div>
+        ${qAs ? `<div lang="as" style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:8px;">${escapeHtml(String(qAs))}</div>` : ""}
+        ${questionMediaHTML(q)}
+        ${figOpts ? figOpts : options ? `<div style="margin:8px 0;"><ul>${options.map((o) => `<li>${escapeHtml(loc(o))}</li>`).join("")}</ul></div>` : ""}
+        <div lang="en" style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(String(aEn))}</span></div>
+        ${aAs ? `<div lang="as" style="color:#64748b; font-size:0.9rem;">${escapeHtml(String(aAs))}</div>` : ""}
+      </div>`;
+    })
+    .join("");
+  return rows;
+}
+
+function topicListHTML(cat, sub, sec, topics) {
+  const rows = (topics || [])
+    .map((tp) => {
+      const p = [cat.id, sub ? sub.id : "", sec ? sec.id : ""]
+        .filter(Boolean)
+        .concat([tp.id])
+        .join("/");
+      const rec = topicMap[p];
+      const n = rec ? rec.nQuestions : (tp.questions || []).length;
+      return `<a class="sub-card reveal" href="/topic/${p}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+        <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(tp.name))}</div>
+        <div style="font-size:0.8rem; color:#64748b;">${n > 0 ? n + " Questions" : "Practice"}</div>
+      </a>`;
+    })
+    .join("");
+  return `<div class="sub-grid">${rows}</div>`;
+}
+
+function emptyHTML() {
+  return `<div class="qa-empty"><p>No topics available yet.</p></div>`;
+}
+
+/* ---------- page builders ---------- */
+
+/* Number of real downloadable PDF files shipped with the site. */
+const PDF_NOTE_COUNT = 21;
+
+/* Count every question stored under data/exams/<exam>/.../question-*.json,
+   so the homepage total matches what the exam pages actually contain. */
+function examQuestionTotal() {
+  let total = 0;
+  const walk = (dir) => {
+    let entries;
+    try {
+      entries = fs.readdirSync(dir, { withFileTypes: true });
+    } catch (e) {
+      return;
+    }
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      if (e.isDirectory()) {
+        walk(full);
+      } else if (e.name === "index.json") {
+        const manifest = readJSON(full);
+        if (!manifest || !Array.isArray(manifest.files)) continue;
+        for (const f of manifest.files) {
+          const arr = readJSON(path.join(path.dirname(full), f));
+          if (Array.isArray(arr)) total += arr.length;
+        }
+      }
+    }
+  };
+  walk(path.join(ROOT, "data", "exams"));
+  return total;
+}
+
+/* Total question count shown on the homepage. Mirrors the runtime sum in
+   js/app.src.js: topic counts + exam questions + current-affairs questions
+   (+ trending topics). Using the same sources keeps the prerendered HTML and
+   the hydrated page from disagreeing. */
+function homepageQuestionTotal() {
+  const counts = readJSON(path.join(ROOT, "data", "counts.json")) || {};
+  let total = 0;
+
+  const tc = counts.topicCounts;
+  if (tc && typeof tc === "object") {
+    for (const k of Object.keys(tc)) total += Number(tc[k]) || 0;
+  } else {
+    total += topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
+  }
+
+  total += Number(counts.examsTotal) || examQuestionTotal();
+
+  /* Mock-test questions that are not already in the practice / exam banks.
+     build-question-counts.js dedupes them, so this adds the new ones only. */
+  total += Number(counts.mockTotal) || 0;
+
+  const caDir = path.join(ROOT, "data", "current-affairs");
+  try {
+    for (const e of fs.readdirSync(caDir, { withFileTypes: true })) {
+      if (!e.isDirectory()) continue;
+      for (const f of fs.readdirSync(path.join(caDir, e.name))) {
+        if (!/^question-.*\.json$/i.test(f)) continue;
+        const arr = readJSON(path.join(caDir, e.name, f));
+        if (Array.isArray(arr)) total += arr.length;
+      }
+    }
+  } catch (e) {}
+
+  /* Trending topics live outside counts.json; their counts are inline. */
+  for (const r of topicIndex) {
+    if (r.path.startsWith("trending/")) total += r.nQuestions || 0;
+  }
+
+  return total;
+}
+
+function buildHome() {
+  const firstCat = (categories[0] && categories[0].id) || "gk";
+  const totalQuestions = homepageQuestionTotal();
+  /* Topic total spans every library (practice + exam books + current affairs
+     + trending); counts.json stores it, the practice index alone misses the
+     exam books. Fall back to the index length on an older manifest. */
+  const countsForTopics = readJSON(path.join(ROOT, "data", "counts.json")) || {};
+  const totalTopics =
+    typeof countsForTopics.topicsTotal === "number"
+      ? countsForTopics.topicsTotal
+      : topicIndex.length;
+  const trending = [...topicIndex]
+    .filter((r) => r.path.startsWith("trending/") || r.popularity >= 7)
+    .sort((a, b) => b.popularity - a.popularity)
+    .slice(0, 8);
+
+  const catCards = categories
+    .map((c) => {
+      const count = topicIndex.filter((r) => r.cat.id === c.id).length;
+      const metaLabel = `${count} ${count === 1 ? "Topic" : "Topics"}`;
+      return `<a class="cat-card reveal" href="/category/${c.id}" style="--cat:${c.color || "#4f46e5"}">
+        <span class="cat-meta"><b>${escapeHtml(loc(c.name))}</b><span>${metaLabel}</span></span>
+      </a>`;
+    })
+    .join("");
+
+  const trendCards = trending
+    .map((r) => `<a class="topic-card reveal" href="/topic/${r.path}">
+      <b>${escapeHtml(loc(r.title))}</b>
+      <span>${escapeHtml(loc(r.cat.name))} • ${r.nQuestions || 0} Questions</span>
+    </a>`)
+    .join("");
+
+  const body = `
+      <section class="hero reveal visible">
+        <div class="hero-content">
+          <a class="hero-badge" href="/mock-test">ADRE 3.0 / RRB</a>
+          <h1>Crack Assam Competitive Exams with Bilingual Q&amp;A &amp; PDF Notes</h1>
+          <p class="sub">Practice thousands of questions for Assam competitive exams and download printable PDF notes in both Assamese and English — for ADRE 3.0, APSC, Assam Police, SSC, Railway &amp; more.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/category/${firstCat}">Start Practicing</a>
+            <a class="btn btn-ghost" href="/mock-test">Take a Mock Test</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><b>${totalQuestions.toLocaleString()}+</b><span>Questions</span></div>
+            <div class="stat"><b>${totalTopics.toLocaleString()}+</b><span>Topics</span></div>
+            <div class="stat"><b>${PDF_NOTE_COUNT}+</b><span>PDFs</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head reveal"><div><h2>Browse Categories</h2><p class="sec-sub">Practice by subject</p></div></div>
+        <div class="cat-grid">${catCards}</div>
+      </section>
+
+      <section class="section">
+        <div class="section-head reveal"><div><h2>Trending Topics</h2></div></div>
+        <div class="topic-grid">${trendCards}</div>
+      </section>`;
+
+  return {
+    html: shellHTML({
+      route: "/",
+      title: `axomexam | Competitive Exam Preparation for Assam (APSC, ADRE, Assam Police, SSC, Railway)`,
+      description: SITE_TAGLINE,
+      keywords: "competitive exam preparation, Assam exams, APSC, ADRE, Assam Police, SSC, Railway, mock test, previous year papers",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildCategoryPage(cat) {
+  const crumb = breadcrumbHTML([{ href: "/", label: "Home" }, { label: loc(cat.name) }]);
+  const subs = cat.subcategories || [];
+  const secs = cat.sections || [];
+  const topics = cat.topics || [];
+  let listing = "";
+  if (subs.length) {
+    listing = `<div class="sub-grid">${subs
+      .map((s) => {
+        const secCount = (s.sections || []).length;
+        const topCount = (s.topics || []).length;
+        let meta;
+        if (secCount || topCount) {
+          meta = `${secCount || topCount} Topics`;
+        } else {
+          const c = readTopicContent(cat.id, s.id);
+          const q = (c && c.questions) ? c.questions.length : 0;
+          meta = q > 0 ? `${q} ${q === 1 ? "Question" : "Questions"}` : "Practice";
+        }
+        return `<a class="sub-card reveal" href="/category/${cat.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+          <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
+          <div style="font-size:0.8rem; color:#64748b;">${meta}</div>
+        </a>`;
+      })
+      .join("")}</div>`;
+  } else if (secs.length) {
+    listing = `<div class="sub-grid">${secs
+      .map(
+        (s) => `<a class="sub-card reveal" href="/category/${cat.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+          <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
+          <div style="font-size:0.8rem; color:#64748b;">${(s.topics || []).length} Topics</div>
+        </a>`
+      )
+      .join("")}</div>`;
+  } else {
+    listing = topicListHTML(cat, null, null, topics);
+  }
+
+  const body =
+    pageHead(crumb, loc(cat.name), loc(cat.description)) +
+    `<section class="section" style="padding-bottom:40px;">${listing || emptyHTML()}</section>`;
+
+  const isMath = isMathCat(cat);
+  const pageTitle = isMath
+    ? `Mathematics Questions for ${EXAM_TITLE} | axomexam`
+    : `${loc(cat.name)} Questions for Competitive Exams | axomexam`;
+  const pageDesc = loc(cat.description) ||
+    (isMath
+      ? `Quantitative aptitude, arithmetic, advanced math & DI with solved questions and answers for ${EXAM_SENTENCE}.`
+      : `Practice ${loc(cat.name)} questions with answers in English and Assamese for competitive exams in Assam.`);
+
+  return {
+    html: shellHTML({
+      route: `/category/${cat.id}`,
+      title: pageTitle,
+      description: pageDesc,
+      canonical: `${BASE}/category/${cat.id}`,
+      body,
+    }),
+    jsonld: breadcrumbJSONLD([{ href: "/", label: "Home" }, { href: `/category/${cat.id}`, label: loc(cat.name) }]),
+  };
+}
+
+function buildSubCategoryPage(cat, sub) {
+  const secs = sub.sections || [];
+  const topics = sub.topics || [];
+  let listing = "";
+  if (secs.length) {
+    listing = `<div class="sub-grid">${secs
+      .map(
+        (s) => `<a class="sub-card reveal" href="/category/${cat.id}/${sub.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+          <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
+          <div style="font-size:0.8rem; color:#64748b;">${(s.topics || []).length} Topics</div>
+        </a>`
+      )
+      .join("")}</div>`;
+  } else {
+    listing = topicListHTML(cat, sub, null, topics);
+  }
+
+  const crumb = breadcrumbHTML([
+    { href: "/", label: "Home" },
+    { href: `/category/${cat.id}`, label: loc(cat.name) },
+    { label: loc(sub.name) },
+  ]);
+  const body =
+    pageHead(crumb, loc(sub.name), loc(sub.description)) +
+    `<section class="section" style="padding-bottom:40px;">${listing || emptyHTML()}</section>`;
+
+  const isMath = isMathCat(cat);
+  return {
+    html: shellHTML({
+      route: `/category/${cat.id}/${sub.id}`,
+      title: `${loc(sub.name)} - ${loc(cat.name)} | axomexam`,
+      description: loc(sub.description) ||
+        `Practice ${loc(sub.name)} questions with answers in English and Assamese${isMath ? ` for ${EXAM_SENTENCE}` : ""}.`,
+      canonical: `${BASE}/category/${cat.id}/${sub.id}`,
+      body,
+    }),
+    jsonld: breadcrumbJSONLD([
+      { href: "/", label: "Home" },
+      { href: `/category/${cat.id}`, label: loc(cat.name) },
+      { href: `/category/${cat.id}/${sub.id}`, label: loc(sub.name) },
+    ]),
+  };
+}
+
+function buildSectionPage(cat, sub, sec) {
+  const crumb = breadcrumbHTML([
+    { href: "/", label: "Home" },
+    { href: `/category/${cat.id}`, label: loc(cat.name) },
+    { href: `/category/${cat.id}/${sub.id}`, label: loc(sub.name) },
+    { label: loc(sec.name) },
+  ]);
+  const body =
+    pageHead(crumb, loc(sec.name), loc(sec.description)) +
+    `<section class="section" style="padding-bottom:40px;">${topicListHTML(cat, sub, sec, sec.topics || [])}</section>`;
+
+  const isMath = isMathCat(cat);
+  return {
+    html: shellHTML({
+      route: `/category/${cat.id}/${sub.id}/${sec.id}`,
+      title: `${loc(sec.name)} - ${loc(sub.name)} | axomexam`,
+      description: loc(sec.description) ||
+        `Practice ${loc(sec.name)} questions with answers in English and Assamese${isMath ? ` for ${EXAM_SENTENCE}` : ""}.`,
+      canonical: `${BASE}/category/${cat.id}/${sub.id}/${sec.id}`,
+      body,
+    }),
+    jsonld: breadcrumbJSONLD([
+      { href: "/", label: "Home" },
+      { href: `/category/${cat.id}`, label: loc(cat.name) },
+      { href: `/category/${cat.id}/${sub.id}`, label: loc(sub.name) },
+      { href: `/category/${cat.id}/${sub.id}/${sec.id}`, label: loc(sec.name) },
+    ]),
+  };
+}
+
+function buildArticleSubPage(cat, sub) {
+  const target = `/category/${cat.id}/${sub.id}/read`;
+  const subName = escapeHtml(loc(sub.name));
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${subName} | axomexam</title>
+  <link rel="canonical" href="${BASE}${target}" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="refresh" content="0; url=${target}" />
+  <script>location.replace("${target}");</script>
+</head>
+<body style="margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:#f8fafc; color:#0f172a; display:flex; align-items:center; justify-content:center; min-height:100vh;">
+  <div style="text-align:center; padding:24px;">
+    <p style="font-size:1.05rem; font-weight:700; margin:0 0 8px 0;">${subName} — Articles</p>
+    <p style="font-size:0.9rem; color:#64748b; margin:0 0 16px 0;">Redirecting to the articles…</p>
+    <a style="display:inline-block; padding:10px 26px; border-radius:99px; font-weight:800; font-size:0.95rem; color:#fff; background:linear-gradient(135deg,#2563eb,#3b82f6); text-decoration:none;" href="${target}">Open Articles</a>
+  </div>
+</body>
+</html>`;
+  return {
+    html,
+    jsonld: "",
+  };
+}
+
+function buildLegacyRedirect(target) {
+  const targetUrl = BASE + target;
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This page has moved | ${SITE_NAME}</title>
+  <link rel="canonical" href="${targetUrl}" />
+  <meta name="robots" content="noindex, follow" />
+  <meta http-equiv="refresh" content="0; url=${target}" />
+  <script>location.replace("${target}");</script>
+</head>
+<body style="margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:#f8fafc; color:#0f172a; display:flex; align-items:center; justify-content:center; min-height:100vh;">
+  <div style="text-align:center; padding:24px;">
+    <p style="font-size:1.05rem; font-weight:700; margin:0 0 8px 0;">This page has moved</p>
+    <p style="font-size:0.9rem; color:#64748b; margin:0 0 16px 0;">Redirecting to the latest page&hellip;</p>
+    <a style="display:inline-block; padding:10px 26px; border-radius:99px; font-weight:800; font-size:0.95rem; color:#fff; background:linear-gradient(135deg,#2563eb,#3b82f6); text-decoration:none;" href="${target}">Continue</a>
+  </div>
+</body>
+</html>`;
+  return { html, jsonld: "" };
+}
+
+function buildArticleReader(cat, sub) {
+  const data = readTopicContent("articles", sub.id) || {};
+  const title = (data && loc(data.title)) || loc(sub.name);
+  const desc = (data && loc(data.description)) || loc(sub.description);
+  const items = data.questions || [];
+  const parts = items
+    .map((it, i) => {
+      const qEn = (it.q && it.q.en) || it.q;
+      const qAs = it.q && it.q.as;
+      const aEn = (it.a && it.a.en) || it.a;
+      const aAs = it.a && it.a.as;
+      const exp = it.explanation;
+      return `<div class="article-part-block" style="margin-bottom:26px;">
+        <h2 style="font-size:1.2rem; font-weight:800; margin:0 0 10px 0;">${i + 1}. ${escapeHtml(String(qEn))}</h2>
+        ${qAs ? `<p style="color:#64748b;">${escapeHtml(String(qAs))}</p>` : ""}
+        <p style="line-height:1.8;">${escapeHtml(String(aEn))}</p>
+        ${aAs ? `<p style="color:#334155; line-height:1.8;">${escapeHtml(String(aAs))}</p>` : ""}
+        ${exp && exp.en ? `<div style="border-left:4px solid #2563eb; padding:10px 14px; margin-top:10px; background:#f8fafc;">${escapeHtml(exp.en)}</div>` : ""}
+      </div>`;
+    })
+    .join("");
+
+  const crumb = breadcrumbHTML([
+    { href: "/", label: "Home" },
+    { href: `/category/${cat.id}`, label: loc(cat.name) },
+    { href: `/category/${cat.id}/${sub.id}`, label: loc(sub.name) },
+    { label: "Read" },
+  ]);
+
+  const body = `
+      ${pageHead(crumb, title, desc)}
+      <section class="section" style="padding-bottom:40px;">
+        <article style="max-width:860px; margin:0 auto;">${parts || emptyHTML()}</article>
+      </section>`;
+
+  return {
+    html: shellHTML({
+      route: `/category/${cat.id}/${sub.id}/read`,
+      title: `${title} | axomexam`,
+      description: desc || `Read ${title} in English and Assamese.`,
+      canonical: `${BASE}/category/${cat.id}/${sub.id}/read`,
+      body,
+    }),
+    jsonld: breadcrumbJSONLD([
+      { href: "/", label: "Home" },
+      { href: `/category/${cat.id}`, label: loc(cat.name) },
+      { href: `/category/${cat.id}/${sub.id}`, label: loc(sub.name) },
+      { href: `/category/${cat.id}/${sub.id}/read`, label: "Read" },
+    ]),
+  };
+}
+
+function buildTopicPage(rec) {
+  const content = readTopicContent(rec.cat.id, rec.topic.id) || {};
+  const title = loc(content.title || rec.topic.title || rec.topic.name);
+  const baseDesc =
+    loc(content.description || rec.topic.description) ||
+    `${title} - practice questions with answers for competitive exams in Assam.`;
+  const desc = isMathCat(rec.cat)
+    ? (baseDesc.includes("APSC") ? baseDesc : `${baseDesc} Useful for ${EXAM_SENTENCE}.`)
+    : baseDesc;
+  const tags = (content.tags || rec.tags || []).join(", ");
+  const qs = content.questions || rec.topic.questions || [];
+
+  const crumbItems = [
+    { href: "/", label: "Home" },
+    { href: `/category/${rec.cat.id}`, label: loc(rec.cat.name) },
+  ];
+  if (rec.sub) crumbItems.push({ href: `/category/${rec.cat.id}/${rec.sub.id}`, label: loc(rec.sub.name) });
+  if (rec.section)
+    crumbItems.push({
+      href: `/category/${rec.cat.id}/${rec.sub ? rec.sub.id + "/" : ""}${rec.section.id}`,
+      label: loc(rec.section.name),
+    });
+  crumbItems.push({ label: title });
+
+  const body =
+    pageHead(breadcrumbHTML(crumbItems), title, desc) +
+    `<section class="section" style="padding-bottom:40px;">
+      <div class="qa-list" style="max-width:860px; margin:0 auto;">
+        ${qs.length ? `<h2 style="font-size:1.15rem; margin-bottom:18px;">${qs.length} Questions with Answers</h2>` : ""}
+        ${topicQuestionsHTML(rec) || emptyHTML()}
+      </div>
+    </section>`;
+
+  const pageTitle = `${title} | axomexam`;
+  const url = `${BASE}/topic/${rec.path}`;
+
+  return {
+    html: shellHTML({
+      route: `/topic/${rec.path}`,
+      title: pageTitle,
+      description: desc,
+      keywords: tags,
+      canonical: url,
+      body,
+    }),
+    jsonld: faqJSONLD(rec) + breadcrumbJSONLD(crumbItems),
+  };
+}
+
+function buildMockCategoryPicker() {
+  const mockCats = categories.filter((c) => c.id !== "study-guides");
+  const cards = mockCats
+    .map(
+      (c) => `<div class="mock-card" style="margin:12px 0; padding:18px; border:1px solid var(--border,#e2e8f0); border-radius:16px;">
+        <div style="font-weight:800; margin-bottom:10px;">${escapeHtml(loc(c.name))}</div>
+        <a class="btn btn-primary" href="/mock-test/${c.id}">Start Mock Test</a>
+      </div>`
+    )
+    .join("");
+  const body = `
+      <div class="mock-intro">
+        <h1>Mock Tests for Competitive Exams</h1>
+        <p class="page-desc">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III &amp; IV), Assam Police, APSC, Gauhati High Court, Panchayat &amp; Rural Development, DME, DHE, SSC, and Railway exams.
+Choose from every subject:
+• General Knowledge
+• Mathematics
+• General Science
+• Reasoning Ability
+• General English
+• Computer Awareness
+Each mock test simulates the real exam environment with a live timer, instant scoring and a full answer review — so you can identify your weak areas and improve with every attempt.
+All mock tests are 100% free, unlimited and available in both English and Assamese!</p>
+      </div>
+      <section class="section" style="padding-bottom:30px;">
+        <div class="section-head"><div><h2>Choose a Subject</h2></div></div>
+        <div class="mock-grid">${cards}</div>
+      </section>`;
+  return {
+    html: shellHTML({
+      route: "/mock-test",
+      title: "Free Mock Tests for APSC, ADRE, Assam Police, SSC, Railway | axomexam",
+      description: "Take free timed mock tests for Assam competitive exams — APSC, ADRE, Assam Police, SSC and Railway. Instant scoring and answer review.",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function mockTileHTML(href, nameObj, meta, color) {
+  const en = loc(nameObj);
+  const as = locAs(nameObj);
+  const asLine = as && as !== en ? `<span class="mt-tile-as">${escapeHtml(as)}</span>` : "";
+  const letter = escapeHtml((en || "?").charAt(0).toUpperCase());
+  const c = color || "#4f46e5";
+  return `<a class="mt-tile reveal" href="${href}" style="--c:${c}">
+        <span class="mt-tile-ico">${letter}</span>
+        <span class="mt-tile-en">${escapeHtml(en)}</span>
+        ${asLine}
+        ${meta ? `<span class="mt-tile-meta">${escapeHtml(meta)}</span>` : ""}
+      </a>`;
+}
+
+function mockTopicsHead(name) {
+  return `<div class="mt-topics-head">
+        <h2>${escapeHtml(name)} Mock Test</h2>
+        <p>Choose a topic below to begin your timed mock test.</p>
+      </div>`;
+}
+
+function mockSubcategories(cat) {
+  if (!cat) return [];
+  if (cat.id === "english") {
+    return [
+      { id: "grammar", name: { en: "Grammar", as: "ব্যাকৰণ" } },
+      { id: "vocabulary", name: { en: "Vocabulary", as: "শব্দভাণ্ডাৰ" } },
+    ];
+  }
+  if (cat.id === "computer") {
+    return [
+      { id: "comp-fundamentals", name: { en: "Fundamentals", as: "মৌলিক" } },
+      { id: "ms-office", name: { en: "MS Office", as: "MS Office" } },
+    ];
+  }
+  return cat.subcategories || [];
+}
+
+function buildMockSubPicker(cat) {
+  const subs = mockSubcategories(cat);
+  const color = cat.color || "#4f46e5";
+  const cards = subs
+    .map((s) => {
+      const topicN = (s.sections || []).reduce((n, sec) => n + ((sec.topics || []).length), 0) || (s.topics || []).length;
+      const meta = topicN ? `${topicN} ${topicN === 1 ? "topic" : "topics"}` : "Timed practice sets";
+      return mockTileHTML(`/mock-test/${cat.id}/${s.id}`, s.name, meta, color);
+    })
+    .join("");
+  const crumb = breadcrumbHTML([
+    { href: "/", label: "Home" },
+    { href: "/mock-test", label: "Mock Test" },
+    { label: loc(cat.name) },
+  ]);
+  const body = pageHead(crumb, `${loc(cat.name)} Mock Test`, "") +
+    `<section class="section" style="padding-bottom:40px;">${mockTopicsHead(loc(cat.name))}<div class="mt-tile-grid">${cards}</div></section>`;
+  const isMath = isMathCat(cat);
+  return {
+    html: shellHTML({
+      route: `/mock-test/${cat.id}`,
+      title: isMath
+        ? `Mathematics Mock Test for ${EXAM_TITLE} | axomexam`
+        : `${loc(cat.name)} Mock Test | axomexam`,
+      description: isMath
+        ? `Free timed Mathematics mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Free timed ${loc(cat.name)} mock test with questions and answers for competitive exams in Assam.`,
+      canonical: `${BASE}/mock-test/${cat.id}`,
+      body,
+    }),
+    jsonld: breadcrumbJSONLD([
+      { href: "/", label: "Home" },
+      { href: "/mock-test", label: "Mock Test" },
+      { href: `/mock-test/${cat.id}`, label: loc(cat.name) },
+    ]),
+  };
+}
+
+function buildMockSectionPicker(cat, sub) {
+  const secs = sub.sections || [];
+  const color = cat.color || "#4f46e5";
+  const cards = secs
+    .map((s) => {
+      const n = (s.topics || []).length;
+      return mockTileHTML(`/mock-test/${cat.id}/${sub.id}/${s.id}`, s.name, `${n} ${n === 1 ? "topic" : "topics"}`, color);
+    })
+    .join("");
+  const crumb = breadcrumbHTML([
+    { href: "/", label: "Home" },
+    { href: "/mock-test", label: "Mock Test" },
+    { href: `/mock-test/${cat.id}`, label: loc(cat.name) },
+    { label: loc(sub.name) },
+  ]);
+  const body = pageHead(crumb, `${loc(sub.name)} Mock Test`, "") +
+    `<section class="section" style="padding-bottom:40px;">${mockTopicsHead(loc(sub.name))}<div class="mt-tile-grid">${cards}</div></section>`;
+  const isMath = isMathCat(cat);
+  return {
+    html: shellHTML({
+      route: `/mock-test/${cat.id}/${sub.id}`,
+      title: isMath
+        ? `${loc(sub.name)} Mock Test for ${EXAM_TITLE} | axomexam`
+        : `${loc(sub.name)} Mock Test | axomexam`,
+      description: isMath
+        ? `Free timed ${loc(sub.name)} mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Free timed ${loc(sub.name)} mock test for ${loc(cat.name)} competitive exams in Assam.`,
+      canonical: `${BASE}/mock-test/${cat.id}/${sub.id}`,
+      body,
+    }),
+    jsonld: breadcrumbJSONLD([
+      { href: "/", label: "Home" },
+      { href: "/mock-test", label: "Mock Test" },
+      { href: `/mock-test/${cat.id}`, label: loc(cat.name) },
+      { href: `/mock-test/${cat.id}/${sub.id}`, label: loc(sub.name) },
+    ]),
+  };
+}
+
+function buildMockTopicPicker(cat, sub, sec) {
+  const topics = sec.topics || [];
+  const color = cat.color || "#4f46e5";
+  const cards = topics
+    .map((t) => mockTileHTML(`/mock-test/${cat.id}/${sub.id}/${sec.id}`, t.name, "Take Mock Test", color))
+    .join("");
+  const crumb = breadcrumbHTML([
+    { href: "/", label: "Home" },
+    { href: "/mock-test", label: "Mock Test" },
+    { href: `/mock-test/${cat.id}`, label: loc(cat.name) },
+    { href: `/mock-test/${cat.id}/${sub.id}`, label: loc(sub.name) },
+    { label: loc(sec.name) },
+  ]);
+  const body = pageHead(crumb, `${loc(sec.name)} Mock Test`, "") +
+    `<section class="section" style="padding-bottom:40px;">${mockTopicsHead(loc(sec.name))}<div class="mt-tile-grid">${cards}</div></section>`;
+  const isMath = isMathCat(cat);
+  return {
+    html: shellHTML({
+      route: `/mock-test/${cat.id}/${sub.id}/${sec.id}`,
+      title: isMath
+        ? `${loc(sec.name)} Mock Test for ${EXAM_TITLE} | axomexam`
+        : `${loc(sec.name)} Mock Test | axomexam`,
+      description: isMath
+        ? `Free timed ${loc(sec.name)} mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Free timed ${loc(sec.name)} mock test for ${loc(cat.name)} competitive exams in Assam.`,
+      canonical: `${BASE}/mock-test/${cat.id}/${sub.id}/${sec.id}`,
+      body,
+    }),
+    jsonld: breadcrumbJSONLD([
+      { href: "/", label: "Home" },
+      { href: "/mock-test", label: "Mock Test" },
+      { href: `/mock-test/${cat.id}`, label: loc(cat.name) },
+      { href: `/mock-test/${cat.id}/${sub.id}`, label: loc(sub.name) },
+      { href: `/mock-test/${cat.id}/${sub.id}/${sec.id}`, label: loc(sec.name) },
+    ]),
+  };
+}
+
+function buildMockSetup(cat) {
+  const subs = cat.subcategories || [];
+  let topicCount = 0;
+  for (const s of subs) for (const sec of s.sections || []) topicCount += (sec.topics || []).length;
+  const name = loc(cat.name);
+  const body = pageHead(
+    breadcrumbHTML([{ href: "/", label: "Home" }, { href: "/mock-test", label: "Mock Test" }, { label: name }]),
+    `${name} Mock Test Setup`,
+    "Configure your mock test and start practising."
+  ) + `<section class="section" style="padding-bottom:40px;"><p>${topicCount} topics available. Choose a topic to start the timed test.</p></section>`;
+  const isMath = isMathCat(cat);
+  return {
+    html: shellHTML({
+      route: `/mock-test/${cat.id}/start`,
+      title: isMath
+        ? `Mathematics Mock Test - Start (${EXAM_TITLE}) | axomexam`
+        : `${name} Mock Test - Start | axomexam`,
+      description: isMath
+        ? `Start a free timed Mathematics mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Start a free timed ${name} mock test with questions and answers for competitive exams in Assam.`,
+      canonical: `${BASE}/mock-test/${cat.id}/start`,
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildTrendingPage() {
+  const cards = topicIndex
+    .filter((r) => r.path.startsWith("trending/"))
+    .map(
+      (r) => `<a class="topic-card reveal" href="/topic/${r.path}" style="display:block; margin:12px 0; padding:16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+        <div style="font-weight:800; color:var(--ink,#0f172a);">${escapeHtml(loc(r.title))}</div>
+        <div style="font-size:0.82rem; color:#64748b;">${r.nQuestions || 0} Questions</div>
+      </a>`
+    )
+    .join("");
+  const body =
+    pageHead(breadcrumbHTML([{ href: "/", label: "Home" }, { label: "Trending Topics" }]), "Trending Topics", "Popular questions for competitive exams in Assam.") +
+    `<section class="section" style="padding-bottom:40px;"><div class="topic-grid">${cards}</div></section>`;
+  return {
+    html: shellHTML({
+      route: "/trending",
+      title: "Trending Topics | axomexam",
+      description: "Trending questions and topics for Assam competitive exams — APSC, ADRE, Assam Police, SSC and Railway.",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildPreviousYear() {
+  const exams = PYEAR_EXAMS.filter((ex) => FALLBACK_PYEAR[ex.id]);
+  const cards = exams
+    .map(
+      (ex) => `<a class="sub-card reveal" href="/previous-year/${ex.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+        <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(ex.name))}</div>
+        <div style="font-size:0.8rem; color:#64748b;">Previous Year Question Papers</div>
+      </a>`
+    )
+    .join("");
+  const body =
+    pageHead(breadcrumbHTML([{ href: "/", label: "Home" }, { label: "Previous Year Questions" }]), "Previous Year Question Papers", "Download solved previous year question papers for Assam competitive exams.") +
+    `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards || emptyHTML()}</div></section>`;
+  return {
+    html: shellHTML({
+      route: "/previous-year",
+      title: "Previous Year Question Papers | axomexam",
+      description: "Download previous year question papers for SSC, Railway, Assam Police, DHS DME and other competitive exams.",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildPreviousYearYears(exam) {
+  const years = Object.keys(FALLBACK_PYEAR[exam.id] || {}).sort();
+  const cards = years
+    .map(
+      (yr) => `<a class="sub-card reveal" href="/previous-year/${exam.id}/${yr}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+        <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(exam.id.toUpperCase())} ${yr}</div>
+        <div style="font-size:0.8rem; color:#64748b;">Download Question Paper</div>
+      </a>`
+    )
+    .join("");
+  const crumb = breadcrumbHTML([{ href: "/", label: "Home" }, { href: "/previous-year", label: "Previous Year" }, { label: loc(exam.name) }]);
+  const body = pageHead(crumb, `${loc(exam.name)} Previous Year Papers`, "") +
+    `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+  return {
+    html: shellHTML({
+      route: `/previous-year/${exam.id}`,
+      title: `${loc(exam.name)} Previous Year Question Papers | axomexam`,
+      description: `Download ${loc(exam.name)} previous year question papers for competitive exam preparation.`,
+      canonical: `${BASE}/previous-year/${exam.id}`,
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildPreviousYearPapers(exam, year) {
+  const files = (FALLBACK_PYEAR[exam.id] || {})[year] || [];
+  const cards = files
+    .map(
+      (f) => `<div class="sub-card reveal" style="margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px;">
+        <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(f)}</div>
+        <a class="btn btn-sm btn-outline" href="/data/previous-year/${exam.id}/${year}/${f}" download>Download PDF</a>
+      </div>`
+    )
+    .join("");
+  const crumb = breadcrumbHTML([
+    { href: "/", label: "Home" },
+    { href: "/previous-year", label: "Previous Year" },
+    { href: `/previous-year/${exam.id}`, label: loc(exam.name) },
+    { label: year },
+  ]);
+  const body = pageHead(crumb, `${loc(exam.name)} ${year} Question Paper`, "") +
+    `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards || emptyHTML()}</div></section>`;
+  return {
+    html: shellHTML({
+      route: `/previous-year/${exam.id}/${year}`,
+      title: `${loc(exam.name)} ${year} Previous Year Question Paper | axomexam`,
+      description: `Download the ${loc(exam.name)} ${year} previous year question paper (PDF) for free.`,
+      canonical: `${BASE}/previous-year/${exam.id}/${year}`,
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildCategoriesPage() {
+  const cards = categories
+    .map((c) => {
+      const n = topicIndex.filter((r) => r.cat.id === c.id).length;
+      return `<a class="cat-card reveal" href="/category/${c.id}" style="--cat:${c.color || "#4f46e5"}">
+        <span class="cat-meta"><b>${escapeHtml(loc(c.name))}</b><span>${n} Topics</span></span>
+      </a>`;
+    })
+    .join("");
+  const body =
+    pageHead(breadcrumbHTML([{ href: "/", label: "Home" }, { label: "All Categories" }]), "All Practice Categories", "Browse all subjects available for practice.") +
+    `<section class="section" style="padding-bottom:40px;"><div class="cat-grid">${cards}</div></section>`;
+  return {
+    html: shellHTML({
+      route: "/categories",
+      title: "All Categories | axomexam",
+      description: "Browse all practice categories for competitive exam preparation — GK, Math, Science, Reasoning, English, Computer and more.",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildDownloadsPage() {
+  const cards = DOWNLOADS.map(
+    (f) => `<div class="sub-card reveal" style="margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px;">
+      <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(f)}</div>
+      <a class="btn btn-sm btn-outline" href="/data/download/${f}" download>Download PDF</a>
+    </div>`
+  ).join("");
+  const body =
+    pageHead(breadcrumbHTML([{ href: "/", label: "Home" }, { label: "Downloads" }]), "Download Study Notes", "Free printable PDF notes for competitive exam preparation.") +
+    `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards || emptyHTML()}</div></section>`;
+  return {
+    html: shellHTML({
+      route: "/downloads",
+      title: "Download Free PDF Notes | axomexam",
+      description: "Download free printable PDF study notes for Assam competitive exams — APSC, ADRE, Assam Police, SSC and Railway.",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+const STATIC_PAGES = {
+  about: {
+    title: "About Us",
+    content:
+      "<p>Welcome to <strong>axomexam.in</strong>, your premier online destination for comprehensive and accessible preparation for all competitive examinations in Assam.</p>" +
+      "<h2>Our Mission &amp; Vision</h2>" +
+      "<p>We are committed to democratizing quality exam resources for candidates preparing for state and national recruitments, including ADRE (Grade III &amp; IV), Assam Police (Sub-Inspector &amp; Constables), APSC, PNRD, Forest Department, and Central RRB examinations.</p>" +
+      "<h2>What We Provide</h2>" +
+      "<ul><li>Complete bilingual Q&amp;A, chapter-wise notes and explanations in Assamese and English.</li><li>Interactive timed mock tests that simulate real exam environments.</li><li>Print-ready PDF notes for offline revision.</li><li>Previous year papers with verified solutions.</li></ul>" +
+      "<h2>Contact &amp; Support</h2>" +
+      "<p>Reach out at <a href=\"mailto:contact@axomexam.in\" class=\"axo-email\">contact@axomexam.in</a>.</p>",
+  },
+  privacy: {
+    title: "Privacy Policy",
+    content:
+      "<p>At <strong>axomexam.in</strong>, the privacy of our visitors is of paramount importance. This document outlines the types of information received and collected by our platform.</p>" +
+      "<h2>1. Information Collection</h2>" +
+      "<p>We do not mandate account creation or collect sensitive personal details. Information submitted via contact or feedback forms (such as Name and Email) is used strictly to respond to inquiries.</p>" +
+      "<h2>2. Log Files &amp; Analytics</h2>" +
+      "<p>We use standard log files (IP addresses, browser type, date/time stamps, referring pages) purely for site maintenance. This data is non-personally identifiable.</p>" +
+      "<h2>3. Google AdSense</h2>" +
+      "<p>Google, as a third-party vendor, uses cookies to serve contextual advertisements. You can opt out of personalized advertising via Google Ad Settings.</p>" +
+      "<h2>4. Consent</h2>" +
+      "<p>By using our website, you consent to this Privacy Policy.</p>",
+  },
+  terms: {
+    title: "Terms & Conditions",
+    content:
+      "<p>By accessing and browsing <strong>axomexam.in</strong>, you accept and agree to the following Terms and Conditions.</p>" +
+      "<h2>1. Content Usage</h2>" +
+      "<p>All materials, questions, notes and downloads are intended strictly for educational, personal and non-commercial usage. Redistribution or resale without written permission is prohibited.</p>" +
+      "<h2>2. Accuracy &amp; Liability</h2>" +
+      "<p>Materials are provided on an 'as-is' basis. axomexam.in does not warrant absolute completeness or infallibility for official evaluation criteria.</p>" +
+      "<h2>3. External Links</h2>" +
+      "<p>We hold no responsibility for the content or policies of third-party platforms we link to.</p>",
+  },
+  disclaimer: {
+    title: "Disclaimer",
+    content:
+      "<p>All content on <strong>https://axomexam.in</strong> is published in good faith for general educational and exam preparation purposes.</p>" +
+      "<h2>1. Non-Affiliation</h2>" +
+      "<p>axomexam.in is an independent private educational website, NOT affiliated with or endorsed by the Government of Assam, APSC, SLPRB, or any governmental testing agency. Always cross-reference official gazettes.</p>" +
+      "<h2>2. Educational Use</h2>" +
+      "<p>Use of study resources and mock practices is at the user's sole discretion.</p>",
+  },
+  contact: {
+    title: "Contact Us",
+    content:
+      "<p>Have a question, suggestion, or correction? We would love to hear from you.</p>" +
+      "<p>Email us at <a href=\"mailto:support@axomexam.in\" class=\"axo-email\">support@axomexam.in</a> and our team will get back to you as soon as possible.</p>",
+  },
+  submit: {
+    title: "Submit Q&A",
+    content:
+      "<p>Want to contribute questions to <strong>axomexam.in</strong>?</p>" +
+      "<p>Use the form below to submit a question with its answer. Reviewed submissions are added to our question bank for students preparing for APSC, ADRE, Assam Police, SSC and Railway exams.</p>",
+  },
+  search: {
+    title: "Search",
+    content:
+      "<p>Search across all questions, topics and keywords on axomexam.in.</p>" +
+      "<p>Type in the search box above to find practice questions, study notes and PDFs for your competitive exam preparation.</p>",
+  },
+};
+
+function buildStaticPage(key) {
+  const page = STATIC_PAGES[key === "privacy-policy" ? "privacy" : key];
+  const route = key === "privacy-policy" ? "/privacy-policy" : `/${key}`;
+  const crumb = breadcrumbHTML([{ href: "/", label: "Home" }, { label: page.title }]);
+  const body =
+    pageHead(crumb, page.title, "") +
+    `<section class="section" style="padding-bottom:40px;">
+      <div style="max-width:840px; margin:0 auto; line-height:1.8; color:#334155;">${page.content}</div>
+    </section>`;
+  const isNoindex = key === "search" || key === "privacy-policy";
+  const canonicalRoute = key === "privacy-policy" ? "/privacy" : route;
+  return {
+    html: shellHTML({
+      route,
+      title: `${page.title} | axomexam`,
+      description: `${page.title} for axomexam.in — free competitive exam preparation for Assam.`,
+      canonical: `${BASE}${canonicalRoute}`,
+      robots: isNoindex ? "noindex, follow" : undefined,
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+/* ================= generate ================= */
+
+const sitemapUrls = [];
+const lastmod = new Date().toISOString().slice(0, 10);
+
+function addPage(route, page) {
+  let fileRoute = route.replace(/\/+$/, "") + "/index.html";
+  if (route === "/") fileRoute = "index.html";
+  writeFile(fileRoute, page.html);
+  if (page.jsonld) {
+    // JSON-LD scripts are appended before </head> for cleanliness
+    const abs = path.join(OUT, fileRoute);
+    let html = fs.readFileSync(abs, "utf8");
+    html = html.replace("</head>", `${page.jsonld}\n</head>`);
+    fs.writeFileSync(abs, html, "utf8");
+  }
+}
+
+function addSitemap(route, priority, changefreq) {
+  const loc = route === "/" ? "/" : route.replace(/\/+$/, "") + "/";
+  sitemapUrls.push(`  <url>
+    <loc>${BASE}${loc}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>${changefreq || "weekly"}</changefreq>
+    <priority>${priority || "0.7"}</priority>
+  </url>`);
+}
+
+function buildEbookLibrary() {
+  const cards = EBOOKS.map((book, bi) => {
+    const chCount = (book.chapters || []).length;
+    const color = ebkColor(book);
+    const titleEn = ebkLang(book.title, "en");
+    const subjectEn = ebkLang(book.subject, "en");
+    return `
+              <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(book.id)}" style="--ebk:${color}" data-delay="${bi * 60}">
+                <span class="ebook-cover">
+                  <span class="ebook-cover-frame" aria-hidden="true"></span>
+                  <span class="ebook-cover-top">
+                    <span class="ebook-cover-publisher">axomexam</span>
+                    <span class="ebook-cover-tag">E-Book</span>
+                  </span>
+                  <span class="ebook-cover-title">
+                    <span class="ebk-tt-en">${escapeHtml(titleEn)}</span>
+                  </span>
+                  <span class="ebook-cover-subject">${escapeHtml(subjectEn)}</span>
+                </span>
+                <span class="ebook-meta">
+                  <b>${escapeHtml(titleEn)}</b>
+                  <span class="ebook-meta-sub"><span>${chCount} chapters</span></span>
+                  <span class="ebook-read-btn">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+                    Read E-Book
+                  </span>
+                </span>
+              </a>`;
+  }).join("");
+  const body = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span><span>E-Books</span>
+        </nav>
+        <h1>E-Books Library</h1>
+        <p class="page-desc">Topic-wise online e-books for every Assam competitive exam — Assam History, Indian History, Art &amp; Culture, Polity, Economy, Geography and more. Read for free in your browser.</p>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        <div class="ebooks-grid">${cards}</div>
+      </section>`;
+  return {
+    html: shellHTML({
+      route: "/ebooks",
+      title: "E-Book Library | axomexam",
+      description: "100% free bilingual (English & Assamese) topic-wise e-books for ADRE 2.0, Assam Police, APSC, SSC & Railway — Assam History, Indian History, Art & Culture, Polity, Economy and Geography reading guides. Read online, free, in your browser.",
+      canonical: `${BASE}/ebooks`,
+      keywords: "axomexam ebooks, assam exam e-book, assam gk book online, apssc notes",
+      ogImageAlt: "axomexam - Free bilingual E-Book Library for Assam Exams",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildEbookReader(book) {
+  const chapters = book.chapters || [];
+  const titleEn = ebkLang(book.title, "en");
+  const titleAs = ebkLang(book.title, "as");
+  const subjectEn = ebkLang(book.subject, "en");
+  const subjectAs = ebkLang(book.subject, "as");
+  const color = ebkColor(book);
+  const desc = ebkLang(book.description, "en");
+  const author = ebkLang(book.author, "en");
+  const updated = book.updated || "";
+  const hasAsTitle = !!(titleAs && titleAs !== titleEn);
+
+  const body = `
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/ebooks">E-Books</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(titleEn)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${color};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${escapeHtml(subjectEn)}${subjectAs && subjectAs !== subjectEn ? `<span class="ebk-chip-as"> ${escapeHtml(subjectAs)}</span>` : ""}</span>
+            </div>
+            <h2 class="ebk-head-title">${escapeHtml(titleEn)}${hasAsTitle ? `<span class="ebk-head-title-as">${escapeHtml(titleAs)}</span>` : ""}</h2>
+            ${desc ? `<p class="ebk-desc">${escapeHtml(desc).replace(/\n/g, "<br>")}</p>` : ""}
+            <div class="ebk-head-meta">
+              ${author ? `<span><b>${escapeHtml(author)}</b></span>` : ""}
+              <span>${chapters.length} chapters</span>
+              ${updated ? `<span>Updated: ${escapeHtml(updated)}</span>` : ""}
+            </div>
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn" data-ebklang="as">অসমীয়া</button>
+            <button type="button" class="lang-btn active" data-ebklang="en">English</button>
+          </div>
+        </div>
+
+        <div id="ebk-body">${ebkBilingualBodyHTML(book)}</div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/ebooks">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            All E-Books
+          </a>
+        </div>
+      </div>`;
+
+  const descForMeta = (book.description ? ebkLang(book.description, "en") : "")
+    .replace(/\s+/g, " ").trim();
+  const description = `${titleEn} e-book for ${subjectEn || "Assam competitive exams"} — read all ${chapters.length} chapters online free${descForMeta ? `. ${descForMeta.slice(0, 170)}` : ""}.`;
+
+  return {
+    html: shellHTML({
+      route: `/ebooks/${book.id}`,
+      title: `${titleEn} - Free Online E-Book | axomexam`,
+      description,
+      canonical: `${BASE}/ebooks/${book.id}`,
+      keywords: `axomexam ebooks, ${titleEn} ebook, ${subjectEn} notes, assam competitive exam study material`,
+      ogImageAlt: `axomexam - ${titleEn} - Free bilingual E-Book`,
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildDownloadAppPage() {
+  const features = [
+    ["All Mock Tests", "Timed chapter-wise mock tests with instant score and review, exactly like the real exam."],
+    ["Bilingual Q&A Practice", "Practice questions, answers and explanations in both English and Assamese."],
+    ["E-Books On the Go", "Read every subject e-book right inside the app — Assam History, Polity, Geography and more."],
+    ["Previous Year Papers", "Solved past papers organised by exam and year for focused revision."],
+    ["PDF Notes & Downloads", "Save study material and keep it ready for offline revision."],
+    ["Lightweight & Fast", "The complete axomexam experience in a compact 1.68 MB app."]
+  ];
+  const feats = features.map(([title, text]) => `
+        <div class="appdl-feature">
+          <span class="appdl-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <h3>${title}</h3>
+          <p>${text}</p>
+        </div>`).join("");
+
+  const faqs = [
+    ["Is the axomexam app free?", "Yes. The app is 100% free with no sign-up, subscription or hidden charges."],
+    ["Why is it not on the Google Play Store?", "We distribute the app as a direct APK download so it stays free for every aspirant. A Play Store release may come later."],
+    ["Do I need an internet connection?", "Yes. Study content, mock tests and notes are loaded online, so an active connection is required."],
+    ["Is it safe to install?", "Yes. This is our own official build. For your safety, download it only from this page (axomexam.in)."],
+    ["Which Android versions are supported?", "The app works on modern Android phones with an up-to-date Android System WebView."]
+  ];
+  const faqHTML = faqs.map(([q, a]) => `
+        <details class="appdl-faq">
+          <summary>${q}</summary>
+          <p>${a}</p>
+        </details>`).join("");
+
+  const body = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><span>Download App</span></nav>
+        <h1>Download the axomexam App</h1>
+        <p class="page-desc">Get the axomexam Android app — all mock tests, bilingual Q&amp;A practice, e-books and previous year papers in one lightweight app. Free, no sign-up.</p>
+      </div>
+
+      <section class="section appdl-hero">
+        <div class="appdl-card">
+          <img class="appdl-logo" src="/app/axomexam-icon.png" alt="axomexam app logo" width="104" height="104" />
+          <div class="appdl-body">
+            <h2 class="appdl-title">axomexam — Exam Prep App</h2>
+            <p class="appdl-tag">Assam competitive exam preparation, now on your phone.</p>
+            <ul class="appdl-meta">
+              <li><b>Version</b> 2.6</li>
+              <li><b>Size</b> 1.68 MB</li>
+              <li><b>Updated</b> 6 Nov 2026</li>
+              <li><b>Format</b> APK</li>
+              <li><b>Package</b> in.axomexam.app</li>
+              <li><b>Price</b> Free</li>
+            </ul>
+            <div class="appdl-actions">
+              <a class="btn btn-accent appdl-download" href="/app/axomexam-v2.6.apk" download>Download APK (1.68 MB)</a>
+              <a class="btn btn-outline" href="#install">How to install</a>
+            </div>
+            <p class="appdl-note">Direct download · No sign-up · 100% free</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">What's inside the app</h2>
+        <div class="appdl-grid">${feats}</div>
+      </section>
+
+      <section class="section" id="install">
+        <h2 class="appdl-section-title">How to install the APK</h2>
+        <ol class="appdl-steps">
+          <li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v2.6.apk</code> will be saved to your phone.</li>
+          <li><b>Allow the install.</b> If Android blocks it, open Settings and enable “Install unknown apps” (or “Unknown sources”) for your browser.</li>
+          <li><b>Install the app.</b> Open the downloaded file from Downloads or the notification, then tap <b>Install</b>.</li>
+          <li><b>Open and start learning.</b> Launch <b>axomexam</b> from your app drawer and begin practising.</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">System requirements</h2>
+        <ul class="appdl-meta">
+          <li><b>Platform</b> Android</li>
+          <li><b>App version</b> 2.6</li>
+          <li><b>File size</b> 1.68 MB</li>
+          <li><b>Internet</b> Required</li>
+          <li><b>Price</b> Free</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">Frequently asked questions</h2>
+        <div class="appdl-faqs">${faqHTML}</div>
+      </section>
+
+      <section class="section">
+        <div class="appdl-safety">
+          <b>Safety &amp; disclaimer:</b> For your security, download the app only from this official page (axomexam.in). axomexam is NOT an official app of APSC, Assam Police, SSC, Railway, ADRE or any government body. All exam names and trademarks belong to their respective owners. This is an independent study aid.
+        </div>
+      </section>`;
+
+  return {
+    html: shellHTML({
+      route: "/download-app",
+      title: "Download axomexam App (APK) | axomexam",
+      description: "Download the free axomexam Android app (APK, v2.6) — mock tests, bilingual Q&A practice, e-books and previous year papers for ADRE, APSC, Assam Police, SSC & Railway exams.",
+      canonical: `${BASE}/download-app`,
+      keywords: "axomexam app download, axomexam apk, assam exam app, adre app download, apssc app",
+      ogImageAlt: "axomexam - Download the Assam Exam Prep App",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function main() {
+  ensureCleanDir();
+
+  /* Home */
+  const home = buildHome();
+  addPage("/", home);
+  addSitemap("/", "1.0", "daily");
+
+  /* Topic pages */
+  for (const rec of topicIndex) {
+    const page = buildTopicPage(rec);
+    addPage(`/topic/${rec.path}`, page);
+    addSitemap(`/topic/${rec.path}`, rec.extra ? "0.7" : "0.8", "weekly");
+  }
+
+  /* Category / subcategory / section pages */
+  for (const cat of categories) {
+    const subs = cat.subcategories || [];
+    if (cat.id === "articles") {
+      /* articles landing: reuse categories listing pattern */
+      const cards = subs
+        .map(
+          (s) => `<a class="sub-card reveal" href="/category/${cat.id}/${s.id}/read" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+            <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
+            <div style="font-size:0.8rem; color:#64748b;">Articles</div>
+          </a>`
+        )
+        .join("");
+      const body =
+        pageHead(breadcrumbHTML([{ href: "/", label: "Home" }, { label: "Articles" }]), "Articles", "Reading-only study articles in English and Assamese.") +
+        `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+      addPage(`/category/${cat.id}`, {
+        html: shellHTML({
+          route: `/category/${cat.id}`,
+          title: "Articles | axomexam",
+          description: "Reading-only study articles on Assam and India general knowledge in English and Assamese.",
+          canonical: `${BASE}/category/${cat.id}`,
+          body,
+        }),
+        jsonld: "",
+      });
+      addSitemap(`/category/${cat.id}`, "0.7", "weekly");
+
+      for (const sub of subs) {
+        const subPage = buildArticleSubPage(cat, sub);
+        addPage(`/category/${cat.id}/${sub.id}`, subPage);
+        addSitemap(`/category/${cat.id}/${sub.id}`, "0.7", "weekly");
+        const reader = buildArticleReader(cat, sub);
+        addPage(`/category/${cat.id}/${sub.id}/read`, reader);
+        addSitemap(`/category/${cat.id}/${sub.id}/read`, "0.8", "weekly");
+      }
+      continue;
+    }
+
+    addPage(`/category/${cat.id}`, buildCategoryPage(cat));
+    addSitemap(`/category/${cat.id}`, "0.9", "weekly");
+
+    if (subs.length) {
+      for (const sub of subs) {
+        const secs = sub.sections || [];
+        if (secs.length) {
+          addPage(`/category/${cat.id}/${sub.id}`, buildSubCategoryPage(cat, sub));
+          addSitemap(`/category/${cat.id}/${sub.id}`, "0.8", "weekly");
+          for (const sec of secs) {
+            addPage(`/category/${cat.id}/${sub.id}/${sec.id}`, buildSectionPage(cat, sub, sec));
+            addSitemap(`/category/${cat.id}/${sub.id}/${sec.id}`, "0.75", "weekly");
+          }
+        } else {
+          addPage(`/category/${cat.id}/${sub.id}`, buildSubCategoryPage(cat, sub));
+          addSitemap(`/category/${cat.id}/${sub.id}`, "0.8", "weekly");
+        }
+      }
+    } else {
+      const secs = cat.sections || [];
+      if (secs.length) {
+        for (const sec of secs) {
+          addPage(`/category/${cat.id}/${sec.id}`, buildSubCategoryPage(cat, { id: sec.id, name: sec.name, description: sec.description, sections: null, topics: sec.topics }));
+          addSitemap(`/category/${cat.id}/${sec.id}`, "0.8", "weekly");
+        }
+      }
+    }
+  }
+
+  /* Mock test pages */
+  const mockHome = buildMockCategoryPicker();
+  addPage("/mock-test", mockHome);
+  addSitemap("/mock-test", "0.95", "daily");
+
+  for (const cat of categories) {
+    if (cat.id === "study-guides" || cat.id === "articles") continue;
+    const subs = cat.subcategories || [];
+    if (subs.length) {
+      addPage(`/mock-test/${cat.id}`, buildMockSubPicker(cat));
+      addSitemap(`/mock-test/${cat.id}`, "0.8", "weekly");
+      for (const sub of subs) {
+        const secs = sub.sections || [];
+        if (secs.length) {
+          addPage(`/mock-test/${cat.id}/${sub.id}`, buildMockSectionPicker(cat, sub));
+          addSitemap(`/mock-test/${cat.id}/${sub.id}`, "0.75", "weekly");
+          for (const sec of secs) {
+            addPage(`/mock-test/${cat.id}/${sub.id}/${sec.id}`, buildMockTopicPicker(cat, sub, sec));
+            addSitemap(`/mock-test/${cat.id}/${sub.id}/${sec.id}`, "0.7", "weekly");
+          }
+        } else {
+          addPage(`/mock-test/${cat.id}/${sub.id}`, buildMockSetup(cat));
+          addSitemap(`/mock-test/${cat.id}/${sub.id}`, "0.75", "weekly");
+        }
+      }
+    } else {
+      addPage(`/mock-test/${cat.id}/start`, buildMockSetup(cat));
+      addSitemap(`/mock-test/${cat.id}/start`, "0.7", "weekly");
+    }
+  }
+
+  /* Trending */
+  const trendPage = buildTrendingPage();
+  addPage("/trending", trendPage);
+  addSitemap("/trending", "0.85", "daily");
+
+  /* Previous year */
+  const pyHome = buildPreviousYear();
+  addPage("/previous-year", pyHome);
+  addSitemap("/previous-year", "0.85", "weekly");
+  for (const exam of PYEAR_EXAMS) {
+    if (!FALLBACK_PYEAR[exam.id]) continue;
+    addPage(`/previous-year/${exam.id}`, buildPreviousYearYears(exam));
+    addSitemap(`/previous-year/${exam.id}`, "0.8", "weekly");
+    for (const year of Object.keys(FALLBACK_PYEAR[exam.id] || {}).sort()) {
+      /* Nested exams (e.g. Railway -> RRB NTPC / Group D / ALP) store an
+         object instead of a file array; skip them here rather than crash. */
+      if (!Array.isArray(FALLBACK_PYEAR[exam.id][year])) continue;
+      addPage(`/previous-year/${exam.id}/${year}`, buildPreviousYearPapers(exam, year));
+      addSitemap(`/previous-year/${exam.id}/${year}`, "0.7", "weekly");
+    }
+  }
+
+  /* Legacy redirect stubs (noindex, not in sitemap) */
+  for (const [from, to] of Object.entries(LEGACY_REDIRECTS)) {
+    addPage(from, buildLegacyRedirect(to));
+  }
+
+  /* Categories / downloads pages */
+  addPage("/categories", buildCategoriesPage());
+  addSitemap("/categories", "0.85", "weekly");
+  addPage("/downloads", buildDownloadsPage());
+  addSitemap("/downloads", "0.9", "daily");
+
+  /* E-Books (library + per-book reader pages) */
+  addPage("/ebooks", buildEbookLibrary());
+  addSitemap("/ebooks", "0.9", "weekly");
+  for (const book of EBOOKS) {
+    addPage(`/ebooks/${book.id}`, buildEbookReader(book));
+    addSitemap(`/ebooks/${book.id}`, "0.8", "weekly");
+  }
+
+  /* App download page (APK) */
+  addPage("/download-app", buildDownloadAppPage());
+  addSitemap("/download-app", "0.8", "monthly");
+
+  /* Static pages (search is prerendered but kept out of the sitemap) */
+  for (const key of ["about", "contact", "privacy", "privacy-policy", "terms", "disclaimer"]) {
+    addPage(key === "privacy-policy" ? "/privacy-policy" : `/${key}`, buildStaticPage(key));
+    /* privacy-policy duplicates /privacy, so keep it out of the sitemap */
+    if (key !== "privacy-policy") addSitemap(`/${key}`, "0.6", "monthly");
+  }
+  addPage("/search", buildStaticPage("search"));
+  addPage("/submit", buildStaticPage("submit"));
+  addSitemap("/submit", "0.7", "monthly");
+
+  /* Sitemap */
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.join("\n")}
+</urlset>
+`;
+  writeFile("sitemap.xml", sitemap);
+
+  /* robots.txt (copy, keep sitemap pointer) */
+  fs.copyFileSync(path.join(ROOT, "robots.txt"), path.join(OUT, "robots.txt"));
+
+  /* Copy static site assets (shell + assets + data).
+     NOTE: root index.html is NOT copied — the generated homepage
+     (buildHome) already contains the full SPA shell AND prerendered
+     content, so copying the bare shell over it would leave the
+     homepage empty for crawlers (AdSense/SEO review). */
+  for (const name of ["404.html", "CNAME", "_redirects", "css", "js", "data"]) {
+    const src = path.join(ROOT, name);
+    const dst = path.join(OUT, name);
+    if (fs.existsSync(src)) fs.cpSync(src, dst, { recursive: true });
+  }
+
+  console.log("Done.");
+  console.log(`  Topic pages:        ${topicIndex.length}`);
+  console.log(`  Category pages:     ${categories.length}`);
+  console.log(`  Mock test pages:    ${Object.keys(sitemapUrls).length - topicIndex.length - categories.length - 8}`);
+  console.log(`  Sitemap URLs:       ${sitemapUrls.length}`);
+  console.log(`  Output:             ${OUT}`);
+}
+
+main();

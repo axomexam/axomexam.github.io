@@ -1,0 +1,52 @@
+{
+  "exam": "assam-police",
+  "totalQuestions": 100,
+  "durationMinutes": 120,
+  "totalMarks": 50,
+  "marksPerQuestion": 0.5,
+  "negativeMarking": false,
+  "sets": 10,
+  "difficultyMix": { "easy": 50, "moderate": 35, "difficult": 15 },
+  "sections": [
+    {
+      "id": "assam-history-geography-culture",
+      "questions": 25,
+      "label": {
+        "en": "Section A: Assam's History, Geography & Culture",
+        "as": "শাখা A: অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি"
+      }
+    },
+    {
+      "id": "general-knowledge-current-affairs",
+      "questions": 25,
+      "label": {
+        "en": "Section B: India's General Knowledge & Current Affairs",
+        "as": "শাখা B: ভাৰতৰ সাধাৰণ জ্ঞান আৰু সাম্প্ৰতিক ঘটনা"
+      }
+    },
+    {
+      "id": "elementary-mathematics",
+      "questions": 20,
+      "label": {
+        "en": "Section C: Elementary Mathematics",
+        "as": "শাখা C: প্ৰাথমিক অংক"
+      }
+    },
+    {
+      "id": "logical-reasoning",
+      "questions": 15,
+      "label": {
+        "en": "Section D: Reasoning Ability",
+        "as": "শাখা D: তৰ্কশক্তি"
+      }
+    },
+    {
+      "id": "general-english",
+      "questions": 15,
+      "label": {
+        "en": "Section E: General English",
+        "as": "শাখা E: সাধাৰণ ইংৰাজী"
+      }
+    }
+  ]
+}

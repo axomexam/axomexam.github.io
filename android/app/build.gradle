@@ -1,0 +1,43 @@
+plugins { id 'com.android.application' }
+
+android {
+  namespace 'in.axomexam.app'
+  compileSdk 34
+
+  defaultConfig {
+    applicationId "in.axomexam.app"
+    minSdk 21
+    targetSdk 34
+    versionCode 26
+    versionName "2.6"
+    resConfigs "en", "as"
+  }
+
+  signingConfigs {
+    release {
+      def ks = System.getenv("AXO_KEYSTORE") ?: "${rootDir}/axomexam-release.jks"
+      storeFile file(ks)
+      storePassword System.getenv("AXO_STORE_PASS") ?: ""
+      keyAlias System.getenv("AXO_KEY_ALIAS") ?: "axomexam"
+      keyPassword System.getenv("AXO_KEY_PASS") ?: ""
+    }
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      shrinkResources false
+      signingConfig signingConfigs.release
+    }
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+}
+
+dependencies {
+  implementation 'androidx.core:core:1.13.1'
+  implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+}
