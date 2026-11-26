@@ -4680,6 +4680,13 @@ The explanation names the lettering and what each of the other three cards did.
 Letters that are symmetric on the asked axis (A under a mirror; C, E, K, H, I, O,
 X under water) are skipped, because there the key is arbitrary.
 
+Series figures (five cells, the last one a question mark) were stored with cell-local
+coordinates while the cells sit across a 500x100 canvas, so every shape landed on the
+first cell and the rest looked empty. tools/fix-series-figures.py groups each cell's
+shapes in a translate+scale wrapper; run it after any regeneration. With the drawing
+correct, the series rule is read by counting one feature per cell - polygon sides,
+dots or lines - and the next value comes from the constant step.
+
 Mirror and water images are drawn as plain shapes, so the answer is checked by
 reflecting the figure geometrically: the parts are read as polygons, lines and
 dots in a normalised box, flipped left-right or top-bottom, and matched against

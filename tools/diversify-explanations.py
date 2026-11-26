@@ -935,9 +935,17 @@ def grid_cells(fig):
         fig or "")]
 
 
-def grid_shift(attrs, dx, dy, tag):
-    if not dx and not dy:
+def grid_shift(attrs, dx, dy, tag, k=1.0):
+    if not dx and not dy and k == 1.0:
         return attrs
+    if k != 1.0:
+        attrs = dict(attrs)
+        for key in ("cx", "cy", "r", "x", "y", "width", "height", "x1", "x2", "y1", "y2"):
+            if key in attrs:
+                attrs[key] = str(float(attrs[key]) * k)
+        if "points" in attrs:
+            attrs["points"] = " ".join(
+                f"{float(t.split(',')[0]) * k},{float(t.split(',')[1]) * k}" for t in attrs["points"].split())
     a = dict(attrs)
     if tag == "circle":
         a["cx"] = str(float(a["cx"]) + dx)
@@ -968,7 +976,7 @@ def grid_shift(attrs, dx, dy, tag):
     return a
 
 
-def grid_parse(fig, dx=0.0, dy=0.0):
+def grid_parse(fig, dx=0.0, dy=0.0, k=1.0):
     out = []
     for m in re.finditer(r'<(polygon|circle|line|path|text|rect)\b([^>]*?)(?:/>|>([^<]*)</text>)', fig or ""):
         tag = m.group(1)
@@ -977,15 +985,18 @@ def grid_parse(fig, dx=0.0, dy=0.0):
         shape_rect = tag == "rect" and attrs.get("stroke") != "#e2e8f0"
         if (attrs.get("stroke") == "#334155" or attrs.get("fill") == "#334155"
                 or shape_rect or (tag == "text" and txt == "?")):
-            out.append((tag, grid_shift(attrs, dx, dy, tag), txt))
+            out.append((tag, grid_shift(attrs, dx, dy, tag, k), txt))
     return out
 
 
 def grid_prims(fig):
     out = []
-    for m in re.finditer(r'<g transform="translate\(([-\d.]+),([-\d.]+)\)">([\s\S]*?)</g>', fig or ""):
-        out += grid_parse(m.group(3), float(m.group(1)), float(m.group(2)))
-    outside = re.sub(r'<g transform="translate\([-\d.]+,[-\d.]+?\)">[\s\S]*?</g>', "", fig or "")
+    group = r'<g transform="translate\(([-\d.]+),([-\d.]+)\)(?: scale\(([-\d.]+)\))?">([\s\S]*?)</g>'
+    for m in re.finditer(group, fig or ""):
+        dx, dy = float(m.group(1)), float(m.group(2))
+        k = float(m.group(3)) if m.group(3) else 1.0
+        out += grid_parse(m.group(4), dx, dy, k)
+    outside = re.sub(group, "", fig or "")
     out += grid_parse(outside)
     return out
 
@@ -1515,6 +1526,105 @@ def paper_reversed(q):
     return None
 
 
+POLY_NAMES = {3: "triangle", 4: "square", 5: "pentagon", 6: "hexagon",
+              7: "heptagon", 8: "octagon", 9: "nonagon", 10: "decagon"}
+POLY_NAMES_AS = {3: "ত্ৰিভুজ", 4: "বৰ্গ", 5: "পঞ্চভুজ", 6: "ষড়ভুজ",
+                 7: "সপ্তভুজ", 8: "অষ্টভুজ", 9: "নৱভুজ", 10: "দশভুজ"}
+
+
+def series_cell(box, prims):
+    x0, y0, w, h = box
+    sides = None
+    polygons = 0
+    dots = lines = 0
+    missing = False
+    for tag, a, txt in prims:
+        cx, cy = grid_centre(tag, a, txt)
+        if not (x0 <= cx <= x0 + w and y0 <= cy <= y0 + h):
+            continue
+        if tag == "polygon":
+            polygons += 1
+            sides = len(a["points"].split())
+        elif tag == "circle":
+            if a.get("fill") == "#334155" and float(a["r"]) < 12:
+                dots += 1
+        elif tag == "line":
+            lines += 1
+        elif tag == "text" and txt == "?":
+            missing = True
+    return {"sides": sides if polygons == 1 else None, "dots": dots, "lines": lines, "missing": missing}
+
+
+def series_option(fig):
+    boxes = grid_cells(fig)
+    if len(boxes) > 1:
+        return None
+    if not boxes:
+        m = re.search(r'viewBox="0 0 ([\d.]+) ([\d.]+)"', fig or "")
+        if not m:
+            return None
+        boxes = [(0.0, 0.0, float(m.group(1)), float(m.group(2)))]
+    return series_cell(boxes[0], grid_prims(fig))
+
+
+def paper_series_next(q):
+    """Figure series: one counted feature grows by the same step, so the next figure is fixed."""
+    fig = q.get("fig") or ""
+    seq = [series_cell(b, grid_prims(fig)) for b in grid_cells(fig)]
+    if len(seq) < 3:
+        return None
+    miss = [i for i, c in enumerate(seq) if c["missing"]]
+    if len(miss) != 1:
+        return None
+    known = [c for i, c in enumerate(seq) if i != miss[0]]
+    opts = [series_option(o.get("fig") or "") for o in q["options"]]
+    if any(o is None for o in opts):
+        return None
+    for feat in ("sides", "dots", "lines"):
+        vals = [c[feat] for c in known]
+        if any(v is None for v in vals) or len(set(vals)) < 2:
+            continue
+        steps = {vals[i + 1] - vals[i] for i in range(len(vals) - 1)}
+        if len(steps) != 1:
+            continue
+        step = steps.pop()
+        if step < 1:
+            continue
+        want = vals[-1] + step
+        hits = [i for i, o in enumerate(opts) if o[feat] == want]
+        if len(hits) == 1 and hits[0] == q["correct"]:
+            break
+    else:
+        return None
+    letter = chr(65 + q["correct"])
+    listed = ", ".join(str(v) for v in vals)
+    if feat == "sides":
+        if want in POLY_NAMES:
+            closing = f"that is the {POLY_NAMES[want]}"
+            closing_as = f"অৰ্থাৎ {POLY_NAMES_AS.get(want, POLY_NAMES[want])}"
+        else:
+            closing = f"a figure with {want} sides"
+            closing_as = f"{want} বাহুৰ এটা চিত্ৰ"
+        grew = "gains one side" if step == 1 else f"gains {step} sides"
+        en = (f"The outline {grew} at every step: {listed}. The next figure therefore has "
+              f"{want} sides, {closing} - option {letter}.")
+        as_ = (f"শৃংখলাত প্ৰতি ধাপে {'এটা' if step == 1 else step} বাহু বাঢ়ে: {listed}। "
+               f"গতিকে পৰৱৰ্তী চিত্ৰত {want} টা বাহু থাকিব, {closing_as} — বিকল্প {letter}।")
+    elif feat == "dots":
+        grew = "The dots grow by one at every step" if step == 1 else f"The dots grow by {step} at every step"
+        en = (f"{grew}: {listed}. The next figure carries {want} dots, "
+              f"so it is option {letter}.")
+        as_ = (f"শৃংখলাত প্ৰতি ধাপে {step} টা বিন্দু বাঢ়ে: {listed}। গতিকে পৰৱৰ্তী চিত্ৰত {want} টা "
+               f"বিন্দু থাকিব — বিকল্প {letter}।")
+    else:
+        grew = "The lines grow by one at every step" if step == 1 else f"The lines grow by {step} at every step"
+        en = (f"{grew}: {listed}. The next figure carries {want} lines, "
+              f"so it is option {letter}.")
+        as_ = (f"শৃংখলাত প্ৰতি ধাপে {step} টা ৰেখা বাঢ়ে: {listed}। গতিকে পৰৱৰ্তী চিত্ৰত {want} টা ৰেখা "
+               f"থাকিব — বিকল্প {letter}।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -1817,6 +1927,9 @@ def b_course_of_action(q):
 CLUSTERS = [
     ("the missing cell follows the same repeating rule", paper_pattern_cell),
     ("the three figures repeat in the same order in every row", paper_pattern_cell),
+    ("the number of sides increases by the same amount at each step", paper_series_next),
+    ("the number of dots increases by one at each step", paper_series_next),
+    ("the number of parallel lines increases by one at each step", paper_series_next),
     ("each column shows the same figure", paper_pattern_cell),
     ("each row shows the same figure", paper_pattern_cell),
     ("a mirror image reverses the figure left to right", paper_reversed),
