@@ -4621,3 +4621,16 @@ mark, and it is the kind of filler that gets an AdSense review rejected.
 
 After any content change, run the whole tool in dry-run and confirm it reports
 zero.
+
+### Before an AdSense review, audit thin pages
+
+`python3 tools/content-audit.py` prints the signals a review reacts to: thin
+pages, stems repeated inside or across banks, template families, and
+explanations reused word for word.
+
+Thin pages are pages a reader learns nothing from, and they drag down the
+whole site. Keep a page indexable only if it carries real practice or real
+notes. `assam-police-combo` is the current example: 105 pages holding 85
+questions between them, so the section is `noindex, follow` and out of the
+sitemap until it has content worth reading. `node tools/sync-sitemap-alts.js`
+reads the `noindex` flag and keeps the map honest.
