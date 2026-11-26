@@ -4680,6 +4680,11 @@ The explanation names the lettering and what each of the other three cards did.
 Letters that are symmetric on the asked axis (A under a mirror; C, E, K, H, I, O,
 X under water) are skipped, because there the key is arbitrary.
 
+Embedded figures are checked by trying to lay the option's outline on the drawing: a
+scale-and-shift is searched from pairs of drawn endpoints, every side must then fall
+along a drawn line, and only one option (the key) is allowed to fit. The explanation
+names those lines ("the top edge", "the vertical line two fifths of the way across").
+
 Series figures (five cells, the last one a question mark) were stored with cell-local
 coordinates while the cells sit across a 500x100 canvas, so every shape landed on the
 first cell and the rest looked empty. tools/fix-series-figures.py groups each cell's

@@ -1625,6 +1625,176 @@ def paper_series_next(q):
     return en, as_
 
 
+EMBED_FRACTIONS = {0.125: "an eighth", 0.25: "a quarter", 0.2: "a fifth", 1 / 3: "a third",
+                   0.375: "three eighths", 0.4: "two fifths", 0.5: "half", 0.6: "three fifths",
+                   0.625: "five eighths", 2 / 3: "two thirds", 0.75: "three quarters",
+                   0.8: "four fifths", 0.875: "seven eighths"}
+
+
+def embed_fraction(v):
+    best = min(EMBED_FRACTIONS, key=lambda k: abs(k - v))
+    return EMBED_FRACTIONS[best] if abs(best - v) <= 0.06 else None
+
+
+def embed_segments(fig):
+    out = []
+    for m in re.finditer(r'<polygon points="([^"]*)"([^>]*)>', fig or ""):
+        if "#334155" not in m.group(2) and "#0f172a" not in m.group(2):
+            continue
+        P = [tuple(map(float, t.split(","))) for t in m.group(1).split()]
+        for i in range(len(P)):
+            out.append((P[i], P[(i + 1) % len(P)]))
+    for m in re.finditer(r"<line ([^>]*)>", fig or ""):
+        a = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(1)))
+        if a.get("stroke") in ("#334155", "#0f172a"):
+            out.append(((float(a["x1"]), float(a["y1"])), (float(a["x2"]), float(a["y2"]))))
+    return out
+
+
+def embed_options_poly(fig):
+    for m in re.finditer(r'<polygon points="([^"]*)"([^>]*)>', fig or ""):
+        if "#334155" in m.group(2) or "#0f172a" in m.group(2):
+            return [tuple(map(float, t.split(","))) for t in m.group(1).split()]
+    return None
+
+
+def embed_point_on(p, a, b, tol=1.5):
+    ax, ay = a
+    bx, by = b
+    dx, dy = bx - ax, by - ay
+    L2 = dx * dx + dy * dy or 1e-9
+    t = ((p[0] - ax) * dx + (p[1] - ay) * dy) / L2
+    if t < -0.02 or t > 1.02:
+        return False
+    return math.hypot(p[0] - (ax + t * dx), p[1] - (ay + t * dy)) <= tol
+
+
+def embed_covered(poly, segments, tol=1.5):
+    hits = []
+    for i in range(len(poly)):
+        p, q = poly[i], poly[(i + 1) % len(poly)]
+        found = None
+        for a, b in segments:
+            if embed_point_on(p, a, b, tol) and embed_point_on(q, a, b, tol):
+                found = (a, b)
+                break
+        if not found:
+            return None
+        hits.append(found)
+    return hits
+
+
+def embed_norm(segments):
+    xs = [p[0] for s in segments for p in s]
+    ys = [p[1] for s in segments for p in s]
+    x0, y0, x1, y1 = min(xs), min(ys), max(xs), max(ys)
+    w = max(x1 - x0, 1e-6)
+    h = max(y1 - y0, 1e-6)
+    return lambda p: ((p[0] - x0) / w, (p[1] - y0) / h)
+
+
+def embed_side_name(seg, norm):
+    a, b = norm(seg[0]), norm(seg[1])
+    if abs(a[1] - b[1]) < 0.03:
+        y = (a[1] + b[1]) / 2
+        if y < 0.03:
+            return "the top edge"
+        if y > 0.97:
+            return "the bottom edge"
+        frac = embed_fraction(y)
+        if frac == "half":
+            return "the horizontal line halfway down"
+        return f"the horizontal line {frac} of the way down" if frac else "a horizontal line"
+    if abs(a[0] - b[0]) < 0.03:
+        x = (a[0] + b[0]) / 2
+        if x < 0.03:
+            return "the left edge"
+        if x > 0.97:
+            return "the right edge"
+        if abs(x - 0.5) < 0.03:
+            return "the vertical line down the middle"
+        frac = embed_fraction(x)
+        if frac == "half":
+            return "the vertical line halfway across"
+        return f"the vertical line {frac} of the way across" if frac else "a vertical line"
+    return f"the sloping line from {mirror_place(*a)} to {mirror_place(*b)}"
+
+
+def embed_parallel(u, v, tol=0.03):
+    nu, nv = math.hypot(*u), math.hypot(*v)
+    if nu < 1e-9 or nv < 1e-9:
+        return False
+    return abs(u[0] * v[1] - u[1] * v[0]) / (nu * nv) < tol
+
+
+def embed_fit(poly, segments):
+    """A scale-and-shift that lays every side of the shape on a line of the drawing."""
+    pts = [p for s in segments for p in s]
+    for i in range(len(poly)):
+        v0, v1 = poly[i], poly[(i + 1) % len(poly)]
+        edge = (v1[0] - v0[0], v1[1] - v0[1])
+        le = math.hypot(*edge)
+        if le < 1e-9:
+            continue
+        for p0 in pts:
+            for p1 in pts:
+                span = (p1[0] - p0[0], p1[1] - p0[1])
+                ld = math.hypot(*span)
+                if ld < le * 0.999 or not embed_parallel(edge, span):
+                    continue
+                s = ld / le
+                t = (p0[0] - s * v0[0], p0[1] - s * v0[1])
+                mapped = [(s * v[0] + t[0], s * v[1] + t[1]) for v in poly]
+                hits = embed_covered(mapped, segments)
+                if hits:
+                    return mapped, hits
+    return None
+
+
+def embed_dedupe(segments):
+    seen = set()
+    out = []
+    for a, b in segments:
+        key = (round(min(a[0], b[0]), 0), round(min(a[1], b[1]), 0),
+               round(max(a[0], b[0]), 0), round(max(a[1], b[1]), 0))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append((a, b))
+    return out
+
+
+def paper_embedded(q):
+    """Embedded figures: the option whose sides all lie on lines already drawn."""
+    segments = embed_segments(q.get("fig") or "")
+    if not segments:
+        return None
+    found = []
+    for i, o in enumerate(q["options"]):
+        poly = embed_options_poly(o.get("fig") or "")
+        if not poly:
+            return None
+        fit = embed_fit(poly, segments)
+        if fit:
+            found.append((i, fit[0], fit[1]))
+    if len(found) != 1 or found[0][0] != q["correct"]:
+        return None
+    idx, mapped, hits = found[0]
+    poly = mapped
+    norm = embed_norm(segments)
+    sides = [embed_side_name(s, norm) for s in embed_dedupe(hits)]
+    letter = chr(65 + idx)
+    shape = POLY_NAMES.get(len(poly), f"{len(poly)}-sided figure")
+    inner = [embed_side_name(s, norm) for s in embed_dedupe(segments)]
+    en = (f"The drawing is made of {len(embed_dedupe(segments))} straight lines. "
+          f"The {shape} in option {letter} is already there: {join_words(sides)} "
+          f"run along its sides, corner to corner. No other option closes on lines that are drawn, "
+          f"so {letter} is the embedded figure.")
+    as_ = (f"চিত্ৰত থকা ৰেখাবোৰৰ ওপৰতে বিকল্প {letter} ৰ {shape} টোৰ প্ৰতিটো বাহু পৰে — "
+           f"মূৰে-মূৰে মিলি যায়। আন কোনো বিকল্পই এইদৰে বন্ধ নহয়, গতিকে {letter} শুদ্ধ।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -1927,6 +2097,8 @@ def b_course_of_action(q):
 CLUSTERS = [
     ("the missing cell follows the same repeating rule", paper_pattern_cell),
     ("the three figures repeat in the same order in every row", paper_pattern_cell),
+    ("the outline of the figure in the correct option", paper_embedded),
+    ("the outline of the ", paper_embedded),
     ("the number of sides increases by the same amount at each step", paper_series_next),
     ("the number of dots increases by one at each step", paper_series_next),
     ("the number of parallel lines increases by one at each step", paper_series_next),
