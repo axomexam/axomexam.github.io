@@ -317,6 +317,95 @@ def b_subject_verb(q):
     return f'In "{filled}", the verb that agrees with this subject is "{answer(q).strip()}", a {kind} form.'
 
 
+def net_fold(fig):
+    """Fold the net cell by cell and return (grid, {face: opposite face})."""
+    cells = [(float(m.group(1)), float(m.group(2)), m.group(3).strip())
+             for m in re.finditer(r'<text[^>]*x="([\d.]+)"[^>]*y="([\d.]+)"[^>]*>([^<]+)</text>', fig or "")]
+    if len(cells) != 6:
+        return None
+    xs = sorted({c[0] for c in cells})
+    ys = sorted({c[1] for c in cells})
+    near = lambda v, arr: min(range(len(arr)), key=lambda i: abs(arr[i] - v))
+    grid = {}
+    for x, y, t in cells:
+        grid[(near(x, xs), near(y, ys))] = t
+    if len(grid) != 6:
+        return None
+    neg = lambda v: (-v[0], -v[1], -v[2])
+    start = next(iter(grid))
+    frames = {start: ((1, 0, 0), (0, 1, 0), (0, 0, 1))}
+    stack = [start]
+    while stack:
+        c = stack.pop()
+        r, d, n = frames[c]
+        for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            nb = (c[0] + dx, c[1] + dy)
+            if nb not in grid or nb in frames:
+                continue
+            if dx == 1:
+                f = (neg(n), d, r)
+            elif dx == -1:
+                f = (n, d, neg(r))
+            elif dy == 1:
+                f = (r, neg(n), d)
+            else:
+                f = (r, n, neg(d))
+            frames[nb] = f
+            stack.append(nb)
+    if len(frames) != 6:
+        return None
+    opp = {}
+    for c1, f1 in frames.items():
+        for c2, f2 in frames.items():
+            if c1 != c2 and f1[2] == neg(f2[2]):
+                opp[grid[c1]] = grid[c2]
+    return (grid, opp) if len(opp) == 6 else None
+
+
+def option_number(q):
+    o = q["options"][q["correct"]]
+    m = re.search(r'>\s*([1-6])\s*</text>', o.get("fig") or "")
+    if m:
+        return m.group(1)
+    text = (o.get("en") or "").strip()
+    return text if re.fullmatch(r"[1-6]", text) else None
+
+
+def b_cube_net(q):
+    """Answer the net question from the fold itself, speaking only when it agrees with the key."""
+    m = (re.search(r"face (?:marked with|numbered|having the number|with the number) (\d)", q["q"]["en"], re.I)
+         or re.search(r"(?:number|face) opposite (?:to )?(?:the )?(?:face )?"
+                      r"(?:marked with |numbered |having the number |with the number )?(\d)", q["q"]["en"], re.I))
+    if not m:
+        return None
+    face = m.group(1)
+    folded = net_fold(q.get("fig"))
+    if not folded:
+        return None
+    grid, opp = folded
+    other = opp.get(face)
+    if not other or option_number(q) != other:
+        return None
+    letter = (q["options"][q["correct"]].get("option") or chr(65 + q["correct"])).strip(")")
+    c = next(cc for cc, t in grid.items() if t == face)
+    oc = next(cc for cc, t in grid.items() if t == other)
+    run = how = None
+    if oc[0] == c[0]:
+        run = [t for _, t in sorted((cc[1], t) for cc, t in grid.items() if cc[0] == c[0])]
+        how = "vertical strip reading top to bottom"
+    elif oc[1] == c[1]:
+        run = [t for _, t in sorted((cc[0], t) for cc, t in grid.items() if cc[1] == c[1])]
+        how = "horizontal strip reading left to right"
+    if run and abs(run.index(face) - run.index(other)) == 2:
+        en = (f'In this net the {how} runs {", ".join(run)}; two faces apart in one straight '
+              f'strip fold onto opposite sides, so {other} is opposite {face} - option {letter}.')
+    else:
+        en = (f'Folding this net puts {other} on the face opposite {face}, '
+              f'which is what option {letter} shows.')
+    as_ = f'নেটখন ভাঁজ কৰিলে {face} ৰ বিপৰীত পৃষ্ঠা হয় {other} — বিকল্প {letter}।'
+    return en, as_
+
+
 def passive_builder(tense):
     def build(q):
         stem = q["q"]["en"]
@@ -531,6 +620,8 @@ CLUSTERS = [
     ("the object becomes the subject and the verb takes the past perfect passive form", passive_builder("past perfect")),
     ("the object becomes the subject and the verb takes the simple future passive form", passive_builder("simple future")),
     ("the object becomes the subject and the verb takes the future perfect passive form", passive_builder("future perfect")),
+    ("folding the net shows which cells become opposite faces", b_cube_net),
+    ("when the net folds, the first and third squares of the row", b_cube_net),
     ("a is true, but r is false", b_assertion_reason),
     ("a is false, but r is true", b_assertion_reason),
     ("the assertion is correct, but the reason is factually wrong", b_assertion_reason),
@@ -586,8 +677,8 @@ def esc(s):
     return html.escape(s, quote=True).replace("&#x27;", "&#39;")
 
 
-def rewrite_page(page_path, texts):
-    """Put the new English explanation into the i-th question block."""
+def rewrite_page(page_path, texts, as_texts=None):
+    """Put the new explanations into the i-th question block."""
     src = open(page_path, encoding="utf-8").read()
     blocks = src.split('<div class="qa-item')
     out = [blocks[0]]
@@ -598,6 +689,11 @@ def rewrite_page(page_path, texts):
             new = ('<div class="qs7" lang="en"><strong>Explanation:</strong> '
                    + esc(texts[touched]) + '</div>')
             block = block[:m.start()] + new + block[m.end():]
+        if as_texts and as_texts.get(touched) is not None:
+            a = re.search(r'<div class="qs9" lang="as">[\s\S]*?</div>', block)
+            if a:
+                new_a = '<div class="qs9" lang="as">' + esc(as_texts[touched]) + '</div>'
+                block = block[:a.start()] + new_a + block[a.end():]
         touched += 1
         out.append(block)
     open(page_path, "w", encoding="utf-8").write('<div class="qa-item'.join(out))
@@ -629,6 +725,7 @@ def main():
         rel = os.path.relpath(bank_file, os.path.join(ROOT, "data/exams"))[:-len("/question-001.json")]
         data = json.load(open(bank_file, encoding="utf-8"))
         new_texts = {}
+        new_as = {}
         changed = 0
         for i, q in enumerate(data):
             if not isinstance(q, dict):
@@ -641,6 +738,9 @@ def main():
                 fresh = fn(q)
             except Exception:
                 fresh = None
+            fresh_as = None
+            if isinstance(fresh, tuple):
+                fresh, fresh_as = fresh
             if not fresh or NORM(fresh) == NORM(old):
                 continue
             if len(fresh.split()) < 8:
@@ -651,13 +751,16 @@ def main():
             if len(bucket) < TOP:
                 bucket.append((rel, q.get("id"), old[:60], fresh))
             q.setdefault("explanation", {})["en"] = fresh
+            if fresh_as:
+                q["explanation"]["as"] = fresh_as
+                new_as[i] = fresh_as
             new_texts[i] = fresh
             changed += 1
         if changed and not DRY:
             json.dump(data, open(bank_file, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
             page = os.path.join(ROOT, "exams", rel, "index.html")
             if os.path.exists(page):
-                rewrite_page(page, new_texts)
+                rewrite_page(page, new_texts, new_as)
                 sync_twin(page)
         total += changed
         if changed:
